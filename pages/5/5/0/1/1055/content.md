@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -34,7 +33,7 @@ The underlying set of the _total space_ $E$ is the union of its stalks (notice t
 
 The following is adapted from a [MathOverflow answer](https://mathoverflow.net/questions/78681/etal%c3%a9-space-construction-for-presheaves-on-a-grothendieck-site/111293#111293) by [[David Carchedi]]:
 
-> As long as $C$ has a small set of topological generators (i.e., as long as $Sh(C,J)$ isn't too large to be a [[topos]]), there always exists a certain version of an étale space: If $F$ is a [[sheaf]] on $(C,J)$, the [[slice topos]] $Sh(C,J)/F$ has a canonical étale projection  $$\pi_F:Sh(C,J)/F \to Sh(C,J).$$ This map is a local homeomorphism of topoi. This topos with this local homeomorphism is the étale space of $F$. Indeed, we may make this construction for each object $c \in C$, call it $U(c):=Sh(C,J)/y(c)$, where $y(c)$ is the (possibly sheafified) [[Yoneda]] embedded object. Then, "sections of $\pi_F$ over $U(c) \to Sh(C,J)$" are in bijection with elements of $F(c)$. If the Grothendieck [[site]] $(C,J)$ happened to be the [[canonical site]] of a topological space, then each [[slice]] $Sh(C,J)/F$ is equivalent to sheaves on the étale space of that [[sheaf]], and the projection corresponds to the usual one. In particular, $U(c) \to Sh(C,J)$ corresponds to the inclusion of an open subset. So, this is reduces to the usual construction for spaces. Another example is, if $(C,J)$ were the small étale site of some scheme $S$, then each $Sh(C,J)/F$ is the small étale site of some algebraic space (with no separation conditions) étale over $S$, with $\pi_F$ corresponding to the étale map from this algebraic space to $S$.
+> As long as $C$ has a [[small set]] of topological generators (i.e., as long as $Sh(C,J)$ isn't too large to be a [[topos]]), there always exists a certain version of an étale space: If $F$ is a [[sheaf]] on $(C,J)$, the [[slice topos]] $Sh(C,J)/F$ has a canonical étale projection  $\pi_F:Sh(C,J)/F \to Sh(C,J)$. This map is a [[local homeomorphism of topoi]]. This topos with this local homeomorphism is the étale space of $F$. Indeed, we may make this construction for each object $c \in C$, call it $U(c) \coloneqq Sh(C,J)/y(c)$, where $y(c)$ is the (possibly sheafified) [[Yoneda embedding|Yoneda embedded]] object. Then, "[[sections]] of $\pi_F$ over $U(c) \to Sh(C,J)$" are in [[bijection]] with [[elements]] of $F(c)$. If the Grothendieck [[site]] $(C,J)$ happened to be the [[canonical site]] of a [[topological space]], then each [[slice]] $Sh(C,J)/F$ is equivalent to [[category of sheaves|sheaves]] on the étale space of that [[sheaf]], and the projection corresponds to the usual one. In particular, $U(c) \to Sh(C,J)$ corresponds to the inclusion of an [[open subset]]. So, this is reduces to the usual construction for spaces. Another example is, if $(C,J)$ were the [[small étale site]] of some [[scheme]] $S$, then each $Sh(C,J)/F$ is the small étale site of some algebraic space (with no separation conditions) étale over $S$, with $\pi_F$ corresponding to the étale map from this algebraic space to $S$.
 
 ## Properties
 
