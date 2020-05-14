@@ -95,4 +95,4 @@ For instance [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
 [[!redirects fibrations in groupoids]]
 [[!redirects opfibrations in groupoids]]
 
-[[!redirects fibration  fibered in groupoids]]
+[[!redirects fibrations fibered in groupoids]]
