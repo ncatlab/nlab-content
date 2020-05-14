@@ -99,7 +99,7 @@ $$ (S h_{(1)}\otimes S h_{(2)})=(\tau\circ\Delta)(S h) = (S h)_{(2)}\otimes (S h
 
 The axiom that must be satisfied by the antipode looks like a $k$-linear version of the identity satisfied by the inverse map in a group bimonoid: taking a group element $g$, duplicating by the diagonal map $\Delta$ to obtain $(g,g)$, taking the inverse of either component of this ordered pair, and then multiplying the two components, we obtain the identity element of our group.
 
-Just as an [[algebra]] is a [[monoid]] in [[Vect]] and a [[bialgebra]] is a [[bimonoid]] in $Vect$, a Hopf algebra is a [[Hopf monoid]] in $Vect$.
+Just as an [[associative unital algebra|algebra]] is a [[monoid]] in [[Vect]] and a [[bialgebra]] is a [[bimonoid]] in $Vect$, a Hopf algebra is a [[Hopf monoid]] in $Vect$.
 
 
 +-- {: .num_remark}
