@@ -512,7 +512,7 @@ As a special case of the above, any [[presheaf topos]], i.e. any topos of the fo
 ### For geometric theories / cover-preserving flat functors on a site
  {#CoverPreservingFLatFunctors}
 
-Another way, apart from that [above](#ForLocalicGroupoids), of viewing any [[Grothendieck topos]] $E$ as a classifying topos is to start with a small [[site]] of definition for it.  Any such site gives rise to a [[geometric theory]] called the theory of [[cover-preserving functor|cover-preserving]] flat functors on that site.  The classifying topos of this theory is again $E$.
+Another way, apart from that [above](#ForLocalicGroupoids), of viewing any [[Grothendieck topos]] $E$ as a classifying topos is to start with a small [[site]] of definition for it.  Any such site gives rise to a [[geometric theory]] called the theory of [[cover-preserving functor|cover-preserving]] flat functors on that site (also called the [[theory of flat functors| theory of J-continuous flat functors]], for syntactic details see there!).  The classifying topos of this theory is again $E$.
 
 Moreover, for any object $X$ of $E$, there is a small site of definition
 for $E$ which includes $X$, and thus for which $X$ is (part of) the universal object.  
@@ -597,6 +597,8 @@ $$
 we should expect there to be a topos analog of the total space, $E G$, for the classifying space. This analog is the *generic G-torsor*, which is an internal $G$-torsor in the topos $Set^G$.  The important aspect of the space $E G$ is that as a principal $G$-bundle over $\mathcal{B} G$, it is a *universal element*, i.e. the natural transformation $Hom(X, \mathcal{B}G) \to G Bdl(X)$ that it induces (by the [[Yoneda lemma]]) is the isomorphism which exhibits $\mathcal{B}G$ as the object representing the functor $X \mapsto G Bdl(X)$.  For the same Yoneda reasons, the classifying topos $Sh(C_T)$ of any geometric theory $T$ comes with a *generic $T$-model*, which is a $T$-model in $Sh(C_T)$ which represents the functor $E \mapsto T Mod(E)$ in the same way.  For $T$ = the theory of $G$-torsors, this generic model is the generic $G$-torsor.
 
 ## Related concepts
+
+* [[theory of flat functors|theory of cover-preserving flat functors]]
 
 * [[representable functor]]
 
