@@ -25,5 +25,9 @@ Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a pr
 
 * {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
 
+The [[D=6 N=(2,0) SCFT]]:
+
+* [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
+
 
 category: people
