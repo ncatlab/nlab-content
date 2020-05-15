@@ -41,6 +41,8 @@ This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
 
 * [[large cardinal]]
 
+* [[real-valued-measurable cardinal]]
+
 ## References
 
 * M. Adelman, [[Andreas Blass|A. Blass]], _Exact functors, local connectedness and measurable cardinals_ , Rend. Sem. Mat. Fis. Milano **54** (1984) pp.9-28.
