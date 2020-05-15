@@ -33,6 +33,9 @@ Review:
 
 * Stephen Lars Olsen, _The XYZ mesons: what they aren't_, EPJ Web of Conferences 202, 01003 (2019) ([doi:10.1051/epjconf/201920201003](https://doi.org/10.1051/epjconf/201920201003))
 
+* Nora Brambilla, Simon Eidelman, Christoph Hanhart, Alexey Nefediev, Cheng-Ping Shen, Christopher E. Thomas, Antonio Vairo, Chang-Zheng Yuan, _The XYZ states: experimental and theoretical status and perspectives_, Physics Reports 2020 ([arXiv:1907.07583](https://arxiv.org/abs/1907.07583))
+
+
 See also 
 
 * Wikipedia, _[XYZ particle](https://en.wikipedia.org/wiki/XYZ_particle)_
