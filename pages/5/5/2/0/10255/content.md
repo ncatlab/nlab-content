@@ -7,6 +7,10 @@ This page collects some links related to
 
   American Mathematical Society (1999)
 
+  [ISBN:978-0-8218-1953-1](https://bookstore.ams.org/FLS)
+
+  [spire:517862](https://inspirehep.net/literature/517862)
+
 on [[superalgebra]], [[supergeometry]] and [[supersymmetry]].
 
 See in conjunction also
