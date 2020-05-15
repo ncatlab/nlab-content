@@ -9,7 +9,7 @@ Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally o
 
 On probing [[M-theory]] via [[AdS/CFT]] and the [[conformal bootstrap]]:
 
-* {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_ ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+* {#ChesterPerlmutter18} [[Shai Chester]], [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_ ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
 
 
 On [[string scattering amplitudes]] via [[AdS/CFT]] and the [[conformal bootstrap]]:
