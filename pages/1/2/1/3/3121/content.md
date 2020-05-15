@@ -118,6 +118,9 @@ has a [[left adjoint]]
 
 * For $C = $ [[Top]] the stabilization is the category [[Spec]] of [[spectra]]. The functor $\Sigma^\infty : Top_* \to Spec$  is that which forms [[suspension spectra]].
 
+* For $C=Set$, [[the category of sets]], the stabilization is trivial.
+An object in $Stab(Set)$ is a sequence of [[pointed sets]] $(E_0, E_1, \ldots)$ together with isomorphisms $\Omega(E_{i+1}) \simeq E_i$.  But $\Omega(X) = \ast \times_X \ast \simeq \ast$ for every [[pointed set]] $X$. So every object is isomorphic to $(\ast, \ast, \ldots)$. The space of [[endomorphisms]] of this object is a [[limit]] of the [[endomorphism]] spaces $Map_{Set_*}(\ast, \ast) \simeq \ast$, which is again [[contractible]].
+
 ## Related concepts
 
 [[!include k-monoidal table]]
@@ -135,7 +138,7 @@ Discussion of stabilization as inversion of smashing with a suspension objects, 
 
 * {#Robalo12} [[Marco Robalo]], section 4 of _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
 
-  published as 
+published as 
 
 * {#Robalo15} [[Marco Robalo]], section 2 of _K-theory and the bridge from motives to noncommutative motives_, Advances in Mathematics Volume 269, 10 January 2015 ([doi:10.1016/j.aim.2014.10.011](https://doi.org/10.1016/j.aim.2014.10.011))
 
