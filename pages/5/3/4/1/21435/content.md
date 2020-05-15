@@ -3,13 +3,11 @@
 ## Idea: the Banach–Ulam problem
 
 The __Banach–Ulam problem__ asks: are there any nontrivial
-[[measures]] on a set $X$ equipped with the [[σ-algebra]] $2^X$
-of all subsets of $X$?
+[[measures]] on a [[set]] $X$ equipped with the [[σ-algebra]] $2^X$ of all [[subsets]] of $X$?
 
 All [[measures]] are by definition countably additive.
 
-Here a measure on $(X,2^X)$ is __trivial__
-if it can be obtained by the following construction.
+Here a measure on $(X,2^X)$ is __trivial__ if it can be obtained by the following construction.
 Start with a set $X$, a map $f\colon X\to\mathbf{R}$, and a [[σ-ideal]] $I$ on $X$.
 Set $\mu(A)=\sum_{x\in A}f(x)$ if $A\in I$ and $\mu(A)=\infty$ otherwise.
 Then $\mu$ is a [[measure]] on $(X,2^X)$.
