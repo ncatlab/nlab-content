@@ -80,6 +80,10 @@ More abstractly this means that the [[tensor product of vector spaces]] is the v
 
 ## Related concepts
 
+* [[tensor product of modules]]
+
+* [[tensor product of chain complexes]]
+
 * [[tensor product of vector bundles]]
 
 * [[graded vector space]]
