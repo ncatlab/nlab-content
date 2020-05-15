@@ -15,14 +15,59 @@
 
 ## Definition
 
-If $X$ is a [[locally compact group|locally compact]] [[Hausdorff topological space]], a __Radon measure__ on $X$ is a [[Borel measure]] on $X$ that is 
+Recall the following properties of a [[Borel measure]] $\mu$ on a [[Hausdorff topological space]]:
 
-* finite on all [[compact subsets]],
+* $\mu$ is __outer regular__ if for every [[Borel subset]] $B$ we have
+$$\mu(B)=\inf\{\mu(V)\mid V\supset B and V is open\}.$$
 
-* outer regular (i.e. can be approximated from outside by measure on the [[open sets]]) on all [[Borel sets]], and
+* $\mu$ is __locally finite__ if every point has a neighborhood with a finite $\mu$-measure.
 
-* inner regular (i.e. can be approximated from inside by a measure on compact sets) on [[open subset|open sets]]. 
+* $\mu$ is __inner regular__ on some [[Borel subset]] $B$ if
+$$\mu(B)=\sup\{\mu(K)\mid K\subset B and K is compact\}.$$
 
+Also, if $m$ and $M$ are [[Borel measures]],
+then $m$ is the __essential measure__ associated with $M$ if
+$$m(A)=\sup\{m^*(C)\mid C\subset A, m^*(C) is finite\},$$
+where
+$$m^*(C)=\inf\{m(B)\mid B\supset C and B is Borel\}.$$
+Equivalently, one can simply say that
+$$m(B)=\sup\{M(B')\mid B'\subset B, M(B') is finite, B' is Borel\}.$$
+
+We give three equivalent definitions of Radon measures.
+
+\begin{definition}
+If $X$ is a [[Hausdorff topological space]], then a __Radon measure__ on $X$
+is a [[Borel measure]] $m$ on $X$ such that $m$ is locally finite and inner regular on all [[Borel subsets]].
+\end{definition}
+
+\begin{definition}
+If $X$ is a [[Hausdorff topological space]], then a __Radon measure__ on $X$
+is a [[Borel measure]] $M$ on $X$ such that $M$ is locally finite, outer regular, and inner regular on all open subsets.
+\end{definition}
+
+\begin{definition}
+If $X$ is a [[Hausdorff topological space]], then a __Radon measure__ on $X$
+is a pair of [[Borel measures]] $m$ and $M$ on $X$ such that $m$ is the
+essential measure associated with $M$,
+$M$ is outer regular (on all Borel subsets),
+$M$ is locally finite,
+$M$ is inner regular on all Borel subsets,
+and $m(B)=M(B)$ whenever $B$ is open or $M(B)$ is finite.
+\end{definition}
+
+## Equivalence of definitions
+
+In order to pass from $m$ to $M$, set
+$$M(B)=\inf\{m(V)\mid V\supset B and V is open\}.$$
+
+In order to pass from $M$ to $m$, set
+$$m(B)=\sup\{M(B')\mid B'\subset B, M(B') is finite, B' is Borel\}.$$
+
+If $m(X)$ or $M(X)$ is finite, then $m=M$.
+
+A Radon measure is __σ-finite__ if $m$ is σ-finite.
+
+A Radon measure is __moderated__ if $M$ is σ-finite.
 
 ## Properties
 
@@ -55,6 +100,14 @@ Most measures of interest in [[geometry]] are Radon. For example
 
 
 ## References
+
+The canonical references on Radon measures are
+
+* [[Laurent Schwartz]], _Radon measures on arbitrary topological spaces and cylindrical measures_.
+
+* [[Nicolas Bourbaki]], _Integration.  Chapter IX_.
+
+More recent expositions include
 
 * V. Bogachev, _Measure Theory_, vol. 2 (2007).
 
