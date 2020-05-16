@@ -210,11 +210,11 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
-[[Physical Mathematics and the Future|Moore 14, pages 43-44]]:
+{#Moore14} [[Physical Mathematics and the Future|Moore 14, pages 43-44]]:
 
 >  We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. 
 
-> A good start was given by the Matrix theory approach of Banks, Fischler, Shenker and Susskind. We have every reason to expect that this theory produces the correct scattering amplitudes of modes in the 11-dimensional supergravity multiplet in 11-dimensional Minkowski space - even at energies sufficiently large that black holes should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of M-theory. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[$...$]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics.
+> {#AGoodStartWasGivenByTheMatrixTheory} A good start was given by the [[BFSS matrix model|Matrix theory]] approach of [[Tom Banks|Banks]], [[Willy Fischler|Fischler]], [[Stephen Shenker|Shenker]] and [[Leonard Susskind|Susskind]]. We have every reason to expect that this theory produces the correct [[scattering amplitudes]] of modes in the [[11-dimensional supergravity]] multiplet in 11-dimensional [[Minkowski space]] - even at energies sufficiently large that [[black holes]] should be created. (This latter phenomenon has never been explicitly demonstrated). But [[BFSS matrix model|Matrix theory]] is only a beginning and does not give us the whole picture of [[M-theory]]. The program ran into increasing technical difficulties when more complicated [[KK-compactification|compactifications]] were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[...]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics. 
 
 \linebreak
 
@@ -224,14 +224,14 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
-[Witten 19, USN Interview](Edward+Witten#WhatIsMissing):
+{#Witten19} [Witten 19, USN Interview](Edward+Witten#WhatIsMissing):
 
 > I actually believe that string/M-theory is on the right track toward a deeper explanation.  But at a very fundamental level it’s not well understood. And I’m not even confident that we have a good concept of what sort of thing is  missing or where to find it. The reason I am not is that in hindsight it is clear the view given in the 1980s of what is missing was too narrow. Instead of discovering what we thought was missing, we broadened the picture in the 90s, in unexpected directions.
 
 
 \linebreak
 
-[Duff 19, USN interview](Michael+Duff#WeDontKnowWhatItIs):
+{#Duff19} [Duff 19, USN interview](Michael+Duff#WeDontKnowWhatItIs):
 
 
 > The problem we face is that we have a patchwork understanding of M-theory, like a quilt. We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is. 
@@ -240,7 +240,7 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
-[[Duff interview at M-Theory-Mathematics 2020]]:
+{#Duff20} [[Duff interview at M-Theory-Mathematics 2020]]:
 
 > (06:59) But the matrix model itself was not all of M-theory; it was a corner of M-theory, and it told us certain interesting things, but there were interesting things about M-theory that it didn't tell us. 
 
