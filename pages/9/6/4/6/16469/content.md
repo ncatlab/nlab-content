@@ -47,6 +47,8 @@ By [[Deligne's theorem on tensor categories]] the most general regular [[tensor 
 [[!redirects supermultiplet]]
 [[!redirects supermultiplets]]
 
+[[!redirects super-multiplet]]
+[[!redirects super-multiplets]]
 
 
 [[!redirects superpartner]]
