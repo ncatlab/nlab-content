@@ -1126,13 +1126,13 @@ For the [[superstring]]:
 
 For the [[M2-brane]]:
 
-* {#deWitPeetersPlefkaSevrin98} [[Bernard de Wit]], [[Kasper Peeters]], [[Jan Plefka]], Alexander Sevrin, _The M-Theory Two-Brane in $AdS_4 \times S^7$ and $AdS_7 \times S^4$_, Phys.Lett. B443 (1998) 153-158 ([arXiv:hep-th/9808052v1](http://arxiv.org/abs/hep-th/9808052v1))
+* {#deWitPeetersPlefkaSevrin98} [[Bernard de Wit]], [[Kasper Peeters]], [[Jan Plefka]], Alexander Sevrin, _The M-Theory Two-Brane in $AdS_4 \times S^7$ and $AdS_7 \times S^4$_, Phys.Lett. B443 (1998) 153-158 ([arXiv:hep-th/9808052](http://arxiv.org/abs/hep-th/9808052))
 
 * Makoto Sakaguchi, Hyeonjoon Shin, Kentaroh Yoshida, _Semiclassical Analysis of M2-brane in $AdS_4 \times S^7 / \mathbb{Z}_k$_, JHEP 1012:012,2010 ([arXiv:1007.3354](http://arxiv.org/abs/1007.3354))
 
 For the [[M2-brane]] and the [[M5-brane]]:
 
-* {#Claus98} P. Claus, _Super M-brane actions in $adS_4 \times S^7$ and $adS_7 \times S^4$_, Phys.Rev. D59 (1999) 066003 ([arXiv:hep-th/9809045](http://arxiv.org/abs/hep-th/9809045))
+* {#Claus98} P. Claus, _Super M-brane actions in $adS_4 \times S^7$ and $adS_7 \times S^4$_, Phys. Rev. D59 (1999) 066003 ([arXiv:hep-th/9809045](http://arxiv.org/abs/hep-th/9809045))
 
 * Makoto Sakaguchi, Kentaroh Yoshida, _Open M-branes on $AdS_{4/7} \times S^{7/4}$ Revisited_,  Nucl.Phys. B714 (2005) 51-66 ([arXiv:hep-th/0405109](http://arxiv.org/abs/hep-th/0405109))
 
