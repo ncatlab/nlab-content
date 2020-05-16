@@ -151,39 +151,6 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
        ( [Brylinski, section I.4](#Brylinski))
 
-       +-- {: .query}
-       [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
-
-       _Toby_:  Probably Brylinski has a requirement of metrisability or something.
-
-       [[Andrew Stacey]]: 
-       More generally, the coproduct of paracompact spaces is again paracompact.
-
-       Spivak, in _A Comprehensive Introduction to Differential Geometry, I_ has an appendix on non-metrisable manifolds.  He starts (in the appendix) by defining a manifold to be a Hausdorff locally Euclidean space.  Then he proves that for any manifold $M$ TFAE:
-
-       1. Each component of $M$ is $\sigma$-compact.
-       2. Each component of $M$ is second countable.
-       3. $M$ is metrisable.
-       4. $M$ is paracompact.
-
-       The bit to highlight is the words "Each component of ..." in the first two.
-
-       _Toby_:  Right, and I\'ve got the 'each component' clause in the section on finite-dimensional manifolds.  But how does this work for infinite-dimensional manifolds?  (I\'m also unsure how things work for non-Hausdorff manifolds, or more generally for non-Hausdorff locally compact spaces.
-
-       [[David Roberts]]: Lang has the result that second countable manifolds are paracompact. For him manifold seems to mean that the space is Hausdorff and locally euclidean, with no restriction on the type of vector space. Further, smooth partitions of unity exist. This is Corollary 3.4 in the 2002 edition of _Introduction to differentiable manifolds_
-
-       [[Andrew Stacey]] Surely "locally Euclidean" implies that the model space is $\mathbb{R}^n$.  Is this the book where he deals with finite and infinite dimensional manifolds all in one go?  In that case, I would caution that if I remember right (don't have the book in front of me) he's using manifolds modelled on at most Banach spaces.  For smooth partitions of unity to exist then you need to know that there is a smooth bump function, which hinges on some properties of the norm.  Kriegl and Michor (who else?) address this in chapter III of their book.  In particular, they quote a result due to Kurzweil (1954) that $C([0,1])$ and $\ell^1$ are not $C^1$-regular.
-
-       To Toby, I guess that the issue about components for infinite dimensional manifolds is dealt with in what I did before.  The question reduces to figuring out if a specific component is paracompact.  To use "metrisable implies paracompact" you've got to be on a Frechet manifold (since Frechet is the limit of metrisability).  Brylinski's construction outlined about is sufficient to ensure that (countable family of semi-norms).  To have smooth partitions of unity, you then need smoothly regular.  If the semi-norms are smooth (away from zero) then, obviously, that's sufficient.  In Brylinski's construction then that comes from the fact that the semi-norms are defined by Hilbertian norms.  I'm not sure what the condition on the closures is for, can anyone scan through the proof and see why they are used?  For the proof of paracompactness and partitions of unity then I don't see immediately why they are needed.  I expect I'm being [[dense]] but if someone could quickly enlighten me, I'd be grateful.
-
-       (Incidentally, since this query box is contained within a list, it's important that all paragraphs are indented properly, otherwise strange things happen)
-
-       [[David Roberts]]: When I said locally Euclidean, I was being lazy. I meant modelled on some vector space. And yes Lang does finite and infinite dimensions at the same time. Regarding the condition Brylinski uses, he says it implies that the image of $p_n : E \to H_n$ from the ILH space $E$ to each of the Hilbert spaces $H_n$ in the sequence is dense. I don't know how this is used, I'm relying on G00gle books.
-       Ah, but now that I check, Lang also says _unless specified, vector space will mean finite dimensional vector space_ ...
-
-       [[Andrew Stacey]] Hmm, I guess I'll have to get Lang and Brylinski out of the library to see exactly what's going on here.  I don't see how density can make any difference since we could always restrict to the closure of $p_n(E)$ in $H_n$.
-       =--
-
 * [[CW-complexes are paracompact Hausdorff spaces]] ([Miyazaki 52](#Miyazaki52)), see for instance [Hatcher, appendix of section 1.2](#Hatcher). For a discussion that highlights which [[axiom of choice|choice principles]] are involved, see ([Fritsch-Piccinini 90, Theorem 1.3.5 (p. 29 and following)](#FP)).
 
 * metric spaces
@@ -232,7 +199,7 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
   Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
 
-* For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers (in $Top$).
+* For paracompact Hausdorff spaces, all [[open covers]] are [[numerable open cover|numerable open covers]].
 
 * [[Michael's theorems]] 
 
