@@ -64,7 +64,7 @@ $$
   \omega \to \pi^+ + \pi^- + \pi^0
 $$
 
-(the "charged decay").
+(the "charged decay", e.g. [Rudaz 84, (2)](#Rudaz84)).
 
 Or rather, this is the direct (contact term) decay. The net process $\omega \to 3 \pi$ is dominated by the successive decay
 
@@ -151,7 +151,7 @@ Phenomenology:
 
 The direct decay $\omega \to \pi^0 + \pi^+ + \pi^-$:
 
-* S. Rudaz, _Anomalies, vector mesons and the $\omega \to 3 \pi$ contact term_, Phys. Lett. B 145 (1984) 281-284 ([spire:208193](https://inspirehep.net/literature/208193), <a href="https://doi.org/10.1016/0370-2693(84)90355-1">doi:10.1016/0370-2693(84)90355-1</a>)
+* {#Rudaz84} S. Rudaz, _Anomalies, vector mesons and the $\omega \to 3 \pi$ contact term_, Phys. Lett. B 145 (1984) 281-284 ([spire:208193](https://inspirehep.net/literature/208193), <a href="https://doi.org/10.1016/0370-2693(84)90355-1">doi:10.1016/0370-2693(84)90355-1</a>)
 
 
 
