@@ -30,7 +30,11 @@
 
 ## References
 
+### General
+
 See also 
 
 * Wikipedia, _[Nucleon](https://en.wikipedia.org/wiki/Nucleon)_
+
+[[!include quantum hadrodynamics -- references ]]
 
