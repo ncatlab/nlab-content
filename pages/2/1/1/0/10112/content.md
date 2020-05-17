@@ -226,6 +226,8 @@ The [[pole approximation]]:
 See the references at _[[chiral perturbation theory]]_.
 
 
+[[!include quantum hadrodynamics -- references ]]
+
 
 [[!include Skyrme hadrodynamics with vector mesons -- references]]
 
