@@ -18,20 +18,22 @@
 Recall the following properties of a [[Borel measure]] $\mu$ on a [[Hausdorff topological space]]:
 
 * $\mu$ is __outer regular__ if for every [[Borel subset]] $B$ we have
-$$\mu(B)=\inf\{\mu(V)\mid V\supset B and V is open\}.$$
+$$\mu(B)=\inf\{\mu(V)\mid V\supset B\; and\; V\; is\; open\}.$$
 
 * $\mu$ is __locally finite__ if every point has a neighborhood with a finite $\mu$-measure.
 
 * $\mu$ is __inner regular__ on some [[Borel subset]] $B$ if
-$$\mu(B)=\sup\{\mu(K)\mid K\subset B and K is compact\}.$$
+$$\mu(B)=\sup\{\mu(K)\mid K\subset B\; and\; K\; is\; compact\}.$$
 
 Also, if $m$ and $M$ are [[Borel measures]],
 then $m$ is the __essential measure__ associated with $M$ if
-$$m(A)=\sup\{m^*(C)\mid C\subset A, m^*(C) is finite\},$$
+$$m(A)=\sup\{m^*(C)\mid C\subset A,\; m^*(C)\; is\; finite\},$$
 where
-$$m^*(C)=\inf\{m(B)\mid B\supset C and B is Borel\}.$$
+$$m^*(C)=\inf\{m(B)\mid B\supset C\; and\; B\; is\; Borel\}.$$
 Equivalently, one can simply say that
-$$m(B)=\sup\{M(B')\mid B'\subset B, M(B') is finite, B' is Borel\}.$$
+$$
+m(B)=\sup\{M(B')\mid B'\subset B,\; M(B')\; is\; finite,\; B'\; is\; Borel\}.
+$$
 
 We give three equivalent definitions of Radon measures.
 
@@ -58,10 +60,10 @@ and $m(B)=M(B)$ whenever $B$ is open or $M(B)$ is finite.
 ## Equivalence of definitions
 
 In order to pass from $m$ to $M$, set
-$$M(B)=\inf\{m(V)\mid V\supset B and V is open\}.$$
+$$M(B)=\inf\{m(V)\mid V\supset B\; and\; V\; is\; open\}.$$
 
 In order to pass from $M$ to $m$, set
-$$m(B)=\sup\{M(B')\mid B'\subset B, M(B') is finite, B' is Borel\}.$$
+$$m(B)=\sup\{M(B')\mid B'\subset B,\; M(B')\; is\; finite,\; B'\; is\; Borel\}.$$
 
 If $m(X)$ or $M(X)$ is finite, then $m=M$.
 
@@ -89,9 +91,9 @@ supported functions.
 Such $\mu$ induces a pair $(m,M)$ in the sense of above definitions
 as follows: $M=\mu^*$ and $m=\mu^{\bar*}$,
 where $\mu^*$ is the outer measure associated to $\mu$, i.e.,
-$$\mu^*(A)=\inf\{\mu(\chi_B)\mid B\supset A, B is Borel\}$$
+$$\mu^*(A)=\inf\{\mu(\chi_B)\mid B\supset A,\; B\; is\; Borel\}$$
 and $\mu^{\bar*}$ is the essential measure associated to $\mu^*$:
-$$\mu^{\bar*}(A)=\sup\{\mu^*(C)\mid C\subset A, \mu^*(C) is finite\}.$$
+$$\mu^{\bar*}(A)=\sup\{\mu^*(C)\mid C\subset A,\; \mu^*(C)\; is\; finite\}.$$
 
 (For σ-finite spaces we have $\mu^*=\mu^{\bar*}$.)
 
@@ -172,7 +174,7 @@ The canonical references on Radon measures are
 
 More recent expositions include
 
-* V. Bogachev, _Measure Theory_, vol. 2 (2007).
+* V. Bogachev, _Measure Theory_, vol. 2 (2007). doi:[10.1007/978-3-540-34514-5](https://doi.org/10.1007/978-3-540-34514-5)
 
 * Gerald B. Folland, A course in abstract harmonic analysis, Studies in Adv. Math. CRC Press 1995
 
