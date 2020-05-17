@@ -7,8 +7,10 @@
 
 Inclusion of the [[pion]] and the [[rho-meson]] onto the [[Walecka model]] of [[quantum hadrodynamics]] (the _QHD-II model_):
 
-* [[Brian Serot]], _A relativistic nuclear field theory with $\pi$ and $\rho$ mesons_, Physics Letters B
-Volume 86, Issue 2, 24 (1979), Pages 146-150 (<a href="https://doi.org/10.1016/0370-2693(79)90804-9">doi:10.1016/0370-2693(79)90804-9</a>)
+* [[Brian Serot]], _A relativistic nuclear field theory with $\pi$ and $\rho$ mesons_, Physics Letters B Volume 86, Issue 2, 24 (1979), Pages 146-150 (<a href="https://doi.org/10.1016/0370-2693(79)90804-9">doi:10.1016/0370-2693(79)90804-9</a>)
+
+* T Matsui, [[Brian Serot]], _The pion propagator in relativistic quantum field theories of the nuclear many-body problem_, Annals of Physics Volume 144, Issue 1, November 1982, Pages 107-167 (<a href="https://doi.org/10.1016/0003-4916(82)90106-3">doi:10.1016/0003-4916(82)90106-3</a>)
+
 
 More on the [[quantum hadrodynamics]]:
 
