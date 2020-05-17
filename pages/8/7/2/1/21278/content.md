@@ -14,9 +14,7 @@ of the resulting family $\{RA_i\}_{i\in I}$ of [[fibrant replacements]].
 
 ## Examples
 
-In [[simplicial sets]] with [[simplicial weak equivalences]],
-homotopy products can be computed by applying Kan's [[Ex^∞]] functor
-to each [[simplicial set]] and taking their (ordinary) [[product]].
+In [[simplicial sets]] with [[simplicial weak equivalences]], finite homotopy products can be computed by taking their (ordinary) [[product]], because finite products preserve weak equivalences. More generally, homotopy products can be computed by applying Kan's [[Ex^∞]] functor to each [[simplicial set]] and taking their (ordinary) [[product]]. 
 
 In [[topological spaces]] with [[weak homotopy equivalences]],
 homotopy products can be computed as ordinary [[products]].
