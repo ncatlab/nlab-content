@@ -273,6 +273,10 @@ Relation between the vector- and the antisymmetric tensor-representation of vect
 
 * Karol Kampf, Jiri Novotny, Jaroslav Trnka, _On different lagrangian formalisms for vector resonances within chiral perturbation theory_, Eur. Phys. J. C50:385-403, 2007 ([arXiv:hep-ph/0608051](https://arxiv.org/abs/hep-ph/0608051))
 
+See also
+
+
+* V. Dmitrašinović, around (11) in: _Axial baryon number nonconserving antisymmetric tensor four-quark effective interaction_, Phys. Rev. D 62, 096010 (2000) ([doi:10.1103/PhysRevD.62.096010](https://doi.org/10.1103/PhysRevD.62.096010))
 
 Further application of the antisymmetric tensor representation of vector mesons to [[quantum hadrodynamics]]:
 
