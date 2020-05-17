@@ -153,6 +153,10 @@ The direct decay $\omega \to \pi^0 + \pi^+ + \pi^-$:
 
 * {#Rudaz84} S. Rudaz, _Anomalies, vector mesons and the $\omega \to 3 \pi$ contact term_, Phys. Lett. B 145 (1984) 281-284 ([spire:208193](https://inspirehep.net/literature/208193), <a href="https://doi.org/10.1016/0370-2693(84)90355-1">doi:10.1016/0370-2693(84)90355-1</a>)
 
+The $\omega \pi \rho$-coupling
+
+* {#GudinoSanchez12} D. Garcia Gudino, G. Toledo Sanchez, _The $\omega \rho \pi$ coupling in the VMD model revisited_, Int. J. Mod. Phys. A 27, 1250101 (2012) ([arXiv:1106.1467](https://arxiv.org/abs/1106.1467))
+
 
 
 On [[Dalitz decays]] of omega-mesons:
@@ -203,8 +207,6 @@ Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10
 * [[Jeffrey Harvey]], Christopher T. Hill, Richard J. Hill, Section II.B of: _Standard Model Gauging of the WZW Term: Anomalies, Global Currents and pseudo-Chern-Simons Interactions_, Phys. Rev. D77:085017, 2008 ([arXiv:0712.1230](https://arxiv.org/abs/0712.1230))
 
 * S. Leupold, M. F. M. Lutz, _Hadronic three-body decays of light vector mesons_, Eur. Phys. J. A39:205-212, 2009 ([arXiv:0807.4686](https://arxiv.org/abs/0807.4686))
-
-* {#GudinoSanchez12} D. Garcia Gudino, G. Toledo Sanchez, _The $\omega \rho \pi$ coupling in the VMD model revisited_, Int. J. Mod. Phys. A 27, 1250101 (2012) ([arXiv:1106.1467](https://arxiv.org/abs/1106.1467))
 
 
 * Florian Jonas, _Measurement of $\omega$ and $\eta$ mesons via their three pion decay with ALICE in pp collisions at $\sqrt{s} = t TeV$_, 2018 ([cds:2653176](https://cds.cern.ch/record/2653176))
