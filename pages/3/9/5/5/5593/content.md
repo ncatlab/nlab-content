@@ -106,7 +106,7 @@ Uniformities are closed under unions,
 so any [[completely regular]] [[locale]] admits a largest uniformity,
 the __fine uniformity__.
 
-The fine uniformity consists of all normal covers,
+The fine uniformity consists of all [[normal covers]] (alias [[numerable covers]]),
 where a cover $U$ is __normal__
 if there is a sequence of covers $\{U_n\}_{n\ge0}$
 such that $U=U_0$ and $U_{n+1}U_{n+1}$ refines $U_n$.
@@ -115,7 +115,7 @@ such that $U=U_0$ and $U_{n+1}U_{n+1}$ refines $U_n$.
 
 On a [[compact]] [[regular]] [[locale]] the system
 of all covers forms a uniformity.
-Maps out of compact regular locales
+Maps out of [[compact regular locales]]
 are automatically uniform.
 
 ### Complete uniform locales
@@ -182,3 +182,5 @@ A constructive and predicative theory in the programme of [[formal topology]] ca
 [[!redirects pointless uniformity]]
 [[!redirects pointless uniformities]]
 
+[[!redirects fine uniformity]]
+[[!redirects fine uniformities]]
