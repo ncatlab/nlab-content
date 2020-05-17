@@ -28,7 +28,8 @@ on basics of [[locales]] and [[pointfree topology]].
 
 The following lists chapterwise linked lists of keywords to relevant and related existing entries, as far as they already exist. 
 
-## I. Spaces and [[Lattices]] of Open Sets
+## I. Spaces and [[lattice|Lattices]] of Open Sets
+
  1. [[Sober spaces]]
  2. The axiom $T_D$: another case of spaces easy to reconstruct
  3. Summing up
