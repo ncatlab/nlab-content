@@ -22,7 +22,7 @@ This entry provides a hyperlinked index for the book
 
 on basics of [[locales]] and [[pointfree topology]].
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
