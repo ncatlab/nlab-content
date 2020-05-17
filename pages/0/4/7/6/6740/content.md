@@ -15,7 +15,7 @@
 
 ## Idea
 
-Measurable locales are certain [[locales]], which may serve as a basis for [[measure theory]] much as general locales serve as a basis for [[topology]] (especially in [[constructive mathematics]]).  Specifically, a measurable locale is equivalent to a [[localisable measurable space]] (or [[dual equivalence|dual]] to a commutative [[von Neumann algebra]]).
+Measurable locales are certain [[locales]], which may serve as a basis for [[measure theory]] much as general locales serve as a basis for [[topology]] (especially in [[constructive mathematics]]).  Specifically, a measurable locale is equivalent to a [[compact strictly localizable measurable space]] (or [[dual equivalence|dual]] to a commutative [[von Neumann algebra]]).
 
 Ironically, in [[constructive mathematics]], measurable locales are *not* locales (except for the [[empty space]]), on pain of [[excluded middle]].
 
@@ -33,7 +33,7 @@ First we give definitions appropriate for [[classical mathematics]].
 
 As a preliminary step, consider the [[category]] $Comp Bool Alg_{sup}$ of [[complete boolean algebras]] and [[supremum]]-preserving [[homomorphisms]] of boolean algebras.  This is a [[full subcategory]] of the category $Frm$ of [[frames]] and so its [[opposite category]] $Comp Bool Alg_{sup}^{op}$ is a full subcategory of the category [[Loc]] of locales.  The category $Meas Loc$ of measurable locales is yet further a full subcategory of $Comp Bool Alg_{sup}^{op}$, so our job is simply to specify *which* complete boolean algebras are the [[objects]] of this category.  There are at least three equivalent ways of doing so.
 
-1. By one definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a [[complete measure space]] $X$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $\mathcal{M}/\mathcal{N}$ of [[measurable subsets]] of $X$ modulo [[null subsets]].  Note that the measure on $X$ is irrelevant except to specify the null subsets.  In this way, $Meas Loc$ becomes [[equivalence of categories|equivalent]] to the category $Loc Meas$ of [[localisable measurable spaces]].  (Not every measure space has a *complete* boolean algebra as $\mathcal{M}/\mathcal{N}$; those which do are called *localisable*, and we interpret the term 'localisable measurable space' to refer to a structure with both $\mathcal{M}$ and $\mathcal{N}$ specified.)
+1. By one definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a (complete) [[compact strictly localizable enhanced measure space]] $X$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $\mathcal{M}/\mathcal{N}$ of [[measurable subsets]] of $X$ modulo [[null subsets]].  Note that the measure on $X$ is irrelevant except to specify the null subsets.  In this way, $Meas Loc$ becomes [[equivalence of categories|equivalent]] to the category $CSLEMS$ of (complete) [[compact strictly localizable enhanced measurable spaces]].  (Not every measure space has a *complete* boolean algebra as $\mathcal{M}/\mathcal{N}$; those which do are called *localizable*, and we interpret the term 'localizable enhanced measurable space' to refer to a structure with both $\mathcal{M}$ and $\mathcal{N}$ specified.)
 
 2. By another definition, a complete boolean algebra $L$ is a __measurable locale__ if for every element $x \neq 0$ of $L$ there is a [[normal measure]] (see [below](#normalmeasures)) $\mu$ on $L$ valued in $[0,\infty]$ such that $\mu(x) = 1$.  (It would be enough to demand that $0 \lt \mu(x) \lt \infty$, since we can rescale the measure.)
 
@@ -62,7 +62,7 @@ The [[point]], which is [[terminal object|terminal]] in $Meas Loc$, is the [[ini
 
 The [[real line]] is the boolean algebra of Lebesgue-[[measurable sets]] of [[real numbers]] modulo the [[null sets]].  This is complete as a boolean algebra because ... \[argument needed\] (and even constructively, it is still a boolean algebra).
 
-Applying the classification of $W^*$-algebras, we find that (up to [[isomorphism]]), every measurable locale is a [[disjoint union]] (dually a [[direct product]] of boolean algebras) of points or of points and infinitely many real lines; a single real line is already isomorphic to the union of countably infinitely many real lines.  (Of course, we can\'t expect this [[classification theorem]] to hold constructively.)
+Applying the classification of $W^*$-algebras, we find that (up to [[isomorphism]]), every measurable locale is a [[disjoint union]] (dually a [[direct product]] of boolean algebras) of $\{0,1\}^I$ for a set $I$ of arbitrary cardinality.  If $I$ is finite, we get discrete spaces; if $I$ is countable, we get the real line; a single real line is already isomorphic to the union of countably infinitely many real lines.  (Of course, we can\'t expect this [[classification theorem]] to hold constructively.)
 
 
 ### Borel measurable spaces
@@ -94,8 +94,10 @@ On *any* complete boolean algebra $L$, given any [[abelian monoid]] $R$ equipped
 *  _[[Scott continuity|continuity]]_: if $S$ is a downward-[[codirected set|directed]] [[subset]] of $L$ whose [[infimum]] is the [[bottom element]], then the [[net]] $(\mu(x))_{x\colon S}$ converges to $0$.
 
 One could, of course, define a garden-variety [[measure]] by requiring continuity only when $S$ is the image of a decreasing [[sequence]], but apparently normal measures are what we want for measurable locales.
+Normal measures are also known as [[continuous valuations]].
 
-(Perhaps there is a theorem that absolutely continuous measures on, say, Lebesgue space correspond to normal measures on the real line as a measurable locale?  Certainly [[Lebesgue measure]] is not normal on the $\sigma$-algebra of measurable sets, but presumably it is normal on the boolean algebra of measurable sets modulo null sets, which is what we want.)
+Absolutely continuous measures on, say, Lebesgue space correspond to normal measures on the real line as a measurable locale.
+Certainly [[Lebesgue measure]] is not normal on the $\sigma$-algebra of measurable sets, but it is normal on the boolean algebra of measurable sets modulo null sets, which is what we want.
 
 I\'m not entirely sure how this works in constructive mathematics, but $[0,\infty]$ (for a positive measure) would be the space of nonnegative [[lower reals]].
 
