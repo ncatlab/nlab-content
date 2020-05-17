@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[photon]]/[[pion]] [[interaction]]:
+
+* Ruvi Aviv, [[Anthony Zee]], _Low-Energy Theorem for $\gamma \to 3 \pi$_
+Phys. Rev. D 5, 2372 (1972) ([doi:10.1103/PhysRevD.5.2372](https://doi.org/10.1103/PhysRevD.5.2372))
+
+
 Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(16)" GUT):
 
 * {#WilczekZee82} [[Frank Wilczek]], [[Anthony Zee]], _Families from spinors_, Phys. Rev. D 25, 553 (1982) ([doi:10.1103/PhysRevD.25.55310.1103/PhysRevD.25.553](https://doi.org/10.1103/PhysRevD.25.553))
