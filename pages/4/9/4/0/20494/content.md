@@ -126,6 +126,10 @@ In their study of [[generalized Reedy categories]], Berger and Moerdijk introduc
 
 ## References
 
+The general characterization of absolute pushouts appears as Proposition 5.5 in:
+
+* Robert Par&eacute;, Robert On absolute colimits. J. Algebra 19 (1971), 80–95. 
+
 The Berger-Moerdijk definition of an Eilenberg-Zilber category appears in:
 
 * {#BergerMoerdijk} [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ (2008) ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
