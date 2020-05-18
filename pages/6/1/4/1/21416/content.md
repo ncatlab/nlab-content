@@ -26,6 +26,16 @@ This phenomenon is essentially the theorem of [Atiyah-Manton 89](#AtiyahManton89
 
 In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as a [[D4-D8-brane intersection|D4/D8]]-[[intersecting D-brane model]] described by the [[AdS-QCD correspondence]] ("[[holographic QCD]]").
 
+This already produces [[baryon]] [[mass]] spectra with moderate quantitative agreement with [[experiment]] ([HSSY 07](#HSSY07)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonSpectrumInSakaiSugimoto.jpg" width="700">
+</center>
+
+> graphics from [Sugimoto 16](#Sugimoto16)
+
+
 This way, via the equivalence between [[D4-D8-brane intersections]] with [[instantons]] in the [[D8-brane]]-[[worldvolume]], the Skyrme model becomes equivalent to a model of [[baryons]] by [[wrapped brane|wrapped]] [[D4-branes]] ([Sugimoto 16, 15.4.1](#Sugimoto16)):
 
 \begin{center}
