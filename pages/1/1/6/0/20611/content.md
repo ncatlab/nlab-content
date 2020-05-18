@@ -7,9 +7,9 @@ order of the number of articles they publish in the area of category theory, as 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self|all|open|categories|
-|[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], Rosolini|subscription|algebra|
+|[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], [[Giuseppe Rosolini|Rosolini]]|subscription|algebra|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|categories|
-|[Advances in Mathematics](https://www.journals.elsevier.com/advances-in-mathematics/)|Elsevier|[[Andrew Blumberg|Blumberg]]; Krause; [[Ross Street|Street]]|subscription|general|
+|[Advances in Mathematics](https://www.journals.elsevier.com/advances-in-mathematics/)|Elsevier|[[Andrew Blumberg|Blumberg]]; [[Henning Krause|Krause]]; [[Ross Street|Street]]|subscription|general|
 |[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|[[synthetic differential geometry]]
 |[Journal of Algebra](https://www.journals.elsevier.com/journal-of-algebra)|Elsevier|[[Volodymyr Mazorchuk|Mazorchuk]]|subscription|algebra|
 |[Journal of Homotopy and Related Structures](https://www.springer.com/mathematics/geometry/journal/40062)|[TCMS](http://tcms.org.ge/) via Springer|[[Ronnie Brown|Brown]]; [[Tim Porter|Porter]]; [[Ross Street|Street]]; [[Simon Willerton|Willerton]]|subscription|homotopy|
@@ -29,6 +29,6 @@ order of the number of articles they publish in the area of category theory, as 
 |[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|general|
 |[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|general|
 |[Journal of Algebra and Its Applications](https://www.worldscientific.com/worldscinet/jaa)|World Scientific|[[Alberto Facchini|Facchini]]|subscription|algebra|
-|[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|Martin Hyland|subscription|logic|
-|[Logica Universalis](https://www.springer.com/journal/11787)|Springer|Caramello, de Paiva|subscription|logic|
-|[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|McLarty|subscription|logic|
+|[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|[[Martin Hyland|Hyland]]|subscription|logic|
+|[Logica Universalis](https://www.springer.com/journal/11787)|Springer|[[Olivia Caramello|Caramello]], [[Valeria de Paiva|de Paiva]]|subscription|logic|
+|[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|[[Colin McLarty|McLarty]]|subscription|logic|
