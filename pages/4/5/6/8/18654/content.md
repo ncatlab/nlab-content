@@ -186,7 +186,7 @@ See also
 
 * Wikipedia, _[Pion](https://en.wikipedia.org/wiki/Pion)_
 
-### Decays
+### Decays and interactions
 
 On $\gamma \to \pi^0 + \pi^+ + \pi^-$:
 
@@ -197,7 +197,12 @@ Phys. Rev. D 5, 2372 (1972) ([doi:10.1103/PhysRevD.5.2372](https://doi.org/10.11
 
 * {#BDDL09}  M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: I. $e^+ e^-$ Annihilations, Anomalies And Vector Meson Partial Widths_, Eur. Phys. J. C65:211-245, 2010 ([arXiv:0907.4047](https://arxiv.org/abs/0907.4047))
 
-On the [[Dalitz decay]] of the pion:
+On [[pion]]-[[nucleon]] [[interaction]]:
+
+* E. Ruiz Arriola, J. E. Amaro, R. Navarro Perez, _Three pion nucleon coupling constants_, Modern Physics Letters A Vol. 31, No. 28, 1630027 (2016) ([arXiv:1606.02171](https://arxiv.org/abs/1606.02171))
+
+
+On the [[Dalitz decay]] of the [[pion]]:
 
 * {#Dalitz51} [[Richard Dalitz]], _On an alternative decay process for the neutral $\pi$-meson_, Proceedings of the Physical Society. Section A 64 (7), 667, 1951 ([doi:10.1088/0370-1298/64/7/115](https://doi.org/10.1088/0370-1298/64/7/115))
 
