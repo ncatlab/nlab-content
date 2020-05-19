@@ -56,9 +56,9 @@ For more on this see at _[[intersecting D-brane models]]_ the section _[Cosmolog
 
 The model was introduced in
 
-* {#RandallSundrum99a} Lisa Randall, Raman Sundrum, _A Large Mass Hierarchy from a Small Extra Dimension_, Phys.Rev.Lett.83:3370-3373, 1999 ([arXiv:hep-ph/9905221](https://arxiv.org/abs/hep-ph/9905221))
+* {#RandallSundrum99a} [[Lisa Randall]], [[Raman Sundrum]], _A Large Mass Hierarchy from a Small Extra Dimension_, Phys.Rev.Lett.83:3370-3373, 1999 ([arXiv:hep-ph/9905221](https://arxiv.org/abs/hep-ph/9905221))
 
-* {#RandallSundrum99b} Lisa Randall, Raman Sundrum, _An Alternative to Compactification_, Phys.Rev.Lett.83:4690-4693,1999 ([arXiv:hep-th/9906064](https://arxiv.org/abs/hep-th/9906064))
+* {#RandallSundrum99b} [[Lisa Randall]], [[Raman Sundrum]], _An Alternative to Compactification_, Phys.Rev.Lett.83:4690-4693,1999 ([arXiv:hep-th/9906064](https://arxiv.org/abs/hep-th/9906064))
 
 Different but similar approaches are 
 
