@@ -171,3 +171,6 @@ Review includes
 [[!redirects Einstein gravity]]
 
 [[!redirects gravitation]]
+
+[[!redirects gravitational field]]
+[[!redirects gravitational fields]]
