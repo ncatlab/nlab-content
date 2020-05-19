@@ -8,7 +8,7 @@ More at [[Noetherian ring]].
 
 ## Applications
 
-The theorem vastly generalises and subsumes [[Paul Gordon]]'s work on [[invariant theory]], albeit in a non-constructive way. [[Emmy Noether]] wrote a short paper in 1920 that sidestepped the use of the HBT to construct a basis for, and so implying the finite generation of, a certain ring of invariants attached to any [[finite group]].
+The theorem vastly generalises and subsumes [[Paul Gordan]]'s work on [[invariant theory]], albeit in a non-constructive way. [[Emmy Noether]] wrote a short paper in 1920 that sidestepped the use of the HBT to construct a basis for, and so implying the finite generation of, a certain ring of invariants attached to any [[finite group]].
 
 
 
