@@ -11,3 +11,7 @@ The Hochster dual of a [[distributive lattice]] is the opposite lattice. The Hoc
 ## References
 
 * [[Joachim Kock]], Wolfgang Pitsch, _Hochster duality in derived categories and point-free reconstruction of schemes_, ([arXiv: 1305.1503](http://arxiv.org/abs/1305.1503))
+
+The original source is
+
+* [[M. Hochster]], _Prime ideal structure in commutative rings_, Transactions of the American Mathematical Society, 142, (1969), 43–60
