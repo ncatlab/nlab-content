@@ -110,7 +110,7 @@ $$
 
 =--
 
-(e.g. [MacLane, bottom of p. 148 and exercise 4 on p. 151](#MacLane)) See also at [split coequallizer -- Beck coequalizer for algebras over a monad](split+coequalizer#BeckCoequalizerForAlgebrasOverAMonad).
+(e.g. [MacLane, bottom of p. 148 and exercise 4 on p. 151](#MacLane)) See also at [split coequalizer -- Beck coequalizer for algebras over a monad](split+coequalizer#BeckCoequalizerForAlgebrasOverAMonad).
 
 In particular this says that every $T$-algebra is [[generators and relations|presented]] by free $T$-algebras. The nature of $T$-algebras as a kind of completion of free $T$-algebras under colimits is made more explicit as follows.
 
