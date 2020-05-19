@@ -31,7 +31,7 @@ Then $X$ is [[paracompact topological space]].
 
 =--
 
-
+Note that while in Michael's paper he assumes that paracompact spaces are Hausdorff, the assumption is not necessary, and the proof goes through for regular non-Hausdorff spaces.  See Kelley, p. 156.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -70,6 +70,7 @@ Every open cover has a refinement by a cover consisting of [[base for the topolo
 
 ## References
 
+* Kelley, _General Topology_, 1955.
 
 * {#Michael53} [[Ernest Michael]], _A note on paracompact spaces_, Proc. Amer. Math. Soc. 1953 ([jstor](http://www.jstor.org/stable/2032419), [pdf](http://www.renyi.hu/~descript/papers/Michael_parakompakt.pdf))
 
