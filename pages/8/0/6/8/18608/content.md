@@ -85,6 +85,19 @@ This is widely and well known, but particle physics does not quite share the mat
 
 > While it is generally believed that QCD is the correct fundamental theory of the strong interactions there are, as yet, no practical means to produce full QCD calculations of hadron masses and their decay widths.
 
+* Barry R. Holstein, _A Brief Introduction to Chiral Perturbation Theory_, Czech. J. Phys. 50S4:9-23, 2000 ([arXiv:hep-ph/9911449](https://arxiv.org/abs/hep-ph/9911449))
+
+> the holy grail sought by particle/nuclear knights has been to verify the correctness of the "ultimate" theory of strong interactions  -- quantum chromodynamics (QCD). 
+
+> The theory is, of course, deceptively simple on the surface. $[...]$ So why are we still not satisfied? While at the very largest energies, asymptotic freedom allows the use of [[perturbative quantum field theory|perturbative techniques]], for those who are interested in making contact with low energy experimental findings there exist at least three fundamental difficulties:
+
+> i) QCD is written in terms of the "wrong" degrees of freedom -- [[quarks]] and [[gluons]] -- while low energy experiments are performed with [[hadron|hadronic]] [[bound states]];
+
+> ii) the theory is non-linear due to [[gluon]] self-[[interactions]];
+
+> iii) the theory is one of strong coupling so that [[perturbative quantum field theory|perturbative methods]] are not practical
+
+
 * Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
 
 > Because of the great importance of the standard model, and the central role it plays in our understanding of particle physics, it is unfortunate that, in one very important respect, we don’t really understand how it works. The problem lies in the sector dealing with the interactions of quarks and gluons, the sector known as Quantum Chromodynamics or QCD. We simply do not know for sure why quarks and gluons, which are the fundamental fields of the theory, don’t show up in the actual spectrum of the theory, as asymptotic particle states. There is wide agreement  about  what  must  be  happening  in  high  energy  particle  collisions:  the  formation of color electric flux tubes among quarks and antiquarks, and the eventual fragmentation of those flux tubes into mesons and baryons, rather than free quarks and gluons. But there is no general agreement about why this is happening, and that limitation exposes our general ignorance about the workings of non-abelian gauge theories in general, and QCD in particular, at large distance scales.
@@ -93,12 +106,20 @@ This is widely and well known, but particle physics does not quite share the mat
 
   (in motivation of [[Ads/QCD]])
 
-> QCD is a perennially problematic theory. Despite its decades of experimental support, the detailed low-energy physics remains beyond our calculational reach. The lattice provides a
-technique for answering nonperturbative questions, but to date there remain open questions that have not been answered
+> QCD is a perennially problematic theory. Despite its decades of experimental support, the detailed low-energy physics remains beyond our calculational reach. The lattice provides a technique for answering nonperturbative questions, but to date there remain open questions that have not been answered
 
 * {#Yi09} [[Piljin Yi]], _Holographic Baryons_ ([arXiv:0902.4515](https://arxiv.org/abs/0902.4515), [doi:10.1142/9789814280709_0016](https://www.worldscientific.com/doi/abs/10.1142/9789814280709_0016)), Chapter 16 in: [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 > [[QCD]] is a challenging theory. Its most interesting aspects, namely the [[confinement]] of [[color charge|color]] and the [[chiral symmetry breaking]], have defied all analytical approaches. While there are now many data accumulated from the [[lattice gauge theory]], the methodology falls well short of giving us insights on how one may understand these phenomena analytically, nor does it give us a systematic way of obtaining a low energy theory of [[QCD]] below the [[confinement]] [[scale]]. 
+
+* Mike Guidry, _Gauge Field Theories: An Introduction with Applications_, Wiley 2008 ([ISBN:978-3-527-61736-4](https://www.wiley.com/en-us/Gauge+Field+Theories%3A+An+Introduction+with+Applications-p-9783527617364))
+
+  Section 13.1.9:
+
+> The holy grail of QCD is the proof that a color SU(3) gauge theory
+confines in the non-perturbative regime. 
+
+> This is not difficult to show for lattices with large spacing; unfortunately, such a demonstration does not constitute a proof of QCD confinement: to do that we must also demonstrate that the same theory that confines at large lattice spacing (strong coupling) has a continuum limit (weak coupling) that is consistent with the asymptotically free short distance behavior of QCD.
 
 
 * {#Brambilla14} Brambilla et al., _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
