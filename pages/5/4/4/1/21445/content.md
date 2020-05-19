@@ -29,6 +29,11 @@ Early appearance of the concept of "probe branes":
 
 * [[Andreas Karch]], [[Lisa Randall]], Section 3 of: _Open and Closed String Interpretation of SUSY CFT's on Branes with Boundaries_, JHEP 0106:063, 2001 ([arXiv:hep-th/0105132](https://arxiv.org/abs/hep-th/0105132))
 
+Further discussion:
+
+* P. Bozhilov, _Probe Branes Dynamics: Exact Solutions in General Backgrounds_, Nucl.Phys. B656 (2003) 199-225 ([arXiv:hep-th/0211181](https://arxiv.org/abs/hep-th/0211181))
+
+
 Interpretation of probe branes as [[flavor branes]] in the context of the [[AdS/QCD correspondence]]:
 
 * {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
