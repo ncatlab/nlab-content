@@ -38,6 +38,8 @@ In the first case one speaks of _color branes_, in the second of _flavor branes_
 | **[[gauge bosons]]** | [[gluons]] <br/>  ([[gauge group]]-[[local symmetry]])  | [[mesons]] <br/> ([[flavor physics|flavor]]-[[hidden local symmetry]]) |
 | **[[fermions]]** | [[quarks]] | [[baryons]] |
 
+In common constructions of [[holographic QCD]] in the [[large-N limit]] (large number of [[color charges]]) in which the [[AdS/QCD correspondence]] applies, [[color branes]] are modeled  as $N_c \ggt 1$ [[black branes]] while [[flavor branes]] are modeled as $N_f \sim 1$ [[probe branes]] ([Karch-Katz 02](#KarchKatz02)).
+
 
 ## Examples
 
@@ -84,24 +86,29 @@ Here we are showing
 
 ## Phenomenology
 
-The [[geometric engineering of QFT]] on flavor branes (as in the [[Witten-Sakai-Sugimotomodel]]) realizes, at least qualitatively, the following [[experiment|experimentall]] phenomena:
+The [[geometric engineering of QFT]] on flavor branes (as in the [[Witten-Sakai-Sugimoto model]]) realizes, at least qualitatively, the following [[experiment|experimentall]] phenomena:
 
 * [[hadron supersymmetry]]
 
 * [[hadron Kaluza-Klein theory]]
 
+## Related concepts
+
+* [[probe brane]]
 
 ## References
 
 ### General
 
-Discussion of flavor branes (in the context of [[holographic QCD]]):
+The concept of [[flavor branes]] in the context of [[holographic QCD]] properly originates with:
 
 * {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
 
-* Peter Ouyang, _Holomorphic D7-Branes and Flavored $\mathcal{N}=1$ Gauge Theories_, Nucl. Phys. B699:207-225, 2004 ([arXiv:hep-th/0311084](https://arxiv.org/abs/hep-th/0311084))
+Other early discussion:
 
-* Thomas S. Levi, Peter Ouyang, _Mesons and Flavor on the Conifold_, Phys. Rev. D76:105022, 2007 ([arXiv:hep-th/0506021](https://arxiv.org/abs/hep-th/0506021))
+* [[Peter Ouyang]], _Holomorphic D7-Branes and Flavored $\mathcal{N}=1$ Gauge Theories_, Nucl. Phys. B699:207-225, 2004 ([arXiv:hep-th/0311084](https://arxiv.org/abs/hep-th/0311084))
+
+* Thomas S. Levi, [[Peter Ouyang]], _Mesons and Flavor on the Conifold_, Phys. Rev. D76:105022, 2007 ([arXiv:hep-th/0506021](https://arxiv.org/abs/hep-th/0506021))
 
 
 
