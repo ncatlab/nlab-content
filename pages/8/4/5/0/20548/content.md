@@ -7,7 +7,12 @@ On [[geometric engineering of quantum field theory]]:
 
 * [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) ([doi:10.18452/14371](https://doi.org/10.18452/14371))
 
-On [[geometric engineering of QFT|geometric engineering]] of [[flavour physics]] in [[intersecting D-brane models]] ([[AdS/QCD]]):
+Early discussion of the concept of [[probe branes]] in [[AdS/CFT]]:
+
+* [[Andreas Karch]], [[Lisa Randall]], _Open and Closed String Interpretation of SUSY CFT's on Branes with Boundaries_, JHEP 0106:063, 2001 ([arXiv:hep-th/0105132](https://arxiv.org/abs/hep-th/0105132))
+
+
+Introducing the concept of [[flavor branes]] for [[geometric engineering of QFT|geometric engineering]] of [[flavour physics]] in [[intersecting D-brane models]] ([[AdS/QCD]]):
 
 * [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
 
