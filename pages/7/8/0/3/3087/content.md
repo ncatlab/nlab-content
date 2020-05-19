@@ -1,7 +1,7 @@
 
-Behrang Noohi is reader in [[mathematics]] at Queen Mary, London.
+Behrang Noohi is reader in mathematics at Queen Mary, London.
 
-* [website](http://www.mth.kcl.ac.uk/~noohi/)
+* [website](https://www.qmul.ac.uk/maths/profiles/noohib.html)
 
 ## Related $n$Lab entries
 
