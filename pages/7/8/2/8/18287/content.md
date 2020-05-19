@@ -19,7 +19,7 @@ Since [[metric spaces are fully normal]] it follows as a corollary that [[metric
 
 Note that without a separation axiom such as $T_1$, the result fails to hold.  For example, any compact space is paracompact, and any fully normal space is normal, so any non-normal compact space is a paracompact space that's not fully normal.
 
-The Hausdorff condition from statement 2 cannot be dropped, again because there are compact $T_1$ spaces that are not normal.
+The Hausdorff condition from statement 2 cannot be dropped, again because there are compact $T_1$ spaces that are not normal, such as an infinite set with the [[cofinite topology]].
 
 ## References
 
