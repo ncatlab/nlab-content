@@ -19,9 +19,9 @@
 
 ## Idea
 
-The concept of [[tensor triangulated category]], may be thought of as a [[categorification]] of the concept of a [[ring]] in that the [[monoidal category]] structure refines the [[monoid]] structure of a ring, and the fact that it is a [[triangulated category]] and hence [[stable (infinity,1)-category|stable]] makes it the [[homotopy theory]] analog of a monoid in [[abelian groups]], hence of a ring.
+The concept of [[tensor triangulated category]] may be thought of as a [[categorification]] of the concept of a [[ring]] in that the [[monoidal category]] structure refines the [[monoid]] structure of a ring, and the fact that it is a [[triangulated category]] and hence [[stable (infinity,1)-category|stable]] makes it the [[homotopy theory]] analog of a monoid in [[abelian groups]], hence of a ring.
 
-Accordingly, one may consider the [[prime spectrum]] of a tensor tringulated category in direct analogy: the [[prime ideals]] are taken to be the [[thick subcategories]] which behave as prime ideals under the [[tensor product]], in the obvious way.  ([Thomason 97](#Thomason97), [Balmer 02](#Balmer02)).
+Accordingly, one may consider the [[prime spectrum]] of a tensor triangulated category in direct analogy: the [[prime ideals]] are taken to be the [[thick subcategories]] which behave as prime ideals under the [[tensor product]], in the obvious way.  ([Thomason 97](#Thomason97), [Balmer 02](#Balmer02)).
 
 In terms of modern [[stable (∞,1)-category]] theory this may be understood as being the shadow on [[homotopy categories]] of the  _[[prime spectrum of a symmetric monoidal stable (∞,1)-category]]_.
 
