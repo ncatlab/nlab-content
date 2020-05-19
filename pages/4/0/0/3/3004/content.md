@@ -53,6 +53,10 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 ## Examples
 
+* Let $\Sigma$ be a signature, then the set of all geometric sequents over $\Sigma$ as well as the empty set are geometric theories called the _inconsistent theory_ $\mathbb{T}^\Sigma_0$ resp. the _empty theory_ $\mathbb{T}^\Sigma_1$ over $\Sigma$. The former admits a more concise axiomatisation as $\{\top\vdash\bot\}$. The most basic examples occur when the signature is empty: $\mathbb{T}^\emptyset_0$ is classified by the initial topos $\mathbf{1}$ and $\mathbb{T}^\emptyset _1$ is classified by the terminal topos $Set$ (see at [[localic topos]] for details).
+
+* The empty signature occurring in the preceding example is an extreme case of a _propositional signature_ i.e. one lacking sort symbols. These can at most contain 0-ary relation symbols since function symbols and higher order relation symbols require sorts. Whence theories over such signatures can at most contain sequents in the empty context between formulas consisting of quantifier-free nestings of 0-ary relation symbols and $\wedge,\bigvee$ and are therefor called _propositional theories_ - in other words: geometric logic boils down to [[propositional logic]]. Propositional theories are classified by [[localic topos|localic toposes]] (see there for further information).
+
 * Any finitary [[algebraic theory]] is, in particular, a cartesian theory, and hence geometric.  This includes [[monoids]], [[groups]], [[abelian groups]], [[rings]], [[commutative rings]], etc.
 
 * The theory of ([[strict category|strict]]) [[categories]] is not finitary-algebraic, but it is cartesian, and hence geometric; this generalises to (finitary) [[essentially algebraic theory|essentially algebraic theories]].
@@ -209,7 +213,7 @@ Standard references are
 
 * [[Peter Johnstone]], sections B4.2, D1.1 of _[[Sketches of an Elephant]]_
 
-* [[Michael Makkai]], [[Gonzalo E. Reyes]], _First Order Categorical Logic_ , LNM 611, Springer Berlin 1977.
+* [[Michael Makkai]], [[Gonzalo E. Reyes]], _First Order Categorical Logic_ , LNM 611, Springer Berlin 1977. ([draft](https://marieetgonzalo.files.wordpress.com/2018/04/makkai-reyes-book.pdf))
 
 A textbook account of (finitary) geometric logic can be found in
 
@@ -218,6 +222,10 @@ A textbook account of (finitary) geometric logic can be found in
 A systematic introduction to topos theory and geometric logic can be found in the following draft by O. Caramello:
 
 * [[Olivia Caramello]], _Topos-theoretic background_ , ms. 2014. ([pdf](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf))
+
+which has become a chapter of the following monograph exploring first-order model theory in the context of Grothendieck toposes:
+
+* [[Olivia Caramello]], _Theories, Sites, Toposes_ , Oxford UP 2018.
 
 For additional background on (finitary) geometric formulas consider:
 
