@@ -1,7 +1,16 @@
 * [website](http://home.imf.au.dk/dupont/)
 
 
-# related $n$Lab entries #
+## Selected writings
+
+On the [[homotopy groups]] of [[embedded cobordism categories]]:
+
+* [[Marcel Bökstedt]], [[Johan Dupont]], [[Anne Marie Svane]], _Cobordism obstructions to independent vector fields_, Q. J. Math. 66 (2015), no. 1, 13-61 ([arXiv:1208.3542](https://arxiv.org/abs/1208.3542))
+
+
+
+
+## Related $n$Lab entries #
 
 * [[simplicial deRham complex]]
 
