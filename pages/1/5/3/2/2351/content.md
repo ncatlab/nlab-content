@@ -51,7 +51,7 @@ Note: All compositions will be written in the traditional order, in which applic
 
 We work with familiar notions of the theory of bicategories (which, for reasons of consonance with 2-terminology, we also call 2-categories) but in some cases under new names. We calculate with pasting diagrams in 2-categories as if they were strict 2-categories. 
 
-Our notion of morphism between 2-categories has gone under various names: "homomorphism" in the sense of B&#233;nabou, also known as "pseudofunctor" or weak 2-functor, where the structural constraints are isomorphisms. Here they are simply called **2-functors**. 
+Our notion of morphism between 2-categories has gone under various names: "homomorphism" in the sense of Bénabou, also known as "pseudofunctor" or weak 2-functor, where the structural constraints are isomorphisms. Here they are simply called **2-functors**. 
 
 Each 2-category $B$ gives rise to a hom 2-functor $hom: B^{op} \times B \to Cat$, which we denote by $B(-, -)$, with the contravariant argument in the first place as is customary. 
 
@@ -173,7 +173,7 @@ The crucial observation is that, by proposition 1, this data restricts to give 2
 
 $$(Map(B) \overset{\Delta}{\to} Map(B) \times Map(B)) \dashv (Map(B) \times Map(B) \overset{\otimes}{\to} Map(B))$$ 
 
-$$ $$
+\linebreak
 
 $$(Map(B) \overset{!}{\to} \mathbf{1}) \dashv (\mathbf{1} \overset{I}{\to} Map(B))$$ 
 
