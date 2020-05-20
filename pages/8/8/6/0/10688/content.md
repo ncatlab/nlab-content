@@ -141,7 +141,7 @@ Original articles include
 
 * {#Mahowald85} [[Mark Mahowald]], _Lin's theorem and the EHP sequence_. Conference on algebraic topology in honor of [[Peter Hilton]], Contemp. Math. 37 (1985), 115&#8211;119. Amer. Math. Soc., Providence, RI.
 
-* [[Marcel Bökstedt]], Anne Marie Svane, _A generalization of the stable EHP spectral sequence_ ([arXiv:1208.3938](http://arxiv.org/abs/1208.3938))
+* [[Marcel Bökstedt]], [[Anne Marie Svane]], _A generalization of the stable EHP spectral sequence_ ([arXiv:1208.3938](http://arxiv.org/abs/1208.3938))
 
 Relation to the [[Goodwillie spectral sequence]] is discussed in
 
@@ -159,6 +159,8 @@ Review includes
 * [[Doug Ravenel]], chapter 1, section 5 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 * [[eom]], _[EHP spectral sequence](https://www.encyclopediaofmath.org/index.php/EHP_spectral_sequence)_
+
+See also:
  
 * Wikipedia, _[EHP spectral sequence](http://en.wikipedia.org/wiki/EHP_spectral_sequence)_
 
