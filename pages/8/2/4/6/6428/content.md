@@ -122,7 +122,7 @@ $$
 
 If both $g$ and $h$ are positive, then there is only one such critical point, given by $\Phi = 0$.  Therefore in this case the unique constant solution does _not_ break the symmetry, in that $g( \Phi = 0) = (\Phi = 0)$ for all $g \in O(N)$.
 
-However, if $h$ is negative and $g$ positve, then the solutions are all those $\Phi$ with
+However, if $h$ is negative and $g$ positive, then the solutions are all those $\Phi$ with
 
 $$
   \vert \Phi \vert^2 = - \frac{h}{g} \gt 0
@@ -139,7 +139,7 @@ One says in this case that any such solution $\phi : x \mapsto \Phi$ is a soluti
 The theory of [[gravity]] on a given [[topological manifold]] $X$ has as 
 [[configuration space|configurations]] [[pseudo-Riemannian metric]]s on $X$ and its [[action functional]] -- the [[Einstein-Hilbert action]] or one of its variants -- is invariant under the [[action]] of the [[diffeomorphism]] group on $X$.
 
-The corresponding [[Euler-Lagrange equation]]s are _[[Einstein's equations]]_ . A given solution $(X,g)$ _breaks_ the symmetry given by a [[diffeomorphism]] $f : X \to X$ unless $f$ is an [[isometry]]. This means that the unbroken symmetries connected to the identiy correspond precisely to the [[Killing vector field]]s on $(X,g)$.
+The corresponding [[Euler-Lagrange equation]]s are _[[Einstein's equations]]_. A given solution $(X,g)$ _breaks_ the symmetry given by a [[diffeomorphism]] $f : X \to X$ unless $f$ is an [[isometry]]. This means that the unbroken symmetries connected to the identity correspond precisely to the [[Killing vector field]]s on $(X,g)$.
 
 #### Kaluza-Klein reductions
 
@@ -154,7 +154,7 @@ The above discussion has a direct analog in theories of higher
 [[supergravity]]. By the same logic, one finds that the 
 [[effective quantum field theory]] around classical solutions that are
 [[Kaluza-Klein mechanism|Kaluza-Klein reductions]] of the form 
-$(X^4 \times Y^d, (g_4 \otimes g_d))$ exhibts as global symmetries all
+$(X^4 \times Y^d, (g_4 \otimes g_d))$ exhibits as global symmetries all
 those [[diffeomorphism]]s that are not _spontaneously broken_ by this solution.
 
 In this case, though, there are also [[supersymmetry]] analogs of the plain diffeomorphism action. Such a local supersymmetry remains unbroken in the given solution if it comes from a [[Killing spinor field]].
@@ -192,7 +192,7 @@ In
 
 * [[Steven Weinberg]], _The quantum theory of fields_
 
-sponaneously broken [[global gauge group]] symmetry is discssued in vol I, section 19, and spontaneously broken [[local gauge group]] symmetry in vol I, section 21.4.
+sponaneously broken [[global gauge group]] symmetry is discussed in vol I, section 19, and spontaneously broken [[local gauge group]] symmetry in vol I, section 21.4.
 
 Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in the context of the [[Kaluza-Klein mechanism]] is in
 
