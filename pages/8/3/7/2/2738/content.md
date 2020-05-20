@@ -1277,7 +1277,7 @@ and hence (see the properties of [[adjoint functors]])
 
 ## Structure on $dSet$ ##
 
-Some [[mathematical structure}structure]] carried by the [[category]] [[dSet]] of [[dendroidal sets]]:
+Some [[mathematical structure|structure]] carried by the [[category]] [[dSet]] of [[dendroidal sets]]:
 
 ### Homotopical monoidal structure
  {#ClosedMonoidalStructure}
