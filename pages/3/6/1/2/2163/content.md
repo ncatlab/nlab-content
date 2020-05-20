@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -176,6 +177,8 @@ The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact sm
 
 ## References
 
+### General
+
 A classical reference is
 
 * [[Robert Stong]], _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973) ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
@@ -190,6 +193,23 @@ A generalization to geometric structure on the cobordisms is discussed in
 * {#Ayala} [[David Ayala]], _Geometric cobordism categories_ thesis (2009) ([arXiv:0811.2280](http://arxiv.org/abs/0811.2280))
  
 
+### Embedded cobordism category
+
+On the relation to [[twisted Cohomotopy]]:
+
+
+* [[Oscar Randal-Williams]], _Embedded Cobordism Categories and Spaces of Manifolds_, 	Int. Math. Res. Not. IMRN 2011, no. 3, 572-608 ([arXiv:0912.2505](https://arxiv.org/abs/0912.2505))
+
+On the [[homotopy groups]] of the [[embedded cobordism category]]:
+
+
+* [[Marcel Bökstedt]], [[Anne Marie Svane]], _A geometric interpretation of the homotopy groups of the cobordism category_, Algebr. Geom. Topol. 14 (2014) 1649-1676 ([arXiv:1208.3370](https://arxiv.org/abs/1208.3370))
+
+* [[Marcel Bökstedt]], [[Johan Dupont]], [[Anne Marie Svane]], _Cobordism obstructions to independent vector fields_, Q. J. Math. 66 (2015), no. 1, 13-61 ([arXiv:1208.3542](https://arxiv.org/abs/1208.3542))
+
+
+
+
 
 [[!redirects cobordism categories]]
 
@@ -199,3 +219,6 @@ A generalization to geometric structure on the cobordisms is discussed in
 [[!redirects Galatius-Madsen-Tillmann-Weiss theorem]]
 [[!redirects Galatius-Tillmann-Madsen-Weiss theorem]]
 [[!redirects GMWT theorem]]
+
+[[!redirects embedded cobordism category]]
+[[!redirects embedded cobordism categories]]
