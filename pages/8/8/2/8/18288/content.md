@@ -21,7 +21,7 @@ A [[topological space]] is called _fully normal_ if every [[open cover]] $\{U_i 
 Furthermore, the resulting cover $\{V_j\}_{j\in J}$ also admits such a star
 refinement, and this process can be continued indefinitely.
 
-Here for $x \in X$ a point, then the _star_ of $x$ is the [[union]] of the patches that contain $x$:
+Here, for $x \in X$ a point, the **star** of $x$ is the [[union]] of the patches that contain $x$:
 $$
   star(x,\mathcal{V})
   \;\coloneqq\;
