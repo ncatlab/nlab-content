@@ -138,8 +138,7 @@ New kinds of absolute (co)limits also arise in [[higher category theory]].
 ## References
 
 
-* [[Ross Street]], *Absolute colimits in enriched categories*, [Cahiers 1983](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1983__24_4_377_0)
-
+* [[Ross Street]], *Absolute colimits in enriched categories*, [Cahiers 1983](http://www.numdam.org/item/CTGDC_1983__24_4_377_0/)
 * [[Robert Pare]], *On absolute colimits*, J. Alg. 19 (1971), 80-95.
 
 [[!redirects absolute colimits]]
