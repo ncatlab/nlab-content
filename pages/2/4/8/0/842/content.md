@@ -128,7 +128,7 @@ This appears for instance in ([Lurie, proof of prop. 1.2.13.8](#Lurie)).
 The definition of the limit in a quasi-category in terms of terminal objects in the corresponding [[over quasi-category]] is well adapted to the particular nature the incarnation of $(\infty,1)$-categories by quasi-categories. But more intrinsically in $(\infty,1)$-category theory, it should be true that there is an [[adjunction]] characterization of 
 $(\infty,1)$-limits : limit and colimit, should be (pointwise or global) [[right adjoint|right]] and [[left adjoint|left]]
 [[adjoint (infinity,1)-functor]] of the constant diagram $(\infinity,1)$-functor,
-$const : K \to Func(K,C)$.
+$const : C \to Func(K,C)$.
 
 $$
   (colim \dashv const \dashv lim)
