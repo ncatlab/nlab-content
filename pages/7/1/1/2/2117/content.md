@@ -50,6 +50,16 @@ A similar but more complicated definition allows us to define the universe $L$ o
 
 See also a [Wikipedia article](https://secure.wikimedia.org/wikipedia/en/wiki/Universe_%28mathematics%29) written largely by [[Toby Bartels]] in another lifetime.
 
+### Grothendieck universes 
+
+A [[Grothendieck universe]] is a set $U$ such that the following properties hold for $U$: 
+
+1. if $x \in a \in U$, then $x \in U$;  
+1. if $a, b \in U$, then $\{a, b\}$ and $a\times b$ are elements of $U$;
+1. if $a \in U$, then $\cup a$ and $P(a)$ are elements of $U$; 
+1. the set $\omega$ of all natural numbers is an element of $U$; 
+1. if $f:a \to b$ is surjective with $a \in U$ and $b \subseteq U$, then $b \in U$.
+
 
 ## Universes inside $SET$
 
