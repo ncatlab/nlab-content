@@ -115,7 +115,7 @@ A [[model category]]-theoretic discussion is in section 8 of
 * {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
  
 
-Disucssion in [[homotopy type theory]] is in 
+Discussion in [[homotopy type theory]] is in 
 
 * [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
