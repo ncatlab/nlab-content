@@ -771,9 +771,9 @@ The concept originates in
 
 as well as in Day's thesis
 
-* {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, School of Mathematics of the University of New South Wales, September 1970. [Link](http://unsworks.unsw.edu.au/fapi/datastream/unsworks:58748/SOURCE01?view=true).
+* {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, PhD thesis. School of Mathematics of the University of New South Wales, September 1970. [Link](http://unsworks.unsw.edu.au/fapi/datastream/unsworks:58748/SOURCE01?view=true).
 
-(Note that some unproven statements in [(Day's report)](#Day70) are proven in [(Day's thesis)](#Day70Thesis) and vice versa.)
+(Note that some unproven statements in [(Day's report)](#Day70) are proved in [(Day's thesis)](#Day70Thesis) and vice versa.)
 
 The universal property of the Day convolution, in the sense of free monoidal cocompletion, is discussed in
 
@@ -793,7 +793,7 @@ and for [[excisive functors]] due to
 
 (see also at [[functors with smash product]]).
 
-Day convolution for [[bicategories]] is developed in
+Day convolution for [[monoidal bicategories]] is developed in
 
 * {#Corner2016} [[Alexander Corner]], _Day convolution for monoidal bicategories_, School of Mathematics and Statistics of the University of Sheffield. Available through the [White Rose theses database](http://etheses.whiterose.ac.uk/16767/).
 
