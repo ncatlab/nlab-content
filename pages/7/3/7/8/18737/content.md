@@ -63,6 +63,6 @@ Original articles:
 
 Discussion of implementation in the [[proof assistant]] [[Cubical Agda]]:
 
-* {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](http://www.cs.cmu.edu/~amoertbe/papers/cubicalagda.pdf))
+* {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalagda.pdf))
 
 [[!redirects cubical type theories]]
