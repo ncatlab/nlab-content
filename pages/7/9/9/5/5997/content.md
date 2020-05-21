@@ -41,7 +41,7 @@ This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A con
 +-- {: .num_remark}
 ###### Remark
 
-For $n = -1$ this says that [[effective epimorphisms in an (∞,1)-category]] have the left lifting property against [[monomorphisms in an (∞,1)-category]]. Therefore one may say that the effective epimorphisms in an $(\infty,1)$-topos are the [[strong epimorphisms]].
+For $n = -1$ this says that [[effective epimorphisms in an (∞,1)-category]] have the [[left lifting property]] against [[monomorphisms in an (∞,1)-category]]. Therefore one may say that the effective epimorphisms in an $(\infty,1)$-topos are the [[strong epimorphisms]].
 
 =--
 
