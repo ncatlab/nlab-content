@@ -209,8 +209,22 @@ is a functor $\mathcal{C}\otimes [\mathcal{C},V] \otimes [\mathcal{C},V] \to V$,
 
 The [above](#InTermsOfProfunctors) description in terms of profunctors makes it clear that the construction only depends on the representable profunctor induced by $\otimes : \mathcal{C}\otimes \mathcal{C}\to \mathcal{C}$, i.e. on the underlying [[promonoidal category]] of $\mathcal{C}$.  In the original article ([Day 70](#Day70)), a stronger form of the convolution is discussed, in which $\mathcal{C}$ is assumed only to be a [[promonoidal category]].
 
-Let $V$ be a [[Benabou cosmos]], and $\mathcal{C}$ a small $V$-[[enriched category]].
+Before continuing our discussion, we comment a bit on a convention adopted in [(Day's thesis)](#Day70Thesis). To define [[promonoidal structures]], Day used functors of the form $P\colon\mathcal{A}^\mathrm{op}\times\mathcal{A}^\mathrm{op}\times\mathcal{A}$, whereas a [[profunctor]] $P\colon\mathcal{A}\times\mathcal{A}$⇸$\mathcal{A}$ is a functor $P\colon\mathcal{A}^\mathrm{op}\times\mathcal{A}\times\mathcal{A}$. Following modern usage and [(Corner 2016)](#Corner2016), instead of defining Day convolution for $\mathcal{V}$-[[enriched functors]], we do so for $\mathcal{V}$-presheaves.
 
+Let $\mathcal{V}$ be a [[Bénabou cosmos]], $(\mathcal{C},P,I,\lambda,\rho,\alpha)$ be a small $\mathcal{V}$-[[enriched category]] equipped with the structure of a [[promonoidal category]], and write $P^A_{B,C}$ for $P(A,B,C)$ (this is called the Einstein notation for profunctors; see ([Loregian 2019, Definition 5.1.10](#Fosco))).
+
++-- {: .num_defn #DayConvolutionForPromonoidalCategories}
+###### Definition
+
+The **Day convolution tensor product** on $[\mathcal{C}^\mathsf{op},\mathcal{V}]$ is the bifunctor
+
+$$\otimes_{Day}\colon[\mathcal{C},\mathcal{V}]\times[\mathcal{C},\mathcal{V}]\longrightarrow[\mathcal{C},\mathcal{V}]$$
+
+defined on objects by the [[coend]] 
+
+$$F\otimes_{Day}G=\overset{A,B\in\mathcal{C}}{\int}F(A)\otimes_V G(B)\otimes_V P^{(-)}_{A,B}.$$
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -753,7 +767,13 @@ See also at _[[functor with smash products]]_.
 
 The concept originates in
 
-* {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf))
+* {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf)),
+
+as well as in Day's thesis
+
+* {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, School of Mathematics of the University of New South Wales, September 1970. [Link](http://unsworks.unsw.edu.au/fapi/datastream/unsworks:58748/SOURCE01?view=true).
+
+(Note that some unproven statements in [(Day's report)](#Day70) are proven in [(Day's thesis)](#Day70Thesis) and vice versa.)
 
 The universal property of the Day convolution, in the sense of free monoidal cocompletion, is discussed in
 
@@ -771,14 +791,19 @@ and for [[excisive functors]] due to
 
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
-
-
 (see also at [[functors with smash product]]).
 
+Day convolution for [[bicategories]] is developed in
+
+* {#Corner2016} [[Alexander Corner]], _Day convolution for monoidal bicategories_, School of Mathematics and Statistics of the University of Sheffield. Available through the [White Rose theses database](http://etheses.whiterose.ac.uk/16767/).
 
 Day convolution for [[(∞,1)-categories]] is discussed in
 
 * Saul Glasman, _Day convolution for infinity-categories_ ([arXiv:1308.4940](http://arxiv.org/abs/1308.4940))
+
+Other references cited in this page:
+
+* {#Fosco} [[Fosco Loregian]], _Coend calculus_ ([arXiv](http://arxiv.org/abs/1501.02503)).
 
 
 [[!redirects Day convolutions]]
