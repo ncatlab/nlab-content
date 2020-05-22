@@ -22,12 +22,20 @@ as [[morphisms]].
 Thus, the category of Stonean spaces is a (nonfull)
 [[subcategory]] of the category of [[Stone spaces]] and [[continuous maps]].
 
-As a consequence of [[Stone duality]], the [[category]] of Stonean spaces is contravariantly [[equivalence of categories|equivalent]] to the category
+In presence of the [[axiom of choice]],
+as a consequence of [[Stone duality]], the [[category]] of Stonean spaces is contravariantly [[equivalence of categories|equivalent]] to the category
 of [[complete Boolean algebras]] and continuous homomorphisms.
+
+Without the [[axiom of choice]],
+the [[category]] of [[Stonean locales]] is contravariantly [[equivalence of categories|equivalent]] to the category
+of [[complete Boolean algebras]] and continuous homomorphisms.
+See the article [[Stonean locale]] for more information.
 
 ## Related concepts
 
 * [[Stone space]]
+
+* [[Stonean locale]]
 
 ## References
 
