@@ -78,7 +78,6 @@ The completion of a [[uniform locale]] with a countable basis of uniformity is s
 
 * [[topos]]
 
-
 [[!redirects topological locale]]
 [[!redirects topological locales]]
 [[!redirects spatial locale]]
