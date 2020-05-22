@@ -39,7 +39,7 @@ $$
  (\phi,\kappa) :  (R,N) \to (R',N')
 $$
 
-is a pair consisting of a ring [[homomorphism]] $\phi : R \to R'$ and a morphism $\kappa : N \to \phi^* N'$ of $R$-modules, where $\phi^* N'$ is the [[tensor product]] $\phi^* N' := R \otimes_{\phi} N$.
+is a pair consisting of a ring [[homomorphism]] $\phi : R \to R'$ and a morphism $\kappa : N \to \phi^* N'$ of $R$-modules, where $\phi^* N'$ is the [[restriction of scalars]].
 
 =--
 
