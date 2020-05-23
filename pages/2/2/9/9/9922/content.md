@@ -114,8 +114,9 @@ and is the reason behind the existence of [[Lie algebra weight systems]] in [[kn
 
 ## Related concepts
 
-* [[Casimir invariant]]
+* [[embedding tensor]]
 
+* [[Casimir invariant]]
 
 * [[Lie algebra cohomology]]
 
