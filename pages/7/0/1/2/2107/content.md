@@ -145,6 +145,31 @@ For $n=1$ there is a natural projection $Der(\mathfrak{g},M)\to HL^1(\mathfrak{g
 The Leibniz operad is quadratic Koszul algebra whose Koszul dual operad is called the operad of dual Leibniz algebras
 or of [[Zinbiel algebra]]s, see there. 
 
+## Lie's third theorem for Leibniz algebras
+
+In complete analogy to the equivalence
+between the category of [[Lie algebras]]
+and the category of [[local Lie groups]],
+the category of Leibniz algebras
+is equivalent to the category of local pointed augmented Lie [[racks]].
+See Covez \cite{Covez}.
+
+This equivalence restricts to the equivalence between [[Lie algebras]] and [[local Lie groups]].
+
+Here a local pointed augmented Lie [[rack]]
+is a pointed augmented [[rack]] object in the category of germs of pointed smooth manifolds.
+An __augmented rack__ is a triple $(G,X,p\colon X\to G)$,
+where $G$ is a [[group]], $X$ is a [[G-set]], and $p$ is a [[map of sets]]
+such that $p(g\cdot x)=gp(x)g^{-1}$.
+An augmented rack is __pointed__ if there is an element $1\in X$
+such that $p(1)=1$ and $g\cdot 1=1$ for all $g\in G$.
+
+If $(G,X,p)$ is an augmented rack, then $X$ can be made into a [[rack]]
+as follows: $x\triangleright y = p(x)\cdot y$.
+If $(G,X,p)$ is a pointed augmented rack, then $X$ is a pointed [[rack]],
+meaning there is $1\in X$ such that $1\triangleright x=x$
+and $x\triangleright 1=1$.
+
 ## Examples
 
 ### Basic examples
@@ -290,9 +315,10 @@ Relation of [[Leibniz algebras]] to [[dg-Lie algebras]] such as the [[tensor hie
 
 * [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
 
+### Lie's third theorem for Leibniz algebras and local pointed augmented Lie racks
 
-
-
+\bibitem{Covez} [[Simon Covez]], _The local integration of Leibniz algebras_,
+[arXiv:1011.4112](https://arxiv.org/abs/1011.4112).
 
 
 [[!redirects Leibniz algebras]]
