@@ -208,7 +208,10 @@ The relation to [[cyclic loop spaces]]:
 
 The [[Loday-Quillen-Tsygan theorem]] is originally due, independently, to
 
-* {#LodayQuillen84} [[Jean-Louis Loday]], [[Daniel Quillen]], _Cyclic homology and the Lie algebra homology of matrices_ Comment. Math. Helv., 59(4):569–591, 1984.
+* {#LodayQuillen84} [[Jean-Louis Loday]], [[Daniel Quillen]], _Cyclic homology and the Lie algebra homology of matrices_ Comment. Math. Helv., 59(4):569–591, 1984 ([doi:10.1007/BF02566367](https://doi.org/10.1007/BF02566367))
+
+
+
 
 and
 
