@@ -143,11 +143,15 @@ Equivalently, Lie algebra objects  are the [[algebras over an operad]] over a ce
 
 Examples of types of [[Lie algebra objects]]:
 
-If $k$ is the ring $\mathbb{Z}$ of [[integers]] and $\mathcal{C} = $ $k$[[Mod]] = [[Ab]] is the [[category]] of [[abelian groups]] equipped with the [[tensor product of abelian groups]], then a Lie algebra object is called a _[[Lie ring]]_.
+* If $k$ is the ring $\mathbb{Z}$ of [[integers]] and $\mathcal{C} = $ $k$[[Mod]] = [[Ab]] is the [[category]] of [[abelian groups]] equipped with the [[tensor product of abelian groups]], then a Lie algebra object is called a _[[Lie ring]]_.
 
-If $k$ is a [[field]] and $\mathcal{C} =$ [[Vect]] is the [[category]] of [[vector spaces]] over $k$ equipped with the [[tensor product of vector spaces]] then a Lie algebra object is an ordinary_[[Lie algebra|Lie k-algebra]]_. 
+* If $k$ is a [[field]] and $\mathcal{C} =$ [[Vect]] is the [[category]] of [[vector spaces]] over $k$ equipped with the [[tensor product of vector spaces]] then a Lie algebra object is an ordinary _[[Lie algebra|Lie k-algebra]]_. 
 
-If $k$ is a [[field]] and $\mathcal{C}$ = [[sVect]] is the [[category]] of [[super vector spaces]] over $k$, then a Lie algebra object is a  _[[super Lie algebra]]_.
+* If $k$ is a [[field]] and $\mathcal{C}$ = [[sVect]] is the [[category]] of [[super vector spaces]] over $k$, then a Lie algebra object is a  _[[super Lie algebra]]_.
+
+* A [[Leibniz algebra]] is an internal Lie algebra in the [[Loday-Pirashvili category]] ([Loday-Pirashvili 98](#LodayPirashvili98))
+
+* [[Rozansky-Witten weight systems]] are [[Lie algebra weight systems]] for [[Lie algebra objects]] in the [[derived category of quasi-coherent sheaves]] ([Roberts-Willerton 10](#RobertsWillerton10))
 
 ## Related concepts
 
@@ -170,7 +174,7 @@ On [[Leibniz algebras]] as Lie algebra objects in suitable [[tensor categories]]
 
 On [[Rozansky-Witten weight systems]] as [[Lie algebra weight systems]] for [[Lie algebra objects]] in the [[derived category of quasi-coherent sheaves]], and unified [[Wheels theorem]]:
 
-* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
+* {#RobertsWillerton10} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
 
 
