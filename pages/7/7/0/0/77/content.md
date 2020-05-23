@@ -215,6 +215,8 @@ See
 
   * [[Lie algebra contraction]]
 
+* [[Leibniz algebra]]
+
 * [[Lie 2-algebra]], [[Lie 2-group]]
 
 * [[L-∞ algebra]], [[smooth ∞-group]]
