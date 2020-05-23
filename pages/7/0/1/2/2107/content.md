@@ -141,6 +141,16 @@ This is partly based on earlier insights of Kinyon and Weinstein:
 
 * Simon Covez, _On the conjectural Leibniz cohomology for groups_, Journal of K-theory __10__:03, Dec 2012, pp 519-563 [doi](http://dx.doi.org/10.1017/is011011011jkt195)
 
+
+Relation to the [[embedding tensor]] and [[tensor hierarchies]] in [[gauged supergravity]]:
+
+* [[Sylvain Lavau]], _Tensor hierarchies and Leibniz algebras_, J. Geom. Phys. 144:147-189 (2019) ([arXiv:1708.07068](https://arxiv.org/abs/1708.07068))
+
+
+
+
+
+
 [[!redirects Leibniz algebras]]
 [[!redirects Loday algebra]]
 [[!redirects Leibniz rule]]
