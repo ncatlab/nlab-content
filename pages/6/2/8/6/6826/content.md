@@ -40,6 +40,15 @@ Some examples are discussed at
 
 * [[3-dimensional supergravity]]
 
+## Related concepts
+
+* [[tensor hierarchy]]
+
+* [[embedding tensor]]
+
+
+
+
 ## References
 
 Review includes
