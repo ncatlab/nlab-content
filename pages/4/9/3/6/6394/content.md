@@ -41,6 +41,11 @@ and specifically via the [[superembedding approach]]:
 
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
 
+On [[tensor hierarchies]] in [[gauged supergravity]]:
+
+* Jesper Greitz, [[Paul Howe]], [[Jakob Palmkvist]], _The tensor hierarchy simplified_, Class. Quantum Grav. 31 (2014) 087001 ([arXiv:1308.4972](https://arxiv.org/abs/1308.4972))
+
+
 
 
 
