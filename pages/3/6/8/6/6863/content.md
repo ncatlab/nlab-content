@@ -23,10 +23,11 @@ On [[gauged supergravity|gauged]] [[D=4 N=8 supergravity]]:
 
 On [[D=3 supergravity]]:
 
-* [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B392 (1993) 3 ([arXiv:hep-th/9208074](http://xxx.lanl.gov/abs/hep-th/9208074))
+* [[Bernard de Wit]], A. K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B392 (1993) 3 ([arXiv:hep-th/9208074](http://xxx.lanl.gov/abs/hep-th/9208074))
 
+On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept of [[embedding tensors]]:
 
-* {#NicolaiSamtleben00} [[Hermann Nicolai]], [[Henning Samtleben]], _Maximal gauged supergravity in three dimensions_, Phys.Rev.Lett. 86 (2001) 1686-1689 ([arXiv:hep-th/0010076](http://xxx.lanl.gov/abs/hep-th/0010076))
+* {#NicolaiSamtleben00} [[Hermann Nicolai]], [[Henning Samtleben]], _Maximal gauged supergravity in three dimensions_, Phys. Rev. Lett. 86 (2001) 1686-1689 ([arXiv:hep-th/0010076](https://arxiv.org/abs/hep-th/0010076))
 
 * {#NicolaiSamtleben01} [[Hermann Nicolai]], [[Henning Samtleben]], _Compact and Noncompact Gauged Maximal Supergravities in Three Dimensions_ ([arXiv:hep-th/0103032](http://arxiv.org/abs/hep-th/0103032))
 
