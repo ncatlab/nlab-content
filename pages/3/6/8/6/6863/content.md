@@ -31,7 +31,13 @@ On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept 
 
 * {#NicolaiSamtleben01} [[Hermann Nicolai]], [[Henning Samtleben]], _Compact and Noncompact Gauged Maximal Supergravities in Three Dimensions_ ([arXiv:hep-th/0103032](http://arxiv.org/abs/hep-th/0103032))
 
-* {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged SO(8) supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
+On [[tensor hierarchies]] in [[gauged supergravity]] and possible relation to [[U-duality]] and [[M-theory]]:
+
+* [[Bernard de Wit]], [[Hermann Nicolai]], [[Henning Samtleben]], _Gauged Supergravities, Tensor Hierarchies, and M-Theory_, JHEP 0802:044, 2008 ([arXiv:0801.1294](https://arxiv.org/abs/0801.1294))
+
+On 4d [[gauged supergravity]] and [[11d supergravity]]:
+
+* {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged $SO(8)$ supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
 
 On [[U-duality]] in [[supergravity]]:
 
