@@ -57,7 +57,7 @@ Review includes
 
 * {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
 
-* Mario Trigiante, _Gauged Supergravities_ ([arXiv:1609.09745](https://arxiv.org/abs/1609.09745))
+* Mario Trigiante, _Gauged Supergravities_, Physics Reports Volume 680, 31 March 2017, Pages 1-175 ([arXiv:1609.09745](https://arxiv.org/abs/1609.09745), [doi:10.1016/j.physrep.2017.03.001](https://doi.org/10.1016/j.physrep.2017.03.001))
 
 Discussion of the origin in [[KK-compactification]] of [[11-dimensional supergravity]]/[[M-theory]] is in
 
