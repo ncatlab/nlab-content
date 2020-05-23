@@ -1,21 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Motivation
+## Idea
 
-Sometimes in the place where we expect [[Lie algebra]]s, some noncommutative phenomena occur and we need to drop out the requirement of antisymmetry of the brackets. 
+A _Leibniz algebra_ is like a [[Lie algebra]], but without the condition that the [[magma|product]], often still written as a bracket $[-,-]$, is skew-symmetric.  The [[Jacobi identity]] however is retained as a condition in its form as the [[derivation]]-property of the product over itself. In view of the analogous [[product law]] of [[differentiation]] (also a [[derivation]]-property) attributed to [[Gottfried Leibniz]], this is then called the _Leibniz identity_ which gives Leibniz algebras their modern name ([Loday 93](#Loday93), [Loday-Pirashvili 93](#LodayPirashvili93)) even though the concept itself is older ([Blokh 65](#Blokh65)).
 
-[[Jean-Louis Loday]] introduced Leibniz algebras, because of considerations in [[algebraic K-theory]]. Roughly speaking the [[Lie algebra homology]] is related to the appearance of cyclic homology (as it is manifest in the original work of Tsygan and then of Loday-Quillen). 
+Leibniz algebras were motivated in [Cuvier 91](#Cuvier91), [Loday-Pirashvili 93](#LodayPirashvili93) as generalizing the relation between [[Lie algebra cohomology]] and [[cyclic homology]] ([Loday-Quillen 84](cyclic+homology#LodayQuillen84)) to one between _Leibniz cohomology_ and [[Hochschild homology]]: Where the nilpotency of the [[differential]] in the [[Chevalley-Eilenberg algebras]] that compute [[Lie algebra cohomology]] is equivalent to the [[Jacobi identity]] in the corresponding Lie algebra, Leibniz cohomology is defined on non-skew symmetric [[dg-algebras]] where now it is the generalization of the [[Jacobi identity]] in form of the _Leibniz rule_ (eq:LeibnizRule) which still guarantees the nilpotency of the differential.
 
-* [[Jean-Louis Loday]], [[Daniel Quillen]], _Cyclic homology and the Lie algebra homology of matrices_, 	Comm. Math. Helv. __59__, n. 1, 565-591 (1984), [doi](http://dx.doi.org/10.1007/BF02566367)
-
-Lie algebra homology involves the [[Chevalley-Eilenberg chain complex]], which in turns involves the exterior powers of the Lie algebra. Loday found that there is a noncommutative generalization where roughly speaking one has the tensor and not the exterior powers of the Lie algebra in the complex; this new complex defines the __Leibniz homology__ of Lie algebras. The Leibniz homology is related to the [[Hochschild homology]] the same way the Lie algebra homology is related to the cyclic homology. 
-
-* C. Cuvier, _Homologie de Leibniz et homologie de Hochschild_, C.R. Acad. Sci. Paris, Ser. A-B313, 569-572 (1991)
-
-In fact this new complex for Leibniz homology further generalizes to the case of Leibniz algebras, where it computes certain [[Tor]] groups for corepresentations of Leibniz algebras. 
+More recently, Leibniz algebras have been argued to clarify the nature of the [[embedding tensor]] and the resulting [[tensor hierarchies]] in [[gauged supergravity]] ([Lavau 17](#Lavau17)).
 
 ## Definition
 
@@ -23,19 +28,31 @@ Given a [[commutative unital ring]] $k$ (usually a [[field]]), a Lebniz $k$-alge
 
 A __left Leibniz $k$-algebra__ is $k$-[[module]] $L$ equipped with a bracket, which is a $k$-linear map $[,]:A\otimes A \to A$ satisfying the __left Leibniz identity__
 
-$$ [a, [b,c]] = [[a,b],c]+[b,[a,c]] $$
+\[
+  \label{LeibnizRule}
+   [a, [b,c]] \;=\; [[a,b],c]+[b,[a,c]]
+\]
 
 In other words, the left $ad$-map, $a \mapsto (ad_l a = [a,-]:L\to L)$ is a [[derivation]] of $L$ as a nonassociative algebra. Similarly, there are right Leibniz algebras, for which the right $ad$-map $ad_r :a\mapsto [-,a]:L\to L$ is a derivation. In the presence of antisymmetry, the left Leibniz identity is equivalent to the [[Jacobi identity]], though this is not true in general; thus a Lie algebra is precisely an antisymmetric (or alternating) Leibniz algebra.
 
-## Relation to Lie algebras in Loday-Pirashvili category
 
-There is a remarkable observation of Loday and Pirashvili that in the [[Loday–Pirashvili tensor category]] of linear maps with (exotic) "infinitesimal tensor product", the category of internal Lie algebras has the category of, say left, Leibniz $k$-algebras as a full subcategory.  
++-- {: .num_remark}
+###### Remark
+**(terminology)**
 
-## Terminology
+Some people dislike the term (left/right) _Leibniz algebra_ (which is allegedly due to Loday), and prefer other names, including 'Loday algebras' and many longer descriptive names.  
 
-Some people dislike the term (left/right) Leibniz algebra (which is allegedly due to Loday), and prefer other names, including 'Loday algebras' and many longer descriptive names.  
+=--
 
-## Corepresentation, representation, crossed module
+## Properties
+
+### As internal Lie algebras
+
+Leibniz algebras are equivalenlty [[Lie algebra objects]] in the [[Loday–Pirashvili tensor category]] of [[linear maps]] with (exotic) "infinitesimal [[tensor product]]" ([Loday-Pirashvili 98](#LodayPirashvili98))
+
+
+
+### Corepresentation, representation, crossed module
 
 Both a representation and a corepresentation of a right Leibniz $k$-algebra $\mathfrak{g}$ involve a $k$-module $M$ and two $k$-linear maps "actions" $M\otimes\mathfrak{g}\to M$ and $\mathfrak{g}\otimes M\to M$  with 3 axioms. 
 
@@ -64,7 +81,7 @@ $$
 [g, t(g')] = [g, g'] = [t(g), g'],\,\,\,\, for all\,\,\, g, g' \in\mathfrak{g}
 $$
 
-## Abelian extensions
+### Abelian extensions
 
 Abelian extension of right Leibniz algebras is a split short exact sequence of $k$-modules
 
@@ -97,7 +114,7 @@ $$
 
 Such derivations form a $k$-module $Der(\mathfrak{g},M)$. 
 
-## Homology and cohomology
+### Homology and cohomology
 
 The homology and cohomology of Leibniz algebra $\mathfrak{g}$ with abelian $k$-module of coefficients, which is a corepresentation $A$ in the case of homology and a representation $M$ in the case of cohomology: 
 
@@ -118,17 +135,46 @@ Notice a difference from the Lie algebra cocycles where instead of a tensor powe
 There are standard interpretations of cocycles in low dimensions. For example for $n=0$, $HL^0(\mathfrak{g}, M)$ is the submodule of invariants.
 For $n=1$ there is a natural projection $Der(\mathfrak{g},M)\to HL^1(\mathfrak{g},M)$ whose kernel is generated by inner derivations. 
 
-## The related kinds of algebras
+### Relation to Zinbiel algebras
 
 The Leibniz operad is quadratic Koszul algebra whose Koszul dual operad is called the operad of dual Leibniz algebras
 or of [[Zinbiel algebra]]s, see there. 
 
-## Literature 
 
-* [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _Universal enveloping algebras of Leibniz algebras and (co)homology_, Math. Ann. __296__, 139-158 (1993), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/93LodayPira%28Leibniz%29.pdf)
-* J-L. Loday, _Algebraic K-theory and the conjectural Leibniz K-theory_, K-Theory 09/2003; 30(2):105-127, [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2003Loday%28LeibnizConj%29.pdf) [doi](http://dx.doi.org/10.1023/B:KTHE.0000018382.90150.ce)
-* [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps_, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
-* Jerry M. Lodder, _Leibniz homology, characteristic classes and K-theory, [K-theory archive/0493](http://www.math.uiuc.edu/K-theory/0493); _Leibniz cohomology and the calculus of variations_, [arXiv:math/9808036](http://arxiv.org/abs/math/9808036)
+## References
+
+### General
+
+The idea of _Leibniz algebra_, though not by this name, is given already in 
+
+* {#Blokh65} A. Blokh, _A generalization of the concept of Lie algebra_, Dokl. Akad. Nauk SSSR, 165:471–473 (1965) ([mathrunet:dan31825](http://mi.mathnet.ru/eng/dan31825))
+
+The concept was revived (and apparently the name _Leibniz algebra_ was first chosen) in
+
+* {#Loday93} [[Jean-Louis Loday]], _Une version non commutative des algèbres de Lie: les algèbres de Leibniz_,  Les rencontres physiciens-mathématiciens de Strasbourg -RCP25, Volume 44  (1993), Talk no. 5, 25 p.  ([numdam:RCP25_1993__44__127_0](http://www.numdam.org/item/?id=RCP25_1993__44__127_0))
+
+* {#LodayPirashvili93} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _Universal enveloping algebras of Leibniz algebras and (co)homology_, Math. Ann. __296__, 139-158 (1993) ([doi:10.1007/BF01445099](https://doi.org/10.1007/BF01445099), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/93LodayPira%28Leibniz%29.pdf))
+
+Early review is in
+
+* {#Cuvier94} [[Christian Cuvier]], _Algèbres de Leibnitz: définitions, propriétés_,  Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 27 (1994) no. 1, p. 1-45 ([doi:10.24033/asens.1687](https://doi.org/10.24033/asens.1687))
+
+See also
+
+* Wikipedia, _[Leibniz algebra](https://en.wikipedia.org/wiki/Leibniz_algebra)_
+
+Relaization of Leibniz algebras as [[Lie algebra objects]] in the [[Loday-Piashvili category]]:
+
+* {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://doi.org/10.1023/B:GEOR.0000008125.26487.f3))
+
+
+Relation to [[Hochschild homology]]:
+
+* {#Cuvier91} [[Christian Cuvier]], _Homologie de Leibniz et homologie de Hochschild_, C.R. Acad. Sci. Paris, Ser. A-B313, 569-572 (1991)
+
+* Jerry M. Lodder, _Leibniz homology, characteristic classes and K-theory, [K-theory archive/0493](http://www.math.uiuc.edu/K-theory/0493); _Leibniz cohomology and the calculus of variations_ ([arXiv:math/9808036](http://arxiv.org/abs/math/9808036))
+
+* [[Jean-Louis Loday]], _Algebraic K-theory and the conjectural Leibniz K-theory_, K-Theory 09/2003; 30(2):105-127, [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2003Loday%28LeibnizConj%29.pdf) [doi](http://dx.doi.org/10.1023/B:KTHE.0000018382.90150.ce)
 
 A generalization of [[Lie integration]] to conjectural Leibniz groups has been conjectured by [[J-L. Loday]]. A local version via local Lie [[rack]]s has been proposed in
 
@@ -141,10 +187,15 @@ This is partly based on earlier insights of Kinyon and Weinstein:
 
 * Simon Covez, _On the conjectural Leibniz cohomology for groups_, Journal of K-theory __10__:03, Dec 2012, pp 519-563 [doi](http://dx.doi.org/10.1017/is011011011jkt195)
 
+### Relation to dg-Lie algebras and tensor hierarchies
 
-Relation to the [[embedding tensor]] and [[tensor hierarchies]] in [[gauged supergravity]]:
+Relation of [[Leibniz algebras]] to [[dg-Lie algebras]] such as the [[tensor hierarchies]] in [[gauged supergravity]]:
 
-* [[Sylvain Lavau]], _Tensor hierarchies and Leibniz algebras_, J. Geom. Phys. 144:147-189 (2019) ([arXiv:1708.07068](https://arxiv.org/abs/1708.07068))
+* {#Lavau17} [[Sylvain Lavau]], _Tensor hierarchies and Leibniz algebras_, J. Geom. Phys. 144:147-189 (2019) ([arXiv:1708.07068](https://arxiv.org/abs/1708.07068))
+
+* [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
+
+* [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
 
 
 
