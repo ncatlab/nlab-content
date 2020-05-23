@@ -186,7 +186,7 @@ is a pullback, hence $0 \to A \to B$ is exact.
 
 An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
 
-* the [[hom-functor]] $Hom_C(-, I) : C^{op} \to Set$ is [[exact functor|exact]];
+* the [[hom-functor]] $Hom_C(-, I) : C^{op} \to \mathscr{Ab}$ is [[exact functor|exact]] where $\mathscr{Ab}$ is the category of abelian groups;
 
 * for all [[morphism]]s $f : X \to Y$ such that $0 \to X \to Y$ is [[exact sequence|exact]] and for all $k : X \to I$, there exists $h : Y \to I$ such that $ h\circ f = k$.
 
@@ -731,6 +731,7 @@ For injective objects in a [[topos]] see
 * D. Higgs, _Injectivity in the topos of complete Heyting algebra valued sets_ , Can. J. Math. **36** (1984) pp.550-568. ([pdf](http://cms.math.ca/openaccess/cjm/v36/cjm1984v36.0550-0568.pdf))
 
 * [[Peter Johnstone]], [[Fred Linton]], [[Robert Paré]], _Injective Objects in Topoi II: Connections with the axiom of choice_ , pp.207-216 in LNM **719** Springer Heidelberg 1979.
+
 
 * T. Kenney, _Injective Power Objects and the Axiom of Choice_ ,  JPAA **215** (2011) pp.131&#8211;144.
 
