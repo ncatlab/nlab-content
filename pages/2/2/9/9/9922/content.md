@@ -24,14 +24,39 @@ The [[representation]]/[[action]] of a [[Lie algebra]] $\mathfrak{g}$ on a [[vec
 
 ## Definition
 
-A Lie algebra [[homomorphism]] $\mathfrak{g} \to end(V)$ to the [[endomorphism Lie algebra]] of $V$.
+A _Lie algebra representation_ is a Lie algebra [[homomorphism]] $\rho \;\colon\;\mathfrak{g} \to end(V)$ to the [[endomorphism Lie algebra]] of $V$.
+
+This means equivalently that
+
+$$
+  \array{
+    \mathfrak{g} 
+      \otimes 
+    V 
+    & \overset{\rho}{\longrightarrow} & 
+    V
+    \\
+    (x,v) &\mapsto& \rho_x(v)
+  }
+$$
+
+is a [[bilinear map]] such that for all $x_i \in \mathfrak{g}$ and $v \in V$ we have the [[Lie action property]]:
+
+\[
+  \label{LieActionProperty}
+  \rho_{x_1}(\rho_{x_2}(v))
+  -
+  \rho_{x_2}(\rho_{x_1}(v))
+  \;=\;
+  \rho_{[x_1,x_2]}(v)
+\]
 
 ## Properties
 
 ### In terms of string diagrams / Jacobi diagrams
  {#InTermsOfStringDiagrams}
 
-In [[string diagram]]-notation for [[Lie algebra objects]] [[internalization|internal]] to [[tensor categories]], the [[Lie action property]] looks as follows:
+In [[string diagram]]-notation for [[Lie algebra objects]] [[internalization|internal]] to [[tensor categories]], the [[Lie action property]] (eq:LieActionProperty) looks as follows:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/LieActionPropertyAsSTURelation.jpg" width="500">
