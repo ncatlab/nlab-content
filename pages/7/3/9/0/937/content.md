@@ -54,7 +54,7 @@ Notice that because of truncation, being a Lie algebra in LP is a bit less than 
 
 
 
-* [nlab](http://golem.ph.utexas.edu/category/2007/10/loday_and_pirashvili_on_lie_2a.html)
+* [nCafe](http://golem.ph.utexas.edu/category/2007/10/loday_and_pirashvili_on_lie_2a.html)
 
 
 
