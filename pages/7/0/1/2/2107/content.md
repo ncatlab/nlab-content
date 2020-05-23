@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,8 +27,16 @@ More recently, Leibniz algebras have been argued to clarify the nature of the [[
 
 Given a [[commutative unital ring]] $k$ (usually a [[field]]), a Lebniz $k$-algebra $A$ is a particular kind of [[nonassociative algebra]] over $k$ which is somewhat more general than a [[Lie algebra]] over $k$.
 
-A __left Leibniz $k$-algebra__ is $k$-[[module]] $L$ equipped with a bracket, which is a $k$-linear map $[,]:A\otimes A \to A$ satisfying the __left Leibniz identity__
-$$\label{LeibnizRule} [a, [b,c]] = [[a,b],c]+[b,[a,c]]$$
+A __left Leibniz $k$-algebra__ is $k$-[[module]] $L$ equipped with a bracket, which is a $k$-linear map $[-,-] \;\colon\; A\otimes A \to A$ satisfying the __left Leibniz identity__
+
+\[
+  \label{LeibnizRule} 
+  [a, [ b , c ] ] 
+  \;=\; 
+  [ [ a , b ] , c ] 
+    +
+  [ b , [ a , c ] ]
+\]
 
 In other words, the left $ad$-map, $a \mapsto (ad_l a = [a,-]:L\to L)$ is a [[derivation]] of $L$ as a nonassociative algebra. Similarly, there are right Leibniz algebras, for which the right $ad$-map $ad_r :a\mapsto [-,a]:L\to L$ is a derivation. In the presence of antisymmetry, the left Leibniz identity is equivalent to the [[Jacobi identity]], though this is not true in general; thus a Lie algebra is precisely an antisymmetric (or alternating) Leibniz algebra.
 
@@ -136,6 +145,94 @@ For $n=1$ there is a natural projection $Der(\mathfrak{g},M)\to HL^1(\mathfrak{g
 The Leibniz operad is quadratic Koszul algebra whose Koszul dual operad is called the operad of dual Leibniz algebras
 or of [[Zinbiel algebra]]s, see there. 
 
+## Examples
+
+### Basic examples
+
+* Every [[Lie algebra]] is a Leibniz algebra that happens to have skew-symmetric product. Conversely, a Leibniz algebra with skew-symmetric product is a Lie algebra.
+
+### From Lie modules and embedding tensors
+ {#FromLieModulesAndEmbeddingTensors}
+
+
++-- {: .num_prop #LeibnizAlgebraFromLieModuleAndEmbeddingTensor}
+###### Proposition
+**([[Leibniz algebra]] from [[Lie module]] with [[embedding tensor]])**
+
+Let 
+
+* $\mathfrak{g}$ be a [[Lie algebra]],
+
+* $\mathfrak{g} \otimes V \overset{\rho}{\longrightarrow} V $ be a [[Lie algebra representation]] of $\mathfrak{g}$,
+
+* $\Theta \colon V \longrightarrow \mathfrak{g}$ be an [[embedding tensor]], hence a [[linear map]] such that the "quadratic constraint" is satisfied: for all $v_1, v_2 \in V$ we have
+
+    \[
+      \label{QuadraticConstraintForEmbeddingTenson}
+      [\Theta(v_1), \Theta(v_2)] 
+        \;=\; 
+      \Theta
+      \big(
+        \rho_{\Theta(v_1)}(v_2)
+      \big)
+    \]
+
+Then $V$ becomes a [[Leibniz algebra]] with product defined by
+
+\[
+  \label{LeibnizProductFromEmbeddingTensor}
+  v_1 \cdot v_2 
+  \;\coloneqq\;
+  \rho_{\Theta(v_1)}(v_2)
+\]
+
+and with respect to this the _quadratic constraint_ (eq:QuadraticConstraintForEmbeddingTenson) becomes the condition that $\Theta$ is a [[homomorphism]] of [[Leibniz algebras]].
+
+=--
+
+([Lavau 17, Example 3](#Lavau17))
+
++-- {: .proof}
+###### Proof
+
+We directly check the Leibniz rule (eq:LeibnizRule) as follows:
+
+$$
+  \begin{aligned}
+    v_1 \cdot (v_2 \cdot v_3)
+    & =
+    \rho_{\Theta(v_1)}
+    \big(
+      \rho_{\Theta(v_2)}(v_3)
+    \big)
+    \\
+    & = 
+    \rho_{
+      \underset{
+        = \rho_{\Theta(v_1)}(v_2)
+      }{
+        \underbrace{
+          [\Theta(v_1), \Theta(v_2)]
+        }
+      }
+    }(v_3)
+    +
+    \rho_{\Theta(v_2)}
+    \big(
+      \rho_{\Theta(v_1)}(v_3)
+    \big)
+    \\
+    & = 
+    (v_1 \cdot v_2) \cdot v_3
+    +
+    v_2 \cdot (v_1 \cdot v_3)
+  \end{aligned}
+$$
+
+Here the first line is the definition (eq:LeibnizProductFromEmbeddingTensor), the second line is the [[Lie action property]] ([here](Lie+algebra+representation#eq:LieActionProperty)), under the brace we use the quadratic constraint (eq:QuadraticConstraintForEmbeddingTenson) on the embedding tensor, and in the last line we observe again the definition (eq:LeibnizProductFromEmbeddingTensor).
+
+=--
+
 
 ## References
 
@@ -161,7 +258,7 @@ See also
 
 Relaization of Leibniz algebras as [[Lie algebra objects]] in a suitable [[tensor category]]:
 
-* {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://doi.org/10.1023/B:GEOR.0000008125.26487.f3))
+* {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://link.springer.com/article/10.1023/B:GEOR.0000008125.26487.f3))
 
 
 Relation to [[Hochschild homology]]:
