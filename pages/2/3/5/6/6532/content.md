@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept of [[tensor hierarchies]]:
+
+* [[Bernard de Wit]], [[Henning Samtleben]], _Gauged maximal supergravities and hierarchies of nonabelian vector-tensor systems_, Fortsch. Phys. 53 (2005) 442-449 ([arXiv:hep-th/0501243](https://arxiv.org/abs/hep-th/0501243))
+
 Introducing a class of [[Lagrangian densities]] for [[D=6 N=(1,0) SCFTs]] with [[non-abelian group|non-abelian]] [[gauge group]] has been proposed in 
 
 * {#SSW11} [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, _$(1,0)$ superconformal models in six dimensions_,  J. High Energ. Phys. 2011, 62 (2011) ([arXiv:1108.4060](https://arxiv.org/abs/1108.4060), <a href="https://doi.org/10.1007/JHEP12(2011)062">doi:10.1007/JHEP12(2011)062</a>)
