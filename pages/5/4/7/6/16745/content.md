@@ -20,13 +20,17 @@ The concept of **Borcherds algebra** or **Borcherds-Kac-Moody algebra** is a gen
 
 ## References
 
-
+Original articles:
 
 * [[Richard Borcherds]], _Generalized Kac-Moody algebras_, J. Algebra 115 (1988), 501&#8211;512. 
 
 * [[Richard Borcherds]], _Central extensions of generalized Kac-Moody algebras_, J. Algebra.140, 330-335 (1991).
 
 * [[Victor Kac]], _Infinite dimensional Lie algebras_, third edition, Cambridge University Press, 1990.
+
+See also:
+
+* Wikipedia, _[Generaralized Kac-Moody algebra](https://en.wikipedia.org/wiki/Generalized_Kac&#8211;Moody_algebra)_
 
 Relation to [[U-duality]] and [[E11]] (via  [[mysterious duality]]) is discussed in 
 
@@ -35,15 +39,19 @@ Relation to [[U-duality]] and [[E11]] (via  [[mysterious duality]]) is discussed
 
 * [[Marc Henneaux]], [[Bernard Julia]], J&#233;r&#244;me Levie, _$E_{11}$, Borcherds algebras and maximal supergravity_ ([arxiv:1007.5241](http://arxiv.org/abs/1007.5241))
 
-and specifically to [[exceptional generalized geometry]] in
+and specifically to [[tensor hierarchies]] in [[gauged supergravity]] 
 
-* Jakob Palmkvist, _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
+* {#Palmkvist12} [[Jakob Palmkvist]], _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
 
-* {#Palmkvist12} Jakob Palmkvist, _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
+* [[Jakob Palmkvist]], _The tensor hierarchy algebra_, J. Math. Phys. 55, 011701 (2014) ([arXiv:1305.0018](https://arxiv.org/abs/1305.0018))
 
-See also:
+and to [[exceptional generalized geometry]]
 
-* Wikipedia, _[Generaralized Kac-Moody algebra](https://en.wikipedia.org/wiki/Generalized_Kac&#8211;Moody_algebra)_
+* [[Jakob Palmkvist]], _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
+
+
+
+
 
 
 
