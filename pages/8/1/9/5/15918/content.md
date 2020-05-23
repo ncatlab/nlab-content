@@ -83,7 +83,7 @@ By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic
 
 ## References
 
-Named after [[Guiseppe Peano]]
+Named after [[Giuseppe Peano]]
 
 * Wikipedia, _[Peano axioms](http://en.wikipedia.org/wiki/Peano_axioms)_
 
