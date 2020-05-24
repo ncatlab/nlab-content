@@ -114,10 +114,11 @@ A [[super Lie algebra]] according to def. \ref{SuperLieAlgebraAsLieAlgebraIntern
 1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
 for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
 
-   $$
-     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
+   \[
+     \label{GradedJacobiIdentity}
+     [x, [y, z] ] = [ [x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z] ]
      \,.
-   $$
+   \]
 
 A [[homomorphism]] of super Lie algebras is a homomorphisms of the underlying [[super vector spaces]]
 which preserves the Lie bracket. We write
