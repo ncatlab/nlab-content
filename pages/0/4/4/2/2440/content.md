@@ -292,6 +292,9 @@ For type 1 the $\mathbb{Z}/2\mathbb{Z}$-grading lifts to an $\mathbb{Z}$-grading
 reviewed e.g. in ([Farmer 84, p. 25,26](#Farmer84), [Minwalla 98, section 4.1](#Minwalla98)).
 
 ## Examples
+ {#Examples}
+
+### Basic examples
 
 Some obvious but important classes of examples are the following:
 
@@ -346,7 +349,9 @@ $$
 =--
 
 
-* The [[super Poincare Lie algebra]] and various of its polyvector extension are super-extension of the ordinary [[Poincare Lie algebra]]. These are the [[supersymmetry algebras]] in the strict original sense of the word.  For more on this see at _[[geometry of physics -- supersymmetry]]_.
+### Super-Poincaré super Lie algebras (supersymmetry)
+
+* The [[super Poincaré Lie algebra]] and various of its polyvector extension are super-extension of the ordinary [[Poincare Lie algebra]]. These are the [[supersymmetry algebras]] in the strict original sense of the word.  For more on this see at _[[geometry of physics -- supersymmetry]]_.
 
 * [[super q-Schur algebra]]
 
@@ -357,6 +362,136 @@ $$
   Just as [[Lie algebras]] are [[vertical categorification|categorified]] to [[L-infinity algebra]]s and [[L-infinity algebroid]]s, so super Lie algebras categorifie to [[super L-infinity algebra]]s.  A secretly famous example is the
 
   * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
+
+### $\mathbb{Z}$-Graded super Lie algebras
+
++-- {: .num_defn #SuperLieAlgebraInducedFromVectorSpace}
+###### Definition
+
+Let $V$ be a [[finite-dimensional vector space]] over some [[ground field]] $k$.
+
+Define a $\mathbb{Z}$-[[graded vector space]] 
+
+$$
+  \widehat V \;\in \; Vect_k^{\mathbb{Z}}
+$$
+
+concentrated in degrees $\leq 1$ [[recursion|recursively]] as follows:
+
+For $n =1$ we have
+
+$$
+  \widehat V_{1}
+  \;\coloneqq\;
+  V
+$$
+
+and for $n \leq 0 \in \mathbb{Z}$, the component space in degree $n-1$ is the vector space of [[linear maps]] from $V$ to the component space in degree $n$:
+
+$$
+  \widehat V_{n-1}
+  \;\coloneqq\;
+  Hom_k( V, \widehat V_n )
+  \,.
+$$
+
+Hence:
+
+\[
+  \label{ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace}
+  \begin{aligned}
+    \widehat V_1 & = V
+    \\
+    \widehat V_0 & = Hom_k(V,V) = \mathfrak{gl}(V)
+    \\
+    \widehat V_{-1} & =  Hom_k(V, Hom_k(V,V)) \simeq  Hom_k(V \otimes V, V)
+    \\
+    \widehat V_{-2} & = Hom_k(V, Hom_k(V, Hom_k(V,V))) \simeq  Hom_k(V \otimes V \otimes V, V)
+    \\
+    \vdots
+  \end{aligned}
+\]
+
+Consider then the [[direct sum]] of these component spaces as a [[super vector space]] with the [[even number]]/[[odd number]]-degrees being in super-even/super-odd degree, respectively.
+
+On this [[super vector  space]] consider a [[super Lie bracket]] defined [[recursion|recusively]] as follows:
+
+For all $v_1, v_2 \in \widehat V_1 = V$ we set
+
+$$
+  [v_1, v_2] \;=\; 0
+  \,.
+$$
+
+For $f \in \widehat V_{n \leq 0}$ and $v \in \widehat V_1 = V$ we set
+
+\[
+  \label{SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace}
+  [f, v]
+  \;\coloneqq\;
+  f(v)
+\]
+
+Finally, $f\in \widehat V_{ deg(f) \leq 0 }$ and $g\in \widehat V_{deg(g) \leq 0}$ we set
+
+\[
+  \label{SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace}
+  \begin{aligned}
+  [f, g]
+  &
+  \colon\;
+  v 
+  \;\mapsto\;
+  [f, g(v)]
+  -
+  (-1)^{
+    deg(f) deg(g)
+  }
+  [ g, f(v) ]
+  \\
+  \end{aligned}
+\]
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) the definition (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) is equivalent to
+
+$$
+  [ [f,g],v ]
+  \;=\;
+  [f, [g,v] ]
+  -
+  (-1)^{
+    deg(f) deg(g)
+  }
+  [ g, [f,v] ]
+$$
+
+Hence (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) is already implied by (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) if the bracket is to satisfy the super Jacobi identity (eq:GradedJacobiIdentity).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $f,g \in \widehat V_0 = Hom_k(V,V)$ (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace) we have
+
+$$
+  [f,g](v)
+  \;=\;
+  [f,g(v)] - [g,f(v)]
+  \;=\;
+  f(g(v)) - g(f(v))
+$$
+
+This is the Lie bracket of the [[general linear Lie algebra]] $\mathfrak{gl}(V)$, as indicated on the right in (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace).
+
+=--
+
+
 
 ## Related entries
 
