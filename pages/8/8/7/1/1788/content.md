@@ -20,7 +20,7 @@ $$
   \begin{aligned}
     \widehat V_1 & = V
     \\
-    \widehat V_0 & = Hom_k(V,V) = GL(V)
+    \widehat V_0 & = Hom_k(V,V) = \mathfrak{gl}(V)
     \\
     \widehat V_{-1} & =  Hom_k(V, Hom_k(V,V)) \simeq  Hom_k(V \otimes V, V)
     \\
@@ -41,8 +41,10 @@ $$
 and for homogeneously graded elements $f\in \widehat V_{ deg(f) \leq 0 }$ and $g\in \widehat V_{deg(g) \leq 0}$, [[recursion|recursively]] by
 
 $$
+  \begin{aligned}
   [f, g]
-  \;\colon\;
+  &
+  \colon\;
   v 
   \;\mapsto\;
   [f, g(v)]
@@ -51,34 +53,174 @@ $$
     deg(f) deg(g)
   }
   [ g, f(v) ]
+  \\
+  \end{aligned}
 $$
+
+hence
+
+$$
+  [ [f,g],v ]
+  \;=\;
+  [f, [g,v] ]
+  -
+  (-1)^{
+    deg(f) deg(g)
+  }
+  [ g, [f,v] ]
+$$
+
+So, for $f,g \in \widehat V_0 = \mathfrak{gl}(V)$ we have
+
+$$
+  [f,g](v)
+  \;=\;
+  [f,g(v)] - [g,f(v)]
+  \;=\;
+  f(g(v)) - g(f(v))
+$$
+
+which is the Lie bracket of the [[general linear Lie algebra]].
+
+\linebreak
+
+To check the [super Jacobi identity](super+Lie+algebra#eq:GradedJacobiIdentity)
+
+by [[induction]].
+
+It holds for $deg(f_3) \geq 0$ , by spring
+
+Now assume it holds for $deg \geq n$
+
+and consider $deg(f_i) \geq n - 1$
+
+
+\linebreak
 
 \linebreak
 
 $$
   \begin{aligned}
-    \big[ f_1, [f_2, f_3] \big](v)
+    [f_1, [f_2, f_3] ] (v)
+    & 
+    =
+    [ f_1,  [f_2, f_3](v) ] 
+    -
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3))}
+    [  [ f_2, f_3 ], f_1(v)  ]
+    \\
     & =
-    \big[
-      f_1, 
-      [f_2, f_3(v)]
-      -
-      (-1)^{deg(f_2) deg(f_3)}
-      [f_3, f_2(v)]
-   \big]
-   -
-   (-1)^{ deg(f_1)( deg(f_2) + deg(f_3) ) }
-   \big[
-     [f_2, f_3],
-     f_3(v)
-   \big]
+    [ f_1,  [  f_2, f_3(v) ] ] 
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_2)deg(f_3)}
+    [ f_1,  [  f_3, f_2(v) ] ] 
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3))}
+    [  f_2,  [ f_3,  f_1(v) ] ]
+    \\
+    & \phantom{=}
+    +    
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3)) + deg(f_2)deg(f_3)}
+    [  f_3,  [ f_2,  f_1(v) ] ]
+    \\
+    & = 
+    [ f_1,  [  f_2, f_3(v) ] ] 
+    -
+    (-1)^{deg(f_1) deg(f_2)}
+    {
+    \color{green}
+    [ f_2,  [  f_1, f_3(v) ] ] 
+    }
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_2) deg(f_3)}
+    \big(
+    [ f_1,  [  f_3, f_2(v) ] ] 
+    -
+    (-1)^{deg(f_1) deg(f_2)}
+    {
+    \color{orange}
+    [ f_3,  [  f_1, f_2(v) ] ] 
+    }
+    \big)
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3))}
+    \big(
+    [  f_2,  [ f_3,  f_1(c) ] ]
+    -
+    (-1)^{deg(f_1)deg(f_3)}
+    {
+    \color{blue}
+    [  f_2,  [ f_1,  f_3(v) ] ]   
+    }
+    \big)
+    \\
+    & \phantom{=}
+    +    
+    (-1)^{deg(f_1) deg(f_2 ) + deg(f_1) deg(f_3) + deg(f_2) deg(f_3)}
+    \big(
+    [  f_3,  [ f_2,  f_1(v) ] ]
+    -
+    (-1)^{deg(f_1) deg(f_2)}
+    {
+    \color{cyan}
+    [  f_3,  [ f_1,  f_2(c) ] ]
+    }
+    \big)
+    \\
+    & \phantom{=}
+    (-1)^{deg(f_1) deg(f_2)}
+    \big(
+    \underset{
+      = 0
+    }{
+    \underbrace{
+    +
+    {
+    \color{green}
+    [ f_2,  [  f_1, f_3(v) ] ] 
+    }
+    -
+    {
+    \color{blue}
+    [  f_2,  [ f_1,  f_3(v) ] ]
+    }
+    }
+    }
+    \big)
+    \\
+    & \phantom{=}
+    +
+    (-1)^{deg(f_1) deg(f_2) + deg(f_2) deg(f_3)}
+    \big(
+    \underset{
+      = 0
+    }{
+    \underbrace{
+    {
+    \color{orange}
+    [  f_3,  [ f_1,  f_2(v) ] ]
+    }
+    -
+    {
+    \color{cyan}
+    [ f_3,  [  f_1, f_2(v) ] ] 
+    }
+    }
+    }
+    \big)
   \end{aligned}
 $$
 
 
 \linebreak
-
-
 
 
 \linebreak
@@ -136,7 +278,7 @@ $$
         \partial v_2
       ],
       v_3
-    \big]
+    \big](w)
     \;+\;
     (-1)^{
       (deg(v_1)-1)
@@ -146,6 +288,7 @@ $$
        \partial v_2,
        [\partial v_1, v_3] 
      \big]
+     (w)
   \end{aligned}
 $$
 
@@ -184,3 +327,5 @@ $$
     v_2 \cdot (v_1 \cdot v_3)
   \end{aligned}
 $$
+
+
