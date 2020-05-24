@@ -142,7 +142,7 @@ $$
     \big(
     [ f_1,  [  f_3, f_2(v) ] ] 
     -
-    (-1)^{deg(f_1) deg(f_2)}
+    (-1)^{deg(f_1) deg(f_3)}
     {
     \color{orange}
     [ f_3,  [  f_1, f_2(v) ] ] 
@@ -153,7 +153,7 @@ $$
     -
     (-1)^{deg(f_1)(deg(f_2) + deg(f_3))}
     \big(
-    [  f_2,  [ f_3,  f_1(c) ] ]
+    [  f_2,  [ f_3,  f_1(v) ] ]
     -
     (-1)^{deg(f_1)deg(f_3)}
     {
@@ -176,6 +176,7 @@ $$
     \big)
     \\
     & \phantom{=}
+    +
     (-1)^{deg(f_1) deg(f_2)}
     \big(
     \underset{
@@ -198,7 +199,7 @@ $$
     \\
     & \phantom{=}
     +
-    (-1)^{deg(f_1) deg(f_2) + deg(f_2) deg(f_3)}
+    (-1)^{deg(f_1) deg(f_3) + deg(f_2) deg(f_3)}
     \big(
     \underset{
       = 0
@@ -216,6 +217,42 @@ $$
     }
     }
     \big)
+    \\
+    & =
+    \big[
+      [f_1, f_2], f_3(v)
+    \big]   
+    \\
+    & \phantom{=}
+    -
+    (-1)^{ deg(f_2) deg(f_3) } 
+    \big[
+      [f_1, f_3], f_2(c) 
+    \big]
+    \\
+    & \phantom{=}
+    +
+    (-1)^{ deg(f_1) deg(f_2)  }
+    \big[
+      f_2, [f_1, f_3](v)
+    \big]
+    \\
+    & \phantom{=}
+    -
+    (-1)^{ deg(f_3)( deg(f_1) + deg(f_2) ) } 
+    \big[
+      f_3, [f_1, f_2](v) 
+    \big]
+    \\
+    & =
+    \big[
+     [f_1, f_2], f_3
+    \big](v)
+    +
+    (-1)^{deg(f_1)deg(f_2))}
+    \big[
+      f_2, [f_1, f_3]
+    \big](v)
   \end{aligned}
 $$
 
