@@ -363,9 +363,14 @@ $$
 
   * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
-### $\mathbb{Z}$-Graded super Lie algebras
 
-+-- {: .num_defn #SuperLieAlgebraInducedFromVectorSpace}
+
+### $\mathbb{Z}$-graded Super-Lie algebra extension of $\mathfrak{gl}(V)$
+ {#SuperLieAlgebraInducedFromVectorSpace}
+
+The following example is highlighted in [Palmkvist 13, 3.1](#Palmkvist13) (reviewed more clearly in [Lavau-Palmkvist 19, 2.4](#LavauPalmkvist19)) where it is atributed to I. L. Kantor (1970).
+
++-- {: .num_defn #TheSuperLieAlgebraInducedFromVectorSpace}
 ###### Definition
 
 Let $V$ be a [[finite-dimensional vector space]] over some [[ground field]] $k$.
@@ -432,7 +437,7 @@ For $f \in \widehat V_{n \leq 0}$ and $v \in \widehat V_1 = V$ we set
   f(v)
 \]
 
-Finally, $f\in \widehat V_{ deg(f) \leq 0 }$ and $g\in \widehat V_{deg(g) \leq 0}$ we set
+Finally, for $f\in \widehat V_{ deg(f) \leq 0 }$ and $g\in \widehat V_{deg(g) \leq 0}$ we set
 
 \[
   \label{SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace}
@@ -454,7 +459,7 @@ Finally, $f\in \widehat V_{ deg(f) \leq 0 }$ and $g\in \widehat V_{deg(g) \leq 0
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #ConstraintsOnBracketInSuperLieAlgebraInducedByVectorSpace}
 ###### Remark
 
 By (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) the definition (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) is equivalent to
@@ -470,14 +475,15 @@ $$
   [ g, [f,v] ]
 $$
 
+
 Hence (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) is already implied by (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) if the bracket is to satisfy the super Jacobi identity (eq:GradedJacobiIdentity).
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #LieBracketOnglInsideSuperLieAlgebraInducedFromVectorSpace}
 ###### Example
 
-For $f,g \in \widehat V_0 = Hom_k(V,V)$ (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace) we have
+For $f,g \in \widehat V_0 = Hom_k(V,V)$ (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace) we have that the bracket in Def. \ref{SuperLieAlgebraInducedFromVectorSpace} is 
 
 $$
   [f,g](v)
@@ -487,7 +493,189 @@ $$
   f(g(v)) - g(f(v))
 $$
 
-This is the Lie bracket of the [[general linear Lie algebra]] $\mathfrak{gl}(V)$, as indicated on the right in (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace).
+(by combining (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) with (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace)).
+
+This is the [[Lie bracket]] of the [[general linear Lie algebra]] $\mathfrak{gl}(V)$, as indicated on the right in (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace).
+
+
+=--
+
+It remains to show that:
+
++-- {: .num_prop #SuperJacobiForSuperLieAlgebraInducedFromVectorSpace}
+###### Proposition
+
+Def. \ref{TheSuperLieAlgebraInducedFromVectorSpace} indeed gives a [[super Lie algebra]] in that the bracket (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) satisfies the super Jacobi identity (eq:GradedJacobiIdentity).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We proceed by [[induction]]:
+
+By Remark \ref{ConstraintsOnBracketInSuperLieAlgebraInducedByVectorSpace} we have that the super Jacobi identity holds for for all [[triples]] $f_1, f_2, f_3 \in \widehat{V}$ with $deg(f_3) \geq 0$.
+
+Now assume that the super Jacobi identity has been shown for triples $(f_1, f_2, f_3(v))$ and $(f_1, f_3, f_2(v))$, for any $v \in V$. The following computation shows that then it holds for $(f_1, f_2, f_3)$:
+
+$$
+  \begin{aligned}
+    [f_1, [f_2, f_3] ] (v)
+    & 
+    =
+    [ f_1,  [f_2, f_3](v) ] 
+    -
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3))}
+    [  [ f_2, f_3 ], f_1(v)  ]
+    \\
+    & =
+    [ f_1,  [  f_2, f_3(v) ] ] 
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_2)deg(f_3)}
+    [ f_1,  [  f_3, f_2(v) ] ] 
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3))}
+    [  f_2,  [ f_3,  f_1(v) ] ]
+    \\
+    & \phantom{=}
+    +    
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3)) + deg(f_2)deg(f_3)}
+    [  f_3,  [ f_2,  f_1(v) ] ]
+    \\
+    & = 
+    [ f_1,  [  f_2, f_3(v) ] ] 
+    -
+    (-1)^{deg(f_1) deg(f_2)}
+    {
+    \color{green}
+    [ f_2,  [  f_1, f_3(v) ] ] 
+    }
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_2) deg(f_3)}
+    \big(
+    [ f_1,  [  f_3, f_2(v) ] ] 
+    -
+    (-1)^{deg(f_1) deg(f_3)}
+    {
+    \color{orange}
+    [ f_3,  [  f_1, f_2(v) ] ] 
+    }
+    \big)
+    \\
+    & \phantom{=}
+    -
+    (-1)^{deg(f_1)(deg(f_2) + deg(f_3))}
+    \big(
+    [  f_2,  [ f_3,  f_1(v) ] ]
+    -
+    (-1)^{deg(f_1)deg(f_3)}
+    {
+    \color{blue}
+    [  f_2,  [ f_1,  f_3(v) ] ]   
+    }
+    \big)
+    \\
+    & \phantom{=}
+    +    
+    (-1)^{deg(f_1) deg(f_2 ) + deg(f_1) deg(f_3) + deg(f_2) deg(f_3)}
+    \big(
+    [  f_3,  [ f_2,  f_1(v) ] ]
+    -
+    (-1)^{deg(f_1) deg(f_2)}
+    {
+    \color{cyan}
+    [  f_3,  [ f_1,  f_2(c) ] ]
+    }
+    \big)
+    \\
+    & \phantom{=}
+    +
+    (-1)^{deg(f_1) deg(f_2)}
+    \big(
+    \underset{
+      = 0
+    }{
+    \underbrace{
+    +
+    {
+    \color{green}
+    [ f_2,  [  f_1, f_3(v) ] ] 
+    }
+    -
+    {
+    \color{blue}
+    [  f_2,  [ f_1,  f_3(v) ] ]
+    }
+    }
+    }
+    \big)
+    \\
+    & \phantom{=}
+    +
+    (-1)^{deg(f_1) deg(f_3) + deg(f_2) deg(f_3)}
+    \big(
+    \underset{
+      = 0
+    }{
+    \underbrace{
+    {
+    \color{orange}
+    [  f_3,  [ f_1,  f_2(v) ] ]
+    }
+    -
+    {
+    \color{cyan}
+    [ f_3,  [  f_1, f_2(v) ] ] 
+    }
+    }
+    }
+    \big)
+    \\
+    & =
+    \big[
+      [f_1, f_2], f_3(v)
+    \big]   
+    \\
+    & \phantom{=}
+    -
+    (-1)^{ deg(f_2) deg(f_3) } 
+    \big[
+      [f_1, f_3], f_2(c) 
+    \big]
+    \\
+    & \phantom{=}
+    +
+    (-1)^{ deg(f_1) deg(f_2)  }
+    \big[
+      f_2, [f_1, f_3](v)
+    \big]
+    \\
+    & \phantom{=}
+    -
+    (-1)^{ deg(f_3)( deg(f_1) + deg(f_2) ) } 
+    \big[
+      f_3, [f_1, f_2](v) 
+    \big]
+    \\
+    & =
+    \big[
+     [f_1, f_2], f_3
+    \big](v)
+    +
+    (-1)^{deg(f_1)deg(f_2))}
+    \big[
+      f_2, [f_1, f_3]
+    \big](v)
+  \end{aligned}
+$$
+
+> (Fine, but is this sufficient to induct over the full range of all three degrees?)
 
 =--
 
