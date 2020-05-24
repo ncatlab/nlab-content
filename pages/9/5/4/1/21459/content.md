@@ -262,7 +262,7 @@ based on
 
   [arXiv:1903.02873](https://arxiv.org/abs/1903.02873), [doi:10.1002/prop.201910016](https://doi.org/10.1002/prop.201910016)
 
-on [[Weil algebras]] for the [[string Lie 2-algebra]], following
+on [[Weil algebras]] for the [[string Lie 2-algebra]] (as in [[schreiber:L-infinity algebra connections|SSS09]]), motivated by
 
 * [[Christian Saemann]], [[Lennart Schmidt]], _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 ([arxiv:1712.06623](https://arxiv.org/abs/1712.06623))
 
