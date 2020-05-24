@@ -38,6 +38,8 @@ A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesia
 
 * [[double field theory]]
 
+* [[gauged supergravity]], [[tensor hierarchy]]
+
 * [[universal exceptionalism]]
 
 ## References
