@@ -25,29 +25,50 @@ More recently, Leibniz algebras have been argued to clarify the nature of the [[
 
 ## Definition
 
-Given a [[commutative unital ring]] $k$ (usually a [[field]]), a Lebniz $k$-algebra $A$ is a particular kind of [[nonassociative algebra]] over $k$ which is somewhat more general than a [[Lie algebra]] over $k$.
+Let $k$ be a [[commutative ring]] (typically a [[field]]).
 
-A __left Leibniz $k$-algebra__ is $k$-[[module]] $L$ equipped with a bracket, which is a $k$-linear map $[-,-] \;\colon\; A\otimes A \to A$ satisfying the __left Leibniz identity__
++-- {: .num_defn #LeftLeibnizAlgebra}
+###### Definition
+**(left Leibniz algebra)**
 
-\[
-  \label{LeibnizRule} 
-  [a, [ b , c ] ] 
-  \;=\; 
-  [ [ a , b ] , c ] 
-    +
-  [ b , [ a , c ] ]
-\]
+A _left Leibniz $k$-algebra__ (or: _left Loday algebra_) is 
 
-In other words, the left $ad$-map, $a \mapsto (ad_l a = [a,-]:L\to L)$ is a [[derivation]] of $L$ as a nonassociative algebra. Similarly, there are right Leibniz algebras, for which the right $ad$-map $ad_r :a\mapsto [-,a]:L\to L$ is a derivation. In the presence of antisymmetry, the left Leibniz identity is equivalent to the [[Jacobi identity]], though this is not true in general; thus a Lie algebra is precisely an antisymmetric (or alternating) Leibniz algebra.
+* a $k$-[[module]] $A$ (hence a $k$-[[vector space]] if $k$ is a [[field]] and then often required to be [[finite-dimensional vector space|finite-dimensional]])  
 
+equipped with 
 
-+-- {: .num_remark}
-###### Remark
-**(terminology)**
+* a [[linear map]], the _[[magma|product]]_
 
-Some people dislike the term (left/right) _Leibniz algebra_ (which is allegedly due to Loday), and prefer other names, including 'Loday algebras' and many longer descriptive names.  
+  $$
+    \array{
+      A \otimes A &\longrightarrow& A
+      \\
+      (v,w) &\mapsto& v \cdot w
+    }
+  $$
+
+such that
+
+* the product satisfies the _left Leibniz identity_, saying that
+
+  \[
+    \label{LeibnizRule} 
+    v_1 \cdot (v_ 2 \cdot v_3)
+    \;=\;
+    (v_1 \cdot v_2) \cdot v_3
+    \;+\;
+    v_2 \cdot (v_1 \cdot v_3)
+  \]
+
+  for all $v_i \in A$.
+
+This says equivalently that the operations $v \cdot (-) \colon A \to A$ of left-multiplication by elements $v \in A$ via the given [[magma|product]] is a [[derivation]] of the product itself, whence the name (paying tribute to [[Gottfried Leibniz]]'s [[product rule]] of [[differentiation]]).
 
 =--
+
+Analogously there is the concept of _right Leibniz algebras_ in the evident way.
+
+
 
 ## Properties
 
@@ -252,6 +273,152 @@ Here the first line is the definition (eq:LeibnizProductFromEmbeddingTensor), th
 
 =--
 
+### From dg-Lie algebras
+ {#LeibnizAlgebrasFromDgLieAlgebras}
+
++-- {: .num_prop #LeibnizAlgebraFromdgLieAlgebra}
+###### Proposition
+**([[Leibniz algebra]] from [[dg-Lie algebra]])**
+
+Let $((V_\bullet, \partial), [-,-])$ be a [[dg-Lie algebra]] with underlying [[chain complex]] $(V_\bullet, \partial)$ and with [[super Lie bracket]] $[-,-]$.
+
+On the [[graded vector space]] which is the [[direct sum]] 
+
+$$
+  \mathbf{V}
+  \;\coloneqq\;
+  \underset{n}{\oplus} V_n
+  \;\in\;
+  Vect
+$$
+
+of all the component [[vector spaces]], consider the [[magma|product]] given by the formula
+
+\[
+  \label{LeibnizProductFromdgLieAlgebra}
+  \array{
+    \mathbf{V} \otimes \mathbf{V}
+    &\longrightarrow&
+    \mathbf{V}
+    \\
+    (v,w)
+    &\mapsto&
+    v \cdot w
+    \mathrlap{
+      \;\coloneqq\;
+      [\partial v, w]
+    }
+  }
+\]
+
+Then: Restricted to $V_1 \subset \mathbf{V}$ this product gives a left Leibniz algebra $(V_1, \cdot)$ (Def. \ref{LeftLeibnizAlgebra}), i.e. satisfies the Leibniz condition (eq:LeibnizRule).
+
+=--
+
+This statement is highlighted in [Lavau-Palmkvist 19, 2.1](#LavauPalmkvist19).
+
++-- {: .proof}
+###### Proof
+
+We directly compute as follows:
+
+$$
+  \begin{aligned}
+    v_1 \cdot (v_2 \cdot v_3)
+    & =
+    \big[
+      \partial v_1
+      ,
+      [
+        \partial
+        v_2, 
+        v_3
+      ]
+    \big]
+    \\
+    & =
+    \big[
+      [
+        \partial v_1
+        , 
+        \partial v_2
+      ],
+      v_3
+    \big]
+    \;+\;
+    (-1)^{
+      \overset{= 0}{
+      \overbrace{
+        (deg(v_1)-1)
+        (deg(v_2)-2)
+      }
+      }
+     }
+     \big[
+       \partial v_2,
+       [\partial v_1, v_3] 
+     \big]
+    \\
+    & =
+    \big[
+      \partial
+      [
+        v_1
+        , 
+        \partial v_2
+      ],
+      v_3
+    \big]
+    \;+\;
+     \big[
+       \partial v_2,
+       [\partial v_1, v_3] 
+     \big]
+    \\
+    & =
+    (v_1 \cdot v_2) \cdot v_3
+    \;+\;
+    v_2 \cdot (v_1 \cdot v_3)
+    \,.
+  \end{aligned}
+$$
+
+Here the first line is the definition (eq:LeibnizProductFromdgLieAlgebra), the second line is the [graded Jacobi identity](super+Lie+algebra#eq:GradedJacobiIdentity), the third line uses the [[derivation]]-property and the nilpotency of the [[differential]], and the last line invokes again the definition (eq:LeibnizProductFromdgLieAlgebra). Over the brace we used the assumption that $v_i \in V_1$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The construction in Prop. \ref{LeibnizAlgebraFromdgLieAlgebra} evidently extends to a [[functor]] from the [[category]] $dgLieAlg$ of [[dg-Lie algebras]] to the [[category]] $LeibAlg$ of [[Leibniz algebras]] (both over the given [[ground ring]]/[[ground field]]):
+
+\[
+  \label{FunctorFromdgLieAlgebrasToLeibnizAlgebras}
+  (-)_{1}
+  \;\colon\;
+  dgLieAlg 
+  \longrightarrow
+  LeibAlg
+  \,.
+\]
+
+Notice the analogy to the evident functor that extract the [[Lie algebra]] in degree 0:
+
+\[
+  \label{FunctorFromdgLieAlgebrasToLeibnizAlgebras}
+  (-)_{0}
+  \;\colon\;
+  dgLieAlg 
+  \longrightarrow
+  LieAlg
+  \,.
+\]
+
+
+
+=--
+
+
 
 ## References
 
@@ -288,16 +455,11 @@ Relation to [[Hochschild homology]]:
 
 * [[Jean-Louis Loday]], _Algebraic K-theory and the conjectural Leibniz K-theory_, K-Theory 09/2003; 30(2):105-127, [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2003Loday%28LeibnizConj%29.pdf) [doi](http://dx.doi.org/10.1023/B:KTHE.0000018382.90150.ce)
 
-A generalization of [[Lie integration]] to conjectural Leibniz groups has been conjectured by [[J-L. Loday]]. A local version via local Lie [[rack]]s has been proposed in
-
-* Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
-_L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
 
 This is partly based on earlier insights of Kinyon and Weinstein:
 
 * Michael K. Kinyon, _Leibniz algebras, Lie racks, and digroups_, J. Lie Theory __17__:1 (2007) 099--114, [arxiv:math.GR/0403509](http://arxiv.org/abs/math/0403509)
 
-* Simon Covez, _On the conjectural Leibniz cohomology for groups_, Journal of K-theory __10__:03, Dec 2012, pp 519-563 [doi](http://dx.doi.org/10.1017/is011011011jkt195)
 
 ### Relation to dg-Lie algebras and tensor hierarchies
 
@@ -305,13 +467,20 @@ Relation of [[Leibniz algebras]] to [[dg-Lie algebras]] such as the [[tensor hie
 
 * {#Lavau17} [[Sylvain Lavau]], _Tensor hierarchies and Leibniz algebras_, J. Geom. Phys. 144:147-189 (2019) ([arXiv:1708.07068](https://arxiv.org/abs/1708.07068))
 
-* [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
+* {#LavauPalmkvist19} [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
 
 * [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
 
-### Lie's third theorem for Leibniz algebras and local pointed augmented Lie racks
+### Lie integration
 
-* {#Covez10} [[Simon Covez]], _The local integration of Leibniz algebras_ ([arXiv:1011.4112](https://arxiv.org/abs/1011.4112))
+A generalization of [[Lie integration]] to conjectural Leibniz groups has been conjectured by [[J-L. Loday]]. A local version via local Lie [[racks]] has been proposed in
+
+* [[Simon Covez]], _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010) ([pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf))
+
+* {#Covez10}  [[Simon Covez]], _The local integration of Leibniz algebras_,  Annales de l'Institut Fourier, Volume 63 (2013) no. 1, p. 1-35 ([arXiv:1011.4112](http://arxiv.org/abs/1011.4112), [doi:10.5802/aif.2754](https://doi.org/10.5802/aif.2754))
+
+* [[Simon Covez]], _On the conjectural cohomology for groups_, Journal of K-theory __10__:03, Dec 2012, pp 519-563  ([arXiv:1202.2269](http://arxiv.org/abs/1202.2269), [doi:10.1017/is011011011jkt195](http://dx.doi.org/10.1017/is011011011jkt195))
+
 
 
 [[!redirects Leibniz algebras]]
