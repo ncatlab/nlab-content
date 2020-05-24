@@ -500,8 +500,31 @@ In fact, much of the broad structure of M-theory and its relation to the various
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
  
+Review:
 
-By passing to [[automorphism]] algebras, this reproduces the polyvector extensions of the [[super Poincaré Lie algebra]], which enter the traditional discussion of M-theory, such as the [[M-theory super Lie algebra]] (which arises as the symmetries of the [[M5-brane]] [[schreiber:∞-Wess-Zumino-Witten theory]]). 
+* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]] (eds.)
+
+  **Proceedings of the LMS/EPSRC Durham Symposium on 
+
+  [[Higher Structures in M‐Theory 2018]]
+
+  Fortschritte der Physik Special Issue
+
+  Volume 67, Issue 8-9
+
+  [doi:10.1002/prop.201870081](https://www.onlinelibrary.wiley.com/toc/15213978/2019/67/8-9)
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]:
+
+  **[[schreiber:The rational higher structure of M-theory|The Rational Higher Structure of M‐theory]]**
+
+  in: Proceedings of _[[Higher Structures in M-Theory 2018]]_
+
+  Fortschritte der Physik, Special Issue Volume 67, Issue 8-9
+
+  [arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)
+
+
 
 ### Activity
 
