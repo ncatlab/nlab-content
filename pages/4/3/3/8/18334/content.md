@@ -46,7 +46,10 @@ in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum 
 
 * {#Schenkel17b} [[Alexander Schenkel]], _From Fredenhagen's universal algebra to homotopy theory and operads_, talk at _Quantum Physics meets Mathematics_, Hamburg, December 2017 ([pdf slides](http://aschenkel.eu/Hamburg17.pdf))
 
-* {#BeniniSchenkel19} [[Marco Benini]], [[Alexander Schenkel]], _Higher Structures in Algebraic Quantum Field Theory_,  Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019  ([arXiv:1903.02878](https://arxiv.org/abs/1903.02878))
+* {#BeniniSchenkel19} [[Marco Benini]], [[Alexander Schenkel]], _Higher Structures in Algebraic Quantum Field Theory_,  Proceedings of LMS/EPSRC Symposium _[[Higher Structures in M-Theory 2018]]_, Fortschritte der Physik 2019  ([arXiv:1903.02878](https://arxiv.org/abs/1903.02878))
+
+* [[Simen Bruinsma]], _Coloring Operads for Algebraic Field Theory_, in: Proceedings of _[[Higher Structures in M-Theory 2018]]_ Fortschritte der Physik, Special Issue Volume 67, Issue 8-9 ([arXiv:1903.02863](https://arxiv.org/abs/1903.02863) [doi:10.1002/prop.201910004](https://doi.org/10.1002/prop.201910004))
+
 
 Construction and axiomatization of gauge field AQFT via [[homotopy theory]] and [[homotopical algebra]] is being developed in
 
