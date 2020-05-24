@@ -710,7 +710,7 @@ Surveys include
 
 * {#Sachs15} [[Ivo Sachs]], _String theory and homotopy algebras_, talk notes, Srni 2015 ([pdf](http://www.math.muni.cz/~srni/Prednasky/Sachs.pdf))
 
-* {#Sachs19} [[Ivo Sachs]], _Homotopy Algebras in String Field Theory_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02870](https://arxiv.org/abs/1903.02870))
+* {#Sachs19} [[Ivo Sachs]], _Homotopy Algebras in String Field Theory_, in: Proceedings of _[[Higher Structures in M-Theory 2018]]_ Fortschritte der Physik, Special Issue Volume 67, Issue 8-9 ([arXiv:1903.02870](https://arxiv.org/abs/1903.02870), [doi:10.1002/prop.201910013](https://doi.org/10.1002/prop.201910013))
 
 
 Discussion of the CSFT-action as of the form of [[schreiber:∞-Chern-Simons theory]] is in section 4.4 of 
