@@ -888,7 +888,7 @@ Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor|additiv
 +-- {: .num_lemma #FPreservesNullnessOfFInjectiveComplexes}
 ###### Lemma
 
-If a [[nLab:cochain complex]] $A^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ is [[nLab:quasi-isomorphism|quasi-isomorphic]] to 0, 
+If a [[nLab:cochain complex]] $X^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ is [[nLab:quasi-isomorphism|quasi-isomorphic]] to 0, 
 
 $$
   X^\bullet \stackrel{\simeq_{qi}}{\to} 0
