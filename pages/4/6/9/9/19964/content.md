@@ -310,6 +310,9 @@ Relation to the [[complex Hopf fibration]]:
 
 * {#GudnasonNitta20} [[Sven Bjarke Gudnason]], [[Muneto Nitta]], _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762), [spire:1778698/](http://inspirehep.net/record/1778698/))
 
+Generalization to [[SU(N)]]:
+
+* Pedro D. Alvarez, Sergio L. Cacciatori, Fabrizio Canfora, [[Bianca Cerchiai]], _Analytic $SU(N)$ Skyrmions at finite Baryon density_ ([arXiv:2005.11301](https://arxiv.org/abs/2005.11301))
 
 
 
@@ -375,6 +378,10 @@ Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs
 * [[Carlos Naya]], _Neutron stars within the Skyrme model_, 	Int. J. Mod. Phys. E 28, 1930006 (2019) ([arXiv:1910.01145](https://arxiv.org/abs/1910.01145))
 
 * C. Adam, J. Sanchez-Guillen, R. Vazquez, A. Wereszczynski, _Adding crust to BPS Skyrme neutron stars_ ([arXiv:2004.03610](https://arxiv.org/abs/2004.03610))
+
+With [[higher curvature corrections]] included ([[Starobinsky model of cosmic inflation|Starobinsky model]]):
+ 
+* C. Adam, M. Huidobro, R. Vazquez, A. Wereszczynski, _BPS Skyrme neutron s tars in generalized gravity_ ([arXiv:2005.10834](https://arxiv.org/abs/2005.10834))
 
 
 See also:
