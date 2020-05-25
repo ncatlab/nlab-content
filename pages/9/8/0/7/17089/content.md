@@ -18,7 +18,7 @@ A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance i
 
 A historical survey is
 
-* {#Stasheff16} [[Jim Stasheff]], _Higher homotopy structures, then and now_, talk at _[Opening workshop](https://www.mpim-bonn.mpg.de/node/6356)_ of _[Higher Structures in Geometry and Physics](https://www.mpim-bonn.mpg.de/node/5883)_, MPI Bonn 2016 ([[StasheffHomotopyStructuresReview.pdf:file]])
+* {#Stasheff16} [[Jim Stasheff]], _Higher homotopy structures, then and now_, talk at _[Opening workshop](https://www.mpim-bonn.mpg.de/node/6356)_ of _[Higher Structures in Geometry and Physics](https://www.mpim-bonn.mpg.de/node/5883)_, MPI Bonn 2016 ([[StasheffHomotopyStructuresReview.pdf:file]], [arXiv:1809.02526](https://arxiv.org/abs/1809.02526))
 
 See also 
 
