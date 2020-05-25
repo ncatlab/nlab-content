@@ -32,6 +32,8 @@ Any choice of embedding tensor for a [[gauged supergravity]] is supposed to indu
 ## Definition
  {#Definition}
 
+[[embedding tensors and tensor hierarchy in super Lie theory -- references]]
+
 +-- {: .num_defn}
 ###### Definition
 **([[embedding tensor]])**
@@ -112,7 +114,10 @@ $$
 
 =--
 
+
+
 ## Relation with double and exceptional field theory
+
 See [Hohm-Samtleben 19](#HohmSamtleben19) for a review.
 
 
