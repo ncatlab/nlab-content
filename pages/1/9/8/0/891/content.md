@@ -20,7 +20,7 @@
 
 ## Definition
 
-The **quotient object** $Q$ of a [[congruence]] (an [[internalization|internal]] [[equivalence relation]]) $E$ on an [[object]] $X$ in a [[category]] $C$ is the [[coequalizer]] $Q$ of the induced pair of morphisms $E \underoverset{\longrightarrow}{\longrightarrow}{} X$.  
+The **quotient object** $Q$ of a [[congruence]] (an [[internalization|internal]] [[equivalence relation]]) $E$ on an [[object]] $X$ in a [[category]] $C$ is the [[coequalizer]] $Q$ of the induced pair of morphisms $E \,\rightrightarrows\, X$.  
 
 If $E$ is additionally the [[kernel pair]] of the map $X \to Q$, then $Q$ is called an **effective quotient** -- and $E$ is called an **effective** congruence, with the map $X \to Q$ being an [[effective epimorphism]] (terminology as for _[[effective group action]]_).
 
