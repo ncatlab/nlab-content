@@ -180,5 +180,7 @@ The complementarity between user-defined types and objects was observed already 
 
 * {#Story2018} Henry Story, _[Why is functional programming seen as the opposite of OOP rather than an addition to it?](https://www.quora.com/Why-is-functional-programming-seen-as-the-opposite-of-OOP-rather-than-an-addition-to-it/answer/Henry-Story)_, 2018
 
+* [[Anton Setzer]], _Object-oriented programming in dependent type theory_, in Henrik Nilsson (Ed.): Trends in Functional Programming. Volume 7, Series Trends in Functional Programming, Intellect, Intellect, Bristol and Chicago, 2007, pp. 91 -- 108. ISBN 978-184150-188-8, ([pdf](http://www.cs.swan.ac.uk/~csetzer/articles/objectOrientedProgrammingInDepTypeTheoryTfp2006PostProceedings.pdf))
+
 [[!redirects object-oriented program]]
 [[!redirects object-oriented programs]]
