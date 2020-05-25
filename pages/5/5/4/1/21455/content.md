@@ -79,5 +79,4 @@ Review of the relation with [[double field theory]] and [[exceptional field theo
 
 
 
-
 [[!redirects embedding tensors]]
