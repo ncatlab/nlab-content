@@ -856,6 +856,11 @@ According to [Kac77b](#Kac77b) the definition of super Lie algebra is originally
 
 * [[Felix Berezin]], G. I. Kac, Math. Sbornik 82, 343&#8212;351 (1970) (Russian)
 
+See also
+
+* {#Kantor70} [[Isaiah Kantor]], _Graded Lie algebras_, Trudy Sem. Vektor. Tenzor. Anal 15 (1970): 227-266.
+
+
 The original references on the classification of super Lie algebras are
 
 * {#Kac77a} [[Victor Kac]], _Lie superalgebras_, Advances in Math. 26 (1977), no. 1, 8--96 (<a href="https://doi.org/10.1016/0001-8708(77)90017-2">doi:10.1016/0001-8708(77)90017-2</a>)
