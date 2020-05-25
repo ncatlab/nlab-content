@@ -357,6 +357,8 @@ For more details see [[semilattice of commutative subalgebras]].
 
 * [[JBW-algebra]], [[JBW-algebraic quantum mechanics]]
 
+* [[Kantor-Koecher-Tits construction]]
+
 * [[order-theoretic structure in quantum mechanics]]
 
   * [[Alfsen-Shultz theorem]]
