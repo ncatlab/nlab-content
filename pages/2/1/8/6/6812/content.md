@@ -14,10 +14,14 @@ Secretly introducing [[super L-∞ algebras]] in their [[formal dual]] incarnati
 
 * {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in *Istanbul 1982, Proceedings, Group Theoretical Methods In Physics*, 228-247 and CERN Geneva - TH. 3499 ([spire](http://inspirehep.net/record/182644/))
 
+On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
+
+* [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
+
 
 On [[D=7 supergravity]] (as [[gauged supergravity]]):
 
-* [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
+* [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_, Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
 
 
 ## Further writings
