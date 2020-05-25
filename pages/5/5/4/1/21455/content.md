@@ -32,87 +32,8 @@ Any choice of embedding tensor for a [[gauged supergravity]] is supposed to indu
 ## Definition
  {#Definition}
 
-[[embedding tensors and tensor hierarchy in super Lie theory -- references]]
 
-+-- {: .num_defn}
-###### Definition
-**([[embedding tensor]])**
-
-Given 
-
-* $\mathfrak{g}$ a [[Lie algebra]],
-
-* $\mathfrak{g} \otimes V \overset{\rho}{\longrightarrow} V $ a [[Lie algebra representation]] of $\mathfrak{g}$,
-
-then an *embedding tensor* is a [[linear map]]
-
-$$
-  \Theta
-  \;\colon\;
-  V \longrightarrow \mathfrak{g}
-$$
-
-such that for all $v_i \in V$ the following condition ("quadratic constraint") is satisfied:
-
-\[
-  \label{QuadraticConstraint}
-  [\Theta(v_1), \Theta(v_2)]
-  \;=\;
-  \Theta
-  \big(
-    \rho_{\Theta(v_1)}(v_2)
-  \big)
-  \,,
-\]
-
-where on the left we have the [[Lie bracket]] of $\mathfrak{g}$.
-
-=--
-
-The idea of this definition goes back to [Nicolai-Samtleben 00](#NicolaiSamtleben00), with many followups  in the literature on [[tensor hierarchies]] in [[gauged supergravity]]. The above mathematical formulation is due to [Lavau 17](#Lavau17).
-
-+-- {: .num_remark #RelationToLeibnizAlgebraStructure}
-###### Remark
-**([[Leibniz algebra]]-[[mathematical structure|structure]])**
-
-The "quadratic constraint" (eq:QuadraticConstraint) implies (see [this Prop.](Leibniz+algebra#LeibnizAlgebraFromLieModuleAndEmbeddingTensor)) that the [[magma|product]]
-
-\[
-  \label{InducedLeibnizAlgebraStructure}
-  \array{
-     V \otimes V
-     &\overset{ }{\longrightarrow}&
-     V
-     \\
-     (v_1, v_2) 
-       &\mapsto& 
-     v_1 \cdot v_2 
-     \mathrlap{
-       \;\coloneqq\;
-       \rho_{\Theta(v_1)}(v_2)
-     }
-  }
-\]
-
-makes (the underlying [[vector space]] of) $V$ a [[Leibniz algebra]].
-Conversely, if a [[Leibniz algebra]] structure "$\cdot$" on $V$ is already given, we may ask that it coincides with this one induced from the embedding tensor, a condition then called the _linear constraint_:
-
-\[
-  \label{LinearConstraint}
-  v_1 \cdot v_2 \;=\; \rho_{\Theta(v_1)}(v_2)
-  \,.
-\]
-
-With respect to this induced Leibniz algebra structure, hence equivalently with the "linear constraint" (eq:LinearConstraint) understood, the "quadratic constraint" (eq:QuadraticConstraint) equivalently says that the embedding tensor is a [[homomorphism]] of [[Leibniz algebras]] (using that [[Lie algebras]] are special cases of a Leibniz algebras):
-
-$$
-  [\Theta(v_1), \Theta(v_2)]
-  \;=\;
-  \Theta(v_1 \cdot v_2)
-  \,.
-$$
-
-=--
+[[!include embedding tensors and tensor hierarchy in super Lie theory -- section]]
 
 
 
