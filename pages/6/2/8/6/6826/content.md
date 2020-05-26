@@ -28,7 +28,7 @@ Theories of [[supergravity]] in [[dimension]] $l \lt 11$ always contain a global
 
 ### From dimensional reduction
 
-For many cases gauged supergravity theories are obtained by [[KK-compactification|dimensional reduction]] from [[11-dimensional supergravity]] or [[type II supergravity]], which themselves do not contain a gauge field but higher degree fields ("fluxes"), the [[supergravity C-field]] and the [[B-field]] respectively. These induce gauged supergravities (e.g. [Samtleben 08, figure 1](#Samtleben08)). The [[gauge groups]] are the [[U-duality]] groups of the compactification (e.g. [Samtleben 08, table 1](#Samtleben08)).
+In many cases, gauged supergravity theories are obtained by [[KK-compactification|dimensional reduction]] from [[11-dimensional supergravity]] or [[type II supergravity]], which themselves do not contain a gauge field but higher degree fields ("fluxes"), the [[supergravity C-field]] and the [[B-field]] respectively. These induce gauged supergravities (e.g. [Samtleben 08, figure 1](#Samtleben08)). The [[gauge groups]] are the [[U-duality]] groups of the compactification (e.g. [Samtleben 08, table 1](#Samtleben08)).
 
 ### From double and exceptional field theory
 
