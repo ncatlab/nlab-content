@@ -56,6 +56,9 @@ Examples of [[pseudo-vector mesons]]:
 
 * [[vector meson dominance]]
 
+## Related concepts
+
+* [[scalar meson]], [[tensor meson]]
 
 ## References
 
