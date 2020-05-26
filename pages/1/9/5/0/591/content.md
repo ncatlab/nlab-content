@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {: toc}
