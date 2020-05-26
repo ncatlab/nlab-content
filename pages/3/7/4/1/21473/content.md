@@ -36,7 +36,7 @@ on any generalized [[tensor field]] $T_{M_1 \dots M_n}$ on the extended space. T
 
 Consider a [[double field theory]] on the torus $T^{2n}$, where the [[T-duality]] group $O(n,n)$ acts in the [[fundamental representation]]. We are in the case where the _external space_ is just a point. Let the doubled metric be
 
-$$ \mathcal{H}_{MN} = \begin{pmatrix} g -B g^{-1}B & B g^{-1} \\ -g^{-1}B  &  g^{-1}\end{pmatrix} $$
+$$ \mathcal{H}_{M N} = \begin{pmatrix} g -B g^{-1}B & B g^{-1} \\ -g^{-1}B  &  g^{-1}\end{pmatrix} $$
 
 Now, if we define $O(n,n)$-valued matrices
 
@@ -44,14 +44,14 @@ $$ E^A_{\;\;M} = \begin{pmatrix}e^a_{\mu} & 0 \\ e^\rho_a B_{\rho\mu} & e^\mu_a 
 
 we can immediately write the generalized Scherk-Schwarz reduction over the point by
 
-$$ \mathcal{H}_{MN}(y,\tilde{y}) = E^{A_1}_{\;\;M_1}(y,\tilde{y}) \cdots E^{A_n}_{\;\;M_n}(y,\tilde{y}) \mathcal{H}_{AB} $$
+$$ \mathcal{H}_{M N}(y,\tilde{y}) = E^{A_1}_{\;\;M_1}(y,\tilde{y}) \cdots E^{A_n}_{\;\;M_n}(y,\tilde{y}) \mathcal{H}_{A B} $$
 
-where $\mathcal{H}_{AB} = \mathrm{diag}(\delta_{a b},\,\delta^{a b})$. This simple example captures the analogy with ordinary [[frame fields]].
+where $\mathcal{H}_{A B} = \mathrm{diag}(\delta_{a b},\,\delta^{a b})$. This simple example captures the analogy with ordinary [[frame fields]].
 
 
 ## Related concepts
 
-* [[doubled geometry]]
+* [[doubled geometry]], [[double field theory]]
 
 * [[exceptional field theory]]
 
