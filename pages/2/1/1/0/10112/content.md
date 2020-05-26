@@ -162,9 +162,7 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 ## Related concepts
 
-* [[scalar meson]]
-
-* [[vector meson]]
+* [[scalar meson]], [[vector meson]], [[tensor mesons]]
 
 * [[exotic meson]]
 
