@@ -20,7 +20,7 @@
 ## Idea
 
 Passing from a [[category]] $C$ to its [[presheaf]] category $PSh(C) := [C^{op},Set]$ may be regarded as the operation of
-"freely adjoining [[colimit]]s to $C$". 
+"freely adjoining [[colimits]] to $C$". 
 
 A slightly more precise version of this statement is that the [[Yoneda embedding]]
 
@@ -28,7 +28,7 @@ $$
   Y : C \hookrightarrow PSh(C)
 $$
 
-is the **free cocompletion** of $C$.
+is the **[[free construction|free]] [[cocomplete category|cocompletion]]** of $C$.
 
 The [[universal property]] of the [[Yoneda embedding]] is expressed in terms of the [[Yoneda extension]] of any [[functor]] $F : C \to D$ to a category $D$ with colimits.
 
@@ -40,10 +40,10 @@ The rough statement is that the [[Yoneda embedding]]
 
 $$y_S: S \to Set^{S^{op}}$$ 
 
-of a [[small category]] $S$ into the category $Set^{S^{op}}$ of [[presheaf|presheaves]] on $S$ is universal among functors from $S$ into [[cocomplete category|cocomplete categories]]. Technically, this should be understood in an appropriate [[2-category|2-categorical]] sense: given a functor $F: S \to D$ where $D$ is (small-)cocomplete, there exists a unique (up to isomorphism) [[cocontinuous functor|cocontinuous]] extension 
+of a [[small category]] $S$ into the category $Set^{S^{op}}$ of [[presheaf|presheaves]] on $S$ is universal among functors from $S$ into [[cocomplete category|cocomplete categories]]. Technically, this should be understood in an appropriate [[2-category|2-categorical]] sense: given a [[functor]] $F: S \to D$ where $D$ is ([[small colimit|small]]-)cocomplete, there exists a unique (up to [[isomorphism]]) [[cocontinuous functor|cocontinuous]] [[extension]] 
 $$\hat{F}: Set^{S^{op}} \to D,$$
 called the [[Yoneda extension]],
-meaning that $\hat{F} y_S \cong F$ and $\hat{F}$ preserves small colimits. 
+meaning that $\hat{F} y_S \cong F$ and $\hat{F}$ [[preserved limit|preserves]] [[small colimits]]. 
 
 Put slightly differently: let $Cocomp$ denote the 2-category of cocomplete categories, cocontinuous functors, and natural transformations between them. Then for cocomplete $D$, the Yoneda embedding $y S: S \to Set^{S^{op}}$ induces by restriction a functor 
 
