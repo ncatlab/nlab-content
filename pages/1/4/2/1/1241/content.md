@@ -326,13 +326,17 @@ Discussion of [[phenomenology|phenomenologically]] viable GUT-[[model (in theore
 
 #### $SO(10)$-GUT
 
-Discussion for [[Spin(10)]] GUT group ("[[SO(10)]]"):
+The idea of "SO(10)" ([[Spin(10)]]) GUT originates with 
+
+* [[Harald Fritzsch]], [[Peter Minkowski]], _Unified interactions of leptons and hadrons_, Annals of Physics Volume 93, Issues 1–2, 5 September 1975, Pages 193-266 (<a href="https://doi.org/10.1016/0003-4916(75)90211-0">doi:10.1016/0003-4916(75)90211-0</a>)
+
+
+Review:
+
+* {#Malinsky09} [[Michal Malinský]], _35 years of GUTs - where do we stand?_, 2009 ([pdf](https://www.mpi-hd.mpg.de/lin/seminar_theory/talks/Malinsky.pdf))
 
 * {#BLM09} Stefano Bertolini, Luca Di Luzio, [[Michal Malinský]], _Intermediate mass scales in the non-supersymmetric SO(10) grand unification: a reappraisal_, Phys. Rev. D80:015013, 2009 ([arXiv:0903.4049](https://arxiv.org/abs/0903.4049))
 
-review:
-
-* {#Malinsky09} [[Michal Malinský]], _35 years of GUTs - where do we stand?_, 2009 ([pdf](https://www.mpi-hd.mpg.de/lin/seminar_theory/talks/Malinsky.pdf))
 
 for non-superymmetric [[model (physics)|models]]:
 
