@@ -45,6 +45,10 @@ Examples of [[scalar mesons]]:
     }
 \end{imagefromfile}
 
+## Related concepts
+
+* [[vector meson]], [[tensor meson]]
+
 ## References
 
 (See also the references at _[[meson]]_.)
