@@ -83,7 +83,7 @@ See also
 
 Discussion of application in [[physics]]:
 
-* G. M. Tuynman, W. A. Wiegenbrinck, _Central extensions and physics_, J. Geom. Physics 4:2(1987), 207–258.([doi](https://doi.org/10.1016/0393-0440%2887%2990027-1))
+* G. M. Tuynman, W. A. Wiegenbrinck, _Central extensions and physics_, J. Geom. Physics 4:2(1987), 207–258.(<a href="https://doi.org/10.1016/0393-0440(87)90027-1">doi:10.1016/0393-0440(87)90027-1</a>)
 
 
 
