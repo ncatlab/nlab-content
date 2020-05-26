@@ -176,7 +176,7 @@ Double field theory is supposed to formalize the [[non-geometric backgrounds]] o
 
 * [[exceptional field theory]], [[exceptional generalized geometry]]
 
-* [[gauged supergravity]], [[tensor hierarchy]]
+* [[generalized Scherk-Schwarz reduction]], [[gauged supergravity]], [[tensor hierarchy]]
 
 
 ## References
