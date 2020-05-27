@@ -98,6 +98,9 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], sections II.5 and II.6 of _[[Sheaves in Geometry and Logic]]_
 
+For generalizations to étale spaces of stacks in groupoids see
+
+* [[David Carchedi]], _An étalé space construction for stacks_,  Algebr. Geom. Topol. 13 (2013), no. 2, 831–903.
 
 [[!redirects etale space]]
 [[!redirects etale spaces]]
