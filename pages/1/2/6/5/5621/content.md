@@ -38,7 +38,12 @@ If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full su
 
 ## Related concepts
 
-* [[locally full and faithful 2-functor]]
+
+
+[[!include properties of functors -- contents]]
+
+
+
 
 [[!redirects full sub-2-categories]]
 
