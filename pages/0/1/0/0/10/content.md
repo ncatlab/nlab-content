@@ -198,7 +198,7 @@ Relative to $\mathbb{T}_{\Sigma_\emptyset}$ the models of the theories classifie
 
 The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos for the [[theory of objects]], sometimes called the "object classifier". This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _[[classifying topos for the theory of objects]]_.
 
-For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$.
+For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$, given by the inverse image of $FinSet(\{ * \}, -)$.
 
 
 ### For pointed objects
