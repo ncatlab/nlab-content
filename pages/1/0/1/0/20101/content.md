@@ -104,6 +104,14 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
   {#CERNCourir200311} CERN Courier, _[Anomalies persist in flavour-changing B decays](https://cerncourier.com/a/anomalies-persist-in-flavour-changing-b-decays/)_, March 13 2020
 
+* [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0\to K^{\ast 0} \mu^+ \mu^-$ decay_ ([spire:1784890](https://inspirehep.net/literature/1784890), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
+
+survey:
+
+* [[Niels Tuning]], _Recent results from LHCb_, Nikhef 2020 ([nikhef event:2253](https://indico.nikhef.nl/event/2253), [pdf](https://indico.nikhef.nl/event/2253/material/slides/0.pdf), [[TuningFlavourAnomaly20.pdf:file]])
+
+  > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
+
 
 ## References
 
