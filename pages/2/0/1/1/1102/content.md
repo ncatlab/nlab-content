@@ -29,11 +29,11 @@ An [[(∞,1)-functor]] which is both essentially surjective as well as [[full an
 
 ## Related concepts
 
-* [[essentially surjective functor]]
 
-* [[full and faithful (∞,1)-functor]] / [[fully faithful (infinity,1)-functor]]
+[[!include properties of functors -- contents]]
 
-* [[equivalence of (∞,1)-categories]]
+
+
 
 [[!redirects (∞,1)-essentially surjective functor]]
 [[!redirects (infinity,1)-essentially surjective functor]]
