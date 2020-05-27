@@ -78,8 +78,7 @@ Then real $JLBW$-algebras are equivalent to complex $W^*$-[[W-star-algebra|algeb
 
 A definition is in section 1.1 of 
 
-* [[Hans Halvorson]], _Maximal Beable Subalgebras of
-Quantum-Mechanical Observables_ ([pdf](http://philsci-archive.pitt.edu/65/1/beables.pdf))
+* [[Hans Halvorson]], _Maximal Beable Subalgebras of Quantum-Mechanical Observables_ ([pdf](http://philsci-archive.pitt.edu/65/1/beables.pdf))
   {#Halvorson1999}
 
 A brief remark is on p. 80 of
