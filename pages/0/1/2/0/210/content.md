@@ -52,13 +52,7 @@ For [[proof]] see [this Prop](adjoint+functor#FullyFaithfulAndInvertibleAdjoints
 
 ## Related concepts
 
-* [[essentially surjective functor]]
-
-* [[faithful functor]]
-
-* [[full and faithful functor]]
-
-* [[equivalence of categories]]
+[[!include properties of functors -- contents]]
 
 
 [[!redirects full functor]]
