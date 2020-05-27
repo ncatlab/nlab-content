@@ -193,8 +193,7 @@ More generally, a continuous function represents an $n$-connected morphism in $L
 
 Let $f : X \to Y$ be a [[functor]] between [[groupoids]].
 Regarded as a morphism in [[∞Grpd]] $f$ is 0-connected precisely
-if it is an [[essentially surjective functor|essentially surjective]]
-and [[full functor]].
+if it is an [[essentially surjective and full functor]].
 
 =--
 
