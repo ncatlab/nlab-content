@@ -20,7 +20,7 @@
 
 In [[general topology|basic topology]] and [[differential geometry]], by an _atlas_ of/for a [[topological manifold|topological]]-, [[differentiable manifold|differentiable]]- or [[smooth manifold]] $X$ one means a collection of [[coordinate charts]] $U_i \subset X$ which form an [[open cover]] of $X$.
 
-If one considers here the [[disjoint union]] $\mathcal{U} \coloneqq \underset{i}{\sqcup} U_i$ of all the choordinate charts, then the separate chart embeddings $U_i \subset X$ give rise to a single [[map]] ([[continuous function|continuous]]/[[differentiable function]])
+If one considers here the [[disjoint union]] $\mathcal{U} \coloneqq \underset{i}{\sqcup} U_i$ of all the coordinate charts, then the separate chart embeddings $U_i \subset X$ give rise to a single [[map]] ([[continuous function|continuous]]/[[differentiable function]])
 
 $$
   \mathcal{U} \longrightarrow X
