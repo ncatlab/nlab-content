@@ -207,6 +207,9 @@ As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricat
 
 ## Related concepts
 
+[[!include properties of functors -- contents]]
+
+
 * [[equality]], [[isomorphism]], [[equivalence]]
 
 * [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]]
