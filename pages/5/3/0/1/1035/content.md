@@ -217,6 +217,7 @@ $$
     &=
     \phi'  
   \end{aligned}
+  \,.
 $$
 
 This means that $X_1\times X_2$ satisfies the [[universal property]] of a [[coproduct]].
