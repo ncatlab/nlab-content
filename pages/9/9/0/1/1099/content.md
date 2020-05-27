@@ -218,6 +218,9 @@ More on this is at [[(∞,1)-category of (∞,1)-presheaves]].
 * [[(∞,n)-functor]]
 
 
+[[!include properties of functors -- contents]]
+
+
 
 ## References
 
