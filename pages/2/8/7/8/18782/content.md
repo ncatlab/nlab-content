@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
 # Quasi-Borel Space
 * table of contents
 {: toc}
@@ -28,6 +40,8 @@ The category of quasi-Borel spaces can be used as a [[denotational semantics]] f
 
 quasi-Borel spaces were introduced in 
 
-* Chris Heunen, Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient cateogry for higher-order probability theory_, Logic in Computer Science 2017
+* Chris Heunen, Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Logic in Computer Science 2017
 
 [[!redirects quasi-Borel spaces]]
+[[!redirects quasi-Borel structure]]
+[[!redirects quasi-Borel structures]]
