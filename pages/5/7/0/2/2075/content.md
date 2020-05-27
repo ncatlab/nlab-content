@@ -83,6 +83,9 @@ Thus, $f_*$ restricts to an equivalence between the subcomplexes consisting of t
 * **equivalence of (∞,1)-categories**, [[adjoint (∞,1)-functor]]
 
 
+[[!include properties of functors -- contents]]
+
+
 
 [[!redirects equivalence of (∞,1)-categories]]
 [[!redirects equivalences of (∞,1)-categories]]
