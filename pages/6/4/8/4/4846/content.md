@@ -57,7 +57,7 @@ $$
   \mu_4 = \frac{i}{2}\bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
 $$
 
-is the 4-cocycle which defines $\mathfrak{sugra}_3(10,1)$ as an extension of $\mathbb{R}^{10,1\vert \mathbf{32}}$m and where $c_3$ is the generator that cancels the class of this cocycle, $d_{CE} c_3 \propto \mu_4$.
+is the 4-cocycle which defines $\mathfrak{sugra}_3(10,1)$ as an extension of $\mathbb{R}^{10,1\vert \mathbf{32}}$, and where $c_3$ is the generator that cancels the class of this cocycle, $d_{CE} c_3 \propto \mu_4$.
 
 =--
 
