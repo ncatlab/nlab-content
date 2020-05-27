@@ -106,6 +106,16 @@ Strongly dense sublocales are discussed in
 [[!redirects dense topological subspace]]
 [[!redirects dense topological subspaces]]
 
+[[!redirects everywhere dense]]
+[[!redirects everywhere dense subspace]]
+[[!redirects everywhere dense subspaces]]
+[[!redirects everywhere dense subset]]
+[[!redirects everywhere dense subsets]]
+[[!redirects everywhere dense set]]
+[[!redirects everywhere dense sets]]
+[[!redirects everywhere dense topological subspace]]
+[[!redirects everywhere dense topological subspaces]]
+
 [[!redirects strongly dense subspace]]
 [[!redirects strongly dense subspaces]]
 [[!redirects strongly dense subset]]
