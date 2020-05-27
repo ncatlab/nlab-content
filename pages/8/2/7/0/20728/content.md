@@ -171,6 +171,14 @@ for the continuous case.
   <td markdown="1">Full characterization unknown. [[Giry monad#algebras_over_the_giry_monad|See also here]].</td>
   <td markdown="1">[Giry '80](#giry80)</td>
  </tr>
+<tr>
+  <th markdown="1">[[Probability monad on QBS]]</th>
+  <td markdown="1">[[quasi-Borel spaces]]</td>
+  <td markdown="1">Equivalence classes of [[random variables]]</td>
+  <td markdown="1">[[quasi-Borel structure]] inherited by the [[cartesian closed category|cartesian closed structure]]</td>
+  <td markdown="1">Full characterization unknown. </td>
+  <td markdown="1">[HKSY '17](#QBS)</td>
+ </tr>
  <tr>
   <th markdown="1">[[Radon monad]]</th>
   <td markdown="1">[[compactum#category_of_compacta|Comp]]</td>
@@ -285,6 +293,8 @@ for the continuous case.
 ([doi:10.1016/j.jlamp.2016.11.006](https://doi.org/10.1016/j.jlamp.2016.11.006))
 
 * {#fritzconvex} [[Tobias Fritz]], _Convex spaces I: definitions and examples_, 2009. ([arXiv:0903.5522](https://arxiv.org/abs/0903.5522))
+
+* {#QBS} [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Proceedings of LICS 2017. ([arXiv](https://arxiv.org/abs/1701.02547))
 
 An introduction to some of the concepts can be also found in:
 
