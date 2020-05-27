@@ -383,6 +383,8 @@ which provides an alternative expression of the functoriality condition as simpl
 
 * [[(∞,n)-functor]]
 
+[[!include properties of functors -- contents]]
+
 
 ## References
 
