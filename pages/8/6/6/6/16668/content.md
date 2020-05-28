@@ -30,19 +30,23 @@ In the context of [[supergravity]] and [[string theory]], the term _exceptional 
 
 Accordingly, exceptional field theory is related to [[exceptional generalized geometry]] as [[double field theory]] is related to [[generalized complex geometry]].
 
-A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesian product]] of a $d$-dimensional [[Cartesian space]] with the [[fundamental representation]] [[vector space]] of a form of the [[exceptional Lie group]] $E_{11-d}$. Fields on this spacetime are subject to satisfy a certain [[differential equation]] derived from an [[invariant]] form of the representation and one considers a generalized [[isometry]] algebra on this space which fails the [[Jacobi identity]] by a term proportional to this contraint (e.g. [Baguet-Hohm-Samtleben 15, section 2](#BaguetHohmSamtleben15)).
+A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesian product]] 
+$$ \mathbb{R}^{1,d-1} \times R $$
+of a $d$-dimensional [[Minkowski space]] with the [[fundamental representation]] [[vector space]] $R$ of a form of the [[exceptional Lie group]] $E_{11-d}$ (the [[U-duality]] group). In the literature the former is called _external space_ and the latter _internal space_. Fields on this spacetime are subject to satisfy a certain [[differential equation]] derived from an [[invariant]] form of the representation and one considers a generalized [[isometry]] algebra on this space which fails the [[Jacobi identity]] by a term proportional to this contraint (e.g. [Baguet-Hohm-Samtleben 15, section 2](#BaguetHohmSamtleben15)).
 
 ## Related concepts
 
 * [[U-duality]], [[exceptional Lie group]]
 
-* [[exceptional generalized geometry]], [[exceptional geometry]]
+* [[exceptional generalized geometry]], [[exceptional tangent bundle]]
 
 * [[non-geometry]], [[exotic branes]]
 
 * [[double field theory]]
 
 * [[generalized Scherk-Schwarz reduction]], [[gauged supergravity]], [[tensor hierarchy]], [[embedding tensor]]
+
+* [[exceptional geometry]]
 
 * [[universal exceptionalism]]
 
