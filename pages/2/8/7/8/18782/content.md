@@ -44,7 +44,7 @@ The category of quasi-Borel spaces is the category of [[concrete sheaves]] on th
 
 ## References
 
-quasi-Borel spaces were introduced in 
+Quasi-Borel spaces were introduced in 
 
 * [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Logic in Computer Science 2017 ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
 
