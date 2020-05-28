@@ -30,6 +30,12 @@ A quasi-Borel space $X$ consists of an underlying set $|X|$ and a set of functio
 
 The category of quasi-Borel spaces can be used as a [[denotational semantics]] for higher-order [[probabilistic programming languages]].
 
+## As a quasitopos of concrete sheaves
+
+The category of quasi-Borel spaces is the category of [[concrete sheaves]] on the category of standard Borel spaces considered with the [[extensive category#Superextensive sites|extensive coverage]].  As such, quasi-Borel spaces form a Grothendieck [[quasitopos]]. 
+(A standard Borel space is a [[measurable space]] that is a retract of $\mathbb{R}$, equivalently, it is a measurable space that comes from a [[Polish space]], equivalently, it is either isomorphic to $\mathbb{R}$ or countable, discrete and non-empty.)
+
+
 ## Related Concepts
 
 * [[quasi-topological space]]
