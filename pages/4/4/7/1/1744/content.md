@@ -61,8 +61,7 @@ $$
 $$
 
 
-The $n$-skeleton produces a simplicial set that is freely filled with degenerate simplices above degree $n$.
-
+The $n$-skeleton produces a simplicial set that is freely filled with degenerate simplices above degree $n$. Conversely, the $n$-coskeleton produces a simplicial set having a simplice of degree $m \gt n$ whenever there is a compatible family of $m$-faces.
 
 
 Write
