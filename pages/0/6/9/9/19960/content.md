@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -738,7 +739,7 @@ Specifically on [[small N corrections]] in [[holographic QCD]]:
 
   > "The result $[$(29)$]$ coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
 
-* H. Dorn, H.-J. Otto, _On Wilson loops and $Q\bar Q$-potentials from the AdS/CFT relation at $T\geq 0$_, In: A. Ceresole, C. Kounnas , [[Dieter Lüst]], [[Stefan Theisen]]  (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_ Lecture Notes in Physics, vol 525. Springer 2007 ([arXiv:hep-th/9812109](https://arxiv.org/abs/hep-th/9812109), 
+* H. Dorn, H.-J. Otto, _On Wilson loops and $Q\bar Q$-potentials from the AdS/CFT relation at $T\geq 0$_, In: [[Anna Ceresole]], C. Kounnas , [[Dieter Lüst]], [[Stefan Theisen]]  (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_, Lecture Notes in Physics, vol 525. Springer 2007 ([arXiv:hep-th/9812109](https://arxiv.org/abs/hep-th/9812109), 
 [doi:10.1007/BFb0104268](https://doi.org/10.1007/BFb0104268))
 
 * Masayasu Harada, Shinya Matsuzaki, and Koichi Yamawaki, _Implications of holographic QCD in chiral perturbation theory with hidden local symmetry_, Phys. Rev. D 74, 076004 (2006) ([doi:10.1103/PhysRevD.74.076004](https://doi.org/10.1103/PhysRevD.74.076004))
