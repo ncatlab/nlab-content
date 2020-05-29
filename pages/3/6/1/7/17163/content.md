@@ -22,11 +22,11 @@ A _Weiss topology_ is a type of [[Grothendieck topology]] that provides a [[site
 ## Related concepts
 
 * [[Goodwillie calculus]]
+
 * [[manifold calculus]]
 
 ## References
 
-* Pedro Boavida de Brito, [[Michael Weiss]], _Manifold calculus and homotopy sheaves_ ([arXiv:1202.1305](http://arxiv.org/abs/1202.1305))
-
+* {#BriWei} [[Pedro Boavida de Brito]], [[Michael Weiss]], _Manifold calculus and homotopy sheaves_, Homology, Homotopy and Applications, vol. 15(2), 2013, pp.361–383 ([arXiv:1202.1305](http://arxiv.org/abs/1202.1305))
 
 * [MO discussion](http://mathoverflow.net/a/230293/381)
