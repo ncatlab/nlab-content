@@ -1161,7 +1161,7 @@ Since the complex [[general linear group]] $GL(n,\mathbb{C})$ is [[path-connecte
 ([this prop.](general+linear+group#ConnectednessOfGeneralLinearGroup)) and hence the [[classifying space]]
 $B GL(n,\mathbb{C})$ is [[simply connected topological space|simply]]-connected, hence its
 [[fundamental group]] is trivial $\pi_1(B GL(n,\mathbb{C})) \simeq [S^1, B GL(n,\mathbb{C})] = 1$.
-Accordingly, all [[complex vector bundles]] on $S^1$ are [[isomorphism|isomorphic]] toa [[trivial vector bundle]].
+Accordingly, all [[complex vector bundles]] on $S^1$ are [[isomorphism|isomorphic]] to a [[trivial vector bundle]].
 
 It follows that
 
