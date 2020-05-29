@@ -198,8 +198,7 @@ Also, when a property is not always preserved it is useful to label those maps w
 
 1. The [[image]] of a [[connected space|connected subset]] is again connected.
 
-1. The image of a [[compact space|compact subset]] is again compact (see at _[[continuous images of compact subsets are compact]]_)
-
+1. The image of a [[compact space|compact subset]] is again compact (see at _[[continuous images of compact spaces are compact]]_)
 
 ### Special maps
 
