@@ -90,7 +90,7 @@ The terminology is inspired by
 
 See also in and around the section [The genus](Science+of+Logic#TheGenus)
 
-Survey of thes Hegelian ideas includes
+Survey of these Hegelian ideas includes
 
 * {#HibbenLuft} John Grier Hibben, Eric v.d. Luft, _Hegel's Shorter Logic: An Introduction and Commentary_
 
@@ -98,9 +98,17 @@ where on p. 143 it says about the _Shorter Logic_:
 
 > Particularity and individuality are related as "abstract" and "concrete", respectively. The particular is the "abstract individual". The individual is the "concrete particular". The universal is their union, and may be either "abstract" or "concrete". The so-called "concrete universal" is Hegel's gold standard for conceptual thought $[$...$]$.
 
-as well as
+For a discussion of proponents of the concrete universal in British philosophy, see
 
-* Robert Stern, _Hegel, british idealism, and the curious case of the concrete universal_, British Journal for the History of Philosophy 15(1) 2007: 115 &#8211; 153 ([pdf](http://www.sheffield.ac.uk/polopoly_fs/1.101730!/file/concrete-universal-published.pdf))
+* Robert Stern, _Hegel, British idealism, and the curious case of the concrete universal_, British Journal for the History of Philosophy 15(1) 2007: 115 &#8211; 153 ([pdf](http://www.sheffield.ac.uk/polopoly_fs/1.101730!/file/concrete-universal-published.pdf))
+
+where he cites the philosopher Bernard Bosanquet
+
+> A world or cosmos is a system of members, such that every member, being _ex hypothesi_ distinct, nevertheless contributes to the unity of the whole in virtue of the peculiarities which constitute its distinctness. And the important point for us at present is the difference of principle between a world and a class. It takes all sorts to make a world; a class is essentially of one sort only. In a word, the difference is that the ultimate principle of unity and community is fully exemplified in the former, but only superficially in the latter. The ultimate principle, we may say, is sameness in the other; generality is sameness in spite of the other; universality is sameness by means of the other. (Bosanquet, The Principle of Individuality and Value, 3)
+
+and T. M. Knox
+
+> An abstract universal has no organic connexion with its particulars. Mind, or reason, as a concrete universal, particularizes itself into differences which are interconnected by its universality in the same way in which parts of the organism are held together by the single life which all things share. The parts depend on the whole for their life, but on the other hand the persistence of life necessitates the differentiation of the part. (Translator’s notes to Hegel’s Philosophy of Right (Oxford: Oxford University Press, 1952)) 
 
 
 For general related discussion see also
