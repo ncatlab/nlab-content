@@ -1,3 +1,10 @@
+
+$\dashv$
+
+$\flat \dashv \sharp$
+
+$\varnothing \dashv \ast$
+
 ### For nothing
 
 Let $\Sigma_\emptyset =(\emptyset,\emptyset,\emptyset)$ be the empty signature. Then a $\Sigma_\emptyset$-structure in a Grothendieck topos $\mathcal{E}$ is simply a triple of empty assignments but there is just one of these and it is trivially a model for the **empty theory** $\mathbb{T}_{\Sigma_\emptyset}=\emptyset$ over the empty signature since there are no sequents to satisfy and the only $\mathbb{T}_{\Sigma_\emptyset}$-homomorphism is the empty collection of maps from $\mathcal{E}$ whence $Mod_{\mathbb{T}_{\Sigma_\emptyset}}(\mathcal{E})=\mathbf{1}\!$; in other words, the classifying topos $Set[\mathbb{T}_{\Sigma_\emptyset}]$ is the terminal Grothendieck topos $Set$. 
