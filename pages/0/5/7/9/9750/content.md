@@ -295,6 +295,9 @@ Exposition is in
 
 * {#Schreiber16} [[Urs Schreiber]], [Section 4](https://ncatlab.org/schreiber/show/Super+Lie+n-algebra+of+Super+p-branes#DoubleDimensionalReduction) of _[[schreiber:Super Lie n-algebra of Super p-branes]]_, talks at [Fields, Strings, and Geometry Seminar](http://www.surrey.ac.uk/maths/news/seminars/fsg/), Surrey, 5th-9th Dec. 2016
 
+and further discussion in 
+
+* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
 
 
 ### Reduction of membrane to string
