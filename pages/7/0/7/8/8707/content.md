@@ -176,6 +176,15 @@ and specifically in [[cohesive homotopy type theory]] in
 
 * [[David Jaz Myers]], _Good Fibrations through the Modal Prism_ ([arXiv:1908.08034v2](https://arxiv.org/abs/1908.08034v2))
 
+A monograph aimed at [[philosophy|philosophers]] is in
+
+* {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404))
+
+following
+
+* [[David Corfield]], _Modal homotopy type theory_, 2017 ([PhilSci archive:15260](http://philsci-archive.pitt.edu/15260/))
+
+
 
 Monadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
 
