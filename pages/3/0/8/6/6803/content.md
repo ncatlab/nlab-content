@@ -81,7 +81,7 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 As a [[Green-Schwarz sigma-model]]:
 
-* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+* {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
 * {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
@@ -91,7 +91,7 @@ The relation of the [[M5-brane]] to the [[D4-brane]] and the [[D=5 super Yang-Mi
 
 * [[Eric Bergshoeff]], Mees de Roo, Tomas Ortin, _The Eleven-dimensional Five-brane_ ([pdf](http://astro.eldoc.ub.rug.nl/FILES/root/Preprints/1996/Eleven-dimensional/eleven-dimensional_five-brane.pdf))
 
-* {#APPS97a} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of  _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+* {#APPS97a} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of  _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
 
 * [APPS 97b, Section 6](#APPS97b)
 
