@@ -26,7 +26,7 @@ Generalized constructions apply to other [[Lie groups]].
 
 ## References
 
-* Wikipedia, _[Euler ](https://en.wikipedia.org/wiki/Euler_angles)_
+* Wikipedia, _[Euler angles](https://en.wikipedia.org/wiki/Euler_angles)_
 
 * WolframMath _[Euler angles](http://mathworld.wolfram.com/EulerAngles.html)_
 
