@@ -6,12 +6,13 @@ Selection theory asks if given a [[multi-valued function]] $F\colon X \to Y$ doe
 ## Selection theorems
 
 \begin{theorem}[Michael selection theorem]
-  Let $X$ be [[paracompact topological space|paracompact]], $Y$ a [[Banach space]], $F$ lower semicontinuous, and $F(x)$ nonempty, convex, and closed. Then $F$ admits a selector.
+  Let $X$ be [[paracompact topological space|paracompact]], $Y$ a [[Banach space]], $F$ lower semicontinuous, and $F(x)$ nonempty, convex, and closed for every $x\in X$. Then $F$ admits a selector.
 \end{theorem}
 
 ## Related entries
 
 * [[multi-valued function]]
+* [[Michael's theorem]]
 
 ## References
 
