@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
+
+* {#ParkUranga98} [[Jaemo Park]], [[Angel Uranga]], _A Note on Superconformal $\mathcal{N}=2$ theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
+
+
 On [[intersecting D-brane models]] (on [[orbifolds]]/[[orientifolds]] with [[RR-field tadpole cancellation]]):
 
 * {#AFIRU01a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
