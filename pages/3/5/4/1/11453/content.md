@@ -292,7 +292,7 @@ O-Plane charge in the presence of [[discrete torsion]]:
 
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], [[Eric Gimon]], [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
-* Atish Dabholkar, Jaemo Park, _Strings on Orientifolds_, Nucl. Phys. B477 (1996) 701-714 ([arXiv:hep-th/9604178](https://arxiv.org/abs/hep-th/9604178))
+* [[Atish Dabholkar]], [[Jaemo Park]], _Strings on Orientifolds_, Nucl. Phys. B477 (1996) 701-714 ([arXiv:hep-th/9604178](https://arxiv.org/abs/hep-th/9604178))
 
 ### In terms of KO-theory
 
