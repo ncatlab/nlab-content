@@ -548,7 +548,7 @@ Review:
 
 * [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.)  _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
 
-* {#Schwarz01} [[John Schwarz]], _Comments on Born-Infeld Theory_, in: Atish Dabholkar, [[Sunil Mukhi]], Spenta R. Wadia (eds.) _[Strings 2001: Proceedings, Strings 2001 Conference](http://inspirehep.net/record/944370)_, Tata Institute of Fundamental Research, Mumbai, India, January 5-10, 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165), [spire:554347](http://inspirehep.net/record/554347))
+* {#Schwarz01} [[John Schwarz]], _Comments on Born-Infeld Theory_, in: [[Atish Dabholkar]], [[Sunil Mukhi]], Spenta R. Wadia (eds.) _[Strings 2001: Proceedings, Strings 2001 Conference](http://inspirehep.net/record/944370)_, Tata Institute of Fundamental Research, Mumbai, India, January 5-10, 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165), [spire:554347](http://inspirehep.net/record/554347))
 
 * Paul Koerber, _Abelian and Non-abelian D-brane Effective Actions_, Fortsch. Phys. 52 (2004) 871-960 ([arXiv:hep-th/0405227](https://arxiv.org/abs/hep-th/0405227))
 
