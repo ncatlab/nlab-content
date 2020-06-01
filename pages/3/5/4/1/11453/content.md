@@ -191,7 +191,7 @@ Under the [[duality between M-theory and type IIA string theory]] the O8-plane i
 
 > graphics grabbed from [GKSTY 02, section 3](#GKSTY02)
 
-while the [[O4-plane]] is dual to the [[MO5]] ([Hori 98](#Hori98), [Gimon 98, Sec. III](#Gimon98), [AKY 98, Sec. II B](#AKY98), [Hanany-Kol 00, 3.1.1](#HananyKol00)) 
+while the [[O4-plane]] is [[duality between M-theory and type IIA string theory|dual]] to the [[MO5]] ([Hori 98](#Hori98), [Gimon 98, Sec. III](#Gimon98), [AKY 98, Sec. II B](#AKY98), [Hanany-Kol 00, 3.1.1](#HananyKol00)) 
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/O4PlanesFromMO5.jpg" width="500"/>
