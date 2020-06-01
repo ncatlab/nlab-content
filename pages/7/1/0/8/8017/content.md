@@ -28,6 +28,21 @@ $\nu$ is countable additive and absolutely continuous with respect to $\mu$.
 If $\mu(X)$ is finite, it suffices to require that $\nu$ is finitely additive.
 \end{corollary}
 
+\begin{example}
+The following example shows that the condition of being truly continuous
+is necessary in the non-σ-finite case.
+Consider an uncountable set $X$,
+a [[σ-algebra]] $\Sigma$ of subsets of $X$ that are countable or have countable complement,
+the counting measure $\mu\colon\Sigma\to[0,\infty]$,
+and the measure $\nu\colon\Sigma\to[0,1]$ that vanishes on countable sets
+and takes value 1 on all uncountable subsets.
+Then $\nu$ is absolutely continuous with respect to $\mu$ because $\mu$ only vanishes on the empty set.
+However, $\nu$ is not truly continuous with respect to $\mu$
+because $\mu$ takes finite values only on finite sets,
+but for any such a set $E$ we have $\nu(X\setminus E)=1$,
+which yields a contradiction if $\epsilon\lt1$.
+\end{example}
+
 ## Definitions
 
 Let $X$ be a [[measurable space]] (so $X$ consists of a [[set]] ${|X|}$ and a $\sigma$-[[sigma-algebra|algebra]] $\mathcal{M}_X$), and let $\mu$ and $\nu$ be [[measures]] on $X$, valued in the [[real numbers]] (and possibly taking infinite values) or in the [[complex numbers]] (and taking only finite values).  Let $f$ be a [[measurable function]] $f$ (with real or complex values) on $X$.
@@ -109,6 +124,10 @@ where $t$ is the [[identity function]] on the real line.
 
 
 ## References
+
+A comprehensive treatment can be found in Chapter 23 of
+
+* [[David H. Fremlin]], _Measure Theory_.
 
 Some fairly elementary proofs prepared for a substitute lecture in [[John Baez]]\'s introductory measure theory course are here:
 
