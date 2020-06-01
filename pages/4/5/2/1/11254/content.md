@@ -15,7 +15,7 @@ Topological domain theory is a generalization of [[domain theory]] that includes
 
 A collection of resources is at
 
-* Website _[Topological Domain Theory](http://homepages.inf.ed.ac.uk/als/Research/topological-domain-theory.html)_
+* Website _[Topological Domain Theory](https://web.archive.org/web/20110611035538/http://homepages.inf.ed.ac.uk/als/Research/topological-domain-theory.html)_
 
 A survey is in 
 
