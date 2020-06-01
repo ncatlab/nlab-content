@@ -50,6 +50,10 @@ The Cheshire Cat Principle follows in [[holographic QCD]], where the baryons are
 
 * Julius Kuti, Section 3 of: _Quark confinement and the quark model_, CERN - JINR School of Physics, Nafplion, Greece, 22 May - 4 Jun 1977, pp.79-128 (CERN-1977-018) ([doi:10.5170/CERN-1977-018.79](http://cds.cern.ch/record/878468), [[KutiQuarkModel.pdf:file]])
 
+* Luiz L. Lopes, Carline Biesdorf, Débora P. Menezes, _Modified MIT Bag Models: Thermodynamic consistency, stability windows and symmetry group_ ([arXiv:2005.13136](https://arxiv.org/abs/2005.13136))
+
+
+
 ### In relation to the Skyrme model
 
 In relation to the [[Skyrmion model]]:
