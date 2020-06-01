@@ -25,7 +25,7 @@ Observation of [[gravitational waves]] coincident with [[electromagnetic radiati
 
 * {#LIGOVirgo17} B.&#8201;P. Abbott et al. ([[LIGO]] Scientific Collaboration and [[Virgo]] Collaboration), _GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral_ Phys. Rev. Lett. 119, 161101, 2017 ([doi:10.1103/PhysRevLett.119.161101](https://doi.org/10.1103/PhysRevLett.119.161101))
 
-### Skyrmion model
+### Via the Skyrmion model
 
 Discussion of [[model (in theoretical physics)|models]] of [[neutron stars]] by [[Skyrmions]]:
 
@@ -48,6 +48,13 @@ Taking [[higher curvature corrections]] into account ([[Starobinsky model of cos
 See also:
 
 * [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arXiv:2004.09082](https://arxiv.org/abs/2004.09082))
+
+### Via holographic QCD
+
+Discussion via [[holographic QCD]] (see also at [[quark-gluon plasma]]):
+
+
+* Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
 
 
 
