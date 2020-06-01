@@ -33,7 +33,9 @@ Possible realization of chiral fermions in [[string phenomenology]] is given by 
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
 
+On [[chiral fermions]] in [[intersecting D-brane models]]:
 
+* {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl.Phys.B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
 [[!redirects chiral fermions]]
 
