@@ -28,6 +28,6 @@ Generalized constructions apply to other [[Lie groups]].
 
 * Wikipedia, _[Euler angles](https://en.wikipedia.org/wiki/Euler_angles)_
 
-* WolframMath _[Euler angles](http://mathworld.wolfram.com/EulerAngles.html)_
+* WolframMath, _[Euler angles](http://mathworld.wolfram.com/EulerAngles.html)_
 
 [[!redirects Euler angles]]
