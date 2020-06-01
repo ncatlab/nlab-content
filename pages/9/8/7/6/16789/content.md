@@ -107,7 +107,7 @@ $$
   S^4
 $$
 
-* [[Vladimir Arnold]], _Ramied covering $\mathbb{C}P^2  \to S^4$, hyperbolicity and projective topology_, Siberian Math. Journal 1988, V. 29, N 5, P.36-47
+* [[Vladimir Arnold]], _Ramified covering $\mathbb{C}P^2  \to S^4$, hyperbolicity and projective topology_, Siberian Math. Journal 1988, V. 29, N 5, P.36-47
 
 * [[Vladimir Arnold]], _On disposition of ovals of real plane algebraic curves, involutions of four-dimensional manifolds and arithmetics of integer quadratic forms_, Funct. Anal. and Its Appl., 1971, V. 5, N 3, P. 1-9.
 
