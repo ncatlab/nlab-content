@@ -54,6 +54,14 @@ A function is [[continuous function|continuous]] (with respect to the usual [[or
 
 The [[characteristic function]] of a [[subset]] $A$ (either valued in the [[poset]] of [[truth values]] with its usual order or valued in the [[real numbers]] with $1$ for true and $0$ for false) is lower semicontinuous iff $A$ is [[open subset|open]], and upper semicontinuous iff $A$ is [[closed subset|closed]] (hence continuous iff $A$ is [[clopen subset|clopen]]).
 
+## Semicontinuity for multi-valued maps
+
+We define the __small__ and __large preimages__ of a subset $V \subset Y$ under a [[multi-valued function]] $F\colon X \to Y$ by
+$$\begin{aligned}
+  F^{*s}(V) &\coloneqq \{ x \in X \mid F(x) \subset V \} \;\text{and} \\
+  F^{*l}(V) &\coloneqq \{ x \in X \mid F(x) \cap V \neq \emptyset \}.
+\end{aligned}$$
+A [[multi-valued function]] $F\colon X \to Y $ is said to be __upper semicontinuous__ if the small preimage of all open sets are open and is said to be __lower semicontinuous__ if the large preimages of all open sets are open. Both properties have also a point-wise variant. The map $F$ is __upper semicontinuous at $x$__ for some $ x \in X$ if for every open neighborhood $V$ of $F(x)$ there is a neighborhood $U$ of $x$ such that for all $x'\in U$ the set $F(x')$ is contained in $V$. Likewise, $F$ is __lower semicontinuous at $x$__ for some $ x \in X$ if for every open neighborhood $V$ intersecting $F(x)$ (i.e. $ V \cap F(x) \neq \emptyset $) there is a neighborhood $U$ of $x$ such that for all $x'\in U$ the set $F(x')$ intersects $V$.
 
 ## Generalizations
 
