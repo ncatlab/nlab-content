@@ -102,6 +102,11 @@ and for more on the [[sigma-orientation]] see
 
 * [[Matthew Ando]], _The sigma orientation for analytic circle-equivariant elliptic cohomology_, Geom. Topol. 7 (2003) 91-153 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092))
 
+Equivariant topological modular forms are discussed in 
+
+* [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
+
+
 
 
 [[!redirects topological modular forms]]
