@@ -53,7 +53,7 @@ $$
   2 D_{2n} = Dic_n
 $$
 
-Equivalently, this is the lift of the dihedral group $D_{2n}$ ([above](#DihedralGroups)) through the [[pin group]] [[double cover]] of the [[orthogonal group]] [[O(2)]] to [[Pin(2)]]
+Equivalently, this is the [[lift]] of the dihedral group $D_{2n}$ ([above](#DihedralGroups)) through the [[pin group]] [[double cover]] of the [[orthogonal group]] [[O(2)]] to [[Pin(2)]]
 
 $$
   \array{
@@ -77,20 +77,20 @@ $$
   }
 $$
 
-Explicity, let $\mathbb{H} \simeq \mathbb{C} \oplus j \mathbb{C}$ be the [[quaternions]] realized as the [[Cayley-Dickson double]] of the [[complex numbers]], and identify the [[circle group]]
+Explicity, let $\mathbb{H} \simeq \mathbb{C} \oplus \mathrm{j} \mathbb{C}$ be the [[quaternions]] realized as the [[Cayley-Dickson double]] of the [[complex numbers]], and identify the [[circle group]]
 
 $$
   SO(2) \simeq S\big( \mathbb{C}\big) \hookrightarrow \mathbb{H}
 $$
 
-with the [[unit circle]] in $\mathbb{C} \hookrightarrow \mathbb{H}$ this way, with group structure given by multiplication of [[quaternions]]. Then the [[Pin group]] [[Pin(2)]] is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[group of units]] $\mathbb{H}^\times$ of the [[quaternions]] which consists of this copy of [[SO(2)]] together with the multiplies of the imaginary quaternion $j$ with this copy of $SO(2)$:
+with the [[unit circle]] in $\mathbb{C} \hookrightarrow \mathbb{H}$ this way, with group structure given by [[multiplication]] of [[quaternions]]. Then the [[Pin group]] [[Pin(2)]] is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[group of units]] $\mathbb{H}^\times$ of the [[quaternions]] which consists of this copy of [[SO(2)]] together with the multiples of the imaginary quaternion $\mathrm{j}$ with this copy of $SO(2)$:
 
 $$
   Pin_-(2)
   \;\simeq\;
   S\big( \mathbb{C}\big) 
    \;\cup\; 
-  j \cdot S\big( \mathbb{C}\big) 
+  \mathrm{j} \cdot S\big( \mathbb{C}\big) 
   \;\subset\;
   S(\mathbb{H}) 
   \;\simeq\;
@@ -100,9 +100,9 @@ $$
 
 The binary dihedral group $2 D_{2n}$ is the [[subgroup]] of that generated from 
 
-1. $ a \coloneqq \exp\left( \pi i \tfrac{1}{n} \right) \in S(\mathbb{C}) \subset Pin_-(2) \subset Spin(3)$
+1. $ a \coloneqq \exp\left( \pi \mathrm{i} \tfrac{1}{n} \right) \in S(\mathbb{C}) \subset Pin_-(2) \subset Spin(3)$
 
-1. $x \coloneqq j \in Pin_-(2) \subset Spin(3)$.
+1. $x \coloneqq  \mathrm{j} \in Pin_-(2) \subset Spin(3)$.
 
 It is manifest that these two generators satisfy the relations
 
