@@ -63,7 +63,7 @@ Original articles include
 
 * [[Tudor Dimofte]], [[Davide Gaiotto]], [[Sergei Gukov]], _3-Manifolds and 3d Indices_ ([arXiv:1112.5179](https://arxiv.org/abs/1112.5179))
 
-* [[Dongmin Gang]], Eunkyung Koh, Sangmin Lee, Jaemo Park, _Superconformal Index and 3d-3d Correspondence for Mapping Cylinder/Torus_, JHEP01(2014)063 ([arXiv:1305.0937](https://arxiv.org/abs/1305.0937))
+* [[Dongmin Gang]], Eunkyung Koh, Sangmin Lee, [[Jaemo Park]], _Superconformal Index and 3d-3d Correspondence for Mapping Cylinder/Torus_, JHEP01(2014)063 ([arXiv:1305.0937](https://arxiv.org/abs/1305.0937))
 
 * [[Junya Yagi]], _3d TQFT from 6d SCFT_, JHEP08(2013)017 ([arXiv:1305.0291](https://arxiv.org/abs/1305.0291))
 
