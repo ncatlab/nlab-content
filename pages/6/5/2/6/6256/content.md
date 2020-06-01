@@ -53,11 +53,12 @@ The [[image]] of a [[paracompact Hausdorff space]] under a [[closed maps|closed]
 
 +-- {: .num_prop }
 ###### Proposition
-**(Michael selection theorem)** 
+**(Michael [[selection theorem]])** 
 
 A [[lower semicontinuous map]] from a [[paracompact topological space]] $X$ to a [[Banach space]] $E$ with convex closed values has a continuous subrelation which is a function. If this is true for a given topological space $Y$ instead of $E$ and all such functions and codomains $E$, then $Y$ is paracompact. 
 
 =--
+
 
 ## References
 
