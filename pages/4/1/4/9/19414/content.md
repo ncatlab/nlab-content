@@ -56,9 +56,9 @@ The original article on the $N=6$-case (the [[ABJM model]]):
 
 * {#ABJM08} [[Ofer Aharony]], [[Oren Bergman]], Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
 
-The $N=5$-case is discussed in
+The $\mathcal{N}=5$-case is discussed in
 
-* {#HLLLP08} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, Jaemo Park, _$N=5,6$ Superconformal Chern-Simons Theories and M2-branes on Orbifolds_, JHEP 0809:002, 2008 ([arXiv:0806.4977](https://arxiv.org/abs/0806.4977))
+* {#HLLLP08} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, [[Jaemo Park]], _$\mathcal{N}=5,6$ Superconformal Chern-Simons Theories and M2-branes on Orbifolds_, JHEP 0809:002, 2008 ([arXiv:0806.4977](https://arxiv.org/abs/0806.4977))
 
 * {#BHRSS08} [[Eric Bergshoeff]], [[Olaf Hohm]], Diederik Roest, [[Henning Samtleben]], [[Ergin Sezgin]], _The Superconformal Gaugings in Three Dimensions_, JHEP0809:101, 2008 ([arXiv:0807.2841](https://arxiv.org/abs/0807.2841))
 
@@ -66,7 +66,7 @@ The $N=5$-case is discussed in
 
 The $N=4$-case is discussed in
 
-* {#HLLLP08b} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, Jaemo Park, _N=4 Superconformal Chern-Simons Theories with Hyper and Twisted Hyper Multiplets_, JHEP 0807:091,2008 ([arXiv:0805.3662](https://arxiv.org/abs/0805.3662))
+* {#HLLLP08b} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, [[Jaemo Park]], _$\mathcal{N}=4$ Superconformal Chern-Simons Theories with Hyper and Twisted Hyper Multiplets_, JHEP 0807:091,2008 ([arXiv:0805.3662](https://arxiv.org/abs/0805.3662))
 
 * {#ChenWu10} Fa-Min Chen, Yong-Shi Wu, _Superspace Formulation in a Three-Algebra Approach to D=3, N=4,5 Superconformal Chern-Simons Matter Theories_, Phys.Rev.D82:106012, 2010 ([arXiv:1007.5157](https://arxiv.org/abs/1007.5157))
 
