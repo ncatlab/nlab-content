@@ -297,7 +297,7 @@ $$g \colon \mathcal{C} \to \mathcal{D}$$
 
 to a [[complete category]] $\mathcal{D}$ extends along the [[co-Yoneda lemma|co-Yoneda embedding]] $z \colon \mathcal{C} \to [\mathcal{C}, \mathrm{Set}]^{op}$ to a [[continuous functor]].
 
-$$G \colon [\mathcal{C}^{op}, \mathrm{Set}] \to \mathcal{D}$$
+$$G \colon [\mathcal{C}, \mathrm{Set}]^{op} \to \mathcal{D}$$
 
 in a manner unique up to natural isomorphism.
 
