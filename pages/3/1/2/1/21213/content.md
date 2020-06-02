@@ -155,6 +155,9 @@ The direct decay $\omega \to \pi^0 + \pi^+ + \pi^-$:
 
 * E. A. Kuraev, Z. K. Silagadze, _Once more about the $\omega \to 3 \pi$ contact term_, Phys. Atom. Nucl. 58:1589-1596, 1995 ([arXiv:hep-ph/9502406](https://arxiv.org/abs/hep-ph/9502406))
 
+* M. Albaladejo, I. Danilkin, S. Gonzalez-Solis, D. Winney, C. Fernandez-Ramirez, A. N. Hiller Blin, V. Mathieu, M. Mikhasenko, A. Pilloni, A. Szczepaniak, _$\omega \to 3\pi$ and $\omega \pi^0$ transition form factor revisited_ ([arXiv:2006.01058](https://arxiv.org/abs/2006.01058))
+
+
 
 
 The $\omega \pi \rho$-coupling
