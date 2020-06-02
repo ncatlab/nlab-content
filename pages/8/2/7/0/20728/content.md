@@ -304,6 +304,11 @@ An introduction to some of the concepts can be also found in:
 
 * [[Tobias Fritz]] and [[Paolo Perrone]], _Monads, partial evaluations, and rewriting_, MFPS 36, 2020 - Section 6. ([arXiv](https://arxiv.org/abs/1810.06037))
 
+and in the following video lectures:
+
+* [[Arthur Parzygnat]], _Categorical probability_, video playlist. ([YouTube](https://www.youtube.com/playlist?list=PLSx1kJDjrLRSKKHj4zetTZ45pVnGCRN80))
+
+* [[Paolo Perrone]], _What is a probability monad?_, tutorial. ([YouTube](https://youtu.be/3Da88Tgw_rM))
 
 [[!redirects probability monad]]
 [[!redirects probability monads]]
