@@ -66,7 +66,7 @@ Its algebras are precisely the [[Stone spaces]].
 
 * The codensity monad of the inclusion $N \to Top$, where
 $N$ denotes the [[full subcategory]] of [[Top]] consisting
-of arbitrary [[small products]] of the [[Sierpiński space]],
+of arbitrary [[small products]] of the [[Sierpinski space|Sierpiński space]],
 is the [[localic spectrum]] of the [[frame]] of opens of a [[topological space]].
 Its algebras are precisely the [[sober spaces]].
 (Sipoș \cite[Theorem 6]{Sipos}.)
