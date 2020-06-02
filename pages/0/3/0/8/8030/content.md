@@ -24,12 +24,21 @@ The problem of _moduli stabilization_ is the problem of identifying mechanisms o
 
 Equivalently, since fast varying moduli appear as light or massless [[particles]] in the low-dimensional [[effective field theory]] which would show up in accelerator [[experiments]] (such as the [[LHC]]) but don't, the problem is to identify mechanisms or conditions that would render these moduli fields massive.
 
-## Freund-Rubin flux compactifications
+
+### For pure vacuum gravity compactifications
+
+In pure [[classical field theory|classical]] [[gravity]] KK-compactifications have been suggested ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable due to the [[Penrose-Hawking singularity theorem]]. 
+
+But a rigorous analysis in [Anderson-Blue-Wyatt-Yau 20](#AndersonBlueWyattYau20) claims to show that, in contrast, even vacuum spacetimes are stable under KK-compactification (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-asymptotics).
+
+
+
+### For Freund-Rubin flux compactifications
  {#FluxCompactfications}
 
-In pure [[classical field theory|classical]] [[gravity]] KK-compactifications are argued ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable by the [[Penrose-Hawking singularity theorem]]. 
 
-But if extra [[gauge fields]] or [[higher gauge field]] beyond pure gravity are admitted in the higher dimensions, then stable compactifications may exist if there is "magnetic [[flux]]" in the compact fiber spaces. These are called _[[Freund-Rubin compactifications]]_, or _[[flux compactifications]]_. 
+
+If in addition to pure [[gravity]] extra [[gauge fields]] or [[higher gauge field]] beyond pure gravity are admitted in the higher dimensions, then stable compactifications may exist if there is "magnetic [[flux]]" in the compact fiber spaces. These are called _[[Freund-Rubin compactifications]]_, or _[[flux compactifications]]_. 
 
 A well-studied example is 6-dimensional [[Einstein-Maxwell theory]] with magnetic [[flux]] on a 2-dimensional [[fiber]] spaces over a 4-dimensional base space ([Freund-Rubin 80](#FreundRubin80), [RDSS 83](#RDSS83)).
 
@@ -37,7 +46,7 @@ A well-studied example is 6-dimensional [[Einstein-Maxwell theory]] with magneti
 
 Similarly, in [[string theory]] it is argued that the extra fields and further string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("[[Brandenberger-Vafa mechanism]]" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
 
-## In string theory
+### For string theory compactifications
 
 The issue of stabilization of compact dimensions arises notably in [[string theory]] [[Kaluza-Klein compactifications]]. 
 
@@ -55,7 +64,11 @@ Similarly in [[M-theory on G2-manifolds]] the 4-form flux of the [[supergravity 
 
 Since for these flux compactifications only the [[periods]] of the form fields on the compact space matter, under a bunch of further assumptions on the nature of the compactification, one can reduce the number of possible such compactifications to a combinatorial problem. The resulting space of possibilities is also known  as the _[[landscape of string theory vacua]]_.
 
-The moduli stabilization in ([KKLT 03](#KKLT03)) was demonstrated in two steps. First, all moduli were stabilized at a fixed minimum with a negative [[cosmological constant]]. This was achieved by combining fluxes with [[non-perturbative effects]]. Second, the minimum was lifted to a metastable vacuum with a positive cosmological constant. This was accomplished by adding anti D-branes and using previous results, obtained in ([Kachru-Pearson-Verlinde 01](#KachruPearsonVerlinde01)), that the flux-anti D-brane system can form a metastable bound state with positive energy. In ([KKLT 03](#KKLT03)) it was also shown that one can fine tune various parameters to make the value of the [[cosmological constant]] consistent with the observed amount of [[dark energy]].
+\linebreak
+
+A widely studied but non-rigorous scenario of moduli stabilization in string theory is due to ([KKLT 03](#KKLT03)). More recently, the assumptions of the KKLT scenario have been called into question ([Danielsson-Van Riet 18](#de+Sitter++spacetime#DanielssonVanRiet18), see also at [[swampland conjectures]]):
+
+The moduli stabilization in ([KKLT 03](#KKLT03)) was (informally) argued in two steps. First, all moduli were stabilized at a fixed minimum with a negative [[cosmological constant]]. This was achieved by combining [[flux compactification|fluxes]] with [[non-perturbative effects]]. Second, the minimum was lifted to a metastable vacuum with a positive cosmological constant. This was accomplished by adding anti D-branes and using previous results, obtained in ([Kachru-Pearson-Verlinde 01](#KachruPearsonVerlinde01)), that the flux-anti D-brane system can form a metastable bound state with positive energy. In ([KKLT 03](#KKLT03)) it was also shown that one can fine tune various parameters to make the value of the [[cosmological constant]] consistent with the observed amount of [[dark energy]].
 
 ## Related concepts
 
@@ -73,7 +86,11 @@ The moduli stabilization in ([KKLT 03](#KKLT03)) was demonstrated in two steps. 
 
 The problem of generic in-stability of moduli of pure gravity KK-compactifications is highlighted in
 
-* {#Penrose03} [[Roger Penrose]], section 10.3 in _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire](https://inspirehep.net/record/608935/))
+* {#Penrose03} [[Roger Penrose]], section 10.3 in _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire:608935](https://inspirehep.net/record/608935))
+
+A rigorous [[proof]] that, in contrast, even vacuum spacetimes are stable under KK-compactification is claimed (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-asympototics) in
+
+* {#AndersonBlueWyattYau20} [[Lars Andersson]], [[Pieter Blue]], [[Zoe Wyatt]], [[Shing-Tung Yau]], _Global stability of spacetimes with supersymmetric compactifications_ ([arXiv:2006.00824](https://arxiv.org/abs/2006.00824))
 
 ### Freund-Rubin flux compactifications
  {#ReferencesFreundRubinCompactificationo}
