@@ -75,7 +75,7 @@ The theory $T_0$ has elementary comprehension, join, inductive generation, and f
 
 * Solomon Feferman, [How a Little Bit goes a Long Way: Predicative Foundations of Analysis](http://home.inf.unibe.ch/~ltg/em_bibliography/feferman13.pdf), notes prepared 1977-1981 with a new introduction from 2013.
 
-* [Foundations of explicit mathematics](http://www.ltg.unibe.ch/research/Foundations%20of%20Explicit%20Mathematics)
+* [Foundations of explicit mathematics](https://web.archive.org/web/20190108170710/http://www.ltg.unibe.ch/research/Foundations%20of%20Explicit%20Mathematics)
 
 * [Bibliography of explicit mathematics](http://home.inf.unibe.ch/~ltg/em_bibliography/)
 
