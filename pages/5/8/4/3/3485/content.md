@@ -548,6 +548,7 @@ The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Mo
 
 ## References
 
+
 Textbook accounts and lecture notes include
 
 * Charles Curtis, Irving Reiner, from p. 43 on in _Representation theory of finite groups and associative algebras_, AMS 1962
