@@ -19,7 +19,7 @@
 
 ## Idea
 
-An _equifier_ is a particular kind of [[2-limit]] in a [[2-category]], which universally renders a pair of parallel [[2-morphism]] equal.
+An _equifier_ is a particular kind of [[2-limit]] in a [[2-category]], which universally renders a pair of parallel [[2-morphisms]] equal.
 
 ## Definition
 
