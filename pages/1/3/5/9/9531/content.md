@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -79,9 +94,17 @@ In the following examples, all groups are discrete.
 
 * [[Burnside ring]], [[Burnside category]]
 
+* [[Burnside marks]]
+
 * [[table of marks]]
 
 ## References
+
+An early account (where the term "representation group" is used to refer to a [[finite set]] equipped with a [[permutation]] [[action]]):
+
+* {#Burnside01} [[William Burnside]], _On the Representation of a Group of Finite Order as a Permutation Group, and on the Composition of Permutation Groups_, Proceedings of the American Mathematical Society 1901 ([doi:10.1112/plms/s1-34.1.159](https://doi.org/10.1112/plms/s1-34.1.159))
+
+For a more modern account see
 
 * {#tomDieck79} [[Tammo tom Dieck]], chapter 1 of _[[Transformation Groups and Representation Theory]]_, Springer 1979
 
