@@ -109,7 +109,7 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 ## References
  {#References}
 
-* _[Atlas of finite group representations](http://brauer.maths.qmul.ac.uk/Atlas/v3/)_
+* {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)), reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253)
 
 Discussion of [[group characters]] and [[group cohomology]] of finite groups includes
 
@@ -118,6 +118,11 @@ Discussion of [[group characters]] and [[group cohomology]] of finite groups inc
 * [[Alejandro Adem]], R.James Milgram, _Cohomology of Finite Groups_, Springer 2004
 
 * {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+
+See also:
+
+* _[Atlas of finite group representations](http://brauer.maths.qmul.ac.uk/Atlas/v3/)_
+
 
 Discussion of [[free actions]] of finite groups on [[n-spheres]] (see also at _[[ADE classification]]_) includes
 
