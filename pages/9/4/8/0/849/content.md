@@ -234,7 +234,7 @@ Since this holds for all $A$, the [[fully faithful functor|fully faithfulness]] 
 
 $$
   \array{
-    Hom_{\mathcal{C}}(1, [X\otimes Y, Z ))
+    Hom_{\mathcal{C}}(1, [X\otimes Y, Z ])
       &\overset{\simeq}{\longrightarrow}&
     Hom_{\mathcal{C}}(1, [X, [Y,Z]])
     \\
