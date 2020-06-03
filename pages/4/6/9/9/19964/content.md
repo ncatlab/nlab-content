@@ -291,6 +291,7 @@ Further development:
 
 * C. Adam, K. Oles, A. Wereszczynski, _The Dielectric Skyrme model_ ([arXiv:2005.00018](https://arxiv.org/abs/2005.00018))
 
+* Sven Bjarke Gudnason, Marco Barsanti, Stefano Bolognesi, _Near-BPS baby Skyrmions_ ([arXiv:2006.01726](https://arxiv.org/abs/2006.01726))
 
 
 
