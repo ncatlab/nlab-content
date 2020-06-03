@@ -172,6 +172,13 @@ Then $C$ is a (closed) monoidal category.  See [Eilenberg--Kelly (1965)](#EK65) 
 
 Note that although this is analogous to the fact that a monoidal category with right adjoints to tensor product is a closed category, the requisite hypothesis is stronger.  When $C$ is given as monoidal, we need only $Set$-natural isomorphisms of hom-sets $C(A\otimes B,X) \cong C(A,[B,X])$ to make it closed, whereas when $C$ is closed we need the above $C$-natural isomorphism of *internal* hom-objects to make it monoidal.
 
+However, in the case when $C$ is a *symmetric* closed category, this stronger condition is unnecessary: to make $C$ (symmetric) monoidal it suffices to have external natural isomorphisms of hom-sets
+
+$$ C(A, [B,X]) \cong C(A\otimes B, X). $$
+
+Put differently, any symmetric closed category has an underlying (symmetric) [[promonoidal category]], whereas for a non-symmetric closed category the associativity of the promonoidal structure is an extra condition.  See [Day-Laplaza, Proposition 2.3](#DayLaPlaza78).
+
+
 ### Embedding into closed monoidal categories {#EmbedIntoCloseMon}
 
 By a result due to Miguel LaPlaza [(1977)](#LaPlaza77), every closed category embeds [[full and faithful functor|fully and faithfully]] into a [[closed monoidal category]] by a strong [[closed functor]], i.e., one respecting closed structure up to suitably coherent isomorphism, and this closed functor is also strong monoidal if the original closed category is closed monoidal.  In particular, this functor is defined as the composition $q = y \circ p$ of the functor
