@@ -25,7 +25,9 @@ This page collects material related to
 
   xvi+828 pp
 
-  ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+  [doi:10.1017/9781108349161](https://doi.org/10.1017/9781108349161)
+
+  [arXiv:1802.09382](https://arxiv.org/abs/1802.09382)
 
 on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectra]].
 
