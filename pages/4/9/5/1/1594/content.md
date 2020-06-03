@@ -280,7 +280,7 @@ For [[orbifolds]] in [[string theory]] also the references at
 
 Review of orbifolds in the context of string [[KK-compactifications]] and [[intersecting D-brane models]] includes
 
-* {#BailibLove99} D. Bailin, A. Love, _Orbifold compactifications of string theory_, Phys.Rept. 315 (1999) 285-408 (<a href="https://doi.org/10.1016/S0370-1573(98)00126-4">doi:10.1016/S0370-1573(98)00126-4</a>)
+* {#BailibLove99} D. Bailin, A. Love, _Orbifold compactifications of string theory_, Phys. Rept. 315 (1999) 285-408 (<a href="https://doi.org/10.1016/S0370-1573(98)00126-4">doi:10.1016/S0370-1573(98)00126-4</a>, [spire:504382](https://inspirehep.net/literature/504382))
 
 * {#Wendland01} [[Katrin Wendland]], _Orbifold Constructions of K3: A Link between Conformal Field Theory and Geometry_, in _[[Orbifolds in Mathematics and Physics]]_ ([arXiv:hep-th/0112006](https://arxiv.org/abs/hep-th/0112006))
 
