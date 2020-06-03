@@ -61,7 +61,7 @@ be a pair of [[adjoint functors]]. Say that
 1. an [[object]] $d \in \mathcal{D}$ is a _fixed point of the adjunction_ if its  [[adjunction counit]] is an [[isomorphism]]
 
    $$
-    L R(d) \underoverset{\simeq}{\epsilon_d}{\longrightarrow}
+    L R(d) \underoverset{\simeq}{\epsilon_d}{\longrightarrow} d
    $$
 
    and write 
