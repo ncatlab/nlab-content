@@ -1,5 +1,3 @@
-## Position
-
 PhD student in theoretical physics at the [Centre for Research in String Theory](https://www.qmul.ac.uk/spa/strings/) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
 
 ## Research
