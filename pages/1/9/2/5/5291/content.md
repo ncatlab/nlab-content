@@ -30,7 +30,9 @@ A **Poisson algebra** is
 
 =--
 
-The definition makes sense, but is not standardly used, also for the more general case when the product $\cdot$ is not necessarily commutative (it is often however taken in the sense of commutative internally to a symmetric monoidal category, say of chain complexes, graded vector spaces or supervector spaces). 
+The definition makes sense, but is not standardly used, also for the more general case when the product $\cdot$ is not necessarily commutative (it is often however taken in the sense of commutative internally to a symmetric monoidal category, say of chain complexes, graded vector spaces or supervector spaces).
+
+Poisson algebras form a category [[Poiss]].
 
 +-- {: .num_defn}
 ###### Definition
