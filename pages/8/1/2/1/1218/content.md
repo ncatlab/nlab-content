@@ -15,6 +15,7 @@
 
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
+
 # Contents
 * table of contents
 {: toc}
@@ -109,7 +110,7 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 Write 
 
-* [[Top|TopologicalSpace]] for the [[category]] of [[topological space]]
+* [[Top|TopologicalSpaces]] for the [[category]] of [[topological space]]
 
 * [[DiffeologicalSpaces]] for the [[category]] of [[diffeological spaces]]. 
 
@@ -134,8 +135,6 @@ where
 * i takes a [[topological space]] $X$ to the diffeological space whose plots $U \to X$ are [[continuous functions]] (from the underlying [[topological space]] of the domain $U$). 
 
 * $U$ equips the underlying set $X_{set}$ of a diffeological space with the [[final topology]] that makes all its plots $U_{set} \to X_{set}$ into [[continuous functions]]: called the _[[D-topology]]_ (see also [CSW 13](#CSW13)).
-
-spring
 
 
 
@@ -358,17 +357,17 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 
 ### General
 
-The basic idea of understanding a smooth space as a [[concrete sheaf]] on a site of smooth test spaces originates in work of Chen. In 
+The basic idea of understanding a smooth space as a [[concrete sheaf]] on a site of smooth test spaces originates in work of [[Kuo Tsai Chen]] (see also at _[[Chen space]]_):
 
-* {#Chen73} [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246.
+* {#Chen73} [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246 ([jstor:1970846](https://www.jstor.org/stable/1970846))
 
-he considered (apart from [[iterated integrals]]) effectively [[presheaves]] on a site of [[convex subsets]] of [[Cartesian spaces]]. In
+Chen considered (apart from [[iterated integrals]]) effectively [[presheaves]] on a site of [[convex subsets]] of [[Cartesian spaces]]. In
 
-* {#Chen75} [[Kuo Tsai Chen]], Iterated integrals, fundamental groups and covering spaces, Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98.
+* {#Chen75} [[Kuo Tsai Chen]], _Iterated integrals, fundamental groups and covering spaces_, Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98 ([jstor:1997148](https://www.jstor.org/stable/1997148))
 
 roughly the [[sheaf]] condition was added (without using any of this sheaf-theoretic terminology). The definition of _[[Chen smooth spaces]]_ stabilized in
 
-* {#Chen77} [[Kuo Tsai Chen]], _Iterated path integrals_ , Bull. Amer. Math. Soc. 83, (1977), 831&#8211;879.
+* {#Chen77} [[Kuo Tsai Chen]], _Iterated path integrals_, Bull. Amer. Math. Soc. 83, (1977), 831&#8211;879 ([euclid:1183539443](https://projecteuclid.org/euclid.bams/1183539443))
 
 and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of [[loop spaces]].
 
@@ -376,7 +375,7 @@ The variant of this idea with the site of convex subsets replaced by that of ope
 
 The [[diffeological space]]-structure is at least implicit in 
 
-* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([doi:10.1007/BFb0089728](https://doi.org/10.1007/BFb0089728), [mr:607688](http://www.ams.org/mathscinet-getitem?mr=607688))
 
 motivated from the desire to realize the infinite dimensional groups that appear in [[geometric quantization]], such that (Hamiltonian) [[diffeomorphism group]] and their [[group extensions]] by [[quantomorphism groups]] as [[diffeological groups]].
 
@@ -392,7 +391,7 @@ amplifies the point that diffeological spaces are [[concrete sheaves]].
 
 A textbook about [[differential geometry]] formulated in terms of diffeological spaces is 
 
-* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
+* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
  
 The term "diffeological space" originates here. The thesis
 
@@ -404,9 +403,7 @@ Exposition and lecture notes are in
 
 * [[Patrick Iglesias-Zemmour]], _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=4sZDmiVOhaA))
 
-* {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]], _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics:
-Diffeology, Categories and Toposes
-and Non-commutative Geometry Summer School](http://www.nesinkoyleri.org/eng/events-detail.php?egitimkod=203)_, 2018, to appear in _[[New Spaces for Mathematics and Physics]]_ ([pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
+* {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]], _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics: Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](http://www.turkmath.org/beta/konferans.php?id_konferans=365)_, 2018, to appear in _[[New Spaces for Mathematics and Physics]]_ ([pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
 
 
 Discussion in the context of applications to [[continuum mechanics]] is in 
@@ -443,7 +440,7 @@ The proof can in fact be deduced from th&#233;or&#232;me 1 of
 
 The preservation of [[mapping spaces]] under this embedding is due to
 
-* {#Waldorf09} [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_, Cah. Topol. Geom. Differ. Categ., 2012, Vol. LIII, 162-210 ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+* {#Waldorf09} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_, Cah. Topol. Geom. Differ. Categ., 2012, Vol. LIII, 162-210 ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  
 
 The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
@@ -452,9 +449,9 @@ The largest [[topological space|topology]] on the set which underlies a diffeolo
 
 * {#CSW13} [[Dan Christensen]], Gord Sinnamon, Enxin Wu, _The $D$-topology for diffeological spaces_ ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935))
 
-Some [[homotopy theory]] modeled on diffeological spaces instead of on [[topological spaces]] is discussed in 
+Some [[homotopy theory]] modeled on diffeological spaces (instead of on [[topological spaces]]) via their [[cohesion|cohesive]] [[shape modality|shape]] is discussed in 
 
-* [[Dan Christensen|J. Daniel Christensen]],  Enxin Wu, _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_ ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+* [[Dan Christensen|J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
 The [[full subcategory]]-inclusion of [[manifolds with boundaries and corners]] is discussed in 
 
@@ -484,6 +481,7 @@ On [[orbifolds]] regarded as naive local quotient diffeological spaces:
 [[!redirects diffeology]]
 [[!redirects diffeologies]]
 
+[[!redirects DiffeologicalSpaces]]
 
 [[!redirects Chen smooth space]]
 [[!redirects Chen smooth spaces]]
