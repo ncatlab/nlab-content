@@ -20,7 +20,14 @@ This is a **fibrant replacement** or [[resolution]] of the original object.
 
 The dual concept is called **cofibrant replacement**.
 
-If the factorization is functorial, then it yields a **fibrant replacement functor**.
+If the factorization is functorial, then it yields a **fibrant replacement functor**. See at _[[functorial factorization]]_.
+
+## Related concepts
+
+* [[functorial factorization]]
+
+
+
 
 [[!redirects fibrant replacement]]
 [[!redirects cofibrant replacement]]
