@@ -23,6 +23,8 @@ A _Hilbert space_ is a (possibly) infinite-dimensional generalisation of the tra
 
 Hilbert spaces were made famous to the world at large through their applications to [[physics]], where they organise the pure states of quantum systems.
 
+Hilbert spaces form a category, [[Hilb]].
+
 See also
 
 * [[an elementary treatment of Hilbert spaces]].
