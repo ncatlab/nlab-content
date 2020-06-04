@@ -1,4 +1,4 @@
-_Meas_ is the category of measurable spaces. The objects are measurable spaces (sets equipped with $\sigma$-algebras), and the morphisms are measurable functions. 
+_Meas_ is the category of [[measurable space|measurable spaces]]. The objects are measurable spaces (sets equipped with $\sigma$-algebras), and the morphisms are measurable functions. 
 
 
 #Discussion#
