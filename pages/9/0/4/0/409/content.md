@@ -17,6 +17,8 @@
 
 A _strict $\omega$-groupoid_ is an [[algebraic definition of higher categories|algebraic model]] for certain simple [[homotopy types]]/[[∞-groupoids]] based on [[globular sets]]. It is almost like a [[chain complex]] of [[abelian groups]] (under [[Dold-Kan correspondence]]) except that the [[fundamental group]] is allowed, more generally, to be non-abelian and to act on all the other [[homotopy groups]]. In fact, strict $\omega$-groupoids are [[equivalence of categories|equivalent]] to [[crossed complexes]].
 
+The strict $\omega$-groupoids form an (∞,1)-category [[StrωGrpd]].
+
 ## Definition
 
 A **strict $\omega$-groupoid** or **strict $\infty$-groupoid** is a [[strict ∞-category]] in which all [[k-morphisms]] have a strict [[inverse]] for all $k \in \mathbb{N}$
