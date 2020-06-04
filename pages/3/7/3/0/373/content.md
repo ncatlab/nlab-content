@@ -40,6 +40,7 @@ The morphisms can be [[composition|composed]] along the objects, while the 2-mor
 
 The concept of 2-category generalizes further in [[higher category theory]] to [[n-categories]], which have [[k-morphism]]s for all $k\le n$.
 
+2-categories form a [[3-category]], [[2Cat]].
 
 ## Definitions
 
