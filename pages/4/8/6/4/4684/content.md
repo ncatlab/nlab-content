@@ -23,6 +23,8 @@ A _topological manifold_ is a [[topological space]] (usually required to be [[Ha
 
 Often one is interested in extra structure on topological manifolds, that make them for instance into [[differentiable manifolds]] or [[smooth manifolds]] or [[analytic manifolds]] or [[complex manifolds]], etc. See at _[[manifold]]_ for more on the general concept.
 
+Topological manifolds form a category [[TopMfd]].
+
 ## Definition
 
 ### Locally Euclidean topological spaces
