@@ -30,6 +30,5 @@ How strict the $\omega$-category and the inverses must be can vary. Somes author
 * [[opetopic type theory]]
 
 [[!redirects omega-groupoids]]
-[[!redirects ∞-groupoids]]
 
 [[!redirects globular omega-groupoid]]
