@@ -29,6 +29,8 @@ Other basic examples of rings are the [[cyclic groups]] $\mathbb{Z}_n$ under the
 
 More abstractly, a [[ring]] is a [[monoid object|monoid]] [[internalization|internal to]] [[abelian groups]] (with their [[tensor product of abelian groups]]), and this perspective helps to explain the central relevance of the concept, owing to the fundamental nature of the notion of _[[monoid objects]]_. Accordingly monoids internal to other [[abelian categories]] and more generally [[stable infinity-categories]] constitute generalizations of the notion of _ring_ that are of interest. Notably when abelian groups are generalized to their analogs in [[stable homotopy theory]], namely to [[spectra]], the corresponding internal monoids are [[E-infinity rings]], a basic structure in [[higher algebra]].
 
+Rings form a category, [[Ring]].
+
 ## Definition
 
 
