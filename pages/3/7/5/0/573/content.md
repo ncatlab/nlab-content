@@ -42,7 +42,7 @@ There are two main [[recursion|recursive]] definitions of $(\infty,n)$-categorie
     \,.
   $$
 
-There is also a fairly simple axiomatization of the [[(∞,1)-category]] $Cat_{(\infty,n)}$ itself, as something _[[generators and relations|generated]]_ by [[strict n-categories]]. 
+There is also a fairly simple axiomatization of the [[(∞,1)-category]] [[(infinity,n)Cat|$Cat_{(\infty,n)}$]] itself, as something _[[generators and relations|generated]]_ by [[strict n-categories]]. 
 
 Then there is also a plethora of [[model category]] structures that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] $Cat_{(\infty,n)}$ of all $(\infty,n)$-categories, which means that there are many (and many different) very explicit ways to describe them.
 
