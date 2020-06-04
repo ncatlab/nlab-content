@@ -319,7 +319,7 @@ The [[ordinary cohomology]] and [[ordinary homology]] of the manifolds $SO(n)$ i
 
 * {#Feshbach83} Mark Feshbach, _The Integral Cohomology Rings of the Classifying Spaces of $\mathrm{O}(n)$ and $\mathrm{SO}(n)$,_ Indiana Univ. Math. J.  32 (1983), 511-516 ([doi:10.1512/iumj.1983.32.32036](https://doi.org/10.1512/iumj.1983.32.32036))
 
-* {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 ([web](http://www.sciencedirect.com/science/article/pii/002240499190108E))
+* {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 (<a href="https://doi.org/10.1016/0022-4049(91)90108-E">doi:10.1016/0022-4049(91)90108-E</a>))
 
 * {#RudolphSchmidt17} Gerd Rudolph, Matthias Schmidt, around Theorem 4.2.23 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
