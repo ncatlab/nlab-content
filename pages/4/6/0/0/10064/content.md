@@ -58,7 +58,7 @@ A review of this and more discussion in the context of a higher [[Riemann-Hilber
 
 A relation to [[algebraic cycles]] is discussed in 
 
-* [[Richard Hain]], _Iterated Integrals and Algebraic Cycles: Examples and Prospects_ ([arXiv:](http://arxiv.org/abs/math/0109204))
+* [[Richard Hain]], _Iterated Integrals and Algebraic Cycles: Examples and Prospects_ ([arXiv:math/0109204](http://arxiv.org/abs/math/0109204))
 
 
 [[!redirects iterated integral]]
