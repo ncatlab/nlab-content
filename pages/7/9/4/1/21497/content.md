@@ -1,4 +1,4 @@
 
-* [webpage](https://www.cs.ox.ac.uk/people/oscar.cunningham/)
+* [webpage](https://oscarcunningham.com)
 
 category: people
