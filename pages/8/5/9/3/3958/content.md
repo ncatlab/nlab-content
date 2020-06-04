@@ -36,7 +36,7 @@ If one relaxes the condition from being locally isomorphic to a Euclidean space 
 
 The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
 
-
+Smooth manifolds form a category, [[SmoothManifolds]].
 
 ## Definition
 
