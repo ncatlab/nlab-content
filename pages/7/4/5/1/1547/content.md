@@ -21,7 +21,7 @@
 
 ## Idea
 
-Given some context of [[geometry]], then a _vector bundle_ is a collection of [[vector spaces]] that varies in a geometric way over a given base [[space]] $X$: over each [[generalized element|element]] $x \in X$ there is a [[vector space]] $V_x$, called the _[[fiber]]_ over $x$, and as $x$ varies in $X$, the fibers vary along in a geometric way. One also says that vector bundles are _[[fiber bundles]]_ whose fiber carries [[vector space]]-structure. Hence the theory of vector bundle is _parameterized_ [[linear algebra]].
+Given some context of [[geometry]], then a _vector bundle_ is a collection of [[vector spaces]] that varies in a geometric way over a given base [[space]] $X$: over each [[generalized element|element]] $x \in X$ there is a [[vector space]] $V_x$, called the _[[fiber]]_ over $x$, and as $x$ varies in $X$, the fibers vary along in a geometric way. One also says that vector bundles are _[[fiber bundles]]_ whose fiber carries [[vector space]]-structure. Hence the theory of vector bundle is _parameterized_ [[linear algebra]]. The vector bundles over $X$ form a category [[Vect(X)]].
 
 For example
 
