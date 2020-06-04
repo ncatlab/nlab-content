@@ -30,7 +30,7 @@ We give first the usual notion, assuming the validity of [[excluded middle]] and
 
 Given a [[set]] $X$, a __$\sigma$-[[sigma-algebra|algebra]]__ is a collection of [[subsets]] of $X$ that is closed under [[complement|complementation]], [[countable set|countable]] [[unions]], and countable [[intersections]].  A __measurable space__, by the usual modern definition, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __[[measurable sets]]__ of $X$ (or more properly, the measurable subsets of $(X,\Sigma)$).
 
-Given measurable spaces $X$ and $Y$, a __[[measurable function]]__ from $X$ to $Y$ is a [[function]] $f\colon X \to Y$ such that the [[preimage]] $f^*(T)$ is measurable in $X$ whenever $T$ is measurable in $Y$.  Measurable spaces and measurable functions form a [[category]] $Measble$, which is [[topological concrete category|topological]] over [[Set]].
+Given measurable spaces $X$ and $Y$, a __[[measurable function]]__ from $X$ to $Y$ is a [[function]] $f\colon X \to Y$ such that the [[preimage]] $f^*(T)$ is measurable in $X$ whenever $T$ is measurable in $Y$.  Measurable spaces and measurable functions form a [[category]] [[Meas]], which is [[topological concrete category|topological]] over [[Set]].
 
 In classical measure theory, it is usually assumed that $Y$ is the [[real line]] (or a variation) equipped with the [[Borel sets]] (see the examples below).  Then $f$ is measurable if and only if $f^{-1}(I)$ is measurable whenever $I \subseteq Y$ is an interval.
 
