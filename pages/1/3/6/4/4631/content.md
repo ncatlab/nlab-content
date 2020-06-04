@@ -43,10 +43,10 @@ Denote by $\Delta_+$ (also denoted $\Delta_a$) the [[augmented simplex category]
 
 * and so on.
 
-An **augmented simplicial set** $X$ is a [[presheaf]] on $\Delta_+$ and the [[category]] of augmented simplicial sets is the presheaf category
+An **augmented simplicial set** $X$ is a [[presheaf]] on $\Delta_+$ and the [[category]] of augmented simplicial sets, [[ASSet|$sSet_+$]], is the presheaf category
 
 $$
-  sSet_+ := [\Delta_+^{op}, Set]
+  [\Delta_+^{op}, Set]
   \,.
 $$
 
