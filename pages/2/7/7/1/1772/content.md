@@ -299,7 +299,7 @@ where the bottom and the right morphisms are [[monomorphism]]s. Therefore also t
 
 The notion of quasitoposes of concrete sheaves goes back to
 
-* [[Eduardo Dubuc]], _Concrete quasitopoi_ , Lecture Notes in Math. 753 (1979), 239&#8211;254
+* [[Eduardo Dubuc]], _Concrete quasitopoi_, Lecture Notes in Math. 753 (1979), 239&#8211;254 ([doi:10.1007/BFb0061821](https://doi.org/10.1007/BFb0061821))
 
 and is further developed in
 
