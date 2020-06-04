@@ -51,7 +51,7 @@ Reviews for the case that 2 and 3 are invertible include
 
 and specifically over the complex numbers:
 
-* {#Hain08} Richard Hain, section 5 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+* {#Hain08} [[Richard Hain]], section 5 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
 
 Discussion of the general case in the context of the construction of [[tmf]] is in
@@ -60,7 +60,7 @@ Discussion of the general case in the context of the construction of [[tmf]] is 
 
 reviewed in
 
-* {#Mathew} [[Akhil Mathew]], section 3 of _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
+* {#Mathew} [[Akhil Mathew]], section 3 of: _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
 
 [[!redirects cubic curves]]
