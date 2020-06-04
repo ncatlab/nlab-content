@@ -32,7 +32,7 @@ $$ hom(x,y) \in K .$$
 We then mimic the usual definition of category.  
 
 We may similarly define a _functor enriched over $K$_
-and a _natural transformation enriched over $K$_, obtaining a [[strict 2-category]] of $K$-enriched categories.  By general 2-category theory, we thereby obtain notions of _$K$-enriched adjunction_, _$K$-enriched equivalence_, and so on.
+and a _natural transformation enriched over $K$_, obtaining a [[strict 2-category]] of $K$-enriched categories, [[category of V-enriched categories|$K$-Cat]].  By general 2-category theory, we thereby obtain notions of _$K$-enriched adjunction_, _$K$-enriched equivalence_, and so on.
 
 There is also an enriched notion of [[limit]] called a [[weighted limit]], but it is somewhat more subtle (and in particular, it is difficult to construct purely on the basis of the 2-category $K$-Cat).
 
