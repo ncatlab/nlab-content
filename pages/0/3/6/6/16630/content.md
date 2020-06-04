@@ -51,7 +51,7 @@ The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states tha
 
 * [[Jeff Cheeger]], [[Jim Simons]], _Differential characters and geometric invariants_, in _Geometry and Topology_, Proceedings of the Special Year, University of Maryland 1983-84, eds. J. Alexander and J. Harer, Lecture Notes in Math. 1167, Springer-Verlag, Berlin, Heidelberg, New York, 1985, pp. 50&#8211;80.
 
-* Johan Dupont, Richard Hain, Steven Zucker, _Regulators and characteristic classes of flat bundles_ ([arXiv:alg-geom/9202023](http://arxiv.org/abs/alg-geom/9202023))
+* [[Johan Dupont]], [[Richard Hain]], [[Steven Zucker]], _Regulators and characteristic classes of flat bundles_ ([arXiv:alg-geom/9202023](http://arxiv.org/abs/alg-geom/9202023))
 
 
 * {#Neumann04} [[Walter Neumann]], _Extended Bloch group and the Cheeger-Chern-Simons class_, Geom. Topol. 8 (2004) 413-474 ([arXiv:math/0307092](http://arxiv.org/abs/math/0307092))
