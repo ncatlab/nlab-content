@@ -354,6 +354,8 @@ The [[orientals]] relate simplices to [[globes]].
 
 * [[Bloch region]]
 
+* [[Delta-generated space]]
+
 [[!redirects simplices]]
 
 
