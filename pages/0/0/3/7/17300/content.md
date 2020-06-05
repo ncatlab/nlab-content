@@ -85,6 +85,20 @@ $$
 This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties).
 
 
+## Related concepts
+
+* [[model structure on topological spaces]]
+
+  * [[classical model structure on topological spaces]]
+
+    * [[classical model structure on pointed topological spaces]]
+
+  * [[Strøm model structure]]
+
+  * [[model structure on Delta-generated topological spaces]]
+
+
+
 ## References
 
 * [[Mark Hovey]], around corollary 2.4.20 of _Model categories_
