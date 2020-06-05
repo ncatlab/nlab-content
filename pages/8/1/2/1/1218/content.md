@@ -108,35 +108,10 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 ### Relation to topological spaces
  {#RelationToTopologicalSpaces}
 
-Write 
 
-* [[Top|TopologicalSpaces]] for the [[category]] of [[topological space]]
 
-* [[DiffeologicalSpaces]] for the [[category]] of [[diffeological spaces]]. 
+[[!include adjunction between topological spaces and diffeological spaces]]
 
-Then there is a pair of [[adjoint functors]] (e.g. [SYH 10, 3.1](#SYH10))
-
-$$
-  TopologicalSpaces
-  \underoverset{
-    \underset{
-      Cdfflg
-    }{\longrightarrow}
-  }{
-    \overset{
-      Dtplg
-    }{\longleftarrow}
-  }{\bot}
-  DiffeologicalSpaces
-$$
-
-where
-
-* $Cdfflg$ takes a [[topological space]] $X$ to the _continuous diffeology_, namely the diffeological space on the same underlying set $\flat X$ whose plots $U \to X$ are the [[continuous functions]] (from the underlying [[topological space]] of the domain $U$). 
-
-* $Dtplg$ takes a [[diffeological space]] to the _diffeological topology_ ([[D-topology]]), namely the [[topological space]] with the same underlying set $\flat X$ and with the [[final topology]] that makes all its plots $U_{set} \to X_{set}$ into [[continuous functions]]: called the _[[D-topology]]_.
-
-  Hence a [[subset]] $O \subset \flat X$ is an [[open subset]] in the [[D-topology]] precisely if for each plot $f \colon U \to X$ the [[preimage]] $f^{-1}(O) \subset U$ is an [[open subset]] in the [[Cartesian space]] $U$.
 
 
 Further discussion of the D-topology is in [CSW 13](#CSW13).
@@ -348,6 +323,8 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 
 ## Related concepts
 
+* [[model structure on diffeological spaces]]
+
 * [[smooth set]]
 
 * [[Diff]]
@@ -454,7 +431,7 @@ The preservation of [[mapping spaces]] under this embedding is due to
 
 The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
 
-* {#SYH10} K. Shimakawa, K. Yoshida, T. Haraguchi, _Homology and cohomology via enriched bifunctors_, Kyushu Journal of Mathematics, 2018 Volume 72 Issue 2 Pages 239-252 ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336), [doi:10.2206/kyushujm.72.239]( https://doi.org/10.2206/kyushujm.72.239))
+* {#SYH10} [[Kazuhisa Shimakawa]], K. Yoshida, [[Tadayuki Haraguchi]], _Homology and cohomology via enriched bifunctors_, Kyushu Journal of Mathematics, 2018 Volume 72 Issue 2 Pages 239-252 ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336), [doi:10.2206/kyushujm.72.239]( https://doi.org/10.2206/kyushujm.72.239))
 
 * {#CSW13} [[J. Daniel Christensen]], Gord Sinnamon, [[Enxin Wu]], _The $D$-topology for diffeological spaces_, Pacific Journal of Mathematics 272 (1), 87-110, 2014 ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935), [doi:10.2140/pjm.2014.272.87](https://msp.org/pjm/2014/272-1/p04.xhtml))
 
