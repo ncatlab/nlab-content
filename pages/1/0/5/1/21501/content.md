@@ -43,7 +43,8 @@ Moreover:
 
 1. this is an [[idempotent adjunction]], which exhibits $\Delta$-generated topological spaces as a [[reflective subcategory]] inside [[diffeological spaces]] and a [[coreflective subcategory]] inside all [[topological spaces]]:
 
-$$
+\[
+  \label{DeltaGeneratedSpacesInIdempotentAdjunction}
   TopologicalSpaces
   \underoverset
     {
@@ -69,7 +70,7 @@ $$
     }
     {\phantom{AA}\bot\phantom{AA}}
   DiffeologicalSpaces
-$$
+\]
 
 =--
 
