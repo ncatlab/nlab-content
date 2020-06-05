@@ -185,6 +185,16 @@ between the [Quillen model structure](#QuillenModelStructure) and the [Strom mod
 
 * [[homotopical structure on C*-algebras]]
 
+* [[model structure on topological spaces]]
+
+  * [[classical model structure on topological spaces]]
+
+    * [[classical model structure on pointed topological spaces]]
+
+  * [[Strøm model structure]]
+
+  * [[model structure on Delta-generated topological spaces]]
+
 ## References 
 
 The original "Quillen" or "q-" model structure is due to
