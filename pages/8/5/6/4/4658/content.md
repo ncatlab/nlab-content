@@ -39,7 +39,10 @@ If we regard Lie groupoids as special cases of [[stacks]] on [[Diff]] ([[smooth 
 
 Diffeological groups were intoduced in
 
-* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([doi:10.1007/BFb0089728](https://doi.org/10.1007/BFb0089728), [mr:607688](http://www.ams.org/mathscinet-getitem?mr=607688))
+
+* {#Souriau84} [[Jean-Marie Souriau]], _Groupes différentiels et physique mathématique_,  In: Denardo G., Ghirardi G., Weber T. (eds.) Group Theoretical Methods in Physics. Lecture Notes in Physics, vol 201. Springer 1984 ([doi:10.1007/BFb0016198](https://doi.org/10.1007/BFb0016198))
+
 
 motivated by the examples appearing in [[geometric quantization]], such as the (Hamiltonian) [[diffeomorphism group]] and its [[quantomorphism group]] extension.
 
