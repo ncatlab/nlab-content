@@ -9,6 +9,7 @@
 
 * [[combinatorial model category]]
 
+
 ## Selected writings
 
 * _[[Universal Homotopy Theories]]_
@@ -16,6 +17,11 @@
 * _[[Combinatorial model categories have presentations]]_
 
 * _Sheaves and homotopy theory_, [pdf](http://math.mit.edu/~dspivak/files/cech.pdf).
+
+On [[Delta-generated spaces]]:
+
+* [[Daniel Dugger]], _Notes on Delta-generated spaces_, 2003 ([web](https://pages.uoregon.edu/ddugger/delta.html), [[DuggerDeltaGenerated.pdf:file]])
+
 
 On [[Cayley-Dickson algebras]]:
 
