@@ -103,9 +103,15 @@
 
   * [[classical model structure on topological spaces|classical model structure]]
 
+  * [[model structure on Delta-generated topological spaces|on Delta-generated spaces]]
+
+  * [[model structure on diffeological spaces|on diffeological spaces]]
+
   * [[Strom  model structure]]
 
-  * [[Thomason model structure]]
+
+
+* [[Thomason model structure]]
 
 * [[model structure on presheaves over a test category]]
 
