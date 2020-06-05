@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents 
 {:toc}
@@ -187,7 +188,7 @@ $$
   \,.
 $$
 
-Also the [[model structure on simplicial sheaves]] $sSh(CartSp_{{top})_{loc}$ is a presentation
+Also the [[model structure on simplicial sheaves]] $sSh(CartSp_{top})_{loc}$ is a presentation
 
 $$
   (sSh(CartSp_{top})_{loc})^\circ
