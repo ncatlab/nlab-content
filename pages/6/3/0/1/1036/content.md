@@ -20,7 +20,7 @@ In particular, a [[convenient category of topological spaces]] is, in the techni
 
   For more on this see _[[Top]]_, _[[homotopy theory]]_ and [[infinity-groupoid]].
 
-* The subcategory of [[Delta-generated space]]s, recently proposed by J. H. Smith, is also both cartesian closed and locally presentable.
+* The subcategory of [[Delta-generated topological spaces]] is also both cartesian closed and locally presentable.
 
 * An approach of mainly historical interest is to use [[quasitopological space|quasitopological spaces]], an enlargement of $Top$ which is cartesian closed.
 
