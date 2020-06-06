@@ -16,6 +16,7 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -105,7 +106,7 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 ## Properties
 
-### Relation to topological spaces
+### Relation to topological and $\Delta$-generated spaces
  {#RelationToTopologicalSpaces}
 
 
@@ -113,8 +114,20 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 [[!include adjunction between topological spaces and diffeological spaces]]
 
 
+Further discussion of the [[D-topology]] is in [CSW 13](#CSW13).
 
-Further discussion of the D-topology is in [CSW 13](#CSW13).
+
+
+### Topological homotopy type and diffeological shape
+ {#OnTopologicalHomotopyTypeAndDiffeologicalShape}
+
+
+[[!include diffeological singular simplicial set -- definition]]
+
+
+[[!include topological homotopy type is cohesive shape of continuous diffeology -- proposition]]
+
+
 
 
 
@@ -437,7 +450,7 @@ The largest [[topological space|topology]] on the set which underlies a diffeolo
 
 Some [[homotopy theory]] modeled on diffeological spaces (instead of on [[topological spaces]]) via their [[cohesion|cohesive]] [[shape modality|shape]] is discussed in 
 
-* [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+* {#ChristensenWu13} [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
 The [[full subcategory]]-inclusion of [[manifolds with boundaries and corners]] is discussed in 
 
