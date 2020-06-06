@@ -19,17 +19,17 @@ $$
   DiffeologicalSpaces
 $$
 
-between the categories of [[Top|TopologicalSpaces]] and of [[DiffeologicalSpaces]], where
+between the [[categories]] of [[Top|TopologicalSpaces]] and of [[DiffeologicalSpaces]], where
 
-* $Cdfflg$ takes a [[topological space]] $X$ to the **continuous diffeology**, namely the diffeological space on the same underlying set $\flat X$ whose plots $U \to X$ are the [[continuous functions]] (from the underlying [[topological space]] of the domain $U$). 
+* $Cdfflg$ takes a [[topological space]] $X$ to the **continuous diffeology**, namely the diffeological space on the same underlying set $X_s$ whose plots $U_s \to X_s$ are the [[continuous functions]] (from the underlying [[topological space]] of the [[domain]] $U$). 
 
-* $Dtplg$ takes a [[diffeological space]] to the **diffeological topology** ([[D-topology]]), namely the [[topological space]] with the same underlying set $\flat X$ and with the [[final topology]] that makes all its plots $U_{set} \to X_{set}$ into [[continuous functions]]: called the _[[D-topology]]_.
+* $Dtplg$ takes a [[diffeological space]] to the **diffeological topology** ([[D-topology]]), namely the [[topological space]] with the same underlying set $X_s$ and with the [[final topology]] that makes all its plots $U_{s} \to X_{s}$ into [[continuous functions]]: called the _[[D-topology]]_.
 
   Hence a [[subset]] $O \subset \flat X$ is an [[open subset]] in the [[D-topology]] precisely if for each plot $f \colon U \to X$ the [[preimage]] $f^{-1}(O) \subset U$ is an [[open subset]] in the [[Cartesian space]] $U$.
 
 Moreover:
 
-1. the [[fixed point of an adjunction|fixed points of this adjunction]] $X \in$[[Top|TopologicalSpaces]] (those for which the [[counit of an adjunction|counit]] is an [[isomorphism]], hence here: a [[homeomorphism]]) are precisely the [[Delta-generated topological spaces]]:
+1. the [[fixed point of an adjunction|fixed points of this adjunction]] $X \in$[[Top|TopologicalSpaces]] (those for which the [[counit of an adjunction|counit]] is an [[isomorphism]], hence here: a [[homeomorphism]]) are precisely the [[Delta-generated topological spaces]] ([i.e.](Delta-generated+topological+space#AsEuclideanGeneratedSpaces) [[Euclidean-generated spaces]]):
 
    $$
      X \;\,\text{is}\;\Delta\text{-generated}
@@ -41,7 +41,7 @@ Moreover:
      X
    $$
 
-1. this is an [[idempotent adjunction]], which exhibits $\Delta$-generated topological spaces as a [[reflective subcategory]] inside [[diffeological spaces]] and a [[coreflective subcategory]] inside all [[topological spaces]]:
+1. this is an [[idempotent adjunction]], which exhibits $\Delta$-generated/[[Euclidean-generated spaces]] as a [[reflective subcategory]] inside [[diffeological spaces]] and a [[coreflective subcategory]] inside all [[topological spaces]]:
 
 \[
   \label{DeltaGeneratedSpacesInIdempotentAdjunction}
@@ -57,7 +57,7 @@ Moreover:
       }{\hookleftarrow}
     }
     {\phantom{AA}\bot\phantom{AA}}
-  DeltaGeneratedSpaces
+  EuclideanGeneratedSpaces
   \underoverset
     {
       \underset{
@@ -102,7 +102,7 @@ $$
   }
 $$
 
-given simply as the [[identity function|identity]] on the underlying [[functions]] of underlying sets. This establishes the [[adjunction]]. This makes it immediate that this hom-isomorphism is [[natural bijection|natural]] in $X$ and $Y$.
+given simply as the [[identity function|identity]] on the underlying [[functions]] of underlying sets.  This makes it immediate that this hom-isomorphism is [[natural bijection|natural]] in $X$ and $Y$ and this establishes the [[adjunction]]. 
 
 Next, to see that the [[Euclidean-generated topological spaces]] are the [[fixed point of an adjunction|fixed points]] of this adjunction, 
 we apply the above [[natural bijection]] on hom-sets to the case
