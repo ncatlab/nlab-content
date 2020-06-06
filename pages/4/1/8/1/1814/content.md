@@ -62,3 +62,7 @@ Forming from the singular simplicial complex $Sing(X)$ first the free [[simplici
 
 [[!redirects singular simplicial complexes]]
 
+[[!redirects singular simplicial set]]
+[[!redirects singular simplicial sets]]
+
+
