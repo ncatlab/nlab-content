@@ -16,9 +16,17 @@
 
 ## Definition
 
++-- {: .num_defn} 
+###### Definition
+**($\Delta$-Generated space)**
+
 A **$\Delta$-generated space** is a [[topological space]] $X$ whose topology is the [[final structure|final topology]] induced by all [[continuous functions]] $\Delta^n_{top} \to X$, where $\Delta^n_{top}$ are the standard [[topological simplices]].
 
+=--
+
 Equivalently, the class of $\Delta$-generated spaces is the closure of the set of [[topological simplices]] $\Delta^n_{top}$ under [[small colimits]] in [[topological spaces]] (see at _[[Top]] -- [universal constructions](Top#UniversalConstructions)_).
+
+
 
 ## Properties
 
@@ -93,6 +101,13 @@ Relation to [[diffeological spaces]]:
 
 [[!redirects Delta-generated space]]
 [[!redirects Delta-generated spaces]]
+
+[[!redirects Euclidean-generated space]]
+[[!redirects Euclidean-generated spaces]]
+
+[[!redirects Euclidean-generated topological space]]
+[[!redirects Euclidean-generated topological spaces]]
+
 
 [[!redirects ∞-generated space]]
 [[!redirects ∞-generated spaces]]
