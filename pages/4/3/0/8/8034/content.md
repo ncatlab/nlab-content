@@ -26,7 +26,6 @@ There are two important constructions to perform with these $G[p^n]$ namely taki
 
 $$S_p(G):=colim_n G[p^n]$$
 
-and
 
 $$T_p(G):=lim G[p^n]$$
 
@@ -55,9 +54,13 @@ If $X$ denotes some [[nLab:scheme]] over a $k$-ring for $k$ being a field of cha
 
 ## p-torsion of group schemes
 
-If $G$ is a commutative group scheme over a scheme $S$, then define the multiplication by $p$ map as follows:  $G \xrightarrow{\Delta} G \times_S .... \times_S G \to G$.  Because $G$ is a commutative group scheme, this is a map in the category of group schemes.  The $[p]$ torsion, $G[p]$ is then the pullback along the identity section of the multiplication by $[p]$ map.
+Let $G$ is a commutative group scheme over a scheme $S$.  Define the multiplication by $p$ map as follows -   $[p]: G \xrightarrow{\Delta} G \times_S .... \times_S G \to G$.
 
-The fiber of $G[p]$ at a given $s \in S$ is a group is the p-torsion in the fiber of $G$ at $s$, since the relevant pullback diagrams commute.
+  Because $G$ is a commutative group scheme, this is a map in the category of group schemes.  The $[p]$ torsion, $G[p]$, is then the pullback along the identity section of the multiplication by $[p]$ map.
+
+The fiber of $G[p]$ at a given $s \in S$ is a group.  (Its a group scheme over the residue field of $s$).   And it is the p-torsion in the fiber of $G$ at $s$.
+
+The notions of $S_p$, (as an Ind-scheme) and $T_p$ (as a scheme) readily generalize using this notion of $p$-torsion.
 
 +-- {: .num_example}
 ###### Example
@@ -108,4 +111,4 @@ satisfying (1)(2)(3).
 
 ## References
 
-* see the references at [[nLab:p-divisible group]], in particular the notes by Richard Pink.
+* see the references at [[nLab:p-divisible group]], in particular the notes by Richard Pink.  Shatz Group Schemes, Formal Groups, and p-Divisible Groups is also very readable.
