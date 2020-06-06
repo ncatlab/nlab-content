@@ -81,13 +81,13 @@ We might thus equivalently speak of _Euclidean-generated spaces_.
 The [[category]] of $\Delta$-generated spaces is 
 a [[convenient category of topological spaces]] in that it is:
 
-* [[locally presentable category|locally presentable]],
+* [[locally presentable category|locally presentable]] ([Fajstrup-Rosický 08, Cor. 3.7](#FajstrupRosicky08))
 
-* [[cartesian closed]].
+* [[cartesian closed]] ([Shimakawa-Yoshida-Haraguchi 10, Cor. 4.6](#SYH10)).
 
 =--
 
-([Fajstrup-Rosický 08](#FajstrupRosicky08), [Shimakawa-Yoshida-Haraguchi 10](#SYH10))
+
 
 
 ### Coreflection into all topological spaces
