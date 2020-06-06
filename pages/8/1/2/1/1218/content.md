@@ -48,7 +48,7 @@ A [[morphism]] of diffeological spaces is a morphism of the corresponding [[shea
 
 =--
 
-For $(X,\mathcal{D})$ a diffeological space, and for any $U \in \mathcal{Op}$, the set $\mathcal{D}(U)$ is also called the set of **plots** in $X$ on $U$. This is to be thought of as the set of ways of mapping $U$ smoothly into the would-be space $X$. This assignment _defined_ what it means for a map $U \to X$ of sets to be smooth. 
+For $(X,\mathcal{D})$ a diffeological space, and for any $U \in \mathcal{Op}$, the set $\mathcal{D}(U)$ is also called the set of **[[plots]]** in $X$ on $U$. This is to be thought of as the set of ways of mapping $U$ smoothly into the would-be space $X$. This assignment _defined_ what it means for a map $U \to X$ of sets to be smooth. 
 
 For some comments on the reasoning behind this kind of definition of generalized [[space]]s see [[motivation for sheaves, cohomology and higher stacks]].
 
@@ -73,14 +73,14 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 ## Examples
 
-* Every [[smooth manifold]] $X$, i.e. every object of [[Diff]], becomes a diffeological space by defining the plots on $U \in CartSp$ to be the ordinary [[smooth function]]s from $U$ to $X$, i.e. the morphisms in [[Diff]]:
+* Every [[smooth manifold]] $X$, i.e. every object of [[Diff]], becomes a diffeological space by defining the [[plots]] on $U \in CartSp$ to be the ordinary [[smooth function]]s from $U$ to $X$, i.e. the morphisms in [[Diff]]:
 
   $$  
     X : U \mapsto Hom_{Diff}(U,X)
     \,.
   $$
 
-* For $X$ and $Y$ two diffeological spaces, their [[product]] as sets $X \times Y$ becomes a diffeological space whose plots are pairs consisting of a plot into $X$ and one into $Y$
+* For $X$ and $Y$ two diffeological spaces, their [[product]] as sets $X \times Y$ becomes a diffeological space whose [[plots]] are pairs consisting of a [[plot]] into $X$ and one into $Y$
 
   $$
     X \times Y : U \mapsto Hom_{DiffSp}(U,X) \times Hom_{DiffSp}(U,Y)
@@ -89,7 +89,7 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 * Given any two diffeological spaces $X$ and $Y$, the set of 
   morphisms $Hom_{DiffSp}(X,Y)$ becomes a smooth space by taking 
-  the plots on some $U$ to be the smooth morphisms $X \times U \to Y$, 
+  the [[plots]] on some $U$ to be the smooth morphisms $X \times U \to Y$, 
   i.e. the smooth $U$-parameterized families of smooth maps from $X$ to $Y$:
 
   $$
@@ -140,9 +140,9 @@ This is a direct consequence of the fact that [[CartSp]]$_{smooth}$ is a [[dense
 
 It may nevertheless be useful to spell out the elementary proof directly:
 
-To see that the functor is faithful, notice that if $f,g : X \to Y$ are two [[smooth function]]s that differ at some point, then they must differ in some [[open neighbourhood]] of that point. This [[open ball]] is a plot, hence the corresponding diffeological spaces differ on that plot.
+To see that the functor is faithful, notice that if $f,g : X \to Y$ are two [[smooth function]]s that differ at some point, then they must differ in some [[open neighbourhood]] of that point. This [[open ball]] is a [[plot]], hence the corresponding diffeological spaces differ on that [[plot]].
 
-To see that the functor is full, we need to show that a map of sets $f : X \to Y$ that sends plots to plots is necessarily a [[smooth function]], hence that all its [[derivative]]s exist. This can be tested already on all smooth curves $\gamma : (0,1) \to X$ in $X$. By [[Boman's theorem]], a function that takes all smooth curves to smooth curves is necessarily a smooth function. But curves are in particular plots, so a function that takes all plots of $X$ to plots of $Y$ must be smooth.
+To see that the functor is full, we need to show that a map of sets $f : X \to Y$ that sends [[plots]] to [[plots]] is necessarily a [[smooth function]], hence that all its [[derivative]]s exist. This can be tested already on all smooth curves $\gamma : (0,1) \to X$ in $X$. By [[Boman's theorem]], a function that takes all smooth curves to smooth curves is necessarily a smooth function. But curves are in particular [[plots]], so a function that takes all [[plots]] of $X$ to [[plots]] of $Y$ must be smooth.
 
 =--
 
@@ -156,7 +156,7 @@ $$
   \,.
 $$
 
-This fact plays a role in the definition of [[Frölicher space]]s, which are [[generalized smooth space]]s defined by plots by curves into and out of them.
+This fact plays a role in the definition of [[Frölicher space]]s, which are [[generalized smooth space]]s defined by [[plots]] by curves into and out of them.
 
 While the site $CartSp_{dim \leq 1}$ is more convenient for some purposes, it is not so useful for other purposes, mostly when diffeological spaces are regarded from the point of view of the full sheaf topos: the sheaf topos $Sh(CartSp_{dim \leq 1})$ lacks some non-[[concrete sheaf|concrete]] sheaves of interest, such as the sheaves of differential forms of degree $\geq 2$.
 
@@ -201,7 +201,7 @@ $$
   \iota \colon FrechetManifolds \to DiffeologicalSpaces
 $$
 
-in the evident way by taking for $X$ a [[Fréchet manifold]] for any $U \in $ [[CartSp]] the set of $U$-plots of $\iota(X)$ to be the set of smooth functions $U \to X$.
+in the evident way by taking for $X$ a [[Fréchet manifold]] for any $U \in $ [[CartSp]] the set of $U$-[[plots]] of $\iota(X)$ to be the set of smooth functions $U \to X$.
 
 =--
 
@@ -429,7 +429,7 @@ The preservation of [[mapping spaces]] under this embedding is due to
 * {#Waldorf09} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_, Cah. Topol. Geom. Differ. Categ., 2012, Vol. LIII, 162-210 ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  
 
-The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
+The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all [[plots]] are [[continuous functions]] (the "[[D-topology]]") is studied in 
 
 * {#SYH10} [[Kazuhisa Shimakawa]], K. Yoshida, [[Tadayuki Haraguchi]], _Homology and cohomology via enriched bifunctors_, Kyushu Journal of Mathematics, 2018 Volume 72 Issue 2 Pages 239-252 ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336), [doi:10.2206/kyushujm.72.239]( https://doi.org/10.2206/kyushujm.72.239))
 
@@ -457,7 +457,6 @@ On [[orbifolds]] regarded as naive local quotient diffeological spaces:
 * {#Watts15} [[Jordan Watts]], _The Differential Structure of an Orbifold_, Rocky Mountain Journal of Mathematics, Vol. 47, No. 1 (2017), pp. 289-327 ([arXiv:1503.01740](https://arxiv.org/abs/1503.01740))
 
 
-
 [[!redirects diffeological space]]
 [[!redirects diffeological spaces]]
 
@@ -471,5 +470,3 @@ On [[orbifolds]] regarded as naive local quotient diffeological spaces:
 
 [[!redirects Chen smooth space]]
 [[!redirects Chen smooth spaces]]
-
-[[!redirects D-topology]]
