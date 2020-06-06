@@ -218,7 +218,7 @@ $$
   \eta \;\colon\; X \times [0,1] \longrightarrow Y
 $$
 
-out of the [[product topological space]] ([this example](Introduction+to+Topology+--+1#ProductTopologicalSpace))
+out of the [[product topological space]] ([this example](Introduction+to+Topology+--+1#BinaryProductTopologicalSpace))
 of $X$ the [[topological interval]] (def. \ref{TopologicalInterval})
 such that this makes the following  [[diagram]] in [[Top]] [[commuting diagram|commute]]:
 
