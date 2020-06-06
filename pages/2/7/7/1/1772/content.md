@@ -285,12 +285,12 @@ where the bottom and the right morphisms are [[monomorphism]]s. Therefore also t
 
 ## Examples
 
-* The concrete sheaves on the [[concrete site]] [[CartSp]] are the [[diffeological space]]s.
+* The concrete sheaves on the [[concrete site]] [[CartSp]] are the [[diffeological spaces]].
 
 
 ## Related concepts
 
-* **concrete sheaf**
+* [[plot]]
 
 * [[concrete (∞,1)-sheaf]]
 
