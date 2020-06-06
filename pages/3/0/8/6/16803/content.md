@@ -135,6 +135,10 @@ that expresses abstractly a [[adjoint cylinder|cylinder configuration]] correspo
 
 * [[adjoint cylinder]]
 
+* [[2-category of adjunctions]]
+
+* [[Adj]]
+
 ## References
 
 * {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the complete lattice of essential localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319. ([pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1988-on-the-complete-lattice-of-essential-localizations.pdf))
