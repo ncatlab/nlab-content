@@ -21,6 +21,11 @@ Appendix 2 of
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
 
+
+Code to compute the coefficients of $p$-typical formal groups
+
+* [[Carl McTague]], [Computing _p_-Typical Formal Group Laws](https://www.mctague.org/carl/blog/2020/05/23/p-typical-fgl/)
+
 [[!redirects p-typical formal group laws]]
 
 [[!redirects p-typical formal group]]
