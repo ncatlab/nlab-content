@@ -73,20 +73,31 @@ We might thus equivalently speak of _Euclidean-generated spaces_.
 
 ## Properties
 
-### As a nice category of topological spaces
+### As a convenient category of topological spaces
 
-+-- {: .num_prop }
++-- {: .num_prop #EuclideanGeneratedSpacesAreConvenient}
 ###### Proposition
+**([[Euclidean-generated spaces]] are [[convenient category of topological spaces|convenient]])**
 
-The [[category]] of $\Delta$-generated spaces is 
-a [[convenient category of topological spaces]] in that it is:
+The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is 
+a [[convenient category of topological spaces]] in that:
 
-* [[locally presentable category|locally presentable]] ([Fajstrup-Rosický 08, Cor. 3.7](#FajstrupRosicky08))
+* it contains all [[CW-complexes]] ([SYH 10, Cor. 4.4](#SYH10)),
 
-* [[cartesian closed]] ([Shimakawa-Yoshida-Haraguchi 10, Cor. 4.6](#SYH10)).
+* it is [[complete category|complete]] and [[cocomplete category]] ([SYH 10, Prop. 3.4](#SYH10)),
+
+* it is [[cartesian closed]] ([SYH 10, Cor. 4.6](#SYH10)):
+
+  its [[internal homs]] $[X,Y]$ are given by the [[D-topology]] of the [[internal homs]] in [[diffeological spaces]] between [[continuous diffeologies]] ([SYH 10, Prop. 4.7](#SYH10)):
+
+  $$
+    [X,Y] \;\coloneqq\; Dtplg\big( [ Cdfflg(X), Cdfflg(Y) ] \big) 
+  $$
+
+* it is [[locally presentable category|locally presentable]] ([FR 08, Cor. 3.7](#FajstrupRosicky08))
+
 
 =--
-
 
 
 
@@ -137,7 +148,7 @@ $\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a [[nice
 
 A [[proof]] that the category of $\Delta$-generated spaces is [[locally presentable category|locally presentable]] is in:
 
-* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
+* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
 
 See also at _[[directed homotopy theory]]_.
 
