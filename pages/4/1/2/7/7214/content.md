@@ -96,6 +96,17 @@ a [[convenient category of topological spaces]] in that it is:
 [[!include adjunction between topological spaces and diffeological spaces]]
 
 
+### Topological homotopy type and diffeological shape
+ {#OnTopologicalHomotopyTypeAndDiffeologicalShape}
+
+
+[[!include diffeological singular simplicial set -- definition]]
+
+
+
+[[!include topological homotopy type is cohesive shape of continuous diffeology -- proposition]]
+
+
 
 ### Model category structure
 
