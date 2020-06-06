@@ -55,6 +55,9 @@ If $X$ denotes some [[nLab:scheme]] over a $k$-ring for $k$ being a field of cha
 
 ## p-torsion of group schemes
 
+If $G$ is a commutative group scheme over a scheme $S$, then define the multiplication by $p$ map as follows:  $G \xrightarrow{\Delta} G \times_S .... \times_S G \to G$.  Because $G$ is a commutative group scheme, this is a map in the category of group schemes.  The $[p]$ torsion, $G[p]$ is then the pullback along the identity section of the multiplication by $[p]$ map.
+
+The fiber of $G[p]$ at a given $s \in S$ is a group is the p-torsion in the fiber of $G$ at $s$, since the relevant pullback diagrams commute.
 
 +-- {: .num_example}
 ###### Example
