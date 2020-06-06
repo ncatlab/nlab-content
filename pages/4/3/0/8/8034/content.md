@@ -42,9 +42,9 @@ Note that sometimes by "the Tate module" is meant a specific example of a Tate m
 
 $G[p]$ is obviously the kernel of the [[nLab:Frobenius]] endomorphism of $G$:
 
-$$G[p]=(ker\, (g\mapsto g^n))$$
+$$G[p]=(ker\, (g\mapsto g^p))$$
 
-In this form we can extend the Frobenius and hence this notion of $p$-torsion from abelian groups to fields if we require our field to be of characteristic $p$ such that we have $(a+b)^n=a^n+b^n$.
+In this form we can extend the Frobenius and hence this notion of $p$-torsion from abelian groups to fields if we require our field to be of characteristic $p$ such that we have $(a+b)^p=a^p+b^p$.
 
 In fact the definition of $p$-torsion via the Frobenius has the advantage that we get additionally an adjoint notion to $p$-torsion which is sometimes called *Verschiebung*; this is explained at [[nLab:Demazure, lectures on p-divisible groups, I.9, the Frobenius morphism
 ]].
