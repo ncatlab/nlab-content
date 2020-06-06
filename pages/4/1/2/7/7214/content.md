@@ -135,6 +135,7 @@ The category of $\Delta$-generated spaces carries the [[mathematical structure|s
 
 * [[Euclidean-generated ∞-groupoid]]
 
+* [[compactly-generated topological space]]
 
 ## References
 
