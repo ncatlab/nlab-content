@@ -94,4 +94,6 @@ $\theta\in[0,2\pi]$ as the classical Euler angle bounds suggests.
 
 * S. Bertini, S. L. Cacciatori, B. L. Cerchiai, _On the Euler angles for $SU(N)$_, J. Math. Phys. __47__:4, id.043510 (2006) [doi](https://doi.org/10.1063/1.2190898) [arxiv:math-ph/0510075](https://arxiv.org/math/abs/0510075)
 
+* S. L. Cacciatori, B. L. Cerchiai, _Euler angles for $G_2$_, J. Math. Phys. 46, 083512 (2005) [doi](https://doi.org/10.1063/1.1993549)
+
 [[!redirects Euler angles]]
