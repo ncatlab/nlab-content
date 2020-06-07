@@ -740,6 +740,14 @@ Discussion in the context of [[modal type theory|modal]] [[homotopy type theory]
 [[!redirects n-truncated objects in an (∞,1)-category]]
 
 
+[[!redirects 1-truncated object of an (infinity,1)-category]]
+[[!redirects 1-truncated object of an (∞,1)-category]]
+[[!redirects 1-truncated object in an (infinity,1)-category]]
+[[!redirects 1-truncated object in an (∞,1)-category]]
+[[!redirects 1-truncated objects in an (infinity,1)-category]]
+[[!redirects 1-truncated objects in an (∞,1)-category]]
+
+
 [[!redirects truncated object of an (infinity,1)-category]]
 [[!redirects truncated object of an (∞,1)-category]]
 [[!redirects truncated object in an (infinity,1)-category]]
