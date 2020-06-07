@@ -29,7 +29,7 @@ between the [[categories]] of [[Top|TopologicalSpaces]] and of [[DiffeologicalSp
 
 Moreover:
 
-1. the [[fixed point of an adjunction|fixed points of this adjunction]] $X \in$[[Top|TopologicalSpaces]] (those for which the [[counit of an adjunction|counit]] is an [[isomorphism]], hence here: a [[homeomorphism]]) are precisely the [[Delta-generated topological spaces]] ([i.e.](Delta-generated+topological+space#AsEuclideanGeneratedSpaces) [[Euclidean-generated spaces]]):
+1. the [[fixed point of an adjunction|fixed points of this adjunction]] $X \in$[[Top|TopologicalSpaces]] (those for which the [[counit of an adjunction|counit]] is an [[isomorphism]], hence here: a [[homeomorphism]]) are precisely the [[Delta-generated topological spaces]] ([i.e.](Delta-generated+topological+space#AsDTopologicalSpaces) [[D-topological spaces]]):
 
    $$
      X \;\,\text{is}\;\Delta\text{-generated}
@@ -41,7 +41,7 @@ Moreover:
      X
    $$
 
-1. this is an [[idempotent adjunction]], which exhibits $\Delta$-generated/[[Euclidean-generated spaces]] as a [[reflective subcategory]] inside [[diffeological spaces]] and a [[coreflective subcategory]] inside all [[topological spaces]]:
+1. this is an [[idempotent adjunction]], which exhibits $\Delta$-generated/[[D-topological spaces]] as a [[reflective subcategory]] inside [[diffeological spaces]] and a [[coreflective subcategory]] inside all [[topological spaces]]:
 
 \[
   \label{DeltaGeneratedSpacesInIdempotentAdjunction}
@@ -57,7 +57,7 @@ Moreover:
       }{\hookleftarrow}
     }
     {\phantom{AA}\bot\phantom{AA}}
-  EuclideanGeneratedSpaces
+  DTopologicalSpaces
   \underoverset
     {
       \underset{
@@ -104,7 +104,7 @@ $$
 
 given simply as the [[identity function|identity]] on the underlying [[functions]] of underlying sets.  This makes it immediate that this hom-isomorphism is [[natural bijection|natural]] in $X$ and $Y$ and this establishes the [[adjunction]]. 
 
-Next, to see that the [[Euclidean-generated topological spaces]] are the [[fixed point of an adjunction|fixed points]] of this adjunction, 
+Next, to see that the [[D-topological spaces]] are the [[fixed point of an adjunction|fixed points]] of this adjunction, 
 we apply the above [[natural bijection]] on hom-sets to the case
 
 $$
@@ -127,7 +127,7 @@ $$
 
 is given by the [[identity function]] on the underlying sets $(\epsilon_X)_s = id_{(X_s)}$.
 
-Therefore $\eta_X$ is an [[isomorphism]], namely a [[homeomorphism]], precisely if the open subsets of $X_s$ with respect to the topology on $X$ are precisely those with respect to the topology on $Dtplg(Cdfflg(X))$, which means equivalently that the open subsets of $X$ coincide with those whose pre-images under all continuous functions $\phi \colon \mathbb{R}^n \to X$ are open. This means equivalently that $X$ is a Euclidean-generated space.
+Therefore $\eta_X$ is an [[isomorphism]], namely a [[homeomorphism]], precisely if the open subsets of $X_s$ with respect to the topology on $X$ are precisely those with respect to the topology on $Dtplg(Cdfflg(X))$, which means equivalently that the open subsets of $X$ coincide with those whose pre-images under all continuous functions $\phi \colon \mathbb{R}^n \to X$ are open. This means equivalently that $X$ is a D-topological space.
 
 Finally, to see that we have an [[idempotent adjunction]], we check that the [[comonad]]
 
@@ -145,7 +145,7 @@ $$
   Dtplg \circ Cdfflg \circ Dtplg \circ Cdfflg
 $$
 
-is a [[natural isomorphism]]. But, as before for the adjunction counit $\epsilon$, we have that also the [[adjunction unit]] $\eta$ is the [[identity function]] on the underlying sets. Therefore, this being a natural isomorphism is equivalent to the operation of passing to the Euclidean-generated refinement of the topologogy of a topological space being an idempotent operation, which is clearly the case.
+is a [[natural isomorphism]]. But, as before for the adjunction counit $\epsilon$, we have that also the [[adjunction unit]] $\eta$ is the [[identity function]] on the underlying sets. Therefore, this being a natural isomorphism is equivalent to the operation of passing to the D-topological refinement of the topology of a topological space being an idempotent operation, which is clearly the case.
 
 =--
 
