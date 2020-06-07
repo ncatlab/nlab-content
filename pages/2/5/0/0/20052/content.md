@@ -227,6 +227,7 @@ The more general question of whether one can extend a finite continuous valuatio
 ## See also
 
 * [[monads of probability, measures, and valuations]]
+* [[correspondence between measure and valuation theory]]
 * [[monad]], [[Giry monad]], [[monads in computer science]]
 * [[extended probabilistic powerdomain]], [[probabilistic powerdomain]], [[valuation monad on locales]]
 * [[measure]], [[τ-additive measure]]
