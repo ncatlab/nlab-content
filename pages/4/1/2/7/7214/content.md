@@ -86,15 +86,16 @@ a [[convenient category of topological spaces]] in that:
 
 * it is [[complete category|complete]] and [[cocomplete category]] ([SYH 10, Prop. 3.4](#SYH10)),
 
+* it is [[locally presentable category|locally presentable]] ([FR 08, Cor. 3.7](#FajstrupRosicky08))
+
 * it is [[cartesian closed]] ([SYH 10, Cor. 4.6](#SYH10)):
 
-  its [[internal homs]] $[X,Y]$ are given by the [[D-topology]] of the [[internal homs]] in [[diffeological spaces]] between [[continuous diffeologies]] ([SYH 10, Prop. 4.7](#SYH10)):
+  its [[mapping space]] [[internal homs]] $Maps(X,Y)$ are given by the [[D-topology]] of the [[internal homs]] in [[diffeological spaces]] (i.e. [[closed monoidal structure on presheaves|in presheaves]]) between [[continuous diffeologies]] ([SYH 10, Prop. 4.7](#SYH10)):
 
   $$
-    [X,Y] \;\coloneqq\; Dtplg\big( [ Cdfflg(X), Cdfflg(Y) ] \big) 
+    Maps(X,Y) \;\coloneqq\; Dtplg\big( [ Cdfflg(X), Cdfflg(Y) ] \big) 
   $$
 
-* it is [[locally presentable category|locally presentable]] ([FR 08, Cor. 3.7](#FajstrupRosicky08))
 
 
 =--
