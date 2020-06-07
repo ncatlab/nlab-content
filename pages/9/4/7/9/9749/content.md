@@ -21,7 +21,8 @@ The _Giry monad_ ([Giry 80](#Giry80)) is the [[monad]] on a [[category]] of suit
 
 The Giry monad was originally developed by Lawvere in 1962, prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
 
-Lawvere's construction was written up as an appendix to a proposal to the International Atomic Energy Commission. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
+Lawvere's construction was written up as an appendix to a proposal to the Arms Control and Disarmament Agency, 
+set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
 
 [[Gian-Carlo Rota]] had (somehow) obtained a copy of the appendix, which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012.  ([Lawvere 62](#Lawvere62))  
 
@@ -135,12 +136,12 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 
 ## References
 
-*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+Lawvere's original manuscript, written as an appendix to a proposal to the Arms Control and Disarmament Agency, is available here:
+
+* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
 
-' The key idea ... is that
-random maps between spaces are just maps in a category of convex spaces
-between "simplices" ' (W. Lawvere, catlist [remark 25 oct 1998](http://www.mta.ca/~cat-dist/catlist/1999/cat-probability)).
+Note that the statement of origin on p.1 is wrong.
 
 The monad made its way into print then with
 
