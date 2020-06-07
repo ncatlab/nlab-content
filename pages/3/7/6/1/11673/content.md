@@ -1,5 +1,5 @@
 
 
-* [webpage](http://ls10-www.cs.uni-dortmund.de/index.php?id=33)
+* [webpage](http://www.cs.tu-dortmund.de/nps/de/Home/Personen/D/Doberkat__Ernst-Erich.html)
 
 category: people
