@@ -439,6 +439,10 @@ Discussion of the relation to and motivation from the [[philosophy of mathematic
 
 *  [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
 
+### Further resources and links
+
+There are several networks of category theorists organised, initially, at a national level and aiming to join forces to organise conferences, online seminars, etc.  See here the list of _[[networks of category theorists]]_.
+
 
 [[!redirects abstract nonsense]]
 [[!redirects general abstract nonsense]]
