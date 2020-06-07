@@ -43,8 +43,8 @@ There is a generalization, the noncommutative measure theory, which is more or l
 
 ## References
 
-* Ernst-Erich Doberkat, _Measures and all that --- 
-A Tutorial_, [arxiv/1409.2662](http://arxiv.org/abs/1409.2662)
+* [[Ernst-Erich Doberkat]], _Measures and all that --- 
+A Tutorial_ ([arxiv/1409.2662](http://arxiv.org/abs/1409.2662)_
 
 *  [[Alain Connes]] (1995); _[[Noncommutative Geometry]]_.
    {#Connes1995}
