@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _Jordan algebra_ is an algebra (in the sense of: is a [[monoid]]) which is not [[associativity|associative]] but is [[commutative algebra|commutative]], subject to some further conditions which are modeled after the archetypical example: for $(A, \cdot)$ any [[associative algebra]], equipping it with the _symmetrized product_
+A _Jordan algebra_ is an algebra that may not be [[associativity|associative]], but is [[commutative algebra|commutative]], subject to some further conditions which are modeled after the archetypical example: for $(A, \cdot)$ any [[associative algebra]], equipping it with the _symmetrized product_
 
 $$
   x \circ y \coloneqq \frac{1}{2}(x y + y x) 
@@ -34,10 +34,14 @@ More recently, the [[Bohr topos]] associated to a noncommutative [[algebra of ob
 
 ## Definition
 
-A **Jordan algebra** is a [[commutative algebra|commutative]] [[nonassociative algebra]] $J$ satisfying the __Jordan identity__ $(x y) (x x) = x (y (x x))$ for all $x,y$ in $J$.  It follows that $J$ is [[power-associative algebra|power-associative]], and the Jordan identity generalizes to
-$$ (x^m y) x^n = x^m (y x^n) $$
-for [[natural numbers]] $m, n \geq 1$ (and, trivially, for $m, n \geq 0$ if there is an [[identity element]]).
+A **Jordan algebra** is a [[commutative algebra|commutative]] [[nonassociative algebra]] $J$ satisfying the __Jordan identity__ $(x y) (x x) = x (y (x x))$ for all $x,y$ in $J$.  
 
+It follows (via a nontrivial argument) that $J$ is [[power-associative algebra|power-associative]], and the Jordan identity generalizes to
+$$ (x^m y) x^n = x^m (y x^n) $$
+for [[natural numbers]] $m, n \geq 1$ (and, trivially, for $m, n \geq 0$ if there is an [[identity element]]).  
+
+Thus, we may equivalently define a Jordan algebra to be a commutative power-associative algebra $J$ such that for any $x \in J$, the operations of multiplication by powers $x^n$ ($n \ge 1$) all commute with each other.
+ 
 If $k$ is a [[field]] whose [[characteristic]] is not $2$ (or is any [[commutative ring]] in which $2$ is invertible), then to any [[associative algebra|associative]] $k$-algebra $A$ with product $\cdot$, one associates a Jordan $k$-algebra with the same underlying vector space and whose Jordan product $\circ$ is given by
 
 $$x\circ y \stackrel{def}{=} \frac{x\cdot y + y \cdot x}{2}.$$ 
