@@ -9,7 +9,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -235,4 +235,4 @@ Other references cited above:
 
 * {#DuggerIsaksen01} [[Dan Dugger]], [[Daniel Isaksen]], _Hypercovers in topology_ ([arxiv:math/0111287](https://arxiv.org/abs/math/0111287))
 
-
+[[!redirects Seifert-van Kampen theorem]]
