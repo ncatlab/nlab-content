@@ -24,7 +24,7 @@
 
 ## Idea
 
-The _Dwyer-Wilkerson space_ $G_3$ ([Dwyer-Wilkerson 93](#DwyerWilkerson93)) is a [[p-adic completion|2-complete]] [[H-space]], in fact a finite [[loop space]]/[[∞-group]], such that the mod 2 [[cohomology ring]] of its [[classifying space]]/[[delooping]] is the mod 2 [[Dickson invariants]] of rank 4. As such, it is the fifth and last space (see [below](#Cohomology)) in a series of [[∞-groups]] that starts with 4 [[compact Lie groups]], namely with the [automorphism groups of real normed division algebras](normed+division+algebra#Automorphisms):
+The _Dwyer-Wilkerson space_ $G_3$ ([Dwyer-Wilkerson 93](#DwyerWilkerson93)) (also denoted $D I(4)$) is a [[p-adic completion|2-complete]] [[H-space]], in fact a finite [[loop space]]/[[∞-group]], such that the mod 2 [[cohomology ring]] of its [[classifying space]]/[[delooping]] is the mod 2 [[Dickson invariants]] of rank 4. As such, it is the fifth and last space (see [below](#Cohomology)) in a series of [[∞-groups]] that starts with 4 [[compact Lie groups]], namely with the [automorphism groups of real normed division algebras](normed+division+algebra#Automorphisms):
 
 | $n=$ | 0 | 1 | 2 | 3 | 4 | 
 |--|--|--|--|--|--|
