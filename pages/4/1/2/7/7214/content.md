@@ -19,7 +19,7 @@
 ###### Definition
 **($\Delta$-Generated spaces)**
 
-A **$\Delta$-generated space** ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[final structure|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
+A **$\Delta$-generated space** ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[weak topology|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
 
 A [[morphism]] between $\Delta$-generated spaces is just a [[continuous function]], hence the [[category]] of $\Delta$-generated spaces is the [[full subcategory]] on these spaces inside all [[Top|TopologicalSpaces]], 
 
