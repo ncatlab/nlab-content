@@ -17,4 +17,4 @@ On [[gravitation]], [[gauge theory]] and [[differential geometry]]:
 * [[Tohru Eguchi]], Peter Gilkey, Andrew Hanson, _Gravitation, gauge theories and differential geometry_, Physics Reports __66__:6 (1980) 213&#8212;393 ([pdf](http://empg.maths.ed.ac.uk/Activities/GT/EGH.pdf))
 
 
-category: peope
+category: people
