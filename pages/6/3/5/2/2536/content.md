@@ -387,15 +387,20 @@ hyperkomplexer Algebren, _Nachr. Ges. Wiss. G&#246;ttingen
 * {#Zelmanov83} E. I. Zelmanov, On prime Jordan algebras. II,
 _Sibirsk Mat. J._ **24** (1983), 89-104.
  
+Textbooks:
 
-Textbook account:
+*  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_, Pitman, 1984.  ([web](http://www.math.ntnu.no/~hanche/joa/))
 
-* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+* Nathan Jacobson, _Structure and Representations of Jordan Algebras_, American Mathematical Society, 1968.
 
-Introductions and surveys include
+* Kevin McCrimmon, _A Taste of Jordan Algebras_, Springer, 2006.  ([pdf](http://math.nsc.ru/LBRT/a1/files/mccrimmon.pdf))
 
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], Chapter 5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000.
 
-*  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_. ([web](http://www.math.ntnu.no/~hanche/joa/))
+* Harald Upmeier, _Jordan Algebras in Analysis, Operator Theory, and 
+Quantum Mechanics_, AMS, 1987.
+
+Introductions and surveys include:
 
 * Kevin McCrimmon, _Jordan algebras and their applications_,
 _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams.org/bull/1978-84-04/S0002-990\
@@ -404,7 +409,7 @@ _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams
 * {#Koecher} Max Koecher, _The Minnesota Notes on Jordan Algebras and 
 Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 1999. doi:[10.1007/BFb0096285](http://dx.doi.org/10.1007/BFb0096285) (paywalled)
 
-* [[Paul Townsend]], _The Jordan formulation of Quantum Mechanics: a review_ ([arXiv:1612.09228](https://arxiv.org/abs/1612.09228))
+* [[Paul Townsend]], _The Jordan formulation of quantum mechanics: a review_ ([arXiv:1612.09228](https://arxiv.org/abs/1612.09228))
 
 Remarks on Jordan algebras as [[algebras of observables]] in quantum physics are for instance in 
 
@@ -412,8 +417,7 @@ Remarks on Jordan algebras as [[algebras of observables]] in quantum physics are
 
 Discussion of [[spectral triples]] over Jordan algebras in the [[Connes-Lott model]]:
 
-* [[Latham Boyle]], [[Shane Farnsworth]],
-_The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+* [[Latham Boyle]], [[Shane Farnsworth]], _The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
 
 * [[Shane Farnsworth]], _The geometry of physical observables_ ([arXiv:2003.01708](https://arxiv.org/abs/2003.01708))
  
