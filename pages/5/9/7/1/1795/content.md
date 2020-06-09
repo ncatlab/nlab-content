@@ -21,7 +21,7 @@
 ## Idea
 
 The notion of _essential image_ is supposed to be an adaptation of the notion of [[image]] from a [[category theory|1-categorical]] to the 
-[[2-category|2-categorical]] context [[Cat]], i.e. to the image of [[functor]]s. But some care has to be exercised.
+[[2-category|2-categorical]] context [[Cat]], i.e. to the image of [[functors]]. But some care has to be exercised.
 
 For another definition of image of a functor, see [(2,1)-image](http://ncatlab.org/nlab/show/image#InfImageExamples).
 
