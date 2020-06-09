@@ -46,7 +46,7 @@ For any accessible functor $F$, there are arbitrarily large cardinals $\kappa$ s
 
 \begin{theorem}
 Assuming the existence of a [[proper class]] of [[strongly compact cardinals]],
-the following are equivalent for the image $K$ of an accessible functor:
+the following are equivalent for the [[essential image]] $K$ of an accessible functor:
 
 * $K$ is [[complete]];
 * $K$ is [[cocomplete]];
