@@ -52,6 +52,7 @@ Note that the map $delete: X\to 1$ is uniquely determined by the fact that 1 is 
 - The category $\mathsf{Stoch}$ of [[measurable spaces]] and [[Markov kernels]]
 - For any [[cartesian monoidal category]] $\mathsf{C}$ equipped with a [[monoidal monad]] $T$, the [[Kleisli category]] $Kl(T)$ is a Markov category.
 
+See also the [[Markov category#detailed_list|detailed list below]].
 
 ## Deterministic morphisms
 
@@ -66,6 +67,48 @@ One can take this as a _definition_ of randomness: it's a process that may give 
 A _deterministic_ morphism is instead one that does _not_ exhibit this behavior, i.e. that commutes with the copy map.
 
 (...)
+
+## Further structures and properties
+
+(...)
+
+### Conditionals
+
+### Kolmogorov products
+
+### Positivity
+
+(to be expanded)
+
+
+## Representable Markov categories
+
+For now, see [[probability monad]].
+
+
+## Detailed list
+
+(...to be expanded...)
+
+<table>
+ <tr>
+  <th markdown="1">Category</th>
+  <th markdown="1">[[probability monad|Probability monad]]</th>
+  <th markdown="1">[[Markov category#conditionals|Conditionals]]</th>
+  <th markdown="1">[[Markov category#positivity|Positivity]]</th>
+  <th markdown="1">[[Markov category#kolmogorov_products|Kolmogorov products]]</th>
+  <th markdown="1">References</th>
+ </tr>
+ <tr>
+  <th markdown="1">[[Stoch]]</th>
+  <td markdown="1">[[Giry monad]] on [[Meas]]</td>
+  <td markdown="1">(...)</td>
+  <td markdown="1">(...)</td>
+  <td markdown="1">(...)</td>
+  <td markdown="1">(...)</td>
+ </tr>
+</table>
+
 
 ## See also
 
