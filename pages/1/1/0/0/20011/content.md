@@ -88,12 +88,20 @@ $\theta\in[0,2\pi]$ as the classical Euler angle bounds suggests.
 
 * WolframMath, _[Euler angles](http://mathworld.wolfram.com/EulerAngles.html)_
 
+* [[Lev Landau]], _Mechanics_
+
+* _Understanding Euler angles_ (robotics, engineerings and aviation conventions) [web](http://www.chrobotics.com/library/understanding-euler-angles)
+
 * N. Ja. Vilenkin, _Special functions and representation theory of groups $SO(n)$_
 
 * L. C. Biedenharn, J. D. Louck, _The angular momentum in quantum physics_, Enc. Math Appl. __8__, Addison-Wesley 1981
 
+* D. Brezov, C. Mladenova, I. Mladenov, _Vector decompositions of rotations_, J.Geom. Symmetry Phys. __28__ (2012) 67-103; _Vector parameters in classical hyperbolic geometry_, Proc. 15th Int. Conf. on Geometry, Integrability and Quantization, Ivaïlo M. Mladenov, A. Ludu, A. Yoshioka, eds. (Sofia: Avangard Prima, 2014) 79-105 [euclid](https://projecteuclid.org/euclid.pgiq/1436815703)
+
 * S. Bertini, S. L. Cacciatori, B. L. Cerchiai, _On the Euler angles for $SU(N)$_, J. Math. Phys. __47__:4, id.043510 (2006) [doi](https://doi.org/10.1063/1.2190898) [arxiv:math-ph/0510075](https://arxiv.org/math/abs/0510075)
 
 * S. L. Cacciatori, B. L. Cerchiai, _Euler angles for $G_2$_, J. Math. Phys. 46, 083512 (2005) [doi](https://doi.org/10.1063/1.1993549)
+
+*  S. L. Cacciatori, F. Dalla Piazza, A. Scotti, _Compact Lie groups: Euler constructions and generalized Dyson conjecture_, Trans. Amer. Math. Soc. 369 (2017), 4709-4724 [doi](https://doi.org/10.1090/tran/6795)
 
 [[!redirects Euler angles]]
