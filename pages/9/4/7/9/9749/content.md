@@ -19,11 +19,11 @@ The _Giry monad_ ([Giry 80](#Giry80)) is the [[monad]] on a [[category]] of suit
 
 ## History
 
-The Giry monad was originally developed by [Lawvere 62](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
+The Giry monad was originally developed [by Lawvere in 1962](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
 
-Lawvere's construction was written up as an appendix to a proposal to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union[^FritzLawvere]. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
+Lawvere's construction was written up as an [appendix to a proposal](#Lawvere62) to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union[^FritzLawvere]. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
 
-[[Gian-Carlo Rota]] had (somehow) obtained a copy of the appendix, which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012.  ([Lawvere 62](#Lawvere62))  
+[[Gian-Carlo Rota]] had (somehow) obtained a copy of [the appendix](#Lawvere62), which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012. 
 
 ## Definition
 
@@ -212,7 +212,7 @@ To do:
 
 * Bring in material from [Progic posts](http://golem.ph.utexas.edu/category/2007/09/progic.html)
 
-[^FritzLawvere]: personal communication with Bill Lawvere by [[Tobias Fritz]], [mentioned in the nForum June 8, 2020](https://nforum.ncatlab.org/discussion/5482/giry-monad/#Item_31)
+[^FritzLawvere]: personal communication between Bill Lawvere and [[Tobias Fritz]], [mentioned in the nForum June 8, 2020](https://nforum.ncatlab.org/discussion/5482/giry-monad/#Item_32).
 
 
 [[!redirects Giry monad]]
