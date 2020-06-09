@@ -165,6 +165,8 @@ $$
 
 is a [[natural isomorphism]]. But, as before for the adjunction counit $\epsilon$, we have that also the [[adjunction unit]] $\eta$ is the [[identity function]] on the underlying sets, so that this being a natural isomorphism is equivalent to stating that the operation of passing to the Euclidean-generated refinement of the topologogy of a topological space is an idempotent operation, which is clearly the case.
 
+[^test]:Test
+
 
 
 
