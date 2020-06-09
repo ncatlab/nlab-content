@@ -19,10 +19,9 @@ The _Giry monad_ ([Giry 80](#Giry80)) is the [[monad]] on a [[category]] of suit
 
 ## History
 
-The Giry monad was originally developed by Lawvere in 1962, prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
+The Giry monad was originally developed by [Lawvere 62](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
 
-Lawvere's construction was written up as an appendix to a proposal to the Arms Control and Disarmament Agency, 
-set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union[^FritzLawvere]. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
+Lawvere's construction was written up as an appendix to a proposal to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union[^FritzLawvere]. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
 
 [[Gian-Carlo Rota]] had (somehow) obtained a copy of the appendix, which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012.  ([Lawvere 62](#Lawvere62))  
 
@@ -181,13 +180,14 @@ Apart from these papers, there are similar developments in
 (blog comment) Cencov's "category of statistical decisions" coincides with Giry's (Lawvere's) category.  I ($\leftarrow$ somebody) have the sense that Cencov discovered this category independently of Lawvere although years later.
 
 * category cafe related to Giry monad: [category theoretic probability](http://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability.html), [coalgebraic modal logic](http://golem.ph.utexas.edu/category/2009/09/coalgebraic_modal_logic.html) 
-* Abramsky et al. _Nuclear and trace ideals in tensored &#8727;-Categories_,[arxiv/math/9805102](http://arxiv.org/abs/math/9805102), on the representation of probability theory through monads, which looks to work Giry's monad into a context even more closely resembling the category of relations. 
+
+* Samson Abramsky et al. _Nuclear and trace ideals in tensored &#8727;-Categories_,[arxiv/math/9805102](http://arxiv.org/abs/math/9805102), on the representation of probability theory through monads, which looks to work Giry's monad into a context even more closely resembling the category of relations. 
 
 There is also relation with work of Jacobs et al. 
 
 * Robert Furber, [[Bart Jacobs]], _Towards a categorical account of conditional probability_, [arxiv/1306.0831](http://arxiv.org/abs/1306.0831)
 
-* B. Jacobs, _Probabilities, distribution monads and convex categories_, Theoretical
+* [[Bart Jacobs]], _Probabilities, distribution monads and convex categories_, Theoretical
 Computer Science 412(28) (2011) pp.3323&#8211;3336. ([preprint](http://www.cs.ru.nl/B.Jacobs/PAPERS/triangle.pdf))
 
 J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to [[Bayesian reasoning]] and inference (both articles contain further references to the categorical approach to probability theory):
