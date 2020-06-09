@@ -137,7 +137,7 @@ $$
  \array{
    C &&\stackrel{F}{\to}&& D
    \\
-   \downarrow^p &\Downarrow& \nearrow_{L F}
+   \downarrow^p &\Uparrow& \nearrow_{L F}
    \\
    Ho_C
  }
