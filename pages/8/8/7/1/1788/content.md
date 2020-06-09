@@ -1,6 +1,6 @@
 
 
-I am wondering about the following:
+I am wondering about the following [^test]:
 
 Let $Singularities$ denote the [[global orbit category]] of finite groups, i.e. simply the full sub-$2$-category of all $\infty$-groupoids on those of the form $\ast \!\sslash\! G$ for $G$ a finite group.
 
