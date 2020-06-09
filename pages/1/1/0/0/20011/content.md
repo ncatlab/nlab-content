@@ -75,7 +75,7 @@ e^{\frac{i\psi}{2}}&0\\0&e^{-\frac{i\psi}{2}}
 $$
 
 The standard homomorphism $SU(2)\to SO(3)$ sends this Euler angles to classical Euler angles for $SO(3)$; the map is surjective if we restrict to values
-$\theta\in[0,2\pi]$ as the classical Euler angle bounds suggests. 
+$\theta\in[0,2\pi]$ as the classical Euler angle bounds suggest. 
 
 
 ## Related concepts
