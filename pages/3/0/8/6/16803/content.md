@@ -94,7 +94,7 @@ $M$ is a [[graphic category|graphic monoid]] i.e. for all $x,y\in M$ we have $x 
 The poset of left ideals in $M$ is:
 
 $$
-\emptyset\subset \{ 0,1 \} \subset \{ 0,1,l,q,r \} \subset \{ 0,1,l,q,r,L,R \} \subset \{ 0,1,l,r,L,R,id \}
+\emptyset\subset \{ 0,1 \} \subset \{ 0,1,l,q,r \} \subset \{ 0,1,l,q,r,L,R \} \subset \{ 0,1,l,q,r,L,R,id \}
 $$
 
 They parametrize the essential localizations of the associated presheaf topos $Set^{M^{op}}$. The dimension theory that comes with this is detailed in [Kelly-Lawvere (1989)](#Kl89) and [Lawvere (1989)](#Law89b). In the present case, the result is that $Set^{M^{op}}$ is three-dimensional.
