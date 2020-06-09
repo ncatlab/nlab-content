@@ -36,6 +36,7 @@ A recent version is in
 * [[Itaï Ben Yaacov]], Alexander Berenstein, Ward C. Henson, Alexander Usvyatsov,
 _Model Theory for metric structures_, in Model Theory with Applications to Algebra and Analysis, Volume 2, Cambridge University Press, 2008, [pdf](http://matematicas.uniandes.edu.co/~aberenst/mtfms.pdf)
 * Alexander Berenstein, Andres Villaveces, _Hilbert spaces with random predicates_, [pdf](http://matematicas.uniandes.edu.co/~aberenst/amalg10.pdf) 
+* [[Jerome Keisler]], _Model Theory for Real-valued Structures_, ([arXiv:2005.11851](https://arxiv.org/abs/2005.11851))
 
 A discussion of [[conceptual completeness]] in the setting of continuous logic is found in
 
