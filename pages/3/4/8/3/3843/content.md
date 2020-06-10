@@ -42,7 +42,7 @@ In particular, for any accessible functor $F$ there are arbitrarily large cardin
 
 For any accessible functor $F$, there are arbitrarily large cardinals $\kappa$ such that $F$ is $\kappa$-accessible and preserves $\kappa$-[[presentable objects]].  Indeed, this can be achieved simultaneously for any set of accessible functors.  See [Adamek-Rosicky, Theorem 2.19](#AdamekRosicky).
 
-### Images of accessible functors
+### Essential images of accessible functors
 
 \begin{theorem}
 Assuming the existence of a [[proper class]] of [[strongly compact cardinals]],
@@ -54,6 +54,13 @@ the following are equivalent for the [[essential image]] $K$ of an accessible fu
 
 \end{theorem}
 
+\begin{theorem}
+Assuming the existence of a [[proper class]] of [[strongly compact cardinals]],
+the closure of the image of an accessible functor under passage to subobjects is an accessible subcategory.
+\end{theorem}
+
+The existence of a [[proper class]] of [[strongly compact cardinals]]
+can be weakened, see the paper of Brooke-Taylor and Rosický.
 
 ## Related concepts
 
@@ -74,9 +81,13 @@ The theory of accessible 1-categories is described in
 * [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  {#AdamekRosicky}
 
-Images of accessible functors are considered in
+Essential images of accessible functors are considered in
 
 * [[Jiří Rosický]], _More on directed colimits of models_.
+
+An improvement of Rosický's result is in
+
+* [[Andrew Brooke-Taylor]], [[Jiří Rosický]], _Accessible images revisited_.  [arXiv](https://arxiv.org/abs/1506.01986).
 
 The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
 
