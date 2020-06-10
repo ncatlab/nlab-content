@@ -180,7 +180,7 @@ In the end Kant arrives at the result that "__no a _priori___ cognition is possi
 
 In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the corresponding chapter of the second edition ("B deduction"). Concepts are created in three steps:
 
-_A.I.II.I.I.II.II.I On the synthesis of __apprehension in the intuition.__ ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
+_A.I.II.I.I.II.II.I On the synthesis of_ __apprehension in the intuition.__ ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
 All representations belong "as modifications of the mind ... to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time" ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)).
 
 > Every intuition [Anschauung] contains a manifold in itself ... ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) 
