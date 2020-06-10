@@ -153,6 +153,6 @@ Lecture Notes in Mathematics __1479__, 1991, pp 57-86
 
 * [[Theo Johnson-Freyd]], _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
 
-* [[Jonathan Beardsley]], [[Maximilien Péroux]], _Koszul Duality in Higher Topoi_, ([arXiv:1909.11724](https://arxiv.org/abs/1909.11724))
+* [[Jonathan Beardsley]], [[Maximilien Péroux]], _Koszul Duality in Higher Topoi_ ([arXiv:1909.11724](https://arxiv.org/abs/1909.11724))
 
 [[!redirects Koszul dual]]
