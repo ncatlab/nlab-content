@@ -1,172 +1,143 @@
 
++-- {: .num_prop #HodgeStarFollowedByHodgeStar}  
+###### Proposition
+**([[homotopy colimit]] over a [[representable functor]] is [[n-truncated object in an (∞,1)-category|contractible]])**
 
-I am wondering about the following [^test]:
-
-Let $Singularities$ denote the [[global orbit category]] of finite groups, i.e. simply the full sub-$2$-category of all $\infty$-groupoids on those of the form $\ast \!\sslash\! G$ for $G$ a finite group.
-
-Regarded as an $\infty$-site with trivial coverage, this is a cohesive $\infty$-site. Therefore, given any $\infty$-topos $\mathbf{H}_{\subset}$ we obtain a new $\infty$-topos
+Let $\mathcal{C}$ be a [[small (∞,1)-category]] and consider an [[∞Groupoids|∞-groupoid]]-valued [[(∞,1)-functor]] $F \colon \mathcal{C} \to Groupoids_\infty$ which is representable, i.e. in the image of the [[(∞,1)-Yoneda embedding]] $F \simeq y C$: 
 
 $$
-  \mathbf{H}
-  \;\coloneqq\;
-  PSh_\infty(Singularities, \mathbf{H}_{\subset})
+  \array{
+    \mathcal{C}
+    &
+    \overset{
+      \phantom{AA}
+      y
+      \phantom{AA}
+    }{\longrightarrow}
+    &
+    Func
+    \big(
+      \mathcal{C}^{op},
+      Groupoids_\infty
+    \big)
+    \\
+    C &\mapsto&
+    y C
+    \mathrlap{
+      \coloneqq
+       \mathcal{C}(-,C)
+    }
+  }
 $$
 
-which has the following properties:
+Then the [[(∞,1)-colimit]] over this [[(∞,1)-functor]] is contractible, i.e. is the point, the [[terminal object in an (∞,1)-category|terminal object]] in [[∞Groupoids]]:
 
-1. for each finite group $G$ there is the usual $\ast \!\sslash\! G \in \mathbf{H}$, but in addition there is an object to be denoted $\prec^G \in \mathbf{H}$ -- to be thought of as the the "generic $G$-orbi-singularity" 
+$$
+  \underset{
+    \underset{\mathcal{C}}{\longrightarrow}
+  }{\lim}
+   (y C)
+   \;\simeq\;
+   \ast
+$$
 
-   (namely that arising as the image of the corresponding object in $Singularities$ under the Yoneda-embedding and passing along the inverse terminal geometric morphism of $\mathbf{H}_{\subset}$ )
+=--
 
-1. it carries an adjoint triple of modalities 
++-- {: .proof}
+###### Proof
 
-   $$\lt \dashv \subset \dashv \prec$$
+The terminal $\infty$-groupoid $\ast$ is characterized by the fact that for each $S \in Groupoids_\infty$ we have $Groupoids_\infty(\ast, S) \simeq S$.
+Therefore it is suffucicient to show that $\underset{\longrightarrow}{\lim}\big(y C\big)$ has the same property:
 
-   to be read
 
-   $$singular \dashv smooth \dashv orbisingular$$
+$$
+  \begin{aligned}
+  Groupoids_\infty
+  \left(
+    \underset{\longrightarrow}{\lim}
+    \big(
+      y C
+    \big)
+    ,
+    S
+  \right)
+  & \simeq\;
+  Func(
+    \mathcal{C}^{op}
+    ,\,
+    Groupoids_\infty
+  )
+  \left(
+    y C
+    ,
+    const S
+  \right)
+  \\
+  & \simeq\;
+  (const S)(C)
+  \\
+  & \simeq\;
+  S
+  \end{aligned}
+$$
 
-1. such that (at least when $\mathbf{H}_{\subset}$ is itself cohesive):
+Here the first step is the [[(∞,1)-adjunction]]
 
-   1. $\lt(\prec^G) \simeq \ast$  
+$$
+  Func
+  \big(
+    \mathcal{C}^{op},
+    Groupoids_\infty
+  \big)
+  \underoverset
+    {
+      \underset{const}{\longleftarrow}
+    }
+    {
+      \overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}
+    }
+    {\phantom{AA}\bot\phantom{AA}}
+  \Groupoids_\infty
+$$
 
-      ("the purely singular aspect of an orbi-singularity is a plain quotient of a point, hence a point")
+and the second step is the [[(∞,1)-Yoneda lemma]]
 
-   1. $\subset(\prec^G) \simeq \ast \!\sslash\! G$ 
-
-      ("the purely smooth aspect of an orbi-singularity is a homotopy quotient of a point)
-
-   1. $\prec(\prec^G) \simeq \prec^G$ 
-
-      ("an orbi-singularity is purely orbi-singular")
+=--
 
 \linebreak
 
-I am wondering about the converse: 
+\linebreak
 
-Suppose an $\infty$-topos $\mathbf{H}$ is such that these three conditions hold (the first one without its parenthetical remark). 
+\linebreak
 
-Can we conclude that $\mathbf{H}$ is of the form $PSh_\infty(Singularities, \mathbf{H}_{\subset})$?
+\linebreak
 
-If not, which axioms could be added to make it work?
-
-
-
-$$
-  TopologicalSpaces
-  \underoverset
-    {
-      \underset{
-        Cdfflg
-      }{\longrightarrow}
-    }
-    {
-      \overset{
-         Dtplg
-      }{\longleftarrow}
-    }
-    {\phantom{AA}\bot\phantom{AA}}
-  DiffeologicalSpaces
-$$
-
-$$
-  TopologicalSpaces
-  \underoverset
-    {
-      \underset{
-       Cdfflg
-      }{\longrightarrow}
-    }
-    {
-      \overset{
-      }{\hookleftarrow}
-    }
-    {\phantom{AA}\bot\phantom{AA}}
-  EuclideanGeneratedSpaces
-  \underoverset
-    {
-      \underset{
-      }{\hookrightarrow}
-    }
-    {
-      \overset{
-       Dtplg
-      }{\longleftarrow}
-    }
-    {\phantom{AA}\bot\phantom{AA}}
-  DiffeologicalSpaces
-$$
+\linebreak
 
 
-First, to see we have an [[adjunction]] $Dtplg \dashv Cdfflg$, we check the hom-isomorphism ([here](adjoint+functor#eq:HomIsomorphismForAdjointFunctors))
+\linebreak
 
-Let $X \in DiffeologicalSpaces$ and $Y \in TopologicalSpaces$. Write $(-)_s$ for the underlying sets. Then a morphism ([[continuous function]])
+\linebreak
 
-$$
-  f \;\colon\; Dtplg(X) \longrightarrow Y
-$$
+\linebreak
 
-is a [[function]] $f_s \colon X_s \to Y_s$ of the underlying sets such that for every [[open subset]] $A \subset Y_s$ and every [[smooth function]] of the form $\phi \colon \mathbb{R}^n \to X$ the [[preimage]] $(f_s \circ \phi_s)^{-1}(A) \subset \mathbb{R}^n$ is open. But this means equivalently that for every such $\phi$, $f \circ \phi$ is [[continuous function|continuous]].  This, in turn, means equivalently that the same underlying function $f_s$ constitutes a [[smooth function]] $\widetilde f \;\colon\; X \longrightarrow Cdfflg(Y)$.
+\linebreak
 
-In summary, we thus have a [[bijection]] of [[hom-sets]]
+\linebreak
+
 
 $$
   \array{
-    Hom( Dtplg(X), Y )
-    &\simeq&
-    Hom(X, Cdfflg(Y))
-    \\
-    f_s &\mapsto& (\widetilde f)_s = f_s
+     \mathcal{C}(D,C) && 
+       \overset{
+         (D \overset{f}{\to}C)^\ast
+       }{\longleftarrow}
+     && \mathcal{C}(C,C)
+     \\
+     & \searrow && \swarrow
+     \\
+     &&
+     \{C \overset{id}{\to}C\}
   }
 $$
-
-given simply as the [[identity function|identity]] on the underlying [[functions]] of underlying sets. This establishes the [[adjunction]]. This makes it immediate that this hom-isomorphism is [[natural bijection|natural]] in $X$ and $Y$.
-
-Next, to see that the [[Euclidean-generated topological spaces]] are the [[fixed point of an adjunction|fixed points]] of this adjunction, 
-we apply the above [[natural bijection]] on hom-sets to the case
-
-$$
-  \array{
-    Hom( Dtplg(Cdfflg(Z)), Y )
-    &\simeq&
-    Hom(Cdfflg(Z), Cdfflg(Y))
-    \\
-    (\epsilon_Z)_s &\mapsto& (\mathrm{id})_s
-  }
-$$
-
-to find that the [[counit of the adjunction]]
-
-$$
-  Dtplg(Cdfflg(X))
-  \overset{\epsilon_X}{\longrightarrow}
-  X
-$$
-
-is given by the [[identity function]] on the underlying sets $(\epsilon_X)_s = id_{(X_s)}$.
-
-Therefore $\eta_X$ is an [[isomorphism]], namely a [[homeomorphism]], precisely if the open subsets of $X_s$ with respect to the topology on $X$ are precisely those with respect to the topology on $Dtplg(Cdfflg(X))$, which means equivalently that the open subsets of $X$ coincide with those whose pre-images under all continuous functions $\phi \colon \mathbb{R}^n \to X$ are open. This means equivalently that $X$ is a Euclidean-generated space.
-
-Finally, to see that we have an [[idempotent adjunction]], we check that the [[comonad]]
-
-$$
-  Dtplg \circ Cdfflg \;\colon\; TopologicalSpaces \to TopologicalSpaces
-$$
-
-is an [[idempotent comonad]], hence that
-
-$$
-  Dtplg \circ Cdfflg
-  \overset{
-    Dtplg \cdot \eta \cdot Cdfflg
-  }{\longrightarrow}
-  Dtplg \circ Cdfflg \circ Dtplg \circ Cdfflg
-$$
-
-is a [[natural isomorphism]]. But, as before for the adjunction counit $\epsilon$, we have that also the [[adjunction unit]] $\eta$ is the [[identity function]] on the underlying sets, so that this being a natural isomorphism is equivalent to stating that the operation of passing to the Euclidean-generated refinement of the topologogy of a topological space is an idempotent operation, which is clearly the case.
-
-[^test]:Test
-
-
-
 
