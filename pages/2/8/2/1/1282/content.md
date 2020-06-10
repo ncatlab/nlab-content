@@ -443,10 +443,144 @@ W
 ## Limits and colimits in a preordered set
 (..)
 
-## Limits and colimits in functor categories
-(..)
 
-##Examples of limits {#examplesoflimits}
+## Limits and colimits in functor categories
+
+
+### Colimit of a representable functor
+ {#ColimitOfARepresentablefunctor}
+
+The [[colimit]] over a [[representable functor]] (with values in [[Set]]) is the [[point]], i.e. the [[terminal object]] in [[Set]].
+
+One can readily see this from a [[universal element]]-style argument, by direct inspection of [[cocones]]. 
+
+$$
+  \array{
+     \mathcal{C}(D,C) && 
+       \overset{
+         (D \overset{f}{\to}C)^\ast
+       }{\longleftarrow}
+     && \mathcal{C}(C,C)
+     \\
+     & \searrow && \swarrow
+     \\
+     &&
+     \left\{
+       C \overset{id}{\to}C
+     \right\}
+  }
+$$
+
+However, this style of reasoning does not easily generalize to [[higher category theory]]. The following gives a more abstract argument that is short and generalizes. We state it in [[(∞,1)-category theory]] just for definiteness of notation:
+
++-- {: .num_prop #HodgeStarFollowedByHodgeStar}  
+###### Proposition
+**([[homotopy colimit]] over a [[representable functor]] is [[n-truncated object in an (∞,1)-category|contractible]])**
+
+Let $\mathcal{C}$ be a [[small (∞,1)-category]] and consider an [[∞Groupoids|∞-groupoid]]-valued [[(∞,1)-functor]] $F \colon \mathcal{C}^{op} \to Groupoids_\infty$ which is [[representable functor|representable]], i.e. in the [[essential image|image]] of the [[(∞,1)-Yoneda embedding]] $F \simeq y C$: 
+
+$$
+  \array{
+    \mathcal{C}
+    &
+    \overset{
+      \phantom{AA}
+      y
+      \phantom{AA}
+    }{\longrightarrow}
+    &
+    Func
+    \big(
+      \mathcal{C}^{op},
+      Groupoids_\infty
+    \big)
+    \\
+    C &\mapsto&
+    y C
+    \coloneqq
+    \mathcal{C}(-,C)
+  }
+$$
+
+Then the [[(∞,1)-colimit]] over this [[(∞,1)-functor]] is contractible, i.e. is the point, the [[terminal object in an (∞,1)-category|terminal object]] in [[∞Groupoids]]:
+
+$$
+  \underset{
+    \underset{\mathcal{C}}{\longrightarrow}
+  }{\lim}
+   (y C)
+   \;\simeq\;
+   \ast
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The terminal $\infty$-groupoid $\ast$ is characterized by the fact that for each $S \in Groupoids_\infty$ we have $Groupoids_\infty(\ast, S) \simeq S$.
+Therefore it is sufficient to show that $\underset{\longrightarrow}{\lim}\big(y C\big)$ has the same property:
+
+
+$$
+  \begin{aligned}
+  Groupoids_\infty
+  \left(
+    \underset{\longrightarrow}{\lim}
+    \big(
+      y C
+    \big)
+    ,
+    S
+  \right)
+  & \simeq\;
+  Func(
+    \mathcal{C}^{op}
+    ,\,
+    Groupoids_\infty
+  )
+  \left(
+    y C
+    ,
+    const S
+  \right)
+  \\
+  & \simeq\;
+  (const S)(C)
+  \\
+  & \simeq\;
+  S
+  \end{aligned}
+$$
+
+Here the first step is the [[(∞,1)-adjunction]]
+
+$$
+  Func
+  \big(
+    \mathcal{C}^{op},
+    Groupoids_\infty
+  \big)
+  \underoverset
+    {
+      \underset{const}{\longleftarrow}
+    }
+    {
+      \overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}
+    }
+    {\phantom{AA}\bot\phantom{AA}}
+  \Groupoids_\infty
+$$
+
+and the second step is the [[(∞,1)-Yoneda lemma]]
+
+=--
+
+
+
+
+
+## Examples of limits {#examplesoflimits}
 
 In the following examples, $D$ is a [[small category]], $C$ is any category and the limit is taken over a functor $F : D^{op} \to C$.
 
@@ -644,38 +778,8 @@ Pedagogical vidoes that explain limits and colimits are at
 
 * [[The Catsters]], [General Limits and Colimits](http://www.youtube.com/watch?v=g47V6qxKQNU)
 
-A web-based program that generates componentwise illustrations of simple [[limit]]s and [[colimit]]s in [[Set]] is developed at
-
-* J. Paine, [Category Theory Demonstrations](http://www.j-paine.org/cgi-bin/webcats/webcats.php)
-
-More on the inner workings of this program is at [[Paine on a Category Theory Demonstrations program]]
 
 
 
-##Discussion
-
-+--{.query}
-
->the following discussion originated from an earler version of this entry
-
-[[Todd Trimble]]: So far, this is a really good article. However, I would not say in this last line "if either limit exists", because small limits on the right certainly exist always since $Set$ is complete; instead, "if $lim F$ exists". 
-
-[[Urs Schreiber|Urs]]: thanks, Todd, I have changed the above now accordingly. Please don't hesitate to correct and/or improve things you see as needed.
-
-By the way, I am not completely happy with this entry as yet. It was originally motivated from the desire to 
-_explain_ in small steps the computation of limits and colimits to those readers unfamiliar with it. Currently this here mostly just lists results, where maybe we would eventually want to include also pedagocial proofs. 
-
-The material below "explanation for programmers" goes more in that pedagogical direction, though I'd think eventually it would be good to also have the kind of pedestrian explanation given there but without (at first) its realization in Python! :-)
-
-=--
 
 
-+--{.query}
-
->an earlier version of this entry, which contained the material now branched off at [[Paine on a Category Theory Demonstrations program]], led to the following discussion
-
-[[Urs Schreiber]]: sorry to say this, but I am not so happy with the following material here at this particular entry. This entry here is supposed to explain limits and colimits. Originally I thought that the computer program described below should be _used_ here to _help explain_ limits and colimits. For instance by using its graphical output for illustration purposes. But instead the material below explains how to _write that program_ . That may be of interest, too, but here at this entry it seems a bit of a distraction. Could we move the following material to its seperate entry? 
-
-_Toby_:  I would agree that the material on how to write the program would work well in a separate entry, say [[programming coproducts]].  On the other hand, you definitely want to keep the first two lines here; they do just what you want and could be expanded on here.
-
-=--
