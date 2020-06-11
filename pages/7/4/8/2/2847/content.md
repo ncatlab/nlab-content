@@ -25,6 +25,8 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 * [[axiom of infinity]] -- a large cardinal axiom relative to finitist theories, but not relative to ZF
 * [[inaccessible cardinal]] -- the smallest sort of large cardinal in ZF, equivalent to the existence of a [[Grothendieck universe]].
 * [[measurable cardinal]] -- the boundary between "small" large cardinals and "large" large cardinals
+* [[real-valued-measurable cardinal]], a “solution” to the Banach–Ulam problem.
+* [[strongly compact cardinal]], whose existence controls properties images of [[accessible functors]]
 * [[elementary embedding]] -- a tool used in the study of large large cardinals
 * [[supercompact cardinal]]
 * [[extendible cardinal]]
