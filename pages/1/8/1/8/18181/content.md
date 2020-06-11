@@ -72,7 +72,7 @@ In the development of Kant's distinction between general logic and transcendenta
 
 ###### _I._ On logic in general. ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-5/B74-9)
 
-In this paragraph, the scope of logic as a science is clarified, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in the following paragraph, Paragraph II.
+In this paragraph, the scope of logic as a science is clarified, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in the following paragraph.
 To do so, Kant firstly provides a plethora of terminology (“receptivity of impressions”, “spontaneity of concepts”, “empirical”, “sensibility”, “receptivity”), to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-2/B74-6).
 
 Secondly ([A52](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_052.png)/B76), Kant divides the science of logic into __general logic__ (synonymous with __elementary logic__) which contains the necessary rules of thinking, regardless of its object and __particular logic__ which contains the necessary rules of thinking about certain kinds of objects. Such a set of rules is called "organon of this or that science". In modern language this is the [[methodology]] of a [[science|scientific discipline]].
@@ -178,69 +178,42 @@ In the end Kant arrives at the result that "__no a _priori___ cognition is possi
 
 ######{#deductionA} _Second Section_ __[A]__. On the a priori grounds for the possibility of experience. [A deduction]
 
-In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the corresponding chapter of the second edition ("B deduction"). Concepts are created in three steps:
+In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the corresponding chapter of the second edition ("B deduction"). Concepts are provided by a _threefold synthesis_:
 
-_A.I.II.I.I.II.II.I On the synthesis of_ __apprehension in the intuition.__ ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
+
+1. _The synthesis of_ __apprehension in the intuition.__ 
 All representations belong "as modifications of the mind ... to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time" ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)).
+Such representations may be though of as states of the mind. One may be inclined to construe them as object in a category as "Every intuition [Anschauung] contains a manifold in itself" ([A98/9](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png)) 
 
-> Every intuition [Anschauung] contains a manifold in itself ... ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) 
+2. _The synthesis of_ __reproduction in the imagination.__
+"It is ... a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule [beständige Regel]. This law of reproduction, however,
+presupposes that the appearances themselves are actually subject to
+such a rule ..." ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
-The mind distinguishes between every moment of impression.
-These impressions should give rise to a _Unity of intuition_.
-This process is called _Synthesis of apprehension_:
+3. _The synthesis of_ __recognition in the concept.__
+"Without consciousness that that which we think is the very same as what we thought a moment before, all reproduction in the series of representations would be in vain. ... The word "concept" itself could already lead us to this remark. For it is this one consciousness that unifies the manifold that has been successively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png)) The crucial point is this __unity of consciousness__.
 
-* Run through all manifolds of impressions (these are not modified) and take them together. In modern terminology this may be called a limiting process.
+So a _[constant] rule_ appears as a relationship between two states of consciousness while _rules_ appear as a connection of a concept to such states. Kant speaks also of a __unity of rule__ that "determines every manifold".
+As for a modern formalization the former would could be interpreted as a morphism and the letter reminds of a diagram that has the concept as its cone of a diagram. When taking sets as object the rules should be some kind of [[relation]]. But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a function in one direction.
 
-* In order to have _One representation_ such a limiting process must have occurred.
+Kant continues to state that these three step process also happens for a priori concepts.
+This is to say for our cognition (Erkenntnis) thereof.
+But this unity of the consciousness means that for each cognition  a concept is assigned to the intuition in some way, i.e. 
+that there is a corresponding "rule of intuitions" 
+($cognition \coloneqq (concept \to Regel\, der\, Anschauungen) $ ) ([A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png)).
+An instance of this is e.g. "objectsa in general" ("Objekt überhaupt").
+Every instance comes with a necessity that there is such a concept and a rule of intuitions.
+But a necessity can only origin from some "transcendental condition", that Kant also calls __transcendental apperception__.
+These are the pure concepts of the understanding we sought.
 
-* This process has to happen a priori.
-
-
-_A.I.II.I.I.II.II.II_ On the synthesis of __reproduction in the imagination.__ ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
-
-> It is ... a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule [beständige Regel]. ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
-
-The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a function in one direction.
-
-
-This is formulated in the __Law of reproduction__:
-
-* the appearances of objects are associated with the _manifold_ of their representation
-
-* the similar limiting process as in the synthesis of apprehension has to occur
-
-
-_A.I.II.I.I.II.II.III_ On the synthesis of __recognition in the concept.__ ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
-The crucial fact is that different impressions give rise to the same representation, i.e. we have __one__ concept: "It is this __one__ consciousness that unifies the manifold that has been suc­cessively intuited, and then also reproduced, into one representation" ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png)).
-Kant continues:
-
-> The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the manifold of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition. ([A105](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_105.png))
-
-for that it is necessary to have:
-
-* A rule, which guarantees that the reproduction happens a priori and can always be exhibited. This is called "unity of rule".
-
-* The concept in which the representations unite. ("All cognition requires a concept", [A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png))
-
-
-To sum up crucial features: transcendental apperception
-
-* must precede all experiences, i.e. has to be a priori
-
-* is a pure, original, unchanging consciousness
-
-* Grounds a priori concepts (similar as Space and Time grounds the intuition of sensibility)
-
-
-While in view of the transcendental object: it
-
-* Is the object in which the trancendental apperception grounds a priori concepts
-
-* Its pure concept is that, which in all of our empirical concepts in general can provide relation to an object, i.e., objective reality.
-
-* "Cannot contain any determinate intuition at all, and therfore concers nothing but that unity which must be encountered in a manifold of cognition insofar as it stands in relation to an object."([A109](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_109.png))
-
-
+As example Kant provides: _a triangle as an object by being conscious of the composition of three straight lines
+in accordance with a rule according to which such an intuition can always be exhibited_.
+Moreover
+$$
+  cognition\, of\, outer\, appearances 
+= \left(body \to \substack{the\, unity\, of\, the\, manifold\\ that\, is\, thought\, through\, [the\, concept\, of\, body]}\right).
+$$
+Further one should remark that a priori concepts are distinguished by their numerical unity. Kant elaborates on this distinction [in the next book](#identity_difference).
 
 
 #### Achourioti and van Lambalgen's formalization
