@@ -44,13 +44,16 @@ At least for a [[finite group]] $G$, the [[groupoid convolution algebra]] of the
 ## References
 
 * Stacks Project: [Inertia](https://stacks.math.columbia.edu/tag/036X), [more](https://stacks.math.columbia.edu/tag/034H), [more](https://stacks.math.columbia.edu/tag/034I), [The inertia stack](https://stacks.math.columbia.edu/tag/036X)
+
 * [[Ernesto Lupercio]], [[Bernardo Uribe]], _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201, [arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222); _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: Orbifolds in Mathematics and
 Physics, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946), [math.AT/0110207](http://arxiv.org/abs/math/0110207)
-* T. Kawasaki, _The signature theorem for V-manifolds_, Topology __17__ (1978), no. 1, 75&#8211;83.
+
+* T. Kawasaki, _The signature theorem for V-manifolds_, Topology __17__ (1978), no. 1, 75&#8211;83 (<a href="https://doi.org/10.1016/0040-9383(78)90013-7">doi:10.1016/0040-9383(78)90013-7</a>)
+
 * [[V. Hinich]], _Drinfeld double for orbifolds_, Contemporary Math. __433__, AMS Providence, 2007, 251-265,
 [arXiv:math.QA/0511476](http://arxiv.org/abs/math/0511476)
-* L. Dixon, J. A. Harvey, C. Vafa, E. Witten, _Strings on orbifolds_,  Nuclear Phys. B __261__ (1985), no. 4, 678&#8211;686. [MR87k:81104a](http://www.ams.org/mathscinet-getitem?mr=818423), <a href="http://dx.doi.org/10.1016/0550-3213(85)90593-0">doi</a>; _Strings on orbifolds. II_, Nuclear Phys. B __274__ (1986), no. 2, 285&#8211;314, [MR87k:81104b](http://www.ams.org/mathscinet-getitem?mr=851703), <a href="http://dx.doi.org/10.1016/0550-3213(86)90287-7">doi</a>
-* Jean-Louis Tu, [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics __207__ (2006) 455&#8211;483, [pdf](http://www.math.univ-metz.fr/~tu/publi/orb.pdf) (cf. sec. 2.3)
+
+* [[Jean-Louis Tu]], [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics __207__ (2006) 455&#8211;483, [pdf](http://www.math.univ-metz.fr/~tu/publi/orb.pdf) (cf. sec. 2.3)
 
 [[!redirects inertia orbifolds]]
 
