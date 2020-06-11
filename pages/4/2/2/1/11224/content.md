@@ -19,14 +19,14 @@
 
 In the study of [[computability]], [[descriptive set theory]], etc, by _Baire space_ is meant the [[topological space]] $\mathbb{N}^{\mathbb{N}}$ of infinite sequences of [[natural numbers]] equipped with the [[product topology]].
 
-This [[continuous functions]] from Baire space to itself serve the role of _computable functions_ in [[computable analysis]]. See at _[[computable function (analysis)]]_.
+The [[continuous functions]] from Baire space to itself serve the role of _computable functions_ in [[computable analysis]]. See at _[[computable function (analysis)]]_.
 
 
 ## Related concepts
 
-[[!include computable mathematics -- table]]
+* [[Irrational number]]
 
-* [[irrational number]]
+[[!include computable mathematics -- table]]
 
 
 ## References
