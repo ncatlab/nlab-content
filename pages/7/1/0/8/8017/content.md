@@ -67,6 +67,17 @@ but for any such a set $E$ we have $\nu(X\setminus E)=1$,
 which yields a contradiction if $\epsilon\lt1$.
 \end{example}
 
+\begin{remark}
+Truly continuous countably (or finitely) additive measures
+on a measure space $(X,\Sigma,\mu)$
+form a module over the complex [[*-algebra]]
+of measurable maps $X\to\mathbf{R}$ modulo equality almost everywhere.
+The Radon–Nikodym theorem then says that this module
+is a free module of rank 1.
+Furthermore, generators of this module can be identified
+with truly continuous measures $\nu$ such that $\mu$ is absolutely continuous with respect to $\nu$.
+\end{remark}
+
 ## The Lebesgue decomposition
 
 \begin{theorem}
