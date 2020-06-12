@@ -1,3 +1,4 @@
+
 +-- {: .num_prop #AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces}
 ###### Proposition
 **([[adjunction between topological spaces and diffeological spaces]])**
@@ -72,12 +73,20 @@ Moreover:
   DiffeologicalSpaces
 \]
 
+Moreover, this is a sequence of [[Quillen equivalences]] between:
+
+|  |  |  |
+|--|--|--|
+| [[classical model structure on topological spaces]] | [[model structure on D-topological spaces]] | [[model structure on diffeological spaces]] |
+
 =--
 
-This is ([Shimakawa-Yoshida-Haraguchi 10, Prop. 3.1, Prop. 3.2, Lemma 3.3](diffeological+space#SYH10))
+These adjunctions and their properties are observed in [Shimakawa-Yoshida-Haraguchi 10, Prop. 3.1, Prop. 3.2, Lemma 3.3](diffeological+space#SYH10), The model structures and Quillen equivalences are due to [Haraguchi 13, Thm. 3.3](#model+structure+on+Delta-generated+topological+spaces#Haraguchi13) and [Haraguchi-Shimakawa 13, Sec. 7](model+structure+on+diffeological+spaces#HaraguchiShimakawa13).
 
 +-- {: .proof}
 ###### Proof
+
+We spell out the existence of the [[idempotent adjunction]] (eq:DeltaGeneratedSpacesInIdempotentAdjunction):
 
 First, to see we have an [[adjunction]] $Dtplg \dashv Cdfflg$, we check the hom-isomorphism ([here](adjoint+functor#eq:HomIsomorphismForAdjointFunctors)).
 
