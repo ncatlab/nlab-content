@@ -34,7 +34,9 @@ is an [[acyclic cofibration]].
 $$A\to P_X A\to A\times_X A,$$
 where the right map is a [[fibration]] and its first component $P_X A\to A$ is an [[acyclic fibration]].
 
-## Construction from premodel categories
+## Properties
+
+### Relation to premodel categories
 
 A [[premodel category]] can be upgraded to a weak model category
 as follows.
@@ -67,11 +69,13 @@ the map $F(Y)\sqcup_{F(X)}G(X)\to G(Y)$ is a (trivial) cofibration.
 Likewise, $\lambda$ is a trivial cofibration
 if for any cofibration $X\to Y$ the above map is a trivial cofibration.
 
-Reference: Henry \cite[Section 6]{CAWMC}.
+Reference: [Henry 20, Section 6](#Henry20).
 
-This is essentially a reformulation of the [[Cisinski-Olschok theory]].
+This is essentially a reformulation of [[Cisinski-Olschok theory]].
 
-## Relation to model categories
+
+
+### Relation to model categories
 
 [[model category|Model categories]] can be singled out from weak model categories
 by adding the following properties:
@@ -88,7 +92,9 @@ that satisfy a right (left) lifting property with respect to the class of cofibr
 1.  The two classes of [[weak equivalence]] corresponding
 to the left and right induced [[semimodel structures]] coincide.
 
-## Properties
+
+### Relation to combinatorial model categories
+
 
 Every [[combinatorial]] weak model category can
 be connected to a [[combinatorial model category]]
@@ -100,11 +106,12 @@ by a zigzag of [[Quillen equivalences]].
 
 * [[premodel category]]
 
+
 ## References
 
-* [[Simon Henry]], _Weak model categories in classical and constructive mathematics_ ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650))
+* {#Henry18} [[Simon Henry]], _Weak model categories in classical and constructive mathematics_, Theory and Applications of Categories, Vol. 35, 2020, No. 24, pp 875-958.  ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650), [tac:35-24](http://www.tac.mta.ca/tac/volumes/35/24/35-24abs.html))
 
-\bibitem{CAWMC} [[Simon Henry]], _Combinatorial and accessible weak model categories_ ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360))
+* {#Henry20} [[Simon Henry]], _Combinatorial and accessible weak model categories_ ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360))
 
 [[!redirects weak model categories]]
 [[!redirects weak model structure]]
