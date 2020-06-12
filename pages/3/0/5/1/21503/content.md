@@ -27,12 +27,12 @@ A [[model category]]-[[mathematical structure|structure]] on the [[category]] of
 
 ## References
 
-* [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _A model structure on the category of diffeological spaces_ ([arXiv:1311.5668](https://arxiv.org/abs/1311.5668))
+* {#HaraguchiShimakawa13} [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _A model structure on the category of diffeological spaces_ ([arXiv:1311.5668](https://arxiv.org/abs/1311.5668))
 
 
 * [[Hiroshi Kihara]], _Model category of diffeological spaces_, Journal of Homotopy and Related Structures, (2018), 1-40 ([arXiv:1605.06794](https://arxiv.org/abs/1605.06794))
 
-  (beware: this uses a non-standard diffeology on the standard simplices)
+  > (beware: this uses a non-standard diffeology on the standard simplices)
 
 
 See also 
