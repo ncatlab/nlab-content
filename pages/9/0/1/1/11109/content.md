@@ -1,3 +1,4 @@
+[[!redirects 道德经]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
