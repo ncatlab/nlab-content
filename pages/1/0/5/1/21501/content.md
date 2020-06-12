@@ -73,11 +73,13 @@ Moreover:
   DiffeologicalSpaces
 \]
 
-Moreover, this is a sequence of [[Quillen equivalences]] between:
+Moreover this is a sequence of [[Quillen equivalences]] between:
 
 |  |  |  |
 |--|--|--|
 | [[classical model structure on topological spaces]] | [[model structure on D-topological spaces]] | [[model structure on diffeological spaces]] |
+
+> Caution: There may be a gap in the proof that $DTopologicalSpaces \simeq_{Quillen} DiffeologicalSpaces$, see the commented references [here](model+structure+on+diffeological+spaces#References).
 
 =--
 
