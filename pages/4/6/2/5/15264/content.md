@@ -32,11 +32,15 @@
 
 ## References
 
+### General
+
 See also
 
 * Wikipedia, _[Galaxy](http://en.wikipedia.org/wiki/Galaxy)_
 
 * Wikipedia, _[Galaxy clusters](https://en.wikipedia.org/wiki/Galaxy_cluster)_
+
+### Structure formation and computer simulation
 
 Computer simulation of galaxy [[structure formation]]:
 
@@ -65,8 +69,12 @@ Increasing the predictive power of galaxy formation simulations
 
 baryonic [[Tully-Fisher relation]] qualitatively reproduced in [El-Badry 18, Figure 4](#ElBadry18)
 
-
 * [[Justin Read]] et al. _EDGE I: the mass-metallicity relation as a critical test of galaxy formation physics_ ([arXiv:1904.02723](https://arxiv.org/abs/1904.02723))
+
+Simulation specifically of Milky Way-like galaxies:
+
+* [VINTERGATAN simulation](http://www.astro.lu.se/~florent/vintergatan.php)
+
 
 
 [[!redirects galaxies]]
