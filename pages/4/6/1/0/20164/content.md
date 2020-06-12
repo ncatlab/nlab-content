@@ -52,11 +52,17 @@ A conceptual explanation via stellar feedback is discussed in [GBFH 19](#GBFH19)
 
 ## References
 
+### General
+
 See also
 
 * Wikipedia, _[Galaxy rotation curve](https://en.wikipedia.org/wiki/Galaxy_rotation_curve)_
 
-Computer simulation of [[dark matter]] [[structure formation]] on [[galaxy]]-scales:
+
+### Structure formation and Computer simulation
+
+
+Computer simulation of [[structure formation]] with [[dark matter]] on [[galaxy]]-scales:
 
 * {#Hopkins17} Hopkins et al. _FIRE-2 Simulations: Physics versus Numerics in Galaxy Formation_. Monthly Notices of the Royal Astronomical Society, Volume 480, Issue 1, 11 October 2018, Pages 800–863 ([arXiv:1702.06148](https://arxiv.org/abs/1702.06148), [doi:10.1093/mnras/sty1690](https://doi.org/10.1093/mnras/sty1690))
 
@@ -77,7 +83,6 @@ On the [[mass-discrepancy acceleration relation]]:
 
 * {#DuttonMaccioObrejaBuck19} Aaron A. Dutton, Andrea V. Macciò, Aura Obreja, Tobias Buck, _NIHAO XVIII: Origin of the MOND phenomenology of galactic rotation curves in a LCDM universe_ ([arXiv:1902.06751](https://arxiv.org/abs/1902.06751))
 
-
 Critical comments in
 
 * {#LelliEtAl16} Federico Lelli, Stacy S. McGaugh, James M. Schombert, Marcel S. Pawlowski, section 8.2 of _One Law To Rule Them All: The Radial Acceleration Relation of Galaxies_ ([arXiv:1610.08981](https://arxiv.org/abs/1610.08981))
@@ -85,6 +90,10 @@ Critical comments in
 A conceptual explanation via stellar feedback:
 
 * {#GBFH19} Michael Y. Grudić, Michael Boylan-Kolchin, Claude-André Faucher-Giguère, Philip Hopkins, _Stellar feedback sets the universal acceleration scale in galaxies_ ([arxiv:1910.06345](https://arxiv.org/abs/1910.06345))
+
+Simulation specifically of Milky Way-like galaxies:
+
+* [VINTERGATAN simulation](http://www.astro.lu.se/~florent/vintergatan.php)
 
 
 [[!redirects galaxy rotation curves]]
