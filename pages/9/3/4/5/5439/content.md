@@ -176,7 +176,7 @@ $$
 
 and after [[completion]] with under the induced [[norm]].
 
-This $\ell^2 A$ is sometimes called the **standard Hilbert $A$-module** over $A$.
+This $\ell^2 A$ is sometimes called the **standard Hilbert $A$-module**.
 
 =--
 
