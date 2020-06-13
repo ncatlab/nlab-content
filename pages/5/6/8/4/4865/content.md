@@ -245,6 +245,11 @@ Much computational detail is displayed in
 
 * Andre Miemiec, Igor Schnakenburg, _Basics of M-Theory_, Fortsch.Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137))
 
+In terms of [[pure spinors]]:
+
+* Max Guillen, _Pure spinors and $D=11$ supergravity_ ([arXiv:2006.06014](https://arxiv.org/abs/2006.06014))
+
+
 ### Classical solutions and BPS states
 	
 Bosonic solutions of eleven-dimensional supergravity were studied in the 1980s in the context of [[Kaluza-Klein mechanism|Kaluza-Klein]] supergravity. The topic received renewed attention in the mid-to-late 1990s as a result of the [[branes]] and duality paradigm and the [[AdS/CFT correspondence]].
