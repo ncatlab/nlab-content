@@ -23,13 +23,39 @@ Integration on a general [[measure space]] can be seen as the process of multipl
 
 ## The Radon–Nikodym theorem
 
+\begin{definition}
+Suppose $X$ is a [[set]], $\Sigma$ is a [[σ-algebra]] of subsets of $X$,
+$\mu\colon\Sigma\to[0,\infty]$ is a countably additive measure,
+and $\nu\colon\Sigma\to\mathbf{R}$ is a finitely additive map.
+We say that $\nu$ is _absolutely continuous_ with respect to $\mu$
+if for any $\epsilon\gt0$ there is $\delta\gt0$ such that $|\nu E|\lt\epsilon$
+for any $E\in\Sigma$ such that $\mu(E)\lt\delta$.
+We say that $\nu$ is _truly continuous_ with respect to $\mu$
+if for any $\epsilon\gt0$ we can find $E\in\Sigma$ and $\delta\gt0$ such that $\mu(E)$ is finite and $|\nu(F)|\lt\epsilon$ whenever $F\in\Sigma$
+and $\mu(E\cap F)\lt\delta$.
+\end{definition}
+
+\begin{remark}
+If we assume $\nu$ to be countably additive, then the definition
+of absolutely continuity simplifies as follows:
+$\nu$ is absolutely continuous with respect to $\mu$ if and only if
+for any $E\in\Sigma$ we have $\nu(E)=0$ whenever $\mu(E)=0$.
+\end{remark}
+
+\begin{remark}
+$\nu$ is truly continuous with respect to $\mu$ if and only if
+$\nu$ it is countable additive,
+$\nu$ absolutely continuous with respect to $\mu$,
+and for any $E\in\Sigma$ such that $\nu(E)\gt0$
+we can find $F\in\Sigma$ such that $F\subset E$, $\mu(F)$ is finite,
+and $\nu(F)\gt0$.
+\end{remark}
+
 \begin{theorem}
 Suppose $X$ is a [[set]], $\Sigma$ is a [[σ-algebra]] of subsets of $X$,
 $\mu\colon\Sigma\to[0,\infty]$ is a countably additive measure,
 and $\nu\colon\Sigma\to\mathbf{R}$ is a function.
 Then there is a $\mu$-integrable function $f$ such that $\nu(E)=\int_E f$ for all $E\in\Sigma$ if and only if $\nu$ is finitely additive and truly continuous with respect to $\mu$.
-The latter means that for any $\epsilon\gt0$ we can find $E\in\Sigma$ and $\delta\gt0$ such that $\mu(E)$ is finite and $|\nu(F)|\lt\epsilon$ whenever $F\in\Sigma$
-and $\mu(E\cap F)\lt\delta$.
 \end{theorem}
 
 \begin{corollary}
