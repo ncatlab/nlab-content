@@ -54,7 +54,7 @@ Generalizing from $Set$ in another way, in any category with a terminal object $
 
 ### In toposes 
 
-The stability or slice theorem for [[toposes]] says that if $\mathbf{E}$ is a topos, then also the [[slice category]] $\mathbf{E}/U$ is a topos for any object $U$, and the [[pullback]] functor $U^\ast: \mathbf{E} \to \mathbf{E}/U$ is a logical functor. 
+The stability or slice theorem for [[toposes]] says that if $\mathbf{E}$ is a topos, then also the [[slice category]] $\mathbf{E}/U$ is a topos for any object $U$, and the [pullback functor](base+change) $U^\ast: \mathbf{E} \to \mathbf{E}/U$ is a [[logical functor]]. 
 
 Observe that in $\mathbf{E}/U$, an ordinary (i.e. global) point of an object $U^\ast X$, a section $U^\ast 1 \to U^\ast X$, corresponds to a generalized element $U \to X$ in $\mathbf{E}$. Thus the slice theorem guarantees that generalized points with domain $U$ may be treated exactly as ordinary points, just in a more variable topos $\mathbf{E}/U$. 
 
