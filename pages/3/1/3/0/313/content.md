@@ -287,7 +287,7 @@ in some [[category]] (def. \ref{Diagram}). Then
      \right\}
    $$
 
-   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all 
+   over this diagram (def. \ref{Cone}) which is _universal_ or _terminal_ among all 
    possible cones,
    in that it has the property that for
 
@@ -349,7 +349,7 @@ in some [[category]] (def. \ref{Diagram}). Then
      \right\}
    $$
 
-   under this diagram (def. \ref{Cone}) which is _universal_ or _terminal_ among all
+   under this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all
    possible co-cones,
    in that it has the property that for
 
