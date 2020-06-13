@@ -1,3 +1,8 @@
+## Internal Links
+
+* [with single brackets](base+change)
+* [[base change|with double brackets (to existant page)]]
+* [[foo bar|with double brackets (to new page)]]
 
 
 ## Notions of orbifold cohomology
