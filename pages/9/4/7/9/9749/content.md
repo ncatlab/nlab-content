@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -131,33 +132,18 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 
 ## History
 
-The Giry monad was originally developed [by Lawvere in 1962](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
+The Giry monad was originally developed [by Lawvere in 1962](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every [[adjoint functor|adjoint pair]] gives rise to a [[monad]].  
 
-Lawvere's construction was written up as an [appendix to a proposal](#Lawvere62) to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union. This appendix was intended to provide a reasonable framework for arms control verification protocols [^Lawverevideo]. At that time, Lawvere was working for a "think tank" in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
+Lawvere's construction was written up as an [appendix to a proposal](#Lawvere62) to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union. This appendix was intended to provide a reasonable framework for arms control verification protocols ([Lawvere 20](#Lawvere20)).
 
-[[Gian-Carlo Rota]] had (somehow) obtained a copy of [the appendix](#Lawvere62), which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012. 
+At that time, Lawvere was working for a "think tank" in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, [[Michèle Giry]] was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix ([Giry 80](#Giry80))
 
-From a video commentary by [[Bill Lawvere]]:
+[[Gian-Carlo Rota]] had also (somehow) obtained a copy of [the appendix](#Lawvere62), which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012. 
 
-> I'd like to say
-that the idea of the category
-of probabilistic mappings, the document
-corresponding to that was not part of a seminar,
-as some of the circulations say, essentially it
-was the document submitted to the arms
-control and disarmament agency after
-suitable checking that the Pentagon
-didn't disagree with it.
-Because of the fact that for arms
-control agencies as a side
-responsibility the forming of arms
-control agreements and part of these
-agreements must involve agreed
-upon protocols of verification.
-So the idea of that paper did not
-provide such protocols, but it purported
-to provide reasonable framework within
-which such protocol can be formulated.
+From [Lawvere 20](#Lawvere20):
+
+> I'd like to say that the idea of the category of probabilistic mappings, the document corresponding to that was not part of a seminar, as some of the circulations say, essentially it was the document submitted to the arms control and disarmament agency after suitable checking that the Pentagon didn't disagree with it. Because of the fact that for arms control agencies as a side responsibility the forming of arms control agreements and part of these agreements must involve agreed upon protocols of verification. So the idea of that paper did not provide such protocols, but it purported to provide reasonable framework within which such protocol can be formulated.
+
 
 
 ## References
@@ -172,7 +158,12 @@ and was picked up and published in:
 
 * {#Giry80} [[Michèle Giry]], _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982 ([doi:10.1007/BFb0092872](https://doi.org/10.1007/BFb0092872))
 
-  (there are allegedly a few minor [[analysis|analytically]] incorrect points and gaps in proofs, observed by later authors)
+  (there are allegedly a few minor [[analysis|analytically]] incorrect points and gaps in proofs, observed by later authors).
+
+Historical comments on the appearance of [Lawvere 62](#Lawvere62) are made in
+
+
+* {#Lawvere20} [[Bill Lawvere]], video discussion, 2020 ([1:00:20 here](http://www.youtube.com/watch?v=BhKaHAY8Ec8&t=60m21s))
 
 According to [E. Burroni (2009)](#Burroni09), the Giry monad appears also in
 
@@ -235,7 +226,8 @@ To do:
 
 * Bring in material from [Progic posts](http://golem.ph.utexas.edu/category/2007/09/progic.html)
 
-[^Lawverevideo]: see video commentary by Bill Lawvere [here](http://www.youtube.com/watch?v=BhKaHAY8Ec8&t=60m21s).
+
+
 
 
 [[!redirects Giry monad]]
