@@ -101,7 +101,7 @@ There is a canonical projection $\overline{\rho} \;\colon\; V// G \to \mathbf{B}
 
 * [[quotient]], [[quotient space]], [[quotient type]]
 
-* [[action groupoid]]
+* [[action groupoid]], [[global quotient orbifold]]
 
 * [[local quotient stack]]
 
