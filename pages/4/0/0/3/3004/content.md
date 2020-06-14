@@ -53,7 +53,7 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 ## Examples
 
-* Let $\Sigma$ be a signature, then the set of all geometric sequents over $\Sigma$ as well as the empty set are geometric theories called the _inconsistent theory_ $\mathbb{T}^\Sigma_0$ resp. the _empty theory_ $\mathbb{T}^\Sigma_1$ over $\Sigma$. The former admits a more concise axiomatisation as $\{\top\vdash\bot\}$. The most basic examples occur when the signature is empty: $\mathbb{T}^\emptyset_0$ is classified by the initial topos $\mathbf{1}$ and $\mathbb{T}^\emptyset _1$ is classified by the terminal topos $Set$ (see at [[localic topos]] for details).
+* Let $\Sigma$ be a signature, then the set of all geometric sequents over $\Sigma$ as well as the empty set are geometric theories called the _inconsistent theory_ $\mathbb{T}^\Sigma_0$ resp. the _empty theory_ $\mathbb{T}^\Sigma_1$ over $\Sigma$. The former admits a more concise axiomatisation as $\{\top\vdash\bot\}$. The most basic examples occur when the signature is empty: $\mathbb{T}^\emptyset_0$ is classified by the initial topos $\mathbf{1}$ and $\mathbb{T}^\emptyset _1$ is classified by the terminal topos $Set$ (see at [[classifying topos]] for details).
 
 * The empty signature occurring in the preceding example is an extreme case of a _propositional signature_ i.e. one lacking sort symbols. These can at most contain 0-ary relation symbols since function symbols and higher order relation symbols require sorts. Whence theories over such signatures can at most contain sequents in the empty context between formulas consisting of quantifier-free nestings of 0-ary relation symbols and $\wedge,\bigvee$ and are therefor called _propositional theories_ - in other words: geometric logic boils down to [[propositional logic]]. Propositional theories are classified by [[localic topos|localic toposes]] (see there for further information).
 
@@ -75,7 +75,7 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
   $$ \top \vdash_{x} \bigvee_{n\ge 1} (n \cdot x = 0) $$
   asserting that for each $x$, either $x=0$ or $x+x=0$ or $x+x+x=0$ or ....  Similarly, the theory of fields of finite [[characteristic]] is geometric but not coherent.
 
-* The signature for the _theory of the standard induction algebra_ has one sort symbol $N$, one function symbol $s:N\to N$ and one constant $0:N$. The theory axiomaticizes [[natural number object|natural number objects]] and the third axiom makes crucial use of the infinitary disjunction of geometric logic in order to state that every natural number is standard i.e. either 0 or obtained from 0 by repeated application of the successor function:
+* The _theory of the standard successor algebra_ is geometric. Its signature has one sort symbol $N$, one function symbol $s:N\to N$ and one constant $0:N$. The theory axiomaticizes [[natural number object|natural number objects]] by taking advantage of the availability of infinitary disjunctions in geometric logic in order to assert in the third axiom that every natural number is _standard_ i.e. either 0 or obtained from 0 by (repeated) application of the successor function:
 
   - $0 = s(n) \vdash_{n} \bot$
   - $s(n) = s(n') \vdash_{n n'} n=n'$
@@ -103,9 +103,9 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
   - $\alpha_u(x) = \alpha_v(x) \vdash_{x\colon\sigma_i} \bigvee_{w\colon k\to i, u w = v w} (\exists z\colon \sigma_k) x = \alpha_w(z)$ ($u,v\colon i \to j$)
 
-This theory is classified by the topos of presheaves over $\mathcal{C}$.
+  This theory is classified by the topos of presheaves over $\mathcal{C}$.
 
-It is commonly more useful to consider the theory of flat _presheaves_ over $\mathcal{C}$, in other words the flat diagrams over $\mathcal{C}^{op}$. ([[Elephant]] calls these _torsors_ over $\mathcal{C}$, generalizing the established terminology for groups.) This is because the representable presheaves are flat, and so Yoneda's lemma transforms objects of $\mathcal{C}$ covariantly into models of the theory. In fact, the models of the theory are the filtered colimits of representables. For example, a finitary algebraic theory is classified by the topos of covariant functors from the category of finitely presented algebras to $Set$.
+  It is commonly more useful to consider the theory of flat _presheaves_ over $\mathcal{C}$, in other words the flat diagrams over $\mathcal{C}^{op}$. ([[Elephant]] calls these _torsors_ over $\mathcal{C}$, generalizing the established terminology for groups.) This is because the representable presheaves are flat, and so Yoneda's lemma transforms objects of $\mathcal{C}$ covariantly into models of the theory. In fact, the models of the theory are the filtered colimits of representables. For example, a finitary algebraic theory is classified by the topos of covariant functors from the category of finitely presented algebras to $Set$.
 
 [^flat]: This is also sometimes called the theory of flat functors on $\mathcal{C}$.
 
