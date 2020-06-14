@@ -11,7 +11,7 @@ A dedicated account of this Borel cohomology of orbifolds, in the generality of 
 
 Moreover, since the orbifold's [[isotropy groups]] $G_x$ are, by definition, [[finite groups]], their [[classifying spaces]] $\ast \!\sslash\! G \simeq B G$ have purely [[torsion subgroup|torsion]] [[integral cohomology]] in [[positive number|positive]] degrees, and hence become indistinguishable from the [[point]] in [[rational cohomology]] (and more generally whenever their [[order of a group|order]] is [[unit|invertible]] in the [[coefficient]] [[ring]]).
 
-Therefore, in the special case of [[rational cohomology|rational]]/[[real cohomology|real]]/[[complex cohomology|complex]] [[coefficients]], the traditional orbifold Borel cohomology reduces further to an invariant of just (the [[homotopy type]] of) of the naive quotient underlying an orbifold. For global quotient orbifolds  this is the [[topological quotient space]] $X/G$.
+Therefore, in the special case of [[rational cohomology|rational]]/[[real cohomology|real]]/[[complex cohomology|complex]] [[coefficients]], the traditional orbifold Borel cohomology reduces further to an invariant of just (the [[homotopy type]] of) the naive quotient underlying an orbifold. For global quotient orbifolds  this is the [[topological quotient space]] $X/G$.
 
 In this form, as an invariant of just$X/G$, the [[real cohomology|real]]/[[complex cohomology|complex]]/[[de Rham cohomology]] of orbifolds was originally introduced in 
 
