@@ -127,12 +127,28 @@ Reviews include
 
 * Paolo Masulli, section 2 of _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf))
 
-The [[Eilenberg-MacLane objects]] over the orbit category are discussed in detail in 
+The [[Eilenberg-MacLane objects]] over the [[orbit category]] are discussed in detail in 
 
 * {#Lewis92} [[L. Gaunce Lewis, Jr.]], _Equivariant Eilenberg-MacLane spaces and the equivariant Seifert-van Kampen suspension theorems_, Topology Appl., 48 (1992), no. 1, pp. 25&#8211;61.
 
+Equivalence of Bredon cohomology of [[topological G-spaces]] $X$ to [[abelian sheaf cohomology]] of the [[topological quotient space]] $X/G$ with [[coefficients]] a "[[locally constant sheaf]] except for dependence on [[isotropy groups]]":
 
-There is an interesting (nontrivially) equivalent definition by Moerdijk and Svensson, using the [[Grothendieck construction]] for a certain $Cat$-valued presheaf on the orbit category. 
+* {#Honkasalo88} [[Hannu Honkasalo]], _Equivariant Alexander-Spanier cohomology_,  Mathematica Scandinavia,  63, 179-195, 1988 ([doi:10.7146/math.scand.a-12232](https://doi.org/10.7146/math.scand.a-12232))
+
+  (for [[finite groups]])
+
+* {#Honkasalu90} [[Hannu Honkasalo]], _Equivariant Alexander-Spanier cohomology for actions of compact Lie groups_, Mathematica Scandinavica Vol. 67, No. 1 (1990), pp. 23-34 ([jstor:24492569](https://www.jstor.org/stable/24492569))
+ 
+  (for [[compact Lie groups]])
+
+* {#Honkasalo96} [[Hannu Honkasalo]], _Sheaves on fixed point sets and equivariant cohomology_, Math. Scand. __78__ (1996), 37--55 ([jstor:](https://www.jstor.org/stable/24492815))
+
+  (reformulation in [[topos theory]])
+
+See also at _[[orbifold cohomology]]_.
+
+
+Equivalent formulation using the [[Grothendieck construction]] for a certain [[Cat]]-valued [[presheaf]] on the [[orbit category]]"
 
 * [[Ieke Moerdijk|I. Moerdijk]], J-A. Svensson, _The equivariant Serre spectral sequence_, Proc. Amer. Math. Soc. __118__ (1993), no. 1, 263--278 [doi:10.2307/2160037](http://dx.doi.org/10.2307/2160037)
 
@@ -140,13 +156,8 @@ Further remarks on this and on the [[twisted cohomology]]-version is in
 
 * G. Mukherjee, N. Pandey, _Equivariant cohomology with local coefficients_ ([pdf](http://www.ams.org/proc/2002-130-01/S0002-9939-01-06377-8/S0002-9939-01-06377-8.pdf))
 
-* H. Honkasalo, _Sheaves on fixed point sets and equivariant cohomology_, Math. Scand. __78__ (1996), 37--55 ([pdf](http://www.mscand.dk/article.php?id=1099))
+* {#Honkasalo97} [[Hannu Honkasalo]], _A sheaf-theoretic approach to the equivariant Serre spectral sequence_, J. Math. Sci. Univ. Tokyo 4 (1997), 53--65 ([pdf](http://journal.ms.u-tokyo.ac.jp/pdf/jms040103.pdf))
 
-* H. Honkasalo, _A sheaf-theoretic approach to the equivariant Serre spectral sequence_, J. Math. Sci. Univ. Tokyo
-4 (1997), 53--65 ([pdf](http://journal.ms.u-tokyo.ac.jp/pdf/jms040103.pdf))
-
-For [[orbifolds]] there is a generalization of $K$-theory which is closely related to the Bredon cohomology (rather than usual equivariant cohomology):
-
-* Alejandro Adem, Yongbin Ruan, _Twisted Orbifold K-Theory_, Commun.Math.Phys. 237 (2003) 533-556, [doi:10.1007/s00220-003-0849-x](http://dx.doi.org/10.1007/s00220-003-0849-x) ([arXiv:0107.5168](http://front.math.ucdavis.edu/0107.5168))
+See also at _[[orbifold cohomology]]_.
 
 [[!redirects Bredon equivariant cohomology]]
