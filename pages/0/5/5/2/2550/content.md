@@ -65,14 +65,14 @@ The (∞,1)-category $\mathrm{H}(S)$ is a [[locally presentable (∞,1)-category
 
 ### Motivic spheres {#MotivicSpheres}
 
-The **Tate sphere** is the [[pointed object]] of $\mathrm{H}(S)$ defined by
+The _[[Tate sphere]]_ is the [[pointed object]] of $\mathrm{H}(S)$ defined by
 
-$$ T {:=} \mathbb{A}^1/\mathbb{G}_m, $$
+$$ T {\coloneqq} \mathbb{A}^1/\mathbb{G}_m, $$
 
 that is, $T$ is the [[homotopy cofiber]] of the inclusion $\mathbb{G}_m\hookrightarrow \mathbb{A}^1$.
 More generally, any algebraic [[vector bundle]] $V$ on $S$ (or, equivalently, any [[quasicoherent sheaf|locally free sheaf]] of finite rank on $S$) has an associated _motivic sphere_ given by its _[[Thom space]]_:
 
-$$ S^V {:=} V/V^\times. $$
+$$ S^V {\coloneqq} V/V^\times. $$
 
 Thus, $T=S^{\mathbb{A}^1}$.
 
@@ -547,3 +547,4 @@ See also
 [[!redirects motivic spectra]]
 
 [[!redirects homotopy theory of schemes]]
+
