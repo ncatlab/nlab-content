@@ -32,7 +32,7 @@ Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces
 
 This turns out to be broadly captured ([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
-The word _orbifold_ was introduced in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _global quotient orbifolds_.  
+The word _orbifold_ was introduced in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _[[global quotient orbifolds]]_.  
 
 There is also a notion of finite stabilizers in [[algebraic geometry]]. A singular variety is called an (algebraic) _orbifold_ if it has only so-called _orbifold singularities_.
 
@@ -53,7 +53,7 @@ An orbifold is a stack presented by an [[orbifold groupoid]].
 ### Global quotient orbifolds
  {#GlobalQuotientOrbifolds}
 
-In ([ALR 07, theorem 1.23](#ALR07)) is asserted that every effective orbifold $X$ (paracompact, Hausdorff) is isomorphic to a global quotient orbifold, specifically to a global quotient of $O(n)$ (where $n$ is the dimension of $X$) acting on the [[frame bundle]] of $X$ (which is a manifold).
+In ([ALR 07, theorem 1.23](#ALR07)) is asserted that every effective orbifold $X$ (paracompact, Hausdorff) is isomorphic to a [[global quotient orbifold]], specifically to a global quotient of $O(n)$ (where $n$ is the dimension of $X$) acting on the [[frame bundle]] of $X$ (which is a manifold).
 
 ### (Co)homology
 
@@ -194,7 +194,7 @@ The generalization of orbifolds to _weighted [[branched manifolds]]_ is discusse
 
 A reference dealing with the [[string topology]] of orbifolds is
 
-* {#ALR07} A. Adem, J. Leida, [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081]( https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+* {#ALR07} [[Alejandro Adem]], J. Leida, [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081]( https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 
 ### As Lie groupoids
