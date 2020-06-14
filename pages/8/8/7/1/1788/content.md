@@ -116,7 +116,10 @@ Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in exist
 
 * {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_, 2014 ([pdf](http://www-personal.umich.edu/~eclader/OctLect1.pdf))
 
- - $0 = s(n) \vdash_{n} \bot$
-  - $s(n) = s(n') \vdash_{n n'} n=n'$
-  - $\top \vdash_{n} \bigvee_{i} n=\underset{i}{\underbrace{s \dots s}}(0)$
+ * The signature for the theory of the _standard induction algebra_ has one sort symbol $N$, one function symbol $s:N\to N$ and one constant $O:N$. The theory axiomaticizes [[natural number object|natural number objects]] and the third axiom makes crucial use of the infinitary disjunction of geometric logic in order to state that every natural number is standard i.e. either 0 or obtained from 0 by repeated application of the successor function:
 
+  - $0 = s(n) \vdash_{n} \bot$
+  - $s(n) = s(n') \vdash_{n n'} n=n'$
+   - $\top \vdash_{n} \bigvee_{i} n=\underset{i}{\underbrace{s \dots s}}(0)$
+
+The [[classifying topos]] is $Set$. But due to the trivial subtopos lattice, theories classified by Set admit no quotient theories whence the geometric theory of natural numbers is complete in striking contrast with classical finitary first order logic! Furthermore, since $Set$ is the terminal topos classifying also the [[empty theory]], one sees that the object/type $\mathbb{N}$ of natural numbers "comes for free" in geometric logic. This observation underlies the ideas for a [[geometric type theory]] (for more on this see there!).
