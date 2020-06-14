@@ -38,7 +38,7 @@ More generally,  for $X$ a smooth manifold with smooth [[action]] of a [[connect
 
 ## Related concepts
 
-* [[rational cohomology]]
+* [[rational cohomology]], [[complex cohomology]]
 
 * [[de Rham cohomology]], [[de Rham theorem]]
 
