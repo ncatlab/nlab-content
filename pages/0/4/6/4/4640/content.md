@@ -377,6 +377,8 @@ that contract away cartesian factors of the affine line.
 
 * [[spectral affine line]]
 
+* [[Tate sphere]]
+
 ## References
 
 Discussion of [[étale homotopy type]] is in
