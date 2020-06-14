@@ -137,6 +137,27 @@ Lawvere's construction was written up as an [appendix to a proposal](#Lawvere62)
 
 [[Gian-Carlo Rota]] had (somehow) obtained a copy of [the appendix](#Lawvere62), which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012. 
 
+From a video commentary by [[Bill Lawvere]]:
+
+> I'd like to say
+that the idea of the category
+of probabilistic mappings, the document
+corresponding to that was not part of a seminar,
+as some of the circulations say, essentially it
+was the document submitted to the arms
+control and disarmament agency after
+suitable checking that the Pentagon
+didn't disagree with it.
+Because of the fact that for arms
+control agencies as a side
+responsibility the forming of arms
+control agreements and part of these
+agreements must involve agreed
+upon protocols of verification.
+So the idea of that paper did not
+provide such protocols, but it purported
+to provide reasonable framework within
+which such protocol can be formulated.
 
 
 ## References
