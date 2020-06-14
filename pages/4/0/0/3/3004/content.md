@@ -75,6 +75,14 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
   $$ \top \vdash_{x} \bigvee_{n\ge 1} (n \cdot x = 0) $$
   asserting that for each $x$, either $x=0$ or $x+x=0$ or $x+x+x=0$ or ....  Similarly, the theory of fields of finite [[characteristic]] is geometric but not coherent.
 
+* The signature for the _theory of the standard induction algebra_ has one sort symbol $N$, one function symbol $s:N\to N$ and one constant $0:N$. The theory axiomaticizes [[natural number object|natural number objects]] and the third axiom makes crucial use of the infinitary disjunction of geometric logic in order to state that every natural number is standard i.e. either 0 or obtained from 0 by repeated application of the successor function:
+
+  - $0 = s(n) \vdash_{n} \bot$
+  - $s(n) = s(n') \vdash_{n n'} n=n'$
+  - $\top \vdash_{n} \bigvee_{i} n=\underset{i}{\underbrace{s \dots s}}(0)$
+
+  The [[classifying topos]] is $Set$. But due to the trivial subtopos lattice, theories classified by Set admit no consistent quotient theories whence the geometric theory of natural numbers is _complete_ in contrast with finitary [[first order logic]]! Furthermore, since $Set$ is the terminal topos classifying also the [[empty theory]] (over the empty signature), one sees that the object/type $\mathbb{N}$ of natural numbers "comes for free" in geometric logic. This observation underlies the ideas for a [[geometric type theory]] (for more on this see there or the [article by Vickers](#Vickers09) !).
+
 * The theory of a [[real number]] is geometric.  This is a [[propositional logic|propositional]] theory, having no sorts, and having one relation symbol "$p\lt x\lt q$" for each pair of rational numbers $p\lt q$.  Its axioms are:
   - $(p_1\lt x\lt q_1) \wedge (p_2\lt x\lt q_2) \vdash (\max(p_1,p_2) \lt x \lt \min(q_1,q_2))$ (if $\max(p_1,p_2)\lt \min(q_1,q_2)$), and $(p_1\lt x\lt q_1) \wedge (p_2\lt x\lt q_2) \vdash \bot$ (otherwise).
   - $(p\lt x\lt q) \vdash (p\lt x\lt q') \vee (p' \lt x\lt q)$ (if $p\lt p' \lt q' \lt q$).
@@ -82,8 +90,6 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
   - $\top \vdash \bigvee_{p\lt q} (p\lt x\lt q)$.
 
   The [[classifying topos]] of this theory is the topos of [[sheaves]] on the [[real numbers]].
-
-* The theory of a set isomorphic to $\mathbb{N}$ is geometric, and makes essential use of the infinitary disjunctions. See [[geometric type theory]].
 
 * The theory of flat diagrams[^flat] over a small category $\mathcal{C}$ is geometric. For each object $i$ of $\mathcal{C}$ there is a sort $\sigma_i$, and for each morphism $u\colon i \to j$ a function symbol $\alpha_u\colon \sigma_i \to \sigma_j$. The axioms are -
 
@@ -239,7 +245,7 @@ Discussion in the context of [[computer science]] is in
 
 Discussion with an eye towards [[geometric type theory]] is in 
 
-* [[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
+* {#Vickers09}[[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
 
 [[Stone duality]] for geometric theories is discussed in:
 
