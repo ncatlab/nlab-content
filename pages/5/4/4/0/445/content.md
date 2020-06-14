@@ -49,7 +49,7 @@ to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a singl
 
 * In algebraic categories such as [[Grp]], for $M=$ monomorphisms, this also reproduces the ordinary notions of image.
 
-* In [[Top]], for $M=$ [[subspace]] inclusions, the $M$-image is the set-theoretic image topologized as a [[subspace]] of the [[target|codomain]].  On the other hand, for $M=$ injective continuous maps, the $M$-image is the set-theoretic image topologized as a [[quotient space]] of the [[source|domain]]. For more basic details see at _[[Introduction to Topology -- 1]]_ [here](#ImageFactorization).
+* In [[Top]], for $M=$ [[subspace]] inclusions, the $M$-image is the set-theoretic image topologized as a [[subspace]] of the [[target|codomain]], see [[subspace topology]] and more comprehensive [Introduction to topology](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+1#subspaces). On the other hand, for $M=$ injective continuous maps, the $M$-image is the set-theoretic image topologized as a [[quotient space]] of the [[source|domain]].
 
 * A [[regular category]] can be defined as a [[finitely complete category]] in which all images exist for $M=$ monomorphisms, and such images are moreover stable under [[pullback]].  In particular, this includes any [[topos]].
 
@@ -207,7 +207,7 @@ There are several properties we might want a 'higher image' to have. For example
 
 ### In $(\infty,1)$-category theory {#InfImage}
 
-A **(regular) $(\infty,1)$-image** of a morphism $f : c \to d$ in an [[(∞,1)-category]] with [[(∞,1)-limit]]s and -colimits should be defined to be the [[(∞,1)-limit]] over the [[Cech nerve|Cech co-nerve]] of $f$:
+A **(regular) $(\infty,1)$-image** of a morphism $f : c \to d$ in an [[(∞,1)-category]] with [[(∞,1)-limit]]s and -colimits should be defined to be the [[(∞,1)-limit]] over the [[Čech nerve|Cech co-nerve]] of $f$:
 
 $$
   im f := \lim_{\leftarrow}
