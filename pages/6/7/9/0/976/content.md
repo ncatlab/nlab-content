@@ -248,7 +248,7 @@ References relating more to strong shape  theory include:
 
 * [[Sibe Mardesic|S. Mardešić]], _Strong shape and homology_, Springer monographs in mathematics, Springer-Verlag. 
 
-* [[Michael Batanin]], [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
+* [[Michael Batanin]], [Categorical strong shape theory](http://www.numdam.org/item/CTGDC_1997__38_1_3_0/), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 
 * [[T. Porter]], _Stability Results for Topological Spaces_, Math. Zeit. 150, 1974, pp. 1-21.
 
