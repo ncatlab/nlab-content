@@ -315,6 +315,10 @@ Discussion of K-theory of [[orbifolds]] is for instance in section 3 of
 
 * Alejandro Adem, Johanna Leida, Yongbin Ruan, _Orbifolds and string topology_, Cambridge Tracts in Mathematics 171, 2007 ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
+Discussion of [[differential K-theory]] of [[orbifolds]]:
+
+* [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold K-Theory_, J. Noncommut. Geom. 7 (2013), no. 4, 1027-1104 ([arXiv:0905.4181](https://arxiv.org/abs/0905.4181))
+
 Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|equivariant]] and [[real K-theory|real]] K-theory
 
 * [[El-kaïoum M. Moutuou]], _Twistings of KR for Real groupoids_ ([arXiv:1110.6836](http://arxiv.org/abs/1110.6836))
