@@ -218,18 +218,20 @@ The original references for the shape theory of metric compacta are:
 
 * [[Karol Borsuk]], _Theory of Shape_, Monografie Matematyczne Tom 59, Warszawa 1975 ([mathscinet:0418088](https://mathscinet.ams.org/mathscinet-getitem?mr=0418088))
 
+* [[Karol Borsuk]], [[Jerzy Dydak]], _What is the theory of shape?_, Bulletin of the Australian Mathematical Society, 1980, 22(2), 161-198, ([doi:10.1017/S000497270000647X](https://doi.org/10.1017/S000497270000647X))
+
+
 A generalization in categorical approach is given in
 
 * W. Holszty&#324;ski, _An extension and axiomatic characterization of Borsuk's theory of shape_, Fund. Math. 70 (1971) no. 2, 157&#8211;168 [pdf](https://www.impan.pl/shop/en/publication/transaction/download/product/79189)
 
 The 'ANR-systems' approach of Marde&#353;i&#263; and Segal appeared a bit later in
 
-* [[Sibe Mardesic|S. Mardešić]], J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
+* [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
 
 and is fully developed in 
 
-* [[Sibe Mardesic|S. Mardešić]], J. Segal, _Shape theory_, North 
-Holland, 1982.
+* [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shape theory. The inverse system approach_, North-Holland Mathematical Library, 26. North-Holland, Amsterdam - New York, 1982.
 
 The more or less equivalent pro-object approach was independently developed by Porter in 
 
