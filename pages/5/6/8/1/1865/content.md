@@ -218,9 +218,9 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 * {#GradySati19} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
-The differential version of [[equivariant K-theory]] is in
+Discussion of differential versions of [[equivariant K-theory]], in the generality of [[,orbifolds]]:
 
-* [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold $K$-Theory_ ([arXiv:0905.4181](http://arxiv.org/abs/0905.4181))
+* [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold K-Theory_, J. Noncommut. Geom. 7 (2013), no. 4, 1027-1104 ([arXiv:0905.4181](https://arxiv.org/abs/0905.4181))
 
 The equivalence of these models with the respective special case of the general construction in 
 
