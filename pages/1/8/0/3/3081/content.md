@@ -3,9 +3,11 @@ __Sibe Marde&#353;i&#263;__ was a Croatian [[topology|topologist]], retired Prof
 A brief biography can be found in the article [HAPPY 80-th BIRTHDAY PROFESSOR MARDE&#352;I&#262;](http://web.math.hr/glasnik/vol_42/mardesic.html), in Glasnik Matemati&#269;ki, the journal that he helped to found.
 
 
+## Selected writings
+
 Most of Sibe Marde&#353;i&#263;'s important works are related to [[shape theory]] and geometric topology, mainly in the approach via inverse systems, which he pioneered (there was also a parallel development by [[Tim Porter]]). Sibe Marde&#353;i&#263; wrote several monographs and edited several proceedings volumes in geometric topology and shape theory.  
  
-* S. Marde&#353;i&#263;, J. Segal, _Shape theory_, North Holland 1982.
+* S. Marde&#353;i&#263;, [[Jack Segal]], _Shape theory_, North Holland 1982.
  
 * S. Marde&#353;i&#263;, Strong shape and homology, Springer monographs in mathematics, 2000. xii+489 pp.
 
