@@ -163,7 +163,8 @@ and was picked up and published in:
 Historical comments on the appearance of [Lawvere 62](#Lawvere62) are made in
 
 
-* {#Lawvere20} [[Bill Lawvere]], video discussion, 2020 ([1:00:20 here](http://www.youtube.com/watch?v=BhKaHAY8Ec8&t=60m21s))
+* {#Lawvere20} [[Bill Lawvere]], video discussion, 6 June 2020 (in the talk "The algebra of statistical theories and models" by Evan Patterson, at [Categorical Probability and Statistics](http://perimeterinstitute.ca/personal/tfritz/2019/cps_workshop/), 5–8 June 2020, 
+([YouTube video, timestamp 1:00:20](http://www.youtube.com/watch?v=BhKaHAY8Ec8&t=60m21s))
 
 According to [E. Burroni (2009)](#Burroni09), the Giry monad appears also in
 
