@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[equivariant K-theory]] as a [[Spectra]]-valued [[presheaf]] on the [[orbit category]] (a [[naive G-spectrum]]):
+
+* [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
+
+
 On [[equivariant stable cohomotopy]] and the [[Burnside ring]]:
 
 * {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_, Pure Appl. Math. Q.  1 (2005), no. 3, Special Issue: In memory of Armand Borel. Part 2, 479--541 ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
