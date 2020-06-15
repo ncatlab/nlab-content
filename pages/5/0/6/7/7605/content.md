@@ -16,7 +16,7 @@
 
 ## Idea
 
-[[homotopy type theory|Homotopy type theory]] has [[categorical semantics]] in suitable [[homotopical categories]] which in turn present certain [[(infinity,1)-categories]].  The additional structure of type theory corresponds to structure on these homotopical categories that makes them into a certain kind of [[fibration category]], known as a [[type-theoretic fibration category]] or a [[tribe]].
+[[homotopy type theory|Homotopy type theory]] has [[categorical semantics]] in suitable [[homotopical categories]] which in turn present certain [[(∞,1)-categories]].  The additional structure of type theory corresponds to structure on these homotopical categories that makes them into a certain kind of [[fibration category]], known as a [[type-theoretic fibration category]] or a [[tribe]].
 
 In practice, however, semantic examples of tribes naturally sit inside certain [[Quillen model categories]].  The concept of _type-theoretic model category_ refers to a model category with additional structure that in particular ensures that its subcategory of fibrant objects is a tribe, but also includes additional conditions that make it easier to use model-categorical tools to prove things about the type-theoretic behavior of that tribe.  At present it is not clear whether there is a unique "correct" notion of "type-theoretic model category"; instead there is a range of stronger or weaker hypotheses that are often useful in proofs of this sort.
 
@@ -56,7 +56,7 @@ Definitions in the literature include:
 
 * The [[classical model structure on simplicial sets]] satisfies *all* the above properties, as does the [[injective model structure on simplicial presheaves]].
 
-* Every [[presentable (∞,1)-category|locally presentable]] [[locally Cartesian closed (∞,1)-category]] (by the discussion <a href="locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">there</a>) has a presentation by a [[right proper model category|right proper]] [[Cisinski model category]] (a combinatorial model structure on a Grothendieck topos whose cofibrations are the monomorphisms), indeed one whose underlying category is a presheaf topos.  Thus very strong conditions may be assumed without significantly restricting the class of (∞,1)-categories that can be presented.
+* Every [[presentable (∞,1)-category|locally presentable]] [[locally Cartesian closed (∞,1)-category]] (by the discussion <a href="locally+cartesian+closed+(∞,1)-category#PresentationTheorem">there</a>) has a presentation by a [[right proper model category|right proper]] [[Cisinski model category]] (a combinatorial model structure on a Grothendieck topos whose cofibrations are the monomorphisms), indeed one whose underlying category is a presheaf topos.  Thus very strong conditions may be assumed without significantly restricting the class of (∞,1)-categories that can be presented.
 
 * Another (counter-)example to keep in mind, however, is the [[canonical model structure on groupoids]], which is combinatorial and simplicial, all objects are fibrant and cofibrant, pullback along fibrations has a right adjoint, cofcibrations are closed under limits, and all monomorphisms are cofibrations; but the category $Gpd$ is not locally cartesian closed (hence not a Grothendieck topos), and not every cofibration is a monomorphism.
 
