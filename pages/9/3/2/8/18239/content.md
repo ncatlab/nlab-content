@@ -98,6 +98,8 @@ If $f$ is a proper map (def. \ref{ProperContinuous}), then it is a [[closed map]
 
 * [[proper homotopy]]
 
+* [[proper equivariant homotopy theory]]
+
 [[!redirects proper maps]]
 [[!redirects proper continuous map]]
 [[!redirects proper continuous maps]]
