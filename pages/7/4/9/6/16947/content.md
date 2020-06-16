@@ -19,9 +19,9 @@ On [[orbifolds]]:
 
 * {#AdemKlaus} [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf), [[AdemKlausOrbifolds.pdf:file]])
 
-On [[orbifold cohomology]] with emphasis of [[Chen-Ruan cohomology]]:
+On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomology]] and [[equivariant K-theory]]:
 
-* {#ALR07} [[Alejandro Adem]], J. Leida, [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 On [[orbifolds]] in [[mathematical physics]] and in particular in [[string theory]]:
 
