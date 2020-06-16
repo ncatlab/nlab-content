@@ -9,6 +9,10 @@ On the interpretation of [[tensor networks]] encoding [[holographic entanglement
 
 * [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
 
+Review:
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_ ([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
+
 On the [[black hole firewall problem]]:
 
 * [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_ ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
