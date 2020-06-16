@@ -13,9 +13,14 @@ Moreover, since the orbifold's [[isotropy groups]] $G_x$ are, by definition, [[f
 
 Therefore, in the special case of [[rational cohomology|rational]]/[[real cohomology|real]]/[[complex cohomology|complex]] [[coefficients]], the traditional orbifold Borel cohomology reduces further to an invariant of just (the [[homotopy type]] of) the naive quotient underlying an orbifold. For global quotient orbifolds  this is the [[topological quotient space]] $X/G$.
 
-In this form, as an invariant of just$X/G$, the [[real cohomology|real]]/[[complex cohomology|complex]]/[[de Rham cohomology]] of orbifolds was originally introduced in 
+In this form, as an invariant of just $X/G$, the [[real cohomology|real]]/[[complex cohomology|complex]]/[[de Rham cohomology]] of orbifolds was originally introduced in 
 
-* {#Satake56} [[Ichiro Satake]], _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359]( https://doi.org/10.1073/pnas.42.6.359))
+* {#Satake56} [[Ichiro Satake]], _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359](https://doi.org/10.1073/pnas.42.6.359))
+
+following analogous constructions in
+
+* [[Walter Lewis Baily]], _On the quotient of an analytic manifold by a group of analytic homeomorphisms_, PNAS 40 (9) 804-808 (1954) ([doi:10.1073/pnas.40.9.804](https://doi.org/10.1073/pnas.40.9.804))
+
 
 Since this traditional [[rational cohomology]] of orbifolds does, hence, not actually reflect the specific nature of orbifolds, a proposal for a finer notion of orbifold cohomology was famously introduced (motivated from orbifolds as [[target spaces]] in [[string theory]], hence from orbifolding of [[2d CFTs]]) in 
 
