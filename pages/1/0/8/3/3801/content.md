@@ -278,9 +278,6 @@ Refinements of string topology from [[homology groups]] to the full [[ordinary h
 
 * [[Ralph Cohen]], [[John Jones]], _Gauge theory and string topology_ ([arXiv:1304.0613](http://arxiv.org/abs/1304.0613))
 
-A generalization of string topology with target manifolds generalized to [[orbifolds]] is discussed in
-
-* Alejandro Adem, Johanna Leida, Yongbin Ruan, _Orbifolds and string topology_, Cambridge Tracts in Mathematics 171, 2007 ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 Further generalization to target spaces that are more generally [[differentiable stacks]]/[[Lie groupoids]] is discussed in
 
