@@ -268,7 +268,8 @@ The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completi
 
 * {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 ([numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0))
 
-* {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. MR 0259946
+* {#SegalAtiyah69} [[Michael Atiyah]], [[Graeme Segal]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. 
+([euclid:jdg/1214428815](https://projecteuclid.org/euclid.jdg/1214428815), MR 0259946)
  
 and for [[algebraic K-theory]] to
 
