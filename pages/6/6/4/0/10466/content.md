@@ -292,6 +292,8 @@ The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definiti
 
 * [[global equivariant stable homotopy theory]]
 
+* [[proper equivariant homotopy theory]]
+
 [[!include equivariant homotopy theory -- table]]
 
 [[!include homotopy type representation theory -- table]]
