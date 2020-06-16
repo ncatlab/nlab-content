@@ -1168,7 +1168,7 @@ The same lecture also introduced _[[motivic integration]]_.
 
 
 
-### Genuine orbifold cohomology
+### Proper orbifold cohomology
  
 Discussion of orbifold cohomology in the context of [[Bredon cohomology|Bredon]]/[[global equivariant homotopy theory|global]] [[equivariant cohomology]] includes
 
