@@ -17,6 +17,8 @@
 
     * [[reflexive Banach space|reflexive]]
 
+  * [[Smith space (functional analysis)|Smith Spaces]]
+
   * [[Hilbert space|Hilbert Spaces]], [[Fréchet space|Fréchet Spaces]], [[Sobolev space|Sobolev spaces]], [[Lebesgue space|Lebesgue Spaces]]
 
   * [[bornological vector space|Bornological Vector Spaces]]
