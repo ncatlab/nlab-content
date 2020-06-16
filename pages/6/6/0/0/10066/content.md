@@ -247,6 +247,8 @@ There is a [[Chern character]] map from equivariant K-theory to [[equivariant or
 
 * [[Atiyah-Segal completion theorem]]
 
+* [[orbifold K-theory]]
+
 * [[equivariant elliptic cohomology]]
 
 * [[equivariant algebraic K-theory]]
