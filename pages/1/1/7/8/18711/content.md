@@ -50,6 +50,9 @@ Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs
 
 * C. Adam, J. Sanchez-Guillen, R. Vazquez, A. Wereszczynski, _Adding crust to BPS Skyrme neutron stars_ ([arXiv:2004.03610](https://arxiv.org/abs/2004.03610))
 
+* Christoph Adam, Alberto García Martín-Caro, Miguel Huidobro García, Ricardo Vázquez, Andrzej Wereszczynski, _A new consistent Neutron Star Equation of State from a Generalized Skyrme model_ ([arXiv:2006.07983](https://arxiv.org/abs/2006.07983))
+
+
 Taking [[higher curvature corrections]] into account ([[Starobinsky model of cosmic inflation|Starobinsky model]]):
 
 * C. Adam, M. Huidobro, R. Vazquez, A. Wereszczynski, _BPS Skyrme neutron s tars in generalized gravity_ ([arXiv:2005.10834](https://arxiv.org/abs/2005.10834))
