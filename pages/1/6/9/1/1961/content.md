@@ -192,7 +192,7 @@ $$
   \right)
     \;\Leftrightarrow\;
   \left(
-   \frac{d}{d t} \gamma_1^j = \frac{d}{d t} \gamma_2^\psi
+   \frac{d}{d t} \gamma_1^j = \frac{d}{d t} \gamma_2^j
   \right)
   \,.
 $$
