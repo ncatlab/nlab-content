@@ -171,6 +171,11 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
 
+Review in
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_ ([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
+
+
 ### Relation to weight systems on chord diagrams
 
 An argument that [[AdS/CFT duality|dual]] [[observables]] on [[black hole thermodynamics]] are generically given by [[single trace operators]] that evaluate to [[weight systems]] on [[chord diagrams]] (such as observables on [[SYK model]]-like systems)
