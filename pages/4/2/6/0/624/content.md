@@ -291,6 +291,10 @@ A large number of further examples can be found in
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
 
+Monoidal categories with freely adjoint duals are described in
+
+*  Kevin Coulembier, [[Ross Street]], Michel van den Bergh, _Freely adjoining monoidal duals_, arXiv:2004.09697 (2020).  ([abstract](https://arxiv.org/abs/2004.09697))
+
 The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to section 2.3 of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
