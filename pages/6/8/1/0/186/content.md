@@ -45,7 +45,7 @@ According to the general nonsense of [[space and quantity]], generalized smooth 
 * [[CartSp]]-[[structured (∞,1)-topos|Structured (∞,1)-topos]]
 
   * [[differential module|Differential modules]]
-  * [[Smith space|Smith spaces]]
+  * [[Smith space (generalized smooth space)|Smith spaces]]
   * [[stratifold|Stratifolds]]
   * [[polyfold|Polyfolds]]
   * [[derived smooth manifold|Derived smooth manifolds]]
