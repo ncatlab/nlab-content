@@ -21,7 +21,7 @@
 
 * [[logos (in philosophy)]], [[nous]]
 
-* [[???]]
+* [[道德經]]
 
 
 ## References
