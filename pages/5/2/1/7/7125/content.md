@@ -301,7 +301,7 @@ Of course, more interesting examples of the gluing construction abound as well. 
 
 * {#JLS07}[[Peter Johnstone]], [[Steve Lack]], [[Pawel Sobocinski]], _Quasitoposes, Quasiadhesive Categories and Artin Glueing_ , pp.312-326 in LNCS **4624** Springer Heidelberg 2007. ([preprint](http://users.ecs.soton.ac.uk/ps/papers/calco07.pdf)) 
 
-* [[Mamuka Jibladze]], _Lower Bagdomain as a Glueing_ , Proc. A. Razmadze Math. Inst. **118** (1998) pp.33-41. ([pdf](http://www.rmi.ge/~jib/baglue.pdf))
+* [[Mamuka Jibladze]], _Lower Bagdomain as a Glueing_ , Proc. A. Razmadze Math. Inst. **118** (1998) pp.33-41. ([pdf](http://www.rmi.ge/~jib/pubs/baglue.pdf))
 
 * [[Anders Kock|A. Kock]], T. Plewe, _Glueing analysis for complemented subtoposes_ , TAC **2** (1996) pp.100-112. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n9/n9.pdf))
 
