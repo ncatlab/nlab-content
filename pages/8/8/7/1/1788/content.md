@@ -1,4 +1,9 @@
 
+
+> As the 21st Century began, the Clay Mathematics Institute established seven Millennium Prize Problems [ [11](mass+gap#ReferencesMassGapProblem) ]. Each represents one of the toughest challenges in mathematics. The set contains the [[mass gap problem|problem of confinement]]; and  presenting a sound solution will win its discoverer 1,000,000 bucks. Even with  such motivation, today, almost fifty years after the discovery of [[quarks]] [12–14], no rigorous solution has been found. Confinement and EHM are inextricably linked. Consequently, as  science plans for the next thirty  years, solving the problem of EHM has become a _grand challenge_.
+
+***
+
 $\prec$
 
 ## Internal Links
