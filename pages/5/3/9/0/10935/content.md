@@ -42,7 +42,7 @@ According to ([Hegel, Philosophy of the Spirit -- The soul](Science+of+Logic#PS3
 
 * [[logos (in philosophy)]]
 
-* [[???]]
+* [[道德經]]
 
 * [[metaphysics]]
 
