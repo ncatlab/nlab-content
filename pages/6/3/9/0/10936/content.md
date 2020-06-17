@@ -32,7 +32,7 @@ From ([Hegel, Science of Logic, &#167;85](Science+of+Logic#85)):
 
 * [[category of being]]
 
-* [[???]]
+* [[道德經]]
 
 * [[hermeticism]]
 
