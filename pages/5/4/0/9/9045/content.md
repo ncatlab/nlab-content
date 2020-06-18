@@ -442,6 +442,9 @@ Geometric Variations_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/tifr.pdf)
 
 * [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
 
+For [[orbifold cohomology]]:
+
+* Javier Fernandez, _Hodge structures for orbifold cohomology_, Proc. Amer. Math. Soc. 134 (2006), no. 9, 2511-2520 ([arXiv:math/0311026](https://arxiv.org/abs/math/0311026))
 
 [[!redirects Hodge structures]]
 
