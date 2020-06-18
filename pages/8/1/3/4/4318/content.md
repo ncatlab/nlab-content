@@ -135,6 +135,9 @@ The corresponding [[spectral sequence of a double complex]] is called the _[[Fr√
 
 * [[Kodaira vanishing theorem]]
 
+* [[de Rham cohomology]]
+
+* [[Bott-Chern cohomology]]
 
 ## References
 
