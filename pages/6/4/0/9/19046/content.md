@@ -91,6 +91,12 @@ shows that $\mathcal{S}[\mathbb{O}]^\mathcal{E}$ has precisely the properties re
 
 In other words, $\mathbb{T}^*$ is geometric (and classified by $\mathcal{S}[\mathbb{O}]^\mathcal{E}$) precisely iff $\mathcal{E}=\mathcal{S}[\mathbb{T}]$ is exponentiable! 
 
+### Example
+
+Let $0$ be the [[initial topos]] that classifies the _inconsistent theory_ $\mathbb{T}^\emptyset_1$ over the empty signature. Then from $\mathcal{S}[\mathbb{O}]^0=\mathcal{S}$ follows that the _dual_ of the inconsistent theory is $\mathbb{T}_1^{\emptyset\ast}=\mathbb{T}_{\emptyset}^{\emptyset}$ with $\mathbb{T}_{\emptyset}^{\emptyset}$ the [[empty theory]] (over the empty signature).
+
+From $\mathcal{S}[\mathbb{O}]^\mathcal{S}=\mathcal{S}[\mathbb{O}]$ follows in turn that the _double dual_ of the inconsistent theory, or, in other words, the dual of the empty theory, is $\mathbb{T}_1^{\emptyset\ast\ast}=\mathbb{T}^{\emptyset\ast}_\emptyset=\mathbb{O}$ with $\mathbb{O}$ the [[theory of objects]].
+
 
 ## Ramifications
 
