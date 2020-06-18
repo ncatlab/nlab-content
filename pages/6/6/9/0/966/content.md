@@ -25,13 +25,13 @@ The basic idea of an adjoint functor theorem is that _if_ we could assume that a
 $$
   L c \coloneqq \lim_{c\to R d} d
 $$
-over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor $\pi: c/R \to D$: 
+This notation stands for a limit over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor $\pi: c/R \to D$ that forgets the morphism $f$: 
 $$
-  L c = \lim\; (c/R \to D )
+  L c = \lim\; \pi
   \,.
 $$
 
-Because with this definition there would be for every $d$ an obvious morphism
+Because with this definition there would be, for every $d$, an obvious morphism
 $$
   L R d \stackrel{=}{\to} \lim_{R d \to R d'} d' \to d
 $$
