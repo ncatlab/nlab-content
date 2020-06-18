@@ -68,7 +68,7 @@ The original articles are
 
 For a complete review of [[exceptional field theory]] see
 
-* [[David Berman]], Chris D. A. Blair, _The Geometry, Branes and Applications of Exceptional Field Theory_, ([arXiv:2006.09777](http://arxiv.org/abs/2006.09777))
+* {#BermanBlair06} [[David Berman]], Chris D. A. Blair, _The Geometry, Branes and Applications of Exceptional Field Theory_, ([arXiv:2006.09777](http://arxiv.org/abs/2006.09777))
 
 Review for [[KK-compactification]] to [[5d supergravity]], hence for [[E6]]-[[U-duality]], includes
 
