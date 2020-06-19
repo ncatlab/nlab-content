@@ -354,6 +354,8 @@ For related ideas see also
 
 * Oystein Ore, _Sex in Graphs_ , Proc. AMS **11** (1960) pp.533-539. ([pdf](http://www.ams.org/journals/proc/1960-011-04/S0002-9939-1960-0117174-7/S0002-9939-1960-0117174-7.pdf))
 
+* Nina Otter, Mason J. Porter, _A unified framework for equivalences in social networks_ , arXiv:2006.10733 (2020). ([abstract](https://arxiv.org/abs/2006.10733))
+
 First steps in [[topos theory]] can be undertaken with [Lawvere-Schanuel (1997)](#LawSchan97) whereas the level of sophistication then increases steadily from
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
