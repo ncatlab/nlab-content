@@ -59,9 +59,9 @@ Cf. Johnstone ([1977](#J77), p. 203), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p
 
 ## Examples
 
-* Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory, over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models. In other words, squaring theories obeys the laws of arithmetics at 0 and 1.
+* Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory, over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models. In other words, squaring theories obeys the laws of arithmetics at 0 and 1. Incidentally, the case of $\mathbb{T}^\emptyset_\emptyset$ which is classified by $Set$ shows that $Set[\mathbb{T}^2]\neq Set[\mathbb{T}]^2$ in general.
 
-* Let $\mathbb{O}$ be the [[theory of objects]] i.e. the theory with no sequents over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$.
+* Let $\mathbb{O}$ be the [[theory of objects]] i.e. the theory with no sequents over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$. Clearly, its models in a Grothendieck topos $\mathcal{E}$ are the morphisms of $\mathcal{E}$ and, accordingly, $\mathbb{O}^2$ could be called the _theory of morphisms_. It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$.
 
 ## Related Entries
 
@@ -76,7 +76,6 @@ Cf. Johnstone ([1977](#J77), p. 203), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p
 * [[Sierpinski topos]]
 
 ## References
-
 
 * {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014)
 
