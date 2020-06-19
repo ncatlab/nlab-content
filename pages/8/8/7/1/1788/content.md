@@ -1,133 +1,84 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
-> As the 21st Century began, the Clay Mathematics Institute established seven Millennium Prize Problems [ [11](mass+gap#ReferencesMassGapProblem) ]. Each represents one of the toughest challenges in mathematics. The set contains the [[mass gap problem|problem of confinement]]; and  presenting a sound solution will win its discoverer 1,000,000 bucks. Even with  such motivation, today, almost fifty years after the discovery of [[quarks]] [12–14], no rigorous solution has been found. Confinement and EHM are inextricably linked. Consequently, as  science plans for the next thirty  years, solving the problem of EHM has become a _grand challenge_.
 
-***
+[[!redirects theory of $\mathbb{T}-model homomorphisms]]
+[[!redirects theory of T-model homomorphisms]]
+[[!redirects theory of homomorphism]]
 
-$\prec$
+#Contents#
+* table of contents
+{:toc}
 
-## Internal Links
+##Idea
+For any [[geometric theory]] $\mathbb{T}$ there exists a geometric theory $\mathbb{T}^2$, the **theory of $\mathbb{T}$-model homomorphisms**, whose models in a [[Grothendieck topos]] $\mathcal{E}$ are precisely the homomorphisms between $\mathbb{T}$-models in $\mathcal{E}$.
 
-* [with single brackets](base+change)
-* [[base change|with double brackets (to existant page)]]
-* [[foo bar|with double brackets (to new page)]]
-* [[pullback#PullbackFunctor|with double brackets to fragment]]
+## Definition
 
+Let $\mathbb{T}$ be a [[geometric theory]] over the [[signature]] $\Sigma$.
 
-### Traditional notions of orbifold cohomology
+Let $\Sigma^2$ be the signature containing a pair of new sort symbols $X^0$, $X^1$ and a new function symbol $f_X:X^0\to X^1$ for any sort symbol $X$ in $\Sigma$, as well, as pairs $g^0:X_1^0\times\dots\times X_n^0\to Y^0$, $g^1:X_1^1\times\dots\times X_n^1\to Y^1$ of new functions symbols (resp. pairs $r^0\rightarrowtail X_1^0\times\dots\times X_n^0$, $r^1\rightarrowtail X_1^1\times\dots\times X_n^1$ of new relation symbols) for any function symbol $g:X_1\times\dots\times X_n\to Y$ (resp. relation symbol $r\rightarrowtail X_1\times\dots\times X_n$) in $\Sigma$.
 
-Traditionally, the [[cohomology]] of [[orbifolds]]  has, by and large, been taken to be simply the cohomology of (the plain [[homotopy type]] of) the [[geometric realization of simplicial topological spaces|geometric realization]] of the [[Lie groupoid]] (or [[topological groupoid]]) corresponding to the orbifold. 
+The **theory of $\mathbb{T}$-model homomorphisms** is the theory $\mathbb{T}^2$ over the signature $\Sigma^2$ with the following sequents:
 
-For global quotient orbifolds of a [[topological G-space|G-space]] $X$, this is the cohomology of (the bare [[homotopy type]] of) the  [[Borel construction]] $X \!\sslash\! G \;\simeq\; X \times_G E G $, hence is _[[Borel cohomology]]_ (as opposed to finer versions of [[equivariant cohomology]] such as [[Bredon cohomology]]). 
+ A pair of sequents $\varphi^0\vdash \psi^0$, $\varphi^1\vdash \psi^1$ for any sequent $\varphi\vdash \psi$ in $\mathbb{T}$ where the new sequents result from replacing the function and relation symbols in $\varphi\vdash \psi$ with their 0-indexed, resp. 1-indexed pendants. Plus a sequent
 
-A dedicated account of this Borel cohomology of orbifolds, in the generality of [[twisted cohomology]] (i.e. with [[local coefficients]]) is in:
+:$\top\vdash f_Y(g^0(x_1,\dots,x_n))=g^1(f_{X_1}(x_1),\dots,f_{X_n}(x_n))$
 
-* {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]], _Simplicial cohomology of orbifolds_, Indagationes Mathematicae Volume 10, Issue 2, 1999, Pages 269-293 (<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>)
+resp.
 
-Moreover, since the orbifold's [[isotropy groups]] $G_x$ are, by definition, [[finite groups]], their [[classifying spaces]] $\ast \!\sslash\! G \simeq G B G$ have purely [[torsion subgroup|torsion]] [[integral cohomology]] in positive degrees, and hence become indistinguishable from the [[point]] in [[rational cohomology]] (and more generally whenever their [[order of a group]] is [[unit|invertible]] in the [[coefficient]] [[ring]]).
+:$r^0(x_1,\dots,x_n)\vdash r^1(f_{X_1}(x_1),\dots,f_{X_n}(x_n))$
 
-Therefore in the special case of [[rational cohomology|rational]] or [[real cohomology|real]] [[coefficient]], the traditional orbifold Borel cohomology reduces further to an invariant of just (the [[homotopy type]] of) of the naive quotient underlying an orbifold. For global quotient orbifolds  this is the [[topological quotient space]] $X/G$.
-
-In this form, as an invariant of $X/G$, the [[real cohomology|real]]/[[de Rham cohomology]] of orbifolds was originally introduced in 
-
-* {#Satake56} [[Ichiro Satake]], _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359]( https://doi.org/10.1073/pnas.42.6.359))
-
-Since this traditional [[rational cohomology]] of orbifolds does, hence, not actually reflect the specific nature of orbifolds, a proposal for a finer notion of orbifold cohomology was famously introduced (motivated from orbifolds as [[target spaces]] in [[string theory]], hence from orbifolding of [[2d CFTs]]) in 
-
-* {#ChenRuan00} [[Weimin Chen]], [[Yongbin Ruan]], _A New Cohomology Theory for Orbifold_, Commun. Math. Phys. 248 (2004) 1-31 ([arXiv:math/0004129](https://arxiv.org/abs/math/0004129))
-
-However, [[Chen-Ruan cohomology]] of an orbifold $\mathcal{X}$ turns out to be just Bredon cohomology with rational coefficients, hence is just Satake's coarse cohomology, but applied to the [[inertia orbifold]] of $\mathcal{X}$. A review that makes this explicit is (see p. 4 and 7):
-
-* {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_, 2014 ([pdf](http://www-personal.umich.edu/~eclader/OctLect1.pdf))
-
-Hence Chen-Ruan cohomology of a global quotient orbifold is equivalently the [[rational cohomology]] (or [[real cohomology|real]] or complex cohomology) for the [[topological quotient space]] $Aut(X\!\sslash\!G)/G$ of the space of [[automorphisms]] in the [[action groupoid]] by the $G$-[[conjugation]] [[action]].
-
-However it was observed in (see p. 18)
-
-* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
-
-that for global quotient orbifolds Chen-Ruan cohomology indeed is equivalent, to a $G$-equivariant [[Bredon cohomology]] of $X$ -- for one specific choice of [[equivariant cohomology|equivariant]] [[coefficient]] system ([[abelian sheaf]] on the [[orbit category]] of $G$), namely for $G/H \mapsto ClassFunction(H)$.
-
-More in detail, [Moerdijk 02, p. 18](#Moerdijk02) really observes that the Chen-Ruan cohomology of a global quotient orbifold is equivalently the [[abelian sheaf cohomology]] of the naive quotient space $X/G$ with [[coefficients]] in the [[abelian sheaf]] whose [[stalk]] at $[x] \in X/G$ is the [[ring]] of [[class functions]] of the [[isotropy group]] at $x$; and then appeals to Theorem 5.5 in
-
-* {#Honkasalu90} Honkasalo, _Equivariant Alexander-Spanier cohomology for actions of compact Lie groups_, Mathematica Scandinavica Vol. 67, No. 1 (1990), pp. 23-34 ([jstor:24492569](https://www.jstor.org/stable/24492569))
-
-for the followup statement that the [[abelian sheaf cohomology]] of $X/G$ with coefficient sheaf $\underline{A}$ being "[[locally constant sheaf|locally constant]] except for dependence on [[isotropy groups]]" is equivalently [[Bredon cohomology]] of $X$ with coefficients in $G/H \mapsto \underline{A}_x$. This identification of the coefficient systems is Prop. 6.5 b) in:
-
-* {#Honkasalo88} Honkasalo, _Equivariant Alexander-Spanier cohomology_,  Mathematica Scandinavia,  63, 179-195, 1988 ([doi:10.7146/math.scand.a-12232](https://doi.org/10.7146/math.scand.a-12232))
-
-In summary: Traditional orbifold cohomology theory is [[Borel cohomology]] of underlying [[Borel construction]]-spaces, and reduces [[rational cohomology|rationally]] further to the [[rational cohomology]] of undelrying naive [[quotient spaces]]. [[Chen-Ruan cohomology]] is just the latter naive cohomology but applied after passing to [[inertia orbolds]], which is equivalent to the [[Bredon cohomology]] of the original orbifold, for one specific [[equivariant cohomology|equivariant coefficient]]-system.
+for any pair $g^0$, $g^1$ of function symbols (corresponding to $g:X_1\times\dots\times X_n\to Y$ in $\Sigma$), resp. any pair $r^0$, $r^1$ of relation symbols (corresponding to $r\rightarrowtail X_1\times\dots\times X_n$), in $\Sigma^2$.
 
 
 
+## Properties
 
-Let 
++-- {: .num_prop}
+###### Proposition
 
-$$
-  \mathcal{X}
-  \;\coloneqq\;
-  OrbSnglr\big(  X \!\sslash\! G \big)
-$$ 
+Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then
 
-be the global quotient [[orbifold]] supposed to correspond to a [[smooth manifold]] $X$ equipped with the [[action]] of a [[finite group]] $G$ (for definiteness, and to avoid inessential technical fine-print).
+$\mathbb{T}^2(\mathcal{E})=\mathbb{T}(\mathcal{E})^2=\mathbb{T}(\mathcal{E}^2)\quad.$
+=--
 
-Write
+Cf. Johnstone ([1977](#J77), p. 203), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p.572).
 
-* $Snglr(\mathcal{X}) = X/G$ for its naive quotient space, 
+## Examples
 
-  traditionally regarded as [[topological space]] 
+* Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models.
 
-  (namely the [[quotient topological space]] of the [[topological G-space]] underlying $X$),
+* Let $\mathbb{O}$ be the [[theory of objects]] i.e. the empty theory over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the empty theory over the signature with two sort symbols $S_O$, $T_O$ and a function symbol $f_O:S_O\to T_O$.
 
-  though this quotient does exist also in [[diffeological spaces]], which would be the more appropriate [[category]] to regard it in ([IKZ 10](#IKZ10));
+## Related Concepts
 
-* $Smth(\mathcal{X}) = X \sslash G$ for its [[homotopy quotient]] space,
+* [[geometric theory]]
 
-  traditionally regarded as a [[topological space]] (namely the [[Borel construction]] on the [[topological G-space]] underlying X),
+* [[theory of objects]]
 
-  though this homotopy quotient does exists also in [[differentiable stacks]]/[[smooth groupoids]], which is the more appropriate [[(2,1)-category]] to regard it in ([MP97](#MoerdijkPronk97)).
+* [[theory of decidable objects]]
 
-Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in existing literature are actually invariants just of $Snglr(\mathcal{X})$ or just of $Smth(\mathcal{X})$, and mostly just of their underlying topological spaces -- the closest to an exception to this rule is Chen-Ruan cohomology, which however is also just the cohomology of a naive quotient, just of a different orbifold (the [[inertia orbifold]]):
+* [[exponentiable topos]]
 
-| **cohomology of $Snglr(\mathcal{X})$** | 
-|-----------------------|
-| [Satake 56, Thm 1](#Satake56): $H_{Sa}^\bullet(\mathcal{X}) = H^\bullet\big(Shp \circ Snglr(\mathcal{X}),\mathbb{R}\big)$ | 
-|  **cohomology of $Smth(\mathcal{X})$**   |
-| [Moerdijk-Pronk 99](#MoerdijkPronk99), [ALR 07  Def. 1.56](#ALR07): $H^\bullet_{MP}\big( \mathcal{X}, \mathcal{A} \big) = H^\bullet\big( Shp\circ Smth(\mathcal{X}), A \big)$ <br/>    |
-| **cohomology of $Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)$** |
-| [Chen-Ruan 00](#ChenRuan00): $H^\bullet_{CR}(\mathcal{X}) \coloneqq H^\bullet\Big( Shp \circ Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)  ,\mathbb{K}\Big)$ <br/> (see [Clader 14, p. 4, p.7](#Clader14)) <br/> [Moe 02, p. 18](#Moerdijk02):  $H^\bullet_{CR}(\mathcal{X}) = H^\bullet\big( Shp \circ Snglr(\mathcal{X}), R_{\mathbb{K}}(Isotr(-))  \big)$  <br/> [Honkasalo 88, Thm. 6.4](#Honkasalo88), [Honkasalo 90, Thm. 5.5](#Honkasalu90): $\cdots = H^\bullet_G\big(X, something \big) $ |  
-
-
+* [[Sierpinski topos]]
 
 ## References
 
-* {#Satake56} [[Ichiro Satake]], _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359]( https://doi.org/10.1073/pnas.42.6.359))
 
+* {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014)
 
-* {#Honkasalo88} Honkasalo, _Equivariant Alexander-Spanier cohomology_,  Mathematica Scandinavia,  63, 179-195, 1988 ([doi:10.7146/math.scand.a-12232](https://doi.org/10.7146/math.scand.a-12232))
+* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994.
 
-
-* {#Honkasalu90} Honkasalo, _Equivariant Alexander-Spanier cohomology for actions of compact Lie groups_, Mathematica Scandinavica Vol. 67, No. 1 (1990), pp. 23-34 ([jstor:24492569](https://www.jstor.org/stable/24492569))
-
-* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
-
-* {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]], _Simplicial cohomology of orbifolds_, Indagationes Mathematicae Volume 10, Issue 2, 1999, Pages 269-293 (<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>)
-
-* {#ChenRuan00} [[Weimin Chen]], [[Yongbin Ruan]], _A New Cohomology Theory for Orbifold_, Commun. Math. Phys. 248 (2004) 1-31 ([arXiv:math/0004129](https://arxiv.org/abs/math/0004129))
-
-* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
-
-* {#ALR07} A. Adem, J. Leida, [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
-
-
-* {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093)) 
-
-* {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_, 2014 ([pdf](http://www-personal.umich.edu/~eclader/OctLect1.pdf))
-
- * The signature for the theory of the _standard induction algebra_ has one sort symbol $N$, one function symbol $s:N\to N$ and one constant $O:N$. The theory axiomaticizes [[natural number object|natural number objects]] and the third axiom makes crucial use of the infinitary disjunction of geometric logic in order to state that every natural number is standard i.e. either 0 or obtained from 0 by repeated application of the successor function:
-
-  - $0 = s(n) \vdash_{n} \bot$
-  - $s(n) = s(n') \vdash_{n n'} n=n'$
-   - $\top \vdash_{n} \bigvee_{i} n=\underset{i}{\underbrace{s \dots s}}(0)$
-
-The [[classifying topos]] is $Set$. But due to the trivial subtopos lattice, theories classified by Set admit no quotient theories whence the geometric theory of natural numbers is complete in striking contrast with classical finitary first order logic! Furthermore, since $Set$ is the terminal topos classifying also the [[empty theory]], one sees that the object/type $\mathbb{N}$ of natural numbers "comes for free" in geometric logic. This observation underlies the ideas for a [[geometric type theory]] (for more on this see there!).
