@@ -12,7 +12,6 @@
 =--
 =--
 =--
-=--
 
 [[!redirects theory of pointed objects]]
 [[!redirects theory of inhabited objects]]
@@ -55,6 +54,7 @@ In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) th
 
 * If instead of an additional axiom one adds a single constant symbol to the signature of $\mathbb{O}$ one obtains the **theory of pointed objects** $\mathbb{O}_\ast$ i.e. the empty theory relative to the signature with a single sort and a single constant. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the discussion&references at [[classifying topos for the theory of objects]].)
 
+* The **theory of morphisms** $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$. It is the [[theory of model homomorphisms|theory of $\mathbb{O}$-model homomorphisms]] and its models in a Grothendieck topos $\mathcal{E}$ are the morphisms of $\mathcal{E}$. It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$, or in other words, its [[classifying topos]] is $Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}$.
 
 ## Related Concepts
 
