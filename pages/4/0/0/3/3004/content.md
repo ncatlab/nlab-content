@@ -111,6 +111,9 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 * If $(\mathcal{C},J)$ is a small site, by adding a geometric axiom schema to express J-continuity to the theory of flat diagrams, one obtains the [[theory of flat functors|theory of J-continuous flat diagrams]], which is classified by $Sh(\mathcal{C},J)$. This answers in principle the question, given a site representation what geometric theory is classified by a Grothendieck topos? Of course, in practice one would like to have more concise and less unwieldy axiomatizations.
 
+* For any [[geometric theory]] $\mathbb{T}$ there exists a geometric theory $\mathbb{T}^\mathbf{2}$ called the [[theory of model homomorphisms|theory of $\mathbb{T}$-model homomorphisms]] whose models in a [[Grothendieck topos]] $\mathcal{E}$ are precisely the homomorphisms between $\mathbb{T}$-models in $\mathcal{E}$:
+  $$Mod_{\mathbb{T}^\mathbf{2}}(\mathcal{E})=Mod_{\mathbb{T}}(\mathcal{E})^\mathbf{2}=Mod_\mathbb{T}(\mathcal{E}^\mathbf{2})\quad.$$
+
 * A geometric theory whose [[classifying topos]] is a [[presheaf topos]] is called a _[[theory of presheaf type]]_.
 
 
@@ -210,6 +213,8 @@ The 2-categorical version of $T Mod$ is useful in generalization of the [[spectr
 * [[theory of objects]]
 
 * [[theory of decidable objects]]
+
+* [[theory of model homomorphisms]]
 
 * [[theory of flat functors|theory of flat diagrams]]
 
