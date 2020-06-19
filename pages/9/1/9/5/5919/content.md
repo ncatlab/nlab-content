@@ -6,6 +6,11 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
 =--
 =--
 
@@ -54,6 +59,8 @@ In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) th
 ## Related Concepts
 
 * [[theory of decidable objects]]
+
+* [[theory of model homomorphisms]]
 
 ## References
 
