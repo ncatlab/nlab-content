@@ -55,14 +55,14 @@ $$
 
 ## References
 
-* R. Fritsch, D. M. Latch, Homotopy inverses for nerve, Math. Z. 177 (1981), no. 2, 147&#8211;179
- {#FL}
+* {#FL} R. Fritsch, D. M. Latch, _Homotopy inverses for nerve_, Math. Z. 177 (1981), no. 2, 147–179, doi:[10.1007/BF01214196](https://doi.org/10.1007/BF01214196).
 
-* {#Stanculescu} Alexandru E. Stanculescu, Constructing model categories with prescribed fibrant objects, [arxiv](https://arxiv.org/abs/1208.6005)
+
+* {#Stanculescu} Alexandru E. Stanculescu, _Constructing model categories with prescribed fibrant objects_, Theory and Applications of Categories, Vol. 29, (2014) No. 23, pp 635-653, [journal page](http://www.tac.mta.ca/tac/volumes/29/23/29-23abs.html), arXiv:[1208.6005](https://arxiv.org/abs/1208.6005).
  
 
-* [[Carlos Simpson]], [[Homotopy Theory of Higher Categories]]
- {#Simpson}
+* {#Simpson} [[Carlos Simpson]], [[Homotopy Theory of Higher Categories]]
+
 
 
 [[!redirects full and faithful functor]]
