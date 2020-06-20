@@ -89,6 +89,10 @@ However, here is a property which one might expect coherent theories to have, bu
 
 ## References
 
+An early reference is
+
+* M.-F. Coste, [[Michel Coste|M. Coste]], _Théories cohérentes et topos cohérents_ , Séminaire de théorie des catégories dirigé par Jean Bénabou Mai 1975. ([pdf](https://perso.univ-rennes1.fr/michel.coste/publis/coherent.pdf))
+
 A survey of results on geometric and coherent logic is in
 
 * {#Reyes77}[[Gonzalo Reyes]], _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. Cat. **XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
