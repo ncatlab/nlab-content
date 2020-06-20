@@ -28,7 +28,12 @@ The dual notion is _[[cone]]_ .
 
 ## Definition
 
-Let $C$ and $D$ be [[category|categories]]; we generally assume that $D$ is [[small category|small]].  Let $f:D\to C$ be a [[functor]] (called a _[[diagram]]_ in this situation). Then a __cocone__ (or _inductive cone_) over $f$ is a pair $(e,u)$ of an object $e\in C$ and a [[natural transformation]] $u : f\to \Delta e$ (where $\Delta e$ is the [[constant functor|constant diagram]] $\Delta e:D\to C$, $x\mapsto e$, $x\in D$).  
+Let $C$ and $D$ be [[category|categories]]; we generally assume that $D$ is [[small category|small]].  Let $f:D\to C$ be a [[functor]] (called a _[[diagram]]_ in this situation). Then a __cocone__ (or _inductive cone_) over $f$ is a pair $(e,u)$ of an object $e\in C$ and a [[natural transformation]] $u : f\to \Delta e$ (where $\Delta e$ is the [[constant functor|constant diagram]] $\Delta e:D\to C$, $x\mapsto e$, $x\in D$). In other words, a diagram as follows, together with a natural transformation going south west to north east.
+
+\begin{tikzcd}
+D \ar[r] \ar[dr, "f", swap] & 1 \ar[d, "e"] \\
+& C
+\end{tikzcd}  
 
 Note that a cocone in $C$ is precisely a [[cone]] in the [[opposite category]] $C^op$.
 
