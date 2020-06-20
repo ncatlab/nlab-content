@@ -195,8 +195,6 @@ A generalization to geometric structure on the cobordisms is discussed in
 
 ### Embedded cobordism category
 
-On the relation to [[twisted Cohomotopy]]:
-
 
 * [[Oscar Randal-Williams]], _Embedded Cobordism Categories and Spaces of Manifolds_, 	Int. Math. Res. Not. IMRN 2011, no. 3, 572-608 ([arXiv:0912.2505](https://arxiv.org/abs/0912.2505))
 
