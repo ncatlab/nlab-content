@@ -85,7 +85,7 @@ A choice sub-bundle of a frame bundle which is a $G$-[[principal bundle]] for $G
 
 * a [[section]] of a frame bundle is also called a _[[frame field]]_.
 
-* [[higher order frame bundle]]
+* [[higher order frame bundle]] ([[jet bundle]]-version)
 
 ## References
 
