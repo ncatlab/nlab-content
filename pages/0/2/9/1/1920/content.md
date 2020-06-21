@@ -23,7 +23,7 @@ An ordinary [[category]] consists of a set of objects and a set of arrows, each 
 
 An ordinary [[multicategory]] consists of a set of objects and a set of "multi-arrows", each with a finite list of inputs or domain objects and a single output or codomain object. These multi-arrows are composed by means of multiple plug-ins or substitutions, as when one substitutes a list of $m$ operations of varying arities into an $m$-ary operation. 
 
-Both categories and multicategories can be seen as [[monads]] in an appropriate [[bicategory]] of [[span]]-like objects. Categories are monads in the category of ordinary spans (of sets).  Multicategories are monads in a bicategory of spans of shape
+Both categories and multicategories can be seen as [[monads]] in an appropriate [[bicategory]] of [[span]]-like objects. Categories are monads in the bicategory of ordinary spans (of sets).  Multicategories are monads in a bicategory of spans of shape
 
 $$X \leftarrow R \to Y^*$$
 
