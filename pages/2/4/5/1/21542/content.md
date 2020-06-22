@@ -29,7 +29,7 @@ For any [[geometric theory]] $\mathbb{T}$ there exists a geometric theory $\math
 
 Let $\mathbb{T}$ be a [[geometric theory]] over the [[signature]] $\Sigma$.
 
-Let $\Sigma^2$ be the signature containing a pair of new sort symbols $X^0$, $X^1$ and a new function symbol $f_X:X^0\to X^1$ for any sort symbol $X$ in $\Sigma$, as well, as pairs $g^0:X_1^0\times\dots\times X_n^0\to Y^0$, $g^1:X_1^1\times\dots\times X_n^1\to Y^1$ of new functions symbols (resp. pairs $r^0\rightarrowtail X_1^0\times\dots\times X_n^0$, $r^1\rightarrowtail X_1^1\times\dots\times X_n^1$ of new relation symbols) for any function symbol $g:X_1\times\dots\times X_n\to Y$ (resp. relation symbol $r\rightarrowtail X_1\times\dots\times X_n$) in $\Sigma$.
+Let $\Sigma^2$ be the signature containing a pair of new sort symbols $X^0$, $X^1$ and a new function symbol $f_X:X^0\to X^1$ for any sort symbol $X$ in $\Sigma$, as well, as pairs $g^0:X_1^0\times\dots\times X_n^0\to Y^0$, $g^1:X_1^1\times\dots\times X_n^1\to Y^1$ of new functions symbols (resp. pairs $R^0\rightarrowtail X_1^0\times\dots\times X_n^0$, $R^1\rightarrowtail X_1^1\times\dots\times X_n^1$ of new relation symbols) for any function symbol $g:X_1\times\dots\times X_n\to Y$ (resp. relation symbol $R\rightarrowtail X_1\times\dots\times X_n$) in $\Sigma$.
 
 The **theory of $\mathbb{T}$-model homomorphisms** is the theory $\mathbb{T}^2$ over the signature $\Sigma^2$ with the following sequents:
 
@@ -39,9 +39,9 @@ The **theory of $\mathbb{T}$-model homomorphisms** is the theory $\mathbb{T}^2$ 
 
 resp.
 
-:$r^0(x_1,\dots,x_n)\vdash r^1(f_{X_1}(x_1),\dots,f_{X_n}(x_n))$
+:$R^0(x_1,\dots,x_n)\vdash R^1(f_{X_1}(x_1),\dots,f_{X_n}(x_n))$
 
-for any pair $g^0$, $g^1$ of function symbols (corresponding to $g:X_1\times\dots\times X_n\to Y$ in $\Sigma$), resp. any pair $r^0$, $r^1$ of relation symbols (corresponding to $r\rightarrowtail X_1\times\dots\times X_n$ in $\Sigma$), in $\Sigma^2$.
+for any pair $g^0$, $g^1$ of function symbols (corresponding to $g:X_1\times\dots\times X_n\to Y$ in $\Sigma$), resp. any pair $R^0$, $R^1$ of relation symbols (corresponding to $R\rightarrowtail X_1\times\dots\times X_n$ in $\Sigma$), in $\Sigma^2$.
 
 
 
@@ -61,7 +61,10 @@ Cf. Johnstone ([1977](#J77), p. 203), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p
 
 * Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory, over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models. In other words, squaring theories obeys the laws of arithmetics at 0 and 1. Incidentally, the case of $\mathbb{T}^\emptyset_\emptyset$ which is classified by $Set$ shows that $Set[\mathbb{T}^2]\neq Set[\mathbb{T}]^2$ in general.
 
-* Let $\mathbb{O}$ be the [[theory of objects]] i.e. the theory with no sequents over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$. Clearly, its models in a Grothendieck topos $\mathcal{E}$ are the morphisms of $\mathcal{E}$ and, accordingly, $\mathbb{O}^2$ is called the **theory of morphisms**. It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$, or in other words, its [[classifying topos]] is $Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet^2)}$.
+* Let $\mathbb{O}$ be the [[theory of objects]] i.e. the theory with no sequents over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$. Clearly, its models in a Grothendieck topos $\mathcal{E}$ are the morphisms of $\mathcal{E}$ and, accordingly, $\mathbb{O}^2$ is called the **theory of morphisms**.
+
+  It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$, or in other words, its [[classifying topos]] called the _morphism classifier_ in Johnstone ([1977](#J77), p.184) is
+$$ Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet^2)}\quad .$$
 
 ## Related Entries
 
