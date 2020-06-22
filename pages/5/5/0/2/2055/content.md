@@ -18,7 +18,7 @@ For a quick introduction to math blogging, see
 
 See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web), the directory of many math blogs with alerts on recent updates [www.mathblogging.org](http://www.mathblogging.org).
 
-For a decent list of online seminars see [mathseminars.org](https://mathseminars.org)
+For a decent list of online seminars see [researchseminars.org/](https://researchseminars.org/)
 
 +-- {: .standout}
 
