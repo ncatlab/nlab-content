@@ -14,9 +14,11 @@
 
 ### Idea
 
-Ultracategories are [[categories]] with [[extra structure]], called an _ultrastructure_ (see [Lurie, Sec 1.3](#Lurie)). They were introduced in [Makkai 87](#Makkai87) in order to prove [[conceptual completeness]], but note that Lurie's definition differs from Makkai's ([Lurie, Warning 1.0.4](#Lurie)).
+**Ultracategories** are [[categories]] with [[extra structure]], called an _ultrastructure_ (see [Lurie, Sec 1.3](#Lurie)). For an ultracategory, $\mathcal{A}$, its ultrastructure assigns to a set of objects of $\mathcal{A}$ indexed by a set, $S$, equipped with an ultrafilter, $\mu$, the _categorical ultraproduct_, $\int_S A_s d \mu$, an object of $\mathcal{A}$. 
 
-In ([Clementino-Tholen 03](#ClemTholen)), ultracategories are treated as an example of a [[generalized multicategory]]. 
+Ultracategories were introduced in [Makkai 87](#Makkai87) in order to prove [[conceptual completeness]], but note that Lurie's definition slightly differs from Makkai's ([Lurie, Warning 1.0.4](#Lurie)).
+
+In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory is introduced as an instance of a [[generalized multicategory]]. 
 
 ### References
 
