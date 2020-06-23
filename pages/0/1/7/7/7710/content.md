@@ -48,7 +48,7 @@ In other words, functoriality of $\tilde\alpha$ is the same as $\alpha$ being na
 __Corollary.__ Definable functions for $L$ (for $T$) are in 1-1 correspondence with natural transformations of __definable sets__ as functors $\mathcal{M}_{el}(L)\to Set$ (resp. $\mathcal{M}_{el}(T)\to Set$). 
 
 For a fixed (multi-sorted, first-order) theory $T$, definable sets and definable functions form a category $Def(T)$. This category (or any equivalent category) is the [[syntactic category]] of the theory. Models of $T$ can be recovered as left exact 
-functors $Def(T)\to Set$. Notice that definable sets are functors from models to sets, and models are functors definable sets to sets; just the latter are the "evaluation functionals" among all functors. 
+functors $Def(T)\to Set$. Notice that definable sets are functors from models to sets, and models are functors from definable sets to sets; just the latter are the "evaluation functionals" among all functors. 
 
 See also [[definable groupoid]].
 
