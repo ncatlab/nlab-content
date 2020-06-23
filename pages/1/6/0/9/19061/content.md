@@ -91,9 +91,12 @@ Discussion in [[cosmology]]:
 
 * Ladislav Hlavatý, Ivo Petr, _Poisson-Lie plurals of Bianchi cosmologies and Generalized Supergravity Equations_ ([arxiv:1910.08436](https://arxiv.org/abs/1910.08436))
 
+
 Generalization to [[U-duality]] in [[exceptional generalized geometry]]:
 
 * Emanuel Malek, Daniel C. Thompson, _Energy Physics - Theory Poisson-Lie U-duality in Exceptional Field Theory_ ([arxiv:1911.07833](https://arxiv.org/abs/1911.07833))
+
+* Chris D. A. Blair, Daniel C. Thompson, Sofia Zhidkova, _Exploring Exceptional Drinfeld Geometries_ ([arxiv:2006.12452](https://arxiv.org/abs/2006.12452))
 
 
 In the context of the  [[BMN matrix model]]:
