@@ -55,7 +55,9 @@ Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then
 $$Mod_{\mathbb{T}^2}(\mathcal{E})=Mod_\mathbb{T}(\mathcal{E})^2=Mod_\mathbb{T}(\mathcal{E}^2)\quad.$$
 =--
 
-Cf. Johnstone ([1977](#J77), p. 203), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p.572).
+Cf. Johnstone ([1977](#J77), p. 203; [2002](#J02), p.425), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p.572).
+
+Note that the second equality determines the class of $\mathbb{T}$-model homomorphisms once the $\mathbb{T}$-models in the arrow categories $\mathcal{E}^2$ are known.
 
 ## Examples
 
@@ -63,7 +65,7 @@ Cf. Johnstone ([1977](#J77), p. 203), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p
 
 * Let $\mathbb{O}$ be the [[theory of objects]] i.e. the theory with no sequents over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$. Clearly, its models in a Grothendieck topos $\mathcal{E}$ are the morphisms of $\mathcal{E}$ and, accordingly, $\mathbb{O}^2$ is called the **theory of morphisms**.
 
-  It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$, or in other words, its [[classifying topos]] called the _morphism classifier_ in Johnstone ([1977](#J77), p.184) is
+  It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$, or in other words, its [[classifying topos]] called the _morphism classifier_ (cf. Johnstone [1977](#J77), p.184; [2002](#J02), p.426) is
 $$ Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet^2)}\quad .$$
 
 ## Related Entries
@@ -81,6 +83,8 @@ $$ Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet
 ## References
 
 * {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014)
+
+* {#J02}[[Peter Johnstone]], _Sketches of an Elephant vol.1_ , Oxford UP 2002. 
 
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994.
 
