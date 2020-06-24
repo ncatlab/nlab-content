@@ -176,7 +176,7 @@ For the following, we need this notation: let
     \right\}
   $$
  
-  are objects $a$ of $X$ eqipped with morphisms to $x_1$ and $x_2$ such that the obvious triangle commutes, and whose morphisms are morphisms between these tip objects such that all diagrams in sight commute.
+  are objects $a$ of $X$ equipped with morphisms to $x_1$ and $x_2$ such that the obvious triangle commutes, and whose morphisms are morphisms between these tip objects such that all diagrams in sight commute.
 
 * similarly for $Y/p(f)$.
 
