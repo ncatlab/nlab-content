@@ -405,7 +405,7 @@ $$
 
 * If in the definition of combinatorial species the domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
 
-* Instead of $core(FinSet)$, we may choose as domain $\mathbf{B} A$ for a small category $A$, with objects $\langle a_i \rangle_{i \in I}$, for $I$ in $core(FinSet)$, i.e., finite families of objects of $A$. Also, instead of $Set$ valued presheaves, we may consider those valued in presheaves on a small category $B$. This joint generalisation yields what are called **generalised species**. These generalised species can be collected in a cartesian closed 2-category ([FGHW](#FGHW)).
+* Instead of $core(FinSet)$, we may choose as domain $\mathbf{B} A$ for a small category $A$, with objects $\langle a_i \rangle_{i \in I}$, for $I$ in $core(FinSet)$, i.e., finite families of objects of $A$. Also, instead of $Set$ valued presheaves, we may consider those valued in presheaves on a small category $B$. This joint generalisation yields what are called **generalised species**. These generalised species can be collected in a [[cartesian closed 2-category]] ([FGHW](#FGHW)).
 
 
 
