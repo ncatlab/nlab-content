@@ -76,7 +76,7 @@ $$
   \,.
 $$
 
-So the object $\mathbf{E}_{pt} := [I,B]\times_{B} pt $ is defined to be the [[pullback]] of the diagram
+So the object $\mathbf{E}_{pt}B := [I,B]\times_{B} pt $ is defined to be the [[pullback]] of the diagram
 $ [I,B] \stackrel{d_1}{\to} B \stackrel{pt_B}{\leftarrow} pt$ and the morphism $\mathbf{E}_{pt}B \to B$ is the composite of the left vertical morphism in the above diagram which comes from the definition of [[pullback]] and $d_0$.
 
 Then a (generalized) "$B$-bundle" on some object $X$ is a morphism $P \to X$ which is the [[pullback]] of the generalized universal $B$-bundle $\mathbf{E}_{pt}$ along a "classifying morphism" $g : X \to B$
