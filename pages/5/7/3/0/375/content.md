@@ -208,6 +208,8 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 
 * [[cartesian closed enriched category]], [[locally cartesian closed enriched category]]
 
+* [[cartesian closed 2-category]]
+
 ## Literature
 
 Some of the major examples are treated in
