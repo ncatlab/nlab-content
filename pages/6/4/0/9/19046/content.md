@@ -73,7 +73,7 @@ Exponentiability is a local property:
 
 This occurs as lemma 4.2 in Johnstone-Joyal ([1982](#JJ82), p.281).
 
-Continuity also leaves a trace locally:
+Continuity also leaves a lattice-theoretic trace:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -88,6 +88,8 @@ This occurs as lemma 5.1 in Johnstone-Joyal ([1982](#JJ82), p.287).
 * Since [[locally finitely presentable categories]] are [[continuous category|continuous]] and [[coherent topos|coherent toposes]] are locally finitely presentable (cf. Johnstone ([2002, p.915](#J02))) it follows that _coherent toposes are exponentiable_. This can be viewed as an avatar of the fact that (locally) compact topological spaces behave well with respect to mapping spaces.
 
 * By the same reasoning all functor categories $Set^{\mathcal{C}}$ for  $\mathcal{C}$ a [[small category]] are exponentiable since they are [[locally finitely presentable category|locally finitely presentable]]. This includes in particular all [[presheaf toposes]] on small categories.
+
+* An example of the latter is the [[Sierpinski topos]] $\mathcal{S}^2$. Here the exponential $\mathcal{F}^{\mathcal{S}^2}$ classifies the [[theory of model homomorphisms|theory of $\mathbb{T}$-model homorphisms]] (with $\mathbb{T}$ the [[geometric theory]] classified by $\mathcal{F}$) i.e. the theory $\mathbb{T}^2$ such that $Mod_{\mathbb{T}^2}(\mathcal{E})=Mod_\mathbb{T}(\mathcal{E})^2$.
 
 ##Remarks on duality
 
@@ -145,6 +147,8 @@ An exponentiable Grothendieck topos $\mathcal{E}$ is called _tiny_ (or _infinite
 * [[ind-object]]
 
 * [[classifying topos for the theory of objects]]
+
+* [[cartesian closed 2-category]]
 
 * [[convenient category of spaces]]
 
