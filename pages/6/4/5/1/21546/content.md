@@ -4,7 +4,7 @@
 
 ## Idea
 
-In the context of [[2-category theory]], a **cartesian closed 2-category** is a [[2-category]] with finite products and exponentials.
+In the context of [[2-category theory]], a **cartesian closed 2-category** is a [[2-category]], $\mathcal{B}$, with [[2-limit|finite products]] and a cartesian closed structure. For any $A$, $B$ in $\mathcal{B}$, there is an exponential object $B^A$, an evaluation 1-arrow, $eval_{A, B}: B^A \times A \to B$, and for every $X$ an adjoint equivalence between $\mathcal{B}(X, B^A)$ and $\mathcal{B}(X \times A, B)$.  
 
 The concept was introduced in ([Makkai 96](#Makkai96)). There is no connection to the concept of [[cartesian bicategory]].
 
