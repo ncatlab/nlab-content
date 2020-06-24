@@ -252,7 +252,7 @@ $$\,$$
 
 $$(1 \rho_1) \circ \alpha_{1, 1, 1} = \lambda_1 1$$ 
 
-where the first equation follows from Lemma \ref{kel1} and the second from a unit coherence triangle. One concludes by composing each side of the equations above by $\alpha_{1, 1, 1}^{-1}$. 
+where the first equation follows from Lemma \ref{kel1} and a naturality equation $\lambda_1 \circ (1\lambda_1) = \lambda_1 \circ \lambda_{11}$, and the second from a unit coherence triangle. One concludes by composing each side of the equations above by $\alpha_{1, 1, 1}^{-1}$. 
 =-- 
 
 
