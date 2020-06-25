@@ -24,7 +24,7 @@
 
 For $n \in \mathbb{N}$, the **Haefliger groupoid** $\Gamma^n$ is the [[groupoid]] whose set of [[objects]] is the [[Cartesian space]] $\mathbb{R}^n$ and for which a [[morphism]] $x \to y$ is a [[germ]] of a [[diffeomorphism]] $(\mathbb{R}^n ,x) \to (\mathbb{R}^n ,y)$.
 
-This is regarded as a [[topological groupoid|topological]] or [[Lie groupoid|Lie]] [[étale groupoid]] via the canonical [[topological space|topology]]/[[smooth structure]] on $(\Gamma^n)_0 = \mathbb{R}^n$ and taking $s \colon (\Gamma^n)_1 \to (\Gamma^n)_0$ to be the [[étale space]] [associated](etale+space#RelationToSheaves) to the [[sheaf]] on $\mathbb{R}^n$ (with its canonical [[open cover]] [[Grothendieck topology]]) which is the [[sheafification]] of the presheaf that sends $U \subset \mathbb{R}^n$ to the set of all open embeddings of $U$ into $\mathbb{R}^n$.
+This is regarded as a [[topological groupoid|topological]] or [[Lie groupoid|Lie]] [[étale groupoid]] via the canonical [[topological space|topology]]/[[smooth structure]] on $(\Gamma^n)_0 = \mathbb{R}^n$ and taking $s \colon (\Gamma^n)_1 \to (\Gamma^n)_0$ to be the [[étale space]] [associated](etale+space#RelationToSheaves) to the [[sheaf]] on $\mathbb{R}^n$ (with its canonical [[open cover]] [[Grothendieck topology]]) which is the [[sheafification]] of the presheaf that sends $U \subset \mathbb{R}^n$ to the set of all open [[embedding of differentiable manifolds|embeddings]] of $U$ into $\mathbb{R}^n$.
 
 The [[smooth stack]] represented by the smooth Haefliger groupoid is also called the _Haefliger stack_.
 
