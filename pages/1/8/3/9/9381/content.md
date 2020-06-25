@@ -118,7 +118,6 @@ $$
 For the following it is helpful to think of this abelian group in the following equivalent ways.
 
 Define an [[equivalence relation]] on $V_n$ by
-
 $$
   \left(
      v_n \sim v'_n
@@ -133,15 +132,12 @@ $$
 $$
 
 Then
-
 $$
   (im_{n+1}(f))_n \simeq V_n/_\sim
 $$
-
 is equivalently the set of [[equivalence classes]] of this equivalence relation, which inherits abelian group structure since the eqivalence relation is linear.
 
 This is because the equivalence relation says equivalently that
-
 $$
   \left(
      v_n \sim v'_n
@@ -151,9 +147,7 @@ $$
     v_n - v'_n \;\in\; ker(\partial_V) \cap ker(f_n)
   \right)
 $$
-
 and hence is generated under linearity by
-
 $$
   \left(
      v_n \sim 0
@@ -166,7 +160,6 @@ $$
 $$
 
 Moreover, notice that the [[Dold-Kan correspondence]]
-
 $$
   DK
   \;\colon\;
@@ -174,9 +167,7 @@ $$
     \longrightarrow
   KanCplx
 $$
-
 factors through [[globe|globular]] [[strict omega-groupoids]] ([here](Dold-Kan+correspondence#GlobularAndCubical)). An [[n-morphism]] in the [[strict omega-groupoid]] $DK(V_\bullet)$ is of the form
-
 $$
   (v_{n-1})
     \overset{\phantom{AA}v_n\phantom{AA}}{\longrightarrow}
@@ -192,7 +183,6 @@ In terms of these morphisms the [[equivalence relation]] above says that two of 
 
 
 This suggests yet another equivalent way to think of $(im_{n+1}(f))_n$: it is the [[disjoint union]] over the [[target]] $(n-1)$-cells in $V_{n-1}$ of the images under $f$ of the sets of $n$-cells from zero to that target:
-
 $$
   (im_{n+1}(f))_n
    \simeq
@@ -215,7 +205,6 @@ $n \in \mathbb{N}$. Recall the abelian group
 
 The following [[diagram]] of [[abelian groups]]
 [[commuting diagram|commutes]]:
-
 $$
   \array{
     \vdots && \vdots && \vdots
@@ -310,7 +299,6 @@ $$
 
 
 Moreover, the middle vertical sequence is a chain complex $im_{n+1}(f)_\bullet$, and hence the diagram gives a factorization of $f_\bullet$ into two chain maps
-
 $$
   f_\bullet
    \;\colon\;
@@ -342,7 +330,6 @@ This follows by elementary and straightforward direct inspection.
 ###### Definition
 
 For $p \in \mathbb{N}$ and $k \leq p+1$ write
-
 $$
   \mathbf{B}^{p+1}U(1)_{conn^k}
   \coloneqq
@@ -358,7 +345,6 @@ for the [[simplicial presheaf]] which is the image under the [[Dold-Kan correspo
 
 Since the $DK$ map sends surjections of chain complexes to [[Kan fibrations]],
 the canonical projection maps yield a tower of objectwise [[Kan fibrations]] of the following form:
-
 $$
   \mathbf{B}^{p+1}U(1)_{conn}
   =
@@ -382,7 +368,6 @@ $$
 ###### Definition
 
 For $\Sigma$ a [[smooth manifold]], write
-
 $$
   (\mathbf{B}^p U(1)) \mathbf{Conn}(\Sigma)
   \in
@@ -403,15 +388,12 @@ We first consider differential concretification on geometrically contractible ba
 
 Let $\Sigma$ be a [[contractible topological space|contractible]] [[smooth manifold]].
 For $p \in \mathbb{N}$ write
-
 $$
   (\mathbf{B}^p U(1))\mathbf{Conn}_0(\Sigma)
     \coloneqq
   [\Sigma, \mathbf{B}^{p+1}U(1)]
 $$
-
 and then for $0 \leq k \leq p$ define [[induction|inductively]]
-
 $$
   (\mathbf{B}^p U(1))\mathbf{Conn}_{k+1}(\Sigma)
    \coloneqq
@@ -433,14 +415,12 @@ $$
 ###### Lemma
 
 Let $\Sigma$ be a [[contractible topological space|contractible]] [[smooth manifold]].  Then there is a weak equivalence
-
 $$
   (\mathbf{B}^p U(1)) \mathbf{Conn}_{p+1}(\Sigma)
     \simeq
   (\mathbf{B}^p U(1)) \mathbf{Conn}(\Sigma)
   \,,
 $$
-
 from the inductively defined object from def. \ref{DifferentialConcretificationForCirclenConnectionsOnContractible} to the moduli object from def. \ref{ModuliOfnFormConnection}.
 
 =--
@@ -449,7 +429,6 @@ from the inductively defined object from def. \ref{DifferentialConcretificationF
 ###### Proof
 
 By the assumption that $\Sigma$ is contractible, the Cech-direction of the Cech-Deligne double complex is trivial and so we have for all $U \in CartSp$ and $0 \leq k \leq p$ weak equivalences of the form
-
 $$
   [\Sigma, \mathbf{B}^{p+1}U(1)_{conn^k}](U)
   \;\simeq\;
@@ -465,9 +444,7 @@ $$
     \Omega^{p+1}(\Sigma \times U)
   \right)
 $$
-
 and
-
 $$
   (\mathbf{B}^p U(1))\mathbf{Conn}(\Sigma)
     \simeq
@@ -487,7 +464,6 @@ $$
 
 
 We claim now for all $k \leq p$ that
-
 $$
   (\mathbf{B}^p U(1))\mathbf{Conn}_k(\Sigma)
     \simeq
@@ -513,18 +489,15 @@ For $k = p$ this is the statement to be shown.
 Hence we may now prove this by [[induction]].
 
 It is manifestly true for $k = 0$. Hence suppose it is true for some $k \lt p$.  Observe then that
-
 $$
   \sharp [\Sigma, \mathbf{B}^{p+1}U(1)_{conn^{k+1}}]
     \longrightarrow
   \sharp [\Sigma, \mathbf{B}^{p+1}U(1)_{conn^k}]
 $$
-
 is an objectwise Kan fibration, because so is $\mathbf{B}^{p+1}U(1)_{conn^{k+1}} \to \mathbf{B}^{p+1}U(1)_{conn^k}$ by def. \ref{TruncatedDelgneComplexes}, and both $[\Sigma,-]$ as well as $\sharp$ are right Quillen functors from $sPSh(C)$ with its global projective model structre to itself.
 
 It follows ([this prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)) that the homotopy fiber product in question
 is presented by the plain 1-categorical fiber product. Since $DK$ is right adjoint, this in turn is given by the degreewise fiber product of the corresponding chain complexes. By direct inspection this means that
-
 $$
   \begin{aligned}
     &
@@ -555,7 +528,6 @@ $$
 $$
 
 Hence we are now reduced to computing the $(p+1-k)$ image of
-
 $$
   \array{
   DK
@@ -613,7 +585,6 @@ $$
 $$
 
 Observe that in degree $(p+1)-(k+1)$ the ordinary image is
-
 $$
   im\left(
     \Omega^{k+1}(\Sigma \times U)
@@ -636,7 +607,6 @@ With this the induction follows by prop. \ref{nImageFactroizationModeledOnSimpli
 **(differential concretification of moduli for higher connection)**
 
 For $\Sigma$ a [[smooth manifold]], define for $p \in \mathbb{N}$
-
 $$
   (\mathbf{B}^{p}U(1))
   \mathbf{Conn}_{p+1}(\Sigma)
@@ -645,13 +615,10 @@ $$
   \;
   (\mathbf{B}^p U(1)) \mathbf{Conn}_{p+1}(U_i)
 $$
-
 to be the [[homotopy limit]] over the differential concretifications from def. \ref{DifferentialConcretificationForCirclenConnectionsOnContractible} of contractibles $U_i$, for
-
 $$
   \Sigma \simeq \underset{\longrightarrow}{\lim}_i^h U_i
 $$
-
 a presentation of $\Sigma$ as a homotopy colimit of contractible manifolds (e.g. the realization of the [[Cech nerve]] of a [[good open cover]]).
 
 =--
@@ -660,8 +627,6 @@ a presentation of $\Sigma$ as a homotopy colimit of contractible manifolds (e.g.
 ###### Proposition
 
 For $\Sigma$ a [[smooth manifold]], then the differential concretifiction of def. \ref{DifferentialConcretificationOfCirclenConnections} is equivalent to the moduli object from def. \ref{ModuliOfnFormConnection}:
-
-
 $$
   (\mathbf{B}^p U(1)) \mathbf{Conn}_{p+1}(\Sigma)
     \simeq
@@ -676,11 +641,9 @@ $$
 ###### Proof
 
 Let $\Sigma \simeq \underset{\longrightarrow}{\lim}_i^h U_i$ be the realization of the Cech nerve of a good open cover. Then
-
 $$
   \underset{\longleftarrow}{\lim}_i (\mathbf{B}^p  U(1))\mathbf{Conn}_{p+1}(U_i)
 $$
-
 is equivalently the image under DK of the corresponding Cech hypercomplex with coefficients in the presheaf of chain complexes $(\mathbf{B}^p  U(1))\mathbf{Conn}_{p+1}(-)$. By lemma \ref{DifferentialConcretificationFornConnectionsOnContractibles} this is the vertical Deligne complex, and hence the claim follows.
 
 =--
@@ -698,6 +661,5 @@ The differential concretification of differential moduli is discussed in
 The full proof of example \ref{DifferentialConcretificationOfCirclenconnections} is due to Joost Nuiten....
 
 [[!redirects concretifications]]
-
 [[!redirects differential concretification]]
 [[!redirects differential concretifications]]
