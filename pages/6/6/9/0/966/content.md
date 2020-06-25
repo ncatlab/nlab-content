@@ -254,7 +254,7 @@ $$
 as we shall check in a moment. But first notice that using the [[co-Yoneda lemma]] this may be rewritten as
 
 $$
-  \cdots \simeq \int^{c \in C} Hom_{PSh(D)}(L(c), X) \cdot c
+  \cdots \simeq \int^{c \in C} Hom_{PSh(D)}(L(y_c), A) \times y_c
 $$
 
 where the [[coend]] is equivalently given by the [[colimit]]
