@@ -1178,6 +1178,8 @@ Discussion of orbifold cohomology in the context of [[Bredon cohomology|Bredon]]
 
 * {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_, New Mathematical Monographs, 34 Cambridge University Press, 2018 ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
+* Branko Juran, _Orbifolds, Orbispaces and Global Homotopy Theory_ ([arXiv:2006.12374](https://arxiv.org/abs/2006.12374))
+
 related to results of
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
