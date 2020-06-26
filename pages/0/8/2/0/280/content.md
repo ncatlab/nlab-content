@@ -35,7 +35,7 @@ $$
 
 For fixed $x \in X$ this produces an [[endofunction]] $act(x,-) \colon Y \to Y$ and hence some "transformation" or "action" on $Y$. In this way the whole of $X$ acts on $Y$.
 
-Here $(x\mapsto act(x,-))$ is the _[[currying|curried]]_ function $\widehat{act}\colon X \to Y^Y$ of the original $act$, which maps $X$ to the [[function set|set of]] of [[endofunctions]] on $Y$.  Quite generally one has these two perspectives on actions.
+Here $(x\mapsto act(x,-))$ is the _[[currying|curried]]_ function $\widehat{act}\colon X \to Y^Y$ of the original $act$, which maps $X$ to the [[function set|set]] of [[endofunctions]] on $Y$.  Quite generally one has these two perspectives on actions.
 
 Usually the key aspect of an action of some $X$ is that $X$ itself carries an algebraic structure, such as being a [[group]] (or just a [[monoid]]) or being a [[ring]] or an [[associative algebra]], which is also possessed by $Y^Y$ and preserved by the curried action $\widehat{act}$.  Note that if $Y$ is any set then $Y^Y$ is a monoid, and when $X$ acts on it one calls it an [[MSet|X-set]].  For $Y^Y$ to have a ring/algebra structure, $Y$ must be some sort of [[abelian group]] or [[vector space]] with the action by [[linear functions]]; then one calls the action also a _[[module]]_ or _[[representation]]_.
 
@@ -198,7 +198,7 @@ $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$
 
 ## References
 
-* [[Patrick Morandi]], _Group actions_ ([pdf](http://sierra.nmsu.edu/morandi/notes/groupactions.pdf))
+* [[Patrick Morandi]], _Group actions_ ([pdf listed here](https://wordpress.nmsu.edu/pamorand/mathematical-notes))
 
 [[!redirects action]]
 [[!redirects actions]]
