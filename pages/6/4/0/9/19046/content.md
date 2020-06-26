@@ -34,7 +34,9 @@ A [[Grothendieck topos]] $\mathcal{E}$ is called _exponentiable_ (in the [[2-cat
 
 ## Remarks
 
-* More concretely, $\mathcal{E}$ is exponentiable if there exists a functor $(_{-})^\mathcal{E}$ such that for all toposes $\mathcal{F},\mathcal{G}$ $Hom(\mathcal{F}\times\mathcal{E},\mathcal{G})$ is (naturally) equivalent as a category to $Hom(\mathcal{F},\mathcal{G}^\mathcal{E})$.
+* More concretely, $\mathcal{E}$ is exponentiable if there exists a functor $(_{-})^\mathcal{E}$ such that for all toposes $\mathcal{F},\mathcal{G}$ the category $Hom(\mathcal{F}\times\mathcal{E},\mathcal{G})$ is (naturally) equivalent as a category to $Hom(\mathcal{F},\mathcal{G}^\mathcal{E})$.
+
+* By setting $\mathcal{F}=\mathcal{S}$ , the base topos, one sees from $Hom(\mathcal{S},\mathcal{G}^\mathcal{E})=Hom(\mathcal{S}\times\mathcal{E},\mathcal{G})=Hom(\mathcal{E},\mathcal{G})$ that $\mathcal{G}^\mathcal{E}$ is indeed a "mapping space" whose [[point of a topos|points]] are the [[geometric morphism|geometric morphisms]] $\mathcal{E}\to\mathcal{G}$.
 
 * The concept generalizes to [[higher topos theory]] (cf. [Anel-Lejay 2018](#AJ18), [Lurie 2018](#Lurie18)).
 
@@ -117,7 +119,7 @@ In other words, $\mathbb{T}^*$ is geometric (and classified by $\mathcal{S}[\mat
 
 * Let $0$ be the [[initial topos]] that classifies the _inconsistent theory_ $\mathbb{T}^\emptyset_1$ over the empty signature. Then from $\mathcal{S}[\mathbb{O}]^0=\mathcal{S}$ follows that the _dual_ of the inconsistent theory is $\mathbb{T}_1^{\emptyset\ast}=\mathbb{T}_{\emptyset}^{\emptyset}$ with $\mathbb{T}_{\emptyset}^{\emptyset}$ the [[empty theory]] (over the empty signature).
 
-* From $\mathcal{S}[\mathbb{O}]^\mathcal{S}=\mathcal{S}[\mathbb{O}]$ follows in turn that the _double dual_ of the inconsistent theory, or, in other words, the dual of the empty theory, is $\mathbb{T}_1^{\emptyset\ast\ast}=\mathbb{T}^{\emptyset\ast}_\emptyset=\mathbb{O}$ with $\mathbb{O}$ the [[theory of objects]].
+* From $\mathcal{S}[\mathbb{O}]^\mathcal{S}=\mathcal{S}[\mathbb{O}]$ follows in turn that the _double dual_ of the inconsistent theory, or, in other words, the dual of the empty theory, is $\mathbb{T}_1^{\emptyset\ast\ast}=\mathbb{T}^{\emptyset\ast}_\emptyset=\mathbb{O}$ with $\mathbb{O}$ the [[theory of objects]]. (More generally, the dual theory of any dualizable theory is itself dualizable.)
 
 * Let $\mathcal{S}^2$ be the [[Sierpinski topos]] that classifies [[subterminal object|subterminal objects]] or the [[localic topos|theory of completely prime filters]] of the frame of opens of the [[Sierpinski space]]. Since $\mathcal{E}\times \mathcal{S}^2\cong \mathcal{E}^2$ it follows that 
   $$\mathcal{E}^2=Hom(\mathcal{E}^2,\mathcal{S}[\mathbb{O}])=Hom(\mathcal{E}\times\mathcal{S}^2,\mathcal{S}[\mathbb{O}])= Hom(\mathcal{E},\mathcal{S}[\mathbb{O}]^{\mathcal{S}^2})=Hom(\mathcal{E},\mathcal{S}[\mathbb{O}^2])\quad ,$$
@@ -156,7 +158,7 @@ The models of $\mathbb{S}$ in a Grothendieck topos $\mathcal{F}$ are "sheaves of
 
 $$Mod_\mathbb{S}(\mathcal{F})=\mathcal{F}\times Sh(\mathcal{C},J_{c})=Hom(\mathcal{F}\times Sh(\mathcal{C},J_{c}), \mathcal{S}[\mathbb{O}])=Hom(\mathcal{F},\mathcal{S}[\mathbb{O}]^{Sh(\mathcal{C},J_{c})})$$
 
-i.e. $\mathcal{S}[\mathbb{O}]^{Sh(\mathcal{C},J_{c})}$ is the classifying topos for $\mathbb{S}$ (For the details cf. Johnstone [1977](#J77), p.248f).
+i.e. $\mathcal{S}[\mathbb{O}]^{Sh(\mathcal{C},J_{c})}$ is the classifying topos for $\mathbb{S}$. (For the details cf. Johnstone [1977](#J77), p.248f).
  
 In particular, since $\mathbb{S}$ is a [[coherent logic|coherent theory]] this implies that $\mathcal{S}[\mathbb{O}]^{Sh(\mathcal{C},J_{c})}$ is also a [[coherent topos]]. From 
 
