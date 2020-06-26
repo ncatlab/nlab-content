@@ -103,6 +103,9 @@ More detailed review is in
 
 * {#Szabo15} [[Richard Szabo]], _$N=2$ gauge theories, instanton moduli spaces and geometric representation theory_, Journal of Geometry and Physics Volume 109, November 2016, Pages 83-121 ([arXiv:1507.00685](https://arxiv.org/abs/1507.00685))
 
+* Bruno Le Floch, _A slow review of the AGT correspondence_ ([arXiv:2006.14025](https://arxiv.org/abs/2006.14025))
+
+
 See also
 
 * [[Alexander Belavin]], M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_ ([arxiv/1111.2803](http://arxiv.org/abs/1111.2803))
