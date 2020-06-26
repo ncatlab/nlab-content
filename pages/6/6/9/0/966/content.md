@@ -273,33 +273,33 @@ We compute $\widehat{D}(L(X),A)$. In the first step
 $$
   \widehat{D}(L(X), A)
   \simeq
-  \widehat{D}(L (\int^{c \in C} X(c) \cdot c), A)
+  \widehat{D}(L (\int^{c \in C} X(c) \cdot y_c), A)
 $$
 
 we use the [[co-Yoneda lemma]] for $X$. Then because $L$ preserves colimits this is
 
 $$
-  \cdots \simeq \widehat{D}(\int^c X(c) \cdot L(c), A)
+  \cdots \simeq \widehat{D}(\int^c X(c) \cdot L(y_c), A)
   \,.
 $$
 
 Since the hom preserves limits in both arguments, we can take the [[coend]] out to get an [[end]]
 
 $$
-  \cdots \simeq \int_{c \in C} \widehat{D}(X(c) \cdot L(c), A)
+  \cdots \simeq \int_{c \in C} \widehat{D}(X(c) \cdot L(y_c), A)
 $$
 
 Then we use the standard [[copower|tensoring]] of our categories over [[Set]] to get
 
 $$
-  \cdots \simeq \int_{c \in C} Set(X(c), \widehat{D}(L(c),A))
+  \cdots \simeq \int_{c \in C} Set(X(c), \widehat{D}(L(y_c),A))
   \,.
 $$
 
 And finally this is recognized as the formula for the [[hom-set]] of presheaves (see [[functor category]])
 
 $$
-  \cdots \simeq \widehat{C}(X, \widehat{D}(L(-),A)) = \widehat{D}(X, R A)
+  \cdots \simeq \widehat{C}(X, \widehat{D}(L(-),A)) = \widehat{C}(X, R A)
   \,.
 $$
 
