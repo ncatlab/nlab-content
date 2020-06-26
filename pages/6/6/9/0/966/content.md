@@ -239,22 +239,22 @@ Let $F : C \to D$ be a [[functor]] between [[sheaf toposes]]. Then
 
 It is instructive to spell out the construction of the [[right adjoint]] from a colimit preserving functor $L$ in the simple case where all categories are [[categories of presheaves]]. This is a particularly simple case, but is useful in itself and serves as a template for the general case.
 
-So let now $C$ and $D$ be [[small categories]] and 
+So let now $C$ and $D$ be [[small categories]] and $L$ a functor between two presheaves
 
 $$
-  L : PSh(C) \to PSh(D)
+  L : \widehat{C} \to \widehat{D}
 $$
 
 a colimit-preserving functor. Then its [[right adjoint]] is given by
 
 $$
-  R A  := Hom_{PSh(D)}(L(-),A)
+  R A  := \widehat{D}(L(-),A)
 $$
 
 as we shall check in a moment. But first notice that using the [[co-Yoneda lemma]] this may be rewritten as
 
 $$
-  \cdots \simeq \int^{c \in C} Hom_{PSh(D)}(L(y_c), A) \times y_c
+  \cdots \simeq \int^{c \in C} \widehat{D}(L(y_c), A) \cdot y_c
 $$
 
 where the [[coend]] is equivalently given by the [[colimit]]
@@ -268,45 +268,45 @@ This is the formula for the would-be right adjoint from the general discussion a
 
 Now we check that the $R$ thus obtained is indeed right adjoint to $L$, by explicitly checking the hom-isomorphism of the pair of [[adjoint functor]]s:
 
-We compute $Hom_{PSh(D)}(L(X),A)$. In the first step
+We compute $\widehat{D}(L(X),A)$. In the first step
 
 $$
-  Hom_{PSh(D)}(L(X), A)
+  \widehat{D}(L(X), A)
   \simeq
-  Hom_{PSh(D)}(L (\int^{c \in C} X(c) \cdot c), A)
+  \widehat{D}(L (\int^{c \in C} X(c) \cdot c), A)
 $$
 
 we use the [[co-Yoneda lemma]] for $X$. Then because $L$ preserves colimits this is
 
 $$
-  \cdots \simeq Hom_{PSh(D)}(\int^c X(c) \cdot L(c), A)
+  \cdots \simeq \widehat{D}(\int^c X(c) \cdot L(c), A)
   \,.
 $$
 
 Since the hom preserves limits in both arguments, we can take the [[coend]] out to get an [[end]]
 
 $$
-  \cdots \simeq \int_{c \in C} Hom_{PSh(D)}(X(c) \cdot L(c), A)
+  \cdots \simeq \int_{c \in C} \widehat{D}(X(c) \cdot L(c), A)
 $$
 
 Then we use the standard [[copower|tensoring]] of our categories over [[Set]] to get
 
 $$
-  \cdots \simeq \int_{c \in C} Hom_{Set}(X(c), Hom_{PSh(D)}(L(c),A))
+  \cdots \simeq \int_{c \in C} Set(X(c), \widehat{D}(L(c),A))
   \,.
 $$
 
 And finally this is recognized as the formula for the [[hom-set]] of presheaves (see [[functor category]])
 
 $$
-  \cdots \simeq Hom_{PSh(C)}(X, Hom(L(-),A)) = Hom_{PSh(C)}(X, R A)
+  \cdots \simeq \widehat{C}(X, \widehat{D}(L(-),A)) = \widehat{D}(X, R A)
   \,.
 $$
 
 In total this establishes the hom-isomorphism
 
 $$
-  Hom_{PSh(D)}(L(X), A) \simeq Hom_{PSh(C)}(X, R(A))
+  \widehat{D}(L(X), A) \simeq \widehat{C}(X, R(A))
   \,.
 $$
 
