@@ -239,71 +239,123 @@ Let $F : C \to D$ be a [[functor]] between [[sheaf toposes]]. Then
 
 It is instructive to spell out the construction of the [[right adjoint]] from a colimit preserving functor $L$ in the simple case where all categories are [[categories of presheaves]]. This is a particularly simple case, but is useful in itself and serves as a template for the general case.
 
-So let now $C$ and $D$ be [[small categories]] and $L$ a colimit-preserving functor between two presheaves (we use the notation $\widehat{C}$ for the functor category $[C^{op}, Set]$)
+So let now $C$ and $D$ be [[small categories]] and $L$ a [[colimit]]-[[preserved colimit|preserving]] functor between their [[categories of presheaves]] (which we abbreviate $\widehat C \;\coloneqq\; [C^{op}, Set]$, etc):
 
 $$
-  L : \widehat{C} \to \widehat{D}
+  L \;\colon\; \widehat{C} \longrightarrow \widehat{D}
 $$
 
-Then its [[right adjoint]] is given by
+Then its [[right adjoint]] $ R \;\colon\; \widehat{D} \longrightarrow \widehat{C}$ is given (with $y_c \coloneqq C(-, c)$ denoting the [[Yoneda embedding]]) by
 
-$$
-  R A  := \widehat{D}(L(-),A)
-$$
+\[
+  \label{RightAdjointOfColimitPreservingFunctorOfPresheaves}
+  R 
+    \;\colon\; 
+  A 
+    \;\mapsto\;  
+  R(A)  
+   \;\coloneqq\; 
+   \widehat{D}
+   \left(
+     L(y_{(-)}),
+     A
+   \right)
+   \,,
+\]
 
 as we shall check in a moment. But first notice that using the [[co-Yoneda lemma]] this may be rewritten as
 
 $$
-  \cdots \simeq \int^{c \in C} \widehat{D}(L(y_c), A) \cdot y_c
+  \cdots 
+    \;\simeq\;  
+   \int^{c \in C} 
+   \widehat{D}
+   \left(
+     L(y_c), A
+   \right) 
+     \cdot y_c
+   \,,
 $$
 
-with $y_c = C(-, c)$ the Yoneda functor; where the [[coend]] is equivalently given by the [[colimit]]
+where the [[coend]] is equivalently given by the [[colimit]]
 
 $$
-  = \lim_{\underset{L c \to A}{\to}} c
+  \cdots \;=\; \lim_{\underset{L c \to A}{\to}} c
   \,.
 $$
 
 This is the formula for the would-be right adjoint from the general discussion above, only that here the colimit is only over the representables, hence over a small category.
 
-Now we check that the $R$ thus obtained is indeed right adjoint to $L$, by explicitly checking the hom-isomorphism of the pair of [[adjoint functor]]s:
+Now we check that the functor $R$ thus obtained is indeed right adjoint to $L$, by explicitly checking the hom-isomorphism ([here](adjoint+functor#InTermsOfHomIsomorphism)) of the pair of [[adjoint functors]]:
 
 We compute $\widehat{D}(L(X),A)$. In the first step
 
 $$
   \widehat{D}(L(X), A)
   \simeq
-  \widehat{D}(L (\int^{c \in C} X(c) \cdot y_c), A)
+  \widehat{D}
+  \left(
+     L 
+     \left(
+        \int^{c \in C} X(c) \cdot y_c
+     \right), 
+     A
+   \right)
 $$
 
-we use the [[co-Yoneda lemma]] for $X$. Then because $L$ preserves colimits this is
+we use the [[co-Yoneda lemma]] for $X$. Then, because $L$ [[preserved limit|preserves]] colimits, this is
 
 $$
-  \cdots \simeq \widehat{D}(\int^c X(c) \cdot L(y_c), A)
+  \cdots 
+    \simeq 
+   \widehat{D}
+   \left(
+     \int^c X(c) \cdot L(y_c), A
+   \right)
   \,.
 $$
 
-Since the hom preserves limits in both arguments, we can take the [[coend]] out to get an [[end]]
+Since the [[hom-functor]] preserves limits in both arguments, we can take the [[coend]] out to get an [[end]]
 
 $$
-  \cdots \simeq \int_{c \in C} \widehat{D}(X(c) \cdot L(y_c), A)
+  \cdots 
+    \simeq 
+   \int_{c \in C} 
+     \widehat{D}(X(c) \cdot L(y_c), A)
+  \,.
 $$
 
 Then we use the standard [[copower|tensoring]] of our categories over [[Set]] to get
 
 $$
-  \cdots \simeq \int_{c \in C} Set(X(c), \widehat{D}(L(y_c),A))
+  \cdots 
+    \simeq 
+   \int_{c \in C} 
+   Set\left(  
+     X(c), 
+     \widehat{D}(L(y_c),A)
+   \right)
   \,.
 $$
 
-And finally this is recognized as the formula for the [[hom-set]] of presheaves (see [[functor category]])
+And finally this is recognized as the formula for the [[hom-set]] of presheaves (see the discussion at _[[functor category]]_):
 
 $$
-  \cdots \simeq \widehat{C}(X, \widehat{D}(L(-),A)) = \widehat{C}(X, R A)
-  \,.
+  \cdots 
+    \simeq 
+   \widehat{C}
+   \left(
+     X, 
+     \widehat{D}(L(y_{(-)}),A)
+    \right) 
+     \;=\; 
+    \widehat{C}(X, R A)
+  \,,
 $$
 
-In total this establishes the hom-isomorphism
+where on the right we identified (eq:RightAdjointOfColimitPreservingFunctorOfPresheaves).
+
+The [[composition]] of this sequence of [[natural isomorphisms]] is hence the desired hom-isomorphism:
 
 $$
   \widehat{D}(L(X), A) \simeq \widehat{C}(X, R(A))
