@@ -718,10 +718,9 @@ section 6.5.1.
 
 A discussion in terms of [[model category]] [[presentable (∞,1)-category|presentations]] is in section 7 of
 
-* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
- {#Rezk}
-
-A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleton]]s is
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+ 
+A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleta]]:
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
@@ -731,6 +730,10 @@ Discussion in the context of [[modal type theory|modal]] [[homotopy type theory]
 
 * {#Brunerie} [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
  
+More discussin of the internal perspective:
+
+* [[Nima Rasekh]], _An Elementary Approach to Truncations_ ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
+
 
 [[!redirects n-truncated object of an (infinity,1)-category]]
 [[!redirects n-truncated object of an (∞,1)-category]]
