@@ -510,7 +510,7 @@ An ordinary [[category]] with [[limit]]s is canonically [[power|cotensored]] ove
 For $S, T \in $ [[Set]] and $const_T : S \to Set$ the [[diagram]] parameterized by $S$ that is constant on $T$, we have
 
 $$
-  \lim_{\leftarrow} const_T \simeq T^S
+  \lim_{\leftarrow} \, const_T \simeq T^S
   \,.
 $$
 
@@ -562,7 +562,7 @@ Of course all the colimits appearing here are just [[coproduct]]s and all limits
 We expect for $S, T \in $ [[∞Grpd]] and for $const_T : S \to \infty Grpd$ the constant diagram, that 
 
 $$
-  \lim_{\leftarrow} const_T \simeq T^S
+  \lim_{\leftarrow} \, const_T \simeq T^S
   \,,
 $$ 
 
