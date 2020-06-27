@@ -80,7 +80,7 @@ If $C$ is a [[presentable (∞,1)-category]], then $Sub(Z)$ is a [[small categor
 
 This appears as [[Higher Topos Theory|HTT, prop. 6.2.1.4]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Monomorphisms are stable under [[(∞,1)-pullback]]: if 
@@ -89,7 +89,7 @@ $$
   \array{
     A &\to& B
     \\
-    {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{f}}
+    {}^{\mathllap{f'}}\big\downarrow && \big\downarrow^{\mathrlap{f}}
     \\
     C &\to& D
   }
@@ -100,6 +100,28 @@ is a pullback diagram and $f$ is a monomorphism, then so is $f'$.
 =--
 
 This is a special case of the general statement that $k$-[[truncated]] morphisms are stable under pullback. ([[Higher Topos Theory|HTT, remark 5.5.6.12]]).
+
+
++-- {: .num_prop}
+###### Proposition
+
+Monomorphisms are stable under [[(∞,1)-pushout]]: if 
+
+$$
+  \array{
+    A &\to& B
+    \\
+    {}^{\mathllap{f}}\big\downarrow && \big\downarrow^{\mathrlap{f'}}
+    \\
+    C &\to& D
+  }
+$$
+
+is a [[homotopy pushout]] diagram and $f$ is a monomorphism, then so is $f'$.
+
+=--
+
+([Rezk 19, p. 21](#Rezk19))
 
 
 
@@ -116,6 +138,12 @@ The definition appears after example 5.5.6.13 in
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_{#ref}
 
 with further discussion in section 6.2.
+
+Lecture notes:
+
+
+* {#Rezk19} [[Charles Rezk]], _Lectures on Higher Topos Theory_, Leeds 2019 ([pdf](https://faculty.math.illinois.edu/~rezk/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]])
+
 
 For [[model categories]], see
 
