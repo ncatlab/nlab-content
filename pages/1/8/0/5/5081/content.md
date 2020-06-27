@@ -35,7 +35,7 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ an [[object]] also 
 
 =--
 
-This is [[Higher Topos Theory|HTT, prop 6.3.5.1 1)]].
+This is [[Higher Topos Theory|HTT, prop 6.3.5.1 (1)]].
 
 ## Properties
 
