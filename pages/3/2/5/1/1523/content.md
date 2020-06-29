@@ -26,7 +26,7 @@ n      & if\; x = n + 1 ,\\
 \infty & if\; x = \infty .\end{cases}
 $$
 
-Thus, it is a [[coalgebra]] for the endofunctor $H(X) = 1 + X$ on [[Set]], and indeed is the [[terminal coalgebra]] for $H$.  That is, given any set $S$ and map $p\colon S \to 1 + S$, there is a unique map $corec_S p\colon S \to \mathbb{N}$ such that
+Thus, it is a [[coalgebra]] for the endofunctor $H(X) = 1 + X$ on [[Set]], and indeed is the [[terminal coalgebra]] for $H$.  That is, given any set $S$ and map $p\colon S \to 1 + S$, there is a unique map $corec_S p\colon S \to \bar{\mathbb{N}}$ such that
 $$ \array {
 S                      & \stackrel{p}\to    & 1 + S \\
 \downarrow_{corec_S p} &                    & \downarrow_{\id_1 + corec_S p} \\
