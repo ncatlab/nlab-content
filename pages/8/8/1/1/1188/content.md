@@ -26,7 +26,7 @@ A $\kappa$-accessible $(\infty,1)$-category which in addition has all [[(∞,1)-
 
 ## Definition 
 
-Let $\kappa$ be a [[regular cardinal]]. spring
+Let $\kappa$ be a [[regular cardinal]]. 
  
 +-- {: .num_defn}
 ###### Definition
@@ -168,8 +168,8 @@ This is [[Higher Topos Theory|HTT, proposition 5.4.7.3]].
 
 The theory of accessible 1-categories is described in 
 
-* [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
- {#AdamekRosicky}
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+ 
 
 The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
 
