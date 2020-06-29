@@ -10,7 +10,7 @@ $$ \lim_{x \to c} f(x) = L $$
 means that $f(x)$ is close to $L$ if $x$ is sufficiently close to $c$.  Of course, $x$ here is just a dummy variable, so this is really a [[ternary relation]] between $f$, $c$, and $L$.
 
 
-## Definitions
+## Definitions {#definitions}
 
 Let $X$ and $Y$ be [[topological spaces]], let $f$ be a [[partial function]] from $X$ to $Y$ (*not* assumed continuous or anything else), let $c$ be a [[limit point]] of the domain $D$ of $f$ in $X$, and let $L$ be a point in $Y$.
 
@@ -132,7 +132,7 @@ It would be nice to have notation to distinguish the French and English versions
 
 ## Examples
 
-A function $f$ is [[continuous function|continuous]] at a point $c$ in its domain $D$, if and only if $f(c)$ is a limit of $f$ approaching $c$ by the French definition; $f$ is continuous at $c$ if and only if, if $c$ is an accumulation point of $D$, then $f(c)$ is a limit of $f$ approaching $c$.  (If $c$ is an [[isolated point]] of $D$, then of course $f$ is continuous there.)
+A function $f$ is [[continuous function|continuous]] at a point $c$ in its domain $D$, if and only if $f(c)$ is a limit of $f$ approaching $c$ by the French definition; $f$ is continuous at $c$ if and only if, if $c$ is an accumulation point of $D$, then $f(c)$ is a limit of $f$ approaching $c$ by the English definition.  (If $c$ is an [[isolated point]] of $D$, then of course $f$ is continuous there.)
 
 Given a [[real number|real]]-valued function $F$ defined on a real [[interval]] $[a,b]$, we can speak of tagged partitions of $[a,b]$ and consider the [[Riemann sum|Riemann sums]] of $F$ on these tagged partitions.  Let $X$ and $Y$ each be the [[real line]], let $\Gamma$ be the set of tagged partitions of $[a,b]$, let $g\colon \Gamma \to X$ map a partition to the maximum length of its parts (often called the norm or mesh of the partition), and let $f\colon \Gamma \to Y$ map a tagged partition to the Riemann sum of $F$ on it.  Then the [[Riemann integral]] of $F$ on $[a,b]$ is defined to be the limit of the span $(f,g)$ approaching $0$.  That is, the Riemann integral of a function on an interval is the limit of the Riemann sum of the function on a tagged partition of the interval as the mesh of the partition approaches zero.
 
@@ -141,7 +141,17 @@ Let $A$ be a [[directed set]] and let $\nu\colon A \to Y$ be a [[net]] in $Y$.  
 
 ## Properties
 
-Using the French definition, the limit of a [[composite]] function $f \circ g$ approaching $c$ is equal to the limit of $f$ approaching the limit of $g$ approaching $c$, if the latter exists:
+Some basic relationships between the definitions are in the [definitions](#definitions) section.
+
+As stated in the examples, $f$ is [[continuous function|continuous]] at a point $c$ in its domain $D$ if and only if $f(c)$ is a limit of $f$ approaching $c$ by the French definition, while $f$ is continuous at $c$ if and only if, if $c$ is an accumulation point of $D$, then $f(c)$ is a limit of $f$ approaching $c$ by the English definition.  In this way, pointwise continuity may be defined using limits.
+
+Conversely, limits can be defined using pointwise continuity; the basic idea is that $L$ is a limit of $f$ at $c$ if setting $f(c)$ to $L$ makes $f$ continuous.  For once, this is easier to describe using the English definition: $L$ is the limit of $f$ at an accumulation point $c$ of the domain $D$ if and only if $f_{c \mapsto L}$ is continuous at $c$, where
+$$ f_{c \mapsto L}(x) \coloneqq \left\{ \array{ f(x) & x \ne c,\; x \in D ,\\ L & x = c .}\right. $$
+For the French definition, in addition to allowing $c$ to be any adherent point of $D$, we use
+$$ f_{c \mapsto L}(x) \coloneqq \left\{ \array{ f(x) & x \in D ,\\ L & x = c ,}\right. $$
+where the definition by cases is interpreted to mean that the value of the function is undefined if the two cases overlap and give different results.  Except that even this is only correct when the target $Y$ of $f$ is Hausdorff (or at least $\mathrm{T}_1$); in general, we have to allow the value to be defined if the two cases overlap and give different results as long as one result is in the closure of the other (and then we use the other).
+
+There is a Chain Rule for limits.  Using the French definition, the limit of a [[composite]] function $f \circ g$ approaching $c$ is equal to the limit of $f$ approaching the limit of $g$ approaching $c$, if the latter exists:
 $$ \lim_{x \to c} f(g(x)) \risingdotseq \lim_{u \to \lim_{x \to c} g(x)} f(u) ,$$
 or equivalently $(f \circ g)(c^\pm) \risingdotseq f(g(c^\pm)^\pm)$, where $A \risingdotseq B$ means that $A$ and $B$ are equal if $B$ exists (and $A \fallingdotseq B$ means that $A$ and $B$ are equal if $A$ exists).  Using the English definition, this holds if we impose the requirement that if $g$ takes the value $\lim_c g$ arbitrarily close to $c$ (regardless of its value at $c$) and $f$ is defined there, then $f$ is continuous there.  Either way, we can write
 $$ \lim_{x \to c} f(g(x)) = f\Big(\lim_{x \to c} g(x)\Big) $$
