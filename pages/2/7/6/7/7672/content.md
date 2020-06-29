@@ -540,7 +540,7 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 
 The J-homomorphism was introduced in 
 
-* [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942), ([JSTOR](http://www.jstor.org/stable/1968956)).
+* {#Whitehead42} [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942) ([jstor:1968956](http://www.jstor.org/stable/1968956)).
 
 Lecture notes include
 
