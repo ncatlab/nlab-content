@@ -168,7 +168,7 @@ Correspondences may be seen as generalizations of [[relations]]. A relation is a
 
 * The [[Burnside category]] is essentially the category of correspondences in [[G-sets]] for $G$ a [[finite group]].
 
-* A [[cobordism]] $\Sigma$ from $\Sigma_{in}$ to $\Sigma_{out}$ is an example of a cospan $\Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}$ in the category of [[smooth manifold]]s. However, composition of cobordisms is not quite the pushpout-composition of these cospans: to make the composition be a [[smooth manifold]] again some extra technical aspects must be added ("[[collars]]").
+* A [[cobordism]] $\Sigma$ from $\Sigma_{in}$ to $\Sigma_{out}$ is an example of a cospan $\Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}$ in the category of [[smooth manifold]]s. However, composition of cobordisms is not quite the pushout-composition of these cospans: to make the composition be a [[smooth manifold]] again some extra technical aspects must be added ("[[collars]]").
 
 * In [[prequantum field theory]] (see there for details), spans of [[stacks]] model [[trajectories]] of [[field (physics)|fields]].
 
