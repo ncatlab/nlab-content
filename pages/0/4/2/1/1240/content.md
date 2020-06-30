@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[group]] $G$ with [[subgroup]] $H \hookrightarrow G$ and a [[representation]] of $H$, there is canonically induced a representation of $G$: the _induced representation_.
+Given a [[group]] $G$ with [[subgroup]] $H \hookrightarrow G$ and a [[representation]] of $H$, there is a canonically induced representation of $G$: the _induced representation_.
 
 ## Definition
 
