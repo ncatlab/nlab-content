@@ -1,4 +1,4 @@
-
+/
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -45,7 +45,7 @@ For convenience, we first recall the basic definition of
 
 and of
 
-* [Differntiable functioons between Euclidean spaces](#DifferentiableFunctionsBetweenCartesianSpaces)
+* [Differentiable functions between Euclidean spaces](#DifferentiableFunctionsBetweenCartesianSpaces)
 
 and then turn to the actual definition of
 
