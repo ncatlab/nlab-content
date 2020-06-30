@@ -26,6 +26,12 @@ An _&#233;tale ∞-groupoid_ is meant to be an [[∞-groupoid]]-analog to an [[�
 
 For details see at _[[V-manifold]]_.
 
+## Examples
+
+* classifying étale stack for [[symplectic forms]]: [Carchedi 12, Example 2](#Carchedi12)
+
+* classifying étale stack for [[complex structures]]: [Carchedi 12, p. 38](#Carchedi12)
+
 
 ## References
 
@@ -35,7 +41,7 @@ A formalization of the [[petit topos|petit]] [[(∞,1)-toposes]] corresponding t
 
 A characterization of &#233;tale ∞-groupoids as objects in a [[big topos|big]] [[(∞,1)-topos]] is given in 
 
-* [[David Carchedi]], _&#201;tale Stacks as Prolongations_, Advances in Mathematics Volume 352, 20 August 2019, Pages 56-132 ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+* {#Carchedi12} [[David Carchedi]], _&#201;tale Stacks as Prolongations_, Advances in Mathematics Volume 352, 20 August 2019, Pages 56-132 ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
 
 * [[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity-Topoi_, Memoirs of the American Mathematical Society 2020; 120 ([arXiv:1312.2204](https://arxiv.org/abs/1312.2204), [ISBN:978-1-4704-5810-2](https://bookstore.ams.org/memo-264-1282))
 
