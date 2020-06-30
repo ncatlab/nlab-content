@@ -92,7 +92,7 @@ where $\varnothing$ is [[initial object|inital]] in $\mathbf C$ and $!$ denotes 
 +-- {: .num_prop}
 ###### Proposition
 ([B. Fong 2015](#BrendanFong2015))
-There is a category $F\mathrm{Cospan}$ of $F$-decorated cospans, with objects the objects of $\mathbf C$ and morphisms isomorphism classes od $F$-decorated cospans. Composition in this category is given by the class of the pushout of two representatives:
+There is a category $F\mathrm{Cospan}$ of $F$-decorated cospans, with objects the objects of $\mathbf C$ and morphisms isomorphism classes of $F$-decorated cospans. Composition in this category is given by the class of the pushout of two representatives:
 $$
   \array{
      &&&& n +_y m
@@ -171,7 +171,7 @@ The braiding in $\mathbf D$ can be now used to show this product is indeed funct
 The hypergraph structure is defined by equipping each object $x \in F\mathrm{Cospan}$ with the image of the special commutative [[Frobenius algebra|Frobenius monoid]] specified by the hypergraph structure of $\mathrm{Cospan}(\mathbf C)$. The fact that the 'empty-decoration' embedding is an hypergraph functor is evident.
 =--
 
-If the monoidal unit of $(\mathbf D, \otimes)$ is the inital object, then each object admits only a decoration --- the empty one. This implies $\mathrm{Cospan}(\mathbf C)$ and $1_{\mathbf C}\mathrm{Cospan}$ are isomorphic as hypergraph categories.
+If the monoidal unit of $(\mathbf D, \otimes)$ is the initial object, then each object admits only a decoration --- the empty one. This implies $\mathrm{Cospan}(\mathbf C)$ and $1_{\mathbf C}\mathrm{Cospan}$ are isomorphic as hypergraph categories.
 
 ## Examples
 
