@@ -156,7 +156,7 @@ Applied the concept of [[critical locus]] this leads to the notion of _[[derived
 ## **III)** Motivation of higher DG from physics
  {#MotivationOfHigherDGFromPhysics}
 
-To a large extent, [[differential geometry]] had been co-evolving with the descriotion of [[physics]] in terms of _[[field (physics)|fields]]_. We have already seen above in _[Field bundles for local gauge theory](#FieldBundles)_ that an accurate formulation even of traditional notions of such fields requires [[higher differential geometry]] to degree 1. But modern developments in [[quantum field theory]] require notions of [[physical fields]] and [[quantum states]] that probe much more deeply into the realm of geometric [[homotopy theory]]. We indicate here some aspects. For comprehensive introductory lecture notes on this topic see at 
+To a large extent, [[differential geometry]] had been co-evolving with the description of [[physics]] in terms of _[[field (physics)|fields]]_. We have already seen above in _[Field bundles for local gauge theory](#FieldBundles)_ that an accurate formulation even of traditional notions of such fields requires [[higher differential geometry]] to degree 1. But modern developments in [[quantum field theory]] require notions of [[physical fields]] and [[quantum states]] that probe much more deeply into the realm of geometric [[homotopy theory]]. We indicate here some aspects. For comprehensive introductory lecture notes on this topic see at 
 
 * _[[geometry of physics]]_.
 
