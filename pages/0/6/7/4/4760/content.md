@@ -65,7 +65,7 @@ There are also an oplax version and two non-normalized versions.
 
 Any [[strict 2-category]] determines both a 'bicategory' in the above sense (since a 'strict' thing is also a 'weak' one)  and a simplicially enriched category.  The latter is found by taking the nerve of each 'hom-category'.  The Duskin nerve of a 2-category is the same as the [[homotopy coherent nerve]] of the corresponding $sSet$-category.  This can also be applied to [[2-groupoid]]s and, thus, results in a classifying space construction for [[crossed module]]s. 
 
-## Picturing the geometric nerve of a bicategory
+## Picturing the Duskin nerve
 Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Duskin nerve $N(\mathcal{C})$ of a bicategory $(\mathcal{C},1^{\mathcal{C}},\circ_{\mathcal{C}},\alpha^{\mathcal{C}},\lambda^{\mathcal{C}},\rho^{\mathcal{C}})$ as follows:
 
 1. The $0$-simplices of $N(\mathcal{C})$ are the objects of $\mathcal{C}$;
@@ -91,6 +91,95 @@ Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Dus
    such that, for each $i,j,k\in\mathbb{N}$, we have an equality
    [[n-simplex-of-NC-equality-of-pasting-diagrams.svg:pic]]
    of pasting diagrams in $\mathcal{C}$;
+6. The degeneracy map
+   $$\mathrm{s}^{0}_{0}\colon N_{0}(\mathcal{C})\longrightarrow N_{1}(\mathcal{C})$$
+   of $N(\mathcal{C})$ in degree $0$ is the map sending a $0$-simplex $A$ of $N(\mathcal{C})$ (i.e. an object $A$ of $\mathcal{C}$) to the $1$-simplex $\mathrm{id}_{A}\colon A\to A$.
+7. The degeneracy maps
+$$
+\mathrm{s}^{1}_{0} \colon N_{1}(\mathcal{C})\longrightarrow N_{2}(\mathcal{C}),
+$$
+$$
+\mathrm{s}^{1}_{1} \colon N_{1}(\mathcal{C})\longrightarrow N_{2}(\mathcal{C}),
+$$
+of $N(\mathcal{C})$  in degree $1$ are the described as follows: given a $1$-simplex $\sigma=(A\xrightarrow{f}B)$ of $N(\mathcal{C})$, we have
+[[deg-1-degeneracies-of--duskin-nerve.svg:pic]]
+8. The degeneracy maps in degree $2$
+$$
+\mathrm{s}^{2}_{0} \colon N_{2}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+$$
+\mathrm{s}^{2}_{1} \colon N_{2}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+$$
+\mathrm{s}^{2}_{2} \colon N_{2}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+    of $N(\mathcal{C})$  in degree $2$ are the described as follows: given a $2$-simplex
+    [[2-simplex-duskin-sigma.svg:pic]]
+    of $N(\mathcal{C})$, we have
+    [[deg-2-degeneracies-duskin-new.svg:pic]]
+8. The face maps
+$$
+\mathrm{d}^{1}_{0} \colon N_{1}(\mathcal{C})\longrightarrow N_{0}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{1}_{1} \colon N_{1}(\mathcal{C})\longrightarrow N_{0}(\mathcal{C}),
+$$
+    of $N(\mathcal{C})$ in degree $1$ are given by
+$$\mathrm{d}^{1}_{0}(A\xrightarrow{f}B)=B$$
+$$\mathrm{d}^{1}_{1}(A\xrightarrow{f}B)=A$$
+9. The face maps
+$$
+\mathrm{d}^{2}_{0} \colon N_{2}(\mathcal{C})\longrightarrow N_{1}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{2}_{1} \colon N_{2}(\mathcal{C})\longrightarrow N_{1}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{2}_{1} \colon N_{2}(\mathcal{C})\longrightarrow N_{1}(\mathcal{C}),
+$$
+of $N(\mathcal{C})$ in degree $2$ are described as follows: given a $2$-simplex
+[[2-simplex-duskin-sigma.svg:pic]]
+of $N(\mathcal{C})$, we have
+[[face-maps-deg-2-duskin.svg:pic]]
+10. The face maps
+$$
+\mathrm{d}^{3}_{0} \colon N_{3}(\mathcal{C})\longrightarrow N_{2}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{3}_{1} \colon N_{3}(\mathcal{C})\longrightarrow N_{2}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{3}_{2} \colon N_{3}(\mathcal{C})\longrightarrow N_{2}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{3}_{3} \colon N_{3}(\mathcal{C})\longrightarrow N_{2}(\mathcal{C}),
+$$
+of $N(\mathcal{C})$ in degree $3$ are described as follows: given a $3$-simplex
+[[3-simplex-duskin.svg:pic]]
+of $N(\mathcal{C})$, we have
+[[face-maps-deg-3-duskin.svg:pic]]
+11. The face maps
+$$
+\mathrm{d}^{4}_{0} \colon N_{4}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{4}_{1} \colon N_{4}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{4}_{2} \colon N_{4}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{4}_{3} \colon N_{4}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+$$
+\mathrm{d}^{4}_{4} \colon N_{4}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
+$$
+of $N(\mathcal{C})$ in degree $4$ are described as follows: given a $4$-simplex $\sigma$ of $N(\mathcal{C})$ as in the diagram
+[[4-simplex-duskin.svg:pic]]
+we have
+\begin{imagefromfile}
+    "file_name": "face-maps-deg-4-duskin-new2.svg"
+\end{imagefromfile}
 
 ## Related concepts
 
