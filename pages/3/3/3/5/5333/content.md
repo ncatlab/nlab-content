@@ -276,6 +276,8 @@ Review includes
 
 * {#He18} [[Yang-Hui He]], _Deep-learning the landscape_, talk at _[String and M-Theory: The new geometry of the 21st century](https://ims.nus.edu.sg/events/2018/wstring/wk.php)_ ([pdf slides](https://ims.nus.edu.sg/events/2018/wstring/files/yang.pdf), [video recording](https://www.youtube.com/watch?v=x3ThgBgkPlE))
 
+* [[Yang-Hui He]], _Calabi-Yau Spaces in the String Landscape_ ([arXiv:2006.16623](https://arxiv.org/abs/2006.16623))
+
 
 Computation of [[metrics]] on these Calabi-Yau compactifications (eventually needed for computing their induced [[Yukawa couplings]]) is started in 
 
