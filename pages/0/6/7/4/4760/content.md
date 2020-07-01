@@ -65,6 +65,33 @@ There are also an oplax version and two non-normalized versions.
 
 Any [[strict 2-category]] determines both a 'bicategory' in the above sense (since a 'strict' thing is also a 'weak' one)  and a simplicially enriched category.  The latter is found by taking the nerve of each 'hom-category'.  The Duskin nerve of a 2-category is the same as the [[homotopy coherent nerve]] of the corresponding $sSet$-category.  This can also be applied to [[2-groupoid]]s and, thus, results in a classifying space construction for [[crossed module]]s. 
 
+## Picturing the geometric nerve of a bicategory
+Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Duskin nerve $N(\mathcal{C})$ of a bicategory $(\mathcal{C},1^{\mathcal{C}},\circ_{\mathcal{C}},\alpha^{\mathcal{C}},\lambda^{\mathcal{C}},\rho^{\mathcal{C}})$ as follows:
+
+1. The $0$-simplices of $N(\mathcal{C})$ are the objects of $\mathcal{C}$;
+
+2. The $1$-simplices of $N(\mathcal{C})$ are the $1$-morphisms of $\mathcal{C}$;
+
+3. The $2$-simplices of $N(\mathcal{C})$ are quadruples $(i,j,k,\theta)$ as in the diagram
+
+   [[2-simplex-of-NC.svg:pic]]
+   where $A,B,C\in\mathrm{Obj}(\mathcal{C})$, $i,j,k\in\mathrm{Mor}_1(\mathcal{C})$ and $\theta\colon j\circ i\Rightarrow k$ is a $2$-morphism of $\mathcal{C}$;
+4. The $3$-simplices of $N(\mathcal{C})$ are $14$-tuples 
+   $$(A_{0},A_{1},A_{2},A_{3},f_{01},f_{02},f_{03},f_{12},f_{13},f_{23},\theta_{012},\theta_{013},\theta_{023},\theta_{123})$$
+   as in the diagram
+   [[3-simplex-of-NC.svg:pic]]
+   such that we have an equality
+   [[3-simplex-of-NC-equality-of-pasting-diagrams.svg:pic]]
+   of pasting diagrams in $\mathcal{C}$;
+5. The $n$-simplices of $N(\mathcal{C})$ consist of
+   * A collection $\{A_i\}_{0\leq i\leq n}$ of objects of $\mathcal{C}$,
+   * A collection $\{f_{ij}\colon A_{i}\to A_{j}\}$ of $1$-morphisms of $\mathcal{C}$, and
+   * A collection $\{\theta_{ijk}\colon f_{jk}\circ f_{ij}\Rightarrow f_{ik}\}$ of $2$-morphisms of $\mathcal{C}$,
+   
+   such that, for each $i,j,k\in\mathbb{N}$, we have an equality
+   [[n-simplex-of-NC-equality-of-pasting-diagrams.svg:pic]]
+   of pasting diagrams in $\mathcal{C}$;
+
 ## Related concepts
 
 * [[nerve]]
@@ -86,7 +113,9 @@ Any [[strict 2-category]] determines both a 'bicategory' in the above sense (sin
 {#Duskin}
 
 * V. Blanco, M. Bullejos, E. Faro, _A Full and faithful Nerve for 2-categories_, Applied 
-Categorical Structures, Vol 13-3, 223-233, 2005. (see also [arxiv](http://arxiv.org/abs/math/0406615)
+Categorical Structures, Vol 13-3, 223-233, 2005. (See also [arxiv](http://arxiv.org/abs/math/0406615)).
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055)).
 
 [[!redirects bicategory nerve]]
 [[!redirects nerve of bicategories]]
