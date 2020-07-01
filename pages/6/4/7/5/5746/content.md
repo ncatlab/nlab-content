@@ -21,7 +21,7 @@ $$
 MC(\mathfrak{g})=\{x\in \mathfrak{g}^1 \;|\; dx+\frac{1}{2}[x,x]=0\}
 $$
 
-One thinks of element in this set as _flat $\mathfrak{g}$-[[connection on a bundle|connection]]s: indeed
+One thinks of elements in this set as _flat $\mathfrak{g}$-[[connection on a bundle|connection]]s: indeed
 
 $$
 x\in MC(\mathfrak{g}) \Leftrightarrow (d+[x,-])^2=0.
@@ -37,7 +37,7 @@ acts on as a group of [[gauge transformation]]s on the set of $\mathfrak{g}$-con
 $$
 e^{a}(d+[x,-])e^{-a}=d+[e^a*x,-].
 $$
-Explicitely,
+Explicitly,
 $$
 e^a*x=x+\sum_{n=0}^\infty \frac{([a,-])^n}{(n+1)!}([a,x]-da)
 $$
@@ -69,7 +69,9 @@ but the later study of the Deligne 2-groupoid is from a letter of Deligne to Bre
 * [[E. Getzler]], _A Darboux theorem for Hamiltonian operators in the formal calculus of variations_, Duke Math. J. __111__, n. 3 (2002), 535-560, [MR2003e:32026](http://www.ams.org/mathscinet-getitem?mr=1885831), [doi](http://dx.doi.org/10.1215/S0012-7094-02-11136-3)
 
 Other references
+
 * V. Hinich,  _Descent of Deligne groupoids_, Int. Math. Research Notices,  1997, n. 5, 223-239, [alg-geom/9606010](http://arxiv.org/abs/alg-geom/9606010); _DG coalgebras as formal stacks_, J. Pure Appl. Algebra __162__ (2001), 209-250, [pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/dgc.pdf) 
+
 * Amnon Yekutieli, _MC elements in complete DG Lie algebras_, [arXiv/1103.1035](http://arxiv.org/abs/1103.1035)
 
 A careful analysis extends the assignment of the Deligne groupoid to a Maurer-Cartan pseudofunctor, see part 2 of 
@@ -81,7 +83,7 @@ A careful analysis extends the assignment of the Deligne groupoid to a Maurer-Ca
 
 Parts of the above text is taken from
 
-* [[Domenico Fiorenza]], _[[domenicofiorenza:The periods map of a complex projective manifold. An oo-category perspective]]_
+* [[Domenico Fiorenza]], _[[domenicofiorenza:The periods map of a complex projective manifold. An $infty$-category perspective]]_
 
 
 
