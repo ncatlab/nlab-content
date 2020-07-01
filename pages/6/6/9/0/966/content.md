@@ -404,6 +404,10 @@ The connection between the solution set condition and the Čech homology constru
 
 * Renato Betti, _Čech methods and the adjoint functor theorem_ , Cah. Top. Géom. Diff. Cat. **XXVI** no.3 (1985) pp.245-257. ([numdam](http://www.numdam.org/item/?id=CTGDC_1985__26_3_245_0))
 
+The parallels between the adjoint functor theorem for categories and the computation of colimits from limits in a lattice as well as similar parallels between co/completeness for Boolean algebras and Paré's theorem for finite completeness of toposes is studied from a type-theoretical perspective in
+
+* [[Dusko Pavlovic|Duško Pavlović]], _On completeness and cocompleteness in and around small categories_ , APAL **74** (1995) pp.121-152.
+
 The case for [[locally presentable categories]] is discussed in
 
 * [[Jiří Adámek]], [[Jiri Rosicky]], *[[Locally presentable and accessible categories]]*, Cambridge UP, 1994.
