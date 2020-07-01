@@ -59,10 +59,12 @@ This gives one universal characterization of the ultrafilter endofunctor. This t
 \begin{theorem}
 (Garner, 2018, \cite{Garner}.)
 The category of [[endofunctors]] $Set \to Set$ that preserve [[finite coproducts]]
-is equivalent to the category of [[presheaves of sets]] on the Blass category $UF$ of ultrafilters.
+is equivalent to the category of [[presheaves]] of sets on the Blass category $U F$ of ultrafilters.
 The ultrapower functor with respect to an ultrafilter $U$
 corresponds to the representable functor of $U$.
 \end{theorem}
+
+The Blass category of ultrafilters has as objects, pairs of a set $X$ and an ultrafilter $\mathcal{U}$ of $\beta X$. Morphisms from $(X, \mathcal{U})$ to $(Y, \mathcal{V})$ are $=_{\mathcal{U}}$-equivalence classes of [[partial function|partial]] continuous maps defined on a set in $\mathcal{U}$, continuity here meaning that for any $V \in \mathcal{V}$, $f^{-1}(V) \in \mathcal{U}$. 
 
 ### Ultrafilters and codensity 
 
