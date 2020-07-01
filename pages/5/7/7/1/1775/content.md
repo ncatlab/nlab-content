@@ -242,7 +242,7 @@ for the [[(∞,1)-limit]] over this composite [[(∞,1)-functor]] in $\mathcal{C
 
 For $X_\bullet \in \mathcal{C}^{\Delta^{op}}$ and $K \to K'$ the following are equivalent
 
-1. the induced morphism of cone $(\infty,1)$-categoris $\mathcal{C}_{X[K]} \to \mathcal{C}_{X[K']}$ is an [[equivalence of (∞,1)-categories]];
+1. the induced morphism of cone $(\infty,1)$-categories $\mathcal{C}_{X[K]} \to \mathcal{C}_{X[K']}$ is an [[equivalence of (∞,1)-categories]];
 
 1. the induced morphism of [[(∞,1)-limits]] $X(K) \to X(K')$ is an [[equivalence in an (∞,1)-category|equivalence]].
 
