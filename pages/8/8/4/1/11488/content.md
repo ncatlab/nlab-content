@@ -4,11 +4,7 @@
 
 ## Idea
 
-Quantale is an analogue of a noncommutative ring and a noncommutative generalization of a locale; it is a semigroup in the monoidal category of
-[[sup-lattice]]s; therefore, for a quantale $Q$, a left $Q$-module should be a sup-lattice $M$ together with an action $Q\otimes M\to M$ satisfying the
-usual axioms. The special case (when the quantale is unital, commutative and
-hence a locale) is the case of modules over a locale (localic modules), and the multiobject version
-are the quantaloid modules. 
+A [[quantale]] is an analogue of a noncommutative ring and a noncommutative generalization of a locale; it is a semigroup in the monoidal category of [[sup-lattice]]s; therefore, for a quantale $Q$, a left $Q$-module should be a sup-lattice $M$ together with an action $Q\otimes M\to M$ satisfying the usual axioms.  In the special case when the quantale is unital and commutative and hence a locale, such a module is called a "localic module", or module over a locale.  The multiobject generalization is called a quantaloid module.
 
 ## References
 
