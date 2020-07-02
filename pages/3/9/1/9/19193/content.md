@@ -87,6 +87,9 @@ There are various computer simulations for cosmic structure formation, listed be
 * {#Springel19} Volker Springel, _Hydrodynamical galaxy formation simulations_, talk, December 2019 ([CCA announcement page](https://www.simonsfoundation.org/event/cca-colloquium-volker-springel), 
 [video recording](https://youtu.be/inbfOSzsGgA))
 
+* Mark Vogelsberger, Federico Marinacci, Paul Torrey, Ewald Puchwein, _Cosmological Simulations of Galaxy Formation_, Nature Reviews Physics volume 2, pages 42–66 (2020)  ([arXiv:1909.07976](https://arxiv.org/abs/1909.07976), [doi:10.1038/s42254-019-0127-2](https://doi.org/10.1038/s42254-019-0127-2))
+
+
 
 
 #### Millennium Project
