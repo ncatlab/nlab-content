@@ -344,7 +344,11 @@ The category $Comp$ of compact Hausdorff spaces and continuous maps is
 
 From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning that $Comp$ enjoys the same finitary exactness properties that hold in a [[topos]]; in particular, first-order intuitionistic logic may be enacted within $Comp$. 
 
-In ([Marra-Reggio 18](#MarraReggio)), the authors give a characterization of $Comp$ up to equivalence as the unique non-trivial [[pretopos]] which is [[well-pointed category|well-pointed]], [[filtrality|filtral]] and admits all set-indexed copowers of its terminal object.
+In ([Marra-Reggio 18](#MarraReggio)), the authors give a characterization of $Comp$ up to equivalence as the unique non-trivial [[pretopos]] which is [[well-pointed category|well-pointed]], [[filtrality|filtral]] and admits all set-indexed [[copowers]] of its [[terminal object]]. They contrast this result with Lawvere’s characterisation of the category of sets in [[ETCS]], noting that the main divergence concerns
+
+> the existence of infinite “discrete” objects. While the third axiom of ETCS postulates the existence of a natural numbers object, we prescribe filtrality which forbids the existence of infinite discrete objects. ([Marra-Reggio 18, p. 2](#MarraReggio))
+
+In the context of [[ultracategories]], $Comp$ is equivalent to $Fun_{RUlt}(\ast, Set)$, the category of right ultrafunctors between the terminal ultracategory and $Set$ ([Lurie, p. 4](#Lurie)). 
 
 
 ## Related concepts
@@ -358,6 +362,8 @@ In ([Marra-Reggio 18](#MarraReggio)), the authors give a characterization of $Co
 ## References
 
 * {#MarraReggio} Vincenzo Marra, Luca Reggio, _A characterisation of the category of compact Hausdorff spaces_, ([arXiv:1808.09738](https://arxiv.org/abs/1808.09738))
+
+* {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
 
 
 [[!redirects compactum]]
