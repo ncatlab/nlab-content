@@ -43,7 +43,7 @@ An $(0,1)$-category is equivalently a [[poset]].
 +-- {: .proof}
 ###### Proof
 
-We may without restriction assume that every hom-$\infty$-groupoid is in fact a set on the nose. Then since this is [[(-1)-truncated]] it is either empty or the singleton. So there is at most one morphism from any object to any other.
+We may without restriction assume that every hom-$\infty$-groupoid is just a set. Then since this is [[(-1)-truncated]] it is either empty or the singleton. So there is at most one morphism from any object to any other.
 
 =--
 
