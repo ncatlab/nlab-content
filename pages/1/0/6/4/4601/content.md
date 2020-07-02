@@ -25,7 +25,7 @@ $$
 ## Properties
 
 
-Up to [[isomorphism of categories|isomorphism]], a thin category is the same thing as a [[proset]].  Up to [[equivalence of categories|equivalence]], a thin category is the same thing as a [[poset]].  So mostly we just talk about posets here, but some references want to distinguish these from thin categories.  (It is really a question of whether you\'re working with [[strict categories]], which are classified up to isomorphism, or categories as such, which are classified up to equivalence.)
+Up to [[isomorphism of categories|isomorphism]], a thin category is the same thing as a [[proset]] (a preordered set).  Up to [[equivalence of categories|equivalence]], a thin category is the same thing as a [[poset]].  So mostly we just talk about posets here, but some references want to distinguish these from thin categories.  (It is really a question of whether you\'re working with [[strict categories]], which are classified up to isomorphism, or categories as such, which are classified up to equivalence.)
 
 
 ## Examples
