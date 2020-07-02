@@ -87,6 +87,9 @@ The stark failure of plain MOND to fit data on large cosmological scales is high
 
 * {#Dodelson11} Scott Dodelson, _The Real Problem with MOND_,  Int. J. Mod. Phys. D, 20, 2749 (2011).  ([arXiv:1112.1320](https://arxiv.org/abs/1112.1320))
 
+* Kris Pardo, [[David Spergel]], _What is the price of abandoning dark matter? Cosmological constraints on alternative gravity theories_ ([arXiv:2007.00555](https://arxiv.org/abs/2007.00555))
+
+
 The instability of its relativistic completion by TeVeS was pointed out in 
 
 * Michael D. Seifert, _Stability of spherically symmetric solutions in modified theories of gravity_, Phys.Rev.D76:064002, 2007 ([arXiv:gr-qc/0703060](https://arxiv.org/abs/gr-qc/0703060))
