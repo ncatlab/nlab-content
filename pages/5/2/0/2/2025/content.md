@@ -344,12 +344,21 @@ The category $Comp$ of compact Hausdorff spaces and continuous maps is
 
 From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning that $Comp$ enjoys the same finitary exactness properties that hold in a [[topos]]; in particular, first-order intuitionistic logic may be enacted within $Comp$. 
 
+In ([Marra-Reggio 18](#MarraReggio)), the authors give a characterization of $Comp$ up to equivalence as the unique non-trivial [[pretopos]] which is [[well-pointed category|well-pointed]], [[filtrality|filtral]] and admits all set-indexed copowers of its terminal object.
+
 
 ## Related concepts
 
 * [[compact space]], [[locally compact space]].
 
 * [[paracompact Hausdorff space]]
+
+* [[pyknotic set]]
+
+## References
+
+* {#MarraReggio} Vincenzo Marra, Luca Reggio, _A characterisation of the category of compact Hausdorff spaces_, ([arXiv:1808.09738](https://arxiv.org/abs/1808.09738))
+
 
 [[!redirects compactum]]
 [[!redirects compacta]]
