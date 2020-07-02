@@ -46,6 +46,9 @@ Computer simulation of galaxy [[structure formation]]:
 
 * Julio Navarro, _Simulations of Galaxy Formation:  the State of the Art_ ([pdf](http://www.physics.ox.ac.uk/iau311/navarro_iau311.pdf))
 
+* Mark Vogelsberger, Federico Marinacci, Paul Torrey, Ewald Puchwein, _Cosmological Simulations of Galaxy Formation_, Nature Reviews Physics volume 2, pages 42–66 (2020)  ([arXiv:1909.07976](https://arxiv.org/abs/1909.07976), [doi:10.1038/s42254-019-0127-2](https://doi.org/10.1038/s42254-019-0127-2))
+
+
 * [FIRE: Feedback In Realistic Environments
 Increasing the predictive power of galaxy formation simulations
 ](https://fire.northwestern.edu/)
