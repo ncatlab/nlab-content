@@ -19,6 +19,7 @@
 
 * [[condensed set]]
 * [[bornological topos]]
+* [[pyknotic set]]
 
 ## References
 
