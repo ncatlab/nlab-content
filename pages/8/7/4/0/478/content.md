@@ -30,7 +30,7 @@ If we wish to extend this treatment to types which are [[propositions]], we migh
 
 ##References
 
-* [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory)
+* [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory), revised as Chapter 4 of _Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy_.
 
 [[!redirects the]]
 [[!redirects generalised the]]
