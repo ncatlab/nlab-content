@@ -612,13 +612,26 @@ For [[2-categories]] modeled as [[bicategories]] the nerve operation is called t
 +-- {: .num_prop}
 ###### Proposition
 
-A simplicial set is the [[Duskin nerve]] of a [[bigroupoid]] precisely if it is a 2-[[hypergroupoid]]: a [[Kan complex]] such that the horn fillers in dimension $\geq 3$ are _unique_ .  
+A simplicial set is the [[Duskin nerve]] of a [[bigroupoid]] precisely if it is a 2-[[hypergroupoid]]: a [[Kan complex]] such that the horn fillers in dimension $\geq 3$ are _unique_.
 
 =--
 
 This is theorem 8.6 in ([Duskin](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html))
 
 For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply the nerve operation for categories in stages, to obtain the [[double nerve]].
+
+### Nerve of a 3-category ###
+
+One also has a nerve operation for [[3-categories]] modeled as [[tricategories]]: the [[Street nerve]].
+
++-- {: .num_prop}
+###### Proposition
+
+A simplicial set is the [[Street nerve]] of a [[trigroupoid]] precisely if it is a 3-[[hypergroupoid]]: a [[Kan complex]] such that the horn fillers in dimension $\geq 4$ are _unique_.
+
+=--
+
+This is the main result of ([Carrasco, 2014](#Carrasco2014)).
 
 ### Nerve of an $\omega$-category ###
 
@@ -662,6 +675,8 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 
 * [[Duskin nerve]]
 
+* [[Street nerve]]
+
 * [[∞-nerve]]
 
 * [[homotopy coherent nerve]]
@@ -681,6 +696,8 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.
 
 * [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_, [arxiv/1211.6603](http://arxiv.org/abs/1211.6603)
+
+* {#Carrasco2014} Pilar Carrasco, _Nerves of Trigroupoids as Duskin-Glenn’s $3$-Hypergroupoids_, Applied Categorical Structures 23.5 (2015): 673-707.
 
 For an explanation of how the category $\Delta$ and the nerve construction arise canonically from the free category monad on the category of [[quivers]], see:
 
