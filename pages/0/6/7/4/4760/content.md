@@ -84,11 +84,12 @@ Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Dus
    [[3-simplex-of-NC-equality-of-pasting-diagrams.svg:pic]]
    of pasting diagrams in $\mathcal{C}$;
 5. The $n$-simplices of $N(\mathcal{C})$ consist of
-   * A collection $\{A_i\}_{0\leq i\leq n}$ of objects of $\mathcal{C}$,
-   * A collection $\{f_{ij}\colon A_{i}\to A_{j}\}$ of $1$-morphisms of $\mathcal{C}$, and
-   * A collection $\{\theta_{ijk}\colon f_{jk}\circ f_{ij}\Rightarrow f_{ik}\}$ of $2$-morphisms of $\mathcal{C}$,
-   
-   such that, for each $i,j,k\in\mathbb{N}$, we have an equality
+
+   * A collection $\{A_{i}\}_{0\leq i\leq n}$ of objects of $\mathcal{C}$,
+   * A collection $\{f_{ij}\colon A_{i}\longrightarrow A_{j}\}_{0\leq i\lt j\leq n}$ of $1$-morphisms of $\mathcal{C}$, and
+   * A collection $\{\theta_{ijk}\colon f_{jk}\circ f_{ij}\Rightarrow f_{ik}\}_{0\leq i\lt j\lt k\leq n}$ of $2$-morphisms of $\mathcal{C}$
+
+   such that, for each $i,j,k\in\mathbb{N}$ with $0\leq i\lt j\lt k\leq n$, we have an equality
    [[n-simplex-of-NC-equality-of-pasting-diagrams.svg:pic]]
    of pasting diagrams in $\mathcal{C}$;
 6. The degeneracy map
@@ -101,7 +102,7 @@ $$
 $$
 \mathrm{s}^{1}_{1} \colon N_{1}(\mathcal{C})\longrightarrow N_{2}(\mathcal{C}),
 $$
-of $N(\mathcal{C})$  in degree $1$ are the described as follows: given a $1$-simplex $\sigma=(A\xrightarrow{f}B)$ of $N(\mathcal{C})$, we have
+of $N(\mathcal{C})$  in degree $1$ are the maps described as follows: given a $1$-simplex $\sigma=(A\xrightarrow{f}B)$ of $N(\mathcal{C})$, we have
 [[deg-1-degeneracies-of--duskin-nerve.svg:pic]]
 8. The degeneracy maps in degree $2$
 $$
@@ -113,7 +114,7 @@ $$
 $$
 \mathrm{s}^{2}_{2} \colon N_{2}(\mathcal{C})\longrightarrow N_{3}(\mathcal{C}),
 $$
-    of $N(\mathcal{C})$  in degree $2$ are the described as follows: given a $2$-simplex
+    of $N(\mathcal{C})$  in degree $2$ are the maps described as follows: given a $2$-simplex
     [[2-simplex-duskin-sigma.svg:pic]]
     of $N(\mathcal{C})$, we have
     [[deg-2-degeneracies-duskin-new.svg:pic]]
