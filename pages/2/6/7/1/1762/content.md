@@ -15,3 +15,4 @@ Ross Street is a major category theorist of the [[Australian school of category 
 category: people
 
 [[!redirects R. Street]]
+[[!redirects Street]]
