@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _Jordan superalgebra_ is the analog of a [[Jordan algebra]] in [[superalgebra]]/[[supergeometry]]. 
+A _Jordan superalgebra_ is the analog of a [[Jordan algebra]] in [[superalgebra]]/[[supergeometry]]. A Jordan superalgebra $J$ is a $\mathbb{Z}_2$-graded algebra $J = J_0 \oplus J_1$, where $J_0$ is a Jordan algebra and $J_1$ a $J_0$-bimodule with a “Lie-like” product into $J_0$.
 
 ## Classification
 
