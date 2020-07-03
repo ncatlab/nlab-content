@@ -18,11 +18,17 @@
 
 A _Jordan superalgebra_ is the analog of a [[Jordan algebra]] in [[superalgebra]]/[[supergeometry]]. 
 
+## Classification
+
+Jordan simple superalgebras over an [[algebraically closed field]] of [[characteristic 0]] were classified by Kac ([Kac 77](#Kac77)).
+
 ## References
 
-* I. L. Kantor, _Connections between Poisson brackets and Jordan and Lie superalgebras, Lie theory, differential equations and representation theory_, Montreal (1989), 213–225.
+* {#Kac77} [[Victor Kac]], _Classification of simple Z-graded Lie superalgebras and simple Jordan superalgebras_, Comm. Algebra 5(1977), 1375–1400, ([doi: 10.1080/00927877708822224]( https://doi.org/10.1080/00927877708822224))
 
-* I. Kaplansky, _Graded Jordan algebras I_, ([preprint](https://www1.osu.cz/~zusmanovich/links/files/kaplansky/gja.pdf)).
+* [[Isaiah Kantor]], _Connections between Poisson brackets and Jordan and Lie superalgebras, Lie theory, differential equations and representation theory_, Montreal (1989), 213–225.
+
+* [[Irving Kaplansky]], _Graded Jordan algebras I_, ([preprint](https://www1.osu.cz/~zusmanovich/links/files/kaplansky/gja.pdf)).
 
 * Consuelo Mart&iacute;nez, _Simplicity of Jordan Superalgebras and Relations with Lie Structures_,  Irish Math. Soc. Bulletin 50(2003), 97–116 ([pdf](http://www.irishmathsoc.org/bull50/R5005.pdf))
 
