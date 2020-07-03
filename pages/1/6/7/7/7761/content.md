@@ -18,6 +18,9 @@
 
 Ultracategories were introduced in [Makkai 87](#Makkai87) in order to prove [[conceptual completeness]], but note that Lurie's definition slightly differs from Makkai's ([Lurie, Warning 1.0.4](#Lurie)).
 
+(For a conjecture that ultracategories are a kind of generalized multicategory, see [Shulman](#Shulman).)
+
+
 In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory is introduced as an instance of a [[generalized multicategory]]. 
 
 ### References
@@ -28,7 +31,14 @@ In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory i
 
 * {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
 
+For a conjecture that ultracategories are a kind of generalized multicategory see
+
+* {#Shulman} [[Mike Shulman]], [blog comment](https://golem.ph.utexas.edu/category/2010/01/generalized_multicategories.html#c058061)
+
+For a different notion of ultracategory see
+
 * {#ClemTholen} [[Maria Manuel Clementino]], [[Walter Tholen]], _Metric, topology and multicategory--a common approach_, J. Pure Appl. Algebra 179 (2003) 13-47, ([doi:10.1016/S0022-4049(02)00246-3](https://doi.org/10.1016/S0022-4049%2802%2900246-3)).
+
 
 For a [[2-monad|2-monadic]] treatment of ultracategories, see
 
