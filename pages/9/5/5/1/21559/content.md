@@ -28,7 +28,7 @@ Jordan simple superalgebras over an [[algebraically closed field]] of [[characte
 
 * [[Isaiah Kantor]], _Connections between Poisson brackets and Jordan and Lie superalgebras, Lie theory, differential equations and representation theory_, Montreal (1989), 213–225.
 
-* [[Irving Kaplansky]], _Graded Jordan algebras I_, ([preprint](https://www1.osu.cz/~zusmanovich/links/files/kaplansky/gja.pdf)).
+* [[Irving Kaplansky]], _Graded Jordan algebras I_ ([preprint](https://www1.osu.cz/~zusmanovich/links/files/kaplansky/gja.pdf)).
 
 * Consuelo Mart&iacute;nez, _Simplicity of Jordan Superalgebras and Relations with Lie Structures_,  Irish Math. Soc. Bulletin 50(2003), 97–116 ([pdf](http://www.irishmathsoc.org/bull50/R5005.pdf))
 
