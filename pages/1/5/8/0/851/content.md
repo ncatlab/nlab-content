@@ -288,7 +288,7 @@ This appears as ([Lurie, prop. 1.2.13.8](#Lurie)).
 
 On the other hand [[(∞,1)-limits]] in the slice are computed as limits over the diagram with the slice-cocone adjoined:
 
-+-- {: .num_prop }
++-- {: .num_prop #LimitsInSliceAreLimitsInUnderlyingCategoryOverCoconeDiagram}
 ###### Proposition
 
 For $\mathcal{C}$ an [[(∞,1)-category]], $X \;\colon\; \mathcal{D} \longrightarrow \mathcal{C}$ a [[diagram]], $\mathcal{C}_{/X}$ the [[comma category]] (the over-$\infty$-category if $\mathcal{D}$ is the point) and $F \;\colon\; K \to \mathcal{C}_{/X}$ a [[diagram]] in the [[comma category]], then the [[(∞,1)-limit]] $\underset{\leftarrow}{\lim} F$ in $\mathcal{C}_{/X}$ coincides with the limit $\underset{\leftarrow}{\lim} F/X$ in $\mathcal{C}$. 
