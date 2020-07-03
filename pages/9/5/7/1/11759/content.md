@@ -8,3 +8,5 @@ See also [[pseudocoherence]].
 [[!redirects pseudosimplicial category]]
 [[!redirects pseudosimplicial categories]]
 [[!redirects pseudosimplicial objects]]
+[[!redirects pseudosimplicial bicategory]]
+[[!redirects pseudosimplicial bicategories]]
