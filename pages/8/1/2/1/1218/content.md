@@ -373,7 +373,9 @@ A brief review is in
 
 (which, curiously, still does not make the connection to the theory of sheaves).
 
-Under the name _diff&eacute;ologie_ essentially this definition is given (apparently independently) in:
+{#However} However, Chen does not require the domains of his plots to be [[open subsets]], which makes Chen spaces be closely related to but different from [[diffeological spaces]] (see [Stacey 11, p. 32](#Stacey11)) 
+
+The proper concept of diffeological spaces was introduced, under the name _diff&eacute;ologie_ and apparently independently from Chen, in:
 
 * {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([doi:10.1007/BFb0089728](https://doi.org/10.1007/BFb0089728), [mr:607688](http://www.ams.org/mathscinet-getitem?mr=607688))
 
@@ -407,7 +409,7 @@ amplifies the point that diffeological spaces are [[concrete sheaves]] forming a
 
 A discussion of the relations of variants of the definition is in
 
-* {#Stacey} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac:25-04](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
+* {#Stacey11} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac:25-04](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
 
 
 
