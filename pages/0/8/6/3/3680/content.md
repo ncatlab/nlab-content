@@ -18,7 +18,7 @@
 
 The notion of **final $(\infty,1)$-functor** (also called a **cofinal $(\infty,1)$-functor**) is the generalization of the notion of [[final functor]] from [[category theory]] to [[(∞,1)-category]]-theory.
 
-An [[(∞,1)-functor]] $p : K' \to K$ is final precisely if precomposition with $p$ preserves [[colimit]]s: 
+An [[(∞,1)-functor]] $p : K' \to K$ is final precisely if precomposition with $p$ preserves [[(∞,1)-colimit]]: 
 
 if $p$ is final then for $F : K \to C$ any [[(∞,1)-functor]] we have
 
@@ -28,7 +28,7 @@ $$
   \lim_{\to} ( K' \stackrel{p}{\to} K \stackrel{F}{\to} C)  
 $$
 
-when either of these [[colimit]]s exist.
+when either of these [[(∞,1)-colimits]] exist.
 
 ## Definition
 
@@ -217,6 +217,176 @@ A (weak) localization $f: \mathcal{C} \to \mathcal{D}$ is both initial and final
 
 This appears, for example, as ([Cisinski, 7.1.10](#Cisinski)).
 
+### Cofiber products in co-slice categories
+ {#CofiberProductsInCosliseCategories}
+
++-- {: .num_example }  
+###### Example
+
+Consider the inclusion of the [[walking structure|walking]] [[span]]-category, into the result of adjoining an [[initial object]] $t$:
+
+\[
+  \label{SpanCategoryAndInitialObjectAdjoined}
+  \Big\{
+  \array{
+     x 
+     &\longleftarrow&
+     b
+     &\longrightarrow&
+     y
+  }
+  \Big\}
+  \;\;
+  \overset{\phantom{AAAA}}{\hookrightarrow}
+  \;\;
+  \left\{
+  \array{
+     && t
+     \\
+     & \swarrow & \downarrow & \searrow
+     \\
+     x 
+     &\longleftarrow&
+     b
+     &\longrightarrow&
+     y
+  }
+  \right\}
+\]
+
+One readily sees that for each object on the right, its comma category over this inclusion has contractible nerve, whence Theorem \ref{Recognition} implies that this inclusion is a final $\infty$-functor.
+
+As an application of the finality of (eq:SpanCategoryAndInitialObjectAdjoined), observe that for $\mathcal{C}$ an [[(∞,1)-category]] and $T \in \mathcal{C}$ an object, [[(∞,1)-colimits]] in the [[under-(∞,1)-category]] 
+
+$$
+  \mathcal{C}^{T/}
+  \overset{\;\;U\;\;}{\longrightarrow}
+  \mathcal{C}
+$$ 
+
+are given by the $\infty$-colimit in $\mathcal{C}$ itself of the given [[cone]] of the original diagram, with tip $X$ (by [this Prop.](over+quasi-categories#LimitsInSliceAreLimitsInUnderlyingCategoryOverCoconeDiagram)): For
+
+$$
+  F \;\colon\; \mathcal{I} \longrightarrow \mathcal{C}^{T/}
+$$
+
+a small [[diagram]], we have 
+
+$$
+  U \big(
+    \underset{\longrightarrow}{\lim}\, F
+  \big)
+  \;\simeq\;
+  \underset{\longrightarrow}{\lim}\, \big( T/U(F) \big)
+$$
+
+(when either $\infty$-colimit exists).
+
+Now for $\mathcal{I}$ the [[walking structure|walking]] [[span]] diagram on the left of (eq:SpanCategoryAndInitialObjectAdjoined), this means that [[homotopy cofiber products]] in $\mathcal{C}^{T/}$ are computed as $\infty$-colimits in $\mathcal{C}$ of diagrams of the shape on the right of (eq:SpanCategoryAndInitialObjectAdjoined). But since the inclusion in (eq:SpanCategoryAndInitialObjectAdjoined) is final, these are just homotopy cofiber products in $\mathcal{C}$.
+
+Explicitly: Given 
+
+$$
+  \array{
+     T &=& T &=& T
+     \\
+     {}^{\mathllap{
+       \phi_X
+     }}
+     \big\downarrow
+     &&
+     {}^{\mathllap{
+       \phi_B
+     }}
+     \big\downarrow
+     &&
+     {}^{\mathllap{
+       \phi_Y
+     }}
+     \big\downarrow
+     \\
+     X 
+     &
+       \underset{
+       f
+       }{\longleftarrow}
+     &
+     B
+     &
+       \underset{
+         g
+       }{
+         \longrightarrow
+       }
+     &
+     Y
+  }
+$$
+
+regarded as a [[span]] in $\mathcal{C}^T$, hence with underlying objects
+
+$$
+  U\big(  (X,\phi_X) \big) \;=\; X
+  \,,
+  \;\;\;\;\;\;
+  U\big(  (B,\phi_B) \big) \;=\; B
+  \,,
+  \;\;\;\;\;\;
+  U\big(  (Y,\phi_Y) \big) \;=\; Y
+$$
+
+then
+
+$$
+  U
+  \Big(
+    \;
+    (X,\phi_X)
+    \underset{
+      (B,\phi_B)
+    }{\coprod}
+    (Y,\phi_Y)
+    \;
+  \Big)
+  \;\;\;\simeq\;\;\;
+  X \underset{B}{\coprod} Y
+  \,.
+$$
+
+
+In particular, if $(B,\phi_B) \;\coloneqq\; (T,id_T) $ is the [[initial object]] in $\mathcal{C}^{T/}$, in which case the cofiber product is just the coproduct
+
+$$
+  (X,\phi_X)
+  \coprod
+  (Y,\phi_Y)
+  \;\;=\;\;
+  (X,\phi_X)
+  \underset{
+    (T,id_T)
+  }{\coprod}
+  (Y,\phi_Y)
+$$
+
+we find that the coproduct in the co-slice category is the co-fiber product under the given tip object in the underlying category
+
+$$
+  U
+  \Big(
+    \;
+    (X,\phi_X)
+    \coprod
+    (Y,\phi_Y)
+    \;
+  \Big)
+  \;\;\;\simeq\;\;\;
+  X \underset{T}{\coprod} Y
+  \,.
+$$
+
+
+
+=--
 
 ### On categories of simplices
  {#OnCategoriesOfSimplices}
@@ -306,6 +476,7 @@ $$
 $$
 
 is both initial and final.
+
 =--
 
 This appears as ([Shah, 12.2](#Shah)) and also follows from the fact that this map is a weak localization ([Cisinski, 7.3.15](#Cisinski)).
