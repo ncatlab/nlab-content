@@ -164,7 +164,7 @@ $$
 =--
 
 
-### Monoidal and bimonoidal structure
+### Symmetric monoidal and bimonoidal structure
  {#MonoidalAndBipermutativeStructure}
 
 With the definitions and properties discussed above in _[Direct sum, etc.](#DirectSumEtc)_ we have the following
@@ -185,6 +185,8 @@ Indeed with both structures combined we have
 is a [[bimonoidal category]] (and can be made a [[bipermutative category]]).
 
 =--
+
+It's also easy to see that under direct sum or tensor product, Ab can be turned into a symmetric monoidal category by equipping it with the appropriate braiding map. For example, under $\oplus$, the braiding is $\sigma_{A, B}(a, b) = (b, a)$.
 
 +-- {: .num_remark }
 ###### Remark
