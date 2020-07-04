@@ -66,9 +66,12 @@ While the proper orthochronous Lorentz group $SO^+(d-1,1)$ is [[connected topolo
 
 ## Related concepts
 
+* [[Lorentz Lie algebra]]
+
+* [[quantum group]] version: [[quantum Lorentz group]]
+
 * [[Lorentzian manifold]]
 
-* quantum group version: [[quantum Lorentz group]]
 
 * [[rapidity]]
 
