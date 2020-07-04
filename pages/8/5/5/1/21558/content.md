@@ -4,6 +4,8 @@
 
 The _walking isomorphism_ or _free-standing isomorphism_ is the [[category]] (in fact a [[groupoid]]) which 'represents' [[isomorphism|isomorphisms]] in a category.
 
+The word "walking" is because it's a "[[walking structure]]".
+
 \section{Definition}
 
 \begin{defn} The _free-standing isomorphism_ is the unique (up to isomorphism) category with exactly two objects $0$ and $1$, exactly one arrow $0 \rightarrow 1$, exactly one arrow $1 \rightarrow 0$, and no other arrows which are not identity arrows. \end{defn}
