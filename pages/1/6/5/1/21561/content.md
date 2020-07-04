@@ -2,16 +2,16 @@
 
 \section{Idea} 
 
-A _Lack fibration_ or _equiv-fibration_ is the [[categorification]] of the notion of an [[isofibration]] to the setting of [[2-category|2-categories]]. Roughly speaking, a [[2-functor|functor]] $p:E \rightarrow B$ between 2-categories is a Lack fibration if equivalences in $B$ can be 'lifted' to equivalences in $E$. However, there are some subtleties to the precise definition, as will be discussed below. 
+A _Lack fibration_ or _equiv-fibration_ is a [[categorification]] of the notion of an [[isofibration]] to the setting of [[2-category|2-categories]]. Roughly speaking, a [[2-functor|functor]] $p:E \rightarrow B$ between 2-categories is a Lack fibration if equivalences in $B$ can be 'lifted' to equivalences in $E$. However, there are some subtleties to the precise definition, as will be discussed below. 
 
 \section{Explicit definition}
 
-The following is the definition of a Lack fibration in its original form. It works for both weak and strict 2-categories and weak and strict 2-functors. 
+The following works for both weak and strict 2-categories and weak and strict 2-functors. 
 
 \begin{defn} \label{DefinitionLackFibration} A _Lack fibration_ is a [[2-functor|functor]] $p: E \rightarrow B$ between [[2-category|2-categories]] such that, for every object $e$ of $E$, and every 1-arrow $f: p(e) \rightarrow b$ of $B$ which is an [[equivalence]], the following hold.
 
 1. There is an object $e'$ of $E$ and an equivalence $g: e \rightarrow e'$ in $E$ such that $p(g) = f$.
-1. For every 1-arrow $h: e \rightarrow e'$ of $E$ and every [[2-isomorphism]] $\phi: p(h) \rightarrow f$ in $B$, there is a 2-isomorphism $\psi: g \rightarrow h$ in $E$ such that $p(\psi) = \phi$.    
+1. For every 1-arrow $h: e \rightarrow e'$ of $E$ and every [[2-isomorphism]] $\phi: f \rightarrow p(h)$ in $B$, there is a 2-isomorphism $\psi: g \rightarrow h$ in $E$ such that $p(\psi) = \phi$.    
 
 \end{defn} 
 
@@ -45,4 +45,4 @@ The afore-mentioned 'error' was fixed in the following paper, that is to say, th
 
 The definition of a Lack fibration is recalled in Definition 3.2 of the following paper.
 
-* L. Moser, M. Sarazola, P. Verdugo, _A 2Cat-inspired model structure for double categories, 2020. [arXiv:2004.14233](https://arxiv.org/abs/2004.14233)
+* L. Moser, M. Sarazola, P. Verdugo, _A 2Cat-inspired model structure for double categories_, 2020. [arXiv:2004.14233](https://arxiv.org/abs/2004.14233)
