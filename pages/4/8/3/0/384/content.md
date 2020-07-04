@@ -40,10 +40,7 @@ To quote from the original paper, which was "an address delivered before the Pri
 2, 1946", Whitehead states:
 
 
->In this presentation we abandon [[simplicial complexes]] in favor of
-[[cell complexes]]. This first part consists of geometrical preliminaries,
-including some elementary propositions concerning what we call closure finite complexes with weak topology, abbreviated to CW-complexes, ...
-
+>In this presentation we abandon [[simplicial complexes]] in favor of [[cell complexes]]. This first part consists of geometrical preliminaries, including some elementary propositions concerning what we call closure finite complexes with weak topology, abbreviated to CW-complexes, ...
 
 
 Thus the "CW" stands for the following two properties shared by any CW-complex:
