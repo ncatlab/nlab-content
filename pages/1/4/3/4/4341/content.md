@@ -5,7 +5,7 @@
 
 ## Idea 
 
-Around the nLab and elsewhere, one occasionally sees an expression "the walking _____" where the blank is some mathematical concept. This is a colloquial way of referring to an archetypal model of the concept or type, and usually refers to a free or initial context in which such a type can be interpreted. The term is believed to have been introduced by [[James Dolan]] (see the reference below). Sometimes, "the free-living _____" is alternatively used.
+Around the nLab and elsewhere, one occasionally sees an expression "the walking _____" where the blank is some mathematical concept. This is a colloquial way of referring to an archetypal model of the concept or type, and usually refers to a free or initial context in which such a type can be interpreted. The term is believed to have been introduced by [[James Dolan]] (see the reference below). Sometimes, "the free-living _____" or "the free-standing _____" is used instead; this terminology is probably much older.
 
 ## Definition
 
@@ -30,6 +30,8 @@ Pronunciation is just as in 'John is a walking almanac' or 'Eugene Levy is a wal
 * The [[interval category]] is the *walking arrow*.
 
 * The [[interval groupoid]] is the [[walking isomorphism]]. 
+
+* [[equivalence|Equivalences]] in a [[2-category]] are represented by the [[walking equivalence]].
 
 * The augmented/algebraist's [[simplex category]] is "the *walking [[monoid]]*" (in a [[monoidal category]]). That is to say: the simplex category is initial (in a 2-categorical sense) among monoidal categories equipped with a monoid object. Intuitively, it is [[the]] monoidal category that results if all one need be told about it is that it has a monoid object -- all the morphisms of the category are obtainable from the monoid structure by applying the operations of a monoidal category, and they are subject to no further relations beyond those implied by the monoid axioms. 
 
