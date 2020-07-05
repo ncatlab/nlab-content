@@ -20,7 +20,13 @@ The walking isomorphism can be [[categorified]] in a number of ways: to the [[wa
 
 \section{Representing of isomorphisms}
 
-\begin{prpn} Let $\mathcal{A}$ be a category. Let $\mathcal{I}$ denote the free-standing isomorphism. Let $f$ be an arrow of $\mathcal{A}$ which is an [[isomorphism]]. Then there is a unique [[functor]] $F: \mathcal{I} \rightarrow \mathcal{A}$ such that the arrow $0 \rightarrow 1$ of $\mathcal{I}$ maps under $F$ to $f$. \end{prpn}
+\begin{prpn}
+Let $\mathcal{A}$ be a category. Let $\mathcal{I}$ denote the free-standing isomorphism.
+Evaluation at the arrow $0\to 1$ establishes a natural bijective
+correspondence between functors $\mathcal{I}\to\mathcal{A}$
+and isomorphisms in $\mathcal{A}$.
+Thus, for any isomorphism $f$ of $\mathcal{A}$ there is a unique [[functor]] $F: \mathcal{I} \rightarrow \mathcal{A}$ such that the arrow $0 \rightarrow 1$ of $\mathcal{I}$ maps under $F$ to $f$.
+\end{prpn}
 
 \begin{proof} Immediate from the definitions. \end{proof}
 
