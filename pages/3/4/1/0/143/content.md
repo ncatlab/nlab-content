@@ -26,8 +26,6 @@ A [[presheaf]] on a [[site]] is a _sheaf_ if its value on any object of the site
 See also
 
 * [[motivation for sheaves, cohomology and higher stacks]].
-* For all type of metric conversions [Unit Converter](https://www.easyunitconverter.com)
-
 
 
 ## Definition
