@@ -35,6 +35,12 @@ The same is true if $Q$ is the [[free-standing adjoint equivalence]], due to the
 
 \begin{rmk} Remark \ref{RemarkFirstConditionInLackFibrationAsLiftingCondition} can be compared with the definition of an [[isofibration]] of 1-categories as expressed by a lifting condition: the condition is exactly the same, with the [[free-standing isomorphism]] replaced by the [[free-standing equivalence]].   \end{rmk}
 
+\begin{rmk} Let us explore the second condition in Definition \ref{DefinitionLackFibration} a little. Note that any 1-arrow which is 2-isomorphic to an equivalence is itself an equivalence. Thus $p(h)$ is an equivalence, and condition 1. then ensures that $p(h)$ lifts to an equivalence $g'$ in $E$ such that $p\left(g'\right) = p(h)$. Condition 2. expresses that $g'$ must be 2-isomorphic to $h$. This implies in particular that $h$ is an equivalence.
+
+Putting everything together, condition 2. is equivalent to: any 1-arrow of $E$ which maps to $f$ under $p$ up to 2-isomorphism is an equivalence, and all equivalences of $E$ which map to $f$ under $p$ up to 2-isomorphism are  2-isomorphic to one another, in such a way that, given 1-arrows $g$ and $g'$ of $E$, a 2-isomorphism $\phi_{g}: f \rightarrow p(g)$ in $B$, and a 2-isomorphism $\phi_{g'}:  f \rightarrow p\left(g'\right)$ in $B$, the 2-isomorphism $\psi : g \rightarrow g'$ in $E$ has the property that $p(\psi) = \phi_{g}^{-1} \circ \phi_{g'}$.
+
+\end{rmk}
+
 \section{References}
 
 The following was where Lack fibrations were introduced.  It contains an error, not pertaining directly to the definition of a Lack fibration itself, but to obtaining a model structure on the [[2Cat|category of strict 2-categories]] with this definition.
