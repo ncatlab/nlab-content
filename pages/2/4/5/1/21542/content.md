@@ -80,6 +80,8 @@ The [[classifying topos]] for the theory $\mathbb{T}^2$ of $\mathbb{T}$-model ho
   It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$, or in other words, its [[classifying topos]] called the _morphism classifier_ (cf. Johnstone [1977](#J77), p.184; [2002](#J02), p.426) is
 $$ Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet^2)}\quad .$$
 
+* Let $\mathbb{K}$ be the [[theory of categories]] (e.g. Johnstone [1977](#J77), p.202) whose models in a [[Grothendieck topos]] $\mathcal{E}$ are the [[internal category|internal categories]] $\mathbf{C}\in cat(\mathcal{E})$. Then $\mathbb{K}^2$ is the **theory of functors**.
+
 ## Related entries
 
 * [[geometric theory]]
