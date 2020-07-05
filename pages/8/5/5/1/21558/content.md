@@ -6,6 +6,8 @@ The _walking isomorphism_ or _free-standing isomorphism_ or _interval groupoid_ 
 
 The word "walking" is because it's a "[[walking structure]]".
 
+The walking isomorphism can be [[categorified]] in a number of ways: to the [[walking equivalence]], to the [[walking adjoint equivalence]], or to the [[walking 2-isomorphism]].
+
 \section{Definition}
 
 \begin{defn} The _free-standing isomorphism_ is the unique (up to isomorphism) category with exactly two objects $0$ and $1$, exactly one arrow $0 \rightarrow 1$, exactly one arrow $1 \rightarrow 0$, and no other arrows which are not identity arrows. \end{defn}
