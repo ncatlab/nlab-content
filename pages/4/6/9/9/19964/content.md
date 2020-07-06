@@ -299,6 +299,13 @@ Further development:
 
 * T. Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
+[[nucleon]] [[interaction]]:
+
+* Chris Halcrow, Derek Harland, _An attractive spin-orbit potential from the Skyrme model_ ([arXiv:2007.01304](https://arxiv.org/abs/2007.01304))
+
+
+
+
 Mathematical discussion in [[differential geometry]]:
 
 * Christian Gross, _Differential Forms on the Skyrmion Bundle_, In: Antoine JP., Ali S.T., Lisiecki W., Mladenov I.M., Odzijewicz A. (eds.) _Quantization, Coherent States, and Complex Structures_, Springer 1995 ([doi:10.1007/978-1-4899-1060-8_7](https://doi.org/10.1007/978-1-4899-1060-8_7))
