@@ -47,7 +47,7 @@ Work conducted in homotopy type theory:
 
 > Construction of the [[quaternionic Hopf fibration]]
 
-* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191)) 
+* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, Logical Methods in Computer Science, Volume 16, Issue 2 (June 1, 2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)) 
 
 * [[Ulrik Buchholtz]], [[Egbert Rijke]], _The real projective spaces in homotopy type theory_, ([arXiv:1704.05770](https://arxiv.org/abs/1704.05770)) 
 
