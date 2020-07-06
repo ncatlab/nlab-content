@@ -6,7 +6,7 @@ The _walking isomorphism_ or _free-standing isomorphism_ or _interval groupoid_ 
 
 The word "walking" is because it's a "[[walking structure]]".
 
-The walking isomorphism can be [[categorified]] in a number of ways: to the [[walking equivalence]], to the [[walking adjoint equivalence]], or to the [[walking 2-isomorphism]].
+The walking isomorphism can be [[categorified]] in a number of ways: to the [[walking equivalence]], to the [[walking adjoint equivalence]], or to the [[walking 2-isomorphism]]. Related, though not quite a categorification in one of the usual senses, is the [[walking 2-isomorphism with trivial boundary]]. 
 
 \section{Definition}
 
