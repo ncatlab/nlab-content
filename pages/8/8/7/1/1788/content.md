@@ -23,27 +23,29 @@
 {:toc}
 
 ##Idea
-The [[geometric theory|geometric]] **theory of categories** $\mathbb{K}$ is a [[first-order logic|first-order]] axiomatisation of the concept of a (strict) [[category]]. $\mathbb{K}$ is in fact an _essentially algebraic_ , or in more recent terminology, a [[cartesian theory]].
+The [[geometric theory|geometric]] **theory of categories** $\mathbb{K}$ is a [[first-order logic|first-order]] axiomatisation of the concept of a  [[category]]. $\mathbb{K}$ is in fact an _essentially algebraic_, or in more recent terminology, a [[cartesian theory]].
 
 Historically, the first formal axiomatisation was given by [[William Lawvere| F. William Lawvere]] in his [[Functorial Semantics of Algebraic Theories|dissertation]] in 1963. (See at [[ETCC]] for further information).
 
 ## Definition
 
-The [[signature]] $\Sigma_\mathbb{K}$ has two sorts $O$ and $A$ for objects and arrows, respectively, three function symbols $d_0:A\to O$ , $d_1:A\to O$ and $id:O\to A$, assiging to morphisms their domain, respectively, codomain and to the objects their [[identity|identity morphisms]], as well as a relation symbol $C\righttailarrow A\times A\times A$ expressing composition of morphisms.
+The [[signature]] $\Sigma_\mathbb{K}$ has two sorts $O$ and $A$ for objects and arrows, respectively, three function symbols $d_0:A\to O$ , $d_1:A\to O$ and $id:O\to A$, assiging to morphisms their domain, respectively, codomain and to the objects their [[identity|identity morphisms]], as well as a relation symbol $C\rightarrowtail A\times A\times A$ expressing composition of morphisms.
 
-The **theory of categories** is the theory $\mathbb{K}$ over the signature $\Sigma_\mathbb{K}$ with the following sequents:
+The **theory of categories** is the theory $\mathbb{K}$ over the signature $\Sigma_\mathbb{K}$ with the following sequents:[^var]
 
-* $\top\vdash_{x:O} d_0(id(x))=x\wedge d_1(id(x))=x\quad$ ,
+[^var]: Here and in the following $x,y$ are variables ranging over O, whereas the $f_i\; i=1,2,\dots$ range over A; the contexts are assumed to be standard i.e. consisting of all free variables occurring in a sequent.
 
-* $d_1(f_1)=d_0(f_2)\vdash_{f_1:A,f_2:A}\exists f_3 C(f_1,f_2,f_3)\quad$ ,
+* $\top\vdash d_0(id(x))=x\wedge d_1(id(x))=x\quad$ ,
 
-* $C(f_1,f_2,f_3)\vdash_{f_1:A,f_2:A,f_3:A} d_0(f_1)=d_0(f_3)\wedge d_1(f_1)=d_0(f_2)\wedge d_1(f_2)=d_1(f_3)\quad $ ,
+* $d_1(f_1)=d_0(f_2)\vdash\exists f_3 C(f_1,f_2,f_3)\quad$ ,
 
-* $C(f_1,f_2,f_3)\wedge C(f_1,f_2,f_4)\vdash_{f_1:A,f_2:A,f_3:A,f_4:A} f_3=f_4\quad $ ,
+* $C(f_1,f_2,f_3)\vdash d_0(f_1)=d_0(f_3)\wedge d_1(f_1)=d_0(f_2)\wedge d_1(f_2)=d_1(f_3)\quad $ ,
 
-* $\top \vdash_{f:A} C(f,id(d_1(f)),f)\wedge C(id(d_0(f)),f,f)\quad $ ,
+* $C(f_1,f_2,f_3)\wedge C(f_1,f_2,f_4)\vdash f_3=f_4\quad $ ,
 
-* $C(f_1,f_2,f_4)\wedge C(f_2,f_3,f_5)\wedge C(f_4,f_3,f_6)\wedge C(f_1,f_5,f_7)\vdash_{f_1:A,f_2:A,f_3:A,f_4:A,f_5:A,f_6:A,f_7:A} f_6=f_7\quad $ .
+* $\top \vdash C(f,id(d_1(f)),f)\wedge C(id(d_0(f)),f,f)\quad $ ,
+
+* $C(f_1,f_2,f_4)\wedge C(f_2,f_3,f_5)\wedge C(f_4,f_3,f_6)\wedge C(f_1,f_5,f_7)\vdash f_6=f_7\quad $.
 
 
 ## Properties
@@ -53,22 +55,32 @@ Foremost, we have
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then $Mod_{\mathbb{K}}(\mathcal{E})=cat(\mathcal{E})$ with $cat(\mathcal{E}$ the category of (small) [[internal category|internal categories]] in $\mathcal{E}$ with internal functors as morphisms.\qed
+Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then $Mod_{\mathbb{K}}(\mathcal{E})=cat(\mathcal{E})$ with $cat(\mathcal{E})$ the category of (small) [[internal category|internal categories]] in $\mathcal{E}$ with internal functors as morphisms.$\qed$
 =--
+
++-- {: .num_prop}
+###### Proposition
+The [[classifying topos]] $Set[\mathbb{K}]$ is the presheaf topos on the opposite of the category of finitely presentable categories in $Set$.
+=--
+
+This follows from a general result on the classifying toposes of [[cartesian theory|cartesian theories]] (cf. Johnstone [2002](#J02), p.891).$\qed$
+
 
 ## Some related theories
 
-* By adding the following sequents to $\mathbb{K}$
-
-  $\top\vdash _{x:O} \exists x (x=x)\quad $ ,
-
-  $\top\vdash_{x:O,y:O} \exists f_1\exists f_2 (d_0(f_1)=x\wedge d_0(f_2)=y\wedge d_1(f_1)=d_1(f_2))\quad $ , and,
-
-  $d_0(f_1)=d_0(f_2)\wedge d_1(f_1)=d_1(f_2)\vdash_{f_1:A,f_2:A} \exists f_3\exists f_4(C(f_1,f_3,f_4)\wedge C(f_2,f_3,f_4)$
-
-  one obtains the _theory of filtered categories_ $\mathbb{K}_\less$ with models the internal [[filtered category|filtered categories]] cf. Johnstone ([1977](#J77), p.203).
-
 *  The [[theory of model homomorphisms|theory $\mathbb{K}^2$ of $\mathbb{K}$-model homomorphisms]] is the **theory of functors**.
+
+* By adding the following sequents to $\mathbb{K}$ one obtains the **theory of filtered categories** $\mathbb{K}_\gt$ with models the internal [[filtered category|filtered categories]] (cf. Johnstone [1977](#J77), p.203):
+
+  $\array{\\
+\top\vdash \exists x (x=x)
+\\
+\\ 
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\top\vdash \exists f_1\exists f_2 (d_0(f_1)=x\wedge d_0(f_2)=y\wedge d_1(f_1)=d_1(f_2))
+\\
+d_0(f_1)=d_0(f_2)\wedge d_1(f_1)=d_1(f_2)\vdash \exists f_3\exists f_4\big (C(f_1,f_3,f_4)\wedge C(f_2,f_3,f_4)\big )\quad}$
+
+
 
 ## Related entries
 
