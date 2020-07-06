@@ -567,7 +567,7 @@ For the moment, see the following for more:
 
    _Higher Structures in M-Theory_, 
 
-   Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
+   Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. Volume 67, Issue 8-9 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
   
