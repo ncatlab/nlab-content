@@ -41,7 +41,7 @@ His 1963 [[Functorial Semantics of Algebraic Theories|dissertation]] takes issue
 
 The system of axioms that he published in a more elaborate form in 1966, is layered in three parts:
 
-* The _elementary theory of [[category|abstract categories]]_ (ETAC) has besides equality three primitive predicates for domain, codomain, and composition and as axioms the usual axioms for identity, associativity etc.
+* The _elementary theory of [[category|abstract categories]]_ (ETAC) has besides equality three primitive predicates for domain, codomain, and composition and as axioms the usual axioms for identity, associativity etc. (See at [[theory of categories]] for a variant of such an axiomatisation!)
 
 * The _basic theory_ (BT) adds axioms for e.g. **1**, a one-morphism category, **2**, a category with one non-identity morphism between two objects, **3**, a category with a commutative triangle of morphisms, and various exactness properties among which is the existence of exponentials. This permits then to define e.g. sets as discrete objects $A$ with $A^1\cong A^2$ i.e. as categories whose morphisms are all identity morphisms. The final axiom of the basic theory tries to express the _[[dense subcategory|density]]-adequacy_ of the simple categories like **1** etc. within the metacategory.
 
@@ -86,6 +86,7 @@ Note that already B. Walters and R. Street conceived of their work on [[Yoneda s
 * [[Yoneda structure]]
 * [[Functorial Semantics of Algebraic Theories]]
 * [[foundations of mathematics]]
+* [[theory of categories]]
 
 ## References
 
