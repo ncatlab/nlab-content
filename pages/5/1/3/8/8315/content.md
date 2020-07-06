@@ -310,6 +310,12 @@ Lecture notes include
 
 * Lisa Jeffrey, _Homology of CW-complexes and Cellular homology_ ([pdf](http://www.math.toronto.edu/~mat1300/oldnotes/cellular-homology.pdf))
 
+Formulation in [[homotopy type theory]]:
+
+* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, Logical Methods in Computer Science, Volume 16, Issue 2 (June 1, 2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)) 
+
+
+
 [[!redirects cellular chain complex]]
 
 [[!redirects cellular cohomology]]
