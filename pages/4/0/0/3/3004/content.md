@@ -59,7 +59,8 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 * Any finitary [[algebraic theory]] is, in particular, a cartesian theory, and hence geometric.  This includes [[monoids]], [[groups]], [[abelian groups]], [[rings]], [[commutative rings]], etc.
 
-* The theory of ([[strict category|strict]]) [[categories]] is not finitary-algebraic, but it is cartesian, and hence geometric; this generalises to (finitary) [[essentially algebraic theory|essentially algebraic theories]].
+* The [[theory of categories|theory $\mathbb{K}$ of categories]] with models the
+ ([[strict category|strict]]) [[categories]] is not finitary-algebraic, but it is cartesian, and hence geometric; this generalises to (finitary) [[essentially algebraic theory|essentially algebraic theories]].
 
 * The theory of [[torsion]]-free abelian groups is also cartesian, being obtained from the theory of abelian groups by the addition of the sequents $(n\cdot x = 0) \vdash_{x} (x = 0)$ for all $n\in \mathbb{N}$.
 
@@ -217,6 +218,8 @@ The 2-categorical version of $T Mod$ is useful in generalization of the [[spectr
 * [[theory of model homomorphisms]]
 
 * [[theory of flat functors|theory of flat diagrams]]
+
+* [[theory of categories]]
 
 ## References
 
