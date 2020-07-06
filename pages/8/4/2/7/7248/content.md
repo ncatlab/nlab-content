@@ -19,7 +19,9 @@ This page collects material related to the textbook
 
   Modern Birkh&#228;user Classics (2009)
 
-  ([web](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)) (ps and dvi only - note that section and theorem etc numbers differ from the published version!)
+  [doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)
+
+  ([webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/) with ps and dvi version - note that section and theorem etc numbers differ from the published version!)
 
 on [[simplicial homotopy theory]] via the [[classical model structure on simplicial sets]].
 
