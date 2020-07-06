@@ -65,6 +65,8 @@ Given a small category $\mathcal{C}$, $Set^{\mathcal{C}^{op}}\simeq Sh(\mathcal{
 
 * [[Diaconescu's theorem]]
 
+* [[theory of categories]]
+
 * [[theory of objects]]
 
 ## References
