@@ -633,7 +633,7 @@ $$
   SLieAlg_{\mathbb{R}}(Set) \hookrightarrow LieAlg_{\mathbb{R}}(SuperSet)
 $$
 
-of ordinary [[super Lie algebras]] over $\mathbb{R}$ into the internal [[Lie algebras]] over $\mathbb{R}$.
+of ordinary [[super Lie algebras]] over $\mathbb{R}$ into the internal [[Lie algebras]] over $\mathbb{R}$ in $SuperSet$.
 
 =--
 
