@@ -27,9 +27,6 @@ Assuming the [[axiom of choice]], the canonical model is the _unique_ model stru
 
 On this page we give a concise construction of the canonical model structure, as well as two variants that make sense in the absence of the full [[axiom of choice]].
 
-* toc
-{:toc}
-
 
 ### The classical version
 
