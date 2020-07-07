@@ -23,6 +23,7 @@
 {:toc}
 
 ##Idea
+
 The [[geometric theory|geometric]] **theory of categories** $\mathbb{K}$ is a [[first-order logic|first-order]] axiomatisation of the concept of a  [[category]]. $\mathbb{K}$ is in fact an _essentially algebraic_, or in more recent terminology, a [[cartesian theory]].
 
 Historically, the first formal axiomatisation was given by [[William Lawvere| F. William Lawvere]] in his [[Functorial Semantics of Algebraic Theories|dissertation]] in 1963. (See at [[ETCC]] for further information).
