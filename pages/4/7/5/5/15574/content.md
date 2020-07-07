@@ -631,7 +631,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law13} [[F. W. Lawvere]], *Combinatorial Topology*, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
-* {#LawvereMenni15} [[F. W. Lawvere]], [[Matías Menni|M. Menni]], *Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness*, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+* {#LawvereMenni15} [[F. W. Lawvere]], [[Matías Menni|M. Menni]], *Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness*, TAC **30** no. 26 (2015) pp.909-932. ([tac:30-26](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
 * {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
