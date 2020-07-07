@@ -183,7 +183,9 @@ This is for instance ([Bunge-Pare, corollary 2.4](#BungePare)).
 Historically, the original definition of _[[stack]]_ 
 included the case of category-valued functors, hence of 2-sheaves, in:
 
-* [[J. Giraud]], _Cohomologie non ab&#233;lienne, Grundlehren number 179, Springer Verlag (1971)
+* [[Jean Giraud]], _Cohomologie non ab&#233;lienne, Grundlehren 179, Springer Verlag (1971) ([doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071))
+
+* [[Jean Giraud]], _Classifying topos_, in: [[William Lawvere]] (ed.) _Toposes, Algebraic Geometry and Logic_, Lecture Notes in Mathematics, vol 274. Springer (1972) ([doi:10.1007/BFb0073964](https://doi.org/10.1007/BFb0073964))
 
 ### In terms of categories internal to sheaf toposes
  {#ReferencesInTermsOfInternalCategories}
@@ -199,7 +201,7 @@ Category-valued stacks as [[internal categories]] in the underlying [[sheaf topo
 
 and in section 3 of
 
-* [[André Joyal]], [[Myles Tierney]], _Strong stacks and classifying spaces_ Category theory ([[Como]], 1990), 213&#8212;236, Lecture Notes in Math. 1488, Springer (1991) ([pdf](http://www.pps.jussieu.fr/~mellies/semantics-operads-categories/joyal-tierney-strong-stacks.pdf)) 
+* [[André Joyal]], [[Myles Tierney]], _Strong stacks and classifying spaces_, Category theory ([[Como]], 1990), 213&#8212;236, Lecture Notes in Math. 1488, Springer (1991) ([pdf](http://www.pps.jussieu.fr/~mellies/semantics-operads-categories/joyal-tierney-strong-stacks.pdf)) 
  {#JoyalTierney}
 
 ### In terms of fibered categories
