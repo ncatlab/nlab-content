@@ -31,7 +31,13 @@ This page collects material related to the article
 
 * [[William Lawvere]], 
 
-  _Cohesive Toposes and Cantor's "lauter Einsen"_, Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+  _Cohesive Toposes and Cantor's "lauter Einsen"_, 
+
+  Philosophia Mathematica (3) Vol. 2 (1994) pp. 5-15. 
+
+  [doi:10.1093/philmat/2.1.5](https://doi.org/10.1093/philmat/2.1.5)
+
+  [[LawvereCohesiveToposes.pdf:file]]
 
 on [[adjoint cylinders]] and [[cohesive toposes]].
 
