@@ -40,11 +40,16 @@ which in the course considers higher [[Snaith theorem|Snaith spectra]] and highe
 
 A special case of this general story is discussed in some detail in
 
-* {#BouwknegtEvslinMathai14a} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality_, Commun.Math.Phys.337:909-954,2015 ([arXiv:1405.5844](http://arxiv.org/abs/1405.5844))
+* {#BouwknegtEvslinMathai14a} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality_, Commun. Math. Phys. 337:909-954, 2015 ([arXiv:1405.5844](http://arxiv.org/abs/1405.5844))
 
 * {#BouwknegtEvslinMathai14b} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-duality II: An infinity of spherical T-duals for non-principal SU(2)-bundles_, J.Geom.Phys.92:46-54, 2015 ([arXiv:1409.1296](http://arxiv.org/abs/1409.1296))
 
 * [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality and the spherical Fourier-Mukai transform_ ([arXiv:1502.04444](http://arxiv.org/abs/1502.04444))
+
+See also
+
+* Lachlan Macdonald, [[Varghese Mathai]], Hemanth Saratchandran, _On the Chern character in Higher Twisted K-theory and spherical T-duality_ ([arXiv:2007.02507](https://arxiv.org/abs/2007.02507))
+
 
 The realization in [[M-theory]] at the level of rational super homotopy theory is derived in
 
