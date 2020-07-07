@@ -23,9 +23,9 @@
 {:toc}
 
 ##Idea
-The [[geometric theory|geometric]] **theory of categories** $\mathbb{K}$ is a [[first-order logic|first-order]] axiomatisation of the concept of a  [[category]]. $\mathbb{K}$ is in fact an _essentially algebraic_, or in more recent terminology, a [[cartesian theory]].
+The [[geometric theory|geometric]] **theory of categories** $\mathbb{K}$ is a [[first-order logic|first-order]] axiomatisation of the concept of a  [[category]]. $\mathbb{K}$ is (morally) an [[essentially algebraic theory]], and literally a cartesian theory i.e. _grosso modo_ a [[regular theory]] where existential quantification is provably unique.
 
-Historically, the first formal axiomatisation was given by [[William Lawvere| F. William Lawvere]] in his [[Functorial Semantics of Algebraic Theories|dissertation]] in 1963. (See at [[ETCC]] for further information).
+Historically, the first axiomatisation was given by [[William Lawvere| F. William Lawvere]] in his [[Functorial Semantics of Algebraic Theories|dissertation]] in 1963 as part of a formalisation of the [[category of categories]]. (cf. Lawvere ([1963](#Law63},[1966](#Law66)) or [[ETCC]] for further information).
 
 ## Definition
 
@@ -37,16 +37,19 @@ The **theory of categories** is the theory $\mathbb{K}$ over the signature $\Sig
 
 * $\top\vdash d_0(id(x))=x\wedge d_1(id(x))=x\quad$ ,
 
-* $d_1(f_1)=d_0(f_2)\vdash\exists f_3 C(f_1,f_2,f_3)\quad$ ,
-
 * $C(f_1,f_2,f_3)\vdash d_0(f_1)=d_0(f_3)\wedge d_1(f_1)=d_0(f_2)\wedge d_1(f_2)=d_1(f_3)\quad $ ,
 
 * $C(f_1,f_2,f_3)\wedge C(f_1,f_2,f_4)\vdash f_3=f_4\quad $ ,
+
+* $d_1(f_1)=d_0(f_2)\vdash\exists f_3 C(f_1,f_2,f_3)\quad$ ,
 
 * $\top \vdash C(f,id(d_1(f)),f)\wedge C(id(d_0(f)),f,f)\quad $ ,
 
 * $C(f_1,f_2,f_4)\wedge C(f_2,f_3,f_5)\wedge C(f_4,f_3,f_6)\wedge C(f_1,f_5,f_7)\vdash f_6=f_7\quad $.
 
+### Remark
+
+The third axiom implies that the existential quantification occurring in the fourth axioms is unique thus $\mathbb{K}$ is indeed _cartesian_. Since the chosen signature uses a composition relation instead of a partial composition operation the theory as given here is not literally [[essentially algebraic theory|essentially algebraic]] in the syntactic sense, though, of course, it is [[Morita equivalence|Morita equivalent]] to an essentially algebraic axiomatisation. Other signatures, like a single sorted "arrows only" one, are also possible, the one used here (taken from Johnstone [1977](#J77)) leans on the so called **elementary theory of abstract categories** as presented in Lawvere ([1966](#Law66)).
 
 ## Properties
 
@@ -63,7 +66,7 @@ Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then $Mod_{\mathbb{K}}(\mathcal{E
 The [[classifying topos]] $Set[\mathbb{K}]$ is the presheaf topos on the opposite of the category of finitely presentable categories in $Set$.
 =--
 
-This follows from a general result on the classifying toposes of [[cartesian theory|cartesian theories]] (cf. Johnstone [2002](#J02), p.891).$\qed$
+This follows from the fact that the classifying toposes of [[cartesian theory|cartesian theories]] are generally given as the presheaf toposes on the opposite of the category of finitely presentable models in $Set$ (cf. Johnstone [2002](#J02), p.891).$\qed$
 
 
 ## Some related theories
@@ -105,9 +108,9 @@ d_0(f_1)=d_0(f_2)\wedge d_1(f_1)=d_1(f_2)\vdash \exists f_3\exists f_4\big (C(f_
 
 * {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014, p.202f)
 
-* {#J02}[[Peter Johnstone]], _Sketches of an Elephant vol.2_ , Oxford UP 2002.
+* {#J02}[[Peter Johnstone]], _Sketches of an Elephant vol.2_ , Oxford UP 2002. (D1.1.7(e), p.813, D1.3.4, p.833)
 
-* F. W. Lawvere, _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
+* {#Law63}F. W. Lawvere, _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
 
 * {#Law66}F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
 
