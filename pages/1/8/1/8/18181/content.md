@@ -183,7 +183,7 @@ In the first edition Kant provides a more thorough description on how the format
 
 1. _The synthesis of_ __apprehension in the intuition.__ 
 All representations belong "as modifications of the mind ... to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time" ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)).
-Such representations may be though of as states of the mind. One may be inclined to construe them as object in a category as "Every intuition [Anschauung] contains a manifold in itself" ([A98/9](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png)) 
+Such representations may be though of as states of the mind. One may be inclined to construe them as objects in a category as "Every intuition [Anschauung] contains a manifold in itself" ([A98/9](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png)) 
 
 2. _The synthesis of_ __reproduction in the imagination.__
 "It is ... a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule [beständige Regel]. This law of reproduction, however,
@@ -194,14 +194,14 @@ such a rule ..." ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_re
 "Without consciousness that that which we think is the very same as what we thought a moment before, all reproduction in the series of representations would be in vain. ... The word "concept" itself could already lead us to this remark. For it is this one consciousness that unifies the manifold that has been successively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png)) The crucial point is this __unity of consciousness__.
 
 So a _[constant] rule_ appears as a relationship between two states of consciousness while _rules_ appear as a connection of a concept to such states. Kant speaks also of a __unity of rule__ that "determines every manifold".
-As for a modern formalization the former would could be interpreted as a morphism and the letter reminds of a diagram that has the concept as its cone of a diagram. When taking sets as object the rules should be some kind of [[relation]]. But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a function in one direction.
+As for a modern formalization the former would could be interpreted as a morphism and the letter reminds one of a diagram that has the concept as its cone. When taking sets as object the rules should be some kind of [[relation]]. But it is not clear from Kant's formulation if the class of morphisms is restricted in some way, e.g. to functions in one direction.
 
 Kant continues to state that these three step process also happens for a priori concepts.
 This is to say for our cognition (Erkenntnis) thereof.
 But this unity of the consciousness means that for each cognition  a concept is assigned to the intuition in some way, i.e. 
 that there is a corresponding "rule of intuitions" 
 ($cognition \coloneqq (concept \to Regel\, der\, Anschauungen) $ ) ([A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png)).
-An instance of this is e.g. "objectsa in general" ("Objekt überhaupt").
+An instance of this is e.g. "object in general" ("Objekt überhaupt").
 Every instance comes with a necessity that there is such a concept and a rule of intuitions.
 But a necessity can only origin from some "transcendental condition", that Kant also calls __transcendental apperception__.
 These are the pure concepts of the understanding we sought.
