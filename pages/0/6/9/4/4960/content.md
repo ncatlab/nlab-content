@@ -2251,15 +2251,15 @@ where however the term "cohesive topos" was not yet used.
 
 This appears maybe first in
 
-* [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+* [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([doi:10.1093/philmat/2.1.5](https://doi.org/10.1093/philmat/2.1.5), [[LawvereCohesiveToposes.pdf:file]])
 
 The term "cohesion" and parts of its later axiomatization (p. 245) appears thoughout section C.1 of
 
-* {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
+* {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_, Cambridge University Press  2003 ([doi:10.1017/CBO9780511755460](https://doi.org/10.1017/CBO9780511755460), [book homepage](http://www.mta.ca/~rrosebru/setsformath/), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf))
 
 Under the name _categories of cohesion_ a formal axiomatization is given in
 
-* {#LawvereAxiomatic} [[William Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([web](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* {#LawvereAxiomatic} [[William Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([tac:19-03](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
  
 
 (This does demand the conditions that "cohesive piece have points" and "pieces of powers are powers of pieces" as part of the definition of "category of cohesion".)
@@ -2300,7 +2300,7 @@ Notes for these lectures are in [this pdf](http://comocategoryarchive.com/People
 
 The notion of "cohesion" was explored earlier in
 
-* [[William Lawvere]] _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
+* [[William Lawvere]], _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
 
 where (on p. 9) it is suggested that "almost any" [[extensive category]]  may be called a "species of cohesion".
 
