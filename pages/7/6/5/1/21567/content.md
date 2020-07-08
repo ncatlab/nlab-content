@@ -25,7 +25,7 @@
 ##Idea
 The [[geometric theory|geometric]] **theory of categories** $\mathbb{K}$ is a [[first-order logic|first-order]] axiomatisation of the concept of a  [[category]]. $\mathbb{K}$ is (morally) an [[essentially algebraic theory]], and literally a cartesian theory i.e. _grosso modo_ a [[regular theory]] where existential quantification is provably unique.
 
-Historically, the first axiomatisation was given by [[William Lawvere| F. William Lawvere]] in his [[Functorial Semantics of Algebraic Theories|dissertation]] in 1963 as part of a formalisation of the [[category of categories]]. (cf. Lawvere ([1963](#Law63},[1966](#Law66)) or [[ETCC]] for further information).
+Historically, the first axiomatisation was given by [[William Lawvere| F. William Lawvere]] in his [[Functorial Semantics of Algebraic Theories|dissertation]] in 1963 as part of a formalisation of the [[category of categories]] (cf. Lawvere ([1963](#Law63},[1966](#Law66)) or [[ETCC]] for further information).
 
 ## Definition
 
@@ -66,14 +66,18 @@ Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then $Mod_{\mathbb{K}}(\mathcal{E
 The [[classifying topos]] $Set[\mathbb{K}]$ is the presheaf topos on the opposite of the category of finitely presentable categories in $Set$.
 =--
 
-This follows from the fact that the classifying toposes of [[cartesian theory|cartesian theories]] are generally given as the presheaf toposes on the opposite of the category of finitely presentable models in $Set$ (cf. Johnstone [2002](#J02), p.891).$\qed$
+This follows from the fact that the classifying toposes of [[cartesian theory|cartesian theories]] are generally given as the presheaf toposes on the opposite of the category of finitely presentable models in $Set$ (cf. Johnstone [2002](#J02), p.891). The proposition holds more generally with $Set$ replaced by an arbitrary topos $\mathcal{E}$ with a [[natural numbers object]] (cf. Johnstone-Wraith [1978](#JW78), p.226).$\qed$
 
 
 ## Some related theories
 
-*  The [[theory of model homomorphisms|theory $\mathbb{K}^2$ of $\mathbb{K}$-model homomorphisms]] is the **theory of functors**. Recall that a _discrete opfibration_ is an internal functor $F:\mathbf{F}\to \mathbf{C}$ with the property that
+* The [[theory of model homomorphisms|theory $\mathbb{K}^2$ of $\mathbb{K}$-model homomorphisms]] is the **theory of functors**.
+
+* Recall that a _discrete opfibration_ is an internal functor $F\,:\,\mathbf{F}\to \mathbf{C}$ with the property that the following diagram
 $$
-\array{ F_1 &\overset{d_0}{\longrightarrow}& F_0
+\array{ 
+   & & \\
+F_1 &\overset{d_0}{\longrightarrow}& F_0
     \\
     {}^{\mathllap{\gamma_1}}
     \downarrow 
@@ -83,28 +87,28 @@ $$
     C_1 
       &\underset{d_0}{\longrightarrow}& 
     C_0
+    \\  & &
   }
 $$
-  is pullback. Whence by adding the appropriate geometric axiom to $\mathbb{K}^2$ one obtains the **theory of discrete opfibrations** $\mathbb{K}^2_\downarrow$ as a quotient theory.
+  is pullback. Whence by adding the appropriate geometric axiom to the theory $\mathbb{K}^2$ of functors one obtains as a quotient the **theory of discrete opfibrations** $\mathbb{K}^2_\downarrow$.
 
-   Now let $\mathbf{C}\in cat(\mathcal{E})$ be an internal category. By pulling back its classifying morphism $\overline{\mathbf{C}}:\mathcal{E}\to \mathcal{E}[\mathbb{K}]$ along the geometric morphism $\mathcal{E}[\mathbb{K}^2_\downarrow]\to \mathcal{E}[\mathbb{K}]$ that classifies the codomain of the generic discrete opfibration as an internal category
-  
+  Let $\mathbf{C}\in cat(\mathcal{E})$ be an internal category. By pulling back its classifying morphism $\overline{\mathbf{C}}\,:\,\mathcal{E}\to \mathcal{E}[\mathbb{K}]$ along the geometric morphism $d_1\,:\,\mathcal{E}[\mathbb{K}^2_\downarrow]\to \mathcal{E}[\mathbb{K}]$ that classifies the codomain of the generic discrete opfibration as an internal category
 $$
-\array{ \mathcal{F} &\longrightarrow &\mathcal{E}[\mathbb{K}^2_{\downarrow}]
+\array{ \mathcal{E}[\mathbb{K}^\downarrow_\mathbf{C}] &\longrightarrow &\mathcal{E}[\mathbb{K}^2_{\downarrow}]
     \\
     \downarrow 
     & & 
-    \downarrow^{cod}
+    \downarrow^{d_1}
     \\
     \mathcal{E} 
       &\underset{\overline{\mathbf{C}}}{\longrightarrow}& 
     \mathcal{E}[\mathbb{K}]
+    \\ & &
   }
 $$
-   
-  one obtains the classifying topos for discrete opfibrations on $\mathbf{C}$, or, equivalently, internal diagrams (=copresheaves) on $\mathbf{C}$. Since an internal [[profunctor]] $\mathbf{C} &#8696; \mathbf{D}$ is defined as an internal diagram on $\mathbf{C}^{op}\times\mathbf{D}$ one can use this construction to obtain the classifying topos for internal profunctors from $\mathbf{C}$ to $\mathbf{D}$ by pulling back along the classifying morphism for $\mathbf{C}^{op}\times\mathbf{D}$. (Cf. Johnstone [1977](#J77), p.209.)
+  one obtains the classifying topos $\mathcal{E}[\mathbb{K}^{\downarrow}_\mathbf{C}]$ for discrete opfibrations on $\mathbf{C}$, or, equivalently, internal diagrams (=copresheaves) on $\mathbf{C}$. Since an internal [[profunctor]] $\mathbf{C} &#8696; \mathbf{D}$ is by definition an internal diagram on $\mathbf{C}^{op}\times\mathbf{D}\,$, one can use this construction to obtain the _classifying topos for internal profunctors_ from $\mathbf{C}$ to $\mathbf{D}$ by pulling back along the classifying morphism for $\mathbf{C}^{op}\times\mathbf{D}$ (cf. Johnstone [1977](#J77), p.209).
 
-* By adding the following sequents to $\mathbb{K}$ one obtains the **theory of filtered categories** $\mathbb{K}^\gt$ with models the internal [[filtered category|filtered categories]] (cf. Johnstone [1977](#J77), p.203):
+* By adding the following sequents to the theory $\mathbb{K}$ of categories one obtains the **theory of filtered categories** $\mathbb{K}^\gt$ with models the internal [[filtered category|filtered categories]] (cf. Johnstone [1977](#J77), p.203):
 
   $\array{\\
 \top\vdash \exists x (x=x)
@@ -140,6 +144,8 @@ d_0(f_1)=d_0(f_2)\wedge d_1(f_1)=d_1(f_2)\vdash \exists f_3\exists f_4\big (C(f_
 * {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014, p.202f)
 
 * {#J02}[[Peter Johnstone]], _Sketches of an Elephant vol.2_ , Oxford UP 2002. (D1.1.7(e), p.813, D1.3.4, p.833)
+
+* {#JW78}[[Peter Johnstone]], [[Gavin Wraith]], _Algebraic Theories in Toposes_ , pp.141-242 in Johnstone, Paré (eds.), _Indexed Categories and Their Applications_ , Springer LNM **661** Heidelberg 1978.
 
 * {#Law63}F. W. Lawvere, _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
 
