@@ -71,7 +71,21 @@ This follows from the fact that the classifying toposes of [[cartesian theory|ca
 
 ## Some related theories
 
-*  The [[theory of model homomorphisms|theory $\mathbb{K}^2$ of $\mathbb{K}$-model homomorphisms]] is the **theory of functors**.
+*  The [[theory of model homomorphisms|theory $\mathbb{K}^2$ of $\mathbb{K}$-model homomorphisms]] is the **theory of functors**. Recall that a _discrete opfibration_ is an internal functor $F:\mathbf{F}\to \mathbf{C}$ with the property that
+$$
+\array{ F_1 &\overset{d_0}{\longrightarrow}& F_0
+    \\
+    {}^{\mathllap{\gamma_1}}
+    \downarrow 
+    & & 
+    \downarrow^{\mathrlap{\gamma_0}}
+    \\
+    C_1 
+      &\underset{d_0}{\longrightarrow}& 
+    C_0
+  }
+$$
+  is pullback. Whence by adding the appropriate geometric axiom to $\mathbb{K}^2$ one obtains the **theory of discrete opfibrations** $\mathbb{K}^2_\downarrow$ as a quotient theory.
 
 * By adding the following sequents to $\mathbb{K}$ one obtains the **theory of filtered categories** $\mathbb{K}^\gt$ with models the internal [[filtered category|filtered categories]] (cf. Johnstone [1977](#J77), p.203):
 
