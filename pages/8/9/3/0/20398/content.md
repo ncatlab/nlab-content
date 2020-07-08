@@ -41,6 +41,8 @@
 
   * [[Albert algebra]]
 
+* exceptional [[Jordan superalgebra]], $K_10$
+
 * [[Leech lattice]] 
 
 * [[Cayley plane]]
