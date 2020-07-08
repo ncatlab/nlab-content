@@ -35,7 +35,7 @@ $$
   \,.
 $$
 
-In [[natural deduction]] the type formation rule for a kind of type in the first in a quadruple of rules that come with every kind of type:
+In [[natural deduction]] the type formation rule for a kind of type is the first in a quadruple of rules that come with every kind of type:
 
 1. **type formation rule**
 
