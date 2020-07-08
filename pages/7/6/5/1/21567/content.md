@@ -87,6 +87,23 @@ $$
 $$
   is pullback. Whence by adding the appropriate geometric axiom to $\mathbb{K}^2$ one obtains the **theory of discrete opfibrations** $\mathbb{K}^2_\downarrow$ as a quotient theory.
 
+   Now let $\mathbf{C}\in cat(\mathcal{E})$ be an internal category. By pulling back its classifying morphism $\overline{\mathbf{C}}:\mathcal{E}\to \mathcal{E}[\mathbb{K}]$ along the geometric morphism $\mathcal{E}[\mathbb{K}^2_\downarrow]\to \mathcal{E}[\mathbb{K}]$ that classifies the codomain of the generic discrete opfibration as an internal category
+  
+$$
+\array{ \mathcal{F} &\longrightarrow &\mathcal{E}[\mathbb{K}^2_{\downarrow}]
+    \\
+    \downarrow 
+    & & 
+    \downarrow^{cod}
+    \\
+    \mathcal{E} 
+      &\underset{\overline{\mathbf{C}}}{\longrightarrow}& 
+    \mathcal{E}[\mathbb{K}]
+  }
+$$
+   
+  one obtains the classifying topos for discrete opfibrations on $\mathbf{C}$, or, equivalently, internal diagrams (=copresheaves) on $\mathbf{C}$. Since an internal [[profunctor]] $\mathbf{C} &#8696; \mathbf{D}$ is defined as an internal diagram on $\mathbf{C}^{op}\times\mathbf{D}$ one can use this construction to obtain the classifying topos for internal profunctors from $\mathbf{C}$ to $\mathbf{D}$ by pulling back along the classifying morphism for $\mathbf{C}^{op}\times\mathbf{D}$. (Cf. Johnstone [1977](#J77), p.209.)
+
 * By adding the following sequents to $\mathbb{K}$ one obtains the **theory of filtered categories** $\mathbb{K}^\gt$ with models the internal [[filtered category|filtered categories]] (cf. Johnstone [1977](#J77), p.203):
 
   $\array{\\
