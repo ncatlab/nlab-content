@@ -37,6 +37,11 @@ A **normal lax functor** preserves identities strictly.
 See the definition at [[pseudofunctor]], and let the [[natural isomorphisms]] in that definition be merely [[natural transformations]].
 
 
+## Properties
+
+One of the most important properties is that lax functors compose associatively and unitally: we have a category $Bicat$ with [[bicategories]] as objects and lax functors as morphisms.
+
+
 ## Examples 
 
 * For $D$ a [[bicategory]], lax functors $F : {*} \to D$ from the [[point]] category to $D$ are equivalent to [[monad]]s in $D$.
