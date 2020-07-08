@@ -31,7 +31,7 @@ A [[morphism]] $f : Y \to X$ in an [[(∞,1)-category]] is an **effective epimor
 $$
   \cdots
   Y \times_X Y \times_X Y 
-  \stackrel{\tl}{\stackrel{\longrightarrow}{\longrightarrow}}
+  \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
  Y \times_X Y \stackrel{\longrightarrow}{\longrightarrow}  Y \stackrel{f}{\longrightarrow} X
 $$
 
