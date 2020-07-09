@@ -454,8 +454,7 @@ Now the fairly explicit way:
 
 There are various different but equivalent explicit realizations, or models,
 for [[(∞,1)-categories]]. 
-Of these consider [[quasi-categories]], which are  
-[[simplicial sets]] that are [[Kan fibration|weak Kan complexes]],
+Of these consider [[quasi-categories]], which are  [[simplicial sets]] that are [[Kan fibration|weak Kan complexes]],
 and [[SSet]]-[[enriched categories]]. 
 These are related by the 
 [[homotopy coherent nerve]] functor: 
