@@ -76,7 +76,7 @@ The [[classifying topos]] for the theory $\mathbb{T}^2$ of $\mathbb{T}$-model ho
 
 **Remark**:
  It is worthwhile to muse a bit how "squaring" fares as a theory operator with respect to the various subdoctrines of [[geometric logic]]:
-since it does not introduce logical operators like infinitary disjunctions or quantors unless the operators were already present in $\mathbb{T}$, one sees that the formats of the more expressive subdoctrines like Horn, [[regular logic|regular]], and [[coherent logic]] are respected by the passage to $\mathbb{T}^2$.
+since it does not introduce logical operators like infinitary disjunctions or quantifiers unless the operators were already present in $\mathbb{T}$, one sees that the formats of the more expressive subdoctrines like Horn, [[regular logic|regular]], and [[coherent logic]] are respected by the passage to $\mathbb{T}^2$.
 Also, the square of a [[localic topos|propositional theory]] i.e. one over a signature lacking sort symbols, is again propositional - this implies e.g. via the above corollary that the exponentiation of a [[localic topos]] by $Set^2$ is again a localic topos.
 The order sensitive subdoctrines like [[essentially algebraic theory|cartesian]] or [[disjunctive logic]] are also respected.
 One case where squaring does not preserve the subdoctrine is [[Lawvere theory|1-sorted algebraic logic]] since then $\mathbb{T}^2$ is necessarily 2-sorted.$\qed$
