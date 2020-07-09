@@ -149,9 +149,13 @@ Special kinds of stacks include
 
 The concept originates, under the French term _champ_, in 
 
-* [[Jean Giraud]], _Cohomologie non ab&#233;lienne, Grundlehren 179, Springer Verlag (1971) ([doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071))
+* {#Giraud71} [[Jean Giraud]], _Cohomologie non ab&#233;lienne, Grundlehren 179, Springer Verlag (1971) ([doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071))
 
 and under the English term _stack_ in
+
+* {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], _The irreducibility of the space of curves of given genus_, Publications Math&#233;matiques de l'IH&#201;S (Paris) 36: 75&#8211;109 (1969) ([numdam:PMIHES_1969__36__75_0](http://www.numdam.org/item?id=PMIHES_1969__36__75_0))
+
+  > (This article does cite, on p. 24, what later was published as [Giraud 71](#Giraud71).)
 
 * [[Jean Giraud]], _Classifying topos_, in: [[William Lawvere]] (ed.) _Toposes, Algebraic Geometry and Logic_, Lecture Notes in Mathematics, vol 274. Springer (1972) ([doi:10.1007/BFb0073964](https://doi.org/10.1007/BFb0073964))
 
