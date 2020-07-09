@@ -58,7 +58,7 @@ A [[(∞,1)-category]] $\mathcal{C}$ is **$\kappa$-accessible** if it satisfies 
 
    1. has all $\kappa$-[[filtered colimits]]
 
-   1. there is _some_ [[essentially small (∞,1)-category|essentially small]][[sub-(∞,1)-category]] $\mathcal{C}' \hookrightarrow \mathcal{C}$ of $\kappa$-[[compact objects]] which generates $\mathcal{C}$ under $\kappa$-[[filtered (∞,1)-colimits]].
+   1. there is _some_ [[essentially small (∞,1)-category|essentially small]]$\,$ [[sub-(∞,1)-category]] $\mathcal{C}' \hookrightarrow \mathcal{C}$ of $\kappa$-[[compact objects]] which generates $\mathcal{C}$ under $\kappa$-[[filtered (∞,1)-colimits]].
 
 The notion of accessibility is mostly interesting for _large_ (∞,1)-categories. For
 
