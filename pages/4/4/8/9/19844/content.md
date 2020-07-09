@@ -228,8 +228,6 @@ While the [[statistical significance]] of the [[flavour anomalies]] in every sin
 
 > [Garisto 20](#Garisto20): Alone, each notable B physics result is only a few-sigma discrepancy. But taken together, the aggregate of the results is—depending on whom you ask—a 5- to 7-sigma deviation from the standard model estimates. 
 
-
-
 In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
 
 From [Isidori 19, slide 6](#Isidori19):
@@ -240,6 +238,19 @@ From [Isidori 19, slide 6](#Isidori19):
   "width": 610
 \end{imagefromfile} 
 \end{center}
+
+\linebreak
+
+Outlook on the [[Belle II experiement]] to confirm the flavour anomalies, if real ([HHJLQV 20](#HHJLQV20)):
+
+> With $[$ ... $]$ [[Belle II]], we are at the brink of a new era in [[quark]] [[flavour physics]] $[...]$ we present a phenomenological study of  the potential for [[Belle II]] to reveal possible new physics in the inclusive decay channel
+
+> ([p. 15](#HHJLQV20):) We see that [[flavour anomalies|anomalies]] in the exclusive sector can be confirmed at the [[statistical significance|5σ]] level by inclusive measurements if the true values of $C_{9,10}^{\mu NP}$ are at the current best-fit point of the exclusive fits
+
+> ([p. 16](#HHJLQV20):)  After including $B_s \to \mu^+ \mu_-$, the reach in the $[C_9^{\mu NP}, C_{10}^{\mu NP}]$ plane improves considerably.  Exclusive [[flavour anomalies|anomalies]] could be confirmed at the [[statistical significance|6σ]] level.
+
+> ([p. 20](#HHJLQV20):) Should  the  true  value  of $C_9^{NP}$ and $C_{10}^{NP}$ be at  the current best-fit points of the global fits, an analysis of inclusive $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]] with $50 ab^{-1}$ of data will exclude the SM point $C_9^{NP} = C_{10}^{NP} = 0$ at the level of $\sim 5$[[statistical significance|σ]].  This again underlines the necessity of a full angular analysis of $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]].
+
 
 ## Relation to other anomalies
  {#RelationToOtherAnomalies}
@@ -485,6 +496,13 @@ Outlook:
 * {#Tuning20} [[Niels Tuning]], _Recent results from LHCb_, Nikhef 2020 ([nikhef event:2253](https://indico.nikhef.nl/event/2253), [pdf](https://indico.nikhef.nl/event/2253/material/slides/0.pdf), [[TuningFlavourAnomaly20.pdf:file]])
 
   > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
+
+
+Outlook for [[Belle II]] to confirm the [[flavour anomalies]], if they are real:
+
+* {#HHJLQV20} Tobias Huber, Tobias Hurth, Jack Jenkins, Enrico Lunghi, Qin Qin, K.Keri Vos, _Phenomenology of inclusive $\bar B \to X_s \ell^+ \ell^-$ for the Belle II era_ ([arXiv:2007.04191](https://arxiv.org/abs/2007.04191))
+
+
 
 Emphasis of [[non-perturbative effects]]:
 
