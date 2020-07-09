@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -184,11 +185,11 @@ The importance of quasi-categories as a basis for [[category theory]] has been p
 
 For several years Joyal has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive writeup of lecture notes does:
 
-* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
+* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories), ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
 
 and more recently, with more details
 
-* [[André Joyal]], _Notes on quasi-categories_ ([pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf)).
+* [[André Joyal]], _Notes on quasi-categories_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]).
 
 
 Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is in
@@ -205,10 +206,9 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
 
-Survey includes
+Survey includes (see also the references at [[(infinity,1)-category]]):
 
-* [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf))
-
+ [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 * {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017,([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf))
 
 * [[Moritz Groth]], _A short course on ∞-categories_ ([arXiv:1007.2925](https://arxiv.org/abs/1007.2925))
