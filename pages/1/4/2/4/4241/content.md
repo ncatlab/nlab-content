@@ -87,7 +87,7 @@ See [[shelf]] for more details.
 
 ## Links
 
-* Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
+* Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/math/Rack.html).
 
 * Wikipedia, [Racks and quandles](http://en.wikipedia.org/wiki/Racks_and_quandles).
 
