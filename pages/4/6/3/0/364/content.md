@@ -2,7 +2,7 @@ I am an Assistant Professor in the Department of Mathematics at [Johns Hopkins U
 
 My webpage can be found [here](http://www.math.jhu.edu/~eriehl/).
 
-## Selecyed writings
+## Selected writings
 
 A textbook on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory:
 
