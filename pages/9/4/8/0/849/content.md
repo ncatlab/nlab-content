@@ -376,7 +376,6 @@ The sheaf topos $\mathbf{H}$ is a [[cartesian closed category]] / [[cartesian cl
 
 Hence the internal hom exist.
 
-=--
 
 +-- {: .num_prop #InternalHomInSheaves}
 ###### Proposition
