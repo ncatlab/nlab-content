@@ -386,9 +386,9 @@ An introduction to [[higher category theory]] through $(\infty,1)$-categories is
 
 * Omar Antol&#237;n Camarena, _A whirlwind tour of the world of $(\infty,1)$-categories_, 2013 ([arXiv:1303.4669](http://arxiv.org/abs/1303.4669))
 
-A foundational set of lecture notes is developing in 
+A foundational set of lecture notes"
 
-* [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+* [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 A survey with an eye towards [[higher algebra]] is in 
 
