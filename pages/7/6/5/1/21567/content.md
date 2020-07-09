@@ -33,7 +33,7 @@ The [[signature]] $\Sigma_\mathbb{K}$ has two sorts $O$ and $A$ for objects and 
 
 The **theory of categories** is the theory $\mathbb{K}$ over the signature $\Sigma_\mathbb{K}$ with the following sequents:[^var]
 
-[^var]: Here and in the following $x,y$ are variables ranging over O, whereas the $f_1,f_2,\dots$ range over A; the contexts are assumed to be standard i.e. consisting of all free variables occurring in a sequent.
+[^var]: Here and in the following $x,y$ are variables ranging over O, whereas the $f_1,f_2,\dots$ range over A; the contexts are assumed to be canonical i.e. consisting of all free distinct variables occurring in a sequent listed in order of first appearance.
 
 * $\top\vdash d_0(id(x))=x\wedge d_1(id(x))=x\quad$ ,
 
