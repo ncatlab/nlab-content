@@ -41,7 +41,7 @@ resp.
 
 :$R^0(x_1,\dots,x_n)\vdash R^1(f_{X_1}(x_1),\dots,f_{X_n}(x_n))$
 
-for any pair $g^0$, $g^1$ of function symbols (corresponding to $g:X_1\times\dots\times X_n\to Y$ in $\Sigma$), resp. any pair $R^0$, $R^1$ of relation symbols (corresponding to $R\rightarrowtail X_1\times\dots\times X_n$ in $\Sigma$), in $\Sigma^2$.
+for any pair $g^0$, $g^1$ of function symbols in $\Sigma^2$ corresponding to $g:X_1\times\dots\times X_n\to Y$ in $\Sigma$ (in case $n=0\,$, the sequent reads $\top\vdash f_Y(g^0)=g^1\,$), resp. any pair $R^0$, $R^1$ of relation symbols in $\Sigma^2$ corresponding to $R\rightarrowtail X_1\times\dots\times X_n$ in $\Sigma$ (in case $n=0\,$, the sequent reads $R^0\vdash R^1\,$).
 
 [^prop]:  It is understood that variables and contexts are updated with the new sorts e.g. the sequent $\top\vdash_{x:S} x=x$ yields two sequents $\top\vdash_{x:S^0} x=x$ and $\top\vdash_{x:S^1} x=x$ and $\top\vdash \big (\forall x:S\big ) x=x$ yields $\top\vdash \big (\forall x:S^0\big ) x=x$ and $\top\vdash \big (\forall x:S^1\big ) x=x$ etc. In case, the sequent $\varphi\vdash\psi$ contains nothing to update (e.g. the sequent $\top\vdash\bot$) one just takes the old sequent as the "new pair".
 
