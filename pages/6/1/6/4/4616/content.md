@@ -23,14 +23,14 @@ A _nice simplicial topological space_ is a [[simplicial topological space]] that
 
 ## Definition
 
-+-- {: .un_defn }
++-- {: .num_defn }
 ###### Definition 
 
 Let $X : \Delta^{op} \to Top$ be a [[simplicial topological space]].
 
 Such $X$ is called
 
-* **good** if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are all [[closed cofibration]]s;
+* **good** if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are all [[closed cofibrations]];
 
 * **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
 
@@ -45,7 +45,7 @@ The notion of good simplicial topological space goes back to ([Segal](#Segal)), 
 
 ### General
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A good simplicial topological space is proper.
@@ -55,7 +55,7 @@ A good simplicial topological space is proper.
 A proof appears as [Lewis, corollary 2.4 (b)](#Lewis). A generalization of this result is in [RobertsStevenson](#StevensonRoberts).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $X_\bullet$ any simplicial topological space, then ${|Sing X_\bullet|}$ is good, hence proper, and the natural morphism
@@ -86,7 +86,7 @@ is a degreewise [[weak homotopy equivalence]]. In particular each space $|Sing X
 
 ### Models for the homotopy colimit
 
-+-- {: .un_prop}
++-- {: .num_prop}
 
 ###### Proposition
 
@@ -109,7 +109,7 @@ That the [[geometric realization of simplicial topological spaces]] of a proper 
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
