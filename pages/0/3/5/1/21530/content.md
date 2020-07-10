@@ -101,8 +101,6 @@ Example 5.31 there shows that on [[global quotient orbifolds]] this is again equ
 
 * Edward Becerra, [[Bernardo Uribe]], _Stringy product on twisted orbifold K-theory for abelian quotients_, Trans. Amer. Math. Soc. 361 (2009), 5781-5803  ([arXiv:0706.3229](https://arxiv.org/abs/0706.3229), [doi:10.1090/S0002-9947-09-04760-6](https://doi.org/10.1090/S0002-9947-09-04760-6))
 
-* Tyler J. Jarvis, Ralph Kaufmann, Takashi Kimura, _Stringy K-theory and the Chern character_ ([arXiv:math/0502280](https://arxiv.org/abs/math/0502280))
-
 * Jianxun Hu, [[Bai-Ling Wang]], _Delocalized Chern character for stringy orbifold K-theory_, Trans. Amer. Math. Soc. 365 (2013), 6309-6341  ([arXiv:1110.0953](https://arxiv.org/abs/1110.0953), [doi:10.1090/S0002-9947-2013-05834-5](https://doi.org/10.1090/S0002-9947-2013-05834-5))
 
 
