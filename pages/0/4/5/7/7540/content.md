@@ -17,6 +17,11 @@ On [[orbifolds]]:
 
 * [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116 (1984), p. 70-97 ([numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/))
 
+On [[mapping stacks]] between [[orbifolds]]:
+
+* [[André Haefliger]], _On the space of morphisms between étale groupoids_, In:  P. Robert Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_ ([arXiv:0707.4673](https://arxiv.org/abs/0707.4673), [ams:crmp-50](https://bookstore.ams.org/crmp-50))
+
+
 category:people
 
 [[!redirects A. Haefliger]]
