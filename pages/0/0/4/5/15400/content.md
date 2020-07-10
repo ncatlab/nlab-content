@@ -31,6 +31,8 @@ For $G$ a [[complex Lie group]] then its [[delooping]] in complex analytic stack
 
 ## Related concepts
 
+* [[complex orbifold]]
+
 * [[algebraic stack]], [[smooth stack]], [[topological stack]],
 
 * [[higher complex analytic geometry]], [[complex analytic ∞-stack]]
