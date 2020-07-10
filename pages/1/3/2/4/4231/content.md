@@ -1571,16 +1571,20 @@ This is [Cisinski 02, Th&#233;or&#232;me 4.8](#Cisinski02). This is closely rela
 We can use this to prove that a [[locally presentable (∞,1)-category]] is [[locally cartesian closed (∞,1)-category]] if and only if it has a presentation by a right proper Cisinski model structure.  See [[locally cartesian closed (∞,1)-category]] for details.
 
 
+## Related concepts
+
+* [[test topos]]
+
 ## References
  {#References}
 
 The original articles are
 
-* [[Denis-Charles Cisinski]] , _Th&#233;ories homotopiques dans les topos_, JPAA, Volume 174 (2002), p.43-82
- {#Cisinski02}
+* {#Cisinski02} [[Denis-Charles Cisinski]] , _Th&#233;ories homotopiques dans les topos_, JPAA, Volume 174 (2002), p.43-82
+ 
 
-* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
- {#Cisinski06}
+* {#Cisinski06} [[Denis-Charles Cisinski]], _Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([numdam:AST_2006__308__R1_0](http://www.numdam.org/item/?id=AST_2006__308__R1_0) [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+ 
 
 Further developments are in
 
