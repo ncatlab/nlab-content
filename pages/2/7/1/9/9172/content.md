@@ -28,6 +28,8 @@ The name is due to the fact that this gauge field unifies the [[electromagnetic 
 
 ## References
 
+### General
+
 The electroweak interaction was introduced in
 
 * [[Sheldon Glashow]], _The renormalizability of vector meson interactions_, Nucl. Phys. 10, 107. (1959)
@@ -44,7 +46,10 @@ The history of [Weinberg 67](#Weinberg67) is recounted in
 
 See also
 
-* Michael Peskin, _Precision Theory of Electroweak Interactions_ ([arXiv:2003.05433](https://arxiv.org/abs/2003.05433))
+* [[Michael Peskin]], _Precision Theory of Electroweak Interactions_ ([arXiv:2003.05433](https://arxiv.org/abs/2003.05433))
+
+* Wikipedia, _[Electroweak interaction](https://en.wikipedia.org/wiki/Electroweak_interaction)_
+
 
 Discussion in [[causal perturbation theory]] is in
 
@@ -52,9 +57,13 @@ Discussion in [[causal perturbation theory]] is in
 
 * {#Scharf01} [[Günter Scharf]], chapter 4 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
-See also 
 
-* Wikipedia, _[Electroweak interaction](https://en.wikipedia.org/wiki/Electroweak_interaction)_
+### In relation to flavour anomalies
+
+In relation to [[flavour anomalies]]:
+
+* Lina Alasfar, Aleksandr Azatov, Jorge de Blas, Ayan Paul, Mauro Valli, _B anomalies under the lens of electroweak precision_ ([arXiv:2007.04400](https://arxiv.org/abs/2007.04400))
+
 
 [[!redirects electroweak]]
 [[!redirects electroweak field]]
