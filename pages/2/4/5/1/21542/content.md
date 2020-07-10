@@ -52,7 +52,7 @@ for any pair $g^0$, $g^1$ of function symbols in $\Sigma^2$ corresponding to $g:
 
 Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then
 
-$$Mod_{\mathbb{T}^2}(\mathcal{E})=Mod_\mathbb{T}(\mathcal{E})^2=Mod_\mathbb{T}(\mathcal{E}^2)\quad.$$
+$${\mathbb{T}^2}\text{-}Mod(\mathcal{E})=\mathbb{T}\text{-}Mod(\mathcal{E})^2=\mathbb{T}\text{-}Mod(\mathcal{E}^2)\quad.$$
 =--
 
 Cf. Johnstone ([1977](#J77), p. 203; [2002](#J02), p.425), Mac Lane-Moerdijk ([1994](#MM94), ex.X.5 p.572).
@@ -60,11 +60,12 @@ Cf. Johnstone ([1977](#J77), p. 203; [2002](#J02), p.425), Mac Lane-Moerdijk ([1
 Note that the second equality determines the class of $\mathbb{T}$-model homomorphisms once the $\mathbb{T}$-models in the arrow categories $\mathcal{E}^2$ are known.
 
 **Remark**:
-  This e.g. precludes the existence of geometric theories $\mathbb{T}^{op}$ or $\mathbb{T}^\times$ with the property that, given a geometric theory $\mathbb{T}$, the category of models $Mod_{\mathbb{T}^{op}}(\mathcal{E})$ and $Mod_{\mathbb{T}^{\times}}(\mathcal{E})$ coincide with the [[opposite category]] $Mod_{\mathbb{T}}(\mathcal{E})^{op}$ or the [[twisted arrow category]] $Mod_{\mathbb{T}}(\mathcal{E})^\times$ for any [[Grothendieck topos]], respectively. In particular, since the (geometric) theory of morphisms $\mathbb{O}^2$ (see the examples below) assigns the [[arrow category]] $\mathcal{E}^2$ as category of models to a Grothendieck topos $\mathcal{E}$ no geometric theory can assign all Grothendieck toposes $\mathcal{E}$ their [[twisted arrow category]] $\mathcal{E}^\times$ as category of models because the class of models coincides with the class of models for the theory of morphisms. $\qed$
+This e.g. precludes the existence of geometric theories $\mathbb{T}^{op}$ or $\mathbb{T}^\times$ with the property that, given a geometric theory $\mathbb{T}$, the category of models ${\mathbb{T}^{op}}\text{-}Mod(\mathcal{E})$ and ${\mathbb{T}^{\times}}\text{-}Mod(\mathcal{E})$ coincide with the [[opposite category]] ${\mathbb{T}}\text{-}Mod(\mathcal{E})^{op}$ or the [[twisted arrow category]] ${\mathbb{T}}\text{-}Mod(\mathcal{E})^\times$ for any [[Grothendieck topos]], respectively. In particular, since the (geometric) theory of morphisms $\mathbb{O}^2$ (see the examples below) assigns the [[arrow category]] $\mathcal{E}^2$ as category of models to a Grothendieck topos $\mathcal{E}$ no geometric theory can assign all Grothendieck toposes $\mathcal{E}$ their [[twisted arrow category]] $\mathcal{E}^\times$ as category of models because the class of models coincides with the class of models for the theory of morphisms. $\qed$
+
 
 Since $\mathcal{E}^2=\mathcal{E}\times Set^2$ in general and the [[Sierpinski topos]] $Set^2$ is [[exponentiable topos|exponentiable]], one gets
 
-$$Mod_{\mathbb{T}^2}(\mathcal{E})=Mod_\mathbb{T}(\mathcal{E}^2)=Hom(\mathcal{E}^2,Set[\mathbb{T}])=Hom(\mathcal{E}\times Set^2, Set[\mathbb{T}])=Hom(\mathcal{E},Set[\mathbb{T}]^{(Set^2)})$$
+$${\mathbb{T}^2}\text{-}Mod(\mathcal{E})=\mathbb{T}\text{-}Mod(\mathcal{E}^2)=Hom(\mathcal{E}^2,Set[\mathbb{T}])=Hom(\mathcal{E}\times Set^2, Set[\mathbb{T}])=Hom(\mathcal{E},Set[\mathbb{T}]^{(Set^2)})$$
 
 or in other words
 
@@ -74,12 +75,28 @@ or in other words
 The [[classifying topos]] for the theory $\mathbb{T}^2$ of $\mathbb{T}$-model homorphisms is $Set[\mathbb{T}^2]= Set[\mathbb{T}]^{(Set^2)}$.
 =--
 
+
+
 **Remark**:
- It is worthwhile to muse a bit how "squaring" fares as a theory operator with respect to the various subdoctrines of [[geometric logic]]:
+It is worthwhile to muse a bit how "squaring" fares as a theory operator with respect to the various subdoctrines of [[geometric logic]]:
 since it does not introduce logical operators like infinitary disjunctions or quantifiers unless the operators were already present in $\mathbb{T}$, one sees that the formats of the more expressive subdoctrines like Horn, [[regular logic|regular]], and [[coherent logic]] are respected by the passage to $\mathbb{T}^2$.
 Also, the square of a [[localic topos|propositional theory]] i.e. one over a signature lacking sort symbols, is again propositional - this implies e.g. via the above corollary that the exponentiation of a [[localic topos]] by $Set^2$ is again a localic topos.
 The order sensitive subdoctrines like [[essentially algebraic theory|cartesian]] or [[disjunctive logic]] are also respected.
-One case where squaring does not preserve the subdoctrine is [[Lawvere theory|1-sorted algebraic logic]] since then $\mathbb{T}^2$ is necessarily 2-sorted.$\qed$
+One case where squaring does not preserve the subdoctrine is [[Lawvere theory|1-sorted algebraic logic]] since then $\mathbb{T}^2$ is necessarily 2-sorted. $\qed$
+
+By an observation of Hébert ([2010](#H10), p.1), the finitely presentable objects in arrow categories $\mathcal{K}^2$, are precisely the morphisms between finitely presentable objects in $\mathcal{K}$ whence, denoting the subcategory of finitely presentable models of a theory $\mathbb{T}$ in a topos $\mathcal{E}$ by $\mathbb{T}\text{-}Mod_{fp}(\mathcal{E})$ one has
+
+$$\mathbb{T}^2\text{-}Mod_{fp}(\mathcal{E})=\mathbb{T}\text{-}Mod_{fp}(\mathcal{E})^2\;.$$
+
+But since classifying toposes of cartesian theories are given by the presheaf toposes on the opposite of the category of their finitely presentable models in $Set$ (cf. Johnstone [2002b](J02b), p. 891) one has
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathbb{T}$ be a [[essentially algebraic theory|cartesian theory]]. Then the theory $\mathbb{T}^2$ of $\mathbb{T}$-model homorphisms is cartesian and its [[classifying topos]] is $Set[\mathbb{T}^2]=Set^{\mathbb{T}^2\text{-}Mod_{fp}(Set)}=Set^{(\mathbb{T}\text{-}Mod_{fp}(Set)^2)}=\big (Set^{\mathbb{T}\text{-}Mod_{fp}(Set)}\big)^{(Set^2)}=Set[\mathbb{T}]^{(Set^2)}$.
+=--
+
+For an easy application of this result see at the theory $\mathbb{O}$ of objects in the examples below!
 
 ## Examples
 
@@ -92,7 +109,13 @@ $$ Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet
 
   The _generic morphism_ is given by the [[natural transformation]] $\eta\,:\,\mathbf{O}\circ dom\to\mathbf{O}\circ cod$ with $\mathbf{O}$ the _generic object_ i.e. the inclusion functor $FinSet\hookrightarrow Set$, and $dom\,:\,FinSet^2\to FinSet\, ,\, (X\to Y)\mapsto X$ the domain projection functor, and $cod\,:\,FinSet^2\to FinSet\,,\, (X\to Y)\mapsto Y$ the codomain projection functor, with components $\eta_{(X\to Y)}=\mathbf{O}(X\to Y)$.
 
-* Let $\mathbb{K}$ be the [[theory of categories]] (e.g. Johnstone [1977](#J77), p.202) whose models in a [[Grothendieck topos]] $\mathcal{E}$ are the [[internal category|internal categories]] $\mathbf{C}\in cat(\mathcal{E})$. Then $\mathbb{K}^2$ is the **theory of functors**.
+* Let $\mathbb{K}$ be the [[theory of categories]] (e.g. Johnstone [1977](#J77), p.202) whose models in a [[Grothendieck topos]] $\mathcal{E}$ are the [[internal category|internal categories]] $\mathbf{C}\in cat(\mathcal{E})$. Then $\mathbb{K}^2$ is the **theory of functors**. $\mathbb{K}$ likely being the most famous cartesian theory, one has $Set[\mathbb{K}^2]=Set^{(\mathbb{K}\text{-}Mod_{fp}(Set)^2)}$.
+
+## The connection to natural homotopy
+
+The [[Sierpinski topos]] $Set^2$ is a connected, locally connected and local topos. As a result of [[Artin gluing]] along $Set\overset{id}{\to}Set$ it has two [[point of a topos|topos points]] (corresponding to the two points of the underlying [[Sierpinski space]]). Whence one can take $Set^2$ as an abstract [[interval object]] for a homotopy theory of Grothendieck toposes correlated with their nature as "generalized spaces" and view, accordingly, the exponential $\mathcal{E}^{Set^2}$ as a path space for $\mathcal{E}$.
+
+(Cf. Beke [2000](#B00), p.11f)
 
 ## Related entries
 
@@ -102,15 +125,25 @@ $$ Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet
 
 * [[theory of decidable objects]]
 
+* [[natural homotopy]]
+
 * [[exponentiable topos]]
 
 * [[Sierpinski topos]]
 
 ## References
 
+* {#B00}[[Tibor Beke]], _Homotopoi_ , ms. University of Massachusetts Lowell (2000). ([dvi](http://faculty.uml.edu/tbeke/topos.dvi))
+
+* {#H10}[[Michel Hébert]], _Finitely presentable morphisms in exact sequences_ , TAC **24** no.9 (2010) pp.209-220. ([abstract](http://tac.mta.ca/tac/volumes/24/9/24-09abs.html))
+
 * {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014)
 
-* {#J02}[[Peter Johnstone]], _Sketches of an Elephant vol.1_ , Oxford UP 2002. 
+* {#J02a}[[Peter Johnstone]], _Sketches of an Elephant vol.1_ , Oxford UP 2002. 
+
+* {#J02b}[[Peter Johnstone]], _Sketches of an Elephant vol.2_ , Oxford UP 2002. 
+
+* {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-MacLane Toposes and cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
 
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994.
 
