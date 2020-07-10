@@ -268,6 +268,7 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 * [[NQ-supermanifold]]
 
+* [[super-orbifold]]
 
 
 ## References
