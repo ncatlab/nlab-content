@@ -385,6 +385,9 @@ Discussion in [[higher differential geometry]] of Kaluza-Klein compactification 
 
 * [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_ ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089))
 
+* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
+
+
 
 [[!redirects Kaluza-Klein theory]]
 
