@@ -362,6 +362,12 @@ There are many books in [[physics]] on [[supersymmetry]] (most well known is by 
 
 See also [pdf](http://www.math.uni-hamburg.de/home/sachse/handoutbatchelor.pdf)
 
-[[!redirects super manifold]]
-
 [[!redirects supermanifolds]]
+
+
+[[!redirects super manifold]]
+[[!redirects super manifolds]]
+
+[[!redirects super-manifold]]
+[[!redirects super-manifolds]]
+
