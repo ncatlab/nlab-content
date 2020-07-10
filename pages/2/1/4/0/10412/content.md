@@ -29,25 +29,23 @@ See also at [[motives in physics]]
 
 ## References
 
-A review of the history and background is in 
+Review:
 
-* [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
- {#Dixon13}
-
-For a good more technical general introduction of the background see
-
+* {#Dixon13} [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+ 
 * Henriette Elvang, Yu-tin Huang, _Scattering Amplitudes_ ([arXiv:1308.1697](http://arxiv.org/abs/1308.1697))
 
+* Livia Ferro, Tomasz Lukowski, _Amplituhedra, and Beyond_, Topical Review invited by Journal of Physics A: Mathematical and Theoretical ([arXiv:2007.04342 ](https://arxiv.org/abs/2007.04342))
 
 For scattering amplitudes via the "amplituhedron" the integrand is discussed in
 
-* [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, [[Alexander Goncharov|Alexander B. Goncharov]], [[Alexander Postnikov]], Jaroslav Trnka, _Scattering amplitudes and the positive Grassmannian_, [arxiv/1212.5605](http://arxiv.org/abs/1212.5605) 
- {#ABCGPT12}
+* {#ABCGPT12} [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, [[Alexander Goncharov|Alexander B. Goncharov]], [[Alexander Postnikov]], Jaroslav Trnka, _Scattering amplitudes and the positive Grassmannian_, [arxiv/1212.5605](http://arxiv.org/abs/1212.5605) 
+
 
 and the integration domain in
 
-* [[Nima Arkani-Hamed]], Jaroslav Trnka, _The Amplituhedron_, [arxiv/1312.2007](http://arxiv.org/abs/1312.2007)
- {#ArkaniHameTrnka13}.
+* {#ArkaniHameTrnka13} [[Nima Arkani-Hamed]], Jaroslav Trnka, _The Amplituhedron_, [arxiv/1312.2007](http://arxiv.org/abs/1312.2007)
+ 
 
 Simple aspects of four particle scattering are treated in
 
