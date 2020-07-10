@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -211,19 +212,35 @@ see _[[G2-orbifold]]_
 
 * [[branched cover]]
 
+* [[complex orbifold]]
+
+* [[symplectic orbifold]]
+
 ## References
 
 ### General
 
-* Joseph Ernest Borzellino, _Riemannian Geometry of Orbifolds_, 1992 ([pdf 1](http://mathnet.kaist.ac.kr/mathnet/paper_file/California/Polytech/Borze/dis.pdf), [pdf 2](https://web.calpoly.edu/~jborzell/Publications/Publication%20PDFs/phd_thesis.pdf))
+On [[Riemannian orbifolds]]:
+
+* Joseph Ernest Borzellino, _Riemannian Geometry of Orbifolds_, Dissertation, University of California - Los Angeles, January 1, 1992, pages 1-57.  1992 ([calpoly.edu/math_fac/111](https://digitalcommons.calpoly.edu/math_fac/111))
 
 
 * {#Ratcliffe06} [[John Ratcliffe]], _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics 149, Springer 2006 ([doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>)
 
 
-* Christian Lange, _Orbifolds from a metric viewpoint_ ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472))
+* Christian Lange, _Orbifolds from a metric viewpoint_, Geom Dedicata (2020) ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472), [doi:10.1007/s10711-020-00521-x](https://doi.org/10.1007/s10711-020-00521-x))
 
 * {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, Paolo Piccione, _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
+
+The [[isometry group]] of [[Riemannian orbifolds]]:
+
+* A. V. Bagaev & N. I. Zhukova, _The isometry groups of Riemannian orbifolds_,  Sib Math J 48, 579–592 (2007) ([doi:10.1007/s11202-007-0060-y](https://doi.org/10.1007/s11202-007-0060-y))
+
+More generally, [[G-structures]] on orbifolds:
+
+* A. V. Bagaev, N. I. Zhukova , _The Automorphism Groups of Finite Type $G$-Structures on Orbifolds_, Siberian Mathematical Journal 44, 213–224 (2003) ([doi:10.1023/A:1022920417785](https://doi.org/10.1023/A:1022920417785))
+
+* [[Robert Wolak]], _Orbifolds, geometric structures and foliations. Applications to harmonic maps_, Rendiconti del seminario matematico - Universita politecnico di Torino, vol. 73/1 , 3-4 (2016), 173-187 ([arXiv:1605.04190](https://arxiv.org/abs/1605.04190))
 
 Discussion of [[gravity]] and maybe [[quantum gravity]] on orbifolds:
 
@@ -300,9 +317,9 @@ In 6 dimensions (mostly motivated as singular [[supersymmetry and Calabi-Yau man
 
 * Jens Erler, [[Albrecht Klemm]], _Comment on the Generation Number in Orbifold Compactifications_, Commun. Math. Phys. 153:579-604, 1993 ([arXiv:hep-th/9207111](https://arxiv.org/abs/hep-th/9207111))
 
-* [[Dieter Lüst]], S. Reffert, E. Scheidegger, S. Stieberger, _Resolved Toroidal Orbifolds and their Orientifolds_, Adv.Theor.Math.Phys.12:67-183, 2008 ([arXiv:hep-th/0609014](https://arxiv.org/abs/hep-th/0609014))
+* [[Dieter Lüst]], S. Reffert, E. Scheidegger, S. Stieberger, _Resolved Toroidal Orbifolds and their Orientifolds_, Adv. Theor. Math. Phys. 12:67-183, 2008 ([arXiv:hep-th/0609014](https://arxiv.org/abs/hep-th/0609014))
 
-* S. Reffert, _Toroidal Orbifolds: Resolutions, Orientifolds and Applications in String Phenomenology_ ([arXiv:hep-th/0609040](https://arxiv.org/abs/hep-th/0609040))
+* S. Reffert, _Toroidal Orbifolds: Resolutions, Orientifolds and Applications in String Phenomenology_, Munich 2006 ([arXiv:hep-th/0609040](https://arxiv.org/abs/hep-th/0609040), [spire:725406](https://inspirehep.net/literature/725406))
 
 * [[Ron Donagi]], [[Katrin Wendland]], _On orbifolds and free fermion constructions_, J. Geom. Phys. 59:942-968, 2009 ([arXiv:0809.0330](https://arxiv.org/abs/0809.0330))
 
