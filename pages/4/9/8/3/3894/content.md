@@ -535,6 +535,14 @@ Discussion with an eye towards [[torsion constraints in supergravity]] is in
 
 * {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
+Discussion of G-structures more generally on [[orbifolds]]:
+
+* A. V. Bagaev, N. I. Zhukova, _The Automorphism Groups of Finite Type $G$-Structures on Orbifolds_, Siberian Mathematical Journal 44, 213–224 (2003) ([doi:10.1023/A:1022920417785](https://doi.org/10.1023/A:1022920417785))
+
+* [[Robert Wolak]], _Orbifolds, geometric structures and foliations. Applications to harmonic maps_, Rendiconti del seminario matematico - Universita politecnico di Torino vol. 73/1 , 3-4 (2016), 173-187 ([arXiv:1605.04190](https://arxiv.org/abs/1605.04190))
+
+
+
 ### In supergeometry
 
 Discussion of $G$-structures in [[supergeometry]] includes
