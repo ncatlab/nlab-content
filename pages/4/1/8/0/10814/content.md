@@ -202,6 +202,9 @@ Para-Hermitian formalism further developed and generalized in
 * {#Svoboda} David Svoboda, _Algebroid structures on para-Hermitian manifolds_ Journal of Mathematical Physics 59, 122302 (2018)  ([arxiv:1802.08180](https://arxiv.org/abs/1802.08180))
 
 ### Formalization in higher geometry
+  {#ReferencesFormalizationInHigherGeometry}
+
+Discussion of [[double field theory]] using [[higher differential geometry]]:
 
 Discussion in the context of [[L-infinity algebra]] includes
 
@@ -216,3 +219,5 @@ Comprehensive discussion in [[higher differential geometry]]:
 * {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
 
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
+
+* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
