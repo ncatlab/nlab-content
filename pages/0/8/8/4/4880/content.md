@@ -18,3 +18,4 @@ Traditionally this is called simply a *2-equivalence*, with the word *biequivale
 [[!redirects strict 2-equivalences of 2-categories]]
 [[!redirects strict 2-equivalence of strict 2-categories]]
 [[!redirects strict 2-equivalences of strict 2-categories]]
+[[!redirects strict equivalence of 2-categories]]
