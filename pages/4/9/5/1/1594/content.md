@@ -87,6 +87,10 @@ It has been noticed that the topological invariants of the underlying topologica
 
   * [[flat orbifold]]
 
+* [[complex orbifold]]
+
+* [[symplectic orbifold]]
+
 * [[super-orbifold]]
 
 * [[discrete torsion]]
