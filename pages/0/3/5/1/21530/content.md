@@ -45,6 +45,8 @@ This is the approach taken in [AdemRuan 01, Def. 3.4](#AdemRuan01)
 
 ## References
 
+### General
+
 The definition of the K-theory of [[global quotient orbifolds]] as the [[equivariant K-theory]] of the universal covering space appears in
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
@@ -69,9 +71,39 @@ Review in:
 
 The claim that these two definitions are equivalent, in that this groupoid K-theory reduces to [[equivariant K-theory]] on [[global quotient orbifolds]], is [Freed-Hopkins-Teleman 07, Prop. 3.5](#FreedHopkinsTeleman07).
 
+
+Another definition of K-theory of orbifolds ("full orbifold K-theory") is due to
+
+* Tyler J. Jarvis, Ralph Kaufmann, Takashi Kimura, _Stringy K-theory and the Chern character_, Invent. math. 168, 23–81 (2007) ([arXiv:math/0502280](https://arxiv.org/abs/math/0502280), [doi:10.1007/s00222-006-0026-x](https://doi.org/10.1007/s00222-006-0026-x))
+
+proven there to coincide with [Adem-Ruan 01](#AdemRuan01) on global quotients.
+
+More on this in:
+
+* Rebecca Goldin, Megumi Harada, Tara S. Holm, Takashi Kimura, _The full orbifold K-theory of abelian symplectic quotients_, Journal of K-theory, Volume 8, Issue 2 (2011) pp. 339-362 ([arXiv:0812.4964](https://arxiv.org/abs/0812.4964), [doi:10.1017/is010005021jkt118](https://doi.org/10.1017/is010005021jkt118))
+
+
+
+
+
+### Via global equivariant homotopy theory
+
 The suggestion ([Schwede 17, Intro](orbifold+cohomology#Schwede17), [Schwede 18, p. ix-x](orbifold+cohomology#Schwede18)) that [[orbifolds]] should be regarded as [[orbispaces]] in [[global equivariant homotopy theory]] and then their [[orbifold cohomology]] be given by [[equivariant cohomology]] with [[coefficients]] in [[global equivariant spectra]] is worked out for ([[Bredon cohomology]] and) [[orbifold K-theory]] in:
 
 * Branko Juran, _Orbifolds, Orbispaces and Global Homotopy Theory_ ([arXiv:2006.12374](https://arxiv.org/abs/2006.12374))
 
 Example 5.31 there shows that on [[global quotient orbifolds]] this is again equivalent to the previous definitions.
+
+
+### Stringy product
+
+* [[Alejandro Adem]], [[Yongbin Ruan]], Bin Zhang, _A Stringy Product on Twisted Orbifold K-theory_, Morfismos (10th Anniversary Issue), Vol. 11, No 2 (2007), 33-64.  ([arXiv:math/0605534](https://arxiv.org/abs/math/0605534), [Morfismos pdf](www.morfismos.cinvestav.mx/Portals/morfismos/SiteDocs/Articulos/Volumen11/No2/Zhang/arz.pdf))
+
+* Edward Becerra, [[Bernardo Uribe]], _Stringy product on twisted orbifold K-theory for abelian quotients_, Trans. Amer. Math. Soc. 361 (2009), 5781-5803  ([arXiv:0706.3229](https://arxiv.org/abs/0706.3229), [doi:10.1090/S0002-9947-09-04760-6](https://doi.org/10.1090/S0002-9947-09-04760-6))
+
+* Tyler J. Jarvis, Ralph Kaufmann, Takashi Kimura, _Stringy K-theory and the Chern character_ ([arXiv:math/0502280](https://arxiv.org/abs/math/0502280))
+
+* Jianxun Hu, [[Bai-Ling Wang]], _Delocalized Chern character for stringy orbifold K-theory_, Trans. Amer. Math. Soc. 365 (2013), 6309-6341  ([arXiv:1110.0953](https://arxiv.org/abs/1110.0953), [doi:10.1090/S0002-9947-2013-05834-5](https://doi.org/10.1090/S0002-9947-2013-05834-5))
+
+
 
