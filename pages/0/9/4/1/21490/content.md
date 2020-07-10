@@ -25,6 +25,11 @@ On [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]
 
 * {#ParkUranga98} [[Jaemo Park]], [[Angel Uranga]], _A Note on Superconformal $\mathcal{N}=2$ theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
 
+On [[super-orbifolds]] as [[target spaces]] in [[superstring theory]] (orbi-[[superspace]]):
+
+* [[Jaemo Park]], Soo-Jong Reym, _Supertwistor Orbifolds: Gauge Theory Amplitudes and Topological Strings_, JHEP 0412:017, 2004 ([arXiv:hep-th/0411123](https://arxiv.org/abs/hep-th/0411123))
+
+
 On the [[3d-3d correspondence]]:
 
 * [[Dongmin Gang]], Eunkyung Koh, Sangmin Lee, [[Jaemo Park]], _Superconformal Index and 3d-3d Correspondence for Mapping Cylinder/Torus_, JHEP01(2014)063 ([arXiv:1305.0937](https://arxiv.org/abs/1305.0937))
