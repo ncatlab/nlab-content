@@ -46,7 +46,7 @@ A __free $\mathbf{T}$-[[algebra|algebra over a monad]]__ (or free $\mathbf{T}$-m
 +-- {: .num_defn}
 ###### Definition
 
-The __Kleisli category__ $C_{\mathbf{T}}$ of the monad $\mathbf{T}$   the [[subcategory]] of the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$
+The __Kleisli category__ $C_{\mathbf{T}}$ of the monad $\mathbf{T}$ is the [[subcategory]] of the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$
 on the free $\mathbf{T}$-algebras.
 
 =--
