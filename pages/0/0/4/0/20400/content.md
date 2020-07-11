@@ -1,3 +1,4 @@
+[[!redirects prototype CLF]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,7 +21,7 @@
 
 ## Idea
 
-Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable type checking]]. "CLF" abbreviates "Computational Logical Framework". So far, it's just Matt Oliveri's unpublished plans and metatheory development, but information may appear here.
+Prototype CompLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable type checking]]. In this article, "CLF" and "CompLF" both abbreviate "Computational Logical Framework". Elsewhere, "CLF" is used to abbreviate "Concurrent Logical Framework", which is mostly unrelated. So far, CompLF is just Matt Oliveri's unpublished formal system and a formalized metatheory for it.
 
 ### Motive
 
