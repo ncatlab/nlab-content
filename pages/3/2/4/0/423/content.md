@@ -495,7 +495,7 @@ $$
 The open [[interval]] $(-1,1)$ is [[homeomorphic]] to all of the [[real line]]
 
 $$
-  (0,1) \underset{homeo}{\simeq} \mathbb{R}^1
+  (-1,1) \underset{homeo}{\simeq} \mathbb{R}^1
   \,.
 $$
 
