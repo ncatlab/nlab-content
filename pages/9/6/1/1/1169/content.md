@@ -74,7 +74,7 @@ Dually, so is the subcategory $R_-$ of any Reedy category considered as a catego
 
 One problem with the notion of Reedy category is that it is [[evil]]: it is not invariant under [[equivalence of categories]].  It's not hard to see that any Reedy category is necessarily [[skeletal category|skeletal]].  In fact, it's even worse: no Reedy category can have _any_ [[identity|nonidentity]] [[isomorphisms]]!  
 
-*Proof:* Take any isomorphism $f$, let $f = gh$ and $h f^{-1} = g' h'$ be the unique factorizations. Then $id = g h f^{-1} = (g g') h'$, so $h' = id$ and $g g' = id$, whence $g = id$ and $g' = id$ since $g, g' \in R_+$. Thus $f = h \in R_-$. The same argument applied to $f^{-1}$ shows that $f$ preserves the degree, hence $f = id$. $\qed$
+*Proof:* Take any isomorphism $f$, let $f = g h$ and $h f^{-1} = g' h'$ be the unique factorizations. Then $id = g h f^{-1} = (g g') h'$, so $h' = id$ and $g g' = id$, whence $g = id$ and $g' = id$ since $g, g' \in R_+$. Thus $f = h \in R_-$. The same argument applied to $f^{-1}$ shows that $f$ preserves the degree, hence $f = id$. $\qed$
 
 This is problematic for many $\Delta$-like categories such as the [[category of cycles]], Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.  The concept of 
 
