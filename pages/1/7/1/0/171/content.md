@@ -12,6 +12,6 @@ See also
 
 * Ronald Brown, [[Philip J. Higgins]], and [[Rafael Sivera]], _[[Nonabelian algebraic topology]]: filtered spaces, crossed complexes, cubical homotopy groupoids_, EMS Tracts in Mathematics Vol 15, (2011). 
 
-* [[Dimitri Ara ]]; [[Fran&#231;ois M&#233;tayer]],  The Brown-Golasi&#324;ski model structure on strict ∞-groupoids revisited. Homology Homotopy Appl. 13 (2011), no. 1, 121&#8211;142.
+* [[Dimitri Ara ]]; [[Francois Metayer|Fran&#231;ois M&#233;tayer]],  The Brown-Golasi&#324;ski model structure on strict ∞-groupoids revisited. Homology Homotopy Appl. 13 (2011), no. 1, 121&#8211;142.
 
-* [[George Maltsiniotis]] La cat&#233;gorie cubique avec connexions est une cat&#233;gorie test stricte. Homology, Homotopy Appl. (11)  (2) (2009) 309 -- 326.
+* [[Georges Maltsiniotis]] La cat&#233;gorie cubique avec connexions est une cat&#233;gorie test stricte. Homology, Homotopy Appl. (11)  (2) (2009) 309 -- 326.
