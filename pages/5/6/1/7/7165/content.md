@@ -71,6 +71,9 @@ The formalization of this in [[homotopy type theory]] is discussed in
 [[!redirects etale infinity-groupoid]]
 [[!redirects etale infinity-groupoids]]
 
+[[!redirects étale infinity-stack]]
+[[!redirects étale infinity-stacks]]
+
 [[!redirects etale infinity-stack]]
 [[!redirects etale infinity-stacks]]
 
