@@ -28,14 +28,14 @@ The existence of these model structures depends subtly on whether the chain comp
 ### In non-negative degree
 
 
-[[chain complex|Chain complexes]] in non-negative degree in an [[abelian category]] $A$ are special in that they may be identified via the [[Dold?Kan correspondence]] as [[simplicial object]]s in $A$.
+[[chain complex|Chain complexes]] in non-negative degree in an [[abelian category]] $A$ are special in that they may be identified via the [[Dold-Kan correspondence]] as [[simplicial object]]s in $A$.
 
 $$
   Ch_{\bullet \geq 0}(A) \simeq A^{\Delta^{op}}
   \,.
 $$
 
-Similarly, [[cochain complex]]s are identified with [[cosimplicial object]]s
+Similarly, [[cochain complex|cochain complexes]] are identified with [[cosimplicial object]]s
 
 $$
   Ch^{\bullet \geq 0}(A) \simeq A^{\Delta}
