@@ -130,24 +130,31 @@ $$
 
 ## References
 
-Original articles include
+Original articles:
 
-* [[André Haefliger]], _Groupo&#239;des d'holonomie et espaces classiants_ , Ast&#233;risque 116 (1984), 70-97
+* [[André Haefliger]], _Homotopy and integrability_,  In: N.H. Kuiper (ed.) _Manifolds_ — Amsterdam 1970. Lecture Notes in Mathematics, vol 197. Springer 1971 ([doi:10.1007/BFb0068615](https://doi.org/10.1007/BFb0068615))
 
-* [[Raoul Bott]], _Lectures on characteristic classes and foliations_ , Springer LNM 279, 1-94
+* [[André Haefliger]], _Groupo&#239;des d'holonomie et espaces classiants_ , Ast&#233;risque 116 (1984), 70-97 ([numdam:AST_1984__116__70_0](http://www.numdam.org/item/?id=AST_1984__116__70_0))
+
+* [[Raoul Bott]], _Lectures on characteristic classes and foliations_, Springer LNM 279, 1-94 ([doi:10.1007/BFb0058509](https://doi.org/10.1007/BFb0058509))
 
 A textbook account is in 
 
 * [[Ieke Moerdijk]], [[Janez Mrčun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
 
-Discussion in a broader context of [[étale stacks]] is in
-
-* {#Carchedi12} [[David Carchedi]], section 2.2, section 3 of _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
-
-
 See also
 
 * Wikipedia, _[Haefliger structure](http://en.wikipedia.org/wiki/Haefliger_structure)_
+
+
+Discussion in a broader context of [[étale stacks]] and [[étale ∞-stacks]]:
+
+* {#Carchedi12} [[David Carchedi]], section 2.2, section 3 of: _&#201;tale Stacks as Prolongations_, Advances in Mathematics Volume 352, 20 August 2019, Pages 56-132 ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+
+* [[David Carchedi]], p. 104-105 of: _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity-Topoi_, Memoirs of the American Mathematical Society 2020; 120 ([arXiv:1312.2204](https://arxiv.org/abs/1312.2204), [ISBN:978-1-4704-5810-2](https://bookstore.ams.org/memo-264-1282))
+
+* {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_, Advances of Mathematics, Volume 294, 2016, Pages 756-818 ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
+
 
 Discussion of [[jet groupoids]] includes
 
@@ -157,6 +164,8 @@ and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.
 The [[geometric realization]]/[[shape modality]] for Haefliger-type groupoids is discussed in
 
 * {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_ ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
+
+
 
 
 [[!redirects Haefliger groupoids]]
