@@ -18,6 +18,16 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Given a small category $C$ of "primitive objects", we can think of a functor $F \;\colon\; C^{op} \to Set$ as being a more complex object built out of primitive objects:
+
+ * Given a primitive object $X$ in $C$, we interpret $F(X)$ as a set representing the ways $X$ occurs inside $F$
+
+ * Given a morphism $f \;\colon\; X \to Y$ in $C$, we interpret $F(f) : F(Y) \to F(X)$ as the function mapping each occurrence $y$ of $Y$ in $F$ to the corresponding suboccurrence $x$ (included in $y$ through $f$) of $X$ in $F$
+
+Such functors are called presheaves.
+
 ## Definition
 
 A **presheaf** on a [[small category]] $C$ is a [[functor]]
