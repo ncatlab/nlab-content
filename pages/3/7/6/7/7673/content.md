@@ -511,6 +511,13 @@ Recent work on abstract definitions of (models of) type theory include:
 
 * Taichi Uemura, _A General Framework for the Semantics of Type Theory_ [arXiv](https://arxiv.org/abs/1904.04097)
 
+A category with families structure is constructed on the $(2,1)$-category of all locally cartesian closed categories, which since locally presentable may be treated via model categories, in:
+
+* Martin Bidlingmaier, _An interpretation of dependent type theory in a model category of locally cartesian closed categories_, ([arXiv:2007.02900](https://arxiv.org/abs/2007.02900))
+
+ 
+
+
 
 [[!redirects categorical model of dependent types]]
 [[!redirects categorical models of dependent types]]
