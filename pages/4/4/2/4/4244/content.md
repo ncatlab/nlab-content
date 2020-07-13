@@ -46,6 +46,12 @@ Beware that there are slighlty different (and inequivalent) definitions in use. 
 
 ## Properties
 
+### In terms of $G$-structure
+
+Calabi-Yau structure is equivalently [[integrability of G-structure|integrable]] [[G-structure]] for $G = $ [[SU(n)]].
+
+(e.g. [Vezzoni 06, p. 24](#Vezzoni06))
+
 ### Artin-Mazur formal group
 
 Over an [[algebraically closed field]] of [[positive number|positive]] [[characteristic]] an $n$-dimensional Calabi-Yau variety $X$ has an [[Artin-Mazur formal group]] $\Phi^n_X$ which gives the [[deformation theory]] of the trivial [[line n-bundle]] over $X$.
@@ -83,6 +89,10 @@ The original articles are
 Surveys and reviews include
 
 * Scholarpedia, _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_
+
+In terms of [[G-structure]]:
+
+* {#Vezzoni06} Luigi Vezzoni, _The geometry of some special $SU(n)$-structure_, 2006 ([pdf](https://core.ac.uk/download/pdf/14699671.pdf), [[VezzoniSUnStructure.pdf:file]])
 
 Discussion of the case of [[positive number|positive]] [[characteristic]] includes
 
