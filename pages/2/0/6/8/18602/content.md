@@ -169,6 +169,10 @@ Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#
 
 * Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
 
+* Da Huang, António P. Morais, Rui Santos, _Anomalies in $B$ Decays and Muon $g-2$ from Dark Loops_ ([arXiv:2007.05082](https://arxiv.org/abs/2007.05082))
+
+
+
 ### QED contributions
 
 The computation of the anomalous magnetic dipole moment of the [[electron]] in [[QED]] is spelled out (via [[causal perturbation theory]]) in 
