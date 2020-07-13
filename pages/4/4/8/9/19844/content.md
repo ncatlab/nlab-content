@@ -565,6 +565,24 @@ Discussion of possible $b \to d$ anomalies:
 
 * Aleksey V. Rusov, _Probing New Physics in $b \to d$ Transitions_ ([arXiv:1911.12819](https://arxiv.org/abs/1911.12819))
 
+
+### Relation to $(g-2)$-anomalies
+
+Beyond their possible common origin in [[leptoquarks]], further possible joint explanation of [[flavour anomalies]] and the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
+
+* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
+
+* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
+
+* Lorenzo Calibbi, M.L. López-Ibáñez, Aurora Melis, Oscar Vives, _Muon and electron $g-2$ and lepton masses in flavor models_ ([arXiv:2003.06633](https://arxiv.org/abs/2003.06633))
+
+* A. S. de Jesus, S. Kovalenko, F. S. Queiroz, K. Sinha, C. Siqueira, _Vector-Like Leptons and Inert Scalar Triplet: Lepton Flavor Violation, $g-2$ and Collider Searches_ ([arXiv:2004.01200](https://arxiv.org/abs/2004.01200))
+
+* Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
+
+
+
+
 ### Possible explanations/models
 
 #### General EFT parameterization
@@ -764,20 +782,22 @@ explanations via assumption of [[Z'-bosons]]:
 
 * [[Wolfgang Altmannshofer]], Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
 
-#### Relation to $(g-2)$-anomalies
 
-Beyond their possible common origin in [[leptoquarks]], further possible joint explanation of [[flavour anomalies]] and the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
+#### Dark matter
+ {#ReferencesDarkMatter}
 
-* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
 
-* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
+Possible joint explanation of the [[flavour anomalies]] and [[dark matter]]:
 
-* Lorenzo Calibbi, M.L. López-Ibáñez, Aurora Melis, Oscar Vives, _Muon and electron $g-2$ and lepton masses in flavor models_ ([arXiv:2003.06633](https://arxiv.org/abs/2003.06633))
+* Basabendu Barman, Debasish Borah, Lopamudra Mukherjee, Soumitra Nandi, _Correlating the anomalous results in $b \to s$ decays with inert Higgs doublet dark matter and muon $(g-2)$_, Phys. Rev. D 100, 115010 (2019) ([arXiv:1808.06639](https://arxiv.org/abs/1808.06639))
 
-* A. S. de Jesus, S. Kovalenko, F. S. Queiroz, K. Sinha, C. Siqueira, _Vector-Like Leptons and Inert Scalar Triplet: Lepton Flavor Violation, $g-2$ and Collider Searches_ ([arXiv:2004.01200](https://arxiv.org/abs/2004.01200))
+* {#Baek19} Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_ ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
 
-* Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
+* {#CCMRM19} D.G. Cerdeno, A. Cheek, P. Martin-Ramiro, J.M. Moreno, _B anomalies and dark matter: a complex connection_ ([arXiv:1902.01789](https://arxiv.org/abs/1902.01789))
 
+* {#BiswasShaw19} Anirban Biswas, Avirup Shaw, _Reconciling dark matter, $R_{K^{(\ast)}}$ anomalies and $(g-2)_\mu$ in an $L_\mu-L_\tau$ scenario_ ([arXiv:1903.08745](https://arxiv.org/abs/1903.08745))
+
+* Da Huang, António P. Morais, Rui Santos, _Anomalies in $B$ Decays and Muon $g-2$ from Dark Loops_ ([arXiv:2007.05082](https://arxiv.org/abs/2007.05082))
 
 
 #### Other
@@ -792,15 +812,6 @@ Other possible explanations of the flavour anomalies:
 
 
 * Peter Stangl, _Flavour anomalies and (fundamental) partial compositeness_ ([arXiv:1907.05158](https://arxiv.org/abs/1907.05158))
-
-
-[[dark matter]]:
-
-* {#Baek19} Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_ ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
-
-* {#CCMRM19} D.G. Cerdeno, A. Cheek, P. Martin-Ramiro, J.M. Moreno, _B anomalies and dark matter: a complex connection_ ([arXiv:1902.01789](https://arxiv.org/abs/1902.01789))
-
-* {#BiswasShaw19} Anirban Biswas, Avirup Shaw, _Reconciling dark matter, $R_{K^{(\ast)}}$ anomalies and $(g-2)_\mu$ in an $L_\mu-L_\tau$ scenario_ ([arXiv:1903.08745](https://arxiv.org/abs/1903.08745))
 
 [[right-handed neutrino]]:
 
