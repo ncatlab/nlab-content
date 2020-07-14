@@ -22,6 +22,8 @@ The existence of the $Z'$ has been proposed as one possible explanation of the a
 
 ## References
 
+### General
+
 * Paul Langacker, _The Physics of Heavy $Z'$ Gauge Bosons_, Rev.Mod.Phys.81:1199-1228, 2009 ([arXiv:0801.1345](https://arxiv.org/abs/0801.1345))
 
 * [The Review of Particle Physics 2017](http://pdg.lbl.gov/2017/), _59. $Z'$-boson searches_ ([pdf](http://pdg.lbl.gov/2017/reviews/rpp2017-rev-zprime-searches.pdf))
@@ -38,6 +40,8 @@ As arising in [[GUTs]]:
 
 * {#Sahoo06} S. Sahoo, _The prediction of mass of $Z'$-boson in an $SO(10)$-based model_, Indian J. Phys. 80 (2), 191-194 (2006) ([pdf](http://arxiv.iacs.res.in:8080/jspui/bitstream/10821/6019/1/The%20Prediction%20of%20Mass%20of%20Z%27-Boson_By%20S%20Sahoo.pdf))
 
+### In relation to flavour anomalies
+
 As a possible solution to the [[flavour anomalies]]:
 
 * {#GauldGoertzHaisch13} Rhorry Gauld, Florian Goertz, Ulrich Haisch, _An explicit Z'-boson explanation of the $B \to K^\ast \mu^+ \mu^-$ anomaly_, JHEP01(2014)069 ([arXiv:1310.1082](https://arxiv.org/abs/1310.1082))
@@ -53,6 +57,13 @@ As a possible solution to the [[flavour anomalies]]:
 
 
 * [[Wolfgang Altmannshofer]], Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
+
+Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
+
+* Miguel Crispim Romao, Stephen F. King, George K. Leontaris, _Non-universal $Z'$ from Fluxed GUTs_, Physics Letters B Volume 782, 10 July 2018, Pages 353-361 ([arXiv:1710.02349](https://arxiv.org/abs/1710.02349))
+
+* A. Karozas, G. K. Leontaris, I. Tavellaris, N. D. Vlachos, _On the LHC signatures of $SU(5) \times U(1)'$ F-theory motivated models_ ([arXiv:2007.05936](https://arxiv.org/abs/2007.05936))
+
 
 
 
