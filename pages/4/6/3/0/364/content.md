@@ -8,15 +8,18 @@ An introductory [[category theory]] textbook for beginning graduate students or 
 
 * [[Emily Riehl]], _[[Category Theory in Context]]_
 
+A textbook on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory:
+
+* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+
 
 On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]]:
 
 * [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
 
+On [[(∞,1)-functors]] and [[(∞,1)-monads]]:
 
-A textbook on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory:
-
-* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
 
 On the [[Yoneda lemma for (∞,1)-categories]]:
 
