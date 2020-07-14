@@ -515,11 +515,18 @@ The concept in differential geometry originates around the work of [[Eli Cartan]
 
 * [[Shiing-Shen Chern]], _The geometry of G-structures_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219. 1966 ([pdf](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf), [Euclid](http://projecteuclid.org/euclid.bams/1183527777))
 
-Textbook accounts include
+Textbook accounts:
 
-* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of _Lectures on differential geometry_, Prentice-Hall (1964)
+* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of: _Lectures on differential geometry_, Prentice-Hall (1964), 2nd edition AMS 1983 ([ISBN:978-0-8218-1385-0](https://bookstore.ams.org/chel-316))
 
 * [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_ , Volume 1 (1963), Volume 2 (1969), Interscience Publishers, reprinted 1996 by Wiley Classics Library
+
+Lecture notes:
+
+* [[Marius Crainic]], Chapters 3 and 4 of: _[Differential geometry course](https://webspace.science.uu.nl/~crain101/DG-2015/)_, 2015 ([pdf](https://webspace.science.uu.nl/~crain101/DG-2015/main10.pdf), [[CrainicDifferentialGeometry15.pdf:file]])
+
+* {#Pasquotto} [[Federica Pasquotto]], _Linear $G$-structures by examples_ ([pdf](http://www.few.vu.nl/~pasquott/course16.pdf), [[PasquottoGStructures.pdf:file]])
+
 
 Surveys include
 
