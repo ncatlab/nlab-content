@@ -222,6 +222,14 @@ Generalized complex geometry and variants of [[exceptional generalized complex g
 
 * David Andriot, [[Ruben Minasian]], Michela Petrini, _Flux backgrounds from twists_,  J. High Energy Phys. 2009, no. 12, 028 [arXiv:0903.0633](http://arxiv.org/abs/0903.0633) [MR2011c:81201](http://www.ams.org/mathscinet-getitem?mr=2593014) [doi](http://dx.doi.org/10.1088/1126-6708/2009/12/028)
 
+[[!redirects generalized complex geometries]]
+
+[[!redirects generalised complex geometry]]
+[[!redirects generalised complex geometries]]
 
 [[!redirects generalized complex structure]]
 [[!redirects generalized complex structures]]
+
+
+
+
