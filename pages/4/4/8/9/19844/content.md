@@ -800,6 +800,15 @@ Possible joint explanation of the [[flavour anomalies]] and [[dark matter]]:
 * Da Huang, António P. Morais, Rui Santos, _Anomalies in $B$ Decays and Muon $g-2$ from Dark Loops_ ([arXiv:2007.05082](https://arxiv.org/abs/2007.05082))
 
 
+#### F-theory
+ {#ReferencesFTheory}
+
+Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
+
+* Miguel Crispim Romao, Stephen F. King, George K. Leontaris, _Non-universal $Z'$ from Fluxed GUTs_, Physics Letters B Volume 782, 10 July 2018, Pages 353-361 ([arXiv:1710.02349](https://arxiv.org/abs/1710.02349))
+
+* A. Karozas, G. K. Leontaris, I. Tavellaris, N. D. Vlachos, _On the LHC signatures of $SU(5) \times U(1)'$ F-theory motivated models_ ([arXiv:2007.05936](https://arxiv.org/abs/2007.05936))
+
 #### Other
 
 Other possible explanations of the flavour anomalies:
