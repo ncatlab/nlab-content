@@ -4,6 +4,11 @@ My webpage can be found [here](http://www.math.jhu.edu/~eriehl/).
 
 ## Selected writings
 
+On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]]:
+
+* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
+
+
 A textbook on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory:
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
