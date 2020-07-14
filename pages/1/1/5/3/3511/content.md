@@ -176,6 +176,8 @@ $$
 
 * **$(\infty,1)$Cat**, [[(∞,1)Operad]]
 
+  * [[homotopy 2-category of (∞,1)-categories]]
+
 * [[(∞,n)Cat]]
 
 * [[(infinity, 1)Prof]]
