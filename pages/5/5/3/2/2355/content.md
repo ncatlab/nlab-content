@@ -519,22 +519,22 @@ A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{
 
 ## References
 
-Section 5.2 in 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
- {#Lurie}
+
+* {#Lurie} [[Jacob Lurie]], Section 5.2 in: _[[Higher Topos Theory]]_ 
+ 
 
 A study of adjoint functors between [[quasi-categories]] is given in
 
-* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_ ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144)), 
+* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
 
-and further discussion, including also that of [[(infinity,1)-monads]] is in 
+and further discussion, including also that of [[(∞,1)-monads]] is in 
 
 * {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
 
 A textbook development in the context of [[infinity-cosmoi]] can be found in
 
-* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-category theory_, [pdf](http://www.math.jhu.edu/~eriehl/elements.pdf)
+* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-category theory_, ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
 
 The proof that a [[Quillen adjunction]] of [[model categories]] induces an adjunction of [[(∞,1)-categories]] is recorded in
 
