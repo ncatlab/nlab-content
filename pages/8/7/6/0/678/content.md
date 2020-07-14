@@ -67,7 +67,7 @@ $$
 ######Proof
 See for instance [remark 2.1, p. 6](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)
 
-* Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+* [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 136 Issue 1, 2004 ([arXiv:math/0205027](https://arxiv.org/abs/math/0205027), [K-theory:0563](http://www.math.uiuc.edu/K-theory/0563), [doi:10.1017/S0305004103007175](https://doi.org/10.1017/S0305004103007175)) 
 
 (which is otherwise about [[descent for simplicial presheaves]]).
 =--
