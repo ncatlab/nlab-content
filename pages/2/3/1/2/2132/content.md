@@ -328,11 +328,11 @@ $$
 ### In terms of $G$-Structure
  {#InTermsOfGStructure}
 
-A K&#228;hler manifold is a [[integrability of G-structure|first-order integrable]] [[almost Hermitian structure]], hence a first order integrable [[G-structure]] for $G = U(n) \hookrightarrow GL(2n,\mathbb{R})$ the [[unitary group]] (e.g. [Verbitsky 09](#Verbitsky09)).
+A K&#228;hler manifold is a [[integrability of G-structure|first-order integrable]] [[almost Hermitian structure]], hence a first order integrable [[G-structure]] for $G = U(n) \hookrightarrow GL(2n,\mathbb{R})$ the [[unitary group]].
 
 By the fact (see at _[unitary group -- relation to orthogonal, symplectic and general linear group](unitary+group#RelationToOrthogonalSymplecticAndGeneralLinearGroup)_) that $U(n) \simeq O(2n) \underset{GL(2n,\mathbb{R})}{\times} Sp(2n,\mathbb{R}) \underset{GL(2n,\mathbb{R})}{\times} GL(n,\mathbb{C})$ this means that a K&#228;hler manifold structure is precisely a joint [[orthogonal structure]]/[[Riemannian manifold]] structure, [[symplectic manifold]] structure and [[complex manifold]] structure.
 
-
+(e.g. [Moroianu 07, 11.1](#Moroianu07), [Verbitsky 09](#Verbitsky09))
 
 ## Examples
  {#Examples}
@@ -694,11 +694,13 @@ Textbook accounts include
 
 Lecture notes include
 
-* Andrei Moroianu, _Lectures on K&#228;hler Geometry_ (<a href="http://www.math.polytechnique.fr/~moroianu/tex/kg.pdf">pdf</a>)
+* {#Moroianu07} [[Andrei Moroianu]], _Lectures on K&#228;hler Geometry_, Cambridge University Press 2007 ([arXiv:math/0402223](https://arxiv.org/abs/math/0402223) [doi:10.1017/CBO9780511618666](https://doi.org/10.1017/CBO9780511618666), [pdf](https://moroianu.perso.math.cnrs.fr/tex/kg.pdf))
 
 * {#Boalch09} Philip Boalch, _Noncompact complex symplectic and hyperkähler manifolds_, 2009 ([pdf](https://www.math.u-psud.fr/~boalch/cours09/hk.pdf))
 
 Discussion in terms of [[integrability of G-structure|first-order integrable]] [[G-structure]] include
+
+* [Moroianu 07, 11.1](#Moroianu07)
 
 * {#Verbitsky09} Misha Verbitsky, _K&#228;hler manifolds_, lecture notes 2009 ([pdf](http://verbit.ru/MATH/TALKS/Unicamp-kahler-1.pdf))
 
