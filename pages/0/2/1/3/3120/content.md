@@ -105,15 +105,14 @@ later absorbed as
 
 * [[Jacob Lurie]], section 6.2 of _[[Higher Algebra]]_
 
-More explict discussion in terms of [[quasi-categories]] and [[simplicial sets]] is in 
+More explict discussion in terms of [[quasi-categories]] and [[simplicial sets]]:
 
-* [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
- {#RiehlVerity13}
+* {#RiehlVerity13} {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
 
 Some homotopy theory of ([[enriched functor|enriched]]) monads on ([[simplicial model category|simplicial]]) [[model categories]] is discussed (with an eye towards [[higher monadic descent]]) in 
 
-* [[Kathryn Hess]], _A general framework for homotopic descent and codescent_, [arXiv/1001.1556](http://arxiv.org/abs/1001.1556)
- {#Hess10}
+* {#Hess10} [[Kathryn Hess]], _A general framework for homotopic descent and codescent_ ([arXiv/1001.1556](http://arxiv.org/abs/1001.1556))
+ 
 
 
 
