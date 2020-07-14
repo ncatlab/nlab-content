@@ -20,9 +20,9 @@
 
 ## Idea
 
-An $\infty$-**cosmos** is a "good place in which to do [[higher category theory]],"  for [[(infinity,1)-categories]], [[1-categories]], [[(infinity,n)-categories]], or [[fibered category]] versions of any of the above.
+An $\infty$-**cosmos** is a "good place in which to do [[higher category theory]],"  for [[1-categories]], [[(∞,1)-categories]] , [[(∞,n)-categories]], or [[fibered category]]-versions of any of the above.
 
-The word is chosen by analogy with [[cosmos]] which can be regarded as "a good place to do (ordinary) category theory." The notion is more similar to Street's "fibrational cosmoi" than to B&#233;nabou's cosmoi.
+The word is chosen by analogy with the notion of _[[cosmos]]_ in [[enriched category theory]], which is similarly "a good place to do (ordinary) category theory." The notion is more similar to Street's "fibrational cosmoi" than to B&#233;nabou's cosmoi.
 
 ## A source of examples
 
@@ -66,4 +66,7 @@ For a simplified notion with "all objects cofibrant"
 A book in progress, regularly being updated
 
 * [[Emily Riehl]] and [[Dominic Verity]], _Elements of $\infty$-Category Theory_, (2020) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+
+
+[[!redirects infinity-cosmoi]]
 
