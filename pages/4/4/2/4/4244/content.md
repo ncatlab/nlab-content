@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,7 +51,8 @@ Beware that there are slightly different (and inequivalent) definitions in use. 
 
 Calabi-Yau structure is equivalently [[integrability of G-structure|integrable]] [[G-structure]] for $G = $ [[SU(n)]].
 
-(e.g. [Vezzoni 06, p. 24](#Vezzoni06))
+Details are in [Prins 16, Prop. 1.3.2](#Prins16). 
+See also [Vezzoni 06, p. 24](#Vezzoni06).
 
 ### Artin-Mazur formal group
 
@@ -94,6 +96,8 @@ In terms of [[G-structure]]:
 
 * {#Vezzoni06} Luigi Vezzoni, _The geometry of some special $SU(n)$-structure_, 2006 ([pdf](https://core.ac.uk/download/pdf/14699671.pdf), [[VezzoniSUnStructure.pdf:file]])
 
+* {#Prins16} [[Daniël Prins]], Section 1.3 of: _On flux vacua, $SU(n)$-structures and generalised complex geometry_, Université Claude Bernard -- Lyon I, 2015.  ([arXiv:1602.05415](https://arxiv.org/abs/1602.05415), [tel:01280717](https://tel.archives-ouvertes.fr/tel-01280717))
+
 Discussion of the case of [[positive number|positive]] [[characteristic]] includes
 
 * {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_ ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
@@ -120,6 +124,9 @@ Discussion of CYs in [[positive characteristic]] includes
 [[!redirects Calabi-Yau]]
 [[!redirects Calabi–Yau]]
 [[!redirects Calabi--Yau]]
+
+[[!redirects Calabi-Yau structure]]
+[[!redirects Calabi-Yau structures]]
 
 [[!redirects Calabi-Yau space]]
 [[!redirects Calabi-Yau spaces]]
