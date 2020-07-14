@@ -195,6 +195,8 @@ Chasing the element $1_{R(d)}$ down and then across, we get $f: c \to R(d)$ and 
 
 ## Related concepts
 
+* [[adjoint functor]], [[adjoint (∞,1)-functor]]
+
 * [[left adjoint]], [[right adjoint]]
 
 * [[duality]]
