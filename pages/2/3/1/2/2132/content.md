@@ -717,6 +717,8 @@ Discussion of [[Kähler orbifolds]]:
 
 * Thalia D. Jeffres, _Singular Set of Some Kähler Orbifolds_, Transactions of the American Mathematical Society Vol. 349, No. 5 (May, 1997), pp. 1961-1971 ([jstor:2155355 ](https://www.jstor.org/stable/2155355 ))
 
+* Akira Fujiki, _On primitively symplectic compact Kähler V-manifolds_, in:  [[Kenji Ueno]] (ed.), _Classification of Algebraic and Analytic Manifolds: Katata Symposium Proceedings 1982_, Birkhäuser 1983 (ISBN:9780817631376)
+
 * [[Dominic Joyce]], Section 6.5.1 of: _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000) ([ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=de&lang=en&))
 
 
