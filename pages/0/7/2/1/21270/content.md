@@ -208,7 +208,7 @@ In the following paper it is shown that a [[S-duality]] on a gauge field corresp
 
 The following paper is a proposal of extension of [[classical double copy]] to [[double field theory]]:
 
-* Kanghoon Le, _Kerr-Schild Double Field Theory and Classical Double Copy_ ([arXiv:1807.08443](https://arxiv.org/abs/1807.08443))
+* Kanghoon Lee, _Kerr-Schild Double Field Theory and Classical Double Copy_ ([arXiv:1807.08443](https://arxiv.org/abs/1807.08443))
 
 See also:
 
