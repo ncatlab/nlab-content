@@ -83,9 +83,9 @@ $$
 
 This exhibits that $f_{0} \sim f_{2}$, as required. 
 
-With this equivalence relation $\sim$ to hand, we can give our explicit description of the arrows of pro-$\mathcal{C}$: an arrow of pro-$\mathcal{C}$ from a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ to a pro-object $G: \mathcal{E} \rightarrow \mathcal{C}$ can be taken to be a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, $G(g) \circ f_{e} \sim G(g) \circ f_{e'}$. 
+With this equivalence relation $\sim$ to hand, we can give our explicit description of the arrows of pro-$\mathcal{C}$: an arrow of pro-$\mathcal{C}$ from a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ to a pro-object $G: \mathcal{E} \rightarrow \mathcal{C}$ can be taken to be a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, $G(g) \circ f_{e} \sim f_{e'}$. 
 
-In other words: a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, there is an object $d$ of $\mathcal{D}$, an arrow $g_{e} : d \rightarrow d_{e}$ of $\mathcal{D}$, and an arrow $g_{e'}: d \rightarrow d_{e'}$ of $\mathcal{D}$ such that $G(g) \circ f_{e} \circ F(g_{e}) = G(g) \circ f_{e'} \circ F(g_{e'})$.
+In other words: a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, there is an object $d$ of $\mathcal{D}$, an arrow $g_{e} : d \rightarrow d_{e}$ of $\mathcal{D}$, and an arrow $g_{e'}: d \rightarrow d_{e'}$ of $\mathcal{D}$ such that $G(g) \circ f_{e} \circ F(g_{e}) = \circ f_{e'} \circ F(g_{e'})$.
 
 Two such sets $\left\{ f_{e} \right\}_{e \in Ob(\mathcal{E})}$ and $\left\{ f'_{e} \right\}_{e \in Ob(\mathcal{E})}$ are equal, i.e. define the same arrow from $F$ to $G$, if $f_{e} \sim f'_{e}$ for every object $e$ of $\mathcal{E}$.
 
