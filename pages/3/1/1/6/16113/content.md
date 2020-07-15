@@ -3,9 +3,23 @@
 
 ## Selected writings
 
+On the construction of [[G2-manifolds]]:
+
+* [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
+
+On [[special holonomy]] and [[G-structure]]:
+
+* [[Robert Bryant]], _Metrics with Exceptional Holonomy_, Annals of Mathematics Second Series, Vol. 126, No. 3 (Nov., 1987), pp. 525-576 ([jstor:1971360](https://www.jstor.org/stable/1971360))
+
+On [[G2-manifolds]] via [[G-structure]]:
+
+* {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, [Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005](http://gokovagt.org/proceedings/2005), pp. 75-109 ([arXiv:math/0305124](https://arxiv.org/abs/math/0305124), [webpage](http://gokovagt.org/proceedings/2005/bryant.html), [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf))
+
+On [[Spin(8)]]
+
 * [[Robert Bryant]], _Remarks on Spinors in Low Dimension_ ([pdf](https://services.math.duke.edu/~bryant/Spinors.pdf), [[BryantRemarksOnSpinorsInLowDimension.pdf:file]])
 
-  (on [[Spin(8)]])
+
 
 
 category: people
