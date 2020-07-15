@@ -10,6 +10,11 @@ Warning: distinguish from mathematician David Joyce who worked on knot theory an
 
 ## Selected writings
 
+On [[Calabi-Yau orbifolds]]:
+
+* [[Dominic Joyce]], _Deforming Calabi-Yau orbifolds_, Asian Journal of Mathematics 3.4 (1999): 853-868 ([pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/ajm/1999/0003/0004/AJM-1999-0003-0004-a007.pdf))
+
+
 Construction of [[compact topological space|compact]] [[G2-manifolds]]:
 
 * {#Joyce96}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2, 1996 ([Euclid:jdg/1214458109](https://projecteuclid.org/euclid.jdg/1214458109))
