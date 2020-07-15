@@ -714,7 +714,11 @@ Discussion of [[Hodge theory]] on K&#228;hler manifolds is in
 
 Discussion of [[Kähler orbifolds]]:
 
+
 * Thalia D. Jeffres, _Singular Set of Some Kähler Orbifolds_, Transactions of the American Mathematical Society Vol. 349, No. 5 (May, 1997), pp. 1961-1971 ([jstor:2155355 ](https://www.jstor.org/stable/2155355 ))
+
+* [[Dominic Joyce]], Section 6.5.1 of: _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000) ([ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=de&lang=en&))
+
 
 * Miguel Abreu, _Kähler Metrics on Toric Orbifolds_, J. Differential Geom. Volume 58, Number 1 (2001), 151-187 ([euclid:jdg/1090348285](https://projecteuclid.org/euclid.jdg/1090348285))
 
