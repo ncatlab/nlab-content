@@ -17,7 +17,7 @@ Physics in the 21st Century (Kontsevich Festschrift), Birkhäuser, Progress in M
 __324__ (2017), 99–129
 * D. Kaledin, A. Konovalov, K. Salmagambetov, _Spectral algebras and non-commutative Hodge-to-de Rham degeneration_, [arxiv/1906.09518](https://arxiv.org/abs/1906.09518)
 
-* Book: Dmitri Kaledin, Misha Verbitsky, _Hyperkahler manifolds_
+* [[Dmitri Kaledin]], [[Misha Verbitsky]], _Hyperkahler manifolds_
 2000; International Press of Boston
 
 
