@@ -708,10 +708,18 @@ Discussion of [[spin structures]] in K&#228;hler manifolds is for instance in
 
 * {#Friedrich97} [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
  
-
 Discussion of [[Hodge theory]] on K&#228;hler manifolds is in 
 
 * {#BiquerdHoering08} O. Biquard, A. H&#246;ring, _K&#228;hler geometry and Hodge theory_, 2008 ([pdf](http://math.unice.fr/~hoering/hodge/hodge.pdf))
+
+Discussion of [[Kähler orbifolds]]:
+
+* Thalia D. Jeffres, _Singular Set of Some Kähler Orbifolds_, Transactions of the American Mathematical Society Vol. 349, No. 5 (May, 1997), pp. 1961-1971 ([jstor:2155355 ](https://www.jstor.org/stable/2155355 ))
+
+* Miguel Abreu, _Kähler Metrics on Toric Orbifolds_, J. Differential Geom. Volume 58, Number 1 (2001), 151-187 ([euclid:jdg/1090348285](https://projecteuclid.org/euclid.jdg/1090348285))
+
+* Giovanni Bazzoni, Indranil Biswas, Marisa Fernández, Vicente Muñoz, Aleksy Tralle, _Homotopic properties of Kähler orbifolds_, In: Chiossi S., Fino A., Musso E., Podestà F., Vezzoni L. (eds.) _Special Metrics and Group Actions in Geometry_ Springer INdAM Series, vol 23. Springer (2017) ([arXiv:1605.03024](https://arxiv.org/abs/1605.03024), [doi:10.1007/978-3-319-67519-0_2](https://doi.org/10.1007/978-3-319-67519-0_2))
+
 
 [[!redirects Kähler manifolds]]
 
@@ -726,7 +734,9 @@ Discussion of [[Hodge theory]] on K&#228;hler manifolds is in
 
 [[!redirects Kähler geometry]]
 
-[[!redirects Kähler manifold]]
+[[!redirects Kähler orbifold]]
+[[!redirects Kähler orbifolds]]
+
 
 [[!redirects Kähler structure]]
 [[!redirects Kähler structures]]
