@@ -107,7 +107,7 @@ Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
 * [[Dominic Joyce]], _A new construction of compact 8-manifolds with holonomy $Spin(7)$_, J. Differential Geom. Volume 53, Number 1 (1999), 89-130 ([euclid:jdg/1214425448](https://projecteuclid.org/euclid.jdg/1214425448))
 
 
-* [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
+* [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000) ([ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=de&lang=en&))
 
 In terms of [[G-structure]]:
 
