@@ -104,7 +104,12 @@ See also at _[[C-field tadpole cancellation]]_.
 
 * [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
-In terms of [[G-structure]] motivated from special [[supersymmetry]] (such as in [[M-theory on Spin(7)-manifolds]]):
+In terms of [[G-structure]]:
+
+* [[Robert Bryant]], _Metrics with Exceptional Holonomy_, Annals of Mathematics Second Series, Vol. 126, No. 3 (Nov., 1987), pp. 525-576 ([jstor:1971360](https://www.jstor.org/stable/1971360))
+
+
+and motivated from special [[supersymmetry]] (such as in [[M-theory on Spin(7)-manifolds]]):
 
 * {#IshamPope88} [[Chris Isham]], [[Christopher Pope]], _Nowhere Vanishing Spinors and Topological Obstructions to the Equivalence of the NSR and GS Superstrings_, Class. Quant. Grav. 5 (1988) 257 ([spire:251240](http://inspirehep.net/record/251240), [doi:10.1088/0264-9381/5/2/006](https://doi.org/10.1088/0264-9381/5/2/006))
 
