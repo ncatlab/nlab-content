@@ -95,6 +95,8 @@ and is further discussed in
 
 * {#ABDNZ18} A. Anastasiou, L. Borsten, M. J. Duff, S. Nagy, M. Zoccali, _BRST squared_ ([arXiv:1807.02486](https://arxiv.org/abs/1807.02486))
 
+* L. Borsten, _Gravity as the square of gauge theory: a review_, ([doi:10.1007/s40766-020-00003-6](https://doi.org/10.1007/s40766-020-00003-6))
+
 Discussion in terms of [[superstring scattering amplitudes]] is in
 
 * [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
