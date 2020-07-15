@@ -241,6 +241,9 @@ The generalization of the notion of symplectic manifolds to [[dg-manifolds]] is 
 
 * M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
 
+On [[symplectic orbifolds]]:
+
+* [[Misha Verbitsky]], _Holomorphic symplectic geometry and orbifold singularities_, Asian J. Math. 4 (2000), no. 3, 553-563 ([arXiv:math/9903175](https://arxiv.org/abs/math/9903175))
 
 [[!redirects symplectic manifolds]]
 [[!redirects symplectic form]]
@@ -249,5 +252,10 @@ The generalization of the notion of symplectic manifolds to [[dg-manifolds]] is 
 [[!redirects symplectic structure]]
 [[!redirects almost symplectic structure]]
 
+[[!redirects symplectic orbifold]]
+[[!redirects symplectic orbifolds]]
+
 [[!redirects symplectic structures]]
 [[!redirects almost symplectic structures]]
+
+
