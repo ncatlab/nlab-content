@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -106,7 +107,6 @@ Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
 
 * [[Dominic Joyce]], _A new construction of compact 8-manifolds with holonomy $Spin(7)$_, J. Differential Geom. Volume 53, Number 1 (1999), 89-130 ([euclid:jdg/1214425448](https://projecteuclid.org/euclid.jdg/1214425448))
 
-
 * [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000) ([ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=de&lang=en&))
 
 In terms of [[G-structure]]:
@@ -121,6 +121,10 @@ and motivated from special [[supersymmetry]] (such as in [[M-theory on Spin(7)-m
 * {#IshamPopeWarner88} [[Chris Isham]], [[Christopher Pope]], [[Nicholas Warner]], _Nowhere-vanishing spinors and triality rotations in 8-manifolds_,  Classical and Quantum Gravity, Volume 5, Number 10, 1988 ([cds:185144](http://cds.cern.ch/record/185144), [doi:10.1088/0264-9381/5/10/009](https://iopscience.iop.org/article/10.1088/0264-9381/5/10/009))
 
   (focus on [[Spin(7)-structure]])
+
+On [[Spin(7)-orbifolds]]:
+
+* Ya. V. Bazaikin, _On the new examples of complete noncompact Spin(7)-holonomy metrics_,  Sib Math J **48**, 8–25 (2007) ([doi:10.1007/s11202-007-0003-7](https://doi.org/10.1007/s11202-007-0003-7))
 
 ### Relation to Higgs bundles
 
@@ -140,6 +144,10 @@ Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]
 
 [[!redirects Spin(7)-structure]]
 [[!redirects Spin(7)-structures]]
+
+[[!redirects Spin(7)-orbifold]]
+[[!redirects Spin(7)-orbifolds]]
+
 
 [[!redirects Spin(7) structure]]
 [[!redirects Spin(7) structures]]
