@@ -100,7 +100,12 @@ See also at _[[C-field tadpole cancellation]]_.
 
 ### General
 
+Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
+
 * Christine Taylor, _Compact Manifolds with Holonomy Spin(7)_ (1996) ([pdf](https://people.maths.ox.ac.uk/joyce/theses/TaylorMSc.pdf))
+
+* [[Dominic Joyce]], _A new construction of compact 8-manifolds with holonomy $Spin(7)$_, J. Differential Geom. Volume 53, Number 1 (1999), 89-130 ([euclid:jdg/1214425448](https://projecteuclid.org/euclid.jdg/1214425448))
+
 
 * [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
