@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[homotopy theory of homotopy theories]] (the [[(infinity,1)-category of (infinity,1)-categories]]):
+
+* {#Bergner07} [[Julia Bergner]], _Three models for the homotopy theory of homotopy theories_, Topology Volume 46, Issue 4, September 2007, Pages 397-436 ([arXiv:math/0504334](https://arxiv.org/abs/math/0504334), [doi:10.1016/j.top.2007.03.002](https://doi.org/10.1016/j.top.2007.03.002))
+
+
 On comparison of [[model categories]] of [[(∞,1)-categories]]:
 
 * [[Julie Bergner]], _A survey of $(\infty,1)$-categories_,  In: [[John Baez]], [[Peter May]] (eds.),  _[[Towards Higher Categories]]_ The IMA Volumes in Mathematics and its Applications, vol 152, Springer 2007 ([arXiv:math/0610239](http://arxiv.org/abs/math/0610239), [doi:10.1007/978-1-4419-1524-5_2](https://doi.org/10.1007/978-1-4419-1524-5_2))
