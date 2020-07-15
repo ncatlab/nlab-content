@@ -243,6 +243,10 @@ Discussion of [[characteristic classes]]:
 
 * {#CadekVanzura98} [[Martin Čadek]], [[Jiří Vanžura]], _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
+On [[quaternion-Kähler orbifolds]]:
+
+*  K. Galicki, [[H. Blaine Lawson]], _Quaternionic Reduction and Quaternionic Orbifolds_, Mathematische Annalen (1988) Volume: 282, Issue: 1, page 1-22 ([dml:164446](https://eudml.org/doc/164446))
+
 
 [[!redirects quaternion-Kähler manifolds]]
 
@@ -274,6 +278,9 @@ Discussion of [[characteristic classes]]:
 
 [[!redirects quaternion Kaehler structure]]
 [[!redirects quaternion Kaehler structures]]
+
+[[!redirects quaternion-Kähler orbifold]]
+[[!redirects quaternion-Kähler orbifolds]]
 
 [[!redirects Sp(2).Sp(1)-structure]]
 [[!redirects Sp(2).Sp(1)-structures]]
