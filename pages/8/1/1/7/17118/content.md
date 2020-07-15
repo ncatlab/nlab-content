@@ -188,11 +188,11 @@ Original articles:
 
 * {#LeBrunSalamon94} Claude LeBrun, [[Simon Salamon]], _Strong rigidity of positive quaternion Kähler manifolds_, Inventiones Mathematicae 118, 1994, 109–132 ([dml:144231](https://eudml.org/doc/144231), [doi:10.1007/BF01231528](https://doi.org/10.1007/BF01231528))
 
-Exposition
+Exposition:
 
 * {#Cortes05} [[Vicente Cortés]], _Quaternionic Kähler manifolds_, 2005 ([pdf](https://www2.math.hu-berlin.de/gradkoll/Cortes_vorlesung1_handout.pdf))
 
-Textbook references include:
+Textbook accounts:
 
 * {#Besse}[[Arthur Besse]], _Einstein Manifolds_, Springer-Verlag 1987.
 
@@ -202,16 +202,30 @@ See also
 
 * Wikipedia, _[Quaternion-K&#228;hler manifold](https://en.wikipedia.org/wiki/Quaternion-Kaehler_manifold)_
 
+In terms of [[G-structure]]:
+
+* Edmond Bonan, _Sur les $G$-structures de type quaternionien_,  Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 9 (1967) no. 4, p. 389-463 ([numdam:CTGDC_1967__9_4_389_0](http://www.numdam.org/item/CTGDC_1967__9_4_389_0))
+
+* {#Salamon86} [[Simon Salamon]], _Differential Geometry of Quaternionic Manifolds_, Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55 ([numdam:ASENS_1986_4_19_1_31_0](http://www.numdam.org/item/ASENS_1986_4_19_1_31_0/))
+
+* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic-like structures on a manifold: Note I. 1-integrability and integrability conditions_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1993) Volume: 4, Issue: 1, page 43-52 ([dml:244082](https://eudml.org/doc/244082))
+
+* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic-like structures on a manifold: Note II. Automorphism groups and their interrelations_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1993) Volume: 4, Issue: 1, page 53-61 ([dml:244299](https://eudml.org/doc/244299))
+
+* [[Dmitry V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic structures on a manifold and subordinated structures_, Annali di Matematica pura ed applicata 171, 205–273 (1996) ([doi:10.1007/BF01759388](https://doi.org/10.1007/BF01759388))
+
+
+* Joseph Thurman, _Quaternionic Geometry and Special Holonomy_, 2018 ([pdf](http://www.math.stonybrook.edu/alumni/2018-Joseph-Thurman.pdf))
 
 Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex]] structures:
 
-* {#Moroianu} Andrei Moroianu, [[Uwe Semmelmann]], "Killing Forms on Quaternion-Kähler Manifolds", Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335.
+* {#Moroianu} [[Andrei Moroianu]], [[Uwe Semmelmann]], _Killing Forms on Quaternion-Kähler Manifolds_, Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335 ([arXiv:math/0403242](https://arxiv.org/abs/math/0403242), [doi:10.1007/s10455-005-1147-y](https://doi.org/10.1007/s10455-005-1147-y))
 
 * {#PerdersonSwannPoon} Pedersen, Poon, and Swann. "Hypercomplex structures associated to quaternionic manifolds",  Differential Geometry and its Applications (1998) 273-293 North-Holland.
 
-* {#Verbitsky} [[Misha Verbitsky]], "Hyperkähler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
+* {#Verbitsky} [[Misha Verbitsky]], _Hyperkähler manifolds with torsion, supersymmetry and Hodge theory_, Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
 
-* {#Salamon86} [[Simon Salamon]], _Differential Geometry of Quaternionic Manifolds_, Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55 ([numdam:ASENS_1986_4_19_1_31_0](http://www.numdam.org/item/ASENS_1986_4_19_1_31_0/))
+
 
 See also
 
