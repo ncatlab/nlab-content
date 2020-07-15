@@ -83,11 +83,18 @@ Book references include:
 
 Classical references:
 
-* {#Bonan}  [[Edmond Bonan]], "Sur les G-structures de type quaternionien", Cahiers de topologie et géométrie différentielle catégoriques, tome 9, no 4 (1967), p. 389-463.
-
+* Edmond Bonan, _Sur les $G$-structures de type quaternionien_,  Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 9 (1967) no. 4, p. 389-463 ([numdam:CTGDC_1967__9_4_389_0](http://www.numdam.org/item/CTGDC_1967__9_4_389_0))
 * {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
 
-* {#alekseevski} [[Dmitry Alekseevsky]] and [[Stefano Marchiafava]], "Quaternionic-like structures on a manifold - note I. 1-integrability and integrability conditions", Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni, Serie 9, Vol. 4 (1993), n.1, p. 43–52.
+In terms of [[G-structure]]:
+
+* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic-like structures on a manifold: Note I. 1-integrability and integrability conditions_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1993) Volume: 4, Issue: 1, page 43-52 ([dml:244082](https://eudml.org/doc/244082))
+
+* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic-like structures on a manifold: Note II. Automorphism groups and their interrelations_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1993) Volume: 4, Issue: 1, page 53-61 ([dml:244299](https://eudml.org/doc/244299))
+
+* [[Dmitry V. Alekseevsky]], _Quaternionic structures on a manifold and subordinated structures_, Annali di Matematica pura ed applicata 171, 205–273 (1996) ([doi:10.1007/BF01759388](https://doi.org/10.1007/BF01759388))
+
+    
 
 Holonomy, connections, and twistor spaces:
 
