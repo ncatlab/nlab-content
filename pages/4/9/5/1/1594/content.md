@@ -263,17 +263,24 @@ Discussion of orbifolds regarded as naive local quotient [[diffeological spaces]
 
 * {#Watts15} [[Jordan Watts]], _The Differential Structure of an Orbifold_, Rocky Mountain Journal of Mathematics, Vol. 47, No. 1 (2017), pp. 289-327 ([arXiv:1503.01740](https://arxiv.org/abs/1503.01740))
 
+
 ### Orbifold cobordism
 
 Orbifold [[cobordisms]] are discussed in 
 
-* K. S. Druschel, _Oriented Orbifold Cobordism_, Pacific J. Math., 164(2) (1994), 299-319.
+* K. S. Druschel, _Oriented Orbifold Cobordism_, Pacific J. Math., 164(2) (1994), 299-319 ([doi:10.2140/pjm.1994.164.299](http://dx.doi.org/10.2140/pjm.1994.164.299), [pdf](https://msp.org/pjm/1994/164-2/pjm-v164-n2-p04-p.pdf))
 
 * K. S. Druschel, _The Cobordism of Oriented Three Dimensional Orbifolds_, Pacific J. Math., bf 193(1) (2000), 45-55.
 
 * Andres Angel, _Orbifold cobordism_ ([pdf](http://www.math.uni-bonn.de/people/aangel79/Orbifold%20cobordism.pdf)) 
 
 See also at _[[orbifold cobordism]]_.
+
+Tangential structure on orbifolds:
+
+* T.A.N. Weelinck, _Equivariant factorization homology of global quotient orbifolds_ ([arXiv:1810.12021](https://arxiv.org/abs/1810.12021))
+
+* John Pardon, _Orbifold bordism and duality for finite orbispectra_ ([arXiv:2006.12702](https://arxiv.org/abs/2006.12702))
 
 ### In string theory
  {#ReferencesInStringTheory}
