@@ -148,7 +148,7 @@ Another useful sufficient condition is the following, going back roughly to sect
 
 +-- {: .num_prop #PathObjects}
 ###### Proposition
-In the situation of right transfer, where $U:C\to D$ is a right adjoint, suppose that
+In the situation of right transfer, where $U:D\to C$ is a right adjoint, suppose that
 
 * $D$ has a [[fibrant replacement functor]] (in fact it suffices for individual objects and morphisms to have fibrant replacements; functoriality is not required).
 
