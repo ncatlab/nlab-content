@@ -229,7 +229,6 @@ On [[Riemannian orbifolds]]:
 
 * {#Ratcliffe06} [[John Ratcliffe]], _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics 149, Springer 2006 ([doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>)
 
-
 * Christian Lange, _Orbifolds from a metric viewpoint_, Geom Dedicata (2020) ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472), [doi:10.1007/s10711-020-00521-x](https://doi.org/10.1007/s10711-020-00521-x))
 
 * {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, [[Paolo Piccione]], _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
@@ -237,6 +236,17 @@ On [[Riemannian orbifolds]]:
 The [[isometry group]] of [[Riemannian orbifolds]]:
 
 * A. V. Bagaev & N. I. Zhukova, _The isometry groups of Riemannian orbifolds_,  Sib Math J 48, 579–592 (2007) ([doi:10.1007/s11202-007-0060-y](https://doi.org/10.1007/s11202-007-0060-y))
+
+Real-analytic Riemannian orbifolds:
+
+* Marja Kankaanrinta, _On real analytic orbifolds and Riemannian metrics_, 
+Algebraic & Geometric Topology 13 (2013) 2369–2381 ([doi:10.2140/agt.2013.13.2369](http://dx.doi.org/10.2140/agt.2013.13.2369))
+
+The Yamabe invariant:
+
+* Kazuo Akutagawal, _Computations of the orbifold Yamabe invariant_, Mathematische Zeitschrift volume 271, pages 611–625 (2012) ([doi:10.1007/s00209-011-0880-0](https://doi.org/10.1007/s00209-011-0880-0))
+
+    
 
 More generally, [[G-structures]] on orbifolds:
 
