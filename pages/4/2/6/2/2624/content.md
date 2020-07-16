@@ -40,7 +40,7 @@ Short maps give the [[Met|category of metric spaces]] some nice properties.  In 
 
 ## Injective objects in $Met_{ord}$
 
-An $Met_{ord}$ every object $X$ admits an [[injective hull]] $\varepsilon(X)$. The space $\varepsilon(X)$ is [[compact topological space|compact]] if $X$ is [[compact topological space|compact]]. Furthermore every [[compact topological space|compact metric space]] has an __injective boundary__ that is the smallest subspace $A$ of $X$ such that $\varepsilon(A) = X$.
+In $Met_{ord}$ every object $X$ admits an [[injective hull]] $\varepsilon(X)$. The space $\varepsilon(X)$ is [[compact topological space|compact]] if $X$ is [[compact topological space|compact]]. Furthermore every [[compact topological space|compact metric space]] has an __injective boundary__ that is the smallest subspace $A$ of $X$ such that $\varepsilon(A) = X$.
 
 ## Related pages
 
