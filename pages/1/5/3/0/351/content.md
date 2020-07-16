@@ -140,6 +140,8 @@ In general, what we can say is that for two fixed categories $C$ and $D$, the fu
 * [[Robert Paré]] and Leopoldo Rom&#225;n, *Dinatural numbers*, [JPAA](http://www.sciencedirect.com/science/article/pii/S0022404997000364)
  {#PareRoman}
 
+* Guy McCusker, Alessio Santamaria, _A Calculus of Substitution for Dinatural Transformations, I_, ([arXiv:2007.07576](https://arxiv.org/abs/2007.07576))
+
 Here is a blog post inspired by the above discussion that discusses these concepts in the context of the programming language Haskell:
 
 * Dan Piponi, [Dinatural transformations and coends](http://blog.sigfpe.com/2009/03/dinatural-transformations-and-coends.html)
