@@ -53,6 +53,10 @@ Classification of [[compact topological space|compact]] 2d Lorentzian orbifolds:
 
 * N. I. Zhukova, E. A. Rogozhina, _Classification of compact lorentzian 2-orbifolds with noncompact full isometry groups_, Sib Math J 53, 1037–1050 (2012) ([doi:10.1134/S0037446612060080](https://doi.org/10.1134/S0037446612060080))
 
+[[conformal maps]] between Lorentzian orbifolds:
+
+* N. I. Zhukova, _The influence of stratification on the groups of conformal transformations of pseudo-Riemannian orbifolds_, Ufa Mathematical Journal
+Volume 10, Number 2 (2018) pp. 44-57 ([doi:10.13108/2018-10-2-44](http://dx.doi.org/10.13108/2018-10-2-44))
 
 [[!redirects Lorentzian orbifolds]]
 
