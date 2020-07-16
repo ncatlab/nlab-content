@@ -46,17 +46,17 @@ to flatness. The [[Weyl tensor]] is the specific instance of $\kappa_H$ in confo
 
 General discussion includes
 
-* [[Andreas ?ap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
+* [[Andreas Čap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
 
-* {#Cap05} [[Andreas ?ap]], _Two constructions with parabolic geometries_, [arXiv:0504389](http://arxiv.org/abs/math/0504389)
+* {#Cap05} [[Andreas Čap]], _Two constructions with parabolic geometries_, [arXiv:0504389](http://arxiv.org/abs/math/0504389)
 
 * [[Felipe Leitner]], part 1, section 5 of _Applications of Cartan and Tractor Calculus to Conformal and CR-Geometry_, 2007 ([pdf](http://elib.uni-stuttgart.de/opus/volltexte/2009/3922/pdf/HabilKopf.pdf))
 
-* {#CapSlovak09} [[Andreas ?ap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
 Relation to [[twistor spaces]] is discussed in
 
-* {#Cap01} [[Andreas ?ap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
+* {#Cap01} [[Andreas Čap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
 
 Discussion of [[BGG sequences]] in parabolic geometry includes
 
