@@ -67,7 +67,7 @@ The notation $\mathcal{O}$ to supposed to remind us that every frame is like a [
 +-- {: .num_remark}
 ###### Remark
 
-So in particular a frame is a _[[lattice]]_ which has not only finite [[joins]] but all small joins. 
+So in particular a frame is a _[[lattice]]_ which has not only finite [[joins]] but all small joins. Hence if it is small itself (as for the [[frame of opens|frames of open subsets]] of (small) [[topological spaces]]), then it is a [[suplattice]], so a [[complete lattice]]: it also has all (small) meets.
 
 Furthermore, as the distributive law certainly holds when the joins in question are finite, it is a _[[distributive lattice]]_.
 
@@ -166,7 +166,7 @@ Conversely, any [[topological space]] has a [[frame of opens|frame of open subse
 +-- {: .num_example}
 ###### Example
 
-For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]]. 
+For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]].
 
 =--
 
