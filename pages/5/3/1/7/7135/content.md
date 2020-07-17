@@ -38,6 +38,10 @@ On open [[M5-branes]] [[intersecting brane|intersecting]] [[M9-branes]] in a [[Y
 
 * [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [doi:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601))
 
+On [[supersymmetry and division algebras]], the corresponding [twistor space](twistor+space#TwistorSpace) and its [[anti de Sitter spacetime|AdS]] version:
+
+* [[Alex Arvanitakis]], Alec E. Barns-Graham, [[Paul Townsend]], _Twistor description of spinning particles in AdS_, JHEP 01 (2018) 059 ([arXiv:1710.09557](https://arxiv.org/abs/1710.09557))
+
 
 
 
