@@ -64,7 +64,7 @@ $suc(n)\;\coloneqq\;\lambda z.\lambda s.s\,n$
 
 #### Type Constructors
 
-The type constructors above that have subexpressions are actually abbreviations for applied constants. For example:
+The type constructors given in the grammar above that have subexpressions are actually abbreviations for applied constants. For example:
 
 $\Pi x:A.B\;\coloneqq\;KPi\,A\,(\lambda x.B)$
 
