@@ -165,7 +165,17 @@ The motive premise cannot be avoided in the $Nat$ elimination rule. One probable
 
 ## Identity Types {#IdType}
 
-TODO
+Identity types provide *another* kind of equality type that also provides subsumptive rewriting. Unlike the main equality, which is type-directed, and only rewrites in well-typed goals, identity is untyped, and rewrites in any goal at all: rewriting has no motive premise. This identity should be thought of as a relation that's true only for things that are identical, not a type of "[[identity type|identifications]]" of things that generally aren't already identical.
+
+The restriction that prevents the two notions from collapsing is that identity types are usually not valid unless they're true. Only when dealing with computations is it safe to assume identity. But in that case, it coincides with equality. In fact, identity *is* equality of computations, in the semantics. The different rules are due entirely to the difference in when the types are valid. (TODO: Explain how this is possible.) Because of the sanity rule, it's implicit that for any term $t$, ($t \equiv t$) is a valid type because it's true. This is why identity has no inversion rules. Meanwhile, ($t = t \in Comp$) is not true or even meaningful unless $t \in Comp$.
+
+When dealing with computations, where equality and identity coincide, the rules for identity types do indeed expose a stronger (derived) rewrite rule for equality. The motive premise is avoided:
+
+$$\frac{\Gamma \vdash p \Vdash t = t' \in Comp \qquad
+\Gamma \vdash c \Vdash C[t/x]}
+{\Gamma \vdash c \Vdash C[t'/x]}$$
+
+The identity type constructor [comes from Nuprl](#CompEqvITP13), where it's called "computational equivalence". That's exactly what it is, semantically. But internally, it seems weird to think of it as a mere equivalence, since it's the most intensional equality that can be expressed as a type. Nuprl has additional features that facilitate internal reasoning about computational equivalence. But in v1, identity seems scarcely different from beta conversion in practice.
 
 ## Miscellaneous
 
@@ -176,5 +186,7 @@ In v0, there was a reflexivity rule for equality, in addition to the uniqueness 
 There's been some reordering of rules, premises, and renaming of metavariables.
 
 ## References
+
+* {#CompEqvITP13} Vincent Rahli, Mark Bickford, Abhishek Anand, _Formal Program Optimization in Nuprl Using Computational Equivalence and Partial Types_, Interactive Theorem Proving (ITP) 2013 ([web](http://www.nuprl.org/KB/show.php?ShowPub=RBA13), [pdf](http://www.nuprl.org/documents/Rahli/optimization_ITP_2013_04_22))
 
 * {#MZFuncRefine} Paul-André Melliès, Noam Zeilberger, _Functors are Type Refinement Systems_, POPL 2015 ([pdf](https://www.irif.fr/~mellies/papers/functors-are-type-refinement-systems.pdf))
