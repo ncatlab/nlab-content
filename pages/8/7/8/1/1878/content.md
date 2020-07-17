@@ -32,7 +32,7 @@ Let $C$ be a category with all [[colimits]] and let $S \subset Mor(C)$ a class o
 * $rlp(S)$  for the collection of morphisms with the _right_ 
   [[lifting property]];
   
-* $llp(S)$ for the collection of morphisms with the _left_  [[lifting property]] with respect to $S$, the 
+* $llp(S)$ for the collection of morphisms with the _left_  [[lifting property]] with respect to $S$.
 
 Moreover, we also write, now for $I \subset Mor(C)$: 
 
