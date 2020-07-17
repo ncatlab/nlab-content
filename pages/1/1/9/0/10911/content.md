@@ -114,6 +114,9 @@ There are claims that numerical computer simulations (as in [[lattice gauge theo
 
 * Konstantinos N. Anagnostopoulos, Takehiro Azuma, Yuta Ito, Jun Nishimura, Toshiyuki Okubo, Stratos Kovalkov Papadoudis, _Complex Langevin analysis of the spontaneous breaking of 10D rotational symmetry in the Euclidean IKKT matrix model_ ([arXiv:2002.07410](https://arxiv.org/abs/2002.07410))
 
+* F. R. Klinkhamer, _IIB matrix model: Emergent spacetime from the master field_ ([arXiv:2007.08485](https://arxiv.org/abs/2007.08485))
+
+
 [[!redirects IIB matrix model]]
 
 [[!redirects IKKT model]]
