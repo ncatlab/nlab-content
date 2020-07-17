@@ -124,7 +124,7 @@ Let $\mathcal{G}$ be a geometry and $\mathcal{X}$ an $(\infty,1)$-topos
 An [[(∞,1)-functor]]
 
 $$
-  O_X : \mathcal{G} \to \mathcal{X}
+  O_{\mathcal{X}} : \mathcal{G} \to \mathcal{X}
 $$
 
 is a $\mathcal{G}$-**structure** on $\mathcal{X}$ or 
