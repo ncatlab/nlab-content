@@ -157,11 +157,19 @@ With this grand purpose as an attempt to complete the internalization of the PER
 
 There was actually an early version of letcomp for v0. But the soundness of letcomp was not established until after changing the semantics to support primitive inversions.
 
+## Natural Numbers Type
+
+CompLF v1 adds a type $Nat$ of [[Dana Scott|Scott]]-encoded natural numbers. The Scott nats themselves are not new, of course. What's new is having them collected into an inductive type, which actually gives CompLF some serious proof-theoretic strength. It's expected to have the same strength as (first-order) [[Peano arithmetic]], but the upper bound has not been checked.
+
+The motive premise cannot be avoided in the $Nat$ elimination rule. One probable reason is that that would be too strong, since it would allow type-level recursion. But another reason has to do with technical details of PER semantics. (TODO: Explain.) Nuprl's version of induction actually *does* avoid the motive premise. (Nuprl's logic is much stronger than Peano arithmetic, by the way.) For some, this was a major advantage of Nuprl, since it's a way to get nontrivial proofs of termination for recursive functions. But CompLF must pursue alternatives. (TODO: Explain!)
+
 ## Identity Types {#IdType}
 
 TODO
 
 ## Miscellaneous
+
+Certain rules in v0 (equality formation and PER formation) used non-dependent function types ($\to$) to express implications. In v1, non-dependent family intersection types ($\supset$) is used (in relax introduction and PER formation) instead. In some cases, the propositions involved are guaranteed to be proof-irrelevant, so it doesn't matter. In PER formation, there's no guarantee that $R$ is proof-irrelevant, but there's no good reason for the user to use a proof-relevant relation, since the proof is ignored. In both versions of PER formation, you can run into trouble trying to use a proof-relevant relation. (So the change doesn't help or hurt.)
 
 In v0, there was a reflexivity rule for equality, in addition to the uniqueness and selectivity rules. That was redundant. So now reflexivity is derived from uniqueness and select left.
 
