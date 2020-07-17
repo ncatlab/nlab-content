@@ -74,6 +74,8 @@ There are also **Eulerian numbers** (forming a different, double sequence $A(n,k
 
 $$x^n = \sum_k A(n, k) \binom{x+k}{n}.$$ 
 
+For applications in algebraic geometry, see "Eulerian polynomials-[Hirzebruch]".
+
 ## Euler-Mascheroni constant 
 
 There is also a number, usually denoted as $\gamma$, called the _Euler-Mascheroni constant_. It is defined as a limit 
