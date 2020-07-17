@@ -62,26 +62,38 @@ The relation between [[supersymmetry and division algebras]] was gradually estab
 
 * {#KugoTownsend82} [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1982) p. 357-380. ([spire:181889](https://inspirehep.net/literature/181889), <a href="https://doi.org/10.1016/0550-3213(83)90584-9">doi:10.1016/0550-3213(83)90584-9</a>, [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
 
-* {#Sudbery84} A. Sudbery, _Division algebras, (pseudo)orthogonal groups and spinors_, Jour. Phys. A17 (1984),
-939&#8211;955.
+* {#Sudbery84} [[Anthony Sudbery]], _Division algebras, (pseudo)orthogonal groups and spinors_, Jour. Phys. A17 (1984),
+939&#8211;955 ([doi:10.1088/0305-4470/17/5/018](
+https://iopscience.iop.org/article/10.1088/0305-4470/17/5/018))
 
-* {#Evans88} [[Jonathan Evans]], Supersymmetric Yang&#8211;Mills theories and division algebras, Nucl. Phys. B298
-(1988), 92&#8211;108. Also available as hhttp://www-lib.kek.jp/cgi-bin/img index?198801412i
+* {#Evans88} [[Jonathan Evans]], _Supersymmetric Yang&#8211;Mills theories and division algebras_, Nucl. Phys. B298 (1988), 92&#8211;108 ([doi:10.1016/0550-3213(88)90305-7](https://doi.org/10.1016/0550-3213(88)90305-7))
 
-* {#ChungSudbery87} K.-W. Chung, A. Sudbery, _Octonions and the Lorentz and conformal groups of ten-dimensional space-time_, Phys. Lett. B 198 (1987), 161&#8211;164.
+* {#ChungSudbery87} K.-W. Chung, [[Anthony Sudbery]], _Octonions and the Lorentz and conformal groups of ten-dimensional space-time_, Phys. Lett. B 198 (1987), 161&#8211;164 (<a href="https://doi.org/10.1016/0370-2693(87)91489-4">doi:10.1016/0370-2693(87)91489-4</a>)
 
-* {#ManogueSudbery89} [[Corinne Manogue]], A. Sudbery, _General solutions of covariant superstring equations of motion_, Phys. Rev. D 12 (1989), 4073&#8211;4077
+* {#ManogueSudbery89} [[Corinne Manogue]], [[Anthony Sudbery]], _General solutions of covariant superstring equations of motion_, Phys. Rev. D 12 (1989), 4073&#8211;4077 ([doi:10.1103/PhysRevD.40.4073](https://doi.org/10.1103/PhysRevD.40.4073))
 
 * {#Schray96} J&#246;rg Schray, _The general classical solution of the superparticle_, Class. Quant. Grav. 13 (1996), 27&#8211;38. ([arXiv:hep-th/9407045](https://arxiv.org/abs/hep-th/9407045))
 
-* [[Tevian Dray]], J. Janesky, [[Corinne Manogue]], Octonionic hermitian matrices with non-real eigenvalues,
-Adv. Appl. Clifford Algebras 10 (2000), 193&#8211;216 ([arXiv:math/0006069](https://arxiv.org/abs/math/0006069))
+* [[Tevian Dray]], J. Janesky, [[Corinne Manogue]], _Octonionic hermitian matrices with non-real eigenvalues_, Adv. Appl. Clifford Algebras 10 (2000), 193&#8211;216 ([arXiv:math/0006069](https://arxiv.org/abs/math/0006069))
 
-Streamlined proof and exposition regarding is in
+Corresponding discussion of [twistor space](twistor+space#TwistorSpace):
+
+* {#BengtssonCederwall88} [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire](http://inspirehep.net/record/247269))
+
+* {#Cederwall93} [[Martin Cederwall]], _Introduction to Division Algebras, Sphere Algebras and Twistors_ ([arXiv:hep-th/9310115](https://arxiv.org/abs/hep-th/9310115))
+
+and its [[anti de Sitter spacetime|AdS]] version
+
+* [[Alex Arvanitakis]], Alec E. Barns-Graham, [[Paul Townsend]], _Twistor description of spinning particles in AdS_, JHEP 01 (2018) 059 ([arXiv:1710.09557](https://arxiv.org/abs/1710.09557))
+
+
+Streamlined proof and exposition is in
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C^*\ast$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
+
+
 
 The case of 2-component quaternionic spinors in 6d is discussed also in
 
@@ -120,11 +132,15 @@ Normed division algebras are used to describe the construction of [[Lie 2-algebr
 
 * [[John Huerta]], _Division Algebras and supersymmetry III_, ([arXiv:1109.3574](http://arxiv.org/abs/1109.3574))
 
-This is made use of in the [[homotopy theory|homotopy theoretic]] description of [[M-theory]]-structure in 
+This is made use of in the [[schreiber:Hypothesis H|homotopy theoretic description of M-theory]] in:
 
 * [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_, Letters of Mathematical Physics, 2018 ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+* [[Domenico Fiorenza]],  [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Super-exceptional M5-brane model -- Emergence of SU(2)-flavor sector]]_ ([arXiv:2006.00012](https://arxiv.org/abs/2006.00012))
+
+
 
 [[!redirects division algebras and supersymmetry]]
 
