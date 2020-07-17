@@ -15,6 +15,7 @@ order of the number of articles they publish in the area of category theory, as 
 |[Homology, Homotopy, and Applications](https://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/)|International Press|[[Ronnie Brown|Brown]]; [[George Janelidze|Janelidze]]; [[Emily Riehl|Riehl]]; [[Brooke Shipley|Shipley]]|subscription|homotopy|
 |[Algebraic & Geometric Topology](https://msp.org/agt/)|MSP|[[Julie Bergner|Bergner]]|subscription|homotopy, algebraic topology, geometric topology|
 |[Topology and its Applications](https://www.journals.elsevier.com/topology-and-its-applications)|Elsevier|[[Bill Dwyer|Dwyer]]|subscription|general topology, homotopy|
+|[Journal of Topology](https://londmathsoc.onlinelibrary.wiley.com/journal/17538424)|LMS via Wiley|[[Andrew Blumberg|Blumberg]]|subscription|topology|
 |[Communications in Algebra](https://www.tandfonline.com/toc/lagb20/current)|Taylor and Francis|varies|subscription|algebra|
 |[Annals of K-theory](http://www.ktheoryfoundation.org/journal.html)|MSP|[[Paul Balmer|Balmer]]; [[Amnon Neeman|Neeman]]|subscription|K-theory|
 |[Mathematical Structures in Computer Science](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science)|Cambridge UP|[[Martin Hyland|Hyland]]; [[Steve Lack|Lack]]; [[Robert Seely|Seely]]|subscription|TCS|
