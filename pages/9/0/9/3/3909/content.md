@@ -580,9 +580,17 @@ Discussion of twistors in dimensions 3,4,6 and 10 using the [[normed division al
 
 * {#BengtssonCederwall88} [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire](http://inspirehep.net/record/247269))
 
-and specifically for dimension 10 in 
+* {#Cederwall93} [[Martin Cederwall]], _Introduction to Division Algebras, Sphere Algebras and Twistors_ ([arXiv:hep-th/9310115](https://arxiv.org/abs/hep-th/9310115))
 
-* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics __B266__:2, 245-264. (1986) <a href="http://dx.doi.org/10.1016/0550-3213(86)90090-8">10.1016/0550-3213(86)90090-8</a>
+
+and specifically for dimension 10 
+
+* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics __B266__:2, 245-264. (1986) (<a href="http://dx.doi.org/10.1016/0550-3213(86)90090-8">10.1016/0550-3213(86)90090-8</a>)
+
+and its [[anti de Sitter spacetime|AdS]] version:
+
+* [[Alex Arvanitakis]], Alec E. Barns-Graham, [[Paul Townsend]], _Twistor description of spinning particles in AdS_, JHEP 01 (2018) 059 ([arXiv:1710.09557](https://arxiv.org/abs/1710.09557))
+
 
 #### Application to the 6d self-dual 2-form field
  {#ReferencesApplicationToSelfDual2FormField}
