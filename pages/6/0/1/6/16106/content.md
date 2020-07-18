@@ -76,7 +76,7 @@ $$
   q,p \colon \mathbb{R}^2 \longrightarrow \mathbb{R}
 $$
 
-for its two canonical coordinates functions (the "[[canonical coordinates]] and [[canonical momenta]]").
+for its two canonical coordinate functions (the "[[canonical coordinates]] and [[canonical momenta]]").
 
 Write 
 
