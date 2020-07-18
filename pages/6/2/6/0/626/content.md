@@ -286,7 +286,7 @@ String diagram calculus was apparently popularized by its use in
 
   (in the context of [[knot theory]])
 
-Probably [[David Yetter]] was the first (at least in public) to write string diagrams  with "coupons" (a term used by [[Nicolai Reshitikhin]] and [[Turaev]] a few months later) to represent maps which are not inherent in the (braided or symmetric compact closed) monoidal structure. 
+Probably [[David Yetter]] was the first (at least in public) to write string diagrams  with "coupons" (a term used by [[Nicolai Reshetikhin]] and [[Turaev]] a few months later) to represent maps which are not inherent in the (braided or symmetric compact closed) monoidal structure. 
 
 See also these:
 
