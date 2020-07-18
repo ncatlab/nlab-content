@@ -217,7 +217,7 @@ In terms of [[G-structure]]:
 
 * Joseph Thurman, _Quaternionic Geometry and Special Holonomy_, 2018 ([pdf](http://www.math.stonybrook.edu/alumni/2018-Joseph-Thurman.pdf))
 
-Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex]] structures:
+Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex manifold|hypercomplex structures]]:
 
 * {#Moroianu} [[Andrei Moroianu]], [[Uwe Semmelmann]], _Killing Forms on Quaternion-Kähler Manifolds_, Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335 ([arXiv:math/0403242](https://arxiv.org/abs/math/0403242), [doi:10.1007/s10455-005-1147-y](https://doi.org/10.1007/s10455-005-1147-y))
 
