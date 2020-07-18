@@ -23,11 +23,32 @@
 
 A **G-structure** on an $n$-[[manifold]] $M$, for a given structure group $G$, is a $G$-subbundle of the [[frame bundle]] (of the [[tangent bundle]]) of $M$. 
 
-Equivalently, this means that a $G$-structure is a choice of [[reduction of structure groups|reduction]] of the canonical structure group $GL(n)$ of the [[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] along the given inclusion $G \hookrightarrow GL(n)$.
+Equivalently, this means that a $G$-structure is a choice of [[reduction of structure groups|reduction]] of the canonical structure group [[general linear group|GL(n)]] of the [[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] along the given inclusion $G \hookrightarrow GL(n)$.
 
 More generally, one can consider the case $G$ is not a [[subgroup]] but equipped with any group homomorphism $G \to GL(n)$. If this is instead an [[epimorphism]] one speaks of a [[lift of structure groups]].
 
 Both cases, in turn, can naturally be understood as special cases of [[twisted differential c-structures]], which is a notion that applies more generally to [[principal infinity-bundles]].
+
+In this language, a $G$-structure is a lift _in [[classifying stacks]]_ ([[differentiable stack|differentiable]] [[delooping]] [[stacks]] $\mathbf{B}G$ of [[Lie groups]] $G$) of the classifying map of the [[tangent bundle]]
+
+$$
+  \array{
+    && \mathbf{B}G
+    \\
+    &  
+    {}^{ \mathllap{G structure} }\nearrow
+    & \big\downarrow^{ str }
+    \\
+    X 
+      &\underset{
+        \vdash T X
+      }{\longrightarrow}&
+    \mathbf{B} GL(n)
+  }
+$$
+
+Beware the distinction to _[[tangential structure]]_ on $X$, where such as lift is considered (only) at the level of underlying [[classifying spaces]].
+
 
 ## Definition
 
@@ -41,201 +62,6 @@ Notably one may consider reductions of the frames in the $k$th order [[jet bundl
 
 Moreover, the definition makes sense for generalized [[manifolds]] modeled on other base spaces than just [[Cartesian spaces]]. In particular there are evident generalizations to [[supermanifolds]] and to [[complex manifolds]].
 
-### In terms of $(B,f)$-structures 
- {#InTermsOfBfStructures}
-
-+-- {: .num_defn #BfStructure}
-###### Definition
-
-A **$(B,f)$-structure** is 
-
-1. for each $n\in \mathbb{N}$ a [[pointed topological space|pointed]] [[CW-complex]] $B_n \in Top_{CW}^{\ast/}$
-
-1. equipped with a pointed [[Serre fibration]] 
-
-   $$
-     \array{
-       B_n
-       \\
-       \downarrow^{\mathrlap{f_n}}
-       \\
-       B O(n)
-     }
-   $$
-
-   to the [[classifying space]] $B O(n)$ ([def.](classifying+space#EOn));
-
-1. for all $n_1 \leq n_2$ a pointed continuous function
-
-   $\iota_{n_1, n_2} \;\colon\; B_{n_1} \longrightarrow B_{n_2}$
-
-   which is the identity for $n_1 = n_2$;
-
-such that for all $n_1 \leq n_2 \in \mathbb{N}$ these [[commuting square|squares commute]]
-
-$$
-  \array{
-    B_{n_1} &\overset{\iota_{n_1,n_2}}{\longrightarrow}& B_{n_2}
-    \\
-    {}^{\mathllap{f_{n_1}}}\downarrow && \downarrow^{\mathrlap{f_{n_2}}}
-    \\
-    B O(n_1) &\longrightarrow& B O(n_2)
-  }
-  \,,
-$$
-
-where the bottom map is the canonical one ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)).
-
-The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $\mu_{n_1,n_2} \colon B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical multiplication maps ([def.](classifying+space#WhitneySumMapOnClassifyingSpaces))
-
-$$
-  \array{
-    B_{n_1} \times B_{n_2}
-      &\overset{\mu_{n_1, n_2}}{\longrightarrow}&
-    B_{n_1 + n_2}
-    \\
-    {}^{\mathllap{f_{n_1} \times f_{n_2}}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{f_{n_1 + n_2}}}
-    \\
-    B O(n_1) \times B O(n_2)
-     &\longrightarrow&
-    B O(n_1 + n_2)
-  }
-$$
- 
-and which satisfy the evident [[associativity]] and [[unitality]], for $B_0 = \ast$ the unit, and, finally, which commute with the maps $\iota$ in that all $n_1,n_2, n_3 \in \mathbb{N}$ these squares commute:
-
-
-$$
-  \array{
-    B_{n_1} \times B_{n_2}
-      &\overset{id \times \iota_{n_2,n_2+n_3}}{\longrightarrow}&
-    B_{n_1} \times B_{n_2 + n_3}
-    \\
-    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\mu_{n_1,n_2 + n_3}}}
-    \\
-    B_{n_1 + n_2}
-      &\underset{\iota_{n_1+n_2, n_1 + n_2 + n_3}}{\longrightarrow}&
-    B_{n_1 + n_2 + n_3}
-  }
-$$
-
-and
-
-$$
-  \array{
-    B_{n_1} \times B_{n_2}
-      &\overset{\iota_{n_1,n_1+n_3} \times id}{\longrightarrow}&
-    B_{n_1+n_3} \times B_{n_2 }
-    \\
-    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\mu_{n_1 + n_3 , n_2}}}
-    \\
-    B_{n_1 + n_2}
-      &\underset{\iota_{n_1+n_2, n_1 + n_2 + n_3}}{\longrightarrow}&
-    B_{n_1 + n_2 + n_3}
-  }
-  \,.
-$$
-
-
-Similarly, an **$S^2$-$(B,f)$-structure** is a compatible system
-
-$$
-  f_{2n} \colon B_{2n} \longrightarrow B O(2n)
-$$
-
-indexed only on the even natural numbers.
-
-Generally, an **$S^k$-$(B,f)$-structure** for $k \in \mathbb{N}$, $k \geq 1$ is a compatible system
-
-$$
-  f_{k n} \colon B_{ kn} \longrightarrow B O(k n)
-$$
-
-for all $n \in \mathbb{N}$, hence for all $k n \in k \mathbb{N}$.
-
-=--
-
-([Lashof 63](#Lashof63), [Stong 68, beginning of chapter II](#Stong68), [Kochmann 96, section 1.4](#Kochmann96))
-
-See also at _[[B-bordism]]_.
-
-
-+-- {: .num_example #ExamplesOfBfStructures}
-###### Example
-
-Examples of $(B,f)$-structures (def. \ref{BfStructure}) include the following:
-
-1. $B_n = B O(n)$ and $f_n = id$ is **orthogonal structure** (or "no structure");
-
-1. $B_n = E O(n)$ and $f_n$ the [[universal principal bundle]]-projection is **[[framing]]-structure**;
-
-1. $B_n = B SO(n) = E O(n)/SO(n)$ the classifying space of the [[special orthogonal group]] and $f_n$ the canonical projection is **[[orientation]] structure**;
-
-1. $B_n = B Spin(n) = E O(n)/Spin(n)$ the classifying space of the [[spin group]] and $f_n$ the canonical projection is **[[spin structure]]**.
-
-Examples of $S^2$-$(B,f)$-structures include
-
-1. $B_{2n} = B U(n) = E O(2n)/U(n)$ the classifying space of the [[unitary group]], and $f_{2n}$ the canonical projection is **[[almost complex structure]]**.
-
-=--
-
-
-+-- {: .num_defn }
-###### Definition
-
-Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-structure as in def. \ref{BfStructure}, then a **$(B,f)$-structure on the manifold** is an [[equivalence class]] of the following structure:
-
-1. an [[embedding]] $i_X \; \colon \; X \hookrightarrow \mathbb{R}^k$ for some $k \in \mathbb{N}$;
-
-1. a [[homotopy class]] of a  [[lift]] $\hat g$ of the classifying map $g$ of the [[tangent bundle]] 
-
-   $$
-     \array{
-       && B_{n}
-       \\
-       &{}^{\mathllap{\hat g}}\nearrow& \downarrow^{\mathrlap{f_n}}
-       \\
-       X &\overset{g}{\hookrightarrow}& B O(n)
-     }
-     \,.
-   $$
-
-The equivalence relation on such structures is to be that generated by the relation $((i_{X})_1, \hat g_1) \sim ((i_{X})_,\hat g_2)$ if 
-
-1. $k_2 \geq k_1$
-
-1. the second inclusion factors through the first as 
-
-   $$
-     (i_X)_2 
-       \;\colon\; 
-     X 
-       \overset{(i_X)_1}{\hookrightarrow}
-     \mathbb{R}^{k_1} 
-       \hookrightarrow
-     \mathbb{R}^{k_2}
-   $$
-
-1. the lift of the classifying map factors accordingly (as homotopy classes)
-
-   $$
-     \hat g_2
-       \;\colon\;
-     X 
-       \overset{\hat g_1}{\longrightarrow}
-     B_{n}
-       \longrightarrow
-     B_{n}
-     \,.
-   $$
-
-=--
 
 
 
@@ -499,34 +325,29 @@ See the list at [[twisted differential c-structure]].
 
 * [[homothety]]
 
+
 ## References
 
 ### Traditional
-
-The concept of topological $G$-structure (lifts of homotopy classes of classifying maps) originates with [[cobordism theory]]. Early expositions in terms of [(B,f)-structures](#InTermsOfBfStructures) include
-
-* {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277
-
-* {#Stong68} [[Robert Stong]], beginning of chapter II of _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
-
-* {#Kochmann96} [[Stanley Kochmann]], section 1.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
  
-The concept in differential geometry originates around the work of [[Eli Cartan]] ([[Cartan geometry]]) and
+The concept originates around the work of [[Eli Cartan]] ([[Cartan geometry]]) and
 
 * [[Shiing-Shen Chern]], _The geometry of G-structures_, Bull. Amer. Math. Soc. 72(2): 167&#8211;219. 1966 ([pdf](http://www.ams.org/journals/bull/1966-72-02/S0002-9904-1966-11473-8/S0002-9904-1966-11473-8.pdf), [Euclid](http://projecteuclid.org/euclid.bams/1183527777))
 
 Textbook accounts:
 
-* P. Molino, _Theorie des G-Structures: Le Probleme d'Equivalence_, Lecture Notes in Mathematics, Springer (1977) ([ISBN:978-3-540-37360-5](https://www.springer.com/de/book/9783540082460))
+* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of: _Lectures on differential geometry_, Prentice-Hall 1964, 
 
-* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of: _Lectures on differential geometry_, Prentice-Hall (1964), 2nd edition AMS 1983 ([ISBN:978-0-8218-1385-0](https://bookstore.ams.org/chel-316))
+  2nd edition AMS 1983 ([ISBN:978-0-8218-1385-0](https://bookstore.ams.org/chel-316))
 
+* [[Shoshichi Kobayashi]], _Transformation Groups in Differential Geometry_ 1972, reprinted as: Classics in Mathematics Vol. 70, Springer 1995 ([doi:10.1007/978-3-642-61981-6](https://link.springer.com/book/10.1007/978-3-642-61981-6))
 
+* [[Pierre Molino]], _Theorie des G-Structures: Le Probleme d'Equivalence_, Lecture Notes in Mathematics, Springer (1977) ([ISBN:978-3-540-37360-5](https://www.springer.com/de/book/9783540082460))
 
 
 See also:
 
-* P. Molino, _Sur quelques propriétés des G-structures_, J. Differential Geom. Volume 7, Number 3-4 (1972), 489-518 ([euclid:jdg/1214431168](https://projecteuclid.org/euclid.jdg/1214431168))
+* [[Pierre Molino]], _Sur quelques propriétés des G-structures_, J. Differential Geom. Volume 7, Number 3-4 (1972), 489-518 ([euclid:jdg/1214431168](https://projecteuclid.org/euclid.jdg/1214431168))
 
 
 Lecture notes:
@@ -538,9 +359,11 @@ Lecture notes:
 
 Surveys include
 
-* {#Alekseevskii} [[Dmitry Vladimirovich Alekseevsky]], _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
+* {#Alekseevskii} [[Dmitry Vladimirovich Alekseevsky]], _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_ ([eom:G-structure](https://encyclopediaofmath.org/wiki/G-structure))
 
-* [Wikipedia](http://en.wikipedia.org/wiki/G-structure)
+See also
+
+* Wikipedia, _[G-structure](http://en.wikipedia.org/wiki/G-structure)_
 
 Discussion with an eye towards [[special holonomy]] is in 
 
@@ -657,5 +480,3 @@ Formalization in [[modal type theory|modal]] [[homotopy type theory]] is in
 
 [[!redirects G-structures]]
 
-[[!redirects (B,f)-structure]]
-[[!redirects (B,f)-structures]]
