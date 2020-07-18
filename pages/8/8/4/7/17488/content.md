@@ -1287,7 +1287,7 @@ $$
   \array{
     X(S^n)
       &\overset{f_n}{\longrightarrow}&
-    Y^{S^{n}}
+    Y(S^{n})
     \\
     {}^{\mathllap{X_{S^n,S^{n+1}}(s)}}\downarrow
       &&
@@ -1306,7 +1306,7 @@ $$
   \array{
     X(S^n)
       &\overset{f_n}{\longrightarrow}&
-    Y^{S^{n}}
+    Y(S^{n})
     \\
     {}^{\mathllap{(s,id)}}\downarrow
       &&
@@ -1322,7 +1322,7 @@ $$
     \downarrow^{\mathrlap{\sigma^Y_n}}
     \\
     X(S^{n+1})
-      &underset{f_{n+1}}{\longrightarrow}&
+      &\underset{f_{n+1}}{\longrightarrow}&
     Y(S^{n+1})
   }
   \,.
@@ -2147,7 +2147,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-It is clear that $\Omega^\infty$ preserves fibrations and acyclic cofibrations. This is sufficient to deduce a Quillen adjunction.
+It is clear that $\Omega^\infty$ preserves fibrations and acyclic fibrations. This is sufficient to deduce a Quillen adjunction.
 
 Just for the record, we spell out a direct argument that also $\Sigma^\infty$ preserves cofibrations and acyclic cofibrations:
 
@@ -2272,7 +2272,7 @@ Since, by definition \ref{CWSpectrum}, a $p$-cell of a [[cell spectrum]] that ap
 
 $$
   \array{
-    \Sigma^\infty S^{-1}_+[-q]
+    \Sigma^\infty S^{p-1}_+[-q]
       &\longrightarrow&
     X
       &\longrightarrow&
