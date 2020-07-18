@@ -50,7 +50,7 @@ $$
 The corresponding Heisenberg group is usually denoted $H_3$:
 
 $$
-  H_3 =: \exp Heis(\mathbb{R}^2 , d p \wedge d q)
+  H_3 \coloneqq \exp Heis(\mathbb{R}^2 , d p \wedge d q)
   \,.
 $$
 
