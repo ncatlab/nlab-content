@@ -11,6 +11,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -101,6 +102,16 @@ The $(\infty,1)$-limits in $(\infty,1)Topos$ coincide actually with the proper $
 =--
 
 This is [[Higher Topos Theory|HTT, remark 6.3.4.10]].
+
++-- {: .num_prop}
+###### Proposition
+
+The [[terminal object in an (infinity,1)-category|terminal object]] in 
+[[(∞,1)Topos]] is [[∞Groupoids]].
+
+=--
+
+This is [[Higher Topos Theory|HTT, Prop. 6.3.4.1]].
 
 
 ### Computation of limits and colimits
