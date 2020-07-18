@@ -29,11 +29,11 @@ In general, it is common to allow the construction $T$ to be mixed-variance. For
 +-- {: .num_defn}
 ###### Definition
 
-A [[category]] $C$ is _algebraically complete_ if every [[endofunctor]] $F$ has an [[initial algebra of an endofunctor|initial algebra]] $F(A)\to A$ and a [[final coalgebra]] $Z\to F(Z)$.
+A [[category]] is _algebraically complete_ if every [[endofunctor]] $F$ has an [[initial algebra of an endofunctor|initial algebra]] $F(A)\to A$. A category is _algebraically cocomplete_ if every endofunctor $F$ has a [[final coalgebra]] $Z\to F(Z)$.
 
-By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's lemma]], the initial algebra is an [[isomorphism]], and so is the final coalgebra, thus they can be regarded as [[coalgebra for an endofunctor|coalgebras]] and [[algebra for an endofunctor|algebras]] respectively. This gives rise to a canonical morphism from the initial algebra to the final coalgebra, $A\to Z$. 
+By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's lemma]], an initial algebra is an [[isomorphism]], and so is a final coalgebra, thus they can be regarded as [[coalgebra for an endofunctor|coalgebras]] and [[algebra for an endofunctor|algebras]] respectively. This gives rise to a canonical morphism from the initial algebra to the final coalgebra, $A\to Z$. 
 
-An algebraically complete category $C$ is _algebraically compact_ if this canonical morphism from the initial algebra to the final coalgebra is an [[isomorphism]].
+An algebraically complete and cocomplete category $C$ is _algebraically compact_ if this canonical morphism from the initial algebra to the final coalgebra is an [[isomorphism]].
 =--
 
 +-- {: .num_remark}
@@ -41,25 +41,27 @@ An algebraically complete category $C$ is _algebraically compact_ if this canoni
 
 In [[classical mathematics|classical]] [[set theory]], very few categories are algebraically compact. Thus it is common to restrict attention to certain endofunctors.
 One might then say that this class of endofunctors is algebraically compact. 
-A leading example is where $C$ is $V$-[[enriched category|enriched]], in which case we might restrict attention to $V$-endofunctors. 
+A leading example is where $C$ is $V$-[[enriched category|enriched]], in which case we might restrict attention to $V$-endofunctors. For example, the $\mathbf{cpo}$-enriched category of pointed [[cpo]]'s and strict maps is $\mathbf{cpo}$-algebraically compact.
 =--
 
-## Mixed variance domain equations and minimal invariance
+## Mixed variance domain equations and minimal solutions
 
 Let $T:C^{op}\times C\to C$ be a [[bifunctor]]. A _solution_ for $T$ is an object $X$ together with an isomorphism 
 
-$$X \cong T(X,X)$$ 
+$$a:X \cong T(X,X)$$ 
 
-In general there may be many solutions. One approach to finding a canonical one is in terms of _minimal invariance_.
-
-An [[idempotent]] $e:X\to X$ is said to be _invariant_ for a solution $a:X\to T(X,X)$ if 
+In general there may be many solutions. One approach to comparing them is via retractions. If an object $Y$ is a [[retract]] of $X$, and $Y$ forms a solution $b:Y\cong T(Y,Y)$, then we can ask that the retraction respects the solution, i.e.
 $$
-  \array{& X & \overset{e}\rightarrow & X & \\
-          a & \downarrow &&\downarrow & a\\
-          &T(X,X) & \underset{T(e,e)}\rightarrow& T(X,X) & \\
-}$$
-Notice that any [[split idempotent|splitting]] of this idempotent is again a solution. 
-A _minimal invariant_ solution is one for which there are no non-trivial invariant idempotents. 
+  \array{& Y & \overset{i}\rightarrow & X & \\
+          b & \downarrow &&\downarrow & a&\\
+          &T(Y,Y) & \underset{T(r,i)}\rightarrow& T(X,X) & \\
+}
+\quad and \quad
+  \array{& X & \overset{r}\rightarrow & Y & \\
+          a & \downarrow &&\downarrow & b&\\
+          &T(X,X) & \underset{T(i,r)}\rightarrow& T(Y,Y) & \\
+}
+$$
 
 
 +-- {: .num_proposition}
@@ -74,7 +76,11 @@ for $T:C^{op}\times C\to C$ on an algebraically compact category
 by considering the initial algebra / final coalgebra of the endofunctor $\bar{T}:C^{op}\times C\to C^{op}\times C$ 
 given by $\bar{T}(X,Y)=(T(Y,X),T(X,Y))$. 
 
-In an algebraically compact category, this solution from the initial algebra / final coalgebra is minimal invariant, by the universal property. 
++-- {: .num_proposition}
+###### Proposition ([Freyd](#Freyd), [Fiore](#fiore))
+
+For a bifunctor $T:C^{op}\times C\to C$ on an algebraically compact category, the solution from the initial algebra / final coalgebra is minimal in the sense that it is uniquely a retract of every solution. 
+=--
 
 ## References
 
@@ -85,6 +91,8 @@ The notion is due to:
 Barr proposed to look at certain functors as algebraically compact, and gave basic facts about building algebraically compact functors and numerous examples. Fiore and Plotkin looked enriched functors and proved "adequacy" results about data types in programming languages.
 
 * [[Michael Barr]], _Algebraically compact functors_, Journal of Pure and Applied Algebra Volume 82, Issue 3, 26 October 1992, Pages 211-231 (<a href="https://doi.org/10.1016/0022-4049(92)90169-G">doi:10.1016/0022-4049(92)90169-G</a>)
+
+* [[Marcelo Fiore]]. _Axiomatic domain theory in categories of partial maps_. CUP 1996. {#fiore}
 
 * [[Marcelo Fiore]] and [[Gordon Plotkin]]. _An axiomatization of computationally adequate domain theoretic models of FPC_. In Proc. LICS, 1994. [pdf](http://homepages.inf.ed.ac.uk/gdp/publications/Ax_FPC.pdf).
 
