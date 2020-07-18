@@ -20,7 +20,7 @@ Definitons analogous to [[Nambu brackets]] are discussed in
 
 Definitions that yield Filippov [[n-Lie algebras]] include
 
-* Janusz Grabowski, Giuseppe Marmo, _On Filippov algebroids and multiplicative Nambu-Poisson structures_, Differ. Geom. Appl. 12:35-50,2000 ([arXiv:math/9902127](http://arxiv.org/abs/math/9902127))
+* [[Janusz Grabowski]], Giuseppe Marmo, _On Filippov algebroids and multiplicative Nambu-Poisson structures_, Differ. Geom. Appl. 12:35-50,2000 ([arXiv:math/9902127](http://arxiv.org/abs/math/9902127))
 
 
 [[!redirects higher Poisson structures]]
