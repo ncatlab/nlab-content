@@ -185,7 +185,7 @@ A classical reference is
 
 The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
 
-* {#GMWT} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_ 	Acta Math. 202 (2009), no. 2, 195--239 ([arXiv:math/0605249](http://arxiv.org/abs/math/0605249))
+* {#GMWT} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_, Acta Math. 202 (2009), no. 2, 195--239 ([arXiv:math/0605249](http://arxiv.org/abs/math/0605249))
 
 
 A generalization to geometric structure on the cobordisms is discussed in
