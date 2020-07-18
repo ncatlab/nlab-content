@@ -198,14 +198,14 @@ Original references include
 
 * {#KashiwaraVergne78} M. Kashiwara; [[Michèle Vergne]], _On the Segal-Shale-Weil Representations and Harmonic Polynomials_, Inventiones mathematicae (1978) ([EuDML](https://eudml.org/doc/142517), [pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0044&divID=LOG_0008&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0044%7C&targetFileName=PPN356556735_0044_LOG_0008.pdf&))
 
-* {#ForgerHess79} [[Michael Forger]], Harald Hess, _Universal metaplectic structures and geometric quantization_, Comm. Math. Phys. Volume 64, Number 3 (1979), 269-278. ([EUCLID](https://projecteuclid.org/euclid.cmp/1103904723))
+* {#ForgerHess79} [[Michael Forger]], Harald Hess, _Universal metaplectic structures and geometric quantization_, Comm. Math. Phys. Volume 64, Number 3 (1979), 269-278. ([euclid:cmp/1103904723](https://projecteuclid.org/euclid.cmp/1103904723))
 
 * {#Leray81} [[Jean Leray]], _Lagrangian analysis and quantum mechanics_, MIT press 1981 [pdf](http://www.maths.ed.ac.uk/~aar/papers/leraybook.pdf)
 
 
 Further discussion includes
 
-* {#RobinsonRawnsley89} P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
+* {#RobinsonRawnsley89} P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989 ([doi:10.1090/memo/0410](http://dx.doi.org/10.1090/memo/0410))
 
 * {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_  Math. Z. __221__ (1996), no. 2, 307&#8211;335, ([MR98f:58051](http://www.ams.org/mathscinet-getitem?mr=98f:58051), [doi](http://dx.doi.org/10.1007/BF02622118), [[RobbinSalamonMetaplectic.pdf:file]]), also  in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) 
 
