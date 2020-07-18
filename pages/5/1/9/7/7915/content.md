@@ -78,16 +78,21 @@ One of the milestones in the study of contact geometry is Bennequin's proof of t
 
 Monographs and introductions include 
 
-* [[Hansjörg Geiges]], _Contact geometry_, in F.J.E. Dillen and L.C.A. Verstraelen, (eds.), _Handbook of Differential Geometry vol. 2  North-Holland, Amsterdam (2006), pp. 315-382 ([arXiv:math/0307242](http://arxiv.org/abs/math/0307242))
+* [[Hansjörg Geiges]], _Contact geometry_, in F. J. E. Dillen and L. C. A. Verstraelen, (eds.), _Handbook of Differential Geometry vol. 2  North-Holland, Amsterdam (2006), pp. 315-382 ([arXiv:math/0307242](http://arxiv.org/abs/math/0307242))
 
 
-* {#Geiges} [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109, Cambridge University Press, Cambridge, (2008) ([pdf](http://www.cmi.ac.in/~aneesh/textbooks/Geiges.pdf))
+* {#Geiges} [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109, Cambridge University Press, Cambridge, (2008) ([doi:10.1017/CBO9780511611438]( https://doi.org/10.1017/CBO9780511611438))
  
 
 * {#Lin}Xiao-Song Lin, _An introduction to 3-dimensional contact geometry_ ([pdf](http://math.ucr.edu/~xl/contact.pdf))
   
 
 * John Etnyre, _Introductory lectures on contact geometry_ Proc. Sympos. Pure Math.  71 (2003), 81-107.  ([pdf](http://people.math.gatech.edu/~etnyre/preprints/papers/contlect.pdf))
+
+Discussion in terms of (a modification of) [[G-structures]]:
+
+* Alfonso Giuseppe Tortorella, Luca Vitagliano & Ori Yudilevich, _Homogeneous G-structures_, Annali di Matematica (2020) ([doi:10.1007/s10231-020-00972-9](https://doi.org/10.1007/s10231-020-00972-9))
+ 
 
 
 A [[higher differential geometry]]-generalization of contact geometry in line with [[multisymplectic geometry]]/[[n-plectic geometry]] is discussed in 
@@ -101,14 +106,14 @@ A [[higher differential geometry]]-generalization of contact geometry in line wi
 
 The observation that regular contact manifolds are prequantum circle bundles is due to
 
-* {#BoothbyWang} W. M. Boothby and H. C. Wang, _On contact manifolds_, Ann. of Math. (2) 68 (1958) 721&#8211;734. ([JSTOR](http://www.jstor.org/stable/10.2307/1970165))
+* {#BoothbyWang} W. M. Boothby and H. C. Wang, _On contact manifolds_, Ann. of Math. (2) 68 (1958) 721&#8211;734. ([jstor:10.2307/1970165](http://www.jstor.org/stable/10.2307/1970165))
  
 
 A modern review of this is in ([Geiges, section 7.2](#Geiges)).
 
 An analogous result for a weaker form of regularity is discussed in
 
-* C. Thomas, _Almost regular contact manifolds_, J. Diff. Geom. 11 (1976) ([Euclid](http://projecteuclid.org/euclid.jdg/1214433722))
+* C. Thomas, _Almost regular contact manifolds_, J. Diff. Geom. 11 (1976) ([euclid:jdg/1214433722](http://projecteuclid.org/euclid.jdg/1214433722))
 
 A characterization of $S^1$-invariant contact structures on [[circle bundles]] is in 
 
