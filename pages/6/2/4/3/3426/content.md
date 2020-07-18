@@ -10,6 +10,11 @@ Warning: distinguish from mathematician David Joyce who worked on knot theory an
 
 ## Selected writings
 
+On [[hypercomplex manifolds]] in terms of [[G-structure]]:
+
+* [[Dominic Joyce]], _Manifolds with many complex structures_, The Quarterly Journal of Mathematics, Volume 46, Issue 2, June 1995, Pages 169–184 ([doi:10.1093/qmath/46.2.169](https://doi.org/10.1093/qmath/46.2.169))
+
+
 On [[Calabi-Yau orbifolds]]:
 
 * [[Dominic Joyce]], _Deforming Calabi-Yau orbifolds_, Asian Journal of Mathematics 3.4 (1999): 853-868 ([pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/ajm/1999/0003/0004/AJM-1999-0003-0004-a007.pdf))
