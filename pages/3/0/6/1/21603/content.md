@@ -15,7 +15,7 @@ Second, although the rules are not algorithmic, there is implicit propagation of
 
 This section repeats some of the rules of v1 in HOAS style, since variables and substitution (of terms) are technically expressed differently. Most rules that don't add variables to the context are skipped, since there's no guesswork in translating these.
 
-As usual, translating into HOAS lands in the second-order fragment. There's a pretty standard notation for rules of this fragment. Generic metatheory for this fragment has been worked out under the name [Second-Order Metavariables](#SOMeta). (Actually that framework also handles... FIXME)
+As usual, translating into HOAS lands in the second-order fragment. There's a pretty standard notation for rules of this fragment.
 
 ### Miscellaneous
 
@@ -125,3 +125,15 @@ c \Vdash C[zro] \\
 x \Vdash Nat,h \Vdash C[x] \vdash c \Vdash C[suc(x)]
 \end{array}}
 {c \Vdash C[n]}$$
+
+## Judgment-level reasoning
+
+There's another way to write the HOAS formulation of rules, which is perhaps not as pretty, but makes the utility of the HOAS formulation more clear: The judgment forms are atomic relation symbols in a predicate logic, and the rules are axioms.
+
+Here's just one example, since the translation from the above "second-order" notation is completely systematic (FIXME: No it's not. You need to infer where to put quantifiers!):
+
+$natElim\,:\,\forall n,c,C.(n \Vdash Nat) \Rightarrow
+(\forall x.(x \Vdash Nat) \Rightarrow (C(x)\,type)) \Rightarrow$  
+$\qquad (c \Vdash C(zro)) \Rightarrow
+((x \Vdash Nat) \Rightarrow (h \Vdash C(x)) \Rightarrow (c \Vdash C(suc(x)))) \Rightarrow$  
+$\qquad (c \Vdash C(n))$
