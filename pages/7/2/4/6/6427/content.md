@@ -52,14 +52,11 @@ The [[coset]] ([[super Klein geometry]]) of a super Poincar&#233; group by the [
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
  
 
-* [[Veeravalli Varadarajan]], section 7.5 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
+* [[Veeravalli Varadarajan]], section 6,5 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004 ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
 * [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
 
-Also
-
-* _Super spacetimes and super Poincar&#233;-group_ ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
 [[!redirects super Poincaré groups]]
 
