@@ -248,8 +248,14 @@ The [[mapping stacks]] of orbifolds are discussed in
 
 * {#RobertsVozzo18} [[David Roberts]], [[Raymond Vozzo]], _The Smooth Hom-Stack of an Orbifold_, In : Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1. Springer, Cham (2018) ([arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [doi:10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3))
 
+Discussion of [[principal bundles]] and [[fiber bundles]] over orbifolds:
 
-An expected relation of orbifolds to [[global equivariant homotopy theory]] is discussed in
+* [[Camille Laurent-Gengoux]], [[Jean-Louis Tu]], [[Ping Xu]], _Chern-Weil map for principal bundles over groupoids_, Math. Z. 255, 451–491 (2007) ([arXiv:math/0401420](https://arxiv.org/abs/math/0401420), [doi:10.1007/s00209-006-0004-4](https://doi.org/10.1007/s00209-006-0004-4))
+
+* Christopher Seaton, _Characteristic Classes of Bad Orbifold Vector Bundles_, Journal of Geometry and Physics 57 (2007), no. 11, 2365--2371 ([arXiv:math/0606665](https://arxiv.org/abs/math/0606665))
+
+
+An expected relation of orbifolds ([[orbispaces]]) to [[global equivariant homotopy theory]]:
 
 * [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
 
