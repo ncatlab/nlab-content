@@ -1,7 +1,14 @@
 
 * [webpage](http://www-math.univ-poitiers.fr/~laurent/)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[fiber bundles]] and [[principal bundles]] over [[Lie groupoids]] (e.g. [[orbifolds]]):
+
+* [[Camille Laurent-Gengoux]], [[Jean-Louis Tu]], [[Ping Xu]], _Chern-Weil map for principal bundles over groupoids_, Math. Z. 255, 451–491 (2007) ([arXiv:math/0401420](https://arxiv.org/abs/math/0401420), [doi:10.1007/s00209-006-0004-4](https://doi.org/10.1007/s00209-006-0004-4))
+
+
+## Related $n$Lab entries
 
 * [[Lie-Poisson structure]]
 
