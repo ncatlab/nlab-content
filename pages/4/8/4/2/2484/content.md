@@ -113,6 +113,11 @@ For a pedagogical discussion of the advantages and disadvantages of teaching the
 
 * Secret blogging seminar, _Algebraic geometry without prime ideals_, ([blog discussion](https://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals/))
 
+Discussion for [[supergeometry]]:
+
+* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
+
+
 See also
 
 * {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([web](https://rawgit.com/iblech/internal-methods/master/notes.pdf))
