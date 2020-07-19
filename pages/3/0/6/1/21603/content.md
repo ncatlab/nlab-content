@@ -137,3 +137,22 @@ $natElim\,:\,\forall n,c,C.(n \Vdash Nat) \Rightarrow
 $\qquad (c \Vdash C(zro)) \Rightarrow
 ((x \Vdash Nat) \Rightarrow (h \Vdash C(x)) \Rightarrow (c \Vdash C(suc(x)))) \Rightarrow$  
 $\qquad (c \Vdash C(n))$
+
+Note that $C$ is a *function* in the HOAS formulation. But it's a function of the metalanguage, not of the object language. When rules quantify over functions, that's (a very restricted case of) second-order quantification.
+
+### Vs reasoning about Reflected Judgments
+
+In Nuprl-like systems, the semantic judgments are reflected internally as squashed types, and can be reasoned about using propositions-as-types. The metalanguage gives us a way to reason about formal judgments. Aside from the ability to reason about "large" judgment forms like type validity, is this judgment-level reasoning actually different from internal reasoning? It turns out it is.
+
+For example, consider the metalanguage formula:
+
+$$\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$$
+
+The puzzle is to find a type (assuming ($A\,type$) and ($B\,type$)) that's provably inhabited if and only if that formula is derivable. In more detail, we want some metalanguage function $R$ such that:
+
+$$\forall A,B.(A\,type) \Rightarrow (B\,type) \Rightarrow
+((\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)) \Leftrightarrow (\exists p.p \Vdash R(A,B)))$$
+
+A couple of perhaps-plausible-looking solutions for $R(A,B)$ are ($\Pi t:Comp.(t \in A) \to (t \in B)$) and ($\Pi t:\top.(t \in A) \to (t \in B)$). But both of these are wrong. The first is too weak (you get left-to-right only) and the second is not even a type. It seems there is no type to quantify over, which would salvage this kind of representation.
+
+The metalanguage formula we're trying to represent turns out to be asserting that $A$ is a subtype of $B$. So we can take $R(A,B)$ to be ($A \lt\!\!:\;B$). In fact, the first wrong answer is what we called "inclusion" ($\subseteq$).
