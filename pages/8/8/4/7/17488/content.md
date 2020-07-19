@@ -4179,7 +4179,7 @@ $$
   [X,\Omega Z]_{strict}
 $$
 
-being a bijection for all Omega-spectra $Z$. But since $\Omega$ preserves Omega-spectra by the first point above, this is still maps into a fibrant objects, hence is again equivalent (using again the property of the left Bousfield localization) to the hom in the strict model structure
+being a bijection for all Omega-spectra $Z$. But since $\Omega$ preserves Omega-spectra by the first point above, this is still maps into a fibrant objects, hence is again equivalent (using again the property of the left Bousfield localization) to the hom in the stable model structure
 
 $$
   [f, \Omega Z]_{stable}
@@ -4229,7 +4229,7 @@ The diagrams that need to commute for the structure maps to give a homomorphism 
 
 $$
   \array{
-    S^1 \wedge S^1 \wedge \ast &\overset{0}{\longrightarrow}& X_0
+    S^1 \wedge S^1 \wedge \ast &\overset{S^1 \wedge 0}{\longrightarrow}& S^1 \wedge X_0
     \\
     {}^{\mathllap{S^1 \wedge 0}}\downarrow && \downarrow^{\mathrlap{\sigma_0}}
     \\
@@ -4243,7 +4243,7 @@ $$
   \array{
      S^1 \wedge S^1 \wedge X_{n-1}
         &\overset{S^1 \wedge \sigma_{n-1}}{\longrightarrow}&
-     X_n
+     S^1 \wedge X_n
      \\
      {}^{\mathllap{S^1 \wedge \sigma_{n-1}}}\downarrow
        &&
@@ -4421,7 +4421,7 @@ on the category of sequential $T\wedge S^k$-spectra, where
 
 * the weak equivalences are the morphisms that induce isomorphisms under $\underset{\longrightarrow}{\lim}_{k n \in k \mathbb{N}}\pi_{k n}(-)$;
 
-* the fibrations are the morphisms whose $\eta_k$-naturality square is a [[homotopy pullback]], where $\eta_K \colon id \to Q_k$ is the $K \wedge S^k$-[[spectrification]] functor defined as in def. \ref{SpectrificationForTopologicalSequentialSpectra} but with $S^1$ replaced by $T \wedge S^k$ throughout.
+* the fibrations are the morphisms whose $\eta_k$-naturality square is a [[homotopy pullback]], where $\eta_K \colon id \to Q_k$ is the $T \wedge S^k$-[[spectrification]] functor defined as in def. \ref{SpectrificationForTopologicalSequentialSpectra} but with $S^1$ replaced by $T \wedge S^k$ throughout.
 
 =--
 
@@ -4457,7 +4457,7 @@ between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^k$-s
     S^k X_{k n}
       \simeq
     S^{k-1}\wedge S^1 \wedge X_{k n}
-      \overset{S^1 \wedge \sigma_{k n}^X}{\longrightarrow}
+      \overset{S^{k-1} \wedge \sigma_{k n}^X}{\longrightarrow}
     S^{k-1} \wedge X_{k n +1}
       \longrightarrow
     \cdots
@@ -4491,7 +4491,6 @@ between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^k$-s
         \sigma^{\mathcal{X}}_{n - (k-1)} & if \; n+1 \in k \mathbb{N}
         \\
         id_{S^1 \wedge \mathcal{X}_n} & otherwise
-        \\
       }
     \right.
     \,.
@@ -4633,8 +4632,7 @@ $$
 +-- {: .num_lemma #EquivalenceBetweenTSpectraForEquivalentT}
 ###### Lemma
 
-For $T \coloneqq K_+$ a compact contractible topological space with base point adjoined, and for $k \in \mathbb{N}$, write $i \colon S^k \longrightarrow T \wedge S^k$
-for the canonical inclusion. Then the induced functor $i^\ast$ from def. \ref{RestrictionFunctorsFromT1SpectraToT2Spectra} is the [[right adjoint]] in a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
+Let $T \coloneqq K_+$ be a compact contractible topological space with base point adjoined. Let $i \colon S^k \longrightarrow T \wedge S^k$ be a morphism induced by a point $\ast \longrightarrow K$. Then the induced functor $i^\ast$ from def. \ref{RestrictionFunctorsFromT1SpectraToT2Spectra} is the [[right adjoint]] in a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
 
 $$
   Seq_{T\wedge S^1}Spec(Top_{cg})_{stable}
@@ -4721,17 +4719,9 @@ $$
   \tilde f \;\colon\; p^\ast X \longrightarrow Y
 $$
 
-and this correspondence is clearly [[natural bijection|naturally bijective]]
+and this correspondence is clearly [[natural bijection|naturally bijective]].
 
-This establishes the adjunction $p^\ast \dashv i^\ast$. This is a [[Quillen equivalence]] because for every $Z \in Top^{\ast/}_{cg}$ then by the contractibility of $K$ there is an equivalence
-
-$$
-  [T \wedge S^q,Z]_\ast
-   \simeq
-  [S^q, Z]_\ast
-$$
-
-and hence the concept of stable weak homotopy equivalences in both categories agrees. Hence any $\tilde f \colon p^\ast X \to Y$ is a stable weak homotopy equivalence precisely if $f \colon X \to i^\ast y$ is.
+This establishes the Quillen adjunction $p^\ast \dashv i^\ast$. Note that for any spectrum $X$, there is a natural identification between the stable homotopy groups of $X$ and $p^*X$. Similar statement holds for $i^*$. It follows that $p^\ast$ and $i^\ast$ preserve stable weak equivlances, and that these constitute a [[Quillen equivalence]] because the adjunction unit and counit are stable weak equivalences.
 
 =--
 
@@ -4791,7 +4781,7 @@ $$
   X \wedge S^1
 $$
 
-in $Ho(SeqSpec(Top_{cg})_{stable})$ (where we are using that $R_2$ evidently preserves cofibrant spectra, so that $L_2$ applied to $\tau$ represents the correct derived functor of $L_2$ and hence preserves this isomorphism).
+in $Ho(SeqSpec(Top_{cg})_{stable})$ (where we are using that $L_2$  preserves stable weak equivalences).
 
 Now to see that the isomorphism $\tau$ exists. Write
 
