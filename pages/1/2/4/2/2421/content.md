@@ -198,12 +198,20 @@ This definition is found e.g. in:
 
 ## References
 
+Discussion via [[functorial geometry]]:
+
+* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
+
+See also
+
+* Katsumi Yagi, _Super Lie Groups_, Adv. Stud. Pure Math. Progress in Differential Geometry (1993) 407 - 412 ([euclid:1534359537](https://projecteuclid.org/euclid.aspm/1534359537))
+
 * [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
 * Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
 
 
-* [[Veeravalli Varadarajan]], section 7.1 of _[[Supersymmetry for mathematicians]]: An introduction_
+* [[Veeravalli Varadarajan]], section 6.1 of: _[[Supersymmetry for mathematicians]]: An introduction_
 
 Discussion of [[group extensions]] of supergroups includes
 
