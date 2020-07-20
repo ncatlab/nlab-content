@@ -28,7 +28,7 @@ $$
   (-) \cap [X] \;\colon\; H^\bullet(X) \stackrel{\simeq}{\to} H_{d-\bullet}(X)
 $$
 
-between [[ordinary cohomology]] and [[ordinary homology]] groups as indicated, is called a **[[Poincaré duality space]]**.
+between [[ordinary cohomology]] and [[ordinary homology]] groups as indicated, is called a **Poincaré duality space**.
  
 
 =--
