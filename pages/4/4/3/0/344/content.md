@@ -29,7 +29,7 @@ A __finitely extensive category__ (or __finitary extensive category__) is a cate
 
  1. Pullbacks of finite-coproduct injections along arbitrary morphisms exist and finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback stability|stable under pullback]].
  2. For any objects $a,b$ the coproduct functor $E/a \times E/b \to E/(a+b)$ is an [[equivalence of categories]].
- 3. Pullbacks of finite-coproduct injections along arbitrary morphisms exist, and in any commutative diagram
+ 3. Pullbacks of finite-coproduct injections (and thus all coproduct injections) along arbitrary morphisms exist, and in any commutative diagram
  $$\array{x & \to & z & \leftarrow & y\\
    \downarrow  & &   \downarrow  &  &  \downarrow \\
    a & \to & a+b & \leftarrow & b}$$
@@ -40,7 +40,7 @@ An __infinitary extensive category__ is a category $E$ with all (small) [[coprod
 
  1. Pullbacks of coproduct injections along arbitrary morphisms exist and finite coproducts are disjoint and stable under pullback.
  2. For any small family $(a_i)$ of objects, the coproduct functor $\prod_i (E/a_i) \to E/_{(\coprod_i a_i)}$ is an equivalence of categories.
- 3. For any family of commutative squares
+ 3. Pullbacks of finite-coproduct injections (and thus all coproduct injections) along arbitrary morphisms exist, and for any family of commutative squares
  $$\array{ x_i & \to & z \\\downarrow &&\downarrow^f \\ a_i & \to & \coprod_i a_i } $$
  in which the bottom family of morphisms is the coproduct injections and the right-hand morphism is always the same, the top family are the injections of a coproduct diagram (hence $z = \coprod_i x_i$) if and only if all the squares are pullbacks.
  4. All small coproducts are [[van Kampen colimits]].
