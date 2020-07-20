@@ -6,8 +6,16 @@ __Gregory Maxwell Kelly__ (1930-2007) was a category theorist, the founder of th
 
 On [[enriched category theory]]:
 
-* _Basic concepts of enriched category theory_ ([tac](http://tac.mta.ca/tac/reprints/articles/10/tr10abs.html))
+* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982)
 
+  Republished as: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+On [[reflective factorization systems]]:
+
+* {#CHK} C. Cassidy, M. H&#233;bert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) 38 (1985), 287--329 ([doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624))
+ 
+* {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+ 
 
 On [[Cartesian bicategories]]:
 
