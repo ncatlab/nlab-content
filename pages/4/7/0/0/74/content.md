@@ -52,8 +52,9 @@ an [[enriched model category]] or more generally an [[enriched homotopical categ
 
 Textbook accounts include
 
-* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, 
- Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982)
+
+  Republished as: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 * [[Francis Borceux]], Vol 2, chapter 6 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
