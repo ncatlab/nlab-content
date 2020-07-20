@@ -29,7 +29,7 @@ A __finitely extensive category__ (or __finitary extensive category__) is a cate
 
  1. Pullbacks of finite-coproduct injections along arbitrary morphisms exist and finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback stability|stable under pullback]].
  2. For any objects $a,b$ the coproduct functor $E/a \times E/b \to E/(a+b)$ is an [[equivalence of categories]].
- 3. In any commutative diagram
+ 3. Pullbacks of finite-coproduct injections along arbitrary morphisms exist, and in any commutative diagram
  $$\array{x & \to & z & \leftarrow & y\\
    \downarrow  & &   \downarrow  &  &  \downarrow \\
    a & \to & a+b & \leftarrow & b}$$
