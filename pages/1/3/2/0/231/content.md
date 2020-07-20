@@ -244,15 +244,11 @@ The equation $\lambda_1 = \rho_1 \colon 1 \otimes 1 \to 1$ holds in a monoidal c
 
 +-- {: .proof}
 ###### Proof 
-Since $1 \otimes -$ is an equivalence, it suffices to show $1 \otimes \lambda_1 = 1 \otimes \rho_1$. But we have the equations 
+Since $- \otimes 1$ is an equivalence, it suffices to show $\lambda_1 1=\rho_1 1$. We have $1\lambda_1=\lambda_{11}$ by the naturality equation $\lambda_1 \circ (1\lambda_1) = \lambda_1 \circ \lambda_{11}$. Hence we get
 
-$$(1 \lambda_1) \circ \alpha_{1, 1, 1} = \lambda_1 1$$ 
+$$\lambda_1 1 = (1 \lambda_1) \circ \alpha_{1, 1, 1} = \rho_1 1$$
 
-$$\,$$ 
-
-$$(1 \rho_1) \circ \alpha_{1, 1, 1} = \lambda_1 1$$ 
-
-where the first equation follows from Lemma \ref{kel1} and a naturality equation $\lambda_1 \circ (1\lambda_1) = \lambda_1 \circ \lambda_{11}$, and the second from a unit coherence triangle. One concludes by composing each side of the equations above by $\alpha_{1, 1, 1}^{-1}$. 
+where the first equation follows from Lemma \ref{kel1} and the second from the triangle identity. 
 =-- 
 
 
