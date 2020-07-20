@@ -2507,7 +2507,7 @@ $$
   \array{
      A && \overset{f}{\longrightarrow} && X
      \\
-     & {}_{\mathllap{\hat f}}\searrow && \nearrow_{\mathrlap{{\phi} \atop {\in WHE}}}
+     & {}_{\mathllap{\hat f}}\searrow && \nearrow_{\mathrlap{{\phi} \atop {\in W_{cl}}}}
      \\
      && \hat X
   }
@@ -2523,7 +2523,7 @@ Apply lemma \ref{nConnectedCWApproximationOfContinuousFunction} iteratively for 
 
 $$
   \array{
-    A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_2}{\longrightarrow}& X_1 &\longrightarrow & \cdots
+    A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_1}{\longrightarrow}& X_1 &\longrightarrow & \cdots
     \\
     &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_0}} & \swarrow_{\mathrlap{\phi_1}} & \cdots
     \\
@@ -3506,11 +3506,11 @@ $$
   f
   \;\colon\;
   X
-  \underoverset{W_Q \cap Cof_Q}{\tilde i_L}{\longrightarrow}
+  \underoverset{\in W_Q \cap Cof_Q}{\tilde i_L}{\longrightarrow}
   X'
-  \underoverset{W_Q \cap Fib_Q}{\tilde i_R}{\longrightarrow}
+  \underoverset{\in W_Q \cap Fib_Q}{\tilde i_R}{\longrightarrow}
   Z \underset{Q(Y)}{\times} Y
-  \underoverset{Fib_Q}{\tilde p}{\longrightarrow}
+  \underoverset{\in Fib_Q}{\tilde p}{\longrightarrow}
   Y
   \,.
 $$
@@ -5447,7 +5447,7 @@ In particular, the $J_{seq}^{stable}$-[[injective objects]] are precisely the [[
 +-- {: .proof}
 ###### Proof
 
-By theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, lifting against $J_{seq}^{stric}$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), equivalent to left lifting $i_+$ against the pullback powering $f^{\Box k_n}$ from def. \ref{PushoutProductWithRespectToSmashTensoring}. Since the $\{i_+\}$ are the generating cofibrations in $Top_{cg}^{\ast/}$  such lifting means that $f^{\Box k_n}$ is a weak equivalence in the strict model sructure. But by lemma \ref{CorepresentationOfAdjunctStructureMaps}, $f^{\Box k_n}$ is precisely the comparison morphism in question.
+By theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, lifting against $J_{seq}^{strict}$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), equivalent to left lifting $i_+$ against the pullback powering $f^{\Box k_n}$ from def. \ref{PushoutProductWithRespectToSmashTensoring}. Since the $\{i_+\}$ are the generating cofibrations in $Top_{cg}^{\ast/}$  such lifting means that $f^{\Box k_n}$ is a weak equivalence in the strict model sructure. But by lemma \ref{CorepresentationOfAdjunctStructureMaps}, $f^{\Box k_n}$ is precisely the comparison morphism in question.
 
 =--
 
@@ -5469,7 +5469,7 @@ is an acyclic fibration in the strict model structure, hence is degreewise a [[w
 +-- {: .proof}
 ###### Proof
 
-Let $f \colon X \to B$ be both a stable weak homotopy equivalence as well as a $K$-[[injective morphism]]. Since $K$ contains the generating acyclic cofibrations for the strict model structure, $f$ is in particular a strict fibration, hence a degreewise fibration.
+Let $f \colon X \to B$ be both a stable weak homotopy equivalence as well as a $J_{seq}^{stable}$-[[injective morphism]]. Since $J_{seq}^{stable}$ contains the generating acyclic cofibrations for the strict model structure, $f$ is in particular a strict fibration, hence a degreewise fibration.
 
 Consider the fiber $F$ of $f$, hence the morphism $F \to \ast$ which is the pullback of $f$ along $\ast \to B$. Notice that since $f$ is a strict fibration, this is the [[homotopy fiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) of $f$ in the strict model structure.
 
@@ -5479,7 +5479,7 @@ We claim that
 
 1. $F\to \ast$ is a stable weak homotopy equivalence.
 
-The first item follows since $F$, being the pullback of a $K$-injective morphisms, is a $K$-[[injective object]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), so that, by lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra}, $F$ it is an Omega-spectrum.
+The first item follows since $F$, being the pullback of a $J_{seq}^{stable}$-injective morphisms, is a $J_{seq}^{stable}$-[[injective object]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), so that, by lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra}, $F$ it is an Omega-spectrum.
 
 For the second item:
 
@@ -5518,7 +5518,7 @@ $$
   \pi_\bullet(F)
    \longrightarrow
   \pi_\bullet(X)
-    \overset{(f_\ast}{\longrightarrow}
+    \overset{f_\ast}{\longrightarrow}
   \pi_\bullet(B)
     \to
   \cdots
@@ -5530,7 +5530,7 @@ Since, by assumption, $f_\ast$ is an isomorphism, this exactness implies that $\
 
 Feeding this back into the above degreewise [[long exact sequence of homotopy groups]] now implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree.
 
-To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_0$ is the pullback (in topological spaces) of $\Omega (f_{1})$. But by the above $\Omega f_{1}$ is a weak homotopy equivalence, and since $\Omega = Maps(S^1,-)_\ast$ is a  right Quillen functor (prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}) it is also a Serre fibration. Therefore $f_0$ is the pullback of an acyclic Serre fibration and hence itself a weak homotopy equivalence.
+To deduce the remaining case that also $\pi_0(f_n)$ is an isomorphism, observe that by assumption of $J_{seq}^{stable}$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_n$ is weakly equivalent to the pullback (in topological spaces) of $\Omega (f_{n+1})$. But by the above $\Omega f_{n+1}$ is a weak homotopy equivalence, and since $\Omega = Maps(S^1,-)_\ast$ is a  right Quillen functor (prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}) it is also a Serre fibration. Therefore $f_n$ is weakly equivalent to the pullback of an acyclic Serre fibration and hence itself a weak homotopy equivalence.
 
 =--
 
@@ -5621,7 +5621,7 @@ Having finite coproducts means
 
 Regarding the initial object:
 
-The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All together with means that for $X$ any fibrant-cofibrant spectrum, then
+The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All these together mean that for $X$ any fibrant-cofibrant spectrum, we have
 
 $$
   Hom_{Ho(Spectra)}(\Sigma^\infty \ast, Z)
@@ -5725,9 +5725,9 @@ $$
     \overset{\Delta_X}{\to}
   X \times X
     \overset{(f,g)}{\longrightarrow}
-  \Omega \Sigma X \times \Omega \Sigma X
+  \Omega \Sigma Y \times \Omega \Sigma Y
   \overset{}{\longrightarrow}
-  \Omega \Sigma X
+  \Omega \Sigma Y
   \,.
 $$
 
@@ -5759,7 +5759,7 @@ $$
 
 preserves group structure.
 
-More explicitly, we may see the respect for groupstructure structure of the postcomposition opeation from the [[natural transformation|naturality]] of the loop composition map which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}).
+More explicitly, we may see the respect for group structure of the postcomposition opeation from the [[natural transformation|naturality]] of the loop composition map which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}).
 
 To make this fully explicit, consider the following diagram in $Ho(Spectra)$:
 
@@ -5841,8 +5841,8 @@ $$
   X
     \overset{f_1}{\longrightarrow}
   \Sigma^{-n_1} Y
-    \overset{\Sigma^{-n_2}(f_2)}{\longrightarrow}
-  \Sigma^{-n_2}(\Sigma^{-n_1} Z)
+    \overset{\Sigma^{-n_1}(f_2)}{\longrightarrow}
+  \Sigma^{-n_1}(\Sigma^{-n_2} Z)
     \simeq
   \Sigma^{-n_1 - n_2} Z
 $$
@@ -6516,7 +6516,7 @@ Regarding axiom T3:
 
 By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)).
 
-We may assume without restriction ([lemma](#Introduction+to+Stable+homotopy+theory+--+P#RepresentingHomotopyCommutativeSquaresByCommutativeSquares)) that the [[commuting square]]
+We may assume without restriction ([lemma](Introduction+to+Stable+homotopy+theory+--+P#RepresentingHomotopyCommutativeSquaresByCommutativeSquares)) that the [[commuting square]]
 
 $$
   \array{
