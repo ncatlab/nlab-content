@@ -75,6 +75,9 @@ See also
 
 * Luiz Antonio Barreiro, Ricardo Medina, _The origin of the KLT relations and nonlinear relations for Yang-Mills amplitudes_ ([arxiv:1910.13519](https://arxiv.org/abs/1910.13519))
 
+* Pierre Vanhove, Federico Zerbini, _Building blocks of closed and open string amplitudes_ ([arXiv:2007.08981](https://arxiv.org/abs/2007.08981))
+
+
 
 
 ### Gravity amplitudes as double copy Yang-Mills amplitudes
