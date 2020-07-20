@@ -20,7 +20,11 @@
 
 ## Idea
 
-What is known in the literature as _discrete torsion_ ([Vafa 86](#Vafa86)) are phenomena of [[equivariant cohomology|equivariant]] [[ordinary differential cohomology]], specifically of [[circle n-bundle with connection|circle 2-bundles with connection]] (e.g. represented as [[bundle gerbes]]) modelling the [[B-field]] in [[string theory]] over [[orbifold]] [[spacetimes]] ([Sharpe 99](#Sharpe99)) and of [[circle n-bundle with connection|circle 3-bundles with connection]] (e.g. represented as [[bundle 2-gerbes]]) modelling the [[supergravity C-field]] on [[orbifolds]] ([Sharpe 00](#Sharpe00)), as in [[M-theory on G2-manifolds]] with [[ADE-singularities]].
+What is known in the literature as _discrete torsion_ ([Vafa 86](#Vafa86)) are phenomena of [[equivariant ordinary differential cohomology]], specifically of [[circle n-bundle with connection|circle 2-bundles with connection]] (e.g. represented as [[bundle gerbes]]) modelling the [[B-field]] in [[string theory]] over [[orbifold]] [[spacetimes]] ([Sharpe 99](#Sharpe99)) and of [[circle n-bundle with connection|circle 3-bundles with connection]] (e.g. represented as [[bundle 2-gerbes]]) modelling the [[supergravity C-field]] on [[orbifolds]] ([Sharpe 00](#Sharpe00)), as in [[M-theory on G2-manifolds]] with [[ADE-singularities]].
+
+## Related concepts
+
+* [[equivariant ordinary differential cohomology]]
 
 
 ## References
