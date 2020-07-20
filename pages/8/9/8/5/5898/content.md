@@ -1,5 +1,5 @@
 
-* [website](http://www.math.msu.edu/~redden/)
+* [website](https://myweb.liu.edu/~dredden/)
 
 ## Selected writings
 
