@@ -179,6 +179,8 @@ For the case $\mathbf{H} = $ [[Smooth∞Grpd]] this intrinsic definition reprodu
 
 ## Related concepts
 
+* [[twisted ordinary differential cohomology]]
+
 * [[equivariant ordinary differential cohomology]]
 
 * [[arithmetic Chow group]]
