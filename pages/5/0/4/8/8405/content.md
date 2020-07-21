@@ -20,4 +20,6 @@ The case $n=1$ corresponds to [[transition system]]s.
 
 *  [[Philippe Gaucher]], _Towards a homotopy theory of higher dimensional transition systems_, Theory and Applications of Categories, Vol. 25, No. 12, 2011, pp. 295&#8211;341, available as [arxiv:1011.0918](http://arxiv.org/abs/1011.0918)
 
+[[!redirects higher dimensional transition systems]]
+
 category:computer science
