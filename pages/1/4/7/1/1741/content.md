@@ -1,5 +1,5 @@
 
-# Discrete fibrations
+# Contents
 * table of contents
 {: toc}
 
