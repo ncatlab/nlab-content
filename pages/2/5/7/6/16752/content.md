@@ -69,11 +69,13 @@ An early set of lecture notes is
 
 Modern accounts include
 
-* {#BoyerGalicki07} Charles Boyer, Krzysztof Galicki, _Sasakian Geometry_, Oxford Mathematical Monographs, Oxford University Press, 2007
+* {#BoyerGalicki07} [[Charles Boyer]], [[Krzysztof Galicki]], _Sasakian Geometry_, Oxford Mathematical Monographs, Oxford University Press, 2007 ([doi:10.1093/acprof:oso/9780198564959.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198564959.001.0001/acprof-9780198564959))
+
+* [[Charles Boyer]], _Sasakian geometry: The recent work of Krzysztof Galicki_ ([arXiv:0806.0373](https://arxiv.org/abs/0806.0373))
+
 
 * {#Sparks10} [[James Sparks]], _Sasaki-Einstein Manifolds_, Surv. Diff. Geom. 16 (2011) 265-324 ([arXiv:1004.2461](https://arxiv.org/abs/1004.2461))
 
-* Charles Boyer, _Sasakian geometry: The recent work of Krzysztof Galicki_ ([arXiv:0806.0373](https://arxiv.org/abs/0806.0373))
 
 See also
 
