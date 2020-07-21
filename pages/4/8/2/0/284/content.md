@@ -23,7 +23,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -319,7 +318,7 @@ For several years [[Andre Joyal]] -- who was one of the first to promote the ide
 
 Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]) are in
 
-* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]])
   
 
 Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
