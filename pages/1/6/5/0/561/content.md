@@ -102,6 +102,6 @@ Both forms of [[opposite 2-category|2-categorical dualization]] are commonly enc
 
 An [[object]] such that the unique morphism to the [[terminal object]] is a fibration (in abstract [[homotopy theory]]) is called a _[[fibrant object]]_.
 
-A replacement of a morphism be a weakly equivalent fibration is also called a _[[resolution]]_.
+A replacement of a morphism by a weakly equivalent fibration is also called a _[[resolution]]_.
 
 [[!redirects fibrations]]
