@@ -34,7 +34,7 @@ Let $A$ be an [[nonassociative algebra|possibly nonassociative]] [[star-algebra]
 
 The  _Cayley--Dickson double_ of the [[real numbers|real]] [[star-algebra]] $A$ is the [[real numbers|real]] [[star-algebra]] $CD(A)$
 
-* whose underlying [[real vector space]] is is the [[direct sum]] $A \oplus A$, 
+* whose underlying [[real vector space]] is the [[direct sum]] $A \oplus A$, 
 
 * whose multiplication is given by
 
