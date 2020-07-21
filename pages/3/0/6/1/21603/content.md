@@ -181,6 +181,16 @@ $$\forall p.(a \Vdash A) \Leftrightarrow (p \Vdash a \in A)$$
 
 so the difference between ($\Vdash$) and ($\in$) is not the mismatch. The mismatch turns out to be the quantifiers used.
 
+It turns out ($\Pi t:Comp.(t \in A) \to (t \in B)$) is inhabited if and only if ($\forall t.(t \Vdash Comp) \Rightarrow (t \Vdash A) \Rightarrow (t \Vdash B)$). So there's an extra ($t \Vdash Comp$) requirement making inclusion weaker than subtyping.
+
+If you think about how adequacy of a HOAS representation works, the metalanguage quantifiers over terms are quantifying over *open* terms, specifically. Meanwhile the object language quantifiers range over the elements of a type, and in the PER semantics, elements of types are represented by *closed* terms. The open terms behave differently because PER semantics also enforces respect for typed equality, and in the formal system, this requirement is implicit.
+
+But equality at the $Comp$ type is just computational equivalence, which is respected by all the semantic judgments. So when dealing with computations, the implicit respect requirements are vacuous, and the metalanguage reasoning about arbitrary open terms closely resembles semantic reasoning about arbitrary closed terms. This might be part of the reason why $Comp$ is sometimes glossed as the type of all closed terms, although this technically doesn't make sense. (Semantically, many types contain all the closed terms, while syntactically, no type can rule out variables.)
+
+Another reason for the intuition that $Comp$ is the type of closed terms is that there's an admissible rule saying that any closed term has type $Comp$. (This rule cannot be represented in HOAS style without some modal trick. The proof is by structural induction on the term, and uses the appropriate computation formation rule in each case. The motive needs to be generalized in order to handle binding forms.)
+
+Returning to the issue of subtyping vs inclusion, one could think of inclusion as the closed special case of subtyping. It's only because of the restriction to $Comp$ that the ($(t \in A) \to (t \in B)$) part corresponds to ($(t \Vdash A) \Rightarrow (t \Vdash B)$), as explained in the next section.
+
 #### Strong vs Weak Negation
 
 FIXME: Move to a different section:
