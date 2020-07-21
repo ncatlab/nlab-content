@@ -214,6 +214,10 @@ Structures obtained by further relaxing also the [[associativity]] law are discu
 
 * Salvatore Tringali, _Plots and Their Applications - Part I: Foundations_  ([arXiv:1311.3524](http://arxiv.org/abs/1311.3524))
 
+Topologically enriched semicategories are used for studying some aspects of concurrency theory in computer science. It is necessary to work with semicategories to have functorial definitions of the branching and merging homologies of a concurrent system. A starting point for reading the theory can be the paper
+
+* {#Gaucher} [[Philippe Gaucher]], _Flows revisited: the model category structure and its left determinedness_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, vol LXI-2 (2020) ([published](http://cahierstgdc.com/wp-content/uploads/2020/04/GAUCHER-LXI-2.pdf), [arXiv:1806.08197](https://arxiv.org/abs/1806.08197))
+
 [[!redirects semicategories]]
 
 [[!redirects semi-category]]
