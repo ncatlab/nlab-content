@@ -1,3 +1,3 @@
-* [Webpage](http://www.pps.univ-paris-diderot.fr/~gaucher/)
+* [Webpage](http://www.irif.fr/~gaucher)
 
 category: people
