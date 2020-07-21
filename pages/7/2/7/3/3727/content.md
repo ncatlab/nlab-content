@@ -3,6 +3,11 @@
 
 ## Selected articles 
 
+On [[homotopy commutative diagrams]]:
+
+* [[William Dwyer]], [[Dan Kan]], [[Jeff Smith]], _Homotopy commutative diagrams and their realizations_, Journal of Pure and Applied Algebra 57 (1989) 5-24 (<a href="https://doi.org/10.1016/0022-4049(89)90023-6">doi:10.1016/0022-4049(89)90023-6</a>)
+
+
 On [[p-compact groups]]:
 
 * {#DwyerWilkerson94} [[William Dwyer]], [[Clarence Wilkerson]], _Homotopy Fixed-point Methods for Lie Groups and Finite Loop Spaces_,  Annals of Mathematics Second Series, Vol. 139, No. 2 (Mar., 1994), pp. 395-442 ([jstor:2946585](https://www.jstor.org/stable/2946585))
