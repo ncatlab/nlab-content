@@ -36,7 +36,11 @@ That various definitions in the literature coincide with this one (in particular
 
 * [[equivariant K-theory]], [[orbifold K-theory]]
 
+  [[equivariant differential K-theory]], [[orbifold differential K-theory]]
+
 * [[twisted ordinary differential cohomology]]
+
+
 
 
 ## References
