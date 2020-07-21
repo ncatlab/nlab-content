@@ -30,7 +30,7 @@ The _pushout-product axiom_ is a compatibility condition between
 
 on a category.
 
-[[closed monoidal category|Closed]]   [[monoidal category|symmetric monoidal categories]] and having a model category structure, that satisfies the pushout-product axiom, together with a unit condition, are called [[monoidal model category|monoidal model categories]] and hence are in particular [[closed monoidal homotopical category|closed monoidal homotopical categories]].
+[[closed monoidal category|Closed]]$\,$[[monoidal category|symmetric monoidal categories]] and having a model category structure, that satisfies the pushout-product axiom, together with a unit condition, are called [[monoidal model category|monoidal model categories]] and hence are in particular [[closed monoidal homotopical category|closed monoidal homotopical categories]].
 
 This is relevant in [[enriched homotopy theory]], which pairs [[enriched category theory]] with [[homotopy theory]].
 
