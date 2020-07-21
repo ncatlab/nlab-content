@@ -362,24 +362,25 @@ provides some understanding of the basic idea.
 
 For [[Rainer Vogt|Vogt]]'s theorem, the original reference is 
 
-* [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52. 
-{#Vogt}
+* {#Vogt} [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52. 
+
 
 A generalisation of his theorem using simplicially enriched categories and the [[homotopy coherent nerve]] of such a thing, is to be found in
 
-* [[J.-M. Cordier]] and [[T. Porter]], _Vogt's Theorem on Categories of Homotopy Coherent Diagrams_, 
-Math. Proc. Camb. Phil. Soc. 100 (1986) pp. 65-90.
+* [[J.-M. Cordier]] and [[T. Porter]], _Vogt's Theorem on Categories of Homotopy Coherent Diagrams_,  Math. Proc. Camb. Phil. Soc. 100 (1986) pp. 65-90.
 
 
 A neat application to changing objects in diagrams within a homotopy type can be found in
 
-* J.-M. Cordier and T. Porter, _Maps between homotopy coherent diagrams_, Top. and its Appls., 
-28, (1988), 255 &#8211; 275.
+* J.-M. Cordier and T. Porter, _Maps between homotopy coherent diagrams_, Top. and its Appls.,  28, (1988), 255 &#8211; 275.
+
+See also 
+
+* [[William Dwyer]], [[Dan Kan]], [[Jeff Smith]], _Homotopy commutative diagrams and their realizations_, Journal of Pure and Applied Algebra 57 (1989) 5-24 (<a href="https://doi.org/10.1016/0022-4049(89)90023-6">doi:10.1016/0022-4049(89)90023-6</a>)
 
 A summary of homotopy coherence can be found in Chapter 5 of 
 
 * [[K. H. Kamps]] and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
-
 
 and in chapter 10 of 
 
@@ -387,8 +388,8 @@ and in chapter 10 of
 
 The operad-theoretic description of homotopy-coherent diagrams is in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
-{#BergerMoerdijkAlgebras}
+* {#BergerMoerdijkAlgebras}[[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
+
 
 See [[model structure on algebras over an operad]] for more on this.
 
@@ -398,3 +399,7 @@ See [[model structure on algebras over an operad]] for more on this.
 
 [[!redirects homotopy coherent functor]]
 [[!redirects homotopy coherent functors]]
+
+[[!redirects homotopy commutative diagram]]
+[[!redirects homotopy commutative diagrams]]
+
