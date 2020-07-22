@@ -167,7 +167,7 @@ Their [[principal ∞-bundle]]s and [[geometric realization of simplicial topolo
 
 Discussion of [[homotopy theory]] over a base $B$ is in
 
-* [[Peter May]], J. Sigurdsson, _Parametrized homotopy theory_ ([web](http://www.math.uiuc.edu/K-theory/0716/))
+* [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_ ([web](http://www.math.uiuc.edu/K-theory/0716/))
 
 [[!redirects simplicial topological groups]]
 
