@@ -17,7 +17,9 @@ This page collects material and links related to
 
   _The Handbook of Algebraic Topology_ 
 
-  1995
+  Oxford 1995
+
+  [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)
 
 collecting survey articles on subjects in [[algebraic topology]]
 
