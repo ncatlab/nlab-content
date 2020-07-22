@@ -638,11 +638,11 @@ The abstract discussion of twisted nonabelian cohomology in $\infty$-toposes is 
 
 Twisted [[generalized (Eilenberg-Steenrod) cohomology]] theory is discussed in
 
-* [[Chris Douglas]], _Twisted stable homotopy theory_ PhD thesis 2005 ([pdf](https://dspace.mit.edu/bitstream/handle/1721.1/33095/62174705-MIT.pdf?sequence=2))
+* [[Chris Douglas]], _Twisted stable homotopy theory_ PhD thesis 2005 ([dspace:1721.1/7582](http://dspace.mit.edu/handle/1721.1/7582))
 
 The abstract discussion of twisted ES-type cohomology in the [[stable (infinity,1)-category of spectra]] is in
 
-* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics 81, American Mathematical Society 2010 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [ISBN:978-0-8218-4887-6](https://bookstore.ams.org/pspum-81))
  
 
 * {#ABGHR14} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _An $\infty$-categorical approach to $R$-line bundles, $R$-module Thom spectra, and twisted $R$-homology_, Journal of Topology Volume 7, Issue 3 2014 Pages 869&#8211;893  ([arXiv:1403.4325](http://arxiv.org/abs/1403.4325))
