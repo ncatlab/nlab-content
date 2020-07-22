@@ -14,7 +14,9 @@
 
 See also
 
-* Wikipedia, _[Lens space](https://en.wikipedia.org/wiki/Lens_space)_
+* [[Manifold Atlas]], _[Lens spaces](http://www.map.mpim-bonn.mpg.de/Lens_spaces)_.
+
+* Wikipedia, _[Lens space](https://en.wikipedia.org/wiki/Lens_space)_.
 
 For [[orbifolds]]:
 
