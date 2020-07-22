@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -156,6 +157,11 @@ The dual concept of KR-homology was defined in
 
 * [[Gennady Kasparov]], _The operator K-functor and extensions of $C^\ast$-algebras,_ Izv. Akad. Nauk. SSSR Ser. Mat. 44, 571-636 (1980).
 
+Discussion in [[equivariant homotopy theory]]:
+
+* Paolo Masulli, _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf), [[MasulliKRTheory2011.pdf:file]])
+
+
 Computations over [[compact Lie groups]] are spelled out in
 
 * Chi-Kwong Fok, _The real K-Theory of compact Lie groups_, 2014 ([pdf](http://pi.math.cornell.edu/~ckfok/Chi_Kwong_Fok_thesis.pdf))
@@ -173,7 +179,6 @@ Reviews include
 
 * Wikipedia, _[KR-theory](http://en.wikipedia.org/wiki/KR-theory)_
 
-* Paolo Masulli, _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf))
 
 
 Remarks on homotopy-theoretic KR in the context of [[algebraic K-theory]] are in
