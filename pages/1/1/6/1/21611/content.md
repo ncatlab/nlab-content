@@ -24,6 +24,8 @@ Orbifold differential K-theory is a generalization of [[differential K-theory]] 
 
 ## Related concepts
 
+* [[equivariant differential K-theory]]
+
 * [[equivariant ordinary differential cohomology]]
 
 ## References
