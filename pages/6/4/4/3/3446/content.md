@@ -19,7 +19,7 @@
 
 ## Definition
 
-A **constant sheaf** is a [[sheaf]] (on some [[site]] C) that is [[isomorphism|isomorphic]] to the [[sheafification]] of a constant [[presheaf]] (a constant [[functor]]).
+A **constant sheaf** is a [[sheaf]] (on some [[site]] C) that is [[isomorphism|isomorphic]] to the [[sheafification]] of a constant [[presheaf]] (a [[constant functor]]).
 
 Together with the [[global section]] functor, the constant sheaf functor is a [[geometric morphism]]
 
