@@ -235,7 +235,8 @@ There seems to be a close relation between the description of [[quantum field th
 
 The relation of locally constant factorization algebras to higher order [[Hochschild homology]] is in 
 
-* [[Gregory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
+* [[Gregory Ginot]], [[Thomas Tradler]], [[Mahmoud Zeinalian]], _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
+
 * [[Gregory Ginot]], _Notes on factorization algebras, factorization homology and applications_, [arxiv/1307.5213](https://arxiv.org/abs/1307.5213)
 
 A comparison with FQFT for TFTs is presented in
