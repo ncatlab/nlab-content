@@ -45,6 +45,8 @@ This is the approach taken in [AdemRuan 01, Def. 3.4](#AdemRuan01)
 
 ## Related concepts
 
+* [[equivariant K-theory]]
+
 * [[orbifold differential K-theory]]
 
 ## References
