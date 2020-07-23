@@ -44,6 +44,6 @@ This is due to ([BEBP](#BEBP), see [Pavlov, theorem 0.2](#Pavlov)). For $X$ a [[
 
 * {#BEBP} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
 
-* {#Pavlov} [[Dmitri Pavlov]], _Brown representability via concordance_ ([pdf](https://dmitripavlov.org/concordance.pdf))
+* {#Pavlov} [[Dmitri Pavlov]], _Structured Brown representability via concordance_ ([pdf](https://dmitripavlov.org/concordance.pdf))
 
 [[!redirects shape via cohesive path infinity-groupoid]]
