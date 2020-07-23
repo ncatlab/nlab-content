@@ -17,7 +17,7 @@ In this convention
 
 * _topos_ means _[[(∞,1)-topos]]_, and so $Topos$ means _[[(∞,1)Topos]]_
 
-* _groupoid_ means _[[∞-groupoid]]_, and so $Gpd$ means _[[?Gpd]]_
+* _groupoid_ means _[[∞-groupoid]]_, and so $Grpd$ means _[[∞Grpd]]_
 
 * _$n$-category_ means _[[(∞,n)-category]]_
 
