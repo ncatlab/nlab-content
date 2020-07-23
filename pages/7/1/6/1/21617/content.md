@@ -1,14 +1,27 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _lens space_ is an example of a [[3-manifold]], the simplest after the [[3-sphere]] $S^{3}$ and $S^{2} \times S^{1}$. Lens spaces are the only 3-manifolds with finite, [[cyclic group|cyclic]], non-trivial [[fundamental group]]. Proving the reverse direction of this (that a 3-manifold with such a fundamental group must be a lens space) is closely related to the [[Poincaré conjecture]].
+A _lens space_ is an example of a [[3-manifold]], the simplest after the [[3-sphere]] $S^{3}$ and $S^{2} \times S^{1}$. Lens spaces are the only 3-manifolds with [[finite group|finite]], [[cyclic group|cyclic]], [[trivial group|non-trivial]] [[fundamental group]]. Proving the reverse direction of this (that a 3-manifold with such a fundamental group must be a lens space) is closely related to the [[Poincaré conjecture]].
 
-Lens spaces are very important in [[geometric topology]]. They offer the simplest examples of manifolds which cannot be distinguished by [[homotopy theory]].
+Lens spaces are very important in [[geometric topology]]. They offer the simplest examples of [[smooth manifolds]] which cannot be distinguished by [[homotopy theory]].
 
-There is a lens space $L(p,q)$ for every pair of integers $p$ and $q$, which can be constructed by [[Dehn surgery]] on an [[unknot]] with coefficient $-\frac{p}{q}$. One can instead construct $L(p,q)$ by an _integral_ Dehn surgery on the framed 'generalised Hopf link' 
+There is a lens space $L(p,q)$ for every [[pair]] of [[integers]] $p$ and $q$, which can be constructed by [[Dehn surgery]] on an [[unknot]] with coefficient $-\frac{p}{q}$. One can instead construct $L(p,q)$ by an _integral_ Dehn surgery on the framed 'generalised Hopf link' 
 
 \begin{centre}
   \begin{tikzpicture}
