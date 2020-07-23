@@ -213,7 +213,7 @@ Lecture notes University of Chicago 1975.
 
 * _State Categories, Closed Categories, and the Existence Semi-Continuous Entropy Functions_ , IMA reprint 86, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/86s.pdf))
 
-* _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/87s.pdf))
+* _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
 
   (on a formalization of the concept of [[chaos]])
 
