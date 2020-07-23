@@ -30,9 +30,9 @@ The Anderson dual of the [[sphere spectrum]] is discussed in
 
 * in ([Freed 14, section 5.1.1](#Freed14)) in the context of invertible [[extended topological field theories]].
 
-The Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)).
+The Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)). This implies that, nonequivariantly $KU$ is Anderson self-dual and the Anderson dual of $KO$ is $\Sigma^4KO$, which were both first proven by [Anderson](#Anderson69).
 
-Similarly [[tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska 12](#Stojanoska12)).
+Similarly [[Tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska 12](#Stojanoska12)).
 
 ## Related concepts
 
@@ -46,12 +46,12 @@ Similarly [[tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska
 
 Original articles include
 
-* D. W. Anderson, _Universal coefficient theorems for K-theory_, mimeographed notes, Univ. California, Berkeley, Calif., 1969.
+* {#Anderson69} D. W. Anderson, _Universal coefficient theorems for K-theory_, mimeographed notes, Univ. California, Berkeley, Calif., 1969.
 
 * Zen-ichi Yosimura, Universal coefficient sequences for cohomology theories of CW-spectra, Osaka J. Math. 12 (1975), no. 2, 305&#8211;323. MR 52 #9212
 
 See also
-
+ 
 * [[Jacob Lurie]], section 4.2 of _[[Representability Theorems]]_
 
 ### Examples
