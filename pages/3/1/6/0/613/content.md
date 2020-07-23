@@ -140,6 +140,8 @@ This perspective suggests that when $X$ is not locally contractible, a better re
 
 * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
+* [[shape via cohesive path ∞-groupoid]]
+
 ## References
 
 * [[K.A. Hardie]], [[K. H. Kamps]], [[R. Kieboom]], A homotopy 2-groupoid of a Hausdorff space. Papers in honour of Bernhard Banaschewski (Cape Town, 1996). Appl. Categ. Structures 8 (2000), no. 1-2, 209--234. 
