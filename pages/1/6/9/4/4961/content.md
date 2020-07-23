@@ -64,7 +64,7 @@ The terminology _chaotic topology_ is motivated (see also at _[[chaos]]_) in
 
 * {#Lawvere84} [[William Lawvere]], _Functorial remarks on the general concept of chaos_ IMA preprint #87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf)) 
 
-via footnote 3 in
+and via footnote 1 (page 3) in
 
 * [[William Lawvere]],  _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf))
 
