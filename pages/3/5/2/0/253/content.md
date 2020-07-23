@@ -44,9 +44,12 @@ f&\mapsto&1_y\circ f\\
 \theta&\mapsto&1_{1_y} \circ \theta
 \end{array}
 \right):B(x,y)\rightarrow B(x,y)$
-*  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B(y,z) \times B(x,y) \times B(w,x)$ to $B(w,z)$ built out of ${\circ}$; such that
-*  Such that the [[pentagon identity]] is satisfied by the [[associators]].
-*  And such that the triangle identity is satisfied by the [[unitors]].
+*  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B(y,z) \times B(x,y) \times B(w,x)$ to $B(w,z)$ built out of ${\circ}$
+
+such that
+
+*  The [[pentagon identity]] is satisfied by the [[associators]];
+*  And the triangle identity is satisfied by the [[unitors]].
 
 If there is exactly one $0$-cell, say $*$, then the definition is exactly the same as a monoidal structure on the category $B(*,*)$.  This is one of the motivating examples behind the [[delooping hypothesis]] and the general notion of [[k-tuply monoidal n-category]].
 
@@ -141,6 +144,8 @@ When we do have a strict 2-category, however, other strict notions can be quite 
 * **bicategory**
 
   [[(infinity,2)-category]]
+
+* [[double bicategory]] (and at [[double category#double_bicategories|double category]])
 
 * [[tricategory]]
 
