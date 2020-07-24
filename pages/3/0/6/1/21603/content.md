@@ -7,7 +7,7 @@
 
 The [[CompLF v1|rules of CompLF]] have been designed so that [[structural rules]] (e.g. weakening and substitution) are admissible, and the remaining rules can be expressed as higher-order abstract syntax (HOAS) axioms in [[logical frameworks]] like [[LF]] or [[Isabelle]]/Pure. (Except the variable rule, which isn't needed in HOAS form.) This is a significant (but superficial) difference from Nuprl. Two major interesting things happen with this HOAS formulation of CompLF.
 
-First, the HOAS formulation highlights a connection between dependent type systems and partial logic. The connection is there for all dependent type systems formulated as deductive systems with judgments on raw terms, but Nuprl-like systems make more use of the connection than most.
+First, the HOAS formulation highlights a connection between dependent type systems and partial logic. The connection is there for all dependent type systems formulated as deductive systems with judgments on raw terms (untyped [[abstract syntax]] trees), but Nuprl-like systems make more use of the connection than most.
 
 Second, although the rules are not algorithmic, there is implicit propagation of type validity facts in the semantics, which is analogous to the type propagation of a dependent type checker. The primitive typing judgment form ($a \Vdash A$) outputs validity of the type ($A\,type$). But using the inversion rules, it's possible to derive rules for a defined typing judgment form that inputs type validity. This will hopefully be useful for verifying a bidirectional proof checker for CompLF and similar systems.
 
