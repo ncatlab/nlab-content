@@ -68,7 +68,11 @@ The original articles are
 
 * {#Teichmuller39} [[Oswald Teichmüller]], _Extremale quasikonforme Abbildungen und quadratische Differentiale_, Preu&#223;ische Akademie der Wissenschaften, nat. Kl. 22 1-197 (1939)
 
-* {#Teichmuller44} [[Oswald Teichmüller]], _Ver&#228;nderliche Riemannsche Fl&#228;chen_, Deutsche Math. 7 344-359 (1944)
+* {#Teichmuller44} [[Oswald Teichmüller]], _Ver&#228;nderliche Riemannsche Fl&#228;chen_, Deutsche Math. 7 344-359 (1944). English translation: _Variable Riemann surfaces_, In: Athanase Papadopoulos. Handbook of Teichmüller Theory, Volume IV, 19, European Mathematical Society, pp 787–803, 2014, IRMA Lectures in Mathematics and Theoretical Physics, doi:[10.4171/117-1/19](https://doi.org/10.4171/117-1/19).
+
+and see also
+
+* Annette A'Campo-Neuen, Norbert A'Campo, Lizhen Ji, Athanase Papadopoulos. _A commentary on Teichmüller's paper "Veränderliche Riemannsche Flächen" (Variable Riemann Surfaces)_, In: Athanase Papadopoulos. Handbook of Teichmüller Theory, Volume IV, 19, European Mathematical Society, pp.804-814, 2014, IRMA Lectures in Mathematics and Theoretical Physics, doi:[10.4171/117-1/20](https://doi.org/10.4171/117-1/20), [hal-00730238](https://hal.archives-ouvertes.fr/hal-00730238), arXiv:[1209.1882](https://arxiv.org/abs/1209.1882).
 
 The complex structure on Teichm&#252;ller spaces was fully established in
 
