@@ -308,14 +308,14 @@ consider the $R$-linear map
 
 $$
   \left(
-    \oplus_{n \in U(n)} R 
+    \oplus_{n \in U(N)} R 
   \right)
   \to 
   N
 $$
 
 out of the [[direct sum]] of ${\vert U(N)\vert}$ copies of $N$,
-which sends the unit element $1 \in R_{n}$ of the $n$-labeled copy of $R$ to the corresponding element of $n$ (and is thus fixed on all other elements by $R$-linearity).
+which sends the unit element $1 \in R_{n}$ of the $n$-labeled copy of $R$ to the corresponding element of $N$ (and is thus fixed on all other elements by $R$-linearity).
 
 This is clearly a [[surjection]] and by lemma \ref{FreeModulesAreProjective} it is a surjection out of a projective object. 
 
