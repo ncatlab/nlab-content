@@ -19,8 +19,7 @@
 {:toc}
 
 ## Idea
-
-A _[[moduli stack]] of [[elliptic curves]]_ is a [[stack]] $\mathcal{M}_{ell}$ such that for $X$ any other suitable [[space]], the [[groupoid]] of maps $X \to \mathcal{M}_{ell}$ and [[homotopies]] between them is [[equivalence of groupoids|equivalent]] to that of $X$-parameterized [[elliptic curves]] with equivalences between these. (There are some variants of $\mathcal{M}_{ell}$ corresponding to the choice of which singularities and degeneracies of elliptic curves are taken into account.)
+A _moduli stack of elliptic curves_ is a [[moduli stack]] of [[elliptic curves]], hence a [[stack]] $\mathcal{M}_{ell}$ such that for $X$ any other suitable [[space]], the [[groupoid]] of maps $X \to \mathcal{M}_{ell}$ and [[homotopies]] between them is [[equivalence of groupoids|equivalent]] to that of $X$-parameterized [[elliptic curves]] with equivalences between these. (There are some variants of $\mathcal{M}_{ell}$ corresponding to the choice of which singularities and degeneracies of elliptic curves are taken into account.)
 
 This is formalized in [[algebraic geometry]], hence $X$ here is a [[scheme]] over the [[integers]] in general. The moduli stack always has a tautological construction as a "[[sheaf]] of [[groupoids]]" (a [[stack]], whence the name) over the [[site]] of [[affine schemes]], given by sending any $Spec(R)$ to the groupoid of suitable [[elliptic curves]] over $Spec(R)$. For concrete computations it typically helps to know that the moduli stack of elliptic curbes is [[representable functor|represented]] by a [[geometric stack]], [[Isbell duality|dually]] given by a [[Hopf algebroid]]. 
 
