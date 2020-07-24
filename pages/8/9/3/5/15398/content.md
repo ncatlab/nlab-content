@@ -1,6 +1,6 @@
 
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Oswald_Teichm&#252;ller)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Oswald_Teichmüller)
 
 ## related $n$Lab entries
 
