@@ -32,7 +32,7 @@ Let $\mathcal{S}$ be a [[category]].
 +-- {: .num_defn}
 ###### Definition
 
-An **$\mathcal{S}$-indexed category** $C$ is a [[pseudofunctor]] 
+An **$\mathcal{S}$-indexed category** $\tilde \mathbb{C}$ is a category defined by a [[pseudofunctor]] 
 
 $$
   \mathbb{C} : \mathcal{S}^{op}\to Cat
