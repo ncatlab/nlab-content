@@ -37,6 +37,7 @@ The diagram on the left is sometimes called the _unit triangle_, and the diagram
 
 The corresponding [[dual]] notion is that of a [[coalgebra over a comonad]].
 
+In the case of a commutative monad, one can define a [tensor product of algebras](https://ncatlab.org/nlab/show/tensor+product+of+algebras+over+a+commutative+monad).
 
 ### Morphisms of algebras
 
