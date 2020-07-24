@@ -55,6 +55,8 @@ Work conducted in homotopy type theory:
 
 * [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_, ([arXiv:1606.05916](https://arxiv.org/abs/1606.05916))
 
+* [[Kevin Quirin]], [[Nicolas Tabareau]], Lawvere-Tierney sheafification in Homotopy Type Theory_, Journal of Formalized Reasoning, ASDD-AlmaDL, 2016, 9 (2), 0.6092/issn.1972-5787/6232. hal-01451710, [PDF](https://hal.inria.fr/hal-01451710/document)
+
 * [[Favonia|Kuen-Bang Hou (Favonia)]], [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], _A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory_, ([arXiv:1605.03227](https://arxiv.org/abs/1605.03227)) 
 
 * [[Favonia|Kuen-Bang Hou (Favonia)]], [[Michael Shulman]], _The Seifert–van Kampen Theorem in Homotopy Type Theory_, 2016, ([pdf](https://favonia.org/files/vankampen-csl2016.pdf)), ([doi](10.4230/LIPIcs.CSL.2016.22))
