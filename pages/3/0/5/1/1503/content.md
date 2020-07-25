@@ -29,7 +29,7 @@ must be equal to $\pm id$. Assuming this is satisfied (if not, there is no consi
 \]
 That is to say, the $3j$ symbols are the signs arising from choosing a trivialization of the 'duality bundle' and analyzing how invariant $3$-particle tensors transform when they go through a full revolution.
 
-It turns out that one can express the concept of a [[pivotal structure]] directly in terms of the pivotal symbols $\epsilon_{ijk}$. Namely, a pivotal structure on the category amounts to an $\epsilon$-[[twisted monoidal natural tranformation]] of the identity on the category. That is to say, a collection of nonzero complex numbers $t_{i}$ satisfying
+It turns out that one can express the concept of a [[pivotal structure]] directly in terms of the pivotal symbols $\epsilon_{ijk}$. Namely, a pivotal structure on the category amounts to an $\epsilon$-[[twisted monoidal natural transformation]] of the identity on the category. That is to say, a collection of nonzero complex numbers $t_{i}$ satisfying
 \[
  t_j t_k = \epsilon_{ijk} t_i
 \]
