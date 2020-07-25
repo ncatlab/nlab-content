@@ -348,7 +348,7 @@ This means in particular that split central extensions are product groups $A \to
 +-- {: .num_prop}
 ###### Remark
 
-If we have a split extension the different  splittings are given by [[derivation on a group|derivation]]s, but with possibly non-abelian values. In fact if we have $s: G\to A\rtimes G$ is a section then $s(g) = (a(g),g)$, and the multiplication in $A\rtimes G$ implies that $a: G\to A$ is a derivation. These are considered as the (possibly non-abelian) 1-cocylces of $G$ with (twisted) coefficients in $A$, as considered in, for instance, Serre's notes on [[Galois cohomology]].
+If we have a split extension the different  splittings are given by [[derivation on a group|derivation]]s, but with possibly non-abelian values. In fact if we have $s: G\to A\rtimes G$ is a section then $s(g) = (a(g),g)$, and the multiplication in $A\rtimes G$ implies that $a: G\to A$ is a derivation. These are considered as the (possibly non-abelian) 1-cocycles of $G$ with (twisted) coefficients in $A$, as considered in, for instance, Serre's notes on [[Galois cohomology]].
 
 =--
 ### Central group extensions
