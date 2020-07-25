@@ -77,6 +77,8 @@ On super-heavy [[gravitinos]] as [[dark matter]] candidates, by embedding [[D=4 
 
 * {#MeissnerNicolai18b} Krzysztof A. Meissner, [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
 
+* Krzysztof A. Meissner, [[Hermann Nicolai]], _Supermassive gravitinos and giant primordial black holes_ ([arXiv:2007.11889](https://arxiv.org/abs/2007.11889))
+
 On [[higher spin gauge theory]] and [[Kac-Moody algebras]]:
 
 * [[Marc Henneaux]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Higher spin gauge fields and extended Kac-Moody symmetries_ ([arXiv:1110.4460](http://arxiv.org/abs/1110.4460))
