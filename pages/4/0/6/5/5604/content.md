@@ -26,12 +26,12 @@ A **complete small category** (or **small complete category**) is a [[category]]
 
 ## In classical logic
 
-In the presence of [[classical logic]], complete small categories reduce to [[complete lattices]] by the following theorem of Freyd.
+In the presence of [[classical logic]], complete small categories reduce to [[complete lattices]] by the following theorem of [[Peter Freyd]].
 
 +-- {: .un_theorem}
 ###### Theorem
 
-If (in some [[universe]] $U$) a small [[category]] $D$ has [[product]]s of families of objects whose size is at least that of its set of morphisms, then $D$ is a [[preorder]].  In particular, any complete small category is a [[preorder]].  
+If (in some [[universe]] $U$) a small [[category]] $D$ has [[products]] of families of objects whose size is at least that of its [[hom-set|set of morphisms]], then $D$ is a [[preorder]].  In particular, any complete small category is a [[preorder]].  
 
 =--
 
@@ -49,7 +49,7 @@ has [[cardinality]] at least $2^{|Mor(D)|} \gt {|Mor(D)|}$, which is a contradic
 
 ## In Grothendieck toposes
 
-The [[internal logic]] of a [[topos]] is not, in general, classical, so the above proof does not apply when considering [[internal categories]] in a topos.  However, in a [[Grothendieck topos]], one can show that the conclusion still holds by essentially reducing the question to the analogous one in $Set$.  A brief description of the argument can be found in the answer to [this question](http://mathoverflow.net/questions/43433/small-complete-categories-in-a-grothendieck-topos).
+The [[internal logic]] of a [[topos]] is not, in general, [[classical logic|classical]], so the above proof does not apply when considering [[internal categories]] in a topos.  However, in a [[Grothendieck topos]], one can show that the conclusion still holds by essentially reducing the question to the analogous one in [[Set]].  A brief description of the argument can be found in the answer to [this question](http://mathoverflow.net/questions/43433/small-complete-categories-in-a-grothendieck-topos).
 
 
 ## In more general toposes and constructive mathematics
