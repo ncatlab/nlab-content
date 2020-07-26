@@ -61,11 +61,11 @@ A __category__ $C$ consists of
 
 *  a collection $C_1$ of __[[morphisms]]__ (or __arrows__);
 
-*  two [[functions]] $s, t\colon C_1 \to C_0$ which assign, to every morphism, its __[[source]]__ (or __domain__) and __[[target]]__ (or __codomain__);
+*  for every morphism $f$, there exists an object $s(f)$ (called its __[[source]]__ or __domain__), and an object $t(f)$ (called its __[[target]]__ or __codomain__);
 
-*  a [[partial function]] $\circ\colon C_1 \times C_1 \to C_1$ which assigns, to any pair of morphisms $f, g$ such that $t(f) = s(g)$, their __[[composite]]__ morphism $g \circ f \in C_1$ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
+*  for every pair of morphisms $f$ and $g$, where $t(f) = s(g)$, there is a morphism $g \circ f$, called their __[[composite]]__ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
 
-*  a function $id\colon C_0 \to C_1$ which assigns to each object $x$ a morphism $id_x$ or $1_x$, the __[[identity morphism]]__ on $x$;
+*  for every object $x$, there is a morphism $id_x$ (or $1_x$), called the __[[identity morphism]]__ on $x$;
 
 *  such that the following properties are satisfied:
 
@@ -93,9 +93,9 @@ A __category__ $C$ consists of
 
 *  for each pair $x,y$ of objects, a collection $C_1(x,y)$ of __[[morphisms]] from $x$ to $y$__;
 
-*  for each triple $x,y,z$ of objects, a [[function]] $\circ\colon C_1(y,z) \times C_1(x,y) \to C_1(x,z)$ which assigns, to any appropriate pair of morphisms $f, g$, their __[[composite]]__ morphism $g \circ f$ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
+*  for each pair of morphisms $f$ in $C_1(x,y)$ and $g$ in $C_1(y,z)$, there exists a morphism $g \circ f$ in $C_1(x,z)$, called their __[[composite]]__ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
 
-*  for each object $x$, an [[element]] $id_x$ or $1_x$ of $C_1(x,x)$, the __[[identity morphism]]__ on $x$;
+*  for each object $x$, there is a morphism $id_x$ (or $1_x$) in $C_1(x,x)$, called the __[[identity morphism]]__ on $x$;
 
 *  such that the following properties are satisfied:
 
@@ -109,7 +109,7 @@ People also often write $x \in C$ instead of $x \in C_0$ as a short way to indic
 
 ### Equivalence between the two definitions
 
-Given a one-collection-of-morphisms category $C_1\rightrightarrows C_0$, we define a family-of-collections-of-morphisms category by taking $C_1(x,y)$ to be the [[preimage]] of $(x,y)$ under the function $(s,t):C_1 \to C_0\times C_0$.  Conversely, given a family-of-collections-of-morphisms category we define a one-collection-of-morphisms category by taking $C_1$ to be the [[disjoint union]] of the families of morphisms $C_1 = \coprod_{x,y\in C_0} C_1(x,y)$.  With the straightforward definitions of [[functor]] and [[natural transformation]] in both cases, this sets up a strict [[2-equivalence]] of [[2-categories]].
+Given a one-collection-of-morphisms category $C_1\rightrightarrows C_0$, we define a family-of-collections-of-morphisms category by taking $C_1(x,y)$ to be the [[preimage]] of $(x,y)$ under the [[function]] $(s,t):C_1 \to C_0\times C_0$.  Conversely, given a family-of-collections-of-morphisms category we define a one-collection-of-morphisms category by taking $C_1$ to be the [[disjoint union]] of the families of morphisms $C_1 = \coprod_{x,y\in C_0} C_1(x,y)$.  With the straightforward definitions of [[functor]] and [[natural transformation]] in both cases, this sets up a strict [[2-equivalence]] of [[2-categories]].
 
 Note, though, that this 2-equivalence is not an *isomorphism* of 2-categories, because the disjoint union operation has to "tag" each morphism with its domain and codomain.  It seems that the strongest thing that can be said is that, in a [[material set theory]], if a family-of-collections-of-morphisms category $C$ has the property that sets $C_1(x,y)$ are all disjoint, then there is a one-collection-of-morphisms category with $C_1 = \bigcup_{x,y\in C_0} C_1(x,y)$ (the *non*-disjoint union) that gives rise to $C$ on the nose.  The notion of [[protocategory]] is a way to formalize a family-of-collections-of-morphisms category together with the information about how its hom-sets "overlap".
 
