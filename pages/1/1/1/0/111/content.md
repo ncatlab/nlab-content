@@ -61,11 +61,11 @@ A __category__ $C$ consists of
 
 *  a collection $C_1$ of __[[morphisms]]__ (or __arrows__);
 
-*  for every morphism $f$, there exists an object $s(f)$ (called its __[[source]]__ or __domain__), and an object $t(f)$ (called its __[[target]]__ or __codomain__);
+*  for every morphism $f$, an object $s(f)$ (called its __[[source]]__ or __domain__), and an object $t(f)$ (called its __[[target]]__ or __codomain__);
 
-*  for every pair of morphisms $f$ and $g$, where $t(f) = s(g)$, there is a morphism $g \circ f$, called their __[[composite]]__ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
+*  for every pair of morphisms $f$ and $g$, where $t(f) = s(g)$, a morphism $g \circ f$, called their __[[composite]]__ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
 
-*  for every object $x$, there is a morphism $id_x$ (or $1_x$), called the __[[identity morphism]]__ on $x$;
+*  for every object $x$, a morphism $id_x$ (or $1_x$), called the __[[identity morphism]]__ on $x$;
 
 *  such that the following properties are satisfied:
 
@@ -93,9 +93,9 @@ A __category__ $C$ consists of
 
 *  for each pair $x,y$ of objects, a collection $C_1(x,y)$ of __[[morphisms]] from $x$ to $y$__;
 
-*  for each pair of morphisms $f$ in $C_1(x,y)$ and $g$ in $C_1(y,z)$, there exists a morphism $g \circ f$ in $C_1(x,z)$, called their __[[composite]]__ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
+*  for each pair of morphisms $f$ in $C_1(x,y)$ and $g$ in $C_1(y,z)$, a morphism $g \circ f$ in $C_1(x,z)$, called their __[[composite]]__ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
 
-*  for each object $x$, there is a morphism $id_x$ (or $1_x$) in $C_1(x,x)$, called the __[[identity morphism]]__ on $x$;
+*  for each object $x$, a morphism $id_x$ (or $1_x$) in $C_1(x,x)$, called the __[[identity morphism]]__ on $x$;
 
 *  such that the following properties are satisfied:
 
