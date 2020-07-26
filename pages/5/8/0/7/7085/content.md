@@ -106,7 +106,7 @@ is an [[equivalence of groupoids]], one says that $A$ satisfies the _[[(2,1)-she
 
 Similar statements hold for the case of 2-functors with values in [[Cat]]. Here one also often talks about a _[[stack]]-condition_, though less ambiguous would be to speak of _[[2-sheaf]]-conditions_.
 
-By the [[Grothendieck construction]] one may identifiy pseudofunctors $C^{op} \to Cat$ equivalently with [[fibered categories]] (or just [[categories fibered in groupoids]] for $C^{op} \to Grpd$) over $C$, and all of the above has analogs in this dual description.
+By the [[Grothendieck construction]] one may identify pseudofunctors $C^{op} \to Cat$ equivalently with [[fibered categories]] (or just [[categories fibered in groupoids]] for $C^{op} \to Grpd$) over $C$, and all of the above has analogs in this dual description.
 
 
 ### For simplicial presheaves
