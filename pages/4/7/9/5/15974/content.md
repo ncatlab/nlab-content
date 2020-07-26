@@ -46,9 +46,9 @@ However, there is no saturation condition in this definition.
 
 ## References
 
-An overview is in [chapter 4](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=63) of 
+An overview is in [chapter 4](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-lauda-guidebook.pdf#page=63) of 
 
-* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illustrated guidebook_ ([pdf](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
+* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illustrated guidebook_ ([pdf](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-lauda-guidebook.pdf))
 
 and in chapter 7 of 
 
