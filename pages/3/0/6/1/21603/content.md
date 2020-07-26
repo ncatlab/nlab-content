@@ -209,8 +209,29 @@ Getting back to ($\Pi t:\top.(t \in A) \to (t \in B)$) failing to correspond to 
 
 #### Type Expressions differing only in their Presuppositions
 
-But we could also use ($\Pi a:A.a \in B$). There's something sneaky about this solution though: it fails to satisfy an additional requirement that you usually want, namely:
+It looks like the type-level assumption ($(t \in A) \to ...$) is not going to work. Let's take a closer look at what the solution ($A \lt\!\!:\;B$) is doing instead. Subtyping was defined as:
 
-$$\forall A,B.(A\,type) \Rightarrow (B\,type) \Rightarrow (R(A,B)\,type)$$
+$A \lt\!\!:\;B\;\coloneqq\;(\lambda x.x) \in (A \to B)$
 
-So it's inhabited exactly when it should be, but it's not a type as often as it could be!
+Using the computation formation rules, we have ($\lambda x.x \Vdash Comp$). By assumption, we have ($A\,type$) and ($B\,type$), so by $\Pi$ formation, we have ($(A \to B)\,type$). Finally, equality formation gives us ($(\lambda x.x) \in (A \to B)$).
+
+That this sort of representation is a type at all is actually the clever part. Using the representation of ($t \Vdash T$) as ($t \in T$), and the rules for functions, it's now straightforward that ($A \lt\!\!:\;B$) represents ($\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$).
+
+But it seems like there's a less tricky solution: ($\Pi a:A.a \in B$). Both ($A \lt\!\!:\;B$) and this assume $A$ itself, rather than ($t \in A$). And that *is* the way you're supposed to do it in type theory, after all. The standard wisdom is that typing judgments are not something you can assume. We have just covered in detail *why* that is still the case with Nuprl-like extensions.
+
+($\Pi a:A.a \in B$) does technically solve the problem: if ($A\,type$) and ($B\,type$), then
+
+$\forall p.(\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)) \Leftrightarrow (p \Vdash \Pi a:A.a \in B)$
+
+This implies that ($\Pi a:A.a \in B$) is inhabited when it should be, and is squashed, moreover. There's something disappointing about this solution though: while ($A \lt\!\!:\;B$) is a type whenever $A$ and $B$ are, validity of ($\Pi a:A.a \in B$) entails that ($a:A \vdash a \Vdash Relax(B)$). In other words, that $A$ equality is respected in $B$. This should only be a *consequence* of subtyping, not a *presupposition* of it.
+
+Specifically,
+
+* $(A \lt\!\!:\;B)\,type \Leftrightarrow (A\,type \wedge (\underline{\;}:A \vdash B\,type))$ and
+* $(\Pi a:A.a \in B)\,type \Leftrightarrow (A\,type \wedge (a:A \vdash a \Vdash Relax(B)))$.
+
+So these semantic judgments are true at the same time, but have different presuppositions. For the problem of representing semantic judgments as types, it seems that the moral of the story is to close off a term as much as possible before reasoning about membership, if you want to avoid presuppositions.
+
+#### Related Pairs of Computations
+
+There is actually another solution though: the big-hammer approach of reasoning about pairs of computations: ($\Pi t:Comp.\Pi t':Comp.(t = t' \in A) \to (t = t' \in B)$). Thanks in part to the let-comp rule, this type is completely equivalent to ($A \lt\!\!:\;B$): the presuppositions are the same, and they have the same PER.
