@@ -14,7 +14,7 @@
 =--
 
 # Complete small categories
-* toc
+* table of contents
 {: toc}
 
 ## Definition
@@ -29,7 +29,7 @@ A **complete small category** (or **small complete category**) is a [[category]]
 In the presence of [[classical logic]], complete small categories reduce to [[complete lattices]] by the following theorem due to [Freyd 64, p. 78](#Freyd64).
 .
 
-+-- {: .un_theorem}
++-- {: .num_theorem #CompleteSmallCategoriesArePosets}
 ###### Theorem
 
 If (in some [[universe]] $U$) a small [[category]] $D$ has [[products]] of families of objects whose size is at least that of its [[hom-set|set of morphisms]], then $D$ is a [[preorder]].  In particular, any complete small category is a [[preorder]].  
@@ -47,7 +47,7 @@ has [[cardinality]] at least $2^{|Mor(D)|} \gt {|Mor(D)|}$, which is a contradic
 
 =--
 
-This basic fact has profound implications for instance for the [[adjoint functor theorem]]. See there for more.
+This basic fact has profound implications for instance for the [[adjoint functor theorem]] and the existence of [[Kan extensions]]. See there for more.
 
 
 ## In Grothendieck toposes
@@ -97,9 +97,14 @@ In contrast, something more like a true complete small category may be necessary
 
 ## References
 
-Freyd's theorem appears as exercise D in ch.3 (p.78) in
+Theorem \ref{CompleteSmallCategoriesArePosets}  appears as exercise D in ch.3 (p.78) in:
 
 * {#Freyd64} [[Peter Freyd]], *Abelian Categories*, Harper & Row New York 1964. (Reprinted with author's comment as [TAC reprints no. 3 (2003)](http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html))
+
+Reviewed as Thm. 2.1 in:
+
+* [[Michael Shulman]], _Set theory for category theory_ ([arXiv:0810.1279](https://arxiv.org/abs/0810.1279))
+
 
 The original reference for the complete small categories in the effective topos is:
 
