@@ -90,7 +90,9 @@ In contrast, something more like a true complete small category may be necessary
 
 ## References
 
-Freyd's theorem may not have been published by him.
+Freyd's theorem appears as exercise D in ch.3 (p.78) in
+
+* [[Peter Freyd]], *Abelian Categories*, Harper & Row New York 1964. (Reprinted with author's comment as [TAC reprints no. 3 (2003)](http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html))
 
 The original reference for the complete small categories in the effective topos is:
 
@@ -116,7 +118,9 @@ The idea of using a replete complete subcategory which is essentially small in [
 
 * {#MS09} Relational parametricity for computational effects, Rasmus Møgelberg and [[Alex Simpson]], Logical Methods in Computer Science, Vol 5 (3:7), 2009. [arxiv](https://arxiv.org/abs/0906.5488).
 
+The interplay with colimits is discussed in
 
+* [[Dusko Pavlovic|Duško Pavlović]], _On completeness and cocompleteness in and around small categories_ , APAL **74** (1995) pp.121-152.
 
 [[!redirects complete small category]]
 [[!redirects complete small categories]]
