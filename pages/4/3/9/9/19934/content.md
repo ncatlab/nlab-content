@@ -183,10 +183,14 @@ the flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
 
 ### Flat compact 3-dimensional orbifolds
 
-Many flat compact oriented 3-dimensional orbifolds have coarse underlying topllogical space the [[3-sphere]] ([Dunbar 88](#Dunbar88))
+#### 3-Sphere
+
+Many flat compact oriented 3-dimensional orbifolds have coarse underlying topological space the [[3-sphere]] ([Dunbar 88](#Dunbar88))
 
 ### Flat compact 4-dimensional orbifolds
  {#FlatCompact4dOrbifolds}
+
+#### Kummer surface
 
 The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as the _[[Kummer surface]]_ $T^4 \sslash \mathbb{Z}_2$ -- the special case of Example \ref{CoordinateReflectionOnNTorus} for $d = 4$. This is a singular [[K3-surface]] (e.g. [Bettiol-Derdzinski-Piccione 18, 5.5](#BettiolDerdzinskiPiccione18))
 
@@ -198,6 +202,14 @@ The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four 
 > graphics grabbed from [Snowden 11](orbifold#Snowden11)
 
 Also $\mathbb{T}^4\sslash\mathbb{Z}_4$ gives a toroidal orbifold. As [[orientifolds]] with [[D5-branes]] in [[type IIB string theory]] these are discussed in [Buchel-Shiu-Tye 99, Sec. II](#BuchelShiuTye99).
+
+
+#### 4-Sphere
+ {#4SphereAsFlatOrbifold}
+
+The [[complex projective space]] $\mathbb{C}P^2$ is an orbifold quotient of the [[4-torus]] (see [this MO comment](https://mathoverflow.net/a/213009/381)), in generalization of how the [[Weierstrass elliptic function]] exhibits the [[Riemann sphere]] as $\mathbb{T}^2/\mathbb{Z}_2$.
+
+A further $\mathbb{Z}_2$-quotient of $\mathbb{C}P^2$ gives the [[4-sphere]] (see at _[4-sphere as quotient of complex projective plane](4-sphere#AsAQuotientOfTheComplexProjectivePlane)_).
 
 \linebreak
 
