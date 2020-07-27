@@ -66,7 +66,7 @@ Discussion of [[3-manifolds]] as [[branched covers]] of the 3-sphere:
 
 Classification of [[Riemannian orbifolds]] whose coarse underlying topological space is a 3-sphere:
 
-* William D. Dunbar, _Geometric orbifolds_, Rev. Mat. Univ. Complutense Madr. 1, No.1-3, 67-99 (1988)
+* [[William Dunbar]], _Geometric orbifolds_, Rev. Mat. Univ. Complutense Madr. 1, No.1-3, 67-99 (1988)
 
 
 
