@@ -234,4 +234,19 @@ So these semantic judgments are true at the same time, but have different presup
 
 #### Related Pairs of Computations
 
-There is actually another solution though: the big-hammer approach of reasoning about pairs of computations: ($\Pi t:Comp.\Pi t':Comp.(t = t' \in A) \to (t = t' \in B)$). Thanks in part to the let-comp rule, this type is completely equivalent to ($A \lt\!\!:\;B$): the presuppositions are the same, and they have the same PER.
+There is actually another solution though: the big-hammer approach of reasoning about pairs of computations: ($\Pi t:Comp.\Pi t':Comp.(t = t' \in A) \to (t = t' \in B)$). This representation makes it explicit that subtyping implies respect for equality. Thanks in part to the let-comp rule, this type is completely equivalent to ($A \lt\!\!:\;B$): the presuppositions are the same, and they have the same PER.
+
+#### Lessons
+
+The puzzle of representing the subtyping judgment as a type operation has been chosen because the discussion of solutions, plausible false solutions, and partial solutions touches upon many important issues of judgment-level reasoning. Here is a summary of important lessons we tried to convey:
+
+* The judgment forms that have interesting presuppositions are the *semantic* judgment forms, which are implemented as *type* operations.
+* The presupposition(s) of a semantic judgment represented as a type are simply the things you need to show in order to show that the type is valid.
+* The formal judgment forms don't have interesting presuppositions; only that the expressions involved are syntactically well-formed, which can be checked while parsing.
+* Type-level implication ($A \to B$) and judgment-level implication ($X \Rightarrow Y$) are not the same, even when the types $A$ and $B$ represent the corresponding judgments $X$ and $Y$, because of presuppositions.
+* Two type expressions can have the same meaning in case they're both meaningful, but differ in their presuppositions, the conditions under which they're meaningful.
+* Respect for typed equality is automatically enforced by "open" reasoning about arbitrary elements, but can/must be done manually when doing "closed" reasoning about computations.
+
+All but the last point also apply—via propositions-as-types—to a style of partial logic that [[Peter Aczel]] called "Frege structures". Partial logic is itself a style of free logic where propositions themselves are denoted by expressions, but well-formed expressions generally don't denote propositions. Free logic, partial logic, Frege structures, and the connection to Nuprl-like systems are discussed below. (TODO!)
+
+The last point—about respect for equality, except when dealing with elements of a particular type—seems very peculiar to PER semantics. You don't need PER semantics to get those other "Frege phenomena", and you don't need PER semantics to get implicit respect for extensional equality, but the way they interact in PER semantics is quite extraordinary.
