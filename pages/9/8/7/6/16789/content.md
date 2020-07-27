@@ -98,6 +98,7 @@ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \con
 {#HopfParameterization} There are other useful ways to parameterize the quaternionic Hopf fibration, such as the original _[[Hopf construction]]_, see there the section _[Hopf fibrations](Hopf+construction#HopfFibrations)_. By this parameterization $S^4$ is identified as $S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})$.
 
 ### As a quotient of the complex projective plane
+ {#AsAQuotientOfTheComplexProjectivePlane}
 
 The 4-sphere is the [[quotient space]] of the [[complex projective plane]] by the [[action]] on homogeneous coordinates of [[complex conjugation]].
 
