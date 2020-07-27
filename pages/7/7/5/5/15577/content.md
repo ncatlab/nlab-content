@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about several coincident points merging to a single point.
+The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all nonempty [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about several coincident points merging to a single point.
 
 The Ran space is defined, in [[topology|topological]] and [[algebraic geometry|algebro-geometric]] contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)). It is naturally a [[stratified space]] ([Ayala-Francis-Tanaka 14, section 3.7](#AyalaFrancisTanaka14))
 
