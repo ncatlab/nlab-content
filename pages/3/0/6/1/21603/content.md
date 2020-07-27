@@ -207,7 +207,7 @@ If the presuppositions can be checked automatically, the presupposition policy i
 
 Getting back to ($\Pi t:\top.(t \in A) \to (t \in B)$) failing to correspond to ($\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$), the problem is that the forms of implication generally don't correspond, due to the implicit requirement to check that the type-level implication is a valid type. Assuming a *type* incurs an obligation to show that the expression is in fact a type, while assuming a *judgment* has no implicit obligation.
 
-#### Type Expressions differing only in their Presuppositions
+#### Type Expressions differing only in their Presuppositions {#DiffPresup}
 
 It looks like the type-level assumption ($(t \in A) \to ...$) is not going to work. Let's take a closer look at what the solution ($A \lt\!\!:\;B$) is doing instead. Subtyping was defined as:
 
@@ -250,3 +250,53 @@ The puzzle of representing the subtyping judgment as a type operation has been c
 All but the last point also apply—via propositions-as-types—to a style of partial logic that [[Peter Aczel]] called "Frege structures". Partial logic is itself a style of free logic where propositions themselves are denoted by expressions, but well-formed expressions generally don't denote propositions. Free logic, partial logic, Frege structures, and the connection to Nuprl-like systems are discussed below. (TODO!)
 
 The last point—about respect for equality, except when dealing with elements of a particular type—seems very peculiar to PER semantics. You don't need PER semantics to get those other "Frege phenomena", and you don't need PER semantics to get implicit respect for extensional equality, but the way they interact in PER semantics is quite extraordinary.
+
+### "Non-negatable" Types
+
+We have [seen](#DiffPresup) that just because a judgment form is representable as a type operation doesn't mean that that type operation gets you a valid type in all the situations you might want. In the most extreme case of this, the type is only meaningful when it's true. In other words, the type presupposes itself. Karl Crary [called](#KCThesis) these types "non-negatable", since they're intuitively either true or nonsense, never false. Assuming a non-negatable type with a type-level implication is guaranteed to be useless, since you must prove it in order to safely assume it.
+
+#### Membership in a Type (Formerly)
+
+Crary's example of a non-negatable type was membership ($a \in A$). Membership is not non-negatable in Nuprl anymore, since Nuprl switched to a more liberal equality. It's also not non-negatable in CompLF, which uses relaxed equality. Membership is still "harder to negate" than one might like, as we saw.
+
+But in Martin-Löf type theory, and earlier versions of Nuprl, the equality semantic judgment/type ($a1 = a2 \in A$) presupposes ($a1 \in A$) and ($a2 \in A$). Since the membership *type* ($a \in A$) is an abbreviation for equality ($a = a \in A$), it presupposed itself. (With membership non-negatable, Crary added subtyping as a primitive type constructor, or else it would've been non-negatable as well.)
+
+#### Type Validity {#TpOK}
+
+There is another semantic judgment which is still non-negatable: type validity. It's kind of a weird trick that this judgment is representable as a type. (Coincidentally, Crary noticed the trick, and used it, arguing that it was more convenient than membership in an arbitrary universe.) It sounds like there'd be a size paradox, right? Well that's why there's probably nothing that can be done about the non-negatability.
+
+So what's the big trick? Basically, to use almost any trivially true proposition than mentions the type. We'll use:
+
+$TpOK(A)\;\coloneqq\;A \supset \top$
+
+The trick is that it's only "trivially true" when it's a valid type, which requires that $A$ is a valid type. So it's either true or nonsense; it's non-negatable. We have:
+
+$\forall p.(A\,type) \Leftrightarrow (p \Vdash TpOK(A))$
+
+The right-to-left direction crucially relies on the sanity rule ($(a \Vdash A) \Rightarrow (A\,type)$) and an inversion rule.
+
+#### Membership in a Type (Sometimes)
+
+Although membership is not *always* non-negatable anymore, because ($a \in A$) presupposes ($a \Vdash Relax(A)$), it's still non-negatable whenever $A$ and $Relax(A)$ are the same. This is precisely when $A$ is a quotient of $Comp$. (And in that case, Nuprl's ($A \cup Comp$) would be the same as well, so Nuprl's membership would also be non-negatable.)
+
+### Combined Truth
+
+Hopefully, the [representability of type validity](#TpOK) shows better what's "really" going on with representability of judgment forms. When truth of a squashed type is used at the judgment level, it's not just the intuitive truth—which *presupposes* validity—that's being used; it's some "combined truth", which *implies* validity, via the sanity rule.
+
+When assuming the truth of a type using type-level implication, you assume the usual truth, and presuppositions are accumulated. But when assuming the truth of a type using judgment-level implication, you assume combined truth. Keep in mind that the derivation rules themselves are all assertions of judgment-level implications, and are thus working with combined truth.
+
+So technically, combined truth comes from the ($a \Vdash A$) formal judgment form, when we only really care about whether $A$ is inhabited. In general, ($a \Vdash A$) says that $A$ is a type, and $a$ is an element of it. Meanwhile the type ($a \in A$) intuitively says that $a$ is an element of $A$, *presupposing* ($a \Vdash Relax(A)$). Since the latter *implies* that $Relax(A)$—and therefore $A$—are types, ($a \in A$) indirectly presupposes that $A$ is a type. Combined truth of ($a \in A$) combines its intuitive truth with its presuppositions, and thus ends up the same as ($a \Vdash A$).
+
+As for $TpOK(A)$, the intuitive truth is vacuous, and the presupposition is basically just that $A$ is a type, so the combined truth of $TpOK(A)$ says that $A$ is a type.
+
+### Identity
+
+($t1 = t2 \in Comp$) intuitively says that $t1$ and $t2$ are computationally equivalent. But it presupposes that $t1$ and $t2$ are computations, so the combined truth is that $t1$ and $t2$ are the same computation.
+
+The identity type ($t1 \equiv t2$) also says that $t1$ and $t2$ are computationally equivalent, but the presupposition has been weakened, so that combined truth does *not* imply that $t1$ and $t2$ are computations.
+
+Because computational equivalence does not respect typed equality, except for the $Comp$ type (and its subtypes), ($t1 \equiv t2$) is not generally a type unless $t1$ and $t2$ are computations. That is, it's only a type family over a pair of computations. But surprisingly, some instances of identity are valid types although $t1$ and $t2$ are not computations. In particular, if the terms $t1$ and $t2$ are computationally equivalent, ($t1 \equiv t2$) is (combined) true.
+
+That identity is often not known to be a type doesn't get in the way of assuming it with *judgment-level* implication. For example, you can prove derived rules showing that identity is symmetric and transitive. Indeed, identity is in some sense the "real" equality of judgment-level reasoning: it's intuitively a relation on *terms*, not elements of a type; it's an equivalence relation; and it rewrites in any open type expression, not just valid type families.
+
+(TODO: Explain how many presuppositions arise from intensional type equality, and that equality of identity types is extensional, making them valid when they're pointwise true. Maybe on another page.)
