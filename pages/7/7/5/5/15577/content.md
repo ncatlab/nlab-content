@@ -42,7 +42,7 @@ The Ran space of a [[connected space|connected]] [[manifold]] is [[weakly contra
 
 Let $X: CAlg_k \to Spaces$ be a derived prestack. Consider the diagram in prestacks
 $$ X^{(-)}: N(fSet) \to PrSt_k, I \mapsto X^I $$
-where $$fSet$$ is the category of non-empty finite sets, with morphisms being surjective maps. The functor sends morphisms to the corresponding diagonal maps. The Ran prestack by definition is the (homotopy) colimit of this diagram:
+where $fSet$ is the category of non-empty finite sets, with morphisms being surjective maps. The functor sends morphisms to the corresponding diagonal maps. The Ran prestack by definition is the (homotopy) colimit of this diagram:
 
 $$Ran_X := colim_I X^I$$
 
