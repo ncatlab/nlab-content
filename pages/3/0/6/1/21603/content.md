@@ -257,7 +257,7 @@ We have [seen](#DiffPresup) that just because a judgment form is representable a
 
 #### Membership in a Type (Formerly)
 
-Crary's example of a non-negatable type was membership ($a \in A$). Membership is not non-negatable in Nuprl anymore, since Nuprl switched to a more liberal equality. It's also not non-negatable in CompLF, which uses relaxed equality. Membership is still "harder to negate" than one might like, as we saw.
+Crary's main example of a non-negatable type was membership ($a \in A$). Membership is not non-negatable in Nuprl anymore, since Nuprl switched to a more liberal equality. It's also not non-negatable in CompLF, which uses relaxed equality. Membership is still "harder to negate" than one might like, as we saw.
 
 But in Martin-Löf type theory, and earlier versions of Nuprl, the equality semantic judgment/type ($a1 = a2 \in A$) presupposes ($a1 \in A$) and ($a2 \in A$). Since the membership *type* ($a \in A$) is an abbreviation for equality ($a = a \in A$), it presupposed itself. (With membership non-negatable, Crary added subtyping as a primitive type constructor, or else it would've been non-negatable as well.)
 
@@ -335,3 +335,7 @@ Here's a more interesting direction change rule using subsumption:
 $$\frac{t \Vdash A \qquad A \lt\!\!:\;B \ni p}{B \ni t}$$
 
 Deriving this rule, we receive the validity of $A$ from the first premise, and the validity of $B$ from the conclusion, form the validity of ($A \lt\!\!:\;B$) in order to use the second premise, which lets us change $t$ from an $A$ to a $B$.
+
+## References
+
+* {#KCThesis} Karl Crary, _Type-Theoretic Methodology for Practical Programming Languages_, 1998 PhD thesis ([web](http://www.nuprl.org/KB/show.php?ShowPub=Cra98), [pdf](http://www.nuprl.org/documents/Crary/Thesis-TypeTheoretic.pdf))
