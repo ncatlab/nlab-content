@@ -46,7 +46,7 @@ given by [[composition|composing]] the action of the [[covariant derivative]] on
 More abstractly, there is the universal [[orientation in generalized cohomology]] of [[KO]] over [[spin structure]], known as the [[Atiyah-Bott-Shapiro orientation]], which is a [[homomorphism]] of [[E-∞ rings]] of the form
 
 $$
-  M Spin \longrightarrow \pi_\bullet(KO)
+  M Spin \longrightarrow KO
 $$
 
 from the universal [[spin structure]] [[Thom spectrum]]. The $\hat A$-genus 
