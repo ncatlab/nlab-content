@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[pillowcase orbifolds]]:
+
+* {#EskinOkounkov05} [[Alex Eskin]], [[Andrei Okounkov]], _Pillowcases and quasimodular forms_, In: Ginzburg V. (ed.) _Algebraic Geometry and Number Theory_, Progress in Mathematics, vol 253. Birkhäuser 2006
+ ([arXiv:math/0505545](https://arxiv.org/abs/math/0505545), [doi:10.1007/978-0-8176-4532-8_1](https://doi.org/10.1007/978-0-8176-4532-8_1))
+
 On the [[Gromov-Witten/Donaldson-Thomas correspondence]]:
 
 * [[Davesh Maulik]], [[Nikita Nekrasov]], [[Andrei Okounkov]], [[Rahul Pandharipande]], _Gromov–Witten theory and Donaldson–Thomas theory, I_. Compositio Mathematica. 142 (5): 1263–1285. (2003) ([arXiv:math/0312059](https://arxiv.org/abs/math/0312059). [doi:10.1112/S0010437X06002302](http://www.journals.cambridge.org/abstract_S0010437X06002302))
