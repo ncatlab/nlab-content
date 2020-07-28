@@ -38,7 +38,7 @@ See at _[[elliptic curve]]_ and at _[[Möbius transformation]]_ for more.
 
 * [[elliptic function]]
 
-* [flat orbifold -- 2-sphere](Riemannian+orbifold#TwoSphereAsFlatOrbifold)
+* [[pillowcase orbifold]]
 
 ## References
 
