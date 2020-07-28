@@ -105,7 +105,7 @@ The derived internal Hom in the homotopy category of DG-categories is equivalent
 
 A proof that the [[internal hom]] of Ho(DGCat) constructed by To&#235;n is in fact the right [[derived functor]] of the internal hom of DGCat is in
 
-* [[Beatriz Rodriguez Gonzalez]], _A derivability criterion based on the existence of adjunctions_, 2012, [arXiv:1202.3359](http://arxiv.org/abs/1202.3359).
+* Beatriz Rodriguez Gonzalez, _A derivability criterion based on the existence of adjunctions_, 2012, [arXiv:1202.3359](http://arxiv.org/abs/1202.3359).
 
 There is also 
 
@@ -118,3 +118,15 @@ The model structure with Morita equivalences as weak equivalences is discussed i
 That the Morita model structure on dg-categories presents the homotopy theory of $k$-linear [[stable (infinity,1)-categories]] was shown in
 
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
+
+See also 
+
+* Piergiorgio Panero, Boris Shoikhet, _A Quillen model structure on the category of Kontsevich-Soibelman weakly unital dg categories_ ([arXiv:1907.07970](https://arxiv.org/abs/1907.07970))
+
+
+* Piergiorgio Panero, Boris Shoikhet, _A closed model structure on the category of weakly unital dg categories, II_ ([https://arxiv.org/abs/2007.12716](https://arxiv.org/abs/2007.12716))
+
+
+
+
+
