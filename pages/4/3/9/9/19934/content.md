@@ -214,7 +214,7 @@ Also $\mathbb{T}^4\sslash\mathbb{Z}_4$ gives a toroidal orbifold. As [[orientifo
 #### 4-Sphere
  {#4SphereAsFlatOrbifold}
 
-The [[complex projective space]] $\mathbb{C}P^2$ is an orbifold quotient of the [[4-torus]] (see [this MO comment](https://mathoverflow.net/a/213009/381)), in generalization of how the [[Weierstrass elliptic function]] exhibits the [[Riemann sphere]] as $\mathbb{T}^2/\mathbb{Z}_2$ ([above](TwoSphereAsFlatOrbifold)).
+The [[complex projective space]] $\mathbb{C}P^2$ is an orbifold quotient of the [[4-torus]] (see [this MO comment](https://mathoverflow.net/a/213009/381)), in generalization of how the [[Weierstrass elliptic function]] exhibits the [[Riemann sphere]] as $\mathbb{T}^2/\mathbb{Z}_2$ ([above](#TwoSphereAsFlatOrbifold)).
 
 A further $\mathbb{Z}_2$-quotient of $\mathbb{C}P^2$ gives the [[4-sphere]] (see at _[4-sphere as quotient of complex projective plane](4-sphere#AsAQuotientOfTheComplexProjectivePlane)_).
 
