@@ -83,6 +83,11 @@ A **[[Morita morphism]] equivalence** of [[Lie groupoids]] is an [[anafunctor]] 
 
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
+### In tensor category theory 
+
+A fusion category $\mathcal{C}$ is Morita equivalent to another fusion category $\mathcal{D}$ if there exist a $\mathcal{C}$-module category $\mathcal{M}$ such that $\mathcal{D}$ is equivalent to the category of $\mathcal{C}$-module functors from $\mathcal{M}$ to itself, namely 
+$$\mathcal{D}\simeq \mathcal{C}_{\mathcal{M}}^{\vee}:=\mathsf{Fun}_{\mathcal{C}}(\mathcal{M},\mathcal{M}).$$
+
 ## Related Concepts
 
 * [[derived Morita equivalence]]
