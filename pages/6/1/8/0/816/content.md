@@ -165,7 +165,7 @@ In some nice cases the weight $N(K/-)$ can be replaced by a simpler weight; an e
 ### Homotopy pullback ###
 
 For instance in the case that 
-$K = \{r \to t \leftarrow s\}$ is the [[pullback]] diagram we have
+$K = \{r \to t \leftarrow s\}$ is the shape of [[pullback]] diagrams we have
 
 $$
   W(r) = \{r\}
@@ -178,7 +178,7 @@ $$
 $$
 and $W(r \to t) : \{r\} \to \{r \to t \leftarrow s\}$ injects the vertex $r$ into $\{r \to t \leftarrow s\}$ and similarly for $W(s \to t)$.
 
-This implies that for $F : K \to C$ a pullback diagram in the [[SimpSet]]-eriched category $C$, a $W$-weighted [[cone]] over $F$ with tip some object $c  \in C$, i.e. a natural transformation
+This implies that for $F : K \to C$ a pullback diagram in the [[SimpSet]]-enriched category $C$, a $W$-weighted [[cone]] over $F$ with tip some object $c  \in C$, i.e. a natural transformation
 
 $$
   W \Rightarrow C(c, F(-))
@@ -192,7 +192,7 @@ is
 
 * over $t$ three "morphisms" from $c$ to $F(t)$ together with 2-cells between them (i.e. a 2-[[horn]] in the Hom-simplicial set $C(c,F(t))$)
 
-* such that the two outer morphisms over $t$ are identified with the morphisms over $r$ and $s$, respectively, postcompoised with the morphisms $F(r \to t)$ and $F(s \to t)$, respectively.
+* such that the two outer morphisms over $t$ are identified with the morphisms over $r$ and $s$, respectively, postcomposed with the morphisms $F(r \to t)$ and $F(s \to t)$, respectively.
 
 So in total such a $W$-weighted cone looks like
 
