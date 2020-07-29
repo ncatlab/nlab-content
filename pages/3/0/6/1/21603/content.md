@@ -326,7 +326,7 @@ That identity is often not known to be a type doesn't get in the way of assuming
 
 (TODO: Explain how many presuppositions arise from intensional type equality, and that equality of identity types is extensional, making them valid when they're pointwise true. Maybe on another page.)
 
-## Checking Mode
+## Checking Mode {#CheckingMode}
 
 The sanity rule says that the usual formal typing judgment ($a \Vdash A$) implies type validity ($A\,type$). This is analogous to the *admissible* sanity rule of unidirectional typing rules:
 
@@ -386,6 +386,31 @@ When reasoning at the judgment level, the bidirectional rules don't actually see
 It seems like a better idea to postpone a serious attempt at a bidirectional rule set until you have an actual algorithm in mind. At that point, the defined checking mode judgment might make it much easier to prove sound those bidirectional rules you will actually use.
 
 Sometimes though, even for judgment-level reasoning, bidirectional rules can avoid a large number of very silly subgoals, like when introducing an element of a deeply nested type. In this case, the unidirectional rules would make you prove many copies of the same type validity goals, and bidirectional rules are the perfect plumbing.
+
+## Strengthening Type Validity
+
+Most of the primitive type constructors have inversions for their formation rules. When deriving rules for a new "type constructor" defined using PER comprehension, an extra trick or two are needed to get the inversion rules you want.
+
+The reason why inversion rules are usually desirable when deriving a type constructor is that the elimination rules typically need to know that the subexpressions of the type being eliminated are well-typed. (Type subexpressions are valid; element subexpressions have the appropriate type.) These facts are proven when forming the type, so it's only fair to be able to get back what you've paid for. Otherwise they would need to be proven again whenever applying an elimination rule. (This is assuming the derived rules are for the primitive typing judgment, where the introduction rules establish type validity. For [checking mode](#CheckingMode) rules you would expect introduction rules to avoid that, but this also requires inversion rules.)
+
+The PER comprehension type constructor itself does not have any formation inversion rules. Partially this is because a later version of CompLF may strengthen the introduction rules in a way that's incompatible with the obvious inversion rules. But mostly this is because the inversion rules wouldn't really help. It's easier and more flexible to add your own type validity conditions than to take whatever falls out of the PER comprehension.
+
+For example, suppose we're deriving $\Sigma$ types. We should start with the PER for a $\Sigma$ type:
+
+$\Sigma' x:A.B[x]\;\coloneqq\;\{p = p' | \exists a,a',b,b':Comp.a = a' \in A \wedge b = b' \in B[a] \wedge p \equiv \lang a,b \rang \wedge p' \equiv \lang a',b' \rang\}$
+
+Where $\exists$ was defined as a squashed subset, and $\lang a,b \rang$ is some encoding of ordered pairs, suppose.
+
+We could try to derive the inversion rules
+
+$$\frac{\Sigma' x:A.B[x]\,type}{A\,type} \qquad
+\frac{\Sigma' x:A.B[x]\,type \qquad a \Vdash A}{B[a]\,type}$$
+
+for $\Sigma'$ somehow by pulling things out of that (relatively) complicated PER comprehension. But it's easier to just define another type operation ($\Sigma x:A.B[x]$) to be just like ($\Sigma' x:A.B[x]$), but only a valid type if ($\Pi x:A.B[x]$) is. (The choice of $\Pi$ over the other type constructors with the same validity conditions is arbitrary.)
+
+### Type Validity {#TpV}
+
+### Custom Presuppositions
 
 ## References
 
