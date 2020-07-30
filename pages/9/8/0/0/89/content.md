@@ -85,7 +85,7 @@ Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]
 
 ### In tensor category theory 
 
-A fusion category $\mathcal{C}$ is Morita equivalent to another fusion category $\mathcal{D}$ if there exist a $\mathcal{C}$-module category $\mathcal{M}$ such that $\mathcal{D}$ is equivalent to the reverse category of $\mathcal{C}$-module functors from $\mathcal{M}$ to itself, namely 
+A [[fusion category]] $\mathcal{C}$ is Morita equivalent to another fusion category $\mathcal{D}$ if there exist a $\mathcal{C}$-module category $\mathcal{M}$ such that $\mathcal{D}$ is equivalent to the reverse category of $\mathcal{C}$-module functors from $\mathcal{M}$ to itself, namely 
 $$\mathcal{D}\simeq (\mathcal{C}_{\mathcal{M}}^{\vee})^{rev}:=\mathsf{Fun}_{\mathcal{C}}(\mathcal{M},\mathcal{M})^{rev}.$$
 By reverse category of a monoidal category $\mathcal{C}$ we mean the category with reversed tensor produce $x\otimes^{rev}y:=x\otimes y$. 
 ## Related Concepts
