@@ -251,7 +251,7 @@ $u\colon a\to b$ is a vertical morphism,
 and we have double cells $\eta\colon u\circ id_a\to f\circ id_a$
 and $\epsilon\colon id_b \circ f \to id_b \circ u$.
 
-The two model structures due to Moser, Sarazola, and Verdugo have the same class of weak equivalences, which contains the gregarious weak equivalences.  One of these model structures is conjectured to be a [[left Bousfield localization]] of the gregarious model structure.
+The two model structures due to Moser, Sarazola, and Verdugo have the same class of weak equivalences, which contains the gregarious weak equivalences.  One of these model structures is a [[left Bousfield localization]] of the gregarious model structure.
 
 ## Related pages
 
@@ -302,7 +302,7 @@ Model structures on the category of double categories are discussed in:
 
 * {#MSVHInvar} Lyne Moser, Maru Sarazola, Paula Verdugo, *A model structure for weakly horizontally invariant double categories*, [arxiv](https://arxiv.org/abs/2007.00588), 2020
 
-* {#CampbellGreg} Alexander Campbell, *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf)
+* {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf)
 
 * {#MoserInf} Lyne Moser, *A double (∞,1)-categorical nerve for double categories*, [arxiv](https://arxiv.org/abs/2007.01848), 2020
 
