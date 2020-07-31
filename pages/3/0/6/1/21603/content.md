@@ -393,13 +393,13 @@ Most of the primitive type constructors have inversions for their formation rule
 
 The reason why inversion rules are usually desirable when deriving a type constructor is that the elimination rules typically need to know that the subexpressions of the type being eliminated are well-typed. (Type subexpressions are valid; element subexpressions have the appropriate type.) These facts are proven when forming the type, so it's only fair to be able to get back what you've paid for. Otherwise they would need to be proven again whenever applying an elimination rule. (This is assuming the derived rules are for the primitive typing judgment, where the introduction rules establish type validity. For [checking mode](#CheckingMode) rules you would expect introduction rules to avoid that, but this also requires inversion rules.)
 
-The PER comprehension type constructor itself does not have any formation inversion rules. Partially this is because a later version of CompLF may strengthen the introduction rules in a way that's incompatible with the obvious inversion rule. But mostly this is because the inversion rule wouldn't really help. It's easier and more flexible to add your own type validity conditions than to take whatever falls out of the PER comprehension.
+The PER comprehension type constructor itself does not have any formation inversion rules. Partially this is because a later version of CompLF may strengthen the introduction rules in a way that's incompatible with the obvious inversion rule. But mostly it's because the inversion rule wouldn't really help. It's easier and more flexible to add your own type validity conditions than to take whatever falls out of the PER comprehension.
 
 For example, suppose we're deriving $\Sigma$ types. We should start with the PER for a $\Sigma$ type:
 
 $\Sigma' x:A.B[x]\;\coloneqq\;\{p = p' | \exists a,a',b,b':Comp.a = a' \in A \wedge b = b' \in B[a] \wedge p \equiv \lang a,b \rang \wedge p' \equiv \lang a',b' \rang\}$
 
-Where $\exists$ was defined as a squashed subset, and $\lang a,b \rang$ is some encoding of ordered pairs, suppose.
+Where $\exists$ is defined as a squashed subset, and $\lang a,b \rang$ is some encoding of ordered pairs, suppose.
 
 We could try to derive the inversion rules
 
@@ -452,7 +452,7 @@ It would not be dependent type theory if types depended only on types. In the pr
 
 Because type validity is a judgment form without any term witness, the most we could hope to pack into type validity is mere inhabitedness of a type. And it turns out we can indeed do that. We would like to add inhabitedness of a type as a condition to type validity in the same way that $TpV$ added a type validity condition. It suffices to define a type constructor $PreSup(P)$ whose validity coincides with combined truth of $P$, and then add that to an existing type with $TpV$.
 
-$PreSup(P)$ is a non-negatable version of $P$. $P$ doesn't have to be squashed, but validity of $PreSup(P)$ will only imply $\lfloor P \rfloor$. $PreSup$ should validate the following rules:
+$PreSup(P)$ is a non-negatable version of $\lfloor P \rfloor$. It should validate the following rules:
 
 $$\begin{gathered}
 \frac{p \Vdash P}{q \Vdash PreSup(P)} \\
