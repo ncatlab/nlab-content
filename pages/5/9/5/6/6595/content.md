@@ -65,7 +65,7 @@ The proof that this definition is coherent and agrees with the previous one is e
 More generally, if $(X,g)$ is a [[Riemannian manifold]] whose [[cotangent spaces]] (equivalently, [[tangent spaces]]) are smoothly equipped with a binary [[cross product]] $&#10761;\colon \Omega^2(X;\mathbb{R}) \to \Omega^1(X;\mathbb{R})$, then the __curl__ of any vector field $v$ is
 
 $$
-  curl(c) 
+  curl(v) 
   \;=\; g^{-1} &#10761; d_{dR} g(v)
 $$
 
@@ -81,7 +81,7 @@ That said, there are also cross products of other [[arities|arity]] in other dim
 In particular, in $2$ dimensions, we have the __scalar curl__
 
 $$
-  curl(c) 
+  curl(v) 
   \;=\; &#10761; d_{dR} g(v)
 $$
 
