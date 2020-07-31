@@ -55,6 +55,8 @@ Injective objects $Met_{ord}$ have been studied in
 
 * Isbell, John R. "Six theorems about injective metric spaces." _Commentarii Mathematici Helvetici_ 39.1 (1964): 65-76.
 
+* [[Anton Petrunin]], "Lectures on metric geometry" 2020, [PDF](https://anton-petrunin.github.io/metric-geometry/tex/lectures.pdf).
+
 
 An overview of results is included in
 
