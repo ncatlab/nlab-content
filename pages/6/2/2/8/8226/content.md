@@ -41,6 +41,8 @@ The [[Ricci flow]]-strategy for the proof was devised by [[Richard Hamilton]] an
 
 Discussion for 3-dimensional [[orbifolds]] is in 
 
+* Michel Boileau, Bernhard Leeb, Joan Porti, _Geometrization of 3-Dimensional Orbifolds_, Annals of Mathematics Second Series, Vol. 162, No. 1 (2005), pp. 195-290 ([jstor:3597373](https://www.jstor.org/stable/3597373))
+
 * Bruce Kleiner, [[John Lott]], _Geometrization of Three-Dimensional Orbifolds via Ricci Flow_ ([arXiv:1101.3733](https://arxiv.org/abs/1101.3733))
 
 [[!redirects geometrization conjecture]]
