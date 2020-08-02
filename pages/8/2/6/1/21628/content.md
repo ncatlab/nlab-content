@@ -7,11 +7,17 @@ This entry collects links related to the forthcoming book
 
   Cambridge Studies in Advanced Mathematics,
 
-  Cambridge University Press
+  Cambridge University Press 
 
-  ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
+which introduces [[homotopy type theory]] in general and [[Martin-Löf dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. The book is based on a course taught by Egbert Rijke at Carnegie Mellon University in the spring semester of 2018.
 
-which introduces [[homotopy type theory]] in general and [[Martin-Löf dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. The book is based on a [course](https://www.andrew.cmu.edu/user/erijke/hott/) taught by Egbert Rijke at Carnegie Mellon University in the spring semester of 2018.
+  [Course webpage](http://www.andrew.cmu.edu/user/erijke/hott/)
+
+  [pdf (2018 course notes)](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf)
+
+  [pdf (2019 summer school notes)](https://hott.github.io/HoTT-2019/images/hott-intro-rijke.pdf)
+
+  [GitHub repositories](https://github.com/HoTT-Intro)
 
 ## Contents
 
