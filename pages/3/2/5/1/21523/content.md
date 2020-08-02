@@ -52,7 +52,7 @@ The inverting of smashing with the Tate sphere as opposed to just with $S^{1}$ i
 
 ## References
 
-* {#MazzaVoevodskyWeibel2006} Mazza, [[Vladimir Voevodsky|Voevodsky]], [[Weibel|Chuck Weibel]], _Lecture notes on motivic cohomology_, Clay Mathematics Monographs 2. Providence, RI: American Mathematical Society (AMS); Cambridge, MA: Clay Mathematics Institute. xiv, 216 p. (2006). [zentralblatt](https://zbmath.org/?q=an%3A1115.14010) [pdf](http://www.claymath.org/library/monographs/cmim-2-voevodsky-cov1.pdf)
+* {#MazzaVoevodskyWeibel2006} Mazza, [[Vladimir Voevodsky|Voevodsky]], [[Chuck Weibel|Weibel]], _Lecture notes on motivic cohomology_, Clay Mathematics Monographs 2. Providence, RI: American Mathematical Society (AMS); Cambridge, MA: Clay Mathematics Institute. xiv, 216 p. (2006). [zentralblatt](https://zbmath.org/?q=an%3A1115.14010) [pdf](http://www.claymath.org/library/monographs/cmim-2-voevodsky-cov1.pdf)
 
 * {#VRO07} [[Vladimir Voevodsky]], [[Oliver Röndigs]], [[Paul Arne Østvær]], _Voevodsky’s Nordfjordeid Lectures: Motivic Homotopy Theory_, In:  [[Bjørn Ian Dundas]], [[Marc Levine]], [[Paul Arne Østvær]], [[Oliver Röndigs]], [[Vladimir Voevodsky]] (eds.), _Motivic Homotopy Theory_,  Springer 2007 ([doi:10.1007/978-3-540-45897-5_7](https://doi.org/10.1007/978-3-540-45897-5_7), [pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/Nordfjordeid_lectures_published.pdf))
 
