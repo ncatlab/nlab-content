@@ -230,6 +230,11 @@ Textbook accounts:
 
 * {#DydakSegal78} [[Jerzy Dydak]], [[Jack Segal]], _Shape Theory_, Lecture Notes in Mathematics, Springer 1978 ([doi:10.1007/BFb0067572](https://link.springer.com/book/10.1007/BFb0067572))
 
+Relation of shape to ordinary [[homotopy type]]:
+
+* [[Jacob Lurie]], Section 7.1.6 in: _[[Higher Topos Theory]]_
+
+* {#Wang17} Jintao Wang, Theorem 4.6 of: _Theory of Compact Hausdorff Shape_ ([arXiv:1708.07346](https://arxiv.org/abs/1708.07346))
 
 A general [[category theory|category theoretic]]-approach is given in
 
