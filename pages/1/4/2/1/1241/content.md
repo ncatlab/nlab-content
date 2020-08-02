@@ -409,22 +409,22 @@ Discussion for [[Spin(16)]] and [[Spin(18)]] GUT group ("[[SO(16)]]" and "[[SO(1
 
 #### $E_8$-GUT
 
+See at _[heterotic string -- phenomenology](heterotic+string+theory#ReferencesPhenomenology)_
+
+See also:
+
 * Alfredo Aranda, Francisco J. de Anda, Stephen F. King, _Exceptional Unification of Families and Forces_ ([arXiv:2005.03048](https://arxiv.org/abs/2005.03048))
 
 * Alfredo Aranda, Francisco J. de Anda, _Complete $E_8$ Unification in 10 Dimensions_ ([arXiv:2007.13248](https://arxiv.org/abs/2007.13248))
 
 
 
-### In string theory
 
-Introductory overview to GUTs in [[string theory]] is in 
+[[!include heterotic string phenomenology -- references]]
 
-* {#Nilles11} [[Hans-Peter Nilles]], _Strings, Exceptional Groups and Grand Unification_, talk at _[Planck 2011](https://indico.cern.ch/event/112851/)_ ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/114planck.pdf), [[Nilles11GUT.pdf:file]])
 
-Amplifcation that $SO(32)$-GUT (as in [[heterotic string theory]] and [[type I string theory]]) is viable via special subgroup-breaking:
 
-* {#Yamatsu17} Naoki Yamatsu, _String-Inspired Special Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2017, Issue 10, 1  ([arXiv:1708.02078](https://arxiv.org/abs/1708.02078), [doi:10.1093/ptep/ptx135](https://doi.org/10.1093/ptep/ptx135))
-
+### In type II string theory
 
 Computer scan of [[Gepner model]]-compactifications in relation to GUT-models is in 
 
