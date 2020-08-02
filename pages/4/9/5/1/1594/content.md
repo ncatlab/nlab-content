@@ -20,15 +20,23 @@
 
 ## Idea
 
-An [[orbifold]] is much like a [[smooth manifold]] but possibly with [[singularities]] of the form of [[fixed points]] of [[group]]-[[actions]].
+An [[orbifold]] is much like a [[smooth manifold]] but possibly with [[singularities]] of the form of [[fixed points]] of [[finite group|finite]] [[group]]-[[actions]].
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/OrbifoldTypes.jpg" width="240">
-</div>
+\begin{imagefromfile}
+  "file_name": "OrbifoldTypes.jpg",
+  "width": 240,
+  "float": "right",
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "(from [Hyde-Ramsden-Robins 14](#HydeRamsdenRobins14))" 
+\end{imagefromfile}
 
 Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces]]/[[Euclidean spaces]] $\mathbb{R}^n$, an _orbifold_ is, more generally, a [[space]] that is locally modeled on [[Lie groupoid|smooth]] [[action groupoids]] ([[homotopy quotients]]) $\mathbb{R}^n\sslash G$ of a [[finite group]] $G$ [[action|acting]] on a [[Cartesian space]].
-
-> graphics grabbed from [Hyde-Ramsden-Robins 14](#HydeRamsdenRobins14)
 
 This turns out to be broadly captured ([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
@@ -298,6 +306,21 @@ See also at _[[orbifold cobordism]]_.
 
 ### In string theory
  {#ReferencesInStringTheory}
+
+
+\begin{imagefromfile}
+  "file_name": "GreenStringOrbifold.jpg",
+  "width": 700,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "(from [Green 86](string+theory#Green86))" 
+\end{imagefromfile}
+
 
 In [[perturbative string theory]], orbifolds as [[target spaces]] for a [[string]] [[sigma-model]] were first considered in 
 
