@@ -1,6 +1,6 @@
 
 
-
+a $\leftrightarrow$ b
 
 ----
 
