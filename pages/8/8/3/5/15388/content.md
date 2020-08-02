@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[moduli spaces of curves]]/[[moduli spaces of Riemann surfaces]] with emphasis on their [[orbifold]]-structure:
+
+* Lizhen Ji, [[Shing-Tung Yau]], _Transformation Groups and Moduli Spaces of Curves_, International Press of Boston 2011 ([ISBN:9781571462237](https://www.intlpress.com/site/pub/pages/books/items/00000353/index.php))
+
+
 On [[p-adic string theory]] and the [[Riemann zeta function]]:
 
 * {#HuangStoicaYau19} [[An Huang]], [[Bogdan Stoica]], [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
