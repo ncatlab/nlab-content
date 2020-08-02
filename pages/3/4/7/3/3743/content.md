@@ -79,6 +79,8 @@ An approach via diagrammatic sets is in
 
 * [[Amar Hadzihasanovic]], _Diagrammatic sets and rewriting in weak higher categories_, ([arXiv:2007.14505](https://arxiv.org/abs/2007.14505))
 
+with slides (for GeoCat 2020), [here](https://www.irif.fr/~ahadziha/files/talk-geocat-rewriting.pdf).
+
 category: combinatorics, algebra, computer science, logic
 [[!redirects rewriting]]
 [[!redirects rewriting system]]
