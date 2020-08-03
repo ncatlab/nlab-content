@@ -124,7 +124,7 @@ But there must be a better reference, somewhere.
 
 An overview is provided in 
 
-* [[Bertrand Toën]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
+* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, In: _Algebraic Geometry Seattle 2005_, Proceedings of Symposia in Pure Mathematics, Vol. 80.1, AMS 2009 ([arXiv:math/0604504](http://arxiv.org/abs/math/0604504), [doi:10.1090/pspum/080.1](https://doi.org/10.1090/pspum/080.1))
 
 A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
 
