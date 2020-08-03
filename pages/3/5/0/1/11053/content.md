@@ -76,4 +76,4 @@ An alternate exposition of the theory, using the presentations by [[model catego
 
 An exposition in the style of To&#235;n-Vezzosi but in the language of [[(infinity,1)-categories]] can be found in
 
-* [[Mauro Porta]], [[Tony Yue Yu]], _Higher analytic stacks and GAGA theorems_, [arXiv:1412.5166](http://arxiv.org/abs/1412.5166).
+* [[Mauro Porta]], Tony Yue Yu, _Higher analytic stacks and GAGA theorems_, [arXiv:1412.5166](http://arxiv.org/abs/1412.5166).
