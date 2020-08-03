@@ -10,15 +10,23 @@ has laid foundations of what is now called [[derived geometry]].
 * [web page](http://www.math.univ-toulouse.fr/~btoen/)
 
 
-## selected texts
+## Selected writings
+
+On [[stacks]] and [[non-abelian cohomology]]L
 
 * {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf))
 
+On [[infinity-stacks]] and [[derived stacks]]:
+
+* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, In: _Algebraic Geometry Seattle 2005_, Proceedings of Symposia in Pure Mathematics, Vol. 80.1, AMS 2009 ([arXiv:math/0604504](http://arxiv.org/abs/math/0604504), [doi:10.1090/pspum/080.1](https://doi.org/10.1090/pspum/080.1))
+
+
+See also
 
 * _Vers une interprétation Galoisienne de la théorie de l’homotopie_. Cahiers de Top. et de Geo. Diff. Cat. 43, No. 4 (2002), 257-312. [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2012/04/Galhom.pdf)
 
 
-## related $n$Lab entries 
+## Related $n$Lab entries 
 
 * [[∞-stack]], [[derived stack]], [[locally constant ∞-stack]]
 
