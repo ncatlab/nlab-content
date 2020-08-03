@@ -14,8 +14,10 @@ Review and exposition:
 
 
 #### The $E_8 \times E_8$-heterotic string 
+ {#HeteroticStringPhenomenologyReferencesForE8}
+ 
 
-The following articles claim the existence of exact realization of the [[gauge group]] and [[matter]]-content of the [[MSSM]] in [[heterotic string theory]] (not yet checking [[Yukawa couplings]]):
+The following articles claim the existence of exact realization of the [[gauge group]] and [[matter]]-content of the [[MSSM]] in [[heterotic string theory]] on [[orbifolds]] (not yet checking [[Yukawa couplings]]):
 
 * [[Volker Braun]], [[Yang-Hui He]], [[Burt Ovrut]], [[Tony Pantev]], _A Heterotic Standard Model_, Phys. Lett. B618 : 252-258 2005 ([arXiv:hep-th/0501070](http://arxiv.org/abs/hep-th/0501070))
 
@@ -87,6 +89,7 @@ See also
 
 
 #### The $SemiSpin(32)$-heterotic string
+ {#HeteroticStringPhenomenologyReferencesForSemiSpin32}
 
 Discussion of [[string phenomenology]] for the [[SemiSpin(32)]]-[[heterotic string]] (see also at [type I phenomenology](type+I+string+theory#Phenomenology)):
 
