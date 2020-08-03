@@ -77,7 +77,11 @@ These are presented by [[simplicial group]]s. Notably, abelian simplicial groups
 
 * [[model structure for ∞-groupoids]]
 
+* [[∞Grpd]]
+
 * [[homotopy hypothesis]], [[test category]], [[modelizer]]
+
+
 
 [[!include homotopy n-types - table]]
 
