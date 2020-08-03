@@ -469,5 +469,4 @@ The book is based on the series of articles
 
 * _$\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
-
 category: reference
