@@ -643,6 +643,11 @@ Standard textbook references for classifying topoi of theories
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, Springer Heidelberg 1994. (chap. VIII)
 
+A more advanced reference containing several developments of the general theory, especially in relation with the view of toposes as ‘bridges’, is the monograph
+
+* [[Olivia Caramello]], _Theories, Sites, Toposes: Relating and studying mathematical theories through topos-theoretic ‘bridges’_ , Oxford University Press, 2017.
+
+
 The relation between the existence of natural number objects and classifying toposes is discussed in
 
 * {#blass}[[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
