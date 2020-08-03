@@ -46,20 +46,20 @@ Given a poset of basic types $B$, the objects of the free rigid monoidal categor
 
 ## Pregroup grammars as free rigid monoidal categories {#PregroupGrammar}
 
-A **pregroup grammar** is a tuple $G = (B, \Sigma, \Delta, s)$ where $B$ and $\Sigma$ are finite sets called the _basic types_ and the _vocabulary_ respectively, $\Delta \subseteq \Sigma \times P_B$ is a relation called the _dictionnary_ and $s \in P_B$ is a designated _sentence type_.
+A **pregroup grammar** is a tuple $G = (B, \Sigma, \Delta, s)$ where $B$ and $\Sigma$ are finite sets called the _basic types_ and the _vocabulary_ respectively, $\Delta \subseteq \Sigma \times P_B$ is a relation called the _dictionary_ and $s \in P_B$ is a designated _sentence type_.
 We require that $\Delta$ is finite, i.e. the set of possible types $\Delta(w) \subseteq P_B$ is finite for each word $w \in \Sigma$.
 The _language_ of $G$ is then given by:
 
 $$L(G) = \big\{ w_1 \dots w_n \in \Sigma^n \vert n \in \mathbb{N}, \quad \exists t \in \prod_{i \leq n} \Delta(w_i) \quad t \leq s \big\}$$
 
-i.e. a sequence of words $w_1 \dots w_n \in \Sigma^n$ is said to be grammatical whenever there is a dictionnary entry $(w_i, t_i) \in \Delta$ for each word $w_i$ such that $t_1 \dots t_n \leq s$.
+i.e. a sequence of words $w_1 \dots w_n \in \Sigma^n$ is said to be grammatical whenever there is a dictionary entry $(w_i, t_i) \in \Delta$ for each word $w_i$ such that $t_1 \dots t_n \leq s$.
 One may simplify this by redefining $L(G) = \big\{ w_1 \dots w_n \in \Sigma^n \vert C_G(w_1 \dots w_n, s) \neq \emptyset \big\}$ where $C_G$ is the free [[rigid monoidal category]] with:
 
 * generating objects the [[disjoint union]] $B + \Sigma$,
-* generating arrows the dictionnary entries $(w, t) \in \Delta$ with $dom(w, t) = w$ and $cod(w, t) = t$.
+* generating arrows the dictionary entries $(w, t) \in \Delta$ with $dom(w, t) = w$ and $cod(w, t) = t$.
 
 That is, a sequence of words is grammatical whenever there exists a string diagram going from the sequence of words to the sentence type.
-Note that traditionally the identity wires for words $w \in \Sigma$ are omitted, hence dictionnary entries are depicted as triangles with no input.
+Note that traditionally the identity wires for words $w \in \Sigma$ are omitted, hence dictionary entries are depicted as triangles with no input.
 Contractions are depicted as cups, e.g. from $(Alice, n), (loves, n^r s n^l), (Bob, n) \in \Delta$ and $n n^r s n^l n \leq s$ we get the following diagram:
  
 \begin{centre}
@@ -112,7 +112,7 @@ The opposite direction also holds, hence pregroup grammar and [[context-free gra
 One may give a [[semantics]] to a pregroup grammar $G = (B, \Sigma, \Delta, s)$ by defining a strong [[monoidal functor]] $F : C_G \to S$, where $C_G$ is the free [[rigid monoidal category]] described in [section 2](#PregroupGrammar). $S$ is a suitable [[rigid monoidal category]], e.g. $\text{FdVect}$ or $\text{Rel}$, depending on the application.
 Note the similarity with a [[Lawvere theory]] as a monoidal functor from a syntactic category to $\text{Set}$.
 
-We require the image for all words $w \in \Sigma$ to be the monoidal unit $F(w) = I$, hence the image for each dictionnary entry $(w, t) \in \Delta$ is given by a state $F(w, t) : I \to F(t)$.
+We require the image for all words $w \in \Sigma$ to be the monoidal unit $F(w) = I$, hence the image for each dictionary entry $(w, t) \in \Delta$ is given by a state $F(w, t) : I \to F(t)$.
 The meaning $F(r) : I \to F(s)$ for a sentence $w_1 \dots w_n \in \Sigma^n$ with grammatical reduction $r : w_1 \dots w_n \to s$ may then be computed from the individual meanings $F(w_i, t_i) : I \to F(t_i)$ of the words, following [[Gottlob Frege|Frege's]] principle of [[compositionality]].
 This has been developed in [Preller 2005](#Preller05) as well as in a series of papers by [[Bob Coecke]] and others, see [[categorical compositional distributional semantics]].
 
