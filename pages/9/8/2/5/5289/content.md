@@ -55,6 +55,8 @@ See there for more.
 
 [[!include k-monoidal table]]
 
+* [[May recognition theorem]]
+
 * [[k-tuply monoidal (n,r)-category]]
 
 * [[k-tuply groupal n-groupoid]]
