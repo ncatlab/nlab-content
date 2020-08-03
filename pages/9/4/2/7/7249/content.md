@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -58,6 +59,8 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 * [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
 
 * {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
+
+* [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, 2008 ([pdf](https://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Trieste-Lecture-Notes.pdf), [[SergeraertCombinatorialHomotopyTheory.pdf:file]])
 
 
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
