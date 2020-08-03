@@ -645,7 +645,7 @@ Standard textbook references for classifying topoi of theories
 
 A more advanced reference containing several developments of the general theory, especially in relation with the view of toposes as ‘bridges’, is the monograph
 
-* [[Olivia Caramello]], _Theories, Sites, Toposes: Relating and studying mathematical theories through topos-theoretic ‘bridges’_ , Oxford University Press, 2017.
+* [[Olivia Caramello]], [_Theories, Sites, Toposes: Relating and studying mathematical theories through topos-theoretic ‘bridges’_](https://global.oup.com/academic/product/theories-sites-toposes-9780198758914), Oxford University Press, 2017.
 
 
 The relation between the existence of natural number objects and classifying toposes is discussed in
