@@ -25,9 +25,11 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _The formal construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title) Submitted.
 
-* _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]]. Submitted.
+
 
 ### Papers
+
+* _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]]. Accepted to appear, Annales de l'Institut Fourier, 3 August 2020.
 
 * _Topological sectors for heterotic M5-brane charges under Hypothesis H_  J. High Energ. Phys. **2020** no. 52 (2020) doi:[10.1007/JHEP06(2020)052](https://doi.org/10.1007/JHEP06%282020%29052) (2020), arXiv:[2003.09832](https://arxiv.org/abs/2003.09832).
 
