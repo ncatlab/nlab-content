@@ -60,7 +60,7 @@ A textbook account is developing in
 
 See also
 
-* [[Clark Barwick]], _Applications of derived algebraic geometry to homotopy theory_, lecture notes, mini-course in Salamanca, 2009, [pdf](https://dl.dropboxusercontent.com/u/1741495/papers/salamanca.pdf).
+* [[Clark Barwick]], _Applications of derived algebraic geometry to homotopy theory_, lecture notes, mini-course in Salamanca, 2009, [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/salamanca.pdf).
 
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
 
