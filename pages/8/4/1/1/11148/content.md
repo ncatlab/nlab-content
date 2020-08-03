@@ -61,6 +61,9 @@ See also:
 
 * Aritra Ghosh, Chandrasekhar Bhamidipati, _Thermodynamic geometry and interacting microstructures of BTZ black holes_ ([arXiv:2001.10510](https://arxiv.org/abs/2001.10510))
 
+* Roberto Emparan, Antonia Micol Frassino, Benson Way, _Quantum BTZ black hole_ ([arXiv:2007.15999](https://arxiv.org/abs/2007.15999))
+
+
 In view of the [[cosmic censorship hypothesis]]:
 
 * Roberto Emparan, Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_ ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
