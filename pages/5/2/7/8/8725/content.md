@@ -46,6 +46,8 @@ See the examples at _[[braided 2-group]]_, _[[braided 3-group]]_.
 
 * [[∞-group]], [[k-tuply groupal n-groupoid]]
 
+* [[May recognition theorem]]
+
 * **braided ∞-group**,
 
   * [[braided 2-group]]
