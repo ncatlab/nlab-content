@@ -57,7 +57,7 @@ For $\mathcal{X}$ an [[(∞,1)-topos]], an  **abelian 2-gerbe** $P$ in $\mathcal
 
 A comprehensive discussion of nonabelian 2-gerbes is in 
 
-* [[Lawrence Breen]], _On the classification of 2-gerbes and 2-stacks_ , Ast&#233;risque 225 (1994).
+* [[Lawrence Breen]], _On the classification of 2-gerbes and 2-stacks_ , Ast&#233;risque 225 (1994) ([numdam:AST_1994__225__1_0](http://www.numdam.org/item/?id=AST_1994__225__1_0))
 
 A more expository discussion is in
 
