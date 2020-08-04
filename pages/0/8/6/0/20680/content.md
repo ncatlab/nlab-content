@@ -58,7 +58,13 @@ $$
 The [[blowup]] at [[generic points]] is a [[del Pezzo surface]].
 
 
+## Related concepts
 
+* [[complex projective space]]
+
+  * [[complex projective line]]
+
+  * [[complex projective 3-space]]
 
 
 
