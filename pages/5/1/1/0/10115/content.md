@@ -37,6 +37,12 @@ The [[biholomorphisms]], i.e. the bijective [[conformal transformations]] from t
 
 * [[stereographic projection]]
 
+* [[complex projective space]]
+
+  * [[complex projective plane]]
+
+  * [[complex projective 3-space]]
+
 ## References
 
 See also
@@ -50,6 +56,10 @@ On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]
 
 
 [[!redirects Riemann spheres]]
+
+[[!redirects complex projective line]]
+[[!redirects complex projective lines]]
+
 
 [[!redirects complex projective curve]]
 [[!redirects complex projective curves]]
