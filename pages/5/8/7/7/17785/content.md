@@ -20,7 +20,7 @@ The concept of _super-scheme_ is the generalization of that of _[[scheme]]_ from
 
 ### Affine superschemes
 
-The following is a detailed and conceptual introduction of the concept of affine super-schemes. It is taken from _[[geometry of physics -- superalgebra]]_.
+The following is a detailed and conceptual introduction of the concept of affine super-schemes. This is taken from _[[geometry of physics -- superalgebra]]_.
 
 The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by def. \ref{MonoidsInMonoidalCategory} and ef. \ref{SupercommutativeSuperalgebra} below.
 
@@ -725,9 +725,13 @@ This follows immediately from combining the associativity and unitality (and sym
 
 General accounts include
 
-* Carmeli-Caston-Fioresi: Mathematical foundations of supersymmetry, EMS Series of Lectures in Mathematics, EMS 2011
+* Carmeli-Caston-Fioresi: _Mathematical foundations of supersymmetry_, EMS Series of Lectures in Mathematics, EMS 2011
 
 * [[Mikhail Kapranov]]  [[Eric Vasserot]], _Supersymmetry and the formal loop space_, Advances in Math. 227 (2011), 1078-1128 ([arXiv:1005.4466](https://arxiv.org/abs/1005.4466))
+
+* [[Ugo Bruzzo]], Daniel Hernandez Ruiperez, [[Alexander Polishchuk]], _Notes on fundamental algebraic supergeometry. Hilbert and Picard superschemes_ ([arXiv:2008.00700](https://arxiv.org/abs/2008.00700))
+
+
 
 Discussion of [[crystalline cohomology]] of super-schemes:
 
