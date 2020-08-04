@@ -51,7 +51,7 @@ Many details are still being worked out, but the impression is that homotopy typ
 
 ### Advantages {#Advantages}
 
-As a [[foundation]] for [[mathematics]], homotopy type theory (also called **univalent foundations**) has the following advantages.  Many of these advantages are shared with some other foundational systems, but no other known system shares all of these, and some are unique to HoTT.
+As a [[foundation]] for [[mathematics]], homotopy type theory (also called **[[univalent foundations for mathematics|univalent foundations]]**) has the following advantages.  Many of these advantages are shared with some other foundational systems, but no other known system shares all of these, and some are unique to HoTT.
 
 * It treats [[homotopy theory]] and [[∞-groupoids]] natively.  This is an advantage for doing homotopical and [[higher category theory|higher-categorical]] mathematics, which is spreading slowly into other fields.
 
@@ -280,6 +280,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 (see [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pushout.v) for the proof)
 
 ## Related entries
+
+* [[univalent foundations for mathematics]]
 
 * [[homotopy type theory FAQ]]
 
