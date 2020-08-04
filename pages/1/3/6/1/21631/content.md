@@ -27,7 +27,7 @@ Notice that:
 
 * [[propositional resizing]] is sometimes also as an axiom;
 
-* the [[UniMath]] library also uses _type in type_, which leads to an [[inconsistency]] via [[Girard's paradox]].
+* the [[UniMath]] library also uses _type in type_, i.e., the axiom that the universe contains itself. Strictly speaking, this makes the system [[inconsistency|inconsistent]], due to [[Girard's paradox]]. But the idea is that in practice the inconsistencies are readily avoided, so that the axiom serves as a convenient hack.
 
 ## Related entries
 
