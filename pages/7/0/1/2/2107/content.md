@@ -31,7 +31,7 @@ Let $k$ be a [[commutative ring]] (typically a [[field]]).
 ###### Definition
 **(left Leibniz algebra)**
 
-A _left Leibniz $k$-algebra__ (or: _left Loday algebra_) is 
+A _left Leibniz $k$-algebra_ (or: _left Loday algebra_) is 
 
 * a $k$-[[module]] $A$ (hence a $k$-[[vector space]] if $k$ is a [[field]] and then often required to be [[finite-dimensional vector space|finite-dimensional]])  
 
