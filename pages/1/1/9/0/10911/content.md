@@ -94,6 +94,13 @@ See also
 
 * A. Stern, Chuang Xu, _Signature change in matrix model solutions_ ([arXiv:1808.07963](https://arxiv.org/abs/1808.07963))
 
+* F. R. Klinkhamer, _On the emergence of an expanding universe from a Lorentzian matrix model_ ([arXiv:1912.12229](https://arxiv.org/abs/1912.12229))
+
+* F. R. Klinkhamer, _IIB matrix model: Emergent spacetime from the master field_ ([arXiv:2007.08485](https://arxiv.org/abs/2007.08485))
+
+* F. R. Klinkhamer, _IIB matrix model: Extracting spacetime points_ ([arXiv:2008.01058](https://arxiv.org/abs/2008.01058))
+
+
 ### Computer simulation
  {#ReferencesComputerSimulation}
 
@@ -110,11 +117,11 @@ There are claims that numerical computer simulations (as in [[lattice gauge theo
 * Kohta Hatakeyama, Akira Matsumoto, Jun Nishimura, Asato Tsuchiya, Atis Yosprakob, _The emergence of expanding space-time and intersecting D-branes from classical solutions in the Lorentzian type IIB matrix model_ ([arxiv:1911.08132](https://arxiv.org/abs/1911.08132))
 
 
-* F. R. Klinkhamer, _On the emergence of an expanding universe from a Lorentzian matrix model_ ([arXiv:1912.12229](https://arxiv.org/abs/1912.12229))
 
 * Konstantinos N. Anagnostopoulos, Takehiro Azuma, Yuta Ito, Jun Nishimura, Toshiyuki Okubo, Stratos Kovalkov Papadoudis, _Complex Langevin analysis of the spontaneous breaking of 10D rotational symmetry in the Euclidean IKKT matrix model_ ([arXiv:2002.07410](https://arxiv.org/abs/2002.07410))
 
-* F. R. Klinkhamer, _IIB matrix model: Emergent spacetime from the master field_ ([arXiv:2007.08485](https://arxiv.org/abs/2007.08485))
+
+
 
 
 [[!redirects IIB matrix model]]
