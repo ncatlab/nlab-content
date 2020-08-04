@@ -713,6 +713,11 @@ See also
 * Wikipedia, _[Complex projective space](https://en.wikipedia.org
 /wiki/Complex_projective_space)_
 
+Computation of [[cohomotopy]]-sets of complex projective spaces:
+
+* {#West71} Robert West, _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal Indiana University Mathematics Journal Vol. 20, No. 9 (March, 1971), pp. 807-827 ([jstor:24890146](https://www.jstor.org/stable/24890146))
+
+
 Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to
 
 * R. E. Mosher,  _Some stable homotopy of complex projective space_, Topology 7 (1968), 179-193 ([pdf](https://core.ac.uk/download/pdf/82547916.pdf))
