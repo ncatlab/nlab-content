@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,7 +37,11 @@ $$
 
 ### Quotient by complex conjugation is 4-sphere
 
-The [[quotient space]] of the [[complex projective plane]] by the [[action]] on homogeneous coordinates of [[complex conjugation]] is the [[4-sphere]].
++-- {: .num_prop}
+###### Proposition
+**([[Arnold-Kuiper-Massey theorem]])**
+
+The [[4-sphere]] is the [[quotient space]] of the [[complex projective plane]] by the [[action]] on homogeneous coordinates of [[complex conjugation]]:
 
 $$
   \mathbb{C}P^2 / (-)^*
@@ -35,17 +49,8 @@ $$
   S^4
 $$
 
-* [[Vladimir Arnold]], _Ramied covering $\mathbb{C}P^2  \to S^4$, hyperbolicity and projective topology_, Siberian Math. Journal 1988, V. 29, N 5, P.36-47
+=--
 
-* [[Vladimir Arnold]], _On disposition of ovals of real plane algebraic curves, involutions of four-dimensional manifolds and arithmetics of integer quadratic forms_, Funct. Anal. and Its Appl., 1971, V. 5, N 3, P. 1-9.
-
-
-* [[William Massey]], _The quotient space of the complex projective space under conjugation is a 4-sphere_, Geometriae Didactica 1973
-
-
-* [[Nicolaas Kuiper]], _The quotient space of ℂP(2) by complex conjugation is the 4-sphere_, Mathematische Annalen, 1974 
-
-* J.A.Hillman, _An explicit formula for a branched covering from $\mathbb{C}P^2$ to $S^4$_ ([arXiv:1705.05038](https://arxiv.org/abs/1705.05038))
 
 
 ### Blowup to del Pezzo surfaces
