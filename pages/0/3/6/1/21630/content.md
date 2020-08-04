@@ -52,4 +52,4 @@ See also
 
 The $SO(3)$-[[equivariant function|equivariant]] enhancement is discussed in:
 
-* Le, Seade, Verjovsky, _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
+* Le, [[José Seade]], [[Alberto Verjovsky]], _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
