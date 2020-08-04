@@ -60,6 +60,14 @@ The infinite real projective space $\mathbb{R}P^\infty \coloneqq \underset{\long
 
 ## References
 
+See also:
+
 * Wikipedia, _[Real projective space](https://en.wikipedia.org/wiki/Real_projective_space)_
+
+Computation of [[cohomotopy]]-sets of real projective space:
+
+* {#West71} Robert West, _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal Indiana University Mathematics Journal Vol. 20, No. 9 (March, 1971), pp. 807-827 ([jstor:24890146](https://www.jstor.org/stable/24890146))
+
+
 
 [[!redirects real projective spaces]]
