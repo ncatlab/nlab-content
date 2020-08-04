@@ -1,4 +1,23 @@
-[[!redirects Univalent Foundations for Mathematics]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -11,7 +30,7 @@ A _univalent foundations for mathematics_ refers to any [[foundations of mathema
 
 ### In higher topos theory 
 
-See at _[[object classifier]]_.
+See at _[[object classifier]]_ (in [[(∞,1)-toposes]]).
 
 ### In homotopy type theory
 
@@ -25,9 +44,9 @@ Notice that:
 
 * [[function extensionality]] is implied by the [[univalence axiom]], so it is not necessary to assume separately;
 
-* [[propositional resizing]] is sometimes also as an axiom;
+* [[propositional resizing]] is sometimes also included as an axiom;
 
-* the [[UniMath]] library also uses _type in type_, i.e., the axiom that the universe contains itself. Strictly speaking, this makes the system [[inconsistency|inconsistent]], due to [[Girard's paradox]]. But the idea is that in practice the inconsistencies are readily avoided, so that the axiom serves as a convenient hack.
+* the [[UniMath]] library also uses _type in type_, i.e., the [[axiom]] that the [[type universe]] contains itself. Strictly speaking, this makes the system [[inconsistency|inconsistent]], due to [[Girard's paradox]]. But the idea is that in practice the inconsistencies are readily avoided, so that the axiom serves as a convenient hack.
 
 ## Related entries
 
@@ -39,7 +58,7 @@ Notice that:
 
 ### In higher topos theory
 
-* [[Jacob Lurie]], Section 6.1.6 of: _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], Section 6.1.6 of: _[[Higher Topos Theory]]_ (attributed there to [[Charles Rezk]])
 
 ### In type theory
 
@@ -50,3 +69,7 @@ Notice that:
 * [UniMath](https://github.com/UniMath/UniMath)
 
 * [Coq HoTT library](https://github.com/HoTT/HoTT)
+
+
+[[!redirects Univalent Foundations for Mathematics]]
+
