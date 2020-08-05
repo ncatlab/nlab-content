@@ -95,6 +95,11 @@ Hilbert's own work on the foundations of the [[classical field theory]] of [[gra
 * Tilman Sauer,  _The relativity of discovery: Hilbert's first note on the foundations of physics". Arch. Hist. Exact Sci. 53 (6): 529&#8211;575. (1999). ([arXiv:physics/9811050](http://arxiv.org/abs/physics/9811050))
  {#Sauer1999}
 
+Discussion in the context of [[higher category theory and physics]]:
+
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards An Approach to Hilbert's Sixth Problem: A Brief Review_, 2020 ([hal:02909681](hal.archives-ouvertes.fr/hal-02909681), [pdf](https://hal.archives-ouvertes.fr/hal-02909681/document))
+
+
 Surveys of the sixths problem include
 
 * Wikipedia, _[Hilbert's sixth problem](http://en.wikipedia.org/wiki/Hilbert%27s_sixth_problem)_
