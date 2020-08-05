@@ -41,7 +41,7 @@ As with rings, one sometimes considers non-associative or non-unital versions (w
 
 ## Properties
 
-Many rigs are either [[ring]]s or [[distributive lattice]]s.  Indeed, a ring is precisely a rig that forms a group under addition, while a distributive lattice is precisely a commutative, simple rig in which both operations are idempotent (see ([Golan 1999, Proposition 2.25](#Golan1999))). Note that a [[Boolean algebra]] is a rig in both ways: as a lattice and as a [[Boolean ring]].
+Many rigs are either [[ring]]s or [[distributive lattice]]s.  Indeed, a ring is precisely a rig that forms a group under addition, while a distributive lattice is precisely a commutative, simple rig in which both operations are idempotent (see ([Golan 2003, Proposition 2.25](#Golan2003))). Note that a [[Boolean algebra]] is a rig in both ways: as a lattice and as a [[Boolean ring]].
 
 Any rig can be "completed" to a ring by adding negatives, in the same way that the natural numbers are completed to the integers.  When applied to the set of isomorphism classes of objects in a rig category, the result is part of [[algebraic K-theory]]. More formally, the ring completion of a rig $R$ is obtained by applying the [[group completion]] functor to the underlying additive monoid of $R$, and extending the rig multiplication to a ring multiplication by exploiting distributivity; this gives the [[left adjoint]] $F: Rig \to Ring$ to the forgetful functor $U: Ring \to Rig$. Note however that the unit of the [[adjunction]] $R \to U F(R)$ is not [[monomorphism|monic]] if the additive monoid of $R$ is not [[cancellation monoid|cancellative]], despite an informal convention that "[[completion]]" should usually mean a [[monad]] where the unit *is* monic. 
 
@@ -85,6 +85,7 @@ Some rigs which are neither rings nor distributive lattices include:
 ## References
 
 * {#Golan1999} [[Jonathan S. Golan]], _Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
+* {#Golan2003} [[Jonathan S. Golan]], _Semirings and affine equations over them: theory and applications_ (Vol. 556). Springer Science & Business Media, 2003.
 * [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
 * wikipedia [semiring](http://en.wikipedia.org/wiki/Semiring)
 * J. Jun, S. Ray, J. Tolliver, _Lattices, spectral spaces, and closure operations on idempotent semirings_, [arxiv/2001.00808](https://arxiv.org/abs/2001.00808)
