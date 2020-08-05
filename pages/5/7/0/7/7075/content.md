@@ -275,14 +275,20 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 ## References
   {#References}
 
-Exposition and review:
+Exposition:
 
 * Saifuddin Syed, _Group structure on spheres and the Hopf fibration_ ([[SyedHopfFibration.pdf:file]])
+
+Review:
+
+* [[Herman Gluck]], [[Frank Warner]], [[Chung Tao Yang]], Section 6 of: _Division algebras, fibrations of spheres by great spheres and the topological determination of space by the gross behavior of its geodesics_, Duke Math. J. Volume 50, Number 4 (1983), 1041-1076 ([euclid:dmj/1077303489](https://projecteuclid.org/euclid.dmj/1077303489))
+
+* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198
 
 
 * _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_
 
-For more discussion in [[homotopy type theory]] see also at 
+Formulation in [[homotopy type theory]]:
 
 * [HoTT Wiki](https://ncatlab.org/homotopytypetheory/show/HomePage), _[[homotopytypetheory:Hopf fibration]]_
 
