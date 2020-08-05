@@ -73,6 +73,10 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 
 * {#SeadeVerjovsky03} Le, [[José Seade]], [[Alberto Verjovsky]], Section 4 of: _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
 
+* John Armstrong, [[Simon Salamon]], _Twistor Topology of the Fermat Cubic_, SIGMA 10 (2014), 061, 12 pages ([arXiv:1310.7150](https://arxiv.org/abs/1310.7150))
+
+
+
 In [[noncommutative geometry]]:
 
 * Simon Brain, Giovanni Landi, _Differential and Twistor Geometry of the Quantum Hopf Fibration_, Commun. Math. Phys. 315 (2012):489-530 ([arXiv:1103.0419](https://arxiv.org/abs/1103.0419))
