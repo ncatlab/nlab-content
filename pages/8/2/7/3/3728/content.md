@@ -43,7 +43,10 @@ Equivalently, $f$ is an equivalence if it is the image of a functor of quasi-cat
 
 * **equivalence in an (∞,1)-category**
 
+* [[equivalence in homotopy type theory]]
+
 * [[equivalence of (∞,1)-categories]]
+
 
 
 [[!redirects equivalence in a quasicategory]]
