@@ -473,6 +473,8 @@ This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes t
 
 ## Related concepts
 
+* [[twistor fibration]]
+
 * A real analog of this is the _[[Radon transform]]_.
 
 * [[spinor]]
