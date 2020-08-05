@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Calabi-Penrose fibration_ or _twistor fibration_ is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+The _twistor fibration_ ([Atiyah 79, Sec. III.1](#Atiyah79)) or _Calabi-Penrose fibration_ ([Seade-Verjovsky 03, p. 198](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#513) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -28,11 +28,29 @@ $$
       &\longrightarrow&
     \mathbb{C}P^3
     \\
-    && \big\downarrow
+    && 
+    \big\downarrow^{\mathrlap{p}}
     \\
     && S^4
   }
 $$
+
+If one identifies the 4-sphere as the [[quaternions|quaternionic]] [[projective space|projective line]]  $S^4 \simeq \mathbb{H}P^1$, then the fibration $p$ here is given by sending complex lines to quaternionic lines ([Atiyah 79, III (1.1)](#Atiyah79), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03)):
+
+$$
+  \array{
+    \mathbb{C}P^3 
+    &\overset{p}{\longrightarrow}&
+    \mathbb{H}P^1
+    \\
+    \{x \cdot z \vert z \in \mathbb{C}\}
+    &\mapsto&
+    \{x \cdot q \vert q \in \mathbb{H}\}
+  }
+  \,,
+$$
+
+for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 
 ## Related concepts
 
@@ -42,7 +60,7 @@ $$
 
 ## References
 
-* [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867))
+* {#Atiyah79} [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867), [pdf](https://pdfs.semanticscholar.org/b523/d376f11a531fa5a4692401902a17ee18861f.pdf))
 
 * [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
 
@@ -52,7 +70,7 @@ $$
 
 * {#SeadeVerjovsky02} [[José Seade]], [[Alberto Verjovsky]], Section 2 of: _Higher dimensional complex Kleinian groups_,  Math Ann 322, 279–300 (2002) ([doi:10.1007/s002080100247](https://doi.org/10.1007/s002080100247))
 
-* Le, [[José Seade]], [[Alberto Verjovsky]], Section 4 of: _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
+* {#SeadeVerjovsky03} Le, [[José Seade]], [[Alberto Verjovsky]], Section 4 of: _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
 
 
 [[!redirects Calabi-Penrose fibrations]]
