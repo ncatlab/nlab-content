@@ -22,7 +22,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -276,7 +275,10 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 ## References
   {#References}
 
-Reviews include
+Exposition and review:
+
+* Saifuddin Syed, _Group structure on spheres and the Hopf fibration_ ([[SyedHopfFibration.pdf:file]])
+
 
 * _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_
 
