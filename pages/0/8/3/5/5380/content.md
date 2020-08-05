@@ -15,28 +15,38 @@
 
 ## Definition
 
-Let $T$ be an abelian [[Lawvere theory]] (one containing the theory of [[abelian group]]s). Write $\mathbb{A}^1$ for its canonical [[line object]] and $\mathbb{G}_m$ for the corresponding multiplicative group object.
+Let $T$ be an abelian [[Lawvere theory]] (one containing the theory of [[abelian groups]]). Write $\mathbb{A}^1$ for its canonical [[line object]] and $\mathbb{G}_m$ for the corresponding [[multiplicative group]]-object.
 
 The **projective space** $\mathbb{P}_n$ of $T$ is the [[quotient]]
 
 $$
-  \mathbb{P}_n := (\mathbb{A}^{n+1} - \{0\})/\mathbb{G}_m
+  \mathbb{P}_n 
+  \coloneqq
+  (\mathbb{A}^{n+1} \setminus \{0\})/\mathbb{G}_m
 $$
 
-of the $(n+1)$-fold [[product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$. Any point $(x_0,x_1,\ldots,x_n)\in \mathbb{A}^{n+1} - \{0\}$ gives _homogeneous coordinates_ for its image under the quotient map. When considered in this fashion, one often writes $[x_0:x_1:\ldots:x_n]$. Homogeneous  coordinates were introduced in [M&#246;bius 27](#Mobius27)
+of the [[complement]] of yhe origin inside the $(n+1)$-fold [[Cartesian product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$.
 
-More generally, for $(X,0)$ a pointed space with (pointed) $\mathbb{G}_m$-[[action]], the quotient
+Any point $(x_0,x_1,\ldots,x_n)\in \mathbb{A}^{n+1} - \{0\}$ gives _homogeneous coordinates_ for its image under the quotient map. When considered in this fashion, one often writes $[x_0:x_1:\ldots:x_n]$. Homogeneous  coordinates were introduced in [M&#246;bius 27](#Mobius27)
+
+More generally, for $(X,0)$ a [[pointed topological space]] with (pointed) $\mathbb{G}_m$-[[action]], the quotient
 
 $$
- \mathbb{P}(X) :=  (X-\{0\})/\mathbb{G}_m
+ \mathbb{P}(X) 
+  \colorqq
+  (X \setminus\{0\})
+  /
+  \mathbb{G}_m
 $$
 
 is the corresponding projective space.
 
-If instead of forming the [[quotient]] one forms the weak quotient/[[action groupoid]], one speaks of the [[projective stack]]
+If instead of forming the [[quotient]] one forms the [[quotient stack]]/[[action groupoid]], one speaks of the [[projective stack]]
 
 $$
-  \hat \mathbb{P}(X) \coloneqq (X-\{0\})//\mathbb{G}_m
+  \hat \mathbb{P}(X) 
+  \coloneqq 
+  (X\setminus\{0\})//\mathbb{G}_m
   \,.
 $$
 
