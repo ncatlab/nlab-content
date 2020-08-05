@@ -97,7 +97,7 @@ Hilbert's own work on the foundations of the [[classical field theory]] of [[gra
 
 Discussion in the context of [[higher category theory and physics]]:
 
-* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards An Approach to Hilbert's Sixth Problem: A Brief Review_, 2020 ([hal:02909681](hal.archives-ouvertes.fr/hal-02909681), [pdf](https://hal.archives-ouvertes.fr/hal-02909681/document))
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards An Approach to Hilbert's Sixth Problem: A Brief Review_, 2020 ([hal:02909681](https://hal.archives-ouvertes.fr/hal-02909681), [pdf](https://hal.archives-ouvertes.fr/hal-02909681/document))
 
 
 Surveys of the sixths problem include
