@@ -20,7 +20,7 @@ On [[higher category theory and physics]] in view of [[Hilbert's sixth problem]]
 
 * [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards An Approach to Hilbert's Sixth Problem: A Brief Review_, 2020 ([hal:02909681](https://hal.archives-ouvertes.fr/hal-02909681), [pdf](https://hal.archives-ouvertes.fr/hal-02909681/document)). Submitted
 
-* [[Yuri Ximenes Martins]], _Categorical and Geometrical Methods in Physics_, Master's thesis, UFMG, 2018. ([pdf](https://repositorio.ufmg.br/bitstream/1843/32053/1/dissertacao_yuri_FINAL.pdf))
+* [[Yuri Ximenes Martins]], _Categorical and Geometrical Methods in Physics_, Master's thesis, UFMG, 2018. ([pdf](https://repositorio.ufmg.br/bitstream/1843/32053/1/dissertacao_yuri_FINAL.pdf), [slides](#))
 
 On obstructions to realize gravity (as Einstein--Hilbert--Palatini theories) in geometries other than Lorentzian and Riemannian:
 
@@ -65,9 +65,23 @@ On an introduction to abstract homotopy theory by means of model categorias and 
 
 * [[Yuri Ximenes Martins]], _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
 
+## Selected Talks
+
+For the full list of talks and invited talks, here.
+
+On the role of higher category theory in the foundations of physics:
+ 
+* _Category Theory in the Foundations of Physics_, Colloquium of Mathematics, UFLA, 2016
+
+* _Towards an Approach to Hilbert's Sixth Problem_. I SEMAT, UFLA, 2017. Notes available [here](https://math-phys.group/wp-content/uploads/2020/02/yuri_ISEMAT_2017.pdf). See also ([hal:02909681](https://hal.archives-ouvertes.fr/hal-02909681))
+
+On a vertical categorification of Lie algebras (called Lie algebroidal categories) and a connection with Lie algebroids. A priori the Lie algebroidal categories differs from Lie 2-algebras of Baez-Crans, but further investigations are needed.
+
+* _Lie Algebroidal Categories_, Young Algebraist Meeting, UFMG, 2020. ([hal-02907904v1](https://hal.archives-ouvertes.fr/hal-02907904v1))
+
 ## Current Advising
 
-Currently I am (co)advising four master students (joint [[Rodney Josué Biezuner]]). For the full list, including past advising, see [here](https://sites.google.com/view/yxmartins/teaching/advising).
+Currently I am (co)advising four master students (joint [[Rodney Josué Biezuner]]). For the full list, including past advising, see [here](https://sites.google.com/view/yxmartins/teaching/advising) or [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
 
 * Luiz Felipe Andrade Campos, _On Extensions of Yang-Mills-Type Theories_, started 2019/1
 
