@@ -7,7 +7,11 @@ I am a PhD student at [Departament of Mathematics](http://www.mat.ufmg.br/posgra
 
 Presently I am mainly interested in (higher) gauge theory, geometric regularity theory, in finding general theorems on emergence between field theories,  in applying categorification methods in algebra and differential geometry, in abstracting standard results and in the axiomatization problem of Astrophysics.
 
-I am a co-founder of a research group on mathematical-physics and categorification, called Algebraic, Categorical and Geometric Methods in Physics (or just Math-Phys-Cat Group). For our website, see [here](https://math-phys.group/). 
+I am a co-founder of a research group on mathematical-physics and categorification, called Algebraic, Categorical and Geometric Methods in Physics (or just Math-Phys-Cat Group). For our website, see [here](https://math-phys.group/).
+
+You can also find me on: [arXiv](https://arxiv.org/a/martins_y_1.html), [ORCID](https://orcid.org/0000-0003-3717-6774), [Zenodo](https://zenodo.org/search?page=1&size=20&q=%22Ximenes%20Martins,%20Yuri%22) and [Google Scholar](https://scholar.google.com/citations?user=5gsjGswAAAAJ&hl=pt-BR). For my CV, see [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
+
+The best way to contact me is through the email yurixm@ufmg.br. 
 
 ## Writings
 ### Papers and Preprints
@@ -38,10 +42,40 @@ On the axiomatization problem of Astrophysics:
 
 On a program attempting to get existence and multiplicity results for geometric objects on $C^k$-manifolds fulfilling arbitrarily given regularity conditions.
 
-* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]],_Existence of $B^k_{\alpha,\beta}$-Structures on $C^k$-Manifolds_, 2019. ([arXiv:1908.04442](https://arxiv.org/abs/1908.04442)). Submitted
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Existence of $B^k_{\alpha,\beta}$-Structures on $C^k$-Manifolds_, 2019. ([arXiv:1908.04442](https://arxiv.org/abs/1908.04442)). Submitted
 
 * [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Geometric Regularity Results on $B_{\alpha,\beta}^{k}$-Manifolds, I: Affine Connections_, 2020. ([arXiv:1910.03113](https://arxiv.org/abs/1910.03113)). Submitted
 
+On an axiomatization proposal to the notion of strong emergence between Lagrangian field theories:
+
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards Axiomatization and General Results on Strong Emergence Phenomena Between Lagrangian Field Theories_, 2020, ([arXiv:2004.13144](https://arxiv.org/abs/2004.13144))
+
+On a functorial extension of Feynman rules from Feynman graphs to structured hypergraphs.
+
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Graph Reconstruction, Functorial Feynman Rules and Superposition Principles_, 2019, ([arXiv:1903.06284](https://arxiv.org/abs/1903.06284)). To be improved
+
+###Textbooks and Lecture Notes
+
+On an introduction to (algebraic) topology and differential geometry aiming the study of general spherically symmetric black holes (in Brazilian portuguese):
+
+* Fábio Dadam, [[Yuri Ximenes Martins]], _Topologia, Geometria e Buracos Negros_, NEA, 2016. ([hal-02908935v1](https://hal.archives-ouvertes.fr/hal-02908935v1))
+
+
+On an introduction to abstract homotopy theory by means of model categorias and (infty,1)-categories (in Brazilian portuguese):
+
+* [[Yuri Ximenes Martins]], _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
+
+## Current Advising
+
+Currently I am (co)advising four master students (joint [[Rodney Josué Biezuner]]). For the full list, including past advising, see [here](https://sites.google.com/view/yxmartins/teaching/advising).
+
+* Luiz Felipe Andrade Campos, _On Extensions of Yang-Mills-Type Theories_, started 2019/1
+
+* Mayk Alves de Andrade, _Modal Homotopy Type Theory on the Foundations of Physics_, started 2019/2
+
+* Daniel de Souza Plácido Teixeira, _to appear_, started 2020/1
+
+* Pedro Brunialti Lima de Andrade, _Abstract Stable Homotopy Theory_, started 2020/1
 
 
 category: people
