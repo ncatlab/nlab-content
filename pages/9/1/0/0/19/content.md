@@ -440,7 +440,9 @@ Discussion of the relation to and motivation from the [[philosophy of mathematic
 
 ### Further resources and links
 
-There are several networks of category theorists organised, initially, at a national level and aiming to join forces to organise conferences, online seminars, etc.  See here the list of _[[networks of category theorists]]_.
+There are several networks of category theorists organised, initially, at a national level and aiming to join forces to organise conferences, online seminars, etc.:
+
+* _[[networks of category theorists]]_.
 
 
 [[!redirects abstract nonsense]]
