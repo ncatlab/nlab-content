@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[Calabi-Penrose fibration]]:
+
+* {#Lawson85} [[H. Blaine Lawson]], _Surfaces minimales et la construction de Calabi-Penrose_,  Séminaire Bourbaki : volume 1983/84, exposés 615-632, Astérisque no. 121-122  (1985), Talk no. 624, p. 197-211 ([numdam:SB_1983-1984__26__197_0](http://www.numdam.org/item/SB_1983-1984__26__197_0))
+
+
 On [[spin geometry]]:
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
