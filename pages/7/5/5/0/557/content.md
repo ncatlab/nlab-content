@@ -108,7 +108,7 @@ Given a set of colors $\mathfrak{C}$ and a [[closed category|closed]] [[symmetri
 
 ## References
 
-* John Baez, Brandon Coya and Franciscus Rebro, [Props in network theory](http://www.tac.mta.ca/tac/volumes/33/25/33-25abs.html), [[TAC]] 33 (2018), 727-783. 
+* John Baez, Brandon Coya and Franciscus Rebro, *[Props in network theory](http://www.tac.mta.ca/tac/volumes/33/25/33-25abs.html)*, TAC 33 (2018), 727-783. 
 
 * Wee Liang Gan, _Koszul Duality for Dioperads_, [(arXiv:0201074v2)](http://arxiv.org/abs/math/0201074). 
 {#Gan}
@@ -117,7 +117,7 @@ Given a set of colors $\mathfrak{C}$ and a [[closed category|closed]] [[symmetri
 
 * {#HR2} [[Philip Hackney]] and [[Marcy Robertson]], _The Homotopy Theory of Simplicial PROPs_, [arXiv:1209.1087](http://arxiv.org/pdf/1209.1087.pdf).
 
-*  [[Steve Lack]], _[Composing PROPs](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)_, [[TAC]] 13 (2004), No. 9, 147--163.
+*  [[Steve Lack]], _[Composing PROPs](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)_, TAC 13 (2004), No. 9, 147--163.
 
 * M. Markl, S. Merkulov, S. Shadrin, _Wheeled PROPs, graph complexes and the master equation_, J. Pure Appl. Algebra, 213(4):496–535, 2009, [math.AT/0610683](https://arxiv.org/abs/math/0610683)
 
