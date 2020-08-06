@@ -14,13 +14,14 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _twistor fibration_ ([Atiyah 79, Sec. III.1](#Atiyah79)), also called the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+The _twistor fibration_ $\mathbb{C}P^3 \to S^4$ ([Atiyah 79, Sec. III.1](#Atiyah79), see also [Bryant 82](#Bryant82), [ArmstrongSalamon14](#ArmstrongSalamon14)), also called, in its [[coset space]]-version $SO(5)/U(2) \to SO(5)/SO(4)$, the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03) for this usuage, and see [Nordstrom 08, Lemma 2.31](#Nordstrom08) for review of Calabi's construction) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -35,7 +36,7 @@ $$
   }
 $$
 
-If one identifies the 4-sphere as the [[quaternions|quaternionic]] [[projective space|projective line]]  $S^4 \simeq \mathbb{H}P^1$, then the fibration $p$ here is given by sending [[complex number|complex]] lines to the [[quaternions|quaternionic]] lines which they span ([Atiyah 79, III (1.1)](#Atiyah79), [Seade-Verjovsky 03, p. 198](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#513)):
+If one identifies the 4-sphere as the [[quaternions|quaternionic]] [[projective space|projective line]]  $S^4 \simeq \mathbb{H}P^1$, then the fibration $p$ here is given by sending [[complex number|complex]] lines to the [[quaternions|quaternionic]] lines which they span ([Atiyah 79, III (1.1)](#Atiyah79), see also [Seade-Verjovsky 03, p. 198](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#513)):
 
 $$
   \array{
@@ -58,11 +59,12 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 
 * [[twistor space]]
 
+
 ## References
 
 * {#Atiyah79} [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867), [pdf](https://pdfs.semanticscholar.org/b523/d376f11a531fa5a4692401902a17ee18861f.pdf))
 
-* [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
+* {#Bryant82} [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
 
 * {#Lawson85} [[H. Blaine Lawson]], _Surfaces minimales et la construction de Calabi-Penrose_,  Séminaire Bourbaki : volume 1983/84, exposés 615-632, Astérisque no. 121-122  (1985), Talk no. 624, p. 197-211 ([numdam:SB_1983-1984__26__197_0](http://www.numdam.org/item/SB_1983-1984__26__197_0))
 
@@ -76,7 +78,9 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 
 * {#SeadeVerjovsky03} Le, [[José Seade]], [[Alberto Verjovsky]], Section 4 of: _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
 
-* John Armstrong, [[Simon Salamon]], _Twistor Topology of the Fermat Cubic_, SIGMA 10 (2014), 061, 12 pages ([arXiv:1310.7150](https://arxiv.org/abs/1310.7150))
+* {#Nordstrom08} Jonas Nordstrom, _Calabi's construction of Harmonic maps from $S^2$ to $S^n$_, Lund University 2008 ([pdf](http://www.matematik.lu.se/matematiklu/personal/sigma/students/Jonas-Nordstrom-BSc.pdf), [[NordstromCalabiConstruction.pdf:file]])
+
+* {#ArmstrongSalamon14} John Armstrong, [[Simon Salamon]], _Twistor Topology of the Fermat Cubic_, SIGMA 10 (2014), 061, 12 pages ([arXiv:1310.7150](https://arxiv.org/abs/1310.7150))
 
 
 
