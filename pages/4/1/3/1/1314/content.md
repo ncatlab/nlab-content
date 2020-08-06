@@ -280,6 +280,7 @@ $$
 
 
 ### Piecewise polynomial differential forms
+ {#PiecewisePolynomialDifferentialForms}
 
 By left [[Kan extension]] the functor of polynomial differential forms from def. \ref{PolynomialDifferentialForms} yields a functor on all [[simplicial sets]]
 
