@@ -103,6 +103,7 @@ To consider an _internal_ version of WISC, which doesn't refer to an external no
 Importantly, the internal form of WISC is stable under many more categorical constructions than other forms of choice.  For instance, any [[Grothendieck topos]] or [[realizability topos]] inherits WISC from its base topos of sets (even if the latter is constructive or even predicative); see [van den Berg](#vdBerg12).  This is in contrast to nearly all other choice principles, including weaker forms such as [[COSHEP]] and [[SVC]], which fail in at least some Grothendieck toposes even when the base is a model of ZFC.
 
 ## References
+ {#References}
 
 * {#vdBM12} [[Benno van den Berg]], [[Ieke Moerdijk]], *The Axiom of Multiple Choice and Models for Constructive Set Theory*, [arXiv](http://arxiv.org/abs/1204.4045).  In this paper WISC is called the "axiom of multiple choice".
 
@@ -124,8 +125,7 @@ The following two papers give models of set theory (without large cardinals) in 
 
 The Stacks Project shows how to construct a counterexample to WISC from any set of fpqc covers of an affine scheme.
 
-* [[The Stacks Project]], [Tag 0BBK](http://stacks.math.columbia.edu/tag/0BBK)
-{#Stacks0BBK}
+* {#Stacks0BBK} [[The Stacks Project]], [Tag 0BBK](http://stacks.math.columbia.edu/tag/0BBK)
 
 
 
