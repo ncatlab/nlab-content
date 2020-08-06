@@ -14,7 +14,7 @@ It is by no means a comprehensive list, in strict alphabetic order.
 
 * [Topos institute](https://topos.institute) -- an "independent scientific institute devoted to fundamental inquiry that shapes the technologies of tomorrow".
 
-* [Math-Phys-Cat](https://math-phys.group/yuri-ximenes-martins/) -- _Algebraic, Categorical & Geometric Mathords in Physics_, a Brazilian research group on [[mathematical physics]] with emphasis on [[higher category theory and physics]].
+* [Math-Phys-Cat](https://math-phys.group) -- _Algebraic, Categorical & Geometric Methods in Physics_, a Brazilian research group on [[mathematical physics]] with emphasis on [[higher category theory and physics]].
 
 
 * [YaMCATS](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli/yorkshire-and-midlands-category-theory-seminar-yamcats) -- the Yorkshire and Midlands Category Theory Seminar,  is a category theory research network between the universities of Birmingham, Leeds, Leicester and Sheffield. The network is partially funded by the London Mathematical Society.
