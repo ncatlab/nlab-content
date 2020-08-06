@@ -49,6 +49,7 @@ If instead of the [[prime spectrum of a commutative ring]] one considers only th
 
 
 ## References
+ {#References}
 
 * [[The Stacks Project]], _[Tag 01IS](http://stacks.math.columbia.edu/tag/01IS)_
 
