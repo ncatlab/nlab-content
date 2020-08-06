@@ -105,6 +105,16 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 [[!include Sullivan models -- examples]]
 
 
+
+## References
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], p. 142 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
+
+* {#Menichi13} [[Luc Menichi]], Section 1.2 in: _Rational homotopy -- Sullivan models_, IRMA Lect. Math. Theor. Phys., EMS ([arXiv:1308.6685](https://arxiv.org/abs/1308.6685))
+
+
+
+
 [[!redirects rational n-spheres]]
 
 [[!redirects rational sphere]]
