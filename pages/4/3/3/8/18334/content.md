@@ -82,6 +82,12 @@ Assignment of [[BV-BRST complexes]] as a homotopy AQFT is discussed in
 
 * {#BeniniBruinsmaSchenkel19} [[Marco Benini]], Simen Bruinsma, [[Alexander Schenkel]], _Linear Yang-Mills theory as a homotopy AQFT_ ([arXiv:1906.00999](https://arxiv.org/abs/1906.00999))
 
+Application to [[semi-topological 4d Chern-Simons theory]]:
+
+* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
+
+
+
 [[!redirects homotopical algebraic quantum field theories]]
 
 [[!redirects homotopical AQFT]]
