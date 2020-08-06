@@ -5,6 +5,8 @@
 
 * [[Sullivan model of a spherical fibration]]
 
+* [[Sullivan model of complex projective space]]
+
 * [[Sullivan model of mapping space]]
 
 * [[Sullivan model of free loop space]]
