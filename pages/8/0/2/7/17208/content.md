@@ -694,6 +694,28 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 =--
 
+### Sullivan model
+  {#SullivanModel}
+
+The [[Sullivan model of complex projective space]] $\mathbb{C}P^n$ is
+
+$$
+  \mathbb{R}
+  [
+    f_2, h_{2n+1}
+  ]
+  \big/
+  \left(
+  \begin{aligned}
+    d\,f_2 & = 0
+    \\
+    d\,h_{2n+1} & = (f_2)^{n+1}
+  \end{aligned}
+  \right)
+$$
+
+(e.g. [Félix-Halperin-Thomas 00, p. 203](Sullivan+model+of+complex+projective+space#FelixHalperinThomas00), [Menichi 13, 5.3](Sullivan+model+of+complex+projective+space#Menichi13))
+
 ## Related concepts
 
 * [[real projective space]]
