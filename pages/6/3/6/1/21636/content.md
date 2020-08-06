@@ -20,7 +20,7 @@ On [[higher category theory and physics]] in view of [[Hilbert's sixth problem]]
 
 * [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards An Approach to Hilbert's Sixth Problem: A Brief Review_, 2020 ([hal:02909681](https://hal.archives-ouvertes.fr/hal-02909681), [pdf](https://hal.archives-ouvertes.fr/hal-02909681/document)). Submitted
 
-* [[Yuri Ximenes Martins]], _Categorical and Geometrical Methods in Physics_, Master's thesis, UFMG, 2018. ([pdf](https://repositorio.ufmg.br/bitstream/1843/32053/1/dissertacao_yuri_FINAL.pdf), [slides](#))
+* [[Yuri Ximenes Martins]], _Categorical and Geometrical Methods in Physics_, Master's thesis, UFMG, 2018. ([pdf](https://repositorio.ufmg.br/bitstream/1843/32053/1/dissertacao_yuri_FINAL.pdf), [slides](https://math-phys.group/wp-content/uploads/2020/08/slides_yuri.pdf))
 
 On obstructions to realize gravity (as Einstein--Hilbert--Palatini theories) in geometries other than Lorentzian and Riemannian:
 
@@ -67,7 +67,7 @@ On an introduction to abstract homotopy theory by means of model categorias and 
 
 ## Selected Talks
 
-For the full list of talks and invited talks, here.
+For the full list of talks and invited talks, see [here](https://sites.google.com/view/yxmartins/teaching/advising) or [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
 
 On the role of higher category theory in the foundations of physics:
  
