@@ -38,3 +38,6 @@ A __classical r-matrix__ is a solution of classical [[Yang-Baxter equation]].
 
 [[!redirects classical Yang-Baxter equation]]
 [[!redirects classical r-matrices]]
+
+[[!redirects R-matrix]]
+[[!redirects R-matrices]]
