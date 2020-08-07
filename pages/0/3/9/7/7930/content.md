@@ -1087,8 +1087,8 @@ $$
     -det(A) & = A \tilde A 
       \\
       & = \tilde A A
+       \,,
   \end{aligned}
-  \,.
 $$
 
 and the Minkowski inner product has the alternative expression
