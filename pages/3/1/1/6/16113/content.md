@@ -7,6 +7,9 @@ On [[twistor fibrations]]:
 
 * [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
 
+* {#ABS19} [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], Section 6 of: _A circle quotient of a $G_2$ cone_ ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518))
+
+
 On the construction of [[G2-manifolds]]:
 
 * [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
