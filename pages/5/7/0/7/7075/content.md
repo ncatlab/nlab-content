@@ -283,7 +283,7 @@ Review:
 
 * [[Herman Gluck]], [[Frank Warner]], [[Chung Tao Yang]], Section 6 of: _Division algebras, fibrations of spheres by great spheres and the topological determination of space by the gross behavior of its geodesics_, Duke Math. J. Volume 50, Number 4 (1983), 1041-1076 ([euclid:dmj/1077303489](https://projecteuclid.org/euclid.dmj/1077303489))
 
-* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198
+* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198 ([doi:10.5169/seals-55085](http://doi.org/10.5169/seals-55085))
 
 
 * _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_
