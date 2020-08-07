@@ -27,7 +27,7 @@ $$x,y:X\vdash I_X(x,y)$$
 
 Analogous, for a Kan fibration $f:A\to I$ we factor the diagonal $\delta_f:A\to A\times_I A$ of $f$ in this way. 
 
-Now the problem ist that such a factorization is not stable under pullback. To solve this problem we introduce the notion of  _type theoretic universe_ / _Martin-L&#246;f universe.
+Now the problem is that such a factorization is not stable under pullback. To solve this problem we introduce the notion of  _type theoretic universe_ / _Martin-L&#246;f universe.
 
 ## Universes in $sSet$ and lifting of Grothendieck universes into presheaf toposes
 
@@ -72,7 +72,7 @@ V. Voevodsky some draft papers and Coq files - www.math.ias.edu/&#8764;vladimir/
 
 +-- {: .num_theorem #2}
 ###### Theorem
-For the simplicial set $U$, formula (5), the morphism $p_U:\tilde U\to U$ is universal for morphisms with $\mathcal{U}$-small fibers in that every morphisms with $\mathcal{U}$-small fibers arises as a pullback of $p_U$ along some morphism in $H$.
+For the simplicial set $U$, formula (5), the morphism $p_U:\tilde U\to U$ is universal for morphisms with $\mathcal{U}$-small fibers in that every morphism with $\mathcal{U}$-small fibers arises as a pullback of $p_U$ along some morphism in $H$.
 =--
 
 +-- {: .proof}
