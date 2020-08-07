@@ -2,6 +2,9 @@ Murray Gell-Mann was an American physicist (1929-2019), best known for his work 
 
 * [Wikipedia entry](#http://de.wikipedia.org/wiki/Murray_Gell-Mann)
 
+* Norman Dombey, _An Interview with Murray Gell-Mann on June 5 2001_ ([arXiv:2007.12615](https://arxiv.org/abs/2007.12615))
+
+
 ## Selected writings
 
 Introducing the [[σ-meson]] to [[chiral perturbation theory]], together with the concept of the [[sigma-model]]:
