@@ -30,7 +30,7 @@ The _spinning string_ is a variant of the [[string]] in direct analogy (but one 
 
 And just as as the [[spinning particle]] automatically exhibits local [[worldline supersymmetry]], the spinning string automatically exhibits local [[worldsheet]] [[supersymmetry]]. For that reason it is today almost exclusively known as the _[[superstring]]_ . 
 
-In fact, the very notion of [[supersymmetry]] was realized (in parallel to its independent discovery in Russia) when people noticed that the spinning string [[sigma-model]] -- also called the _Neveu-Ramond-Schwarz model_ (**NSR model**) -- automatically exhibits this extra graded symmetry.
+In fact, the very notion of [[supersymmetry]] was realized (in parallel to its independent discovery in Russia) when people noticed that the spinning string [[sigma-model]] -- also called the _Neveu-Schwarz-Ramond model_ (**NSR model**) -- automatically exhibits this extra graded symmetry.
 
 When supplemented with an operation called the _[[GSO projection]]_, the [[second quantization]] of the spinning string -- its effective [[target space|target]] [[spacetime]] theory -- also becomes a locally supersymmetric theory: [[spacetime]] [[supergravity]].
 
@@ -79,6 +79,11 @@ Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the
 Definition of the NSR string in [[RR-field]] [[background field|backgrounds]] is subtle (in contrast to the classical [[Green-Schwarz superstring]]), discussion is in
 
 * {#BerensteinLeigh99} [[David Berenstein]], Robert Leigh, _Superstring Perturbation Theory and Ramond-Ramond Backgrounds_, Phys. Rev. D 60, 106002 (1999) ([arXiv:hep-th/9904104](https://arxiv.org/abs/hep-th/9904104))
+
+See also 
+
+* Nathan Benjamin, Ying-Hsuan Lin, _Lessons from the Ramond sector_ ([arXiv:2005.02394](https://arxiv.org/abs/2005.02394))
+
  
 
 ### GSO projection and spacetime supersymmetry
