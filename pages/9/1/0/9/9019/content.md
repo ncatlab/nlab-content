@@ -44,6 +44,11 @@ On [[KK-compactification]] on [[compact topological space|compact]] [[Ricci flat
 
 * {#Acharya19} [[Bobby Acharya]], _Supersymmetry, Ricci Flat Manifolds and the String Landscape_ ([arXiv:1906.06886](https://arxiv.org/abs/1906.06886))
 
+On the [[twistor fibration]]:
+
+* {#ABS19} [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], Section 6 of: _A circle quotient of a $G_2$ cone_ ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518))
+
+
 ## Related entries
 
 * [[G2-MSSM]]
