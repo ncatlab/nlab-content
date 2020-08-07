@@ -41,7 +41,7 @@ Applying Koszul duality gives a Hopf algebra because it is augmented as an $E_1$
 
 ## References
 
-The theory and its relation to [[Yangians]] and [[integrable system|integrable]] [[lattice models]] is due to
+The idea of semi-topological 4d CS theory, and its relation to [[Yangians]] and [[integrable system|integrable]] [[lattice models]], is due to
 
 * {#Costello13} [[Kevin Costello]], _Supersymmetric gauge theory and the Yangian_ ([arXiv:1303.2632](https://arxiv.org/abs/1303.2632))
 
@@ -62,7 +62,7 @@ Rigorous discussion using [[homotopy theory]] (see at [[homotopical AQFT]]):
 
 
 
-Discussion of realizations of semi-holomorphic 4d Chern-Simons theory as the [[worldvolume]] theory of [[intersecting brane|intersecting]] [[D-brane]]/[[NS5-brane]] models
+Discussion of realizations of semi-holomorphic 4d Chern-Simons theory as the [[worldvolume]] theory of [[intersecting brane|intersecting]] [[D-brane]]/[[NS5-brane]] models:
 
 * [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], Qin Zhao, _Branes and Categorifying Integrable Lattice Models_ ([arXiv:1806.02821](https://arxiv.org/abs/1806.02821))
 
