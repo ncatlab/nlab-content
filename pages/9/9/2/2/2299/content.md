@@ -147,6 +147,10 @@ The process of forming [[groupoid convolution algebras]] is a [[2-functor]] from
 
 ## Related concepts
 
+* [[higher structures]]
+
+* [[higher differential geometry]]
+
 [[!include Isbell duality - table]]
 
 For relation to [[physics]] see
