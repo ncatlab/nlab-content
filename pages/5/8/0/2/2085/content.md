@@ -28,6 +28,8 @@ The $n$Lab entry [[homotopy theory]] takes homotopy in a rather general sense in
 
 ## Related entries
 
+* [[higher structures]]
+
 * [[homotopical algebraic quantum field theory]]
 
 
