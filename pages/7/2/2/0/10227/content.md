@@ -22,6 +22,8 @@ for $E \in CRing_\infty$ an [[E-∞ ring]], higher linear algebra over $E$ is th
 
 ## Related concepts
 
+* [[higher structures]]
+
 * [[(∞,1)-module bundle]]
 
 * [[(∞,n)-module]]
