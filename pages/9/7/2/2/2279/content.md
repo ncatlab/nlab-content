@@ -32,6 +32,8 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos)
 
 ## Related concepts
 
+* [[higher structures]]
+
 * [[(0,1)-topos]]
 
 * [[topos theory]], [[topos]]
