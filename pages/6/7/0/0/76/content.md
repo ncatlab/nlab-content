@@ -154,6 +154,8 @@ This theme was taken up  by Baues, (1988), using a type of abstract homotopy the
 
 *  [[homotopy type theory]]: A formalization of homotopy theory in terms of [[Martin-Löf dependent type theory]] is _[[homotopy type theory]]_.
 
+* [[higher structures]]
+
 ## Related entries ##
 
 * [[homotopy theory FAQ]]
