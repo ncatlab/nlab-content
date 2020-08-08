@@ -36,7 +36,7 @@ A __JLB-algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$
 * the $B$-identity: ${\|x \circ x\|} = {\|x\|^2}$ (compare the $B^*$-identity or $C^*$-identity of a $C^*$-[[C-star-algebra|algebra]]);
 * positivity: ${\|x \circ x \|} \leq {\|x \circ x + y \circ y\|}$.
 
-This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  Halvorson does not include the statement that the Lie multiplication is short, and it includes a nonnegative real constant factor $r$ on the right-hand side of the associator identity (second version).  However, Halvorson claims to construct an equivalence between real $JLB$-algebras and complex $C^*$-[[C*-algebra|algebras]], and this construction produces a short Lie product that satisfies $r = 1$.
+This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  (Halvorson places an extra factor $\sqrt{r}$ on the Lie product, which corresponds [[physics|physically]] to [[Dirac's constant]] $\hbar$.  We are setting $r = 1$ here to keep the development simple.  But if you [[quantization|quantize]] a [[classical system]], then you may want to consider a family of JLB-algebras parametrized by this $r$, which is what Halvorson\'s definition does automatically.)
 
 Another consequence of this definition is that the Jordan product makes $A$ into a [[Jordan algebra]] (and hence into a [[JB-algebra]]).
 
