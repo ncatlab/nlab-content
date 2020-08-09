@@ -27,7 +27,7 @@ In fact, $Sup Lat$ is even a [[star-autonomous category]], and *a fortiori* a [[
 
 For all practical purposes, $Sup Lat$ is not available in [[predicative mathematics]].  The definition goes through, but we cannot prove that $Sup Lat$ has any [[infinite set|infinite]] objects.  (More precisely, the [[power set]] of any nontrivial small suplattice must be small.)  Generally speaking, predicative mathematics treats infinite suplattices only as [[proper class|large]] objects.  Although they are of little interest, we can ask which of the facts above hold predicatively; the answer is that $Comp Lat$ is not wide as a subcategory of $Sup Lat$, and $Sup Lat$ is not monadic (since $\mathcal{P}X$ is generally large).
 
-In impredicative [[constructive mathematics]], we cannot intepret $\mathcal{P}X$ with intersection as the free inflattice on $X$, since [[complementation]] is not an automorphism.  Everything else goes through, however, including the interpretation of $\mathcal{P}X$ with reverse inclusion as the free inflattice.  In particular, $Sup Lat$ (and hence $Sup Inf$) is still a monadic category.
+In impredicative [[constructive mathematics]], we cannot intepret $\mathcal{P}X$ with intersection as the free inflattice on $X$, since [[complementation]] is not an automorphism.  Everything else goes through, however, including the interpretation of $\mathcal{P}X$ with reverse inclusion as the free inflattice.  In particular, $Sup Lat$ (and hence $Inf Lat$) is still a monadic category.
 
 
 category: category
