@@ -38,6 +38,8 @@ The analog of the [[unitary group]] as one passes from the [[complex numbers]] t
 
 * [[symplectic group]]
 
+* [[SL(2,H)]]
+
 ## References
 
 * _Quaternionic groups_ ([pdf](http://www-math.mit.edu/~dav/quatcoordfree.pdf))
