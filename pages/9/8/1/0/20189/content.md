@@ -202,6 +202,8 @@ $$
 
 ## Related concepts
 
+* [[Spin(5,1)]]
+
 [[!include low dimensional rotation groups -- table]]
 
 linebreak
