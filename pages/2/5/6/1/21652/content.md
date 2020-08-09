@@ -43,6 +43,8 @@ See also:
 
 Further discussion:
 
+* {#CohenDeLeo99} Nir Cohen, Stefano De Leo, _The quaternionic determinat_, El. J. Lin. Alg. 7, 100-111 (2000) ([arXiv:math-ph/9907015](https://arxiv.org/abs/math-ph/9907015))
+
 * [[Nigel Hitchin]], _$SL(2)$ over the octonions_ ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
 
 
