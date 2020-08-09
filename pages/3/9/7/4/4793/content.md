@@ -68,6 +68,8 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 ## Related concepts
 
+* [[SL(2,H)]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 * [[supersymmetry and division algebra]]
