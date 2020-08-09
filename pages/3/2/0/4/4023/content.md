@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -9,7 +13,7 @@
 =--
 =--
 
-d
+
 # Contents
 * table of contents
 {: toc}
@@ -346,9 +350,13 @@ see [[Pfaffian]] for the moment
 
 ## Related entries
 
+
+
 * [[matrix]], [[linear algebra]], [[exterior algebra]], [[characteristic polynomial]]
 
 * [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]]
+
+* [[Dieudonné determinant]]
 
 * [[resultant]], [[discriminant]], [[hyperdeterminant]]
 
