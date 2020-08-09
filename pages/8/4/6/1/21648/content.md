@@ -50,7 +50,7 @@ $$
 ### Relation to $Sp(2)$
  {#RelationToSp2}
 
-Every quaternionic [[unitary matrix]] (hence in [[Sp(2)]]) happens to have unit [[Dieudonné determinant]] ([Cohen-De Leo 99, Cor. 6.4](Dieudonne+determinant#CohenDeLeo99)). Therefore we have an [[subgroup]] inclusion
+Every quaternionic [[unitary matrix]] (hence in [[Sp(2)]]) happens to have unit [[Dieudonné determinant]] ([Cohen-De Leo 99, Cor. 6.4](Dieudonne+determinant#CohenDeLeo99)). Therefore we have a [[subgroup]] inclusion
 
 $$
   Sp(2)
@@ -64,9 +64,9 @@ $$
 ### Relation to $Spin(5,1)$
  {#RelationToSpin51}
 
-Under [[conjugation action]] on $2 \times 2$ [[Hermitian matrices]] with [[coefficients]] in the [[quaternions]], $SL(2,\mathbb{H})$ is identified with [[Spin(5,1)]] and its canonical [[action]] on [[Minkowski spacetime]] $\mathbb{R}^5,1$.
+Under [[conjugation action]] on $2 \times 2$ [[Hermitian matrices]] with [[coefficients]] in the [[quaternions]], $SL(2,\mathbb{H})$ is identified with [[Spin(5,1)]] and its canonical [[action]] on [[Minkowski spacetime]] $\mathbb{R}^{5,1}$.
 
-For more on this see at _[[spin representation]]_ and _[[supersymmetry and division algebras]]_.
+For more on this see at _[[spin representation]]_, _[[supersymmetry and division algebras]]_ and _[[geometry of physics -- supersymmetry]]_.
 
 
 ## References
