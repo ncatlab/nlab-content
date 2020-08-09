@@ -53,6 +53,8 @@ Combining this, one finds that [[supergravity]] coupled to [[super Yang-Mills th
 
 ## Related concepts
 
+* [[SL(2,H)]]
+
 * [[Hopf invariant one]]
 
 ## References
@@ -95,9 +97,9 @@ Streamlined proof and exposition is in
 
 
 
-The case of 2-component quaternionic spinors in 6d is discussed also in
+The case of 2-component quaternionic spinors in 6d (see at [[SL(2,H)]]) is discussed in more detail in:
 
-* Joás Venâncio, Carlos Batista, _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296))
+* [[Joás Venâncio]], [[Carlos Batista]], _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296))
 
 
 
