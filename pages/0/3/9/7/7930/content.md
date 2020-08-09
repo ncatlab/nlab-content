@@ -1124,7 +1124,7 @@ In particular we establish the following table of [exceptional isomorphisms of s
 ###### Remark
 
 Prop. \ref{SpacetimeAsMatrices} immediately implies that for $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
-then there is a [[monomorphism]] from the [[special linear group]] $SL(2,\mathbb{K})$ to the [[spin group]]
+then there is a [[monomorphism]] from the [[special linear group]] $SL(2,\mathbb{K})$ (see at _[[SL(2,H)]]_ for the definition in the quaternionic case) to the [[spin group]]
 in the given dimension:
 
 $$
