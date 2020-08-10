@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _Feynman transform_ is an operation on the [[category]] of twisted [[modular operads]]. It gives a way to parametrize various versions ofKontsevich's [[graph complex]], by various [[modular operads]]. Every modular operad is in particular [[cyclic operad|cyclic]] (some say "symplectic"). The Feynman transform, up to a shift, reduces to the [[cobar operad]] of the underlying cyclic operad. 
+The _Feynman transform_ is an operation on the [[category]] of twisted [[modular operads]]. It gives a way to parametrize various versions of Kontsevich's [[graph complex]], by various [[modular operads]]. Every modular operad is in particular [[cyclic operad|cyclic]] (some say "symplectic"). The Feynman transform, up to a shift, reduces to the [[cobar operad]] of the underlying cyclic operad. 
 
 The name "Feynman transform" is due to [[Getzler]] and [[Kapranov]].
 
