@@ -70,7 +70,7 @@ Also, positivity implies that $A$ is [[formally real algebra|formally real]]: if
 The $JB$-algebra $A$ is a __$JBW$-algebra__ if it is unital and if its [[underlying]] Banach space has a [[predual]] $A_*$.
 =--
 
-See [[von Neumann algebra]] for motivation of the predual.  (Is it unique?  Should be!)
+See [[von Neumann algebra]] for motivation of the predual.  As with $C^*$-algebras, the predual (if it exists) is [[unique up to unique isomorphism]].
 
 +-- {: .num_defn}
 ###### Definition
