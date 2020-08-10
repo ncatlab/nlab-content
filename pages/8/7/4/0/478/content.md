@@ -28,10 +28,19 @@ Since $IsContr(A)$ is itself [contractible](contractible+type#properties_18), we
 
 If we wish to extend this treatment to types which are [[propositions]], we might call such types $FactThat(P)$, for some statement $P$. Then if $P$ holds, we can introduce a term $the(FactThat(P))$.
 
-##References
+
+## References
 
 * [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory), revised as Chapter 4 of _Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy_.
+
 
 [[!redirects the]]
 [[!redirects generalised the]]
 [[!redirects generalized the]]
+
+[[!redirects unique]]
+[[!redirects unique up to]]
+[[!redirects unique up to unique isomorphism]]
+[[!redirects unique up to unique coherent isomorphism]]
+[[!redirects unique up to unique equivalence]]
+[[!redirects unique up to unique coherent equivalence]]
