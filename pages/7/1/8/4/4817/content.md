@@ -80,6 +80,8 @@ Discussion of the heterotic [[NS5-brane]] as a [[Green-Schwarz sigma-model]] and
 
 * [[Kurt Lechner]], [[Mario Tonin]], _Worldvolume and target space anomalies in the D=10 super--fivebrane sigma--model_ ([arXiv:hep-th/9603094](http://arxiv.org/abs/hep-th/9603094))
 
+* [[Kurt Lechner]], [[Mario Tonin]], _World-manifold and target space anomalies in heterotic Green-Schwarz strings and five-branes_, in: _Gauge Theories, Applied Supersymmetry and Quantum Gravity II_, pp. 311-318 (1997) ([arXiv:hep-th/9610110](https://arxiv.org/abs/hep-th/9610110), [doi:10.1142/9781848160927_0022](https://doi.org/10.1142/9781848160927_0022))
+
 * J. Mourad, _Anomalies of the $SO(32)$ five-brane and their cancellation_, Nucl.Phys. B512 (1998) 199-208 ([arxiv:hep-th/9709012](https://arxiv.org/abs/hep-th/9709012))
 
 * {#Lechner10} [[Kurt Lechner]], _Quantum properties of the heterotic five-brane_, Phys. Lett. B693:323-329, 2010 ([arxiv:1005.5719](https://arxiv.org/abs/1005.5719))
