@@ -234,9 +234,9 @@ Let $U_1,U_2 \subset f(X)$ be two [[open subsets]] such that $U_1 \cup U_2 = f(X
 We need to show that precisely one of them is the [[empty set]].
 
 Since $p$ is a [[continuous function]], also the [[pre-images]] $p^{-1}(U_1), p^{-1}(U_2) \subset X$
-are open subsets and are still disjoint. Since $p$ is [[surjective function|surjective]] it also follows that
-$p^{-1}(U_1) \cup p^{-1}(U_2) = X$. Since $X$ is connected, it follows that one of these two pre-images is
-the empty set. But again sicne $p$ is surjective, this implies that precisely one of $U_1, U_2$ is empty,
+are open subsets and are still disjoint. Since preimages preserve unions it also follows that
+$p^{-1}(U_1) \cup p^{-1}(U_2) = X$. Since $X$ is connected, it follows that one of these two pre-images $p^{-1}(U_i)$ is
+the empty set. Since $p$ is [[surjective function|surjective]], this implies that $U_i$ is empty,
 which means that $f(X)$ is connected.
 
 =--
