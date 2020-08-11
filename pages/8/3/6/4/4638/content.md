@@ -26,6 +26,10 @@ Proof of the [[Hurewicz theorem]] in [[homotopy type theory]], hence in general 
 
 * [[Daniel Christensen]], [[Luis Scoccola]], _The Hurewicz theorem in Homotopy Type Theory_ ([arXiv:2007.05833](https://arxiv.org/abs/2007.05833))
 
+On [[modal homotopy type theory]]:
+
+* {#ChristensenRijke20} [[J. Daniel Christensen]], [[Egbert Rijke]], _Characterizations of modalities and lex modalities_ ([arXiv:2008.03538](https://arxiv.org/abs/2008.03538))
+
 
 
 ## Related $n$Lab entries
