@@ -185,6 +185,8 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * P. S. Bhupal Dev, Rukmani Mohanta, Sudhanwa Patra, Suchismita Sahoo, _Unified explanation of flavor anomalies, radiative neutrino mass and ANITA anomalous events in a vector leptoquark model_ ([arXiv:2004.09464](https://arxiv.org/abs/2004.09464))
 
+* Suman Kumbhakar, Rukmani Mohanta, _Investigating the effect of $U_1$ vector leptoquark on $b \to u \tau \bar\nu$ mediated B decays_ ([arXiv:2008.04016](https://arxiv.org/abs/2008.04016))
+
 
 and within [[Randall-Sundrum models]]
 
