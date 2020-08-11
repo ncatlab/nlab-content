@@ -133,6 +133,12 @@ General survey includes
 
 * {#Workshop14}  [[Qiaochu Yuan]]: _[lecture notes](https://math.berkeley.edu/~qchu/Notes/6d/)_ for _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014 at the University of California, Berkeley
 
+Discussion of [[anomaly cancellation]]:
+
+* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
+
+* [[Hiroyuki Shimizu]], _Aspects of anomalies in 6d superconformal field theories_, Tokyo 2018 ([spire:1802462](https://inspirehep.net/literature/1802462))
+
 Construction from [[F-theory]] [[KK-compactification]] is reviewed in 
 
 * {#HeckmanRudelius18} [[Jonathan Heckman]], [[Tom Rudelius]], _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 2018 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
