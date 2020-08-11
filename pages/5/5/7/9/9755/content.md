@@ -19,6 +19,11 @@ On [[modal homotopy type theory]]:
 
 * {#ChristensenRijke20} [[J. Daniel Christensen]], [[Egbert Rijke]], _Characterizations of modalities and lex modalities_ ([arXiv:2008.03538](https://arxiv.org/abs/2008.03538))
 
+On [[localization of a space|localization]] (in [[algebraic topology]]) formulated in [[modal homotopy type theory|modal]] [[homotopy type theory]]:
+
+* [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures, 4(1) (2020), 1-32 ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))
+
+
 
 ## Related $n$Lab entries
 
