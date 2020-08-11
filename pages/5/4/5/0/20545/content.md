@@ -42,6 +42,10 @@ Arises from
 
 * [[Kantaro Ohmori]], _Six-Dimensional Superconformal Field Theories and Their Torus Compactifications_, Springer Theses 2018 ([springer:book/9789811330919](https://www.springer.com/gp/book/9789811330919))
 
+Discussion of [[anomaly cancellation]]:
+
+* [[Kantaro Ohmori]], Hiroyuki Shimizu, [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
+
 ### Lagrangian description
 
 A class of [[Lagrangian densities]] for [[D=6 N=(1,0) SCFTs]] with [[non-abelian group|non-abelian]] [[gauge group]] has been proposed in 
