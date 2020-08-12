@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
  {#Idea}
@@ -41,7 +41,7 @@ Applied to the key example of [[perturbative quantum field theory]] it turns out
 ## As a physical constant 
  {#AsAPhysicalConstant}
  
-Planck's constant $h$ is a quantum of [[action functional|action]]. It may be illustrated in the case of the [[electromagnetic field]] by the fact that each of its [[quanta]] -- a [[photon]] -- carries an [[energy]] $E$ that is fixed by its [[frequency]] (cycles per second) $\nu$ according to the relation $E = h\nu$. Thus, the energy emitted by a [[laser]] beam of fixed frequency $\nu$ is an integer multiple $n h \nu$ of a packet of energy $h\nu$, where $n$ is the number of photons emitted. 
+The original __Planck constant__ $h$ is a quantum of [[action functional|action]]. It may be illustrated in the case of the [[electromagnetic field]] by the fact that each of its [[quanta]] -- a [[photon]] -- carries an [[energy]] $E$ that is fixed by its [[frequency]] (cycles per second) $\nu$ according to the relation $E = h\nu$. Thus, the energy emitted by a [[laser]] beam of fixed frequency $\nu$ is an integer multiple $n h \nu$ of a packet of energy $h\nu$, where $n$ is the number of photons emitted. 
 
 As a fundamental physical constant, $h$ has dimension $(mass)(length)^2(time)^{-1}$. In meter-kilogram-second (MKS) [[physical units|units]], its value is 
 
@@ -49,7 +49,7 @@ $$h \approx 6.62606957 \cdot 10^{-34} m^2 kg / s$$
 
 with an uncertainty of up to 29 in the last two digits. 
 
-The reduced Planck constant $\hbar = h/2\pi$ is the proportionality constant that relates energy (of a photon) to angular frequency $\omega$ (radians per second as opposed to cycles per second), so that $E = \hbar \omega$. 
+The __reduced Planck constant__ or __Dirac constant__ $\hbar = h/2\pi$ is the proportionality constant that relates energy (of a photon) to angular frequency $\omega$ (radians per second as opposed to cycles per second), so that $E = \hbar \omega$. 
 
 
 ## In geometric quantization
@@ -318,3 +318,16 @@ $$
 
 
 [[!redirects Planck constant]]
+[[!redirects Planck's constant]]
+[[!redirects Planck’s constant]]
+[[!redirects Planck\'s constant]]
+
+[[!redirects reduced Planck constant]]
+[[!redirects reduced Planck's constant]]
+[[!redirects reduced Planck’s constant]]
+[[!redirects reduced Planck\'s constant]]
+
+[[!redirects Dirac constant]]
+[[!redirects Dirac's constant]]
+[[!redirects Dirac’s constant]]
+[[!redirects Dirac\'s constant]]
