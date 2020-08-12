@@ -31,7 +31,7 @@ $\qquad (c \Vdash C(zro)) \Rightarrow
 (\forall x,h.(x \Vdash Nat) \Rightarrow (h \Vdash C(x)) \Rightarrow (c \Vdash C(suc(x)))) \Rightarrow$  
 $\qquad (c \Vdash C(n))$
 
-So in the HOAS formulation of rules, the judgment forms are atomic relation symbols in a predicate logic, and the rules are axioms. Note that $C$ in this example rule is a *function* in the HOAS formulation. But it's a function of the metalanguage, not of the object language. When rules quantify over functions, that's second-order quantification.
+So in the HOAS formulation of rules, the judgment forms are atomic relation symbols in a predicate logic, and the rules are axioms. Note that $C$ in this example rule is a *function* in the HOAS formulation. But it's a function of the logical framework, not of the object language. When rules quantify over functions, that's second-order quantification.
 
 Translating ordinary rules into HOAS lands in a second-order fragment. There's a somewhat standard notation for rules of this fragment, which leaves the quantifiers implicit, and more resembles ordinary rules. (Meta)variables "declared" to the left of a turnstile in a "premise" are quantified just in that premise; the rest are quantified at the outside of the rule. Note that all the premise-local quantifiers only quantify over terms, which is first-order. Here is $natElim$ in this "second-order" notation:
 
@@ -148,26 +148,26 @@ h:R[t1,t2] \vdash c \Vdash C
 
 ## Judgment-level reasoning
 
-Reasoning at the judgment level using this metalanguage is not as convenient as having a type checker for terms, or even as convenient as having a Nuprl-like proof refiner that extracts the realizers. But it's very straightforward and expressive. It can be used to prove derived rules, and other facts about derivability that aren't of the form to be rules. For example, you can show that adding a certain new rule would allow deriving a contradiction.
+Reasoning at the judgment level using this logical framework is not as convenient as having a type checker for terms, or even as convenient as having a Nuprl-like proof refiner that extracts the realizers. But it's very straightforward and expressive. It can be used to prove derived rules, and other facts about derivability that aren't of the form to be rules. For example, you can show that adding a certain new rule would allow deriving a contradiction.
 
 Many unusual phenomena of Nuprl-like systems become clearer when analyzed in terms of judgment-level reasoning.
 
 ### Vs reasoning about Reflected Judgments
 
-In Nuprl-like systems, the semantic judgments are reflected internally as squashed types, and can be reasoned about using propositions-as-types. The metalanguage gives us a way to reason about formal judgments. Aside from the ability to reason about "large" judgment forms like type validity, is this judgment-level reasoning actually different from internal reasoning? It turns out it is.
+In Nuprl-like systems, the semantic judgments are reflected internally as squashed types, and can be reasoned about using propositions-as-types. The logical framework gives us a way to reason about formal judgments. Aside from the ability to reason about "large" judgment forms like type validity, is this judgment-level reasoning actually different from internal reasoning? It turns out it is.
 
-For example, consider the metalanguage formula:
+For example, consider the framework formula:
 
 $$\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$$
 
-The puzzle is to find, assuming ($A\,type$) and ($B\,type$), a type that's provably inhabited if and only if that formula is derivable. In more detail, we want some metalanguage function $R$ such that:
+The puzzle is to find, assuming ($A\,type$) and ($B\,type$), a type that's provably inhabited if and only if that formula is derivable. In more detail, we want some framework function $R$ such that:
 
 $$\forall A,B.(A\,type) \Rightarrow (B\,type) \Rightarrow
 ((\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)) \Leftrightarrow (\exists p.p \Vdash R(A,B)))$$
 
 A couple of perhaps-plausible-looking solutions for $R(A,B)$ are ($\Pi t:Comp.(t \in A) \to (t \in B)$) and ($\Pi t:\top.(t \in A) \to (t \in B)$). But both of these are wrong. The first is too weak (you get left-to-right only) and the second is not even a type (which makes existence of an element too strong).
 
-The metalanguage formula we're trying to represent turns out to be asserting that $A$ is a subtype of $B$, since it can be read as a special case of the subsumption rule:
+The framework formula we're trying to represent turns out to be asserting that $A$ is a subtype of $B$, since it can be read as a special case of the subsumption rule:
 
 $$\frac{t \Vdash A}{t \Vdash B}$$
 
@@ -183,9 +183,9 @@ so the difference between ($\Vdash$) and ($\in$) is not the mismatch. The mismat
 
 It turns out ($\Pi t:Comp.(t \in A) \to (t \in B)$) is inhabited if and only if ($\forall t.(t \Vdash Comp) \Rightarrow (t \Vdash A) \Rightarrow (t \Vdash B)$). So there's an extra ($t \Vdash Comp$) requirement making inclusion weaker than subtyping.
 
-If you think about how adequacy of a HOAS representation works, the metalanguage quantifiers over terms are quantifying over *open* terms, specifically. Meanwhile the object language quantifiers range over the elements of a type, and in the PER semantics, elements of types are represented by *closed* terms. The open terms behave differently because PER semantics also enforces respect for typed equality, and in the formal system, this requirement is implicit.
+If you think about how adequacy of a HOAS representation works, the logical framework quantifiers over terms are quantifying over *open* terms, specifically. Meanwhile the object language quantifiers range over the elements of a type, and in the PER semantics, elements of types are represented by *closed* terms. The open terms behave differently because PER semantics also enforces respect for typed equality, and in the formal system, this requirement is implicit.
 
-But equality at the $Comp$ type is just computational equivalence, which is respected by all the semantic judgments. So when dealing with computations, the implicit respect requirements are vacuous, and the metalanguage reasoning about arbitrary open terms closely resembles semantic reasoning about arbitrary closed terms. This might be part of the reason why $Comp$ is sometimes glossed as the type of all closed terms, although this technically doesn't make sense. (Semantically, many types contain all the closed terms, while syntactically, no type can rule out variables.)
+But equality at the $Comp$ type is just computational equivalence, which is respected by all the semantic judgments. So when dealing with computations, the implicit respect requirements are vacuous, and the framework reasoning about arbitrary open terms closely resembles semantic reasoning about arbitrary closed terms. This might be part of the reason why $Comp$ is sometimes glossed as the type of all closed terms, although this technically doesn't make sense. (Semantically, many types contain all the closed terms, while syntactically, no type can rule out variables.)
 
 Another reason for the intuition that $Comp$ is the type of closed terms is that there's an admissible rule saying that any closed term has type $Comp$. (This rule cannot be represented in HOAS style without some modal trick. The proof is by structural induction on the term, and uses the appropriate computation formation rule in each case. The motive needs to be generalized in order to handle binding forms.)
 
@@ -279,7 +279,7 @@ The right-to-left direction crucially relies on the sanity rule ($(a \Vdash A) \
 
 Although membership is not *always* non-negatable anymore, because ($a \in A$) presupposes ($a \Vdash Relax(A)$), it's still non-negatable whenever $A$ and $Relax(A)$ are the same. This is precisely when $A$ is a quotient of $Comp$. (And in that case, Nuprl's ($A \cup Comp$) would be the same as well, so Nuprl's membership would also be non-negatable.)
 
-### Combined Truth
+### Combined Truth {#CombTruth}
 
 Hopefully, the [representability of type validity](#TpOK) shows better what's "really" going on with representability of judgment forms. When truth of a squashed type is used at the judgment level, it's not just the intuitive truth—which *presupposes* validity—that's being used; it's some "combined truth", which *implies* validity, via the sanity rule.
 
@@ -334,7 +334,7 @@ $$\frac{\Gamma\,ctx \qquad \Gamma \vdash a\,:\,A}{\Gamma \vdash A\,type}$$
 
 In a unidirectional type checker, type validity being a conclusion of sanity goes well with the type expression itself being an output of the type checker. In a [[bidirectional typechecking|bidirectional type checker]], there are two modes: "synthesizing mode" inputs a term and (if it succeeds) outputs a type it has, and "checking mode" inputs a term and a type, and checks the term against the type.
 
-Although CompLF's primitive rules are not algorithmic, we can think of the typing judgment ($a \Vdash A$) as corresponding to the synthesizing mode of bidirectional typing, due to the sanity rule. This section defines another formal judgment form (metalanguage predicate) to correspond to the checking mode, and derives rules that propagate type validity bidirectionally.
+Although CompLF's primitive rules are not algorithmic, we can think of the typing judgment ($a \Vdash A$) as corresponding to the synthesizing mode of bidirectional typing, due to the sanity rule. This section defines another formal judgment form (logical framework predicate) to correspond to the checking mode, and derives rules that propagate type validity bidirectionally.
 
 ### Basics
 
@@ -478,6 +478,30 @@ As an (admittedly pretty boring) application of $PreSup$, we can define a "Marti
 
 $a1 =_A a2\;\coloneqq\;TpV(a1 = a2 \in A\;|\;PreSup(a1 \in A \wedge a2 \in A))$
 
+## Partial Logic
+
+This section sketches the connection between dependent type theory and partial logic. The idea of the connection is that both styles of system handle presuppositions in essentially the same way.
+
+### Frege Structures
+
+[Kahle](#KahleFSU) presents Frege structures formulated as "a truth theory over applicative theories". That is, a logic for reasoning about [[combinatory logic|combinators]], plus a truth predicate. (Supposedly, Frege structures were not originally formulated that way.)
+
+This formulation based on a truth predicate is a close analogue of the formulation of CompLF in a HOAS logical framework.
+
+* The formulas of the applicative language for Frege structures correspond to the logical framework formulas for CompLF.
+
+* The terms of the applicative language correspond to the terms of CompLF. Additionally, both term languages present an untyped computation system.
+
+* Classical propositions represented as computations in Frege structures correspond to types represented as computations in CompLF.
+
+* The truth predicate ($T$) of this "truth theory" formulation expresses what we called [combined truth](#CombTruth). It thus corresponds (modulo propositions-as-types) to the typing judgment form ($\Vdash$) of CompLF. Rather than have a primitive "is a proposition" predicate, the truth theory uses ($P(x)\;\coloneqq\;T(x) \vee T(\dot{\not} x)$), which works in part due to classical logic. This corresponds to the type validity judgment form.
+
+### Fitch-Scott Partial Logic
+
+### Free Logic
+
 ## References
 
 * {#KCThesis} Karl Crary, _Type-Theoretic Methodology for Practical Programming Languages_, 1998 PhD thesis ([web](http://www.nuprl.org/KB/show.php?ShowPub=Cra98), [pdf](http://www.nuprl.org/documents/Crary/Thesis-TypeTheoretic.pdf))
+
+* {#KahleFSU} Reinhard Kahle, _Universes over Frege Structures_, Annals of Pure and Applied Logic (2003)
