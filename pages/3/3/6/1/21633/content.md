@@ -22,7 +22,7 @@ Complex projective 3-space $\mathbb{C}P^3$ is the [[complex projective space]] $
 
 ### Calabi-Penrose fibration
 
-... _[[Calabi-Penrose fibration]]_
+... _[[twistor space]]_ ... _[[Calabi-Penrose fibration]]_
 
 ## Related concepts
 
