@@ -42,7 +42,7 @@ Grothendieck's metaphor is also discussed at
 * {#Grothendieck85} [[Alexander Grothendieck]], _[[Récoltes et semailles]]_, 1985-1987, 
 
 
-* {#McLarty03} [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.cwru.edu/artsci/phil/RisingSea.pdf))
+* {#McLarty03} [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Mathbiographies/mclarty1.pdf))
 
 
 category: reference
