@@ -61,7 +61,7 @@ On an introduction to (algebraic) topology and differential geometry aiming the 
 * Fábio Dadam, [[Yuri Ximenes Martins]], _Topologia, Geometria e Buracos Negros_, NEA, 2016. ([hal-02908935v1](https://hal.archives-ouvertes.fr/hal-02908935v1))
 
 
-On an introduction to abstract homotopy theory by means of model categorias and (infty,1)-categories (in Brazilian portuguese):
+On an introduction to abstract [[homotopy theory]] by means of [[model categories]] and [[(infinity,1)-categories]] (in Brazilian Portuguese):
 
 * [[Yuri Ximenes Martins]], _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302), [hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
 
