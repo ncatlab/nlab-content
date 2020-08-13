@@ -204,7 +204,10 @@ An exposition with an eye towards [[homotopy type theory]] is in
 
 Lecture notes:
 
-* _[[Introduction to Homotopy Theory]]_
+* [[Urs Schreiber]], _[[Introduction to Homotopy Theory]]_ (2016)
+
+* {#Martins20} [[Yuri Ximenes Martins]], _Introduction to Abstract Homotopy Theory_ ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302))
+
 
 Survey
 
@@ -235,7 +238,7 @@ A foundational set of lecture notes is developing in
 * [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 
-See also
+See also:
 
 * H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
 
