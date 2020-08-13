@@ -265,7 +265,7 @@ But in Martin-Löf type theory, and earlier versions of Nuprl, the equality sema
 
 There is another semantic judgment which is still non-negatable: type validity. It's kind of a weird trick that this judgment is representable as a type. (Coincidentally, Crary noticed the trick, and used it, arguing that it was more convenient than membership in an arbitrary universe.) It sounds like there'd be a size paradox, right? Well that's why there's probably nothing that can be done about the non-negatability.
 
-So what's the big trick? Basically, to use almost any trivially true proposition than mentions the type. We'll use:
+So what's the big trick? Basically, to use almost any trivially true proposition that mentions the type. We'll use:
 
 $TpOK(A)\;\coloneqq\;A \supset \top$
 
@@ -484,7 +484,7 @@ This section sketches the connection between dependent type theory and partial l
 
 ### Frege Structures
 
-[Kahle](#KahleFSU) presents Frege structures formulated as "a truth theory over applicative theories". That is, a logic for reasoning about [[combinatory logic|combinators]], plus a truth predicate. (Supposedly, Frege structures were not originally formulated that way.)
+In [a paper](#KahleFSU) about adding universes to Frege structures, Reinhard Kahle presents Frege structures formulated as "a truth theory over applicative theories". That is, a logic for reasoning about [[combinatory logic|combinators]], plus a truth predicate. (Supposedly, Frege structures were not originally formulated that way.)
 
 This formulation based on a truth predicate is a close analogue of the formulation of CompLF in a HOAS logical framework.
 
@@ -496,15 +496,15 @@ This formulation based on a truth predicate is a close analogue of the formulati
 
 * The truth predicate ($T$) of this "truth theory" formulation expresses what we called [combined truth](#CombTruth). It thus corresponds (modulo propositions-as-types) to the typing judgment form ($\Vdash$) of CompLF. Rather than have a primitive "is a proposition" predicate, the truth theory uses ($P(x)\;\coloneqq\;T(x) \vee T(\dot{\not} x)$), which works in part due to classical logic. This corresponds to the type validity judgment form.
 
-Kahle's paper is very much about the representability of formulas as propositions in Frege structures, which corresponds to the representability of framework formulas as squashed types in CompLF [discussed above](#JudgReason). With Frege structures, there's a strong metatheorem about representability; Kahle calls it "Proposition 5". This allows representing any formula with only positive occurrences of $T$. By adding universes to Frege structures, Kahle stratifies the propositions, allowing for negative occurrences of combined truth for lower lever propositions. (TODO: Double check this.)
+Kahle's paper is very much about the representability of formulas as propositions in Frege structures, which corresponds to the representability of framework formulas as squashed types in CompLF [discussed above](#JudgReason). With Frege structures, there's a strong metatheorem about representability. Kahle calls it "Proposition 5". This allows representing any formula with only positive occurrences of $T$. By adding universes to Frege structures, Kahle stratifies the propositions, allowing for negative occurrences of combined truth for lower lever propositions. (TODO: Double check this.)
 
 (It seems that there's nothing as strong as Proposition 5 available for CompLF. For example, there doesn't seem to be a way to express disjunction of combined truth in CompLF. The disjunction available in CompLF is only a type when both disjuncts are. Frege structures have a "parallel or" that's (combined) true when either disjunct is.)
 
-Since proposition validity ($P(x)\;\coloneqq\;T(x) \vee T(\dot{\not} x)$) uses only positive occurrences of $T$, it's representable. Namely, ($T(\dot{\not}(\dot{\not} x \dot{\wedge} x)) \leftrightarrow (T(x) \vee T(\dot{\not} x))$). So with appropriate definitions of disjunction and implication for classical logic, the representation could also be ($x \dot{\vee} \dot{\not} x$) or ($x \dot{\to} x$). So the idea is essentially the same as representing [type validity](#TpOK) as a type in CompLF: use some tautology that mentions the thing that should be valid.
+Since proposition validity ($P(x)\;\coloneqq\;T(x) \vee T(\dot{\not} x)$) uses only positive occurrences of $T$, it's representable. Namely, ($T(\dot{\not}(\dot{\not} x \dot{\wedge} x)) \leftrightarrow (T(x) \vee T(\dot{\not} x))$). So with appropriate definitions of disjunction and implication for classical logic, the representation could also be ($x \dot{\vee} \dot{\not} x$) or ($x \dot{\to} x$). So the idea is essentially the same as representing [type validity](#TpOK) as a type in CompLF: use some tautology that mentions the thing that should be valid. (Our particular definition, ($A \supset \top$) could be imitated in Frege structures as ($x \dot{\to} (x \dot{=} x)$), but this doesn't work, because it's always true, due to the parallel behavior of Frege structures connectives, rather than the short-circuiting behavior of CompLF type constructors. Clearly not *all* tautologies do the trick.)
 
 In Frege structures, too, proposition validity is [non-negatable](#NonNegate). In Frege structures, this can be expressed quite clearly as $\not T(\dot{\not}(x \dot{\to} x))$. In Frege structures terminology, this is saying that ($x \dot{\to} x$) is "not false". It's either "true" (combined true) or not a proposition.
 
-So intuitively, the problem with representing negative occurrences of $T$ without stratification is that this allows assuming proposition validity in a proposition. But you can't, since proposition validity is non-negatable.
+So intuitively, the problem with representing negative occurrences of $T$ without stratification is that that would entail assuming proposition validity in a proposition. But you can't, since proposition validity is non-negatable.
 
 ### Fitch-Scott Partial Logic
 
