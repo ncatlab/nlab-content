@@ -138,6 +138,14 @@ reviewed in
 * [[Mark Van Raamsdonk]], _Lectures on Gravity and Entanglement_, chapter 5 in  New Frontiers in Fields and Strings
 TASI 2015 Proceedings of the 2015 Theoretical Advanced Study Institute in Elementary Particle Physics 2015 Theoretical Advanced Study Institute in Elementary Particle Physics ([arXiv:1609.00026](https://arxiv.org/abs/1609.00026))
 
+Discussion of the corresponding continuum theory, formulated via [[local nets of observables]] in [[algebraic quantum field theory]]:
+
+* [[Edward Witten]], _Notes on Some Entanglement Properties of Quantum Field Theory_, Rev. Mod. Phys. 90, 45003 (2018) ([arXiv:1803.04993](https://arxiv.org/abs/1803.04993))
+
+
+* {#Faulkner20} [[Thomas Faulkner]], _The holographic map as a conditional expectation_ ([arXiv:2008.04810](https://arxiv.org/abs/2008.04810))
+
+
 Relation to [[renormalization]] of [[entanglement]] and [[tensor networks]] is due to 
 
 * {#Swingle09} [[Brian Swingle]], _Entanglement Renormalization and Holography_, Phys. Rev. D 86, 065007 (2012) ([arXiv:0905.1317](https://arxiv.org/abs/0905.1317))
