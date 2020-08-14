@@ -44,7 +44,7 @@ Complex projective space has the following [[coset space]]-realizations:
     \big)
   $$
 
-  (e.g. [Onishchik 60, p. 3](#Onishchik60), [Zandi 88, 7](#Zandi88), [Iriye 90, (3)](#Iriye90), [Butruille 06, p. 2](#Butruille06))
+  (e.g. [Onishchik 60, Таблица 1](#Onishchik60), [Zandi 88, 7](#Zandi88), [Iriye 90, (3)](#Iriye90), [Gorbatsevich-Onishchik 93, Table 3](#GorbatsevichOnishchik93) [Butruille 06, p. 2](#Butruille06))
 
 
 ### Calabi-Penrose fibration
@@ -74,7 +74,7 @@ See also
 * {#Iriye90} [[Kouyemon Iriye]], _Manifolds which have two projective space bundle structures from the homotopical point of view_, J. Math. Soc. Japan Volume 42, Number 4 (1990), 639-658 ([euclid:jmsj/1227108441](https://projecteuclid.org/euclid.jmsj/1227108441))
 
 
-
+* {#GorbatsevichOnishchik93} V. Gorbatsevich, A. L. Onishchik, _Compact homogeneous spaces_, Chapter 5 in: _Lie Groups and Lie Algebras II: Lie Transformation groups_, Encyclopaedia of Mathematical Sciences, vol 20. Springer, Spinger 1993 ([doi:10.1007/978-3-642-57999-8_11](https://doi.org/10.1007/978-3-642-57999-8_11))
 
 * {#Butruille06} Jean-Baptiste Butruille, _Homogeneous nearly Kähler manifolds_ ([arXiv:math/0612655](https://arxiv.org/abs/math/0612655))
 
