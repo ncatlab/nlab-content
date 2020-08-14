@@ -206,6 +206,9 @@ The [[black brane|black]] [[M2-brane]] solution in HW-theory, supposedly yieldin
 
 More on the [[Green-Schwarz mechanism]] in [[Hořava-Witten theory]]:
 
+* Ian G Moss, _A new look at anomaly cancellation in heterotic M-theory_, Phys. Lett. B637 (2006) 93-96 ([arXiv:hep-th/0508227](https://arxiv.org/abs/hep-th/0508227))
+
+
 * [[Fei Han]], [[Kefeng Liu]], [[Weiping Zhang]], _Anomaly Cancellation and Modularity. II: $E_8 \times E_8$ case_, Sci. China Math. 60, 985–994 (2017) ([arXiv:1209.4540](https://arxiv.org/abs/1209.4540), [doi:10.1007/s11425-016-9034-1](https://doi.org/10.1007/s11425-016-9034-1))
 
 
