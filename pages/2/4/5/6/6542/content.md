@@ -210,7 +210,7 @@ $$
 
 Discussion of [[fiber integration]]:
 
-* {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
+* {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001), [euclid:jdg/1214460608](https://projecteuclid.org/euclid.jdg/1214460608))
 
 
 Discussion for [[projective modules]] 
