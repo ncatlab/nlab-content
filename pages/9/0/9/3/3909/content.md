@@ -580,7 +580,7 @@ Surveys of the resulting modern application of twistors in field theory include
 
 Discussion of twistors in dimensions 3,4,6 and 10 using the [[normed division algebras]] (as in [[supersymmetry and division algebras]]) is in
 
-* {#BengtssonCederwall88} [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire](http://inspirehep.net/record/247269))
+* {#BengtssonCederwall88} [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire:247269](http://inspirehep.net/record/247269), <a href="https://doi.org/10.1016/0550-3213(88)90667-0">doi:10.1016/0550-3213(88)90667-0</a>)
 
 * {#Cederwall93} [[Martin Cederwall]], _Introduction to Division Algebras, Sphere Algebras and Twistors_ ([arXiv:hep-th/9310115](https://arxiv.org/abs/hep-th/9310115))
 
