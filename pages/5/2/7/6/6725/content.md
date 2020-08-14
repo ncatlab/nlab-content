@@ -208,6 +208,12 @@ More on the [[Green-Schwarz mechanism]] in [[Hořava-Witten theory]]:
 
 * Ian G Moss, _A new look at anomaly cancellation in heterotic M-theory_, Phys. Lett. B637 (2006) 93-96 ([arXiv:hep-th/0508227](https://arxiv.org/abs/hep-th/0508227))
 
+* Sergio Lukic, [[Gregory Moore]], _Flux corrections to anomaly cancellation in M-theory on a manifold with boundary_ ([arXiv:hep-th/0702160](https://arxiv.org/abs/hep-th/0702160))
+
+* Ian G Moss, _Higher order terms in an improved heterotic M theory_, JHEP 0811:067, 2008 ([arXiv:0810.1662](https://arxiv.org/abs/0810.1662))
+
+
+
 
 * [[Fei Han]], [[Kefeng Liu]], [[Weiping Zhang]], _Anomaly Cancellation and Modularity. II: $E_8 \times E_8$ case_, Sci. China Math. 60, 985–994 (2017) ([arXiv:1209.4540](https://arxiv.org/abs/1209.4540), [doi:10.1007/s11425-016-9034-1](https://doi.org/10.1007/s11425-016-9034-1))
 
@@ -272,7 +278,7 @@ Generalization to [[M-theory on S1/G_HW times H/G_ADE]]:
 
 * Zygmunt Lalak, Steven Thomas, _Gaugino Condensation, Moduli Potentials and Supersymmetry Breaking in M-Theory Models_ ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223))
 
-* V. Kaplunovsky, J. Sonnenschein,[[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_ ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144))
+* V. Kaplunovsky, [[Jacob Sonnenschein]],[[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_ ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144))
 
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
