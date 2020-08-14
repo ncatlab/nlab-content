@@ -115,7 +115,7 @@ Review:
 
 Survey talks include
 
-* Meyers, _Holographic entanglement entropy_,  ([pdf slides](http://www.lpt.ens.fr/IMG/pdf/Myers.pdf))
+* Robert Myers, _Holographic entanglement entropy_,  ([pdf slides](http://www.lpt.ens.fr/IMG/pdf/Myers.pdf))
 
 * Shinsei Ryu, _Holographic geometry in Entanglement Renormalization_ ([pdf slides](http://icmt.illinois.edu/Workshops/JointWorkshopPerimeter/Ryu-PI-ICMT-2012.pdf))
 
@@ -173,10 +173,7 @@ See also
 
 See also
 
-
 * {#HMPSR19}  Felix M. Haehl, Eric Mintun, Jason Pollack, Antony J. Speranza, [[Mark Van Raamsdonk]], _Nonlocal multi-trace sources and bulk entanglement in holographic conformal field theories_, J. High Energ. Phys. (2019) 2019: 005 ([arxiv:1904.01584](https://arxiv.org/abs/1904.01584), [talk recording](https://youtu.be/kRCwzyliJ1M))
-
-
 
 * {#Yan19} Han Yan, _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
 
@@ -204,7 +201,6 @@ Discussion in terms of [[DHR superselection theory]]:
 
 Application to [[AdS/QCD]]:
 
-
 * Zhibin Li, Kun Xu, Mei Huang, _The entanglement properties of holographic QCD model with a critical end point_ ([arXiv:2002.08650](https://arxiv.org/abs/2002.08650))
 
 
@@ -214,7 +210,11 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 * [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_ ([arXiv:1911.11977](https://arxiv.org/abs/1911.11977))
 
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv"1911.12333](https://arxiv.org/abs/1911.12333))
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
+
+Nicely reviewed in (Their explicit objective is to present these results for people with minimal background in this problem.)
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_					([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
 
 [[!redirects Ryu-Takayanagi formula]]
 
