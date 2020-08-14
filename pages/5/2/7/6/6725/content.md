@@ -206,6 +206,9 @@ The [[black brane|black]] [[M2-brane]] solution in HW-theory, supposedly yieldin
 
 More on the [[Green-Schwarz mechanism]] in [[Hořava-Witten theory]]:
 
+* [[Adel Bilal]], Jean-Pierre Derendinger, Roger Sauser, _M-Theory on $S^1/\mathbb{Z}_2$ : New Facts from a Careful Analysis_, Nucl. Phys. B576 (2000) 347-374 ([arXiv:hep-th/9912150](https://arxiv.org/abs/hep-th/9912150))
+
+
 * Ian G Moss, _A new look at anomaly cancellation in heterotic M-theory_, Phys. Lett. B637 (2006) 93-96 ([arXiv:hep-th/0508227](https://arxiv.org/abs/hep-th/0508227))
 
 * Sergio Lukic, [[Gregory Moore]], _Flux corrections to anomaly cancellation in M-theory on a manifold with boundary_ ([arXiv:hep-th/0702160](https://arxiv.org/abs/hep-th/0702160))
