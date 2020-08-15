@@ -3,6 +3,16 @@
 
 ## Selected writings
 
+
+Introducing [[heterotic string theory]]:
+
+* [[David Gross]], [[Jeffrey Harvey]], [[Emil Martinec]], [[Ryan Rohm]]:
+
+  _Heterotic string theory (I). The free heterotic string_  Nucl. Phys. B 256 (1985), 253 (<a href="https://doi.org/10.1016/0550-3213(85)90394-3">doi:10.1016/0550-3213(85)90394-3</a>)
+
+  _Heterotic string theory (II). The interacting heterotic string_ , Nucl. Phys. B 267 (1986), 75 (<a href="https://doi.org/10.1016/0550-3213(86)90146-X">doi:10.1016/0550-3213(86)90146-X</a>)
+
+
 On the [[NSR superstring]] as [[2d CFT]]:
 
 * {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory_, Nucl. Phys., B271 (1986) 93 (<a href="https://doi.org/10.1016/S0550-3213(86)80006-2">doi:10.1016/S0550-3213(86)80006-2</a>)
