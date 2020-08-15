@@ -31,6 +31,11 @@ On [[stacks]] as [[target spaces]] for [[sigma-models]]:
 
 * {#Sharpe15} Eric Sharpe, _Notes on generalized global symmetries in QFT_ ([arXiv:1508.04770](http://arxiv.org/abs/1508.04770))
 
+On [[heterotic string]] [[perturbative string theory vacua|vacua]]:
+
+* [[Eric Sharpe]], _Recent developments in heterotic compactifications_, AMS/IP Stud. Adv. Math. 44 (2008) 209-230 ([arXiv:0801.4080](https://arxiv.org/abs/0801.4080))
+
+
 On [[duality in string theory]] in view of [[category theory]] and [[higher geometry]]:
 
 * {#Sharpe19} [[Eric Sharpe]], _Categorical Equivalence and the Renormalization Group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
