@@ -368,6 +368,8 @@ is the corresponding $Spin^c$-structure.
 
     [[Spin^c Dirac operator|Spin<sup><i>c</i></sup> Dirac operator]]
 
+  * [[Spin^h structure]]
+
   * [[string structure]], [[twisted differential string structure]],
 
   * [[string^c 2-group|string<sup><i>c</i></sup> 2-group]], [[string^c structure|string<sup><i>c</i></sup> structure]]
@@ -416,8 +418,8 @@ See also
 
 The relation to [[metaplectic corrections]] is discussed in 
 
-* [[Paul-Emile Paradan]], _Spin-quantization commutes with reduction_ ([arXiv:0911.1067](http://arxiv.org/abs/0911.1067))
- {#Paradan09}
+* {#Paradan09} [[Paul-Emile Paradan]], _Spin-quantization commutes with reduction_ ([arXiv:0911.1067](http://arxiv.org/abs/0911.1067))
+ 
 
 See also
 
