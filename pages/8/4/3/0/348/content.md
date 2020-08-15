@@ -187,7 +187,7 @@ where all objects appearing (at least in the first lines) are implicitly regarde
 But this colimit now manifestly computes the set
 
 $$
-  \{\text{maps from }V\text{ to }X\text{ that factor through }U\}_\sim
+  \{\text{maps from }\,V\,\text{ to }\,X\,\text{ that factor through }\,U\}_\sim
 $$
 
 where the equivalence relation is
