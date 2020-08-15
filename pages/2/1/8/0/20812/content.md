@@ -153,6 +153,16 @@ Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics,  Volume 333, Issue 1 (2015), Page 117-151 ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455), [doi:10.1007/s00220-014-2228-1](http://link.springer.com/article/10.1007%2Fs00220-014-2228-1))
 
+Suggestion that an actual [[E8]]-[[principal bundle]] on 11d spacetime plays a role here:
+
+* D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv. Theor. Math. Phys. 6:1031-1134, 2003 ([arXiv:hep-th/0005090](https://arxiv.org/abs/hep-th/0005090))
+
+* [Diaconescu-Freed-Moore 03, Section 3](#DiaconescuFreedMoore03)
+
+* Allan Adams, [[Jarah Evslin]], _The loop group of $E_8$ and K-theory from 11d_, JHEP 02 (2003) ([arXiv:hep-th/0203218](https://arxiv.org/abs/hep-th/0203218))
+
+* [[Hisham Sati]], _$E_8$ Gauge Theory and Gerbes in String Theory_, Adv. Theor. Math. Phys. 14:1-39, 2010 ([arXiv:hep-th/0608190](https://arxiv.org/abs/hep-th/0608190))
+
 
 
 The observation that the condition is implied by [[supergravity C-field|C-field]] [[charge quantization]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]) is due to
