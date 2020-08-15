@@ -21,14 +21,15 @@
 
 ## Definition
 
-We define
+With [[Sp(1)]] denoting the [[quaternion unitary group]], 
+we define the [[Spin^h group]]
 $$Spin^h(n) = (Spin(n) \times Sp(1))/(\mathbf{Z}/2),$$
-in complete analogy to 
+in complete analogy to the [[Spin^c group]]
 $$Spin^c(n) = (Spin(n) \times U(1))/(\mathbf{Z}/2),$$
-and
+and the [[Spin group]]
 $$Spin(n) = (Spin(n) \times O(1))/(\mathbf{Z}/2).$$
 
-We have a canonical double covering, which is a homomorphism of Lie groups:
+We have a canonical [[double covering]], which is a [[homomorphism]] of [[Lie groups]]:
 $$Spin^h(n) \to SO(n)\times SO(3).$$
 It induces canonical homomorphisms of Lie groups
 $$Spin^h(n) \to SO(n)$$
@@ -36,7 +37,7 @@ and
 $$Spin^h(n) \to SO(3).$$
 
 A __spin$^h$-structure__ on a [[principal bundle]] $P\to B SO(n)$
-is a lift through the canonical map $B Spin^h(n) \to B SO(n)$.
+is a [[lift]] through the canonical map $B Spin^h(n) \to B SO(n)$.
 
 Thus, in concrete terms, a spin$^h$-structure on $P$ is a principal $SO(3)$-bundle $E$ together with a principal $Spin^h(n)$-bundle $Q$ and a double covering
 map $Q\to P\times E$ equivariant with respect to the homomorphism $Spin^h(n) \to SO(n)\times SO(3)$.
@@ -61,3 +62,35 @@ The original definition is due to
 A survey is given in
 
 * Michael Albanese, Aleksandar Milivojevic, _Spin^h and further generalisations of spin_.  [arXiv:2008.04934](https://arxiv.org/abs/2008.04934)
+
+[[!redirects spin^h structures]]
+
+[[!redirects spin^h-structure]]
+[[!redirects spin^h-structures]]
+
+[[!redirects Spin^h structure]]
+[[!redirects Spin^h structures]]
+
+[[!redirects Spin^h-structure]]
+[[!redirects Spin^h-structures]]
+
+[[!redirects spin^h]]
+[[!redirects Spin^h]]
+
+[[!redirects spin^h group]]
+[[!redirects Spin^h group]]
+
+[[!redirects spin^h groups]]
+[[!redirects Spin^h groups]]
+
+[[!redirects spin^h-group]]
+[[!redirects Spin^h-group]]
+
+[[!redirects spin^h-groups]]
+[[!redirects Spin^h-groups]]
+
+
+
+
+
+
