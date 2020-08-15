@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -227,15 +226,28 @@ For examples and discussion of this see
 ## References
  {#References}
 
+### Classical theory -- bundles and groups
 
-A readable survey on nonabelian cohomology is
-
-* {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf))
-
-
-A useful motivation is
+The classical theory via [[principal bundles]] and [[Lie groups]]/[[algebraic groups]]:
 
 * Nicolas Addington, _Fiber bundles and nonabelian cohomology_ ([pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf))
+
+*  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
+
+Discussion in a context of [[nonabelian Hodge theory]]:
+
+* [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9604005))
+
+* [[Carlos Simpson]], _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9712020))
+
+* [[Carlos Simpson]], _Algebraic aspects of higher nonabelian Hodge theory_ ([arXiv](http://arxiv.org/abs/math/9902067))
+
+* [[Carlos Simpson]], [[Tony Pantev]], [[Ludmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
+
+
+
+### Categorified theory -- 2-bundles/gerbes 
+
 
 Early original references include
 
@@ -249,29 +261,20 @@ Early original references include
 
 * [[Paul Dedecker]], _Three dimensional non-abelian cohomology for groups_, Category theory, homology theory and their applications, II (Battelle Institute Conf.) 1969 ([MathSciNet](http://www.ams.org/mathscinet/pdf/263894.pdf?pg1=IID&s1=55880&vfpref=html&r=15))
 
-  (with coefficients in certain [[3-group]]s presented by [[crossed square]]s)
+  (with coefficients in certain [[3-groups]] presented by [[crossed squares]])
 
-See also
+The standard classical monograph is
 
-*  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
+* [[Jean Giraud]], _Cohomologie non ab&#233;lienne_ , Springer  (1971) ([doi:10.1007/978-3-662-62103-5](https://link.springer.com/book/10.1007/978-3-662-62103-5))
 
-* [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) )Algebraic Topology_. Abel Symposia, vol 4. Springer, Berlin, Heidelberg. ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
+  (aspects of classification of $G$-[[gerbes]] by cohomology with coefficients in the [[automorphism 2-group]] $AUT(G)$, but imposes extra constraints)
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460))
-
-* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](https://arxiv.org/abs/1203.2461))
-
-The standard classical monograph focusing on low-dimensional cases is
-
-* [[J. Giraud]], _Cohomologie non ab&#233;lienne_ , Springer  (1971)
-
-  (aspects of classification of $G$-[[gerbe]]s by cohomology with coefficients in the [[automorphism 2-group]] $AUT(G)$, but imposes extra constraints)
-
-The correct definition using crossed modules of sheaves then appeared in 
+The correct definition using [[crossed modules]] of sheaves then appeared in 
 
 * {#Debremaeker76} Raymond Debremaeker, _Cohomologie met waarden in een gekruiste groepenschoof op een situs_, PhD thesis, 1976 (Katholieke Universiteit te Leuven). English translation: 
 _Cohomology with values in a sheaf of crossed groups over a site_, arXiv:[1702.02128](https://arxiv.org/abs/1702.02128)
 
+Discussion in terms of [[gerbes]]:
 
 * [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_, The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&#228;user, Boston, Basel, Berlin, 401-476, (1990) ([doi:10.1007/978-0-8176-4574-8_10](https://doi.org/10.1007/978-0-8176-4574-8_10))
 
@@ -279,30 +282,33 @@ _Cohomology with values in a sheaf of crossed groups over a site_, arXiv:[1702.0
 
 * [[Amnon Yekutieli]], Combinatorial descent data for gerbes, Journal of Noncommutative Geometry Volume 8, Issue 4, 2014, pp. 1083–1099, arXiv:1109.1919 ([webpage](https://www.math.bgu.ac.il/~amyekut/publications/comb-descent/comb-descent.html))
 
-The classification of [[∞-gerbes]] is secretly in 
+* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 <http://hdl.handle.net/1959.14/1261186>
+
+
+Existence of [[classifying spaces]] for [[principal 2-bundles]]/[[nonabelian gerbes]]:
+
+* [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) )Algebraic Topology_. Abel Symposia, vol 4. Springer, Berlin, Heidelberg. ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
+
+
+### General theory -- $\infty$-bundles/$\infty$-gerbes
+
+Discussion of the general theory via [[principal ∞-bundles]] and/or [[∞-gerbes]] and/or [[∞-stacks]]:
+
+* {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf))
 
 * {#Wendt} [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
 
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460))
 
-see the discussion at [[∞-gerbe]] for more on this.
+* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](https://arxiv.org/abs/1203.2461))
 
-Carlos Simpson has studied [[nonabelian Hodge theory]].
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015), pages 749-801 ([doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6), [arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
-* [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9604005))
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
 
-* [[Carlos Simpson]], _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9712020))
 
-* [[Carlos Simpson]], _Algebraic aspects of higher nonabelian Hodge theory_ ([arXiv](http://arxiv.org/abs/math/9902067))
 
-* [[Carlos Simpson]], [[Tony Pantev]], [[Ludmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
 
-Some links and references can be found at Alsani's descent and category theory [page](http://north.ecc.edu/alsani/descent.html).
-
-In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-categorical hom-space|hom-spaces]] between [[∞-stack]]s, see also the references at [[∞-stack]].
-
-The following thesis continues Street's treatment of nonabelian cohomology
-
-* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 <http://hdl.handle.net/1959.14/1261186>
 
 
 [[!redirects non-abelian cohomology]]
