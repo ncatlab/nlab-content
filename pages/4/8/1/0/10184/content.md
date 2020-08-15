@@ -11,13 +11,13 @@ A [[field]] $k$ is *formally real* if one of the following equivalent conditions
 
 * $-1$ is not a sum of squares in $k$ (a special case of the previous condition).
 
-* There exists an [[linear order]] on $k$ which makes $k$ into an [[ordered field]].
+* There exists an [[linear order]] on $k$ which makes $k$ into an [[ordered field]].  (This requires [[Zorn's Lemma]].)
 
 * The [[Witt group]] of $k$ is not torsion.
 
-Due to the last property, formally real fields play a special r&#244;le in the theory of [[Witt groups]] and in related fields of study such as [[motivic homotopy theory]].
+Due to the last property, formally real fields play a special r&#244;le in the theory of [[Witt group|Witt groups]] and in related fields of study such as [[motivic homotopy theory]].
 
-A formally real field which is the only formally real [[algebraic extension]] of itself is a [[real closed field]]; such a field admits a unique ordering.
+A formally real field which is the only formally real [[algebraic extension]] of itself is a [[real closed field]]; such a field admits a unique ordering (*not* requiring Zorn\'s Lemma).
 
 
 ## Examples
