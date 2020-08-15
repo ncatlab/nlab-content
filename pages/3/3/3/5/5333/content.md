@@ -168,11 +168,11 @@ See also at _[[torsion constraints in supergravity]]_.
 
 Heterotic strings were introduced in 
 
-* [[David Gross]], J. A. Harvey, E. Martinec and R. Rohm, 
+* [[David Gross]], [[Jeffrey Harvey]], [[Emil Martinec]], [[Ryan Rohm]]:
 
-  _Heterotic string theory (I). The free heterotic string_  Nucl. Phys. B 256 (1985), 253. 
+  _Heterotic string theory (I). The free heterotic string_  Nucl. Phys. B 256 (1985), 253 (<a href="https://doi.org/10.1016/0550-3213(85)90394-3">doi:10.1016/0550-3213(85)90394-3</a>)
 
-  _Heterotic string theory (I). The interacting heterotic string_ , Nucl. Phys. B 267 (1986), 75. 
+  _Heterotic string theory (II). The interacting heterotic string_ , Nucl. Phys. B 267 (1986), 75 (<a href="https://doi.org/10.1016/0550-3213(86)90146-X">doi:10.1016/0550-3213(86)90146-X</a>)
 
 * {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
 
