@@ -85,6 +85,12 @@ Of course, all ordinary natural transformations, and also all [[extranatural tra
 
 * The following example of a dinatural transformation from a covariant functor to a contravariant one is found in [Dubuc-Street](#DubucStreet) and attributed to [[Mac Lane]].  Let $C$ be the category of [[inner product spaces]] and isometries, and $D$ the category of [[vector spaces]] and linear transformations (all over a fixed [[field]]).  Let $F:C\to D$ be the forgetful functor and let $G:C^{op}\to D$ be the functor sending each inner product space to its dual.  Define $\alpha_V : F(V) \to G(V)$ to send $v\in V$ to the operation $\langle v,-\rangle$; then $\alpha$ is dinatural.
 
+By a yoneda-like argument, dinatural transformations $\alpha : F \xrightarrow{\bullet} G$ are in bijection with natural transformations $\eta_{x,y} : \hom(x, y) \to \hom(F(y,x), G(x,y))$. The corresponding
+transformations are related by
+
+* $\eta_{x,y}(f) = G(x, f) \alpha_x F(f, x) = G(f, y) \alpha_y F(x, f)$
+
+* $\alpha_x = \eta_{x,x}(id)$
 
 ## Dinaturality versus extranaturality
 
