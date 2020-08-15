@@ -331,3 +331,10 @@ The definition for $n$-gerbes as $n$-truncated and $n$-connected objects (see [[
 
 [[!redirects gerbes]]
 [[!redirects gerb]]
+
+[[!redirects nonabelian gerbe]]
+[[!redirects nonabelian gerbes]]
+
+[[!redirects non-abelian gerbe]]
+[[!redirects non-abelian gerbes]]
+
