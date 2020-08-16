@@ -29,18 +29,23 @@ Phys. Rev. Lett. 96:121602, 2006 ([arXiv:hep-ph/0511035](https://arxiv.org/abs/h
 * [[Vincent Bouchard]], [[Ron Donagi]], _An SU(5) Heterotic Standard Model_, Phys. Lett. B633:783-791,2006 ([arXiv:hep-th/0512149](http://arxiv.org/abs/hep-th/0512149))
 
 
-A computer search through the "[[landscape of string theory vacua|landscape]]" of [[Calabi-Yau varieties]] showed severeal hundreds more such exact heterotic standard models (about one billionth of all CYs searched, and most of them arising as $SU(5)$-[[GUTs]])
+A computer search through the "[[landscape of string theory vacua|landscape]]" of [[Calabi-Yau varieties]] showed severeal hundreds more such exact heterotic standard models (about one billionth of all CYs searched, and most of them arising as $SU(5)$-[[GUTs]]):
 
 
-* [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_,  	JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
+* [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_, JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
 
-* {#AndersonGrayLukasPalti11} [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
+* {#AndersonGrayLukasPalti11} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
-* [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
+  (introducing [[heterotic line bundle]]-models)
 
-* [[Lara Anderson]], Andrei Constantin, James Gray, [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic SU(5) GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
+* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
+
+* [[Lara Anderson]], Andrei Constantin, [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
 * [[Yang-Hui He]], Seung-Joo Lee, [[Andre Lukas]], Chuang Sun, _Heterotic Model Building: 16 Special Manifolds_ ([arXiv:1309.0223](http://arxiv.org/abs/1309.0223))
+
+* Stefan Groot Nibbelink, Orestis Loukas, Fabian Ruehle, Patrick K.S. Vaudrevange, _Infinite number of MSSMs from heterotic line bundles?_, Phys. Rev. D 92, 046002 (2015) ([arXiv:1506.00879](https://arxiv.org/abs/1506.00879))
+
 
 * {#CHE18} Andrei Constantin, [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_ ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
@@ -49,7 +54,7 @@ A computer search through the "[[landscape of string theory vacua|landscape]]" o
 
 The resulting database of compactifications is here:
 
-* [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
+* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
 
 Review includes
 
@@ -74,7 +79,7 @@ The issue of [[moduli stabilization]] in these kinds of models is discussed in
 
 * Michele Cicoli, Senarath de Alwis, Alexander Westphal, _Heterotic Moduli Stabilization_ ([arXiv:1304.1809](http://arxiv.org/abs/1304.1809))
 
-* [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Burt Ovrut]], _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
+* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Burt Ovrut]], _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
 
 
 Principles singling out heterotic models with three generations of fundamental particles are discussed in:
