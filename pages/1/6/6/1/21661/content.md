@@ -36,9 +36,14 @@ Considering these models has led to a little revolution in [[heterotic string th
 
 * Stefan Groot Nibbelink, Orestis Loukas, Fabian Ruehle, Patrick K.S. Vaudrevange, _Infinite number of MSSMs from heterotic line bundles?_, Phys. Rev. D 92, 046002 (2015) ([arXiv:1506.00879](https://arxiv.org/abs/1506.00879))
 
+
+
 Scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[heterotic line bundle models]]:
 
 * [[Lara Anderson]], Andrei Constantin, [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
+
+* Magdalena Larfors, Robin Schneider, _Explore and Exploit with Heterotic Line Bundle Models_, Fortschritte der Physik Vol 86 Nr. 5 ([arXiv:2003.04817](https://arxiv.org/abs/2003.04817))
+
 
 
 [[!redirects heterotic line bundle]]
