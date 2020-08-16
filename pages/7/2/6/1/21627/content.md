@@ -42,14 +42,17 @@ using [[heterotic line bundle models]]:
 
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
 
-* [[Lara Anderson]], Andrei Constantin, [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
+* [[Lara Anderson]], [[Andrei Constantin]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
 * [[Yang-Hui He]], Seung-Joo Lee, [[Andre Lukas]], Chuang Sun, _Heterotic Model Building: 16 Special Manifolds_ ([arXiv:1309.0223](http://arxiv.org/abs/1309.0223))
 
 * Stefan Groot Nibbelink, Orestis Loukas, Fabian Ruehle, Patrick K.S. Vaudrevange, _Infinite number of MSSMs from heterotic line bundles?_, Phys. Rev. D 92, 046002 (2015) ([arXiv:1506.00879](https://arxiv.org/abs/1506.00879))
 
+* [[Andreas Braun]], Callum R. Brodie, [[Andre Lukas]], _Heterotic Line Bundle Models on Elliptically Fibered Calabi-Yau Three-folds_, JHEP04 (2018) 087 ([arXiv:1706.07688](https://arxiv.org/abs/1706.07688))
 
-* {#CHE18} Andrei Constantin, [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_ ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
+
+* {#CHE18} [[Andrei Constantin]], [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_, Physics Letters B
+Volume 792, 10 May 2019, Pages 258-262 ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
 * Alon E. Faraggi, Glyn Harries, Benjamin Percival, John Rizos, _Towards machine learning in the classification of $\mathbb{Z}_2 \times \mathbb{Z}_2$ orbifold compactifications ([arXiv:1901.04448](https://arxiv.org/abs/1901.04448))_
 
