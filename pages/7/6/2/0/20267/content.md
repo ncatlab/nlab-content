@@ -110,7 +110,7 @@ This is a re-statement of
 
 * [[Calabi-Yau manifold]]
 
-* [[U(1)]], [[SU(2)]], [[SU(4)]]
+* [[U(1)]], [[SU(2)]], [[SU(4)]], [[SU(5)]]
 
 ## References
 
