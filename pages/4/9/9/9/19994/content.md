@@ -16,6 +16,8 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterot
 
 * {#AndersonGrayLukasPalti12} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
 
+* [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], _The Moduli Space of Heterotic Line Bundle Models: a Case Study for the Tetra-Quadric_, 	JHEP03 (2014) 025 ([arXiv:1311.1941](https://arxiv.org/abs/1311.1941))
+
 
 Scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[heterotic line bundle models]]:
 
