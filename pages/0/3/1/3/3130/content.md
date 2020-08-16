@@ -69,7 +69,7 @@ Let us describe this a bit differently. The cocycle $H^0(X,KU)$ may be represent
 
 
 $$
- ch(\nabla) := \sum_{j \in \mathbb{N}}
+ ch(\nabla) \coloeqq \sum_{j \in \mathbb{N}}
    k_j
    tr( F_\nabla \wedge \cdots \wedge F_\nabla)
   \;\;
@@ -91,21 +91,48 @@ The Chern character applied to the [[Whitney sum]] of two vector bundles is a su
 
 
 ### For spectra and generalized cohomology theories
+ {#ForSpectraAndGeneralizedCohomology}
 
-Let $E$ be a [[spectrum]] The [[isomorphism]]
+For $E$ a [[spectrum]] and $E^\bullet$ the [[generalized (Eilenberg-Steenrod) cohomology theory|generalized cohomology theory]] it [[Brown representability theorem|represents]]
 
 $$
-  H(-,E)\otimes \mathbb{R}
-  \;\;
-  \stackrel{\simeq}{\to}
-  \;\;
-  H(-,(\pi_* E)\otimes \mathbb{R})
+  E^\bullet(X) \;\simeq\; \pi_{-\bullet} Maps(X,E)
 $$
 
-that defines the Chern-character map is induced by a canonical cocycle on the [[spectrum]] $E$ that is called the **fundamental cocycle**.
-This is also called the _[[Chern-Dold character]]_ ([Rudyak 98, II.3.17](#Rudyak98) [Upmeier 14](#Upmeier14), [Gross 19, Def. 2.5](#Gross19)).
+the _[[Chern-Dold character]] for $E$_ ([Buchstaber 70](#Buchstaber70)) is the map induced by [[rationalization]] over the [[real numbers]]
 
-This is described for instance in section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of Hopkins-Singer [[Quadratic Functions in Geometry, Topology,and M-Theory]].
+$$
+  E \overset{L_{\mathbb{R}}}{\longrightarrow} E_{\mathbb{R}}
+$$
+
+i.e. is
+
+\[
+  \label{ChernDoldCharacter}
+  chd
+  \;\colon\;
+  E^\bullet(X)
+  \;\simeq\;
+  \pi_{-\bullet}Maps(X,E)
+  \overset{
+    \pi_{-\bullet}Maps(X,L_{\mathbb{R}})
+  }{\longrightarrow}
+  \pi_{-\bullet}Maps(X,E_{\mathbb{R}})
+  \;\simeq\;
+  E^\bullet_{\mathbb{E}}(X)
+  \;\simeq\;
+  H^\bullet(X, \pi_{\bullet}(E)\otimes_{\mathbb{Z}}\mathbb{R})
+  \,.
+\]
+
+The very last equivalence in (eq:ChernDoldCharacter) is due to [Dold 56, Cor. 4](#Dold56) (reviewed in detail in [Rudyak 98, II.3.17](#Rudyak98), see also  [Gross 19, Def. 2.5](#Gross19)).
+
+One place where this neat state of affairs (eq:ChernDoldCharacter) is made fully explicit is [Lind-Sati-Westerland 16, Def. 2.1](#LindSatiWesterland16). Many other references leave this statement somewhat in between the lines (e.g. [Buchstaber 70](#Buchstaber70), [Upmeier 14](#Upmeier14)) and, in addition, often without reference to Dold (e.g. [Hopkins-Singer 02, Sec. 4.8](#HopkinsSinger02), [Bunke 12, Def. 4.45](#Bunke12), [Bunke-Gepner 13, Def. 2.1](#BunkeGepner13), [Bunke-Nikolaus 14, p. 17](#BunkeNikolaus14)).
+
+Beware that some authors say _Chern-Dold character_ for the full map in (eq:ChernDoldCharacter) (e.g. 
+[Buchstaber 70](#Buchstaber70), 
+[Upmeier 14](#Upmeier14), [Lind-Sati-Westerland 16, Def. 2.1](#LindSatiWesterland16)), while other authors mean by this only that last equivalence in (eq:ChernDoldCharacter) (e.g. [Rudyak 98, II.3.17](#Rudyak98), [Gross 19, Def. 2.5](#Gross19)).
+
 
 ### For cohesive stable homotopy types
 
@@ -154,21 +181,40 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 ## References
 
-On the Chern character for [[generalized (Eilenberg-Steenrod) cohomology theory]]
+The Chern-Dold character for [[generalized (Eilenberg-Steenrod) cohomology theory]] is made fully explicit in 
+
+* {#Buchstaber70} V. M. Buchstaber, _The Chern–Dold character in cobordisms. I_, 
+
+  Russian original: Mat. Sb. (N.S.), 1970 Volume 83(125), Number 4(12), Pages 575–595 ([mathnet:3530](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=3530&option_lang=eng))
+
+  English translation: Mathematics of the USSR-Sbornik, Volume 12, Number 4, AMS 1970 ([doi:10.1070/SM1970v012n04ABEH000939](https://iopscience.iop.org/article/10.1070/SM1970v012n04ABEH000939))
+
+
+
+* {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], Section 2.1: _Twisted iterated algebraic K-theory and topological T-duality for sphere bundles_, Ann. K-Th. 5 (2020) 1-42 ([arXiv:1601.06285](https://arxiv.org/abs/1601.06285))
+
+It also appears, somewhat less explicit, in the following articles (all in the context of [[differential cohomology]]):
 
 * {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], Section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_, ([math.AT/0211216](http://arxiv.org/abs/math.AT/0211216)).
 
-  (in the context of [[differential cohomology]] via [[differential function complexes]])
+* {#Bunke12} [[Ulrich Bunke]], _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
 
 * {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], around def. 2.1 of: _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
 
-based on the [[Chern-Dold character]]:
+* {#Upmeier14} Markus Upmeier, _Refinements of the Chern-Dold Character: Cocycle Additions in Differential Cohomology_,  J. Homotopy Relat. Struct. 11, 291–307 (2016). ([arXiv:1404.2027](https://arxiv.org/abs/1404.2027), [doi:10.1007/s40062-015-0106-y](https://doi.org/10.1007/s40062-015-0106-y))
 
-* [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_, Matematika, 9:2 (1965), 8–14; Colloq. algebr. Topology, Aarhus Universitet, 1962, 2–9 ([mathnet:mat350](http://mi.mathnet.ru/eng/mat350)), reprinted in: J. Adams & G. Shepherd (Authors), _Algebraic Topology: A Student's Guide_ (London Mathematical Society Lecture Note Series, pp. 166-177). Cambridge: Cambridge University Press 1972 ([doi:10.1017/CBO9780511662584.015](https://doi.org/10.1017/CBO9780511662584.015)) 
+
+* {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_, Algebr. Geom. Topol. Volume 19, Number 4 (2019), 1631-1710. ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231), [euclid:euclid.agt/1566439272](https://projecteuclid.org/euclid.agt/1566439272))
+
+
+This is all based on 
+
+* {#Dold56} [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_, Matematika, 9:2 (1965), 8–14; Colloq. algebr. Topology, Aarhus Universitet, 1962, 2–9 ([mathnet:mat350](http://mi.mathnet.ru/eng/mat350)), reprinted in: J. Adams & G. Shepherd (Authors), _Algebraic Topology: A Student's Guide_ (London Mathematical Society Lecture Note Series, pp. 166-177). Cambridge: Cambridge University Press 1972 ([doi:10.1017/CBO9780511662584.015](https://doi.org/10.1017/CBO9780511662584.015)) 
+
+reviewed in
 
 * {#Rudyak98} [[Yuli Rudyak]], II.7.13 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
 
-* {#Upmeier14} Markus Upmeier, _Refinements of the Chern-Dold Character: Cocycle Additions in Differential Cohomology_,  J. Homotopy Relat. Struct. 11, 291–307 (2016). ([arXiv:1404.2027](https://arxiv.org/abs/1404.2027), [doi:10.1007/s40062-015-0106-y](https://doi.org/10.1007/s40062-015-0106-y))
 
 * {#Gross19} Jacob Gross, _The homology of moduli stacks of complexes_ ([arXiv:1907.03269](https://arxiv.org/abs/1907.03269))
 
