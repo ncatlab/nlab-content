@@ -13,6 +13,8 @@ Scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[he
 
 * [[Lara Anderson]], [[Andrei Constantin]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
+* [[James Gray]], Juntao Wang, _Jumping Spectra and Vanishing Couplings in Heterotic Line Bundle Standard Models_, JHEP11 (2019) 073 ([arXiv:1906.09373](https://arxiv.org/abs/1906.09373))
+
 On [[moduli stabilization]]:
 
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Burt Ovrut]], _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
