@@ -37,7 +37,7 @@ On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of s
 
 * [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_, JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
 
-* {#CHE18} Andrei Constantin, [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_ ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
+* {#CHE18} [[Andrei Constantin]], [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_, Physics Letters B Volume 792, 10 May 2019, Pages 258-262 ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
 * {#He18a} [[Yang-Hui He]], _The Calabi-Yau Landscape: from Geometry, to Physics, to Machine-Learning_ ([arXiv:1812.02893](https://arxiv.org/abs/1812.02893))
 
