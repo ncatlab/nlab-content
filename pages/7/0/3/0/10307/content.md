@@ -13,7 +13,7 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterot
 
 Scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[heterotic line bundle models]]:
 
-* [[Lara Anderson]], Andrei Constantin, [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
+* [[Lara Anderson]], [[Andrei Constantin]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
 
 On [[moduli stabilization]]:
