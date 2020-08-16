@@ -29,14 +29,16 @@ Phys. Rev. Lett. 96:121602, 2006 ([arXiv:hep-ph/0511035](https://arxiv.org/abs/h
 * [[Vincent Bouchard]], [[Ron Donagi]], _An SU(5) Heterotic Standard Model_, Phys. Lett. B633:783-791,2006 ([arXiv:hep-th/0512149](http://arxiv.org/abs/hep-th/0512149))
 
 
-A computer search through the "[[landscape of string theory vacua|landscape]]" of [[Calabi-Yau varieties]] showed severeal hundreds more such exact heterotic standard models (about one billionth of all CYs searched, and most of them arising as $SU(5)$-[[GUTs]]):
+A computer search through the "[[landscape of string theory vacua|landscape]]" of [[Calabi-Yau varieties]] showed severeal hundreds more such exact heterotic standard models (about one billionth of all CYs searched, and most of them arising as [[SU(5)]]-[[GUTs]]):
 
+general computational theory:
 
 * [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_, JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
 
+using [[heterotic line bundle models]]:
+
 * {#AndersonGrayLukasPalti11} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
-  (introducing [[heterotic line bundle]]-models)
 
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
 
@@ -50,6 +52,9 @@ A computer search through the "[[landscape of string theory vacua|landscape]]" o
 * {#CHE18} Andrei Constantin, [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_ ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
 * Alon E. Faraggi, Glyn Harries, Benjamin Percival, John Rizos, _Towards machine learning in the classification of $\mathbb{Z}_2 \times \mathbb{Z}_2$ orbifold compactifications ([arXiv:1901.04448](https://arxiv.org/abs/1901.04448))_
+
+* Magdalena Larfors, Robin Schneider, _Explore and Exploit with Heterotic Line Bundle Models_, Fortschritte der Physik Vol 86 Nr. 5 ([arXiv:2003.04817](https://arxiv.org/abs/2003.04817))
+
 
 
 The resulting database of compactifications is here:
