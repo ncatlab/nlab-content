@@ -631,7 +631,7 @@ The [[homotopy colimit]]-interpretation of category algebras over discrete categ
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv](http://arxiv.org/abs/0905.0731))
  {#FHLT}
 
-Groupoid algebras of geometrically discrete groupoids twisted by [[principal 2-bundles]]/[[bundle gerbes]]/[[central extension of groupoids|groupoid central extension]] is reviwed in
+Groupoid algebras of geometrically discrete groupoids twisted by [[principal 2-bundles]]/[[bundle gerbes]]/[[central extension of groupoids|groupoid central extension]] is reviewed in
 
 * Eitan Angel, _A Geometric Construction of Cyclic Cocycles on Twisted Convolution Algebras_, PhD thesis (2010)
 
