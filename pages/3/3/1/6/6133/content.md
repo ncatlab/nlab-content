@@ -8,5 +8,11 @@
 
 * [[William Lawvere]], _obituary message to cat list October 2011_ ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/6961))
 
+## Selected writings
+
+Introducing the [[Dold-Chern character]]:
+
+* [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_, Matematika, 9:2 (1965), 8–14; Colloq. algebr. Topology, Aarhus Universitet, 1962, 2–9 ([mathnet:mat350](http://mi.mathnet.ru/eng/mat350)), reprinted in: J. Adams & G. Shepherd (Authors), _Algebraic Topology: A Student's Guide_ (London Mathematical Society Lecture Note Series, pp. 166-177). Cambridge: Cambridge University Press 1972 ([doi:10.1017/CBO9780511662584.015](https://doi.org/10.1017/CBO9780511662584.015)) 
+
 
 category: people
