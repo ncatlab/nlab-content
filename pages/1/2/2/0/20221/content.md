@@ -93,7 +93,7 @@ between [[Spin(6)]] and [[SU(4)]], reflecting, under the [[classification of sim
 
 [[!include low dimensional rotation groups -- table]]
 
-* [[SU(2)]], [[SU(3)]]
+* [[U(1)]], [[SU(2)]], [[SU(3)]], [[SU(5)]]
 
 \linebreak
 
