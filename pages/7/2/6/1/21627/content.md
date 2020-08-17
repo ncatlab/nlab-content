@@ -37,14 +37,14 @@ general computational theory:
 
 using [[heterotic line bundle models]]:
 
-* {#AndersonGrayLukasPalti11} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
+* {#AndersonGrayLukasPalti11} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_, Phys. Rev. D 84, 106005 (2011) ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
 
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
 
 * [[Lara Anderson]], [[Andrei Constantin]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
-* [[Yang-Hui He]], Seung-Joo Lee, [[Andre Lukas]], Chuang Sun, _Heterotic Model Building: 16 Special Manifolds_ ([arXiv:1309.0223](http://arxiv.org/abs/1309.0223))
+* [[Yang-Hui He]], Seung-Joo Lee, [[Andre Lukas]], Chuang Sun, _Heterotic Model Building: 16 Special Manifolds_, J. High Energ. Phys. 2014, 77 (2014) ([arXiv:1309.0223](http://arxiv.org/abs/1309.0223))
 
 * Stefan Groot Nibbelink, Orestis Loukas, Fabian Ruehle, Patrick K.S. Vaudrevange, _Infinite number of MSSMs from heterotic line bundles?_, Phys. Rev. D 92, 046002 (2015) ([arXiv:1506.00879](https://arxiv.org/abs/1506.00879))
 
@@ -60,7 +60,7 @@ Volume 792, 10 May 2019, Pages 258-262 ([arXiv:1810.00444](https://arxiv.org/abs
 
 
 
-The resulting database of compactifications is here:
+The resulting database of [[heterotic line bundle models]] is here:
 
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
 
