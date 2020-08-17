@@ -19,7 +19,7 @@ On computation of [[Yukawa couplings]] in [[heterotic string theory]]:
 
 On the [[landscape of string theory vacua]] for [[heterotic string theory]] via [[heterotic line bundle models]];
 
-* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
+* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_, Phys. Rev. D 84, 106005 (2011) ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
 
