@@ -17,7 +17,9 @@
 
 ## Idea
 
-Among [[sequential spectrum|sequential]] [[pre-spectra]] $X$, the $\Omega$-spectra are those for which the structure map $X_n \to \Omega X_{n+1}$ is a [[weak homotopy equivalence]]  (beware that some authors require a [[homeomorphism]] instead and say "weak $\Omega$-spectrum", for the more general case).
+Among [[sequential spectrum|sequential]] [[pre-spectra]] $X$, the $\Omega$-spectra are those for which the structure maps $X_n \to \Omega X_{n+1}$ (from each component space to the [[based loop space]] of the next component space) are a [[weak homotopy equivalence]].  
+
+(Beware that some authors require a [[homeomorphism]] instead and say "weak $\Omega$-spectrum", for the more general case).
 
 Omega-spectra are particularly good representatives among [[pre-spectra]] of the objects of the [[stable (∞,1)-category of spectra]], hence of the [[stable homotopy category]]. For instance they are (after [[geometric realization]]) the [[fibrant objects]] of the [[Bousfield-Friedlander model structure]].
 
