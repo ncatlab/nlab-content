@@ -502,11 +502,62 @@ Kahle's paper is very much about the representability of formulas as proposition
 
 Since proposition validity ($P(x)\;\coloneqq\;T(x) \vee T(\dot{\not} x)$) uses only positive occurrences of $T$, it's representable. Namely, ($T(\dot{\not}(\dot{\not} x \dot{\wedge} x)) \leftrightarrow (T(x) \vee T(\dot{\not} x))$). So with appropriate definitions of disjunction and implication for classical logic, the representation could also be ($x \dot{\vee} \dot{\not} x$) or ($x \dot{\to} x$). So the idea is essentially the same as representing [type validity](#TpOK) as a type in CompLF: use some tautology that mentions the thing that should be valid. (Our particular definition, ($A \supset \top$) could be imitated in Frege structures as ($x \dot{\to} (x \dot{=} x)$), but this *doesn't* work, because it's always true, due to the parallel behavior of Frege structures connectives, rather than the short-circuiting behavior of CompLF type constructors. Clearly not *all* tautologies do the trick.)
 
-In Frege structures, too, proposition validity is [non-negatable](#NonNegate). In Frege structures, this can be expressed quite clearly as $\not T(\dot{\not}(x \dot{\to} x))$. In Frege structures terminology, this is saying that ($x \dot{\to} x$) is "not false". It's either "true" (combined true) or not a proposition.
+In Frege structures, too, proposition validity is [non-negatable](#NonNegate). With the truth predicate, this can be expressed quite clearly as $\not T(\dot{\not}(x \dot{\to} x))$. In Frege structures terminology, this is saying that ($x \dot{\to} x$) is "not false". It's either "true" (combined true) or not a proposition.
 
 So intuitively, the problem with representing negative occurrences of $T$ without stratification is that that would entail assuming proposition validity in a proposition. But you can't, since proposition validity is non-negatable.
 
 ### Fitch-Scott Partial Logic
+
+[[Dana Scott]] wrote [a note](#ScottComb) in which he sketched a system very similar to Frege structures. This was prior to Peter Aczel's paper that coined "Frege structures". Scott attributes key ideas of the system to Fitch, who worked on foundational logics based on combinators.
+
+For anyone trying to learn about Frege structures on the internet, it seems like many of the papers about it are paywalled. Scott's note and [Kahle's paper](#KahleFSU) are a couple of (currently, Aug 2020) open access sources. Kahle cited Aczel on Frege structures, and didn't give much explanation of the basics. Hopefully that was done by Aczel, but that paper is paywalled.
+
+Scott's note seems like a good explanation of the main ideas of Frege structures, since his system is so similar. We covered Kahle's version first because—if not for the above discussion of the approach using a formal truth predicate—Frege structures might seem quite distant from Nuprl-like systems, other than a basis on the untyped lambda calculus.
+
+#### Paradox and Partiality
+
+Scott explains how—due to the way the system combines untyped lambda calculus and logical operations—there *would* be an inconsistency due to the [[liar paradox|liar]]/[[Russell's paradox|Russell]] paradox, except that the formula which seems to contradict itself turns out to be neither true nor false. In the terminology of Frege structures, it's not a proposition. (For CompLF, it can similarly be shown that something looking like a self-contradicting type is not a type. Formalizing this requires the logical framework, since [type validity is non-negatable](#TpOK).)
+
+But Scott's system doesn't have the distinct notions of first-order formula vs proposition from Kahle's truth theory formulation of Frege structures. In Scott's terminology, the formulas are apparently just the terms that one is treating as formulas, by regarding them as possibly having a truth value. Because some formulas cannot have a truth value ("truth-value gaps"), the system is regarded as a partial logic: some formulas fail to denote a truth value.
+
+Scott analyzes this partial logic as a three-valued logic, with an undefined "value" below the usual values true and false. The significance of ordering undefined below true and false (like in the flat domain of partial booleans) is that the connectives need to be monotone. (And quantifiers too, which work like infinitary connectives.)
+
+Scott gives three-valued truth tables for the connectives. We have come a long way from type theory, with its typing and type validity judgments, but hopefully the connection is still in sight: the possibility of a formula being undefined corresponds to the possibility of raw type expressions for which type validity is not derivable. Truth tables for type constructors seems like too much to ask for, but truth tables for partial logic still shows the issue of presuppositions in a new light.
+
+#### Squadge
+
+There's an unusual primitive connective in Scott's system, which is not in Kahle's formulation of Frege structures: a "squadge" connective, which "gives the common part of the *and* and the *or*." That is, it has the same value as conjunction and disjunction, when they agree, and is otherwise undefined. In case that does not seem like an intuitive definition, it also has the same value as its inputs, when they agree, and is otherwise undefined. Squadge is supposedly necessary, in the purely propositional part of partial logic, for defining all the monotone connectives. It plays a role analogous to CompLF's $TpV$ and $PreSup$, allowing the user to [strategically make formulas undefined](#StrTpV). But with an undefined formula already available due to the liar/Russell paradox, squadge turns out to be redundant, at least semantically:
+
+$r\;\coloneqq\;\lambda x.~(x\,x)$  
+$*\;\coloneqq\;r\,r$  
+$PreSup(\phi)\;\coloneqq\;\phi \vee *$  
+$TpV(\phi | \psi)\;\coloneqq\;((\psi \to \psi) \to \phi) \wedge (\psi \to \psi)$
+
+$\phi\,squadge\,\psi\;\coloneqq\;TpV(\phi | PreSup(\phi \leftrightarrow \psi))$
+
+By defining squadge in terms of $TpV$ and $PreSup$, which work like (the classical special cases of) the CompLF counterparts, it's clear that CompLF also has squadge. But CompLF doesn't have the parallel versions of conjunction, disjunction, or the quantifiers, that Frege structures do! Meanwhile Frege structures *can* define (the classical special cases of) CompLF's connectives. That is, short-circuiting conjunction and implication, and strict disjunction and quantifiers.
+
+#### Partial Sequent Calculus
+
+Scott gives a proof system for his partial logic: a modified sequent calculus where each side of the turnstile is a set of *terms*. These terms are treated like formulas in that the derivation rules use connectives and quantifiers on them. So the situation is analogous to that of a deductive system for dependent type theory, based on raw terms: certain terms in the rules are treated like types. Just as dependent typing rules need to cope with types that are not valid though, the sequent calculus for partial logic needs to cope with truth-value gaps. The particulars of the rules for partial sequent calculus are quite different from dependent typing rules, though.
+
+#### Recursive Classes
+
+Scott sketches a representability metatheorem similar to Kahle's Proposition 5, but more exciting: by combining a [[fixed-point combinator]] with the quantifiers and connectives, the system can represent recursive first-order predicates in which the recurrences are positive. Implicitly, the predicate can also use combined truth positively, because this just means using some term as a formula.
+
+The predicates obtained in this way are usually non-negatable. The fact that you can meaningfully prove them tends to rely on the non-strictness of connectives and quantifiers, to avoid infinite descent down a recursion that doesn't terminate. (Branching on the argument would allow guiding the recursion to a base case, to get proofs. But this would not arise from a plain first-order definition. Also, the pure untyped lambda calculus doesn't provide a way to branch on arbitrary objects. Moreover, even if the recursion terminates, this does not help if you can't prove it, which would usually require induction, and Scott's system has no such principle.)
+
+Due to being non-negatable, these recursive predicates are more like defined judgment forms than types, in CompLF terminology. Or you could think of them as proper classes. But the properness is certainly not about cardinality.
+
+The use of general recursion to define non-negatable semantic judgment forms seems like it should work in CompLF too, but as with Proposition 5, you don't get as strong a result due to the lack of parallel connectives. But in the first place, it's not clear that these non-negatable recursive definitions are actually good for much, since you can't reason about them by induction. Any sort of useful interaction with other parts of the system would probably need to be arranged very cleverly.
+
+#### Dependent Types
+
+Scott encodes types as what Kahle called propositional functions: functions whose applications always have a truth value. These collect into a class, $V$, expressing that something is a propositional function. $V$ itself is not a type, but is closed under the construction of $\Pi$ and $\Sigma$ types, which Scott defines with the now-usual logical predicates clauses (except using classical logic to write the usual implication as disjunction). He shows some good derived rules for $\Pi$.
+
+Encoding dependent type systems into Frege structures and [[explicit mathematics]] became a research topic later on. It doesn't seem to have led to a nice [[proof assistant]] for working with dependently typed constructions, though.
+
+Finally, Scott sketches a sort of universe hierarchy, based on stratifying the classes of true/false objects. This is somewhat like the universes of Kahle, but sounds more like the "truth levels" of Cantini that Kahle cites.
 
 ### Free Logic
 
