@@ -387,7 +387,7 @@ It seems like a better idea to postpone a serious attempt at a bidirectional rul
 
 Sometimes though, even for judgment-level reasoning, bidirectional rules can avoid a large number of very silly subgoals, like when introducing an element of a deeply nested type. In this case, the unidirectional rules would make you prove many copies of the same type validity goals, and bidirectional rules are the perfect plumbing.
 
-## Strengthening Type Validity
+## Strengthening Type Validity {#StrTpV}
 
 Most of the primitive type constructors have inversions for their formation rules. When deriving rules for a new "type constructor" defined using PER comprehension, an extra trick or two are needed to get the inversion rules you want.
 
@@ -530,12 +530,14 @@ There's an unusual primitive connective in Scott's system, which is not in Kahle
 
 $r\;\coloneqq\;\lambda x.~(x\,x)$  
 $*\;\coloneqq\;r\,r$  
-$PreSup(\phi)\;\coloneqq\;\phi \vee *$  
-$TpV(\phi | \psi)\;\coloneqq\;((\psi \to \psi) \to \phi) \wedge (\psi \to \psi)$
+$PreSup(\phi)\;\coloneqq\;\phi \vee *$
 
-$\phi\,squadge\,\psi\;\coloneqq\;TpV(\phi | PreSup(\phi \leftrightarrow \psi))$
+$PropOK(\phi)\;\coloneqq\;\phi \to \phi$  
+$PropV(\phi | \psi)\;\coloneqq\;(PropOK(\psi) \to \phi) \wedge PropOK(\psi)$
 
-By defining squadge in terms of $TpV$ and $PreSup$, which work like (the classical special cases of) the CompLF counterparts, it's clear that CompLF also has squadge. But CompLF doesn't have the parallel versions of conjunction, disjunction, or the quantifiers, that Frege structures do! Meanwhile Frege structures *can* define (the classical special cases of) CompLF's connectives. That is, short-circuiting conjunction and implication, and strict disjunction and quantifiers.
+$\phi\,squadge\,\psi\;\coloneqq\;PropV(\phi | PreSup(\phi \leftrightarrow \psi))$
+
+By defining squadge in terms of $PropV$ and $PreSup$, which work like (the classical special cases of) the CompLF counterparts, it's clear that CompLF also has squadge. But CompLF doesn't have the parallel versions of conjunction, disjunction, or the quantifiers, that Frege structures do! Meanwhile Frege structures *can* define (the classical special cases of) CompLF's connectives. That is, short-circuiting conjunction and implication, and strict disjunction and quantifiers.
 
 #### Partial Sequent Calculus
 
@@ -563,6 +565,8 @@ Finally, Scott sketches a sort of universe hierarchy, based on stratifying the c
 
 ## References
 
+* {#ScottComb} [[Dana Scott]], _Combinators and Classes_, Lambda Calculus and Computer Science Theory (LCCST) 1975 ([web](https://www.researchgate.net/publication/221200880_Combinators_and_classes))
+
 * {#KCThesis} Karl Crary, _Type-Theoretic Methodology for Practical Programming Languages_, 1998 PhD thesis ([web](http://www.nuprl.org/KB/show.php?ShowPub=Cra98), [pdf](http://www.nuprl.org/documents/Crary/Thesis-TypeTheoretic.pdf))
 
-* {#KahleFSU} Reinhard Kahle, _Universes over Frege Structures_, Annals of Pure and Applied Logic (2003)
+* {#KahleFSU} Reinhard Kahle, _Universes over Frege Structures_, Annals of Pure and Applied Logic (2003) ([web](https://www.sciencedirect.com/science/article/pii/S0168007202000404))
