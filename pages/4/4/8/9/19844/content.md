@@ -565,6 +565,14 @@ Discussion of possible $b \to d$ anomalies:
 
 * Aleksey V. Rusov, _Probing New Physics in $b \to d$ Transitions_ ([arXiv:1911.12819](https://arxiv.org/abs/1911.12819))
 
+### In hadronic decays
+
+
+* Marzia Bordone, Nico Gubernari, Tobias Huber, Martin Jung, Danny van Dyk, _A puzzle in B¯0(s)→D+(s){π−,K−} decays and extraction of the fs/fd fragmentation fraction_ ([arXiv:2007.10338](https://arxiv.org/abs/2007.10338))
+
+* Syuhei Iguro, Teppei Kitahara, _Implications for new physics from novel puzzle in B¯0(s)→D(∗)+(s){π−,K−} decays_ ([arXiv:2008.01086](https://arxiv.org/abs/2008.01086))
+
+
 
 ### Relation to $(g-2)$-anomalies
 
