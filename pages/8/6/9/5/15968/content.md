@@ -1,3 +1,4 @@
+[[!redirects Topos Theory 1977]]
 > Incidentally, the reaction of one Cambridge colleague on learning
 that I'd appeared as a Dover reprint was 'I didn't know you were dead'.  Peter Johnstone[^mail]
 
@@ -31,7 +32,7 @@ It has also several unique features in comparison with its successor volumes in 
 
 * [[Robert Seely]], _Review, P. T. Johnstone, Topos Theory_ , JSL **47** no.2 (1982) pp.448-450. ([draft](www.math.mcgill.ca/rags/JSL/PTJ.pdf))
 
-[^mail]: [mail to catlist March 2014](http://comments.gmane.org/gmane.science.mathematics.categories/8044).
+[^mail]: [mail to catlist March 2014](http://comments.gmane.io/gmane.science.mathematics.categories/8044).
 
 
 [[!redirects Johnstone Topos Theory]]
