@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -159,13 +158,17 @@ A little bit a long these lines for [[diffeological space]]s is also in
 
 Standard textbook references include
 
-* [[Raoul Bott]], Loring Tu, _Algebraic topology and differential forms_,
+* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Springer 1982 (where?)
 
 * [[M M Postnikov]], Lectures on geometry, vol. III, Differentiable manifolds  
 
 * Arne Lorenz, _Abstract de Rham theorem_, [pdf slides](http://wwwb.math.rwth-aachen.de/~arne/Talks/deRham.pdf) (exposition of the standard de Rham theorem)
 
-In analytic geometry also 
+In the broader context of [[rational homotopy theory]]:
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Theorem 10.15 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
+
+In [[analytic geometry]] also 
 
 * M. E. Herrera, _De Rham theorems on semianalytic sets_, Bull. Amer. Math. Soc. __7__ 3 (1967) 414&#8211;418, [doi](http://dx.doi.org/10.1090/S0002-9904-1967-11772-5), [MR214094](http://www.ams.org/mathscinet-getitem?mr=214094)
 
