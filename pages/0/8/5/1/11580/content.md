@@ -7,6 +7,8 @@ The "rising sea" is a metaphor due to [[Alexander Grothendieck]] (see the quote 
 
 Following this metaphor, "The Rising Sea" was chosen as the name of a [website](http://therisingsea.org/) of [[Daniel Murfet]] with notes on [[algebraic geometry]] as developed in the school of Grothendieck. 
 
+Additionally, "The Rising Sea" is the name of a [textbook on algebraic geometry](http://math.stanford.edu/~vakil/216blog/FOAGnov1817public.pdf)
+by [[Ravi Vakil]].
 
 ## Idea
  {#Idea}
