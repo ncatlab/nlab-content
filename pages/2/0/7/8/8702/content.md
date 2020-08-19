@@ -322,6 +322,7 @@ The _Tychonoff topology_ is named after [[A. N. Tychonoff]].
 
 * [[Florian Herzig]], _Product topology_ ([pdf](http://www.math.toronto.edu/~herzig/MAT327-lecturenotes08.pdf))
 
+* {#Terilla14} [[John Terilla]],  _Notes on categories, the subspace topology and the product topology_ 2014 ([pdf](https://math.mit.edu/~jhirsh/terilla_subspace_quotient.pdf))
 
 
 [[!redirects product topological spaces]]
