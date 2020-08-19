@@ -19,6 +19,11 @@ His students include
 
 * _[[Gauge Field Theory and Complex Geometry]]_
 
+On [[homological algebra]] and [[homotopical algebra]] (via a [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
+
+* [[Sergei Gelfand]], [[Yuri Manin]], _[[Methods of homological algebra]]_,   transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
+
+
 On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
 
 * [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
