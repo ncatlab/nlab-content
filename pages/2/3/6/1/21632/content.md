@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _twistor fibration_ $\mathbb{C}P^3 \to S^4$ ([Atiyah 79, Sec. III.1](#Atiyah79), see also [Bryant 82](#Bryant82), [ArmstrongSalamon14](#ArmstrongSalamon14), [ABS 19](#ABS19)), also called, in its [[coset space]]-version $SO(5)/U(2) \to SO(5)/SO(4)$, the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03) for this usuage, see [Nordstrom 08, Lemma 2.31](#Nordstrom08) for review of Calabi's construction [Calabi 67](#Calabi67), [Calabi 68](#Calabi68)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+The _twistor fibration_ $\mathbb{C}P^3 \to S^4$ ([Atiyah 79, Sec. III.1](#Atiyah79), see also [Bryant 82](#Bryant82), [ArmstrongSalamon14](#ArmstrongSalamon14), [ABS 19](#ABS19)), also called, in its [[coset space]]-version $SO(5)/U(2) \to SO(5)/SO(4)$, the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03) for this usage, see [Nordstrom 08, Lemma 2.31](#Nordstrom08) for review of Calabi's construction [Calabi 67](#Calabi67), [Calabi 68](#Calabi68)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -52,6 +52,14 @@ $$
 $$
 
 for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
+
+## Generalizations
+
+It is possible to define a twistor fibration over each $S^{2n}$, where the resulting manifold is a [[complex manifold]] endowed with a [[holomorphic]] $n$-plane field transverse to the fibers of the mapping. Namely, writing $S^{2n}=SO(2n+1)/SO(2n)$, then, using the inclusion $U(n) \subset SO(2n)$, one has the coset fibration 
+$$Z_n=SO(2n+1)/U(n) \to SO(2n+1)/SO(2n).$$
+The manifold $Z_n$ canonically has the structure of a complex manifold and is known as the _twistor space_ of $S^{2n}$. 
+
+There are generalizations of this picture for each of the so-called 'inner' [[symmetric spaces]] $G/K$ where $K$ is the fixed subgroup of an [[involution]] that is an [[inner automorphism]] of $G$. The twistor fibration is of the form $G/U \to G/K$ where $U \subset K$ is a subgroup such that $K/U$ (the typical fiber of the fibration) is an Hermitian symmetric space. There are also other kinds of twistor spaces over $G/K$ that are [[flag manifolds]] of the form $G/T$ where $T \subset K$ is a [[maximal torus]]. (For these generalizations see [Bryant 85](#Bryant85).)
 
 ## Related concepts
 
@@ -88,6 +96,8 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 * {#ArmstrongSalamon14} John Armstrong, [[Simon Salamon]], _Twistor Topology of the Fermat Cubic_, SIGMA 10 (2014), 061, 12 pages ([arXiv:1310.7150](https://arxiv.org/abs/1310.7150))
 
 * {#ABS19} [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], Section 6 of: _A circle quotient of a $G_2$ cone_ ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518))
+
+* {#Bryant85} [[Robert Bryant]], _Lie groups and twistor spaces_, Duke Mathematical Journal 52 (1985), pp. 223–261.
 
 
 
