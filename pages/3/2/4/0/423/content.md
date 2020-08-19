@@ -1551,8 +1551,11 @@ Introductory textbooks to topology include
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
-* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
+* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989) ([pdf](https://pdfs.semanticscholar.org/6da4/9fba6462a5c3e6b528a8b3e8be3a1c1e743d.pdf))
 
+* {#BradleyBrysonTerilla20} [[Tai-Danae Bradley]], [[Tyler Bryson]], [[John Terilla]], _Topology -- A categorical approach_, MIT Press 2020 ([ISBN:9780262539357](https://mitpress.mit.edu/books/topology), [web version](https://topology.pubpub.org/))
+
+  > (with emphasis on tools from [[category theory]])
 
 See also
 
