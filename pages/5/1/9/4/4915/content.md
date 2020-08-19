@@ -146,7 +146,7 @@ See also _[[higher category theory and physics]]_.
 
 By the end of the 19th century a fairly complete, powerful and elegant mathematical formulation of [[classical mechanics]]: in terms of [[symplectic geometry]]. By the middle of the 20th century, the passage to the corresponding quantum theory was pretty well modeled by the [[geometric quantization]] of symplectic geometries.
 
-But there were some lose ends. Notably the fully general theory involved [[Poisson manifold]]s, not just symplectic manifolds. And the mechanics of relativistic [[classical field theory]] was realized to be more naturally described by [[multisymplectic geometry]].
+But there were some loose ends. Notably the fully general theory involved [[Poisson manifold]]s, not just symplectic manifolds. And the mechanics of relativistic [[classical field theory]] was realized to be more naturally described by [[multisymplectic geometry]].
 
 Both these generalizations have a natural common higher categorical formulation: that of [[Lie ∞-algebroid]]s: a Poisson geometry is naturally encoded in its corresponding [[Poisson Lie algebroid]]. Its higher categorical versions -- the [[n-symplectic manifold]]s -- encode the corresponding multisymplectic geometry.
 
