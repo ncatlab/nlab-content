@@ -573,6 +573,8 @@ Discussion of possible $b \to d$ anomalies:
 * Syuhei Iguro, Teppei Kitahara, _Implications for new physics from novel puzzle in B¯0(s)→D(∗)+(s){π−,K−} decays_ ([arXiv:2008.01086](https://arxiv.org/abs/2008.01086))
 
 
+* Eleftheria Malami, _Exploring New Physics in B→πK Decays_ ([arXiv:2008.08468](https://arxiv.org/abs/2008.08468))
+
 
 ### Relation to $(g-2)$-anomalies
 
