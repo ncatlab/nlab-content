@@ -14,7 +14,7 @@
 =--
 
 
-#The category $CRing$#
+#Contents#
 * table of contents
 {:toc}
 
