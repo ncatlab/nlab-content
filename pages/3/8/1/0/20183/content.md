@@ -236,7 +236,7 @@ The rational homotopy type of these [[connected components]] of the [[mapping sp
 +-- {: .num_prop #RationalTypeOfMappingSpaceSnToSn}
 ###### Proposition     
 
-Let $n \in \mathbb{N}$ be a [[natural number]] and $fcolon S^n \to S^n$ a [[continuous function]] from the [[n-sphere]] to itself. Then the [[connected component]] $Maps_f\big( S^n, S^n\big)$ of the [[mapping space]] which contains this map has the following [[rational homotopy theory|rational]] [[homotopy type]]:
+Let $n \in \mathbb{N}$ be a [[natural number]] and $f \colon S^n \to S^n$ a [[continuous function]] from the [[n-sphere]] to itself. Then the [[connected component]] $Maps_f\big( S^n, S^n\big)$ of the [[mapping space]] which contains this map has the following [[rational homotopy theory|rational]] [[homotopy type]]:
 
 \[
   \label{RationalHomotopyTypeOfMappingSpacesSnToSn}
