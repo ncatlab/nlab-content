@@ -40,7 +40,7 @@ $$
   A \otimes_R B \simeq A \coprod B \in Comm Alg_R = Comm R \downarrow \mathsf{Rig}
 ;$$
 
-hence the [[pushout]] in [[Comm Ring]] (or [[Comm Rig]])
+hence the [[pushout]] in [[CRing]]
 
 $$
   \array{
@@ -56,6 +56,8 @@ $$
   }
   \,.
 $$
+
+See at _[pushouts of commutative monoids](category+of+monoids#PushoutOfCommutativeMonoids)_
 
 ## Properties
 
