@@ -243,13 +243,13 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
-The cofibrations in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the [[retract]]s of [[relative  Sullivan algebras]] $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
+The cofibrations in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the [[retracts]] of [[relative  Sullivan algebras]] $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
 
 Accordingly, the cofibrant objects in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
 
 =--
 
-([Bousfield-Gugenheim 76, Prop. 7.5](#BousfieldGugenheim76)[Gelfand-Manin 96., Prop. V.5.4](#GelfandManin96))
+([Bousfield-Gugenheim 76, Prop. 7.11](#BousfieldGugenheim76)[Gelfand-Manin 96., Prop. V.5.4](#GelfandManin96))
 
 #### Simplicial hom-complexes
  {#HomComplexes}
