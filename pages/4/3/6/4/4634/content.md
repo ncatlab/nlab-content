@@ -83,7 +83,7 @@ with the [[stable (infinity,1)-category|stable]] [[compactly generated (∞,1)-c
 +-- {: .num_defn #MotitaEquivalence}
 ###### Definition
 
-Say that a morphism in $Cat_\inty^{ex}$ is a [[Morita equivalence]] if it is an $Idem$-equivalence, hence if it becomes an [[equivalence of (∞,1)-categories]] under idempotent completion, prop. \ref{IdempotentCompletion}.
+Say that a morphism in $Cat_\infty^{ex}$ is a [[Morita equivalence]] if it is an $Idem$-equivalence, hence if it becomes an [[equivalence of (∞,1)-categories]] under idempotent completion, prop. \ref{IdempotentCompletion}.
 
 
 =--
@@ -184,7 +184,7 @@ Thinking of these as categories of [[quasicoherent sheaves]] on some spaces (by 
 ### Relation to Chow motives
  {#RelationToChowMotives}
 
-The category of ordinary [[Chow motives]], after factoizing out the action of the [[Tate motive]] essentially sits inside that of noncommutative Chow motives. This is recalled as  ([Tabuada 11, theorem 4.6](#Tabuada11)). For more see ([Tabuada 11 ChowNCG](#Tabuada11Chow)).
+The category of ordinary [[Chow motives]], after factorizing out the action of the [[Tate motive]] essentially sits inside that of noncommutative Chow motives. This is recalled as  ([Tabuada 11, theorem 4.6](#Tabuada11)). For more see ([Tabuada 11 ChowNCG](#Tabuada11Chow)).
 
 This relation is best understood as being exhibited by [[K-motives]], see there.
 
