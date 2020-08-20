@@ -53,6 +53,8 @@ for the [[category]] of [[differential graded-commutative algebras]] over $k$ in
 
 =--
 
+([Gelfand-Manin 96, V.3.1](#GelfandManin96))
+
 +-- {: .num_defn #dgcCochainAlgebraInNonNegDegreeOfFiniteType}
 ###### Definition
 **(finite type)**
