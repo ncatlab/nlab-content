@@ -54,7 +54,7 @@ or $T'f\circ T'\phi_M\circ\eta'_M = T'f\circ \psi_{SM}\circ\eta_M$. Given $\phi$
 $\psi  = T'\epsilon \circ T'\phi T \circ \eta'T$, i.e.
 
 $$
-T\stackrel{\eta' T}\longrightarrow T'S' T\stackrel{T'\psi T}\longrightarrow T' S T \stackrel{T'\epsilon}\longrightarrow T'
+T\stackrel{\eta' T}\longrightarrow T'S' T\stackrel{T'\phi T}\longrightarrow T' S T \stackrel{T'\epsilon}\longrightarrow T'
 $$
 and checks that it works. The inverse is similarly given by the composition
 $$
