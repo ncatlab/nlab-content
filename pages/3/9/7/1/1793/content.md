@@ -1,4 +1,4 @@
-+-- {: .rightHandSide}
+ +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Model category theory
@@ -102,8 +102,8 @@ called the **projective model structure**.
 =--
 
 The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
-([Quillen II, Section 4, pages II.4.11, II.4.12](#Quillen)).
-An account is given for instance in ([Dungan, 2.4.2, proof in section 2.5](#Dungan)).
+([Quillen 67, II.4, pages II.4.11, II.4.12](#Quillen67)).
+See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06) [Dungan, 2.4.2, proof in section 2.5](#Dungan)).
 
 
 ##### Injective structure on cochain complexes
@@ -118,7 +118,7 @@ There is a [[model category]] structure on non-negatively graded [[cochain compl
 
 * weak equivalences are [[quasi-isomorphisms]];
 
-* cofibrations are the morphisms that are [[monomorphism]]s in $R Mod$ in each _positive_ degree;
+* cofibrations are the morphisms that are [[monomorphisms]] in $R Mod$ in each _positive_ degree;
 
 * fibrations are degreewise [[epimorphism]]s with [[injective object|injective]] [[kernel]],
 
@@ -210,25 +210,22 @@ This is the model structure which induces the [[transferred model structure|tran
 
 =--
 
-#### Projective model structure on cochain complexes in non-negative degrees
+#### Projective model structure on connective cochain complexes 
   {#CochainNonNegProj}
 
-We discuss a model structure on cochain complexes of abelian groups
-in which the fibrations are the degreewise epis. This
-follows an analogous proof in ([Jardine](#Jardine)).
+We discuss a model structure on connective cochain complexes of abelian groups in which the fibrations are the degreewise epis. This follows an analogous proof in ([Jardine 97](model+structure+on+dg-algebras#Jardine97)).
 
 This _projective_ model structure on cochain complexes in non-negative degree is the one that induces via [[transferred model structure|transfer]] the corresponding [[model structure on dg-algebras]] that plays the central role in the Sullivan model of [[rational homotopy theory]].
 
-+-- {: .num_theorem}
++-- {: .num_theorem #ProjectiveModelStructureOnConnectiveCochainComplexes}
 ###### Theorem
-**(projective model structure on cochain complexs in non-negative degree)**
+**(projective model structure on connective cochain complexs )**
 
 The category $Ch^{\bullet \geq 0}(Ab)$ of non-negatively graded cochain complexes of [[abelian groups]] becomes a [[model category]] with
 
 * fibrations the degreewise surjections;
 
 * weak equivalences the [[quasi-isomorphism]]s.
-
 
 Moreover this is a [[simplicial model category]]-structure
 with respect to the canonical structure of an [[sSet]]-[[enriched category]]
@@ -237,6 +234,7 @@ $Ch^\bullet_+(Ab) \simeq Ab^\Delta$ by the fact that $Ab^\Delta$  is a [[categor
 
 =--
 
+The first part of this theorem is claimed, without proof, in [Hess 06, p. 6](#Hess06) and [Castiglioni-Cortinas 03, Def. 4.7](#CastiglioniCortinas03).
 
 +-- {: .proof}
 ###### Proof
@@ -247,7 +245,7 @@ at [[model structure on cosimplicial abelian groups]].
 
 =--
 
-We record a detailed proof of the model structure on $Ch^{\bullet \geq 0}(Ab)$ with fibrations the degreewise surjections, following the appendix of ([Stel](#Stel)).
+We record a detailed proof of the model structure on $Ch^{\bullet \geq 0}(Ab)$ with fibrations the degreewise surjections, following the appendix of ([Stel 10](#Stel)).
 
 
 As usual, for $n \in \mathbb{N}$ write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and for $n \geq 1$  write $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
@@ -986,10 +984,21 @@ For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an 
 
 ### For bounded chain complexes
 
-An original source for the standard model structure on $Ch^{\bullet \geq 0}(A)$ with $A$ having enough injectives is
+The projective model structure on connective chain complexes (Theorem \ref{ProjectiveModelStructure}) is due to 
 
-* [[Dan Quillen]], _Homotopical Algebra_ , Lecture Notes in Mathematics, vol. 43, Springer-Verlag, 1967
-{#Quillen}
+* {#Quillen67} [[Daniel Quillen]], end of Section II.4 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+
+see also
+
+* {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kirsten Schemmerhorn]], Theorem 1.5 in: _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
+
+The projective model structure on connective *co*chain complexes (Theorem \ref{ProjectiveModelStructureOnConnectiveCochainComplexes}) is claimed, without proof, in:
+
+* {#Hess06} [[Kathryn Hess]], p. 6 of _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
+
+* {#CastiglioniCortinas03} J.L. Castiglioni, G. Corti&#241;as, Def. 4.7 of: _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289), [doi:10.1016/j.jpaa.2003.11.009](https://doi.org/10.1016/j.jpaa.2003.11.009))
+
+
 
 
 Of course the description of model categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas.
