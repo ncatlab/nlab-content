@@ -1041,7 +1041,7 @@ The Quillen equivalence between connective chain dg-algebras and simplicial alge
 
 The equivalence between connected cochain dg-algebras and cosimplicial algebras is discussed in 
 
-* {#CastiglioniCortinas} J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
+* {#CastiglioniCortinas} J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289), [doi:10.1016/j.jpaa.2003.11.009](https://doi.org/10.1016/j.jpaa.2003.11.009))
 
 The equivalence between cosimplicial commutative algebras and commutative cochain dg-algebras in non-negative degree, over a field of char 0 is discussed in 
 
@@ -1086,7 +1086,7 @@ For any commutative ring $R$, they defined chain equivalences between the tensor
 
 See also the appendix in
 
-* [[Pavol ?evera]], [[Thomas Willwacher]], _Equivalence of formalities of the little discs operad_, [arXiv:0905.1789](http://arxiv.org/abs/0905.1789)
+* [[Pavol Severa]], [[Thomas Willwacher]], _Equivalence of formalities of the little discs operad_, [arXiv:0905.1789](http://arxiv.org/abs/0905.1789)
 
 
 [[!redirects monoidal Dold?Kan correspondence]]
