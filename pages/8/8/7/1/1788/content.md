@@ -1,4 +1,18 @@
 
+\begin{imagefromfile}
+  "file_name": "Math-Phys-Cat.jpg",
+  "width": 170,
+  "float": "right",
+  "margin": {
+    "top": 0,
+    "right": 10,
+    "bottom": 10,
+    "left": 0,
+    "unit": "px"
+  } 
+\end{imagefromfile}
+
+
 $\ldots$
 
 a $\leftrightarrow$ b
@@ -9,6 +23,7 @@ a $\leftrightarrow$ b
 
 ----
 
+[[Math-Phys-Cat.jpg:file]]
 
 \begin{imagefromfile}
   "file_name": "OrbifoldTypes.jpg",
