@@ -311,10 +311,13 @@ See at _[[the co-binary Sullivan differential is the dual Whitehead product]]_.
 
 ## References
 
-* {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([web](https://eudml.org/doc/94833))
+* {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([dml:94833](https://eudml.org/doc/94833))
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Chapter II of: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
 * {#Hess06} [[Kathryn Hess]], around def 1.10  of _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
+* {#Menichi13} [[Luc Menichi]], _Rational homotopy -- Sullivan models_, IRMA Lect. Math. Theor. Phys., EMS ([arXiv:1308.6685](https://arxiv.org/abs/1308.6685))
 
 
 
