@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -103,7 +104,7 @@ called the **projective model structure**.
 
 The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
 ([Quillen 67, II.4, pages II.4.11, II.4.12](#Quillen67)).
-See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06) [Dungan, 2.4.2, proof in section 2.5](#Dungan)).
+See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06), [Dungan 10, 2.4.2, proof in section 2.5](#Dungan10)).
 
 
 ##### Injective structure on cochain complexes
@@ -125,6 +126,8 @@ There is a [[model category]] structure on non-negatively graded [[cochain compl
 called the **injective model structure**.
 
 =--
+
+([Dungan 10, Theorem 2.4.5](#Dungan10))
 
 
 +-- {: .num_remark }
@@ -204,9 +207,9 @@ There is a model structure on $Ch^{\bullet\geq 0}(A)_{tot}$ whose
 +-- {: .num_example}
 ###### Example
 
-If $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence.  Moreover, in this case every chain complex is quasi-isomorphic to its [[homology]] (regarded as a chain complex with zero differentials).
+If $C = $ [[Vect]] is a category of [[vector space]]s over some [[field]], we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence.  Moreover, in this case every chain complex is quasi-isomorphic to its [[homology]] (regarded as a chain complex with zero differentials).
 
-This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebra]]s over a field.
+This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebras]] over a [[field]] that is used in [[rational homotopy theory]].
 
 =--
 
@@ -215,7 +218,6 @@ This is the model structure which induces the [[transferred model structure|tran
 
 We discuss a model structure on connective cochain complexes of abelian groups in which the fibrations are the degreewise epis. This follows an analogous proof in ([Jardine 97](model+structure+on+dg-algebras#Jardine97)).
 
-This _projective_ model structure on cochain complexes in non-negative degree is the one that induces via [[transferred model structure|transfer]] the corresponding [[model structure on dg-algebras]] that plays the central role in the Sullivan model of [[rational homotopy theory]].
 
 +-- {: .num_theorem #ProjectiveModelStructureOnConnectiveCochainComplexes}
 ###### Theorem
@@ -234,7 +236,7 @@ $Ch^\bullet_+(Ab) \simeq Ab^\Delta$ by the fact that $Ab^\Delta$  is a [[categor
 
 =--
 
-The first part of this theorem is claimed, without proof, in [Hess 06, p. 6](#Hess06) and [Castiglioni-Cortinas 03, Def. 4.7](#CastiglioniCortinas03).
+The first part of this theorem is claimed, without proof, in [Castiglioni-Cortinas 03, Def. 4.7](#CastiglioniCortinas03).
 
 +-- {: .proof}
 ###### Proof
@@ -1019,8 +1021,7 @@ The projective model structure is discussed after that in
 
 An explicit proof of the injective model structure with monos in positive degree is spelled out in
 
-* Gregory Dungan, _Model categories_ ([pdf](http://www.math.fsu.edu/~gdungan/MC14.09.18.pdf))
-{#Dungan}
+* {#Dungan10} Gregory Dungan, _Review of model categories_, 2010 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.696.123&rep=rep1&type=pdf), [[DunganModelCategories.pdf:file]])
 
 An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
 
