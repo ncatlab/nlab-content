@@ -1292,7 +1292,7 @@ Review:
 
 This makes use of the general discussion in section 3 of 
 
-* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004 ([arXiv](http://arxiv.org/abs/math.AT/0609537))
+* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
 that obtains the model structure from the [[model structure on chain complexes]].
 
