@@ -33,11 +33,22 @@ $$
   (v,w) \mapsto q(v+w) - q(v) - q(w) 
 $$
 
-is a [[bilinear form]]. 
+is a [[bilinear form]].
+
+Written entirely in terms of $q$, the axioms for a quadratic form are:
+
+* $q(t v) = t^2 q(v)$,
+* $q(t v + w) + t q(v) + t q(w) = t q(v + w) + t^2 q(v) + q(w)$,
+* $q(u + v + w) + q(u) + q(v) + q(w) = q(u + v) + q(u + w) + q(v + w)$.
+
+(Besides the homogeneity, these come from two requirements of a bilinear form to preserve scalar multiplication and addition, respectively.)  So we may alternatively define a __quadratic form__ to be a map $q\colon V \to k$ satisfying these three axioms.
+
+A more general __quadratic map__ (or _homogeneous_ quadratic map to be specific) between vector spaces $V$ and $W$ is a map $q\colon V \to W$ that satisfies the above three conditions.  (Then an _affine_ quadratic map is the sum of a homogeneous quadratic map, a [[linear map]], and a constant, just as an [[affine linear map]] is the sum of a linear map and a constant.)
 
 From the converse point of view, $q$ is a [[quadratic refinement]] of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-u,-)$.  See there for more.)
 
 Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called _positive definite_ or _negative definite_ if $q(v) \gt 0$ or $q(v) \lt 0$, respectively, for all $v \neq 0$.
+
 
 ## Related concepts
 
@@ -103,11 +114,15 @@ See also
 
 * Wikipedia, _[Definitine quadratic form](https://en.wikipedia.org/wiki/Definite_quadratic_form)_
 
+
 [[!redirects quadratic form]]
 [[!redirects quadratic forms]]
 
 [[!redirects quadratic map]]
 [[!redirects quadratic maps]]
+
+[[!redirects quadratic function]]
+[[!redirects quadratic functions]]
 
 [[!redirects signature of a quadratic form]]
 [[!redirects signatures of a quadratic form]]
@@ -124,7 +139,3 @@ See also
 
 [[!redirects negative quadratic form]]
 [[!redirects negative quadratic forms]]
-
-[[!redirects quadratic function]]
-[[!redirects quadratic functions]]
-
