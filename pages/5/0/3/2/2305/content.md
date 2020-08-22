@@ -155,6 +155,8 @@ See at _[[Deligne complex]]_
 
 * [[Hodge cohomology]]
 
+* [[PL de Rham complex]]
+
 ## References
 
 ### In differential geometry
