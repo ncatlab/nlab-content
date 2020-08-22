@@ -150,15 +150,17 @@ For $X$ a [[smooth manifold]], and $S(X)$ the [[simplicial complex]] given by an
 
   which restricts to a [[diffeomorphism]] onto its image in the [[interior]] of any [[simplex]]
 
-* there is an [[injection]] of [[simplicial sets]]
+* there is a [[weak homotopy equivalence]] of [[simplicial sets]]
 
   $$
     S(X) 
       \overset{ \phantom{AA} i \phantom{AA} }{\hookrightarrow}
     Sing(X)
+    =
+    Sing\big( \left\vert S(X)\right\vert \big)
   $$
 
-  into the [[singular simplicial set]] of $X$.
+  into the [[singular simplicial set]] of $X$ (this being the [[adjunction unit]] of the $\left\vert - \right\vert \dashv Sing$ [[Quillen equivalence]] between the [[classical model structure on simplicial sets]] and the [[classical model structure on topological spaces]], and in fact equivalently the derived adjunction unit, since $\left\vert -\right\vert$ preserves all weak equivalences, and $Sing$ those between CW-complexes, by [[Ken Brown's lemma]]).
 
 
 ## Statement
