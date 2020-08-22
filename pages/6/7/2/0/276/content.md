@@ -520,7 +520,7 @@ a variety in the category of all simplicial groups.
 
 ## References
 
-Crossed complexes were defined by Blakers in 1948 (following a suggestion of [[Samuel Eilenberg]]) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by [[Johannes Huebschmann]] to [[group cohomology]] in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
+Crossed complexes were defined by Blakers in 1948 (following a suggestion of [[Samuel Eilenberg]]) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by [[Johannes Huebschmann]] to [[group cohomology]] in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to a form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
 
 
 Textbook treatment is in 
