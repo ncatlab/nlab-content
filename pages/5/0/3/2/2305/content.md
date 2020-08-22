@@ -118,6 +118,69 @@ This follows from the [[Mayer-Vietoris sequence]] associated to the open cover o
 
 * [[de Rham theorem]]
 
+### Relation to PL de Rham complex
+  {#RelaionToPLDeRhamComplex}
+
++-- {: .num_prop #PLdeRhamComplex} 
+###### Proposition
+**([[PL de Rham complex of smooth manifold is equivalent to de Rham complex]])**
+
+Let $X$ be a [[smooth manifold]].
+
+We have the following [[zig-zag]] of [[dgc-algebra]] [[quasi-isomorphisms]] between the [[PL de Rham complex]] of (the [[topological space]] underlying) $X$ and the smooth [[de Rham complex]] of $X$:
+
+$$
+  \array{
+    &&
+    \Omega^\bullet_{PLdR}
+    \big(
+      S(X)
+    \big)    
+    &&
+    &&
+    \Omega^\bullet_{dR}(X)
+    \\
+    &
+      {}^{
+        \mathllap{
+          i^\ast
+        }
+      }
+      \nearrow
+    & &
+      \searrow^{
+        \mathrlap{
+          i_{poly}
+        }
+      }
+    & & 
+      {}^{
+        \mathllap{
+          p^\ast
+        }
+      }
+      \swarrow
+    \\
+    \mathllap{
+      \Omega^\bullet_{PLdR}(X)
+      \;=\;
+    }
+    \Omega^\bullet_{PLdR}
+    \big(
+      Sing(X)
+    \big)
+    && && 
+    \Omega^\bullet_{PSdR}
+    \big(
+      S(X)
+    \big)
+  }
+$$
+
+Here $S(X)$ is the [[simplicial complex]] corresponding to any smooth [[triangulation]] of $X$.
+
+=--
+
 ### Relation to Deligne complex
 
 
