@@ -425,27 +425,33 @@ Applications include
 
 * higher [[Lie integration]]
 
+## Related concepts
+
+[[PL de Rham complex]]
+
 ## References
 
-An original reference is
-
-* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, &#167;1 and &#167;2 of: _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
-
-A standard textbook is
-
-* [[Stephen Halperin]], _Lecture Notes on Minimal Models_, Publications de l'U.E.R. Math&#233;matiques  Pures et Appliqu&#233;es, Universit&#233; des Sciences et techniques, Lille, Vol 3 (1981) Fasc.3. 
-
-This is based on
+Original sources
 
 * [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/item/PMIHES_1977__47__269_0/))
 
-A useful survey is in 
+* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, &#167;1 and &#167;2 of: _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
+
+* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+
+Review:
+
+* [[Stephen Halperin]], _Lecture Notes on Minimal Models_, Publications de l'U.E.R. Math&#233;matiques  Pures et Appliqu&#233;es, Universit&#233; des Sciences et techniques, Lille, Vol 3 (1981) Fasc.3. 
 
 * {#Hess} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 
+
 [[!redirects polynomial differential form]]
 [[!redirects polynomial differential forms]]
+
+[[!redirects polynomial differential forms on simplices]]
+
 
 [[!redirects piecewise polynomial differential form]]
 [[!redirects piecewise polynomial differential forms]]
@@ -457,4 +463,6 @@ A useful survey is in
 
 [[!redirects Sullivan differential form]]
 [[!redirects Sullivan differential forms]]
+
+
 
