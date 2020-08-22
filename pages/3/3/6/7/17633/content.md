@@ -29,9 +29,9 @@ Note that a positive or negative element must be semidefinite, so 'positive semi
 
 In [[constructive mathematics]], it is not the partial order $\leq$ that is most relevant but rather the relation $\nleq$, which classically is the [[negation]] of $\leq$ but which constructively is generally stronger.  This relation $\nleq$ is required to satisfy properties [[de Morgan duality|dual]] to those of a partial order ([[irreflexive relation|irreflexivity]], [[comparison]], and [[connected relation|connectedness]]), and $\leq$ is then defined as the negation of $\nleq$ (and can be proved to be a partial order).  Constructively, we say that $x$ is __indefinite__ if $x \nleq 0$ and $x \ngeq 0$, and that $x$ is __semidefinite__ if it is not indefinite; these are equivalent to the above in [[classical logic]], and all of the other definitions read the same.  In particular, &#8249;semidefinite&#8250; is not &#8249;positive or negative&#8250; but rather the [[double negation]] of that.  (All that said, if one is willing to give up &#8249;indefinite&#8250;, then there is no need for $\nleq$, although &#8249;semidefinite&#8250; should still be a double negation.)
 
-We will also say that $A$ (or rather, the structure $(A,\leq,#)$) is __nontrivial__ if $#$ is [[irreflexive|irreflexive]].
+We will also say that $A$ (or rather, the structure $(A,\leq,#,0)$) is __nontrivial__ if $#$ is [[irreflexive|irreflexive]].
 
-Suppose that $A$ has the structure of a [[group]], which we will write additively (but without assuming commutativity).  We will say that the group structure is _right-compatible_ with other structure ($\leq$, $#$, and $0$) if
+Suppose that $A$ has the structure of a [[group]], which we will write additively (but without assuming commutativity).  We will say that the group structure is _right-compatible_ with the other structure ($\leq$, $#$, and $0$) if
 
 * $0$ is the [[identity element]] of the group,
 * $x \leq y$ iff $y - x \geq 0$, and
@@ -46,7 +46,7 @@ We can similarly say when $A$ is _left-compatible_.  (By symmetry of $#$, this h
 
 If $A$ is the set of [[real numbers]], then give $\leq$, $#$, and $0$ their usual meanings.  (The usual meaning of $#$ is [[apartness]], which classically is the same as [[denial inequality|ordinary inequality]].)  Then $\lt$ and $\gt$ also have their usual meanings.  (We also have that $\nleq$ is the same as $\gt$, and $\ngeq$ is the same as $\lt$.)  The positive-semidefinite elements are the nonnegative ones, but the positive definite elements are the (strictly) [[positive numbers]]; every real number is semidefinite, and none is indefinite.  The (commutative) additive group structure is compatible, and $A$ is nontrivial.
 
-The previous example (except for the final sentence) can be used with any [[pointed set|pointed]] [[linear order]].  (Constructively, define $\nleq$ to be $\gt$ and go from there.)  Assuming that $A$ is [[inhabited|inhabited]] (nonempty), this is nontrivial.
+The previous example (except for the final sentence) can be used with any [[pointed set|pointed]] [[linear order]].  (Constructively, define $\nleq$ to be $\gt$ and go from there.)  This is always nontrivial.
 
 If $A$ is the set of [[upper real number|upper]], [[lower real number|lower]], or [[MacNeille real number|MacNeille]] real numbers, then there is really nothing new classically; $\infty$ is positive definite, $-\infty$ is negative definite, and that is all.  Constructively, however, neither $\leq$ and $\lt$ (with their usual meanings in the relevant context) is the negation of the other.  Nevertheless, if we define $x # y$ to mean that $x \lt y$ or $x \gt y$, then everything goes through.  If we restrict to the bounded numbers, then the additive group structure is compatible too.
 
@@ -68,7 +68,7 @@ If $A$ is the set of $n$-by-$n$ real or complex [[matrices]] for some [[natural 
 
 Generalizing the previous example, if $A$ is a real or complex $*$-[[star-algebra|algebra]] (with apartness, constructively, if we wish to define 'indefinite'), then all of the terms have their usual meanings there too.  (Note that $x \leq y$ means that $y - x = u^* u$ for some $u$, and $x # y$ means that $y - x$ is invertible.  Constructively, $x \nleq y$ means that $y - x$ is apart from $u^* u$ for all $u$.)  The additive group structure is compatible, and $A$ is nontrivial in our sense iff it is [[trivial algebra|nontrivial as a real algebra]].
 
-From any example, we may form another example by restricting to a [[subset]] of $A$, as long as $0$ belongs.  If the original example has a compatible group structure, then so does the subset if it is a [[subgroup]].  If the original example is nontrivial, then so is the subset iff it is [[inhabited subset|inhabited]].
+From any example, we may form another example by restricting to a [[subset]] of $A$, as long as $0$ belongs.  If the original example has a compatible group structure, then so does the subset if it is a [[subgroup]].  If the original example is nontrivial, then so is the subset.
 
 
 [[!redirects semidefinite]]
