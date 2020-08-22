@@ -1379,6 +1379,10 @@ Discussion of [[homotopy limits]] and [[homotopy colimits]] of dg-algebras is in
 [[!redirects model structure on dgc-algebras]]
 [[!redirects model structures on dgc-algebras]]
 
+[[!redirects model structure on connective dgc-algebras]]
+[[!redirects model structures on connective dgc-algebras]]
+
+
 [[!redirects projective model structure on dgc-algebras]]
 [[!redirects projective model structures on dgc-algebras]]
 
