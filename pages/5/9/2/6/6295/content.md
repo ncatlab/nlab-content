@@ -56,7 +56,7 @@ Then we may also interpret $x^0$ as $1$.  Note that $[x, 1] = 0$ too (a special 
 
 If $K$ is a [[normed field]], then a __Jordan--Lie--Banach algebra__ consists of a $K$-[[Banach space]] $A$ equipped with a [[short linear operator|short]] [[bilinear operator]] (as the Jordan product) and a [[densely defined linear operator|densely defined]] bilinear operator (as the Lie bracket) making the domain of the Lie bracket into a Jordan--Lie algebra as above.
 
-Typically, although the Lie bracket is allowed to be unbounded, it will be bounded when $q \gt 0$.  (This is a theorem for $JLB$-algebras below.)  Using continuity to prove all of the axioms, $A$ is also a [[Jordan–Banach algebra]] under the Jordan product.  A Jordan--Lie--Banach algebra is __unital__ if the Jordan algebra has a unit and $\|1\| \leq 1$ (in which case $\|1\| = 1$ if $A$ is nontrivial).  Note that Jordan--Lie--Banach algebras (besides the $JLB$-algebras below) don\'t seem to appear in the literature; this terminology is analogous to that of Jordan--Banach algebras.
+Typically, although the Lie bracket is allowed to be unbounded, it will be bounded when $q \gt 0$.  (This is a theorem for $JLB$-algebras below.)  Using continuity to prove all of the axioms, $A$ is also a [[Jordan–Banach algebra]] under the Jordan product.  A Jordan--Lie--Banach algebra is __unital__ if the Jordan algebra has a unit and ${\|1\|} \leq 1$ (in which case ${\|1\|} = 1$ if $A$ is nontrivial).  Note that Jordan--Lie--Banach algebras (besides the $JLB$-algebras below) don\'t seem to appear in the literature; this terminology is analogous to that of Jordan--Banach algebras.
 
 A __$JLB$-algebra__ is a Jordan--Lie--Banach algebra satisfying the following additional identities:
 
@@ -65,7 +65,7 @@ A __$JLB$-algebra__ is a Jordan--Lie--Banach algebra satisfying the following ad
 
 Then $A$ is a [[JB-algebra]] under the Jordan product.
 
-As with any $JB$-algebra, we don\'t need to explicitly state that the Jordan product is short (nor that $\|1\| \leq 1$ in the unital case), as this can be proved using the $B$-identity and the [[polarization identities]].  (Conversely, if we do state that the product is short, then we only need the $\leq$ half of the $B$-identity in addition, or we can even combine it with positivity as ${\|x\|^2} \leq {\|x^2 + y^2\|}$.)  We can also prove (by induction on $\lceil\log_2 n\rceil$) that $|x^n| = |x|^n$ (except for $n = 0$ in the trivial algebra).
+As with any $JB$-algebra, we don\'t need to explicitly state that the Jordan product is short (nor that ${\|1\|} \leq 1$ in the unital case), as this can be proved using the $B$-identity and the [[polarization identities]].  (Conversely, if we do state that the product is short, then we only need the $\leq$ half of the $B$-identity in addition, or we can even combine it with positivity as ${\|x\|^2} \leq {\|x^2 + y^2\|}$.)  We can also prove (by induction on $\lceil\log_2 n\rceil$) that ${\|x^n\|} = {\|x\|^n}$ (except for $n = 0$ in the trivial algebra).
 
 When $q \gt 0$, we should also be able to prove that Lie bracket is bounded by $1/q$, but I don\'t see the proof.  (A naive look at the associator identity suggests a bound of $\sqrt{2}/q$, but it\'s not clear to me whether $[[x,z],y]$ is sufficently general to prove this.)  Then extending by continuity, we may assume that the Lie bracket is defined everywhere.
 
