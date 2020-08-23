@@ -189,6 +189,31 @@ $$
 Write
 
 \[
+  \label{NilpotentQFiniteHomotopyTypes}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)^{fin_{\mathbb{Q}}}_{\geq 1, nil}
+  \overset{
+    \phantom{AAA}
+  }{\hookrightarrow}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)
+\]
+
+for the [[full subcategory]] of the [[classical homotopy category]]  ([[homotopy category]] of the [[classical model structure on simplicial sets]]) on those [[homotopy types]] $X$ which are
+
+* [[connected topological space|connected]]: $\pi_0(X) = \ast$
+
+* [[nilpotent space|nilpotent]]: $\pi_1(X)$ is a [[nilpotent group]]
+
+* rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$ for all $n \in \mathbb{N}$.
+
+and
+
+\[
   \label{NilpotentFiniteRationalHomotopyTypes}
   Ho
   \big(
@@ -203,17 +228,8 @@ Write
   \big)
 \]
 
-for the [[full subcategory]] of the [[classical homotopy category]]  ([[homotopy category]] of the [[classical model structure on simplicial sets]]) on those [[homotopy types]] $X$ which are
+for the futher [[full subcategory]] on those [[homotopy types]] that are already [[rational spaces|rational]].
 
-* [[rational spaces|rational]]
-
-* and in addition
-
-  * [[connected topological space|connected]]: $\pi_0(X) = \ast$
-
-  * [[nilpotent space|nilpotent]]: $\pi_1(X)$ is a [[nilpotent group]]
-
-  * rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$ for all $n \in \mathbb{N}$.
 
 Similarly, write
 
@@ -241,7 +257,6 @@ for the [[full subcategory]] of the [[homotopy category]] of the [[projective mo
 =--
 
 ([Bousfield-Gugenheim 76, 9.2](#BousfieldGugenheim76))
-
 
 +-- {: .num_pro #FundamentalTheoremOfdgAlgebraicRationalHomotopyTheory} 
 ###### Proposition
@@ -274,39 +289,71 @@ $$
   \big)
 $$
 
-of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]] from Prop. \ref{QuillenAdjunctionBetweenSimplicialSetsAndConnectivedgcAlgebras}
+of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]] (whose [[left adjoint]] is the [[PL de Rham complex]]-[[functor]]) has the following properties:
 
-restricts to an [[equivalence of categories]] between the [[full subcategories]] of nilpotent and finite rational homotopy types from Def. \ref{NilpotententFiniteRationalHomotopyTypes}:
+* on connected, nilpotent rationally finite homotopy types $X$ (eq:NilpotentQFiniteHomotopyTypes) the [[derived adjunction unit]] is [[rationalization]]
 
-$$
-  Ho
-  \left(
+  $$
+    \array{
+    Ho
     \big(
-      DiffGradedCommAlgebras^{\geq 0}_{k}
-    \big)^{op}_{proj}
-  \right)^{\geq 1}_{fin}
-  \underoverset
-    {
-      \underset
-        {\;\;\; \mathbb{R} exp \;\;\;}
-        {\longrightarrow}
-    }
-    {
-      \overset
-        {\;\;\; \mathbb{L} \Omega^\bullet_{PLdR}\;\;\;}
-        {\longleftarrow}
-    }
-    {\simeq}
-  Ho
-  \big(
-    HoSimplicialSets_{Qu}
-  \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
-$$
+       SimplicialSets_{Qu}
+    \big)^{fin_{\mathbb{Q}}}_{\geq 1, nil}
+    &
+      \overset{
+      }{\longrightarrow}
+    &
+    Ho
+    \big(
+       SimplicialSets_{Qu}
+    \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
+    \\
+    X
+    &\mapsto&
+    \mathbb{R}\exp \circ \Omega^\bullet_{PLdR}(X)
+    }    
+  $$
+
+  $$
+    X
+    \underoverset
+      {\eta_X^{der}}
+      {rationalization}
+      {\longrightarrow}
+    \mathbb{R}\exp \circ \Omega^\bullet_{PLdR}(X)
+  $$
+
+* on the [[full subcategories]] of nilpotent and finite rational homotopy types from Def. \ref{NilpotententFiniteRationalHomotopyTypes} it restricts to an [[equivalence of categories]]:
+
+  $$
+    Ho
+    \left(
+      \big(
+        DiffGradedCommAlgebras^{\geq 0}_{k}
+      \big)^{op}_{proj}
+    \right)^{\geq 1}_{fin}
+    \underoverset
+      {
+        \underset
+          {\;\;\; \mathbb{R} exp \;\;\;}
+          {\longrightarrow}
+      }
+      {
+        \overset
+          {\;\;\; \mathbb{L} \Omega^\bullet_{PLdR}\;\;\;}
+          {\longleftarrow}
+      }
+      {\simeq}
+    Ho
+    \big(
+      HoSimplicialSets_{Qu}
+    \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
+  $$
 
 
 =--
 
-([Bousfield-Gugenheim 76, Theorem 9.4](#BousfieldGugenheim76))
+([Bousfield-Gugenheim 76, Theorems 9.4 & 11.2](#BousfieldGugenheim76))
 
 
 ### Relation to smooth de Rham complex
