@@ -91,9 +91,50 @@ $$
   \,.
 $$
 
+The [[cochain cohomology]] of the PL de Rham complex is _PL de Rham cohomology_
+
+\[
+  \label{PLdeRhamCohomology}
+  H^\bullet_{PLdR}(-)
+  \;\coloneqq\;
+  H \Omega^\bullet_{PLdR}(-)
+  \,.
+\]
 
 
 ## Properties
+
+### Relation to rational cohomology
+  {#RelationToRationalCohomology}
+
++-- {: .num_prop #PLdeRhamTheorem} 
+###### Proposition
+**([[PL de Rham theorem]])**
+
+Let $k$ be a [[field]] of [[characteristic zero]] (such as the [[rational numbers]], [[real numbers]] or [[complex numbers]]). 
+
+Then the evident operation of [[integration of differential forms]] over [[simplices]] induces a [[quasi-isomorphism]] between the [[PL de Rham complex]] with coefficients in $k$ (Def. \ref{PLdeRhamComplex}}) and [[cochain complex]] for [[singular cohomology]] with [[coefficients]] in $k$
+
+$$
+  \Omega^\bullet_{PLdR}(X)
+  \underoverset{}{\simeq}{\longrightarrow}
+  C^\bullet(X; k)
+$$
+
+and hence an [[isomorphism]] from [[PL de Rham cohomology]] (eq:PLdeRhamCohomology) to [[ordinary cohomology]] with [[coefficients]] in $k$ (such as [[rational cohomology]], [[real cohomology]], [[complex cohomology]]):
+
+$$
+  H^\bullet_{PLdR}(X)
+  \underoverset{}{\simeq}{\longrightarrow}
+  H^\bullet(X; k)
+$$
+
+(for $X$ any [[topological space]]).
+
+=--
+
+([Bousfield-Gugenheim 76, Theorem 2.2](#BousfieldGugenheim76))
+
 
 ### Relation to smooth de Rham complex
  {#RelationToSmoothdeRhamComplex}
@@ -250,10 +291,15 @@ For the morphism on the left this follows since $S(X) \hookrightarrow Sing(X)$ i
 =--
 
 
+
 ## References
 
-* {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/item/PMIHES_1977__47__269_0/))
+* {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item/PMIHES_1977__47__269_0/))
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+
+[[!redirects PL de Rham complexes]]
+
+[[!redirects PL de Rham cohomology]]
