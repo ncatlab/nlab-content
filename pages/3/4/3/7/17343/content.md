@@ -132,7 +132,7 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[set]] of [[topological spa
 +-- {: .num_example #TopologicalSubspace}
 ###### Example
 
-For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{initial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
+For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, the initial topology $\tau_{initial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
 
 $$
   \iota_S
@@ -149,7 +149,7 @@ a [[topological subspace]] inclusion.
 +-- {: .num_example #QuotientTopology}
 ###### Example
 
-Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
+Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
 
 =--
 
@@ -314,7 +314,7 @@ $$
   }
 $$
 
-two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
+two [[continuous functions]] out of the same [[domain]], the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
 
 $$
   \array{
@@ -394,7 +394,7 @@ $$
 +-- {: .num_example #QuotientSpaceAsPushout}
 ###### Example
 
-For $A\hookrightarrow X$ a [[topological subspace]] inclusion, example \ref{TopologicalSubspace}, then the pushout
+For $A\hookrightarrow X$ a [[topological subspace]] inclusion, example \ref{TopologicalSubspace}, the pushout
 
 $$
   \array{
@@ -786,7 +786,7 @@ $$
 $$
 
 For $n \in \mathbb{N}$, $n \geq 1$ and for $x \colon \ast \to X$
-any point, then the $n$th **[[homotopy group]]** $\pi_n(X,x)$ of $X$ at $x$
+any point, the $n$th **[[homotopy group]]** $\pi_n(X,x)$ of $X$ at $x$
 is the [[group]]
 
 * whose underlying [[set]] is the set of [[left homotopy]]-[[equivalence classes]] of maps $I^n \longrightarrow X$ that take the [[boundary]] of $I^n$ to $x$ and where the left homotopies $\eta$ are constrained to be constant on the boundary;
@@ -856,7 +856,7 @@ If here $\eta_2$ is constant along $I$, $f$ is said to exhibit $X$ as a **[[defo
 +-- {: .num_example #ProjectionFromStandardCylinderIsHomotopyEquivalence}
 ###### Example
 
-For $X$ a [[topological space]] and $X \times I$ its standard [[cylinder object]] of def. \ref{TopologicalInterval}, then the projection $p \colon X \times I \longrightarrow X$ and the inclusion $(id, \delta_0) \colon X \longrightarrow X\times I$ are [[homotopy equivalences]], def. \ref{HomotopyEquivalence}, and in fact are homotopy inverses to each other:
+For $X$ a [[topological space]] and $X \times I$ its standard [[cylinder object]] of def. \ref{TopologicalInterval}, the projection $p \colon X \times I \longrightarrow X$ and the inclusion $(id, \delta_0) \colon X \longrightarrow X\times I$ are [[homotopy equivalences]], def. \ref{HomotopyEquivalence}, and in fact are homotopy inverses to each other:
 
 The composition
 
@@ -3338,7 +3338,7 @@ $$
 +-- {: .num_prop #BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations}
 ###### Proposition
 
-For $X$ a cofibrant object in a [[model category]] and $Y$ a [[fibrant object]], then the [[relations]] of [[left homotopy]] $f \Rightarrow_L g$ and of [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) on the [[hom set]] $Hom(X,Y)$ coincide and are both [[equivalence relations]].
+For $X$ a cofibrant object in a [[model category]] and $Y$ a [[fibrant object]], the [[relations]] of [[left homotopy]] $f \Rightarrow_L g$ and of [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) on the [[hom set]] $Hom(X,Y)$ coincide and are both [[equivalence relations]].
 
 =--
 
@@ -3879,7 +3879,7 @@ The following says that for computing the hom-sets in the [[homotopy category of
 +-- {: .num_lemma #HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}
 ###### Lemma
 
-For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, then the morphism
+For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, the morphism
 
 $$
  Hom_{Ho(\mathcal{C})}(P X,Q Y)
