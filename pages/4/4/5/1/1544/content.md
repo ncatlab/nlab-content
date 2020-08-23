@@ -105,7 +105,7 @@ In particular, since every $G$-[[principal bundle]] canonically trivializes when
 If instead $P = E$ is a vector bundle, then the two conditions satisfies by $A$ imply that it defines a linear map
 
 $$
-  \nabla : \Gamma(E) \to \Omega^1(X) \otimes \Gamma(E)
+  \nabla : \Gamma(E) \to \Omega^1(X,E):=\Gamma(X,T_X^*\otimes E)
 $$
 
 from the space $\Gamma(E)$ of section of $E$ that satisfies the properties of a **covariant derivative**.
