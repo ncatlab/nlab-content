@@ -57,7 +57,7 @@ $$
   \,.
 $$
 
-See at _[pushouts of commutative monoids](category+of+monoids#PushoutOfCommutativeMonoids)_
+See at _[[category of monoids#PushoutOfCommutativeMonoids|pushouts of commutative monoids]]_
 
 ## Properties
 
