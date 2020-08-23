@@ -62,6 +62,8 @@ That its [[right adjoint]] preserves fibrations, hence sends cofibrations of dgc
 
 ## Related statements
 
+* [[fundamental theorem of dg-algebraic rational homotopy theory]]
+
 * [[rationalization via PL de Rham theory]]
 
 ## References
