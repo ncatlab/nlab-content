@@ -4538,6 +4538,7 @@ Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) $L$ 
 
 +-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
 ###### Proposition
+**([[derived adjunction]])**
 
 For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot_{Qu}}\mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
 
