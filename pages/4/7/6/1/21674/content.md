@@ -104,6 +104,50 @@ The [[cochain cohomology]] of the PL de Rham complex is _PL de Rham cohomology_
 
 ## Properties
 
+### Relation to simplicial sets
+
++-- {: .num_prop} 
+###### Proposition
+**([[Quillen adjunction between simplicial sets and connective dgc-algebras]])**
+
+The [[PL de Rham complex]]-construction (Def. \ref{PLdeRhamComplex}) is the [[left adjoint]] in a [[Quillen adjunction]] between
+
+
+* the [[opposite model structure|opposite]] of the [[projective model structure on connective dgc-algebras]]
+
+* the [[classical model structure on simplicial sets]]
+
+$$
+  \big(
+    DiffGradedCommAlgebras^{\geq 0}_{k}
+  \big)^{op}_{proj}
+  \underoverset
+    {
+      \underset
+        {\;\;\; exp \;\;\;}
+        {\longrightarrow}
+    }
+    {
+      \overset
+        {\;\;\;\Omega^\bullet_{PLdR}\;\;\;}
+        {\longleftarrow}
+    }
+    {\bot_{\mathrlap{Qu}}}
+  SimplicialSets_{Qu}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the [[PL de Rham complex]] [[functor]] preserves [[cofibrations]], hence sends injections of simplicial sets to surjections of dgc-algebras, is immediate from its construction.
+
+That its [[right adjoint]] preserves fibrations, hence sends cofibrations of dgc-algebras to [[Kan fibrations]], is the statement of [Bousfield-Gugenheim 76, Lemma 8.2](#BousfieldGugenheim76).
+
+=--
+
+
 ### Relation to rational cohomology
   {#RelationToRationalCohomology}
 
