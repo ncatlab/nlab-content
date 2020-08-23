@@ -15,7 +15,10 @@ On [[rational homotopy theory]]:
   (this second volume generalizes to the case of non-[[simply connected topological spaces]])
 
 
-* {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, [[Daniel Tanré]], _Algebraic Models in Geometry_, Oxford University Press 2008
+* [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic models in geometry_, Oxford University Press 2008 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tanre.pdf), [ISBN:9780199206520](https://global.oup.com/academic/product/algebraic-models-in-geometry-9780199206520))
+
+* {#FelixHalperin17} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
+
 
 On rational models for [[spherical fibrations]] and [[Thom spaces]]:
 
