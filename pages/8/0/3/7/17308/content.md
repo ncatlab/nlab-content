@@ -717,6 +717,30 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
 
 =--
 
++-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
+###### Proposition
+**([[derived adjunction]])**
+
+For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{{}_{\phantom{Qu}}\bot_{Qu}}\mathcal{D}$ a [[Quillen adjunction]] between [[model categories]], also the corresponding left and right [[derived functors]] form a pair of [[adjoint functors]]
+
+$$
+  Ho(\mathcal{C})
+    \underoverset
+      {\underset{\mathbb{R}R}{\longrightarrow}}
+      {\overset{\mathbb{L}L}{\longleftarrow}}
+      {\bot}
+  Ho(\mathcal{D})
+$$
+
+between the corresponding [[homotopy category of a model category|homotopy categories]].
+
+Moreover, the [[adjunction unit]] and [[adjunction counit]] of this derived adjunction are the images of the [[derived adjunction unit]] and [[derived adjunction counit]] of the original [[Quillen adjunction]].
+
+
+=--
+
+([Quillen 67, I.4 theorem 3](model+category#Quillen67))
+
 ## Further properties
 
 This construction extends to a [[double pseudofunctor]]
