@@ -213,7 +213,7 @@ for the [[full subcategory]] of the [[classical homotopy category]]  ([[homotopy
 
   * [[nilpotent space|nilpotent]]: $\pi_1(X)$ is a [[nilpotent group]]
 
-  * rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \nig) \lt \infty$ for all $n \in \mathbb{N}$.
+  * rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$ for all $n \in \mathbb{N}$.
 
 Similarly, write
 
@@ -232,7 +232,7 @@ Similarly, write
   \big)
 \]
 
-for the [[full subcatgeory]] of the [[homotopy category]] of the [[projective model structure on connective dgc-algebras]] on those [[dgc-algebras]] $A$ which are
+for the [[full subcategory]] of the [[homotopy category]] of the [[projective model structure on connective dgc-algebras]] on those [[dgc-algebras]] $A$ which are
 
 * connected: $H^0(A) \simeq \mathbb{Q}$
 
@@ -247,10 +247,66 @@ for the [[full subcatgeory]] of the [[homotopy category]] of the [[projective mo
 ###### Proposition
 **([[fundamental theorem of dg-algebraic rational homotopy theory]])**
 
-(...)
+The [[derived adjunction]]
+
+$$
+  Ho
+  \left(
+    \big(
+      DiffGradedCommAlgebras^{\geq 0}_{k}
+    \big)^{op}_{proj}
+  \right)
+  \underoverset
+    {
+      \underset
+        {\;\;\; \mathbb{R} exp \;\;\;}
+        {\longrightarrow}
+    }
+    {
+      \overset
+        {\;\;\; \mathbb{L} \Omega^\bullet_{PLdR}\;\;\;}
+        {\longleftarrow}
+    }
+    {\bot}
+  Ho
+  \big(
+    HoSimplicialSets_{Qu}
+  \big)
+$$
+
+of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]] from Prop. \ref{QuillenAdjunctionBetweenSimplicialSetsAndConnectivedgcAlgebras}
+
+restricts to an [[equivalence of categories]] between the [[full subcategories]] of nilpotent and finite rational homotopy types from Def. \ref{NilpotententFiniteRationalHomotopyTypes}:
+
+$$
+  Ho
+  \left(
+    \big(
+      DiffGradedCommAlgebras^{\geq 0}_{k}
+    \big)^{op}_{proj}
+  \right)^{\geq 1}_{fin}
+  \underoverset
+    {
+      \underset
+        {\;\;\; \mathbb{R} exp \;\;\;}
+        {\longrightarrow}
+    }
+    {
+      \overset
+        {\;\;\; \mathbb{L} \Omega^\bullet_{PLdR}\;\;\;}
+        {\longleftarrow}
+    }
+    {\simeq}
+  Ho
+  \big(
+    HoSimplicialSets_{Qu}
+  \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
+$$
+
 
 =--
 
+([Bousfield-Gugenheim 76, Theorem 9.4](#BousfieldGugenheim76))
 
 
 ### Relation to smooth de Rham complex
