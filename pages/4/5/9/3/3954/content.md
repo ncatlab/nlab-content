@@ -89,9 +89,12 @@ Discussion of the interpretation of forcing as the passage to [[classifying topo
 
 * {#MakkaiReyes77} [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_,  Lecture Notes in Mathematics Volume 611, Springer 1977
 
+* [[Andreas Blass]], Andrej Ščedrov, _Classifying topoi and finite forcing_, 1982 ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf))
+
 * {#Scedrov84} Andrej Ščedrov, _Forcing and classifying topoi_, Memoirs of the American Mathematical Society 1984; 93 pp
 
-* [[Andreas Blass]], Andrej Ščedrov, _Classifying topoi and finite forcing_ ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf))
+* J. Benavides, _The logic of sheaves, sheaf forcing and the independence of the Continuum Hypothesis_ ([arXiv:1111.5854](https://arxiv.org/abs/1111.5854))
+
 
 * {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes](https://doi.org/10.4225/55/5b2252e3092af),  [video recording](https://youtu.be/4AaSySq8-GQ))
 
