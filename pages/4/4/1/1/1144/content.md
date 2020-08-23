@@ -1161,6 +1161,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 * [[rational Cohomotopy]]
 
+* [[fundamental theorem of dg-algebraic rational homotopy theory]]
+
 * from the [[nPOV]]: [[rational homotopy theory in an (infinity,1)-topos]].
 
 * [[rational equivariant homotopy theory]], [[rational equivariant stable homotopy theory]]
