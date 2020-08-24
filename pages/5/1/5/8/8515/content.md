@@ -19,7 +19,7 @@
 
 ## Idea
 
-A notion of _[[equality]]_ in [[type theory]] involving the notion of _[[judgement]]_.
+A notion of _[[equality]]_ in [[type theory]] involving the notion of _[[judgement]]_. In [[homotopy type theory]] it is used synonymously with [[definitional equality]] as contrasted with [[propositional equality]].
 
 ## References
 
