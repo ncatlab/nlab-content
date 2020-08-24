@@ -86,6 +86,9 @@ External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
 
 * A. Pomeranskii, R A Sen'kov, I.B. Khriplovich, _Spinning relativistic particles in external fields_ Acta Physica Polonica B Proceedings Supplement Vol. 1 (2008) ([pdf](http://iopscience.iop.org/1063-7869/43/10/R03))
 
+* Krzysztof Andrzejewski, Cezary Gonera, Joanna Goner, Piotr Kosinski, Pawel Maslanka, _Spinning particles, coadjoint orbits and Hamiltonian formalism_ ([arXiv:2008.09478](https://arxiv.org/abs/2008.09478))
+
+
 ### Worldline supersymmetry
  {#WorldlineSupersymmtryReferences}
 
