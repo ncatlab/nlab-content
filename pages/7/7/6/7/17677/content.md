@@ -18,7 +18,9 @@ Logic is now to be seen as the maximally invariant theory.
 
 In the propositional case, consider the [[symmetric group]], $S_n$, acting on a set, $X$, of cardinality $n$. Then it also acts on all cartesian powers, $X^k$. Subsets of $X^k$ are $k$-ary [[relations]], and those invariant under $S_n$ are unions of the [[orbits]] of its action. The idea then is that such relations are invariant if and only if they are definable using only logical constants.
 
-Johan van Benthem proposed ([JvB](#JvB)) such a treatment for a certain [[type theory]]. [[Steve Awodey]] ([Ull](#Ull)) has argued that [[homotopy type theory]] should be seen in a similar light as expressing invariance under [[equivalence]].
+Johan van Benthem proposed ([JvB](#JvB)) such a treatment for a certain [[type theory]]. [[Steve Awodey]] ([ULL](#ULL)) has argued that [[homotopy type theory]] should be seen in a similar light as expressing invariance under [[equivalence]]. In ([UPL](#UPL)) he speaks of what he calls the _Tarski-Grothendieck Thesis_:
+
+> If a statement, concept, or construction is purely logical, then it should  be invariant under all equivalences of the structures involved. A statement that is not invariant must involve some non-logical specifics, pertaining not to general logical form but to some particular aspects of the objects bearing the structure.  If it is the hallmark of a logical concept that it should pertain only to general, formal structure and not to any specific features of  the objects bearing that structure, then this formal character may be witnessed  by the fact that the concept is invariant under all equivalence transformations.
 
 ##References
 
@@ -36,4 +38,6 @@ Johan van Benthem proposed ([JvB](#JvB)) such a treatment for a certain [[type t
 
 * {#JvB} Johan van Benthem, _Logical constants across varying types_, Notre Dame J. Formal Logic 30 (1989), no. 3, 315--342, ([pdf](http://www.illc.uva.nl/lgc/translation/papers/LogicalConstants.pdf))
 
-* {#Ull} Steve Awodey, _Univalence as a logical law_, talk at [conference](https://hottatbristol.wordpress.com/), Bristol 15 Sept 2016.
+* {#ULL} [[Steve Awodey]], _Univalence as a logical law_, talk at [conference](https://hottatbristol.wordpress.com/), Bristol 15 Sept 2016.
+
+* {#UPL} [[Steve Awodey]], _Univalence as a Principle of Logic_, ([preprint](https://www.andrew.cmu.edu/user/awodey/preprints/uapl.pdf))
