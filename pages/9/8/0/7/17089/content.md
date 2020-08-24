@@ -6,7 +6,7 @@ The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-
 
 * {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
-* {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
+* {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_, Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
 These authors were following [Zwiebach 92](#Zwiebach92), who had found in his work on [[closed string field theory]] that the [[n-point functions]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with such a structure. Zwiebach in turn was following the [[BV-formalism]] due to [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83)
 
