@@ -218,7 +218,7 @@ and $\underset{\longrightarrow}{\lim} F$ is uniquely characterized by $\underset
 
 =--
 
-This satement, and its proof, is the [[formal dual]] to the corresponding statement for [[undercategories]], see [there](under+category#LimitsAndColimits).
+This statement, and its proof, is the [[formal dual]] to the corresponding statement for [[undercategories]], see [there](under+category#LimitsAndColimits).
 
 
 +-- {: .num_prop #LimitsInSliceViaLimitsOfCoconedDiagram}
