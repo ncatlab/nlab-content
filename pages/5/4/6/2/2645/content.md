@@ -22,8 +22,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -267,17 +265,18 @@ Early original references are
 
 * [[Shiing-shen Chern]], _Differential geometry of fiber bundles_ Proceedings of the International Congress of Mathematicians, Cambridge, Mass., 1950, vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952)
 
-An overview with a collection of references is
 
-* _Connections on vector bundles and the Gauss-Bonnet theorem_ ([pdf](http://www.supermanifold.com/connections.pdf))
+Textbook accounts:
 
-A classical textbook reference is
+* [[John Milnor]], [[Jim Stasheff]], Appendix C of: _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
-A review of much of the theory and comments on applications to [[elliptic genus|elliptic genera]] is in 
+Review:
 
-* Fei Han, _Chern-Weil theory and some results on classic genera_ ([pdf](http://math.berkeley.edu/~alanw/240papers03/han.pdf))
+* [[Fei Han]], _Chern-Weil theory and some results on classic genera_ ([pdf](http://math.berkeley.edu/~alanw/240papers03/han.pdf))
+
+* Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
 
 
 Some standard monographs are
