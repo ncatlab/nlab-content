@@ -181,7 +181,7 @@ the rationalization of $\Sigma^\infty S^{n}$
 
 ## Appendix
 
-Here collect some background definitions, notations and facts for ease of reference in the main text above.
+Here we collect some background definitions, notations and facts for ease of reference in the main text above.
 
 ### Chain complexes
 
