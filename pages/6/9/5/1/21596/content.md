@@ -179,7 +179,7 @@ The identity type constructor [comes from Nuprl](#CompEqvITP13), where it's call
 
 ## Miscellaneous
 
-Certain rules in v0 (equality formation (via respect) and PER formation) used non-dependent function types ($\to$) to express implications. In v1, non-dependent family intersection types ($\supset$) are used (in relax introduction and PER formation) instead. In some cases, the propositions involved are guaranteed to be proof-irrelevant, so it doesn't matter. In PER formation, there's no guarantee that $R$ is proof-irrelevant, but there's no good reason for the user to use a proof-relevant relation, since the proof is ignored. In both versions of PER formation, you can run into trouble trying to use a proof-relevant relation. (So the change doesn't help or hurt.)
+Certain rules in v0 (equality formation (via respect) and PER formation) used non-dependent function types ($\to$) to express implications. In v1, non-dependent family intersection types ($\supset$) are used (in $Relax$ introduction and PER formation) instead. In some cases, the propositions involved are guaranteed to be proof-irrelevant, so it doesn't matter. In PER formation, there's no guarantee that $R$ is proof-irrelevant, but there's no good reason for the user to use a proof-relevant relation, since the proof is ignored. In both versions of PER formation, you can run into trouble trying to use a proof-relevant relation. (So the change doesn't help or hurt.)
 
 In v0, there was a reflexivity rule for equality, in addition to the uniqueness and selectivity rules. That was redundant. So now reflexivity is derived from uniqueness and select left.
 
