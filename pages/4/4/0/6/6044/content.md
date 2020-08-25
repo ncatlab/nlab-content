@@ -33,7 +33,7 @@ $$
 given, upon choosing any oriented orthonormal basis for $V$, by the formula above.
 
 
-### Binary
+### Binary {#binary}
 
 We have already, trivially, generalized the cross product to other ground fields.  One way to generalise it to other dimensions is to identify characteristic features as a bilinear operation and see what operations in other dimensions have these.
 
@@ -86,7 +86,7 @@ By [[Hurwitz theorem|Hurwitz's theorem]], the only finite-dimensional NDAs over 
 By one of the deeper strands of mathematics, this classification of something as innocent-looking as cross-products is closely related not just to the existence of [[normed division algebras]] over the [[real numbers]], but also to all of the following: [[parallelizable manifold|parallelizable]] [[n-spheres]], the existence of [[real spin representations]] (see also at _[[supersymmetry and division algebras]]_), and the [[homotopy groups of spheres]] of [[Hopf invariant one]]; see [there](Hopf+invariant+one#RelationToHSpaceStructureAndNormedDivisionAlgebras).
 
 
-### $(n-1)$-ary
+### $(n-1)$-ary {#counary}
 
 Given an [[orientation|oriented]] [[inner product space]] $V$ of finite [[dimension]] $n$, we can define the signed [[volume]] of an $n$-[[tuple]] of vectors.  (See also [[volume form]].)  This allows us to characterise a __co-unary cross product__ of $n - 1$ vectors as a multilinear operation
 $$ &#10761;\colon V^{n - 1} \to V $$
@@ -97,7 +97,7 @@ always.  There is exactly one such cross product on any such $V$ (so two if we s
 In $3$ dimensions, this also recovers the classical cross product.
 
 
-### Vector-valued
+### Vector-valued {#vectorvalued}
 
 Generalizing all of the above, let a __vector-valued cross product__ on any [[inner product space]] $V$ be a multilinear function
 $$ &#10761;\colon V^k \to V $$
@@ -117,13 +117,13 @@ Then for an inner product space $V$ over $\mathbb{R}$ of finite dimension $n$, w
 
 * If $k = 1$, then there is one cross product for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces and orienting each subspace: one (always $0$) when $n = 0$, two (one for each orientation) when $n = 2$, uncountably many when $n \geq 4$ is even, and none when $n$ is odd.
 
-* If $k = 2$, then the possibilities are as listed above for binary cross products: one (always $0$) when $n = 0, 1$, two (one for each orientation) when $n = 3$, uncountably many (related to the [[octonions]]) when $n = 7$, and none when $n \ne 0, 1, 3, 7$.
+* If $k = 2$, then the possibilities are as listed [above](#binary) for binary cross products: one (always $0$) when $n = 0, 1$, two (one for each orientation) when $n = 3$, uncountably many (related to the [[octonions]]) when $n = 7$, and none when $n \ne 0, 1, 3, 7$.
 
 * If $k = 3$, then there is one cross product (always $0$) when $n = 0, 1, 2$, two cross products (one for each orientation) when $n = 4$, uncountably many cross products (presumably also related to the [[octonions]]) when $n = 8$, and none when $n \ne 0, 1, 2, 4, 8$.
 
 * If $4 \leq k \lt n - 1$, then there are no cross products.
 
-* If $k = n - 1$, then there are two cross products, one for each orientation, as described above for $(n-1)$-ary cross products.
+* If $k = n - 1$, then there are two cross products, one for each orientation, as described [above](#counary) for $(n-1)$-ary cross products.
 
 * If $k = n$, then there are no cross products.
 
@@ -154,9 +154,9 @@ Or organized by dimension ($n$) rather than arity ($k$):
 * If $n \geq 10$ is even, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $2 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
 
 
-### Tensor-valued
+### Tensor-valued {#tensorvalued}
 
-Fixing a field $K$, let [[Vect]] be $Vect_K$, the [[symmetric monoidal category]] of vector spaces over $K$ (with the usual [[tensor product]]), and let $T$ be any [[symmetric monoidal functor]] from $Vect$ to itself.  Note that any inner product $g\colon V \otimes V \to K$ extends to an inner product $T(g)\colon T(V) \otimes T(V) \to K$ (ignoring questions of degeneracy); similarly, any element $x$ of $V$, thought of as a linear map $x\colon K \to V$, gives rise to an element $T(x)$ of $T(V)$.  The vector-valued cross products above use the [[identity functor]] for $T$, but other possible choices for $T$ are $V \mapsto V \otimes V$, $V \mapsto \Lambda^2 V$, and the constant functor $V \mapsto K$.  We could also take $Vect$ to be a [[full subcategory]] of $Vect_K$ closed under the tensor product, such as $Fin Vect_K$; this may allow more possibilities for $T$ in exchange for fewer possibilities for $V$.
+Fixing a field $K$, let [[Vect]] be $Vect_K$, the [[symmetric monoidal category]] of vector spaces over $K$ (with the usual [[tensor product]]), and let $T$ be any [[symmetric monoidal functor]] from $Vect$ to itself.  Note that any inner product $g\colon V \otimes V \to K$ extends to a (possibly degenerate) inner product $T(g)\colon T(V) \otimes T(V) \to K$; similarly, any element $x$ of $V$, thought of as a linear map $x\colon K \to V$, gives rise to an element $T(x)$ of $T(V)$.  The vector-valued cross products [above](#vectorvalued) use the [[identity functor]] for $T$, but other possible choices for $T$ are $V \mapsto V \otimes V$, $V \mapsto \Lambda^2 V$, and the constant functor $V \mapsto K$.  We could also take $Vect$ to be a [[full subcategory]] of $Vect_K$ closed under the tensor product, such as $Fin Vect_K$; this may allow more possibilities for $T$ in exchange for fewer possibilities for $V$.
 
 Given an inner-product space $V$ and a symmetric monoidal functor $T$, a __$T$-valued cross product__ on $V$ is a multilinear function
 $$ &#10761;\colon V^k \to T(V) $$
@@ -172,18 +172,18 @@ Again it follows that in any case ${\|&#10761;(v_1,\ldots,v_k)\|}$ is a square r
 
 I do not know a full list of these, but one important example is the __scalar-valued binary cross product__ in $2$ dimensions:
 $$ (a, b) \times (c, d) = a d - b c .$$
-Actually, this scalar-valued cross product $x \times y$ is simply the dot product $x \cdot \times{y}$, where $\times{y}$ is the unary vector-valued cross product in $2$ dimensions.  (In a counterclockwise-oriented plane, it rotates a vector clockwise through a right angle.)
+Actually, this scalar-valued cross product $x \times y$ is simply the dot product ${\times}x \cdot y$, where ${\times}x$ is the unary vector-valued cross product in $2$ dimensions.  (In a counterclockwise-oriented plane, it rotates $x$ counterclockwise through a right angle.)
 
-More generally, in any number $n \geq 2$ of dimensions, there is a __multivector-valued binary cross product__ whose values are $(n-2)$-[[multivectors]]; this includes the scalar-valued cross product when $n = 2$ and the classical cross product when $n = 3$, but gets more complicated for larger values of $n$.  Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued $n$-ary cross product__.  More generally still, combining the dot product with any vector-valued cross product produces a scalar-valued cross product of $1$ higher arity.
+More generally, in any number $n \geq 2$ of dimensions, there is a __multivector-valued binary cross product__ whose values are $(n-2)$-[[multivectors]]; this includes the scalar-valued cross product when $n = 2$ and the classical cross product when $n = 3$, but gets more complicated for larger values of $n$.  Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued $n$-ary cross product__.  More generally still, combining the dot product with *any* vector-valued cross product produces a scalar-valued cross product of $1$ higher arity.
 
 
 ## Relationships
 
 ### Exterior products
 
-The cross product is also called 'outer product', and both of these terms are sometimes also used for the [[exterior product]].  In its most basic form, the exterior product of two vectors $u,v$ is a [[bivector]] $u \wedge v$.  But note that this is *not* a bivector-valued cross product by the definition above, since it lacks orthogonality (and indeed has nothing to do with the inner product).
+The cross product is also called 'outer product', and both of these terms are sometimes also used for the [[exterior product]].  In its most basic form, the exterior product of two vectors $u,v$ is a [[bivector]] $u \wedge v$.  But note that this is *not* a bivector-valued cross product by the definition [above](#tensorvalued), since it lacks orthogonality (and indeed has nothing to do with the inner product).
 
-In $3$ dimensions, given an inner product and an orientation, we can use the [[Hodge dual]] to turn this into a vector, and this is the classical cross product once more.  In $2$ dimensions, using the same structure, we can turn the bivector into a [[scalar]]; this recovers the scalar-valued binary cross product above.  In general, this produces the binary $(n-2)$-vector-valued cross product.
+In $3$ dimensions, given an inner product and an orientation, we can use the [[Hodge dual]] to turn this into a vector, and this is the classical cross product once more.  In $2$ dimensions, using the same structure, we can turn the bivector into a [[scalar]]; this recovers the scalar-valued binary cross product [above](#tensorvalued).  In general, this produces the binary $(n-2)$-vector-valued cross product.
 
 Using only the inner product but not the orientation, we get (respectively) a [[pseudovector]] (sometimes called an axial vector) or a [[pseudoscalar]]; this perspective is common in [[geometric algebra]].  In general in dimension $n$, a bivector becomes an $(n-2)$-pseudo-vector, but this is not usually an simplification.
 
@@ -205,7 +205,7 @@ This vector field is the __curl__ of the original $(k-1)$-vector field.  This ju
 
 When $k = 2$ and $n = 3$, there is one smooth choice of cross product for each [[orientation]] of $M$, and we recover the classical notion of curl.
 
-When $k = 1$ and $n = 2$, we may also consider the scalar-valued curl, using the scalar-valued binary cross product described above.  The scalar-valued curl of a vector field $X$ is the same as the [[divergence]] of the rotated vector field $\times{X}$ (using the unary vector-valued cross product in $2$ dimensions); that is, $\Del \times X = \Del \cdot \times{X}$.
+When $k = 1$ and $n = 2$, we may also consider the scalar-valued curl, using the scalar-valued binary cross product described [above](#tensorvalued).  The scalar-valued curl of a vector field $X$ is the same as the [[divergence]] of the rotated vector field ${\times}X$ (using the $1$-ary vector-valued cross product in $2$ dimensions); that is, $\Del \times X = \Del \cdot {\times}X$.  (However, to make this work, we need the opposite sign convention from that used to define the $(n-1)$-unary vector-valued cross product [above](#counary).  That is, in a counterclockwise-oriented plane, ${\times}X$ rotates the values of $X$ _clockwise_ through a right angle.)
 
 
 ## Related concepts
