@@ -432,7 +432,7 @@ $$
 
 * [[super q-Schur algebra]]
 
-* For every [[pointer topological space]], the [[Whitehead product]] makes its [[homotopy groups]] into a super Lie algebra over the [[ring]] of [[integers]].
+* For every [[connected topological space]], the [[Whitehead product]] makes its [[homotopy groups]] into a super Lie algebra over the [[ring]] of [[integers]] -- the [Whitehead super Lie algebra](Whitehead+product#SuperLieAlgebraStructure).
 
 * higher super Lie algebras
 
