@@ -81,7 +81,7 @@ See also [here](https://math-phys.group/members/). We are fully open for new mem
 
 ## Research Topics
 
-For our research projects, see [here](https://math-phys.group/projects/). For a selected list of publications, see [here](https://math-phys.group/publications/). For the list of members involved in each topic, see our website.
+For a selected list of publications, see [here](https://math-phys.group/publications/). For the list of members involved in each topic, see our website.
 
 ### Gauge Theory
 
