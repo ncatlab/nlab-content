@@ -3893,7 +3893,7 @@ $$
 
 =--
 
-([Quillen 67, I.1 lemma 7](#Quillen67))
+([Quillen 67, I.1 corollary 1](#Quillen67))
 
 +-- {: .proof}
 ###### Proof
