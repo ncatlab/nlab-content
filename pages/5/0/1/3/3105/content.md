@@ -107,6 +107,7 @@ There is also a **generalized Whitehead product** where we can take more general
 ## Properties
 
 ### Super Lie algebra structure
+  {#SuperLieAlgebraStructure}
 
 If one assigns degree $n-1$ to the $n$th [[homotopy group]] $\pi_n$,
 then the degree-wise Whitehead products (eq:WhiteheadProductMapInSingleDegrees) 
