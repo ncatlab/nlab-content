@@ -150,7 +150,14 @@ Textbook accounts include
 
 * {#KobayashiNomizu63} Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of Differential Geometry_, Wiley 1963 ([web](https://www.zuj.edu.jo/download/foundations-of-differential-geometry-vol-1-kobayashi-nomizu-pdf/), [Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry))
 
+* [[John Milnor]], [[Jim Stasheff]], Appendix C of: _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
+
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+Review:
+
+* Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
+
 
 
 The description of the refined Chern-Weil homomorphism in terms of [[differential function complex]]es is in section 3.3. of 
