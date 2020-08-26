@@ -310,7 +310,11 @@ where the result is attributed to
 
 * {#DeligneGriffithsMorganSullivan75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
 
-which however just touches on it in passing.
+(which however just touches on it in passing) 
+
+and in
+
+* Francisco Belchí, [[Urtzi Buijs]], José M. Moreno-Fernández, Aniceto Murillo, Prop. 3.1 of: _Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL_, Linear Algebra and its Applications, Volume 520 (2017), pages 16-31 ([arXiv:1604.01478](https://arxiv.org/abs/1604.01478), [doi:10.1016/j.laa.2017.01.008](https://doi.org/10.1016/j.laa.2017.01.008))
 
 
 Textbook accounts:
