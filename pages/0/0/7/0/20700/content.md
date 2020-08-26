@@ -7,6 +7,8 @@
 
 * [[Sullivan model of complex projective space]]
 
+* [[Sullivan model of a classifying space]]
+
 * [[Sullivan model of mapping space]]
 
 * [[Sullivan model of free loop space]]
