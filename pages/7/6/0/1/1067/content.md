@@ -155,7 +155,7 @@ Frequently one also considers $\mathbb{N}$-graded (or _nonnegatively graded_) ch
 
 ### In terms of translations
 
-Note that in particular, a chain complex is a [[graded object]] with extra structure.  This extra structure can be codified as a map of graded objects $\partial:V\to T V$, where $T$ is the 'shift' endofunctor of the category $Gr(V)$ of graded objects in $C$, such that $T(\partial) \circ \partial = 0$.  More generally, in any pre-additive category $G$ [[category with translation|with translation]] $T : G \to G$, we can define a **chain complex** to be a [[differential object]] $\partial_V : V \to T V$ such that $V \stackrel{\partial_V}{\to} T V \stackrel{T(\partial_V)}{\to} T T V$ is the [[zero morphism]].  When $G= Gr(C)$ this recovers the original definition.
+Note that in particular, a chain complex is a [[graded object]] with extra structure.  This extra structure can be codified as a map of graded objects $\partial:V\to T V$, where $T$ is the 'shift' endofunctor of the category $Gr(C)$ of graded objects in $C$, such that $T(\partial) \circ \partial = 0$.  More generally, in any pre-additive category $G$ [[category with translation|with translation]] $T : G \to G$, we can define a **chain complex** to be a [[differential object]] $\partial_V : V \to T V$ such that $V \stackrel{\partial_V}{\to} T V \stackrel{T(\partial_V)}{\to} T T V$ is the [[zero morphism]].  When $G= Gr(C)$ this recovers the original definition.
 
 ## Examples
  {#Examples}
