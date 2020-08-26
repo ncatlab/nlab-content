@@ -40,5 +40,8 @@ For $G$ a [[compact space|compact]] [[Lie group]] there is a way to equip the to
 
   _Existence of universal connections II_ , Amer. J. Math. 85 (1963), 223&#8211;231. MR 27 #1904
 
+Using [[diffeological spaces]]:
+
+* [[Mark Mostow]], _The differentiable space structures of Milnor classifying spaces, simplicial complexes, and geometric realizations_, J. Differential Geom. Volume 14, Number 2 (1979), 255-293 ([euclid:jdg/1214434974](https://projecteuclid.org/euclid.jdg/1214434974))
 
 [[!redirects universal connections]]
