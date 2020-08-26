@@ -142,9 +142,23 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 * [[Gauss-Bonnet theorem]]
 
-(...)
+## Related concepts
+
+* [[Sullivan model of classifying space]]
+
 
 ## References
+
+Original articles:
+
+* [[Henri Cartan]], Section 7 of: _Notions d'alg&#233;bre diff&#233;rentielle; applications aux groupes de Lie et aux vari&#233;t&#233;s o&#249; op&#232;re un groupe de Lie_ ,  Coll. Topologie Alg&#233;brique Bruxelles (1950)
+15-28
+
+  
+* [[Shiing-shen Chern]], _Differential geometry of fiber bundles_ Proceedings of the International Congress of Mathematicians, Cambridge, Mass., 1950, vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952)
+
+
+* [[Raoul Bott]], _On the Chern-Weil homomorphism and the continuous cohomology of Lie-groups_, Advances in Mathematics Volume 11, Issue 3, December 1973, Pages 289-303 (<a href="https://doi.org/10.1016/0001-8708(73)90012-1">doi:10.1016/0001-8708(73)90012-1</a>)
 
 Textbook accounts include
 
