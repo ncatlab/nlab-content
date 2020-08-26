@@ -44,7 +44,7 @@ Now suppose instead that we have a model $V$ of [[ZF]] set theory (for instance)
 
 1. We can construct a new model of set theory out of whole cloth from $V$, rather than trying to find it as a submodel of some assumed larger model.  In material set theory, this construction is usually called a *Boolean valued model* (or a *Heyting valued model* if it is [[constructive mathematics|intuitionistic]]).  In structural set theory, this construction is simply that of the [[topos of sheaves]] on a suitable [[site]], in the model $V$.  The topos of sheaves is moreover *universal* over $V$ such that it contains an [[object]] $G$ satisfying the desired properties in its [[internal logic]]---in other words, it is a [[classifying topos]] of the [[theory]] of such a $G$. See at _[References -- In terms of classifying toposes](#ReferencesInTermsOfClassifyingToposes)_ for more.
 
-Although by analogy, it would seem that a modern perspective should prefer the third approach, most material set theorists still seem to prefer one of the first two.
+Although by analogy, it would seem that a modern perspective should prefer the third approach ([Shulman 20](#Shulman20)), most material set theorists still seem to prefer one of the first two.
 
 Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C), [[Abraham Fraenkel|Fraenkel]] introduced the method of [[permutation model]]s (later refined by Mostowski and Specker), which gave models of [[ZFA]], a version of ZF with [[urelements|atoms]]. See for example the [[basic Fraenkel model]].
 
@@ -97,6 +97,8 @@ Discussion of the interpretation of forcing as the passage to [[classifying topo
 
 
 * {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes](https://doi.org/10.4225/55/5b2252e3092af),  [video recording](https://youtu.be/4AaSySq8-GQ))
+
+* {#Shulman20} [[Mike Shulman]], _Answer to 'A better way to explain forcing?'_, ([MathOverflow](https://mathoverflow.net/a/370135/447))
 
 On [Scedrov 84](#Scedrov84), [[Peter Johnstone]] writes in his review ([The Journal of Symbolic Logic Vol. 50, No. 3 (Sep., 1985), pp. 852-85]( http://www.jstor.org/stable/2274338 )):
 
