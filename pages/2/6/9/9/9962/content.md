@@ -104,6 +104,10 @@ Survey and discussion includes
 
 * [[Gian Francesco Giudice]], _The Dawn of the Post-Naturalness Era_ ([arXiv:1710.07663](https://arxiv.org/abs/1710.07663))
 
+* Arthur Hebecker,
+_Lectures on Naturalness, String Landscape and Multiverse_ ([arXiv:2008.10625](https://arxiv.org/abs/2008.10625))
+
+
 An attempt to make the notion precise is due to
 
 * Greg Anderson, Diego Castano, _Measures of fine tuning_, Phys. Lett.B 347:300-308, 1995 ([arXiv:hep-ph/9409419](https://arxiv.org/abs/hep-ph/9409419))
