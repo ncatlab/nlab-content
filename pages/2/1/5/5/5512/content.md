@@ -116,7 +116,7 @@ By the [[Yoneda lemma]] this gives the desired natural isomorphism $\pi$.
 
 =--
 
-Since no properties of the symmetry are used this result also holds for braided closed monoidal categories, or even just left (or right) closed monoidal categories as long as one is careful about writing the tensor products in the correct order.  There is also a converse: given a 
+Since no properties of the symmetry are used this result also holds for braided closed monoidal categories, or even just left (or right) closed monoidal categories as long as one is careful about writing the tensor products in the correct order.  
 
 ## Properties
 
