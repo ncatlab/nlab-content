@@ -419,7 +419,12 @@ Discussion of connection form (mostly on trivial bundles) in [[synthetic differe
 [[!redirects connections on a bundle]]
 [[!redirects connections on bundles]]
 
+[[!redirects connection on a principal bundle]]
+[[!redirects connections on a principal bundle]]
+[[!redirects connections on principal bundles]]
+
 [[!redirects bundle with connection]]
 [[!redirects bundle with connections]]
 [[!redirects bundles with connection]]
 [[!redirects bundles with connections]]
+
