@@ -66,7 +66,7 @@ $$
   \big)
 $$
 
-is due to [Bott 73, p. 239 (5 of 15)](#Bott73).
+is due to [Chern 50, (11)](#Chern50), [Bott 73, p. 239 (5 of 15)](#Bott73).
 
 (Here $k$ is the [[ground field]] of [[characteristic zero]]).
 
@@ -81,6 +81,8 @@ That the [[rational cohomology]] algebra of $B G$, with trivial differential, is
 [[!include Sullivan models -- examples]]
 
 ## References
+
+* {#Chern50} [[Shiing-shen Chern]], _Differential geometry of fiber bundles_, in: Proceedings of the International Congress of Mathematicians, Cambridge, Mass., (August-September 1950), vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952) ([[Chern-DifferentialGeometryOfFiberBundles.pdf:file]], [full proceedings vol 2 pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1950.2/ICM1950.2.ocr.pdf))
 
 * {#Bott73} [[Raoul Bott]], _On the Chern-Weil homomorphism and the continuous cohomology of Lie-groups_, Advances in Mathematics Volume 11, Issue 3, December 1973, Pages 289-303 (<a href="https://doi.org/10.1016/0001-8708(73)90012-1">doi:10.1016/0001-8708(73)90012-1</a>)
 
