@@ -52,7 +52,7 @@ $$
   Ind(Res(W) \otimes V) \cong W \otimes Ind(V)
 $$
 
-is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)). See below the general discussion [in Wirthm&#252;ller contexts](#InWirthmuellerContexts).
+is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)).  However, it is probably better to call this the _Frobenius law_.  See below the general discussion [in Wirthm&#252;ller contexts](#InWirthmuellerContexts).
 
 ### In category theory
  {#InCategoryTheory}
@@ -62,12 +62,12 @@ In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjo
 Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "[[projection formula|projection]]" morphism 
 
 $$
-  f_!(C \times f^*A) \to (f_! C) \times A
+\pi \colon f_!(C \times f^*A) \to (f_! C) \times A
 $$ 
 
 is an isomorphism for each $A$ in $Y$ and $C$ in $X$.  
 
-This clearly makes sense also if the categories are [[cartesian monoidal category|cartesian]] but not necessarily [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
+The last condition clearly makes sense also if the categories are [[cartesian monoidal category|cartesian]] but not necessarily [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
 
 
 
@@ -86,15 +86,14 @@ between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]
 +-- {: .num_prop}
 ###### Proposition
 
-If $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and $f^\ast$ is strong closed then there is a natural isomorphism 
+If $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and and $f^*$ is strong closed then there is a natural isomorphism
 
 $$
-  \pi
-  \;\colon\;
-  f_!((f^\ast B) \otimes A) \stackrel{\simeq}{\longrightarrow} B \otimes f_! A
+  \pi \colon\;
+  f_!((f^\ast B) \otimes A) \stackrel{\cong}{\longrightarrow} B \otimes f_! A
 $$
-
-(called the [[projection formula]]).
+ 
+(often called the [[projection formula]]).
 
 =--
 
@@ -117,7 +116,7 @@ By the [[Yoneda lemma]] this gives the desired natural isomorphism $\pi$.
 
 =--
 
-Since no properties of the symmetry are used this result also holds for braided closed monoidal categories, or even just left (or right) closed monoidal categories as long as one is careful about writing the tensor products in the correct order.  
+Since no properties of the symmetry are used this result also holds for braided closed monoidal categories, or even just left (or right) closed monoidal categories as long as one is careful about writing the tensor products in the correct order.  There is also a converse: given a 
 
 ## Properties
 
