@@ -148,12 +148,29 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 ## References
 
-Original articles:
+The [[differential geometry|differential-geometric]] "Chern-Weil"-construction (evaluating [[curvature 2-forms]] of [[connection on a principal bundle|connections]] in [[invariant polynomials]]) is due to
 
-* [[Henri Cartan]], Section 7 of: _Notions d'alg&#233;bre diff&#233;rentielle; applications aux groupes de Lie et aux vari&#233;t&#233;s o&#249; op&#232;re un groupe de Lie_,  Coll. Topologie Alg&#233;brique Bruxelles (1950) 15-28 ([numdam:SHC_1949-1950__2__A18_0](http://www.numdam.org/item/?id=SHC_1949-1950__2__A18_0))
-  
-* [[Shiing-shen Chern]], _Differential geometry of fiber bundles_, in: Proceedings of the International Congress of Mathematicians, Cambridge, Mass., 1950, vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952) ([[Chern-DifferentialGeometryOfFiberBundles.pdf:file]], [full proceedings vol 2 pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1950.2/ICM1950.2.ocr.pdf))
+* [[Henri Cartan]], Section 7 of: _Notions d'alg&#233;bre diff&#233;rentielle; applications aux groupes de Lie et aux vari&#233;t&#233;s o&#249; op&#232;re un groupe de Lie_,  Coll. Topologie Alg&#233;brique Bruxelles (May 1950) 15-28 ([numdam:SHC_1949-1950__2__A18_0](http://www.numdam.org/item/?id=SHC_1949-1950__2__A18_0))
 
+and around equation (10) of:
+
+* {#Chern50} [[Shiing-shen Chern]], _Differential geometry of fiber bundles_, in: Proceedings of the International Congress of Mathematicians, Cambridge, Mass., (August-September 1950), vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952) ([[Chern-DifferentialGeometryOfFiberBundles.pdf:file]], [full proceedings vol 2 pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1950.2/ICM1950.2.ocr.pdf))
+
+It is the independence of this construction under the choice of connection which [Chern 50](#Chern50) atributes (below (10)) to 
+
+* [[André Weil]], _Géométrie différentielle des espaces fibres_, unpublished
+
+But the main result of [Chern 50](#Chern50) is that this differential-geometric "Chern-Weil" construction is equivalent to the topological ([[homotopy theory|homotopy theoretic]]) construction of pulling back the [[universal characteristic classes]] from the [[classifying space]] $B G$ along the [[classifying map]] of the given [[principal bundle]]:
+
+This claim is equation (15) in [Chern 50](#Chern50), using (quoting from the same page):
+
+> methods initiated by [[Eli Cartan|E. Cartan]] and recently developed with success by [[Henri Cartan|H. Cartan]], [[Claude Chevalley|Chevalley]], [[Jean-Louis Koszul|Koszul]], [[Jean Leray|Leray]], and [[André Weil|Weil]] [13]
+
+Here reference 13 is:
+
+* [[Jean-Louis Koszul]], _Homologie et cohomologie des algebres de Lie_, Bull. Soc. Math. France vol. 78 (1950) pp. 65-127 ([numdam:BSMF_1950__78__65_0](http://www.numdam.org/item/BSMF_1950__78__65_0))
+
+Later, an independent proof of the universal topological "Chern-Weil"-construction $inv(\mathfrak{g}) \to H^\bullet(B G)$ is given in:
 
 * [[Raoul Bott]], _On the Chern-Weil homomorphism and the continuous cohomology of Lie-groups_, Advances in Mathematics Volume 11, Issue 3, December 1973, Pages 289-303 (<a href="https://doi.org/10.1016/0001-8708(73)90012-1">doi:10.1016/0001-8708(73)90012-1</a>)
 
