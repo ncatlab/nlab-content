@@ -28,7 +28,7 @@ Then the [[Sullivan minimal model]] of the [[classifying space]] $B G$ is the [[
 
 $$
   inv^\bullet(\mathfrak{g})
-  \;\coloneqq\;
+  \; \coloneqq \;
   Sym 
   \big(
     \mathfrak{g}^\ast[2]
