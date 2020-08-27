@@ -33,7 +33,7 @@ The term _Frobenius reciprocity_ has a meaning
 ### In representation theory
  {#InRepresentationTheory}
 
-In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well, on [[characters]].
+In [[representation theory]], **Frobenius reciprocity** is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well, on [[characters]].
 
 Specifically for $H \hookrightarrow G$ an [[subgroup]] inclusion, there is an [[adjunction]]
 
@@ -49,7 +49,7 @@ between the [[categories]] of $G$-[[representations]] and $H$-[[representations]
 Sometimes also the _[[projection formula]]_
 
 $$
-  Ind(Res(W) \otimes V) \simeq W \otimes Ind(V)
+  Ind(Res(W) \otimes V) \cong W \otimes Ind(V)
 $$
 
 is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)). See below the general discussion [in Wirthm&#252;ller contexts](#InWirthmuellerContexts).
@@ -81,60 +81,43 @@ This terminology is most commonly used in the following situations:
  {#InWirthmuellerContexts}
 
 Generally, an [[adjoint triple]] $(f_! \dashv f^\ast \dashv f_\ast)$
-between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]
-is called a _[[Wirthmüller context]]_ ([May 05](#May05)) of _[[six operations]]_ yoga, if $f^\ast$ is a strong [[closed monoidal functor]]. 
+between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is called a _[[Wirthmüller context]]_ ([May 05](#May05)) of _[[six operations]]_ yoga, if $f^\ast$ is a strong [[closed monoidal functor]].   In this case, and even more generally, the projection formula holds.
 
 +-- {: .num_prop}
 ###### Proposition
 
-
-In a [[Wirthmüller context]], the projection formula/Frobenius reciprocity holds as a [[natural equivalence]]
+If $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and $f^\ast$ is strong closed then there is a natural isomorphism 
 
 $$
-  \overline{\pi}
+  \pi
   \;\colon\;
-  f_!(f^\ast(B) \otimes A) \stackrel{\simeq}{\longrightarrow} B \otimes f_! A
+  f_!((f^\ast B) \otimes A) \stackrel{\simeq}{\longrightarrow} B \otimes f_! A
 $$
+
+(called the [[projection formula]]).
 
 =--
 
 +-- {: .proof}
 ###### Proof 
 
-For all $A \in \mathcal{X}$ and $B,C \in \mathcal{Y}$ we have
-by the $(f_! \dashv f^\ast)$-[[adjunction]] and the
-tensor$\dashv$hom-adjunction a [[commuting diagram]] of the form
+For all $A \in \mathcal{X}$ and $B,C \in \mathcal{Y}$ we have a natural isomorphism
 
+$$ \mathcal{Y}(A, [f^*B, f^*C]) \cong \mathcal{Y}(A, f^*[B,C] ) $$
 
-$$
-  \array{
-    \mathcal{Y}(f_! ((f^\ast B) \otimes A),\, C)
-     &
-      \stackrel{
-        \mathcal{Y}(\overline{\pi}(A,B), C)
-      }{
-        \longrightarrow
-     }
-     &
-    \mathcal{Y}(B \otimes f_! A, \, C  )
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-     &&
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    \mathcal{X}(A, [(f^\ast B), (f^\ast C)])
-    &\stackrel{}{\longrightarrow}&
-    \mathcal{X}(A, f^\ast [B,C])
-  }
-  \,.
-$$
+since $f^*$ is strong closed (i.e. it preserves the internal hom).   By hom-tensor adjointness and the fact that $f_!$ is the left adjoint of $f^*$ we can rewrite this as
 
-By naturality in $A$ and by the [[Yoneda lemma]] this shows
-that $\overline{\pi}$ is an equivalence precisely if 
-$f^\ast$ is strong closed.
+$$ \mathcal{Y}(f^* B \otimes A, f^*C) \cong \mathcal{X}(f_! A, [B,C]). $$
+
+Using both these facts again we obtain
+
+$$ \mathcal{Y}(f_!(f^* B \otimes A), C) \cong \mathcal{X}(B \otimes f_! A, C) $$
+
+By the [[Yoneda lemma]] this gives the desired natural isomorphism $\pi$.
 
 =--
 
+Since no properties of the symmetry are used this result also holds for braided closed monoidal categories, or even just left (or right) closed monoidal categories as long as one is careful about writing the tensor products in the correct order.  
 
 ## Properties
 
