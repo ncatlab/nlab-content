@@ -463,5 +463,8 @@ $\,$
 [[!redirects curvature form]]
 [[!redirects curvature forms]]
 
+[[!redirects curvature 2-form]]
+[[!redirects curvature 2-forms]]
+
 [[!redirects curvature differential form]]
 [[!redirects curvature differential forms]]
