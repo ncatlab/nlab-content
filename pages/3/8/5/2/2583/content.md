@@ -580,6 +580,10 @@ Discussion in the context of [[matrix factorizations]] and [[equivariant K-theor
 
 * {#FreedTeleman14} [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
 
+Discussion of a general definition of smooth [[string group]] extensions $A\rightarrow \mathrm{String}(H)\rightarrow H$ of a [[compact]] [[simply connected]] [[Lie group]] $H$, with $A$ not necessarily chosen to be $\mathbf{B}U(1)$, in
+
+* [[Severin Bunk]], _Principal $\infty$-Bundles and Smooth String Group Models_, [arXiv:2008.12263](http://arxiv.org/abs/2008.12263)
+
 
 [[!redirects String 2-group]]
 [[!redirects String Lie 2-group]]
