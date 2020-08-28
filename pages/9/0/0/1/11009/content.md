@@ -30,6 +30,8 @@ Famous mathematicians like [[Georg Cantor]], [[Gottlob Frege]], [[Kurt Gödel]] 
 
 * [[continuum hypothesis]]
 
+* [[mathematical object]]
+
 ## Link
 
 * Wikipedia, _[Philosophy of mathematics -- Platonism](http://en.wikipedia.org/wiki/Philosophy_of_mathematics#Platonism)_
