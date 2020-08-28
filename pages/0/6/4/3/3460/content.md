@@ -47,7 +47,7 @@ A [[perfect field]] is one for which every extension of is [[separable field ext
 
 ## Relation to Frobenius algebras ##
 
-A result of Eilenberg and Nakayama that any [[separable algebra]] over a field $k$ can be given the structure of a [[Frobenius algebra|symmetric Frobenius algebra]].  Since the underlying vector space of a Frobenius algebra is isomorphic to its dual, any Frobenius algebra is necessarily finite dimensional, and so the same is true for separable algebras.  For more details, see:
+A result of Eilenberg and Nakayama states that any [[separable algebra]] over a field $k$ can be given the structure of a [[Frobenius algebra|symmetric Frobenius algebra]].  Since the underlying vector space of a Frobenius algebra is isomorphic to its dual, any Frobenius algebra is necessarily finite dimensional, and so the same is true for separable algebras.  For more details, see:
 
 * Samuel Eilenberg and Tadasi Nakayama, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1-16. 
 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
