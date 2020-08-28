@@ -74,10 +74,25 @@ To be explicit:
 In a category with finite products, a _parametrized natural numbers object_ is an object $N$ together with maps $z: 1 \to N$, $s: N \to N$ such that given any objects $A$, $X$ and maps $f: A \to X$, $g: X \to X$, there is a unique map $\phi_{f, g}: A \times N \to X$ making the following diagram commute: 
 
 $$\array{
-A & \stackrel{\langle z \circ !, 1_A\rangle}{\to} & N \times A & \stackrel{s \times 1_A}{\leftarrow} & N \times A \\
+A & \stackrel{\langle 1_A, z \circ !\rangle}{\to} & A \times N & \stackrel{1_A \times s}{\leftarrow} & A \times N \\
  & \mathllap{f} \searrow & \downarrow \mathrlap{\phi_{f, g}} & & \downarrow \mathrlap{\phi_{f, g}} \\
  & & X & \underset{g}{\leftarrow} & X
 }$$ 
+=--
+
+In the [[internal language]], commutativity of this diagram says that $\phi_{f,g}(a,z) = f(a)$ and $\phi_{f,g}(a,s(n)) = g(\phi_{f,g}(a,n))$.
+
+It may seem odd that $A$ only appears in the domain of $f$ and not $g$.  However, this simplification is inessential, and indeed we are free to add $N$ to the domain of $g$ as well:
+
++-- {: .num_prop}
+###### Proposition
+If $(N,z,s)$ is a parametrized natural numbers object in a category with finite products, then for any objects $A$, $X$ with maps $f:A\to X$, $g:A\times N\times X \to X$, there is a unique map $\phi_{f,g} : A\times N \to X$ such that, in the [[internal language]], $\phi_{f,g}(a,z) = f(a)$ and $\phi_{f,g}(a,s(n)) = g(a,n,\phi_{f,g}(a,n))$ for all $n:N$.
+=--
++-- {: .proof}
+###### Proof
+Let $X' = A\times N\times X$, and define $f':A\to X'$ by $f'(a) = (a,z,f(a))$ and $g':X'\to X'$ by $g'(a,n,x) = (a,n,g(a,n,x))$.  Then the assumption gives $\phi' : A\times N \to X'$ such that $\phi'(a,z) = f'(a) = (a,z,f(a))$ and $\phi'(a,s(n)) = g'(\phi'(a,n))$.
+
+The composite $A \times N \xrightarrow{\phi'} X' \xrightarrow{\pi_1} A$ satisfies $\pi_1 \phi'(a,z) = \pi_1(a,z,f(a)) = a$ and $\pi_1\phi'(a,s(n)) = \pi_1 g'(\phi'(a,n)) = \pi_1 \phi'(a,n)$.  Thus, by the uniqueness assumption, we have $\pi_1 \phi'(a,n) = a$ for all $a,n$.  By a similar argument, we have $\pi_2 \phi'(a,n) = n$ for all $a,n$.  Therefore, $\phi'(a,s(n)) = (a,n,g(a,n,\phi'(a,n)))$, and hence the composite $A\times N  \xrightarrow{\phi'} X' \xrightarrow{\pi_3} X$ is the desired $\phi_{f,g}$.
 =--
 
 The functions which are constructible out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
