@@ -757,6 +757,25 @@ More details for the moment at [[∞-Chern-Weil theory introduction]].
 
 ## References
 
+The idea of invariant polynomials as a $G$-invariant subalgebra in the [[Weil algebra]], and their use in what is now called [[Chern-Weil theory]], originates with 
+
+
+* [[André Weil]], _Géométrie différentielle des espaces fibres_, unpublished, item [1949e] in: _André Weil Oeuvres Scientifiques / Collected Papers_, vol. 1 (1926-1951), 422-436, Springer 2009 ([ISBN:978-3-662-45256-1](https://www.springer.com/gp/book/9783662452561))
+
+* [[Henri Cartan]], _Cohomologie réelle d'un espace fibré principal différentiable. I : notions d'algèbre différentielle, algèbre de Weil d'un groupe de Lie _, Séminaire Henri Cartan, Volume 2  (1949-1950), Talk no. 19, May 1950  ([numdam:SHC_1949-1950__2__A18_0](http://www.numdam.org/item/?id=SHC_1949-1950__2__A18_0))
+
+  \linebreak
+
+  [[Henri Cartan]], _Notions d'algèbre différentielle; applications aux groupes de Lie et aux variétés o&ugrave; opère un groupe de Lie_, in: Centre Belge de Recherches Mathématiques, _Colloque de Topologie (Espaces Fibrés) Tenu &agrave; Bruxelles du 5 au 8 juin 1950_, Georges Thon 1951 ([GoogleBooks](https://books.google.de/books/about/Colloque_de_topologie_espaces_fibres.html?id=sagqHQAACAAJ&redir_esc=y))
+
+  \linebreak
+
+  (These two articles have the same content, with the same section outline, but not the same wording. The first one is a tad more detailed.)
+
+* {#Chern50} [[Shiing-shen Chern]], _Differential geometry of fiber bundles_, in: Proceedings of the International Congress of Mathematicians, Cambridge, Mass., (August-September 1950), vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952) ([[Chern-DifferentialGeometryOfFiberBundles.pdf:file]], [full proceedings vol 2 pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1950.2/ICM1950.2.ocr.pdf))
+
+
+
 Invariant polynomials for Lie algebras of [[simple Lie groups]] are disussed in
 
 * [[José de Azcárraga]],  A. J. Macfarlane, A. J. Mountain, J. C. Perez Bueno, _Invariant tensors for simple groups_, Nucl. Phys. B510 (1998) 657-687 ([arXiv:physics/9706006](http://arxiv.org/abs/physics/9706006))
