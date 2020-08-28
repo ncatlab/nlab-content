@@ -99,27 +99,27 @@ If $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal catego
 
 $$
   \pi \colon\;
-  f_!((f^\ast B) \otimes A) \stackrel{\cong}{\longrightarrow} B \otimes f_! A
+  f_!((f^\ast b) \otimes a) \stackrel{\cong}{\longrightarrow} b \otimes f_! a
 $$
  
-(often called the [[projection formula]]).
+(the [[projection formula]]).
 
 =--
 
 +-- {: .proof}
 ###### Proof 
 
-Suppose $\mathcal{X}$ and $\mathcal{Y}$ are symmetric closed monoidal categories, $f_! \colon \mathcal{X} \to \mathcal{Y}$ is left adjoint to $f^* \colon \mathcal{Y} \to \mathcal{X}$, and $f^*$ is strong closed.  For all $A \in \mathcal{X}$ and $B,C \in \mathcal{Y}$ we have a natural isomorphism
+Suppose $\mathcal{X}$ and $\mathcal{Y}$ are symmetric closed monoidal categories, $f_! \colon \mathcal{X} \to \mathcal{Y}$ is left adjoint to $f^* \colon \mathcal{Y} \to \mathcal{X}$, and $f^*$ is strong closed.  For all $a \in \mathcal{X}$ and $b,c \in \mathcal{Y}$ we have a natural isomorphism
 
-$$ \mathcal{Y}(A, [f^*B, f^*C]) \cong \mathcal{Y}(A, f^*[B,C] ) $$
+$$ \mathcal{Y}(a, [f^*b, f^*c]) \cong \mathcal{Y}(a, f^*[b,c] ) $$
 
 since $f^*$ is strong closed (i.e. it preserves the internal hom).   By hom-tensor adjointness and the fact that $f_!$ is the left adjoint of $f^*$ we can rewrite this as
 
-$$ \mathcal{Y}(f^* B \otimes A, f^*C) \cong \mathcal{X}(f_! A, [B,C]). $$
+$$ \mathcal{Y}(f^* b \otimes a, f^*c) \cong \mathcal{X}(f_! a, [b,c]). $$
 
 Using both these facts again we obtain
 
-$$ \mathcal{Y}(f_!(f^* B \otimes A), C) \cong \mathcal{X}(B \otimes f_! A, C) $$
+$$ \mathcal{Y}(f_!(f^* b \otimes a), c) \cong \mathcal{X}(b \otimes f_! a, c) $$
 
 By the [[Yoneda lemma]] this gives the desired natural isomorphism $\pi$.
 
@@ -127,7 +127,46 @@ By the [[Yoneda lemma]] this gives the desired natural isomorphism $\pi$.
 
 In the above result we assumed $f^*$ is strong closed but not necessarily monoidal.  If instead we assume $f^*$ is monoidal, we can show $f^*$ is strong closed iff the projection formula holds.
 
-First suppose $f_! \colon \mathcal{X} \to \mathcal{Y}$ is any lax monoidal functor between symmetric closed monoidal categories.  Then $f_!$ is automatically [[closed monoidal functor|lax closed]].   TO BE CONTINUED.
++-- {: .num_prop}
+###### Proposition
+
+Suppose $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and $f^*$ is strong monoidal.  Then there is a natural transformation
+$$
+  \pi \colon\;
+  f_!((f^\ast b) \otimes a) \stackrel{\cong}{\longrightarrow} b \otimes f_! a
+$$
+ 
+which is an isomorphism if and only if $f^*$ is strong closed.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+First suppose $f^* \colon \mathcal{Y} \to \mathcal{X}$ is any lax monoidal functor between symmetric closed monoidal categories.  Then $f^*$ is automatically [[closed monoidal functor|lax closed]], so we have a natural transformation
+
+$$ \hat{f^*} \colon f^*[b,c] \to [f^*b, f^*c]  $$
+
+for all $b,c \in \mathcal{Y}$.  Thus we obtain a natural transformation
+
+$$ \mathcal{X}(a, f^*[b,c]) \to \mathcal{X}(a, [f^*b, f^*c]) $$
+
+for all $a \in \mathcal{Y}$.   If $f^*$ has a left adjoint this gives a natural transformation 
+
+$$ \mathcal{X}(f_!a, [b,c]) \to \mathcal{X}(f^*b \otimes a, f^*c) $$
+
+and then a natural transformation
+
+$$ \mathcal{X}(b \otimes f_!a ,c) \to \mathcal{X}(f_! (f^*b \otimes a), c) $$
+
+so by Yoneda we get a natural transformation
+
+$$ \pi \colon f_! (f^* b \otimes a) \to b \otimes f_! a. $$
+
+If $f^*$ is strong closed then $\hat{f^*}$ is an isomorphism and so are all the natural transformations listed above, including $\pi$.  Conversely if $\pi$ is a natural isomorphism so is $\hat{f^*}$, so $f^*$ is strong closed.
+
+=--
+
 
 ### Relation to Frobenius laws (in Frobenius algebras)
 
