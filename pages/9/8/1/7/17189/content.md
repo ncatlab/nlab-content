@@ -26,7 +26,7 @@ $$
   X \stackrel{\simeq}{\longrightarrow} \Omega \Sigma X
 $$
 
-(of the ([[reduced suspension]] $\dashv$ [[loop space object]])-[[adjunction]]) is a [[weak equivalence]].
+of the ([[reduced suspension]] $\dashv$ [[loop space object]])-[[adjunction]] is a [[weak equivalence]].
 
 ([Schwede 97, def. 2.2.1](#Schwede97))
 
@@ -34,9 +34,12 @@ $$
 
 * [[stable model category]]
 
+* [[stable homotopy type]]
+
+* [excisive functor -- Characterization via the generic pointed object](https://ncatlab.org/nlab/show/excisive+infinity-functor#CharacterizationViaAGenericStableObject)
 
 ## References
 
-* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
+* {#Schwede97} [[Stefan Schwede]], Section 2.2 of: _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf), <a href="https://doi.org/10.1016/S0022-4049(96)00058-8">doi:10.1016/S0022-4049(96)00058-8</a>)
 
 [[!redirects linear model categories]]
