@@ -16,7 +16,7 @@
 
 ## Idea
 
-An _excisive (∞,1)-functor_ $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is one which sends [[homotopy pushout]] squares to [[homotopy pullback]] squares. If $\mathcal{C}$ is [[pointed object|pointed]] [[finite homotopy types]] and $\mathcal{D}$ is [[spectra]], then this condition is the [[axiom]] of [[excision]] in [[generalized (Eilenberg-Steenrod) cohomology|generalized homotopy]], whence the name.
+An _excisive (∞,1)-functor_ $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is an [[(∞,1)-functor]] which sends [[homotopy pushout]] squares to [[homotopy pullback]] squares. If the [[(∞,1)-category]] $\mathcal{C}$ is [[pointed object|pointed]] [[finite homotopy types]] and $\mathcal{D}$ is [[spectra]], then this condition is the [[axiom]] of [[excision]] in [[generalized (Eilenberg-Steenrod) cohomology|generalized homotopy]], whence the name.
 
 Moreover, if here $\mathcal{D}$ is instead [[∞Grpd]] (i.e. [[homotopy types]]), or more generally any [[(∞,1)-topos]] $\mathbf{H}$, then excisive functors that send the point to the point (up to equivalence) are still equivalent to [[spectra]] ([[spectrum objects]]) -- essentially by the [[Brown representability theorem]] -- and those without restriction are equivalent to [[parameterized spectra]], hence form the [[tangent (∞,1)-topos]] $T \mathbf{H}$.
 
