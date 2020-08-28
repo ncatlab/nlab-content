@@ -52,7 +52,7 @@ $$
   Ind(Res(W) \otimes V) \cong W \otimes Ind(V)
 $$
 
-is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)).  However, it is probably better to call this the _Frobenius law_.  See below the general discussion [in Wirthm&#252;ller contexts](#InWirthmuellerContexts).
+is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)).  
 
 ### In cartesian categories
  {#InCategoryTheory}
