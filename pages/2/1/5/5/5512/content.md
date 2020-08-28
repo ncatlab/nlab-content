@@ -57,19 +57,17 @@ is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here o
 ### In cartesian categories
  {#InCategoryTheory}
 
-In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
+In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon \mathcal{Y} \to \mathcal{X}$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(b^a) \to f^*(b)^{f^*(a)}$ is an [[isomorphism]] for all objects $a,b$ of $\mathcal{Y}$.
 
-Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "[[projection formula|projection]]" morphism 
+Each of the functors $-^a$, $-^{f^*(a)}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "[[projection formula|projection]]" morphism 
 
 $$
-\pi \colon f_!(C \times f^*A) \to (f_! C) \times A
+\pi \colon f_! (f^*a \times c) \to a \times f_! c 
 $$ 
 
-is an isomorphism for each $A$ in $Y$ and $C$ in $X$.  
+is an isomorphism for each $a$ in $\mathcal{Y}$ and $c$ in $\mathcal{X}$.  
 
 The last condition clearly makes sense also if the categories are [[cartesian monoidal category|cartesian]] but not necessarily [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
-
-
 
 This terminology is most commonly used in the following situations:
 
@@ -82,7 +80,10 @@ This terminology is most commonly used in the following situations:
 
 The projection formula plays a notable role in Grothendieck's yoga of [[six operations]].  For example if an [[adjoint triple]] $(f_! \dashv f^\ast \dashv f_\ast)$ between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is a _[[Wirthmüller context]]_ ([May 05](#May05)), $f^\ast$ is a strong [[closed monoidal functor]].  This implies the projection formula, i.e. the existence of a natural isomorphism
 
-$$ \pi \colon f_!((f^\ast B) \otimes A) \stackrel{\cong}{\longrightarrow} B \otimes f_! A $$
+$$
+  \pi \colon\;
+  f_!(f^\ast a \otimes c) \stackrel{\sim}{\longrightarrow} a \otimes f_! c
+$$
 
 The projection formula also holds in a [[Grothendieck context]] or a [[Verdier-Grothendieck context]] ([May 05](#May05)).
 
@@ -90,83 +91,65 @@ The projection formula also holds in a [[Grothendieck context]] or a [[Verdier-G
 
 ### Closed monoidal functors and the projection formula
 
-The following results isolate the connection between closed monoidal functors and the projection formula.
+The following result isolates the connection between [[closed functor|closed functors]] and the projection formula.  We begin with some context.
+
+Recall that a monoidal category $\mathcal{Y}$ is **left closed** if each functor $a \otimes - \colon \mathcal{Y} \to \mathcal{Y}$ has a right adjoint $[a, -] \colon  \mathcal{Y} \to \mathcal{Y}$, called the internal hom.   We can similarly define right closed monoidal categories.   A symmetric or even braided monoidal category is left closed if and only if it is right closed, and one then simply calls it [[closed monoidal category|closed]], but for maximum generality we consider the merely monoidal case.   
+
+A functor $F$ between left closed monoidal categories is **lax closed** it if preserves the internal hom and the unit object up to specified natural transformations 
+
+$$ \hat{F}: F[a,b] \to [F a,F b], \qquad  F_0 : I \to F(I) $$
+
+obeying some coherence laws listed at [[closed functor]].   If these are natural isomorphisms we call the functor **strong closed**.   Any lax monoidal functor betweeen left closed monoidal categories is lax closed (for a sketch of the argument see [[closed functor]]), but a strong monoidal functor may not be strong closed.   
 
 +-- {: .num_prop}
 ###### Proposition
 
-If $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and $f^*$ is strong closed then there is a natural isomorphism
+Suppose $f_! \dashv f^\ast$ is an adjunction between left closed monoidal categories.   Then natural transformations
+
+$$ \phi \colon f^*[a,b] \to [f^*a, f^*b]  $$
+
+correspond bijectively to natural transformations
 
 $$
   \pi \colon\;
-  f_!((f^\ast b) \otimes a) \stackrel{\cong}{\longrightarrow} b \otimes f_! a
+  f_!(f^\ast a \otimes c) \longrightarrow a \otimes f_! c
 $$
- 
-(the [[projection formula]]).
+
+Furthermore, $\phi$ is a natural isomorphism if and only if $\pi$ is, in which case we say the **projection formula** holds.
 
 =--
 
 +-- {: .proof}
 ###### Proof 
 
-Suppose $\mathcal{X}$ and $\mathcal{Y}$ are symmetric closed monoidal categories, $f_! \colon \mathcal{X} \to \mathcal{Y}$ is left adjoint to $f^* \colon \mathcal{Y} \to \mathcal{X}$, and $f^*$ is strong closed.  For all $a \in \mathcal{X}$ and $b,c \in \mathcal{Y}$ we have a natural isomorphism
+Suppose $\mathcal{X}$ and $\mathcal{Y}$ are left closed monoidal categories and $f_! \colon \mathcal{X} \to \mathcal{Y}$ is left adjoint to $f^* \colon \mathcal{Y} \to \mathcal{X}$.    Suppose we have a natural transformation 
 
-$$ \mathcal{Y}(a, [f^*b, f^*c]) \cong \mathcal{Y}(a, f^*[b,c] ) $$
+$$ \phi \colon f^*[a,b] \to [f^*a, f^*b]  $$
 
-since $f^*$ is strong closed (i.e. it preserves the internal hom).   By hom-tensor adjointness and the fact that $f_!$ is the left adjoint of $f^*$ we can rewrite this as
+for $a,b \in \mathcal{Y}$.  Thus we obtain a natural transformation
 
-$$ \mathcal{Y}(f^* b \otimes a, f^*c) \cong \mathcal{X}(f_! a, [b,c]). $$
+$$ \mathcal{X}(c, f^*[a,b]) \to \mathcal{X}(c, [f^*a, f^*b]) $$
+
+for $c \in \mathcal{X}$.   By hom-tensor adjointness and the fact that $f_!$ is the left adjoint of $f^*$ we can rewrite this as
+
+$$ \mathcal{Y}(f_! c, [a,b]) \to \mathcal{X}(f^*a \otimes c,f^*b). $$
 
 Using both these facts again we obtain
 
-$$ \mathcal{Y}(f_!(f^* b \otimes a), c) \cong \mathcal{X}(b \otimes f_! a, c) $$
+$$ \mathcal{Y}(a \otimes f_! c, b) \to \mathcal{X}(f_!(f^\ast a \otimes c), b) $$
 
-By the [[Yoneda lemma]] this gives the desired natural isomorphism $\pi$.
+By the [[Yoneda lemma]] this gives the desired natural transformation
 
-=--
-
-In the above result we assumed $f^*$ is strong closed but not necessarily monoidal.  If instead we assume $f^*$ is monoidal, we can show $f^*$ is strong closed iff the projection formula holds.
-
-+-- {: .num_prop}
-###### Proposition
-
-Suppose $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and $f^*$ is strong monoidal.  Then there is a natural transformation
 $$
   \pi \colon\;
-  f_!((f^\ast b) \otimes a) \stackrel{\cong}{\longrightarrow} b \otimes f_! a
+  f_!(f^\ast a \otimes c) \longrightarrow a \otimes f_! c
 $$
- 
-which is an isomorphism if and only if $f^*$ is strong closed.
+
+By running through this calculation one can see that if $\phi$ is a natural isomorphism then all the other natural transformations listed above are too, including $\pi$.  Conversely, starting with $\pi$ we can run the argument backwards and get $\phi$, and if $\pi$ is a natural isomorphism so is $\phi$.
 
 =--
 
-+-- {: .proof}
-###### Proof 
-
-First suppose $f^* \colon \mathcal{Y} \to \mathcal{X}$ is any lax monoidal functor between symmetric closed monoidal categories.  Then $f^*$ is automatically [[closed monoidal functor|lax closed]], so we have a natural transformation
-
-$$ \hat{f^*} \colon f^*[b,c] \to [f^*b, f^*c]  $$
-
-for all $b,c \in \mathcal{Y}$.  Thus we obtain a natural transformation
-
-$$ \mathcal{X}(a, f^*[b,c]) \to \mathcal{X}(a, [f^*b, f^*c]) $$
-
-for all $a \in \mathcal{Y}$.   If $f^*$ has a left adjoint this gives a natural transformation 
-
-$$ \mathcal{X}(f_!a, [b,c]) \to \mathcal{X}(f^*b \otimes a, f^*c) $$
-
-and then a natural transformation
-
-$$ \mathcal{X}(b \otimes f_!a ,c) \to \mathcal{X}(f_! (f^*b \otimes a), c) $$
-
-so by Yoneda we get a natural transformation
-
-$$ \pi \colon f_! (f^* b \otimes a) \to b \otimes f_! a. $$
-
-If $f^*$ is strong closed then $\hat{f^*}$ is an isomorphism and so are all the natural transformations listed above, including $\pi$.  Conversely if $\pi$ is a natural isomorphism so is $\hat{f^*}$, so $f^*$ is strong closed.
-
-=--
-
+It follows that if $f^*$ is strong closed, the projection formula holds.
 
 ### Relation to Frobenius laws (in Frobenius algebras)
 
