@@ -183,6 +183,15 @@ Later, an independent proof of the universal topological "Chern-Weil"-constructi
 
 * [[Raoul Bott]], _On the Chern-Weil homomorphism and the continuous cohomology of Lie-groups_, Advances in Mathematics Volume 11, Issue 3, December 1973, Pages 289-303 (<a href="https://doi.org/10.1016/0001-8708(73)90012-1">doi:10.1016/0001-8708(73)90012-1</a>)
 
+Review of the Chern-Weil construction :
+
+* [[Shiing-Shen Chern]], [[James Simons]], Section 2 of: _Characteristic Forms and Geometric Invariants_, Annals of Mathematics Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69 ([jstor:1971013](https://www.jstor.org/stable/1971013))
+
+  (in the context of [[Chern-Simons forms]])
+
+* Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
+
+
 Textbook accounts include
 
 * {#KobayashiNomizu63} Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of Differential Geometry_, Wiley 1963 ([web](https://www.zuj.edu.jo/download/foundations-of-differential-geometry-vol-1-kobayashi-nomizu-pdf/), [Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry))
@@ -191,9 +200,6 @@ Textbook accounts include
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
-Review:
-
-* Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
 
 
 
