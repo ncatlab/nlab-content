@@ -54,7 +54,7 @@ $$
 
 is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)).  However, it is probably better to call this the _Frobenius law_.  See below the general discussion [in Wirthm&#252;ller contexts](#InWirthmuellerContexts).
 
-### In category theory
+### In cartesian categories
  {#InCategoryTheory}
 
 In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
