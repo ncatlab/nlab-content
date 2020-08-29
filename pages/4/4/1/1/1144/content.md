@@ -1150,6 +1150,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 * [[rational equivariant stable homotopy theory]]
 
+* [[rational parametrized homotopy theory]]
+
 * [[rational parameterized stable homotopy theory]]
 
 
