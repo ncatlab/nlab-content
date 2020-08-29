@@ -16,7 +16,6 @@
 
 ## Definition
 
-
 For a [[natural number]] $n \in \mathbb{N}$, the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of the $n$-dimensional complex [[Hilbert space]] $\mathbb{C}^n$.   This is canonically identified with the group of $n \times n$ [[unitary matrices]].
 
 
@@ -324,10 +323,15 @@ This implies the claim.
 
 * {#MimuraToda63} M. Mimura and H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
 
-* {#EspinozaUribe} Jesus Espinoza, Bernardo Uribe, _Topological properties of the unitary group_, JP Journal of Geometry and Topology
-**16** (2014) Issue 1, pp 45-55. [journal](http://www.pphmj.com/abstract/8730.htm), arXiv:[1407.1869](https://arxiv.org/abs/1407.1869v1)
+* {#EspinozaUribe} Jesus Espinoza, [[Bernardo Uribe]], _Topological properties of the unitary group_, JP Journal of Geometry and Topology
+**16** (2014) Issue 1, pp 45-55 ([arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [doi:10.18257/raccefyn.317](http://dx.doi.org/10.18257/raccefyn.317))
 
 [[!redirects unitary group]]
 [[!redirects unitary groups]]
 
+[[!redirects infinite unitary group]]
+[[!redirects infinite unitary groups]]
+
 [[!redirects U(n)]]
+
+
