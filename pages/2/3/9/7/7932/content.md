@@ -1486,11 +1486,11 @@ This is mentioned for instance as exercise 4.2 in
 
 An alternative proof in terms of [[relative categories]] is in 
 
-* {#Sharma15} Amit Sharma, _On the homotopy theory of $G$-spaces_ ([arXiv:1512.03698](http://arxiv.org/abs/1512.03698))
+* {#Sharma15} Amit Sharma, _On the homotopy theory of $G$-spaces_, International Journal of Mathematics and Statistics Invention, Volume7 Issue 2, 2019 ([arXiv:1512.03698](http://arxiv.org/abs/1512.03698), [published pdf](https://www.ijmsi.org/Papers/Volume.7.Issue.2/H07025255.pdf))
 
 Closely related discussion of homotopy fiber sequences and homotopy action but in terms of [[Segal spaces]] is in section 5 of
 
-* [[Matan Prezma]], _Homotopy normal maps_ ([arXiv](http://arxiv.org/pdf/1011.4708v7.pdf)) 
+* [[Matan Prezma]], _Homotopy normal maps_, Algebr. Geom. Topol. Volume 12, Number 2 (2012), 1211-1238. ([arXiv:1011.4708](https://arxiv.org/abs/1011.4708v9), [euclid:agt/1513715387](https://projecteuclid.org/euclid.agt/1513715387)) 
 
 There, conditions are given for a morphism $A_\bullet \to B_\bullet$ to a [[reduced Segal space]] to have a fixed homotopy fiber, and hence encode an action of the loop group of $B$ on that fiber. 
 
