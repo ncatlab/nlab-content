@@ -93,7 +93,7 @@ The projection formula also holds in a [[Grothendieck context]] or a [[Verdier-G
 
 The following result isolates the connection between [[closed functor|closed functors]] and the projection formula.  We begin with some context.
 
-Recall that a monoidal category $\mathcal{Y}$ is **left closed** if each functor $a \otimes - \colon \mathcal{Y} \to \mathcal{Y}$ has a right adjoint $[a, -] \colon  \mathcal{Y} \to \mathcal{Y}$, called the internal hom.   We can similarly define right closed monoidal categories.   A symmetric or even braided monoidal category is left closed if and only if it is right closed, and one then simply calls it [[closed monoidal category|closed]], but for maximum generality we consider the merely monoidal case.   
+Recall that a monoidal category $\mathcal{Y}$ is **[left closed](https://ncatlab.org/nlab/show/closed+monoidal+category#left_right_and_biclosed_monoidal_category)** if each functor $a \otimes - \colon \mathcal{Y} \to \mathcal{Y}$ has a right adjoint $[a, -] \colon  \mathcal{Y} \to \mathcal{Y}$, called the internal hom.   We can similarly define right closed monoidal categories.   A symmetric or even braided monoidal category is left closed if and only if it is right closed, and one then simply calls it [[closed monoidal category|closed]], but for maximum generality we consider the merely monoidal case.   
 
 A functor $F$ between left closed monoidal categories is **lax closed** it if preserves the internal hom and the unit object up to specified natural transformations 
 
