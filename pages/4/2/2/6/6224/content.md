@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Nilpotent groups
 * table of contents
 {: toc}
@@ -105,6 +116,8 @@ Specifically:
 
 ## Related pages
 
+* [[nilpotent module]]
+
 * [[nilpotent element]]
 
 * [[nilpotent Lie algebra]]
@@ -113,7 +126,6 @@ Specifically:
 
 * [[localization of a space]]
 
-* [[nilpotent Lie algebra]]
 
 
 ## References
