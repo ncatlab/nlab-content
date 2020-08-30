@@ -20,6 +20,7 @@ My main research interest lies in the global geometric structures underlying the
 * email: [l.alfonsi@qmul.ac.uk](mailto:l.alfonsi@qmul.ac.uk)
 
 ## Selected writings
+ {#SelectedWritings}
 
 On global [[double field theory]] formulated in [[higher differential geometry]]:
 
