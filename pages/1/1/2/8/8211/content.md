@@ -43,7 +43,7 @@ For example, a [[cylinder]] [[worldsheet]] stretching between two [[D-brane]] [[
 
 
 > graphics grabbed from [Schomerus 07, Figure 4](#Schomerus07), see also e.g.
-[Peschanskia 09, Figure 1](#Peschanskia09)
+[Peschanski 09, Figure 1](#Peschanski09)
 
 Since 
 
@@ -109,7 +109,7 @@ Review:
 
 * {#Schomerus07} [[Volker Schomerus]], _Strings for quantum chromodynamics_, International journal of modern physics A 22:30 (2007) ([doi:10.1142/S0217751X07038827](https://doi.org/10.1142/S0217751X07038827))
 
-* {#Peschanskia09} R. Peschanskia, _Gauge-gravity duality and high energy collisions_, Nuclear Physics B - Proceedings Supplements, Volume 191, June 2009, Pages 320-330 ([doi:10.1016/j.nuclphysbps.2009.03.138](https://doi.org/10.1016/j.nuclphysbps.2009.03.138))
+* {#Peschanski09} R. Peschanski, _Gauge-gravity duality and high energy collisions_, Nuclear Physics B - Proceedings Supplements, Volume 191, June 2009, Pages 320-330 ([doi:10.1016/j.nuclphysbps.2009.03.138](https://doi.org/10.1016/j.nuclphysbps.2009.03.138))
 
 
 Original articles:
