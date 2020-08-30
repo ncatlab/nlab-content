@@ -130,11 +130,15 @@ Specifically:
 
 ## References
 
+* [[Peter Hilton]], _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques Vol. 26, No. 3 (1982), pp. 47-78 ([jstor:43741908](https://www.jstor.org/stable/43741908))
+
+* [[Peter May]], [[Kate Ponto]], _More Concise Algebraic Topology_, University of Chicago Press (2012) ([pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
+
+
 * eom [nilpotent group](http://eom.springer.de/n/n066720.htm)
 
-* wikipedia [nilpotent group](http://en.wikipedia.org/wiki/Nilpotent_group)
+* Wikipedia [nilpotent group](http://en.wikipedia.org/wiki/Nilpotent_group)
 
-* [[Peter May]] and [[Kate Ponto]], *More Concise Algebraic Topology*
 
 
 [[!redirects nilpotent group]]
