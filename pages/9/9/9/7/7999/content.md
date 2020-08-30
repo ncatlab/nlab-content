@@ -40,6 +40,8 @@ In ([Bunke-Schick 09](#BunkeSchick09)) and precursors, existence of fiber integr
 
 ## References
 
+* {#GomiTerashima00} [[Kiyonori Gomi]], [[Yuji Terashima]], _A Fiber Integration Formula for the Smooth Deligne Cohomology_, International Mathematics Research Notices 2000, No. 13 ([pdf](http://imrn.oxfordjournals.org/content/2000/13/699.full.pdf), [pdf](http://numr.wdfiles.com/local--files/differential-cohomology/gomi-terashima.pdf), [doi:10.1155/S1073792800000386](https://doi.org/10.1155/S1073792800000386))
+
 
 * {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], section 4.10 in  _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
