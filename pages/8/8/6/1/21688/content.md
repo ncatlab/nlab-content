@@ -28,11 +28,11 @@ Let
 
 $$
   \array{
-    F &\overset{fib(p)}{\longrightarrow}& X
+    F &\overset{fib(p)}{\longrightarrow}& A
     \\
     && \big\downarrow{}^{\mathrlap{p}}
     \\
-    && Y    
+    && B    
   }
 $$
 
@@ -40,17 +40,39 @@ be a [[Serre fibration]] of [[connected topological space|connected]] [[topologi
 
 If in addition
 
-1. the [[fundamental group]] $\pi_1(Y)$ [[nilpotent module|acts nilpotently]] on the [[homology groups]] $H_\bullet(F,k)$ 
+1. the [[fundamental group]] $\pi_1(B)$ [[nilpotent module|acts nilpotently]] on the [[homology groups]] $H_\bullet(F,k)$ 
 
-   (e.g. if $Y$ is [[simply connected topological space|simply connected]]);
+   (e.g. if $B$ is [[simply connected topological space|simply connected]]);
 
-1. at least one of $X$, $F$ has rational [[finite type]] 
+1. at least one of $A$, $F$ has rational [[finite type]] 
 
 then the [[cofiber]] of any [[relative Sullivan model]] for $p$ is a [[Sullivan model]] for $F$.
 
 =-- 
 
 ([Félix-Halperin-Thomas 00, Theorem 15.3](#FelixHalperinThomas00), following [Halperin 83, Section 16](#Halperin83))
+
+
+Moreover, if $CE(\mathfrak{l}B)$ is a [[minimal Sullivan model]] for $B$, then the cofiber of the corresponding minimal [[relative Sullivan model]] for $p$ is the [[minimal Sullivan model]] $CE(\mathfrak{l}F)$ for $F$:
+
+$$
+  \array{
+    CE(\mathfrak{l}F)
+    &\overset{
+      cofib
+      \big(
+        CE(\mathfrak{l}p)
+      \big)
+    }{\longleftarrow}&
+    CE(\mathfrak{l}_{{}_B}A)
+    \\
+    && \big\downarrow{}^{\mathrlap{ CE(\mathfrak{l}p) }}
+    \\
+    && CE(\mathfrak{l}B)
+  }
+$$
+
+([Félix-Halperin-Thomas 00, Corollary on p. 199](#FelixHalperinThomas00)) 
 
 ## Related concepts
 
