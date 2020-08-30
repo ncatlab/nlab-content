@@ -120,7 +120,7 @@ $$
 
 =--
 
-(e.g. [Gomi-Terashima 00, remark 3.1](fiber+integration+in+ordinary+differential+cohomology#GomiTerashima00))
+(e.g. [Gomi-Terashima 00, remark 3.1](#GomiTerashima00))
 
 
 ### Abstract formulation in cohesive homotopy-type theory
@@ -247,6 +247,13 @@ In early 20th-century [[vector analysis]] (and even today in undergraduate Calcu
 A standard account is for instance in
 
 * Reyer Sjamaar, _Manifolds and differential forms_, [pdf](http://www.math.cornell.edu/~sjamaar/papers/manifold.pdf)
+
+Statement of the fiberwise Stokes theorem:
+
+* {#GomiTerashima00} [[Kiyonori Gomi]], [[Yuji Terashima]], Remark 3.1 in: _A Fiber Integration Formula for the Smooth Deligne Cohomology_, International Mathematics Research Notices 2000, No. 13 ([pdf](http://imrn.oxfordjournals.org/content/2000/13/699.full.pdf), [pdf](http://numr.wdfiles.com/local--files/differential-cohomology/gomi-terashima.pdf), [doi:10.1155/S1073792800000386](https://doi.org/10.1155/S1073792800000386))
+
+* [[Liviu Nicolaescu]], Theorem 3.4.54 of: _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf), [[NicolaescuGeometryOfManifolds.pdf:file]])
+
 
 Discussion of [[chains]] of smooth [[singular simplices]]
 
