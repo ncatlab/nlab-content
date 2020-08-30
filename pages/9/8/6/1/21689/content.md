@@ -62,4 +62,11 @@ $\Gamma_{k_{max}}N = 0$.
 
 * [[nilpotent element]]
 
-[[!redirects nilpotent module]]
+## Selected writings
+
+* [[Peter Hilton]], _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques Vol. 26, No. 3 (1982), pp. 47-78 ([jstor:43741908](https://www.jstor.org/stable/43741908))
+
+
+
+
+[[!redirects nilpotent modules]]
