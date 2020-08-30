@@ -55,9 +55,9 @@ for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGK
 
 Original articles include
 
-* Yuji Terashima, Masahito Yamazaki, _$SL(2,\mathbb{R})$ Chern-Simons, Liouville, and Gauge Theory on Duality Walls_, JHEP 1108:135, 2011 ([arXiv:1103.5748](https://arxiv.org/abs/1103.5748))
+* [[Yuji Terashima]], [[Masahito Yamazaki]], _$SL(2,\mathbb{R})$ Chern-Simons, Liouville, and Gauge Theory on Duality Walls_, JHEP 1108:135, 2011 ([arXiv:1103.5748](https://arxiv.org/abs/1103.5748))
 
-* Yuji Terashima, Masahito Yamazaki, _Semiclassical Analysis of the 3d/3d Relation_, Phys.Rev.D88:026011, 2013 ([arXiv:1106.3066](https://arxiv.org/abs/1106.3066))
+* [[Yuji Terashima]], [[Masahito Yamazaki]], _Semiclassical Analysis of the 3d/3d Relation_, Phys.Rev.D88:026011, 2013 ([arXiv:1106.3066](https://arxiv.org/abs/1106.3066))
 
 * [[Tudor Dimofte]], [[Davide Gaiotto]], [[Sergei Gukov]], _Gauge Theories Labelled by Three-Manifolds_ ([arXiv:1108.4389](https://arxiv.org/abs/1108.4389))
 
