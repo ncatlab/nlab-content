@@ -377,10 +377,9 @@ The generalization of this to [[groupoid K-theory]] is in ([FHT 07, around p. 26
 
 Discussion in terms of [[vectorial bundles]] is in
 
-* {#Gomi} [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
+* {#Gomi} [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv:0803.2327](http://arxiv.org/abs/0803.2327))
  
-
-* {#GomiTerashima} [[Kiyonori Gomi]] und Yuji Terashima, _Chern-Weil Construction for Twisted K-Theory_ Communication ins Mathematical Physics, Volume 299, Number 1, 225-254, 
+* {#GomiTerashima} [[Kiyonori Gomi]], [[Yuji Terashima]], _Chern-Weil Construction for Twisted K-Theory_, Communication ins Mathematical Physics, Volume 299, Number 1, 225-254 ([doi:10.1007/s00220-010-1080-1](https://doi.org/10.1007/s00220-010-1080-1))
  
 
 The twisted version of [[differential K-theory]] is discussed in
