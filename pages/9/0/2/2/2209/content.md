@@ -1,4 +1,4 @@
-The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Information_%3D_Comprehension_%C3%97_Extension).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Information_%3D_Comprehension_%C3%97_Extension).
 
 [[!redirects ICE]]
 [[!redirects PLOI]]
