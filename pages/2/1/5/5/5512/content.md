@@ -149,7 +149,7 @@ By running through this calculation one can see that if $\phi$ is a natural isom
 
 =--
 
-It follows that if $f^*$ is strong closed, the projection formula holds.
+It follows that if $f^*$ is strong closed, the projection formula holds.  Also if $f$ is strong monoidal and the projection formula holds, $f^*$ is strong closed.
 
 ### Relation to Frobenius laws (in Frobenius algebras)
 
