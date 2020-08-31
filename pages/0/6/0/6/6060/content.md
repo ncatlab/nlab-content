@@ -60,9 +60,13 @@ The concept of $H_3$-twisted de Rham cohomology  was introduced (in discussion o
 
 * [[Ryan Rohm]], [[Edward Witten]], around (23) and appendix of: _The antisymmetric tensor field in superstring theory_, Annals of Physics Volume 170, Issue 2, September 1986, Pages 454-489 (<a href="https://doi.org/10.1016/0003-4916(86)90099-0">doi:10.1016/0003-4916(86)90099-0</a>)
 
-See also
+Further discussion:
+
+* {#CBMMS}  [[Peter Bouwknegt]], [[Alan Carey]], [[Varghese Mathai]], [[Michael Murray]], [[Danny Stevenson]], Section 9.3 of: _Twisted K-theory and K-theory of bundle gerbes_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194), [doi:10.1007/s002200200646](https://doi.org/10.1007/s002200200646))
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Section 2 of: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+
+* [[Constantin Teleman]], around Prop. 3.7 in:_K-theory of the moduli of bundles over a Riemann surface and deformations of the Verlinde algebra_, in: [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_, Cambridge 2004 ([arXiv:math/0306347](https://arxiv.org/abs/math/0306347), [spire:660158](https://inspirehep.net/literature/660158))
 
 
 * {#Cavalcanti03} [[Gil Cavalcanti]], Section I.4 of: _New aspects of the $d d^c$-lemma_, Oxford  2005 ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
