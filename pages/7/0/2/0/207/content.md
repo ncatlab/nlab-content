@@ -164,14 +164,10 @@ where de Bruijn makes a distinction between definitional equality and "book" equ
 [[!redirects definitional equality]]
 [[!redirects definitional equalities]]
 
-[[!redirects propositional equality]]
-[[!redirects propositional equalities]]
-
 [[!redirects computational identity]]
 [[!redirects computational identities]]
 [[!redirects computational equality]]
 [[!redirects computational equalities]]
-
 
 [[!redirects intensional identity]]
 [[!redirects intensional identities]]
@@ -179,5 +175,3 @@ where de Bruijn makes a distinction between definitional equality and "book" equ
 [[!redirects intensional equalities]]
 [[!redirects extensional equality]]
 [[!redirects extensional equalities]]
-
-
