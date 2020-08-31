@@ -1,4 +1,6 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -80,7 +82,7 @@ But this cofiber, being the cofiber of a [[relative Sullivan model]] and hence o
 
 Therefore (eq:SullivanModelForFiber) implies that:
 
-On fibrations of [[connected topological space|connected]] rational [[finite type]] spaces where the [[fundamental group]] of the base space [[nilpotent module|acts nilpotently]] on the [[homology groups]] of the [[fiber]]: _[[rationalization]] preserves [[homotopy fibers]]_.
+On fibrations of [[connected topological space|connected]] rational [[finite type]]-spaces, where the [[fundamental group]] of the base space [[nilpotent module|acts nilpotently]] on the [[homology groups]] of the [[fiber]]: _[[rationalization]] preserves [[homotopy fibers]]_.
 
 (This is the _fibration lemma_ orginally due to [Bousfield-Kan 72, Chapter II](#BousfieldKan72).)
 
@@ -99,3 +101,6 @@ On fibrations of [[connected topological space|connected]] rational [[finite typ
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], Chapter II "Fiber Lemmas" of: _Homotopy Limits, Completions and Localizations_, Springer 1972 ([doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4))
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Sections 14 and 15 of: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
+
+[[!redirects rational fibration lemma]]
+
