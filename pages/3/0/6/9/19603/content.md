@@ -81,6 +81,8 @@ Work conducted in homotopy type theory:
 
 * Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098))
 
+* Daniel Carranza, Jonathan Chang, Chris Kapulkin, Ryan Sandford, _2-adjoint equivalences in homotopy type theory_, ([arXiv:2008.12433](https://arxiv.org/abs/2008.12433))
+
 
 
 
