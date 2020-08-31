@@ -139,6 +139,9 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role in t
 
 * [[Clay Cordova]], G. Bruno De Luca, [[Alessandro Tomasiello]], _Classical de Sitter Solutions of Ten-Dimensional Supergravity_ ([arXiv:1812.04147](https://arxiv.org/abs/1812.04147))
 
+* [[Michael Dine]], Jamie A.P. Law-Smith, Shijun Sun, Duncan Wood, Yan Yu, _Obstacles to Constructing de Sitter Space in String Theory_ ([arXiv:2008.12399](https://arxiv.org/abs/2008.12399))
+
+
 On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
 
 * {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
