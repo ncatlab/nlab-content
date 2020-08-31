@@ -93,3 +93,5 @@ A pedadogically aimed study of higher doctrines, using the simple definition of 
 * [[Higher doctrines]].
 
 [[!redirects doctrines]]
+[[!redirects 2-theory]]
+[[!redirects 2-theories]]
