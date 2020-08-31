@@ -224,9 +224,14 @@ See at _[[Deligne complex]]_
 
 ### In differential geometry
 
-(...)
+Discussion in [[differential geometry]]:
+
+* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
+
 
 ### In algebraic geometry
+
+Discussion in [[algebraic geometry]]
 
 A useful introduction is 
 
