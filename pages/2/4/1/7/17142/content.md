@@ -655,7 +655,7 @@ $$
 
 
 
-More generally, there are universal Thom spectra associated with any other tangent structure ("[[(B,f)]-structure]]"), notably for the orthogonal group replaced by the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., or any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, [[MSpin]], $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.:
+More generally, there are universal Thom spectra associated with any other tangent structure ("[[(B,f)-structure]]"), notably for the orthogonal group replaced by the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., or any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, [[MSpin]], $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.:
 
 
 +-- {: .num_defn #VectorBundleAssociatedWithBfStructure}
