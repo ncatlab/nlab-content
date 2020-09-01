@@ -193,7 +193,7 @@ $$
 
 =--
 
-This is due to ([Shipley 02](#Shipley02)). The corresponding [[equivalence of (∞,1)-categories]] for $R$ a commutative rings with the intrinsically defined [[(∞,1)-category]] of [[En-algebra|E1-algebra]] objects on the left appears as ([[Higher Algebra|Lurie HA, prop. 7.1.4.6]]).
+This is due to ([Shipley 02](#Shipley02)). The corresponding [[equivalence of (∞,1)-categories]] for $R$ a commutative rings with the intrinsically defined [[(∞,1)-category]] of [[En-algebra|E1-algebra]] objects on the left appears as ([[Higher Algebra|Lurie HA, prop. 7.1.4.6]]). The equivalence on the level of [[homotopy categories]] was proved in ([Stanley 97, theorem 1.1.4](#Stanley97)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -223,4 +223,6 @@ This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there 
 * [[Jacob Lurie]], section 7.1.4 of _[[Higher Algebra]]_
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_ 
+
+* {#Stanley97} Donald Stanley, _Closed model categories and monoidal categories_, Ph.D. Thesis, University of Toronto (1997) ([pdf](https://tspace.library.utoronto.ca/bitstream/1807/10762/1/NQ27731.pdf))
  
