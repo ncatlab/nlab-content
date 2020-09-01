@@ -31,7 +31,7 @@ It does so by prescribing the allowable judgment structures of the [[2-theories]
 
 1. The 3-theory of first-order logic. Syntactically, this corresponds to type 2-theories with one layer of dependency: there is one layer of types which cannot depend on anything, and then there is a second layer of types (“propositions” in the logical reading) which can depend on types in the first layer, but not on each other. Semantic 2-theories in this 3-theory should be a sort of “2-hyperdoctrine”.
 
-1. The 3-theory that corresponds syntactically to "dependent type (2-)theories" with judgments such as $x:A, y:B(x), z:C(x, y) \vdash d:D(x, y, z)$. The semantic version of this should be some kind of "comprehension 2-category" ([Shulman 18b](#Shulman18b)).
+1. The 3-theory that corresponds syntactically to "dependent type (2-)theories" with judgments such as $x:A, y:B(x), z:C(x, y) \vdash d:D(x, y, z)$. The semantic version of this should be some kind of "comprehension 2-category" ([Shulman 18b](#Shulman18b)). [[Homotopy type theory]] is a 2-theory defined in this 3-theory.
 
 1. The 3-theory that corresponds syntactically to "classical simple type (2-)theories" with judgments such as $A,B,C \vdash D,E$ that allow finite lists of types on both sides of the turnstile.  For instance, the 2-theory of $\ast$-autonomous categories (classical linear logic), and also of Boolean algebras (classical nonlinear logic), live in this 3-theory. Variants would allow composition along multiple types at once (corresponding to a prop), composition only along one type at a time (corresponding to a polycategory), or both.
 
