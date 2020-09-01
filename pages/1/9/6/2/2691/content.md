@@ -101,6 +101,7 @@ Say that a [[dgc-algebra]] $A \in dgcAlg^{\geq 0}_k$ (def. \ref{dgcCochainAlgebr
 
 +-- {: .num_defn #ProjectiveModelStructureOnCdgAlg}
 ###### Definition
+**(projective model structure on rational connective dgc-algebras)**
 
 Write $(dgcAlg^{\geq 0}_k)_{proj}$ for the catgory of [[dgc-algebras]] from def. \ref{dgcCochainAlgebrasInNonNegativeDegrees} equipped with the following [[classes]] of morphisms:
 
@@ -479,6 +480,34 @@ $$
 #### Relation to cosimplicial commutative algbras
 
 The [[monoidal Dold-Kan correspondence]] gives a [[Quillen equivalence]] to the [[model structure on cosimplicial algebras|projective model structure on cosimplicial commutative algebras]] $(cAlg_k^{\Delta})_{proj}$.
+
+
+#### Preservation of weak equivalences under pushout
+ {#PreservationOfWeakEquivalencesUnderPushout}
+
++-- {: .num_prop #PushoutAlongRelativeSullivanModelsPreservesQuasiIsos}
+###### Proposition
+**([[pushout]] along [[relative Sullivan models]] preserves [[quasi-isomorphisms]])**
+
+In the projective model structure on connective dgc-algebras (Def. \ref{ProjectiveModelStructureOnCdgAlg}), the operation of [[pushout]] along a [[relative Sullivan model]] preserves weak equivalences (quasi-isomorphisms).
+
+=--
+
+This is [Felix-Halperin-Thomas 00, Lemma 14. using Prop. 6.7 (ii)](#FelixHalperinThomas00). 
+
++-- {: .num_remark}
+###### Remark
+
+Lemma 14.2 in [Felix-Halperin-Thomas 00](#FelixHalperinThomas00) is stated under the additional assumption that the dgc-algebras being pushed put have $H^0(-) - k$. But this is only used to find the stronger statement that the pushout is itself a Sullivan model. The argument via Prop. 6.7 that the pushout is a quasi-iso does not use this assumption.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{PushoutAlongRelativeSullivanModelsPreservesQuasiIsos} comes close to saying that the projective model structure on connective dgc-algebras is a [[left proper model category]], but not quite: The class of all [[cofibrations]] is larger than that of [[relative Sullivan algebras]], it includes also their [[retracts]] (see e.g [Hess 06](#Hess06)).
+
+=--
 
 
 #### Commutative vs. non-commutative dg-algebras 
@@ -1326,11 +1355,15 @@ Review:
 * {#Moerman15} [[Joshua Moerman]], Section II of: _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
 
 
-This makes use of the general discussion in section 3 of 
+The approach in [Hess 06](#Hess06) makes use of the general discussion in section 3 of 
 
 * [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
 that obtains the model structure from the [[model structure on chain complexes]].
+
+See also 
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
 
 ### On non-commutative dg-algebras
