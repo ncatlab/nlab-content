@@ -64,7 +64,7 @@ $$
 
 =--
 
-([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03))
+([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03), see also at _[[stable Dold-Kan correspondence]]_).
 
 +-- {: .num_remark}
 ###### Remark
