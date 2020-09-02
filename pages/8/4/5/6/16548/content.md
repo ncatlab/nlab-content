@@ -78,7 +78,8 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonadPDE.pdf:file]])
 
-(Proposition 1.4 in [Marvan 86](#Marvan86) needs an extra "weakened transversality" condition on the equalizer, this is fixed in (Theorem 1.3, [Marvan's thesis](#MarvanThesis)). The extra condition is that the equalizer must remain an equalizer after an application of the $V$ functor, which maps fibered manifolds to their vertical tangent bundles.)
+
+> (Proposition 1.4 in [Marvan 86](#Marvan86) needs an extra "weakened transversality" condition on the equalizer, this is fixed in (Theorem 1.3, [Marvan's thesis](#MarvanThesis)). The extra condition is that the equalizer must remain an equalizer after an application of the $V$ functor, which maps fibered manifolds to their vertical tangent bundles.)
 
 * {#MarvanThesis} [[Michal Marvan]], thesis, 1989 ([[MarvanThesis.pdf:file]], [web](http://www.slu.cz/math/cz/lide/marvan-michal/docs/mar89-ocr.pdf))
 
@@ -86,22 +87,22 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
 * {#Marvan93} [[Michal Marvan]], section 1.1 of _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
 
-Discussion in [[synthetic differential geometry]] is in
+Discussion in [[synthetic differential geometry]]:
 
 * {#Deligne70} [[Pierre Deligne]], _Equations Diff&#233;rentielles &#224; Points Singuliers R&#233;guliers_, 1970
 
 * {#Kock10} [[Anders Kock]], remark 7.3.1 _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
-In the context of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
+In the context of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in:
 
 * {#Lurie} [[Jacob Lurie]], above prop. 0.9 in _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)), 2009
 
-Discussion in [[differential cohesion]] is in
+Discussion in [[differential cohesion]]:
 
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
-Discussion in differentially cohesive [[homotopy type theory]] is in
+Discussion in differentially cohesive [[modal homotopy type theory|modal]] [[homotopy type theory]]:
 
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
 
