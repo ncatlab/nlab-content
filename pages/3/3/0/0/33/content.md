@@ -177,6 +177,15 @@ A bit of $n$-Caf&#233; discussion on this subject can be found here:
 
 * [[John Baez]], _[What is categorification?](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)_
 
+Some discussion and lecture notes can be found in part II of
+
+* [[Yuri Ximenes Martins]], _Categorical and Geometrical Methods in Physics_, Master’s thesis, UFMG, 2018. ([pdf](https://repositorio.ufmg.br/bitstream/1843/32053/1/dissertacao_yuri_FINAL.pdf), [slides](https://math-phys.group/wp-content/uploads/2020/08/slides_yuri.pdf))
+
+and in Chapter 4 of
+
+* [[Yuri Ximenes Martins]], _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302), [hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
+
+
 A general notion of categorification for structures defined by [[cartesian monads]], which specializes to produce weak [[n-categories]] in the sense of Leinster, can be found here:
 
 * [[D. Bourn]], J. Penon, _Cat&#233;gorification de structures d&#233;finies par monade cart&#233;sienne_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __46__, no. 1 (2005), p. 2-52, [numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_2005__46_1_2_0).
