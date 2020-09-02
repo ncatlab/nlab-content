@@ -58,18 +58,18 @@ $$
 
 Steenrod's original colloquium lectures were published as:
 
-* [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_  Advances in Math. 8, 371&#8211;416. (1972)  (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
+* [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_,  Advances in Math. 8, 371&#8211;416. (1972)  (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
 
 Review in:
 
-* {#May} [[Peter May]], chapter 22, section 5 of: _A concise course in algebraic topology_, University of Chicago Press 1999 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
+* {#May} [[Peter May]], chapter 22, section 5 of: _A concise course in algebraic topology_, University of Chicago Press 1999 (ISBN:978-0226511832, [pdf](https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 
 Textbook accounts include the following.
 
 For [[ordinary cohomology]]:
 
-* [[Robert Mosher]], [[Martin Tan-gora]], _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968), Dover (2008) ([ISBN10:0486466647](https://store.doverpublications.com/0486466647.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
+* [[Robert Mosher]], Martin Tan-gora, _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968), Dover (2008) ([ISBN10:0486466647](https://store.doverpublications.com/0486466647.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
 
 For [[Adams operations]]:
 
@@ -83,5 +83,6 @@ For [[Steenrod operations]] and operations in [[generalized (Eilenberg-Steenrod)
 Discussion of refinement of cohomology operations to [[differential cohomology]] is in
 
 * Daniel Grady, [[Hisham Sati]], _Primary operations in differential cohomology_, Adv. Math. 335 (2018), 519-562 ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988), [doi:10.1016/j.aim.2018.07.019](https://www.sciencedirect.com/science/article/pii/S0001870818302676?via%3Dihub))
+
 
 [[!redirects cohomology operations]]
