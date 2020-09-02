@@ -58,19 +58,27 @@ $$
 
 Steenrod's original colloquium lectures were published as:
 
-* [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_  Advances in Math. 8, 371&#8211;416. (1972).  ([scanned pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
+* [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_  Advances in Math. 8, 371&#8211;416. (1972)  (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
+
+Review in:
+
+* {#May} [[Peter May]], chapter 22, section 5 of: _A concise course in algebraic topology_, University of Chicago Press 1999 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
+
 
 Textbook accounts include the following.
 
+For [[ordinary cohomology]]:
 
-* [[Robert Mosher]], [[Martin Tangora]], p. 38 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](www.maths.ed.ac.uk/~aar/papers/moshtang.pdf))
+* [[Robert Mosher]], Martin Tan-gora, _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968), Dover (2008) ([ISBN10:0486466647](https://store.doverpublications.com/0486466647.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
+
+For [[Adams operations]]:
+
+* {#AguilarGitlerPrieto} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Section 10 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002)
+
+For [[Steenrod operations]] and operations in [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] ([[MU]] and [[BP]]):
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.5 and 3.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#AguilarGitlerPrieto} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002)
- 
-
-* {#May} [[Peter May]], chapter 22, section 5 of _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
 
 Discussion of refinement of cohomology operations to [[differential cohomology]] is in
 
