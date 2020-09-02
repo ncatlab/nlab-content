@@ -65,6 +65,7 @@ For more details on this construction see the section <a href="http://ncatlab.or
 
 As discussed there, too, this construction generalizes to more general [[simplicial topological group]]s and classifying spaces for their [[principal ∞-bundle]]s.
 
+
 ### For orthogonal and unitary principal bundles
  {#ForOrthogonalAndUnitaryPrincipalBundles}
 
