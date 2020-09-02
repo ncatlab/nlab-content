@@ -31,6 +31,11 @@ _Chiral anomalies, effective lagrangians and differential geometry_, Physics Let
 
 * Tomáš Brauner, Helena Kolešová, _Gauged Wess-Zumino terms for a general coset space_, Nuclear Physics B Volume 945, August 2019, 114676 ([doi:10.1016/j.nuclphysb.2019.114676](https://doi.org/10.1016/j.nuclphysb.2019.114676))
 
+See also
+
+* Yasunori Lee, [[Kantaro Ohmori]], [[Yuji Tachikawa]], _Revisiting Wess-Zumino-Witten terms_ ([arXiv:2009.00033](https://arxiv.org/abs/2009.00033))
+
+
 Interpretation as [[Skyrmion]]/[[baryon current]]:
 
 * [[Jeffrey Goldstone]], [[Frank Wilczek]], _Fractional Quantum Numbers on Solitons_, Phys. Rev. Lett. 47, 986 (1981) ([doi:10.1103/PhysRevLett.47.986](https://doi.org/10.1103/PhysRevLett.47.986))
