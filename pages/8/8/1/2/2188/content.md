@@ -47,7 +47,7 @@ As a corollary, if another function $h$ vanishes on the zero set of $f$, then $f
 
 ##Ingredients of proofs##
 
-Weierstrass used analytic methods to prove the theorem; in fact the [[residue theorem]] and [[Cauchy integral formula]] are used. However, much later a fully algebraic proof has been found, and it allows generalizations to much wider setups, not only over complex numbers.  
+Weierstrass's original result considered the ring of holomorphic functions, and therefore used analytic methods such as the [[residue theorem]] and [[Cauchy integral formula]] are used. Analogous results are now known in the ring of formal power series, as well as for power series over non-Archimedean fields; in these settings, the proof can be made fully algebraic.
 
 ## References
 
