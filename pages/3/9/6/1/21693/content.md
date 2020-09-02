@@ -29,13 +29,13 @@ It does so by prescribing the allowable judgment structures of the [[2-theories]
 
 1. The 3-theory of cartesian monoidal 2-categories (or cartesian 2-multicategories).  Syntactically, this corresponds to "simple type (2-)theories" with judgments such as $x:A, y:B, z:C \vdash d:D$ with a finite list of types to the left but exactly one type to the right, and no dependent types ([LSR 17](#LSR17)).
 
-1. The 3-theory of first-order logic. Syntactically, this corresponds to type 2-theories with one layer of dependency: there is one layer of types which cannot depend on anything, and then there is a second layer of types (“propositions” in the logical reading) which can depend on types in the first layer, but not on each other. Semantic 2-theories in this 3-theory should be a sort of “2-hyperdoctrine”.
+1. The 3-theory of first-order logic. Syntactically, this corresponds to type 2-theories with one layer of dependency: there is one layer of types which cannot depend on anything, and then there is a second layer of types (“propositions” in the logical reading) which can depend on types in the first layer, but not on each other. 2-theories here include (typed) first-order classical logic, first-order intuitionistic logic, first-order linear logic, the type theory of indexed monoidal categories, first-order modal logic, etc. Semantic 2-theories in this 3-theory should be a sort of “2-hyperdoctrine”. 
 
 1. The 3-theory that corresponds syntactically to "dependent type (2-)theories" with judgments such as $x:A, y:B(x), z:C(x, y) \vdash d:D(x, y, z)$. The semantic version of this should be some kind of "comprehension 2-category" ([Shulman 18b](#Shulman18b)). [[Homotopy type theory]] is a 2-theory defined in this 3-theory.
 
-1. The 3-theory that corresponds syntactically to "classical simple type (2-)theories" with judgments such as $A,B,C \vdash D,E$ that allow finite lists of types on both sides of the turnstile.  For instance, the 2-theory of $\ast$-autonomous categories (classical linear logic), and also of Boolean algebras (classical nonlinear logic), live in this 3-theory. Variants would allow composition along multiple types at once (corresponding to a prop), composition only along one type at a time (corresponding to a polycategory), or both.
+1. The 3-theory that corresponds syntactically to "classical simple type (2-)theories" with judgments such as $A,B,C \vdash D,E$ that allow finite lists of types on both sides of the turnstile.  For instance, the 2-theory of $\ast$-autonomous categories (classical linear logic), and also of Boolean algebras (classical nonlinear logic), live in this 3-theory, as does the 2-theory for symmetric monoidal categories described in ([Shulman 19](#Shulman19)). Variants would allow composition along multiple types at once (corresponding to a prop), composition only along one type at a time (corresponding to a polycategory), or both.
 
-A 3-theory may be said to subsume another 3-theory, in the sense that a [[2-theory]] written in the latter may be formulated in the former. Here the first four 3-theories are ordered in terms of increasing expressivity. (4) and (5) are not comparable.
+A 3-theory may be said to subsume another 3-theory, in the sense that a [[2-theory]] written in the latter may be formulated in the former. Here the first four 3-theories are ordered in terms of increasing expressivity. (5) subsumes (2), but (4) and (5) are not comparable.
 
 
 ## References
@@ -49,3 +49,5 @@ A 3-theory may be said to subsume another 3-theory, in the sense that a [[2-theo
 * {#Shulman18b} [[Mike Shulman]], _Type 2-theories_, ([HoTTEST seminar](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html))
 
 * {#Licata18} [[Dan Licata]], _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/current-trimester-program/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018 ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/him-tutorial.pdf))
+
+* {#Shulman19} [[Mike Shulman]], _A practical type theory for symmetric monoidal categories_, ([arXiv:1911.00818](https://arxiv.org/abs/1911.00818))
