@@ -317,6 +317,8 @@ Moreover, these are [[Quillen adjunctions]]: the first with respect to the [[pro
 
 ## Related concepts
 
+* [[stable Dold-Kan correspondence]]
+
 * [[rational homotopy theory]]
 
 * [[rational parameterized stable homotopy theory]]
