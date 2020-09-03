@@ -1274,7 +1274,17 @@ Relation to [[Whitehead products]]:
 
 * Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ ([arXiv:1106.4080](https://arxiv.org/abs/1106.4080))
 
+### Generalization to arbitrary fundamental groups
 
+Generalization to arbitrary [[fundamental groups]]:
+
+* Antonio Gómez-Tato, [[Stephen Halperin]], [[Daniel Tanré]], _Rational Homotopy Theory for Non-Simply Connected Spaces_, Transactions of the American Mathematical Society, Transactions of the American Mathematical Society Vol. 352, No. 4 (Apr., 2000), pp. 1493-1525 (33 pages) ([jstor:118074](https://www.jstor.org/stable/118074))
+
+* Syunji Moriya, _Rational homotopy theory and differential graded category_, Journal of Pure and Applied Algebra, Volume 214, Issue 4, April 2010, Pages 422-439 ([doi:10.1016/j.jpaa.2009.06.015](https://doi.org/10.1016/j.jpaa.2009.06.015))
+
+* [Felix-Halperin-Thomas 15](#FelixHalperinThomas15)
+
+* [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], _Homotopy theory of complete Lie algebras and Lie models of simplicial sets_, Journal of Topology (2018) 799-825 ([arXiv:1601.05331](https://arxiv.org/abs/1601.05331), [doi:10.1112/topo.12073](https://doi.org/10.1112/topo.12073))
 
 
 
