@@ -59,17 +59,19 @@ a bundle 2-gerbe over a manifold $X$ is
 
 Bundle 2-gerbes were briefly introduced in
 
-* [[Alan Carey]], [[Michael Murray]], B.L. Wang, _Higher bundle gerbes and cohomology classes in gauge theories_ ([arXiv:hep-th/9511169](http://arxiv.org/abs/hep-th/9511169))
+* [[Alan Carey]], [[Michael Murray]], B.L. Wang, _Higher bundle gerbes and cohomology classes in gauge theories_, Journal of Geometry and Physics
+Volume 21, Issue 2, January 1997, Pages 183-197 ([arXiv:hep-th/9511169](http://arxiv.org/abs/hep-th/9511169), <a href="https://doi.org/10.1016/S0393-0440(96)00014-9">doi:10.1016/S0393-0440(96)00014-9</a>)
 
 and further developed in
 
-* [[Danny Stevenson]], _Bundle 2-gerbes_ ([arXiv:math/0106018](http://arxiv.org/abs/math/0106018)),
+* [[Danny Stevenson]], _Bundle 2-gerbes_, Proceedings of the London Mathematical Society, Volume 88, Issue 2, March 2004, Pages 405–435 ([arXiv:math/0106018](http://arxiv.org/abs/math/0106018), [doi:10.1112/S0024611503014357]( https://doi.org/10.1112/S0024611503014357)),
 
 drawing on ideas from Stevenson's PhD thesis ([arXiv:math/0004117](http://arxiv.org/abs/math/0004117)).
 
 A general picture of bundle $n$-gerbes (with connection) as [[circle n-bundle with connection|circle (n+1)-bundles with connection]] classified by [[Deligne cohomology]] is in 
 
-* Pawel Gajer, _Geometry of Deligne cohomology_ Invent. Math., 127(1):155--207 (1997) ([arXiv](http://arxiv.org/abs/alg-geom/9601025))
+* [[Pawel Gajer]], _Geometry of Deligne cohomology_, Invent. Math., 127(1):155-207 (1997) ([arXiv:alg-geom/9601025](http://arxiv.org/abs/alg-geom/9601025), [doi:10.1007/s002220050118](https://doi.org/10.1007/s002220050118))
+
 
 
 [[!redirects bundle 2-gerbes]]
