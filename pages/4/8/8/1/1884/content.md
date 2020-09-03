@@ -2726,6 +2726,10 @@ and shown to give a [[generalized (Eilenberg-Steenrod) cohomology]] theory in
 
 * {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. (<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
+Early review:
+
+*  {#Atiyah67}  [[Michael Atiyah]], _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf))
+
 Representable K-theory over non-compact spaces was considered in
 
 * {#Karoubi70} [[Max Karoubi]], _Espaces Classifiants en K-Th&#233;orie_, Transactions of the American Mathematical Society
@@ -2742,7 +2746,6 @@ Early lecture notes on topological K-theory in a general context of [[stable hom
 
 Textbook accounts on topological K-theory include
 
-* {#Atiyah67} [[M. F. Atiyah]], _K-theory_, Benjamin New-York, 1967, ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahk.pdf))
 
 * {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975.
 
