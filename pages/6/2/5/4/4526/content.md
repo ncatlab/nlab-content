@@ -46,6 +46,15 @@ A Lie 6-group is a 5-[[truncated]] $\infty$-Lie group.
 
 ## Related concepts
 
+* [[∞-group]]
+
+* [[higher gauge theory]]
+
+  * [[higher gauge field]]
+
+  * [[higher gauge transformation]]
+
+
 * [[cohesive (∞,1)-topos]]
 
   * [[discrete ∞-groupoid]]
@@ -64,3 +73,10 @@ See [[smooth ∞-groupoid]].
 
 [[!redirects ∞-Lie groups]]
 [[!redirects infinity-Lie groups]]
+
+[[!redirects Lie n-group]]
+[[!redirects Lie n-groups]]
+
+
+[[!redirects Lie ∞-group]]
+[[!redirects Lie ∞-groups]]
