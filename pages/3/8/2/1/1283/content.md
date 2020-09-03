@@ -462,7 +462,7 @@ Early texts also include
 
 A general picture of bundle $n$-gerbes (with connection) as [[circle n-bundle with connection|circle (n+1)-bundles with connection]] classified by [[Deligne cohomology]] is in 
 
-* [[Pawel Gajer]], _Geometry of Deligne cohomology_ Invent. Math., 127(1):155-207 (1997) ([arXiv](http://arxiv.org/abs/alg-geom/9601025))
+* [[Pawel Gajer]], _Geometry of Deligne cohomology_, Invent. Math., 127(1):155-207 (1997) ([arXiv:alg-geom/9601025](http://arxiv.org/abs/alg-geom/9601025), [doi:10.1007/s002220050118](https://doi.org/10.1007/s002220050118))
 
 Reviews are in
 
