@@ -5,7 +5,7 @@
 
 ## Idea
 
-An (abstract) clone is a [[cartesian multicategory]] with one object, in the same way that an [[operad]] is a [[symmetric multicategory]] with one object.  Thus, a clone could equivalently be called a *cartesian operad*.  Equivalently, a clone is a presentation of a single-sorted [[algebraic theory]] in terms of algebraic operations, equivalent to a [[Lawvere theory]] but organized slightly differently.
+An (abstract) clone is equivalent to a [[cartesian operad]] (that is, a [[cartesian multicategory]] with one object). However, clones are presented differently, with projections rather than with symmetries, contraction and weakening. Consequently, an abstract clones is equivalently considered a presentation of a single-sorted [[algebraic theory]] in terms of algebraic operations, equivalent to a [[Lawvere theory]] but organized slightly differently.
 
 ## Definition
 
