@@ -171,6 +171,8 @@ Ones says that the original square satisfies the **[[Beck-Chevalley condition]]*
 
 There is a version of the mate correspondence that applies to [[two-variable adjunctions]] and $n$-variable adjunctions; see [Cheng-Gurski-Riehl](#CGR).
 
+The relationship between two of the adjoints in a multivariable adjunction can be described as a **parametrized adjunction**: fixing the variables in each of the categories that appear in the domains of both adjoints, the pair of functors define an adjunction between the remaining two categories. Relative to the parametrized adjunctions that define a multivariable adjunction, the multivariable mates can be understood as [parametrized mates](https://golem.ph.utexas.edu/category/2012/11/parametrized_mates_and_multiva.html). 
+
 ## References
 
 * [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in Kelly (ed.), Category Seminar, LNM 420.
@@ -178,6 +180,8 @@ There is a version of the mate correspondence that applies to [[two-variable adj
 * [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
 
 * {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520), (to appear: Journal of K-Theory).
+
+* "Parametrized mates and multivariable adjunctions" [blog post](https://golem.ph.utexas.edu/category/2012/11/parametrized_mates_and_multiva.html)
 
 {#ReferencesGeneralizationtoBicategories} Generalization to [[bicategories]] is discussed in
 
