@@ -173,7 +173,7 @@ These invariants share the following properties:
   for $X$ smooth we have then:
 
   $$
-    Eu_X[X, id] = Poincare dual of total Stiefel-Whitney class 
+    Eu_X[X, id] = Poincare\,dual\,of\,total\,Stiefel-Whitney\,class 
   $$
 
   **theorem** (Minalta)
