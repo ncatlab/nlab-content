@@ -19,12 +19,14 @@
 
 ## Idea
 
-The **K-theory spectrum** $KU$ (for complex K-theory) or $KO$ (for orthogonal K-theory) in the strict sense is the [[spectrum]] that represents the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[topological K-theory]]. For complex [[topological K-theory]] this is periodic with period 2 (reflect Bott periodicity) of the form
+The **K-theory spectrum** $KU$ (for [[complex vector bundle|complex]] K-theory) or $KO$ (for [[real vector bundle|orthogonal]] K-theory) in the strict sense is the [[spectrum]] that represents the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[topological K-theory]]. For complex [[topological K-theory]] this is periodic with period 2 (reflect Bott periodicity) of the form
 
 $$
   \mathbb{Z} \times B U ,\; U ,\; \cdots
   \,.
 $$
+
+The [[connective cover]] is denoted in lower case: _[[ku]]_.
 
 
 ## Definition
