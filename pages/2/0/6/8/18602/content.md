@@ -137,6 +137,7 @@ Discussion of precision experiment and possible deviation from theory:
 
 * {#Falkowski18} [[Adam Falkowski]], _[Both $g-2$ anomalies](http://resonaances.blogspot.com/2018/06/alpha-and-g-minus-two.html)_, June 2018
 
+
 ### Relation to flavour anomalies
 
 Possible explanation of the anomaly in the anomalous magnetic moments in terms of [[leptoquarks]]:
@@ -170,6 +171,10 @@ Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#
 * Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
 
 * Da Huang, António P. Morais, Rui Santos, _Anomalies in $B$ Decays and Muon $g-2$ from Dark Loops_ ([arXiv:2007.05082](https://arxiv.org/abs/2007.05082))
+
+* K.S. Babu, P.S. Bhupal Dev, Sudip Jana, Anil Thapa, _Unified Framework for $B$-Anomalies, Muon $g-2$, and Neutrino Masses_ ([arXiv:2009.01771](https://arxiv.org/abs/2009.01771))
+
+
 
 
 Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
