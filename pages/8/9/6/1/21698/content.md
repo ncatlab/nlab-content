@@ -41,23 +41,29 @@ The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-
 
 ## References
 
-### General
+### Algebraic K-theory of ring spectra
 
-* {#Rognes99} [[John Rognes]], _Algebraic K-theory of finitely presented ring spectra_, lecture at Schloss Ringberg, Germany, January 1999 ([pdf](http://folk.uio.no/rognes/papers/red-shift.pdf))
+On the [[algebraic K-theory]] of [[ring spectra]]:
 
-* {#Rognes00} [[John Rognes]], _Algebraic K-theory of finitely presented ring spectra_, Oberwolfach talk September 2000 (OWF abstract [pdf](http://oda.mfo.de/show/mfo/oda/Vortragsbuch/800/E20_00127/VB_SE20_00127_N126_P034.jpg))
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], chapter VI of _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
-* [[Christian Ausoni]], [[John Rognes]], _The chromatic red-shift in algebraic K-theory_, Enseign. Math. (2) 54 (2008), 9-11. ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/gmconj-AR.pdf), [[AusoniRognesRedShiftInAlgebraicKTheory.pdf:file]])
+* {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], Section 9.5 of: _A universal characterization of higher algebraic K-theory_, Geom. Topol. 17 (2013) 733-838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282), [doi:10.2140/gt.2013.17.733](http://dx.doi.org/10.2140/gt.2013.17.733))
 
-### Algebraic K-theory of a ring spectrum
+* [[Jacob Lurie]], _Algebraic K-Theory of Ring Spectra_, Lecture 19 of _[Algebraic K-Theory and Manifold Topology](https://www.math.ias.edu/~lurie/281.html)_, 2014 ([pdf](http://people.math.harvard.edu/~lurie/281notes/Lecture19-Rings.pdf))
+
+The  algebraic K-theory of specifically of [[suspension spectra]] of [[loop spaces]] (Waldhausen's _[[A-theory]]_) is originally due to
+
+* [[Friedhelm Waldhausen]], _Algebraic K-theory of spaces_, In: A. Ranicki N.,  Levitt, F. Quinn (eds.), Algebraic and Geometric Topology, Lecture Notes in Mathematics, vol 1126. Springer, Berlin, Heidelberg (1985) ([doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449))
+
 
 On the [[algebraic K-theory]] $K(R)$ of a [[ring spectrum]] $R$ as the [[Grothendieck group]] of [[(∞,1)-module bundles]] over $R$: 
 
 * [[John Lind]], _Bundles of spectra and algebraic K-theory_, Pacific J. Math. 285 (2016) 427-452 ([arXiv:1304.5676](https://arxiv.org/abs/1304.5676), [doi:10.2140/pjm.2016.285.427](https://doi.org/10.2140/pjm.2016.285.427))
 
+
 ### Algebraic K-theory of topological K-theory
 
-On the first [[algebraic K-theory]] $K(ku)$ of [[topological K-theory]]:
+On the first [[algebraic K-theory]] $K(ku)$ of [[connective spectrum|connective]] [[topological K-theory]]:
 
 * [[Christian Ausoni]], _On the algebraic K-theory of the complex K-theory spectrum_, Inventiones mathematicae volume 180, pages 611–668 (2010) ([arXiv:0902.2334](http://arxiv.org/abs/0902.2334), [doi:10.1007/s00222-010-0239-x](https://doi.org/10.1007/s00222-010-0239-x))
 
@@ -68,9 +74,15 @@ On the first [[algebraic K-theory]] $K(ku)$ of [[topological K-theory]]:
 
 Interpretation of $K(ku)$ as the [[K-theory]] of [[BDR 2-vector bundles]]:
 
-* [[Nils Baas]], [[Bjørn Ian Dundas]], [[John Rognes]], _Two-vector bundles and forms of elliptic cohomology_, London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, 2004 ([arXiv:0909.1742](https://arxiv.org/abs/0909.1742), [doi:10.1017/CBO9780511526398.005](https://doi.org/10.1017/CBO9780511526398.005))
+* [[Nils Baas]], [[Bjørn Ian Dundas]], [[John Rognes]], _Two-vector bundles and forms of elliptic cohomology_, London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, 2004 ([arXiv:math/0306027](https://arxiv.org/abs/math/0306027),  [doi:10.1017/CBO9780511526398.005](https://doi.org/10.1017/CBO9780511526398.005))
 
-* [[Nils Baas]], [[Bjørn Ian Dundas]], [[Birgit Richter]], [[John Rognes]], _Stable bundles over rig categories_, Journal of Topology, Volume 4, Issue 3, September 2011, Pages 623–640 ([doi:10.1112/jtopol/jtr016](https://doi.org/10.1112/jtopol/jtr016))
+* [[Nils Baas]], [[Bjørn Ian Dundas]], [[Birgit Richter]], [[John Rognes]], _Stable bundles over rig categories_, Journal of Topology, Volume 4, Issue 3, September 2011, Pages 623–640 ([arXiv:0909.1742](https://arxiv.org/abs/0909.1742), [doi:10.1112/jtopol/jtr016](https://doi.org/10.1112/jtopol/jtr016))
+
+### Algebraic K-theory of algebraic K-theory
+
+On the [[algebraic K-theory]] of algebraic K-theory of [[finite fields]] $K(K(\mathbb{F}))$:
+
+* Gabe Angelini-Knoll, _Detecting the $\beta$-family in iterated algebraic K-theory of finite fields_, Wayne State University 2017 ([arXiv:1810.10088](https://arxiv.org/abs/1810.10088), [oa_dissertations:1778](https://digitalcommons.wayne.edu/oa_dissertations/1778))
 
 ### Higher iterated algebraic K-theory of topological K-theory
 
