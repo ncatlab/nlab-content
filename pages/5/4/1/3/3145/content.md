@@ -42,6 +42,15 @@ The construction of [[tmf]] was originally announced, as joint work with [[Mark 
 On [[stacks]] and [[complex oriented cohomology theory]]:
 
 * {#Hopkins} [[Mike Hopkins]] (talk notes by [[Michael Hill]]), _Stacks and complex oriented cohomology theories_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter08/MikesTalk1.pdf))
+
+On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomology]]:
+
+* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ 
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra, orientations, and Thom spectra via rigid infinite loop space theory_, Journal of Topology, Volume7, Issue 4, December 2014 ([arXiv:1403.4320](https://arxiv.org/abs/1403.4320), [arXiv:10.1112/jtopol/jtu009](https://doi.org/10.1112/jtopol/jtu009))
+
+* {#ABGHR14} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _An $\infty$-categorical approach to $R$-line bundles, $R$-module Thom spectra, and twisted $R$-homology_, Journal of Topology Volume 7, Issue 3 2014 Pages 869&#8211;893  ([arXiv:1403.4325](http://arxiv.org/abs/1403.4325), [doi:10.1112/jtopol/jtt035](https://doi.org/10.1112/jtopol/jtt035))
+
     
 
 ## Related $n$Lab entries
