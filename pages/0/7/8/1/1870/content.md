@@ -317,17 +317,21 @@ The formulation in terms of sections of Fredholm bundles seems to go back to
 
 * {#Rosenberg89} [[Jonathan Rosenberg]], _Continuous-trace algebras from the bundle theoretic point of view_ , J. Austral. Math. Soc. Ser. A 47 (1989), no. 3, 368-381 ([doi:10.1017/S1446788700033097](https://doi.org/10.1017/S1446788700033097)) 
 
-and is expanded on in 
-
-
-* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. 1 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
-
-* {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_ ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
-
+and is expanded on in:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Diagram (2.6) in: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
 
-A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ is in
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. 1 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+
+* [[Peter May]], [[Johann Sigurdsson]], Section 22 of: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006 ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+
+* {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_ ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
+
+* {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], sections 2.1 and 7 of: _Twists of K-theory and TMF_, in [[Jonathan Rosenberg]] et al. (eds.), _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, volume 81 of _Proceedings of Symposia in Pure Mathematics_, 2009 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [doi:10.1090/pspum/081](https://doi.org/10.1090/pspum/081))
+
+
+
+A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ is in:
 
 * {#AtiyahSinger69} [[Michael Atiyah]], [[Isadore Singer]], _Index theory for skew-adjoint Fredholm operators_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
 January 1969, Volume 37, Issue 1, pp 5-26 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/askew.pdf))
@@ -350,11 +354,6 @@ Discussion in terms of [[Karoubi K-theory]]/[[Clifford module bundles]] is in
 
 * [[Max Karoubi]], _Clifford modules and twisted K-theory_, Proceedings of the International Conference on Clifford algebras (ICCA7) ([arXiv:0801.2794](http://arxiv.org/abs/0801.2794))
 
-The perspective of twisted K-theory by sections of a $K U$-bundle of spectra ([[parameterized spectra]]) is discussed in
-
-* {#MaySigurdsson} [[Peter May|May]], Sigurdsson, section 22 of _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)) AMS Lecture notes 132
-
-* {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], section 7 of _Twists of K-theory and TMF_, in [[Jonathan Rosenberg]] et al. (eds.), _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, volume 81 of _Proceedings of Symposia in Pure Mathematics_, 2009 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
 
  
 
