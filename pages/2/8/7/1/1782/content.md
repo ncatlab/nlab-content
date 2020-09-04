@@ -352,9 +352,6 @@ For [[complex varieties]]:
 
 * Michael Paluch, _Algebraic K-theory and topological spaces_ ([pdf](http://www.math.uiuc.edu/K-theory/0471/alg-top.pdf))
 
-For [[ring spectra]]
-
-* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], chapter VI of _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
 
 For discussion of stable phenomena in algebraic K-theory, see section 4 of 
@@ -386,18 +383,30 @@ See also at _[universal Chern-Simons 3-bundle -- For reductive groups](universal
 
 ### Algebraic K-theory of ring spectra
 
+The [[algebraic K-theory]] of [[ring spectra]]:
+
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], chapter VI of _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
+
+* {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], Section 9.5 of: _A universal characterization of higher algebraic K-theory_, Geom. Topol. 17 (2013) 733-838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282), [doi:10.2140/gt.2013.17.733](http://dx.doi.org/10.2140/gt.2013.17.733))
+
+* [[Jacob Lurie]], _Algebraic K-Theory of Ring Spectra_, Lecture 19 of _[Algebraic K-Theory and Manifold Topology](https://www.math.ias.edu/~lurie/281.html)_, 2014 ([pdf](http://people.math.harvard.edu/~lurie/281notes/Lecture19-Rings.pdf))
+
+The  algebraic K-theory of specifically of [[suspension spectra]] of [[loop spaces]] (Waldhausen's _[[A-theory]]_) is originally due to
+
+* [[Friedhelm Waldhausen]], _Algebraic K-theory of spaces_, In: A. Ranicki N.,  Levitt, F. Quinn (eds.), Algebraic and Geometric Topology, Lecture Notes in Mathematics, vol 1126. Springer, Berlin, Heidelberg (1985) ([doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449))
+
+See also:
+
 ([Thomason-Trobaugh 90](#ThomasonTrobaugh90))
 
-[Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10)
 
-Waldhausen's _[[A-theory]]_ is the algebraic K-theory of [[suspension spectra]] of [[loop spaces]].
 
  
 ### Via stable $(\infty,1)$-categories
 
 The [[stable (∞,1)-category]] theory picture is discussed in
 
-* {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+* {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_, Geom. Topol. 17 (2013) 733-838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282), [doi:10.2140/gt.2013.17.733](http://dx.doi.org/10.2140/gt.2013.17.733))
  
 
 (in terms of [[noncommutative motives]]) and in
