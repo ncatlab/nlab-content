@@ -15,6 +15,11 @@ Frontiers in Physics 8, 56 (2020)
 ([arXiv:1911.02967](https://arxiv.org/abs/1911.02967), [doi:10.3389/fphy.2020.00056](https://www.frontiersin.org/articles/10.3389/fphy.2020.00056/full))
 
 
+On subtleties of [[renormalization]] of the [[cosmological constant]]:
+
+* [[John Donoghue]], _The cosmological constant and the use of cutoffs_ ([arXiv:2009.00728](https://arxiv.org/abs/2009.00728))
+
+
 ## Related $n$Lab entries
 
 * [[gravity]]
