@@ -408,6 +408,8 @@ The dependent type theory which results from this structure "has no nontrivial d
 
 * [[relation between type theory and category theory]]
 
+* [[initiality conjecture]]
+
 * [[Awodey's conjecture]]
 
 ## References
