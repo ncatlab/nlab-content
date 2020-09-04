@@ -34,9 +34,9 @@ In the approximation of [[schreiber:Introduction to Higher Supergeometry|rationa
 
 The idea is due to 
 
-* {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_ ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285))
+* {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_, Annals of K-Theory, Vol. 5 (2020), No. 1, 1–42 ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285), [doi:doi:10.2140/akt.2020.5.1](https://msp.org/akt/2020/5-1/p01.xhtml))
 
-which in the course considers higher [[Snaith theorem|Snaith spectra]] and higher order [[algebraic K-theory]].
+which in the course considers higher [[Snaith theorem|Snaith spectra]] and higher order [[iterated algebraic K-theory]].
 
 A special case of this general story is discussed in some detail in
 
