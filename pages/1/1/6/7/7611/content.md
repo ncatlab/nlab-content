@@ -12,7 +12,7 @@ A **cartesian multicategory** is a [[multicategory]]-like structure which is rel
 
 ### Explicit
 
-A **cartesian multicategory** is a symmetric [[multicategory]] equipped with:
+A **cartesian multicategory** is a [[symmetric multicategory]] equipped with:
 
 * *duplication* or *diagonal* or *contraction* operations
   $$ hom(c_0,\dots,c_{k-1},c_k,c_k,c_{k+1},\dots,c_{n-1} \;;\; d) \to hom(c_0,\dots,c_{k-1},c_k,c_{k+1},\dots,c_{n-1} \;;\; d)$$
@@ -58,6 +58,7 @@ Cartesian multicategories are also a natural place to talk about the semantics o
 ## Related pages
 
 * [[multicategory]]
+* [[symmetric multicategory]]
 * [[generalized multicategory]]
 * [[Lawvere theory]]
 * A cartesian multicategory with one object is called a [[clone]].
