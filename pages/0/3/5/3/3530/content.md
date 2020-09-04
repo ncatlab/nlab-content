@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -73,7 +72,7 @@ A more recent account is
 
 Discussion of this in the modern context of [[higher geometry]]/[[D-geometry]] is in
 
-* [[Jacob Lurie]], _Notes on [[crystal|Crystals]] and algebraic D-modules_ ([[LurieCrystals.pdf:file]])
+* [[Jacob Lurie]], _Notes on Crystals and algebraic D-modules_ ([[LurieCrystals.pdf:file]])
 
 
 
