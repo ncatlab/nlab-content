@@ -38,6 +38,10 @@ The conjecture was originally formulated by [[John Rognes]] ([Rognes 99](#Rognes
 
 ## References
 
+Exposition in:
+
+* [[John Rognes]], _Chromatic redshift_, lecture notes, MSRI 2014 ([arXiv:1403.4838](https://arxiv.org/abs/1403.4838))
+
 The conjecture originates with
 
 * {#Rognes99} [[John Rognes]], _Algebraic K-theory of finitely presented ring spectra_, lecture at Schloss Ringberg, Germany, January 1999 ([pdf](http://folk.uio.no/rognes/papers/red-shift.pdf))
@@ -48,9 +52,12 @@ The conjecture appears published in
 
 * [[Christian Ausoni]], [[John Rognes]], _The chromatic red-shift in algebraic K-theory_, Enseign. Math. (2) 54 (2008), 9-11. ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/gmconj-AR.pdf))
 
-An outlook as of 2013 is in
+See also 
 
-* [[Tyler Lawson]], in section 3 of _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
+* [[Tyler Lawson]], in section 3 of: _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
+
+* [[Benjamin Antieau]], _Some open problems in the K-theory of ring spectra_ ([pdf](https://dantie1.people.uic.edu/files/openkt-20150709.pdf))
+
 
 Previous work motivating the conjecture was the study (see also at _[[iterated algebraic K-theory]]_) of the [[algebraic K-theory]] $K(ku)$ of the [[complex K-theory spectrum]] $ku$ (also thought of as the [[classifying space]] for [[BDR 2-vector bundles]]) in 
 
