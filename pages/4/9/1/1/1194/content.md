@@ -545,6 +545,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[calculus of inductive constructions]]
 
+  * [[initiality conjecture]]
+
   * [[modal type theory]]
 
   * [[computational type theory]]
@@ -565,6 +567,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[bidirectional typechecking]]
  
+
+
 * [[relation between category theory and type theory]]
 
 * [[relation between type theory and topology]]
