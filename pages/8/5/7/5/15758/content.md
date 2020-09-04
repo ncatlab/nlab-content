@@ -27,6 +27,10 @@
 
 Waldhausen's _A-theory_ ([Waldhausen 85](#Waldhausen85)) of a connected [[homotopy type]] $X$ is the [[algebraic K-theory]] of the [[suspension spectrum]] $\Sigma^\infty_+ (\Omega X)$ of the [[loop space]] $\Omega X$, hence of the [[∞-group ∞-rings]] $\mathbb{S}[\Omega X]$ of the [[looping]] [[∞-group]] $\Omega X$, hence the K-theory of the [[parametrized spectra]] over $X$ ([Hess-Shipley 14](#HessShipley14)).
 
+## Related concepts
+
+* [[iterated algebraic K-theory]]
+
 ## References
 
 The definition is originally due to 
