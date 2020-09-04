@@ -22,13 +22,13 @@
 ## Idea
 
 
-The _initiality conjecture_ in [[type theory]] states that the [[term model]] of a [[type theory]] should be an [[initial object]] in the [[categorical semantics|category of models]] of that type theory. Initiality guarantees that the [[relation between type theory and category theory]] works as expected, hence that formal [[syntax|syntactical]] proofs in type theory  match theorems in categories that [[semantics|interpret]] these type theories.
+The _initiality conjecture_ in [[type theory]] states that the [[term model]] of a [[type theory]] should be an [[initial object]] in the [[categorical semantics|category of models]] of that type theory. Initiality guarantees that the [[relation between type theory and category theory]] works as expected, hence that formal [[syntax|syntactical]] [[proofs]] in type theory  match theorems in [[categories]] that [[categorical semantics|interpret]] these type theories.
 
 A careful proof of initiality for the special case of the [[calculus of constructions]] was given in [Streicher 91](#Streicher91).  Since then, initiality for more complex type theories (such as [[Martin-Löf dependent type theory]]) has often been treated as established, as a straightforward extension of Streicher’s result, but never written up carefully for a larger theory.
 
 Around 2010, various researchers (notably [Voevodsky 16](#Voevodsky16), [Voevodsky 17](#Voevodsky17)) raised the question of whether these extensions really were sufficiently straightforward to consider them established without further proof.  Since then, views on the status of initiality have varied within the field; but the issue has been, at least, a frustrating unresolved point.
 
-A [[proof]] of the initiality conjecture for a full-featured [[Martin-Löf type theory]] is given/announced in [de Boer 20](#deBoer20), [Brunerie-Lumsdaine 20](#BrunerieLumsdaine20).  The proof is [[formal proof|formalised]] in [[Agda]], to dispel any question of thoroughness (and also partly formalised in [[Coq]]), and is carefully designed for extensibility to other type theories.  
+A [[proof]] of the initiality conjecture for a full-featured [[Martin-Löf type theory]] is given/announced in [de Boer 20](#deBoer20), [Brunerie-Lumsdaine 20](#BrunerieLumsdaine20).  
 
 > (text adapted from [Brunerie-Lumsdaine 20](#BrunerieLumsdaine20))
 
