@@ -33,6 +33,8 @@ The conjecture was originally formulated by [[John Rognes]] ([Rognes 99](#Rognes
 
 * [[BDR 2-vector bundle]]
 
+* [[iterated algebraic K-theory]]
+
 [[!include chromatic tower examples - table]]
 
 ## References
