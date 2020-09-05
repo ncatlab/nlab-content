@@ -615,14 +615,17 @@ The above result can be seen as an effective way to compute the sheaf cohomology
 
 ### General
 
-A discussion of $\pi_1(X)$-twisted ordinary cohomology is in 
+The case of $\pi_1(X)$-twisted [[ordinary cohomology]]:
 
-* M. Bullejos, E. Faro, M. A. Garc&iacute;a-Mu&ntilde;oz, _Homotopy colimits and cohomology with local coefficients_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 44 no. 1 (2003), p. 63-80 ([numdam](http://www.numdam.org/item?id=CTGDC_2003__44_1_63_0))
+* M. Bullejos, E. Faro, M. A. Garc&iacute;a-Mu&ntilde;oz, _Homotopy colimits and cohomology with local coefficients_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 44 no. 1 (2003), p. 63-80 ([numdam:CTGDC_2003__44_1_63_0](http://www.numdam.org/item?id=CTGDC_2003__44_1_63_0))
 
-For the special case of [[generalized (Eilenberg?Steenrod) cohomology]] twisted by a $G$-[[principal bundle]] see section 22.1 of
+The case of twisted [[generalized (Eilenberg-Steenrod) cohomology]] twisted by a $G$-[[principal bundle]]:
 
-* [[Peter May|May]], Sigurdsson, _[[Parametrized Homotopy Theory]]_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+* [[Peter May]], [[Johann Sigurdsson]], Section 22.1 of: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006 ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
+* [[Chris Douglas]], _Twisted stable homotopy theory_ PhD thesis 2005 ([dspace:1721.1/7582](http://dspace.mit.edu/handle/1721.1/7582))
+
+ 
 This in turn is based on the definition of twisted K-theory given in 
 
 * [[Michael Atiyah]] and [[Graeme Segal]], _Twisted K-theory_, Ukr. Mat. Visn., 1(3):287&#8211;330, 2004. <http://front.math.ucdavis.edu/0407.5054>
@@ -636,9 +639,6 @@ The abstract discussion of twisted nonabelian cohomology in $\infty$-toposes is 
 * {#NikolausSchreiberStevenson12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]],  _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
   
 
-Twisted [[generalized (Eilenberg-Steenrod) cohomology]] theory is discussed in
-
-* [[Chris Douglas]], _Twisted stable homotopy theory_ PhD thesis 2005 ([dspace:1721.1/7582](http://dspace.mit.edu/handle/1721.1/7582))
 
 The abstract discussion of twisted ES-type cohomology in the [[stable (infinity,1)-category of spectra]] is in
 
