@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[twisted ordinary cohomology]]:
+
+* [[Norman Steenrod]], _Homology With Local Coefficients_, Annals of Mathematics, Second Series, Vol. 44, No. 4 (Oct., 1943), pp. 610-627 ([jstor:1969099](https://www.jstor.org/stable/1969099))
+
 On [[ordinary cohomology]], [[Eilenberg-MacLane spaces]] and [[cohomology operations]]:
 
 * [[Norman Steenrod]], Section 19 of: _Cohomology operations, and obstructions to extending continuous functions_  Advances in Math. 8, 371&#8211;416. (1972)  (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
