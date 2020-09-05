@@ -130,7 +130,7 @@ The [[homotopy group]] $\pi_{n+k}(S^k)$ is a [[finite group]] except
 
 =--
 
-([Serre 53](#Serre53))
+([Serre 53](#Serre53), see [Ravenel 86, Chapter I, Lemma 1.1.8](#Ravenel86))
 
 ### Nishida nilpotence theorem
 
@@ -261,7 +261,7 @@ A tabulation of stable homotopy groups of spheres is in
 
 Original articles on basic properties include
 
-* {#Serre53} [[Jean-Pierre Serre]] _Groupes d'homotopie et classes de groupes abelien_, Ann. of Math. 58 (1953), 258&#8211;294.
+* {#Serre53} [[Jean-Pierre Serre]], _Groupes d'homotopie et classes de groupes abelien_, Ann. of Math. 58 (1953), 258&#8211;294 ([jstor:1969789](https://www.jstor.org/stable/1969789))
  
 
 
