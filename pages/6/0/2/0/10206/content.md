@@ -19,6 +19,8 @@ The [[twisted cohomology]] version of [[ordinary cohomology]].
 
 ## Related concepts
 
+* [[twisted ordinary differential cohomology]]
+
 * [[twisted K-theory]]
 
 ## References
