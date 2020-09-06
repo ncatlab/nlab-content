@@ -303,7 +303,7 @@ $$
   \tau_n \otimes 1
   + 
   \underoverset{k=0}{n}{\sum}
-  \xi_{n-k}^{p^k} \xi_{n-k}^{p^k}\otimes \tau_k
+  \xi_{n-k}^{p^k}\otimes \tau_k
   \,,
 $$
 
