@@ -22,3 +22,4 @@ Math. Ann.
 category: people
 
 [[!redirects Gentzen]]
+[[!redirects Gentzen's]]
