@@ -67,7 +67,7 @@ One example is the computation of the homotopy grous of [[MU]] via the [[homolog
 
 ## Examples
 
-### From stable cohomotopy to ordinary cohomology
+### In ordinary cohomology
 
 Consider the [[unit]] morphism
 
@@ -253,14 +253,6 @@ $$
 
 =--
 
-### For complex oriented cohomology theories
- {#ForComplexOrientedCohomologyTheories}
-
-Used for [[complex oriented cohomology theories]] and proof of [[Quillen's theorem on MU]] via the [[homology of MU]] (...)
-
-([Adams 74, pages 60-62](#Adams74), [Lurie 10, lecture 7](#Lurie10))
-
-## Examples
 
 
 +-- {: .num_prop #BoardmanIsoOn7SphereMod2I}
@@ -392,8 +384,29 @@ This means first of all that if $d_2$ is not trivial then $d_2 = Sq^2$. But sinc
 
 But by the [[Adem relation]] $Sq^3 = Sq^1 \circ Sq^2$, the vanishing of $Sq_2$ on $H^4(-,\pi^0)$ then also implies the vanishing of $d_3$ on this entry.
 
-
 =--
+
+
+
+
+### In complex oriented cohomology 
+ {#ForComplexOrientedCohomologyTheories}
+
+Used for [[complex oriented cohomology theories]] and proof of [[Quillen's theorem on MU]] via the [[homology of MU]] (...)
+
+([Adams 74, pages 60-62](#Adams74), [Lurie 10, lecture 7](#Lurie10))
+
+
+### In topological modular forms
+
+See _[[Boardman homomorphism in tmf]]_
+
+
+
+
+
+
+
 
 ## Related concepts
 
