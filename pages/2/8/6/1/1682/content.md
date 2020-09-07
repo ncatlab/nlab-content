@@ -477,7 +477,7 @@ Expositions include
 
 See also
 
-* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011)
+* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:1103.4187](https://arxiv.org/abs/1103.4187))
 
 An actual detailed account of the construction of $tmf$ (via decomposition by [[arithmetic squares]]) is spelled out in
 
