@@ -219,6 +219,9 @@ See also
 * Yu-Jia Wang, Feng-Kun Guo, Cen Zhang, Shuang-Yong Zhou, _Generalized positivity bounds on chiral perturbation theory_ ([arXiv:2004.03992](https://arxiv.org/abs/2004.03992))
 
 
+* Lukas Graf, Brian Henning, Xiaochuan Lu, Tom Melia, Hitoshi Murayama, _2, 12, 117, 1959, 45171, 1170086, ...: A Hilbert series for the QCD chiral Lagrangian_ ([arXiv:2009.01239](https://arxiv.org/abs/2009.01239))
+
+
 
 
 
