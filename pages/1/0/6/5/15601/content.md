@@ -1,4 +1,4 @@
-[[!redirects Ricatti equation]]
+
 
 # Riccati equations
 * table of contents
@@ -16,10 +16,10 @@ with $a_0(t)\neq 0$ and $a_2(t)\neq 0$.
 
 ## Connection to fractional linear transformations
 
-Riccati equations are to fractional linear transformations as first-order linear ordinary differential equations are to affine transformations, in the following sense.  A first-order linear ordinary differential equation
+Riccati equations are to fractional linear transformations as *linear* first-order ordinary differential equations are to affine transformations, in the following sense.  A linear first-order ordinary differential equation
 
 $$
-\frac{d y}{d z} = a_0(t) + a_1(t) y
+\frac{d y}{d t} = a_0(t) + a_1(t) y
 $$
 
 has (under suitable regularity conditions on $a_0$ and $a_1$) solutions $y(t)$ depending in an affine manner on the initial data:
@@ -92,3 +92,4 @@ category: analysis
 [[!redirects Riccati equations]]
 [[!redirects Riccati differential equation]]
 [[!redirects Riccati differential equations]]
+[[!redirects Ricatti equation]]
