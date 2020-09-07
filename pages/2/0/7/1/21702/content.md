@@ -63,6 +63,9 @@ $$
 
 ([Hopkins 02, Prop. 4.6](#Hopkins02), [DFHH 14, Ch. 13](#DFHH14))
 
+## Related concepts
+
+* [[stable cohomotopy]]
 
 ## References
 
