@@ -60,6 +60,11 @@ Further mentioning of the higher order torsion invariants includes
 
 * {#Bryant05} [[Robert Bryant]], section 4.2 of _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
 
+Discussion specifically for kinematical groups:
+
+* [[José Figueroa-O'Farrill]], _On the intrinsic torsion of spacetime structures_ ([arXiv:2009.01948](https://arxiv.org/abs/2009.01948))
+
+
 See also
 
 * Wikipedia, _[Torsion of a G-structure](https://en.wikipedia.org/wiki/G-structure#Torsion_of_a_G-structure)_
