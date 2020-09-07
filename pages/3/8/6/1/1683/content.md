@@ -79,6 +79,8 @@ _KO-theory is the first Weiss-derivative (in [[orthogonal calculus]]) of the K-t
 
 ## Related concepts
 
+* [[Pontrjagin character]]
+
 * [[Eilenberg-MacLane spectrum]]
 
 * [[tmf]]
