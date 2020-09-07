@@ -272,7 +272,7 @@ The first few [[homotopy groups]] of $tmf$ are ([Hopkins 02, section 4.3](#Hopki
 |-----|----|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
 | $\pi_k(tmf)$ | $\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/24\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}/2\mathbb{Z}$ | 0 | $\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z}$ | $(\mathbb{Z}/2\mathbb{Z})^2$ | $\mathbb{Z}/6\mathbb{Z}$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}/3\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ |
 
-The canonical map $\mathbb{S} \to tmf$ (the unit of the [[E-∞ ring]] structure) induces in degree $\leq 6$ an isomorphism with the [[stable homotopy groups of spheres]].
+The canonical map $\mathbb{S} \to tmf$ (the unit of the [[E-∞ ring]] structure) induces in degree $\leq 6$ an isomorphism with the [[stable homotopy groups of spheres]] ([Hopkins 02, Prop. 4.6](#Hopkins02), [DFHH 14, Ch. 13](#DFHH14)).
 
 
 
@@ -421,6 +421,11 @@ and produced as a [[homotopy limit]] of [[elliptic cohomology]] theories over th
 * {#Hopkins02} [[Michael Hopkins]], section 4 of _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
 
 A central tool that goes into the construction is the [[Goerss-Hopkins-Miller theorem]], see there for references on that.
+
+Textbook account:
+
+* {#DFHH14} [[Christopher Douglas]], [[John Francis]], [[André Henriques]], [[Michael Hill]], _Topological Modular Forms_, Mathematical Surveys and Monographs Volume 201, AMS 2014  ([ISBN:978-1-4704-1884-7](https://bookstore.ams.org/surv-201))
+
 
 Expositions include
 
