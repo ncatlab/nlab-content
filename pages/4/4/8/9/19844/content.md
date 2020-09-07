@@ -799,6 +799,9 @@ explanations via assumption of [[Z'-bosons]]:
 
 * [[Wolfgang Altmannshofer]], Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
 
+* [[Ben Allanach]], _$U(1)_{B_3-L_2}$ Explanation of the Neutral Current $B$−Anomalies_ ([arXiv:2009.02197](https://arxiv.org/abs/2009.02197))
+ 
+
 
 #### Dark matter
  {#ReferencesDarkMatter}
