@@ -78,6 +78,8 @@ A [[closed monoidal (∞,1)-category]] is naturally enriched over itself.
 
 * {#GepnerHaugseng13} [[David Gepner]], [[Rune Haugseng]], _Enriched ∞-categories via non-symmetric ∞-operads_ ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
 
+* Hadrian Heine, _An equivalence between enriched ∞-categories and ∞-categories with weak action_, [arxiv](https://arxiv.org/abs/2009.02428), 2020
+
 Further discussion of [[(infinity,n)-categories]] as $\infty$-categories enriched in $(\infty,n-1)$-categories is (via [[Theta-spaces]]) in
 
 * {#BergnerRezk} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_, I ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
