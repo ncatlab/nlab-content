@@ -7392,10 +7392,14 @@ for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable wea
 =--
 
 
+## Related concepts
+
+* [[Bousfield-Friedlander model structure]]
+
 
 ## References
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]])
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section X.4 of _[[Simplicial homotopy theory]]_, (1996)
 
