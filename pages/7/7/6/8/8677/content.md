@@ -39,12 +39,14 @@ Evidently, this conflicts with more-categorial uses of "localized"; "inverting w
 
 ## Definition
 
-### For noncommutative rings
-
 +-- {: .num_defn }
 ###### Definition
 
-The localization of a [[ring]] $R$ at a [[multiplicative subset]] $S$ is the [[commutative ring]] whose underlying  [[set]] is the set of [[equivalence classes]] on $R \times S$ under the [[equivalence relation]]
+### For commutative rings
+
+See _[[localization of a commutative ring]]_.
+
+The localization of a commutative [[ring]] $R$ at a [[multiplicative subset]] $S$ is the [[commutative ring]] whose underlying  [[set]] is the set of [[equivalence classes]] on $R \times S$ under the [[equivalence relation]]
 
 $$
   (r_1, s_1) \sim (r_2, s_2) 
@@ -70,11 +72,6 @@ $$
 =--
 
 (e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
-
-
-### For commutative rings
-
-See _[[localization of a commutative ring]]_.
 
 ### For $E_k$-rings
 
