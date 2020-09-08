@@ -30,5 +30,21 @@ Thus, for any isomorphism $f$ of $\mathcal{A}$ there is a unique [[functor]] $F:
 
 \begin{proof} Immediate from the definitions. \end{proof}
 
+\section{Properties}
+
+\begin{prpn} $\{ 1 \} \subseteq \mathcal{I}$ is the full subcategory classifier of the 1-category $Cat$. That is, for any small category $\mathcal{A}$, there is a bijective correspondence between full subcategories of $\mathcal{A}$ and functors $\mathcal{A} \to \mathcal{I}$, with the reverse direction given by taking the pullback of the inclusion $\{ 1 \} \subseteq \mathcal{I}$.
+\end{prpn}
+\begin{proof} Functors into $\mathcal{I}$ are uniquely determined by functions on the sets of objects. $\{ 1 \}$ is a full subcategory of $\mathcal{I}$, and any pullback of a full subcategory can be given as a full subcategory. 
+\end{proof}
+
+In fact, this generalizes. If $X$ is a simplicial set, say that a _full subspace_ of $X$ is a subsimplicial set $S \subseteq X$ with the property there is some subset $S_0 \subseteq X_0$ such that $S$ contains exactly the simplices whose vertices are all contained in $S_0$.
+
+\begin{prpn} The nerve $N(\mathcal{I})$ is the full subspace classifier for $sSet$,
+and thus $N(\mathcal{I})$ represents the subpresheaf $FullSub \subseteq Sub$ of full subspaces. \end{prpn}
+\begin{proof} This can be determined from the explicit description of $N_n(\mathcal{I}) \cong \{ 0, 1 \}^{n+1}$ given by listing the vertices of a path. However, it's more informative to observe that $N(\mathcal{I}) = indisc(\{ 0, 1 \})$, where $indisc$ is the _indiscrete space_ functor, which is the direct image part of the geometric embedding $Set \subseteq sSet$ whose inverse image is $X \mapsto X_0$. 
+\end{proof}
+
+\begin{rmk} This also implies $N(\mathcal{I})$ is the full subcategory classifier of $qCat$, the 1-category of [[quasi-category|quasi-categories]], since those are given by full subspaces of simplicial sets. \end{rmk}
+
 [[!redirects free-standing isomorphism]]
 [[!redirects interval groupoid]]
