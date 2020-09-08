@@ -358,6 +358,11 @@ The [[MO5]] is originally discussed in
 
 * {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
 
+See also:
+
+* [[Andreas Braun]], _M-Theory and Orientifolds_ ([arXiv1912.06072](https://arxiv.org/abs/1912.06072))
+
+
 
 The classification in [Hanany-Kol 00 (3.2)](#HananyKol00) also appears, with more details, in Prop. 4.7 of
 
