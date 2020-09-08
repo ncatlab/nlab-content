@@ -294,6 +294,10 @@ Further development:
 * Sven Bjarke Gudnason, Marco Barsanti, Stefano Bolognesi, _Near-BPS baby Skyrmions_ ([arXiv:2006.01726](https://arxiv.org/abs/2006.01726))
 
 
+* Sven Bjarke Gudnason, _Dielectric Skyrmions_ ([arXiv:2009.03082](https://arxiv.org/abs/2009.03082))
+
+
+
 
 [[scattering amplitudes]]:
 
