@@ -30,7 +30,7 @@ $$
 that takes a [[simplicial set]] and restricts it to its degrees $\leq n$.
 
 
-This functor has a [[left adjoint]], given by left [[Kan extension]]
+This functor has a fully faithful [[left adjoint]], given by left [[Kan extension]]
 
 $$
   sk_n 
@@ -40,7 +40,7 @@ $$
 
 called the $n$-**skeleton**
 
-and a [[right adjoint]], given by right [[Kan extension]]
+and a fully faithful [[right adjoint]], given by right [[Kan extension]]
 
 $$
   cosk_n 
