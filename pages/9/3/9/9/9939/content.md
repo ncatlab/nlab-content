@@ -712,9 +712,10 @@ E.g. ([Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ f
 
 Original articles are
 
-* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology Volume 18 Issue 4 (1979) (<a href="https://doi.org/10.1016/0040-9383(79)90018-1">doi:10.1016/0040-9383(79)90018-1</a>, [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
 
-* {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf)) 
+
+* {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([jstor:2374308](https://www.jstor.org/stable/2374308), [pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf)) 
 
 Discussion in terms of [[Bousfield localization of model categories]] [[model category of spectra|of spectra]] appears in
 
