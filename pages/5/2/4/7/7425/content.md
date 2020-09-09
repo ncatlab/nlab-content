@@ -44,7 +44,7 @@ $$
   \,,
 $$
 
-where $\mathbb{Z}_{(p)}$ is the [[localization]] of the integers at the given [[prime]].
+where $\mathbb{Z}_{(p)}$ is the [[p-adic integers]].
 
 Integral Morava K-theory can be obtained as a localization of a quotient $MU/I$ of [[complex cobordism cohomology theory]] $MU$ ([Buhn&#233; 11](#Buhne11)).
 
@@ -264,11 +264,16 @@ Morava K-theory originates in unpublished preprints by [[Jack Morava]] in the ea
 
 A first published account appears in
 
-* David Copeland Johnson, ; W. Stephen Wilson, _BP operations and Morava's extraordinary K-theories._, Math. Z. 144 (1): 55&#8722;75,  (1975)
+* David Copeland Johnson, W. Stephen Wilson, _BP operations and Morava's extraordinary K-theories_, Math. Z. 144 (1): 55&#8722;75,  (1975) ([pdf](http://www.math.jhu.edu/~wsw/papers2/math/08-BP-Kn-J2W-1975.pdf))
 
 see also
 
 * [[Doug Ravenel]], _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies 128, Princeton University Press (1992).
+
+Textbook account:
+
+* {#Rudyak98} [[Yuli Rudyak]], Section IX.7 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
+
 
 A discussion with an eye towards [[category theory|category theoretic]] general abstract properties of localized stable homotopy theory is in 
 
@@ -277,7 +282,8 @@ A discussion with an eye towards [[category theory|category theoretic]] general 
 
 A survey of the theory is in 
 
-* Urs W&#252;rgler, _Morava K-theories: a survey_, Algebraic topology Poznan 1989, Lecture Notes in Math. 1474, Berlin: Springer, pp. 111 138 (1991)
+* Urs W&#252;rgler, _Morava K-theories: a survey_, Algebraic topology Poznan 1989, Lecture Notes in Math. 1474, Berlin: Springer, pp. 111 138 (1991) ([doi:10.1007/BFb0084741](https://doi.org/10.1007/BFb0084741))
+
 
 In 
 
@@ -293,23 +299,23 @@ the explicit definition via [[formal group laws]] is in lecture 22 and the abstr
 
 The $E_\infty$-algebra structure over $\widehat{E(n)}$ is comment on in 
 
-* [[Andrew Baker]], _Brave new Hopf algebroids_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
- {#Baker}
+* {#Baker} [[Andrew Baker]], _Brave new Hopf algebroids_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
+ 
 
 based on 
 
-* [[Neil Strickland]], _Products on $MU$-modules_, Trans. Amer. Math. Soc. 351 (1999), 2569-2606.
- {#Strickland99}
+* {#Strickland99} [[Neil Strickland]], _Products on $MU$-modules_, Trans. Amer. Math. Soc. 351 (1999), 2569-2606.
+ 
 
 
 The [[orientation in generalized cohomology|orientation]] of [[integral Morava K-theory]] is discussed in
 
-* [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor.
+* {#SatiKriz04} [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor.
 Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
- {#SatiKriz04}
+ 
 
-* [[Lukas Buhné]], _[[Properties of Integral Morava K-Theory and the Asserted Application to the Diaconescu-Moore-Witten Anomaly]]_, Diploma thesis Hamburg (2011)
- {#Buhne11}
+* {#Buhne11} [[Lukas Buhné]], _[[Properties of Integral Morava K-Theory and the Asserted Application to the Diaconescu-Moore-Witten Anomaly]]_, Diploma thesis Hamburg (2011)
+ 
 
 Some [[twisted cohomology|twists]] of Morava K-theory/maps into its [[∞-group of units]] as well as the [[Atiyah-Hirzebruch spectral sequence]] for Morava $K$ and Morava $E$ are discussed in 
 
