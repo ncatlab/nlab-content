@@ -27,8 +27,6 @@ Let $X$ be a [[compact topological space|compact]] [[orientation|oriented]] [[sm
 
 \[
   \label{SignatureFormula}
-  \pm 1
-  \;=\;
   \sigma[X]
   \;=\;
   \tfrac{1}{45}
