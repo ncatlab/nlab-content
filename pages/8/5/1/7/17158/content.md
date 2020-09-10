@@ -64,6 +64,15 @@ Modern [[equivariant stable homotopy theory]] makes contact between this kind of
 
 * [[Cohomotopy]]
 
+  * [[stable Cohomotopy]]
+
+  * [[twisted Cohomotopy]]
+
+  * [[equivariant Cohomotopy]]
+
+  * [[differential Cohomotopy]]
+
+  
 ## Refrences
 
 * Wikipedia, _[Musica universalis](https://en.wikipedia.org/wiki/Musica_universalis)_
