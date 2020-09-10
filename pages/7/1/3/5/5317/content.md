@@ -52,6 +52,8 @@ The sphere spectrum is naturally an [[E-∞ ring]] and in fact is the [[initial 
 
   * [[equivariant Cohomotopy]]
 
+  * [[differential Cohomotopy]]
+
 * [[superalgebra]]
 
 * [[The Music of the Spheres]]
