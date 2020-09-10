@@ -22,9 +22,9 @@ A detailed model ("Jandl gerbes") for [[ordinary differential cohomology|differe
 
 * {#SSW05} [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_, Communications in Mathematical Physics August 2007, Volume 274, Issue 1, pp 31-64 ([arXiv:hep-th/0512283](http://arxiv.org/abs/hep-th/0512283))
  
-* {#GawedzkiSuszekWaldorf08} [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ Adv. Theor. Math. Phys. 15(3), 621-688 (2011) ([arXiv:0809.5125](http://arxiv.org/abs/0809.5125))
+* {#GawedzkiSuszekWaldorf08} [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_, Adv. Theor. Math. Phys. 15(3), 621-688 (2011) ([arXiv:0809.5125](http://arxiv.org/abs/0809.5125))
 
-* [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
+* [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_, Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number  ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466), [doi:10.4310/ATMP.2019.v23.n8.a5](https://dx.doi.org/10.4310/ATMP.2019.v23.n8.a5))
 
 [[!redirects HZR theory]]
 
