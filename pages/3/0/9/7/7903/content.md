@@ -36,6 +36,9 @@ Local coefficient bundles in the context of [[twisted ordinary cohomology]]:
 
 * M. Bullejos, E. Faro, M. A. Garc&iacute;a-Mu&ntilde;oz, _Homotopy colimits and cohomology with local coefficients_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 44 no. 1 (2003), p. 63-80 ([numdam:CTGDC_2003__44_1_63_0](http://www.numdam.org/item?id=CTGDC_2003__44_1_63_0))
 
+* [[Paul Goerss]], [[Rick Jardine]], p. 331 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999)  Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4))
+
+
 [[!redirects local coefficients]]
 
 [[!redirects local coefficient bundles]]
