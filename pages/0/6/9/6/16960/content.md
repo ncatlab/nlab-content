@@ -103,6 +103,10 @@ General:
 
 * [[David Barnes]], _Classifying Rational $G$-Spectra for Finite $G$_ ([arXiv:0812.0317](http://arxiv.org/abs/0812.0317))
 
+* [[David Barnes]], [[Magdalena Kedziorek]], _An introduction to algebraic models for rational G-spectra_ ([arXiv:2004.01566](https://arxiv.org/abs/2004.01566))
+
+
+
 For $G = O(2)$ or $SO(2)$ and so also for $G = $ [[dihedral group]] and [[cyclic group]]:
 
 * {#Greenlees96} [[John Greenlees]], _Rational $O(2)$-equivariant cohomology theories_. In _Stable and unstable homotopy_ (Toronto, ON, 1996), volume 19 of Fields
