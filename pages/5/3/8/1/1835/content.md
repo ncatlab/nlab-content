@@ -53,7 +53,7 @@ For a ring $k$ the _category of $k$-rings_, denoted by $M_k,$ is defined to be t
 
 The _category of $k$-functors_, denoted by $co Psh (M_k)$, is defined to be the category of covariant functors $M_k\to Set$.
 
-The forgetful functor $O_k:R\to R$ sending a $k$-ring to its underlying set is called _affine line_.
+The forgetful functor $O_k:R\to R$ sending a $k$-ring to its underlying set is called the _affine line_.
 
 For the full and faithful contravariant functor
 
@@ -65,14 +65,10 @@ A&\mapsto& M_k(A,-)
 
  $Sp_k A$ (and every isomorphic functor) is called an _affine $k$-scheme_. $Sp_k$ restricts to an equivalence between the categories of $k$-rings and the category $Aff Sch_k$ of affine $k$-schemes. We think of this category as of $M_k^{op}$. The functor $Sp_k$ commutes with limits and scalar extension (see below). Consequently $Aff Sch_k$ is closed under limits and base change.
 
-The affine line $O_k=M_k(k[t],-)$ is an affine $k$-scheme.
+Note that the affine line $O_k$ defined above is naturally isomorphic to $M_k(k[t],-)$, and so $O_k$ is an affine $k$-scheme.
 
-A _function on a_ $k$-functor $X$ is defined to be an object $f\in O(X):=co Psh (M_k)(X,O_k)$.
+A _function on a_ $k$-functor $X$ is defined to be an object $f\in O(X):=co Psh (M_k)(X,O_k)$. $O(X)$ is a $k$-ring, naturally in $X$, by componentwise addition and multiplication.
 
-$O_k$ is a ring object in the category of $k$-functors, as follows.
-Note that the map $k[t]\to k[t]\otimes_k k[t]$ sending $t$ to $t\otimes t$ can be read as a map $k[t]\times k[t]\to k[t]$ in $M_k^{op}$, because $\otimes_k$ is the coproduct in $M_k$; the functor $Sp_k$ associates to it a morphism $M_k(k[x],-)\times M_k(k[x],-)\to M_k(k[x],-)$, which we call the multiplication map on the affine line. Similarly, the map $k[t]\to k[t]\otimes k[t]$ sending $t$ to $t\otimes 1+1\otimes t$ determines the addition map on the affine line. The maps $k[t]\to k$ sending $t$ to $0,1$ in $k$ respectively determine global elements $M_k(k,-)\to O_k$ which we also refer to as $0,1$. Each element $x\in k$ determines a ring map $k[t]\to k[t]$ sending $t$ to $xt$, and the induced endomorphism of $O_k$ can be thought of as scaling by a factor of $k$.
-
-Under these operations $O(X)$ is naturally endowed with the structure of a $k$-ring.
 =--
 
 +-- {: .num_remark}
