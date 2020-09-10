@@ -59,6 +59,10 @@ See also
 
 * Paul Singer, _Radiative  $\rho$-Meson Decay_, Phys. Rev. 130, 2441 (1963) ([doi:10.1103/PhysRev.130.2441](https://doi.org/10.1103/PhysRev.130.2441))
 
+Via [[holographic light front QCD]]:
+
+* Satvir Kaur, Chandan Mondal, Harleen Dahiya, _Light-front holographic $\rho$-meson distributions in the momentum space_ ([arXiv:2009.04288](https://arxiv.org/abs/2009.04288))
+
 
 
 
