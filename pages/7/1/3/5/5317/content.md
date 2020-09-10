@@ -42,9 +42,15 @@ The sphere spectrum is naturally an [[E-∞ ring]] and in fact is the [[initial 
 
 * [[spherical fibration]]
 
-* [[stable cohomotopy]]
-
 * [[equivariant sphere spectrum]]
+
+* [[Cohomotopy]]
+
+  * [[stable Cohomotopy]]
+
+  * [[twisted Cohomotopy]]
+
+  * [[equivariant Cohomotopy]]
 
 * [[superalgebra]]
 
