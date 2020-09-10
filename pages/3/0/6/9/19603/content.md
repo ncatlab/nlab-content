@@ -79,6 +79,8 @@ Work conducted in homotopy type theory:
 
 * [[Daniel Christensen]], [[Luis Scoccola]], _The Hurewicz theorem in Homotopy Type Theory_, ([arXiv:2007.05833](https://arxiv.org/abs/2007.05833))
 
+* Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], _Synthetic topology in Homotopy Type Theory for probabilistic programming_ ([arXiv:1912.07339](https://arxiv.org/abs/1912.07339))
+
 * Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098))
 
 * Daniel Carranza, Jonathan Chang, Chris Kapulkin, Ryan Sandford, _2-adjoint equivalences in homotopy type theory_, ([arXiv:2008.12433](https://arxiv.org/abs/2008.12433))
