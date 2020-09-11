@@ -45,9 +45,9 @@ shall satisfy the following axioms:
 1. the maps $\lambda, \lambda '$ preserve the actions of $P$; further, with the
 given actions, the maps $\lambda, \lambda',\mu, \nu$ and $\kappa = \mu\lambda = \mu
 '\lambda '$ are crossed modules;
-1. $\lambda h(m,n)=m^n m^{-1},\lambda 'h(m,n)= {^m}n\,n^{-1}$
-1. $h(\lambda l, n)= l^n l^{-1}, h(m,\lambda 'l)= {^m}l\, l^{-1}$
-1. $ h(mm',n) = {^m}h(m',n) h(m,n), h(m,nn') = h(m,n) ^n h(m,n')$;
+1. $\lambda h(m,n)=m\,^n (m^{-1}),\lambda 'h(m,n)= {^m}n\,n^{-1}$
+1. $h(\lambda l, n)= l\,^n (l^{-1}), h(m,\lambda 'l)= {^m}l\, l^{-1}$
+1. $ h(mm',n) = {^m}h(m',n) h(m,n), h(m,nn') = h(m,n) \, ^n h(m,n')$;
 1. $h(^p m, {^p n})= {^p}h(m,n)$;
 
 for all $l\in L, \,m, m'\in M,\, n,n'\in N$ and $p\in P$. 
