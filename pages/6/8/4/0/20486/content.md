@@ -1,5 +1,5 @@
 
-> This entry is about the theorem in [[logic]] which is often just called _Disconescu's theorem_, but not to be confused with [[Diaconescu's theorem]] in [[topos theory]].
+> This entry is about the theorem in [[logic]] which is often just called _Diaconescu's theorem_, but not to be confused with [[Diaconescu's theorem]] in [[topos theory]].
 
 ***
 
