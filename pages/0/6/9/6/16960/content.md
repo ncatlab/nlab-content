@@ -83,6 +83,8 @@ But in some [[RO(G)-degrees]] there may appear further non-torsion groups, see a
 
 * [[rational equivariant homotopy theory]]
 
+  * [[model structure on equivariant dgc-algebras]]
+
 * [[rational equivariant stable homotopy theory]]
 
 * [[rational stable homotopy theory]]
@@ -135,3 +137,5 @@ For $G = SO(3)$ and hence also for the [[finite groups]] of [[ADE classification
 * [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. 271, Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
 
 * [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
+
+[[!redirects equivariant rational stable homotopy theory]]
