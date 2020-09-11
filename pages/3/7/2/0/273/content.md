@@ -237,16 +237,6 @@ The classical theory via [[principal bundles]] and [[Lie groups]]/[[algebraic gr
 
 *  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
 
-Discussion in a context of [[nonabelian Hodge theory]]:
-
-* [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_, in: János Kollár, Robert Lazarsfeld, [[David Morrison]] (eds.) _Algebraic Geometry Santa Cruz 1995, Part 2_, Proceedings of Symposia in Pure Mathematics Volume 62.2, AMS 1997 ([arXiv:alg-geom/9604005](http://arxiv.org/abs/alg-geom/9604005), [doi:10.1090/pspum/062.2](https://doi.org/10.1090/pspum/062.2))
-
-* [[Carlos Simpson]], _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9712020))
-
-* [[Carlos Simpson]], _Algebraic aspects of higher nonabelian Hodge theory_ ([arXiv](http://arxiv.org/abs/math/9902067))
-
-* [[Carlos Simpson]], [[Tony Pantev]], [[Ludmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
-
 
 
 ### Categorified theory -- 2-bundles/gerbes 
@@ -298,6 +288,18 @@ Existence of [[classifying spaces]] for [[principal 2-bundles]]/[[nonabelian ger
 Discussion of the general theory via [[principal ∞-bundles]] and/or [[∞-gerbes]] and/or [[∞-stacks]]:
 
 * [[Paul Glenn]], _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra 25, 1982, no. 1, 33- 105 (<a href="https://doi.org/10.1016/0022-4049(82)90094-9">doi:10.1016/0022-4049(82)90094-9</a>)
+
+In a context of [[nonabelian Hodge theory]]:
+
+* [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_, in: János Kollár, Robert Lazarsfeld, [[David Morrison]] (eds.) _Algebraic Geometry Santa Cruz 1995, Part 2_, Proceedings of Symposia in Pure Mathematics Volume 62.2, AMS 1997 ([arXiv:alg-geom/9604005](http://arxiv.org/abs/alg-geom/9604005), [doi:10.1090/pspum/062.2](https://doi.org/10.1090/pspum/062.2))
+
+* [[Carlos Simpson]], _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_ ([arXiv:alg-geom/9712020](http://arxiv.org/abs/alg-geom/9712020))
+
+* [[Carlos Simpson]], _Algebraic aspects of higher nonabelian Hodge theory_,  in: Fedor Bogomolov, Ludmil Katzarkov (eds.), _Motives, polylogarithms and Hodge theory, Part II_ (Irvine, CA, 1998), Int. Press Lect. Ser., 3, II, Int. Press, 2002, 2016, 417-604.  ([arXiv:math/9902067](http://arxiv.org/abs/math/9902067), [ISBN:9781571462909](https://www.intlpress.com/site/pub/pages/books/items/00000089/index.php))
+
+* [[Carlos Simpson]], [[Tony Pantev]], [[Ludmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv:math/0006213](http://arxiv.org/abs/math/0006213))
+
+Generally:
 
 
 * {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf), [[ToenStacksAndNonabelianCohomology.pdf:file]])
