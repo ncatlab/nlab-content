@@ -61,7 +61,7 @@ $$\array{& L & & M & \\
 }$$
 The image of this morphism is a normal sub-crossed module of $(M,P,\mu)$, so we can form a quotient
 $$\overline{\mu} : M/\lambda L \to P/\nu N,$$
-and this is a crossed module, as is the kernal crossed module of this (horizontal) morphism.
+and this is a crossed module, and is the kernel crossed module of this (horizontal) morphism.
 
 
 ## Examples
@@ -130,5 +130,9 @@ This theme of using two equivalent categories, one for conjecture and proof, the
 ##References
 
 * D. Guin-Walery and [[J.-L. Loday]], 1981, _Obstructions &#224; l'excision en K-th&#233;orie alg&#232;brique_, in Evanston Conference on Algebraic K-theory, 1980, volume 854 of Lecture Notes in Maths., 179 &#8211; 216, Springer.
+
+*  [[G.J. Ellis]], Crossed squares and combinatorial homotopy, Math. Z., 461 (1993) 93&#8211;110,
+
+*  [[T. Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5 &#8211; 24,
 
 [[!redirects crossed squares]]
