@@ -37,5 +37,10 @@ On the [[Higgs mechanism]]:
 
 * {#HINSS18} Manami Noumi Hashi, Hiroshi Isono, Toshifumi Noumi, [[Gary Shiu]], Pablo Soler, _Higgs Mechanism in Nonlocal Field Theories_, JHEP08 (2018) 064 ([arXiv:1805.02676](https://arxiv.org/abs/1805.02676))
 
+Application of [[persistent homology]] to [[cosmic structure formation]]:
+
+* Matteo Biagetti, Alex Cole, [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
+
+
 
 category: people
