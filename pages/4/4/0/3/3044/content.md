@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Rational homotopy theory
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
 =--
 =--
 
