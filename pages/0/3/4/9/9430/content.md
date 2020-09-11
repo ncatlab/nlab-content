@@ -76,15 +76,11 @@ See also
 
 
 
-
-
 Bar-codes were discovered under the name of _canonical forms invariants of filtered complexes_ in 
 
 *  Serguei Barannikov, _Framed Morse complex and its invariants_, [pdf](https://www.researchgate.net/profile/Serguei_Barannikov/publication/267672645_The_Framed_Morse_complex_and_its_invariants/links/5970e947458515fa8de6e724/The-Framed-Morse-complex-and-its-invariants.pdf) Advances in Soviet Mathematics __21__ 93–115 (1994)
 
-Other references:
-
-
+See also
 
 * A. Zomorodian, [[Gunnar Carlsson]], _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005) ([doi:10.1007/s00454-004-1146-y](https://doi.org/10.1007/s00454-004-1146-y))
 
@@ -118,6 +114,10 @@ Other references:
 The following paper uses persistent homology to single out features relevant for training [[neural networks]]:
 
 * Jean-Baptiste Bardin, Gard Spreemann, [[Kathryn Hess]], _Topological exploration of artificial neuronal network dynamics_, [arxiv/1810.01747](https://arxiv.org/abs/1810.01747)
+
+Application to [[topological data analysis]] in [[cosmological structure formation]]:
+
+* Matteo Biagetti, Alex Cole, [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
 
 ### Variants
 
