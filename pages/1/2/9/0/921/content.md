@@ -141,6 +141,11 @@ The terminal coalgebra of $F_1$ is order isomorphic to the non-negative real lin
 This is theorem 5.1 in
 
 * D. Pavlovic, [[Vaughan Pratt]], _On coalgebra of real numbers_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
+
+To make it less mysterious as it appears, the basic idea is that the functor
+
+F: (Set) -> (Set) that takes a set (-) to (X x (-)) has final coalgebra being the stream of X: (XxXxXx...). Take X be the set of natural numbers N, the result is simply the stream of N: NxNxNx..., which obviously can be  identified with the real number set. Now take the (partial) order into account, you can get and ordered isomorphism. With suitable choice of identification between NxNx.. and [0,1), the topology can also be taken care of.
+
 =--
 
 There are more and similar characterizations along these lines.  One is an example at [[final coalgebra]].
