@@ -201,6 +201,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 * [[equivariant rational homotopy theory]], [[rational equivariant stable homotopy theory]]
 
+  * [[model structure on equivariant dgc-algebras]]
+
 * [[Segal conjecture]]
 
 * [[equivariant K-theory]], [[equivariant operator K-theory]], [[equivariant KK-theory]]
