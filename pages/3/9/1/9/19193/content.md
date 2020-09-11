@@ -76,6 +76,11 @@ See also
 
 * Wikipedia, _[Structure formation](https://en.wikipedia.org/wiki/Structure_formation)_
 
+Application of [[persistent homology]] to cosmological structure formation:
+
+* Matteo Biagetti, Alex Cole, [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
+
+
 ### Computer simulation
 
 There are various computer simulations for cosmic structure formation, listed below. Review includes the following:
