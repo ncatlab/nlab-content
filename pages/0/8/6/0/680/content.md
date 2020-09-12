@@ -599,19 +599,19 @@ One may view the (monoidal) Dold-Kan correspondence as a relation between a well
 
 Historical references for the Dold--Kan correspondence are
 
-* {#Dold58} [[Albrecht Dold]], _Homology of symmetric products and other functors of complexes_, Annals of Mathematics Second Series, Vol. 68, No. 1 (Jul., 1958), pp. 54-80  ([jstor](http://www.jstor.org/stable/1970043))
+* {#Dold58} [[Albrecht Dold]], _Homology of symmetric products and other functors of complexes_, Annals of Mathematics Second Series, Vol. 68, No. 1 (Jul., 1958), pp. 54-80  ([jstor:1970043](http://www.jstor.org/stable/1970043))
 
 which considers the correspondence for categories of [[modules]], and
 
-* {#DoldPuppe61} [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Annales de l'institut Fourier, 11 (1961), p. 201-312  ([numdam](http://www.numdam.org/item?id=aif_1961__11__201_0))
+* {#DoldPuppe61} [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Annales de l'institut Fourier, 11 (1961), p. 201-312  ([numdam:aif_1961__11__201_0](http://www.numdam.org/item?id=aif_1961__11__201_0))
 
 that generalizes the result to arbitrary [[abelian category|abelian categories]].
 
 The expression of the correspondence in terms of [[nerve and realization]] is due to
 
-* {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
+* {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor:1993103](http://www.jstor.org/stable/1993103)).
   
-  This remarkable article, which appeared shortly after the work by Dold and Puppe but was apparently not influenced by that, introduces not just the abstract [[nerve and realization]] form of the Dold-Kan correspondence, but introduces the general notion of nerve and realization and in fact the general notion of what is now called [[Kan extension]].
+  > This remarkable article, which appeared shortly after the work by Dold and Puppe but was apparently not influenced by that, introduces not just the abstract [[nerve and realization]] form of the Dold-Kan correspondence, but introduces the general notion of nerve and realization and in fact the general notion of what is now called [[Kan extension]].
 
 The Dold-Kan corresondence as a [[Quillen equivalence]] between the [[model structure on simplicial abelian groups]] and the projective [[model structure on chain complexes]] is due to
 
