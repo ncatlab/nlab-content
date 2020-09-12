@@ -322,7 +322,7 @@ The classical reference for the [[transferred model structure]] on simplicial $T
 
 with some further remarks in
 
-* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
+* {#Quillen69} [[Dan Quillen]], Section II.3 of: _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
 
 
 The generalization to the case that the theory $T$ itself is allowed to be simplicial is due to 
