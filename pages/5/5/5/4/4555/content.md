@@ -34,16 +34,17 @@ Since Cheeger-Simons characters enocde information beyond the [[curvature charac
 
 * [[Chern-Weil homomorphism]]
 
+* [[secondary characteristic class]]
+
 ## References
 
 The original article is
 
-* [[Jeff Cheeger]],  [[James Simons]], _Differential characters and geometric invariants_ ,  LNM 1167, pages 50&#8211;80. Springer Verlag, (1985)  ([pdf](http://numr.wdfiles.com/local--files/differential-cohomology/cheeger-simons.pdf))
- {#CheegerSimons}
-
+* {#CheegerSimons} [[Jeff Cheeger]],  [[James Simons]], _Differential characters and geometric invariants_, pages 50&#8211;80 in: _Geometry and Topology_, Lecture Notes in Mathematics, vol 1167. Springer (1985)  ([pdf](http://numr.wdfiles.com/local--files/differential-cohomology/cheeger-simons.pdf), [doi:10.1007/BFb0075212](https://doi.org/10.1007/BFb0075212))
+ 
 building on 
 
-* [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_     The Annals of Mathematics, Second Series, Vol. 99, No. 1 (1974) ([jstor](http://www.jstor.org/stable/1971013)).
+* [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_, The Annals of Mathematics, Second Series, Vol. 99, No. 1 (1974) ([jstor](http://www.jstor.org/stable/1971013)).
 
 Further developments are in 
 
