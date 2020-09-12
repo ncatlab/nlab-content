@@ -2115,25 +2115,29 @@ Deligne cohomology was introduced in [[complex analytic geometry]] (by a [[chain
 
 with applications to [[Hodge theory]] and [[intermediate Jacobians]]. The same definition appears in 
 
-* [[Barry Mazur]], [[William Messing]], _Universal extensions and one-dimensional crystalline cohomology_, Springer lecture notes 370, 1974 ([doi:10.1007/BFb0061628](https://link.springer.com/book/10.1007/BFb0061628))
+* [[Barry Mazur]], [[William Messing]], Section 3.1.7 of: _Universal extensions and one-dimensional crystalline cohomology_, Springer lecture notes 370, 1974 ([doi:10.1007/BFb0061628](https://link.springer.com/book/10.1007/BFb0061628))
 
-* {#ArtinMazur77} [[Michael Artin]], [[Barry Mazur]], section III.1 of _Formal Groups Arising from Algebraic Varieties_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 10 no. 1 (1977), p. 87-131  [numdam](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663)
+* {#ArtinMazur77} [[Michael Artin]], [[Barry Mazur]], section III.1 of _Formal Groups Arising from Algebraic Varieties_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 10 no. 1 (1977), p. 87-131  ([numdam:ASENS_1977_4_10_1_87_0](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663))
 
 under the name "multiplicative de Rham complex" (and in the context of studying its [[deformation theory]] by [[Artin-Mazur formal groups]]). The theory was further developed in
 
-* {#Beilinson85} [[Alexander Beilinson]], _[[Higher regulators and values of L-functions]]_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861)) (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
+* {#Beilinson85} [[Alexander Beilinson]], _[[Higher regulators and values of L-functions]]_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861)) 
+
+   English translation: J Math Sci 30, 2036–2070 (1985) ([doi:10.1007/BF02105861](https://doi.org/10.1007/BF02105861))
+
+  > (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
 
 with the application to [[Beilinson regulators]]. Later the evident version of the Deligne complex in [[differential geometry]] over [[smooth manifolds]] gained more attention and is still referred to as "Deligne cohomology".
 
 Surveys and introductions in the context of [[differential geometry]] include
 
-* {#Brylinski93} [[Jean-Luc Brylinski]], section 5 of _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkh&#228;user 1993
+* {#Brylinski93} [[Jean-Luc Brylinski]], section I.5 of: _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkh&#228;user 1993 ([doi:10.1007/978-0-8176-4731-5](https://link.springer.com/book/10.1007/978-0-8176-4731-5))
 
 * {#Bunke12} [[Ulrich Bunke]], section 3 of _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
 
 Review with more emphasis on [[complex analytic geometry]] and the theory of ([Beilinson 85](#Beilinson85)) with more details spelled out is in
 
-* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
+* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_, in: Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_, Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf), [ISBN:978-0-12-581120-0](https://www.sciencedirect.com/book/9780125811200/beilinsons-conjectures-on-special-values-of-l-functions))
 
 * {#Esnault89} [[Hélène Esnault]], _On the Loday-symbol in the Deligne-Beilinson cohomology_, K-theory 3, 1-28, 1989 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/16-loday-symbol.pdf))
 
@@ -2145,7 +2149,7 @@ See also
 
 * {#Voisin02} [[Claire Voisin]], section 12 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
-Discussion of Deligne cohomology as classifying highe [[bundle gerbes]] ([[bundle 2-gerbes]], etc.) [[connection on a bundle gerbe|with connection]]:
+Discussion of Deligne cohomology as classifying higher [[bundle gerbes]] ([[bundle 2-gerbes]], etc.) [[connection on a bundle gerbe|with connection]]:
 
 * [[Pawel Gajer]], _Geometry of Deligne cohomology_, Invent. Math., 127(1):155-207 (1997) ([arXiv:alg-geom/9601025](http://arxiv.org/abs/alg-geom/9601025), [doi:10.1007/s002220050118](https://doi.org/10.1007/s002220050118))
 
