@@ -84,18 +84,16 @@ The first to explore this idea were [Meseguer and Montanari](#monoids) who const
 \end{center}
 Although morally Petri nets generate free symmetric monoidal categories, it turns out that because they have a free _commutative_ monoid of places, they more naturally generate [[commutative monoidal categories]], symmetric monoidal categories of an unusually strict type. [[Commutative monoidal categories]] don't show up often in nature because they aren't the result of a [[coherence]] theorem for symmetric monoidal categories. [[Saunders Mac Lane|Mac Lane's]] [[coherence theorem for symmetric monoidal categories]] says that every symmetric monoidal category is symmetric monoidally equivalent to a [[symmetric monoidal category|strict symmetric monoidal category]] which may have nontrivial symmetry morphisms. However, commutative monoidal categories have symmetry morphisms which are given by the identity so they aren't the [strictifications](https://ncatlab.org/nlab/show/coherence+theorem#strictification) of symmetric monoidal categories.
 
-Computer scientists also haven't been satisfied with commutative monoidal categories as a categorical semantics for Petri nets. Commutative monoidal categories are said to exhibit the collective token philosophy (see e.g. [Glabeek and Plotkin](#philosophy)), where tokens do not have individual idenities. On the other hand, symmetric monoidal categories are said to have the individual token philosophy where the individual identites of the tokens are retained. The easiest to see where an issue shows up is with a variation of the [[Eckmann-Hilton argument]]. Let $C$ be a commutative monoidal category and let $f \colon 0 \to 0$ be a morphism from monoidal unit to itself. Then,
+Computer scientists also haven't been satisfied with commutative monoidal categories as a categorical semantics for Petri nets. Commutative monoidal categories are said to exhibit the collective token philosophy (see e.g. [Glabeek and Plotkin](#philosophy)), where tokens do not have individual idenities. On the other hand, symmetric monoidal categories are said to have the individual token philosophy where the individual identites of the tokens are retained. The easiest to see where an issue shows up is with a variation of the [[Eckmann-Hilton argument]]. Let $C$ be a commutative monoidal category and let $f,g \colon a \to a$ be morphisms from an object a to itself. Then,
 $$\begin{aligned}
-f \circ f & = f \circ f + 0 \\
-&= f \circ f + 1_0 \\
-&= f \circ f + 1_0 \circ 1_0 \\
-& = (f + 1_0 ) \circ (f + 1_0) \\
-&= (1_0 + f) \circ (f + 1_0) \\
-&= 1_0 \circ f + f \circ 1_0 \\
-&= f + f
+g \circ f + 1_a & = g \circ f + 1_a \circ 1_a \\
+&= (g+ 1_a)\circ (f + 1_a) \\
+&= (g + 1_a) \circ (1_a + f) \\
+& = g \circ 1_a + 1_a \circ f \\
+&= g + f 
 \end{aligned}$$
 
-So in a commutative monoidal category $f \circ f = f+ f$ even though they have very different semantic interpretations: one represents sequential composition and the other represents parallel composition.
+So in a commutative monoidal category $g \circ f + 1_a = g+ f$ even though they have very different semantic interpretations: one represents sequential composition and the other represents parallel composition.
 
 One possible fix to this is to change the definition of Petri net. In [_Functorial Models for Petri Nets_](#functorial) the authors introduced [[Pre-net|pre-nets]]. A pre-net is a pair of functions from a set of events to the free monoid on a set of places. The key difference is that now every event is equipped with an ordering on the input and output of each transition. With pre-nets, there is a natural [[adjunction]] between the category $PreNet$ of pre-nets and $SMC$ the category of strict monoidal categories
  
