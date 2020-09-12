@@ -227,7 +227,7 @@ are [[Quillen equivalence]]s with respect to these model structures.
 
 =--
 
-This is discussed for instance in ([Schwede-Shipley, section 4.1](#SchwedeShipley), [p.17](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17)).
+This is due to [Quillen 67, Section II.4 item 5](#Quillen67), see also [Schwede-Shipley 03, section 4.1](#SchwedeShipley), [p.17](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17)).
 
 
 +-- {: .num_remark }
@@ -610,10 +610,15 @@ that generalizes the result to arbitrary [[abelian category|abelian categories]]
 The expression of the correspondence in terms of [[nerve and realization]] is due to
 
 * {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
+  
+  This remarkable article, which appeared shortly after the work by Dold and Puppe but was apparently not influenced by that, introduces not just the abstract [[nerve and realization]] form of the Dold-Kan correspondence, but introduces the general notion of nerve and realization and in fact the general notion of what is now called [[Kan extension]].
 
-This remarkable article, which appeared shortly after the work by Dold and Puppe but was apparently not influenced by that, introduces not just the abstract [[nerve and realization]] form of the Dold-Kan correspondence, but introduces the general notion of nerve and realization and in fact the general notion of what is now called [[Kan extension]].
+The Dold-Kan corresondence as a [[Quillen equivalence]] between the [[model structure on simplicial abelian groups]] and the projective [[model structure on chain complexes]] is due to
 
-A standard modern textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
+* {#Quillen67} [[Daniel Quillen]], Section II.4 item 5 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+
+
+A textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
 
 * {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  
