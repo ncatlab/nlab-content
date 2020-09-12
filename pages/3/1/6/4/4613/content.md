@@ -76,22 +76,27 @@ If we view here, as we may $\nabla$ as the [[local Lagrangian]] of an [[schreibe
 
 * [[Cheeger-Simons class]], [[complex volume]]
 
+
 ## References
 
 The notion in its general cohomological sense appears in
 
-* Franklin P. Peterson, Norman Stein, _Secondary characteristic classes_ , Annals of mathematics, Vol 76, No. 3 (1962)
-{#PetersonStein}
-
-The notion of [[Chern-Simons form]]s originates in 
-
-* [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_     The Annals of Mathematics, Second Series, Vol. 99, No. 1 (1974) ([jstor](http://www.jstor.org/stable/1971013)).
+* {#PetersonStein} Franklin P. Peterson, Norman Stein, _Secondary characteristic classes_ , Annals of mathematics, Vol 76, No. 3 (1962)
 
 
+The notion of [[Chern-Simons forms]] originates in 
+
+* [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_, The Annals of Mathematics, Second Series, Vol. 99, No. 1 (1974) ([jstor](http://www.jstor.org/stable/1971013)).
 
 
 
-The special meaning in the context of [[Chern-Weil theory]] in [[differential geometry]] was established by the introduction of [[Cheeger-Simons differential character]]s. Reviews of that include
+The special meaning in the context of [[Chern-Weil theory]] in [[differential geometry]] was established by the introduction of [[Cheeger-Simons differential character]] in
+
+* {#CheegerSimons} [[Jeff Cheeger]],  [[James Simons]], _Differential characters and geometric invariants_, pages 50&#8211;80 in: _Geometry and Topology_, Lecture Notes in Mathematics, vol 1167. Springer (1985)  ([pdf](http://numr.wdfiles.com/local--files/differential-cohomology/cheeger-simons.pdf), [doi:10.1007/BFb0075212](https://doi.org/10.1007/BFb0075212))
+ 
+
+
+Reviews of that include
 
 * {#FreedCSII} [[Dan Freed]], _Classical Chern-Simons theory II_ ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf))
 
