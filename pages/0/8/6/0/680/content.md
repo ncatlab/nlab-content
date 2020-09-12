@@ -475,7 +475,7 @@ Dold--Kan correspondence.
   D. Quillen, _Rational homotopy theory_ , Ann. Math. 90 (1969), 204--265.
 
 
-* The statement of the Dold--Kan correspondence generalizes to [[sheaf|sheaves]] with values in the respective categories and this way from [[? Grpd]] to more general $(\infty,1)$-[[(infinity,1)-topos|topoi]]:
+* The statement of the Dold--Kan correspondence generalizes to [[sheaf|sheaves]] with values in the respective categories and this way from [[∞Grpd]] to more general $(\infty,1)$-[[(infinity,1)-topos|topoi]]:
 
   For $X$ be a [[site]], let $Sh(X, sAb)$ be the category of  _simplicial abelian sheaves_ -- i.e. [[simplicial presheaf|simplicial sheaves]] which take values in simplicial abelian groups -- and let $Sh(X, Ch_+(Ab))$ be the category of [[sheaf|sheaves]] on $S$ with values in non-negatively graded [[chain complexes]] of abelian groups. The normalized chain complex extends objectwise to a functor 
   $$
