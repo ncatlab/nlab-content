@@ -988,7 +988,7 @@ For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an 
 
 The projective model structure on connective chain complexes (Theorem \ref{ProjectiveModelStructure}) is due to 
 
-* {#Quillen67} [[Daniel Quillen]], end of Section II.4 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+* {#Quillen67} [[Daniel Quillen]], Section II.4 item 5 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
 see also
 
