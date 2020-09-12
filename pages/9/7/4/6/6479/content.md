@@ -30,7 +30,7 @@ Perhaps the key axiomatic notions of geometric stability theory (which at the ou
 ###### Definition 
 Let $X$ be a set. A **pregeometry** on $X$ is a [[closure operator]] (i.e., a [[monad]] $cl \colon P X \to P X$ on the [[power set]]), satisfying the following two conditions: 
 
-* The monad $cl$ is [[finitary functor|finitary]], i.e., $A \in X$ and $a \in cl(A)$, then there is a finite $A_0 \subseteq A$ such that $a \in cl(A_0)$. 
+* The monad $cl$ is [[finitary functor|finitary]], i.e., $A \in P X$ and $a \in cl(A)$, then there is a finite $A_0 \subseteq A$ such that $a \in cl(A_0)$. 
 
 * (Exchange condition) If $A \in P X$, $a,b \in X$, and $a \in cl(A\cup\{b\})$, then $a \in cl(A)$ or $b \in cl(A \cup \{\a\})$. (Cf. [[matroid]]) 
 
