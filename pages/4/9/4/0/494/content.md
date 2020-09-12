@@ -95,17 +95,17 @@ Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\ma
 \[
   \label{NaturalitySquareForAdjointnessOfFunctors}
   \array{
-    Hom_{\mathcal{D}}(L(c_2), d_1) 
+    Hom_{\mathcal{D}}(L(c_1), d_1) 
       &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
-    Hom_{\mathcal{C}}(c_2, R(d_1))
+    Hom_{\mathcal{C}}(c_1, R(d_1))
     \\
     {}^{\mathllap{Hom_{\mathcal{D}}(L(g), h)}}\big\downarrow
      &&
     \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(g, R(h))}}
     \\
-    Hom_{\mathcal{D}}(L(c_1),d_2)
+    Hom_{\mathcal{D}}(L(c_2),d_2)
     &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
-    Hom_{\mathcal{C}}(c_1,R(d_2))
+    Hom_{\mathcal{C}}(c_2,R(d_2))
   }
 \]
 
