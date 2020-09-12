@@ -244,9 +244,14 @@ In early 20th-century [[vector analysis]] (and even today in undergraduate Calcu
 ## References
  {#References}
 
-A standard account is for instance in
+Textbook accounts:
 
-* Reyer Sjamaar, _Manifolds and differential forms_, [pdf](http://www.math.cornell.edu/~sjamaar/papers/manifold.pdf)
+* [[Raoul Bott]], [[Loring Tu]], Theorem 3.5 in: _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
+
+* {#Lee12} [[John Lee]], Theorem 10.32 in: _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
+
+  (in the generality of [[manifolds with corners]])
+
 
 Statement of the fiberwise Stokes theorem:
 
