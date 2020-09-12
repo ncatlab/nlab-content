@@ -14,6 +14,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -1318,7 +1320,7 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 
 A nice introduction and survey is provided in the notes
 
-* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+* [[Dan Dugger]], _Sheaves and homotopy theory_, 1998 ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf), [[DuggerSheavesAndHomotopyTheory.pdf:file]])
 
 
 Detailed discussion of the injective model structures on simplicial presheaves is in
