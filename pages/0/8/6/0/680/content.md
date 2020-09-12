@@ -227,7 +227,7 @@ are [[Quillen equivalence]]s with respect to these model structures.
 
 =--
 
-This is due to [Quillen 67, Section II.4 item 5](#Quillen67), see also [Schwede-Shipley 03, section 4.1](#SchwedeShipley), [p.17](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17)).
+This is due to [Quillen 67, Section II.4 item 5](#Quillen67), see also [Schwede-Shipley 03, section 4.1](#SchwedeShipley03), [p.17](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17)).
 
 
 +-- {: .num_remark }
@@ -629,7 +629,7 @@ Similar material is in section 4.6 of
 
 Remarks about the interpretation in terms of model categories are in
 
-* {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376))
 
 
 Discussion in the generality of [[idempotent complete category|idempotent complete]] [[additive categories]] is in 
