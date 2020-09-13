@@ -48,7 +48,7 @@ building on
 
 Further developments are in 
 
-* [[James Simons]], [[Dennis Sullivan]], _Axiomatic characterization of ordinary differential cohomology_,  J Topology (2008) 1 (1): 45-56 ([web pdf](http://jtopol.oxfordjournals.org/content/1/1/45.full.pdf+html))
+* [[James Simons]], [[Dennis Sullivan]], _Axiomatic characterization of ordinary differential cohomology_,  J Topology (2008) 1 (1): 45-56 ([arXiv:math/0701077](https://arxiv.org/abs/math/0701077), [doi:10.1112/jtopol/jtm006]( https://doi.org/10.1112/jtopol/jtm006) [web pdf](http://jtopol.oxfordjournals.org/content/1/1/45.full.pdf+html))
 
 * Mark Brightwell, Paul Turner, _Relative differential characters_ ([arXiv:math.AT/0408333](http://arxiv.org/abs/math.AT/0408333))
 
