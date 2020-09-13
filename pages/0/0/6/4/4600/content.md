@@ -187,7 +187,14 @@ For the case $\mathbf{H} = $ [[Smooth∞Grpd]] this intrinsic definition reprodu
 
 ## References
 
-A good discussion is in 
+For original constructions see the references at 
+
+* _[[Deligne cohomology]]_
+
+* _[[Cheeger-Simons differential characters]]_
+
+
+For discussion in the broader context of generalized [[differential cohomology]] see
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math.AT/0211216))
 
@@ -199,7 +206,8 @@ A good discussion is in
 
 A characterization by the two characteristic exact sequences is discussed in 
 
-* [[James Simons]], [[Dennis Sullivan]], _Axiomatic Characterization of Ordinary Differential Cohomology_ ([arXiv:math/0701077](http://arxiv.org/abs/math/0701077))
+* [[James Simons]], [[Dennis Sullivan]], _Axiomatic characterization of ordinary differential cohomology_,  J Topology (2008) 1 (1): 45-56 ([arXiv:math/0701077](https://arxiv.org/abs/math/0701077), [doi:10.1112/jtopol/jtm006]( https://doi.org/10.1112/jtopol/jtm006) [web pdf](http://jtopol.oxfordjournals.org/content/1/1/45.full.pdf+html))
+
 
 Discussion of [[equivariant ordinary differential cohomology]]
 
