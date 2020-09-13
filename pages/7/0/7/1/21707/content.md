@@ -14,6 +14,8 @@ Harcourt Brace Jovanovich, Publishers
 
 Perspectives in Mathematics, Volume 4
 
+[Electronic version](https://ivv5hpp.uni-muenster.de/u/pschnei/publ/beilinson-volume/)
+
 ## Preface
 
 Every Spring and Fall, in the woods of the Black Forest, mathematicians from
@@ -41,8 +43,18 @@ possible.
 
 ## Contents
 
+Preface
+
+[[beilinson-preface.pdf:file]]
+
+Program proposal
+
+[[beilinson-programmvorschlag.pdf:file]]
+
 [[Peter Schneider]].
 Introduction to the Beilinson Conjectures.
+
+[[Schneider.pdf:file]]
 
 §1 Complex L-functions
 §2 Deligne cohomology
@@ -54,6 +66,8 @@ Introduction to the Beilinson Conjectures.
 [[Maria Heep]], [[Uwe Weselmann]].
 Deligne’s Conjecture.
 
+[[HeepWeselmann.pdf:file]]
+
 §1 Motives
 §2 Duality, functional equation, criticial values
 §3 Deligne’s periods
@@ -61,6 +75,8 @@ Deligne’s Conjecture.
 
 [[Hélène Esnault]], [[Eckart Viehweg]].
 Deligne-Beilinson Cohomology.
+
+[[EsnaultViehweg.pdf:file]]
 
 §1 The Deligne cohomology
 §2 The Deligne-Beilinson complex
@@ -74,8 +90,12 @@ Deligne-Beilinson Cohomology.
 [[Wolfgang K. Seiler]].
 λ-Rings and Adams Operations in Algebraic K-Theory.
 
+[[Seiler.pdf:file]]
+
 [[Günter Tamme]].
 The Theorem of Riemann-Roch.
+
+[[Tamme.pdf:file]]
 
 §1 The λ-ring structure and the Chern character for K-theory with supports
 §2 Riemann-Roch without denominators
@@ -86,8 +106,12 @@ The Theorem of Riemann-Roch.
 [[Michael Rapoport]].
 Comparison of the Regulators of Beilinson and of Borel.
 
+[[Rapoport.pdf:file]]
+
 [[Jürgen Neukirch]].
 The Beilinson Conjecture for Algebraic Number Fields.
+
+[[Neukirch1.pdf:file]]
 
 Part I: Regulators and values of Artin L-series
 §1 Regulators for algebraic number fields
@@ -95,6 +119,8 @@ Part I: Regulators and values of Artin L-series
 §3 L-series of Artin motives
 §4 Dirichlet L-series
 §5 Regulators of Dirichlet motives
+
+[[Neukirch2.pdf:file]]
 
 Part II: The regulator map for cyclotomic fields
 §1 The main theorem
@@ -107,14 +133,18 @@ Part II: The regulator map for cyclotomic fields
 [[Christopher Deninger]], [[Kay Wingberg]].
 On the Beilinson Conjectures for Elliptic Curves with Complex Multiplication.
 
+[[DeningerWingberg.pdf:file]]
+
 §1 A formula for the regulator of curves
 §2 A weakened version of the Beilinson conjecture for elliptic curves
-§3 Calculating < ω, [α, β]D > for elliptic curves over R
+§3 Calculating $\langle\omega,[\alpha,\beta]_{\cal D}\rangle$ for elliptic curves over $\bf R$
 §4 Relations between the L-function of an elliptic curve over Q with complex multiplication and Eisenstein-Kronecker-Lerch series
 §5 The absolute cohomology
 
 [[Norbert Schappacher]], [[Anthony J. Scholl]].
 Beilinson’s Theorem on Modular Curves.
+
+[[SchappacherScholl.pdf:file]]
 
 §1 The Theorem
 §2 Transformation of L-values
@@ -126,3 +156,5 @@ Beilinson’s Theorem on Modular Curves.
 
 [[Uwe Jannsen]].
 Deligne Homology, Hodge-D-Conjecture, and Motives.
+
+[[Jannsen.pdf:file]]
