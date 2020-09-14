@@ -2137,7 +2137,7 @@ Surveys and introductions in the context of [[differential geometry]] include
 
 Review with more emphasis on [[complex analytic geometry]] and the theory of ([Beilinson 85](#Beilinson85)) with more details spelled out is in
 
-* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_, in: Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_, Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf), [ISBN:978-0-12-581120-0](https://www.sciencedirect.com/book/9780125811200/beilinsons-conjectures-on-special-values-of-l-functions))
+* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_, in: [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_  Perspectives in Mathematics, Volume 4, Academic Press, Inc. 1988 (ISBN:978-0-12-581120-0)
 
 * {#Esnault89} [[Hélène Esnault]], _On the Loday-symbol in the Deligne-Beilinson cohomology_, K-theory 3, 1-28, 1989 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/16-loday-symbol.pdf))
 
