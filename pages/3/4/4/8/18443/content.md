@@ -34,7 +34,7 @@ for any [[proposition]] $P$ ("L&#246;b's axiom").
 
 This reduces to an [[incompleteness theorem]] when taking $P = $ [[false]] and using that 
 
-1. [[negation]] is $\not P = (P \to false) = P \to \not P$;
+1. [[negation]] is $\not P = (P \to false)$;
 
 1. [[consistency]] means that $\Box P \to \not \Box \not P$
 
@@ -43,16 +43,16 @@ $$
   \begin{aligned}
     & \Box (\Box false \to false) \to \Box false
     \\
-    \Leftrightarrow \;\; & \Box ( \not \Box false ) \to \Box false
+    \Rightarrow \;\; & \Box ( \not \Box false ) \to \Box false
     \\
     \Rightarrow \;\;
-    & \Box ( \not \Box false ) \to \not \Box ( \not false )
+    & \Box ( \not \Box false ) \to \not \Box \not false
     \\ 
     \Rightarrow \;\;
     & \Box ( \not \Box false ) \to false
     \\
     \Rightarrow \;\;
-    & \not \Box ( \not \Box false )
+    & \not \Box \not \Box false
   \end{aligned}
 $$
 
