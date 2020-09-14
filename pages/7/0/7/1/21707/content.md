@@ -37,6 +37,8 @@ on [[Deligne cohomology]] and [[Beilinson's conjectures]] on [[special values of
 
 ## Preface
 
+* <a href="https://ncatlab.org/nlab/files/beilinson-preface.pdf">pdf</a>
+
 Every Spring and Fall, in the woods of the Black Forest, mathematicians from
 West-Germany and other countries gather at Oberwolfach for the “Arbeitsgemeinschaft Geyer-Harder” to teach themselves in a joint effort new theories or results. At each meeting the topic and organizers of the following Arbeitsgemeinschaft are chosen after an evening of discussions by democratic vote. The organizers then prepare a detailed program for the conference which is posted in the mathematical institutes.
 Everyone interested in taking part in the meeting has to volunteer for one of the talks in the program. The organizers then choose the actual speakers.
@@ -53,12 +55,6 @@ possible.
 [[Norbert Schappacher]]
 
 [[Peter Schneider]]
-
-## Preface
-
-
-* <a href="https://ncatlab.org/nlab/files/beilinson-preface.pdf">pdf</a>
-
 
 ## Program proposal
 
