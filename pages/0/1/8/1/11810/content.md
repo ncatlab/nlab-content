@@ -52,7 +52,8 @@ The original articles are
 
 Reviews include
 
-* {#RapoportSchappacherSchneider88} [[Michael Rapoport]], N. Schappacher, [[Peter Schneider]] (eds), _Beilinson's conjectures on special values of L-functions_, Perspectives in mathematics 4, Academic Press 1988
+* {#RapoportSchappacherSchneider88} 
+ [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_  Perspectives in Mathematics, Volume 4, Academic Press, Inc. 1988 (ISBN:978-0-12-581120-0)
 
 * {#Soule84} [[Christophe Soulé]], _R&#233;gulateurs_ S&#233;minaire Bourbaki, 27 (1984-1985), Exp. No. 644, 17 p. ([Numdam](http://www.numdam.org/item?id=SB_1984-1985__27__237_0))
 
