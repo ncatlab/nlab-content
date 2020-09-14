@@ -91,6 +91,10 @@ A discussion of dependent type theory as the [[internal language]] of [[locally 
 
 * {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
 
+A formal definition of dependent type theories is given in
+
+* [[Andrej Bauer]], [[Philipp Haselwarter]], [[Peter LeFanu Lumsdaine]], _A general definition of dependent type theories_, ([arXiv:2009.05539](https://arxiv.org/abs/2009.05539))
+
 
 For more see the references at _[[Martin-Löf dependent type theory]]_.
 
