@@ -1,20 +1,38 @@
-## Bibliography
+
 
 This entry is about the book
 
-Beilinson's Conjectures on Special Values of L-Functions
+* [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.)
 
-Edited by [[Michael Rapoport]], [[Norbert Schappacher]], and [[Peter Schneider]].
+  \linebreak
 
-1988
 
-Academic Press, Inc.
+  **Beilinson's Conjectures on Special Values of L-Functions**
 
-Harcourt Brace Jovanovich, Publishers
+  \linebreak
 
-Perspectives in Mathematics, Volume 4
+  Perspectives in Mathematics, Volume 4,
 
-[Electronic version](https://ivv5hpp.uni-muenster.de/u/pschnei/publ/beilinson-volume/) (Note that the book is out of print and unavailable from [the publisher](https://www.sciencedirect.com/book/9780125811200/beilinsons-conjectures-on-special-values-of-l-functions), even electronically.)
+  
+
+  Academic Press, Inc. 1988,
+
+  Harcourt Brace Jovanovich, Publishers
+
+  ISBN:978-0-12-581120-0
+
+  [Electronic version](https://ivv5hpp.uni-muenster.de/u/pschnei/publ/beilinson-volume/) 
+
+on [[Deligne cohomology]] and [[Beilinson's conjectures]] on [[special values of L-functions]].
+
+(The book is out of print and unavailable from [the publisher](https://www.sciencedirect.com/book/9780125811200/beilinsons-conjectures-on-special-values-of-l-functions), even electronically.)
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
 
 ## Preface
 
