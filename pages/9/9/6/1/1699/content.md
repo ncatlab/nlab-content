@@ -8,7 +8,7 @@
 * table of contents
 {:toc}
 
-## Some writings
+## Selected writings
 
 * _Systems of Hodge bundles and uniformization_, Ph.D. Thesis, Harvard Univ., Cambridge, MA, 1987; J. Amer. Math. Soc. 1 (1988), no. 4, 867--918; [MR90e:58026](http://www.ams.org/mathscinet-getitem?mr=90e:58026), [doi](http://dx.doi.org/10.2307/1990994)
 
@@ -16,37 +16,24 @@ On [[nonabelian Hodge theory]]
 
 * _[[Higgs bundles]] and [[local systems]]_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95, [numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), 
 
-## Books
+On [[secondary characteristic classes]]:
 
-* [[Homotopy Theory of Higher Categories]] on [[higher category theory]]
+* Jaya N. Iyer, [[Carlos Simpson]], _Regulators of canonical extensions are torsion: the smooth divisor case_ ([arXiv:0707.0372](https://arxiv.org/abs/0707.0372))
 
-## related $n$Lab entries
+On [[homotopy theory]] and [[higher category theory]]:
 
-* [[Simpson's conjecture]]
+* [[Homotopy Theory of Higher Categories]]
 
-* [[n-category]]
 
-* [[Pursuing Stacks]]
-
-* [[descent]]
-
-* [[nonabelian cohomology]]
-
-* [[infinity-stack]]
-
-* [[Higgs bundle]]
-
-## Simpson on descent
+On [[descent]]
 
 In January 2009 Carlos Simpson wrote the following short note
 
 * C. Simpson, _Descent_ ([pdf](http://math.unice.fr/~carlos/slides/ihesAGjan09.pdf))
 
-The following reproduces the text unabridged, but equipped with hyperlinks on keywords to $n$Lab entries as far as existent.
+The following reproduces the text unabridged, but equipped with hyperlinks on keywords to $n$Lab entries as far as existent:
 
-
-### Descent 
-
+"
 The notion of [[descent]], piecing together a global picture out of local pieces and glueing data, permeates Grothendieck's work. The history of this idea dates to the middle ages with mapmakers drawing an ever more precise picture of the world, as modern terminology of "[[atlas]]es" and "[[chart]]s" reminds us. It is crucial to the notion of [[cohomology]], where we first meet higher glueing data.
 
 [[descent|Descent]] comes into Grothendieck's philosophy and work in a myriad of forms, starting with his papers _Technique de descente et th&#233;or&#232;mes
@@ -97,6 +84,25 @@ More recent developments include [Hopkins and Lurie's proof](http://golem.ph.ute
 [[TQFT|topological]] [[quantum field theory]]. And [[derived algebraic geometry]] permits
 us to imagine a local notion of descent as was explained to me by [[David Ben-Zvi]]: using the derived non-transverse intersections, Schlessinger-[[Jim Stasheff|Stasheff]]-
 Deligne-Goldman-Millson theory should be viewed as descent for the inclusion of a [[point]] into a local formal space, with the neighborhood intersection being the [[geometric infinity-function theory|derived loop space of Ben-Zvi and Nadler]]. 
+"
+
+
+## Related $n$Lab entries
+
+* [[Simpson's conjecture]]
+
+* [[n-category]]
+
+* [[Pursuing Stacks]]
+
+* [[descent]]
+
+* [[nonabelian cohomology]]
+
+* [[infinity-stack]]
+
+* [[Higgs bundle]]
+
 
 
 category: people
