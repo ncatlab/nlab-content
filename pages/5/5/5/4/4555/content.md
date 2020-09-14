@@ -36,6 +36,8 @@ Since Cheeger-Simons characters enocde information beyond the [[curvature charac
 
 * [[secondary characteristic class]]
 
+* [[Cheeger-Simons homomorphism]]
+
 ## References
 
 The original article is
