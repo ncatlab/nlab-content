@@ -95,57 +95,59 @@ The following result isolates the connection between [[closed functor|closed fun
 
 Recall that a monoidal category $\mathcal{Y}$ is **[left closed](https://ncatlab.org/nlab/show/closed+monoidal+category#left_right_and_biclosed_monoidal_category)** if each functor $a \otimes - \colon \mathcal{Y} \to \mathcal{Y}$ has a right adjoint $[a, -] \colon  \mathcal{Y} \to \mathcal{Y}$, called the internal hom.   We can similarly define right closed monoidal categories.   A symmetric or even braided monoidal category is left closed if and only if it is right closed, and one then simply calls it [[closed monoidal category|closed]], but for maximum generality we consider the merely monoidal case.   
 
-A functor $F$ between left closed monoidal categories is **lax closed** it if preserves the internal hom and the unit object up to specified natural transformations 
+A functor $F$ between left closed monoidal categories is **lax closed** it if preserves the internal hom and the unit object up to a specified map  
 
-$$ \hat{F}: F[a,b] \to [F a,F b], \qquad  F_0 : I \to F(I) $$
+$$ 
+\hat{F}: F[a,b] \to [F a,F b], \qquad  F_0 : I \to F(I),
+$$
 
-obeying some coherence laws listed at [[closed functor]].   If these are natural isomorphisms we call the functor **strong closed**.   Any lax monoidal functor betweeen left closed monoidal categories is lax closed (for a sketch of the argument see [[closed functor]]), but a strong monoidal functor may not be strong closed.   
+natural in both variables and obeying some coherence laws listed at [[closed functor]].   If these are natural isomorphisms we call the functor **strong closed**.   Any lax monoidal functor betweeen left closed monoidal categories is lax closed (for a sketch of the argument see [[closed functor]]), but a strong monoidal functor may not be strong closed.   
 
 +-- {: .num_prop}
 ###### Proposition
 
-Suppose $f_! \dashv f^\ast$ is an adjunction between left closed monoidal categories.   Then natural transformations
+Suppose $f_! \dashv f^\ast$ is an adjunction between left closed monoidal categories.   Then natural maps
 
 $$ \phi \colon f^*[a,b] \to [f^*a, f^*b]  $$
 
-correspond bijectively to natural transformations
+correspond bijectively to natural maps
 
 $$
   \pi \colon\;
   f_!(f^\ast a \otimes c) \longrightarrow a \otimes f_! c
 $$
 
-Furthermore, $\phi$ is a natural isomorphism if and only if $\pi$ is, in which case we say the **projection formula** holds.
+Furthermore, $\phi$ is an isomorphism if and only if $\pi$ is, in which case we say the **projection formula** holds.
 
 =--
 
 +-- {: .proof}
 ###### Proof 
 
-Suppose $\mathcal{X}$ and $\mathcal{Y}$ are left closed monoidal categories and $f_! \colon \mathcal{X} \to \mathcal{Y}$ is left adjoint to $f^* \colon \mathcal{Y} \to \mathcal{X}$.    Suppose we have a natural transformation 
+Suppose $\mathcal{X}$ and $\mathcal{Y}$ are left closed monoidal categories and $f_! \colon \mathcal{X} \to \mathcal{Y}$ is left adjoint to $f^* \colon \mathcal{Y} \to \mathcal{X}$.    Suppose we have a natural map 
 
 $$ \phi \colon f^*[a,b] \to [f^*a, f^*b]  $$
 
-for $a,b \in \mathcal{Y}$.  Thus we obtain a natural transformation
+for $a,b \in \mathcal{Y}$.  Thus we obtain a natural map
 
-$$ \mathcal{X}(c, f^*[a,b]) \to \mathcal{X}(c, [f^*a, f^*b]) $$
+$$ \mathcal{X}(c, f^*[a,b]) \to \mathcal{X}(c, [f^*a, f^*b]), $$
 
-for $c \in \mathcal{X}$.   By hom-tensor adjointness and the fact that $f_!$ is the left adjoint of $f^*$ we can rewrite this as
+for arbitrary $c \in \mathcal{X}$ (now natural in all three variables).   By hom-tensor adjointness and the fact that $f_!$ is the left adjoint of $f^*$ we can rewrite this as
 
 $$ \mathcal{Y}(f_! c, [a,b]) \to \mathcal{X}(f^*a \otimes c,f^*b). $$
 
 Using both these facts again we obtain
 
-$$ \mathcal{Y}(a \otimes f_! c, b) \to \mathcal{X}(f_!(f^\ast a \otimes c), b) $$
+$$ \mathcal{Y}(a \otimes f_! c, b) \to \mathcal{X}(f_!(f^\ast a \otimes c), b)\,. $$
 
-By the [[Yoneda lemma]] this gives the desired natural transformation
+By the [[Yoneda lemma]] this gives the desired natural map
 
 $$
   \pi \colon\;
-  f_!(f^\ast a \otimes c) \longrightarrow a \otimes f_! c
+  f_!(f^\ast a \otimes c) \longrightarrow a \otimes f_! c\,.
 $$
 
-By running through this calculation one can see that if $\phi$ is a natural isomorphism then all the other natural transformations listed above are too, including $\pi$.  Conversely, starting with $\pi$ we can run the argument backwards and get $\phi$, and if $\pi$ is a natural isomorphism so is $\phi$.
+By running through this calculation one can see that if $\phi$ is a invertible then all the other natural maps listed above are too, including $\pi$.  Conversely, starting with $\pi$ we can run the argument backwards and get $\phi$, and if $\pi$ is invertible then so is $\phi$.
 
 =--
 
