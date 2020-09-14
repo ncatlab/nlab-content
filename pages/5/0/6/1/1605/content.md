@@ -59,7 +59,7 @@ Especially in the theory of [[accessible categories]] and [[commutativity of lim
 
 * [[algebraic theory]] / [[Lawvere theory]] / [[(∞,1)-algebraic theory]] / [[2-algebraic theory]]
 
-* [[monad]] / [[2-monad]]/ **doctrine** / [[(∞,1)-monad]]
+* [[monad]] / [[2-monad]]/ **doctrine** / [[3-theory]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
 
