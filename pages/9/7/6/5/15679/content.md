@@ -64,12 +64,15 @@ Original article on the main conjectures are
 
 * {#Deligne79} [[Pierre Deligne]], _Valeurs de fonctions $L$ et p&#233;riodes d'int&#233;grales_, in  _Automorphic forms, Representations, and $L$-functions_, Proc. Symp. Pure Math. 33, AMS (1979) pages 313-346
 
-* {#Beilinson85} [[Alexander Beilinson]] _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070 ([web (Russian original)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng))
+* {#Beilinson85} [[Alexander Beilinson]], _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070 ([web (Russian original)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng))
 
 * {#Scholl91} [[Anthony Scholl]], _Remarks on special values of L-functions_, in J. Coates, M. Taylor (eds.) _$L$-Functins and Arithmetic_, London Math. Soc.  Lecture Notes 153, Cambridge University Press 1991, pages 373-392 ([pdf](https://www.dpmms.cam.ac.uk/~ajs1005/preprints/remarks.pdf))
 
 
-Reviews include
+Review and further developments:
+
+
+* [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_  Perspectives in Mathematics, Volume 4, Academic Press, Inc. 1988 (ISBN:978-0-12-581120-0)
 
 * {#KonsevichZagier} [[Maxim Kontsevich]], [[Don Zagier]], section 3 of _Periods_ ([pdf](http://www.ihes.fr/~maxim/TEXTS/Periods.pdf))
 
