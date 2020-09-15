@@ -81,7 +81,7 @@ If we view here, as we may $\nabla$ as the [[local Lagrangian]] of an [[schreibe
 
 The notion in its general cohomological sense appears in
 
-* {#PetersonStein} Franklin P. Peterson, Norman Stein, _Secondary characteristic classes_ , Annals of mathematics, Vol 76, No. 3 (1962)
+* {#PetersonStein} Franklin P. Peterson, Norman Stein, _Secondary characteristic classes_, Annals of mathematics, Vol 76, No. 3 (1962)
 
 
 The notion of [[Chern-Simons forms]] originates in 
