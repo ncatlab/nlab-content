@@ -29,7 +29,7 @@ It does so by prescribing the allowable judgment structures of the [[2-theories]
 
 1. The 3-theory of cartesian monoidal 2-categories (or cartesian 2-multicategories).  Syntactically, this corresponds to "simple type (2-)theories" with judgments such as $x:A, y:B, z:C \vdash d:D$ with a finite list of types to the left but exactly one type to the right, and no dependent types ([LSR 17](#LSR17)).
 
-1. The 3-theory of first-order logic. Syntactically, this corresponds to type 2-theories with one layer of dependency: there is one layer of types which cannot depend on anything, and then there is a second layer of types (“propositions” in the logical reading) which can depend on types in the first layer, but not on each other. 2-theories here are for hyperdoctrines and indexed monoidal categories, and include (typed) first-order classical logic, first-order intuitionistic logic, first-order linear logic, the type theory of indexed monoidal categories, first-order modal logic, etc. Semantic 2-theories in this 3-theory should be a sort of “2-hyperdoctrine”. 
+1. The 3-theory of first-order logic. Syntactically, this corresponds to type 2-theories with one layer of dependency: there is one layer of types which cannot depend on anything, and then there is a second layer of types (“propositions” in the logical reading) which can depend on types in the first layer, but not on each other. 2-theories here are for hyperdoctrines and indexed monoidal categories, and include (typed) first-order classical logic, first-order intuitionistic logic, first-order linear logic, the type theory of indexed monoidal categories, first-order modal logic, etc. Semantic 2-theories in this 3-theory should be a sort of “2-hyperdoctrine”. A [[higher-order logic]] is a 2-theory which adds rules specifying a universe of propositions. 
 
 1. The 3-theory that corresponds syntactically to "dependent type (2-)theories" with judgments such as $x:A, y:B(x), z:C(x, y) \vdash d:D(x, y, z)$. The semantic version of this should be some kind of "comprehension 2-category" ([Shulman 18b](#Shulman18b)). [[Homotopy type theory]] is a 2-theory defined in this 3-theory.
 
@@ -38,6 +38,8 @@ It does so by prescribing the allowable judgment structures of the [[2-theories]
 1. The classical 3-theory that extends the first-order 3-theory by allowing multiple sequents. (The term 'classical' here and above owes its origin to the contrast between systems LK and LJ of [[Gentzen's]] [[sequent calculus]], where LJ provides a proof system for [[intuitionistic logic]] via restriction to single sequents of the rules of LK for classical logic. This naming practice leads to a certain confusion as it is quite possible to represent classical first-order logic in a single sequent system such as Gentzen's NJ.)
 
 A 3-theory may be said to subsume another 3-theory, in the sense that a [[2-theory]] written in the latter may be formulated in the former. Here the first four 3-theories are ordered in terms of increasing expressivity. (5) subsumes (2), and (6) subsumes (3), but (4) and (5) are not comparable.
+
+Modal variants of 2-theories may be defined in 3-theories where the types appearing in judgments are indexed by a system (2-category) of modes ([Shulman 18b](#Shulman18b)).
 
 
 ## References
