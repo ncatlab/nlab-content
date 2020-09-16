@@ -8,7 +8,7 @@ Precursor computation in [[open string|open]] [[string theory]]:
 
 * [[Constantin Bachas]], [[Massimo Porrati]], _Pair Creation of Open Strings in an Electric Field_, Phys. Lett. B296 (1992) 77-84 ([arXiv:hep-th/9209032](https://arxiv.org/abs/hep-th/9209032))
 
-Relation to the [[DBI-action]] of a probe brane in [[AdS/CFT]]:
+Relation to the [[DBI-action]] of a [[probe brane]] in [[AdS/CFT]]:
 
 * {#SemenoffZarembo11} [[Gordon Semenoff]], [[Konstantin Zarembo]], _Holographic Schwinger Effect_, Phys. Rev. Lett. 107, 171601 (2011) ([arXiv:1109.2920](https://arxiv.org/abs/1109.2920),  [doi:10.1103/PhysRevLett.107.171601](https://doi.org/10.1103/PhysRevLett.107.171601))
 
@@ -21,6 +21,9 @@ Relation to the [[DBI-action]] of a probe brane in [[AdS/CFT]]:
 * Yoshiki Sato, Kentaroh Yoshida, _Universal aspects of holographic Schwinger effect in general backgrounds_, JHEP 12 (2013) 051 ([arXiv:1309.4629](https://arxiv.org/abs/1309.4629))
 
 * Daisuke Kawai, Yoshiki Sato, Kentaroh Yoshida, _The Schwinger pair production rate in confining theories via holography_, Phys. Rev. D 89, 101901 (2014) ([arXiv:1312.4341](https://arxiv.org/abs/1312.4341))
+
+* Yue Ding, Zi-qiang Zhang, _Holographic Schwinger effect in a soft wall AdS/QCD model_ ([arXiv:2009.06179](https://arxiv.org/abs/2009.06179))
+
 
 
 
