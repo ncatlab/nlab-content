@@ -47,6 +47,10 @@ See also:
 * Taha A Malik, Rafael Lopez-Mobilia, _Proof of the quantum null energy condition for free fermionic field theories_ ([arXiv:1910.07594](https://arxiv.org/abs/1910.07594))
 
 
+* Philipp Stanzer, _Numerical Relativity, Holography and the Quantum Null Energy Condition_ ([arXiv:2009.07040](https://arxiv.org/abs/2009.07040))
+
+
+
 [[!redirects energy conditions]]
 
 [[!redirects null energy condition]]
