@@ -68,9 +68,9 @@ The following are equivalent
 
 1. $X_\bullet$ is an effective Lie groupoid, def. \ref{EffectiveLieGroupoid};
 
-1. the canonical smooth [[functor]] $X_\bullet \to \mathbb{H}(X_0)$ (see [here](&#233;tale+groupoid#RelationToHaefligerGroupoids)) to the [[Haefliger groupoid]] of the manifold of objects is [[faithful functor|faithful]], i.e. gives a [[representable morphism of stacks]];
+1. the canonical smooth [[functor]] $X_\bullet \to \mathbb{H}(X_0)$ (see [here](etale+groupoid#RelationToHaefligerGroupoids)) to the [[Haefliger groupoid]] of the manifold of objects is [[faithful functor|faithful]], i.e. gives a [[representable morphism of stacks]];
 
-1. under the equivalence ([here](&#233;tale+groupoid#CharacterizationBySiteOfManifolds)) between smooth &#233;tale stacks and stacks on the [[site]] $SmthMfd^{et}$ of smooth manifolds with [[local diffeomorphisms]] between them, $X$ corresponds to a [[sheaf]] (i.e. to a [[0-truncated]] stack) on $SmthMfd^{et}$.
+1. under the equivalence ([here](etale+groupoid#CharacterizationBySiteOfManifolds)) between smooth étale stacks and stacks on the [[site]] $SmthMfd^{et}$ of smooth manifolds with [[local diffeomorphisms]] between them, $X$ corresponds to a [[sheaf]] (i.e. to a [[0-truncated]] stack) on $SmthMfd^{et}$.
 
 =--
 
