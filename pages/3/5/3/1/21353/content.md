@@ -290,6 +290,11 @@ Of [[upsilon-mesons]]:
 
 * {#GLMY19} Li-Min Gu, Hai-Bo Li, Xin-Xin Ma, Mao-Zhi Yang, _Study of the electromagnetic Dalitz decays $\psi(\Upsilon) \to \eta_c(\eta_b) l^+ l^-$_, Phys. Rev. D 100, 016018 (2019) ([arXiv:1904.06085](https://arxiv.org/abs/1904.06085))
 
+Of [[baryons]]:
+
+
+* G. Ramalho, _A covariant model for the decuplet to octet Dalitz decays_ ([arXiv:2002.07280](https://arxiv.org/abs/2002.07280))
+
 
 
 
