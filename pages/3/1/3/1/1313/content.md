@@ -94,7 +94,7 @@ When the natural numbers are embedded into larger [[rig]]s or [[ring]]s, the ope
 
 * There are similar characterizations of exponentiable [[locales]] (see [[locally compact locale]] and [[continuous poset]] and (in the appropriate higher-categorical sense) [[toposes]] and [[(∞,1)-toposes]] (see [[metastably locally compact locale]] and [[continuous category]] as well as [[exponentiable topos]]).
 
-* In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable.  This is  analogous to how in material [[set theory]] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
+* In [[algebraic set theory]] (see [[category with class structure]] for one example) one often assumes that only small objects (and morphisms) are exponentiable. analogous to how in material [[set theory]] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
 
 * In a [[type theory]] with [[dependent product]]s, every display morphism is exponentiable in the category of [[context]]s ---even in a type theory without identity types, so that not every morphism is display and the relevant slice category need not have all products.
 
