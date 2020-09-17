@@ -201,7 +201,7 @@ The root of the problem is that ($f \Vdash \Pi x:A.B[x]$) is not interderivable 
 
 The full presupposition of ($f \Vdash \Pi x:A.B[x]$) is ($(\Pi x:A.B[x])\,type$). That ($f \Vdash \Pi x:A.B[x]$) is interderivable with ($(A\,type) \wedge (x:A \vdash f\,x \Vdash B[x])$), and not ($(\Pi x:A.B[x])\,type \wedge (x:A \vdash f\,x \Vdash B[x])$), ($(\Pi x:A.B[x])\,type \Rightarrow (x:A \vdash f\,x \Vdash B[x])$), or something even weirder, is due to the "presupposition policy" the judgment forms are using. (Is there a better term for this?) (Technically, ($(\Pi x:A.B[x])\,type \wedge (x:A \vdash f\,x \Vdash B[x])$) is also interderivable, but it redundantly checks ($x:A \vdash B[x]\,type$).)
 
-As a practical matter, presuppositions don't validate themselves, so a proof assistant needs some policy on when/how they get validated. In Nuprl-like systems, the presuppositions are all instances of the type validity judgment. Although they generally cannot be checked automatically, as mentioned in the [idea section](#idea), propagation of type validity resembles type propagation in a type checker. Presuppositions of judgments and a policy for handling them are analogous to (arguably even an instance of) *free logics*: predicate logics that support expressions that don't necessarily denote. The case in type theory is the possibility of type expressions that don't denote a valid type. Different styles of free logic turn out to correspond to different styles of type (validity) propagation, and provide a policy for handling presuppositions. This is discussed in more detail later. (TODO)
+As a practical matter, presuppositions don't validate themselves, so a proof assistant needs some policy on when/how they get validated. In Nuprl-like systems, the presuppositions are all instances of the type validity judgment. Although they generally cannot be checked automatically, as mentioned in the [idea section](#idea), propagation of type validity resembles type propagation in a type checker. Presuppositions of judgments and a policy for handling them are analogous to (arguably even an instance of) *free logics*: predicate logics that support expressions that don't necessarily denote. The case in type theory is the possibility of type expressions that don't denote a valid type. Different styles of free logic turn out to correspond to different styles of type (validity) propagation, and provide a policy for handling presuppositions. This is discussed in more detail later. (FIXME)
 
 If the presuppositions can be checked automatically, the presupposition policy is not so visible to the user, but it's still there. When trying to represent judgment-level assertions as types though, the details of the presupposition policy become important.
 
@@ -247,7 +247,7 @@ The puzzle of representing the subtyping judgment as a type operation has been c
 * Two type expressions can have the same meaning in case they're both meaningful, but differ in their presuppositions, the conditions under which they're meaningful.
 * Respect for typed equality is automatically enforced by "open" reasoning about arbitrary elements, but can/must be done manually when doing "closed" reasoning about computations.
 
-All but the last point also apply—via propositions-as-types—to a style of partial logic that [[Peter Aczel]] called "Frege structures". Partial logic is itself a style of free logic where propositions themselves are denoted by expressions, but well-formed expressions generally don't denote propositions. Free logic, partial logic, Frege structures, and the connection to Nuprl-like systems are discussed below. (TODO!)
+All but the last point also apply—via propositions-as-types—to a style of partial logic that [[Peter Aczel]] called "Frege structures". Partial logic is itself a style of free logic where propositions themselves are denoted by expressions, but well-formed expressions generally don't denote propositions. Free logic, partial logic, Frege structures, and the connection to Nuprl-like systems are discussed below. (FIXME)
 
 The last point—about respect for equality, except when dealing with elements of a particular type—seems very peculiar to PER semantics. You don't need PER semantics to get those other "Frege phenomena", and you don't need PER semantics to get implicit respect for extensional equality, but the way they interact in PER semantics is quite extraordinary.
 
@@ -506,6 +506,11 @@ In Frege structures, too, proposition validity is [non-negatable](#NonNegate). W
 
 So intuitively, the problem with representing negative occurrences of $T$ without stratification is that that would entail assuming proposition validity in a proposition. But you can't, since proposition validity is non-negatable.
 
+TODO: Relation to synthesis and checking modes?  
+tl;dw  
+Synthesis: $T(x)$  
+Checking: $\not T(\dot{\not} x)$
+
 ### Fitch-Scott Partial Logic {#FSLogic}
 
 [[Dana Scott]] wrote [a note](#ScottComb) in which he sketched a system very similar to Frege structures. This was prior to Peter Aczel's paper that coined "Frege structures". Scott attributes key ideas of the system to Fitch, who worked on foundational logics based on combinators.
@@ -573,6 +578,38 @@ Kripke's theory provides the full T-schema in the setting of partial logic. Ther
 
 ### Free Logic
 
+Free logic is logic in which terms need not denote elements of types (logical sorts). Free logics seem to be essentially the same idea as logics of partial terms. The term "free logic" is nice since it's shorter than "logic of partial terms". "Partial logic" would be nice, but that seems to be taken to mean logic of partial *formulas*, as discussed [above](#FSLogic).
+
+There is a [SEP article](#SEPLogicFree) about free logic. Its emphasis is on a free version of untyped classical first-order logic, so for us, that means it has one type, and the well-defined terms denote elements of that type. The article refers to the type as the quantification domain, and thinks of its elements ("members") as the "existing things". The article speaks of whether terms denote some existing thing, rather than whether they are well-defined. So the article's "existence" predicate is often called a "definedness" predicate elsewhere. This may be a difference for philosophical purposes, but for mathematical and metatheoretical purposes, they seem the same.
+
+In CompLF, the quantifiers (like family intersection and subset, but of course also $\Pi$ and $\Sigma$) have types as the quantification domains. Functions (elements of $\Pi$ types) also have types as their domains. So the form of CompLF statement corresponding to existence/definedness of $t$ should be ($t \in T$). Or is it ($t \Vdash T$)? Or ($T \ni t$)? So you see, there are extra complications, due to having multiple types, the distinction between propositions and judgments, and the fact that type expressions themselves may be undefined. Also, with the HOAS logical framework, we also have the framework-level quantifiers, which do not involve types. We will see that all of these things are somewhat related to ideas in free logic.
+
+#### Negative, Positive, Neutral
+
+The SEP article identifies three "general approaches" to the semantics of free logic: In "negative" semantics, atomic formulas are necessarily false when applied to a non-denoting term. In "positive" semantics, the only requirement is that existence applied to a non-denoting term is false. (Of course, since existence is required to indicate which terms have a denotation.) In "neutral" semantics, atomic formulas, except for existence, necessarily lack a truth value when applied to a non-denoting term.
+
+So technically, the positive approach is the most general, since all approaches require the same behavior of the existence predicate, and otherwise, the positive approach has no requirements. Meanwhile, assuming there's at least one atomic predicate other than existence with at least one argument, the negative and neutral approaches are mutually exclusive. Actually, maybe the positive approach was intended to rule out truth value gaps. In that case it would not be more general than neutral. (And none of these approaches would explain CompLF.) But if we consider each argument of each atomic predicate individually, we can consider whether it's behaving like the negative approach, neutral approach, or neither.
+
+In the presence of truth value gaps, there are two interpretations of the negative approach to an argument: One is that if the argument is undefined, the predicate must be false. The other is that if the argument is undefined, the predicate must not be true. The first interpretation does not seem to show up anywhere in CompLF, but the second interpretation of the negative approach shows up in the equality predicate: If ($t = t' \in T$) is true, then $t$ and $t'$ must denote elements of $T$. (So if $t$ or $t'$ fail to denote, the equation cannot be (combined) true.) So the negative approach in this interpretation corresponds to strictness principles for atomic predicates: a predicate is true only if an argument is defined.
+
+The neutral approach *also* shows up in the equality predicate, provided we regard a term as having a truth value if and only if it denotes a type: If ($t = t' \in T$) is a type, then $t$ and $t'$ must denote elements of $Relax(T)$ (which entails also that $T$ is a type). So if $t$, $t'$, or $T$ fail to denote, the equation has no truth value. So the neutral approach corresponds to inversion principles for atomic type constructors.
+
+The identity type constructor ($\equiv$) has neither strictness nor inversion principles, so I suppose we could consider it to be following the positive approach.
+
+#### Outer Domain
+
+The positive approach to the semantics of free logic often makes use of an "outer domain". This domain is not (necessarily) quantified over, but it's used as the codomain of the term interpretation function. Atomic predicates are then interpreted simply as relations on the outer domain.
+
+In the semantics of CompLF, the outer domain is the set of terms, considered up to computational equivalence. So the "interpretation" of terms is just a quotient projection. (Types are subquotients of this outer domain, not subsets, and the PER semantics that's used to handle this causes phenomena that seem to have no analogue in free logic. For example, not everything is a $Comp$, even though $Comp$ is the internalization of the outer domain.)
+
+Relations on the outer domain are used as the interpretations of judgment forms. So in general, they correspond to predicates in the positive approach. They can be made more negative using conjunction. Provided they're representable as type operations, they can be made more neutral using $TpV$ and $PreSup$. (See [above](#StrTpV).)
+
+#### Quantification over Outer Domain
+
+TODO
+
+TODO?: Kahle's $T$ according to free logic.
+
 ## References
 
 * {#ScottComb} [[Dana Scott]], _Combinators and Classes_, Lambda Calculus and Computer Science Theory (LCCST) 1975 ([web](https://www.researchgate.net/publication/221200880_Combinators_and_classes))
@@ -580,5 +617,7 @@ Kripke's theory provides the full T-schema in the setting of partial logic. Ther
 * {#KCThesis} Karl Crary, _Type-Theoretic Methodology for Practical Programming Languages_, 1998 PhD thesis ([web](http://www.nuprl.org/KB/show.php?ShowPub=Cra98), [pdf](http://www.nuprl.org/documents/Crary/Thesis-TypeTheoretic.pdf))
 
 * {#KahleFSU} Reinhard Kahle, _Universes over Frege Structures_, Annals of Pure and Applied Logic (2003) ([web](https://www.sciencedirect.com/science/article/pii/S0168007202000404))
+
+* {#SEPLogicFree} John Nolt, _Free Logic_, Stanford Encyclopedia of Philosophy (SEP) Fall 2018 ([web](https://plato.stanford.edu/archives/fall2018/entries/logic-free/))
 
 * {#KripkeTruth} Saul Kripke, _Outline of a Theory of Truth_, Journal of Philosophy (1975)
