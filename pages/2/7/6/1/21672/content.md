@@ -21,7 +21,7 @@
 
 * We also have a [blog](https://math-phys.group/math-phys), where we write about our works. There you will also find a column, called [This Quarterly Finds on Math-Phys-Cat Group](https://math-phys.group/category/this-quarterly-finds-on-math-phys-cat-group/) in honor to Baez's seminal [This Week's Finds on Mathematical Physics](http://math.ucr.edu/home/baez/TWF.html), where quarterly we present what our group has been doing.
 
-* You can also find us on: [Twitter](https://twitter.com/math_phys_cat), [arXiv](), [Researchgate](https://www.researchgate.net/lab/Math-Phys-Cat-Group-Yuri-Ximenes-Martins), [mathoverflow](https://mathoverflow.net/users/153173/math-phys-cat?tab=profile), [ORCID](https://orcid.org/0000-0002-5507-1733), [Zenodo](https://zenodo.org/communities/math-phys-cat-group/?page=1&size=20), etc.
+* You can also find us on: [Twitter](https://twitter.com/math_phys_cat), [arXiv](), [Researchgate](), [mathoverflow](https://mathoverflow.net/users/153173/math-phys-cat?tab=profile), [ORCID](https://orcid.org/0000-0002-5507-1733), [Zenodo](https://zenodo.org/communities/math-phys-cat-group/?page=1&size=20), etc.
 
 
 #Contents#
@@ -38,8 +38,11 @@
 
 * Since it was created, our group has been offered courses, minicourses and a lot of student seminars (a weekly seminar where the students present his studies). See [here](https://math-phys.group/activities/). For some of them a detailed schedule and lecture notes are available.
 
-* We are also planning to start online Group Seminars (weekly seminars, where in each week a different member present something), which will be shared [here](https://math-phys.group/group-seminars/), and also in this page. External speakers are welcome. If you are interested, please, contact us.
+* We started online Group Seminars, weekly seminars, where in each week a different member present something related with his work. External speakers are welcome. If you are interested, please, contact us.
 
+* For the schedule and slides, see [here](https://math-phys.group/group-seminars/);
+* For video recordings, see our [Youtube Channel](https://www.youtube.com/channel/UCCjnnTiyS19M89olqLQQWOw). Currently it is being update every Wednesday, after the seminars.
+ 
 ## Current Members
 
 See also [here](https://math-phys.group/members/). We are fully open for new members and new interactions. If you are interested, please, contact us.
