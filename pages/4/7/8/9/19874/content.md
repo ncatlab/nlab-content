@@ -187,6 +187,8 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * Suman Kumbhakar, Rukmani Mohanta, _Investigating the effect of $U_1$ vector leptoquark on $b \to u \tau \bar\nu$ mediated B decays_ ([arXiv:2008.04016](https://arxiv.org/abs/2008.04016))
 
+* Valerio Gherardi, David Marzocca, Elena Venturini, _Low-energy phenomenology of scalar leptoquarks at one-loop accuracy_ ([arXiv:2008.09548](https://arxiv.org/abs/2008.09548))
+
 
 and within [[Randall-Sundrum models]]
 
