@@ -65,7 +65,7 @@ A _topological vector bundle_ over $X \in Top$ is
 
 1. an [[object ]] $[E \overset{\pi}{\to} X]$ of $Top_{/X}$
 
-1. with the [[structure]] of an $X \times k$-[[vector space]]-object [[internalization|interal]] to $Top_{/X}$, hence
+1. with the [[structure]] of an $X \times k$-[[vector space]]-object [[internalization|internal]] to $Top_{/X}$, hence
 
    1. a [[morphism]] $ (-)+(-) \;\colon\; E \times_X E \to E$
 
