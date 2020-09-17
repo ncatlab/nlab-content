@@ -126,6 +126,8 @@ There is a [[strict 2-category]] $SymmMonCat$ with:
 * [[symmetric monoidal functor]]s as morphisms, 
 * [[symmetric monoidal natural transformation]]s as 2-morphisms.
 
+This 2-category has (weak) 2-[[biproducts]] given by the cartesian product of underlying categories (analogously to how [[Ab]] has biproducts given by the cartesian product of underlying sets).  For a proof, see [Fong-Spivak, Theorem 2.3](#FongSpivak), or for a more abstract version involving [[pseudomonoids]] [Schaeppi, Appendix A](#Schaeppi).
+
 ### As models for connective spectra
   {#ModelsForConnectiveSpectra}
 
@@ -246,6 +248,11 @@ More discussion is in
 
 * [[Michael Mandell]], _An Inverse K-Theory Functor_ ([arXiv:1002.3622](http://arxiv.org/abs/1002.3622))
  {#Mandell}
+
+* {#FongSpivak} Brendan Fong and David I, Spivak, *Supplying bells and whistles in symmetric monoidal categories*, [arxiv](https://arxiv.org/abs/1908.02633), 2019
+
+* {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arxiv](https://arxiv.org/abs/1211.3678), 2014
+
 
 [[!redirects symmetric monoidal categories]]
 [[!redirects symmetric monoidal structure]]
