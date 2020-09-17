@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -292,6 +291,16 @@ One promising [[model (in theoretical physics)|model]] that could potentially ex
 From [Crivellin 18, p. 2](#Crivellin18):
 
 > the global fit $[$ to [[flavour anomalies]] $]$ even shows compelling evidence for New Physics $[$... $]$ The vector [[leptoquark]] (LQ) $SU(2)_L$ singlet with hypercharge $-4/3$ arising in the famous [[Pati-Salam model]] is capable of explaining all the $[$[[flavour anomalies|flavour]] $]$ anomalies and therefore several attempts to construct a [[UV completion]] for this LQ to address the anomalies have been made. It can give a sizeable effect in $b \to c(u)\tau \nu$ data without violating bounds from $b \to s(d)\nu \bar \nu$ and/or direct searches, provides (at [[tree level]]) a $C_9 = - C_{10}$ solution to $b \to s \ell^+ \ell^-$ data and does not lead to [[proton decay]] at any order in [[perturbative quantum field theory|perturbation theory]].
+
+From [GMV 20, Figure 9](#GMV20), showing fits of leptoquark models (labeled $S_i$) to a variety of [[observables]]:
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "GherardiEtAlLeptoquarkFits.jpg",
+  "width": 600
+\end{imagefromfile}
+\end{center}
+
 
 
 * [[leptoquarks]] in a [[Randall-Sundrum model]]:
@@ -662,6 +671,9 @@ _New physics in $b\to s \ell \ell$ decays with complex Wilson coefficients_ ([ar
 
 * {#BDKL20}   Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _A Measurable Angular Distribution for $\bar B \to D^\ast \tau^- \bar \nu_\tau$ Decays_ ([arXiv:2005.03032](https://arxiv.org/abs/2005.03032))
 
+* N. Penalva, E. Hernández, J. Nieves, _$\bar B_c \to \eta_c$, $\bar B_c \to J/\psi$ and $\bar B \to D^{(\ast)}$ semileptonic decays including new physics_ ([arXiv:2007.12590](https://arxiv.org/abs/2007.12590))
+
+
 In relation to [[electroweak field|electroweak]] precision data:
 
 * Lina Alasfar, Aleksandr Azatov, Jorge de Blas, Ayan Paul, Mauro Valli, _B anomalies under the lens of electroweak precision_ ([arXiv:2007.04400](https://arxiv.org/abs/2007.04400))
@@ -752,7 +764,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * Suman Kumbhakar, Rukmani Mohanta, _Investigating the effect of $U_1$ vector leptoquark on $b \to u \tau \bar\nu$ mediated B decays_ ([arXiv:2008.04016](https://arxiv.org/abs/2008.04016))
 
-
+* {#GMV20} Valerio Gherardi, David Marzocca, Elena Venturini, _Low-energy phenomenology of scalar leptoquarks at one-loop accuracy_ ([arXiv:2008.09548](https://arxiv.org/abs/2008.09548))
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
