@@ -417,6 +417,9 @@ See also:
 
 * Alfredo Aranda, Francisco J. de Anda, _Complete $E_8$ Unification in 10 Dimensions_ ([arXiv:2007.13248](https://arxiv.org/abs/2007.13248))
 
+* George Manolakos, Gregory Patellis, George Zoupanos, _$\mathcal{N}=1$ trinification from dimensional reduction of $N=1$, 10D $E_8$ over $SU(3)/U(1)\times U(1) \times \mathbb{Z}_3$ and its phenomenological consequences_ ([arXiv:2009.07059](https://arxiv.org/abs/2009.07059))
+
+
 
 
 
