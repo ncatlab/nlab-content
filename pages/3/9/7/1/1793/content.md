@@ -1039,10 +1039,6 @@ and are reviewed in
 {#Bousfield}
 
 
-A general textbook account is in chapter 2 of
-
-* [[Mark Hovey]], _Model categories_
-  {#Hovey}
 
 
 ### For unbounded chain complexes
@@ -1070,6 +1066,10 @@ and noticed as cofibrantly generated model structure on p. 7 of
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ ([arXiv:math/9801082](http://arxiv.org/abs/math/9801082))
  {#SchwedeShipley98}
+
+A textbook account is around Theorem 2.3.11 of:
+
+* {#Hovey} [[Mark Hovey]], _Model Categories_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover), [ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s))
 
 That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thus a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is cor. 4.6 in
 
