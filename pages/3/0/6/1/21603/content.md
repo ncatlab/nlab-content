@@ -251,7 +251,7 @@ The puzzle of representing the subtyping judgment as a type operation has been c
 * Two type expressions can have the same meaning in case they're both meaningful, but differ in their presuppositions, the conditions under which they're meaningful.
 * Respect for typed equality is automatically enforced by "open" reasoning about arbitrary elements, but can/must be done manually when doing "closed" reasoning about computations.
 
-All but the last point also apply—via propositions-as-types—to a style of partial logic that [[Peter Aczel]] called "Frege structures". Partial logic is itself a style of free logic where propositions themselves are denoted by expressions, but well-formed expressions generally don't denote propositions. Free logic, partial logic, Frege structures, and the connection to Nuprl-like systems are discussed below. (FIXME)
+All but the last point also apply—via propositions-as-types—to a style of partial logic that [[Peter Aczel]] called "Frege structures". Partial logic, Frege structures, and the connection to Nuprl-like systems are discussed [below](#PartLogic).
 
 The last point—about respect for equality, except when dealing with elements of a particular type—seems very peculiar to PER semantics. You don't need PER semantics to get those other "Frege phenomena", and you don't need PER semantics to get implicit respect for extensional equality, but the way they interact in PER semantics is quite extraordinary.
 
@@ -517,7 +517,7 @@ Checking: $\not T(\dot{\not} x)$
 
 ### Fitch-Scott Partial Logic {#FSLogic}
 
-[[Dana Scott]] wrote [a note](#ScottComb) in which he sketched a system very similar to Frege structures. This was prior to Peter Aczel's paper that coined "Frege structures". Scott attributes key ideas of the system to Fitch, who worked on foundational logics based on combinators.
+[[Dana Scott]] wrote [a note](#ScottComb) in which he sketched a system very similar to Frege structures. This was prior to [[Peter Aczel]]’s paper that coined "Frege structures". Scott attributes key ideas of the system to Fitch, who worked on foundational logics based on combinators.
 
 For anyone trying to learn about Frege structures on the internet, it seems like many of the papers about it are paywalled. Scott's note and [Kahle's paper](#KahleFSU) are a couple of (currently, Aug 2020) open access sources. Kahle cited Aczel on Frege structures, and didn't give much explanation of the basics. Hopefully that was done by Aczel, but that paper is paywalled.
 
