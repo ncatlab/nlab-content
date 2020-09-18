@@ -71,6 +71,8 @@ See also:
 
 * Physics.SE discussion, _[What the heck is the sigma (f0) 600?](https://physics.stackexchange.com/q/13458/5603)_
 
+* Christian S. Fischer, Paul C. Wallbott, Richard Williams, Nico Santowsky, Gernot Eichmann, _The $\sigma$-meson: four-quark vs. two-quark components and decay width in a Bethe-Salpeter approach_ ([arXiv:2007.06495](https://arxiv.org/abs/2007.06495))
+
 Inclusion of the [[sigma-meson]] into the [[Skyrme model]] for [[baryons]]:
 
 * Thomas D. Cohen, _Explicit $\sigma$ meson, topology, and the large-$N$ limit of the Skyrmion_, Phys. Rev. D 37 (1988) ([doi:10.1103/PhysRevD.37.3344](https://doi.org/10.1103/PhysRevD.37.3344))
