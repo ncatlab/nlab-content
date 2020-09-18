@@ -675,7 +675,7 @@ Categories in algebra, geometry and mathematical physics , volume 431 of Contemp
 
 The classical Dold-Kan theorem occurs as a special case among others from [[combinatorics]] and [[representation theory]], and in particular from homological stability, in:
 
-* {#S?omi?ska} Jolanta Słomińska, _Dold?Kan type theorems and Morita equivalences of functor categories_, Journal of Algebra 274.1 (2004): 118-137. ([link](https://doi.org/10.1016/j.jalgebra.2003.10.025))
+* {#Slomiiska} Jolanta Słomińska, _Dold-Kan type theorems and Morita equivalences of functor categories_, Journal of Algebra 274.1 (2004): 118-137. ([link](https://doi.org/10.1016/j.jalgebra.2003.10.025))
 
 A similar framework was independently rediscovered in:
 
