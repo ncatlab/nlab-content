@@ -236,7 +236,7 @@ Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] i
 
 * [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
 
-* {#HMSV19} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_ ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041)) 
+* {#HMSV19} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_, Commun. Math. Phys. 378, 1843–1873 (2020) ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041))
 
 [[!redirects KR-homology]]
 
