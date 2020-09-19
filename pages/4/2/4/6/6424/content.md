@@ -21,7 +21,7 @@ where $\{i\}$ is the bit giving whether the $i$th Turing machine halts at all, b
 
 In [[Russian constructivism]], all [[real numbers]] are computable, so a Specker sequence has no (located) supremum, giving a counterexample to the [[classical mathematics|classical]] [[least upper bound principle]] ($LUP$).
 
-In many other varieties of [[constructive mathematics]], the computability of all real numbers can be neither proved nor refuted, but Specker sequences still provide [[weak counterexample|weak counterexamples]], since $LUP$ is equivalent to [[excluded middle]].
+In many other varieties of [[constructive mathematics]], the computability of all real numbers can be neither proved nor refuted, but Specker sequences still provide [[weak counterexample|weak counterexamples]].
 
 
 [[!redirects Specker sequence]]
