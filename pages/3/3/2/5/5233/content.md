@@ -16,3 +16,4 @@ Her web page in the Departamento de &#193;lgebra, at Granada is [here](http://ww
 category:people
 
 [[!redirects P. Carrasco]]
+[[!redirects Carrasco]]
