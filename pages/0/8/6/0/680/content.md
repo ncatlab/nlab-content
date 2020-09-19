@@ -405,9 +405,9 @@ $$
 
 ##Non-abelian forms of the Dold-Kan correspondence.
 
-Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
+Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by [[Pilar Carrasco]], who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  [[Dominique Bourn]] has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
 
-Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is apparently no 
+Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of [[Carrasco]] and [[Cegarra]], but here they fall out from the theory.  On the down side there is apparently no 
 full analysis as yet of the actual form of this monad.
 
 
@@ -657,7 +657,7 @@ The relation of these with the abelian version is given in
 
 The paper 
 
-* Ellis, G.J. and Steiner, R. _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
+* [[Ellis, G.J.]] and [[Steiner, R.]] _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
 
 should also be seen as of Dold-Kan type. The homotopical applications  considerably generalise results on the [[Blakers-Massey theorem]]. 
 
