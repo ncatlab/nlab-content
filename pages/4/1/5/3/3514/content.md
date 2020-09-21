@@ -46,7 +46,9 @@ Amer. Math. Soc., 55 (1949), 453--496.
 
   (on [[homotopy theory]])
 
+* [[J. H. C. Whitehead]], Simple homotopy type, Amer. J. Math., 72, (1950), 1 - 57.
 
+  (on [[simple homotopy type]]).
 
 
 
