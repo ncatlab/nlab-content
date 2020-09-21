@@ -24,6 +24,11 @@ One of the technical issues in the [[phenomenology|phenomenological]] viability 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2.6. (p. 48 (62)) of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 
+* Gero von Gersdorff, _A Clockwork Solution to the Doublet-Triplet Splitting Problem_ ([arXiv:2009.08480](https://arxiv.org/abs/2009.08480))
+
+
+See also:
+
 * Wikipedia, _[Doublet&#8211;triplet splitting problem](https://en.wikipedia.org/wiki/Doublet&#8211;triplet_splitting_problem)_
 
 Possible resolution for GUT-models in the context of [[M-theory on G2-manifolds]] is discussed in
