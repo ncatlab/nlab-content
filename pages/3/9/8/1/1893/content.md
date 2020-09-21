@@ -85,7 +85,7 @@ A [[homomorphism]] of $\lambda$-structures is defined to be a [[homomorphism]] o
 There exists a $\lambda$-ring structure on the ring $1+ t R[ [t] ]$ of 
 [[power series]] with constant term $1$ where
 
-a) addition on $1+tR[ [t] ]$ is defined to be multiplication of power series
+a) addition on $1+t R[ [t] ]$ is defined to be multiplication of power series
 
 b) multiplication is defined by
 
