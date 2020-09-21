@@ -1,6 +1,6 @@
 (Stub)
 
-A *subtractive variety* in the sense of Ursini  is a variety $V$ (in the sense of universal algebra)  such that the theory of $V$ contains a constant 0 and a _[[subtraction]] term_ $s$, i.e. a binary term $s$ satisfying $s(x, x) = 0$ and $s(x, 0) = x$.
+A *subtractive variety* in the sense of Ursini  is a [[variety]] $V$ (in the sense of universal algebra)  such that the theory of $V$ contains a constant 0 and a _[[subtraction]] term_ $s$, i.e. a binary term $s$ satisfying $s(x, x) = 0$ and $s(x, 0) = x$.
 
 
 ##References
