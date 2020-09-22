@@ -48,7 +48,7 @@ where $Alg_{\mathcal{C}}(T)$ is the (Eilenberg-Moore) [[(∞,1)-category of alge
 
 =--
 
-This appears in ([Riehl-Verity 13, def. 6.1.15](#RiehlVerity13)).
+This appears in ([Riehl-Verity 13, def. 6.1.14](#RiehlVerity13)).
 
 The following is the refinement to [[(∞,1)-category theory]] of the classical [[Barr-Beck monadicity theorem]] which states sufficient conditions for recognizing an [[(∞,1)-adjunction]] as being canonically [[equivalence|equivalent]] to the one in prop. \ref{CanonicalMonadicAdjunction}, hence to be a _[[monadic adjunction]]_.
 
