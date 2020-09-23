@@ -846,10 +846,13 @@ A discussion of [[path space objects]] for $L_\infty$-algebras is in section 5 o
 * {#Dolgushev07} Vasiliy A. Dolgushev, _Erratum to: "A Proof of Tsygan's Formality Conjecture for an Arbitrary Smooth Manifold"_ ([arXiv:math/0703113](http://arxiv.org/abs/math/0703113))
  
 
-A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras and hence [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)) is in section 3.1 of
+A discussion of [[homotopy fibers]] of morphisms to abelian $L_\infty$-algebras (and hence [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)) is in section 3.1 of
 
 * {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
- 
+
+The structure of a [[category of fibrant objects]] on connective [[finite type]] $L_\infty$-algebras:
+
+* [[Christopher L. Rogers]], _An explicit model for the homotopy theory of finite type Lie $n$-algebras_, Algebr. Geom. Topol. 20 (2020) 1371-1429 ([arXiv:1809.05999](https://arxiv.org/abs/1809.05999), [doi:10.2140/agt.2020.20.1371](https://doi.org/10.2140/agt.2020.20.1371))
 
 
 
