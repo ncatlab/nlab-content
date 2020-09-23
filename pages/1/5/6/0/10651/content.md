@@ -31,7 +31,7 @@ The simplest example of such regulators are
 
 These regulators may be understood as essentially being the [[Chern characters]] in [[algebraic K-theory]] ([Deninger Scholl (2.6)](#DeningerScholl), [Tamme 12](#Tamme12)).  Based on this observation they serve to define [[differential cohomology]]-refinements of algebraic K-theory, namely _[[differential algebraic K-theory]]_ ([Bunke-Tamme 12](#BunkeTamme12)). 
 
-> we usually call transformations from K-theory to [[cyclic homology]] Chern characters, and transformations from K-theory to dierential forms regulators. There is one exception, namely the usual Chern character from topological K-theory to cohomology with complex coefficients calculated by the de Rham cohomology. ([Bunke 14, remark 2.20](#Bunke14))
+> we usually call transformations from K-theory to [[cyclic homology]] Chern characters, and transformations from K-theory to differential forms regulators. There is one exception, namely the usual Chern character from topological K-theory to cohomology with complex coefficients calculated by the de Rham cohomology. ([Bunke 14, remark 2.20](#Bunke14))
 
 
 
