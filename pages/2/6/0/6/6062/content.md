@@ -820,10 +820,20 @@ Model structurs on algebras over operads in chain complexes were discussed gener
 
 * {#Hinich97} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 
-
 The full model structure on dg-coalgebras (in characteristic 0) and the Quillen equivalence of dg-Lie algebras as well as the interpretation in terms of formal $\infty$-stacks is due to
 
 * {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of pure and applied algebra 162.2 (2001): 209-250 ([arXiv:9812034](http://arxiv.org/abs/math/9812034))
+
+Also:
+
+* {#Valette14} [[Bruno Vallette]], Theorem 2.1 in: _Homotopy theory of homotopy algebras_ ([arXiv:1411.5533](https://arxiv.org/abs/1411.5533))
+
+The structure of a [[category of fibrant objects]] on connective [[finite type]] $L_\infty$-algebras:
+
+* {#Rogers18} [[Christopher L. Rogers]], _An explicit model for the homotopy theory of finite type Lie $n$-algebras_, Algebr. Geom. Topol. 20 (2020) 1371-1429 ([arXiv:1809.05999](https://arxiv.org/abs/1809.05999), [doi:10.2140/agt.2020.20.1371](https://doi.org/10.2140/agt.2020.20.1371))
+
+(For relation to [Valette 14](#Valette14) see [Rogers 18, below Theorem 5.9](#Rogers18))
+
  
 In 
 
@@ -850,9 +860,6 @@ A discussion of [[homotopy fibers]] of morphisms to abelian $L_\infty$-algebras 
 
 * {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
 
-The structure of a [[category of fibrant objects]] on connective [[finite type]] $L_\infty$-algebras:
-
-* [[Christopher L. Rogers]], _An explicit model for the homotopy theory of finite type Lie $n$-algebras_, Algebr. Geom. Topol. 20 (2020) 1371-1429 ([arXiv:1809.05999](https://arxiv.org/abs/1809.05999), [doi:10.2140/agt.2020.20.1371](https://doi.org/10.2140/agt.2020.20.1371))
 
 
 
