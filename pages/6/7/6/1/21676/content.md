@@ -54,6 +54,8 @@ $$
 
 * [[PL de Rham complex of smooth manifold is equivalent to de Rham complex]]
 
+* [[equivariant PL de Rham theorem]]
+
 * [[de Rham theorem]]
 
 ## References
