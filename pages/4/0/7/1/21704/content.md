@@ -25,6 +25,8 @@ Using [[Elmendorf's theorem]], the underlying [[category]] is that of [[diagrams
 
 ## Related concepts
 
+* [[vector G-space]]
+
 * [[equivariant cohomology]]
 
 * [[equivariant rational homotopy theory]]
