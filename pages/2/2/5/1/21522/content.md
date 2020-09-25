@@ -30,6 +30,8 @@ Hence, with the pertinent conditions on the [[domain]] [[space]] $X$ satisfied, 
 
 * [[Dolbeault cohomology]]
 
+* [[complex vector space]]
+
 * [[rational cohomology]], [[real cohomology]]
 
 
