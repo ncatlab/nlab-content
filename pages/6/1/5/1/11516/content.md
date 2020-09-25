@@ -130,6 +130,9 @@ See also
 
 * _[[equivariant stable homotopy theory]]_
 
+* [[equivariant rational homotopy theory]]
+
+  [[vector G-space]]
 
 ## References
 
