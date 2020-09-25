@@ -107,7 +107,7 @@ $$
   y : Y \vdash P(y)
 $$
 
-is interpreted as a [[object]] of the [[slice category]] $\mathcal{C}_{/Y}$, specifically as a [[truncated object of an (infinity,1)-category|(-1)-truncated]] object if it is to be a [[proposition]], hence by a [[monomorphism]]
+is interpreted as an [[object]] of the [[slice category]] $\mathcal{C}_{/Y}$, specifically as a [[truncated object of an (infinity,1)-category|(-1)-truncated]] object if it is to be a [[proposition]], hence by a [[monomorphism]]
 
 $$
   \array{
