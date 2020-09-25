@@ -1,5 +1,6 @@
 
 
+
 * [webpage](http://faculty.fortlewis.edu/scull_l/)
 
 ## Selected writings
@@ -8,7 +9,7 @@ On [[equivariant rational homotopy theory]]:
 
 * {#Scull01} [[Laura Scull]], _Rational $S^1$-equivariant homotopy theory_, Transactions of the AMS, Volume 354, Number 1, Pages 1-45 2001 ([pdf](http://www.ams.org/journals/tran/2002-354-01/S0002-9947-01-02790-8/S0002-9947-01-02790-8.pdf), [doi:10.1090/S0002-9947-01-02790-8](https://doi.org/10.1090/S0002-9947-01-02790-8))
 
-Introducing the [[model structure on equivariant dgc-algebras]], generalizing the [[projective model structure on dgc-algebras]] to [[equivariant rational homotopy theory]], such that equivariant [[minimal Sullivan models]] are [[cofibrant objects]]:
+Introducing the [[model structure on equivariant dgc-algebras]], generalizing the [[projective model structure on dgc-algebras]] to [[equivariant rational homotopy theory]], such that equivariant [[minimal Sullivan models]] are [[cofibrant objects]], and proving the [[fundamental theorem of dg-algebraic equivariant rational homotopy theory]]:
 
 * [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
