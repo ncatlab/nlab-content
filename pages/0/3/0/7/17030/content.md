@@ -29,6 +29,8 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 
 * [[vector G-space]]
 
+* [[equivariant PL de Rham complex]]
+
 * [[model structure on equivariant dgc-algebras]]
 
 * [[rational homotopy theory]]
