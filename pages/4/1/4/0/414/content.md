@@ -345,6 +345,8 @@ $$F(X) \stackrel{F(p)}{\to} F U(A) \stackrel{\varepsilon_A}{\to} A$$
 
 ## Related concepts
 
+* [[choice object]]
+
 * [[COSHEP]]
 
 * **projective object**, [[projective presentation]], [[projective cover]], [[projective resolution]]
