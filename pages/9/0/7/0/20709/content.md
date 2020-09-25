@@ -30,6 +30,8 @@ Hence, with the pertinent conditions on the [[domain]] [[space]] $X$ satisfied, 
 
 ## Related concepts
 
+* [[rational vector space]]
+
 * [[real cohomology]]
 
 * [[rational Cohomotopy]]
