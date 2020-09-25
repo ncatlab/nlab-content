@@ -23,6 +23,8 @@ A [[vector space]]/[[module]] over the [[field]] of [[rational numbers]].
 
 ## Related concepts
 
+* [[vector G-space]]
+
 * [[rational homotopy theory]], [[rational cohomology]]
 
 * [[real vector space]]
