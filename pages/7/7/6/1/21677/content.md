@@ -64,7 +64,7 @@ That its [[right adjoint]] preserves fibrations, hence sends cofibrations of dgc
 
 * [[fundamental theorem of dg-algebraic rational homotopy theory]]
 
-* [[rationalization via PL de Rham theory]]
+* [[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]]
 
 ## References
 
