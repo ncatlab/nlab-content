@@ -25,6 +25,8 @@ In [[constructive mathematics]], the principle of [[excluded middle]] is equival
 
 ## Related entries
 
+* [[projective object]]
+
 * [[axiom of choice]]
 
 * [[well-ordering theorem]]
