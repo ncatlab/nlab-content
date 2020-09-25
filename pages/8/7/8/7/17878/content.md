@@ -94,6 +94,13 @@ The following are [[semifree differential graded-commutative algebras]]:
 
 * [geometry of physics -- superalgebra -- Z-graded commutative superalgebra](https://ncatlab.org/nlab/show/geometry+of+physics+--+superalgebra#ZGradedSupercommutativeSuperalgebra)
 
+* [[equivariant dgc-algebra]]
+
+* [[model structure on equivariant dgc-algebras]]
+
+* [[equivariant rational homotopy theory]]
+
+
 [[!redirects differential graded-commutative algebras]]
 
 [[!redirects DGCA]]
