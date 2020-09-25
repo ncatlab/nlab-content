@@ -110,9 +110,19 @@ See at _[[global equivariant homotopy theory]]_.
 
 ## Related concepts
 
+* [[equivariant homotopy theory]]
+
 * [[global orbit category]], [[global equivariant stable homotopy theory]]
 
-* [[Bredon cohomology]]
+* [[Bredon cohomology]], [[equivariant cohomology]]
+
+* [[topological G-space]]
+
+* [[vector G-space]]
+
+* [[equivariant dgc-algebra]]
+
+* [[equivariant rational homotopy theory]]
 
 
 
