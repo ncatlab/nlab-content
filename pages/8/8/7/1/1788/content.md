@@ -1,4 +1,43 @@
 
+
+\[
+  \label{NilpotentQFiniteHomotopyTypes}
+  Ho
+  \big(
+     G SimplicialSets_{Qu}
+  \big)^{fin_{\mathbb{Q}}}_{\geq 2}
+  \overset{
+    \phantom{AAA}
+  }{\hookrightarrow}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)
+\]
+
+
+$$
+  \big(
+    G dgcAlgebras^{\geq 0}_{k}
+  \big)^{op}_{proj}
+  \underoverset
+    {
+      \underset
+        {\;\;\; exp \;\;\;}
+        {\longrightarrow}
+    }
+    {
+      \overset
+        {\;\;\;\Omega^\bullet_{PLdR}\;\;\;}
+        {\longleftarrow}
+    }
+    {\bot_{\mathrlap{Qu}}}
+  G SimplicialSets_{Qu}
+$$
+
+
+***
+
 Let $G$ be a [[finite group]].
 
 We write
