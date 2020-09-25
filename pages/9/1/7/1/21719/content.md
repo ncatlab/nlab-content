@@ -70,3 +70,7 @@ For $G = 1$ the [[trivial group]], this reduces to the [[injective model structu
 * {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
 [[!redirects model structures on equivariant chain complexes]]
+
+
+[[!redirects model structure on equivariant connective cochain complexes]]
+[[!redirects model structures on equivariant connective cochain complexes]]
