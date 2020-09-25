@@ -70,12 +70,15 @@ By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector spac
 
 * [[lattice in a vector space]]
 
+* [[vector G-space]]
 
 * [[2-vector space]], [[n-vector space]]
+
 * [[inner product space]]
+
 * [[linear operator]], [[matrix]], [[determinant]], [[eigenvalue]],  [[eigenvector]]
 
-## Literature
+## References
 
 The vector spaces seem to have been first introduced in
 
