@@ -309,6 +309,8 @@ See at _[[the co-binary Sullivan differential is the dual Whitehead product]]_.
 
 * [[minimal fibration]]
 
+* [[equivariant Sullivan model]]
+
 ## References
 
 Original articles:
