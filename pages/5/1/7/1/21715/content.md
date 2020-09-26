@@ -329,7 +329,9 @@ $$
   \underline{V}^\ast
   \;\simeq\;
   \underset{
-    H \subset G
+   \big[   
+     H \subset G
+   \big]_{conj}
   }{\bigoplus}
   \left(
     \underset{
