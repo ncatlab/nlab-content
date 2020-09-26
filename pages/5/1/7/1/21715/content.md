@@ -316,10 +316,10 @@ $\,$
 **(i)**
 The objects of the form $I_H(V^\ast)$ (Def. \ref{InjectiveAtomsOfGEquivariantDualVectorSpaces}) are [[injective objects]] in dual [[vector G-spaces]] (Def. \ref{FiniteDimensionalRationalVectorGSpaces}).
 
-**(ii)** Every [[injective]] dual vector $G$-space is a [[direct sum]] of objects of this form:
+**(ii)** Every [[injective]] dual vector $G$-space is a [[direct sum]] of objects of this form, specifically (see Def. \ref{InjectiveEnvelope} below):
 
 $$
-  \underline{V}^\ast
+  \underline{V}
   \;\in\;
   DualVector G Spaces
   \;\;\;
@@ -327,24 +327,26 @@ $$
   \;\;\;\;\;\;\;
   \Leftrightarrow
   \;\;\;\;\;\;\;
-  \underline{V}^\ast
+  \underline{V}
   \;\simeq\;
   \underset{
    \big[   
-     H \subset G
+     H \subsetneqq G
    \big]_{conj}
   }{\bigoplus}
+  \,
+  I_H
   \left(
     \underset{
       K \supset H
     }{\bigcap}
     ker
     \big(
-      \underline{V}^\ast(G/H)
+      \underline{V}(G/H)
         \overset{
           \underline{V}(G/H \to G/K)
         }{\longrightarrow}
-      \underline{V}^\ast(G/K)
+      \underline{V}(G/K)
     \big)
   \right)
 $$
@@ -417,6 +419,51 @@ Any [[equivariant PL de Rham complex]] (Def. \ref{EquivariantPLDeRhamComplex}) i
 =--
 
 (also [Scull 08, Lemma 5.2](#Scull08))
+
+
++-- {: .num_defn #InjectiveEnvelope} 
+###### Definition
+**([[injective envelope]] of [[dual vector G-spaces]])**
+
+For $\underline{V} \in DualVector G Spaces$ (eq:DualVectorGSpaces),
+its _[[injective envelope]]_ is
+
+$$
+  \underset{
+   \big[   
+     H \subset G
+   \big]_{conj}
+  }{\bigoplus}
+  \,
+  I_H
+  \left(
+    \underset{
+      K \supsetneqq H
+    }{\bigcap}
+    ker
+    \big(
+      \underline{V}(G/H)
+        \overset{
+          \underline{V}(G/H \to G/K)
+        }{\longrightarrow}
+      \underline{V}(G/K)
+    \big)
+  \right)
+  \,,
+$$
+
+where 
+
+1. the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]], with $H \subset G$ on the right any one representative of its conjugacy class,
+
+1. for $H = G$ the argument of $I_H$ is taken to be all of $\underline{V}(G/G)$,
+
+1. $I_H(-)$ is the injective atom construction from Def. \ref{InjectiveAtomsOfGEquivariantDualVectorSpaces}.
+
+=--
+
+([Triantafillou 82, p. 10](#Triantafillou82), [Scull 01, Prop. 7.34](#Scull01),  [Scull 08, Def. 2.6](#Scull08))
+
 
 ## Examples
 
@@ -650,7 +697,7 @@ $$
     1 Reps
     \Big(
       \underset{
-        \simeq \, 0
+        \simeq \, \mathbf{1}
       }{
       \underbrace{
         \mathbb{Q}
@@ -665,17 +712,19 @@ $$
     &
     \simeq 
     &
-    0
+    \mathbf{1}
     \\
     \big\downarrow 
     &&
+    &&
+    \big\downarrow{}^{\mathrlap{\mathrm{id}}}
     \\
     \mathbb{Z}_2/\mathbb{Z}_2
     &\mapsto&
     1 Reps
     \Big(
       \underset{
-        \simeq \, \mathbb{Q}
+        \simeq \, \mathbf{1}
       }{
       \underbrace{
         \mathbb{Q}
@@ -709,6 +758,7 @@ $$
 
 * {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor:1999119](http://www.jstor.org/stable/1999119))
 
+* {#Scull01} [[Laura Scull]], _Rational $S^1$-equivariant homotopy theory_, Transactions of the AMS, Volume 354, Number 1, Pages 1-45 2001 ([pdf](http://www.ams.org/journals/tran/2002-354-01/S0002-9947-01-02790-8/S0002-9947-01-02790-8.pdf), [doi:10.1090/S0002-9947-01-02790-8](https://doi.org/10.1090/S0002-9947-01-02790-8))
 
 * {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
