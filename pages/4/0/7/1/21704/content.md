@@ -101,6 +101,8 @@ $$
 
 * [[equivariant PL de Rham complex]]
 
+* [[equivariant Sullivan model]]
+
 * [[equivariant cohomology]]
 
 * [[equivariant rational homotopy theory]]
