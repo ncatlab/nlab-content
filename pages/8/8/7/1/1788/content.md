@@ -1,277 +1,288 @@
 
+Let the equivariance group be the [[cyclic group of order 2]]:
+
+$$
+  G \;\coloneqq\;  \mathbb{Z}_2
+$$
+
+The [[orbit category]] looks like this:
 
 \[
-  \label{NilpotentQFiniteHomotopyTypes}
-  Ho
-  \big(
-     G SimplicialSets_{Qu}
-  \big)^{fin_{\mathbb{Q}}}_{\geq 2}
-  \overset{
-    \phantom{AAA}
-  }{\hookrightarrow}
-  Ho
-  \big(
-     SimplicialSets_{Qu}
-  \big)
-\]
-
-
-$$
-  \big(
-    G dgcAlgebras^{\geq 0}_{k}
-  \big)^{op}_{proj}
-  \underoverset
-    {
-      \underset
-        {\;\;\; exp \;\;\;}
-        {\longrightarrow}
-    }
-    {
-      \overset
-        {\;\;\;\Omega^\bullet_{PLdR}\;\;\;}
-        {\longleftarrow}
-    }
-    {\bot_{\mathrlap{Qu}}}
-  G SimplicialSets_{Qu}
-$$
-
-
-***
-
-Let $G$ be a [[finite group]].
-
-We write
-
-\[
-  \label{OrbitCategory}
-  G Orbits \;\subset\; Categories
-\]
-
-for the [[orbit category]] of $G$.
-
-+-- {: .num_defn #FiniteDimensionalRationalVectorGSpaces} 
-###### Definition
-**([[finite-dimensional vector space|finite dimensional]] [[rational vector space|rational]] [[vector G-spaces]])**
-
-We say that the _category of finite-dimensional vector G-spaces_ is 
-the [[functor category|category of functors]] from the [[opposite category|opposite]] of the [[orbit category]] to the [[category]] of [[finite-dimensional vector space|finite-dimensional]] [[rational vector spaces]]:
-
-\[
-  \begin{aligned}
-  Vector G Spaces^{fin}_{\mathbb{Q}}
-  & 
-    \coloneqq
-  \;
-  PSh
-  \Big(
-    G Orbits
-    \,,\,
-    VectorSpaces_{\mathbb{Q}}^{\mathrm{fin}}
-  \Big)
-  \\
-  &
-  \coloneqq
-  \;
-  Functors
-  \Big(
-    G Orbits^{op}
-    \,,\,
-    VectorSpaces_{\mathbb{Q}}^{\mathrm{fin}}
-  \Big)
-  \end{aligned}
-\]
-
-Its [[opposite category]] we call the 
-_category of finite-dimensional dual vector G-spaces_:
-
-\[
-  \label{FunctorCategoryFromOrbitCategoryToOppositeRationalVectorSpaces}
-  \begin{aligned}
-  \big(
-    Vector G Spaces^{fin}_{\mathbb{Q}}
-  \big)^{op}
-  &
-    \simeq
-  \;
-  PSh
-  \Big(
-    G Orbits^{op}
-    \,,\,
-    VectorSpaces_{\mathbb{Q}}^{\mathrm{fin}}
-  \Big)
-  \\
-  & 
-  =
-  \;
-  Functors
-  \Big(
-    G Orbits
-    \,,\,
-    VectorSpaces_{\mathbb{Q}}^{\mathrm{fin}}
-  \Big)
-  \end{aligned}
-\]
-
-(Using that forming [[dual linear maps]] is an [[equivalence of categories]] from [[finite dimensional vector spaces]] to their [[opposite category]].)
-
-=--
-
-+-- {: .num_defn #RestrictionOfVectorGSpacesToWeyGroupRepresentations} 
-###### Example
-(restriction of vector $G$-spaces to Weyl group representations)
-
-Let $H \subset G$ any [[subgroup]]. Notice that its [[Weyl group]] is the [[automorphism group]] of its [[coset space]] in the [[orbit category]]:
-
-\[
-  \label{WeylGroup}
-  G Orbits
-  \big(
-    G/H
-    \,,\,
-    G/H
-  \big)
-  \;\;
-  \simeq
-  \;\;
-  Aut_{G Orbits}
-  \big(
-    G/H
-  \big)
-  \;\;
-    \simeq
-  \;\;
-  W_G(H)
-  \;\;
-    \coloneqq
-  \;\;
-  N_G(H)/H
-\]
-
-This gives an [[full subcategory]]-inclusion
-
-$$
-  \mathbf{B}
-  W_G(H)
-  \;
-  \overset{\;\;i_H\;\;}{\hookrightarrow}
-  \;
-  G Orbits
-$$
-
-of the [[delooping]] category of they Weyl group into the [[orbit category]] of $G$ (eq:OrbitCategory), and hence a restriction functor
-
-\[
-  \label{RestrictionFromOrbitCategoryRepresentations}
-  W_G(H) Representations^{fin}_{\mathbb{Q}}
-  \overset{
-     \;\;\;
-     (-)^\ast
-     \,\circ\, 
-     i_H^\ast
-     \;\;\;
-  }{\longleftarrow}
-  \big(
-    Vector G Spaces_{\mathbb{Q}}^{fin}
-  \big)^{op}
-  \,.
-\]
-
-=--
-
-By the general [[end]]-formula for [[right Kan extension]], this restriction functor has a [[right adjoint]], given as follows:
-
-
-+-- {: .num_defn #InjectiveAtomsOfGEquivariantDualVectorSpaces} 
-###### Definition
-**(injective atoms of dual vector $G$-spaces)**
-
-For $H \subset G$ a [[subgroup]] and 
-
-$$
-  V \;\in\; H Representations^{fin}_{\mathbb{Q}} 
-$$
-
-a [[rational vector space|rational]] [[finite number|finite]] [[dimension|dimensional]] left $H$-[[representation]], write
-
-$$
+  \label{OrbitCategoryOfZMod2}
+  \mathbb{Z}_2
+  Orbits
+  \;=\;
+  \left\{
   \array{
-    G Orbits
+    \mathbb{Z}_2/1
     &
       \overset{
-        I_H(V)
-      }{\longrightarrow}
+        \phantom{AAAAA}
+      }{ 
+        \longrightarrow
+      }
     &
-    \mathbb{Q}VectorSpaces
+    \mathbb{Z}_2/\mathbb{Z}_2
     \\
-    G/K
-    &\mapsto&
-    W_G(H) Representations
-    \Big(  
-      \mathbb{Q}
-      \big[
-        G Orbits
-        (  
-          G/K, G/H
-        )  
-      \big]
+    Aut = \mathbb{Z}_2
+    &&
+    Aut = 1
+  }
+  \right\}
+\]
+
+i.e.:
+
+$$
+  \begin{aligned}
+    G Orbits
+    \big(
+      \mathbb{Z}_2/\mathbb{Z}_2
       \,,\,
-      V^\ast
-    \Big)
-  }
+      \mathbb{Z}_2/\mathbb{Z}_2
+    \big)
+    \;\simeq\;
+    1
+    \\
+    G Orbits
+    \big(
+      \mathbb{Z}_2/1
+      \,,\,
+      \mathbb{Z}_2/\mathbb{Z}_2
+    \big)
+    \;\simeq\;
+    \ast
+    \\
+    G Orbits
+    \big(
+      \mathbb{Z}_2/\mathbb{Z}_2
+      \,,\,
+      \mathbb{Z}_2/1
+    \big)
+    \;\simeq\;
+    \emptyset
+    \\
+    G Orbits
+    \big(
+      \mathbb{Z}_2/1
+      \,,\,
+      \mathbb{Z}_2/1
+    \big)
+    \;\simeq\;
+    \mathbb{Z}_2
+  \end{aligned}
 $$
 
-for the [[functor]] from the $G$-[[orbit category]] to [[rational vector spaces]] which assigns to a [[coset space]] $G/K$ the vector space of [[homomorphisms]] of right [[actions]] by the [[Weyl group]] (eq:WeylGroup) from the [[hom-set]] $G Orbits\big(G/K, G/H \big)$ to the [[dual vector space]] equipped with its [[dual linear map|dual action]].
-
-This construction extends to a [[functor]] [[right adjoint]] to the restriction (eq:RestrictionFromOrbitCategoryRepresentations):
+Consider the [[topological G-space]]
 
 $$
-  W_G(H) Representations^{fin}_{\mathbb{Q}}
-  \underoverset{
-    \underset{
-      \;\;\;
-        I_H
-      \;\;\;
-    }{
-      \longrightarrow
-    }
-  }{
-    \overset{
-       \;\;\;
-       (-)^\ast
-       \,\circ\, 
-       i_H^\ast
-       \;\;\;
-    }{\longleftarrow}
-  }
-  {\bot}
+  \prec (X \sslash G)   
+    \;\coloneqq\; 
+  \prec (S^4 \sslash \mathbb{Z}_2)
+$$
+
+with $\mathbb{Z}_2$ [[action|acting]] on the [[4-sphere]] $S^4 = S(\mathbb{R}^5)$ by the [[involution]] $(x^1, x^2, x^3, x^4, x^5) \mapsto (x^1, x^2, x^3, - x^4, - x^5)$.
+
+Minimal equivariant Sullivan model
+
+**Stage 0**
+
+$$
+  CE(\mathfrak{l} \prec (X \sslash G) )_0
+  \;\coloneqq\;
+  \underline{\mathbb{Q}}
+$$
+
+**Stage 1**
+
+$$
+  CE(\mathfrak{l} \prec (X \sslash G) )_1
+  \;\coloneqq\;
+  \underline{\mathbb{Q}}
+$$
+
+**Stage 2**
+
+$$
+  CE(\mathfrak{l} \prec (X \sslash G) )_2
+  \;\coloneqq\;
+  \mathbb{Q}
+  \big[
+    I_1(\mathbf{1})
+  \big]
+  \big/
   \big(
-    Vector G Spaces_{\mathbb{Q}}^{fin}
-  \big)^{op}
+    d\, I_1(\mathbf{1}) = 0
+  \big)
 $$
 
-=--
 
-([Triantafillou 82, (4.1)](#Triantafillou82), [Scull 08, Def. 2.2, Lemma 2.3](#Scull08))
-
-+-- {: .num_defn #InjectiveAtomsOfGEquivariantDualVectorSpacesAreIndeedInjectiveAtoms} 
-###### Proposition
-
-**(i)**
-The objects of the form $I_H(V)$ (Def. \ref{InjectiveAtomsOfGEquivariantDualVectorSpaces}) are [[injective objects]] in dual [[vector G-spaces]] (Def. \ref{FiniteDimensionalRationalVectorGSpaces}).
-
-**(ii)** Every [[injective]] dual vector $G$-space is a [[direct sum]] of objects of this form.
-
-=--
-
-([Triantafillou 82, Section 3](#Triantafillou82), [Scull 08, Lemma 2.4, Prop. 2.5](#Scull08))
+Consider the [[vector G-space]] given by
 
 
-***
+$$
+  I_1(\mathbf{1})
+  \;\;
+  \colon
+  \;\;
+  \array{
+    \mathbb{Z}_2/1  
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, \mathbf{1} \oplus \mathbf{1}_{sgn}
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/1, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    &
+    \simeq 
+    &
+    \mathbf{1}
+    \\
+    \big\downarrow 
+    &&
+    \\
+    \mathbb{Z}_2/\mathbb{Z}_2
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, 0
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/\mathbb{Z}_2, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    & \simeq
+    &
+    0
+  }
+$$
 
-## Reference
 
-* {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor:1999119](http://www.jstor.org/stable/1999119))
+$$
+  I_1(\mathbf{1}_{sgn})
+  \;\;
+  \colon
+  \;\;
+  \array{
+    \mathbb{Z}_2/1  
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, \mathbf{1} \oplus \mathbf{1}_{sgn}
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/1, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}_{sgn}
+    \Big)
+    &
+    \simeq 
+    &
+    \mathbf{1}_{sgn}
+    \\
+    \big\downarrow 
+    &&
+    \\
+    \mathbb{Z}_2/\mathbb{Z}_2
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, 0
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/\mathbb{Z}_2, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}_{sgn}
+    \Big)
+    & \simeq
+    &
+    0
+  }
+$$
 
 
-* {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
+
+$$
+  I_{\mathbb{Z}_2}(\mathbf{1})
+  \;\;
+  \colon
+  \;\;
+  \array{
+    \mathbb{Z}_2/1  
+    &\mapsto&
+    1 Reps
+    \Big(
+      \underset{
+        \simeq \, 0
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/1, \mathbb{Z}_2/\mathbb{Z}_2 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    &
+    \simeq 
+    &
+    0
+    \\
+    \big\downarrow 
+    &&
+    \\
+    \mathbb{Z}_2/\mathbb{Z}_2
+    &\mapsto&
+    1 Reps
+    \Big(
+      \underset{
+        \simeq \, \mathbb{Q}
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/\mathbb{Z}_2, \mathbb{Z}_2/\mathbb{Z}_2 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    & \simeq
+    &
+    \mathbf{1}
+  }
+$$
+
 
