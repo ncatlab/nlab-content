@@ -19,6 +19,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -208,10 +209,10 @@ By the general [[end]]-formula for [[right Kan extension]], this restriction fun
 For $H \subset G$ a [[subgroup]] and 
 
 $$
-  V \;\in\; H Representations^{fin}_{l,\mathbb{Q}} 
+  V \;\in\; W_G(H) Representations^{fin}_{l,\mathbb{Q}} 
 $$
 
-a [[rational vector space|rational]] [[finite number|finite]] [[dimension|dimensional]] left $H$-[[representation]], write
+a [[rational vector space|rational]] [[finite number|finite]] [[dimension|dimensional]] left [[representation]] of the [[Weyl group]] of $H$ in $G$, write
 
 $$
   \array{
@@ -245,7 +246,7 @@ for the [[functor]] from the $G$-[[orbit category]] to [[rational vector spaces]
 More generally, for 
 
 $$
-  V^\ast \;\in\; H Representations_{r,\mathbb{Q}} 
+  V^\ast \;\in\; W_G(H) Representations_{r,\mathbb{Q}} 
 $$
 
 set
@@ -416,6 +417,283 @@ Any [[equivariant PL de Rham complex]] (Def. \ref{EquivariantPLDeRhamComplex}) i
 =--
 
 (also [Scull 08, Lemma 5.2](#Scull08))
+
+## Examples
+
+### Over $G = \mathbb{Z}_2$
+  {#ExamplesOverCyclicGroupOfOrder2}
+
++-- {: .num_example #OrbitCategoryOfCyclicGroupOfOrder2} 
+###### Example
+**([[orbit category]] of [[cyclic group of order 2|Z/2Z]])**
+
+For equivariance group the [[cyclic group of order 2]]:
+
+$$
+  G \;\coloneqq\;  \mathbb{Z}_2 \;\coloneqq\; \mathbb{Z}/2\mathbb{Z}
+  \,.
+$$
+
+the [[orbit category]] looks like this:
+
+\[
+  \label{OrbitCategoryOfZMod2}
+  \mathbb{Z}_2
+  Orbits
+  \;=\;
+  \left\{
+  \array{
+    \mathbb{Z}_2/1
+    &
+      \overset{
+        \phantom{AAAAA}
+      }{ 
+        \longrightarrow
+      }
+    &
+    \mathbb{Z}_2/\mathbb{Z}_2
+    \\
+    Aut = \mathbb{Z}_2
+    &&
+    Aut = 1
+  }
+  \right\}
+\]
+
+i.e.:
+
+$$
+  \begin{aligned}
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/\mathbb{Z}_2
+      \,,\,
+      \mathbb{Z}_2/\mathbb{Z}_2
+    \big)
+    \;\simeq\;
+    1
+    \\
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/1
+      \,,\,
+      \mathbb{Z}_2/\mathbb{Z}_2
+    \big)
+    \;\simeq\;
+    \ast
+    \\
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/\mathbb{Z}_2
+      \,,\,
+      \mathbb{Z}_2/1
+    \big)
+    \;\simeq\;
+    \varnothing
+    \\
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/1
+      \,,\,
+      \mathbb{Z}_2/1
+    \big)
+    \;\simeq\;
+    \mathbb{Z}_2
+  \end{aligned}
+$$
+
+=--
+
+Write
+
+$$
+  \mathbf{1}, \mathbf{1}_{sgn}
+  \;\in\;
+  \mathbb{Z}_2 Representations
+$$
+
+for the two [[irreducible representations]] (the [[trivial representation]] and the [[sign representation]], respectively) of the [[Weyl group]] $W_{\mathbb{Z}_2}(1) = \mathbb{Z}_2$.
+
+Their induced injective dual vector $\mathbb{Z}_2$-spaces, according to Def. \ref{InjectiveAtomsOfGEquivariantDualVectorSpaces}, are:
+
+$$
+  I_1(\mathbf{1})
+  \;\;
+  \colon
+  \;\;
+  \;\;\;\;\;
+  \array{
+    \mathbb{Z}_2/1  
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, \mathbf{1} \oplus \mathbf{1}_{sgn}
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/1, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    &
+    \simeq 
+    &
+    \mathbf{1}
+    \\
+    \big\downarrow 
+    &&
+    \\
+    \mathbb{Z}_2/\mathbb{Z}_2
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, 0
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/\mathbb{Z}_2, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    & \simeq
+    &
+    0
+  }
+$$
+
+and
+
+$$
+  I_1(\mathbf{1}_{sgn})
+  \;\;
+  \colon
+  \;\;
+  \;\;\;\;\;
+  \array{
+    \mathbb{Z}_2/1  
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, \mathbf{1} \oplus \mathbf{1}_{sgn}
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/1, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}_{sgn}
+    \Big)
+    &
+    \simeq 
+    &
+    \mathbf{1}_{sgn}
+    \\
+    \big\downarrow 
+    &&
+    \\
+    \mathbb{Z}_2/\mathbb{Z}_2
+    &\mapsto&
+    \mathbb{Z}_2 Reps
+    \Big(
+      \underset{
+        \simeq \, 0
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/\mathbb{Z}_2, \mathbb{Z}_2/1 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}_{sgn}
+    \Big)
+    & \simeq
+    &
+    0
+  }
+$$
+
+Similarly, write
+
+$$
+  \mathbf{1} \;\in\; 1 Representations
+$$
+
+for the unique [[irrep]] of the [[Weyl group]] $W_{\mathbb{Z}_2}(\mathbb{Z}_2) = 1$.
+
+Its induced injective dual vector $\mathbb{Z}_2$-spaces, according to Def. \ref{InjectiveAtomsOfGEquivariantDualVectorSpaces}, is:
+
+$$
+  I_{\mathbb{Z}_2}(\mathbf{1})
+  \;\;
+  \colon
+  \;\;
+  \;\;\;\;\;
+  \array{
+    \mathbb{Z}_2/1  
+    &\mapsto&
+    1 Reps
+    \Big(
+      \underset{
+        \simeq \, 0
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/1, \mathbb{Z}_2/\mathbb{Z}_2 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    &
+    \simeq 
+    &
+    0
+    \\
+    \big\downarrow 
+    &&
+    \\
+    \mathbb{Z}_2/\mathbb{Z}_2
+    &\mapsto&
+    1 Reps
+    \Big(
+      \underset{
+        \simeq \, \mathbb{Q}
+      }{
+      \underbrace{
+        \mathbb{Q}
+        \big[
+          \mathbb{Z}_2 Orbits( \mathbb{Z}_2/\mathbb{Z}_2, \mathbb{Z}_2/\mathbb{Z}_2 )
+        \big]   
+      }
+      }
+      \,,\,
+      \mathbf{1}
+    \Big)
+    & \simeq
+    &
+    \mathbf{1}
+  }
+$$
+
+
 
 ## Related concepts
 
