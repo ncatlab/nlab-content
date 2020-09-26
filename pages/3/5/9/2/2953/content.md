@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,7 @@
 
 ## Idea
 
-In a [[concrete category]], an **injective hull** of an object $A$ is an extension $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is an [[essential embedding]]. It is the dual concept to [[projective cover]].
+In a [[concrete category]], an **injective hull** of an object $A$ is an [[extension]] $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is an [[essential embedding]]. It is the dual concept to [[projective cover]].
 
 In general, there is no way of making the assignment of the injective hull to an object into a functor such that there is a natural transformation between the identity functor and that functor.
 
