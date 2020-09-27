@@ -356,18 +356,24 @@ $$
 
 So in particular when $D = V$ this is
 
-$$
+\[
+  \label{RightKanExtensionViaEndFormula}
   (Ran_p F)(c') \simeq \int_{c \in C} [C'(c',p(c)),F(c)]
   \,.
-$$
+\]
+
+([Kelly (4.24)](#Kelly))
 
 
 Similarly, if $D$ is [[copower|tensored]] over $V$, then the left Kan extension is given by a [[coend]].
 
-$$
+\[
+  \label{LeftKanExtensionViaCoendFormula}
   (Lan_p F)(c') \simeq \int^{c \in C} C'(p(c),c')\otimes F(c)
   \,.
-$$
+\]
+
+([Kelly (4.25)](#Kelly))
 
 
 +-- {: .num_example #CoendFormulaForPresheavesOfSets}
@@ -933,9 +939,9 @@ For Kan extensions in the context of [[enriched category theory]] see
 
 and chapter 4 of
 
-* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, 
- Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
- {#Kelly}
+* {#Kelly} [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, 
+ Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+ 
 
 
 The [[(∞,1)-category theory]] notion is discussed in section 4.3 of
