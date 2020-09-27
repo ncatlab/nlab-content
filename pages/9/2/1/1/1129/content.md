@@ -460,7 +460,9 @@ correspond to each other under the bijection whence $\theta(g\circ m)=\theta(g)\
 
 +-- {: .num_remark}
 ###### Remark
-The proof transposes the proof of the dual statement 10.2. in Hilton-Stammbach ([1971](#HS71), p.82): In situation $L\dashv R$, if $R$ maps epis to epis then $L$ maps projectives to projectives.
+
+The proof transposes the proof of the dual statement 10.2. in  ([Hilton-Stammbach 1971](#HiltonStammbach71), p. 82): In situation $L\dashv R$, if $R$ maps epis to epis then $L$ maps projectives to projectives.
+
 =--
 
 +-- {: .num_remark #Exponential_injectives}
@@ -703,11 +705,13 @@ The notion of [[injective modules]] was introduced in
 
 (The dual notion of [[projective modules]] was considered explicitly only much later.)
 
-A general discussion can be found in 
+Textbook accounts:
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
+* {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], p. 30 in: _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4 ([doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/hilton-stammbach.pdf))
 
-The general notion of injective objects is in section 9.5, the case of injective complexes in section 14.1.
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], sections 9.5, 14.1 of:_[[Categories and Sheaves]]_
+
 
 Using tools from the theory of [[accessible categories]], injective objects are discussed in
 
@@ -755,7 +759,6 @@ For injective toposes in the 2-category of [[bounded topos|bounded toposes]] see
 
 For the proof of [Lemma](#Adjuncts_Injectives) we consulted
 
-* {#HS71}[[Peter Hilton]], Urs Stammbach, _A Course in Homological Algebra_ , GTM 4 Springer Heidelberg 1971.
 
 [[!redirects injective objects]]
 
