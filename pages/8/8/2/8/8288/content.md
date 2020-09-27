@@ -2385,20 +2385,17 @@ which is a [[contradiction]].
 
 ## References
 
-For instance section 4.5 of 
+* {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], p. 129 of: _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4 ([doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/hilton-stammbach.pdf))
 
-* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
- {#Schapira}
 
-or sections 3.1 and 4.2 in 
+* {#Schapira} [[Pierre Schapira]], section 4.5 of: _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ 
 
-* [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
- {#May}
+* {#May} [[Peter May]], sections 3.1 and 4.2 in: _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
+ 
 
-or section 4 of 
-
-* [[Daniel Murfet]], _Derived functors_ ([pdf](http://therisingsea.org/notes/DerivedFunctors.pdf))
- {#Murfet}
+* {#Murfet} [[Daniel Murfet]], section 4 of: _Derived functors_ ([pdf](http://therisingsea.org/notes/DerivedFunctors.pdf))
+ 
 
 [[!redirects projective resolutions]]
 
