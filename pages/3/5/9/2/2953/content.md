@@ -21,7 +21,7 @@
 
 In a [[concrete category]], an **injective hull** of an object $A$ is an [[extension]] $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is an [[essential embedding]]. It is the dual concept to [[projective cover]].
 
-In general, there is no way of making the assignment of the injective hull to an object into a functor such that there is a natural transformation between the identity functor and that functor.
+Beware that, in general, there is no way of making the assignment of the injective hull to an object into a [[functor]] such that there is a [[natural transformation]] from the [[identity functor]] to that functor.
 
 
 ## Examples 
