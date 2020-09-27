@@ -14,9 +14,11 @@ This entry provides a hyperlinked index for the textbook
 
 * [[Charles Weibel]], 
 
-  _An Introduction to Homological Algebra_
+  **An Introduction to Homological Algebra**
 
   Cambridge University Press (1994)
+
+  [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)
 
 which gives a first exposition to central concepts in _[[homological algebra]]_.
 
