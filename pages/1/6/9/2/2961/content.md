@@ -1,7 +1,18 @@
-_The Joy of Cats_ is a book by [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], and [[George Strecker]] whose full title is _Abstract and Concrete Categories: The Joy of Cats_. It is available [online](http://katmat.math.uni-bremen.de/acc).
+
+This page collects links related to the book
+
+* [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]]:
+
+  **Abstract and Concrete Categories: The Joy of Cats**
+
+  [webpage](http://katmat.math.uni-bremen.de/acc)
+
+  [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+
+on [[category theory]]
 
 
-The reader should beware that the book uses the term "quasicategory" for what  _[[Categories for the Working Mathematician]]_ calls a [[metacategory]]: a model (in the informal sense) of the first-order theory of a category, with no regard for size issues. These days a [[quasicategory]] is a particular type of [[simplicial set]] that models an [[(∞,1)-category]].
+Beware that the book uses the term "quasicategory" for what  _[[Categories for the Working Mathematician]]_ calls a [[metacategory]]: a model (in the informal sense) of the first-order theory of a category, with no regard for size issues. These days a [[quasicategory]] is mostly understood to be a particular type of [[simplicial set]] that models an [[(∞,1)-category]].
 
 category: reference
 
