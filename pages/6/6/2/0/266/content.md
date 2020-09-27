@@ -618,7 +618,7 @@ The following reproduces a [MathOverflow answer](https://mathoverflow.net/questi
 Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a [[span]] where $\mathsf{A}$ is [[small category|small]] and $\mathsf{C}$ is (small) [[cocomplete category|cocomplete]]. Then the [[left Kan extension]] $\mathsf{lan}_f g$ exists.
 \end{lemma}
 
-Kan extensions are a useful tool in everyday practice, with applications in many different topics of [[category theory]]. In this lemma (which is one of the most used in this topic) the set-theoretic issue is far from being hidden: **$\mathsf{A}$ needs to be small (with respect to **Ob**$\mathsf{C})$!** There is no chance that the lemma is true when $\mathsf{A}$ is a [[large category]]. Indeed since [[colimits]] can be computed via Kan extensions, the lemma would imply that every (small) [[cocomplete category]] is large cocomplete, which is not allowed because [cocomplete small categories are posets](complete+small+category#CompleteSmallCategoriesArePosets). Also, there is no chance to solve the problem by saying: *well, let's just consider $\mathsf{C}$ to be large-cocomplete*, again because [cocomplete small categories are posets](complete+small+category#CompleteSmallCategoriesArePosets).
+Kan extensions are a useful tool in everyday practice, with applications in many different topics of [[category theory]]. In this lemma (which is one of the most used in this topic) the set-theoretic issue is far from being hidden: **$\mathsf{A}$ needs to be small (with respect to $Ob(\mathsf{C})$!** There is no chance that the lemma is true when $\mathsf{A}$ is a [[large category]]. Indeed since [[colimits]] can be computed via Kan extensions, the lemma would imply that every (small) [[cocomplete category]] is large cocomplete, which is not allowed because [cocomplete small categories are posets](complete+small+category#CompleteSmallCategoriesArePosets). Also, there is no chance to solve the problem by saying: *well, let's just consider $\mathsf{C}$ to be large-cocomplete*, again because [cocomplete small categories are posets](complete+small+category#CompleteSmallCategoriesArePosets).
 
 This problem is hard to avoid because the size of the categories of our interest is *as a fact* always larger than the size of their inhabitants (this just means that most of the time **Ob**$\mathsf{C}$ is a [[proper class]], as big as the size of the [[enriched category|enrichment]]).
 
@@ -626,7 +626,7 @@ Notice that the Kan extension problem **recovers the [[adjoint functor theorem]]
 
 \begin{lemma}
 **Sharp Kan lemma.**
-Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a span where $\mathsf{B}(f-,b)$ is a is small presheaf for every $b \in \mathsf{B}$ and $\mathsf{C}$ is (small) cocomplete. Then the left Kan extension $\mathsf{lan}_f g$ exists.
+Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a span where $\mathsf{B}(f-,b)$ is a small presheaf for every $b \in \mathsf{B}$ and $\mathsf{C}$ is (small) cocomplete. Then the left Kan extension $\mathsf{lan}_f g$ exists.
 \end{lemma}
 
 Indeed this lemma allows $\mathsf{A}$ to be large, but we must pay a tribute to its presheaf category: $f$ needs to be somehow *locally small* (with respect to **Ob**$\mathsf{C}$).
