@@ -70,12 +70,22 @@ On the other hand, given a class $\mathcal{H}$ of *morphisms* in a category, an 
 
 ## References
 
-* [[Jiri Adamek|Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]; 2004; [[The Joy of Cats]], Definition 9.16 (page 156)
+Discussion in [[homological algebra]]:
+
+* {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], Section I.9 in: _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4 ([doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/hilton-stammbach.pdf))
+
+Discussion in general [[concrete categories]]:
+
+* [[Jiri Adamek|Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]],  Definition 9.16 (page 156) in: [[The Joy of Cats]] (2004)
+
+See also:
+
 * Ad&#225;mek, Herrlich, Rosick&#253;, Tholen; 2002; [Injective hulls are not natural](http://www.iti.cs.tu-bs.de/~adamek/injective.hulls.AHRT.ps)
 * Jinzhog Xu; 1996; Flat Covers of Modules, SLNM 1634.
 * [[Walter Tholen]], "Essential weak factorization systems".  *Contributions to General Algebra* 13 (2001) 321-333.  [ps](http://www.math.yorku.ca/~tholen/newessential.ps).
 
+[[!redirects injective envelopes]]
+
+[[!redirects injective hull]]
 [[!redirects injective hulls]]
 
-[[!redirects injective envelope]]
-[[!redirects injective envelopes]]
