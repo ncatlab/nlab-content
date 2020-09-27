@@ -199,7 +199,7 @@ or more generally
 
 =--
 
-By the general [[end]]-formula for [[right Kan extension]], this restriction functor has a [[right adjoint]], given as follows:
+By the general [[end]]-formula for [[right Kan extension]] ([here](Kan+extension#eq:RightKanExtensionViaEndFormula)), this restriction functor has a [[right adjoint]], given as follows:
 
 
 +-- {: .num_defn #InjectiveAtomsOfGEquivariantDualVectorSpaces} 
