@@ -14,6 +14,11 @@ Introducing [[Eilenberg-MacLane spaces]]:
 * {#EilenbergMacLane54III} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, III: Operations and Obstructions_, Annals of Mathematics Second Series, Vol. 60, No. 3 (Nov., 1954), pp. 513-557 ([jstor:1969849](https://www.jstor.org/stable/1969849))
 
 
+On [[homological algebra]]:
+
+* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
+
+
 On [[homology of loop spaces]]:
 
 * [[Samuel Eilenberg]], [[John Moore]], _Homology and fibrations_, Comment. Math. Helv., 40 (1966), pp. 199-236 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilemoor.pdf))
