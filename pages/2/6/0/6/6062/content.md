@@ -860,6 +860,9 @@ A discussion of [[homotopy fibers]] of morphisms to abelian $L_\infty$-algebras 
 
 * {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
 
+See also 
+
+* [[Alexander Berglund]], _Rational homotopy theory of mapping spaces via Lie theory for L-infinity algebras_, Homology, Homotopy and Applications Volume 17 (2015) Number 2 ([arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( https://dx.doi.org/10.4310/HHA.2015.v17.n2.a16))
 
 
 
