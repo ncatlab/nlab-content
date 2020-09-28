@@ -118,9 +118,9 @@ There are possible advantages in homotopy theory of using a "topological topos",
 
 ## Historical remarks 
 
-The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, [[Ronnie Brown]] [$[1963]$](#Brown63) had written the following in the Introduction to his paper "Ten topologies for X x Y ": 
+The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, [[Ronnie Brown]] [1963](#Brown63) had written the following in the Introduction to his paper _Ten topologies for $X \times Y$_: 
 
-* "It may be that the category of Hausdorff k-spaces is adequate and convenient for all purposes of topology."
+* "It may be that the category of Hausdorff $k$-spaces is adequate and convenient for all purposes of topology."
 
 The requirements for convenience were spelled out in [the sequel](#Brown64).
 
@@ -131,52 +131,51 @@ Of course, as has often been emphasized by Lawvere, the need for and convenience
 Appreciation of the role of convenient categories was in full force by the early seventies (for a sample, see [[Peter May]]'s _Geometry of Iterated Loop Spaces_, where the category of Hausdorff k-spaces plays a foundational role). The notion of a "convenient category" is recognized elsewhere too (and not just within the categorical and algebraic topology communities); see for example the book by [Kriegl and Michor](#KM). 
 
 
-[^1]: The 'k' certainly  refers to 'kompakt' rather than Kelley's initial. 
+[^1]: The '$k$' certainly  refers to 'kompakt' rather than Kelley's initial. 
 
 
 ## References
 
-* Booth, Peter I. The exponential law of maps. II. 
+* Booth, Peter I. _The exponential law of maps. II._ 
 Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 
-* {#Brown61} [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
+* {#Brown61} [[Ronnie Brown]], _Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes_, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
 
  
-* {#Brown63} [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://groupoids.org.uk/pdffiles/tentopologies.pdf)
+* {#Brown63} [[Ronnie Brown]], _Ten topologies for $X\times Y$_, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://groupoids.org.uk/pdffiles/tentopologies.pdf)
 
 
-* [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
+* [[Ronnie Brown]], _Function spaces and product topologies_,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
 {#Brown64}
 
 * [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), available from amazon: Section 5.9: Spaces of functions and the compact-open topology. {#Brown06}
 
-* Cohen, D. E. Spaces with weak topology, Quart. J. Math., (2) 5 (1954) 77&#8211;-80. 
+* Cohen, D. E. _Spaces with weak topology_, Quart. J. Math., (2) 5 (1954) 77&#8211;-80. 
 
-* Crabb, Michael; James, Ioan,  Fibrewise homotopy theory.  
+* Crabb, Michael; James, Ioan,  _Fibrewise homotopy theory_.  
 Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7 {#CrabbJames}
 
 * {#Steenrod} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
 
 
-* {#BT} Booth, P.; Tillotson, J., Monoidal closed, Cartesian closed and convenient categories of topological spaces. Pacific J. Math. 88 (1980), no. 1, 35--53. [project euclid](http://projecteuclid.org/euclid.pjm/1102779712)
+* {#BT} Booth, P.; Tillotson, J., _Monoidal closed, Cartesian closed and convenient categories of topological spaces_. Pacific J. Math. 88 (1980), no. 1, 35--53. [project euclid](http://projecteuclid.org/euclid.pjm/1102779712)
 
 
-* {#Johnstone} [[Peter Johnstone]], On a topological topos, Proc. London Math. Soc. (3) 38 (1979) 237--271.
+* {#Johnstone} [[Peter Johnstone]], _On a topological topos_, Proc. London Math. Soc. (3) 38 (1979) 237--271.
 
 
-* Harasani, Hamed A. "Topos theoretic methods in general topology", PhD Thesis, 
-University of Wales, Bangor, (1988) [(link to pdf files)](http://groupoids.org.uk/harasani.html). {#Harasani}
+* Harasani, Hamed A. _Topos theoretic methods in general topology_, PhD Thesis, University of Wales, Bangor, (1988) [(link to pdf files)](http://groupoids.org.uk/harasani.html). {#Harasani}
 
-* {#Spanier} [[Edwin Spanier]], "Quasi-topologies", Duke Mathematical Journal 30 (1) (1963), 1--14.
-
-
-* {#KM} [[Andreas Kriegl]]; [[Peter Michor]] , The convenient setting of global analysis, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).
+* {#Spanier} [[Edwin Spanier]], _Quasi-topologies_, Duke Mathematical Journal 30 (1) (1963), 1--14.
 
 
-* {#ELS} M. Escard&#243;, J.Lawson, A. Simpson, Comparing Cartesian closed categories of (core) compactly generated spaces, Topology and its Applications, 143 (2004), 105&#8211;145. [(link to ps file)](http://www.cs.bham.ac.uk/~mhe/papers/ELS03.ps)
+* {#KM} [[Andreas Kriegl]]; [[Peter Michor]] , _[[The Convenient Setting of Global Analysis]]_, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).
 
 
-* {#NS} [[Neil Strickland]], The Category of CGWH Spaces. [(online article)](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
+* {#ELS} M. Escard&#243;, J.Lawson, A. Simpson, _Comparing Cartesian closed categories of (core) compactly generated spaces_, Topology and its Applications, 143 (2004), 105&#8211;145. [(link to ps file)](http://www.cs.bham.ac.uk/~mhe/papers/ELS03.ps)
+
+
+* {#NS} [[Neil Strickland]], _The Category of CGWH Spaces). [(online article)](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
 
 * {#Preuss02} Gerhard Preu&#223;, _Foundations of topology: an approach to convenient topology_, Kluwer, Dordrecht/ Boston 2002, survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
 
