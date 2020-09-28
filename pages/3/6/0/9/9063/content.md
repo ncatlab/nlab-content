@@ -27,7 +27,7 @@ A cofiber sequence is the dual notion to a [[fiber sequence]].
 
 ### Abstractly
 
-For $\mathcal{C}$ an [[(infinity,1)-category]] with [[(infinity,1)-pushouts]], a sequence of [[morphisms]] $A \stackrel{f}{\to} B \to C$ is a _cofiber sequence_ if there is an [[(infinity,1)-pushout]] square of the form
+For $\mathcal{C}$ an [[(∞,1)-category]] with [[(∞,1)-pushouts]], a sequence of [[morphisms]] $A \stackrel{f}{\to} B \to C$ is a _cofiber sequence_ if there is an [[(∞,1)-pushout]] square of the form
 
 $$
   \array{
@@ -49,7 +49,7 @@ Specifically for cofiber sequences of [[topological spaces]] see at _[[topologic
 
 ## Examples
 
-In a [[stable (infinity,1)-category]], every [[fiber sequence]] is also a cofiber sequence and conversely.
+In a [[stable (∞,1)-category]], every [[fiber sequence]] is also a cofiber sequence and conversely.
 
 ### Non-examples
 
@@ -59,7 +59,7 @@ For a concrete counterexample, consider the short exact squence $0 \to \mathbb{Z
 
 ## Related concepts
 
-* [[stable (infinity,1)-category]]
+* [[stable (∞,1)-category]]
 
 [[!redirects cofiber sequences]]
 
