@@ -73,6 +73,6 @@ For more see
 * [[Ingo Blechschmidt]], _Internal methods_ [github repository](https://github.com/iblech/internal-methods)
 
 
-category: algebraic geometry, November 2015
+category: algebraic geometry
 
 [[!redirects algebraic geometer]]
