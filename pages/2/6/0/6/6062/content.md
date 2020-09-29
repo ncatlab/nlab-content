@@ -816,9 +816,9 @@ The homotopy-theoretic nature of $L_\infty$-algebras and their relation to defor
 * {#Kontsevich94} [[Maxim Kontsevich]], _Topics in algebra &#8212; deformation theory_ Lecture Notes (1994) ([ps](http://www.math.brown.edu/&#8764;abrmovic/kontsdef.ps))
 
 
-Model structurs on algebras over operads in chain complexes were discussed generally in 
+Model structures on algebras over operads in chain complexes were discussed generally in 
 
-* {#Hinich97} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+* {#Hinich97} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_, Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 
 The full model structure on dg-coalgebras (in characteristic 0) and the Quillen equivalence of dg-Lie algebras as well as the interpretation in terms of formal $\infty$-stacks is due to
 
