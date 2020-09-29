@@ -23,46 +23,46 @@
 
 +-- {: .num_defn}
 ###### Definition
-**(principal action)**
+**(strict principal simplicial bundle)**
 
-Let $G$ be a simplicial group. For $P$ a [[Kan complex]], an 
-[[action]] of $G$ on $E$
-$$
-  \rho : E \times G \to E
-$$
-is called **principal** if it is degreewise free,
-meaning for all $n \in \mathbb{N}$
-the action of $G_n$ on $E_n$ is [[free]].
+A strict simplicial principal bundle is...
 
 =--
 
-+-- {: .num_example}
-###### Example
-
-The canonical action 
-$$
-  G \times G \to G
-$$
-of any simplicial group on itself is principal.
-
-=--
-
-+-- {: .num_defn}
++-- {: .num_defn #WeaklyPrincipalSimplicialBundle}
 ###### Definition
-**(simplicial principal bundle)**
+**(weakly principal simplicial bundle)**
 
-For $G$ a simplicial group, a morphism $P \to X$ of [[Kan complex]]es equipped with a $G$-[[action]] on $P$ is called a $G$-**simplicial principal bundle** if
+For $G$ a [[simplicial group]], a [[Kan fibration]] $P \to X$ of [[Kan complexes]] equipped with a $G$-[[action]] on $P$ over $X$ 
 
-* the action is principal;
+$$
+  \array{
+    P \times G 
+    &&
+    \overset{\rho}{\longrightarrow}
+    && 
+    P 
+    \\
+    & \searrow && \swarrow
+    \\ 
+    && 
+    X
+  }
+$$
 
-* the base is isomorphic to the quotient $E/G := \lim_{\to}(E \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to} E})$ by the action:
+is a _weakly $G$-principal simplicial bundle_ if the _shear map_
 
-  $$
-    E/G \simeq X
-    \,.
-  $$ 
+$$
+  P \times G
+   \overset{ (p_1, \rho) }{\longrightarrow}
+  P \times_X P
+$$
+
+(to the [[fiber product]] of $P$ with itself over $X$) is a [[simplicial weak equivalence]].
 
 =--
+
+(e.g. [NSS 12b, Def. 3.79](#NSS12b))
 
 
 ## Properties
@@ -240,6 +240,11 @@ Discussion of _topological_ simplicial principal bundles is in
 
 * [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
  {#Stevenson}
+
+Discussion of principal simplicial bundles in more general [[categories of simplicial presheaves]] (presenting [[(infinity,1)-toposes]]):
+
+* {#NSS12b} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Section 3.7.2 of: _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- Presentations]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+
 
 
 [[!redirects simplicial principal bundles]]
