@@ -76,7 +76,7 @@ This result can be generalized to algebras over any [[Hopf monad]] (in the sense
 
 A few references emphasizing applications to combinatorics:
 
-* [[Marcelo Aguiar]] and [[Swapneel Mahajan]]. [[Monoidal Functors, Species and Hopf Algebras]], 2010.
+* [[Marcelo Aguiar]] and [[Swapneel Mahajan]]. [[Monoidal Functors, Species and Hopf Algebras]], 2010. ([author pdf](http://www.math.cornell.edu/~maguiar/a.pdf))
 
 * [[Marcelo Aguiar]] and [[Swapneel Mahajan]]. Hopf monoids in the category of species. _Contemporary Mathematics_ 585 (2013), 17–124. ([author pdf](http://www.math.cornell.edu/~maguiar/hmonoid.pdf))
 
