@@ -52,6 +52,8 @@ More specifically, he has pointed out in the 1980s the relevance of [[co-Heyting
 
 ##References
 
+* L. Champollion, M. Krifka, _Mereology_ , pp.512-541 in Dekker, Aloni (eds.), _Cambridge Handbook of Formal Semantics_ , Cambridge UP 2016. ([draft](https://ling.auf.net/lingbuzz/002099))
+
 * P. Forrest, _Nonclassical Mereology and Its Application to Sets_ , Notre Dame J. Form. Logic **43** no.2 (2003) pp.79-94. ([pdf](http://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1071509430))
 
 * [[Kazimierz Kuratowski|C. Kuratowski]], _Sur l'op&#233;ration $\bar{A}$ de l'analysis situs_ , Fund. Math. **III** (1922) pp.192-195. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm3/fm3121.pdf))
