@@ -124,7 +124,7 @@ The category (eq:DualVectorGSpaces) is denoted $Vec_G^\ast$ in ([Triantafillou 8
 
 ### Injective objects
 
-+-- {: .num_defn #RestrictionOfVectorGSpacesToWeyGroupRepresentations} 
++-- {: .num_example #RestrictionOfVectorGSpacesToWeyGroupRepresentations} 
 ###### Example
 (restriction of vector $G$-spaces to Weyl group representations)
 
@@ -306,7 +306,7 @@ $$
 
 =--
 
-([Triantafillou 82, (4.1)](#Triantafillou82), [Scull 08, Def. 2.2, Lemma 2.3](#Scull08))
+([Triantafillou 82, (4.1)](#Triantafillou82), [Golasinski 97a, Lemma 1.1](#Golasinski97a), [Scull 08, Def. 2.2, Lemma 2.3](#Scull08))
 
 +-- {: .num_prop #InjectiveAtomsOfGEquivariantDualVectorSpacesAreIndeedInjectiveAtoms} 
 ###### Proposition
@@ -356,7 +356,7 @@ $$
 ([Triantafillou 82, Section 3 and p. 10](#Triantafillou82), [Scull 08, Lemma 2.4, Prop. 2.5](#Scull08))
 
 
-+-- {: .num_defn #EquivariantPLDeRhamComplex} 
++-- {: .num_example #EquivariantPLDeRhamComplex} 
 ###### Example
 **(equivariant PL de Rham complex  in injective dual vector $G$-space)**
 
@@ -463,6 +463,18 @@ where
 =--
 
 ([Triantafillou 82, p. 10](#Triantafillou82), [Scull 01, Prop. 7.34](#Scull01),  [Scull 08, Def. 2.6](#Scull08))
+
++-- {: .num_defn #TensorProductOfInjectiveDualVectorSpaces} 
+###### Lemma
+**(tensor product of injective dual vector $G$-spaces)**
+
+The object-wise [[tensor product]] of two finite-dimensional [[injective object|injective]] [[dual vector G-spaces]] (Def. \ref{FiniteDimensionalRationalVectorGSpaces}) is again injective.
+
+=--
+
+This is proven as [Golasinski 97b, Lemma 3.6](#Golasinski97b) (use [Golasinski 97b, Remark 1.2](#Golasinski97b) to see that the Lemma does apply to the ordinary tensor product of finite-dimensional vector spaces).
+
+Beware that incorrect versions of this statement had been circulating; for discussion of the literature see [Golasinski 97b, p. 3](#Golasinski97b) and [Scull 01, Prop. 3.6](#Scull01)
 
 
 ## Examples
@@ -756,7 +768,13 @@ $$
 
 ## References
 
+
 * {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor:1999119](http://www.jstor.org/stable/1999119))
+
+
+* {#Golasinski97a} [[Marek Golasiński]], _Componentwise injective models of functors to DGAs_, Colloquium Mathematicum, Vol. 73, No. 1 (1997)  ([dml:21048](https://eudml.org/doc/210480), [[GolasinskiInjectiveModels.pdf:file]])
+
+* {#Golasinski97b} [[Marek Golasiński]], _Injective models of $G$-disconnected simplicial sets_,  Annales de l'Institut Fourier, Volume 47 (1997) no. 5, p. 1491-1522 ([numdam:AIF_1997__47_5_1491_0](http://www.numdam.org/item/?id=AIF_1997__47_5_1491_0))
 
 * {#Scull01} [[Laura Scull]], _Rational $S^1$-equivariant homotopy theory_, Transactions of the AMS, Volume 354, Number 1, Pages 1-45 2001 ([pdf](http://www.ams.org/journals/tran/2002-354-01/S0002-9947-01-02790-8/S0002-9947-01-02790-8.pdf), [doi:10.1090/S0002-9947-01-02790-8](https://doi.org/10.1090/S0002-9947-01-02790-8))
 
