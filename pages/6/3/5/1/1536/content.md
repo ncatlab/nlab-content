@@ -148,6 +148,35 @@ In this case,
 
 ## Properties
 
+### Limits and colimits
+
+The following results are due to ([Tarlecki, Burstall, Goguen 91](#TBG91)). 
+
++-- {: .num_prop}
+###### Proposition
+
+Let $F : C^{op} \to Cat$ be such that the following conditions hold.
+
+1. $C$ is complete.
+1. $F(J)$ is complete for all $J \in C$.
+1. $F(f) : F(J) \to F(K)$ preserves limits for all $f : K \to J$ in $C$.
+
+Then $\int F$ is complete.
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $F : C^{op} \to Cat$ be such that the following conditions hold.
+
+1. $C$ is cocomplete.
+1. $F(J)$ is cocomplete for all $J \in C$.
+1. $F(f) : F(J) \to F(K)$ has a left adjoint for all $f : K \to J$ in $C$.
+
+Then $\int F$ is cocomplete.
+
+=--
+
 ### As an oplax colimit
  {#AsALaxColimit}
 
@@ -652,10 +681,13 @@ The [[geometric realization of categories|geometric realization]] of Grothendiec
 
 * {#Thomason79} [[R. W. Thomason]], _Homotopy colimits in the category of small categories_ , Math. Proc. Cambridge Philos. Soc. 85 (1979), no. 1, 91109.
 
-
 The left adjoint to the Grothendieck construction is discussed in &#167;3.1.1 of
 
 * [[Georges Maltsiniotis]], _La th&#233;orie de l'homotopie de Grothendieck_
+
+Limits and colimits are analysed in
+
+* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A.Goguen]], _Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories_ , ([Theoretical Computer Science vol. 91 (1991)](https://www.sciencedirect.com/science/article/pii/030439759190085G))
 
 The analog for simplicial sets instead of groupoids is discussed in
 
