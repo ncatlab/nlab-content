@@ -10,7 +10,10 @@ On [[vector G-spaces]] and [[equivariant dgc-algebras]] in [[equivariant rationa
 * [[Marek Golasiński]], _Injective models of $G$-disconnected simplicial sets_,  Annales de l'Institut Fourier, Volume 47 (1997) no. 5, p. 1491-1522 ([numdam:AIF_1997__47_5_1491_0](http://www.numdam.org/item/?id=AIF_1997__47_5_1491_0))
 
 
-* With [[Ronnie Brown]], Golasinski  gave the folk model structure on the category of [[crossed complexes]].
+With [[Ronnie Brown]], Golasinski  gave the folk model structure on the category of [[crossed complexes]]:
+
+* [[Ronald Brown]] and [[Marek  Golasinski]], _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 30 no. 1 (1989), p. 61-82 ([pdf](http://www.numdam.org/item?id=CTGDC_1989__30_1_61_0))
+
 
 
 category:people
