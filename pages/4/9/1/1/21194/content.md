@@ -52,6 +52,9 @@ The Cheshire Cat Principle follows in [[holographic QCD]], where the baryons are
 
 * Luiz L. Lopes, Carline Biesdorf, Débora P. Menezes, _Modified MIT Bag Models: Thermodynamic consistency, stability windows and symmetry group_ ([arXiv:2005.13136](https://arxiv.org/abs/2005.13136))
 
+* Luiz L. Lopes, Carline Biesdorf, K. D. Marquez, Debora P. Menezes, _Modified MIT Bag Models pt II: QCD phase diagram, hot quark stars and speed of sound_ ([arXiv:2009.13552](https://arxiv.org/abs/2009.13552))
+
+
 
 
 ### In relation to the Skyrme model
