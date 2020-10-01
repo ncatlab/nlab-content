@@ -97,6 +97,8 @@ More generally there is $RO(G)$-graded [[equivariant cohomology]] with [[coeffic
 
 * [[Elmendorf's theorem]]
 
+* [[twisted Bredon cohomology]]
+
 * [[global equivariant homotopy theory]]
 
 * [[global equivariant stable homotopy theory]]
