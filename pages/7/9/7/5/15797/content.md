@@ -5,6 +5,11 @@ Sam Gitler was a Mexican [[algebraic topology|algebraic topologist]]. He was ver
 
 ## Selected writings
 
+On [[cohomology operations]] in [[twisted ordinary cohomology]]:
+
+* [[Samuel Gitler]], _Cohomology Operations with Local Coefficients_, American Journal of Mathematics Vol. 85, No. 2 (Apr., 1963), pp. 156-188 ([jstor:2373208](https://www.jstor.org/stable/2373208))
+
+
 On [[algebraic topology]] and [[homotopy theory]]:
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto,  _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
