@@ -3,6 +3,11 @@ Marek Golasi&#324;ski is a homotopy theorist working at the University of Warmia
 
 ## Selected writings
 
+On [[twisted Bredon cohomology]]:
+
+* [[Marek Golasiński]], _Equivariant cohomology with local coefficients_, Mathematica Slovaca (1997) Volume: 47, Issue: 5, page 575-586 ([dml:34467](https://eudml.org/doc/34467))
+
+
 On [[vector G-spaces]] and [[equivariant dgc-algebras]] in [[equivariant rational homotopy theory]]:
 
 * [[Marek Golasiński]], _Componentwise injective models of functors to DGAs_, Colloquium Mathematicum, Vol. 73, No. 1 (1997)  ([dml:21048](https://eudml.org/doc/210480), [[GolasinskiInjectiveModels.pdf:file]])
