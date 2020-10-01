@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +21,7 @@
 
 ## Idea
 
-What is called _Bredon cohomology_ after ([Bredon 67](#Bredon67)) is the flavor of $G$-[[equivariant cohomology]] which uses the "fine" [[equivariant homotopy theory]] of [[topological G-spaces]] that by [[Elmendorf's theorem]] is equivalent to the [[homotopy theory]] of [[(∞,1)-presheaves]] over $G$-[[orbit category]], instead of  the "coarse" [[Borel model structure|Borel homotopy theory]]. See at _[Equivariant cohomology -- Idea](equivariant+cohomology#Idea)_ for more motivation.
+What is called _Bredon cohomology_ after ([Bredon 67a](#Bredon67a), [Bredon 67a](#Bredon67a)) is the flavor of [[ordinary cohomology|ordinary]] $G$-[[equivariant cohomology]] which uses the "fine" [[equivariant homotopy theory]] of [[topological G-spaces]] that by [[Elmendorf's theorem]] is equivalent to the [[homotopy theory]] of [[(∞,1)-presheaves]] over $G$-[[orbit category]], instead of  the "coarse" [[Borel model structure|Borel homotopy theory]]. See at _[Equivariant cohomology -- Idea](equivariant+cohomology#Idea)_ for more motivation.
 
 For more technical details see there _[equivariant cohomology -- Bredon equivariant cohomology](equivariant+cohomology#Bredon)_.
 
@@ -63,9 +62,9 @@ $$
   \,.
 $$
 
-In this form ordinary Bredon cohomology appears for instance in ([Greenlees-May, p. 10](#GreenleesMay)).
+In this form ordinary Bredon cohomology is expressed in ([Bredon 67a, p. 3](#Bredon 67a) [Bredon 67b, Theorem (2.11), (6.1)](#Bredon67b)), review in in ([Greenlees-May, p. 10](#GreenleesMay)).
 
-But what ([Bredon 67](#Bredon67)) _really_ wrote down is a [[chain complex]]-model for this: regarding $X$ again as a presheaf on the [[orbit category]], define a presheaf of chain complexes
+The definition of Bredon cohomology which is more popular ([Bredon 67a, p. 2](#Bredon67a), [Bredon 67b, I.6](#Bredon67b)) is a [[chain complex]]-model for this: regarding $X$ again as a presheaf on the [[orbit category]], define a presheaf of chain complexes
 
 $$
   C_\bullet(X) \;\colon\; Orb_G^{op}\longrightarrow Ch_\bullet 
@@ -110,18 +109,18 @@ More generally there is $RO(G)$-graded [[equivariant cohomology]] with [[coeffic
 
 The original text is
 
-* {#Bredon67} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967 
+* {#Bredon67b} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967 ([doi:10.1007/BFb0082690](https://link.springer.com/book/10.1007/BFb0082690))
 
 announced in
 
-* {#Bredon67} [[Glen Bredon]], _Equivariant cohomology theories_, Bull. Amer. Math. Soc. Volume 73, Number 2 (1967), 266-268. ([educlid:1183528794](https://projecteuclid.org/euclid.bams/1183528794))
+* {#Bredon67a} [[Glen Bredon]], _Equivariant cohomology theories_, Bull. Amer. Math. Soc. Volume 73, Number 2 (1967), 266-268. ([educlid:1183528794](https://projecteuclid.org/euclid.bams/1183528794))
 
 Reviews include
 
 * {#Blumberg17} [[Andrew Blumberg]], section 1.4 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
 
-* {#GreenleesMay} [[John Greenlees]], [[Peter May]], pages 9-10 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], pages 9-10 of _[[Equivariant stable homotopy theory]]_, chapter 8, pages 277-323 in: [[Ioan James]] (ed.), _[[Handbook of Algebraic Topology]]_, North-Holland, Amsterdam, 1995. ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7), [pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 * {#May96} [[Peter May]], section I.4 of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 
@@ -129,7 +128,7 @@ Reviews include
 
 The [[Eilenberg-MacLane objects]] over the [[orbit category]] are discussed in detail in 
 
-* {#Lewis92} [[L. Gaunce Lewis, Jr.]], _Equivariant Eilenberg-MacLane spaces and the equivariant Seifert-van Kampen suspension theorems_, Topology Appl., 48 (1992), no. 1, pp. 25&#8211;61.
+* {#Lewis92} [[L. Gaunce Lewis, Jr.]], _Equivariant Eilenberg-MacLane spaces and the equivariant Seifert-van Kampen suspension theorems_, Topology Appl., 48 (1992), no. 1, pp. 25&#8211;61 (<a href="https://doi.org/10.1016/0166-8641(92)90120-O">doi:10.1016/0166-8641(92)90120-O</a>)
 
 Equivalence of Bredon cohomology of [[topological G-spaces]] $X$ to [[abelian sheaf cohomology]] of the [[topological quotient space]] $X/G$ with [[coefficients]] a "[[locally constant sheaf]] except for dependence on [[isotropy groups]]":
 
@@ -154,9 +153,14 @@ Equivalent formulation using the [[Grothendieck construction]] for a certain [[C
 
 Further remarks on this and on the [[twisted cohomology]]-version is in
 
-* G. Mukherjee, N. Pandey, _Equivariant cohomology with local coefficients_ ([pdf](http://www.ams.org/proc/2002-130-01/S0002-9939-01-06377-8/S0002-9939-01-06377-8.pdf))
+* Goutam Mukherjee, N. Pandey, _Equivariant cohomology with local coefficients_ ([pdf](http://www.ams.org/proc/2002-130-01/S0002-9939-01-06377-8/S0002-9939-01-06377-8.pdf))
+
+* Amiya Mukherjee, Goutam Mukherjee, _Bredon-Illman cohomology with local coefficients_, The Quarterly Journal of Mathematics, Volume 47, Issue 2, June 1996, Pages 199–219 ([doi:10.1093/qmath/47.2.199](https://doi.org/10.1093/qmath/47.2.199))
+
 
 * {#Honkasalo97} [[Hannu Honkasalo]], _A sheaf-theoretic approach to the equivariant Serre spectral sequence_, J. Math. Sci. Univ. Tokyo 4 (1997), 53--65 ([pdf](http://journal.ms.u-tokyo.ac.jp/pdf/jms040103.pdf))
+
+* Samik Basua, Debasis Sen, _Representing Bredon cohomology with local coefficients_, Journal of Pure and Applied Algebra Volume 219, Issue 9, September 2015, Pages 3992-4015 ([doi:10.1016/j.jpaa.2015.02.001](https://doi.org/10.1016/j.jpaa.2015.02.001))
 
 See also at _[[orbifold cohomology]]_.
 
