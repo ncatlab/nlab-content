@@ -635,6 +635,12 @@ we should expect there to be a topos analog of the total space, $E G$, for the c
 
 ### General
 
+Early references containing some remarks on the formation of the concept are
+
+* [[Myles Tierney]], _Forcing Topologies and Classifying Toposes_ , pp.211-219 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_  , Academic Press New York 1976.
+
+* {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Also available as Dover reprint Mineola 2014)
+
 Standard textbook references for classifying topoi of theories 
 
 * {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. (In particular, sections B4.2 pp.424-432, D3.2 pp.901-910)
@@ -646,7 +652,6 @@ Standard textbook references for classifying topoi of theories
 A more advanced reference containing several developments of the general theory, especially in relation with the view of toposes as ‘bridges’, is the monograph
 
 * [[Olivia Caramello]], [_Theories, Sites, Toposes: Relating and studying mathematical theories through topos-theoretic ‘bridges’_](https://global.oup.com/academic/product/theories-sites-toposes-9780198758914), Oxford University Press, 2017.
-
 
 The relation between the existence of natural number objects and classifying toposes is discussed in
 
