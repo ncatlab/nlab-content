@@ -158,7 +158,7 @@ And now comes the eponymous feature: The category $Hilb$ is a [[dagger category]
 
 ## Relation to D-Posets
 
-A parallel concept in the literature is that of _D-poset_ (sometimes called _D-lattice_), originally introduced for the same purpose of studying fuzzy or quantum logics. These first appeared in [ChovKop](#ChovKop).
+A parallel concept in the literature is that of _D-poset_ (sometimes called _D-lattice_), originally introduced for the same purpose of studying fuzzy or quantum logics. These first appeared in [Kôpka 92](#Kopka) [Chovanec-Kôpka 95](#ChovKop).
 
 +-- {: .num_defn}
 ###### Definition
@@ -227,7 +227,9 @@ Discussion in relation to [[presheaves]] on [[FinSet]]${}^{op}$ (hence in the [[
 
 D-posets were first introduced in:
 
-* F. Chovanec and F. Kopka, _D-lattices_, International Journal of
+* F. Kôpka,_D-posets of fuzzy sets_, Tatra Mountains Mathematical Publications, vol. 1, no. 1, pp. 83-87, 1992. {#Kopka}
+
+* F. Chovanec and F. Kôpka, _D-lattices_, International Journal of
 Theoretical Physics, vol. 34, no. 8, pp. 1297–1302, 1995. {#ChovKop}
 
 
