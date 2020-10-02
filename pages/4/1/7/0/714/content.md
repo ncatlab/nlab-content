@@ -240,7 +240,7 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 ### Model structure on &#8224;-categories {#ModelStructure}
 
-> the following is based on a remark by [[Andre Joyal]], [posted](http://permalink.gmane.org/gmane.science.mathematics.categories/5477) to the CategoryTheory mailing list on Jan 6, 2010
+> the following is based on a remark by [[Andre Joyal]], [posted](https://github.com/punkdit/categories/blob/master/gmane/science/mathematics/categories/5477) to the CategoryTheory mailing list on Jan 5, 2010, with a [follow-up](https://github.com/punkdit/categories/blob/master/gmane/science/mathematics/categories/5487) on Jan 6.
 
 Consider &#8224;-categories from the point of view of [[homotopy theory]].
 
