@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -33,6 +34,12 @@
 * [[topological phase of matter]], [[topological state of matter]]
 
   [[topological order]]
+
+## Related concepts
+
+* [[phase transition]]
+
+* [[thermodynamic limit]]
 
 ## References
 
