@@ -202,10 +202,15 @@ The [[Lie integration]] of $\mathfrak{g}$ is ...
 
 For general references see the references at _[[super ∞-groupoid]]_ .
 
-A discussion of smooth super $\infty$-groupoids is in section 4.5 of
+Discussion of smooth super $\infty$-groupoids:
 
-* [[Urs Schreiber]], [[schreiber:differential cohomology in a cohesive topos]].
+* [[Urs Schreiber]], section 4.5 of: _[[schreiber:differential cohomology in a cohesive topos]]_
 
+* [[Hisham Sati]], [[Urs Schreiber]], Section 3.1.3 of: _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
+* [[Urs Schreiber]], _[[schreiber:Introduction to Higher Supergeometry]]_, lecture at _[[Higher Structures in M-Theory 2018]]_, [Durham Symposium](http://www.maths.dur.ac.uk/lms/)
+
+  published in parts as: _Higher Structures in M-Theory_ (with [[nLab:Branislav Jurčo]], [[nLab:Christian Saemann]], [[nLab:Martin Wolf]]), Fortschritte der Physik (2019) ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001]( https://doi.org/10.1002/prop.201910001))
 
 
 [[!redirects super smooth ∞-groupoid]]
