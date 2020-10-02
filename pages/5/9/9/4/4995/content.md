@@ -1364,9 +1364,11 @@ in the context of _[[Q-categories]]_ .
 
 ### On cohesive $(\infty,1)$-toposes proper
 
-The material presented here is also in section 3 of
+On the material presented here:
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+* [[Urs Schreiber]], Section 3 of: _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
+* [[Hisham Sati]], [[Urs Schreiber]], Section 3.1.1 of: _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
 
 ### In homotopy type theory
