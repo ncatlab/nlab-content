@@ -69,7 +69,7 @@ but beware that [Scull 01](#Scull01) claims that the statement about [[minimal m
 
 * {#Scull01} [[Laura Scull]], _Rational $S^1$-equivariant homotopy theory_, Transactions of the AMS, Volume 354, Number 1, Pages 1-45 2001 ([pdf](http://www.ams.org/journals/tran/2002-354-01/S0002-9947-01-02790-8/S0002-9947-01-02790-8.pdf), [doi:10.1090/S0002-9947-01-02790-8](https://doi.org/10.1090/S0002-9947-01-02790-8))
 
-See also
+Further discussion in:
 
 * {#Golasinski97a} [[Marek Golasiński]], _Componentwise injective models of functors to DGAs_, Colloquium Mathematicum, Vol. 73, No. 1 (1997)  ([dml:21048](https://eudml.org/doc/210480), [[GolasinskiInjectiveModels.pdf:file]])
 
@@ -80,6 +80,11 @@ The [[model structure on equivariant dgc-algebras]], generalizing the [[projecti
 * [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
 See also 
+
+* Peter J. Kahn, _Rational Moore G-Spaces_, Transactions of the American Mathematical Society
+Vol. 298, No. 1 (1986), pp. 245-271 ([jstor:2000619](https://www.jstor.org/stable/2000619))
+
+
 
 * C. Allday, V. Puppe, sections 3.3 and 3.4 of _Cohomological methods in transformation groups_, Cambridge 1993 (<a href=" https://doi.org/10.1017/CBO9780511526275">doi:10.1017/CBO9780511526275</a>)
 
