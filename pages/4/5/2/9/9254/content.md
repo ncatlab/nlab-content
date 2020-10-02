@@ -49,6 +49,15 @@ Relation to [[quantum computing]]:
 
 * He-Liang Huang, Xi-Lin Wang, Peter P. Rohde, Yi-Han Luo, You-Wei Zhao, Chang Liu, Li Li, Nai-Le Liu, Chao-Yang Lu, Jian-Wei Pan, _Demonstration of Topological Data Analysis on a Quantum Processor_, Optica 5(2),193(2018) ([arXiv:1801.06316](https://arxiv.org/abs/1801.06316)) 
 
+Application of [[topological data analysis]] ([[persistent homology]]) to analysis of [[cosmological structure formation]]:
+
+* Matteo Biagetti, [[Alex Cole]], [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
+
+and to analysis of [[phase transitions]]:
+
+* [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], _Quantitative and Interpretable Order Parameters for Phase Transitions from Persistent Homology_ ([arXiv:2009.14231](https://arxiv.org/abs/2009.14231))
+
+
 ### Persistency
 
 Discussion of [[persistent homology|persistent]] [[Cohomotopy]] as an improvement over homological [[well groups]]:
