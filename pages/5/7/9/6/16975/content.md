@@ -37,9 +37,13 @@ On the [[Higgs mechanism]]:
 
 * {#HINSS18} Manami Noumi Hashi, Hiroshi Isono, Toshifumi Noumi, [[Gary Shiu]], Pablo Soler, _Higgs Mechanism in Nonlocal Field Theories_, JHEP08 (2018) 064 ([arXiv:1805.02676](https://arxiv.org/abs/1805.02676))
 
-Application of [[persistent homology]] to [[cosmic structure formation]]:
+Application of [[topological data analysis]] ([[persistent homology]]) to analysis of [[cosmological structure formation]]:
 
-* Matteo Biagetti, Alex Cole, [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
+* Matteo Biagetti, [[Alex Cole]], [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
+
+and to analysis of [[phase transitions]]:
+
+* [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], _Quantitative and Interpretable Order Parameters for Phase Transitions from Persistent Homology_ ([arXiv:2009.14231](https://arxiv.org/abs/2009.14231))
 
 
 
