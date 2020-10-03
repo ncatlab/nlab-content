@@ -447,6 +447,10 @@ For more see at _[[rational stable homotopy theory]]_.
 
 * [[rational homotopy theory]]
 
+* [[equivariant rationalization]]
+
+* [[rational equivariuant homotopy theory]]
+
 * [[rational equivariant stable homotopy theory]]
 
 ## References
