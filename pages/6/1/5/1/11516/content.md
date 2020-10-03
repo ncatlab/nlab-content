@@ -127,12 +127,16 @@ See at _[[G-CW complex]]_.
 
 See also
 
-
-* _[[equivariant stable homotopy theory]]_
+* [[rational topological G-space]]
 
 * [[equivariant rational homotopy theory]]
 
   [[vector G-space]]
+
+* [[equivariant stable homotopy theory]]
+
+* [[equivariant rational stable homotopy theory]]
+
 
 ## References
 
