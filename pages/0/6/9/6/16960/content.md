@@ -141,3 +141,5 @@ For $G = SO(3)$ and hence also for the [[finite groups]] of [[ADE classification
 * [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
 
 [[!redirects equivariant rational stable homotopy theory]]
+
+[[!redirects rational stable equivariant homotopy theory]]
