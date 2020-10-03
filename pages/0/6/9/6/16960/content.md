@@ -83,6 +83,8 @@ But in some [[RO(G)-degrees]] there may appear further non-torsion groups, see a
 
 * [[rational equivariant homotopy theory]]
 
+  * [[rational topological G-space]]
+
   * [[model structure on equivariant dgc-algebras]]
 
 * [[rational equivariant stable homotopy theory]]
