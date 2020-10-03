@@ -209,6 +209,13 @@ See
 
 * Vitali Kapovitch, _A note on rational homotopy of biquotients_ ([pdf](http://www.math.utoronto.ca/vtk/biquotient.pdf))
 
+
+## Related concepts
+
+* [[rational topological G-space]]
+
+
+
 [[!redirects rational topological spaces]]
 
 [[!redirects rational space]]
