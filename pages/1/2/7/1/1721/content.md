@@ -1009,6 +1009,8 @@ For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof o
 
 * [[multiplicative cohomology theory]]
 
+* [[Chern-Dold character]]
+
 [[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
 
