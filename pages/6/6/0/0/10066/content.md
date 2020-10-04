@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -235,13 +239,15 @@ This is never an [[isomorphism]], unless $G$ is the trivial group. But the [[Ati
 
 ### Equivariant Chern-character
 
-There is a [[Chern character]] map from equivariant K-theory to [[equivariant ordinary cohomology]].
+There is an [[equivariant Chern character]] map from equivariant K-theory to [[equivariant ordinary cohomology]].
 
 (e.g. [Stefanich](#Stefanich))
 
 
 
 ## Related concepts
+
+* [[equivariant Chern character]]
 
 * [[Baum-Connes conjecture]], [[Green-Julg theorem]], 
 
@@ -346,6 +352,9 @@ That $G$-equivariant [[topological K-theory]] is [[representable functor|represe
 
 * [[Michael Atiyah]], [[Graeme Segal]], Corollary A3.2 in: _Twisted K-theory_ ([arXiv:math/0407054](https://arxiv.org/abs/math/0407054))
 
+* [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
+
+
 This is enhanced to a representing [[naive G-spectrum]] in 
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Appendix A.5 of: _Loop groups and twisted K-theory I_, Journal of Topology, Volume 4, Issue 4, December 2011, Pages 737–798 ([arXiv:0711.1906](https://arxiv.org/abs/0711.1906))
@@ -383,6 +392,8 @@ Vol. 89, No. 4 (Oct., 1967), pp. 857-886 ([doi:10.2307/2373408](https://www.jsto
 
 * {#Symonds91} [[Peter Symonds]], _A splitting principle for group representations_, Comment. Math. Helv. (1991) 66: 169 ([doi:10.1007/BF02566643](https://doi.org/10.1007/BF02566643))
 
+
+[[!redirects equivariant topological K-theory]]
 
 
 [[!redirects equivariant KO-theory]]
