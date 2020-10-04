@@ -164,6 +164,10 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 * [[odd Chern character]]
 
+* [[twisted Chern character]]
+
+* [[equivariant Chern character]]
+
 * for [[algebraic K-theory]]:
 
   * [[cyclotomic trace]]
@@ -205,7 +209,7 @@ Further discussion
 
 * [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_ ([arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
 
-Discussion for [[equivariant K-theory]]:
+Discussion of the [[equivariant Chern character]] in [[equivariant K-theory]]:
 
 * {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
 
