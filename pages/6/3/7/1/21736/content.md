@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Rational homotopy theory
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,6 +26,16 @@
 ## Idea
 
 The _equivariant Chern-Dold character_ is the generalization of the _[[Chern-Dold character]]_ from [[generalized (Eilenberg-Steenrod) cohomology]] to [[equivariant cohomology]], and the generalization of the [[equivariant Chern character]] on [[equivariant K-theory]] to other equivariant generalized cohomology theories.
+
+## Related concepts
+
+* [[equivariant Chern character]]
+
+* [[equivariant rationalization]]
+
+* [[Chern-Dold character]]
+
+
 
 ## References
 
