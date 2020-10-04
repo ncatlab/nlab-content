@@ -5,7 +5,7 @@ This page provides linkes related to the textbook
 
   _Modern Differential Geometry for Physicists_
 
-  ([pdf](http://www.cfh.ufsc.br/~dkrause/pg/books/Isham1999.pdf))
+  ([pdf](https://cdn.preterhuman.net/texts/science_and_technology/physics/Mathematical_Physics/Modern%20Differential%20Geometry%20for%20Physicists%202nd%20ed.,%20-%20C.%20Isham.pdf))
 
 on [[differential geometry]] and a bit of [[sheaf and topos theory]] in ([[mathematical physics|mathematical]]) [[physics]].
 
