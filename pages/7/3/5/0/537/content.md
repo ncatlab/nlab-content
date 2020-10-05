@@ -45,13 +45,19 @@ $$
 
 An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to \coprod_i a_i$ is monic and the intersection of any two is initial.  Note that every 0-ary coproduct (that, is initial object) is disjoint.
 
-### In a bicategory
+## Examples
+
+* In the category of sets, all coproducts are disjoint. 
+* A category having all finitary disjoint coproducts is half of the condition for a category to be [[extensive category|extensive]]. For further concrete examples of categories where all coproducts are disjoint, see [[extensive category#examples|extensive category]]. 
+* Non-example: the [[interval category]]  $\left\{
+    0 \to 1
+  \right\}$ has coproducts but is they are not all disjoint: $1+1=1$. 
+There are plenty more examples of [[posets]] that have non-disjoint coproducts besides this one. In a [[Boolean algebra]] two elements $a$ and $b$ are disjoint in the sense that $a\wedge b=0$ if and only if $a\vee b$ is their disjoint coproduct. 
 
 ## Properties
 
-### Characterization of extensivity and of sheaf toposes
-
-A category having all finitary disjoint coproducts is half of the condition for a category to be [[extensive category|extensive]].  
+### Characterization of sheaf toposes
+  
 
 Having all small disjoint coproducts is one of the conditions in [[Giraud's theorem]] characterizing [[sheaf toposes]].
 
