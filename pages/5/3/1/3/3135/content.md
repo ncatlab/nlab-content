@@ -246,7 +246,7 @@ $$
    V_n(\mathbb{C}^k) \coloneqq U(k)/U(k-n)
 $$
 
-is called the $n$th _real [[Stiefel manifold]]_ of $\mathbb{C}^k$.
+is called the $n$th _complex [[Stiefel manifold]]_ of $\mathbb{C}^k$.
 
 =--
 
