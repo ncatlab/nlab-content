@@ -77,7 +77,6 @@ $$
 
 This appears for instance as ([MacLaneMoerdijk, theorem VII 2](#MacLaneMoerdijk)).
 
-
 ### In localic sheaf toposes
 
 For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[sober topological space|sober]] [[topological space]] $X$ the notion of topos points comes from the ordinary notion of points of $X$.
@@ -231,9 +230,15 @@ The following classes of topos have enough points (def. \ref{EnoughPoints}).
 
 * every [[Galois topos]] (see ([Zoghaib](#Zoghaib))).
 
+### Toposes without points
+
+In contrast with point-set topology where non empty spaces tautologically have points there are non trivial toposes lacking points just like in pointfree topology there are nontrivial [[locale|locales]] without points. From a logical perspective these toposes correspond to consistent [[geometric theory|geometric theories]] lacking models in Set. Classical examples are provided by toposes of sheaves on complete atomless Boolean algebras (see Barr ([1974](#Barr74)) or for an example due to [[Pierre Deligne|Deligne]] [[SGA4]], p.412).
+
 ## Related concepts
 
 * [[topological locale]]
+
+* [[Barr's theorem]]
 
 ## References ##
 
@@ -269,6 +274,9 @@ Points of the sheaf topos over the category of [[manifold]]s are discussed in
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
  {#Dugger}
 
+Toposes without points are discused in the homonymous paper
+
+* {#Barr74}[[Michael Barr]], _Toposes  without points_ , JPAA **5** (1974) pp.265-280.
 
 [[!redirects points of a topos]]
 
@@ -279,6 +287,8 @@ Points of the sheaf topos over the category of [[manifold]]s are discussed in
 
 [[!redirects enough points]]
 [[!redirects topos with enough points]]
+[[!redirects topos without points]]
+[[!redirects pointless topos]]
 
 [[!redirects topos point]]
 [[!redirects topos points]]
