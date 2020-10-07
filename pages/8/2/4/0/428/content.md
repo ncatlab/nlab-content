@@ -380,7 +380,9 @@ A general discussion of bar construction for monads is at
 
 * {#Trimble} [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
 
-A textbook account with emphasis on application to [[homological algebra]] is in
+Textbook accounts can be found at:
+
+* [[Saunders Mac Lane]], section IV.5 of _Homology_
 
 * [[Charles Weibel]], section 8.6 of _[[An Introduction to Homological Algebra]]_ (1994)
 
