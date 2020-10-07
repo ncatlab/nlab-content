@@ -125,7 +125,7 @@ For a survey of the relation to Morse theory see for instance
 
 This deformed supersymmetric quantum mechanics arises as the point-particle limit of the [[type II superstring]] regarded as [[quantum mechanics]] on the [[loop space]], a relation that is stated more explicitly in 
 
-* {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in _Global anomalies in string theory_, in W. Bardeen and A. White (eds.) _Symposium on Anomalies_, Geometry, Topology, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]])
+* {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies_, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
 
 and then in
 
