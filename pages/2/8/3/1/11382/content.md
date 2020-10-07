@@ -74,12 +74,13 @@ See also
 
 
 ### Theoretical predictions
+  {#eferencesTheoreticalPredictions}
 
-Discussion of theoretical predictions for events that have a chance to yield detectable gravitational wave signals includes
+Discussion of theoretical predictions for events that have a chance to yield detectable gravitational wave signals includes:
 
 * {#Damour10} [[Thibault Damour]], _Gravitational Waves from Coalescing Binary Black Holes: Theoretical and Experimental Challenges_, talk in Munich, 2010 ([web](http://www.theorie.physik.uni-muenchen.de/MATH/seminars/asc_kolloquium/archiv_sose10/damour/video_damour/index.html), [youtube](https://www.youtube.com/watch?v=hVy3YBalpWE))
 
-In particular the computation of the signal from the coalescence of two inspiralling black hole [[relativistic binary|binaries]] is due to 
+In particular, the computation of the signal from the coalescence of two inspiralling black hole [[relativistic binary|binaries]] is due to 
 
 * {#BuonannoDamour98} [[Alessandra Buonanno]], [[Thibault Damour]], _Effective one-body approach to general relativistic two-body dynamics_, Phys.Rev. D59 (1999) 084006 ([arXiv:gr-qc/9811091](http://arxiv.org/abs/gr-qc/9811091))
 
@@ -88,6 +89,8 @@ In particular the computation of the signal from the coalescence of two inspiral
 * {#DamourNagar} [[Thibault Damour]], [[Alessandro Nagar]], _An improved analytical description of inspiralling and coalescing black-hole binaries_, Phys.Rev.D79:081503,2009 ([arXiv:0902.0136](http://arxiv.org/abs/0902.0136))
 
 * {#Damour14} [[Thibault Damour]], [[Alessandro Nagar]], _A new analytic representation of the ringdown waveform of coalescing spinning black hole binaries_, 	10.1103/PhysRevD.90.024054 ([arXiv:1406.0401](http://arxiv.org/abs/1406.0401))
+
+* [[Thibault Damour]], _Radiative contribution to classical gravitational scattering at the third order in $G$_ ([arXiv:2010.01641](https://arxiv.org/abs/2010.01641))
 
 Review of the theoretical predictions and their experimental verification is given in
 
