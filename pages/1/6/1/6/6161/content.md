@@ -392,6 +392,9 @@ Section [3.B](http://www.math.cornell.edu/~hatcher/AT/ATch3.4.pdf) of
 
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
  
+Section 3.6
+
+* [[Charles Weibel]], _Introduction to Homological Algebra_.
 
 Section 4.2 in 
 
