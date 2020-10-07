@@ -397,6 +397,11 @@ The bar complex for [[E-infinity algebra]]s is discussed in
 {#Fresse}
 
 
+The compositional structure of the bar construction of several monads, as well as its interpretation in terms of [[partial evaluation|partial evaluations]] is studied in
+
+* [[Carmen Constantin]], [[Tobias Fritz]], [[Paolo Perrone]] and [[Brandon Shapiro]], _Partial evaluations and the compositional structure of the bar construction_. ([arXiv](https://arxiv.org/abs/2009.07302))
+
+
 [[!redirects bar constructions]]
 
 [[!redirects bar complex]]
