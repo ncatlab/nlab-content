@@ -48,7 +48,7 @@ Equivalently, partial evaluations are the 1-simplices of the [[bar construction]
 ## See also 
 
 * [[bar construction]], [[monad]], [[algebra over a monad]], [[operad]], [[algebra over an operad]]
-* [[simplicial set]], [[Segal space]], [[Segal conditions]] [[Kan complex]]
+* [[simplicial set]], [[Segal space]], [[Segal conditions]], [[Kan complex]]
 
  
 ## References
