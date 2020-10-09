@@ -1,4 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{:toc}
+
+## Idea
+
 **Categorial grammar** is a tradition in formal [[linguistics]] which draws inspiration from [[category theory]]. 
+
+## Some History
 
 Syntactic "calculus" for categorial grammars was introduced by Lambek formalizing the function [[type theory|type]] constructors.  Derivation trees can nowadays be encoded by [[string diagrams]].
 
@@ -28,10 +47,7 @@ A contemporary thesis in this area:
 
 * Michael Moortgat, _Categorial type logics_, [pdf](http://www.let.uu.nl/~Michael.Moortgat/personal/Courses/CG08/Docs/lola-ch2.pdf) (ch. 2 in _Handbook of logic and language_, Elsevier 1997)
 
-Research along similar lines is sometimes described as **typelogical grammar**:
-
-* [SEP: typelogical grammar](http://plato.stanford.edu/entries/typelogical-grammar/
-)
+Research along similar lines is sometimes described as **typelogical grammar** (See the link below!).
 
 ## Related Concepts
 
@@ -40,9 +56,14 @@ Research along similar lines is sometimes described as **typelogical grammar**:
 * [[context-free grammar]]
 * [[lambda calculus]]
 
-## References
+## Links
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Categorial_grammar)
+
+* [SEP: typelogical grammar](http://plato.stanford.edu/entries/typelogical-grammar/
+)
+
+## References
 
 * Daniel J. Dougherty, _Closed Categories and Categorial Grammar_ , Notre Dame Journal of Formal Logic **34** no.1 (1993) pp.36-49. ([pdf](http://web.cs.wpi.edu/~dd/publications/ndjfl93.pdf))
 
