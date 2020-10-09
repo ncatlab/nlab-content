@@ -212,7 +212,7 @@ Details on the computation of [[string scattering amplitudes]] in such a backgro
  
 Related lecture notes / slides include
 
-* [[Daniel Freed]], _Dirac charge quantiation, K-theory, and orientifolds_, talk at a workshop _Mathematical methods in general relativity and quantum field theories_, Paris, November 2009 ([pdf](http://www.ma.utexas.edu/users/dafr/paris_nt.pdf), [[FreedK09.pdf:file]])
+* [[Daniel Freed]], _Dirac charge quantization, K-theory, and orientifolds_, talk at a workshop _Mathematical methods in general relativity and quantum field theories_, Paris, November 2009 ([pdf](http://www.ma.utexas.edu/users/dafr/paris_nt.pdf), [[FreedK09.pdf:file]])
 
 * {#Moore10} [[Greg Moore]], _The RR-charge of an orientifold_, Oberwolfach talk 2010 ([pdf](https://www.physics.rutgers.edu/~gmoore/Oberwolfach_June2010_FINAL.pdf), [[MooreOrientifold2010.pdf:file]], [ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
 
