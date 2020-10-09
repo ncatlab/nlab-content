@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
 =--
 =--
 
