@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{:toc}
+
 ## Idea
 
 Categorical compositional distributional semantics, also known as **DisCoCat** for short, uses category theory to combine the benefits of two very different approaches to [[linguistics]]: [[categorial grammar]] and [distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics). Specifically, it uses the fact that [[pregroups]] and the category of finite-dimensional real [[vector space|vector spaces]] are both examples of [[rigid monoidal category|rigid monoidal categories]]. Semantics for [[pregroup grammars]] may then be given as a strong [[monoidal functor]], which allows sentence meanings to be computed from word meanings by linear algebra, compositionally on the grammatical structure of the sentence.
