@@ -37,6 +37,8 @@
 
 * Johann Georg Hamann, _Metakritik über den Purismum der Vernunft_ , pp.205-212 in Majetschak (ed.), _Vom Magus im Norden - Ein Hamann-Brevier_ , dtv München 1988.
 
+* Jochem Hennigfeld, _Schellings Philosophie der Sprache_ , Philosophisches Jahrbuch **91** (1984) pp.16–29. ([pdf](http://philosophisches-jahrbuch.de/wp-content/uploads/2019/03/PJ91_S16-29_Hennigfeld_Schellings-Philosophie-der-Sprache.pdf))
+
 * Wolfram Hogrebe, _Kant und das Problem einer transzendentalen Semantik_ , Fink München 1974.
 
 * [[Immanuel Kant]], _Prolegomena zu einer jeden künftigen Metaphysik_ , Meiner Hamburg 2001[1783]. (§39, p.323)
