@@ -1,3 +1,23 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{:toc}
+
 #Contents#
 * table of contents
 {: toc}
