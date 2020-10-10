@@ -109,6 +109,19 @@ A thesis reviewing some aspects is
 * Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
 
 
+### Unifications of type IIA and IIB supergravities as Double Field Theory are discussed, with different approach to the Ramond--Ramond sector, in 
+
+* Olaf Hohm, Seung Ki Kwak, Barton Zwiebach, _Unification of Type II Strings and T-duality_ ([arXiv:1106.5452](https://arxiv.org/abs/1106.5452))
+
+and,  to the full order in fermions, in
+
+* Imtak Jeon, Kanghoon Lee, Jeong-Hyuck Park, Yoonji Suh, _Stringy Unification of Type IIA and IIB Supergravities under N=2 D=10 Supersymmetric Double Field Theory_ ([arxiv:1210.5078](https://arxiv.org/abs/1210.5078)) 
+
+
+
+
+
+
 [[!redirects type II supergravities]]
 
 [[!redirects type IIA supergravity]]
