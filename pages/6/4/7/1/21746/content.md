@@ -22,15 +22,15 @@
 
 ##Idea
 
-Viewing [[topos|toposes]] as generalized spaces, **natural homotopy** is an equivalence relation between [[geometric morphism|geometric morphisms]] generalizing the [[homotopy|homotopy relation]] between [[continuous map|continuous maps]].
+Viewing [[topos|toposes]] as generalized spaces, **natural homotopy** is an [[equivalence relation]] between [[geometric morphism|geometric morphisms]] generalizing the [[homotopy|homotopy relation]] between [[continuous map|continuous maps]].
 
 This relation is "natural" in the metaphorical sense of being the most "basic" such relation and in the metonymical sense of being defined via [[natural transformation|natural transformations]].
 
-The correspondance between [[geometric theory|geometric theories]] and (classifying) [[Grothendieck topos|Grothendieck toposes]] then induces an equivalence relation between theories finer than [[Morita equivalence]] that affords to define "homotopical" concepts for logic e.g. contractability of a theory.
+The correspondance between [[geometric theory|geometric theories]] and (classifying) [[Grothendieck topos|Grothendieck toposes]] then induces an [[equivalence relation]] between theories finer than [[Morita equivalence]] that affords to define "homotopical" concepts for [[logic]], e.g. contractability of a [[theory]].
 
 ## Definition
 
-Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},\mathcal{F}]$ denote the class of [[connected category|connected components]] of their Hom-category $Hom(\mathcal{E},\mathcal{F})$. Two [[geometric morphism|geometric morphisms]] $f,g:\mathcal{E}\to\mathcal{F}$ are called _naturally homotopical_ , denoted $f\simeq g$, if $[f]=[g]$, or in other words, if there exists a zigzag of [[natural transformation|natural transformations]] $f\leftarrow\cdot\rightarrow\cdot \dots\cdot\leftarrow\cdot\rightarrow g$.
+Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},\mathcal{F}]$ denote the class of [[connected category|connected components]] of their [[hom-category]] $Hom(\mathcal{E},\mathcal{F})$. Two [[geometric morphism|geometric morphisms]] $f,g:\mathcal{E}\to\mathcal{F}$ are called _naturally homotopical_ , denoted $f\simeq g$, if $[f]=[g]$, or in other words, if there exists a zigzag of [[natural transformation|natural transformations]] $f\leftarrow\cdot\rightarrow\cdot \dots\cdot\leftarrow\cdot\rightarrow g$.
 
 ### Remark
 
@@ -76,5 +76,4 @@ A overwiew of homotopy theory done in this "toposophical" context is
 A good source for the classical cohomology theory of toposes is chapter 8 of
 
 * {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014)
-
 
