@@ -22,8 +22,16 @@ Entries on combinatorics and on various combinatorial objects in $n$Lab include:
 * [[matroid]], [[oriented matroid]]
 * [[permutation]]
 * [[symmetric function]], [[noncommutative symmetric function]]
+
 * [[Schur functor]], [[Schur function]], [[plethysm]]
+
 * (combinatorial) [[species]]
+
+* [[combinatorial functor]]
+
+
+
+
 * [[game theory]]
 * [[combinatorial representation theory]]
 
