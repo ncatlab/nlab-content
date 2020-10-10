@@ -30,7 +30,11 @@ The correspondance between [[geometric theory|geometric theories]] and (classify
 
 ## Definition
 
-Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},\mathcal{F}]$ denote the class of [[connected category|connected components]] of their Hom-category $Hom(\mathcal{E},\mathcal{F})$. Two [[geometric morphism|geometric morphisms]] $f,g:\mathcal{E}\to\mathcal{F}$ are called _naturally homotopical_ , denoted $f\simeq g$, if $[f]=[g]$, or in other words, if there exists a zigzag of [[natural transformation|natural transformations]] $f\leftarrow\cdot\rightarrow \dots\cdot\leftarrow\cdot\rightarrow g$.
+Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},\mathcal{F}]$ denote the class of [[connected category|connected components]] of their Hom-category $Hom(\mathcal{E},\mathcal{F})$. Two [[geometric morphism|geometric morphisms]] $f,g:\mathcal{E}\to\mathcal{F}$ are called _naturally homotopical_ , denoted $f\simeq g$, if $[f]=[g]$, or in other words, if there exists a zigzag of [[natural transformation|natural transformations]] $f\leftarrow\cdot\rightarrow\cdot \dots\cdot\leftarrow\cdot\rightarrow g$.
+
+### Remark
+
+Under the correpondance $Hom(\mathcal{E},Set(\mathbb{T}))\cong \mathbb{T}-Mod(\mathcal{E})$ natural homotopy corresponds to an equivalence relation on $\mathbb{T}$-models in $\mathcal{E}$ given by zigzags of model homomorphisms.
 
 ## Properties
 
@@ -43,7 +47,7 @@ Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},
 
 ## Topos homotopy via path spaces
 
-The [[Sierpinski topos]] $Set^2$ is a connected, locally connected and local topos. As a result of [[Artin gluing]] along $Set\overset{id}{\to}Set$ it has two [[point of a topos|topos points]] (corresponding to the two points of the underlying [[Sierpinski space]]). It is [[exponentiable topos|exponentiable]]and, given a topos $\mathcal{E}$, we can accordingly view the exponential $\mathcal{E}^{Set^2}$ as a path space for $\mathcal{E}$ with respect to the [[interval object]] $Set^2$.
+The [[Sierpinski topos]] $Set^2$ is a connected, locally connected and local topos. As a result of [[Artin gluing]] along $Set\overset{id}{\to}Set$ it has two [[point of a topos|topos points]] (corresponding to the two points of the underlying [[Sierpinski space]]). It is [[exponentiable topos|exponentiable]] and, given a topos $\mathcal{E}$, we can accordingly view the exponential $\mathcal{E}^{Set^2}$ as a path space for $\mathcal{E}$ with respect to the abstract [[interval object]] $Set^2$.
 
 (Cf. Beke [2000](#B00), p.11f)
 
