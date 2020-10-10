@@ -30,7 +30,7 @@ The correspondance between [[geometric theory|geometric theories]] and (classify
 
 ## Definition
 
-Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},\mathcal{F}]$ denote the class of [[connected category|connected components]] of their [[hom-category]] $Hom(\mathcal{E},\mathcal{F})$. Two [[geometric morphism|geometric morphisms]] $f,g:\mathcal{E}\to\mathcal{F}$ are called _naturally homotopical_ , denoted $f\simeq g$, if $[f]=[g]$, or in other words, if there exists a zigzag of [[natural transformation|natural transformations]] $f\leftarrow\cdot\rightarrow\cdot \dots\cdot\leftarrow\cdot\rightarrow g$.
+Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},\mathcal{F}]$ denote the class of [[connected category|connected components]] of their [[hom-category]] $Hom(\mathcal{E},\mathcal{F})$. Two [[geometric morphism|geometric morphisms]] $f,g:\mathcal{E}\to\mathcal{F}$ are called _naturally homotopical_ , denoted $f\sim g$, if $[f]=[g]$, or in other words, if there exists a zigzag of [[natural transformation|natural transformations]] $f^*\leftarrow\cdot\rightarrow\cdot \dots\cdot\leftarrow\cdot\rightarrow g^*$.
 
 ### Remark
 
@@ -69,7 +69,7 @@ The concept originates with
 
 * {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-Mac Lane Toposes and Cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
 
-A overwiew of homotopy theory done in this "toposophical" context is
+An overview of homotopy theory done in this "toposophical" context is
 
 * {#B00}[[Tibor Beke]], _Homotopoi_ , ms. University of Massachusetts Lowell (2000). ([dvi](http://faculty.uml.edu/tbeke/topos.dvi))
 
