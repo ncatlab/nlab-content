@@ -77,7 +77,7 @@ See also
 
 * [[Paul Goerss]], _Toward a Kozmik Galois group_, talk at Northwester, April 2010 ([pdf](http://www.math.northwestern.edu/~pgoerss/midwest10/MidW010.pdf))
 
-* [[Jack Morava]], _The Cosmic Galois group as Koszul dual to Waldhausen's A(pt)_ ([arXiv:1108.4627](http://arxiv.org/abs/1108.4627))
+* {#Morava11} [[Jack Morava]], _The Cosmic Galois group as Koszul dual to Waldhausen's A(pt)_ ([arXiv:1108.4627](http://arxiv.org/abs/1108.4627))
 
 A review of cosmic Galois/Grothendieck-Teichm&#252;ller group and a discussion from the perspective of the [[motivic symplectic category]] is section 5 of 
 
