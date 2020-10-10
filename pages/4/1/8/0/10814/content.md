@@ -166,6 +166,8 @@ Double field theory is supposed to formalize the [[non-geometric backgrounds]] o
 
 ## Related concepts
 
+* [[type II supergravity]]
+
 * [[doubled geometry]], [[generalized geometry]]
 
 * [[non-geometry]]
