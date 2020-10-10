@@ -143,7 +143,7 @@ The [[Sierpinski topos]] $Set^2$ is a connected, locally connected and local top
 
 * {#J02b}[[Peter Johnstone]], _Sketches of an Elephant vol.2_ , Oxford UP 2002. 
 
-* {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-MacLane Toposes and cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
+* {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-Mac Lane Toposes and Cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
 
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994.
 
