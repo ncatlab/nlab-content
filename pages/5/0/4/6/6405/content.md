@@ -20,7 +20,7 @@ In simple terms, the rigidity lemma says that under certain circumstances "a 2-v
 
 More precisely, in a category with products, say a morphism $f: X \to Y$ is <b>constant</b> if it factors through the unique morphism $X \to 1$.  Say a morphism $f : X \times Y \to Z$ is <b>independent of $X$</b> if it factors through the projection $X \times Y \to Y$.   
 
-Say a <b>point</b> of $Y$ is a morphism $p: 1 \to Y$.  Say a morphism $f: X \times Y \to Z$ is <b>independent of $X$ at some point $p$ of $Y$</b> if $f \circ (1_X \times p) : X \to Y$ is constant.
+Say a <b>point</b> of $Y$ is a morphism $p: 1 \to Y$.  Say a morphism $f: X \times Y \to Z$ is <b>independent of $X$ at some point $p$ of $Y$</b> if $f \circ (1_X \times p) : X \to Z$ is constant.
 
 **Definition.** A category with finite products **obeys the rigidity lemma** if any morphism $f: X \times Y \to Z$ that is independent of $X$ at some point of $Y$ is in fact independent of $X$.
 
