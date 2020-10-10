@@ -32,7 +32,7 @@ The PRL part of the name evidently stands for "Proof Refinement Logic".
 
 * [RedPRL](http://redprl.org/): An experimental proof assistant for a [[cubical type theory|cubical]] variant of computational type theory.
 
-* [[prototype CLF|Prototype CLF]]: A tentative design for a modern, minimalistic variant of Nuprl's logic, with an emphasis on internally reflecting the semantic judgments.
+* [[CompLF|Prototype CompLF]]: A tentative design for a modern, minimalistic variant of Nuprl's logic, with an emphasis on internally reflecting the semantic judgments.
 
 ## Related entries
 
