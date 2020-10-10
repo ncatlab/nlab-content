@@ -3,6 +3,8 @@
 
 ## General
 
+* [[structuralism]]
+
 ### Philosophy of Language
 
 * [[transcendental grammar]]
@@ -42,11 +44,17 @@
 * [[tree]]
 
 
-### Persons
+### People
+
+* [[Noam Chomsky]]
 
 * [[Günter Hotz]]
 
+* [[Marcus Kracht]]
+
 * [[Joachim Lambek]]
+
+* [[Matilde Marcolli]]
 
 * [[Richard Montague]]
 
