@@ -29,11 +29,13 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[atomic topos|atomic]] over $Set$ ([[Stephen Schanuel|S. Schanuel]], cf. (Wraith 1978), p.335) hence Boolean. This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
 
-* $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $Sh_{\neg\neg}([FinSet_mono,Set])$.
+* $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory+of+decidable+objects#the_quotient_theory_of_infinite_decidable_objects|theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $Sh_{\neg\neg}([FinSet_mono,Set])$.
 
 * $Sh(FinSet^{op}_{mono},J)$ is the category of continuous actions for the group of bijections of $N$ equipped with the topology derived from the product topology for $\prod_{N}N\quad .$
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[Kleisli category]] of the monad on the topos of [[species]] $Set^{FinSet_{iso}}$ induced by the inclusion of finite sets and bijections $FinSet_{iso}\hookrightarrow FinSet_{mono}$ (cf. Fiore-Menni 2004).
+
+* $Sh(FinSet^{op}_{mono},J)$ is contractable in the sense of [[natural homotopy]] (cf. Joyal-Wraith [1984](#JW84)).
 
 ### Remark
 
@@ -62,6 +64,8 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 * M. J. Gabbay, [[Andrew Pitts|A. M. Pitts]], _A new approach to abstract syntax with variable binding_, Formal Aspects of Computing **13** (2002) pp.341-363. ([draft](http://www.cl.cam.ac.uk/~amp12/papers/newaas/newaas-jv.pdf))
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] vols. I,II_, Oxford UP 2002. (pp.79f, 691, 925)
+
+* {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-MacLane Toposes and cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
 
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989). (pp.298f)
 
