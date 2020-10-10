@@ -109,13 +109,25 @@ A thesis reviewing some aspects is
 * Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
 
 
-### Unifications of type IIA and IIB supergravities as Double Field Theory are discussed, with different approach to the Ramond--Ramond sector, in 
+### Via double field theory
+
+Discusdion of type IIA and IIB supergravities via [[double field theory]]:
 
 * Olaf Hohm, Seung Ki Kwak, Barton Zwiebach, _Unification of Type II Strings and T-duality_ ([arXiv:1106.5452](https://arxiv.org/abs/1106.5452))
 
 and,  to the full order in fermions, in
 
 * Imtak Jeon, Kanghoon Lee, Jeong-Hyuck Park, Yoonji Suh, _Stringy Unification of Type IIA and IIB Supergravities under N=2 D=10 Supersymmetric Double Field Theory_ ([arxiv:1210.5078](https://arxiv.org/abs/1210.5078)) 
+
+Comprehensive discussion in [[higher differential geometry]]:
+
+* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
+
+
+* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
+
+  (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
+
 
 
 
