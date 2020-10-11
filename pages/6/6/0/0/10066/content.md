@@ -370,6 +370,7 @@ In its incarnation (under [[Elmendorf's theorem]]) as a [[Spectra]]-valued [[pre
 * [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
 
 
+
 ### For D-brane charge on orbifolds
 
 The proposal that [[D-brane charge]] on [[orbifolds]] is given by [[equivariant K-theory]] goes back to
