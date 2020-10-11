@@ -16,7 +16,13 @@ the space of leaves of a foliation, noncommutative tori, groupoid operator algeb
 As an inspirative and energetic lecturer Connes also directly contibuted to the popularization of noncommutative geometry and its connections to physics. 
 
 
-## Publications
+## Selected writings
+
+On the [[equivariant Chern character]]:
+
+* [[Alain Connes]], [[Paul Baum]], _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
+
+On [[noncommutative geometry]]:
 
 * Alain Connes, _Noncommutative geometry_, Academic Press 1994, 661 p. [PDF](http://www.alainconnes.org/docs/book94bigpdf.pdf) 
 
