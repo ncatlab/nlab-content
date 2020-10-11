@@ -18,7 +18,9 @@
 
 
 ##Idea
-The **Schanuel topos** (also called the _Myhill-Schanuel topos_) is the [[Grothendieck topos]] of [[combinatorial functors]]. It plays an important role in [[computer science]] in the theory of name-binding calculi and in [[William  Lawvere]]'s approach to [[petit toposes]]. It can be viewed as a [[category theory|category-theoretic]] variant of the [[Fraenkel-Mostowski model]] of [[set theory]].
+The **Schanuel topos** (also called the _Myhill-Schanuel topos_) is the [[Grothendieck topos]] of "combinatorial functors" whose "typical objects are natural combinatorial constructions such as binomial coefficients"[^ref]. It plays an important role in [[computer science]] in the theory of name-binding calculi and in [[William  Lawvere]]'s approach to [[petit toposes]]. It can be viewed as a [[category theory|category-theoretic]] variant of the [[Fraenkel-Mostowski model]] of [[set theory]].
+
+[^ref]: Lawvere [1989, p.299](#Law89).
 
 ##Definition
 
@@ -52,6 +54,8 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * [[Fraenkel-Mostowski model]]
 
+* [[combinatorial functor]]
+
 * [[permutation model]]
 
 * [[atomic topos]]
@@ -68,7 +72,7 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-Mac Lane Toposes and Cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
 
-* [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989). (pp.298f)
+* {#Law89}[[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989). (pp.298f)
 
 * [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (pp.155, 158)
 
@@ -76,6 +80,8 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * {#Menni09}[[Matías Menni]], _Algebraic categories whose projectives are explicitly free_ , TAC **22** no.20 (2009) pp.509-541. ([abstract](http://www.tac.mta.ca/tac/volumes/22/20/22-20abs.html))
 
-* Sam Staton, _Name-passing process calculi: operational models and structural operational semantics_, Technical Report **688** CL University Cambridge 2007. ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-688.pdf))
+* John Myhill, _Recursive equivalence types and combinatorial functions_ , Bull. Amer. Math. Soc. **64** (1958) pp.373-376.
+
+* [[Sam Staton]], _Name-passing process calculi: operational models and structural operational semantics_, Technical Report **688** CL University Cambridge 2007. ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-688.pdf))
 
 * [[Gavin Wraith|G. Wraith]], _Intuitionistic Algebra: Some Recent Developments of Topos Theory_ , Proc. ICM Helsinki (1978) pp.331-337. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
