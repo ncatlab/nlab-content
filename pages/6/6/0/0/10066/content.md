@@ -237,6 +237,10 @@ This is never an [[isomorphism]], unless $G$ is the trivial group. But the [[Ati
 
 [[!include Segal completion -- table]]
 
+### Rationalization
+
+[[!include incarnations of rational equivariant topological K-theory -- table ]]
+
 ### Equivariant Chern-character
 
 There is an [[equivariant Chern character]] map from equivariant K-theory to [[equivariant ordinary cohomology]].
@@ -352,7 +356,7 @@ That $G$-equivariant [[topological K-theory]] is [[representable functor|represe
 
 * [[Michael Atiyah]], [[Graeme Segal]], Corollary A3.2 in: _Twisted K-theory_ ([arXiv:math/0407054](https://arxiv.org/abs/math/0407054))
 
-* [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
+* {#LueckOliver01} [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
 
 
 This is enhanced to a representing [[naive G-spectrum]] in 
