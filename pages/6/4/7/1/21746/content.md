@@ -40,7 +40,7 @@ Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},
 **Remark.**
 Under the identification $Hom(\mathcal{E},Set(\mathbb{T}))\cong \mathbb{T}-Mod(\mathcal{E})$ natural homotopy corresponds to an equivalence relation on $\mathbb{T}$-models in $\mathcal{E}$ given by zigzags of model homomorphisms.
 
-## Properties and some further homotopical concepts
+## Properties and some homotopic concepts
 
 Using the Godement calculus of [[natural transformation|natural transformations]] an induction over the number of zigzags $\cdot\leftarrow\cdot\rightarrow\cdot$ shows that $f\sim f'$ implies $h\circ f\circ k\sim h\circ f'\circ k$. From this it follows that for composable geometric morphisms $f\sim f'$, $g\sim g'$ implies $f\circ g\sim f'\circ g'$.
 
@@ -58,7 +58,9 @@ Homotopy equivalences are closed under composition hence "being of the same homo
 A Grothendieck topos $Set(\mathbb{T})\;$, respectively the [[geometric theory]] $\mathbb{T}$ it [[classifying topos|classifies]], is called _(naturally) contractable_ , if there exists a "constant" geometric morphism $c:Set(\mathbb{T})\to Set(\mathbb{T})$ i.e. one factoring through $Set$ as $Set(\mathbb{T})\overset{!}{\to}Set\overset{\bar{c}}{\to}Set(\mathbb{T})\;$, such that $c\sim id_{Set(\mathbb{T})}\;$.
 =--
 
-In other words, a topos is contractable if its identity is homotopic to a constant map and a geometric theory $\mathbb{T}$ is contractable iff its classifying topos $Set(\mathbb{T})$ is. Note incidentally, that this requires by definition the existence of a [[point of a topos|point]] of $Set(\mathbb{T})$, or in other words, the existence of a "classical" i.e. $Set$-based $\mathbb{T}$-model.
+In other words, a topos is contractable if its identity is homotopic to a constant map and a geometric theory $\mathbb{T}$ is contractable iff its classifying topos $Set(\mathbb{T})$ is. 
+
+Note incidentally, that this requires by definition the existence of a [[point of a topos|point]] of $Set(\mathbb{T})$, or in other words, the existence of a "classical" i.e. $Set$-based $\mathbb{T}$-model. In particular, since there exist ([[Boolean topos|Boolean]]) [[point of a topos#toposes without points|toposes without points]] there exist (Boolean) geometric theories that are not contractable.
 
 The correspondance between geometric theories and Grothendieck toposes together with the correspondance between their models and geometric morphisms similarly affords the transposition of other homotopic concepts to the realm of geometric logic.
 
@@ -125,3 +127,7 @@ A good source for the classical cohomology theory of toposes is chapter 8 of
 The following paper explores the topos of sheaves on the unit interval as abstract interval object
 
 * {#MW86} [[Ieke Moerdijk]], [[Gavin Wraith]], _Connected locally connected toposes are path-connected_ , Trans. AMS **295** no.2 (1986) pp.849-859.
+
+A proof of the homotopy equivalence of certain _petit_ and _gros_ toposes can be found on p.415f in
+
+* {#MM94}[[Saunders Mac Lane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994.
