@@ -40,5 +40,10 @@ Equivariant Sullivan models are [[equivariant dgc-algebras]] that generalize the
 
 * {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
+For [[cyclic groups]]:
+
+* Thierry Lambre, _Modèle Minimal Équivariant et Formalité_, Transactions of the American Mathematical Society Vol. 327, No. 2 (Oct., 1991), pp. 621-639 ([doi:2001817](https://www.jstor.org/stable/2001817))
+
+
 [[!redirects equivariant Sullivan models]]
 
