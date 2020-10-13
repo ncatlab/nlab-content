@@ -3401,7 +3401,7 @@ Our **paragraph numbering** is as follows:
 | measure (= [[gauge]]), unity of quantity and quality | [[cohesion]] [[adjoint triple]] [[adjoint modality]] $\left(\array{ attraction &\stackrel{quality}{\dashv}& repulsion \\ \bot && \bot \\ discreteness &\stackrel{quantity}{\dashv}& continuity } \right) = \left(\array{ &#643; &\dashv& \flat \\ \bot && \bot \\ \flat &\dashv& \sharp }\right) $ | [&#167;699](#699), [&#167;708](#708), [&#167;714](#714), [&#167;725](#725) |
 | non-being of infinitesimals | [[reduction modality]] $\Re$ | [&#167;174](#174), [&#167;404](#304)   |
 | being-for-one | [[infinitesimal flat modality]] $\& $ | [&#167;322](#322) |
-| being-for-self | [[infinitesimal shape modality]] $\& $ | [&#167;305](#305) |
+| being-for-self | [[infinitesimal shape modality]] $\Im $ | [&#167;305](#305) |
 | ideality (inf. quality) | [[unity of opposites]] ($ \Im \dashv \& $ ) | [&#167;305](#305), [&#167;322](#322)   |
 | Aufhebung of finiteness | $\left(\array{\Im &\dashv& \&  \\ \vee && \vee \\ &#643; &\dashv& \flat }\right)$ | [&#167;304](#304) , [&#167;305](#305) |
 | reality | [[adjoint modality]] ($\Re \dashv  \Im$) | [&#167;304](#304) , [&#167;305](#305) |
