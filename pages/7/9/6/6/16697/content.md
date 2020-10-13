@@ -9,6 +9,8 @@ On [[small instantons]] as [[NS5-branes]]/[[M5-branes]] in [[E8]]-[[heterotic st
 
 * {#GanorHanany96} [[Ori Ganor]], [[Amihay Hanany]], _Small $E_8$ Instantons and Tensionless Non-critical Strings_, Nucl. Phys. B474 (1996) 122-140 ([arXiv:hep-th/9602120](https://arxiv.org/abs/hep-th/9602120))
 
+* [[Amihay Hanany]], Noppadol Mekareeya, _The Small $E_8$ Instanton and the Kraft Procesi Transition_, JHEP07 (2018) 098 ([arXiv:1801.01129](https://arxiv.org/abs/1801.01129))
+
 On [[D-branes]] [[brane intersection|intersecting]] [[NS5-branes]]:
 
 * {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
