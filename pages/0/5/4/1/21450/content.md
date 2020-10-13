@@ -164,3 +164,9 @@ the many experimental cross section measurements.
 > As the 21st Century began, the Clay Mathematics Institute established seven Millennium Prize Problems. Each represents one of the toughest challenges in mathematics. The set contains the [[mass gap problem|problem of confinement]]; and  presenting a sound solution will win its discoverer 1,000,000 bucks. Even with  such motivation, today, almost fifty years after the discovery of [[quarks]], no rigorous solution has been found. Confinement and EHM are inextricably linked. Consequently, as  science plans for the next thirty  years, solving the problem of EHM has become a _grand challenge_. $[\cdots]$
 
 > In trying to match [[QCD]] with Nature, one confronts the many complexities of strong, nonlinear dynamics in relativistic quantum field theory, e.g. the loss of particle number conservation, the frame and scale dependence of the  explanations and interpretations of observable processes, and the evolving character of the relevant degrees-of-freedom. [[electroweak field|Electroweak theory]] and phenomena are essentially [[perturbative quantum field theory|perturbative]]; hence, possess little of this complexity.  Science has never before encountered an [[interaction]] such as that at work in [[QCD]]. Understanding this interaction, explaining everything of which it is capable, can potentially change the way we look at the Universe.
+
+* Michael Creutz, _QCD beyond diagrams_ ([arXiv:2010.04774](https://arxiv.org/abs/2010.04774))
+
+> QCD, the theory of the strong interactions, involves quarks interacting with non-Abelian gluon fields. This theory has many features that are difficult to impossible to see in conventional diagrammatic perturbation theory. This includes quark confinement, mass generation, and chiral symmetry breaking.
+
+
