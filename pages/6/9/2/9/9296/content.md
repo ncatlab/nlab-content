@@ -39,5 +39,9 @@ This has been argued to resolve (and has been argued not to resolve) the problem
 
 ## References
 
+* Chris Nagele, Oliver Janssen, Matthew Kleban, _Decoherence: A Numerical Study_ ([arXiv:2010.04803](https://arxiv.org/abs/2010.04803))
+
+See also
+
 * Wikipedia, _[Quantum decoherence](http://en.wikipedia.org/wiki/Quantum_decoherence)_
 
