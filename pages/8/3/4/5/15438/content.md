@@ -30,6 +30,8 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * The objects of the Schanuel topos are called [[nominal set|nominal sets]] and correspond precisely to the pullback preserving functors $FinSet_{mono}\to Set$.
 
+* Since monos are precisely the morphisms that pull back along themselves to isomorphisms, any pullback preserving functor preserves monos. This affords another description as the category of intersection preserving functors from $FinSet_{mono}\to Set_{mono}$, a special case of [[combinatorial functor|combinatorial functors]].
+
 * The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[atomic topos|atomic]] over $Set$ ([[Stephen Schanuel|S. Schanuel]], cf. (Wraith 1978), p.335) hence Boolean. This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of decidable objects#Infinite decidable objects|theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $Sh_{\neg\neg}([FinSet_mono,Set])$.
@@ -38,7 +40,7 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[Kleisli category]] of the monad on the topos of [[species]] $Set^{FinSet_{iso}}$ induced by the inclusion of finite sets and bijections $FinSet_{iso}\hookrightarrow FinSet_{mono}$ (cf. Fiore-Menni 2004).
 
-* $Sh(FinSet^{op}_{mono},J)$ is contractable in the sense of [[natural homotopy]] (cf. Joyal-Wraith [1984](#JW84)).
+* $Sh(FinSet^{op}_{mono},J)$ is contractible in the sense of [[natural homotopy]] (cf. Joyal-Wraith [1984](#JW84)).
 
 ### Remark
 
