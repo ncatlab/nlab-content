@@ -9,7 +9,7 @@ For $k$ a [[natural number]] and $x$ an element of a (unital) [[ring]], the **fa
 
 $$x^{\underline{k}} = x(x-1)\ldots (x-k+1).$$ 
 
-If $X$ and $Y$ are two [[finite sets]] of [[cardinalities]] $|X| = k$ and $|Y| = n$, then the falling factorial $n^{\underline{k}}$ counts the number of [[injections]] from $X$ to $Y$. Dividing by the action of the permutation group of $X$ with $k!$ elements and counting the orbits, the expression $\frac{n^{\underline{k}}}{k!} = \binom{n}{k}$ counts the number of subsets of $Y$ of cardinality $k$. 
+If $X$ and $Y$ are two [[finite sets]] of [[cardinalities]] $|X| = k$ and $|Y| = n$, then the falling factorial $n^{\underline{k}}$ counts the number of [[injections]] from $X$ to $Y$. Dividing by the action of the permutation group of $X$ with $k!$ elements and counting the orbits, the so called **binomial coefficient** $\frac{n^{\underline{k}}}{k!} = \binom{n}{k}$ counts the number of subsets of $Y$ of cardinality $k$. 
 
 
 
