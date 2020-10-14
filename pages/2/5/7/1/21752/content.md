@@ -32,5 +32,9 @@ The [[metric cone]] over [[complex projective 3-space]] carries the [[mathematic
 
 * {#AcharyaBryantSalamon20} [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
+As a [[KK-compactification|compactification]]-space for [[M-theory on G2-manifolds]]:
+
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]], _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
 [[!redirects metric cone on complex projective 3-space]]
 
