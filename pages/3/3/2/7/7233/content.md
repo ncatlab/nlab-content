@@ -373,9 +373,14 @@ The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]
 ## Examples
  {#Examples}
 
+### Metric cones
+
+The [[metric cone over complex projective 3-space]] carries the [[mathematical structure|structure]] of  a [[G2-manifold]] whose [[Riemannian metric]] is [[invariant]] under the canonical [[Sp(2)]] [[action]] by left-[[matrix multiplication]] on homomogeneous coordinates in $\mathbb{H}^2 \simeq_{\mathbb{R}} \mathbb{C}^4 \to \mathbb{C}P^3$ ([Byant-Salamon 89](metric+cone+over+complex+projective+3-space#BryantSalamon89), see also [Acharya-Bryant-Salamon 20](metric+cone+over+complex+projective+3-space#AcharyaBryantSalamon20)).
+
+
 ### Resolution of Joyce orbifolds
 
-[[compact topological space|compact]] [[G2-manifolds]]
+[[compact topological space|compact]]$\,$[[G2-manifolds]]
 by [[resolution of singularities]] in compact [[flat orbifolds]]
 
 ([Joyce 96](#Joyce96), [Joyce 00](#Joyce00))
@@ -488,6 +493,12 @@ The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned
 
 For more see the references at _[[exceptional geometry]]_.
 
+### Examples
+
+The [[metric cone over complex projective 3-space]] as a [[G2-manifold]]:
+
+* [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications
+Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
 ### $G_2$-Orbifolds
  {#ReferencesG2Orbifolds}
