@@ -241,8 +241,9 @@ See also
 
 * Kiyoshi Higashijima, Kazuhiko Nishijima, _Renormalization Groups of Gell-Mann and  Low and of Callan  and Symanzik_, Progress in theoretical physics, vol. 64, no. 6, December 1980 ([pdf](https://academic.oup.com/ptp/article-pdf/64/6/2179/5275368/64-6-2179.pdf))
 
-
 * {#Shomer07} Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
+
+* Alessandro Giuliani, Vieri Mastropietro, Slava Rychkov, _Gentle introduction to rigorous Renormalization Group: a worked fermionic example_ ([arXiv:2008.04361](https://arxiv.org/abs/2008.04361))
 
 
 * Wikipedia _[Renormalization group](http://en.wikipedia.org/wiki/Renormalization_group)_
