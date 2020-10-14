@@ -65,8 +65,9 @@ There are generalizations of this picture for each of the so-called 'inner' [[sy
 
 * [[quaternionic Hopf fibration]]
 
-* [[twistor space]]
+* [[twistor space]], [[complex projective 3-space]]
 
+* [[metric cone over complex projective 3-space]]
 
 
 ## References
@@ -95,7 +96,7 @@ There are generalizations of this picture for each of the so-called 'inner' [[sy
 
 * {#ArmstrongSalamon14} John Armstrong, [[Simon Salamon]], _Twistor Topology of the Fermat Cubic_, SIGMA 10 (2014), 061, 12 pages ([arXiv:1310.7150](https://arxiv.org/abs/1310.7150))
 
-* {#ABS19} [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], Section 6 of: _A circle quotient of a $G_2$ cone_ ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518))
+* [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
 * {#Bryant85} [[Robert Bryant]], _Lie groups and twistor spaces_, Duke Mathematical Journal 52 (1985), pp. 223–261, ([ProjectEuclid](https://projecteuclid.org/euclid.dmj/1077304286)).
 
