@@ -332,7 +332,7 @@ diagonal, which is preserved by the finite limit preserving $F$.
 +-- {: .num_prop}
 ###### Proposition
 
-A presentable $(\infty,1)$-functor $F : C \to D$  between
+A left exact presentable $(\infty,1)$-functor $F : C \to D$  between
 [[locally presentable (∞,1)-categories]] $C$ and $D$ commutes with 
 truncation:
 
