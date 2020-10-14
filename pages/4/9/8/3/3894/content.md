@@ -450,6 +450,8 @@ and specifically so for [[M-theory on 8-manifolds]]:
 
 See also
 
+* Johannes Held, Section 3 of: _Non-SupersymmetricFlux Compactifications of Heterotic String- and M-theory_ ([pdf](https://edoc.ub.uni-muenchen.de/14341/1/Held_Johannes.pdf))
+
 * {#Papadopoulos18} [[George Papadopoulos]], _Geometry and symmetries of null $G$-structures_ ([arXiv:1811.03500](https://arxiv.org/abs/1811.03500))
 
 
