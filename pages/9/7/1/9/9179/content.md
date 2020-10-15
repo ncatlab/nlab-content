@@ -107,6 +107,9 @@ On the neutrino mass problem:
 
 * {#FisherKayserMcFarland99} Peter Fisher, Boris Kayser, Kevin S. McFarland, _Neutrino Mass and Oscillation_ Ann. Rev. Nucl. Part. Sci.49:481-528, 1999 ([arXiv:hep-ph/9906244](https://arxiv.org/abs/hep-ph/9906244))
 
+* Guido Fantini, Andrea Gallo Rosso, Francesco Vissani, Vanessa Zema, _The formalism of neutrino oscillations: an introduction_ ([arXiv:1802.05781](https://arxiv.org/abs/1802.05781))
+
+
   
 
 Comments on neutrinos masses as a hint for the [[standard model of particle physics]] being an [[effective field theory]] are in
