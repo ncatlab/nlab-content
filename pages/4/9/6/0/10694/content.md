@@ -413,7 +413,7 @@ $$
     \xi_i^{2^0 + 2^2} \xi_j^{2^0 + 2^1 + 2^2}
      \\
      & = 
-     h_{i,0} h_{i,1} h_{j,0} h_{j,1} h_{j,2}
+     h_{i,0} h_{i,2} h_{j,0} h_{j,1} h_{j,2}
   \end{aligned}
   \,.
 $$
@@ -478,7 +478,7 @@ $$
   \begin{aligned}
     \vert \xi_i^5 \xi_j^7\vert
     & = 
-    {\vert h_{i,0} h_{i,1} h_{j,0} h_{j,1} h_{j,2} \vert} 
+    {\vert h_{i,0} h_{i,2} h_{j,0} h_{j,1} h_{j,2} \vert} 
     \\
     & =
     2(2i-1) + 3(2j-1)
