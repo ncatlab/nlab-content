@@ -203,13 +203,23 @@ relation to [[intersecting D-brane models]]: see [there](intersecting+D-brane+mo
 
 ### General
 
-The [[KK-compactification]] of [[11d supergravity]] of [[fibers]] of [[special holonomy]] was originally considered in
+The first discussion of [[KK-compactification]] of [[11d supergravity]] on  [[fibers]] with [[G2-holonomy]] is due to:
+
+* {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 (1983) ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
+
+* [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Spontaneous Supersymmetry Breaking by the Squashed Seven-Sphere_, Phys. Rev. Lett. 50, 2043 (1983) ([doi:10.1103/PhysRevLett.50.2043](https://doi.org/10.1103/PhysRevLett.50.2043), [erratum](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.51.846))
+
+  > (compactification on a [[squashed sphere|squashed]] [[7-sphere]] with $G_2$-holonomy)
+
+More generally, the [[KK-compactification]] of [[11d supergravity]] of [[fibers]] of [[special holonomy]] was originally considered in
+
+* [[Edward Witten]], _Search for a realistic Kaluza-Klein theory_, Nuclear Physics B Volume 186, Issue 3, 10 August 1981, Pages 412-428 (<a href="https://doi.org/10.1016/0550-3213(81)90021-3">doi:10.1016/0550-3213(81)90021-3</a>)
 
 * {#DauriaFreCastellani91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter V.6 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * [[George Papadopoulos]], [[Paul Townsend]], _Compactification of D=11 supergravity on spaces of exceptional holonomy_, Phys. Lett. B357:300-306,1995 ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
-Specifically [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]] ) goes back to
+Dedicated [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]] ) goes back to:
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
