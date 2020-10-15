@@ -51,7 +51,7 @@ In this form this appears as [de Jong, def. 35.6.1](#deJong).
 
 ## References
 
-Algebraic spaces are the topic of chapter 35 in
+Algebraic spaces are the topic of part 4 (tag 0ELT) in
 
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_
 {#deJong}
