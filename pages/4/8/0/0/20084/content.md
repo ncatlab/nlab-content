@@ -16,6 +16,10 @@ On the [[flavour anomalies]]:
 
 * [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
 
+On [[leptoquarks]]:
+
+* [[Andreas Crivellin]], Christoph Greub, Dario Müller, Francesco Saturnino, _Scalar Leptoquarks in Leptonic Processes_ ([arXiv:2010.06593](https://arxiv.org/abs/2010.06593))
+
 
 
 
