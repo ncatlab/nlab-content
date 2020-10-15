@@ -28,13 +28,11 @@ category: Search results
 
 AG (Algebraic geometry)
 
-category: World [private]
 ---
 ## Monsky-Washnitzer cohomology
 
 Charp
 
-category: Labels [private]
 ---
 ## Monsky-Washnitzer cohomology
 
