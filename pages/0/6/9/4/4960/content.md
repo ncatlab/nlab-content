@@ -1343,7 +1343,7 @@ itself. Indeed, by the above interpretation, this sends each point to its cohesi
 
 The [above](#FamiliesOfSets) example is the simplest special case of a more general but still very simple class of examples. 
 
-First notice that for $C$ any [[small category]], we have the left and right [[Kan extension]] of presehaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
+First notice that for $C$ any [[small category]], we have the left and right [[Kan extension]] of presheaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
 
 $$
   (\lim_\to \dashv Const \dashv \lim_\leftarrow) :
