@@ -240,16 +240,16 @@ A morphism in the free symmetric monoidal closed category on a category $C$ is t
 
 ## References
 
-* [[Max Kelly]], *Many-variable functorial calculus. I*. In "Coherence in categories", LNM 281, p66-&#8211;105
+* [[Max Kelly]], *Many-variable functorial calculus. I*. In "Coherence in categories", LNM 281, pp. 66&#8211;105
  {#KellyMVFC}
 
-* [[Max Kelly]], *An abstract approach to coherence.*  In "Coherence in categories", LNM 281, p106-&#8211;147.
+* [[Max Kelly]], *An abstract approach to coherence.*  In "Coherence in categories", LNM 281, pp. 106&#8211;147.
  {#KellyAAC}
 
-* [[Max Kelly]], *A cut-elimination theorem.*  In "Coherence in categories", LNM 281, p196-&#8211;213.
+* [[Max Kelly]], *A cut-elimination theorem.*  In "Coherence in categories", LNM 281, pp. 196&#8211;213.
  {#KellyCET}
 
-* [[Max Kelly]], *On clubs and doctrines*. In "Category Seminar (Proc. Sem., Sydney, 1972/1973)", LNM 420, p181-&#8211;256.
+* [[Max Kelly]], *On clubs and doctrines*. In "Category Seminar (Proc. Sem., Sydney, 1972/1973)", LNM 420, pp. 181&#8211;256.
  {#KellyOCD}
 
 * [[Max Kelly]], *On clubs and data-type constructors*, Applications of Categories in Computer Science, Proceedings of the London Mathematical Society Symposium, Durham 1991
