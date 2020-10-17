@@ -90,7 +90,7 @@ An __intuitionistic sequent__ is one in which the succedent consists of at most 
 A __minimal sequent__ is one in which the succedent consists of exactly one proposition (then called the __[[consequent]]__); a __minimal theory__ is one in which every sequent is minimal.
 
 A __dual-intuitionistic sequent__ is one in which the antecedent consists of at most one proposition; a __dual-intuitionistic theory__ is one in which every sequent is dual-intuitionistic.
-
+Who will be sworn in as POTUS on 01
 A __dual-minimal sequent__ is one in which the antecedent consists of exactly one proposition; a __dual-minimal theory__ is one in which every sequent is dual-minimal.
 
 A __classical sequent__ is simply a sequent, emphasising that we are not restricting to (dual)-intuitionistic or (dual)-minimal sequents; similarly, a __classical theory__ is any theory.
@@ -388,7 +388,7 @@ The **[[equality]] rules** are
     }
     \,,
   $$
-where $s$ and $t$ are any [[terms]] of the same [[type]] $U$ in the context $\vec{x}\colon \vec{T}$ and $\chi$ is a proposition in the context $(\vec{x}\colon \vec{T}, y\colon U)$, and
+where $s$ and $t$ are any [[terms]] of the same [[type]] $U$ in the context $\vec{x}\colon \vec{T}$ and $\alpha$ is a proposition in the context $(\vec{x}\colon \vec{T}, y\colon U)$, and
   $$
     \frac{
     }{
