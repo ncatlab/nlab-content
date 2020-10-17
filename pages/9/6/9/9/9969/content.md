@@ -30,7 +30,7 @@ Yang wrote in  _C. N. Yang, Selected papers, 1945-1980, with commentary_, W. H. 
 
 Yang expanded on this passage in an interview recorded as
 
-* D. Z. Zhang,  _C. N. Yang and contemporary mathematics_ The Mathematical Intelligencer 15, 13–21 (1993) ([doi:10.1007/BF03024319](https://doi.org/10.1007/BF03024319)):
+* D. Z. Zhang,  _C. N. Yang and contemporary mathematics_, The Mathematical Intelligencer 15, 13–21 (1993) ([doi:10.1007/BF03024319](https://doi.org/10.1007/BF03024319)):
 
 > $[$This$]$ was not just joy. There was something more, something deeper: After all, what could be more mysterious, what could be more awe-inspiring, than to find that the structure of the [[observable universe|physical world]] is intimately tied to the deep [[mathematics|mathematical]] concepts, concepts which were developed out of considerations rooted only in [[logic]] and the beauty of form?
 
