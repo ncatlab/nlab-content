@@ -5,6 +5,11 @@ Peter West is professor of mathematics at King's college London.
 
 ## Selected writings
 
+On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
+
+* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+
+
 On the [[3-brane in 6d]] as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] 
 
 * {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_, Phys. Lett. B419 (1998) 79-83 ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
