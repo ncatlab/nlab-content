@@ -17,7 +17,7 @@
 
 **ZFA** is a variant of the [[material set theory]] [[ZF]] which allows for objects, called _atoms_ or _[[urelements]]_ (hence the alternative name ZFU), which may be members of [[sets]], but are not made up of other elements. ZFA featured in early independence proofs, notably [[Fraenkel-Mostowski permutation models]], for example showing AC is independent of the rest of the axioms of ZFA.
 
-[[Zermelo]]'s original 1908 axiomatisation of set theory included atoms, but they were soon discarded as a foundational approach as they could be modeled inside of atomless set theory.
+[[Zermelo|Zermelo's]] original 1908 axiomatisation of set theory included atoms, but they were soon discarded as a foundational approach as they could be modeled inside of atomless set theory.
 
 ## Definition
 
