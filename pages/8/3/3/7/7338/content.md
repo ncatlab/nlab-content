@@ -26,6 +26,9 @@ On the [[Green-Schwarz mechanism]] in [[D=6 N=(1,0) SCFT]]:
 
 * [[Kenneth Intriligator]], _$6d$, $\mathcal{N}=(1,0)$ Coulomb Branch Anomaly Matching_, J. High Energ. Phys. 2014, 162 (2014) ([arXiv:1408.6745](https://arxiv.org/abs/1408.6745), <a href="https://doi.org/10.1007/JHEP10(2014)162">doi:10.1007/JHEP10(2014)162</a>)
 
+* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], from p. 18 in: _2-Group Global Symmetries and Anomalies in Six-Dimensional Quantum Field Theories_ ([arXiv:2009.00138](https://arxiv.org/abs/2009.00138))
+
+
 
 ## Related $n$Lab entries
 
