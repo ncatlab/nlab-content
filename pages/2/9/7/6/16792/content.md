@@ -1,9 +1,2 @@
 
-
-* [Wikipedia entry](https://en.wikipedia.org/wiki/Augusto_Sagnotti)
-
-## related $n$Lab entries 
-
-* [[higher spin gauge theory]]
-
-category: people
+see _[[Augusto Sagnotti]]_
