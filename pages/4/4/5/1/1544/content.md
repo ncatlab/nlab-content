@@ -397,6 +397,11 @@ A classical textbook reference is
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
+With an eye towards application in [[mathematical physics]]:
+
+* [[Mikio Nakahara]], Chapter 9 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+
 The formulation of connections in terms of their smooth [[parallel transport]] [[functors]] is in 
 
 * {#SchreiberWaldorf07} [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_,  J. Homotopy Relat. Struct. 4, 187-244 (2009) ([arXiv:0705.0452](http://arxiv.org/abs/0705.0452))
