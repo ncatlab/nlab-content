@@ -350,8 +350,7 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 ## References
 
 
-Textbook accounts include
-
+Textbook accounts:
 
 * {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Section 1 of: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press 1974 ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
@@ -361,15 +360,18 @@ Textbook accounts include
 * {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
 
-* {#Lee12} [[John Lee]], _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
-
+* {#Lee12} [[John Lee]], _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/) [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
 
 * [[Theodore Frankel]], chapter 1 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
 
 * Jet Nestruev, _Smooth Manifolds and Observables_ , Springer LNM **220** Heidelberg 2003 ([doi:10.1007/b98871](https://link.springer.com/book/10.1007/b98871))
 
 
-* John Lee, _Introduction to Smooth Manifolds__, Springer Graduate Texts in Mathematics 218 2006/2013 ([doi:10.1007/978-1-4419-9982-5](https://link.springer.com/book/10.1007/978-1-4419-9982-5) [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/))
+
+
+With an eye towards application in [[mathematical physics]]:
+
+* [[Mikio Nakahara]], Chapter 3 of _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
 
 Smooth manifolds are defined as locally ringed spaces in
