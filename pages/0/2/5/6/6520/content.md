@@ -85,11 +85,14 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 ### In quantum field theory and specifically Yang-Mills theory
 
 * [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
+
 * Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
 
 * [[Werner Nahm]], _Self-dual monopoles and calorons_, in _Group theoretical methods in physics_ (Trieste, 1983), pages 189-200. Springer, Berlin (1984) ([journal](http://www.springerlink.com/index/y005405w74862327.pdf))
 
 * {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216)), _Lecture 1: Instantons_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/instanton.pdf))
+
+* [[Mikio Nakahara]], Section 10.5.5 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
 
 See also literature at [[Yang-Mills instanton]].
