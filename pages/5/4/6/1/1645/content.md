@@ -268,6 +268,10 @@ Math. Phys. 60 (1984) 770.
 *  B. Zumino, "Chiral anomalies and differential geometry," in Relativity, Groups and Topology II, proceedings of the Les Houches summer school, B.S. DeWitt and R. Stora, eds. North-Holland, 1984.
 
 
+
+* [[Mikio Nakahara]], Chapter 13 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+
 #### In BV-BRST formulation
 
 General discussion in the context of [[BRST-BV formalism]] (breaking of the [[quantum master equation]] by quantum corrections) is discussed in
