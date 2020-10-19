@@ -66,6 +66,8 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 
 ## Related concepts
 
+* [[fiber bundles in physics]]
+
 * [[monopole]]
 
   * [[Dirac monopole]], [[Yang monopole]]
@@ -74,12 +76,11 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 
 \linebreak
 
-\linebreak
-
-For more, see eventuall at _[electromagnetic field -- charge quantization](electromagnetic+field#DiracArgument)_ (but still needs to be written...)
 
 
 ## Reference
+
+See also the references at _[[fiber bundles in physics]]_.
 
 ### For the electromagnetic field
 
@@ -88,6 +89,8 @@ The original argument for charge quantization of the [[electromagnetic field]] i
 * {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72 ([doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short))
 
 Review:
+
+* [[Orlando Alvarez]], Section 2 of: _Topological quantization and cohomology_, Comm. Math. Phys. Volume 100, Number 2 (1985), 279-309 ([euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448))
 
 * {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press 2011 ([doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377))
 
