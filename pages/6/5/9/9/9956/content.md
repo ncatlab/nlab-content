@@ -29,6 +29,10 @@ About [[Ehlers transformation]] being the double copy of [[S-duality]] in [[clas
 
 * {#ABSP19} Rashid Alawadhi, [[David Berman]], Bill Spence, David Peinador Veiga, _S-duality and the Double Copy_ ([arXiv:1911.06797](https://arxiv.org/abs/1911.06797))
 
+On the [[classical double copy]] for [[D=11 supergravity]]:
+
+* [[David Berman]], Kwangeon Kim, Kanghoon Lee, _The Classical Double Copy for M-theory from a Kerr-Schild Ansatz for Exceptional Field Theory_ ([arXiv:2010.08255](https://arxiv.org/abs/2010.08255))
+
 
 ## Related $n$Lab entries
 
