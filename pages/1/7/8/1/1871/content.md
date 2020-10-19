@@ -162,6 +162,8 @@ Modern reviews of the basics
 
 * {#Donaldson06} [[Simon Donaldson]], _Gauge Theory: Mathematical Applications_, Encyclopedia of Mathematical Physics, Academic Press, Pages 468-481, 2006  ([doi:10.1016/B0-12-512666-2/00075-4](https://doi.org/10.1016/B0-12-512666-2/00075-4), [author pdf](http://wwwf.imperial.ac.uk/~skdona/EMP.PDF), [[DonaldsonGaugeTheory.pdf:file]])
 
+* [[Mikio Nakahara]], Section 10.5.4 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
 
 See also the references at _[[QCD]]_, _[[gauge theory]]_, _[[Yang-Mills monopole]]_, _[[Yang-Mills instanton]]_ and at _[[super Yang-Mills theory]]_.
 
