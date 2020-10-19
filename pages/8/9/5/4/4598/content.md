@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -119,6 +120,8 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 ## References
 
+### General
+
 Original accounts:
 
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
@@ -148,6 +151,16 @@ See also
 A brief introduction is in chapter 23, section 7 
 
 * [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
+### Relation to gravitational instantons
+
+First Pontrjagin class as counting [[gravitational instanton number]]:
+
+* {#EguchiFreund67} [[Tohru Eguchi]], [[Peter Freund]], _Quantum Gravity and World Topology_, Phys. Rev. Lett. 37, 1251 (1967) ([doi:10.1103/PhysRevLett.37.1251](https://doi.org/10.1103/PhysRevLett.37.1251))
+
+* {#BelavinBurlankov76} [[Alexander Belavin]], D. Burlankov, _The renormalisable theory of gravitation and the Einstein equations_, Physics Letters A Volume 58, Issue 1, 26 July 1976, Pages 7-8 (<a href="https://doi.org/10.1016/0375-9601(76)90530-2">doi:10.1016/0375-9601(76)90530-2</a>)
+
+* Serdar Nergiz, Cihan Saclioglum, equation (27) in: _A Quasiperiodic Gibbons--Hawking Metric and Spacetime Foam_, Phys. Rev. D 53, 2240 (1996) ([arXiv:hep-th/9505141](https://arxiv.org/abs/hep-th/9505141))
 
 
 [[!redirects Pontryagin classes]]
