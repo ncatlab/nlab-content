@@ -511,7 +511,7 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
   (on the early history of [[string theory]] up to the "first superstring revolution", the construction of the [[Green-Schwarz anomaly cancellation|Green-Schwarz-anomaly]]-free $SO(32)$ [[type I string theory]] and [[heterotic string]])
 
-* {#Schwarz96} [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996) ([arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067))
+* {#Schwarz96} [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996), in: Proceedings of _COSMION 96: 2nd International Conference on Cosmo Particle Physics_ Dedicated to the 75th Anniversary of Andrei D. Sakharov. Moscow 1996 ([arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067), [spire:969846](https://inspirehep.net/conferences/969846))
 
   (on the "second superstring revolution": the realization of [[D-branes]], [[dualities in string theory]] and [[M-theory]])
 
