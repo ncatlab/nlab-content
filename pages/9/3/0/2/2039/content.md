@@ -123,6 +123,12 @@ announced in
 
 * {#Bredon67a} [[Glen Bredon]], _Equivariant cohomology theories_, Bull. Amer. Math. Soc. Volume 73, Number 2 (1967), 266-268. ([educlid:1183528794](https://projecteuclid.org/euclid.bams/1183528794))
 
+Also
+
+* [[Sören Illman]], _Equivariant singular homology and cohomology_, Bull. Amer. Math. Soc. Volume 79, Number 1 (1973), 188-192 ([euclid:bams/1183534324](https://projecteuclid.org/euclid.bams/1183534324))
+
+
+
 Reviews include
 
 * {#Blumberg17} [[Andrew Blumberg]], section 1.4 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
@@ -171,5 +177,7 @@ Further remarks on this and on the [[twisted cohomology]]-version is in
 * Samik Basua, Debasis Sen, _Representing Bredon cohomology with local coefficients_, Journal of Pure and Applied Algebra Volume 219, Issue 9, September 2015, Pages 3992-4015 ([doi:10.1016/j.jpaa.2015.02.001](https://doi.org/10.1016/j.jpaa.2015.02.001))
 
 See also at _[[orbifold cohomology]]_.
+
+[[!redirects Bredon-Illman cohomology]]
 
 [[!redirects Bredon equivariant cohomology]]
