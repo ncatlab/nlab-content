@@ -385,7 +385,7 @@ is the corresponding $Spin^c$-structure.
 
 A canonical textbook reference is
 
-* H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Appendix D in: _[[Spin geometry]]_, Princeton University Press (1989)
 
 Other accounts include
 
@@ -394,6 +394,11 @@ Other accounts include
 * _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
 
 * [[Peter Teichner]], Elmar Vogt, _All 4-manifolds have $Spin^c$-structures_ ([pdf](http://people.mpim-bonn.mpg.de/teichner/Papers/spin.pdf))
+
+See also 
+
+* {#Gompf97} [[Robert Gompf]], _$Spin^c$ structures and homotopy equivalences_, Geom. Topol. 1 (1997) 41-50 ([arXiv:math/9705218](https://arxiv.org/abs/math/9705218))
+
 
 ### As $KU$-orientation/anomaly cancellation in type II string theory
 
