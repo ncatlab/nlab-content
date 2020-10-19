@@ -103,6 +103,9 @@ This is possible because $\mathbb{R}^2 - \{0\}$ is not [[simply connected topolo
 
 * L. Mangiarotti, [[Gennadi Sardanashvily]], section 6.6 of _Connections in Classical and Quantum Field Theory_, World Scientific, 2000
 
+* [[Mikio Nakahara]], Section 10.5.3 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+
 See also
 
 * Wikipedia, _[Aharonov-Bohm effect](https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect)_
