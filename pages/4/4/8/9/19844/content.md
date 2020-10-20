@@ -61,7 +61,7 @@ is essentially equal to 1. Any [[statistical significance|significant]] departur
 
 > graphics from [Altmannshofer 14](flavor+problem#Altmannshofer14)
 
-Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with indirect high-luminosity/high-precision [[experiments]] (see e.g. [AHRS 20](#AHRS20)), complementary to the traditional high-energy direct detection measurements.
+Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with indirect high-luminosity/high-[[precision experiment]] (see e.g. [Brambilla et al. 14, Section 5](#Brambilla14) [AHRS 20](#AHRS20)), complementary to the traditional high-energy direct detection measurements.
 
 Notice that the channel $R_K$ (eq:RKInIntroduction) is just one of many in which flavour anomalies may and have been seen. There are other decay channels of [[B-mesons]] and there are also flavour anomalies in decays of, for instance,  [[kaons]] ([Buras 16](kaon#Buras16), [Buras 18](kaon#Buras18)).
 
@@ -380,6 +380,11 @@ Comprehensive overview of the latest world-averaged results to be found at:
 
   * _[B decays to charm final states](https://hflav.web.cern.ch/content/b-hadron-decays-open-or-hidden-charm-hadrons)_
 
+Brief review from the point of view of [[non-perturbative effect|non-perturbative]] [[QCD]]:
+
+* {#Brambilla14} Brambilla et al., Section 5 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+
 ### Experimental results
 
 
@@ -674,7 +679,7 @@ _New physics in $b\to s \ell \ell$ decays with complex Wilson coefficients_ ([ar
 * N. Penalva, E. Hernández, J. Nieves, _$\bar B_c \to \eta_c$, $\bar B_c \to J/\psi$ and $\bar B \to D^{(\ast)}$ semileptonic decays including new physics_ ([arXiv:2007.12590](https://arxiv.org/abs/2007.12590))
 
 
-In relation to [[electroweak field|electroweak]] precision data:
+In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 
 * Lina Alasfar, Aleksandr Azatov, Jorge de Blas, Ayan Paul, Mauro Valli, _B anomalies under the lens of electroweak precision_ ([arXiv:2007.04400](https://arxiv.org/abs/2007.04400))
 
