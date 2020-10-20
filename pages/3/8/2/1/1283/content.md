@@ -469,6 +469,10 @@ Reviews are in
 
 * [[Michael Murray]], _An Introduction to Bundle Gerbes_, In: The Many Facets of Geometry, A Tribute to Nigel Hitchin, Edited by Oscar Garcia-Prada, Jean Pierre Bourguignon, [[Simon Salamon]], OUP, 2010. doi:[10.1093/acprof:oso/9780199534920.001.0001](http://dx.doi.org/10.1093/acprof:oso/9780199534920.001.0001), arXiv:[0712.1651](https://arxiv.org/abs/0712.1651)
 
+With emphasis on [[surface holonomy]]:
+
+* [[Jürgen Fuchs]], [[Thomas Nikolaus]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Bundle Gerbes and Surface Holonomy_ ([arXiv:0901.2085](https://arxiv.org/abs/0901.2085))
+
 Review with emphasis on bundle gerbes over [[Lie groups]]:
 
 * [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, In: KH. Neeb, A. Pianzola  (eds) _Developments and Trends in Infinite-Dimensional Lie Theory_, Progress in Mathematics, vol 288. Birkhäuser Boston 2011 ([arXiv:0710.5467](https://arxiv.org/abs/0710.5467), [doi:10.1007/978-0-8176-4741-4_10](https://doi.org/10.1007/978-0-8176-4741-4_10))
