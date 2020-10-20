@@ -32,6 +32,9 @@ Examples of quarkonia:
 
 * R. Faccini, A. Pilloni, A.D. Polosa, _Exotic Heavy Quarkonium Spectroscopy: A Mini-review_ ([arXiv:1209.0107](https://arxiv.org/abs/1209.0107))
 
+* {#Brambilla14} Brambilla et al., Section 4.3 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+
 * Zebo Tang, _Quarkonium production: An experimental overview_ ([arXiv:2002.10793](https://arxiv.org/abs/2002.10793))
 
 
