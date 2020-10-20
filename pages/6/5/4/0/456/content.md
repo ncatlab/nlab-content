@@ -33,7 +33,7 @@ every pair of functors with these properties comes uniquely from a continuous ma
 
 A _geometric morphism_ between arbitrary [[topos|topoi]] is the direct generalization of this situation.
 
-Another motivation of the concept comes from the the fact that a [[functor]] such as $f^*$ that preserves finite [[limits]] and arbitrary [[colimits]] (since it is a [[adjoint functor|left adjoint]]) necessarily preserves all constructions in [[geometric logic]].  See also [[classifying topos]].
+Another motivation of the concept comes from the fact that a [[functor]] such as $f^*$ that preserves finite [[limits]] and arbitrary [[colimits]] (since it is a [[adjoint functor|left adjoint]]) necessarily preserves all constructions in [[geometric logic]].  See also [[classifying topos]].
 
 
 ## Definition
