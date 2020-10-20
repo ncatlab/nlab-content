@@ -83,7 +83,7 @@ The resulting localization is equivalent to the bicategory of [[anafunctor|anafu
 
 * O. Abbad, [[Enrico Vitale|E. M. Vitale]], _Faithful Calculus of Fractions_ , Cah. Top. G&#233;om. Diff. Cat&#233;g. **54** No. 3 (2013) pp.221-239. ([preprint](perso.uclouvain.be/enrico.vitale/FrazioniFedeli.pdf))
 
-* [[Dorette A. Pronk]], _Etendues and stacks as bicategory of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
+* [[Dorette A. Pronk]], _Etendues and stacks as bicategories of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
 
 * {#Roberts12} [[David Roberts]], _Internal categories, anafunctors and localisations_, TAC **26** (2012) pp.788-829. ([pdf](http://www.tac.mta.ca/tac/volumes/26/29/26-29.pdf)) {#Roberts12}
 
@@ -93,4 +93,8 @@ The resulting localization is equivalent to the bicategory of [[anafunctor|anafu
 
 * M. Tommasini, _Some insights on bicategories of fractions II_ , arXiv:1410.5075 (2014). ([pdf](http://arxiv.org/pdf/1410.5075))
 
-* M. Tommasini, _Some insights on bicategories of fractions III_ , arXiv:1410.3995 (2014). ([pdf](http://arxiv.org/pdf/1410.6395))
+* M. Tommasini, _Some insights on bicategories of fractions III_ , arXiv:1410.6395 (2014). ([pdf](http://arxiv.org/pdf/1410.6395))
+
+[[!redirects bicategories of fractions]]
+[[!redirects bicategorical localization]]
+[[!redirects bicategorical localizations]]
