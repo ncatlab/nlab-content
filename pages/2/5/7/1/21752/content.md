@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[metric cone]] over [[complex projective 3-space]] carries the [[mathematical structure|structure]] of  a [[G2-manifold]] whose [[Riemannian metric]] is [[invariant]] under the canonical [[Sp(2)]] [[action]] by left-[[matrix multiplication]] on homomogeneous coordinates in $\mathbb{H}^2 \simeq_{\mathbb{R}} \mathbb{C}^4 \to \mathbb{C}P^3$ ([Byant-Salamon 89](#BryantSalamon89), see also [Acharya-Bryant-Salamon 20](#AcharyaBryantSalamon20)).
+The [[metric cone]] over [[complex projective 3-space]] carries the [[mathematical structure|structure]] of  a [[G2-manifold]] whose [[Riemannian metric]] is [[invariant]] under the canonical [[Sp(2)]] [[action]] by left-[[matrix multiplication]] on homomogeneous coordinates in $\mathbb{H}^2 \simeq_{\mathbb{R}} \mathbb{C}^4 \to \mathbb{C}P^3$ ([Bryant-Salamon 89](#BryantSalamon89), see also [Acharya-Bryant-Salamon 20](#AcharyaBryantSalamon20)).
 
 ## Related concepts
 
