@@ -285,7 +285,7 @@ All the long diagonal identifications of the standard [[diagram chasing lemmas]]
 +-- {: .num_remark #OmittingIntramuralMaps}
 ###### Remark
 
-Morever, it is useful to combine the extramural notation of remark \ref{ExtramuralMapsAsDiagonals} with the evident diagonal notation for the intramural maps, lemma \ref{Intramural}, which allow extramural maps to "enter at the receptor" and "exit at the donor" of a given entry in the double complex. Together these two notations yield for every piece of a [[double complex]] of the form
+Moreover, it is useful to combine the extramural notation of remark \ref{ExtramuralMapsAsDiagonals} with the evident diagonal notation for the intramural maps, lemma \ref{Intramural}, which allow extramural maps to "enter at the receptor" and "exit at the donor" of a given entry in the double complex. Together these two notations yield for every piece of a [[double complex]] of the form
 
 $$
   \array{
