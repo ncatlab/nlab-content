@@ -27,6 +27,9 @@ In [[particle physics]] and specifically within [[effective field theories]] suc
 
 Review:
 
+* {#Brambilla14} Brambilla et al., Section 3.2.5 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+
 * M. Kunkel, slide 6 of: _Dalitz Decays of Pseudo-Scalar Mesons_ ([[KunkelDalitzDecay.pdf:file]])
 
 See also 
