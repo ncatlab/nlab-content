@@ -41,7 +41,7 @@ $$
   S^3 \times S^1 \longrightarrow B G
 $$
 
-For the case $G = $ [[special unitary group|SU(2)]] $\simeq S^3$ and via the usual math/physics translation of terminology ([here](BPTS-instanton#FromTheMathsToThePhysicsStory)) this was first considered in [Harrington-Shepard 77, p. 3](#HarringtonShepard77), and baptized a "caloron"-configuration in [Harrington-Shepard 78, p. 1](#HarringtonShepard78).
+For the case $G = $ [[special unitary group|SU(2)]] $\simeq S^3$ and via the usual math/physics translation of terminology ([here](BPST-instanton#FromTheMathsToThePhysicsStory)) this was first considered in [Harrington-Shepard 77, p. 3](#HarringtonShepard77), and baptized a "caloron"-configuration in [Harrington-Shepard 78, p. 1](#HarringtonShepard78).
 
 A further refinement of the construction included the nonzero [[vacuum expectation value]] $\langle (A_4)^3\rangle$ of the "time" component of the [[vector potential]], called the _KvBLL caloron_ ([Kraan-van Baal 98a](#KraanVanBaal98a), [Kraan-van Baal 98b](#KraanVanBaal98b), [Lee-Lu 98](#LeeLu98)).
 
@@ -59,7 +59,7 @@ As part of a possible solution to the [[confinement]]/[[mass gap]]-problem:
 
 [Greensite 11, section 8.5](#Greensite11):
 
-> it is natural to wonder if [[confinement]] could be derived from some [[semiclassical approximation|semiclassical]] treatment of [[Yang–Mills theory]] based on the [[instanton]] solutions of [[nonabelian group|non-abelian]] [[gauge theories]]. The [[BPST instanton|standard]] [[instantons]], introduced by Belavin et al. ([40](BPTS-instanton#BelavinPolyakovSchwartzTyupkin75)), do not seem to work; their [[field strengths]] fall off too rapidly to produce the desired  magnetic  disorder in the vacuum.  
+> it is natural to wonder if [[confinement]] could be derived from some [[semiclassical approximation|semiclassical]] treatment of [[Yang–Mills theory]] based on the [[instanton]] solutions of [[nonabelian group|non-abelian]] [[gauge theories]]. The [[BPST instanton|standard]] [[instantons]], introduced by Belavin et al. ([40](BPST-instanton#BelavinPolyakovSchwartzTyupkin75)), do not seem to work; their [[field strengths]] fall off too rapidly to produce the desired  magnetic  disorder in the vacuum.  
 
 > In  recent  years,  however, it has been realized that instanton solutions at [[thermal field theory|finite temperature]], known as _calorons_, might do the job. These caloron solutions were introduced independently by Kraan and van Baal  ([41](#KraanVanBaal98), [42](#KraanVanBaal98b)) and Lee and Lu  ([43](#LeeLu98)) (KvBLL), and they have the remarkable property of containing [[monopole]] constituents which may, depending on the type of caloron, be widely separated.
 
@@ -69,7 +69,7 @@ As part of a possible solution to the [[confinement]]/[[mass gap]]-problem:
 
 ### Relation to heterotic string theory
 
-The _gauge solution_ of the [[NS5-brane]] in [[heterotic string theory]] contains a [[gauge field]] on the transverse space $\mathbb{R}^4$ which is a [[BPTS-instanton]]. Then, if we consider an array of [[NS5-brane]]s at fixed distance along the circle of a compactified transverse space $\mathbb{R}^3\times S^1$, we obtain a Harrington-Shepard [[caloron]] (see e.g. [SasYat16, pag.12](#Sasaki-Yata16)). If we send the radius to zero $R\rightarrow 0$ we obtain a smeared [[NS5-brane]] in [[heterotic string theory]].
+The _gauge solution_ of the [[NS5-brane]] in [[heterotic string theory]] contains a [[gauge field]] on the transverse space $\mathbb{R}^4$ which is a [[BPST-instanton]]. Then, if we consider an array of [[NS5-brane]]s at fixed distance along the circle of a compactified transverse space $\mathbb{R}^3\times S^1$, we obtain a Harrington-Shepard [[caloron]] (see e.g. [SasYat16, pag.12](#Sasaki-Yata16)). If we send the radius to zero $R\rightarrow 0$ we obtain a smeared [[NS5-brane]] in [[heterotic string theory]].
 
 ## History
 
