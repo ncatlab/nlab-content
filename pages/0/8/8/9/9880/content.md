@@ -202,6 +202,14 @@ In [[flavour anomalies]]:
 
 * {#Jegerlehner18b} [[Fred Jegerlehner]], _The Role of Mesons in Muon $g-2$_ ([arXiv:1809.07413](https://arxiv.org/abs/1809.07413))
 
+### In cosmology
+
+In [[cosmology]]:
+
+
+* Anna Ijjas, Frans Pretorius, [[Paul Steinhardt]], _Stability and the gauge problem in non-perturbative cosmology_,  Journal of Cosmology and Astroparticle Physics, Volume 2019, January 2019 ([arXiv:1809.07010](https://arxiv.org/abs/1809.07010), [doi:10.1088/1475-7516/2019/01/015](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/015))
+
+
 
 ### In string theory
 
