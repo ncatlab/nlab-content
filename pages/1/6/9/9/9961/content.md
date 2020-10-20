@@ -80,6 +80,9 @@ The concept was introduced in
 
 * {#PeetersZamaklar09} [[Kasper Peeters]], [[Marija Zamaklar]], section 5 of _Euclidean Field Theory_, Lecture notes 2009-2011 ([web](http://maths.dur.ac.uk/users/kasper.peeters/eft.html), [pdf](http://maths.dur.ac.uk/users/kasper.peeters/pdf/eft.pdf))
 
+* {#Brambilla14} Brambilla et al., Section 3.3.1 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+
 Visualization:
 
 * James Biddle et al. _Publicising Lattice Field Theory through Visualisation_ ([arXiv:1903.08308](https://arxiv.org/abs/1903.08308))
