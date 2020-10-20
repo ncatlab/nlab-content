@@ -234,7 +234,7 @@ The lift to [[M-theory]] as [[M5-MO9 brane bound states]] is due to [Strominger 
 
 ## Examples
 
-* In $SU(2)$-YM theory: see _[[BPTS instanton]]_ .
+* In $SU(2)$-YM theory: see _[[BPST instanton]]_ .
 
 * In $SU(3)$-YM theory, [[QCD]]/[[strong nuclear force]]: see _[[instanton in QCD]]_
 
@@ -299,7 +299,7 @@ Detailed argument for the [[theta-vacuum]] structure from [[chiral symmetry brea
 
 * G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
 
-The multi-instantons in $SU(2)$-Yang-Mills theory ([[BPTS instantons]]) were discovered in
+The multi-instantons in $SU(2)$-Yang-Mills theory ([[BPST instantons]]) were discovered in
 
 * A. A. Belavin, A.M. Polyakov, A.S. Schwartz, Yu.S. Tyupkin, _Pseudoparticle solutions of the Yang-Mills equations_, Phys. Lett. B 59 (1), 85-87 (1975) <a href="http://dx.doi.org/10.1016/0370-2693(75)90163-X">doi</a>
 
