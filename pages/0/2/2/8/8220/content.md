@@ -87,6 +87,10 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
+Emphasis of [[non-perturbative effects]]:
+
+* Anna Ijjas, Frans Pretorius, [[Paul Steinhardt]], _Stability and the gauge problem in non-perturbative cosmology_,  Journal of Cosmology and Astroparticle Physics, Volume 2019, January 2019 ([arXiv:1809.07010](https://arxiv.org/abs/1809.07010), [doi:10.1088/1475-7516/2019/01/015](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/015))
+
 
 ### In terms of AQFT on curved spacetimes
 
