@@ -92,7 +92,7 @@ For more see at _[Yang-Mills instanton -- SU(2)-instantons from the correct math
 
   * [[theta vacuum]]
 
-  * [[BPTS-instanton]]
+  * [[BPST-instanton]]
 
 * [[quantum tunneling]]
 
