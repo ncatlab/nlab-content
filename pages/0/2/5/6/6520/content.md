@@ -33,7 +33,7 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
   * [[instanton in QCD]]
 
-  * [[BPTS-instanton]]
+  * [[BPST-instanton]]
 
 * [[Coleman-De Luccia instanton]]
 
