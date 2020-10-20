@@ -523,6 +523,9 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * {#Guijosa16} Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
 
+* [[Mannque Rho]], [[Ismail Zahed]] (eds.) Chapter 4 of: _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+
 See also
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
