@@ -31,6 +31,9 @@ Surveys include
 
 * Gautam Bhattacharyya,  _A Pedagogical Review of Electroweak Symmetry Breaking Scenarios_, Rept. Prog. Phys. 74:026201, 2011 ([arXiv:0910.5095](https://arxiv.org/abs/0910.5095))
 
+* {#Brambilla14} Brambilla et al., Section 9.2. of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+  (in the context of [[holographic QCD]])
 
 
 * [[Antonio Pich]], _Electroweak Symmetry Breaking and the Higgs Boson_, [Acta Phys. Pol. B 47, 151](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=47&N=1#151) (2016) ([arXiv:1512.08749](https://arxiv.org/abs/1512.08749))
