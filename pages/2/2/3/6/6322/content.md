@@ -132,6 +132,10 @@ Rigorous construction as a [[perturbative quantum field theory]] via [[causal pe
 
 * {#Scharf01} [[Günter Scharf]], chapter 3 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
+Survey with emphasis on [[non-perturbative effects]]:
+
+* {#Brambilla14} Brambilla et al., _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
 
 
 Discussion of on-shell methods in QCD [[perturbation theory]] includes
