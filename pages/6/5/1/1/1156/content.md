@@ -39,15 +39,60 @@ on objects $c \in C$, where $j$ is the [[(∞,1)-Yoneda embedding]].
 Then an [[(∞,1)-presheaf]] $A \in PSh_{(\infty,1)}(C)$ is an **$(\infty,1)$-sheaf** if it is an $S$-[[local object]]. That is, if for all such $\eta$ the morphism
 
 $$
-  A(c) \simeq Psh_C(j(c),A) \stackrel{PSh_C(\eta,,A)}{\to}
+  A(c) \simeq PSh_C(j(c),A) \stackrel{PSh_C(\eta,A)}{\to}
   PSh(U,A)
 $$
 
-is an [[equivalence in a quasi-category|equivalence]].
+is an [[equivalence in a quasi-category|equivalence]]. For a presheaf $A : C^{\op} \to E$ with values in an arbitrary ∞-category, we say it is a sheaf iff $E(e, A(-))$ is a sheaf for every object $e$ of $E$.
 
-This is the analog of the ordinary sheaf condition. The [[∞-groupoid]] $PSh_C(U,A)$ is also called the [[descent]]-[[∞-groupoid]] of $A$ relative to the covering encoded by $U$.
+This is the analog of the ordinary sheaf condition for covering sieves. The [[∞-groupoid]] $PSh_C(U,A)$ is also called the [[descent]]-[[∞-groupoid]] of $A$ relative to the covering encoded by $U$.
 
+As in the 1-categorial case, the sheaf condition for a covering sieve can be translated into a condition on a covering family that generates it:
 
++-- {: .num_defn}
+###### Proposition
+
+Let $\{ u_i \to c \}$ be a family of morphisms of $C$ that generate the sieve corresponding to $\eta : U \hookrightarrow j(c)$, and let $r_\bullet : \mathbf{\Delta}^{\op} \to PSh_C$ be the [[groupoid object in an (infinity,1)-category#cech_nerves|Čech nerve]]
+of $\amalg_i j(u_i) \to j(c)$.
+Then a presheaf $A$ is local with respect to $\eta$ iff the induced map $A(c) \to \lim A(r_\bullet)$ is an equivalence.
+=--
+
+Thus, a presheaf $A$ is a sheaf iff every covering sieve contains
+a generating family satisfying this condition. Spelling out the description of the Čech nerve, the condition is that we have
+$$
+  A(c) \simeq \lim\left(
+  \prod_i A(u_i)
+  \stackrel{\to}{\to}
+  \prod_{i,j} PSh_C(j(u_i) \times_{j(c)} j(u_j), A)
+  \stackrel{\to}{\stackrel{\to}{\to}}
+  \cdots
+  \right)
+$$
+If $C$ has pullbacks, this simplifies to
+$$
+  A(c) \simeq \lim\left(
+  \prod_i A(u_i)
+  \stackrel{\to}{\to}
+  \prod_{i,j} A(u_i \times_c u_j)
+  \stackrel{\to}{\stackrel{\to}{\to}}
+  \cdots
+  \right)
+$$
+and furthermore this formulation applies to presheaves with values
+in an arbitrary ∞-category.
+
++-- {: .proof}
+###### Proof
+
+Taking colimits of Čech nerve computes $(-1)$-truncations in $(PSh_C)/j(X)$,
+so $\colim(r_\bullet)$ is the subobject of $j(c)$ corresponding
+to the sieve $\eta$. We have
+$$
+  PSh_C(\colim(r_\bullet), A) \simeq \lim PSh_C(r_\bullet, A)
+$$
+and so the theorem follows.
+
+=--
 
 
 ## Terminology
