@@ -29,7 +29,7 @@ For $G$ as in this equivalence, then the [[complex Lie group]] $G(\mathbb{C})$ i
 
 * Richard Pink, _Compact subgroups of linear algebraic groups_ ([pdf](http://www.math.ethz.ch/~pink/ftp/LastVersion.pdf))
 
-* {#Conrad10} [[Brian Conrad]], _[MO comment](http://mathoverflow.net/a/16269/381)_ 2010
+* {#Conrad10} [[Brian Conrad]], _[MO comment](https://mathoverflow.net/questions/6079/classification-of-compact-lie-groups/16269#16269)_ 2010
 
 
 [[!redirects relation between reductive algebraic groups and compact Lie groups]]
