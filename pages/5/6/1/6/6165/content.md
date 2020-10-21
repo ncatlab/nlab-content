@@ -9,6 +9,11 @@ Introducing the [[J-homomorphism]]:
 
 * {#Whitehead42} [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942) ([jstor:1968956](http://www.jstor.org/stable/1968956)).
 
+On [[homotopy theory]]:
+
+* [[George Whitehead]], _Elements of homotopy theory_, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+
+
 
 ## Related $n$Lab entries
 
@@ -19,6 +24,8 @@ Introducing the [[J-homomorphism]]:
 * [[stable homotopy category]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
+
+* [[Whitehead principle]]
 
 category: people
 
