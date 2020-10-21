@@ -1201,9 +1201,9 @@ A historical survey (of some aspects) is in
 
 * [[David Edwards]], Harold M. Hastings, _Cech Theory: Its past, present, and future_, Rocky Mountain J. Math. Volume 10, Number 3 (1980), 429-468. ([Euclid](http://projecteuclid.org/euclid.rmjm/1250128825))
 
-A motivational introdcuction from within [[complex analytic geometry]] is in 
+A motivational introduction from within [[complex analytic geometry]] is in 
 
-* Michael Weiss, _The Search for a Global Primitive -- Cech Cohomology with Coecients in a Sheaf_ ([pdf](http://files.meetup.com/4699592/cech-ipad.pdf))
+* Michael Weiss, _The Search for a Global Primitive -- Cech Cohomology with Coefficients in a Sheaf_ ([pdf](http://files.meetup.com/4699592/cech-ipad.pdf))
 
 A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Čech cover]] and [[hypercover]] is
 
