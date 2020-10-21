@@ -800,21 +800,22 @@ The traditional case of Postnikov towers in [[Top]] is a special case of this mo
 
 ## References
 
-A standard textbook reference is section 8 of 
+Textbook accounts:
 
-* [[Peter May]], _Simplicial methods in algebraic topology_  ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+* [[George Whitehead]], Chapter IV: _Elements of homotopy theory_, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
 
-and section VI of 
+* [[Peter May]], Section 8 of:  _Simplicial methods in algebraic topology_  ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), 1967)
 
-* {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_
-  
+* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], Section VI of: _[[Simplicial homotopy theory]]_, 1999
+ 
 
-
-Orginal references include
+The original articles:
 
 * [[M. M. Postnikov]], _Determination of the homology groups of a space by means of the homotopy invariants_, Doklady Akad. Nauk SSSR (N.S.) 76: 359&#8211;362 (1951)
 
-* [[George Whitehead]], _Elements of homotopy theory_, chapter 9
+* [[M. M. Postnikov]], _Issledovaniya po gomotopičeskoĭ teorii nepreryvnyh otobraženiĭ. I. Algebraičeskaya teoriya sistem. II. Naturalʹnaya sistema i gomotopičeskiĭ tip_. (Russian) $[$_Investigations in homotopy theory of continuous mappings. I. The algebraic theory of systems. II. The natural system and homotopy type._$]$ Trudy Mat. Inst. Steklov. no. 46. Izdat. Akad. Nauk SSSR, Moscow, 1955. ([mathnet:tm1182](http://mi.mathnet.ru/eng/tm1182))
+
+Early development:
 
 * Donald W. Kahn, _The spectral sequence of a Postnikov system_, Comm. Math. Helv. 40, n.1, 169--198, 1965 [doi](http://dx.doi.org/10.1007/BF02564370)
 
@@ -823,8 +824,7 @@ Orginal references include
 
 Probably the earliest treatment of Postnikov systems for [[simplicial sets]] is in
 
-* [[John Moore|J. C. Moore]], _Semisimplicial complexes and Postnikov systems_, Symposium Internacional
-de Topologia Algebraica, Mexico City, 1958, pp. 232-247,
+* [[John Moore|J. C. Moore]], _Semisimplicial complexes and Postnikov systems_, Symposium Internacional de Topologia Algebraica, Mexico City, 1958, pp. 232-247,
 
 and as a result, in that context, they are sometimes referred to as **Moore-Postnikov systems**
 
