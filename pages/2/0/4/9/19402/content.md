@@ -48,6 +48,7 @@ Then every [[smooth function|smooth]] [[action]] of $G$ on $X$ is [[proper actio
 
 (e.g. [Lee 12, Cor. 7.2](#Lee12))
 
+For more see at _[[equivariant differential topology]]_.
 
 ## Related concepts
 
@@ -67,7 +68,7 @@ For instance
 
 See also
 
-* Jack Lee, [MO comment](https://math.stackexchange.com/a/989168/58526), Oct 2014
+* [[John Lee|J. Lee]], [MO comment](https://math.stackexchange.com/a/989168/58526), Oct 2014
 
 
 [[!redirects proper actions]]
