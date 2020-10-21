@@ -130,17 +130,25 @@ The image of the Borel construction in [[rational homotopy theory]] is the [[Wei
   * [[equivariant de Rham cohomology]]
 
 
+
 ## References
 
-Review includes:
+Lecture notes in classical [[topology]]:
 
 * Stephen A. Mitchell, _Notes on principal bundles and classifying spaces_, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
+
+General statement in [[simplicial homotopy theory]] of [[simplicial presheaves]]:
+
+* [[J. F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0450/stacks3.pdf))
+
+
+* {#NSS12b} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Prop. 3.73 in: _Principal $\infty$-bundles -- Presentations_,  Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249), [doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4))
+
 
 The nature of the Borel construction as the geometric realization of the action groupoid is mentioned for instance in 
 
 * [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf))
 
-* [[Rick Jardine]], _Stacks and the homotopy theory of simplicial sheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0450/stacks3.pdf))
 
 [[!redirects Borel construction]]
 [[!redirects Borel constructions]]
