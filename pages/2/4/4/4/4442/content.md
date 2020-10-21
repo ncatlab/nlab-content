@@ -412,6 +412,9 @@ Further references include:
 
 * [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
 
+Via [[exceptional field theory]]:
+
+* Oscar Varela, _Super-Chern-Simons spectra from Exceptional Field Theory_ ([arXiv:2010.09743](https://arxiv.org/abs/2010.09743))
 
 ### Introductions and surveys
 
