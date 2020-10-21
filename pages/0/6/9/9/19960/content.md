@@ -1008,12 +1008,17 @@ Application to [[anomalous magnetic moment]] of the [[muon]]:
 
 
 
-### Application to Higgs field
+### Application to the Higgs field
   {#ReferencesApplicationToHiggsField}
 
-Application to [[Higgs field]]:
+Application to the [[Higgs field]]:
 
 * {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
+
+
+* Johanna Erdmenger, Nick Evans, Werner Porod, Konstantinos S. Rigatos, _Gauge/gravity dual dynamics for the strongly coupled sector of composite Higgs models_ ([arXiv:2010.10279](https://arxiv.org/abs/2010.10279))
+
+
 
 ### Application to $\theta$-angle axions and strong CP-problem
 
