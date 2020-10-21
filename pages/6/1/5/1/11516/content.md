@@ -140,7 +140,11 @@ See also
 
 ## References
 
-* {#Bredon72} [[Glen Bredon]], chapter II of _[[Introduction to compact transformation groups]]_, Academic Press  1972
+* {#Bredon72} [[Glen Bredon]], chapter II of: _[[Introduction to compact transformation groups]]_, Academic Press  1972
+
+
+* [[Tammo tom Dieck]], Chapter 8 in: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+
 
 * {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
 
