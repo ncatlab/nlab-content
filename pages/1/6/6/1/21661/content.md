@@ -69,6 +69,8 @@ See also:
 
 * [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], _The Moduli Space of Heterotic Line Bundle Models: a Case Study for the Tetra-Quadric_, 	JHEP03 (2014) 025 ([arXiv:1311.1941](https://arxiv.org/abs/1311.1941))
 
+* Magdalena Larfors, Davide Passaro, Robin Schneider, _Heterotic Line Bundle Models on Generalized Complete Intersection Calabi Yau Manifolds_ ([arXiv:2010.09763](https://arxiv.org/abs/2010.09763))
+
 
 Similar discussion in [[SemiSpin(32)]]-[[heterotic string theory]]:
 
