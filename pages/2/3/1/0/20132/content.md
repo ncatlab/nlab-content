@@ -37,11 +37,11 @@ The subject of _equivariant differential topology_ is the enhancement of results
 ###### Proposition
 **([[fixed loci]] of [[smooth function|smooth]] [[proper actions]] are [[submanifolds]])**
 
-Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
+Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]] (e.g. any smooth action if $G$ is [[compact Lie group|compact]], by [this Prop.](proper+action#SmoothActionOfCompactLieGroupOnSmoothManifoldIsProper)).
 
 Then the $G$-[[fixed locus]] $X^G \hookrightarrow X$ is a [[smooth manifold|smooth]] [[submanifold]].
 
-If in addition $X$ is equipped with a [[Riemannian metric]] and $G$ acts by [[isometries]] then the [[submanifold]] $X^G$ is a [[totally geodesic submanifold]].
+If in addition $X$ is equipped with a [[Riemannian metric]] and $G$ acts by [[isometries]], then the [[submanifold]] $X^G$ is a [[totally geodesic submanifold]].
 
 =--
 
