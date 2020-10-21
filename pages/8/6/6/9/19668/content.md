@@ -43,6 +43,8 @@ Chapter 4: Permutation representations
 
 [Chapter 8: Equivariant homotopy theory](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-homotopy.pdf)
 
+* [[G-space]]
+
 * [[equivariant homotopy theory]]
 
 * [[equivariant Hopf degree theorem]]
