@@ -26,6 +26,39 @@ Hence, with the pertinent conditions on the [[domain]] [[space]] $X$ satisfied, 
 
 ## Properties
 
+### Universal coefficient theorem
+
++-- {: .num_example #UniversalCoefficientTheoremInRationalCohomology}
+###### Example
+**([[universal coefficient theorem]] in [[rational cohomology]])**
+
+For [[rational numbers]]-[[coefficients]] $\mathbb{Q}$, the
+[[Ext groups]] $Ext^1(-;\mathbb{Q})$ vanish, and hence the [[universal coefficient theorem]] identifies [[rational cohomology]] [[cohomology groups|groups]] with the [[dual vector space]] of the [[rational vector space]] of rational [[homology groups]]:
+
+$$
+  H^\bullet
+  \big(
+    -; \, \mathbb{Q}
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  Hom_{\mathbb{Z}}
+  \Big(
+    H_\bullet\big(-;\,\mathbb{Q} \big);
+    \,
+    \mathbb{Q}
+  \Big)
+  \,.
+$$
+
+=--
+
+(e.g. [Moerman 15, Cor. 1.2.1](rational+homotopy+theory#Moerman15))
+
+
+### PL de Rham theorem
+
 * [[PL de Rham theorem]]
 
 ## Related concepts
