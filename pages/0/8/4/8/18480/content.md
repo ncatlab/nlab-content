@@ -397,7 +397,7 @@ and the axioms
 
 (not.par) if $a,a'\in A$ and if $a(0) = a'(0)$ and $a(1) = a'(1)$, then $a=a'$,
 
-(disjoint.interiors) if $a,a'\in A$ and ( $\exists t:[0,1]$, $0\lt t \lt 1$ and $\exists t':[0,1]$, $0 \lt t' \lt 1$ and $a(t)=a(t')$ ), then $a=a'$.
+(disjoint.interiors) if $a,a'\in A$ and ( $\exists t:[0,1]$, $0\lt t \lt 1$ and $\exists t':[0,1]$, $0 \lt t' \lt 1$ and $a(t)=a'(t')$ ), then $a=a'$.
 
 =--
 
