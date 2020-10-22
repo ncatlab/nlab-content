@@ -56,6 +56,17 @@ In constructive mathematics, for any flavor of _[[finite set|finite]]_, $\mathca
 
 =--
 
+### Universal properties
+
+$FinSet$ is the free category with finite coproducts on one object: that is, for any category $C$ with finite coproducts and any object $c \in C$ there is a functor $F : FinSet \to C$ preserving finite coproducts with $F(1) = c$, and $F$ is unique up to natural isomorphism.   
+
+$FinSet$ is also the free category with finite colimits on one object: that is, for any category $C$ with finite colimits and any object $c \in C$ there is a functor $F : FinSet \to C$ preserving finite colimits with $F(1) = c$, and $F$ is unique up to natural isomorphism.   
+
+$FinSet$ is also the free symmetric monoidal category on a commutative monoid object: that is, for any symmetric monoidal category $(C, \otimes)$ and any commutative monoid object $c \in C$ there is a symmetric monoidal functor $F : (FinSet,+) \to (C, \otimes)$ with $F(1) = c$, and $F$ is unique up to monoidal natural isomorphism.   
+
+The last fact is closely connected to this: $FinSet$, made symmetric monoidal using $+$, is equivalent to the [[PROP]] for commutative monoids.
+
+All these universal properties have useful duals.  For example, $FinSet^{op}$ is the free category with finite products on one object.
 
 ### In topos theory
 
