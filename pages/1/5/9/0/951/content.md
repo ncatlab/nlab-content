@@ -98,6 +98,8 @@ The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the mu
 
 * [[finite homotopy type]]
 
+* [[FinRel]]
+
 ## References
 
 * [[Steve Awodey]], _[Category Theory](http://www.andrew.cmu.edu/course/80-413-713/) -- lecture 7_ ([pdf](http://www.andrew.cmu.edu/course/80-413-713/notes/chap07.pdf))
