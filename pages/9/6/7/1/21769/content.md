@@ -31,7 +31,7 @@ This is conveniently expressed in the language of [[PROP]]s: $Mat(Bool)$ is the 
 
 ## References
 
-* Brandon Coya and [[Brendan Fong]], Theory and Applications of Categories, Vol. 32, 2017, No. 11, pp. 380-395.   ([arxiv](https://arxiv.org/abs/1601.02307))
+* Brandon Coya and [[Brendan Fong]], _Corelations are the prop for extraspecial commutative Frobenius monoids_, Theory and Applications of Categories, Vol. 32, 2017, No. 11, pp. 380-395.   ([arxiv](https://arxiv.org/abs/1601.02307))
 
 category: category
 
