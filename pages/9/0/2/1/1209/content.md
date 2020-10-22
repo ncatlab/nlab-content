@@ -31,16 +31,19 @@ In a [[symmetric monoidal category]], a __bimonoid__ (or __bimonoid object__) is
 <img src="/nlab/files/bimonoid-eq4.png" height="50" align="middle">
 </center>
 
-A bimonoid which additionally has an [[antipode]] (a map $s:B\to B$ satisfying an axiom that makes it act like "inverses" in a group) is called a [[Hopf monoid]]; a Hopf monoid in [[Vect]] is a [[Hopf algebra]].
+A bimonoid that additionally has an [[antipode]] (a map $s \colon B\to B$ satisfying an axiom that makes it act like "inverses" in a group) is called a **[[Hopf monoid]]**; a Hopf monoid in [[Vect]] is a [[Hopf algebra]].
+
+A bimonoid that is both a [[commutative monoid]] and a [[cocommutative comonoid]] is called **bicommutative**.
 
 ## Examples
 
 * A bimonoid in [[Vect]] (with its usual [[tensor product]]) is generally called a __[[bialgebra]]__.
 
-* In a category with [[biproducts]], with the biproduct as the monoidal product, every object is a bimonoid in a unique way ([Caf&#233; post](http://golem.ph.utexas.edu/category/2010/09/bimonoids_from_biproducts.html)).
+* In a category with [[biproducts]], with the biproduct as the monoidal product, every object is a bimonoid in a unique way ([Caf&#233; post](http://golem.ph.utexas.edu/category/2010/09/bimonoids_from_biproducts.html)).  This bimonoid is bicommutative.
 
-* More generally, in a [[cartesian monoidal category]], every monoid object is a bimonoid in a unique way, with comultiplication being the diagonal map.  Dually, every comonoid object in a cocartesian monoidal category is a bimonoid in a unique way.
+* More generally, in a [[cartesian monoidal category]], every monoid object is a bimonoid in a unique way, with comultiplication being the diagonal map.    Dually, every comonoid object in a cocartesian monoidal category is a bimonoid in a unique way.
 
+* A bimonoid is said to be **special** if comultiplication followed by multiplication is the identity.   The category [[Rel]] has biproducts so every object is a bicommutative bimonoid, but these bimonoids are also special.  The category [[FinRel]] is the free symmetric monoidal category on a special bicommutative bimonoid, namely $1$ with its diagonal as comultiplication and fold map as multiplication.
 
 ## Monoidal structure on modules
 {#MonoidalStructureOnModules}
@@ -95,6 +98,11 @@ In some of these generalized cases, one does not have a good notion of of antipo
 
 * [[Gabi Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806); _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lec. Notes in Pure and Appl. Math. __239__, Dekker, New York 2005; [math.QA/0301169](http://arxiv.org/abs/math.QA/0301169)
 
+The fact that a skeleton of [[FinRel]] is the [[PROP]] for special bicommutative bimonoids is Theorem 7.2 in Coya and Fong, based on techniques from Lack's paper on distributive laws for PROPs:
+
+* Brandon Coya and [[Brendan Fong]], _Corelations are the prop for extraspecial commutative Frobenius monoids_, Theory and Applications of Categories, Vol. 32, 2017, No. 11, pp. 380-395.   ([arxiv](https://arxiv.org/abs/1601.02307))
+
+* [[Steve Lack]], Composing PROPs, Theory and Applications of Categories 13(9):147–163, 2004. ([pdf](http://www.tac.mta.ca/tac/volumes/13/9/13-09.pdf))
 
 [[!redirects bimonoid]]
 [[!redirects bimonoids]]
