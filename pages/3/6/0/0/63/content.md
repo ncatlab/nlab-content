@@ -138,6 +138,12 @@ The perspective on the BRST complex as a formal dual to a space in [[dg-geometry
 
 For more along these lines see [[BV-BRST formalism]].
 
+In relation to [[equivariant de Rham cohomology]]:
+
+* {#Kalkman93} [[Jaap Kalkman]], _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132 (broken)](https://arxiv.org/abs/hep-th/9308132), [cds:9308132](http://cds.cern.ch/record/568522), [pdf](http://cds.cern.ch/record/568522/files/9308132.pdf))
+
+* [[Jaap Kalkman]], _BRST Model for Equivariant Cohomology and  Representatives for the Equivariant Thom Class_, Comm. Math. Phys. Volume 153, Number 3 (1993), 447-463. ([euclid:1104252784](http://projecteuclid.org/euclid.cmp/1104252784))
+
 ### History
 
 * [[Carlo Becchi]], _BRS "Symmetry", prehistory and history_ ([arXiv:1107.1070](https://arxiv.org/abs/1107.1070))
