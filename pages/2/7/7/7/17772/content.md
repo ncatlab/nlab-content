@@ -8,4 +8,4 @@ For Bottazzini's achievements see the Notices article
 
 * 2015 Whiteman Prize, Notices Amer. Math. Soc. [pdf](http://www.ams.org/notices/201504/rnoti-p431.pdf)
 
-category: people, history
+category: people
