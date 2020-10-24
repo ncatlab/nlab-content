@@ -53,4 +53,4 @@ In the _[[Science of Logic]]_ [[Hegel]] picks up this concept of  _[Something an
 * Wikipedia, _[Timaeus (dialogue)](https://en.wikipedia.org/wiki/Timaeus_(dialogue)_
 
 
-category: references
+category: reference
