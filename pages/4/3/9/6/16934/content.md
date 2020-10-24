@@ -55,7 +55,7 @@ See also
 
 * [[Michael Duff]], _[[The World in Eleven Dimensions]]_, 1999
 
-category: references
+category: reference
 
 [[!redirects String Theory Dynamics in Varioius Dimensions]]
 [[!redirects String theory dynamics in various dimensions]]
