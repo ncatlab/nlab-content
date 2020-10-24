@@ -56,6 +56,12 @@ In this vein, Thomason, Balmer, Garkusha and others considered instead tensor tr
 * {#Balmer02} [[Paul Balmer]], _Presheaves of triangulated categories and reconstruction of schemes_, Mathematische Annalen __324__:3 (2002), 557-580 [dvi](https://www.math.ucla.edu/~balmer/Pubfile/Reconstr.dvi), [pdf](https://www.math.ucla.edu/~balmer/Pubfile/Reconstr.pdf) [ps](https://www.math.ucla.edu/~balmer/Pubfile/Reconstr.ps); _The spectrum of prime ideals in tensor triangulated categories_, J. Reine Angew. Math. __588__:149&#8211;168, 2005 [](http://www.math.ucla.edu/~balmer/Pubfile/Spectrum.dvi) [pdf](http://www.math.ucla.edu/~balmer/Pubfile/Spectrum.pdf) [ps](http://www.math.ucla.edu/~balmer/Pubfile/Spectrum.ps); _Spectra, spectra, spectra - Tensor triangular spectra versus Zariski spectra of endomorphism rings_, Alg. and Geom. Topology __10__:3 (2010) 1521-1563 [dvi](http://www.math.ucla.edu/~balmer/Pubfile/SSS.dvi) [pdf](http://www.math.ucla.edu/~balmer/Pubfile/SSS.pdf) [ps](http://www.math.ucla.edu/~balmer/Pubfile/SSS.ps)
 * [[Grigory Garkusha]], M. Prest, _Reconstructing projective schemes from Serre subcategories_, J. Algebra __319__(3) (2008), 1132-1153, [pdf](http://www.swansea.ac.uk/media/garkpr44.pdf); _Triangulated categories and the Ziegler spectrum_, Algebras Repr. Theory 8 (2005), 499-523 [pdf](http://www.swansea.ac.uk/media/gark-pr2.pdf)
 
+* {#Balmer04} [[Paul Balmer]], _The spectrum of prime ideals in tensor triangulated categories_. J. Reine Angew. Math., 588:149&#8211;168, 2005 ([arXiv:math/0409360](http://arxiv.org/abs/math/0409360))
+
+* {#Balmer10} [[Paul Balmer]], _Spectra, spectra, spectra&#8212;tensor triangular spectra versus Zariski spectra of endomorphism rings_, Algebr. Geom. Topol., 10(3):1521&#8211;1563, 2010 ([pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/SSS.pdf))
+
+
+
 * [[Greg Stevenson]], _Tensor actions and locally complete intersection_ PhD thesis 2011 ([pdf](http://www.math.uni-bielefeld.de/~gstevens/Stevenson_thesis.pdf))
 
 
@@ -70,6 +76,11 @@ Further discussion in the context of [[2-algebraic geometry]] is in
 For the [[equivariant stable homotopy theory|equivariant stable homotopy category]]:
 
 * [[Paul Balmer]], [[Beren Sanders]], _The spectrum of the equivariant stable homotopy category of a finite group_ ([arXiv:1508.03969](http://arxiv.org/abs/1508.03969))
+
+In relation to [[Drinfeld centers]]:
+
+* Kent B. Vashaw, _Balmer spectra and Drinfeld centers_ ([arXiv:2010.11287](https://arxiv.org/abs/2010.11287))
+
 
 [[!redirects spectra of tensor triangulated categories]]
 
