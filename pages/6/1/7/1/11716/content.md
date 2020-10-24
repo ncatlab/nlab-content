@@ -151,8 +151,11 @@ This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97))
 
 * {#Balmer05} [[Paul Balmer]], _The spectrum of prime ideals in tensor triangulated categories, J. Reine Angew. Math., 588:149&#8211;168, 2005 ([arXiv:0409360](http://arxiv.org/abs/math/0409360))
 
-Review is for instance in 
+Review:
 
 * {#Stevenson11} [[Greg Stevenson]], _Tensor actions and locally complete intersection_ PhD thesis 2011 ([pdf](http://www.math.uni-bielefeld.de/~gstevens/Stevenson_thesis.pdf))
+
+* [[Paul Balmer]], _A guide to tensor-triangular classification_, in: [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1912.08963](https://arxiv.org/abs/1912.08963))
+
 
 [[!redirects tensor triangulated categories]]
