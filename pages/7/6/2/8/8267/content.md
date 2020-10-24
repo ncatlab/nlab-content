@@ -471,7 +471,7 @@ $$
 
 is an [[isomorphism]].
 
-Similarly if for a vertical morphism $\partial : A \to B$ we have $A^{vert} \simeq 0$ and $B^{vert} \simeq 0$, the induced extramural map 
+Similarly if for a vertical morphism $\partial : A \to B$ we have $A^{vert} = 0$ and $B^{vert} = 0$, the induced extramural map 
 
 $$
   \array{
