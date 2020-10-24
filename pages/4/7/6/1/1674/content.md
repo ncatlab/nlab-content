@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _Hartogs number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$.[^term]
+The _Hartogs number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$, up to isomorphism.[^term]
 
 [^term]: The spelling _Hartogs' number_, or even _Hartog's number_, is also in use. The latter based presumably on a misapprehension since the concept was originally proposed by the German mathematician Friedrich Hartogs (1874-1943) in 1915.
 
