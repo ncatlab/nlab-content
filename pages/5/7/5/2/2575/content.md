@@ -835,22 +835,22 @@ See also
 
 Discussion with emphasis on the [[symplectic structure]] on [[phase space]] and the expression of the [[Wilson lines]] by the [[orbit method]] is in
 
-* [[Anton Alekseev]], A. Z. Malkin, _Symplectic Geometry of the Chern-Simons theory_ ESI preprint 80 (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9821))
- {#AlekseevMalkin}
+* {#AlekseevMalkin} [[Anton Alekseev]], A. Z. Malkin, _Symplectic Geometry of the Chern-Simons theory_ ESI preprint 80 (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9821))
+ 
 
 A decent survey of the constructions within Chern-Simons theory is in 
 
-* R. K. Kaul, T. R. Govindarajan, P. Ramadevi, _Schwarz Type Topological Quantum Field Theories_ Encyclopedia of Mathematical Physics (2005) ([arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100))
+* R. K. Kaul, T. R. Govindarajan, P. Ramadevi, _Schwarz Type Topological Quantum Field Theories_, Encyclopedia of Mathematical Physics (2005) ([arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100))
 
 The [[covariant phase space]] of Chern-Simons theory with its [[presymplectic structure]] is originally discussed in section 5 of 
 
-* [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213%2886%2990298-1))
- {#Witten86}
+* {#Witten86} [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213%2886%2990298-1))
+ 
 
 (there in the context of [[string field theory]], but the manipulations of formulas is the same) and in section 3, example 2 of
 
-* [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
- {#Zuckerman}.
+* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
+ 
 
 A detailed discussion of the symplectic structure on the moduli space of flat connections is in 
 
@@ -1103,7 +1103,7 @@ Specifically on [[D8-branes]] in the context of [[geometric engineering of QFT|g
 
 and of [[2d QCD]] ([[AdS/QCD]]):
 
-* Ho-Ung Yee, Ismail Zahed, _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
+* Ho-Ung Yee, [[Ismail Zahed]], _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
 
 * Mitsutoshi Fujita, Charles M. Melby-Thompson, Rene Meyer, [[Shigeki Sugimoto]], _Holographic Chern-Simons Defects_, JHEP06 (2016) 163 ([arxiv:1601.00525](https://arxiv.org/abs/1601.00525))
 
