@@ -7,7 +7,7 @@
 
 On [[(∞,1)-category theory]] an [[homotopical algebra]]:
 
-* [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+* [[Denis-Charles Cisinski]], _Higher categories and homotopical algebra_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 
 ## Related $n$Lab entries
