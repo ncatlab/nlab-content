@@ -506,7 +506,7 @@ It is straightforward to check this directly on elements:
 It is sufficient to show that under the given assumptions both the [[kernel]] and the [[cokernel]] of the given map are trivial.
 We discuss the horizontal case. The proof of the vertical case is verbatim the same, only with the roles of $\partial^{vert}$ and $\partial^{hor}$ exchanged.
 
-  Suppose an element $[a] \in A_{\Box}$ is in the kernel of $\partial^{hor} : A_{\Box} \to {}^\Box B$. By definition of ${}^\Box B$ this means that there is $c$ such that  $\partial^{hor} \partial^{vert} c = \partial^{hor} a$, hence such that $\partial^{hor}(a- \partial^{vert} c) = 0$. By assumption that  $A^{hor} = 0$ this means that there is $d$ such that  $a - \partial^{vert} c = \partial^{hor} d$. But this means that $a \in im(\partial^{hor}) \oplus im(\partial^{vert})$ and hence $[a] = 0$ in $A_\Box$.
+  Suppose an element $[a] \in A_{\Box}$ is in the kernel of $\partial^{hor} : A_{\Box} \to {}^\Box B$. By definition of ${}^\Box B$ this means that there is $c$ such that  $\partial^{hor} \partial^{vert} c = \partial^{hor} a$, hence such that $\partial^{hor}(a- \partial^{vert} c) = 0$. By assumption that  $A^{hor} = 0$ this means that there is $d$ such that  $a - \partial^{vert} c = \partial^{hor} d$. But this means that $a \in im(\partial^{hor}) + im(\partial^{vert})$ and hence $[a] = 0$ in $A_\Box$.
 
   Conversely, consider $[b] \in {}^\Box B$. This means that $\partial^{vert}b = 0$ and $\partial^{hor} b = 0$. By $B^{hor} = 0$ the second condition means that there is $a$ such that $b = \partial^{hor} a$. 
 Moreover, this $a$ satisfies $\partial^{vert}\partial^{hor} a = \partial^{vert} b = 0$ by the first condition. Therefore $[a] \in A_{\Box}$ and $[b]$ is its image.
