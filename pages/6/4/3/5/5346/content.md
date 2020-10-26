@@ -25,25 +25,43 @@ The _model structure on simplicial groups_ is a presentation of the
 
 ## Definition
 
++-- {: .num_prop #ModelStructureOnSimplicialGroups} 
+###### Proposition
+
 There is a [[model category]] structure on the [[category]] $sGrp$ of [[simplicial group]]s where a morphism is
 
-* is a weak equivalence if the underlying morphism is a weak equivalence in the standard [[model structure on simplicial sets]];
+* is a [[weak equivalence]] if the underlying morphism is a weak equivalence in the standard [[model structure on simplicial sets]];
 
-* is a fibration if the underlying morphism is a [[Kan fibration]] of simplicial sets;
+* is a [[fibration]] if the underlying morphism is a [[Kan fibration]] of simplicial sets;
 
-* is a cofibration if it has the [[left lifting property]] with respect to all trivial fibrations.
+* is a [[cofibration]] if it has the [[left lifting property]] with respect to all trivial fibrations.
+
+=--
+
+([Quillen 67, II 3.7](#Quillen67), see also [Goerss-Jardine 99, V](#GoerssJardine99))
 
 ## Properties
 
-Forming loop space objects and classifying spaces provides a [[Quillen equivalence]]
++-- {: .num_prop #QuillenEquivalenceWithReducedSimplicialSets} 
+###### Proposition
+
+Forming [[simplicial loop space]] objects and classifying spaces gives a [[Quillen equivalence]]
 
 $$
-  (\Omega \dashv \bar W) : sGrp \stackrel{\overset{}{\leftarrow}}{\to}
+  \big(
+    \Omega \dashv \overline{W}
+  \big) 
+  \;\colon\; 
+  sGrp 
+   \stackrel{\overset{}{\longleftarrow}}{\longrightarrow}
   sSet_0
 $$
 
 with the [[model structure on reduced simplicial sets]].
 
+=--
+
+([Goerss-Jardine 99, Chapter V, Prop. 6.3](#GoerssJardine99))
 
 ## Related concepts
 
@@ -51,8 +69,11 @@ with the [[model structure on reduced simplicial sets]].
 
 ## References
 
-The general theory is in chapter V of
+The model structure on simplicial groups is due to
 
-* [[Paul Goerss]] and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* {#Quillen67} [[Daniel Quillen]], p. II 3.7 of: _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
-The Quillen equivalence is in proposition 6.3.
+Further discussion is in
+
+* {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]], chapter V of: _[[Simplicial homotopy theory]]_, number 174 in Progress in Mathematics, Birkhauser 1999
+
