@@ -72,7 +72,7 @@ $$
 
 the [[determinant line bundle]] for $G = SU(n)$  $det^{-k} H^\bullet(\Sigma, standard vector bundle)$
 
-Intense activity was generated in 1990s by the [[Verinde formula]] suggested by [[CFT]]
+Intense activity was generated in 1990s by the [[Verlinde formula]] suggested by [[CFT]]
 
 $$
  d = dim H^0 ( M_G(\Sigma), \mathcal{O}(k))
