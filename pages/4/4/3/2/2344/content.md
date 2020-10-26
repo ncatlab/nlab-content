@@ -461,7 +461,7 @@ Other references include:
 
 * {#IN16} Ioannis Lagkas-Nikolos, _Levelwise modules over separable monads on stable derivators_, [arXiv:1608.06340](https://arxiv.org/abs/1608.06340), 2016
  
-
+* {#Coley20} Coley, Ian, _The theory of half derivators_, [arxiv:2010.12057](https://arxiv.org/abs/2010.12057), 2020
 
 [[!redirects derivators]]
 [[!redirects prederivator]]
