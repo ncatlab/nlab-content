@@ -28,6 +28,14 @@ The generalization of this construction to non-reduced simplicial sets and [[sim
 * {#Kan58} [[Daniel Kan]], _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53
 
 
-* [[Peter May]], chapter VI of _Simplicial objects in algebraic topology_, Van Nostrand, Princeton (1967)
+* [[Peter May]], chapter VI of _Simplicial objects in algebraic topology_, Van Nostrand, Princeton (1967) ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+
+More details and relation to [[décalage]]:
+
+* [[Danny Stevenson]], _Décalage and Kan's simplicial loop group functor_, Theory and Applications of Categories, Vol. 26, 2012, No. 28, pp 768-787 ([arXiv:1112.0474](https://arxiv.org/abs/1112.0474), [tac:26-28](http://www.tac.mta.ca/tac/volumes/26/28/26-28abs.html))
+
 
 [[!redirects simplicial loop spaces]]
+
+[[!redirects simplicial loop group]]
+[[!redirects simplicial loop groups]]
