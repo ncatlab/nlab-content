@@ -162,7 +162,7 @@ If $E$ is a [[Grothendieck topos]] with enough points (def. \ref{EnoughPoints}),
 
 =--
 
-This appears as ([Johnstone, lemma 2.2.11, 2.2.12](#Johnstone)).
+This appears as ([Johnstone, Lemma C2.2.11, C2.2.12](#Johnstone)).
 
 (In general, of course, a topos can have a proper class of non-isomorphic points.)
 
