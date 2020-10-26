@@ -1087,7 +1087,7 @@ both rows are [[exact sequence|exact]], then there is a [[long exact sequence]]
 
 $$
   ker(f) \to ker(g) \to ker(h) 
-   \stackrel{\partial}{\to}
+   \stackrel{\delta}{\to}
   coker(f) \to coker(g) \to coker(h)
 $$
 
