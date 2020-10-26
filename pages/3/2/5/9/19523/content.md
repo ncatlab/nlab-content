@@ -42,7 +42,7 @@ Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15
 References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Colin-Mohayaee-Rameez-Sarkar 19b](#ColinMoymhayeeRamezSarkar19),
  [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
 
-Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension is in [Bolejko 17](#Bolejko17).
+Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension is in [Bolejko 17](#Bolejko17), [Sikora-Glod 20](#SikoraGlod20)
 
 From [Koksbang 19, p. 3](#Koksbang19):
 
@@ -84,7 +84,7 @@ rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
 
 > Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
 
-A survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues, as of 2016, is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
+A survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues, as of 2016, is in [Belejko-Korzyński 16](#BelejkoKorzynski16). More recent survey of the field and the prevailing attitude is in [Sikora-Glod 20, Section 1](#SikoraGlod20).
 
 
 A similar conclusion is reached in [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
@@ -388,7 +388,13 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#LinMackHou19} Weikang Lin, Katherine J. Mack, Liqiang Hou, _Investigating the Hubble Constant Tension -- Two Numbers in the Standard Cosmological Model_ ([arXiv:1910.02978](https://arxiv.org/abs/1910.02978))
 
-* {#HeinesenBuchert20} Asta Heinesen, [[Thomas Buchert]], _Solving the curvature and Hubble parameter inconsistencies through structure formation-induced curvature_ ([arXiv:2002.10831](https://arxiv.org/abs/2002.10831))
+* Léo Brunswic, [[Thomas Buchert]], _Gauss-Bonnet-Chern approach to the averaged Universe_, Class. Quantum Grav. 37 (2020) 215022 ([arXiv:2002.08336](https://arxiv.org/abs/2002.08336))
+
+
+* {#HeinesenBuchert20} Asta Heinesen, [[Thomas Buchert]], _Solving the curvature and Hubble parameter inconsistencies through structure formation-induced curvature_, Class. Quantum Grav. 37 (2020) 164001 ([arXiv:2002.10831](https://arxiv.org/abs/2002.10831))
+
+* {#SikoraGlod20} Szymon Sikora, Krzysztof Głód, _Construction of the cosmological model with periodically distributed inhomogeneities with growing amplitude_ ([arXiv:2005.06385](https://arxiv.org/abs/2005.06385))
+
 
 
 
