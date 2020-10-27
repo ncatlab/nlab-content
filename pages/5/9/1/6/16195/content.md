@@ -84,10 +84,15 @@ $$
 
 * [[near-horizon geometry]]
 
+* [[meter]], [[micrometer]], [[nanometer]], [[femtometer]]
+
+
 [[!include fundamental scales -- contents]]
 
 
 ## References
+
+The notion was introduced in:
 
 * {#Planck99} [[Max Planck]], _Über irreversible Strahlungsvorgänge_, Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin. 5: 440–480. pp. 478–80, 1899, ([10.1002/andp.19003060105](http://onlinelibrary.wiley.com/doi/10.1002/andp.19003060105/abstract))
 
