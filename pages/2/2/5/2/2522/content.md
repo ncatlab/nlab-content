@@ -1100,14 +1100,15 @@ and for superconformal symmetry:
 
 Results on the classification of supersymmetry [[super Lie algebras]] (including higher dimensions and conformal/de Sitter supersymmetry) includes
 
-* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire:120988](https://inspirehep.net/record/120988), <a href="https://doi.org/10.1016/0550-3213(78)90218-3">doi:10.1016/0550-3213(78)90218-3</a>)
 
-* {#Shnider88} [[Steven Shnider]], _The superconformal algebra in higher dimensions_, Letters in Mathematical Physics November 1988, Volume 16, Issue 4, pp 377-383
+  also in: [[Mike Duff]] (ed.), _[[The World in Eleven Dimensions]]_
+
+* {#Shnider88} [[Steven Shnider]], _The superconformal algebra in higher dimensions_, Letters in Mathematical Physics November 1988, Volume 16, Issue 4, pp 377-383 ([doi:10.1007/BF00402046](https://doi.org/10.1007/BF00402046))
 
 * [[Vladimir Dobrev]],  V.B. Petkova,  _All Positive Energy Unitary Irreducible Representations of Extended Conformal Supersymmetry_, Phys.Lett. B162 (1985) 127-132
 
-* {#Minwalla98} [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quantum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
-([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)).
+* {#Minwalla98} [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quantum field theories_, Adv. Theor. Math. Phys. 2, 781 (1998) ([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074), [doi:10.4310/ATMP.1998.v2.n4.a4]( https://dx.doi.org/10.4310/ATMP.1998.v2.n4.a4))
 
 * [[Riccardo D'Auria]], [[Sergio Ferrara]], M. A. Lled&#243;, [[Veeravalli Varadarajan]], _Spinor Algebras_, J.Geom.Phys. 40 (2001) 101-128 ([arXiv:hep-th/0010124](http://arxiv.org/abs/hep-th/0010124))
 
