@@ -38,10 +38,10 @@ Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monop
 
 (For the moment the following is all about the KK-monopoles in [[11d supergravity]]/[[M-theory]].)
 
-### Near-horizon geometry
+### Far-horizon geometry
  {#NearHorizonGeometry}
 
-We discuss the [[near horizon geometry]] of coincident MK6-branes.
+We discuss the [[far horizon geometry]] of coincident MK6-branes.
 
 The [[metric tensor]] of $N$ coincident [[KK-monopoles]] in [[11-dimensional supergravity]] in the limit that $\ell_{th} \coloneqq N \ell_P \to 0$ is
 
