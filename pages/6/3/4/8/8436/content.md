@@ -48,6 +48,8 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 * [[Josephson effect]]
 
+* [[mesoscopic physics]]
+
 * [[high energy physics]], [[nuclear physics]]
 
 ## References
