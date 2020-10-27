@@ -9,12 +9,12 @@
 =--
 =--
 
-In macroscopic [[thermodynamics|thermodynamic]] systems one deals with a large number of microscopic particles. The number of particles is, for 'human sized' systems (e.g. engines, rooms), roughly on the order of the _Avogadro constant_ (or 'Avogadro\'s number' in historical usage). This constant is used as a scaling factor between macroscopic and microscopic observations.
+In macroscopic [[thermodynamics|thermodynamic]] systems one deals with a large [[number]] of microscopic particles. The number of particles is, for 'human sized' systems (e.g. engines, rooms), roughly on the order of the _Avogadro constant_ (or 'Avogadro\'s number' in historical usage). This constant is used as a scaling factor between macroscopic and microscopic observations.
 
-More precisely, **Avogadro's number** is defined as the number of [[atom]]s in $0.012$ [[kg]] of the [[carbon]] [[isotope]] $\mathrm{C}^12$. This is roughly the [[real number]]
+More precisely, **Avogadro's number** is defined as the number of [[atoms]] in $0.012$ [[kg]] of the [[carbon]] [[isotope]] $\mathrm{C}^12$. This is roughly the [[real number]]
 
 $$
-  6.02214179(30) \times 10^{23} \in \mathbb{R}
+  6.02214179(30) \times 10^{23} \;\in\; \mathbb{R}
   \,.
 $$
 
