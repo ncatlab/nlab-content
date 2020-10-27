@@ -584,6 +584,9 @@ See also:
 * Shintaro Takayoshi, Jianda Wu, Takashi Oka, _Twisted Schwinger Effect: Pair Creation in Rotating Fields_ ([arXiv:2005.01755](https://arxiv.org/abs/2005.01755))
 
 
+* Prasant Samantray, Suprit Singh, _Schwinger Effect in Compact Space_ ([arXiv:2010.13453](https://arxiv.org/abs/2010.13453))
+
+
 
 
 
