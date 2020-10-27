@@ -207,6 +207,7 @@ $$
 
 * [[gravitational instanton]]
 
+
 ## References
 
 ### In 5d gravity
@@ -234,15 +235,15 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 #### Original articles
 
-* {#HanKoh85} Seung Kee Han, I.G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([spire](http://inspirehep.net/record/204521/?ln=en))
+* {#HanKoh85} Seung Kee Han, I. G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([doi:10.1103/PhysRevD.31.2503](https://doi.org/10.1103/PhysRevD.31.2503), [spire:204521](http://inspirehep.net/record/204521))
 
-* {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187,1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+* {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
-* {#Sen97a} [[Ashoke Sen]], _Kaluza-Klein Dyons in String Theory_, Phys.Rev.Lett.79:1619-1621,1997 ([arXiv:hep-th/9705212](http://arxiv.org/abs/hep-th/9705212))
+* {#Sen97a} [[Ashoke Sen]], _Kaluza-Klein Dyons in String Theory_, Phys. Rev. Lett. 79:1619-1621, 1997 ([arXiv:hep-th/9705212](http://arxiv.org/abs/hep-th/9705212))
 
-* {#Sen97b} [[Ashoke Sen]], _Dynamics of Multiple Kaluza-Klein Monopoles in M- and String Theory_, Adv.Theor.Math.Phys.1:115-126, 1998 ([arXiv:hep-th/9707042](https://arxiv.org/abs/hep-th/9707042))
+* {#Sen97b} [[Ashoke Sen]], _Dynamics of Multiple Kaluza-Klein Monopoles in M- and String Theory_, Adv. Theor. Math. Phys. 1:115-126, 1998 ([arXiv:hep-th/9707042](https://arxiv.org/abs/hep-th/9707042))
 
 * {#Sen97c} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
