@@ -36,8 +36,7 @@ See at _[[division algebra and supersymmetry]]_.
 
 ## References
 
-* [[John Baez]], The octonions, section 1.1: Preliminaries,
-_Bull. Amer. Math. Soc._ **39** (2002), 145-205.   ([web](http://www.ams.org/journals/bull/2002-39-02/S0273-0979-01-00934-X/home.html))
+* [[John Baez]], The octonions, section 1.1: Preliminaries, _Bull. Amer. Math. Soc._ **39** (2002), 145-205.   ([web](http://www.ams.org/journals/bull/2002-39-02/S0273-0979-01-00934-X/home.html))
 ([website version](http://math.ucr.edu/home/baez/octonions/node2.html))
 
 
