@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+Introducing [[Kaluza-Klein monopoles]]:
+
+* {#GrossPerry83} [[David Gross]], [[Malcolm Perry]], _Magnetic Monopoles in Kaluza-Klein Theories_  Nucl. Phys. B226 (1983) 29 (<a href="https://doi.org/10.1016/0550-3213(83)90462-5">doi:10.1016/0550-3213(83)90462-5</a>)
+
 
 Introducing [[heterotic string theory]]:
 
