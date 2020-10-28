@@ -36,8 +36,13 @@ See at _[[division algebra and supersymmetry]]_.
 
 ## References
 
-* [[John Baez]], The octonions, section 1.1: Preliminaries, _Bull. Amer. Math. Soc._ **39** (2002), 145-205.   ([web](http://www.ams.org/journals/bull/2002-39-02/S0273-0979-01-00934-X/home.html))
-([website version](http://math.ucr.edu/home/baez/octonions/node2.html))
+See also
+
+* [[eom]], _[Division algebra](https://encyclopediaofmath.org/wiki/Division_algebra)_
+
+* Wikipedia, _[Division algebra](https://en.m.wikipedia.org/wiki/Division_algebra)_
+
+* [[John Baez]], Section 1.1 _Preliminaries_ In: _The octonions_, _Bull. Amer. Math. Soc._ **39** (2002), 145-205.   ([doi:10.1090/S0273-0979-01-00934-X](https://doi.org/10.1090/S0273-0979-01-00934-X), [website](http://math.ucr.edu/home/baez/octonions/node2.html))
 
 
 
