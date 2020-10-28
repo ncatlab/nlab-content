@@ -103,13 +103,13 @@ For instance in the categories [[Ring]] or [[CRing]] as in example \ref{Epimorph
 +-- {: .num_prop}
 ###### Proposition
 
-The following are equivalent
+The following are equivalent:
 
 * $f : x \to y$ is an epimorphism in $C$;
 
 * $f$ is a [[monomorphism]] in the [[opposite category]] $C^{op}$;
 
-* for all $d$, $Hom(f,d)$ is a [[monomorphism]] in [[Set]] -- an [[injection]];
+* postcomposition with $f$ is a monomorphism in [[Set]]: that is, for all $c \in C$, $f \circ - : Hom(c,x) \to Hom(c,y)$ is an [[injection]];
 
 * the [[commuting diagram]] 
   $$
@@ -179,18 +179,14 @@ Let $h_1,h_2 : b \to c$ be two morphisms such that $\stackrel{g}{\to} \stackrel{
 +-- {: .num_prop}
 ###### Proposition
 
-Epimorphisms are preserved by any [[left adjoint]] [[functor]], or more generally any functor that preserves [[pushouts]]:
-
-if $F : C \to D$ is a [[functor]] that preserves pushouts and $f \in Mor(C)$ an epimorphism then $F(f) \in Mor(D)$ is an epimorphism.
+Epimorphisms are preserved by any [[left adjoint]] [[functor]], or more generally any functor that preserves [[pushouts]]: if $F : C \to D$ is a [[functor]] that preserves pushouts and $f \in Mor(C)$ an epimorphism then $F(f) \in Mor(D)$ is an epimorphism.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-If $F : C \to D$ is a left adjoint we can argue this way:
-
-By the [[adjunction]] [[natural isomorphism]] we have for all $d \in Obj(D)$
+If $F : C \to D$ is a left adjoint we can argue this way: by the [[adjunction]] [[natural isomorphism]] we have for all $d \in Obj(D)$
 
 $$
   Hom_D(L(f),d) \simeq Hom_C(f,R(d))
@@ -230,6 +226,25 @@ Let $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ be a [[faithful functor]].
 So consider morphisms $g,h \colon y \longrightarrow z$ such that $g \circ f = h \circ f$. We need to show that this implies that already $g = h$ (injectivity of $Hom(f,z)$). But functoriality implies that $F(g)\circ F(f) = F(h) \circ F(f)$, and since $F(f)$ is epic this implies that $F(g) = F(h)$. Now the statement follows with the assumption that $F$ is faithful, hence [[injection|injective]] on morphisms.
 
 =--
+
+Epimorphisms get along with colimits in a number of ways, some of which are listed above.   Here is another:
+
++-- {: .num_prop}
+###### Proposition
+
+Any morphism from an initial object is an epimorphism.  The coproduct of epimorphisms is an epimorphism.
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first suppose $0 \in C$ is initial and $f : x \to 0$.  Given morphisms $g,h: 0 \to y$ with $g \circ f = h \circ f$ we have $g = h$ simply because $0$ is initial.  
+
+For the second suppose $f_1 : x_1 \to y_1$ and $f_2 : x_2 \to y_2$ are epimorphisms; we wish to show that $f_1 + f_2 : x_1+x_2 \to y_1 + y_2$ is an epimorphism.   Suppose we have morphisms $g, h: y_1+y_2 \to z$ with $g \circ (f_1+f_2) = h \circ (f_1 + f_2)$.   Then $g \circ i_1 \circ f_1 = h \circ i_1 \circ f_1$ where $i_1 : x_1 \to x_1 + x_2$ is the canonical map into the coproduct.  Since $f_1$ is epic we conclude $g \circ i_1 = h \circ i_1$.  Similarly we have $g \circ i_2 = h \circ i_2$.  If follows that $g = h$.  
+=--
+
+Epimorphisms do not get along quite as well with limits.  For example, the unique morphism to the terminal object is not always an epimorphism (though this is true in $Set$), and the projections from a product onto one of the factors, e.g. $p_1 : x_1 \times x_2 \to x_1$, is not an always an epimorphism (even in $Set$).
+
 
 ## Variations {#Variations}
 
