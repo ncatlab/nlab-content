@@ -838,6 +838,9 @@ explanations via assumption of [[Z'-bosons]]:
 * [[Ben Allanach]], _$U(1)_{B_3-L_2}$ Explanation of the Neutral Current $B$−Anomalies_ ([arXiv:2009.02197](https://arxiv.org/abs/2009.02197))
  
 
+* [[Andreas Crivellin]], Claudio Andreas Manzari, Marcel Alguero, Joaquim Matias, _Combined Explanation of the $Z \to b \bar b$ Forward-Backward Asymmetry, the Cabibbo Angle Anomaly, $\tau \to \mu \nu \nu$ and $b \to s \ell^+ \ell^-$ Data_ ([arXiv:2010.14504](https://arxiv.org/abs/2010.14504))
+
+
 
 #### Dark matter
  {#ReferencesDarkMatter}
