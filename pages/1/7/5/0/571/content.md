@@ -90,7 +90,7 @@ We list the following properties without their (easy) proofs. The proofs can be 
 
 The following are equivalent:
 
-* $f : x \to y$ is an monmorphism in $C$;
+* $f : x \to y$ is an monomorphism in $C$;
 
 * $f$ is an [[epimorphism]] in the [[opposite category]] $C^{op}$;
 
@@ -107,7 +107,7 @@ The following are equivalent:
     }
   $$
 
-  is a [[pushout]] diagram.
+  is a [[pullback]] diagram.
 
 =--
 
@@ -150,7 +150,6 @@ Monomorphisms are preserved by any [[right adjoint]] [[functor]], or more genera
 
 =--
 
-The reason is that that a monomorphism is a morphism $f: X \to Y$ whose pullback along itself is $X$.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -159,6 +158,16 @@ Monomorphisms are [[reflected limit|reflected]] by [[faithful functors]].
 
 =--
 
+Monomorphisms get along with limits in a number of ways, some of which are listed above.   Here is another:
+
+
++-- {: .num_prop}
+###### Proposition
+
+Any morphism from a terminal object is a monomorphism.  The product of monomorphisms is an monomorphism.
+=--
+
+Monomorphisms do not get along quite as well with colimits.  For example, the unique morphism from the initial object is not always an monomorphism, and the canonical maps from a summand into a coproduct, e.g. $i_1 : x_1 \to x_1 \oplus x_2$, is not an always a monomorphism (though both these hold in $Set$).
 
 
 ## Variations
