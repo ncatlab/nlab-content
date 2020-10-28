@@ -135,10 +135,9 @@ Now consider the [[tensor product of algebras|tensor product of]] [[dgc-algebras
   \,.
 \]
 
-On this consider the following joint [[Cartan calculus]] operations: for each fKalbasis element $t_a$ (eq:LinearBasisForG) a graded [[derivation]] of degree -1 (contraction)
+On this consider the following joint [[Cartan calculus]] operations: for each basis element $t_a$ (eq:LinearBasisForG) a graded [[derivation]] of degree -1 (contraction)
 
-\[
-  \label{WeilModelContractionOperation}
+\[ \label{WeilModelContractionOperation}
   \iota_a
   \;\colon\;
   \Big(
