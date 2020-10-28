@@ -901,7 +901,13 @@ based on the [[simplicial de Rham complex]]
 
 * {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
 
-see also
+Review with emphasis on localization formulas:
+
+* [[Vasily Pestun]], _Review of localization in geometry_ ([arXiv:1608.02954](https://arxiv.org/abs/1608.02954)), chapter in: [[Vasily Pestun]], [[Maxim Zabzine]] (eds.) _Localization techniques in quantum field theories_,  J. Phys. A: Math. Theor. 50 440301, 2017 ([doi:10.1088/1751-8121/aa63c1](https://iopscience.iop.org/article/10.1088/1751-8121/aa63c1), [arXiv:1608.02952](https://arxiv.org/abs/1608.02952), [full pdf](http://pestun.ihes.fr/pages/LocalizationReview/LocQFT.pdf))
+
+
+
+See also
 
 * Hugo Garcia-Compean, Pablo Paniagua, [[Bernardo Uribe]], _Equivariant extensions of differential forms for non-compact Lie groups_ ([arXiv:1304.3226](https://arxiv.org/abs/1304.3226))
 
