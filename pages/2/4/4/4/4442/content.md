@@ -604,44 +604,35 @@ The fact that this Chern-Simons term is in fact a _nonabelian_ [[higher dimensio
 
 * {#DLM} [[Michael Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_ ([arXiv:hep-th/9506126](http://arxiv.org/abs/hep-th/9506126))
   
-
 but seems not to be noted explicitly in the context of $AdS_7/CFT_6$ before the references
 
 * H. L&#252;, Yi Pang, _Seven-Dimensional Gravity with Topological Terms_ Phys.Rev.D81:085016 (2010) ([arXiv:1001.0042](http://arxiv.org/abs/1001.0042))
 
 * {#LuWang} H. Lu, Zhao-Long Wang, _On M-Theory Embedding of Topologically Massive Gravity_ Int.J.Mod.Phys.D19:1197 (2010) ([arXiv:1001.2349](http://arxiv.org/abs/1001.2349))
-  
-
-There is in fact one more quantization condition to be taken into account. 
-
-Discussion of this nonabeloan [[7d Chern-Simons theory]] terms as a [[local prequantum field theory]] is in 
-
-* {#FSS12a} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|Multiple M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_, Advances in Theoretical and Mathematical Physics (2014) ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277))
-
-and a corresponding non-perturbative discussion of the [[supergravity C-field]] that enters this Lagrangian is given in 
-
-{#FSS12b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
-
-Up to the further twists discussed there, this means that the gauge group of the effective 7d theory is some contraction of the [[Spin group]] $Spin(10,1)$. The asymptotic AdS condition suggests maybe that it should be $Spin(6,2)$.
-
-In fact, in 
-
-* {#SezginSundell} [[Ergin Sezgin]], P. Sundell, _Massless Higher Spins and Holography_ ([hep-th/0205131](http://arxiv.org/abs/hep-th/0205131))
- 
-
-arguments are given that the 7d theory is a [[higher spin gauge theory]] extension of $SO(6,2)$.
 
 More on the relation between the [[M5-brane]] and supergravity on $AdS_7 \times S^4$ and arguments for the $SO(5)$ [[R-symmetry]] group on the 6d theory from the 7d theory are given in 
 
-* [[Alexei Nurmagambetov]], I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
+* [[Alexei Nurmagambetov]], I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_, Phys. Lett. B524 (2002) 185-191 ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
 
 See also 
 
-* M. Nishimura, Y. Tanii, _Local Symmetries in the AdS_7/CFT_6 Correspondence_, Mod. Phys. Lett. A14 (1999) 2709-2720 ([arXiv:hep-th/9910192](http://arxiv.org/abs/hep-th/9910192))
+* M. Nishimura, Y. Tanii, _Local Symmetries in the $AdS_7/CFT_6$ Correspondence_, Mod. Phys. Lett. A14 (1999) 2709-2720 ([arXiv:hep-th/9910192](http://arxiv.org/abs/hep-th/9910192))
 
-An explicit relalization of the [[Green-Schwarz action functional]] of the [[M5-brane]] as a boundary field theory to the fermionic Chern-Simons term in the [[11-dimensional supergravity]] action functional is given in 
+  
+Discussion of the $CFT_6$ in $AdS_7/CFT_6$ via [[conformal bootstrap]]:
 
-* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+* [[Shai Chester]], [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+
+* [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
+
+
+
+
+In 
+
+* {#SezginSundell} [[Ergin Sezgin]], P. Sundell, _Massless Higher Spins and Holography_ ([hep-th/0205131](http://arxiv.org/abs/hep-th/0205131))
+ 
+arguments are given that the 7d theory is a [[higher spin gauge theory]] extension of $SO(6,2)$.
 
 
 ### Generalization beyond exact AdS / exact CFT
