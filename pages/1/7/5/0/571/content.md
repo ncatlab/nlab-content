@@ -84,6 +84,34 @@ For instance in the categories [[Ring]] or [[CRing]], then the defining inclusio
 
 We list the following properties without their (easy) proof. The proofs can be found spelled out (dually) at [[epimorphism]].
 
+
++-- {: .num_prop}
+###### Proposition
+
+The following are equivalent
+
+* $f : x \to y$ is an monmorphism in $C$;
+
+* $f$ is an [[epimorphism]] in the [[opposite category]] $C^{op}$;
+
+* for all $z$, $Hom(z,f)$ is a [[monomorphism]] in [[Set]] -- an [[injection]];
+
+* the [[commuting diagram]] 
+  $$
+    \array{
+      x &\stackrel{Id}{\to}& x
+      \\
+      {}^{Id}\downarrow && \downarrow^{f}
+     \\
+     x &\underset{f}{\to}& y
+    }
+  $$
+
+  is a [[pushout]] diagram.
+
+=--
+
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -118,9 +146,11 @@ Monomorphisms are preserved by [[pullback]].
 +-- {: .num_prop}
 ###### Proposition
 
-Monomorphisms are preserved by [[right adjoint]] [[functors]].
+Monomorphisms are preserved by any [[right adjoint]] [[functor]], or more generally any functors that preserves pullbacks.
 
 =--
+
+The reason is that that a monomorphism is a morphism $f: X \to Y$ whose pullback along itself is $X$.
 
 +-- {: .num_prop}
 ###### Proposition
