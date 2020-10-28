@@ -179,16 +179,16 @@ Let $h_1,h_2 : b \to c$ be two morphisms such that $\stackrel{g}{\to} \stackrel{
 +-- {: .num_prop}
 ###### Proposition
 
-Epimorphisms are preserved by [[left adjoint]] [[functor]]s:
+Epimorphisms are preserved by any [[left adjoint]] [[functor]], or more generally any functor that preserves [[pushouts]]:
 
-if $F : C \to D$ is a [[functor]] which is [[left adjoint]] then for $f \in Mor(C)$ an epimorphism also $F(f) \in Mor(D)$ is an epimorphism
+if $F : C \to D$ is a [[functor]] that preserves pushouts and $f \in Mor(C)$ an epimorphism then $F(f) \in Mor(D)$ is an epimorphism.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-One argument is this:
+If $F : C \to D$ is a left adjoint we can argue this way:
 
 By the [[adjunction]] [[natural isomorphism]] we have for all $d \in Obj(D)$
 
@@ -199,19 +199,19 @@ $$
 
 The right hand is a monomorphism by assumption, hence so is the left hand, hence $L(f)$ is epi.
 
-Another argument is this: use that by the above $f$ is epic precisely if
+If $F$ merely preserves pushouts we can use the fact that $f$ is epic iff
 
 $$
-  \array{
-    & \stackrel{f}{\to} &
-    \\
-    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Id}}
-    \\
-    & \underset{Id}{\to} & 
-  }
-$$
+    \array{
+      x &\stackrel{f}{\to}& y
+      \\
+      {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Id}}
+     \\
+     y &\underset{Id}{\to}& y
+    }
+  $$
 
-is a [[pushout]] diagram and observe that left adjoint functors preserve pushouts (and of course [[identity|identities]]).
+is a [[pushout]] diagram.
 
 =--
 
