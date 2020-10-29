@@ -206,3 +206,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
 ## References
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+
+
+[[!redirects fundamental theorem of dgc-algebraic rational homotopy theory]]
+
