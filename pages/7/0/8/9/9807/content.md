@@ -845,7 +845,39 @@ A generalization of the [[equivariant de Rham theorem]] to non-[[compact Lie gro
 
 =--
 
+
+### Cartan map
+  {#CartanMap}
+
+If the [[G-space|G-manifold]] $X$ has a [[free action]], hence is the total space $X = P$ of a $G$-[[principal bundle]] $P \to B$, then the _Cartan map_ (or _Cartan's map_ or similar) is a [[quasi-isomorphism]] from the [[Cartan model]] for the [[equivariant de Rham cohomology]] of $X = P$ to the ordinary [[de Rham complex]] model for the ordinary [[de Rham cohomology]] of the base manifold $B$
+
+$$
+  \array{
+    \big(
+    \Omega_{dR}^\bullet(P)
+      \otimes
+    CE(\mathfrak{g})
+    \big)G
+    &
+    \overset{}{\longrightarrow}
+    &
+    \Omega^\bullet_{dR}(X)
+    \\
+    \omega \otimes \langle - \rangle
+    &
+    \mapsto
+    &
+    \omega_{hor} \otimes \langle F_\nabla\rangle
+  }
+$$
+
+given by choosing an [[Ehresmann connection]] $\nabla$ on $P \to B$ and inserting its [[curvature form]] into the [[invariant polynomials]] $\langle-\rangle$ (essentially the [[Chern-Weil homomorphism]]).
+
+([Guillemin-Sternberg 99, Chapter 5](#GuilleminSternberg99), [Albin-Melrose 09, Theorem 11.1](#AlbinMelrose09))
+
 \linebreak
+
+
 
 
 
@@ -906,6 +938,9 @@ Review with emphasis on [[equivariant localization]] formulas:
 
 * [[Vasily Pestun]], _Review of localization in geometry_ ([arXiv:1608.02954](https://arxiv.org/abs/1608.02954)), chapter in: [[Vasily Pestun]], [[Maxim Zabzine]] (eds.) _Localization techniques in quantum field theories_,  J. Phys. A: Math. Theor. 50 440301, 2017 ([doi:10.1088/1751-8121/aa63c1](https://iopscience.iop.org/article/10.1088/1751-8121/aa63c1), [arXiv:1608.02952](https://arxiv.org/abs/1608.02952), [full pdf](http://pestun.ihes.fr/pages/LocalizationReview/LocQFT.pdf))
 
+Discussion in relation to [[resolution of singularities]]:
+
+* {#AlbinMelrose09} Pierre Albin, [[Richard Melrose]], _Equivariant cohomology and resolution_ ([arXiv:0907.3211](https://arxiv.org/abs/0907.3211))
 
 
 See also
