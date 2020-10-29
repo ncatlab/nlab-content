@@ -1110,8 +1110,6 @@ $$
     \to A \otimes_k A \otimes_k A 
     \stackrel{\partial}{\to}
     A \otimes_k A
-    \stackrel{\partial}{\to}
-    A
   )
 $$
 
