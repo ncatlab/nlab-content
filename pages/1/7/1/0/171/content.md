@@ -8,6 +8,12 @@ The key facts used here are that the category of crossed complexes is monoidal c
 
 Notice that by other work of Brown and Higgins, crossed complexes are equivalent to [[strict omega-groupoid|strict globular omega-groupoids]], and also to strict cubical omega-groupoids with connections. In fact the monoidal closed structure on crossed complexes can be deduced from that on strict cubical omega-groupoids. 
 
+## Related entries
+
+* [[model structure]]
+
+* [[crossed complex]]
+
 See also
 
 * Ronald Brown, [[Philip J. Higgins]], and [[Rafael Sivera]], _[[Nonabelian algebraic topology]]: filtered spaces, crossed complexes, cubical homotopy groupoids_, EMS Tracts in Mathematics Vol 15, (2011). 
