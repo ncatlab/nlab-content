@@ -146,6 +146,8 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 * [[Sullivan model of classifying space]]
 
+* [[Cartan's map]] in [[equivariant de Rham cohomology]]
+
 * [[Cheeger-Simons homomorphism]]
 
 ## References
