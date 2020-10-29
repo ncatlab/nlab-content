@@ -848,6 +848,8 @@ then also the first row is exact.
 +-- {: .proof}
 ###### Proof
 
+We can extend the middle and right columns by adding the cokernel of $B \to B''$ below $B''$, and $C'' \to 0$ below C''.  It's straightforward to check that the resulting diagram is still a complex, and we now have vertical exactness at $B''$.  Note that we may not have vertical exactness at $C''$, nor exactness in the bottom row containing the cokernel, but we don't need those.
+
 Exactness in $A'$ and $B'$ is as in prop. \ref{ShortSharp3x3}.
 For exactness in $C'$ we now use the long [[zigzag]] of 
 intramural isomorphisms, cor \ref{ExtramuralIso}. 
@@ -877,7 +879,7 @@ $$
   \,,
 $$
 
-So ${C'}^{hor} \simeq C_{\Box}$ by the intramural iso, then $\dots \simeq A''_\Box$ by this zigzag of extramural isos, and this finally $\cdots \simeq {A''}^{hor} \simeq 0$ by another intramural iso and by assumption.
+So ${C'}^{hor} \simeq C_{\Box}$ by the intramural iso, then $\dots \simeq A''_\Box$ by this zigzag of extramural isos (this is where we need vertical exactness at $B''$), and finally $\cdots \simeq {A''}^{hor} \simeq 0$ by another intramural iso and by assumption.
 
 =--
 
