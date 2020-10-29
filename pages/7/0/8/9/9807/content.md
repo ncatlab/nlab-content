@@ -846,22 +846,32 @@ A generalization of the [[equivariant de Rham theorem]] to non-[[compact Lie gro
 =--
 
 
-### Cartan map
+### Cartan's map
   {#CartanMap}
 
-If the [[G-space|G-manifold]] $X$ has a [[free action]], hence is the total space $X = P$ of a $G$-[[principal bundle]] $P \to B$, then the _Cartan map_ (or _Cartan's map_ or similar) is a [[quasi-isomorphism]] from the [[Cartan model]] for the [[equivariant de Rham cohomology]] of $X = P$ to the ordinary [[de Rham complex]] model for the ordinary [[de Rham cohomology]] of the base manifold $B$
+If the [[G-space|G-manifold]] $X$ has a [[free action]], hence is the total space $X = P$ of a $G$-[[principal bundle]] $P \to B$, then the _Cartan map_ (or _[[Cartan's map]]_ or similar) is a [[quasi-isomorphism]] from the [[Cartan model]] for the [[equivariant de Rham cohomology]] of $X = P$ to the ordinary [[de Rham complex]] model for the ordinary [[de Rham cohomology]] of the base manifold $B$
 
 $$
   \array{
-    \big(
-    \Omega_{dR}^\bullet(P)
-      \otimes
-    CE(\mathfrak{g})
-    \big)G
+    \bigg(
+       \Big(
+         \Omega^\bullet\big(P \big)
+         \otimes
+         \mathbb{R}\big[ \{r^a\}_a \big] 
+       \Big)^G
+       \,,\,
+       d_{dR} + r^a \iota_{v^a}
+    \bigg)
     &
-    \overset{}{\longrightarrow}
+    \overset{
+       \simeq_{qi}
+    }{\longrightarrow}
     &
-    \Omega^\bullet_{dR}(X)
+    \Big(
+      \Omega^\bullet_{dR}(B),
+      \,
+      d_{dR}
+    \Big)
     \\
     \omega \otimes \langle - \rangle
     &
