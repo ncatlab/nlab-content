@@ -90,6 +90,8 @@ A full proof is due to [Guillemin-Sternberg 99, Chapter 5](#GuilleminSternberg99
 
 ## References
 
+### In equivariant de Rham cohomology
+
 Due to [[Henri Cartan]]. Proof appears in
 
 * {#GuilleminSternberg99} [[Victor Guillemin]], [[Shlomo Sternberg]], _Supersymmetry and equivariant de Rham theory_, Springer, (1999) ([doi:10.1007/978-3-662-03992-2](https://link.springer.com/book/10.1007/978-3-662-03992-2))
@@ -100,4 +102,6 @@ Review in:
 
 * {#AlbinMelrose09} Pierre Albin, [[Richard Melrose]], _Equivariant cohomology and resolution_ ([arXiv:0907.3211](https://arxiv.org/abs/0907.3211))
 
+
+[[!include Chern-Weil homomorphism -- references]]
 
