@@ -70,10 +70,7 @@ There is also the full [[automorphism ∞-Lie algebra]] of any [[dg-algebra]], w
 
 ## References
 
-Original articles by Cartan are
-
-* [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibr&#233; principal_ ,  Colloque de topologie (espaces fibr&#233;s), Bruxelles, 1950, pp. 57&#8211;71. Georges Thone, Li&#232;ge;
-Masson et Cie., Paris, (1951).
+Named after [[Élie Cartan]].
 
 For the closely related Cartan model of [[equivariant de Rham cohomology]] see the references [there](equivariant+de+Rham+cohomology#References).
 
