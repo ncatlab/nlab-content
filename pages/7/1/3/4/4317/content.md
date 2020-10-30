@@ -73,7 +73,7 @@ In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct
 Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the [[initial object|initial]] symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here; see [[2-limit]].  In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, up to an [[equivalence]] which is itself unique up to an [[isomorphism]] which is actually unique (up to [[equality]]).
 =--
 
-This conjecture has been established in ([Elgueta 20](#Elg20)). See also ([Cole-Delpeuch-Hedges, Sec. 8](#CDH)).
+This conjecture has been established in ([Elgueta 20](#Elg20)). See also ([Comfort-Delpeuch-Hedges, Sec. 8](#CDH)).
 
 ## Related concepts
 
@@ -116,7 +116,7 @@ where these categories are called _ring categories_. Discussion with an eye towa
 
 A [[string diagram]] treatment of rig categories via _sheet diagrams_ is in
 
-* {#CDH} Cole Comfort, Antonin Delpeuch, Jules Hedges, _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
+* {#CDH} Cole Comfort, Antonin Delpeuch, [[Jules Hedges]], _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
 
 Biinitiality of the groupoid of finite sets is shown in 
 
