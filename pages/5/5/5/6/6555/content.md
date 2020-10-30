@@ -74,4 +74,9 @@ and discussed in more detail for instance in
 * {#Tseytlin06} [[Arkady Tseytlin]], _On sigma model RG flow, "central charge" action and Perelman's entropy_, Phys.Rev.D75:064024,2007 ([arXiv:hep-th/0612296](http://arxiv.org/abs/hep-th/0612296))
 
 See also at _[string theory -- References -- Fields medal work related to string theory](string+theory#FieldMedalWork)_.
+
+See also
+
+* Alexander Frenkel, Petr Horava, Stephen Randall, _Topological Quantum Gravity of the Ricci Flow_ ([arXiv:2010.15369](https://arxiv.org/abs/2010.15369))
+
  
