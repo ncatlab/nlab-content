@@ -177,6 +177,8 @@ $$
 
 ## Related concepts
 
+* [[characteristic differential form]]
+
 * [[universal characteristic class]], [[universal characteristic map]];
 
 * [[differential characteristic class]]
