@@ -4,6 +4,14 @@ Father of [[Henri Cartan]].
 
 * wikipedia [en](http://en.wikipedia.org/wiki/%C3%89lie_Cartan), [fr](http://fr.wikipedia.org/wiki/%C3%89lie_Cartan), [ru](http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%D0%BD,_%D0%AD%D0%BB%D0%B8_%D0%96%D0%BE%D0%B7%D0%B5%D1%84)
 * wikipedia  [integrability conditions for  differential systems](http://en.wikipedia.org/wiki/Integrability_conditions_for_differential_systems)
+
+## Related $n$Lab entries
+
+* [[Cartan calculus]]
+
+* [[Cartan's magic formula]]
+
+
 [[!redirects Elie Cartan]]
 [[!redirects É. Cartan]]
 
