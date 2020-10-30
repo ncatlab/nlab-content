@@ -41,6 +41,9 @@ See also
 
 * George Jorjadze, [[Stefan Theisen]], _Canonical maps and integrability in $T \bar T$ deformed 2d CFTs_ ([arXiv:2001.03563](https://arxiv.org/abs/2001.03563))
 
+* [[John Cardy]], Benjamin Doyon, _$T \bar T$deformations and the width of fundamental particles_ ([arXiv:2010.15733](https://arxiv.org/abs/2010.15733))
+
+
 
 ### In $AdS_3/CFT_2$
 
