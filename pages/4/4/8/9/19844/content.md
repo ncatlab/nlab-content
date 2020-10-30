@@ -69,7 +69,7 @@ is essentially equal to 1. Any [[statistical significance|significant]] departur
 
 Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with indirect high-luminosity/high-[[precision experiment]] (see e.g. [Brambilla et al. 14, Section 5](#Brambilla14) [AHRS 20](#AHRS20)), complementary to the traditional high-energy direct detection measurements.
 
-Notice that the channel $R_K$ (eq:RKInIntroduction) is just one of many in which flavour anomalies may and have been seen. There are other decay channels of [[B-mesons]] and there are also flavour anomalies in decays of, for instance,  [[kaons]] ([Buras 16](kaon#Buras16), [Buras 18](kaon#Buras18)).
+Notice that the channel $R_K$ (eq:RKInIntroduction) is just one of many in which flavour anomalies may and have been seen. There are other decay channels of [[B-mesons]], and there are also flavour anomalies in decays of, for instance,  [[kaons]] ([Buras 16](kaon#Buras16), [Buras 18](kaon#Buras18)).
 
 See [Alonso 19](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
 
@@ -184,6 +184,15 @@ From [Crivellin-Mueller-Saturnino 20a](#CrivellinMuellerSaturnino20a) (where "LQ
   "CrivellinEtAl.jpg",
   "width": 500
 \end{imagefromfile}
+
+Also, the flavour anomaly appears consistently at $\geq 3 \sigma$ in new decay channels:
+
+\begin{imagefromfile}
+  "file_name": "Gerick20FlavourAnomaly.jpg",
+  "width": 570,
+  "caption": "from [Gerick 20](#Gerick20)"
+\end{imagefromfile}
+
 
 \linebreak
 
@@ -446,6 +455,8 @@ Brief review from the point of view of [[non-perturbative effect|non-perturbativ
 * {#LHCb200304831} [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_, Phys. Rev. Lett. 125, 011802 ([cds:2712641](http://cds.cern.ch/record/2712641), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831), [doi:10.1103/PhysRevLett.125.011802](https://doi.org/10.1103/PhysRevLett.125.011802))
 
 * [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0\to K^{\ast 0} \mu^+ \mu^-$ decay_ ([spire:1784890](https://inspirehep.net/literature/1784890), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
+
+* {#Gerick20} David Gerick on behalf of the [[LHCb collaboration]], _Rare Decays at LHCb:  recent results_, talk at _[Implications of LHCb measurements and future prospects](https://indico.cern.ch/event/857473/)_, October 2020 ([pdf](https://indico.cern.ch/event/857473/contributions/4060371/attachments/2133689/3593528/Implications2020_LHCbRareDecays_DavidGerick.pdf))
 
 
 ### Review and outlook
