@@ -920,7 +920,7 @@ $$
 all rows except possibly the first $X_{\bullet, n}$ as well as all columns except possibly the first $X_{n,\bullet}$ are [[exact sequence|exact]], then the homology groups of the first row equal those of the first column in that
 
 $$
-  \forall k : X_{k,0}^{hor} \simeq X_{0,k}^{vert}
+  \forall k : X_{k,n}^{hor} \simeq X_{n,k}^{vert}
   \,.
 $$
 
@@ -1020,7 +1020,6 @@ $$
     \\
     && 0 && 0
   }
-  \,.
 $$
 
 such that
