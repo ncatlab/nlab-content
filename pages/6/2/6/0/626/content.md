@@ -123,7 +123,7 @@ There are many additional structures on monoidal categories, or similar structur
 
 * Proof nets for [[classical mathematics|classical]] [[linear logic]] similarly give string diagrams for [[*-autonomous categories]], or more generally [[linearly distributive categories]]; see [Blute-Cockett-Seely-Trimble](#BCST).
 
-* _Sheet diagrams_, string diagrams drawn on a branching surface, may be used for [[rig categories]], see [Cole-Delpeuch-Hedges](#CDH).
+* _Sheet diagrams_, string diagrams drawn on a branching surface, may be used for [[rig categories]], see [Comfort-Delpeuch-Hedges](#CDH).
 
 See also [Selinger 09](#Selinger09).
 
@@ -378,7 +378,7 @@ See also at _[[opetopic type theory]]_.
 
 Discussion of sheet diagrams for [[rig categories]] is in
 
-* {#CDH} Cole Comfort, Antonin Delpeuch, Jules Hedges, _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
+* {#CDH} Cole Comfort, Antonin Delpeuch, [[Jules Hedges]], _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
 
 
 ### Software
