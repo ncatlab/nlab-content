@@ -62,7 +62,7 @@ The idea is due to
 
 * {#Awodey09} [[Steve Awodey]], _Homotopy and Type Theory_, grant proposal project description ([pdf](https://ncatlab.org/homotopytypetheory/files/proposal2009.pdf))
 
-* {#Awodey10} [[Steve Awodey]], _Type theory and homotopy_, Epistemology versus Ontology. Springer Netherlands, 2012. 183-201. (2010) [arXiv:1010.1810](http://arxiv.org/abs/1010.1810)
+* {#Awodey10} [[Steve Awodey]], _Type theory and homotopy_, p. 183-201 in: Dybjer P., Lindström S., Palmgren E., Sundholm G. (eds.),  _Epistemology versus Ontology_, Springer 2012  ([arXiv:1010.1810](http://arxiv.org/abs/1010.1810), [doi:10.1007/978-94-007-4435-6_9](https://doi.org/10.1007/978-94-007-4435-6_9))
 
 A pronounced statement of the weaker version was highlighted in
 
