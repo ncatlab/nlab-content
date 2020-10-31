@@ -639,7 +639,7 @@ More is in
 
 See also
 
-* [[Kiran Luecke]], _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
+* Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
 
 ### Relation to $\infty$-line bundles
 
