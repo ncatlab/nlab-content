@@ -637,6 +637,10 @@ More is in
 
 * {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
 
+See also
+
+* [[Kiran Luecke]], _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
+
 ### Relation to $\infty$-line bundles
 
 * {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004)) 
