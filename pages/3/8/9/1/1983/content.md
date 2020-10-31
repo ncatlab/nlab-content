@@ -15,9 +15,15 @@
 
 This entry is about the book
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _Models for Smooth Infinitesimal Analysis_ Springer (1991)
+* [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]]:
 
-about models of [[smooth topos]]es for [[synthetic differential geometry]] that have a [[full and faithful functor|full and faithful]] embedding of the [[category]] [[Diff]] of smooth [[manifold]]s.
+  _Models for Smooth Infinitesimal Analysis_ 
+
+  Springer (1991)
+
+  [doi:10.1007/978-1-4757-4143-8](https://link.springer.com/book/10.1007/978-1-4757-4143-8)
+
+about models of [[smooth toposes]] for [[synthetic differential geometry]] that have a [[full and faithful functor|full and faithful]] embedding of the [[category]] [[Diff]] of smooth [[manifold]]s.
 
 #Contents#
 * table of contents
