@@ -193,7 +193,7 @@ If the [[superstring]] in question is the [[heterotic string]] then generally th
 
 An elegant formulation of twisted Witten genera (and proof of their rigidity) in terms of highest weight [[loop group representations]] is given in ([KL 95](#KL95)) along the lines of ([Brylinski 90](#Brylinski90)). In ([Distler-Sharpe 07](#DistlerSharpe07)), following suggestions around ([Ando 07](#Ando07)) this is interpreted geometrically in terms of fiberwise [[index|indices]] of [[parameterized WZW models]] [[associated bundle|associated]] to the given [[string 2-group|String]]-[[principal 2-bundle]].
 
-What should be a concrete computation of the twisted Witten genus specifically for $G =$ [[E8]] in in ([Harris 12, section 4](#Harris12)).
+What should be a concrete computation of the twisted Witten genus specifically for $G =$ [[E8]] is in ([Harris 12, section 4](#Harris12)).
 
 ### As the global character of sheaves of vertex operator algebras
 
@@ -316,7 +316,7 @@ The close relation of the Witten genus to [[Kac-Weyl characters]] of [[loop grou
 
 along the lines of 
 
-* {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, 1990.
+* {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, 1990 (<a href="https://doi.org/10.1016/0040-9383(90)90016-D">doi:10.1016/0040-9383(90)90016-D</a>)
 
 and further generalized to more general [[vertex operator algebra]] representations in ([DLM 02](#DLM02)).
 
