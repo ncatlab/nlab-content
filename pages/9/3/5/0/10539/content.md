@@ -34,5 +34,9 @@ A _symplectic integrator_ is a numerical discretization scheme for solving [[Ham
 * Sebastian Reich, _Backward error analysis for numerical integrators_, SIAM J. Numer. Anal. 36, 1549--1570, 1996 [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.28.6972)
 * Y. B. Suris, _Hamiltonian Runge-Kutta type methods and their variational formulation_ (1990)
 
+The idea can be adapted to dissipative systems as well:
+
+* Guilherme França, Michael I. Jordan, René Vidal, _On dissipative symplectic integration with applications to gradient-based optimization_, [arxiv/2004.06840](https://arxiv.org/abs/2004.06840)
+
 category: applications
 [[!redirects multisymplectic integrator]]
