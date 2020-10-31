@@ -258,9 +258,9 @@ A nice elementary introduction which emphasizes calculations and the application
 
 The textbooks 
 
-*  {#Kock81} [[Anders Kock]], _Synthetic Differential Geometry_, Cambridge University Press 1981, 2006 ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+*  {#Kock81} [[Anders Kock]], _Synthetic Differential Geometry_, Cambridge University Press 1981, 2006 ([pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812))
 
-*  {#Kock10} [[Anders Kock]], _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010) ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+*  {#Kock10} [[Anders Kock]], _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010) ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf), [doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690))
 
 
 develop in great detail the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
