@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Computation of the [[twisted ad-equivariant K-theory]]-groups for all [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[simple Lie groups]]:
+
+* [[Volker Braun]], _Twisted K-Theory of Lie Groups_, JHEP 0403 (2004) 029 ([arXiv:hep-th/0305178](https://arxiv.org/abs/hep-th/0305178))
+
+
 On [[single trace operators]]/[[BMN operators]] in [[super Yang-Mills theory]] regarded as [[integrable system|integrable]] [[spin chains]] with respect to the [[dilatation operator]] and application to [[AdS-CFT duality]]:
 
 
