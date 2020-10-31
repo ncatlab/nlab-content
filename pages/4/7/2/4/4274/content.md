@@ -151,7 +151,7 @@ $$
   \,.
 $$
 
-Notice that by the relation (see [here](equivariant+elliptic+cohomology#RelationToLoopGroupRepresentations)) between [[equivariant elliptic cohomology]] and [[loop group representations]], over the complex numbers $\chi(\tilde S_+ - \tilde S_-)$ may be regarded as an element of the $Spin(2k)$-[[equivariant elliptic cohomology]] of the point (at the [[Tate curve]]).
+Notice that, by the relation (see [here](equivariant+elliptic+cohomology#RelationToLoopGroupRepresentations)) between [[equivariant elliptic cohomology]] and [[loop group representations]], over the complex numbers $\chi(\tilde S_+ - \tilde S_-)$ may be regarded as an element of the $Spin(2k)$-[[equivariant elliptic cohomology]] of the point (at the [[Tate curve]]).
 
 ### Integrality and modularity
  {#IntegralityAndModularity}
