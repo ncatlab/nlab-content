@@ -17,6 +17,21 @@
 =--
 =--
 
+
+This page collects material related to the text
+
+* [[Alexander Grothendieck]],
+
+  _À la poursuite des Champs_
+
+  1983
+
+  [English pdf](https://thescrivener.github.io/PursuingStacks/ps-online.pdf)
+
+on [[homotopy theory]] via [[category theory]] ([[test categories]]) and (rather informally) on [[stacks]] and [[higher toposes]].
+
+\linebreak
+
 _Pursuing Stacks_ is an influential manuscript written by [[Alexander Grothendieck]] in 1983, and of which copies were sent to [[Ronnie Brown]] and [[Larry Breen]]. It is written in English "in response to a correspondence in English". He intended that later volumes would be in French, entitled  _&#192; la poursuite des [[stack|champs]]_ (literally _In Pursuit of Stacks_).  Grothendieck gave permission to Ronnie Brown to copy  the correspondence, and so this volume gradually circulated.   
 
 
