@@ -211,6 +211,8 @@ Lecture notes:
 
 Survey
 
+* [[Klaus Heiner Kamps]], [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_, World Scientific 1997 ([doi:10.1142/2215](https://doi.org/10.1142/2215), [GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+
 * [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_
 
 The original axiomatization of homotopy theory by [[model categories]] is due to
@@ -254,8 +256,6 @@ See also:
 * [[William Dwyer]], _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf))
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
-
-* K. H. Kamps and [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
 From [[category theory]] to [[homotopy theory]]:
 
