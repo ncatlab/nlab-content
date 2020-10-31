@@ -259,6 +259,8 @@ There is an [[equivariant Chern character]] map from equivariant K-theory to [[e
 
 * [[orbifold K-theory]]
 
+* [[twisted ad-equivariant K-theory]]
+
 * [[equivariant elliptic cohomology]]
 
 * [[equivariant algebraic K-theory]]
