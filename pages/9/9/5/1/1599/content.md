@@ -65,6 +65,8 @@ Then every [[smooth function|smooth]] [[action]] of $G$ on $X$ is [[proper actio
 
 * [[p-compact group]]
 
+* [[twisted ad-equivariant K-theory]]
+
 ## References
 
 * {#Lee12} [[John Lee]], _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [Draft pdf of the 1st edition](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf)) (Corollary 7.2 on page 147 of the draft).
