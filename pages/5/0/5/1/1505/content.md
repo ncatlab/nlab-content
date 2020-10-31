@@ -12,7 +12,7 @@ has laid foundations of what is now called [[derived geometry]].
 
 ## Selected writings
 
-On [[stacks]] and [[non-abelian cohomology]]L
+On [[stacks]] and [[non-abelian cohomology]]:
 
 * {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf))
 
