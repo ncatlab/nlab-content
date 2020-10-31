@@ -143,7 +143,7 @@ This suggested the extension of h.c. diagrams to other contexts such as a
 general locally Kan $SSet$-category, $\mathcal{B}$ and suggests the definition of homotopy coherent diagram in a $\mathcal{S}$-category and thus a [[homotopy coherent nerve]] of an $SSet$-category.
 
 
-To understand simplical h.c. diagrams and thus the h.c. simplicial [[nerve]] $N(\mathcal{B})$, we  unpack the definition of homotopy coherence, for conveneince, repeating some points made in [[homotopy coherent nerve]].
+To understand simplical h.c. diagrams and thus the h.c. simplicial [[nerve]] $N(\mathcal{B})$, we  unpack the definition of homotopy coherence, for convenience, repeating some points made in [[homotopy coherent nerve]].
 
 
 The first thing to note is that for any $n$ and $0\leq i\lt j\leq n$, $S[n](i,j) \cong \Delta[1]^{j-i-1}$, the $(j-i-1)$-cube given by the product of $j-i-1 $ copies of $\Delta[1]$.  Thus we can reduce the higher homotopy data to being just that, maps from higher dimensional cubes.
