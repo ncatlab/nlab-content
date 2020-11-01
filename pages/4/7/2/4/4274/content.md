@@ -312,7 +312,7 @@ The close relation of the Witten genus to [[Kac-Weyl characters]] of [[loop grou
 
 * [[Kefeng Liu]], _On elliptic genera and Theta functions_, Topology, Volume 35, Issue 3, July 1996, Pages 617&#8211;640 ([pdf](http://www.math.ucla.edu/~liu/Research/rigss1.pdf))
 
-* {#KL95} [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
+* {#KL95} [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([eculid:1214456221](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
 
 along the lines of 
 
