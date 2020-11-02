@@ -609,6 +609,8 @@ See also
 * {#Lurie} [[Jacob Lurie]], section 5.1 of _[[A Survey of Elliptic Cohomology]]_, in _Algebraic Topology Abel Symposia_ Volume 4, 2009, pp 219-277
 
 * [[Daniel Berwick-Evans]], [[Arnav Tripathy]], _A geometric model for complex analytic equivariant elliptic cohomology_, ([arXiv:1805.04146](https://arxiv.org/abs/1805.04146))
+
+* [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
  
 See also the references at _[equivariant cohomology -- References --  Complex oriented cohomology theories](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_.
 
