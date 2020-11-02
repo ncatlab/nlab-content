@@ -20,11 +20,13 @@
 
 ## Idea
 
-A [[higher chromatic Chern character]] from [[elliptic cohomology]]/[[tmf]] with values in ([[formal power series]]  with [[coefficients]] in) [[K-theory]].
+A [[higher chromatic Chern character]] from [[elliptic cohomology]]/[[tmf]] with values in [[Laurent series]]  with [[coefficients]] in [[K-theory]] ([[Tate K-theory]]).
 
 ## Related concepts
 
 * [[Witten genus]]
+
+* [[Tate K-theory]]
 
 ## References
 
@@ -34,8 +36,8 @@ In the context of the [[Witten genus]] the elliptic Chern character was introduc
 
 Discussion in the context of [[equivariant elliptic cohomology]] is in 
 
-* [[Nora Ganter]], section 3.2 of _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
- {#Ganter12}
+* {#Ganter12} [[Nora Ganter]], section 3.2 of _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+ 
 
 based on
 
