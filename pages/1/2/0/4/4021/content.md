@@ -140,12 +140,15 @@ Lecture notes include
 
 For references related to [[Giry's monad]] and variants see there.
 
-For a setting of probability theory within category theory see
+Formulation in [[category theory]]:
 
 * [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence, and theorems on sufficient statistics_, ([arXiv:1908.07021](https://arxiv.org/abs/1908.07021))
 
-
 * [[Kirk Sturtz]], _Categorical Probability Theory_ ([arXiv:1406.6030](https://arxiv.org/abs/1406.6030))
+
+Formulation in [[topos theory]]:
+
+* [[Alex Simpson]], _Probability sheaves and the Giry monad_, 2017 ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf), [talk recording](https://youtu.be/IMGoluu1mgc))
 
 For a more convenient setting for 'higher-order' probability theory, that is, one which admits higher-order functions, the following article uses the [[cartesian closed category]] of [[quasi-Borel space|quasi-Borel spaces]] rather than the category of measurable spaces:
 
