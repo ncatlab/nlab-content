@@ -2709,7 +2709,10 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
 * [[iterated K-theory]]
 
+* [[Tate K-theory]]
+
 * [[KU-local stable homotopy theory]]
+
 
 [[!include orientations in higher quantization - table]]
 
