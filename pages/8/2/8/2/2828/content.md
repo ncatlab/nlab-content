@@ -35,7 +35,7 @@ On [[localization of a space|localization in homotopy theory]]:
 
 Introducing [[string topology]]:
 
-*  {#ChasSullivan} [[Moira Chas]], [[Dennis Sullivan]], _String topology_, Ann. Math. [math.GT/9911159](http://arxiv.org/abs/math/9911159)
+*  {#ChasSullivan} [[Moira Chas]], [[Dennis Sullivan]], _String topology_ [math.GT/9911159](http://arxiv.org/abs/math/9911159)
 
 *  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
 
