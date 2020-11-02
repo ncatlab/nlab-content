@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -87,5 +88,3 @@ More details on this are in ([Hill-Lawson 13, appendix A](#HillLawson13)).
 
 [[!redirects Tate curves]]
 
-[[!redirects Tate K-theory]]
-[[!redirects Tate K-theories]]
