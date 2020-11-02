@@ -15,6 +15,8 @@ The Verlinde ring is also understood as being the ring of [[equivariant cohomolo
 
 * [[twisted ad-equivariant K-theory]]
 
+* [[twisted ad-equivariant Tate K-theory]]
+
 ## References
 
 ### General
