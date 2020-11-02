@@ -23,8 +23,7 @@
 
 This entry is about the text
 
-* [[Jacob Lurie]], _A Survey of Elliptic Cohomology_, Algebraic Topology
-Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
+* [[Jacob Lurie]], _A Survey of Elliptic Cohomology_, in:  _Algebraic Topology_, Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
 
 It 
 
