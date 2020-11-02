@@ -569,6 +569,8 @@ $$
 
 ## Related concepts
 
+* [[twisted ad-equivariant Tate K-theory]]
+
 * [[equivariant elliptic genus]]
 
 * related but different: [[modular equivariant elliptic cohomology]]
