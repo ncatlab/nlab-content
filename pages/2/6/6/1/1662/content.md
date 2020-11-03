@@ -17,7 +17,7 @@
 ## Definition
 
 
-Given a [[function]] $f: X \to Y$ and a [[subset]] $S$ of $Y$, the __preimage__ (sometimes also called the __[[inverse image]]__, though that may mean something different) of $T$ under $f$ is a [[subset]] of $X$, consisting of those arguments whose values belong to $S$.  
+Given a [[function]] $f: X \to Y$ and a [[subset]] $S$ of $Y$, the __preimage__ (sometimes also called the __[[inverse image]]__, though that may mean something different) of $S$ under $f$ is a [[subset]] of $X$, consisting of those arguments whose values belong to $S$.  
 
 That is,
 $$ f^*(S) = \{ a: X \;|\; f(a) \in S \} .$$
