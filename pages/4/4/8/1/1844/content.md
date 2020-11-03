@@ -100,6 +100,8 @@ where $\log$ is the natural [[logarithm]]. It arises for example in discussions 
 [[!redirects Euler's number]]
 [[!redirects Euler's numbers]]
 
+[[!redirects Euler's constant]]
+
 [[!redirects Eulerian number]]
 [[!redirects Eulerian numbers]]
 
