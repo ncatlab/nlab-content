@@ -141,4 +141,13 @@ This way the projective representation $\rho$ of $G$ induces a genuine linear re
 
 * [[projectively flat connection]] 
 
+## References
+
+(...)
+
+Relation to [[twisted equivariant K-theory]]:
+
+
+* José Manuel Gómez, Johana Ramírez, _A Decomposition of twisted equivariant K-theory_ ([arXiv:2001.02164](https://arxiv.org/abs/2001.02164))
+
 [[!redirects projective representations]]
