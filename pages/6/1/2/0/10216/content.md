@@ -9,6 +9,10 @@ On [[equivariant K-theory]] as a [[Spectra]]-valued [[presheaf]] on the [[orbit 
 
 * [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
 
+On [[equivariant principal bundles]] and their [[classifying spaces]]:
+
+* [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
+
 On [[proper equivariant homotopy theory]]:
 
 * {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_ ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
