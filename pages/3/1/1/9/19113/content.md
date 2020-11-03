@@ -312,8 +312,9 @@ $$
 
 For pointers to proofs see for instance [Epa-Ganter 16, section 4](#EpaGanter16).
 
-+-- {: .num_remark}
++-- {: .num_remark #DiscreteTorsion} 
 ###### Remark
+**([[C-field]] [[discrete torsion]])**
 
 In discussion of [[11-dimensional supergravity]] on [[spacetimes]] with [[ADE-singularities]], the special case 
 
@@ -329,6 +330,8 @@ $$
 $$
 
 of Prop. \ref{GroupCohomologyOfFiniteSubgroupsOfSU2}, regarded as expressing [[orbifold cohomology]] of an [[ADE singularity]], as shown under the brace, witnesses the possible [[torsion subgroup|torsion]] [[supergravity C-field]] [[flux]] of [[M5-branes]] [[wrapped brane|wrapped]] on torsion homology 3-cycles ("[[discrete torsion]]", see [Aharony-Bergman-Jafferis 08, p. 8](discrete+torsion#AharonyBergmanJafferis08) and [BDHKMMS 01, section 4.6.2](discrete+torsion#BDHKMMS01)).
+
+See also at _[[Platonic 2-group]] -- [Relation to String 2-group](Platonic+2-group#RelationToTheString2Group)_.
 
 
 =--
