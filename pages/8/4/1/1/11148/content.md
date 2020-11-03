@@ -68,6 +68,10 @@ In view of the [[cosmic censorship hypothesis]]:
 
 * Roberto Emparan, Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_ ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
 
+Via [[topological M-theory]]:
+
+
+* Javier Chagoya, Graciela Reyes-Ahumada, M. Sabido, _BTZ entropy from topological M-theory_ ([arXiv:2011.01094](https://arxiv.org/abs/2011.01094))
 
 
 See also:
