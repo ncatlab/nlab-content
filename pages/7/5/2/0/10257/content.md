@@ -97,6 +97,8 @@ Accordingly the basic properties of complex [[spinor representations]] are the s
 
 ## References
 
+* {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: [[Eric Friedlander]], [[Daniel Grayson]] (eds.) _[[Handbook of K-Theory]]_, Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
+
 For a list of proofs of Bott periodicity, see
 
 * _Proofs of Bott periodicity_, [MO](https://mathoverflow.net/q/8800/447)
