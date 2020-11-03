@@ -172,8 +172,19 @@ Here _accessibly embedded_ means that $C \hookrightarrow Psh(K)$ is an [[accessi
 
 See also at _[[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]_.
 
++-- {: .num_cor}
+###### Corollary
 
+Locally presentable categories are [[complete category|complete]].
 
+=--
+
++-- {: .proof}
+###### Proof
+
+A reflective subcategory of a complete category is complete, since [[monadic functor|monadic functors]] reflect limits, and the above proposition shows that any locally presentable category is a reflective subcategory of a presheaf category, which is complete. 
+
+=---
 
 
 ### Finite presentability and Gabriel--Ulmer duality 
