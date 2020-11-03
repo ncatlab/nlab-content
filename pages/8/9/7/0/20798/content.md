@@ -143,6 +143,11 @@ In view of [[AdS/CFT]]:
 
 [[!include AdS3-CFT2 on D2-D4-D6-D8 branes -- references]]
 
+The [[T-duality]] to [[AdS2/CFT1]]:
+
+* [[Yolanda Lozano]], [[Carlos Nunez]], [[Anayeli Ramirez]], Stefano Speziali, _New $AdS_2$ backgrounds and $\mathcal{N}=4$ Conformal Quantum Mechanics_ ([arXiv:2011.00005](https://arxiv.org/abs/2011.00005))
+
+
 
 
 
