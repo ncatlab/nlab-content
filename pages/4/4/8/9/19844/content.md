@@ -194,6 +194,8 @@ Also, the flavour anomaly appears consistently at $\geq 3 \sigma$ in new decay c
 \end{imagefromfile}
 
 
+
+
 \linebreak
 
 In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimentally seen  statistical significance:
@@ -329,6 +331,10 @@ From [GMV 20, Figure 9](#GMV20), showing fits of leptoquark models (labeled $S_i
   "width": 600
 \end{imagefromfile}
 \end{center}
+
+In [CFFPV20](#CFFPV20):
+
+> In the Standard Model Effective Theory (SMEFT) [41, 42], the significance of NewPhysics from the global $b \to s \ell^+ \ell^-$ analysis increases with the inclusion of new data, reaching a maximum of almost 6σ for the simple hypothesis of a non-vanishing $[$[[leptoquark]] contribution$]$.
 
 
 
@@ -809,6 +815,11 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 * {#GMV20} Valerio Gherardi, David Marzocca, Elena Venturini, _Low-energy phenomenology of scalar leptoquarks at one-loop accuracy_ ([arXiv:2008.09548](https://arxiv.org/abs/2008.09548))
 
 * {#CrivellinMuellerSaturnino20a} [[Andreas Crivellin]], Dario Mueller, Francesco Saturnino, _Leptoquarks in Oblique Corrections and Higgs Signal Strength: Status and Prospects_ ([arXiv:2006.10758](https://arxiv.org/abs/2006.10758))
+
+* {CFFPSV20} Marco Ciuchini, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _Lessons from the $B^{0,+} \to B^{\ast, 0,+} \mu^+ \mu^-$ angular analysis_ ([arXiv:2011.01212](https://arxiv.org/abs/2011.01212))
+
+
+
 
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
