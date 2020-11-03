@@ -1123,7 +1123,7 @@ $$
 By assumption and construction, here all columns are exact and the rows are exact at the $X_i$ and at the $Y_i$. 
 
 Now horizontal exactness at $ker(g)$ follows from the intramural isomorphism
-$ker(g)^{hor} \simeq ker(f)_{\Box}$, cor. \ref{IntramuralIsos}, combined with the [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso},
+$ker(g)^{hor} \simeq ker(g)_{\Box}$, cor. \ref{IntramuralIsos}, combined with the [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso},
 
 $$
   \array{
@@ -1147,10 +1147,10 @@ $$
   }
 $$
 
-which give $\cdots \simeq {}^\Box Y_1$ and then by another intramural iso 
-$ \cdots \simeq Y_1^{hor}$, and finally by assumption $\cdots  \simeq 0$.
+which give $\cdots \simeq {}^\Box Y_1$, and then the extramural isomorphism
+$\cdots \simeq 0_{\Box} = 0$.
 
-The exactness as $coker(g)$ is shown analogously.
+Exactness at $coker(g)$ is shown analogously.
 
 Finally, to build the [[connecting homomorphism]] $ker(h) \to coker(f)$ is the same as giving an  [[isomorphism]] from $coker(ker(g) \to ker(h)) \simeq ker(h)^{hor}$ to 
 $ker(coker(f) \to coker(g)) = coker(f)^{hor}$. This is in turn given by the intramural isomorphisms $ker(h)^{hor} \simeq ker(h)_{\Box}$ and ${}^\Box coker(f) \simeq coker(f)^{hor}$, cor. \ref{IntramuralIsos} connected by the [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso}
@@ -1192,7 +1192,7 @@ $$
 ###### Remark
 
 From the [[snake lemma]] one obtains in turn the 
-[[connecting homomorphism]], see there for details.
+[[connecting homomorphism]] between homology groups that leads to the long exact sequence of homology; see there for details.
 
 =--
 
