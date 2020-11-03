@@ -1210,10 +1210,5 @@ An exposition of this is in
 
 * [[Anton Geraschenko]], _The Salamander lemma_ ([blog post](http://sbseminar.wordpress.com/2007/11/13/anton-geraschenko-the-salamander-lemma/))
 
-A purely [[category theory|category-theoretic proof]] is in section 2 of 
-
-* [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/papers/snake.pdf))
- {#Wise}
-
 
 [[!redirects Salamander lemma]]
