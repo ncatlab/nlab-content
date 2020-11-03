@@ -62,4 +62,9 @@ Relation to [[topological string theory]]:
 
 * [[Jan de Boer]], [[Paul de Medeiros]], Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
 
+Relation to [[BTZ black holes]]:
+
+
+* Javier Chagoya, Graciela Reyes-Ahumada, M. Sabido, _BTZ entropy from topological M-theory_ ([arXiv:2011.01094](https://arxiv.org/abs/2011.01094))
+
 
