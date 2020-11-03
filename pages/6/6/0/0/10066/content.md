@@ -29,6 +29,15 @@ To the extent that [[K-theory]] is given by [[equivalence classes]] of [[virtual
 
 ## Properties
 
+### Bott periodicity
+ {#BottPeriodicity}
+
+The [[Bott periodicity]] of plain K-theory generalizes to equivariant K-theory:
+
+Complex equivariant K-theory is invariant under smashing with [[representation spheres]] of complex representations, while real equivariant K-theory is invariant under smashing with representation spheres of real 8d reps with spin structure (...).
+
+(e.g. [Karoubi 05, Section 5](#Karoubi05))
+
 ### Relation to operator K-theory of crossed product algebras
 
 The _[[Green-Julg theorem]]_ identifies, under some conditions, equivariant K-theory with [[operator K-theory]] of corresponding [[crossed product algebras]].
@@ -282,9 +291,9 @@ There is an [[equivariant Chern character]] map from equivariant K-theory to [[e
 
 The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completion theorem]] goes back to 
 
-* {#Atiyah61} [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Mathématiques de l'IHÉS, Volume 9 (1961) , p. 23-64 ([numdam]( http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
+* {#Atiyah61} [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Mathématiques de l'IHÉS, Volume 9 (1961) , p. 23-64 ([numdam:PMIHES_1961__9__23_0]( http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
-* [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundle and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
+* [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundles and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
 
 * {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 ([numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0))
 
@@ -303,7 +312,7 @@ with construction via [[permutative categories]] in
 See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+K-theory#ReferencesAlgebraicKTheoryForQuotientStacks)_.
 
 
-Introductions and surveys include
+Introductions and surveys:
 
 * {#Greenlees05} [[John Greenlees]], _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. Volume 7, Number 3 (2005), 63-82. ([Euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291))
 
@@ -319,6 +328,18 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 * [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
 
 * {#Wilson16} [[Dylan Wilson]], _Equivariant K-theory_, 2016 ([pdf](https://www.math.uchicago.edu/~dwilson/notes/equivariant-k-theory-talk.pdf), [[WilsonKTheory16.pdf:file]])
+
+Also:
+
+* {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: Friedlander E., Grayson D. (eds) [[Handbook of K-Theory]], Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
+
+Basic computations:
+
+* {#Yang95} [[Yimin Yang]], _On the Coefficient Groups of Equivariant K-Theory_, Transactions of the American Mathematical Society
+Vol. 347, No. 1 (Jan., 1995), pp. 77-98 ([jstor:2154789](https://www.jstor.org/stable/2154789))
+
+* {#Karoubi02} [[Max Karoubi]], _Equivariant K-theory of real vector spaces and real vector bundles_, Topology and its Applications, 122, (2002) 531-456 ([arXiv:math/0509497](https://arxiv.org/abs/math/0509497))
+
 
 
 The equivariant [[Chern character]] is discussed in 
