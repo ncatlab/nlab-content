@@ -54,6 +54,16 @@ An $R$-module $M$ is called $L$-complete if the canonical map
 $$M\rightarrow L(M)$$
 is an isomorphism.
 \end{definition}
+\begin{proposition}
+Let $M$ be an $R$-module.
+
+* If $M$ is finitely generated, then $\hat M=L(M)$.
+* If $M$ is complete, then it is $L$-complete.
+* The canonical map $M\rightarrow \hat M$ factor through the canonical map $M\rightarrow L(M)$, and the map $L(M)\rightarrow \hat M$ is surjective. In particular, an $L$-complete module is always quasi-complete.
+
+\end{proposition}
+
+Let $(m_i)_{i\in \mathbb{N}}$ be a sequence of elements in $M$ such that for all $n$, all but finitely many of the $m_i$'s belong to $I^n$. Then $M$ is complete if and only if for every such sequence, the partial sums $\sum{i\leq k} m_i$ have a well-defined limit in $M$. The above proposition shows an $L$-complete needs not to be separated, hence, this limit might not exists. However, informally speaking, $L$-complete modules are those for which we can still make sense of some sort of limit.
 
 \begin{proposition}([Salch](#Salch16))
 The category of $L$-complete modules is the smallest abelian [[full subcategory]] of [[RMod]] which contains the $I$-[[adic completion|adically complete modules]].
