@@ -4,7 +4,9 @@ $$ \mathrm { d } u = \frac { \partial u } { \partial x } \, \mathrm { d } x ,$$
 so
 $$ \frac { \partial u } { \partial x } = \frac { \mathrm { d } u } { \mathrm { d } x } .$$
 Thus,
-$$ \frac { \partial ^ 2 u } { \partial x ^ 2 } = \frac { \partial \left ( \frac { \partial u } { \partial x } \right ) } { \partial x } = \frac { \mathrm { d } \left ( \frac { \mathrm { d } u } { \mathrm { d } x } \right ) } { \mathrm { d } x } = \frac { \mathrm { d } x \, \mathrm { d } ^ 2 u - \mathrm { d } u \, \mathrm { d } ^ 2 x } { \mathrm { d } x ^ 3 } .$$
+$$ \frac { \partial ^ 2 u } { \partial x ^ 2 } = \frac { \partial \left ( \frac { \partial u } { \partial x } \right ) } { \partial x } = \frac { \mathrm { d } \left ( \frac { \mathrm { d } u } { \mathrm { d } x } \right ) } { \mathrm { d } x } ,$$
+which expands to
+$$ \frac { \partial ^ 2 u } { \partial x ^ 2 } = \frac { \mathrm { d } x \, \mathrm { d } ^ 2 u - \mathrm { d } u \, \mathrm { d } ^ 2 x } { \mathrm { d } x ^ 3 } .$$
 
 On the other hand,
 $$ \mathrm { d } ^ 2 u = \frac { \partial ^ 2 u } { \partial x ^ 2 } \, \mathrm { d } x + \frac { \partial u } { \partial x } \, \mathrm { d } ^ 2 x ,$$
@@ -20,7 +22,8 @@ $$ \mathrm { d } u \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y = \left 
 so
 $$ \left ( \frac { \partial u } { \partial x } \right ) _ y = \frac { \mathrm { d } u \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } { \mathrm { d } x \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } .$$
 Thus,
-$$ \left ( \frac { \partial ^ 2 u } { \partial x ^ 2 } \right ) _ y = \left ( \frac { \partial \left ( \frac { \partial u } { \partial x } \right ) _ y } { \partial x } \right ) _ y = \frac { \mathrm { d } \left ( \frac { \mathrm { d } u \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } { \mathrm { d } x \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } \right ) \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } { \mathrm { d } x \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } $$.
+$$ \left ( \frac { \partial ^ 2 u } { \partial x ^ 2 } \right ) _ y = \left ( \frac { \partial \left ( \frac { \partial u } { \partial x } \right ) _ y } { \partial x } \right ) _ y = \frac { \mathrm { d } \left ( \frac { \mathrm { d } u \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } { \mathrm { d } x \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } \right ) \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } { \mathrm { d } x \multiscripts { _ 1 } \wedge { _ 1 } \mathrm { d } y } ,$$
+which unfortunately can\'t be expanded without abandoning the $ \wedge $ notation.
 
 On the other hand,
 $$ \mathrm { d } ^ 2 u = \left ( \frac { \partial ^ 2 u } { \partial x ^ 2 } \right ) _ y \, \mathrm { d } x ^ 2 + 2 \frac { \partial ^ 2 u } { \partial x \partial y } \, \mathrm { d } x \, \mathrm { d } y + \left ( \frac { \partial ^ 2 u } { \partial y ^ 2 } \right ) _ x \, \mathrm { d } y ^ 2 + \left ( \frac { \partial u } { \partial x } \right ) _ y \, \mathrm { d } ^ 2 x + \left ( \frac { \partial u } { \partial y } \right ) _ x \, \mathrm { d } ^ 2 y ,$$
