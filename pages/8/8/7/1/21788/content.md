@@ -80,7 +80,7 @@ As completed $S^1$-[[equivariant K-theory]] of [[free loop space]]
 
 * {#KM04}  [[Nitu Kitchloo]], [[Jack Morava]], Section 5 of: _Thom Prospectra for Loopgroup representations_ ([arXiv:math/0404541](https://arxiv.org/abs/math/0404541))
 
-* [[Nora Ganter]], _Power operations in orbifold Tate K-theory_ ([arXiv:1301.2754](https://arxiv.org/abs/1301.2754))
+* {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. Volume 15, Number 1 (2013), 313-342. ([arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680))
 
 On [[twisted ad-equivariant Tate K-theory]]:
 
