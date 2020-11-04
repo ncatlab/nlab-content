@@ -102,15 +102,12 @@ The concept of pullback is dual to the concept of [[pushout]]: that is, a pullba
 
 In [[type theory]] a [[pullback]] $P$ in
 
-$$
-  \array{
-    P &\to& A
-    \\
-    \downarrow && \downarrow^{\mathrlap{f}}
-    \\
-    B &\stackrel{g}{\to}& C
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    P \ar[r] \ar[d] & A \ar[d, "f"] \\
+    B \ar[r, "g"']  & C
+  \end{tikzcd}
+\end{center}
 
 is given by the [[dependent sum]] over the [[dependent type|dependent]] [[equality type]]
 
@@ -129,22 +126,20 @@ $$
 
 If [[product]]s exist in $C$, then the pullback
 
-$$
-  \array{
-     a \times_c b &\to& a
-     \\
-     \downarrow && \downarrow^{\mathrlap{f}}
-     \\
-     b &\stackrel{g}{\to}& c
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    a \times_c b \ar[r] \ar[d] & a \ar[d, "f"] \\
+    b \ar[r, "g"']             & c
+  \end{tikzcd}
+\end{center}
 
 is equivalently the [[equalizer]]
 
-$$
-  a \times_c b \to a \times b \stackrel{\overset{f p_1}{\longrightarrow}}{\underset{g p_2}{\longrightarrow}}
-  c
-$$
+\begin{center}
+  \begin{tikzcd}
+    a \times_c b \ar[r] & a \times b \ar[r, shift left, "fp_1"] \ar[r, shift right, "gp_2"'] & c
+  \end{tikzcd}
+\end{center}
 
 of the two morphisms induced by $f$ and $g$ out of the [[product]] of $a$ with $b$.
 
@@ -158,20 +153,12 @@ Pullbacks preserve [[monomorphisms]] and [[isomorphisms]]:
 
 If 
 
-$$
-  \array{
-    a &\overset{}{\longrightarrow}& b
-    \\
-    {}^{\mathllap{f^\ast g}}
-    \downarrow 
-    & & 
-    \downarrow^{\mathrlap{g}}
-    \\
-    c 
-      &\underset{f}{\longrightarrow}& 
-    d
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    a \ar[r] \ar[d, "f^\ast g"'] & b \ar[d, "g"] \\
+    c \ar[r, "f"']               & d
+  \end{tikzcd}
+\end{center}
 
 is a pullback square in some category then:
 
@@ -190,15 +177,12 @@ On the other hand that $f^\ast g$ is a monomorphism does not imply that $g$ is a
 
 In any category consider a diagram of the form
 
-$$
-  \array{
-     a &\to& b &\to& c
-     \\ 
-     \downarrow && \downarrow && \downarrow
-     \\
-     d &\to& e &\to& f
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    a \ar[r] \ar[d] & b \ar[r] \ar[d] & c \ar[d] \\
+    d \ar[r]        & e \ar[r]        & f
+  \end{tikzcd}
+\end{center}
 
 There are three commuting squares: the two inner ones and the outer one.
 
@@ -227,15 +211,12 @@ The converse implication does not hold: it may happen that the outer and the lef
 
 For instance let $i : a \to b$ be a [[split monomorphism]] with [[retract]] $p : b \to a$ and consider
 
-$$
-  \array{
-     a & \stackrel{=}{\to} & a & \stackrel{=}{\to} & a
-     \\ 
-     \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{=}}
-     \\
-     a &\stackrel{i}{\to}& b &\stackrel{p}{\to}& a
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    a \ar[r, "="] \ar[d, "="'] & a \ar[r, "="] \ar[d, "i"] & a \ar[d, "="] \\
+    a \ar[r, "i"']             & b \ar[r, "p"']            & a
+  \end{tikzcd}
+\end{center}
 
 Then the left square and  the outer rectangle are pullbacks but the right square cannot be a pullback unless $i$ was already an [[isomorphism]].
 
