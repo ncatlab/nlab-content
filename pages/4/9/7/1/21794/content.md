@@ -25,6 +25,9 @@ $$M\rightarrow L(M)$$
 is an isomorphism.
 \end{definition}
 
-\begin{proposition}
-The category of $L$-complete modules is a full abelian sub-category of $R-mod$.
+\begin{proposition}([Salch](#Salch16))
+The category of $L$-complete modules is the smallest full abelian sub-category of $R-mod$ which contains the $I$-adically complete modules.
 \end{proposition}
+##References##
+* {#Salch16} [[Andrew Salch]], Approximation of subcategories by abelian subcategories ([arXiv:2011.01827](https://arxiv.org/abs/2011.01827))
+* [[Charles Rezk]], _Analytic completion_ ([pdf](http://www.math.uiuc.edu/~rezk/analytic-paper.pdf))
