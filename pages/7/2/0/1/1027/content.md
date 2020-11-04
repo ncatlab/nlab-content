@@ -33,12 +33,12 @@ On the other hand, together with a terminal object, wide pullbacks generate all 
 
 +-- {: .num_prop #WidePbToComplete}
 ###### Proposition 
-A [[category]] $C$ with all [[wide pullbacks]] and a [[terminal object]] $1$ is [[complete category|complete]]. If $C$ is complete and $F: C \to D$ preserves wide pullbacks and the terminal object, then it preserves all limits. 
+A [[category]] $C$ with all [[wide pullbacks]] and a [[terminal object]] $1$ is [[complete category|complete]]. If $C$ is complete and $F\colon C \to D$ preserves wide pullbacks and the terminal object, then it preserves all limits. 
 =-- 
 
 +-- {: .proof}
 ######Proof 
-To build up arbitrary products $\prod_{i \in I} c_i$ in $C$, take the wide pullback of the family $c_i \to 1$. Then to build equalizers of diagrams $f, g: c \stackrel{\to}{\to} d$, construct the pullback of the diagram 
+To build up arbitrary products $\prod_{i \in I} c_i$ in $C$, take the wide pullback of the family $c_i \to 1$. Then to build equalizers of diagrams $f, g\colon c \rightrightarrows d$, construct the pullback of the diagram 
 $$\array{
  & & d \\
  & & \downarrow \delta \\
