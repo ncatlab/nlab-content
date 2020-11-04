@@ -15,6 +15,7 @@
 
 ## Idea
 
+(...)
 
 
 ## Related concepts
@@ -31,4 +32,8 @@ Surveys:
 
 * Juanita Pinz&#243;n Caicedo, _Morse homology_ , thesis ([pdf](http://matematicas.uniandes.edu.co/~buribe/Estudiantes/MorseHomology.pdf))
 
-* Yanfeng Chen, _A Brief History of Morse Homology_ ([pdf](http://math.berkeley.edu/~alanw/240papers03/chen.pdf))
+* Yanfeng Chen, _A Brief History of Morse Homology_ ([pdf](http://math.berkeley.edu/~alanw/240papers03/chen.pdf)) 
+
+
+
+
