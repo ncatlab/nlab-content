@@ -39,6 +39,8 @@ $$
   \end{aligned}
 $$
 
+(For more exposition see also [Dove 19, Sec. 6.2](#Dove19)).
+
 In generalization of [[twisted ad-equivariant K-theory]] there is [[twisted ad-equivariant Tate K-theory]] (an [[equivariant elliptic cohomology]] theory) relating to the [[Verlinde ring]] of [[positive energy representation|positive energy]] [[loop group representations]] 
 ([Lurie 09, Sec. 5.2](#Lurie09), 
 [Luecke 19, Cor. 3.2.5](#Luecke19), [Dove 19](#Dove19)).
