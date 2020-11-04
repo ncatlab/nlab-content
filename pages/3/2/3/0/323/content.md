@@ -58,7 +58,7 @@ In fact, the pullback is the [[universal property|universal]] solution to findin
   \end{tikzcd}
 \end{center}
 
-there is a unique function $h: Y \to X$ such that 
+there is a unique function $h\colon Y \to X$ such that 
 
 $$ p_A h = q_A $$
 
@@ -102,7 +102,7 @@ The concept of pullback is dual to the concept of [[pushout]]: that is, a pullba
 
 ####Nuts and bolts
 
-Let $\mathcal{C}$ be a category, with $f:a\to c$ and $g:b\to c$ coterminal arrows in $\mathcal{C}$ as below
+Let $\mathcal{C}$ be a category, with $f\colon a\to c$ and $g\colon b\to c$ coterminal arrows in $\mathcal{C}$ as below
 
 \begin{center}
   \begin{tikzcd}
@@ -111,7 +111,7 @@ Let $\mathcal{C}$ be a category, with $f:a\to c$ and $g:b\to c$ coterminal arrow
   \end{tikzcd}
 \end{center}
 
-A **pullback** of $f$ and $g$ consists of an object $x$ together with arrows $p_a:x\to a$ and $p_b:x\to b$ such that the following diagram commutes universally
+A **pullback** of $f$ and $g$ consists of an object $x$ together with arrows $p_a\colon x\to a$ and $p_b\colon x\to b$ such that the following diagram commutes universally
 
 \begin{center}
   \begin{tikzcd}
@@ -121,7 +121,7 @@ A **pullback** of $f$ and $g$ consists of an object $x$ together with arrows $p_
   \end{tikzcd}
 \end{center}
 
-This means that for any other object $x'$ with arrows $p'_a:x'\to a$ and $p'_b:x'\to b$ such that 
+This means that for any other object $x'$ with arrows $p'_a\colon x'\to a$ and $p'_b\colon x'\to b$ such that 
 
 \begin{center}
   \begin{tikzcd}
@@ -131,7 +131,7 @@ This means that for any other object $x'$ with arrows $p'_a:x'\to a$ and $p'_b:x
   \end{tikzcd}
 \end{center}
 
-commutes, there exists a unique arrow $u:x'\to x$ such that
+commutes, there exists a unique arrow $u\colon x'\to x$ such that
 
 \begin{center}
   \begin{tikzcd}
@@ -156,7 +156,7 @@ In [[type theory]] a [[pullback]] $P$ in
 is given by the [[dependent sum]] over the [[dependent type|dependent]] [[equality type]]
 
 $$
-  P = \sum_{a : A} \sum_{b : B} (f(a) = g(b))
+  P = \sum_{a\colon A} \sum_{b\colon B} (f(a) = g(b))
   \,.
 $$
 
@@ -253,7 +253,7 @@ The converse implication does not hold: it may happen that the outer and the lef
 +-- {: .proof}
 ###### Proof
 
-For instance let $i : a \to b$ be a [[split monomorphism]] with [[retract]] $p : b \to a$ and consider
+For instance let $i\colon a \to b$ be a [[split monomorphism]] with [[retract]] $p\colon b \to a$ and consider
 
 \begin{center}
   \begin{tikzcd}
@@ -280,7 +280,7 @@ The [[saturated class of limits|saturation]] of the class of pullbacks is the cl
 ### Pullback functor
 {#PullbackFunctor}
 
-If $f : X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, there is an induced pullback [[functor]] $f^* : C/Y \to C/X$, sometimes also called [[base change]].
+If $f\colon X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, there is an induced pullback [[functor]] $f^*\colon C/Y \to C/X$, sometimes also called [[base change]].
 
 ## Related concepts
 
