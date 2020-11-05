@@ -47,13 +47,19 @@ This is the approach taken in [AdemRuan 01, Def. 3.4](#AdemRuan01)
 
 * [[equivariant K-theory]]
 
+* [[twisted equivariant K-theory]]
+
 * [[orbifold differential K-theory]]
+
+* [[twisted ad-equivariant Tate K-theory]]
+
+  * [[equivariant elliptic cohomology]]
 
 ## References
 
 ### General
 
-The definition of the K-theory of [[global quotient orbifolds]] as the [[equivariant K-theory]] of the universal covering space appears in
+The definition of the K-theory of [[global quotient orbifolds]] as the [[twisted equivariant K-theory]] of the [[universal covering space]] appears in
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
 
