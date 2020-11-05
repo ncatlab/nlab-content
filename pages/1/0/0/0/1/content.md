@@ -81,7 +81,7 @@ One goal of the $n$Lab is to help make information widely available and usefully
 
 * Using and distributing content obtained from the $n$Lab is free and encouraged if you acknowledge the source, as usual in academia.
 
-  (There is currently no consensus on a more formal license statement, but if it matters check if relevant individual contributors state such on their nLab homepages.)
+  (There is currently no consensus on a more formal license statement, but if it matters check if relevant individual contributors state such on their $n$Lab homepages.)
 
   If you cite a page you may want to point to a specific version of it, because $n$Lab pages can change.  You can find a list of all the versions of a page by clicking on the **History** link at the bottom of the page itself.
 
