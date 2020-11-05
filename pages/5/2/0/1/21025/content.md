@@ -196,6 +196,6 @@ more to appear here...
 
 
 
-category: activity
+category: reference
 
 
