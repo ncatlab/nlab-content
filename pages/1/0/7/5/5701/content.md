@@ -12,6 +12,11 @@ On [[topological quantum field theory]]:
 
 * [[Sergei Gukov]], [[Anton Kapustin]], _[[Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories]]_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
 
+Discussion of the [[Witten genus]] as an [[M5-brane]] [[partition function]] seen under an [[AGT correspondence]]:
+
+* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
+
+
 On the [[3d-3d correspondence]]:
 
 * Sungbong Chun, [[Sergei Gukov]], Sunghyuk Park, Nikita Sopenko, _3d-3d correspondence for mapping tori_ ([arxiv:1911.08456](https://arxiv.org/abs/1911.08456))
