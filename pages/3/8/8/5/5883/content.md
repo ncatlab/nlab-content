@@ -20,5 +20,10 @@ On [[equivariant principal bundles]] and their [[classifying spaces]]:
 
 * [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
+On the analog of the [[Atiyah-Hirzebruch spectral sequence]] for [[twisted equivariant K-theory]]:
+
+* Noe Barcenas, Jesus Espinoza, [[Bernardo Uribe]], Mario Velasquez, _Segal's spectral sequence in twisted equivariant K-theory for proper and discrete actions_, Proceedings of the Edinburgh Mathematical Society
+Volume 61 Issue 1 ([arXiv:1307.1003](https://arxiv.org/abs/1307.1003), [doi:10.1017/S0013091517000281](https://doi.org/10.1017/S0013091517000281))
+
 
 category: people
