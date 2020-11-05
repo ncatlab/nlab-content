@@ -1,4 +1,4 @@
-[[!redirects Kant]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
