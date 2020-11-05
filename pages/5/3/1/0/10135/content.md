@@ -1156,6 +1156,11 @@ where the first step is by Prop. \ref{OrbifoldsInEquivariantHomotopyTheory}, whi
 
 * [[Gromov-Witten theory]]
 
+* [[orbifold K-theory]], [[equivariant K-theory]]
+
+* [[twisted ad-equivariant Tate K-theory]]
+
+* [[equivariant elliptic cohomology]]
 
 History
 
