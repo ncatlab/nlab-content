@@ -45,9 +45,9 @@ An $R$-module $M$ is said to be
 
 \end{definition}
 
-The completion functor is idempotent (warning: this is not true in general if $I$ is not finitely generated), hence induces an [[idempotent monad]] on $R$-mod, and is [[left adjoint]] to the inclusion of the category $\widehat{R-mod}$ of complete modules into all modules. Hence, $\widehat{R-mod}$ is a [[reflective subcategory]] of $R$-mod. It is not, however, an [[abelian subcategory]]: the [[quotient]] of two complete modules is not, in general, complete.
+The completion functor is idempotent (warning: this is not true in general if $I$ is not finitely generated), hence induces an [[idempotent monad]] on the category [[RMod]], and is [[left adjoint]] to the inclusion of the category $\widehat{R Mod}$ of complete modules into all modules. Hence, $\widehat{R Mod}$ is a [[reflective subcategory]] of $R Mod$. It is not, however, an [[abelian subcategory]]: the [[quotient]] of two complete modules is not, in general, complete.
 
-A key observation is that the completion functor is not [[right exact functor|right exact]] when seen as an [[endofunctor]] of [[RMod]]. Hence, let $L$ be the 0th [[left derived functor]] of the completion functor, which is right exact by definition.
+A key observation is that the completion functor is not [[right exact functor|right exact]] when seen as an [[endofunctor]] of $R Mod$. Hence, let $L$ be the 0th [[left derived functor]] of the completion functor, which is right exact by definition.
 
 \begin{definition}
 An $R$-module $M$ is called $L$-complete if the canonical map
