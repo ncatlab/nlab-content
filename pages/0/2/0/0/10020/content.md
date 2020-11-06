@@ -132,6 +132,9 @@ Generalization to [[boundary field theory]]:
 
 * Sanjit Shashi, _Quotient-AdS/BCFT: Holographic Boundary $CFT_2$ on $AdS_3$ Quotients_ ([arXiv:2005.10244](https://arxiv.org/abs/2005.10244))
 
+* [[Tadashi Takayanagi]], Takahiro Uetoko, _Chern-Simons Gravity Dual of BCFT_ ([arXiv:2011.02513](https://arxiv.org/abs/2011.02513))
+
+
 
 
 See also
