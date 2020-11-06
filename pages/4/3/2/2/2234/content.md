@@ -15,17 +15,25 @@
 
 ## Definition
 
-The __centralizer subgroup__ of a [[subset]] $S$ in (the [[set]] [[forgetful functor|underlying]]) a [[group]] $G$ is the [[subgroup]] 
+The __centralizer subgroup__ (also: _[[commutant]]_) of a [[subset]] $S$ in (the [[set]] [[forgetful functor|underlying]]) a [[group]] $G$ is the [[subgroup]] 
 
 $$
   C_G(S) \subset G
 $$ 
 
-of all [[elements]] $c \in G$ such that $c \cdot s = s \cdot c$ for all $s \in S$.  
+of all [[elements]] $c \in G$ which commute with $S$, hence such that $c \cdot s = s \cdot c$ for all $s \in S$.  
 
-Notice the similarity but difference to the concept of _[[normalizer subgroup]]_.
+Notice the similarity with but difference to the concept of _[[normalizer subgroup]]_.
 
-The centralizer is the largest [[subgroup]] $H$ of $G$ containing $S$ such that $S$ is in the [[center]] of $H$.  The centralizer of a subset is clearly a subgroup of its [[normalizer]], as fixing the set $g H=H g$ is a weaker requirement than $g h=h g$ for all $h\in H$.
+The centralizer of $S$ is clearly a [[subgroup]] of its [[normalizer]]
+
+$$
+  C_G(S)
+  \subset
+  N_G(S)
+$$
+
+as fixing the set $g H = H g$ is a weaker requirement than  $g h=h g$ for all $h\in H$.
 
 ## Related concepts
 
@@ -37,7 +45,7 @@ The centralizer is the largest [[subgroup]] $H$ of $G$ containing $S$ such that 
 
 See also 
 
-* [Centralizer and normalizer](https://en.wikipedia.org/wiki/Centralizer_and_normalizer)
+* Wikipedia, _[Centralizer and normalizer](https://en.wikipedia.org/wiki/Centralizer_and_normalizer)_
 
 [[!redirects centralizers]]
 
