@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[discrete torsion]]:
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], Nikolaos Prezas, _Discrete Torsion, Non-Abelian Orbifolds and the Schur Multiplier_, JHEP 0101:033, 2001 ([arXiv:hep-th/0010023](https://arxiv.org/abs/hep-th/0010023))
+
 On IIA [[NS5-branes]] and their [[T-duality|T-dual]] [[orientifolds]] with [[RR-field tadpole cancellation]]:
 
 
