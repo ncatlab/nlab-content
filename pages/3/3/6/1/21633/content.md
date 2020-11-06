@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -77,4 +76,9 @@ See also
 * {#GorbatsevichOnishchik93} V. Gorbatsevich, A. L. Onishchik, _Compact homogeneous spaces_, Chapter 5 in: _Lie Groups and Lie Algebras II: Lie Transformation groups_, Encyclopaedia of Mathematical Sciences, vol 20. Springer, Spinger 1993 ([doi:10.1007/978-3-642-57999-8_11](https://doi.org/10.1007/978-3-642-57999-8_11))
 
 * {#Butruille06} Jean-Baptiste Butruille, _Homogeneous nearly Kähler manifolds_, in: Vicente Cortés (ed) _Handbook of Pseudo-Riemannian Geometry and Supersymmetry_, pp 399–423 ([arXiv:math/0612655](https://arxiv.org/abs/math/0612655), [doi:10.4171/079-1/11](https://doi.org/10.4171/079-1/11))
+
+On the [[topological K-theory]] of $\mathbb{C}P^3$:
+
+
+* [[Michael Atiyah]], E. Rees, _Vector bundles on projective 3-space_, Invent. Math.35, 131–153 (1976) ([[AtiyahReesVectorBundlesOnCP3.pdf:file]])
 
