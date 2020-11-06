@@ -53,7 +53,7 @@ A __$k$-dimensional stratifold__ $(S,C)$ is a differential space such that
 
 ## References
 
-* [The stratifold page](https://www.him.uni-bonn.de/homepages/prof-dr-matthias-kreck/the-stratifold-page/)
+* [The stratifold page](https://www.hcm.uni-bonn.de/homepages/prof-dr-matthias-kreck/the-stratifold-page/)
 
 * [[Matthias Kreck]], _Differential Algebraic Topology_ ([pdf](http://www.hausdorff-research-institute.uni-bonn.de/files/kreck-DA24_08_07.pdf))
  {#Kreck}
