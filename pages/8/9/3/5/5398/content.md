@@ -36,4 +36,6 @@ Hence $B \subseteq B''$ and also $B' = B'''$.
 
 * [[bicommutant theorem]]
 
+* [[centralizer]]
+
 [[!redirects commutants]]
