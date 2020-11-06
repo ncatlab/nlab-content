@@ -44,25 +44,25 @@ $P_{A,B}:\mathfrak{C}(A,B)\to\mathfrak{D}(P(A),P(B)).$
 
 We will generally write the function and functors as $P$.
 
-* For each pair of horizontally composable 1-cells $(f,g)\in Ob_{\mathfrak{C}(B,C)}\times Ob_{\mathfrak{C}(A,B)}$, a $2$-cell isomorphism $\gamma_{f,g}:P(g\circ f)\Rightarrow P(g)\circ P(f)$ called the _associator_ as below 
+* For each pair of horizontally composable 1-cells $(f,g)\in Ob_{\mathfrak{C}(B,C)}\times Ob_{\mathfrak{C}(A,B)}$, a $2$-cell isomorphism $\gamma_{f,g}:P(g)\circ P(f) \Rightarrow P(g\circ f)$ as below 
 
 \begin{centre}
 
 \begin{xymatrix@C20mm}
 
-P(A) \rtwocell^{P(g\circ f)}_{P(g)\circ P(f)}{\;\;\;\;\gamma_{f,g}} & P(C)
+P(A) \rtwocell^{P(g)\circ P(f)}_{P(g\circ f)}{\;\;\;\;\gamma_{f,g}} & P(C)
 
 \end{xymatrix}
 
 \end{centre}
 
-* For each object object $A\in Ob_\mathfrak{C}$, a $2$-cell isomorphism $\iota_A:P(1_A)\Rightarrow1_{P(A)}$ called the _unitor_ as below
+* For each object object $A\in Ob_\mathfrak{C}$, a $2$-cell isomorphism $\iota_A:1_{P(A)}\Rightarrow P(1_A)$ called the _unitor_ as below
 
 \begin{centre}
 
 \begin{xymatrix@C20mm}
 
-P(A) \rtwocell^{P(1_A)}_{1_{P(A)}}{\;\;\;\;\iota_A} & P(A)
+P(A) \rtwocell^{1_{P(A)}}_{P(1_A)}{\;\;\;\;\iota_A} & P(A)
 
 \end{xymatrix}
 
@@ -122,11 +122,11 @@ P(B) \rtwocell^{P(1_B)}_{1_{P(B)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\
 
 ####Lax Functor
 
-To obtain the notion of a lax functor we only require that the associators $\gamma_{f,g}$ and unitors $\iota_A$ be $2$-cells, not necessarily $2$-cell isomorphisms -- this prevents us from going back and forth between preimages and images of identity $1$-cells and horizontally composed $1$-cells/$2$-cells.
+To obtain the notion of a __lax functor__ we only require that the coherence morphisms $\gamma_{f,g}$ and $\iota_A$ be $2$-cells, not necessarily $2$-cell isomorphisms.  This prevents us from going back and forth between preimages and images of identity $1$-cells and horizontally composed $1$-cells/$2$-cells.  Similarly, to obtain an __oplax functor__ we reverse the direction of these 2-cells.
 
 ####Strict 2-Functor
 
-To obtain the notion of a strict $2$-functor we require that the associators $\gamma_{f,g}$ and unitors $\iota_A$ be identity arrows, so horizontal composition and $1$-cell identities literally factor through each functor in the same way vertical composition and $2$-cell identities do. 
+To obtain the notion of a strict $2$-functor we require that $\gamma_{f,g}$ and $\iota_A$ are identity arrows, so horizontal composition and $1$-cell identities literally factor through each functor in the same way vertical composition and $2$-cell identities do. 
 
 ###Discussion###
 
