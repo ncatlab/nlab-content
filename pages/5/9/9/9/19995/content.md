@@ -13,6 +13,10 @@ On [[toric duality]]:
 
 * [[Bo Feng]], S. Franco, [[Amihay Hanany]], [[Yang-Hui He]], _Unhiggsing the del Pezzo_, J. High Energy Phys. 08 (2003) 058 ([hep-th/0209228](https://arxiv.org/abs/hep-th/0209228))
 
+On [[discrete torsion]]:
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], Nikolaos Prezas, _Discrete Torsion, Non-Abelian Orbifolds and the Schur Multiplier_, JHEP 0101:033, 2001 ([arXiv:hep-th/0010023](https://arxiv.org/abs/hep-th/0010023))
+
 
 On [[quiver gauge theories]] and [[D-branes]]:
 
