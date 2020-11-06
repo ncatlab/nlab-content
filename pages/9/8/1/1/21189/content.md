@@ -224,6 +224,10 @@ See also
 
 * Lukas Graf, Brian Henning, Xiaochuan Lu, Tom Melia, Hitoshi Murayama, _2, 12, 117, 1959, 45171, 1170086, ...: A Hilbert series for the QCD chiral Lagrangian_ ([arXiv:2009.01239](https://arxiv.org/abs/2009.01239))
 
+Via [[S-matrix]] bootstrap:
+
+* Andrea Guerrieri, Joao Penedones, Pedro Vieira, _S-matrix Bootstrap for Effective Field Theories: Massless Pions_ ([arXiv:2011.02802](https://arxiv.org/abs/2011.02802))
+
 
 
 
