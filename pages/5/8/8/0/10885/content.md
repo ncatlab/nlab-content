@@ -34,6 +34,5 @@ Comm. Math. Phys. 226 (2002), no. 3, 497&#8211;530 [MR1896879](http://www.ams.or
 * Michio Jimbo, Tetsuji Miwa, Yasuko M&#244;ri, Mikio Sato, 
 _Density matrix of an impenetrable Bose gas and the fifth Painlev&#233; transcendent_, Phys. D 1 (1980), no. 1, 80&#8211;158 [MR573370](http://www.ams.org/mathscinet-getitem?mr=573370) <a href="http://dx.doi.org/10.1016/0167-2789(8090006-8)">
 
-category: functional analysis, integrable systems
-
+category: functional analysis
 [[!redirects Fredholm determinants]]
