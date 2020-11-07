@@ -14,4 +14,4 @@ There are [weekly workshops](http://www.mfo.de/programme/workshops) in Oberwolfa
 
   * [[Oberwolfach Workshop, June 2009 -- Abstracts|List of Abstracts]]
 
-category: place
+category: reference
