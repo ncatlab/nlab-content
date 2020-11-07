@@ -17,4 +17,4 @@ See also [[torsion theory]], [[localization]], [[Q-category]], [[thick subcatego
 * A. W. Goldie, _Torsion-free modules and rings_, J. Algebra __1__ 1964, 268&#8211;287 [MR164991](http://www.ams.org/mathscinet-getitem?mr=164991) <a href="http://dx.doi.org/10.1016/0021-8693(64)90023-7">doi</a>
 * [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series __330__, ed. [[A. Ranicki]]; pp. 220&#8211;313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
 
-category: algebra, noncommutative algebraic geometry
+category: algebraic geometry
