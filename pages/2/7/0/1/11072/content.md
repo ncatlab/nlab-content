@@ -178,6 +178,9 @@ The modal approach to a term calculus for the $!$-modality can be found in:
 
 * Andrew Barber, *Dual Intuitionistic Linear Logic*, Technical Report ECS-LFCS-96-347, University of Edinburgh, Edinburgh (1996), [web](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/)
 
+
+category: logic
+
 [[!redirects of course]]
 [[!redirects !]]
 [[!redirects why not]]
