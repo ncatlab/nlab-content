@@ -11,4 +11,3 @@ is called an **epi-pullback-** or **quasi-pullback-** or **epi cartesian-square 
 ###### Remark
 For a topos $T$ and $T^I$ its arrow category which is a topos, epi-pullback squares (in $T$) form a [[class of open maps]] in $T^I$.
 =--
-category: category theory
