@@ -111,7 +111,7 @@ Complex orientation in the [above](#Definition) sense is indeed universal [[MU]]
 +-- {: .num_prop #ComplexOrientationIsMUAlgebraStructure}
 ###### Proposition
 
-For $E$ a  [[homotopy commutative ring spectrum]] then there is a [[bijection]] between complex orientations of $E$-cohomology and  [[homotopy commutative ring spectrum]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]].
+For $E$ a  [[homotopy commutative ring spectrum]], there is a [[bijection]] between complex orientations of $E$-cohomology and  [[homotopy commutative ring spectrum]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]].
 
 =--
 
@@ -700,7 +700,7 @@ See also the references at _[equivariant cohomology -- References -- Complex ori
 
 A comparison between complex orientations and $H_\infty$ ring maps out of $MU$ was given in
 
-* {#Ando92} [[Matthew Ando]] _Operations in complex-oriented cohomology theories related to subgroups of formal groups_ ([PhD Thesis](https://dspace.mit.edu/bitstream/handle/1721.1/13230/26903638-MIT.pdf?sequence=2))
+* {#Ando92} [[Matthew Ando]], _Operations in complex-oriented cohomology theories related to subgroups of formal groups_ ([PhD Thesis](https://dspace.mit.edu/bitstream/handle/1721.1/13230/26903638-MIT.pdf?sequence=2))
 
 
 More recent developments include
