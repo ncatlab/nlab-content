@@ -38,6 +38,10 @@ Complex equivariant K-theory is invariant under smashing with [[representation s
 
 (e.g. [Karoubi 05, Section 5](#Karoubi05))
 
+### Complex orientation
+
+Equivariant complex K-theory is an [[equivariant complex oriented cohomology theory]] ([Greenlees 01, Sec. 10](#Greenlees01))
+
 ### Relation to operator K-theory of crossed product algebras
 
 The _[[Green-Julg theorem]]_ identifies, under some conditions, equivariant K-theory with [[operator K-theory]] of corresponding [[crossed product algebras]].
@@ -374,6 +378,10 @@ Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|e
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
 
+Discussion in the context of [[equivariant complex oriented cohomology theory]]:
+
+* {#Greenlees01} [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
+
 ### Representing equivariant spectrum 
  {#ReferencesRepresentingSpectrum}
 
@@ -427,5 +435,7 @@ Vol. 89, No. 4 (Oct., 1967), pp. 857-886 ([doi:10.2307/2373408](https://www.jsto
 
 [[!redirects equivariant topological K-theory]]
 
+
+[[!redirects equivariant complex K-theory]]
 
 [[!redirects equivariant KO-theory]]
