@@ -281,7 +281,7 @@ Specifically equivariant [[complex cobordism cohomology]] is discussed in
 * [[William Abram]], [[Igor Kriz]], _The equivariant complex cobordism ring of a finite abelian group_ ([pdf](http://www.math.lsa.umich.edu/~ikriz/cobordism13022-1.pdf))
 
 
-The following articles discuss equivariant [[formal group laws]]:
+The following articles discuss [[equivariant formal group laws]]:
 
 * [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), ii-451 ([EUCLID](http://projecteuclid.org/euclid.hha/1139840255))
 
