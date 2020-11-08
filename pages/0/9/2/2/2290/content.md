@@ -290,7 +290,8 @@ Modern accounts of ([[equivariant elliptic cohomology|equivariant]]) elliptic co
 
 * [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, 2005
 
-* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in:  _Algebraic Topology_, Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
+
 
 * [[Jacob Lurie]], _[[Elliptic Cohomology I]]: spectral abelian varieties_, 2018. 141pp ([pdf]( http://math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
