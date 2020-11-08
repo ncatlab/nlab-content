@@ -41,7 +41,7 @@ There is a [[Chern character]] map from [[equivariant K-theory]] to [[equivarian
 
 ## References
 
-* Steven R. Costenoble, [[Stefan Waner]], _Equivariant ordinary homology and cohomology_, Springer, 2016 ([arXiv:math/0310237](https://arxiv.org/abs/math/0310237))
+* [[Steven Costenoble]], [[Stefan Waner]], _Equivariant ordinary homology and cohomology_, Springer, 2016 ([arXiv:math/0310237](https://arxiv.org/abs/math/0310237))
 
 * {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
 
