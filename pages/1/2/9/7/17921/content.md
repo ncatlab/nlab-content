@@ -1,3 +1,4 @@
+[[!redirects $G$-crossed braided fusion category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
