@@ -40,6 +40,11 @@ On [[equivariant stable homotopy theory]]:
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol. 1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778))
 
+On [[equivariant complex oriented cohomology theory]]:
+
+* [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
+Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
+
 On [[parametrized stable homotopy theory]]:
 
 * [[Peter May]], [[Johann Sigurdsson]], _Parametrized Homotopy Theory_, Mathematical Surveys and Monographs, vol. 132, AMS 2006  ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
