@@ -62,6 +62,7 @@ Every [[analytic functions]] (for instance a [[holomorphic function]]) is also a
 
 A crucial property of smooth functions, however, is that they contain also [[bump functions]].
 
+
 ## Related concepts
 
 * [[smooth function with rapidly decreasing derivatives]]
