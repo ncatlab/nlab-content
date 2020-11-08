@@ -26,6 +26,9 @@ _Equivariant complex oriented cohomology theory_ is the generalization of [[comp
 
 In generalization of [[topological K-theory]] as the prototypical example of a [[complex oriented cohomology theory]], its generalization to [[equivariant K-theory]] is equivariantly complex oriented. 
 
+It has been conjectured that [[equivariant complex cobordism theory]] is the [universal](equivariant+complex+cobordism+cohomology+theory#universal_property)
+equivariant complex oriented cohomology theory.
+
 ## Related concepts
 
 * [[real oriented cohomology theory]]
