@@ -26,11 +26,24 @@ _Equivariant complex oriented cohomology theory_ is the generalization of [[comp
 
 In generalization of [[topological K-theory]] as the prototypical example of a [[complex oriented cohomology theory]], its generalization to [[equivariant K-theory]] is equivariantly complex oriented. 
 
+## Related concepts
+
+* [[real oriented cohomology theory]]
+
 ## References
 
 
 * [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
 
+
+
+
 * [[Michael Cole]], [[John Greenlees]], [[Igor Kriz]], _The universality of equivariant complex bordism_, Math Z 239, 455–475 (2002) ([doi:10.1007/s002090100315](https://doi.org/10.1007/s002090100315))
 
 * [[Michael Cole]], [[John Greenlees]], [[Igor Kriz]], _Equivariant Formal Group Laws_, Proceedings of the LMS, Volume81, Issue2 2000 ([doi:10.1112/S0024611500012466]( https://doi.org/10.1112/S0024611500012466))
+
+See also:
+
+
+* [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
+Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
