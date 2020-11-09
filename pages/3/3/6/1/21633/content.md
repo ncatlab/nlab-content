@@ -77,8 +77,7 @@ See also
 
 * {#Butruille06} Jean-Baptiste Butruille, _Homogeneous nearly Kähler manifolds_, in: Vicente Cortés (ed) _Handbook of Pseudo-Riemannian Geometry and Supersymmetry_, pp 399–423 ([arXiv:math/0612655](https://arxiv.org/abs/math/0612655), [doi:10.4171/079-1/11](https://doi.org/10.4171/079-1/11))
 
-On the [[topological K-theory]] of $\mathbb{C}P^3$:
-
+On the [[KO-theory]] of $\mathbb{C}P^3$:
 
 * [[Michael Atiyah]], E. Rees, _Vector bundles on projective 3-space_, Invent. Math.35, 131–153 (1976) ([[AtiyahReesVectorBundlesOnCP3.pdf:file]])
 
