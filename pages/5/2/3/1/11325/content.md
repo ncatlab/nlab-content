@@ -56,6 +56,13 @@ More on this and the relation to the [[weak gravity conjecture]]:
 
 * [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
 
+A counter-example in 6d:
+
+* Tomas Andrade, Pau Figueras, Ulrich Sperhake, _Violations of Weak Cosmic Censorship in Black Hole collisions_ ([arXiv:2011.03049](https://arxiv.org/abs/2011.03049))
+
+
+
+
 Relation to [[higher curvature corrections]]:
 
 * Akash K Mishra, Sumanta Chakraborty, _Strong Cosmic Censorship in higher curvature gravity_, Phys. Rev. D 101, 064041 (2020) ([arXiv:1911.09855](https://arxiv.org/abs/1911.09855))
