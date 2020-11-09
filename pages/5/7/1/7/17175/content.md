@@ -10,14 +10,13 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The concept of [[Chern classes]] of [[complex vector bundles]] as [[universal characteristic classes]] in [[ordinary cohomology]] generalized to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]]: the _Conner-Floyd Chern classes_ ([Conner-Floyd 66](#ConnerFloyd66), [Adams 74](#Adams74)), review includes ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 4 and 5](#Lurie10)):
+The concept of [[Chern classes]] of [[complex vector bundles]], as [[universal characteristic classes]] in [[ordinary cohomology]], generalizes to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]]: the _Conner-Floyd Chern classes_ ([Conner-Floyd 66](#ConnerFloyd66), [Adams 74](#Adams74)), review includes ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 4 and 5](#Lurie10)):
 
 for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]]. See at _[complex oriented cohomology -- the cohomology ring of BU(n)](complex+oriented+cohomology+theory#TheCohomologyRingOfBUn)_.
 
@@ -30,7 +29,7 @@ The generalized Chern classes serve as the generalized [[Thom classes]] that mak
 +-- {: .num_prop #ConnerFloyedClasses}
 ###### Proposition
 
-Given a [[complex oriented cohomology theory]] $E$ with complex orientation $c_1^E$, then the $E$-[[generalized cohomology]] of the [[classifying space]] $B U(n)$ is freely generated over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) by classes $c_k^E$ for $0 \leq \leq n$ of degree $2k$, these are called the **[[Conner-Floyd-Chern classes]]**
+Given a [[complex oriented cohomology theory]] $E$ with complex orientation $c_1^E$, then the $E$-[[generalized cohomology]] of the [[classifying space]] $B U(n)$ is freely generated over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) by classes $c_k^E$ for $0 \leq k \leq n$ of degree $2k$, these are called the **[[Conner-Floyd-Chern classes]]**
 
 $$
   E^\bullet(B U(n))
@@ -39,7 +38,7 @@ $$
   \,.
 $$
 
-Moreover, pullback along the canonical inclusion $B U(n) \to B U(n+1)$ is the identity on $c_k^E$ for $k \leq n$ and sends $c_{n+1}^E$ to zero.
+Moreover, pullback along the canonical inclusion $B U(n) \to B U(n+1)$ is the [[identity]] on $c_k^E$ for $k \leq n$ and sends $c_{n+1}^E$ to zero.
 
 For $E = $ [[HA|HZ]] this reduces to the standard [[Chern classes]].
 
