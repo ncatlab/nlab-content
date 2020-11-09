@@ -31,6 +31,9 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 * {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhD thesis 2013  ([pdf](https://ruor.uottawa.ca/bitstream/10393/23680/3/Laurence_Rouleau_Vincent_2013_thesis.pdf))
 
 
+The beginnings of an attempt to formalize Transcendental Syntax is given in
+
+* [[Boris Eng]], [[Thomas Seiller]], _Stellar Resolution: Multiplicatives_, ([arXiv:2007.16077](https://arxiv.org/abs/2007.16077))
 
 [[!redirects Transcendental Syntax]]
 [[!redirects Transcendental syntax]]
