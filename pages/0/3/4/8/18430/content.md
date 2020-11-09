@@ -30,5 +30,7 @@ For $r \in \mathbb{Z}_p$ with $r = p$ the above sequences converges in the p-adi
 
 ## References
 
+See also:
+
 * Wikipedia, _[Geometric series](https://en.wikipedia.org/wiki/Geometric_series)_
 
