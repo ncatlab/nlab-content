@@ -70,4 +70,4 @@
 [_A Categorical Manifesto_]( http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362 ). CiteSeerX page.
 
 
-category: computer science
+category: reference, computer science
