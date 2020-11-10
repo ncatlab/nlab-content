@@ -4,10 +4,24 @@ $$
     \mathcal{L}_v
     & \coloneqq & 
     \frac{
-      (V \setminus \{0\}) \times k
+      (V \setminus \{0\}) \times k^\ast
     }{
       k^\times
     }
+    &
+      \overset{
+        [ v, z ]
+        \mapsto 
+        \big(
+          [v], v \cdot z 
+        \big)
+      }{\longrightarrow}
+    &
+      \frac
+      { V \setminus \{0\} }
+      { k^\times }
+      \times
+      V
     \\
     \big\downarrow
     &&
