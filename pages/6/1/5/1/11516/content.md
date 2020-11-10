@@ -110,6 +110,24 @@ then the $G$-[[action]] on the Euclidean space $\mathbb{R}^V$ descends to the [[
 > graphics grabbed from [SS 19](equivariant+Hopf+degree+theorem#SatiSchreiber19)
 
 
+### Projective $G$-space
+
+
+Let $G$ be a [[finite group]] (or maybe a [[compact Lie group]]) and let $V$ be a $G$-[[linear representation]] over some [[topological field|topological]] [[ground field]] $k$.
+
+Then the corresponding _[[projective G-space]]_ is the [[quotient space]] of the [[complement]] of the origin in (the [[Euclidean space]] underlying) $V$ by the given [[action]] of the [[group of units]] of $k$ (from the $k$-[[vector space]]-[[mathematical structure|structure]] on $V$):
+
+$$
+  k P(V)
+  \;:=\;
+  \big(
+    V \setminus \{0\}
+  \big) / k^\times
+$$
+
+and equipped with the residual $G$-[[action]] on $V$ (which passes to the [[quotient space]] since it commutes with the $k$-action, by linearity).
+
+
 ### G-CW complexes
 
 See at _[[G-CW complex]]_.
