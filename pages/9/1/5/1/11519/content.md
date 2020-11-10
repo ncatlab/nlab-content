@@ -41,7 +41,7 @@ Representation spheres induce the [[looping and delooping]] which is used in
 
 Let $G$ be a [[finite group]] and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] [[linear representation]] of $G$.
 
-Conside the [[unit sphere]] $S(\mathbb{R}\oplus V)$ where $\mathbb{R}$ carries the [[trivial representation]]. Then the [[stereographic projection]] homeomorphism
+Consider the [[unit sphere]] $S(\mathbb{R}\oplus V)$ where $\mathbb{R}$ carries the [[trivial representation]]. Then the [[stereographic projection]] homeomorphism
 
 $$
   S(\mathbb{R}\oplus V)\setminus \{(1,\mathbf{0})\}
@@ -61,6 +61,32 @@ This also shows that $S^V$ is a [[smooth manifold]] with smooth $G$-[[action]].
 =--
 
 (e.g. [MP 04, p. 2](#MP04))
+
+Similarly, if $V$ is 1-dimensional over the given [[ground field]] $k$, [[stereographic projection]] identifies the [[representation sphere]] of $V$ with the [[projective G-space]] of $V \oplus \mathbf{1}$:
+
+$$
+  \array{
+    V^{cpt}
+    &
+      \longrightarrow
+    &
+    k P
+   \big(
+     V \oplus \mathbf{1}
+   \big)
+    \\
+    v &\mapsto&
+    \left\{
+    \array{
+      [v,1] &\vert& v \in V
+      \\
+      [1,0] &\vert& v = \infty
+    }
+    \right.
+  }
+$$
+
+(e.g. [Greenlees 01, 9.1](projective+G-space#Greenlees01))
 
 ### $G$-CW-Complex structure
 
