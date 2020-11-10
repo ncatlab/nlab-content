@@ -62,6 +62,11 @@ See also
 
 * Wikipedia, _[Regge calculus](https://en.wikipedia.org/wiki/Regge_calculus)_
 
+Application to [[FRW models]] of [[cosmology]]:
+
+* Ren Tsuda, Takanori Fujiwara, _Oscillating 4-Polytopal Universe in Regge Calculus_ ([arXiv:2011.04120](https://arxiv.org/abs/2011.04120))
+
+
 ### 't Hooft-van de Meent
 
 * {#tHooft08} [[Gerard 't Hooft]], _A locally finite model for gravity_, Found. Phys. 38:733-757, 2008 ([arXiv:0804.0328](https://arxiv.org/abs/0804.0328))
