@@ -188,6 +188,10 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 
 * The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]])
 
+## Related concepts
+
+* [[tautological equivariant line bundle]]
+
 ## References
 
 Lecture notes include
