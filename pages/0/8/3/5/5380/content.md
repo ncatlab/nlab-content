@@ -33,7 +33,7 @@ More generally, for $(X,0)$ a [[pointed topological space]] with (pointed) $\mat
 
 $$
  \mathbb{P}(X) 
-  \colorqq
+  \;\coloneqq\;
   (X \setminus\{0\})
   /
   \mathbb{G}_m
@@ -527,6 +527,8 @@ It remains to see that the [[gluing functions]] of this atlas are [[differentiab
 * [[projective variety]]
 
 * [[Grassmannian]]
+
+* [[projective G-space]]
 
 * [[projective geometry]], [[synthetic projective geometry]]
 
