@@ -1,3 +1,31 @@
+
+$$
+  \array{
+    \mathcal{L}_v
+    & \coloneqq & 
+    \frac{
+      (V \setminus \{0\}) \times k
+    }{
+      k^\times
+    }
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow{}^{\mathrlap{
+       \frac{id \times pt}{ k^\times }
+    }}
+    \\
+    k P(V)
+    &=&
+    \frac{
+      (V \setminus \{0\}) \times \ast
+    }{
+      k^\times
+    }
+  }
+$$
+
+
 a daisy
 
 \begin{tikzpicture}[scale=3]
