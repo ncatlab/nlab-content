@@ -103,6 +103,8 @@ Proof of Bott periodicity for [[topological K-theory]], including [[equivariant 
 
 Review:
 
+* {#Segal68} [[Graeme Segal]], Prop. 3.2 in: _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 ([numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0))
+
 * {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: [[Eric Friedlander]], [[Daniel Grayson]] (eds.) _[[Handbook of K-Theory]]_, Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
 
 For a list of proofs of Bott periodicity, see
