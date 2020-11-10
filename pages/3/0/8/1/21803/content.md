@@ -39,15 +39,45 @@ and equipped with the residual $G$-[[action]] on $V$ (which passes to the [[quot
 
 ## Examples
 
-* If $G = 1$ is the [[trivial group]], then
+### Ordinary projective spaces
 
-  $$
-    k P(k^{n+1})
-    \;=\;
-    k P^n
-  $$
+If $G = 1$ is the [[trivial group]], then
 
-  is ordinary (non-equivariant) [[projective space]] of [[dimension]] $n$ over $k$.
+$$
+  k P(k^{n+1})
+  \;=\;
+  k P^n
+$$
+
+is ordinary (non-equivariant) [[projective space]] of [[dimension]] $n$ over $k$.
+
+### Representation spheres
+
+If the $G$-representation $V$ is 1-dimensional over the given [[ground field]] $k$, [[stereographic projection]] identifies the [[representation sphere]] of $V$ with the [[projective G-space]] of $V \oplus \mathbf{1}$:
+
+$$
+  \array{
+    V^{cpt}
+    &
+      \longrightarrow
+    &
+    k P
+   \big(
+     V \oplus \mathbf{1}
+   \big)
+    \\
+    v &\mapsto&
+    \left\{
+    \array{
+      [v,1] &\vert& v \in V
+      \\
+      [1,0] &\vert& v = \infty
+    }
+    \right.
+  }
+$$
+
+(e.g. [Greenlees 01, 9.1](#Greenlees01))
 
 ## Related concepts
 
