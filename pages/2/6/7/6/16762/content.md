@@ -26,7 +26,7 @@ $$
 
 which is an [[isomorphism]] away from the singular locus.
 
-Typical resolution of singularities is by "blow-up" of the singularity where the singular point is replaced by an  [[n-sphere]], then called the "exceptional [[divisor (algebraic geometry)|divisor]]" of the blow-up.
+Typical resolution of singularities is by "blow-up" of the singularity where the singular point is replaced by an [[n-sphere]]/[[projective space]] (and its neighbourhood by a [[tautological line bundle]]), then called the "exceptional [[divisor (algebraic geometry)|divisor]]" of the blow-up.
 
 (quick review of the basic details includes [Berghoff 14, section 4.1](#Berghoff14))
 
@@ -48,6 +48,10 @@ Typical resolution of singularities is by "blow-up" of the singularity where the
 
   * [[triple membrane junction]]
 
+* [[tautological line bundle]]
+
+  [[tautological equivariant line bundle]]
+
 ## References
 
 The existence of resolutions of singularities by "blow-up" was established, for [[ground fields]] of [[characteristic zero]], in some generality in
@@ -68,6 +72,8 @@ This method is closely related to the resolution of singularities of [[propagato
 See also
 
 * Wikipedia, _[Resolution of singularities](https://en.wikipedia.org/wiki/Resolution_of_singularities)_
+
+* Wikipedia, _[Blowing up](https://en.wikipedia.org/wiki/Blowing_up)_
 
 * Wikipedia, _[Exceptional divisor](https://en.wikipedia.org/wiki/Exceptional_divisor)_
 
