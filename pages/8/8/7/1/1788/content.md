@@ -1,6 +1,29 @@
 
 $$
   \array{
+    V^{cpt}
+    &
+      \longrightarrow
+    &
+    k P
+   \big(
+     V \oplus \mathbf{1}
+   \big)
+    \\
+    v &\mapsto&
+    \left\{
+    \array{
+      [v,1] &\vert& v \in V
+      \\
+      [1,0] &\vert& v = \infty
+    }
+    \right.
+  }
+$$
+
+
+$$
+  \array{
     \mathcal{L}_v
     & \coloneqq & 
     \frac{
