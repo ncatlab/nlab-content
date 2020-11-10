@@ -77,13 +77,17 @@ $$
   }
 $$
 
-(e.g. [Greenlees 01, 9.1](#Greenlees01))
+(e.g. [Atiyah 68, Sec. 4](#Atiyah68), [Greenlees 01, 9.1](#Greenlees01))
 
 ## Related concepts
 
 * [[tautological equivariant line bundle]]
 
 ## References
+
+Discussion in the context of [[Bott periodicity]] in [[equivariant K-theory]]:
+
+* {#Atiyah68} [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, Volume 19, Issue 1, 1968, Pages 113–140 ([doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113))
 
 Discussion in the context of [[equivariant complex oriented cohomology theory]]:
 
