@@ -51,7 +51,7 @@ A _cubical structure_ on $\mathcal{L}$ is a trivializing [[section]] $s$ of $\Th
 
 1. $s(w+x,y,z) s(w,x,z) = s(w,x + y, z) s(x,y,z)$
 
-for all elements of $A$ as indicated, and for all [[permutations]] $\sigma$ of three elements. Here the equalities are equalities of section after applying the canonical [[isomorphisms]] of [[complex lines]] on both sides.
+for all elements of $A$ as indicated, and for all [[permutations]] $\sigma$ of three elements. Here the equalities are equalities of sections after applying the canonical [[isomorphisms]] of [[complex lines]] on both sides.
 
 =--
 
@@ -93,9 +93,9 @@ $$
 
 ### Relation to orientations in complex-oriented cohomology theory
 
-For $E$ a [[multiplicative cohomology theory|multiplicative]] [[weakly periodic cohomology theory|weakly periodic]] [[complex orientable cohomology theory]] then $Spec E^0(B U\langle 6\rangle)$ is naturally equivalent to the space of cubical structures on the trivial line bundle over the [[formal group]] of $E$.
+For $E$ a [[multiplicative cohomology theory|multiplicative]] [[weakly periodic cohomology theory|weakly periodic]] [[complex orientable cohomology theory]], we have that $Spec E^0(B U\langle 6\rangle)$ is naturally equivalent to the space of cubical structures on the trivial line bundle over the [[formal group]] of $E$.
 
-In particular, [[homotopy classes]] of maps of [[E-infinity ring]] spectra $MU\langle 6\rangle \to E$ from the [[Thom spectrum]] to $E$, and hence universal $MU\langle 6\rangle$-[[orientation in generalized cohomology|orientations]] (see there) of $E$ are in natural bijection with these cubical structures.
+In particular, [[homotopy classes]] of [[morphisms]] of [[E-infinity ring]] spectra $MU\langle 6\rangle \to E$ from the [[Thom spectrum]] to $E$, and hence universal $MU\langle 6\rangle$-[[orientation in generalized cohomology|orientations]] (see there) of $E$ are in natural bijection with these cubical structures.
 
 ([Hopkins 94, theorem 6.1, 6.2](#Hopkins94), [Ando-Hopkins-Strickland 01, corollary 2.50](#AndoHopkinsStrickland01))
 
@@ -103,7 +103,7 @@ This way for instance the [[string orientation of tmf]] has been constructed. Se
 
 ### On the 11-dimensional Chern-Simons term
 
-The [[higher dimensional Chern-Simons theory|11-dimensiona Chern-Simons]] [[action functional]] in [[11-dimensional supergravity]] gives a line bundle $L$ on the space of [[supergravity C-fields]] whose $\Theta^3(L)$ is the transgression of the [[cup product in ordinary differential cohomology]] of three factors. It seems that each trivialization of the class of the [[supergravity C-field]] induces a "cubical" trivialization of $\Theta^3(L)$ as above, and hence a cubical structure on $L$. See at _[[cubical structure in M-theory]]_ for more on this.
+The [[higher dimensional Chern-Simons theory|11-dimensional Chern-Simons]] [[action functional]] in [[11-dimensional supergravity]] gives a line bundle $L$ on the space of [[supergravity C-fields]] whose $\Theta^3(L)$ is the transgression of the [[cup product in ordinary differential cohomology]] of three factors. It seems that each trivialization of the class of the [[supergravity C-field]] induces a "cubical" trivialization of $\Theta^3(L)$ as above, and hence a cubical structure on $L$. See at _[[cubical structure in M-theory]]_ for more on this.
 
 ## Related concept
 
