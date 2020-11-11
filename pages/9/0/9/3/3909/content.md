@@ -411,7 +411,7 @@ $$
 
 This is the _twistor space_ corresponding to the given Minkowski spacetime.
 
-However, by the above definition of $\omega^\alpha$, not every element of this space corresponds to a lighlike geodesic. Rather (for $d \in \{3,4,6\}$) it is only those satisfying
+However, by the above definition of $\omega^\alpha$, not every element of this space corresponds to a lightlike geodesic. Rather (for $d \in \{3,4,6\}$) it is only those satisfying
 
 $$
   \omega^\alpha \overline{\psi}_\alpha
