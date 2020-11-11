@@ -53,7 +53,7 @@ The [[category of contexts]] in a [[theory]] forms its [[syntactic category]], w
  {#CategoricalSemantics}
 
 The [[categorical semantics]] of a context $\Gamma$ in [[type theory]]
-is as the [[slice category]] $\mathcal{C}_{/[\Gamma]}$ over the object the interprets $\Gamma$. See at _[categorical semantics -- Definition -- Of dependent type theory -- Contexts and type judgements](http://ncatlab.org/nlab/show/categorical+semantics#ContextsAndTypeJudgements)_.
+is as the [[slice category]] $\mathcal{C}_{/[\Gamma]}$ over the object that interprets $\Gamma$. See at _[categorical semantics -- Definition -- Of dependent type theory -- Contexts and type judgements](http://ncatlab.org/nlab/show/categorical+semantics#ContextsAndTypeJudgements)_.
 
 ## Related concepts
 
