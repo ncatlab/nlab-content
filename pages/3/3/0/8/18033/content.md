@@ -105,6 +105,9 @@ Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-br
 
 * Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _The M-theory Archipelago_ ([arXiv:1907.13222](https://arxiv.org/abs/1907.13222))
 
+* Damon J. Binder, [[Shai Chester]], Max Jerdee, Silviu S. Pufu, _The 3d $\mathcal{N}=6$ Bootstrap: From Higher Spins to Strings to Membranes_ ([arXiv:2011.05728](https://arxiv.org/abs/2011.05728))
+
+
 
 [[!redirects conformal bootstrap program]]
 
