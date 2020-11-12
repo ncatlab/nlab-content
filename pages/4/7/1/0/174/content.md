@@ -147,12 +147,15 @@ In [[string theory]] one speaks apart from the [[D-branes]] also about **fundame
 
 ### Black branes
 
-See _[[black brane]]_ .
+See _[[black brane]]_.
 
+### Defect branes
+
+See _[[defect brane]]_.
 
 ### Exotic branes
 
-See _[[exotic brane]]_ .
+See _[[exotic brane]]_.
 
 
 ## Properties
