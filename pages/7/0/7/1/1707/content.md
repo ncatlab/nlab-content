@@ -722,6 +722,26 @@ $$
 
 =--
 
+### Relation with comonoid
+
+1. The simplex category \Delta, whose objects are {1,2,3..n} and
+morphisms are nondecreasing functions, is the UNIVERSAL "category
+equipped with a monoid".
+
+2. Dually, \Delta^op is the UNIVERSAL "category equipped with a comonoid".
+
+3. For a group G, there's an adjunction between (G-reps) and (Vector
+Spaces) by the forgetful functor and the free G-rep functor. The
+composition gives you a COMONAD of (G-rep).
+
+4. A comonad is just a categorification of a comonoid. More concretely
+a comonad is a comonoid in End( (G-rep), (G-rep) ).
+
+5. Since \Delta^op is has a universal comonoid, we connect both
+contexts naturally. No wonder there's nice cohomology theory for
+groups!
+
+(ref: Categories-for-the-Working-Mathematician-[Mac-Lane])
 
 ### Structured group cohomology (topological groups and Lie groups)
  {#StructuredCohomology}
