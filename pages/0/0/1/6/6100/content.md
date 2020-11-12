@@ -198,6 +198,13 @@ An [[equivalence of categories]] $\mathcal{C} \simeq \mathcal{D}$ induces a [[ho
 +-- {: .num_remark }
 ###### Remark
 
+The statement still remains true for a pair of [[adjoint functor]]s $\mathcal{C} \leftrightarrows \mathcal{D}$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
 Notice that the converse is far from true: Very different categories can have geometric realizations that are (weakly) homotopy equivalent. This is because geometric realization implicitly involves [[Kan fibrant replacement]]: it freely turns morphisms into [[equivalence in an (infinity,1)-category|equivalences]].
 
 =--
