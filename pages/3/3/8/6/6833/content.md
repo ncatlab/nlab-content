@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[D-brane]] in [[type IIB string theory]] of [[dimension]] $7+1$.
+The _D7-brane_ is the [[D-brane]] in [[type IIB string theory]] with [[worldvolume]] of [[dimension]] $7+1$, hence of [[codimension]] $10 - (7+1) = 2$. This is the prototypical _[[defect brane]]_.
 
 In [[F-theory]] these are the degenration loci of the [[axio-dilaton]] [[elliptic fibration]], where the [[discriminant]] $\Delta$ of the [[elliptic curve]] fibers vanishes and the fiber degenrates to the [[nodal curve]] (e.g. [Sen 97](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)).
 
