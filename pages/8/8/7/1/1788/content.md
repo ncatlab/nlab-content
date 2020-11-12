@@ -12,9 +12,7 @@ Please, feel free to leave a comment.
 
 
 
-#Contents#
-* tic
-{:toc}
+\tableofcontents
 
 
 
