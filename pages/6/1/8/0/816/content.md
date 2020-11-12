@@ -18,22 +18,22 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
 
-The notion of _weighted limit_ (also called _indexed limit_) is naturally understood from the point of view on [[limits]] as described at [[representable functor]].
+The notion of _weighted limit_ (also called _indexed limit_) is naturally understood from the point of view on [[limits]] as described at _[[representable functor]]_:
 
 Weighted limits make sense and are considered in the general context of $V$-[[enriched category theory]], but restrict attention to $V=$ [[Set]] for the moment, in order to motivate the concept.
 
-Let $K$ denote the small category which indexes [[diagrams]] over which we want to consider limits and eventually weighted limits. Notice that for 
+Let $K$ denote the [[small category]] which indexes [[diagrams]] over which we want to consider limits and eventually weighted limits. Notice that for 
 
 $$
-  F : K \to Set
+  F \colon K \to Set
 $$
 
-a [[Set]]-valued functor on $K$, the limit of $F$ is canonically identified simply with the set of [[cones]] with tip the singleton set $pt = \{\bullet\}$:
+a [[Set]]-valued [[functor]] on $K$, the [[limit]] of $F$ is canonically identified simply with the [[set]] of [[cones]] with tip the [[singleton]] set $pt = \{\bullet\}$:
 
 $$
   lim F = [K,Set](\Delta pt, F)
@@ -43,31 +43,33 @@ $$
 This means, more generally, that for 
 
 $$
-  F : K \to C
+  F \colon K \to C
 $$
 
-a functor with values in an arbitrary category $C$, the object-wise limit of the functor $F$ under the [[Yoneda embedding]]
+a functor with values in an arbitrary [[category]] $C$, the [[object]]-wise limit of the functor $F$ under the [[Yoneda embedding]]
 
 $$
   C(-,F(-)) : K \stackrel{F}{\to} C \stackrel{Y}{\to} Set^{C^{op}}
 $$
 
-which appears in the discussion in example 1 at [[representable functor]] can be expressed by the right side of
+which appears in the discussion in [this example](representable+functor#ExampleLimits) at [[representable functor]] can be expressed by the right side of
 
 $$
-  lim C(-,F(-)) = [K,Set](\Delta pt, C(-,F(-)))
+  lim C(-,F(-)) 
+  = 
+  [K,Set](\Delta pt, C(-,F(-)))
   \,.
 $$
 
-(Recall that this is the limit over the diagram $C(-,F(-)) : K \to Set^{C^{op}}$ which, if [[representable functor|representable]] defines the desired limit of $F$.)
+(Recall that this is the limit over the diagram $C(-,F(-)) \colon K \to Set^{C^{op}}$ which, if [[representable functor|representable]] defines the desired limit of $F$.)
 
 The **idea** of weighted limits is to 
 
-1. allow in the formula above the particular functor $\Delta pt$ to be replaced by any other functor $W : K \to Set$;
+1. allow in the formula above the particular functor $\Delta pt$ to be replaced by any other functor $W \colon K \to Set$;
 
 2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts (see below).
 
-The idea is that the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limits]] discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
+The idea is that the weight $W \colon K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limits]] discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
 
 ## Definition ##
 
@@ -92,8 +94,7 @@ $$
   \,,
 $$
 
-i.e. such that for all objects $c \in C$ 
-there is an isomorphism
+i.e. such that for all objects $c \in C$  there is an isomorphism
 
 $$
   C(c, lim^W F)
@@ -101,7 +102,7 @@ $$
   [K,V](W(-), C(c,F(-)))
 $$
 
-natural in $c$.
+[[natural isomorphism|natural]] in $c$.
 
 (Here $[K,V]$ is the $V$-[[enriched functor category]], as usual.)
 
@@ -133,8 +134,13 @@ $$
 $$
 
 ## Motivation from enriched category theory
-Let $V$ be a monoidal category.
-Imagine you're tasked to write down the definition of limit in a category $C$ [[enriched category|enriched]] over $V$. You would start saying there is a diagram $F:K \to C$ and a limit is a [[universal construction|universal]] [[cone]] over it, i.e. it's the universal choice of an object $c$ plus an arrow $f_k : c \to F(k)$ for each object $k$ of $K$. Here's where you stop and ask yourself: what is 'an arrow' in $C$? $C$ has no hom-*sets*—it has hom-*objects*—hence what's 'an element' of $C(c, F(k))$ in $V$?
+
+Let $V$ be a [[monoidal category]]. 
+
+Imagine you're tasked to write down the definition of _[[limit]]_ in a category $C$ [[enriched category|enriched]] over $V$. You would start saying there is a [[diagram]] $F \colon K \to C$ and a limit is a [[universal construction|universal]] [[cone]] over it, i.e. it's the universal choice of an [[object]] $c$ together with an arrow $f_k \colon c \to F(k)$ for each object $k$ of $K$. 
+
+Here's where you stop and ask yourself: what is 'an arrow' in $C$? $C$ has no *[[hom-sets]]* — it has *[[hom-objects]]* — hence what's 'an element' of $C(c, F(k))$ in $V$?
+
 There are two ways to specify an element of an object $X$ in a [[monoidal category]] $(V, I, \otimes)$:
 
 1. Give an arrow $I \to X$ (think of sets, where elements of $X$ are indeed the same thing as arrows $\{*\} \to X$. These are called [[global elements]] of $X$, and are more often than not a misbehaved notion of element, since often $I$ is 'too big' to thoroughly probe $X$ (on the other hand, notice the [[enriched category#passage_between_ordinary_categories_and_enriched_categories|underlying category of an enriched category]] is defined by taking global elements of the hom-objects)
@@ -145,7 +151,7 @@ $$
   [K, V](W(-), C(c, F(-)))
 $$
 Hence $W$ is simply a uniform way to specify the sides of a cone.
-A confirmation that this is indeed the right definition of limit in the enriched settings come from the fact that 'conical completeness' (a conical limit now is one where $W = \Delta I$, hence we pick only global element) is an inadequate notion, see for example Section 3.9 in Kelly's book (aptly named *The inadequacy of conical limits*).
+A confirmation that this is indeed the right definition of limit in the enriched settings come from the fact that 'conical completeness' (a conical limit now is one where $W = \Delta I$, hence we pick only global element) is an inadequate notion, see for example Section 3.9 in [Kelly's book](#Kelly) (aptly named *The inadequacy of conical limits*).
 
 ## Examples  ##
 
@@ -262,11 +268,13 @@ is discussed there in definition 14.7.8 on p. 269.
 
 A standard reference is
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_, [section 3.1, p. 37](http://www.emis.de/journals/TAC/reprints/articles/10/tr10.pdf#page=37)
+* {#Kelly} [[Max Kelly]], [section 3.1, p. 37](http://www.emis.de/journals/TAC/reprints/articles/10/tr10.pdf#page=37) in: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10 ([tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 In 
 
-* [[Emily Riehl]], _Weighted limits and colimits_ (2008) ([pdf](http://www.math.jhu.edu/~eriehl/weighted.pdf)) is given an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.jhu.edu/~eriehl/weighted.pdf#page=4) (in a form a bit more general than the one above).
+* [[Emily Riehl]], _Weighted limits and colimits_ (2008) ([pdf](http://www.math.jhu.edu/~eriehl/weighted.pdf)) 
+
+is given an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.jhu.edu/~eriehl/weighted.pdf#page=4) (in a form a bit more general than the one above).
 
 The analogous notion of weighted [[(infinity,1)-limit]] is discussed in
 
