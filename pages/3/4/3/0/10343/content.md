@@ -72,3 +72,5 @@ Discussion that makes the [[super L-infinity algebra]] [[homotopy theory]] under
 
 [[!redirects extended super-Minkowski spacetime]]
 [[!redirects extended super-Minkowski spacetimes]]
+
+[[!redirects extended Minkowski spacetime]]
