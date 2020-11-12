@@ -185,14 +185,18 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 
 ## Examples
 
+### Line bundle over Riemann sphere
 
-* The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]])
+* The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]]).
 
 ## Related concepts
+
+* [[Bott element]]
 
 * [[tautological equivariant line bundle]]
 
 * [[resolution of singularities]]
+
 
 ## References
 
