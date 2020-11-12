@@ -169,14 +169,15 @@ and derived from this a classification of the possible [[orbifold|orbifolding]] 
 
 Discussion via the [[conformal bootstrap]]:
 
-* Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _The M-theory Archipelago_ ([arXiv:1907.13222](https://arxiv.org/abs/1907.13222))
+* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _The M-theory Archipelago_ ([arXiv:1907.13222](https://arxiv.org/abs/1907.13222))
 
+* Damon J. Binder, [[Shai Chester]], Max Jerdee, Silviu S. Pufu, _The 3d $\mathcal{N}=6$ Bootstrap: From Higher Spins to Strings to Membranes_ ([arXiv:2011.05728](https://arxiv.org/abs/2011.05728))
 
 See also
 
 * Nadav Drukker, [[Marcos Marino]], Pavel Putrov, _From weak to strong coupling in ABJM theory_ ([arXiv:1007.3837](http://arxiv.org/abs/1007.3837))
 
-* Shai M. Chester, Silviu S. Pufu, Xi Yin, _The M-Theory S-Matrix From ABJM: Beyond 11D Supergravity_ ([arXiv:1804.00949](https://arxiv.org/abs/1804.00949))
+* [[Shai Chester]], Silviu S. Pufu, Xi Yin, _The M-Theory S-Matrix From ABJM: Beyond 11D Supergravity_ ([arXiv:1804.00949](https://arxiv.org/abs/1804.00949))
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the ABJM theory for the [[M2-brane]] is discussed in
 
