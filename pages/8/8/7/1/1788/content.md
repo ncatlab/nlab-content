@@ -617,7 +617,7 @@ the square $Sq(u,c(j,i))$ is epicartesian
 for every $i\leq j\lt \alpha$ by the assumption on $C$.
 It follows that the square $Sq(u,c(\alpha,0))$ is epicartesian by the lemma [here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#transfiniteopcompquasicart).
 This show that $c(\alpha,0)$ belongs to $\mathcal{M}^\pitchfork $,
-and hence that $$\mathcal{M}^\pitchfork $
+and hence that $\mathcal{M}^\pitchfork$
 is closed under transfinite op-compositions.
 =--
 
@@ -828,3 +828,880 @@ then $Sat^\omega(\Sigma)=Sat(\Sigma)$ is the class of anodyne maps.
 
 
 
++-- {: .num_defn #Sigmafibrant}
+######Definition
+If $u$ is a map in a category $\mathbf{E}$,
+we shall say that
+an object $X$ in $\mathbf{E}$
+is $u$-*fibrant*
+if the
+map 
+$$hom(u,X):hom(B,X)\to hom(A,X)$$
+is surjective. 
+More generally, if $\Sigma$ is a class of maps in $\mathbf{E}$,
+we shall say that
+an object $X$
+is $\Sigma$-*fibrant*
+if it is $u$-fibrant for every $u\in \Sigma$.
+When $\mathbf{E}$ has a terminal object $1$,
+then an object $X$ is $\Sigma$-fibrant
+iff the map $X\to 1$ belongs to $\Sigma^\pitchfork$.
+=--
+
+Recall that an object $A$ in a cocomplete
+category  $\mathbf{E}$ is said to be [[Compact objects|compact]]
+if the functor 
+$$hom(A,-): \mathbf{E}\to \mathbf{Set}$$
+preserves directed colimits.
+More generally, if $\alpha$ is a regular cardinal,
+then an object $A$ is said to be $\alpha$-[[Compact objects|compact]]
+if the functor $hom(A,-)$
+preserves $\alpha$-directed colimits.
+An object $A$ is said to be [[Compact objects|small]]
+if it is $\alpha$-compact
+for some regular cardinal $\alpha$.
+
+
+
+
++-- {: .num_prop #Sigmafibrantreplacement}
+######Proposition 
+(**Small object argument**)
+Let $\Sigma$ be a set of maps in a cocomplete category $\mathbf{E}$.
+If the domains of the maps in $\Sigma$ are $\alpha$-compact,
+then there exists a functor 
+$$R:\mathbf{E}\to \mathbf{E}$$
+together with a natural transformation $\rho:Id\to R$ 
+such that:
+* the object $R(X)$ is $\Sigma$-fibrant for every object $X$; 
+* the map $\rho_X:X\to R(X)$ belongs to $Cell^{\alpha}(\Sigma)$ for every $X\in \mathbf{E}$.
+
+Moreover, the functor $R$ preserves $\alpha$-directed colimits.
+=--
+
+
++-- {: .proof} 
+######Proof(Part 0)
+We first explain the rough idea of proof in the case $\alpha=\omega$.
+We begin by constructing a functor 
+$$F:\mathbf{E}\to \mathbf{E}$$
+together with a natural transformation $\theta:Id\to F$ 
+having the following properties:
+for every arrow $\sigma:A\to B$ in $\Sigma$ and every
+map $x:A\to X$, there exists a map $x^\sigma:B\to F(X)$
+fitting in a commutative square
+\begin{xymatrix}
+A \ar[d]_{\sigma} \ar[r]^{x}  &  X \ar[d]^{\theta_X}\\
+B  \ar[r]^(0.4){x^\sigma}  &  F(X).
+\end{xymatrix}
+The object $R(X)$ is then taken to be the colimit
+of the infinite sequence,
+\begin{xymatrix}
+X \ar[r]^{\theta^0} & F(X) \ar[r]^{\theta^1}& F^2(X) \ar[r]^{\theta^2} & F^3(X)\ar[r] &\cdots
+\end{xymatrix}
+where $\theta^n=\theta_{F^n(X)}$,
+and natural transformation $\rho:Id\to R$ is defined by the canonical map $X\to R(X)$. The nice properties of $\rho $
+are deduced from the nice properties of $\theta$.
+Let us show that the object $R(X)$ is $\Sigma$-fibrant.
+If $v_n:F^n(X)\to R(X)$ denotes the canonical map,
+then we have a commutative triangle
+\begin{xymatrix}
+F^n(X)  \ar[d]_{\theta^n} \ar[r]^{v_n}  & R(X)  \\
+F^{n+1}(X)  \ar[ur]_{v_{n+1}}  &
+\end{xymatrix}
+for every $n\geq 0$.
+The domain of every map $\sigma:A\to B$ in $\Sigma$
+is compact by hypothesis. It follows that 
+for every
+map $x:A\to R(X)$,
+there exist an integer $n\ge 0$ together with a map $y:A\to F^n(X)$ such that $x=v_n y$. 
+But there is then a map $y^\sigma:B\to F^{n+1}(X)$
+fitting in a commutative square
+\begin{xymatrix}
+A \ar[d]_{\sigma} \ar[r]^{y}  &  F^nX \ar[d]^{\theta^n} \\
+B  \ar[r]^(0.4){y^\sigma}  &  F^{n+1}(X).
+\end{xymatrix}
+If $z=v_{n+1}y^\sigma$, then
+$z\sigma=v_{n+1}y^\sigma \sigma =v_{n+1} \theta^n y= v_{n} y=x.$
+This shows that $R(X)$ is $\Sigma$-fibrant.
+Let us describe the construction of the functor $F$ in the case
+where $\Sigma$ consists of a single map $\sigma:A\to B$.
+If $E$ is a set we shall denote by $E\times A$
+the coproduct of $E$ copies of $A$. 
+The functor $E\mapsto E\times A$ is left adjoint 
+to the functor  $X\mapsto hom(A,X)$.
+Let $\epsilon(A,X):hom(A,X)\times A\to X$
+be the counit of the adjunction.
+By definition, we have $\epsilon(A,X)i_x=x$ for every
+$x:A\to X$, where $i_x:A\to hom(A,X)\times A$
+is the inclusion indexed by $x$.
+The object $F(X)$ and the map $\theta_X:X\to F(X)$ 
+are then defined by a pushout square
+\begin{xymatrix}
+hom(A,X)\times A  \ar[d]_{hom(A,X)\times \sigma}
+ \ar[rr]^(0.7){\epsilon(A,X)} &  &  X \ar[d]^{\theta_X} \\
+hom(A,X)\times B  \ar[rr] &  &  F(X),
+\end{xymatrix}
+For every map $x:A\to X$, the composite of the squares
+\begin{xymatrix}
+A \ar[rr]^(0.3){i_x}\ar[d]_\sigma & & hom(A,X)\times A  
+\ar[d]_{hom(A,X)\times \sigma} \ar[rr]^(0.7){\epsilon(A,X)}  &  & 
+ X \ar[d]^{\theta_X} \\
+B\ar[rr]^(0.3){i_x}&  &  hom(A,X)\times B  \ar[rr]  &  &  F(X),
+\end{xymatrix}
+is a square
+\begin{xymatrix}
+A \ar[d]_{\sigma} \ar[r]^{x}  &  X \ar[d]^{\theta_X}\\
+B  \ar[r]^(0.4){x^\sigma}  &  F(X).
+\end{xymatrix}
+=-- 
+
++-- {: .proof} 
+######Proof(Part 1) 
+We now give a full proof in the case $\alpha=\omega$.
+For every object $X\in \mathbf{E}$ 
+let us put
+$$S(X)=\bigsqcup_{\sigma\in \Sigma}  hom(s(\sigma),X)\,\times\, s(\sigma)$$
+where $s(\sigma)$ is the source of the map $\sigma$.
+This defines a functor $S:\mathbf{E}\to \mathbf{E}.$
+The counits 
+$$\epsilon(s(\sigma),X):hom(s(\sigma), X)\,\times\, s(\sigma) \to X$$
+induces a map $\epsilon_X:S(X)\to X$.
+This defines a natural transformation $\epsilon:S\to Id$,
+where $Id$ denotes the identity functor.
+By definition, if $\sigma:A\to B$ is a map in $\Sigma$, then for every
+map $x:A\to X$ we have $\epsilon_X i_{(\sigma,x)}=x$,
+where $i_{(\sigma,x)}:A\to S(X)$
+is the inclusion indexed by $(\sigma,x)$.
+For every object $X\in \mathbf{E}$ let us put 
+$$T(X)=  \bigsqcup_{\sigma\in \Sigma} 
+hom(s({\sigma}),X)\,\times\, t({\sigma}),$$
+where $t(\sigma)$ is the target of the map $\sigma$.
+This defines a functor $T:\mathbf{E}\to \mathbf{E}.$
+The coproduct over $\sigma\in \Sigma$ of the maps 
+$$hom(s(\sigma),X)\,\times\, \sigma: hom(s(\sigma),X)\,\times\, s(\sigma) \to 
+hom(s({\sigma}),X)\,\times\, t({\sigma})$$
+is a map $\phi_X:S(X)\to T(X)$. 
+This defines a natural transformation $\phi:S\to T.$
+Let us denote by $F(X)$ the object defined by
+the pushout square
+\begin{xymatrix}
+S(X) \ar[d]_{\phi_X} \ar[rr]^{\epsilon_X}  &  &  X \ar[d]^{\theta_X}\\
+T(X)  \ar[rr]  & &  F(X).
+\end{xymatrix}
+This defines a functor $F: \mathbf{E}\to  \mathbf{E}$ together
+with a natural transformation $\theta:Id\to F$.
+Observe that for every map $\sigma:A\to B$ in $\Sigma$ and every
+map $x:A\to X$, the composite of the squares
+\begin{xymatrix}
+A \ar[rr]^{i_{(\sigma,x)}}\ar[d]_\sigma & & S(X)  
+\ar[d]_{\phi_X} \ar[rr]^{\epsilon_X}  &  & 
+ X \ar[d]^{\theta_X} \\
+B\ar[rr]^{i_{(\sigma,x)}}&  &  T(X) \ar[rr]  &  &  F(X),
+\end{xymatrix}
+is a square
+\begin{xymatrix}
+A \ar[d]_{\sigma} \ar[r]^{x}  &  X \ar[d]^{\theta_X}\\
+B  \ar[r]^{x^\sigma}  &  F(X).
+\end{xymatrix}
+The colimit $R(X)$ 
+of the infinite sequence
+\begin{xymatrix}
+X \ar[r]^{\theta^0} & F(X) \ar[r]^{\theta^1}& F^2(X) \ar[r]^{\theta^2} & F^3(X)\ar[r] &\cdots
+\end{xymatrix}
+is $\Sigma$-fibrant by the part 0 of the proof, where $\theta^n=\theta_{F^n(X)}$. 
+Let us show that the canonical map $\rho_X:X\to R(X)$ 
+belongs to $Cell^{\omega}(\Sigma)$.
+For this it suffices to show that the maps $\theta_X$
+belong to $Cell^{\omega}(\Sigma)$, since an $\omega$-cellular
+class is closed under $\omega$-compositions.
+But $\theta_X$ is a cobase change of $\phi_X$,
+and $\phi_X$ is a coproduct of maps in $\Sigma$.
+This shows that $\theta_X$ belongs to $Cell^{\omega}(\Sigma)$
+by the closure preperties of this class of maps.
+It remains to show that the functor $R$
+preserves directed colimits. The functor $hom(A,-)$
+preserves directed colimits for any compact object $A$.
+Hence, also the functor $hom(A,-)\,\times\, B$
+for any object $B$, since the functor $(-)\times B$
+is cocontinuous. The functor $R$ is by construction
+a colimit of functors of the form $hom(A,-)\,\times\, B$,
+for compact objects $A$. It follows that $R$ preserves directed colimits.
+This completes the proof of the proposition in the case
+where $\alpha=\omega$.  
+=--
+
+
++-- {: .proof} 
+######Proof (Part 2) 
+Let us now consider the case where $\alpha\gt \omega$. 
+The sequence
+\begin{xymatrix}
+X \ar[r]^{\theta^0} & F(X) \ar[r]^{\theta^1}& F^2(X) \ar[r]^{\theta^2} & F^3(X)\ar[r] &\cdots
+\end{xymatrix}
+can be extended 
+cocontinuously through all the
+ordinals $\leq \alpha$ by putting 
+$$F^j(X)=\mathrm{colim}_{i\lt j}  F^i(X)$$
+for every limit ordinal $j \le \alpha$
+and by putting $F^{j+1}(X)=F(F^{j}(X))$ and
+$$\theta^j=\theta_{F^j(X)}:F^j(X)\to F^{j+1}(X)$$
+for every ordinal $j \lt \alpha$.
+Let us then put $R(X)=F^\alpha(X)$ and let $v_i:F^i(X)\to R(X)$
+be the canonical map for $i \lt \alpha$.
+This defines a functor $R:\mathbf{E}\to \mathbf{E}$
+equipped with a natural transformation $\rho_X=v_0:X\to R(X)$.
+Let us show that the object $R(X)$ is $\Sigma$-fibrant.
+For every map $\sigma:A\to B$ in $\Sigma$ and every
+map $x:A\to X$, there exist an ordinal $i \lt \alpha$ together with a map $y:A\to F^i(X)$ such that $x=v_i y$, since the object $A$
+is $\alpha$-compact.
+But there is then a map $y^\sigma:B\to F^{i+1}(X)$
+fitting in a commutative square
+\begin{xymatrix}
+A \ar[d]_{\sigma} \ar[r]^{y}  &  F^iX \ar[d]^{\theta^i} \\
+B  \ar[r]^(0.4){y^\sigma}  &  F^{i+1}(X).
+\end{xymatrix}
+If $z=v_{i+1}y^\sigma$, then
+$z\sigma=v_{i+1}y^\sigma \sigma =v_{i+1} \theta^i y= v_{i} y=x.$
+This shows that $R(X)$ is $\Sigma$-fibrant.
+We leave to the reader the verification that $\rho_X$
+belongs to $Cell^{\alpha}(\Sigma)$,
+and the verification that the functor $R$ preserves $\alpha$-directed colimits.
+=--
+
+
+If $\mathbf{E}$ is a category, then an object of the category 
+$\mathbf{E}^{[2]}$ is a composable
+pair of maps $A\to B\to C$ in the category $\mathbf{E}.$
+There is then a composition functor 
+$$\sigma_1:\mathbf{E}^{[2]}\to \mathbf{E}^{[1]}$$
+which associates to a composable
+pair $A\to B\to C$ its composite $A\to B$.
+We shall say that a section 
+$$F:\mathbf{E}^{[1]}\to \mathbf{E}^{[2]}$$
+of the functor $\sigma_1$ 
+is a *factorisation functor*.
+It associates
+to a map $f:A\to A'$ a factorisation $f=f_1f_0:A\to F(f)\to A'$,
+and it takes a
+commutative square
+\begin{xymatrix}
+A \ar[d]_{f} \ar[r]^{u}  &  B \ar[d]^{g}\\
+A'  \ar[r]^{u'}  &  B'
+\end{xymatrix}
+to a commutative diagram,
+\begin{xymatrix}
+A \ar[d]_{f_0} \ar[rr]^{u}  & &  B \ar[d]^{g_0}\\
+F(f) \ar[d]_{f_1} \ar[rr]^{F(u,u')}  &  &  F(g) \ar[d]^{g_1}\\
+A'  \ar[rr]^{u'}  & &  B'.
+\end{xymatrix}
+Moreover, we have $F(v,v')F(u,u')=F(v u,v'u')$
+for any pair of composable squares,
+\begin{xymatrix}
+A \ar[d]_{f} \ar[r]^{u}  &  B \ar[d]^{g}\ar[r]^{v} &  C\ar[d]_{h} \\
+A'  \ar[r]^{u'}  &  B'\ar[r]^{v'}  & C' .
+\end{xymatrix}
+
+
+
++-- {: .num_prop #functorialfibrantreplacement}
+######Proposition
+(**Functorial factorisation**)
+Let $\Sigma$ be a set of maps in a cocomplete category $\mathbf{E}$.
+If the domain and codomain of every map in $\Sigma$ is $\alpha$-compact
+then there exists a factorisation functor 
+$$F:\mathbf{E}^{[1]}\to \mathbf{E}^{[2]}$$
+which associates to every morphism 
+$f:A\to B$ a factorisation $f=f_1f_0: A\to F(f)\to B$
+with $f_0\in Cell^{\alpha}(\Sigma)$ and $f_1\in \Sigma^\pitchfork$.
+Moreover, the functor $F$ preserves $\alpha$-directed colimits.
+=--
+
++-- {: .proof} 
+######Proof 
+We shall use Proposition \ref{Sigmafibrantreplacement}.
+For any map $u:A\to B$ in $\mathbf{E}$,
+let us denote by $\lambda(u)$ the square
+\begin{xymatrix}
+A \ar[d]_{u} \ar[r]^{u}  &  B \ar[d]^{1_B}\\
+B  \ar@{=}[r] &  B
+\end{xymatrix}
+viewed as a morphism $u\to 1_B$ in the category $\mathbf{E}^{[1]}$.
+If $f:X\to Y$ is a map in $\mathbf{E}$,
+then the condition $u\,\pitchfork\, f$
+exactly means that the map
+$$Hom(\lambda(u),f): Hom(1_B,f)\to Hom(u,f)$$
+is surjective and hence that $f$ is $\lambda(u)$-fibrant.
+Hence a map $f:X\to Y$ belongs to $\Sigma^\pitchfork$
+iff it is $\lambda(\Sigma)$-fibrant as an object of the category
+$\mathbf{E}^{[1]}$.
+It is easy to verify that domain and codomain 
+of a map in $\lambda(\Sigma)$ are $\alpha$-compact,
+since this is true of the maps in $\Sigma$. 
+It then follows from Proposition \ref{Sigmafibrantreplacement}
+that we can construct a functor 
+$$R:\mathbf{E}^{[1]}\to \mathbf{E}^{[1]}$$
+together with a natural transformation $\rho:Id\to R$.
+This yields a commutative square
+\begin{xymatrix}
+X \ar[d]_{f} \ar[rr]^{\rho_0(f)}  &  & R_0(f) \ar[d]^{R(f)}\\
+Y \ar[rr]^{\rho_1(f)}  &  & R_1(f).
+\end{xymatrix}
+in the category $\mathbf{E}$ for every map $f:X\to Y$
+in $\mathbf{E}$. 
+The map $R(f)$ belongs to $\Sigma^\pitchfork$, since it is a
+$\lambda(\Sigma)$-fibrant object of the category $\mathbf{E}^{[1]}$.
+The morphism $\rho(f):f\to R(f)$ belongs to 
+$Cell^{\alpha}(\lambda(\Sigma))$ for every map $f\in \mathbf{E}$ by Proposition \ref{Sigmafibrantreplacement}. 
+Let us show that the map $\rho_0(f)$ belongs to 
+$Cell^{\alpha}(\Sigma)$ and that the map $\rho_1(f)$ is invertible. 
+For this, let us denote by $\mathcal{C}$ the class of 
+maps $u:A\to B$ in $\mathbf{E}^{[1]}$
+\begin{xymatrix}
+A_0 \ar[d]_{u} \ar[r]^{u_0}  &  B_0 \ar[d]\\
+A_1 \ar[r]^{u_1}  &  B_1
+\end{xymatrix}
+for which $u_0\in Cell^{\alpha}(\Sigma)$ and for which $u_1$ invertible.
+The 
+It is easy to verify that the class $\mathcal{C}$
+is $\alpha$-cellular. Moreover, we have $\lambda(\Sigma)\subseteq \mathcal{C}$. It follows that we have
+$Cell^{\alpha}(\lambda(\Sigma))\subseteq \mathcal{C}$.
+Thus, the morphism $\rho(f):f\to R(f)$ belongs to $ \mathcal{C}$
+for every $f$. Hence the map $\rho_0(f)$ belongs to 
+$Cell^{\alpha}(\Sigma)$ and the map $\rho_1(f)$ is invertible.
+We can then construct a functorial factorisation 
+$f=f_1f_0:X\to F(f)\to Y$ by putting
+$F(f)=R_0(f)$, $f_0=\rho_0(f)$
+and $f_1=\rho_1(f)^{-1}R(f)$.
+By construction, we have $f_0\in \Cell^{\alpha}(\Sigma)$
+and $f_1\in \Sigma^\pitchfork$.
+The functor $F$ preserves $\alpha$-directed colimits,
+since the functor $R$ preserves $\alpha$-directed colimits.
+=--
+
+
+
+
++-- {: .un_remark #remarkfunctorialfactorisationstrong}
+######Remark
+The first part of the proposition can be proved
+under the weaker assumption that the domains
+of the maps in $\Sigma$ are $\alpha$-compact
+(but the resulting factorisation functor $F$ may not preserves
+$\alpha$-directed colimits). 
+See Exercise \ref{functorialfactorisationstrong}.
+=--
+
+
+
+Recall from Definition \ref{saturatedclassesdef} that $Sat(\Sigma)$ denotes 
+the saturated class generated by a class $\Sigma$.
+
++-- {: .num_theorem #existenceofWFS}
+######Theorem
+Let $\Sigma$ be a set of maps between small objects in a cocomplete category $\mathbf{E}$. Then the pair $(Sat(\Sigma),\Sigma^\pitchfork)$
+is a weak factorisation system.
+Moreover, if $\Sigma$ is a set of maps between $\alpha$-compact objects, 
+then every morphism in $Sat(\Sigma)$
+is a codomain retract of a morphism in $Cell^{\alpha}(\Sigma)$. 
+=--
+
++-- {: .proof} 
+######Proof 
+We shall apply Proposition \ref{WFS2} to the classes 
+$\mathcal{L}=Sat(\Sigma)$ and $\mathcal{R}=\Sigma^\pitchfork$.
+The class $\mathcal{L}$ is closed under codomain retracts,
+since it is saturated. The class $\mathcal{R}$
+is closed under domain retracts by Proposition \ref{closureofcomplements}
+since it is a right complement $\Sigma^\pitchfork$.
+Let us show that we have $\mathcal{L}\,\pitchfork\, \mathcal{R}$.
+We have $\Sigma \subseteq {}^\pitchfork(\Sigma^\pitchfork)=\mathcal{R}^\pitchfork$. Thus, $Sat(\Sigma)\subseteq \mathcal{R}^\pitchfork$,
+since the class $\mathcal{R}^\pitchfork$ is saturated
+by Proposition \ref{leftsaturatedissaturated}.
+This proves that $\mathcal{L}\,\pitchfork\, \mathcal{R}$.
+Let us choose a regular cardinal $\alpha$ for which
+$\Sigma$ is a set of maps between $\alpha$-compact objects.
+It then follows from Proposition \ref{functorialfibrantreplacement}
+that every map $f:X\to Y$
+admits a factorisation $f=p u:X\to E\to Y$
+with $u\in Cell^{\alpha}(\Sigma)$ and $p\in \mathcal{R}$.
+But we have $Cell^{\alpha}(\Sigma)\subseteq Sat(\Sigma)$
+since a saturated class is $\alpha$-cellular for any
+regular cardinal $\alpha$ by Lemma \ref{saturatedarecoproductclosed} 
+This shows that $u\in \mathcal{L}$
+and hence that the pair $(\mathcal{L},\mathcal{R})$
+is a weak factorisation system by Proposition \ref{WFS2}.
+It remains to prove that every morphism in $\mathcal{L}$
+is a codomain retract of a morphism in $Cell^{\alpha}(\Sigma)$. 
+If $u:A\to B$ belongs to $\mathcal{L}$,
+let us choose a factorisation $u=p v:X\to E\to Y$
+with $v\in Cell^{\alpha}(\Sigma)$ and $r\in \mathcal{R}$.
+The square
+\begin{xymatrix}
+A \ar[d]_{u} \ar[r]^{v}  &  E \ar[d]^r\\
+B \ar@{=}[r]   &  B
+\end{xymatrix}
+has a diagonal filler $s:B\to E$, since we have $u\pitchfork r$.
+This shows that $u$ is a codomain retract of $v$.
+=--
+
+
++-- {: .num_cor #existenceofWFSinlocprescat}
+######Corollary
+Let $\Sigma$ be a set of maps in a [[locally presentable category]] 
+$\mathbf{E}$. Then the pair $(Sat(\Sigma),\Sigma^\pitchfork)$
+is a weak factorisation system.
+=--
+
++-- {: .proof} 
+######Proof 
+This follows from theorem \ref{existenceofWFS},
+since every object of a locally presentable category is small.
+=--
+
+
+
+
+
+##Functorial aspects##
+
+
+
+
++-- {: .num_prop #adjointfunctorliftingprop}
+######Lemma
+Let $F:\mathbf{C}\leftrightarrow \mathbf{D}:G$ be a pair of adjoint functors
+between two categories $\mathbf{C}$ and $\mathbf{D}$.
+If $u:A\to B$ is an arrow  in $\mathbf{C}$
+and $f:X\to Y$ is an arrow in $\mathbf{D}$, then the two conditions
+
+$$F(u)\,\pitchfork\, f \quad \mathrm{and}\quad u \,\pitchfork\,  G(f) $$
+are equivalent.
+=--
+
+
+
+
++-- {: .proof} 
+######Proof
+The adjunction $\theta:F\dashv G$
+induces a bijection between the following commutative squares
+and their diagonal fillers,
+\begin{xymatrix}
+A \ar[d]_u \ar[r]^{\theta(x)}& GX  \ar[d]^{Gf}  \\
+B \ar[r]_{\theta(y)}    \ar@{-->}[ur]^{\theta(d)}  & GY.
+\end{xymatrix}
+=--
+
+
++-- {: .num_prop #adjointfunctorandwfs}
+######Proposition
+Let $F:\mathbf{C}\leftrightarrow \mathbf{D}:G$ be a pair of adjoint functors
+between two categories $\mathbf{C}$ and $\mathbf{D}$.
+If $(\mathcal{L},\mathcal{R})$ is a weak factorisation system
+in the category $\mathbf{C}$ and $(\mathcal{L}',\mathcal{R}')$ 
+a weak factorisation system
+in $\mathbf{D}$, then the two conditions
+$$F(\mathcal{L})\subseteq \mathcal{L}'\quad \mathrm{and}
+\quad G(\mathcal{R}')\subseteq \mathcal{R} $$
+are equivalent.
+=--
+
++-- {: .proof} 
+######Proof
+The condition $F(\mathcal{L})\subseteq \mathcal{L}'$ is equivalent
+to the condition $F(\mathcal{L})\,\pitchfork\, \mathcal{R}'$,
+since $\mathcal{L}'={}^\pitchfork\mathcal{R}'$.
+But the condition $F(\mathcal{L})\,\pitchfork\, \mathcal{R}'$
+is equivalent to the condition $\mathcal{L}\,\pitchfork\, G(\mathcal{R}')$
+by Lemma \ref{adjointfunctorliftingprop}.
+But the condition $\mathcal{L}\,\pitchfork\, G(\mathcal{R}')$
+is equivalent to the condition $G(\mathcal{R}')\subseteq \mathcal{R}$,
+since $\mathcal{R}=\mathcal{L}^\pitchfork$.
+=--
+
+
+
+
+
+
+##Examples##
+
+
+###In algebra###
+
+
+
++-- {: .num_example #projectivemodule}
+######Example
+If $R$ is a ring, we shall say that a morphism of (left) $R$-modules 
+is *projective* if it has the left lifting property with respect to
+the the epimorphisms.  An $R$-module
+$M$ is projective iff the morphism $0\to M$ is projective.
+More generally, a map of $R$-modules $u:M\to N$ is projective iff 
+it is monic and its cokernel is a projective $R$-module. 
+The category of $R$-modules admits a weak 
+factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
+is the class of projective morphisms and $\mathcal{R}$ is the class of 
+epimorphisms. 
+=--
+
+
+
+
+
++-- {: .num_example #splitepimorphism}
+######Example
+A category with finite coproducts  $\mathbf{E}$
+admits a factorisation system $(\mathcal{L},\mathcal{R})$ in which 
+$\mathcal{R}$ is the class of split epimorphisms.
+A morphism $u:A\to B$ belongs to $\mathcal{L}$ 
+iff it is a codomain retract of an inclusion
+$in_1:A\to A\sqcup B$.
+=--
+
+
++-- {: .num_example #projectivemaps}
+######Example
+We shall say that a homomorphism of groups is *projective*
+if it has the left lifting property with respect to
+the surjective homomorphisms. 
+The category of groups $\mathbf{Grp}$ admits a weak
+factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
+is the class of projective homorphisms and $\mathcal{R}$ is the class of 
+surjective homomorphisms. More generally, if $\mathbf{V}$ is a [[variety
+of algebras]], we shall say that a morphism in $\mathbf{V}$ 
+is **projective** if it has the left lifting property with respect to
+surjective morphisms. A morphism is projective iff 
+it is the codomain retract of an inclusion
+$in_1:A\to A\sqcup C$, where $C$ is a free algebra.
+Then the category $\mathbf{V}$ admits
+a factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
+is the class of projective morphisms and $\mathcal{R}$ is the class of 
+surjective morphisms. 
+=--
+
+
+
+
+
+
++-- {: .num_example #trivialfibrationab}
+######Example
+If $R$ is a ring, we shall say that a homomorphism of (left) $R$-modules is a *trivial fibration* if it has the right lifting property with respect to every monomorphism. The category of left $R$-modules $mathbf{RMod}$ admits a weak factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$ is the class of monomorphisms and $\mathcal{R}$ is the class of trivial fibrations. More generally, any [[Grothendieck abelian category]]
+admits such a factorisation system. An object $X$ is said to be *injective* if the map $X\to 1$ is a trivial fibration.
+=--
+
+
++-- {: .num_example #trivialfibrationbool}
+######Example
+We shall say that a homomorphism of boolean algebras is a *trivial fibration* if it has the right lifting property with respect to every monomorphism. 
+The category of boolean algebras admits a weak 
+factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
+is the class of monomorphisms and $\mathcal{R}$ is the class of trivial
+fibrations. A boolean algebra is **injective** iff it is complete.
+=--
+
+
+
+
+
+###In Cat###
+
+
++-- {: .num_example #naturalmodelstructurecatWFS}
+######Example
+We recall that the category of small categories $\mathbf{Cat}$ admits a [natural model structure](http://ncatlab.org/joyalscatlab/show/Model+structures+on+Cat) $(\mathcal{C},\mathcal{W},\mathcal{F})$ in 
+which $\mathcal{C}$ is the class of functors monic
+on objects, $\mathcal{W}$ is the class of equivalences
+of categories and $\mathcal{F}$ is the class of
+[isofibrations](http://ncatlab.org/joyalscatlab/show/Model+structures+on+Cat#isofibrationdef).
+Hence the category $\mathbf{Cat}$ admits two weak factorisation
+systems $( \mathcal{C}\cap \mathcal{W},\mathcal{F})$
+and $(\mathcal{C},\mathcal{W}\cap \mathcal{F})$.
+In the first, $ \mathcal{C}\cap \mathcal{W}$
+is the class of equivalences
+monic on objects and $\mathcal{F}$ is the class of isofibrations.
+In the second, $ \mathcal{C}$
+is the class of functors
+monic on objects and $\mathcal{W}\cap \mathcal{F}$
+is the class of equivalences surjective on objects.
+=--
+
+
++-- {: .num_example #1final1fibWFS}
+######Example
+We shall say that a small category $A$ is *1-connected*
+if its fundamental groupoid $\pi_1(A)$ is equivalent 
+to the terminal category 1.
+We shall that a functor  between small categories $u:A \to B$
+is *1-final* if the category $b \backslash A=b \backslash B \times_{B} A$
+defined by the pullback square
+\begin{xymatrix}
+b \backslash A \ar[d] \ar[r] & A\ar[d]^u\\
+b \backslash B\ar[r] & B.
+\end{xymatrix}
+is 1-connected for every object $b\in B$.
+We shall say that a [[Grothendieck fibration]] 
+is a *1-fibration* if its
+fibers are groupoids.
+The category $\mathbf{Cat}$
+admits a weak factorisation system $(\mathcal{L}, \mathcal{R})$ in which 
+$\mathcal{L}$ the class of 1-final functors monic on objects
+and $\mathcal{R}$ is the class of 1-fibrations.
+=--
+
+
++-- {: .num_example #1initial1opfibWFS}
+######Example
+Let us say that a functor between small categories $u:A \to B$
+is *1-initial* if the category $b \backslash A=
+(B/b) \times_{B} A$
+defined by the pullback square
+\begin{xymatrix}
+ A/b \ar[d] \ar[r] & A\ar[d]^u\\
+B/b\ar[r] & B.
+\end{xymatrix}
+is connected for every object $b\in B$.
+We shall say that a Grothendieck opfibration 
+is a *1-opfibration*
+if its fibers are groupoids.
+The category $\mathbf{Cat}$
+admits a weak factorisation system $(\mathcal{L}, \mathcal{R})$ in which 
+$\mathcal{L}$ the class of 1-initial functors monic on objects
+and $\mathcal{R}$ is the class of 1-opfibrations.
+=--
+
++-- {: .num_example #1connected1bifibWFS}
+######Example
+Let us say that a functor between small categories $u:A\to B$
+is  *1-connected* if the map
+of simplicial sets $N(u):N(A)\to N(B)$ is [[1-connected]],
+where $N:\mathbf{Cat} \to \mathbf{SSet}$ is the nerve 
+functor. We shall say that a Grothendieck bifibration 
+is a *1-bifibration*
+if its fibers are groupoids.
+The category $\mathbf{Cat}$ admits a 
+weak factorisation system
+$(\mathcal{L}, \mathcal{R})$ in which
+$\mathcal{L}$ the class of 1-connected functors monic on objects
+and $\mathcal{R}$ is the class of 1-bifibrations.
+=--
+
+
+
+###In SSet###
+
+
+
+
+
+
++-- {: .num_example #KanfibRLPex}
+######Example
+Let $\Sigma$ be the set of inclusions 
+$h^k_n: \Lambda^k[n] \subset  \Delta[n]$
+($n\gt 0, 0\le k\le n$) in the category of simplicial sets.
+A map of simplicial sets is a [[Kan fibration]]
+if it belongs to $\Sigma^\pitchfork$,
+and a map is *anodyne*
+if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
+The category of simplicial sets $\mathbf{SSet}$
+admits a weak 
+factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
+is the class of anodyne maps and $\mathcal{R}$ is the class of 
+Kan fibrations.
+=--
+
+
+
+
++-- {: .num_example #rightanodynerightfibWFS}
+######Example
+Let $\Sigma$ be the set of inclusions 
+$h^k_n: \Lambda^k[n] \subset  \Delta[n]$ ($0\lt k\le n$)
+in the category of simplicial sets.
+A map of simplicial sets is a [[right fibration]]
+if it belongs to $\Sigma^\pitchfork$,
+and a map is *right anodyne*
+if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
+The category of simplicial sets $\mathbf{SSet}$
+admits a weak 
+factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
+is the class of right anodyne maps and $\mathcal{R}$ is the class of 
+right fibrations.
+=--
+
+
+
+
++-- {: .num_example #leftanodyneleftfibWFS}
+######Example
+Let $\Sigma$ be the set of inclusions 
+$h^k_n: \Lambda^k[n] \subset  \Delta[n]$ ($0\le k\lt n$)
+in the category of simplicial sets.
+A map of simplicial sets is a [[left fibration]]
+if it belongs to $\Sigma^\pitchfork$,
+and a map is *left anodyne*
+if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
+The category of simplicial sets $\mathbf{SSet}$
+admits a weak factorisation system $(\mathcal{L},\mathcal{R})$ 
+in which $\mathcal{L}$ is the class of left anodyne maps and 
+$\mathcal{R}$ is the class of left fibrations.
+=--
+
+
+
+
+
++-- {: .num_example #midanodynemidfibWFS}
+######Example
+Let $\Sigma$ be the set of inclusions 
+$h^k_n: \Lambda^k[n] \subset  \Delta[n]$ ($0\lt k\lt n$)
+in the category of simplicial sets.
+A map of simplicial sets is a [[mid fibration]]
+if it belongs to $\Sigma^\pitchfork$,
+and a map is *mid anodyne*
+if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
+The category of simplicial sets $\mathbf{SSet}$
+admits a weak factorisation system $(\mathcal{L},\mathcal{R})$ 
+in which $\mathcal{L}$
+is the class of mid anodyne maps and $\mathcal{R}$ is the class of 
+mid fibrations.
+=--
+
+
+
+###More examples###
+
+
+
+
++-- {: .num_example #Model structureWFS}
+######Example
+We recall that a 
+[Quillen model structure](http://ncatlab.org/joyalscatlab/show/Model+categories) on a category $\mathbf{E}$
+is a triple $(\mathcal{C},\mathcal{W},\mathcal{F})$ 
+of classes of maps in $\mathbf{E}$ satisfying the following two axioms:
+* the class $\mathcal{W}$ has the _three-for-two_ property; 
+* The pairs $( \mathcal{C}\cap \mathcal{W},\mathcal{F})$ and 
+$(\mathcal{C},\mathcal{W}\cap \mathcal{F})$ 
+are weak factorisation systems.
+=--
+
+
++-- {: .num_example #trivialfibrationinatoposdef}
+######Example
+[Recall](http://ncatlab.org/joyalscatlab/show/Trivial+fibrations+in+a+topos#trivialfibrationdef)
+that a map in a topos is called a *trivial fibration* if it has the right lifting property with respect to every monomorphism.
+This terminology is non-standard but useful. 
+If $\mathcal{L}$ is the class of monomorphisms in the topos and 
+$\mathcal{R}$ is the class of trivial fibrations then the pair 
+$(\mathcal{L},\mathcal{R})$ is a weak factorisation system
+by a proposition [here](http://ncatlab.org/joyalscatlab/show/Trivial+fibrations+in+a+topos#monotrivialfibrationWFS).
+An object $X$ in the topos is said to be **injective** if the map $X\to 1$ is a trivial fibration. 
+=--
+
+
+
+
++-- {: .num_example #pullbackWFS} 
+######Example
+If $\mathbf{C}$ is a category with pullbacks, then
+to every weak factorisation system
+$(\mathcal{L},\mathcal{R})$ in $\mathbf{C}$ is associated 
+a weak factorisation system $(\mathcal{L}',\mathcal{R}')$ in the category $[I,\mathbf{C}]$ (by the proposition 
+[here](http://ncatlab.org/joyalscatlab/show/Epi-cartesian+squares#anchor1Rcartesianweakfactsystem)),
+where $\mathcal{R}'$ is the class of $\mathcal{R}$-cartesian squares.
+In particular, the class of epi-cartesian squares in the category of sets is the right class of a weak factorisation system in the category $[I,\mathbf{Set}]$.
+=--
+
+
+
+##Exercises##
+
+
+
+
++--{: .num_exercise #problemliftingwfs}
+######Exercise
+Let $p:\mathbf{E}'\to \mathbf{E}$ be a discrete Conduché fibration.
+Recall that this means that for every morphism $f:A\to B$ in $\mathbf{E}$
+and every factorisation $p(f)=v u:p(A)\to E\to p(B)$ of the morphism
+$p(f)$, there exists a unique factorisation $f=v'u':A\to E'\to B$
+of the morphism $f$ such that $p(v')=v$ and $p(u')=u$.
+Discrete fibrations and a discrete opfibrations
+are examples of discrete Conduché fibrations.
+If $\mathcal{M}$ is a class of maps in $\mathbf{E}$, let
+us denote by $\mathcal{M}'$ the class of maps $p^{-1}(\mathcal{M})$
+in $\mathbf{E}'$. Show that if $(\mathcal{L},\mathcal{R})$ is a 
+weak factorisation system in the category $\mathbf{E}$, then the pair
+$(\mathcal{L}',\mathcal{R}')$ is a weak factorisation system
+in the category $\mathbf{E}'$. 
+=--
+
+
+
+
+
++-- {: .num_exercise #functorialfactorisationstrong}
+######Exercise
+Show that the functorial factorisation of \ref{functorialfibrantreplacement}
+can be obtained under the weaker assumption that the domains
+of the maps in $\Sigma$ are $\alpha$-compact.
+(but the resulting factorisation functor $F$ may not preserves
+$\alpha$-directed colimits).
+=--
+
+
+## References ##
+
+Papers:
+
+
+
+* Adamek, J., Herrlich, H., Rosicky, J., Tholen, W.: _Weak factorisation systems and topological functors_. Appl. Categorical Structures **10**
+(2002) 237-249. 
+
+
+* Adamek, J., Herrlich, H., Rosicky, J., Tholen, W.: _On a generalised small-objects argument for the injective subcategory problem_. Cah. Topol. Géom. Différ. Catég. **43**(2), 83-106 (2002)
+
+
+* Bousfield, A.K.: _Constructions of factorization systems in categories_. J. Pure and Applied Algebra **9** (2-3), 207-220 (1977) 
+
+
+* Freyd, P.J., Kelley, G.M.: _Categories of continuous functors_. I. J. Pure Appl. Algebra **2**, 169-191 (1972)
+
+
+* Garner, R.: _Understanding the small objects argument_. Applied Categorical Structure.([pdf](http://arxiv.org/abs/0712.0724))
+
+* Grandis, M., Tholen, W.: _Natural weak factorisation systems_. Arch. Math. **42**, 397-408 (2006)([website](http://www.math.yorku.ca/~tholen/)) 
+ 
+
+* Kelly, G.M.: _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on_. Bull. Austral. Math. Soc. **22**(1), 1-83 (1980)
+
+Lecture Notes and Textbooks:
+
+
+
+* Gabriel, P., Ulmer, F.: _Lokal präsentierbare Kategorien_. Lecture Notes in Mathematics, vol.221. Springer-Verlag, Berlin (1971)
+
+
+* Gabriel, P., Zisman, M.: _Calculus of fractions and homotopy theories_. Ergeb. der Math. undihrer Grenzgebiete, vol 35, Springer-Verlag, New-York  (1967)
+
+
+
+* Hirschhorn, Philip S.: _Model categories and their localization_. AMS Math. Survey and Monographs Vol 99 (2002)
+
+
+* Hovey, Mark: _Model categories_. AMS Math. Survey and Monographs Vol 63 (1999)
+
+
+* Quillen, Daniel: _Homotopical algebra_ Lecture Notes in Mathematics, vol. 43. Springer Verlag, Berlin (1967)
+
+
+[[!redirects weak factorisation system]]
+[[!redirects weak factorisation systems]]
+[[!redirects weak factorization system]]
+[[!redirects weak factorization systems]]
+[[!redirects Weak+factorization+systems]]
