@@ -25,11 +25,13 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 * [[wall crossing]]
 
+* [[defect brane]]
 
 ## References
 
-* [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
- {#VilenkinShellard94}
+* {#VilenkinShellard94} [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
+
+See also: 
 
 * Wikipedia, _[Domain wall](http://en.wikipedia.org/wiki/Domain_wall)_
 
