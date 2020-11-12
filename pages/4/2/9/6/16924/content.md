@@ -104,6 +104,11 @@ Further intersection with [[orientifolds]]:
 
 * [[Taro Kimura]], Rui-Dong Zhu, Section 2 and 3  of _Web Construction of ABCDEFG and Affine Quiver Gauge Theories_ ([arXiv:1907.02382](https://arxiv.org/abs/1907.02382))
 
+On $(p,q)$-5-branes as [[defect branes]]:
+
+* Tetsuji Kimura, _Defect $(p,q)$ Five-branes_, Nucl.Phys. B893 (2015) 1-20 ([arXiv:1410.8403](https://arxiv.org/abs/1410.8403), [doi:10.1016/j.nuclphysb.2015.01.023](https://doi.org/10.1016/j.nuclphysb.2015.01.023))
+
+
 [[!redirects (p,q)5-branes]]
 
 [[!redirects (p,q)5-brane web]]
