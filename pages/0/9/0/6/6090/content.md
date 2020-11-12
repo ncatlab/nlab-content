@@ -7614,7 +7614,13 @@ See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show
 
 Early work basing [[perturbative quantum field theory]] on the concept of the S-matrix is
 
-* {#Heisenberg43} [[Werner Heisenberg]], Zeitschrift für Physik 120, 513, 1943
+* {#Heisenberg43} [[Werner Heisenberg]], _Die "beobachtbaren Größen" in der Theorie der Elementarteilchen_, Zeitschrift für Physik 120, 513, 1943 ([doi:10.1007/978-3-642-70078-1_44](https://doi.org/10.1007/978-3-642-70078-1_44))
+
+recalled in
+
+* Alexander S. Blum, _The state is not abolished, it withers away: how quantum field theory became a theory of scattering_ ([arXiv:2011.05908](https://arxiv.org/abs/2011.05908))
+
+
 
 This proposal was vocally promoted as the "bootstrap program" by [[Geoffrey Chew]] and [[Stanley Mandelstam]] (see [Chew 70](#Chew70)).
 
