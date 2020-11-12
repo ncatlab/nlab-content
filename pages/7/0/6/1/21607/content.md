@@ -68,8 +68,8 @@ That various definitions in the literature coincide with this one (in particular
 
 Relation to [[action functionals]] for [[topological field theories]]:
 
-* Joe Davighi, Ben Gripaios, Oscar Randal-Williams, _Differential cohomology and topological actions in physics_ ([arXiv:2011.05768](https://arxiv.org/abs/2011.05768))
+* Joe Davighi, Ben Gripaios, [[Oscar Randal-Williams]], _Differential cohomology and topological actions in physics_ ([arXiv:2011.05768](https://arxiv.org/abs/2011.05768))
 
 
 
-[[!redirects ordinary equivariant differential cohomology]]* 
+[[!redirects ordinary equivariant differential cohomology]]
