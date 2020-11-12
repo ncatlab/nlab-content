@@ -726,6 +726,10 @@ $$
 
 * [[Fubini-Study metric]]
 
+* [[projective G-space]]
+
+  [[infinite complex projective G-space]]
+
 ## References
 
 See also
