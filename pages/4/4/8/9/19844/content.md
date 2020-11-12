@@ -721,6 +721,8 @@ _New physics in $b\to s \ell \ell$ decays with complex Wilson coefficients_ ([ar
 
 * N. Penalva, E. Hernández, J. Nieves, _$\bar B_c \to \eta_c$, $\bar B_c \to J/\psi$ and $\bar B \to D^{(\ast)}$ semileptonic decays including new physics_ ([arXiv:2007.12590](https://arxiv.org/abs/2007.12590))
 
+* Aishwarya Bhatta, Rukmani Mohanta, _Implications of new physics in $B \to K_1 \mu^+ \mu^-$−decay processes_ ([arXiv:2011.05820](https://arxiv.org/abs/2011.05820))
+
 
 In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 
