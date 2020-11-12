@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Homotopical algebra
++--{: .hide}
+[[!include Homotopical algebra content]]
+=--
 #### Category theory
 +--{: .hide}
 [[!include Category theory content]]
@@ -11,1600 +15,2206 @@
 
 \tableofcontents
 
-##Main definitions##
+##Model structures##
 
+###Definitions###
 
++-- {: .num_defn #3for2}
+###### Definition
+We say that a class $\mathcal{W}$  of maps 
+in a category $\mathbf{E}$ has the **three-for-two** property 
+if for any commutative triangle
+\begin{xymatrix}
+A \ar[dr]_w \ar[r]^u & B\ar[d]^v\\
+ & C
+\end{xymatrix}
+in which two of the three maps
+belong to $\mathcal{W}$, then so is the third.
+=--
 
++-- {: .un_remark #Qmodelstructdef}
+######Remark
+We call this property *three-for-two* rather than 
+*two-for-three* because this is like getting *three apples for
+the price of two* in a food store.
+=--
 
-+-- {: .num_defn #liftingproperty}
++-- {: .num_defn #Qmodelstructdef}
 ######Definition
-We shall say that a map $u:A\to B$ in a category $\mathbf{E}$ 
-has the *left lifting property* with respect to a map $f:X\to Y$, 
-or that $f$ has the *right lifting property* with respect to $u$,
-if every commutative square
-\begin{xymatrix}
-A  \ar[d]_u \ar[r]^{x}  & X \ar[d]^{f}  \\
-B \ar[r]_{y}         & Y
-\end{xymatrix}
-has a _diagonal filler_ $d:B\to X$,
-\begin{xymatrix}
-A  \ar[d]_u \ar[r]^{x} & X \ar[d]^{f}  \\
-B \ar[r]_{y} \ar[ur]^d        & Y
-\end{xymatrix}
-We shall denote this relation by $u\,\pitchfork\, f$.
-Notice that the condition $u\,\pitchfork\, f$ means that
-the following commutative square $Sq(u,f)$,
-\[
-\label{20}
-\]
-\begin{xymatrix}
-hom(B,X)  \ar[d]_{hom(B,f)}  \ar[rr]^{hom(u,X)}  & & hom(A,X)  \ar[d]^{hom(A,f)}  \\
-hom(B,Y) \ar[rr]_{hom(u,Y)}      & & hom(A,Y),
-\end{xymatrix}
-is [epicartesian](http://ncatlab.org/joyalscatlab/show/Cartesian+squares),
-or equivalently if the map
-$$Hom(u,f)': hom(B,X)\to hom(B,Y) \times_{hom(A,Y)}hom(A,X)$$
-is surjective.
+We shall say that a triple $(\mathcal{C},\mathcal{W},\mathcal{F})$ 
+of classes of maps in finitely bicomplete category $\mathbf{E}$ is a **Quillen model structure**, or just a **model structure**, 
+ if the following conditions are satisfied:
+* the class $\mathcal{W}$ has the _three-for-two_ property; 
+* The pairs $( \mathcal{C}\,\cap \,\mathcal{W},\mathcal{F})$ and 
+$(\mathcal{C},\mathcal{F}\,\cap\, \mathcal{W})$ 
+are weak factorisation systems.
+
+A  **Quillen model category**, or just a **model category**,
+is a category $\mathbf{E}$ equipped with a model structure.
 =--
 
 
-
-
-
-+-- {: .un_defn #notationliftcomplement}
-######Notation
-If $\mathcal{M}$
-is a class of maps,
-we shall denote by ${}^\pitchfork\!\mathcal{M}$ (resp. 
-$\mathcal{M}^\pitchfork$)
-the class of maps having the left (resp. the right) lifting property
-with respect to every map in $\mathcal{M}$.
-We shall say that ${}^\pitchfork\!\!\mathcal{M}$ is the *left complement* of
-$\mathcal{M}$, and that $\mathcal{M}^\pitchfork$ is its *right complement*.
++-- {: .un_remark #Qmodelstructdef2}
+######Remark
+The definition above is equivalent to the notion of *closed model
+structure* introduced by Quillen. The proof of the
+equivalence depends on Tierney's lemma \ref{Wclosedunderretracts}
+below.
 =--
 
 
+A map in $\mathcal{F}$ is called a **fibration**,
+a map in $\mathcal{C}$ a **cofibration**
+and a map in $\mathcal{W}$ a **weak equivalence**.
+A map in $\mathcal{W}$ is also said to be **acyclic**.
+It follows from the axioms that every
+map $f:A\to B$ admits a factorisation $f=p u:A\to E\to B$
+with $u$ an acyclic cofibration and $p$ a fibration,
+and also a factorisation $f=q v:A\to F\to B$
+with $v$ a cofibration and $q$ an acyclic fibration.
 
 
-+-- {: .un_example #KanfibRLPex}
-######Example
-Recall  that a map of simplicial sets is said to be a [[Kan fibration]]
-if it has the right lifting property with respect to 
-the inclusion $h^k_n: \Lambda^k[n] \subset  \Delta[n]$
-for every $n\gt 0$ and $0\le k\le n$. 
-A simplicial set $X$ is a [[Kan complex]] iff
-the map $X\to 1$ is a Kan fibration.
+An object $X\in \mathbf{E}$ is said to be **fibrant**
+if the map $X\to \top$ is a fibration, where $\top$
+is the terminal object of $\mathbf{E}$. Dually, an object
+$A\in \mathbf{E}$ is said to be **cofibrant**
+if the map $\bot \to A$ is a cofibration, where $\bot$
+is the initial object.
+We shall say that an object is **fibrant-cofibrant**
+if it is both fibrant and cofibrant.
+
+
+
+A model structure is said to be **right proper** if the base change 
+of a weak equivalence 
+along a fibration is a weak equivalence. 
+Dually, a model structure is said to be **left proper** if the cobase change
+of a weak equivalence 
+along a cofibration is a 
+weak equivalence.
+A model structure is said to be **proper**
+if it is both left and right proper. 
+
+
+
++-- {: .un_example #trivialmodstr}
+###### Example
+We shall say that a model structure $( \mathcal{C},\mathcal{W},\mathcal{F})$ on a category $\mathbf{E}$ is **trivial**
+if $\mathcal{W}$ is the class of isomorphisms,
+in which case $\mathcal{C}=\mathbf{E}=\mathcal{F}$.
 =--
 
-+-- {: .un_example #isofibationRLPex}
-######Example
-Let $J$ be the groupoid generated by one isomorphism $0\simeq 1$. 
-Then a functor in the category $\mathbf{Cat}$
-is an [[isofibration]] iff it has the right lifting property
-with respect to the inclusion $\{0\}\subset J$.
++-- {: .un_example #coarsemodstr}
+###### Example
+We shall say that a model structure $( \mathcal{C},\mathcal{W},\mathcal{F})$ on a category $\mathbf{E}$
+is **coarse** if $\mathcal{W}$ is the class of all maps,
+in which case the pair $(\mathcal{C},\mathcal{F})$
+is just an arbitrary weak factorisation system in the category $\mathbf{E}$.
 =--
 
+For less trivial examples, see \ref{Kanmodelstructurecat}.
 
 
 
-+-- {: .num_defn #WFS}
-######Definition
-We shall say that a pair $(\mathcal{L},\mathcal{R})$ of classes of maps
-in a category $\mathbf{E}$ is a **weak factorisation system**
-if the following conditions are satisfied:
-
-* every map $f:A\to B$ admits a factorisation $f=p u:A\to E\to B$ 
-with $u\in \mathcal{L}$ and $p\in \mathcal{R}$;
-
-
-* $\mathcal{L}= {}^\pitchfork\mathcal{R}$ and 
-$\mathcal{R}=\mathcal{L}^\pitchfork $;
-
-=--
-
-We shall say that a factorisation $f=p u:A\to E\to B$ with $u\in \mathcal{L}$ and $p\in \mathcal{R}$ is a $(\mathcal{L},\mathcal{R})$-*factorisation* of the map $f$. The class $\mathcal{L}$ is called the *left class* of the system, and the class $\mathcal{R}$ is called the *right class* . 
-
-
-
-
-+-- {: .un_defn #FSimpliesWFS}
-######Example
-Every [[factorisation system]] is a weak factorisation system
-by the theorem [here](http://ncatlab.org/joyalscatlab/show/Factorisation+systems#FS4).
-=--
-
-
-
-+-- {: .un_example #surj-injFS}
-######Example
-The category of sets $\mathbf{Set}$
-admits a weak factorisation system $(Inj,Surj)$, where
-$Inj$ the class of injections 
-and $Surj$ is the class of surjections.
-=--
-
-For more examples of weak factorisation systems, go to 
-Example \ref{projectivemodule}.
-
-
-
-+-- {: .un_prop #WFSdual}
++-- {: .un_prop #Qmodelsdual}
 ######Duality
-If $( \mathcal{L},\mathcal{R})$ is a weak factorisation system
-in a category $\mathbf{E}$, then the pair
-$(\mathcal{R}^o,\mathcal{L}^o)$ is a weak factorisation system
-in the opposite category $\mathbf{E}^o$.
+If $( \mathcal{C},\mathcal{W},\mathcal{F})$ is a model structure
+on a category $\mathbf{E}$, then the triple 
+$(\mathcal{F}^o,\mathcal{M}^o,\mathcal{C}^o)$ is a model structure on the opposite category $\mathbf{E}^o$.
 =--
 
 
-If $\mathcal{M}$ is a class of maps in a category $\mathbf{E}$,
-then for any object $B\in \mathbf{E}$ we shall denote
-by $\mathcal{M}/B$ the class of maps in the slice
-category $\mathbf{E}/B$
+If $B$ is an object of a category $\mathbf{E}$
+and $\mathcal{M}$ is a class of maps in $\mathbf{E}$, we shall denote
+by $\mathcal{M}/B$ the class of maps in $\mathbf{E}/B$
 whose underlying map in $\mathbf{E}$ belongs to $\mathcal{M}$.
-Dually, we shall denote by $B\backslash \mathcal{M}$ the class of maps in the coslice category $B\backslash \mathbf{E}$ whose underlying map belongs to $\mathcal{M}$.
+Dually, we shall denote by $B\backslash \mathcal{M}$ the class of maps in $B\backslash \mathbf{E}$ whose underlying map belongs to $\mathcal{M}$.
 
 
 +--{: .un_prop #slicewfs}
-###### Slice and coslice
-If $(\mathcal{L},\mathcal{R})$ is a weak factorisation
-system in a category $\mathbf{E}$, then the pair
-$(\mathcal{L}/B,\mathcal{R}/B)$ is a weak factorisation system
+######Slice and coslice
+If $( \mathcal{C},\mathcal{W},\mathcal{F})$  is a model structure
+on a category $\mathbf{E}$, then the triple
+$(\mathcal{C}/B,\mathcal{W}/B, \mathcal{F}/B)$ is a model structure
 in the slice category $\mathbf{E}/B$ for any object
-$B$ in $\mathbf{E}$. Dually, the pair
-$(B\backslash \mathcal{L},B\backslash \mathcal{R})$ is a weak factorisation system in the coslice category $B\backslash \mathbf{E}$. 
+$B\in \mathbf{E}$. Dually, the triple
+$(B\backslash \mathcal{C},B\backslash \mathcal{W},B\backslash \mathcal{F})$ is a model structure in the coslice category $B\backslash \mathbf{E}$. 
 =--
 
-+-- {: .proof} 
+
+
++-- {: .proof}
+###### Proof
+This follows from the analogous properties of weak
+factorisation systems [here](http://ncatlab.org/joyalscatlab/show/Weak+factorisation+systems#slicewfs).
+=--
+
+
+
+
+
+
++-- {: .num_prop #ClosureofleftandrightclassesMDS}
+###### Proposition
+The classes $\mathcal{C}$, $\mathcal{C}\,\cap \,\mathcal{W}$,
+$\mathcal{F}$ and $\mathcal{F}\,\cap \,\mathcal{W}$
+are closed under composition and retracts. 
+The classes $\mathcal{F}$ and $\mathcal{F}\,\cap \,\mathcal{W}$
+are closed under base changes and products.
+The classes $\mathcal{C}$ and $\mathcal{C}\,\cap \,\mathcal{W}$
+are closed under cobase changes and coproducts.
+The intersection $\mathcal{C}\,\cap \,\mathcal{W}\,\cap \, \mathcal{F}$ is the class of isomorphisms. 
+
+=--
+
+
+
++-- {: .proof}
+###### Proof
+This follows directly from the general properties of 
+the classes of a weak factorisation system [here](http://ncatlab.org/joyalscatlab/show/Weak+factorisation+systems#ClosureofleftandrightclassesWFS).
+=--
+
+
+
++-- {: .num_corollary #Closurefibrantandcofibrantobjects}
+###### Corollary
+A retract of a fibrant object is fibrant.
+A product of a family of fibrant objects is fibrant.
+Dually, a retract of a cofibrant object is cofibrant. 
+A coproduct of a family of cofibrant objects is cofibrant.
+=--
+
+
+
++-- {: .proof}
+###### Proof 
+If an object $X$ is a retract of an object $Y$,
+then the map $X\to \bot$ is a retract of the map $Y\to \bot$.
+If an object $X$ is the product of a family of object $(X_i| i\in I)$,
+then the map $X\to bot$ is the product of the family of maps
+$(X_i\to \bot| i\in I)$.
+=--
+
+
++-- {: .num_lemma #Wclosedunderretracts}
+###### Lemma
+(Myles Tierney)
+The class $\mathcal{W}$ is closed under retracts.
+=--
+
+
++-- {: .proof}
+###### Proof
+Notice first that the class $\mathcal{F}\,\cap\,\mathcal{W}$ is closed under retracts by Proposition \ref{ClosureofleftandrightclassesMDS}. 
+Suppose now that a map $f: A \to B$ is a retract of a map $g: X \to Y$ in  $\mathcal{W}$. We want to show $f \in \mathcal{W}$. We have a commutative diagram
+\begin{xymatrix}
+ A  \ar[d]_f \ar[r]^{s} & X \ar[d]^g \ar[r]^t & A \ar[d]^f \\
+B \ar[r]_u & Y \ar[r]_v & B
+\end{xymatrix}
+with $t s = 1_A$ and $v u = 1_B$. We suppose first that $f$ is a fibration.
+In this case, factor $g$ as $g = q j: X \to Z \to Y$ with 
+$j$ an acyclic cofibration and $q$ a fibration. The 
+map $q$ is acyclic by three-for-two, since $q$ and $j$
+are acyclic. The square
+\begin{xymatrix}
+ X  \ar[d]_j \ar[rr]^t & & A \ar[d]^f \\
+Z \ar[r]_{q} & Y \ar[r]_{v} & B
+\end{xymatrix}
+has a diagonal filler $d: Z \to A$, since $f$ is a fibration. We get
+a commutative diagram
+\begin{xymatrix}
+ A  \ar[d]_f \ar[r]^{js} & Z \ar[d]^q \ar[r]^d & A \ar[d]^f \\
+B \ar[r]_u & Y \ar[r]_v & B
+\end{xymatrix}
+The map $f$ is a retract of $q$, since $d(j s) = t s =1_A$.
+Thus, $f$ is acyclic, since $q$ is an acyclic fibration. 
+In the general case, factor
+$f$ as $f = p i: A \to E \to B$ with $i$ an acyclic cofibration
+and $p$ a fibration. By taking a pushout we obtain a commutative diagram
+\begin{xymatrix}
+ A  \ar[d]_i \ar[r]^{s} & X \ar[d]^{in_2} \ar[r]^t & A \ar[d]^i \\
+E \ar[d]_p  \ar[r]^(0.4){in_1} & E \sqcup_A X \ar[d]^k \ar[r]^(0.6){r} & E \ar[d]^p \\
+B \ar[r]_u & Y \ar[r]_v & B
+\end{xymatrix}
+where $k in_2 =g$ and $r in_1 = 1_E$. The map $in_2$ is a cobase change of $i$, so $ in_2$ is an acyclic cofibration, since $i$ is. Thus, 
+$k$ is acyclic by three-for-two, since $g = k in_2$ is acyclic
+by assumption. So $p$ is acyclic by the first part, since 
+$p$ is a fibration. Finally, $f = p i $ is acyclic, since
+$i$ is acyclic. 
+=--
+
+
+
+
+The **homotopy category** of a model category $\mathbf{E}$
+is defined to be the category of fractions 
+$$Ho(\mathbf{ E})=\mathcal{W}^{-1}\mathbf{E}.$$
+The canonical functor $H:\mathbf{ E}\to Ho(\mathbf{ E})$
+is a [localisation](http://ncatlab.org/joyalscatlab/show/Factorisation+systems#localisationcatFS)
+with respects to the maps in $\mathcal{W}$.
+Recall that a functor $F:\mathbf{E} \to \mathbf{K}$
+is said to *invert* a map $u:A\to B$
+if the morphism $F(u):F A\to F B$ is invertible.
+The functor $H$ inverts the maps in $\mathcal{W}$
+and for any functor $F:\mathbf{E} \to \mathbf{K}$
+which inverts the maps in $\mathcal{W}$, there is a unique
+functor $F': Ho(\mathbf{ E})\to \mathbf{K}$ such that
+$F'H=F$. We shall see in theorem \ref{homotopycategory2}
+that a map $u:A\to B$ in the category $\mathbf{E}$
+is acyclic _if and only if_ it is inverted by the functor $H$.
+We shall see in corollary \ref{homotopycategoryislocallysmall}
+that the category $Ho(\mathbf{ E})$
+is locally small if the category $\mathbf{ E}$
+is locally small.
+ 
+
+We denote by $\mathbf{E}_f$ (resp. $\mathbf{E}_c$, 
+$\mathbf{E}_{f c}$) the full subcategory of $\mathbf{ E}$ spanned by the 
+fibrant (resp. cofibrant, fibrant-cofibrant) objects of 
+$\mathbf{ E}$. 
+If $\mathcal{M}$ is a class of maps in $\mathbf{ E}$, we shall
+put
+$$\mathcal{M}_f=\mathcal{M} \,\cap\, \mathbf{ E}_f \quad  \quad 
+\mathcal{M}_c=\mathcal{M}\,\cap\, \mathbf{ E}_c 
+\quad \mathrm{and} \quad  \mathcal{M}_{f c}= \mathcal{M} \,\cap\,
+\mathbf{ E}_{f c}. $$
+
+
+Let us put
+$$Ho(\mathbf{ E}_f)=\mathcal{W}_f^{-1}\mathbf{E}_f,
+ \quad \quad
+Ho(\mathbf{ E}_c)=\mathcal{W}_c^{-1}\mathbf{E}_c,
+ \quad \mathrm{and}\quad 
+Ho(\mathbf{ E}_{f c})=\mathcal{W}_{f c}^{-1}\mathbf{E}_{f c}.$$
+Then the square of inclusions,
+\begin{xymatrix}
+\mathbf{ E}_{f c} \ar[d] \ar[r] &   \mathbf{ E}_f  \ar[d] \\
+ \mathbf{ E}_f \ar[r] &    \mathbf{ E}
+\end{xymatrix}
+induces a commutative square of categories and canonical functors,
+\[
+\label{40}
+\]
+\begin{xymatrix}
+\mathrm{Ho}(\mathbf{ E}_{f c})\ar[d]   \ar[r] &  
+  \mathrm{Ho}(\mathbf{ E}_f)\ar[d]  \\
+\mathrm{Ho}(\mathbf{ E}_c)  \ar[r]& \mathrm{Ho}(\mathbf{ E}).
+\end{xymatrix}
+We shall see in theorem \ref{homotopycategory2} that the four functors in the square 
+are equivalences of categories.
+
+
+The following result is easy to prove but technically useful:
+
+
++-- {: .num_prop #inducedfactsystemmodelcat}
+###### Proposition
+The pair $( \mathcal{C}_f\,\cap \,\mathcal{W}_f,\mathcal{F}_f)$ and 
+the pair $(\mathcal{C}_f,\mathcal{F}_f\,\cap\, \mathcal{W}_f)$ 
+are weak factorisation systems in the category $\mathbf{ E}_f$.
+The pair $( \mathcal{C}_c\,\cap \,\mathcal{W}_c,\mathcal{F}_c)$ and 
+the pair $(\mathcal{C}_c,\mathcal{F}_c\,\cap\, \mathcal{W}_c)$ 
+are weak factorisation systems in the category $\mathbf{ E}_c$.
+The pair $( \mathcal{C}_{cf}\,\cap \,\mathcal{W}_{cf},\mathcal{F}_{cf})$ and the pair $(\mathcal{C}_{cf},\mathcal{F}_{cf}\,\cap\, \mathcal{W}_{cf})$ 
+are weak factorisation systems in the category $\mathbf{ E}_{cf}$.
+=--
+
+
++-- {: .proof}
+###### Proof
+Let us how that the pair $( \mathcal{C}_f\,\cap \,\mathcal{W}_f,\mathcal{F}_f)$ is a weak factorisation system in $\mathbf{ E}_f$.
+We shall use the characterisation of a weak factorisation system
+[here](http://ncatlab.org/joyalscatlab/show/Weak+factorisation+systems#WFS2).
+Obviously, we have $u\,\pitchfork\, p$ for every $u\in \mathcal{C}_f\,\cap \,\mathcal{W}_f$ and $p\in  \mathcal{F}_f$.
+If $f:X\to Y$ is a map between fibrant objects,
+let us choose a factoriation $f=pu:X\to E\to Y$
+with $u$ an acyclic cofibration and $p$ a fibration.
+The object $E$ is fibrant, since $p$ is a fibration and $Y$ is fibrant.
+This shows that $u\in \mathcal{C}_f\,\cap \,\mathcal{W}_f$
+and $p\in \mathcal{F}_f$. Finally, the class 
+$\mathcal{C}_f\,\cap \,\mathcal{W}_f$ is closed under codomain 
+retracts, since a retract of a fibrant object is fibrant.
+Similarly, the class $\mathcal{F}_f$ is closed under domain retracts.
+=--
+
+
+###Cylinders and left homotopies###
+
+
+
+
++-- {: .num_lemma #coproductofcofibrant}
+###### Lemma
+The inclusion $in_1:A\to A\sqcup B$ is a cofibration
+if $B$ is cofibrant, and the inclusion
+$in_2:B\to A\sqcup B$ is a cofibration
+if $A$ is cofibrant.
+=--
+
+
++-- {: .proof}
+######Proof
+The inclusion $in_1:A\to A\sqcup B$ is a cobase change
+of the map $\bot \to B$, since
+the square
+\begin{xymatrix}
+\bot  \ar[r]\ar[d] & \ar[d]^{in_2} B \\
+A \ar[r]^(0.4){in_1} & A\sqcup B
+\end{xymatrix}
+is a pushout. Hence the map $in_1$ is a cofibration
+if $B$ is cofibrant (since the class of cofibrations 
+is closed under cobase changes by 
+Proposition \ref{ClosureofleftandrightclassesMDS})
+=--
+
+
+
+
+
+A **cylinder ** for an object $A$
+is a quadruple $(I A,d_1,d_0,s)$
+obtained by factoring
+the codiagonal $\nabla_A=(1_A,1_A):A\sqcup A\to A$ as 
+a cofibration $(d_1,d_0):A\sqcup A \to I A$
+followed by a weak equivalence $s:I A\to A$.
+\begin{xymatrix}
+  A \ar[dr]_{d_1}  \ar@/^/[drr]^{1_A}& &   \\
+ & I A \ar[r]^{s} & A   \\
+A\ar[ru]^{d_0} \ar@/_/[urr]_{1_A}    &     &
+\end{xymatrix}
+
+
++-- {: .un_remark #remarkinclusionincylinders}
+######Remark
+The notation $(I A,d_1,d_0,s)$ introduced by Quillen
+suggests that a cylinder represents the first two
+terms of a cosimplicial object
+$$I^* A:\Delta \to \mathbf{A}$$
+with $I^0 A =A$ and $I^1 A =I A$.
+This is the notion of a
+[[Reedy model categories|cosimplicial framing]] of an object $A$.
+Beware that if $d_0$ and $d_1$
+are the maps $[0]\to [1]$ in the category $\Delta$,
+then $d_0(0)=1$ and $d_1(1)=0$.
+We may think of a cylinder $(I A,d_1,d_0,s)$ has
+an oriented object with two faces,
+with the face $d_1:A\to IA$ representing
+the *source* of the cylinder
+and the face $d_0:A\to IA$ representing the *target*.
+=--
+
+
+
+The **transpose** of a cylinder $(I A,d_1,d_0,s)$
+is the cylinder  $(I A,d_0,d_1,s)$.
+
+
+
++-- {: .num_lemma #inclusionincylinders}
+######Lemma
+The maps
+$d_1:A\to I A$ and $d_0:A\to I A$
+are acyclic, and they
+are acyclic cofibrations when $A$ is cofibrant.
+=--
+
+
+
++-- {: .proof}
+######Proof
+The map $d_1$ and $d_0$ are acyclic
+by three-for-two, since we have
+$s d_1=1_A= s d_0$ and $s$ is acyclic.
+If $A$ is cofibrant, then
+the inclusions $in_1:A\to A\sqcup A$ and $in_2:A\to A\sqcup A$ are 
+cofibrations by Lemma \ref{coproductofcofibrant}.
+Hence also the composite
+$d_1=(d_1,d_0)in_1$ and $d_0=(d_1,d_0)in_2$
+(since the class of cofibrations is closed under composition by Proposition \ref{ClosureofleftandrightclassesMDS}).
+=--
+
+
+
+
+
+A **mapping cylinder** of a map $f:A\to B$
+is obtained by factoring the map  $(f,1_B):A\sqcup B\to B$
+as a cofibration $(i_A,i_B):A\sqcup B\to C(f)$
+followed by a weak equivalence $q_B:C(f)\to B$.
+We then have $f=q_B i_A$ and $q_B i_B=1_B$.
+The factorisation
+$$f=q_B i_A:A\to C(f)\to B$$
+is called the **mapping cylinder factorisation** of the map $f$.
+The map $i_B$ is acyclic 
+by three-for-two, since $q_B$ is acyclic and we have
+$q_B i_B=1_B$.
+
+
+
++-- {: .num_lemma #inclusioninmappingcylinders}
+######Lemma
+The maps
+$i_A:A\to C(f)$ is a cofibration when $B$ is cofibrant,
+and the map $i_B:B\to C(f)$ is a cofibration
+when $A$ is cofibrant.
+=--
+
+
+
+
+
++-- {: .proof}
+######Proof
+The inclusion $in_1:A\to A\sqcup B$ 
+is a cofibration when $B$ is cofibrant by Lemma \ref{coproductofcofibrant}.
+Hence also the composite $i_A=(i_A,i_B)in_1$ in this case.
+The inclusion $in_2: B\to A\sqcup B$
+is a cofibration when $A$ is cofibrant by Lemma \ref{coproductofcofibrant}.
+Hence also the composite $i_B=(i_A,i_B)in_2$ in this case.
+=--
+
+
+
+
+
+If $A$ is cofibrant, then a mapping cylinder for a map 
+$f:A\to B$ can be constructed from a cylinder 
+$(I A,d_1,d_0,s)$
+by the following diagram with a pushout square
+
+\[
+\label{17}
+\]
+\begin{xymatrix}
+ A\sqcup A \ar[d]_{(d_1,d_0)} \ar[r]^{1_A\sqcup f}   & A\sqcup B \ar[d]_{(i_A,i_B)}   \ar@/^1pc/[ddr]^{(f,1_B) } &  \\
+ I A  \ar@/_1pc/[drr]_{f s } \ar[r]^{in}  & 
+C(f)\ar[dr]_{q_B}  &  \\
+ & & B
+\end{xymatrix}
+We have $q_B i_A=f$ and $q_B i_B=1_B$ by construction.
+The map $(i_A,i_B)$ is a cofibration by
+cobase change, since the map $(d_1,d_0)$
+is a cofibration.
+Let us show that $q_B$ is acyclic. For this, 
+it suffices to show that $i_B$ is acyclic by three-for-two, 
+since $q_B i_B=1_B$.
+The two squares of the following diagram are pushout,
+\[
+\label{18}
+\]
+\begin{xymatrix}
+  A\ar[d]_{in_2} \ar[r]^{f}   &  B \ar[d]^{in_2}   \\
+ A\sqcup A \ar[d]_{(d_1,d_0)} \ar[r]^{1_A\sqcup f}   & A\sqcup B \ar[d]^{(i_A,i_B)}   \\
+I A  \ar[r]^{in}  & C(f),
+\end{xymatrix}
+hence also their composite,
+\[
+\label{16}
+\]
+\begin{xymatrix}
+ A \ar[d]_{d_0}  \ar[r]^{f}  &  B \ar[d]^{i_B}\\
+  I A   \ar[r]^{in}  &  C(f),   &
+\end{xymatrix}
+by the lemma 
+[here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#cancelcartesian).
+This shows that the map $i_B$
+is a cobase change of the map $i_1$.
+But $i_1$ is an acyclic cofibration 
+by Lemma \ref{inclusionincylinders},
+since $A$ is cofibrant. 
+It follows that $i_B$
+is an acyclic cofibration (since the class
+of acyclic cofibrations is closed under 
+cobase changes by 
+Proposition \ref{ClosureofleftandrightclassesMDS}).
+
+
+
+
++-- {: .num_lemma #Kenbrownorigianl}
+###### Lemma
+(Ken Brown 1) Let $\mathbf{E}$ be a model category
+and let $F:\mathbf{E}_c\to \mathbf{C}$
+be a functor defined on the sub-category of cofibrant
+objects and taking its values in a category $\mathbf{C}$
+equipped with class $\mathcal{W}$
+of _weak equivalences_ containing the units
+and satisfying three-for-two.
+If the functor $F$ takes an acyclic cofibration
+to a weak equivalence, then it takes
+an acyclic map to a weak equivalence.
+=--
+
+
++-- {: .proof}
+######Proof
+If $f:A\to B$ is an acyclic map between 
+cofibrant objects, let us choose 
+a mapping cylinder factorisation $f=q_B i_A:A\to C(f)\to B$.
+The maps $i_A$ and $i_B$ are cofibrations
+by Lemma \ref{inclusioninmappingcylinders},
+since $A$ and $B$ are cofibrant.
+The map $i_B$ is acyclic by three-for-two, since $q_B i_B=1_B$
+and $q_B$ is acyclic. Thus, $F(i_B)$ is a weak 
+equivalence.
+Hence also the map $F(q_B)$
+by three-for-two
+since we have $F(q_B)F(i_B)=F(q_B i_B)=F(1_B)=1_{F B}$
+and $\mathcal{W}$ contains the units.
+The map $i_A$ is acyclic by three-for-two,
+since $f=q_B i_A$ and $f$ and $q_B$ are acyclic.
+Thus, $F(i_A)$ is a weak equivalence,
+and it follows by three-for-two that $F(f)$ is a weak equivalence 
+since
+$F(f)=F(q_B i_A)=F(q_B)F(i_A)$.
+=--
+
+
+Recall that a functor is said to _invert_ a morphism in its domain
+if it takes this morphism to an isomorphism.
+
+
++-- {: .num_lemma #KenBrownlemma}
+######Lemma
+(Ken Brown 2) 
+
+* If a functor $F:\mathbf{E}_c\to \mathbf{C}$
+inverts acyclic cofibrations, then it inverts
+weak equivalences.
+
+* If a functor $F:\mathbf{E}_f\to \mathbf{C}$
+inverts acyclic fibrations, then it inverts
+weak equivalences.
+=--
+
++-- {: .proof}
+######Proof
+This follows from Lemma \ref{Kenbrownorigianl},
+if $\mathcal{W}$ is 
+the class of isomorphisms in $\mathbf{C}$.
+=--
+
+
+
+
++-- {: .un_remark #KenBrownlocaisation}
+######Remark
+Ken Brown's lemma implies that the inclusion
+$\mathcal{C}_c\, \cap\, \mathcal{W}_c \subseteq \mathcal{W}_c$
+induces an isomorphism of categories,
+
+$$(\mathcal{C}_c\cap \mathcal{W}_c)^{-1}\mathbf{ E}_c\to Ho(\mathbf{ E}_c).$$
+=--
+
+
+
+
+If $(I A,d_1,d_0,s)$ is a cyclinder for $A$, 
+then a **left homotopy** $h:f {\rightarrow}_l g$
+between two maps $f,g:A\to X$
+is a map $h:I A\to X$ such that
+and $f= h d_1$ and $g= h d_0$.
+We shall say that $h d_1$ is the **source** of the homotopy $h$
+and that $h d_0$ is the **target**,
+\begin{xymatrix}
+  A \ar[dr]_{d_1}  \ar@/^/[drr]^{f}& &   \\
+ & I A \ar[r]^{h} & B.   \\
+A\ar[ru]^{d_0} \ar@/_/[urr]_{g}    &     &
+\end{xymatrix}
+The **reverse** of an homotopy $h:f {\rightarrow}_l g$
+is the homotopy $g {\rightarrow}_l f$ defined by the same map 
+$h:I A\to X$ but on the transpose cylinder $(I A,d_0,d_1,s)$.
+The **homotopy unit** $f=_l f$ of a map $f:A\to X$
+is defined by the map $f p:I A\to A\to X$.
+
+Two maps $f,g:A\to X$
+are **left homotopic**, $f\sim_l g$, if there exists a left
+homotopy $h:f\to_l g$ with domain some cylinder object for $A$.
+
+
++-- {: .num_lemma #lefthomotopysinglecylinder}
+######Lemma
+The left homotopy relation between the maps 
+$A\to X$ can be defined on a fixed cylinder 
+for $A$, when $X$ is fibrant. 
+=--
+
+
+
++-- {: .proof}
+######Proof
+Let us show that if two maps $f,g:A\to X$ are homotopic
+by virtue of a homotopy defined on a cylinder $(I A,i_1,i_0,r)$, 
+then then they are homotopic by virtue
+of a homotopy defined on any another cylinder $(J A,j_1,j_0,s)$.
+By assumption, we have $h(i_1,i_0)=(f,g)$ for a map $h: I A\to X$.
+Let us choose a factorisation $r=r'u:I A\to I' A\to A$
+with $u$ an acyclic cofibration and $r'$ a fibration.
+The map $r'$ is acyclic by three-for-two,
+since the maps $p$ and $u$ are.
+Hence the square
+\begin{xymatrix}
+A\sqcup A \ar[d]_{(j_1,j_0)}\ar[rr]^{u (i_1,i_0)} \ar[d] & &  I' A \ar[d]^{r'} \\
+J A \ar[rr]^s & & A
+\end{xymatrix}
+has a diagonal filler $k:J A\to I' A$ since the map $(j_1,j_0)$
+is a cofibration. But the square
+\begin{xymatrix}
+I A  \ar[r]^{h} \ar[d]_u &  X  \ar[d] \\
+I' A \ar[r] & \top
+\end{xymatrix}
+has also a diagonal filler $d:I' A\to X$, since $u$ is an acyclic 
+cofibration and $X$ is fibrant.
+The composite $h'=d k:J A\to X$ is a left homotopy $f\to_l g$.
+=--
+
+
+
+
+
++-- {: .num_lemma #preservinghomotopies}
+######Lemma 
+If a functor $F:\mathbf{E}\to \mathbf{K}$
+inverts weak equivalences, then 
+the implication 
+ $$f\sim_l g \quad \Rightarrow \quad F(f)=F(g)$$
+is true for any pair of maps $f,g:A\to B$ in $\mathbf{E}$.
+The same result is true for a functor
+defined on $\mathbf{E}_c$ or on $\mathbf{E}_{f c}$.
+=--
+
+
+
++-- {: .proof}
+######Proof
+If $(I A,d_1,d_0,s)$
+is a cylinder for $A$, then the map
+$F(s)$ is invertible by the assumption of $F$
+since $s$ is acyclic. Hence we have
+$F(d_1)=F(d_0)$, since we have
+$$F(s) F(d_1)=F(s d_1)=F(1_A)=F(s d_0)=F(s)F(d_0).$$
+If $h:I A\to X$ is a homotopy between 
+two map $f,g:A\to X$, then
+$$F(f)=F(h d_1)=F(h)F(d_1)=F(h)F(d_0)=F(h d_0)=F(g).$$
+Let us now consider the case where the domain of the functor 
+$F$ is the category $\mathbf{E}_c$. Observe that if $A$ is cofibrant,
+then so is the object $I A$ in a cylinder $(I A,d_1,d_0,s)$,
+since the map $(d_1,d_0):A\sqcup A \to IA$ is a cofibration
+and the object $A\sqcup A$ is cofibrant (since a coproduct of cofibrant
+objects is cofibrant by Corollary \ref{Closurefibrantandcofibrantobjects}).
+Hence the cylinder $(I A,d_1,d_0,s)$ belongs to the category 
+$\mathbf{E}_{c}$ and the proof above can be repeated in this case. 
+Let us now consider the case where the domain of the functor $F$ is the category $\mathbf{E}_{f c}$. In this case
+the left homotopy relation between the maps $A\to B$
+can defined on a fixed cylinder for $A$ 
+by Lemma \ref{lefthomotopysinglecylinder},
+since $B$ is fibrant.
+A cylinder for $A$ can be constructed by factoring the
+map $\nabla_A:A\sqcup A\to A$
+as an acyclic cofibration $(d_1,d_0):A\sqcup A \to I A$
+followed by a fibration $s:I A \to A$.
+The object $I A$ is cofibrant, since $A$ is cofibrant.
+But $I A$ is also fibrant, since $s$ is a fibration
+and $A$ is fibrant.
+Hence the cylinder $(I A,d_1,d_0,p)$ 
+belongs to the category $\mathbf{E}_{f c}$ 
+and the proof above can be repeated. 
+=--
+
+
+
+The left homotopy relation on the set of maps $A\to X$ is reflexive and symmetric. 
+We shall denote by $\pi^l(A,X)$
+the quotient of the set $Hom(A,X)$ by
+the equivalence relation generated by
+the left homotopy relation.
+The relation is compatible with composition
+on the left: the implication
+$$f\sim_l g \quad \Rightarrow \quad p f\sim_l p g$$
+is true for every maps $f,g:A\to X$ and $p:X\to X'$.
+This defines a functor 
+$$\pi^l(A,-):\mathbf{E}\to \mathbf{Set}.$$
+
+
+
+
+
++-- {: .num_lemma #lefthomotopyisequiv}
+######Lemma
+The left homotopy relation between the maps $A\to X$ 
+is an equivalence when $A$ is cofibrant.
+=--
+
++-- {: .proof}
+######Proof
+Cylinders for $A$ can be composed as [[Spans and cospans|cospan]].
+More precisely, the composite of a cylinder
+$(I A, i_1,i_0,r)$
+with a cylinder $(J A,j_1,j_0,s)$
+is the cylinder $(K A,k_1,k_0,t)$
+defined by the following diagram with a pushout square,
+\begin{xymatrix}
+  \ar@/_2pc/[ddrr]_{k_1} A \ar[dr]^{i_1}  & &  A \ar[dl]_{i_0}  \ar[dr]^{j_1}  
+& & \ar[dl]_{j_0} A \ar@/^2pc/[ddll]^{k_0} \\
+ & IA \ar[dr]^{in_1}  & & \ar[dl]_{in_2}  JA  &   \\
+ & &  KA   &  &
+\end{xymatrix}
+The map $t:K A\to A$ is defined by the condition $t in_1=r$ and $t in_2 =s$.
+Let us show that $t$ is acyclic.
+The map $j_1:A\to J A$ is an acyclic cofibration by Lemma
+\ref{inclusionincylinders}, since $A$ is cofibrant.
+It follows that $in_1$ is an acyclic cofibration,
+since it is a cobase change of $j_1$.
+Hence the map $t$ is acyclic by three-for-two, since we have $t in_1=s$
+and the maps $in_1$ and $s$ are acyclic.
+It remains to show that the map $(k_0,k_1)$
+is a cofibration. For this, we can
+use the following diagram with a pushout square,
+\begin{xymatrix}
+  A\sqcup A \sqcup A \sqcup A \ar[d]_{(i_1,i_0)\sqcup (j_1,j_0)} 
+\ar[rr]^(0.6){A\sqcup \nabla_A \sqcup A} 
+  &  &  A\sqcup A \sqcup A   \ar[d]_k  & & \ar[ll]_(0.4){in_1\sqcup in_3}  A \sqcup A \ar[lld]^{(k_1,k_0)}\\
+I A\sqcup J A \ar[rr]^{(in_1,in_2)}   &  & K A. & &
+\end{xymatrix}
+The map $k$ in this diagram is a cobase change of the map 
+$(i_1,i_0)\sqcup (j_1,j_0)$. But the map $(i_1,i_0)\sqcup (j_1,j_0)$
+is a cofibration,
+since the maps $(i_1,i_0)$ and $(j_1,j_0)$ are cofibrations.
+This proves that the map $k$ is a cofibration.
+It follows that the composite $(k_1,k_0)=k(in_1\sqcup in_3)$
+is a cofibration, since the map $in_1\sqcup in_3$ is a cofibration
+by Lemma \ref{coproductofcofibrant}.
+We have proved that $(K A,k_1,k_0,r)$ is a cylinder for $A$.
+We can now prove that the left homotopy relation on the
+set of maps $A\to X$ is transitive.
+Let $f_1,f_2$ and $f_3$ be three maps $A\to X$ and suppose that
+$h_1:I A\to X$ is a left homotopy $f_1\to_l f_2$,
+and $h_2:J A\to X$ is a left homotopy $f_2\to_l f_3$.
+There is then a unique map $h_3: K A\to X$
+such that $h_3 in_1 =h_1$ and $h_3 in_2 =h_2$,
+since $h_1 i_0 =f_2= h_2 j_1$.
+This defines a homotopy $h_3:f_1 \to_l f_3$,
+since $h_3 k_1= h_3 in_1 i_1 =h_1 i_1=f_1$
+and $h_3 k_0 =h_3 in_2 j_0= h_2 j_0 =f_3$.
+=--
+
+
+
+
+
++-- {: .num_lemma #coveringhomotopy}
+######Lemma 
+(Covering homotopy theorem) Let $A$ be cofibrant, let $f:X\to Y$ be a fibration, let $a:A\to X$, and let $h: I A\to Y$ be a left homotopy with 
+source $f a:A\to Y$. Then there exists a left
+homotopy $H: I A\to X$ with source $a$ such that $ f H=h$. 
+=--
+
+
++-- {: .proof}
+######Proof
+The square
+\begin{xymatrix}
+A \ar[d]_{d_1} \ar[r]^a  &  X\ar[d]^{f}  \\
+I A \ar[r]^h & Y
+\end{xymatrix}
+has a diagonal filler $H: I A\to X$, since $d_1$
+is an acyclic cofibration by Lemma \ref{inclusionincylinders}
+and $f$ is a fibration.
+=--
+
+
+
+
++-- {: .num_lemma #liftinghomotopy}
+######Lemma 
+(Homotopy lifting lemma) Let $f:X\to Y$ be an acyclic fibration, let $a:A\to X$ and $b:A\to X$, and let 
+$h: I A\to Y$ be a left homotopy $f a \to_l f b$. 
+Then there exists a map $H: I A\to X$ defining a left homotopy
+$a \to_l b$ such that $ f H=h$.
+=--
+
+
++-- {: .proof}
+######Proof
+The square
+\begin{xymatrix}
+A\sqcup A \ar[d]_{(d_1,d_0)} \ar[r]^(0.6){(a,b)}  &  X\ar[d]^{f}  \\
+I A \ar[r]^h & Y
+\end{xymatrix}
+has a diagonal filler $H: I A\to X$, since $(d_1,d_0)$
+is a cofibration
+and $f$ is an acylic fibration.
+=--
+
+
+
+
+
++-- {: .num_lemma #lefthomotopyfunctor}
+###### Lemma
+If $A$ is cofibrant, then
+the functor $\pi^l(A,-):\mathbf{E}\to \mathbf{Set}$
+inverts acyclic maps between fibrant objects.
+=--
+
++-- {: .proof}
+###### Proof
+Let us first show that the functor $\pi^l(A,-)$
+inverts acyclic fibrations.
+If $f:X\to Y$ is an acyclic fibration
+and $y:A\to Y$, then the square
+\begin{xymatrix}
+\bot\ar[d]\ar[r] & X  \ar[d]^{f} \\
+A\ar[r]^y & Y
+\end{xymatrix}
+has a diagonal filler,
+since $A$ is cofibrant and $f$ is an acyclic fibration.
+Hence there exists a map $x:A\to X$
+such that $f x=y$.
+This shows that the map $\pi(A,f)$ is surjective.
+Let us show that it is injective.
+If $a,b:A\to X$ and $f a\sim_l f b$,
+then $a\sim_l b$ by the homotopy lifting lemma
+\ref{liftinghomotopy}.
+We have proved that the map $\pi^l(A,f)$
+is bijective.
+It then follows from
+Ken Brown's lemma \ref{KenBrownlemma}
+that that the functor $\pi^l(A,-)$ inverts acyclic maps between fibrant objects.
+=--
+
+
++-- {: .num_lemma #lefthomotopicweakequiv}
+###### Lemma
+A map which is left homotopic to an acyclic map is acyclic.
+=--
+
++-- {: .proof}
+######Proof
+Let $h: I A \to B$
+be a left homotopy between two maps $h d_1=u$
+and $h d_0=v$. If $v$ is acyclic,
+then so is $h$ by three-for-two,
+since $d_0$ is acyclic.
+Hence the composite $u=h d_1$ is acyclic
+by three-for-two, since $d_1$ is acyclic.
+=--
+
+
+###Path objects and right homotopies###
+
+
+
++-- {: .num_lemma #productoffibrant}
+###### Lemma*
+(Dual to Lemma \ref{coproductofcofibrant})
+The projection $pr_1:X\times Y \to X$ is a fibration
+if $Y$ is fibrant, and the projection
+$pr_2:X\times Y \to Y$ is a fibration
+if $X$ is fibrant 
+=--
+
+
+
+A **path object** for an object $X$
+is a quadruple $(P X,\partial_1,\partial_0,\sigma)$
+obtained by factoring
+the diagonal $\Delta_X=(1_X,1_X):X\to X\times X$ as a weak equivalence
+$\sigma:X\to P X$ followed by a fibration 
+$(\partial_1,\partial_0):P X\to X\times X$.
+\begin{xymatrix}
+ & & X\\
+X\ar[r]^{\sigma}\ar@/^/[urr]^{1_X} \ar@/_/[drr]_{1_X}  
+& P X  \ar[ru]_{\partial_1}\ar[rd]^{\partial_0} & \\
+ & & X
+\end{xymatrix}
+
+
++-- {: .un_remark #remarkprojectionpath}
+######Remark
+The notation $(P X,\partial_1,\partial_0,\sigma)$ introduced by Quillen
+suggests that a path object represents the first two
+terms of a simplicial object
+$$P_* X:\Delta \to \mathbf{A}$$
+with $P_0 X = X$ and $P_1 X= P X$.
+This is the notion of [[Reedy model categories|simplicial framing]]
+of an object $X$.
+Beware that the *source* of a 1-simplex $f$
+in a simplicial set $S$ is the vertex $\partial_1(f)\in S_0$,
+and that its *target* is the vertex 
+$\partial_0(f)\in S_0$.
+=--
+
+
+
+The **transpose** of a path object $(P X,\partial_1,\partial_0,\sigma)$
+is the path object $(P X,\partial_0,\partial_1,\sigma)$.
+
+
+
+
+
++-- {: .num_lemma #projectionpathobject}
+######Lemma*
+(Dual to Lemma \ref{inclusionincylinders})
+The maps
+$\partial_1:P X \to X$ and $\partial_0:P X\to X$
+are acyclic, and they are 
+are acyclic fibrations when $X$ is fibrant.
+=--
+
+
+
+A **mapping path object** of a map $f:X\to Y$
+is obtained by factoring the map  
+$(1_X,f):X\to X\times Y$
+as a weak equivalence $i_X: X\to P(f)$
+followed by a fibration $(p_X,p_Y):P(f)\to X\times Y$.
+By construction, we have $f=p_Y i_X$ and $p_X i_X=1_X$.
+The factorisation
+$$f=p_Y i_X:X\to P(f)\to Y$$
+is called the **mapping path factorisation** of 
+the map $f$.
+The map $p_X$ is acyclic 
+by three-for-two, since $i_X$ is acyclic and 
+$p_X i_X=1_X$. 
+
+
+
++-- {: .num_lemma #projectionmappingpath}
+######Lemma*
+(Dual to Lemma \ref{inclusioninmappingcylinders})
+The maps
+$p_X:P X\to X$ and $p_Y: P Y\to Y$
+are fibrations when $X$ and $Y$ are fibrant.
+=--
+
+
+
+If $Y$ is fibrant, then a mapping path object for a map $f:X\to Y$ can be constructed from a path object
+$(P Y, \partial_1,\partial_0,\sigma)$ for $Y$
+by the following diagram with a pullback square,
+
+\[
+\label{27}
+\]
+\begin{xymatrix}
+X\ar@/_1pc/[ddr]_{(1_X,f) } 
+\ar@/^1pc/[drr]^{\sigma f }  \ar[dr]^{i_X}&& \\
+& P(f)\ar[r]^{pr_2} \ar[d]^{(p_X,p_Y)}  
+ &   \ar[d]^{(\partial_1,\partial_0)}   P Y. \\
+ &  X\times Y \ar[r]_{f\times Y}   & Y\times Y
+\end{xymatrix}
+We have $p_X i_X=1_X$ and $p_Y i_X=f$
+by construction.
+The map $(p_X,p_Y)$ is a fibration by
+base change, since the map $(\partial_1,\partial_0)$ is.
+Let us show that the map $i_X$ is acyclic.
+For this, it suffices to show that $p_X$
+is acyclic by three-for-two, since $p_X i_X=1_X$. 
+The two squares of the 
+following diagram are cartesian,
+\[
+\label{28}
+\]
+\begin{xymatrix}
+P(f)\ar[r]^{pr_2} \ar[d]_{(p_X,p_Y)}  &  
+P Y \ar[d]^{(\partial_1,\partial_0)}\\
+   X\times Y\ar[d]_{pr_1}  \ar[r]^{f\times Y}   
+& Y\times Y\ar[d]^{pr_1}  \\
+  X \ar[r]^{f}   & Y,
+\end{xymatrix}
+hence also their composite,
+\[
+\label{16}
+\]
+\begin{xymatrix}
+P(f)\ar[r]^{pr_2} \ar[d]_{p_X}   &   \ar[d]^{\partial_1}   P Y \\
+  X \ar[r]^{f}   & Y,
+\end{xymatrix}
+by the lemma [here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#cancelcartesian).
+Hence the map $p_X$
+is a base change of the map $\partial_0$.
+But $\partial_1$ is an acyclic fibration 
+by Lemma \ref{projectionpathobject},
+since $Y$ is fibrant. 
+This shows that the map $p_X$
+is acyclic (since the base change of an acyclic 
+fibration is an acyclic fibration by 
+Proposition \ref{ClosureofleftandrightclassesMDS}).
+
+
+
+If $(P X,\partial_1,\partial_0,\sigma)$ is a path
+object for $X$, then a **right homotopy** $h:f {\rightarrow}_r g$
+between two maps $f,g:A\to X$
+is defined to be a map $h:A\to PX$ 
+such that $f=\partial_1 h$
+and $g=\partial_0 h$.
+We shall say that $\partial_1 h$ is the **source** of the homotopy $h$
+and that $\partial_0 h$ is its **target** .
+\begin{xymatrix}
+ & & X\\
+A\ar[r]^{h}\ar@/^/[urr]^{f} \ar@/_/[drr]_{g}  
+& P X  \ar[ru]_{\partial_1}\ar[rd]^{\partial_0} & \\
+ & & X
+\end{xymatrix}
+The **reverse** of $h$ is the homotopy ${}^t h:g {\rightarrow}_r h$ defined by the same map $h: A\to P X$ but on the transpose path object 
+$(P X,\partial_0,\partial_1,\sigma)$.
+The **unit homotopy** $f=_r f$ of a map $f:A\to X$
+is the map $\sigma f : A\to X \to P X$.
+
+
+Two maps $f,g:A\to X$
+are **right homotopic**, $f\sim_r g$, if there exists a right
+homotopy $h:f\rightarrow_r g$ with codomain a path object for $X$.
+
+
+
+
++-- {: .num_lemma #righthomotopyfixedpathobject}
+###### Lemma*
+(Dual to Lemma \ref{lefthomotopysinglecylinder})
+The right homotopy relation between the maps $A\to X$ 
+can be defined on a fixed path object for $X$ when $A$ is cofibrant.
+=--
+
+
+
+We shall denote by $\pi^r(A,X)$
+the quotient of $Hom(A,X)$ by
+the equivalence relation generated by
+the right homotopy relation.
+The right homotopy relation is compatible with composition
+on the right: 
+$$f\sim_r g \quad \Rightarrow \quad f u\sim_r  g u$$
+for every map $u:A'\to A$.
+We thus obtain a functor 
+$$\pi^r(-,X):\mathbf{E}^o\to \mathbf{Set}.$$
+
+
++-- {: .num_lemma #righthomotopyisequiv}
+###### Lemma*
+(Dual to Lemma \ref{lefthomotopyisequiv})
+The right homotopy relation between the maps $A\to X$ is an equivalence when $X$ is fibrant.
+=--
+
+
+
++-- {: .num_lemma #extensionhomotopy}
+######Lemma* 
+(Homotopy extension theorem, dual to Lemma \ref{coveringhomotopy}).
+Let $X$ be fibrant, let $u:A\to B$ be a cofibration, let $b:B\to X$, and let $h: A \to P X$ be a right homotopy with source $b u:A\to X$.
+Then there exists a right homotopy $H: B \to P X$ with source $b $ 
+such that $ H u =h$.
+=--
+
+
+
++-- {: .num_lemma #prolongationhomotopy}
+######Lemma* 
+(Homotopy prolongation lemma, dual to Lemma \ref{liftinghomotopy}) 
+Let $X$ be fibrant, let $u:A\to B$ be an acyclic cofibration, let $a:B\to X$ and $b:B\to X$, and let  $h: A\to P X$ be a right homotopy $a u\to_r b u$.
+Then there exists a map $H: B \to P X$ defining a right
+homotopy $a \to_r b $ such that $H u =h$.
+=--
+
+
++-- {: .num_lemma #righthomotopyfunctor}
+###### Lemma*
+(Dual to Lemma \ref{lefthomotopyfunctor})
+If $X$ is fibrant, then the functor 
+$\pi^r(-,X):\mathbf{E}^o\to \mathbf{Set}$
+inverts acyclic maps between cofibrant objects.
+=--
+
+
+
++-- {: .num_lemma #righthomotopicweakequiv}
+###### Lemma*
+(Dual to Lemma \ref{lefthomotopicweakequiv})
+A map which is right homotopic to an acyclic map is acyclic
+
+=--
+
+###Double homotopies##
+
+If $(I A,d_1,d_0,s)$ is a cylinder object for $A$ and 
+$(P X, \partial_1,\partial_0,\sigma)$
+is a path object for $X$, then a map $H:I A\to P X$
+is *double homotopy* between four maps $A\to X$,
+\begin{xymatrix}
+\partial_1 H d_1\ar[dd]_{H d_1} \ar[rr]^{\partial_1 H}  \ar@{.>}[ddrr]|{H}  & &\ar[dd]^{H d_0}   \partial_1 H d_0 \\
+&  &\\
+\partial_0 H d_1 \ar[rr]_{\partial_0 H} &  & \partial_0 H d_0.
+\end{xymatrix}
+
+
+The four corners of the square are representing maps $A\to X$,
+the horizontal sides are representing left homotopies,
+and the vertical sides are representing right homotopies. 
+
+
+
++-- {: .num_lemma #doublehomotopylem}
+###### Lemma
+If $X$ is fibrant,
+then every open box of three homotopies, opened at the top, 
+between four maps $f_{ij}:A\to X$,
+\begin{xymatrix}
+f_{11}\ar[d]_{v_1} & f_{10}\ar[d]^{v_0}\\
+f_{01}  \ar[r]^{h_0}  & f_{00},
+\end{xymatrix}
+can be filled by a double homotopy $H:I A\to P X$
+(ie $\partial_0 H=h_0$, $H d_1=v_1$ and $H d_0=v_0$).
+=--
+
++-- {: .proof}
+###### Proof
+The square
+\begin{xymatrix}
+A\sqcup A\ar[d]_{(d_1,d_0)} \ar[rr]^{(v_1,v_0)}  & & P X \ar[d]^{\partial_0}\\
+IA  \ar[rr]^{h_0}    & & X
+\end{xymatrix}
+has a diagonal filler $H:I A \to P X$,
+since $(d_1,d_0)$ is a cofibration 
+and $\partial_0$ is an acyclic fibration
+by Lemma \ref{projectionpathobject}.
+=--
+
+
+
+
++-- {: .num_lemma #leftandrightareequiv}
+###### Lemma
+If $X$ is fibrant, then the right homotopy relation
+on the set of maps $A\to X$
+implies the left homotopy relation.
+Dually, if $A$ is cofibrant, then the left homotopy
+relation implies the right homotopy relation.
+Hence the two relations coincide when $A$
+is cofibrant and $X$ is fibrant.
+=--
+
+
++-- {: .proof}
+######Proof
+Let $h:f\to_r g$ be a right homotopy between two maps $A\to X$.
+By Lemma \ref{doublehomotopylem}, the open box of homotopies
+\begin{xymatrix}
+f\ar[d]_{h} & g \ar@{=}[d]\\
+g \ar@{=}[r]    & g
+\end{xymatrix}
+can be filled by a double homotopy $H:I A \to P X$,
+since $X$ is fibrant.
+This yields a left homotopy $\partial_1 H :f\to_l g$.
+=--
+
+
+When $A$ is cofibrant and $X$ is fibrant,
+then two maps $f,g:A\to X$ 
+are said to be **homotopic**
+if they are left (or right) homotopic;
+we shall denote this relation
+by $f\sim g$. We shall denote by $\pi(A,X)$
+the quotient of the set $Hom(A,X)$ by
+the homotopy relation: 
+
+$$\pi(A,X)=Hom(A,X)/\sim.$$
+
+By definition, $\pi(A,X)=\pi^r(A,X)=\pi^l(A,X).$
+This defines a functor
+
+\[
+\label{33}
+\]
+$$\pi:\mathbf{E}_c^o\,\times\, \mathbf{E}_f\to \mathbf{Set},$$
+
+that is, a [[Distributors and barrels|distributor]] 
+$\pi:\mathbf{E}_c\Rightarrow \mathbf{E}_f$.
+
+###The homotopy category###
+
+
+
+
+
+The homotopy relation $\sim$ is compatible with 
+the composition law 
+$$Hom(Y,Z)\,\times \, Hom(X,Y) \to Hom(X,Z)$$
+if $X,Y$ and $Z$ are fibrant-cofibrant objects.
+It thus induces a composition law
+$$\pi(Y,Z)\,\times \, \pi(X,Y)\to \pi(X,Z)$$
+and this defines a category $\pi\mathbf{E}_{f c}$
+if we put
+$$(\pi\mathbf{E}_{f c})(X,Y)=\pi(X,Y)$$
+for $X,Y\in \mathbf{E}_{f c}$.
+
+
+
+
++-- {: .num_defn #homotopyeqivedef}
+###### Definition
+We say that a map in $\mathbf{E}_{cf}$
+is a **homotopy equivalence** if it is invertible
+in the category $\pi\mathbf{E}_{f c}$.
+=--
+
+
+It is obvious from the definition that the
+class of homotopy equivalences has the three-for-two
+property.
+
+A map $f:X\to Y$ in $\mathbf{E}_{f c}$
+is a homotopy equivalence iff there exists a map
+$g:Y\to X$ such that $g f\sim 1_X$ and $f g\sim 1_Y$.
+
+
+
+Let us denote by
+$H:\mathbf{E}\to \mathrm{Ho}(\mathbf{E})$,
+$H':\mathbf{E}_{f c}\to \mathrm{Ho}(\mathbf{E}_{f c})$
+and $P:\mathbf{E}_{f c}\to \pi(\mathbf{E}_{f c})$,
+the canonical functors.
+The functor  $H'$ takes homotopic maps $u,v:X\to Y$
+to the same morphism by Lemma \ref{preservinghomotopies}.
+It follows that there is a unique functor 
+$U:\pi\mathbf{E}_{f c}\to \mathrm{Ho}(\mathbf{E}_{f c})$ 
+such that the following triangle commutes,
+\begin{xymatrix}
+\mathbf{E}_{f c} \ar[r]^{P}  \ar[dr]_{H'}   
+& \pi\mathbf{E}_{fc} \ar[d]^{U} \\
+ & \mathrm{Ho}(\mathbf{E}_{fc}).
+\end{xymatrix}
+
+
+We shall prove in Theorem \ref{weakequivandhomotopy} below that the functor 
+$U$ is an isomorphism of categories. We will need a lemma:
+
+
++-- {: .num_lemma #localisationaredominant}
+###### Lemma
+If  $\Sigma$ is a set of morphisms
+in a category $\mathbf{A}$, then 
+the localisation functor $H:\mathbf{A} \to \Sigma^{-1}\mathbf{A} $
+is an epimorphism of category. Moreover, for any category $\mathbf{M}$,
+the functor 
+$$H^*:\mathbf{[}\Sigma^{-1}\mathbf{A},\mathbf{M}\mathbf{]} \to \mathbf{[}\mathbf{A},\mathbf{M}\mathbf{]}$$
+induced by $H$ is fully faithful and it induces
+an isomorphism between the category 
+$\mathbf{[}\Sigma^{-1}\mathbf{A},\mathbf{M}\mathbf{]}$ and the full subcategory
+of $\mathbf{[}\mathbf{A},\mathbf{M}\mathbf{]}$
+spanned by the functors $\mathbf{A}\to \mathbf{M}$
+inverting the elements of $\Sigma$.
+In particular, two functors $Q_0,Q_1:\mathbf{A}\to \mathbf{M}$
+are isomorphic iff the functors $Q_0H$ and  $Q_1H$
+are isomorphic.
+=--
+
++-- {: .proof}
 ######Proof
 Left to the reader.
 =--
 
 
-##Closure properties##
-
-
-
-If $\mathcal{C} $ and $\mathcal{F} $
-are two classes of maps in $\mathbf{E}$, we shall 
-write $\mathcal{C}\,\pitchfork\, \mathcal{F} $
-to indicate that we have $u\pitchfork f$ for every $u\in \mathcal{C} $
-and $f\in \mathcal{F} $. 
-The three conditions
-$$ \mathcal{C}\subseteq {}^\pitchfork \mathcal{F}, \quad \quad  \mathcal{C} \,\pitchfork\, \mathcal{F},\quad \quad
-\mathcal{F} \subseteq \mathcal{C}^\pitchfork  $$
-are equivalent.
-If $\mathcal{C}=\{u\}$,
-we shall write $u \,\pitchfork\, \mathcal{F} $ instead of 
-$\{u\}\,\pitchfork\,\mathcal{F} $. Similarly, we shall write
-$\mathcal{C} \,\pitchfork\, f$ instead of $\mathcal{C} \pitchfork \{f\}$.
-
-
-The operations $\mathcal{M}\mapsto \mathcal{M}^\pitchfork$
-and $\mathcal{M}\mapsto {}^\pitchfork\mathcal{M}$
-on classes of maps 
-are contravariant and mutually adjoint.
-It follows
-that the operations
-$\mathcal{M}\mapsto ({}^\pitchfork\mathcal{M})^\pitchfork$
-and $\mathcal{M}\mapsto {}^\pitchfork(\mathcal{M}^\pitchfork)$
-are closure operators.
-
-
-
-
-+-- {: .num_lemma #scholieselflift}
-######Lemma
-The following conditions on a morphism $f:X\to Y$ in a category $\mathbf{E}$
-are equivalent:
-
-$$f \mathrm{is}\:\mathrm{invertible}, \quad \mathbf{E}\,\pitchfork\, f, 
-\quad f\,\pitchfork\, f, \quad f\,\pitchfork\, \mathbf{E}.$$ 
++-- {: .num_theorem #weakequivandhomotopy}
+###### Theorem
+The functor $U:\pi\mathbf{E}_{f c}\to \mathrm{Ho}(\mathbf{E}_{f c})$ 
+defined above is an isomorphism of categories. 
+A map in $\mathbf{E}_{fc}$
+is acyclic iff it is a homotopy equivalence.
 =--
 
 
-
-+-- {: .proof} 
++-- {: .proof}
 ######Proof
-($1\Rightarrow 2$)
-If $f$ is invertible, then the square
+ (Mark Hovey) Let us first show that if a map  $f:X\to Y$
+in the category $\mathbf{E}_{f c}$ is acyclic,
+then it is a homotopy equivalence.
+The map $\pi(A,f):\pi(A,X)\to \pi(A,Y)$
+is bijective for every cofibrant object $A$
+by Lemma \ref{lefthomotopyfunctor}, since $f$ is an
+acyclic map between fibrant object.
+It follows that $f$ is inverted by the Yoneda functor 
+$$\pi\mathbf{E}_{f c}\to [\pi\mathbf{E}_{f c}^o, \mathbf{Sets}].$$
+But the Yoneda functor is conservative, since it is fully faithful
+by [[Yoneda]]. It follows that $f$ is invertible in the category $\pi\mathbf{E}_{f c}$. This shows that $f$ is a homotopy equivalence.
+Let us now prove that the functor $U$ is an isomorphism
+of categories. The canonical functor 
+$P:\mathbf{E}_{f c}\to \pi(\mathbf{E}_{f c})$
+inverts acyclic maps by what we just proved.
+Hence there is a unique functor 
+$T:\mathrm{Ho}(\mathbf{E}_{f c})\to \pi\mathbf{E}_{f c}$ 
+such that the following triangle commutes,
 \begin{xymatrix}
-A  \ar[d]_u \ar[r]^{x}  & X \ar[d]^{f}  \\
-B \ar[r]_{y}         & Y
+\mathbf{E}_{f c} \ar[r]^(0.4){H'}  \ar[dr]_{P}   
+& \mathrm{Ho}(\mathbf{E}_{f c})  \ar[d]^{T} \\
+ & \pi\mathbf{E}_{f c}.
 \end{xymatrix}
-has a diagonal filler $f^{-1}y:B\to X$.
-Thus, $u\,\pitchfork\, f$ for any arrow $u$, and hence 
-$\mathbf{E}\,\pitchfork\, f$.
-($2\Rightarrow 3$) If $\mathbf{E}\,\pitchfork\, f$, then 
-$f\,\pitchfork\,f$. 
-($3\Rightarrow 1$) If $f\,\pitchfork\,f$, then the square
+Let us show that the functors $U$ and $T$ are mutually inverses.
+Let us observe that the functor $P$ is an epimorphism, since 
+it is surjective on objects and full. But we have $T U P=T H' =P$.
+It follows that we have $T U =Id$, since $P$ is an epimorphism.
+On the other hand, the functor $H'$ is an epimorphism by Lemma \ref{localisationaredominant}, since it is a localisation.
+It follows that we have $U T=Id$, since we have
+$U T H'=U P =H'$.
+We have proved that the functor $U$ and $T$ are mutually inverse.
+Let us now show that a homotopy equivalence $f:X\to Y$ 
+is acyclic. We shall first consider the case where $f$ is a fibration.
+There exists a map $g:X\to Y$ such that 
+$f g\sim 1_Y$ and $g f\sim 1_X$, since $f$
+is a homotopy equivalence by assumption.
+There is then a left homotopy $h:f g\to_l 1_Y$
+defined on a cylinder $I Y$.
+I then follows from the covering homotopy theorem \ref{coveringhomotopy}
+that there exists a left homotopy $H:I Y\to X$
+such that $H i_0=g$, since $f$ is a fibration.
+Let us put $q=H i_1$. Then $f q =1_Y$ and $q\sim g$.
+Thus, $q f\sim g f \sim 1_X$, since the homotopy
+relation is a congruence. Hence the map $q f$ is acyclic by Lemma
+\ref{weakequivandhomotopy}, since $1_X$ is acyclic.
+But the map $f:X\to Y$ is retract of the map $q f:X\to X$,
+since the following diagram commutes and
+we have $f q =1_Y$,
 \begin{xymatrix}
-X \ar[d]_f \ar@{=}[r]  &   X  \ar[d]^f \\
-Y \ar@{=}[r]         & Y
+X\ar[d]_{f}  \ar[r]^{1_X} & X  \ar[d]^{qf}  \ar[r]^{1_X} & X\ar[d]^f\\
+Y \ar[r]^{q}    & X \ar[r]^{f}   &  Y.
 \end{xymatrix}
-has a diagonal filler $g:Y\to X$ and this shows that $f$ is invertible.
-The equivalences ($1\Leftrightarrow 2\Leftrightarrow 3$)
-are proved. The equivalences ($1\Leftrightarrow 4\Leftrightarrow 3$)
-are proved similarly.
+It then follows by Lemma 
+\ref{Wclosedunderretracts} that $f$ is a weak equivalence. 
+The implication ($\Leftarrow$)
+is proved in the case where $f$ is a
+fibration. In the general case, let us choose
+a factorisation $f=p u:X\to E\to Y$
+with $u$ an acyclic cofibration and $p$
+a fibration. The map $u$ is a homotopy equivalence
+by the first part of the proof,
+since it is acyclic.
+Thus, $p$ is a homotopy equivalence 
+by three-for-two for homotopy equivalences, 
+since $f$ is a homotopy equivalence by assumption.
+Thus, $p$ is acyclic since it is a fibration. 
+Hence the composite $f= p u $ is acyclic by three-for-two.
 =--
 
 
 
-Recall that a map $u:A\to B$ in a category $\mathbf{E}$ is said to be 
-a *retract* of another map $v:C\to D$,
-if $u$ is a retract of $v$ in the category of arrows $\mathbf{E}^{[1]}$.
-The condition means that there exists four maps $p,i,q,j$ fitting in
-a commutative diagram
-\begin{xymatrix}A \ar[d]^u\ar[r]^i& C \ar[d]^v\ar[r]^p & A \ar[d]^u \\ 
-B \ar[r]^j & D \ar[r]^q &  B
-\end{xymatrix}
-and such that $p i=1_A$ and $q j=1_B$.
-
-
-
-+-- {: .num_defn #defcloseunderretract}
++-- {: .num_defn #homotopycat1}
 ###### Definition
-We shall say that a class of maps $\mathcal{M}$
-in a category $\mathbf{E}$
-is *closed under retracts* 
-if every retract of a map in $\mathcal{M}$ belongs to $\mathcal{M}$.
+A **fibrant replacement** of an object $X$
+is a fibrant object $X'$ together with
+an acyclic cofibration $X\to X'$.
+A **cofibrant replacement** of an object $X$
+is a cofibrant object $X'$ together with
+an acyclic fibration $X'\to X$.
 =--
 
 
+A fibrant replacement of $X$
+is obtained by factoring the map $X\to \top$
+as an acyclic cofibration $i_X:X\to R X$
+followed by a fibration $R X\to \top$.
+If $X$ is fibrant, we can take $R X =X$
+and $i_X=1_X$.
+Similarly, a cofibrant replacement of $X$
+is obtained by factoring the map $\bot \to X$
+as a cofibration $\bot \to Q X$ 
+followed by an acyclic fibration $q_X:Q X\to X$.
+If $X$ is cofibrant, we can take $Q X =X$
+and $q_X=1_X$.
 
+A fibrant replacement of a cofibrant 
+object is cofibrant; it is thus fibrant-cofibrant.
+Dually a cofibrant replacement
+of a fibrant object is fibrant-cofibrant. 
 
-
-We recall that the *base change* of a map $f:X\to Y$
-along a map $v:V\to X$ is the map $g:U \to V$
-in a pullback square,
-\begin{xymatrix}
-U  \ar[d]_g \ar[r]  & X \ar[d]^{f}  \\
-V \ar[r]_{v}         & Y
-\end{xymatrix}
-
-
-Dually, the *cobase change* of a map $u:A\to B$
-along a map $c:A\to C$ is the map $v:C\to D$
-in a pushout square,
-\begin{xymatrix}
-A \ar[d]_{u} \ar[r]^{c} & C\ar[d]^{v}\\
-B \ar[r]  & D.
-\end{xymatrix}
-
-
-+-- {: .num_defn #defcloseunderbasechange}
-###### Definition
-We shall say that a class of maps $\mathcal{M}$
-in a category $\mathbf{E}$
-is *closed under base changes* 
-if the base change of a map in $\mathcal{M}$ belongs to $\mathcal{M}$,
-when the base change exists.
-The notion of a class of maps *closed under cobase changes* 
-is defined dually.
-=--
-
-+-- {: .num_defn #defcloseundercoproducts}
-###### Definition
-We shall say that a class of maps $\mathcal{M}$
-in a category $\mathbf{E}$
-is *closed under coproducts* 
-if the coproduct
-$$\sqcup_{i\in I}u_i: \sqcup_{i\in I} A_i\to \sqcup_{i\in I} B_i$$
-of any family of maps $(u_i:i\in I)$ in $\mathcal{M}$
-belongs to $\mathcal{M}$, when this
-coproduct exists.
-The notion of a class of maps closed under products
-is defined similarly.
-=--
-
-
-
-
-+-- {: .num_lemma #closureofcomplementsfirst}
-######Lemma
-Let $\mathcal{M}$ be a class of maps in a
-category $\mathbf{E}$.
-Then the class $\mathcal{M}^\bot$ contains the isomorphisms
-and is closed under composition, retracts, products,
-and base changes.
-Dually, the class ${}^\bot\mathcal{M}$ is 
-contains the isomorphisms and
-is closed under composition, retracts, coproducts,
-and cobase changes.
-=--
-
-
-
-+-- {: .proof} 
-###### Proof
-That class ${}^\pitchfork\mathcal{M}$ contains the isomorphisms 
-by Scholie \ref{scholieselflift}.
-Let us show that it
-is closed under composition. We shall use the
-properties of [[Cartesian squares|epicartesian]] squares.
-Let us show that if two morphisms $u:A\to B$ and $v:B\to C$
-belongs to ${}^\pitchfork\mathcal{M}$, then so
-does their composite $v u:A\to C$.
-For any morphism $f:X\to Y$, the square $Sq(v u,f)$
-\begin{xymatrix}
-hom(C,X)   \ar[rr]^{hom(v u,X)} \ar[d]_{hom(C,f)}  & & hom(A,X)  \ar[d]^{hom(A,f)}  \\
-hom(C,Y) \ar[rr]_{hom(v u,Y)}      & & hom(A,Y),
-\end{xymatrix}
-can be obtained by composing horizontally the squares $Sq(u,f)$
-and $Sq(v,f)$,
-\begin{xymatrix}
-hom(C,X)   \ar[rr]^{hom(v ,X)} \ar[d]_{hom(C,f)}  & &
-hom(B,X)  \ar[d]_{hom(B,f)}  \ar[rr]^{hom(u,X)}  & & hom(A,X)  \ar[d]^{hom(A,f)}  \\
-hom(C,Y) \ar[rr]_{hom(v,Y)} & & hom(B,Y) \ar[rr]_{hom(u,Y)}      
-& & hom(A,Y).
-\end{xymatrix}
-The squares $Sq(u,f)$
-and $Sq(v,f)$ are epicartesian if $f\in \mathcal{M}$;
-hence their composite is epicartesian by the lemma
-[here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#cancelquasicartesian).
-This shows that $v u\in {}^\pitchfork\mathcal{M}$.
-We have proved that the class ${}^\pitchfork\mathcal{M}$
-is closed under composition.
-Let us now show that the class $\mathcal{M}^\pitchfork$ 
-is closed under retracts.
-If a map $f:X\to Y$ is a retract of a map $g:U\to V$,
-then the square $Sq(u,f)$ is a retract of the square $Sq(u,g)$
-for any map $u:A\to B$.
-But a retract of an epicartesian square
-is epicartesian by the lemma
-[here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#retractquasicart). 
-It follows that the class $\mathcal{M}^\pitchfork$ is closed under retracts. Let us show that the class $\mathcal{M}^\pitchfork$
-is closed under products.
-If a map $f:X\to Y$ is the product of a family of maps
-$f_i:X_i\to Y_i$ ($i\in I$), then the square
-$Sq(u,f)$ is the product of the family of 
-squares $Sq(u,f_i)$.
-But the product of a family of epicartesian 
-squares is epicartesians by the lemma 
-[here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#productquasicart}). 
-This shows that the class $\mathcal{M}^\pitchfork$ is closed under 
-products. 
-Let us show that the class $\mathcal{M}^\pitchfork$ 
-is closed under base changes.
-Suppose that we have a pullback square
-
+The composite $q_X i_X:Q X\to R X$
+is acyclic. It can thus be factored
+as an acyclic cofibration $j_X:Q X\to W X$
+followed by an acyclic fibration $p_X:W X\to R X$,
 \[
-\label{01}
+\label{23}
 \]
 \begin{xymatrix}
-U \ar[d]_g \ar[r]^u  &  X  \ar[d]^f \\
-V \ar[r]^v      & Y
+X \ar[r]^{i_X} &  R X\\
+Q X \ar[u]^{q_X} \ar[r]_{j_X}   & W X \ar[u]_{p_X}
 \end{xymatrix}
-with $f\in \mathcal{M}^\pitchfork$ and let us prove
-that $g\in \mathcal{M}^\pitchfork$.
-It suffices to show that the square $Sq(u,g)$ 
-is epicartesian for every morphism $u:A\to B$
-in $\mathcal{M}$. But the
-square is the back face of the following 
-commutative cube,
+The object $W X$ is a **fibrant-cofibrant
+replacement** of the object $X$.
+If $X$ is cofibrant, we can take $W X=R X$,
+and if $X$ is fibrant, we can take $W X =Q X$
+(in which case we have $W X =X$, when $X$ is fibrant-cofibrant).
+
+
+
+
++-- {: .num_lemma #cofibrantreplacement}
+###### Lemma
+For every map $u:X\to Y$, there exits two maps 
+$R(u):R X\to R Y$
+and $W(u):W X\to W Y$ fitting in the following 
+commutative diagram, 
+
+\[
+\label{57}
+\]
 \begin{xymatrix}
-hom(B,U) \ar[rr] \ar[dd] \ar[dr] &   & hom(A,U)  \ar[dr]  \ar '[d] [dd]  & \\ &  hom(B,X)\ar[dd]\ar[rr] &   & hom(A,X) \ar[dd] \\ 
- hom(B,V) \ar[dr] \ar '[r] [rr]&  &   hom(A,V) \ar[dr] &  \\ 
-& hom(B,Y)  \ar[rr] &   & hom(A,Y) .
+X  \ar[r]^{u}  \ar[d]_{i_X}   &  \ar[d]^{i_Y} Y \\
+R X \ar@{.}[r]^{R(u)}    &  R Y \\
+W X   \ar@{.}[r]^{W(u)} \ar[u]^{p_X}   &  W Y. \ar[u]_{p_Y}
 \end{xymatrix}
-The left and the right faces of the cube are cartesian,
-since the square (eq:01) is cartesian and the
-functors $hom(A,-)$ and $hom(B,-)$ preserve limits.
-The front face is epicartesian
-since we have $u\pitchfork p$.
-Hence the back face is epicartesian by the cube
-lemma [here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#cubelemmaquasicart).
+The map $R(u)$ is unique up to a right homotopy,
+and the map $W(u)$ unique up to homotopy.
+The maps $R(u)$ and $W(u)$ are acyclic
+if $u$ is acyclic.
+If $u:X\to Y$ and $v:Y\to Z$, then 
+$R(v u)\sim_r R(v)R(u)$ and $W(v u)\sim W(v)W(u)$.
 =--
 
 
 
 
-
-+-- {: .num_prop #ClosureofleftandrightclassesWFS}
-###### Proposition
-The two classes of a weak factorisation system $(\mathcal{L},\mathcal{R})$ contain the isomorphisms and they
-are closed under composition and retracts. 
-The right class $\mathcal{R}$ is closed
-under base changes and products, and
-the left class $\mathcal{L}$ 
-under cobase changes and coproducts.
-The intersection $\mathcal{L}\,\cap \,\mathcal{R}$ is the class of isomorphisms.
-=--
-
-
-+-- {: .proof} 
++-- {: .proof}
 ######Proof
-This follows from Lemma \ref{closureofcomplementsfirst}
-and Lemma \ref{scholieselflift}
-since $\mathcal{R}=\mathcal{L}^\pitchfork$
-and $\mathcal{L}={}^\pitchfork\mathcal{R}$.
-=--
-
-
-+-- {: .num_defn #defdomainretract}
-######Definition
-Recall that a map $u:A\to B$ in a category $\mathbf{E}$  is said to be
-a *domain retract*
-of a map $v:C\to B$,
-if the object $(A,u)$ of the category $\mathbf{E}/B$ is a retract of
-the object $(C,v)$.
-There is a dual notion of *codomain retract*.
-=--
-
-+-- {: .num_defn #definitioncloseretract}
-###### Definition
-We shall say that a class of maps $\mathcal{M}$
-in a category $\mathbf{E}$
-is *closed under domain retracts* 
-if every domain retract of a map in $\mathcal{M}$ belongs to $\mathcal{M}$.
-The notion of a class closed under codomain retract is defined similarly.
-=--
-
-
-
-
-
-+-- {: .num_prop #WFS2}
-######Theorem
-A pair $(\mathcal{L},\mathcal{R})$ 
-of classes of maps in a category $\mathbf{E}$ is a 
-weak factorisation system iff the following conditions are satisfied:
-
-* every map $f:X\to Y$ admits a $(\mathcal{L},\mathcal{R})$-factorisation 
-$f=p u:X\to E\to Y$; 
-* $\mathcal{L}\,\pitchfork\,\mathcal{R}$;
-* the class $\mathcal{L}$ is closed under codomain retracts
-and the class $\mathcal{R}$ under domain retracts.
-=--
-
-+-- {: .proof} 
-######Proof
-The implication ($\Rightarrow$) is clear since the classes of a weak factorisation
-system are closed under retracts by Proposition
-\ref{ClosureofleftandrightclassesWFS}.
-Let us prove the implication ($\Leftarrow$).
-We have $\mathcal{R} \subseteq \mathcal{L}^\pitchfork $
-since we have $\mathcal{L}\,\pitchfork\, \mathcal{R}$ by the hypothesis.
-Let us show that we have $\mathcal{L}^\pitchfork \subseteq \mathcal{R}$.
-If a map $f:X\to Y$ belongs to $\mathcal{L}^\pitchfork$, let us choose
-a $(\mathcal{L},\mathcal{R})$-factorisation $f=p u:X\to E\to Y$.
-The square
+The map $R(u):R X\to R Y$ 
+exists because $R Y$ is fibrant and the map $i_X$ is an acyclic cofibration. After choosing $R(u)$, we can choose the map $W(u):W X\to W Y$, since the object $W X$ is cofibrant and the map $p_Y$ is an acyclic fibration.
+The map $R(u)$ is unique up to a right homotopy 
+by Lemma \ref{prolongationhomotopy}, since $R Y$ is fibrant. Hence also the composite $R(u)p_X:W X\to R Y$, since the right homotopy relation is compatible
+with composition on the right. But this composite
+is also unique up to a left homotopy by Lemma \ref{leftandrightareequiv}, since the object $R Y$ is fibrant.  It follows by Lemma \ref{liftinghomotopy} that the map $W(u)$ is unique up to a left homotopy, 
+since $p_Y$ is an acyclic fibration.
+The first statement is proved.
+Let us prove the second statement.
+If $u$ is a weak equivalence, then so are the maps 
+$R(u)$ and $W(u)$ by three-for-two, since the
+vertical sides of the diagram (eq:57) are acyclic.
+Let us prove the third statement.
+If we compose horizontally the following diagram,
 \begin{xymatrix}
-X \ar[d]_u \ar@{=}[r] & X  \ar[d]^f\\
-E  \ar[r]^p    & Y
+X   \ar[d]_{i_X} \ar[r]^{u}  &  \ar[d]^{i_Y} Y \ar[r]^{v}  &  \ar[d]^{i_Z} Z \\
+R X \ar[r]^{R(u)}    &  R Y \ar[r]^{R(v)}    &  R Z \\
+W X  \ar[u]^{p_X}  \ar[r]^{W(u)}   &  W Y \ar[u]^{p_Y} 
+ \ar[r]^{W(v)}   &  W Z, \ar[u]_{p_Z}
 \end{xymatrix}
-has a diagonal filler $r:E\to X$ since we have 
-$u\,\pitchfork\, f$.
-Hence we have $f r=p$ and $r u =1_X$
-and this shows that $f$ is a domain retract of $p$.
-Thus, $f\in \mathcal{R}$, since $\mathcal{R}$
-is closed under domain retracts by hypothesis. 
+we obtain the  following diagram,
+\begin{xymatrix}
+X   \ar[d]_{i_X} \ar[rr]^{v u}  &    &  \ar[d]^{i_Z} Z \\
+R X \ar[rr]^{R(v)R(u)}     &   &  R Z \\
+W X  \ar[u]^{p_X}  \ar[rr]^{W(v)W(u)}   &   &  W Z, \ar[u]_{p_Z}
+\end{xymatrix}
+which should be compared with the diagram,
+\begin{xymatrix}
+X   \ar[d]_{i_X} \ar[rr]^{v u}  &    &  \ar[d]^{i_Z} Z \\
+R X \ar[rr]^{R(v u)}     &   &  R Z \\
+W X  \ar[u]^{p_X}  \ar[rr]^{W(v u)}   &   &  W Z, \ar[u]_{p_Z}
+\end{xymatrix}
+It then follows from the homotopy uniqueness 
+that we have $R(v u)\sim_r R(v)R(u)$ and $W(v u)\sim W(v)W(u)$.
+=--
+
+
++-- {: .num_theorem #homotopycategory2}
+###### Theorem 
+The four canonical functors in the following square
+are equivalences of categories,
+\begin{xymatrix}
+\mathrm{Ho}(\mathbf{ E}_{f c})\ar[d]    \ar[r] &  
+\mathrm{Ho}(\mathbf{ E}_f)\ar[d]  \\
+\mathrm{Ho}(\mathbf{ E}_c)  \ar[r]& \mathrm{Ho}(\mathbf{ E}).
+\end{xymatrix}
+A map $u:A\to B$ is acyclic iff it is inverted
+by the canonical functor $H:\mathbf{ E}\to \mathrm{Ho}(\mathbf{ E})$.
+=--
+
+
++-- {: .proof}
+######Proof
+Let us first show that the diagonal functor
+$F:\mathrm{Ho}(\mathbf{ E}_{f c}) \to \mathrm{Ho}(\mathbf{ E})$
+is an equivalence of categories. 
+We shall use the following commutative square of functors,
+\[
+\label{67}
+\]
+\begin{xymatrix}
+\mathbf{E}_{f c}\ar[d]_{H'}    \ar[r] &  
+\mathbf{ E} \ar[d]^{H} \\
+ \mathrm{Ho}(\mathbf{ E}_{cf})  \ar[r]^F & 
+\mathrm{Ho}(\mathbf{ E}),
+\end{xymatrix}
+where the top functor is the inclusion
+and the vertical functor are the canonical functors.
+We have $F(H'(u))=H(u)$ for every map 
+$u\in \mathbf{ E}_{f c}$. 
+For every map $u:X\to Y$ in $\mathbf{ E}$,
+the map $W(u):W X\to W Y$
+is well defined up to homotopy
+by Lemma \ref{cofibrantreplacement}.
+Hence the morphism $H' W(u):W X \to W Y$
+is independant of the choice of $W(u)$
+by Lemma \ref{preservinghomotopies}.
+If $u:X\to Y$ and $v:Y\to Z$,
+then $W(v u)\sim W(v)W(u)$ 
+by Lemma \ref{cofibrantreplacement}.
+Thus, $H' W(v u)= H' W(v) H' W(u)$. 
+This defines a functor
+$H' W: \mathbf{ E} \to \mathrm{Ho}(\mathbf{ E}_{f c})$.
+The functor $H' W$ takes a weak equivalence to 
+an isomorphism, since $W$
+takes a weak equivalence to a weak equivalence
+by Lemma \ref{cofibrantreplacement}.
+It follows that there is a unique 
+functor  $G: \mathrm{Ho}(\mathbf{ E})\to 
+\mathrm{Ho}(\mathbf{ E}_{f c})$ such that the
+following square commutes,
+\[
+\label{67}
+\]
+\begin{xymatrix}
+\mathbf{ E} \ar[d]_{H}    \ar[r]^W &  
+\mathbf{ E}_{f c} \ar[d]^{H'} \\
+\mathrm{Ho}(\mathbf{ E})  \ar[r]^G & 
+\mathrm{Ho}(\mathbf{ E}_{cf}).
+\end{xymatrix}
+By construction, have $G H(u)=H' W(u)$ for every map $u:X\to Y$. Let us show that the functors $F$ and $G$ are quasi-inverses. 
+Observe first that we have $W(u) \sim u$ for a map $u$ in $\mathbf{E}_{f c}$ (we could even suppose that $W(u)=u$); thus $G F H'(u)=G H(u)=H' W(u)=H'(u)$ in this case. This shows that $G F H' =H'$ and it follows that $G F =Id$, since the functor $H'$ is epic by Lemma \ref{localisationaredominant}. Let us now show that the composite $F G$ is isomorphic to the identity of the category $\mathrm{Ho}(\mathbf{E})$. For this, it suffices to show that the functors $F G H$ and $H$ are isomorphic by Lemma \ref{localisationaredominant}, since the functor $H$ is a localisation. We have $F G H(X)= W X$ for every object $X$.
+Moreover, for every map $u:X\to Y$, the map $F G H(u):F G H(X)\to F G H(Y)$ is equal to the map $H W(u):W X \to W Y$,
+since $F G H(u)= F H' W (u)= H W (u)$. The maps $i_X\to R X $ and $p_X:W X \to R X$ are invertible in the category $\mathrm{Ho}(\mathbf{ E})$ since they are acyclic.
+Let us put $\theta_X=H(p_X)^{-1}H(i_X):X\to W X$
+in the category $\mathrm{Ho}(\mathbf{ E})$.
+This defines a 
+natural isomorphim $\theta: H\to F G H$
+since the image by $H$ of the commutative diagram
+(eq:57) is a commutative diagram 
+
+\[
+\label{76}
+\]
+\begin{xymatrix}
+X  \ar[rr]^{H(u)}  \ar[d]^{H(i_X)} \ar@/_3pc/[dd]_{\theta_Y}  & &  
+\ar[d]_{H(i_Y)}  Y \ar@/^3pc/[dd]^{\theta_Y}
+\\
+ R X \ar[rr]^{H R(u)}    &  &   R Y \\
+ W X   \ar[rr]^{H W(u)} \ar[u]_{H(p_X)}   & &  
+ W Y \ar[u]^{H(p_Y)}
+\end{xymatrix}
+It then follows from Lemma \ref{localisationaredominant}
+that there is a natural isomorphism
+$Id \to F G$.
+We have proved that the functor $F$
+is an equivalence of categories. 
+The proof that the canonical functor
+$\mathrm{Ho}(\mathbf{ E}_{f}) \to \mathrm{Ho}(\mathbf{ E})$
+is an equivalence of categories
+is similar except that it uses the fibrant
+replacement $R$ instead of the fibrant-cofibrant
+replacement $W$.
+It then follows by duality that the canonical functor
+$\mathrm{Ho}(\mathbf{ E}_{c}) \to \mathrm{Ho}(\mathbf{ E})$
+is an equivalence of categories.
+Let us now prove that a map 
+$u:X\to Y$ is acyclic iff it is inverted
+by the canonical functor $H:\mathbf{ E}\to \mathrm{Ho}(\mathbf{ E})$. The implication ($\Rightarrow$) is clear by definition of
+the functor $H$. Conversely, if $H(u)$ is invertible,
+let us show that $u$ is acyclic. The square (eq:77) shows that the map $H W(u)$ is also invertible since the vertical sides of the square are invertible. But we have $H W(u)=F H' W(u)$.
+Hence the map $H' W(u)$ is invertible in the category $\pi\mathbf{ E}_{cf}$, since the functor $F$ is an equivalence.
+This shows that $W u$ is a homotopy equivalence.
+Thus, $W u$ is acyclic by Theorem \ref{weakequivandhomotopy}.
+It then follows by three-for-two that $u$ is acyclic, since the vertical maps in the diagram (eq:57) are acyclic.
 =--
 
 
 
-Recall that a class $\mathcal{C}$ of objects in a category $\mathbf{E}$
-is said to be *replete* if every object isomorphic to an object
-in $\mathcal{C}$ belongs to $\mathcal{C}$.
-We shall say that a class of maps $\mathcal{M}$ 
-in $\mathbf{E}$ is **replete**,
-if it is replete as a class of objects of the category
-$\mathbf{E}^{[1]}$.
++-- {: .num_cor #homotopycategoryislocallysmall}
+###### Corollary
+If the category $\mathbf{E}$
+is locally small, then so is the category 
+$\mathrm{Ho}(\mathbf{ E})$
+=--
+
+
++-- {: .proof}
+######Proof
+The category $\mathbf{E}_{f c}$ is locally small
+since it is a subcategory of $\mathbf{E}$.
+Hence the category $\pi\mathbf{E}_{f c}$
+is locally small, since it is a quotient
+of the category $\mathbf{E}_{f c}$
+by a congruence relation.
+It follows by Theorem \ref{weakequivandhomotopy}
+that the category $\mathrm{Ho}(\mathbf{E}_{f c})$
+is locally small. It then follows by Theorem
+\ref{homotopycategory2} that the 
+category $\mathrm{Ho}(\mathbf{E})$
+is locally small.
+=-- 
 
 
 
 
-+-- {: .num_prop #incompleteWFS}
-######Corollary
-Suppose that a pair $(\mathcal{L},\mathcal{R})$ of classes
-of maps  in a category $\mathbf{E}$ satisfies the
-following three conditions:
-
-* every map $f:X\to Y$ admits a $(\mathcal{L},\mathcal{R})$-factorisation 
-$f=p u:X\to E\to Y$; 
-
-* $\mathcal{L}\,\pitchfork\,\mathcal{R}$;
-
-* the classes $\mathcal{L}$ and $\mathcal{R}$
-are replete. 
-
-If $\mathcal{L}'$ denotes the class of maps which are codomain retracts
-of maps in $\mathcal{L}$ and $\mathcal{R}'$ denotes the class of 
-maps which are domain retracts of maps in $\mathcal{R}$,
-then the pair $(\mathcal{L}',\mathcal{R}')$
-is a weak factorisation system.
++-- {: .num_cor #corolrighthomotopyfunctor}
+###### Corollary
+A map between cofibrant objects
+$u:A\to B$ is acyclic iff
+the map $\pi(u,X):\pi(B,X)\to \pi(A,X)$
+is bijective for every fibrant-cofibrant object $X$.
 =--
 
 +-- {: .proof}
 ######Proof
-The condition  $\mathcal{L}\,\pitchfork\,\mathcal{R}$
-implies the condition $\mathcal{L}'\,\pitchfork\,\mathcal{R}'$
-by Lemma \ref{closureofcomplementsfirst}.
-It is easy to see that $\mathcal{L}'$
-is closed under codomain retracts,
-and that $\mathcal{R}'$ is closed under domain retracts.
-The result then follows from Theorem \ref{WFS2}.
-=--
-
-
-
-
-##Existence##
-
-
-
-
-###Saturated classes###
-
-
-+-- {: .num_defn #transfinitecomposition}
-######Definition
-For any ordinal $\alpha$, let us put $[\alpha]=\{i :0\le i \le \alpha \}$
-and $[\alpha)=\{i :0\le i \lt \alpha \}$.
-Let $\mathbf{E}$ be a cocomplete category.
-We shall say that a functor $C:[\alpha] \to  \mathbf{E}$
-is a *chain of lentgth* $\alpha$, or an $\alpha$-*chain*.
-The *composite* of $C$ 
-is defined to be the canonical map $C(0)\to C( \alpha)$.
-The *base* of $C$ is the restriction of $C$ to $[\alpha)$. 
-The chain $C$ is *cocontinuous* 
-if the canonical map 
-$$ \mathrm{colim}_{i\lt j} C(i)\to C(j)$$
-is an isomorphism for every non-zero limit ordinal $j\in  [\alpha]$.
-We shall say that a subcategory $\mathcal{C}\subseteq \mathbf{E}$
-is closed under *transfinite compositions* if
-for any limit ordinal $\alpha\gt 0$
-any cocontinuous chain $C:\alpha \to \mathbf{E}$
-with a base in $\mathcal{C}$
-has a composite in $\mathcal{C}$.
-=--
-
-
-Dually, if $\mathbf{E}$ is a complete category,
-and $\alpha$ is an ordinal, we shall say that a contravariant 
-functor $C:[\alpha]\to \mathbf{E}$ is an *opchain*. The opchain is *continuous* if the corresponding chain $C^o:[\alpha]\to \mathbf{E}^o$ is cocontinuous. We shall say that a subcategory $\mathcal{C}\subseteq \mathbf{E}$ is closed under *transfinite op-compositions* if
-the opposite subcategory $\mathcal{C}^o\subseteq \mathbf{E}^o$
-is closed under transfinite compositions.
-
-
-
-+-- {: .num_lemma #rightclassopcomposition}
-######Lemma
-The class $\mathcal{M}^\pitchfork$ is closed
-under transfinite op-compositions for any
-class of maps $\mathcal{M}$ in a complete category $\mathbf{E}$.
-=--
-
-
-+-- {: .proof} 
-######Proof
-Let us show that if $\alpha \gt 0$ is a limit ordinal
-then every continuous op-chain $C:[\alpha]\to \mathbf{E}$
-with a base in $\mathcal{M}^\pitchfork $
-has its composite in $\mathcal{M}^\pitchfork $.
-Let us denote by $c(j,i)$ the transition map $C(j)\to C(i)$
-defined for $0\le i\le j\le \alpha$.
-For any morphism $u:A\to B$, let us denote
-by $Sq(u,C)$ the contravariant functor 
-$[\alpha]\to  \mathbf{Set}^I$ obtained
-by putting $Sq(u,C)(i)=hom(u,C(i)):hom(B,C(i))\to hom(A,C(i))$
-for $i\in [\alpha]$.
-By definition, the functor $Sq(u,C)$ takes a pair $i\leq j$
-to the square $Sq(u,c(j,i))$,
+The implication ($\Rightarrow$) 
+was proved in Lemma \ref{righthomotopyfunctor}.
+Conversely, if the map
+$\pi(u,X):\pi(B,X)\to \pi(A,X)$
+is bijective for every fibrant-cofibrant object $X$,
+let us show that $u$ is acyclic.
+For this, let us choose fibrant
+replacements $i_A:A\to R A$ and $i_B:B\to R B$ 
+of the objects $A$ and $B$,
+together with a map $R(u):R A\to R B$
+fitting in a commutative square,
+\[
+\label{97}
+\]
 \begin{xymatrix}
-hom(B,C(j))  \ar[rr]^{hom(u,C(j))}  \ar[d]_{hom(B,c(j,i))}   
-& &  hom(A,C(j))  \ar[d]^{hom(A,c(j,i))}  \\
-hom(B,C(i)) \ar[rr]_{hom(u,C(i))}     & & hom(A,C(i)).
+A  \ar[d]_{u}  \ar[rr]^{i_A}    & &  \ar[d]^{R(u)} R A \\
+B   \ar[rr]^{i_B}    &  & R B.
 \end{xymatrix}
-Beware that here the square $Sq(u,c(j,i))$
-is defining a morphism from
-the its top horizontal line to the bottom horizontal line;
-this means that we are presently using the vertical composition
-in the category of squares).
-The (vertical) op-chain $Sq(u,C):[\alpha]\to  \mathbf{Set}^I$
-is continuous, since $C$ is continuous. 
-If $u\in \mathcal{M}$, then 
-the square $Sq(u,c(j,i))$ is epicartesian 
-for every $i\leq j\lt \alpha$ by the assumption on $C$.
-It follows that the square $Sq(u,c(\alpha,0))$ is epicartesian by the lemma [here](http://ncatlab.org/joyalscatlab/show/Cartesian+squares#transfiniteopcompquasicart).
-This show that $c(\alpha,0)$ belongs to $\mathcal{M}^\pitchfork $,
-and hence that $\mathcal{M}^\pitchfork$
-is closed under transfinite op-compositions.
+The horizontal maps of the following square
+are bijective by Lemma \ref{righthomotopyfunctor},
+since the maps $i_A$ and $i_B$ are acyclic,
+\begin{xymatrix}
+\pi(A,X)    & &  \ar[ll]_{\pi(i_A,X)}  \pi(R A,X) \\
+\pi(B,X) \ar[u]^{\pi(u,X)}      & & 
+  \ar[ll]^{\pi(i_B,X)} \pi(R B,X)\ar[u]_{\pi(R(u),X)}.
+\end{xymatrix}
+It follows that the map $\pi(R(u),X)$ is bijective,
+since the map $\pi(u,X)$ is bijective. 
+It then follows by using the Yoneda embedding that the 
+map $R(u)$ is invertible in the category $\pi\mathbf{E}_{f c}$.
+This shows that the map $R(u)$ is a acyclic by Theorem \ref{weakequivandhomotopy}.
+It then follows by three-for-two applied to
+the square (eq:97) that the map $u$ is acyclic.
 =--
 
 
-+-- {: .num_defn #saturatedclassesdef}
-######Definition
-We shall say that a class of maps $\mathcal{C}$ in a cocomplete category
-$\mathbf{E}$ is  **cellular** if it satisfies the following conditions:
-* $\mathcal{C}$ contains the isomorphisms and is closed under composition,
-* $\mathcal{C}$ is closed under transfinite compositions;
-* $\mathcal{C}$ is closed under cobase changes.
+###Determination###
 
-We shall say that $\mathcal{C}$ is  **saturated** if in addition,
 
-* $\mathcal{C}$ is closed under retracts.
 
-Every class of maps $\Sigma\subseteq \mathbf{E}$ 
-is contained in a smallest cellular class $Cell(\Sigma)$
-called the cellular class *generated* by $\Sigma$.
-Similarly, $\Sigma$ is contained in a smallest saturated class $Sat(\Sigma)$
-called the saturated class *generated* by $\Sigma$.
++-- {: .num_prop #determination1}
+###### Proposition
+A model structure $(\mathcal{C},\mathcal{W},\mathcal{F})$
+in a category $\mathbf{E}$
+is determined by any two of its three classes.
+A map $f:X\to Y$ is a weak equivalence iff
+it admits a factorisation
+$f=p u:X\to E\to Y$ with $u$ an acyclic cofibration
+and $p$ an acyclic fibration.
+=--
+
++-- {: .proof}
+###### Proof
+The class $\mathcal{C}\,\cap\, \mathcal{W}$
+determines the class $\mathcal{F}$,
+since the pair $( \mathcal{C}\,\cap\, \mathcal{W},\mathcal{F})$
+is a weak factorisation system. Hence the pair 
+$(\mathcal{C},\mathcal{W})$ determines the class $\mathcal{F}$.
+Dually, the pair $(\mathcal{F},\mathcal{W})$ determines the class $\mathcal{C}$. Let us show that the pair $(\mathcal{C},\mathcal{F})$ determines the class $\mathcal{W}$.
+Obviously, the pair $(\mathcal{C},\mathcal{F})$
+determines the pair 
+$(\mathcal{C}\,\cap\, \mathcal{W},\mathcal{F}\,\cap\, \mathcal{W})$
+since $\mathcal{C}\,\cap\, \mathcal{W}={}^\pitchfork\mathcal{F}$
+and $\mathcal{F}\,\cap\, \mathcal{W}=\mathcal{C}^\pitchfork$.
+Hence it suffices to show that a map $f:X\to Y$ is a weak equivalence iff it admits a factorisation
+$f=p u:X\to E\to Y$ with $u$ an acyclic cofibration
+and $p$ an acyclic fibration. The implication ($\Leftarrow$)
+is clear, since the class $\mathcal{W}$ is closed
+under composition. Conversely, if $f:X\to Y$
+is a weak equivalence, let us choose a factorisation $f=p u$ 
+with $u$ an acyclic cofibration and $p$ a fibration.
+The map $p$ is acyclic by three-for-two, since the maps $f$ and $u$ are acyclic.
+Thus, $p\in \mathcal{F}\,\cap\,\mathcal{W}$.
 =--
 
 
-+-- {: .un_example #leftclasssaturated}
-######Example
-We shall see in Proposition \ref{leftsaturatedissaturated} below that the left class of a weak factorisation system in a cocomplete category is saturated. 
+Let us denote by $M_f$ (resp. $M_c$, $M_{f c}$) the class
+of fibrant (resp. cofibrant, fibrant-cofibrant) objects 
+of a model structure $M=(\mathcal{C},\mathcal{W},\mathcal{F})$ 
+in a category $\mathbf{E}$.
+
+
++-- {: .num_prop #determination2}
+###### Proposition 
+A model structure $M=(\mathcal{C},\mathcal{W},\mathcal{F})$ in a category $\mathbf{E}$ is determined by its class of cofibrations and its class 
+$M_{f}$ of fibrant objects (resp. its class $M_{f c}$ of fibrant-cofibrant objects). More precisely, if $M'=(\mathcal{C},\mathcal{W}',\mathcal{F}')$ 
+is another model structure with the same cofibrations,
+then the four conditions
+
+ $$\mathcal{W}\subseteq \mathcal{W}',
+ \quad \quad \quad  M'_{f}\subseteq M_{f}, \quad \quad \quad 
+ M'_{f c}\subseteq M_{f c}, \quad \quad \quad 
+ \mathcal{W}_c\subseteq \mathcal{W}'_c ,$$
+
+are equivalent.
 =--
 
-+-- {: .un_example #epimorphismsaturated}
-######Example
-The class of epimorphisms in any cocomplete category
-is saturated. Let us say that a map in a cocomplete
-category is *surjective* if it is left orthogonal
-to every monomorphisms; then the class of surjective maps
-in a cocomplete category is saturated.
+
++-- {: .proof}
+######Proof: 
+We shall use the equality
+$$\mathcal{F}\,\cap\, \mathcal{W}=\mathcal{C}^\pitchfork=\mathcal{F}'\,\cap\, \mathcal{W}'$$
+and the inclusion $\mathcal{C}^\pitchfork\subseteq \mathcal{W}\,\cap\, \mathcal{W}'$.
+Let us prove the implication (1)$\Rightarrow$(2).
+If $\mathcal {W}\subseteq \mathcal {W}'$, then 
+$\mathcal{C}\,\cap\,\mathcal{W}\subseteq \mathcal{C}\,\cap\, \mathcal{W}'$.
+Thus, $\mathcal {F}'\subseteq \mathcal {F}$,
+since $\mathcal{F}=(\mathcal{C}\,\cap\, \mathcal{W})^\pitchfork $
+and $\mathcal{F}'=(\mathcal{C}\,\cap\, \mathcal{W}')^\pitchfork $.
+It follows that $M'_{f}\subseteq M_{f}$.
+The implication (1)$\Rightarrow$(2) is proved. 
+The implication (2)$\Rightarrow$(3) is obvious,
+since $M_{c}=M'_{c}$. Let us prove the implication (3)$\Rightarrow$(4). If $A$ is cofibrant and $X\in \subseteq M_{f c}$ (resp. $X\in \subseteq M'_{f c}$) let us denote by $\pi(A,X)$ (resp. $\pi'(A,X)$) the set of homotopy classes of maps $A\to X$ with respect to the model structure $M$ (resp. $M'$).
+We claim that if $X\in M'_{f c}$, then the left homotopy relation between the maps $A\to X$ only depends on the weak factorisation system $(\mathcal{C},\mathcal{C}^\pitchfork)$. 
+To see this, observe that a cylinder object of $A$ can be constructed by factoring the map $\nabla_A:A\sqcup A \to A$ as a cofibration $(d_1,d_0):A\sqcup A\to I A$
+followed by a map $s:I A\to A$ in $\mathcal{C}^\pitchfork$.
+The left homotopy relation between the maps $A\to X$
+can be defined by using this cylinder alone
+by Lemma \ref{lefthomotopysinglecylinder}, since the object $X$ is fibrant in both model structures under the assumption that $M'_{f c}\subseteq M_{f c}$. This shows that the left homotopy relation between the maps $A\to X$ only depends on the system 
+$(\mathcal{C},\mathcal{C}^\pitchfork)$ if $X\in M'_{f c}$. It follows that we have $\pi'(A,X)=\pi(A,X)$ if $A$ is cofibrant
+and $X\in M'_{f c}$. We can now prove that $\mathcal{W}_c\subseteq \mathcal{W}'_c$. If a map $u:A\to B$ belongs to $\mathcal {W}_c$, then the map $\pi(u,X):\pi(B,X)\to \pi(A,X)$ is bijective for every object $X\in M_{f c}$ by Corollary \ref{corolrighthomotopyfunctor},
+hence also the map $\pi'(u,X):\pi'(B,X)\to \pi'(A,X)$
+for every object $X\in M'_{f c}$.
+This shows that $u\in \mathcal {W}'_c$ by the same corollary.
+The inclusion $\mathcal{W}_c\subseteq \mathcal{W}'_c$
+is proved. Let us now prove the implication (4)$\Rightarrow$(1).
+Let $u:A\to B$ be a map in $\mathcal {W}$.
+Let us factor the map $\bot \to A$
+as a cofibration $\bot \to A'$ followed by a map
+$q_A:A'\to A$ in $\mathcal{C}^\pitchfork$,
+and then factor the composite $u q_A:A'\to B$
+as a cofibration $u':A'\to B'$ followed
+by a map $q_B:B'\to B$ in $\mathcal{C}^\pitchfork$.
+We obtain a commutative square
+\begin{xymatrix}
+A'  \ar[d]_{u'}  \ar[r]^{q_A}   &  \ar[d]^u A \\
+B'   \ar[r]^{q_B}    & B.
+\end{xymatrix}
+with $q_A,q_B\in \mathcal{W}\,\cap\, \mathcal{W}'$,
+since $\mathcal{C}^\pitchfork\subseteq \mathcal{W}\,\cap\, \mathcal{W}'$. We have $u'\in \mathcal{W}_c$ by three-for-two, since $u\in \mathcal{W}$.
+Thus, $u'\in \mathcal{W}'_c$, 
+since $\mathcal{W}_c\subseteq \mathcal{W}'_c$ by assumption. 
+It  follows by three-for-two that $u\in \mathcal{W}'$.
+The implication (4)$\Rightarrow$(1)
+is proved. 
 =--
 
 
-+-- {: .un_example #splitmonomorphismsaturated}
-######Example
-The class of split monomorphisms in any
-cocomplete category is saturated.
-The class of monomorphisms in a Grothendieck topos is 
-saturated. 
++-- {: .num_cor #detemination4}
+###### Corollary 
+A model structure $(\mathcal{C},\mathcal{W},\mathcal{F})$ in a category $\mathbf{E}$ is determined by its subcategory of fibrant
+objects $\mathbf{E}_{f}$ together with one of the classes
+$\mathcal{C}$ or $\mathcal{F}\, \cap\, \mathcal{W}.$
+Dually, a model structure $(\mathcal{C},\mathcal{W},\mathcal{F})$ 
+is determined by its subcategory of cofibrant
+objects $\mathbf{E}_{c}$ together with one of the classes
+$\mathcal{F}$ or $\mathcal{C}\, \cap\, \mathcal{W}.$
+=--
+
+
++-- {: .proof}
+######Proof: 
+The first statement follows from Proposition \ref{determination2}
+and by using the fact that $\mathcal{C}={}^\pitchfork(\mathcal{F}\, \cap\, \mathcal{W})$. The rest follows by duality.
 =-- 
 
 
 
++-- {: .num_cor #determination3}
+###### Corollary 
+A model structure $(\mathcal{C},\mathcal{W},\mathcal{F})$ in a category $\mathbf{E}$ is determined by its subcategory of fibrant-cofibrant
+objects $\mathbf{E}_{f c}$ together with one of the classes
 
-+-- {: .un_example #monossetexsatgen}
-######Example
-The class of monomorphisms in the category of simplicial sets
-is generated as a cellular class by the set of inclusions $\partial \Delta[n] \subset  \Delta[n]$ ($n\geq 0$).
-=--
-
-For more examples of saturated classes of the form $Sat(\Sigma)$, go to Example \ref{KanfibRLPex}.
-
-+-- {: .num_prop #leftsaturatedissaturated}
-######Proposition
-The class ${}^\pitchfork\mathcal{M}$ 
-is saturated for any class of maps $\mathcal{M}$ in a cocomplete category
-$\mathbf{E}$. In particular, the left class of a weak factorisation system in a cocomplete category is saturated.
-=--
-
-+-- {: .proof} 
-######Proof
-The class ${}^\pitchfork\mathcal{M}$ contains the isomorphisms 
-and it is closed under composition, retracts and cobase changes by 
-\ref{closureofcomplementsfirst}. And it is closed under
-transfinite compositions by Lemma \ref{rightclassopcomposition}
-dualised. 
+$$\mathcal{C}, \quad \mathcal{C}\,\cap\, \mathcal{W}, \quad \mathcal{F},
+ \quad \mathcal{F}\, \cap\, \mathcal{W}.$$
 =--
 
 
-
-+-- {: .num_prop #saturatedarecoproductclosed}
-######Lemma
-A cellular class of maps is closed under coproducts. 
++-- {: .proof}
+######Proof: 
+This follows from Proposition \ref{determination2}
+in the case of the class $\mathcal{C}$,
+and also in the case of the class $\mathcal{F}\, \cap\, \mathcal{W}$,
+since we have $\mathcal{C}={}^\pitchfork(\mathcal{F}\, \cap\, \mathcal{W})$.
+The rest follows by duality.
 =--
+ 
 
-+-- {: .proof} 
-######Proof
-Let $\mathcal{M}$ be a cellular class of maps in a 
-cocomplete category $\mathbf{E}$.
-We shall say that an object $A\in \mathbf{E}$
-*cofibrant*, if the map $\bot \to A$ belongs to $\mathcal{M}$,
-where $\bot$ is the initial object of $\mathbf{E}$.
-We shall first prove that the coproduct of a
-family of cofibrant objects is cofibrant. 
-Let us first show that the coproduct of a finite
-family of cofibrant objects is cofibrant.
-The identity map $\bot \to \bot$ belongs to $\mathcal{M}$,
-since $\mathcal{M}$ contains the isomorphisms.
-Hence the object $\bot $ is cofibrant.
-This show that the coproduct of the empty
-family of objects is cofibrant.
-It remains to show that the coproduct of a finite
-non-empty family of cofibrant objects is cofibrant.
-For this it suffices to show that the coproduct
-of two cofibrant objects is cofibrant.
-If $A$ and $B$ are cofibrant, 
-consider the pushout square
+
+
+##Derived functors##
+
+
+
+###Definitions###
+
+
+Let $\Sigma$ be a set of arrows in a category  $\mathbf{A}$,
+and let $P:\mathbf{A} \to \Sigma^{-1}\mathbf{A} $
+be the localisation functor.
+We saw in Lemma \ref{localisationaredominant}
+that for any category $\mathbf{M}$, the functor 
+$$P^*:[\Sigma^{-1}\mathbf{A},\mathbf{M}] \to [\mathbf{A},\mathbf{M}]$$
+induced by $P$ is fully faithful, and that it induces
+an isomorphism between the category 
+$[\Sigma^{-1}\mathbf{A},\mathbf{M}]$ and the full subcategory
+of $[\mathbf{A},\mathbf{M}]$
+spanned by the functors $\mathbf{A}\to \mathbf{M}$
+which inverts the elements of $\Sigma$. 
+We can thus identify these categories, by using the same
+notation for a functor $G:\Sigma^{-1}\mathbf{A}\to \mathbf{M}$
+and the functor $G P:\mathbf{A}\to \mathbf{B}$.
+In which case the category $[\Sigma^{-1}\mathbf{A},\mathbf{M}]$ 
+becomes a full subcategory of the
+category $[\mathbf{A},\mathbf{M}]$.
+The [[Kan extensions|left Kan extension]] of a functor 
+$F:\mathbf{A}\to \mathbf{M}$ along the functor $P$
+is a functor $F':\Sigma^{-1}\mathbf{A}\to \mathbf{M}$ 
+equipped with a natural transformation $\eta:F\to F'$
+which _reflects_ $F$ into the full subcategory 
+$[\Sigma^{-1}\mathbf{A},\mathbf{M}]$.
+More precisely, for any functor
+$G:\Sigma^{-1}\mathbf{A}\to \mathbf{M}$ and any natural
+transformation $\alpha: F\to G$, there exists a unique
+natural transformation $\alpha':F'\to G$
+such that $\alpha'\eta=\alpha$,
 \begin{xymatrix}
-\bot \ar[r]\ar[d]&  B \ar[d]^{i_B} \\
-A   \ar[r]^(0.4){i_A}&  A\sqcup B .
+& &  &  &  \\
+& & &  & [\Sigma^{-1}\mathbf{A},\mathbf{M}] \\
+F \ar[ddrrrr]_(0.45)\alpha \ar[rrr]^{\eta}  && &  F' \ar@{.}[ddd]\ar@{.}[uu]  \ar[ddr]^{\alpha'} & \\  
+&&  &  &  \\
+&&  &  & G. \\
+& &  &  &
 \end{xymatrix}
-The map $i_B$ is a cobase change
-of the map $\bot \to A$. Thus, $i_B\in \mathcal{M}$,
-since $A$ is cofibrant and $\mathcal{M}$ is closed under cobase change.
-The map $\bot \to B$ also belongs to $ \mathcal{M}$, since $B$ is cofibrant.
-Hence the composite $\bot \to B\to  A\sqcup B$ belongs to $ \mathcal{M}$,
-since $ \mathcal{M}$ is closed under composition.
-This shows that $ A\sqcup B$ is cofibrant.
-Let us now show that the coproduct 
-$$A= \bigsqcup_{i\in I} A_i  $$
-of an infinite family of cofibrant objects $(A_i:i\in I)$ is cofibrant.
-We shall argue by induction on the ordinal $\alpha=\mathrm{Card}(I)$. 
-If $j\lt \alpha$, let us put
-$$C(j)=\bigsqcup_{i\lt j} A_i.$$
-There is an obvious canonical map $C(j)\to C(k)$
-for $j\le k \le \alpha$ and
-this defines a cocontinuous chain $C:[\alpha] \to \mathbf{E}$.
-Notice that $C(0)=\bot$ and $C(\alpha)=A$.
-Hence we can  prove that $A$ is cofibrant by showing
-that the composite of $C$ belongs to $ \mathcal{M}$.
-For this it suffices to show that the base of $C$ belongs to 
-$ \mathcal{M}$, since $ \mathcal{M}$
-is closed under transfinite compositions.
-But the object
-$$C(j,k)=\bigsqcup_{j\le i\lt k} A_i$$
-is cofibrant for every $j\le k\lt \alpha$
-by the induction hypothesis, since $k\lt \alpha$. 
-And the transition map $C(j)\to C(k)$ is a base change
-of the map $\bot \to C(j,k)$
-since we have a pushout square
+The functor $F'$ can thus be regarded
+as the best _right_ approximation of the functor 
+$F$ by a functor inverting the elements in $\Sigma$. 
+
+Dually, the [[Kan extensions|right Kan extension]] of a functor 
+$F:\mathbf{A}\to \mathbf{M}$ along the functor $P$
+is a functor $F':\Sigma^{-1}\mathbf{A}\to \mathbf{M}$ 
+equipped with a natural transformation $\epsilon:F'\to F$
+which _coreflects_ $F$ into the full subcategory 
+$[\Sigma^{-1}\mathbf{A},\mathbf{M}]$.
+More precisely, for any functor
+$G:\Sigma^{-1}\mathbf{A}\to \mathbf{M}$ and any natural
+transformation $\beta: G\to F$, there exists a unique
+natural transformation $\alpha':G\to F'$
+such that $\epsilon \alpha'=\alpha$,
 \begin{xymatrix}
-\bot \ar[r]\ar[d]&  C(j) \ar[d] \\
-C(j,k)  \ar[r]&  C(k).
-\end{xymatrix} 
-This shows that the transition map $C(j)\to C(k)$ belongs to $ \mathcal{M}$
-for every $j\le k\lt \alpha$.
-We have proved that the base of $C$
-belongs to $ \mathcal{M}$ and hence that the object $A$ is cofibrant.
-Let us now show that the class $ \mathcal{M}$ is closed under coproducts.
-For this, let us show that the coproduct $u:A\to B$ of a family of maps 
-$u_i:A_i\to B_i$ ($i\in I$) in $ \mathcal{M}$ belongs to $ \mathcal{M}$.
-For this, let us denote by $ \mathcal{M}'$ the class of maps in the category 
-$A\backslash  \mathbf{E}$ whose underlying map in $\mathbf{E}$ belongs to $ \mathcal{M}$.
-It is easy to verify that the class $ \mathcal{M}'$ satisfies the hypothesis
-of the proposition. 
-Let us put $E_i=B_i\sqcup_{A_i}A$ for each $i\in I$,
-\begin{xymatrix}
-A_i\ar[r]\ar[d]_{u_i}&  A \ar[d]^{v_i} \\
-B_i  \ar[r] & E_i.
-\end{xymatrix} 
-The object $(B,u)$ of $A\backslash \mathbf{E}$
-is the coproduct of the family of objects $(E_i,v_i)$ for $i\in I$.
-The map $v_i:A\to E_i$ belongs to $ \mathcal{M}$, since $u_i\in \mathcal{M}$ by assumption, and since the class $ \mathcal{M}$ is closed under cobase change. Hence the object $(E_i,v_i)$ of the category $A\backslash \mathbf{E}$
-is cofibrant with respect to the class $ \mathcal{M}'$.
-It follows that the object $(B,u)$ is cofibrant by the first part of the proof. This proves that $u\in   \mathcal{M}$.
+&  &  &   & \\
+[\Sigma^{-1}\mathbf{A},\mathbf{M}]  &  &  &   & \\
+& F' \ar@{.}[dd]\ar@{.}[uu]  \ar[rrr]^{\epsilon}  &  &   & F   \\  
+&  &   & & \\
+G\ar[uur]^{\alpha'} \ar[uurrrr]_(0.55)\alpha   &  &    & &
+\end{xymatrix}
+The functor $F'$ can thus be regarded
+as the best _left_ approximation of the functor 
+$F$ by a functor inverting the elements in $\Sigma$. 
+
+
+
+
++-- {: .num_defn #Derivedfunctordef}
+###### Definition
+Let $\mathbf{E}$ be a category equipped with a class $\mathcal{W}$
+of weak equivalences.
+The **right derived functor** of a functor 
+$F:\mathbf{E}\to \mathbf{M}$ is defined to be the best
+dexter approximation $\eta:F\to F^R$ of the functor $F$ 
+by a functor $F^R$ inverting weak equivalences. 
+Dually, the **left derived functor** of $F$ 
+is defined to be the best sinister approximation $\epsilon:F^L\to F$
+of the functor $F$ by a functor  $F^L$ inverting weak equivalences. 
 =--
 
 
 
+We shall say a right derived
+functor $\eta:F\to F^R$ is **absolute** if it stays
+a right derived functor after postcomposing it with
+any functor $U: \mathbf{M}\to  \mathbf{N}$, that is, if 
+the natural transformation
+$U(\eta):U F\to U F^R$ exibits the functor  $U F^R$
+as the the right derived functor $(U F)^R$ of $U F$.
+Dually, We shall say a left derived
+functor $\epsilon:F^L\to F$ is **absolute** if it stays
+a left derived functor after postcomposing it with
+any functor $U: \mathbf{M}\to  \mathbf{N}$, that is, if
+the natural transformation
+$U(\epsilon):U F^L\to U F $ exibits the functor  $U F^L$ 
+as the left derived functor $(U F)^L$ of $U F$.
 
-+-- {: .num_defn #cellularandsaturatedclassesdef}
-######Definition
-If $\alpha$ is a regular cardinal,
-we shall say that a class of maps $\mathcal{M}$ in a complete category
-$\mathbf{E}$ 
-is  $\alpha$-*cellular* if it satisfies the following conditions:
-* $\mathcal{M}$ contains the isomorphisms and is closed under composition;
-* $\mathcal{M}$ is closed under transfinite compositions of cocontinuous   chains of length $\le \alpha$;
-* $\mathcal{M}$ is closed under cobase changes;
-* $\mathcal{M}$ is closed under coproducts.
 
-We shall say that an $\alpha$-cellular class $\mathcal{C}$
-is  $\alpha$-*saturated* if in addition,
 
-* $\mathcal{C}$ is closed under retracts.
 
-Every class of maps $\Sigma\subseteq \mathbf{E}$ 
-is contained in a smallest $\alpha$-cellular class $Cell^\alpha(\Sigma)$
-called the $\alpha$-cellular class *generated* by $\Sigma$.
-Similarly, $\Sigma$ is contained in a smallest $\alpha$-saturated class $Sat(\Sigma)$
-called the $\alpha$-saturated class *generated* by $\Sigma$.
+
+
++-- {: .num_prop #Derivedfunctordef}
+###### Proposition
+Let $\mathbf{E}$ be a model category,
+and $F:\mathbf{E}\to \mathbf{M}$ be a functor
+which inverts weak equivalences between fibrant 
+objects. Then the right derived functor
+$\eta:F\to F^R$ exists and
+it is absolute.
+Moreover, the map $\eta_X:F X\to F^R X$
+is an isomorphism when $X$ is fibrant.
 =--
 
 
-+-- {: .un_example #monosimplicialsetomegacellular}
-######Example
-If $\Sigma$ is the set of inclusions $\partial \Delta[n] \subset  \Delta[n]$ ($n\geq 0$) in the category $\mathbf{SSet}$ (of simplicial sets), then $Cell^\omega(\Sigma)=Sat(\Sigma)$ is the class of monomorphisms.
++-- {: .proof}
+######Proof: 
+For each object $X\in \mathbf{E}$, let us choose
+a fibrant replacement $i_X:X\to R X$; we shall take $i_X =1_X:X\to X$
+when $X$ is fibrant. By Lemma \ref{cofibrantreplacement},
+for every map $u:X\to Y$, there exits a map 
+$R(u):R X\to R Y$
+fitting in the 
+commutative square,
+\[
+\label{100}
+\]
+\begin{xymatrix}
+X  \ar[r]^{u}  \ar[d]_{i_X}   &  \ar[d]^{i_Y} Y \\
+R X \ar@{.}[r]^{R(u)}    &  R Y
+\end{xymatrix}
+The map $R(u)$ is unique up to a right homotopy
+by Lemma \ref{cofibrantreplacement}.
+Hence the map $F R(u):F R X \to F R Y$ does not 
+depends on the choice of $R(u)$ by 
+Lemma \ref{preservinghomotopies}.
+Moreover, if $u:X\to Y$ and $v:Y\to Z$,
+then we have $F R (v u)=F R(v) F R(u)$
+by the same lemma. We thus
+obtain a functor 
+$F^R=F R:\mathbf{E} \to \mathbf{M}$.
+
+The functor $F^R$ inverts weak equivalences,
+since $R(u)$ is a weak equivalence between
+fibrant objects when $u$ is a weak equivalence
+by Lemma \ref{cofibrantreplacement}.
+Thus, $F^R:Ho(\mathbf{E}) \to \mathbf{M}$.
+Notice that $F^R X =F X$
+when $X$ is fibrant.
+The image by $F$ of the square (eq:100) is a commutative square,
+\begin{xymatrix}
+F X  \ar[r]^{F(u)}  \ar[d]_{F(i_X)}   &  \ar[d]^{F(i_Y)} F Y \\
+F R X \ar[r]^{F R(u)}    &  F R Y.
+\end{xymatrix}
+It shows that we can define a natural
+transformation $\eta:F\to F^R$ by
+putting $\eta_X=F(i_X):F X\to F R X$
+for every object $X$.
+Notice that we have $\eta_X=1_{F X}$
+when $X$ is fibrant.
+Let us show that the natural transformation $\eta:F\to F^R$
+is _reflecting_ the functor $F$ into the subcategory 
+$[Ho(\mathbf{E}),\mathbf{M}]$
+of the category $[\mathbf{E},\mathbf{M}]$.
+For this we have to prove that for any functor 
+$G: Ho(\mathbf{E})\to  \mathbf{M}$ 
+and any natural transformation
+$\alpha:F\to G$ 
+there exists a unique natural transformation 
+$\alpha':F^R\to G$ such that $\alpha'\eta =\alpha$,
+\begin{xymatrix}
+& & &  & [Ho(\mathbf{E}),\mathbf{M}] \\
+F \ar[ddrrrr]_(0.45)\alpha \ar[rrr]^{\eta}  && &  F^R \ar@{.}[dd]\ar@{.}[u]  \ar[ddr]^{\alpha'} & \\  
+&&  &  &   \\
+&&  &  &  G.
+\end{xymatrix}
+The map $G(i_X):G X\to G R X$ in the following 
+square 
+
+\[
+\label{99}
+\]
+\begin{xymatrix}
+F X  \ar[r]^{\alpha_X}  \ar[d]_{F(i_X)}   &  
+\ar[d]^{G(i_X)} G X \\
+F R X \ar[r]^{\alpha_{R X}}    &  G R X.
+\end{xymatrix}
+is invertible by the assumption on $G$, since $i_X$ is a weak equivalence. We can thus defines a 
+map $\alpha'_X:F R X\to G X$ by putting 
+$\alpha_X=G(i_X)^{-1}\alpha_{R X}$.
+Let us verify that this defines a natural transformation 
+$\alpha':F^R\to G$. 
+The right hand square of the
+following diagram commutes for any map 
+$u:X\to Y$ by the functoriality of $G$,
+since the square (eq:100) commutes,
+\begin{xymatrix}
+F R X   \ar@/^3pc/[rr]^{\alpha'_X}  \ar[r]^{\alpha_{R X}}  \ar[d]_{F R(u)}   
+&  \ar[d]_{G R(u)} G R X & \ar[l]_(0.42){G(i_X)} G X \ar[d]^{G(u)} \\
+F R Y \ar[r]^{\alpha_{R Y}} \ar@/_3pc/[rr]_{\alpha'_Y}  & G R Y &  \ar[l]_(0.42){G(i_Y)} G Y.
+\end{xymatrix}
+And the left hand square commutes by the naturality of $\alpha$.
+The naturality of $\alpha'$ is proved.
+Observe that we have
+$G(i_X)^{-1} \alpha_{R X} F(i_X)=\alpha_X$
+for every object $X$, 
+since the square (eq:99) commutes.
+This proves that $\alpha'\eta =\alpha$.
+It remains to prove the uniqueness of $\alpha'$.
+If $\beta:F R\to G$ is a natural
+transformation such that $\beta\eta =\alpha$,
+let us show that $\beta=\alpha'$.
+Notice that $\beta_X=\alpha_X=\alpha'_X$
+when $X$ is fibrant, since we have $\eta_X=1_{F X}$
+in this case. In general, let us choose a weak
+equivalence $w:X\to Y$ with codomain a fibrant object $Y$
+(for example, $w=i_X:X\to R X$).
+The bottom maps in the following two squares are
+equal since $Y$ is fibrant,
+\begin{xymatrix}
+F R X  \ar[d]_{F R(w)}  \ar[r]^{\alpha'_X}   &  \ar[d]^{G(w)} G X \\
+F R Y \ar[r]^{\alpha'_{Y}}    &  G Y.
+\end{xymatrix}
+Hence also the top maps, since $G(w)$ is invertible by the assumption on $G$. 
+Thus, $\beta_X=\alpha'_X$.
+We have proved that $F^R$ is the right 
+derived functor of $F$. Moreover, the map $\eta_X$ is 
+invertible when $X$ is fibrant, since we have 
+$\eta_X=1_{F X}$ in this case.
+For any functor $U: \mathbf{M}\to  \mathbf{N}$
+we have $(U F)^R=(U F)R=U(F R)=U F^R $
+and $U(\eta_X)=U F(i_X) $.
+This shows that the right
+derived functor $F^R $ is absolute. 
 =--
+ 
 
 
-+-- {: .un_example #anodynessetexsatgen}
-######Example
-If $\Sigma$ is the set of inclusions 
-$h^k_n: \Lambda^k[n] \subset  \Delta[n]$ for $n\gt 0$ and $0\le k\le n$,
-then $Sat^\omega(\Sigma)=Sat(\Sigma)$ is the class of anodyne maps.
-=--
+###Quillen functors###
 
 
-
-
-###Small object argument###
-
-
-
-+-- {: .num_defn #Sigmafibrant}
-######Definition
-If $u$ is a map in a category $\mathbf{E}$,
-we shall say that
-an object $X$ in $\mathbf{E}$
-is $u$-*fibrant*
-if the
-map 
-$$hom(u,X):hom(B,X)\to hom(A,X)$$
-is surjective. 
-More generally, if $\Sigma$ is a class of maps in $\mathbf{E}$,
-we shall say that
-an object $X$
-is $\Sigma$-*fibrant*
-if it is $u$-fibrant for every $u\in \Sigma$.
-When $\mathbf{E}$ has a terminal object $1$,
-then an object $X$ is $\Sigma$-fibrant
-iff the map $X\to 1$ belongs to $\Sigma^\pitchfork$.
-=--
-
-Recall that an object $A$ in a cocomplete
-category  $\mathbf{E}$ is said to be [[Compact objects|compact]]
-if the functor 
-$$hom(A,-): \mathbf{E}\to \mathbf{Set}$$
-preserves directed colimits.
-More generally, if $\alpha$ is a regular cardinal,
-then an object $A$ is said to be $\alpha$-[[Compact objects|compact]]
-if the functor $hom(A,-)$
-preserves $\alpha$-directed colimits.
-An object $A$ is said to be [[Compact objects|small]]
-if it is $\alpha$-compact
-for some regular cardinal $\alpha$.
-
-
-
-
-+-- {: .num_prop #Sigmafibrantreplacement}
-######Proposition 
-(**Small object argument**)
-Let $\Sigma$ be a set of maps in a cocomplete category $\mathbf{E}$.
-If the domains of the maps in $\Sigma$ are $\alpha$-compact,
-then there exists a functor 
-$$R:\mathbf{E}\to \mathbf{E}$$
-together with a natural transformation $\rho:Id\to R$ 
-such that:
-* the object $R(X)$ is $\Sigma$-fibrant for every object $X$; 
-* the map $\rho_X:X\to R(X)$ belongs to $Cell^{\alpha}(\Sigma)$ for every $X\in \mathbf{E}$.
-
-Moreover, the functor $R$ preserves $\alpha$-directed colimits.
-=--
-
-
-+-- {: .proof} 
-######Proof(Part 0)
-We first explain the rough idea of proof in the case $\alpha=\omega$.
-We begin by constructing a functor 
-$$F:\mathbf{E}\to \mathbf{E}$$
-together with a natural transformation $\theta:Id\to F$ 
-having the following properties:
-for every arrow $\sigma:A\to B$ in $\Sigma$ and every
-map $x:A\to X$, there exists a map $x^\sigma:B\to F(X)$
-fitting in a commutative square
-\begin{xymatrix}
-A \ar[d]_{\sigma} \ar[r]^{x}  &  X \ar[d]^{\theta_X}\\
-B  \ar[r]^(0.4){x^\sigma}  &  F(X).
-\end{xymatrix}
-The object $R(X)$ is then taken to be the colimit
-of the infinite sequence,
-\begin{xymatrix}
-X \ar[r]^{\theta^0} & F(X) \ar[r]^{\theta^1}& F^2(X) \ar[r]^{\theta^2} & F^3(X)\ar[r] &\cdots
-\end{xymatrix}
-where $\theta^n=\theta_{F^n(X)}$,
-and natural transformation $\rho:Id\to R$ is defined by the canonical map $X\to R(X)$. The nice properties of $\rho $
-are deduced from the nice properties of $\theta$.
-Let us show that the object $R(X)$ is $\Sigma$-fibrant.
-If $v_n:F^n(X)\to R(X)$ denotes the canonical map,
-then we have a commutative triangle
-\begin{xymatrix}
-F^n(X)  \ar[d]_{\theta^n} \ar[r]^{v_n}  & R(X)  \\
-F^{n+1}(X)  \ar[ur]_{v_{n+1}}  &
-\end{xymatrix}
-for every $n\geq 0$.
-The domain of every map $\sigma:A\to B$ in $\Sigma$
-is compact by hypothesis. It follows that 
-for every
-map $x:A\to R(X)$,
-there exist an integer $n\ge 0$ together with a map $y:A\to F^n(X)$ such that $x=v_n y$. 
-But there is then a map $y^\sigma:B\to F^{n+1}(X)$
-fitting in a commutative square
-\begin{xymatrix}
-A \ar[d]_{\sigma} \ar[r]^{y}  &  F^nX \ar[d]^{\theta^n} \\
-B  \ar[r]^(0.4){y^\sigma}  &  F^{n+1}(X).
-\end{xymatrix}
-If $z=v_{n+1}y^\sigma$, then
-$z\sigma=v_{n+1}y^\sigma \sigma =v_{n+1} \theta^n y= v_{n} y=x.$
-This shows that $R(X)$ is $\Sigma$-fibrant.
-Let us describe the construction of the functor $F$ in the case
-where $\Sigma$ consists of a single map $\sigma:A\to B$.
-If $E$ is a set we shall denote by $E\times A$
-the coproduct of $E$ copies of $A$. 
-The functor $E\mapsto E\times A$ is left adjoint 
-to the functor  $X\mapsto hom(A,X)$.
-Let $\epsilon(A,X):hom(A,X)\times A\to X$
-be the counit of the adjunction.
-By definition, we have $\epsilon(A,X)i_x=x$ for every
-$x:A\to X$, where $i_x:A\to hom(A,X)\times A$
-is the inclusion indexed by $x$.
-The object $F(X)$ and the map $\theta_X:X\to F(X)$ 
-are then defined by a pushout square
-\begin{xymatrix}
-hom(A,X)\times A  \ar[d]_{hom(A,X)\times \sigma}
- \ar[rr]^(0.7){\epsilon(A,X)} &  &  X \ar[d]^{\theta_X} \\
-hom(A,X)\times B  \ar[rr] &  &  F(X),
-\end{xymatrix}
-For every map $x:A\to X$, the composite of the squares
-\begin{xymatrix}
-A \ar[rr]^(0.3){i_x}\ar[d]_\sigma & & hom(A,X)\times A  
-\ar[d]_{hom(A,X)\times \sigma} \ar[rr]^(0.7){\epsilon(A,X)}  &  & 
- X \ar[d]^{\theta_X} \\
-B\ar[rr]^(0.3){i_x}&  &  hom(A,X)\times B  \ar[rr]  &  &  F(X),
-\end{xymatrix}
-is a square
-\begin{xymatrix}
-A \ar[d]_{\sigma} \ar[r]^{x}  &  X \ar[d]^{\theta_X}\\
-B  \ar[r]^(0.4){x^\sigma}  &  F(X).
-\end{xymatrix}
-=-- 
-
-+-- {: .proof} 
-######Proof(Part 1) 
-We now give a full proof in the case $\alpha=\omega$.
-For every object $X\in \mathbf{E}$ 
-let us put
-$$S(X)=\bigsqcup_{\sigma\in \Sigma}  hom(s(\sigma),X)\,\times\, s(\sigma)$$
-where $s(\sigma)$ is the source of the map $\sigma$.
-This defines a functor $S:\mathbf{E}\to \mathbf{E}.$
-The counits 
-$$\epsilon(s(\sigma),X):hom(s(\sigma), X)\,\times\, s(\sigma) \to X$$
-induces a map $\epsilon_X:S(X)\to X$.
-This defines a natural transformation $\epsilon:S\to Id$,
-where $Id$ denotes the identity functor.
-By definition, if $\sigma:A\to B$ is a map in $\Sigma$, then for every
-map $x:A\to X$ we have $\epsilon_X i_{(\sigma,x)}=x$,
-where $i_{(\sigma,x)}:A\to S(X)$
-is the inclusion indexed by $(\sigma,x)$.
-For every object $X\in \mathbf{E}$ let us put 
-$$T(X)=  \bigsqcup_{\sigma\in \Sigma} 
-hom(s({\sigma}),X)\,\times\, t({\sigma}),$$
-where $t(\sigma)$ is the target of the map $\sigma$.
-This defines a functor $T:\mathbf{E}\to \mathbf{E}.$
-The coproduct over $\sigma\in \Sigma$ of the maps 
-$$hom(s(\sigma),X)\,\times\, \sigma: hom(s(\sigma),X)\,\times\, s(\sigma) \to 
-hom(s({\sigma}),X)\,\times\, t({\sigma})$$
-is a map $\phi_X:S(X)\to T(X)$. 
-This defines a natural transformation $\phi:S\to T.$
-Let us denote by $F(X)$ the object defined by
-the pushout square
-\begin{xymatrix}
-S(X) \ar[d]_{\phi_X} \ar[rr]^{\epsilon_X}  &  &  X \ar[d]^{\theta_X}\\
-T(X)  \ar[rr]  & &  F(X).
-\end{xymatrix}
-This defines a functor $F: \mathbf{E}\to  \mathbf{E}$ together
-with a natural transformation $\theta:Id\to F$.
-Observe that for every map $\sigma:A\to B$ in $\Sigma$ and every
-map $x:A\to X$, the composite of the squares
-\begin{xymatrix}
-A \ar[rr]^{i_{(\sigma,x)}}\ar[d]_\sigma & & S(X)  
-\ar[d]_{\phi_X} \ar[rr]^{\epsilon_X}  &  & 
- X \ar[d]^{\theta_X} \\
-B\ar[rr]^{i_{(\sigma,x)}}&  &  T(X) \ar[rr]  &  &  F(X),
-\end{xymatrix}
-is a square
-\begin{xymatrix}
-A \ar[d]_{\sigma} \ar[r]^{x}  &  X \ar[d]^{\theta_X}\\
-B  \ar[r]^{x^\sigma}  &  F(X).
-\end{xymatrix}
-The colimit $R(X)$ 
-of the infinite sequence
-\begin{xymatrix}
-X \ar[r]^{\theta^0} & F(X) \ar[r]^{\theta^1}& F^2(X) \ar[r]^{\theta^2} & F^3(X)\ar[r] &\cdots
-\end{xymatrix}
-is $\Sigma$-fibrant by the part 0 of the proof, where $\theta^n=\theta_{F^n(X)}$. 
-Let us show that the canonical map $\rho_X:X\to R(X)$ 
-belongs to $Cell^{\omega}(\Sigma)$.
-For this it suffices to show that the maps $\theta_X$
-belong to $Cell^{\omega}(\Sigma)$, since an $\omega$-cellular
-class is closed under $\omega$-compositions.
-But $\theta_X$ is a cobase change of $\phi_X$,
-and $\phi_X$ is a coproduct of maps in $\Sigma$.
-This shows that $\theta_X$ belongs to $Cell^{\omega}(\Sigma)$
-by the closure preperties of this class of maps.
-It remains to show that the functor $R$
-preserves directed colimits. The functor $hom(A,-)$
-preserves directed colimits for any compact object $A$.
-Hence, also the functor $hom(A,-)\,\times\, B$
-for any object $B$, since the functor $(-)\times B$
-is cocontinuous. The functor $R$ is by construction
-a colimit of functors of the form $hom(A,-)\,\times\, B$,
-for compact objects $A$. It follows that $R$ preserves directed colimits.
-This completes the proof of the proposition in the case
-where $\alpha=\omega$.  
-=--
-
-
-+-- {: .proof} 
-######Proof (Part 2) 
-Let us now consider the case where $\alpha\gt \omega$. 
-The sequence
-\begin{xymatrix}
-X \ar[r]^{\theta^0} & F(X) \ar[r]^{\theta^1}& F^2(X) \ar[r]^{\theta^2} & F^3(X)\ar[r] &\cdots
-\end{xymatrix}
-can be extended 
-cocontinuously through all the
-ordinals $\leq \alpha$ by putting 
-$$F^j(X)=\mathrm{colim}_{i\lt j}  F^i(X)$$
-for every limit ordinal $j \le \alpha$
-and by putting $F^{j+1}(X)=F(F^{j}(X))$ and
-$$\theta^j=\theta_{F^j(X)}:F^j(X)\to F^{j+1}(X)$$
-for every ordinal $j \lt \alpha$.
-Let us then put $R(X)=F^\alpha(X)$ and let $v_i:F^i(X)\to R(X)$
-be the canonical map for $i \lt \alpha$.
-This defines a functor $R:\mathbf{E}\to \mathbf{E}$
-equipped with a natural transformation $\rho_X=v_0:X\to R(X)$.
-Let us show that the object $R(X)$ is $\Sigma$-fibrant.
-For every map $\sigma:A\to B$ in $\Sigma$ and every
-map $x:A\to X$, there exist an ordinal $i \lt \alpha$ together with a map $y:A\to F^i(X)$ such that $x=v_i y$, since the object $A$
-is $\alpha$-compact.
-But there is then a map $y^\sigma:B\to F^{i+1}(X)$
-fitting in a commutative square
-\begin{xymatrix}
-A \ar[d]_{\sigma} \ar[r]^{y}  &  F^iX \ar[d]^{\theta^i} \\
-B  \ar[r]^(0.4){y^\sigma}  &  F^{i+1}(X).
-\end{xymatrix}
-If $z=v_{i+1}y^\sigma$, then
-$z\sigma=v_{i+1}y^\sigma \sigma =v_{i+1} \theta^i y= v_{i} y=x.$
-This shows that $R(X)$ is $\Sigma$-fibrant.
-We leave to the reader the verification that $\rho_X$
-belongs to $Cell^{\alpha}(\Sigma)$,
-and the verification that the functor $R$ preserves $\alpha$-directed colimits.
-=--
-
-
-If $\mathbf{E}$ is a category, then an object of the category 
-$\mathbf{E}^{[2]}$ is a composable
-pair of maps $A\to B\to C$ in the category $\mathbf{E}.$
-There is then a composition functor 
-$$\sigma_1:\mathbf{E}^{[2]}\to \mathbf{E}^{[1]}$$
-which associates to a composable
-pair $A\to B\to C$ its composite $A\to B$.
-We shall say that a section 
-$$F:\mathbf{E}^{[1]}\to \mathbf{E}^{[2]}$$
-of the functor $\sigma_1$ 
-is a *factorisation functor*.
-It associates
-to a map $f:A\to A'$ a factorisation $f=f_1f_0:A\to F(f)\to A'$,
-and it takes a
-commutative square
-\begin{xymatrix}
-A \ar[d]_{f} \ar[r]^{u}  &  B \ar[d]^{g}\\
-A'  \ar[r]^{u'}  &  B'
-\end{xymatrix}
-to a commutative diagram,
-\begin{xymatrix}
-A \ar[d]_{f_0} \ar[rr]^{u}  & &  B \ar[d]^{g_0}\\
-F(f) \ar[d]_{f_1} \ar[rr]^{F(u,u')}  &  &  F(g) \ar[d]^{g_1}\\
-A'  \ar[rr]^{u'}  & &  B'.
-\end{xymatrix}
-Moreover, we have $F(v,v')F(u,u')=F(v u,v'u')$
-for any pair of composable squares,
-\begin{xymatrix}
-A \ar[d]_{f} \ar[r]^{u}  &  B \ar[d]^{g}\ar[r]^{v} &  C\ar[d]_{h} \\
-A'  \ar[r]^{u'}  &  B'\ar[r]^{v'}  & C' .
-\end{xymatrix}
-
-
-
-+-- {: .num_prop #functorialfibrantreplacement}
-######Proposition
-(**Functorial factorisation**)
-Let $\Sigma$ be a set of maps in a cocomplete category $\mathbf{E}$.
-If the domain and codomain of every map in $\Sigma$ is $\alpha$-compact
-then there exists a factorisation functor 
-$$F:\mathbf{E}^{[1]}\to \mathbf{E}^{[2]}$$
-which associates to every morphism 
-$f:A\to B$ a factorisation $f=f_1f_0: A\to F(f)\to B$
-with $f_0\in Cell^{\alpha}(\Sigma)$ and $f_1\in \Sigma^\pitchfork$.
-Moreover, the functor $F$ preserves $\alpha$-directed colimits.
-=--
-
-+-- {: .proof} 
-######Proof 
-We shall use Proposition \ref{Sigmafibrantreplacement}.
-For any map $u:A\to B$ in $\mathbf{E}$,
-let us denote by $\lambda(u)$ the square
-\begin{xymatrix}
-A \ar[d]_{u} \ar[r]^{u}  &  B \ar[d]^{1_B}\\
-B  \ar@{=}[r] &  B
-\end{xymatrix}
-viewed as a morphism $u\to 1_B$ in the category $\mathbf{E}^{[1]}$.
-If $f:X\to Y$ is a map in $\mathbf{E}$,
-then the condition $u\,\pitchfork\, f$
-exactly means that the map
-$$Hom(\lambda(u),f): Hom(1_B,f)\to Hom(u,f)$$
-is surjective and hence that $f$ is $\lambda(u)$-fibrant.
-Hence a map $f:X\to Y$ belongs to $\Sigma^\pitchfork$
-iff it is $\lambda(\Sigma)$-fibrant as an object of the category
-$\mathbf{E}^{[1]}$.
-It is easy to verify that domain and codomain 
-of a map in $\lambda(\Sigma)$ are $\alpha$-compact,
-since this is true of the maps in $\Sigma$. 
-It then follows from Proposition \ref{Sigmafibrantreplacement}
-that we can construct a functor 
-$$R:\mathbf{E}^{[1]}\to \mathbf{E}^{[1]}$$
-together with a natural transformation $\rho:Id\to R$.
-This yields a commutative square
-\begin{xymatrix}
-X \ar[d]_{f} \ar[rr]^{\rho_0(f)}  &  & R_0(f) \ar[d]^{R(f)}\\
-Y \ar[rr]^{\rho_1(f)}  &  & R_1(f).
-\end{xymatrix}
-in the category $\mathbf{E}$ for every map $f:X\to Y$
-in $\mathbf{E}$. 
-The map $R(f)$ belongs to $\Sigma^\pitchfork$, since it is a
-$\lambda(\Sigma)$-fibrant object of the category $\mathbf{E}^{[1]}$.
-The morphism $\rho(f):f\to R(f)$ belongs to 
-$Cell^{\alpha}(\lambda(\Sigma))$ for every map $f\in \mathbf{E}$ by Proposition \ref{Sigmafibrantreplacement}. 
-Let us show that the map $\rho_0(f)$ belongs to 
-$Cell^{\alpha}(\Sigma)$ and that the map $\rho_1(f)$ is invertible. 
-For this, let us denote by $\mathcal{C}$ the class of 
-maps $u:A\to B$ in $\mathbf{E}^{[1]}$
-\begin{xymatrix}
-A_0 \ar[d]_{u} \ar[r]^{u_0}  &  B_0 \ar[d]\\
-A_1 \ar[r]^{u_1}  &  B_1
-\end{xymatrix}
-for which $u_0\in Cell^{\alpha}(\Sigma)$ and for which $u_1$ invertible.
-The 
-It is easy to verify that the class $\mathcal{C}$
-is $\alpha$-cellular. Moreover, we have $\lambda(\Sigma)\subseteq \mathcal{C}$. It follows that we have
-$Cell^{\alpha}(\lambda(\Sigma))\subseteq \mathcal{C}$.
-Thus, the morphism $\rho(f):f\to R(f)$ belongs to $ \mathcal{C}$
-for every $f$. Hence the map $\rho_0(f)$ belongs to 
-$Cell^{\alpha}(\Sigma)$ and the map $\rho_1(f)$ is invertible.
-We can then construct a functorial factorisation 
-$f=f_1f_0:X\to F(f)\to Y$ by putting
-$F(f)=R_0(f)$, $f_0=\rho_0(f)$
-and $f_1=\rho_1(f)^{-1}R(f)$.
-By construction, we have $f_0\in \Cell^{\alpha}(\Sigma)$
-and $f_1\in \Sigma^\pitchfork$.
-The functor $F$ preserves $\alpha$-directed colimits,
-since the functor $R$ preserves $\alpha$-directed colimits.
++-- {: .num_defn #Quillenfunctordef}
+###### Definition
+We shall say that a functor
+$F:\mathbf{U}\to \mathbf{V}$ between two model categories
+is a **left Quillen functor**  if it takes
+a cofibration to a cofibration and an acyclic
+cofibration to an acyclic cofibration. 
+Dually, we shall say that $F$
+is a **right Quillen functor** if it takes
+a fibration to a fibration and an acyclic
+fibration to an acyclic fibration.
 =--
 
 
 
 
-+-- {: .un_remark #remarkfunctorialfactorisationstrong}
++-- {: .un_remark #cocontinuousQfunct}
 ######Remark
-The first part of the proposition can be proved
-under the weaker assumption that the domains
-of the maps in $\Sigma$ are $\alpha$-compact
-(but the resulting factorisation functor $F$ may not preserves
-$\alpha$-directed colimits). 
-See Exercise \ref{functorialfactorisationstrong}.
+Most left Quillen functors that we shall 
+consider are cocontinuous and have a right adjoint.
+Dually, most right Quillen functors
+have a left adjoint.
 =--
 
 
-
-Recall from Definition \ref{saturatedclassesdef} that $Sat(\Sigma)$ denotes 
-the saturated class generated by a class $\Sigma$.
-
-+-- {: .num_theorem #existenceofWFS}
-######Theorem
-Let $\Sigma$ be a set of maps between small objects in a cocomplete category $\mathbf{E}$. Then the pair $(Sat(\Sigma),\Sigma^\pitchfork)$
-is a weak factorisation system.
-Moreover, if $\Sigma$ is a set of maps between $\alpha$-compact objects, 
-then every morphism in $Sat(\Sigma)$
-is a codomain retract of a morphism in $Cell^{\alpha}(\Sigma)$. 
-=--
-
-+-- {: .proof} 
-######Proof 
-We shall apply Proposition \ref{WFS2} to the classes 
-$\mathcal{L}=Sat(\Sigma)$ and $\mathcal{R}=\Sigma^\pitchfork$.
-The class $\mathcal{L}$ is closed under codomain retracts,
-since it is saturated. The class $\mathcal{R}$
-is closed under domain retracts by Proposition \ref{closureofcomplements}
-since it is a right complement $\Sigma^\pitchfork$.
-Let us show that we have $\mathcal{L}\,\pitchfork\, \mathcal{R}$.
-We have $\Sigma \subseteq {}^\pitchfork(\Sigma^\pitchfork)=\mathcal{R}^\pitchfork$. Thus, $Sat(\Sigma)\subseteq \mathcal{R}^\pitchfork$,
-since the class $\mathcal{R}^\pitchfork$ is saturated
-by Proposition \ref{leftsaturatedissaturated}.
-This proves that $\mathcal{L}\,\pitchfork\, \mathcal{R}$.
-Let us choose a regular cardinal $\alpha$ for which
-$\Sigma$ is a set of maps between $\alpha$-compact objects.
-It then follows from Proposition \ref{functorialfibrantreplacement}
-that every map $f:X\to Y$
-admits a factorisation $f=p u:X\to E\to Y$
-with $u\in Cell^{\alpha}(\Sigma)$ and $p\in \mathcal{R}$.
-But we have $Cell^{\alpha}(\Sigma)\subseteq Sat(\Sigma)$
-since a saturated class is $\alpha$-cellular for any
-regular cardinal $\alpha$ by Lemma \ref{saturatedarecoproductclosed} 
-This shows that $u\in \mathcal{L}$
-and hence that the pair $(\mathcal{L},\mathcal{R})$
-is a weak factorisation system by Proposition \ref{WFS2}.
-It remains to prove that every morphism in $\mathcal{L}$
-is a codomain retract of a morphism in $Cell^{\alpha}(\Sigma)$. 
-If $u:A\to B$ belongs to $\mathcal{L}$,
-let us choose a factorisation $u=p v:X\to E\to Y$
-with $v\in Cell^{\alpha}(\Sigma)$ and $r\in \mathcal{R}$.
-The square
-\begin{xymatrix}
-A \ar[d]_{u} \ar[r]^{v}  &  E \ar[d]^r\\
-B \ar@{=}[r]   &  B
-\end{xymatrix}
-has a diagonal filler $s:B\to E$, since we have $u\pitchfork r$.
-This shows that $u$ is a codomain retract of $v$.
-=--
-
-
-+-- {: .num_cor #existenceofWFSinlocprescat}
-######Corollary
-Let $\Sigma$ be a set of maps in a [[locally presentable category]] 
-$\mathbf{E}$. Then the pair $(Sat(\Sigma),\Sigma^\pitchfork)$
-is a weak factorisation system.
-=--
-
-+-- {: .proof} 
-######Proof 
-This follows from theorem \ref{existenceofWFS},
-since every object of a locally presentable category is small.
-=--
-
-
-
-
-
-##Functorial aspects##
-
-
-
-
-+-- {: .num_prop #adjointfunctorliftingprop}
++-- {: .num_lemma #KenBrownandQfunctor}
 ######Lemma
-Let $F:\mathbf{C}\leftrightarrow \mathbf{D}:G$ be a pair of adjoint functors
-between two categories $\mathbf{C}$ and $\mathbf{D}$.
-If $u:A\to B$ is an arrow  in $\mathbf{C}$
-and $f:X\to Y$ is an arrow in $\mathbf{D}$, then the two conditions
+A left Quillen functor
+takes an acyclic map between cofibrant objects
+to an acyclic map. 
+A right Quillen functor
+takes an acyclic map between fibrant objects
+to an acyclic map. 
+=--
 
-$$F(u)\,\pitchfork\, f \quad \mathrm{and}\quad u \,\pitchfork\,  G(f) $$
+
++-- {: .proof}
+######Proof: 
+This follows from Ken Brown's lemma \ref{Kenbrownorigianl}.
+=--
+
+
+
++-- {: .num_lemma #Quillenpair}
+######Lemma
+Let $F:\mathbf{U}\leftrightarrow \mathbf{V}:G$
+be an adjunction $F\vdash G$ 
+between two model categories.
+Then the left adjoint $F$
+is a left Quillen functor iff the 
+right adjoint $G$ is a right Quillen functor.
+=--
+
+
+
++-- {: .proof}
+######Proof: 
+Let us denote by $(\mathcal{C},\mathcal{W},\mathcal{F})$
+the model structure on $\mathbf{U}$
+and by $(\mathcal{C}',\mathcal{W}',\mathcal{F}')$
+the model structure on $\mathbf{V}$.
+Then the conditions
+$$F(\mathcal{C})\subseteq \mathcal{C}' \quad \mathrm{and} \quad
+ G(\mathcal{F}'\,\cap\, \mathcal{W}')\subseteq \mathcal{F}\cap \mathcal{W}$$
+are equivalent by the proposition [here](http://ncatlab.org/joyalscatlab/show/Weak+factorisation+system#adjointfunctorandwfs). 
+Similarly, the conditions
+$$F(\mathcal{C}\,\cap\, \mathcal{W})\subseteq \mathcal{C}'\,\cap\, \mathcal{W}' \quad \mathrm{and} \quad
+ G(\mathcal{F}')\subseteq \mathcal{F}$$ 
 are equivalent.
 =--
 
 
 
 
-+-- {: .proof} 
-######Proof
-The adjunction $\theta:F\dashv G$
-induces a bijection between the following commutative squares
-and their diagonal fillers,
-\begin{xymatrix}
-A \ar[d]_u \ar[r]^{\theta(x)}& GX  \ar[d]^{Gf}  \\
-B \ar[r]_{\theta(y)}    \ar@{-->}[ur]^{\theta(d)}  & GY.
-\end{xymatrix}
++-- {: .num_defn #Quillenadjunctiondef}
+###### Definition
+We shall say that an adjunction $F\vdash G$
+between two model categories is a **Quillen adjunction**
+if the left adjoint $F$ is a left Quillen functor, 
+or equivalently, if the right adjoint $G$ is a right Quillen functor. 
 =--
 
 
-+-- {: .num_prop #adjointfunctorandwfs}
-######Proposition
-Let $F:\mathbf{C}\leftrightarrow \mathbf{D}:G$ be a pair of adjoint functors
-between two categories $\mathbf{C}$ and $\mathbf{D}$.
-If $(\mathcal{L},\mathcal{R})$ is a weak factorisation system
-in the category $\mathbf{C}$ and $(\mathcal{L}',\mathcal{R}')$ 
-a weak factorisation system
-in $\mathbf{D}$, then the two conditions
-$$F(\mathcal{L})\subseteq \mathcal{L}'\quad \mathrm{and}
-\quad G(\mathcal{R}')\subseteq \mathcal{R} $$
-are equivalent.
-=--
+##Examples of model categories##
 
-+-- {: .proof} 
-######Proof
-The condition $F(\mathcal{L})\subseteq \mathcal{L}'$ is equivalent
-to the condition $F(\mathcal{L})\,\pitchfork\, \mathcal{R}'$,
-since $\mathcal{L}'={}^\pitchfork\mathcal{R}'$.
-But the condition $F(\mathcal{L})\,\pitchfork\, \mathcal{R}'$
-is equivalent to the condition $\mathcal{L}\,\pitchfork\, G(\mathcal{R}')$
-by Lemma \ref{adjointfunctorliftingprop}.
-But the condition $\mathcal{L}\,\pitchfork\, G(\mathcal{R}')$
-is equivalent to the condition $G(\mathcal{R}')\subseteq \mathcal{R}$,
-since $\mathcal{R}=\mathcal{L}^\pitchfork$.
+
++-- {: .num_example #Kanmodelstructurecat}
+###### Example
+The category of simplicial sets $\mathbf{SSet}$ admits a model structure,
+called the [[Kan model structure]], in which the fibrant objects are the Kan complexes and the cofibrations are the monomorphisms. The weak equivalences are the weak homotopy equivalences and the fibrations are the Kan fibrations.
+The model structure is cartesian closed and proper.
 =--
 
 
-
-
-
-
-##Examples##
-
-
-###In algebra###
-
-
-
-+-- {: .num_example #projectivemodule}
-######Example
-If $R$ is a ring, we shall say that a morphism of (left) $R$-modules 
-is *projective* if it has the left lifting property with respect to
-the the epimorphisms.  An $R$-module
-$M$ is projective iff the morphism $0\to M$ is projective.
-More generally, a map of $R$-modules $u:M\to N$ is projective iff 
-it is monic and its cokernel is a projective $R$-module. 
-The category of $R$-modules admits a weak 
-factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
-is the class of projective morphisms and $\mathcal{R}$ is the class of 
-epimorphisms. 
++-- {: .num_example #naturalmodelstructurecat}
+###### Example
+The category $\mathbf{Cat}$ admits a model structure, called the
+[natural model structure](http://ncatlab.org/joyalscatlab/show/Model+structures+on+Cat)
+in which the cofibrations are the functors monic
+on objects, the weak equivalences are the equivalences of categories
+and the fibrations are the isofibrations.
+The model structure is cartesian closed and proper.
 =--
 
 
-
-
-
-+-- {: .num_example #splitepimorphism}
-######Example
-A category with finite coproducts  $\mathbf{E}$
-admits a factorisation system $(\mathcal{L},\mathcal{R})$ in which 
-$\mathcal{R}$ is the class of split epimorphisms.
-A morphism $u:A\to B$ belongs to $\mathcal{L}$ 
-iff it is a codomain retract of an inclusion
-$in_1:A\to A\sqcup B$.
-=--
-
-
-+-- {: .num_example #projectivemaps}
-######Example
-We shall say that a homomorphism of groups is *projective*
-if it has the left lifting property with respect to
-the surjective homomorphisms. 
-The category of groups $\mathbf{Grp}$ admits a weak
-factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
-is the class of projective homorphisms and $\mathcal{R}$ is the class of 
-surjective homomorphisms. More generally, if $\mathbf{V}$ is a [[variety
-of algebras]], we shall say that a morphism in $\mathbf{V}$ 
-is **projective** if it has the left lifting property with respect to
-surjective morphisms. A morphism is projective iff 
-it is the codomain retract of an inclusion
-$in_1:A\to A\sqcup C$, where $C$ is a free algebra.
-Then the category $\mathbf{V}$ admits
-a factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
-is the class of projective morphisms and $\mathcal{R}$ is the class of 
-surjective morphisms. 
-=--
-
-
-
-
-
-
-+-- {: .num_example #trivialfibrationab}
-######Example
-If $R$ is a ring, we shall say that a homomorphism of (left) $R$-modules is a *trivial fibration* if it has the right lifting property with respect to every monomorphism. The category of left $R$-modules $mathbf{RMod}$ admits a weak factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$ is the class of monomorphisms and $\mathcal{R}$ is the class of trivial fibrations. More generally, any [[Grothendieck abelian category]]
-admits such a factorisation system. An object $X$ is said to be *injective* if the map $X\to 1$ is a trivial fibration.
-=--
-
-
-+-- {: .num_example #trivialfibrationbool}
-######Example
-We shall say that a homomorphism of boolean algebras is a *trivial fibration* if it has the right lifting property with respect to every monomorphism. 
-The category of boolean algebras admits a weak 
-factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
-is the class of monomorphisms and $\mathcal{R}$ is the class of trivial
-fibrations. A boolean algebra is **injective** iff it is complete.
-=--
-
-
-
-
-
-###In Cat###
-
-
-+-- {: .num_example #naturalmodelstructurecatWFS}
-######Example
-We recall that the category of small categories $\mathbf{Cat}$ admits a [natural model structure](http://ncatlab.org/joyalscatlab/show/Model+structures+on+Cat) $(\mathcal{C},\mathcal{W},\mathcal{F})$ in 
-which $\mathcal{C}$ is the class of functors monic
-on objects, $\mathcal{W}$ is the class of equivalences
-of categories and $\mathcal{F}$ is the class of
-[isofibrations](http://ncatlab.org/joyalscatlab/show/Model+structures+on+Cat#isofibrationdef).
-Hence the category $\mathbf{Cat}$ admits two weak factorisation
-systems $( \mathcal{C}\cap \mathcal{W},\mathcal{F})$
-and $(\mathcal{C},\mathcal{W}\cap \mathcal{F})$.
-In the first, $ \mathcal{C}\cap \mathcal{W}$
-is the class of equivalences
-monic on objects and $\mathcal{F}$ is the class of isofibrations.
-In the second, $ \mathcal{C}$
-is the class of functors
-monic on objects and $\mathcal{W}\cap \mathcal{F}$
-is the class of equivalences surjective on objects.
-=--
-
-
-+-- {: .num_example #1final1fibWFS}
-######Example
-We shall say that a small category $A$ is *1-connected*
-if its fundamental groupoid $\pi_1(A)$ is equivalent 
-to the terminal category 1.
-We shall that a functor  between small categories $u:A \to B$
-is *1-final* if the category $b \backslash A=b \backslash B \times_{B} A$
-defined by the pullback square
-\begin{xymatrix}
-b \backslash A \ar[d] \ar[r] & A\ar[d]^u\\
-b \backslash B\ar[r] & B.
-\end{xymatrix}
-is 1-connected for every object $b\in B$.
-We shall say that a [[Grothendieck fibration]] 
-is a *1-fibration* if its
-fibers are groupoids.
-The category $\mathbf{Cat}$
-admits a weak factorisation system $(\mathcal{L}, \mathcal{R})$ in which 
-$\mathcal{L}$ the class of 1-final functors monic on objects
-and $\mathcal{R}$ is the class of 1-fibrations.
-=--
-
-
-+-- {: .num_example #1initial1opfibWFS}
-######Example
-Let us say that a functor between small categories $u:A \to B$
-is *1-initial* if the category $b \backslash A=
-(B/b) \times_{B} A$
-defined by the pullback square
-\begin{xymatrix}
- A/b \ar[d] \ar[r] & A\ar[d]^u\\
-B/b\ar[r] & B.
-\end{xymatrix}
-is connected for every object $b\in B$.
-We shall say that a Grothendieck opfibration 
-is a *1-opfibration*
-if its fibers are groupoids.
-The category $\mathbf{Cat}$
-admits a weak factorisation system $(\mathcal{L}, \mathcal{R})$ in which 
-$\mathcal{L}$ the class of 1-initial functors monic on objects
-and $\mathcal{R}$ is the class of 1-opfibrations.
-=--
-
-+-- {: .num_example #1connected1bifibWFS}
-######Example
-Let us say that a functor between small categories $u:A\to B$
-is  *1-connected* if the map
-of simplicial sets $N(u):N(A)\to N(B)$ is [[1-connected]],
-where $N:\mathbf{Cat} \to \mathbf{SSet}$ is the nerve 
-functor. We shall say that a Grothendieck bifibration 
-is a *1-bifibration*
-if its fibers are groupoids.
-The category $\mathbf{Cat}$ admits a 
-weak factorisation system
-$(\mathcal{L}, \mathcal{R})$ in which
-$\mathcal{L}$ the class of 1-connected functors monic on objects
-and $\mathcal{R}$ is the class of 1-bifibrations.
-=--
-
-
-
-###In SSet###
-
-
-
-
-
-
-+-- {: .num_example #KanfibRLPex}
-######Example
-Let $\Sigma$ be the set of inclusions 
-$h^k_n: \Lambda^k[n] \subset  \Delta[n]$
-($n\gt 0, 0\le k\le n$) in the category of simplicial sets.
-A map of simplicial sets is a [[Kan fibration]]
-if it belongs to $\Sigma^\pitchfork$,
-and a map is *anodyne*
-if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
-The category of simplicial sets $\mathbf{SSet}$
-admits a weak 
-factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
-is the class of anodyne maps and $\mathcal{R}$ is the class of 
-Kan fibrations.
-=--
-
-
-
-
-+-- {: .num_example #rightanodynerightfibWFS}
-######Example
-Let $\Sigma$ be the set of inclusions 
-$h^k_n: \Lambda^k[n] \subset  \Delta[n]$ ($0\lt k\le n$)
-in the category of simplicial sets.
-A map of simplicial sets is a [[right fibration]]
-if it belongs to $\Sigma^\pitchfork$,
-and a map is *right anodyne*
-if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
-The category of simplicial sets $\mathbf{SSet}$
-admits a weak 
-factorisation system $(\mathcal{L},\mathcal{R})$ in which $\mathcal{L}$
-is the class of right anodyne maps and $\mathcal{R}$ is the class of 
-right fibrations.
-=--
-
-
-
-
-+-- {: .num_example #leftanodyneleftfibWFS}
-######Example
-Let $\Sigma$ be the set of inclusions 
-$h^k_n: \Lambda^k[n] \subset  \Delta[n]$ ($0\le k\lt n$)
-in the category of simplicial sets.
-A map of simplicial sets is a [[left fibration]]
-if it belongs to $\Sigma^\pitchfork$,
-and a map is *left anodyne*
-if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
-The category of simplicial sets $\mathbf{SSet}$
-admits a weak factorisation system $(\mathcal{L},\mathcal{R})$ 
-in which $\mathcal{L}$ is the class of left anodyne maps and 
-$\mathcal{R}$ is the class of left fibrations.
-=--
-
-
-
-
-
-+-- {: .num_example #midanodynemidfibWFS}
-######Example
-Let $\Sigma$ be the set of inclusions 
-$h^k_n: \Lambda^k[n] \subset  \Delta[n]$ ($0\lt k\lt n$)
-in the category of simplicial sets.
-A map of simplicial sets is a [[mid fibration]]
-if it belongs to $\Sigma^\pitchfork$,
-and a map is *mid anodyne*
-if it belongs to $Sat(\Sigma)$ ($=\Sat^\omega(\Sigma)$).
-The category of simplicial sets $\mathbf{SSet}$
-admits a weak factorisation system $(\mathcal{L},\mathcal{R})$ 
-in which $\mathcal{L}$
-is the class of mid anodyne maps and $\mathcal{R}$ is the class of 
-mid fibrations.
-=--
-
-
-
-###More examples###
-
-
-
-
-+-- {: .num_example #Model structureWFS}
-######Example
-We recall that a 
-[Quillen model structure](http://ncatlab.org/joyalscatlab/show/Model+categories) on a category $\mathbf{E}$
-is a triple $(\mathcal{C},\mathcal{W},\mathcal{F})$ 
-of classes of maps in $\mathbf{E}$ satisfying the following two axioms:
-* the class $\mathcal{W}$ has the _three-for-two_ property; 
-* The pairs $( \mathcal{C}\cap \mathcal{W},\mathcal{F})$ and 
-$(\mathcal{C},\mathcal{W}\cap \mathcal{F})$ 
-are weak factorisation systems.
-=--
-
-
-+-- {: .num_example #trivialfibrationinatoposdef}
-######Example
-[Recall](http://ncatlab.org/joyalscatlab/show/Trivial+fibrations+in+a+topos#trivialfibrationdef)
-that a map in a topos is called a *trivial fibration* if it has the right lifting property with respect to every monomorphism.
-This terminology is non-standard but useful. 
-If $\mathcal{L}$ is the class of monomorphisms in the topos and 
-$\mathcal{R}$ is the class of trivial fibrations then the pair 
-$(\mathcal{L},\mathcal{R})$ is a weak factorisation system
-by a proposition [here](http://ncatlab.org/joyalscatlab/show/Trivial+fibrations+in+a+topos#monotrivialfibrationWFS).
-An object $X$ in the topos is said to be **injective** if the map $X\to 1$ is a trivial fibration. 
-=--
-
-
-
-
-+-- {: .num_example #pullbackWFS} 
-######Example
-If $\mathbf{C}$ is a category with pullbacks, then
-to every weak factorisation system
-$(\mathcal{L},\mathcal{R})$ in $\mathbf{C}$ is associated 
-a weak factorisation system $(\mathcal{L}',\mathcal{R}')$ in the category $[I,\mathbf{C}]$ (by the proposition 
-[here](http://ncatlab.org/joyalscatlab/show/Epi-cartesian+squares#anchor1Rcartesianweakfactsystem)),
-where $\mathcal{R}'$ is the class of $\mathcal{R}$-cartesian squares.
-In particular, the class of epi-cartesian squares in the category of sets is the right class of a weak factorisation system in the category $[I,\mathbf{Set}]$.
++-- {: .num_example #naturalmodelstructurecat}
+###### Example
+The category of simplicial sets $\mathbf{SSet}$ admits a model structure,
+called the 
+[[The model structure for quasi-categories|model structure for quasi-categories]],
+in which the fibrant objects are the quasi-categories
+and the cofibrations are the monomorphisms.
+A weak equivalence is called a categorical equivalence
+and a fibration is called an isofibration.
+The model structure is cartesian closed and left proper.
 =--
 
 
@@ -1612,87 +2222,123 @@ In particular, the class of epi-cartesian squares in the category of sets is the
 ##Exercises##
 
 
-
-
-+--{: .num_exercise #problemliftingwfs}
-######Exercise
-Let $p:\mathbf{E}'\to \mathbf{E}$ be a discrete Conduché fibration.
-Recall that this means that for every morphism $f:A\to B$ in $\mathbf{E}$
-and every factorisation $p(f)=v u:p(A)\to E\to p(B)$ of the morphism
-$p(f)$, there exists a unique factorisation $f=v'u':A\to E'\to B$
-of the morphism $f$ such that $p(v')=v$ and $p(u')=u$.
-Discrete fibrations and a discrete opfibrations
-are examples of discrete Conduché fibrations.
-If $\mathcal{M}$ is a class of maps in $\mathbf{E}$, let
-us denote by $\mathcal{M}'$ the class of maps $p^{-1}(\mathcal{M})$
-in $\mathbf{E}'$. Show that if $(\mathcal{L},\mathcal{R})$ is a 
-weak factorisation system in the category $\mathbf{E}$, then the pair
-$(\mathcal{L}',\mathcal{R}')$ is a weak factorisation system
-in the category $\mathbf{E}'$. 
++-- {: .num_exercise #duallemma}
+###### Exercise
+Gives a direct proof (without using the duality) to the lemmata \ref{productoffibrant} 
+\ref{projectionpathobject} 
+\ref{projectionmappingpath}
+\ref{righthomotopyfixedpathobject} 
+\ref{righthomotopyisequiv} 
+\ref{extensionhomotopy} 
+\ref{prolongationhomotopy} 
+\ref{righthomotopyfunctor}
+\ref{righthomotopicweakequiv}.
 =--
 
 
 
 
 
-+-- {: .num_exercise #functorialfactorisationstrong}
-######Exercise
-Show that the functorial factorisation of \ref{functorialfibrantreplacement}
-can be obtained under the weaker assumption that the domains
-of the maps in $\Sigma$ are $\alpha$-compact.
-(but the resulting factorisation functor $F$ may not preserves
-$\alpha$-directed colimits).
++-- {: .num_exercise #fibcofibrantreplacement}
+###### Exercise
+Recall (from after Definition \ref{homotopycat1}) 
+that a fibrant-cofibrant replacement
+of an object $X$ is obtained by
+factoring the composite $q_X i_X:Q X\to R X$
+as an acyclic cofibration $j_X:Q X\to W X$
+followed by an acyclic fibration $p_X:W X\to R X$.
+Show that for every map $u:X\to Y$, there 
+are maps $Q u$, $R u$ and $W u$ 
+fitting in a commutative cube:
+\begin{xymatrix}
+X \ar[rr]  \ar[dr]^u &   & R X  \ar[dr]^{R u}  & \\ 
+&  Y \ar[rr] &   & R Y  \\ 
+Q X \ar[uu]\ar[dr]^{Q u} \ar '[r] [rr]&  & W X  
+ \ar '[u] [uu]\ar[dr]^{W u} &  \\ 
+& Q Y  \ar[uu] \ar[rr] &   & W Y. \ar[uu]
+\end{xymatrix}
+=--
+
++-- {: .num_exercise #homotopydist}
+###### Exercise
+Show that the distributor 
+$\pi:\mathbf{E} \Rightarrow \mathbf{E}_f$
+defined in (eq:33) induces a  distributor 
+$\pi':\mathrm{Ho}(\mathbf{E}_c) \Rightarrow \mathrm{Ho}(\mathbf{E}_f)$.
+Show that the distributor $\pi'$
+is [representable](http://ncatlab.org/joyalscatlab/show/Distributors+and+barrels#defrepresentabledistributor)
+by an equivalence of categories
+$\mathrm{Ho}(\mathbf{E}_c) \to \mathrm{Ho}(\mathbf{E}_f)$.
 =--
 
 
-## References ##
+
+
++-- {: .num_exercise #determinationnaturalmodelstructurecat}
+###### Exercise
+Show that the [natural model structure](http://ncatlab.org/joyalscatlab/show/Model+structures+on+Cat)
+on $\mathbf{Cat}$ is characterised by each of the 
+following four groups of conditions:
+
+* Group 1:
+
+  * the acyclic maps are the equivalences of categories
+
+  * an acyclic map is a fibration iff it is a split epimorphism 
+
+* Group 2:
+
+  * the acyclic maps are the equivalences of categories
+
+  * an acyclic map is a cofibration iff it is a split monomorphism
+
+* Group 3:
+
+  * every object is fibrant.
+
+  * an acyclic map is a fibration iff it is a surjective equivalence
+
+* Group 4:
+
+  * every object is cofibrant.
+
+  * an acyclic map is a cofibration iff it is a monic equivalence
+
+=--
+
+
+
+
+
+
+
+
+
+##References##
+
+
 
 Papers:
 
+* Dwyer, W.G., Spalinski, J.: _Homotopy Theories and Model Categories_. Handbook of Algebraic Topology. Edited By I.M. James. North Holland (1995). [pdf](http://hopf.math.purdue.edu/cgi-bin/generate?/Dwyer-Spalinski/theories)
 
 
-* Adamek, J., Herrlich, H., Rosicky, J., Tholen, W.: _Weak factorisation systems and topological functors_. Appl. Categorical Structures **10**
-(2002) 237-249. 
+* Maltsiniotis, Georges: _Quillen adjunction theorem for derived functors, revisited_. [pdf](http://arxiv.org/abs/math/0611952)
 
 
-* Adamek, J., Herrlich, H., Rosicky, J., Tholen, W.: _On a generalised small-objects argument for the injective subcategory problem_. Cah. Topol. Géom. Différ. Catég. **43**(2), 83-106 (2002)
-
-
-* Bousfield, A.K.: _Constructions of factorization systems in categories_. J. Pure and Applied Algebra **9** (2-3), 207-220 (1977) 
-
-
-* Freyd, P.J., Kelley, G.M.: _Categories of continuous functors_. I. J. Pure Appl. Algebra **2**, 169-191 (1972)
-
-
-* Garner, R.: _Understanding the small objects argument_. Applied Categorical Structure.([pdf](http://arxiv.org/abs/0712.0724))
-
-* Grandis, M., Tholen, W.: _Natural weak factorisation systems_. Arch. Math. **42**, 397-408 (2006)([website](http://www.math.yorku.ca/~tholen/)) 
- 
-
-* Kelly, G.M.: _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on_. Bull. Austral. Math. Soc. **22**(1), 1-83 (1980)
 
 Lecture Notes and Textbooks:
 
-
-
-* Gabriel, P., Ulmer, F.: _Lokal präsentierbare Kategorien_. Lecture Notes in Mathematics, vol.221. Springer-Verlag, Berlin (1971)
-
-
-* Gabriel, P., Zisman, M.: _Calculus of fractions and homotopy theories_. Ergeb. der Math. undihrer Grenzgebiete, vol 35, Springer-Verlag, New-York  (1967)
+* Dwyer, W.G., Hirschhorn, P.S., Kan, D.M., Smith, J.H.: _Homotopy Limit Functors on Model Categories and Homotopical Categories_. AMS Math. Survey and Monographs Vol 113 (2004)
 
 
 
-* Hirschhorn, Philip S.: _Model categories and their localization_. AMS Math. Survey and Monographs Vol 99 (2002)
+* [[Peter Gabriel|Gabriel, P.]], Zisman, M.: _Calculus of Fractions and Homotopy Theory_. Ergeb. der Math. undihrer Grenzgebiete, vol 35, Springer-Verlag, New-York  (1967)
 
+* Goerss, P.G., Jardine, J.F.: _Simplicial Homotopy Theory_. Progress in Mathematics vol. 174. Birkhâuser (1999)
 
-* Hovey, Mark: _Model categories_. AMS Math. Survey and Monographs Vol 63 (1999)
+* Hirschhorn, Philip S.: _Model Categories and their Localization_. AMS Math. Survey and Monographs Vol 99 (2002)
 
+* Hovey, Mark: _Model Categories_. AMS Math. Survey and Monographs Vol 63 (1999)
 
-* Quillen, Daniel: _Homotopical algebra_ Lecture Notes in Mathematics, vol. 43. Springer Verlag, Berlin (1967)
-
-
-[[!redirects weak factorisation system]]
-[[!redirects weak factorisation systems]]
-[[!redirects weak factorization system]]
-[[!redirects weak factorization systems]]
-[[!redirects Weak+factorization+systems]]
+* Quillen, Daniel: _Homotopical Algebra_. Lecture Notes in Mathematics, vol. 43. Springer Verlag, Berlin (1967)
