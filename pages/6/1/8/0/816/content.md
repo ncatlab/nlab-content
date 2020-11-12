@@ -23,7 +23,7 @@
 
 ## Idea ##
 
-The notion of _weighted limit_ is naturally understood from the point of view on [[limits]] as described at [[representable functor]].
+The notion of _weighted limit_ (also called _indexed limit_) is naturally understood from the point of view on [[limits]] as described at [[representable functor]].
 
 Weighted limits make sense and are considered in the general context of $V$-[[enriched category theory]], but restrict attention to $V=$ [[Set]] for the moment, in order to motivate the concept.
 
@@ -65,7 +65,7 @@ The **idea** of weighted limits is to
 
 1. allow in the formula above the particular functor $\Delta pt$ to be replaced by any other functor $W : K \to Set$;
 
-2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts.
+2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts (see below).
 
 The idea is that the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limits]] discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
 
@@ -134,16 +134,18 @@ $$
 
 ## Motivation from enriched category theory
 Let $V$ be a monoidal category.
-Imagine you're tasked to write down the definition of limit in a category $C$ [[enriched category|enriched]] over $V$. You would start saying there is a diagram $F:K \to C$ and a limit is a universal cone over it, i.e. it's the universal choice of an object $\lim F$ plus an arrow $f_k : \lim F \to F(k)$ for each object $k$ of $K$. Here's where you stop and ask yourself: what is *an* arrow in $C$? $C$ has no hom-*sets* - it has hom-*objects* - hence what's an 'element' of $C(\lim F, F(k))$ in $V$?
-There are two ways to specify an element of an object $X$ in a monoidal category $(V, I, \otimes)$:
-1. Give an arrow $I \to X$ (think of sets, where elements of $X$ are indeed the same thing as arrows $\{*\} \to X$. These are called [[global elements]] of $X$, and are more often than not a misbehaved notion of element, since often $I$ is `too big' to thoroughly probe $X$ (on the other hand, notice the [[enriched+category#passage_between_ordinary_categories_and_enriched_categories|underlying category of an enriched category]] is defined by taking global elements of the hom-objects)
+Imagine you're tasked to write down the definition of limit in a category $C$ [[enriched category|enriched]] over $V$. You would start saying there is a diagram $F:K \to C$ and a limit is a [[universal construction|universal]] [[cone]] over it, i.e. it's the universal choice of an object $c$ plus an arrow $f_k : c \to F(k)$ for each object $k$ of $K$. Here's where you stop and ask yourself: what is 'an arrow' in $C$? $C$ has no hom-*sets*—it has hom-*objects*—hence what's 'an element' of $C(c, F(k))$ in $V$?
+There are two ways to specify an element of an object $X$ in a [[monoidal category]] $(V, I, \otimes)$:
+
+1. Give an arrow $I \to X$ (think of sets, where elements of $X$ are indeed the same thing as arrows $\{*\} \to X$. These are called [[global elements]] of $X$, and are more often than not a misbehaved notion of element, since often $I$ is 'too big' to thoroughly probe $X$ (on the other hand, notice the [[enriched category#passage_between_ordinary_categories_and_enriched_categories|underlying category of an enriched category]] is defined by taking global elements of the hom-objects)
 2. Give *any* arrow into $X$. These are called [[generalized elements]], and the existence of the [[Yoneda embedding]] assures us they completely capture the categorical structure of $V$.
-Hence you now say: a cone over $F$ is a choice of a *generalized element* $f_k$ of $C(\lim F, F(k))$, for every $k$ in $K$. This means specifying an arrow $W_k \to C(\lim F, F(k))$ in $V$, for each $k$. It's now quite natural to ask for the functoriality of this choice in $k$, hence we end up defining a `generalized cone' over $F$ as an element
+
+Hence you now say: a cone over $F$ is a choice of a *generalized element* $f_k$ of $C(c, F(k))$, for every $k$ in $K$. This means specifying an arrow $W_k \to C(c, F(k))$ in $V$, for each $k$. It's now quite natural to ask for the functoriality of this choice in $k$, hence we end up defining a 'generalized cone' over $F$ as an element
 $$
-  [K, V](W-, C(\lim F, F-))
+  [K, V](W(-), C(c, F(-)))
 $$
 Hence $W$ is simply a uniform way to specify the sides of a cone.
-A confirmation that this is indeed the right definition of limit in the enriched settings come from the fact that 'conical completeness' (a conical limit now is one where $W = \Delta I$, hence we pick only global element) is an inadequate notion, see for example Section 3.9 in Kelly's book.
+A confirmation that this is indeed the right definition of limit in the enriched settings come from the fact that 'conical completeness' (a conical limit now is one where $W = \Delta I$, hence we pick only global element) is an inadequate notion, see for example Section 3.9 in Kelly's book (aptly named *The inadequacy of conical limits*).
 
 ## Examples  ##
 
