@@ -14,6 +14,14 @@ On [[submanifold]] [[cobordism categories]]:
 
 * [[Oscar Randal-Williams]], _Embedded Cobordism Categories and Spaces of Manifolds_, 	Int. Math. Res. Not. IMRN 2011, no. 3, 572-608 ([arXiv:0912.2505](https://arxiv.org/abs/0912.2505))
 
+On [[action functionals]] for [[topological field theories]] via [[equivariant ordinary differential cohomology]]:
+
+* Joe Davighi, Ben Gripaios, [[Oscar Randal-Williams]], _Differential cohomology and topological actions in physics_ ([arXiv:2011.05768](https://arxiv.org/abs/2011.05768))
+
+
+
+
+
 ## Related $n$Lab entries
 
 * [[moduli space of framed surfaces]]
