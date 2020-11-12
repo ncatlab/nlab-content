@@ -108,7 +108,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Observe that the [[circle group]] $U(1)$ is naturally identified with the unit sphere in $\mathbb{C}$: $U (1) \simeq S(\mathbb{S})$. Therefore the sphere bundle of the universal complex line bundle is equivalently the $U(1)$-[[universal principal bundle]]
+Observe that the [[circle group]] $U(1)$ is naturally identified with the unit sphere in $\mathbb{C}$: $U (1) \simeq S(\mathbb{S})$. Therefore the [[sphere bundle]] of the universal complex line bundle is equivalently the $U(1)$-[[universal principal bundle]]
 
 $$
   \begin{aligned}
