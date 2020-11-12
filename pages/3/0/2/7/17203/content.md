@@ -239,6 +239,4 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 [[!redirects complex cobordism cohomology]]
 [[!redirects complex cobordism cohomology theory]]
 
-[[!redirects MU]]
-
 [[!redirects complex cobordism theory]]
