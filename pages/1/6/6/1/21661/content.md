@@ -65,6 +65,11 @@ Review:
 
 * [[Andre Lukas]], _Line Bundles in String Model Building_, talk at _[StringPhenomenology 2019](https://indico.cern.ch/event/782251/)_ ([indico:782251/contributions/3441850](https://indico.cern.ch/event/782251/contributions/3441850/), [pdf](https://indico.cern.ch/event/782251/contributions/3441850/attachments/1868056/3072624/Lukas.pdf), [[LukasHeteroticLineBundles.pdf:file]])
 
+On [[heterotic line bundles]] seen in [[F-theory]] under [[duality between M/F-theory and heterotic string theory]]:
+
+* [[Andreas Braun]], Callum Brodie, [[Andre Lukas]], [[Fabian Ruehle]], _NS5-Branes and Line Bundles in Heterotic/F-Theory Duality_, Phys. Rev. D 98, 126004 (2018) ([arXiv:1803.06190](https://arxiv.org/abs/1803.06190))
+
+
 See also:
 
 * [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], _The Moduli Space of Heterotic Line Bundle Models: a Case Study for the Tetra-Quadric_, 	JHEP03 (2014) 025 ([arXiv:1311.1941](https://arxiv.org/abs/1311.1941))
