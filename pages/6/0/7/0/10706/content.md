@@ -35,11 +35,11 @@ There is an analogue of the statement also for [[even cohomology theory|even]] 2
 
 ## Statement
 
-By evaluation on $X = B U(1)$ the [[classifying space]] for [[complex line bundles]] (the [[circle 2-group]]), every [[multiplicative cohomology theory|multiplicative]] [[complex oriented cohomology theory]] $E$ gives rise to a [[formal group]] over the [[graded ring]] $\pi_\bullet(E)$ (see [there](complex+oriented+cohomology+theory#FormalGroupLaw)).
+By evaluation on $X = B U(1)$, the [[classifying space]] for [[complex line bundles]] (the [[circle 2-group]]), every [[multiplicative cohomology theory|multiplicative]] [[complex oriented cohomology theory]] $E$ gives rise to a [[formal group]] over the [[graded ring]] $\pi_\bullet(E)$ (see [there](complex+oriented+cohomology+theory#FormalGroupLaw)).
 
 Conversely, given a formal group $F$ over a [[graded ring]] $R$, one can ask whether this arises from some $E$ in this way. 
 
-Now since the [[Lazard ring]] $L$ classifies formal groups in that $F$ is equivalently given by a [[ring]] [[homomorphism]] $L \longrightarrow R$ and since moreover [[Quillen's theorem on MU]] identifies $L$ with the [[cohomology ring]] of [[complex oriented cohomology theory]] $L \simeq MU_\bullet(\ast)$, one may consider the functor
+Now since the [[Lazard ring]] $L$ classifies formal groups, in that any formal group law $F$ over a [[ground ring]] $R$ is equivalently a [[ring]] [[homomorphism]] $L \longrightarrow R$, and since moreover [[Quillen's theorem on MU]] identifies $L$ with the [[cohomology ring]] of [[complex oriented cohomology theory]] $L \simeq MU_\bullet(\ast)$, one may consider the functor
 
 $$
   X \mapsto E_\bullet(X) \coloneqq MU_\bullet(X) \underset{L}{\otimes} R
