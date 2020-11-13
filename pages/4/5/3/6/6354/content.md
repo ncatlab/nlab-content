@@ -49,6 +49,10 @@ On [[duality in string theory]] ([[U-duality]]):
 
 * [[Chris Hull]], [[Paul Townsend]], Section 6 of _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137, 1995 ([arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167))
 
+Introducing the [[generalized Scherk-Schwarz mechanism]]:
+
+* [[Atish Dabholkar]], [[Chris Hull]], _Duality Twists, Orbifolds, and Fluxes_, JHEP 0309:054, 2003 ([arXiv:hep-th/0210209](https://arxiv.org/abs/hep-th/0210209))
+
 On the [[positive energy theorem]] via [[supersymmetry]]:
 
 * {#Hull83} [[Chris Hull]], _The positivity of gravitational energy and global supersymmetry_, Comm. Math. Phys. Volume 90, Number 4 (1983), 545-561 ([Euclid](https://projecteuclid.org/euclid.cmp/1103940417))
@@ -84,7 +88,7 @@ On the [[dual graviton]]:
 
 * {#Hull01} [[Chris Hull]], _Duality in Gravity and Higher Spin Gauge Fields_, JHEP 0109:027,2001 ([arXiv:hep-th/0107149](http://arxiv.org/abs/hep-th/0107149))
 
-On the [[D8-brane]]:
+On the lift of [[D8-branes]] to [[M-theory]] [[M-branes]] by [[generalized Scherk-Schwarz reduction]], relating to [[D7-branes]] in [[F-theory]]:
 
 * {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
 
