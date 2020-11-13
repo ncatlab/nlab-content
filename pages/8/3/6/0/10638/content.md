@@ -74,11 +74,18 @@ Details are spelled out in
 
 * {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], section 3.4 of _Topological modular forms with level structure_ ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394))
 
+
 Basic reviews include
 
 * Wikipedia, _[Tate curve](https://en.wikipedia.org/wiki/Tate_curve)_
 
-The relation to the Witten genus originates around
+See also
+
+*  Antonios Broumas, _Congruences between the coefficients
+of the Tate curve via formal groups_, Proc. Amer. Math. Soc. 128 (2000), 677-681 ([doi:10.1090/S0002-9939-99-05133-3](https://doi.org/10.1090/S0002-9939-99-05133-3))
+
+
+The relation to the [[Witten genus]] originates around
 
 * {#Hopkins94} [[Michael Hopkins]], _Topological modular forms, the Witten Genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematics, Z&#252;rich 1994 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf))
 
