@@ -15,7 +15,7 @@ $$
 
 Using the [[Goerss-Hopkins-Miller theorem]] this stack carries an [[E-∞ ring]]-valued [[structure sheaf]] $\mathcal{O}^{top}$ ([Lawson-Naumann 12, theorem A.5](#LawsonNaumann12)); and by the above equivalence this is a single [[E-∞ ring]] equipped with a $\mathbb{Z}_2$-[[∞-action]]. This is [[KU]] with its involution induced by [[complex conjugation]], hence essentially is $KR$. 
 
-Accordingly, the [[global sections]] of $\mathcal{O}^{top}$ over $\mathcal{M}_{\mathbb{G}_m}$ are the $\mathbb{Z}_2$-[[homotopy fixed points]] of this action, hence is $KO$. This is further amplified in ([Mathew 13, section 3](#Mathew13)) and ([Mathew, section 2](#Mathew)).
+Accordingly, the [[global sections]] of $\mathcal{O}^{top}$ over $\mathcal{M}_{\mathbb{G}_m}$ are the $\mathbb{Z}_2$-[[homotopy fixed points]] of this action, hence is [[KO]]. This is further amplified in ([Mathew 13, section 3](#Mathew13)) and ([Mathew, section 2](#Mathew)).
 
 As suggested there and by the main ([Lawson-Naumann 12, theorem 1.2](#LawsonNaumann12)) this realizes (at least localized at $p = 2$) the inclusion $KO \to KU$ as the restriction of an analogous inclusion of [[tmf]] built as the global sections of the similarly derived [[moduli stack of elliptic curves]].
 
