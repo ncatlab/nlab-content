@@ -50,21 +50,6 @@ if $L$ is linearly ordered and the underlying set $C = L^\mathbb{N}$ is regarded
 
 For the special case $L = \mathbb{N}$, the terminal coalgebra $\mathbb{N}^\mathbb{N}$ with this lexicographic order is order-isomorphic to the real interval $[0, \infty)$. This isomorphism is described more precisely [here](/nlab/show/continued+fraction#PavPratt). 
 
-## Properties 
-
-+-- {: .num_prop} 
-###### Proposition 
-Given a well-ordered family of well-ordered sets $\{L_i\}_{i: \alpha}$, the product $\prod_{i: \alpha} L_i$ with the lexicographic order is also well-ordered. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-Represent elements of the set $\prod_{i: \alpha} L_i$ as sections $w: \alpha \to \sum_{i: \alpha} L_i$ of the canonical projection $\pi: \sum_{i: \alpha} L_i \to \sum_{i: \alpha} 1 \cong \alpha$. If $S \subseteq \prod_{i: \alpha} L_i$ is an inhabited subset, then its least element $s$ is defined recursively as follows: given $j \in \alpha$ and elements $s(i)$ for $i \lt j$, the element $s(j) \in L_j$ is the least element of the (nonempty!) set 
-
-$$\{x \in L_j: \exists_{w \in S} \left(\forall_{i \lt j} w(i) = s(i)\right) \wedge w(j) = x\}.$$ 
-
-With the section $s: \alpha \to \sum_{i: \alpha} L_i$ thus defined, if $w \in S$ and $w \lt s$ in lexicographic order, with $j \in \alpha$ the least element such that $w(j) \lt s(j)$, then $w(i) = s(i)$ for all $i \lt j$, and we reach a contradiction in view of how $s(j)$ was defined. Hence $s$ is the minimal element of $S$. 
-=-- 
 
 [[!redirects lexicographic ordering]] 
 [[!redirects dictionary order]] 
