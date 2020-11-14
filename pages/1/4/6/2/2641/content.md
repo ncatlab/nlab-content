@@ -124,7 +124,7 @@ for its [[stabilizer subgroup]] (often called _the little group_ in this context
 
 The observation that the irreps of the Poincar&#233; group correspond to [[fundamental particles]] ([[Wigner classification]]) is due to
 
-* [[Eugene Wigner]], _On unitary representations of the inhomogeneous Lorentz group_ , Ann. Math. **40**, 149 (1993)
+* [[Eugene Wigner]], _On unitary representations of the inhomogeneous Lorentz group_ , Ann. Math. **40:1** (1939), 149–204.
 
 Review includes
 
