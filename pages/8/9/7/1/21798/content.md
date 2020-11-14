@@ -4,7 +4,7 @@
 
 ## Selected writings
 
-Discussion of the [[Witten genus]] as an [[M5-brane]] [[partition function]] seen under an [[AGT correspondence]]:
+On the [[M5-brane elliptic genus]]:
 
 * [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
 
