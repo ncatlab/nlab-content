@@ -573,6 +573,8 @@ $$
 
 * [[equivariant elliptic genus]]
 
+* [[rigidity theorem for elliptic genera]]
+
 * [[orbifold cohomology]]
 
   * [[orbifold K-theory]]
