@@ -85,6 +85,10 @@ The [[partition function]] of a [[type II superstring]] as a function depending 
 
 For equivariant/gauged string [[sigma-models]] the elliptic genus should take values in [[equivariant elliptic cohomology]], see at _[gauged WZW mode -- Partition function in elliptic cohomology](gauged+WZW+model#PartitionFunctionInEllipticCohomology)_.
 
+### Rigidity theorem
+
+See _[[rigidity theorem for elliptic genera]]_.
+
 
 ## Related concepts
 
@@ -100,6 +104,8 @@ For equivariant/gauged string [[sigma-models]] the elliptic genus should take va
 
 
 ## References
+
+### As a mathematical genus
 
 The notion of elliptic genus was introduced in
 
@@ -121,15 +127,6 @@ The relation of this to [[elliptic cohomology]] was understood in
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et al (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
-
-
-
-The interpretation of the elliptic genus/[[Witten genus]] as the [[partition function]] of the [[type II superstring]]/[[heterotic string]] is due to 
-
-* [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
-  {#Witten87}
-
-
 The integrality of the elliptic genus and elliptic homology on Spin-manifolds is due to
 
 * {#ChudnovskyChudnovsky88} D.V. Chudnovsky, G.V. Chudnovsky, _Elliptic modular functions and elliptic genera_, Topology, Volume 27, Issue 2, 1988, Pages 163&#8211;170
@@ -139,20 +136,67 @@ The integrality of the elliptic genus and elliptic homology on Spin-manifolds is
 
 * {#Hovey91} [[Mark Hovey]], _Spin Bordism and Elliptic Homology_ (1991) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.3277))
 
-
-Similar elliptic genera of $N=2$ $d = 2$ field theories and [[Landau-Ginzburg models]] are discussed in 
-
-* [[Edward Witten]], _On the Landau-Ginzburg Description of $N=2$ Minimal Models_, Int.J.Mod.Phys.A9:4783-4800,1994 ([arXiv:hep-th/9304026](http://arxiv.org/abs/hep-th/9304026))
-
-* Toshiya Kawai, Yasuhiko Yamada, Sung-Kil Yang, _Elliptic Genera and $N=2$ Superconformal Field Theory_ ([arXiv:hep-th/9306096](http://arxiv.org/abs/hep-th/9306096))
-
-More on this is in 
-
-* Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067,2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
-
 Refinement of the Ochanine genus to a homomorphism of [[ring spectra]] (in analogy to the lift of the [[Witten genus]] to the [[string orientation of tmf]]) is considered in
 
 * [[Dylan Wilson]], _Orientations and Topological Modular Forms with Level Structure_ ([arXiv:1507.05116](http://arxiv.org/abs/1507.05116))
+
+
+
+### As CFT partition function
+
+
+The interpretation of the elliptic genus/[[Witten genus]] as the [[partition function]] of a [[2d SCFT]] or [[Landau-Ginzburg model]] and especially of the [[type II superstring]]/[[heterotic string]] [[worldsheet]] theory:
+
+* {#Witten87} [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
+
+* [[Edward Witten]], _On the Landau-Ginzburg Description of $N=2$ Minimal Models_, Int.J. Mod. Phys.A9:4783-4800,1994 ([arXiv:hep-th/9304026](http://arxiv.org/abs/hep-th/9304026))
+
+* [[Toshiya Kawai]], [[Yasuhiko Yamada]], Sung-Kil Yang, _Elliptic Genera and $N=2$ Superconformal Field Theory_, Nucl. Phys. B414:191-212, 1994
+([arXiv:hep-th/9306096](http://arxiv.org/abs/hep-th/9306096), <a href="https://doi.org/10.1016/0550-3213(94)90428-6">doi:10.1016/0550-3213(94)90428-6</a>)
+
+
+Review in:
+
+
+* [[Katrin Wendland]], Section 2.4 in: _Snapshots of Conformal Field Theory_, in:
+Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Springer 2015 
+([arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4))
+
+See also:
+
+* Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067,2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
+
+### As fiber integral in elliptic cohomology
+
+The [[elliptic genus]]/[[Witten genus]] as [[fiber integration]] in [[elliptic cohomology]]:
+
+* [[Haynes Miller]], _The elliptic character and the Witten genus_, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.), _Algebraic topology_ (Evanston, IL, 1988), Contemp. Math. 96, Amer. Math. Soc., Providence, RI (1989) 281&#8211;289 ([pdf](http://dedekind.mit.edu/~hrm/papers/ell-char.pdf), [[MillerEllipticGenus.pdf:file]], [doi:10.1090/conm/096](http://dx.doi.org/10.1090/conm/096))
+
+* [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](https://arxiv.org/abs/math/9912089))
+
+### M5-brane elliptic genus
+
+Discussion of the [[M5-brane]] [[partition function]] as an [[elliptic genus]] seen under an [[AGT correspondence]] ([[M5-brane elliptic genus]]):
+
+A [[2d SCFT]] argued to describe the  [[KK-compactification]] of the [[M5-brane]] on a [[4-manifold]] (specifically: a [[complex surface]]) originates with
+
+* [[Juan Maldacena]], [[Andrew Strominger]], [[Edward Witten]], _Black Hole Entropy in M-Theory_, JHEP 9712:002, 1997 ([arXiv:hep-th/9711053](https://arxiv.org/abs/hep-th/9711053))
+
+Discussion of the resulting [[elliptic genus]] ([[2d SCFT]] [[partition function]]) originates with:
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070, 2007 ([hep-th/0607010](https://arxiv.org/abs/hep-th/0607010))
+
+* [[Davide Gaiotto]], [[Xi Yin]], _Examples of M5-Brane Elliptic Genera_, JHEP 0711:004, 2007 ([arXiv:hep-th/070](https://arxiv.org/abs/hep-th/070))
+
+Further discussion in:
+
+* Murad Alim, Babak Haghighat, Michael Hecht, Albrecht Klemm, Marco Rauch, Thomas Wotschke, _Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes_ ([arXiv:1012.1608](https://arxiv.org/abs/1012.1608))
+
+
+
+* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
+
+
 
 [[!redirects elliptic genera]]
 
