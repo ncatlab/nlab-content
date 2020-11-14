@@ -107,6 +107,8 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 * [[D=5 super Yang-Mills theory]]
 
+* [[M5-brane elliptic genus]]
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 [[!include superconformal symmetry -- table]]
