@@ -94,6 +94,11 @@ An attempt to understand the [SSW 11](#SSW11)-models as [[higher gauge theories]
 
 On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineering]] on [[M5-branes]]/[[NS5-branes]] at D-, E-type [[ADE-singularities]], notably from [[M-theory on S1/G_HW times H/G_ADE]], hence from [[orbifolds]] of [[type I' string theory]] (see at [half NS5-brane](NS5-brane#NSHalfBranes)):
 
+* [[Ori Ganor]], [[David Morrison]], [[Nathan Seiberg]], _Branes, Calabi-Yau Spaces, and Toroidal Compactification of the $N=1$ Six-Dimensional $E_8$ Theory_, Nucl. Phys. B487:93-127, 1997 ([arXiv:hep-th/9610251](https://arxiv.org/abs/hep-th/9610251))
+
+  (emphasis on the [[KK-compactifications]])
+
+
 * Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
