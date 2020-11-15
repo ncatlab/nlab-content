@@ -16,7 +16,7 @@
 
 ## Idea ##
 
-Probability theory is concerned with mathematical models of phenomena that exhibit _randomness_ , or more generally phenomena about which one has incomplete information.
+Probability theory is concerned with mathematical models of phenomena that exhibit _randomness_, or more generally phenomena about which one has incomplete information.
 
 
 Its central mathematical model is based mostly on [[measure theory]]. So from a pure mathematical viewpoint probability theory today could be characterized as the study of [[measurable space]]s with a finite volume normalized to $1$. 
@@ -33,7 +33,7 @@ Notice that in this respect probability theory has a similar status as (other(?!
 
 Some argue that in the study of measure and probability, one should start not only with sigma algebra of measurable sets but also another of null sets. Somehow this is abstractly captured by the approach of commutative [[von Neumann]] algebras. 
 
-### Stochastic processes
+### Stochastic (random) processes
 
 (...)
 
@@ -102,7 +102,7 @@ For more details on Giry's monad and its variants see [[probability monad]].
 
 * [[stochastic process]], 
 
-* [[Wiener integral]]
+* [[Wiener measure]]
 
 * [[Bayesian reasoning]]
 
@@ -144,7 +144,7 @@ Formulation in [[category theory]]:
 
 * [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence, and theorems on sufficient statistics_, ([arXiv:1908.07021](https://arxiv.org/abs/1908.07021))
 
-* [[Kirk Sturtz]], _Categorical Probability Theory_ ([arXiv:1406.6030](https://arxiv.org/abs/1406.6030))
+* [[Kirk Sturtz]], _Categorical probability theory_ ([arXiv:1406.6030](https://arxiv.org/abs/1406.6030))
 
 Formulation in [[topos theory]]:
 
