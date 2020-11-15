@@ -5,8 +5,12 @@
 
 Introducing [[mirror symmetry]] of [[D=3 N=4 super Yang-Mills theory]]:
 
-* {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett.B 387 : 513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
+* {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett. B 387:513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
 
+
+On the [[D=6 N=(1,0) SCFT]] on [[heterotic M5-branes]] and their [[KK-compactifications]]:
+
+* [[Ori Ganor]], [[David Morrison]], [[Nathan Seiberg]], _Branes, Calabi-Yau Spaces, and Toroidal Compactification of the $N=1$ Six-Dimensional $E_8$ Theory_, Nucl. Phys. B487:93-127, 1997 ([arXiv:hep-th/9610251](https://arxiv.org/abs/hep-th/9610251))
 
 
 On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
