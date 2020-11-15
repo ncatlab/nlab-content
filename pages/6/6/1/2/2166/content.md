@@ -27,13 +27,27 @@ A __hypercomplex number system__ is a [[finite-dimensional vector space|finite-d
 
 *  There is also only one hypercomplex number system of dimension $1$, which is $\mathbb{R}$ itself.
 
-*  Up to [[isomorphism]], there are three hypercomplex number systems of dimension $2$, each of which is a [[commutative algebra]].  Since they each have one nontrivial [[automorphism]] (an [[involution]] called _conjugation_), there are only $3/2$ of these algebras by [[groupoid cardinality]].  Given the rule
+*  Up to [[isomorphism]], there are three hypercomplex number systems of dimension $2$, each of which is a [[commutative algebra]]. Given the rule
+
    $$ e^2 = a + b e $$
+
    (for $a, b$ fixed real numbers), the algebra $\mathbb{R}[e]$ may be identified as one of these three cases by the sign of $b^2 - 4 a$.  They are:
 
    *  the [[complex numbers]] (elliptic case, $b^2 - 4 a \gt 0$),
+
    *  the [[dual numbers]] (parabolic case, $b^2 - 4 a = 0$),
+
    *  the [[perplex numbers]] (hyperbolic case, $b^2 - 4 a \lt 0$).
+
+   Notice that the [[complex numbers]] have 2 distinct [[continuous function|continuous]] [[automorphisms]], given, over $\mathbb{R}$, by $e \mapsto \pm e$ (see at _[[automorphism of the complex numbers]]_).
+
+   On the other hand, the [[ring of dual numbers]] has a continuous automorphism $e \mapsto k e$ for each $k \in \mathbb{R} \setminus \{e\}$. But the  latter space is [[homotopy equivalence|homotopy equivalent]] to two points, corresponding to the [[connected components]] of, again, $e \mapsto \pm e$. 
+
+   Maybe $e \mapsto \pm e$ are also the two non-trivial continuous automorphisms of the [[perplex numbers]]. 
+
+   If that is the case, one could say that the [[Euler characteristic]] of the space of continuous automorphisms of each 2d hypercomplex number systems is 2. And maybe with a bit of handwaving towards _[[groupoid cardinality]]_ one might summarize this in saying that there are 3/2 2d hypercomplex number systems.
+
+  
 
 *  Famous hypercomplex number systems of dimension $4$ include the [[quaternion]]s and the [[bicomplex number]]s.
 
