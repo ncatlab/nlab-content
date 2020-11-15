@@ -16,6 +16,12 @@ and the [[M-string elliptic genus]]:
 
 * [[Stefan Hohenegger]], [[Amer Iqbal]],  _M-strings, Elliptic Genera and $\mathcal{N}=4$ String Amplitudes_, Fortschritte der PhysikVolume 62, Issue 3 ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
 
+On [[E-strings]]:
+
+
+* [[Amer Iqbal]], _A note on E-strings_, Adv. Theor. Math. Phys. 7 (2003) 1-23 ([arXiv:hep-th/0206064](https://arxiv.org/abs/hep-th/0206064))
+
+
 On a [[mysterious duality]]:
 
 * {#INV01} [[Amer Iqbal]], [[Andrew Neitzke]], [[Cumrun Vafa]], _A mysterious duality_, ([arXiv:hep-th/0111068](https://arxiv.org/abs/hep-th/0111068))
