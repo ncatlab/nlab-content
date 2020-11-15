@@ -16,7 +16,9 @@
 
 ## Idea
 
-The [[6d (2,0)-superconformal QFT]] admits a [[soliton]] solution which is a [[string]] charged under the [[self-dual higher gauge field|self-dual]] [[B-field]]. Externally this is the [[boundary field theory|boundary]] of the [[M2-brane]] ending on the [[M5-brane]]. As such this is "the string in [[M-theory]]" and hence is also called the _M-string_ (e.g.[Hohenegger-Iqbal 13](#HoheneggerIqbal13)).
+The [[6d (2,0)-superconformal QFT]] admits a [[soliton]] solution which is a [[string]] charged under the [[self-dual higher gauge field|self-dual]] [[B-field]]. 
+
+Externally this is the [[boundary field theory|boundary]] of the [[M2-brane]] [[brane intersection|ending]] on the [[M5-brane]]. As such this is "the string in [[M-theory]]" and hence is also called the _[[M-string]]_.
 
 ## Properties
 
@@ -57,7 +59,9 @@ Further discussion includes
 
 * {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
 
-* {#HoheneggerIqbal13} Stefan Hohenegger, [[Amer Iqbal]], _M-strings, Elliptic Genera and N=4 String Amplitudes_ ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
+In view of [[M-strings]] and the [[M-string elliptic genus]]:
+
+* {#HoheneggerIqbal13} [[Stefan Hohenegger]], [[Amer Iqbal]], _M-strings, Elliptic Genera and N=4 String Amplitudes_ ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
 
 
 [[!redirects self-dual strings]]
