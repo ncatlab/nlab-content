@@ -63,10 +63,16 @@ On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
 
 ### E-string elliptic genus
 
-On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
+On the [[elliptic genus]] of [[E-strings]] as [[wrapped brane|wrapped]] [[M5-branes]]:
+
+* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], N. P. Warner, 
+_E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
 
 * Wenhe Cai, Min-xin Huang, Kaiwen Sun, _On the Elliptic Genus of Three E-strings and Heterotic Strings_, J. High Energ. Phys. 2015, 79 (2015).
 ([arXiv:1411.2801](https://arxiv.org/abs/1411.2801), <a href="https://doi.org/10.1007/JHEP01(2015)079">doi:10.1007/JHEP01(2015)079</a>)
+
+On the [[elliptic genus]] of [[E-strings]] as [[M2-branes]] [[brane intersection|ending on]] [[M5-branes]]:
+
 
 * {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
