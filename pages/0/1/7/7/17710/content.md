@@ -1,7 +1,11 @@
+## Idea
 
+The usual quantum mechanics based on Schroedinger's wave-function can be reformulated using a different distribution which behaves in some aspects like a probability, however it is negative for some points in space. 
+
+## Literature
 
 * related $n$Lab entries include [[quantum mechanics]], [[Weyl calculus]]
-* wikipedia: [Wigner quasiprobability distribution](https://en.wikipedia.org/wiki/Wigner_quasiprobability_distribution)
+* wikipedia/[Wigner quasiprobability distribution](https://en.wikipedia.org/wiki/Wigner_quasiprobability_distribution)
 
 * E. P. Wigner, _On the quantum correction for thermodynamic equilibrium_,  Phys. Rev. 40 (5): 749&#8211;759 (1932)
 * C. Zachos, D. Fairlie, T. Curtright, _Quantum mechanics in phase space: an overview with selected papers_, World Sci. 2005.
