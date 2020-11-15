@@ -53,6 +53,14 @@ Further discussion in:
 
 * [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
 
+On the elliptic genus of [[M-strings]] inside [[M5-branes]]:
+
+* [[Stefan Hohenegger]], [[Amer Iqbal]],  _M-strings, Elliptic Genera and $\mathcal{N}=4$ String Amplitudes_,Fortschritte der PhysikVolume 62, Issue 3 ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
+
+
 
 [[!redirects M5-brane elliptic genera]]
+
+[[!redirects M-string elliptic genus]]
+[[!redirects M-string elliptic genera]]
 
