@@ -126,6 +126,9 @@ On [[M-strings]]:
 
 On [[E-strings]]:
 
+* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], N. P. Warner, 
+_E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
+
 * {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
 
 * {#KKLPV14} [[Joonho Kim]], [[Seok Kim]], Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
