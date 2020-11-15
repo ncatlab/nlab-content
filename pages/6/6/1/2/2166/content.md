@@ -43,9 +43,9 @@ A __hypercomplex number system__ is a [[finite-dimensional vector space|finite-d
 
    On the other hand, the [[ring of dual numbers]] has a continuous automorphism $e \mapsto k e$ for each $k \in \mathbb{R} \setminus \{0\}$. But the  latter space is [[homotopy equivalence|homotopy equivalent]] to two points, corresponding to the [[connected components]] of, again, $e \mapsto \pm e$. 
 
-   Maybe $e \mapsto \pm e$ are also the two non-trivial continuous automorphisms of the [[perplex numbers]]. 
+   Finally, $e \mapsto \pm e$ are the only two non-trivial continuous automorphisms of the [[perplex numbers]]. (For let $\phi$ be an automorphism of the perplex numbers. Observing that $\phi(e)^2 = \phi(e^2) = \phi(1) = 1$, it follows that $\phi(e) \in \{1,-1,e,-e\}$. But if $\phi(e) \in \{+1, -1\}$ then $\phi$ is not injective. So therefore $\phi(e) \in \{e, -e\}$.)
 
-   If that is the case, one could say that the [[Euler characteristic]] of the space of continuous automorphisms of each 2d hypercomplex number systems is 2. And maybe with a bit of handwaving towards _[[groupoid cardinality]]_ one might summarize this in saying that there are 3/2 2d hypercomplex number systems.
+   Therefore, the [[Euler characteristic]] of the space of continuous automorphisms of each of the three 2d hypercomplex number systems is 2. Maybe with a bit of handwaving towards _[[groupoid cardinality]]_ one might summarize this as saying that there are "3/2" 2d hypercomplex number systems.
 
   
 
