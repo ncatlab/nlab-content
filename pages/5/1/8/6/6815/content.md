@@ -36,11 +36,24 @@ The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The
 
 [[!include F-branes -- table]]
 
+
+### M-brane intersections
+
+
+[[brane intersection|intersecting]] M-branes:
+
+* [[M5-MO9 brane bound state]]
+
+* [[M2-M5 brane bound state]]
+
+  * [[M-string]], [[E-string]]
+
+* [[membrane triple junction]]
+
 ## Related concepts
 
 * [[anti M-brane]]
 
-* [[M2-M5 brane bound state]]
 
 
 [[!include table of branes]]
