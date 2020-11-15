@@ -60,11 +60,13 @@
 
 * [[M5-MO9 brane bound state]]
 
-* [[M2-M5 brane bound states]]
+* [[M2-M5 brane bound state]]
 
-* [[E-strings]]
+  * [[M-string]], [[E-string]]
 
 * [[membrane triple junction]]
+
+
 
 
 
