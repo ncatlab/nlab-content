@@ -23,6 +23,11 @@ On [[analytic torsion]] and [[twisted de Rham cohomology]]:
 
 * [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
 
+On the [[Witten genus]]:
+
+* [[Fei Han]], [[Varghese Mathai]], _Projective elliptic genera and elliptic pseudodifferential genera_, Adv. Math. 358 (2019) 106860  ([arXiv:1903.07035](https://arxiv.org/abs/1903.07035))
+
+
 
 On [[spherical T-duality]]:
 
