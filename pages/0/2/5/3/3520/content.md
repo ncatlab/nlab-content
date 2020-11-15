@@ -150,7 +150,7 @@ The Hadamard lemma is what makes the standard _convenient models_ for [[syntheti
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
 
-[[!redirects Hadamard's lemma]]
+
 [[!redirects Hadamard\'s lemma]]
 [[!redirects Hadamard's lemma]]
 [[!redirects Hadamard quotient]]
