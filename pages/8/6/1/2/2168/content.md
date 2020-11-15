@@ -1,5 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
 A __perplex number__ (also known as a __split-complex number__ or a __hyperbolic number__ or a __Lorentz number__ or myriad other such synonyms varying from author to author) is an expression of the form $a + \mathrm{I} b$, where $a$ and $b$ are [[real numbers]] and $\mathrm{I}^2 = 1$ (but $\mathrm{I} \ne \pm{1}$).  The set of perplex numbers (in fact a [[topological vector space]] and [[commutative algebra]] over the real numbers) may be denoted $\mathbf{P}$ or $\mathbb{P}$.
+
+## Definition
 
 This can be thought of as:
 
@@ -20,8 +39,9 @@ notice that the absolute value of a perplex number is a [[complex number]], with
 $$ {|z|^2} = z \bar{z}. $$
 But this absolute value is degenerate, in that ${|z|} = 0$ need not imply that $z = 0$.
 
+## Properties
 
-Some concepts in analysis can be extended from $\mathbb{R}$ to $\mathbb{P}$, but not as many as work for the [[complex numbers]].  Even algebraically, the perplex numbers are not as nice as the real or complex numbers, as they do not form a [[field]].
+Some concepts in [[analysis]] can be extended from $\mathbb{R}$ to $\mathbb{P}$, but not as many as work for the [[complex numbers]].  Even algebraically, the perplex numbers are not as nice as the real or complex numbers, as they do not form a [[field]].
 
 
 [[!redirects hyperbolic complex number]]
