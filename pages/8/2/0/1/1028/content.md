@@ -137,7 +137,7 @@ Equivalently:
 If a category has equalizers, binary products and a terminal object, then it has finite [[limits]].
 =--
 
-\begin{prpn} Let $l, r: X \rightarrow Y$ be arrows in a category $\mathcal{C}$, and let $e: E \rightarrow X$ be an equaliser of $l$ and $r$. Then $e$ is a [[monomorphism]].
+\begin{prpn} Let $e: E \rightarrow X$ be an arrow in a category $\mathcal{C}$ which is an equaliser of a pair of arrows of $\mathcal{C}$. Then $e$ is a [[monomorphism]].
 \end{prpn}
 
 \begin{proof} If $g,h : A \rightarrow E$ are arrows of $\mathcal{C}$ such that $e \circ g = e \circ h$, then it follows immediately from the uniqueness part of the universal property of an equaliser that $g = h$. \end{proof}
