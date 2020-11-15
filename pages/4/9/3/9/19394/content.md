@@ -56,6 +56,15 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 
 > graphics grabbed from [HLV 14](#HLV14)
 
+Finally, an [[M2-brane]] stretching between two [[MO9-planes]] gives the [[heterotic string]] at its boundary:
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/M2BraneEndingOnM9.jpg" width="500">
+</center>
+
+> from [Kashima 00](Horava-Witten+theory#Kashima00)
+
 
 ## Properties
 
