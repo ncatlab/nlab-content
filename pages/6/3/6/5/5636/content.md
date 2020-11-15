@@ -91,3 +91,8 @@ On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invarian
 
 [[!redirects Seiberg-Witten invariant]]
 [[!redirects Seiberg-Witten invariants]]
+
+[[!redirects Seiberg-Witten curve]]
+[[!redirects Seiberg-Witten curves]]
+
+
