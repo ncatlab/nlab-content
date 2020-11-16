@@ -19,6 +19,14 @@ On the [[simplicial de Rham complex]] and [[equivariant de Rham cohomology]]:
 
 * {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
 
+On the [[rigidity theorem for elliptic genera]]:
+
+
+* [[Raoul Bott]], [[Clifford Taubes]], _On the Rigidity Theorems of Witten_, Journal of the American Mathematical Society
+Vol. 2, No. 1 (Jan., 1989), pp. 137-186 ([doi:10.2307/1990915](https://doi.org/10.2307/1990915))
+
+* [[Raoul Bott]], _On the Fixed Point Formula and the Rigidity Theorems of Witten_, Lectures at Cargése 1987. In: ’t Hooft G., Jaffe A., Mack G., Mitter P.K., Stora R. (eds) _Nonperturbative Quantum Field Theory_. NATO ASI Series (Series B: Physics), vol 185. Springer (1988) ([doi:10.1007/978-1-4613-0729-7_2](https://doi.org/10.1007/978-1-4613-0729-7_2))
+
 
 category: people
 
