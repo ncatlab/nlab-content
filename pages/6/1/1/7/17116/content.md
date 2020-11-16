@@ -1,11 +1,27 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The universal [[group extension]] of [[alternating groups]]. These are 2-fold covers except for the alternating groups of degree 6 and 7 where the covers are 6-fold.
+The universal [[group extension]] of [[alternating groups]] $A_n$. 
+
+## Properties
+
+These are [[double covers]] except for the alternating groups of degree $n = 6$ and 7 where the covers are 6-fold.
 
 ## Examples
 
