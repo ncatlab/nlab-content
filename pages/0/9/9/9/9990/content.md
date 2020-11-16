@@ -105,6 +105,10 @@ See _[[rigidity theorem for elliptic genera]]_.
 
 ## References
 
+
+
+
+
 ### As a mathematical genus
 
 The notion of elliptic genus was introduced in
@@ -123,7 +127,7 @@ More review (and in the context of the lift to the [[spin orientation of Tate K-
 
 The relation of this to [[elliptic cohomology]] was understood in
 
-* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([[LandweberEllipticModular.pdf:file]])
+* {#Landweber88} [[Peter Landweber]], _Elliptic genera: An introductory overview_ In: P. Landweber (eds.) _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics, vol 1326. Springer  (1988) ([doi:10.1007/BFb0078036](https://doi.org/10.1007/BFb0078036))
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et al (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
@@ -147,7 +151,7 @@ Refinement of the Ochanine genus to a homomorphism of [[ring spectra]] (in analo
 
 The interpretation of the elliptic genus/[[Witten genus]] as the [[partition function]] of a [[2d SCFT]] or [[Landau-Ginzburg model]] and especially of the [[type II superstring]]/[[heterotic string]] [[worldsheet]] theory:
 
-* {#Witten87} [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
+* {#Witten87} [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([euclid:cmp/1104117076](http://projecteuclid.org/euclid.cmp/1104117076))
 
 * [[Edward Witten]], _On the Landau-Ginzburg Description of $N=2$ Minimal Models_, Int.J. Mod. Phys.A9:4783-4800,1994 ([arXiv:hep-th/9304026](http://arxiv.org/abs/hep-th/9304026))
 
