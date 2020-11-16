@@ -19,8 +19,6 @@ Tau functions can also be associated to the isomonodromic problems.
 
 ## References
 
-Named after [[Srinivasa Ramanujan]].
-
 The $\tau$-function has first been introduced in the formalism of [[Clifford group]]
 of free fermions in study of [[holonomic quantum field]]s
 
