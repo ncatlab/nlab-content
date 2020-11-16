@@ -18,4 +18,11 @@ On [[string theory]] and [[mathematics]]
 
 * _String Theory and Math: Why This Marriage May Last_ ([arxiv:1508.06642](http://arxiv.org/abs/1508.06642))
 
+On [[equivariant elliptic cohomology]] of [[quiver varieties]] in relation to the [[AGT correspondence]]:
+
+* [[Mina Aganagic]], [[Andrei Okounkov]], _Elliptic stable envelopes_ ([arXiv:1604.00423](https://arxiv.org/abs/1604.00423))
+
+
+
+
 category: people
