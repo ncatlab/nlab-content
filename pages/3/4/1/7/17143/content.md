@@ -158,7 +158,7 @@ $$
 +-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
 ###### Lemma
 
-For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the $E$-[[relative cohomology]] of $B U(n)$ relative $B U(n-1)$
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the $E$-[[relative cohomology]] of $B U(n)$ relative $B U(n-1)$:
 
 $$
   \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
@@ -196,7 +196,7 @@ $$
 \underset{U(n)}{\times} \mathbb{C}^n) )
     \\
     & \simeq
-    E^\bullet( E U(n), B U(n-1))
+    E^\bullet( B U(n), B U(n-1))
   \end{aligned}
   \,.
 $$
@@ -453,7 +453,7 @@ $$
 
 commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes. 
 
-Hence componentwise all these triangles commute up to some homotopy. Now we invoke the [[Milnor sequence]] for generalized cohomology of spectra ([prop.](lim^1+and+Milnor+sequences#CohomologyOfSpectraMilnorSequence)) Observe that the [[tower]] of abelian groups $n \mapsto E^{n_1}(S^n)$ is actually constant ([[suspension isomorphism]]) hence trivially satisfies the [[Mittag-Leffler condition]] and so a homotopy of morphisms of spectra $\mathbb{S} \to E$ exists as soon as there are componentwise homotopies ([cor.](lim^1+and+Milnor+sequences#WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre)).
+Hence componentwise all these triangles commute up to some homotopy. Now we invoke the [[Milnor sequence]] for generalized cohomology of spectra ([prop.](lim^1+and+Milnor+sequences#CohomologyOfSpectraMilnorSequence)). Observe that the [[tower]] of abelian groups $n \mapsto E^{n_1}(S^n)$ is actually constant ([[suspension isomorphism]]) hence trivially satisfies the [[Mittag-Leffler condition]] and so a homotopy of morphisms of spectra $\mathbb{S} \to E$ exists as soon as there are componentwise homotopies ([cor.](lim^1+and+Milnor+sequences#WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre)).
 
 Next, the respect for the product demands that the square
 
