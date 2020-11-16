@@ -2810,7 +2810,7 @@ Topological topological K-theory of [[classifying spaces]] of [[Lie groups]] is 
 
 ### D-brane charge
 
-For more see at _[[K-theort classification of D-brane charge]]_.
+For more see at _[[K-theory classification of D-brane charge]]_.
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see also [there](D-brane#ReferencesKTheoryDescription)):
 
