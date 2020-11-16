@@ -256,15 +256,18 @@ where the first equation follows from Lemma \ref{kel1} and the second from the t
 
 A monoidal category is said to be **strict** if the associator, left unitor and right unitors are all identity morphisms.  In this case the pentagon and triangle commute automatically.
 
+A strict monoidal category is the same as a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) in the [[cartesian monoidal category|cartesian]] monoidal 2-category \(Cat, \times)\).
+
 There is a [[strict 2-category]] MonCat with:
 
 * monoidal categories as objects,
 * [[monoidal functor]]s as morphisms, 
 * [[monoidal natural transformation]]s as 2-morphisms.
 
-One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
+One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is equivalent to a strict one.  But the monoidal functors in this equivalence are, of course, typically not themselves strict.
 
-A strict monoidal category may be regarded as a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]].
+Every monoidal category is also equivalent In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] is not.  (For a proof of the latter fact, see the end of Section VI.1 in the second edition of *Categories for the Working Mathematician*.)
+
 
 ## Properties 
  {#Properties}
