@@ -18,7 +18,7 @@
 
 ## Idea
 
-A __hypercomplex number system__ is a [[finite-dimensional vector space|finite-dimensional]] [[nonassociative algebra|algebra]] over the [[field]] $\mathbb{R}$ of [[real numbers]].  A __hypercomplex number__ is an [[element]] of one of these algebras.
+A __hypercomplex number system__ is a [[finite-dimensional vector space|finite-dimensional]] unital [[nonassociative algebra|algebra]] over the [[field]] $\mathbb{R}$ of [[real numbers]].  A __hypercomplex number__ is an [[element]] of one of these algebras.
 
 
 ## Examples by dimension
