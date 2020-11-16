@@ -22,6 +22,9 @@
 The term _double field theory_ has come to be used for [[field theory]] ([[prequantum field theory]]/[[quantum field theory]]) on [[spacetimes]] which are [[T-folds]] ([[doubled geometries]]) hence for "[[T-duality]]-[[equivariance|equivariant]] field theory".
 
 ## Proposal of formalization in para-Hermitian geometry
+
+The most popular proposal of formalization of double field theory is in the context of para-Hermitian geometry.
+
 ### Doubled space as para-Hermitian manifold
 The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([Vai 12](#Vaisman)), then by David Svoboda ([Svo 18](#Svoboda)).
 
