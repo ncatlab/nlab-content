@@ -50,7 +50,7 @@ This is due to ([Ando-Hopkins-Strickland01, def. 1.2](AndoHopkinsStrickland01)).
 ###### Remark
 **(role of the [[formal Picard scheme]])**
 
-Originally (and still in many or even most references), def. \ref{EllipticSpectrum} is stated with the [[formal Picard group]] $Pic_A^0$ replaced by the [[formal completion]] $\hat A$ of $A$ at its neutral element.
+Originally (and still in many or even most references), def. \ref{EllipticSpectrum} is stated with the [[formal Picard group]] $Pic_A^0$ replaced by the [[formal completion]] $\hat A$ of $A$ at its [[neutral element]].
 
 These two versions of the definition in itself are equivalent, since [[elliptic curves]] are self-[[dual abelian varieties]] equipped with a canonical [[isomorphism]] $\hat A \simeq Pic^0_A$exhibited by the [[Poincaré line bundle]].
 
@@ -80,7 +80,7 @@ Moreover, understanding $Spec E^\bullet(BU(1))$ as being about [[moduli space of
 
 The concept of elliptic spectrum was introduced in
 
-* {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus, and the theorem of the cube_, Inventiones Mathematicae, 146:595&#8211;687, 2001, DOI 10.1007/s002220100175 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf))
+* {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus, and the theorem of the cube_, Inventiones Mathematicae, 146:595&#8211;687, 2001,  ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf), [doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175))
 
 A brief review is for instance in  of 
 
