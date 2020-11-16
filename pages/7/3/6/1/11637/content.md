@@ -22,10 +22,10 @@
 
 
 Given an [[algebraic variety]] with [[Picard scheme]] $Pic_X$,
-if the connected component $Pic_X^0$ is a [[smooth scheme]] then the [[completion]] of $Pic_X$ at its neutral [[global point]] is a [[formal group]]. This is called the _formal Picard group_of $X$. ([ArtinMazur 77](#ArtinMazur77), [Liedtke 14, example 6.13](#Liedtke14))
+if the [[connected component]] $Pic_X^0$ is a [[smooth scheme]] then the [[completion]] of $Pic_X$ at its [[neutral element|neutral]] [[global point]] is a [[formal group]]. This is called the _formal Picard group_ of $X$. ([ArtinMazur 77](#ArtinMazur77), [Liedtke 14, example 6.13](#Liedtke14))
 
 
-This construction is the special case of the general construction of [[Artin-Mazur formal groups]] for $n = 1$. The next case is called the _[[formal Brauer group]]_. 
+This construction is the special case of the general construction of [[Artin-Mazur formal groups]] for $n = 1$ (see also  [this Remark](elliptic+spectrum#RoleOfFormalPicardScheme) at _[[elliptic spectrum]]_). The next case is called the _[[formal Brauer group]]_. 
 
 
 ## Related concepts
@@ -46,4 +46,7 @@ Modern reviews include
 * {#Liedtke14} Christian Liedtke, example 6.13 in _Lectures on Supersingular K3 Surfaces and the Crystalline Torelli Theorem_ ([arXiv.1403.2538](http://arxiv.org/abs/1403.2538))
 
 [[!redirects formal Picard groups]]
+
+[[!redirects formal Picard scheme]]
+[[!redirects formal Picard schemes]]
 
