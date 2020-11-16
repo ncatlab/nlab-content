@@ -30,6 +30,11 @@ Introducing [[Deligne cohomology]] in [[complex analytic geometry]] (by a [[chai
 
 * {#Deligne71} [[Pierre Deligne]], _Th&#233;orie de Hodge II_ , IHES Pub. Math. (1971), no. 40, 5&#8211;57 ([pdf](http://www.math.jussieu.fr/~ai/d/Theory%20of%20Hodge%202.pdf))
 
+On [[elliptic curves]] over general [[commutative ring|commutative]] [[ground rings]] (in [[arithmetic geometry]]):
+
+* [[Pierre Deligne]], [[Michael Rapoport]], _Les Schémas de Modules de Courbes Elliptiques_ In: Deligne P., Kuijk W. (eds) _Modular Functions of One Variable II_, Lecture Notes in Mathematics, vol 349. Springer (1973) ([doi:10.1007/978-3-540-37855-6_4](https://doi.org/10.1007/978-3-540-37855-6_4))
+
+
 On the [[Weil conjectures]]:
 
 * _La conjecture de Weil : I_, Publications Math&#233;matiques de l'IH&#201;S __43__ (1974), p. 273-307 [numdam](http://www.numdam.org/item?id=PMIHES_1974__43__273_0)
