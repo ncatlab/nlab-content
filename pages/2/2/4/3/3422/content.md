@@ -1010,4 +1010,8 @@ Section 1 of this paper reviews properties of the Grothendieck construction for 
 
 * [[Aaron Mazel-Gee]], _All about the Grothendieck construction_ ([arXiv:1510.03525](https://arxiv.org/abs/1510.03525))
 
+Another review is
+
+* Anders Jess Pedersen, Magnus Baunsgaard Kristensen, _Straightening and Unstraightening_ [(Dropbox)](https://www.dropbox.com/s/alys3wg59rir3gt/Grothendieck_construction.pdf?dl=0)
+
 [[!redirects (∞,1)-Grothendieck construction]]
