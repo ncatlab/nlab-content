@@ -33,7 +33,7 @@ The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the h
 
 ### Relation to holomorphic vector bundles
 
-* [[Koszul-Malgrange theorem]]
+See at _[[Koszul-Malgrange theorem]]_.
 
 ## Related concepts
 
@@ -48,6 +48,8 @@ The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the h
   * [[stable vector bundle]]
 
   * [[complex line bundle]]
+
+  * [[holomorphic vector bundle]]
 
 * [[real vector bundle]]
 
