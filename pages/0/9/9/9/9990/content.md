@@ -174,6 +174,11 @@ The [[elliptic genus]]/[[Witten genus]] as [[fiber integration]] in [[elliptic c
 
 * [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](https://arxiv.org/abs/math/9912089))
 
+* [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_,
+Math Z 240, 787–822 (2002).
+([arXiv:math/0008192](https://arxiv.org/abs/math/0008192), [doi:10.1007/s002090100399](https://doi.org/10.1007/s002090100399))
+
+
 ### M5-brane elliptic genus
 
 Discussion of the [[M5-brane]] [[partition function]] as an [[elliptic genus]] seen under an [[AGT correspondence]] ([[M5-brane elliptic genus]]):
