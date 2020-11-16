@@ -256,7 +256,7 @@ where the first equation follows from Lemma \ref{kel1} and the second from the t
 
 A monoidal category is said to be **strict** if the associator, left unitor and right unitors are all identity morphisms.  In this case the pentagon and triangle commute automatically.
 
-A strict monoidal category is the same as a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) in the [[cartesian monoidal category|cartesian]] monoidal 2-category \(Cat, \times)\).
+A strict monoidal category is the same as a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) in the [[cartesian monoidal category|cartesian]] monoidal 2-category $Cat, \times)$.
 
 There is a [[strict 2-category]] MonCat with:
 
@@ -264,9 +264,9 @@ There is a [[strict 2-category]] MonCat with:
 * [[monoidal functor]]s as morphisms, 
 * [[monoidal natural transformation]]s as 2-morphisms.
 
-One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is equivalent to a strict one.  But the monoidal functors in this equivalence are, of course, typically not themselves strict.
+One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is equivalent to a strict one.  
 
-Every monoidal category is also equivalent In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] is not.  (For a proof of the latter fact, see the end of Section VI.1 in the second edition of *Categories for the Working Mathematician*.)
+Every monoidal category is also equivalent In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] with its cartesian product is not.  For the former fact, see [this remark by Jamie Vicary](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_2.html#c015959); for the latter, see the end of Section VI.1 in the second edition of *Categories for the Working Mathematician*.
 
 
 ## Properties 
@@ -331,7 +331,7 @@ There is a [[faithful functor]] from monoidal categories to [[multicategories]],
 
 The [[internal language]] of monoidal categories is a flavor of [[linear logic]]/[[linear type theory]] (non-commutative multiplicative intuitionistic linear type theory). In this logical context the [[string diagrams]] of monoidal catgeories are called [[proof nets]].
 
-## Where the Definition Comes From
+## Where the definition comes from
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
 
