@@ -24,7 +24,7 @@
 For $\Delta$ the [[simplex category]] write $\Delta_{\leq n}$ for its [[full subcategory]] on the objects $[0], [1], \cdots, [n]$. The inclusion $\Delta|_{\leq n} \hookrightarrow \Delta$ induces a truncation functor
 
 $$
-  tr_n : sSet = [\Delta^{op}, Set] \to [\Delta_{\leq n}^{op},Set]
+  tr_n : sSet = [\Delta^{op}, Set] \to [\Delta_{\leq n}^{op},Set] = sSet_{\leq n}
 $$ 
 
 that takes a [[simplicial set]] and restricts it to its degrees $\leq n$.
@@ -35,7 +35,7 @@ This functor has a fully faithful [[left adjoint]], given by left [[Kan extensio
 $$
   sk_n 
   \;\colon\; 
-  [\Delta_{\leq n},Set] \to  SSet
+  sSet_{\leq n} \to sSet
 $$
 
 called the $n$-**skeleton**
@@ -45,7 +45,7 @@ and a fully faithful [[right adjoint]], given by right [[Kan extension]]
 $$
   cosk_n 
   \;\colon\; 
-  [\Delta_{\leq n},Set] \to SSet
+  sSet_{\leq n} \to sSet
 $$
 
 called the $n$-**coskeleton**.
