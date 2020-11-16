@@ -245,6 +245,11 @@ Dedicated [[string phenomenology]] for the case of compactification on [[G2-mani
 
 * {#BourjailyEspahbodi08} Jacob L. Bourjaily, Sam Espahbodi, _Geometrically Engineerable Chiral Matter in M-Theory_ ([arXiv:0804.1132](https://arxiv.org/abs/0804.1132))
 
+Expanding on [Atiyah-Witten 01](#AtiyahWitten01):
+
+* [[Bobby Acharya]], Lorenzo Foscolo, Marwan Najjar, Eirik Eik Svanes, _New $G_2$-conifolds in M-theory and their Field Theory Interpretation_ ([arXiv:2011.06998](https://arxiv.org/abs/2011.06998))
+
+
 See also
 
 * {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
