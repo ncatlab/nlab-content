@@ -107,7 +107,7 @@ and a survey is also in
 The Goerss-Hopkins theorem is laid out in 
 
 * {#GoerssHopkinsA} [[Paul Goerss]], [[Michael Hopkins]], _Moduli spaces of commutative ring spectra_, in _Structured ring spectra_, London
-Math. Soc. Lecture Note Ser., vol. 315, Cambridge Univ. Press, Cambridge, 2004, pp. 151-200. ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/sum.pdf))
+Math. Soc. Lecture Note Ser., vol. 315, Cambridge Univ. Press, Cambridge, 2004, pp. 151-200. ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/sum.pdf), [doi:10.1017/CBO9780511529955.009](https://doi.org/10.1017/CBO9780511529955.009))
 
 * {#GoerssHopkinsB} [[Paul Goerss]], [[Michael Hopkins]], _Moduli problems for structured ring spectra_ ([pdf](http://www.math.northwestern.edu/~pgoerss/spectra/obstruct.pdf))
 
