@@ -117,6 +117,8 @@ see also
 [[!redirects String^c 2-group]]
 [[!redirects String^c 2-groups]]
 
+[[!redirects String^c-structure]]
+
 [[!redirects String^c structure]]
 [[!redirects String^c structures]]
 
