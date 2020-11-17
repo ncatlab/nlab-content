@@ -1,5 +1,4 @@
 
-
 ### Elliptic cohomology
 
 #### General
@@ -18,6 +17,7 @@ and in the universal guise of [[topological modular forms]] in:
 Surveys:
 
 * [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller, and Lurie)_, Séminaire Bourbaki : volume 2008/2009 exposés 997-1011 ([arXiv:0910.5130](https://arxiv.org/abs/0910.5130), [numdam:AST_2010__332__221_0](http://www.numdam.org/item/AST_2010__332__221_0))
+
 
 * {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in:  _Algebraic Topology_, Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
 
@@ -78,7 +78,7 @@ See also:
 * [[Daniel Berwick-Evans]], [[Arnav Tripathy]], _A geometric model for complex analytic equivariant elliptic cohomology_, ([arXiv:1805.04146](https://arxiv.org/abs/1805.04146))
 
 
-#### Via derived/$E_\infty$-geometry
+#### Via derived $E_\infty$-geometry
 
 Formulation of ([[equivariant elliptic cohomology|equivariant]]) [[elliptic cohomology]] in [[derived algebraic geometry]]/[[E-∞ geometry]] ([[derived elliptic curves]]):
 
@@ -119,7 +119,12 @@ Review:
 
 * {#Landweber88} [[Peter Landweber]], _Elliptic genera: An introductory overview_ In: P. Landweber (eds.) _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics, vol 1326. Springer  (1988) ([doi:10.1007/BFb0078036](https://doi.org/10.1007/BFb0078036))
 
-* {#Ochanine09} [[Serge Ochanine]], _What is... an elliptic genus_?, Notices of the AMS, volume 56, number 6  (2009) ([pdf](http://www.ams.org/notices/200906/rtx090600720p.pdf))
+* {#KL96} [[Kefeng Liu]], _Modular forms and topology_, Proc. of the AMS Conference on the Monster and Related Topics, Contemporary Math. (1996) ([pdf](https://www.math.ucla.edu/~liu/Research/vam.pdf), [[LiuModularFormsTopology.pdf:file]], [doi:10.1090/conm/193](http://dx.doi.org/10.1090/conm/193))
+
+
+* {#Ochanine09} [[Serge Ochanine]], _What is... an elliptic genus?_, Notices of the AMS, volume 56, number 6  (2009) ([pdf](http://www.ams.org/notices/200906/rtx090600720p.pdf))
+
+
 
 The [[Stolz conjecture]] on the [[Witten genus]]
 
@@ -186,6 +191,21 @@ Further proofs and constructions:
 On manifolds with [[SU(2)]]-[[action]]:
 
 * [[Anand Dessai]], _The Witten genus and $S^3$-actions on manifolds_, 1994 ([pdf](https://homeweb.unifr.ch/dessaia/pub/papers/MZpreprint6_Witten_S3.pdf), [[DessaiWittenGenusS3.pdf:file]])
+
+
+#### Twisted elliptic genera
+
+Discussion of [[elliptic genera]] [[twisted cohomology|twisted]] by a gauge bundle, i.e. for [[string^c-structure]]):
+
+* {#ABG} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], Section 11 of  _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics, [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society, 2010 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+
+* {#ChenHanZhang10} [[Qingtao Chen]], [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+
+* Jianqing Yu, Bo Liu, _On the Witten Rigidity Theorem for $String^c$ Manifolds_, Pacific Journal of Mathematics 266.2 (2013): 477-508. ([arXiv:1206.5955](http://arxiv.org/abs/1206.5955))
+ 
+* [[Fei Han]], [[Varghese Mathai]], _Projective elliptic genera and elliptic pseudodifferential genera_, Adv. Math. 358 (2019) 106860  ([arXiv:1903.07035](https://arxiv.org/abs/1903.07035))
+
+* Haibao Duan, [[Fei Han]], Ruizhi Huang, _$String^c$ Structures and Modular Invariants_, Trans. AMS 2020 ([arXiv:1905.02093](https://arxiv.org/abs/1905.02093))
 
 
 
