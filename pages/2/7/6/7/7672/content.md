@@ -557,6 +557,10 @@ Discussion in [[higher algebra]] in term of [[(∞,1)-module bundles]] is in
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
 
+and in higher [[chromatic homotopy theory]]:
+
+* [[Craig Westerland]], _A higher chromatic analogue of the image of J_, Geometry & Topology 21 (2017) 1033–1093 ([doi:10.2140/gt.2017.21.1033](https://doi.org/10.2140/gt.2017.21.1033))
+
 Discussion in [[p-adic geometry]]:
 
 * {#Clausen11} Dustin Clausen, _$p$-adic J-homomorphisms and a product formula_ ([arXiv:1110.5851](https://arxiv.org/abs/1110.5851))
