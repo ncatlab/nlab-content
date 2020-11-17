@@ -56,7 +56,7 @@ More generally the higher [[intermediate Jacobians]] with their Weil complex str
 
 * [[eom]], _[Polarized algebraic variety](http://www.encyclopediaofmath.org/index.php/Polarized_algebraic_variety)_
 
-* Jeroen Sisling, _What is... a polarization?_ [pdf](http://pub.math.leidenuniv.nl/~strengtc/cm/polariz.pdf)
+* Jeroen Sijsling, _What is... a polarization?_ [pdf](http://pub.math.leidenuniv.nl/~strengtc/cm/polariz.pdf)
 
 Polarization specifically of [[Jacobian varieties]] is discussed for instance in 
 
