@@ -1460,7 +1460,7 @@ See also [[examples in topology]].
 * [[homotopy]], [[homotopy inverse]], [[homotopy theory]], [[homotopy equivalence]], [[rational homotopy theory]]
 * [[shape theory]], [[algebraic topology]], [[basic problems of algebraic topology]]
 
-* [[model category]], [[category of fibrant objects]], [[Quillen adjunction]], [[Quillen equivalence]], [[category with weak equivalence]],
+* [[model category]], [[category of fibrant objects]], [[Quillen adjunction]], [[Quillen equivalence]], [[category with weak equivalences]],
 
 * [[model 2-category]], [[model stack]]
 
