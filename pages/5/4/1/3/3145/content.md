@@ -30,6 +30,12 @@ Introducing the [[nilpotence theorem]] in [[stable homotopy theory]]:
 
 * {#DevinatzHopkinsSmith98} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], _Nilpotence and Stable Homotopy Theory II_, Annals of Mathematics Second Series, Vol. 148, No. 1 (Jul., 1998), pp. 1-49 ([jstor:120991](https://www.jstor.org/stable/120991)) 
 
+On [[elliptic genera]], the [[Witten genus]] and the [[string orientation of tmf]]:
+
+* {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. Math. 146 (2001) 595&#8211;687 MR1869850 ([doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf))
+
+* {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _The sigma orientation is an H-infinity map_, American Journal of Mathematics Vol. 126, No. 2 (Apr., 2004), pp. 247-334 ([arXiv:math/0204053](http://arxiv.org/abs/math/0204053), [doi:10.1353/ajm.2004.0008](https://doi.org/10.1353/ajm.2004.0008))
+
 
 The construction of [[tmf]] was originally announced, as joint work with [[Mark Mahowald]] and [[Haynes Miller]], in 
 
