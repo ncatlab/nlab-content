@@ -13,7 +13,7 @@ Review in:
 
 #### H-string elliptic genus
 
-The interpretation of [[elliptic genera]] (especially the [[Witten genus]]) as the [[partition function]] of a [[2d superconformal field theory]] (or [[Landau-Ginzburg model]]) and especially of the [[heterotic string]] ("H-string") or [[type II superstring]] [[worldsheet]] theory originates with
+The interpretation of [[elliptic genera]] (especially the [[Witten genus]]) as the [[partition function]] of a [[2d superconformal field theory]] (or [[Landau-Ginzburg model]]) --  and especially of the [[heterotic string]] ("H-string") or [[type II superstring]] [[worldsheet]] theory -- originates with:
 
 * {#Witten87} [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([euclid:cmp/1104117076](http://projecteuclid.org/euclid.cmp/1104117076))
 
@@ -41,7 +41,7 @@ Tentative interpretation as the [[index]] of a [[Dirac operator on smooth loop s
 
 Tentative formulation via [[functorial quantum field theory]]:
 
-* {#StolzTeichner11} [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
+* {#StolzTeichner11} [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
 
 Tentative formulation via [[conformal nets]]:
 
