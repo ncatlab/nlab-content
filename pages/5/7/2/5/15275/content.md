@@ -127,7 +127,7 @@ Generalization to [[Reshetikhin-Turaev construction]] on closed manifold, to the
 
 Generalization to [[SU(n)]]:
 
-* {#ChenLiuZhu15} [[Qingtao Chen]], [[Kefeng Liu]], Shengmao Zhu, _Volume conjecture for SU(n)-invariants_ ([arXiv:1511.00658](https://arxiv.org/abs/1511.00658))
+* {#ChenLiuZhu15} [[Qingtao Chen]], [[Kefeng Liu]], Shengmao Zhu, _Volume conjecture for $SU(n)$-invariants_ ([arXiv:1511.00658](https://arxiv.org/abs/1511.00658))
 
 
 Review includes
