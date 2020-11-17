@@ -50,7 +50,7 @@ Volume 41, Number 2 (1995), 343-396 ([euclid:jdg/1214456221](https://projecteucl
 * [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](https://arxiv.org/abs/math/9912089))
 
 
-
+[[!redirects rigidity theorem for equivariant elliptic genera]]
 
 
 
