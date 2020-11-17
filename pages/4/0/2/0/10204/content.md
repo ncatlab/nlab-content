@@ -1,14 +1,17 @@
 
+
 * [webpage](http://www.math.ucla.edu/~liu/)
 
 ## Selected writings
 
 On [[elliptic genera]] and the [[rigidity theorem for elliptic genera]]:
 
-* [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom.
-Volume 41, Number 2 (1995), 343-396 ([euclid:jdg/1214456221](https://projecteuclid.org/euclid.jdg/1214456221))
+* [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 343-396 ([euclid:jdg/1214456221](https://projecteuclid.org/euclid.jdg/1214456221))
 
 * [[Kefeng Liu]], _On elliptic genera and theta-functions_, Topology Volume 35, Issue 3, July 1996, Pages 617-640 (<a href="https://doi.org/10.1016/0040-9383(95)00042-9">doi:10.1016/0040-9383(95)00042-9</a>)
+
+* {#KL96} [[Kefeng Liu]], _Modular forms and topology_, Proc. of the AMS Conference on the Monster and Related Topics, Contemporary Math. (1996) ([pdf](https://www.math.ucla.edu/~liu/Research/vam.pdf), [[LiuModularFormsTopology.pdf:file]], [doi:10.1090/conm/193](http://dx.doi.org/10.1090/conm/193))
+
 
 via [[super vertex operator algebras]]:
 
