@@ -1,7 +1,15 @@
 
+
 ### Elliptic genera as super $p$-brane partition functions
 
 Discussion of [[elliptic genera]] as [[partition functions]] of [[2d superconformal field theories]]:
+
+Review in:
+
+* {#Cheng13} [[Miranda Cheng]], _(Mock) Modular Forms in String Theory and Moonshine_, lecture notes 2016 ([[ChengModularForms16.pdf:file]])
+
+* [[Katrin Wendland]], Section 2.4 in: _Snapshots of Conformal Field Theory_, in: _Mathematical Aspects of Quantum Field Theories_ Mathematical Physics Studies. Springer 2015  ([arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4))
+
 
 #### H-string elliptic genus
 
@@ -16,9 +24,8 @@ The interpretation of [[elliptic genera]] (especially the [[Witten genus]]) as t
 
 * Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067,2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
 
-Review in:
 
-* [[Katrin Wendland]], Section 2.4 in: _Snapshots of Conformal Field Theory_, in: _Mathematical Aspects of Quantum Field Theories_ Mathematical Physics Studies. Springer 2015  ([arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4))
+
 
 The interpretation of [[equivariant elliptic genera]] as [[partition functions]] of [[parametrized WZW models]] in [[heterotic string theory]]:
 
