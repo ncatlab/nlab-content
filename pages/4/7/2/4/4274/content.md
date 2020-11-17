@@ -251,7 +251,7 @@ The original description of the Witten genus from [[string theory]] is due to
 
 * {#Witten87a} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([Euclid](http://projecteuclid.org/euclid.cmp/1104117076))
 
-* {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire](http://inspirehep.net/record/245523))
+* {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire:245523](http://inspirehep.net/record/245523), [doi:10.1007/BFb0078045]( https://doi.org/10.1007/BFb0078045))
 
 based on insights in
 
@@ -263,7 +263,7 @@ based on insights in
 (That the [[partition function]] in ([Witten 87 (11)](#Witten87)) is indeed, after some normalization, an [[elliptic genus]] is ([Landweber 88, theorem 3](#Landweber88))).
 
 
-Rigorous proofs of the rigidity claims then appeared in
+Rigorous proofs of the [[rigidity theorem for equivariant elliptic genera]] then appeared in
 
 * [[Clifford Taubes]],  _$S^1$ actions and elliptic genera_, Comm. Math. Phys., 122(3):455&#8211;526, 1989.
 
