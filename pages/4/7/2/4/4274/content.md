@@ -255,7 +255,7 @@ The original description of the Witten genus from [[string theory]] is due to
 
 based on insights in
 
-* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([[LandweberEllipticModular.pdf:file]])
+* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([doi:10.1007/BFb0078038](https://doi.org/10.1007/BFb0078038))
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et al (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
@@ -353,8 +353,8 @@ The refinement of the Witten genus from values in [[modular forms]] to [[topolog
 
 * [[Michael Hopkins]], _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
 
-* [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
-  {#AndoHopkinsRezk}
+* {#AndoHopkinsRezk} [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf), [[AndoHopkinsRezkStringOrientation.pdf:file]])
+  
 
 see also remark 1.4 of
 
