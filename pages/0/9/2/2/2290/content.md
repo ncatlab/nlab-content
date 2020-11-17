@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -43,7 +44,7 @@ The [[homotopy limit]] of this assignment functor, i.e. the "gluing" of all spec
 
 ### Genera, the elliptic genus and relation to string theory
 
-> A properly developed theory of elliptic cohomology is likely to shed some light on what [[string theory]] really means. ([Witten 87, very last sentence](#Witten87))
+> A properly developed theory of [[elliptic cohomology]] is likely to shed some light on what [[string theory]] really means. ([Witten 87, very last sentence](#Witten87))
 
 
 The following is **rough material** originating from notes taken live (and long ago), to be polished. See also at _[[elliptic genus]]_ and _[[Witten genus]]_ 
@@ -278,9 +279,9 @@ The concept of elliptic cohomology originates around
 
 motivated by [[Serge Ochanine]]'s concept of [[elliptic genus]] and by [[Edward Witten]]'s [[QFT]]/[[string theory|string theoretic]] explanation of the [[Ochanine genus]] and of the [[Witten genus]] (as the [[partition functions]] of the [[type II superstring]] and the [[heterotic superstring]], respectively).
 
-Accounts include
+Textbook accounts:
 
-* {#Thomas02} [[Charles Thomas]], _Elliptic cohomology_, Kluwer Academic, 2002 
+* {#Thomas02} [[Charles Thomas]], _Elliptic cohomology_, Kluwer Academic, 2002 ([doi:10.1007/b115001](https://link.springer.com/book/10.1007/b115001), [pdf](https://link.springer.com/content/pdf/10.1007%2Fb115001.pdf))
 
 The concept of an [[elliptic spectrum]] [[Brown representability theorem|representing]] an elliptic cohomology theory is due to
 
@@ -307,7 +308,7 @@ Further discussion of [[equivariant elliptic cohomology]] and the relation to [[
  
 Surveys include
 
-* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  2015 ([web](http://www.hcm.uni-bonn.de/fkl-rezk/))
+* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  2015 ([web](http://www.hcm.uni-bonn.de/fkl-rezk), [pdf](https://faculty.math.illinois.edu/~rezk/felix-klein-lectures-notes.pdf), [[RezkElliptic2015.pdf:file]])
 
 Discussion of generalization to higher [[chromatic homotopy theory]] is discussed in
 
@@ -321,15 +322,15 @@ Discussion of generalization to higher [[chromatic homotopy theory]] is discusse
 
 The [[elliptic genus]] and [[Witten genus]] were understood as the [[large volume limit]] of the [[partition function]] of the [[superstring]] in
 
-* {#Witten87} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([Euclid](http://projecteuclid.org/euclid.cmp/1104117076))
+* {#Witten87} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_, Commun.Math.Phys. 109 525 (1987) ([euclid:1104117076](http://projecteuclid.org/euclid.cmp/1104117076))
 
 The following reference discuss aspects of the construction of elliptic cohomology / [[tmf]] in terms of [[quantum field theory]]. See also at _[[Witten genus]]_.
  
 
 * P Hu, [[Igor Kriz]], _Conformal field theory and elliptic cohomology_, Advances in Mathematics, Volume 189, Issue 2, 20 December 2004, Pages 325&#8211;412 ([pdf](http://www.math.lsa.umich.edu/~ikriz/ell0311.pdf))
 
-* [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor. Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([Euclid](http://projecteuclid.org/euclid.atmp/1091543172), [arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
- {#SatiKriz04}
+* {#SatiKriz04} [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor. Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([Euclid](http://projecteuclid.org/euclid.atmp/1091543172), [arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
+ 
 
 A proposal for a construction via [[FQFT]] is discussed at
 
