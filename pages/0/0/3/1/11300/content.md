@@ -5,7 +5,8 @@
 
 On the [[Witten genus]] and the [[Stolz conjecture]]:
 
-* [[Anand Dessai]], _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
+* [[Anand Dessai]], _Some geometric properties of the Witten genus_, in: [[Christian Ausoni]], [[Kathryn Hess]], [[Jérôme Scherer]] (eds.) _Alpine Perspectives on Algebraic Topology_, Contemporary Mathematics 504 (2009) ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf), [[DessaiEllipticGenus.pdf:file]],
+[doi:10.1090/conm/504](http://dx.doi.org/10.1090/conm/504))
 
 
 On the [[Witten genus]] on manifolds with [[SU(2)]]-[[action]]:
