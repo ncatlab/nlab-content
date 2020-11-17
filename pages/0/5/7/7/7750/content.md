@@ -86,15 +86,16 @@ Topological $string^c$-structures were introduced
 
 and shown to induce a twisted [[Witten genus]] in 
 
-* {#ChenHanZhang10} Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+* {#ChenHanZhang10} [[Qingtao Chen]], [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
 * Jianqing Yu, Bo Liu, _On the Witten Rigidity Theorem for $String^c$ Manifolds_, Pacific Journal of Mathematics 266.2 (2013): 477-508. ([arXiv:1206.5955](http://arxiv.org/abs/1206.5955))
 
-The [[push-forward in generalized cohomology|push-forward]] in [[twisted cohomology|twisted]] [[tmf]] induced by a $string^c$-structure is discussed in section 11 of 
+* Haibao Duan, [[Fei Han]], Ruizhi Huang, _$String^c$ Structures and Modular Invariants_, Trans. AMS 2020 ([arXiv:1905.02093](https://arxiv.org/abs/1905.02093))
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- {#ABG}
+The [[push-forward in generalized cohomology|push-forward]] in [[twisted cohomology|twisted]] [[tmf]] induced by a $string^c$-structure is discussed in 
 
+* {#ABG} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], Section 11 of  _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
 
 A discussion explicitly in the context of [[string theory]] is in 
 
@@ -104,16 +105,20 @@ Their smooth refinement and their [[smooth infinity-groupoid|smooth moduli 2-sta
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|Multiple M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_
 
-A general discussion is in section 5.2 of 
+see also 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
-
-
+* [[Urs Schreiber]], section 5.2 of _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
-[[!redirects string^c 2-group]]
+
+
+[[!redirects string^c 2-groups]]
 
 [[!redirects String^c 2-group]]
+[[!redirects String^c 2-groups]]
+
+[[!redirects String^c structure]]
+[[!redirects String^c structures]]
 
 [[!redirects string^c structure]]
 [[!redirects string^c structures]]
