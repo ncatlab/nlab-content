@@ -69,7 +69,7 @@ The origin of the AGT correspondence is:
 
 * {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
 
-* {#AGT09} Luis F. Alday, [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+* {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
 
 * [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_ ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987))
 
