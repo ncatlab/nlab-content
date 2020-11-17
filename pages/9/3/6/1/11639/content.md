@@ -54,11 +54,11 @@ The general idea of [[Calabi-Yau cohomology]] apparently appears in
 
 * [[Michael Hopkins]], lectures at Midwest Topology Seminar, 1992
 
-A further discussion of K3-cohomology appears in Chapter 10 of
+Textbook account:
 
-* [[Charles Thomas]], _Elliptic Cohomology_.
+* {#Thomas02} [[Charles Thomas]], Chapter 10 of: _Elliptic cohomology_, Kluwer Academic, 2002 ([doi:10.1007/b115001](https://link.springer.com/book/10.1007/b115001), [pdf](https://link.springer.com/content/pdf/10.1007%2Fb115001.pdf))
 
-Lecture notes include
+Lecture notes:
 
 * [[Paul VanKoughnett]], _K3 cohomology theories_, 2014 ([pdf](http://math.northwestern.edu/~dwilson/k3notes/Lecture1-K3Spectra.pdf))
 
