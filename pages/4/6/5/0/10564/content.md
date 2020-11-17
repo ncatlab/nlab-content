@@ -597,7 +597,7 @@ In
 
 a set of axioms was proposed that an equivariant elliptic cohomology theory should satisfy. See also
 
-* Ioanid Rosu, _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](http://arxiv.org/abs/math/9912089))
+* [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](http://arxiv.org/abs/math/9912089))
 
 In 
 
@@ -624,7 +624,7 @@ See also the references at _[equivariant cohomology -- References --  Complex or
 
 That equivariant elliptic cohomology is related to [[representations]] of [[loop groups]] as [[equivariant K-theory]] is related to the [[representation theory]] of the underlying groups had long been conjectured. The idea appears in
 
-* {#Grojnowski94} [[Ian Grojnowski]], _Delocalised equivariant elliptic cohomology_ (1994), in _Elliptic cohomology_, volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf))
+* {#Grojnowski94} [[Ian Grojnowski]], _Delocalised equivariant elliptic cohomology_ (1994), in _Elliptic cohomology_, volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf), [doi:10.1017/CBO9780511721489.007]( https://doi.org/10.1017/CBO9780511721489.007))
 
 based on
 
@@ -680,7 +680,9 @@ For [[finite groups]]:
 
 Relation of equivariant elliptic cohomology to the [[Witten genus]] [[partition function]] of [[superstrings]] and to the [[rigidity theorem for elliptic genera]] is discussed in
 
-* [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:math/0008192](http://arxiv.org/abs/math/0008192))
+* [[Matthew Ando]], [[Maria Basterra]], _The Witten genus and equivariant elliptic cohomology_,
+Math Z 240, 787–822 (2002).
+([arXiv:math/0008192](https://arxiv.org/abs/math/0008192), [doi:10.1007/s002090100399](https://doi.org/10.1007/s002090100399))
 
 and specifically in the context of [[parameterized WZW models]] in 
 
