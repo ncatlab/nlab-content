@@ -36,8 +36,8 @@ $$
 $$
 
 
-of a [[n-sphere|(2d+1)-dimensional sphere]] by a [[free action]] of a [[finite group|finite]] [[cyclic group]] $\mathbb{Z}_n$; specifically, 
-under the identification of $S^{2d+1}$ with the [[unit sphere]] in the [[real vector space]] underlying $\mathbb{C}^{d+1}$, 
+of a [[n-sphere|(2d+1)-dimensional sphere]] by a [[free action]] of a [[finite group|finite]] [[cyclic group]] $\mathbb{Z}_n$; specifically -- 
+under the identification of $S^{2d+1}$ with the [[unit sphere]] in the [[real vector space]] underlying $\mathbb{C}^{d+1}$ -- 
 by the [[action]] induced from a [[linear representation]] of the form
 
 $$
@@ -67,7 +67,7 @@ $$
   }
 $$
 
-for [[natural numbers]] $l_i$ with $gcd(1,n) = 1$.
+for [[natural numbers]] $l_i$ [[coprime integer|coprime]] to $n$: $gcd(l_i,n) = 1$.
 
 Often this is considered by default for $2d + 1 = 3$, in which case lens spaces are examples of [[3-manifolds]], and as such are in some sense the simplest after the [[3-sphere]] $S^{3}$ and the [[product manifold]] $S^{2} \times S^{1}$ of the [[2-sphere]] with the [[circle]]. 
 
