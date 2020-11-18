@@ -37,7 +37,7 @@ On [[equivariant elliptic cohomology]] and [[positive energy representations]] o
 * [[Eduard Looijenga]], _Root systems and elliptic curves_, Invent. Math.,
 38(1):17&#8211;32, 1976/77 ([doi:10.1007/BF01390167](https://doi.org/10.1007/BF01390167))
 
-* {#Grojnowski94} [[Ian Grojnowski]], _Delocalised equivariant elliptic cohomology_ (1994), in _Elliptic cohomology_, volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf), [doi:10.1017/CBO9780511721489.007]( https://doi.org/10.1017/CBO9780511721489.007))
+* {#Grojnowski94} [[Ian Grojnowski]], _Delocalised equivariant elliptic cohomology_ (1994), in: _Elliptic cohomology_, Volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf), [doi:10.1017/CBO9780511721489.007]( https://doi.org/10.1017/CBO9780511721489.007))
 
 * {#GinzburgKapranovVasserot95} [[Victor Ginzburg]], [[Mikhail Kapranov]], Eric Vasserot, _Elliptic Algebras and Equivariant Elliptic Cohomology_ ([arXiv:q-alg/9505012](http://arxiv.org/abs/q-alg/9505012))
 
