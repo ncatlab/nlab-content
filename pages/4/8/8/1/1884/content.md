@@ -54,7 +54,7 @@ $$
 This [[abelian group]] obtained from $(Vect(X)_{/\sim}, \oplus)$ is denoted $K(X)$ and often called _the K-theory_ of the space $X$. Here the letter "K" (due to [[Alexander Grothendieck]]) originates as a shorthand for the German word _Klasse_, referring to the above process of forming [[equivalence classes]] of ([[isomorphism classes]] of) vector bundles.
 
 This simple construction turns out to yield remarkably useful groups of [[homotopy]] [[invariants]].
-A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)).
+A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topological K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)).
 
 One defines the "higher" K-groups of a topological space to be those of its higher [[reduced suspensions]]
 
