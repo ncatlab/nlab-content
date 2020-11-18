@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about extension of morphisms, [[formal dual|dual]] to [[lift]]. For extensions in the sense of "added structure", such as _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc., see at _[[algebra extension]]_.  In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
+> This entry is about two senses of _extension_: extension of morphisms, [[formal dual|dual]] to [[lift]] and extension of objects.  In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
 
 #Contents#
 * table of contents
@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-See at _[[algebra extension]]_.
+For further cases, such as _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc., see at _[[algebra extension]]_. 
 
 
 Classification of extensions in many categories is obtained using a [[forgetful functor]] $C\to D$ to a simpler category $D$, which preserves short exact sequences. For example, if all extensions in $D$ are isomorphic to $K\coprod Q$, then one looks for an additional structure in $C$ needed to equip the coproduct $K \coprod Q$ with a structure of an object in $C$ such that the $i$ and $p$ are morphisms in
