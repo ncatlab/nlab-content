@@ -41,8 +41,7 @@ On [[equivariant elliptic cohomology]] and [[positive energy representations]] o
 
 * {#GinzburgKapranovVasserot95} [[Victor Ginzburg]], [[Mikhail Kapranov]], Eric Vasserot, _Elliptic Algebras and Equivariant Elliptic Cohomology_ ([arXiv:q-alg/9505012](http://arxiv.org/abs/q-alg/9505012))
 
-* {#Ando00} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
-Mathematical Society 352, 2000, pp. 5619-5666. ([jstor:221905](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
+* {#Ando00} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_, Transactions of the American Mathematical Society 352, 2000, pp. 5619-5666. ([jstor:221905](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
 
 * [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, University of Illinois at Urbana-Champaign, 2005 ([[GepnerElliptic05.pdf:file]])
 
