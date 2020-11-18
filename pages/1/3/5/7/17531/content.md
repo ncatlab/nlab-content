@@ -1,9 +1,19 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
 ## Related concepts
 
 * [[least common multiple]]
 
 * [[Hermite normal form]]
+
+* [[coprime integers]]
 
 ## References
 
