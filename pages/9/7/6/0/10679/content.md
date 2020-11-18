@@ -92,7 +92,7 @@ Discussion in the context of the [[pro-etale site]] is in
 
 See also
 
-* Wikipedia, _[Stone&#8211;&#268;ech compactification](http://en.wikipedia.org/wiki/Stone&#8211;&#268;ech_compactification)_
+* Wikipedia, _[Stone&#8211;&#268;ech compactification](https://en.wikipedia.org/wiki/Stone%E2%80%93%C4%8Cech_compactification)_
 
 [[!redirects Stone–Cech compactification]]
 
