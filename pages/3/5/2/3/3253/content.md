@@ -20,6 +20,10 @@ On [[equivariant complex oriented cohomology theory]] and [[equivariant formal g
 
 * [[Michael Cole]], [[John Greenlees]], [[Igor Kriz]], _The universality of equivariant complex bordism_, Math Z 239, 455–475 (2002) ([doi:10.1007/s002090100315](https://doi.org/10.1007/s002090100315))
 
+On [[equivariant elliptic genera]] in [[equivariant elliptic cohomology]]:
+
+* [[Matthew Ando]], [[John Greenlees]], _Circle-equivariant classifying spaces and the rational equivariant sigma genus_, Math. Z. 269, 1021–1104 (2011) ([arXiv:0705.2687](https://arxiv.org/abs/0705.2687), [doi:10.1007/s00209-010-0773-7](https://doi.org/10.1007/s00209-010-0773-7))
+
 
 
 
