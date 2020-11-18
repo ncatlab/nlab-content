@@ -195,7 +195,7 @@ On manifolds with [[SU(2)]]-[[action]]:
 
 #### Twisted elliptic genera
 
-Discussion of [[elliptic genera]] [[twisted cohomology|twisted]] by a gauge bundle, i.e. for [[string^c-structure]]):
+Discussion of [[elliptic genera]] [[twisted cohomology|twisted]] by a gauge bundle, i.e. for [[string^c structure]]):
 
 * {#ABG} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], Section 11 of  _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics, [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society, 2010 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
 
