@@ -70,7 +70,7 @@ $$
   \array{
     Sq^{2n+1}_{\mathbb{Z}}
     &\colon&
-    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+    B^{\bullet} (\mathbb{Z}/2\mathbb{Z})
       &\overset{Sk^{2n}}{\longrightarrow}&      
     B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
       &\overset{ \beta }{\longrightarrow}&
@@ -85,7 +85,7 @@ $$
     \\
     Sq^{2n+1}
     &\colon&
-    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+    B^{\bullet} (\mathbb{Z}/2\mathbb{Z})
       &\underset{Sk^{2n}}{\longrightarrow}&   
     B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
        &\underset{  Sq^1 }{\longrightarrow}&
