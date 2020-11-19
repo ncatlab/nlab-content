@@ -17,6 +17,10 @@ On [[equivariant elliptic genera]] in [[equivariant elliptic cohomology]]:
 
 * [[Matthew Ando]], [[John Greenlees]], _Circle-equivariant classifying spaces and the rational equivariant sigma genus_, Math. Z. 269, 1021–1104 (2011) ([arXiv:0705.2687](https://arxiv.org/abs/0705.2687), [doi:10.1007/s00209-010-0773-7](https://doi.org/10.1007/s00209-010-0773-7))
 
+On [[elliptic genera]] of [[Landau-Ginzburg models]]:
+
+* [[Matthew Ando]], [[Eric Sharpe]], _Elliptic genera of Landau-Ginzburg models over nontrivial spaces_, Adv. Theor. Math. Phys. 16 (2012) 1087-1144 ([arXiv:0905.1285](https://arxiv.org/abs/0905.1285))
+
 
 On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomology]]:
 
