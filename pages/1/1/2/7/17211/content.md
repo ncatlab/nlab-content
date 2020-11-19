@@ -427,5 +427,9 @@ Named after [[Michael Boardman]].
 
 * [[Akhil Mathew]], _Torsion exponents in stable homotopy and the Hurewicz homomorphism_, Algebr. Geom. Topol. 16 (2016) 1025-1041 ([arXiv:1501.07561](https://arxiv.org/abs/1501.07561))
 
+On the [[Boardman homomorphism]] (generalized [[Hurewicz homomorphism]]) to [[tmf]]:
+
+* [[Mark Behrens]], [[Mark Mahowald]], J.D. Quigley, _The 2-primary Hurewicz image of $tmf$_ ([arXiv:2011.08956](https://arxiv.org/abs/2011.08956))
+
 
 [[!redirects Boardman homomorphisms]]
