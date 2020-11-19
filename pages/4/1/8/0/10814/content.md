@@ -182,7 +182,9 @@ $$ \omega = \mathrm{d}\tilde{x}_\mu \wedge \mathrm{d}x^\mu. $$
 
 where $\mathrm{d}\tilde{x}_\mu$ and $\mathrm{d}x^\mu$ are respectively generators of $\mathrm{CE}((\mathbb{R}^d)^\ast)$ and $\mathrm{CE}(\mathbb{R}^d)$. 
 
-The vector space $\mathbb{R}^d \oplus (\mathbb{R}^d)^\ast$ equipped with $\omega = \mathrm{d}\tilde{x}_\mu \wedge \mathrm{d}x^\mu \in \Omega_{\mathrm{LI}}^1(\mathbb{R}^d \oplus (\mathbb{R}^d)^\ast)$ is nothing but the local space on which para-Hermitian geometry is modelled. On the other side of the [[atlas]] map $f: \mathfrak{a} \longrightarrow \mathbb{R}^d \oplus \mathbf{b}\mathfrak{u}(1)$ we have an [[extended Minkowski spacetime]], on which [[bundle gerbes]] are modelled.
+The vector space $\mathbb{R}^d \oplus (\mathbb{R}^d)^\ast$ equipped with $\omega = \mathrm{d}\tilde{x}_\mu \wedge \mathrm{d}x^\mu \in \Omega_{\mathrm{LI}}^1(\mathbb{R}^d \oplus (\mathbb{R}^d)^\ast)$ is nothing but the local space on which para-Hermitian geometry is modelled. On the other side of the [[atlas]] map $f: \mathfrak{a} \longrightarrow \mathbb{R}^d \oplus \mathbf{b}\mathfrak{u}(1)$ we have an [[extended Minkowski spacetime]], on which [[bundle gerbes]] are modelled. 
+
+This relation is introduced in ([Alf20](#Alfonsi20)).
 
 
 ## Relation with non-geometry
@@ -253,4 +255,4 @@ Comprehensive discussion in [[higher differential geometry]]:
 
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
-* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
+* {#Alfonsi20} [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
