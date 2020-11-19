@@ -162,6 +162,8 @@ The [[p-localization]] of $MU$ decomposes into the
 
 ## Related concepts
 
+* [[MSU]]
+
 * [[MO]], [[MSp]], [[MSpin]]
 
 ## References
@@ -223,6 +225,7 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 * [[Burt Totaro]], _Torsion algebraic cycles and complex cobordism_, J. Amer. Math. Soc. 10 (1997), 467-493 ([doi:10.1090/S0894-0347-97-00232-4](https://doi.org/10.1090/S0894-0347-97-00232-4))
 
 * [MO discussion](https://mathoverflow.net/a/272131/381)
+
 
 
 
