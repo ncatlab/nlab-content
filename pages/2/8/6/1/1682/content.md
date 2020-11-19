@@ -571,9 +571,13 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 
 The self-[[Anderson duality]] of $tmf$ is discussed in ([Stojanoska 11](#Stojanoska11)).
 
-Equivariant topological modular forms are discussed in 
+On equivariant topological modular forms (on [[equivariant elliptic cohomology]]):
 
 * [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
+
+On the [[Boardman homomorphism]] (generalized [[Hurewicz homomorphism]]) to [[tmf]]:
+
+* [[Mark Behrens]], [[Mark Mahowald]], J.D. Quigley, _The 2-primary Hurewicz image of $tmf$_ ([arXiv:2011.08956](https://arxiv.org/abs/2011.08956))
 
 
 
