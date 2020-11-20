@@ -46,5 +46,10 @@ There is an analogue of the [[Landweber exact functor theorem]] for [[even cohom
 [[!redirects periodic complex cobordism]]
 [[!redirects periodic complex bordism]]
 
+[[!redirects periodic complex cobordism spectrum]]
+
+
 [[!redirects MP theory]]
 [[!redirects MP-theory]]
+
+
