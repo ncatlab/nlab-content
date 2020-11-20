@@ -4,11 +4,20 @@
 
 ## Selected writings
 
-* {#tomDieck75} [[Tammo tom Dieck]], _Orbittypen und äquivariante Homologie II_, Arch. Math. (Basel)26(1975), no. 6, 650–662 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tomdieck2.pdf))
+On [[equivariant bordism homology theory]]:
 
-  (on, among other things, [[equivariant bordism homology theory]])
+* [[Tammo tom Dieck]], _Kobordismentheorie und Transformationsgruppen_, Aaarhus University  Preprint Series 1968/69, No. 30 ([gbooks](https://books.google.de/books/about/Kobordismen_Theorie_und_Transformationsg.html?id=1ohGAAAAYAAJ&redir_esc=y))
+
+* [[Tammo tom Dieck]], _Bordism of $G$-manifolds and integrality theorems_, Topology Volume 9, Issue 4, November 1970, Pages 345-358 (<a href="https://doi.org/10.1016/0040-9383(70)90058-3">doi:10.1016/0040-9383(70)90058-3</a>)
+
+
+* {#tomDieck75} [[Tammo tom Dieck]], _Orbittypen und äquivariante Homologie II_, Arch. Math. (Basel) 26 (1975), no. 6, 650–662 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tomdieck2.pdf))
+
+On [[equivariant homotopy theory]] and [[equivariant cohomology]]:
 
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979
+
+On [[representation theory]]:
 
 * {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
