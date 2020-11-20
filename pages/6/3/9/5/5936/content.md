@@ -15,5 +15,11 @@ Any morphism of commutative rings $h:R\to S$ also induces the comorphism of stru
 
 * [[prime spectrum of a monoidal stable (∞,1)-category]]
 
+* [[Stone spectrum]]
+
+* [[Gelfand spectrum]]
+
+* [[Gelfand duality]]
+
 
 [[!redirects Zariski spectrum]]
