@@ -86,6 +86,11 @@ The Gelfand spectrum is also useful in the context of more general commutative B
 
     * [[Alfsen-Shultz theorem]]
 
+## References
+
+* [[Israel Gelfand]], _Normierte Ringe_, Recueil Mathématique 9(51):1 (1941), 3–24.
+
+
 category: analysis
 
 [[!redirects Gelfand spectrum]]
