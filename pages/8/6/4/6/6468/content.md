@@ -126,6 +126,28 @@ $$
 
 \linebreak
 
+### SU-Bordism
+ {#SUBordism}
+
++-- {: .num_prop #K3SurfaceSpansSUBordismRingInDegree4}  
+###### Proposition
+**([[K3-surface]] spans [[SU-bordism ring]] in degree 4)**
+
+The degree-4 generator $y_4 \in \Omega^{SU}_4$ in the [[SU-bordism ring]] is represented by minus the class of any (non-[[torus]]) [[K3-surface]]:
+
+$$
+  \Omega^{SU}_4 \;\simeq\; \mathbb{Z}\big[ \tfrac{1}{2}\big]\big\langle -[K3] \big\rangle
+  \,.
+$$
+
+=--
+
+([LLP 17, Lemma 1.5, Example 3.1](MSU#LLP17), [CLP 19, Theorem 13.5a](MSU#CLP19), see at _[[Calabi-Yau manifolds in SU-bordism theory]]_)
+
+\linebreak
+
+
+
 ### Characteristic classes
   {#CharacteristicClasses}
 
