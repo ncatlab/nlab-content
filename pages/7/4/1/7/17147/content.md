@@ -1,6 +1,8 @@
 
 **[[cobordism theory]]** = [[manifolds and cobordisms - contents|manifolds and cobordisms]] + [[stable homotopy theory]]/[[higher category theory]]
 
+**Concepts of cobordism theory**
+
 * [[manifold]]
 
   [[cobordism]]
@@ -23,8 +25,6 @@
 
   [[complex cobordism cohomology theory]]
 
-  [[MO]], [[MU]]
-
   [[orientation in generalized cohomology]]
 
   [[genus]]
@@ -32,3 +32,6 @@
 * [[(∞,n)-category of cobordisms]]
 
   [[cobordism hypothesis]]
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
