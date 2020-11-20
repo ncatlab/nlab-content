@@ -33,7 +33,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Topological sectors for heterotic M5-brane charges under Hypothesis H_  J. High Energ. Phys. **2020** no. 52 (2020) doi:[10.1007/JHEP06(2020)052](https://doi.org/10.1007/JHEP06%282020%29052) (2020), arXiv:[2003.09832](https://arxiv.org/abs/2003.09832).
 
-* _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Accepted to appear, American Mathematical Monthly, 11 March 2020. Joint with Ben Nagy.
+* _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Accepted to appear, American Mathematical Monthly, 11 March 2020, doi:[10.1080/00029890.2021.1852047](https://doi.org/10.1080/00029890.2021.1852047) (not yet active). Joint with Ben Nagy.
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
