@@ -1,22 +1,17 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Manifolds and cobordisms
+#### Cobordism theory
 +--{: .hide}
-[[!include manifolds and cobordisms - contents]]
-=--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
-=--
-#### Representation theory
-+-- {: .hide}
-[[!include representation theory - contents]]
+[[!include cobordism theory -- contents]]
 =--
 =--
 =--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,6 +43,10 @@ For the analogous statement on the equivariant [[Lazard ring]] see [Greenlees 01
 
 * [[equivariant complex oriented cohomology theory]]
 
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
 ## References
 
 * [[Peter May]], _Equivariant and non-equivariant module spectra_, Journal of Pure and Applied Algebra Volume 127, Issue 1, 1 May 1998, Pages 83&#8211;97 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/modfinal.pdf))
@@ -55,6 +54,9 @@ For the analogous statement on the equivariant [[Lazard ring]] see [Greenlees 01
 * {#Greenlees01a} [[John Greenlees]], _The coefficient ring of equivariant homotopical bordism classifies equivariant formal group laws over Noetherian rings_, 2001 ([preprint](https://homepages.abdn.ac.uk/d.j.benson/pages/html/archive/greenlees.html))
 
 * {#Greenlees01b} [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
+
+* {#ColeGreenleesKriz02} [[Michael Cole]], [[John Greenlees]], [[Igor Kriz]], _The universality of equivariant complex bordism_, Math Z 239, 455–475 (2002) ([doi:10.1007/s002090100315](https://doi.org/10.1007/s002090100315))
+
 
 * [[William Abram]], _A note on the equivariant formal group law of the equivariant complex cobordism ring_ ([arXiv:1309.0722](http://arxiv.org/abs/1309.0722))
 
