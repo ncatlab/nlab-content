@@ -20,7 +20,7 @@
 
 ## Idea
 
-Since [[Calabi-Yau manifolds]] have, in particular [[special unitary group|SU]]-[[G-structure|structure]], they represent classes in [[SU-bordism theory]]. In fact, at least in degree $ \leq 8$, _all_ SU-bordism classes are represented by Calabi-Yau manifolds of complex dimension $\leq 4$, hence in particular by the [[K3-surfaces]] in degree-4.
+Since [[Calabi-Yau manifolds]] have, in particular [[special unitary group|SU]]-[[G-structure|structure]], they represent classes in [[SU-bordism theory]]. In fact, _all_ SU-bordism classes are represented by Calabi-Yau manifolds, in particular by the [[K3-surface]] in degree (real dimension) 4 and by ... in degrees 6 and 8.
 
 ## Preliminaries
 
@@ -76,7 +76,7 @@ $$
 ###### Proposition
 **([[Calabi-Yau manifold|Calabi-Yau n-folds]] for $2 \leq n \leq 4$ span [[SU-bordism ring]] in degrees $4 \leq d \leq 8$)**
 
-The [[SU-bordism ring]] up to degree 8 is spanned by classes of [[Calabi-Yau manifolds]]: the [[K3 surface]] from Prop. \ref{K3SurfaceSpansSUBordismRingInDegree4} in degree 4 and certain CY 3-folds and CY4-folds in degrees 6 and 8.
+The [[SU-bordism ring]] is spanned by classes of [[Calabi-Yau manifolds]]: specifically the [[K3 surface]] from Prop. \ref{K3SurfaceSpansSUBordismRingInDegree4} in degree 4 and certain ... CY 3-folds and CY4-folds in degrees 6 and 8.
 
 =--
 
