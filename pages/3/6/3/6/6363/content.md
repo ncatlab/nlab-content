@@ -238,6 +238,10 @@ The analogous statement in [[differential geometry]]:
 
 ## References
 
+The original reference is
+
+* [[Israel Gelfand]], _Normierte Ringe_, Recueil Mathématique 9(51):1 (1941), 3–24.
+
 Formulation of Gelfand duality in terms of [[category theory]] ([[adjoint functors]], [[monads]] ("triples") and [[adjoint equivalences]]) originates with
 
 * {#Negropontis71} Joan W. Negrepontis, _Duality in analysis from the point of view of triples_, Journal of Algebra, 19 (2): 228–253, (1971) (<a href="https://doi.org/10.1016/0021-8693(71)90105-0">doi</a>, ISSN 0021-8693, MR 0280571)
