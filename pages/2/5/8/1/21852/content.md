@@ -118,17 +118,20 @@ The [[SU-bordism ring]] [[localization of a ring|away from 2]] is multiplicative
 
 ([LLP 17, Theorem 2.4](#LLP17))
 
+
+In particular:
+
 +-- {: .num_prop }  
 ###### Proposition
-**([[Calabi-Yau manifolds]] in complex dim $\leq 4$ [[linear span|span]] the [[SU-bordism ring]] in $deg \leq 8$ [[localization of a ring|away from 2]])**
+**([[Calabi-Yau manifolds]] in complex dim $\leq 4$ generating the [[SU-bordism ring]] in $deg \leq 8$ [[localization of a ring|away from 2]])**
 
 There are [[Calabi-Yau manifolds]] of complex dimension $3$ and $4$ whose whose SU-bordism classes equal the generators $\pm y_6$ and $\pm y_8$ in Prop. \ref{SUBordismRingAwayFromTwo}. 
 
-Together with the [[K3 surface]] representing $- y_4$ (Prop. \ref{K3SurfaceSpansSUBordismRingInDegree4}), this means that [[CYs]] [[linear space|span]] $\Omega^{SU}_{\leq 8}\big[ \tfrac{1}{2}\big]$ over $\mathbb{Z}\big[\tfrac{1}{2}\big]$.
 
 =--
 
-([CLP 19, Theorem 13.5](#CLP19))
+([CLP 19, Theorem 13.5b,c](#CLP19))
+
 
 
 
