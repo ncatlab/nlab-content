@@ -162,9 +162,9 @@ The [[p-localization]] of $MU$ decomposes into the
 
 ## Related concepts
 
-* [[MSU]]
+[[!include flavours of cobordism cohomology theories -- table]]
 
-* [[MO]], [[MSp]], [[MSpin]]
+
 
 ## References
 
