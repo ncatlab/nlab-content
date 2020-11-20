@@ -18,14 +18,13 @@ where $\Omega_U$ is the cobordism ring of almost complex manifolds and $\mathbb{
 
 * [[Conner-Floyd Chern class]]
 
-## Literature and variants
+## References
 
-* P. E. Conner, E. E. Floyd, _The relation of cobordism to $K$-theories_, Lecture Notes in Mathematics __28__ Springer 1966 v+112 pp. [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511)
+* [[Pierre Conner]], [[Edwin Floyd]], _The relation of cobordism to $K$-theories_, Lecture Notes in Mathematics __28__ Springer 1966 v+112 pp. [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511)
 
 Russian transl. of above: &#1050;&#1086;&#1085;&#1085;&#1077;&#1088; &#1055;., &#1060;&#1083;&#1086;&#1081;&#1076; &#1069;. 0 &#1089;&#1086;&#1086;&#1090;&#1085;&#1086;&#1096;&#1077;&#1085;&#1080;&#1080; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1082;&#1086;&#1073;&#1086;&#1088;&#1076;&#1080;&#1079;&#1084;&#1086;&#1074; &#1080; &#1050;-&#1090;&#1077;&#1086;&#1088;&#1080;&#1080;. - &#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1077;&#1085;&#1080;&#1077; &#1082; &#1082;&#1085;.: &#1043;&#1083;&#1072;&#1076;&#1082;&#1080;&#1077; &#1087;&#1077;&#1088;&#1080;&#1086;&#1076;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1086;&#1090;&#1086;&#1073;&#1088;&#1072;&#1078;&#1077;&#1085;&#1080;&#1103;. - &#1052;.: &#1052;&#1080;&#1088;, 1969. [djvu](http://gen.lib.rus.ec/get?nametype=orig&md5=11459C40D0E52BA45BDAD92BC8AC0ACA)
 
-* Gerhard Wolff, _Der Einfluss von $K^{\ast} (-)$ auf $U^{\ast} (-)$_,
-Manuscripta Math. __10__ (1973), 141&#8211;-161
+* Gerhard Wolff, _Der Einfluss von $K^{\ast} (-)$ auf $U^{\ast} (-)$_, Manuscripta Math. __10__ (1973), 141&#8211;-161
 
 * Gerhard Wolff,  _Vom Conner-Floyd Theorem zum Hattori-Stong Theorem_, 
 Manuscripta Math. __17__ (1975), no. 4, 327&#8211;-332, [doi](http://dx.doi.org/10.1007/BF01170729), [MR388420](http://www.ams.org/mathscinet-getitem?mr=388420)
