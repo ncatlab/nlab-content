@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cobordism theory
++--{: .hide}
+[[!include cobordism theory -- contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -60,6 +72,11 @@ are invertible for all $X \in \Sm_k$.
 * [[motivic cohomology]]
 * [[algebraic K-theory]]
 
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
+
 ## References
 
 * {#Voevodsky98} [[Vladimir Voevodsky]], _$\mathbf{A}^1$-Homotopy Theory_, Doc. Math., Extra Vol. ICM 1998(I), 417-442, [web](http://www.mathematik.uni-bielefeld.de/documenta/xvol-icm/00/Voevodsky.MAN.html).
@@ -108,7 +125,7 @@ The comparison with $MGL^{2*,*}$ is in
 
 The construction was extended to [[derived algebraic geometry|derived schemes]] in the paper
 
-* [[Parker Lowrey]], [[Timo Schuerg]].  _Derived algebraic bordism_, 2012, [arXiv:1211.7023](http://arxiv.org/abs/1211.7023).
+* Parker Lowrey, [[Timo Schuerg]].  _Derived algebraic bordism_, 2012, [arXiv:1211.7023](http://arxiv.org/abs/1211.7023).
 
 The close connection of algebraic cobordism with [[K-theory]] is discussed in
 
