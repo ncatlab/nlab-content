@@ -1,3 +1,4 @@
+[[!redirects Gelfand-Naimark theorem]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +17,8 @@
 
 ## Idea
 
-The _Gelfand-Naimark theorem_ says that every [[C*-algebra]] is [[isomorphism|isomorphic]] to a $C^\ast$-algebra of [[bounded linear operators]] on a [[Hilbert space]].
+The _Gelfand–Neumark theorem_ (alternative spelling transliterated
+from the Russian: Gel'fand–Naĭmark; Гельфанд–Наймарк) says that every [[C*-algebra]] is [[isomorphism|isomorphic]] to a $C^\ast$-algebra of [[bounded linear operators]] on a [[Hilbert space]].
 
 ## Related concepts
 
@@ -26,6 +28,10 @@ The _Gelfand-Naimark theorem_ says that every [[C*-algebra]] is [[isomorphism|is
 
 
 ## References
+
+* [[Israel Gelfand]], [[Mark Neumark]],
+_On the imbedding of normed rings into the ring of operators in Hilbert space_,
+Recueil Mathématique 12(54):2 (1943), 197–217.
 
 * Wikipedia, _[Gelfand-Naimark theorem](https://en.wikipedia.org/wiki/Gelfand%E2%80%93Naimark_theorem)_
 
