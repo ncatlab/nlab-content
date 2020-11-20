@@ -1,21 +1,15 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Cobordism theory
 +--{: .hide}
-[[!include cohomology - contents]]
-=--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
-=--
-#### Representation theory
-+-- {: .hide}
-[[!include representation theory - contents]]
+[[!include cobordism theory -- contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -60,6 +54,10 @@ $$
   * [[KR-theory]]
 
   * [[BPR-theory]]
+
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
 
 
 ## References
