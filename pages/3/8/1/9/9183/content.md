@@ -148,9 +148,14 @@ Discussion of possible matter representations that could serve as dark matter:
 
 * Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl.Phys.B753:178-194, 2006 ([arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090))
 
-Discxussion of [[neutrino]]-dark matter: 
+Discussion of [[neutrino]]-dark matter: 
 
 * {#NeutrinoWhite16} _A White Paper on keV Sterile Neutrino Dark Matter_,  Journal of Cosmology and Astroparticle Physics, Volume 2017, January 2017 ([arXiv:1602.04816](https://arxiv.org/abs/1602.04816))
+
+Issues with defining gravitating mass on non-stationary spacetimes:
+
+* Zhi-Wei Wang, Samuel L. Braunstein, _Could dark matter be a natural consequence of a dynamical universe?_ ([arXiv:2011.09923](https://arxiv.org/abs/2011.09923))
+
 
 ### Evidence
  {#Evidence}
