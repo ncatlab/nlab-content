@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include cobordism theory -- contents]]
 =--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
-=--
 =--
 =--
 
@@ -58,13 +54,13 @@ The corresponding statement for [[MU]] is considerably more subtle, see _[[Milno
 
 * [[homology of MO]]
 
-* [[MU]], [[complex cobordism cohomology]]
-
-* [[MSpin]], [[MSp]]
-
 * [[orientation in generalized cohomology]]
 
-* [[KO]]
+
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
 
 ## References
 
