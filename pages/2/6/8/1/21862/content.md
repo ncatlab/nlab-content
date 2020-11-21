@@ -44,4 +44,4 @@ where $V$ runs over all finite-dimensional subrepresentations of $U$.
 
 ## References
 
-* [[Stefan Schwede]], _Global homotopy theory_.
+* [[Stefan Schwede]], _[[Global homotopy theory]]_.
