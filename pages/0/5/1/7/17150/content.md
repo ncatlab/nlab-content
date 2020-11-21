@@ -48,4 +48,8 @@ on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectr
 
 * [[orbifold cohomology]]
 
+* [[ultracommutative ring spectrum]]
+
+* [[global equivariant bordism homology theory]]
+
 category: reference
