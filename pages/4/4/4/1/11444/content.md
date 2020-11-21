@@ -27,7 +27,7 @@ A modern review in in ([Kriz 01, section 2](#Kriz01)).
 
 ### Relation to real manifolds
 
-While $\pi_\bullet(M \mathbb{R})$ is _not_ the [[cobordism ring]] of [[real manifolds]], still every [[real manifold]] does give a class in $M \mathbb{R}$ ([Kriz 01, p. 13](#Kriz01)). For details see here: [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm161/fm16115.pdf).
+While $\pi_\bullet(M \mathbb{R})$ is _not_ the [[cobordism ring]] of [[real manifolds]], still every [[real manifold]] does give a class in $M \mathbb{R}$ ([Hu 99](#Hu99),  [Kriz 01, p. 13](#Kriz01)).
 
 ### $E_\infty$-structure
 
@@ -66,12 +66,19 @@ The definition is originally due to
 
 * {#Landweber67} [[Peter Landweber]], _Fixed point free conjugations on complex manifolds_, Annals of Mathematics 86 (2) (1967) 491-502.
 
-* {#Landweber68} [[Peter Landweber]], _Conjugations on complex manifolds and equivariant homotopy of $MU$;, Bulletin of the American Mathematical Society 74 (1968) 271-274.
+* {#Landweber68} [[Peter Landweber]], _Conjugations on complex manifolds and equivariant homotopy of $MU$_, Bulletin of the American Mathematical Society 74 (1968) 271-274
 
-The [[Adams spectral sequence]] for real cobordism is discussed in
+Computations in:
+
+{#Hu99} Po Hu, _The cobordism of Real manifolds_, Fundamenta Mathematicae (1999) Volume: 161, Issue: 1-2, page 119-136 ([dml:212395](https://eudml.org/doc/212395), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm161/fm16115.pdf))
+
+The [[Adams spectral sequence]] for real cobordism:
+
+* Po Hu, _The cobordism of Real manifolds and calculations with the Real Adams-Novikov spectral sequence_, 1998 ([hdl:2027.42/130996](http://hdl.handle.net/2027.42/130996), [pdf](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/130996/9825253.pdf?sequence=2&isAllowed=n))
 
 * {#Kriz01} Po Hu, [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the
-Adams}Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
+Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 (<a href="https://doi.org/10.1016/S0040-9383(99)00065-8">doi:10.1016/S0040-9383(99)00065-8</a>, [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
+
 
 
 [[!redirects MR-theory]]
