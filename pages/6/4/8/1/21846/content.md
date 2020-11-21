@@ -5,6 +5,8 @@
 
 **flavors of [[cobordism]] [[cobordism homology theory|homology]]/[[cobordism cohomology theory|cohomology theories]] and [[Brown representability theorem|representing]] [[Thom spectra]]** 
 
+[[bordism homology theory|bordism theory]]:
+
 * [[MO]], [[MSO]], [[MSpin]], ...
 
 * [[MU]], [[MSU]], ...
@@ -17,11 +19,14 @@
 
 [[equivariant bordism homology theory|equivariant bordism theory]]:
 
-* [[equivariant MO]], an [[ultracommutative ring spectrum]]
-
-* [[equivariant mO]], the [[E-infinity]] [[global Thom spectrum]]
+* [[equivariant MO]]
 
 * [[equivariant MU]]
 
-* [[equivariant mU]]
+[[global equivariant bordism homology theory|global equivariant bordism theory]]:
+
+* [[global equivariant mO]], 
+
+* [[global equivariant mU]]
  
+
