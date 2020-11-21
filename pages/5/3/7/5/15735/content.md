@@ -6,7 +6,7 @@ A method for constructing [[automorphic L-functions]].
 
 ## References
 
-* Wikipedia, _[Rankin-Zelberg method](http://en.wikipedia.org/wiki/Rankin&#8211;Selberg_method)_
+* Wikipedia, _[Rankin-Selberg method](https://en.wikipedia.org/wiki/Rankin%E2%80%93Selberg_method)_
 
 
 * {#Selberg40} [[Atle Selberg]], _Bemerkungen &#252;ber eine Dirichletsche Reihe, die mit der Theorie der Modulformen nahe verbunden ist_, Arch. Math. Naturvid. 43: 47&#8211;50, (1940)  MR 0002626
