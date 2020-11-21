@@ -297,6 +297,8 @@ If $f\colon X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, the
 
 * [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
+* [[André Joyal]], _[[joyalscatlab:Cartesian squares]]_
+
 
 [[!redirects pullbacks]]
 [[!redirects pullback square]]
