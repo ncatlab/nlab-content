@@ -50,7 +50,7 @@ $$
   \end{aligned}
 $$
 
-of the [[product]] of the [[spin group]] with the [[circle group]] by the common [[subgroup|sub]]-[[group of order 2]] $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$ and $\mathbb{Z}_2 \hookrightarrow U(1)$.
+of the [[product]] of the [[spin group]] with the [[circle group]] by the common [[subgroup|sub]]-[[group of order 2]] $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$ and $\mathbb{Z}_2 \hookrightarrow U(1)$ (i.e.: the [[central product group]]).
 
 =--
 
@@ -471,9 +471,21 @@ This implies by claim by the [[pasting law]].
 
 There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic groups]] [[Mp]] and [[Mp^c]] (see there for more).
 
+
+
+## Examples
+
+* For $n=3$, the [[exceptional isomorphism]] between [[Spin(3)]] and [[SU(2)]] extents to an isomorphism between $Spin^c(3)$ and the [[unitary group]] $U(2)$:
+
+  $$
+    Spin^c(3) 
+    \;\simeq\; 
+    U(2)
+  $$
+
 ## Related concepts
 
-* [[spin group]], **$Spin^c$-group**, [[spin^h group]]
+* [[spin group]], **$spin^c$-group**, [[spin^h group]]
 
 * [[spin structure]]
 
@@ -493,8 +505,17 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 For more see the references at _[[spin^c structure]]_.
 
 
-[[!redirects spin^c group]]
-
-[[!redirects Spin^c group]]
 
 [[!redirects Spin^c]]
+
+[[!redirects spin^c group]]
+[[!redirects spin^c groups]]
+[[!redirects spin^c-group]]
+[[!redirects spin^c-groups]]
+
+[[!redirects Spin^c group]]
+[[!redirects Spin^c groups]]
+[[!redirects Spin^c-group]]
+[[!redirects Spin^c-groups]]
+
+
