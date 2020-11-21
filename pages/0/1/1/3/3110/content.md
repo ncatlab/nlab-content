@@ -215,6 +215,10 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 
 * [[canonical model structure on Operad]]
 
+## References
+
+* Joyal's CatLab: [[joyalscatlab:Model structures on Cat]]
+
 
 [[!redirects canonical model structure on Cat]]
 [[!redirects canonical model structure on categories]]
