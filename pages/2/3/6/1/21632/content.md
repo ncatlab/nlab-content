@@ -80,6 +80,9 @@ There are generalizations of this picture for each of the so-called 'inner' [[sy
 
 * {#Bryant82} [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
 
+
+* {#Bryant85} [[Robert Bryant]], _Lie groups and twistor spaces_, Duke Mathematical Journal 52 (1985), pp. 223–261, ([euclid:dmj/1077304286](https://projecteuclid.org/euclid.dmj/1077304286))
+
 * {#Lawson85} [[H. Blaine Lawson]], _Surfaces minimales et la construction de Calabi-Penrose_,  Séminaire Bourbaki : volume 1983/84, exposés 615-632, Astérisque no. 121-122  (1985), Talk no. 624, p. 197-211 ([numdam:SB_1983-1984__26__197_0](http://www.numdam.org/item/SB_1983-1984__26__197_0))
 
 * [[Simon Salamon]], p. 218-220 of: _Harmonic and holomorphic maps_,  In: E. Vesentini  (eds.) _Geometry Seminar "Luigi Bianchi" II - 1984_, Lecture Notes in Mathematics, vol 1164. Springer 1985 ([doi:10.1007/BFb0081912](https://doi.org/10.1007/BFb0081912))
@@ -94,11 +97,12 @@ There are generalizations of this picture for each of the so-called 'inner' [[sy
 
 * {#Nordstrom08} Jonas Nordstrom, _Calabi's construction of Harmonic maps from $S^2$ to $S^n$_, Lund University 2008 ([pdf](http://www.matematik.lu.se/matematiklu/personal/sigma/students/Jonas-Nordstrom-BSc.pdf), [[NordstromCalabiConstruction.pdf:file]])
 
+* Angel Cano, Juan Pablo Navarrete, [[José Seade]], Section 10.1 in: _Kleinian Groups and Twistor Theory_, In: _Complex Kleinian Groups_, Progress in Mathematics, vol 303. Birkhäuser 2013 ([doi:10.1007/978-3-0348-0481-3_10](https://doi.org/10.1007/978-3-0348-0481-3_10))
+
 * {#ArmstrongSalamon14} John Armstrong, [[Simon Salamon]], _Twistor Topology of the Fermat Cubic_, SIGMA 10 (2014), 061, 12 pages ([arXiv:1310.7150](https://arxiv.org/abs/1310.7150))
 
 * [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
-* {#Bryant85} [[Robert Bryant]], _Lie groups and twistor spaces_, Duke Mathematical Journal 52 (1985), pp. 223–261, ([ProjectEuclid](https://projecteuclid.org/euclid.dmj/1077304286)).
 
 
 
