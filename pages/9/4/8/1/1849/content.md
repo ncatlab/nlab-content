@@ -61,7 +61,7 @@ $$
 
 This condition was originally argued for in ([Witten 96a](#Witten96a), [Witten 96b](#Witten96b)) as a sufficient condition for ensuring that the [[prequantum line bundle]] for the [[7d Chern-Simons theory]] on an [[M5-brane]] [[worldvolume]] is divisible by 2.
 
-Proposals for encoding this condition by a [[Wu class]]-shifted variant of [[generalized (Eilenberg-Steenrod) cohomology theory|stable]] [[ordinary differential cohomology]] were considered in [Hopkins-Singer 02](#HopkinsSinger02), [Diaconescu-Freed-Moore 03](#DiaconescuFreedMoore03), [FSS 12](#FSS12).
+Proposals for encoding this condition by a [[Wu class]]-shifted variant of [[generalized (Eilenberg-Steenrod) cohomology theory|stable]] [[ordinary differential cohomology]] were considered in [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]], [Diaconescu-Freed-Moore 03](#DiaconescuFreedMoore03), [FSS 12](#FSS12).
 
 It turns out that the shifted flux quantization condition on the C-field is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[schreiber:Hypothesis H]]).
 
