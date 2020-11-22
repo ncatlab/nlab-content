@@ -1554,7 +1554,7 @@ See ([Ara, p. 9](#Ara)).
 
 * The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is [[transferred model structure|transferred]] from one that is.
 
-* For any small category $A$, the homotopical datum (Definition \ref{DefinitionHomotopicalDatum}) given by the $(J, \emptyset)$, where $J$ is the Lawvere cylinder (Definition \ref{LawvereCylinder}), generates a Cisinki model structure on the category of presheaves on $A$. By  ([Cisinski 06, rem. 1.3.15](#Cisinski06)), a set of generating anodyne extensions is $A\times \Omega \cup_A B \to B \times \Omega$ where $A \to B$ are generating anodyne extensions. This is sometimes known as the [[minimal Cisinski model structure]]. See also Theorem \ref{TheoremCharacterisationOfAccessibleLocalisersForPresheafCategories}.
+* For any small category $A$, the homotopical datum (Definition \ref{DefinitionHomotopicalDatum}) given by the $(J, \emptyset)$, where $J$ is the Lawvere cylinder (Definition \ref{LawvereCylinder}), generates a Cisinki model structure on the category of presheaves on $A$. By  ([Cisinski 06, rem. 1.3.15](#Cisinski06)), a set of generating anodyne extensions is $A\times \Omega \cup_A B \to B \times \Omega$ where $A \to B$ are generators for the class of monomorphisms. This is sometimes known as the [[minimal Cisinski model structure]]. See also Theorem \ref{TheoremCharacterisationOfAccessibleLocalisersForPresheafCategories}.
 
 
 ## Properties
