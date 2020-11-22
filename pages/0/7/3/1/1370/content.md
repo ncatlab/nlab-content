@@ -57,6 +57,5 @@ category: people
 
 
 [[!redirects Andre Joyal]]
-[[!redirects André Joyal]]
 [[!redirects A. Joyal]]
 [[!redirects Joyal]]
