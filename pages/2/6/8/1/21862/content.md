@@ -4,9 +4,9 @@
 ## Definition
 
 The [[category]] of __orthogonal spaces__ is the category
-of [[topological functors]] between [[topological categories]]
+of [[topological functors]] from the [[topological category]] $\mathbf{L}$
 of finite-dimensional real inner product spaces (with linear isometric
-embeddings) and topological spaces (with continuous maps).
+embeddings) to the [[topological category]] of topological spaces (with continuous maps).
 
 Here a __topological space__, or simply a __space__,
 refers to an object in a [[convenient category of spaces]],
@@ -41,6 +41,21 @@ $$hocolim_V f(V)\colon hocolim_V X(V)\to hocolim_V Y(V)$$
 is a $G$-[[equivariant weak equivalence]] (i.e., a [[weak homotopy equivalence]]
 on $H$-fixed points for any closed subgroup $H$ of $G$),
 where $V$ runs over all finite-dimensional subrepresentations of $U$.
+
+## Example: the global classifying space of a compact Lie group
+
+The __global classifying space of a compact Lie group__ is defined as
+$$\mathrm{B}_{gl} G = \mathbf{L}_{G,V} = \mathbf{L}(V,-)/G,$$
+where $V$ is any faithful representation of $G$.
+Here $\mathbf{L}(V,-)$ denotes the [[enriched hom]]
+in the [[topological category]] $\mathbf{L}$.
+
+If $V'$ is another such faithful representation, then the canonical maps
+$$\mathbf{L}_{G,V} \gets \mathbf{L}_{G,V\oplus V'} \to \mathbf{L}_{G,V'}$$
+are global equivalences.
+
+For example, if $G=Z/2Z$, then the underlying nonequivariant space
+of $\mathrm{B}_{gl} G$ is $\mathbf{RP}^\infty$.
 
 ## References
 
