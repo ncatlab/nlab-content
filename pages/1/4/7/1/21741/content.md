@@ -17,13 +17,16 @@
 
 * [[syntax-semantics duality]]
 
-#### [[syntax|Syntactic Models]]
+#### [[syntax|Syntax]]
+
+* [[formal grammar]]
 
 * [[context-free grammar]]
 
 * [[categorial grammar]]
 
 * [[pregroup grammar]]
+
 
 #### [[semantics|Semantics]]
 
@@ -33,15 +36,23 @@
 
 * [[categorical compositional distributional semantics]]
 
+
+#### [[pragmatics|Pragmatics]]
+
+
+* [[monad (in linguistics)]]
+* [[language game]]
+
+
 ### Concepts
 
 * [[compositionality]]
 
 * [[generalized quantifier]]
 
-* [[monad (in linguistics)]]
-
 * [[tree]]
+
+* [[Chomsky hierarchy]]
 
 
 ### People
