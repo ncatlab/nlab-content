@@ -110,7 +110,7 @@ Moreover, the horizontal map to $k^{n+1}$ in (eq:TautologicalBundleProjection) e
 {#Illustration} The following illustration shows the tautological [[real line bundle]] over 1-dimensional [[real projective space]], but the general picture is "the same", up to higher dimensionality of all spaces involved:
 
 \begin{imagefromfile}
-  "file_name": "TautologicalLineBundle.jpg",
+  "file_name": "TautologicalLineBundleOverRP1.jpg",
   "width": 700
 \end{imagefromfile}
 
@@ -280,9 +280,16 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 
 ## Examples
 
-### Line bundle over Riemann sphere
+### Möbius strip
 
-* The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]]).
+The tautological line bundle over the 1-dimensional [[real projective space]] $\mathbb{R}P^1$ is the [[Möbius strip]].
+
+
+### Over Riemann sphere
+
+The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]]).
+
+This plays a key role in [[topological K-theory]] and more generally in [[complex oriented cohomology theory]].
 
 ## Related concepts
 
