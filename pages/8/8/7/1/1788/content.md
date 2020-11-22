@@ -14,7 +14,7 @@ Foremost there is the half-integral quantization of the $G_4$-flux, mentioned as
 
 Beyond this, [DMW00](#DMW00) argue that the "M-theory path integral" imposes a further condition on the shifted integral cohomology class of $G_4$, namely that it be in the kernel of the Steenrod operation $Sq^3$. Whether this constraint is enforced by flux quantization in some further modification of ordinary cohomology is not discussed there.
 
-Instead, the observation made is that the constraint $Sq^3 [F_4] = 0$ is also the first condition that appears in the Atiya-Hirzebruch spectral sequence for lifting an ordinary cohomology class $[F_4]$ to complex topological K-theory, as demanded by the widely accepted conjecture that RR-field fluxes $F_{n}$ in string theory are quantized in topological K-theory. 
+Instead, the observation made is that the constraint $Sq^3 [F_4] = 0$ is also the first condition that appears in the Atiyah-Hirzebruch spectral sequence for lifting an ordinary cohomology class $[F_4]$ to complex topological K-theory, as demanded by the widely accepted conjecture that RR-field fluxes $F_{n}$ in string theory are quantized in topological K-theory. 
 
 Since, moreover, $F_4$ is meant to come from $G_4$ as one lifts string theory to M-theory, the observation of [DMW00](#DMW00) is hence that the "integral equation of motion" in M-theory reproduces one of the constraints on one of the RR-field components given by flux quantization in K-theory. 
 
