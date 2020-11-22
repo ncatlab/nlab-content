@@ -34,7 +34,7 @@ The construction of $\to_R^*$ can be seen as the free [[preorder|preordered]] [[
 
 In [[categorial grammar|categorial grammars]], monoidal categories are replaced by [[biclosed monoidal category]]. The derivations are trees with two kinds of rules: 1) a finite language-dependent _dictionary_ of rules $w \to \alpha$ with $w \in V$ and $\alpha \in X^*$ and 2) an infinite number of language-agnostic rules for each [[higher order logic|higher order type]].
 
-Similarly [[pregroup grammar|pregroup grammars]] are constructed from  a dictionary with types coming from a [[rigid monoidal categoriy|rigid monoidal categories]]. The rewrite rules are the counit maps $x^* \otimes x \to 1$ and $x \otimes {}^*x \to 1$ for each non-terminal symbol $x \in X$, the derivations are [[string diagram|planar string diagrams]].
+Similarly [[pregroup grammar|pregroup grammars]] are constructed from  a dictionary with types coming from a [[rigid monoidal category|rigid monoidal categories]]. The rewrite rules are the counit maps $x^* \otimes x \to 1$ and $x \otimes {}^*x \to 1$ for each non-terminal symbol $x \in X$, the derivations are [[string diagram|planar string diagrams]].
 
 ## History
 
