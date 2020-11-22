@@ -14,6 +14,7 @@
 ## writings
 
 * [[Tractatus Logico-Philosophicus]]
+* Philosophical investigations, see [[language game]].
 
 category: people
 
