@@ -4,6 +4,16 @@
 [[!redirects Pregroup grammar]]
 [[!redirects Pregroup grammars]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
+=--
+=--
+
 **Pregroup grammar** is a mathematical model of natural language grammar introduced by [[Lambek]], it is part of the [[categorial grammar]] tradition.
 
 * table of contents
