@@ -85,9 +85,15 @@ In any case, as far as the _observable_ universe is concerned, two facts are wor
 
     * [[big bang]]
 
+    * [[dark energy]]
+
     * [[dark matter]]
 
   * [[structure formation]]
+
+  * [[inhomogeneous cosmology]]
+
+    [[KBC void]]
 
 * [[quantum cosmology]]
 
