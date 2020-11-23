@@ -446,6 +446,12 @@ Introducing observation of the [[KBC void]]:
 
 * {#KBC13} Ryan C. Keenan, Amy J. Barger, Lennox L. Cowie, _Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution_, 2013, ApJ, 775, 62 ([arXiv:1304.2884](https://arxiv.org/abs/1304.2884))
 
+Its potential relevance for the [[Hubble tension]] (apparently too small):
+
+* Hao-Yi Wu, Dragan Huterer, _Sample variance in the local measurements of the Hubble constant_, Monthly Notices of the Royal Astronomical Society, Volume 471, Issue 4, November 2017, Pages 4946–4955 ([arXiv:1706.09723](https://arxiv.org/abs/1706.09723))
+
+
+
 
 
 
