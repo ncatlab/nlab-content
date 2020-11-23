@@ -63,6 +63,9 @@ Original discussion of the relation between equivariant bordism classes of manif
 
 * [[Bernhard Hanke]], _Geometric versus homotopy theoretic equivariant bordism_, Math. Ann. 332, 677–696 (2005) ([arXiv:math/0412550](https://arxiv.org/abs/math/0412550), [doi:10.1007/s00208-005-0648-0](https://doi.org/10.1007/s00208-005-0648-0))
 
+Survey:
+
+* {#Schwede15} [[Stefan Schwede]], _Equivariant bordism from the global perspective_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/glasgow-handout.pdf), [[SchwedeGlobalEquivariantBordism.pdf:file]])
 
 Discussion in [[global equivariant homotopy theory]] is in 
 
