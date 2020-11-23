@@ -1,6 +1,30 @@
 [[!redirects Hubble constant]]
 
-## Reference
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Related concepts
+
+* [[dark energy]]
+
+* [[inhomogeneous cosmology]]
+
+  [[KBC void]]
+
+
+## References
 
 ### General
 
@@ -9,6 +33,7 @@ See also
 * Wikipedia, _[Hubble's law](https://en.wikipedia.org/wiki/Hubble%27s_law)_
 
 ### Possible tension of model with observation
+ {#H0TensionReferences}
 
 Possible tensions in the [[standard model of cosmology]], regarding determination of the [[Hubble constant]] in the early and late universe, apparently observed by various groups, since the late 2010s:
 
