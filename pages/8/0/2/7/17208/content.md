@@ -81,7 +81,7 @@ The following equivalent characterizations are immediate but useful:
 +-- {: .num_prop #ComplexProjectiveSpaceAsGrassmannian}
 ###### Proposition
 
-For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the complex [[Grassmannian]]
+For $n \in \mathbb{N}$, we have that complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the complex [[Grassmannian]]
 
 $$
   \mathbb{C}P^n \simeq Gr_1(\mathbb{C}^{n+1})
