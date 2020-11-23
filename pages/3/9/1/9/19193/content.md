@@ -50,6 +50,8 @@ See also [Illustris Project Website](#IllustrisProjectWebsite): _[What are we le
 
 * [[inhomogeneous cosmology]]
 
+  [[KBC void]]
+
 * [[observable universe]]
 
 * [[QCD cosmology]]
