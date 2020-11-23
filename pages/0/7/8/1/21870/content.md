@@ -18,7 +18,7 @@
 
 In astrophysics/[[cosmology]], the _KBC void_ ([KBC13](#KBC13)) refers to a large neighbourhood of the [[Milky Way]] whose average matter density is considerably smaller than on average in the [[observable universe]].
 
-In the context of [[inhomogeneous cosmology]], this means that the [[Hubble constant]] effectively observed inside the void appears larger than that given by the [[cosmological constant]] of a large-scale homogeneous [[FRW model]]. It has been suggested that this might explain away the need for the [[dark energy]] hypothesis, or at least help explain recent tensions in different measurements of the [[Hubble constant]], but the issue remains debated.
+In the context of [[inhomogeneous cosmology]], this means that the [[Hubble constant]] effectively observed inside the void appears larger than that given by the [[cosmological constant]] of a large-scale homogeneous [[FRW model]]. It has been suggested that this might explain away the need for the [[dark energy]] hypothesis, or at least help explain recent tensions in different measurements of the [[Hubble constant]], but the issue remains debated ([Wu-Huterer 17](#WuHuterer17)).
 
 ## Related concepts
 
@@ -33,6 +33,10 @@ Due to
 See also:
 
 * Wikipedia, _[KBC void](https://en.m.wikipedia.org/wiki/KBC_Void)
+
+Discussion in view of the observed [[Hubble constant]]:
+
+* {#WuHuterer17} Hao-Yi Wu, Dragan Huterer, _Sample variance in the local measurements of the Hubble constant_, Monthly Notices of the Royal Astronomical Society, Volume 471, Issue 4, November 2017, Pages 4946–4955 ([arXiv:1706.09723](https://arxiv.org/abs/1706.09723))
 
 Discussion in view of [[MOND]]:
 
