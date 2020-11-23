@@ -482,6 +482,9 @@ Further discussion for [[M2-branes]]:
 
 * Harvendra Singh, _M2-branes on a resolved $\mathbb{C}^4/\mathbb{Z}_4$_, 	JHEP 0809:071, 2008 ([arXiv:0807.5016](https://arxiv.org/abs/0807.5016))
 
+* Chethan Krishnan, Carlo Maccaferri, Harvendra Singh, _M2-brane Flows and the Chern-Simons Level_, JHEP 0905:114, 2009 ([arXiv:0902.0290](https://arxiv.org/abs/0902.0290))
+
+
 
 
 
