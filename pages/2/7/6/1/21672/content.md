@@ -196,3 +196,5 @@ Our group does not receive any outside assistance. Since the process of maintain
 
 
 [[!redirects Math-Phys-Cat Group]]
+
+category: people
