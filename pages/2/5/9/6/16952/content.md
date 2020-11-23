@@ -66,7 +66,7 @@ Since by the [[Brown representability theorem]], in the absence of a group actio
 
 ## Definition
 
-For $X$ a $G$-[[equivariant spectrum]] modeled as an [[orthogonal spectrum]] equipped with a $G$-[[action]], and for $V$ a linear $G$-[[representation]] on a real [[vector space]] of [[dimension]] $n$, then the value of $X$ in $RO(G)$-degree $V$ is
+For $X$ a $G$-[[equivariant spectrum]] modeled as an [[orthogonal spectrum]] equipped with a $G$-[[action]] for a finite group $G$, and for $V$ a linear $G$-[[representation]] on a real [[vector space]] of [[dimension]] $n$, then the value of $X$ in $RO(G)$-degree $V$ is
 
 $$
   X(V)
