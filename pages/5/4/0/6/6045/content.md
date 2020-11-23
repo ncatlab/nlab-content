@@ -27,6 +27,10 @@ Commonly considered are lifts through the [[Whitehead tower]] of the [[orthogona
 
 etc.
 
+## Examples
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
 
 ## References
 
