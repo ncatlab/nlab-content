@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Manifolds and cobordisms
+#### Cobordism theory
 +--{: .hide}
-[[!include manifolds and cobordisms - contents]]
-=--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
+[[!include cobordism theory -- contents]]
 =--
 =--
 =--
