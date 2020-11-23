@@ -207,10 +207,10 @@ $$
 where
 
 $$
-  r = {\vert z_{n+2}\vert}\in [0,1) \subset \mathbb{C}
+  r = {\vert z_{n+2}\vert}\in [0,1] \subset \mathbb{C}
 $$
 
-is the [[absolute value]] of $z_{n+2}$. Representatives $\vec z'$ of this form (${\vert \vec z' \vert = 1}$ and $z'_{n+2} \in [0,1]$) parameterize the [[n-disk|2n+2-disk]] $D^{2n+2}$  with [[boundary]] the $(2n+1)$-sphere at $r = 0$. 
+is the [[absolute value]] of $z_{n+2}$. Representatives $\vec z'$ of this form (${\vert \vec z' \vert = 1}$ and $z'_{n+2} \in [0,1]$) parameterize the [[n-disk|2n+2-disk]] $D^{2n+2}$,  with [[boundary]] being the $(2n+1)$-sphere at $r = 0$. 
 
 The resulting function $q \colon D^{2n+2} \to \mathbb{C}P^{n+1}$ is continuous: It may be factored as
 
@@ -220,10 +220,11 @@ $$
     \\
     & (Re(z_1), Im(z_1),  \cdots, Re(z_{n+1}), Im(z_{n+1}), r) &\mapsto& (z_1, \cdots, z_{n+1}, r)  &\mapsto& [ z_1 : \cdots : z_{n+1} : r ]
   }
+  \,.
 $$
 
-and here the first map is the [[embedding of topological spaces|embedding]] of the disk $D^{2n+2}$ as a [[hemisphere]] in $\mathbb{R}^{2n+1} \hookrightarow \mathbb{R}^{2n+2} \simeq \mathbb{C}^{2n+2}$, while the second is the defining quotient space projection.
-Both of these are continuous, and hence so is their composite.
+Here the first map is the [[embedding of topological spaces|embedding]] of the disk $D^{2n+2}$ as a [[hemisphere]] in $\mathbb{R}^{2n+1} \hookrightarow \mathbb{R}^{2n+2} \simeq \mathbb{C}^{2n+2}$, while the second is the defining quotient space projection.
+Both of these mare are evidently continuous, and hence so is their composite.
 
 The only remaining part of the action of $\mathbb{C}-\{0\}$ which fixes the conditions ${\vert z'\vert} = 0$ and $z'_{n+2}$ is 
 $S^1 \subset \mathbb{C} \setminus \{0\}$ acting on the elements with $ r = \{z'_{n+2}\} = 0$ by phase shifts on the $z_0, \cdots, z_{n+1}$. 
