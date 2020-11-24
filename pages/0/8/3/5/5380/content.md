@@ -73,18 +73,16 @@ For $R$ a commutative $k$-algebra, there is a [[natural isomorphism]] between
 The proof is spelled out at _[[affine line]]_.
 
 
-### Real and complex projective space
+### Real, complex and projective space
  {#RealAndComplexProjectiveSpace}
 
 We discuss how complex projective space for $k$ the [[real numbers]] or the [[complex numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]] is a [[topological manifold]] and naturally carries the structure of a [[smooth manifold]] (prop. \ref{SmoothManifoldRealComplexProjectiveSpace} below).
 
-* For $\mathbb{R}P^n$ is called _[[real projective space]]_,
+* $\mathbb{R}P^n$ is called _[[real projective space]]_,
 
 * $\mathbb{C}P^n$  is called _[[complex projective space]]_,
 
   * $\mathbb{C}P^1$ is called the [[Riemann sphere]].
-
-similarly
 
 * $\mathbb{H}P^n$ is called _[[quaternionic projective space]]_.
 
@@ -230,6 +228,7 @@ hence is a [[cylinder]] $B^\circ_x(\epsilon)\vert_{S^{2n+1}} \times (\mathbb{C} 
 
 +-- {: .num_prop #CellComplexStructureOnTopologicalProjectiveSpace}
 ###### Proposition
+**([[cell structure of K-projective space]])**
 
 There is a [[CW-complex]] structure on [[real projective space]] $\mathbb{R}P^n$ (def. \ref{TopologicalProjectiveSpace}) for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{R}P^{n+1}$ arises from $\mathbb{R}P^n$ by attaching a single cell of dimension $n+1$ with attaching map the [[projection]] $S^{n} \longrightarrow \mathbb{C}P^n$ from prop. \ref{QuotientOfnSphereTopologicalProjectiveSpace}:
 
