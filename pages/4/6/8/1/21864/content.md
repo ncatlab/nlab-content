@@ -2,8 +2,8 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Linguistics
-[[!include linguistics - contents]]
 +-- {: .hide}
+[[!include linguistics - contents]]
 =--
 =--
 =--
@@ -30,7 +30,7 @@ The construction of $\to_R^*$ can be seen as the free [[preorder|preordered]] [[
 
 ## Other frameworks
 
-[[context free grammar|Context free grammars]] are defined in the same way as unrestricted grammars, but they only allow rules with a single non-terminal symbol as domain. In that particular case, the grammatical derivations are trees with the start symbol as root and the words as leaves.
+[[context free grammar|Context free grammars]] are defined in the same way as unrestricted grammars, but they only allow rules with a single non-terminal symbol as domain. In that particular case, the grammatical derivations are [[tree|trees]] with the start symbol as root and the words as leaves.
 
 In [[categorial grammar|categorial grammars]], monoidal categories are replaced by [[biclosed monoidal category]]. The derivations are trees with two kinds of rules: 1) a finite language-dependent _dictionary_ of rules $w \to t$ with $w \in V$ and $t \in F(X)$, for $F(X)$ the free residuated monoid (see [Lambek (1958)](#Lambek58)) and 2) an infinite number of language-agnostic rules, for the application of each [[higher order logic|higher order type]].
 
