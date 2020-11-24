@@ -28,6 +28,7 @@ These are cofibrant spaces used in $G$-[[equivariant homotopy theory]].
 ## Examples
 
 ### $G$-Manifolds
+  {#GManifolds}
 
 The _[[equivariant triangulation theorem]] says that
 if a [[compact Lie group]] $G$ acts on a [[compact topological space|compact]] [[smooth manifold]] $X$, then the manifold admits an [[equivariant triangulation]]. In particular it thus has the structure of a G-CW complex. 
