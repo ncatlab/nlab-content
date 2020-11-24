@@ -25,7 +25,7 @@
 
 For a suitable [[linear operator]] $H$ (say on [[section]] of a [[line bundle]] over a [[Riemann surface]]), its _zeta function_ is the [[analytic continuation]] of the [[trace]]
 
-$$ze
+$$
   \zeta_H(s) \coloneqq Tr(H^{-s})
 $$
 
@@ -57,7 +57,7 @@ $$
   \begin{aligned}
     \zeta_H(s) 
     & \coloneqq 
-    tr( H^{-s} )
+    Tr( H^{-s} )
     \\
     & \coloneqq
     \underoverset{n = 1}{\infty}{\sum} \frac{1}{(\lambda_n)^s}
