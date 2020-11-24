@@ -29,6 +29,9 @@ Morally, this should actually be an [[(∞,2)-category]], just as [[Topos]] is a
 
 ## Properties
 
+In the following, $(\infty,1)Cat$ will refer to the (superlarge)
+$(\infty,1)$ category of _large_ $(\infty, 1)$-categories.
+
 ### Existence of sites of definition
   {#SitesOfDefinition}
 
@@ -45,28 +48,14 @@ We discuss existence of [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s in $(\infty,
 The $(\infty,1)$-category $(\infty,1)Topos$ has all small $(\infty,1)$-colimits and functor
 
 $$
-  (\infty,1)Topos \to (\infty,1)Cat
-$$
-
-preserves these.
-
-=--
-
-This is [[Higher Topos Theory|HTT, prop. 6.3.2.3]].
-
-
-+-- {: .num_prop}
-###### Proposition
-
-The $(\infty,1)$-category $(\infty,1)Topos$ has all small $(\infty,1)$-colimits and the inclusion
-
-$$
   (\infty,1)Topos^{op} \to (\infty,1)Cat
 $$
 
-sends [[(∞,1)-limits]] to [[(∞,1)-limits]].
+preserves small limits.
 
 =--
+
+This is [[Higher Topos Theory|HTT, prop. 6.3.2.3]]. In the notation there, $LTop$ is the $(\infty,1)$-category of toposes whose arrows are the inverse image morphisms, and thus opposite to $(\infty,1)Topos$.
 
 
 +-- {: .num_prop}
@@ -234,6 +223,27 @@ is an [[(∞,1)-pullback]] square.
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 6.3.4.6]].
+
+### Colimits of over-topsoes
+ {#ColimitsOfOverToposes}
+
++-- {: .num_prop}
+###### Proposition
+
+For any $(\infty,1)$ topos $\mathbf{H}$, there is a colimit preserving functor $\mathbf{H} \to (\infty,1)Topos$ sending an object $X$ to its over-topos $\mathbf{H}_{/X}$, and sending an arrow $f : X \to Y$ to the essential geometric morphism $f_* : \mathbf{H}_{/X} \to \mathbf{H}_{/Y}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+[[Higher Topos Theory|HTT, Prop. 6.1.3.9]] implies the "terminal vertex" Cartesian fibration $\mathbf{H}^{[1]} \to \mathbf{H}$ is classified by a limit preserving functor $\mathbf{H}^{op} \to Pr^L$, the $(\infty,1)$-category of locally presentable $(\infty,1)$-categories and colimit-preserving functors between them.
+
+This functor factors through the subcategory $(\infty,1)Topos^{op} \subseteq Pr^L$ that sends a geometric morphism to its inverse image part. By [HTT, Prop. 6.3.2.3] and [HTT, Prop. 5.5.1.13], it follows that this is also a limit preserving functor.
+
+The opposite category is then formed by taking right adjoints.
+
+=--
 
 ## Related concepts
 
