@@ -65,7 +65,7 @@ $$
 
 This is known as the [[Maurer-Cartan equation]].
 
-Synthetically this is just a restatement of the fact that for $x,y \in G$ there is a _unique_ group element such that $y = x \cdot g$: therefor for three points $x,y,z$ we have
+Synthetically this is just a restatement of the fact that for $x,y \in G$ there is a _unique_ group element such that $y = x \cdot g$: therefore for three points $x,y,z$ we have
 
 $$
   \array{
