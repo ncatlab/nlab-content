@@ -48,6 +48,9 @@ The [[theory]] $T$ that we are modelling is exhibited by its syntactic category 
 [[Mike Shulman]]: Not quite.  First of all, the definition officially happens at the more general level of structures rather than models, but we can of course consider those as models for the empty theory.  And whether we need finite-limit categories and functors, or something else like regular ones, geometric ones, or Heyting ones, depends on what fragment of logic we consider our (possibly empty) theories as living in.  Your rephrasing is correct if we mean finitary first-order theories and therefore [[Heyting categories]] and Heyting functors.  Otherwise, the syntactic category $Syn(T)$ won't have the structure required to construct $[\varphi]$, and the structure wouldn't be preserved by the functors into $C$, so that we wouldn't even have naturality squares to ask to commute (I alluded to this in the last sentence above).
 
 I think I didn't explain this very well, but I have to go now, I'll try to come back to it later and rewrite it to make more sense.
+
+[[Peter Arndt]]: Regarding the statement "this square need not even commute": this suggests that the upper arrow is something that we know to define, but the issue is rather that the restriction of the given morphism to the upper left corner might not factor through the upper right corner. For example given a ring homomorphism $f: R \to S$, we don't necessarily get an induced map $\{x \in R \mid \not \exists y: xy=1\} \to \{x \in S \mid  \not \exists y: xy=1 \}$ because non-units can become units in the codomain ring. 
+
 =-- 
 
 In practice, it is also useful to separate out the weaker notion of **embedding**. 
