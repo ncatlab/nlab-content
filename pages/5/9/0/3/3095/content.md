@@ -23,9 +23,12 @@ Linguists may deploy formal methods to analyse the syntax of natural language.
 
 [[formal grammar|Formal grammars]] characterize which strings of words are considered grammatical, they come in many different flavours:
 
-* [[context free grammar]]
-* [[categorial grammar]]
+* [[context-free grammar]]
 * [[pregroup grammar]]
+* [[categorial grammar]]
+* [[mildly context-sensitive grammar]]
+* [[context-sensitive grammar]]
+* [[formal grammar#unrestrictedgrammar|unrestricted grammar]]
 
 These different frameworks come in a hierarchy of expressive power, see [[Chomsky hierarchy]].
 
