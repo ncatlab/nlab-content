@@ -9,6 +9,8 @@
 
 * [[transcendental grammar]]
 
+* [[language game]]
+
 ### [[mathematical linguistics|Mathematical linguistics]]
 
 * [[language]]
@@ -21,11 +23,18 @@
 
 * [[formal grammar]]
 
+* [[regular language]]
+
 * [[context-free grammar]]
+
+* [[pregroup grammar]]
 
 * [[categorial grammar]]
 
-* [[pregroup grammar]]
+* [[mildly context-sensitive grammar]]
+
+* [[context-sensitive grammar]]
+
 
 
 #### [[semantics|Semantics]]
