@@ -1,0 +1,244 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contemts#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[projective spaces]] over the [[real numbers]], [[complex numbers]] and [[quaternions]] admit, respectively, [[CW-complex|CW-]]-[[cell complex]] [[mathematical structure|structure]] with a single cell in each dimension $k$, $2 k$ or $4 k$, respectively.
+
+## Preliminaries
+
+
+Let $\mathbb{K} \,\in\, \big\{ \mathbb{R}, \mathbb{C}, \mathbb{H} \big\}$
+be one of the [[associative algebra|associative]] [[real normed division algebras]], hence either the [[real numbers]], or the [[complex numbers]] or the [[quaternions]]. We regard this as a [[topological ring]] with respect to the canonical underlying [[topological space|topology]] of the [[Euclidean space]] $\mathbb{R}^{ dim_{_{\mathbb{R}}}(\mathbb{K}) }$.
+
+For $n \in \mathbb{N}$, consider
+
+$$
+  \mathbb{K}P^n 
+  \;\;
+  \coloneqq
+  \;\;
+  \big(
+    \mathbb{K}^{n+1} \setminus \{0\}
+  \big) / \mathbb{K}^\times
+$$
+
+the $\mathbb{K}$-[[projective space]], i.e. the [[topological space|topological]] [[quotient space]] of the [[complement]] of zero in the $n+1$-fold [[Cartesian product]] of $\mathbb{K}$ by the right (say) [[multiplication]] [[action]] by the [[group of units]] $\mathbb{K}^\times \,=\, \mathbb{K} \setminus \{0\}$.
+
+Notice the canonical [[topological subspace|subspace]] inclusion
+
+$$
+  \array{
+    \mathbb{K}P^n
+    &\hookrightarrow&
+    \mathbb{K}P^{n+1}
+    \\
+    \big[
+      z_0 \,:\, \cdots \,:\, z_n
+    \big]
+    &\mapsto&
+    \big[
+      z_0 \,:\, \cdots \,:\, z_n \,:\, 0
+    \big]
+    \,.
+  }
+$$
+
+with induced [[complement]] $\mathbb{K}P^{n+1} \setminus \mathbb{K}P$ with [[topological boundary]]
+
+$$
+  \partial
+  \big(
+    \mathbb{K}P^{n+1} \setminus \mathbb{K}P
+  \big)
+  \;\;
+    \coloneqq
+  \;\;
+  \overline{
+    \big(
+      \mathbb{K}P^{n+1} \setminus \mathbb{K}P
+    \big)
+  }
+  \setminus
+  \big(
+    \mathbb{K}P^{n+1} \setminus \mathbb{K}P
+  \big)
+  \,.
+$$
+
+## Statement
+
++-- {: .num_prop #CellStructureOfKProjectiveSpace} 
+###### Proposition
+**(cell structure of $\mathbb{K}$-projective space)**
+
+We have a [[pushout diagram]] in [in topological spaces](Top#UniversalConstructions) of the form
+
+$$
+  \array{
+    \overline{
+      \mathbb{K}P^{n+1}
+      \setminus
+      \mathbb{K}P^n
+    }
+    &\longrightarrow&
+    \mathbb{K}P^{n+1}
+    \\
+    \big\uparrow
+    &{}_{^{(po)}}&
+    \big\uparrow
+    \\
+    \partial
+    \big(
+      \mathbb{K}P^{n+1}
+      \setminus
+      \mathbb{K}P^n
+    \big)
+    &\longrightarrow&
+    \mathbb{K}P^n
+  }
+  \;\;\;\;\;\;\;
+  \simeq
+  \;\;\;\;\;\;\;
+  \array{
+    D^{ (n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) }
+    &\longrightarrow&
+    \mathbb{K}P^{n+1}
+    \\
+    \big\uparrow
+    &{}_{^{(po)}}&
+    \big\uparrow
+    \\
+    S^{ (n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) - 1 }
+    &\longrightarrow&
+    \mathbb{K}P^n
+  }
+$$
+
+exhibiting $\mathbb{K}P^{n+1}$ as the result of an $(n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K})$-[[cell attachment]] to $\mathbb{K}P^{n}$ with [[attaching map]] the canonical projection
+
+$$
+  \array{
+     S^{(n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K})-1}
+     \;\simeq\;
+     \big(
+       \mathbb{K}^{n+1} \setminus \{0\}
+     \big) / \mathbb{R}_+^\times
+     &\longrightarrow&
+     \big(
+       \mathbb{K}^{n+1} \setminus \{0\}
+     \big) / \mathbb{K}^\times
+     \;\simeq\;
+     \mathbb{K}P^n
+     \,.
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe the following [[homeomorphism]]
+
+$$
+  \array{
+    \mathbb{K}P^{n+1} \setminus \mathbb{K}P^n
+    &\overset{\;\;\;\simeq\;\;\;}{\longrightarrow}&
+    Int
+    \big(
+      D^{(n+1) dim_{{}_{\mathbb{R}}}(\mathbb{K})}
+    \big)
+    \,\simeq\,
+    \left\{
+      (y_0, \cdots, y_n, r)
+      \,\left\vert\,
+      \array{
+         r \in (0,1] \subset \mathbb{R}\,,
+         \\
+         \left\vert \vec y \right\vert^2 + r^2  = 1 
+      }
+      \right.
+    \right\}
+    & 
+    \subset 
+    \mathbb{K}^{n+2}
+    \\
+    \big[
+      z_0
+      \,\colon\,
+      \cdots
+      \,\colon\,
+      z_n
+      \,\colon\,
+      z_{n+1}
+    \big]
+    &\mapsto&
+    \tfrac{1}{\left\vert \vec z\right\vert}
+    \Big(
+      z_0
+      \cdot
+      \tfrac{ z^\ast_{n+1} }{ \left\vert z_{n+1}\right\vert }
+      \,,\,
+      \cdots
+      \,,\,
+      z_n
+      \cdot
+      \tfrac{ z^\ast_{n+1} }{ \left\vert z_{n+1}\right\vert }
+      \,,\,
+      \left\vert z_{n+1}\right\vert
+    \Big)
+  }
+$$
+
+in terms of which the [[topological boundary]] on the left corresponds to the subspace with $r = 0$ on the right.
+
+With this it is clear that we have [[pushout diagrams]] as claimed on underlying sets. It remains to check that these are also pushouts of topological spaces. See the argument [here](projective+space#CellComplexStructureOnTopologicalProjectiveSpace).
+
+
+
+
+=--
+
++-- {: .num_prop #CellStructureOfKProjectiveSpace} 
+###### Corollary
+**([[CW-complex]]-[[mathematical structure|structure]] on $\mathbb{K}$-[[projective spaces]])**
+
+The $\mathbb{K}$-[[projective spaces]] appear in [[cotowers]]
+
+$$
+  \ast \,\simeq\,
+  \mathbb{K}P^0
+  \overset{\phantom{AAA}}{\hookrightarrow}
+  \mathbb{K}P^1
+  \overset{\phantom{AAA}}{\hookrightarrow}
+  \mathbb{K}P^2
+  \overset{\phantom{AAA}}{\hookrightarrow}
+  \cdots
+  \overset{\phantom{AAA}}{\hookrightarrow}
+  \mathbb{K}P^\infty
+$$
+
+which at each stage $n$ exhibit [[CW-complex]]-[[mathematical structure|structure]] on $\mathbb{K}P^n$ with single cells in degree $k \cdot dim_{\mathbb{R}}(\mathbb{K})$.
+
+
+=--
+
+[[!redirects cell structure of projective space]]
+
+[[!redirects cell structure of K-projective spaces]]
+[[!redirects cell structure of K-projective space]]
+
