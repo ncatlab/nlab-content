@@ -24,9 +24,9 @@ equivalence [VW94] between several independent definitions, see [Weir (1988)](#W
 Borrowing the definition from [Genkin et al. (2010)](#GenkinEtAl10), a grammar formalism is mildly context-sensitive if the languages it
 generates are [[semilinearity|semilinear]], it is parsable in polynomial time, it contains all context-free languages as well as the following:
 
-* multiple agreement $L1 = { a^n b^n c^n | a, b, c \in V, n \in \mathbb{N} },$
-* crossed dependency $L2 = { a^n b^m c^n d^m | a, b, c, d \in V, m, n \in \mathbb{N} }$,
-* duplication $L3 = {ww | w \in V^\star}$.
+* multiple agreement $L1 = \{ a^n b^n c^n | a, b, c \in V, n \in \mathbb{N} \},$
+* crossed dependency $L2 = \{ a^n b^m c^n d^m | a, b, c, d \in V, m, n \in \mathbb{N} \}$,
+* duplication $L3 = \{ww | w \in V^\star\}$.
 
 ## References
 
