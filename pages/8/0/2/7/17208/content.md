@@ -170,6 +170,7 @@ The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassm
 
 +-- {: .num_prop #CellComplexStructureOnComplexProjectiveSpace}
 ###### Proposition
+**([[cell structure of projective spaces]])**
 
 There is a [[CW-complex]] structure on complex projective space $\mathbb{C}P^n$ (def. \ref{ComplexProjectiveSpace}) for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by [[attaching space|attaching]] a single cell of dimension $2(n+1)$ with [[attaching map]] the [[projection]] $S^{2n+1} \longrightarrow \mathbb{C}P^n$ from prop. \ref{ComplexProjectiveSpaceAsS1Quotient}:
 
