@@ -86,7 +86,7 @@ For the special case of $E = $[[KU]] the statement is originally due to
 
 The general result for complex orientation originates in 
 
-* {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610.
+* {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610 ([jstor:2373808](https://www.jstor.org/stable/2373808))
 
 
 Lecture notes include
