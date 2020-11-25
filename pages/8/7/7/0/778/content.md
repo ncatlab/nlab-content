@@ -67,7 +67,7 @@ More precisely, it is shown in [Cohn 13](#Cohn13) that the [[Morita model struct
 
 Historically, dg-categories were introduced in
 
-* [[G. M. Kelly]], _Chain maps inducing zero homology maps_, Proc. Cambridge Philos. Soc. 61 (1965), 847&#8211;854,
+* [[G. M. Kelly]], _Chain maps inducing zero homology maps_, Proc. Cambridge Philos. Soc. **61** (1965), 847&#8211;854, doi:[10.1017/S0305004100039207](https://doi.org/10.1017/S0305004100039207)
 
 whilst their modern development can be traced to
 
