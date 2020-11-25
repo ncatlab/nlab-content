@@ -15,9 +15,9 @@ Andr&#233;-Quillen cohomology is the [[cochain cohomology]] of the [[derived fun
 
 The orginal work comes from two sources, the work of [[Michel André]] and that of [[Dan Quillen]]:
 
-* [[Michel André]], _Methode Simpliciale en Algebre Homologigue et Algebre Commutative_, Springer Lecture Notes in Mathematics, Vol 32, 1967.
+* [[Michel André]], _Méthode simpliciale en algèbre homologique et algèbre commutative_, Springer Lecture Notes in Mathematics, Vol 32, 1967.
 
-* Michel André, _Homologie des algèbre commutatives_ Grundlehren der mathematischen Wissenschaften, Band 206. Springer. 1974
+* Michel André, _Homologie des algèbres commutatives_ Grundlehren der mathematischen Wissenschaften, Band 206. Springer. 1974
 
 and then 
 
