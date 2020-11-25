@@ -1114,3 +1114,9 @@ Formulation in [[homotopy type theory]]:
 
 [[!redirects Eilenberg–Steenrod cohomology theory]]
 [[!redirects Eilenberg–Steenrod cohomology theories]]
+
+[[!redirects Whitehead generalized cohomology]]
+[[!redirects Whitehead generalized cohomology theory]]
+[[!redirects Whitehead generalized cohomology theories]]
+
+
