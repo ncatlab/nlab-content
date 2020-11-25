@@ -172,7 +172,7 @@ For the analogous statement on the equivariant [[Lazard ring]] see [Greenlees 01
 
 * [[tautological equivariant line bundle]]
 
-* [[real oriented cohomology theory]]
+* [[real oriented cohomology theory]], [[quaternionic oriented cohomology theory]]
 
 ## References
 
