@@ -26,7 +26,7 @@ Almost quaternionic structure: [[reduction of structure group|reduction of the s
 
 * [[real structure]], [[complex structure]]
 
-* [[real vector space]], [[complex vector space]]
+* [[real vector space]], [[complex vector space]], [[quaternionic vector space]]
 
 ## References
 
