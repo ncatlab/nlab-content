@@ -56,7 +56,11 @@ In [[physics]] ([[string theory]]) where ([[gauge field|gauge]]) [[field (physic
 
 ## Related concepts
 
+* [[complex oriented cohomology theory]], [[quaternionic oriented cohomology theory]]
+
 * [[equivariant complex oriented cohomology theory]]
+
+\linebreak
 
 [[!include chromatic tower examples - table]]
 
