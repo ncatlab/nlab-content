@@ -5,6 +5,15 @@
 
 ## Selected writings
 
+On the [[symplectic cobordism ring]]:
+
+* [[Stanley Kochman]], _The symplectic cobordism ring I_, Memoirs of the American Mathematical Society 1980, Volume 24, Number 271 ([doi:10.1090/memo/0271](http://dx.doi.org/10.1090/memo/0271))
+
+* [[Stanley Kochman]], _The symplectic cobordism ring II_, Memoirs of the American Mathematical Society 1982 
+Volume 40, Number 271 ([doi:10.1090/memo/0271](http://dx.doi.org/10.1090/memo/0271))
+
+
+
 On computation of [[stable homotopy groups of spheres]]:
 
 
