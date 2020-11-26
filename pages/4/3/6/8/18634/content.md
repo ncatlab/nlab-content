@@ -16,6 +16,10 @@ On [[noncommutative geometry]]:
 * [[José Gracia-Bondia]], [[Joseph Varilly]], H&#233;ctor Figueroa, _Elements of noncommutative geometry_, Birkh&#228;user 2001. xviii+685 pp. ([doi:10.1007/978-1-4612-0005-5](https://link.springer.com/book/10.1007/978-1-4612-0005-5), [gBooks](http://books.google.hr/books?id=2yJIwWbh1isC&lpg=PP1&ots=ex0Xfmh_UU&dq=Varilly%20noncommutative&hl=en&pg=PP1#v=onepage&q=Varilly%20noncommutative&f=false))
 
 
+On [[renormalization]] of the [[Higgs field]]'s diphoton decay using [[causal perturbation theory]]:
+
+* [[Pawel Duch]], [[Michael Duetsch]], [[Jose Gracia-Bondia]], _Diphoton decay of the higgs from the Epstein--Glaser viewpoint_ ([arXiv:2011.12675](https://arxiv.org/abs/2011.12675))
+
 ## Related $n$Lab entries
 
 * [[Moyal deformation quantization]]
