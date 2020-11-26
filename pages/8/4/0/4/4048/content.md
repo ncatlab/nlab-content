@@ -55,7 +55,7 @@ Textbook accounts include
 
 * [[Max Kelly]], sect. 1.9 (weak form) and 2.4 (strong from) of _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
 
-* {#Borceux94} [[Francis Borceux]], theorem 6.3.5 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+* {#Borceux94} [[Francis Borceux]], theorem 6.3.5 of _[[Handbook of Categorical Algebra]]_, Volume 2, Cambridge University Press (1994)
 
 
 Generalizations to the case that the enriching monoidal category is not [[closed monoidal category|closed]] or [[symmetric monoidal category|symmetric]] (using [[skew-symmetric category|skew-symmetric categories]] or [[tensored category|tensored categories]]) can be found in 
