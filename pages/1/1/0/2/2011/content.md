@@ -94,9 +94,11 @@ Introductions and monographs:
 
 * {#Benedetti19} Riccardo Benedetti, _Lectures on Differential Topology_ ([arXiv:1907.10297](https://arxiv.org/abs/1907.10297))
 
-Historical survey with connections to [[algebraic topology]]:
+Survey with connections to [[algebraic topology]]:
 
-* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkhauser Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
+* [[Sergei Novikov]], _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
+
+* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
 
 
 See also 
