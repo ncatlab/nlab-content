@@ -357,6 +357,13 @@ The interpretation in terms of [[asymptotic safety]] is discussed in
 
 * {#ShaposhnikovWetterich09} M. Shaposhnikov and C. Wetterich, _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 ([arXiv:0912.0208](https://arxiv.org/abs/0912.0208))
 
+### Diphoton decay
+
+On [[renormalization]] of the [[Higgs field]]'s diphoton decay using [[causal perturbation theory]]:
+
+* [[Pawel Duch]], [[Michael Duetsch]], [[Jose Gracia-Bondia]], _Diphoton decay of the higgs from the Epstein--Glaser viewpoint_ ([arXiv:2011.12675](https://arxiv.org/abs/2011.12675))
+
+
 
 ### Gauge-Higgs unification
 
@@ -437,6 +444,17 @@ and related to the issue of the [[vacuum stability]] in
 which is based on
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 ([doi:0.1088/978-1-6817-4489-6](http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6))
+
+See also
+
+* Lawrence J. Hall, Yasunori Nomura, _Grand Unification and Intermediate Scale Supersymmetry_, JHEP02 (2014) 129 ([arXiv:1312.6695](https://arxiv.org/abs/1312.6695))
+
+* Lawrence J. Hall, Yasunori Nomura, Satoshi Shirai, _Grand Unification, Axion, and Inflation in Intermediate Scale Supersymmetry_ ([arXiv:1403.8138](https://arxiv.org/abs/1403.8138))
+
+
+
+* David Dunsky, Lawrence J. Hall, Keisuke Harigaya, _Dark Matter Detection, Standard Model Parameters, and Intermediate Scale Supersymmetry_ ([arXiv:2011.12302](https://arxiv.org/abs/2011.12302))
+
 
 Discussion in [[holographic QCD]]:
 
