@@ -16,6 +16,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 The origins of [[perturbative quantum field theory]] go back to informal ideas on [[quantum electrodynamics]] due to [[Julian Schwinger]], [[Shin'ichirō Tomonaga]], [[Richard Feynman]] and [[Freeman Dyson]], culminating in the informal idea of "[[renormalization]]" due to ([Dyson 49](#Dyson49)).
 
