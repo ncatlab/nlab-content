@@ -1,3 +1,38 @@
+
+$$
+  \array{
+    S^7 
+      &\longrightarrow& 
+    \ast
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    S^4 
+    &\longrightarrow& 
+    \mathbb{H}P^2
+    &\longrightarrow& 
+    E_4
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    \ast 
+    &\longrightarrow& 
+    S^8
+    &\longrightarrow& 
+    E_8
+  }
+$$
+
+\linebreak 
+
+\linebreak
+
 \begin{tikzcd}
 X \arrow[rdd, "{(id,f)}", bend right] \arrow[rrrd, "f", bend left] \arrow[rd, "\exists ! j", dashed] &                                                                                                                                                          &                                            &                                         \\
                                                                                                      & Z \arrow[d, "\pi_1^Z"] \arrow[r, "\pi_0^Z"] \arrow[dr, phantom, "\lrcorner", very near start]                                                            & Y^I \arrow[d, "e"]                         & Y \arrow[l, "c"'] \arrow[ld, "\Delta"'] \\
