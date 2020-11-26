@@ -12,3 +12,6 @@ On a [[model structure on diffeological spaces]]:
 * [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _A model structure on the category of diffeological spaces_ ([arXiv:1311.5668](https://arxiv.org/abs/1311.5668))
 
 * [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _On homotopy types of diffeological cell complexes_ ([arXiv:1912.05359](https://arxiv.org/abs/1912.05359))
+
+* {#HaraguchiShimakawa20} [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _A model structure on the category of diffeological spaces, I_ ([arXiv:2011.12842](https://arxiv.org/abs/2011.12842))
+
