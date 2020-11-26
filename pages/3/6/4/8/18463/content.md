@@ -8,7 +8,7 @@ The page collects material related to
 
   Annales Poincar&#233; Phys. Theor. A 19 (1973) 211
 
-  ([Numdam](http://www.numdam.org/item?id=AIHPA_1973__19_3_211_0))
+  ([numdam:AIHPA_1973__19_3_211_0](http://www.numdam.org/item?id=AIHPA_1973__19_3_211_0))
 
 on [[renormalization]] of [[quantum field theory]] compatible with [[causal locality]]. The approach came to be known as _[[causal perturbation theory]]_ (see there for more). Its generalization to [[quantum field theory on curved spacetimes]] is known as _[[locally covariant perturbative quantum field theory]]_.
 
