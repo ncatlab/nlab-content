@@ -17,7 +17,7 @@ As a model for an [[(∞,1)-category]] a [[simplicially enriched category]] may 
 
 ## The Quillen equivalence between the Joyal model structure and the Dwyer–Kan–Bergner model structure
 
-Our notation follows \cite{Bergner}.
+Our notation follows ([Bergner](#Bergner)).
 
 There is a [[Quillen equivalence]] (due to Joyal (unpublished) and Lurie)
 $$SC \stackrel{\overset{\mathfrak{C}}{\leftarrow}}{\underset{\tilde N}{\to}} sSet.$$
