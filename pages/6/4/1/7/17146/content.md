@@ -39,6 +39,8 @@ Textbook accounts include
 
 * [[Robert Stong]], _Notes on cobordism theory_ , Princeton Univ. Press  (1968) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stongcob.pdf))
 
+* [[Sergei Novikov]], Section 4.3 in: _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
+
 * {#Kochmann96} [[Stanley Kochman]], chapters I and IV of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
