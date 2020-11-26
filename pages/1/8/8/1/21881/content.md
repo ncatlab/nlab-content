@@ -217,7 +217,7 @@ $$
 
 is the [[obstruction]] to the existence of the extension/orientation at this stage. 
 
-It follows that if these obstructions all vanish, then a complex $E$-orientation does exist.  A sufficient condition for this is, evidently, that the [[reduced cohomology|reduced]] $E$-cohomology of all $(4n-1)$-dimensional spheres vanishes.
+It follows that if these obstructions all vanish, then a quaternionic $E$-orientation does exist.  A sufficient condition for this is, evidently, that the [[reduced cohomology|reduced]] $E$-cohomology of all $(4n-1)$-dimensional spheres vanishes.
 
 =--
 
