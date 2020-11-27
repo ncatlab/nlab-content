@@ -45,7 +45,7 @@ See also at _[[cell structure of projective spaces]]_.
 
 ## References
 
-* {#Lackman19} Malte Lackmann, _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
+* {#Lackman19} [[Malte Lackmann]], _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
 
 See also
 
@@ -56,8 +56,6 @@ See also
 [[!redirects octonionic projective line]]
 [[!redirects octonionic projective lines]]
 
-[[!redirects octonionic projective plane]]
-[[!redirects octonionic projective planes]]
 
 [[!redirects octonion projective spaces]]
 [[!redirects octonion projective spaces]]
@@ -65,8 +63,6 @@ See also
 [[!redirects octonion projective line]]
 [[!redirects octonion projective lines]]
 
-[[!redirects octonion projective plane]]
-[[!redirects octonion projective planes]]
 
 
 
