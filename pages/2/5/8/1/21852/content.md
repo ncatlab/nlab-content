@@ -20,7 +20,7 @@
 
 ## Idea
 
-Since [[Calabi-Yau manifolds]] have, in particular [[special unitary group|SU]]-[[G-structure|structure]], they represent classes in [[SU-bordism theory]]. In fact, _all_ non-[[torsion element|torsion]] $SU$-bordism classes are represented by products of linear combinations of classes of  Calabi-Yau manifolds, and at least those in degree $\leq 8$ are given by linear combinations of classes of [[CYs]], in particular by the [[K3-surface]] in degree (real dimension) 4.
+Since [[Calabi-Yau manifolds]] have, in particular [[special unitary group|SU]]-[[G-structure|structure]], they represent classes in [[SU-bordism theory]]. In fact, _all_ non-[[torsion element|torsion]] $SU$-bordism classes are represented by products of linear combinations of classes of  Calabi-Yau manifolds. Those in degree $4$ are spanned by the [[K3-surface]].
 
 ## Preliminaries
 
