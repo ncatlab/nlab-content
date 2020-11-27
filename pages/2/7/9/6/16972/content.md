@@ -248,13 +248,11 @@ See also at _[[equivariant stable cohomotopy]]_
 
 ## Related concepts
 
-* [[real Hopf fibration]]
-
-* [[complex Hopf fibration]]
-
-* [[octonionic Hopf fibration]]
+* [[real Hopf fibration]], [[complex Hopf fibration]], [[octonionic Hopf fibration]]
 
 * [[Calabi-Penrose fibration]]
+
+* [[quaternionic projective space]]
 
 ## References
 
