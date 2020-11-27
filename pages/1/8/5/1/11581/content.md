@@ -54,9 +54,9 @@ Relation to [[quantum error correction]]:
 
 * [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
 
-Relation to [[bosonic M-theory]]:
+Possible relation to [[bosonic M-theory]]:
 
-* Alessio Marrani, Michael Rios, David Chester, _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
+ [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
 
 
 
