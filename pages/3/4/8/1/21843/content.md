@@ -89,6 +89,7 @@ $$
 (due to [Novikov 62](#Novikov62), review in [LLP 17, Thm. 1.2](#LLP17))
 
 ### Relation to Calabi-Yau manifolds
+ {#RelationToCalabiYauManifolds}
 
 We discuss the classes of [[Calabi-Yau manifolds]] in the [[SU-bordism ring]]. For more see at _[[Calabi-Yau manifolds in SU-bordism theory]]_.
 
