@@ -127,6 +127,7 @@ be a map. Then its $E$-Hopf invariant "is" the following [[homotopy coherent dia
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
+[[HopfInvariantPastingDiagram.jpg:file]]
 
 * the top square is defined to be a [[homotopy pushout]], exhibiting the [[attaching space]] $C_f$;
 
