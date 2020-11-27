@@ -27,7 +27,7 @@ $$
   \,.
 $$
 
-The [[homotopy cofiber]] of $\phi$ (the [[attaching space]] induced by $f$)
+The [[homotopy cofiber]] of $\phi$ (the [[attaching space]] induced by $\phi$)
 
 $$
   cofib(\phi) \simeq S^n \underset{S^{2n-1}}{\cup} D^{2n}
