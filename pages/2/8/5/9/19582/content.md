@@ -97,6 +97,18 @@ See ([Blencowe-Duff 88, section 7](#BlencoweDuff88), [Hewson-Perry 96](#HewsonPe
 
 * {#Kriz05} [[Igor Kriz]], _Some remarks on fundamental physical F-theory_, ([arXiv:hep-th/0508046](https://arxiv.org/abs/hep-th/0508046))
 
+
+### In bosonic M-theory
+
+On organizing all these variants inside [[bosonic M-theory]] and [[KK-reduction]] on [[Cayley planes]] to actual [[M-theory]]:
+
+
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_, Phys. Lett. B, 808, (2020)
+([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
+
+
+
+
 [[!redirects 12d supergravity]]
 
 
