@@ -16,7 +16,9 @@
 
 ## Idea
 
-The [[projective spaces]] over the [[real numbers]], [[complex numbers]] and [[quaternions]] admit, respectively, [[CW-complex|CW-]]-[[cell complex]] [[mathematical structure|structure]] with a single cell in each dimension $k$, $2 k$ or $4 k$, respectively.
+The [[projective spaces]] over [[ground ring]] $\mathbb{K}$ being the [[real numbers]] $\mathbb{R}$, [[complex numbers]] $\mathbb{C}$, [[quaternions]] $\mathbb{H}$ or [[octonions]] $\mathbb{O}$ admit, respectively, [[CW-complex|CW-]]-[[cell complex]] [[mathematical structure|structure]] with a single cell in each dimension $k$, $2 k$, $4 k$ or $8k$, respectively.
+
+We discuss the cases $\mathbb{K} \,\in\, \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$. For the case $\mathbb{K} \,=\, \mathbb{O}$ see [Lackman 19, Lemma 3.4](#Lackman19)
 
 ## Preliminaries
 
@@ -236,6 +238,12 @@ which at each stage $n$ exhibit [[CW-complex]]-[[mathematical structure|structur
 
 
 =--
+
+## References
+
+The case of [[octonionic projective space]]:
+
+* {#Lackman19} Malte Lackmann, Lemma 3.4 in: _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
 
 [[!redirects cell structure of projective space]]
 
