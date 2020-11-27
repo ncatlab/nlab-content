@@ -70,6 +70,10 @@ Discussion of the [[Witten genus]] of Cayley plane-[[fiber bundles]] is in
 
 * {#McTague10} [[Carl McTague]], _The Cayley Plane and the Witten Genus_ ([arXiv:1006.0728](http://arxiv.org/abs/1006.0728))
 
+The possibility of a candidate 27-dimensional [[bosonic M-theory]] which is the lift of [[M-theory]] through the Cayley plane is in
+
+* [[Hisham Sati]], _$\mathbb{O}P^2$ bundles in M-theory_, ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
+
 
 [[!redirects Cayley planes]]
 
