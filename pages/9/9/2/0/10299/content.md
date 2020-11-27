@@ -57,6 +57,8 @@ See also at _[[cell structure of projective spaces]]_.
 
 ## References
 
+### General
+
 * {#Lackman19} [[Malte Lackmann]], _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
 
 
@@ -66,13 +68,20 @@ See also:
 
 * Salzmann et. al., *Compact Projective Planes, with an introduction to Octonion Geometry*
 
+### In string theory
+
 Discussion of the [[Witten genus]] of Cayley plane-[[fiber bundles]] is in
 
 * {#McTague10} [[Carl McTague]], _The Cayley Plane and the Witten Genus_ ([arXiv:1006.0728](http://arxiv.org/abs/1006.0728))
 
-The possibility of a candidate 27-dimensional [[bosonic M-theory]] which is the lift of [[M-theory]] through the Cayley plane is in
+Indications that [[M-theory]] in 10+1 dimensions may be understood as the [[KK-compactification]] on Cayley-plane [[fibers]] of some kind of [[bosonic M-theory]] in 26+1 dimensions:
 
-* [[Hisham Sati]], _$\mathbb{O}P^2$ bundles in M-theory_, ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
+* [[Hisham Sati]], _$\mathbb{O}P^2$ bundles in M-theory_, Commun. Num. Theor. Phys 3:495-530,2009 ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
+
+* [[Hisham Sati]], _On the geometry of the supermultiplet in M-theory_, Int. J. Geom. Meth. Mod. Phys. 8 (2011) 1-33 ([arXiv:0909.4737](https://arxiv.org/abs/0909.4737))
+
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_, Phys. Lett. B, 808, (2020)
+([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
 
 
 [[!redirects Cayley planes]]
