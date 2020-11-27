@@ -717,6 +717,8 @@ $$
 
 * [[octonionic Hopf fibration]]
 
+* [[octonionic projective space]]
+
 * [[split octonion]]
 
 [[!include exceptional spinors and division algebras -- table]]
