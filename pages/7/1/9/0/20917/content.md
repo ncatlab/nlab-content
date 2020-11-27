@@ -35,9 +35,13 @@
 
 **[[low dimensional topology|low dimensional]] [[n-spheres]]**
 
+* [[circle]] 
+
+  ([[real projective space]] $\,\mathbb{R}P^1$)
+
 * [[2-sphere]]
 
-  * [[Riemann sphere]]
+  * [[complex projective space]] $\,\mathbb{C}P^1$: [[Riemann sphere]]
 
   * [[geometric quantization of the 2-sphere]]
 
@@ -46,6 +50,8 @@
 * [[3-sphere]]
 
 * [[4-sphere]]
+
+  * [[quaternionic projective space]] $\,\mathbb{H}P^1$
 
   * [[fuzzy 4-sphere]]
 
@@ -56,3 +62,7 @@
 * [[7-sphere]]
 
   * [[exotic 7-sphere]]
+
+* [[8-sphere]]
+
+  * [[octonionic projective space]] $\,\mathbb{O}P^1$
