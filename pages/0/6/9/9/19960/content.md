@@ -939,6 +939,9 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 
 * S. S. Afonin, A. D. Katanaeva, E. V. Prokhvatilov, M. I. Vyazovsky, _Deconfinement temperature in AdS/QCD from the spectrum of scalar glueballs_ ([arXiv:2001.07990](https://arxiv.org/abs/2001.07990))
 
+* Cornélio Rodrigues Filho, _Glueballs in the Klebanov-Strassler Theory: Pseudoscalars vs Scalars_ ([arXiv:2011.12689](https://arxiv.org/abs/2011.12689))
+
+
 
 
 [[!include holographic Schwinger effect -- references]]
