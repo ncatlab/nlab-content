@@ -55,14 +55,15 @@ The really clear term for a spatial locale is 'locale with enough points to sepa
 
 ## Criteria for spatiality
 
-Assuming the [[axiom of choice]], [[locally compact locales]] are spatial.
+1. Assuming the [[axiom of choice]], [[locally compact locales]] are spatial.
 In particular, [[compact regular locales]] are locally compact, hence automatically spatial.
 [[Coherent locales]] are also spatial.
 
-More generally, the meet of a countable family
-of open sublocales (i.e., a $G_\delta$-sublocale) of a [[compact regular locale]] is spatial.
+2. More generally, the meet of a countable family of open sublocales (i.e., a $G_\delta$-sublocale) of a [[compact regular locale]] is spatial.
 
-The completion of a [[uniform locale]] with a countable basis of uniformity is spatial.
+3. The completion of a [[uniform locale]] with a countable basis of uniformity is spatial.
+
+4. [[Stonean local|Stonean locales]] are spatial.
 
 ## Related concepts
 
