@@ -23,6 +23,8 @@ Gromov introduced many techniques of proving the h-principle including the metho
 
 * [[Oka principle]]  
 
+* [[formal immersion of smooth manifolds]]
+
 ## References
 
 * [[eom]]: [H-principle](http://www.encyclopediaofmath.org/index.php/H-principle), [convex integration](http://www.encyclopediaofmath.org/index.php/Convex_integration); wikipedia: [homotopy principle](https://en.wikipedia.org/wiki/Homotopy_principle)
@@ -36,10 +38,10 @@ Gromov introduced many techniques of proving the h-principle including the metho
 * [[John Francis]], _[The h-principle in topology](https://sites.math.northwestern.edu/~jnkf/classes/hprin/)_ (overview [pdf](https://sites.math.northwestern.edu/~jnkf/classes/hprin/1overview.pdf))
 
 
-
-
 * Andr&#233;s Angel, Johannes Ebert, _Gromov's h-principle and its applications research seminar_, 2010, outline [pdf](http://wwwmath.uni-muenster.de/u/jeber_02/frueherelehre/hprinciple.pdf) (with useful bibliography)
+
 * [London h-principle learning seminar](https://www.mathematik.hu-berlin.de/~wendl/h-principle.html)
 
+* [[Konrad Voelkel]], Helene Sigloch, _Homotopy sheaves and h-principles_, ([pdf](https://www.konradvoelkel.com/wp-content/uploads/homotopy-sheaves.pdf))
 
 [[!redirects homotopy principle]]
