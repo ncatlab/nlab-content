@@ -163,22 +163,7 @@ $$
 
 ## Related concepts
 
-
-* [[2-sphere]]
-
-* [[3-sphere]]
-
-* [[4-sphere]]
-
-* [[6-sphere]]
-
-* 7-sphere
-
-  [[exotic 7-sphere]]
-   
-* [[n-sphere]]
-
-
+[[!include spheres -- contents]]
 
 ## References
 
