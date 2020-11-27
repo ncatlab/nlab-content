@@ -22,21 +22,22 @@
 
 For $n \in \mathbb{N}$ with $n \gt 1$, consider [[continuous functions]] between [[spheres]] of the form
 
-$$
-  \phi \;\colon\; S^{2n-1} \longrightarrow S^n
+\[
+  \label{TheMap}
+  f \;\colon\; S^{2n-1} \longrightarrow S^n
   \,.
-$$
+\]
 
-The [[homotopy cofiber]] of $\phi$ (the [[attaching space]] induced by $\phi$)
+The [[homotopy cofiber]] of $f$ (the [[attaching space]] induced by $f$)
 
 $$
-  cofib(\phi) \simeq S^n \underset{S^{2n-1}}{\cup} D^{2n}
+  C_f \;\coloneqq\; S^n \underset{S^{2n-1}}{\cup} D^{2n}
 $$
 
 has [[ordinary cohomology]] 
 
 $$
-  H^k(cofib(\phi), \mathbb{Z})
+  H^k(C_f, \mathbb{Z})
   \simeq
   \left\{
     \array{  
@@ -48,27 +49,38 @@ $$
   \,.
 $$
 
-Hence for $\alpha, \beta$ generators of the cohomology groups in degree $n$ and $2n$ (unique up to choice of sign), respectively, there exists an [[integer]] $h(\phi)$ which expresses the [[cup product]] square of $\alpha$ as a multiple of $\beta$:
+Hence for $\omega_n, \beta_{2n}$ generators of the [[cohomology groups]] in degree $n$ and $2n$ (unique up to choice of sign), respectively, there exists an [[integer]] $HI(f)$ which expresses the [[cup product]] square of $\omega_n$ as a multiple of $\beta_{2n}$:
 
-$$
-  \alpha \cup \alpha = h(\phi) \cdot \beta 
+\[
+  \label{HopfInvariantFormula}
+  \alpha_n \cup \alpha_n \;=\; HI(f) \cdot \beta_{2n} 
   \,.
+\]
+
+This [[integer]] $HI(f) \in \mathbb{Z}$ is called the _Hopf invariant_ of $f$ (e.g. [Mosher-Tangora 86, p. 33](#MosherTangora86)).
+
+
+This depends on the choices made only up to sign. In particular it has a well-defined mod-2 reduction image $[HI(f)] \in \mathbb{F}_2 = \mathbb{Z}/2\mathbb{Z}$ (in [[cyclic group of order 2|Z/2]]), and as such it is the [[Steenrod square]] 
+
 $$
-
-This integer $h(\phi) \in \mathbb{Z}$ is called the _Hopf invariant_ of $\phi$ (e.g. [Mosher-Tangora 86, p. 33](#MosherTangora86)).
-
-
-It depends on the choices made only up to sign. In particular it has a well-defined image $[h(\phi)] \in \mathbb{F}_2 = \mathbb{Z}/2\mathbb{Z}$, and as such it is the [[Steenrod square]] 
-
-$$
-  [h(\phi)] \cdot (-)
+  [HI(f)] \cdot (-)
     \;\colon\; 
   \mathbb{F}_2
-    \simeq
-  H^n(cofib(\phi), \mathbb{F}_2) 
-   \stackrel{Sq^n}{\longrightarrow}
-  H^{2n}(cofib(\phi), \mathbb{F}_2) 
-   \simeq
+  \;\simeq\;
+  H^n
+  \big(
+    C_f;
+    \, 
+    \mathbb{F}_2
+  \big) 
+  \stackrel{Sq^n}{\longrightarrow}
+  H^{2n}
+  \big(
+    C_f;
+    \, 
+    \mathbb{F}_2
+  \big) 
+   \;\simeq\;
   \mathbb{F}_2
   \,.
 $$
@@ -76,7 +88,7 @@ $$
 ### In generalized cohomology
  {#InGeneralizedCohomology}
 
-We give a more abstract picture of the Hopf invariant in abstract [[homotopy theory]].
+Here is a more abstract picture of the Hopf invariant in abstract [[homotopy theory]] (following [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)):
 
 Let $E$ be a [[multiplicative cohomology theory]], assumed to vanish in degree $2n - 1$
 
@@ -108,7 +120,7 @@ $$
   S^{2n-1} \overset{f}{\longrightarrow} S^n
 $$
 
-be a map. Then its $E$-Hopf invariant "is" the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]] of [[pointed homotopy types]]:
+be a map (eq:TheMap). Then its $E$-Hopf invariant "is" the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]] of [[pointed homotopy types]]:
 
 \begin{imagefromfile}
         "file_name": "HopfInvariantPastingDiagram.jpg",
@@ -188,6 +200,25 @@ In the case that the map $f$ is one the classical [[Hopf fibrations]], the [[att
 * for the [[quaternionic Hopf fibration]] $f = h_{\mathbb{H}}$ the attaching space is [[quaternionic projective space]] $\mathbb{H}P^2$ and the choice of homotopy $c$ is a choice of [[quaternionic oriented cohomology theory|quaternionic orientation]] to second stage.
 
 
+{#PastingDiagramForHomotopyWhiteheadIntegral}  Moreover, the de-composition of this [[pasting diagram]] exhibits the [[homotopy Whitehead integral]]/[[functional cup product]]-formula for the Hopf invariant:
+
+\begin{imagefromfile}
+        "file_name": "EWhiteheadIntegralPastingDiagram.jpg",
+        "web": "nlab",
+        "width": 700,
+        "unit": "px",
+        "margin": {
+            "top": -40,
+            "right": 0,
+            "bottom": 20,
+            "left": 20,
+            "unit": "px"
+        },
+        "alt": "homotopy pasting diagram exhibiting the homotopy Whitehead integral",
+        "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
+\end{imagefromfile}
+
+
 
 ## Properties
 
@@ -204,9 +235,9 @@ whose [[image]] contains at least the even integers.
 
 ### Hopf invariant one
 
-Hence a famous open question in the 1950s was for which maps $\phi$ one has Hopf invariant one, $h(\phi) = 1$.
+A famous open question in the 1950s was which maps $f$ (eq:TheMap) have _Hopf invariant one_, namely $[HI(f)] = 1$ (eq:HopfInvariantFormula).
 
-The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) states that the only maps of Hopf invariant one, $h(\phi) = 1$, are the [[Hopf constructions]] on the four real [[normed division algebras]]:
+The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) states that the only maps of Hopf invariant one, $[HI(f)] = 1$, are the [[Hopf constructions]] on the four real [[normed division algebras]]:
 
 * the [[real Hopf fibration]];
 
@@ -224,7 +255,7 @@ The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) sta
 By standard results in [[rational homotopy theory]], every [[continuous function]]
 
 $$
-  S^{4k-1} \overset{\phi}{\longrightarrow} S^{2k}
+  S^{4k-1} \overset{f}{\longrightarrow} S^{2k}
 $$
 
 corresponds to a unique [[dgc-algebra]] [[homomorphism]] 
@@ -234,7 +265,7 @@ $$
   \big( 
     \mathfrak{l}S^{4k-1}
   \big)
-  \overset{ CE(\mathfrak{l}\phi) }{\longleftarrow}
+  \overset{ CE(\mathfrak{l}f) }{\longleftarrow}
   CE
   \big( 
     \mathfrak{l}S^{2k}
@@ -243,7 +274,7 @@ $$
 
 between [[Sullivan models]] [[rational n-sphere|of n-spheres]].
 
-The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is the Hopf invariant $HI(\phi)$ of $\phi$:
+The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}f)$ is the Hopf invariant $HI(f)$ of $f$:
 
 \begin{center}
 \begin{imagefromfile}
