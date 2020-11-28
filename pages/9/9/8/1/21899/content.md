@@ -1,6 +1,10 @@
 
 
-# # Selected writings
+# Selected writings
+
+On [[D=14 supersymmetry]]:
+
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _The Geometry of Exceptional Super Yang-Mills Theories_, Phys. Rev. D 99, 046004 (2019) ([arXiv:1811.06101](https://arxiv.org/abs/1811.06101))
 
 On [[12-dimensional supergravity]] et al. and further indications that [[M-theory]] in 10+1 dimensions may be understood as the [[KK-compactification]] on Cayley-plane [[fibers]] of some kind of [[bosonic M-theory]] in 26+1 dimensions:
 
