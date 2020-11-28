@@ -523,6 +523,8 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 
 ## Related concepts
 
+* [[e-invariant]]
+
 * [[Thom spectra]], [[MO]]
 
 * [[orientation in generalized cohomology]]
@@ -543,7 +545,7 @@ The J-homomorphism was introduced in
 
 * {#Whitehead42} [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942) ([jstor:1968956](http://www.jstor.org/stable/1968956)).
 
-Lecture notes include
+Lecture notes:
 
 * [[Akhil Mathew]], _The Adams conjecture I_ ([web](http://amathew.wordpress.com/2013/01/23/the-adams-conjecture-i/))
 
@@ -552,6 +554,8 @@ Lecture notes include
 * Arpon Raksit, _Vector fields and the J-homomorphism_, 2014 ([pdf](http://stanford.edu/~arpon/math/files/vfields.pdf))
 
 * {#Westerland14} [[Craig Westerland]], _Views on the J-homomorphism_ MSRI talk, 2014 ([recording](https://mathinstitutes.org/videos/videos/1464), [pdf](https://docs.google.com/viewer?url=https://www.msri.org/workshops/685/schedules/17895/documents/1978/assets/20102), [[WesterlandJHomomorphism.pdf:file]])
+
+* [[Gereon Quick]], _The $e$-invariant and the $J$-homomorphism_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariantAndJHomomorphism.pdf:file]])
 
 Discussion in [[higher algebra]] in term of [[(∞,1)-module bundles]] is in
 
@@ -593,9 +597,6 @@ The analysis of the image of $J$ is due to
 
 * {#Adams66} [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
  
-
-
-
 
 
 * {#Quillen71} [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/Quillen.pdf))
