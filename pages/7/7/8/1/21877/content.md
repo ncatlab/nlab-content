@@ -243,7 +243,7 @@ which at each stage $n$ exhibit [[CW-complex]]-[[mathematical structure|structur
 
 The case of [[octonionic projective space]]:
 
-* {#Lackman19} Malte Lackmann, Lemma 3.4 in: _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
+* {#Lackman19} [[Malte Lackmann]], Lemma 3.4 in: _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
 
 [[!redirects cell structure of projective space]]
 
