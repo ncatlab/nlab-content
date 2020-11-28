@@ -59,6 +59,8 @@ See ([Blencowe-Duff 88, section 7](#BlencoweDuff88), [Hewson-Perry 96](#HewsonPe
 
 ## Related concepts
 
+* [[D=11 supergravity]]
+
 * [[F-theory]]
 
 * [[D=14 supersymmetry]]
