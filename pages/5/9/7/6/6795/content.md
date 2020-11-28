@@ -4,6 +4,12 @@
 
 ## Selected writings
 
+On [[D=14 supersymmetry]]:
+
+* [[Ergin Sezgin]], _Super Yang-Mills in $(11,3)$ Dimensions_, 	Phys.Lett. B403 (1997) 265-272 ([arXiv:hep-th/9703123](https://arxiv.org/abs/hep-th/9703123))
+
+* I. Rudychev, [[Ergin Sezgin]], P. Sundell, _Supersymmetry in Dimensions Beyond Eleven_, Nucl. Phys. Proc. Suppl. 68 (1998) 285-294 ([arXiv:hep-th/9711127](https://arxiv.org/abs/hep-th/9711127))
+
 On the [[M2-brane]] via the [[superembedding approach]]:
 
 * {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
