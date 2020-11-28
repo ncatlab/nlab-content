@@ -76,4 +76,11 @@ Discussion via the [[cobordism hypothesis]] with [[fusion categories]] as [[full
 
 * [[Bruce Bartlett]], [[Christopher Douglas]], [[Christopher Schommer-Pries]], [[Jamie Vicary]], _Extended 3-dimensional bordism as the theory of modular objects_ ([arXiv:1411.0945](http://arxiv.org/abs/1411.0945))
 
+
+Constructions in the generality of non-[[semisimple category|semisimple]] [[tensor categories]]:
+
+* Christian Blanchet, Marco De Renzi, _Modular Categories and TQFTs Beyond Semisimplicity_ ([arXiv:2011.12932](https://arxiv.org/abs/2011.12932))
+
+
+
 [[!redirects 3d TQFTs]]
