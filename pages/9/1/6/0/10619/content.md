@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,17 +25,20 @@ The _Adams e-invariant_ ([Adams 66, section 7](#Adams66)) is a collection of [[g
 
 * [[J-homomorphism]]
 
+
 ## References
 
 The definition is due to section 7 of
 
-* [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
- {#Adams66}
+* {#Adams66} [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
+ 
 
 Reviews include
 
-* [[Charles Weibel]], chapter VI, section 2 of _[The K-book](http://www.math.rutgers.edu/~weibel/Kbook.html)_ ([pdf](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.VI.pdf))
- {#Weibel}
+* {#Weibel} [[Charles Weibel]], chapter VI, section 2 of _[The K-book](http://www.math.rutgers.edu/~weibel/Kbook.html)_ ([pdf](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.VI.pdf))
+
+* [[Gereon Quick]], _The $e$-invariant_ ([[QuickEInvariant.pdf:file]])
+ 
 
 * Hiroaki Hamanaka, _Adams $e$-invariant, Toda bracket and $[X, U(n)]$_,  J. Math. Kyoto Univ. Volume 43, Number 4 (2003), 815-827. ([Euclid]( http://projecteuclid.org/euclid.kjm/1250281737))
 
