@@ -21,6 +21,10 @@ The _Adams e-invariant_ ([Adams 66, section 7](#Adams66)) is a collection of [[g
 
 ## Related concepts
 
+* [[Hopf invariant]]
+
+* [[J-homomorphism]]
+
 * [[stable homotopy groups of spheres]]
 
 * [[J-homomorphism]]
@@ -37,7 +41,9 @@ Reviews include
 
 * {#Weibel} [[Charles Weibel]], chapter VI, section 2 of _[The K-book](http://www.math.rutgers.edu/~weibel/Kbook.html)_ ([pdf](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.VI.pdf))
 
-* [[Gereon Quick]], _The $e$-invariant_ ([[QuickEInvariant.pdf:file]])
+* [[Gereon Quick]], _The $e$-invariant_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariant.pdf:file]])
+
+* [[Gereon Quick]], _The $e$-invariant and the $J$-homomorphism_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariantAndJHomomorphism.pdf:file]])
  
 
 * Hiroaki Hamanaka, _Adams $e$-invariant, Toda bracket and $[X, U(n)]$_,  J. Math. Kyoto Univ. Volume 43, Number 4 (2003), 815-827. ([Euclid]( http://projecteuclid.org/euclid.kjm/1250281737))
