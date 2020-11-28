@@ -5,6 +5,8 @@ The term **signature** refers to a number of quite different notions in mathemat
 
 * [[signature of a quadratic form]]
 
+* [[signature of a metric]]
+
 * [[signature (in logic)]]
 
 * [[signature genus]]
