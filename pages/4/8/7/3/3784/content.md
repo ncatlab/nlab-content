@@ -77,6 +77,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 ## Related concepts 
 
+* [[spacetime signature]]
+
 * [[static spacetime]], [[stationary spacetime]]
 
 * [[universal spacetime]]
