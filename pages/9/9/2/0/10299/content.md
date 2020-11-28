@@ -38,7 +38,7 @@ The octonionic projective plane is a non-Desarguesian plane, that is, [[Desargue
 There is a [[homeomorphism]]
 
 $$
-  \mathbb{O}P^2 \,\simeq\, S^{15} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P_1
+  \mathbb{O}P^2 \,\simeq\, S^{15} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P^1
 $$
 
 between the [[octonionic projective plane]] and the [[attaching space]] obtained from the [[octonionic projective line]] along the [[octonionic Hopf fibration]].
