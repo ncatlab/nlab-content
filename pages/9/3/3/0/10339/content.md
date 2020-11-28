@@ -19,7 +19,7 @@
 
 ## Idea
 
-__Lorentzian geometry__ is the [[geometry]] of _[[Minkowski spacetime]]_, hence essentially of a [[Euclidean space]], but equipped not with the standard Euclidean [[Riemannian metric]] of [[signature]] $(+,+,+,\ldots,+)$ (which yields [[Euclidean geometry]]) but with the [[pseudo-Riemannian metric]] of [[signature]] $(-,+,+,\ldots,+)$. This is in particular the context of the [[theory (physics)|theory]] of [[physics]] called "[[theory of special relativity]]", and it is _locally_ the context of the "[[theory of general relativity]]".
+__Lorentzian geometry__ is the [[geometry]] of _[[Minkowski spacetime]]_, hence essentially of a [[Euclidean space]], but equipped not with the standard Euclidean [[Riemannian metric]] of [[spacetime signature]] $(+,+,+,\ldots,+)$ (which yields [[Euclidean geometry]]) but with the [[pseudo-Riemannian metric]] of [[signature]] $(-,+,+,\ldots,+)$. This is in particular the context of the [[theory (physics)|theory]] of [[physics]] called "[[theory of special relativity]]", and it is _locally_ the context of the "[[theory of general relativity]]".
 
 Note that while Lorentzian geometry is analogous to [[Euclidean geometry]] (as [[Minkowski space]] is analogous to a [[Euclidean space]]), a [[Lorentzian manifold]] is analogous to a [[Riemannian manifold]].  Thus, one might use 'Lorentzian geometry' analogously to [[Riemannian geometry]] (and insist on __Minkowski geometry__ for our topic here), but usually one skips all the way to [[pseudo-Riemannian geometry]] (which studies [[pseudo-Riemannian manifolds]], including both Riemannian and Lorentzian manifolds).
 
