@@ -37,3 +37,5 @@ A ribbon category is a rigid braided monoidal category equipped with a twist.
 [[!redirects ribbon categories]]
 [[!redirects tortile category]]
 [[!redirects tortile categories]]
+[[!redirects tortile monoidal category]]
+[[!redirects tortile monoidal categories]]
