@@ -30,6 +30,7 @@ is open.
 
 =--
 
+Note that if $R$ is commutative then (i) implies (UF).
 
 ## Examples
 
