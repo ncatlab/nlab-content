@@ -176,7 +176,90 @@ Moreover, the first two of these already uniquely characterize the Adams operati
 
 e.g. [Wirthmuller 12, section 11](#Wirthmuller12)
 
+
+
 ## Properties
+
+
+### Compatibility with the Chern character
+ {#CompatibilityWithTheChernCharacter}
+
+
+The Adams operation are compatible with the [[Chern character map]] in the following way:
+
++-- {: .num_defn #AdamsLikeOperationsOnRationalCohomology}
+###### Definition
+**(Adams-like operations on [[rational cohomology]])**
+
+For $X$ a [[topological space]], with [[rational cohomology]] in even degrees denoted 
+
+$$
+  H^{ev}(X;\, \mathbb{Q})
+  \;\colon\;
+  \underset{r \in \mathbb{N}}{\prod}
+  H^{2 r}(X;\, \mathbb{Q})
+$$
+
+define graded [[linear maps]]
+
+$$
+  \psi^k_{H} \;\colon\; H^{ev}(X) \longrightarrow H^{ev}(X)
+$$
+
+for $k \in \mathbb{N}$ by taking their restriction to degree $2r$ to act by multiplication with $k^r$
+
+
+$$
+  \array{
+    H^{2r}(X;\mathbb{Q})
+    &\overset{\;\;\;\psi^k_H\;\;\;}{\longrightarrow}&
+    H^{2r}(X;\mathbb{Q})
+    \\
+    \alpha_{2k} &\mapsto& k^{r} \cdot \alpha
+    \,.
+  }
+$$
+
+
+=--
+
++-- {: .num_prop #AdamsOperationsAreCompatibleWithTheChernCharacter }
+###### Proposition
+**([[Adams operations compatible with the Chern character]])**
+
+For $X$ a [[topological space]] with a finite [[CW-complex]]-[[mathematical structure]], the [[Chern character]] $ch$ on the [[complex topological K-theory]] of $X$ intertwines the [[Adams operations]] $\psi^n$ on K-theory with the Adams-like operations $\psi^n_H$ on [[rational cohomology]] from Def. \ref{AdamsLikeOperationsOnRationalCohomology}, for $k \geq 1$, in that the following [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    K(X)
+      &\overset{\;\;\;ch\;\;\;}{\longrightarrow}&
+    H^{ev}(X;\,\mathbb{Q})
+    \\
+    {}^{ \mathllap{ \psi^k } }
+    \big\downarrow
+    &&
+    \big\downarrow
+    {}^{ \mathrlap{ \psi^k_H } }
+    \\
+    K(X)
+      &\overset{\;\;\;ch\;\;\;}{\longrightarrow}&
+    H^{ev}(X;\,\mathbb{Q})
+    \,,
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the exponentional-formula for the [[Chern character]] with the  [[splitting principle]].
+
+See e.g. [Maakestad 06, Thm. 4.9](#Maakestad06)
+
+=--
+
+\linebreak
 
 ### Adams conjecture
 
@@ -218,6 +301,8 @@ The original article:
 Review:
 
 * {#AguilarGitlerPrieto} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Section 10 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002)
+
+* {#Maakestad06} Helge Maakestad, _Notes on the Chern-character_ ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060))
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 11 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
