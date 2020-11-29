@@ -23,7 +23,7 @@
 
 ## Idea
 
-For $X$ a [[space]] with a notion of _[[dimension]]_ $dim X \in \mathbb{N}$ and a notion of ([[Kähler differential form|Kähler]]) [[differential forms]] on it, the _canonical bundle_ or [[canonical sheaf]] over $X$ is the [[line bundle]] (or its  [[sheaf]] of [[sections]]) of $n$-forms on $X$, the $dim(X)$-fold [[exterior product]] 
+For $X$ a [[space]] with a notion of _[[dimension]]_ $dim(X) \in \mathbb{N}$ and a notion of ([[Kähler differential form|Kähler]]) [[differential forms]] on it, the _canonical bundle_ or [[canonical sheaf]] over $X$ is the [[line bundle]] (or its  [[sheaf]] of [[sections]]) of $n$-forms on $X$, the $dim(X)$-fold [[exterior product]] 
 
 $$
   L_{can} \coloneqq \Omega^n_X 
@@ -32,9 +32,13 @@ $$
 of the bundle $\Omega^1_X$ of 1-forms.
 
 
+
+
 The [[first Chern class]] of this bundle is also called the **canonical [[characteristic class]]** or just the **canonical class** of $X$.
 
-Often this bundle is regarded via its [[sheaf]] of [[sections]].
+The inverse of the canonical line bundle (i.e. that with minus its [[first Chern class]]) is called the _anticanonical line bundle_.
+
+Over an [[algebraic variety]], the [[divisor (algebraic geometry)|divisor]] corresponding to the canonical line bundle is called the _[[canonical divisor]]_.
 
 A [[square root]] of the canonical class, hence another characteristic class $\Theta$ such that the [[cup product]] $2 \Theta = \Theta \cup \Theta$ equals the canonical class is called a _[[Theta characteristic]]_ (see also _[[metalinear structure]]_).
 
@@ -81,3 +85,12 @@ See also
 
 [[!redirects canonical line bundle]]
 [[!redirects canonical line bundles]]
+
+[[!redirects anticanonical line bundle]]
+[[!anticanonical line bundles]]
+
+[[!redirects anti-canonical line bundle]]
+[[!anti-canonical line bundles]]
+
+
+
