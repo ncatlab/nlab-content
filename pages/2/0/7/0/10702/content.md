@@ -2,12 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Algebraic topology
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include algebraic topology - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -302,7 +303,10 @@ Review:
 
 * {#AguilarGitlerPrieto} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Section 10 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002)
 
-* {#Maakestad06} Helge Maakestad, _Notes on the Chern-character_ ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060))
+* {#Maakestad06} Helge Maakestad, _Notes on the Chern-character_, Journal of Generalized Lie Theory and Applications, 2017, 11:1 ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060), [doi:10.4172/1736-4337.100025](https://www.hilarispublisher.com/open-access/notes-on-the-cherncharacter-.pdf))
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 10 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 11 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
