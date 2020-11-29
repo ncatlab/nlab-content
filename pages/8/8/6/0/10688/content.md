@@ -152,7 +152,10 @@ An algebraic version of the EHP spectral sequence for the [[Lambda-algebra]] and
 * {#Kochmann96} [[Stanley Kochman]], around prop. 5.2.6  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
-Review includes 
+Review:
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lectures 6,7 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 * [[Mark Mahowald]], [[Doug Ravenel]], section 7 of _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
 
