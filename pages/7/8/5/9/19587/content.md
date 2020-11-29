@@ -84,7 +84,10 @@ The construction is due to
 
 * {#James55} [[Ioan James]], _Reduced product spaces_, Annals of Mathematics, Second Series, 62: 170–197 (1955)
 
-Review includes
+Review:
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lectures 2,3 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 * [[Dylan Wilson]], _James construction_, 2017 ([pdf](http://www.math.uchicago.edu/~dwilson/pretalbot2017/james-construction.pdf))
 
