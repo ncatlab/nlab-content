@@ -73,9 +73,12 @@ The conjecture originates in
 
 * {#Adams63} [[John Adams]], _On the groups $J(X)$ I: Topology_, 2 (1963) pp. 181&#8211;195 
  
-A quick review is for instance in 
+Review:
 
 * [[Akhil Mathew]], _The Adams conjecture I_ ([web](http://amathew.wordpress.com/2013/01/23/the-adams-conjecture-i/))
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 30 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 The [[proof]] of the Adams conjecture is originally due to
 
