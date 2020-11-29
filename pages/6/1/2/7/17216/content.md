@@ -49,7 +49,7 @@ The definition is due to
 
 * {#SpanierWhitehead53} [[Edwin Spanier]], [[George Whitehead]], _A first approximation to homotopy theory_ Proc. Nat. Acad. Sci. U.S.A., 39 (1953), 655-660. 
 
-Survey includes
+Survey:
 
 * {#Whitehead62} [[George Whitehead]], _Some aspects of stable homotopy theory_, International Confress of Mathematics 1962 ([pdf](http://www.mathunion.org/ICM/ICM1962.1/Main/icm1962.1.0502.0506.ocr.pdf))
 
@@ -57,6 +57,8 @@ Survey includes
 Mathematical Library. North-Holland Publishing Co., Amsterdam, 1983 
 
 * {#Schwede12} [[Stefan Schwede]], chapter II, section 7 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 20 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
 
 
 Discussion in the abstract generality of categories equipped with an abstract suspension-like functor is in
