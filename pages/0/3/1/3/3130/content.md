@@ -161,6 +161,87 @@ Generalizing in another direction, generalized Chern characters are given by pas
 
 The behaviour of the Chern-character under [[fiber integration in generalized cohomology]] along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
 
+
+
+### Compatibility with the Adams operations
+ {#CompatibilityWithTheAdamsOperations}
+
+The [[Adams operations]] $\psi^k$ on [[complex topological K-theory]] are compatible with the [[Chern character map]] to [[rational cohomology]] in that the effect of $\psi^k$ on the Chern character image in degree $2r$ is multiplication by $k^r$:
+
+
++-- {: .num_defn #AdamsLikeOperationsOnRationalCohomology}
+###### Definition
+**(Adams-like operations on [[rational cohomology]])**
+
+For $X$ a [[topological space]], with [[rational cohomology]] in even degrees denoted 
+
+$$
+  H^{ev}(X;\, \mathbb{Q})
+  \;\colon\;
+  \underset{r \in \mathbb{N}}{\prod}
+  H^{2 r}(X;\, \mathbb{Q})
+$$
+
+define graded [[linear maps]]
+
+$$
+  \psi^k_{H} \;\colon\; H^{ev}(X) \longrightarrow H^{ev}(X)
+$$
+
+for $k \in \mathbb{N}$ by taking their restriction to degree $2r$ to act by multiplication with $k^r$:
+
+
+$$
+  \array{
+    H^{2r}(X;\mathbb{Q})
+    &\overset{\;\;\;\psi^k_H\;\;\;}{\longrightarrow}&
+    H^{2r}(X;\mathbb{Q})
+    \\
+    \alpha_{2k} &\mapsto& k^{r} \cdot \alpha
+    \,.
+  }
+$$
+
+
+=--
+
++-- {: .num_prop #AdamsOperationsAreCompatibleWithTheChernCharacter }
+###### Proposition
+**([[Adams operations compatible with the Chern character]])**
+
+For $X$ a [[topological space]] with a finite [[CW-complex]]-[[mathematical structure]], the [[Chern character]] $ch$ on the [[complex topological K-theory]] of $X$ intertwines the [[Adams operations]] $\psi^n$ on K-theory with the Adams-like operations $\psi^n_H$ on [[rational cohomology]] from Def. \ref{AdamsLikeOperationsOnRationalCohomology}, for $k \geq 1$, in that the following [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    K(X)
+      &\overset{\;\;\;ch\;\;\;}{\longrightarrow}&
+    H^{ev}(X;\,\mathbb{Q})
+    \\
+    {}^{ \mathllap{ \psi^k } }
+    \big\downarrow
+    &&
+    \big\downarrow
+    {}^{ \mathrlap{ \psi^k_H } }
+    \\
+    K(X)
+      &\underset{\;\;\;ch\;\;\;}{\longrightarrow}&
+    H^{ev}(X;\,\mathbb{Q})
+    \,,
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the exponentional-formula for the [[Chern character]] with the  [[splitting principle]].
+
+Detailed review is  [Maakestad 06, Thm. 4.9](#Maakestad06)
+
+=--
+
+
 ## Related concepts
 
 * [[odd Chern character]]
@@ -206,7 +287,7 @@ Original Discussion of the Chern character on complex [[topological K-theory]]:
 
 Further discussion 
 
-* Helge Maakestad, _Notes on the Chern-character_ ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060))
+* {#Maakestad06} Helge Maakestad, _Notes on the Chern-character_ ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060))
 
 * [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_ ([arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
 
