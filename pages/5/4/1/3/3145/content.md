@@ -12,6 +12,11 @@ Among his notable achievements are his work on the [[Ravenel conjectures]], the 
 
 ## Selected writings
 
+On [[stable homotopy theory]]:
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
+
 Introducing generalized [[differential cohomology]] motivated by the [[M5-brane]] partition function:
 
 * _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
