@@ -66,6 +66,8 @@ Lecture notes include
 
 * {#Adams74} [[Frank Adams]], part III, section 5 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 22 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 Further discussion of Atiyah duals is in 
 
