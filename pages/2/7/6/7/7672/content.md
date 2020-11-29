@@ -537,6 +537,7 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 
 \linebreak
 
+
 ## References
 
 ### General
@@ -550,6 +551,9 @@ Lecture notes:
 * [[Akhil Mathew]], _The Adams conjecture I_ ([web](http://amathew.wordpress.com/2013/01/23/the-adams-conjecture-i/))
 
 * [[Akhil Mathew]], _Notes on the J-homomorphism_, 2012 ([pdf](http://math.uchicago.edu/~amathew/j.pdf), [[MathewJHomomorphism.pdf:file]])
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 13 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 * Arpon Raksit, _Vector fields and the J-homomorphism_, 2014 ([pdf](http://stanford.edu/~arpon/math/files/vfields.pdf))
 
