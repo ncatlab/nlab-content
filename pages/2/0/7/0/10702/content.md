@@ -15,13 +15,13 @@
 
 ## Idea
 
-Given a [[complex line bundle]] $L$ over a [[space]] $X$ its $k$th tensor power $L^{\otimes k}$ is another line bundle for any $k \in \mathbb{N}$.  The line bundles define certain elements of [[topological K-theory]] group $K(X)$, and there is a unique operation $\psi^k : K(X) \to K(X)$, the _$k$th Adams operation_, such that:
+Given a [[complex line bundle]] $L$ over a [[space]] $X$ its $k$th [[tensor product of vector bundles|tensor power]] $L^{\otimes k}$ is another line bundle for any $k \in \mathbb{N}$.  The line bundles define certain elements of [[complex topological K-theory]] group $K(X)$, and there is a unique operation $\psi^k \colon K(X) \to K(X)$, the _$k$th Adams operation_, such that:
 
-* $\psi^k([L]) = [L^{\otimes k}]$ if $[L]$ is the $K$-theory class of any line bundle,
+* $\psi^k([L]) = [L^{\otimes k}]$ if $[L]$ is the K-theory class of any line bundle,
 
-* $\psi^k : K(X) \to K(X)$ is a group homomorphism, 
+* $\psi^k \colon K(X) \to K(X)$ is a [[group homomorphism]], 
 
-* $\psi^k$ is a natural transformation: any map $f: X \to Y$ induces a map $f^* : K(Y) \to K(X)$ on $K$-theory, and $\psi^k \circ f^* = f^* \circ \psi^k$.
+* $\psi^k$ is a [[natural transformation]]: any map $f: X \to Y$ induces a map $f^* : K(Y) \to K(X)$ on $K$-theory, and $\psi^k \circ f^* = f^* \circ \psi^k$.
 
 More abstractly, Adams operations can be defined on any [[Lambda-ring]]. They are an example of [[power operations]].
 
