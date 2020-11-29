@@ -21,23 +21,31 @@ The _Adams e-invariant_ ([Adams 66, section 7](#Adams66)) is a collection of [[g
 
 ## Related concepts
 
-* [[Hopf invariant]]
+* [[Hopf invariant]], [[Hopf invariant one problem]]
 
 * [[J-homomorphism]]
 
 * [[stable homotopy groups of spheres]]
 
-* [[J-homomorphism]]
-
 
 ## References
 
-The definition is due to section 7 of
+The definition is due:
 
-* {#Adams66} [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
- 
+* {#Adams66} [[John Adams]], Section 7 of: _On the groups $J(X)$ IV_, Topology 5: 21,(1966)   ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf), <a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>)
 
-Reviews include
+  _Correction_, Topology 7 (3): 331 (1968)
+
+Further development:
+
+* Warren M. Krueger, _Generalized Steenrod-Hopf Invariants for Stable Homotopy Theory_, Vol. 39, No. 3 (Aug., 1973), pp. 609-615 ([jstor:2039603](https://www.jstor.org/stable/2039603))
+
+Interpretation in [[bordism theory]]:
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 16 of: _The relation of cobordism to $K$-theories_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+
+Review:
 
 * {#Weibel} [[Charles Weibel]], chapter VI, section 2 of _[The K-book](http://www.math.rutgers.edu/~weibel/Kbook.html)_ ([pdf](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.VI.pdf))
 
