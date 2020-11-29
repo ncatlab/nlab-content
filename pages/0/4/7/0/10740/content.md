@@ -110,6 +110,9 @@ Review of the [[Hopf invariant one problem]] via [[Adams operations]] in [[topol
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 9 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
+
 * [[Akhil Mathew]], _[K-Theory and the Hopf invariant](https://amathew.wordpress.com/2012/01/08/k-theory-and-the-hopf-invariant/)_, 2012
 
 * [[Gereon Quick]], _The Hopf invariant one problem via K-theory_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([pdf](https://ncatlab.org/nlab/files/QuickHopfInvariant.pdf))
