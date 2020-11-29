@@ -995,7 +995,7 @@ $$
 =--
 
 
-([Adams 74, theorem 15.1 page 319](#Adams74)) Beware that for instance ([Hopkins 99, proof of corollary 5.3](#Hopkins99)) uses "$\overline{E}$" not for the [[homotopy fiber]] of $\mathbb{S} \overset{e}{\to} E$ but for its [[homotopy cofiber]], hence for what is $\Sigma \overline{E}$ according to ([Adams 74](#Adams74)).
+([Adams 74, theorem 15.1 page 319](#Adams74)) Beware that for instance ([[Complex oriented cohomology theories and the language of stacks|Hopkins 99, proof of corollary 5.3]]) uses "$\overline{E}$" not for the [[homotopy fiber]] of $\mathbb{S} \overset{e}{\to} E$ but for its [[homotopy cofiber]], hence for what is $\Sigma \overline{E}$ according to ([Adams 74](#Adams74)).
 
 
 
@@ -1077,7 +1077,7 @@ where the morphism on the right is identified as $g_p$ by the induction assumpti
 +-- {: .num_remark}
 ###### Remark
 
-Terminology differs across authors. The filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" (see [here](Adasm+spectral+sequence#ViaInjectiveResolutions)) and uses "Adams tower" for yet another concept ([def.](Adams+spectral+sequence#EAdamsTower)).
+Terminology differs across authors. The filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([[Complex oriented cohomology theories and the language of stacks|Hopkins 99]]) uses "Adams resolution" for the "$E$-injective resolutions" (see [here](Adasm+spectral+sequence#ViaInjectiveResolutions)) and uses "Adams tower" for yet another concept ([def.](Adams+spectral+sequence#EAdamsTower)).
 
 =--
 
@@ -1291,7 +1291,7 @@ We discuss here all the extra structure that exists on the $E$-self homology $E_
 
 Without the qualifier "dual" then "$E$-Steenrod algebra" refers to the $E$-self-cohomology $E^\bullet(E)$. For $E = H \mathbb{F}_p$ this _Steenrod algebra_ $\mathcal{A}_p$ (without "dual") is traditionally considered first, and the [[classical Adams spectral sequence]] was originally formulated in terms of $\mathcal{A}_p$ instead of $\mathcal{A}_p^\ast$. But one observes ([Adams 74, p. 280](#Adams74)) that the "dual" Steenrod algebra $E_\bullet(E)$ is much better behaved, at least as long as $E$ is flat in the sense of def. \ref{FlatE}.
 
-Moreover, the dual $E$-Steenrod algebra $E_\bullet(E)$ is more fundamental in that it reflects a [[higher geometry|stacky geometry]] secretly underlying the $E$-Adams spectral sequence ([Hopkins 99](#Hopkins99)). This is the content of the concept of "[[commutative Hopf algebroid]]" (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below) which is equivalently the [[formal dual]] of a [[groupoid]] internal to [[affine schemes]], def. \ref{CommutativeHopfAlgebroid}.
+Moreover, the dual $E$-Steenrod algebra $E_\bullet(E)$ is more fundamental in that it reflects a [[higher geometry|stacky geometry]] secretly underlying the $E$-Adams spectral sequence ([[Complex oriented cohomology theories and the language of stacks|Hopkins 99]]). This is the content of the concept of "[[commutative Hopf algebroid]]" (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below) which is equivalently the [[formal dual]] of a [[groupoid]] internal to [[affine schemes]], def. \ref{CommutativeHopfAlgebroid}.
 
 A simple illustrative archetype of the following construction of commutative Hopf algebroids from homotopy commutative ring spectra is the following situation:
 
@@ -2065,7 +2065,7 @@ Given a [[graded commutative Hopf algebroid]] $\Gamma$ over $A$ as in def. \ref{
 
 =--
 
-In the same spirit, a **[[comodule]]** over a commutative Hopf algebroid (not necessarily a comodule ring) is a [[quasicoherent sheaf]] on the corresponding [[internal groupoid]] (regarded as a ([[algebraic stack|algebraic]]) [[stack]]) (e.g. [Hopkins 99, prop. 11.6](#Hopkins99)). Explicitly in components:
+In the same spirit, a **[[comodule]]** over a commutative Hopf algebroid (not necessarily a comodule ring) is a [[quasicoherent sheaf]] on the corresponding [[internal groupoid]] (regarded as a ([[algebraic stack|algebraic]]) [[stack]]) (e.g. [[Complex oriented cohomology theories and the language of stacks|Hopkins 99, prop. 11.6]]). Explicitly in components:
 
 +-- {: .num_defn #CommutativeHopfAlgebroidComodule}
 ###### Definition
