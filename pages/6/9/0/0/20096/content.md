@@ -42,6 +42,7 @@ Attempt to explain the anomalies possibly seen by the [[ANITA experiment]] by st
 
 
 ### Relation to flavor anomalies
+ {#RelationToFlavourAnomalies}
 
 Attempts to explain the [[flavour anomalies]] with right-handed neutrinos:
 
