@@ -125,7 +125,9 @@ Discussion of secondary classes being [[torsion elements]]:
 
 Discussion of secondary characteristic classes in [[string cobordism cohomology theory]] and in [[tmf]]:
 
-* [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_, Bulletin des Sciences Mathématiques, Volume 138, Issue 8, December 2014, Pages 912-970 ([doi:10.1016/j.bulsci.2014.05.002](https://doi.org/10.1016/j.bulsci.2014.05.002))
+* [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_, Bulletin des Sciences Mathématiques, Volume 138, Issue 8, 2014, Pages 912-970 
+([arXiv:0912.4875](https://arxiv.org/abs/0912.4875), 
+[doi:10.1016/j.bulsci.2014.05.002](https://doi.org/10.1016/j.bulsci.2014.05.002))
 
 
 Discussion of secondary and higher order invariant as higher order [[boundary field theories]] to higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory is in
