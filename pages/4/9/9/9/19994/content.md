@@ -10,6 +10,10 @@ On [[gaugino condensation]] in [[heterotic string theory]] and [[Horava-Witten t
 
 * [[André Lukas]], [[Burt Ovrut]], [[Daniel Waldram]], _Five-Branes and Supersymmetry Breaking in M-Theory_, JHEP 9904:009, 1999 ([arXiv:hep-th/9901017](https://arxiv.org/abs/hep-th/9901017))
 
+On [[M-theory on Calabi-Yau 5-folds]] and [[supersymmetric quantum mechanics]]:
+
+* [[Alexander Haupt]], [[Andre Lukas]], [[Kellogg Stelle]], _M-theory on Calabi-Yau Five-Folds_, JHEP 0905:069, 2009 ([arXiv:0810.2685](https://arxiv.org/abs/0810.2685))
+
 On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterotic line bundle models]]:
 
 * {#AndersonGrayLukasPalti11} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_, Phys. Rev. D 84, 106005 (2011) ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
