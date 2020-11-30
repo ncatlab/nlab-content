@@ -264,7 +264,7 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 
 * {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Dunod, 1965
 
-* {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
+* {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf) (2009)
 
 
 [[!redirects stuff, structure, property]]
