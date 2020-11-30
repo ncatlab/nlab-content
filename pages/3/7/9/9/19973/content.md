@@ -188,6 +188,11 @@ On the [[flavour problem]]:
 
 * {#Altmannshofer14} [[Wolfgang Altmannshofer]], _The Flavor Puzzle_, Aspen 2014 ([pdf](https://www.aspenphys.org/science/colloquia/2014_slides/altmannshofer.pdf), [[AltmannshoferFlavorProblem.pdf:file]])
 
+In relation to the [[neutrino mass problem]]:
+
+* {#Xing19} Zhi-zhong Xing, _Flavor structures of charged fermions and massive neutrinos_ Physics Reports Volume 854, 20 April 2020, Pages 1-147 ([arXiv:1909.09610](https://arxiv.org/abs/1909.09610), [doi:10.1016/j.physrep.2020.02.001](https://doi.org/10.1016/j.physrep.2020.02.001))
+
+
 On the [[flavor problem]] in the [[MSSM]]:
 
 * [[Stuart Raby]], _SUSY Flavor Problem_, In: _Supersymmetric Grand Unified Theories_. Lecture Notes in Physics, vol 939 ([doi:10.1007/978-3-319-55255-2_7](https://doi.org/10.1007/978-3-319-55255-2_7))
