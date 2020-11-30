@@ -229,7 +229,7 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 * [MO discussion](https://mathoverflow.net/a/272131/381)
 
 
-
+[[!redirects MU-theory]]
 
 
 [[!redirects complex cobordism spectrum]]
@@ -256,3 +256,5 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 [[!redirects complex cobordism cohomology theory]]
 
 [[!redirects complex cobordism theory]]
+
+
