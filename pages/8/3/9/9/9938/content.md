@@ -107,6 +107,12 @@ The truncated version is discussed in
 
 * [[Tyler Lawson]], [[Niko Naumann]], _Truncated Brown-Peterson spectra_ (2012) ([pdf](http://www.math.umn.edu/~tlawson/jmm-boston-handout.pdf))
 
+
+On the [[Hopf invariant]] and [[e-invariant]] in [[BP-theory]]:
+
+* [[Martin Bendersky]], _The BP Hopf Invariant_, American Journal of Mathematics, Vol. 108, No. 5 (Oct., 1986) ([jstor:2374595](https://www.jstor.org/stable/2374595))
+
+
 [[!redirects Brown-Peterson spectra]]
 
 [[!redirects Brown-Peterson cohomology]]
@@ -121,3 +127,11 @@ The truncated version is discussed in
 
 [[!redirects BP-spectrum]]
 [[!redirects BP spectrum]]
+
+[[!redirects BP-theory]]
+[[!redirects BP theory]]
+
+
+
+
+
