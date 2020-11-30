@@ -5,11 +5,11 @@
 
 ## Idea
 
-Two [[polygons]] in the [[Euclidean space|Eucledean plane]] $P,P'$ have the same [[area]] iff they are __scissors congruent__ in the sense that they can be subdivided into _finitely_ many pieces such that each piece of $P$ is congruent to exactly one piece of $P'$. 
+Two [[polygons]] $P,P'$ in the [[Euclidean space|Euclidean plane]] have the same [[area]] iff they are __scissors congruent__ in the sense that they can be subdivided into _finitely_ many pieces such that the pieces of $P$ are congruent to the pieces of $P'$. 
 
-__Hilbert's third problem__ (see _[[Hilbert's problems]]_) was if the analogue of this elementary fact holds for [[polyhedra]] in 3-[[dimension|dimensional]] space. Dehn solved this problem in terms of Dehn's invariant which, in a modern language, assigns to a polyhedron $P$ an element in $\mathbf{R}\otimes_{\mathbf{Z}} \mathbf{R}/\mathbf{Z}$. If both the Dehn's invariant and volume of two (3-dimensional finite) polyhedra in Eucledean space are equal then they are scissors congruent. 
+__Hilbert's third problem__ (see _[[Hilbert's problems]]_) was to decide whether the analogue of this elementary fact holds for [[polyhedra]] in 3-[[dimension|dimensional]] space. Dehn solved this problem using what is now called the Dehn invariant. In modern language, it assigns to a polyhedron $P$ an element in $\mathbf{R}\otimes_{\mathbf{Z}} \mathbf{R}/\mathbf{Z}$. If both the Dehn invariant and volume of two (3-dimensional finite) polyhedra in Euclidean space are equal then they are scissors congruent. 
 
-The __generalized Hilbert's third problem__ is asking for two finite $n$-[[polytopes]] in Eucledean, spherical or hyperbolic $n$-space are scissors equivalent in terms of computable invariants. 
+The __generalized Hilbert's third problem__  asks whether two finite $n$-[[polytopes]] in Euclidean, spherical or hyperbolic $n$-space must be scissors equivalent if they have the same volume and generalized invariants. 
 
 The __scissors congruence group__  $\mathcal{P}(X,G)$ where $G$ is a subgroup of the group of isometries of $X$, is the free abelian group on symbols $[P]$, for all polytopes in $X$ modulo the relations
 
