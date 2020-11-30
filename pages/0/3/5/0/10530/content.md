@@ -47,6 +47,8 @@ The enhanced [[supersymmetry]] of the $2d$ $(2,0)$-models allows to consider the
 
 * [[D=6 N=(2,0) SCFT]]
 
+* [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]]
+
 * [[gauged linear sigma model]]
 
 ## References
@@ -85,6 +87,11 @@ A quick review with emphasis on the [[Stolz conjecture]] is in
 
 * {#Yagi10} [[Junya Yagi]], _Vanishing Chiral Algebras and H&#246;hn-Stolz Conjecture_ ([arXiv:1002.0028](http://arxiv.org/abs/1002.0028))
 
+Relation to [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]]:
+
+* [[Sakura Schäfer-Nameki]], [[Timo Weigand]], _F-theory and 2d (0,2) Theories_, J. High Energ. Phys. 2016, 59 (2016) ([arXiv:1601.02015](https://arxiv.org/abs/1601.02015))
+
+* [[Sakura Schäfer-Nameki]], _F-theory and $2d$ $(0,2)$ Theories_, 2016 ([[SchaeferNamekiFTheoryAnd2DQFT.pdf:file]])
 
 
 
