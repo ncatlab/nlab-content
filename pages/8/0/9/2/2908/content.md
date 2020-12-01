@@ -94,6 +94,13 @@ Actually, AHS discusses the more general concept of algebraic (etc) *functors*, 
 
 For Johnstone, a concrete category is 'algebraic' if and only if it is monadic.  However, Johnstone also discusses [[equationally presentable category|equationally presentable categories]].
 
+Another modern reference is
+
+* [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico M. Vitale]],
+_Algebraic theories_,
+Cambridge Tracts in Mathematics 184 (2011), Cambridge University Press.
+doi:10.1017/cbo9780511760754.
+
 
 [[!redirects algebraic category]]
 [[!redirects algebraic categories]]
