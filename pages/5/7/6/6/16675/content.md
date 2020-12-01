@@ -9,6 +9,9 @@
 
 * Huijun Fan, Tyler Jarvis, Yongbin Ruan, _A Mathematical Theory of the Gauged Linear Sigma Model_ ([arXiv:1506.02109](https://arxiv.org/abs/1506.02109))
 
+* Huijun Fan, Tyler Jarvis, [[Yongbin Ruan]], _A Mathematical Theory of the Gauged Linear Sigma Model_ ([arXiv:1506.02109](https://arxiv.org/abs/1506.02109))
+
+
 Review includes
 
 * _Introduction to the gauged linear sigma model_ ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~tetsuji.kimura/NOTEs/2004/GLSM.pdf))
