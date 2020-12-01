@@ -22,7 +22,7 @@ The original definition is from [Gaifman (1965)](#Gaifman65).
 
 A dependency grammar is a tuple $G = (V, X, R, s)$ where $V$ and $X$ are finite sets of terminal and non-terminal symbols with the start symbol $s \in X$ and a finite set of rules $r \in R$ which have one of the following shapes:
 
-1. $r = (y_1)^r \dots (y_k)^r x (y_{k + 1})^l \dots (y_{k'})^l \to x$ for $x \in X$, $k' \geq k \geq 0$ and $y_1, \dots, y_{k'} \in X$. $(-)^l$ and $(-)^r$ denote the left and right [[adjunction|adjoint]] as in a [[pregroup grammar]]. The intended meaning is that words of type $y_1, \dots, y_n$ can depend on a head of type $x$ when they appear in this order.
+1. $r = (y_1 \dots y_k)^r x (y_{k + 1} \dots y_{k'})^l \to x$ for $x \in X$, $k' \geq k \geq 0$ and $y_1, \dots, y_{k'} \in X$. $(-)^l$ and $(-)^r$ denote the left and right [[adjunction|adjoint]] as in a [[pregroup grammar]]. The intended meaning is that words of type $y_1, \dots, y_n$ can depend on a head of type $x$ when they appear in this order.
 2. $r = w \to x$ for $w \in V$ and $x \in X$. These correspond to the dictionary entries in a [[categorial grammar]].
 3. $r = x \to s$ for $x \in X$ and $s$ the start symbol.
 
@@ -33,7 +33,7 @@ The language $L(G) \subseteq V^\star$ of a dependency grammar $G$ is traditional
 * for all $i \leq n$, there is at most one $j \leq n$ with $(i, j) \in d$, i.e. every word depends on at most one head,
 * if $i \leq j \leq k$ and $(i, k) \in d^\star$ ($(k, i) \in d^\star$) then $(j, k) \in d^\star$ ($(k, j) \in d^\star$), i.e. the dependency is a planar graph,
 * $d$ is connected, or equivalently, there is exactly one head $h \leq n$ which doesn't depend on anything, furthermore we have $x_h \to s \in R$,
-* if $i \leq n$ depends on $j_1, \dots, j_k$ on its right and $j_{k + 1}, \dots, j_{m}$ on its left, then we have $(y_l)^r \dots (y_k)^r x_i (y_{k + 1})^l \dots (y_{k'})^l \to x_i \in R$.
+* if $i \leq n$ depends on $j_1, \dots, j_k$ on its right and $j_{k + 1}, \dots, j_{m}$ on its left, then we have $(y_l \dots y_k)^r x_i (y_{k + 1} \dots y_{k'})^l \to x_i \in R$.
 
 ## Drawing conventions
 
@@ -48,7 +48,7 @@ Then the convention (e.) where dependencies are represented as arcs is precisely
 
 ## Expressive power & extensions
 
-The original definition has equivalent expressive power to that of [[context free grammar]] and [[pregroup grammar]]. Note that these equivalences are _weak_ however: they do not preserve the structure of the diagrams. It has been extended to a [[mildly context-sensitive grammar]] by allowing the dependency graph to be non-planar, i.e. the diagrams are allowed [[braided monoidal category|braidings]].
+The original definition has equivalent expressive power to that of [[context free grammar]] and [[pregroup grammar]]. Note that these equivalences are _weak_ however: they do not preserve the structure of the diagrams. It has been extended to a [[mildly context-sensitive grammar]] by allowing the dependency graph to be non-planar, i.e. [[braided monoidal category|braidings]] are allowed in the grammatical derivation.
 
 
 ## References
