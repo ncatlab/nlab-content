@@ -86,6 +86,10 @@ See also
 
 * Francesco Bascone, Franco Pezzella, Patrizia Vitale, _Poisson-Lie T-Duality of WZW Model via Current Algebra Deformation_ ([arXiv:2004.12858](https://arxiv.org/abs/2004.12858))
 
+* Falk Hassler, Thomas B. Rochais
+_$O(D,D)$-covariant two-loop β-functions and Poisson-Lie T-duality_ ([arXiv:2011.15130](https://arxiv.org/abs/2011.15130))
+
+
 
 
 Discussion in [[cosmology]]:
