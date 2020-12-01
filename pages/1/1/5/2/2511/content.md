@@ -20,7 +20,11 @@ On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
 
 On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fre formulation of supergravity]], ...):
 
-* [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
+* [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643))
+
+On [[D=7 supergravity]]:
+
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], M. Trigiante, _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
 
 
 
