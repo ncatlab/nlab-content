@@ -126,14 +126,21 @@ We require the image for all words $w \in \Sigma$ to be the monoidal unit $F(w) 
 The meaning $F(r) : I \to F(s)$ for a sentence $w_1 \dots w_n \in \Sigma^n$ with grammatical reduction $r : w_1 \dots w_n \to s$ may then be computed from the individual meanings $F(w_i, t_i) : I \to F(t_i)$ of the words, following [[Gottlob Frege|Frege's]] principle of [[compositionality]].
 This has been developed in [Preller 2005](#Preller05) as well as in a series of papers by [[Bob Coecke]] and others, see [[categorical compositional distributional semantics]].
 
-## Expressive power & extensions
+## Expressive power and extensions
 
 **Theorem ([Buszkowski, Moroz 2008](#BuszkowskiMoroz08)):** For each pregroup grammar $G$, there is a [[context-free grammar]] $G'$ such that $L(G) = L(G')$. Furthermore, $G'$ may be computed in time polynomial in the size of $G$.
 
 The opposite direction also holds, hence pregroup grammar and [[context-free grammar]] are said to be **weakly equivalent**: the translation preserves only the generated languages, it does not preserve the structure of syntax trees.
 
-Pregroup grammars have been extended to allow for [[mildly context-sensitive grammar|mild context-sensitivity]]. In [Lambek (2008)](#Lambek08), [[Lambek]] proposes to model the context-sensitive rules of Swiss German by replacing the free pregroup by the [[cartesian product]] of two free pregroups.
-[Genkin et al. (2010)](#GenkinEtAl) generate mildly context-sensitive languages by augmenting pregroup grammars with buffers.
+Since it is generally accepted that natural languages go beyond context-free languages this result illustrates the lack of expressive power of pregroup grammars whence it becomes necessary to enhance the original grammar model:
+
+One way (G. Kobele) is to consider product grammars $G_1\times G_2$: these assign to a string $w$ a tuple $(t_1,t_2)$ of syntactic types with grammaticality of $(w,(t_1,t_2))$ checked by parallel computation of the grammaticality of $(w,t_1)$ in $G_1$ and of $(w,t_2)$ in $G_2$. $(w,(t_1,t_2))$ is then grammatical iff $(w,t_1)$ and $(w,t_2)$ are which permits to describe e.g. the context-sensitive rules of Swiss German ([Lambek (2008)](#Lambek08)). The checking of syntactic types is still given by computation in a pregroup but this pregroup is no longer free.
+
+If one admits arbitrary pregroup grammars $G_1, G_2$ the product grammars $G_1\times G_2$ can generate any [[Chomsky hierarchy|type 0 language]] $L$ (Kobele&[[Marcus Kracht|Kracht]]) since by a classical result in formal language theory any type 0 language is the intersection $L=L_1\cap L_2$ of two context-free languages $L_1,L_2$ whence by the above result of Buszkowski one can find pregroup grammars $G_1,G_2$ generating them with $G_1\times G_2$ then generating $L_1\cap L_2$.
+
+Since it is usually assumed that natural languages do not go beyond [[mildly context-sensitive grammar|mildly context-sensitive languages]] one sees that products of arbitrary pregroup grammars have excessive power and it becomes necessary to cut back this power. One way to do this is by restricting $G_1$ to be of a type simpler than context-free e.g. a [[Dyck language]] thought of now as a control language supervising the "context-free" computations in $G_2$. This idea was proposed by G. Kobele.
+
+Another approach to adapt the pregroup grammar formalism to mildly context-sensitive languages was proposed by [Genkin et al. (2010)](#GenkinEtAl) which augment pregroup grammars with buffers.
 
 ## References
 
