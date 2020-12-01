@@ -31,10 +31,13 @@
 
 * [[categorial grammar]]
 
+* [[combinatory categorial grammar]]
+
 * [[mildly context-sensitive grammar]]
 
 * [[context-sensitive grammar]]
 
+* [[dependency grammar]]
 
 
 #### [[semantics|Semantics]]
