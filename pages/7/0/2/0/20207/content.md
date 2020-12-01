@@ -10,7 +10,7 @@ David Jaz Myers is a graduate student at Johns Hopkins.
 
 On [[logical topology]] in the context of [[cohesive toposes]], [[modal type theory]] and [[cohesive homotopy type theory]]:
 
-* [[David Jaz Myers]], _Logical Topology and Axiomatic Cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ 2019 ([pdf slides](http://www.andrew.cmu.edu/user/fwellen/myers-slides.pdf))
+* [[David Jaz Myers]], _Logical Topology and Axiomatic Cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://felix-cherubini.de/modal-workshop.html)_ 2019 ([pdf slides](http://felix-cherubini.de/myers-slides.pdf))
 
 On [[modal type theory]] and [[cohesive homotopy type theory]]
 
