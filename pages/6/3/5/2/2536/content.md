@@ -369,10 +369,11 @@ For more details see [[semilattice of commutative subalgebras]].
 
   * [[Harding-Döring-Hamhalter theorem]]
 
-
 * [[W-algebra]]
 
 * [[Jordan superalgebra]]
+
+* [[exceptional Jordan algebra]]/[[Albert algebra]]
 
 ## References
 
