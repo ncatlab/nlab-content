@@ -32,7 +32,11 @@ Since [[n-categories]] (and also [[(infinity,n)-categories]]) have $2^n$ differe
 
 ## Abstractly
 
-Categories, covariant functors, and natural transformations form a [[2-category]] [[Cat]].  To include the contravariant functors as well, we can equip $Cat$ with a [[duality involution]], or we can generalize to a [[2-category with contravariance]], or some more general structure that also includes [[extranatural transformations]] or [[dinatural transformations]].  There could also be higher-categorical versions, such as a [[3-category with contravariance]].
+Categories, covariant functors, and [[natural transformations]] form a [[2-category]] [[Cat]].  To include the contravariant functors as well, we can equip $Cat$ with a [[duality involution]], or we can generalize to a [[2-category with contravariance]], or some more general structure that also includes [[extranatural transformations]] or [[dinatural transformations]].  There could also be higher-categorical versions, such as a [[3-category with contravariance]].
+
+## Related concepts
+
+[[!include notions of pullback -- contents]]
 
 
 [[!redirects contravariant functor]]
