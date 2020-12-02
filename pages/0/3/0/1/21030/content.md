@@ -86,6 +86,10 @@ Discussion of the [[large N limit]]:
 
 * Corneliu Sochichiu, _Continuum limit(s) of BMN matrix model: Where is the (nonabelian) gauge group?_, Phys.Lett. B574 (2003) 105-110 ([arXiv:hep-th/0206239](https://arxiv.org/abs/hep-th/0206239))
 
+Computer simulation ([[lattice gauge theory]]):
+
+* Hrant Gharibyan, [[Masanori Hanada]], Masazumi Honda, Junyu Liu, _Toward simulating Superstring/M-theory on a quantum computer_ ([arXiv:2011.06573](https://arxiv.org/abs/2011.06573))
+
 
 See also
 
