@@ -101,9 +101,13 @@ Under pullback differential forms form a [[presheaf]] on the catories [[CartSp]]
 
 ## Related concepts
 
-* [[pullback of a distribution]]
 
 * [[change of integration variables]]
+
+
+[[!include notions of pullback -- contents]]
+
+
 
 ## References
 
@@ -111,9 +115,9 @@ A standard reference is
 
 * Bott, Tu, _Differential forms in algebraic topology_.
 
-See also for instance section 2.7 of 
+See also for instance  
 
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], Section 2.7 of _[[The Geometry of Physics - An Introduction]]_
 
 [[!redirects pullbacks of a differential form]]
 
