@@ -83,13 +83,17 @@ The concept was introduced in
 * {#Brambilla14} Brambilla et al., Section 3.3.1 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
 
+
+
+
+
 Visualization:
 
 * James Biddle et al. _Publicising Lattice Field Theory through Visualisation_ ([arXiv:1903.08308](https://arxiv.org/abs/1903.08308))
 
 Relation to [[string theory]]/[[M-theory]] (such as via [[BFSS matrix model]]) in view [[AdS-CFT duality]]:
 
-* {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
+* {#Hanada16} [[Masanori Hanada]], _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics A Vol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
 
 
 See also 
@@ -101,7 +105,13 @@ See also
 ### Computer simulations
  {#ReferencesMontoCarloSimulations}
 
-A good general account of computer simulation of lattice [[QCD]] is in 
+Introduction:
+
+* [[Masanori Hanada]], _Markov Chain Monte Carlo for Dummies_ ([arXiv:1808.08490](https://arxiv.org/abs/1808.08490))
+
+* Anosh Joseph, _Markov Chain Monte Carlo Methods in Quantum Field Theories: A Modern Primer_, Springer Briefs in Physics 2020 ([arXiv:1912.10997](https://arxiv.org/abs/1912.10997))
+
+Account of computer simulation results in lattice [[QCD]]:
 
 * {#FodorHoelbling12} Zoltan Fodor, Christian Hoelbling, sections II-IV of _Light Hadron Masses from Lattice QCD_, Rev. Mod. Phys. 84, 449 (2012) ([arXiv:1203.4789](https://arxiv.org/abs/1203.4789))
 
@@ -174,7 +184,7 @@ Lattice simulation of [[torus]]-[[KK-compactifications]] of [[10d super Yang-Mil
 
 * {#Joseph15} Anosh Joseph, _Review of Lattice Supersymmetry and Gauge-Gravity Duality_ ([arXiv:1509.01440](https://arxiv.org/abs/1509.01440))
 
-* {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
+* {#Hanada16} [[Masanori Hanada]], _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
 
 
 #### Compactification to $D = 1$ 
@@ -184,7 +194,12 @@ The [[BFSS matrix model]]:
 
 * Veselin G. Filev, Denjoe O'Connor, _The BFSS model on the lattice_, JHEP 1605 (2016) 167 ([arXiv:1506.01366](https://arxiv.org/abs/1506.01366))
 
-* Masanori Hanada, Paul Romatschke, _Lattice Simulations of 10d Yang-Mills toroidally compactified to 1d, 2d and 4d_ ([arXiv:1612.06395](https://arxiv.org/abs/1612.06395))
+* [[Masanori Hanada]], Paul Romatschke, _Lattice Simulations of 10d Yang-Mills toroidally compactified to 1d, 2d and 4d_ ([arXiv:1612.06395](https://arxiv.org/abs/1612.06395))
+
+The [[BMN matrix model]]:
+
+* Hrant Gharibyan, [[Masanori Hanada]], Masazumi Honda, Junyu Liu, _Toward simulating Superstring/M-theory on a quantum computer_ ([arXiv:2011.06573](https://arxiv.org/abs/2011.06573))
+
 
 
 #### Compactification to $D= 0$  
