@@ -23,9 +23,10 @@ Over a [[paracompact topological space]] every [[vector bundle]] is [[isomorphis
 
 ## Related concepts
 
-* [[fiber product]]
+[[!include notions of pullback -- contents]]
 
-* [[base change]]
+
+
 
 [[!redirects pullback bundles]]
 
