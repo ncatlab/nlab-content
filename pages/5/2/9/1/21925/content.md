@@ -41,6 +41,8 @@ The fancy name is justified by the fact that this is beginning of a hierarchy of
 
 * [[f-invariant]]
 
+[[!include notions of pullback -- contents]]
+
 ## References
 
 (...)
