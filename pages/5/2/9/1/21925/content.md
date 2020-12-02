@@ -18,7 +18,7 @@
 
 Let $X \overset{f}{\longrightarrow} Y$ be a [[morphism]] in the [[stable homotopy category]] and let $E$ be a [[Whitehead-generalized cohomology theory]] (usually assumed to be at least [[multiplicative cohomology theory|multiplicative]]).
 
-Then the _$d$-invariant of $f$_ with respect to $E$ is just the class of the corresponding [[pullback in cohomology|pullback]] morphism, regarded as an element of the 0th [[Ext-group]] between the $E$-cohomologies of $X$ and $Y$:
+Then the _$d$-invariant of $f$_ with respect to $E$ is just the class of the corresponding [[pullback in cohomology|pullback]] morphism, regarded as an element of the 0th [[Ext-group]] (i.e. the plain [[hom-object]]) between the $E$-cohomologies of $X$ and $Y$:
 
 $$
   d(f)
