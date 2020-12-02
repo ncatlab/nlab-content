@@ -8134,6 +8134,8 @@ $$
 
 ## Related concepts
 
+* [[d-invariant]], [[e-invariant]], [[f-invariant]]
+
 * [[change of rings theorem]]
 
 * [[Adams-Novikov spectral sequence]]
