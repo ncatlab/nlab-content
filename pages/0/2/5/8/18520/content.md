@@ -120,3 +120,7 @@ which is readily seen to be the case
 
 [[!redirects odd natural number]]
 [[!redirects odd natural numbers]]
+
+[[!redirects odd integer]]
+[[!redirects odd integers]]
+
