@@ -34,3 +34,7 @@ Lifting limits is closely related to [[created limits|creating them]].  The rela
 * **lifted limit** 
 
 [[!redirects lifted limits]]
+
+## References
+
+Adamek, Herrlich, Strecker: [Abstract and Concrete Categories](http://katmat.math.uni-bremen.de/acc/acc.pdf), page 227. 
