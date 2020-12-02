@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _[[BMN matrix model]]_ ([BMN 02](#BerensteinMaldacenaNastase02), [DSJVR 02](#DSJVR02)) is a [[deformation]] of the [[BFSS matrix model]] by [[mass]]-terms and by a [[Chern-Simons theory|Chern-Simons]]-term. It arises as the [[light-cone gauge quantization]] of the [[M2-brane]] not on [[Minkowski spacetime]] as for the [[BFSS matrix model]], but on its [[deformation]] to a [[pp-wave spacetime]] the [[mass]]-terms in the model are proportional to the [[B-field]] [[flux density]] in the pp-wave [[string theory vacuum|vacuum]].
+The _[[BMN matrix model]]_ ([BMN 02](#BerensteinMaldacenaNastase02), [DSJVR 02](#DSJVR02)) is a [[deformation]] of the [[BFSS matrix model]] by [[mass]]-terms and by a [[Chern-Simons theory|Chern-Simons]]-term. It arises as the [[light-cone gauge quantization]] of the [[M2-brane]] not on [[Minkowski spacetime]] as for the [[BFSS matrix model]], but on its [[deformation]] to a [[pp-wave spacetime]]; the [[mass]]-terms in the model are proportional to the [[B-field]] [[flux density]] in the pp-wave [[string theory vacuum|vacuum]].
 
 ## Properties
 
