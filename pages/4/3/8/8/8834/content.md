@@ -87,6 +87,8 @@ In ([Cohen, 1968](#Cohen)) is given a criterion for stable maps of spheres to in
 
 * [[Massey product]]
 
+* [[e-invariant]]
+
 ## References
 
 * Joel Cohen, _The decomposition of stable homotopy_, Annals of Mathematics (2) 87 (2): 305&#8211;320 (1968)
