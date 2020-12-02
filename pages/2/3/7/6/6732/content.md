@@ -62,9 +62,17 @@ The original article observing the large $N$-behaviour and the [[planar limit]] 
 
 * [[Gerard 't Hooft]], _A Planar Diagram Theory for Strong Interactions_, Nucl. Phys. B72 (1974) 461 ([spire:80491](http://inspirehep.net/record/80491), <a href="https://doi.org/10.1016/0550-3213(74)90154-0">doi:10.1016/0550-3213(74)90154-0</a>)
 
-First inkling of [[holographic QCD]]:
+First inkling of [[holographic QCD]] and [[matrix models]]:
 
 * {#EguchiKawai82} [[Tohru Eguchi]], [[Hikaru Kawai]], _Reduction of Dynamical Degrees of Freedom in the Large-$N$ Gauge Theory_, Phys. Rev. Lett. 48, 1063 (1982) ([spire:176459](http://inspirehep.net/record/176459), [doi:10.1103/PhysRevLett.48.1063](https://doi.org/10.1103/PhysRevLett.48.1063))
+
+
+* A. Gonzalez-Arroyo, M. Okawa, _A twisted model for large $N$ lattice gauge theory_, Physics Letters B Volume 120, Issues 1–3, 6 January 1983, Pages 174-178 (<a href="https://doi.org/10.1016/0370-2693(83)90647-0">doi:10.1016/0370-2693(83)90647-0</a>)
+
+* A. Gonzalez-Arroyo, M. Okawa, _Twisted-Eguchi-Kawai model: A reduced model for large-
+$N$ lattice gauge theory_, Phys. Rev. D 27, 2397 (1983) ([doi:10.1103/PhysRevD.27.2397](https://doi.org/10.1103/PhysRevD.27.2397))
+
+
 
 Lecture notes:
 
