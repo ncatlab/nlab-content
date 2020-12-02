@@ -146,7 +146,7 @@ where $i_\ast b \in C^\infty_{cp}(X)$ is the result of [[extension|extending]] $
 
 ## Related concepts
 
-* [[pullback of differential forms]], [[change of integration variables]]
+* [[change of integration variables]]
 
 * [[composition of distributions]]
 
@@ -155,6 +155,10 @@ where $i_\ast b \in C^\infty_{cp}(X)$ is the result of [[extension|extending]] $
 * [[extension of distributions]]
 
 * [[support of a distribution]]
+
+[[!include notions of pullback -- contents]]
+
+
 
 ## References
 
