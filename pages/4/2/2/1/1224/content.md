@@ -231,7 +231,7 @@ is initial.
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #FiberProductsInASliceCategory}
 ###### Remark
 
 By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiagram)) of limits in a [[slice category]], this implies that [[fiber products]] in a [[slice category]] are computed as fiber products in the underlying category, or in other words that [[dependent sum]] to the point preserves fiber products.
