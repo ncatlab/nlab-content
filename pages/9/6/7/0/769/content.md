@@ -88,6 +88,10 @@ The proof is analogous to that at [[pullback]].
 
 * [[oplax/lax comma object]]
 
+[[!include notions of pullback -- contents]]
+
+
+
 [[!redirects comma object]]
 [[!redirects comma objects]]
 [[!redirects comma square]]
