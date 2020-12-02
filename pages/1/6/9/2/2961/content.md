@@ -14,9 +14,9 @@ Originally published in the series
 Pure and Applied Mathematics. A Wiley-Interscience Publication.
 John Wiley & Sons, Inc., New York, 1990. xiv+482 pp. ISBN: 0-471-60922-6 
 
-Online edition appeared in 2004.
+Online edition appeared in 2004:
 
-Reprints in Theory and Applications of Categories, No. 17 (2006), 1–507.
+* Reprints in Theory and Applications of Categories, No. 17 (2006), 1–507.
 [abstract](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html),
 [pdf](http://www.tac.mta.ca/tac/reprints/articles/17/tr17.pdf).
 
