@@ -385,6 +385,12 @@ $$
 
 For more on this see [[fiber sequence]].
 
+
+## Related concepts
+
+[[!include notions of pullback -- contents]]
+
+
 ## References
 
 ### In homotopy type theory
