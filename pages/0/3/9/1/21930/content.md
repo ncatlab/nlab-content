@@ -39,9 +39,35 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[topological K-theory]]
 
+### 5. Cobordism and homomorphism into K-theory
+
+* [[cobordism cohomology theory]]
+
+* [[MFr]]
+
+* [[MSp]]
+
+* [[MSU]]
+
+* [[MU]]
+
+
 ## Cobordism Characteristic Classes
 
+### 7. A theorem of Dold
+
+### 8. Characteristic classes on cobordism
+
+* [[MSp]]
+
 * [[Conner-Floyd Chern class]]
+
+### 9. Characteristic classes in K-theory
+
+### 10. A cobordism interpretation for $K^\ast(X)$
+
+
+### 11. Mappi gs into spheres
 
 ## $U$-Manifolds with Framed Boundaries
 
