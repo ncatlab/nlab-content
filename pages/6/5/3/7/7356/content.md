@@ -156,9 +156,11 @@ $$
   \,.
 $$
 
-The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_.
+The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_ ([Sen 96, page 5](#Sen96) [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04), [Denef 08, around (3.41)](#Denef08)). 
 
-([Sen 96, page 5](#Sen96) [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04), [Denef 08, around (3.41)](#Denef08)). Notice that the _net charge_ of these 24 D7-branes is supposed to vanish, due to [[S-duality]] effects (e.g. [Denef 08, below (3.41)](#Denef08)).
+Under [[T-duality]] this translates to 24 [[D6-branes]] in [[type IIA string theory]] ([Vafa 96, Footnote 2 on p. 6](#Vafa96))
+
+Notice that the _net charge_ of these 24 D7-branes is supposed to vanish, due to [[S-duality]] effects (e.g. [Denef 08, below (3.41)](#Denef08)).
 
 
 
@@ -217,7 +219,7 @@ That [[S-duality]] of [[type II string theory]] may be interpreted in terms of [
 
 The original article on F-theory as such is
 
-* [[Cumrun Vafa]], _Evidence for F-theory_, Nucl. Phys. B469:403-418, 1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
+* {#Vafa96} [[Cumrun Vafa]], _Evidence for F-theory_, Nucl. Phys. B469:403-418, 1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
 
 An early survey of its relation to [[M-theory]] with [[M5-branes]] is in 
 
