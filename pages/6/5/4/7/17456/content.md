@@ -7,7 +7,7 @@
 
 What is called the _Lambda algebra_ ($\Lambda$-algebra) in [[stable homotopy theory]] is a [[differential graded algebra]] over $\mathbb{F}_2$ whose [[chain homology]] is the second page of the [[classical Adams spectral sequence]].
 
-It has the advantage over the [[May spectral sequence]] that it tends to make the [extension proplem](spectral+sequence#ExtensionProblem) for the Adams spectral sequence more tractable ([Kochman 96, corollary 5.2.8](#Kochman96))
+It has the advantage over the [[May spectral sequence]] that it tends to make the [extension problem](spectral+sequence#ExtensionProblem) for the Adams spectral sequence more tractable ([Kochman 96, corollary 5.2.8](#Kochman96))
 
 ## Related concepts
 
