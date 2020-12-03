@@ -16,7 +16,12 @@
 
 ## Idea
 
-The _Adams e-invariant_ ([Adams 66, section 7](#Adams66)) is a collection of [[group]] [[homomorphisms]] from the [[stable homotopy groups of spheres]] to discrete groups like $\mathbb{Q}/\mathbb{Z}$. (...) Its [[kernel]] characterizes the [[coimage]] of the [[J-homomorphism]].
+
+
+The _$e$-invariant_ ([Adams 66, section 7](#Adams66)) is the second in a sequence of homotopy invariants of "stable maps", i.e. of [[morphisms]] in the [[stable homotopy category]] (in particular: of [[stable homotopy groups of spheres]]), being elements of [[Ext-groups]] between the [[homology groups]]/[[cohomology groups]] of the [[domain]] and [[codomain]] of the map, with respect to some suitable choice of [[Whitehead-generalized cohomology theory]] $E$. 
+
+The previous invariant in the sequence is the [[d-invariant]], the next is the [[f-invariant]]]. These are elements that appear on the second page of the $E$-[[Adams spectral sequence]].
+
 
 ## Definition
 
@@ -25,6 +30,8 @@ Let $X \overset{f}{\longrightarrow} Y$ be morphism in the [[stable homotopy cate
 Let $E$ be a [[multiplicative cohomology theory]], such that the [[d-invariant]] of $f$ in $E$ vanishes, hence such that pullback $f^\ast \;\colon\; E^\bullet(Y) \to E^\bullet(X)$ in $E$-cohomology is the [[zero morphism]]].
 
 The archetypical example is $f \;\colon\; S^{2n-1} \to S^{2n}$ a map out of an [[odd integer|odd]]-[[dimension|dimensional]] [[sphere]] and $E = KU$ [[complex topological K-theory]].
+
+### As an extension of Adams-operation modules
 
 Writing $C_f$ for the [[homotopy cofiber]] of $f$
 
@@ -74,7 +81,14 @@ $$
 
 and this is the e-invariant of $f$.
 
-(Discussion in this generality includes [BL 09, Sec. 2](#BL09))
+(Discussion in this generality includes [BL 09, Sec. 2](#BL09)).
+
+
+### As a cobordism invariant of manifolds with boundary
+ {#AsACobordismInvariantOfManifoldsWithBoundary}
+
+(...) [Conner-Floyd 66](#ConnerFloyd66) (...)
+
 
 ## Related concepts
 
