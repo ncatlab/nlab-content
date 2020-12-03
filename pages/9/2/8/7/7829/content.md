@@ -21,6 +21,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -31,7 +32,7 @@
 +-- {: .num_defn #SeriesDefinition}
 ###### Definition
 
-Given a [[self-adjoint operator]] $D$ (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a closed [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is given by the [[series]]
+Given a [[self-adjoint operator]] $D$ (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a [[closed manifold|closed]] [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is given by the [[series]]
 
 $$
   \begin{aligned}
@@ -234,6 +235,8 @@ See at _[[zeta function of a Riemann surface]]_ for more on this case.
 
 ## Related concepts
 
+* [[e-invariant]]
+
 * [[index of an operator]]
 
 * [[Spin Chern-Simons theory]]
@@ -324,8 +327,11 @@ with review and streamlined results in
 
 
 
-[[!redirects eta invariant]]
+[[!redirects eta-invariant]]
+[[!redirects Eta invariant]]
+
 [[!redirects eta invariants]]
+[[!redirects eta-invariants]]
 [[!redirects Eta invariants]]
 
 [[!redirects eta function]]
