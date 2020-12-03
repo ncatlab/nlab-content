@@ -35,7 +35,7 @@ In other words, a pregroup is a [[rigid monoidal category]] which is [[thin cate
 Note that a commutative pregroup is simply a [[group]].
 Here are a few variants of pregroups that appear in the literature, see [Coecke 2013](#Coecke13):
 
-* If we drop the anti-symmetry axiom for posets, we get a **quasi-pregroup**,
+* If we drop the anti-symmetry axiom for [[posets]], we get a **quasi-pregroup**,
 * If we drop the two expansion axioms, we get a **protogroup**.
 
 ### Free pregroups and the switching lemma
