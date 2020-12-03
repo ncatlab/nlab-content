@@ -87,6 +87,35 @@ The perspective that the [[K-theory]] $K \mathbb{F}_1$ over $\mathbb{F}_1$ shoul
 
 [[!include Segal completion -- table]]
 
+### The third stable framed bordism group
+
+The [[third stable homotopy group of spheres]] is the [[cyclic group]] of [[order of a group|order]] 24:
+
+$$
+  \array{
+    \pi_3^s &\simeq& \mathbb{Z}/24
+    \\
+    [h_{\mathbb{H}}] &\leftrightarrow& [1]
+  }
+$$
+
+where the generator $[1] \in \mathbb{Z}/24$ is represented by the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$.
+
+Under the [[Pontrjagin-Thom isomorphism]], identifying the [[stable homotopy groups of spheres]] with the [[bordism ring]] $\Omega^{fr}_\bullet$ of [[stable framing|stably framed]] manifolds (see at _[[MFr]]_), this generator is represented by the [[3-sphere]] (with its left-invariant framing induced from the identification with the [[Lie group]] [[SU(2)]] $\simeq$ [[Sp(1)]] )
+
+
+$$
+  \array{
+    \pi_3^s & \simeq & \Omega_3^{fr} 
+    \\
+    [h_{\mathbb{H}}] & \leftrightarrow & [S^3]
+    \,.
+  }
+$$
+
+Moreover, the relation $2 4 [S^3] \,\simeq\, 0$ is represented by the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold ([MO:a/44885/381](https://mathoverflow.net/a/44885/381), [MO:a/218053/381](https://mathoverflow.net/a/218053/381)).
+
+
 
 
 ### Kahn-Priddy theorem
