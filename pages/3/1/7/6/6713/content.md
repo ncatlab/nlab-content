@@ -225,17 +225,19 @@ $$
   ch \colon KK \to HL
 $$
 
-in real cohomology/[[cyclic cohomology]] is considered, $ch(D_Q(\xi))$. Moreover, traiditonally one thinks of first applying $ch$ to $\xi$ and then pushing forward in $HL$. By the [[C*-algebra|C*-algebraic]] [[Grothendieck-Riemann-Roch theorem]] this gives the [[isomorphism|isomorphic]] expression 
+in real cohomology/[[cyclic cohomology]] is considered, $ch(D_Q(\xi))$. Moreover, traditonally one thinks of first applying $ch$ to $\xi$ and then pushing forward in $HL$. By the [[C*-algebra|C*-algebraic]] [[Grothendieck-Riemann-Roch theorem]] this gives the [[isomorphism|isomorphic]] expression 
 
 $$
-  ch(D_Q(\xi)) \otimes_{C(X)_{\chi_B}} Todd
+  ch(D_Q(\xi)) 
+  \otimes_{C(X)_{\chi_B}} 
+  \sqrt{Todd}
   \in HL
   \,,
 $$
 
 where on the right we have the relative [[Todd class]]. This is the form the D-brane charge was originally found in the physics literature and in which it is still often given.
 
-(In ([BMRS2, section 8](#BMRS2)) this is discussed for the untwisted case.)
+(In ([BMRS2, Section 4](#BMRS2)) this is discussed for the untwisted case.)
 
 For more general discussion see at _[Freed-Witten anomaly -- Details](Freed-Witten+anomaly#Details)_ as well as at _[Poincar&#233; duality algebra -- Properties -- K-Orientation and Umkehr maps](Poincar%C3%A9+duality+algebra#PropertiesKOrientationAndUmkehrMaps)_.
 
