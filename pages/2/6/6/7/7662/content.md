@@ -80,6 +80,12 @@ $$
 
 where $B_k$ is the $k$th [[Bernoulli number]] ([Ando-Hopkins-Rezk 10, prop. 10.2](#AndoHopkinsRezk10)).
 
+### Relation to the Todd genus
+  {#RelationToTheToddGenus}
+
+Given the [[complexfication]] of a  [[real vector bundle]] $\mathcal{X}$ to a [[complex vector bundle]] $\mathcal{E} \otimes \mathbb{C}$, the $\hat A$-class of $\mathcal{E}$ is the [[square root]] of the [[Todd class]] of $\mathcal{E} \otimes \mathbb{C}$ (e.g. [de Lima 03, Prop. 7.2.3](#deLima03)).
+
+
 ### As a Rozansky-Witten invariant
 
 +-- {: .num_prop #RozanskyWittenWilsonLoopOfUnknotIsSquareRootOfAHat}
@@ -95,6 +101,8 @@ This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+
 
 ## Related entries
 
+* [[Todd genus]]
+
 * [[index of an elliptic complex]]
 
 [[!include genera and partition functions - table]]
@@ -103,10 +111,11 @@ This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+
 
 ## References
 
-The $\hat A$-genus as the index of the spin complex is discussed for instance in section 3 of
+The $\hat A$-genus as the index of the spin complex is discussed for instance in:
 
-* [[Peter Gilkey]], _The Atiyah-Singer Index Theorem -- Chapter 5_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/gilkey3.pdf))
- {#Gilkey}
+* {#Gilkey} [[Peter Gilkey]], Section 3 of: _The Atiyah-Singer Index Theorem -- Chapter 5_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/gilkey3.pdf))
+
+* {#deLima03} Levi Lopes de Lima, _The Index Formula for Dirac operators: an Introduction_, 2003 ([pdf](https://impa.br/wp-content/uploads/2017/04/PM_10.pdf)) 
 
 The relation of the characteristic series to the [[Bernoulli numbers]] is made explicit for instance in prop. 10.2 of
 
