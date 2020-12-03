@@ -4,9 +4,10 @@
 
 ## Selected writings
 
-Introducing [[Conner-Floyd Chern classes]]:
+Introducing [[Conner-Floyd Chern classes]] and the [[complex cobordism theory]]-interpretation of the [[e-invariant]] via the [[Todd genus]] of complex [[manifolds with boundary]]:
 
-* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _The relation of cobordism to $K$-theories_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
 
 On the [[torsion subgroup]] of the [[SU-bordism ring]]:
 
