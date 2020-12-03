@@ -50,7 +50,7 @@ Every effective epimorphism is, of course, a [[regular epimorphism]] and hence a
 
 * More generally, in any [[pretopos]], hence in particular in every [[topos]], every [[epimorphism]] is an effective epimorphism.  See, for instance, ([MacLane-Moerdijk, theorem IV.7.8](#MacLaneMoerdijk)).
 
-* In an [[(∞,1)-topos]] the bare notion of epimorphism disappears, and [[effective epimorphism in an (∞,1)-category]] becomes the default notion of epiness. A morphism in an $(\infty,1)$-topos is effective epi precisely if its [[n-truncated object in an (∞,1)-category|0-truncation]] is an epimorphism (hence an effective epimorphism) in the underlying 1-topos.
+* In an [[(∞,1)-topos]] the bare notion of epimorphism disappears, and [[effective epimorphism in an (∞,1)-category]] becomes the default notion of epiness. A morphism in an $(\infty,1)$-topos is effective epi precisely if its [[n-truncated object in an (∞,1)-category|0-truncation]] is an epimorphism (hence an effective epimorphism) in the underlying 1-topos. This is Proposition 7.2.1.14 in Higher Topos Theory.
 
 
 ## Related concepts
