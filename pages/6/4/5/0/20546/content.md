@@ -227,7 +227,7 @@ As [[type I' string theory]] at [[orbifold]] [[ADE-singularities]]:
 
 The [[F-theory]] perspective:
 
-* Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
+* [[Monika Marquart]], [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
 
 * Christoph Lüdeling, Fabian Ruehle, _F-theory duals of singular heterotic K3 models_, Phys. Rev. D 91, 026010 (2015) ([arXiv:1405.2928](https://arxiv.org/abs/1405.2928))
 
