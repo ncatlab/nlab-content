@@ -41,6 +41,13 @@ With due technical care, this data uniquely characterizes the elliptic fibration
 
 The remaining [[singularity|singular]] fibers follow an [[ADE classification]] ([Kodaira 64](#Kodaira64), [N&#233;ron 64](#Neron64), [Kodaira 66](#Kodaira66))
 
+## Examples
+
+### Elliptic fibration of K3-surfaces
+
+See at _[[elliptic fibration of a K3-surface]]_.
+
+
 ## Related entries
 
 * [[F-theory]]
