@@ -82,7 +82,7 @@ The concepts of K3-spectrum as such as considered in
 
 See also:
 
-* Oron Y. Propp, _Constructing explicit K3-spectra_ ([arXiv:1810.08953](https://arxiv.org/abs/1810.08953))
+* {#Propp18} Oron Y. Propp, _Constructing explicit K3-spectra_ ([arXiv:1810.08953](https://arxiv.org/abs/1810.08953))
 
 [[!redirects K3-spectra]]
 
