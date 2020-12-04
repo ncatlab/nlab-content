@@ -19,9 +19,9 @@ On [[string phenomenology]] in [[heterotic M-theory]]:
 * {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
 
 
-On the [[F-theory]]-perspective on [[M-theory on S1/G_HW times H/G_ADE]]:
+On the [[F-theory]]-perspective on [[heterotic M-theory on ADE-orbifolds]]:
 
-* Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
+* [[Monika Marquart]], [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
 
 On [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[supersymmetric cycles]]:
 
