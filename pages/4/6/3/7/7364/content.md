@@ -58,16 +58,29 @@ See at _[[elliptic fibration of a K3-surface]]_.
 
 ## References
 
-* Wikipedia, _[elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
+Specifically for [[complex surfaces]]:
+
 
 
 * {#Miranda88} [[Rick Miranda]], _The basic theory of elliptic surfaces_, lecture notes 1988 ([pdf](http://www.math.colostate.edu/~miranda/BTES-Miranda.pdf))
 
-* Viacheslav Nikulin, _Elliptic fibrations on K3 surfaces_ ([arXiv:1010.3904](http://arxiv.org/abs/1010.3904))
+
+* {#FriedmanMorgan94} [[Robert Friedman]], [[John Morgan]], _Smooth Four-Manifolds and Complex Surfaces_, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge / A Series of Modern Surveys in Mathematics (1994) ([doi:10.1007/978-3-662-03028-8](https://www.springer.com/gp/book/9783540570585))
+
 
 * Fedor Bogomolov, Yuri Tschinkel, _Monodromy of elliptic surfaces_ ([[MonodromyOfEllipticSurfaces.pdf:file]])
 
 * Takahiko Yoshida, _Locally standard torus fibrations_ [pdf](http://www.isc.meiji.ac.jp/~takahiko/papers/sympo.pdf)
+
+See also:
+
+* Wikipedia, _[elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
+
+
+Specifically for [[elliptically fibered K3-surfaces]]:
+
+* Viacheslav Nikulin, _Elliptic fibrations on K3 surfaces_ ([arXiv:1010.3904](http://arxiv.org/abs/1010.3904))
+
 
 The [[ADE classification]] of the possible singular fibers is due to 
 
