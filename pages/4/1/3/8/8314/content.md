@@ -175,6 +175,8 @@ $$
 
 * [[multiplicative group of integers modulo n]]
 
+* [[Q/Z]]
+
 * [[cyclic ring]]
 
 * [[p-localization]]
