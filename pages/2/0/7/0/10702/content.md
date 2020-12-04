@@ -196,7 +196,7 @@ For $X$ a [[topological space]], with [[rational cohomology]] in even degrees de
 
 $$
   H^{ev}(X;\, \mathbb{Q})
-  \;\colon\;
+  \;\coloneqq\;
   \underset{r \in \mathbb{N}}{\prod}
   H^{2 r}(X;\, \mathbb{Q})
 $$
