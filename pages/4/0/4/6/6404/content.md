@@ -127,7 +127,7 @@ A canonical textbook reference for the role of Calabi-Yau manifolds in compactif
 
 * [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
 
-  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]],  [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 Lecure notes in a more general context of [[string phenomenology]] include
@@ -138,6 +138,9 @@ Discussion of generalized Calabi-Yau backgrounds is for instance in
 
 * {#GMPT} [[Mariana Graña]], Ruben Minasian, Michela Petrini, Alessandro Tomasiello, _Generalized structures of $N=1$ vacua_ ([arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212))
   
+Mathematical background:
+
+* [[Tristan Hübsch]], _Calabi-Yau Manifolds -- A Bestiary for Physicists_, World Scientific 1992 ([doi:10.1142/1410](https://doi.org/10.1142/1410))
 
 
 
