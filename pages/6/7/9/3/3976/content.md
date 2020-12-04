@@ -47,7 +47,11 @@ $U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_
 
 ## Related concepts
 
-* A [[principal bundle]] with structure group the circle group is a [[circle bundle]]. The canonically corresponding [[associated bundle]] under the standard [[representation]] of $U(1) \hookrightarrow \mathbb{C}$ is a complex [[line bundle]].
+* A [[principal bundle]] with [[structure group]] the circle group is a [[circle bundle]]. The [[associated bundle]] under the standard [[linear representation]] of $U(1) \hookrightarrow \mathbb{C}$ is a [[complex line bundle]].
+
+* [[cyclic group]], [[Q/Z]]
+
+* [[circle 2-group]]
 
 [[!include low dimensional rotation groups -- table]]
 
@@ -56,5 +60,6 @@ $U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_
 [[!redirects R/Z]]
 [[!redirects U(1)]]
 [[!redirects SO(2)]]
+
 
 [[!redirects circle Lie group]]
