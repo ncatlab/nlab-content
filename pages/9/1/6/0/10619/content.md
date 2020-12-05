@@ -556,7 +556,7 @@ Remark \ref{ExtensionAfterForgettingAdamsModuleStructureIsTrivial}  that the [[A
 \]
 
 Namely, the first summands on the right are constrained to be as shown, by Example \ref{AdamsOperationOnComplexTopologicalKtheoryOfnSpheres} and using 
-that [[pullback in cohomology]] $i^\ast_{2n}$, $p^\ast_{2(n + n')}$(eq:PullbackInKCohomologyRespectsAdamsOperation) respects the [[Adams operations]] (Example \ref{AdamsOperationsOnComplexTopologicalKTheoryGroups}); while the second summand, which vanishes under $i^\ast_{2n}$ is some multiple  
+that [[pullback in cohomology]] $i^\ast_{2n}$, $p^\ast_{2(n + n')}$(eq:PullbackInKCohomologyRespectsAdamsOperation) respects the [[Adams operations]] (Example \ref{AdamsOperationsOnComplexTopologicalKTheoryGroups}); while the second summand, which vanishes under $i^\ast_{2n}$, must be some multiple  
 
 $$
   \mu_k(f) \;\in\; \mathbb{Z}
