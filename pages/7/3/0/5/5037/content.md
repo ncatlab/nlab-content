@@ -146,9 +146,13 @@ For an interval-based approach see
 
 * {#Venema91} Yde Venema, _A modal logic for chopping intervals_. Journal of Logic and Computation, 1(4), pp. 453–476, 1991.
 
-For a temporal type theory see
+For versions of temporal type theory see
 
 * {#SchSpi17} Patrick Schultz, David Spivak, _Temporal Type Theory: A topos-theoretic approach to systems and behavior_, ([arXiv:1710.10258](https://arxiv.org/abs/1710.10258))
+
+
+* {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020, Sec. 4.3 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404))
+
 
 [[!redirects temporal logic]]
 [[!redirects temporal logics]]
