@@ -49,7 +49,8 @@ $$
 for $k \in \mathbb{N}$ by taking their restriction to degree $2r$ to act by multiplication with $k^r$:
 
 
-$$
+\[
+  \label{AdamsOperationOnOrdinaryCohomologyInDegree2r}
   \array{
     H^{2r}(X;\mathbb{Q})
     &\overset{\;\;\;\psi^k_H\;\;\;}{\longrightarrow}&
@@ -58,7 +59,7 @@ $$
     \alpha_{2k} &\mapsto& k^{r} \cdot \alpha
     \,.
   }
-$$
+\]
 
 
 =--
