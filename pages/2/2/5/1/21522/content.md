@@ -32,6 +32,6 @@ Hence, with the pertinent conditions on the [[domain]] [[space]] $X$ satisfied, 
 
 * [[complex vector space]]
 
-* [[rational cohomology]], [[real cohomology]]
+* [[integral cohomology]], [[rational cohomology]], [[real cohomology]]
 
 
