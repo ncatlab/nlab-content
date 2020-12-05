@@ -65,7 +65,7 @@ $$
 
 * [[rational vector space]]
 
-* [[real cohomology]]
+* [[integral cohomology]], [[real cohomology]], [[complex cohomology]]
 
 * [[rational Cohomotopy]]
 
