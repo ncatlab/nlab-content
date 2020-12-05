@@ -1048,9 +1048,12 @@ $$
        \big(
          V_{2(n+n')}
        \big)
+       \,.
     }
   }
 $$
+
+(See also [Conner-Floyd 66, p. 100](#ConnerFloyd66).)
 
 The evaluation of this cohomology class on the [[fundamental class]] of $C_f$ picks out the [[coefficient]] of $ch\big( V_{2(n+n')} \big)$, by (eq:ChernCharacterOnCofiverSpaceOfGeneratorofTopCell):
 
