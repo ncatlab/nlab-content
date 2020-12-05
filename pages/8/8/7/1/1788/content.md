@@ -1,4 +1,90 @@
 
+$$
+  \psi^k
+  \;\colon\;
+  \left[
+  \array{
+    V_{2 n }
+    \\
+    V_{2(n + n')}
+  }
+  \right]
+  \;\;\;
+  \mapsto
+  \;\;\;
+  \left[
+  \array{
+    k^n
+    & 
+    e(f) \, k^n (k^{n'} - 1)
+    \\
+    0 & k^{n + n'}
+  }
+  \right]
+  \cdot
+  \left[
+  \array{
+    V_{2 n }
+    \\
+    V_{2(n + n')}
+  }
+  \right]
+$$
+
+$$
+  k^n a + e(f) k^n(k^{n'}-1) = k^{n + n'} a
+$$
+
+$$
+  a 
+  = 
+  e(f)
+$$
+
+$$
+  ch\big( 
+    V_{2(n + n')} 
+  \big)
+  =
+  -
+  e(f)
+  \cdot
+  \underset{
+    \in \, H^{2n}(C_f;\, \mathbb{Q})
+  }{
+    \underbrace{
+    \mathclap{\phantom{\Big(}}
+    ch\big(
+      V_{2 n}
+    \big)
+    \mathclap{\phantom{\Big)}}
+    }
+  }
+  +
+  \underset{
+    \in \, H^{2(n + n')}(C_f;\, \mathbb{Q})
+  }{
+  \underbrace{
+  \Big(
+    e(f)
+    \cdot
+    ch\big( 
+      V_{2 n}
+    \big) 
+    + 
+    ch\big(
+      V_{2(n + n')}
+    \big)
+  \Big)
+  }
+  }
+$$
+
+
+\linebreak
+
+\linebreak
+
 +-- {: .num_defn #AbelianGroupWithAdamsOperations} 
 ###### Definition
 **(abelian group with Adams operations)**
