@@ -1,4 +1,16 @@
 
+
+\linebreak
+
+
+### As the $2(n+n')$-form component of the Chern character on cofiber space
+  {#AsThe2nFormComponentOfTheChernCharacterOnCofiberSpaces}
+
+(...) under construction (...)
+
+By (eq:ActionOfAdamsOperationsOnCofiberSpace) we have,
+now in [[matrix calculus]]-notation:
+
 $$
   \psi^k
   \;\colon\;
@@ -18,7 +30,9 @@ $$
     & 
     e(f) \, k^n (k^{n'} - 1)
     \\
-    0 & k^{n + n'}
+    0
+    & 
+    k^{n + n'}
   }
   \right]
   \cdot
@@ -29,151 +43,148 @@ $$
     V_{2(n + n')}
   }
   \right]
+  \;\;\;\;\;
+  \in
+  \;
+  \widetilde K\big( C_f \big)
+  \,.
 $$
 
-$$
-  k^n a + e(f) k^n(k^{n'}-1) = k^{n + n'} a
-$$
+The [[eigenvectors]] to this operation over the [[rational numbers]] would be:
 
 $$
-  a 
-  = 
-  e(f)
+  \psi^k_{\mathbb{Q}} 
+    \;\;\colon\;\; 
+  \left\{
+  \array{
+     \big(
+       V_{2 n} 
+       -
+       e(f)
+       \cdot
+       V_{2(n + n')}
+     \big) 
+     &
+       \mapsto
+     & 
+       k^{n } 
+     &
+       \cdot 
+     & 
+     \big(
+       V_{2 n} 
+       -
+       e(f)
+       \cdot
+       V_{2(n + n')}
+     \big) 
+     \\
+     V_{2(n+n')} 
+     &
+       \mapsto
+     & 
+       k^{n + n'} 
+     &
+       \cdot 
+     & 
+      V_{2 (n + n')}
+   }
+  \right.
 $$
 
+
+Since the [[Adams operations are compatible with the Chern character]], this means equivalently that under the [[Chern character]] map $ch$ we have in [[ordinary cohomology|ordinary]] [[rational cohomology]]:
+
 $$
-  ch\big( 
-    V_{2(n + n')} 
+  \psi^k_H 
+    \;\;\colon\;\; 
+  \left\{
+  \array{
+     ch
+     \big(
+       V_{2 n} 
+       -
+       e(f)
+       \cdot
+       V_{2(n + n')}
+     \big) 
+     &
+       \mapsto
+     & 
+       k^{n } 
+     &
+       \cdot 
+     & 
+     ch
+     \big(
+       V_{2 n} 
+       -
+       e(f)
+       \cdot
+       V_{2(n + n')}
+     \big) 
+     \\
+     ch
+     \big(
+       V_{2(n+n')} 
+     \big)
+     &
+       \mapsto
+     & 
+       k^{n + n'} 
+     &
+       \cdot 
+     & 
+     ch
+     \big(
+        V_{2 (n + n')}
+     \big)
+   }
+  \right.
+  \;\;\;\;
+  \in
+  \;
+  H^{ev}\big( C_f; \, \mathbb{Q} \big)
+$$
+
+But since the [[eigenvectors]] of $\psi^k_H $ to [[eigenvalue]] $k^r$ are precisely the classes in $H^{2r}\big( C_f;\, \mathbb{Q} \big) \,\subset\, H^{ev}\big( C_f;\, \mathbb{Q} \big)$ (see [there](Adams+operations+compatible+with+the+Chern+character#eq:AdamsOperationOnOrdinaryCohomologyInDegree2r)), this means that
+
+$$
+  ch
+  \big(
+    V_{2n}
   \big)
-  =
-  -
-  e(f)
-  \cdot
+  \;\;=\;\;
   \underset{
-    \in \, H^{2n}(C_f;\, \mathbb{Q})
+    \in \; H^{2n}\big( C_f; \, \mathbb{Q} \big)
   }{
     \underbrace{
-    \mathclap{\phantom{\Big(}}
-    ch\big(
-      V_{2 n}
-    \big)
-    \mathclap{\phantom{\Big)}}
+       ch
+       \big(
+          V_{2n}
+          - 
+          e(f)
+          \cdot
+          V_{2(n+n')}
+       \big)
     }
   }
-  +
+  \;+\;
   \underset{
-    \in \, H^{2(n + n')}(C_f;\, \mathbb{Q})
+    \in \; H^{2(n + n')}\big( C_f; \, \mathbb{Q} \big)
   }{
-  \underbrace{
-  \Big(
-    e(f)
-    \cdot
-    ch\big( 
-      V_{2 n}
-    \big) 
-    + 
-    ch\big(
-      V_{2(n + n')}
-    \big)
-  \Big)
-  }
+    \underbrace{
+       ch
+       \big(
+          e(f)
+          \cdot
+          V_{2(n+n')}
+       \big)
+    }
   }
 $$
 
-
-\linebreak
-
-\linebreak
-
-+-- {: .num_defn #AbelianGroupWithAdamsOperations} 
-###### Definition
-**(abelian group with Adams operations)**
-
-We say that an _abelian group with Adams operation_ $\big(A,\{\psi_A^k\}_{k \in \mathbb{N}}\big)$ is an [[abelian group]] $A$ equipped with an [[action]] of the [[multiplicative group|multiplicative]] [[monoid]] $(\mathbb{N}, \cdot)$ of [[natural numbers]], hence equipped with [[group homomorphism]]
-
-$$
-  \psi_A^k \;\colon\; A \to A
-  \,,
-  \;\;\;
-  k \in \mathbb{N}
-$$
-
-such that 
-
-$$
-  \psi_A^{k_1}
-  \circ
-  \psi_A^{k_2}
-  \;=\;
-  \psi_A^{ k_1 \cdot k_2 }
-  \,,
-  \;\;\;\;\;\;\;\;\;
-  \text{for all}
-  \,
-  k_1, k_2 \,\in\, \mathbb{N}
-  \,.
-$$
-
-Moreover, for $\big(A,\{\psi_A^k\}_{k \in \mathbb{N}}\big), \, \big(A',\{\psi_{A'}^k\}_{k \in \mathbb{N}}\big)$ two abelian groups with Adams operations, a [[homomorphism]] between them is a [[group homomorphism]] (a [[linear map]]) $\phi \;\colon\; A \to A'$ which respect these operations, hence such that the following [[commuting square|squares commute]]:
-
-$$
-  \array{
-    A &\overset{\;\;\;\phi\;\;\;}{\longrightarrow}& A'
-    \\
-    {}^{\mathllap{ \psi^k_A }}  
-    \big\downarrow 
-    && 
-    \big\downarrow
-    {}^{\mathrlap{\psi_{A'}^k}}
-    \\
-    A &\overset{\;\;\;\phi\;\;\;}{\longrightarrow}& A'
-    \,,
-  }
-  \;\;\;\;\;\;\;\;
-  \text{for all}
-  \;
-  k \in \mathbb{N}
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_example} 
-###### Example
-
-For $X$ a [[compact topological space]], the  [[complex topological K-theory]] [[cohomology group|group]] $K(X)$ becomes an abelian group with Adams operations in the sense of Def. \ref{AbelianGroupWithAdamsOperations}, via the actual [[Adams operations]], hence so does the [[reduced K-theory]] $\widetilde K(X)$:
-
-$$
-  \array{
-    \widetilde K(X)
-    &\overset{\;\;ker(i^\ast)\;\;}{\longrightarrow}&
-    K(X)
-    &\overset{\;i^\ast\;}{\longrightarrow}&
-    K(\ast)
-    \\
-    \big\downarrow
-    {}^{\mathrlap{\psi^k_{\widetilde K(X)}}}
-    &&
-    \big\downarrow
-    {}^{\mathrlap{\psi^k_{K(X)}}}
-    &&
-    \big\downarrow
-    {}^{\mathrlap{\psi^k_{K(\ast)}}}
-    \\
-    \widetilde K(X)
-    &\underset{\;\;ker(i^\ast)\;\;}{\longrightarrow}&
-    K(X)
-    &\underset{\;i^\ast\;}{\longrightarrow}&
-    K(\ast)
-  }
-$$
+Hence we find that the e-invariant measures equivalently the rational offset of the degree-$2(n+n')$-component of the Chern character of the choice of lift of the generator $V_{2n} \,\in\, \widetilde K(S^{2n})$ to $ \widetilde K(C_f)$
 
 (...)
 
-=--
-
-
-Throughout, we write $\widetilde K(-) \,\coloneqq\, \widetilde KU^0(-)$ for the [[reduced cohomology|reduced]] [[complex topological K-theory]]-[[cohomology groups|groups]], regarded as ahelian groups with Adams operations.
-
-llll
