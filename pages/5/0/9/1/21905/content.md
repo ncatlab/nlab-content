@@ -100,6 +100,12 @@ Detailed review is in [Maakestad 06, Thm. 4.9](#Maakestad06)
 
 =--
 
+## Related entries
+
+* [[e-invariant]]
+
+
+
 ## References
 
 Review and exposition:
