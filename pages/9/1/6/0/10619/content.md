@@ -840,8 +840,9 @@ $$
   {#AsThe2nFormComponentOfTheChernCharacterOnCofiberSpaces}
 
 
-+-- {: .num_prop } 
++-- {: .num_prop #QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace} 
 ###### Proposition
+**([[Q/Z]]-valued [[e-invariant]] is top-degree coefficient of [[Chern character]] on cofiber space)**
 
 In the situation of Example \ref{TheDefinignSESInComplexTopologicalKTheory}, with 
 
