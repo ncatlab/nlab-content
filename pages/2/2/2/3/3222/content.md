@@ -11,7 +11,7 @@
 
 On [[K-theory]]:
 
-* _$K$-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften, Band __226__, Springer 1978. xviii+308 pp. 
+* {#Karoubi78} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 * _Lectures on K-theory_, Proc. of the Trieste Conference in 2002, Contemporary Developments in Algebraic K-theory, ICTP Lecture notes __15__ (2003).
 
