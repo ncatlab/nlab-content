@@ -120,7 +120,7 @@ $$
   S^{2n-1} \overset{f}{\longrightarrow} S^n
 $$
 
-be a map (eq:TheMap). Then its $E$-Hopf invariant "is" the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]] of [[pointed homotopy types]]:
+be a map (eq:TheMap). Then its $E$-Hopf invariant "is" the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]] of [[pointed homotopy types]] (see also at _[[e-invariant is Todd class of cobounding (U,fr)-manifold]]_):
 
 \begin{imagefromfile}
         "file_name": "HopfInvariantPastingDiagram.jpg",
