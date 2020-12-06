@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -137,7 +138,10 @@ Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] an
 
 ([Conner-Floyd 66, Theorem 16.2](#ConnerFloyd66))
 
-The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings) is the observation ([Conner-Floyd 66, p. 100-101](#ConnerFloyd66)) that the representing map (eq:InTermsOfHomotopyGroupsOfQuotientedThomSpace) for a $(U,fr)$-manifold $M^{2k}$ cobounding a $Fr$-manifold represented by a map $f$ is given by the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]] (see also at _[[Hopf invariant]] -- [In generalized cohomology](Hopf+invariant#InGeneralizedCohomology)_):
++-- {: .proof #TheProof}
+###### Proof
+
+The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings) is the observation ([Conner-Floyd 66, p. 100-101](#ConnerFloyd66)) that the representing map (eq:InTermsOfHomotopyGroupsOfQuotientedThomSpace) for a [[(U,fr)-manifold]] $M^{2k}$ cobounding a $Fr$-manifold represented by a map $f$ is given by the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]] (see also at _[[Hopf invariant]] -- [In generalized cohomology](Hopf+invariant#InGeneralizedCohomology)_):
 
 \begin{imagefromfile}
         "file_name": "CoboundingUFrManifoldDiagrammatically.jpg",
@@ -155,6 +159,32 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
+From this, Conner-Floyd conclude by essentially  considering the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]]:
+
+\begin{imagefromfile}
+        "file_name": "eInvariantIsTdClassOfCoboundingUFrMfd-Diagram.jpg",
+        "web": "nlab",
+        "width": 650,
+        "unit": "px",
+        "margin": {
+            "top": -20,
+            "right": 0,
+            "bottom": 20,
+            "left": 20,
+            "unit": "px"
+        },
+        "alt": "homotopy pasting diagram exhibiting that the e-invariant equals the Todd class of any cobounding UFr-manifold",
+        "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
+\end{imagefromfile}
+
+
+Here:
+
+1. For the identification of the [[Todd class]] $Td$ in the bottom of the diagram we used that [[the rational Todd class is the Chern character of the Thom class]];
+
+1. for top magenta arrow we used that that the [[Q/Z]]-valued [[e-invariant]] is the top-degree component of the [[Chern character]] of any [[complex topological K-theory]]-class $V_{2n} \coloneqq \sigma \circ c$ lifting $\Sigma^{2n} 1 \in \widetilde K(S^{2n})$ to $C_f$ ([this Prop.](Adams+e-invariant#QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace)).
+
+=--
 
 ## Related statements
 
