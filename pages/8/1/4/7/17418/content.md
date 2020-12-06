@@ -31,7 +31,7 @@ The basic combinators can be defined in terms of $\lambda$-calculus as
 
 In [[simply typed lambda-calculus]], these combinators are [[polymorphic]] with types
 
-* $S : (A \to (B\to C)) \to (A\to B) \to (A\to C)$
+* $S : (A \to (B\to C)) \to [(A\to B) \to (A\to C)]$
 * $K : A\to (B\to A)$
 * $I : A\to A$
 
