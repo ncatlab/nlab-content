@@ -99,6 +99,8 @@ Formalization of set theory in [[homotopy type theory]] (via [[h-sets]]) is disc
 
 * J&#233;r&#233;my Ledent, _Modeling set theory in homotopy type theory_ (2014) ([pdf](http://perso.ens-lyon.fr/jeremy.ledent/internship_report.pdf))
 
+* Håkon Robbestad Gylterud, Elisabeth Bonnevier, _Non-wellfounded sets in homotopy type theory_ ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
+
 See also at [[homotopy type theory FAQ]] _[What is HoTT? -- For set theorists](homotopy+type+theory+FAQ#WhatIsHoTTForSetTheorists)_.
 
 
