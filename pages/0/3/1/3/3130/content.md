@@ -284,6 +284,8 @@ Original Discussion of the Chern character on complex [[topological K-theory]]:
 
 * {#Hilton71} [[Peter Hilton]], _General cohomology theory and K-theory_, London Mathematical Society Lecture Note Series 1, Cambridge University Press (1971) ([doi:10.1017/CBO9780511662577](https://doi.org/10.1017/CBO9780511662577))
 
+* {#Karoubi78} [[Max Karoubi]], Chapter V.3 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
+
 
 Further discussion 
 
