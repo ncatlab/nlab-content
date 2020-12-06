@@ -157,6 +157,46 @@ Generalizing in another direction, generalized Chern characters are given by pas
 
 ## Properties
 
+### Intertwining Thom classes with Todd classes
+
+
++-- {: .num_prop #RationalToddClassIsChernCharacterOfThomClass} 
+###### Proposition
+**([[rational Todd class is Chern character of Thom class]])**
+
+Let $V \to X$ be a [[complex vector bundle]] over a [[compact topological space]]. Then the [[Todd class]] $Td(V) \,\in\, H^{ev}(X; \mathbb{Q})$ of $V$ in [[rational cohomology]] equals the [[Chern character]] $ch$ of the [[Thom class]] $th(V) \,\in\, K\big( Th(V) \big)$ in the [[complex topological K-theory]] of the [[Thom space]] $Th(V)$, when both are compared via the [[Thom isomorphisms]] $\phi_E \;\colon\; E(X) \overset{\simeq}{\to} E\big( Th(V)\big)$:
+
+$$
+  \phi_{H\mathbb{Q}}  
+  \big( 
+    Td(V)
+  \big) 
+  \;=\;
+  ch\big( th(V) \big)
+  \,.
+$$
+
+More generally , for $x \in K(X)$ any class, we have
+
+$$
+  \phi_{H\mathbb{Q}}  
+  \big(
+    ch(x)
+    \cup
+    Td(V)
+  \big) 
+  \;=\;
+  ch\big( \phi_{K}(x) \big)
+  \,,
+$$
+
+which specializes to the previous statement for $x = 1$.
+
+=--
+
+([Karoubi 78, Chapter V, Theorem 4.4](rational+Todd+class+is+Chern+character+of+Thom+class#Karoubi78))
+
+
 ### Push-forward and Grothendieck-Riemann-Roch theorem
 
 The behaviour of the Chern-character under [[fiber integration in generalized cohomology]] along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
