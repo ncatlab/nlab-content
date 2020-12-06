@@ -581,7 +581,46 @@ is discussed in ([Hopkins, last pages](#Hopkins)).
 
 ## Properties
 
-### Relation between Thom classes and trivializations
+### Relation to the Todd class 
+
++-- {: .num_prop #RationalToddClassIsChernCharacterOfThomClass} 
+###### Proposition
+**([[rational Todd class is Chern character of Thom class]])**
+
+Let $V \to X$ be a [[complex vector bundle]] over a [[compact topological space]]. Then the [[Todd class]] $Td(V) \,\in\, H^{ev}(X; \mathbb{Q})$ of $V$ in [[rational cohomology]] equals the [[Chern character]] $ch$ of the [[Thom class]] $th(V) \,\in\, K\big( Th(V) \big)$ in the [[complex topological K-theory]] of the [[Thom space]] $Th(V)$, when both are compared via the [[Thom isomorphisms]] $\phi_E \;\colon\; E(X) \overset{\simeq}{\to} E\big( Th(V)\big)$:
+
+$$
+  \phi_{H\mathbb{Q}}  
+  \big( 
+    Td(V)
+  \big) 
+  \;=\;
+  ch\big( th(V) \big)
+  \,.
+$$
+
+More generally , for $x \in K(X)$ any class, we have
+
+$$
+  \phi_{H\mathbb{Q}}  
+  \big(
+    ch(x)
+    \cup
+    Td(V)
+  \big) 
+  \;=\;
+  ch\big( \phi_{K}(x) \big)
+  \,,
+$$
+
+which specializes to the previous statement for $x = 1$.
+
+=--
+
+([Karoubi 78, Chapter V, Theorem 4.4](rational+Todd+class+is+Chern+character+of+Thom+class#Karoubi78))
+
+
+### Relation to trivializations
 
 The relation (equivalence) between choices of [[Thom classes]] and trivializations of [[(∞,1)-line bundles]] is 
 discussed e.g. in [Ando-Hopkins-Rezk 10, section 3.3](#AndoHopkinsRezk10)
