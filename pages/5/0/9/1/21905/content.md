@@ -96,7 +96,7 @@ $$
 
 Use the exponentional-formula for the [[Chern character]] with the  [[splitting principle]].
 
-Detailed review is in [Maakestad 06, Thm. 4.9](#Maakestad06)
+E.g. [Karoubi 78, Chapter V, Theorem 3.27](#Karoubi78), review in [Maakestad 06, Thm. 4.9](#Maakestad06).
 
 =--
 
@@ -107,6 +107,10 @@ Detailed review is in [Maakestad 06, Thm. 4.9](#Maakestad06)
 
 
 ## References
+
+Textbook accounts:
+
+* {#Karoubi78} [[Max Karoubi]], Theorem V3.27 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 Review and exposition:
 
