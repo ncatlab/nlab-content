@@ -23,29 +23,32 @@ The index theorem generalizes earlier results such as the [[Riemann-Roch theorem
 
 ### General
 
-The original articles are
+The original articles:
 
 * [[Michael Atiyah]], [[Isadore Singer]], _The index of elliptic operators I_, Ann. of Math. (2) __87__ (1968)  pp. 484&#8211;530; _III_,  Ann. of Math. (2) __87__  (1968)  pp. 546&#8211;604; _IV_,  Ann. of Math. (2) __93__  (1971)  pp. 119&#8211;138; _V_,  Ann. of Math. (2) __93__  (1971)  pp. 139&#8211;149
 
 * [[Michael Atiyah]], [[Graeme Segal]], _The index of elliptic operators II_,  Ann. of Math. (2) __87__ (1968)  pp. 531&#8211;545
 
-A proof of the Atiyah-Singer index theorem in terms of  [[KK-theory]]/[[E-theory]] has been given by [[Nigel Higson]], an account is in
+Review:
 
-* [[Nigel Higson]], [[John Roe]], _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ (2004) ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
- {#HigsonRoe}
-
-A lightning review of the proof is on the last pages of
-
-* _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
- {#Introduction}
-
-An introductory talk is given in
+* {#Gilkey95} [[Peter Gilkey]], Section 5.2 of: _Invariance Theory: The Heat Equation and the Atiyah-Singer Index Theorem_, 1995 ([pdf](https://pages.uoregon.edu/gilkey/dirPDF/InvarianceTheory1Ed.pdf))
 
 * Rafe Mazzeo, _The Atiyah-Singer Index theorem: what it is and why you should care_, ([slides](https://www2.bc.edu/patrick-orson/indextheory/asit3.pdf))
 
 See also 
 
 * Wikipedia, _[Atiyah-Singer index theorem](http://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem)_
+
+
+A proof of the Atiyah-Singer index theorem in terms of  [[KK-theory]]/[[E-theory]] has been given by [[Nigel Higson]], an account is in
+
+* {#HigsonRoe} [[Nigel Higson]], [[John Roe]], _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ (2004) ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
+ 
+
+A lightning review of the proof is on the last pages of
+
+* {#Introduction} _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
+ 
 
 
 ### From the point of view of physics
