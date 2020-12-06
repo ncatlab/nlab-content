@@ -113,6 +113,7 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 For more see at _[[cobordism cohomology theory]]_.
 
 A relation to [[fixed point spaces]]:
+
 * {#Prieto03} Carlos Prieto, _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([Euclid](https://projecteuclid.org/euclid.tmna/1475266278))
 
 
@@ -131,6 +132,10 @@ A relation to [[fixed point spaces]]:
 
 [[!redirects cobordism class]]
 [[!redirects cobordism classes]]
+[[!redirects bordism class]]
+[[!redirects bordism classes]]
+
+
 
 [[!redirects bordism theory]]
 
