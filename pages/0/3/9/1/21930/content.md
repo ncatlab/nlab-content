@@ -75,14 +75,33 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[MU]]
 
+### 13. Characteristic numbers from K-theory
+
 * [[Todd class]]
 
 * [[Todd genus]]
 
+### 14. The theorem of Stong and Hattori
+
+### 15. $U$-Manifolds with stably framed boundaries
+
+### 16. The bordism groups $\Omega^{U,fr}_\bullet$
 
 * [[manifold with boundary]]
 
+* [[MUFr]]
 
 * [[e-invariant]]
+
+* [[e-invariant is Todd class of cobounding (U,fr)-manifold]]
+
+
+### 17. The groups $\Omega^{\mathrm{U}, SU}_\bullet$
+
+### 18. The image of $\Omega^{fr}_{\bullet}$ in $\Omega^{SU}_\bullet$
+
+
+
+
 
 category: reference
