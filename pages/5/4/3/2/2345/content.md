@@ -30,11 +30,13 @@ For the generalisation of this to higher categories, see [[semistrict higher cat
 
 Here we present explicitly the definition for the middling notion of a pseudofunctor, and comment on alterations that yield the stronger and weaker notions.
 
-####Pseudofunctor
+####Pseudofunctor between strict $2$-categories
 
-Let $\mathfrak{C}$ and $\mathfrak{D}$ be [[2-categories]]. A pseudofunctor $F:\mathfrak{C}\to\mathfrak{D}$ consists of
+Let $\mathfrak{C}$ and $\mathfrak{D}$ be strict [[2-categories]]. A pseudofunctor $F:\mathfrak{C}\to\mathfrak{D}$ consists of
 
-* A function $P:Ob_\mathfrak{C}\to Ob_\mathfrak{D}$, and for each pair of objects $A,B\in Ob_\mathfrak{C}$ a functor 
+* A function $P:Ob_\mathfrak{C}\to Ob_\mathfrak{D}$.
+
+* For each pair of objects $A,B\in Ob_\mathfrak{C}$ a functor 
 
 \begin{centre}
 
@@ -44,25 +46,49 @@ $P_{A,B}:\mathfrak{C}(A,B)\to\mathfrak{D}(P(A),P(B)).$
 
 We will generally write the function and functors as $P$.
 
-* For each pair of horizontally composable 1-cells $(f,g)\in Ob_{\mathfrak{C}(B,C)}\times Ob_{\mathfrak{C}(A,B)}$, a $2$-cell isomorphism $\gamma_{f,g}:P(g)\circ P(f) \Rightarrow P(g\circ f)$ as below 
+* For each pair triplet of objects $A,B,C\in{\bf Ob}_\mathfrak{C}$, a natural isomorphism
 
 \begin{centre}
 
 \begin{xymatrix@C20mm}
 
-P(A) \rtwocell^{P(g)\circ P(f)}_{P(g\circ f)}{\;\;\;\;\gamma_{f,g}} & P(C)
+\mathfrak{C}(B,C)\times\mathfrak{C}(A,B) \rtwocell^{P\circ\Gamma}_{\Gamma\circ(P\times P)}{\gamma} & \mathfrak{D}(P(A),P(C))
 
 \end{xymatrix}
 
 \end{centre}
 
-* For each object object $A\in Ob_\mathfrak{C}$, a $2$-cell isomorphism $\iota_A:1_{P(A)}\Rightarrow P(1_A)$ called the _unitor_ as below
+whose components are $2$-cell isomorphisms $\gamma_{f,g}:P(g)\circ P(f) \Rightarrow P(g\circ f)$ as below 
 
 \begin{centre}
 
 \begin{xymatrix@C20mm}
 
-P(A) \rtwocell^{1_{P(A)}}_{P(1_A)}{\;\;\;\;\iota_A} & P(A)
+P(A) \rtwocell_{P(g)\circ P(f)}^{P(g\circ f)}{\;\;\;\;\gamma_{f,g}} & P(C)
+
+\end{xymatrix}
+
+\end{centre}
+
+* For each object object $A\in Ob_\mathfrak{C}$, a natural isomorphism
+
+\begin{centre}
+
+\begin{xymatrix@C20mm}
+
+1 \rtwocell^{P\circ id_A\;\;\;\;\;\;}_{id_{P(A)}\;\;\;\;\;\;}{\iota\;\;\;\;\;\;\;\;\;\;} & \mathfrak{D}(P(A),P(A))
+
+\end{xymatrix}
+
+\end{centre}
+
+where $1$ denotes the terminal category and $id_A$ is the identity-selecting functor at $A$. This amounts to a $2$-cell isomorphism $\iota_{_*}:1_{P(A)}\Rightarrow P(1_A)$ as below
+
+\begin{centre}
+
+\begin{xymatrix@C20mm}
+
+P(A) \rtwocell_{1_{P(A)}}^{P(1_A)}{\;\;\;\;\iota_*} & P(A)
 
 \end{xymatrix}
 
