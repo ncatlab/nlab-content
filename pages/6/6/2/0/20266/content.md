@@ -1,4 +1,4 @@
-O(
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -15,41 +15,50 @@ O(
 
 ## Idea
 
-The concept of a [[special linear group]] $SL(2,K)$ with $K = \mathbb{O}$ the [[octonions]] does not quite make sense, due to the failure of the [[octonions]] to be an [[associative algebra]]. 
+The concept of a [[special linear group]] $SL(2,K)$ with $K = \mathbb{O}$ the [[octonions]] does not literally make sense, due to the failure of the [[octonions]] to be an [[associative algebra]]. 
 
-Nevertheless, the pattern of the [[special linear groups]] of the other three [[real numbers|real]] [[normed division algebras]] suggests that for some suitably adjusted concept of "special linear group", it should make sense to speak of $SL(2,\mathbb{O})$, after all, and that it should essentially be essentially the [[spin group]] $Spin(9,1)$:
+Nevertheless, the pattern of the [[special linear groups]] of the other three [[real numbers|real]] [[normed division algebras]] suggests that for some suitably adjusted concept of "special linear group", it should make sense to speak of $SL(2,\mathbb{O})$, after all, and that it should essentially be the [[spin group]] $Spin(9,1)$:
 
 [[!include exceptional spinors and division algebras -- table]]
 
-[Dray and Manogue](#DM10) have shown how to interpret $Spin(9,1)$ as $SL(2,\mathbb{O})$ is as follows.   First, a warmup with the complex numbers. The space $\mathfrak{h}_2(\mathbb{C})$ of $2 \times 2$ hermitian matrices with entries in $\mathbb{C}$ may be identified with 4-dimensional Minkowski spacetime, since the determinant is a quadratic form of signature $(1,3)$.  Any element $g \in \mathrm{SL}(2,\mathbb{C})$ acts as a linear transformation of $\mathfrak{h}_2(\mathbb{C})$ as follows: 
+## Realizations
+
+### By Dray-Manogue
+
+[Dray and Manogue 10](#DM10) have shown how to interpret $Spin(9,1)$ as $SL(2,\mathbb{O})$ as follows.   
+
+First, a warmup with the [[complex numbers]]. The space $\mathfrak{h}_2(\mathbb{C})$ of $2 \times 2$ [[hermitian matrices]] with entries in $\mathbb{C}$ may be identified with 4-dimensional [[Minkowski spacetime]], since the [[determinant]] is a [[quadratic form]] of [[signature of a quadratic form|signature]] $(1,3)$.  Any element $g \in \mathrm{SL}(2,\mathbb{C})$ acts as a linear transformation of $\mathfrak{h}_2(\mathbb{C})$ as follows: 
 
 $$  X \mapsto g X g^\ast , \qquad X \in \mathfrak{h}_2(\mathbb{C})  $$
 
-and this action preserves the determinant on $\mathfrak{h}_2(\mathbb{C})$, so we obtain a homomorphism from $\mathrm{SL}(2,\mathbb{C})$ to $\mathrm{O}(1,3)$.  In fact this is a 2-1 homomorphism from $\mathrm{SL}(2,\mathbb{C})$ onto $SO_0(1,3)$.   Since $\mathrm{SL}(2,\mathbb{C})$ is simply connected, this allows us to identify $\mathrm{SL}(2,\mathbb{C})$ with $\mathrm{Spin}(1,3) \cong \mathrm{Spin}(3,1)$.  
+and this action preserves the determinant on $\mathfrak{h}_2(\mathbb{C})$, so we obtain a [[group homomorphism]] from $\mathrm{SL}(2,\mathbb{C})$ to $\mathrm{O}(1,3)$.  In fact this is a 2-1 homomorphism from $\mathrm{SL}(2,\mathbb{C})$ onto $SO_0(1,3)$.   Since $\mathrm{SL}(2,\mathbb{C})$ is simply connected, this allows us to identify $\mathrm{SL}(2,\mathbb{C})$ with $\mathrm{Spin}(1,3) \cong \mathrm{Spin}(3,1)$.  
 
-Following this pattern, the space $\mathfrak{h}_2(\mathbb{O})$ of $2 \times 2$ hermitian matrices with entries in $\mathbb{O}$ may be identified with 10-dimensional Minkowski spacetime, since the determinant is a quadratic form of signature $(1,9)$.   (The determinant of an element of $\mathfrak{h}_2(\mathbb{O})$ is well-defined using the usual formula for the determinant of a $2 \times 2$ matrix, because any octonion commutes with its conjugate.)  Let $\mathbb{M}_2(\mathbb{O})$ be the set of  $2 \times 2$ matrices octonions all of whose entries lie in an arbitrary subalgebra of $\mathbb{O}$ isomorphic to $\mathbb{C}$.  Then the determinant of $g \in \mathbb{M}_2(\mathbb{O})$ is well-defined by the usual formula, and furthermore $(g X) g^\ast = g ( X g^\ast)$ for all $X \in \mathfrak{h}_2(\mathbb{O})$.   
+Following this pattern, the space $\mathfrak{h}_2(\mathbb{O})$ of $2 \times 2$ [[hermitian matrices]] with entries in the [[octonions]] $\mathbb{O}$ may be identified with 10-dimensional [[Minkowski spacetime]], since the [[determinant]] is a [[quadratic form]] of [[signature of a quadratic form|signature]] $(1,9)$.   (The determinant of an element of $\mathfrak{h}_2(\mathbb{O})$ is well-defined using the usual formula for the determinant of a $2 \times 2$ matrix, because any octonion commutes with its conjugate.)  Let $\mathbb{M}_2(\mathbb{O})$ be the set of  $2 \times 2$ octonionic matrices all of whose entries lie in an arbitrary subalgebra of $\mathbb{O}$ [[isomorphism|isomorphic]] to $\mathbb{C}$.  Then the determinant of $g \in \mathbb{M}_2(\mathbb{O})$ is well-defined by the usual formula, and furthermore $(g X) g^\ast = g ( X g^\ast)$ for all $X \in \mathfrak{h}_2(\mathbb{O})$.   
 
-Let $\mathrm{SL}(2,\mathbb{O})$ be the subgroup of linear transformations of $\mathbb{O}^2$ generated by those of the form 
+Let then $\mathrm{SL}(2,\mathbb{O})$ be the subgroup of linear transformations of $\mathbb{O}^2$ generated by those of the form 
 
 $$   \psi \mapsto g \psi $$
 
 where $g \in \mathbb{M}_2(\mathbb{O})$ has $det(g) = 1$.  This group acts
-as linear transformation of $\mathfrak{h}_2(\mathbb{O})$ in a unique way such that
+by [[linear transformations]] of $\mathfrak{h}_2(\mathbb{O})$ in a unique way such that
 
 $$  X \mapsto (g X) g^\ast , \qquad X \in \mathfrak{h}_2(\mathbb{O})  $$
 
 when $g \in \mathbb{M}_2(\mathbb{O})$ has $det(g) = 1$.   This action
-preserves the determinant on $\mathfrak{h}_2(\mathbb{O})$.  Thus, there is a homomorphism from $\mathrm{SL}(2,\mathbb{O})$ to $\mathrm{O}(1,9)$, and in fact it maps to $\mathrm{SO}_0(1,9)$ in a 2-1 and onto way, which allows us to identify $\mathrm{SL}(2,\mathbb{O})$ with $\mathrm{Spin}(1,9) \cong \mathrm{Spin}(9,1)$.
+preserves the determinant on $\mathfrak{h}_2(\mathbb{O})$.  Thus, there is a [[group homomorphism]] from $\mathrm{SL}(2,\mathbb{O})$ to $\mathrm{O}(1,9)$, and in fact it maps to $\mathrm{SO}_0(1,9)$ in a 2-1 and onto way, which allows us to identify $\mathrm{SL}(2,\mathbb{O})$ with $\mathrm{Spin}(1,9) \cong \mathrm{Spin}(9,1)$.
+
+### By Hitchin
 
 Another proposal for making sense of $SL(2,\mathbb{O})$ is due to [Hitchin 18](#Hitchin18). In this approach, "$SL(2,\mathbb{O})$" is a submanifold of "$GL(2,\mathbb{O})$", which is an open orbit of $Spin(9,1) \times GL(2,\mathbb{R})$ on ${S} \otimes \mathbb{R}^2$.  Here ${S}$ is the 16-dimensional spin representation of $Spin(9,1)$; this may be identified with $\mathbb{O}^2$, which is one reason $Spin(9,1)$ is commonly identified with $SL(2,\mathbb{O})$.   
 
 ## References
 
 * {#Baez} [[John Baez]], The octonions, Bull. Amer. Math. Soc. 39 (2002), 145--205.  Section 3.3: $\mathbb{O}\mathrm{P}^1$ and Lorentzian geometry.   ([html](https://math.ucr.edu/home/baez/octonions/node11.html))
-* {#DM10} Tevian Dray and Corinne Manogue, Octonionic Cayley spinors and $\mathrm{E}_6$, Comment. Math. Univ. Carolin. 51 (2010), 193--207. ([arXiv:0911.2255](https://arxiv.org/abs/0911.2255))
-* {#DHK14} Tevian Dray, John Huerta, Joshua Kincaid, The magic square of Lie groups: the $2 \times 2$ case, Lett. Math. Phys. 104 (2014), 1445--68 ([arXiv:2009.00390](https://arxiv.org/abs/2009.00390))
-* {#Hitchin18} [[Nigel Hitchin]], $SL(2)$ over the octonions, Mathematical Proceedings of the Royal Irish Academy. Vol. 118. No. 1. Royal Irish Academy, 2018. ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
 
+* {#DM10} [[Tevian Dray]], [[Corinne Manogue]], _Octonionic Cayley spinors and $\mathrm{E}_6$_, Comment. Math. Univ. Carolin. 51 (2010), 193--207. ([arXiv:0911.2255](https://arxiv.org/abs/0911.2255))
+* {#DHK14} [[Tevian Dray]], [[John Huerta]], Joshua Kincaid, _The magic square of Lie groups: the $2 \times 2$ case_, Lett. Math. Phys. 104 (2014), 1445--68 ([arXiv:2009.00390](https://arxiv.org/abs/2009.00390))
+
+* {#Hitchin18} [[Nigel Hitchin]], $SL(2)$ over the octonions, Mathematical Proceedings of the Royal Irish Academy. Vol. 118. No. 1. Royal Irish Academy, 2018. ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
 
 
 [[!redirects special linear group over the octonions]]
