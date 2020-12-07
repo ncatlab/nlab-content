@@ -74,7 +74,12 @@ Discussion of the full 6d WZ term is in
 
 * {#FSS19WZ} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
+
+
 [[!redirects Hopf-Wess-Zumino terms]]
 
 [[!redirects Hopf-WZ term]]
 [[!redirects Hopf-WZ terms]]
+
+[[!redirects Hopf WZ term]]
+[[!redirects Hopf WZ terms]]
