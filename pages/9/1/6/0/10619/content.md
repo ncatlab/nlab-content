@@ -17,9 +17,9 @@
 ## Idea
 
 
-The _$e$-invariant_ ([Adams 66, section 7](#Adams66)) is the second in a sequence of homotopy invariants of "stable maps", i.e. of [[morphisms]] in the [[stable homotopy category]] (in particular: of [[stable homotopy groups of spheres]]), being elements of [[Ext-groups]] between the [[homology groups]]/[[cohomology groups]] of the [[domain]] and [[codomain]] of the map, with respect to some suitable choice of [[Whitehead-generalized cohomology theory]] $E$. 
+The _$e$-invariant_ ([Adams 66, Sections 3,7](#Adams66), short for "extension invariant", see Def. \ref{EInvariantAsExtensionClassInECohomology} below) is the second in a sequence of homotopy invariants of "stable maps", i.e. of [[morphisms]] in the [[stable homotopy category]] (in particular: of [[stable homotopy groups of spheres]]), being elements of [[Ext-groups]] between the [[homology groups]]/[[cohomology groups]] of the [[domain]] and [[codomain]] of the map, with respect to some suitable choice of [[Whitehead-generalized cohomology theory]] $E$. 
 
-The previous invariant in the sequence is the [[d-invariant]], the next is the [[f-invariant]]. These are elements that appear on the second page of the $E$-[[Adams spectral sequence]].
+The previous invariant in the sequence is the _[[d-invariant]]_, the next is the _[[f-invariant]]_. These are the elements that appear in the first lines on the second page of the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$.
 
 
 ## Definition
@@ -34,6 +34,10 @@ The archetypical example is $f \;\colon\; S^{2n-1} \to S^{2n}$ a map out of an [
 
 ### As an extension of generalized Adams-operation modules
  {#AsAnExtensionOfAdamsOperationModules}
+
++-- {: .num_defn #EInvariantAsExtensionClassInECohomology} 
+###### Definition
+**(e-invariant as extension class in E-cohomology)**
 
 Writing $C_f$ for the [[homotopy cofiber]] of $f$
 
@@ -83,9 +87,11 @@ Thus this short exact sequence defines an element in the [[Ext group]] formed in
   \big)
 \]
 
-and this is the e-invariant of $f$.
+and this is the _e-invariant_ of $f$ seen in $E$-theory.
 
-(Discussion in this generality includes [BL 09, Sec. 2](#BL09)).
+=--
+
+([Adams 66, Section 3, p. 27](#Adams66), review includes [BL 09, Sec. 2](#BL09)).
 
 \linebreak
 
@@ -1239,7 +1245,7 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
 
 The definition is due to:
 
-* {#Adams66} [[John Adams]], Section 7 of: _On the groups $J(X)$ IV_, Topology 5: 21 (1966) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf), <a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>)
+* {#Adams66} [[John Adams]], Sections 3,7 of: _On the groups $J(X)$ IV_, Topology 5: 21 (1966) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf), <a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>)
 
   _Correction_, Topology 7 (3): 331 (1968)
 
