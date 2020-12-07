@@ -16,7 +16,7 @@
 
 ## Idea
 
-Given a [[continuous function]] between two [[connected space|connected]]  [[manifold|closed oriented manifolds]] of the same dimension, its _degree_ is a measure for how often the function "wraps its domain around its codomain".
+Given a [[continuous function]] between two [[connected topological space|connected]] [[closed manifold|closed]] [[orientation|oriented]] [[topological manifolds]] of the same [[dimension]], its _degree_ is a measure for how often the function "wraps its domain around its codomain".
 
 ## Definition 
 
@@ -74,7 +74,11 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 
 ### Poincaré–Hopf theorem
 
-* [[Poincaré–Hopf theorem]]
+See at _[[Poincaré–Hopf theorem]]_.
+
+### Generalization to the Adams d-invariant
+
+The Hopf degree of a map is a special case of its _[[Adams d-invariant]]_; see [there](d-invariant#DInvariantSpecializesToDegreeOfAContinuousFunction) for more.
 
 ## Examples
 
