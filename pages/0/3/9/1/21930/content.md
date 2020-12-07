@@ -39,6 +39,18 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[topological K-theory]]
 
+### 1. Exterior algebra
+
+* [[exterior algebra]]
+
+### 2. Tensor products of exterior algebras
+
+### 3. Application to bundles
+
+### 4. Thom classes of line bundles
+
+* [[Thom class]]
+
 ### 5. Cobordism and homomorphism into K-theory
 
 * [[cobordism cohomology theory]]
@@ -50,6 +62,8 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 * [[MSU]]
 
 * [[MU]]
+
+### 6. The homomorphism $\mu_c$
 
 
 ## Cobordism Characteristic Classes
