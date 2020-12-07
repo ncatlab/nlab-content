@@ -28,7 +28,7 @@ This is in contrast to the [[vertical composition]] of 2-morphisms, which is the
 
 ## Properties
 
-Horizontal and vertical composition are subject to the compatibility condition called the [[interchange law]].
+Horizontal and vertical composition are subject to the compatibility condition called the [[interchange law]], which in this case and the higher categorical ones means that if we fix three objects $A$, $B$, and $C$ then the composition of 1-cells between them defines a functor.
 
 ## Examples
 
