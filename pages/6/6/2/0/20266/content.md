@@ -23,9 +23,9 @@ Nevertheless, the pattern of the [[special linear groups]] of the other three [[
 
 ## Realizations
 
-### By Dray-Manogue
+### By Manogue--Schray
 
-[Dray and Manogue 10](#DM10) have shown how to interpret $Spin(9,1)$ as $SL(2,\mathbb{O})$ as follows.   
+[Manogue and Schray](#MS93) have shown how to interpret $Spin(9,1)$ as $SL(2,\mathbb{O})$ as follows.   
 
 First, a warmup with the [[complex numbers]]. The space $\mathfrak{h}_2(\mathbb{C})$ of $2 \times 2$ [[hermitian matrices]] with entries in $\mathbb{C}$ may be identified with 4-dimensional [[Minkowski spacetime]], since the [[determinant]] is a [[quadratic form]] of [[signature of a quadratic form|signature]] $(1,3)$.  Any element $g \in \mathrm{SL}(2,\mathbb{C})$ acts as a linear transformation of $\mathfrak{h}_2(\mathbb{C})$ as follows: 
 
@@ -49,17 +49,19 @@ preserves the determinant on $\mathfrak{h}_2(\mathbb{O})$.  Thus, there is a [[g
 
 ### By Hitchin
 
-Another proposal for making sense of $SL(2,\mathbb{O})$ is due to [Hitchin 18](#Hitchin18). In this approach, "$SL(2,\mathbb{O})$" is a submanifold of "$GL(2,\mathbb{O})$", which is an open orbit of $Spin(9,1) \times GL(2,\mathbb{R})$ on ${S} \otimes \mathbb{R}^2$.  Here ${S}$ is the 16-dimensional spin representation of $Spin(9,1)$; this may be identified with $\mathbb{O}^2$, which is one reason $Spin(9,1)$ is commonly identified with $SL(2,\mathbb{O})$.   
+Another proposal for making sense of $SL(2,\mathbb{O})$ is due to [Hitchin 18](#Hitchin18). In this approach, "$SL(2,\mathbb{O})$" is a submanifold of "$GL(2,\mathbb{O})$", which is an open orbit of $Spin(9,1) \times GL(2,\mathbb{R})$ on ${S} \otimes \mathbb{R}^2$.  Here ${S}$ is the 16-dimensional spin representation of $Spin(9,1)$; this may be identified with $\mathbb{O}^2$.
 
 ## References
 
 * {#Baez} [[John Baez]], The octonions, Bull. Amer. Math. Soc. 39 (2002), 145--205.  Section 3.3: $\mathbb{O}\mathrm{P}^1$ and Lorentzian geometry.   ([html](https://math.ucr.edu/home/baez/octonions/node11.html))
 
 * {#DM10} [[Tevian Dray]], [[Corinne Manogue]], _Octonionic Cayley spinors and $\mathrm{E}_6$_, Comment. Math. Univ. Carolin. 51 (2010), 193--207. ([arXiv:0911.2255](https://arxiv.org/abs/0911.2255))
-* {#DHK14} [[Tevian Dray]], [[John Huerta]], Joshua Kincaid, _The magic square of Lie groups: the $2 \times 2$ case_, Lett. Math. Phys. 104 (2014), 1445--68 ([arXiv:2009.00390](https://arxiv.org/abs/2009.00390))
+
+* {#DHK14} [[Tevian Dray]], [[John Huerta]], Joshua Kincaid, _The magic square of Lie groups: the $2 \times 2$ case_, Lett. Math. Phys. 104 (2014), 1445--68. ([arXiv:2009.00390](https://arxiv.org/abs/2009.00390))
 
 * {#Hitchin18} [[Nigel Hitchin]], $SL(2)$ over the octonions, Mathematical Proceedings of the Royal Irish Academy. Vol. 118. No. 1. Royal Irish Academy, 2018. ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
 
+* {#MS93} Corinne A. Manogue and Jörg Schray, Finite Lorentz transformations, automorphisms, and division algebras.  Section 5: Lorentz transformations.  J. Math. Phys. 34 (1993), 3746-3767.  ([arXiv:hep-th/9302044](https://arxiv.org/abs/hep-th/9302044))
 
 [[!redirects special linear group over the octonions]]
 
