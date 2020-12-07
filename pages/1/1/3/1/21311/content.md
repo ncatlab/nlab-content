@@ -31,7 +31,10 @@ On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric
 * [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum II_, Phys. Rev. D 95, 034016 (2017) ([arXiv:1612.02370](https://arxiv.org/abs/1612.02370))
 
 
+* [[Marina Nielsen]], [[Stanley Brodsky]], [[Guy de Téramond]], [[Hans Günter Dosch]], Fernando S. Navarra, [[Liping Zou]], _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
 
-* [[Marina Nielsen]], [[Stanley Brodsky]], [[Guy de Téramond]], [[Hans Günter Dosch]], Fernando S. Navarra, Liping Zou, _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
+In view of [[tetraquarks]]:
+
+* [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
 
 category: people
