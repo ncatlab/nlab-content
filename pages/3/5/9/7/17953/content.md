@@ -32,7 +32,7 @@ What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is
 
 ## References
 
-### General
+### For D-branes
 
 The effect now known as the "Myers effect" in [[D-brane]] theory was first described in:
 
@@ -42,11 +42,30 @@ Review includes
 
 * {#Myers03} [[Robert Myers]], _Nonabelian Phenomena on D-branes_, Class.Quant.Grav. 20 (2003) S347-S372 ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
 
-See also
+See also:
 
 * Pedro J. Silva, _Quantum Myers effect and its supergravity dual for D0/D4 systems_ ([arXiv:hep-th/0109112](https://arxiv.org/abs/hep-th/0109112))
 
 * Yoshifumi Hyakutake, _Gravitational Dielectric Effect and Myers Effect_, Phys. Rev. D71:046007, 2005 ([arXiv:hep-th/0401026](https://arxiv.org/abs/hep-th/0401026))
+
+### For M2/M5-branes
+
+The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of [[fuzzy 3-sphere|fuzzy]] [[3-sphere]]-shape:
+
+* [[Iosif Bena]], _The M-theory dual of a 3 dimensional theory with reduced supersymmetry_, Phys. Rev. D62:126006, 2000 ([arXiv:hep-th/0004142](https://arxiv.org/abs/hep-th/0004142))
+
+
+* Masato Arai, [[Claus Montonen]], Shin Sasaki, _Vortices, Q-balls and Domain Walls on Dielectric M2-branes_, JHEP 0903:119, 2009 ([arXiv:0812.4437](https://arxiv.org/abs/0812.4437))
+
+* [[Iosif Bena]], [[Mariana Graña]], Stanislav Kuperstein, Stefano Massai, _Tachyonic Anti-M2 Branes_, JHEP 1406:173, 2014 ([arXiv:1402.2294](https://arxiv.org/abs/1402.2294))
+
+
+With emphasis on the role of the [[Page charge]]/[[Hopf WZ term]]:
+
+* [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
+
+
+
 
 ### In the BMN matrix model
 
