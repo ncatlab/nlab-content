@@ -11,6 +11,10 @@ based on [[dependent type theory]]/[[homotopy type theory]]:
 
 * [[Coq]], [[Agda]], [[Lean]], [[Arend]]
 
+For [[monoidal category|monoidal]] [[category theory]]:
+
+* [[DisCoPy]]
+
 For [[higher category theory]]:
 
 * [[opetopic type theory]]
