@@ -56,6 +56,43 @@ The [[categorical semantics]] of these modalities is that $\sharp$ is interprete
 
 This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman), [Rijke, Shulman, Spitters](#RSS) ).
 
+#### In Homotopy Type Theory
+
+There are a number of different but equivalent ways to define a modality in homotopy type theory [Rijke, Shulman, Spitters](#RSS).
+
+* Higher modality: A modality consists of a modal operator $L : {Type} \to {Type}$ and for every type $X$ a modal unit $(-)^L : X \to LX$ together with 
+
+1. an induction principle of type
+$$\text{ind} : ((a : A) \to LB(a^L)) \to ((u : LA) \to LB(u))$$
+for any type $A$ and type $B$ depending on $LA$
+
+1. a computation rule
+$$\text{com} : \text{ind}(f)(a^L) = f(a).$$
+
+1. a witness that for any $x, y : LA$, the modal unit $(-)^L : (x = y) \to L(x = y)$ is an equivalence.
+
+* Uniquely eliminating modality: A modality consists of a modal operator and modal unit such that operation 
+$$f \mapsto f \circ (-)^L : ((u : LA) \to LB(u)) \to ((a : A) \to LB(a^L))$$
+is an equivalence for all types $A$ and types $B$ depending on $LA$.
+
+* $\Sigma$-closed reflective subuniverse (aka localization): A reflective subuniverse (a.k.a. localization) consists of a proposition $isLocal : {Type} \to {Prop}$ together with an operator $L : {Type} \to {Type}$ and a unit $(-)^L : X \to LX$ such that $LX$ is local for any type $X$ and for any local type $Z$, then function 
+$$f \mapsto f \circ (-)^L : (LA \to Z) \to (A \to Z)$$
+is an equivalence. A localization is $\Sigma$-closed if whenever $A$ is local and for all $a : A$, $B(a)$ is local, then the dependent sum $\Sigma_{a : A} B(a)$ is local. 
+
+* Stable factorization systems: A modality consists of an orthogonal factorization system $(\mathcal{L}, \mathcal{R})$ in which the left class is stable under pullback. 
+
+* A localization (reflective subuniverse) whose units $(-)^L : X \to LX$ are $L$-connected.
+
+We say that a type $X$ is $L$-modal if the unit $(-)^L : X \to LX$ is an equivalence. We say a type $X$ $L$-connected if $LX$ is contractible. 
+
+In terms of the other structure, the stable factorization system associated to a modality $L$ has
+
+* left class the $L$-connected maps, whose fibers are $L$-connected.
+
+* right class the $L$-modal maps, whose fibers are $L$-modal.
+
+Conversely, given a stable factorization system, the modal operator and unit are given by factorizing the terminal map.
+
 #### Notation
  {#Notation}
 
