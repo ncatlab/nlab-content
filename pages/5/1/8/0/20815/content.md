@@ -1,5 +1,5 @@
 
-**[[brane intersections]]/[[bound states]]/[[wrapped branes]]**
+**[[brane intersections]]/[[bound states]]/[[wrapped branes]]/[[polarized branes]]**
 
 * [[D-branes]] and [[anti D-branes]] form bound states by [[tachyon condensation]], thought to imply the classification of [[D-brane charge]] by [[K-theory]]
 
