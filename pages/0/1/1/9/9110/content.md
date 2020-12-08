@@ -55,6 +55,11 @@ Early developments include:
 
 * {#Page83} [[Don Page]], _Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity_, Phys. Rev. D 28, 2976 (1983) ([spire:14480](http://inspirehep.net/record/14480) [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976))
 
+See also
+
+* [[Hermann Nicolai]], [[Krzysztof Pilch]], _Consistent truncation of $d = 11$ supergravity on $AdS_4 \times S^7$_, JHEP 03 (2012) 099 ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
+
+
 A classification of symmetric solutions is discussed in
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_ ([arXiv:1112.4967](http://arxiv.org/abs/1112.4967))
