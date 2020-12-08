@@ -52,6 +52,10 @@ For more see at _[Half NS5-branes](NS5-brane#NSHalfBranes)_
 
 ## Related concepts
 
+* [[wrapped brane]]
+
+* [[polarized brane]]
+
 * [[color branes and flavor branes]]
 
 [[!include brane bound states -- table]]
