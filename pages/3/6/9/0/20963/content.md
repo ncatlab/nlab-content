@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[M-brane polarization]]:
+
+* [[Yolanda Lozano]], _Non-commutative Branes from M-theory_, Phys. Rev. D64 (2001) 106011 ([arXiv:hep-th/0012137](https://arxiv.org/abs/hep-th/0012137))
+
 On the [[BMN matrix model]] and [[nonabelian T-duality]]:
 
 * [[Yolanda Lozano]], [[Carlos Nunez]], Salomon Zacarias, _BMN Vacua, Superstars and Non-Abelian T-duality_, JHEP 09 (2017) 008 ([arXiv:1703.00417](https://arxiv.org/abs/1703.00417))
