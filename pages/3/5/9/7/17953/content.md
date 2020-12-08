@@ -48,6 +48,11 @@ See also:
 
 * Yoshifumi Hyakutake, _Gravitational Dielectric Effect and Myers Effect_, Phys. Rev. D71:046007, 2005 ([arXiv:hep-th/0401026](https://arxiv.org/abs/hep-th/0401026))
 
+Discussion on curved spacetime in a context of [[AdS/QCD correspondence]]:
+
+* [[Joseph Polchinski]], [[Matthew Strassler]], _The String Dual of a Confining Four-Dimensional Gauge Theory_ ([arXiv:https://arxiv.org/abs/hep-th/0003136](https://arxiv.org/abs/hep-th/0003136))
+
+
 ### For M2/M5-branes
 
 The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of [[fuzzy 3-sphere|fuzzy]] [[3-sphere]]-shape:
