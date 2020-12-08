@@ -538,6 +538,10 @@ Precursor developments:
 
 * {#EguchiKawai82} [[Tohru Eguchi]], [[Hikaru Kawai]], _Reduction of Dynamical Degrees of Freedom in the Large-$N$ Gauge Theory_, Phys. Rev. Lett. 48, 1063 (1982) ([spire:176459](http://inspirehep.net/record/176459), [doi:10.1103/PhysRevLett.48.1063](https://doi.org/10.1103/PhysRevLett.48.1063))
 
+* [[Joseph Polchinski]], [[Matthew Strassler]], _The String Dual of a Confining Four-Dimensional Gauge Theory_ ([arXiv:https://arxiv.org/abs/hep-th/0003136](https://arxiv.org/abs/hep-th/0003136))
+
+  > (discussion of [[confinement]] via [[AdS/CFT]] with a [[Myers effect]] in the bulk)
+
 The top-down Sakai-Sugimoto model is due to 
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Progr. Theor. Phys. 113: 843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
