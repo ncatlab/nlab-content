@@ -7658,12 +7658,17 @@ based on ideas due to ([Stückelberg 49](causal+perturbation+theory#Stueckelberg
 
 * {#BogoliubovShirkov59} [[Nikolay Bogoliubov]], [[Dmitry Shirkov]], _Introduction to the Theory of Quantized Fields_, New York (1959)
 
-
 Comparative discussion of the two perspectives on the S-matrix includes:
 
 * {#Chew70} [[Geoffrey Chew]], _Quark or Bootstrap: Triumph or Frustration for Hadron Physics_, Physics Today, May 1970 ([web](https://pubarchive.lbl.gov/islandora/object/ir%3A144169/datastream/PDF/view), [[Chew70.pdf:file]])
 
 * {#Schroer11} [[Bert Schroer]], _Causality and dispersion relations and the role of the S-matrix in the ongoing research_ ([arXiv:1102.0168](https://arxiv.org/abs/1102.0168))
+
+The S-matrix for [[mesons]] in [[chiral perturbation theory]]:
+
+* Andrea Guerrieri, Joao Penedones, Pedro Vieira, _S-matrix Bootstrap for Effective Field Theories: Massless Pions_ ([arXiv:2011.02802](https://arxiv.org/abs/2011.02802))
+
+* Eef van Beveren, George Rupp, _Modern meson spectroscopy: the fundamental role of unitarity_ ([arXiv:2012.03693](https://arxiv.org/abs/2012.03693))
 
 
 Brief introduction to the S-matrix in quantum mechanics and its rigorous construction in field theory via [[causal perturbation theory]] is in
