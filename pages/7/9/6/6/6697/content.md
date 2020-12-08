@@ -183,9 +183,11 @@ Relation to [[Teichmüller theory]]:
 
 ### As string vacua
 
-On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetimes]] as [[perturbative string theory vacua]]:
+On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] [[string theory vacua|vacua in string theory]]:
 
-* Iosif Bena, Krzysztof Pilch, [[Nicholas Warner]], _Brane-Jet Instabilities_ ([arXiv:2003.02851](https://arxiv.org/abs/2003.02851))
+* [[Iosif Bena]], [[Krzysztof Pilch]], [[Nicholas Warner]], _Brane-Jet Instabilities_,  J. High Energ. Phys. 2020, 91 (2020) ([arXiv:2003.02851](https://arxiv.org/abs/2003.02851))
+
+
 
 [[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
 
