@@ -37,6 +37,10 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 ### Specific examples
 
+* **general**
+
+  * [[Python]]
+
 * **[[higher order logic]]**:
 
   * [[Isabelle]]
@@ -47,7 +51,7 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * **[[dependent type theory]]**:
 
-  * [[Coq]], [[Agda]], [[NuPRL]], ....
+  * [[Coq]], [[Agda]], [[Lean]], [[NuPRL]], ....
 
 * **[[quantum computation]]**
 
@@ -58,6 +62,7 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 ## Related concepts
 
 * [[computation]]
+
 * [[computational trinitarianism]]
 
 * [[monad (in computer science)]], [[algebraic side effect]]
