@@ -4,6 +4,12 @@
 
 ## Selected writings
 
+On [[D-brane polarization]]:
+
+* Z. Guralnik, [[Sanyaje Ramgoolam]], _On the Polarization of Unstable D0-Branes into Non-Commutative Odd Spheres_, JHEP 0102:032, 2001 ([arXiv:hep-th/0101001](https://arxiv.org/abs/hep-th/0101001))
+
+
+
 On the [[fuzzy 6-sphere]]:
 
 * [[Sanjaye Ramgoolam]], Section 5 of: _On spherical harmonics for fuzzy spheres in diverse dimensions_, Nucl. Phys. B610: 461-488, 2001 ([arXiv:hep-th/0105006](https://arxiv.org/abs/hep-th/0105006))
