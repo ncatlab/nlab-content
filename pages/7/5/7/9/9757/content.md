@@ -72,7 +72,7 @@ From [[fully dualizable object|fully dualizable]] [[braided monoidal category|br
 
 * Adrien Brochier, David Jordan, Pavel Safronov, Noah Snyder, _Invertible braided tensor categories_ ([arXiv:2003.13812](https://arxiv.org/abs/2003.13812))
 
-\linbebreak
+\linebreak
 
 Many more references should eventually go here...
 
