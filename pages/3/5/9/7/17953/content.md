@@ -24,6 +24,8 @@ What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is
 
 * [[fuzzy funnel]]
 
+* [[dyon]]
+
 * [[BFSS matrix model]], [[BMN matrix model]]
 
 * [[wrapped brane]], [[brane intersection]]
