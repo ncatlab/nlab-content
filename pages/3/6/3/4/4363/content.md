@@ -7,7 +7,7 @@
 
 ## Idea
 
-Recall that [[frames]] are [[duality|dual]] to [[locales]], and locales are kinds of [[spaces]].  So, if you adopt frames as models for spaces, then your models for [[subspaces]] are [[quotient object|quotient]] frames.  However, much as a [[quotient set]] can be described by an [[equivalence relation]] on the original [[set]], so a quotient frame may be described by an appropriate [[structure]] on the original frame.  That structure is a _nucleus_.
+Recall that [[frames]] are [[duality|dual]] to [[locales]], and locales are kinds of [[spaces]].  So, if you adopt locales as models for spaces, then your models for [[subspaces]] are [[sublocales]] or, dually, [[quotient object|quotient]] frames.  However, much as a [[quotient set]] can be described by an [[equivalence relation]] on the original [[set]], so a quotient frame may be described by an appropriate [[structure]] on the original frame.  That structure is a _nucleus_.
 
 Thus, nuclei correspond to [[sublocales]].
 
