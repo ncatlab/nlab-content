@@ -17,14 +17,15 @@
 
 ## Overview
 
-DisCoPy is a toolbox for computing with monoidal categories in Python.
+_DisCoPy_ is a toolbox for computing with [[monoidal categories]] in [[Python]].
 
-It is available at: [https://github.com/oxford-quantum-group/discopy](https://github.com/oxford-quantum-group/discopy)
+It is available at: [github.com/oxford-quantum-group/discopy](https://github.com/oxford-quantum-group/discopy)
 
 ## String diagrams
 
-The core data structure is [`Diagram`](https://discopy.readthedocs.io/en/main/_autosummary/discopy.monoidal.Diagram.html), an implementation of [[string diagram|string diagrams]] in the free [[premonoidal category]].
-Fix a monoidal signature $\Sigma = \Sigma_1 \xrightarrow{\text{dom}, \text{cod}} \Sigma_0^\star$ for a set of _boxes_ $\Sigma_1$, a set of objects $\Sigma_0$ and its free monoid $\Sigma_0^\star$, we write $f : s \to t$ for $f \in \Sigma_1$ whenever $\text{dom}(f) = s$ and $\text{cod}(f) = t$.
+The core data structure is [`Diagram`](https://discopy.readthedocs.io/en/main/_autosummary/discopy.monoidal.Diagram.html), an implementation of [[string diagram|string diagrams]] in the [[free construction|free]] [[premonoidal category]].
+
+Fix a monoidal [[signature]] $\Sigma = \Sigma_1 \xrightarrow{\text{dom}, \text{cod}} \Sigma_0^\star$ for a set of _boxes_ $\Sigma_1$, a set of objects $\Sigma_0$ and its free monoid $\Sigma_0^\star$, we write $f : s \to t$ for $f \in \Sigma_1$ whenever $\text{dom}(f) = s$ and $\text{cod}(f) = t$.
 Let $L(\Sigma) = \Sigma_0^\star \times \Sigma_1 \times \Sigma_0^\star$, a _layer_ is a triple $l = (u, f : s \to t, v) \in L(\Sigma)$, where we define $\text{dom}(l) = u s v$ and $\text{cod}(l) = u t v$.
 It is depicted as:
 
@@ -59,9 +60,15 @@ Diagrams can be evaluated in concrete monoidal categories by applying functors t
 * the category of quantum circuits,
 * the category of Python functions.
 
+## Related entries
+
+[[!include proof assistants and formalization projects -- list]]
+
 ## References
 
 * DisCoPy's documentation: [https://discopy.readthedocs.io/](https://discopy.readthedocs.io/)
 * [[Giovanni de Felice]], [[Alexis Toumi]], [[Bob Coecke]]. _DisCoPy: Monoidal Categories in Python_. Applied Category Theory, 2020. ([arXiv:2005.02975l](https://arxiv.org/abs/2005.02975l))
+
 * [[Konstantinos Meichanetzidis]], [[Stefano Gogioso]], [[Giovanni De Felice]], [[Nicolò Chiappori]], [[Alexis Toumi]], [[Bob Coecke]]. _Quantum Natural Language Processing on Near-Term Quantum Computers_. Quantum physics & logic, 2020. ([arXiv:2005.04147](https://arxiv.org/abs/2005.04147 ))
-* {#DelpeuchVicary18} Delpeuch, Antonin, and Jamie Vicary. _Normalization for planar string diagrams and a quadratic equivalence algorithm._ arXiv preprint [arXiv:1804.07832](https://arxiv.org/abs/1804.07832) (2018).
+
+* {#DelpeuchVicary18} Delpeuch, Antonin, and [[Jamie Vicary]], _Normalization for planar string diagrams and a quadratic equivalence algorithm._ arXiv preprint [arXiv:1804.07832](https://arxiv.org/abs/1804.07832) (2018).
