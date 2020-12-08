@@ -762,6 +762,8 @@ higher versions
 
 * [[monoidal 2-category]]
 
+* [[DisCoPy]]
+
 ## References
 
 Exposition of basics of monoidal categories and [[categorical algebra]]:
