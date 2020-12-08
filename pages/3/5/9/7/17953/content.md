@@ -41,9 +41,9 @@ The effect now known as the "Myers effect" in [[D-brane]] theory was first descr
 
 * {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
 
-Review includes
+Review:
 
-* {#Myers03} [[Robert Myers]], _Nonabelian Phenomena on D-branes_, Class.Quant.Grav. 20 (2003) S347-S372 ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
+* {#Myers03} [[Robert Myers]], Section 4 of: _Nonabelian Phenomena on D-branes_, Class. Quant. Grav. 20 (2003) S347-S372 ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
 
 See also:
 
@@ -67,6 +67,10 @@ Discussion of [[D-brane polarization]] on curved spacetime in context of the [[A
 * [[Iosif Bena]], Calin Ciocarlie, _Exact $\mathcal{N}=2$ Supergravity Solutions With Polarized Branes_, Phys.Rev. D70 (2004) 086005 ([arXiv:hep-th/0212252](https://arxiv.org/abs/hep-th/0212252))
 
 * [[Iosif Bena]], Stanislav Kuperstein, _Brane polarization is no cure for tachyons_, JHEP09 (2015) 112 ([arXiv:1504.00656](https://arxiv.org/abs/1504.00656))
+
+Polarization of [[fractional D-branes]]:
+
+* Timothy J. Hollowood, S. Prem Kumar, _World-sheet Instantons via the Myers Effect and $\mathcal{N} = 1^\ast$ Quiver Superpotentials_, JHEP 0210:077, 2002 ([arXiv:hep-th/0206051](https://arxiv.org/abs/hep-th/0206051))
 
 
 
@@ -115,15 +119,27 @@ On solutions of the [[BMN matrix model]] in relation to the [[Myers effect]] and
 
 [[!redirects Myers' effect]]
 
+[[!redirects polarized brane]]
+[[!redirects polarized branes]]
+
 [[!redirects D-brane polarization]]
 [[!redirects D-brane polarizations]]
+
+[[!redirects polarized D-brane]]
+[[!redirects polarized D-branes]]
 
 [[!redirects M-brane polarization]]
 [[!redirects M-brane polarizations]]
 
+[[!redirects M2-brane polarization]]
+[[!redirects M2-brane polarizations]]
 
-[[!redirects polarized brane]]
-[[!redirects polarized branes]]
+[[!redirects polarized M-brane]]
+[[!redirects polarized M-branes]]
+
+[[!redirects polarized M2-brane]]
+[[!redirects polarized M2-branes]]
+
 
 
 
