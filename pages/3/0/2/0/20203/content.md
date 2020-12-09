@@ -277,7 +277,7 @@ The realization of this scenario in [[F-theory on Spin(7)-manifolds]]:
 
 ### M-theory on $K3 \times K3$
 
-Discussion of M-theory on the [[product manifold]] of two [[K3]]s
+Discussion of M-theory [[KK-compactification|KK-compactified]] on the [[product manifold]] of two [[K3]]s:
 
 * [[Paul Aspinwall]], _An Analysis of Fluxes by Duality_,([arXiv:hep-th/0504036](https://arxiv.org/abs/hep-th/0504036), [spire:679724](https://inspirehep.net/literature/679724))
 
@@ -286,6 +286,17 @@ Discussion of M-theory on the [[product manifold]] of two [[K3]]s
   > ([[moduli stabilization]])
 
 * [[Andreas Braun]], Arthur Hebecker, Christoph Ludeling, Roberto Valandro, _Fixing D7 Brane Positions by F-Theory Fluxes_, Nucl. Phys. B815:256-287, 2009 ([arXiv:0811.2416](https://arxiv.org/abs/0811.2416))
+
+Under [[duality between M-theory and type IIA string theory]] this translates to [[D6-branes]] [[wrapped brane|wrapped]] on [[K3]] (enhancon mechanism):
+
+* [[Clifford Johnson]], [[Amanda Peet]], [[Joseph Polchinski]], _Gauge Theory and the Excision of Repulson Singularities_, Phys. Rev. D61:086001, 2000 ([arXiv:hep-th/9911161](https://arxiv.org/abs/hep-th/9911161))
+
+Review:
+
+* Satoshi Yamaguchi, _Enhancon and Resolution of Singularity_ ([arXiv:gr-qc/0108084](https://arxiv.org/abs/gr-qc/0108084))
+
+* Laur Järv, _The enhancon mechanism in string theory_, Durham 2002 ([spire:899784](https://inspirehep.net/literature/899784), [etheses:3981](http://etheses.dur.ac.uk/3981), [[JaervEnhanconMechanism.pdf:file]])
+
 
 
 
