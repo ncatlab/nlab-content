@@ -23,7 +23,7 @@ $$
 
 from the [[product category]] of the category $C$ with its [[opposite category]] to the category [[Set]] of [[sets]], which sends
 
-* an [[object]] $(c, c') \in C^{op} \times C$, i.e. a pair of objects in $C$, to the [[hom-set]] $Hom_C(c,c')$ in $C$, the set of [[morphisms]] $q : c \to c'$ in $C$;
+* an [[object]] $(c, c') \in C^{op} \times C$, i.e. a pair of objects in $C$, to the [[hom-set]] $Hom_C(c,c')$ in Set, the set of [[morphisms]] $q : c \to c'$ in $C$;
 
 * a morphism $(c,c') \stackrel{}{\to} (d,d')$, i.e. a pair of morphisms
 
