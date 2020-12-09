@@ -35,13 +35,13 @@ The one-point compactification is usually applied to a non-[[compact space|compa
 
 Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the topological space 
 
-* whose underlying [[set]] is the [[disjoint union]] $X \cup \{\infty\}$ 
+* whose underlying [[set]] is the [[disjoint union]] $X \cup \{\infty\}$ of that of $X$ with a [[singleton set]] $\{\infty\}$;
 
-* and whose [[open sets]] are 
+* and whose [[open subsets]] are 
 
-  1. the open subsets of $X$ (thought of as subsets of $X^*$);
+  1. the [[open subsets]] of $X \,\subset\, X^*$ ;
 
-  2. the [[complements]] $X^\ast \backslash CK = (X \backslash CK) \cup \{\infty\}$ of the [[closed subspace|closed]] [[compact space|compact]] subsets $CK \subset X$.
+  2. the [[complements]] $X^\ast \setminus CK = (X \setminus CK) \cup \{\infty\}$ of the [[closed subspace|closed]] [[compact space|compact]] subsets $CK \subset X$.
 
 =--
 
