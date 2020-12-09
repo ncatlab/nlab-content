@@ -183,6 +183,7 @@ Notice that the _net charge_ of these 24 D7-branes is supposed to vanish, due to
 
 (This reminds one of the situation for the [[third stable homotopy group of spheres]]...)
 
+For analogous discussion of 24 NS5-branes in [[heterotic string theory]] on [[K3]] see [Schwarz 97, around p. 50](duality+in+string+theory#Schwarz97).
 
 
 
