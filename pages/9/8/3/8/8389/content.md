@@ -31,7 +31,13 @@ Denotational semantics originated in the work of [[Christopher Strachey]] and [[
 
 * [[domain theory]]
 
-* [[operational semantics]]
+* [[semantics]]
+
+  * [[categorical semantics]]
+
+  * [[operational semantics]]
+
+  * [[distributional semantics]]
 
 ## References
 
