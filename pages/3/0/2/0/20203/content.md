@@ -1,4 +1,3 @@
-[[!redirects M-theory on Spin(8)-manifolds]]
 
 
 +-- {: .rightHandSide}
@@ -276,5 +275,19 @@ The realization of this scenario in [[F-theory on Spin(7)-manifolds]]:
 
 * {#MorrisonPlesser99} [[David Morrison]], [[M. Ronen Plesser]], section 3.2 of _Non-Spherical Horizons, I_, Adv. Theor. Math. Phys.3:1-81, 1999 ([arXiv:hep-th/9810201](https://arxiv.org/abs/hep-th/9810201))
 
+### M-theory on $K3 \times K3$
 
+Discussion of M-theory on the [[product manifold]] of two [[K3]]s
+
+* [[Paul Aspinwall]], _An Analysis of Fluxes by Duality_,([arXiv:hep-th/0504036](https://arxiv.org/abs/hep-th/0504036), [spire:679724](https://inspirehep.net/literature/679724))
+
+* [[Paul Aspinwall]], [[Renata Kallosh]], _Fixing All Moduli for M-Theory on $K3 \times K3$_, JHEP 0510:001, 2005 ([arXiv:hep-th/0506014](https://arxiv.org/abs/hep-th/0506014))
+
+  > ([[moduli stabilization]])
+
+* [[Andreas Braun]], Arthur Hebecker, Christoph Ludeling, Roberto Valandro, _Fixing D7 Brane Positions by F-Theory Fluxes_, Nucl. Phys. B815:256-287, 2009 ([arXiv:0811.2416](https://arxiv.org/abs/0811.2416))
+
+
+
+[[!redirects M-theory on Spin(8)-manifolds]]
 [[!redirects M-theory on Spin(7)-manifolds]]
