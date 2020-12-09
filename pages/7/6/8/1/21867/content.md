@@ -2,13 +2,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+
+#### Proof assistants and formalization projects
++--{: .hide}
+[[!include proof assistants and formalization projects -- list]]
+=--
+
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
-=--
-=--
 
+=--
+=--
 
 
 # Contents
@@ -18,6 +24,8 @@
 ## Overview
 
 _DisCoPy_ is a toolbox for computing with [[string diagram|string diagrams]], [[monoidal categories]] and [[monoidal functor|strong monoidal functors]] in [[Python]]. It is available on [GitHub](#GitHubDisCoPy).
+
+The name stands for _Distributional Compositional Python_, indeed the package was first intended as an implementation of the [[DisCoCat]] models of natural language.
 
 ## String diagrams
 
@@ -46,9 +54,18 @@ The codomain of a diagram is the codomain of its last layer $\cod(d) = \cod(d_n)
 Note that in order to define a diagram uniquely, its layers have more data than necessary. It is enough to specify a list $\boxes(d) \in \Sigma_1^n$ of generators together with a list $\offsets(d) \in \N^n$: the number of wires on the left of each box.
 This is the definition used in [Delpeuch and Vicary (2018)](#DelpeuchVicary18), [[Globular]], [[homotopy.io]] as well as DisCoPy.
 
+We can define identity, composition and tensor of diagrams in terms of this combinatorial encoding:
+
+* The identity diagram $\text{id}(x)$ for $x \in \Sigma_0^\star$ is defined by $\text{len}(\text{id}(x)) = 0$ and $\text{dom}(\text{id}(x)) = x$. It is depicted as vertical wires labeled with $x$.
+* Given two diagrams $d_0, d_1 \in D(\Sigma)$ with $\text{cod}(d_0) = \text{dom}(d_1)$, their composition $d_1 \circ d_0 \in D(\Sigma)$ is defined by vertical concatenation, i.e. $\text{layers}(d_1 \circ d_0) = \text{layers}(d_0) \text{layers}(d_1)$. In Python code, this is written `d0 >> d1` or `d1 << d0`.
+* Given a diagram $d \in D(\Sigma)$ and a type $x \in \Sigma_0^\star$, the [[whiskering|whiskerings]] $x \otimes d$ and $d \otimes x$ are defined by concatenating $d$ with $x$-labeled wires on its left and right. First, define whiskering for layers $l = (u, f, v) \in L(\Sigma)$ as $x \otimes l = (x u, f, v)$ and $l \otimes x = (u, f, v x)$. Then, define whiskering for diagrams as $\text{layers}(x \otimes d) = (x \otimes d_1, \dots, x \otimes d_n)$ and $\text{layers}(d \otimes x) = (d_1 \otimes x, \dots, d_n \otimes x)$.
+* Given two diagrams $d_0, d_1 \in D(\Sigma)$, their tensor is defined as $d_0 \otimes d_1 = \text{cod}(d_0) \otimes d_1 \circ d_0 \otimes \text{dom}(d_1)$. In Python, this is written `d0 @ d1 == d0 @ Id(d1.dom) >> Id(d0.cod) @ d1`.
+
 Diagrams in the free [[monoidal category]] can be seen as premonoidal diagrams quotiented by the _[[interchanger]]_, i.e. the naturality equation for the [[tensor product|monoidal product]]: $f \otimes 1_c \circ 1_b \otimes g = 1_a \otimes g \circ f \otimes 1_d$ for all $f : a \to b$ and $g : c \to d$. Diagrams in the free [[rigid monoidal category]] can be seen as monoidal diagrams quotiented by the [[triangle identities|snake equations]]. In practice, these quotients are computed by calling `Diagram.normal_form`.
 
-DisCoPy also implements the [[syntax]] for diagrams in the [[free construction|free]] [[cartesian monoidal category]] and [[biclosed monoidal category]], although their normal form is not yet implemented. Furthermore, formal sums of diagrams can also be composed and tensored, making all the diagams [[enriched category|enriched]] in [[monoid|monoids]].
+Diagrams are equipped with an involution `Diagram.dagger` that implements [[dagger categories]]. Furthermore, formal sums of diagrams can also be composed and tensored, making all the diagams [[enriched category|enriched]] in [[monoid|monoids]].
+
+DisCoPy also implements the [[syntax]] for diagrams in the [[free construction|free]] [[cartesian monoidal category]] and [[biclosed monoidal category]], although their normal form is not yet implemented. 
 
 ## Monoidal functors
 
@@ -60,13 +77,7 @@ Diagrams can be evaluated in concrete monoidal categories by applying [[functors
 
 * the category of [[Python]] functions.
 
-## Related entries
-
-[[!include proof assistants and formalization projects -- list]]
-
 ## References
-
-* DisCoPy's documentation: [https://discopy.readthedocs.io/](https://discopy.readthedocs.io/)
 
 * Giovanni de Felice, [[Alexis Toumi]], [[Bob Coecke]]. _DisCoPy: Monoidal Categories in Python_. Applied Category Theory, 2020. ([arXiv:2005.02975l](https://arxiv.org/abs/2005.02975l))
 
@@ -74,5 +85,7 @@ Diagrams can be evaluated in concrete monoidal categories by applying [[functors
 
 * {#DelpeuchVicary18} Delpeuch, Antonin, and [[Jamie Vicary]], _Normalization for planar string diagrams and a quadratic equivalence algorithm._ arXiv preprint [arXiv:1804.07832](https://arxiv.org/abs/1804.07832) (2018).
 
-* {#GitHubDisCoPy} DisCoPy repository, [github.com/oxford-quantum-group/discopy](https://github.com/oxford-quantum-group/discopy)
+* {#DisCoPyDoc} _DisCoPy's documentation._ [discopy.readthedocs.io](https://discopy.readthedocs.io/)
+
+* {#GitHubDisCoPy} _DisCoPy's repository._ [github.com/oxford-quantum-group/discopy](https://github.com/oxford-quantum-group/discopy)
 
