@@ -31,7 +31,7 @@ The above follows from a more fundamental fact:
 +-- {: .num_prop}
 ###### Proposition
 
-any functor
+Any functor
 
 $$[\mathcal{U}] : \mathbf{Set}^I \to \mathbf{Set}$$
 
@@ -67,24 +67,30 @@ Since this is a filtered colimit, a sequence $\overline{x}$ satisfies that its g
 =--
 
 ## Examples
+
 An immediate consequence of the &#321;o&#347; theorem is the [[nonstandard analysis|transfer principle]] for the hyperreals.
 
 The [[compactness theorem]] also follows quickly from the &#321;o&#347; theorem, so anything that you [build](http://math.stackexchange.com/questions/413770/most-astonishing-applications-of-compactness-theorem-outside-logic) using compactness can be realized a bit more concretely as an ultraproduct.
 
 ## Remarks
+
 The proposition should be interpreted as saying that [[Set]] simultaneously carries a [[pretopos]] structure and an [[ultracategory]] structure, and that these two structures commute. Indeed, one can view [[Set]] as a [[dualizing object]] for a generalized [[Stone duality]] between pretoposes and ultracategories; this is the starting point of [[Makkai duality]].
 
 There is an analogous statement for ultraproducts of structures in [[continuous logic]].
 
 ## Related concepts
-[[ultrafilter]]
 
-[[ultrapower]]
+* [[ultrafilter]]
 
-[[stalk]]
+* [[ultrapower]]
+
+* [[stalk]]
 
 ## References
-[[Michael Makkai]], _Stone duality for first order logic_, Advances in Mathematics, 65(2):97&#8211;170, 1987.
+
+* Hisashi Aratake, _Sheaves of Structures, Heyting-Valued Structures, and a Generalization of Łoś's Theorem_ , arXiv:2012.04317 (2020). ([abstract](https://arxiv.org/abs/2012.04317))
+
+* [[Michael Makkai]], _Stone duality for first order logic_, Advances in Mathematics, 65(2):97&#8211;170, 1987.
 
 [[!redirects Los theorem]]
 [[!redirects Los ultraproduct theorem]]
