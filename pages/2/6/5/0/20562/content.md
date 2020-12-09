@@ -57,7 +57,7 @@ This allows a slightly more elegant reformulation of our basic example. Let $\ma
 
 ## The Category of DisCoCat Models
 
-One criticism of DisCoCat is that a single model is unlikely to be complex enough to capture the intricacies of a natural language. A response to this criticism is that DisCoCat models should only model a given fragment of language with some level of detail. These models can then be combined or updated to represent more complex fragments of natural language. Indeed, in _[Translating and Evolving: Towards a Model of Language Change in DisCoCat](https://arxiv.org/abs/1811.11041)_ the authors construct a category $DisCoCat$ of DisCoCat models where
+One criticism of DisCoCat is that a single model is unlikely to be complex enough to capture the intricacies of a [[natural language]]. A response to this criticism is that DisCoCat models should only model a given fragment of language with some level of detail. These models can then be combined or updated to represent more complex fragments of [[natural language]]. Indeed, in _[Translating and Evolving: Towards a Model of Language Change in DisCoCat](https://arxiv.org/abs/1811.11041)_ the authors construct a category $DisCoCat$ of DisCoCat models where
 
 * objects are [[strong monoidal functors]]
 $$ F \colon (J,*) \to (FVect,\otimes) $$
