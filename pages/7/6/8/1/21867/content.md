@@ -25,7 +25,7 @@
 
 _DisCoPy_ is a toolbox for computing with [[string diagram|string diagrams]], [[monoidal categories]] and [[monoidal functor|strong monoidal functors]] in [[Python]]. It is available on [GitHub](#GitHubDisCoPy).
 
-The name stands for _Distributional Compositional Python_, indeed the package was first intended as an implementation of the [[DisCoCat]] models of natural language.
+The name stands for _Distributional Compositional Python_, indeed the package was first intended as an implementation of the [[DisCoCat]] models of [[natural language]].
 
 ## String diagrams
 
