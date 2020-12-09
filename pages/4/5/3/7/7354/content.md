@@ -65,6 +65,9 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 ### Surveys and lecture notes
 
+* {#Schwarz97} [[John Schwarz]], _Lectures on Superstring and M Theory Dualities_, Nucl. Phys. Proc. Suppl. 55B:1-32, 1997 ([arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201))
+
+
 * [[Michael Dine]], _String Theory Dualities_ ([arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051))
 
 * Stefan Forste, [[Jan Louis]], _Duality in String Theory_, Nucl. Phys. Proc. Suppl. 61A:3-22, 1998 ([arXiv:hep-th/9612192](https://arxiv.org/abs/hep-th/9612192))
@@ -76,7 +79,9 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 * {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
 
-A detailed discussion of dualities induced on [[K3]]-compactifications is in 
+
+More on dualities induced on [[K3]]-compactifications:
+
 
 * [[Paul Aspinwall]], _K3-surfaces and string duality_ ([arXiv:hep-th/9611137](http://arxiv.org/abs/hep-th/9611137))
 
@@ -89,3 +94,7 @@ Discussion amplifying the role of [[category theory]], and [[higher geometry]] i
 * {#Sharpe19} [[Eric Sharpe]], _Categorical Equivalence and the Renormalization Group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
 
 [[!redirects dualities in string theory]]
+
+[[!redirects string duality]]
+[[!redirects string dualities]]
+
