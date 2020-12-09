@@ -33,7 +33,7 @@ On [[AdS2/CFT1]] in [[massive type IIA string theory]]:
 
 On [[AdS2/CFT1]] on [[D1-D3 brane intersections]]:
 
-* [[Giuseppe Dibitetto]], Yolanda Lozano, [[Nicolò Petri]], Anayeli Ramirez, _Holographic Description of M-branes via $AdS_2$_ ([arXiv:1912.09932](https://arxiv.org/abs/1912.09932))
+* [[Giuseppe Dibitetto]], [[Yolanda Lozano]], [[Nicolò Petri]], Anayeli Ramirez, _Holographic Description of M-branes via $AdS_2$_ ([arXiv:1912.09932](https://arxiv.org/abs/1912.09932))
 
 
 category: people
