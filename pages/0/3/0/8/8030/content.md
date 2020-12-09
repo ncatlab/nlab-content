@@ -192,6 +192,11 @@ and specifically for the [[G2-MSSM]] in
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
+Discussion of moduli stabilization in [[M-theory on 8-manifolds]] for the [[product manifold]] of two [[K3]]s:
+
+* [[Paul Aspinwall]], [[Renata Kallosh]], _Fixing All Moduli for M-Theory on $K3 \times K3$_, JHEP 0510:001, 2005 ([arXiv:hep-th/0506014](https://arxiv.org/abs/hep-th/0506014))
+
+
 
 #### In heterotic string theory
 
