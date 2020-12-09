@@ -25,7 +25,7 @@ $$
   X \times X
 $$
 
-which is induced, via the [[universal property]] of the [[Cartesian product]], by the [[span]] whose two legs each are the [[identity morphism]] on $X$:
+which is induced, via the [[universal property]] of the [[Cartesian product]], by the [[span]] whose two legs each are both the [[identity morphism]] on $X$:
 
 $$
   \array{
