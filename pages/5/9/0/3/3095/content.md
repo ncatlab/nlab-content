@@ -58,6 +58,8 @@ Pragmatics is concerned with the meaning of language in context.
 * [[mathematical linguistics]]
 * [[transcendental grammar]]
 
+* [[DisCoCat]], [[DisCoPy]]
+
 ## Literature
 
 ### Linguistics per se
@@ -86,4 +88,11 @@ Pragmatics is concerned with the meaning of language in context.
 
 
 category: foundations, philosophy
+
+[[!redirects natural language]]
+[[!redirects natural languages]]
+
 [[!redirects formal linguistics]]
+
+
+
