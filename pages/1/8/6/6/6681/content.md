@@ -9,6 +9,10 @@ On microscopic explanation of [[Bekenstein-Hawking entropy]] via [[geometric eng
 
 * [[Curtis Callan]], [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_, Nucl. Phys. B472:591-610, 1996 ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
 
+Discussion of [[black hole entropy]] of [[D2-D6 brane bound states]] as [[black holes in string theory]]:
+
+* [[Juan Maldacena]], [[Andrew Strominger]], _Statistical Entropy of Four-Dimensional Extremal Black Holes_, Phys. Rev. Lett. 77:428-429, 1996 ([arXiv:hep-th/9603060](https://arxiv.org/abs/hep-th/9603060))
+
 
 On [[D1-D3 brane intersections]] as spikes/[[BIons]] in the [[D3-brane]] [[DBI action|DBI-theory]]:
 
