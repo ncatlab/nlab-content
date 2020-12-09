@@ -69,6 +69,8 @@ The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of
 
 ## Examples
 
+* [[field of fractions]]
+
 * [[Cohn localization]]
 
 ## Related concepts
