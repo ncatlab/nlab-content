@@ -169,6 +169,10 @@ Discussion of [[light cone longitudal]] [[M5-branes]] in the [[BFSS matrix model
 
   (introducing the [[fuzzy 4-sphere]])
 
+Discussion of a [[BFSS matrix model|BFSS-like]] [[matrix model]] for [[MK6-branes]]:
+
+* [[Amihay Hanany]], Gilad Lifschytz, _M(atrix) Theory on $T^6$ and a m(atrix) Theory Description of KK Monopoles_, Nucl. Phys. B519:195-213, 1998 ([arXiv:hep-th/9708037](https://arxiv.org/abs/hep-th/9708037))
+
 
 ### Ground state problem
   {#ReferencesGroundStateProblem}
