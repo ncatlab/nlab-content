@@ -59,11 +59,11 @@ The [[AdS/CFT|AdS7/CFT6-correspondence]] relates
 
 The maximally [[number of supersymmetries|N=4]] supersymmetric $SO(5)$-[[gauged supergravity]] in 7-dimensions was first constructed in 
 
-* M. Pernici, K. Pilch, and [[Peter van Nieuwenhuizen]], _Gauged Maximally Extended Supergravity in Seven Dimensions_ , Phys. Lett. 143B (1984) 103.
+* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], _Gauged Maximally Extended Supergravity in Seven Dimensions_ , Phys. Lett. 143B (1984) 103 ([spire:15064](https://inspirehep.net/literature/15064), <a href="https://doi.org/10.1016/0370-2693(84)90813-X">doi:10.1016/0370-2693(84)90813-X</a>)
 
 There are also gaugings for non-compact groups
 
-* M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], and N. P. Warner, _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381.
+* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]], _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381 (<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>)
 
 The [[number of supersymmetries|N=2]] [[Sp(1)]]-gauged theory was described in
 
