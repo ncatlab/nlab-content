@@ -43,6 +43,8 @@ The effect now known as the "Myers effect" in [[D-brane]] theory was first descr
 
 * {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
 
+for the case of [[D0-branes]] [[D-brane polarization|polarizing]] to [[D0-D2 brane bound states]].
+
 Review:
 
 * {#Myers03} [[Robert Myers]], Section 4 of: _Nonabelian Phenomena on D-branes_, Class. Quant. Grav. 20 (2003) S347-S372 ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
@@ -62,13 +64,19 @@ Discussion of [[D-brane polarization]] on curved spacetime in context of the [[A
 
 * [[Ofer Aharony]], [[Arvind Rajaraman]], _String Theory Duals for Mass-deformed $SO(N)$ and $USp(2N)$ $\mathcal{N}=4$ SYM Theories_, Phys. Rev. D62:106002, 2000 ([arXiv:hep-th/0004151](https://arxiv.org/abs/hep-th/0004151))
 
-* [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
 
-* [[Iosif Bena]], Aleksey Nudelman, _Exotic polarizations of D2 branes and oblique vacua of $(S)YM_{2+1}$_, Phys. Rev. D62 (2000) 126007 ([arXiv:hep-th/0006102](https://arxiv.org/abs/hep-th/0006102))
 
 * [[Iosif Bena]], Calin Ciocarlie, _Exact $\mathcal{N}=2$ Supergravity Solutions With Polarized Branes_, Phys.Rev. D70 (2004) 086005 ([arXiv:hep-th/0212252](https://arxiv.org/abs/hep-th/0212252))
 
 * [[Iosif Bena]], Stanislav Kuperstein, _Brane polarization is no cure for tachyons_, JHEP09 (2015) 112 ([arXiv:1504.00656](https://arxiv.org/abs/1504.00656))
+
+Discussion of [[D2-branes]] [[D-brane polarization|polarizing]] to [[D2-D4 brane bound states]]:
+
+* [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
+
+* [[Iosif Bena]], Aleksey Nudelman, _Exotic polarizations of D2 branes and oblique vacua of $(S)YM_{2+1}$_, Phys. Rev. D62 (2000) 126007 ([arXiv:hep-th/0006102](https://arxiv.org/abs/hep-th/0006102))
+
+
 
 Polarization of [[fractional D-branes]]:
 
@@ -93,9 +101,15 @@ The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]]
 * [[Iosif Bena]], [[Mariana Graña]], Stanislav Kuperstein, Stefano Massai, _Tachyonic Anti-M2 Branes_, JHEP 1406:173, 2014 ([arXiv:1402.2294](https://arxiv.org/abs/1402.2294))
 
 
+
+
 With emphasis on the role of the [[Page charge]]/[[Hopf WZ term]]:
 
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
+
+The corresponding D2-NS5 bound state under [[duality between M-theory and type IIA string theory]]:
+
+* [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
 
 
 
