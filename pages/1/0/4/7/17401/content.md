@@ -1,15 +1,27 @@
-# Relevance monoidal categories
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Relevance monoidal categories
 
 * table of contents
 {:toc}
 
 ## Idea
 
-A *relevance monoidal category* is a [[symmetric monoidal category]] which has diagonal maps $A\to A\otimes A$, but not projection maps $A\to I$.  (If it had both, it would be a [[cartesian monoidal category]]; while if it had projection maps but not diagonals it would be a [[semicartesian monoidal category]].)  The name comes from the connection with [[relevance logic]].
+A *relevance monoidal category* is a [[symmetric monoidal category]] which has [[monoidal category with diagonals|diagonal maps]] $A\to A\otimes A$, but not projection maps $A \to I$.  (If it had both, it would be a [[cartesian monoidal category]]; while if it had projection maps but not diagonals it would be a [[semicartesian monoidal category]].)  The name comes from the connection with [[relevance logic]].
 
 ## Definition
 
-Given a symmetric monoidal category $C$, let $CCSG(C)$ denote the category of commutative co-[[semigroups]] in $C$, i.e. objects $A$ equipped with a "comultiplication" $A\to A\otimes A$ that is coassociative and cocommutative.  There is an obvious forgetful functor $CCSG(C) \to C$.  Moreover, $CCSG(C)$ has a symmetric monoidal structure making the forgetful functor strict symmetric monoidal: if $A$ and $B$ are cosemigroups then $A\otimes B \to (A\otimes A)\otimes (B\otimes B) \cong (A\otimes B) \otimes (A\otimes B)$ makes $A\otimes B$ into a commutative cosemigroup as well, and the unit is the unit object $I$ of $C$ with its a canonical commutative cosemigroup structure given by the coherence isomorphism $I\cong I\otimes I$. 
+Given a [[symmetric monoidal category]] $C$, let $CCSG(C)$ denote the category of commutative co-[[semigroups]] [[internalization|in]] $C$, i.e. objects $A$ equipped with a "comultiplication" $A\to A\otimes A$ that is coassociative and cocommutative.  There is an obvious forgetful functor $CCSG(C) \to C$.  Moreover, $CCSG(C)$ has a symmetric monoidal structure making the forgetful functor strict symmetric monoidal: if $A$ and $B$ are cosemigroups then $A\otimes B \to (A\otimes A)\otimes (B\otimes B) \cong (A\otimes B) \otimes (A\otimes B)$ makes $A\otimes B$ into a commutative cosemigroup as well, and the unit is the unit object $I$ of $C$ with its a canonical commutative cosemigroup structure given by the coherence isomorphism $I\cong I\otimes I$. 
 
 We say that $C$ is a **relevance monoidal category** if this functor $CCSG(C) \to C$ is equipped with a strict section that is also a strict symmetric monoidal functor.  That is, we have a functor assigning to every object of $C$ a commutative cosemigroup structure on that object, in such a way that every morphism becomes a cosemigroup map, the structure on $A\otimes B$ is induced from those on $A$ and $B$ as above, and the structure on $I$ is the canonical one.  This amounts to a natural assignment of "diagonal maps" $A\to A\otimes A$ satisfying some straightforward axioms.
 
@@ -24,12 +36,14 @@ One can of course additionally ask that a relevance monoidal category be [[close
 ## Related concepts
 
 * [[monoidal category with diagonals]]
+
 * [[semicartesian monoidal category]]
+
 * [[monoidal category]]
 
 
 ## References
 
-* K. Dosen and Z. Petric, *Relevant Categories and Partial Functions*, Publications de l'Institut Mathématique, Nouvelle Série, Vol. 82(96), pp. 17–23 (2007), [DOI](https://doi.org/10.2298/PIM0796017D),  arXiv:[math/0504133](http://arxiv.org/abs/math/0504133)
+* K. Dosen and Z. Petric, _Relevant Categories and Partial Functions_, Publications de l'Institut Mathématique, Nouvelle Série, Vol. 82(96), pp. 17–23 (2007) ([doi:10.2298/PIM0796017D](https://doi.org/10.2298/PIM0796017D), [arxiv:math/0504133](http://arxiv.org/abs/math/0504133))
 
 [[!redirects relevance monoidal categories]]
