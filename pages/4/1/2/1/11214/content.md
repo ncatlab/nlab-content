@@ -1,7 +1,23 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
 ## Related concepts
 
-* [[denotational semantics]]
+
+* [[semantics]]
+
+  * [[categorical semantics]]
+
+  * [[denotational semantics]]
+
+  * [[distributional semantics]]
+
 
 ## References
 
