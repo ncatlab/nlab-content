@@ -1,4 +1,8 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In [[quantum computing]] a _quantum circuit_ is a net of _quantum gates_ used to implement a quantum operation.
@@ -8,6 +12,8 @@ In [[quantum computing]] a _quantum circuit_ is a net of _quantum gates_ used to
 * [[string diagram]]
 
 * [[proof net]]
+
+* [[DisCoPy]]
 
 ## References
 
