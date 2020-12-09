@@ -140,12 +140,14 @@ See at _[[symmetric smash product of spectra]]_.
 
 * [[pointed mapping space]]
 
+* While the smash product is not Cartesian, it does [[monoidal category with diagonals|admit diagonals]].
+
 ## References
 
 On the general definition of smash products via [[closed monoidal category]] structure on [[pointed objects]]
 
-* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
- {#ElmendorfMandell07}
+* {#ElmendorfMandell07} [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
+ 
 
 
 On commutativity of smashing with [[homotopy limits]]:
