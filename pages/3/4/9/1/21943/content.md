@@ -4,6 +4,13 @@
 
 ## Selected writings
 
+On [[gauged supergravity|gauged]] [[D=7 supergravity]]:
+
+* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], _Gauged Maximally Extended Supergravity in Seven Dimensions_ , Phys. Lett. 143B (1984) 103 ([spire:15064](https://inspirehep.net/literature/15064), <a href="https://doi.org/10.1016/0370-2693(84)90813-X">doi:10.1016/0370-2693(84)90813-X</a>)
+
+* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]], _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381 (<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>)
+
+
 On [[W-algebras]]:
 
 * [[Peter Bouwknegt]], Jim McCarthy, [[Krzysztof Pilch]], _The $W_3$ algebra: modules, semi-infinite cohomology, and BV algebras_, Lec. Notes in Phys. __42__, Springer 1996 ([doi:10.1007/978-3-540-68719-1](https://link.springer.com/book/10.1007/978-3-540-68719-1))
