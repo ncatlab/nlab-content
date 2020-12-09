@@ -83,7 +83,7 @@ A careful non-technical exposition is in
 
 * [[Juan Maldacena]], _Black Holes in String Theory_, PhD thesis 1996 ([arXiv:hep-th/9607235](http://arxiv.org/abs/hep-th/9607235))
 
-* [[Juan Maldacena]], _Black Holes and D-branes_, Nucl.Phys.Proc.Suppl. 61A (1998) 111-123; Nucl.Phys.Proc.Suppl. 62 (1998) 428-442 ([arXiv:hep-th/9705078](http://arxiv.org/abs/hep-th/9705078))
+* [[Juan Maldacena]], _Black Holes and D-branes_, Nucl. Phys. Proc. Suppl. 61A (1998) 111-123; Nucl. Phys. Proc. Suppl. 62 (1998) 428-442 ([arXiv:hep-th/9705078](http://arxiv.org/abs/hep-th/9705078))
 
 
 * [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
@@ -178,6 +178,28 @@ More recent developments include
 * {#CKJN18} Sunjin Choi, [[Joonho Kim]], [[Seok Kim]], June Nahmgoong, _Large AdS black holes from QFT_ ([arxiv:1810.12067](https://arxiv.org/abs/1810.12067))
 
 * Behnam Pourhassan, Mubasher Jamil, Mir Faizal, _Black Remnants from T-Duality_ ([arXiv:1912.09235](https://arxiv.org/abs/1912.09235))
+
+### The D$p$-brane bound states
+
+* [[Konstadinos Sfetsos]], [[Kostas Skenderis]], _Microscopic derivation of the Bekenstein-Hawking entropy formula for non-extremal black holes_, Nucl. Phys. B517 (1998) 179-204 ([arXiv:hep-th/9711138](https://arxiv.org/abs/hep-th/9711138))
+
+
+* Mohammad R. Garousi, Ahmad Ghodsi, _Entropy Function for Non-extremal D1D5 and D2D6NS5-branes_, JHEP 0710:036, 2007 ([arXiv:0705.2149](https://arxiv.org/abs/0705.2149))
+
+
+#### D1-D5 brane systems
+
+(...)
+
+#### D2-D6-NS5 brane systems
+
+
+
+Discussion of [[black hole entropy]] of [[D2-D6 brane bound states]] as [[black holes in string theory]]:
+
+* [[Juan Maldacena]], [[Andrew Strominger]], _Statistical Entropy of Four-Dimensional Extremal Black Holes_, Phys. Rev. Lett. 77:428-429, 1996 ([arXiv:hep-th/9603060](https://arxiv.org/abs/hep-th/9603060))
+
+
 
 
 ### Black holes in supergravity
