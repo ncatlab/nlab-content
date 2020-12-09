@@ -27,6 +27,10 @@ and their intersection with [[orientifolds]]:
 * [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
 
 
+Discussion of a [[BFSS matrix model|BFSS-like]] [[matrix model]] for [[MK6-branes]]:
+
+* [[Amihay Hanany]], Gilad Lifschytz, _M(atrix) Theory on $T^6$ and a m(atrix) Theory Description of KK Monopoles_, Nucl. Phys. B519:195-213, 1998 ([arXiv:hep-th/9708037](https://arxiv.org/abs/hep-th/9708037))
+
 On [[toric duality]]:
 
 * [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _D-brane gauge theories from toric singularities and toric duality, Nucl. Phys. B 595 (2001) 165 ([arXiv:hep-th/0003085](https://arxiv.org/abs/hep-th/0003085))
