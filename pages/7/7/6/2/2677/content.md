@@ -193,11 +193,9 @@ The interpretation of [[stable cohomotopy]] as [[algebraic K-theory]] over $\mat
 
 * {#Mahanta17} [[Snigdhayan Mahanta]], _G-theory of $\mathbb{F}_1$-algebras I: the equivariant Nishida problem_, J. Homotopy Relat. Struct. 12 (4), 901-930, 2017 ([arXiv:1110.6001](https://arxiv.org/abs/1110.6001))
 
-* {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([pdf](http://www.people.virginia.edu/~jdb8pc/Thesis.pdf))
+* {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_ ([arXiv:1805.08745](https://arxiv.org/abs/1805.08745))
 
 * {#ChuLorscheidSanthanam10} Chenghao Chu, [[Oliver Lorscheid]], Rekha Santhanam, _Sheaves and K-theory for $\mathbb{F}_1$-schemes_, Advances in Mathematics, Volume 229, Issue 4, 1 March 2012, Pages 2239-2286 ([arxiv:1010.2896](https://arxiv.org/abs/1010.2896))
-
-see also
 
 see also
 
@@ -205,7 +203,6 @@ see also
 
 * {#ConnesConsani16} [[Alain Connes]], [[Caterina Consani]], _Absolute algebra and Segal's Gamma sets_, Journal of Number Theory 162 (2016): 518-551 ([arXiv:1502.05585](https://arxiv.org/abs/1502.05585))
 
-* {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([pdf](http://www.people.virginia.edu/~jdb8pc/Thesis.pdf))
 
 
 
