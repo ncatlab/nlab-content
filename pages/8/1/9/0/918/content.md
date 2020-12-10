@@ -42,7 +42,11 @@ One can view this as really a statement about the [[Grothendieck fibration]] ove
 ## In other categories
 Since an element $a$ in a set $A$ the [[category of sets]] is just a function from the terminal set to $A$, one could generalise surjections to any category with a [[terminal object]] $1$:
 
-> A morphism $f:A\rightarrow B$ is surjective if, given any morphism $g:1\rightarrow B$, there exists a morphism $h:1\rightarrow A$ such that $f \circ h = g$. 
+> A morphism $f:A\rightarrow B$ is surjective if, given any [[global element]] $g:1\rightarrow B$, there exists a global element $h:1\rightarrow A$ such that $f \circ h = g$. 
+
+The categorical [[duality|dual]] of a surjective morphism is just a morphism, as in any category with a [[terminal object]], there exists a unique morphism $!:A\rightarrow 1$ for any object $A$ in the category by definition, so follows that:
+
+> For any morphism $f:A\rightarrow B$, there exists morphisms $!_{A}:A\rightarrow 1$ and $!_{B}:B\rightarrow 1$ such that $!_{B} \circ f = !_{A}$. 
 
 ## Related concepts
 
