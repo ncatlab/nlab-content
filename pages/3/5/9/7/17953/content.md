@@ -22,6 +22,8 @@ What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is
 
 ## Related concepts
 
+* [[giant graviton]]
+
 * [[fuzzy funnel]]
 
 * [[dyon]]
@@ -80,6 +82,9 @@ Polarization into [[torus]] shape:
 
 * Yoshifumi Hyakutake, _Torus-like Dielectric D2-brane_, 	JHEP 0105:013, 2001 ([arXiv:hep-th/0103146](https://arxiv.org/abs/hep-th/0103146))
 
+* Tatsuma Nishioka, Tadashi Takayanagi, _Fuzzy Ring from M2-brane Giant Torus_, JHEP 0810:082, 2008 ([arXiv:0808.2691](https://arxiv.org/abs/0808.2691))
+
+
 
 
 
@@ -128,6 +133,14 @@ More general [[M-brane polarizations]] and polarization of [[M5-branes]] into [[
 
 
 * [[Iosif Bena]], Diana Vaman, _The polarization of M5 branes and little string theories with reduced supersymmetry_, JHEP 0111 (2001) 032 ([arXiv:hep-th/0101064](https://arxiv.org/abs/hep-th/0101064))
+
+
+### Relation to giant gravitons
+
+On the relation of polarized branes to [[giant gravitons]]:
+
+* [[Iosif Bena]], Douglas Smith, 
+_Towards the solution to the giant graviton puzzle_, 	Phys.Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
 
 
 
