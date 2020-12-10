@@ -327,6 +327,8 @@ Discussion of stable Cohomotopy as [[framed manifold|framed]] [[cobordism cohomo
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 5 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 
+
+
 The relation to [[β-rings]] is discussed in 
 
 * E. Vallejo, _Polynomial operations from Burnside rings to representation functors_, J. Pure Appl. Algebra, 65 (1990), pp. 163–190.
@@ -364,6 +366,12 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivar
 [[!redirects stable Cohomotopy cohomology theory]]
 
 [[!redirects MFr]]
+
+[[!redirects framed bordism theory]]
+[[!redirects framed bordism theories]]
+
+[[!redirects framed bordism homology theory]]
+[[!redirects framed bordism homology theories]]
 
 [[!redirects framed bordism ring]]
 [[!redirects framed bordism rings]]
