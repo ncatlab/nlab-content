@@ -298,14 +298,14 @@ See also at _[[function field analogy]]_ for more on this.
 ###### Proposition
 
 
-For $J \subset \mathbb{N}$ a set of [[prime numbers]], a homomorphism of abelian groups $f \;\colon\; A \lookrightarrow B $ is local (def. \ref{AbelianGroupLocal}) with respect to  $\underset{p \in J}{\oplus} \mathbb{Z}/p\mathbb{Z}$ (def. \ref{InvertingPrimes}) if under [[tensor product of abelian groups]] with $\mathbb{Z}[J^{-1}]$ (def. \ref{LocalizationOfIntegersAtSetOfPrimes}) it becomes an [[isomorphism]]
+For $J \subset \mathbb{N}$ a set of [[prime numbers]], a homomorphism of abelian groups $f \;\colon\; A \longrightarrow B $ is local (def. \ref{AbelianGroupLocal}) with respect to  $\underset{p \in J}{\oplus} \mathbb{Z}/p\mathbb{Z}$ (def. \ref{InvertingPrimes}) if under [[tensor product of abelian groups]] with $\mathbb{Z}[J^{-1}]$ (def. \ref{LocalizationOfIntegersAtSetOfPrimes}) it becomes an [[isomorphism]]
 
 $$
   f \otimes \mathbb{Z}[J^{-1}]
     \;\colon\;
-  X \otimes \mathbb{Z}[J^{-1}]
+  A \otimes \mathbb{Z}[J^{-1}]
     \overset{\simeq}{\longrightarrow}
-  Y \otimes \mathbb{Z}[J^{-1}]
+  B \otimes \mathbb{Z}[J^{-1}]
   \,.
 $$
 
