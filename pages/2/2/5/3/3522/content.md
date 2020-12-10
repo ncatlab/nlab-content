@@ -19,7 +19,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -321,6 +320,8 @@ See at _[[stable splitting of mapping spaces]]_.
 
 * [[Goodwillie differentiation]], [[Goodwillie chain rule]]
 
+* [[Goodwillie derivative of the identity functor]]
+
 * [[tangent (∞,1)-category]], [[tangent cohesion]]
 
 * [[jet (∞,1)-category]]
@@ -333,48 +334,51 @@ See at _[[stable splitting of mapping spaces]]_.
 
 ## References
 
-Surveys and introductions include
+The original articles:
 
-* {#Goodwillie90} [[Tom Goodwillie]], _The differential calculus of homotopy functors_, Proceedings of the International Congress of Mathematicians. Vol. 1. 1990 ([pdf](http://math.mit.edu/~nrozen/juvitop/goodwillie-icm.pdf))
+* {#Goodwillie90} [[Tom Goodwillie]], _The differential calculus of homotopy functors_, Proceedings of the International Congress of Mathematicians in Kyoto 1990, Vol. I, Math. Soc. Japan, 1991, pp. 621–6 ([article pdf](https://math.mit.edu/juvitop/old/notes/2009_Fall/goodwillie-icm.pdf), [full proceedings Vol I pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1990.2/ICM1990.2.ocr.pdf), [[GoodwillieICM1990.pdf:file]])
 
-* [[Brian Munson]], _Introduction to the manifold calculus of Goodwillie-Weiss_ ([arXiv:1005.1698](http://uk.arxiv.org/abs/1005.1698))
+* [[Thomas Goodwillie]], _Calculus. I. The first derivative of pseudoisotopy theory_, K-Theory __4__ (1990), no. 1, 1-27 ([doi:10.1007/BF00534191](http://dx.doi.org/10.1007/BF00534191), MR:1076523)
 
+* [[Thomas Goodwillie]], _Calculus. II. Analytic functors_, K-Theory __5__ (1991/92), no. 4, 295-332 ([doi:10.1007/BF00535644](http://dx.doi.org/10.1007/BF00535644), MR:1162445)
 
-* Nicholas J. Kuhn, _Goodwillie towers and chromatic homotopy: an overview_,   Proceedings of the Nishida Fest (Kinosaki 2003),  245--279, Geom. Topol. Monogr., 10, Geom. Topol. Publ., Coventry, 2007.
-
-* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
-
-
-* [Functor Calculus and Operads](http://www.birs.ca/events/2011/5-day-workshops/11w5058)
-
-* 2012 Talbot Workshop ([Talk schedule](http://math.mit.edu/conferences/talbot/2012/2012TalbotTalks.pdf), [Notes](http://math.mit.edu/conferences/talbot/index.php?year=2012&sub=talks))
+* [[Thomas Goodwillie]], _Calculus. III. Taylor series_, Geom. Topol. 7 (2003), 645--711 ([euclid:gt/1513883319](https://projecteuclid.org/euclid.gt/1513883319) [doi:10.2140/gt.2003.7.645](http://dx.doi.org/10.2140/gt.2003.7.645), [arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
 
 
+Surveys and introductions:
 
-Original articles include
+* [[Brian Munson]], _Introduction to the manifold calculus of Goodwillie-Weiss_,  Morfismos, Vol . 14, No. 1, 2010, pp. 1-60 ([arXiv:1005.1698](https://arxiv.org/abs/1005.1698))
 
-* [[Thomas Goodwillie]], 
+* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], Section 10 of: _Cubical homotopy theory_, Cambridge University Press, 2015  ([pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf), [doi:10.1017/CBO9781139343329](https://doi.org/10.1017/CBO9781139343329))
 
-  _Calculus. I. The first derivative of pseudoisotopy theory_, K-Theory __4__ (1990), no. 1, 1-27. MR 1076523 (92m:57027);
+* [[Michael Ching]], [[Nicholas Kuhn]], [[Victor Turchin]], _[Functor Calculus and Operads](http://www.birs.ca/events/2011/5-day-workshops/11w5058)_, BANFF Workshop 2011
 
-  _Calculus. II. Analytic functors_, K-Theory __5__ (1991/92), no. 4, 295-332. MR 1162445 (93i:55015); 
-
-  _Calculus. III. Taylor series_, Geom. Topol. 7 (2003), 645--711 ([journal](http://www.msp.warwick.ac.uk/gt/2003/07/p019.xhtml), [arXiv:math/0310481](http://arxiv.org/abs/math/0310481)))
+* [[Gregory Arone]], [[Michael Ching]] _[Talbot Workshop 2012: Calculus of Functors](https://math.mit.edu/events/talbot/index.php?year=2012)_ ([Talk schedule](http://math.mit.edu/conferences/talbot/2012/2012TalbotTalks.pdf), [Notes](http://math.mit.edu/conferences/talbot/index.php?year=2012&sub=talks))
 
 
-* Andrew Mauer-Oats, _Algebraic Goodwillie calculus and a cotriple model for the remainder_, Trans. Amer. Math. Soc. __358__  (2006),  no. 5, 1869--1895 [journal](http://www.ams.org/tran/2006-358-05/S0002-9947-05-03936-X/home.html), [math.AT/0212095](http://arxiv.org/abs/math/0212095)
-
-A [[model category]] presentation for [[n-excisive functors]] is given in
+A [[model category]] presentation for [[n-excisive functors]]:
 
 * [[Georg Biedermann]], [[Boris Chorny]], Oliver R&#246;ndigs, _Calculus of functors and model categories_, Adv. Math., __214__, n. 1 (2007) 92--115, [doi](http://dx.doi.org/10.1016/j.aim.2006.10.009), [math.AT/0601221](http://arxiv.org/abs/math/0601221)
 
 * [[Gregory Arone]], [[Michael Ching]], _Operads And Chain Rules For The Calculus Of Functors_, [arXiv:0902.0399](https://arxiv.org/abs/0902.0399)
 
-* {#AroneMahowald98} [[Gregory Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae February 1999, Volume 135, Issue 3, pp 743-788  ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
+* [AroneMahowald 98](#AroneMahowald98)
 
 * {#AroneKankaanrinta95} [[Gregory Arone]], Marja Kankaanrinta,  _The Goodwillie tower of the identity is a logarithm_, 1995 ([[Arone95.pdf:file]], [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306))
 
-A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
+
+See also:
+
+* Andrew Mauer-Oats, _Algebraic Goodwillie calculus and a cotriple model for the remainder_, Trans. Amer. Math. Soc. __358__  (2006),  no. 5, 1869--1895 [journal](http://www.ams.org/tran/2006-358-05/S0002-9947-05-03936-X/home.html), [math.AT/0212095](http://arxiv.org/abs/math/0212095)
+
+Discussion in the context of [[chromatic homotopy theory]]:
+
+* {#AroneMahowald98} [[Greg Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae, February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf), [doi:10.1007/s002220050300](https://doi.org/10.1007/s002220050300))
+
+* [[Nicholas Kuhn]], _Goodwillie towers and chromatic homotopy: an overview_,   Proceedings of the Nishida Fest (Kinosaki 2003),  245--279, Geom. Topol. Monogr., 10, Geom. Topol. Publ., Coventry, 2007 ([arXiv:math/0410342](https://arxiv.org/abs/math/0410342), [doi:10.2140/gtm.2007.10.245](http://dx.doi.org/10.2140/gtm.2007.10.245))
+
+
+Discussion via [[(∞,1)-categories]] and [[stable (∞,1)-categories]]:
 
 * [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_, [section 5](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf#page=159)
 
