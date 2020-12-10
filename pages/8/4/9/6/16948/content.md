@@ -79,7 +79,7 @@ In degree 0, the [[tom Dieck splitting]] applied to the [[equivariant suspension
 ### $\mathbb{Z}_2$-equivariance
  {#Z2equivariance}
 
-Consider $G= \mathbb{Z}_2$ the [[cyclic group of order 2]] and write $\pi^S_{p,q}$ for the homotopy group in [[RO(G)-grading|RO(G)-degree]] given by the representation on $\mathbb{R}^{p+q}$ with $\mathbb{Z}_2$ acts by [[reflection]] on the first $p$ coordinates, and trivially on the remaining $q$ coordinates:
+Consider $G= \mathbb{Z}_2$ the [[cyclic group of order 2]] and write $\pi^S_{p,q}$ for the homotopy group in [[RO(G)-grading|RO(G)-degree]] given by the representation on $\mathbb{R}^{p+q}$ where $\mathbb{Z}_2$ acts by [[reflection]] on the first $p$ coordinates, and trivially on the remaining $q$ coordinates:
 
 The following groups contain $\mathbb{Z}$-summands:
 
@@ -158,6 +158,13 @@ The sphere spectrum in [[global equivariant homotopy theory]] is discussed in
 * [[John Rognes]], _Galois extensions of structured ring spectra_ ([arXiv:math/0502183](http://arxiv.org/abs/math/0502183))
 
 * Markus Hausmann, Dominik Ostermayr, _Filtrations of global equivariant K-theory_ ([arXiv:1510.04011](http://arxiv.org/abs/1510.04011))
+
+### Relation to equivariant framed bordism
+
+Proof that [[equivariant framed bordism homology theory]] is [[Brown representability theorem|co-represented]] by the [[equivariant sphere spectrum]]:
+
+* Czes Kosniowski, _Equivariant Stable Homotopy and Framed Bordism_, Transactions of the American Mathematical Society
+Vol. 219 (1976), pp. 225-234 ([jstor:1997591](https://www.jstor.org/stable/1997591))
 
 ### $\mathbb{Z}/2$-equivariance
 
