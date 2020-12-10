@@ -101,7 +101,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-The [[∞-group]] $H(n)$, def. \ref{AutoequivalencesOfnSphere}, constitutes the two [[connected components]] of the $n$-fold based [[loop space]] $\Omega^n S^n$ corresponding to  the [[homotopy groups]] $\pm 1 \in \pi_n(S^n)$.
+The [[∞-group]] $H(n)$, def. \ref{AutoequivalencesOfnSphere}, constitutes the two [[connected components]] of the $n$-fold based [[loop space]] $\Omega^n S^n$ corresponding to the [[homotopy classes]] $\pm 1 \in \pi_n(S^n)$.
 
 =--
 
