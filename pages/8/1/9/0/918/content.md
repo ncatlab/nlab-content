@@ -39,6 +39,11 @@ The axiom [[WISC]] has an equivalent statement (that works in any Boolean [[topo
 
 One can view this as really a statement about the [[Grothendieck fibration]] over [[Set]] with fibre over $X$ the full subcategory of $Set/X$ on the surjections: every fibre has a [[weakly initial object]].
 
+## In other categories
+Since an element $a$ in a set $A$ the [[category of sets]] is just a function from the terminal set to $A$, one could generalise surjections to any category with a [[terminal object]] $1$:
+
+> A morphism $f:A\rightarrow B$ is surjective if, given any morphism $g:1\rightarrow B$, there exists a morphism $h:1\rightarrow A$ such that $f \circ h = g$. 
+
 ## Related concepts
 
 * [[injection]]
