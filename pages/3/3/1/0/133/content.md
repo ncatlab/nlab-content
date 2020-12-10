@@ -166,6 +166,8 @@ See also the [choice consequences data base](#ConsequencesDatabase)
 
 ## Related concepts
 
+* [[propositional axiom of choice]]
+
 * [[well-ordering]]
 
 * [[anafunctor]]
