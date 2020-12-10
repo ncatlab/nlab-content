@@ -32,13 +32,19 @@ The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] soluti
 
 ## Related concepts
 
-* [[wrapped brane]], [[M2-M5 brane bound state]]
+* [[polarized brane]]
+
+* [[wrapped brane]]
+
+* [[M2-M5 brane bound state]]
 
 * [[dual graviton]]
 
 
 
 ## References
+
+### General
 
 The concept was introduced in 
 
@@ -72,7 +78,15 @@ Further discussion:
 
 Specifically [[M2-M5 brane bound state]] giant gravitons are discussed in:
 
-* J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_,  Phys.Lett.B525:337-346, 2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+* J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_,  Phys. Lett. B525:337-346, 2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+
+### Relation to polarized branes
+
+On the relation of [[polarized branes]] to giant gravitons:
+
+* [[Iosif Bena]], Douglas Smith, 
+_Towards the solution to the giant graviton puzzle_, 	Phys.Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
+
 
 
 [[!redirects giant gravitons]]
