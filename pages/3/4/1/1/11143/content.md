@@ -69,6 +69,53 @@ E) This does not do justice to my work, and does not corresponds to the true his
                               
 **REMARK.**  Proposition 18 and Theorem 22 of 6. cited above establish that postulate WA2 (II, 3.2, 3.3) of 8. holds in the Dubuc Topos. However, there is a mistake (discovered by [[Michael Makkai|M. Makkai]]) in Lemma 21 of 6. which invalidates the proof. I believe that the result is true but I am not working to fix the proof now. The external statement holds, it is easy and it proved in 5. cited above.
 
+## Definition
+
+The Dubuc [[topos]] is the [[topos]] of [[sheaves of sets]]
+on the [[site]] $G$, whose underlying [[category]]
+is the [[opposite category]] of the [[category]] of germ-determined
+finitely generated [[C-infinity rings]].
+
+Here a finitely generated [[C-infinity ring]]
+of the form $C^\infty(M)/I$ for some [[smooth manifold]] $M$
+and [[ideal]] $I$ is __germ-determined__ if the [[ideal]] $I$ is germ-determined,
+which means that for any $f\in I$,
+if the [[germ]] of $f$ at any point $x$ in the [[zero locus]] of $I$ in $M$
+coincides with the [[germ]] of some element of $I$ at $x$,
+then $f$ itself belongs to $I$.
+Equivalently, germ-determined [[ideals]] are precisely those [[ideals]]
+that are closed under (possibly infinite) sums of [[locally finite]] families.
+One can also take sums with coefficients in a [[partition of unity]].
+
+The resulting [[opposite category]] is equipped with a [[Grothendieck topology]]
+as follows.
+A collection of morphisms $\{A_i\to B\}_{i\in I}$ in this category is a [[covering family]]
+if for any $i\in I$, the corresponding homomorphism of [[C-infinity rings]]
+$B\to A_i$ is isomorphic to a [[localization]] map at some element $b_i\in B$.
+
+Here [[localization]] is defined using a universal property
+formulated in the category of [[C-infinity rings]] and need not
+coincide with the usual [[localization of commutative rings]].
+Furthermore, we require that applying the functor $\gamma$
+to the family $\{A_i\to B\}_{i\in I}$
+produces a jointly surjective family of [[continuous maps]] of [[topological spaces]].
+
+Here the functor $\gamma$ is the [[right adjoint functor]]
+of the [[opposite functor]] of the inclusion of finitely generated point-determined [[C-infinity rings]]
+into finitely generated germ-determined [[C-infinity rings]].
+Concretely, $\gamma(C^\infty(M)/I)$
+for a germ-determined [[ideal]] $I$
+can be described as the zero locus of $I$ in $M$,
+converted into a finitely generated point-determined [[C-infinity ring]]
+using its [[C-infinity ring]] of smooth functions.
+
+Here a finitely generated [[C-infinity ring]]
+of the form $C^\infty(M)/I$ for some [[smooth manifold]] $M$
+and [[ideal]] $I$ is __point-determined__ if the [[ideal]] $I$ is point-determined,
+which means that for any $f\in I$,
+if $f(x)=0$ for any point $x$ in the [[zero locus]] of $I$ in $M$,
+then $f$ itself belongs to $I$.
+
 ## Related entries
 
 * [[Cahiers topos]]
