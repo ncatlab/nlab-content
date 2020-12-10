@@ -784,6 +784,9 @@ Recently, an improvement in understanding the interplay of derived functors (inv
 
 [[!redirects sheaves]]
 
+[[!redirects sheaf of sets]]
+[[!redirects sheaves of sets]]
+
 [[!redirects 1-sheaf]]
 [[!redirects (1,1)-sheaf]]
 
