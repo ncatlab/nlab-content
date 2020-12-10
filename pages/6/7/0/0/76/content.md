@@ -213,7 +213,13 @@ Survey
 
 * [[Klaus Heiner Kamps]], [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_, World Scientific 1997 ([doi:10.1142/2215](https://doi.org/10.1142/2215), [GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
-* [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_
+
+* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015  ([pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf), [doi:10.1017/CBO9781139343329](https://doi.org/10.1017/CBO9781139343329))
+
+  (with emphasis on [[cubical objects]] such as in [[n-excisive functors]] and [[Goodwillie calculus]])
+
+
+* [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_, 2019
 
 The original axiomatization of homotopy theory by [[model categories]] is due to
 
