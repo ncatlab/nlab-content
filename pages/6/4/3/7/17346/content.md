@@ -1042,7 +1042,7 @@ $$
   \,.
 $$
 
-=---
+=--
 
 ([Adams 74, theorem 15.1 page 319](#Adams74))
 
@@ -3441,9 +3441,9 @@ We discuss the convergence of $E$-Adams spectral sequences (def. \ref{AdamsEAdam
 
 If an $E$-Adams spectral sequence converges, then it converges not necessarily to the full stable homotopy groups $[X,Y]_\bullet$, but to some [[localization of abelian groups|localization]] of them. This typically means, roughly, that only certain $p$-[[torsion subgroups]] in $[X,Y]_\bullet$ for some [[prime numbers]] $p$ are retained. We give a precise discussion below in _[Localization and adic completion of abelian groups](#LocalizationOfAbelianGroups)_.
 
-If one knows that $[X,Y]_q$ is a [[finitely generated object|finitely generated]] [[abelian group]] (as is the case notably for $\pi_q^s = [\mathbb{S},\mathbb{S}]_q$ by the _[[Serre finiteness theorem]]_) then this allows to recover the full information from its pieces: by the _[[fundamental theorem of finitely generated abelian groups]]_ (prop. \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} below) these groups are [[direct sums]] of powers $\mathbb{Z}^n$ of the infinite cyclic group with finite [[cyclic groups]] of the form $\mathbb{Z}/p^k \mathbb{Z}$, and so all one needs to compute is the powers $k$ "one prime $p$ at a time". This we review below in _[Primary decomposition of abelian groups](#PrimaryDecompositionOfAbelianGroups)_.
+If one knows that $[X,Y]_q$ is a [[finitely generated object|finitely generated]] [[abelian group]] (as is the case notably for $\pi_q^s = [\mathbb{S},\mathbb{S}]_q$ by the _[[Serre finiteness theorem]]_) then this allows to recover the full information from its pieces: by the _[[fundamental theorem of finitely generated abelian groups]]_ (prop. \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} below) these groups are [[direct sums]] of powers $\mathbb{Z}^n$ of the [[infinite cyclic group]] $\mathbb{Z}$ with finite [[cyclic groups]] of the form $\mathbb{Z}/p^k \mathbb{Z}$, and so all one needs to compute is the powers $k$ "one prime $p$ at a time". This we review below in _[Primary decomposition of abelian groups](#PrimaryDecompositionOfAbelianGroups)_.
 
-The deeper reason that $E$-Adams spectral sequences tend to converge to [[localization of an abelian group|localizations]] of the abelian groups $[X,Y]_\bullet$ of morphisms of spectra, is that they really converges to the actual homotopy groups but of [[localizations of spectra]]. This is more than just a reformulation, because the localization at the level of spectra determies the [[filtration]] which controls the nature of the convergence. We discuss this localization of spectra below in _[Localization and nilpotent completion of spectra](#LocalizationOfSpectra)_.
+The deeper reason that $E$-Adams spectral sequences tend to converge to [[localization of an abelian group|localizations]] of the abelian groups $[X,Y]_\bullet$ of morphisms of spectra, is that they really converge to (the actual homotopy groups of) [[localizations of spectra]]. This is more than just a reformulation, because the localization at the level of spectra determies the [[filtration]] which controls the nature of the convergence. We discuss this localization of spectra below in _[Localization and nilpotent completion of spectra](#LocalizationOfSpectra)_.
 
 Then we state convergence properties of $E$-Adams spectral sequences below in _[Convergence statements](#ConvergenceStatements)_.
 
@@ -3630,7 +3630,7 @@ This notation comes from the convention of drawing stable pages of [[multiplicat
 
 * inductively, a dot vetically below a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots above;
 
-* a vertical line between two dots means that the the generator of the group corresponding to the upper dot is, regarded after inclusion into the group extension, the product by $p$ of the generator of the group corresponding to the lower dot, regarded as represented by the generator of the group extension.
+* a vertical line between two dots means that the generator of the group corresponding to the upper dot is, regarded after inclusion into the group extension, the product by $p$ of the generator of the group corresponding to the lower dot, regarded as represented by the generator of the group extension.
 
 So for instance
 
@@ -4727,7 +4727,7 @@ By theorem \ref{pCompletionOfAbelianGroupsByHomsOutOfZpinfinity} the $i$th facto
 ### Localization and nilpotent completion of spectra
  {#LocalizationOfSpectra}
 
-We discuuss
+We discuss
 
 1. _[Bousfield localization of spectra](#BousfieldLocalizationOfSpectra)_
 
@@ -5033,7 +5033,7 @@ $$
 By the above, this means that $[A, L_E X] = 0$, hence by lemma \ref{KappaCellSpectrumWitnessingELocalization} that $L_E X$ is $E$-local.
 
 
-It remains to see that the [[homotopy fiber]] of $X \to L_E X$ is $E$-acyclic: By the [[tensor triangulated category|tensor triangulated]] structure on $Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)) it is sufficient to show that the [[homotopy cofiber]] is $E$-acyclic (since it differs from the homotopy fiber only by suspension). By the [[pasting law]], the homotopy cofiber of a [[transfinite composition]] is the transfinite composition of a sequence of homotopy pushouts. By lemma \ref{KappaCellSpectrumWitnessingELocalization} and applying the pasting law again, all these homotopy pushouts produce $E$-acyclic objects. Hence we conclude by observing that the the transfinite composition of the morphisms between these $E$-acyclic objects is $E$-acyclic. Since by construction all these morphisms are relative cell complex inclusions, this follows again with the compactness of the $n$-spheres ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)).
+It remains to see that the [[homotopy fiber]] of $X \to L_E X$ is $E$-acyclic: By the [[tensor triangulated category|tensor triangulated]] structure on $Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)) it is sufficient to show that the [[homotopy cofiber]] is $E$-acyclic (since it differs from the homotopy fiber only by suspension). By the [[pasting law]], the homotopy cofiber of a [[transfinite composition]] is the transfinite composition of a sequence of homotopy pushouts. By lemma \ref{KappaCellSpectrumWitnessingELocalization} and applying the pasting law again, all these homotopy pushouts produce $E$-acyclic objects. Hence we conclude by observing that the transfinite composition of the morphisms between these $E$-acyclic objects is $E$-acyclic. Since by construction all these morphisms are relative cell complex inclusions, this follows again with the compactness of the $n$-spheres ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)).
 
 =--
 
@@ -5230,7 +5230,7 @@ $$
 is presented by a tower of fibrations between fibrant spectra in the [[model structure on topological sequential spectra]], then $Y^\wedge_E$ is represented by the ordinary [[sequential limit]] over this tower.
 
 
-=---
+=--
 
 ([Bousfield 79, top, middle and bottom of page 272](#Bousfield79))
 
@@ -5553,10 +5553,11 @@ Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} in
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #ClassicalAdamsSpectralSequence}
 ###### Examples
+**([[classical Adams spectral sequence]])**
 
-* For $X = \mathbb{S}$ and $E = H\mathbb{F}_p$, then theorem \ref{SecondPageOfEAdamsSpectralSequence} and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations} gives a spectral sequence
+* For $X = \mathbb{S}$ and $E = H\mathbb{F}_p$, then theorem \ref{SecondPageOfEAdamsSpectralSequence}, and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations}, gives a spectral sequence
 
   $$
     Ext_{\mathcal{A}^\ast_p}(\mathbb{F}_p, \mathbb{F}_p)
@@ -5567,7 +5568,7 @@ Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} in
 
   This is the _[[classical Adams spectral sequence]]_.
 
-* For $X = \mathbb{S}$ and $E = $ [[MU]], then theorem \ref{SecondPageOfEAdamsSpectralSequence} and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations} gives a spectral sequence
+* For $X = \mathbb{S}$ and $E = $ [[MU]], then theorem \ref{SecondPageOfEAdamsSpectralSequence}, and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations}, gives a spectral sequence
 
   $$
     Ext_{MU_\ast(MU)}(MU_\ast, MU_\ast)
@@ -7016,6 +7017,7 @@ For the homological algebra of comodules over Hopf algebroids we follow appendix
 For the special case of the [[classical Adams spectral sequence]] and of the [[Adams-Novikov spectral sequence]] we follow
 
 * {#Kochman96} [[Stanley Kochman]], chapter 5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 
 
 [[!redirects Introduction to Stable homotopy theory -- 2]]
