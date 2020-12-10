@@ -1,11 +1,2 @@
 
-* [webpage](https://sites.google.com/a/wellesley.edu/ismar-volic/)
-
-## Related entries
-
-* [[Blakers-Massey theorem]]
-
-* [[Goodwillie calculus]]
-
-category: people
-
+see at _[[Ismar Volić]]_
