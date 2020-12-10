@@ -76,6 +76,11 @@ Discussion of [[D2-branes]] [[D-brane polarization|polarizing]] to [[D2-D4 brane
 
 * [[Iosif Bena]], Aleksey Nudelman, _Exotic polarizations of D2 branes and oblique vacua of $(S)YM_{2+1}$_, Phys. Rev. D62 (2000) 126007 ([arXiv:hep-th/0006102](https://arxiv.org/abs/hep-th/0006102))
 
+Polarization into [[torus]] shape:
+
+* Yoshifumi Hyakutake, _Torus-like Dielectric D2-brane_, 	JHEP 0105:013, 2001 ([arXiv:hep-th/0103146](https://arxiv.org/abs/hep-th/0103146))
+
+
 
 
 Polarization of [[fractional D-branes]]:
