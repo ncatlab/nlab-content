@@ -32,6 +32,8 @@ The idea of _realizability_ is a way of making the [[Brouwer-Heyting-Kolmogorov 
 
 * [[effective topos]], [[Kleene-Vesley topos]]
 
+* [[propositional axiom of choice]]
+
 [[!include computable mathematics -- table]]
 
 
@@ -82,7 +84,7 @@ See also
 
 * Wouter Pieter Stekelenburg, _Realizability Categories_, PhD thesis, Utrecht 2013 ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
 
-* [[Martin Hyland]], _Variations on Realizability_ (2000) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.22.9507))
+* [[Martin Hyland]], _Variations on realizability: realizing the propositional axiom of choice_,  Mathematical Structures in Computer Science, Volume 12, Issue 3, June 2002, pp. 295 - 317  ([doi:10.1017/S0960129502003651](https://doi.org/10.1017/S0960129502003651), [pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2002/vor02.pdf))
 
 [[!redirects realizer]]
 [[!redirects realizers]]
