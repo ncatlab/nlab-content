@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $(X,x)$ a [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is equivalently the following
+For $(X,x)$ a [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is equivalently the following:
 
 * obtained from the standard [[cylinder]] $I\times X$ ([[product topological space]] with the [[closed interval]] $I = [0,1]$) by identifying the [[subspace]] $(\{0,1\}\times X) \cup (I\times \{x\})$ to a point, i.e. the [[quotient space]] ([this example](quotient+space#QuotientBySubspace))
 
@@ -38,7 +38,7 @@ For $(X,x)$ a [[pointed topological space]], then its *reduced suspension* $\Sig
     \Sigma X \simeq S X / (  \{x\} \times I )
   $$
 
-  For the purposes of [[generalized (Eilenberg-Steenrod) cohomology]] theory typoically it does not matter whether one evaluates on the standard suspension or the reduced suspension. For example for [[topological K-theory]] since since $\{x\} \times I$ is a [[contractible topological space|contractible]] [[closed subspace]], then [this prop.](topological+vector+bundle#VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace) says that [[topological vector bundles]] do not see a difference as long as $X$ is a [[compact Hausdorff space]].
+  For the purposes of [[generalized (Eilenberg-Steenrod) cohomology]] theory typoically it does not matter whether one evaluates on the standard suspension or the reduced suspension. For example for [[topological K-theory]] since $\{x\} \times I$ is a [[contractible topological space|contractible]] [[closed subspace]], then [this prop.](topological+vector+bundle#VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace) says that [[topological vector bundles]] do not see a difference as long as $X$ is a [[compact Hausdorff space]].
 
 
 
