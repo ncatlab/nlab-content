@@ -202,7 +202,7 @@ $$
 
 +-- {: .num_defn}
 ###### Definition
-**(germ-determined finitely generated / fair )**
+**([[germ-determined ideal]])**
 
 For $p \in \mathbb{R}^n$ let
 
@@ -782,15 +782,19 @@ The generalization to [[supergeometry]] is
 
 ## Related concepts
 
+* [[germ-determing C-infinity ring]]
+
+* [[Dubuc topos]]
+
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
 * [[derivations of smooth functions are vector fields]]
 
 ## References {#References}
 
-A standard textbook reference is chapter 1 of
+Textbook account
 
-* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
+* [[Ieke Moerdijk]]. [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
 The concept of $C^\infty$-rings in particular and that of [[synthetic differential geometry]] in general was introduced in
 
@@ -812,7 +816,7 @@ Studies of the properties of $C^\infty$-rings include
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[RingsOfSmoothFunctionsI.pdf:file]]_ , Journal of Algebra 99 (1986)
 
-The notion of the spectrum of a $C^\infty$-ring and that of $C^\infty$-[[scheme]]s is discussed in
+The notion of the spectrum of a $C^\infty$-ring and that of $C^\infty$-[[schemes]] is discussed in
 
 * [[Eduardo Dubuc]], _$C^\infty$-schemes_ Amer. J. Math. 103 (1981) ([pdf](http://www.math.ist.utl.pt/~jroquet/Dubuc.pdf) [JSTOR](http://www.jstor.org/stable/select/2374046)).
 
