@@ -204,6 +204,13 @@ see also
 
 * {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([pdf](http://www.people.virginia.edu/~jdb8pc/Thesis.pdf))
 
+### Relation to equivariant cobordism theory
+
+Proof that [[equivariant framed bordism homology theory]] is [[Brown representability theorem|co-represented]] by the [[equivariant sphere spectrum]]:
+
+* Czes Kosniowski, _Equivariant Stable Homotopy and Framed Bordism_, Transactions of the American Mathematical Society
+Vol. 219 (1976), pp. 225-234 ([jstor:1997591](https://www.jstor.org/stable/1997591))
+
 
 ### In M-brane charge quantization
 
@@ -213,7 +220,7 @@ Discussion for [[M-brane]] physics:
 
   ([[equivariant rational homotopy theory|rational]]  [[equivariant cohomotopy]])
 
-* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+* {#SatiSchreiber19} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
 
   (implying [[RR-field tadpole cancellation]])
 
