@@ -139,6 +139,9 @@ That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; tha
 
 * [[differential ideal]]
 
+* [[germ-determined ideal]]
+
+
 [[!redirects ideal]]
 [[!redirects ideals]]
 
