@@ -24,6 +24,12 @@ On the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-b
 
 * [[Iosif Bena]], Diana Vaman, _The polarization of M5 branes and little string theories with reduced supersymmetry_, JHEP 0111 (2001) 032 ([arXiv:hep-th/0101064](https://arxiv.org/abs/hep-th/0101064))
 
+On the relation of [[polarized branes]] to [[giant gravitons]]:
+
+* [[Iosif Bena]], Douglas Smith, 
+_Towards the solution to the giant graviton puzzle_, 	Phys.Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
+
+
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] [[string theory vacua|vacua in string theory]]:
 
 * [[Iosif Bena]], [[Krzysztof Pilch]], [[Nicholas Warner]], _Brane-Jet Instabilities_,  J. High Energ. Phys. 2020, 91 (2020) ([arXiv:2003.02851](https://arxiv.org/abs/2003.02851))
