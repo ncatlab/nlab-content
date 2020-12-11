@@ -211,6 +211,12 @@ and as a possible explanation also of the anomalies seen at the [[ANITA experime
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
 
+### As dark matter candidates
+
+Leptoquarks as candidates for [[dark matter]]:
+
+* Francesco D'Eramo, Nejc Košnik, Federico Pobbe, Aleks Smolkovič, Olcyr Sumensari, _Leptoquarks and Real Singlets: A Richer Scalar Sector Behind the Origin of Dark Matter_ ([arXiv:2012.05743](https://arxiv.org/abs/2012.05743))
+
 
 ### Appearance in GUTs
 
