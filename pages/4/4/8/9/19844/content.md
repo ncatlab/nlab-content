@@ -857,6 +857,11 @@ and in relation to [[axions]]:
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
 
+Leptoquarks as [[dark matter]]-candidates:
+
+* Francesco D'Eramo, Nejc Košnik, Federico Pobbe, Aleks Smolkovič, Olcyr Sumensari, _Leptoquarks and Real Singlets: A Richer Scalar Sector Behind the Origin of Dark Matter_ ([arXiv:2012.05743](https://arxiv.org/abs/2012.05743))
+
+
 
 #### $Z'$-boson
 
