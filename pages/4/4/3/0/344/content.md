@@ -14,14 +14,12 @@
 =--
 
 
-# Extensive categories
 * table of contents
 {: toc}
 
 ## Idea
 
 A [[category]] is _extensive_ if it has [[coproducts]] that interact well with [[pullbacks]].  Variations (some only terminological) include _lextensive_, _disjunctive_, and _positive_ categories.  All of these come in _finitary_ and _infinitary_ versions (and, more generally, $\kappa$-ary versions for any [[arity class]] $\kappa$).
-
 
 ## Definitions
 
@@ -123,10 +121,25 @@ Being pre-lextensive is also sufficient to define the extensive topology and sho
 
 * [[disjunctive (∞,1)-category]]
 
+* [[intensive or extensive quantity|extensive quantity]]
+
+* [[objective number theory]]
+
+* [[disjunctive logic]]
+
+* [[Gaeta topos]]
+
+## Link
+
+* {#catlistdiscussion}[Freyd, Lack, Lawvere et al: CATLIST discussion on extensive categories 1996](https://www.mta.ca/~cat-dist/catlist/1999/extensive)
+
 ## References
 
-Carboni, Aurelio and Lack, Stephen and Walters, R. F. C., _Introduction to extensive and distributive categories_, JPAA 84 no. 2 
+* [[Aurelio Carboni]], [[George Janelidze]], _Decidable (= separable) objects and morphisms in lextensive categories_ , JPAA **110** (1996) pp.210-240.
 
+* [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_ , JPAA **84** (1993) pp.145-158.
+
+* [[Stephen Lack]], [[Enrico Vitale|Enrico M. Vitale]], _When do completion processes give rise to extensive categories?_ , JPAA **159** (2001) pp.203-230.
 
 ## Discussions
 
