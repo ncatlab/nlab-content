@@ -121,7 +121,9 @@ There are many additional structures on monoidal categories, or similar structur
 
 * String diagrams for [[closed monoidal categories]] (see also at _[[Kelly-Mac Lane graph]]_) are similar to those for [[autonomous categories]], but a bit subtler, involving "boxes" to separate parts of the diagram.  They were used informally by Baez and Stay [here](#BaezQG06) and [here](#Rosetta), but can also be done in essentially the same way as the [[proof nets]] used in [[intuitionistic logic|intuitionistic]] [[linear logic]]; see [Lamarche](#Lamarche08).
 
-* Proof nets for [[classical mathematics|classical]] [[linear logic]] similarly give string diagrams for [[*-autonomous categories]], or more generally [[linearly distributive categories]]; see [Blute-Cockett-Seely-Trimble](#BCST).
+* Proof nets for multiplicative [[linear logic]] with negation similarly give string diagrams for [[*-autonomous categories]], or more generally [[linearly distributive categories]]; see [Blute-Cockett-Seely-Trimble](#BCST).
+
+* Proof surfaces for noncommutative multiplicative [[linear logic]] with negation, see [Dunn-Vicary](#DunnVicary17)
 
 * _Sheet diagrams_, string diagrams drawn on a branching surface, may be used for [[rig categories]], see [Comfort-Delpeuch-Hedges](#CDH).
 
@@ -349,6 +351,9 @@ For [[linearly distributive categories]] in
 
 * [[Richard Blute]] and [[Robin Cockett]] and [[R.A.G. Seely]] and [[Todd Trimble]], *Natural deduction and coherence for weakly distributive categories.
  {#BCST}
+
+* {#DunnVicary17} Lawrence Dunn, [[Jamie Vicary]], _Surface Proofs for Nonsymmetric Linear Logic_ ([arXiv:1701.04917](http://arxiv.org/abs/1701.04917)) 
+
 
 For [[indexed monoidal categories]] in
 
