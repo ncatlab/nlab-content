@@ -98,16 +98,15 @@ and further amplified in
 
 In this perspective picture number is an extra grading on [[differential forms on supermanifolds]] induced from a choice of _integral top-form_ needed to define [[integration over supermanifolds]]:
 
-* {#CatenacciGrassiNoja18} [[Roberto Catenacci]], [[Pietro Grassi]], S. Noja, _Superstring Field Theory, Superforms and Supergeometry_, Journal of Geometry and Physics Volume 148, February 2020, 103559 ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
+* {#CatenacciGrassiNoja18} [[Roberto Catenacci]], [[Pietro Grassi]], [[Simone Noja]], _Superstring Field Theory, Superforms and Supergeometry_, Journal of Geometry and Physics Volume 148, February 2020, 103559 ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
   (with an eye towards [[superstring field theory]])
 
-* C. A. Cremonini, [[Pietro Grassi]], _Pictures from Super Chern-Simons Theory_ ([arXiv:1907.07152](https://arxiv.org/abs/1907.07152))
+* [[C. A. Cremonini]], [[Pietro Grassi]], _Pictures from Super Chern-Simons Theory_ ([arXiv:1907.07152](https://arxiv.org/abs/1907.07152))
 
   (with an eye towards [[super Chern-Simons theory]])
 
-
-* C.A. Cremonini, [[Pietro Grassi]], S. Penati, _Supersymmetric Wilson Loops via Integral Forms_ ([arXiv:2003.01729](https://arxiv.org/abs/2003.01729))
+* [[C. A. Cremonini]], [[Pietro Grassi]], S. Penati, _Supersymmetric Wilson Loops via Integral Forms_ ([arXiv:2003.01729](https://arxiv.org/abs/2003.01729))
 
   (for super-[[Wilson lines]])
 
