@@ -209,6 +209,9 @@ Other original articles include:
 
 * Sara Heshmatian, Razieh Morad, _Jet suppression in non-conformal plasma using AdS/CFT_ ([arXiv:1812.09374](https://arxiv.org/abs/1812.09374))
 
+
+* Irina Ya. Aref'eva, Kristina Rannu, Pavel Slepov, _Energy Loss in Holographic Anisotropic Model for Heavy Quarks in External Magnetic Field_ ([arXiv:2012.05758](https://arxiv.org/abs/2012.05758))
+
 With emphasis on application to [[neutron stars]]:
 
 * Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
