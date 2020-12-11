@@ -46,12 +46,22 @@ Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global
 
 +-- {: .num_prop}
 ###### Proposition
-Every surjection in a category $\mathcal{C}$ with a [[terminal object]] $1$ is an [[epimorphism]] if $1$ is a [[separator]]. 
+In a category $\mathcal{C}$ with a [[terminal object]] $1$ such that $1$ is a [[separator]], every surjection is an [[epimorphism]]. 
 =--
 
 +-- {: .proof}
 ###### Proof
-Suppose $f:A\rightarrow B$ is a surjection and there are parallel morphisms $g, h:B\rightarrow C$ such that $g \circ f = h \circ f$. Then for every global element $y:1\rightarrow B$ there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$, and thus $g \circ y = g \circ f \circ x$ and $h \circ y = h \circ f \circ x$. But since $g \circ f = h \circ f$, $g \circ f \circ x = h \circ f \circ x$, which implies that $g \circ y = h \circ y$. If $1$ is a [[separator]], then for every global element $y:1\rightarrow B$, if $g \circ y = h \circ y$, then $g = h$, showing that the surjection $f$ is an epimorphism if $1$ is a [[separator]]. 
+For any surjection $f:A\rightarrow B$, suppose there are parallel morphisms $g, h:B\rightarrow C$ such that there $g \circ f = h \circ f$ (a [[fork]]). Then for every global element $y:1\rightarrow B$ there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$, and thus $g \circ y = g \circ f \circ x$ and $h \circ y = h \circ f \circ x$. But since $g \circ f = h \circ f$, $g \circ f \circ x = h \circ f \circ x$, which implies that $g \circ y = h \circ y$. Since $1$ is a [[separator]], then for every global element $y:1\rightarrow B$, if $g \circ y = h \circ y$, then $g = h$, showing that the surjection $f$ is an epimorphism. 
+=--
+
++-- {: .num_prop}
+###### Proposition
+In a category $\mathcal{C}$ with a [[terminal object]] $1$ and binary [[equalisers]] such that every [[surjection]] has a [[section]] (axiom of choice for surjections), the terminal object $1$ is a [[separator]]. 
+=--
+
++-- {: .proof}
+###### Proof
+Suppose there are parallel morphisms $g, h:B\rightarrow C$ such that for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$. One could construct an equaliser $f:eq(g,h)\rightarrow B$, which implies that $g \circ f = h \circ f$ and that for any element $x\in eq(g,h)$, $g \circ f \circ x = h \circ f \circ x$. This implies that for every global element $y:1\rightarrow B$, $y = f \circ x$, and the equaliser $f:eq(g,h)\rightarrow B$ is a surjection. Since every surjection has a section $i:B\rightarrow eq(g,h)$ such that $f \circ i = 1_{B}$, the identity morphism on $B$, $g \circ f \circ i = h \circ f \circ i$, $g \circ 1_{B} = h \circ 1_{B}$, and $g = f$. Because for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$ implies $g = h$, the terminal object $1$ is a [[separator]].
 =--
 
 ### Duals of surjections
