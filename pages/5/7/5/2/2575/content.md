@@ -756,6 +756,8 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
   * [[infinite-dimensional Chern-Simons theory]]
 
+* [[super Chern-Simons theory]]
+
 * [[holomorphic Chern-Simons theory]]
 
   * [[semi-holomorphic 4d Chern-Simons theory]]
