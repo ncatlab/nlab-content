@@ -22,7 +22,7 @@ If the ring $R$ is a [[field]] then $R$-modules are called _[[vector spaces]]_ a
 
 ## Definition
 
-Thoughout let $R$ be some [[ring]]. Write $R$[[Mod]] for the [[category]] of [[module]] over $R$. Write $U R Mod \to$ [[Set]] for the [[forgetful functor]] that sends a module to its underlying [[set]].
+Thoughout let $R$ be some [[ring]]. Write $R$[[Mod]] for the [[category]] of [[module]]s over $R$. Write $U:R Mod \to$ [[Set]] for the [[forgetful functor]] that sends a module to its underlying [[set]].
 
 +-- {: .num_defn}
 ###### Definition
