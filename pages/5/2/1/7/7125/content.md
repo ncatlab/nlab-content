@@ -294,14 +294,16 @@ Of course, more interesting examples of the gluing construction abound as well. 
 
 * Peter F. Faul, Graham R. Manuell, _Artin Glueings of Frames as Semidirect Products_ , arXiv:1907.05104 (2019). ([abstract](https://arxiv.org/abs/1907.05104))
 
+* Peter F. Faul, Graham Manuell, José Siqueira, _Artin glueings of toposes as adjoint split extensions_ , arXiv:2012.04963 (2020). ([abstract](https://arxiv.org/abs/2012.04963))
+
+* [[Mamuka Jibladze]], _Lower Bagdomain as a Glueing_ , Proc. A. Razmadze Math. Inst. **118** (1998) pp.33-41. ([pdf](http://www.rmi.ge/~jib/pubs/baglue.pdf))
+
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). (section 4.2, pp.107-112)
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. (sec. A2.1.12, pp.82-84; A4.5.6, p.208)
   {#Johnstone}
 
 * {#JLS07}[[Peter Johnstone]], [[Steve Lack]], [[Pawel Sobocinski]], _Quasitoposes, Quasiadhesive Categories and Artin Glueing_ , pp.312-326 in LNCS **4624** Springer Heidelberg 2007. ([preprint](http://users.ecs.soton.ac.uk/ps/papers/calco07.pdf)) 
-
-* [[Mamuka Jibladze]], _Lower Bagdomain as a Glueing_ , Proc. A. Razmadze Math. Inst. **118** (1998) pp.33-41. ([pdf](http://www.rmi.ge/~jib/pubs/baglue.pdf))
 
 * [[Anders Kock|A. Kock]], T. Plewe, _Glueing analysis for complemented subtoposes_ , TAC **2** (1996) pp.100-112. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n9/n9.pdf))
 
