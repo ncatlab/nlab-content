@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[string theory]], the term _giant graviton_ refers to [[wrapped brane]]-configurations which behave like massless [[relativistic particles]], notably [[gravitons]].
+In [[string theory]], the term _giant graviton_ refers to [[wrapped brane]]-configurations on contractibe [[cycles]] stabilized by [[angular momentum]] (much like [[polarized branes]], which are stabilized by flux).
 
 ## Examples
 
@@ -76,16 +76,21 @@ Further discussion:
 
 * Vijay Balasubramanian, [[Micha Berkooz]], Asad Naqvi, [[Matthew Strassler]], _Giant Gravitons in Conformal Field Theory_, JHEP 0204 (2002) 034 ([arXiv:hep-th/0107119](https://arxiv.org/abs/hep-th/0107119))
 
+* [[Yolanda Lozano]], Jeff Murugan, [[Andrea Prinsloo]], _A giant graviton genealogy_, JHEP 08 (2013) 109 ([arXiv:1305.6932](https://arxiv.org/abs/1305.6932))
+
 Specifically [[M2-M5 brane bound state]] giant gravitons are discussed in:
 
 * J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_,  Phys. Lett. B525:337-346, 2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+
+
+* Shinji Hirano, Yuki Sato, _Giant graviton interactions and M2-branes ending on multiple M5-branes_, JHEP 05 (2018) 065 ([arXiv:1803.04172](https://arxiv.org/abs/1803.04172))
+
 
 ### Relation to polarized branes
 
 On the relation of [[polarized branes]] to giant gravitons:
 
-* [[Iosif Bena]], Douglas Smith, 
-_Towards the solution to the giant graviton puzzle_, 	Phys.Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
+* [[Iosif Bena]], Douglas Smith, _Towards the solution to the giant graviton puzzle_, 	Phys. Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
 
 
 
