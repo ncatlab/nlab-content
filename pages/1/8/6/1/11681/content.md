@@ -25,7 +25,7 @@ The [[Hodge theorem]] in the language of [[electromagnetism]]. Over a [[Riemann 
 
 Let $(X,g)$ be a [[compact topological space|compact]] [[orientation|oriented]] [[Riemannian manifold]] of [[dimension]] $n$. Write $\star$ for the corresponding [[Hodge star]] operator.
 
-Then for every exact [[differential n-form]] $j$ of degree $n-k-1$ there is in each [[de Rham cohomology]] ckass of degree 2 a unique representative closed 2-form $F$
+Then for every exact [[differential n-form]] $j$ of degree $n-k-1$ there is in each [[de Rham cohomology]] class of degree 2 a unique representative closed 2-form $F$
 
 $$
   \mathbf{d} F = 0
