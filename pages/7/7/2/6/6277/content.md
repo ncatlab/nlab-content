@@ -32,7 +32,7 @@ The Bernoulli numbers are also proportional to the constant terms of the [[Eisen
 
 Finally they appear as the [[order of a group|order]] of some groups in the [[image of the J-homomorphism]]  (cf. [Adams 65, section 2](#Adams65)).
 
-Of course, all of these cases are related to formal group laws. Formal groups bear also some other connections to Bernoulli numbers and generalizations like [[Bernoulli polynomial]]s.
+Of course, all of these cases are related to [[formal group laws]]. Formal groups bear also some other connections to Bernoulli numbers and generalizations like [[Bernoulli polynomial]]s.
 
 ### Elsewhere
 
