@@ -100,7 +100,7 @@ $$
 
 * {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, [[Paolo Piccinni]], Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, Transformation Groups (2013) 18: 845 ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
 
-* {#PartonPiccinni18} Maurizio Parton, [[Paolo Piccinni]], _The Role of Spin(9) in Octonionic Geometry_, ([arXiv:1810.06288](https://arxiv.org/abs/1810.06288)).
+* {#PartonPiccinni18} Maurizio Parton, [[Paolo Piccinni]], _The role of $Spin(9)$ in octonionic geometry_, ([arXiv:1810.06288](https://arxiv.org/abs/1810.06288)).
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
 
