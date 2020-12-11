@@ -106,7 +106,7 @@ An [[elliptic curve]] over a [[field]] of [[positive number|positive]] [[charact
 
 ### Chromatic height filtation
 
-The hight of formal groups induces the [[height filtration]] on the [[moduli stack of formal groups]].
+The height of formal groups induces the [[height filtration]] on the [[moduli stack of formal groups]].
 
 [[!include Lurie spectral sequences -- table]]
 
