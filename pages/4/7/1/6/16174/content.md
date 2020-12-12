@@ -209,6 +209,8 @@ For details on this comparison map see at _[[permutation representation]]_, [thi
 
 * [[beta-ring]]
 
+* [[objective number theory]]
+
 ## References
  {#References}
 
