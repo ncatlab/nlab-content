@@ -55,7 +55,14 @@ From [Nicolai-Helling 98, p. 2](#NicolaiHelling98):
 
 > Despite the recent excitement, however, we do not think that M(atrix) theory and the $d= 11$ supermembrane in their present incarnation are already the final answer in the search for M-Theory, even though they probably are important pieces of the puzzle. There are still too many ingredients missing that we would expect the final theory to possess. For one thing, we would expect a true theory of quantum gravity to exhibit certain pregeometrical features corresponding to a “dissolution” of space-time and the emergence of some kind of non-commutative geometry at short distances; although the matrix model does achieve that to some extent by replacing commuting coordinates by non-commuting matrices, it seems to us that a still more radical departure from conventional ideas about space and time may be required in order to arrive at a truly background independent formulation (the matrix model “lives” in nine _flat_ transverse dimensions only). Furthermore, there should exist some huge and so far completely hidden symmetries generalizing not only the duality symmetries of extended supergravity and string theory, but also the principles underlying general relativity.
 
-Then, even assuming that in this corner all the crucial [[generalized (Eilenberg-Steenrod) cohomology|cohomological]] aspects of [[D-brane]] and [[M-brane]] charges (in [[twisted differential K-theory]], [[twisted cohomotopy]] etc.) are secretly encoded in the matrix model, somehow, none of this is manifest, making the matrix model spit out numbers about a conceptually elusive theory in close analogy to how [[lattice QCD]] produces numbers without informing us about the actual conceptual nature of [[confinement|confined]] [[hadron]] physics.
+From [Mohammed-Murugan-Nastase 10, p. 6](#MohammedMuruganNastase10):
+
+>  If Matrix theory is to correctly describe M-theory (and its dimensional reduction to type IIA string theory) then it should
+be able to describe all D−branes in the theory and not just D2−branes. For example, a D4−brane wrapping an $S^4$ was found in [9], following the earlier works of [10, 11], but the solution is not without several unresolved subtleties. In general, finding the complete spectrum of D−branes from Matrix
+theory remains a very difficult problem. The D2− and D4−branes already found are reductions to
+ten dimensions of M2− and M5−branes, and while they are a minimum necessary for the spectrum of M-theory, they are by no means sufficient. Indeed, we would also need to find a D6−brane, coming from an eleven dimensional KK monopole, and a D8−brane.
+
+Then, even assuming that all the crucial [[generalized (Eilenberg-Steenrod) cohomology|cohomological]] aspects of [[D-brane]] and [[M-brane]] charges (in [[twisted differential K-theory]], [[twisted cohomotopy]] etc.) are secretly encoded in the matrix model, somehow, none of this is manifest, making the matrix model spit out numbers about a conceptually elusive theory in close analogy to how [[lattice QCD]] produces numbers without informing us about the actual conceptual nature of [[confinement|confined]] [[hadron]] physics.
 
 
 
@@ -155,6 +162,10 @@ Relation to the [[6d (2,0)-supersymmetric QFT]]:
 
 
 [[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
+
+See also in relation to the [[ABJM model]]:
+
+* {#MohammedMuruganNastase10} Asadig Mohammed, Jeff Murugan, [[Horatiu Nastase]], _Looking for a Matrix model of ABJM_, Phys. Rev. D82:086004, 2010 ([arXiv:1003.2599](https://arxiv.org/abs/1003.2599))
 
 
 
