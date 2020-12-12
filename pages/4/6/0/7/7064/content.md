@@ -109,7 +109,15 @@ The [[finite abelian group]] $\pi_7(\mathbb{S}) \simeq \mathbb{Z}_{240}$ decompo
 
 ## Examples
 
-### The third stable homotopy group of spheres
+### 0th stem
+
+See at _[[Hopf degree theorem]]_
+
+### 1st and 2nd stem
+
+* {#Pontrjagin55} [[Lev Pontrjagin]], Sections 14, 15 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
+### 3rd stem
 
 The [[third stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 24:
 
