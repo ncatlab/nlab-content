@@ -32,6 +32,8 @@ Notice that it is easy to see that every smooth manifold embeds into the Euclude
 
 Named after [[Hassler Whitney]].
 
+* {#Pontrjagin55} [[Lev Pontrjagin]], Section 2.2 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
 See also
 
 * Wikipedia, _[Whitney embedding theorem](https://en.wikipedia.org/wiki/Whitney_embedding_theorem)_
