@@ -30,6 +30,8 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 * [[analytic number theory]]
 
+* [[objective number theory]]
+
 * [[elementary function arithmetic]]
 
 * [[second order arithmetic]]
