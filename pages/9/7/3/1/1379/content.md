@@ -38,6 +38,10 @@ Category theorists care about proper classes because many examples of categories
 
 ## Category of classes
 
+The [[category of classes]] is closed under all large [[limits]]
+and [[small colimits]].
+See the linked article for more information and precise definitions.
+
 The [[category]] of classes $Class$ is a [[large category]] that is not [[locally small]].
 It admits all [[colimits]], understood in the following sense.
 
