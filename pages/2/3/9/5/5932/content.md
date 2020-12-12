@@ -16,9 +16,9 @@
 
 ## Definition
 
-A [[homomorphism]] of [[schemes]] $f \colon Y\to X$ is 
+A [[homomorphism]] of [[schemes]] $f \colon X\to Y$ is 
 
-1. __finitely presented at__ $x\in X$ if there is an affine [[open neighborhood]] $U$ containing $x$ and an affine open set $V\subseteq Y$ with $f(V)\subseteq U$ such that $\mathcal{O}_Y(V)$ is [[finitely presented algebra|finitely presented]] as an $\mathcal{O}_X(U)$-[[associative algebra|algebra]]. 
+1. __finitely presented at__ $x\in X$ if there is an affine [[open neighborhood]] $U$ containing $x$ and an affine open set $V\subseteq Y$ with $f(U)\subseteq V$ such that $\mathcal{O}_X(U)$ is [[finitely presented algebra|finitely presented]] as an $\mathcal{O}_Y(V)$-[[associative algebra|algebra]]. 
 
 1. __locally finitely presented__ if it is finitely presented at each $x\in X$. 
 
@@ -36,7 +36,7 @@ A standard open $Spec(R[\{s\}^{-1}]) \longrightarrow Spec(R)$ ([[Zariski topolog
 
 ## References
 
-* [[The Stacks Project]], section 28.22 _Morphism of finite presentation_
+* [[The Stacks Project]], Section 01TO: _[Morphisms of finite presentation](https://stacks.math.columbia.edu/tag/01TO)_
 
 * [wikipedia: Finite, quasi-finite, finite type, and finite presentation morphisms](http://en.wikipedia.org/wiki/Glossary_of_scheme_theory#Finite.2C_quasi-finite.2C_finite_type.2C_and_finite_presentation_morphisms)
 
