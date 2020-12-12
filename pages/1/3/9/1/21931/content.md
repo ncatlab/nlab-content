@@ -69,6 +69,19 @@ Moreover, the relation $24 \cdot [S^3] \,\simeq\, 0$ is represented by the [[bor
 
 ## References
 
+The original computation is due to
+
+* [[Vladimir Abramovich Rokhlin]], _On a mapping of the $(n+3)$-dimensional sphere into the $n$-dimensional sphere_,  (Russian) Doklady Akad. Nauk SSSR (N.S.) 80, (1951). 541–544
+
+with a mistake (in the unstable range) corrected in 
+
+* [[Vladimir Abramovich Rokhlin]], _New results in the theory of four-dimensional manifolds_, (Russian) Doklady Akad. Nauk SSSR (N.S.) 84, (1952). 221–224.
+
+French translations are in:
+
+* Lucien Guillou, Alexis Marin (eds.), _A la Recherche de la Topologie Perdue: I. Du côté de chez Rohlin. II. Le côté de Casson_, Progress in Mathematics 62, Birkhäuser Boston 1985 (ISBN:0817633294, 9780817633295)
+
+
 Review:
 
 * {#WangXu10} [[Guozhen Wang]], Zhouli Xu, Section 2.6 of: _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
