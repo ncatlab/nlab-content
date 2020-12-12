@@ -49,7 +49,7 @@
 
 * [[Marcelo Fiore]], [[Tom Leinster]], _An Objective Representation of the Gaussian Integers_ ,  J. Symbolic Computation **37** no.6 (2004) pp.707-716. ([arXiv](http://arxiv.org/abs/math/0211454v2))
 
-* [[Marcelo Fiore]], [[Tom Leinster]], _Objects of categories as complex numbers_, Advances in Mathematics **190** (2005) pp.264-277 ([arXiv](http://arxiv.org/abs/math/0212377v1))
+* [[Marcelo Fiore]], [[Tom Leinster]], _Objects of categories as complex numbers_, Advances in Mathematics **190** (2005) pp.264-277. ([arXiv](http://arxiv.org/abs/math/0212377v1))
 
 * Robbie Gates, _On the generic solution to $P(X)\simeq X$ in distributive categories_ , JPAA **125** (1998) pp.191-212.
 
