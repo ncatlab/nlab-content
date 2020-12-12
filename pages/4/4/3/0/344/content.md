@@ -141,25 +141,6 @@ Being pre-lextensive is also sufficient to define the extensive topology and sho
 
 * [[Stephen Lack]], [[Enrico Vitale|Enrico M. Vitale]], _When do completion processes give rise to extensive categories?_ , JPAA **159** (2001) pp.203-230.
 
-## Discussions
-
-While creating this page, we had the following discussion regarding "finitely" versus "infinitary."
-
-+--{.query}
-Can we say 'small-extensive'? Or even redefine 'extensive' to have this meaning, using 'finitely extensive' for the first version? &#8212;Toby
-
-I think "extensive" is pretty well established for the finite version, and I would be reluctant to try to change it.  I wouldn't object too much to "small-extensive" for the infinitary version in principle, but $\infty$-positive is used in the Elephant and possibly elsewhere.  I think the topos theorists think by analogy with $\infty$-pretopos, which I don't think we have much hope of changing, despite the unfortunate clash with "$\infty$-topos."  But you can use "finitary disjunctive" and "disjunctive" in the lex case, which most examples are. -Mike
-
-_Mike_: Okay, I just ran across one paper that uses "(infinitary) extensive" for the infinitary version the first time it was introduced, and then dropped the parenthetical for the rest of the paper.  I also recall seeing "extensive fibration" used for a fibration having disjoint and stable indexed coproducts, which is certainly a (potentially) infinitary notion.  So perhaps there is no real consensus on whether "extensive" definitely implies the finite version or the infinitary one.
-
-_Toby_: It would be nice to not overload the prefix '$\infty$-' so much. It\'s like 'continuous'; default to small.
-
-_Mike_: I agree that it would be nice to avoid $\infty$-.  What if we do what we did for [[omega-category]]?  That is, if you want to be unambiguous, say either "finitary extensive" or "infinitary extensive," and in any particular context you are allowed to define "extensive" at the beginning to be one of the two and use it without prefix in what follows.
-
-_Toby_: Sure. Of course, the general concept is $\kappa$-extensive, where $\kappa$ is any cardinal (which we may assume to be regular).
-
-=--
-
 
 [[!redirects extensive category]]
 [[!redirects extensive categories]]
