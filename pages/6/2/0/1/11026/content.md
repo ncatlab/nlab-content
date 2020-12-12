@@ -5,6 +5,8 @@
 
 * [[objective number theory]]
 
+* [[Schanuel topos]]
+
 category: people
 
 [[!redirects Stephen H. Schanuel]] 
