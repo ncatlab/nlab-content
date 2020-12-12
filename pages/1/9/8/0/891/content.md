@@ -139,3 +139,8 @@ For instance an [[action groupoid]] is a quotient of a group action in 2-categor
 
 [[!redirects effective quotient]]
 [[!redirects effective quotients]]
+
+[[!redirects quotient map]]
+[[!redirects quotient maps]]
+[[!redirects quotient morphism]]
+[[!redirects quotient morphisms]]
