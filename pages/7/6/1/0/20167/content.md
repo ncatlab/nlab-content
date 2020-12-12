@@ -638,6 +638,8 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 Due to [[Heinz Hopf]].
 
+* {#Pontrjagin55} [[Lev Pontrjagin]], Section 9 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
 Textbook accounts:
 
 
