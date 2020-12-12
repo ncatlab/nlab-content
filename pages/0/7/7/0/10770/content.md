@@ -1181,11 +1181,11 @@ The bulk of the basic constructions is in
 
 Recent surveys of the modern picture are in
 
-* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
+* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/events/talbot/), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
 
 and of relevance for the above discussion are particularly the following contributions there
 
-* [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
+* [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/events/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/events/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/events/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
  {#Behrens13}
 
 
@@ -1197,7 +1197,7 @@ Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http:
  {#Knudsen13}
 
 * [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the
-image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/Image%20of%20J-1.pdf))
+image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](https://math.mit.edu/events/talbot/index.php?year=2013&sub=talks)_ ([pdf](https://math.mit.edu/events/talbot/2013/Image%20of%20J-1.pdf))
  {#Lorman13}
 
 Loads of details for computations in the Adams spectral sequence are in
