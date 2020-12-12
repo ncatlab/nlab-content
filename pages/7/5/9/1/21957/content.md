@@ -47,7 +47,7 @@
 
 * [[Andreas Blass]], _Seven trees in one_ , JPAA **103** no.1 (1995) pp.1–21.
 
-* [[Marcelo Fiore]], [[Tom Leinster]], _An Objective Representation of the Gaussian Integers_ ,  J. Symbolic Computation **37** no.6.(2004) pp.707-716. ([arXiv](http://arxiv.org/abs/math/0211454v2))
+* [[Marcelo Fiore]], [[Tom Leinster]], _An Objective Representation of the Gaussian Integers_ ,  J. Symbolic Computation **37** no.6 (2004) pp.707-716. ([arXiv](http://arxiv.org/abs/math/0211454v2))
 
 * [[Marcelo Fiore]], [[Tom Leinster]], _Objects of categories as complex numbers_, Advances in Mathematics **190** (2005) pp.264-277 ([arXiv](http://arxiv.org/abs/math/0212377v1))
 
@@ -57,7 +57,7 @@
 
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* [[Matías Menni]], _Every Rig with a One-Variable Fixed Point Presentation is the Burnside Rig of a Prextensive Category_ , Appl. Cat. Struc. 2017.
+* [[Matías Menni]], _Every Rig with a One-Variable Fixed Point Presentation is the Burnside Rig of a Prextensive Category_ , Appl. Cat. Struc. **25** (2017) pp.663-707.
 
 * [[Stephen Schanuel]], _Negative sets have Euler characteristic and dimension_ , Category theory. Proc. Int. Conf. Como/Italy 1990, LNM **1488** pp.379–385 (1991).
 
