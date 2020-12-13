@@ -1204,3 +1204,7 @@ Loads of details for computations in the Adams spectral sequence are in
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986
  {#Ravenel}
+
+The construction of the image of the J-homomorphism when twisted by [[Dirichlet characters]] is in  
+
+* Ningchuan Zhang, _Analogs of Dirichlet L-functions in chromatic homotopy theory_, ([arXiv:1910.14582](https://arxiv.org/abs/1910.14582))
