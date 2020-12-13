@@ -44,6 +44,8 @@ This idea is mentioned as motivation for developing concepts of causal manifolds
 
 * [[conal causal structure]]
 
+* [[Penrose diagram]]
+
 ## References
 
 * {#Bannier88} Ulrich Bannier, _On generally covariant quantum field theory and generalized causal and dynamical structures, Communications in Mathematical Physics, 118(1):163&#8211;170, March 1988
