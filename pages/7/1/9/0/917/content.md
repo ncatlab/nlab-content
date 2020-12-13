@@ -30,17 +30,7 @@ This implies that in any category with a binary disjoint coproduct and a [[stric
 Anonymous: Under what conditions are all injections in a category monomorphisms? Obviously injections are monomorphisms in a [[well-pointed]] [[topos]] or [[pretopos]] (those are models of particular types of set theories), but does that remain true in a (pre)topos without well-pointedness, a [[coherent category]] or an [[exact category]]?
 
 Anonymous: There is [this stackexchange post](https://math.stackexchange.com/questions/53405/conditions-for-monic-iff-injective), but the answers only refer to concrete categories with a [[forgetful functor]] to Set and a [[free functor]] from Set, rather than arbitrary abstract categories. 
-=--
-
-### Duals of injections
-
-The categorical [[duality|dual]] of an injection, the coinjection, is a morphism $f:A\rightarrow B$ in an abstract category $\mathcal{C}$ with an [[initial object]] $\emptyset$ such that for parallel morphisms $g,h:B\rightarrow\emptyset$, if $g \circ f = h \circ f$, then $g = h$. 
-
-In particular, every [[epimorphism]] is an coinjection as defined above in a category $\mathcal{C}$ with an initial object $\emptyset$, since it is a morphism $f:A\rightarrow B$ such that given any set $C$ and parallel morphisms $g, h:B\rightarrow C$, $g = h$ if $g \circ f = h \circ f$. The special case $C = \emptyset$ yields an coinjection.
-
-However, every morphism in $\mathcal{C}$ is a coinjection if the initial object is [[strict initial object|strict]], as the identity morphism of the initial object is a coinjection, and for any other morphism $f:A\rightarrow B$ such that $B$ is not the initial object, the statement 'if $g \circ f = h \circ f$, then $g = h$' is vacuously true as there are no morphisms $g,h:B\rightarrow\emptyset$; therefore $f$ is a coinjection. This is true in all [[distributive category|distributive categories]], such as a [[cartesian closed category]], a [[coherent category]], or a [[topos]]. 
-
-If the initial object is a [[zero object]] $0$, every morphism in $\mathcal{C}$ is a coinjection, as an initial object that is a zero object is also a terminal object, and that by the definition of a terminal object, there exist a unique morphism $!:B\rightarrow 0$, and so for any morphisms $g,h:B\rightarrow 0$, $g = h$. As $g = h$ is true regardless of the morphism $f:A\rightarrow B$, every morphism is a coinjection. 
+=-- 
 
 ## Related concepts
 
