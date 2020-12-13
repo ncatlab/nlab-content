@@ -92,6 +92,10 @@ This is not specific to [[string theory]] and can be seen in elementary terms ([
 
 ## Related $n$Lab entries
 
+* [[Penrose notation]]
+
+* [[Penrose diagram]]
+
 * [[Penrose-Hawking theorem]]
 
 * [[twistor space]]
