@@ -782,7 +782,7 @@ The generalization to [[supergeometry]] is
 
 ## Related concepts
 
-* [[germ-determing C-infinity ring]]
+* [[germ-determined C-infinity ring]]
 
 * [[Dubuc topos]]
 
