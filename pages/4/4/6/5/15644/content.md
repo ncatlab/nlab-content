@@ -46,7 +46,7 @@ Hence Dirichlet L-functions are [[Mellin transforms]] of suitable [[theta functi
 
 Where [[Dirichlet characters]] (see there) are essentially [[automorphic forms]] for the [[idele group]] (hence for $n = 1$) the generalization to automorphic forms for $n \geq 1$ is the concept of _[[automorphic L-function]]_.
 
-The differential geometric analog of a Dirichlet-L function is the _[[eta function]]_ (see there for more) of a differential operator.
+The differential geometric analog of a Dirichlet L-function is the _[[eta function]]_ (see there for more) of a differential operator.
 
 
 ## Related concepts
@@ -67,6 +67,10 @@ The differential geometric analog of a Dirichlet-L function is the _[[eta functi
 ([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf))
 
 * {#Stopple95} [[Jeffrey Stopple]], _Theta and $L$-function splittings_, Acta Arithmetica LXXII.2 (1995) ([pdf](http://matwbn.icm.edu.pl/ksiazki/aa/aa72/aa7221.pdf))
+
+Analogs of Dirichlet L-functions in [[chromatic homotopy theory]] are constructed in 
+
+* Ningchuan Zhang, _Analogs of Dirichlet L-functions in chromatic homotopy theory_, ([arXiv:1910.14582](https://arxiv.org/abs/1910.14582))
 
 
 [[!redirects Dirichlet L-functions]]
