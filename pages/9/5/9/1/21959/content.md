@@ -126,7 +126,10 @@ It is also an [[infinitary extensive category]],
 where “infinitary” means “class-indexed”.
 Indeed. [[pullbacks]] of [[coproduct]] injections along arbitrary maps of classes exist and finite [[coproducts]] are [[disjoint coproducts|disjoint]] and stable under [[pullback]].
 
-As such, the category of classes is an infinitary Boolean [[pretopos]],
+It is also [[well-pointed]]:
+for every two maps between classes $f,g:A\rightarrow B$ and every element $a\in A$, if $f(a) = g(a)$, then $f = g$. 
+
+As such, the category of classes is an well-pointed infinitary Boolean [[pretopos]],
 where “infinitary” is used in the rather strong sense of “class-indexed”.
 
 The category of classes is not [[cartesian closed]] or [[locally cartesian closed]]
