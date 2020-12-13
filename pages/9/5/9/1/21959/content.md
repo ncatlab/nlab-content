@@ -127,7 +127,8 @@ where “infinitary” means “class-indexed”.
 Indeed. [[pullbacks]] of [[coproduct]] injections along arbitrary maps of classes exist and finite [[coproducts]] are [[disjoint coproducts|disjoint]] and stable under [[pullback]].
 
 It is also [[well-pointed]]:
-for every two maps between classes $f,g:A\rightarrow B$ and every element $a\in A$, if $f(a) = g(a)$, then $f = g$. 
+for every two maps between classes $f,g:X\rightarrow Y$ and every element $x\in X$, if $f(x) = g(y)$, then $f = g$, 
+and the category of classes is not the [[terminal category]]. 
 
 As such, the category of classes is an well-pointed infinitary Boolean [[pretopos]],
 where “infinitary” is used in the rather strong sense of “class-indexed”.
