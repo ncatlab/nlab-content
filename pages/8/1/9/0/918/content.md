@@ -42,12 +42,19 @@ One can view this as really a statement about the [[Grothendieck fibration]] ove
 ## In abstract categories
 Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global element]] $a:1\rightarrow A$, one could define surjections in any abstract category $\mathcal{C}$ with a [[terminal object]] $1$:
 
-> A morphism $f:A\rightarrow B$ in $\mathcal{C}$ is a surjection or a surjective morphism if, given any global element $y:1\rightarrow B$, there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$. 
++-- {: .num_defn}
+###### Definition
+A morphism $f:A\rightarrow B$ in a category $\mathcal{C}$ with a [[terminal object]] $1$ is called a __surjection__. a __surjective morphism__, or an __onto morphism__ if, given any global element $y:1\rightarrow B$, there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$. 
+=--
 
++-- {: .num_remark} 
+###### Remark 
+Some authors regard surjection as a synonym of [[split epimorphism]], and only use 'onto' for the definition above. 
+=--
 
 +-- {: .num_prop}
 ###### Proposition
-In a category $\mathcal{C}$ with a [[terminal object]] $1$, the unique morphism $!:A\rightarrow 1$ is a surjection. 
+In a category $\mathcal{C}$ with a [[terminal object]] $1$, the unique morphism $!:A\rightarrow 1$ is a surjection for every object $A$. 
 =--
 
 +-- {: .proof}
@@ -55,6 +62,8 @@ In a category $\mathcal{C}$ with a [[terminal object]] $1$, the unique morphism 
 By definition of a terminal object, for every object $A$ there exists a unique morphism $!:A\rightarrow 1$, and the identity morphism is the unique global element $1_{1}:1\rightarrow 1$. The composite of a global element $x:1\rightarrow A$ with the function $!:A\rightarrow 1$ results in a function $! \circ x:1\rightarrow 1$, which by definition of a terminal object is the same as $1_{1}:1\rightarrow 1$. Since $! \circ x = 1_{1}$, for every object $A$, $!:A\rightarrow 1$ is a surjection. 
 =--
 
+### Well-pointedness
+The fact that surjections are epimorphisms in [[Set]] is a result of the fact that Set is well-pointed. This could be generalised to any category with a terminal separator $1$. 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -63,12 +72,24 @@ In a category $\mathcal{C}$ with a [[terminal object]] $1$ such that $1$ is a [[
 
 +-- {: .proof}
 ###### Proof
-For any surjection $f:A\rightarrow B$, suppose there are parallel morphisms $g, h:B\rightarrow C$ such that there $g \circ f = h \circ f$ (a [[fork]]). Then for every global element $y:1\rightarrow B$ there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$, and thus $g \circ y = g \circ f \circ x$ and $h \circ y = h \circ f \circ x$. But since $g \circ f = h \circ f$, $g \circ f \circ x = h \circ f \circ x$, which implies that $g \circ y = h \circ y$. Since $1$ is a [[separator]], then for every global element $y:1\rightarrow B$, if $g \circ y = h \circ y$, then $g = h$, showing that the surjection $f$ is an epimorphism. 
+For any surjection $f:A\rightarrow B$, suppose there are parallel morphisms $g, h:B\rightarrow C$ such that there $g \circ f = h \circ f$ (a [[fork]]). Then for every global element $y:1\rightarrow B$ there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$, and thus $g \circ y = g \circ f \circ x$ and $h \circ y = h \circ f \circ x$. But since $g \circ f = h \circ f$, $g \circ f \circ x = h \circ f \circ x$, which implies that $g \circ y = h \circ y$. Since $1$ is a [[separator]], then for every global element $y:1\rightarrow B$, if $g \circ y = h \circ y$, then $g = h$. Therefore, every surjection is an epimorphism. 
+=--
+
+### Axiom of choice
+
+The axiom of choice for surjections in [[Set]] is the following statement: 
+
+* Every [[surjection]] is a [[split epimorphism]]. 
+
+This axiom could be defined in every category with a terminal object, and could be contrasted with the axiom of choice for epimorphisms, as not every epimorphism is an surjection in a category with a terminal object, nor is every surjection an epimorphism. 
+
++-- {: .query}
+Anonymous: Under what conditions are epimorphisms surjective?
 =--
 
 +-- {: .num_prop}
 ###### Proposition
-In a category $\mathcal{C}$ with a [[terminal object]] $1$ and binary [[equalisers]] such that every [[surjection]] is a [[split epimorphism]] (axiom of choice for surjections), the terminal object $1$ is a [[separator]]. 
+In a category $\mathcal{C}$ with a [[terminal object]] $1$ and binary [[equalisers]] such that every [[surjection]] is a [[split epimorphism]], the terminal object $1$ is a [[separator]]. 
 =--
 
 +-- {: .proof}
@@ -78,9 +99,22 @@ Suppose there are parallel morphisms $g, h:B\rightarrow C$ such that for every g
 
 ### Duals of surjections
 
-The categorical [[duality|dual]] of a surjection, the cosurjection, is a morphism $f:A\rightarrow B$ in an abstract category $\mathcal{C}$ with an [[initial object]] $\emptyset$ such that given a morphism $g:A\rightarrow\emptyset$, there exists a morphism $h:B\rightarrow\emptyset$ such that $h \circ f = g$. 
++-- {: .num_defn}
+###### Definition
+The categorical [[duality|dual]] of a surjection, a __cosurjection__ or __cosurjective morphism__, is a morphism $f:A\rightarrow B$ in $\mathcal{C}$ with an [[initial object]] $\emptyset$ such that given a morphism $g:A\rightarrow\emptyset$, there exists a morphism $h:B\rightarrow\emptyset$ such that $h \circ f = g$. 
+=--
 
-If the initial object $\emptyset$ is a [[zero object]], then every morphism in $\mathcal{C}$ is a cosurjection. If $\emptyset$ is [[strict initial object|strict]], such as in a [[distributive category]], then the identity morphism on $\emptyset$ is a cosurjection, and every other morphism in $\mathcal{C}$ whose [[source]] isn't $\emptyset$ is vacuously a cosurjection. 
++-- {: .num_prop}
+###### Proposition
+If the initial object is a [[zero object]] $0$, then every morphism in $\mathcal{C}$ is a cosurjection. 
+=--
+
++-- {: .proof}
+###### Proof
+Since the initial object is a zero object, it is also a terminal object, and for sets $A$ and $B$ there only exists one unique morphism $g:A\rightarrow 0$ and $h:B\rightarrow 0$, and therefore, for every morphism $f:A\rightarrow B$, $h \circ f = g$
+=--
+
+If the initial object $\emptyset$ is [[strict initial object|strict]], such as in a [[distributive category]], then the identity morphism on $\emptyset$ is a cosurjection, and every other morphism in $\mathcal{C}$ whose [[source]] isn't $\emptyset$ is vacuously a cosurjection. 
 
 ## Related concepts
 
