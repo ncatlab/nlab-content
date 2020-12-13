@@ -66,6 +66,44 @@ The larger of the two solutions is an [[event horizon]], the other is a [[Cauchy
 
 ## Properties
 
+### Penrose diagrams
+ {#PenroseDiagrams}
+
+The [[Penrose diagram]] for maximally extended RN black holes (from [HE 73, Section 5.5](#HE73)):
+
+\linebreak
+
+\begin{imagefromfile}
+    "file_name": "RNBHPenroseDiagramHEFig25.jpg",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [HE 73, Fig. 25](#HE73)"
+\end{imagefromfile}
+
+\linebreak
+
+\linebreak
+
+\begin{imagefromfile}
+    "file_name": "RNBHPenroseDiagramHEFig26.jpg",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [HE 73, Fig. 26](#HE73)"
+\end{imagefromfile}
+
+
 ### Interior solutions
  {#InteriorSolutions}
 
@@ -116,6 +154,10 @@ Discussion of interior solutions includes
 
 
 * {#Bekenstein71} [[Jacob Bekenstein]], _Hydrostatic equilibrium and gravitational collapse of relativistic charged fluid balls_, Phys. Rev. D 4, 2185, 1971
+
+* {#HE73} S. W. Hawking, G. F. R. Ellis, Section 5.5 of: _The Large Scale Structure of Space-Time_, Cambridge University Press (1973) ([doi:10.1017/CBO9780511524646](https://doi.org/10.1017/CBO9780511524646))
+
+
 
 * {#Boulware73} Boulware, D. G., _Naked singularities, thin shells, and the Reissner-Nordstr&#246;m metric_, Phys. Rev. D 8, 2363, 1973
 
