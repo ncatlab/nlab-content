@@ -682,6 +682,10 @@ Cohomotopy sets of [[4-manifolds]]:
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161))
 
+Cohomotopy sets of [[spin structure|spin]]-manifolds in co-degree 1:
+
+* [[Panagiotis Konstantis]], _A counting invariant for maps into spheres and for zero loci of sections of vector bundles_,  Abh. Math. Semin. Univ. Hambg. (2020) ([arXiv:1911.03214](https://arxiv.org/abs/1911.03214), [doi:10.1007/s12188-020-00228-6](https://doi.org/10.1007/s12188-020-00228-6))
+
 
 ### Cohomotopy cocycle spaces
 
