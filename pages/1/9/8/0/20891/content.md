@@ -87,6 +87,16 @@ that admits small powerclasses and a universal class.
 The full subcategory of small objects and small maps
 of any class category is an [[elementary topos]].
 
+## Related notions
+
+* [[class]]
+
+* [[proper class]]
+
+* [[large category]]
+
+* [[category of classes]]
+
 ## References
 
 * {#JM} [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_.  Cambridge University Press, 1995.  ISBN 0-521-55830-1. 
