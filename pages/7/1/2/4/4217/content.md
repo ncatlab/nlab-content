@@ -73,6 +73,10 @@ $$ \begin {gathered}
 
 [[!include logic symbols -- table]]
 
+## References
+
+* Landon D. C. Elkind, Richard Zach, _The Genealogy of $\vee$_ ([arXiv:2012.06072](https://arxiv.org/abs/2012.06072))
+
 
 [[!redirects disjunction]]
 [[!redirects logical disjunction]]
