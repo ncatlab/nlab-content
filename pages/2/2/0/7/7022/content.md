@@ -1,4 +1,8 @@
 
+> $\mathrm{C}_\infty$-algebras should not be confused with [[C-infinity ring|$\mathrm{C}^\infty$-rings]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -24,7 +28,5 @@ A _$C_\infty$-algebra_ is a [[commutative ring]] where the commutativity is rela
 * [[E-∞ algebra]]
 
 * [[L-∞ algebra]]
-
-Warning: no direct relation to _[[C-∞ ring]]_ (unfortunately a slight terminology clash).
 
 [[!redirects C-∞ algebra]]
