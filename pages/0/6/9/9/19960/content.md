@@ -1017,6 +1017,9 @@ Application to [[anomalous magnetic moment]] of the [[muon]]:
 
 * Josef Leutgeb, Anton Rebhan, _Axial vector transition form factors in holographic QCD and their contribution to the anomalous magnetic moment of the muon_ ([arXiv:1912.01596](https://arxiv.org/abs/1912.01596))
 
+* Josef Leutgeb, Anton Rebhan, _Axial vector transition form factors in holographic QCD and their contribution to the muon $g-2$_ ([arXiv:2012.06514](https://arxiv.org/abs/2012.06514))
+
+
 
 
 
