@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -501,7 +500,12 @@ Most of the relevant constructions on pointed topological spaces are immediate s
 
 ## References
 
-* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter V.7 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], Chapters IV.4 and V.7 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
+Review:
+
+* Tyrone Cutler, _The category of pointed topological spaces_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]])
+
 
 
 [[!redirects pointed topological spaces]]
