@@ -297,6 +297,38 @@ For **proof** see at [Top -- Universal constructions](Top#UniversalConstructions
 
 The [[Tychonoff theorem]] states that the product space of any set of [[compact topological spaces]] (with its Tychonoff topology) is itself compact.
 
+### Relation to smash product of pointed spaces
+
++-- {: .num_prop #OnePointCompactificationAndSmashProduct}
+###### Proposition
+**([[one-point compactification intertwines Cartesian product with smash product]])
+
+On the [[subcategory]] $Top_{LCHaus}$ of [[Top]] on the [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] (Prop. \ref{OnePointCompactificationFunctor})
+
+$$
+  (-)^{cpt}
+  \;\colon\;
+  Top_{LCHaus}
+  \longrightarrow 
+  Top^{\ast/}
+$$
+
+sends [[Cartesian products]] ([[product topological spaces]]) to [[smash products]] of [[pointed topological spaces]], hence constitutes a [[strong monoidal functor]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
+
+$$
+  \big(
+    X \times Y 
+  \big)^{cpt}
+  \;\simeq\;
+  X^{cpt} \wedge Y^{cpt}
+  \,.
+$$
+
+=--
+
+This is briefly mentioned in [Bredon 93, p. 199](one-point+compactification#Bredon93).
+The argument is spelled out in: [MO:a/1645794/](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](one-point+compactification#Cutler20).
+
 ### Relation to singular (co)homology
 
 The [[singular homology]] of product topological spaces is informed by
