@@ -322,7 +322,7 @@ Then $Th(V)$ has the structure of a [[CW-complex]] with
 
 (e.g. [Cruz 04, lemma 6](#Cruz04))
 
-In particular, $Th(V)$ has a single $n$-cell and an $(n+1)$-cell for each 1-cell of $X$.  There are no cells in $Th(C)$ between dimension $0$ and $n$. The cellular boundary of an $(n+1)$-cell is 0 if $V$ is orientable over the corresponding 1-cell of $X$, and it is twice the $n$-cell in the opposite case.  Thus $H^n(Th(V);\mathbb{Z})$ is $\mathbb Z$ if $V$ is orientable and $0$ if $V$ is non-orientable. In the orientable case a generator of $H^n(Th(V);{\mathbb Z})$ restricts to a generator of $H^n(S^n;\mathbb{Z})$ in the "fiber" $S^n$ of $Th(V)$ over the 0-cell of $X$, hence the same is true for all the "fibers" $S^n$ and so one has a [[Thom class]].
+In particular, $Th(V)$ has a single $n$-cell and an $(n+1)$-cell for each 1-cell of $X$.  There are no cells in $Th(C)$ between dimension $0$ and $n$. The cellular boundary of an $(n+1)$-cell is 0 if $V$ is orientable over the corresponding 1-cell of $X$, and it is twice the $n$-cell in the opposite case.  Thus $H^n(Th(V);\mathbb{Z})$ is $\mathbb{Z}$ if $V$ is orientable and $0$ if $V$ is non-orientable. In the orientable case a generator of $H^n(Th(V);\mathbb{Z})$ restricts to a generator of $H^n(S^n;\mathbb{Z})$ in the "fiber" $S^n$ of $Th(V)$ over the 0-cell of $X$, hence the same is true for all the "fibers" $S^n$ and so one has a [[Thom class]].
 
 ([MO discussion](http://mathoverflow.net/a/107864/381))
 
@@ -408,6 +408,11 @@ See also
 * W.B. Browder, _Surgery on simply-connected manifolds_ , Springer  (1972)
 
 * {#Cruz04} Martin Vito Cruz, _An introduction to cobordism_, 2004 ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2004/vitocruz.pdf))
+
+On [[Cohomotopy sets]] of [[Thom spaces]]:
+
+* [[Thomas Rot]], _Homotopy classes of proper maps out of vector bundles_,  Arch. Math. 114, 107–117 (2020 ([arXiv:1808.08073](https://arxiv.org/abs/1808.08073), [doi:10.1007/s00013-019-01372-z](https://doi.org/10.1007/s00013-019-01372-z))
+
 
 [[!redirects Thom spaces]]
 
