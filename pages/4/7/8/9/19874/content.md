@@ -161,6 +161,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
+* J. Kriewald, C. Hati, J. Orloff, A. M. Teixeira, _A combined explanation of the B-meson decay anomalies with a single vector leptoquark_ ([arXiv:2012.06315](https://arxiv.org/abs/2012.06315))
+
 
 within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
