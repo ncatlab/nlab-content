@@ -32,7 +32,7 @@ In [[quantum computing]] the quantum analog of classical [[logic gates]] are cal
 ## History and Critique
  {#History}
 
-Typically  in the literature the term "quantum logic" is taken to refer very specifically to the first proposal for such a formalization that was given by ([Birkhoff-von Neumann 1936](#BirkhoffvonNeumann36)). In this proposal given a [[quantum mechanical system]] with a [[Hilbert space]] [[space of states|of states]], the logical [[propositions]] about the system are taken to correspond to (the [[projections]] to) [[closed subspaces]], with [[implication]] given by inclusion of such subspaces.  Hence Birkhoff-von Neumann quantum logic is given by the [[lattice]] of closed linear subspaces of Hilbert spaces (regarded as an [[Hilbert lattice]]).
+Typically  in the literature the term "quantum logic" is taken to refer very specifically to the first proposal for such a formalization that was given by ([Birkhoff-von Neumann 1936](#BirkhoffvonNeumann36)). In this proposal given a [[quantum mechanical system]] with a [[Hilbert space]] [[space of states|of states]], the logical [[propositions]] about the system are taken to correspond to (the [[projections]] to) [[closed subspaces]], with [[implication]] given by inclusion of such subspaces.  Hence Birkhoff-von Neumann quantum logic is given by the [[lattice]] of closed linear subspaces of Hilbert spaces (regarded as a [[Hilbert lattice]]).
 
 This formalization is often understood as being the default meaning of "quantum logic". But the proposal has later been much criticised, for its lack of key properties that one would demand of a [[formal logic]]. 
 
