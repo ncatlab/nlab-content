@@ -53,4 +53,4 @@ is, as an [[additive category]], the [[domain]] of [[Mackey functors]], such as 
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-* {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_, ([pdf](http://math.northwestern.edu/~bohmann/basicequivnotions.pdf))
+* {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_, ([pdf](https://math.vanderbilt.edu/bohmanar/basicequivnotions.pdf))
