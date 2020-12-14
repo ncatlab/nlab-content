@@ -293,9 +293,50 @@ $X$ is [[dense subspace|dense]] in $X^*$ precisely if $X$ is not already compact
 
 $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]] (see prop. \ref{HausdorffOnePointCompactification}).
 
-### Functoriality
+### Monoidal functoriality
+  {#MonoidalFunctoriality}
 
-The operation of one-point compactification is not a [[functor]] on the whole [[category]] of [[topological spaces]]. But it does extend to a [[functor]] on [[topological spaces]] with [[proper maps]] between them.
+
++-- {: .num_prop #OnePointCompactificationFunctor}
+###### Proposition
+
+The operation of one-point compactification (Def. \ref{OnePointExtension}) does not extend to a [[functor]] on the whole [[category]] of [[topological spaces]]. But it does extend to a [[functor]] on [[locally compact Hausdorff spaces]] with [[proper maps]] between them.
+
+=--
+
+(e.g. [Cutler 20, Prop. 1.6](#Cutler20))
+
++-- {: .num_prop #OnePointCompactificationAndSmashProduct}
+###### Proposition
+**([[one-point compactification intertwines Cartesian product with smash product]])
+
+On the [[subcategory]] $Top_{LCHaus}$ of [[Top]] on the [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] (Prop. \ref{OnePointCompactificationFunctor})
+
+$$
+  (-)^{cpt}
+  \;\colon\;
+  Top_{LCHaus}
+  \longrightarrow 
+  Top^{\ast/}
+$$
+
+sends [[Cartesian products]] ([[product topological spaces]]) to [[smash products]] of [[pointed topological spaces]], hence constitutes a [[strong monoidal functor]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
+
+$$
+  \big(
+    X \times Y 
+  \big)^{cpt}
+  \;\simeq\;
+  X^{cpt} \wedge Y^{cpt}
+  \,.
+$$
+
+=--
+
+This is briefly mentioned in [Bredon 93, p. 199](#Bredon93).
+The argument is spelled out in: [MO:a/1645794/](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+
+
 
 ## Examples
 
@@ -397,6 +438,9 @@ $$
 
 for the $n$-[[sphere]] obtained as the one-point compactification of the vector space $V$.
 
+
+As a special case of Prop. \ref{OnePointCompactificationAndSmashProduct} we have:
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -491,6 +535,13 @@ The concept goes back to
 Textbook accounts:
 
 * {#Kelly75} John Kelly, [p. 150](https://archive.org/details/GeneralTopology/page/n167) of: _General Topology_, van Nostrand 1955 ([archive:GeneralTopology](https://archive.org/details/GeneralTopology))
+
+* {#Bredon93} [[Glen Bredon]], p. 199 of: _Topology and Geometry_, Graduate Texts in Mathematics 139, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+
+Review:
+
+* {#Cutler20} Tyrone Cutler, _The category of pointed topological spaces_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]])
+
 
 See also 
 
