@@ -1,4 +1,8 @@
 
+> $\mathrm{C}^\infty$-rings should not be confused with [[C-infinity algebra|$\mathrm{C}_\infty$-algebras]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -846,7 +850,7 @@ where this is briefly mentioned in the very last paragraph.
 See also the references at [[Fermat theory]], of which $C^\infty$-rings are a special case. And the references at [[smooth locus]], the formal dual of a $C^\infty$-ring.
 And the references at [[super smooth topos]], which involves generalizations of $C^\infty$-rings to [[supergeometry]].
 
-
+[[!redirects smooth algebra]]
 [[!redirects smooth algebras]]
 [[!redirects generalized smooth algebra]]
 [[!redirects generalized smooth algebras]]
