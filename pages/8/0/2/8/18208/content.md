@@ -20,9 +20,9 @@
 
 ## Idea
 
-The (strong) _Whitney embedding theorem_ states that every [[smooth manifold]] ([[Hausdorff space|Hausdorff]] and [[sigma-compact]]) of [[dimension]] $n$ has an [[embedding of smooth manifolds]] in the [[Euclidean space]] of dimension of dimension $2n$.
+The (strong) _Whitney embedding theorem_ states that every [[smooth manifold]] ([[Hausdorff space|Hausdorff]] and [[sigma-compact]]) of [[dimension]] $n$ has an [[embedding of smooth manifolds]] in the [[Euclidean space]] of dimension $2n$.
 
-Notice that it is easy to see that every smooth manifold embeds into the Eucludean space of _some_ dimension ([this prop.](embedding+of+smooth+manifolds#ManifoldEmbedsIntoLargeDimensionalEuclideanSpace)). The force of Whitney's strong embedding theorem is to find the lowest dimension that still works in general. 
+Notice that it is easy to see that every smooth manifold embeds into the Euclidean space of _some_ dimension ([this prop.](embedding+of+smooth+manifolds#ManifoldEmbedsIntoLargeDimensionalEuclideanSpace)). The force of Whitney's strong embedding theorem is to find the lowest dimension that still works in general. 
 
 ## Related concepts
 
