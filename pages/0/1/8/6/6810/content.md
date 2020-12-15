@@ -75,6 +75,11 @@ See also
 
 * Der-Chyn Jong, _Aspects of 7D and 6D gauged supergravities_ PhD thesis (2007) ([spire:776484](https://inspirehep.net/literature/776484), [web](https://oaktrust.library.tamu.edu/handle/1969.1/ETD-TAMU-2110))
 
+Discussion of [[AdS spacetime|AdS vacua]]:
+
+* Nikolay Bobev, P. Marcos Crichigno, _Universal RG Flows Across Dimensions and Holography_, J. High Energ. Phys. 2017, 65 (2017) ([arXiv:1708.05052](https://arxiv.org/abs/1708.05052))
+
+
 ### KK-Compactification on $S^1_{HW}$
 
 Discussion of [[quantum anomaly]] cancellation and 7d [[Horava-Witten theory]] is in
