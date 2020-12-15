@@ -113,7 +113,7 @@ On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA s
 
 * {#Petri18} [[Nicolò Petri]], _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
-* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_3$ vacua and surface defects in massive IIA_ ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455))
+* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_3$ vacua and surface defects in massive IIA_, PoS CORFU2018 (2019) 142 ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455), [doi:10.22323/1.347.0142](https://doi.org/10.22323/1.347.0142))
 
 
 * [[Yolanda Lozano]], Niall T. Macpherson, Carlos Nunez, [[Anayeli Ramirez]], $1/4$ BPS $AdS_3/CFT_2$ ([arxiv:1909.09636](https://arxiv.org/abs/1909.09636))
