@@ -126,13 +126,13 @@ It is also an [[infinitary extensive category]],
 where “infinitary” means “class-indexed”.
 Indeed, [[pullbacks]] of [[coproduct]] injections along arbitrary maps of classes exist and class-indexed [[coproducts]] are [[disjoint coproducts|disjoint]] and stable under [[pullback]].
 
-It is also [[well-pointed]]:
+It is also [[well-pointed category|well-pointed]]:
 for every two maps between classes $f,g:X\rightarrow Y$ and every element $x\in X$, if $f(x) = g(y)$, then $f = g$, 
 and the category of classes is not the [[terminal category]]. 
 
 It likewise has all objects corresponding to [[large cardinal]]s, most notably a [[natural numbers object]]. Otherwise, the category of finite sets [[FinSet]] is vacuously a category of classes, as the notions of 'finitary' and 'class-indexed'/'infinitary' coincide. 
 
-As such, the category of classes is an well-pointed infinitary [[Heyting category|Heyting]] or [[Boolean category|Boolean]] [[pretopos]] with a natural numbers object, 
+As such, the category of classes is a well-pointed infinitary [[Heyting category|Heyting]] or [[Boolean category|Boolean]] [[pretopos]] with a natural numbers object and other large cardinals, 
 depending upon the external logic used, 
 and where “infinitary” is used in the rather strong sense of “class-indexed”.
 
