@@ -29,11 +29,9 @@ The refinement of [[bordism homology theory]] to [[equivariant stable homotopy t
 Original discussion of equivariant [[cobordism]] classes of [[manifolds]]:
 
 
-* [[Pierre Conner]], [[Edwin Floyd]], _Differentiable periodic maps_, Bull. Amer. Math. Soc.
-Volume 68, Number 2 (1962), 76-86 ([euclid:bams/1183524501](https://projecteuclid.org/euclid.bams/1183524501))
+* [[Pierre Conner]], [[Edwin Floyd]], _Differentiable periodic maps_, Bull. Amer. Math. Soc. Volume 68, Number 2 (1962), 76-86 ([euclid:bams/1183524501](https://projecteuclid.org/euclid.bams/1183524501))
 
-* [[Pierre Conner]], [[Edwin Floyd]], _Maps of Odd Period_, Annals of Mathematics
-Second Series, Vol. 84, No. 2 (1966), pp. 132-156 ([jstor:1970515](https://www.jstor.org/stable/1970515))
+* [[Pierre Conner]], [[Edwin Floyd]], _Maps of Odd Period_, Annals of Mathematics, Second Series, Vol. 84, No. 2 (1966), pp. 132-156 ([jstor:1970515](https://www.jstor.org/stable/1970515))
 
 * {#Stong70} [[Robert Stong]], _Unoriented Bordism and Actions of Finite Groups_, Memoirs AMS 103, American Mathematical Society, 1970 ([ams:memo-1-103/4](https://bookstore.ams.org/memo-1-103/4))
 
