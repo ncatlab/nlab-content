@@ -114,10 +114,10 @@ $U$-small sets $S_i$, where $S_i$ is the [[pullback]] $\array{
   \downarrow && \downarrow
   \\
   * &\stackrel{i}{\to}& I
-}$, so that $S$ is the disjoint union of the $S_i$: $S = sqcup_{i \in I} S_i$.
+}$, so that $S$ is the disjoint union of the $S_i$: $S = \bigsqcup_{i \in I} S_i$.
 By axiom 2) the composite morphism $(S \to I \to *) = (S \to *)$ is $U$-small,
 hence $S$ is a $U$-small set, hence the $I$-indexed union of $U$-small sets
-$\sqcup_{i \in I} S_i$ is $U$-small.
+$\bigsqcup_{i \in I} S_i$ is $U$-small.
 
 By standard constructions in [[set theory]] from these
 properties the following further closure properties of the universe $U$
