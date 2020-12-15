@@ -726,6 +726,9 @@ _New physics in $b\to s \ell \ell$ decays with complex Wilson coefficients_ ([ar
 
 * Aishwarya Bhatta, Rukmani Mohanta, _Implications of new physics in $B \to K_1 \mu^+ \mu^-$−decay processes_ ([arXiv:2011.05820](https://arxiv.org/abs/2011.05820))
 
+* S. Neshatpour, T. Hurth, F. Mahmoudi, _Searching for New Physics with $ B^0 \to K^{\ast 0} \mu^+ \mu^-$  ([arXiv:2012.07408](https://arxiv.org/abs/2012.07408))
+
+
 
 In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 
@@ -733,6 +736,8 @@ In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 
 
 * Ashutosh Kumar Alok, Suman Kumbhakar, Jyoti Saini, S Uma Sankar, _New physics in $b \to s e^+ e^-$: A model independent analysis_ ([arXiv:2011.14668](https://arxiv.org/abs/2011.14668))
+
+
 
 
 
