@@ -17,7 +17,7 @@
 
 ## Idea
 
-(...)
+Consideration of [[electric-magnetic duality]] in [[massive type IIA  string theory]] suggests the existence of something like a [[Dp-brane]] for $p = -2$, being the object which couples to the [[differential 0-form]] [[RR-field]] $F_0$, that is [[Hodge duality|Hodge dual]] to the $F_{10}$ that the [[D8-brane]] couples to.
 
 ## Related concepts
 
