@@ -158,7 +158,9 @@ between the [[full subcategory]] of the [[stable homotopy category]] $Ho(Spectra
 
 This is due to ([Thomason, 95](#Thomason)). Further discussion is in ([Mandell, 2010](#Mandell)).
 
-Notice that this is _almost_ the complete analog in [[stable homotopy theory]] of the [[Quillen equivalence]] between the [[Thomason model structure]] on [[Cat]] and the standard [[model structure on simplicial sets]]. Only that $SymmMonCat$ cannot carry a [[model category]] structure because it does not have all [[colimit]]s. In some sense the "colimit completion" of $SymmMonCat$ is the category of [[multicategories]]. Once expects that this carries a model structure that refines the above equivalence of homotopy categories to a [[Quillen equivalence]]. 
+Notice that this is _almost_ the complete analog in [[stable homotopy theory]] of the [[Quillen equivalence]] between the [[Thomason model structure]] on [[Cat]] and the standard [[model structure on simplicial sets]]. Only that $SymmMonCat$ cannot carry a [[model category]] structure because it does not have all [[colimit]]s. In some sense the "colimit completion" of $SymmMonCat$ is the category of [[multicategories]]. Once expects that this carries a model structure that refines the above equivalence of homotopy categories to a [[Quillen equivalence]].
+
+However, a subcategory of $SymmMonCat$ whose objects are [[Permutative categories]] and maps are strict symmetric monoidal functors, denoted by $Perm$  has a model category structure  which is transferred from the natural model category structure on $Cat$. The [[coherence theorem]] for symmetric monoidal categories states that each symmetric monoidal category is equivalent to a permeative category.
 
 (This is currently being investigated by Elmendorf, Nikolaus and maybe others.)
 
@@ -253,6 +255,9 @@ More discussion is in
 
 * {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arxiv](https://arxiv.org/abs/1211.3678), 2014
 
+* [[Amit Sharma]], _Symmetric monoidal categories and $\Gamma$-categories_
+Theory and applications of Categories, Vol. 35, No. 14, (2020) pp. 417-512
+ {#Sharma}
 
 [[!redirects symmetric monoidal categories]]
 [[!redirects symmetric monoidal structure]]
