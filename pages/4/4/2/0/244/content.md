@@ -160,9 +160,11 @@ This is due to ([Thomason, 95](#Thomason)). Further discussion is in ([Mandell, 
 
 Notice that this is _almost_ the complete analog in [[stable homotopy theory]] of the [[Quillen equivalence]] between the [[Thomason model structure]] on [[Cat]] and the standard [[model structure on simplicial sets]]. Only that $SymmMonCat$ cannot carry a [[model category]] structure because it does not have all [[colimit]]s. In some sense the "colimit completion" of $SymmMonCat$ is the category of [[multicategories]]. Once expects that this carries a model structure that refines the above equivalence of homotopy categories to a [[Quillen equivalence]].
 
-However, a subcategory of $SymmMonCat$ whose objects are [[Permutative categories]] and maps are strict symmetric monoidal functors, denoted by $Perm$  has a model category structure  which is transferred from the natural model category structure on $Cat$. The [[coherence theorem]] for symmetric monoidal categories states that each symmetric monoidal category is equivalent to a permeative category.
-
 (This is currently being investigated by Elmendorf, Nikolaus and maybe others.)
+
+However, a subcategory of $SymmMonCat$ whose objects are Permutative categories and maps are strict symmetric monoidal functors, denoted by $Perm$  has a model category structure  which is transferred from the natural model category structure on $Cat$. The [[coherence theorem]] for symmetric monoidal categories states that each symmetric monoidal category is equivalent to a [[permutative category]].
+
+
 
 
 ### As algebras over the little $k$-cubes operad
