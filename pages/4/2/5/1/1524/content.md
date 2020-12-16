@@ -6,18 +6,22 @@
 ## Definition
 
 In [[constructive mathematics]], Markov\'s principle is the (classically trivial) statement that any infinite [[sequence]] of $0$ and $1$ that is not all $1$s must have a $0$ somewhere.  Stated in a more [[logic]]al form, if $P$ is a predicate on [[natural number]]s, then
-$$ (\forall n, P(n) \vee \neg{P(n)}) \Rightarrow \neg(\forall n, P(n)) \Rightarrow \exists n, \neg{P(n)} .$$
+$$ \forall{n}\, \big(P(n) \vee \neg{P(n)}\big) \Rightarrow \neg\forall{n}\, P(n) \Rightarrow \exists{n}\, \neg{P(n)} .$$
 Compare this to
-$$ \neg(\exists n, P(n)) \Rightarrow \forall n, \neg{P(n)} ,$$
+$$ \neg\exists{n}\, P(n) \Rightarrow \forall{n}\, \neg{P(n)} ,$$
 which is a theorem of [[intuitionistic logic]].
-More generally, a [[set]] $S$ may be called _Markovian_ if this principle holds for all predicates on $S$.
+More generally, a [[set]] $S$ may be called _Markovian_ if this principle holds for all predicates on $S$.  Every Kuratowski-[[finite set]] is Markovian, for example.
+
+Markov\'s principle is often stated in terms of [[infinite sequences]] of natural numbers, using Greek letters for sequences and Latin letters for individual numbers:
+$$ \forall{\alpha}\, \big(\neg\forall{n}\, (\alpha_n = 0) \Rightarrow \exists{n}\, (\alpha_n \ne 0)\big) .$$
+Here, $P(n)$ is the statement that $\alpha_n = 0$, and the hypothesis $\forall{n} (P(n) \vee \neg{P(n)})$ is true for any sequence of natural numbers.  Conversely, given any predicate $P$ satisfying this hypothesis, we can define $\alpha$ by $\alpha_n = 0$ if $P(n)$ is true and $\alpha_n = 1$ if $P(n)$ is false, so the two versions of Markov\'s principle are equivalent.
 
 
 ## Discussion
 
-In standard constructive mathematics (such as in the [[internal logic]] of a [[topos]]), it is possible that the only Markovian sets are the Kuratowski-[[finite set]]s.  Thus, Markov\'s principle, stating that the set of natural numbers is Markovian, is nontrivial.  (It is true, of course, in a [[Boolean topos]]; that is, Markov\'s principle follows from the principle of [[excluded middle]].)
+In standard constructive mathematics (such as in the [[internal logic]] of a [[topos]]), it is possible that the only Markovian sets are the Kuratowski-[[finite sets]].  Thus, Markov\'s principle, stating that the set of natural numbers is Markovian, is nontrivial.  (It is true, of course, in a [[Boolean topos]]; that is, Markov\'s principle follows from the principle of [[excluded middle]].)
 
-[[А. А. Марков Jr]] (the one who proved undecidability theorems, and son of the great stochastician) belonged to the [[Russian constructivism|Russian school of constructivism]], which saw mathematics as about computability.  From this perspective, Markov\'s principle is justified as follows:  We are justified in concluding $\exists n, \neg{P(n)}$ if we can actually compute a value of $n$ such that $\neg{P(n)}$ can be proved; since $P$ is decidable, it\'s enough to compute $n$ such that $\neg{P(n)}$ is true.  And to compute this, you just set a computer working, deciding $P(0), P(1), P(2), \ldots$, until it finds $n$.  Other constructivists find this argument unconvincing, since they\'re not convinced that the computer will ever stop, even though it\'s impossible that it continue forever.
+[[А. А. Марков Jr]] (the one who proved undecidability theorems, and son of the great stochastician) belonged to the [[Russian constructivism|Russian school of constructivism]], which saw mathematics as about computability.  From this perspective, Markov\'s principle is justified as follows:  We are justified in concluding $\exists{n}\, \neg{P(n)}$ if we can actually compute a value of $n$ such that $\neg{P(n)}$ can be proved; since $P$ is decidable, it\'s enough to compute $n$ such that $\neg{P(n)}$ is true.  And to compute this, you just set a computer working, deciding $P(0), P(1), P(2), \ldots$, until it finds $n$.  Other constructivists find this argument unconvincing, since they\'re not convinced that the computer will ever stop, even though it\'s impossible that it continue forever.
 
 Equivalent forms:
 
@@ -35,9 +39,9 @@ Scheme," Zeitschr. f. math. Logic und Grundlagen d. Math. 24, p. 427-436, 1978),
 
 More recently, a weakened form of Markov\'s principle has been identified (first in M. Mandelkern, "Constructively complete finite sets," Zeitschr. f. math. Logic und Grundlagen d. Math. 34, p. 97-103, 1988) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
 
-$
-\forall \alpha \; [\forall \beta \; (\neg\neg\exists n \; (\beta(n)=1)\vee \neg\neg\exists n \; (\alpha(n)=1\wedge\beta(n)=0))\rightarrow\exists n \; \alpha(n)=1].
-$
+$$
+\forall \alpha \, \Big(\forall \beta \, \Big(\neg\neg\exists n \, (\beta(n)=1)\vee \neg\neg\exists n \, \big((\alpha(n)=1)\wedge(\beta(n)=0)\big)\Big)\rightarrow\exists n \, (\alpha(n)=1)\Big).
+$$
 
 
 ## Analytic Markov\'s Principle
