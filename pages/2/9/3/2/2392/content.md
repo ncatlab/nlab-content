@@ -646,7 +646,7 @@ Hence $C_f$ is a weak equivalence.
 
 The formulation in terms of [[dendroidal sets]] is due to
 
-* [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_ ([web](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314))
+* [[Ieke Moerdijk]], [[Ittay Weiss]], _Dendroidal sets_ ([web](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314))
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv](http://arxiv.org/abs/0902.1954)) .
 
