@@ -158,7 +158,7 @@ See also [[compact element]], [[compact element in a locale]].
 
 The relation to [[locally finitely presentable categories]] is discussed in
 
-* [[Hans Porst]], _Algebraic lattices and locally finitely presentable categories_ ([pdf](http://www.math.uni-bremen.de/~porst/dvis/PORST_AlgebraicLattices_revfinAU.pdf))
+* [[Hans Porst]], _Algebraic lattices and locally finitely presentable categories_, Algebra Univers. **65**, 285–298 (2011). <https://doi.org/10.1007/s00012-011-0129-0> ([pdf](http://www.math.uni-bremen.de/~porst/dvis/PORST_AlgebraicLattices_revfinAU.pdf))
  {#Porst} 
 
 That every algebraic lattice is a congruence lattice is proved in 
