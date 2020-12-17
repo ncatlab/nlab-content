@@ -79,6 +79,9 @@ Discussion of [[AdS spacetime|AdS vacua]]:
 
 * Nikolay Bobev, P. Marcos Crichigno, _Universal RG Flows Across Dimensions and Holography_, J. High Energ. Phys. 2017, 65 (2017) ([arXiv:1708.05052](https://arxiv.org/abs/1708.05052))
 
+* Parinya Karndumri, Patharadanai Nuchino, _Twisted compactifications of 6D field theories from maximal 7D gauged supergravity_, Eur. Phys. J. C 80, 201 (2020) ([arXiv:1912.04807](https://arxiv.org/abs/1912.04807))
+
+
 ### Heterotic 7d supergravity
 
 * [[Paul Townsend]], _String-Membrane Duality in Seven Dimensions_,  	Phys. Lett. B354:247-255, 1995 ([arXiv:hep-th/9504095](https://arxiv.org/abs/hep-th/9504095))
