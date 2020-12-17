@@ -125,8 +125,9 @@ and the category of classes is not the [[terminal category]].
 
 It likewise has all objects corresponding to [[large cardinal]]s, most notably a [[natural numbers object]]. Otherwise, the category of finite sets [[FinSet]] is vacuously a category of classes, as the notions of 'finitary' and 'class-indexed'/'infinitary' coincide. 
 
-As such, the category of classes is a well-pointed infinitary [[Heyting category|Heyting]] or [[Boolean category|Boolean]] [[pretopos]] with a natural numbers object and other large cardinals, 
+As such, the category of classes is a well-pointed infinitary [[Heyting category|Heyting]] or [[Boolean category|Boolean]] [[pretopos]], 
 depending upon the external logic used, 
+with a natural numbers object and other large cardinals, 
 and where “infinitary” is used in the rather strong sense of “class-indexed”.
 
 The category of classes is not [[cartesian closed]] or [[locally cartesian closed]]
