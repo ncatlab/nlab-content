@@ -106,9 +106,11 @@ Generally, the $n$-torus $T^n$ is $(S^1)^n$.
 
 ## References
 
-A formalization in [[homotopy type theory]], along with a proof that $\Omega S^1\simeq {\mathbb{Z}}$ (and hence $\pi_1(S^1) \simeq \mathbb{Z}$), can be found in
+A formalization of the [[homotopy type]] of the circle in [[homotopy type theory]], along with a proof that $\Omega S^1\simeq {\mathbb{Z}}$ (and hence $\pi_1(S^1) \simeq \mathbb{Z}$):
 
-* [[Dan Licata]] and [[Mike Shulman]], *Calculating the Fundamental Group of the Circle in Homotopy Type Theory* ([arXiv:1301.3443](http://arxiv.org/abs/1301.3443))
+* [[Dan Licata]], [[Mike Shulman]], *Calculating the Fundamental Group of the Circle in Homotopy Type Theory* ([arXiv:1301.3443](http://arxiv.org/abs/1301.3443))
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Daniel Grayson]], [[Michael Shulman]], _Construction of the Circle in UniMath_, ([arXiv:1910.01856](https://arxiv.org/abs/1910.01856))
 
 The proof is formalized therein using the [[Agda]] [[proof assistant]].  See also
 
