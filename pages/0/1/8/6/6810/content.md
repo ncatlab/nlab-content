@@ -79,16 +79,18 @@ Discussion of [[AdS spacetime|AdS vacua]]:
 
 * Nikolay Bobev, P. Marcos Crichigno, _Universal RG Flows Across Dimensions and Holography_, J. High Energ. Phys. 2017, 65 (2017) ([arXiv:1708.05052](https://arxiv.org/abs/1708.05052))
 
+### Heterotic 7d supergravity
 
-### KK-Compactification on $S^1_{HW}$
+* [[Paul Townsend]], _String-Membrane Duality in Seven Dimensions_,  	Phys. Lett. B354:247-255, 1995 ([arXiv:hep-th/9504095](https://arxiv.org/abs/hep-th/9504095))
 
-Discussion of [[quantum anomaly]] cancellation and 7d [[Horava-Witten theory]] is in
 
 * {#GherghettaKehagias02} Tony Gherghetta, [[Alex Kehagias]], _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
 
 * Spyros D. Avramis, [[Alex Kehagias]], _Gauged $D=7$ Supergravity on the $S^1/\mathbb{Z}_2$ Orbifold ([arXiv:hep-th/0407221](https://arxiv.org/abs/hep-th/0407221))
 
 * T.G. Pugh, [[Ergin Sezgin]], [[Kellogg Stelle]], _$D=7$ / $D=6$ Heterotic Supergravity with Gauged R-Symmetry_ ([arXiv:1008.0726](https://arxiv.org/abs/1008.0726))
+
+* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _BPS objects in $D=7$ supergravity and their M-theory origin_, JHEP 12 (2017) 041 ([arXiv:1707.06152](https://arxiv.org/abs/1707.06152))
 
 
 
