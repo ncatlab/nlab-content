@@ -27,6 +27,12 @@ The second reason is that we believe the locution "algebraic logic" should prope
 ### Stack semantics
 [[michaelshulman:stack semantics]] provides a structural and somewhat more uniform way of treating "classes" in [[topos]] theory.
 
+## See also
+
+* [[category of classes]]
+
+* [[category with class structure]]
+
 ## References
 
 Introductions and further pointers are at
