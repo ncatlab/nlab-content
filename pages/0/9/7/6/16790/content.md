@@ -484,6 +484,9 @@ Further discussion for [[M2-branes]]:
 
 * Chethan Krishnan, Carlo Maccaferri, Harvendra Singh, _M2-brane Flows and the Chern-Simons Level_, JHEP 0905:114, 2009 ([arXiv:0902.0290](https://arxiv.org/abs/0902.0290))
 
+Discussion for [[heterotic supergravity]]:
+
+* Karl-Philip Gemmer, Alexander S. Haupt, Olaf Lechtenfeld, Christoph Nölle, Alexander D. Popov, _Heterotic string plus five-brane systems with asymptotic $AdS_3$_, Adv. Theor. Math. Phys. 17 (2013) 771-827 ([arXiv:1202.5046](https://arxiv.org/abs/1202.5046))
 
 
 
