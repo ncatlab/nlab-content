@@ -41,11 +41,16 @@ This may be written as $SL(3,\mathbb{O})$. ([Dray-Manogue 09a (16)](#DrayManogue
 > graphics grabbed from ([Dray-Manogue 09a, p. 12](#DrayManogue09a))
 
 
+### Outer automorphism
+
+The [[Dynkin diagram]] of $E_6$ has 2-fold symmetry, corresponding to a nontrivial [[outer automorphism]] of order 2. $E_6$ acts on the [[octonionic projective plane]] and its outer automorphism gives rise to a projective duality in its geometry.
+
+
 ### As part of the ADE pattern
 
 [[!include ADE -- table]]
 
-### As U-duality group of5d SuGra
+### As U-duality group of 5d SuGra
 
 $E_6$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 5 dimensions.
 
