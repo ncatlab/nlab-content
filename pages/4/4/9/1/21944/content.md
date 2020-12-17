@@ -17,6 +17,8 @@ On the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-b
 
 * [[Iosif Bena]], _The M-theory dual of a 3 dimensional theory with reduced supersymmetry_, Phys. Rev. D62:126006, 2000 ([arXiv:hep-th/0004142](https://arxiv.org/abs/hep-th/0004142))
 
+* [[Iosif Bena]], [[Nicholas Warner]], _A harmonic family of dielectric flow solutions with maximal supersymmetry_, JHEP 0412:021, 2004 ([arXiv:hep-th/0406145](https://arxiv.org/abs/hep-th/0406145))
+
 
 * [[Iosif Bena]], [[Mariana Graña]], Stanislav Kuperstein, Stefano Massai, _Tachyonic Anti-M2 Branes_, JHEP 1406:173, 2014 ([arXiv:1402.2294](https://arxiv.org/abs/1402.2294))
 
