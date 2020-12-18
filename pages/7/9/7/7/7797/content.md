@@ -23,7 +23,7 @@
 
 ## Idea
 
-For $X$ a [[space]] with a notion of _[[dimension]]_ $dim(X) \in \mathbb{N}$ and a notion of ([[Kähler differential form|Kähler]]) [[differential forms]] on it, the _canonical bundle_ or [[canonical sheaf]] over $X$ is the [[line bundle]] (or its  [[sheaf]] of [[sections]]) of $n$-forms on $X$, the $dim(X)$-fold [[exterior product]] 
+For $X$ a [[space]] with a notion of _[[dimension]]_ $n = dim(X) \in \mathbb{N}$ and a notion of ([[Kähler differential form|Kähler]]) [[differential forms]] on it, the _canonical bundle_ or [[canonical sheaf]] over $X$ is the [[line bundle]] (or its  [[sheaf]] of [[sections]]) of $n$-forms on $X$, the $dim(X)$-fold [[exterior product]] 
 
 $$
   L_{can} \coloneqq \Omega^n_X 
