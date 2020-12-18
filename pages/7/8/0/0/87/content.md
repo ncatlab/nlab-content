@@ -76,7 +76,7 @@ $$
   \,,
 $$
 
-where the left leg is a weak equivalence., hence for us: where the left leg is an internal functor that is $k$-surjective for all $k$.  (This is the beginning of the construction of the [[Dwyer-Kan localization]] at our chosen weak equivalences.)
+where the left leg is a weak equivalence, hence for us: where the left leg is an internal functor that is $k$-surjective for all $k$.  (This is the beginning of the construction of the [[Dwyer-Kan localization]] at our chosen weak equivalences.)
 
 For the case $\mathcal{E} = Top$ such a span is a morphism out of a _Cech cover_ . For instance for $C = X$ a topological space regarded as a topological category, for $G$ a [[topological group]] and $D = \mathbf{B}G$ its [[delooping]] one-object topological groupoid, such a span is a [[Cech cohomology|Cech cocycle]] on $X$ with values in $G$.
 
