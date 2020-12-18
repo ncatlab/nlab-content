@@ -63,7 +63,7 @@ The [[bordism rings]] for [[MU]], [[MUFr]] and [[MFr]] sit in a [[short exact se
   \to
   \Omega^U_{\bullet+1}
   \overset{i}{\longrightarrow}
-  \Omega^{U,f}_{\bullet+1}
+  \Omega^{U,fr}_{\bullet+1}
   \overset{\partial}{
     \longrightarrow
   }
@@ -99,7 +99,7 @@ Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] an
   &
   \overset{i}{\longrightarrow}
   &
-  \Omega^{U,f}_{\bullet+1}
+  \Omega^{U,fr}_{\bullet+1}
   &
   \overset{\partial}{
     \longrightarrow
@@ -189,7 +189,9 @@ Here:
 ## Variants
  {#Variants}
 
-An analogous but finer construction works for [[special unitary group]]-structure instead of [[unitary group]]-structure and in dimensions $8\bullet + 4$: Since the [[first Chern class]] of $SU$-manifolds vanishes, their [[Todd class]] is divisible by 2, and we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following variant of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
+An analogous but finer construction works for [[special unitary group]]-structure instead of [[unitary group]]-structure and in dimensions $8\bullet + 4$: 
+
+Since on $(8 \bullet + 4)$-dimensional $SU$-manifolds the [[Todd class]] is divisible by 2 [Conner-Floyd 66, Prop. 16.4](#ConnerFloyd66) we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following [[short exact sequence]] of [[MSUFr]]-[[bordism rings]], in variation of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
 
 \[
   \label{HalfToddClassesOnShortExactSequenceOfSUFrBordismRings}
@@ -201,7 +203,7 @@ An analogous but finer construction works for [[special unitary group]]-structur
   &
   \overset{i}{\longrightarrow}
   &
-  \Omega^{SU,f}_{8\bullet+4}
+  \Omega^{SU,fr}_{8\bullet+4}
   &
   \overset{\partial}{
     \longrightarrow
@@ -211,7 +213,7 @@ An analogous but finer construction works for [[special unitary group]]-structur
   &
   \simeq
   &
-  \pi^s_\bullet
+  \pi^s_{8\bullet + 3}
   \\
   & 
   \big\downarrow{}^{\tfrac{1}{2}\mathrlap{Td}}
@@ -285,3 +287,4 @@ while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invar
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorem 16.2 in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 [[!redirects e-invariant is Todd class of cobounding (U,fr)-manifolds]]
+[[!redirects e-invariant is the Todd class of cobounding (U,fr)-manifolds]]
