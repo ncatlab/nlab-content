@@ -49,7 +49,9 @@ for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 
 ## References
 
-### General
+### As black branes
+
+As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * {#ILPT95} J.M. Izquierdo, [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic Membranes_, Nucl. Phys. B460:560-578, 1996 ([arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177))
 
@@ -61,36 +63,22 @@ for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 
 * [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018, 2003 ([arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117))
 
-* Giuseppe Dibitetto, Nicolò Petri, _BPS objects in $D=7$ supergravity and their M-theory origin_, JHEP 12 (2017) 041 ([arxiv:1707.06152](https://arxiv.org/abs/1707.06152))
+* [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, _Exact Half-BPS Flux Solutions in M-theory I, Local Solutions_, JHEP 0808:028, 2008 ([arXiv:0806.0605](https://arxiv.org/abs/0806.0605))
 
 
-* {#Petri18} Nicolò Petri, slide 14 of _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
+
+* Leon Berdichevsky, Bat-el Dahan, _Local gravitational solutions dual to M2-branes intersecting and/or ending on M5-branes_, JHEP 08 (2013) 061 ([arXiv:1304.4389](https://arxiv.org/abs/1304.4389))
+
+
+* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _BPS objects in $D=7$ supergravity and their M-theory origin_, JHEP 12 (2017) 041 ([arxiv:1707.06152](https://arxiv.org/abs/1707.06152))
+
+
+* {#Petri18} [[Nicolò Petri]], slide 14 of: _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
 
 
 * Jay Armas, Vasilis Niarchos, Niels A. Obers, Section 2 of _Thermal transitions of metastable M-branes_ ([arXiv:1904.13283](https://arxiv.org/abs/1904.13283))
 
-
-
-
-
-
-### Reduction to D$p$-D$(p+2)$-brane bound states
-
-The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (eventually motivating the [[BLG model]]/[[ABJM model]]):
-
-* {#BasuHarvey05} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
-
-* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
-
-Argument, using the [[ABJM model]], that the apparent [[fuzzy 3-sphere]] geometry of [[M2-M5 brane bound states]] effectively collapses to a [[fuzzy 2-sphere]] geometry of [[Dp-D(p+2)-brane intersection]] [[fuzzy funnels]]:
-
-
-* [[Horatiu Nastase]], [[Constantinos Papageorgakis]], [[Sanjaye Ramgoolam]], _The fuzzy $S^2$ structure of M2-M5 systems in ABJM membrane theories_, JHEP 0905:123, 2009 ([arXiv:0903.3966](https://arxiv.org/abs/0903.3966))
-
-* [[Sanjaye Ramgoolam]], _Fuzzy geometry of membranes in M-theory_, 2009 ([[RamgoolamFuzzyGeometry.pdf:file]])
-
-* [[Horatiu Nastase]], [[Constantinos Papageorgakis]], _Bifundamental Fuzzy 2-Sphere and Fuzzy Killing Spinors_, SIGMA 6:058, 2010 ([arXiv:1003.5590](https://arxiv.org/abs/1003.5590))
 
 ### As polarized M2 branes
 
@@ -119,6 +107,29 @@ Via the [[mass-deformed ABJM model]]:
 The corresponding D2-NS5 bound state under [[duality between M-theory and type IIA string theory]]:
 
 * [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
+
+
+
+
+
+
+### Reduction to D$p$-D$(p+2)$-brane bound states
+
+The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (eventually motivating the [[BLG model]]/[[ABJM model]]):
+
+* {#BasuHarvey05} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
+Argument, using the [[ABJM model]], that the apparent [[fuzzy 3-sphere]] geometry of [[M2-M5 brane bound states]] effectively collapses to a [[fuzzy 2-sphere]] geometry of [[Dp-D(p+2)-brane intersection]] [[fuzzy funnels]]:
+
+
+* [[Horatiu Nastase]], [[Constantinos Papageorgakis]], [[Sanjaye Ramgoolam]], _The fuzzy $S^2$ structure of M2-M5 systems in ABJM membrane theories_, JHEP 0905:123, 2009 ([arXiv:0903.3966](https://arxiv.org/abs/0903.3966))
+
+* [[Sanjaye Ramgoolam]], _Fuzzy geometry of membranes in M-theory_, 2009 ([[RamgoolamFuzzyGeometry.pdf:file]])
+
+* [[Horatiu Nastase]], [[Constantinos Papageorgakis]], _Bifundamental Fuzzy 2-Sphere and Fuzzy Killing Spinors_, SIGMA 6:058, 2010 ([arXiv:1003.5590](https://arxiv.org/abs/1003.5590))
+
 
 
 ### Relation to giant gravitons
