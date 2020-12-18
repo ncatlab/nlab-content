@@ -536,9 +536,14 @@ Specifically in relation to [[little string theory]]:
 [[!redirects K3-surface]]
 [[!redirects K3-surfaces]]
 
+[[!redirects K3-manifold]]
+[[!redirects K3-manifolds]]
+
 [[!redirects Kummer surface]]
 [[!redirects Kummer surfaces]]
 
 [[!redirects generalized Kummer surface]]
 [[!redirects generalized Kummer surfaces]]
+
+
 
