@@ -118,7 +118,7 @@ Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] an
   &&
   \big\downarrow{}^{}
   &&
-  \big\downarrow{}^{e}
+  \big\downarrow{}^{e_{\mathbb{C}}}
   \\
   0 
   \to
@@ -185,6 +185,95 @@ Here:
 1. for top magenta arrow we used that that the [[Q/Z]]-valued [[e-invariant]] is the top-degree component of the [[Chern character]] of any [[complex topological K-theory]]-class $V_{2n} \coloneqq \sigma \circ c$ lifting $\Sigma^{2n} 1 \in \widetilde K(S^{2n})$ to $C_f$ ([this Prop.](Adams+e-invariant#QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace)).
 
 =--
+
+## Variants
+ {#Variants}
+
+An analogous but finer construction works for [[special unitary group]]-structure instead of [[unitary group]]-structure and in dimensions $8\bullet + 4$: Since the [[first Chern class]] of $SU$-manifolds vanishes, their [[Todd class]] is divisible by 2, and we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following variant of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
+
+\[
+  \label{HalfToddClassesOnShortExactSequenceOfSUFrBordismRings}
+  \array{
+  0 
+  \to
+  &
+  \Omega^{SU}_{8\bullet+4}
+  &
+  \overset{i}{\longrightarrow}
+  &
+  \Omega^{SU,f}_{8\bullet+4}
+  &
+  \overset{\partial}{
+    \longrightarrow
+  }
+  &
+  \Omega^{fr}_{8\bullet + 3}
+  &
+  \simeq
+  &
+  \pi^s_\bullet
+  \\
+  & 
+  \big\downarrow{}^{\tfrac{1}{2}\mathrlap{Td}}
+  &&
+  \big\downarrow{}^{\tfrac{1}{2}\mathrlap{Td}}
+  &&
+  \big\downarrow{}^{}
+  &&
+  \big\downarrow{}^{e_{\mathbb{R}}}
+  \\
+  0 
+  \to
+  & 
+  \mathbb{Z}
+  &\overset{\;\;\;\;\;}{\hookrightarrow}&
+  \mathbb{Q}  
+  &\overset{\;\;\;\;}{\longrightarrow}&
+  \mathbb{Q}/\mathbb{Z}
+  &=&
+  \mathbb{Q}/\mathbb{Z}
+  }
+  \,.
+\]
+
+This produces $e_{\mathbb{R}}$, the [[Adams e-invariant]] with respect to [[KO]]-theory instead of [[KU]] ([Adams 66, p. 39](e-invariant#Adams66)), which, in degrees $8k + 3$, is indeed half of the e-invariant $e_{\mathbb{C}}$ for $KU$ (by [Adams 66, Prop. 7.14](e-invariant#Adams66)). 
+
+In fact, for $k = 0$ we have:
+
++-- {: .num_prop #AdamseRInvariantDetectsThirdStableHomotopyGroupOfSpheres} 
+###### Proposition
+**([Adams 66, Example 7.17  and p. 46](e-invariant#Adams66))**
+
+In degree 3, the [[KO]]-theoretic [[e-invariant]] $e_{\mathbb{R}}$ takes the value $\left[\tfrac{1}{24}\right] \in \mathbb{Q}/\mathbb{Z}$ on the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$  and hence reflects the full [[third stable homotopy group of spheres]]:
+
+$$
+  \array{
+    \pi^s_3 
+      &
+      \underoverset{
+        \simeq
+      }{
+        e_{\mathbb{R}}
+      }{
+        \;\;\longrightarrow\;\;
+      } 
+      &
+    \mathbb{Z}/24 
+    & 
+    \subset 
+    &  
+    \mathbb{Q}/\mathbb{Z}
+    \\
+    [h_{\mathbb{H}}]
+    &&\mapsto&&
+    \left[\tfrac{1}{24}\right]    
+  }
+$$
+
+while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invariant#Adams66)).
+
+=--
+
 
 ## Related statements
 
