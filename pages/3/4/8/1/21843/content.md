@@ -137,6 +137,7 @@ Together with the [[K3 surface]] representing $- y_4$ (Prop. \ref{K3SurfaceSpans
 
 * [[Calabi-Yau manifold]]
 
+* [[generalized Calabi-Yau manifold]]
 
 \linebreak
 
