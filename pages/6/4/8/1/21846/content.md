@@ -10,9 +10,10 @@
 
 * [[MU]], [[MSU]], ...
 
+  [[MUFr]], [[MSUFr]]
+
   [[MP-theory|MP]], [[MR-theory|MR]]
 
-  [[MUFr]]
 
 * [[MSp]]
 
