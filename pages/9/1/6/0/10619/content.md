@@ -95,6 +95,8 @@ and this is the _e-invariant_ of $f$ seen in $E$-theory.
 
 \linebreak
 
+## For $E = KU$
+
 ### As an extension of K-groups with Adams operations
  {#AsAnExtensionOfComplexTopologicalKTheoryWithAdamsOperations}
 
@@ -327,7 +329,7 @@ $$
 
 =--
 
-#### The Adams e-invariant in $\mathbb{Q}/\mathbb{Z}$
+#### The Adams $e_{\mathbb{C}}$-invariant in $\mathbb{Q}/\mathbb{Z}$
  {#TheEInvariantAsAnElementOfQModZ}
 
 +-- {: .num_example #TheDefinignSESInComplexTopologicalKTheory} 
@@ -1158,7 +1160,7 @@ In particular, this means that $\partial$ is [[surjective function|surjective]],
 
 Evaluation of the [[Todd class]] on [[(U,fr)-manifolds]] yields [[rational numbers]] which are [[integers]] on actual $U$-manifolds. It follows with the [[short exact sequence]] (eq:ShortExactSequenceOfUFrBordismRings) that assigning to $Fr$-manifolds the Todd class of any of their cobounding $(U,fr)$-manifolds yields a well-defined element in [[Q/Z]].
 
-Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] and the [[stable homotopy group of spheres]] $\pi^s_\bullet$, this assignment coincides with the [[Adams e-invariant]] in [its Q/Z-incarnation](Adams+e-invariant#TheEInvariantAsAnElementOfQModZ):
+Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] and the [[stable homotopy group of spheres]] $\pi^s_\bullet$, this assignment coincides with the [[Adams e-invariant]] in [its Q/Z-incarnation](#TheEInvariantAsAnElementOfQModZ):
 
 \[
   \label{ToddClassesOnShortExactSequenceOfUFrBordismRings}
@@ -1228,6 +1230,108 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
 \end{imagefromfile}
 
 
+\linebreak
+
+## For $E = KO$
+ {#KOVersion}
+
+### The Adams $e_{\mathbb{R}}$-invariant in $\mathbb{Q}/\mathbb{Z}$
+
+Definition \ref{eInvariantInComplexTopologicalKtheoryAsRationalNumberModuloIntegers} applies verbatim also with real (i.e. orthogonal) [[topological K-theory]] [[KO]] in place of complex topological K-theory [[KU]]. The resulting invariant is denoted $e_{\mathbb{R}}$ ([Adams 66, p. 39](#Adams66)).
+
+### As a cobordism invariant of $SU$-manifolds with framed boundary
+
+An analogous but finer version of the [[cobordism theory|cobordism]]-theoretic construction ([above](#AsACobordismInvariantOfManifoldsWithBoundary))  works for [[special unitary group]]-structure instead of [[unitary group]]-structure and in dimensions $8\bullet + 4$: Since the [[first Chern class]] of $SU$-manifolds vanishes, their [[Todd class]] is divisible by 2, and we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following variant of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
+
+\[
+  \label{HalfToddClassesOnShortExactSequenceOfSUFrBordismRings}
+  \array{
+  0 
+  \to
+  &
+  \Omega^{SU}_{8\bullet+4}
+  &
+  \overset{i}{\longrightarrow}
+  &
+  \Omega^{SU,f}_{8\bullet+4}
+  &
+  \overset{\partial}{
+    \longrightarrow
+  }
+  &
+  \Omega^{fr}_{8\bullet + 3}
+  &
+  \simeq
+  &
+  \pi^s_\bullet
+  \\
+  & 
+  \big\downarrow{}^{\tfrac{1}{2}\mathrlap{Td}}
+  &&
+  \big\downarrow{}^{\tfrac{1}{2}\mathrlap{Td}}
+  &&
+  \big\downarrow{}^{}
+  &&
+  \big\downarrow{}^{e_{\mathbb{R}}}
+  \\
+  0 
+  \to
+  & 
+  \mathbb{Z}
+  &\overset{\;\;\;\;\;}{\hookrightarrow}&
+  \mathbb{Q}  
+  &\overset{\;\;\;\;}{\longrightarrow}&
+  \mathbb{Q}/\mathbb{Z}
+  &=&
+  \mathbb{Q}/\mathbb{Z}
+  }
+  \,.
+\]
+
+This produces $e_{\mathbb{R}}$, the [[Adams e-invariant]] with respect to [[KO]]-theory instead of [[KU]] ([Adams 66, p. 39](#Adams66)), which, in degrees $8k + 3$, is indeed half of the e-invariant $e_{\mathbb{C}}$ for $KU$ (by [Adams 66, Prop. 7.14](#Adams66)). 
+
+
+## Examples
+
+### Third stable homotopy group of spheres
+ {#ThirdStableStem}
+
++-- {: .num_prop #AdamseRInvariantDetectsThirdStableHomotopyGroupOfSpheres} 
+###### Proposition
+**([Adams 66, Example 7.17  and p. 46](#Adams66))**
+
+In degree 3, the [[KO]]-theoretic [[e-invariant]] $e_{\mathbb{R}}$ takes the value $\left[\tfrac{1}{24}\right] \in \mathbb{Q}/\mathbb{Z}$ on the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$  and hence reflects the full [[third stable homotopy group of spheres]]:
+
+$$
+  \array{
+    \pi^s_3 
+      &
+      \underoverset{
+        \simeq
+      }{
+        e_{\mathbb{R}}
+      }{
+        \;\;\longrightarrow\;\;
+      } 
+      &
+    \mathbb{Z}/24 
+    & 
+    \subset 
+    &  
+    \mathbb{Q}/\mathbb{Z}
+    \\
+    [h_{\mathbb{H}}]
+    &&\mapsto&&
+    \left[\tfrac{1}{24}\right]    
+  }
+$$
+
+while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](#Adams66)).
+
+=--
+
+
+
 ## Related concepts
 
 * [[eta-invariant]]
@@ -1255,8 +1359,6 @@ Discussion in more general [[Whitehead generalized cohomology theories]]:
 
 * Warren M. Krueger, _Relation with the Hopf invariant revisited_, Illinois J. Math.
 Volume 24, Issue 2 (1980), 188-191 ([euclid:ijm/1256047713](https://projecteuclid.org/euclid.ijm/1256047713))
-
-
 
 and in relation to the [[Adams spectral sequence]]
 
