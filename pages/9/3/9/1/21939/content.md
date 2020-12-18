@@ -90,7 +90,7 @@ Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] an
   &
   \overset{i}{\longrightarrow}
   &
-  \Omega^{U,f}_{\bullet+1}
+  \Omega^{U,fr}_{\bullet+1}
   &
   \overset{\partial}{
     \longrightarrow
