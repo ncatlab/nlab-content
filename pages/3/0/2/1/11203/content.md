@@ -29,9 +29,14 @@
 
 ## References
 
+* S. J. Chapman, _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (Dec., 2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
+
+* Carsten Timm, _Theory of Superconductivity_, 2020 ([pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en))
+
 See also:
 
 * Wikipedia, _[Superconductivity](http://en.wikipedia.org/wiki/Superconductivity)_
+
 
 Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
