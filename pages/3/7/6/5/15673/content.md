@@ -16,9 +16,9 @@
 
 ## Idea
 
-Given a _[[number field]]_ $K$, with [[ring of integers]] $\mathcal{O}_K$, then the _regular_ $Reg_K$ is a number which measure the size of the [[group of units]] $GL_1(\mathcal{O}_K)$.
+Given a _[[number field]]_ $K$, with [[ring of integers]] $\mathcal{O}_K$, then the _regulator_ $Reg_K$ is a number which measure the size of the [[group of units]] $GL_1(\mathcal{O}_K)$.
 
-Since the [[determinant]] constitutes a group [[homomorphism]] $K_1 \to GL_1$ from first [[algebraic K-theory]] to the [[group of units]], the regu&#246;ator may also be thought of as extracting information on the first [[algebraic K-theory]] group. This is the perspective taken in the generalization to _[[higher regulators]]_ (Beilinson regulators) which are effectivlely [[Chern characters]] for algebraic K-theory.
+Since the [[determinant]] constitutes a group [[homomorphism]] $K_1 \to GL_1$ from first [[algebraic K-theory]] to the [[group of units]], the regulator may also be thought of as extracting information on the first [[algebraic K-theory]] group. This is the perspective taken in the generalization to _[[higher regulators]]_ (Beilinson regulators) which are effectivlely [[Chern characters]] for algebraic K-theory.
 
 ## Properties
 
