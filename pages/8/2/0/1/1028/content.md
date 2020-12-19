@@ -127,10 +127,10 @@ One checks that the vertical morphism $eq(f,g) \to S$ equalizes $f$ and $g$ and 
 
 +-- {: .num_prop}
 ###### Proposition
-If a category has equalizers and finite products, then it has finite [[limits]].
+If a category has equalizers and (finite) products, then it has (finite) [[limits]].
 =--
 
-Equivalently:
+For the finite case, we may say equivalently:
 
 +-- {: .num_prop}
 ###### Proposition
