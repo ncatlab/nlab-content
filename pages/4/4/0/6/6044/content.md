@@ -164,7 +164,7 @@ for some natural arity $k$ such that:
 
 1. Alternation: $&#10761;(v_1,\ldots,v_k) = 0$ if $v_i = v_j$ for some $i \ne j$.
 
-2. Orthgonality: $&#10761;(v_1,\ldots,v_k)$ is orthogonal (in $T(V)$) to each $T(v_i)$.
+2. Orthogonality: $&#10761;(v_1,\ldots,v_k)$ is orthogonal (in $T(V)$) to each $T(v_i)$.
 
 3. Area: ${\|&#10761;(v_1,\ldots,v_k)\|} = \prod_i {\|v_i\|}$ if the $v_i$ are mutually orthogonal (in $V$).
 
@@ -174,7 +174,7 @@ I do not know a full list of these, but one important example is the __scalar-va
 $$ (a, b) \times (c, d) = a d - b c .$$
 Actually, this scalar-valued cross product $x \times y$ is simply the dot product ${\times}x \cdot y$, where ${\times}x$ is the unary vector-valued cross product in $2$ dimensions.  (In a counterclockwise-oriented plane, it rotates $x$ counterclockwise through a right angle.)
 
-More generally, in any number $n \geq 2$ of dimensions, there is a __multivector-valued binary cross product__ whose values are $(n-2)$-[[multivectors]]; this includes the scalar-valued cross product when $n = 2$ and the classical cross product when $n = 3$, but gets more complicated for larger values of $n$.  Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued $n$-ary cross product__.  More generally still, combining the dot product with *any* vector-valued cross product produces a scalar-valued cross product of $1$ higher arity.
+More generally, in any number $n \geq 2$ of dimensions, there is a __multivector-valued binary cross product__ whose values are $(n-2)$-[[multivectors]]; this includes the scalar-valued cross product when $n = 2$ and the classical cross product when $n = 3$, but gets more complicated for larger values of $n$.  Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued $n$-ary cross product__.  There are no other scalar-valued cross products, except for the identically zero products of arity $k \gt n$ and the nullary products given by unit-norm scalars for arbitrary $n$.
 
 
 ## Relationships
