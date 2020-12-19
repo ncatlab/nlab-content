@@ -32,6 +32,8 @@ a textbook on [[algebraic topology]] and [[homotopy theory]].
 
   University of Chicago Press (2012)
 
+  [ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html)
+
   ([pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
 
 category: reference
