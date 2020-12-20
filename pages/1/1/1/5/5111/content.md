@@ -139,13 +139,13 @@ The original articles are
 * Charles E. Watts, _Intrinsic characterizations of some additive functors_,  Proc. Amer. Math. Soc. __11__, 1960, 5&#8211;8, [MR0806.0832](http://www.ams.org/mathscinet-getitem?mr=0806.0832), [doi](http://dx.doi.org/10.2307/2032707)
  {#Watts}
 
-* [[Samuel Eilenberg]], _Abstract description of some basic functors_, 
-J. Indian Math. Soc. (N.S.) __24__, 1960, 231&#8211;234 (1961), [MR0125148](http://www.ams.org/mathscinet-getitem?mr=0125148)
+* [[Samuel Eilenberg]], _Abstract description of some basic functors_, J. Indian Math. Soc. (N.S.) __24__, 1960, 231&#8211;234 (1961), [MR0125148](http://www.ams.org/mathscinet-getitem?mr=0125148)
  {#Eilenberg}
 
 A generalized statement in which the codomain is not assumed to be a category of modules is discussed in
 
-* A. Nyman, S. Paul Smith, _A generalization of Watts's Theorem: Right exact functors on module categories_, ([arxiv/0806.0832](http://arxiv.org/abs/0806.0832)).
+* A. Nyman, S. Paul Smith, _A generalization of Watts's Theorem: Right exact functors on module categories_, 
+Communications in Algebra __44__:7 (2016) 3160-3170 [arxiv/0806.0832](http://arxiv.org/abs/0806.0832) [doi](https://doi.org/10.1080/00927872.2015.1065873)
 
 Generalization to [[homotopy theory]]/[[higher algebra]] is discussed in 
 
