@@ -161,9 +161,7 @@ while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invar
 
 ## References
 
-### General
-
-The original computation is due to
+The original computation:
 
 * [[Vladimir Abramovich Rokhlin]], _On a mapping of the $(n+3)$-dimensional sphere into the $n$-dimensional sphere_,  (Russian) Doklady Akad. Nauk SSSR (N.S.) 80, (1951). 541–544
 
