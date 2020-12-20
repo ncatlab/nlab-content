@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,7 +29,7 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 * [[domain wall]], [[monopole]]
 
-* [[vortex]]
+* [[vortex]], [[vortex string]]
 
 * [[defect brane]]
 
@@ -28,8 +38,8 @@ There is *no* direct relation to _[[strings]]_ in the sense of [[perturbative st
 
 ## References
 
-* [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
- {#VilenkinShellard94}
+* {#VilenkinShellard94} [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
+ 
 
 
 [[!redirects cosmic strings]]
