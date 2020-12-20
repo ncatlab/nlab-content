@@ -30,7 +30,7 @@ $$
   (-) \times (-)\colon V \times V \to V
 $$
 
-given, upon choosing any oriented orthonormal basis for $V$, by the formula above.
+given, upon choosing any oriented orthonormal basis for $V$, by the formula above.  We can even do this over any [[free module]] of rank $3$ over any [[commutative ring]] (or arguably a non-commutative [[ring]], but not a [[rig]]) equipped (as may always be done) with an inner product that admits an orthonormal basis.
 
 
 ### Binary {#binary}
@@ -91,10 +91,10 @@ By one of the deeper strands of mathematics, this classification of something as
 Given an [[orientation|oriented]] [[inner product space]] $V$ of finite [[dimension]] $n$, we can define the signed [[volume]] of an $n$-[[tuple]] of vectors.  (See also [[volume form]].)  This allows us to characterise a __co-unary cross product__ of $n - 1$ vectors as a multilinear operation
 $$ &#10761;\colon V^{n - 1} \to V $$
 such that
-$$ &#10761;(v_1,\ldots,v_{n-1}) \cdot v_n = vol(v_1,\ldots,v_n) $$
+$$ v_0 \cdot &#10761;(v_1,\ldots,v_{n-1}) = vol(v_0,v_1,\ldots,v_{n-1}) $$
 always.  There is exactly one such cross product on any such $V$ (so two if we start with an unoriented inner product space).
 
-In $3$ dimensions, this also recovers the classical cross product.
+In $3$ dimensions, this also recovers the classical cross product.  In $2$ dimensions, this produces a __unary cross product__ given by ${\times}(a,b) = (b,-a)$; in a counterclockwise-oriented plane, it rotates a vector clockwise through a right angle.  In $1$ dimension, this is a nullary operation (a constant) whose value is the positive basis vector.
 
 
 ### Vector-valued {#vectorvalued}
@@ -113,13 +113,13 @@ We can again extend (3) to get the magnitude of the cross product of any $k$ vec
 
 Then for an inner product space $V$ over $\mathbb{R}$ of finite dimension $n$, we have:
 
-* If $k = 0$, then there is one cross product for each [[unit vector]] of $V$: none when $n = 0$, two (one for each orientation) when $n = 1$, and uncountably many when $n \geq 2$.
+* If $k = 0$, then there is one cross product for each [[unit vector]] of $V$: none when $n = 0$, two (one for each orientation) when $n = 1$, and uncountably many when $n \geq 2$ (of which $2n$ are compatible with a given basis).
 
-* If $k = 1$, then there is one cross product for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces and orienting each subspace: one (always $0$) when $n = 0$, two (one for each orientation) when $n = 2$, uncountably many when $n \geq 4$ is even, and none when $n$ is odd.
+* If $k = 1$, then there is one cross product for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces and orienting each subspace: one (always $0$) when $n = 0$, two (one for each orientation) when $n = 2$, uncountably many when $n \geq 4$ is even (of which $2^{n/2}(n-1)!!$ are compatible with a given basis), and none when $n$ is odd.
 
-* If $k = 2$, then the possibilities are as listed [above](#binary) for binary cross products: one (always $0$) when $n = 0, 1$, two (one for each orientation) when $n = 3$, uncountably many (related to the [[octonions]]) when $n = 7$, and none when $n \ne 0, 1, 3, 7$.
+* If $k = 2$, then the possibilities are as listed [above](#binary) for binary cross products: one (always $0$) when $n = 0, 1$, two (one for each orientation) when $n = 3$, uncountably many (related to the octonions, and of which $480$ are compatible with a given basis) when $n = 7$, and none when $n \ne 0, 1, 3, 7$.
 
-* If $k = 3$, then there is one cross product (always $0$) when $n = 0, 1, 2$, two cross products (one for each orientation) when $n = 4$, uncountably many cross products (presumably also related to the [[octonions]]) when $n = 8$, and none when $n \ne 0, 1, 2, 4, 8$.
+* If $k = 3$, then there is one cross product (always $0$) when $n = 0, 1, 2$, two cross products (one for each orientation) when $n = 4$, uncountably many cross products (related to the octonions) when $n = 8$, and none when $n \ne 0, 1, 2, 4, 8$.
 
 * If $4 \leq k \lt n - 1$, then there are no cross products.
 
@@ -135,23 +135,23 @@ Or organized by dimension ($n$) rather than arity ($k$):
 
 * If $n = 1$, then there are two cross products (one for each unit vector, or equivalently for each orientation) when $k = 0$, none when $k = 1$, and one (always zero) when $k \geq 2$.
 
-* If $n = 2$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, two (one for each orientation) when $k = 1$, none when $k = 2$, and one (always zero) when $k \geq 3$.
+* If $n = 2$, then there are uncountably many cross products (one for each unit vector, of which four are compatible with a given basis) when $k = 0$, two (one for each orientation) when $k = 1$, none when $k = 2$, and one (always zero) when $k \geq 3$.
 
-* If $n = 3$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $k = 1$, two (one for each orientation) when $k = 2$, none when $k = 3$, and one (always zero) when $k \geq 4$.
+* If $n = 3$, then there are uncountably many cross products (one for each unit vector, of which six are compatible with a given basis) when $k = 0$, none when $k = 1$, two (one for each orientation) when $k = 2$, none when $k = 3$, and one (always zero) when $k \geq 4$.
 
-* If $n = 4$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (four for each $2$-dimensional subspace) when $k = 1$, none when $k = 2$, two (one for each orientation) when $k = 3$, none when $k = 4$, and one (always zero) when $k \geq 5$.
+* If $n = 4$, then there are uncountably many cross products (one for each unit vector, of which eight are compatible with a given basis) when $k = 0$, uncountably many (four for each $2$-dimensional subspace, and of which twelve are compatible with a given basis) when $k = 1$, none when $k = 2$, two (one for each orientation) when $k = 3$, none when $k = 4$, and one (always zero) when $k \geq 5$.
 
-* If $n = 5$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $k = 1, 2, 3$, two (one for each orientation) when $k = 4$, none when $k = 5$, and one (always zero) when $k \geq 6$.
+* If $n = 5$, then there are uncountably many cross products (one for each unit vector, of which ten are compatible with a given basis) when $k = 0$, none when $k = 1, 2, 3$, two (one for each orientation) when $k = 4$, none when $k = 5$, and one (always zero) when $k \geq 6$.
 
-* If $n = 6$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $k = 2, 3, 4$, two (one for each orientation) when $k = 5$, none when $k = 6$, and one (always zero) when $k \geq 7$.
+* If $n = 6$, then there are uncountably many cross products (one for each unit vector, of which twelve are compatible with a given basis) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions, and of which $120$ are compatible with a given basis) when $k = 1$, none when $k = 2, 3, 4$, two (one for each orientation) when $k = 5$, none when $k = 6$, and one (always zero) when $k \geq 7$.
 
-* If $n = 7$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $k = 1$, uncountably many (related to the [[octonions]]) when $k = 2$, none when $k = 3, 4, 5$, two (one for each orientation) when $k = 6$, none when $k = 7$, and one (always zero) when $k \geq 8$.
+* If $n = 7$, then there are uncountably many cross products (one for each unit vector, of which $14$ are compatible with a given basis) when $k = 0$, none when $k = 1$, uncountably many (related to the octonions, and of which $480$ are compatible with a given basis) when $k = 2$, none when $k = 3, 4, 5$, two (one for each orientation) when $k = 6$, none when $k = 7$, and one (always zero) when $k \geq 8$.
 
-* If $n = 8$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $k = 2, 3$, uncountably many (related to the [[octonions]]) when $k = 4$, none when $k = 5, 6$, two (one for each orientation) when $k = 7$, none when $k = 8$, and one (always zero) when $k \geq 9$.
+* If $n = 8$, then there are uncountably many cross products (one for each unit vector, of which $16$ are compatible with a given basis) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions, and of which $1680$ are compatible with a given basis) when $k = 1$, none when $k = 2, 3$, uncountably many (related to the octonions) when $k = 4$, none when $k = 5, 6$, two (one for each orientation) when $k = 7$, none when $k = 8$, and one (always zero) when $k \geq 9$.
 
-* If $n \geq 9$ is odd, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $1 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
+* If $n \geq 9$ is odd, then there are uncountably many cross products (one for each unit vector, of which $2n$ are compatible with a given basis) when $k = 0$, none when $1 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
 
-* If $n \geq 10$ is even, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $2 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
+* If $n \geq 10$ is even, then there are uncountably many cross products (one for each unit vector, of which $2n$ are compatible with a given basis) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions, and of which $2^{n/2}(n-1)!!$ are compatible with a given orientation) when $k = 1$, none when $2 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
 
 
 ### Tensor-valued {#tensorvalued}
@@ -172,9 +172,11 @@ Again it follows that in any case ${\|&#10761;(v_1,\ldots,v_k)\|}$ is a square r
 
 I do not know a full list of these, but one important example is the __scalar-valued binary cross product__ in $2$ dimensions:
 $$ (a, b) \times (c, d) = a d - b c .$$
-Actually, this scalar-valued cross product $x \times y$ is simply the dot product ${\times}x \cdot y$, where ${\times}x$ is the unary vector-valued cross product in $2$ dimensions.  (In a counterclockwise-oriented plane, it rotates $x$ counterclockwise through a right angle.)
+Actually, this scalar-valued cross product $x \times y$ is simply the dot product $x \cdot {\times}y$, where ${\times}y$ is the [unary](#counary) cross product in $2$ dimensions.
 
-More generally, in any number $n \geq 2$ of dimensions, there is a __multivector-valued binary cross product__ whose values are $(n-2)$-[[multivectors]]; this includes the scalar-valued cross product when $n = 2$ and the classical cross product when $n = 3$, but gets more complicated for larger values of $n$.  Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued $n$-ary cross product__.  There are no other scalar-valued cross products, except for the identically zero products of arity $k \gt n$ and the nullary products given by unit-norm scalars for arbitrary $n$.
+More generally, in any number $n \geq 2$ of dimensions, there is a __multivector-valued binary cross product__ (actually one for each orientation) whose values are $(n-2)$-[[multivector|vectors]]; this includes the scalar-valued cross product when $n = 2$ and the classical cross product when $n = 3$, but gets more complicated for larger values of $n$.  In particular, for $n = 4$, we have a [[bivector]]-valued cross product, which is the [[Hodge duals]] of the [[exterior product]].
+
+Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued $n$-ary cross product__.  Notice that there are two of these, one for each orientation, and each of these is the dot product with one of the vector-valued $(n-1)$-ary cross products.  There are no other scalar-valued cross products, except for the identically zero products of arity $k \gt n$ and the two nullary products given by the unit-norm scalars (so just $1$ and $-1$ over the real numbers) for arbitrary $n$.
 
 
 ## Relationships
@@ -183,16 +185,16 @@ More generally, in any number $n \geq 2$ of dimensions, there is a __multivector
 
 The cross product is also called 'outer product', and both of these terms are sometimes also used for the [[exterior product]].  In its most basic form, the exterior product of two vectors $u,v$ is a [[bivector]] $u \wedge v$.  But note that this is *not* a bivector-valued cross product by the definition [above](#tensorvalued), since it lacks orthogonality (and indeed has nothing to do with the inner product).
 
-In $3$ dimensions, given an inner product and an orientation, we can use the [[Hodge dual]] to turn this into a vector, and this is the classical cross product once more.  In $2$ dimensions, using the same structure, we can turn the bivector into a [[scalar]]; this recovers the scalar-valued binary cross product [above](#tensorvalued).  In general, this produces the binary $(n-2)$-vector-valued cross product.
+In $3$ dimensions, given an inner product and an orientation, we can use the [[Hodge dual]] to turn the exterior product into a vector, and this is the classical cross product once more.  In $2$ dimensions, using the same structure, we can turn the bivector into a [[scalar]]; this recovers the scalar-valued binary cross product [above](#tensorvalued).  In general, this produces the binary $(n-2)$-vector-valued cross product.
 
-Using only the inner product but not the orientation, we get (respectively) a [[pseudovector]] (sometimes called an axial vector) or a [[pseudoscalar]]; this perspective is common in [[geometric algebra]].  In general in dimension $n$, a bivector becomes an $(n-2)$-pseudo-vector, but this is not usually an simplification.
+Using only the inner product but not the orientation, we get (respectively) a [[pseudovector]] (sometimes called an axial vector) or more generally a [[pseudoscalar]] or other [[pseudotensor]]; this perspective is common in [[geometric algebra]].  In general in dimension $n$, a bivector becomes an $(n-2)$-pseudovector, but this is not usually an simplification.
 
 In classical applications of the cross product, often not all of the structure is needed, and the exterior product is really the fundamental concept.
 
 
 ### Curls
 
-If $M$ is a [[Riemannian manifold]], then the [[tangent space]] at each point is an [[inner product space]], so it may be possible to smoothly assign a $k$-ary cross product to these spaces.  If this is done, then we can take the [[curl]] of a $(k-1)$-[[multivector|vector field]] as follows:
+If $M$ is a [[Riemannian manifold]], then the [[tangent space]] at each point is an [[inner product space]], so it may be possible to smoothly assign a $k$-ary cross product to these spaces.  If this is done, then we can take the [[curl]] of a $(k-1)$-[[multivector|vector]] [[vector field|field]] as follows:
 
 *  Use the metric to turn the $(k-1)$-vector field into a $(k-1)$-[[differential form|form]].
 *  Take the [[exterior differential]] to get a $k$-form.
@@ -205,7 +207,9 @@ This vector field is the __curl__ of the original $(k-1)$-vector field.  This ju
 
 When $k = 2$ and $n = 3$, there is one smooth choice of cross product for each [[orientation]] of $M$, and we recover the classical notion of curl.
 
-When $k = 1$ and $n = 2$, we may also consider the scalar-valued curl, using the scalar-valued binary cross product described [above](#tensorvalued).  The scalar-valued curl of a vector field $X$ is the same as the [[divergence]] of the rotated vector field ${\times}X$ (using the $1$-ary vector-valued cross product in $2$ dimensions); that is, $\Del \times X = \Del \cdot {\times}X$.  (However, to make this work, we need the opposite sign convention from that used to define the $(n-1)$-unary vector-valued cross product [above](#counary).  That is, in a counterclockwise-oriented plane, ${\times}X$ rotates the values of $X$ _clockwise_ through a right angle.)
+When $k = 1$ and $n = 2$, we may also consider the scalar-valued curl, using the scalar-valued binary cross product described [above](#tensorvalued).  The scalar-valued curl of a vector field $X$ is the same as the [[divergence]] of the rotated vector field ${\times}X$ (using the [unary](#counary) cross product in $2$ dimensions); that is, $\Del \times X = \Del \cdot {\times}X$.
+
+In modern mathematics, of course, we usually think of the exterior differential of differential forms as the fundamental concept, and only turn these forms into vector fields and the like under certain circumstances.
 
 
 ## Related concepts
