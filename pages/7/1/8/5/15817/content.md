@@ -13,6 +13,17 @@ On [[string theory]]:
 
 * {#Tong09} [[David Tong]], _Lectures on String Theory_ ([arXiv:0908.0333](https://arxiv.org/abs/0908.0333))
 
+On [[vortex strings]]:
+
+* [[Amihay Hanany]], [[David Tong]], _Vortices, Instantons and Branes_, JHEP 0307 (2003) 037 ([arXiv:hep-th/0306150](https://arxiv.org/abs/hep-th/0306150))
+
+* [[Amihay Hanany]], [[David Tong]], _Vortex Strings and Four-Dimensional Gauge Dynamics_, JHEP 0404 (2004) 066 ([arXiv:hep-th/0403158](https://arxiv.org/abs/hep-th/0403158))
+
+* {#Tong09} [[David Tong]], _Quantum Vortex Strings: A Review_, Annals Phys. 324:30-52, 2009 ([arXiv:0809.5060](https://arxiv.org/abs/0809.5060))
+
+* [[David Tong]], _Vortices, Strings, and Vortex Strings_ ([[TongVortexStrings.pdf:file]])
+
+
 
 On [[vortices]]:
 
