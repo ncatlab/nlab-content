@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -18,6 +28,10 @@ A kind of [[soliton]].
 * [[instanton]]
 
 * [[monopole]]
+
+* [[vortex string]]
+
+* [[Skyrmion]]
 
 * [[domain wall]]
 
