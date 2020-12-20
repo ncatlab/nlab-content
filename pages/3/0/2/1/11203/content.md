@@ -96,7 +96,7 @@ For the case of a (hypothetical) [[magnetic monopole]] (e.g. a magnetically [[ch
 \end{imagefromfile}
 
 
-For the case of the type II [[superconductor]] it is instead the transversal [[vanishing at infinity]] of the magnetic field (i.e. the [[Meissner-Ochsenfeld effect]] away from the vortices) which implies that the classifying map of the [[electromagnetic field]] sees not the full transversal [[Euclidean plane]] $\mathbb{R}^2$ but its [[one-point compactification]] $\big( \mathbb{R}^2 \big) \,\simeq\, S^2$, which introduces an effective [[2-sphere]] topology onto spacetime (same as the [[3-sphere]] in the discussion of [[Skyrmions]] and the [[4-sphere]] in the discussion of [[instantons]]): $\mathbb{R}^{1,1} \times \big( \mathbb{R}^2 \big) \,\simeq\, \mathbb{R}^{1,1} \times S^2$. This implies the superconductor's magnetic flux quantization:
+For the case of the type II [[superconductor]] it is instead the transversal [[vanishing at infinity]] of the magnetic field (i.e. the [[Meissner-Ochsenfeld effect]] away from the vortices) which implies that the classifying map of the [[electromagnetic field]] sees not the full transversal [[Euclidean plane]] $\mathbb{R}^2$ but its [[one-point compactification]] $\big( \mathbb{R}^2 \big)^{cpt} \,\simeq\, S^2$, which introduces an effective [[2-sphere]] topology onto spacetime (same as the [[3-sphere]] in the discussion of [[Skyrmions]] and the [[4-sphere]] in the discussion of [[instantons]]): $\mathbb{R}^{1,1} \times \big( \mathbb{R}^2 \big)^{cpt} \,\simeq\, \mathbb{R}^{1,1} \times S^2$. This implies the superconductor's magnetic flux quantization:
 
 \begin{imagefromfile}
     "file_name": "VortexFluxQuantizationViaClassifyingMap.jpg",
@@ -152,7 +152,7 @@ See also
 
 * Wikipedia, _[Abrikosov vortex](https://en.wikipedia.org/wiki/Abrikosov_vortex)_
 
-More on the experimental detecttion magnetic flux quantization and vortices:
+More on the experimental detection magnetic flux quantization and vortices:
 
 * {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, _Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope_, Ultramicroscopy 109: 700-729, 2009 ([arXiv:0807.2401](https://arxiv.org/abs/0807.2401))
 
