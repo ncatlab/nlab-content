@@ -41,7 +41,9 @@ A kind of [[soliton]].
 
 Reviews and surveys include
 
-* [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), _part 3: _Vortices_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/vortex.pdf)) 
+* [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), part 3: _Vortices_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/vortex.pdf)) 
+
+For more see at _[[vortex string]]_.
 
 A historical precursor with an abandoned but influential speculation is
 
