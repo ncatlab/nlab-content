@@ -78,3 +78,8 @@ Discussion in the rigorous Lorentzian context of [[causal perturbation theory]]/
 For more see at _[[motives in physics]]_.
 
 [[!redirects periods]]
+
+[[!redirects period of a differential form]]
+[[!redirects periods of a differential form]]
+[[!redirects periods of differential forms]]
+
