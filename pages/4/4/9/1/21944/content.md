@@ -2,6 +2,15 @@
 
 ## Selected writings
 
+On [[black rings]] in [[D=5 supergravity]]:
+
+* [[Iosif Bena]], [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
+
+On [[D1-D5-brane bound states]]:
+
+* [[Iosif Bena]], [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
+
+
 Discussion of [[D-brane polarization]] in context of the [[AdS/CFT correspondence]] and [[AdS/QCD correspondence]]:
 
 * [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
