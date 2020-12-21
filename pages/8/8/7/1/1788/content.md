@@ -1,4 +1,6 @@
 
+[[PuncturedSphereBordismBetweenTwoCircles.jpg:file]]
+
 * H. B. Nielsen, P. Olesen, _Vortex-line models for dual strings_, Nuclear Physics B Volume 61, 24 September 1973, Pages 45-61 (<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>)
 
 * [[Luis Alvarez-Gaume]], Frederic Zamora, p. 6 of: _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
