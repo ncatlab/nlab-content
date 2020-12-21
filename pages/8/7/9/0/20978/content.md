@@ -40,8 +40,7 @@ Introduced in
 
 Further discussion in
 
-* {#ZagierProperties} [[Don Zagier]], _Curious and Exotic Identities for Bernoulli
-Numbers_ ([[ZagierPropertiesBernoulli.pdf:file]])
+* {#ZagierProperties} [[Don Zagier]], _Curious and Exotic Identities for Bernoulli Numbers_ ([[ZagierPropertiesBernoulli.pdf:file]])
 
 * Atul Dixit, Victor H. Moll, Christophe Vignat, _The Zagier modification of Bernoulli numbers and a polynomial extension. Part I_ ([arXiv:1209.4110](https://arxiv.org/abs/1209.4110))
 
