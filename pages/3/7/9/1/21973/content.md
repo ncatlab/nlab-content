@@ -28,6 +28,8 @@ More generally, such string-shaped vortices are considered in [[Yang-Mills theor
 
 * [[cosmic string]]
 
+* [[defect brane]]
+
 ## References
 
 ### In electromagnetism
