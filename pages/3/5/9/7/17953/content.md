@@ -72,7 +72,7 @@ Discussion of [[D-brane polarization]] on curved spacetime in context of the [[A
 
 
 
-* [[Iosif Bena]], Calin Ciocarlie, _Exact $\mathcal{N}=2$ Supergravity Solutions With Polarized Branes_, Phys.Rev. D70 (2004) 086005 ([arXiv:hep-th/0212252](https://arxiv.org/abs/hep-th/0212252))
+
 
 * [[Iosif Bena]], Stanislav Kuperstein, _Brane polarization is no cure for tachyons_, JHEP09 (2015) 112 ([arXiv:1504.00656](https://arxiv.org/abs/1504.00656))
 
@@ -87,6 +87,13 @@ Polarization into [[torus]] shape:
 * Yoshifumi Hyakutake, _Torus-like Dielectric D2-brane_, 	JHEP 0105:013, 2001 ([arXiv:hep-th/0103146](https://arxiv.org/abs/hep-th/0103146))
 
 * Tatsuma Nishioka, Tadashi Takayanagi, _Fuzzy Ring from M2-brane Giant Torus_, JHEP 0810:082, 2008 ([arXiv:0808.2691](https://arxiv.org/abs/0808.2691))
+
+Discussion of [[D4-branes]] polarizing into [[NS5-branes]]:
+
+* [[Iosif Bena]], Calin Ciocarlie, _Exact $\mathcal{N}=2$ Supergravity Solutions With Polarized Branes_, Phys. Rev. D70 (2004) 086005 ([arXiv:hep-th/0212252](https://arxiv.org/abs/hep-th/0212252))
+
+* [[Iosif Bena]], [[Radu Roiban]], _$\mathcal{N}=1*$ in 5 dimensions: Dijkgraaf-Vafa meets Polchinski-Strassler_, 	JHEP 0311 (2003) 001 ([arXiv:hep-th/0308013](https://arxiv.org/abs/hep-th/0308013))
+
 
 
 
