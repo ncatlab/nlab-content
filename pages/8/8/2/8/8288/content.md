@@ -257,8 +257,6 @@ such that for each $n \in \mathbb{N}$ the component $Q_{n,\bullet} \to C_n$ is a
 
 A projective resolution as above may in particular also be regarded as a [[double complex]] $Q_{\bullet, \bullet}$ equipped with a morphism of double complex to $C_\bullet$ regarded as a vertically constant double complex.
 
-In other words, a projective resolution of a chain complex in an [[abelian category]] $\mathcal{A}$ is a projective resolution of an object in a [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$.
-
 =--
 
 For purposes of computations one is often interested in the following stronger notion.
