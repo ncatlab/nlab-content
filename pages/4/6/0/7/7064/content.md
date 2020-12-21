@@ -158,6 +158,9 @@ $$
 Moreover, the relation $2 \cdot [S^1_{Lie}] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 2 [[open balls]] inside [[generalized the|the]] [[2-sphere]].
 
 
+### 2nd stem
+
+The [[second stable homotopy group of spheres]]...
 
 
 ### 3rd stem
