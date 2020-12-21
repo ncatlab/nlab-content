@@ -24,7 +24,7 @@ A variant of the [[Bernoulli numbers]] introduced in [Zagier 98](#Zagier98).
 
 ### Periodicity
 
-The modified Bernoulli numbers are 12-periodic [Zagier, (A.4) (A.18)](#ZagierProperties).
+The modified Bernoulli numbers $B_n$ are 12-periodic for $n$ odd [Zagier, (A.4) (A.18)](#ZagierProperties).
 
 
 ## References
