@@ -45,7 +45,6 @@ where the generator $[1] \in \mathbb{Z}/24$ is represented by the [[quaternionic
             "left": 20,
             "unit": "px"
         },
-        "alt": "homotopy pasting diagram exhibiting the homotopy Whitehead integral",
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
@@ -60,12 +59,12 @@ $$
   \array{
     \pi_3^s & \simeq & \Omega_3^{fr} 
     \\
-    [h_{\mathbb{H}}] & \leftrightarrow & [S^3]
+    [h_{\mathbb{H}}] & \leftrightarrow & [S^3_{fr=1}]
     \,.
   }
 $$
 
-Moreover, the relation $24 \cdot [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold (e.g. [Wang-Xu 10, Sec. 2.6](#WangXu10), [Bauer 10](#Bauer10), [SP 17](#SP17)).
+Moreover, the relation $24 \cdot [S^3_{Lie}] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold (e.g. [Wang-Xu 10, Sec. 2.6](#WangXu10), [Bauer 10](#Bauer10), [SP 17](#SP17)).
 
 ### Via the fourth $(SU,fr)$-bordism group
  {#ViaTheFourthSuFrBordismGroup}
@@ -158,6 +157,8 @@ while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invar
 ## Related concepts
 
 * [[quaternionic Hopf fibration]]
+
+* [[first stable homotopy group of spheres]]
 
 ## References
 
