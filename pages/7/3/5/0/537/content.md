@@ -51,6 +51,8 @@ An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to 
  
 * Since having all finitary disjoint coproducts is half of the condition for a category to be [[extensive category|extensive]], extensive categories provide [[extensive category#examples|examples for categories with disjoint finite coproducts]]. In the preceding discussion $Set$ instantiates this case whereas $Pfn$ does not: since the initial object $\emptyset$ in $Pfn$ is not [[strict initial object|strict]], the latter category is not extensive.
 
+* In the category $Vect$ of (real) [[vector space|vector spaces]] coproducts are given by [[direct sum]] and are disjoint but not [[pullback-stable colimit|stable under pullback]]: pulling back the colimit diagram $\mathbb{R}\to\mathbb{R}\oplus\mathbb{R}\leftarrow\mathbb{R}$ along the diagonal morphism $\Delta:\mathbb{R}\to\mathbb{R}\oplus\mathbb{R}\; ,\; x\mapsto x\oplus x$ yields $0\to\mathbb{R}\leftarrow 0$ which is not a colimit diagram. Whence $Vect$ is not [[extensive category|extensive]].
+
 * Non-example: the [[interval category]]  $\left\{
     0 \to 1
   \right\}$ has coproducts but is they are not all disjoint: $1+1=1$. 
@@ -136,6 +138,8 @@ This means that if $A \in \mathcal{C}$ itself is indecomposable in that it is no
 ## Related concepts
 
 * [[disjoint subset]]
+
+* [[disjunctive logic]]
 
 
 ## References
