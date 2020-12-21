@@ -37,6 +37,11 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
 
 If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrightarrow X$ such whose [[boundary]] is $\partial \hat \Sigma = \Sigma$  then this is the (higher) [[magnetic charge]] enclosed by $\Sigma$.
 
+## Examples
+
+
+[[!include flux quantization in superconductors -- section]]
+
 
 ## Related concepts
 
