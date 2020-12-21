@@ -18,12 +18,12 @@
 Recall the following properties of a [[Borel measure]] $\mu$ on a [[Hausdorff topological space]]:
 
 * $\mu$ is __outer regular__ if for every [[Borel subset]] $B$ we have
-$$\mu(B)=\inf\{\mu(V)\mid V\supset B\; and\; V\; is\; open\}.$$
+$$\mu(B)=\inf\{\mu(V)\mid V\supseteq B\; and\; V\; is\; open\}.$$
 
 * $\mu$ is __locally finite__ if every point has a neighborhood with a finite $\mu$-measure.
 
 * $\mu$ is __inner regular__ on some [[Borel subset]] $B$ if
-$$\mu(B)=\sup\{\mu(K)\mid K\subset B\; and\; K\; is\; compact\}.$$
+$$\mu(B)=\sup\{\mu(K)\mid K\subseteq B\; and\; K\; is\; compact\}.$$
 
 Also, if $m$ and $M$ are [[Borel measures]],
 then $m$ is the __essential measure__ associated with $M$ if
