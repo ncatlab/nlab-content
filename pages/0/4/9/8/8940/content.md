@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]].
+A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]]. Gaunt categories are necessarily [[skeletal]]; a skeletal category is gaunt iff every [[automorphism]] is an [[identity morphism]].
 
 
 ## Properties
