@@ -21,14 +21,14 @@
 
 A _nodal_  [[singular point of an algebraic variety|singularity]] of an [[algebraic curve]] is one of the form parameterized by the [[equation]] $x y = 0$. A _nodal curve_ is a curve with a nodal singularity.
 
-(e.g.[Hain 08, p. 45](#Hain08))
+(e.g. [Hain 08, p. 45](#Hain08))
 
 
 ## The nodal cubic
 
-For nodal [[cubic curve]] (over some base) is (see at _[elliptic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_ for notation and background) the solution to the [[Weierstrass equation]] for which the [[discriminant]] vanishes, but the modular invariant $c_4$ does not.
+The nodal [[cubic curve]] (over some base) is (see at _[elliptic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_ for notation and background) the solution to the [[Weierstrass equation]] for which the [[discriminant]] vanishes, but the modular invariant $c_4$ does not.
 
-Notice that this means equivalently that this is the limit in which the [[j-invariant]] $j = \frac{c_4^3}{\Delta}$ goes to $\infty$.
+This is equivalently the limit in which the [[j-invariant]] $j = \frac{c_4^3}{\Delta}$ goes to $\infty$.
 
 ## Properties of the nodal cubic
 
