@@ -125,7 +125,7 @@ $$
 that acts by [[ordinal product]] with $\omega$
 
 $$
-  F_1\colon X \mapsto X \cdot \omega
+  F_1\colon X \mapsto \omega \cdot X
   \,.
 $$
 
@@ -140,9 +140,14 @@ The terminal coalgebra of $F_1$ is order isomorphic to the non-negative real lin
 
 This is theorem 5.1 in ([Pavlovic–Pratt 1999](#PavlovicPratt)).
 
-To make it less mysterious as it appears, the basic idea is that the functor
-$F\colon Set \to Set$ that takes a set $A$ to $X \times A$ has final coalgebra being the stream of $X$: $X\times X\times X\times \ldots$. Take $X$ be the set $\mathbb{N}$ of natural numbers, the result is simply the stream of $\mathbb{N}$: $\mathbb{N}\times \mathbb{N}\times \mathbb{N}\times \ldots$, which obviously can be identified with the real number set. Now take the (partial) order into account, you can get and ordered isomorphism. With suitable choice of identification between $\mathbb{N}\times \mathbb{N}\times \mathbb{N}\times \ldots$ and $[0,1)$, the topology can also be taken care of.
+There are many ways of setting up this description of $\mathbb{R}^+$, depending on the coalgebra structure $\mathbb{R}^+ \to \omega \cdot \mathbb{R}^+$ chosen. Here is one: identify $\mathbb{R}^+$ with $[1, \infty)$ and $\omega$ with $\mathbb{N}_{\geq 2} = \{n \in \mathbb{N}: n \geq 2\}$. Then define 
 
+$$(\alpha, \beta): \mathbb{R}^+ \to \omega \times \mathbb{R}^+$$ 
+
+where $\alpha(x)$ is the smallest integer *strictly* greater than $x$, and $\beta(x) = 1/(\alpha(x) - x)$. Both $\alpha$ and $\beta$ are [[monotone functions]]. The stream of integers $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form 
+
+$$x = a_0 - \frac1{a_1 - \frac1{a_2 - \ldots}},$$ 
+and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is in fact a poset isomorphism if we endow the right-hand side with the [[lexicographic order]]. 
 =--
 
 There are more and similar characterizations along these lines.  One is an example at [[final coalgebra]].
