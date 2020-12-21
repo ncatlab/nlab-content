@@ -28,6 +28,15 @@ On [[M2-M5 brane bound states]]:
 
 * [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
 
+On the [[3-brane in 6d]]:
+
+* [[Joaquim Gomis]], [[David Mateos]], [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_, Phys. Lett. B430 (1998) 231-236 ([arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040))
+
+On [[D-brane polarization]] into [[supertubes]]:
+
+* [[David Mateos]], [[Paul Townsend]], _Supertubes_, Phys. Rev. Lett. 87 (2001) 011602 ([arXiv:hep-th/0103030](https://arxiv.org/abs/hep-th/0103030))
+
+
 On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G2-manifolds]]:
 
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _Supersymmetric Deformations of $G_2$ Manifolds from Higher-Order Corrections to String and M-Theory_, JHEP 0410:019, 2004 ([arXiv:hep-th/0312002](https://arxiv.org/abs/hep-th/0312002))
