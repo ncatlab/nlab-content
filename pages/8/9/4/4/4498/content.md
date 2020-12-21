@@ -98,7 +98,7 @@ This is ([May, prop. 18.4](#May)).
 +-- {: .num_remark}
 ###### Remark
 
-It is simplicial principal bundles of this form that one is mainly interested in. These are the objects that are classified by the evident [[classifying space]] $\bar W G$. This is discussed [below](UniversalSimplicialBundle).
+It is simplicial principal bundles of this form that one is mainly interested in. These are the objects that are classified by the evident [[classifying space]] $\overline{W} G$. This is discussed [below](UniversalSimplicialBundle).
 
 =--
 
@@ -110,7 +110,7 @@ Recall from [[generalized universal bundle]] that a universal $G$-principal simp
 A standard model for the [[delooping]] [[Kan complex]] $\mathbf{B}G$ for $G$ a simplicial group goes by the name 
 
 $$
-  \bar W G
+  \overline{W} G
   \,.
 $$ 
 
