@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 =--
 =--
 
