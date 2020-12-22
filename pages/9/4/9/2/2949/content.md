@@ -94,11 +94,11 @@ $\theta$ is not only a continuous bijection, but also open, hence a [[homeomorph
 
 There is also a version for based (= [[pointed space|pointed]]) topological spaces. The [[cartesian product]] then needs to be replace by the [[smash product]] of the based spaces. Regarding that the maps preserve the base point, the adjunction map $\theta$ induces the adjunction map
 
- $$\theta_*:Map_*(X\wedge Y,B)\to Map_*(Y,B^X)$$
+ $$\theta_*:Map_*(X\wedge Y,B)\to Map_*(Y,Map_*(B, X))$$
 
 where the mapping space $Map_*$ for based spaces is the subspace of the usual mapping space, in the compact-open topology, which consists of the mappings preserving the base point. 
 
-It appears that $\theta_*$ is again one-to-one and continuous, and it is bijective if $X$ is locally compact Hausdorff. If $Y$ is also Hausdorff then $\theta_*$ is a homeomorphism. 
+It appears that $\theta_*$ is again one-to-one and continuous, and it is bijective if $X$ is locally compact Hausdorff. If $X, Y$ are compact Hausdorff then $\theta_*$ is a homeomorphism. 
 
 ## Related concepts
 
@@ -126,3 +126,5 @@ It appears that $\theta_*$ is again one-to-one and continuous, and it is bijecti
 [[!redirects exponentiable spaces]]
 [[!redirects exponentiable topological space]]
 [[!redirects exponentiable topological spaces]]
+
+* C. R. F. Maunder, _Algebraic Topology_, Cambridge University Press (1980).
