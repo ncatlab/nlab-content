@@ -89,9 +89,19 @@ If $(N,z,s)$ is a parametrized natural numbers object in a category with finite 
 =--
 +-- {: .proof}
 ###### Proof
-Let $X' = A\times N\times X$, and define $f':A\to X'$ by $f'(a) = (a,z,f(a))$ and $g':X'\to X'$ by $g'(a,n,x) = (a,n,g(a,n,x))$.  Then the assumption gives $\phi' : A\times N \to X'$ such that $\phi'(a,z) = f'(a) = (a,z,f(a))$ and $\phi'(a,s(n)) = g'(\phi'(a,n))$.
+Let $X' = A\times N\times X$, and define $f':A\to X'$ by $f'(a) = (a,z,f(a))$ and $g':X'\to X'$ by 
 
-The composite $A \times N \xrightarrow{\phi'} X' \xrightarrow{\pi_1} A$ satisfies $\pi_1 \phi'(a,z) = \pi_1(a,z,f(a)) = a$ and $\pi_1\phi'(a,s(n)) = \pi_1 g'(\phi'(a,n)) = \pi_1 \phi'(a,n)$.  Thus, by the uniqueness assumption, we have $\pi_1 \phi'(a,n) = a$ for all $a,n$.  By a similar argument, we have $\pi_2 \phi'(a,n) = n$ for all $a,n$.  Therefore, $\phi'(a,s(n)) = (a,n,g(a,n,\phi'(a,n)))$, and hence the composite $A\times N  \xrightarrow{\phi'} X' \xrightarrow{\pi_3} X$ is the desired $\phi_{f,g}$.
+$$g'(a,n,x) = (a,n,g(a,n,x)).$$  
+
+Then the assumption gives $\phi': A\times N \to X'$ such that 
+
+$$\phi'(a,z) = f'(a) = (a,z,f(a)), \qquad \phi'(a,s(n)) = g'(\phi'(a,n)).$$
+
+The composite $A \times N \xrightarrow{\phi'} X' \xrightarrow{\pi_1} A$ satisfies 
+
+$$\pi_1 \phi'(a,z) = \pi_1(a,z,f(a)) = a, \qquad \pi_1\phi'(a,s(n)) = \pi_1 g'(\phi'(a,n)) = \pi_1 \phi'(a,n).$$  
+
+Thus, by the uniqueness assumption, we have $\pi_1 \phi'(a,n) = a$ for all $a,n$.  By a similar argument, we have $\pi_2 \phi'(a,n) = n$ for all $a,n$.  Therefore, $\phi'(a,s(n)) = (a,n,g(a,n,\phi'(a,n)))$, and hence the composite $A\times N  \xrightarrow{\phi'} X' \xrightarrow{\pi_3} X$ is the desired $\phi_{f,g}$.
 =--
 
 The functions which are constructible out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
