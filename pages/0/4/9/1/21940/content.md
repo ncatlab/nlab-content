@@ -286,5 +286,17 @@ while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invar
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorem 16.2 in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
+An alternative formulation via [[index theory]]:
+
+
+* [[Michael Atiyah]], [[Vijay Patodi]], [[Isadore Singer]], Theorem 4.14 of: _Spectral asymmetry and Riemannian geometry. II_,  Mathematical Proceedings of the Cambridge Philosophical Society , Volume 78, Issue 3, 1975, pp. 405-432 ([doi:10.1017/S0305004100051872](https://doi.org/10.1017/S0305004100051872))
+
+Review in:
+
+* [[Ulrich Bunke]], [[Niko Naumann]], Section 2 of: _The f-invariant and index theory_, Manuscripta Math. 132, 365–397 (2010) ([arXiv:0808.0257](https://arxiv.org/abs/0808.0257), [https://doi.org/10.1007/s00229-010-0351-7](https://doi.org/10.1007/s00229-010-0351-7))
+
+
+
+
 [[!redirects e-invariant is Todd class of cobounding (U,fr)-manifolds]]
 [[!redirects e-invariant is the Todd class of cobounding (U,fr)-manifolds]]
