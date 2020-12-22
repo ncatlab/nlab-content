@@ -65,6 +65,15 @@ Review:
 
 * [[Andre Lukas]], _Line Bundles in String Model Building_, talk at _[StringPhenomenology 2019](https://indico.cern.ch/event/782251/)_ ([indico:782251/contributions/3441850](https://indico.cern.ch/event/782251/contributions/3441850/), [pdf](https://indico.cern.ch/event/782251/contributions/3441850/attachments/1868056/3072624/Lukas.pdf), [[LukasHeteroticLineBundles.pdf:file]])
 
+On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]:
+
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_ ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455))
+
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
+
+
+
+
 On [[heterotic line bundles]] seen in [[F-theory]] under [[duality between M/F-theory and heterotic string theory]]:
 
 * [[Andreas Braun]], Callum Brodie, [[Andre Lukas]], [[Fabian Ruehle]], _NS5-Branes and Line Bundles in Heterotic/F-Theory Duality_, Phys. Rev. D 98, 126004 (2018) ([arXiv:1803.06190](https://arxiv.org/abs/1803.06190))
