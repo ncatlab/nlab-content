@@ -135,6 +135,13 @@ The idea that [[D-brane charge]] should be quantized in [[topological K-theory]]
 
 See also at _[[anti-D-brane]]_.
 
+Review of the conjecture:
+
+* [[Jarah Evslin]], _What Does(n't) K-theory Classify?_ ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328))
+
+* [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([doi:10.1007/978-3-540-74956-1](https://doi.org/10.1007/978-3-540-74956-1), [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+
+
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] 
 
 * {#GradySati19a} Daniel Grady, [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
