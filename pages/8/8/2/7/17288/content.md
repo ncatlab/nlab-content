@@ -43,9 +43,9 @@ Of course, it is non-trivial that this argument actually works.  ([Lawvere 2002]
 
 ## Partial results and failure of the conjecture for all single-sorted algebraic theories 
 
-A category of models of an algebraic theory is said to satisfy the Higman property whenever any recursively presentable model embeds into a finitely presented model. The Higman property has been shown to hold for models of several algebraic theories such as rings, semigroups, inverse semigroups and Lie algebras, see ([Kukin 1995](#Kukin95)) for rings and references therein for the others. 
+A category of models of an algebraic theory is said to satisfy the Higman property whenever any recursively presentable model embeds into a finitely presented model. The Higman property has been shown to hold for models of several algebraic theories such as rings, semigroups, inverse semigroups and Lie algebras, see ([Kukin 1989](#Kukin89)) for rings and references therein for the others. 
 
-However, there are single-sorted algebraic theories whose models do not have the Higman property as remarked in the introduction of ([Kukin 1995](#Kukin95)). This is because having the Higman property implies an undecidable word problem under suitable conditions (see connection 2.8. in ([Kharlampovich 1995](#Kharlampovich95)) but for instance (non-associative) commutative algebras over a fixed field have a decidable word-problem ([Shirshov 2009](#Shirshov09)). 
+However, there are single-sorted algebraic theories whose models do not have the Higman property as remarked in the introduction of ([Kukin 1989](#Kukin89)). This is because having the Higman property implies an undecidable word problem under suitable conditions (see connection 2.8. in ([Kharlampovich 1995](#Kharlampovich95))) but for instance (non-associative) commutative algebras over a fixed field have a decidable word-problem ([Shirshov 2009](#Shirshov09)). 
 
 
 ## Related entries
@@ -64,7 +64,8 @@ However, there are single-sorted algebraic theories whose models do not have the
 
 * {#Kharlampovich95}O. G. Kharlampovich, &  M. V. Sapir, _Algorithmic problems in varieties._ International Journal of Algebra and Computation 5(04n05) (1995) pp.379-602.
 
-* {#Kukin95}G. Kukin, _The variety of all rings has Higman's property._ Translations of the American Mathematical Society-Series 2 **163** (1995) pp.91-102.
+* {#Kukin89}G. Kukin, _The variety of all rings has Higman's property._ 
+Third Siberian School: Algebra and Analysis (1989); American Mathematical Society translations. Series 2 v. **163** (1995) pp.91-101.
 
 * {#Lawvere02}[[William Lawvere|W. F. Lawvere]], _On the [[effective topos]] - message to catlist_, January 2002. ([link](http://facultypages.ecc.edu/alsani/ct02%281-2%29/msg00016.html))
 
