@@ -1,11 +1,12 @@
 
 * [webpage](http://people.physics.tamu.edu/mbecker/)
 
-## Writings
+## Selected writings
 
-Textbook on [[string theory]]
+Textbook account of [[perturbative string theory]] and [[M-theory]]/[[F-theory]]:
 
-* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String theory and M-theory: a modern introduction_,  Cambridge University Press (2006)
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String Theory and M-Theory: A Modern Introduction_, Cambridge University Press 2006 ([doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086))
+
 
 On the [[BFSS matrix model]]:
 
