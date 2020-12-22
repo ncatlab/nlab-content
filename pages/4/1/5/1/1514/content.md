@@ -33,7 +33,7 @@
 
 The notion of **path integral** originates in and is mainly used in the context of [[quantum mechanics]] and [[quantum field theory]], where it is a certain operation supposed to model the notion of [[quantization]].
 
-The idea is that the quantum propagator -- in [[FQFT]] the value of the functor $U : Cob \to Vect$ on a certain [[cobordism]] -- is given by an [[integral kernel]] $U : \psi \mapsto \int K(-,y) \psi(y) d\mu$ where $K(x,y)$ is something like the integral of the exponentiated [[action functional]] $S$ over all field configurations $\phi$ with prescribed boundary datat $x$ and $y$. Formally one writes
+The idea is that the quantum propagator -- in [[FQFT]] the value of the functor $U : Cob \to Vect$ on a certain [[cobordism]] -- is given by an [[integral kernel]] $U : \psi \mapsto \int K(-,y) \psi(y) d\mu$ where $K(x,y)$ is something like the integral of the exponentiated [[action functional]] $S$ over all field configurations $\phi$ with prescribed boundary data $x$ and $y$. Formally one writes
 
 $$
   K(x,y) = \int \exp(i S(\phi))\; D\phi 
