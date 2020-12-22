@@ -36,6 +36,10 @@ Some semigroups happen to be [[monoid]]s; even then, a semigroup [[homomorphism]
 
 As a monoid is a [[category]] with one object, so a semigroup is a [[semicategory]] with one object.
 
+Any [[small category]] $\mathcal{C}$ can be thought of as a semigroup by defining $S = \text{Mor}(\mathcal{C})\cup \{0\}$ and taking $f*g = f \circ g$ for any composable morphisms $f, g$, and $f*g = 0$ otherwise. Then the semigroup $(S, *)$ fully describes $\mathcal{C}$.
+
+Generalizing this, any [[category]] can be thought of as a semigroup which isn't necessarily defined on a set.
+
 
 ## Attitudes toward semigroups 
 
