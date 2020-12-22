@@ -148,9 +148,15 @@ $$
 
 Thus we have a map $\bigotimes^{k-1} T(L M) \to \mathbb{R}$.  It can be shown that it is alternating and $(k-1)$-linear, and that it varies smoothly over $L M$, hence defines an element of $\Omega^{k-1}(L M)$.
 
-The reason why $\int_{S^1} ev^*\alpha$ takes the form of the above formula is the following: $$ev^*: \Omega^k(M) \to \Omega^k(S^1\times LM)= \oplus_{i+j=k} \Omega^i(S^1) \otimes\Omega^j(LM)  = \Omega^0(S^1) \otimes \Omega^k(LM) \oplus \Omega^1(S^1)\otimes \Omega^{k-1}(LM). $$ Thus we may write 
+The reason why $\int_{S^1} ev^*\alpha$ takes the form of the above formula is the following: 
 
-$$ev^*\alpha= \alpha_0\otimes \alpha_k  + \alpha_{1}\otimes  \alpha_{k-1}, $$ where $\alpha_k\in \Omega^k(LM)$, $\alpha^{k-1}\in \Omega^{k-1}(LM)$,  and $\alpha_1\in \Omega^1(S^1)$, $\alpha^0\in \Omega^0(S^1)$. Then contracting with $S^1$ via $\int_{S^1}$, only the second term survives. Thus
+$$ev^*: \Omega^k(M) \to \Omega^k(S^1\times LM)= \oplus_{i+j=k} \Omega^i(S^1) \otimes\Omega^j(LM)  = \Omega^0(S^1) \otimes \Omega^k(LM) \oplus \Omega^1(S^1)\otimes \Omega^{k-1}(LM). $$ 
+
+Thus we may write 
+
+$$ev^*\alpha= \alpha_0\otimes \alpha_k  + \alpha_{1}\otimes  \alpha_{k-1}, $$ 
+
+where $\alpha_k\in \Omega^k(LM)$, $\alpha^{k-1}\in \Omega^{k-1}(LM)$,  and $\alpha_1\in \Omega^1(S^1)$, $\alpha^0\in \Omega^0(S^1)$. Then contracting with $S^1$ via $\int_{S^1}$, only the second term survives. Thus
 
 \begin{equation}\label{eq:int}(\int_{S^1} ev^*\alpha)_{\gamma}  (x_1, ..., x_{k-1}) 
 =\int_{S^1} \alpha_{1} \otimes \alpha_{k-1} (\frac{\partial}{\partial t}, x_1, ..., x_{k-1} ) dt .\end{equation}
@@ -161,8 +167,9 @@ $$ev^*\alpha_{(t, \gamma)}((v_1, x_1), \dots, (v_k, x_k)) = \alpha_{k-1}|_{\gamm
 
 At the same time, $T_{\gamma} ev( v, x) = v \gamma' + x$. This can be seen by taking a variation (a small path) $(t+v\epsilon, \gamma^\epsilon)$ representing $(v, x)$ (thus $\gamma^0=\gamma$). Then  $$T_{\gamma} ev( v, x)= \frac{d}{d\epsilon}|_{\epsilon=0}(\gamma^\epsilon(t+v\epsilon))=\frac{d}{d\epsilon}|_{\epsilon=0}\gamma^0(t+v\epsilon)+ \frac{d}{d\epsilon}|_{\epsilon=0}\gamma^\epsilon(t) = v\gamma'(t)+x(t),$$ which is a tangent vector at $\gamma(t)$. Thus
 
-$$
- ev^*\alpha|_{(t, \gamma)}((v_1, x_1), \dots, (v_k, x_k))= \alpha_{\gamma(t)}(T_\gamma ev (v_1, x_1), \dots, T_\gamma ev (v_k, x_k)) $$
+$$ev^*\alpha|_{(t, \gamma)}((v_1, x_1), \dots, (v_k, x_k))= \alpha_{\gamma(t)}(T_\gamma ev (v_1, x_1), \dots, T_\gamma ev (v_k, x_k)) $$
+
+
 $$
 = \alpha_{\gamma(t)}(x_1(t), \dots, x_k(t)) + \alpha_{\gamma(t)}(v_1 \gamma'(t), x_2(t), \dots, x_{k}(t)) + c.p.
 $$
