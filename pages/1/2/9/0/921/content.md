@@ -122,12 +122,12 @@ $$
   F_1\colon Pos \to Pos
 $$
 
-that acts by [[ordinal product]] with $\omega$
+that acts by [[ordinal product]] with $\omega$,
 
 $$
-  F_1\colon X \mapsto \omega \cdot X
-  \,.
-$$
+  F_1\colon X \mapsto \omega \cdot X,
+$$ 
+where $\omega \cdot X$ is $\omega \times X$ with the [[lexicographic order]]. 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -140,15 +140,25 @@ The terminal coalgebra of $F_1$ is order isomorphic to the non-negative real lin
 
 This is theorem 5.1 in ([Pavlovic–Pratt 1999](#PavlovicPratt)).
 
-There are many ways of setting up this description of $\mathbb{R}^+$, depending on the coalgebra structure $\mathbb{R}^+ \to \omega \cdot \mathbb{R}^+$ chosen. One is to define 
+There are many ways of setting up this description of $\mathbb{R}^+$, depending on the coalgebra structure $\mathbb{R}^+ \to \omega \cdot \mathbb{R}^+$ chosen. Here is one: there are evident poset isomorphisms $\mathbb{R}^+ \cong [1, \infty)$ and $\omega \cong \mathbb{N}_{\geq 2} = \{n \in \mathbb{N}: n \geq 2\}$. Define a map 
 
-$$(\alpha, \beta): \mathbb{R}^+ \to \omega \times \mathbb{R}^+$$ 
+$$(\alpha, \beta): [1, \infty) \to \mathbb{N}_{\geq 2} \cdot [1, \infty)$$ 
 
-where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1$. Then $(\alpha, \beta)$ is a  [[monotone function]]. The [[stream]] of integers $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form 
+where $\alpha(x)$ is the smallest integer strictly greater than $x$, and $\beta(x) = 1/(\alpha(x) - x)$. The stream of integers $a_n = \alpha(\beta^n(x))$ gives a continued fraction representation of $x$ in the form
+
+$$x = a_0 - \frac1{a_1 - \frac1{a_2 - \ldots}},$$ 
+
+and the resulting bijection $[1, \infty) \to \mathbb{N}_{\geq 2} \times \mathbb{N}_{\geq 2} \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is in fact a poset isomorphism if we endow the right-hand side with the lexicographic order. 
+=-- 
+
+Another way, which circumvents the use of isomorphisms $\mathbb{R}^+ \cong [1, \infty)$ and $\omega \cong \mathbb{N}_{\geq 2}$, is to define 
+
+$$(\alpha, \beta): \mathbb{R}^+ \to \omega \cdot \mathbb{R}^+$$ 
+
+where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1$. Then $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form 
 
 $$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$ 
-and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is in fact a poset isomorphism if we endow the right-hand side with the [[lexicographic order]]. 
-=--
+and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is again a poset isomorphism if we endow the right-hand side with the lexicographic order.
 
 There are more and similar characterizations along these lines.  One is an example at [[final coalgebra]].
 
