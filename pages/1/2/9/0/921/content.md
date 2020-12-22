@@ -144,7 +144,7 @@ There are many ways of setting up this description of $\mathbb{R}^+$, depending 
 
 $$(\alpha, \beta): \mathbb{R}^+ \to \omega \times \mathbb{R}^+$$ 
 
-where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1$. Then $(\alpha, \beta)$ is a  [[monotone function]]. The stream of integers $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form 
+where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1$. Then $(\alpha, \beta)$ is a  [[monotone function]]. The [[stream]] of integers $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form 
 
 $$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$ 
 and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is in fact a poset isomorphism if we endow the right-hand side with the [[lexicographic order]]. 
@@ -177,7 +177,7 @@ The [[extended real number]]s include $\pm\infty$ as well as the real numbers; o
 
 [[surreal number|Surreal numbers]] and the [[hyperreal number]]s of [[nonstandard analysis]] are two ways to include [[infinite number|infinite]] and [[infinitesimal number|infinitesimal]] versions of real numbers (besides the trivial case of $\pm\infty$); one may speak of _standard numbers_ to indicate that one is not considering such extensions (although the precise meaning of 'standard' depends on the [[universe]] that one is working in).
 
-In [[descriptive set theory]], one often says 'real number' for an element of [[Baire space of irrational numbers|Baire space]] $\mathbb{N}^{\mathbb{N}}$.  This is not really a generalisation; by the [[Schroeder-Bernstein theorem]], the sets $\mathbb{R}$ and $\mathbb{N}^{\mathbb{N}}$ are [[bijection|isomorphic]].  Constructively, $\mathbb{N}^{\mathbb{N}}$ can still be thought of as the set of [[irrational numbers]], so this use of the term may actually be a *restriction*.
+In [[descriptive set theory]], one often says 'real number' for an element of [[Baire space of irrational numbers|Baire space]] $\mathbb{N}^{\mathbb{N}}$.  This is not really a generalisation; by the [[Schroeder-Bernstein theorem]], the underlying sets of $\mathbb{R}$ and $\mathbb{N}^{\mathbb{N}}$ are [[bijection|isomorphic]].  Constructively, $\mathbb{N}^{\mathbb{N}}$ can still be thought of as the set of [[irrational numbers]], so this use of the term may actually be a *restriction*.
 
 [[floating-point number|Floating-point numbers]] are often used in computer programming to represent real numbers, but they do not behave very well; one may speak of _infinite-precision numbers_ to indicate that one\'s programming environment models '[*real* real numbers](http://math.fau.edu/richman/html/mm2.htm)'.
 
