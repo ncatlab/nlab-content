@@ -35,8 +35,14 @@ For instance the $SO(8)$ R-symmetry and gauging of [[4d supergravity]] (...say w
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 6.7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
 
+See also:
+
 
 * Wikipedia, _[R-Symmetry](http://en.wikipedia.org/wiki/R-symmetry)_
+
+Discussion in [[heterotic M-theory]]:
+
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
 
 [[!redirects R-symmetries]]
 
