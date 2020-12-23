@@ -1,9 +1,32 @@
 
+$$
+  \array{
+    T \Sigma
+    &\hookrightarrow& 
+    T \Sigma \oplus N \Sigma
+    &\longrightarrow&
+    N \Sigma
+    \\
+    {}^{\mathllap{tfr}}\big\downarrow{}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{tnfr}}\big\downarrow{}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{nfr}}\big\downarrow{}^{\mathrlap{\simeq}}
+    \\
+    \Sigma \times \mathbb{R}^d
+    &\hookrightarrow&
+    \Sigma \times \mathbb{R}^{d + n}
+    &\longrightarrow&
+    \Sigma \times \mathbb{R}^n
+  }
+$$
+
+***
+
+
 * [[Lev Pontryagin]], _Homotopy classification of mappings of an $(n+2)$-dimensional sphere on an $n$-dimensional one_, Doklady Akad. Nauk SSSR (N.S.) 19(1950), 957–959, (Russian) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf))
 
 * [[George Whitehead]], _The $(n+2)$nd Homotopy Group of the $n$-Sphere_, Annals of Mathematics Second Series, Vol. 52, No. 2 (Sep., 1950), pp. 245-247  ([jstor:1969466](https://www.jstor.org/stable/1969466))
-
-
 
 * H. B. Nielsen, P. Olesen, _Vortex-line models for dual strings_, Nuclear Physics B Volume 61, 24 September 1973, Pages 45-61 (<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>)
 
