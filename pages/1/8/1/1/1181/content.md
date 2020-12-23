@@ -263,6 +263,9 @@ where the [[inverse image]] form the [[product]] with $X$. Hence for $\mathbb{N}
 
 =--
 
+### Relation to rig objects
+
+The initial [[rig]] object in a category with finite products, ($\mathbb{N},0:1\rightarrow\mathbb{N},1:1\rightarrow\mathbb{N},+:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N},\times:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N})$ with suitable commutative diagrams expressing the rig axioms and [[initial object|initiality]], has the structure of a natural numbers object given by the triple $(\mathbb{N}, 0:1\rightarrow\mathbb{N}, x+1:\mathbb{N}\rightarrow\mathbb{N})$. 
 
 ### Relation to object of integers
 
