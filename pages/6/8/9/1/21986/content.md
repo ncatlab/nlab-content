@@ -16,7 +16,7 @@
 
 Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set|sets]].  
 
-An **integers object** in a topos is an [[object]] that behaves in that topos like the set $\mathbb{Z}$ of [[integers]] does in [[Set]].
+An **integers object** [[internalization|internal to]] a topos is an [[object]] that behaves in that topos like the set $\mathbb{Z}$ of [[integers]] does in [[Set]].
 
 ## Definition
 
@@ -34,7 +34,7 @@ An **integers object** in a [[topos]] (or any [[cartesian closed category]]) $E$
 
 * such that for every other object $A$ with morphisms $z_A : 1 \to A$ and $s_A, p_A : A \to A$ such that $s_A \circ p_A = p_A \circ s_A = id_A$, there is a unique morphism $u : \mathbb{Z} \to A$ such that $u \circ z = z_A$, $u \circ s = s_A \circ u$, and $u \circ p = p_A \circ u$. 
 
-By the universal property, the integers object is unique up to [[isomorphism]]. 
+By the [[universal property]], the integers object is unique up to [[isomorphism]]. 
 
 ## Related concepts
 
