@@ -59,6 +59,8 @@ define $T$ inductively as well. This is the principle of [[induction-induction]]
 
 * [[inductive-inductive type]]
 
+* [[algebraically compact category]]
+
 ##References 
 
 * {#ForsSetz} [[Fredrik Nordvall Forsberg]] and [[Anton Setzer]], _A finite axiomatisation of inductive-inductive definitions_, ([pdf](http://cs.swan.ac.uk/~csfnf/papers/indind_finite.pdf))
