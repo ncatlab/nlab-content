@@ -34,6 +34,8 @@ A __semigroup__ is, equivalently,
 
 Some semigroups happen to be [[monoid]]s; even then, a semigroup [[homomorphism]] might not be a monoid homomorphism (because it might not preserve the identity element).  Nevertheless, semigroup [[isomorphisms]] must be monoid isomorphisms.  Thus, the identity element of a monoid forms a [[property-like structure]] on the underlying semigroup.
 
+This should be contrasted with the phenomenon that a semigroup homomorphism between two semigroups that happens to be [[group]]s does, in fact, happen to be a group homomorphism, since in this special case one can show a semigroup homomorphism must preserve the identity and inverses.
+
 As a monoid is a [[category]] with one object, so a semigroup is a [[semicategory]] with one object.
 
 Any [[small category]] $\mathcal{C}$ can be thought of as a semigroup by defining $S = \text{Mor}(\mathcal{C})\cup \{0\}$ and taking $f*g = f \circ g$ for any composable morphisms $f, g$, and $f*g = 0$ otherwise. Then the semigroup $(S, *)$ fully describes $\mathcal{C}$.
