@@ -55,3 +55,14 @@ We have:
 * $\mathbb{T}\text{-}Mod(Set)\simeq Flat(\mathcal{C}^{op}, Set)$ (from Diaconescu’s theorem).
 
 Whence $(Ind\text{-}\mathcal{C})_{fp}\simeq (\mathbb{T}\text{-}Mod (Set))_{fp} =\mathbb{T}\text{-}Mod_{fp}(Set)\simeq \mathcal{C}$ and, accordingly, $[\mathcal{C},Set]]\simeq  [\mathbb{T}\text{-}Mod_{fp}(Set),Set]$. $\qed$
+
+
+***
+
+\begin{center}
+  \begin{tikzcd}
+    1 \ar[r, "z_A"] \ar[rrd, "test"] & A \ar[r, "s_A"] \ar[d, "p_A"] \ar[rd, "id_A"] &
+    A \ar[d, "p_A"]             \\
+    & A \ar[r, "s_A"] & A
+  \end{tikzcd}
+\end{center} 
