@@ -111,13 +111,13 @@ See also
 
 * Wikipedia, _[ADE classification](http://en.wikipedia.org/wiki/ADE_classification)_
 
-Discusion of the free finite group actions on spheres goes back to
+Discsssion of the free finite group actions on spheres goes back to
 
 * {#Milnor57} [[John Milnor]], _Groups which act on $S^n$ without fixed points_, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([JSTOR](http://www.jstor.org/stable/2372566))
 
 Review inclues
 
-* {#Keenan03} Adam Keenan, _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
+* {#Keenan03} [[Adam Keenan]], _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
 
 Discussion of [[ALE spaces]] via ADE include
 
