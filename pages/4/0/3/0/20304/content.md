@@ -19,7 +19,8 @@
 
 ## Idea
 
-In [[string theory]], the term _giant graviton_ refers to [[wrapped brane]]-configurations on contractibe [[cycles]] stabilized by [[angular momentum]] (much like [[polarized branes]], which are stabilized by flux).
+In [[string theory]] by a _giant graviton_ one refers to a [[D-brane]]- or [[M-brane]]-configuration which [[wrapped branes|wraps]] a contractible [[cycle]] stabilized not by topology (as for usual [[wrapped branes]]) or by [[flux]] (as for [[polarized branes]]), but by [[angular momentum]], usually along the [[equator]] of the [[n-sphere]]-factor in a [[Freund-Rubin compactification]].
+ 
 
 ## Examples
 
@@ -57,6 +58,10 @@ for branes in [[anti de Sitter spacetime]] [[product space|times]] an [[n-sphere
 * Andrei Mikhailov, _Giant Gravitons from Holomorphic Surfaces_, JHEP 0011 (2000) 027 ([arXiv:hep-th/0010206](https://arxiv.org/abs/hep-th/0010206))
 
 * J. M. Camino, A.V. Ramallo, _Giant Gravitons with NSNS B field_, JHEP 0109:012,2001 ([arXiv:hep-th/0107142](https://arxiv.org/abs/hep-th/0107142))
+
+Review:
+
+* {#Myers03} [[Robert Myers]], Section 5 of: _Nonabelian Phenomena on D-branes_, Class. Quant. Grav. 20 (2003) S347-S372 ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
 
 Further discussion:
 
