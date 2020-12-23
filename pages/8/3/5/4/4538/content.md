@@ -487,8 +487,7 @@ In [Ada69](#Ada69), Adams works in a very general setting. On this page, we shal
 
 There are two statements that one would like to hold. These are not themselves theorems, rather the theorem would say "Under certain conditions, these statements hold". The statements are the following.
 
-+-- {: .num_uct #ucta .thremark }
-####### UCT1
+\begin{statement} _(UCT1)_ \label{ucta}
 
 There is a [[spectral sequence]]
 $$
@@ -498,10 +497,10 @@ with edge homomorphism
 $$
 E_{*}(X) \otimes _{E_{*}} F_{*} \to F_{*}(X).
 $$
-=--
 
-+-- {: .num_uct #uctb .thremark }
-####### UCT2
+\end{statement}
+
+\begin{statement} _(UCT2)_ \label{uctb}
 
 There is a [[spectral sequence]]
 $$
@@ -511,14 +510,14 @@ with edge homomorphism
 $$
 F^{*}(X) \to \Hom_{E_{*}} (E_{*}(X), F^{*}).
 $$
-=--
+
+\end{statement}
 
 For finite [[CW-complexes]] then we can derive two further statements from the above by [[S-duality]]. We use the notation $D X$ for the [[Spanier-Whitehead dual]] of $X$.
 
 For a finite CW-complex $X$, we can apply [UCT1](#ucta) and [UCT2](#uctb) to $D X$ in place of $X$ and then use the various isomorphisms relating the cohomologies of $X$ and $D X$ to reformulate them in terms of $X$. We thus get the following statements.
 
-+-- {: .num_uct #uctc .thremark }
-####### UCT3
+\begin{statement} _(UCT3)_ \label{uctc}
 
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
@@ -528,10 +527,11 @@ with edge homomorphism
 $$
 E^{*}(X) \otimes _{E^{*}} F^{*} \to F^{*}(X).
 $$
-=--
 
-+-- {: .num_uct #uctd .thremark }
-####### UCT4
+\end{statement}
+
+\begin{statement} _(UCT4)_ \label{utcd}
+
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
 \Ext^{p,*}_{E^{*}} (E^{*}(X), F_{*}) \xRightarrow[p]{}    F_{*}(X)
@@ -540,14 +540,15 @@ with edge homomorphism
 $$
 F_{*}(X) \to \Hom^{*}_{E^{*}}(E^{*}(X), F_{*}).
 $$
-=--
+
+\end{statement}
 
 (This is a generalization of the [[Kronecker pairing]], see also e.g. [Schwede 12, prop. 6.20](#Schwede12)).
 
 A particularly important special case of these statements is when we have a [[topological space]], say $Y$, and a [[cohomology theory]], $E^{*}(-)$. Then we define a new homology theory $F_{*}(-)$ by $F_{*}(X) = E_{*}(X \wedge Y)$ and a new cohomology theory $G^{*}(-)$ by $G^{*}(X) = E^{*}(X \wedge Y)$. These are representable, the homology theory by $Y \wedge E$ and the cohomology theory by the function spectrum $F(Y,E)$. Putting these into the statements of the universal coefficient theorem, we obtain similar statements for the [[Künneth theorem]].
 
-+-- {: .num_kt #kta .thremark }
-####### KT1
+\begin{statement} _(KT1)_ \label{kta}
+
 There is a spectral sequence
 $$
 \Tor_{p,*}^{E_{*}} (E_{*}(X), E_{*}(Y)) \xRightarrow[p]{}    E_{*}(X \wedge Y)
@@ -556,10 +557,12 @@ with edge homomorphism
 $$
 E_{*}(X) \otimes _{E_{*}} E_{*}(Y) \to E_{*}(X \wedge Y).
 $$
-=--
 
-+-- {: .num_kt #ktb .thremark }
-####### KT2
+\end{statement}
+
+
+\begin{statement} _(KT2)_ \label{ktb}
+
 There is a spectral sequence
 $$
 \Ext_{E_{*}}^{p,*}(E_{*}(X), E^{*}(Y)) \xRightarrow[p]{}    E^{*}(X \wedge Y)
@@ -568,10 +571,11 @@ with edge homomorphism
 $$
 E^{*}(X \wedge Y) \to \Hom_{E_{*}}^{*} (E_{*}(X), E^{*}(Y)).
 $$
-=--
 
-+-- {: .num_kt #ktc .thremark }
-####### KT3
+\end{statement}
+
+\begin{statement} _(KT3)_ \label{ktc}
+
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
 \Tor_{p,*}^{E^{*}} (E^{*}(X), E^{*}(Y)) \xRightarrow[p]{}    E^{*}(X \wedge Y)
@@ -580,10 +584,12 @@ with edge homomorphism
 $$
 E^{*}(X) \otimes _{E^{*}} E^{*}(Y) \to E^{*}(X \wedge Y).
 $$
-=--
 
-+-- {: .num_kt #ktd .thremark }
-####### KT4
+\end{statement}
+
+
+\begin{statement} _(KT4)_ \label{ktd}
+
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
 \Ext^{p,*}_{E^{*}} (E^{*}(X), E_{*}(Y)) \xRightarrow[p]{}    E_{*}(X \wedge Y)
@@ -592,7 +598,8 @@ with edge homomorphism
 $$
 E_{*}(X \wedge Y) \to \Hom_{E^{*}}^{*} (E^{*}(X), E_{*}(Y)).
 $$
-=--
+
+\end{statement}
 
 The key question is, thus: when do these statements hold? Adams gives some answers in [Ada69](#Ada69).
 
@@ -608,9 +615,7 @@ The key question is, thus: when do these statements hold? Adams gives some answe
 
 In both [Ada69](#Ada69) and [Ada74](#Ada74), there is a particular focus on the universal coefficient theorem coming from its applications to the [[Adams spectral sequence]].  With that aim in mind, he studies the universal coefficient theorems with considerably strong assumptions.  These assumptions are designed to allow Atiyah's method (from [Ati62](#Ati62)) to work.
 
-+-- {: .num_theorem #assume}
-###### Assumption ######
-(Condition 13.3 in [Ada74](#Ada74), see also Assumption 20 in [Ada69](#Ada69)).
+\begin{assum} _(Condition 13.3 in [Ada74](#Ada74), see also Assumption 20 in [Ada69](#Ada69))_ \label{adams_assumption}
 
    The spectrum $E$ is the [[direct limit]] of finite spectra $E_\alpha$ for which $E_*(D E_\alpha)$ is [[projective object|projective]] over $E_*$ and
 
@@ -619,7 +624,8 @@ In both [Ada69](#Ada69) and [Ada74](#Ada74), there is a particular focus on the 
    $$
 
    is an isomorphism for all [[module-spectra]] $F$ over $E$.  Here, $D E_\alpha$ is the [[S-dual]] of $E_\alpha$.
-=--
+
+\end{assum}
 
 The main difference between the two treatments is that in [Ada69](#Ada69), the condition involving $F$ is stated for a *single* module-spectrum, not for *all* module-spectra, and there are alternatives for homology ($F_*(-)$) and cohomology ($F^*(-)$).
 
@@ -632,14 +638,14 @@ With this assumption, Adams shows the following result:
 
 +-- {: .num_theorem #uctholds}
 ###### Theorem ######
-Let $E$ be a ring spectrum satisfying [the assumption above](#assume).  Let $F$ be a module-spectrum over $E$.  Then \ref{uctb} holds, and the spectral sequence is convergent.
+Let $E$ be a ring spectrum satisfying Assumption \ref{adams_assumption}. Let $F$ be a module-spectrum over $E$. Then \ref{uctb} holds, and the spectral sequence is convergent.
 =--
 
 What "convergent" means here is spelled out in [Ada74, Theorem 8.2](#Ada74).
 
 \begin{corollary}
 \label{uctproj}
-Let $E$ be a ring spectrum satisfying [the assumption above](#assume).  Suppose that $E_*(X)$ is projective over $E_*$.  Then the spectral sequence from \ref{uctb} collapses at the $E^2$ term.  That is,
+Let $E$ be a ring spectrum satisfying Assumption \ref{adams_assumption}.  Suppose that $E_*(X)$ is projective over $E_*$.  Then the spectral sequence from \ref{uctb} collapses at the $E^2$ term.  That is,
 $$
 F^*(X) \to \Hom^*_{E_*}(E_*(X),F_*)
 $$
