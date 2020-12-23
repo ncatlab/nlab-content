@@ -15,6 +15,10 @@ The __adic spaces__ are the basic object in Huber's approach to [[non-archimedea
 
 ## References
 
-* R. Huber, _&#201;tale cohomology of rigid analytic varieties and adic spaces_, Aspects of Mathematics, E30. Friedr. Vieweg & Sohn, Braunschweig, 1996. x+450 pp. [MR2001c:14046](http://www.ams.org/mathscinet-getitem?mr=1734903)
+* R. Huber, _Étale cohomology of rigid analytic varieties and adic spaces_, Aspects of Mathematics, E30. Friedr. Vieweg & Sohn, Braunschweig, 1996. x+450 pp. [MR2001c:14046](http://www.ams.org/mathscinet-getitem?mr=1734903)
+
+* [[Sophie Morel]], _Adic spaces_, [PDF](https://web.math.princeton.edu/~smorel/adic_notes.pdf)
+
+* [[Torsten Wedhorn]], _Adic spaces_, [arXiv:1910.05934](https://arxiv.org/abs/1910.05934).
 
 [[!redirects adic spaces]]
