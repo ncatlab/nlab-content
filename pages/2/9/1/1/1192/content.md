@@ -53,3 +53,9 @@ In [[material set theory]], the formula $\alpha^+ \coloneqq \alpha \cup \{\alpha
 [[!redirects successor cardinal]]
 [[!redirects successor ordinals]]
 [[!redirects successor cardinals]]
+
+[[!redirects predecessor]]
+[[!redirects predecessors]]
+
+
+
