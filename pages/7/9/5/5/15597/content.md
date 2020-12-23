@@ -29,7 +29,7 @@ In 1961 G. Higman proved an important result in [[group theory]] that brings tog
 
 ## Remark
 
-It clearly makes sense to ask the same question for other algebraic theories. In fact, it has been conjectured by the group theorist W. Boone that a similar result holds more generally for single-sorted [[Lawvere theory|algebraic theories]]. The importance of this conjecture has been stressed and the parallel to results by Craig and Vaught in [[first-order logic]] has been pointed out by [[F. W. Lawvere]] ([2002](#Lawvere02)) (see at [[Boone conjecture]] for further details).
+It clearly makes sense to ask the same question for other algebraic theories. In fact, it has been conjectured by the group theorist W. Boone that a similar result holds more generally for single-sorted [[Lawvere theory|algebraic theories]]. While in fact the conjecture is not true for all single-sorted algebraic theories (see [[Boone conjecture]] for further details), as was known by Soviet mathematicians, the general question "In which algebraic categories does (an analogue of) Higman's embedding theorem hold?" is still interesting. The importance of this question has been stressed and the parallel to results by Craig and Vaught in [[first-order logic]] has been pointed out by [[F. W. Lawvere]] ([2002](#Lawvere02)) (see at [[Boone conjecture]] for further details).
 
 ## Related pages
 
