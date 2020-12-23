@@ -85,7 +85,7 @@ Introductions and monographs:
 
 * [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Math. __82__, Springer 1982. xiv+331 pp.
 
-* [[John Milnor]], _Topology from the differential viewpoint_, Princeton University Press, 1997. ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+* [[John Milnor]], _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
 
 * [[C. T. C. Wall]], _Differential topology_, Cambridge Studies in Advanced Mathematics 154, 2016
 
