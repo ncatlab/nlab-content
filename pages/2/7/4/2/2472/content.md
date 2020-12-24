@@ -103,6 +103,10 @@ See also
 
 [[!redirects rigid analytic geometries]]
 
+[[!redirects rigid analytic space]]
+[[!rigid analytic spaces]]
+
 
 [[!redirects rigid geometry]]
 [[!redirects rigid geometries]]
+
