@@ -61,8 +61,9 @@ Whence $(Ind\text{-}\mathcal{C})_{fp}\simeq (\mathbb{T}\text{-}Mod (Set))_{fp} =
 
 \begin{center}
   \begin{tikzcd}
-    1 \ar[r, "z_A"] \ar[rrd, "test"] & A \ar[r, "s_A"] \ar[d, "p_A"] \ar[rd, "id_A"] &
-    A \ar[d, "p_A"]             \\
-    & A \ar[r, "s_A"] & A
+    1 \ar[r, "z"] \ar[rd, "z"] & 
+    \mathbb{Z} \ar[r, "s"] \ar[d, "n"] \ar[ld, "id_\mathbb{Z}"] &
+    \mathbb{Z} \ar[d, "n"]  \\
+    \mathbb{Z} & \mathbb{Z} \ar[l, "n"] & \mathbb{Z} \ar[l, "s"]
   \end{tikzcd}
-\end{center} 
+\end{center}
