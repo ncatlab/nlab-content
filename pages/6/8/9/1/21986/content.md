@@ -63,6 +63,25 @@ An **integers object** in a [[topos]] (or any [[cartesian closed category]]) $E$
 
 By the [[universal property]], the integers object is unique up to [[isomorphism]]. 
 
+##Free construction in a topos
+The existence of an integers object in a topos $\mathcal{S}$ is equivalent to the existence of [[free group|free groups]] in $\mathcal{S}$:
+
++-- {: .num_prop #free_groups_in_topos}
+###### Proposition
+Let $\mathcal{S}$ be a topos and $\mathbf{Grp}(\mathcal{S})$ its category of internal [[group objects]]. Then $\mathcal{S}$ has an integers object precisely if the forgetful functor $U:\mathbf{Grp}(\mathcal{S})\to \mathcal{S}$ has a left adjoint.
+=--
+
+##Construction from natural numbers objects
+Suppose the topos $E$ has a [[natural numbers object]] $\mathbb{N}$. Then an integers object $\mathbb{Z}$ is a [[filtered colimit]] of objects 
+
+$$\mathbb{N} \stackrel{1 + (-)}{\to} \mathbb{N} \stackrel{1 + (-)}{\to} \mathbb{N} \stackrel{1 + (-)}{\to} \ldots$$ 
+
+whereby $-n:1\rightarrow\mathbb{Z}$ is represented by the morphism $z:1\rightarrow\mathbb{N}$ in the $n^{th}$ copy of $\mathbb{N}$ appearing in this diagram (starting the count at the $0^{th}$ copy). The resulting induced map to the colimit 
+
+$$\mathbb{N} \times \mathbb{N} \cong \sum_{m \in \mathbb{N}} \mathbb{N} \to \mathbb{Z}: (m, n) \mapsto n-m$$ 
+
+imparts a monoid structure (in fact a group structure) on $\mathbb{Z}$ descended from the monoid structure on $\mathbb{N} \times \mathbb{N}$. 
+
 ##Properties
 
 ###Inverse
@@ -77,7 +96,7 @@ The morphism $p : \mathbb{Z} \to \mathbb{Z}$  ([[predecessor]]), defined as $p =
 
 It follows that $s$ and $p$ are both isomorphisms of $\mathbb{Z}$. 
 
-###Relation to ring objects
+###Initial ring object
 In a category with finite products, the initial [[ring object]], an object $\mathbb{Z}$ with global elements $0:1\rightarrow\mathbb{Z}$ and $1:1\rightarrow\mathbb{Z}$, a morphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$, morphsims $+:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$ and $\times:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$, and suitable commutative diagrams expressing the ring axioms and [[initial object|initiality]], has the structure of an integers object given by $z = 0$, $s = x + 1$, and $n = -$. 
 
 ## Related concepts
