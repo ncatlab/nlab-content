@@ -19,4 +19,16 @@ The role of simplicial manifolds in most of the literature is best understood fr
 
 In fact, more is true: as discussed there in detail, in the projective local [[model structure on simplicial presheaves]] on [[Diff]] there is a cofibrant resolution functor with values in simplicial manifolds. (Here we allow [[Diff]] to be closed under coproducts indexed by sets; that is, we do not require our manifolds to be connected or second-countable, although we may require their components to be second-countable). Therefore every [[∞-stack]] on [[Diff]] may be presented by a simplicial manifold.
 
+## Kan simplicial manifolds
+
+For more information, see the article [[Kan simplicial manifold]].
+
+## Related concepts
+
+* [[Lie groupoid]]
+
+* [[∞-stack]]
+
+* [[Kan simplicial manifold]]
+
 [[!redirects simplicial manifolds]]
