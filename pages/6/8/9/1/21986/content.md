@@ -30,13 +30,55 @@ An **integers object** in a [[topos]] (or any [[cartesian closed category]]) $E$
   
   * a [[morphism]] $z:1 \to \mathbb{Z}$ from the [[terminal object]] $1$;
 
-  * [[morphisms]] $s, p : \mathbb{Z} \to \mathbb{Z}$ ([[successor]] and [[predecessor]]), such that $s \circ p = p \circ s = id_\mathbb{Z}$;
+  * a [[morphism]] $s : \mathbb{Z} \to \mathbb{Z}$ ([[successor]]),
 
-* such that for every other object $A$ with morphisms $z_A : 1 \to A$ and $s_A, p_A : A \to A$ such that $s_A \circ p_A = p_A \circ s_A = id_A$, there is a unique morphism $u : \mathbb{Z} \to A$ such that $u \circ z = z_A$, $u \circ s = s_A \circ u$, and $u \circ p = p_A \circ u$. 
+  * a [[morphism]] $n : \mathbb{Z} \to \mathbb{Z}$ ([[negation]])
+
+* such that the following diagram [[commutative diagram|commutes]]:
+\begin{center}
+  \begin{tikzcd}
+    1 \ar[r, "z"] \ar[rd, "z"] & \mathbb{Z} \ar[r, "s"] \ar[d, "n"] &
+    \mathbb{Z} \ar[d, "n"] \ar[rd, "id_\mathbb{Z}"] &  \\
+    & \mathbb{Z} & \mathbb{Z} \ar[l, "s"] \ar[r, "n"] & \mathbb{Z}
+  \end{tikzcd}
+\end{center}
+
+* and that for every other [[commutative diagram]] of form 
+\begin{center}
+  \begin{tikzcd}
+    1 \ar[r, "z_A"] \ar[rd, "z_A"] & A \ar[r, "s_A"] \ar[d, "n_A"] &
+    A \ar[d, "n_A"] \ar[rd, "id_A"] & \\
+    & A & A \ar[l, "s_A"] \ar[r, "n_A"] & A
+  \end{tikzcd}
+\end{center} 
+
+* there is a unique morphism $u : \mathbb{Z} \to A$ such that 
+\begin{center}
+  \begin{tikzcd}
+    1 \ar[r, "z"] \ar[rd, "z_A"] & \mathbb{Z} \ar[r, "s"] \ar[d, "u"] &
+    \mathbb{Z} \ar[r, "n"] \ar[d, "u"] & \mathbb{Z} \ar[d, "u"] \\
+    & A \ar[r, "s_A"] & A \ar[r, "n_A"] & A
+  \end{tikzcd}
+\end{center} 
 
 By the [[universal property]], the integers object is unique up to [[isomorphism]]. 
 
-Every integers object is a [[natural numbers object]] in two different ways, as the triples $(\mathbb{Z},z:1\rightarrow\mathbb{Z},s:1\rightarrow\mathbb{Z})$ and $(\mathbb{Z},z:1\rightarrow\mathbb{Z},p:1\rightarrow\mathbb{Z})$. There is a nontrivial isomorphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$ between the two natural numbers objects $(\mathbb{Z},z:1\rightarrow\mathbb{Z},s:1\rightarrow\mathbb{Z})$ and $(\mathbb{Z},z:1\rightarrow\mathbb{Z},p:1\rightarrow\mathbb{Z})$, such that $- \circ z = z$, $s \circ - = - \circ p$, and $p \circ - = - \circ s$, which corresponds to negation in [[Set]].  
+##Properties
+
+###Inverse
+The morphism $p : \mathbb{Z} \to \mathbb{Z}$  ([[predecessor]]), defined as $p = n \circ s \circ n$, is an [[inverse]] morphism of $s$, satisfying the [[commutative diagram]]: 
+\begin{center}
+  \begin{tikzcd}
+    \mathbb{Z} \ar[r, "s"] \ar[d, "p"] \ar[rd, "id_\mathbb{Z}"] &
+    \mathbb{Z} \ar[d, "p"]             \\
+    \mathbb{Z} \ar[r, "s"] & \mathbb{Z}
+  \end{tikzcd}
+\end{center}
+
+It follows that $s$ and $p$ are both isomorphisms on $\mathbb{Z}$. 
+
+###Relation to ring objects
+The initial [[ring object]] in a category with finite products, an object $\mathbb{Z}$ with global elements $0:1\rightarrow\mathbb{Z}$ and $1:1\rightarrow\mathbb{Z}$, a morphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$, morphsims $+:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$ and $\times:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$, and suitable commutative diagrams expressing the ring axioms and [[initial object|initiality]], has the structure of an integers object given by $z = 0$, $s = x + 1$, and $n = -$. 
 
 ## Related concepts
 
@@ -44,7 +86,9 @@ Every integers object is a [[natural numbers object]] in two different ways, as 
 
 * [[natural numbers object]]
 
+* [[free group]]
 
+* [[ring object]]
 
 
 [[!redirects integers object]]
