@@ -36,7 +36,24 @@ A homotopy-correct characterization of the sub-$\infty$-category presented by th
 
 Kan-fibrant simplicial manifolds have received particular attention as the result of [[Lie integration]] of [[L-∞ algebroids]]. See at _[[Lie integration]]_ for more on that.
 
+## Examples
+
+1. Any ordinary manifold, interpreted as a constant simplicial object.
+
+2. The nerve of a Lie groupoid. In particular, the delooping of any Lie group, which represents principal bundles with this Lie group as a structure group.
+
+3. The Dold–Kan functor $\Gamma$ applied to any nonnegatively graded chain complex of abelian Lie groups.
+
+4. In particular, applying $\Gamma$ to the chain complexes $\mathrm{U}(1)[n]$, we get the Kan simplicial manifold representing bundle $(n-1)$-gerbes.
+
+5. The nonabelian analogue of $\Gamma$ applied to any crossed module whose two constituent groups are Lie groups and the involved homomorphisms and actions are smooth.
+
+6. The nonabelian analogue of $\Gamma$ applied to any crossed complex whose constituent groupoids are Lie groupoids and the involved homomorphisms and actions are smooth.
+
+
 ## Related concepts
+
+* [[simplicial manifold]]
 
 * [[higher differential geometry]]
 
@@ -65,7 +82,6 @@ Discussion of [[principal ∞-bundles]] in [[Smooth∞Grpd]] $= Sh_\infty(Smooth
 
 * [[Jesse Wolfson]], _Descent for $n$-Bundles_ ([arXiv:1308.1113](http://arxiv.org/abs/1308.1113))
 
-[[!redirects Kan-fibrant simplicial manifolds]]
-
+[[!redirects Kan simplicial manifolds]]
 [[!redirects Kan-fibrant simplicial manifold]]
 [[!redirects Kan-fibrant simplicial manifolds]]
