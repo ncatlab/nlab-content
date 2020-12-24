@@ -37,7 +37,7 @@ More generally, pairs of [[adjoint functor]]s between the [[categories of sheave
 
 
 Specifically for [[Grothendieck topos]]es:
-a [[site|morphism of sites]] $f : X \to Y$ induces a [[geometric morphism]] of [[Grothendieck topos]]es
+a [[morphism of sites|morphism of sites]] $f : X \to Y$ induces a [[geometric morphism]] of [[Grothendieck topos]]es
 
 
 $$
