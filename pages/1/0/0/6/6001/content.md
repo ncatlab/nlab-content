@@ -17,7 +17,7 @@
 
 ## Idea
 
-Among [[sequential spectrum|sequential]] [[pre-spectra]] $X$, the $\Omega$-spectra are those for which the structure maps $X_n \to \Omega X_{n+1}$ (from each component space to the [[based loop space]] of the next component space) are a [[weak homotopy equivalence]].  
+Among [[sequential spectrum|sequential]] [[pre-spectra]] $X$, the $\Omega$-spectra are those for which each structure map $X_n \to \Omega X_{n+1}$ (from each component space to the [[based loop space]] of the next component space) is a [[weak homotopy equivalence]].  
 
 (Beware that some authors require a [[homeomorphism]] instead and say "weak $\Omega$-spectrum", for the more general case).
 
