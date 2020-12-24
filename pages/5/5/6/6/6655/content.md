@@ -74,9 +74,9 @@ If $\Gamma \vdash f : X \to A$ and $\Delta \vdash t : X$, then $\Gamma, \Delta \
 ###Binary sum types
 If $\Gamma \vdash A : \mathrm{Type}$ and $\Gamma \vdash B : \mathrm{Type}$, then $\Gamma \vdash A + B : \mathrm{Type}$. 
 
-If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, then $\Gamma \vdash a : A + B$; and if $\Gamma \vdash b : B$ and $\Gamma \vdash A + B : \mathrm{Type}$, then $\Gamma \vdash b : A + B$.
+If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, then $\Gamma \vdash \sigma_0 (a) : A + B$; and if $\Gamma \vdash b : B$ and $\Gamma \vdash A + B : \mathrm{Type}$, then $\Gamma \vdash \sigma_1(b) : A + B$.
 
-If $\Gamma \vdash s : A + B$, $\Delta, x : A \vdash c(x) : C(x)$ and $E, y : B \vdash c'(y) : C(y)$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(s, (\lambda x : A) c(x), (\lambda y : B) c'(y)) : C(s)$.
+If $\Gamma \vdash s : A + B$, $\Delta, x : A \vdash c(x) : C(\sigma_0(x))$ and $E, y : B \vdash c'(y) : C(\sigma_1(y))$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(s, (\lambda x : A) c(x), (\lambda y : B) c'(y)) : C(s)$.
 
 ###Empty type
 There is an atomic type called $\bot$.
@@ -172,9 +172,9 @@ If $\Gamma, x : X \vdash a(x) : A$ and $\Delta \vdash t : X$, then $\Gamma, \Del
 
 If $\Gamma \vdash f : X \to A$, then $\Gamma \vdash f = (\lambda x : X) \mathrm{apply}(f, x) : \mathrm{true}$.
 
-### Finite sum types
+### Binary sum types
 
-If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, $\Delta, x : A \vdash c(x) : C(x)$ and $E, y : B \vdash c'(y) : C(y)$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(a, (\lambda x : A) c(x), (\lambda y : B) c(y)) = c(a) : \mathrm{true}$ and $\Gamma, \Delta, E \vdash \mathrm{cases}(b, (\lambda x : A) c(x), (\lambda y : B) c'(y)) = c'(b) : \mathrm{true}$
+If $\Gamma \vdash a : A$ and $\Gamma \vdash A + B : \mathrm{Type}$, $\Delta, x : A \vdash c(x) : C(\sigma_0(x))$ and $E, y : B \vdash c'(y) : C(\sigma_1(y))$, then $\Gamma, \Delta, E \vdash \mathrm{cases}(a, (\lambda x : A) c(x), (\lambda y : B) c(y)) = c(a) : \mathrm{true}$ and $\Gamma, \Delta, E \vdash \mathrm{cases}(b, (\lambda x : A) c(x), (\lambda y : B) c'(y)) = c'(b) : \mathrm{true}$
 
 ###Dependent sum types
 If $\Gamma \vdash t : X$, $\Gamma \vdash a : A(t)$ and $\Delta, x : X, y : A(x) \vdash b(x, a) : B((x, a))$, then $\Gamma, \Delta \vdash \mathrm{cases}((t, a), (\lambda x : X)(\lambda y : A(x)) b(x, y)) = b(t, a) : \mathrm{true}$.
