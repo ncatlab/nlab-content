@@ -37,22 +37,22 @@ An **integers object** in a [[topos]] (or any [[cartesian closed category]]) $E$
 * such that the following diagram [[commutative diagram|commutes]]:
 \begin{center}
   \begin{tikzcd}
-    1 \ar[r, "z"] \ar[rd, "z"] & \mathbb{Z} \ar[r, "s"] \ar[d, "n"] &
-    \mathbb{Z} \ar[d, "n"] \ar[rd, "id_\mathbb{Z}"] &  \\
-    & \mathbb{Z} & \mathbb{Z} \ar[l, "s"] \ar[r, "n"] & \mathbb{Z}
+    & \mathbb{Z} \ar[d, "n"] 
+    & \mathbb{Z} \ar[l, "s"] \ar[d, "n"] \ar[rd, "id_\mathbb{Z}"] & \\
+    1 \ar[ru, "z"] \ar[r, "z"] & \mathbb{Z} \ar[r, "s"] 
+    & \mathbb{Z} \ar[r, "n"] & \mathbb{Z}
   \end{tikzcd}
 \end{center}
 
 * and that for every other [[commutative diagram]] of form 
 \begin{center}
   \begin{tikzcd}
-    1 \ar[r, "z_A"] \ar[rd, "z_A"] & A \ar[r, "s_A"] \ar[d, "n_A"] &
-    A \ar[d, "n_A"] \ar[rd, "id_A"] & \\
-    & A & A \ar[l, "s_A"] \ar[r, "n_A"] & A
+    & A \ar[d, "n_A"] & A \ar[l, "s_A"] \ar[d, "n_A"] \ar[rd, "id_A"] & \\
+    1 \ar[ru, "z_A"] \ar[r, "z_A"] & A \ar[r, "s_A"] & A \ar[r, "n_A"] & A
   \end{tikzcd}
 \end{center} 
 
-* there is a unique morphism $u : \mathbb{Z} \to A$ such that 
+* there is a unique morphism $u : \mathbb{Z} \to A$ such that the following diagram commutes
 \begin{center}
   \begin{tikzcd}
     1 \ar[r, "z"] \ar[rd, "z_A"] & \mathbb{Z} \ar[r, "s"] \ar[d, "u"] &
@@ -75,10 +75,10 @@ The morphism $p : \mathbb{Z} \to \mathbb{Z}$  ([[predecessor]]), defined as $p =
   \end{tikzcd}
 \end{center}
 
-It follows that $s$ and $p$ are both isomorphisms on $\mathbb{Z}$. 
+It follows that $s$ and $p$ are both isomorphisms of $\mathbb{Z}$. 
 
 ###Relation to ring objects
-The initial [[ring object]] in a category with finite products, an object $\mathbb{Z}$ with global elements $0:1\rightarrow\mathbb{Z}$ and $1:1\rightarrow\mathbb{Z}$, a morphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$, morphsims $+:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$ and $\times:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$, and suitable commutative diagrams expressing the ring axioms and [[initial object|initiality]], has the structure of an integers object given by $z = 0$, $s = x + 1$, and $n = -$. 
+In a category with finite products, the initial [[ring object]], an object $\mathbb{Z}$ with global elements $0:1\rightarrow\mathbb{Z}$ and $1:1\rightarrow\mathbb{Z}$, a morphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$, morphsims $+:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$ and $\times:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$, and suitable commutative diagrams expressing the ring axioms and [[initial object|initiality]], has the structure of an integers object given by $z = 0$, $s = x + 1$, and $n = -$. 
 
 ## Related concepts
 
