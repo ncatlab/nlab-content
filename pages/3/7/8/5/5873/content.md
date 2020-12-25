@@ -127,7 +127,7 @@ nontrivial $P(X)$, but a syntactically presented one".
 
 The notion was introduced in 
 
-* {#Lawvere69} [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+* {#Lawvere69} [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.tac.mta.ca/tac/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
  
 
 
