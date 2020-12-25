@@ -42,7 +42,7 @@ This definition is essentially that of an [[enriched category]], only that the [
 There is a more abstract way to encode all this simply as a [[monoid in a monoidal category|monoid]] in a suitable ambient [[monoidal category]]. This more abstract definition we discuss below in [A detailed conceptual treatment](#Conceptual).
 
 
-### Plain operads {#PedestrianDefOperad}
+### Symmetric operads {#PedestrianDefOperad}
 
 Let $V$ be a [[symmetric monoidal category]]. A 
 ( _permutative_ or _[[symmetric operad|symmetric]]_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
