@@ -79,7 +79,7 @@ by $\chi_f$.
 
 [[Urs Schreiber]]: I would be inclined to loosely say "graph" for all of these and to introduce terminology like "opgraph" when it really matters which specific realization we mean. Because all these seem to be so similar to me that I am not sure if it is worth distinguishing them a lot. For instance, wouldn't an analogous discussion be possible concerning what we call $F^{op} : C^{op} \to D^{op}$ given a functor $F : C \to D$? I don't actually know what a standard term is, does one say "opfunctor" for this? But I'd say it doesn't matter much either way, calling $F^{op}$ just a functor which effectively is the functor $F$ doesn't do much harm.
 
-[[Colin Zwanziger]]: Aren't we better off defining [[graph of a function]] as a span to avoid an arbitrary choice of $\langle 1, f\rangle$ or $\langle f, 1\rangle$ and then treating the two-sided fibration as the graph of a functor?Edit: Actually, we would still have to choose whether we were taking the graph of the representable or corepresentable profunctor induced by the functor, since these yield different spans. But we have that two functors F and G are adjoint iff ([[adjoint functors#In_terms_of_graphs2sided_discrete_fibrations|Lawvere's definition]])  the (graph of F)_A and (graph of G)_B agree. One level down we would have two functions f and g are adjoint (=inverse) iff (graph of f)_A and (graph of g)_B agree, but the two notions of graph turn out to be the same at this level.
+[[Colin Zwanziger]]: Probably the graph of a functor should be a two-sided fibration, though there are still 2 equally good choices corresponding to the representable or corepresentable profunctors induced by the functor. 
 
 =--
 
