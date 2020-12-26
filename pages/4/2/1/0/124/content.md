@@ -310,9 +310,9 @@ An introduction amplifying the simple but important case of [[presheaf toposes]]
 _Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008), ISBN: 8876990046.
 [pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf).
 
-A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
+A quick introduction of the basic facts of [[Grothendieck topos]] theory is Chapter I, "Background in topos theory" in 
 
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+* [[Ieke Moerdijk]], _[[Classifying Spaces and Classifying Topoi]]_, Lecture Notes in Mathematics 1616 (1995), Springer
 
 Course notes covering both [[Grothendieck toposes]] and the [[effective topos]]:
 
@@ -354,7 +354,14 @@ Other sources include the following.
 
 * [[Michael Barr]], [[Charles Wells]], _Toposes, Triples, and Theories_ , Springer Heidelberg 1985. ([TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf))
 
-* [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford 2017
+### Classifying toposes
+
+* [[Ieke Moerdijk]], _[[Classifying Spaces and Classifying Topoi]]_, Lecture Notes in Mathematics 1616 (1995), Springer.
+ISBN: 978-3-540-60319-1.
+[doi](https://doi.org/10.1007/BFb0094441)
+
+* [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford University Press, 2017.
+[doi](https://doi.org/10.1007/BFb0094441)
 
 ### Categorical logic and elementary toposes
 
@@ -365,6 +372,12 @@ Other sources include the following.
 * [[J. L. Bell]], _[[Toposes and Local Set Theories.  An Introduction]]_, Oxford University Press 1988.
 
 * [[Robert Goldblatt]], _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983). 
+
+* [[Joachim Lambek]], [[Philip J. Scott]], _[[Introduction to higher order categorical logic]]_. Cambridge Studies in Advanced Mathematics 7 (1986).
+ISBN: 0-521-24665-2.
+
+* [[Bart Jacobs]], _[[Categorical logic and type theory]]_, Studies in Logic and the Foundations of Mathematics 141 (1999).  North-Holland Publishing Co.
+ISBN: 0-444-50170-3
 
 ### Algebra, ringed toposes, algebraic geometry
 
