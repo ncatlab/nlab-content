@@ -304,7 +304,6 @@ Introductions to [[topos theory]] include
 
 * [[Francis Borceux]], _Some glances at topos theory_, [pdf](https://tcsc.lakecomoschool.org/files/2018/01/Borceux.pdf).
 
-
 An introduction amplifying the simple but important case of [[presheaf toposes]] is
 
 * Marie La Palme Reyes, [[Gonzalo E. Reyes]], Houman Zolfaghari,
@@ -337,6 +336,10 @@ Modern textbooks include the following two.
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]], Volume 3_.
 
+Other sources include
+
+* [[Oswald Wyler]], _[[Lecture Notes on Topoi and Quasitopoi]]_, World Scientific 1991.
+
 ### Monographs
 
 A early monograph is
@@ -351,9 +354,33 @@ Other sources include the following.
 
 * [[Michael Barr]], [[Charles Wells]], _Toposes, Triples, and Theories_ , Springer Heidelberg 1985. ([TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf))
 
-* R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983). 
-
 * [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford 2017
+
+### Categorical logic and elementary toposes
+
+* [[Colin McLarty]], _[[Elementary Categories, Elementary Toposes]]_, Oxford University Press 1992 (reprinted in 2005)
+
+* [[Jonathan Chapman]], [[Frederick Rowbottom]], _[[Relative Category Theory and Geometric Morphisms.  A Logical Approach]]_, Oxford University Press 1992.
+
+* [[J. L. Bell]], _[[Toposes and Local Set Theories.  An Introduction]]_, Oxford University Press 1988.
+
+* [[Robert Goldblatt]], _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983). 
+
+### Algebra, ringed toposes, algebraic geometry
+
+* [[Monique Hakim]], _[[Topos annelés et schémas relatifs]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete 64 (1972),
+ISBN 3-540-05573-8, 0-387-05573-8.
+
+* [[Francis Borceux]], [[Gilberte van den Bossche]], _Algebra in a localic topos with applications to ring theory_, Lecture Notes in Mathematics 1038 (1983),
+ISBN: 3-540-12711-9.
+
+### Quantum theory
+
+* [[Cecilia Flori]], _A first course in topos quantum theory_. Lecture Notes in Physics 868 (2013).
+ISBN: 978-3-642-35712-1; 978-3-642-35713-8
+
+* [[Cecilia Flori]], _A second course in topos quantum theory_. Lecture Notes in Physics 944 (2018).
+ISBN: 978-3-319-71107-2; 978-3-319-71108-9
 
 ### Original articles
 
@@ -369,6 +396,12 @@ That every topos is an [[adhesive category]] is discussed in
 ### History
 
 * [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf) ([direct link](http://www.cwru.edu/artsci/phil/UsesandAbuses%20HistoryToposTheory.pdf))
+
+* [[John W. Gray]], _Fragments of the history of sheaf theory_,
+in: Applications of Sheaves, pp. 1–79,
+Lecture Notes in Mathematics 753,
+ISBN: 978-3-540-09564-4,
+[doi](https://doi.org/10.1007/BFb0061812).
 
 According to appendix C.1 in
 
