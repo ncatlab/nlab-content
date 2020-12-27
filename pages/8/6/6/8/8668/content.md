@@ -416,7 +416,7 @@ See at [combinatorial model category - Dugger's theorem](combinatorial%20model%2
 +-- {: .num_defn}
 ###### Definition
 
-For $\mathcal{C}$ and $\mathcal{D}$ two [[(∞,1)-categories]] and $\mathcal{C}_{s}, \mathcla{D}_s \in sSet$ two models as [[quasi-categories]], an [[(∞,1)-functor]] $F \colon \mathcal{C} \to \mathcal{D}$ is simply a homomorphism of simplicial set $\mathcal{C}_s \to \mathcal{D}_s$. 
+For $\mathcal{C}$ and $\mathcal{D}$ two [[(∞,1)-categories]] and $\mathcal{C}_{s}, \mathcal{D}_s \in sSet$ two models as [[quasi-categories]], an [[(∞,1)-functor]] $F \colon \mathcal{C} \to \mathcal{D}$ is simply a homomorphism of simplicial set $\mathcal{C}_s \to \mathcal{D}_s$. 
 
 The [[(∞,1)-category of (∞,1)-functors]] $Func(\mathcal{C}, \mathcal{D})_s$ as a [[quasi-category]] is simply the [[hom object]] of simplicial set
 
