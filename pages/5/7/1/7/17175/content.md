@@ -44,7 +44,7 @@ For $E = $ [[HA|HZ]] this reduces to the standard [[Chern classes]].
 
 =--
 
-for details see ([Pedrotti 16, prop. 3.1.14](#Pedrotti16))
+Review of details may be found in [Pedrotti 16, prop. 3.1.14](#Pedrotti16).
 
 
 
