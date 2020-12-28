@@ -50,9 +50,11 @@ Review of details may be found in [Pedrotti 16, prop. 3.1.14](#Pedrotti16).
 
 ## References
 
-The concept for [[MU]]-theory was introduced in
+The concept was introduced for :
 
-* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorems 7.5, 7.6 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+  > (with the example of [[MSp]]- and of [[MU]]-cohomology theory in Section 8)
 
 An early account in a broader context of [[complex oriented cohomology theory]]:
 
