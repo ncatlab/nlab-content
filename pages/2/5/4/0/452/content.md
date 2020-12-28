@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _crossed module_  (of groups) was defined in essence by [[J.H.C.Whithead]] and has been found to be an important  concept in homotopical and homological algebra:
+A _crossed module_  (of groups) was defined in essence by [[J.H.C.Whitehead]] and has been found to be an important  concept in homotopical and homological algebra:
 
 * from the [[nPOV]]: a convenient way to encode a [[strict 2-group]] $G$ in terms of a morphism of two ordinary [[group]]s $\partial : G_2 \to G_1$.
 
@@ -202,15 +202,14 @@ This last example was one of the first investigated by Whitehead and his proof a
 
 The second axiom for a crossed module first appeared as footnote 35 on p. 422 of Whitehead's paper:
 
-* Note on a previous paper entitled ``On adding relations to
-  homotopy groups.''.
-_Ann. of Math. _(2) \textbf{47} (1946) 806--810.
+* [[J.H.C/Whitehead]], On adding relations to homotopy groups. Ann. of Math. (2)
+42 (1941) 409–428. 
 
 Section 16 of the following paper 
 
 *  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55 (1949), 453--496.
 
-proved a key result on "Free crossed modules", and this proof was was given an exposition in 
+proved a key result on "Free crossed modules", and this proof  was given an exposition in 
 
 * [[R. Brown]], ``On the second relative homotopy group of an adjunction space: an exposition of a theorem of J.H.C. Whitehead'',   _ J. London Math. Soc._ (2) 22 (1980) 146-152.
 
@@ -228,7 +227,7 @@ The following paper
 
 * [[Ronnie Brown]], [[Philip Higgins]], _On the connections between the second relative homotopy groups of some related spaces_,  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
 
-showed that the theorem of Whitehead on free crossed modules from CH II is a special case of a 2-dimwensional Van Kampen type Theorem for the homotopy crossed modules  (over groupoids) of "connected" triples $(X,A,S$ of spaces where $S$ is a set of base points. Full details are also in Part I of: 
+showed that the theorem of Whitehead on free crossed modules from CH II Sec 16 is a special case of a 2-dimwensional Van Kampen type Theorem for the homotopy crossed modules  (over groupoids) of open unions of "connected" triples $(X,A,S$ of spaces where $S$ is a set of base points. However the proof of the main theorem uses he relation of crossed modules not to cat$^1$-groups but to "double groupoids with connections", also proved with Spencer. full details and references re  in Part I of: 
 
 
 * [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (2011). 
@@ -238,5 +237,10 @@ See also
 * [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
 
 * {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
+
+
+For wider uses of crossed modules in other algebraic contexts see for example 
+
+[[A. S-T. Lue]], Cohomology of groups relative to a variety. J. Algebra 69 (1) (1981) 155–174.
 
 [[!redirects crossed modules]]
