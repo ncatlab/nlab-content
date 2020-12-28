@@ -65,10 +65,13 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 ### 6. The homomorphism $\mu_c$
 
+* [[Thom isomorphism]]
 
 ## Cobordism Characteristic Classes
 
 ### 7. A theorem of Dold
+
+* [[Leray-Hirsch theorem]]
 
 ### 8. Characteristic classes on cobordism
 
@@ -78,10 +81,14 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 ### 9. Characteristic classes in K-theory
 
+* [[Chern classes]]
+
+* [[Chern character]]
+
 ### 10. A cobordism interpretation for $K^\ast(X)$
 
 
-### 11. Mappi gs into spheres
+### 11. Mappings into spheres
 
 ## $U$-Manifolds with Framed Boundaries
 
