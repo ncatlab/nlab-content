@@ -200,24 +200,43 @@ This last example was one of the first investigated by Whitehead and his proof a
 ## References
  {#References}
 
-The concept was introduced in
+The second axiom for a crossed module first appeared as footnote 35 on p. 422of Whitehead's paper:
+
+* Note on a previous paper entitled ``{O}n adding relations to
+  homotopy groups.''}.
+{\it Ann. of Math. (2)} \textbf{47} (1946) 806--810.
+
+Section 16 of the following paper 
 
 *  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55 (1949), 453--496.
 
+proved a key result on "Free crossed modules", and this proof was was given an exposition in 
+
+* [[R. Brown]], ``On the second relative homotopy group of an adjunction space: an exposition of a theorem of J.H.C. Whitehead'',   {\it  J. London Math. Soc.} (2) 22 (1980) 146-152.
+
 see also
 
-* [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953
+* [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953. 
 
-Further discussion is in
+Note that the geometric core of the proof uses knot theory and trensversality arguments which come from the "previous paper" of Whitehead:
+
+
+
+*  ``{O}n adding relations to  homotopy groups.''}. Annals of Math., 42 (1941) 400-428. 
+ 
+The following paper 
 
 * [[Ronnie Brown]], [[Philip Higgins]], _On the connections between the second relative homotopy groups of some related spaces_,  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
+
+showed that the theorem of Whitehead on free crossed modules is a special of a 2-dimwensional Van Kampen type Theorem for the homotopy crossed modules (over groupoids) of "connected" triples $(X,A,S$ of spaces where $S$ is a set of base points. Full details are also in Part I of: 
+
+
+* [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
+
+See also 
 
 * [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
 
 * {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
-
-* [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
-
-
 
 [[!redirects crossed modules]]
