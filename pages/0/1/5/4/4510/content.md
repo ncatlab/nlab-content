@@ -291,39 +291,58 @@ Under [[Baer sum]] $Ext(X,A)$ becomes an [[abelian group]].
 Define a morphism
 
 $$
-  ExtractCocycle : Extensions(X,A) \to Ext^1(X,A)
+  ExtractCocycle 
+  \;\colon\; 
+  Extensions(X,A) 
+  \longrightarrow 
+  Ext^1(X,A)
 $$
 
 by the following construction:
 
-choose a [[projective presentation]] $N \hookrightarrow Q \to X$ of $X$. Then 
-for $A \to P \to X$ an extension consider the diagram
+1. Choose a [[projective presentation]] $N \hookrightarrow Q \to X$ of $X$. Then  for $A \to P \to X$ an [[algebra extension|extension]] consider the [[commuting diagram]]
+
+   $$
+     \array{
+       N 
+         &\longrightarrow& 
+       Q 
+         &\longrightarrow& 
+       X
+       \\
+       \big\downarrow {}^{\mathrlap{\sigma|_N}} 
+         && 
+       \big\downarrow {}^{\mathrlap{\sigma}} 
+         && 
+       \big\downarrow {}^{\mathrlap{=}}
+       \\
+       A 
+         &\longrightarrow& 
+       P 
+         &\longrightarrow& 
+       X
+     }
+     \,,
+   $$
+
+   where
+
+   * $\sigma$ is any choice of [[lift]] of $Q \to X$ through $P \to X$, which exists by definition since $Q$ is a [[projective object]]; 
+
+   * $\sigma|_N$ is the induced morphism on the [[fibers]], which exists by the [[exact sequence|exactness]] of the two sequences.
+
+1. By prop. \ref{Ext1FromProjectivePresentation}, $\sigma|_N$ represents an element $ \big[ \sigma|_N \big] \in Ext^1(X,A)$. Let this be the [[image]] of the map to be defined:
 
 $$
-  \array{
-    N &\to& Q &\to& X
-    \\
-    \downarrow^{\mathrlap{\sigma|_N}} && \downarrow^{\mathrlap{\sigma}} && \downarrow^{\mathrlap{=}}
-    \\
-    A &\to& P &\to& X
-  }
-  \,,
-$$
-
-where
-
-* $\sigma$ is any choice of lifts of $Q \to A$ through $P \to A$, which exists by definition since $P$ is a [[projective object]], 
-
-* $\sigma|_N$ is the induces morphism on the fibers, which exists by the exactness of the two sequences.
-
-By prop. \ref{Ext1FromProjectivePresentation} $\sigma|_N$ represents an element in $ [\sigma|_N] \in Ext^1(X,A)$. Let this be the image of the map to be defined:
-
-$$
-  ExtractCocycle : (A \to P \to X) \mapsto [\sigma|_N]
+  ExtractCocycle 
+    \;\colon\; 
+  (A \to P \to X) 
+    \;\mapsto\; 
+  \big[ \sigma|_N \big]
   \,.
 $$
 
-This definition is independent of the choice of $P$ and $\sigma$ involved.
+This construction is independent of the choice of $P$ and $\sigma$ involved and hence the map is well-defined.
 
 =--
 
@@ -336,7 +355,7 @@ The map from def. \ref{ExtractCocycleFromExtension}
 is a [[natural isomorphism]] of abelian groups
 
 $$
-  Ext(X,A) \stackrel{\simeq}{\to} Ext^1(X,A) 
+  Ext(X,A) \stackrel{\simeq}{\longrightarrow} Ext^1(X,A) 
   \,.
 $$
 
