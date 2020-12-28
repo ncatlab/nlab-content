@@ -97,7 +97,7 @@ In usual ring theory people often talk about **[[nonunital rings]]**  as well: m
 
 +-- {: .num_remark} 
 ###### Remark 
-If one removes the assumption that the additive group is abelian but retains the remaining ring axioms, the result is still a ring. (Expand $(1 + a)(1 + b)$ in two different ways, and cancel to conclude $a + b = b + a$.) The result is false for nonunital rings: for any group $(G, +)$ we could define multiplication to be the [[constant function]] at the additive identity, and all the axioms except additive commutativity are trivially satisfied. 
+If one removes the assumption that the additive group is abelian but retains the remaining ring axioms, the result is still a ring. More generally, this holds for nonunital rings of which multiplicative semigroup is left/right weakly reductive.  The result is false for arbitrary nonunital rings: for any group $(G, +, 0)$ we could define multiplication to be the $x\cdot y := 0$, and all the axioms except additive commutativity are trivially satisfied. This occurs because $\cdot$ doesn't distinguish between elements of $G$.
 =-- 
 
 ## Generalizations
