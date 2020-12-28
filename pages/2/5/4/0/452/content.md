@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _crossed module_  (of groups) is:
+A _crossed module_  (of groups) was defined in essence by [[J.H.C.Whithead]] and has been found to be an important  concept in homotopical and homological algebra:
 
 * from the [[nPOV]]: a convenient way to encode a [[strict 2-group]] $G$ in terms of a morphism of two ordinary [[group]]s $\partial : G_2 \to G_1$.
 
@@ -200,11 +200,11 @@ This last example was one of the first investigated by Whitehead and his proof a
 ## References
  {#References}
 
-The second axiom for a crossed module first appeared as footnote 35 on p. 422of Whitehead's paper:
+The second axiom for a crossed module first appeared as footnote 35 on p. 422 of Whitehead's paper:
 
-* Note on a previous paper entitled ``{O}n adding relations to
-  homotopy groups.''}.
-{\it Ann. of Math. (2)} \textbf{47} (1946) 806--810.
+* Note on a previous paper entitled ``On adding relations to
+  homotopy groups.''.
+_Ann. of Math. _(2) \textbf{47} (1946) 806--810.
 
 Section 16 of the following paper 
 
@@ -212,26 +212,26 @@ Section 16 of the following paper
 
 proved a key result on "Free crossed modules", and this proof was was given an exposition in 
 
-* [[R. Brown]], ``On the second relative homotopy group of an adjunction space: an exposition of a theorem of J.H.C. Whitehead'',   {\it  J. London Math. Soc.} (2) 22 (1980) 146-152.
+* [[R. Brown]], ``On the second relative homotopy group of an adjunction space: an exposition of a theorem of J.H.C. Whitehead'',   _ J. London Math. Soc._ (2) 22 (1980) 146-152.
 
 see also
 
 * [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953. 
 
-Note that the geometric core of the proof uses knot theory and trensversality arguments which come from the "previous paper" of Whitehead:
+Note that the geometric core of the proof uses knot theory and transversality arguments which come from the "previous paper" of Whitehead:
 
 
 
-*  ``{O}n adding relations to  homotopy groups.''}. Annals of Math., 42 (1941) 400-428. 
+*  ``On adding relations to  homotopy groups.''}. Annals of Math., 42 (1941) 400-428. 
  
 The following paper 
 
 * [[Ronnie Brown]], [[Philip Higgins]], _On the connections between the second relative homotopy groups of some related spaces_,  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
 
-showed that the theorem of Whitehead on free crossed modules is a special of a 2-dimwensional Van Kampen type Theorem for the homotopy crossed modules (over groupoids) of "connected" triples $(X,A,S$ of spaces where $S$ is a set of base points. Full details are also in Part I of: 
+showed that the theorem of Whitehead on free crossed modules from CH II is a special case of a 2-dimwensional Van Kampen type Theorem for the homotopy crossed modules  (over groupoids) of "connected" triples $(X,A,S$ of spaces where $S$ is a set of base points. Full details are also in Part I of: 
 
 
-* [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
+* [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (2011). 
 
 See also 
 
