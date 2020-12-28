@@ -94,7 +94,7 @@ such that
 $$ v_0 \cdot &#10761;(v_1,\ldots,v_{n-1}) = vol(v_0,v_1,\ldots,v_{n-1}) $$
 always.  There is exactly one such cross product on any such $V$ (so two if we start with an unoriented inner product space).
 
-In $3$ dimensions, this also recovers the classical cross product.  In $2$ dimensions, this produces a __unary cross product__ given by ${\times}(a,b) = (b,-a)$; in a counterclockwise-oriented plane, it rotates a vector clockwise through a right angle.  In $1$ dimension, this is a nullary operation (a constant) whose value is the positive basis vector.
+In $3$ dimensions, this also recovers the classical cross product.  In $2$ dimensions, this produces a __unary cross product__ given by ${\times}(a,b) = (b,-a)$; in a counterclockwise-oriented plane, it rotates a vector clockwise through a right angle.  In $1$ dimension, this is a nullary operation (a constant) whose value is the positive normal vector $1$.
 
 
 ### Vector-valued {#vectorvalued}
