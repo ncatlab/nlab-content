@@ -21,6 +21,12 @@
 
 ## Idea
 
+### General
+
+(...)
+
+### Universal Thom spectra
+
 The universal real Thom spectrum [[MO]] is a [[connective spectrum]] whose associated [[infinite loop space]] is the [[classifying space]] for [[cobordism]]:
 
 $$
@@ -60,7 +66,7 @@ First recall the following two basic facts about the construction of [[Thom spac
 +-- {: .num_prop #SuspensionOfThomSpaces}
 ###### Proposition
 
-For $V \to X$ a [[vector bundle]], there is a [[homeomorphism]]
+For $V \to X$ a [[real vector bundle]], there is a [[homeomorphism]]
 
 $$
   Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
@@ -73,7 +79,7 @@ between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundl
 +-- {: .num_prop #ThomSpaceOfExternalProductOfVectorBundles}
 ###### Proposition
 
-For $V_1 \to X_1$ and $V_2 \to X_2$ to vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$ (their [[external tensor product]]). The corresponding [[Thom space]] is the [[smash product]] of the individual Thom spaces:
+For $V_1 \to X_1$ and $V_2 \to X_2$ two [[real vector bundles]], let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullback bundle|pullbacks]] to $X_1 \times X_2$ (their [[external tensor product]]). The corresponding [[Thom space]] is the [[smash product]] of the individual Thom spaces:
 
 $$
   Th(V_1 \boxtimes V_2)
@@ -84,12 +90,12 @@ $$
 
 =--
 
-Prop. \ref{SuspensionOfThomSpaces} will give rise to universal Thom spectra in the following, while prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} will give them the struture of [[ring spectra]].
+Prop. \ref{SuspensionOfThomSpaces} will give rise to universal Thom spectra in the following, while Prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} will give them the struture of [[ring spectra]].
 
 +-- {: .num_defn #ThomSpectrumOfAVectorBundle}
 ###### Definition
 
-For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[suspension spectrum]] $\Sigma^\infty Th(V)$ of the [[Thom space]] of $V$. By prop. prop. \ref{SuspensionOfThomSpaces} this may be written as
+For $V \to X$ a [[real vector bundle]], its **Thom spectrum** is the [[suspension spectrum]] $\Sigma^\infty Th(V)$ of the [[Thom space]] of $V$. By prop. \ref{SuspensionOfThomSpaces} this may be written as
 
 $$
   (\Sigma^\infty Th(V))_n
@@ -97,7 +103,7 @@ $$
   Th(\mathbb{R}^n \oplus V)
 $$ 
 
-with structure maps the equivalences
+with structure maps (as a [[sequential spectrum]]) the equivalences
 
 $$
   \sigma_n
@@ -114,7 +120,7 @@ $$
 +-- {: .num_prop #PullbackOfUniversalOnBundleUnderCoordinateRestriction}
 ###### Proposition
 
-For each $n \in \mathbb{N}$ the [[pullback]] of the [[rank]]-$(n+1)$ [[universal vector bundle]] to the [[classifying space]] of rank $n$ vector bundles is the [[direct sum of vector bundles]] of the rank $n$ universal vector bundle with the trivial rank-1 bundle: there is a [[pullback]] [[diagram]] of [[topological spaces]] of the form
+For each $n \in \mathbb{N}$ the [[pullback bundle|pullback]] of the [[rank]]-$(n+1)$ [[universal vector bundle]] to the [[classifying space]] of rank $n$ vector bundles is the [[direct sum of vector bundles]] of the rank $n$ universal vector bundle with the trivial rank-1 bundle: there is a [[pullback]] [[diagram]] in [[Top]] of the form
 
 $$
   \array{
@@ -122,14 +128,16 @@ $$
     &\longrightarrow&
     E O(n+1) \underset{O(n+1)}{\times} \mathbb{R}^{n+1}
     \\
-    \downarrow &(pb)& \downarrow
+    \big\downarrow 
+    &(pb)& 
+    \big\downarrow
     \\
     B O(n) &\longrightarrow& B O(n+1)
   }
   \,,
 $$
 
-where the bottom morphism is the canonical one ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)).
+where the bottom morphism is the canonical one ([this def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)).
 
 =--
 
@@ -138,7 +146,7 @@ where the bottom morphism is the canonical one ([def.](classifying+space#Inclusi
 +-- {: .proof}
 ###### Proof
 
-For each $k \in \mathbb{N}$, $k \geq n$ there is such a pullback of the canonical vector bundles over [[Grassmannians]]
+For each $k \in \mathbb{N}$, $k \geq n$ there are such pullbacks of the canonical vector bundles over [[Grassmannians]]
 
 $$
   \array{
@@ -162,7 +170,7 @@ $$
   }
 $$
 
-where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). Under taking [[colimit]] over $k$, this produces the claimed pullback.
+where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). Under taking the [[colimit]] over $k$, this produces the claimed pullback.
 
 =--
 
@@ -178,7 +186,7 @@ $$
   \,.
 $$
 
-The image of the top horizontal maps in prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction} under $\Sigma^{-n-1}Th(-)$ are, via prop. \ref{SuspensionOfThomSpaces}, maps of the form
+The image of the top horizontal maps in prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction} under $\Sigma^{\infty - n}Th(-)$ are, via prop. \ref{SuspensionOfThomSpaces}, maps of the form
 
 $$
   M O(n) \longrightarrow M O(n+1)
@@ -269,7 +277,7 @@ to a [[symmetric spectrum]] see ([Hovey-Shipley-Smith 00, example 6.2.3](#HoveyS
 
 
 
-More generally, there are universal Thom spectra associated with any other tangent structure ("[[(B,f)-structure]"), notably for the orthogonal group replaced by the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., or any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, $M Spin$, $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+More generally, there are universal Thom spectra associated with any other tangent structure ("[[(B,f)-structure]]"), notably for the orthogonal group replaced by the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., or any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, $M Spin$, $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
 
 Recall:
 
