@@ -1,7 +1,7 @@
-### Finite-rank complex orientation and MΩSU(n)
+### Finite-rank complex orientation and MΩΩSU(n)
  {#ReferencesFiniteStageOrientations}
 
-On [[complex oriented cohomology theory|complex orientation]] at finite rank and Ravenel's [[MΩSU(n)]]-spectra $X(n)$ and $T(m)$:
+On [[complex oriented cohomology theory|complex orientation]] at finite rank and Ravenel's [[MΩΩSU(n)]]-spectra $X(n)$ and $T(m)$:
 
 * {#Ravenel84} [[Douglas Ravenel]], section 3 of: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
 
