@@ -18,6 +18,9 @@
 
 ## Definition
 
+In the context of [[algebraic topology]], a [[continuous map]] $f \colon X \longrightarrow Y$ between two [[topological spaces]] $X,Y$, is said to be _null homotopic_ if it is [[homotopic]] to a [[constant map]], $g$.
+ 
+
 In the context of [[homological algebra]], a _null homotopy_ is a [[chain homotopy]] from (or to) the [[zero map]].
 
 ## Related concepts
@@ -27,6 +30,10 @@ In the context of [[homological algebra]], a _null homotopy_ is a [[chain homoto
 * [[contractible chain complex]]
 
 ## References
+
+Section 51 of 
+
+* [[James Munkres]], _[[Introduction to Topology]]_
 
 Section 1.4 of 
 
