@@ -1,7 +1,22 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Given a semigroup, we'd like to identify it with the semigroup of its left/right translations. Those are the left/right weakly reductive semigroups. 
+A [[semigroup]] is called _left/right weakly reductive_ if it coincides with the semigroup of its left/right translations.
 
 ## Definition
 
@@ -23,16 +38,18 @@ A left weakly reductive semigroup can be thought of as a class of structures $(S
 
 ## Examples
 
-Any _left monoid_, a semigroup with a left identity element, is a left weakly reductive semigroup. In particular, any monoid is weakly reductive.
+Any _left monoid_, a semigroup with a left identity element, is a left weakly reductive semigroup. In particular, any [[monoid]] is weakly reductive.
 
 Any left weakly reductive commutative semigroup is weakly reductive.
 
-A monogenic semigroup that isn't a group is not weakly reductive.
+A monogenic semigroup that isn't a [[group]] is not weakly reductive.
 
 There exists unique smallest left weakly reductive semigroup which isn't a left monoid. It can be defined as the idempotent semigroup $(\{x, y, z\}, \cdot)$ such that $a\cdot b = z$ for $a\neq b$.
 
 ## References
 
 * A. H. Preston and G. B. Clifford, _The algebraic theory of semigroups: Volume I_, American Mathematical Society (1961)
+
+[[!redirects weakly reductive semigroups]]
 
 
