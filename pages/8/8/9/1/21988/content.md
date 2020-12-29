@@ -3,11 +3,11 @@
 
 On [[complex oriented cohomology theory|complex orientation]] at finite rank and Ravenel's [[MΩSU(n)]]-spectra $X(n)$ and $T(m)$:
 
-* [[Douglas Ravenel]], section 3 of: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
+* {#Ravenel84} [[Douglas Ravenel]], section 3 of: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
 
 * [[Douglas Ravenel]], section 6.5 of: _[[Complex cobordism and stable homotopy groups of spheres]]_
 
-* [[Michael Hopkins]], _Stable decompositions of certain loop spaces_, Northwestern 1984 ([[HopkinsStableDecompositions.pdf:file]])
+* {#Hopkins84} [[Michael Hopkins]], _Stable decompositions of certain loop spaces_, Northwestern 1984 ([[HopkinsStableDecompositions.pdf:file]])
 
 * {#DevinatzHopkinsSmith88} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], Theorem 3 of: _Nilpotence and Stable Homotopy Theory I_, Annals of Mathematics Second Series, Vol. 128, No. 2 (Sep., 1988), pp. 207-241 ([jstor:1971440](https://www.jstor.org/stable/1971440)) 
 
