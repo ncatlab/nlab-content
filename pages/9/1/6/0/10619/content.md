@@ -1362,7 +1362,7 @@ Discussion in more general [[Whitehead generalized cohomology theories]]:
 * Warren M. Krueger, _Relation with the Hopf invariant revisited_, Illinois J. Math.
 Volume 24, Issue 2 (1980), 188-191 ([euclid:ijm/1256047713](https://projecteuclid.org/euclid.ijm/1256047713))
 
-and in relation to the [[Adams spectral sequence]]
+and in relation to the [[Adams spectral sequence]]:
 
 * {#Switzer75} [[Robert Switzer]], Section 19.19 in: _Algebraic Topology - Homotopy and Homology_, Grundlehren der Mathematischen Wissenschaften, Vol. 212, Springer, 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
 
@@ -1371,7 +1371,7 @@ and to the [[f-invariant]]:
 * {#BL09} Mark Behrens, Gerd Laures, _$\beta$-Family congruences and the $f$-invariant_, Geometry & Topology Monographs 16 (2009) 9–29 ([arXiv:0809.1125](https://arxiv.org/abs/0809.1125), [doi: 10.2140/gtm.2009.16.9](https://msp.org/gtm/2009/16/p002.xhtml))
 
 
-Interpretation in [[bordism theory]]:
+Interpretation in [[MUFr]] [[bordism theory]]:
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 16 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
