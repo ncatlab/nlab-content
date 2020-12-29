@@ -222,7 +222,7 @@ The following paper
 
 * [[Ronnie Brown]], [[Philip Higgins]], _On the connections between the second relative homotopy groups of some related spaces_,  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
 
-showed that the theorem of Whitehead on free crossed modules from CH II Sec 16 is a special case of a 2-dimwensional Van Kampen type Theorem for the homotopy crossed modules  (over groupoids) of open unions of "connected" triples $(X,A,S$ of spaces where $S$ is a set of base points. However the proof of the main theorem uses he relation of crossed modules not to cat$^1$-groups but to "double groupoids with connections", also proved with Spencer. full details and references re  in Part I of: 
+showed that the theorem of Whitehead on free crossed modules from CH II Sec 16 is a special case of a 2-dimwensional Van Kampen type Theorem for the homotopy crossed modules  (over groupoids) of open unions of "connected" triples $(X,A,S$ of spaces where $S$ is a set of base points. However the proof of the main theorem uses the relation of crossed modules not to cat$^1$-groups but to "double groupoids with connections", also proved with Spencer. full details and references re  in Part I of: 
 
 
 * [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (2011). 
