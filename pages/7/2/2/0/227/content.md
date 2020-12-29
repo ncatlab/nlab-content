@@ -97,7 +97,7 @@ In usual ring theory people often talk about **[[nonunital rings]]**  as well: m
 
 +-- {: .num_remark} 
 ###### Remark 
-If one removes the assumption that the additive group is abelian but retains the remaining ring axioms, the result is still a ring. More generally, this holds for nonunital rings of which multiplicative semigroup is left/right weakly reductive (e.g., there exists element which can be cancelled from one side).  The result is false for arbitrary nonunital rings: for any group $(G, +, 0)$ we could define multiplication to be the $x\cdot y := 0$, and all the axioms except additive commutativity are trivially satisfied. This occurs because $\cdot$ doesn't distinguish between elements of $G$.
+If one removes the assumption that the additive group is abelian but retains the remaining ring axioms, the result is still a ring. More generally, this holds for nonunital rings of which multiplicative semigroup is left/right [[weakly reductive semigroup|weakly reductive]].  The result is false for arbitrary nonunital rings: for any group $(G, +, 0)$ we could define multiplication to be the $x\cdot y := 0$, and all the axioms except additive commutativity are trivially satisfied. This occurs because $\cdot$ doesn't distinguish between elements of $G$.
 =-- 
 
 ## Generalizations
