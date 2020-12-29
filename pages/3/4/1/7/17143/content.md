@@ -565,10 +565,10 @@ is an [[isomorphism]]. This says that two homotopy classes of morphisms $M U \to
 =--
 
 
-##### Universal finite-rank orientation on MΩSU(n)
+##### Universal finite-rank orientation on MΩΩSU(n)
 
 
-The analogous universal finite-rank complex orientation on [[MΩSU(n)]]: [Hopkins 84,  Prop. 1.2.1](MOmegaSUn#Hopkins84).
+The analogous universal finite-rank complex orientation on [[MΩΩSU(n)]]: [Hopkins 84,  Prop. 1.2.1](MOmegaSUn#Hopkins84).
 
 
 ## Related concepts
