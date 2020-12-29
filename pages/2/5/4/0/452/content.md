@@ -14,16 +14,13 @@
 =--
 
 
-
 #Content#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A _crossed module_  (of groups) was defined in essence by [[J.H.C.Whitehead]] and has been found to be an important  concept in homotopical and homological algebra:
-
-* from the [[nPOV]]: a convenient way to encode a [[strict 2-group]] $G$ in terms of a morphism of two ordinary [[group]]s $\partial : G_2 \to G_1$.
+The concept of _crossed modules_  of groups ([Whitehead 41](#Whitehead41), [Whitehead 49](#Whitehead49)) is a basic concept in [[homotopical algebra]] and [[homological algebra]]: It is (from the [[nPOV]]) a convenient way of encoding a [[strict 2-group]] $G$ in terms of a [[homomorphism]] $\partial : G_2 \to G_1$ of two ordinary [[groups]].
 
 From other points of view it is:
 
@@ -34,7 +31,7 @@ From other points of view it is:
 *  a nonabelian [[chain complex|chain-complex]];
 *  a [[Moore complex]] of certain [[simplicial group]]s.
 
-Historically they were the first example of [[higher dimensional algebra]] to be studied.
+Historically, crossed modules were among the first examples of [[higher dimensional algebra]] to be studied.
 
 ## Definition
 
@@ -202,26 +199,24 @@ This last example was one of the first investigated by Whitehead and his proof a
 
 The second axiom for a crossed module first appeared as footnote 35 on p. 422 of Whitehead's paper:
 
-* [[J.H.C/Whitehead]], On adding relations to homotopy groups. Ann. of Math. (2)
-42 (1941) 409–428. 
+* {#Whitehead41} [[J.H.C. Whitehead]], On adding relations to homotopy groups. Ann. of Math. (2) 42 (1941) 409–428. 
 
 Section 16 of the following paper 
 
-*  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55 (1949), 453--496.
+*  {#Whitehead49} [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55 (1949), 453--496.
 
-proved a key result on "Free crossed modules", and this proof  was given an exposition in 
+proved a key result on "Free crossed modules". An exposition of this proof is in
 
-* [[R. Brown]], ``On the second relative homotopy group of an adjunction space: an exposition of a theorem of J.H.C. Whitehead'',   _ J. London Math. Soc._ (2) 22 (1980) 146-152.
+* [[R. Brown]], _On the second relative homotopy group of an adjunction space: an exposition of a theorem of J.H.C. Whitehead_,   J. London Math. Soc._ (2) 22 (1980) 146-152 ([doi:10.1112/jlms/s2-22.1.146](https://doi.org/10.1112/jlms/s2-22.1.146))
 
 see also
 
 * [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953. 
 
-Note that the geometric core of the proof uses knot theory and transversality arguments which come from the "previous paper" of Whitehead:
+Note that the geometric core of the proof uses [[knot theory]] and transversality arguments which come from the "previous paper" of Whitehead:
 
 
-
-*  ``On adding relations to  homotopy groups.''}. Annals of Math., 42 (1941) 400-428. 
+*  _On adding relations to  homotopy groups_, Annals of Math., 42 (1941) 400-428. 
  
 The following paper 
 
@@ -234,13 +229,13 @@ showed that the theorem of Whitehead on free crossed modules from CH II Sec 16 i
 
 See also 
 
-* [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
+* [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  Homology, Homotopy and Applications, 1 (1999) 1-78.
 
 * {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
 
 
 For wider uses of crossed modules in other algebraic contexts see for example 
 
-[[A. S-T. Lue]], Cohomology of groups relative to a variety. J. Algebra 69 (1) (1981) 155–174.
+* A. S-T. Lue, _Cohomology of groups relative to a variety_, J. Algebra 69 (1) (1981) 155–174.
 
 [[!redirects crossed modules]]
