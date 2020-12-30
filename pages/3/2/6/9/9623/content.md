@@ -25,7 +25,7 @@ Comments on the analogy between [[power operations]] in [[homotopy theory]] and 
 
 On [[configuration spaces of points]] and a possible [[Galois group]] over the [[sphere spectrum]]:
 
-* {#MoravaBeardsly17} [[Jack Morava]], [[Jonathan Beardsley]], _Toward a Galois theory of the integers over the sphere spectrum_,  Journal of Geometry and Physics Volume 131, September 2018, Pages 41-51 ([arXiv:1710.05992](https://arxiv.org/abs/1710.05992))
+* {#MoravaBeardsly17} [[Jack Morava]], [[Jonathan Beardsley]], _Toward a Galois theory of the integers over the sphere spectrum_,  Journal of Geometry and Physics Volume 131, September 2018, Pages 41-51 ([arXiv:1710.05992](https://arxiv.org/abs/1710.05992), [doi:10.1016/j.geomphys.2018.04.011](https://doi.org/10.1016/j.geomphys.2018.04.011))
 
 On [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]:
 
