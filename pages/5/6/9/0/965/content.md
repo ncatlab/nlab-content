@@ -11,7 +11,7 @@
 
 ## Definition
 
-A **suplattice** is a [[partial order|poset]] which has all [[joins]] (and in particular is a join-[[semilattice]]).  By the [[adjoint functor theorem]] for posets, a suplattice necessarily has all [[meet|meets]] as well and so is a [[complete lattice]].  However, a **suplattice homomorphism** preserves joins, but not necessarily meets.  Furthermore, a *[[proper class|large]]* semilattice which has all *small* joins need not have all meets, but might still be considered a large suplattice (even though it may not even be a lattice).
+A **suplattice** is a [[poset]] that has [[joins]] of arbitrary [[subsets]] (and in particular is a join-[[semilattice]]).  By the [[adjoint functor theorem]] for posets, a suplattice necessarily has all [[meet|meets]] as well and so is a [[complete lattice]].  However, a **suplattice homomorphism** preserves joins, but not necessarily meets.  Furthermore, a *[[proper class|large]]* semilattice which has all *small* joins need not have all meets, but might still be considered a large suplattice (even though it may not even be a lattice).
 
 Dually, an __inflattice__ is a poset which has all [[meets]], and an __inflattice homomorphism__ in a monotone function that preserves all meets.
 
