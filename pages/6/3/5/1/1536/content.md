@@ -709,13 +709,13 @@ Discussion of the Grothendieck construction as a [[lax colimit]] includes (see a
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
-An [[enriched category|enriched]] version is discussed in
+The Grothendieck construction in [[enriched category theory]]:
 
-* {#BeardsleyWong18} [[Jonathan Beardsley]], Liang Ze Wong, *The Enriched Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1804.03829) 2018
+* {#BeardsleyWong18} [[Jonathan Beardsley]], Liang Ze Wong, _The Enriched Grothendieck Construction_, Advances in Mathematics, Volume 344, 21 February 2019, Pages 234-261 ([arXiv:1804.03829](https://arxiv.org/abs/1804.03829), [doi:10.1016/j.aim.2018.12.009](https://doi.org/10.1016/j.aim.2018.12.009)) 
 
-A [[monoidal category|monoidal]] version is discussed in
+A [[monoidal category|monoidal]] version:
 
-* {#MoellerVasilakopoulou19} Joe Moeller, [[Christina Vasilakopoulou]], *Monoidal Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1809.00727) 2019
+* {#MoellerVasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], *Monoidal Grothendieck Construction*,  2019 ([arXiv:1809.00727](https://arxiv.org/abs/1809.00727))
 
 
 [[!redirects Grothendieck constructions]]
