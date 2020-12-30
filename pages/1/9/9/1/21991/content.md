@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a [[category]] with [[internal homs]] $[-,-]$ (i.e. a [[closed category]]), given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J(X) \mapsto [[X, S], X]$. It is a [[strong monad]].
+In a [[cartesian closed category]], given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J(X) \mapsto [[X, S], X]$. It is a [[strong monad]].
 
 There is a monad [[homomorphism]] from the selection monad to the [[continuation monad]] for $S$, $K(X) = (X \to S) \to S$, which sends $\epsilon \in J(X)$ to $\bar{\epsilon} \in K(X)$, where $\bar{\epsilon}(p) = p(\epsilon(p))$.
 
@@ -40,3 +40,5 @@ Due to the resemblance of an [[algebra over a monad|algebra]], $J(A) \to A$, to 
 *  {#Escardó-Oliva2012} [[Martín Escardó]] and Paulo Oliva, _The Peirce translation_, Annals of Pure and Applied Logic, 163(6):681–692, 2012, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/peirce.pdf)).
 
 * [[Jules Hedges]], _The selection monad as a CPS transformation_, ([arXiv:1503.06061](https://arxiv.org/abs/1503.06061))
+
+* Martin Abadi, [[Gordon Plotkin]], _Smart Choices and the Selection Monad_, ([arXiv:2007.08926](https://arxiv.org/abs/2007.08926))
