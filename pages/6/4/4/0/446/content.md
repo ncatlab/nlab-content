@@ -49,7 +49,7 @@ and
 \[
   (\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi
 \quad\text{and}\quad
-  \chi (\phi \cap \psi) \leq \chi\phi \cap \psi\chi.
+  \chi (\phi \cap \psi) \leq \chi\phi \cap \chi\psi.
 \]
 \begin{proof}
 The first claim follows from the observation that
@@ -74,7 +74,7 @@ $$
 \end{aligned}
 $$
 
-For the claim $(\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi$ we use the [[horizontal composition]] in a [[locally posetal 2-category]], i.e. the fact that composition is monoton. Due to $\phi \cap \psi \leq \phi$ we get $(\phi \cap \psi)\chi \leq \phi\chi$. Analogously, we get that $(\phi \cap \psi)\chi \leq \psi\chi$. Hence $(\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi$. The claim $\chi (\phi \cap \psi) \leq \chi\phi \cap \psi\chi$ follows the the same arguments or by applying involution and the first claim.
+For the claim $(\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi$ we use the [[horizontal composition]] in a [[locally posetal 2-category]], i.e. the fact that composition is monoton. Due to $\phi \cap \psi \leq \phi$ we get $(\phi \cap \psi)\chi \leq \phi\chi$. Analogously, we get that $(\phi \cap \psi)\chi \leq \psi\chi$. Hence $(\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi$. The claim $\chi (\phi \cap \psi) \leq \chi\phi \cap \chi\psi$ follows the the same arguments or by applying involution and the first claim.
 \end{proof}
 
 ## Examples 
