@@ -25,7 +25,7 @@ $$
   \right\rbrace
 $$
 
-* **relativistic physics**, where every globally hyperbolic Lorentian metric on a manifold equips that manifold naturally with the structure of a causal set: there is a morphism from the point $x$ to the point $y$ in the manifold precisely if $y$ is in the _future_ of $x$, i.e. precisely if there exists a smooth path from $x$ to $y$ whose tangent vector is everywhere non-spacelike with respect to the Lorentzian metric. 
+* **relativistic physics**, where every globally hyperbolic Lorentzian metric on a manifold equips that manifold naturally with the structure of a causal set: there is a morphism from the point $x$ to the point $y$ in the manifold precisely if $y$ is in the _future_ of $x$, i.e. precisely if there exists a smooth path from $x$ to $y$ whose tangent vector is everywhere non-spacelike with respect to the Lorentzian metric. 
 Moreover, the Lorentzian metric on a manifold can essentially  (need to dig out the details here, see discussion at [[smooth Lorentzian space]]) be reconstructed from this poset structure and from a _measure_. This has led to some attempts to use posets as a foundational concept for relativistic physics. 
 
   For more see [[smooth Lorentzian space]]
