@@ -52,9 +52,9 @@ The nilpotence theorem implies that every [[∞-field]] is an [[∞-module]] ove
 
 ## References
 
-* {#Nishida73} [[Goro Nishida]], _The nilpotency of elements of the stable homotopy groups of spheres_, Journal of the Mathematical Society of Japan 25 (4): 707&#8211;732, 
-(1973) ([euclid:euclid.jmsj/1240435467](https://projecteuclid.org/euclid.jmsj/1240435467))
-doi:10.2969/jmsj/02540707, ISSN 0025-5645, MR 0341485.
+* {#Nishida73} [[Goro Nishida]], _The nilpotency of elements of the stable homotopy groups of spheres_, Journal of the Mathematical Society of Japan 25 (4): 707&#8211;732,  (1973) ([euclid:euclid.jmsj/1240435467](https://projecteuclid.org/euclid.jmsj/1240435467), [euclid:jmsj/1240435467](https://projecteuclid.org/euclid.jmsj/1240435467), ISSN 0025-5645, MR 0341485)
+
+* {#Ravenel84} [[Douglas Ravenel]], Section 10.1 of: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
 
 * {#DevinatzHopkinsSmith88} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], _Nilpotence and Stable Homotopy Theory I_, Annals of Mathematics Second Series, Vol. 128, No. 2 (Sep., 1988), pp. 207-241 ([jstor:1971440](https://www.jstor.org/stable/1971440)) 
 
