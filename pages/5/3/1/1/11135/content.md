@@ -28,6 +28,8 @@ In [[computer science]] this [[monad (in computer science)]] is used to model [[
 
 * [[extensive quantity]]
 
+* [[selection monad]]
+
 ## Related concepts
 
 * [[continuation-passing style]]
