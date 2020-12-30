@@ -4,9 +4,13 @@ Finished PhD in 2016 at [JHU](http://mathematics.jhu.edu/) with [[Jack Morava]].
 
 ## Selected writings
 
-On [[Ravenel's spectrum]] $X(2)$:
+On [[Ravenel's spectra]] $X(n)$:
+
+* [[Jonathan Beardsley]], _A Theorem on Multiplicative Cell Attachments with an Application to Ravenel's $X(n)$ Spectra_, Journal of Homotopy and Related Structures volume 14, pages 611–624 (2019) ([arXiv:1708.03042](https://arxiv.org/abs/1708.03042), [doi:10.1007/s40062-018-0222-6](https://link.springer.com/article/10.1007/s40062-018-0222-6))
 
 * [[Jonathan Beardsley]], _Topological Hochschild homology of $X(n)$_ ([arXiv:1708.09486](https://arxiv.org/abs/1708.09486))
+
+
 
 On [[configuration spaces of points]] and a possible [[Galois group]] over the [[sphere spectrum]]:
 
