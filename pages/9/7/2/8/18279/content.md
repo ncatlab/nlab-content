@@ -150,7 +150,7 @@ Let $i \colon LocConn \hookrightarrow Top$ be the [[full subcategory]] inclusion
 +-- {: .num_theorem #coref} 
 ###### Theorem 
 
-$LocConn$ is a [[coreflective subcategory]] of $Top$, i.e., the inclusion $i$ has a [[right adjoint]] $R$. For $X$ a given space, $R(X)$ has the same underlying set as $X$, topologized by letting connected components of open subspaces of $X$ generate a topology. 
+$LocConn$ is a [[coreflective subcategory]] of $Top$, i.e., the inclusion $i$ has a [[right adjoint]] $R$. For $X$ a given space, $R(X)$ has the same underlying set as $X$ and the coarsest locally connected topology that is finer than the original topology on $X$. 
 
 =-- 
 
