@@ -117,7 +117,7 @@ $$
   \,.
 $$
 
-Accordingly, the [[Brown representability theory|corresponding]] [[tower]] of [[Whithead generalized cohomology theories]] interpolated between [[stable Cohomotopy]] and complex [[cobordism cohomology]].
+Accordingly, the [[Brown representability theorem|corresponding]] [[tower]] of [[Whitehead generalized cohomology theories]] interpolated between [[stable Cohomotopy]] and complex [[cobordism cohomology]].
 
 
 ## Related concepts
