@@ -28,14 +28,14 @@ $$
   B (T^n) \overset{f}{\longrightarrow} B G
 $$ 
 
-such that  the induced pullback of [[cohomology rings]] is an [[injective function]]
+such that  the induced [[pullback in cohomology|pullback]] of [[cohomology rings]] is an [[injective function]]:
 
-   $$
-     f^\ast \;\colon\; H^\bullet(B G) \hookrightarrow H^\bullet(B T^n)
-     \,,
-   $$
+$$
+  f^\ast \;\colon\; H^\bullet(B G) \hookrightarrow H^\bullet(B T^n)
+  \,,
+$$
 
-   hence allowing to view the cohomology of $G$-[[principal ∞-bundles]] in terms of that of plain [[torus]]-[[principal bundles]].
+hence allowing to view the cohomology of $G$-[[principal ∞-bundles]] in terms of that of plain [[torus]]-[[principal bundles]].
 
 
 In particular for $G$ a classical [[compact Lie group]] such as the [[unitary group]], the splitting principle holds and allows to express [[Chern classes]] of [[complex vector bundles]] as algebraic expressions in just [[first Chern classes]] of [[complex line bundles]].
