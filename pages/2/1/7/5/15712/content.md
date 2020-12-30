@@ -31,6 +31,10 @@ On the [[selection monad]]:
 
 * [[Martín Escardó]] and Paulo Oliva, _Selection Functions, Bar Recursion, and Backward Induction_, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/selection-escardo-oliva.pdf))
 
+* [[Martín Escardó]] and Paulo Oliva, _What Sequential Games, the Tychonoff Theorem and the Double-Negation Shift have in Common_, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/msfp2010/Escardo-Oliva-MSFP2010.pdf))
+
+*  {#Escardó-Oliva2012} [[Martín Escardó]] and Paulo Oliva, _The Peirce translation_, Annals of Pure and Applied Logic, 163(6):681–692, 2012, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/peirce.pdf)).
+
 
 category: people
 
