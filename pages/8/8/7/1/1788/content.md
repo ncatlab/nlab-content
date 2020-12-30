@@ -1,4 +1,6 @@
 
+$\rightrightarrows$
+
 The definition of the $E$-Chern classes according to [Conner-Floyd 66, Theorem 7.5](#ConnerFloyd66) proceeds as follows.
 
 Let $n \in \mathbb{N}$. Let $c_1^E$ in
@@ -15,11 +17,11 @@ $$
     \\
     \big\downarrow & \nearrow_{ \mathrlap{ c_1^E } }
     \\
-    \mathbb{C}P^n
+    \mathbb{C}P^\infty
   }
 $$
 
-be a rank-$(n+1)$ [[complex oriented cohomology|complex orientation]].
+be a [[complex oriented cohomology|complex orientation]].
 
 For $\mathcal{V} \longrightarrow X$ a [[complex vector bundle]] of [[rank of a vector bundle|rank]] $n + 1$ consider the diagram
 
