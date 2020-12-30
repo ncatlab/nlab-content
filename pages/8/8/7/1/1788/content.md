@@ -1,4 +1,55 @@
 
+\begin{xymatrix}
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  \ar@/^3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{C}}\; }_-{\ }="s1"
+  &
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  \ar@/_3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{D}}\; }^-{\ }="t2"
+  & 
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  &
+  \mathcal{D}
+  &
+    =
+  &
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  & 
+  \mathcal{D}
+  %
+  \ar@{=>}^\eta "s1"+(0,-2); "s1"+(0,-8)
+  \ar@{=>}^\epsilon "t2"+(0,8); "t2"+(0,2)
+\end{xymatrix}
+
+\begin{xymatrix}
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  \ar@/_3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{D}}\; }^-{\ }="s1"
+  &
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  \ar@/^3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{C}}\; }_-{\ }="t2"
+  & 
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  &
+  \mathcal{C}
+  &
+    =
+  &
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  & 
+  \mathcal{C}
+  %
+  \ar@{=>}^\eta "t2"+(0,-2); "t2"+(0,-8)
+  \ar@{=>}^\epsilon "s1"+(0,8); "s1"+(0,2)
+\end{xymatrix}
+
+
 Let $n \in \mathbb{N}$. Let
 
 $$
