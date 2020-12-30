@@ -1,77 +1,30 @@
 
-\begin{xymatrix}
-  \mathcal{C}
-  \ar[r]|-{ \;L\; }
-  \ar@/^3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{C}}\; }_-{\ }="s1"
-  &
-  \mathcal{D}
-  \ar[r]|-{ \;R\; }
-  \ar@/_3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{D}}\; }^-{\ }="t2"
-  & 
-  \mathcal{C}
-  \ar[r]|-{ \;L\; }
-  &
-  \mathcal{D}
-  &
-    =
-  &
-  \mathcal{C}
-  \ar[r]|-{ \;L\; }
-  & 
-  \mathcal{D}
-  %
-  \ar@{=>}^\eta "s1"+(0,-2); "s1"+(0,-8)
-  \ar@{=>}^\epsilon "t2"+(0,8); "t2"+(0,2)
-\end{xymatrix}
+The definition of the $E$-Chern classes according to [Conner-Floyd 66, Theorem 7.5](#ConnerFloyd66) proceeds as follows.
 
-\begin{xymatrix}
-  \mathcal{D}
-  \ar[r]|-{ \;R\; }
-  \ar@/_3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{D}}\; }^-{\ }="s1"
-  &
-  \mathcal{C}
-  \ar[r]|-{ \;L\; }
-  \ar@/^3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{C}}\; }_-{\ }="t2"
-  & 
-  \mathcal{D}
-  \ar[r]|-{ \;R\; }
-  &
-  \mathcal{C}
-  &
-    =
-  &
-  \mathcal{D}
-  \ar[r]|-{ \;R\; }
-  & 
-  \mathcal{C}
-  %
-  \ar@{=>}^\eta "t2"+(0,-2); "t2"+(0,-8)
-  \ar@{=>}^\epsilon "s1"+(0,8); "s1"+(0,2)
-\end{xymatrix}
-
-
-Let $n \in \mathbb{N}$. Let
+Let $n \in \mathbb{N}$. Let $c_1^E$ in
 
 $$
   \array{
-    & \mathbb{C}P^n
-    \\
-    &
-    \nearrow
-    &
-    \big\downarrow {}^{ c_1^E }
-    \\
     \mathbb{C}P^1
-    &\underset{\Sigma^2 (1^E)}{\longrightarrow}&
+    &
+      \overset
+        { \Sigma^2 (1^E) }
+        {\longrightarrow}
+    &
     E_2
+    \\
+    \big\downarrow & \nearrow_{ \mathrlap{ c_1^E } }
+    \\
+    \mathbb{C}P^n
   }
 $$
 
-be a rank-$(n+1)$ complex orientation.
+be a rank-$(n+1)$ [[complex oriented cohomology|complex orientation]].
 
 For $\mathcal{V} \longrightarrow X$ a [[complex vector bundle]] of [[rank of a vector bundle|rank]] $n + 1$ consider the diagram
 
-$$
+\[
+  \label{ProjectiveBundleInConstructionOfConnerFloydClasses}
   \array{
     &&
     \mathcal{V}' 
@@ -102,47 +55,13 @@ $$
         {\longrightarrow}
     &
     X
-    \\
-    &&
-    \big\{
-      \underset{
-        \mathclap{
-          1 
-          + 
-          \cdots 
-          + 
-          c^E_{n}(\mathcal{V}')
-          + 
-          0
-        }
-      }{
-        \underbrace{
-          c^E(\mathcal{V}')
-        }
-      }
-      \cdot
-      \big(
-        1 + c^E_1(\mathcal{L})
-      \big)
-    \big\}    
-    &
-    \underset{
-      \pi^\ast
-    }{
-      \longleftarrow
-    }
-    &
-    \big\{
-      c^E(\mathcal{V})
-    \big\}
-    \\
   }
-$$  
+\]
 
 where 
 
 $$
-  P\mathcal{V}) 
+  P(\mathcal{V}) 
   \;\coloneqq\;  
   \big(
     \mathcal{V} \setminus \{ X \times \{0\} \} 
@@ -151,33 +70,81 @@ $$
   S(\mathcal{V})/\mathrm{U}(1)
 $$
 
-is the [[projective bundle]] of $\mathcal{V}$, with [[typical fiber]] the [[complex projective spaces]] $\mathbb{C}P^n$.
+is the [[projective bundle]] of $\mathcal{V}$, with [[typical fiber]] the [[complex projective spaces]] $\mathbb{C}P^n$, and where in the middle we are displaying the [[splitting principle|splitting]] of the [[pullback bundle]] of $E$ into a [[direct sum of vector bundles|direct sum]] of a [[line bundle]] $\mathcal{L}$ with a remaining vector bundle $\mathcal{V}'$ of rank just $n$.
+
+Using the defining conditions on the total Conner-Floyd Chern class 
 
 $$
-  c^E(\mathcal{V}')
-  \;=\;
-  \pi^\ast 
   c^E(\mathcal{V})
-  \cdot
-  \big(
-    1 + c_1^E(\mathcal{L}) 
-  \big)^{-1}
   \;\coloneqq\;
+  1 
+    + 
+  c_1^E(\mathcal{V})
+    + 
+  c_2^E(\mathcal{V})
+    + 
+  c_3^E(\mathcal{V})
+    + 
+  \cdots
+$$
+
+that
+
+1. on a line bundle we have $c^E(\mathcal{L}) =  1 + c_1^E(\mathcal{L})$ for the given complex orientation $c_1^E$;
+
+1. on a [[direct sum of vector bundles]] we have the [Whitney sum formula](Chern+class#WhitneySumFormula) $c^E(\mathcal{V} \oplus \mathcal{W}) \;=\; c^E(\mathcal{V}) \cdot c^E(\mathcal{W})$
+
+we see from (eq:ProjectiveBundleInConstructionOfConnerFloydClasses) that
+
+$$
   \pi^\ast
   \big(
-    c^E(\mathcal{V})
+    c^E(\mathcal{V})  
   \big)
+  \;=\;
+  c^E(\mathcal{V}')
   \cdot
-  \underset{i}{\sum} 
-  (-1)^k 
   \big(
-    c_1^E(\mathcal{L})
-  \big)^k
+    1 + c^E_1(\mathcal{L})
+  \big)
+  \;\;\;
+  \in
+  \;
+  E^\bullet\big( P(\mathcal{V}) \big)
 $$
 
-Hence in degree $2(n+1)$:
+and hence
 
 $$
+  \begin{aligned}
+    c^E(\mathcal{V}')
+    & =\;
+    \pi^\ast 
+    c^E(\mathcal{V})
+    \cdot
+    \big(
+      1 + c_1^E(\mathcal{L}) 
+    \big)^{-1}
+    \\
+    & \coloneqq\;
+    \pi^\ast
+    \big(
+      c^E(\mathcal{V})
+    \big)
+    \cdot
+    \underset{i}{\sum} 
+    (-1)^k 
+    \big(
+      c_1^E(\mathcal{L})
+    \big)^k
+  \end{aligned}
+  \,,
+$$
+
+But since $\mathcal{V}'$ is just of rank $n$, we must have $c^E_{n+1}(\mathcal{V}') = 0$, and hence in degree $2(n+1)$ this condition reads as follows:
+
+\[
+  \label{DefiningConditionOnConnerFloydChernClasses}
   0
   \;=\;
   \pi^\ast
@@ -212,14 +179,38 @@ $$
   }
   - 
   \cdots
-  + 
-  (-1)^{n+1}
-  {\color{orange}
-    \big(
-      c_1^E(\mathcal{L}) 
-    \big)^{n+1}
-  }
-$$
+  \,.
+\]
+
+It is now sufficient to observe that 
+
+1. the $E$-cohomology of $P(\mathcal{V})$ is a [[free module|free]] $E^\bullet(X)$-[[module]] spanned by the first cup powers of $c_1^E(\mathcal{L})$
+
+   \[
+     \label{ECohomologyOfProjectiveBundle}
+     E^\bullet\big( P(\mathcal{V})  \big) 
+       \;\simeq\; 
+     E^\bullet(X)\Big\langle 1, c_1^E(\mathcal{L}), \big(c_1^E(\mathcal{L})\big)^2, \cdots  \rangle]
+   \]
+
+1. and in particular 
+
+   $$
+     \pi^\ast \;\colon\; E^\bullet( X ) \longrightarrow E^\bullet\big( P(\mathcal{V}) \big)
+   $$ 
+
+   is an [[injective function]],
+
+because together this means that (eq:DefiningConditionOnConnerFloydChernClasses) has a unique solution for classes $c_n^E(\mathcal{V}) \,\in\, E^{2n}(X)$ -- these are the Conner-Floyd Chern classes of $\mathcal{V}$.
+
+But (eq:ECohomologyOfProjectiveBundle) holds on $\mathbb{C}P^n$ after pullback along $fib_x$ (by basic arguments in [[complex oriented cohomology theory]], e.g. [Lurie 10, Lecture 4, Example 8](#LurieLecture)) and hence holds on $P(\mathcal{V})$ by the generalized-cohomology version of the [[Leray-Hirsch theorem]] ([Conner-Floyd 66, Thm. 7.4](#ConnerFloyd66))
+
+* {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes, 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html))
+
+  Lecture 4 _Complex-oriented cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
+
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorem 7.5 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 
 
