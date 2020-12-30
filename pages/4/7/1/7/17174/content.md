@@ -97,4 +97,4 @@ Review of the theorem for [[ordinary cohomology]]:
 
 Discussion for [[Whitehead-generalized cohomology|Whitehead-generalized]] [[multiplicative cohomology theories]]:
 
-* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 7 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorem 7.4 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
