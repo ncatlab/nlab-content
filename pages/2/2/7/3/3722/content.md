@@ -91,7 +91,7 @@ Let $(X,\tau)$ be a [[topological space]].
 
 +-- {: .num_lemma #UnionOfOpensGivesClosure}
 ###### Lemma
-**(alternative characterization of topological cosures)**
+**(alternative characterization of topological closures)**
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
 set. Then a point $x \in X$ is contained in the topological closure $Cl(S)$ (def. \ref{ClosedSubset})
