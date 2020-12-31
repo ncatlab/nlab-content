@@ -17,7 +17,7 @@ This page collects links related to
 
 * [[John Frank Adams]], 
 
-  _Stable homotopy and generalized homology_, 
+  **Stable homotopy and generalized homology** 
 
   Chicago Lectures in Mathematics, 1974
 
