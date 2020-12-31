@@ -19,6 +19,7 @@
 The concept of _projective bundle_ is the generalization of that of _[[projective space]]_ from [[vector spaces]] to [[vector bundles]].
 
 ## Definition
+  {#Definition}
 
 For $\pi_E \colon E \to X$ a [[topological vector bundle]] over some [[topological field]] $k$, write $E \setminus X \subset E$ for its [[complement]] of the [[zero section]], regarded with its [[subspace topology]]. 
 
@@ -143,6 +144,125 @@ This way, eventually one finds a [[pullback bundle]] of $E$ which is entirely a 
 This is one incarnation of the _[[splitting principle]]_. 
 
 
+## Examples
+
+
++-- {: .num_prop #ComplexProjectiveBundleOfQuaternTautologicalLineBundleIsComplexProjSpace} 
+###### Proposition
+**([[complex numbers|complex]] [[projective bundle]] of [[quaternionic vector bundle|quaternionic]] [[tautological line bundle]] is [[complex projective space]])**
+
+For $n \in \mathbb{N}$, the [[projective bundle]] of the [[rank of a vector bundle|rank]]=2 [[complex vector bundle]] underlying the [[quaternionic line bundle]] which is the [[tautological line bundle]] $\mathcal{L}_{{}_{\mathbb{H}P^n}}$ over [[quaternionic projective space]] $\mathbb{H}P^n$ is the [[complex projective space]] $\mathbb{C}P^{2n+1}$ equipped with the map that sends complex lines to the quaternionic lines that they span:
+
+$$
+  \array{
+    P_{\mathbb{C}}
+    \big(
+      \mathcal{L}_{{}_{\mathbb{H}P^n}} 
+    \big)
+    && 
+      \simeq
+    &&
+    \mathbb{C}P^{2n+1}
+    \\
+    & 
+    \searrow 
+    && 
+    \swarrow_{ 
+      \mathrlap{
+        v \cdot \mathbb{C}^\times 
+        \,\mapsto\,
+        v \cdot \mathbb{H}^\times 
+      } 
+    }
+    \\
+    && \mathbb{H}P^n
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute as follows:
+
+$$
+  \begin{aligned} 
+    P_{\mathbb{C}}
+    \big(
+      \mathcal{L}_{\mathbb{H}P^n} 
+    \big)
+    & = \;
+    \Big(
+      \mathbb{L}_{{}_{\mathbb{H}P^n}}
+      \setminus 
+      \big(
+        \mathbb{H}P^n \times \{0\}
+      \big)
+    \Big)
+    \big/
+    \mathbb{C}^\times
+    \\
+    & = \;
+    \Big(
+      \big(
+        \mathbb{H}^{n+1} \setminus \{0\}
+      \big)
+      \underset
+      {
+        \mathbb{H}^\times
+      }{
+        \times
+      }
+      \big(
+        \mathbb{H} \setminus \{0\}
+      \big)
+    \Big)
+    \big/
+    \mathbb{C}^\times
+    \\
+    & 
+    \simeq\;
+    \Big(
+      \big(
+        \mathbb{H}^{n+1} \setminus \{0\}
+      \big)
+      \times
+      \{1\}
+    \Big)
+    \big/
+    \mathbb{C}^\times
+    \\
+    & \simeq
+    \big(
+      \mathbb{C}^{2n+2} 
+    \big)
+    \big/
+    \mathbb{C}^\times
+    \\
+    & \simeq \;
+    \mathbb{C}P^{2n+1}
+    \,.
+  \end{aligned}
+$$
+
+Here:
+
+1. The first line is the definition of the complex projective bundle ([here](#Definition));
+
+1. the second line inserts the definition of the tautological quaternionic line bundle ([here](tautological+line+bundle#BareDefinition));
+
+1. the third line observes that, being away from its [[zero section]], we have unique representatives of the elements in its defining [[quotient space]] whose fiber component is the unit $1 \in \mathbb{C} \subset \mathbb{H}$;
+
+1. the fourth line identifies the evident underlying $\mathbb{C}^\times$[[G-space|-space]];
+
+1. the fifth line is the definition of complex projective space.
+
+This shows that the total space is as claimed. 
+
+Moreover, since the projection map is the [[quotient space]] projection from this by the full $\mathbb{H}^\times$-action, the same computation with $(-)/\mathbb{C}^\times$ replaced by $(-)/\mathbb{H}^\times$ shows that the bundle map is as claimed.
+
+=--
 
 ## Related entries
 
