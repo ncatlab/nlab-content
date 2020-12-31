@@ -276,7 +276,7 @@ If $E$ is a [[multiplicative cohomology theory|multiplicative]]
 
 ## References
 
-* [[Andrew Baker]], _Some chromatic phenomena in the homotopy of $MSp$_, in: N. Ray, G. Walker (eds.), _Adams Memorial Symposium on Algebraic Topology, Vol. 2_ editors, Cambridge University Press (1992), 263–80 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/bpmsp.pdf), [[BakerMSp.pdf:file]])
+* {#Baker92} [[Andrew Baker]], _Some chromatic phenomena in the homotopy of $MSp$_, in: N. Ray, G. Walker (eds.), _Adams Memorial Symposium on Algebraic Topology, Vol. 2_ editors, Cambridge University Press (1992), 263–80 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/bpmsp.pdf), [[BakerMSp.pdf:file]])
 
 * {#Laughton08} [[Craig Laughton]], Example 2.2.5 in: _Quasitoric manifolds and cobordism theory_, Manchester 2008 ([pdf](http://www.ma.man.ac.uk/~nige/craiglphd.pdf), [[LaughtonQuasitoric.pdf:file]])
 
