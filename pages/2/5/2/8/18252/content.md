@@ -23,7 +23,7 @@ The canonical [[line bundle]] over a [[projective space]] is sometimes called it
 ### Bare definition
   {#BareDefinition}
 
-Let $k$ be a [[field]] and $n \in \mathbb{N}$ a [[natural number]].
+Let $k$ be a [[field]] (or more generally a [[ring]]) and $n \in \mathbb{N}$ a [[natural number]].
 Then the _tautological $k$-line bundle_ over the [[projective space]] $k P^n$ is the following vertical [[bundle]] map:
 
 \[
@@ -71,7 +71,7 @@ Then the _tautological $k$-line bundle_ over the [[projective space]] $k P^n$ is
 
 Here 
 
-* $k^{n+1} \coloneqq \underset{k\;summands}{\underbrace{\coloneqq k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]];
+* $k^{n+1} \coloneqq \underset{k\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]];
 
 * $k^\times \,\coloneqq\, k \setminus \{0\}$ is the [[group of units]] of $k$;
 
