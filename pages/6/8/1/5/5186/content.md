@@ -284,6 +284,12 @@ Discussion in terms of [[BV-formalism]] includes
 
 * [[Alberto Cattaneo]], Michele Schiavina, _On time_ ([arXiv:1607.02412](http://arxiv.org/abs/1607.02412))
 
+See also
+
+* Benjamin Koch, Enrique Muñoz, _Path integral of the relativistic point particle in Minkowski space_ ([arXiv:2012.15242](https://arxiv.org/abs/2012.15242))
+
+
+
 [[!redirects relativistic particles]]
 
 [[!redirects quantum relativistic particle]]
