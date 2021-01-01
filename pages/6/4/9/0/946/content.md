@@ -114,7 +114,10 @@ If we restrict to a [[finite set|finite]] underlying set, then the categories $\
 
 Write $AlexLocale$ for the non-[[full subcategory|full]] [[subcategory]] of [[Locale]] whose
 
-* [[object]]s are __Alexandroff locales__, that is locales of the form $Alex P$ for $P\in Poset$ with $Open(Alex(P)) = UpSets(P)$;
+* [[object]]s are __Alexandroff locales__, that is locales of the form $Alex P$ for $P\in Poset$ with $Open(Alex(P)) = UpSets(P)$.
+Equivalently, Alexandroff locales can be defined as [[locales]]
+that admit a [[base]] consisting of supercompact opens,
+i.e., opens $a$ for which any open cover of $a$ contains $a$ itself.
 
 * [[morphisms]] are those morphisms of locales $f\colon Alex P \to Alex Q$, for which the dual [[inverse image]] morphism of [[frames]] $f^*\colon UpSet(Q) \to UpSet(P)$ has a [[left adjoint]] $f_!\colon UpSet(P) \to UpSet(Q)$.
 =--
@@ -131,11 +134,13 @@ By the definition of the [[2-category]] [[Locale]] (see there), this means that 
 ###### Proposition
 
 The functor $Alex\colon Poset \to Locale$ factors through $AlexLocale$ and exhibits an [[equivalence of categories]]
-
 $$
-  Alex\colon Poset \stackrel{\simeq}{\to} AlexLocale
-  \,.
+  Alex\colon Poset \stackrel{\simeq}{\to} AlexLocale.
 $$
+The inverse functor $$AlexLocale\to Poset$$
+sends a locale $L$ to the [[poset]] of supercompact elements of $L$ (defined above)
+and morphism $f\colon L\to L'$ to the restriction of $f_!$
+to supercompact elements (which are preserved by $f_!$).
 =--
 
 This appears as ([Caramello, theorem 4.2](#Caramello)).
