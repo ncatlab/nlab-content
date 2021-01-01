@@ -153,3 +153,4 @@ See also
 * wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
 
 [[!redirects Morita equivalences]]
+[[!redirects Morita equivalent]]
