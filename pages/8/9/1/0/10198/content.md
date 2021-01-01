@@ -67,7 +67,9 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 
 * William Bragg Ewald, _From Kant to Hilbert, From Kant to Hilbert: Readings in the Foundations of Mathematics_, 2 vols. (original readings in English translation)
 
-* Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
+* Paolo Mancosu, _Philosophy of mathematics and mathematical practice in the seventeenth century_, OUP, 1996.
+
+* Imre Lakatos, _Proof and refutations_
 
 The role of [[Heraclitus]]:
 
