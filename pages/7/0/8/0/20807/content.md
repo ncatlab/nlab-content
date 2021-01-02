@@ -379,7 +379,7 @@ The [[fuzzy spheres]] appear in [[D-brane geometry]]:
 
 1. the [[fuzzy funnels]] of [[Dp-D(p+2)-brane intersections]] have [[fuzzy 2-sphere]] slices
 
-1. the [[fuzzy funnels]] of [[Dp-D(p+4)-brane intersections]] have [[fuzzy 4-sphere]] slides
+1. the [[fuzzy funnels]] of [[Dp-D(p+4)-brane intersections]] have [[fuzzy 4-sphere]] slices
 
 1. the [[supersymmetry|supersymmetric]] [[classical field theory|classical]] solutions of the [[BMN matrix model]] are precisely [[fuzzy 2-sphere]] configurations ([BMN 02 (5.4)](BMN+matrix+model#BerensteinMaldacenaNastase02)).
 
