@@ -7,4 +7,5 @@
 
 > An immediate byproduct of our result is that there is an efficient reduction from the Halting Problem to the problem of deciding whether a two-player nonlocal game has entangled value 1 or at most 1/2. Using a known connection, undecidability of the entangled value implies a negative answer to Tsirelson's problem: we show, by providing an explicit example, that the closure Cqa of the set of quantum tensor product correlations is strictly included in the set Cqc of quantum commuting correlations. Following work of (Fritz, Rev. Math. Phys. 2012) and (Junge et al., J. Math. Phys. 2011) our results provide a refutation of [[Connes' embedding conjecture]] from the theory of von Neumann algebras. 
 
-* Henry Yuen, _A tale of turing machines, quantum-entangled particles, and operator algebras_,   [yt]() zoom presentation
+* Henry Yuen, _A tale of Turing machines, quantum-entangled particles, and operator algebras_, [yt](https://www.youtube.com/watch?v=XReR87kFrS4) zoom presentation
+* William Slofstra (University of Waterloo), _The algebraic side of MIP* = RE_, [yt](https://www.youtube.com/watch?v=vkrWHo8JYJg) zoom presentation, Simons Institute
