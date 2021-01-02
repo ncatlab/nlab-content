@@ -18,11 +18,6 @@
 =--
 
 
-
-
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -44,7 +39,7 @@ Under the process of forming [[groupoid convolution algebras]] a good bit of com
 
 ### Connes' noncommutative geometry 
 
-A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. This is really "spectral" and possibly non-commutative [[Riemannian geometry]], where the metric structure on a possibly noncommutative "[[algebra of functions]]" is encoded by a structure called a _[[spectral triple]]_ (see there for more). 
+A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. This is really "[[spectrak geometry|spectral]]" and possibly non-commutative [[Riemannian geometry]], where the metric structure on a possibly noncommutative "[[algebra of functions]]" is encoded by a structure called a _[[spectral triple]]_ (see there for more). 
 
 The central ingredients in Connes' noncommutative geometry are
 
@@ -140,6 +135,6 @@ Noncommutative formal geometry, concerned with objects like infinitesimal neighb
 [[!redirects non-commutative space]]
 [[!redirects non-commutative spaces]]
 
-
+[[!redirects Connes noncommutative geometry]]
 
 
