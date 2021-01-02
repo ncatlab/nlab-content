@@ -29,7 +29,7 @@ Where [[D-brane charge]] is the [[charge]] in [[K-theory]] carried by [[D-branes
 
 That the [[elliptic genus]] of the [[self-dual string]] on the [[M5-brane]] should be the M5-brane charge in [[elliptic cohomology]] in higher analogy to [[D-brane charge]] in [[K-theory]] is due to
 
-* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
+* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
 
 Discussion of computation of the [[elliptic genus]]/[[Witten genus]] of the self-dual string on the M5-brane includes
 
