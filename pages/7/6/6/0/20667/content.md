@@ -133,6 +133,9 @@ Relation of [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[
 [[!redirects Dp-D(p+4) brane intersection]]
 [[!redirects Dp-D(p+4) brane intersections]]
 
+[[!redirects Dp-D(p+4)-brane intersection]]
+[[!redirects Dp-D(p+4)-brane intersections]]
+
 [[!redirects Dp/D(p+4)-brane bound states]]
 [[!redirects Dp/D(p+4)-brane bound state]]
 
