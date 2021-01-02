@@ -84,7 +84,7 @@ Discussion of [[D2-branes]] [[D-brane polarization|polarizing]] to [[D2-D4 brane
 
 Polarization into [[torus]] shape:
 
-* Yoshifumi Hyakutake, _Torus-like Dielectric D2-brane_, 	JHEP 0105:013, 2001 ([arXiv:hep-th/0103146](https://arxiv.org/abs/hep-th/0103146))
+* Yoshifumi Hyakutake, _Torus-like Dielectric D2-brane_, JHEP 0105:013, 2001 ([arXiv:hep-th/0103146](https://arxiv.org/abs/hep-th/0103146))
 
 * Tatsuma Nishioka, Tadashi Takayanagi, _Fuzzy Ring from M2-brane Giant Torus_, JHEP 0810:082, 2008 ([arXiv:0808.2691](https://arxiv.org/abs/0808.2691))
 
@@ -92,8 +92,7 @@ Discussion of [[D4-branes]] polarizing into [[NS5-branes]]:
 
 * [[Iosif Bena]], Calin Ciocarlie, _Exact $\mathcal{N}=2$ Supergravity Solutions With Polarized Branes_, Phys. Rev. D70 (2004) 086005 ([arXiv:hep-th/0212252](https://arxiv.org/abs/hep-th/0212252))
 
-* [[Iosif Bena]], [[Radu Roiban]], _$\mathcal{N}=1*$ in 5 dimensions: Dijkgraaf-Vafa meets Polchinski-Strassler_, 	JHEP 0311 (2003) 001 ([arXiv:hep-th/0308013](https://arxiv.org/abs/hep-th/0308013))
-
+* [[Iosif Bena]], [[Radu Roiban]], _$\mathcal{N}=1^\ast$ in 5 dimensions: Dijkgraaf-Vafa meets Polchinski-Strassler_, JHEP 0311 (2003) 001 ([arXiv:hep-th/0308013](https://arxiv.org/abs/hep-th/0308013))
 
 
 
@@ -106,7 +105,7 @@ Polarization of [[fractional D-branes]]:
  {#ReferencesSupertubes}
 
 
-* [[David Mateos]], [[Paul Townsend]], _Supertubes_,  	Phys. Rev. Lett. 87 (2001) 011602 ([arXiv:hep-th/0103030](https://arxiv.org/abs/hep-th/0103030))
+* [[David Mateos]], [[Paul Townsend]], _Supertubes_, Phys. Rev. Lett. 87 (2001) 011602 ([arXiv:hep-th/0103030](https://arxiv.org/abs/hep-th/0103030))
 
 * [[Martin Kruczenski]], [[Robert Myers]], [[Amanda Peet]], David J. Winters, _Aspects of supertubes_, JHEP 0205:017, 2002 ([arXiv:hep-th/0204103](https://arxiv.org/abs/hep-th/0204103))
 
