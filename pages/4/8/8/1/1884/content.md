@@ -223,10 +223,10 @@ $$
   ([E_+], [E_-]) \; \in Vect(X)_{/\sim} \times Vect(X)_{/\sim}
 $$
 
-of [[isomorphism classes]] of [[topological vector bundles]] on $X$, with respect to the
-[[equivalence relation]]
+of [[isomorphism classes]] of [[topological vector bundles]] on $X$, with respect to the [[equivalence relation]]
 
-$$
+\[
+  \label{DefiningEquivalenceRelation}
   \big(
   \left(
     [E_+], [E_-]
@@ -246,7 +246,7 @@ $$
     \right)
   \right)
   \,.
-$$
+\]
 
 Here a pair $([E_+], [E_-])$ is also called a _[[virtual vector bundle]]_, and its equivalence class under the
 above equivalence relation is also denoted
