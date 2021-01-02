@@ -19,9 +19,9 @@
 
 ## Idea
 
-**Arithmetic topology** is a theory describing some surprising [[analogies]] between [[low-dimensional topology|3-dimensional topology]] and [[number theory]] ([[arithmetic]]), where [[knots]] embedded in a [[3-manifold]] behave like [[prime ideals]] in a [[ring of algebraic integers]]. See also at _[Spec(Z) -- As a 3d space containing knots](Spec%28Z%29#As3dSpaceContainingKnots)_.
+**Arithmetic topology** is a theory describing some surprising [[analogies]] between [[low-dimensional topology|3-dimensional topology]] and [[number theory]] ([[arithmetic]]), where [[knots]] embedded in a [[3-manifold]] behave like [[prime ideals]] in a [[ring of algebraic integers]]. See also at _[Spec(Z) -- As a 3d space containing knots](Spec%28Z%29#As3dSpaceContainingKnots)_.  More broadly, the scope of arithmetic topology is now taken to include the intersection of [[arithmetic geometry]],  [[algebraic topology]] and [[low-dimensional topology]] (see [GGW20](#GGW20)).
 
-Under this analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rational numbers]] $\mathbb{Q}$, or rather (the closure of) $spec(\mathcal{O}_{\mathbb{Q}})$ (i.e., $spec(\mathbb{Z})$), since the 3-sphere has no non-trivial ([[branched cover|unbranched]]) covers while $\mathbb{Q}$ has no non-trivial [[unramified extensions]]. The [[linking number]] between two embedded knots in the 3-sphere then corresponds to the [[Legendre symbol]] between two primes in the ordinary integers.
+Under the original analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rational numbers]] $\mathbb{Q}$, or rather (the closure of) $spec(\mathcal{O}_{\mathbb{Q}})$ (i.e., $spec(\mathbb{Z})$), since the 3-sphere has no non-trivial ([[branched cover|unbranched]]) covers while $\mathbb{Q}$ has no non-trivial [[unramified extensions]]. The [[linking number]] between two embedded knots in the 3-sphere then corresponds to the [[Legendre symbol]] between two primes in the ordinary integers.
 
 The so-called _M^2KR dictionary_ (Mazur-Morishita-Kapranov-Reznikov) relates terms from each side of the analogy (see sec 2.2 of [Sikora](#Sikora)).
 
@@ -111,7 +111,7 @@ for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
 * {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012, Springer, ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
 
-* Claudio Gómez-Gonzáles, [[Jesse Wolfson]], _Problems in Arithmetic Topology_ ([arXiv:2012.15434](https://arxiv.org/abs/2012.15434))
+* {#GGW20} Claudio Gómez-Gonzáles, [[Jesse Wolfson]], _Problems in Arithmetic Topology_ ([arXiv:2012.15434](https://arxiv.org/abs/2012.15434))
 
 
 
