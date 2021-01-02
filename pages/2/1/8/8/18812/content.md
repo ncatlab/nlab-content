@@ -73,3 +73,6 @@ On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] 
 [[!redirects string vacuum]]
 [[!redirects string vacua]]
 
+[[!redirects perturbative superstring vacuum]]
+[[!redirects perturbative superstring vacua]]
+
