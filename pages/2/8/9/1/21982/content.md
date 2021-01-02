@@ -6,15 +6,33 @@ On the conjectural [[D-brane charge quantization in topological K-theory]]:
 
 #### Origin and basics
 
-The idea that D-branes have [[Dirac charge quantization]] in [[topological K-theory]] originates in 
+The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K-theory]] originates with:
 
-* [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_, JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
+* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_, JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
 
 * {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
-See also at _[[anti-D-brane]]_.
+{#BasisOfTheConjecture} Here:
+
+* [Minasian-Moore 97](#MinasianMoore97) observe that [[differential form]]-expressions derived for [[D-brane charge]] look like images of K-theory classes under the [[Chern character]];
+
+\begin{imagefromfile}
+    "file_name": "AntiBraneAnnihilationAsKGroupEquivRelation.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Sch 18](https://ncatlab.org/schreiber/show/Equivariant+Stable+Cohomotopy+and+Branes)"
+\end{imagefromfile}
+
+* [Witten 98, Section 3](#Witten98) adds the observation that the [[tachyon condensation]] -- which is expected (this is _[[Sen's conjecture]]_ from [Sen 98](Sen's+conjecture#ReferencesForSuperstrings)) for [[open strings]] between [[D-brane]]/[[anti-D-branes]] -- plausibly implements on their [[Chan-Paton gauge field|Chan-Paton]] [[vector bundles]] the defining [[equivalence relation]] ([here](topological+K-theory#eq:DefiningEquivalenceRelation)) of [[topological K-theory]].
 
 
 Expression of these D-brane K-theory classes via the [[Atiyah-Hirzebruch spectral sequence]]:
