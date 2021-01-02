@@ -121,8 +121,9 @@ In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-b
 
 
 #### Conceptual problems
+ {#DBraneChargeInKTheoryReferencesConceptualProblems}
 
-{#KTheorySubtleties} But there remain conceptual issues with the proposal that D-brane  charge is in K-theory, as highlighted for in
+{#KTheorySubtleties} But there remain conceptual issues with the proposal that D-brane  charge is in K-theory, as highlighted in
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.5.2 and 4.6.5 of  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
@@ -133,6 +134,25 @@ In particular, actual checks of the proposal that D-brane charge is given by K-t
 * [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP 0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
 
   > It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory.
+
+
+The closest available towards an actual check of the argument for K-theory via [[Sen's conjecture|open superstring tachyon condensation]] ([Witten 98, Section 3](#Witten98)) seems to be
+
+* {#Erler13} [[Theodore Erler]], _Analytic Solution for Tachyon Condensation in Berkovits' Open Superstring Field Theory_, JHEP 1311 (2013) 007 ([arXiv:1308.4400](https://arxiv.org/abs/1308.4400))
+
+which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=32)) with:
+
+> It would also be interesting to see if these developments can shed light on the long-speculated relation between string field theory and the K-theoretic description of D-brane charge $[$[75, 76, 77](D-brane#DBraneChargeQuantizationInTopologicalKTheory)$]$. We leave these questions for future work.
+
+See also 
+
+* {#Erler19} [[Theodore Erler]], _Four Lectures on Analytic Solutions in Open String Field Theory_ ([arXiv:1912.00521](https://arxiv.org/abs/1912.00521), [spire:1768105](https://inspirehep.net/literature/1768105))
+
+which still lists (on [p. 112](https://arxiv.org/pdf/1912.00521.pdf#page=113)) among open problems of [[string field theory]]:
+
+> "Are there topological invariants of the open string star algebra representing D-brane charges?"
+
+
 
 #### For orbifolds in equivariant K-theory
 
