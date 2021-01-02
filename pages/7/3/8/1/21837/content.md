@@ -44,7 +44,7 @@ based on [[chiral differential operators]]:
 
 Tentative interpretation as [[indices]] of [[Dirac-Ramond operators]] as would-be [[Dirac operators on smooth loop space]]:
 
-* {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire:245523](http://inspirehep.net/record/245523), [doi:10.1007/BFb0078045]( https://doi.org/10.1007/BFb0078045))
+* {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_, Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire:245523](http://inspirehep.net/record/245523), [doi:10.1007/BFb0078045]( https://doi.org/10.1007/BFb0078045))
 
 * {#AlvarezKillingbackManganoWindey87} [[Orlando Alvarez]], T. P. Killingback, Michelangelo Mangano, [[Paul Windey]], _The Dirac-Ramond operator in string theory and loop space index theorems_, Nuclear Phys. B Proc. Suppl., 1A:189&#8211;215, 1987, in: _Nonperturbative methods in field theory_, 1987 (<a href="https://doi.org/10.1016/0920-5632(87)90110-1">doi"10.1016/0920-5632(87)90110-1</a>)
 
@@ -59,7 +59,7 @@ Tentative interpretation as [[indices]] of [[Dirac-Ramond operators]] as would-b
 
 Tentative formulation via [[functorial quantum field theory]] ([[(2,1)-dimensional Euclidean field theories and tmf]]):
 
-* {#StolzTeichner11} [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
+* {#StolzTeichner11} [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS 2011 ([arXiv:1108.0189](https://arxiv.org/abs/1108.0189))
 
 #### Via conformal nets
 
@@ -103,7 +103,7 @@ Further discussion in:
 
 * Murad Alim, Babak Haghighat, Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, _Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes_ ([arXiv:1012.1608](https://arxiv.org/abs/1012.1608))
 
-* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
+* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884), [spire:1704312](https://inspirehep.net/literature/1704312))
 
 
 ##### M-string elliptic genus
