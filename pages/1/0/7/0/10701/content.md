@@ -21,9 +21,11 @@ This page collects links related to the lecture notes
 
 * [[Jacob Lurie]], 
 
-  _Chromatic Homotopy Theory_, Lecture series 2010 
+  **Chromatic Homotopy Theory** 
 
-  ([web](http://www.math.harvard.edu/~lurie/252x.html))
+  Lecture series 2010 
+
+  [web](http://www.math.harvard.edu/~lurie/252x.html), [[LurieChromaticHomotopyTheory.pdf:file]]
 
 on [[complex oriented cohomology]], the [[Adams spectral sequence]] and [[chromatic homotopy theory]] from the modern point of view of [[E-infinity geometry]].
 
@@ -125,6 +127,7 @@ See also
 * table of contents
 {:toc}
 
+## Lecture 1 _Introduction_
 
 ## Lecture 2 _Lazard's theorem_ 
 
@@ -150,7 +153,7 @@ See also
 
 ##  Lecture 6 _MU and complex orientations_ 
 
-* [[universal complex orientation in MU]]
+* [[universal complex orientation on MU]]
 
 ## Lecture 7 _The homology of MU_ 
 
@@ -280,7 +283,6 @@ See also
 
 
 ## Lecture 33 _Complex bordism and $E(n)$-localization_ 
-
 
 ## Lecture 34 _Monochromatic layers_ 
 
