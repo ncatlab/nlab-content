@@ -815,6 +815,8 @@ Textbook accounts include
  
 * {#Kochmann96} [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+* [[Dai Tamaki]], [[Akira Kono]], Chapter 5 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
 
 The general discussion in the context of [[stable (∞,1)-category]] theory (the [[spectral sequence of a filtered stable homotopy type]]) is in section 1.2.2 of 
 
