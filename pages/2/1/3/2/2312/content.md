@@ -319,7 +319,7 @@ See also
 
 ## References
 	
-* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], chapter 2.6 of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]])
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], chapter 2.6 of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
