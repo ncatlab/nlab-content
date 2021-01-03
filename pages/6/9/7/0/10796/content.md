@@ -63,7 +63,7 @@ its [[Stone-Cech compactification]] is extremally disconnected.
 +-- {: .num_example}
 ###### Counter-Example
 
-The [[profinite set]] underlying the [[p-adic integers]], regarded as a [[Stone space]], is _not_ extremally diconnected.
+The [[profinite set]] underlying the [[p-adic integers]], regarded as a [[Stone space]], is _not_ extremally disconnected.
 
 =--
 
