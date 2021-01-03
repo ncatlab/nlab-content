@@ -91,7 +91,7 @@ Canonical references on Hall algebras include the following.
 
 * Parker E. Lowrey, _The moduli stack and motivic Hall algebra for the bounded derived category_, [arxiv/1110.5117](http://arxiv.org/abs/1110.5117)
 
-* [[Tobias Dyckerhoff]], _Higher categorical aspects of Hall Algebras_, ([arXiv:1505.06940](https://arxiv.org/abs/1505.06940))
+* [[Tobias Dyckerhoff]], _Higher categorical aspects of Hall Algebras_, In: Herbera D., Pitsch W., Zarzuela S. (eds) Building Bridges Between Algebra and Topology. Advanced Courses in Mathematics - CRM Barcelona. Birkhäuser 2015 [arXiv:1505.06940](https://arxiv.org/abs/1505.06940) [doi](https://doi.org/10.1007/978-3-319-70157-8_1)
 
 
 Motivic Hall algebras:
