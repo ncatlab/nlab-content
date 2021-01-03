@@ -157,7 +157,7 @@ The six operations for [[derived categories]] of [[quasi-coherent sheaves]], [[i
 
 Six operations in the setup of [[o-minimal structure]]s is discussed in 
 
-* Mario J. Edmundo, Luca Prelli, _The six Grothendieck operations on o-minimal sheaves_, [arxiv/1401.0846](http://arxiv.org/abs/1401.0846)
+* Mario J. Edmundo, Luca Prelli, _The six Grothendieck operations on o-minimal sheaves_, Comptes Rendus Mathematique 352:6 (2014) 455-458 [arxiv/1401.0846](http://arxiv.org/abs/1401.0846) [doi](https://doi.org/10.1016/j.crma.2014.03.021)
  
 Grothendieck six operations formalism using diagrams of topoi
 
