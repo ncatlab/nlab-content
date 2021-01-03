@@ -62,7 +62,7 @@ That the Pythagorean Theorem holds in an inner product space is trivial; all tha
 
 ## References 
 
-Named after [[Pythagoras]] (but see there for the issue of attribution).
+Named after [[Pythagoras]].
 
 * {#Maor07} Eli Maor, _The Pythagorean Theorem: A 4000-year History_, Princeton University Press, 2007 ([doi:10.2307/j.ctvh9w0ks](https://doi.org/10.2307/j.ctvh9w0ks), [jstor:j.ctvh9w0ks](https://www.jstor.org/stable/j.ctvh9w0ks))
 
