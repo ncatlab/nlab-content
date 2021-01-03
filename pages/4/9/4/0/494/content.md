@@ -90,7 +90,7 @@ $$
 
 which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is the **adjunction isomorphism** and the [[image]] $\widetilde f$ of a morphism $f$ under this bijections is called the _[[adjunct]]_ of $f$. Conversely, $f$ is called the adjunct of $\widetilde f$.
 
-Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and for every [[morphisms]] $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
+Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and for every [[morphism]] $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
 
 \[
   \label{NaturalitySquareForAdjointnessOfFunctors}
