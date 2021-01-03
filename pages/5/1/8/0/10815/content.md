@@ -319,14 +319,21 @@ and hence with the top sequence here being exact, so is the bottom sequence.
 * {#Switzer75} [[Robert Switzer]], section 15.30 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
 
 
-* {#Kochmann96} [[Stanley Kochmann]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* [[James Milne]], section 16 of _[[Lectures on Étale Cohomology]]_
 
+See also:
 
 * Wikipedia, _[Gysin sequence](http://en.wikipedia.org/wiki/Gysin_sequence)_
 
-* [[James Milne]], section 16 of _[[Lectures on Étale Cohomology]]_
 
-Formalization in [[homotopy type theory]] is discussed in
+In the generality of [[complex oriented cohomology theory]]:
+
+* {#Kochmann96} [[Stanley Kochmann]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* [[Dai Tamaki]], [[Akira Kono]], Section 3.8 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
+
+Formalization in [[homotopy type theory]]:
 
 * {#Brunerie16} [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_ ([arXiv:1606.05916](http://arxiv.org/abs/1606.05916))
 
