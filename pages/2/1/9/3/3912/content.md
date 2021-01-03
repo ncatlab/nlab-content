@@ -257,17 +257,23 @@ The argument via a [[Serre spectral sequence]] for a relative fibration seems to
 
 * W. H. Cockcroft, _On the Thom isomorphism Theorem_, Mathematical Proceedings of the Cambridge Philosophical Society (1962), 58 ([web](http://journals.cambridge.org/abstract_S0305004100036409), [pdf](http://journals.cambridge.org/action/displayFulltext?type=1&fid=2056796&jid=PSP&volumeId=58&issueId=02&aid=2056788&bodyId=&membershipNumber=&societyETOCSession=))
 
-Textbook accounts include
+Textbook accounts:
+
+
+* {#Rudyak98} [[Yuli Rudyak]], chapter V of _Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+
+Discussion in the generality of [[complex oriented cohomology theory]]:
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 6 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 
-* {#Kochman96} [[Stanley Kochman]], section 2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], Section 2.6 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#Rudyak98} [[Yuli Rudyak]], chapter V of _Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.6 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
 
-Lecture notes include
+
+Lecture notes:
 
 * [[Akhil Mathew]], _[The Thom isomorphism theorem](https://amathew.wordpress.com/2010/12/11/the-thom-isomorphism-theorem/)_, 2010
 
