@@ -840,7 +840,7 @@ and a strengthening in
 
 * {#Adams71} [[John Frank Adams]], _A variant of E. H. Brown's representability theorem_, Topology, 10:185-198, 1971
 
-Textbook accounts include 
+Textbook accounts:
 
 * {#Adams74} [[Frank Adams]], part III, section 6 of _[[Stable homotopy and generalised homology]]_, 1974
 
@@ -850,7 +850,7 @@ Textbook accounts include
 
 * {#AguilarGitlerPrito02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], chapter 2.5 _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]])
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Sections 2.4, 2.5 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
 
 Quick reviews include
