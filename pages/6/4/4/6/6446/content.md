@@ -48,7 +48,7 @@ A [[theory]] is o-minimal if every model $M$ of $T$ is an o-minimal structure.
 
 * M. Edmundo, G. O. Jones, N. J. Peatfield, _Sheaf cohomology in o-minimal structures_, J. Math. Logic __6__ (2006), no. 2, pp. 163--179, [MR2317425](http://www.ams.org/mathscinet-getitem?mr=2317425), [doi](http://dx.doi.org/10.1142/S0219061306000566)
 
-* Mario J. Edmundo, Luca Prelli, _Invariance of o-minimal cohomology with definably compact supports_, [arxiv/1205.6124](http://arxiv.org/abs/1205.6124)
+* Mario J. Edmundo, Luca Prelli, _Invariance of o-minimal cohomology with definably compact supports_, Confluentes Mathematici 7, n. 1 (2015) 35-53 [arxiv/1205.6124](http://arxiv.org/abs/1205.6124) [doi](https://doi.org/10.5802/cml.17)
 
 * Olivier Le Gal, Jean-Philippe Rolin, _An o-minimal structure which does not admit $C^{\infty }$ cellular decomposition_, Annales de l'institut Fourier __59__:2 (2009), p. 543-562, [MR2521427](http://www.ams.org/mathscinet-getitem?mr=2521427) [Zbl 1193.03065](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1193.03065) [numdam](http://www.numdam.org/item?id=AIF_2009__59_2_543_0)
 
