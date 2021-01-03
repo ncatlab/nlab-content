@@ -26,7 +26,7 @@ where $c$ denotes the length of the hypotenuse of a right triangle, and $a, b$ a
 
 It was apparently known (in some form or other) by a number of ancient civilizations (Mesopotamia, circa 1800 BCE[^1]; China, Zhou Dynasty, circa 1000 BCE[^2]), and appears in [[Euclid]]'s _[[Elements]]_ as a capstone result of Book 1 (as Proposition 47, and Proposition 48 for the converse). [Wikipedia](http://en.wikipedia.org/wiki/Pythagorean_theorem#Pythagorean_triples) mentions, but without a citation, that certain megalithic monuments in Northern Europe indicate that [[Pythagorean triples]] were known even before the invention of writing systems.[^2.5] 
 
-[^1]: See [Maor](#Maor), chapter 1. 
+[^1]: See [Maor 07](#Maor07), chapter 1. 
 [^2]: See [Wikipedia](http://en.wikipedia.org/wiki/Zhou_Bi_Suan_Jing), which exhibits an apparent proof based on the famous 'pinwheel' configuration. 
 [^2.5]: On the other hand, the oft-repeated mention of the use of knotted ropes or the like in Ancient Egypt, to mark off 3-4-5 triangles and hence right angles, appears to have no scholarly backing whatsoever. 
 
@@ -64,7 +64,7 @@ That the Pythagorean Theorem holds in an inner product space is trivial; all tha
 
 Named after [[Pythagoras]] (but see there for the issue of attribution).
 
-* {#Maor} Eli Maor, _The Pythagorean Theorem: A 4000-year History_, Princeton University Press, 2007. 
+* {#Maor07} Eli Maor, _The Pythagorean Theorem: A 4000-year History_, Princeton University Press, 2007 ([doi:10.2307/j.ctvh9w0ks](https://doi.org/10.2307/j.ctvh9w0ks), [jstor:j.ctvh9w0ks](https://www.jstor.org/stable/j.ctvh9w0ks))
 
 
 [[!redirects Pythagorean theorem]]
