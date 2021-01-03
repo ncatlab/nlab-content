@@ -97,7 +97,7 @@ The dual generalized [[Steenrod algebra]] $MU_\bullet(MU)$ has a structure of
 
 The computation of $\pi_\bullet(M U)$ was first due to
 
-* {#Milnor60} [[John Milnor]], On the Cobordism Ring ft* and a Complex Analogue, Amer. J.  Math., 82 (1960), 505-521. 
+* {#Milnor60} [[John Milnor]], _On the Cobordism Ring ft* and a Complex Analogue_, Amer. J.  Math., 82 (1960), 505-521. 
 
 the proof that the canonical morphism $L \to \pi_\bullet(M U)$ is an isomorphism is due to
 
