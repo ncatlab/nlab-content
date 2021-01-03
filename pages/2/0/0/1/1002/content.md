@@ -190,7 +190,7 @@ If $X$ is an [[infinite set]] of cardinality $\kappa$, then the number of ultraf
 
 * [[Todd Trimble]], _Post to A Dialogue on Infinity_. [(link)](http://dialinf.wordpress.com/2009/01/21/ultraproducts-the-category-theoretic-way/#comment-219)
 
-* [[Bill Lawvere]], _Post to the categories list_. [(link)](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00128.html)
+* [[Bill Lawvere]], _Post to the categories list_. [(link)](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00128.html) [archive, 21 Mar 2000](https://www.mta.ca/~cat-dist/archive/2000/00-3)
 
 * [[Tom Leinster]], _Definition of ultrafilter_. [(blog post)](http://golem.ph.utexas.edu/category/2011/07/definitions_of_ultrafilter.html)
 
