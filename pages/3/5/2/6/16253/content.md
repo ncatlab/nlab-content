@@ -27,6 +27,9 @@ with composition inherited from $\mathcal{C}$ and $\Delta$.
 
 * {#Quillen67} [[Daniel Quillen]], _Homotopical Algebra_, Lecture Notes in Mathematics, vol. 43, Springer-Verlag, 1967
 
+* [[Dai Tamaki]], [[Akira Kono]], Appendix A in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
+
 * {#Bousfield03} [[Aldridge Bousfield]], _Cosimplicial resolutions and homotopy spectral sequences in model categories_ ([arXiv:0312531](http://arxiv.org/abs/math/0312531))
 
 [[!redirects cosimplicial objects]]
