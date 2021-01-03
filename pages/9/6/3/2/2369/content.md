@@ -71,9 +71,10 @@ Conversely via the [[Brown representability theorem]] a spectrum representing a 
 
 ## Reference
 
-* {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
+* {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974 ([pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf))
 
-* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], appendix C of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]])
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], appendix C of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
 
 * {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
 
