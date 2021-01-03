@@ -34,16 +34,18 @@ See e.g. ([Haugseng 13, def. 3.9](#Haugseng13)).
 
 ## References
 
-The original article is
+The original articles
 
-* [[James Becker]], [[Daniel Gottlieb]], _The transfer map and fiber bundles_ Topology , 14 (1975)
- {#BeckerGottlieb75}
+* {#BeckerGottlieb75} [[James Becker]], [[Daniel Gottlieb]], _The transfer map and fiber bundles_, Topology , 14 (1975) ([pdf](https://www.math.purdue.edu/~gottlieb/Bibliography/Transfb.pdf),  <a href="https://doi.org/10.1016/0040-9383(75)90029-4">doi:10.1016/0040-9383(75)90029-4</a>)
+ 
+  (which also gives a proof of the [[Adams conjecture]]).
 
-(which also gives a proof of the [[Adams conjecture]]).
+* [[James Becker]], [[Daniel Gottlieb]], _Vector fields and transfers_ Manuscr. Math. , 72 (1991) pp. 111&#8211;130 ([pdf](https://www.math.purdue.edu/~gottlieb/Papers/manuscripta.pdf), [doi:10.1007/BF02568269](https://link.springer.com/article/10.1007/BF02568269))
 
-* [[James Becker]], [[Daniel Gottlieb]], _Vector fields and transfers_ Manuscr. Math. , 72 (1991) pp. 111&#8211;130
 
-Reviews include
+Review:
+
+* [[Dai Tamaki]], [[Akira Kono]], Section 4.5 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
 * [[eom]], _[Becker-Gottlieb transfer](http://www.encyclopediaofmath.org/index.php/Becker-Gottlieb_transfer)_
 
