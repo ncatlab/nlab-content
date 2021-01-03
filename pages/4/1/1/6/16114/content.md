@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -33,6 +32,7 @@ It was apparently known (in some form or other) by a number of ancient civilizat
 
 While it was traditional among ancient historians to credit [[Pythagoras]] with the first recorded [[proof]] (at least the first from Hellenic civilization), there is cause to believe that this (semi-legendary) individual had little to do personally with such a proof or even with mathematics generally within his school -- without however there being doubt that this result and other mathematical ideas were vigorously discussed and developed by the Pythagoreans. 
 
+
 ## Proof 
 
 There are apparently hundreds of proofs. It should be noted that the Pythagorean theorem is a [[theorem]] of [[Euclidean geometry]] and depends on Euclid's [[parallel postulate]], particularly the consequence that the sum of the interior angles of a triangle is invariably $180^\circ$. 
@@ -50,6 +50,7 @@ from which we may derive $a^2 + b^2 = c_1 c + c_2 c = (c_1 + c_2)c = c^2$.
 
 [^3]: The proof which appears in Book 1 of the _[[Elements]]_ looks somewhat more elaborate, but the proof based on similar triangles perhaps had to await the development of a theory of proportion, set out in Book 5. 
 
+
 ## Modern points of view 
 
 One modern point of view on the Pythagorean theorem is the following:
@@ -58,7 +59,13 @@ Without loss of generality, we may consider the context of a 2-dimensional [[Euc
 
 That the Pythagorean Theorem holds in an inner product space is trivial; all that matters is establishing that one is, in fact, working in an inner product space. What it takes to establish this depends on what one is starting from (e.g., one might just as well axiomatize Euclidean geometry as the study of inner product spaces of particular dimension&#8230;), but the above approach might fairly be construed as teasing out the inner product structure inherent in geometry as an interested amateur would already be inclined to think of it.
 
+
 ## References 
 
 * {#Maor} Eli Maor, The Pythagorean Theorem: A 4000-year History, Princeton University Press, 2007. 
-  
+
+
+[[!redirects Pythagorean theorem]]
+[[!redirects Pythagorean Theorem]]
+[[!redirects Pythagoras theorem]]
+[[!redirects Pythagoras Theorem]]
