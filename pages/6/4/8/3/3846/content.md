@@ -41,6 +41,8 @@ and this will be frequently used in the sequel.
 
 Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \neq 0$. From $N(v) = N(e v) = N(e)N(v)$, it follows that $N(e) = 1$. 
 
+
+
 ## Properties
 
 ### Basic identities
@@ -58,7 +60,6 @@ The left sides, and therefore the right sides of the equations below are equal:
 
 $$N(u(v + w)) = N(u)N(v + w) = N(u)(N(v) + 2\langle v, w \rangle + N(w))$$
 
-[ ]
 
 $$N(u v + u w) = N(u v) + 2\langle u v, u w \rangle + N(u w) = N(u)N(v) + 2\langle u v, u w \rangle + N(u)N(w)$$ 
 
@@ -261,11 +262,7 @@ For all $y \in V$, we have the following sets of equations, using the previous p
 
 $$\langle u (\alpha x), y \rangle = \langle \alpha x, \bar{u} y \rangle \stackrel{Ex}{=} 0 - \langle \alpha y, \bar{u} x \rangle = \langle y, \alpha (\bar{u} x) \rangle = \langle \alpha (\bar{u} x), y \rangle$$ 
 
-[ ]
-
 $$\langle (\alpha v)w, y \rangle = \langle \alpha v, y \bar{w} \rangle \stackrel{Conj}{=} \langle \bar{v} \alpha, y \bar{w} \rangle \stackrel{Ex}{=} 0 - \langle \bar{v}\bar{w}, y \alpha \rangle = \langle (\bar{v}\bar{w})\alpha, y \rangle = \langle \widebar{w v} \alpha, y \rangle \stackrel{Conj}{=} \langle \alpha (w v), y \rangle$$
-
-[ ] 
 
 $$\langle (\alpha v)(\alpha x), y \rangle \stackrel{Conj}{=} -\langle \alpha v, y (\alpha x) \rangle \stackrel{Ex}{=} 0 + \langle \alpha (\alpha x), y v \rangle \stackrel{Conj}{=} -\langle \alpha x, \alpha (y v) \rangle = -\lambda \langle x, y v \rangle = \langle -\lambda x\bar{v}, y \rangle$$
 
@@ -316,8 +313,6 @@ so that $w = \bar{w}$ for every $w \in W$, so that $w$ is real. Conversely, from
 
 $$(u + \alpha v)(w + \alpha x) = (u w - \lambda x\bar{v}) + \alpha (w v + \bar{u} x)$$
 
-[ ] 
-
 $$(w + \alpha x)(u + \alpha v) = (w u - \lambda v\bar{x}) + \alpha (u x + \bar{w} v)$$ 
 
 together with commutativity and trivial conjugation in $W$, we infer commutativity in $V$. 
@@ -335,11 +330,14 @@ A fundamental dichotomy is whether or not the composition algebra has zero divis
 
 +-- {: .num_prop}
 ######Proposition
+
 In a division composition algebra, all nonzero elements have positive norm. 
+
 =--
 
 +-- {: .proof} 
 ######Proof
+
 If all elements $v$ orthogonal to the identity $e$ have positive norm, the result is immediate since 
 
 $$N(r v + s e) = r^2 N(v) + s^2 \geq 0$$ 
@@ -349,6 +347,7 @@ Otherwise, if some such element $v$ has $N(v) = \lambda \lt 0$, we may put $u = 
 $$N(u + e) = N(u) + N(e) = -1 + 1 = 0$$ 
 
 which contradicts the assumption that all nonzero elements are invertible.
+
 =--
 
 In particular, any division composition algebra is a [[normed division algebra]].
@@ -370,8 +369,11 @@ Thus, we have established the [[Hurwitz theorem]]
 
 +-- {: .num_theorem}
 ######Theorem (Hurwitz) 
+
 The only [[division algebra|division]] composition algebras over the [[real numbers]] $\mathbb{R}$ are the [[real numbers]], [[complex numbers]], [[quaternions]], and [[octonions]]. 
+
 =-- 
+
 
 #### Split composition algebras
 
@@ -440,6 +442,7 @@ We will prove the first of these; the others are proven in similar style (see Sp
 
 +-- {: .proof}
 ######Proof 
+
 We have
 
 $$\array{
@@ -454,14 +457,25 @@ which makes it plain that $(u v)(w u)$ depends on $u$ and $v w$ only. Hence we g
 $$(u v)(w u) = (u(v w))(e u) = (u(v w))u, \qquad (u v)(w u) = (u e)((v w)u) = u((v w)u)$$ 
 
 which completes the proof. 
+
 =--
  
 +-- {: .num_cor}
 ######Corollary
+
 For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v u) = (u v)u$.
+
 =-- 
 
 See also [[Moufang loop]]. 
+
+
+## Related $n$Lab entries
+
+* [[alternative algebra]]
+
+* [[Cayley-Dickson construction]]
+
 
 ## References
 
@@ -489,9 +503,7 @@ See also
 * [wikipedia](http://en.wikipedia.org/wiki/Composition_algebra)
 
 
-Related $n$lab entries: [[alternative algebra]], [[Cayley-Dickson construction]]
-
-Related eom entries: [Lie-admissible algebra](http://eom.springer.de/l/l058360.htm)
+* [[eom]]: [Lie-admissible algebra](http://eom.springer.de/l/l058360.htm)
 
 [[!redirects composition algebras]]
 
