@@ -210,6 +210,12 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
+{#CGNT04} [Cederwall-Gran-Nilsson-Tsimpis 04](higher+curvature+correction#CGNT04):
+
+> Our understanding of M-theory is still very limited, mainly due to the lack of powerful methods to probe it at the microscopic level. One approach to encoding information about M-theory is through its low energy [[effective field theory]]. $[...]$ The ultimate goal is to be able to derive the [[higher curvature corrections|higher derivative corrections]], e.g. by means of a microscopic version of M-theory. Since this is not yet possible, our aim here is instead to solve the [[superspace]] [[Bianchi identities]] in order to obtain the most general form such correction terms can take restricted only by [[supersymmetry]] and [[Lorentz group|Lorentz invariance]] in eleven dimensions. To what extent such an approach can capture main features of M-theory is an interesting question to which we have no answer at this point.
+
+\linebreak
+
 {#Moore14} [[Physical Mathematics and the Future|Moore 14, pages 43-44]]:
 
 >  We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. 
