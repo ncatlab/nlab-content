@@ -165,7 +165,7 @@ Discussion of higher curvature corrections to [[11-dimensional supergravity]] in
 
 * {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
 
-* [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
+* {#CGNT04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
 
 * Yoshifumi Hyakutake, Sachiko Ogushi, _$R^4$ Corrections to Eleven Dimensional Supergravity via Supersymmetry_, Phys.Rev. D74 (2006) 025022 ([arXiv:hep-th/0508204](https://arxiv.org/abs/hep-th/0508204))
 
