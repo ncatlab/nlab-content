@@ -53,11 +53,14 @@ $$
   \,.
 $$ 
 
-Unifying these two cases, there is the bivariant Boardman homomorphism
-
+Unifying these two cases, there is the bivariant Boardman homomorphism ([Adams 74, p. 58](#Adams74))
 
 $$
-  [X, Y]_\bullet \simeq [X, Y \wedge \mathbb{S}]_\bullet \longrightarrow [X,Y \wedge E]_\bullet
+  [X, Y]_\bullet 
+    \;\simeq\; 
+  [X, Y \wedge \mathbb{S}]_\bullet 
+    \longrightarrow 
+  [X,Y \wedge E]_\bullet
   \,.
 $$
 
