@@ -29,13 +29,18 @@ $$
   SU(n)
   \; \subset\; 
   E_8
+  \;\;\;\;\;
+  2 \leq n \leq 5
 $$
 
-(the [[direct product group]] of $(n-1)$-copies of the [[circle group]], regarded as a diagonal [[subgroup]] of [[SU(n)]] and thus of [[E8]])
+(the [[direct product group]] of $(n-1)$-copies of the [[circle group]], regarded as a [[diagonal morphism|diagonal]] [[subgroup]] of [[SU(n)]] and thus of [[E8]])
 
 it is called a _heterotic line bundle_ in [Anderson-Gray-Lukas-Palti 11](#AndersonGrayLukasPalti11).
 
 Considering these models has led to a little revolution in [[heterotic string theory|heterotic]] [[string phenomenology]] ([Anderson-Gray-Lukas-Palti 12](#AndersonGrayLukasPalti12)).
+
+In the observable sector of [[heterotic M-theory]] the values $n = 4,5$ lead to good phenomenology, while for the [[hidden sector]] the value $n = 2$ is used (in [ADO 20a, Sec. 4.2](#ADO20a), [ADO 20a, Sec. 2.2](#ADO20a)).
+ 
 
 ## References
 
@@ -71,9 +76,9 @@ Review:
 
 On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]:
 
-* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_ ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455))
+* {#ADO20a} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_ ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455))
 
-* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
+* {#ADO20b} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 2.2 of: _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
 
 
 
