@@ -128,15 +128,36 @@ Every page starts out tiny and may not seem to need a structure by subsections. 
 
 You should include actual mathematics in appropriate environments, as familiar from textbooks and research articles in mathematics.
 
-#### LaTeX syntax
+#### LaTeX-style syntax
+ {#LatexSyntax}
 
 As of mid-2018, one can use environments exactly as in LaTeX.
 
-For example, see the [source](https://ncatlab.org/nlab/source/HowTo) of this page for how to produce the following.
+For example the code
 
-\begin{theorem} \label{SomeTheorem}
-   Some theorem.
-\end{theorem}
+$$
+  \array{
+    \mathrlap{
+      \backslash\text{begin}\{\text{theorem}\}  
+    }
+    \\
+    & 
+    \;\;
+    \mathrlap{\backslash\text{label}\{\text{SomeTheorem}\}}
+    \\
+    & 
+    \;\; 
+    \mathrlap{\text{Some theorem.}}
+    \\
+    \mathrlap{\backslash\text{end}\{\text{theorem}\}}
+  }
+$$
+
+produces:
+
+> \begin{theorem} \label{SomeTheorem}
+>   Some theorem.
+> \end{theorem}
 
 The available environments are listed below. Some environments can be specified in several ways.
 
@@ -1085,7 +1106,7 @@ You may wish to customize the font scheme (both for math or text) on the nLab, a
 Currently, the following stylish themes are available:
 
 * [nLab Stylish theme](http://userstyles.org/styles/17934) by [[Bruce Bartlett]].  This nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience!
-* [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schappi|Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
+* [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
 
 ### How to download a local copy of the nLab 
   {#download}
