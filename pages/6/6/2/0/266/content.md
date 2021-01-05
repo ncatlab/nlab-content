@@ -343,6 +343,15 @@ In particular, this means that if $C$ is [[small category|small]] and $D$ is [[c
 
 One can prove that any Kan extension constructed in this way must be pointwise, in the sense of being preserved by all representables as above.  Moreover, conversely, if a Kan extension $Lan_p F$ is pointwise, then one can prove that $(Lan_p F)(c')$ must be in fact a $C'(p(-),c')$-weighted colimit of $F$, and dually; thus the two notions are equivalent.
 
+Unfolding the definitions of weighted (co)limits, these can be defined as representing objects 
+$$
+  D(d, (Ran_p F)(c')) \simeq Set^C(C'(c', p(-)), D(d, F(-)))
+$$
+$$
+  D((Lan_p F)(c'), d) \simeq Set^{C^{op}}(C'(p(-), c'), D(F(-), d))
+$$
+Similarly, in the $V$-enriched setting, replace $Set$ with $V$.
+
 
 #### in terms of (co)ends 
  {#PointwiseByCoEnds}
