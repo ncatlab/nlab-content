@@ -181,6 +181,35 @@ e.g. [Wirthmuller 12, section 11](#Wirthmuller12)
 
 ## Properties
 
+### Basic properties
+
++-- {: .num_prop #AdamsOperationOnComplexTopologicalKtheoryOfnSpheres} 
+###### Proposition
+**(Adams operations on [[complex topological K-theory]] of [[n-spheres]])**
+
+For $n \in \mathbb{N}$, the [[Adams operations]] on the [[reduced K-theory]] of the [[n-sphere|2n-sphere]] are given by:
+
+$$
+  \array{
+    \widetilde K
+    \big( 
+      S^{2n}
+    \big)
+    &
+    \overset{ \;\;\; \psi^k\;\;\; }{\longrightarrow}
+    &
+    \widetilde K
+    \big( 
+      S^{2n}
+    \big)
+    \\
+    V &\mapsto& k^n \cdot V
+  }
+$$
+
+=--
+
+(e.g. [Wirthmüller, Prop. on p. 45 (47 of 67)](#Wirthmuller12))
 
 ### Compatibility with the Chern character
  {#CompatibilityWithTheChernCharacter}
@@ -307,7 +336,7 @@ Review:
 
 * [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 10 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], Section 11 of: _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], Section 11 of: _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
 * {#Hatcher} [[Allen Hatcher]], section 2.3 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
