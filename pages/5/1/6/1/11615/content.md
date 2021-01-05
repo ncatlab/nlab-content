@@ -86,4 +86,4 @@ Discussion of _synthetic [[homotopy theory]]_ (typically understood as [[homotop
 * {#Rijke19} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
 
 
-[[!redirects synthetic homotopy theory]]
+
