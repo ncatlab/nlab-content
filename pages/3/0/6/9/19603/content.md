@@ -89,17 +89,19 @@ Work conducted in homotopy type theory:
 
 * Håkon Robbestad Gylterud, Elisabeth Bonnevier, _Non-wellfounded sets in homotopy type theory_, ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
 
-* [Martín Hötzel Escardó](https://www.cs.bham.ac.uk/~mhe/), _Injective types in univalent mathematics_, ([arXiv:1903.01211](https://arxiv.org/abs/1903.01211))
+* [[Martín Hötzel Escardó]], _Injective types in univalent mathematics_, ([arXiv:1903.01211](https://arxiv.org/abs/1903.01211))
 
-* [Martín Hötzel Escardó](https://www.cs.bham.ac.uk/~mhe/), _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, ([arXiv:2002.07079](https://arxiv.org/abs/2002.07079))
+* [[Martín Hötzel Escardó]], _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, ([arXiv:2002.07079](https://arxiv.org/abs/2002.07079))
 
 * [Tom de Jong](https://www.cs.bham.ac.uk/~txd880/), [Martín Hötzel Escardó](https://www.cs.bham.ac.uk/~mhe/), _Domain Theory in Constructive and Predicative Univalent Foundations_, ([arXiv:2008.01422](https://arxiv.org/abs/2008.01422))
 
-* [Martín Hötzel Escardó](https://www.cs.bham.ac.uk/~mhe/) and [Cory Knapp](https://github.com/cmknapp), _Partial Elements and Recursion via Dominances in Univalent Type Theory_, ([LIPIcs:2017:7682](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
+* [[Martín Hötzel Escardó]] and [Cory Knapp](https://github.com/cmknapp), _Partial Elements and Recursion via Dominances in Univalent Type Theory_, ([LIPIcs:2017:7682](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
 
-* [Martín Hötzel Escardó](https://www.cs.bham.ac.uk/~mhe/), _Compact, totally separated and well-ordered types in univalent mathematics_, ([abstract at the author's web page](https://www.cs.bham.ac.uk/~mhe/papers/compact-ordinals-Types-2019-abstract.pdf), also available at the [Types 2019 Book of Abstracts](https://eutypes.cs.ru.nl/eutypes_pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf))
+* [[Martín Hötzel Escardó]], _Compact, totally separated and well-ordered types in univalent mathematics_, ([abstract at the author's web page](https://www.cs.bham.ac.uk/~mhe/papers/compact-ordinals-Types-2019-abstract.pdf), also available at the [Types 2019 Book of Abstracts](https://eutypes.cs.ru.nl/eutypes_pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf))
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Daniel Grayson]], [[Michael Shulman]], _Construction of the Circle in UniMath_, ([arXiv:1910.01856](https://arxiv.org/abs/1910.01856))
+
+* [[Anders Mörtberg]], Loïc Pujet, _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, [doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
 
 
 ### Modal homotopy type theory
