@@ -1585,6 +1585,9 @@ The original articles are
 
 * {#Cisinski06} [[Denis-Charles Cisinski]], _Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([numdam:AST_2006__308__R1_0](http://www.numdam.org/item/?id=AST_2006__308__R1_0) [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
  
+A more recent, English presentation of much of this material appears in section 2.4 of
+
+* {#Cisinski20} [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 Further developments are in
 
