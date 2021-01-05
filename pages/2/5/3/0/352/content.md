@@ -84,7 +84,7 @@ There are many different definitions of $\infty$-categories, which may differ in
 
 For a very gentle introduction to notions of higher categories, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
 
-For a slightly more formal but still pathetically easy introduction, try:
+For a slightly more formal but still fairly gentle introduction, try:
 
 * [[John Baez]], [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009), in <em>7th Conference on Category Theory and Computer Science</em>, eds. E. Moggi and G. Rosolini, Springer Lecture Notes in Computer Science vol. 1290, Springer, Berlin, 1997. 
 
