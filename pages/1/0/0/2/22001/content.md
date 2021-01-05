@@ -40,7 +40,7 @@ Galois theory for differential equations is one of the examples in
 
 * [[Francis Borceux]], [[George Janelidze]], _[[Galois Theories]]_, Cambridge Studies in Advanced Mathematics 72, Cambridge University Press, 2001.
 
-Difference equations are viewed from topological perspective (with sporadic recourse to Galois theory) in
+Difference equations are viewed from topos perspective (with sporadic recourse to Galois theory) in
 
 * Ivan Tomašić, _A topos-theoretic view of difference algebra_, [arxiv/2001.09075](https://arxiv.org/abs/2001.09075)
 
