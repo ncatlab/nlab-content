@@ -300,16 +300,15 @@ The proof that open star-shaped regions are diffeomorphic to a ball appears as [
 
 * {#Ferus07} [[Dirk Ferus]], _Analysis III_ (2007) ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
 
-
 It is a lengthy proof, due to Stefan Born. 
 
 A simpler version of the proof apparently appears on page 60 of
 
-* {#GonnordTosel98} St&#233;phane Gonnord, Nicolas Tosel, _Calcul Diff&#233;rentiel_, ellipses (1998) 
+* {#GonnordTosel98} Stéphane Gonnord, Nicolas Tosel, _Calcul Différentiel_, ellipses (1998) 
 
 and is reproduced in
 
-* MO [here](http://mathoverflow.net/a/212595/381)
+* [MathOverflow answer 212595](http://mathoverflow.net/a/212595).
 
 Apparently this proof is little known. For instance in a remark below lemma 10.5.5 of
 
