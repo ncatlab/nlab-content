@@ -23,6 +23,7 @@ Just as an ordinary [[elementary topos]] comes with its [[internal logic]] forma
 
 
 ## Type theory versus logic
+ {#TypeTheoryVersusLogic}
 
 As remarked at [[type theory]], it is useful to distinguish between the internal type theory of a category and the internal logic which sits on top of that type theory.  The type theory is about constructing objects, while the logic is about constructing [[subobjects]].  For instance, [[limits]] and [[colimits]], [[exponential object|exponentials]], and [[object classifiers]] belong to the type theory, while [[images]], [[dual image|dual images]], [[intersections]], [[unions]], and [[subobject classifiers]] belong to the logic.  Thus, the semantics of (extensional) type theory naturally lies in a category with appropriate structure, while the semantics of logic over that type theory naturally lies in some indexed [[poset]] over that category.  However, we commonly take this indexed poset to consist of the [[subobjects]] in the category in question, in which case additional "logical" structure on the category is required, for instance that it be a [[Heyting category]].
 
