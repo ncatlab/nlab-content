@@ -54,7 +54,7 @@ In ([Mörtberg-Pujet](#Mortberg-Pujet)) the authors make the case for the use of
 
 ## References
 
-The above text follows [Schreiber 14](https://cs.nyu.edu/pipermail/fom/2014-October/018251.html).
+The above text of the Idea section follows [Schreiber 14](https://cs.nyu.edu/pipermail/fom/2014-October/018251.html).
 
 * [[Mike Shulman]], slides 37 onwards in _Homotopical trinitarianism:A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
 
