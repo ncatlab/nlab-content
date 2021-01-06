@@ -28,6 +28,9 @@ based on the textbook
 
   Princeton Mathematical Series 33, 1980. xiii+323 pp.
 
+  [jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1)
+
+
 on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 #Contents#
