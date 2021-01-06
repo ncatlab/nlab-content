@@ -1595,9 +1595,11 @@ Further developments are in
 
 * [[Marc Olschok]], _On constructions of left determined model structures_, PhD thesis (2009) ([pdf](http://is.muni.cz/th/183259/prif_d/diss.pdf))
 
+* [[Simon Henry]], _Minimal model structures_, [arXiv:2011.13408](https://arxiv.org/abs/2011.13408).
+
 Some work on generalizing from presheaf toposes to all toposes is in
 
-* [[Denis-Charles Cisinski]], _Faisceaux localement asph ́eriques_ (preliminary version), 2003, [pdf](http://www.mathematik.uni-regensburg.de/cisinski/mtest2.pdf)
+* [[Denis-Charles Cisinski]], _Faisceaux localement asphériques_ (preliminary version), 2003, [pdf](http://www.mathematik.uni-regensburg.de/cisinski/mtest2.pdf)
 
 See also
 
