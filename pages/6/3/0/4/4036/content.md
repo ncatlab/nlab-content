@@ -233,8 +233,7 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 ## References
 
-A fairly detailed proof is presented in Section 5.3
-and Appendix C of
+A fairly detailed proof is presented in Section 5.3 and Appendix C of
 
 * [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019).
 
@@ -242,7 +241,18 @@ A similar proof appears in Lemma IV.6.9 of
 
 * [[Jean-Pierre Demailly]], _Complex Analytic and Differential Geometry_
 
-Other references include
+These proofs require one to show that star-shaped subsets of $\mathbf{R}^n$
+are diffeomorphic to $\mathbf{R}^n$ (see the article [[ball]] for details).
+One such proof is given on page 60 of
+
+* {#GonnordTosel98} Stéphane Gonnord, Nicolas Tosel, _Calcul Différentiel_, ellipses (1998) 
+
+and is reproduced in
+
+* [MathOverflow answer 212595](http://mathoverflow.net/a/212595).
+
+
+Other references on good covers include
 
 * {#doCarmo} [[Manfredo do Carmo]], _Riemannian geometry_ (trans. Francis Flaherty), Birkh&#228;user (1992) 
 
