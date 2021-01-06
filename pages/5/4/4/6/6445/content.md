@@ -28,7 +28,7 @@ There is also a similar concept of an [[oriented matroid]]; every oriented matro
 
 +-- {: .num_defn} 
 ###### Definition 
-A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $cl: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in cl(S \cup\{b\}) \cap \neg cl(S)$, then $b \in cl(S \cup\{a\}) \cap \neg cl(S)$. 
+A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $cl: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in cl(S \cup\{b\}) \setminus cl(S)$, then $b \in cl(S \cup\{a\}) \setminus cl(S)$. 
 =-- 
 
 Usually when combinatorialists speak of matroids as such, $X$ is taken to be a [[finite set]]. A typical example is $X$ some finite subset of a vector space $V$, taking $cl(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
