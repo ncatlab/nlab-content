@@ -211,6 +211,34 @@ $$
 
 (e.g. [Wirthmüller, Prop. on p. 45 (47 of 67)](#Wirthmuller12))
 
+
+### Compatibility with complexification
+ {#CompatibilityWithComplexification}
+
+The Adams operations are compatible with the [[complexification]] map $(-) \otimes_{\mathbb{R}} \mathbb{C}$ from [[real vector bundles]] to [[complex vector bundles]], hence from [[KO-cohomology]] to [[KU-cohomology]], in that the following [[commutative diagram|diagram commutes]], for all $k$:
+
+$$
+  \array{
+    KO(X) 
+      &\overset{ \psi^k }{\longrightarrow}&
+    KO(X)
+    \\
+    {}^{ \mathllap{ (-) \otimes_{\mathbb{R}} \mathbb{C} } }
+    \big\downarrow
+      &&
+    \big\downarrow
+      {}^{ \mathrlap{ (-) \otimes_{\mathbb{R}} \mathbb{C} } }
+    \\
+    KO(X) 
+      &\overset{ \psi^k }{\longrightarrow}&
+    KO(X)
+  }
+$$
+
+([Adams 62, Thm. 5.1. (iv)](#Adams62), [Karoubi 78, Prop. IV.7.25](#Karoubi78))
+
+
+
 ### Compatibility with the Chern character
  {#CompatibilityWithTheChernCharacter}
 
@@ -280,14 +308,17 @@ $$
 
 =--
 
+([Adams 62, Thm. 5.1. (vi)](#Adams62), review in [Karoubi 78, Chapter V, Theorem 3.27](#Karoubi78), [Maakestad 06, Thm. 4.9](#Maakestad06))
+
 +-- {: .proof}
-###### Proof
+###### Proof idea
 
 Use the exponentional-formula for the [[Chern character]] with the  [[splitting principle]].
 
-See e.g. [Maakestad 06, Thm. 4.9](#Maakestad06)
-
 =--
+
+
+
 
 \linebreak
 
@@ -326,9 +357,11 @@ $$
 
 The original article:
 
-* [[John Adams]], _Vector fields on spheres_, Bull. Amer. Math. Soc. Volume 68, Number 1 (1962), 39-41 ([euclid:bams/1183524456](https://projecteuclid.org/euclid.bams/1183524456))
+* {#Adams62} [[John Adams]], Section 5 of: _Vector fields on spheres_, Bull. Amer. Math. Soc. Volume 68, Number 1 (1962), 39-41 ([euclid:bams/1183524456](https://projecteuclid.org/euclid.bams/1183524456), [pdf](https://www.math.ens.fr/~benoist/refs/Adams.pdf))
 
 Review:
+
+* {#Karoubi78} [[Max Karoubi]], Section IV.7 in in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 * {#AguilarGitlerPrieto} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Section 10 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002)
 
