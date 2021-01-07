@@ -2838,4 +2838,5 @@ For more see at _[[K-theory classification of topological phases of matter]]_.
 [[!redirects complex topological K-theory]] 
 [[!redirects topological complex K-theory]] 
 
-
+[[!redirects KU-theory]]
+[[!redirects KU-cohomology]]
