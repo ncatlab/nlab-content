@@ -303,9 +303,21 @@ Further development:
 
 * T. Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
-[[nucleon]] [[interaction]]:
+[[nucleon]]$\,$[[interaction]]:
 
-* Chris Halcrow, Derek Harland, _An attractive spin-orbit potential from the Skyrme model_ ([arXiv:2007.01304](https://arxiv.org/abs/2007.01304))
+* [[Chris Halcrow]], [[Derek Harland]], _An attractive spin-orbit potential from the Skyrme model_ ([arXiv:2007.01304](https://arxiv.org/abs/2007.01304))
+
+* [[Derek Harland]], [[Chris Halcrow]], _Nucleon-nucleon potential from skyrmion dipole interactions_ ([arXiv:2101.02633](https://arxiv.org/abs/2101.02633))
+
+> The topic of this paper has a history of mistakes and
+sign errors in the literature. For both these reasons, we present our calculation in painstaking detail. $[...]$.  
+
+> Compared with earlier attempts based on the Skyrme model, we obtain a very good match with the long-range parts of the Paris potential. Overall, these results provide an excellent starting point for describing the nucleon-nucleon interaction from the Skyrme model. Importantly, we can describe many features of the nucleon-nucleon interaction using a purely pionic theory. $[...]$
+
+> our approach could be adapted to any model which treats nuclei as quantised solitons. This includes [[holographic QCD]], where nuclei are described as instantons on a curved spacetime
+
+
+
 
 
 
