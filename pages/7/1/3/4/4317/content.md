@@ -21,23 +21,33 @@ A typical example would be the [[groupoid]] of [[finite set|finite sets]] and [[
 
 ## Definition
 
-A **rig category**, or **bimonoidal category**, $C$ is a category with a [[symmetric monoidal category|symmetric monoidal]] structure $(C,\oplus,0)$ for addition and a [[monoidal category|monoidal]] structure $(C, \otimes, I)$ for multiplication, together with left and right distributivity natural isomorphisms
+A **rig category**, or **bimonoidal category**, $C$ is a category with a [[symmetric monoidal category|symmetric monoidal]] structure $(C,\oplus,0)$ for addition and a [[monoidal category|monoidal]] structure $(C, \otimes, I)$ for multiplication, together with left and right [[distributivity law|distributivity]] [[natural isomorphisms]]
 
-$$ d_\ell : x \otimes (y \oplus z) \to 
-(x \otimes y) \oplus (x \otimes z) $$
+$$ 
+  d_\ell   
+  \;\colon\; 
+  x \otimes (y \oplus z) 
+  \longrightarrow 
+  (x \otimes y) \oplus (x \otimes z) 
+$$
 
-$$ d_r : (x \oplus y) \otimes z \to 
-(x \otimes z) \oplus (y \otimes z) $$
+$$ 
+  d_r 
+  \;\colon\; 
+  (x \oplus y) \otimes z 
+  \longrightarrow 
+  (x \otimes z) \oplus (y \otimes z) 
+$$
 
-and absorption/annihilation isomorphisms
+and absorption/annihilation [[natural isomorphisms]]
 
-$$ a_\ell : x \otimes 0 \to 0 $$
+$$ a_\ell \;\colon\; x \otimes 0 \longrightarrow 0 $$
 
-$$ a_r : 0 \otimes x \to 0 $$
+$$ a_r \;\colon\; 0 \otimes x \longrightarrow 0 $$
 
-satisfying a set of coherence laws worked out in ([Laplaza 72](#Laplaza72)) and ([Kelly74](#Kelly74)).
+satisfying a set of [[coherence laws]] worked out in ([Laplaza 72](#Laplaza72)) and ([Kelly74](#Kelly74)).
 
-Note that these authors used the term 'ring category'.  We take the liberty of switching to 'rig category' because it is typical for these to lack additive inverses.
+Note that these authors used the term "ring category".  We take the liberty of switching to "rig category" because it is typical for these to lack additive inverses.
 
 While a rig can have the [[extra property]] of being [[commutative ring|commutative]] (i.e. of its multiplication being commutative), a rig category can have the [[extra structure]] of (its monoidal structure $\otimes$) being [[braided monoidal category|braided]] (compatibly with the distributive laws) and may then have the further property of being [[symmetric monoidal category|symmetric]].
 
@@ -47,12 +57,24 @@ Rig categories are part of the hierarchy of [[distributivity for monoidal struct
 
 ### Distributive categories
 
-If $\oplus$ is the categorical [[coproduct]] and $\otimes$ is the categorical [[product]], then we have the notion of a [[distributive category]], which is a special case of a rig category.  For example, the category [[Set]] of [[sets]], as well as any [[topos]], is a distributive category, hence a rig category with $\times$ and $+$.
+A rig category where $\oplus$ is the [[category theory|category-theoretic]] [[coproduct]] and $\otimes$ is the category-theoretic [[product]] ([[Cartesian product]]) is called a _[[distributive category]]_.
+
+For example, 
+
+* the category [[Set]] of [[sets]], 
+
+* any [[topos]], 
+
+* the category [[Top]] of [[topological spaces]] with respect to forming [[product topological spaces]] and [[disjoint union topological spaces]];
+
+are distributive categories, hence rig categories with $\times$ and $+$.
 
 ### Distributive monoidal categories
  {#DistributiveMonoidalCategories}
 
-In between, we have the notion of [[distributive monoidal category]], where $\oplus$ is the coproduct but $\otimes$ is an abstract monoidal structure.  Examples of this sort include [[Ab]], $R$[[Mod]], [[Vect]] and [[Vect(X)]]:
+In between, we have the notion of [[distributive monoidal category]], where $\oplus$ is the coproduct but $\otimes$ is a possibly non-cartesian [[monoidal category|monoidal structure]].  
+
+Examples of this sort include [[Ab]], $R$[[Mod]], [[Vect]] and [[Vect(X)]]:
 
 * [[Ab]], the category of [[abelian groups]] equipped with the [[tensor product of abelian groups]]
 
@@ -63,6 +85,12 @@ In between, we have the notion of [[distributive monoidal category]], where $\op
 * $k$[[Vect(X)]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] for $X$ some ([[topological space|topological]]) [[space]], equipped with the [[tensor product of vector bundles]].
 
 In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the last case).
+
+Also:
+
+* the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
+
+
 
 
 ## Baez's conjecture
