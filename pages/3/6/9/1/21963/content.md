@@ -20,7 +20,7 @@
 ###### Proposition
 **([[one-point compactification]] of [[product topological space|product space]] is [[smash product]] of the compactified factors)
 
-On the [[subcategory]] $Top_{LCHaus}$ of [[Top]] on the [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] 
+On the [[subcategory]] $Top_{LCHaus}$ in [[Top]] of [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] (Prop. \ref{OnePointCompactificationFunctor})
 
 $$
   (-)^{cpt}
@@ -30,7 +30,23 @@ $$
   Top^{\ast/}
 $$
 
-sends [[product topological spaces]] to [[smash products]] of [[pointed topological spaces]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
+
+1. sends [[coproducts]], hence [[disjoint union topological spaces]], to [[wedge sums]] of [[pointed topological spaces]];
+
+1. sends [[Cartesian products]], hence [[product topological spaces]], to [[smash products]] of [[pointed topological spaces]];
+
+hence constitutes a [[strong monoidal functor]] for both [[monoidal category|monoidal]] structures of these [[distributive monoidal categories]] in that there are [[natural transformation|natural]] [[homeomorphisms]]
+
+$$
+  \big(
+    X \sqcup Y 
+  \big)^{cpt}
+  \;\simeq\;
+  X^{cpt} \vee Y^{cpt}
+  \,,
+$$
+
+and
 
 $$
   \big(
@@ -41,12 +57,12 @@ $$
   \,.
 $$
 
-Hence $(-)^{cpt}$ constitutes a [[strong monoidal functor]] from $Top_{LCHaus}$ regarded as a [[monoidal category]] via forming [[product topological spaces]] (which, beware, are not the [[Cartesian product]] here, due to the restriction to proper maps) to $Top^{\ast/}$ regarded as a monoidal category via the [[smash product]].
-
 =--
 
-This is briefly mentioned in, for instance, [Bredon 93, p. 199](#Bredon93).
-The argument may be found spelled out in: [Mathematics.SE:a/1645794](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+This is briefly mentioned in [Bredon 93, p. 199](#Bredon93).
+The argument is spelled out in: [MO:a/1645794](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+
+
 
 ## References
 
