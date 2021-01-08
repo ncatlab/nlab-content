@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher algebra
+#### Algebra
 +-- {: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -59,37 +59,6 @@ On the other hand, analysts run across semigroups often in the wild, and don\'t 
 
 Another variant with strong links with category theory is that of [[inverse semigroups]], which [[Charles Ehresmann]] showed were closely related to [[ordered groupoid]]s. Inverse semigroups naturally occur when considering partial symmetries of an object.
 
-+-- {: .query}
-_AnonymousCoward_: In _Categories of Symmetries and Infinite-Dimensional Groups_ by Yu. A. Neretin (London Mathematical Society Monographs, New Series 16, Oxford Science Publications 1996), the author points out that if we consider an infinite-dimensional group $G$ can be realized in the following way: there is some category $C$ with an object $X$ such that 
-$$
-Aut(X)=G.
-$$
-Then we have this special semigroup 
-$$
-\Gamma=End(X)
-$$
-which is called the **Mantle** of $G$. Neretin insists it is a semigroup.
-
-I am at a loss as to why this is a semigroup, and not a monoid...
-
-[[David Roberts]]: Well, we can realise $G = Aut_{\mathbf{B}G}(*)$, where $*$ is the single object of the one-object groupoid associated to $G$. Then $End(*) = Aut(*)$ in this category, so this 'Mantle' is nowhere near being uniquely defined. Is Neretin using the same definition of semigroup as here (it's the obvious first question - a bit like 'is your computer plugged in and turned on at the wall?'). Unless I've got the wrong end of the stick, and this category $C$ is defined up to equivalence from $G$. And maybe $C$ isn't a category, but only a [[semicategory]]? 
-
-Edit: Having a look, I find his book: Semigroups in algebra, geometry, and analysis, by Karl Heinrich Hofmann, Jimmie D. Lawson, &#278;rnest Borisovich Vinberg. They talk about Ol'shanski&#301; semigroups associated to groups - this might be a place to get started. From the examples discussed, it seems like some of the semigroups they consider are monoids, but that was only after I flicked quickly through the book online.
-
-_Toby_:  When Neretin insists that the mantle is a semigroup, does he also insist that it\'s not a monoid, or is he just silent about that?  After all, it *is* a semigroup.
-
-We category theorists are strongly attracted to monoids, since they come from categories and semigroups don\'t.  But others consider monoids to be just a special kind of semigroup; as long as it\'s not a group, they\'re not going to bother worrying about whether a semigroup is a monoid or not.
-
-I agree with David that the mantle doesn\'t seem to be well defined; a group should have several mantles (the smallest of which is itself).  But if he\'s talking about a particular way of constructing certain groups, then this way may well come about by first constructing a monoid (the mantle) and then taking the mantle\'s group of invertible elements.
-
-_AnonymousCoward_: The notion of a semigroup is (as best as I can tell from closely reading the first chapters) left undefined. I assumed that the endomorphism monoid here is also a semigroup, so there is really nothing lost here (well...partially true; I think viewing the Mantle as a semigroup **does** play a role when considering morphisms!). 
-
-After looking a bit more into Neretin's writings (e.g. "Infinite-dimensional groups, their mantles, trains, and representations" in Kirillov's book _Topics in Representation Theory_) it does seem clear that the mantle of an infinite-dimensional group is not well-defined (there are apparently two different ways to consider it that produce not necessarily equal mantles --- one is by considering the group $G$ as the automorphism of an object $H$ in some category and thereby obtaining the mantle as the endomorphism monoid of this object; the other is to consider the closure of sequences of $G$ under a weak-operator norm, or something to that effect).
-
-I was just worried that I was forgetting some special situation when the endomorphisms form a semigroup instead of a monoid.
-
-Also, thank you both Toby and David for your quick and informative replies, I really appreciate it :) 
-=--
 
 
 ## Internalization 
@@ -110,6 +79,7 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 * [[semi-category]], [[semi-simplicial set]], [[semi-Segal space]]
 
+* [[rectangular band]]
 
 ## References
 
