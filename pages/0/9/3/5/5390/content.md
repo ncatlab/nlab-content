@@ -18,7 +18,7 @@ A filter of ideals in $R$ is __topologizing__ if
 
    is in $I$.
 
-2. if $J\in F$ and $(I:r)\in I$ for all $r\in J$ then $I\in F$.
+2. if $J\in F$ and $(I:r)\in F$ for all $r\in J$ then $I\in F$.
 
 
 ## Properties
