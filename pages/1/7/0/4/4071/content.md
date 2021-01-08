@@ -8,6 +8,20 @@ Introducing [[Kazhdan's property (T)]]:
 
 * [[David Kazhdan]], _Connection of the dual space of a group with the structure of its close subgroups_, Funct Anal Its Appl (1967) 1: 63 ([doi:10.1007/BF01075866](https://doi.org/10.1007/BF01075866))
 
+## Quotes
+ {#Quotes}
+
+
+> Physics is very interesting: There are many, many interesting theorems. Unfortunately,there are no definitions.
+
+Quoted this way in:
+
+* [[James Milne]]'s "[Mathematics Site](https://www.jmilne.org/math/)"
+
+* [[Greg Moore]], p. 27 of: _[[Physical Mathematics and the Future]]_, 2014 ([pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
+
+
 category: people
+
 [[!redirects David Každan]]
 [[!redirects D. Kazhdan]]
