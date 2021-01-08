@@ -206,6 +206,9 @@ Reply:
 
 * {#Read19} [[Justin Read]], _[Dark matter heats up in dwarf galaxies](https://www.simonsfoundation.org/event/dark-matter-heats-up-in-dwarf-galaxies/)_, Simons Foundation Lecture 2019
 
+* Matthew D. A. Orkney, [[Justin Read]], et al., _EDGE: Two routes to dark matter core formation in ultra-faint dwarfs_ ([arXiv:2101.02688](https://arxiv.org/abs/2101.02688))
+
+
 See also
 
 * Wikipedia, _[Cuspy halo problem](https://en.wikipedia.org/wiki/Cuspy_halo_problem)_
