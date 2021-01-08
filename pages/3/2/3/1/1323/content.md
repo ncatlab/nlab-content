@@ -100,6 +100,21 @@ For example:
 
 are distributive categories (hence [[distributive monoidal categories]], hence [[rig categories]]).
 
+These categories have in common that they are [[extensive category|extensive]]. An example[^Freyd] of a distributive category that is not extensive is given by
+
+* the category of rectangular bands which has objects [[semigroup|semigroups]] $X$ satisfying $xx= x$ for all $x\in X$ and $xyx=x$ for all $x,y\in X$.
+
+Since for [[poset|posets]] viewed as categories, finite products and coproducts are given by meets and joins we find:
+
+* A [[poset]] viewed as a category is distributive iff it is a [[distributive lattice]]. Accordingly, non distributive lattices provide instances of categories with finite products and coproducts that do not distribute over each other.
+
+A further non-example:
+
+* The category $Pfn$ of sets and [[partial functions|partial functions]] has finite coproducts and products. The former given by [[disjoint unions]] as in [[Set]] and latter by $(X\times Y)+X+Y$ (where $\times,+$ indicate the usual product and coproduct in $Set$) with projections $\pi_1,\pi_2$ given on the domains of definition $(X\times Y)+X$ (resp. $(X\times Y)+Y$) by $\pi_1((x,y))=x$ and $\pi_1(x)=x$ (resp. $\pi_2((x,y))=y$ and $\pi_2(y)=y$). Since the [[initial object]] $\empty$ is not [[strict initial object|strict]], $Pfn$ is not distributive.
+
+
+[^Freyd]: Pointed out by [[Peter Freyd]] in [this discussion](https://www.mta.ca/~cat-dist/catlist/1999/extensive).
+
 
 ## Related concepts
 
@@ -117,7 +132,14 @@ are distributive categories (hence [[distributive monoidal categories]], hence [
 
 * [[extensive category]]
 
-* A distributive category that is a [[poset]] is a [[distributive lattice]].
+* [[distributive lattice]]
+
+* [[objective number theory]]
+
+## Link
+
+* {#catlistdiscussion}[Freyd, Lack, Lawvere et al: CATLIST discussion on extensive categories 1996](https://www.mta.ca/~cat-dist/catlist/1999/extensive)
+
 
 ## References 
 
