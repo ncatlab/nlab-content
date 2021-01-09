@@ -163,6 +163,8 @@ Note in particular that, somewhat surprisingly, the **associativity** in a unita
 
 * [[graph]]
 
+* [[band]]
+
 ## References
 
 * {#AgMah06}M. Aguiar, S. Mahajan, _Coxeter Groups and Hopf Algebras_ , AMS Providence 2006. ([draft](http://www.math.cornell.edu/~maguiar/monograph.pdf))
@@ -176,13 +178,13 @@ Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1
 
 * F. Klein-Barmen, _&#220;ber eine weitere Verallgemeinerung des Verbandsbegriffs_ , Math. Z. **46** (1940) pp.472-480.([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN00237921X))
 
-* F. W. Lawvere, _Qualitative distinctions between some toposes of generalized graphs_, Contemp. Math. **92** (1989) pp. 261-299.
+* [[F. W. Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemp. Math. **92** (1989) pp. 261-299.
 
-* {#Law89b} F. W. Lawvere, _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_  Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp. 51-74. 
+* {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_  Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp. 51-74. 
 
-* {#Law91} F. W. Lawvere, _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf)) 
+* {#Law91} [[F. W. Lawvere]], _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf)) 
 
-* {#Law02} F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_, JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf)) 
+* {#Law02} [[F. W. Lawvere]], _Linearization of graphic toposes via Coxeter groups_, JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf)) 
 
 * {#MSS15} S. Margolis, F. Saliola, B. Steinberg, _Cell Complexes, Poset Topology and the Representation Theory of Algebras Arising in
 Algebraic Combinatorics and Discrete
