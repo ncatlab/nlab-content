@@ -1,22 +1,12 @@
 
-$$
-  \array{
-    \mathrlap{
-      \backslash\text{begin}\{\text{theorem}\}  
-    }
-    \\
-    & 
-    \;\;
-    \mathrlap{\backslash\text{label}\{\text{SomeTheorem}\}}
-    \\
-    & 
-    \;\; 
-    \mathrlap{\text{Some theorem.}}
-    \\
-    \mathrlap{\backslash\text{end}\{\text{theorem}\}}
-  }
-$$
+# Contents
+* table of contents
+{:toc}
 
-\begin{theorem} \label{SomeTheorem} Some theorem. \end{theorem}
+## Idea
 
-\begin{definition} Some definition. \end{definition}
+Hello
+
+## Related entries
+
+* [[Sandbox]]
