@@ -24,7 +24,7 @@
 
 ## Idea
 
-The flavor of _[[modal logic]]_ called $S4$ is [[propositional logic]] equipped with a single [[modality]] usually written "$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
+The flavor of (classical) _[[modal logic]]_ called $S4$ is (classical) [[propositional logic]] equipped with a single [[modality]] usually written "$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
 
 1. $\Box K \colon \Box(p \to q) \to (\Box p \to \Box q)$ ([[K modal logic]])
 
@@ -40,6 +40,8 @@ S4 modal logic appears in many [[temporal logics]].
 
 
 If instead of a single Box operator one considers $n \in \mathbb{N}$ box operators $\Box_i$ of this form the resulting modal logic is denote $S4(n)$. Here $\Box_i p$ is sometimes interpreted as "the $i$th agent knows $p$."
+
+In intuitionistic (or constructive) Modal Logic, one does not expect the possibility modality to be dual to the necessity modality, necessarily. [[Alex Simpson]] has written in his thesis the most used constructive modal logic system, but other systems exist.
 
 ## Properties
 
@@ -78,6 +80,8 @@ Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have 
 
 
 * Natasha Alechina, Michael Mendler, [[Valeria de Paiva]], and Eike Ritter, _Categorical and Kripke Semantics for Constructive S4 Modal Logic_ ([pdf](http://www.cs.nott.ac.uk/~nza/papers/Alechina++:01a.pdf))
+
+* [[Alex Simpson]], _The proof theory and semantics of intuitionistic modal logic_ ([pdf] (https://era.ed.ac.uk/handle/1842/407))
 
 More on $S4$, $S5_{(m)}$ and their applications in Artificial Intelligence can be found in
 
