@@ -7,6 +7,9 @@ On the [[symplectic cobordism ring]]:
 
 * [[Robert Stong]], _Some Remarks on Symplectic Cobordism_, Annals of Mathematics Second Series, Vol. 86, No. 3 (Nov., 1967), pp. 425-433 ([doi:10.2307/1970608](https://doi.org/10.2307/1970608))
 
+On [[cobordism theory]], [[cobordism rings]] and [[Thom spectra]]:
+
+* {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html))
 
 On [[equivariant bordism homology theory]]:
 
