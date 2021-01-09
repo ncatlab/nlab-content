@@ -21,7 +21,7 @@
 
 ... [[idempotent]] [[semigroup]] ...
 
-## Definiution 
+## Definition 
 
 Recall that a _[[band]]_ is a [[semigroup]] in which every [[element]] is [[idempotent]]. 
 
@@ -33,10 +33,10 @@ Now a _rectangular band_ may be described as a [[semigroup]] satisfying the iden
 
 ## Properties
 
-If $S$ is a rectangular band, then there exist [[inhabited set|non-empty sets]] $I$ and $J$ such that $S$ is [[isomorphism|isomorphic]] as a [[semgroup]] to $I\times J$ equipped with the [[multiplication]]
+If $S$ is a rectangular band, then there exist [[inhabited set|non-empty sets]] $I$ and $J$ such that $S$ is [[isomorphism|isomorphic]] as a [[semigroup]] to $I\times J$ equipped with the [[multiplication]]
 $(i, j)(p,q) = (i,q)$ for $i,p\in I$ and $j,q\in J$.
 
-Every [[band]] $S$ has a decomposition as a [[disjoint union]] $\coprod_{x\in L} R_x$ where $L$ is a semilattice, each $R_x$ is a [[subobject|sub]]-semigroup that is a rectangular band, and $R_x R_y \subseteq R_{xy}$ for every $x$ and $y$. This is a bit weaker than saying we have a [[functor]] from the [[poset]] $L$ to the [[category]] of rectangular bands, because we lack connecting morphisms $R_x \to R_y$.
+Every [[band]] $S$ has a decomposition as a [[disjoint union]] $\coprod_{x\in L} R_x$ where $L$ is a semilattice, each $R_x$ is a [[subobject|sub]]-semigroup that is a rectangular band, and $R_x R_y \subseteq R_{x y}$ for every $x$ and $y$. This is a bit weaker than saying we have a [[functor]] from the [[poset]] $L$ to the [[category]] of rectangular bands, because we lack connecting morphisms $R_x \to R_y$.
 
 A band $S$ satisfying the identity $x y x = x y$ for all $x$ and $y$ is said to be _left-regular_. Left-regular bands can arise from hyperplane arrangements and there has been work studying [[random walks]] on these hyperplane arrangements by analysing the semigroup algebras of the associated bands: see [Brown 00](#Brown00) and [Margolis-Saliola-Steinberg 15](#MargolisSaliolaSteinberg15)
 
