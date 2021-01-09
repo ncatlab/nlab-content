@@ -1,6 +1,6 @@
 
 
-**flavors of [[cobordism]] [[cobordism homology theory|homology]]/[[cobordism cohomology theory|cohomology theories]] and [[Brown representability theorem|representing]] [[Thom spectra]]**:
+**flavors of [[cobordism]] [[cobordism homology theory|homology]]/[[cobordism cohomology theory|cohomology theories]], [[Brown representability theorem|representing]] [[Thom spectra]] and [[cobordism rings]]**:
 
 [[bordism homology theory|bordism theory]] $\,M B$ ([[B-bordism]]):
 
