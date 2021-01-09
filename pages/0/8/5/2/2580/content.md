@@ -313,7 +313,7 @@ See at _[[multiplication of distributions]]_
 
 As explained above, any locally integrable function on $U$ defines a distribution on $U$. Other examples may be produced fairly cheaply by restriction of functionals on various TVS which contain the test functions. 
 
-For instance: if $C_c(U)$ denotes the space of real-valued continuous functions with compact support in $U$ (topologized by uniform convergence on compacta), then a functional $\mu: C_c(U) \to \mathbb{R}$ is essentially the same as a signed measure on $U$ (Riesz-Markov theorem), i.e., there is a unique signed measure $d m$ for which 
+For instance: if $C_c(U)$ denotes the space of real-valued continuous functions with compact support in $U$ (topologized by uniform convergence on compacts), then a functional $\mu: C_c(U) \to \mathbb{R}$ is essentially the same as a signed measure on $U$ (Riesz-Markov theorem), i.e., there is a unique signed measure $d m$ for which 
 
 $$\mu(\phi) = \int_U \phi d m.$$ 
 
