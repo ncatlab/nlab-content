@@ -38,7 +38,7 @@ $(i, j)(p,q) = (i,q)$ for $i,p\in I$ and $j,q\in J$.
 
 Every [[band]] $S$ has a decomposition as a [[disjoint union]] $\coprod_{x\in L} R_x$ where $L$ is a semilattice, each $R_x$ is a [[subobject|sub]]-semigroup that is a rectangular band, and $R_x R_y \subseteq R_{x y}$ for every $x$ and $y$. This is a bit weaker than saying we have a [[functor]] from the [[poset]] $L$ to the [[category]] of rectangular bands, because we lack connecting morphisms $R_x \to R_y$.
 
-A band $S$ satisfying the identity $x y x = x y$ for all $x$ and $y$ is said to be _left-regular_. Left-regular bands can arise from hyperplane arrangements and there has been work studying [[random walks]] on these hyperplane arrangements by analysing the semigroup algebras of the associated bands: see [Brown 00](#Brown00) and [Margolis-Saliola-Steinberg 15](#MargolisSaliolaSteinberg15)
+A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ for all $x$ and $y$ is said to be _left-regular_. Left-regular bands can arise from hyperplane arrangements and there has been work studying [[random walks]] on these hyperplane arrangements by analysing the semigroup algebras of the associated bands: see [Brown 00](#Brown00) and [Margolis-Saliola-Steinberg 15](#MargolisSaliolaSteinberg15). Left-regular band monoids are also called _graphic monoids_ which are examples of 1-object [[graphic category|graphic categories]].
 
 ## Related concepts
 
@@ -46,13 +46,22 @@ A band $S$ satisfying the identity $x y x = x y$ for all $x$ and $y$ is said to 
 
 * [[reader monad]]
 
+* [[graphic category|graphic monoid]]
+
+* [[collapsed topos]]
+
 ## References
+
+* {#Brown00}K. S. Brown, _Semigroups, Semirings, and Markov Chains_, J. Theor. Prob. **13** no.3 (2000) pp.871-938. (([arXiv:math/0006145](https://arxiv.org/abs/math/0006145))
 
 * {#Howie76} J. Howie, _An introduction to semigroup theory_, Academic Press 1976.
 
-* {#Brown00} Kenneth S. Brown, _Semigroups, rings, and Markov chains_ ([arXiv:math/0006145](https://arxiv.org/abs/math/0006145))
+* {#Johnstone90}[[Peter Johnstone]], _Collapsed toposes and cartesian closed varieties_ , JPAA **129** (1990) pp.446-480.
 
-* {#MargolisSaliolaSteinberg15} Stuart Margolis, Franco Saliola, Benjamin Steinberg, _Cell complexes, poset topology and the representation theory of algebras arising in algebraic combinatorics and discrete geometry_ ([arXiv:1508.05446](https://arxiv.org/abs/1508.05446))
+* N. Kimura, _The structure of idempotent semigroups I_ , Pacific
+Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
+
+* {#MargolisSaliolaSteinberg15}  Stuart Margolis, Franco Saliola, [[Benjamin Steinberg]], _Cell complexes, poset topology and the representation theory of algebras arising in algebraic combinatorics and discrete geometry_ ([arXiv:1508.05446](https://arxiv.org/abs/1508.05446))
 
 
 
