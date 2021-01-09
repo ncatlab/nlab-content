@@ -27,10 +27,45 @@ See at those entries for more.
 
 ## Examples
 
-
 [[!include flavours of cobordism cohomology theories -- table]]
 
 
+## Geometric model
+
+We discuss a geometric model for the cobordism cohomology theory,
+due to [[Quillen]] \cite[Section 1]{Quillen}.
+We concentrate on the complex case, corresponding to the [[Thom spectrum]] $\mathrm{M} \mathrm{U}$.
+
+For a [[manifold]] $X$, the group $\mathrm{M} \mathrm{U}^q(X)$
+is constructed as the set of proper [[complex-oriented]] maps
+of relative codimension $q$.
+
+Here two [[proper]] [[complex-oriented]] maps $f_i\colon Z_i \to X$
+are __cobordant__ if there is a proper complex-oriented map $b\colon W\to X\times\mathbf{R}$
+such that $X\times\{0\}$ and $X\times\{1\}$ are [[transversal]] to $b$
+and pulling back $b$ to these submanifolds yields $f_0$ and $f_1$.
+
+A [[complex orientation]] of a [[smooth map]] $f\colon Z\to X$
+is defined as follows.
+
+If the relative codimension of $f$ is even at all points of $Z$,
+then a complex orientation is an equivalence class
+of factorizations of $f$
+in the form
+$$p\circ i\colon Z\to E\to X,$$
+where $p\colon E\to X$ is a [[complex vector bundle]]
+and $i\colon Z\to E$ is an [[embedding]]
+equipped with a [[complex structure]] on its [[normal bundle]].
+
+Two such factorizations $(i,p)$ and $(i',p')$
+are equivalent if there is another factorization $(i'',p'')$
+together with embeddings of [[complex vector bundles]] $E\to E'$ and $E\to E''$
+and a homotopy
+$i''\colon X\times[0,1]\to E''\times [0,1]$$
+over $[0,1]$
+equipped with a [[complex structure]] on its [[normal bundle]]
+that restricts to the corresponding complex structures
+on $X\times0$ and $X\times1$.
 
 ## Related concepts
 
@@ -55,8 +90,10 @@ See at those entries for more.
 Original articles introducing cobordism as a [[Whitehead-generalized cohomology theory]]:
 
 * [[Michael Atiyah]], _Bordism and Cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 57, Issue 2, April 1961, pp. 200 - 208 ([doi:10.1017/S0305004100035064](https://doi.org/10.1017/S0305004100035064), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahb.pdf))
-
   > (introducing the concept, with focus on[[MSO]])
+
+* [[Daniel Quillen]], _Elementary Proofs of Some Results of Cobordism Theory Using Steenrod Operations_, Advances in Mathematics 7 (1971), 29–56.
+[doi](http://dx.doi.org/10.1016/0001-8708(71)90041-7).
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
