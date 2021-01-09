@@ -87,7 +87,7 @@ Since $\hom(x \otimes y, y)$ is inhabited for all $x, y$ (with the help of some 
 
 A distinguishing feature of (infinitary) distributive monoidal categories is that the [[monad]] $T$ for [[monoid objects]] in such a category has a particularly simple expression:
 $$ T X = \coprod_n X^{\otimes n}.$$
-The same is true for the monad on enriched graphs whose algebras are categories enriched over such a monoidal category.  This also generalizes to [[lax monoidal categories]], a.k.a. "multitensors"; see [(Weber)](#Weber).
+The same is true for the monad on enriched graphs whose algebras are categories enriched over such a monoidal category.  This also generalizes to [[lax monoidal categories]], a.k.a. "multitensors"; see [Weber 13](#Weber13).
 
 ## Related concepts
 
@@ -106,7 +106,7 @@ The same is true for the monad on enriched graphs whose algebras are categories 
 
 ## References
 
-* [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [[TAC]] 28(26), 2013, ([tac](http://www.tac.mta.ca/tac/volumes/28/26/28-26abs.html))
- {#Weber}
+* {#Weber13} [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [[TAC]] 28(26), 2013, ([tac:28-26](http://www.tac.mta.ca/tac/volumes/28/26/28-26abs.html))
+ 
 
 [[!redirects distributive monoidal categories]]
