@@ -370,8 +370,13 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivar
 [[!redirects framed bordism theory]]
 [[!redirects framed bordism theories]]
 
+[[!redirects framed cobordism homology theory]]
+[[!redirects framed cobordism homology theories]]
+
 [[!redirects framed bordism homology theory]]
 [[!redirects framed bordism homology theories]]
+
+
 
 [[!redirects framed bordism ring]]
 [[!redirects framed bordism rings]]
