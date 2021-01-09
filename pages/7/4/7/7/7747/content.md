@@ -24,7 +24,7 @@ More generally, one means by a _framing_ not a trivialization of the tangent bun
 
 * of the _[[stable tangent bundle]]_.
 
-Accordingly, a _framed cobordism_ is a [[cobordism]] equipped with a framing on the underlying manifold.
+Accordingly, a _framed cobordism_ is a [[cobordism]] equipped with a framing on the underlying manifold (see also at [[MFr]]).
 
 For $dim(X)$ the [[dimension]] of the manifold and $n \geq dim(X)$, then one also speaks of an _$n$-framing_ to mean a trivialization of the "$n$-stabilized tangent bundle"  $T X \oplus \mathbb{R}^{n-dim(X)}$ (where the right [[direct sum|direct summand]] denotes the trivial real [[vector bundle]] of [[rank]] $n - dim(X)$). These $n$-framed manifolds appear in particular in the construction of the  [[cobordism category]] of framed $n$-dimensional cobordisms. The [[cobordism hypothesis]] asserts essentially that the [[(∞,n)-category of cobordisms]] with $n$-framing is the [[free construction|free]] [[symmetric monoidal (∞,n)-category with duals]].
 
