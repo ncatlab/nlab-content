@@ -11,6 +11,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -46,8 +47,132 @@ In generalization to how the complex [[cobordism ring]] $\Omega^U_{2k}$ is repre
 
 ([Conner-Floyd 66, p. 97](#ConnerFloyd66))
 
-Hence the representing spectrum is the [[homotopy cofiber]] of the [[ring spectrum]] unit $\mathbb{S} \longrightarrow M \mathrm{U}$ out of the [[sphere spectrum]], which one might denote $M \mathrm{U} / \mathbb{S}$, but which in notation common around the [[Adams spectral sequence]] would be 
-"$\Sigma \overline {M \mathrm{U}}$" (as in [Adams 74, theorem 15.1 page 319](Adams+spectral+sequence#Adams74)) or just "$\overline{ M \mathrm{U} }$" (e.g. [Hopkins 99, Cor. 5.3](Adams+spectral+sequence#Hopkins99)).
+Hence the representing spectrum $M(\mathrm{U},fr)$ is the [[homotopy cofiber]] of the [[ring spectrum]] unit $1^{M\mathrm{U}} \;\colon\; \mathbb{S} \longrightarrow M \mathrm{U}$ out of the [[sphere spectrum]], which one might naturally denote 
+
+$$
+  M(\mathrm{U},fr)
+  \;\coloneqq\;
+  M \mathrm{U} / \mathbb{S}
+  \,,
+$$
+
+but which in notation common around the [[Adams spectral sequence]] would be 
+"$\Sigma \overline {M \mathrm{U}}$" (as in [Adams 74, theorem 15.1 page 319](Adams+spectral+sequence#Adams74)) or just "$\overline{ M \mathrm{U} }$" (e.g. [Hopkins 99, Cor. 5.3](Adams+spectral+sequence#Hopkins99)):
+
+\[
+  \label{AsUnitCofiber}
+  \array{
+    \mathbb{S}
+    &
+      \overset{
+        1^{M\mathrm{U}}
+      }{
+        \longrightarrow
+      }
+    &
+    M \mathrm{U}
+    \\
+    \big\downarrow
+    &
+    {}^{{}_{(po)}}
+    &
+    \big\downarrow
+    \\
+    \ast 
+    &\longrightarrow&
+    M \mathrm{U}/ \mathbb{S}
+  }
+\]
+
+
+### Boundary morphism to $MFr$
+  {#BoundaryMorphism}
+
+The realization (eq:AsUnitCofiber) makes it manifest 
+(this is left implicit in [Conner-Floyd 66, p. 99](#ConnerFloyd66))
+that there is a [[cohomology operation]] to [[MFr]] of the form
+
+\[
+  \label{BoundaryCohomologyOperation}
+  \array{
+    M(\mathrm{U},fr)
+    \;=
+    &
+    M \mathrm{U}/\mathbb{S}
+    &
+    \overset{
+      \;\;\;
+      \partial
+      \;\;\;
+    }{\longrightarrow}
+    &
+    \Sigma 
+    \mathbb{S}
+    & =\;
+    \Sigma Mfr
+    \\
+    \pi_{2d}\big( M(\mathrm{U},fr) \big)
+    &&
+    \longrightarrow
+    &&
+    \pi_{2d-1}\big( Mfr \big)
+  }
+  \,.
+\]
+
+Namely, $\partial$ is the second next step in the long [[homotopy cofiber]]-sequence starting with $1^{M \mathrm{U}}$. In terms of the [[pasting law]]:
+
+\[
+  \label{BoundaryOperationViaPastingLaw}
+  \array{
+    \mathbb{S}
+    &
+      \overset{
+        1^{M\mathrm{U}}
+      }{
+        \longrightarrow
+      }
+    &
+    M \mathrm{U}
+    &
+    \longrightarrow
+    &
+    \ast
+    \\
+    \big\downarrow
+    &
+    {}^{{}_{(po)}}
+    &
+    \big\downarrow
+    &
+    {}^{{}_{(po)}}
+    &
+    \big\downarrow
+    \\
+    \ast 
+    &
+    \longrightarrow
+    &
+    M \mathrm{U}/ \mathbb{S}
+    &
+      \underset{
+        \partial
+      }{
+        \longrightarrow
+      }
+    &    
+    \Sigma \mathbb{S}
+  }
+\]
+
++-- {: .num_remark}  
+###### Remark
+
+The implicit idea in [Conner-Floyd 66, p. 99](#ConnerFloyd66) must be to see $\partial$ (eq:BoundaryCohomologyOperation) in terms of forming actual [[boundaries]] of representative [[manifolds with boundaries]] under a version of the [[Pontrjagin-Thom construction]]. This is certainly plausible, but not proven either, as they "forego the tedious details" on [p. 97](#ConnerFloyd66). NB: for the purpose on p. 99 they might just _define_ $\partial$ in this geometric way, but then the claim wrapping around p. 100-101 needs proof.  This claim however is immediate from the abstract homotopy theory, namely it is just the continuation yet one step further along the long cofiber sequence -- this is Prop. \ref{BoundaryOperationFromFrBordToUFrBordIsSurjective} below.
+
+=--
+
+
 
 \linebreak
 
@@ -71,10 +196,72 @@ The [[bordism rings]] for [[MU]], $MUFr$ and [[MFr]] sit in a [[short exact sequ
   \,,
 \]
 
-where $i$ is the evident inclusion, while $\partial$ is restriction to the [[boundary]].
+where $i$ is the evident inclusion, while $\partial$ is the [[boundary]] homomorphism from [above](#BoundaryMorphism). 
 
-In particular, this means that $\partial$ is [[surjective function|surjective]], hence that every $Fr$-manifold is the boundary of a $(U,fr)$-manifold.
+This is stated without comment in [Conner-Floyd 66, p. 99](#ConnerFloyd66). The non-trivial part of this statement is this:
 
++-- {: .num_prop #BoundaryOperationFromFrBordToUFrBordIsSurjective} 
+###### Proposition
+
+The boundary operation $\partial$ in (eq:ShortExactSequenceOfUFrBordismRings) is [[surjective function|surjective]], hence every $Fr$-manifold is the boundary of a $(U,fr)$-manifold.
+
+=--
+
+The beginning of the argument appears inside the proof of [Conner-Floyd 66, Thm. 16.2](#ConnerFloyd66), attributed there to [[Peter Landweber]].
+The following is a complete and quick proof using the formulation (eq:BoundaryOperationViaPastingLaw) via abstract homotopy [above](#BoundaryMorphism):
+
++-- {: .proof}
+###### Proof
+
+Let 
+$
+  \Sigma^\infty 
+  S^{2(d+1)-1} 
+  \overset{ 
+     \Sigma^{\infty} 
+     {\color{green} c } 
+  }{\longrightarrow} 
+  \Sigma^\infty S^{2n}
+$ 
+represent a given class in [[stable Cohomotopy]], hence in [[MFr]] under the [[Pontryagin-Thom isomorphism|PT isomorphism]]. (We write this as the [[stabilization]] of a class ${\color{green} c}$ in unstable [[Cohomotopy]] just for emphasis that we can.)
+
+Consider then following [[homotopy coherent diagram|homotopy]] [[pasting diagram]]:
+
+\begin{imagefromfile}
+    "file_name": "LiftingFromUBordismToUFrBordism.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
+\end{imagefromfile}
+
+Here all squares are [[homotopy pushout]]-squares, they arise as follows (beware that we say "square" for any _single_ cell and "rectangle" for the pasting composite of any adjacent _pair_ of cells):
+
+* The top square witnesses the [[homotopy cofiber]] $C_c$, defined thereby;
+
+* the left rectangle is a homotopy pushout by definition of [[suspension]],
+
+* hence the bottom left square is so by the [[pasting law]].
+
+* Again via the first point, a dashed morphism exists as shown, witnessing the fact that the pullback of the class $\Sigma^{2n}(1^{M\mathrm{U}})$ to an odd-dimensional square vanishes (as does every $MU$-class);
+
+* with this, the bottom left rectangle exists, and it is a homotopy pushout by definition of $M \mathrm{U}/\mathbb{S}$ (eq:BoundaryOperationViaPastingLaw);
+
+* hence the morphism $\color{magenta} M^{2 d}$ exists, and the resulting bottom middle square is a homotopy pushout, again by the [[pasting law]].
+
+* Now the bottom right rectangle is defined to be a homotopy pushout, and thus looks as shown by the [[pasting law]];
+
+* therefore the bottom right square exists, and it is a homotopy pushout by the [[pasting law]].
+
+But now the commuting three morphism in the very bottom and right part of the diagram shows that ${\color{magenta}M^{2d}} \in \pi_{2d}\big( M(U,fr) \big)$ is a lift of ${\color{green} c} \in \pi_{2d-1}(M Fr)$ through $\partial$.
+
+
+=--
  
 ### Relation to Todd classes and the e-invariant
 
