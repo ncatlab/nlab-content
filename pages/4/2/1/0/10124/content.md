@@ -35,7 +35,7 @@ If $R$ is commutative ([[E-∞ ring|E-∞]]) then the perfect modules (and hence
 
 =--
 
-The first statement is ([[Higher Algebra|HA, prop. 8.2.5.2]]), the second ([[Higher Algebra|HA, prop. 8.2.5.4]]). For [[chain complexes]] this also appears as ([BFN 08, lemma 3.5](#BFN08)).
+The first statement is ([[Higher Algebra|HA, prop. 7.2.4.2]]), the second ([[Higher Algebra|HA, prop. 7.2.4.4]]). For [[chain complexes]] this also appears as ([BFN 08, lemma 3.5](#BFN08)).
 
 ### Stable Dold-Kan correspondence
  {#StableDoldKan}
