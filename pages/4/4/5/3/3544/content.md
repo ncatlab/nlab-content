@@ -28,7 +28,7 @@
 ## Selected writings
 
 
-On [[model category]]-theory for [[homotopy theory]]:
+Introducing [[model category]]-theory for [[homotopy theory]]:
 
 * [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
@@ -39,6 +39,12 @@ On [[rational homotopy theory]]:
 On the (co)homology of commutative algebras:
 
 * [[D. G. Quillen]], 1970, _On the (co-)homology of commutative rings_, in _Proc. Symp. on Categorical Algebra_, 65–87, American Math. Soc.
+
+On [[cobordism cohomology theory]]:
+
+* {#Quillen71} [[Daniel Quillen]], _Elementary Proofs of Some Results of Cobordism Theory Using Steenrod Operations_, Advances in Mathematics 7 (1971), 29–56 (<a href="http://dx.doi.org/10.1016/0001-8708(71)90041-7">doi:10.1016/0001-8708(71)90041-7</a>)
+
+
 
 On [[equivariant de Rham cohomology]]:
 
