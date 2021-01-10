@@ -8193,7 +8193,7 @@ A streamlined presentation of Adams resolutions and their invariance properties,
 
 further highlighted in 
 
-* {#Hopkins99} [[Mike Hopkins]], section 5 of _[[Complex oriented cohomology theories and the language of stacks]]_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
+* {#Hopkins99} [[Mike Hopkins]], section 5 of _[[Complex oriented cohomology theories and the language of stacks]]_, course notes 1999 ([[HopkinsComplexOrientedCohomology.pdf:file]])
 
 and worked out in some more detail in
 
