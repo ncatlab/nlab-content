@@ -24,12 +24,13 @@ The corresponding [[bordism classes]] form a [[bordism ring]] denoted $\Omega^{U
 ## Properties
 
 ### Representing spectrum
+ {#RepresentingSpectrum}
 
-In generalization to how the complex [[cobordism ring]] $\Omega^U_{2k}$ is represented by [[homotopy classes]] of [[maps]] into the [[Thom spectrum]] [[MU]], so $\Omega^{U,fr}_{2k}$ is represented by maps into the [[quotient spaces]] $MU_{2k}/S^{2k}$ (for $S^{2k} = Th(\mathbb{C}^{k}) \to Th( \mathbb{C}^k \times_{U(k)} E U(k) ) = MU_{2k}$ the canonical inclusion):
+In generalization to how the complex [[cobordism ring]] $\Omega^U_{2k}$ is represented by [[homotopy classes]] of [[maps]] into the [[Thom spectrum]] [[MU]], so $\Omega^{\mathrm{U},fr}_{2k}$ is represented by maps into the [[quotient spaces]] $MU_{2k}/S^{2k}$ (for $S^{2k} = Th(\mathbb{C}^{k}) \to Th( \mathbb{C}^k \times_{\mathrm{U}(k)} E \mathrm{U}(k) ) = M \mathrm{U}_{2k}$ the canonical inclusion):
 
 \[
   \label{InTermsOfHomotopyGroupsOfQuotientedThomSpace}
-  \Omega^{(U,fr)}_\bullet
+  \Omega^{(\mathrm{U},fr)}_\bullet
   \;=\;
   \pi_{\bullet + 2k}
   \big(
@@ -44,6 +45,11 @@ In generalization to how the complex [[cobordism ring]] $\Omega^U_{2k}$ is repre
 \]
 
 ([Conner-Floyd 66, p. 97](#ConnerFloyd66))
+
+Hence the representing spectrum is the [[homotopy cofiber]] of the [[ring spectrum]] unit $\mathbb{S} \longrightarrow M \mathrm{U}$ out of the [[sphere spectrum]], which one might denote $M \mathrm{U} / \mathbb{S}$, but which in notation common around the [[Adams spectral sequence]] would be 
+"$\Sigma \overline {M \mathrm{U}}$" (as in [Adams 74, theorem 15.1 page 319](Adams+spectral+sequence#Adams74)) or just "$\overline{ M \mathrm{U} }$" (e.g. [Hopkins 99, Cor. 5.3](Adams+spectral+sequence#Hopkins99)).
+
+\linebreak
 
 ### Relation to $MU$ and $MFr$
 
