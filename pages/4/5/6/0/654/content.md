@@ -50,7 +50,7 @@ the third the notion of
 
 These were introduced in: 
 
-* M. Kapranov and V. Voevodsky, _$2$-categories and Zamolodchikov tetrahedra equations_ in _Algebraic groups and their generalization: quantum and infinite-dimensional methods, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providencem RIm 1994), pp. 177-259
+* M. Kapranov and V. Voevodsky, _$2$-categories and Zamolodchikov tetrahedra equations_ in _Algebraic groups and their generalization: quantum and infinite-dimensional methods, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providence RI 1994), pp. 177-259
 
 The idea here is that just as a vector space can be regarded as a [[module]] over the [[ground field]] $k$, a $2$-vector space $W$ should be a [[category]] which is a [[monoidal category module]] with some nice properties (such as being an abelian category) over a suitable [[monoidal category]] $V$ which plays the role of the categorified ground field. There is then an obvious [[bicategory]] of such module categories.
 
