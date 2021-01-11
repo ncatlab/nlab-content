@@ -61,6 +61,7 @@ The [[periodic cohomology theory|periodic]] version is sometimes written $PMU$.
 ## Properties
 
 ### Homotopy groups: Cobordism and Lazard ring
+  {#HomotopyGroups}
 
 The [[graded ring]] given by evaluating complex cobordism theory on the point is both the complex [[cobordism ring]] as well as the [[Lazard ring]] classifying [[formal group laws]].
 
