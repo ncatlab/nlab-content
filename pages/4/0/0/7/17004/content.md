@@ -270,16 +270,22 @@ $$
 
 ## References
 
-The basic concept appears in
+The concept of stable Cohomotopy as such:
 
-* {#Adams74} [[Frank Adams]], part III, section 6 of _[[Stable homotopy and generalised homology]]_, 1974
+* {#Adams74} [[Frank Adams]], part III, section 6, p. 204 of: _[[Stable homotopy and generalised homology]]_, 1974
 
-Discussion of stable Cohomotopy as such:
+* [[John Rognes]], p. 1 of: _The sphere spectrum_, 2004 
+([[RognesSphereSpectrum.pdf:file]])
+
+Discussion of stable Cohomotopy as [[framed manifold|framed]] [[cobordism cohomology theory]]:
+
+* {#Stong68} [[Robert Stong]], Chapter IV, Example 1, p. 40 of _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html))
+
+Discussion of stable Cohomotopy of [[Lie groups]]:
 
 * C. T. Stretch, _Stable cohomotopy and cobordism of abelian groups_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 90, Issue 2 September 1981, pp. 273-278 ([doi:10.1017/S0305004100058734](https://doi.org/10.1017/S0305004100058734))
 
 * Ken-ichi Maruyama, _$e$-invariants on the stable cohomotopy groups of Lie groups_, Osaka J. Math. Volume 25, Number 3 (1988), 581-589 ([euclid:ojm/1200780982](https://projecteuclid.org/euclid.ojm/1200780982))
-
 
 * Sławomir Nowak, _Stable cohomotopy groups of compact spaces_, Fundamenta Mathematicae 180 (2003), 99-137 ([doi:10.4064/fm180-2-1](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/180/2))
 
