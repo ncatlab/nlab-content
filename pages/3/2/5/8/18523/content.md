@@ -107,7 +107,7 @@ $$
   \,.
 $$
 
-Moreover, $WF(u)$ is invariant under the [[bicharacteristic flow]] induced by the [[Hamiltonian vector field]] of $q$ with respect to the canonical [[symplectic manifold]] structure on the [[cotangent bundle]] ([here](cotangent+bundle#SymplecticStructure)).
+Moreover, $WF(u) \setminus WF(f)$ is invariant under the [[bicharacteristic flow]] induced by the [[Hamiltonian vector field]] of $q$ with respect to the canonical [[symplectic manifold]] structure on the [[cotangent bundle]] ([here](cotangent+bundle#SymplecticStructure)).
 
 =--
 
