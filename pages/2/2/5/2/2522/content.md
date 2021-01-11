@@ -1006,7 +1006,7 @@ On the one hand, [[André Neveu]], [[Pierre Ramond]] and [[John Schwarz]] wrote 
 See also at the [[string theory FAQ]]: _[Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)_
 
 
-Indepemdently around the same time, [[Yuri Golfand]] and [[Evgeny Likhtman]] in Russia wrote down the [[super Poincaré Lie algebra]] in four dimensions:
+Independently, around the same time [[Yuri Golfand]] and [[Evgeny Likhtman]] in Russia wrote down the [[super Poincaré Lie algebra]] in four dimensions:
 
 * {#GolfandLikhtman72} [[Yuri Golfand]], [[Evgeny Likhtman]], _On the Extensions of the Algebra of the Generators of the Poincaré Group by the Bispinor Generators_, in: [[Victor Ginzburg]] et al. (eds.) _I. E. Tamm Memorial Volume Problems of Theoretical Physics_, (Nauka, Moscow 1972), page 37, 
 
@@ -1016,9 +1016,29 @@ This then motivated [[Julius Wess]] and [[Bruno Zumino]] to study supersymmetric
 
 * {#WessZumino74} [[Julius Wess]], [[Bruno Zumino]], _Supergauge transformations in four dimensions_, Nucl. Phys. B70 (1974) 39; Phys. Letters 49B (1974) 52 ([doi:10.1142/9789814542340_0002](https://doi.org/10.1142/9789814542340_0002))
 
+From this sprang the idea of [[super Yang-Mills theory]] in
+
+
+* {#FerraraZumino74} [[Sergio Ferrara]], [[Bruno Zumino]], _Supergauge invariant Yang-Mills theories_, Nuclear Physics B Volume 79, Issue 3, 25 September 1974, Pages 413-421 (<a href="https://doi.org/10.1016/0550-3213(74)90559-8">doi:10.1016/0550-3213(74)90559-8</a>)
+
+* {#SalamStrathdee74a} [[Abdus Salam]], [[John Strathdee]], _Super-symmetry and non-Abelian gauges_, Physics Letters B Volume 51, Issue 4, 19 August 1974, Pages 353-355 (<a href="https://doi.org/10.1016/0370-2693(74)90226-3">doi:10.1016/0370-2693(74)90226-3</a>)
+
+and the early development of the concepts if [[superspace]] and [[superfields]] for [[supersymmetry|supersymmetric]] [[quantum field theory]]:
+
+* {#SalamStrathdee74b} [[Abdus Salam]], [[John Strathdee]], _Supergauge Transformations_, Nucl.Phys. B76 (1974) 477-482 ([spire:89208](http://inspirehep.net/record/89208))
+
+* {#SalamStrathdee75} [[Abdus Salam]], [[John Strathdee]], _Superfields and Fermi-Bose symmetry_, Physical Review D11, 1521-1535 (1975) ([doi:10.1142/9789812795915_0051](https://doi.org/10.1142/9789812795915_0051))
+
+
+{#OriginOfTheTerm} On the origin of the "super"-terminology, from [Kane-Shifman 01, p. 4](#KaneShifman01):
+
+> Often students ask where the name "super-symmetry" came  from?  It seems  that it was coined in the paper by  [Salam and Strathdee](#SalamStrathdee74a) where these  authors constructed [[supersymmetric Yang-Mills theory]].  This paper was received by the editorial office on June 6, 1974, exactly eight months after that of [Wess and Zumino](#WessZumino74).  Super-symmetry (with a hyphen) is in the title, while in the body of the paper Salam and Strathdee use both, the old version of [Wess and Zumino](#WessZumino74), "super-gauge symmetry", and the new one.  An earlier paper of [Ferrara and Zumino](#FerraraZumino74) (received by the editorial officec on May 27, 1974) where the same problem of super-Yang-Mills was addressed, mentions only supergauge invariance and supergauge transformations. 
 
 Accounts of the early history of the concept of supersymmetry:
 
+* {#KaneShifman00} [[Gordon Kane]], [[Mikhail Shifman]], _The Supersymmetric World: The Beginnings of The Theory_, World Scientific 2000 ([doi:10.1142/4611](https://doi.org/10.1142/4611))
+
+  * {#KaneShifman01} [[Gordon Kane]], [[Mikhail Shifman]], _Introduction to "The Supersymmetric world"_ ([arXiv:hep-ph/0102298](https://arxiv.org/abs/hep-ph/0102298)), chapter in: [Kane-Shifman 00](#KaneShifman00)
 
 * {#Likhtman01} [[Evgeny Likhtman]], _Around SuSy 1970_, talk at "30 years of supersymmetry", Nucl.Phys.Proc.Suppl. 101 (2001) 5-14 ([arxiv:hep-ph/0101209](https://arxiv.org/abs/hep-ph/0101209))
 
