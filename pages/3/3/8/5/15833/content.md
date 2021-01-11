@@ -16,6 +16,12 @@ On [[superalgebra]], [[supergeometry]], [[supersymmetry]], [[supergravity]] and 
 
   [doi:10.1142/4332](https://doi.org/10.1142/4332)
 
+On the history of the concept of [[supersymmetry]]:
+
+* {#KaneShifman00} [[Gordon Kane]], [[Mikhail Shifman]], _The Supersymmetric World: The Beginnings of The Theory_, World Scientific 2000 ([doi:10.1142/4611](https://doi.org/10.1142/4611))
+
+  * {#KaneShifman01} [[Gordon Kane]], [[Mikhail Shifman]], _Introduction to "The Supersymmetric world"_ ([arXiv:hep-ph/0102298](https://arxiv.org/abs/hep-ph/0102298)), chapter in: [Kane-Shifman 00](#KaneShifman00)
+
 On [[quark-hadron duality]]:
 
 * [[Mikhail Shifman]], _Quark-Hadron Duality_, in: _At The Frontier of Particle Physics_, pp. 1447-1494 (2001) ([doi:10.1142/9789812810458_0032](https://doi.org/10.1142/9789812810458_0032))
