@@ -9,6 +9,12 @@
 
 * [Sakurai prize 2017](https://www.aps.org/programs/honors/prizes/prizerecipient.cfm?last_nm=Kane&first_nm=Gordon&year=2017) "For instrumental contributions to the theory of the properties, reactions, and signatures of the Higgs boson."
 
+On the history of the concept of [[supersymmetry]]:
+
+* {#KaneShifman00} [[Gordon Kane]], [[Mikhail Shifman]], _The Supersymmetric World: The Beginnings of The Theory_, World Scientific 2000 ([doi:10.1142/4611](https://doi.org/10.1142/4611))
+
+  * {#KaneShifman01} [[Gordon Kane]], [[Mikhail Shifman]], _Introduction to "The Supersymmetric world"_ ([arXiv:hep-ph/0102298](https://arxiv.org/abs/hep-ph/0102298)), chapter in: [Kane-Shifman 00](#KaneShifman00)
+
 Kane has been arguing that [[string phenomenology]]-[[model (physics)|models]] of the kind of [[M-theory on G2-manifolds]], notably the [[G2-MSSM]], "generically" predict [[Higgs particle]] [[masses]] around 120-130 GeV. He stated this in 
 
 * {#Kane11} [[Gordon Kane]], _String theory and generic predictions for our world &#8211; superpartner masses, LHC signatures, dark matter, EWSB, cosmological history of universe, etc_, talk at String phenomenology 2011, August 2011 ([pdf](http://conferencing.uwex.edu/conferences/stringpheno2011/documents/kane.pdf))
