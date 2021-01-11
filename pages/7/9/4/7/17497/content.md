@@ -9280,9 +9280,9 @@ $$
 ### Homotopy ring spectra
  {#HomotopyRingSpectra}
 
-We discuss [[commutative monoids]] in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}).
+We discuss [[commutative monoids]] in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}): _[[homotopy commutative ring spectra]]_.
 
-In this section the only tensor product that plays a role is the derived [[smash product of spectra]] from corollary \ref{MonoidalStableHomotopyCategory}. Therefore to ease notation, in this section (and in all of [[Introduction to Stable homotopy theory -- 2|Part 2]]) we write for short
+In this section the only [[tensor product]] that plays a role is the [[derived functor|derived]] [[smash product of spectra]] $\wedge^L$ from corollary \ref{MonoidalStableHomotopyCategory}. Therefore to ease notation, in this section (and in all of [[Introduction to Stable homotopy theory -- 2|Part 2]]) we write for short:
 
 $$
   \wedge \coloneqq \wedge^L
