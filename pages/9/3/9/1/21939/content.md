@@ -20,7 +20,7 @@
 
 In joint generalization of the [[cobordism cohomology theories]] [[MU]] and [[MFr]] of [[closed manifold|closed]] $U$-manifolds and of $Fr$-manifolds, respectively, a _$(U,fr)$-manifold_ ([Conner-Floyd 66, Section 16](#ConnerFloyd66)) is a [[compact topological space|compact]] [[manifold with boundary]] equipped with [[unitary group]]-[[tangential structure]] on its [[stable tangent bundle]] and equipped with a [[trivial vector bundle|trivialization]] (stable [[framed manifold|framing]]) of that over the [[boundary]].
 
-The corresponding [[bordism classes]] form a [[bordism ring]] denoted $\Omega^{U,fr}_\bullet$.
+The corresponding [[bordism classes]] form a [[bordism ring]] denoted $\Omega^{\mathrm{U},fr}_\bullet$.
 
 ## Properties
 
@@ -122,11 +122,11 @@ that there is a [[cohomology operation]] to [[MFr]] of the form
     & =\;
     \Sigma Mfr
     \\
-    \pi_{2d}\big( M(\mathrm{U},fr) \big)
+    \pi_{2d+2}\big( M(\mathrm{U},fr) \big)
     &&
     \longrightarrow
     &&
-    \pi_{2d-1}\big( Mfr \big)
+    \pi_{2d+1}\big( Mfr \big)
   }
   \,.
 \]
@@ -192,7 +192,7 @@ The implicit idea in [Conner-Floyd 66, p. 99](#ConnerFloyd66) must be to see $\p
 +-- {: .num_prop #AShortExactSequenceOfUFrBordismRings} 
 ###### Proposition
 
-In [[positive number|positive]] degree, the underling [[abelian groups]] of the [[bordism rings]] for [[MU]], [[MFr]] and $MUFr$ (eq:UFrCobordismRing) sit in [[short exact sequences]] of this form:
+In [[positive number|positive]] degree, the underlying [[abelian groups]] of the [[bordism rings]] for [[MU]], [[MFr]] and $MUFr$ (eq:UFrCobordismRing) sit in [[short exact sequences]] of this form:
 
 \[
   \label{ShortExactSequenceOfUFrBordismRings}
