@@ -69,12 +69,16 @@ The corresponding statement for [[MU]] is considerably more subtle, see _[[Milno
 * {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
 
 
-Review includes
+Textbook accounts:
 
-* {#Kochmann96} [[Stanley Kochmann]], section 1.5 and section 3.7 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Stong68} [[Robert Stong]], Chapter VI of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
 
 
-* {#Malkiewich11} [[Cary Malkiewich]], section 2 of _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
+* {#Kochmann96} [[Stanley Kochmann]], section 1.5 and section 3.7 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+Review:
+
+* {#Malkiewich11} [[Cary Malkiewich]], section 2 of: _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
 In the incarnation of $MO$ as a [[symmetric spectrum]] is discussed in
 
