@@ -15,7 +15,7 @@
 
 ## Idea
 
-JT-gravity ([Teitelboim 83](#Teitelboim83), [Jackiw 85](#Jackiw85)) is [[gravity]] in 1+1 [[dimensions]] with a [[dilaton]].
+_JT-gravity_ ([Teitelboim 83](#Teitelboim83), [Jackiw 85](#Jackiw85)) is [[gravity]] [[2d gravity|in 1+1 dimensions]] with a [[dilaton]].
 
 ## Properties
 
