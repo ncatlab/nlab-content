@@ -6,6 +6,11 @@ One of the co-discoverers of [[supergravity]] ([[4d supergravity]]):
 
 ## Selected writings
 
+Introducing [[super Yang-Mills theory]]:
+
+* {#FerraraZumino74} [[Sergio Ferrara]], [[Bruno Zumino]], _Supergauge invariant Yang-Mills theories_, Nuclear Physics B Volume 79, Issue 3, 25 September 1974, Pages 413-421 (<a href="https://doi.org/10.1016/0550-3213(74)90559-8">doi:10.1016/0550-3213(74)90559-8</a>)
+
+
 Introducing [[4d supergravity]]:
 
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
