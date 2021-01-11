@@ -184,13 +184,13 @@ The [[bordism rings]] for [[MU]], $MUFr$ and [[MFr]] sit in a [[short exact sequ
   \label{ShortExactSequenceOfUFrBordismRings}
   0 
   \to
-  \Omega^U_{\bullet+1}
+  \Omega^U_{2\bullet}
   \overset{i}{\longrightarrow}
-  \Omega^{U,fr}_{\bullet+1}
+  \Omega^{U,fr}_{2\bullet}
   \overset{\partial}{
     \longrightarrow
   }
-  \Omega^{fr}_\bullet
+  \Omega^{fr}_{2\bullet - 1}
   \to
   0
   \,,
@@ -203,7 +203,7 @@ This is stated without comment in [Conner-Floyd 66, p. 99](#ConnerFloyd66). The 
 +-- {: .num_prop #BoundaryOperationFromFrBordToUFrBordIsSurjective} 
 ###### Proposition
 
-The boundary operation $\partial$ in (eq:ShortExactSequenceOfUFrBordismRings) is [[surjective function|surjective]], hence every $Fr$-manifold is the boundary of a $(U,fr)$-manifold.
+The boundary operation $\partial$ in (eq:ShortExactSequenceOfUFrBordismRings) is [[surjective function|surjective]], hence every bordism class of a $fr$-manifold of [[odd number|odd]] [[dimension]] is the [[boundary]] of a $(U,fr)$-manifold of [[even number|even]] dimension.
 
 =--
 
@@ -214,16 +214,24 @@ The following is a complete and quick proof using the formulation (eq:BoundaryOp
 ###### Proof
 
 Let 
-$
-  \Sigma^\infty 
-  S^{2(d+1)-1} 
-  \overset{ 
-     \Sigma^{\infty} 
-     {\color{green} c } 
-  }{\longrightarrow} 
-  \Sigma^\infty S^{2n}
-$ 
-represent a given class in [[stable Cohomotopy]], hence in [[MFr]] under the [[Pontryagin-Thom isomorphism|PT isomorphism]]. (We write this as the [[stabilization]] of a class ${\color{green} c}$ in unstable [[Cohomotopy]] just for emphasis that we can.)
+
+$$
+  \big[
+    \Sigma^\infty 
+    S^{2(n+d)-1} 
+    \overset{ 
+       \Sigma^{\infty} 
+       {\color{green} c } 
+    }{\longrightarrow} 
+    \Sigma^\infty S^{2n}
+  \big]
+  \;\in\;
+  \pi^s_{2d-1}
+  \;\simeq\;
+  \Omega^{fr}_{2d-1}
+$$
+
+be a given class in [[stable Cohomotopy]], hence in the [[MFr]]-[[cobordism ring]], under the [[Pontryagin-Thom isomorphism|PT isomorphism]]. (We write this as the [[stabilization]] of a class ${\color{green} c}$ in unstable [[Cohomotopy]] just for emphasis that we can.)
 
 Consider then following [[homotopy coherent diagram|homotopy]] [[pasting diagram]]:
 
