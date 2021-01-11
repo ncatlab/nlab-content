@@ -21,6 +21,10 @@ For example the configuration space of $n \in \mathbb{N}$ point particles that  
 
 In [[field theory]] over [[Lorentzian manifolds|Lorentzian]] [[spacetime]] one is typically interested not in the configurations of fields "at a given time" (say on a fixed [[Cauchy surface]]) but in configuratios of fields on (an [[open subset]] of) [[spacetime]]. This is then called the _[[space of trajectories]]_ or _[[space of histories]]_ of the system.
 
+## Examples
+
+* in [[gravity]]: [[Wheeler superspace]]
+
 ## Related concepts
 
 * [[configuration space (mathematics)]]
