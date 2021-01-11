@@ -87,6 +87,12 @@ This classification may be paired with that for [[supergravity]] theories, to yi
 
 ## References
 
+Original articles (see also at _[Supersymmetry -- References -- History](supersymmetry#ReferencesHistory)_):
+
+* [[Sergio Ferrara]], [[Bruno Zumino]], _Supergauge invariant Yang-Mills theories_, Nuclear Physics B Volume 79, Issue 3, 25 September 1974, Pages 413-421 (<a href="https://doi.org/10.1016/0550-3213(74)90559-8">doi:10.1016/0550-3213(74)90559-8</a>)
+
+* {#SalamStrathdee74} [[Abdus Salam]], [[John Strathdee]], _Super-symmetry and non-Abelian gauges_, Physics Letters B Volume 51, Issue 4, 19 August 1974, Pages 353-355 (<a href="https://doi.org/10.1016/0370-2693(74)90226-3">doi:10.1016/0370-2693(74)90226-3</a>)
+
 A general introduction is for instance
 
 * [[Eric D'Hoker]], D. H. Phong, _Lectures on Supersymmetric Yang-Mills Theory and Integrable Systems_ ([arXiv:hep-th/9912271](http://arxiv.org/abs/hep-th/9912271))
@@ -123,3 +129,5 @@ On application to problems in non-supersymmetric [[Yang-Mills theory]] ([[confin
 [[!redirects SYM theory]]
 [[!redirects SYM theories]]
 
+
+[[!redirects supersymmetric Yang-Mills theory]]
