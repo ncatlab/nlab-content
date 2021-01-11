@@ -213,6 +213,8 @@ The following is a complete and quick proof using the formulation (eq:BoundaryOp
 +-- {: .proof}
 ###### Proof
 
+The statement follows immediately from the [[long exact sequence of homotopy groups]] of $M \mathrm{U} \to M \mathrm{U}/\mathbb{S} \overset{\partial}{\to} \to \Sigma \mathbb{S}$, using that $\pi_{2\bullet + 1} MU  = 0$. We spell this out more explicitly:
+
 Let 
 
 $$
