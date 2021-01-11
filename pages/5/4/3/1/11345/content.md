@@ -38,11 +38,11 @@ The [[index]] of the [[large volume limit]] of the Dirac-Ramond operator is what
 
 ## References
 
-The Dirac-Ramond operator ofriginates with the early beginning of [[superstring]] models, when they were still called _[[spinning strings]]_. See there for references.
+The Dirac-Ramond operator originates with the early beginning of [[superstring]] models, when they were still called _[[spinning strings]]_. See there for references.
 
-The Dirac-Ramond operator gained more attention in pure mathemaitcs when it was found that the [[large volume limit]]  of its [[index]], when properly construed, is a universal [[elliptic genus]], now known as the [[Witten genus]]. See there for more references. 
+The Dirac-Ramond operator gained more attention in pure mathematics when it was found that the [[large volume limit]]  of its [[index]], when properly construed, is a universal [[elliptic genus]], now known as the [[Witten genus]]. See there for more references. 
 
-Articles that explicitly consider the Dirac-Ramon operator in this context include
+Articles that explicitly consider the Dirac-Ramond operator in this context include
 
 * {#AlvarezKillingbackManganoWindey87} [[Orlando Alvarez]], T. P. Killingback, Michelangelo Mangano, and Paul Windey, _The Dirac-Ramond operator in string theory and loop space index theorems_, Nuclear Phys. B Proc. Suppl., 1A:189&#8211;215, 1987. Nonperturbative methods in field theory (Irvine, CA, 1987)., also: Comm. Math. Phys. Volume 111, Number 1 (1987), 1-160 ([Ecudid](http://projecteuclid.org/euclid.cmp/1104159462))
 
