@@ -1,6 +1,7 @@
 
 
 ### Elliptic genera as super $p$-brane partition functions
+  {#EllipticGeneraAsBranePartitionFunctionsReferences}
 
 The interpretation of [[elliptic genera]] (especially the [[Witten genus]]) as the [[partition function]] of a [[2d superconformal field theory]] (or [[Landau-Ginzburg model]]) --  and especially of the [[heterotic string]] ("H-string") or [[type II superstring]] [[worldsheet]] theory -- originates with:
 
