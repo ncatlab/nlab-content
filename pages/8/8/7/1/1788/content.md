@@ -1,4 +1,8 @@
 
+[[eInvariantIsTdClassOfCoboundingUFrMfd-DiagramA.jpg:file]]
+
+[[eInvariantIsTdClassOfCoboundingUFrMfd-Diagram.jpg:file]]
+
 $$
   \array{
     \cdots
