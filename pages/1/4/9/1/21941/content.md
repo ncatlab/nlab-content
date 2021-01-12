@@ -69,5 +69,12 @@ Proof is spelled out in:
 * {#Karoubi78} [[Max Karoubi]], Theorem V4.4 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 
+Discussion in terms of [[Brown representability theorem|representing]] [[ring spectra|ring]] [[spectra]]:
+
+
+* [[Larry Smith]], Section 1 of: _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
+
+
+
 [[!redirects the rational Todd class is the Chern character of the Thom class]]
 
