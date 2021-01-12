@@ -504,7 +504,7 @@ Here $gl_1$ forms the "[[general linear group]]-of rank 1"-spectrum of an [[E-âˆ
 
 $$
   (\mathbb{Z}[-] \dashv GL_1) : 
-   CRing \stackrel{\overset{\mathbb{Z}[1]}{\leftarrow}}{\underset{GL_1}{\to}}
+   CRing \stackrel{\overset{\mathbb{Z}[-]}{\leftarrow}}{\underset{GL_1}{\to}}
   Ab
 $$
 
@@ -721,7 +721,7 @@ $$
     ( E (O(k)\times O(\ell))\underset{O(k)\times O(\ell)}{\times}) 
     \mathbb{R}^k \oplus \mathbb{R}^\ell
     &\longrightarrow& 
-    E O(k+\ell)\underset{O(k + ell)}{\times} \mathbb{R}^{k+\ell}
+    E O(k+\ell)\underset{O(k + \ell)}{\times} \mathbb{R}^{k+\ell}
     \\
     \downarrow && \downarrow
     \\
