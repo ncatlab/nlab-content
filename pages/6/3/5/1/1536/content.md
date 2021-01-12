@@ -687,7 +687,7 @@ The left adjoint to the Grothendieck construction is discussed in &#167;3.1.1 of
 
 Limits and colimits are analysed in
 
-* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A.Goguen]], _Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories_ , ([Theoretical Computer Science vol. 91 (1991)](https://www.sciencedirect.com/science/article/pii/030439759190085G))
+* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A. Goguen]], _Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories_ , ([Theoretical Computer Science vol. 91 (1991)](https://www.sciencedirect.com/science/article/pii/030439759190085G))
 
 The analog for simplicial sets instead of groupoids is discussed in
 
