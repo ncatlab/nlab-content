@@ -58,6 +58,8 @@ A Grothendieck category $C$ satisfies the following properties.
 
 * if a functor $F : C^{op} \to Set$  commutes with small [[colimits]], then $F$ has a [[adjoint functor|right adjoint]].
 
+* $C$ is locally presentable, by the [[Gabriel-Popescu theorem]]
+
 * If $C$ is equipped with [[category with translation|translation]] $T : C \to C$, then for every [[complex]] $X \in Cplx(C)$ there exists a [[quasi-isomorphism]] of [[complex]]es $X \to I$ such that $I$ is [[injective object|homotopically injective]].
 
 * it satisfies Pierre Gabriel's sup property: every small family of subobjects of a given object $X$ has a [[supremum]] which is a subobject of $X$; 
