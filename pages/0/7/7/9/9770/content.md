@@ -203,6 +203,12 @@ Original articles:
 
 * {#Karoubi78} [[Max Karoubi]], Chapter V.4 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
+On the Todd character:
+
+
+* [[Larry Smith]], Section 1 of: _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
+
+
 Review:
 
 * {#Gilkey95} [[Peter Gilkey]], Section 5.2 of: _Invariance Theory: The Heat Equation and the Atiyah-Singer Index Theorem_, 1995 ([pdf](https://pages.uoregon.edu/gilkey/dirPDF/InvarianceTheory1Ed.pdf))
@@ -225,3 +231,6 @@ Review of the Todd genus with an eye towards generalization to the [[Witten genu
 
 
 [[!redirects Todd genus]]
+
+[[!redirects Todd character]]
+[[!redirects Todd characters]]
