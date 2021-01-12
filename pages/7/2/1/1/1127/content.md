@@ -58,7 +58,7 @@ A Grothendieck category $C$ satisfies the following properties.
 
 * if a functor $F : C^{op} \to Set$  commutes with small [[colimits]], then $F$ has a [[adjoint functor|right adjoint]].
 
-* $C$ is locally presentable, by the [[Gabriel-Popescu theorem]]
+* The [[Gabriel-Popescu theorem]] exhibits any [[Grothendieck abelian category]] as a [[reflective subcategory]] of a [[category of modules]] over a [[ring]].  In particular, [[Vopěnka's principle]] implies that any [[Grothendieck abelian category]] is [[locally presentable]].
 
 * If $C$ is equipped with [[category with translation|translation]] $T : C \to C$, then for every [[complex]] $X \in Cplx(C)$ there exists a [[quasi-isomorphism]] of [[complex]]es $X \to I$ such that $I$ is [[injective object|homotopically injective]].
 
