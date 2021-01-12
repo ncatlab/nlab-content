@@ -164,7 +164,7 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
 From this, Conner-Floyd conclude by essentially  considering the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]]:
 
 \begin{imagefromfile}
-        "file_name": "eInvariantIsTdClassOfCoboundingUFrMfd-Diagram.jpg",
+        "file_name": "eInvariantIsTdClassOfCoboundingUFrMfd-DiagramA.jpg",
         "web": "nlab",
         "width": 650,
         "unit": "px",
@@ -180,11 +180,11 @@ From this, Conner-Floyd conclude by essentially  considering the following [[hom
 \end{imagefromfile}
 
 
-Here:
 
-1. For the identification of the [[Todd class]] $Td$ in the bottom of the diagram we used that [[the rational Todd class is the Chern character of the Thom class]].
 
-1. For the top magenta arrow we used that that the [[Q/Z]]-valued [[e-invariant]] is the top-degree component of the [[Chern character]] of any [[complex topological K-theory]]-class $V_{2n} \coloneqq \sigma \circ c$ lifting $\Sigma^{2n} 1 \in \widetilde K(S^{2n})$ to $C_f$ ([this Prop.](Adams+e-invariant#QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace)).
+Here for the identification of the [[Todd class]] $Td$ in the bottom of the diagram we used that [[the rational Todd class is the Chern character of the Thom class]].
+
+That this Todd class equals the [[Q/Z]]-valued [[e-invariant]] follows now since the latter is the top-degree component of the [[Chern character]] of any [[complex topological K-theory]]-class $V_{2n} \coloneqq \sigma \circ c$ lifting $\Sigma^{2n} 1 \in \widetilde K(S^{2n})$ to $C_f$ ([this Prop.](Adams+e-invariant#QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace)).
 
 =--
 
