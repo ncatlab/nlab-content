@@ -23,11 +23,11 @@ The _Eilenberg-Moore spectral sequence_ is a [[spectral sequence]] for the [[sin
 
 ## References
 
-Original articles include
+Original articles:
 
-* Larry Smith, _Homological Algebra and the Eilenberg-Moore Spectral Sequence_, Transactions of the American Mathematical Society, Vol. 129, No. 1, (1967) ([JSTOR](http://www.jstor.org/stable/1994364))
+* [[Larry Smith]], _Homological Algebra and the Eilenberg-Moore Spectral Sequence_, Transactions of the American Mathematical Society, Vol. 129, No. 1, (1967) ([jstor:1994364](http://www.jstor.org/stable/1994364))
 
-* Larry Smith, _On the construction of the Eilenberg-Moore spectral sequence_, Bull. Amer. Math. Soc. 75 (1969), 873-878  ([journal](www.ams.org/journals/bull/1969-75-04/S0002-9904-1969-12335-9/))
+* [[Larry Smith]], _On the construction of the Eilenberg-Moore spectral sequence_, Bull. Amer. Math. Soc. 75 (1969), 873-878 ([euclid:bams/1183530666](https://projecteuclid.org/euclid.bams/1183530666))
 
 * Atsushi Yamaguchi, _Note on the Eilenberg-Moore spetral sequence_, Publ RIMS, Ykoto Univ. 22 (1986) ([pdf](http://www.ems-ph.org/journals/show_pdf.php?issn=0034-5318&vol=22&iss=5&rank=3))
 
