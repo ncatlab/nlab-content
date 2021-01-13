@@ -1,3 +1,4 @@
+[[!redirects FQFT]]
 
 {:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
