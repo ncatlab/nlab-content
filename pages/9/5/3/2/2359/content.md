@@ -158,7 +158,12 @@ Early accounts include
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-A fun scan of the (pre-)history of the stable homotopy category is in 
+Expository introduction:
+
+* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](https://people.math.binghamton.edu/malkiewich/stable.pdf), [[MalkiewichStableHomotopyCategory.pdf:file]])
+
+
+A fun scan of the (pre-)history of the stable homotopy category:
 
 * [[Peter May]], _The hare and the tortoise_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
 
@@ -181,9 +186,6 @@ A textbook account in the context of [[symmetric spectra]] is
 
 * {#Schwede12} [[Stefan Schwede]], chapter II, section 1_[[Symmetric spectra]]_ (2012)
 
-Lecture notes include
-
-* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
 
 [[!redirects HoSpectra]]
