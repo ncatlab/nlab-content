@@ -204,6 +204,44 @@ From [this prop.](geometry+of+physics+--+categories+and+toposes#ComputationOfLef
 =--
 
 
++-- {: .num_example #OverCategory}
+###### Example
+
+Let $\mathcal{C}$ be a model category, and $\phi : S \to T$ be a weak equivalence.
+Suppose either that $\phi$ is a trivial fibration, that $\mathcal{C}$ is right proper, or that both $S$ and $T$ are fibrant.
+
+Then the composition-pullback adjunction is a Quillen equivalence
+$$
+  \mathcal{C}_{/S}  
+    \underoverset
+      {\underset{\phi_!}{\longrightarrow}}
+      {\overset{\phi^*}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu}}
+  \mathcal{C}_{/T}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The sufficient condition this proof uses is that that every pullback of $\phi$ along a fibration is a weak equivalence; this is guaranteed by any of the listed conditions.
+
+It's immediate from the definition of the [[model structure on an over category]] that $\phi_!$ preserves all three classes of morphisms. Given a cofibrant object $X \to S$ (i.e. $X$ is cofibrant in $\mathcal{C}$) and a fibrant object $Y \to T$ (i.e. $Y \to T$ is a fibration in $\mathcal{C}$), we seek to show that $X \to \phi^*(Y)$ is a weak equivalence iff $\phi_!(X) \to Y$ is a weak equivalence.
+
+$$
+  \array{
+    X 
+     &\to& S \times_T Y &\to& Y
+    \\
+    && \downarrow && \downarrow
+    \\
+    && S &\to& T
+  }
+$$
+Unfolding the definitions, we seek to prove that $X \to S \times_T Y$ is a weak equivalence iff $X \to Y$ is a weak equivalence. This is true if $S \times_T Y \to Y$ is a weak equivalence, which is true by assumption. 
+
+=--
 
 ## Related concepts
 
