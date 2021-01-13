@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -345,7 +346,7 @@ Reviews include
 
 * Knut Berg, _Orthogonal spectra_ ([pdf](http://folk.uio.no/rognes/theses/orthogonal.pdf))
 
-* {#Malkiewich14} [[Cary Malkiewich]], section 2.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
+* {#Malkiewich14} [[Cary Malkiewich]], section 2.3 of _The stable homotopy category_, 2014 ([pdf](https://people.math.binghamton.edu/malkiewich/stable.pdf), [[MalkiewichStableHomotopyCategory.pdf:file]])
 
 Lecture notes include
 
