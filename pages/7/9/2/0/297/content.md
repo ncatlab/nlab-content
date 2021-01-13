@@ -2533,10 +2533,14 @@ or
 
 There is a long-term project by Stephan Stolz and Peter Teichner which originally tried to refine Segal's 1-functorial formulation of conformal field theory to a 2-functorial extended FQFT, as indicated in
 
-* [[Stephan Stolz]] and Peter Teichner, _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf)).
+* [[Stephan Stolz]], [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf)).
 
+* [[Stephan Stolz]], [[Peter Teichner]].
+_Supersymmetric field theories and generalized cohomology_.
+Proceedings of Symposia in Pure Mathematics 83 (2011), 279--340.
+[arXiv:1108.0189](https://arxiv.org/abs/1108.0189), [doi:10.1090/pspum/083/2742432](https://doi.org/10.1090/pspum/083).
 
-More recently, Mike Hopkins and Jacob Lurie claimed 
+In 2008, Mike Hopkins and Jacob Lurie claimed 
 ([Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
 to have found a complete coherent formalization of topological extended FQFT in the context of [[(infinity,1)-category|(infinity,n)-categories]] using an [[(infinity,n)-category of cobordisms]]. This is described in 
 
@@ -2544,12 +2548,34 @@ to have found a complete coherent formalization of topological extended FQFT in 
 
 An explicit account of this for the 2-dimensional case is presented in
 
-* [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_, PhD thesis, Berkeley, 2009 ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/my-web-documents/Schommer-Pries-Thesis-5-12-09.pdf?attredirects=0))
+* [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_, PhD thesis, Berkeley, 2009.
+[arXiv:1112.1000](https://arxiv.org/abs/1112.1000)
 
 see also 
 
 * [[extended topological quantum field theory]]
 
+* [[Damien Calaque]], [[Claudia Scheimbauer]],
+_A note on the $(\infty,n)$-category of cobordisms_,
+Algebraic & Geometric Topology 19:2 (2019), 533--655.
+[arXiv:1509.08906](https://arxiv.org/abs/1509.08906), [doi:10.2140/agt.2019.19.533](https://doi.org/10.2140/agt.2019.19.533).
+
+* [[Christopher Schommer-Pries]], _Invertible topological field theories_,
+[arXiv:1712.08029](https://arxiv.org/abs/1712.08029).
+
+
+For the case of one-dimensional smooth field theories, see
+
+* [[Urs Schreiber]], [[Konrad Waldorf]],
+_Parallel Transport and Functors_,
+[arXiv:0705.0452](https://arxiv.org/abs/0705.0452)
+
+* [[Daniel Berwick-Evans]], [[Dmitri Pavlov]], _Smooth one-dimensional topological field theories are vector bundles with connection_,
+[arXiv:1501.00967](https://arxiv.org/abs/1501.00967),
+
+* [[Matthias Ludewig]], [[Augusto Stoffel]],
+_A framework for geometric field theories and their classification in dimension one_,
+[arXiv:2001.05721](https://arxiv.org/abs/2001.05721).
 
 ### (extended) FQFT from background fields: $\sigma$-models## 
 
