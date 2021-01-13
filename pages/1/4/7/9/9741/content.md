@@ -99,7 +99,9 @@ Original articles include
 * [[Michael Atiyah]], [[Raoul Bott]], _The Yang-Mills equations over Riemann surfaces_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences
 Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/stable/37156), [lighning summary](http://math.stackexchange.com/a/295505/58526))
 
-* Nan-Kuo Ho, Chiu-Chu Melissa Liu, _On the Connectedness of Moduli Spaces of Flat Connections over Compact Surfaces_, Canad. J. Math. 56(2004), 1228-1236 ([publisher](https://cms.math.ca/10.4153/CJM-2004-053-3))
+* [[Nigel Hitchin]], _Flat connections and geometric quantization_, Comm.Math.Phys., 131 (1990) 347-380
+
+* Nan-Kuo Ho, Chiu-Chu Melissa Liu, _On the connectedness of moduli spaces of flat connections over compact surfaces_, Canad. J. Math. 56(2004) 1228-1236 [doi](https://doi.org/10.4153/CJM-2004-053-3)
 
 Reviews and lecture notes include, for the case of flat connections
 
