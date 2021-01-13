@@ -23,11 +23,11 @@
 
 
 An ordinary [[spectral triple]] is, as discussed there, the abstract algebraic data characterizing [[supersymmetric quantum mechanics]] on a [[worldline]] and thereby spectrally encoding an effective (possibly [[non-commutative geometry|non-commutative]], hence "[[non-geometric background|non-geometric]]") [[target space]] [[geometry]]. 
-Ordinary [[Riemannian geometry]] with [[spin structure]] is the special case of this where the [[Hilbert space]] in the spectral triple is that of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]] and the operator $D$ acting on that is the standard [[Dirac operator]], hence the "supercharge" of the worldline supersymmetry of the [[spinning particle]].
+Ordinary [[Riemannian geometry]] with [[spin structure]] is the special case of this where the [[Hilbert space]] in the spectral triple is that of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]] on a [[spin structure|spin]] [[Riemannian manifold]] and the operator $D$ acting on that is the standard [[Dirac operator]], hence the "supercharge" of the worldline supersymmetry of the [[spinning particle]].
 
-In generalization of this, a "2-spectral triple" should be the analogous algebraic data that encodes the [[worldsheet]] theory of a [[superstring]] propagating on a [[target space]] geometry which is a generalization of [[Riemannian geometry]] with ([[twisted string structure]]) [[string structure]].
+In generalization of this, a "2-spectral triple" should be the analogous algebraic data that encodes the [[worldsheet]] theory of a [[superstring]] propagating on a [[target space]] geometry which is a generalization of [[Riemannian geometry]] with ([[twisted string structure|twisted]]) [[string structure]].
 
-Of course such data is just that of a [[2d superconformal field theory]], realized locally for instance by a [[vertex operator algebra]] or by a [[conformal net]] of [[local net of observables|local observables]]. But for emphasis it may be useful to speak of such data as constituting a "2-spectral triple", for emphasizing more the important and intricate relation to the concept of [[spectral triples]], which in much of the literature seems to be unduly ignored.
+Of course such data is just that of a [[2d superconformal field theory]], realized locally by,  for instance, a [[vertex operator algebra]] or by a [[conformal net]] of [[local net of observables|local observables]]. But for emphasis it may be useful to speak of such data as constituting a "2-spectral triple", for emphasizing more the important and intricate relation to the concept of [[spectral triples]], which in much of the literature seems to be unduly ignored.
 
 | [[quantum system]]    | [[supercharge]] | formalization | algebra | 
 |----------------------|---------|------------------------|-----|
