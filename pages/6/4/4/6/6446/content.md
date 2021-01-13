@@ -52,6 +52,10 @@ A [[theory]] is o-minimal if every model $M$ of $T$ is an o-minimal structure.
 
 * Olivier Le Gal, Jean-Philippe Rolin, _An o-minimal structure which does not admit $C^{\infty }$ cellular decomposition_, Annales de l'institut Fourier __59__:2 (2009), p. 543-562, [MR2521427](http://www.ams.org/mathscinet-getitem?mr=2521427) [Zbl 1193.03065](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1193.03065) [numdam](http://www.numdam.org/item?id=AIF_2009__59_2_543_0)
 
+* Thomas Scanlon, _Algebraic differential equations from covering maps_, Adv. Math. __330__ (2018) 1071-1100 [doi](https://doi.org/10.1016/j.aim.2018.03.008)
+* Benjamin Bakker, Yohan Brunebarbe, Jacob Tsimerman, _o-minimal GAGA and a conjecture of Griffiths_, [arxiv/1811.12230](https://arxiv.org/abs/1811.12230)
+
+
 [[!redirects O-minimal structure]]
 [[!redirects o-minimal structures]]
 [[!redirects order-minimal structure]]
