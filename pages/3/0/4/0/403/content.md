@@ -37,7 +37,7 @@ There is a more general notion of an [[internal category in a monoidal category]
 
 ### Internal category
 
-Let $A$ be any [[category]]. A **category internal to $A$** consists of 
+Let $A$ be a [[category]] with [[pullbacks]]. A **category internal to $A$** consists of 
 
 * an [[object]] _of objects_ $C_0 \in A$;
 
@@ -51,7 +51,6 @@ together with
 
 * a [[composition]] morphism $c: C_1 \times_{C_0} C_1 \to C_1$;
 
-(But why is $C_1 \times_{C_0} C_1$ an object..? should the word "consists" above be modified?)
 
 such that the following [[diagrams]] [[commuting diagram|commute]], expressing the usual category laws:
 
