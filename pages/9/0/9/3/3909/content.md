@@ -512,7 +512,7 @@ Introductions and surveys include
 
 * [[Yuri Manin]], chapters 1 and 2 of _[[Gauge Field Theory and Complex Geometry]], Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
 
-* Fedja Hadrovich, _Twistor primer_ ([html](http://users.ox.ac.uk/~tweb/00004/), [pdf](http://henry.pha.jhu.edu/twistors.pdf))
+* Fedja Hadrovich, _Twistor primer_ ([html](http://users.ox.ac.uk/~tweb/00004), [pdf](http://henry.pha.jhu.edu/twistors.pdf))
 
 * Paul Bair, _Introduction to twistors_ ([pdf](http://www.math.jussieu.fr/~helein/encyclopaedia/baird-twistors.pdf))
 
@@ -520,7 +520,7 @@ Introductions and surveys include
 
 * Liana David, _The Penrose transform and its applications_, 2001 ([pdf](http://www.maths.ed.ac.uk/pg/thesis/david.pdf))
 
-* {#Dunajski09} Maciej Dunajski, _Twistor Theory and Differential Equations_ ([arXiv:0902.0274](http://arxiv.org/abs/0902.0274))
+* {#Dunajski09} Maciej Dunajski, _Twistor theory and differential equations_, J.Phys. __A42__:404004 (2009) [arXiv:0902.0274](http://arxiv.org/abs/0902.0274) [doi](https://doi.org/10.1088/1751-8113/42/40/404004)
 
 * [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris, 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
 
