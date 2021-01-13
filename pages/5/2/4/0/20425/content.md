@@ -24,11 +24,11 @@
 
 ## Idea
 
-In general a [[perturbative string theory vacuum]] is defined by a [[2d SCFT]], regarded as the [[formal dual]] ("[[2-spectral triple]]") of the corresponding [[target spacetime]].
+In general, a [[perturbative string theory vacuum]] is defined by a [[worldsheet]] [[2d SCFT]], regarded as the [[formal dual]] ("[[2-spectral triple]]") of the corresponding emergent [[target spacetime]].
 
 Some such [[2d SCFTs]] arise as [[sigma-models]] from actual [[differential geometry|differential geometric]] [[pseudo-Riemannian manifold|pseudo-Riemannian]] [[spacetime]] [[smooth manifolds|manifolds]] with differential geometric [[background fields]] on them. These are hence called the _geometric vacua_ or _geometric backgrounds_.
 
-All other vacua are then called _non-geometric backgrounds_. These are defined _only_ [[Isbell duality|Isbell-dually]] in terms of [[vertex operator algebra]]. For instance a [[symmetry]] of a non-geometric background is dually an [[automorphism of a vertex operator algebra]].
+All other vacua are then called _non-geometric backgrounds_. These are defined _only_ [[Isbell duality|Isbell-dually]] in terms of [[vertex operator algebra]] on the [[worldsheet]]. For instance a [[symmetry]] of a non-geometric background is dually an [[automorphism of a vertex operator algebra]].
 
 
 In the point-particle limit, these non-geometric string vacua correspond to [[spectral triples]] that are defined purely algebraically, such as the non-geometric fiber spaces in the [[Connes-Lott model]].
