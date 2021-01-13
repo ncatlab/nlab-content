@@ -50,7 +50,7 @@ Historically, the initial applications of presheaves and sheaves involved cases 
 
 The **[[category of presheaves]]** on $C$, usually denoted $Set^{C^{op}}$ or $[C^{op},Set]$, but often abbreviated as $\widehat{C}$, has:
 
-* functors $F\colon C^{op} \to Set$ as objects;
+* functors $F\colon\; C^{op} \to Set$ as objects;
 
 * [[natural transformation|natural transformations]] between such functors as morphisms.
 
@@ -94,10 +94,10 @@ $$
 
 which follows by [[Yoneda reduction]]. See also [[co-Yoneda lemma]].
 
-More concretely: let $Y : C \to [C^{op}, Set]$ denote the [[Yoneda embedding]] and let $C_F := Y/F$ be the corresponding [[comma category]], the [[category of elements]] of $F$:
+More concretely: let $Y : C \to [C^{op}, Set]$ denote the [[Yoneda embedding]] and let $C_F \coloneqq Y/F$ be the corresponding [[comma category]], the [[category of elements]] of $F$:
 
 $$
-  C_F := 
+  C_F \coloneqq 
   \left\lbrace
      \array{
         Y(V) &&\stackrel{Y(g)}{\to}&& Y(V')
@@ -177,7 +177,7 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
     \,.
   $$
 
-  Let's spell this out in more detail: given a mophism $\phi : V \to U$ 
+  Let's spell this out in more detail: given a morphism $\phi : V \to U$ 
   in $C$, we can take any morphism $f : i(U) \to X$ in $Hom_{D}(U,X)$ 
   and turn it into a morphism $V \stackrel{\phi}{\to} U \stackrel{f}{\to} X$ 
   in $Hom_{D}(i(V),X)$. This determines a map of set
