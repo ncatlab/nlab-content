@@ -20,11 +20,11 @@
 
 ## Idea
 
-Given a small category $C$ of "primitive objects", we can think of a functor $F\colon\; C^{op} \to Set$ as being a more complex object built out of primitive objects:
+Given a small category $C$ of "primitive objects", we can think of a functor $F:\: C^{op} \to Set$ as being a more complex object built out of primitive objects:
 
  * Given a primitive object $X$ in $C$, we interpret $F(X)$ as a set representing the ways $X$ occurs inside $F$
 
- * Given a morphism $f\colon\; X \to Y$ in $C$, we interpret $F(f)\colon\; F(Y) \to F(X)$ as the function mapping each occurrence $y$ of $Y$ in $F$ to the corresponding suboccurrence $x$ (included in $y$ through $f$) of $X$ in $F$
+ * Given a morphism $f:\: X \to Y$ in $C$, we interpret $F(f):\: F(Y) \to F(X)$ as the function mapping each occurrence $y$ of $Y$ in $F$ to the corresponding suboccurrence $x$ (included in $y$ through $f$) of $X$ in $F$
 
 Such functors are called presheaves.
 
@@ -33,15 +33,15 @@ Such functors are called presheaves.
 A **presheaf** on a [[small category]] $C$ is a [[functor]]
 
 $$
- F\colon\; C^{op} \to Set
+ F:\: C^{op} \to Set
 $$
 
-from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s. Equivalently this may be thought of as a [[contravariant functor]] $F\colon\; C \to Set$.
+from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s. Equivalently this may be thought of as a [[contravariant functor]] $F:\: C \to Set$.
 
 More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
 
 $$
-  F\colon\; C^{op} \to S.
+  F:\: C^{op} \to S.
 $$
 
 While, hence, presheaves are just [[functors]] (on [[small categories]]), one says "presheaf" to indicate a specific perspective or interest, namely interest in the _[[sheafification]]_ of the functor/presheaf, or at least interest in the [[functor category]] as a [[topos]] (the [[presheaf topos]]). Hence "presheaf" is a [[concept with an attitude]].
@@ -50,7 +50,7 @@ Historically, the initial applications of presheaves and sheaves involved cases 
 
 The **[[category of presheaves]]** on $C$, usually denoted $Set^{C^{op}}$ or $[C^{op},Set]$, but often abbreviated as $\widehat{C}$, has:
 
-* functors $F\colon\; C^{op} \to Set$ as objects;
+* functors $F:\: C^{op} \to Set$ as objects;
 
 * [[natural transformation|natural transformations]] between such functors as morphisms.
 
@@ -67,7 +67,7 @@ As such, it is an example of a [[functor category]].
 * One generally useful way to think of presheaves is in the sense of [[space and quantity]].
 
 * In the case where $S = Set$ and $C$ is [[small category|small]], an important general principle is that the presheaf category $[C^{op},Set]$ is the [[free cocompletion]] of $C$; see [[Yoneda extension]].  Intuitively, it is formed by taking $C$ and 'freely throwing in small colimits'.  The category $C$ is contained in $[C^{op},Set]$ via the [[Yoneda embedding]]
-$$ Y : C \to [C^{op},Set]$$
+$$ Y:\: C \to [C^{op},Set]$$
 The Yoneda embedding sends each object $c \in C$ to the presheaf
 $$ F(-) = hom(-, c) $$
 Presheaves of this form, or isomorphic to those of this form, are called [[representable functors|representable]]; among their properties, representable presheaves always turn colimits into limits, in the sense that a representable functor from $C^{op}$ to $Set$ turns colimits in $C$ (i.e., limits in $C^{op}$) into limits in $Set$ (i.e., colimits in $Set^{op}$). In general, such continuity is a necessary but not sufficient criterion for representability; however, nicely enough, it _is_ sufficient when $C$ itself is a presheaf category. To see this, suppose $K$ is such a presheaf on $C = [D^{op}, Set]$, and let $G = K Y$, a presheaf on $D$. By the [[Yoneda lemma]], we have a natural isomorphism between $[D^{op}, Set](Y(-), G)$ and $K Y(-)$. But by the free cocompletion property of the Yoneda embedding, a colimit-preserving functor on presheaves is entirely determined by its precomposition with $Y$; accordingly, our isomorphism must extend to an identification of $[C^{op}, Set](-, G)$ with $K(-)$, thus establishing the representability of $K$.
@@ -76,7 +76,7 @@ Presheaves of this form, or isomorphic to those of this form, are called [[repre
 
 ### Limits and colimits
 
-Any [[category of presheaves]] is [[complete category|complete]] and [[cocomplete category|cocomplete]], with both [[limit|limits]] and [[colimit|colimits]] being computed _pointwise_.  That is, to compute the limit or colimit of a diagram $F : D \to Set^{C^op}$, we think of it as a functor $F: D \times C^{op} \to Set$ and take the limit or colimit in the $D$ variable.
+Any [[category of presheaves]] is [[complete category|complete]] and [[cocomplete category|cocomplete]], with both [[limit|limits]] and [[colimit|colimits]] being computed _pointwise_.  That is, to compute the limit or colimit of a diagram $F:\: D \to Set^{C^op}$, we think of it as a functor $F:\: D \times C^{op} \to Set$ and take the limit or colimit in the $D$ variable.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -85,7 +85,7 @@ Every presheaf is a [[colimit]] of [[representable functor|representable preshea
 
 =--
 
-An elegant way to express this colimit for a presheaf $F : C^{op} \to Set$ is in terms of the [[coend]] identity
+An elegant way to express this colimit for a presheaf $F:\: C^{op} \to Set$ is in terms of the [[coend]] identity
 
 $$
   F(-) = \int^{c \in C} F(c) \times hom_C(-,c)
@@ -94,7 +94,7 @@ $$
 
 which follows by [[Yoneda reduction]]. See also [[co-Yoneda lemma]].
 
-More concretely: let $Y : C \to [C^{op}, Set]$ denote the [[Yoneda embedding]] and let $C_F \coloneqq Y/F$ be the corresponding [[comma category]], the [[category of elements]] of $F$:
+More concretely: let $Y:\: C \to [C^{op}, Set]$ denote the [[Yoneda embedding]] and let $C_F \coloneqq Y/F$ be the corresponding [[comma category]], the [[category of elements]] of $F$:
 
 $$
   C_F \coloneqq 
@@ -109,7 +109,7 @@ $$
   \right\rbrace 
 $$
 
-and let $p : C_F \to C$ the canonical forgetful functor. Then the colimit over representables expression $F$ is
+and let $p:\: C_F \to C$ the canonical forgetful functor. Then the colimit over representables expression $F$ is
 
 $$
    F \simeq colim_{(Y(V) \to F) \in C_F} (Y\circ p)
@@ -147,7 +147,7 @@ By the definition of [[limit]] we have that
 
 $$\cdots=Hom_{[C_F^{op}, Set]}(pt,B),$$
 
-so for each natural transformation $\alpha \in Hom_{[C_F^{op}, Set]}(pt,B)$ and each object $h: Y(V)\to F\in C_F$, $\alpha_h$ is a map $\{*\}\to B(V)$, that is, it is an element of $B(V)$. However, by Yoneda, we know that each object $h:Y(V)\to F\in C_F$ specifies a unique element $h\in F(V)$. Then rephrasing this, $\alpha$ specifies a [[function]] $F(V)\to B(V)$.  The naturality of this assignment is guaranteed by the naturality of the map $\alpha$.  Then $\alpha$ induces a natural transformation $k^\alpha:F\to B$. It's easy to check that $k$ defines an isomorphism:
+so for each natural transformation $\alpha \in Hom_{[C_F^{op}, Set]}(pt,B)$ and each object $h:\: Y(V)\to F\in C_F$, $\alpha_h$ is a map $\{*\}\to B(V)$, that is, it is an element of $B(V)$. However, by Yoneda, we know that each object $h:\: Y(V)\to F\in C_F$ specifies a unique element $h\in F(V)$. Then rephrasing this, $\alpha$ specifies a [[function]] $F(V)\to B(V)$.  The naturality of this assignment is guaranteed by the naturality of the map $\alpha$.  Then $\alpha$ induces a natural transformation $k^\alpha:\: F\to B$. It's easy to check that $k$ defines an isomorphism:
 
 $$
   Hom_{[C_F^{op}, Set]}(pt,B) \simeq Hom_{[C^{op}, Set]}(F,B)
@@ -168,22 +168,22 @@ Since this holds for all $B$, the claim follows, again using the [[Yoneda lemma|
 
 Examples for presheaves are abundant. Here is a non-representative selection of some examples.
 
-* For $C$ a [[locally small]] category, every object $c \in C$ gives rise to the [[representable functor|representable presheaf]] $Hom_C(-, c) : C^{op} \to Set$.
+* For $C$ a [[locally small]] category, every object $c \in C$ gives rise to the [[representable functor|representable presheaf]] $Hom_C(-, c):\: C^{op} \to Set$.
 
-* More generally, for $i : C \hookrightarrow D$ a [[subcategory]] of a locally small category $D$, every object $d \in D$ gives rise to the presheaf
+* More generally, for $i:\: C \hookrightarrow D$ a [[subcategory]] of a locally small category $D$, every object $d \in D$ gives rise to the presheaf
 
   $$
-    Hom_D(i(-), d) : C^{op} \to Set
+    Hom_D(i(-), d):\: C^{op} \to Set
     \,.
   $$
 
-  Let's spell this out in more detail: given a morphism $\phi : V \to U$ 
-  in $C$, we can take any morphism $f : i(U) \to X$ in $Hom_{D}(U,X)$ 
+  Let's spell this out in more detail: given a morphism $\phi:\: V \to U$ 
+  in $C$, we can take any morphism $f:\: i(U) \to X$ in $Hom_{D}(U,X)$ 
   and turn it into a morphism $V \stackrel{\phi}{\to} U \stackrel{f}{\to} X$ 
   in $Hom_{D}(i(V),X)$. This determines a map of set
 
   $$
-    f^* : Hom_{D}(i(U),X) \to Hom_{D}(i(V),X)
+    f^*:\: Hom_{D}(i(U),X) \to Hom_{D}(i(V),X)
     \,.
   $$
 
