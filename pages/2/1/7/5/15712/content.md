@@ -35,6 +35,12 @@ On the [[selection monad]]:
 
 *  {#Escardó-Oliva2012} [[Martín Escardó]] and Paulo Oliva, _The Peirce translation_, Annals of Pure and Applied Logic, 163(6):681–692, 2012, ([pdf](https://www.cs.bham.ac.uk/~mhe/papers/peirce.pdf)).
 
+On [[domain theory]] in [[homotopy type theory]]/[[univalent foundations]] ([[mathematics presented in HoTT]]):
+
+* [[Tom de Jong]], [[Martín Hötzel Escardó]], _Domain Theory in Constructive and Predicative Univalent Foundations_, in: _29th EACSL Annual Conference on Computer Science Logic_, [CSL 2021](https://csl2021.fmf.uni-lj.si/), LIPIcs proceedings 183, 2021 ([doi:10.4230/LIPIcs.CSL.2021.28](https://doi.org/10.4230/LIPIcs.CSL.2021.28), [arXiv:2008.01422](https://arxiv.org/abs/2008.01422))
+
+
+
 
 category: people
 
