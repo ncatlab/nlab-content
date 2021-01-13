@@ -25,11 +25,12 @@ Noncommutative Hodge theory is being developed in
 
 * Claus Hertling, Christian Sevenheck, _Twistor structures, $tt^*$-geometry and singularity theory_, [arxiv/0807.2199](http://arxiv.org/abs/0807.2199)
 
-* C. Hertling, C. Sabbah, _Examples of non-commutative Hodge structure_ (v1 title: Fourier-Laplace transform of flat unitary connections and TERP structures), [arxiv/0912.2754](http://arxiv.org/abs/0912.2754)
+* C. Hertling, C. Sabbah, _Examples of non-commutative Hodge structure_ (v1 title: Fourier-Laplace transform of flat unitary connections and TERP structures), 
+J. Inst. Math. Jussieu __10__, Spec. Issue 3: in honour of L. Boutet de Monvel & P. Schapira (2011) 635 - 674 [arxiv/0912.2754](http://arxiv.org/abs/0912.2754) [doi](https://doi.org/10.1017/S147474801100003X) 
 
 * C. Sabbah, _Non-commutative Hodge structures_,  [pdf](http://www.math.polytechnique.fr/~sabbah/sabbah_grenoble10.pdf)
 
-* [[Dmytro Shklyarov]], _Non-commutative Hodge structures: Towards matching categorical and geometric examples_, [arxiv/1107.3156](http://arxiv.org/abs/1107.3156)
+* [[Dmytro Shklyarov]], _Non-commutative Hodge structures: Towards matching categorical and geometric examples_, Trans. Amer. Math. Soc. 366 (2014), 2923-2974 [arxiv/1107.3156](http://arxiv.org/abs/1107.3156) [doi](https://doi.org/10.1090/S0002-9947-2014-05913-8)
  
 [[!redirects noncommutative Hodge theory]]
 [[!redirects Noncommutative Hodge theory]]
