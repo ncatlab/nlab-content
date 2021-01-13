@@ -186,7 +186,7 @@ May 200 ([web](http://front.math.ucdavis.edu/0905.1341))
 * Jens Hornbostel, Valentina Kiritchenko, _Schubert calculus for
 algebraic cobordism_. J. Reine Angew. Math., 656:59&#8211;85, 2011
 
-* [[Nora Ganter]], [[Arun Ram]], _Generalized Schubert calculus_, ([arxiv/1212.5742](http://arxiv.org/abs/1212.5742))
+* [[Nora Ganter]], [[Arun Ram]], _Generalized Schubert calculus_, J. Ramanujan Math. Soc. 28A (Spec. Issue-2013) 1-42 [arxiv/1212.5742](http://arxiv.org/abs/1212.5742)
   {#GanterRam12}
 
 * [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
