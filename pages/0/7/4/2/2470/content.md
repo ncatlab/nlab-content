@@ -69,7 +69,7 @@ A __noncommutative space__ $X$ is a small [[triangulated category]] $C_X$ which 
 
 =--
 
-This receives good motivation from the fact that [[stable (infinity,1)-categries]] with a small set of generators are equivalently the [[categories of modules]] over an $A_\infty$-ring(oid). See [there](stable+(infinity%2C1)-category#AsCategoriesOfModules).
+This receives good motivation from the fact that [[stable (infinity,1)-categories]] with a small set of generators are equivalently the [[categories of modules]] over an $A_\infty$-ring(oid). See [there](stable+(infinity%2C1)-category#AsCategoriesOfModules).
 
 ## Some history 
 
