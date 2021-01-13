@@ -73,17 +73,13 @@ A lax monoidal functor is the same thing as a [monoid for the Day convolution](h
 
 ## References
 
-* {#Kissinger} [[Aleks Kissinger]], *Finite matrices are complete for (dagger-)hypergraph categories* ([arxiv:1406.5942](https://arxiv.org/abs/1406.5942))
+* {#Kissinger} [[Aleks Kissinger]], *Finite matrices are complete for (dagger-)hypergraph categories*. ([arxiv:1406.5942](https://arxiv.org/abs/1406.5942))
  
+* {#FongDC} [[Brendan Fong]], *Decorated cospans*, Theory and Applications of Categories, Vol. 30, 2015, No. 33, 1096-1120. ([arxiv:1502.00872](https://arxiv.org/abs/1502.00872))
 
-* {#FongDC} [[Brendan Fong]], *Decorated Cospans*, Theory and Applications of Categories, Vol. 30, 2015, No. 33, pp 1096-1120 ([arxiv:1502.00872](https://arxiv.org/abs/1502.00872))
- 
+* {#FongThesis} [[Brendan Fong]], *The Algebra of Open and Interconnected Systems*, Ph.D. Thesis, Department of Computer Science, University of Oxford, 2016. ([arxiv:1609.05382](https://arxiv.org/abs/1609.05382))
 
-* {#FongThesis} [[Brendan Fong]], *The Algebra of Open and Interconnected Systems*, Ph.D. Thesis ([arxiv:1609.05382](https://arxiv.org/abs/1609.05382))
- 
-
-* {#Carboni} [[Aurelio Carboni]], _Matrices, relations and group representations_ J. Algebra, 138(2):497&#8211;529, 1991
- 
+* {#Carboni} [[Aurelio Carboni]], _Matrices, relations and group representations_ J. Algebra, 138(2):497&#8211;529, 1991.
 
 * {#RSW} [[Robert Rosebrugh]], N. Sabadini, and R. F. C. Walters. *Generic commutative separable algebras and cospans of graphs*. Th. App. Cat. 15(6):164&#8211;177, 2005. [online](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html).
  
@@ -95,7 +91,7 @@ Computer Science 1376:223&#8211;237. Springer&#8211;Verlag, Berlin Heidelberg, 1
 * {#Morton} [[Jason Morton]], _Belief propagation in monoidal categories_ In [[Bob Coecke]], I. Hasuo, P. Panangaden (eds.) _Quantum Physics and Logic_ 2014 (QPL 2014), EPTCS 172:262&#8211;269.
  
 
-* {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph Categories* ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
+* {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph categories*. ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
  
 
 [[!redirects hypergraph categories]]
