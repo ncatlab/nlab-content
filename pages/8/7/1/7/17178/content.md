@@ -800,7 +800,7 @@ Under the Quillen equivalence of prop.
 
 ## References
 
-* {#Kan63} [[Daniel Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7, Issue 3 (1963), 463-478. ([Euclid](http://projecteuclid.org/euclid.ijm/1255644953))
+* {#Kan63} [[Daniel Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7, Issue 3 (1963), 463-478. ([euclid.ijm/1255644953](http://projecteuclid.org/euclid.ijm/1255644953))
 
 * {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
 
@@ -810,13 +810,19 @@ Under the Quillen equivalence of prop.
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
-* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+ * {#Lydakis98} [[Manos Lydakis]], _Simplicial functors and stable homotopy theory_ Preprint, 1998 (Hopf archive [pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf), [[LydakisSimplicialFunctors.pdf:file]])
+
+  (mostly on a [[model structure on excisive functors]] on [[simplicial sets]])
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], section 11 of _[[Model categories of diagram spectra]]_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
 * {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
-* {#Jardine15} [[John F. Jardine]], section 10 of _[[Local homotopy theory]]_, 2016
+  > (mostly on [[symmetric spectra]])
+
+* {#Jardine15} [[John F. Jardine]], section 10 of: _[[Local homotopy theory]]_, 2016
+
+  (with regards to [[sheaves of spectra]])
 
 Symmetric spectra in more general [[model categories]] (using the [[Bousfield-Friedlander theorem]]) are discussed in 
 
