@@ -984,6 +984,11 @@ and its applications to the theory of (2-dimensional) [[flat functors]] can be s
 
 * M.E. Descotte, E.J. Dubuc, M. Szyld, *On the notion of flat 2-functors*, [Adv. Math](https://www.sciencedirect.com/science/article/abs/pii/S0001870818301968), arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
+For a treatment of left Kan extensions as 'partial colimits', see
+
+* [[Paolo Perrone]], [[Walter Tholen]], _Kan extensions are partial colimits_, ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+
+
 [[!redirects Kan extension]]
 [[!redirects Kan extensions]]
 [[!redirects kan extension]]
