@@ -54,7 +54,7 @@ $F:\: \mathcal{C} \to \mathcal{D}$
     \mathbb{Q}
     \oplus
     \mathbb{S}_{2d-1}
-    \ar@{->>}[rr]
+    \ar@{->>}@[red][rr]
     &&
     \mathbb{S}_{2d-1}
     \ar[r]
