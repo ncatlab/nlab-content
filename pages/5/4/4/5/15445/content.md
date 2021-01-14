@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[set]] $S$ and a collection $\{K_s \stackrel{\iota_s}{\hookrightarrow} X_s\}_{s \in S}$ of [[morphisms]] in some [[category]] (typically [[monomorphisms]]), then the _restricted product_ $\underset{s\in S}{\prod}^\prime X_s$ is vaguely the like the actual [[product]] $\underset{s\in S}{\prod} X_s$ of all the $X_s$, but subject to the restriction that for each [[element]] $(x_s)_{s \in S}$ all but a [[finite number]] of components $x_s$ are in the image of $\iota_s$.
+Given a [[set]] $S$ and a collection $\{K_s \stackrel{\iota_s}{\hookrightarrow} X_s\}_{s \in S}$ of [[morphisms]] in some [[category]] (typically [[monomorphisms]]), then the _restricted product_ $\underset{s\in S}{\prod}^\prime X_s$ is vaguely the like the actual [[product]] $\underset{s\in S}{\prod} X_s$ of all the $X_s$, but subject to the restriction that for each [[element]] $(x_s)_{s \in S}$ all but a [[finite number]] of components $x_s$ are in the [[image]] of $\iota_s$.
 
 ## Definition
 
