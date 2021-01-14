@@ -507,17 +507,21 @@ Various notions of [[cohomology groups]] in the context of [[algebra]] can be ex
 
 
 ## Examples
-
-(...)
+ {#Examples}
 
 +-- {: .num_prop #ExtensionsOfTheIntegersAreTrivial} 
 ###### Proposition
-**(extensions of the integers are trivial)**
+**([[group extensions]] of the [[integers]] are trivial)**
 
-For any $A \in $ [[Ab]] we have
+The $Ext^1$-group of the [[integers]] with coefficients in any $A \in $ [[AbelianGroups]] is trivial:
 
 $$
-  Ext^1(\mathbb{Z}, A) \;=\; 0
+  Ext^1\big(
+    \mathbb{Z}, 
+    \,
+    A
+  \big) 
+  \;\simeq\; 0
   \,.
 $$
 
@@ -525,7 +529,128 @@ $$
 
 (e.g. [Boardman, Prop. 19](#Boardman))
 
-(...)
+
++-- {: .num_prop #GroupExtensionsOfFiniteCyclicGroups} 
+###### Proposition
+**([[group extensions]] of [[finite group|finite]] [[cyclic groups]])**
+
+The $Ext^1$-group of the [[cyclic group]] of [[order of a group|order]] $n \in \mathbb{N}$ with coefficients in any $A \in $ [[AbelianGroups]] is the [[quotient group]] $A/n A \coloneqq coker\Big( A \overset{n \cdot(-)}{\longrightarrow} A \Big)$:
+
+$$
+  Ext^1
+  \big(
+    \mathbb{Z} / n\mathbb{Z},
+    \, 
+    A
+  \big) 
+    \;\simeq\; 
+  A / n A 
+  \,.
+$$
+
+=--
+
+(e.g. [Boardman, Prop. 20](#Boardman))
+
++-- {: .num_example #ExamplesOfExtGroupsOfFiniteCyclicGroups} 
+###### Examples
+
+As special cases of Prop. \ref{GroupExtensionsOfFiniteCyclicGroups} we have:
+
+* $
+    Ext^1
+    \big(
+      \mathbb{Z} / n\mathbb{Z},
+      \, 
+      \mathbb{Z}
+    \big) 
+    \;\simeq\;
+    \mathbb{Z} / n\mathbb{Z}
+   \,.
+  $
+
+
+* $
+    Ext^1
+    \big(
+      \mathbb{Z} / n\mathbb{Z},
+      \, 
+      \mathbb{Z} / m\mathbb{Z}
+    \big) 
+    \;\simeq\;
+    \mathbb{Z} / d\mathbb{Z}
+    \,,
+  $
+
+  where $d \coloneqq$ [[gcd]]$(n,m)$ . 
+
+
+* $
+    Ext^1
+    \big(
+      \mathbb{Z} / n\mathbb{Z},
+      \, 
+      \mathbb{Q}
+    \big) 
+    \;\simeq\;
+    0
+    \,.
+  $
+
+=--
+
+(e.g. [Boardman, Cor. 21](#Boardman))
+
+In fact the last case of Example \ref{ExamplesOfExtGroupsOfFiniteCyclicGroups} generalizes beyond cyclic groups:
+
+
++-- {: .num_prop #ExtensionsByRationalNumebrsAreTrivial} 
+###### Proposition
+**([[group extension]] by the [[rational numbers]] are trivial)**
+
+The $Ext^1$-group of any $A \in $ [[AbelianGroups]] with coefficients in the [[rational numbers]] $\mathbb{Q}$ is trivial:
+
+$$
+  Ext^1\big(
+    A, 
+    \,
+    \mathbb{Q}
+  \big) 
+  \;\simeq\; 0
+  \,.
+$$
+
+=--
+
+(e.g. [Boardman, Prop. 22](#Boardman))
+
+Less immediate is this example:
+
++-- {: .num_prop #ExtensionsByRationalNumebrsAreTrivial} 
+###### Proposition
+**([[group extension]] of [[rational numbers]] by the [[integers]])**
+
+The $Ext^1$-group of the [[rational numbers]] by the [[integers]] is the [[quotient group]] $\mathbb{A}/\mathbb{Q}$
+
+* of the [[ring of adeles|group of adeles]] (without the [[real numbers]]-factor), i.e. the [[restricted product]] $\mathbb{A} \,\coloneqq\, \underoverset{p\;prime}{\prime}{\prod} \mathbb{Q}_p$ for $\mathbb{Q}_p$ the [[p-adic numbers]] restricted along the inclusion $\mathbb{Z}_p \to \mathbb{Q}_p$ of the [[p-adic integers]];
+
+* by the [[rational numbers]] $\mathbb{Q}$ (...):
+
+$$
+  Ext^1\big(
+    \mathbb{Q}, 
+    \,
+    \mathbb{Z}
+  \big) 
+  \;\simeq\; 
+  \mathbb{A}/\mathbb{Q}
+  \,.
+$$
+
+
+=--
+
+([Boardman, Theorem 25](#Boardman))
 
 
 ## Related concepts
@@ -549,25 +674,23 @@ A systematic discussion from the point of view of [[derived categories]] is in
 * {#KashiwaraShapira} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer (2000)
  
 
-Lecture notes include
+Lecture notes:
 
-* Kiyoshi Igusa, _25 The Ext Functor_ ([pdf](http://people.brandeis.edu/~igusa/Math101b/Ext.pdf))
+* [[Kiyoshi Igusa]], _25 The Ext Functor_ ([pdf](http://people.brandeis.edu/~igusa/Math101b/Ext.pdf))
 
 * {#Boardman} [[Michael Boardman]], _Some Common $Tor$ and $Ext$ Groups_ ([pdf](http://math.jhu.edu/~jmb/note/torext.pdf), [[BoardmanTorAndExtGroups.pdf:file]])
 
 * {#May} [[Peter May]], Section 4 of: _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
  
-
 * [[Patrick Morandi]], _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
 
   (warning: the last section on resolutions for cocycles for group (abelian) extensions is not correct)
 
 Original articles:
 
-* [[Saunders MacLane]], _Group Extensions by primary abelian groups_, Transactions of the American Mathematical Society
-Vol. 95, No. 1 (Apr., 1960), pp. 1-16 ([JSTOR]( http://www.jstor.org/stable/1993327))
+* [[Saunders MacLane]], _Group Extensions by primary abelian groups_, Transactions of the American Mathematical Society, Vol. 95, No. 1 (Apr., 1960), pp. 1-16 ([JSTOR]( http://www.jstor.org/stable/1993327))
 
-See also
+See also:
 
 * Wikipedia, _[Ext functor](http://en.wikipedia.org/wiki/Ext_functor)_
 
