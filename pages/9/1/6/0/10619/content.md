@@ -1300,7 +1300,7 @@ This produces $e_{\mathbb{R}}$, the [[Adams e-invariant]] with respect to [[KO]]
 ## Construction via unit cofiber cohomology theories
  {#Construction}
 
-The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant, maybe not considered in the literature (?), which is such that it makes various facts immediately manifest, notably the equality between Adams' construction via the Chern character on [[KU]] with Conner-Floyd's construction via the Todd character on [[MUFr]].
+The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant, maybe not considered in the literature (?). This perspective makes various facts immediately manifest, notably the equality between Adams' construction via the Chern character on [[KU]] with Conner-Floyd's construction via the Todd character on [[MUFr]].
 
 For the moment, this section is experimental and incomplete.
 
@@ -1338,6 +1338,7 @@ First some **Notation:**
 * For $R$ a [[ring]] we write $H R$ for its [[Eilenberg-MacLane spectrum]]
 and $ H^{\mathrm{ev}}R \;\coloneqq\; \underset{k}{\oplus} \Sigma^{2k} H R$ for its even 2-periodic version.
 
+
 \linebreak
 
 The **Setup** is as above, which we recall for completeness:
@@ -1371,11 +1372,147 @@ The **Setup** is as above, which we recall for completeness:
 
 * We write $\mathbb{S}_{2d-1}/\mathbb{Z}$ for cofiber of $\mathbb{Z} \xrightarrow{\;c\;} \mathbb{S}_{2d-c}$.
 
+
+\begin{remark}
+\label{CanonicalSplittingOfCofiberOfEvenPerioticQCohomoloygOverSphere}
+There is a canonical splitting  $\mathrm{spl}_0$ of
+
+\begin{xymatrix@=18pt}
+    0
+    \ar[r]
+    &
+    \big(
+      \widetilde {H^{\mathrm{ev}}\mathbb{Q}}
+    \big)
+    {}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar@{=}[d]
+    &&
+    \big(
+      \widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}
+    \big)
+    {}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar[d]
+      |-{
+      \hspace{2.7pt}
+      \scalebox{.7}{
+        \rotatebox{-90}{$
+          \,
+          \simeq
+          \,
+        $}
+      }
+      }
+      _{\mathrm{spl}_0}
+    &&
+    \widetilde {\mathbb{S}}
+    {}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[r]
+    \ar@{=}[d]
+    &
+    0
+    \\
+    0
+    \ar[r]
+    &
+    \mathbb{Q}
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \mathbb{Q}
+    \oplus
+    \mathbb{S}_{2d-1}
+    \ar@{->>}[rr]
+    &&
+    \mathbb{S}_{2d-1}
+    \ar[r]
+    &
+    0
+    \,,
+\end{xymatrix}
+
+namely that coming from the inclusion
+$H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$:
+
+\begin{xymatrix@=18pt}
+    0
+    \ar[r]
+    &
+    \big(
+      \widetilde {H\mathbb{Q}}
+    \big)
+    {}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar@{=}[d]
+    &&
+    \big(
+      \widetilde {(H\mathbb{Q})/\mathbb{S}}
+    \big)
+    {}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar[d]|-{
+      \hspace{2.7pt}
+      \scalebox{.7}{
+        \rotatebox{-90}{$
+          \,
+          \simeq
+          \,
+        $}
+      }
+    }
+    &&
+    \widetilde {\mathbb{S}}
+    {}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[r]
+    \ar@{=}[d]
+    &
+    0
+    \\
+    0
+    \ar[r]
+    &
+    0
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \mathbb{S}_{2d-1}
+    \ar@{=}[rr]
+    &&
+    \mathbb{S}_{2d-1}
+    \ar[r]
+    &
+    0
+\end{xymatrix}
+
+\end{remark}
+
+
+
 \linebreak
 
 Besides inspection of a single homotopy-pasting diagram below, we will just need the following technical lemma:
 
 \begin{lemma}
+  \label{identifyingCofiberRationalCohomoloyOfCofiberSpace}
   Given non-trivial 
   $\big[ S^{2(n+d)-1} \xrightarrow{\;c\;} S^{2n}\big] 
   \,\in \, \mathbb{S}_{2d-1}$
@@ -2397,8 +2534,87 @@ From this, the remaining entry must be
 
 \end{proof}
 
+Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]], where $V_{2n}$ classifies any choice of trivialization of $c^\ast \Sigma^{2n}(1^{KU})$:
 
-(...)
+\begin{xymatrix@=18pt}
+   S^{2(n + d)-1}
+   \ar[dd]_-{ c }
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   &&
+   \ast
+   \ar[dr]
+   \ar[dd]
+   \\
+   && &
+   \ast
+   \ar[dd]|-{
+     \mathclap{\phantom{\vert^{\vert}}}
+     0
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \\
+   S^{2n}
+   \ar[dd]
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   \ar@/_.7pc/[drrr]
+     |<<<<<{ \;\Sigma^{2n} (1^{\mathrm{KU}})\;\; }
+     |>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
+   &&
+   C_c
+   \ar[dd]
+   \ar@{-->}[dr]^-{
+     \color{magenta} V_{2n}
+   }
+   %\ar@/_2pc/[dddrrr]
+   %  |>>>>>>>>>>>>>>>{
+   %    \mathclap{\phantom{\vert}}
+   %    \;{\color{magenta} e(f)}\;
+   %  }
+   &&
+   \\
+   && &
+   \mathrm{KU}^{2n}
+   \ar[dd]
+   \ar[dr]|-{
+     \;\mathrm{ch}\;
+   }
+   \\
+   \ast
+   \ar@/_.7pc/[drrr]|-{ \;0\; }
+   \ar[rr]
+   &&
+   S^{2(n+d)}
+   \ar@{-->}[dr]^-{
+   }
+   &&
+   (H^{\mathrm{ev}}\mathbb{Q})^{2n}
+   \ar[dd]
+   \\
+   && &
+   (\mathrm{KU}/\mathbb{S})^{2n}
+   \ar[dr]
+     |-{
+       \; \mathrm{ch}/\mathbb{S} \;
+     }
+   \\
+   && &&
+   \big(
+     (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}
+   \big)^{2n}
+\end{xymatrix}
+
+By Remark \ref{CanonicalSplittingOfCofiberOfEvenPerioticQCohomoloygOverSphere} the class of this diagram over $[c]$ is a rational number, well-defined modulo integers.
+
+By Lemma \ref{identifyingCofiberRationalCohomoloyOfCofiberSpace} with Prop. \ref{QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace}, this number is the Adams e-invariant.
+
 
 \linebreak
 
