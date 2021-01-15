@@ -1295,6 +1295,1113 @@ Since on $(8 \bullet + 4)$-dimensional $SU$-manifolds the [[Todd class]] is divi
 
 This produces $e_{\mathbb{R}}$, the [[Adams e-invariant]] with respect to [[KO]]-theory instead of [[KU]] ([Adams 66, p. 39](#Adams66)), which, in degrees $8k + 3$, is indeed half of the e-invariant $e_{\mathbb{C}}$ for $KU$ (by [Adams 66, Prop. 7.14](#Adams66)). 
 
+\linebreak
+
+## Construction via unit cofiber cohomology theories
+ {#Construction}
+
+The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant, maybe not considered in the literature (?), which is such that it makes various facts immediately manifest, notably the equality between Adams' construction via the Chern character on [[KU]] with Conner-Floyd's construction via the Todd character on [[MUFr]].
+
+For the moment, this section is experimental and incomplete.
+
+> under construction
+
+First some **Notation:** 
+
+* For $E$ a [[spectrum]] and $n \in \mathbb{Z}$ we write 
+
+  * $E^n \coloneqq \Omega^\infty \Sigma^n E$ for the $n$th component space 
+  
+  *  $E_n  \coloneqq  \pi_n(E)  \simeq  \widetilde E{}^0(S^n)  \simeq  \pi_0(E^{-n})$ for its [[homotopy groups of a spectrum|homotopy groups]]. 
+
+* For $E$ a [[ring spectrum]], we write $E/\mathbb{S}$ for the homotopy cofiber of its unit map
+
+\begin{xymatrix}
+      \mathbb{S}
+      \ar[r]^{1^E}
+      &
+      E
+      \ar[r]
+      &
+      E/\mathbb{S}
+      \ar[r]
+      &
+      \Sigma \mathbb{S}
+      \ar[r]^{ \Sigma (1^E) }
+      &
+      \Sigma E 
+      \ar[r]
+      &
+      \cdots
+\end{xymatrix}
+
+* For $R$ a [[ring]] we write $H R$ for its [[Eilenberg-MacLane spectrum]]
+and $ H^{\mathrm{ev}}R \;\coloneqq\; \underset{k}{\oplus} \Sigma^{2k} H R$ for its even 2-periodic version.
+
+\linebreak
+
+The **Setup** is as above, which we recall for completeness:
+
+* Let $n, d \in \mathbb{N}$, with $d \geq 1$,
+
+* consider a map $ S^{2(n+d)-1} \xrightarrow{\;c\;} S^{2n}$ representing a class in $\mathbb{S}_{2d-1}$, which we will denote by the same name.
+
+  Without restriction of generality we may assume that this class is non-trivial $c \neq 0 \,\in\, \mathbb{S}_{2d-1}\,.$
+
+* We write $C_c$ for the cofiber space of $c$:
+
+\begin{xymatrix}
+    S^{2(n+d)-1}
+    \ar[r]^-c
+    &
+    S^{2n}
+    \ar[r]
+    &
+    C_c
+    \ar[r]
+    &
+    S^{2(n+d)}
+    \ar[r]^{ \Sigma c }
+    &
+    S^{2 n + 1}
+    \ar[r]
+    & 
+    \cdots
+\end{xymatrix}
+
+* We write $\mathbb{S}_{2d-1}/\mathbb{Z}$ for cofiber of $\mathbb{Z} \xrightarrow{\;c\;} \mathbb{S}_{2d-c}$.
+
+\linebreak
+
+Besides inspection of a single homotopy-pasting diagram below, we will just need the following technical lemma:
+
+\begin{lemma}
+  Given non-trivial 
+  $\big[ S^{2(n+d)-1} \xrightarrow{\;c\;} S^{2n}\big] 
+  \,\in \, \mathbb{S}_{2d-1}$
+  for any $n,d \in \mathbb{N}$ with $d \geq 1$, we have 
+  the following diagonal isomorphisms
+  \begin{xymatrix@=7pt}
+      &&
+      \big(
+        \widetilde { (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S} }
+      \big)^{2n}
+      \big(
+        S^{2(n+d)}
+      \big)
+      \ar[dd]
+      \ar@{=}[dr]
+      \\
+      &&
+      &
+      \mathbb{Q} \oplus \mathbb{S}_{2d-1}
+      \ar[dd]
+      \\
+      \big(
+        \widetilde { H^{\mathrm{ev}}\mathbb{Q} }
+      \big)^{2n}
+      \big(
+        C_c
+      \big)
+      \ar@{=}[dr]
+      \ar[rr]
+      &&
+      \big(
+        \widetilde { (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S} }
+      \big)^{2n}
+      \big(
+        C_c
+      \big)
+      \ar@{=}[dr]
+      \\
+      & 
+      \mathbb{Q} \oplus \mathbb{Q}
+      \ar[rr]
+      &&
+      \mathbb{Q} \oplus 
+      \big(
+        \mathbb{Q}/\mathbb{Z}
+        \oplus
+        \mathbb{S}_{2d-1}/\mathbb{Z}
+      \big)
+  \end{xymatrix}
+  such that both morphisms are the identity on the first 
+  $\mathbb{Q}$-summand.
+\end{lemma}
+
+\begin{proof}
+Consider the diagram which is the image under $\pi_0 \mathrm{Maps}^{\ast/}(-,-)$ of the sequences
+
+\begin{xymatrix@R=12pt@C=17pt}
+      \vdots
+      \ar@{<-}[d]
+      \\
+      S^{2(n+d)}
+      \ar@{<-}[dd]
+      \\
+      \\
+      C_c
+      \ar@{<-}[dd]
+      \ar@{}[r]|-{ , }
+      &
+    (H^{\mathrm{ev}}\mathbb{Q})^{2n}
+    \ar[r]
+    &
+    \big(
+      (H^{\mathrm{ev}}\mathbb{Q})
+      /
+      \mathbb{S}
+    \big)^{2n}
+    \ar[r]
+    &
+    \mathbb{S}^{2n-1}      
+      \\
+      \\
+      S^{2n}
+      \ar@{<-}[d]
+      \\
+      \vdots
+\end{xymatrix}
+
+In this diagram all rows and columns are exact (since $\mathrm{Maps}^{\ast/}$ sends both homotopy cofiber sequences in the first argument as well as homotopy fiber sequences in the second argument to homotopy fiber sequences, and  using that these induce [[long exact sequences of homotopy groups]]).
+
+By the definition (or [[Brown representability theorem|characterization]]) of  [[reduced cohomology|reduced]] [[Whitehead-generalized cohomology theory|generalized cohomology]] [[cohomology group|groups]], this diagram is equal (in the sector shown) to the following [[commuting diagram]] of [[abelian groups]]:
+
+\begin{xymatrix@C=18pt}
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde { (H^{\mathrm{ev}}\mathbb{Q}) }{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n+1}
+    \big)
+    \ar[d]
+    \\
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \;
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[d]
+    \\
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      C_c
+    \big)
+    \;
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      C_c
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      C_c
+    \big)
+    \\
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    \ar[r]
+    &
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n}
+    \big)
+    \\
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    \ar[r]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+\end{xymatrix}
+
+Evaluating here all the cohomology groups on spheres yields:
+\begin{xymatrix@=18pt}
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-28pt}
+    \mathclap{
+     \color{blue}
+     \mathbb{S}_{1} \oplus 0
+    }
+    \hspace{+28pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde { (H^{\mathrm{ev}}\mathbb{Q}) }{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-43pt}
+    \mathclap{
+      \color{blue}
+      0
+    }
+    \hspace{+43pt}
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-35pt}
+    \mathclap{
+      \color{blue}
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+35pt}
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \color{blue} 
+        c 
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-37pt}
+    \mathclap{
+      \color{blue}
+      \mathbb{S}_{2d} \oplus 0
+    }
+    \hspace{+37pt}
+    \ar[r]|<<<{ \color{blue}\;0\; }
+    \ar[d]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-46pt}
+    \mathclap{
+      \color{blue}
+      \mathbb{Q} \oplus 0
+    }
+    \hspace{+46pt}
+    \;
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)}}
+    \hspace{-35pt}
+    \mathclap{
+      \color{blue}
+      0 \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+35pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-52pt}
+    \mathclap{
+      \color{blue}
+      0
+    }
+    \hspace{+52pt}
+    \ar[d]
+    \\
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      C_c
+    \big)
+    \;
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      C_c
+    \big)
+    \ar[d]
+    \ar[r]
+    &
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      C_c
+    \big)
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-24pt}
+    \mathclap{
+      \color{blue}
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+24pt}
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^\vert}}
+        \color{blue}
+        c
+        \mathclap{\phantom{\vert_\vert}}
+      }
+    \ar[r]
+      |-{
+        \color{blue}
+        \; 1 \mapsto 1\;
+      }
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-37pt}
+    \mathclap{
+      \color{blue}
+      0 \oplus \mathbb{Q}
+    }
+    \hspace{+37pt}
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-30pt}
+    \mathclap{
+      \color{blue}
+      0
+    }
+    \hspace{+30pt}
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    }}
+    \hspace{-29pt}
+    \mathclap{
+      \color{blue}
+      0 \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+29pt}
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    }}
+    \hspace{-52pt}
+    \mathclap{
+      \color{blue}
+      0
+    }
+    \hspace{+52pt}
+\end{xymatrix}
+
+Now recognizing [[split exact sequences]] using the vanishing [[Ext]]-groups $Ext^1(-,\mathbb{Q}) = 0$ and $Ext^1(\mathbb{Z},-) = 0$ (see [here](Ext#Examples)) yields:
+
+\begin{xymatrix@=18pt}
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-28pt}
+    \mathclap{
+     \mathbb{S}_{1} \oplus 0
+    }
+    \hspace{+28pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde { (H^{\mathrm{ev}}\mathbb{Q}) }{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-43pt}
+    \mathclap{
+      0
+    }
+    \hspace{+43pt}
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-53pt}
+    \mathclap{
+      \color{blue}
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+53pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-35pt}
+    \mathclap{
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+35pt}
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        c
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-37pt}
+    \mathclap{
+      \mathbb{S}_{2d} \oplus 0
+    }
+    \hspace{+37pt}
+    \ar[r]|<<<{ \;0\; }
+    \ar[d]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-46pt}
+    \mathclap{
+      \mathbb{Q} \oplus 0
+    }
+    \hspace{+46pt}
+    \;
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-50pt}
+    \mathclap{
+      \color{blue}
+      \mathbb{Q} \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+50pt}
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)}}
+    \hspace{-35pt}
+    \mathclap{
+      0 \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+35pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-52pt}
+    \mathclap{
+      0
+    }
+    \hspace{+52pt}
+    \ar[d]
+    \\
+      \color{blue}
+      (\mathbb{S}_{2d}/\mathbb{S}_1)
+      \oplus
+      \mathbb{Z}
+    \ar[d]|-{
+      \color{blue}
+      \mathclap{\phantom{\vert^{\vert}}}
+      0 \,\oplus\, \mathrm{ord}(c)
+      \mathclap{\phantom{\vert_{\vert}}}
+    }
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      C_c
+    \big)
+    }}
+    \hspace{-35pt}
+    \mathclap{
+      \color{blue}
+      \mathbb{Q} \oplus \mathbb{Q}
+    }
+    \hspace{+35pt}
+    \;
+    \ar[r]
+    \ar[d]
+    &
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    \color{blue}
+    0 \oplus 
+    \mathbb{S}_{2d-1}/\mathbb{Z}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      C_c
+    \big)
+    }}
+    \hspace{-41pt}
+    \mathclap{
+      \color{blue}
+      0
+    }
+    \hspace{+41pt}
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-24pt}
+    \mathclap{
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+24pt}
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^\vert}}
+        c
+        \mathclap{\phantom{\vert_\vert}}
+      }
+    \ar[r]
+      |-{
+        \; 1 \mapsto 1\;
+      }
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-37pt}
+    \mathclap{
+      0 \oplus \mathbb{Q}
+    }
+    \hspace{+37pt}
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-48pt}
+    \mathclap{
+      \color{blue}
+      0 \oplus \mathbb{Q}/\mathbb{Z}
+    }
+    \hspace{+48pt}
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-30pt}
+    \mathclap{
+      0
+    }
+    \hspace{+30pt}
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    }}
+    \hspace{-29pt}
+    \mathclap{
+      0 \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+29pt}
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    }}
+    \hspace{-52pt}
+    \mathclap{
+      0
+    }
+    \hspace{+52pt}
+\end{xymatrix}
+
+From this, the remaining entry must be
+\begin{xymatrix@=18pt}
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-28pt}
+    \mathclap{
+     \mathbb{S}_{1} \oplus 0
+    }
+    \hspace{+28pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde { (H^{\mathrm{ev}}\mathbb{Q}) }{}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-43pt}
+    \mathclap{
+      0
+    }
+    \hspace{+43pt}
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-53pt}
+    \mathclap{
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+53pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n+1}
+    \big)
+    }}
+    \hspace{-35pt}
+    \mathclap{
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+35pt}
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        c
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-37pt}
+    \mathclap{
+      \mathbb{S}_{2d} \oplus 0
+    }
+    \hspace{+37pt}
+    \ar[r]|<<<{ \;0\; }
+    \ar[d]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-46pt}
+    \mathclap{
+      \mathbb{Q} \oplus 0
+    }
+    \hspace{+46pt}
+    \;
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-50pt}
+    \mathclap{
+      \mathbb{Q} \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+50pt}
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)}}
+    \hspace{-35pt}
+    \mathclap{
+      0 \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+35pt}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    }}
+    \hspace{-52pt}
+    \mathclap{
+      0
+    }
+    \hspace{+52pt}
+    \ar[d]
+    \\
+      (\mathbb{S}_{2d}/\mathbb{S}_1)
+      \oplus
+      \mathbb{Z}
+    \ar[d]|-{
+      \mathclap{\phantom{\vert^{\vert}}}
+      0 \,\oplus\, \mathrm{ord}(c)
+      \mathclap{\phantom{\vert_{\vert}}}
+    }
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      C_c
+    \big)
+    }}
+    \hspace{-35pt}
+    \mathclap{
+      \mathbb{Q} \oplus \mathbb{Q}
+    }
+    \hspace{+35pt}
+    \;
+    \ar[r]
+    \ar[d]
+    &
+      \color{magenta}
+      \mathbb{Q}
+      \oplus
+      \!
+      \big(
+        \mathbb{Q}/\mathbb{Z}
+        \oplus
+        \mathbb{S}_{2d-1}/\mathbb{Z}
+      \big)
+    \ar[r]
+    \ar[d]
+    &
+    0 \oplus
+    \mathbb{S}_{2d-1}\!/\mathbb{Z}
+    \ar[d]
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n+1}
+    \big(
+      C_c
+    \big)
+    }}
+    \hspace{-41pt}
+    \mathclap{
+      0
+    }
+    \hspace{+41pt}
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-24pt}
+    \mathclap{
+      0 \oplus \mathbb{Z}
+    }
+    \hspace{+24pt}
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^\vert}}
+        c
+        \mathclap{\phantom{\vert_\vert}}
+      }
+    \ar[r]
+      |-{
+        \; 1 \mapsto 1\;
+      }
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-37pt}
+    \mathclap{
+      0 \oplus \mathbb{Q}
+    }
+    \hspace{+37pt}
+    \ar[r]
+    \ar[d]
+    &
+    {\phantom{
+    (\widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}){}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-48pt}
+    \mathclap{
+      0 \oplus \mathbb{Q}/\mathbb{Z}
+    }
+    \hspace{+48pt}
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2n}
+    \big)
+    }}
+    \hspace{-30pt}
+    \mathclap{
+      0
+    }
+    \hspace{+30pt}
+    \\
+    {\phantom{
+    \widetilde {\mathbb{S}}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    }}
+    \hspace{-29pt}
+    \mathclap{
+      0 \oplus \mathbb{S}_{2d-1}
+    }
+    \hspace{+29pt}
+    \ar[r]
+    &
+    {\phantom{
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}{}^{2n}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    }}
+    \hspace{-52pt}
+    \mathclap{
+      0
+    }
+    \hspace{+52pt}
+\end{xymatrix}
+
+\end{proof}
+
+
+(...)
+
+\linebreak
+
 
 ## Examples
 
