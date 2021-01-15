@@ -1298,13 +1298,11 @@ This produces $e_{\mathbb{R}}$, the [[Adams e-invariant]] with respect to [[KO]]
 \linebreak
 
 ## Construction via unit cofiber cohomology theories
- {#Construction}
+ {#ConstructionViaUnitCofiberTheories}
 
-The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant, maybe not considered in the literature (?). This perspective makes various facts immediately manifest, notably the equality between Adams' construction via the Chern character on [[KU]] with Conner-Floyd's construction via the Todd character on [[MUFr]].
+The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant (following [[schreiber:M-Theory as Mf-Theory|SS21]]). This perspective makes various facts immediately manifest, notably the equality between Adams' construction via the Chern character on [[KU]] with Conner-Floyd's construction via the Todd character on [[MUFr]]. 
 
-For the moment, this section is experimental and incomplete.
-
-> under construction
+> under construction -- not complete yet
 
 First some **Notation:** 
 
@@ -2534,7 +2532,7 @@ From this, the remaining entry must be
 
 \end{proof}
 
-Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]], where $V_{2n}$ classifies any choice of trivialization of $c^\ast \Sigma^{2n}(1^{KU})$:
+Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]], where $V_{2n}$ classifies any choice of trivialization of $c^\ast \Sigma^{2n}(1^{KU})$ (see at _[d-invariant -- Trivializations of the d-invariant](d-invariant#TrivializationsOfThedInvariant)_):
 
 \begin{xymatrix@=18pt}
    S^{2(n + d)-1}
