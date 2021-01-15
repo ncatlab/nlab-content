@@ -69,11 +69,21 @@ There is an [[exceptional isomorphism]]
   \end{scope}
 \end{tikzpicture}
 
-between [[Spin(6)]] and [[SU(4)]], reflecting, under the [[classification of simple Lie groups]], the coicidence of [[Dynkin diagram]] of "[[D3]]" with [[A3]].
+between [[Spin(6)]] and [[SU(4)]], reflecting, under the [[classification of simple Lie groups]], the coincidence of [[Dynkin diagram]] of "[[D3]]" with [[A3]].
+
 
 =--
 
 (e.g. [Figueroa-O'Farrill 10, Lemma 8.1](#FigueroaFarrill10))
+
+One way to see the isomorphism $\mathrm{Spin}(6) \cong \mathrm{SU}(4)$ is as follows.  Let $V$ be a 4-dimensional complex vector space with an inner product and a compatible complex volume form, which is an element of $\Lambda^4 V$.   The inner product defines a conjugate-linear isomorphism $V \cong V^\ast$ that together with the complex volume form can be used to define a conjugate-linear Hodge star operator on $\Lambda^2 V$.  This Hodge star operator squares to the identity, and its $+1$ and $-1$ eigenspaces, say $\Lambda_{\pm}^2 V$, each become 6-dimensional *real* inner product spaces in a natural way.  Thus, the group $\mathrm{SU}(V)$, consisting of all linear transformations of $V$ that preserve the inner product and complex volume form, acts functorially as linear transformation of the real vector space $\Lambda_+^2 V$ that preserve the inner product, giving a homomorphism $\rho: \mathrm{SU}(V) \to \mathrm{O}(\Lambda_+^2 V)$.  Since $\mathrm{SU}(V)$ is connected we in fact have $\rho: \mathrm{SU}(V) \to \mathrm{SO}(\Lambda_+^2 V)$.  
+
+Specializing to the case $V = \mathbb{C}^4$ we get a Lie group homomorphism $\rho: \mathrm{SU}(4) \to \mathrm{SO}(6)$.  Since $d\rho$ is nonzero and $\mathrm{SU}(4)$ is simple, $d\rho$ must be injective.   Since 
+
+$$ \mathrm{dim}(\mathrm{SU}(4)) = 15 = \mathrm{dim}(\mathrm{SO}(6)), $$
+
+$d\rho$ must also be surjective.   Since $\mathrm{SO}(6)$ is connected and $d\rho$ is a bijection, $\rho$ must be a covering map.  Since $\rho(\pm 1) = 1$, $\rho$ exhibits $\mathrm{SU}(4)$ as a connected cover of $\mathrm{SO}(6)$ that is *at least* a double cover.  But the universal cover of $\mathrm{SO}(6)$, namely $\mathrm{Spin}(6)$, is only a double cover.  Thus $\mathrm{SU}(4)$ is a double cover of $\mathrm{SO}(6)$, and $\mathrm{SU}(4) \cong \mathrm{Spin}(6)$.   
+
 
 
 ### Coset spaces
