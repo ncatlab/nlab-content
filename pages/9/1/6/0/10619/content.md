@@ -1304,6 +1304,8 @@ The following is meant to be another, more abstractly homotopy theoretic, way to
 
 > under construction -- not complete yet
 
+### Preliminaries
+
 First some **Notation:** 
 
 * For $E$ a [[spectrum]] and $n \in \mathbb{Z}$ we write 
@@ -1368,12 +1370,194 @@ The **Setup** is as above, which we recall for completeness:
     \cdots
 \end{xymatrix}
 
-* We write $\mathbb{S}_{2d-1}/\mathbb{Z}$ for cofiber of $\mathbb{Z} \xrightarrow{\;c\;} \mathbb{S}_{2d-c}$.
 
+\linebreak
+
+Some **basic concepts** that are used in the following:
+
+\begin{definition}[Unit cofiber cohomology theory]
+  \label{UnitCofiberCohomologyTheory}
+
+For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overset{ e^E }{\longrightarrow} E$ we denote the corresponding [[homotopy cofiber]]-theory $E/\mathbb{S}$. 
+
+(In notation common around the [[Adams spectral sequence]] this would be 
+"$\Sigma \overline {E}$" -- as in [Adams 74, theorem 15.1 page 319](Adams+spectral+sequence#Adams74) --  or just "$\overline{ E }$" -- as in [Hopkins 99, Cor. 5.3](Adams+spectral+sequence#Hopkins99)).
+
+Via the induced [[homotopy cofiber sequence]] this comes with a canonical [[cohomology operation]] $\partial \;\colon\; E/\mathbb{S} \longrightarrow \Sigma \mathbb{S}$ to shifted [[stable Cohomotopy]]:
+
+\begin{xymatrix@C=50pt@R=12pt}
+
+    \mathbb{S}
+    \ar[dd]
+      ^>>{\ }="t"
+    \ar[rr]
+      ^-{
+        \;1^E\;
+      }
+      _>>{\ }="s"
+    &&
+    \overset{
+      \mathclap{
+      \raisebox{4pt}{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          $E$-cohomology
+        \end{tabular}
+      }
+      }
+    }{
+      E
+    }
+    \ar[dd]
+      _-{
+        \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+        i^E
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+      ^>>{\ }="t2"
+    \ar[rr]
+      ^-{
+      }
+      _>>{\ }="s2"
+    &&
+    \ast
+    \ar[dd]
+    \\
+    {\phantom{A}}
+    \\
+    \ast
+    \ar[rr]
+    &&
+    \underset{
+      \mathclap{
+      \raisebox{-4pt}{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          $E$-cofiber
+          \\
+          cohomology
+          \\
+          theory
+        \end{tabular}
+      }
+      }
+    }{
+      E/\mathbb{S}
+    }
+    \ar[rr]
+      |-{ \;\partial^E\; }
+      _-{
+        \mbox{
+          \tiny
+          \color{green}
+          \bf
+          \begin{tabular}{c}
+            \phantom{-}
+            \\
+            boundary
+            \\
+            operation
+          \end{tabular}
+        }
+      }
+    &&
+    \underset{
+      \mathclap{
+      \raisebox{-6pt}{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          shifted stable
+          \\
+          Cohomotopy
+        \end{tabular}
+      }
+      }
+    }{
+      \Sigma \mathbb{S}
+    }
+    \,,
+    &
+    {\phantom{AAA}}
+    %
+    \ar@{=>}^-{ \mbox{\tiny\rm(po)} }
+      "s"; "t"
+    \ar@{=>}^-{ \mbox{\tiny\rm(po)} }
+      "s2"; "t2"
+
+\end{xymatrix}
+
+\end{definition}
+
+\begin{definition}\label{InducedCohomologyOperationsOnCofiberCohomology}
+  [Induced cohomology operations on cofiber cohomology]
+  Let $E \overset{\phi}{\longrightarrow} F$ be a 
+  [[multiplicative cohomology theory|multiplicative]] 
+  [[cohomology operation]], so that in particular 
+  it preserves the units, witnessed 
+  by a homotopy-commutative square on the 
+  left here:
+\begin{xymatrix@=24pt}
+    \mathbb{S}
+    \ar[rr]|-{ \;1^{E}\; }
+    \ar@{=}[d]
+    &&
+    E
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \phi
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \ar[rr]
+    &&
+    E/\mathbb{S}
+    \ar[rr]|-{ \;\partial^E\; }
+    \ar[d]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \phi/\mathbb{S}
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    &&
+    \Sigma \mathbb{S}
+    \ar@{=}[d]
+    \\
+    \mathbb{S}
+    \ar[rr]|-{ \;1^F\; }
+    &&
+    F
+    \ar[rr]
+    &&
+    F/\mathbb{S}
+    \ar[rr]|-{ \;\partial^F\; }
+    &&
+    \Sigma\mathbb{S}
+    \,.
+\end{xymatrix}
+Then passing to [[homotopy cofibers]] yields  the induced cohomology operation $\phi/\mathbb{S}$ on cofiber theories (Def. \ref{UnitCofiberCohomologyTheory}).
+\end{definition}
+
+\begin{example}\label{ChernCharacterOnCofiberOfKTheory}[Chern character on cofiber of K-theory]
+  The [[Chern character]] operation 
+  $\mathrm{KU} \overset{\phi}{\longrightarrow} H^{\mathrm{ev}}\mathbb{Q}$
+  is multiplicative, hence passes to an operation
+  $\mathrm{KU}/\mathbb{S} 
+    \overset{ \;\mathrm{ch}/\mathbb{S}\; }{\longrightarrow}
+    H^{\mathrm{ev}}\mathbb{Q}$
+   via Def. \ref{InducedCohomologyOperationsOnCofiberCohomology}.   
+\end{example}
+
+In a similar fashion we get:
 
 \begin{remark}
 \label{CanonicalSplittingOfCofiberOfEvenPerioticQCohomoloygOverSphere}
-There is a canonical splitting  $\mathrm{spl}_0$ of
+There is a canonical [[split exact sequence|splitting]]  $\mathrm{spl}_0$ of the [[short exact sequence]]
 
 \begin{xymatrix@=18pt}
     0
@@ -1439,8 +1623,8 @@ There is a canonical splitting  $\mathrm{spl}_0$ of
     \,,
 \end{xymatrix}
 
-namely that coming from the inclusion
-$H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$:
+namely that coming from the inclusion 
+$H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$ (which is multiplicative, in particular preserves the unit):
 
 \begin{xymatrix@=18pt}
     0
@@ -1502,6 +1686,8 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$:
 \end{xymatrix}
 
 \end{remark}
+
+### The diagrammatic e-invariant
 
 \begin{proposition}
   Let $E$ be a [[multiplicative cohomology theory]]
@@ -1614,6 +1800,7 @@ to the class in $(E/\mathbb{S})_d$ of this diagram:
    &&
    S^{n + d}
    \ar@{-->}[dr]|-{
+     \mathllap{\vdash}
      (
        {\color{green}
          G^{\mathbb{S}}_n\!(c)
@@ -1639,7 +1826,11 @@ to the class in $(E/\mathbb{S})_d$ of this diagram:
 For **proof** see [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-invariant]]_.
 
 
+
+
 \linebreak
+
+### Reproducing the classical e-invariant
 
 Besides inspection of a single homotopy-pasting diagram below, we will just need the following technical lemma:
 
@@ -1697,6 +1888,8 @@ Besides inspection of a single homotopy-pasting diagram below, we will just need
   such that both morphisms are the identity on the first 
   $\mathbb{Q}$-summand.
 \end{lemma}
+
+Here $\mathbb{S}_{2d-1}/\mathbb{Z}$ is the [[cofiber]] of $\mathbb{Z} \xrightarrow{\;c\;} \mathbb{S}_{2d-c}$.
 
 \begin{proof}
 Consider the diagram which is the image under $\pi_0 \mathrm{Maps}^{\ast/}(-,-)$ of the sequences
