@@ -7,6 +7,10 @@
 
 > ([source](http://homepage.math.uiowa.edu/~jorgen/hadamardquotesource.html))
 
+## Some works
+
+* _Psychology of invention in the mathematical field_, Princeton University Press 1945
+
 ## Related pages
 
 * [[Hadamard lemma]]
