@@ -1837,7 +1837,288 @@ to the class in $(E/\mathbb{S})_d$ of this diagram:
   $\mathbb{S}_{d-1}$.
     
 \end{proposition}
-For **proof** see [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-invariant]]_.
+See also [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-invariant]]_.
+
+
+
+
+\begin{proof}
+
+**First**, here is a quick formal argument to see that _some_ such bijection does exist:
+
+By Definition \ref{SetOfTrivializationsOfTheDInvariant}, an element in $H_{n-1}Fluxes^E\big( S^{n+d-1} \big)$ is equivalently the class of a homotopy [[cone]] with tip $\Sigma^{n+d-1} \mathbb{S}$ over the [[cospan]] formed by the ring spectrum unit $e^E$ and the [[zero morphism]]:
+
+\begin{xymatrix@=26pt}
+    \Sigma^{n+d-1}\mathbb{S}
+    \ar[rr]_>>>{\ }="s"
+    \ar[dd]^>>>{\ }="t"
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        c
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    &&
+    \ast
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        0
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    \\
+    \Sigma^n \mathbb{S}
+    \ar[rr]
+      |-{
+        \; \Sigma^n(e^E) \;
+      }
+    &&
+    \Sigma^n E
+    %
+    \ar@{=>}
+      |-{
+        \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+        {
+          \color{orange}
+          H^E_{n-1}\!(c)
+        }
+        \mathclap{\phantom{\vert_{\vert_{\vert}}}}
+      }
+      "s"; "t"
+\end{xymatrix}
+
+But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences]] (by [this Prop.](Spectrum#InSpectraHomotopyFiberSequencesAreHomotopyCofiberSequences)), so that by the [[universal property]] of [[homotopy fibers]] the class of the above diagram is equivalently the class of a map from $\Sigma^{n+d-1}\mathbb{S}$ to  $fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} (E/\mathbb{S}$):
+
+\begin{xymatrix@=26pt}
+    \Sigma^{n+d-1}\mathbb{S}
+    \ar@/_1pc/[dddr]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        c
+        \mathclap{\phantom{\vert_{\vert_{\vert}}}}
+      }
+    \ar@/^1pc/[rrrd]
+    \ar@{-->}[dr]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \vdash
+        {
+          \color{orange}
+          H^E_{n-1}\!(c)
+        }
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    & 
+    \Sigma^{n-1}
+    (\mathbb{S}/E)
+    \ar[rr]_>>>{\ }="s"
+    \ar[dd]^>>>{\ }="t"
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \partial
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    &&
+    \ast
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        0
+        \mathclap{\phantom{\vert_{\vert}}}
+      }      
+    \\
+    \\
+    &
+    \Sigma^n \mathbb{S}
+    \ar[rr]
+      |-{
+        \;\Sigma^n(e^E)\;
+      }
+    &&
+    \Sigma^n E
+    %
+    \ar@{=>} 
+      ^-{ \mbox{\tiny\color{orange}(pb)} }
+    "s"; "t"
+\end{xymatrix}
+
+
+This implies the claim, by 
+
+$$
+  \pi_0
+  Maps
+  \Big(
+    \Sigma^{n+d - 1}\mathbb{S}
+    \,,\,
+    \Sigma^{n-1} (E/\mathbb{S})
+  \Big)
+  \;\simeq\;
+  (E/\mathbb{S})_{d}
+  \,.
+$$
+
+\linebreak
+
+**Second,** to see that this bijection is realized as claimed (the following constructions is close to the proof of [Conner-Floyd 66, Theorem 16.2](MUFr#ConnerFloyd66)): 
+
+
+Let
+$\big[ S^{n + d - 1} \overset{c}{\longrightarrow} S^{n} \big] \;\in\; \pi^n\big(S^{n+d-1}\big)$ be a given class in Cohomotopy.
+We need to produce a map of the form
+
+\begin{xymatrix@R=10pt}
+    {
+      \color{orange}
+      H^E_{n-1}\!(c)
+    }
+    \ar@{}[rr]|-{\longmapsto}
+    &&
+    M^d
+    \\
+    H_{n-1}\mbox{Fluxes}(X)_c
+    \ar[rr]
+    \ar[dd]
+    &&
+    \big(
+      E\!/\mathbb{S}
+    \big)_d
+    \ar[dd]^-{ \partial }
+    \\
+    {\phantom{A}}
+    \\
+    \big\{
+      [
+        \Sigma^\infty c
+      ]
+    \big\}
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \;
+    \mathbb{S}_{d-1}
+\end{xymatrix}
+
+and show that it is a bijection onto this fiber, hence that the square is [[cartesian square|cartesian]]. To this end, we discuss the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]], all of whose cells are homotopy cartesian:
+
+\begin{xymatrix@R=15pt@C=60pt}
+    \Sigma^\infty S^{n + d - 1}
+    \ar[dd]_-{
+      \Sigma^\infty
+      {\color{green}
+        c
+      }
+    }
+    \ar[rr]
+    &&
+    \ast
+    \ar[dd]
+    \\
+    \\
+    \Sigma^\infty S^{n}
+    \ar[dd]
+    \ar[rr]|-{ 
+      %\;\Sigma^\infty q_c\; 
+    }
+    \ar@/_1.4pc/[rrr]
+      |<<<<<<<<<<<<<<<<<<<{
+        \; \Sigma^{n}(e^{E}) \;
+      }
+    &&
+    \Sigma^\infty C_c
+    \ar[dd]|<<<<{ \phantom{A} }
+    \ar@{-->}[r]
+    \ar@{}[r]
+    |-{
+      \scalebox{.7}{$
+        \begin{array}{c}
+          \vdash
+          {\color{orange}
+            H^E_{n-1}\!(c)
+          }
+          \\
+          {\phantom{a}}
+        \end{array}
+      $}
+    }
+    \ar@/^2pc/[rr]
+    &
+    \Sigma^n E
+    \ar[r]
+    \ar[dd]
+    &
+    \ast
+    \ar[dd]
+    \\
+    \\
+    \ast
+    \ar[rr]
+    &&
+    \Sigma^{\infty\scalebox{.6}{$+1$}} S^{n + d - 1}
+    \ar[r]^-{
+      \color{magenta}
+      M^{d}
+    }
+    \ar@/_1.2pc/[rr]|-{
+      \;
+      \Sigma^{\infty\scalebox{.5}{$+1$}}
+      {\color{green}
+        c
+      }
+      \;
+    }
+    &
+    \Sigma^{n}(E\!/\mathbb{S})
+    \ar[r]^{ \partial }
+    &
+    \Sigma^{\infty\scalebox{.6}{$+1$}} S^{n}
+\end{xymatrix}
+
+For given $H^E_{n-1}\!(c)$, this diagram is constructed as follows
+(where we say "square" for any _single_ cell and "rectangle" for the pasting composite of any adjacent _pair_ of them):
+
+* The two squares on the left are the stabilization of the homotopy pushout squares defining the cofiber space $C_c$ and the suspension of $S^{n + d - 1}$
+
+* The bottom left rectangle (with $\Sigma^n(e^E)$ at its top)
+is the homotopy pushout defining $\Sigma^n(E\!/\mathbb{S})$.
+
+* The classifying map for the given $(n-1)$-flux, shown as a dashed arrow,
+completes a co-cone under the bottom left square. Thus the map ${\color{magenta}M^d}$ forming the bottom middle square is uniquely implied by the homotopy pushout property of the bottom left square.
+Moreover, the [[pasting law]] implies that this bottom middle square is itself homotopy cartesian.
+
+* The bottom right square is the homotopy pushout defining $\partial$.
+
+* By the [[pasting law]] it follows that also the bottom right rectangle is homotopy cocartesian, hence that, after the two squares on the left, it exhibits the third step in the long homotopy cofiber sequence of $\Sigma^\infty c$. This means that its total bottom morphism is $\Sigma^{\infty + 1} c$, and hence that $\partial \big[ M^d \big] = [c]$.
+
+
+In conclusion, these construction steps yield a map map $H^E_{n-1}\!(c) \mapsto M^d$ over $[\Sigma^\infty c]$ a required.
+
+It only remains to see that this map is bijective over any $\big[\Sigma^\infty c\big]$: So assume conversely that $M^d$ is given, and with it the above diagram  except for the dashed arrow. But since the bottom right square is a [[homotopy pushout]], it is also a [[homotopy pullback]] (by [this Prop.](Spectrum#InSpectraHomotopyFiberSequencesAreHomotopyCofiberSequences)), so that a dashed morphism is uniquely implied. By its uniqueness, this reverse assignment $M^{2d} \mapsto H^E_{n-1}\!(c)$ must be the inverse of the previous construction.
+
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \begin{definition}
