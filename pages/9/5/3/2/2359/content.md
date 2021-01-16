@@ -130,15 +130,23 @@ The [[smash product of spectra]] makes the stable homotopy category into a [[sym
 
 An ([[commutative monoid|commutative]]) [[monoid object]] with respect to this is a ([[commutative ring spectrum|commutative]]) [[ring spectrum]]. A [[module object]] over such is a [[module spectrum]].
 
-### Triangulated structure
+### Triangulated category structure
 
 The [[homotopy fiber sequences]] of spectra gives the stable homotopy category the structure of a [[triangulated category]].
+
+For **proof** see at _[[Introduction to Stable homotopy theory]]_ [this Prop](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated).
+
+
+[[!include finite homotopy limits of spectra -- section]]
+
 
 ## Related concepts
 
 * [[Ho(Top)]]
 
 * [[Whitehead theorem]]
+
+* [[Spectra]]
 
 ## References
 
