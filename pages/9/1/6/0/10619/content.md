@@ -1307,6 +1307,8 @@ The following is meant to be another, more abstractly homotopy theoretic, way to
 
 1. [Preliminaries](#DiagrammaticConstructionPreliminaries)
 
+1. [Unit cofiber cohomology theory](#UnitCofiberCohomologyTheory)
+
 1. [The diagrammatic e-invariant](#TheDiagrammaticEInvariant)
 
 1. [Recovering Adams's construction](#DiagrammaticEInvariantRecoveringAdamsConstruction)
@@ -1326,32 +1328,9 @@ First some **Notation:**
   
   *  $E_n  \coloneqq  \pi_n(E)  \simeq  \widetilde E{}^0(S^n)  \simeq  \pi_0(E^{-n})$ for its [[homotopy groups of a spectrum|homotopy groups]]. 
 
-* For $E$ a [[ring spectrum]], we write $E/\mathbb{S}$ for the homotopy cofiber of its unit map
-
-\begin{xymatrix}
-      \mathbb{S}
-      \ar[r]^{1^E}
-      &
-      E
-      \ar[r]
-      &
-      E/\mathbb{S}
-      \ar[r]
-      &
-      \Sigma \mathbb{S}
-      \ar[r]^{ \Sigma (1^E) }
-      &
-      \Sigma E 
-      \ar[r]
-      &
-      \cdots
-\end{xymatrix}
-
 * For $R$ a [[ring]] we write $H R$ for its [[Eilenberg-MacLane spectrum]]
 and $ H^{\mathrm{ev}}R \;\coloneqq\; \underset{k \in \mathbb{N}}{\oplus} \Sigma^{2k} H R$ for its [[connective spectrum|connective]] even 2-periodic version.
 
-
-\linebreak
 
 The **Setup** is as above, which we recall for completeness:
 
@@ -1383,19 +1362,41 @@ The **Setup** is as above, which we recall for completeness:
 \end{xymatrix}
 
 
-\linebreak
 
-Some **basic concepts** that are used in the following:
+### Unit cofiber cohomology theory
+ {#UnitCofiberCohomologyTheory}
+
 
 \begin{definition}[Unit cofiber cohomology theory]
   \label{UnitCofiberCohomologyTheory}
 
-For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overset{ e^E }{\longrightarrow} E$ we denote the corresponding [[homotopy cofiber]]-theory $E/\mathbb{S}$. 
+For $E$ a [[multiplicative cohomology theory]] ([[Brown representability theorem|represented]] by a [[homotopy-commutative ring spectrum]]) with unit operation $\mathbb{S} \overset{ e^E }{\longrightarrow} E$ we denote the corresponding [[homotopy cofiber]]-theory $E/\mathbb{S}$. 
 
 (In notation common around the [[Adams spectral sequence]] this would be 
 "$\Sigma \overline {E}$" -- as in [Adams 74, theorem 15.1 page 319](Adams+spectral+sequence#Adams74) --  or just "$\overline{ E }$" -- as in [Hopkins 99, Cor. 5.3](Adams+spectral+sequence#Hopkins99)).
 
-Via the induced [[homotopy cofiber sequence]] this comes with a canonical [[cohomology operation]] $\partial \;\colon\; E/\mathbb{S} \longrightarrow \Sigma \mathbb{S}$ to shifted [[stable Cohomotopy]]:
+Via the induced [[homotopy cofiber sequence]] 
+
+\begin{xymatrix}
+      \mathbb{S}
+      \ar[r]^{1^E}
+      &
+      E
+      \ar[r]
+      &
+      E/\mathbb{S}
+      \ar[r]
+      &
+      \Sigma \mathbb{S}
+      \ar[r]^{ \Sigma (1^E) }
+      &
+      \Sigma E 
+      \ar[r]
+      &
+      \cdots
+\end{xymatrix}
+
+this comes with a canonical [[cohomology operation]] $\partial \;\colon\; E/\mathbb{S} \longrightarrow \Sigma \mathbb{S}$ to shifted [[stable Cohomotopy]]:
 
 \begin{xymatrix@C=50pt@R=12pt}
 
@@ -1699,6 +1700,93 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$ (which is multiplicative
 \end{xymatrix}
 
 \end{remark}
+
+
+
+\begin{lemma}
+  \label{CofiberECohomologyAsExtensionOfStableCohomotopyByECohomology}
+  [Cofiber $E$-cohomology as extension of stable Cohomotopy by $E$-cohomology]
+
+  For $E$ a [[multiplicative cohomology theory]] and
+  $X$ a space, assume that the
+  $E$-[[Boardman homomorphism]]
+  $\widetilde {\mathbb{S}}{}^\bullet(X) \xrightarrow{ \;\beta^\bullet_X\; }
+  \widetilde E^\bullet(X)$
+  is [[zero morphism|zero]] in degrees $n$ and $n + 1$
+  -- for instance in that $X \simeq S^{k \geq 2}$,
+  $n = 0$ and the
+  groups $\widetilde E^0(S^k) = \pi_k(E)$ have no [[torsion subgroup|torsion]] --
+  then the [[cohomology operations]] $i^E$, $\partial^E$
+  form a [[short exact sequence]] of [[cohomology groups]]:
+
+\begin{xymatrix@C=12pt}
+      0
+      \ar[r]
+      &
+      \widetilde E
+      \big(
+        X
+      \big)
+      \;
+      \ar@{^{(}->}[rr]^-{ i }
+      &&
+      (
+      \widetilde
+      {
+        E/\mathbb{S}
+      }
+      ){}^n(X)
+      \ar@{->>}[rr]^-{ \partial }
+      &&
+      \widetilde {\mathbb{S}}{}^{n+1}(X)
+      \ar[r]
+      &
+      0
+\end{xymatrix}
+
+\end{lemma}
+
+(e.g. [Stong 68, p. 102](MOFr#Stong68))
+
+\begin{proof}
+  Generally, the long cofiber sequence of cohomology theories
+
+  induces a long exact sequence of cohomology groups (...)
+
+\begin{xymatrix@C=12pt}
+      \cdots
+      \ar[r]
+      &
+      \widetilde {\mathbb{S}}{}^{n}(X)
+      \ar[rr]^-{ 1^n_X }
+      &&
+      \widetilde E^n(X)
+      \ar[rr]^-{ i^n_X }
+      &&
+      (\widetilde{E/\mathbb{S}})^n(X)
+      \ar[rr]^-{ \partial^n_X }
+      &&
+      \widetilde S^{n+1}(X)
+      \ar[rr]^-{ 1^{n+1}_X }
+      &&
+      \widetilde {E}^{n+1}(X)
+      \ar[r]
+      &
+      \cdots
+\end{xymatrix}
+ Under the given assumption the two outermost morphisms
+  shown are zero, and hence the sequence truncates as claimed.
+
+\end{proof}
+
+
+
+
+
+
+
+
+
 
 ### The diagrammatic e-invariant
  {#TheDiagrammaticEInvariant}
