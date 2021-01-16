@@ -381,7 +381,7 @@ Apply the [[braid lemma]] to the interlocking long exact sequences of the three 
 See [here](braid+lemma#ExactSequenceForTripleInGeneralizedHomology) for details.
 
 
-=---
+=--
 
 
 
@@ -477,6 +477,10 @@ Further generalization of this to [[bivariant cohomology theories]] is in
 [[!redirects generalized homology theory]]
 [[!redirects generalized homology theories]]
 
+[[!redirects Whitehead-generalized homology theory]]
+[[!redirects Whitehead-generalized homology theories]]
+
+
 [[!redirects homology theory]]
 [[!redirects homology theories]]
 
@@ -484,3 +488,4 @@ Further generalization of this to [[bivariant cohomology theories]] is in
 
 [[!redirects generalised homology]]
 [[!redirects generalised homologies]]
+
