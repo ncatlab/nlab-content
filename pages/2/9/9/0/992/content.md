@@ -44,6 +44,7 @@ The [[homotopy category of an (∞,1)-category]] of a stable $\infty$-category i
 Notice that the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is simple and natural.  The complexity and bad behavior of triangulated categories comes from them being the [[decategorification]] of a structure that is natural in [[higher category theory]].
 
 ## Definition
+ {#Definition}
 
 As with ordinary categories, an  object in a [[(infinity,1)-category]] is a [[zero object]] if it is both [[initial object]] and a [[terminal object]]. An $(\infty,1)$-category with a zero object is a **pointed** $(\infty,1)$-category.
 
