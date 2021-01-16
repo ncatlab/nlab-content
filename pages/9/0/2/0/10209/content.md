@@ -23,4 +23,4 @@ For more see at _[[quaternionic unitary group]]_
 
 * The group $Sp(1)$ is isomorphic to the [[special unitary group]] $SU(2)$ and also to the [[spin group]] $Spin(3)$. Its underlying [[smooth manifold]] is the 3-[[sphere]].
 
-* $Sp(2)$ is isomorphic to $Spin(5)$.
+* $Sp(2)$ is isomorphic to [[Spin(5)]] (see there for a proof).
