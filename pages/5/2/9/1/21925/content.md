@@ -424,7 +424,7 @@ By Definition \ref{SetOfTrivializationsOfTheDInvariant}, an element in $H_{n-1}F
       "s"; "t"
 \end{xymatrix}
 
-But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences]], and by the [[universal property]] of [[homotopy fibers]] the class of the above diagram is equivalently the class of a map from $\Sigma^{n+d-1}\mathbb{S}$ to  $fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} (E/\mathbb{S}$):
+But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences]] (by [this Prop.](Spectrum#InSpectraHomotopyFiberSequencesAreHomotopyCofiberSequences)), so that by the [[universal property]] of [[homotopy fibers]] the class of the above diagram is equivalently the class of a map from $\Sigma^{n+d-1}\mathbb{S}$ to  $fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} (E/\mathbb{S}$):
 
 \begin{xymatrix@=26pt}
     \Sigma^{n+d-1}\mathbb{S}
