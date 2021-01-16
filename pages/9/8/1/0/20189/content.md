@@ -41,7 +41,15 @@ between [[Spin(5)]] and the [[quaternionic unitary group]] $Sp(2) = U(2,\mathbb{
 
 =--
 
-This is an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97))
+This is an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97).  Alternatively, it can be shown as follows.
+
+Let $V$ be a 4-dimensional complex vector space with an inner product and a compatible complex volume form.    As explained [here](https://ncatlab.org/nlab/show/Spin%286%29#ExceptionalIsomorphism), this structure can be used to define a conjugate-linear Hodge star operator on $\Lambda^2 V$ whose $+1$ and $-1$ eigenspaces, say $\Lambda_{\pm}^2 V$, are each 6-dimensional *real* inner product spaces.  Thus, the group $\mathrm{SU}(V)$ acts as linear transformations of $\Lambda_{\pm}^2 V$ that preserve the inner product, giving a homomorphism $\rho: \mathrm{SU}(V) \to \mathrm{O}(\Lambda_{\pm}^2 V)$.  In fact $\rho$ maps $\mathrm{SU}(V)$ in a 2-1 and onto way to $\mathrm{SO}(\Lambda_{\pm}^2 V)$.  Taking $V = \mathbb{C}^4$ this shows $\mathrm{SU}(4) \cong \mathrm{Spin}(6)$. 
+
+Now suppose $V$ is additionally equipped with an complex symplectic structure, i.e. a nondegenerate skew-symmetric complex-bilinear form 
+$J \in \Lambda^2 V$. The subgroup $\mathrm{Sp}(V)$ of $\mathrm{SU}(V)$ preserving this extra structure is isomorphic to the [[compact symplectic group]] $\mathrm{Sp}(2)$, which is also the [[quaternionic unitary group]].   This subgroup $\mathrm{Sp}(V)$ acts on $\Lambda_+^2 V$ and $\Lambda_-^2 V$ 
+preserving $J \in \Lambda^2 V = \Lambda_+^2 V \oplus \Lambda_-^2 V$.  Since $\mathrm{Sp}(V)$ is compact, every invariant subspace has an invariant complement, so one or both of the 6-dimensional subspaces $\Lambda_+^2 V$ and $\Lambda_-^2 V$ must have a 5-dimensional subspace invariant under the action of $\mathrm{Sp}(V)$.  This shows that the double cover $\rho: \mathrm{SU}(4) \to \mathrm{SO}(6)$ restricts to a 2-1 homomorphism $\sigma : \mathrm{Sp}(2) \to \mathrm{SO}(5)$.   Since
+$$   \dim(\mathrm{Sp}(2)) = 10 = \dim(\mathrm{SO}(5)) $$
+the differential $d\sigma$, being injective, must also be surjective.  Thus $\sigma : \mathrm{Sp}(2) \to \mathrm{SO}(5)$ is actually a double cover.  Since $\mathrm{Sp}(2)$ is connected this implies $\mathrm{Sp}(2) \cong \mathrm{Spin}(5)$.
 
 ### Action on quaternionic Hopf fibration
 
