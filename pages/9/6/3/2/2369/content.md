@@ -141,6 +141,8 @@ See also the references at [[stable homotopy theory]].
 
 [[!redirects homotopy commutative ring spectrum]]
 [[!redirects homotopy commutative ring spectra]]
+[[!redirects homotopy-commutative ring spectrum]]
+[[!redirects homotopy-commutative ring spectra]]
 
 [[!redirects H-ring spectrum]]
 [[!redirects H-ring spectra]]
