@@ -177,6 +177,8 @@ In conclusion this means that it is not really the passage to homology groups wh
 
 * [[long exact sequence of homotopy groups]]
 
+* [[long exact sequence in generalized homology]]
+
 ## References
 
 Lecture notes include
