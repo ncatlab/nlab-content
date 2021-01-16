@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -1297,14 +1298,25 @@ This produces $e_{\mathbb{R}}$, the [[Adams e-invariant]] with respect to [[KO]]
 
 \linebreak
 
-## Construction via unit cofiber cohomology theories
+## Diagrammatic construction
  {#ConstructionViaUnitCofiberTheories}
-
-The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant (following [[schreiber:M-Theory as Mf-Theory|SS21]]). This perspective makes various facts immediately manifest, notably the equality between Adams' construction via the Chern character on [[KU]] with Conner-Floyd's construction via the Todd character on [[MUFr]]. 
 
 > under construction -- not complete yet
 
+The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant (following [[schreiber:M-Theory as Mf-Theory|SS21]]). This perspective makes various facts immediately manifest, notably the equality between Adams's construction via the Chern character on [[KU]] and Conner-Floyd's construction via the Todd character on [[MUFr]]. 
+
+1. [Preliminaries](#DiagrammaticConstructionPreliminaries)
+
+1. [The diagrammatic e-invariant](#TheDiagrammaticEInvariant)
+
+1. [Recovering Adams's construction](#DiagrammaticEInvariantRecoveringAdamsConstruction)
+
+1. [Recovering Conner-Floyd's construction](#ConnerFloydTheoremViaPastingDiagram)
+
+
+
 ### Preliminaries
+ {#DiagrammaticConstructionPreliminaries}
 
 First some **Notation:** 
 
@@ -1543,7 +1555,8 @@ Via the induced [[homotopy cofiber sequence]] this comes with a canonical [[coho
 Then passing to [[homotopy cofibers]] yields  the induced cohomology operation $\phi/\mathbb{S}$ on cofiber theories (Def. \ref{UnitCofiberCohomologyTheory}).
 \end{definition}
 
-\begin{example}\label{ChernCharacterOnCofiberOfKTheory}[Chern character on cofiber of K-theory]
+\begin{example}\label{ChernCharacterOnCofiberOfKTheory}
+  [Chern character on cofiber of K-theory]
   The [[Chern character]] operation 
   $\mathrm{KU} \overset{\phi}{\longrightarrow} H^{\mathrm{ev}}\mathbb{Q}$
   is multiplicative, hence passes to an operation
@@ -1556,7 +1569,7 @@ Then passing to [[homotopy cofibers]] yields  the induced cohomology operation $
 In a similar fashion we get:
 
 \begin{remark}
-\label{CanonicalSplittingOfCofiberOfEvenPerioticQCohomoloygOverSphere}
+\label{CanonicalSplittingOfCofiberOfPeriodicRationalCohomology}
 There is a canonical [[split exact sequence|splitting]]  $\mathrm{spl}_0$ of the [[short exact sequence]]
 
 \begin{xymatrix@=18pt}
@@ -1688,8 +1701,9 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$ (which is multiplicative
 \end{remark}
 
 ### The diagrammatic e-invariant
+ {#TheDiagrammaticEInvariant}
 
-\begin{proposition}
+\begin{proposition}\label{EFluxesAreCocycleInCofiberTheory}
   Let $E$ be a [[multiplicative cohomology theory]]
   and $n,d \in \mathbb{N}$. 
   Consider the [[function]] that sends [[pairs]] consisting of 
@@ -1826,13 +1840,336 @@ to the class in $(E/\mathbb{S})_d$ of this diagram:
 For **proof** see [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-invariant]]_.
 
 
+\begin{definition}
+  \label{LiftedEInvariantDiagrammatically}
+The _lifted e-invariant_ $\widehat e_{\mathbb{C}}$ is the composite of 
+
+1. the equivalence from Prop. \ref{EFluxesAreCocycleInCofiberTheory} for $E = $ [[KU]],
+
+1. the cofiber Chern character from Example \ref{ChernCharacterOnCofiberOfKTheory},
+
+1. the canonical splitting from Remark \ref{CanonicalSplittingOfCofiberOfPeriodicRationalCohomology}:
+
+\begin{xymatrix@C=40pt@R=6pt}
+    H^{\mathrm{KU}}_{n-1}\mbox{Fluxes}
+    \big(
+      S^{2(n+d)-1}
+    \big)
+    \ar[r]|-{
+      \raisebox{2.4pt}{
+        \scalebox{.7}{$\simeq$}
+      }
+    }
+    &
+    (\mathrm{KU}/\mathbb{S})_{2d}
+    \ar[r]_-{\;\mathrm{ch}/\mathbb{S}\;}
+    &
+    \big((H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}\big)_{2d}
+    \ar[r]
+      |-{
+        \raisebox{2.2pt}{
+        \scalebox{.7}{$
+          \simeq
+        $}
+        }
+      }
+      _-{ \mathrm{spl}_0 }
+    &
+    \mathbb{S}_{2(n+d)-1}
+    \oplus
+    \mathbb{Q}
+    \\
+    \Big(
+      [{\color{green}c}]
+      ,
+      \big[
+        {\color{orange}
+        H^{\mathrm{KU}}_{2n-1}\!(c)
+        }
+      \big]
+    \Big)
+    \ar@{|->}[rrr]
+    &
+    &&
+    \Big(
+      [{\color{green}c}]
+      ,
+      {\color{orange}
+        \widehat e_{\mathbb{C}}(c)
+      }
+    \Big)
+\end{xymatrix}
+sending a trivialization of the d-invariant
+\begin{xymatrix@=30pt}
+    S^{2(n + d) - 1}
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \color{green}
+        c
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+      ^>>>{\ }="t"
+    \ar[rr]_>>>{\ }="s"
+    &&
+    \ast
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        0
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    \\
+    S^{2n}
+    \ar[rr]
+      |-{
+        \;
+        \Sigma^{2n} (1^{\mathrm{KU}})
+        \;
+      }
+    &&
+    \mathrm{KU}^{2n}
+    %
+    \ar@{=>}
+      |-{
+        \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+        \color{orange}
+        H^{\mathrm{KU}}_{2n-1}\!(c)
+        \mathclap{\phantom{\vert_{\vert_{\vert}}}}
+      }
+     "s"; "t"
+\end{xymatrix}
+to the class of this pasting composite:
+\begin{xymatrix@R=1.8em@C=24pt}
+   S^{2(n + d) - 1}
+   \ar[dd]
+     |-{
+       \mathclap{\phantom{\vert^{\vert}}}
+       \color{green}
+       c
+       \mathclap{\phantom{\vert_{\vert}}}
+     }
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   &&
+   \ast
+   \ar[dr]
+   \ar[dd]
+   \\
+   && &
+   \ast
+   \ar[dd]|-{
+     \mathclap{\phantom{\vert^{\vert}}}
+     0
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \\
+   S^{n}
+   \ar[dd]
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   \ar@/_.7pc/[drrr]
+     |<<<<<{ \;\Sigma^{n} (1^{\mathrm{MU}})\;\; }
+     |>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
+   &&
+   C_c
+   \ar[dd]
+   \ar@{-->}[dr]|-{
+     \vdash
+     {
+       \color{orange}
+       H^{\mathrm{KU}}_{2n-1}\!(c)
+     }
+   }
+   &&
+   \\
+   && &
+   \mathrm{KU}^{n}
+   \ar[dd]
+   \ar[dr]
+     |-{
+       \;\mathrm{ch}\;
+     }
+   \\
+   \ast
+   \ar@/_.7pc/[drrr]|-{ \;0\; }
+   \ar[rr]
+   &&
+   S^{2(n + d)}
+   \ar@{-->}[dr]|-{
+     \mathllap{\vdash}
+     (
+       {\color{green}
+         G^{\mathbb{S}}_n\!(c)
+       }
+       \,,\,
+       {\color{orange}
+         H^{\mathrm{KU}}_{n-1}\!(c)
+       }
+     )
+   }
+   &&
+   (H^{\mathrm{ev}}\mathbb{Q})^{2n}
+   \ar[dd]
+   \\
+   && &
+   (\mathrm{KU}/\mathbb{S})^{n}
+   \ar[dr]
+     |-{
+       \;\mathrm{ch}/\mathbb{S}\;
+     }
+   \\
+   && &&
+   \big(
+     (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}
+   \big)^{2n}
+\end{xymatrix}
+
+\end{definition}
+
+
+\begin{lemma}\label{DiagrammaticecInvariantTakesIntegerLattiveValues}
+The values of the lifted e-invariant from Def. \ref{LiftedEInvariantDiagrammatically} for fixed [[Cohomotopy]] class $[c]$ form an integer lattice inside the rational numbers:
+
+$$
+  \widehat e_{\mathrm{KU}}
+  \Big(
+    [c],
+    \big[
+      H^{\mathrm{KU}}_{2d-1}\!(c)
+    \big]
+  \Big)
+  -
+  \widehat e_{\mathrm{KU}}
+  \Big(
+    [c],
+    \big[
+      {H}^\prime{}^{\mathrm{KU}}_{2d-1}\!(c)
+    \big]
+  \Big)
+  \;\in\;
+  \mathbb{Z}
+$$
+\end{lemma}
+\begin{proof}
+Using the same three ingredients that enter Def. \ref{LiftedEInvariantDiagrammatically}, we paste together the following commuting diagram, all whose rows are [[short exact sequence|exact]]:
+
+\begin{xymatrix@R=16pt}
+    \mathbb{Z}
+    \;
+    \ar[rr]
+    \ar@{=}[d]
+    &&
+    H^{\mathrm{KU}}_{2n-1}\mbox{Fluxes}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar@{=}[d]
+    &&
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar@{=}[d]
+    \\
+    \widetilde { \mathrm{KU} }{}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar[dd]|-{
+      \mathclap{\phantom{\vert^{\vert}}}
+      \mathrm{ch}
+      \mathclap{\phantom{\vert_{\vert}}}
+    }
+    &&
+    \big(\widetilde { (\mathrm{KU}/\mathbb{S}) }\big){}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \mathrm{ch}/\mathbb{S}
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \ar[rr]
+    &&
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar@{=}[dd]
+    \\
+    &&
+    &
+    \\
+    \big(
+      \widetilde {H^{\mathrm{ev}}\mathbb{Q}}
+    \big){}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar@{=}[d]
+    \ar[rr]
+    &&
+    \big(
+      \widetilde { (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S} }
+    \big){}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar[d]
+      |-{
+      \hspace{2.7pt}
+      \scalebox{.7}{
+        \rotatebox{-90}{$
+          \,
+          \simeq
+          \,
+        $}
+      }
+      }
+      _{\mathrm{spl}_0}
+    &&
+    \widetilde {\mathbb{S}}{}^{2n+1}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar@{=}[d]
+    \\
+    \mathbb{Q}
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \mathbb{Q}
+    \oplus
+    \mathbb{S}_{2d-1}
+    \ar@{->>}[rr]
+    &&
+    \mathbb{S}_{2d-1}
+\end{xymatrix}
+\end{proof}
+
+Hence we have a diagrammatic construction of an invariant of $[c]$ in
+$\mathbb{Q}/\mathbb{Z}$. It just remains to see that this actually coincides with the classical Adams invariant:
 
 
 \linebreak
 
-### Reproducing the classical e-invariant
+### Recovering Adams's construction
+  {#DiagrammaticEInvariantRecoveringAdamsConstruction}
 
-Besides inspection of a single homotopy-pasting diagram below, we will just need the following technical lemma:
+Besides inspection of the defining homotopy-pasting diagram below, we just need the following technical lemma:
 
 \begin{lemma}
   \label{identifyingCofiberRationalCohomoloyOfCofiberSpace}
@@ -2859,7 +3196,9 @@ From this, the remaining entry must be
 
 \end{proof}
 
-Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]], where $V_{2n}$ classifies any choice of trivialization of $c^\ast \Sigma^{2n}(1^{KU})$ (see at _[d-invariant -- Trivializations of the d-invariant](d-invariant#TrivializationsOfThedInvariant)_):
+
+\begin{proposition}
+  The diagrammatic lifted $\widehat e_{\mathbb{C}}$-invariant from Def. \ref{LiftedEInvariantDiagrammatically}
 
 \begin{xymatrix@=18pt}
    S^{2(n + d)-1}
@@ -2931,13 +3270,19 @@ Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diag
    \big)^{2n}
 \end{xymatrix}
 
-By Remark \ref{CanonicalSplittingOfCofiberOfEvenPerioticQCohomoloygOverSphere} the class of this diagram over $[c]$ is a rational number, well-defined modulo integers.
+reproduces the classical $e_{\mathbb{C}}$-invariant.
+\end{proposition}
+\begin{proof}
+By Lemma  \ref{DiagrammaticecInvariantTakesIntegerLattiveValues} the class of this diagram over $[c]$ is a rational number, well-defined modulo integers.
 
 By Lemma \ref{identifyingCofiberRationalCohomoloyOfCofiberSpace} with Prop. \ref{QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace}, this number is the Adams $e_{\mathbb{C}}$-invariant.
+\end{proof}
 
 \linebreak
 
-{#ConnerFloydTheoremViaPastingDiagram}
+### Recovering Conner-Floyd's e-invariant
+ {#ConnerFloydTheoremViaPastingDiagram}
+
 With this diagrammatic formulation of the e-invariant, the Conner-Floyd theorem -- that the [[e-invariant is the Todd class of cobounding (U,fr)-manifolds]] -- follows as an immediate corollary: It just amounts to factoring the above pasting composite further through [[MU]], as follows:
 
 \begin{xymatrix@C=15pt}
@@ -3041,6 +3386,7 @@ With this diagrammatic formulation of the e-invariant, the Conner-Floyd theorem 
    \big)^{2n}
 \end{xymatrix}
 
+using that [[the rational Todd class is the Chern character of the Thom class]] and that this identification is represented by a corresponding factorization of maps of multiplicative cohomology theories, as show (e.g. [Smith 73, Section 1](rational+Todd+class+is+Chern+character+of+Thom+class#Smith73))
 
 
 \linebreak
