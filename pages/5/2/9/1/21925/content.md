@@ -111,7 +111,7 @@ Here we discuss the space of choices of trivializations of the d-invariant
   \begin{equation}
     \label{SetOfTrivializationsOfdInvariant}
     \begin{aligned}
-    H_{n-1}\!Fluxes^E\!\big( S^{n+d-1} \big)
+    H^E_{n-1}\!Fluxes\!\big( S^{n+d-1} \big)
     &
     \;\coloneqq\;
     \underset{
@@ -138,7 +138,7 @@ Here we discuss the space of choices of trivializations of the d-invariant
   of a trivialization (if any) of its
   [[d-invariant]] $c^\ast(1^E)$ in $E$-cohomology.    
 
-So an element of $H_{n-1}\!Fluxes^E\!\big( S^{n+d-1} \big)$ (eq:SetOfTrivializationsOfdInvariant) is the [[2-homotopy]] class relative the boundary of a [[homotopy coherent diagram]]of the following form:
+So an element of $H^E_{n-1}\!Fluxes\!\big( S^{n+d-1} \big)$ (eq:SetOfTrivializationsOfdInvariant) is the [[2-homotopy]] class relative the boundary of a [[homotopy coherent diagram]]of the following form:
 
 \begin{xymatrix@C=75pt@R=36pt}
       S^{n+d-1}
@@ -338,7 +338,7 @@ For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overse
           \end{tabular}
         }
       }}{
-      H_{n-1}\mbox{\rm{Fluxes}}^E\!
+      H^E_{n-1}\mbox{\rm{Fluxes}}\!
       \big(
         S^{n + d - 1}
       \big)
@@ -356,7 +356,7 @@ For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overse
           G^{\mathbb{S}}_n\!(c)
         \big]
       &
-      \widetilde {\mathbb{S}}{}^{n}
+      G^{\mathbb{S}}_n\mathrm{Fluxes}
       \big(
         S^{n+d-1}
       \big)
@@ -367,6 +367,11 @@ For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overse
   compatible with the fibrations
   of both over the underlying stable Cohomotopy classes
   $
+    G^{\mathbb{S}}_n Fluxes
+    \big(
+      S^{n+d-1}
+    \big)   
+    \;\coloneqq\; 
     \widetilde {\mathbb{S}}{}^d
     \big( S^{n + d - 1}\big)
     \,\simeq\, 
@@ -374,7 +379,7 @@ For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overse
   $.
 \end{proposition}
 
-We give two proofs: A quick abstract one and a more explicit one. The latter is close to the old argument of [Conner-Floyd 66, Thm. 16.2](MUFr#ConnerFloyd66) (there for $E/\mathbb{S} = $ [[MUFr]], see [this section](MUFr#RelationToMUAndFr) for more).
+We give two proofs: A quick abstract one and a more explicit one that proceeds via classes on the cofiber space of $c$. The latter is close to the old argument of [Conner-Floyd 66, Thm. 16.2](MUFr#ConnerFloyd66) (there for $E/\mathbb{S} = $ [[MUFr]], see [this section](MUFr#RelationToMUAndFr) for more).
 
 \begin{proof}\label{QuickAbstractProof}[quick abstract]
 
