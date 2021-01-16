@@ -1161,6 +1161,9 @@ such that:
    $$
 
    is a [[long exact sequence]] of [[abelian groups]].
+ 
+  (see at _[[long exact sequence in generalized homology]]_)
+
 
 1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism
 
