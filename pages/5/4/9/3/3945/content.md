@@ -24,6 +24,7 @@ Just as a [[derivator]] is a notion which lies in between a [[model category]] o
 Stable derivators are a useful refinement of triangulated categories, since they contain enough information so that [[homotopy limit]] and colimit constructions can be performed "coherently" and desired maps and objects can be specified by true universal properties.  This resolves many common issues with triangulated categories stemming from the fact that at the level of a homotopy category, certain desirable maps can only be stipulated to exist with some weak properties, but not characterized precisely among the class of maps that have those properties.
 
 ## Definition
+ {#Definition}
 
 As is the case for [[stable (∞,1)-categories]], being stable is a [[stuff, structure, property|property]] of a derivator rather than a structure (or more precisely, it is a [[property-like structure]]).  In fact, an $(\infty,1)$-category is stable precisely when its underlying derivator is.
 
