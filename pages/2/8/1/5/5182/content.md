@@ -75,6 +75,8 @@ Then there is also the
 
 * [[stable (infinity,1)-category]]
 
+* [[Spectra]]
+
 ## References
 
 The [[Bousfield-Friedlander model structure]] on [[sequential spectra]] in [[simplicial sets]] is due to
