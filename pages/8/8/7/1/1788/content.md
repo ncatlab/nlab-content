@@ -1,3 +1,18 @@
+ 
+spldf s;ldk fsdfl
+
+* s;dlf sd;f
+
+* sdfls;df 'sf;l
+
+* d;lf'sf;dl sd'fl;
+
+;ldf 'sf;dl s'dfl;
+
+'sf;ld s'f;dl 
+
+
+
 $F:\: \mathcal{C} \to \mathcal{D}$
 
 
