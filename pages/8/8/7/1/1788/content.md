@@ -1,15 +1,34 @@
  
-spldf s;ldk fsdfl
+In these item lists, the first items on the _second_ level have too little vertical spacing above them:
 
-* s;dlf sd;f
+* aaa
 
-* sdfls;df 'sf;l
+  * aab
 
-* d;lf'sf;dl sd'fl;
+  * abb
 
-;ldf 'sf;dl s'dfl;
+* bbb
 
-'sf;ld s'f;dl 
+  * bbc
+
+* ccc
+
+
+* [[category]]
+
+  * [[enriched category]]
+
+* [[functor]]
+
+* [[natural transformation]]
+
+and this one:
+
+* [[long exact sequence in homology]]
+
+  * [[long exact sequence in chain homology]]
+
+* [[long exact sequence of homotopy groups]]
 
 
 
