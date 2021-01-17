@@ -224,6 +224,83 @@ This perspective on the $Ext^n$-group as being the [[homotopy classes]] of maps 
 
 ## Properties
 
+### Basic properties
+ {#BasicProperties}
+
+\begin{proposition}
+  \label{ExtCompatibleWithDirectSumsAndProducts}
+
+For all $n \in \mathbb{N}$ and $R \in Rings$, the $Ext^n_R(-,-)$-functor sends [[direct sums]] in the first variable and [[direct products]] in the second variable to direct products:
+
+$$
+  Ext^n_R
+  \big( 
+    \oplus_i A_i 
+    \,,\, 
+    B  
+  \big)
+  \;\simeq\;
+  \prod_i 
+  Ext^n_R
+  \big( 
+    A_i 
+    \,,\, 
+    B  
+  \big)
+$$
+
+and
+
+
+$$
+  Ext^n_R
+  \big( 
+    A
+    \,,\, 
+    \prod_i B_i
+  \big)
+  \;\simeq\;
+  \prod_i 
+  Ext^n_R
+  \big( 
+    A
+    \,,\, 
+    B_i  
+  \big)
+  \,.
+$$
+
+\end{proposition}
+
+(e.g. [Weibel, Prop. 3.3.4](#Weibel))
+
+In particular, $Ext^n_R$ preserves the [[finite colimit|finite]] [[coproduct]] (a [[biproduct]]) in both variables:
+
+$$
+  Ext^n_R
+  \big( 
+    A
+    \,,\, 
+    B_1 \oplus B_2
+  \big)
+  \;\simeq\;
+  Ext^n_R
+  \big( 
+    A
+    \,,\, 
+    B_1
+  \big)
+  \oplus
+  Ext^n_R
+  \big( 
+    A
+    \,,\, 
+    B_2
+  \big)
+  \,.
+$$
+
+
 ### Relation to extensions
  {#RelationToGroupExtensions}
 
