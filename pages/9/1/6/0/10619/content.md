@@ -2631,7 +2631,7 @@ Consider the diagram which is the image under $\pi_0 \mathrm{Maps}^{\ast/}(-,-)$
       \vdots
 \end{xymatrix}
 
-In this diagram all rows and columns are exact (since $\mathrm{Maps}^{\ast/}$ sends both homotopy cofiber sequences in the first argument as well as homotopy fiber sequences in the second argument to homotopy fiber sequences, and  using that these induce [[long exact sequences of homotopy groups]]).
+In this diagram all rows and columns are [[long exact sequences of generalized cohomology groups]] (since $\mathrm{Maps}^{\ast/}$ sends both homotopy cofiber sequences in the first argument as well as homotopy fiber sequences in the second argument to homotopy fiber sequences, and  using that these induce [[long exact sequences of homotopy groups]]).
 
 By the definition (or [[Brown representability theorem|characterization]]) of  [[reduced cohomology|reduced]] [[Whitehead-generalized cohomology theory|generalized cohomology]] [[cohomology group|groups]], this diagram is equal (in the sector shown) to the following [[commuting diagram]] of [[abelian groups]]:
 
