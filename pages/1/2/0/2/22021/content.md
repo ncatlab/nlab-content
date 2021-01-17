@@ -22,4 +22,20 @@ see:
 category: disambiguation
 
 
-[[!redirects long exact sequence in cohomoloy]]
+[[!redirects long exact sequences in homology]]
+
+[[!redirects long exact sequence in cohomology]]
+[[!redirects long exact sequences in cohomology]]
+
+[[!redirects homology exact sequence]]
+[[!redirects homology exact sequences]]
+
+[[!redirects cohomology exact sequence]]
+[[!redirects cohomology exact sequences]]
+
+[[!redirects homology long exact sequence]]
+[[!redirects homology long exact sequences]]
+
+[[!redirects cohomology long exact sequence]]
+[[!redirects cohomology long exact sequences]]
+
