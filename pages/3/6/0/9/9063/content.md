@@ -59,6 +59,10 @@ For a concrete counterexample, consider the short exact squence $0 \to \mathbb{Z
 
 ## Related concepts
 
+* [[long exact sequence in homology]]
+
+  * [[long exact sequence in generalized homology]]
+
 * [[stable (∞,1)-category]]
 
 [[!redirects cofiber sequences]]
@@ -70,6 +74,12 @@ For a concrete counterexample, consider the short exact squence $0 \to \mathbb{Z
 [[!redirects homotopy cofiber sequences]]
 [[!redirects homotopy cofibre sequence]]
 [[!redirects homotopy cofibre sequences]]
+
+[[!redirects long homotopy cofiber sequence]]
+[[!redirects long homotopy cofiber sequences]]
+[[!redirects long homotopy cofibre sequence]]
+[[!redirects long homotopy cofibre sequences]]
+
 
 [[!redirects homotopy cofiber]]
 [[!redirects homotopy cofibers]]
