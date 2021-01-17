@@ -34,6 +34,8 @@ see:
 
 * [[long exact sequence of homotopy groups]]
 
+* [[Serre spectral sequence]]
+
 category: disambiguation
 
 
