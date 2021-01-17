@@ -1303,13 +1303,13 @@ This produces $e_{\mathbb{R}}$, the [[Adams e-invariant]] with respect to [[KO]]
 
 > under construction -- not complete yet
 
-The following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant (following [[schreiber:M-Theory as Mf-Theory|SS21]]). This perspective makes various facts immediately manifest, notably the equality between Adams's construction via the Chern character on [[KU]] and Conner-Floyd's construction via the Todd character on [[MUFr]]. 
+While the Adams e-invariant of a map exists when the its [[d-invariant]] vanishes, the classical constructions above implicitly proceed via a finer invariant of maps _equipped with a trivialization_ of their d-invariant. In order to bring this out more explicitly, the following is meant to be another, more abstractly homotopy theoretic, way to approach the construction of the e-invariant (following [[schreiber:M-Theory as Mf-Theory|SS21]]). This perspective turns out to make various properties immediately manifest, notably the equality between Adams's construction via the Chern character on [[KU]] and Conner-Floyd's construction via the Todd character on [[MUFr]]. 
 
 1. [Preliminaries](#DiagrammaticConstructionPreliminaries)
 
 1. [Unit cofiber cohomology theory](#UnitCofiberCohomologyTheory)
 
-1. [The diagrammatic e-invariant](#TheDiagrammaticEInvariant)
+1. [The refined e-invariant](#TheDiagrammaticEInvariant)
 
 1. [Recovering Adams's construction](#DiagrammaticEInvariantRecoveringAdamsConstruction)
 
@@ -1705,7 +1705,7 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$ (which is multiplicative
 
 \begin{lemma}
   \label{CofiberECohomologyAsExtensionOfStableCohomotopyByECohomology}
-  [Cofiber $E$-cohomology as extension of stable Cohomotopy by $E$-cohomology]
+  (Cofiber $E$-cohomology as extension of stable Cohomotopy by $E$-cohomology)
 
   For $E$ a [[multiplicative cohomology theory]] and
   $X$ a space, assume that the
@@ -1788,7 +1788,7 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$ (which is multiplicative
 
 
 
-### The diagrammatic e-invariant
+### The refined e-invariant
  {#TheDiagrammaticEInvariant}
 
 \begin{proposition}\label{EFluxesAreCocycleInCofiberTheory}
@@ -2211,7 +2211,7 @@ It only remains to see that this map is bijective over any $\big[\Sigma^\infty c
 
 \begin{definition}
   \label{LiftedEInvariantDiagrammatically}
-The _lifted e-invariant_ $\widehat e_{\mathbb{C}}$ is the composite of 
+The _refined e-invariant_ $\widehat e_{KU}$ is the composite of 
 
 1. the equivalence from Prop. \ref{EFluxesAreCocycleInCofiberTheory} for $E = $ [[KU]],
 
@@ -2405,7 +2405,7 @@ to the class of this pasting composite:
 
 
 \begin{lemma}\label{DiagrammaticecInvariantTakesIntegerLattiveValues}
-The values of the lifted e-invariant from Def. \ref{LiftedEInvariantDiagrammatically} for fixed [[Cohomotopy]] class $[c]$ form an integer lattice inside the rational numbers:
+The values of the refined e-invariant from Def. \ref{LiftedEInvariantDiagrammatically} for fixed [[Cohomotopy]] class $[c]$ form an integer lattice inside the rational numbers:
 
 $$
   \widehat e_{\mathrm{KU}}
@@ -2428,7 +2428,7 @@ $$
 $$
 \end{lemma}
 \begin{proof}
-Using the same three ingredients that enter Def. \ref{LiftedEInvariantDiagrammatically}, we paste together the following commuting diagram, all whose rows are [[short exact sequence|exact]]:
+Using the same three ingredients that enter Def. \ref{LiftedEInvariantDiagrammatically}, we paste together the following [[commuting diagram]], whose vertical middle composite is the refined $\widehat e_{KU}$-invariant:
 
 \begin{xymatrix@R=16pt}
     \mathbb{Z}
@@ -2527,6 +2527,17 @@ Using the same three ingredients that enter Def. \ref{LiftedEInvariantDiagrammat
     &&
     \mathbb{S}_{2d-1}
 \end{xymatrix}
+
+Now observe that:
+
+1. by Lemma \ref{CofiberECohomologyAsExtensionOfStableCohomotopyByECohomology} the middle rows of this diagram are [[short exact sequence|exact]];
+
+1. the left vertical map is the canonical [[injection]], since the [[Chern character]] is multiplicative, and in particular respects the unit.
+
+By (1) the difference between any two choices of trivializations of the d-invariant (of $H^E_{n-1}$-fluxes) is an integer in the top left, and by (2) this translates to an integer difference between their $\widehat e$-invariants as we pass to the bottom of the diagram.
+
+
+
 \end{proof}
 
 Hence we have a diagrammatic construction of an invariant of $[c]$ in
@@ -3567,7 +3578,7 @@ From this, the remaining entry must be
 
 
 \begin{proposition}
-  The diagrammatic lifted $\widehat e_{\mathbb{C}}$-invariant from Def. \ref{LiftedEInvariantDiagrammatically}
+  The refined $\widehat e_{\mathbb{C}}$-invariant from Def. \ref{LiftedEInvariantDiagrammatically}
 
 \begin{xymatrix@=18pt}
    S^{2(n + d)-1}
