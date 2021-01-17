@@ -357,11 +357,11 @@ then the corresponding **[[connecting homomorphism]]** is the composite
 $$
   \partial
     \;\colon\;
-  E^\bullet(X)
+  \widetilde E^\bullet(X)
    \stackrel{\sigma}{\longrightarrow}
-  E^{\bullet+1}(\Sigma X)
+  \widetilde E^{\bullet+1}(\Sigma X)
    \stackrel{coker(g)^\ast}{\longrightarrow}
-  E^{\bullet+1}(Z)
+  \widetilde E^{\bullet+1}(Z)
   \,.
 $$
 
@@ -370,18 +370,18 @@ $$
 +-- {: .num_prop #LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
 ###### Proposition
 
-The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]]
+The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]] (the _[[long exact sequences in generalized cohomology]]_):
 
 $$
   \cdots
    \stackrel{\partial}{\longrightarrow}
-  E^{\bullet}(Z)
+  \widetilde E^{\bullet}(Z)
     \longrightarrow
-  E^\bullet(Y)
+  \widetilde E^\bullet(Y)
     \longrightarrow
-  E^\bullet(X)
+  \widetilde  E^\bullet(X)
     \stackrel{\partial}{\longrightarrow}
-  E^{\bullet+1}(Z)
+  \widetilde  E^{\bullet+1}(Z)
    \to \cdots
   \,.
 $$
@@ -392,7 +392,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\sigma$ is by definition an isomorphism.
+By the defining exactness of $\widetilde  E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\sigma$ is by definition an isomorphism.
 
 =--
 
@@ -721,7 +721,7 @@ Apply the [[braid lemma]] to the interlocking long exact sequences of the three 
 See [here](braid+lemma#ExactSequenceForTripleInGeneralizedHomology) for details.
 
 
-=---
+=--
 
 +-- {: .num_remark}
 ###### Remark
