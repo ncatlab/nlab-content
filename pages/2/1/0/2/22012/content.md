@@ -9,7 +9,11 @@ On the [[Eilenberg-Moore spectral sequence]]:
 
 * [[Larry Smith]], _On the construction of the Eilenberg-Moore spectral sequence_, Bull. Amer. Math. Soc. 75 (1969), 873-878 ([euclid:bams/1183530666](https://projecteuclid.org/euclid.bams/1183530666))
 
-On the [[Todd character]]:
+On [[MU]] and introducing the [[Todd character]]:
+
+* [[Pierre Conner]], [[Larry Smith]],  _On the complex bordism of finite complexes. II_, J. Differential Geom. Volume 6, Number 2 (1971), 135-174 ([euclid:euclid.ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
+
+More on the [[Todd character]]:
 
 * [[Larry Smith]], _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
 
