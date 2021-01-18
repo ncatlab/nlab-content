@@ -171,9 +171,14 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
 
-Review in
+Review:
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_ ([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
+
+But see:
+
+* Anna Karlsson, _Concerns about the replica wormhole derivation of the island conjecture_ ([arXiv:2101.05879](https://arxiv.org/abs/2101.05879))
+
 
 
 ### Relation to weight systems on chord diagrams
