@@ -18,7 +18,7 @@
 
 ## Idea
 
-In joint generalization of the [[cobordism cohomology theories]] [[MU]] and [[MFr]] of [[closed manifold|closed]] $U$-manifolds and of $Fr$-manifolds, respectively, a _$(U,fr)$-manifold_ ([Conner-Floyd 66, Section 16](#ConnerFloyd66)) is a [[compact topological space|compact]] [[manifold with boundary]] equipped with [[unitary group]]-[[tangential structure]] on its [[stable tangent bundle]] and equipped with a [[trivial vector bundle|trivialization]] (stable [[framed manifold|framing]]) of that over the [[boundary]].
+In joint generalization of the [[cobordism cohomology theories]] [[MU]] and [[MFr]] of [[closed manifold|closed]] $U$-manifolds and of $Fr$-manifolds, respectively, a _$(U,fr)$-manifold_ ([Conner-Floyd 66, Section 16](#ConnerFloyd66), [Conner-Smith 69, Sections 6, 13](#ConnerSmith69)) is a [[compact topological space|compact]] [[manifold with boundary]] equipped with [[unitary group]]-[[tangential structure]] on its [[stable tangent bundle]] and equipped with a [[trivial vector bundle|trivialization]] (stable [[framed manifold|framing]]) of that over the [[boundary]].
 
 The corresponding [[bordism classes]] form a [[bordism ring]] denoted $\Omega^{\mathrm{U},fr}_\bullet$.
 
@@ -47,7 +47,7 @@ In generalization to how the complex [[cobordism ring]] $\Omega^U_{2k}$ is repre
 
 ([Conner-Floyd 66, p. 97](#ConnerFloyd66))
 
-Hence the representing spectrum $M(\mathrm{U},fr)$ is the [[homotopy cofiber]] of the [[ring spectrum]] unit $1^{M\mathrm{U}} \;\colon\; \mathbb{S} \longrightarrow M \mathrm{U}$ out of the [[sphere spectrum]], which one might naturally denote 
+Hence the representing spectrum $M(\mathrm{U},fr)$ is the [[homotopy cofiber]] of the [[ring spectrum]] unit $1^{M\mathrm{U}} \;\colon\; \mathbb{S} \longrightarrow M \mathrm{U}$ out of the [[sphere spectrum]] ([Conner-Smith 69, p. 156 (41 of 106)](#ConnerSmith69), [Smith 71](#Smith71)) which deserves to be denoted
 
 $$
   M(\mathrm{U},fr)
@@ -225,7 +225,7 @@ The following is the complete and quick proof using the formulation (eq:Boundary
 +-- {: .proof}
 ###### Proof
 
-We have the [[long exact sequence of homotopy groups]] obtained from the [[cofiber sequence]] $\mathbb{S} \overset{1^{M\mathrm{U}}}{\longrightarrow} M \mathrm{U} \to M \mathrm{U}/\mathbb{S} \overset{\partial}{\to} \Sigma \mathbb{S}$ (eq:BoundaryOperationViaPastingLaw), the relevant part of which looks as follows:
+We have the [[long exact sequence of homotopy groups]] ([[long exact sequence in generalized cohomology]] on [[spheres]])  obtained from the [[cofiber sequence]] $\mathbb{S} \overset{1^{M\mathrm{U}}}{\longrightarrow} M \mathrm{U} \to M \mathrm{U}/\mathbb{S} \overset{\partial}{\to} \Sigma \mathbb{S}$ (eq:BoundaryOperationViaPastingLaw), the relevant part of which looks as follows:
 
 \[
   \label{SToMULongExactSequenceOfHomotopyGroups}
@@ -489,9 +489,23 @@ The concept of $(U,fr)$-bordism theory and its relation to the [[e-invariant]] o
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 16 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
+* {#ConnerSmith69} [[Pierre Conner]], [[Larry Smith]], Section 6 of: _On the complex bordism of finite complexes_, Publications Mathématiques de l'IHÉS, Tome 37 (1969) , pp. 117-221 ([numdam:PMIHES_1969__37__117_0](http://www.numdam.org/item/?id=PMIHES_1969__37__117_0))
+
+Analogous discussion for [[MO]]-bordism with [[MSO]]-boundaries:
+
+* G. E. Mitchell, _Bordism of Manifolds with Oriented Boundaries_, Proceedings of the American Mathematical Society Vol. 47, No. 1 (Jan., 1975), pp. 208-214 ([doi:10.2307/2040234](https://doi.org/10.2307/2040234))
+
+
+
 Analogous discussion for [[MOFr]] is in 
 
 * {#Stong68} [[Robert Stong]], p. 102 of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
+
+See also
+
+
+* {#Smith71} [[Larry Smith]], _On characteristic numbers of almost complex manifolds with framed boundaries_, Topology Volume 10, Issue 3, August 1971, Pages 237-256 (<a href="https://doi.org/10.1016/0040-9383(71)90008-5">doi:10.1016/0040-9383(71)90008-5</a>)
+
 
 Generalization to [[manifolds with corners]] and relation to the [[f-invariant]]:
 
