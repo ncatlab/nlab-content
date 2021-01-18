@@ -140,6 +140,12 @@ If the apparent small positive [[cosmological constant]] were but an artifact of
 
 ## References
 
+### General
+
+Introduction and review:
+
+* Konstantinos Xenos, _An Introduction to FRW Cosmology and dark energy models_ ([arXiv:2101.06135](https://arxiv.org/abs/2101.06135))
+
 ### Observation
 
 (...)
