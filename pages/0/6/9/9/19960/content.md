@@ -1111,7 +1111,11 @@ Application to [[meson]] physics:
 
 Application to [[quarkonium]]:
 
+* Hovhannes R. Grigoryan, Paul M. Hohler, Mikhail A. Stephanov, _Towards the Gravity Dual of Quarkonium in the Strongly Coupled QCD Plasma_ ([arXiv:1003.1138](http://arxiv.org/abs/1003.1138))
+
 * Rico Zöllner, Burkhard Kampfer, _Holographic vector meson melting in a thermal gravity-dilaton background related to QCD_ ([arXiv:2002.07200](https://arxiv.org/abs/2002.07200))
+
+* Miguel Angel Martin Contreras, Saulo Diles, Alfredo Vega, _Heavy quarkonia spectroscopy at zero and finite temperature in bottom-up AdS/QCD_ ([arXiv:2101.06212](https://arxiv.org/abs/2101.06212))
 
 
 
