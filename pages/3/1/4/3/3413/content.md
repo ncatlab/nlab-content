@@ -21,6 +21,14 @@ This book introduced the notion of [[weak Kan complex]] that was later populariz
 See also: _Homotopy invariant algebraic structures_: _a conference in honor of J. Michael Boardman_ edited by Jean-Pierre Meyer, Jack Morava, and W. Stephen Wilson. AMS, 1999, CONM/239.
 
 
+## Selected writings
+
+Introducing the [[Boardman homomorphism]]:
+
+* [[J. Michael Boardman]], _The eightfold way to BP-operations_, in: _Current trends in algebraic topology_, pp. 187–226, Canadian Mathematical Society Proceedings, 2, Part 1.  Providence 1982 ([ISBN:978-0-8218-6003-8](https://bookstore.ams.org/cmsams-2))
+
+
+
 ## Related entries
 
 * [[stable homotopy category]], [[smash product of spectra]]
@@ -52,4 +60,5 @@ category:people
 [[!redirects Boardman]]
 [[!redirects J. M. Boardman]]
 [[!redirects John Michael Boardman]]
+[[!redirects J. Michael Boardman]]
 
