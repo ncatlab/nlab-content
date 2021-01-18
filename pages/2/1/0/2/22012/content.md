@@ -11,6 +11,10 @@ On the [[Eilenberg-Moore spectral sequence]]:
 
 On the [[Todd character]]:
 
-* [[Larry Smith]], Section 1 of: _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
+* [[Larry Smith]], _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
+
+* [[Larry Smith]], _The Todd character and cohomology operations_, Advances in Mathematics Volume 11, Issue 1, August 1973, Pages 72-92 (<a href="https://doi.org/10.1016/0001-8708(73)90003-0">doi:10.1016/0001-8708(73)90003-0</a>)
+
+
 
 category:people
