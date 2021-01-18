@@ -1702,6 +1702,78 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$ (which is multiplicative
 
 where on the left we used our assumption that $d \neq 0$.
 
+We will use this canonical splitting together with the  canonical splitting of the even rational cohomology of a cofiber space 
+$S^{2(n+d)-1} \xrightarrow{ \;c\; } S^{2n} \xrightarrow{ \;\; } C_c$
+given by the splitting into degrees $2(n+d)$ and $2n$
+
+\begin{xymatrix@C=8pt}
+    0
+    \ar[r]
+    &
+    \big(
+      \widetilde {H^{\mathrm{ev}}\mathbb{Q}}
+    \big)
+    {}^{2n}
+    \big(
+      S^{2(n+d)}
+    \big)
+    \ar[rr]
+    \ar@{=}[d]
+    &&
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}
+    {}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[rr]
+    \ar[d]
+      |-{
+      \hspace{2.7pt}
+      \scalebox{.7}{
+        \rotatebox{-90}{$
+          \,
+          \simeq
+          \,
+        $}
+      }
+      }
+      _{\mathrm{spl}_0}
+    &&
+    \widetilde {(H^{\mathrm{ev}}\mathbb{Q})}
+    {}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    \ar[r]
+    \ar@{=}[d]
+    &
+    0
+    \\
+    0
+    \ar[r]
+    &
+    \mathbb{Q}
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \mathbb{Q}
+    \oplus
+    \mathbb{Q}
+    \ar@{->>}[rr]
+    &&
+    \mathbb{Q}
+    \ar[r]
+    &
+    0
+    \,,
+\end{xymatrix}
+
+which is induced in the same fashion from the inclusion $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$.
+
+Both of these splittings are hence characterized by the fact that 
+their corresponding retraction (see [there](split+exact+sequence#InAbelianCategory)) is 
+*projection onto rational cohomology in degree $2(n+d)$*.
+
 \end{remark}
 
 
@@ -2559,8 +2631,9 @@ Besides inspection of the defining homotopy-pasting diagram below, we just need 
   Given non-trivial 
   $\big[ S^{2(n+d)-1} \xrightarrow{\;c\;} S^{2n}\big] 
   \,\in \, \mathbb{S}_{2d-1}$
-  for any $n,d \in \mathbb{N}$ with $d \geq 1$, we have 
-  the following diagonal isomorphisms
+  for any $n,d \in \mathbb{N}$ with $d \geq 1$, 
+  we have a [[commuting diagram]] of the following form:
+
   \begin{xymatrix@=7pt}
       &&
       \big(
@@ -2575,7 +2648,7 @@ Besides inspection of the defining homotopy-pasting diagram below, we just need 
           p^\ast
           \mathclap{\phantom{\vert_{\vert}}}
         }
-      \ar@{=}[dr]
+      \ar@{=}[dr]|-{ \;\mathrm{spl}_0\; }
       \\
       &&
       &
@@ -2600,7 +2673,7 @@ Besides inspection of the defining homotopy-pasting diagram below, we just need 
       \big(
         C_c
       \big)
-      \ar@{=}[dr]
+      \ar@{=}[dr]|-{ \;\mathrm{spl}_0\; }
       \ar[rr]|-{ \;i_\ast\; }
       &&
       \big(
@@ -2636,11 +2709,19 @@ Besides inspection of the defining homotopy-pasting diagram below, we just need 
         \oplus'
         \mathbb{S}_{2d-1}/\mathbb{Z}
       \big)
-      \,.
+      \,,
   \end{xymatrix}
 \end{lemma}
 
 Here:
+
+* The  rear morphisms are pushforward along
+  the projection $E \xrightarrow{i} E/\mathbb{S}$        
+  and pullback along $C_c \xrightarrow{p} S^{2(n+d)}$,
+  respectively;
+
+* $\mathrm{spl}_0$ denotes the canonical isomorphisms
+  from Remark \ref{CanonicalSplittingOfCofiberOfPeriodicRationalCohomology};
 
 * $\mathbb{S}_{2d-1}/\mathbb{Z}$ denotes the [[cofiber]] of $\mathbb{Z} \xrightarrow{\;c\;} \mathbb{S}_{2d-c}$;
 
@@ -3168,7 +3249,7 @@ Now recognizing [[split exact sequences]] using the vanishing [[Ext]]-groups $Ex
     }}
     \hspace{-50pt}
     \mathclap{
-      \color{blue}
+      \color{magenta}
       \mathbb{Q} \oplus \mathbb{S}_{2d-1}
     }
     \hspace{+50pt}
@@ -3221,7 +3302,7 @@ Now recognizing [[split exact sequences]] using the vanishing [[Ext]]-groups $Ex
     }}
     \hspace{-35pt}
     \mathclap{
-      \color{blue}
+      \color{magenta}
       \mathbb{Q} \oplus \mathbb{Q}
     }
     \hspace{+35pt}
@@ -3342,6 +3423,9 @@ Now recognizing [[split exact sequences]] using the vanishing [[Ext]]-groups $Ex
     }
     \hspace{+52pt}
 \end{xymatrix}
+Here the two identifications shown in magenta
+we may *choose to be the canonical ones*
+from Remark \ref{CanonicalSplittingOfCofiberOfPeriodicRationalCohomology}.
 
 From this, and using again $\mathrm{Ext}^1(-,\mathbb{Q}) = 0$
 together with 
