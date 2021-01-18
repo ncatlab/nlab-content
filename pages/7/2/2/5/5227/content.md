@@ -116,6 +116,8 @@ where $SSMC$ is the category of [[symmetric monoidal category|strict symmetric m
 
 ## References
 
+* [[John Baez]], Fabrizio Genovese, [[Jade Master]], [[Michael Shulman]], _Categories of Nets_, ([arXiv:2101.04238](https://arxiv.org/abs/2101.04238))
+
 * [[G. Winskel]], M. Nielsen, _Models for concurrency_, Handbook of Logic in Computer Science vol. 3, pp. 100 -- 200, Oxford Univ. Press 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
 * [[John C. Baez]] and [[Jacob Biamonte]], _Quantum techniques in stochastic mechanics_, World Scientific, 2018. [World Scientific](https://www.worldscientific.com/worldscibooks/10.1142/10623#t=suppl) [pdf](http://math.ucr.edu/home/baez/stoch_stable.pdf)
@@ -139,7 +141,7 @@ On the categorical semantics of Petri nets:
 
 * {#functorial} [[Roberto Bruni]], [[José Meseguer]], [[Ugo Montanari]], and [[Vladimiro Sassone]]. _Functorial models for Petri nets_ Information and Computation 170, no. 2 (2001): 207-236. [pdf](https://eprints.soton.ac.uk/264742/1/prenetsIandCOff.pdf)
 
-* {#philosophy} [[Rob J. van Glabbeek]], and [[Gordon D. Plotkin]]. _Configuration structures, event structures and Petri nets_ Theoretical Computer Science 410, no. 41 (2009): 4111-4159. Available at [pdf](https://arxiv.org/abs/0912.4023)
+* {#philosophy} [[Rob J. van Glabbeek]], and [[Gordon Plotkin]]. _Configuration structures, event structures and Petri nets_ Theoretical Computer Science 410, no. 41 (2009): 4111-4159. Available at [pdf](https://arxiv.org/abs/0912.4023)
 
 [[!redirects Petri net]]
 [[!redirects Petri nets]]
