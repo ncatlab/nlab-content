@@ -420,15 +420,24 @@ See _[[Boardman homomorphism in tmf]]_
 
 Named after [[Michael Boardman]].
 
-* {#Adams74} [[John Frank Adams]], part II, section 6 of _[[Stable homotopy and generalised homology]]_ (1974)
+* {#Adams74} [[John Frank Adams]], part II, section 6 of: _[[Stable homotopy and generalised homology]]_ (1974)
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* John Hunton, _The Boardman homomorphism_, Contemporary Mathematics 181, 251-251, 1995
+
+
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Arlettaz04} Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
 
 * {#Lurie10} [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
 * [[Akhil Mathew]], _Torsion exponents in stable homotopy and the Hurewicz homomorphism_, Algebr. Geom. Topol. 16 (2016) 1025-1041 ([arXiv:1501.07561](https://arxiv.org/abs/1501.07561))
+
+
+* Hadi Zare, _On the image of the unstable Boardman map_ ([arXiv:1806.07079](https://arxiv.org/abs/1806.07079))
+
+
 
 On the [[Boardman homomorphism]] (generalized [[Hurewicz homomorphism]]) to [[tmf]]:
 
