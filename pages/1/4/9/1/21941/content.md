@@ -127,6 +127,8 @@ Discussion in terms of [[Brown representability theorem|representing]] [[ring sp
 
 * {#Smith73} [[Larry Smith]], Section 1 of: _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
 
+* Matthias Jonas Spiegel, Section 2.3.2 of: _K-Theory of Intersection Spaces_, 2013 ([doi:10.11588/heidok.00015738](https://doi.org/10.11588/heidok.00015738))
+
 
 
 [[!redirects the rational Todd class is the Chern character of the Thom class]]
