@@ -94,10 +94,17 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 ## References
 
+Introduction and survey:
+
 * [[Matthias Blau]], chapter 33 and 34 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
+
+* Konstantinos Xenos, _An Introduction to FRW Cosmology and dark energy models_ ([arXiv:2101.06135](https://arxiv.org/abs/2101.06135))
+
+  > (emphasis on [[dark energy]] and [[inflation]])
+
 
 See also:
 
