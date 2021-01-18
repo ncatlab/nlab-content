@@ -129,6 +129,9 @@ Discussion in terms of [[Brown representability theorem|representing]] [[ring sp
 
 * Matthias Jonas Spiegel, Section 2.3.2 of: _K-Theory of Intersection Spaces_, 2013 ([doi:10.11588/heidok.00015738](https://doi.org/10.11588/heidok.00015738))
 
+also
+
+* {#ConnerSmith69} [[Pierre Conner]], [[Larry Smith]], Section 9 of: _On the complex bordism of finite complexes_, Publications Mathématiques de l'IHÉS, Tome 37 (1969) , pp. 117-221 ([numdam:PMIHES_1969__37__117_0](http://www.numdam.org/item/?id=PMIHES_1969__37__117_0))
 
 
 [[!redirects the rational Todd class is the Chern character of the Thom class]]
