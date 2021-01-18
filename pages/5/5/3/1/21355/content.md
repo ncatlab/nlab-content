@@ -32,6 +32,11 @@ On the [[Dalitz decay]] of charmonium:
 
 * _Study of the Dalitz decay $J/\psi \to e^+e^- \eta$_, Phys. Rev. D 99, 012006 (2019) ([arXiv:1810.03091](https://arxiv.org/abs/1810.03091))
 
+Discussion via [[AdS/QCD]]:
+
+* Miguel Angel Martin Contreras, Saulo Diles, Alfredo Vega, _Heavy quarkonia spectroscopy at zero and finite temperature in bottom-up AdS/QCD_ ([arXiv:2101.06212](https://arxiv.org/abs/2101.06212))
+
+
 [[!redirects charmonia]]
 
 [[!redirects J/ψ-meson]]
