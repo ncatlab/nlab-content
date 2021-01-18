@@ -205,6 +205,8 @@ Original articles:
 
 On the Todd character:
 
+* [[Pierre Conner]], [[Larry Smith]], Section 7 of: _On the complex bordism of finite complexes. II_, J. Differential Geom. Volume 6, Number 2 (1971), 135-174 ([euclid:euclid.ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
+
 
 * [[Larry Smith]], Section 1 of: _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
 
