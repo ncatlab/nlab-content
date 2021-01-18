@@ -318,4 +318,7 @@ Here the two outermost morphisms shown are [[zero morphisms]], by Prop. \ref{Pos
 
 * {#Stong68} [[Robert Stong]], p. 102-106 of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
 
+Analogous discussion for [[MO]]-bordism with [[MSO]]-boundaries:
+
+* G. E. Mitchell, _Bordism of Manifolds with Oriented Boundaries_, Proceedings of the American Mathematical Society Vol. 47, No. 1 (Jan., 1975), pp. 208-214 ([doi:10.2307/2040234](https://doi.org/10.2307/2040234))
 
