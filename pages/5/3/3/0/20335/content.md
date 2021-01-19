@@ -32,9 +32,14 @@ Another desirable property is that the diagonal map $\Delta_I\colon I \to I\otim
 
 ## Examples
 
+### General
+
 * Any [[cartesian monoidal category]] has a canonical structure of diagonal maps given by the actual [[diagonal morphisms]].
 
-* The category of [[pointed sets]] with [[smash product]] is a monoidal category with diagonals, taking the diagonal maps to be the composites $X\stackrel{\Delta}{\to} X\times X \to X \wedge X$, where $X\times X \to X\wedge X$ is the defining quotient map for the smash product.
+
+[[!include smash-monoidal diagonals -- section]]
+
+
 
 ## Related concepts
 
@@ -54,6 +59,7 @@ The stronger notion of relevance monoidal category is discussed in
 When a [[premonoidal category]] comes equipped with a morphism $\Delta_x\colon x\to x\otimes x$ for all $x$, such as in the [[Kleisli category]] for a [[strong monad]] on a cartesian category, or in any [[Freyd category]], then the $f$ for which $(f\otimes f)\circ \Delta_x = \Delta_y \circ f$ are called "copyable".
 
 * C. Führmann. *Varieties of effects*, Proc. Fossacs 2002. Doi:[10.1007/3-540-45931-6_11](https://doi.org/10.1007/3-540-45931-6_11)
+
 
 
 [[!redirects monoidal categories with diagonals]]
