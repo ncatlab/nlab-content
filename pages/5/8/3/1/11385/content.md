@@ -67,9 +67,9 @@ The cohomology class of this $E$-cocycle on $X \times B \Sigma_n$ is the $n$-th 
 
 On [[ordinary cohomology]] over a [[topological space]], the power operations are the [[Steenrod operations]];
 
-Specifically for $n = 2$ and $E = H \mathbb{Z}_2$ then the second (symmetric) power of $a \in H(X,\mathbb{Z}_2)$ is an element in $H^\bullet(\mathbb{R}P^\infty \times X, \mathbb{Z}_2) \simeq H^\bullet(X,\mathbb{Z}_2)[x]$ and the [[coefficients]] of this [[polynomial]] in $x$ are the [[Steenrod operations]] on $a$.
+Specifically for $n = 2$ and $E = H \mathbb{Z}_2$, the second (symmetric) power of $a \in H(X,\mathbb{Z}_2)$ is an element in $H^\bullet(\mathbb{R}P^\infty \times X, \mathbb{Z}_2) \simeq H^\bullet(X,\mathbb{Z}_2)[x]$ and the [[coefficients]] of this [[polynomial]] in $x$ are the [[Steenrod operations]] on $a$.
 
-For $p \gt 2$ there are the Steenrod power operations (e.g. [Rognes 12, around theorem 3.3](#Rognes12)).
+For $p \gt 2$ there are the Steenrod power operations (e.g. [Rognes 12, around theorem 3.3](#Rognes12), quick exposition [here](https://www.math.purdue.edu/~pvankoug/talks/steenrod16.pdf#page=3)).
 
 ### Kudo-Araki-Dyer-Lashof operations
 
