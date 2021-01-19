@@ -248,14 +248,26 @@ and discussed in detail in
 * {#Bakke} T&#248;rris Kol&#248;en Bakke, _Hopf algebras and monoidal categories_ (2007) ([pdf](https://munin.uit.no/bitstream/handle/10037/1084/finalthesis.pdf))
  
 
-Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod algebra]] is in 
+Discussion in [[algebraic topology]] with an eye towards [[stable homotopy theory]], [[Steenrod algebra]] and the [[Adams spectral sequence]]:
 
-* {#Ravenel86} [[Doug Ravenel]], appendix A1 of _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+* {#Ravenel86} [[Doug Ravenel]], appendix A1 of: _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+
+* [[W. Stephen Wilson]], _Hopf rings in algebraic topology_, Expositiones Mathematicae, 18:369–388, 2000 ([pdf](https://math.jhu.edu/~wsw/papers2/math/39-hopf-rings-expo-2000.pdf))
 
 
 [[!redirects Hopf algebras]]
 
+[[!redirects Hopf ring]]
+[[!redirects Hopf rings]]
+
 [[!redirects antipode]]
+[[!redirects antipodes]]
+
 [[!redirects skew-antipode]]
+[[!redirects skew-antipodes]]
+[[!redirects skew antipode]]
+[[!redirects skew antipodes]]
+
+
 
 
