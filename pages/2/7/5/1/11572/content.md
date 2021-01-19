@@ -16,7 +16,9 @@
 
 [[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _connective cover_ construction.
 
-The analogous statement holds true for [[module spectra]] and for [[algebra spectra]] ([Baker-Richter 05](#BakerRichter05), [Lurie, prop. 7.1.3.13](#Lurie))
+The connective cover  [[(∞,1)-functor|functor]] extends from plain spectra to [[E-∞ ring spectra]] ([May 77, Prop. VII 4.3](#May77)), though besides this canonically inherited ring structure the connective cover may sometimes carry other ring structures ([Baker-Richter 05](#BakerRichter05)). 
+
+See also [Lurie, prop. 7.1.3.13](#Lurie) (?).
 
 ## Examples
 
@@ -28,9 +30,16 @@ The analogous statement holds true for [[module spectra]] and for [[algebra spec
 
 ## References
 
+For plain spectra:
+
 * {#Schwede12} [[Stefan Schwede]], chapter II, section 8, and chapter III, section 7 of _[[Symmetric spectra]]_ (2012)
 
-* {#BakerRichter05} [[Andrew Baker]], [[Birgit Richter]], _Uniqueness of $E_\infty$-structures for connective covers_ ([arXiv:math/0506422v2](http://arxiv.org/abs/math/0506422))
+For [[ring spectra]]:
+
+* {#May77} [[Peter May]], Prop. VII 4.3 in: _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_, Lecture Notes in Mathematics 577, Springer 1977 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf), [cds:1690879](https://cds.cern.ch/record/1690879))
+
+
+* {#BakerRichter05} [[Andrew Baker]], [[Birgit Richter]], _Uniqueness of $E_\infty$-structures for connective covers_,  Proc. Amer. Math. Soc. 136 (2008), 707-714  ([arXiv:math/0506422v2](http://arxiv.org/abs/math/0506422), [doi:10.1090/S0002-9939-07-08984-8](https://doi.org/10.1090/S0002-9939-07-08984-8))
 
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
