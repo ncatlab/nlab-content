@@ -26,7 +26,7 @@ A general [[monoidal category]] $(C,\otimes)$ does not admit [[diagonal]] [[natu
 
 ## Definition
 
-A consistent system of diagonal maps $\Delta_x\colon x \to x \otimes x$ as $x$ varies through the [[objects]] of a [[monoidal category]] $(C,\otimes,I)$ should be [[natural transformation|natural]], so that $(f \otimes f)\circ \Delta_x = \Delta_y \circ f$, for any $f\colon x\to y$. Hence such a system is a [[natural transformation]] from the [[identity functor]] on $C$ to the [[composition|composite]] $C \to C \times C \stackrel{\otimes}{\to} C$.
+A consistent system of diagonal maps $\Delta_x\colon x \to x \otimes x$ as $x$ varies through the [[objects]] of a [[monoidal category]] $(C,\otimes,I)$ should be [[natural transformation|natural]], so that $(f \otimes f)\circ \Delta_x = \Delta_y \circ f$, for any $f\colon x\to y$. Hence such a system is a [[natural transformation]] from the [[identity functor]] on $C$ to the [[composition|composite]] $C \to C \times C \stackrel{\otimes}{\to} C$ of the [[diagonal functor]] with the given [[monoidal category|monoidal product functor]].
 
 Another desirable property is that the diagonal map $\Delta_I\colon I \to I\otimes I$ on the [[tensor unit]] $I$ is the [[inverse morphism|inverse]] of the left [[unitor]] $\ell_I\colon I \otimes I \stackrel{\sim}{\to} I$ (which is the same as the right unitor $r_I$).
 
