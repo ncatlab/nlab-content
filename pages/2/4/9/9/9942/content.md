@@ -24,7 +24,7 @@
 
 ## Idea
 
-A localization of the truncated [[Brown-Peterson spectrum]]. A form of [[Morava E-theory]].
+A [[localization of spectra|localization]] of the truncated [[Brown-Peterson spectrum]]. A form of [[Morava E-theory]].
 
 ## Properties
 
@@ -57,18 +57,18 @@ This is ([Buhn&#233; 11, cor. 8.1.14](#Buhne11)), following ([Sati-Kriz 04](#Sat
 
 ## References
 
-The original article is
+The original article:
 
-* David Copeland Johnson, W. Stephen Wilson, _BP operations and Morava's extraordinary K-theories._, Math. Z. 144 (1): 55&#8722;75 (1975)
+* [[David Copeland Johnson]], [[W. Stephen Wilson]], _BP operations and Morava's extraordinary K-theories_, Math. Z. 144 (1): 55&#8722;75 (1975) ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/jw-morava.pdf))
 
 Discussion of [[orientation in generalized cohomology|orientation]] in Johnson-Wilson theory and relation to the [[Diaconescu-Moore-Witten anomaly]] is in 
 
-* [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor.
+* {#SatiKriz04} [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor.
 Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
- {#SatiKriz04}
+ 
 
-* [[Lukas Buhné]], _[[Properties of Integral Morava K-Theory and the Asserted Application to the Diaconescu-Moore-Witten Anomaly]]_, Diploma thesis, Hamburg (2011)
- {#Buhne11}
+* {#Buhne11} [[Lukas Buhné]], _[[Properties of Integral Morava K-Theory and the Asserted Application to the Diaconescu-Moore-Witten Anomaly]]_, Diploma thesis, Hamburg (2011)
+ 
 
 [[!redirects Johnson-Wilson spectra]]
 
