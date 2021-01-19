@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[physics]], the [[atom (physics)|atom]] whose [[nucleus (physics)|nucleus]] consists of a single [[proton]] and whose shell contains a single [[electron]] is called the _hydrogen atom_.
+In [[physics]], the [[atom (physics)|atom]] whose [[nucleus (physics)|nucleus]] consists of a single [[proton]] and whose shell contains a single [[electron]] is called the _hydrogen atom_ (hence a [[bound state]] of an [[electron]] and a [[proton]], see also _[[positronium]]_).
 
 ## Related concepts
 
