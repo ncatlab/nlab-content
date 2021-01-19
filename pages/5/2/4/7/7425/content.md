@@ -262,9 +262,9 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
 
 Morava K-theory originates in unpublished preprints by [[Jack Morava]] in the early 1970s. 
 
-A first published account appears in
+A first published account appears in (see at _[[Johnson-Wilson spectrum]]_):
 
-* David Copeland Johnson, W. Stephen Wilson, _BP operations and Morava's extraordinary K-theories_, Math. Z. 144 (1): 55&#8722;75,  (1975) ([pdf](http://www.math.jhu.edu/~wsw/papers2/math/08-BP-Kn-J2W-1975.pdf))
+* [[David Copeland Johnson]], [[W. Stephen Wilson]], _BP operations and Morava's extraordinary K-theories_, Math. Z. 144 (1): 55&#8722;75,  (1975) ([pdf](http://www.math.jhu.edu/~wsw/papers2/math/08-BP-Kn-J2W-1975.pdf))
 
 see also
 
