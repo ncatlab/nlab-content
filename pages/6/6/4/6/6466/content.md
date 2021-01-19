@@ -143,7 +143,7 @@ Let $\mathcal{E}$ be an [[elementary topos]] with a natural numbers object $\mat
 
 We first construct an integers object as follows. Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of $(\pi_1 \circ a, \pi_2 \circ b), (\pi_2 \circ a, \pi_1 \circ b)\colon E \to \mathbb{N}$. A similar construction yields a rational numbers object $\mathbb{Q}$. 
 
-We denote by $\mathcal{P}(A)$ the [[power object]] of $A$ in $\mathcal{E}$. A **Dedekind cut** is a [[generalized element]] $(L, U)$ of $\mathcal{P}(\mathbb{Q}) \times \mathcal{P}(\mathbb{Q})$, satisfying the following conditions, expressed in the [[Mitchell?Bénabou language]] of $\mathcal{E}$ and interpreted under [[Kripke-Joyal semantics|Kripke?Joyal semantics]]:
+We denote by $\mathcal{P}(A)$ the [[power object]] of $A$ in $\mathcal{E}$. A **Dedekind cut** is a [[generalized element]] $(L, U)$ of $\mathcal{P}(\mathbb{Q}) \times \mathcal{P}(\mathbb{Q})$, satisfying the following conditions, expressed in the [[Mitchell-Bénabou language]] of $\mathcal{E}$ and interpreted under [[Kripke-Joyal semantics]]:
 
 1. Non-degenerate:
    $$ \exists q\colon \mathbb{Q}.\, q \in L ;$$
@@ -251,7 +251,7 @@ Therefore, if $E = Sh(S)$ for some site $S$, then $\mathbb{R}_E$ is the sheaf on
 To deduce the previous theorem from this one, it suffices to observe that if $S\subset Top$ is closed under open subspaces and their pullbacks and equipped with the open-cover coverage, then every subobject of $y X\in Sh(S)$, for any $X\in S$, is uniquely representable by an open subset of $X$.
 
 +--{: .query}
-There is some dispute about this, see [here](http://nforum.mathforge.org/discussion/6289/when-is-the-internal-real-line-the-external-real-line/?Focus=50275#Comment_50275).
+There is some dispute about this, see [here](http://nforum.ncatlab.org/discussion/6289/when-is-the-internal-real-line-the-external-real-line/?Focus=50275#Comment_50275).
 
 Resolution seems to be [here](http://mathoverflow.net/a/186165/381)
 
