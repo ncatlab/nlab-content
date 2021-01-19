@@ -16,9 +16,13 @@
 
 ## Examples
 
-* [[glueballs]] are bound states of [[gluons]]
+The hierarchy of bound states in [[quantum chromodynamics]]:
 
-* [[hadrons]] are bound states of [[quarks]]
+* if [[quarks]] themselves were bound states (which they are not according to the [[standard model of particle physics]]) then one would call them bound states of _[[preons]]_
+
+* [[hadrons]] are bound states of [[quarks]] 
+
+  (and of [[gluons]], while [[glueballs]] are bound states purely of [[gluons]])
 
   (at [[temperatures]] that these bound states decay one speaks of a _[[quark gluon plasma]]_)
 
@@ -39,18 +43,27 @@
 
       * [[neutrons]] are bound states of 1 [[up quarks]] and 2 [[down quark]]
 
-
 * [[atomic nuclei]] are bound states of of [[nuclei]] ([[protons]] and [[neutrons]])
 
 * [[atoms]] are [[bound states]] of [[atomic nuclei]] and [[electrons]]
 
   (at temperature high enough that these bound states decay, one speaks of a _[[plasma]]_)
 
+  * in particular [[hydrogen atoms]] are bound states of a [[proton]] and an [[electron]]
+
 * [[molecules]] are bound states of [[atoms]]
 
-* if quarks themselves were bound states (which they are not according to the [[standard model of particle physics]]) then one would call them bound states of _[[preons]]_
+Here the last two steps go beyond [[QCD]] as they also involve [[electrons]] from [[quantum electrodynamics]]. 
+
+There are also bound states purely in [[QED]]:
+
+* [[positronium]] is a bound state of an [[electron]] and a [[positron]]
+
+Hypothetically:
 
 * a [[composite Higgs boson]] would be a bound state of a strongly interacting sector beyond the current [[standard model of particle physics]]
+
+\linebreak
 
 [[!include brane bound states -- table]]
 
