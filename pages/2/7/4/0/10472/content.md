@@ -519,6 +519,15 @@ This is briefly mentioned in, for instance, [Bredon 93, p. 199](#Bredon93).
 The argument may be found spelled out in: [MO:a/1645794/](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
 
 
+
+
+
+[[!include smash-monoidal diagonals -- section]]
+
+
+
+
+
 ## Related concepts
 
 * [[pointed simplicial set]]
