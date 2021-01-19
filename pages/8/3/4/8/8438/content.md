@@ -19,6 +19,8 @@ This page collects material and links related to
 
   Oxford 1995
 
+  [ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2)
+
   [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)
 
 collecting survey articles on subjects in [[algebraic topology]]/[[homotopy theory]].
@@ -62,7 +64,10 @@ collecting survey articles on subjects in [[algebraic topology]]/[[homotopy theo
 
 1. Stable operations in generalized cohomology (J.M. Boardman). 
 
-1. Unstable operations in generalized cohomology (J.M. Boardman et al.). 
+1. Unstable operations in generalized cohomology ([[J. M. Boardman]], [[David Copeland Johnson|D. C. Johnson]], [[W. S. Wilson]])
+
+   ([pdf](https://hopf.math.purdue.edu/Boardman-Johnson-Wilson/bjw.pdf))
+
 
 1. Differential graded algebras in topology (Y. Felix et al.). 
 
