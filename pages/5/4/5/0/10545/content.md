@@ -44,7 +44,7 @@ The Steenrod algebra and its standard properties, such as the [Adem relations](#
 
 This is due to ([May 70, 11.8](#May70)). A review is in ([Ravenel, appendix 1, theorem A1.5.2](#Ravenel)).
 
-In particular for $E$ a suitable [[E-infinity ring]], its self-[[generalized homology]] $E_\bullet(E)$ form a (graded-)[[commutative Hopf algebroid]] over $E_\bullet$.
+In particular for $E$ a suitable [[E-infinity ring]], its self-[[generalized homology]] $E_\bullet(E)$ forms a (graded-)[[commutative Hopf algebroid]] over $E_\bullet$.
 
 See at _[Hopf algebroid structure -- For generalized cohomology](#HopfAlgebroidstructureForGeneralized)_ below. For more see at _[[Adams spectral sequence]] -- [The first page](Adams+spectral+sequence#FirstPageAndHopfAlgebroid)_.
 
