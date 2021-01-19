@@ -30,7 +30,13 @@ In [[quantum electrodynamics]] the electron [[interaction|interacts]] with the [
 
 * [[Dirac field]], [[electron propagator]]
 
-* [[hydrogen atom]]
+* the [[bound state]] of an electron...
+
+  ... with a [[proton]] is a  [[hydrogen atom]]
+
+  ... with a [[positron]] is a [[positronium]]
+
+* the [[bound state]] of several electrons with a [[nucleus]] is an [[atom]]
 
 * [[Lamb shift]]
 
