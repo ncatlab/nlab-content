@@ -546,13 +546,22 @@ In some context the descent condion may algebraically be encoded in an [[adjunct
  
 * Daniel Sch&#228;ppi, _Descent via Tannaka duality_, [arxiv/1505.05681](http://arxiv.org/abs/1505.05681)
 
-A deep connection between the monadicity and descent is proved in: 
+A deep connection between the concept of monadicity and descent is proved in: 
 
 * [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98, ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), Biblioth&#232;que nationale de France)
 
-Further dvelopments with categorical perspectives and generalizations can be found in:
+
+
+Further developments with categorical perspectives and generalizations can be found in:
+
+
+*{#JanelidzeTholen97}[[George Janelidze]], [[Walter Tholen]], _Facets of Descent II_, Applied Categorical Structures __5__:3 (1997) 229-248
+
+* [[George Janelidze]], [[Manuela Sobral]], [[Walter Tholen]], _Beyond Barr exactness: effective descent morphisms_, Ch. 8 of Categ. Foundations, (eds. Maria Cristina Pedicchio, Walter Tholen) Enc. Math. Appl. 2003
 
 * [[Ross Street]], _Categorical and combinatorial aspects of descent theory_, [arXiv:math.CT/0303175](http://arxiv.org/abs/math.CT/0303175)
+
+* [[Fernando Lucatelli Nunes]], *Pseudo-Kan extensions and descent theory*, TAC [33-15](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
 
 
 
