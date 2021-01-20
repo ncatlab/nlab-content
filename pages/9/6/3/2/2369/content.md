@@ -90,6 +90,9 @@ Review:
 
 * [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]] -- [Homotopy ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra)_, 2016
 
+* [[Birgit Richter]], _Commutative ring spectra_ ([arXiv:1710.02328](https://arxiv.org/abs/1710.02328))
+
+
 On [[H-infinity ring spectra]]:
 
 * {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405),  [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
