@@ -110,7 +110,7 @@ that the pseudo-Riemannian metric $\mu$ may be reconstructed from the lightcone 
 
 ...
 
-> A **smooth Lorentzian space** is supposed to be like a Lorentzian manifold, but whose underlying space is not necesarily a smoth manifold, but a  [[generalized smooth space]].  
+> A **smooth Lorentzian space** is supposed to be like a Lorentzian manifold, but whose underlying space is not necessarily a smooth manifold, but a  [[generalized smooth space]].  
 
 > So this is "something like" a [[partial order|poset]] [[internal category|internal]] to a category of measure spaces, or a [[poset]]-valued 2-[[stack]] on something like [[CartSp]] or the like.
 
