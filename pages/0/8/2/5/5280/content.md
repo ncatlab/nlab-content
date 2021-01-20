@@ -248,7 +248,7 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 
 * {#PB19} Pierre Pradic, Chad E. Brown, *Cantor-Bernstein implies Excluded Middle*, [arxiv](https://arxiv.org/abs/1904.09193), 2019
 
-* {#Escardo20} Martín Hötzel Escardó, _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, [blog post](https://homotopytypetheory.org/2020/01/26/the-cantor-schroder-bernstein-theorem-for-%e2%88%9e-groupoids/) (2020), [Agda proof](https://www.cs.bham.ac.uk/~mhe/agda-new/CantorSchroederBernstein.html)
+* {#Escardo20} Martín Hötzel Escardó, _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, [blog post](https://homotopytypetheory.org/2020/01/26/the-cantor-schroder-bernstein-theorem-for-%e2%88%9e-groupoids/) (2020), [Agda proof](https://www.cs.bham.ac.uk/~mhe/agda-new/CantorSchroederBernstein.html), [Arxiv preprint](https://arxiv.org/abs/2002.07079).
 
 
 [[!redirects Cantor-Schroeder-Bernstein theorem]]
