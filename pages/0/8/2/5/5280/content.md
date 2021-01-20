@@ -240,15 +240,15 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]: A Topos Theory Conpendium_, Vol. I, Clarendon Press, Oxford (2002)
 
-* [[Timothy Gowers]], _A Solution to the Schroeder-Bernstein Problem for Banach Spaces_, Bulletin of the London Mathematical Society, Volume 28, Issue 3 (1996), 297-304 [(abstract)](http://blms.oxfordjournals.org/content/28/3/297.abstract)
-{#Gowers} 
+* {#Gowers} [[Timothy Gowers]], _A Solution to the Schroeder-Bernstein Problem for Banach Spaces_, Bulletin of the London Mathematical Society, Volume 28, Issue 3 (1996), 297-304 [(abstract)](http://blms.oxfordjournals.org/content/28/3/297.abstract)
+ 
 
-* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_, Springer-Verlag 1992. 
-{#MM}
+* {#MM} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, Springer-Verlag 1992. 
 
-* {#PB19} Pierre Pradic, Chad E. Brown, *Cantor-Bernstein implies Excluded Middle*, [arxiv](https://arxiv.org/abs/1904.09193), 2019
 
-* {#Escardo20} Martín Hötzel Escardó, _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, [blog post](https://homotopytypetheory.org/2020/01/26/the-cantor-schroder-bernstein-theorem-for-%e2%88%9e-groupoids/) (2020), [Agda proof](https://www.cs.bham.ac.uk/~mhe/agda-new/CantorSchroederBernstein.html), [Arxiv preprint](https://arxiv.org/abs/2002.07079).
+* {#PB19} Pierre Pradic, Chad E. Brown, *Cantor-Bernstein implies Excluded Middle*, 2019 ([arxiv:1904.09193](https://arxiv.org/abs/1904.09193))
+
+* {#Escardo20} Martín Hötzel Escardó, _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, 2020 ([blog post](https://homotopytypetheory.org/2020/01/26/the-cantor-schroder-bernstein-theorem-for-%e2%88%9e-groupoids/), [Agda proof](https://www.cs.bham.ac.uk/~mhe/agda-new/CantorSchroederBernstein.html), [arXiv:2002.07079](https://arxiv.org/abs/2002.07079))
 
 
 [[!redirects Cantor-Schroeder-Bernstein theorem]]
