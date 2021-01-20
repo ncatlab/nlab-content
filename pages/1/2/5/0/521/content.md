@@ -86,11 +86,13 @@ The [[duality|dual]] notion is an [[over category]].
 +-- {: .num_prop}
 ###### Proposition
 
-A  [[limit]] in an [[under category]] is computed as a limit in the underlying category.
+If $C$ is a [[category]] with all [[limits]], then a  [[limit]] in any of its [[under categories]] $t/C$ is computed as a limit in the underlying category $C$.
 
-Precisely: let $C$ be a [[category]], $t \in C$ an [[object]], and $t/C$ the corresponding [[under category]], and $p : t/C \to C$ the obvious projection.
+In detail: 
 
-Let $F : D \to t/C$ be any [[functor]]. Then, if it exists, the [[limit]] over $p \circ F$ in $C$ is the image under $p$ of the limit over $F$:
+Let $F \colon D \to t/C$ be any [[functor]]. 
+
+Then, the [[limit]] over $p \circ F$ in $C$ is the image under the evident projection $p \colon t/C \to C$ of the limit over $F$ itself:
 
 $$
   p(\lim F)  \simeq \lim (p F)
