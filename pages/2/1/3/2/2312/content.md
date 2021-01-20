@@ -319,6 +319,9 @@ See also
 * [[multiplicative spectral sequence]]
 
 ## References
+
+* [[John Michael Boardman]], Section 3 (p. 10-11) of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
 	
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], chapter 2.6 of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
