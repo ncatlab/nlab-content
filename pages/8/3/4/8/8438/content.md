@@ -62,7 +62,9 @@ collecting survey articles on subjects in [[algebraic topology]]/[[homotopy theo
 
 1. Stable homotopy and iterated loop spaces (G. Carlsson, R.J. Milgram).
 
-1. Stable operations in generalized cohomology (J.M. Boardman). 
+1. Stable operations in generalized cohomology ([[J. M. Boardman]]).
+
+   ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf))
 
 1. Unstable operations in generalized cohomology ([[J. M. Boardman]], [[David Copeland Johnson|D. C. Johnson]], [[W. S. Wilson]])
 
