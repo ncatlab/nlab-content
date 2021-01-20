@@ -166,7 +166,9 @@ Steenrod's original colloquium lectures:
 
 * [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_,  Advances in Math. 8, 371&#8211;416. (1972)  (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
 
-Review:
+Background and review:
+
+* [[John Michael Boardman]], _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 * {#May} [[Peter May]], chapter 22, section 5 of: _A concise course in algebraic topology_, University of Chicago Press 1999 (ISBN:978-0226511832, [pdf](https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
