@@ -22,7 +22,7 @@
 
 Given a [[Lorentzian manifold]], then its _causal structure_ is the information at each [[tangent space]] of the subspace of [[lightlike]] tangent vectors -- the "light cones". This information distinguishes [[timelike]] from the [[spacelike]] vectors. Hence if one thinks of the [[Lorentzian manifold]] as modelling a [[spacetime]] in [[physics]], then this information encodes,  at each point, the directions along which causal influences may propagate in this spacetime.
 
-This causal stucture is closely related to the underlying [[conformal structure]]. One may also define a concept of a _[[manifold]] with causal structure_ or _causal manifold_ without reference to a concept of Lorentian pseudo-Riemannian structure ([Bannier 88](#Bannier88), [Rainer 99](#Rainer99), [Khavkine 12](#Khavkine12)).
+This causal stucture is closely related to the underlying [[conformal structure]]. One may also define a concept of a _[[manifold]] with causal structure_ or _causal manifold_ without reference to a concept of Lorentzian pseudo-Riemannian structure ([Bannier 88](#Bannier88), [Rainer 99](#Rainer99), [Khavkine 12](#Khavkine12)).
 
 ## In algebraic quantum field theory
 
