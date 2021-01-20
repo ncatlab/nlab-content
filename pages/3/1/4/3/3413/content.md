@@ -27,6 +27,11 @@ Introducing the [[Boardman homomorphism]]:
 
 * [[J. Michael Boardman]], _The eightfold way to BP-operations_, in: _Current trends in algebraic topology_, pp. 187–226, Canadian Mathematical Society Proceedings, 2, Part 1.  Providence 1982 ([ISBN:978-0-8218-6003-8](https://bookstore.ams.org/cmsams-2))
 
+On stable [[cohomology operations]], but mostly reviewing the background of [[stable homotopy theory]], [[Whitehead-generalized cohomology theory]], [[ring spectra]], [[multiplicative cohomology theory]], [[complex oriented cohomology]] and the examples of [[KU]], [[MU]], [[BP]]:
+
+* [[John Michael Boardman]], _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
+
 On unstable [[cohomology operations]] (hence: in [[non-abelian cohomology]]):
 
 * [[John Michael Boardman]], [[David Copeland Johnson]], [[W. Stephen Wilson]], _Unstable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman-Johnson-Wilson/bjw.pdf)), in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
