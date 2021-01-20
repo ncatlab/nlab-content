@@ -138,8 +138,8 @@ $$
   Ho
   \big(
     PointedTopologicalSpaces
-  \big)^{op}
-  \;\overset{ \;\; \;\; }{\hookrightarrow}\;
+  \big)
+  \;\overset{ \;\; A \mapsto [-,A]\;\; }{\hookrightarrow}\;
   Functors
   \Big(
     Ho
