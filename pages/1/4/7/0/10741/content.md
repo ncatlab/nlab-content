@@ -372,6 +372,8 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
 
 * Michael Crabb, [[Andrew Ranicki]], _The geometric Hopf invariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
 
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 12 of: _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
+
 * [[Gereon Quick]], _The Hopf invariant one problem via K-theory_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickHopfInvariant.pdf:file]])
 
 
