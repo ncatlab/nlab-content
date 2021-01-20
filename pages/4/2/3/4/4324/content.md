@@ -18,7 +18,9 @@
 
 ### General 
 
-A **connective spectrum** is a [[spectrum]] whose [[homotopy group]]s in negative degree vanish. These are equivalently
+A **connective spectrum** is a [[spectrum]] $S$ whose [[homotopy group of s spectrum|homotopy groups]] in all [[negative numnber|negative]] degrees are [[trivial groups|trivial]]: $\pi_{\bullet \lt 0}(S) \,=\, 0$.
+
+These are equivalently:
 
 * [[infinite loop spaces]];
 
@@ -33,7 +35,7 @@ $$
   \,.
 $$
 
-There are objects in $Sp(Top)$, though, that do not come from "naively" [[delooping]] a [[topological space]] infinitely many times.  These are the **non-connective spectra**.  For general spectra there is a notion of [[homotopy groups]] of negative degree. The connective ones are precisely those for which all negative degree [[homotopy groups]] vanish.
+There are objects in [[Spectra]], though, that do not come from "naively" [[delooping]] a [[topological space]] infinitely many times.  These are the **non-connective spectra**.  For general spectra there is a notion of [[homotopy groups]] of negative degree. The connective ones are precisely those for which all negative degree [[homotopy groups]] vanish.
 
 ### Strict 
 
