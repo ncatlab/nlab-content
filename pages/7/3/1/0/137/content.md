@@ -232,7 +232,7 @@ Epimorphisms get along with colimits in a number of ways, some of which we have 
 +-- {: .num_prop}
 ###### Proposition
 
-Any morphism from an initial object is an epimorphism.  The coproduct of epimorphisms is an epimorphism.
+Any morphism to an initial object is an epimorphism.  The coproduct of epimorphisms is an epimorphism.
 =--
 
 +-- {: .proof}
