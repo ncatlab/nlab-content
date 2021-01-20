@@ -25,7 +25,7 @@ A [[morphism]] inducing an [[isomorphism]] on all stable homotopy groups is call
 
 ### For pointed topological spaces
 
-Given a [[pointed topological space]] $X$, then its _stable homotopy groups_ are the [[colimit]] of ordinary [[homotopy groups]] of its [[reduced suspensions]]
+Given a [[pointed topological space]] $X$, its _stable homotopy groups_ are the [[colimit]] of ordinary [[homotopy groups]] of its [[reduced suspensions]]
 
 $$
   \pi_n^S(X) \coloneqq \underset{\longrightarrow}{\lim}_k \pi_{n+k}(\Sigma^k X)
@@ -33,6 +33,9 @@ $$
 $$
 
 ### For sequential spectra
+
+\begin{definition}
+  \label{StableHomotopyGroupsOfSequentialSpectrum}
 
 Given a  [[sequential spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
 
@@ -61,7 +64,47 @@ $$
 
 over the [[homotopy groups]] of the component spaces. 
 
+\end{definition}
+
 For sequential spectra in [[simplicial sets]], the same formula applies for the [[geometric realization]] of the component simplicial sets.
+
+(For details see [this definition](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups).)
+
+
+\begin{remark}
+  \label{StableHomotopyGroupsOfOmegaSpectrum}
+
+If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], then its colimiting stable homotopy groups according to Def. \ref{StableHomotopyGroupsOfSequentialSpectrum} reduce to the actual [[homotopy groups]] of the component spaces $X_n \coloneqq \Omega^\infty \Sigma^n X$, in that:
+
+$$
+  X \; \text{is Omega-spectrum}
+  \;\;\;\;\;
+   \Rightarrow
+  \;\;\;\;\;
+  \pi_k(X)
+    \simeq
+  \left\{
+    \array{
+      \pi_{k+n}\big( X_n \big)
+      &\vert& 
+      k + n \geq 0
+      \\
+      \pi_k\big(X_0\big)
+      &\vert& 
+      k \geq 0
+      \\
+      \pi_0 X_{\vert k \vert}  
+      &\vert&  
+      k \lt 0
+      \\
+    }
+  \right.
+  \,.
+$$
+
+\end{remark}
+
+(For details see [this example](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroupsOfOmegaSpectrum).)
 
 
 ## Properties
@@ -107,21 +150,6 @@ $$
   \,.
 $$
 
-### For Omega-spectra
-
-For $E$ a (weak) [[Omega spectrum]] then the colimit is attained:
-
-$$
-  \pi_n(E)
-  \simeq
-  \left\{
-    \array{
-      \pi_n(E_0) & for \; n \geq 0
-      \\
-      \pi_0(E_{-n}) & for \;n \leq 0
-    }
-  \right.
-$$
 
 ### As a homology theory
 
