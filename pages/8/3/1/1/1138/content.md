@@ -237,23 +237,25 @@ They do not in the same simple way pull back, since images of open subsets need 
 The inverse image $(f^{-1})^\dagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
 
 $$
-  f^\dagger F : U \mapsto colim_{(U \to f^{-1}(V)) \in (const_U, f^{-1})} F(V)
+  f^\dagger F(U) = \colim_{U \subseteq f^{-1}(V)} F(V)
   \,.
 $$
 
-This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $U$ _inside_ it.
+What's this really doing is using $V$ to approximate $f(U)$ from the outside. Thus a section of $f^\dagger F$ on $U$ will be an equivalence class of sections of $F$ on open neighbourhoods of $f(U)$, under the equivalence given by agreement on a restriction to a smaller neighbourhood:
+$$
+  (s, V_1) \sim (t, V_2) \quad\underline{iff}\quad \exists W \in Op(Y), V_1 \cap V_2 \supseteq W \supseteq f(U), \; s\vert_W = t\vert_W.
+$$
+Compare this with the definition of [[germ|germs]] at a [[stalk]].
 
-On the other hand, the extension
-
-$(f^{-1})^\ddagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
+On the other hand, the extension $(f^{-1})^\ddagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
 
 $$
-  f^\ddagger F : U \mapsto lim_{(f^{-1}(V) \to U) \in (f^{-1},const_U)} F(V)
+  f^\ddagger F(U) = \lim_{f^{-1}(V) \subseteq U} F(V)
   \,.
 $$
 
-This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $U$  _containing_ it.
-This corresponds to taking the [[Kan extension|right Kan extension]] instead of the left one. Notice, however, that this does not define a valid functor into $Sh X$ in general, since now $f_* \vdash f^\ddagger$ and thus the above proof doesn't carry over.
+This approximates the possibly non-open subset $f(U)$ by all open subsets $V$  _contained_ in it.
+This corresponds to taking the [[Kan extension|right Kan extension]] instead of the left one, and when it exists it's called [[restriction and extension of sheaves|extension of presheaves]].
 
 ## Related concepts
 
@@ -263,11 +265,11 @@ This corresponds to taking the [[Kan extension|right Kan extension]] instead of 
 
 ## References
 
-for the general description in terms of Kan extension and sheafification see section 17.5 of
+For the general description in terms of Kan extension and sheafification see section 17.5 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
 
-For the description in terms of pullback of etale spaces see secton VII.1 of
+For the description in terms of pullback of étale spaces, see section VII.1 of
 
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
 
