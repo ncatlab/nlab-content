@@ -316,6 +316,11 @@ sign errors in the literature. For both these reasons, we present our calculatio
 
 > our approach could be adapted to any model which treats nuclei as quantised solitons. This includes [[holographic QCD]], where nuclei are described as instantons on a curved spacetime
 
+* [[Horatiu Nastase]], [[Jacob Sonnenschein]], _A $T \bar T$-like deformation of the Skyrme model and the Heisenberg model of nucleon-nucleon scattering_ ([arXiv:2101.08232](https://arxiv.org/abs/2101.08232))
+
+  > (via [[TT deformation]])
+
+
 
 
 
