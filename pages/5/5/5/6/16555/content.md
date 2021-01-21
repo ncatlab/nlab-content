@@ -69,7 +69,7 @@ algebras are also equivalent.
 
 * [[John Power]], _Enriched Lawvere theories_, [tac](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html)
 
-* [[Koki Nishizawa]], [[John Power]], _Lawvere theories enriched over a general base_. Journal of Pure and Applied Algebra **213**, Issue 3, March 2009, Pages 377--386. ([pdf](http://cfv.jp/cvs/introduction/pdf/PS2005-005.pdf)), 
+* [[Koki Nishizawa]], [[John Power]], _Lawvere theories enriched over a general base_. Journal of Pure and Applied Algebra **213**, Issue 3, March 2009, Pages 377--386. ([pdf](https://www.sciencedirect.com/science/article/pii/S0022404908001485)), 
 MR2477057, Zbl:1158.18003,
 doi:[10.1016/j.jpaa.2008.07.009](http://dx.doi.org/10.1016/j.jpaa.2008.07.009).
 
