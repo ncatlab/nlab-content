@@ -28,5 +28,11 @@ On [[sigma-mesons]] and attractive [[nuclear forces]] between [[baryons]] in [[h
 
 * [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
 
+On a [[TT-deformation]] of the [[Skyrme model]] applied to [[nucleon]] [[scattering]]:
+
+* [[Horatiu Nastase]], [[Jacob Sonnenschein]], _A $T \bar T$-like deformation of the Skyrme model and the Heisenberg model of nucleon-nucleon scattering_ ([arXiv:2101.08232](https://arxiv.org/abs/2101.08232))
+
+
+
 
 category: people
