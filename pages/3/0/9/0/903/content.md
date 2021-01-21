@@ -283,13 +283,16 @@ is in
 
 * [[Dan Licata]], [[Guillaume Brunerie]], _[PiNSN.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiNSN.agda)_
 
-[[!redirects homotopy group]]
 [[!redirects homotopy groups]]
+
 [[!redirects homotopy n-tuply groupal set]]
 [[!redirects homotopy n-tuply groupal sets]]
+
 [[!redirects homotopy groupal set]]
 [[!redirects homotopy groupal sets]]
+
 [[!redirects homotopy pointed set]]
 [[!redirects homotopy pointed sets]]
+
 [[!redirects homotopy abelian group]]
 [[!redirects homotopy abelian groups]]
