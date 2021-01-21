@@ -482,7 +482,7 @@ The string 2-group also appears as a certain [[automorphism 2-group]] inside the
 For $G$ a compact simply connected simple [[Lie group]], there is the "[[WZW gerbe]]", hence the [[circle n-bundle with connection|circle 2-bundle with connection]] on $G$ whose [[curvature]] 3-form is the [[left invariant differential form|left invariant]] extension $\langle \theta \wedge [\theta \wedge \theta]\rangle$ of the canonical Lie algebra 3-cocycle to the group
 
 $$
-  \mathcal{L}_{WZW} \;\colon\; G \longrightarrow \mathbf{B}^2 
+  \mathcal{L}_{WZW} \;\colon\; G \longrightarrow \mathbf{B}^2U(1) 
   \,.
 $$
 
