@@ -18,7 +18,7 @@
 
 ### General 
 
-A **connective spectrum** is a [[spectrum]] $S$ whose [[homotopy group of s spectrum|homotopy groups]] in all [[negative numnber|negative]] degrees are [[trivial groups|trivial]]: $\pi_{\bullet \lt 0}(S) \,=\, 0$.
+A **connective spectrum** is a [[spectrum]] $S$ whose [[homotopy group of a spectrum|homotopy groups]] in all [[negative number|negative]] degrees are [[trivial groups|trivial]]: $\pi_{\bullet \lt 0}(S) \,=\, 0$.
 
 These are equivalently:
 
