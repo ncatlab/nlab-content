@@ -46,7 +46,7 @@ OR
 
 * the existence of a [[strong generator]] in the homotopy category in question.
 
-In particular, there is no Brown representability theorem for functors from the homotopy category of pointed not-necessarily-connected spaces to pointed sets, or for functors from the homotopy category of unpointed spaces to sets.  In fact, there are counterexamples in these two cases ([Freyd-Heller 93](#FreydHeller93), see remark \ref{Counterexamples}.
+In particular, there is no Brown representability theorem for functors from the homotopy category of pointed not-necessarily-connected spaces to pointed sets, or for functors from the homotopy category of unpointed spaces to sets.  In fact, there are counterexamples in these two cases ([Freyd-Heller 93](#FreydHeller93), see remark \ref{Counterexamples}).
 
 
 ## Classical formulation for homotopy functors on topological spaces
@@ -67,7 +67,7 @@ A [[functor]] $F:Ho(Top_*^c)^{op} \to Set_*$ is [[representable functor|represen
 
 =--
 
-(e.g. [Aguilar-Gitler-Prito 02, theorem 12.2.18](#AguilarGitlerPrito02))
+(e.g. [Aguilar-Gitler-Prito 02, theorem 12.2.18](#AguilarGitlerPrito02)).
 
 Note that it is immediate that every representable functor has the given properties; the nontrivial statement is that these properties already characterize representable functors.
 
@@ -81,11 +81,11 @@ When the theorem is stated in terms of CW complexes, the second property (taking
  
 The statement of theorem \ref{ClassicalBrownRepresentabilityTheorem} without the restriction to *connected* pointed spaces is false, as is the analogous statement for unpointed spaces.
 
-In ([Freyd-Heller 93](#FreydHeller93)), it is show that if $G$ is [[Thompson's group F]], with $g:G\to G$ its canonical endomorphism, then $g$ does not [[split idempotent|split]] in the quotient of [[Grp]] by conjugacy.  Since the quotient of [[Grp]] by conjugacy embeds as the full subcategory of the unpointed homotopy category $Ho(Top)$ on connected [[homotopy 1-types]], we have an endomorphism $B g:B G \to B G$ of the [[classifying space]] of $G$ which does not split in $Ho(Top)$.
+In ([Freyd-Heller 93](#FreydHeller93)), it is shown that if $G$ is [[Thompson's group F]], with $g:G\to G$ its canonical endomorphism, then $g$ does not [[split idempotent|split]] in the quotient of [[Grp]] by conjugacy.  Since the quotient of [[Grp]] by conjugacy embeds as the full subcategory of the unpointed homotopy category $Ho(Top)$ on connected [[homotopy 1-types]], we have an endomorphism $B g:B G \to B G$ of the [[classifying space]] of $G$ which does not split in $Ho(Top)$.
 
 Thus, if $F:Ho(Top)^{op} \to Set$ splits the idempotent $[-,B g]$ of $[-,B G]$, then $F$ satisfies the hypotheses of the Brown representability theorem (being a [[retract]] of a representable functor), but is not representable.  A similar argument using $B G_+$ applies to $Ho(Top_*)$.
 
-There is also another example due to Heller, which fais to be representable for cardinality reasons.
+There is also another example due to Heller, which fails to be representable for cardinality reasons.
 
 * MO questions [non-connected spaces](http://mathoverflow.net/questions/104866/brown-representability-for-non-connected-spaces), [unpointed spaces](http://mathoverflow.net/questions/11456/unpointed-brown-representability-theorem)
 * [blog post](http://golem.ph.utexas.edu/category/2012/08/brown_representability.html)
@@ -723,9 +723,9 @@ This means that the [[four lemma]] applies to this diagram. Inspection shows tha
 +-- {: .num_cor }
 ###### Corollary
 
-Let $\mathcal{C}$be an [[(∞,1)-category]] which satisfies the conditions of theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories}, and let $(H^\bullet, \delta)$ be a [[generalized cohomology]] functor on $\mathcal{C}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}. Then there exists a  [[spectrum object]] $E \in Stab(\mathcal{C})$ such that 
+Let $\mathcal{C}$ be an [[(∞,1)-category]] which satisfies the conditions of theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories}, and let $(H^\bullet, \delta)$ be a [[generalized cohomology]] functor on $\mathcal{C}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}. Then there exists a  [[spectrum object]] $E \in Stab(\mathcal{C})$ such that 
 
-1. $H\bullet$ is degreewise [[representable functor|represented]] by $E$:
+1. $H^\bullet$ is degreewise [[representable functor|represented]] by $E$:
 
    $$
      H^\bullet \simeq Ho(\mathcal{C})(-,E_\bullet)
