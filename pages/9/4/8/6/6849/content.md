@@ -53,7 +53,7 @@ where $T(U)$ is the [[tangent space]] of $U$ (an open subspace of $T(F)$.
 
 An analogue of the directional derivative and Faa di Bruno formula in the Goodwillie calculus are in
 
-* Kristine Bauer, Brenda Johnson, Christina Osborne, Emily Riehl, Amelia Tebbe, _Directional derivatives and higher order chain rules for abelian functor calculus_, [arxiv/1610.01930](https://arxiv.org/abs/1610.01930) 
+* [[Kristine Bauer]], Brenda Johnson, Christina Osborne, [[Emily Riehl]], Amelia Tebbe, _Directional derivatives and higher order chain rules for abelian functor calculus_ ([arxiv/1610.01930](https://arxiv.org/abs/1610.01930))
 
 [[!redirects directional derivative]]
 [[!redirects directional derivatives]]
