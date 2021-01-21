@@ -175,7 +175,7 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 
 On a [[globally hyperbolic spacetime]] $M$ the Klein-Gordon equation has unique advanced and retarded [[Green functions]], $\Delta_R \in \mathcal{D}'(M\times M)$ and $\Delta_A \in \mathcal{D}'(M\times M)$ respectively.
 
-The [[advanced and Green functions]] are uniquely distinguished by their [[support of a distribution|support]] properties. Namely, $(x,y) \in \operatorname{supp} \Delta_R$ only if $x$ is in the [[causal future]] of $y$, while $(x,y) \in \operatorname{supp} \Delta_A$ only if $x$ is in the [[causal past]] of $y$.
+The [[advanced and retarded Green functions]] are uniquely distinguished by their [[support of a distribution|support]] properties. Namely, $(x,y) \in \operatorname{supp} \Delta_R$ only if $x$ is in the [[causal future]] of $y$, while $(x,y) \in \operatorname{supp} \Delta_A$ only if $x$ is in the [[causal past]] of $y$.
 
 Their difference $\Delta_S = \Delta_R - \Delta_A$ is a bisolution known as the [[causal propagator]], which is the [[Peierls bracket]] which gives the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]].  This in turn defines the [[Wick algebra]] of the free scalar field, which yields the [[quantization]] of the free scalar field to a [[quantum field theory]].
 
