@@ -204,6 +204,8 @@ On the other hand, some properties are *not* preserved by the completions.
 
 (to be written...)
 
+* The category [[Set]] of [[set|sets]] is the ex/lex completion of the category of [[preset|presets]]. 
+
 * [[Realizability toposes]] arise as ex/lex completions of categories of partitioned assemblies based on a [[partial combinatory algebra]] $A$. In fact the reg/lex completion gives, as an interesting intermediate step, the category of assemblies based on $A$ (which turns out to be the [[quasitopos]] of $\neg\neg$-separated objects inside the realizability topos). This is discussed in [Menni](#Menni). 
 
 * The category $TF$ of [[torsion|torsion-free]] [[abelian groups]] is regular, but not exact.  For instance, the [[congruence]] $\{ (a,b) | a \equiv b \mod 2 \} \subseteq \mathbb{Z}\times\mathbb{Z}$ is not a kernel in $TF$.  Unsurprisingly, the ex/reg completion of $TF$ is equivalent to the category $Ab$ of all abelian groups.
