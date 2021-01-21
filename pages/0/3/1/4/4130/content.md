@@ -99,7 +99,7 @@ If every non-degenerate simplex in $X$ is given by a [[monomorphism]] $\Delta^n 
 
 ## References
 
-* [[Rick Jardine]], _Simplicial approximation_, Theory and Applications of Categories, Vol. 12, 2004, No. 2, pp 34-72. ([web](ftp://ftp.math.ethz.ch/EMIS/journals/TAC/volumes/12/2/12-02aabs.html))
+* [[Rick Jardine]], _Simplicial approximation_, Theory and Applications of Categories, Vol. 12, 2004, No. 2, pp 34-72. ([web](https://www.emis.de/journals/TAC/volumes/12/2/12-02aabs.html))
 
 A review is in section 3 of 
 
