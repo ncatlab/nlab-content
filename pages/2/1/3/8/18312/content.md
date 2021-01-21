@@ -141,6 +141,8 @@ for some line bundle $\mathcal{L}'$
 
 This way, eventually one finds a [[pullback bundle]] of $E$ which is entirely a [[direct sum of vector bundles|direct sum]] of [[line bundles]].
 
+(e.g. [Wirthmüller 12, p. 15 (17 of 67)](#Wirthmuller12))
+
 This is one incarnation of the _[[splitting principle]]_. 
 
 
