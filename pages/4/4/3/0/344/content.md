@@ -69,7 +69,7 @@ X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
 
 ## Examples
 
-1. An [[elementary topos]] is finitary lextensive; a [[Grothendieck topos]] (or, more generally, any [[cocomplete category|cocomplete]] elementary topos) is infinitary lextensive.
+1. An [[elementary topos]] (or, more generally, any [[pretopos]]) is finitary lextensive; a [[Grothendieck topos]] (or, more generally, any [[cocomplete category|cocomplete]] elementary topos) is infinitary lextensive.
 
 1. A [[quasitopos]] with disjoint coproducts, or more generally a [[locally cartesian closed category]] with disjoint coproducts, is extensive. (Of course not all quasitoposes have disjoint coproducts, one example being a [[complete Heyting algebra]].) 
 
