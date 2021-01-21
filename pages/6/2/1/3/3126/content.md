@@ -947,6 +947,10 @@ Generalization to parameterized objects in any [[stable (∞,1)-category]] is di
 
 * [[Marc Hoyois]], _Topoi of parametrized objects_, Theory and Applications of Categories, Vol. 34, 2019, No. 9, pp 243-248. ([arXiv:1611.02267](https://arxiv.org/abs/1611.02267), [tac:34-09](http://www.tac.mta.ca/tac/volumes/34/9/34-09abs.html))
 
+Relation to [[Goodwillie calculus]]:
+
+* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819))
+
 [[!redirects tangent (infinity,1)-categories]]
 
 [[!redirects tangent (∞,1)-category]]
