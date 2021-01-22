@@ -50,6 +50,8 @@ A connection to [[geometric invariant theory]] is proposed in
 
 [[model theory|Model theoretic]] aspects are discussed in
 
-* Moshe Kamensky, Anand Pillay, _Interpretations and differential Galois extensions_, [arxiv/1409.5915](http://arxiv.org/abs/1409.5915)
+* Moshe Kamensky, [[Anand Pillay]], _Interpretations and differential Galois extensions_, [arxiv/1409.5915](http://arxiv.org/abs/1409.5915)
+* [[Anand Pillay]], _Differential Galois theory I_, Illinois J. Math. __42__(4) 1998
+* D. Bertrand, A. Pillay, _Galois theory, functional Lindemann-Weierstrass, and Manin maps_, Pacific J. Math. 281:1 (2016) 51–82 [doi](https://doi.org/10.2140/pjm.2016.281.51)
 
 [[!redirects differential Galois group]]
