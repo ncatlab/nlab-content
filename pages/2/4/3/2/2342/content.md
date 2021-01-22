@@ -446,7 +446,7 @@ Discussion of the [[formal group law]] of elliptic curves:
 * Antonia W. Bluher, _Formal groups, elliptic curves, and some theorems of Couveignes_, in: J.P. Buhler (eds.) _Algorithmic Number Theory_ ANTS 1998. Lecture Notes in Computer Science, vol 1423. Springer 1998 ([arXiv:math/9708215](https://arxiv.org/abs/math/9708215), [doi:10.1007/BFb0054887]( https://doi.org/10.1007/BFb0054887))
 
 
-* {#Friedl17} Stefan Friedl, _An elementary proof of the group law for elliptic curves Stefan Friedl_ ([arXiv:1710.00214](https://arxiv.org/abs/1710.00214))
+* {#Friedl17} Stefan Friedl, _An elementary proof of the group law for elliptic curves_ ([arXiv:1710.00214](https://arxiv.org/abs/1710.00214))
 
 For more along these lines see also at _[[arithmetic geometry]]_.
 
