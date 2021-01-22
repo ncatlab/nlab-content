@@ -110,7 +110,9 @@ Here:
 
 This is "tautological" in the sense that the [[fiber]] of the bundle over a point $[v]$ in the projective base space, which is the name of the line through some vector $v$, consists of all the points $z \cdot v$ on that line -- as made explicit by the horizontal map in (eq:TautologicalBundleProjection).
 
-The further [[corestriction]] of that horizontal map to $k^{n+1}$
+Often the tautological line bundle is referred to via the notation "$\mathcal{O}_k(-1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]] (see e.g. [Wirthmüller 12, p. 14 (16 of 67)](#Wirthmuller)).
+
+The further [[corestriction]] of that horizontal map (eq:TautologicalBundleProjection) to $k^{n+1}$
 
 $$
     \mathcal{L}_{k P^n}
@@ -187,6 +189,8 @@ The [[dual vector bundle|dual line bundle]] of the tautological line bundle is
 \]
 
 with [[typical fiber]] $k$ instead of $k^\ast$, meaning that the [[action]] of $k^\times$ on the fibers is now the direct multiplication action, instead of the dual action (eq:DualActionOnk).
+
+Often the dual tautological line bundle is referred to via the notation "$\mathcal{O}_k(1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]].
 
 The horizontal map in (eq:DualTautologicalBundleProjection) [[embedding of topological spaces|embeds]] the [[complement]] of the single point $[(v=0,1)] \in k P^{n+1}$. That point however is the [[limit of a sequence|limit]] as $z \to \infty$, hence is the image of the base point as (eq:DualTautologicalBundleProjection) [[extension|extends]] to a map on the [[Thom space]] of the dual tautological line bundle:
 
