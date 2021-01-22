@@ -124,7 +124,7 @@ A [[formal scheme]] $\hat{Y}$ is defined for any [[closed subscheme|closed immer
 Intuitively the [[formal scheme]] $\hat Y$ is the $\infty$-jet bundle in the normal direction of $Y$ inside of $X$. 
 
 **Definition.**  The locally [[ringed space]] $\hat Y$ is defined as the [[topological space]] $Y$
-with structure sheaf $\lim O_X/{\mathcal I}^n$, where $\mathcal{I}$ is the defining sheaf of ideals of the closed immersion $Y\hookrightarrow X$.
+with structure sheaf $lim O_X/{\mathcal{I}}^n$, where $\mathcal{I}$ is the defining sheaf of ideals of the closed immersion $Y\hookrightarrow X$.
 (Where $Y$ is a closed subscheme of $X$.) 
 
 **Examples.**  $X=\hat Y$ when $Y=X$.  $\mathrm{Spec} k[t]=X$, $Y=V(t)$, $\hat X=k[t,t^{-1}]$.
@@ -209,7 +209,7 @@ $$
 
 if $\Delta := \epsilon(\delta^2 - \epsilon)^2 \neq 0$ then this is a non-trivial elliptic curve.
 
-If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ (additive or multiplicative formal group law corresponding to [[integral cohomology]] and [[K-theory]], respectively).
+If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ (additive or multiplicative formal group law corresponding to [[ordinary cohomology]] and [[topological K-theory]] [[KU]], respectively).
 
 
 
