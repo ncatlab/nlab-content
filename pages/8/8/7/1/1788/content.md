@@ -1,5 +1,6 @@
 
 \begin{xymatrix@R=24pt@C=40pt}
+  &
   S^2 \times S^2 
   \ar[d]
   \ar[rr]
@@ -24,6 +25,7 @@
   E^2 \times E^2
   \ar[d]
   \\
+  &
   S^2 \wedge S^2
   \ar@{-->}[rr]
     |-{
@@ -39,6 +41,10 @@
       \mathclap{\phantom{\vert_{\vert}}}
     }
   \\
+  \mathbb{C}P^3
+  \ar[r]
+  \ar[d]
+  &
   \mathbb{H}P^1
   \ar@{-->}[rr]
     |-{
@@ -48,6 +54,9 @@
   &&
   E^4
   \\
+  \mathbb{C}P^{\infty}
+  \ar[r]
+  &
   \mathbb{H}P^\infty
   \ar@{=}[r]
   &
