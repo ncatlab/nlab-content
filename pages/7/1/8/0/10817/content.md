@@ -17,5 +17,11 @@ For a nonsingular [[algebraic variety]] $X$ over the [[complex numbers]], the [[
 
 * _Riemann's existence theorem_ ([pdf](http://www.math.uci.edu/~mfried/booklist-ret/chpret4-firsthalf.pdf))
 
+A related result in model theory:
+
+* Rahim Moosa ,_A nonstandard Riemann existence theorem_, Trans. Amer. Math. Soc. 356(5):1781–1797 (2004) [doi](https://doi.org/10.1090/S0002-9947-04-03559-7) 
+
+> We study elementary extensions of compact complex spaces and deduce that every complete type of dimension $1$ is internal to projective space. This amounts to a nonstandard version of the Riemann Existence Theorem, and answers a question posed by Anand Pillay.
+
 [[!redirects Riemann's existence theorem]]
 
