@@ -1,5 +1,5 @@
 
-> This entry is about the isomorphisms in [[cohomology]] induced by [[Thom classes]]. For the [[Pontrjagin-Thom isomorphism]] in [[cobordism theory]] see at _[[Thom's theorem]]_.
+> This entry is about the [[isomorphisms]] in [[cohomology]] induced by [[Thom classes]]. For the [[Pontrjagin-Thom isomorphism]] in [[cobordism theory]] see at _[[Thom's theorem]]_.
 
 ***
 
@@ -23,7 +23,7 @@
 
 ## Idea
 
-For $H$ being [[ordinary cohomology]] with [[coefficients]] in a [[ring]], and $V \to X$ a [[vector bundle]] of rank $n$ over a simply connected CW-complex, the **Thom isomorphism** is the morphism
+For $H$ denoting [[ordinary cohomology]] with [[coefficients]] in some [[ring]], and $V \to X$ a [[vector bundle]] of [[rank]] $n$ over a [[simply connected topological space|simply connected]] [[CW-complex]], the **Thom isomorphism** is the morphism
  
 $$
   c \cup (-)
@@ -34,11 +34,13 @@ $$
   \,.
 $$
 
-from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, given by pullback to the [[Thom space]] followed by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochman 96, section 2.6](#Kochman96)).
+from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, given by [[pullback in cohomology|pullback]] to the [[Thom space]] followed by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. 
 
-In the special case that the vector bundle is trivial of rank $n$, then its [[Thom space]] coincides with the $n$-fold [[suspension]] of the base space ([exmpl.](Thom+space#ThomSpaceConstructionReducingToSuspension)) and the Thom isomorphism coincides with the [[suspension isomorphism]]. In this sense the Thom isomorphism may be regarded as a _twisted suspension isomorphism_.
+That this is indeed an [[isomorphism]] follows via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochman 96, section 2.6](#Kochman96)).
 
-More generally for $E$ a [[multiplicative cohomology theory]], and $V \to X$ a [[vector bundle]] of rank $n$, which is $E$-[[orientation in generalized cohomology|orientable]], there is a generalization to a  **Thom-Dold isomorphism** 
+In the special case that the vector bundle is [[trivial bundle|trivial]] of rank $n$, then its [[Thom space]] coincides with the $n$-fold [[suspension]] of the base space ([exmpl.](Thom+space#ThomSpaceConstructionReducingToSuspension)) and the Thom isomorphism coincides with the [[suspension isomorphism]]. In this sense the Thom isomorphism may be regarded as a _twisted suspension isomorphism_.
+
+More generally, for $E$ a [[Whitehead-generalized cohomology theory|generalized]] [[multiplicative cohomology theory]], and $V \to X$ a [[vector bundle]] of [[rank]] $n$, which is $E$-[[orientation in generalized cohomology|orientable]], there is a generalization to a  **Thom-Dold isomorphism** 
  
 $$
   c \cup (-)
@@ -61,7 +63,7 @@ One may think of the Thom isomorphism from left to right as [[cup product|cuppin
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
 
-Let $V \to B$ be a topological [[vector bundle]] of [[rank]] $n \gt 0$ over a [[simply connected topological space|simply connected]] [[CW-complex]] $B$. Let $R$ be a [[commutative ring]]. 
+Let $V \to B$ be a [[topological vector bundle]] of [[rank]] $n \gt 0$ over a [[simply connected topological space|simply connected]] [[CW-complex]] $B$. Let $R$ be a [[commutative ring]]. 
 
 There exists an element $c \in H^n(Th(V);R)$ (in the [[ordinary cohomology]], with [[coefficients]] in $R$, of the [[Thom space]] of $V$, called a **[[Thom class]]**) such that forming the [[cup product]] with $c$ induces an [[isomorphism]]
 
@@ -104,9 +106,9 @@ $$
 
 Observe that this has the following properties
 
-1. $E \overset{p}{\to} B$ is an [[n-sphere]] [[fiber bundle]], hence in particular a [[Serre fibration]];
+1. $E \overset{p}{\to} B$ is an [[n-sphere]] [[fiber bundle]] ([[spherical fibration]]), hence in particular a [[Serre fibration]];
 
-1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, because of the [[pasting law]] applied to the following pasting diagram of [[pushout]] squares
+1. the [[Thom space]] $Th(V)\simeq E/B$ is the [[quotient topological space|quotient]] of $E$ by the base space, because of the [[pasting law]] applied to the following pasting diagram of [[pushout]] squares:
 
    $$
      \array{ 
@@ -122,7 +124,7 @@ Observe that this has the following properties
      }
    $$
 
-1. hence the [[reduced cohomology]] of the Thom space is ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedToUnreducedGeneralizedCohomology)) the [[relative cohomology]] of $E$ relative $B$
+1. hence the [[reduced cohomology]] of the Thom space is ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedToUnreducedGeneralizedCohomology)) the [[relative cohomology]] of $E$ relative to $B$:
 
    $$
      \tilde H^\bullet(Th(V);R) \simeq H^\bullet(E,B;R)
@@ -303,16 +305,16 @@ An alternative simple formulation in terms of geometric cycles as in [[bivariant
 
 See also
 
-* [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_ , Colloq. Algebraic Topology, August 1&#8211;10, 1962 , Inst. Math. Aarhus Univ.  (1962)  pp. 2&#8211;9
+* [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_, Colloq. Algebraic Topology, August 1&#8211;10, 1962 , Inst. Math. Aarhus Univ.  (1962)  pp. 2&#8211;9
 
 
 * [[Yuli Rudyak]], _On the Thom&#8211;Dold isomorphism for nonorientable bundles_  Soviet Math. Dokl. , 22  (1980)  pp. 842&#8211;844  Dokl. Akad. Nauk. SSSR , 255 : 6  (1980)  pp. 1323&#8211;1325
 
 * [[Robert Switzer]], _Algebraic topology - homotopy and homology_ , Springer  (1975)
 
-* myyn.org (Planetmath) [Thom space](http://myyn.org/m/article/thom-space), [Thom class](http://myyn.org/m/article/thom-class), [Thom isomorphism theorem](http://myyn.org/m/article/thom-isomorphism-theorem)
+* PlanetMath, _[Thom space](http://myyn.org/m/article/thom-space)_, _[Thom class](http://myyn.org/m/article/thom-class)_, _[Thom isomorphism theorem](http://myyn.org/m/article/thom-isomorphism-theorem)_
 
-Formalization in [[homotopy type theory]] is discussed in
+Formalization in [[homotopy type theory]]:
 
 * {#Brunerie16} [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_ ([arXiv:1606.05916](http://arxiv.org/abs/1606.05916))
 
