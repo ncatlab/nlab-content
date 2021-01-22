@@ -12,6 +12,11 @@ A textbook on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] an
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
+On [[transferred model structures]] and [[model structures on functors]]:
+
+* Marzieh Bayeh, [[Kathryn Hess]], [[Varvara Karpova]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
+
+
 
 On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]]:
 
