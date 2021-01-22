@@ -44,10 +44,11 @@ Difference equations are viewed from topos perspective (with sporadic recourse t
 
 * Ivan Tomašić, _A topos-theoretic view of difference algebra_, [arxiv/2001.09075](https://arxiv.org/abs/2001.09075)
 
-#### Connections to [[model theory]]
+#### Connections to and variants in [[model theory]]
 
 * D. Marker, _Model theory of differential fields_, In Model theory of fields, edited by Marker, Messmer, Pillay. Lecture Notes in Logic 5. ASL-Peters, 2006
-* Moshe Kamensky, Anand Pillay, _Interpretations and differential Galois extensions_, IMRN 24 (2016) 7390–7413 [doi](https://doi.org/10.1093/imrn/rnw019)
+* Moshe Kamensky, [[Anand Pillay]], _Interpretations and differential Galois extensions_, IMRN 24 (2016) 7390–7413 [doi](https://doi.org/10.1093/imrn/rnw019)
+* Z. Chatzidakis, Anand Pillay, _Generalized Picard-Vessiot extensions and differential Galois cohomology_, 2017, [pdf](https://www3.nd.edu/~apillay/generalizedPV-PHS.zoe.pdf)
 
 #### Hopf algebraic approach
 
