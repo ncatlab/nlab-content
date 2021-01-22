@@ -1,65 +1,49 @@
 
-[[examples of monos that are epi but not iso -- section]]
-
-### Examples of monos that are epi but not iso
-
-The following lists some examples of [[morphisms]] that are both [[monomorphisms]] and [[epimorphisms]], but not necessarily [[isomorphisms]].
-
-\begin{example}
-
-In the [[category]] of [[Hausdorff topological spaces]], the inclusion $A \hookrightarrow X$ of a [[dense subspace]] is an [[epimorphism]].
-
-\end{example}
-
-See [this Prop.](Hausdorff+space#DenseSubspaceInclusionsAreEpimorphismsAmongHausdorffSpaces) for proof.
-
-
-\begin{example}
-  
-In [[unital ring|unital]] [[Rings]], the canonical inclusion $\mathbb{Z} \overset{i}{\hookrightarrow} \mathbb{Q}$ of the [[integers]] into the [[rational numbers]] is an [[epimorphism]].
-
-\end{example}
-
-See [this Prop.](Ring#InclusionOfIntegersIntoRationalsIsEpimorphismOfRings) for proof.
-
-
-$\rightrightarrows$
-
-$$
-    \underoverset
-    {\simeq}
-    {
-      [v,z]
-      \mapsto
-      \left\{
-      \array{
-        [(0,1)] &\vert& z = \infty
+\begin{xymatrix@R=24pt@C=40pt}
+  S^2 \times S^2 
+  \ar[d]
+  \ar[rr]
+    ^-{
+      \scalebox{.65}{$
+      {\begin{array}{l}
+        \phantom{= -}
+        \,
+        c_1\big( \mathcal{L}_{\mathbb{C}P^1}  \big)
+        \times 
+        c_1\big( \mathcal{L}_{\mathbb{C}P^1}  \big)       
         \\
-        [ (v , z) ] &\vert& else
+        =
+        {\color{blue}-}
+        c_1\big( \mathcal{L}^{\color{blue}\ast}_{\!\!\!\mathbb{C}P^1}  \big)
+        \times
+        c_1\big( \mathcal{L}_{\mathbb{C}P^1}  \big)       
+      \end{array}
       }
-      \right.
-    }{\longrightarrow}
-$$
+      $}
+    }
+  && 
+  E^2 \times E^2
+  \ar[d]
+  \\
+  S^2 \wedge S^2
+  \ar@{-->}[rr]
+  \ar@{=}[d]
+  &&
+  E^2 \wedge E^2
+  \ar[d]
+    |-{
+      \mathclap{\phantom{\vert^{\vert}}}
+      m^E
+      \mathclap{\phantom{\vert_{\vert}}}
+    }
+  \\
+  \mathbb{H}P^1
+  \ar[rr]
+    |-{
+      \; \Sigma^4(1^E) \;
+    }
+  &&
+  E^4
+\end{xymatrix}
 
 
-$$
-  \frac{
-    ( k^{n+1} \setminus \{0\} )
-    \times
-    k
-  }{
-    k^\times
-  }
-  \overset{
-     \;\;
-     [v,z] \mapsto [(v , z )]
-     \;\;
-  }{
-    \longrightarrow
-  }
-  \frac{
-    ( k^{n+2} \setminus \{0\} )
-  }{
-    k^\times
-  }
-$$
