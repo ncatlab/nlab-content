@@ -28,11 +28,47 @@ Contraposing this, we obtain another equivalent definition "the only open subset
 
 * If i: $A \hookrightarrow X$ and $j: X \hookrightarrow B$ are dense subspace inclusions, then so is the composite $j \circ i: A \to B$. 
 
-* If $A\subseteq X$ is a dense subset of topological space $X$ and $A$ is connected, so is $X$.
+* If $A\subseteq X$ is a dense subset of topological space $X$ and $A$ is [[connected topological space|connected]], so is $X$.
 
 * In point-set topology, a space is [[separable space|separable]] if and only if it has a dense subspace with [[countable set|countably]] many points.
 
 * In [[locale]] theory, we have the curious property that any [[intersection]] of dense subspaces is still dense.  (This of course fails rather badly for [[topological spaces]], where the intersection of all dense topological subspaces is the space of [[isolated point]]s.)  One consequence is that every locale has a smallest dense sublocale, the [[double negation sublocale]].
+
+\begin{proposition}
+
+In the [[category]] of [[Hausdorff topological spaces]] (with [[continuous functions]] between them), the inclusion of a [[dense subspace]] 
+
+$$
+  A \overset{\;\;i\;\;}{\hookrightarrow} X
+$$ 
+
+is an [[epimorphism]].
+
+\end{proposition}
+
+\begin{proof}
+
+We have to show that for $(f,g)$ any [[pair]] of [[parallel morphisms]] out of $X$
+
+$$
+  A 
+  \overset{\;\;i\;\;}{\hookrightarrow}
+  X 
+  \underoverset
+  {\;\;g\;\;}
+  {\;\;f\;\;}
+  {\rightrightarrows}
+  Y
+$$
+
+into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. With [[classical logic]] we may equivalently show the [[contrapositive]]: That $f \neq g$ implies $f \circ i \neq  g \circ i$.
+
+So assume that $f \neq g$. This means that there exists $y \in Y$ with $f(y) \neq g(y)$. But since $Y$ is Hausdorff, there exist [[disjoint subset|disjoint]] [[open neighbourhoods]] $O_{f(y)},\;O_{g(y)} \subset Y$, i.e. $f(x) \in O_{f(x)}$ and $g(x) \in O_{g(x)}$ with $O_{f(x)} \cap O_{g(x)} = \varnothing$.
+
+But their [[preimages]] must intersect at least in $x \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$. Since this intersection is an [[open subset]] (as preimages of open subsets are open by definition of [[continuous functions]], and since finite [[intersections]] of open subsets are open by the definition of [[topological spaces]]) there exists a point $a \in A$ with $i(a) \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$ (by definition of [[dense subset]]). But since then $f(i(a)) \in O_{f(x)}$ and $g(i(a)) \in O_{g(x)}$ while $O_{f(x)}$ is [[disjoint subset|disjoint]] from $O_{g(x)}$, it follows that $f(i(a)) \neq g(i(a))$. This means that $f \circ i \neq g \circ i$. 
+
+\end{proof}
+
 
 ## In constructive mathematics
 
@@ -93,7 +129,7 @@ Strongly dense sublocales are discussed in
 
 * [[Peter Johnstone]], *A constructive 'closed subgroup theorem' for localic groups and groupoids*, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1989),  Volume: 30, Issue: 1, page 3-23 [link](https://eudml.org/doc/91430)
 
-* M. Jibladze and [[Peter Johnstone]], *The frame of fibrewise closed nuclei*, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1991), Volume: 32, Issue: 2, page 99-112, [link](https://eudml.org/doc/91478)
+* [[Mamuka Jibladze]], [[Peter Johnstone]], *The frame of fibrewise closed nuclei*, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1991), Volume: 32, Issue: 2, page 99-112, [link](https://eudml.org/doc/91478)
 
 * [[Peter Johnstone]], *Fiberwise separation axioms for locales*
 
