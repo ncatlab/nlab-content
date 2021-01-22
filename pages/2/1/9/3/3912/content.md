@@ -205,7 +205,7 @@ with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\b
 
 Let $E$ be a [[generalized (Eilenberg-Steenrod) cohomology]] theory. First observe that an [[E-orientation]] on $V \to X$ induces an $H \pi_0(E)$-orientation, i.e. in [[ordinary cohomology]] with coefficients in the degree-0 ground ring.
 
-To see this, let's assume $E$ is [[connective spectrum|connective]]. Consider the [[relative Atiyah-Hirzebruch spectral sequence]]
+To see this, let's assume $E$ is [[connective spectrum|connective]]. Consider the relative [[Atiyah-Hirzebruch spectral sequence]]
 
 $$
   \tilde H^p(Th(V), E^q(\ast))
