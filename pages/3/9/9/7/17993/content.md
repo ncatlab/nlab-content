@@ -1,5 +1,5 @@
 
-* [[fundamental product theorem in K-theory]]
+* [[fundamental product theorem in topological K-theory]]
 
 [[!redirects product theorems]]
 
