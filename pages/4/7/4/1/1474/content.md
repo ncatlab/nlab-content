@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -305,6 +306,50 @@ Using [[classical logic]] (but not in [[constructive logic]]) every Hausdorff sp
 
 =--
 
+### Dense subspaces and Epimorphisms
+
+
+\begin{proposition}
+ \label{DenseSubspaceInclusionsAreEpimorphismsAmongHausdorffSpaces}
+
+In the [[category]] of [[Hausdorff topological spaces]] (with [[continuous functions]] between them), the inclusion of a [[dense subspace]] 
+
+$$
+  A \overset{\;\;i\;\;}{\hookrightarrow} X
+$$ 
+
+is an [[epimorphism]].
+
+\end{proposition}
+
+\begin{proof}
+
+We have to show that for $(f,g)$ any [[pair]] of [[parallel morphisms]] out of $X$
+
+$$
+  A 
+  \overset{\;\;i\;\;}{\hookrightarrow}
+  X 
+  \underoverset
+  {\;\;g\;\;}
+  {\;\;f\;\;}
+  {\rightrightarrows}
+  Y
+$$
+
+into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. With [[classical logic]] we may equivalently show the [[contrapositive]]: That $f \neq g$ implies $f \circ i \neq  g \circ i$.
+
+So assume that $f \neq g$. This means that there exists $y \in Y$ with $f(y) \neq g(y)$. Since $Y$ is Hausdorff, there exist then [[disjoint subset|disjoint]] [[open neighbourhoods]] $O_{f(y)},\;O_{g(y)} \subset Y$, i.e. $f(x) \in O_{f(x)}$ and $g(x) \in O_{g(x)}$ with $O_{f(x)} \cap O_{g(x)} = \varnothing$.
+
+But their [[preimages]] must intersect at least in $x \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$. Since this intersection is an [[open subset]] (as preimages of open subsets are open by definition of [[continuous functions]], and since finite [[intersections]] of open subsets are open by the definition of [[topological spaces]]) there exists a point $a \in A$ with $i(a) \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$ (by definition of [[dense subset]]). But since then $f(i(a)) \in O_{f(x)}$ and $g(i(a)) \in O_{g(x)}$ while $O_{f(x)}$ is [[disjoint subset|disjoint]] from $O_{g(x)}$, it follows that $f(i(a)) \neq g(i(a))$. This means that $f \circ i \neq g \circ i$. 
+
+\end{proof}
+
+\linebreak
+
+In fact the converse holds: any [[epimorphism]] in the category of Hausdorff spaces has dense image (e.g. [LL 18](#LL18)).
+
+
 ## Related notions
 
 Arguably, the desire to make spaces Hausdorff ($T_2$) in analysis is really a desire to make them $T_0$; nearly every space that arises in analysis is at least [[regular space|regular]], and a regular $T_0$ space must be Hausdorff.  Forcing a space to be $T_0$ is like forcing a [[category]] to be [[skeletal category|skeletal]]; indeed, forcing a [[preorder]] to be a [[partial order]] is a special case of both (see [[specialisation topology]] for how).  It may be nice to assume, when working with a particular space, that it is $T_0$ but not to assume, when working with a particular underlying set, that every topology on it is $T_0$.
@@ -404,7 +449,12 @@ A detailed discussion of Hausdorff reflection is in
 
 * {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
 
-Comments on the relation to [[topos theory]] are for instance in
+On epimorphisms of Hausdorff spaces:
+
+* {#LL18} Jérôme Lapuyade-Lahorgue, _The epimorphisms of the category Haus are exactly the image-dense morphisms_ ([arXiv:1810.00778](https://arxiv.org/abs/1810.00778))
+
+
+Comments on the relation to [[topos theory]]:
 
 * S. Niefield, _A note on the locally Hausdorff property_, Cahiers TGDC (1983) ([numdam](http://www.numdam.org/item?id=CTGDC_1983__24_1_87_0))
 
