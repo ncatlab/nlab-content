@@ -489,11 +489,6 @@ Volume 74, Springer (1968)
  
 * [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973.
 
-* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
-
-[[Quillen's theorem on MU]] is due to
-
-* {#Quillen69} [[Daniel Quillen]], on the formal group laws of unoriented and complex cobordism theory, 1969, [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183530915)
 
 
 ### 1-Dimensional formal groups 
@@ -503,12 +498,20 @@ A basic introduction is in
 
 * Carl Erickson, _One-dimensional formal groups_ ([pdf](http://people.brandeis.edu/~cwe/pdfs/formal_groups.pdf))
 
-An elementary discussion of [[associativity]] of the formal group law of [[elliptic curves]] is in
+Specifically formal group laws of [[elliptic curves]]:
 
-* {#Friedl17} Stefan Friedl, _An elementary proof of the group law for elliptic curves Stefan Friedl_ ([arXiv:1710.00214](https://arxiv.org/abs/1710.00214))
+* Antonia W. Bluher, _Formal groups, elliptic curves, and some theorems of Couveignes_, in: J.P. Buhler (eds.) _Algorithmic Number Theory_ ANTS 1998. Lecture Notes in Computer Science, vol 1423. Springer 1998 ([arXiv:math/9708215](https://arxiv.org/abs/math/9708215), [doi:10.1007/BFb0054887]( https://doi.org/10.1007/BFb0054887))
 
+* {#Friedl17} Stefan Friedl, _An elementary proof of the group law for elliptic curves_ ([arXiv:1710.00214](https://arxiv.org/abs/1710.00214))
+
+[[Quillen's theorem on MU]] is due to
+
+* {#Quillen69} [[Daniel Quillen]], _On the formal group laws of unoriented and complex cobordism theory_, 1969, [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183530915)
 
 See also
+
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
+
 
 * [[Takeshi Torii]], _One dimensional formal group laws of height $N$ and $N-1$_, PhD thesis 2001 ([pdf](http://mathnt.mat.jhu.edu/mathnew/Thesis/Torii.thesis.pdf))
 
