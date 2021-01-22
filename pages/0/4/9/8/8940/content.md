@@ -34,6 +34,10 @@ The term "gaunt category" was apparently introduced in
 
 in the context of a discussion of [[(infinity,n)-categories]].
 
+In the [[Elephant]], gaunt categories are briefly mentioned under the name "stiff categories", in the paragraph preceding B1.3.11 (about [[split fibration|splitting]] of [[Grothendieck fibrations]]).
+
 
 [[!redirects gaunt category]]
 [[!redirects gaunt categories]]
+[[!redirects stiff category]]
+[[!redirects stiff categories]]
