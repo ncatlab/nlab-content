@@ -68,10 +68,11 @@ This is ([Hrushovski 2006, Th.3.2](#Hrushovski)).
 
 * Margarita Otero, _A survey on groups definable in o-minimal structures_, in: Model theory with applications to algebra and analysis. Vol. 2, 177&#8211;206, London Math. Soc. Lecture Note Ser. __350__, Cambridge Univ. Press 2008, [MR2010b:03042](http://www.ams.org/mathscinet-getitem?mr=2436142), [doi](http://dx.doi.org/10.1017/CBO9780511735219.006)
 
-* [[Ehud Hrushovski]], _Groupoids, imaginaries and internal covers_ (2006), [arxiv/math.LO/0603413](http://arxiv.org/abs/math/0603413) 
- {#Hrushovski06}
+* [[Ehud Hrushovski]], _Groupoids, imaginaries and internal covers_ Turk. J. Math 36 (2012) 173 – 198 [doi](https://doi.org/10.3906/mat-1001-91) [arxiv/math.LO/0603413](http://arxiv.org/abs/math/0603413) (2006) {#Hrushovski06}
 
 * [[Ehud Hrushovski]], _On finite imaginaries_, [arxiv/0902.0842](http://arxiv.org/abs/0902.0842)
+
+* Levon Haykazyan, Rahim Moosa, _Functoriality and uniformity in Hrushovski's groupoid-cover correspondence_, [arxiv/1711.03531](https://arxiv.org/abs/1711.03531)
 
 
 [[!redirects definable groupoids]]
