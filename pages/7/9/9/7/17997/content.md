@@ -82,7 +82,7 @@ $$
 
 from the [[polynomial ring]] in one abstract generator, [[quotient ring|quotiented]] by this relation, to the [[topological K-theory]] ring.
 
-More generally, for $X$ a [[topological space]], then this induces the composite ring homomorphism
+More generally, for $X$ a [[topological space]] this induces the composite ring homomorphism
 
 $$
   \array{
@@ -336,7 +336,7 @@ Review:
 
 * {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in: _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* Varvara Karpova, Section 5.2 in: _Complex Topological K-Theory_, 2009 ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf), [[KarpovaTopologicalKTheory.pdf:file]])
+* [[Varvara Karpova]], Section 5.2 in: _Complex Topological K-Theory_, 2009 ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf), [[KarpovaTopologicalKTheory.pdf:file]])
 
 
 [[!redirects external product theorem]]
