@@ -70,6 +70,10 @@ See also
 
 * Wikipedia, _[Yang-Mills existence and the mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap)_
 
+Discussion of the [[phenomenology]] motivating the problem:
+
+* Craig D. Roberts, _On Mass and Matter_ ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340))
+
 
 
 [[!include open problem of confinement -- references]]
