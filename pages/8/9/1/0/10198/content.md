@@ -46,7 +46,7 @@ The [[philosophy]] of [[mathematics]].
 
 * [[Fernando Zalamea]], _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](&lt;http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>). Transl. into English by Zachary Luke Fraser: _Synthetic philosophy of contemporary mathematics_, Sep. 2011. [bookpage](http://www.urbanomic.com/pub_syntheticmath.php). Some excerpts [here](http://ifile.it/2c3qgz5).
 
-* [[David Corfield]], _Towards a philosophy of real mathematics_, Cambridge University Press, 2003, [gBooks](http://books.google.hr/books?id=s37rhfWs73QC&lpg=PP1&ots=Zobx2bIWFh&dq=david%20corfield%20towards%20a%20philosophy%20of%20real%20mathematics&hl=en&pg=PP1#v=onepage&q&f=false)
+* [[David Corfield]], _Towards a philosophy of real mathematics_, Cambridge University Press, 2003 ([doi:10.1017/CBO9780511487576](https://doi.org/10.1017/CBO9780511487576), [gBooks](http://books.google.hr/books?id=s37rhfWs73QC&lpg=PP1&ots=Zobx2bIWFh&dq=david%20corfield%20towards%20a%20philosophy%20of%20real%20mathematics&hl=en&pg=PP1#v=onepage&q&f=false))
 
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
