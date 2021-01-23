@@ -64,6 +64,9 @@ By the [[coset space]]-realization (eq:SpnCosetSpaceRealization), quaternion pro
 
 ### General
 
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section I.4 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+
 See also 
 
 * Wikipedia, _[Quaternionic projective space](https://en.wikipedia.org/wiki/Quaternionic_projective_space)_
