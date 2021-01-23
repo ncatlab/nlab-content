@@ -216,6 +216,7 @@ $$
   \,.
 $$
 
+(see also [Conner-Floyd 66, Part I, Prop. 4.3](#ConnerFloyd66))
 
 ### As a topological line bundle
   {#AsAtopologicalLieBundle}
@@ -403,6 +404,9 @@ This plays a key role in [[topological K-theory]] and more generally in [[comple
 
 
 ## References
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], p. 21 (28 of 120) in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
 
 Lecture notes:
 
