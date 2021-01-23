@@ -23,9 +23,52 @@ The [[cobordism cohomology theory]] for [[special unitary group]]-[[G-structure|
 
 ## Properties
 
-### General
-
 We write $\Omega^{SU}_\bullet$ for the [[bordism ring]] for [[stable tangent bundle|stable]] [[special unitary group|SU]]-[[G-structure|structure]].
+
+
+### Relation to $MU$
+
+The canonical [[topological group]]-[[subgroup|inclusions]]
+
+$$
+  1
+  \;\subset\;
+  Sp(k)
+  \;\subset\;
+  SU(2k)
+  \;\subset\;
+  U(2k)
+$$ 
+
+([[trivial group]] into [[quaternionic unitary group]] into [[special unitary group]] into [[unitary group]]) induce [[ring spectrum]]-[[homomorphism]] of [[Thom spectra]]
+
+$$
+  M Fr
+   \;\longrightarrow\;
+  M Sp
+   \;\longrightarrow\;
+  M SU
+   \;\longrightarrow\;
+  M \mathrm{U}
+$$
+
+(from [[MFr]] to [[MSp]] to [[MSU]] to [[MU]])
+
+and hence corresponding [[multiplicative cohomology theory]]-[[homomorphisms]] of [[cobordism cohomology theories]], so in particular [[ring homomorphisms]] of [[bordism rings]]
+
+$$
+  \Omega^{fr}_{\bullet}
+   \longrightarrow
+  \Omega^{Sp}_{\bullet}
+   \longrightarrow
+  \Omega^{SU}_{\bullet}
+   \longrightarrow
+  \Omega^{U}_{\bullet}
+$$
+
+(e.g. [Conner-Floyd 66, p. 27 (34 of 120)](#ConnerFloyd66))
+
+
 
 +-- {: .num_prop }  
 ###### Proposition
@@ -147,6 +190,8 @@ Together with the [[K3 surface]] representing $- y_4$ (Prop. \ref{K3SurfaceSpans
 
 
 ## References
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 5 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 On the SU-bordism ring structure away from 2:
 
