@@ -35,6 +35,7 @@ $$
 The [[sequential colimit]] over this sequence is the infinite complex projective space $\mathbb{C}P^\infty$. This is a model for the [[classifying space]] $B U(1)$ of [[circle principal bundles]]/[[complex line bundles]] (an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$).
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn #ComplexProjectiveSpace}
 ###### Definition
