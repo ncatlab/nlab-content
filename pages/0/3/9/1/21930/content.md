@@ -81,6 +81,11 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[Leray-Hirsch theorem]]
 
+* [[quaternionic oriented cohomology]], [[complex oriented cohomology]]
+
+* [[Conner-Floyd Chern classes]]
+
+
 ### 8. Characteristic classes on cobordism
 
 * [[MSp]]
