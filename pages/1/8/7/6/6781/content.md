@@ -80,7 +80,11 @@ $$
 $$
 For this reason, $\phi$ is sometimes called the associator of the quasibialgebra. While it is due Drinfeld, another variant of it, written as a formal power series and used in knot theory is often called the [[Drinfeld associator]] (see there).
 
-A __quasi-Hopf algebra__ is a quasibialgebra with a suitable notion of antipode.
+A __quasi-Hopf algebra__ is a quasibialgebra $(A, \Delta, \varepsilon, \phi)$ equipped with elements $\alpha,\beta \in A$ and an antiautomorhphism $S$ of $A$ such that:
+$$\sum_i S(b_i)\alpha c_i = \varepsilon (a) \alpha, \sum_i b_i\beta S(c_i) = \varepsilon(a)\beta$$
+for $a \in A$ with $\Delta(a) = \sum_i b_i \otimes c_i$ in Sweedler notation. Further we require:
+$$\sum_i X_i\beta S(Y_i)\alpha Z_i = 1, \quad where \sum_i X_i \otimes Y_i\otimes Z_i = \phi,$$
+$$\sum_j S(P_j)\alpha Q_j\beta S(R_j) =1, \quad where \sum_j P_j \otimes Q_j \otimes R_j = \phi^{-1}.$$
 
 ### Twisting quasibialgebras by 2-cochains
 
