@@ -92,12 +92,12 @@ $$
 \partial^i  = id_{A^{\otimes (i-1)}}\otimes \Delta \otimes \id_{A^{\otimes (n-i)}} : A^{\otimes n}\to A^{\otimes (n+1)}, 
 $$
 for $1\leq i\leq n$, and $\partial^0 = 1\otimes id_{A^{\otimes n}}$, $\partial^n = 
-id_{A^{\otimes n}}\otimes 1$. For $F\in H^{\otimes n}$, Majid defines
+id_{A^{\otimes n}}\otimes 1$. For $F\in A^{\otimes n}$, Majid defines
 $$
 \partial^+ F = \prod_{i\,\,\,\,even} (\partial^i F),\,\,\,\,\,\partial^- F = \prod_{i\,\,\,\,odd} (\partial^i F),
 $$
 where the products are in the order of ascending $i$. If $F\in A^{\otimes n}$ is a cochain then its coboundary is $\delta F = (\partial^+ F)(\partial^- F^{-1})$, which is automatically an $(n+1)$-cochain. 
-If $Fin A^{\otimes n}$ is an $n$-cochain and $\phi\in A^{\otimes (n+1)}$ is an $(n+1)$-cochain then one defines a cochain twist $\phi^F$ of $\phi$ by $F$ by the formula
+If $F \in A^{\otimes n}$ is an $n$-cochain and $\phi\in A^{\otimes (n+1)}$ is an $(n+1)$-cochain then one defines a cochain twist $\phi^F$ of $\phi$ by $F$ by the formula
 $$
 \phi^F = (\partial^+ F)\phi(\partial^- F^{-1}).
 $$
