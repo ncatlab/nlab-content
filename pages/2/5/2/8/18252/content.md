@@ -192,9 +192,10 @@ with [[typical fiber]] $k$ instead of $k^\ast$, meaning that the [[action]] of $
 
 Often the dual tautological line bundle is referred to via the notation "$\mathcal{O}_k(1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]].
 
-The horizontal map in (eq:DualTautologicalBundleProjection) [[embedding of topological spaces|embeds]] the [[complement]] of the single point $[(v=0,1)] \in k P^{n+1}$. That point however is the [[limit of a sequence|limit]] as $z \to \infty$, hence is the image of the base point as (eq:DualTautologicalBundleProjection) [[extension|extends]] to a map on the [[Thom space]] of the dual tautological line bundle:
+The horizontal map in (eq:DualTautologicalBundleProjection) [[embedding of topological spaces|embeds]] the [[complement]] of the single point $[(v\! = \! 0,\,1)] \in k P^{n+1}$. That point however is the [[limit of a sequence|limit]] as $z \to \infty$, hence is the image of the base point as (eq:DualTautologicalBundleProjection) [[extension|extends]] to a map on the [[Thom space]] of the dual tautological line bundle:
 
-$$
+\[
+  \label{ThomSpaceOfDualTautologicalBundleIsNextProjectiveSpace}
   Th
   \left(
     \mathcal{L}^\ast_{k P^n}
@@ -214,9 +215,118 @@ $$
     }{\longrightarrow}
    k P^{n+1}
   \,.
+\]
+
+(see also [Conner-Floyd 66, Part I, Prop. 4.3](#ConnerFloyd66) for a [[coset space]]-perspective on this relation).
+
+Notice how the inclusion of the point at $[v,\, z\!=\!\infty] \leftrightarrow [(v\!=\!0,\,1)]$ in the Thom space interplays with the condition that $v = 0$ is excluded in the base space.
+
+Under the canonical inclusion of projective spaces $k P^n \hookrightarrow k P^{n+1}$ their dual tautological line bundles (eq:DualTautologicalBundleProjection) evidently [[pullback bundle|pullback]] to each other, and their total spaces compatibly include into each other:
+
+$$
+  \array{
+    [v,z] &\mapsto& [(0,v),z]
+    \\
+    \mathcal{L}^\ast_{k P^n}
+    &
+    \overset{\;\;\;\;\;\;}{\hookrightarrow}
+    &
+    \mathcal{L}^\ast_{k P^{n+1}}
+    \\
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow
+    \\
+    k P^n
+    &
+    \overset{\;\;\;\;\;\;}{\hookrightarrow}
+    &
+    k P^{n+1}
+    &
+    \\
+    [v] &\mapsto& [(0,v)]
+    \,.
+  }
 $$
 
-(see also [Conner-Floyd 66, Part I, Prop. 4.3](#ConnerFloyd66))
+Here the coordinate expressions make manifest that
+the induced inclusions of the [[Thom spaces]] of the tautological line bundles recover,
+under the identification (eq:ThomSpaceOfDualTautologicalBundleIsNextProjectiveSpace),
+the canonical inclusion of the projective spaces:
+
+$$
+  \array{
+    [(v,z)]
+    &\mapsto&
+    [v,z] 
+    &\mapsto& 
+    [(0,v),z]
+    &\mapsto& 
+    [(0,v,z)]
+    \\
+    k P^{n+1}
+    &=&
+    Th
+    \big(
+      \mathcal{L}^\ast_{k P^n}
+    \big)
+    &
+    \overset{\;\;\;\;\;\;}{\hookrightarrow}
+    &
+    Th
+    \big(
+      \mathcal{L}^\ast_{k P^{n+1}}
+    \big)
+    &=&
+    k P^{n+2}
+    \\
+    &&
+    {}^{\mathllap{zero \atop section}}
+    \big\uparrow
+    &&
+    \big\uparrow
+    {}^{\mathrlap{zero \atop section}}
+    \\
+    k P^n
+    &=&
+    k P^n
+    &
+    \overset{\;\;\;\;\;\;}{\hookrightarrow}
+    &
+    k P^{n+1}
+    &=&
+    k P^{n+1}
+    \\
+    [v]
+    &\mapsto&
+    [v] 
+    &\mapsto& 
+    [(0,v)]
+    &\mapsto&
+    [(0,v)]
+    \,.
+  }
+$$
+
+Notice how, in this coordinatization, the projective spaces are horizontally included by adjoining a 0-coordinate to the _left_ of the sequence and vertically by adjoining a 0-coordinate to the _right_.
+
+It follows that under forming a suitable [[colimit]] over this diagram as $n \to \infty$, in a suitable category (typically in [[homotopy types]] of [[topological spaces]] if $k$ is a [[topological field]], see also [below](#AsAtopologicalLieBundle)), the infinite projective space wants to be equivalent to the Thom space of its tautological line bundle:
+
+$$
+  k P^\infty 
+    \;\simeq\; 
+  k P^{\infty + 1}
+    \;\simeq\;
+  Th
+  \big(
+    \mathcal{L}_{k P^\infty}
+  \big)
+  \,.
+$$
+
+See for instance [this Lemma](universal+complex+orientation+on+MU#UniversalComplexLineBundleThomSpace) at _[[universal complex orientation on MU]]_.
+
+\linebreak
 
 ### As a topological line bundle
   {#AsAtopologicalLieBundle}
