@@ -84,6 +84,7 @@ is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n
 
 * [[universal complex line bundle]]
 
+* [[tautological line bundle]]
 
 ## References
 
