@@ -592,11 +592,14 @@ This plays a key role in [[topological K-theory]] and more generally in [[comple
 
 ## Related concepts
 
-* [[Bott element]]
+* [[canonical line bundle]], [[universal complex line bundle]]
 
 * [[tautological equivariant line bundle]]
 
 * [[resolution of singularities]]
+
+* [[Bott element]]
+
 
 
 ## References
