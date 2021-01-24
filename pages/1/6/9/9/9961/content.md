@@ -45,6 +45,8 @@ Despite the word "theory", lattice gauge theory is more like "computer-simulated
 
 ## Related concepts
 
+* [[Symanzik effective field theory]]
+
 * [[lattice model]]
 
 * [[non-perturbative effect]]
