@@ -632,6 +632,7 @@ $$
 
 
 ### For generalized cohomology groups
+ {#MilnorSequenceForGeneralizedCohomology}
 
 
 #### Of spaces
@@ -952,6 +953,7 @@ Discussion in the context of [[conditional convergence]] of [[spectral sequences
 
 * {#Boardman99} [[Michael Boardman]], section I.1 of _Conditionally convergent spectral sequences_, 1999 ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/boardman-conditionally-1999.pdf))
 
+[[!redirects lim1 and Milnor sequences]]
 [[!redirects lim1]]
 [[!redirects lim^1]]
 [[!redirects Milnor sequence]]
