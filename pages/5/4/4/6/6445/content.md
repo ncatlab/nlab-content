@@ -73,6 +73,10 @@ Vector spaces, algebraic closures, graphs, restrictions, localizations, ...
 
 * If $M$ is a (finite) matroid, then the *matroid dual* $M^\ast$ of $M$ has the same underlying set as $M$, and where a basis in $M^\ast$ is precisely the complement of a basis of $M$. It follows that $M^{\ast\ast} \cong M$ (this is even an equality according to the definition). 
 
+* For a topological space $X$ the exchange condition is equivalent to
+$$ \forall x,y \in X: x\in cl({y}) \Leftrightarrow y\in cl({x}) $$
+In particular, every $T1$-space is a matroid.
+
 ## Model-theoretic geometry 
 
 Essentially the very same notion arises in model theory, except instead of being called a matroid it is called a "pregeometry" or "geometry", and in contrast to combinatorialists, model theorists usually mean _infinite_ matroids. The notion arises in the study of geometry of strongly minimal sets, with applications to stability theory (part of Shelah's classification theory). 
