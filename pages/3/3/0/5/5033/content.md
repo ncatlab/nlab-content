@@ -224,7 +224,7 @@ is an [[(∞,1)-pullback]] square.
 
 This is [[Higher Topos Theory|HTT, prop. 6.3.4.6]].
 
-### Colimits of over-topsoes
+### Colimits of over-toposes
  {#ColimitsOfOverToposes}
 
 +-- {: .num_prop}
