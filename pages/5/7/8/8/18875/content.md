@@ -22,7 +22,11 @@ In [[perturbative quantum field theory]], the LSZ reduction formula ([Lehmann-Sy
 
 ## References
 
-* {#LehmannSymanzikZimmermann55} [[Harry Lehmann]], [[Kurt Symanzik]], [[Wolfhart Zimmermann]], _Zur Formulierung quantisierter Feldtheorien_, Nuovo Cimento 1(1), 205 (1955).
+The original article:
+
+* {#LehmannSymanzikZimmermann55} [[Harry Lehmann]], [[Kurt Symanzik]], [[Wolfhart Zimmermann]], _Zur Formulierung quantisierter Feldtheorien_, Nuovo Cimento 1(1), 205 (1955) ([doi:10.1007/BF02731765](https://doi.org/10.1007/BF02731765))
+
+See also:
 
 * Wikipedia, _[LSZ reduction formula](https://en.wikipedia.org/wiki/LSZ_reduction_formula)_
 
