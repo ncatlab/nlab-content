@@ -27,7 +27,7 @@ is [[n-connected continuous function|(2n+1)-connected]].
 
 =--
 
-(e.g. [Kochmann 96, prop. 3.2.2](#Kochmann96))
+(e.g. [Kochman 96, prop. 3.2.2](#Kochman96))
 
 
 The **Freudenthal suspension theorem** ([Freudenthal 37](#Freudenthal37)) is the following theorem about [[homotopy groups]] of [[n-spheres]]:
@@ -59,7 +59,7 @@ The suspension isomorphism is equivalently given by the map in lemma \ref{SigmaO
 
 e.g. ([Switzer 75, 6.26](#Switzer75))
 
-An alternative proof proceeds from the [[Blakers-Massey theorem]] (e.g. [Kochmann 96, p. 70](#Kochmann96)). 
+An alternative proof proceeds from the [[Blakers-Massey theorem]] (e.g. [Kochman 96, p. 70](#Kochman96)). 
 
 The following more general statement is also often referred to as the Freudenthal suspension theorem:
 
@@ -76,7 +76,7 @@ are [[isomorphisms]]. In particular $[Y,X]$ canonically has the structure of an 
 
 =--
 
-(e.g. [Kochmann 96, corollary 3.2.3](#Kochmann96))
+(e.g. [Kochman 96, corollary 3.2.3](#Kochman96))
 
 
 ## Properties
@@ -100,7 +100,7 @@ Textbook accounts include
 
 * {#Switzer75} [[Robert Switzer]], theorem 6.26 in _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-* {#Kochmann96} [[Stanley Kochmann]], section 3.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 3.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, chapter 4 ([pdf](http://www.math.cornell.edu/~hatcher/AT/ATch4.pdf))
 
