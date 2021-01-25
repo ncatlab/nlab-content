@@ -347,10 +347,9 @@ See also:
 
 ## References
 
-Early appearance of the statement:
-
 * {#Adams74} [[Frank Adams]], Part I, Example 2.1 in: _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Kochmann96} [[Stanley Kochman]], Lemma 2.6.5 in: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
 [[!redirects zero-section into Thom space of universal line bundle is weak homotopy equivalence]]
