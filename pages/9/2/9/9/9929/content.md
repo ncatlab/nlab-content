@@ -1095,6 +1095,9 @@ is a [[Thom class]].
 
 Textbook accounts:
 
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], around Theorem 7.6 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+
 * [[Frank Adams]], part II, section 2 of: _[[Stable homotopy and generalised homology]]_, 1974
 
 * [[John Michael Boardman]], Section 5 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
