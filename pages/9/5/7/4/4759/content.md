@@ -117,7 +117,7 @@ $$
 
 =--
 
-(e.g. [Kochmann 96, theorem 2.3.1](#Kochmann96))
+(e.g. [Kochman 96, theorem 2.3.1](#Kochman96))
 
 +-- {: .proof}
 ###### Proof
@@ -316,7 +316,7 @@ Since here on the right the first Chern classes $x_i$ appear as the [[roots]] of
 
 See also at _[splitting principle -- Examples -- Complex vector bundles and their Chern roots](splitting+principle#ComplexVectorBundleAndTheirChernRoots)_.
 
-(e.g. [Kochmann 96, theorem 2.3.2](#Kochmann96), [tom Dieck 08, theorem 19.3.2](#tomDieck08))
+(e.g. [Kochman 96, theorem 2.3.2](#Kochman96), [tom Dieck 08, theorem 19.3.2](#tomDieck08))
 
 +-- {: .num_lemma #FromBUnTOBU1nPullbackInCohomologyIsInjective}
 ###### Lemma
@@ -337,7 +337,7 @@ is a [[monomorphism]].
 
 =--
 
-A **[[proof]]** of lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective}, via analysis of the [[Serre spectral sequence]] of $U(n)/U(1)^n \to B U(1)^n \to B U(n)$ is indicated in ([Kochmann 96, p. 40](#Kochmann96)). A proof via [[Becker-Gottlieb transfer|transfer]] of the [[Euler class]] of $U(n)/U(1)^n$, following ([Dupont 78, (8.28)](#Dupont78)), is indicated at _[[splitting principle]]_ ([here](splitting+principle#InjectivityOfPullbackInCohomologyToBT)).
+A **[[proof]]** of lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective}, via analysis of the [[Serre spectral sequence]] of $U(n)/U(1)^n \to B U(1)^n \to B U(n)$ is indicated in ([Kochman 96, p. 40](#Kochman96)). A proof via [[Becker-Gottlieb transfer|transfer]] of the [[Euler class]] of $U(n)/U(1)^n$, following ([Dupont 78, (8.28)](#Dupont78)), is indicated at _[[splitting principle]]_ ([here](splitting+principle#InjectivityOfPullbackInCohomologyToBT)).
 
  
 
@@ -512,7 +512,7 @@ $$
 
 =--
 
-e.g. ([Kochmann 96, corollary 2.3.4](#Kochmann96)) 
+e.g. ([Kochman 96, corollary 2.3.4](#Kochman96)) 
 
 +-- {: .proof}
 ###### Proof
@@ -620,7 +620,7 @@ Textbook accounts include
 
 * [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
 
-* {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#tomDieck08} [[Tammo tom Dieck]], _Algebraic topology_, EMS 2008
 
