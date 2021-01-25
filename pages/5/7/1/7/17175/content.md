@@ -16,7 +16,7 @@
 
 ## Idea
 
-The concept of [[Chern classes]] of [[complex vector bundles]], as [[universal characteristic classes]] in [[ordinary cohomology]], generalizes to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]]: the _Conner-Floyd Chern classes_ ([Conner-Floyd 66, Section 7](#ConnerFloyd66), [Adams 74, Section I.4](#Adams74), review in [Kochmann 96, Section 4.3](#Kochmann96), [Lurie 10, Lectures 4 and 5](#Lurie10)):
+The concept of [[Chern classes]] of [[complex vector bundles]], as [[universal characteristic classes]] in [[ordinary cohomology]], generalizes to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]]: the _Conner-Floyd Chern classes_ ([Conner-Floyd 66, Section 7](#ConnerFloyd66), [Adams 74, Section I.4](#Adams74), review in [Kochman 96, Section 4.3](#Kochman96), [Lurie 10, Lectures 4 and 5](#Lurie10)):
 
 For $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]]. See also at _[complex oriented cohomology -- the cohomology ring of BU(n)](complex+oriented+cohomology+theory#TheCohomologyRingOfBUn)_.
 
@@ -336,7 +336,7 @@ An early account in a broader context of [[complex oriented cohomology theory]]:
 
 More recent accounts:
 
-* {#Kochmann96} [[Stanley Kochmann]], Section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], Section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.4 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
