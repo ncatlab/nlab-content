@@ -20,7 +20,7 @@
 
 ## Definition
 
-A [[field]] (as an [[associative algebra|algebraic structure]]) equipped with a [[metric]] is **complete** if the operations are [[continuous function|continuous]] with respect to the induced [[topology]] and it is a [[complete metric space]]. 
+A [[field]] (as an [[associative algebra|algebraic structure]]) equipped with a [[metric]] is **complete** if its operations are [[continuous function|continuous]] with respect to the induced [[topology]] and it is a [[complete metric space]]. 
 
 
 The most important case is the case of [[valued fields]] (i.e. multiplicatively [[normed fields]]).
@@ -35,6 +35,16 @@ One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|compl
 
 * [[archimedean field]], [[archimedean valued field]]
 
+
 [[!include analytic geometry ingredients -- table]]
+
+
+## References
+
+See also:
+
+* Wikipedia, _[Complete field](https://en.wikipedia.org/wiki/Complete_field)_
+
+
 
 [[!redirects complete fields]]
