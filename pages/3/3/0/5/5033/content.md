@@ -59,7 +59,7 @@ This is [[Higher Topos Theory|HTT, prop. 6.3.2.3]]. In the notation there, $LTop
 
 
 +-- {: .num_prop}
-###### Propoisition
+###### Proposition
 
 The $(\infty,1)$-category $(\infty,1)Topos$ has [[filtered (infinity,1)-category|filtered]] [[(∞,1)-limit]]s and the inclusion
 
@@ -74,7 +74,7 @@ preserves these.
 This is [[Higher Topos Theory|HTT, prop. 6.3.3.1]].
 
 +-- {: .num_prop}
-###### Propoisition
+###### Proposition
 
 The $(\infty,1)$-category $(\infty,1)Topos$ has all small [[(∞,1)-limit]]s.
 
