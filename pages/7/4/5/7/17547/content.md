@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Algebraic topology
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include algebraic topology - contents]]
 =--
 #### Algebra
 +--{: .hide}
@@ -87,13 +87,13 @@ where we set $\xi_0 \coloneqq 1$.
 
 =--
 
-This is due to ([Milnor 58](#Milnor58)). See for instance ([Kochmann 96, theorem 2.5.1](#Kochmann96))
+This is due to ([Milnor 58](#Milnor58)). See for instance ([Kochman 96, theorem 2.5.1](#Kochman96))
 
 ## References
 
 * {#Milnor58} [[John Milnor]], _The Steenrod algebra and its dual_, Ann. of Math. 67 (1958), 150&#8211;171.
 
 
-* {#Kochmann96} [[Stanley Kochmann]], section 2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 [[!redirects Milnor theorem]]
