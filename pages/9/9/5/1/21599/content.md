@@ -166,7 +166,7 @@ for all $n \in \mathbb{N}$, hence for all $k n \in k \mathbb{N}$.
 
 =--
 
-([Lashof 63](#Lashof63), [Stong 68, beginning of chapter II](#Stong68), [Kochmann 96, section 1.4](#Kochmann96))
+([Lashof 63](#Lashof63), [Stong 68, beginning of chapter II](#Stong68), [Kochman 96, section 1.4](#Kochman96))
 
 See also at _[[B-bordism]]_.
 
@@ -271,7 +271,7 @@ The concept of tangential structure originates with [[cobordism theory]], origin
 
   reprinted as: Princeton Legacy Library, Princeton University Press 2016 ([ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf))
 
-* {#Kochmann96} [[Stanley Kochmann]], section 1.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 1.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 The terminology "tangential structure" became popular around
 
