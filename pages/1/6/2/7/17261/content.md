@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -100,7 +104,7 @@ $$
 
 =--
 
-(e.g. [Kochmann 96, (4.2.1)](#Kochmann96), [Schwede 12, construction 6.13](#Schwede12))
+(e.g. [Kochman 96, (4.2.1)](#Kochman96), [Schwede 12, construction 6.13](#Schwede12))
 
 
 
@@ -202,7 +206,7 @@ such that
 
 =--
 
-([Kochmann 96, prop. 4.2.10](#Kochmann96))
+([Kochman 96, prop. 4.2.10](#Kochman96))
 
 
 ## References
@@ -211,6 +215,6 @@ Presumeably named after [[Leopold Kronecker]].
 
 * {#Adams74} [[Frank Adams]], Part III, section 13 of _[[Stable homotopy and generalised homology]]_, 1974
 
-* {#Kochmann96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Schwede12} [[Stefan Schwede]], chapter II, section 6 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
