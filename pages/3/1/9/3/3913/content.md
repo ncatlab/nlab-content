@@ -27,7 +27,7 @@ $$
   \,.
 $$
 
-(N.B.: this is a quotient of the *total* spaces of the bundles taken in $Top$, not a bundle quotient in $Top/V$.) 
+(N.B.: this is a quotient of the *total* spaces of the bundles taken in $Top$, not a bundle quotient in $Top_{/V}$.) 
 
 This is equivalently the [[mapping cone]]
 
@@ -69,7 +69,7 @@ The Thom space of the rank-$n$ [[universal vector bundle]] over the [[classifyin
 +-- {: .num_defn #ThomSpace}
 ###### Definition
 
-Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] ([[topological vector bundle]]) over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:c
+Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] ([[topological vector bundle]]) over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
 
 1. the **unit disk bundle** $D(V) \to X$ is the subbundle of elements of [[norm]] $\leq 1$;
 
