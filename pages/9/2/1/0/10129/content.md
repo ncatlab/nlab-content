@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -52,11 +56,11 @@ $$
   \Sigma^p E \wedge X
 $$
 
-([e.g. Kochmann 96, p. 136](#Kochmann96))
+([e.g. Kochman 96, p. 136](#Kochman96))
 
 This pairing induces a corresponding pairing on [[Atiyah-Hirzebruch spectral sequences]] (in the manner discussed at [[multiplicative cohomology theory]]/[[multiplicative spectral sequence]]), such that on the second page it restricts to the cap prodct in ordinary cohomology.
 
-([e.g. Kochmann 96, p. 138](#Kochmann96))
+([e.g. Kochman 96, p. 138](#Kochman96))
 
 
 ## Related concepts
@@ -71,7 +75,7 @@ This pairing induces a corresponding pairing on [[Atiyah-Hirzebruch spectral seq
 
 ## References
 
-* {#Kochmann96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
 [[!redirects cap products]]
