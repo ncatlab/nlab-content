@@ -369,6 +369,12 @@ Since the cohomology in degree $k$ only depends on the $k$-skeleton, and since f
 
 =--
 
+## Examples
+
+### Thom space of universal line bundle
+
+See at _[[zero-section into Thom space of universal line bundle is weak equivalence]]_.
+
 
 
 ## Related concepts
