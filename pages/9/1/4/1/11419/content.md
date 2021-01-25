@@ -213,7 +213,7 @@ Discussion in the context of [[complex oriented cohomology theory]] and their [[
 
 * [Kochmann 96, section 4.3](#Kochmann96)
 
-* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.3 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.3 and Theorem 3.22 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
 * [[Jacob Lurie]], lecture 4 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) 
 
