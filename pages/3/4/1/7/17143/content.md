@@ -31,7 +31,8 @@ Hence $MU$ is the universal [[complex oriented cohomology theory]].
 ## Details
 
 
-##### Conner-Floyd-Chern classes are Thom classes
+##### Conner-Floyd $E$-Chern classes are $E$-Thom classes
+  {#ConnerFloydChernClassesAreThomClasses}
 
 We discuss that for $E$ a [[complex oriented cohomology theory]], the $n$th universal [[Conner-Floyd-Chern class]] $c^E_n$ is in fact a universal [[Thom class]] for rank $n$ [[complex vector bundles]]. On the one hand this says that the choice of a [[complex oriented cohomology theory|complex orientation]] on $E$ indeed universally [[orientation in generalized cohomology|orients]] all [[complex vector bundles]]. On the other hand, we interpret this fact [below](#ComplexOrientationAsRingSpectrumMaps) as the [[unitality]] condition on a [[homomorphism]] of [[homotopy commutative ring spectra]] $M U \to E$ which represent that universal orienation.
 
@@ -578,6 +579,8 @@ The analogous universal finite-rank complex orientation on [[MΩΩSU(n)]]: [Hopk
 
 
 ## Related concepts
+
+* [[zero-section into Thom space of universal line bundle is weak equivalence]]
 
 * [[Lazard's theorem]]
 
