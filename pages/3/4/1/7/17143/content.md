@@ -92,7 +92,7 @@ In particular:
 
 +-- {: .num_lemma #UniversalComplexLineBundleThomSpace}
 ###### Lemma
-**([[zero-section into Thom space of universal line bundle is homotopy equivalence]])
+**([[zero-section into Thom space of universal line bundle is weak equivalence]])
 
 The [[zero-section]] map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the infinite [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] (the [[tautological line bundle]] on infinite [[complex projective space]]) is a [[weak homotopy equivalence]]
 
