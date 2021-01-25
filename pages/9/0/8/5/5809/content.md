@@ -211,7 +211,7 @@ More:
 
 For [[Steenrod operations]] on [[complex oriented cohomology|complex-oriented]] [[Whitehead-generalized cohomology|generalized cohomology]] (such as [[MU]] and [[BP]]):
 
-* {#Kochmann96} [[Stanley Kochmann]], section 2.5 and 3.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 2.5 and 3.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 ### On differential cohomology
 
