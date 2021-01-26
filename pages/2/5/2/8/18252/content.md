@@ -130,7 +130,7 @@ Here:
     }
   \]
 
-* $k^\ast$ is $k$ equipped with the _dual_ $k^\times$-action from the _left_, in this sense:
+* $k^\ast$ is $k$ equipped with the _inverse_ $k^\times$-action from the _left_, in this sense:
 
   \[
     \label{DualActionOnk}
@@ -142,6 +142,8 @@ Here:
       (z,g) &\mapsto& z^{-1} \cdot g
     }
   \]
+
+  (the reader might insist that (eq:RightDirectMultiplicationAction) and  (eq:DualActionOnk) are thus actions of the [[opposite group]] $(k^\times)^{op}$, but we shall not make that notationally explicit, for ease of readability)
 
 * $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space]] by the [[diagonal action]]; 
 
