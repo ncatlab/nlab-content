@@ -239,6 +239,10 @@ which at each stage $n$ exhibit [[CW-complex]]-[[mathematical structure|structur
 
 =--
 
+## Related statements
+
+* [[zero-section into Thom space of universal line bundle is weak equivalence]]
+
 ## References
 
 The case of [[octonionic projective space]]:
