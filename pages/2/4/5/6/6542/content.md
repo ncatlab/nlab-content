@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -58,6 +62,45 @@ $$
 =--
 
 (e.g. [Walschap 04, Section 6.4](#Walschap04))
+
+### Relation to top Chern class
+
+\begin{prop}
+  The [[top Chern class]] of a [[complex vector bundle]] $\mathcal{V}_X$ equals the [[Euler class]] $e$ of the underlying [[real vector bundle]] $\mathcal{V}^{\mathbb{R}}_X$:
+
+$$
+  \mathcal{V}_X
+  \;
+  \text{has complex rank}\;n
+  \;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;   
+  c_n
+  \big(
+    \mathcal{V}_X
+  \big)
+  \;\;
+    =
+  \;\;
+  e
+  \big(
+    \mathcal{V}^{\mathbb{R}}_X
+  \big)
+  \;\;\;\;
+  \in
+  H^{2n}
+  \big(
+   X; 
+   \,
+   \mathbb{Z} 
+  \big)
+  \,.
+$$
+\end{prop}
+
+(e.g. [Bott-Tu 82 (20.10.6)](#BottTu82))
+
+For more see at _[[top Chern class]]_.
 
 
 ### Poincaré–Hopf theorem
