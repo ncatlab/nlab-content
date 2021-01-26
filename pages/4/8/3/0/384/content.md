@@ -541,6 +541,9 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
   * In particular, in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
 
+* The [[n-spheres]] have a standard CW-complex structure, with exactly 2-cells in each dimension, obtained [[induction|inductively]] by [[space attachment|attaching]] two $n$-dimensional [[hemispheres]] to the $(n-1)$-sphere regarded as the [[equator]] in the $n$-sphere.
+
+* The [[infinite-dimensional sphere]] may be realized as the CW-complex which is the [[colimit]] over the resulting [[relative cell complex]]-inclusions $S^n \hookrightarrow S^{n + 1} \hookrightarrow S^{n + 2} \hookrightarrow \cdots$.
 
 * Every [[projective space]] over the [[real numbers]], [[complex numbers]] or [[quaternions]] has the structure of a [[CW-complex]] with a single cell i in each dimension $k$, $2k$ or $4k$, respectively. See at _[[cell structure of K-projective space]]_.
 
