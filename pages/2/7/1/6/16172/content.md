@@ -86,6 +86,12 @@ Discussion of [[supergravity]] [[black brane]]-solutions at conical singularitie
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]], _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
+A suggestion that there is an analogue of [[AdS-CFT duality]] for conical bulk spacetimes and their conical singularities:
+
+* Rong-Xin Miao, _Codimension-$n$ Holography for the Cones_ ([arXiv:2101.10031](https://arxiv.org/abs/2101.10031))
+
+
+
 
 [[!include G2-conifolds -- references]]
 
