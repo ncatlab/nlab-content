@@ -25,7 +25,7 @@
 
 ### General
 
-There are several ways to make sense of the notion of the [[n-sphere]] in the limit (rather: [[colimit]]) that $n \to \infty$. Typically the resulting _infinite-dimensional sphere_ $S^\infty$ has the remarkable property that it is [[contractible topological space|contractible]] as a [[topological space]] or at least weakly contractible, in that its map to the [[point]] is a [[weak homotopy equivalence]].
+There are several ways to make sense of the notion of the [[n-sphere]] in the limit (rather: [[colimit]]) that $n \to \infty$. Typically the resulting _infinite-dimensional sphere_ $S^\infty$ has the remarkable property that it is [[contractible topological space|contractible]] as a [[topological space]] -- or at least weakly contractible, in that its map to the [[point]] is a [[weak homotopy equivalence]].
 
 
 ### In homotopy theory
@@ -41,9 +41,9 @@ For example, the [[n-sphere|2k-sphere]] is the total space of the [[tautological
 ### An an infinite spherical cell complex
  {#AsAnInfiniteSphericalCellComplex}
 
-Realizing the [[n-sphere]] as a [[cell complex]] of sorts, such that $S^n \hookrightarrow S^{n+1}$ is a [[relative cell complex]]-inclusion for all $n \in \mathbb{N}$, the infinite-dimensional sphere may be taken to be the [[colimit]] over this sequence of inclusions.
+Realizing the [[n-sphere]] as a [[cell complex]] of sorts, such that $S^n \hookrightarrow S^{n+1}$ is a [[relative cell complex]]-inclusion for all $n \in \mathbb{N}$, the infinite-dimensional sphere may be taken to be the [[colimit]] over this sequence of inclusions. Since the [[n-sphere|n+1-sphere]] is [[n-connected topological space|n-connected]] it follows that $S^\infty$ is $\infty$-connected and hence weakly contractible:
 
-For example, in the [[category]] [[Top]] of [[topological spaces]], the [[n-sphere]] has a standard [[CW-complex]] structure with exactly 2-cells in each dimension, obtained [[induction|inductively]] by [[space attachment|attaching]] two $n$-dimensional [[hemispheres]] to the $(n-1)$-sphere regarded as the [[equator]] in the $n$-sphere.
+Specifically in the [[category]] [[Top]] of [[topological spaces]], the [[n-sphere]] has a standard [[CW-complex]] structure with exactly 2-cells in each dimension, obtained [[induction|inductively]] by [[space attachment|attaching]] two $n$-dimensional [[hemispheres]] to the $(n-1)$-sphere regarded as the [[equator]] in the $n$-sphere.
 
 Since forming [[homotopy groups]] $\pi_k(-)$ commutes with taking the colimit over these [[relative cell complex]] inclusions (by the [[skeleton]] filtration), and since the [[n-sphere]] has trivial homotopy groups in dimension $k \lt n$, it follows at once that the homotopy groups of the infinite-dimensional sphere all vanish, and hence that it is [[weak equivalence|weakly equivalent]] to the point in the [[classical model structure on topological spaces]]:
 
@@ -139,6 +139,8 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 ## Related concepts
 
 * [[Kuiper's theorem]]
+
+* [[n-connected object]]
 
 [[!redirects infinite-dimensional spheres]]
 
