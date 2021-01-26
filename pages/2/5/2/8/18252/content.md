@@ -25,23 +25,22 @@ The canonical [[line bundle]] over a [[projective space]] is sometimes called it
 
 ## Definition
 
-In the following, let $k$ be a [[field]], possibly a [[skew-field]] 
+In the following, let $k$ be a [[star-algebra|star]]-[[field]], possibly a [[skew-field]] 
 
 $$
-  k \,\in\, SkewFields
+  k \,\in\, StarSkewFields
   \,.
 $$
-
-(In fact, all the algebra that follows works for $k$ any [[ring]]).
 
 In the context of [[algebraic topology]] or [[differential topology]], one is usually interested in $k$ being one of the three [[associative algebra|associative]] [[real normed division algebras]] ([[real numbers]], [[complex numbers]] or [[quaternions]]):
 
 $$
   k \,\in\, \big\{ \mathbb{R}, \mathbb{C}, \mathbb{H}\big\}
-  \,.
 $$
 
-The relevance of the [[quaternions]] here is the reason to insist on the generality of [[skew-fields]] and hence of some pedantry about order of products in the following. (For [[octonions]] the notion of tautological lines should make some sense over the first [[octonionic projective space]] but not beyond.)
+equipped with their canonical [[quaternionic conjugation|conjugation]] operations.
+
+The relevance of the [[quaternions]] here is the reason to insist on the generality of [[skew-fields]] and hence of some pedantry about order of products and distinction of left/right [[actions]] in the following. (For [[octonions]] the notion of tautological lines should make some sense over the first [[octonionic projective space]] but not beyond.)
 
 Let $n \in \mathbb{N}$ be a [[natural number]].
 
@@ -145,7 +144,7 @@ Here:
 
   (equivalently, (eq:RightDirectMultiplicationAction) and  (eq:DualActionOnk) are left actions of the [[opposite group]] $(k^\times)^{op}$)
 
-* $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space]] by the [[diagonal action]]; 
+* $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space|produc]] of right $k^\times$-[[G-space|spaces]] by their [[diagonal action]]; 
 
 * $[-]$ denotes its elements as [[equivalence classes]] of elements of the original space;
 
@@ -187,6 +186,8 @@ Here:
     \,.
   }
 \]
+
+For $k$ a [[star algebra]], the quotient space (eq:TautologicalBundleProjection) becomes a $\mathbb{K}$-[[vector bundle]] (specifically: [[line bundle]]) via the residual left action of $\mathbb{K}$ on itself by _[[quaternionic conjugation|conjugate]] right multiplication_.
 
 
 The [[line bundle]] (eq:TautologicalBundleProjection) is "tautological" in the sense that its [[fiber]] over a point labeled $[v]$ -- which may be regarded as the _name_ of the line [[linear span|spanned]] by the vector $v \in k^{n+1}$ -- consists of all the points $v \!\cdot\! z$ _on that line_ -- as made explicit by the horizontal map in (eq:TautologicalBundleProjection).
