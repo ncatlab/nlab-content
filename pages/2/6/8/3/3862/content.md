@@ -25,19 +25,19 @@ $$
 
 a [[linear map]].
 
-Write $\wedge^n V$ and $\wedge^n W$ for the _top exterior power_ of these vector spaces, the skew-symmetrized $n$th [[tensor algebra|tensor power]] of $V$ and $W$. These are 1-dimensional vector spaces, hence [[line]]s over the ground field. The linear map $T$ induces a linear map 
+Write $\wedge^n V$ and $\wedge^n W$ for the _top exterior power_ of these vector spaces, the skew-symmetrized $n$th [[tensor algebra|tensor power]] of $V$ and $W$. These are 1-dimensional vector spaces, hence [[lines]] over the [[ground field]]. The linear map $T$ induces a linear map 
 
 $$
-  det T : \wedge^n V\to \wedge^n W
+  det T \colon \wedge^n V\to \wedge^n W
 $$ 
 
-between these lines. This is the **[[determinant]]** of $T$. More specifically, if $V = W$ (being of the same finite dimension, both are necessarily [[isomorphic]] but not necessarily canonically so) then $det T : \wedge^n V \to \wedge^n V$ is a linear endomorphism of a 1-dimensional vector space and by the equivalence
+between these lines. This is the **[[determinant]]** of $T$. More specifically, if $V = W$ (being of the same finite dimension, both are necessarily [[isomorphic]] but not necessarily canonically so) then $det T : \wedge^n V \to \wedge^n V$ is a linear [[endomorphism]] of a 1-dimensional vector space and, by the equivalence
 
 $$
   End(\wedge^n V) \simeq k
 $$
 
-of such endomorphisms with the ground [[field]] $k$ is identified with an element in $k$
+of such endomorphisms with the [[ground field]] $k$, is identified with an element in $k$
 
 $$
   det T \in k
@@ -59,7 +59,7 @@ $$
   \,.
 $$
 
-Any such functor $F : Vect \to Vect$ with certain continuity assumptions induces an endo-functor on the category of [[vector bundle]]s $VectBund(X)$ over an arbitrary [[manifold]] $X$. 
+Any such functor $F : Vect \to Vect$ with certain continuity assumptions induces an endo-functor on the category of [[vector bundles]] $VectBund(X)$ over any [[manifold]] $X$. 
 
 Concretely, if a vector bundle $E \to X$ is given by a [[Cech cohomology|Cech cocycle]] 
 
@@ -99,7 +99,7 @@ $$
  E : X \stackrel{\simeq}{\leftarrow} C(U_i) \stackrel{g_{i j}}{\to} \mathbf{B} U(n)
 $$ 
 
-be a [[unitary group]]-[[principal bundle]] (to which is canonically [[associated bundle|associated]] a rank-$n$ complex [[vector bundle]]). Then the single [[characteristic class]]
+be a [[unitary group]]-[[principal bundle]] (to which is canonically [[associated bundle|associated]] a rank-$n$ [[complex vector bundle]]). Then the single [[characteristic class]]
 
 $$
   [det E] \in H^2(X, \mathbb{Z})
@@ -108,10 +108,12 @@ $$
 of its determinant [[circle bundle]]
 
 $$
- det E : X \stackrel{\simeq}{\leftarrow} C(U_i) \stackrel{det g_{i j}}{\to} \mathbf{B} U(1)
+ det E 
+  \colon 
+  X \stackrel{\simeq}{\leftarrow} C(U_i) \stackrel{det g_{i j}}{\to} \mathbf{B} U(1)
 $$ 
 
-is the first [[Chern class]] of $E$
+is the [[first Chern class]] of $E$
 
 $$
   [det E] = c_1(E)
