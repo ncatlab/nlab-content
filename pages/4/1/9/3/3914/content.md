@@ -49,7 +49,7 @@ $$
   u \in \tilde E^n(Th(V))
 $$ 
 
-in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom space]] of $V$, such that for every point $x \in X$ its restriction $i_x^* u$ along 
+in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom space]] of $V$, such that for every point $x \in X$ its [[pullback in cohomology|restriction]] $i_x^* u$ along 
 
 $$
   i_x 
@@ -72,7 +72,7 @@ for
 
 =--
 
-(e.g. [Kochmann 96, def. 4.3.4](#Kochmann96))
+(e.g. [Kochman 96, def. 4.3.4](#Kochman96))
 
 
 #### Orientation of a manifold
@@ -103,7 +103,7 @@ where the isomorphism is the excision isomorphism ([def.](generalized+homology#e
 
 =--
 
-(e.g.  [Kochmann 96, p. 134](#Kochmann96))
+(e.g.  [Kochman 96, p. 134](#Kochman96))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -112,7 +112,7 @@ $E$-orientations of manifolds (def. \ref{EOrientationOfAManifold}) are equivalen
 
 =--
 
-(e.g. [Rudyak 98, chapter V, theorem 2.4](#Rudyak98)) (also [Kochmann 96, prop. 4.3.5](#Kochmann96), but maybe that proof needs an extra argument)
+(e.g. [Rudyak 98, chapter V, theorem 2.4](#Rudyak98)) (also [Kochman 96, prop. 4.3.5](#Kochman96), but maybe that proof needs an extra argument)
 
 #### Universal orientation of vector bundles
  {#UniversalOrientationOfVectorBundles}
@@ -581,6 +581,42 @@ is discussed in ([Hopkins, last pages](#Hopkins)).
 
 ## Properties
 
+### Relation to top Chern class
+
+\begin{prop}
+  The [[top Chern class]] of a [[complex vector bundle]] $\mathcal{V}_X$ equals the [[pullback in cohomology|pullback]] of any [[Thom class]] 
+$th \;\in\; H^{2n}\big( \mathcal{V}_X; \mathbb{Z} \big)$ on $\mathcal{V}_X$ along the [[zero-section]]:
+
+$$
+  \mathcal{V}_X
+  \;
+  \text{has complex rank}\;n
+  \;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;   
+  c_n
+  \big(
+    \mathcal{V}_X
+  \big)
+  \;\;\;  
+    =
+  \;\;\;
+  (0_X)^\ast
+  (th)
+  \;\;
+  \in
+  \;
+  H^{2n}
+  \big(
+    X ;
+    \,
+    \mathbb{Z}
+  \big)
+$$
+\end{prop}
+
+For [[ordinary cohomology]] this is [Bott-Tu 82, Prop. 12.4](top+Chern+class#BottTu82). For [[Whitehead-generalized cohomology]] see at _[[universal complex orientation on MU]]_.
+
 ### Relation to the Todd class 
 
 +-- {: .num_prop #RationalToddClassIsChernCharacterOfThomClass} 
@@ -685,7 +721,7 @@ Discussion in terms of [[Thom classes]]:
 
 * [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Rudyak98} [[Yuli Rudyak]], _In Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
 
@@ -694,6 +730,7 @@ Discussion in terms of [[Thom classes]]:
 * [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
 
 * [[Manifold Atlas]], _[Orientation of manifolds in generalized cohomology theories](http://www.map.mpim-bonn.mpg.de/Orientation_of_manifolds_in_generalized_cohomology_theories)_
+
 
 A comprehensive account of the general abstract perspective (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
