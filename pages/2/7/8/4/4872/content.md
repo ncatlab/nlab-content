@@ -30,7 +30,7 @@
 * [[Hopf link]]
 
 
-**Types*
+**Types**
 
 * [[prime knot]]
 
