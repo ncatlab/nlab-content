@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -61,14 +65,18 @@ $$
 
 ## Related concepts
 
-* [[Chern class]]
+* [[Chern class]], [[top Chern class]]
 
 * [[Dixmier-Douady class]]
 
+* [[complex oriented cohomology]]
+
 ## References
+
+See the references at _[[Chern class]]_ and _[[characteristic class]]_.
 
 In [[complex geometry]]
 
-* {#Huybrechts04} [[Daniel Huybrechts]] _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
+* {#Huybrechts04} [[Daniel Huybrechts]], _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
 
 [[!redirects first Chern classes]]
