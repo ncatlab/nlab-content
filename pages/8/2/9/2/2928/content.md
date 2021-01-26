@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -52,8 +62,12 @@ and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ
 ## Related concepts
 
 * [[chord diagram]]
+
 * [[dagger category]]
+
 * [[duality]]
+
+* [[star-algebra]], [[complex conjugation]]
 
 ## References
 
