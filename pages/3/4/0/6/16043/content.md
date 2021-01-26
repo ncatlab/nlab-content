@@ -35,6 +35,8 @@ The [[prime geodesic theorem]] (e.g. [Soundararajan-Young 13](#SoundararajanYoun
 
 ## Related concepts
 
+* [[prime number]], [[prime knot]]
+
 * The [[Selberg zeta function]] of a hyperbolic manifold is an [[infinite product]] over prime geodesics.
 
 ## References
