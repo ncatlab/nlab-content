@@ -140,7 +140,7 @@ A definition and discussion of pasting diagrams in [[strict omega-categories]] i
 
 The notion of pasting scheme used by Crans was introduced by Johnson, 
 
-* Michael Johnson, The combinatorics of categorical pasting, J. Pure Appl. Alg. 62 (1989), 211-225. 
+* [[Michael Johnson]], The combinatorics of categorical pasting, J. Pure Appl. Alg. 62 (1989), 211-225. 
 
 Other notions of pasting presentations have been given by Street and by Steiner, 
 
