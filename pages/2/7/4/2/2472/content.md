@@ -91,7 +91,7 @@ Other accounts include
 * Hans Grauert, Reinhold Remmert, _Coherent analytic sheaves_, Springer 1984
 * [[R. Cluckers]], L. Lipshitz, _Fields with analytic structure_, J. Eur. Math. Soc. __13__, 1147&#8211;1223, [pdf](http://wis.kuleuven.be/algebra/Raf/prints/JEMS.pdf)
 and several articles (in various formalisms) in collection
-* R. Cluckers, J. Nicaise, J. Sebag (Editors), _Motivic Integration and its Interactions with Model Theory and Non-Archimedean Geometry_, 2 vols.
+* R. Cluckers, J. Nicaise, J. Sebag (Editors), _Motivic integration and its interactions with [[model theory]] and non-archimedean Geometry_, 2 vols.
 London Mathematical Society Lecture Note Series __383__, __384__ 
 * Peter Schneider, _Points of rigid analytic varieties_, J. Reine Angew. Math. 434 (1993), 127&#8211;157, [MR94b:14017](http://www.ams.org/mathscinet-getitem?mr=1195693), [doi](http://dx.doi.org/10.1515/crll.1993.434.127)
 
@@ -100,13 +100,13 @@ See also
 * [[Kiran Kedlaya]], _$p$-Adic differential equations_ ([pdf](http://www-math.mit.edu/~kedlaya/18.787/compiled.pdf))
   {#Kedlaya}
 
+category: geometry
 
 [[!redirects rigid analytic geometries]]
 
 [[!redirects rigid analytic space]]
-[[!rigid analytic spaces]]
+[[!redirects rigid analytic spaces]]
 
 
 [[!redirects rigid geometry]]
 [[!redirects rigid geometries]]
-
