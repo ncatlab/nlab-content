@@ -76,6 +76,8 @@ Via simplicial [[nerve]] functors geometric realization of simplicial sets induc
 
 * [[geometric realization of categories]]
 
+For the case of [[cubical set|cubical sets]], see [[cubical geometric realisation]].
+
 ### Of simplicial topological spaces
  {#OfSimplicialTopologicalSpaces}
 
@@ -339,7 +341,7 @@ The previous two sections show that the geometric realization preserves finite l
 
 * **geometric realization**
 
-  * [[geometric realization of categories|of categories]], [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
+  * of [[geometric realization of categories|categories]], [[geometric realization of simplicial topological spaces|simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|cohesive ∞-groupoids]], [[geometric realisation of cubical sets|cubical sets]].
 
 * [[totalization]]
 
