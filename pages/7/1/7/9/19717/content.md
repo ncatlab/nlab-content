@@ -61,4 +61,6 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 
 * [[David Spivak]], _Lenses:  applications and generalizations_, [slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf) of talk at ACT 19. 
 
+* [[Michael Johnson]], [[Robert Rosebrugh]], _The more legs the merrier: A new composition for symmetric (multi-)lenses_, ([arXiv:2101.10482](https://arxiv.org/abs/2101.10482))
+
 [[!redirects lenses (in computer science)]]
