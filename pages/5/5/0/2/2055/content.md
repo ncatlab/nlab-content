@@ -66,6 +66,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [Mathematics Literature Project](http://tqft.net/mlp/wiki/The_Mathematics_Literature_Project), listing recent journals with freely available alternatives for papers, as well as hosting a copy of mathematics journals in Elsevier's Open Archives (torrents of complete journals up to and including 2009 issues)
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
+* [Model theory and Analysis](https://ms.mcmaster.ca/~speisseg/blog) by Patrick Speissegger
 * [Online Encyclopedia of Integer Sequences](https://oeis.org)
 * [open problem garden](http://garden.irmacs.sfu.ca)
 * [PolyMath](http://michaelnielsen.org/polymath1/index.php?title=Main_Page) Wiki for massively collaborative online mathematical projects.
