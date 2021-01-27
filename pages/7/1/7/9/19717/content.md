@@ -49,7 +49,7 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 
 * Foster, J., Greenwald, M., Moore, J., Pierce, B. and Schmitt, A. (2007)  _Combinators for bidirectional  tree  transformations:  A  linguistic  approach  to  the  view  update  problem._ ACM Transactions on Programming Languages and Systems 29
 
-* Michael Johnson, Robert Rosebrugh, and R. J. Wood.  _Lenses, fibrations and universal translations._ Math. Structures Comput. Sci., 22(1):25–42, 2012
+* [[Michael Johnson]], [[Robert Rosebrugh]], and R. J. Wood.  _Lenses, fibrations and universal translations._ Math. Structures Comput. Sci., 22(1):25–42, 2012
 
 * [[Bartosz Milewski]], [Lenses, Stores, and Yoneda](https://bartoszmilewski.com/2013/10/08/lenses-stores-and-yoneda/)
 
@@ -62,5 +62,7 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 * [[David Spivak]], _Lenses:  applications and generalizations_, [slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf) of talk at ACT 19. 
 
 * [[Michael Johnson]], [[Robert Rosebrugh]], _The more legs the merrier: A new composition for symmetric (multi-)lenses_, ([arXiv:2101.10482](https://arxiv.org/abs/2101.10482))
+
+* Bryce Clarke, _A diagrammatic approach to symmetric lenses_, ([arXiv:2101.10481](https://arxiv.org/abs/2101.10481))
 
 [[!redirects lenses (in computer science)]]
