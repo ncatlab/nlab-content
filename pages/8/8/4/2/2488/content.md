@@ -113,7 +113,8 @@ By the [characterization of homotopy fiber of functor categories](http://ncatlab
 this is equivalent to saying that $f$ is $k$-truncated when it is so regarded as an
 object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$. (See also [[Higher Topos Theory|HTT, rem. 5.5.6.12]].)
 
-Unwinding the definitions and applying the long exact sequence of homotopy groups, we have
+Unwinding the definitions and applying the [[long exact sequence of homotopy groups]], we have:
+
 +-- {: .num_prop }
 ###### Proposition
 For $n \geq -1$, a morphism $f : X \to Y$ of ∞-groupoids is $n$-truncated
