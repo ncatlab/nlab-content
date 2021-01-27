@@ -1,4 +1,6 @@
 
+> For the use of "categorical"/"categorial" below, see at _[[categorical semantics]]_ the section on [Terminology](categorical+semantics#Terminology).
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
