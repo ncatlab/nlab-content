@@ -53,6 +53,13 @@ An __infinitary pretopos__ is an [[infinitary coherent category]] which is both 
 
 An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] included) is sometimes called an "$\infty$-pretopos" (e.g. in the [[Elephant]]), but we avoid that term because of potential confusion with the notion of [[(∞,1)-pretopos]].
 
+## Examples
+
+Of course, any [[topos]] is a [[pretopos]], so any example there is an example of a [[pretopos]].
+
+An example of a pretopos that is not a [[topos]] is the [[category]]
+of [[compact Hausdorff spaces]] \cite{Taylor}.
+
 ## Properties
 
 ### Internal logic and mathematics in pretopoi
@@ -85,6 +92,7 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 
 *  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
+\bibitem{Taylor} [[Paul Taylor]], [MathOverflow answer](https://mathoverflow.net/questions/382348/subobjects-in-the-category-of-compact-hausdorff-spaces/382351#382351).
 
 [[!redirects pretopos]]
 [[!redirects pretoposes]]
