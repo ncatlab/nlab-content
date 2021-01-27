@@ -69,7 +69,7 @@ Cylinder functors also form one of the key elements in Baues' approach to [[alge
 
 Cylindrical model structures are discussed in
 
-* {#Williamson12} [[Richard Williamson]], _Cylindrical model structure_, PhD thesis, 2012 ([arXiv:1304.0867](https://arxiv.org/abs/1304.0867)) 
+* {#Williamson12} [[Richard Williamson]], _Cylindrical model structures_, PhD thesis, 2012 ([arXiv:1304.0867](https://arxiv.org/abs/1304.0867)) 
 
 
 [[!redirects cylinder functors]]
