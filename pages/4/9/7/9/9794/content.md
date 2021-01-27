@@ -56,7 +56,7 @@ For $n \in \mathbb{N}$ the _Schwartz space_ $\mathcal{S}(\mathbb{R}^n)$ is the  
 
 * underlying [[real vector space]] is the subspace of the space $C^\infty(\mathbb{R}^n)$ of [[smooth functions]] (with pointwise addition and scalar multiplication) on the [[functions with rapidly decreasing partial derivatives]] (def. \ref{RapidlyDecreasingFunction});
 
-* whose [[topological space|topology]] is that induced b the [[semi-norms]] given by $p_{\alpha,\beta}(f) \coloneqq {\Vert x^\alpha \partial_{\beta} (f)(x)  \Vert}$ is called the _Schwartz space_ $\mathcal{S}(\mathbb{R}^n)$. 
+* whose [[topological space|topology]] is that induced by the [[semi-norms]] given by $p_{\alpha,\beta}(f) \coloneqq {\Vert x^\alpha \partial_{\beta} (f)(x)  \Vert}$ is called the _Schwartz space_ $\mathcal{S}(\mathbb{R}^n)$. 
 
 =--
 
