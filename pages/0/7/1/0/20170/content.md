@@ -52,3 +52,6 @@ See also
 
 [[!redirects equivariant triangulation theorems]]
 
+[[!redirects smooth triangulation]]
+[[!redirects smooth triangulations]]
+
