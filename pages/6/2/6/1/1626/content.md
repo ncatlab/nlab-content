@@ -159,13 +159,22 @@ $$
 
 =--
 
++-- {: .num_defn #QuasiComponentsConnected}
+###### Remark
+**(quasi-components)**
 
 
-There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y)$ for every continuous $f: X \to D$ mapping to a [[discrete space]] $D$. The equivalence class of $x$ may be alternatively described as the intersection of all clopens that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. It is easy to prove that
+There is another equivalence relation $\sim_q$ modelling a notion of connected components,  where $x \sim_q y$ iff $f(x) = f(y)$ for every [[continuous map]] $f \colon X \to D$ to a _[[discrete space]]_ $D$. 
+
+The [[equivalence class]] of $x$ may be alternatively described as the [[intersection]] of all [[clopen set|clopen subsets]] that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. 
+
+It is easy to prove that:
 
 $$Conn(x) \subseteq QConn(x)$$
 
 and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below), but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace]] of the [[real line]]).
+
+=--
 
 +-- {: .num_example #comb}
 ###### Example
