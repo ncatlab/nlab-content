@@ -33,5 +33,6 @@ The additive structure underlying a [[hyperring]] is a canonical hypergroup. See
 [[!redirects hypergroup]]
 [[!redirects hypergroups]]
 
+category: algebra
 
 [[!redirects canonical hypergroups]]
