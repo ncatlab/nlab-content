@@ -283,7 +283,7 @@ Now $L$ and $E$ depend on the point chosen, but nevertheless, we can choose gaug
 =--
 
 
-### Stieltjes integrals, $\delta$-fuctions, and distributions
+### Stieltjes integrals, $\delta$-functions, and distributions
 
 An alternative approach to proving FTC would be to observe that essentially by definition of $\mathrm{d}f$, the form
 $$ f(x+\mathrm{d}x) - f(x) - \mathrm{d}f $$
