@@ -96,6 +96,8 @@ The central tool for breaking down all this [[higher algebra|higher algebraic]] 
 
 Textbooks:
 
+* [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of Algebraic Topology_, Princeton University Press 1952 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
+
 * {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, Springer 1966 ([doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1))
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
