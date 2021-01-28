@@ -140,8 +140,3 @@ Accordingly, the [[Brown representability theorem|corresponding]] [[tower]] of [
 [[!redirects Ravenel spectrum]]
 [[!redirects Ravenel spectra]]
 
-
-
-
-
-
