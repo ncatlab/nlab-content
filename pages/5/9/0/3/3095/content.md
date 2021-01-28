@@ -87,7 +87,7 @@ Pragmatics is concerned with the meaning of language in context.
 * [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]], Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis, 2010 [arxiv/1003.4394](https://arxiv.org/abs/1003.4394)
 
 
-category: foundations, philosophy
+category: philosophy
 
 [[!redirects natural language]]
 [[!redirects natural languages]]
