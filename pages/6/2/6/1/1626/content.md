@@ -138,7 +138,7 @@ Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \
 ###### Definition
 **(connected components)**
 
-For $(X,\tau)$ a [[topological space]], tits _[[connected components]]_
+For $(X,\tau)$ a [[topological space]], its _[[connected components]]_
 are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
 regards two points as equivalent if they both sit in some [[open subset]] which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
 
