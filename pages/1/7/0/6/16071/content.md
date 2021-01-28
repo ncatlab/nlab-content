@@ -25,7 +25,7 @@
 
 Given an $(H \stackrel{i}{\to} G)$-_[[Cartan connection]]_ $\nabla$ on a manifold $X$, its _torsion_ is the component of its [[curvature]] in the [[coimage]] of $i_\ast : \mathfrak{h}\to \mathfrak{g}$.
 
-So if $U \to X$ is a [[cover]] over which the underlying $G$-[[principal bundle]] tricializes (for instance the total space of the $G$-[[principal bundle]] itself if one models the Cartan connection by an [[Ehresmann connection]]) and 
+So if $U \to X$ is a [[cover]] over which the underlying $G$-[[principal bundle]] trivializes (for instance the total space of the $G$-[[principal bundle]] itself if one models the Cartan connection by an [[Ehresmann connection]]) and 
 
 $$
   \omega \in \Omega^1(U,\mathfrak{g})
