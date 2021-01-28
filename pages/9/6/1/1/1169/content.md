@@ -31,7 +31,6 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategorie
 * Every nonidentity morphism in $R_-$ lowers degree, and
 * Every morphism $f$ in $R$ factors uniquely as a map in $R_-$ followed by a map in $R_+$.
 
-That is, we have two subcategories $R_+$ and $R_-$, such that all arrows in $R_+$ are degree-raising (more precisely, non-degree-lowering) and all arrows in $R_-$ are degree-lowering, and every arrow in $R$ is uniquely decomposible as a degree-lowering followed by a degree-raising.
 
 ## Examples
 
