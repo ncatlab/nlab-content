@@ -73,4 +73,4 @@ Moreover, if $(X, A)$ is a finite simplicial pair, we may choose the subdivision
 
 ## References 
 
-* Edwin Spanier, _Algebraic Topology_, McGraw-Hill. 
+* {#Switzer75} [[Robert Switzer]], Lemma 6.8, p. 76 in: _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
