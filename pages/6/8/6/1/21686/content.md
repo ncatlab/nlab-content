@@ -50,13 +50,13 @@ More in detail, Chern's proof of the fundamental theorem ([Chern 50, (15)](#Cher
 
    Some authors later call this the "abstract Chern-Weil isomorphism".
 
-1. existence of [[universal connections]] for manifolds in bounded dimension, which is later developed in:
+1. existence of [[universal connections]] for manifolds in bounded dimension (see [here](cellular+approximation+theorem#FiniteDimensionalUniversalBundles)), which is later developed in:
 
-   * [[Mudumbai Narasimhan]], [[Sundararaman Ramanan]], _Existence of Universal Connections_, American Journal of Mathematics Vol. 83, No. 3 (Jul., 1961), pp. 563-572 ([jstor:2372896 ](https://www.jstor.org/stable/2372896 ))
+   * {#NarasimhanRamanan61} [[Mudumbai Narasimhan]], [[Sundararaman Ramanan]], _Existence of Universal Connections_, American Journal of Mathematics Vol. 83, No. 3 (Jul., 1961), pp. 563-572 ([jstor:2372896 ](https://www.jstor.org/stable/2372896 ))
 
-   * [[Mudumbai Narasimhan]], [[Sundararaman Ramanan]], _Existence of Universal Connections II_, American Journal of Mathematics Vol. 85, No. 2 (Apr., 1963), pp. 223-231 ([jstor:2373211](https://www.jstor.org/stable/2373211))
+   * {#NarasimhanRamanan63} [[Mudumbai Narasimhan]], [[Sundararaman Ramanan]], _Existence of Universal Connections II_, American Journal of Mathematics Vol. 85, No. 2 (Apr., 1963), pp. 223-231 ([jstor:2373211](https://www.jstor.org/stable/2373211))
 
-   * [[Roger Schlafly]], _Universal connections_, Invent Math 59, 59–65 (1980) ([doi:10.1007/BF01390314](https://doi.org/10.1007/BF01390314))
+   * {#Schlafly80} [[Roger Schlafly]], _Universal connections_, Invent Math 59, 59–65 (1980) ([doi:10.1007/BF01390314](https://doi.org/10.1007/BF01390314))
 
    * [[Roger Schlafly]], _Universal connections: the local problem_, Pacific J. Math. Volume 98, Number 1 (1982), 157-171 ([euclid:pjm/1102734394](https://projecteuclid.org/euclid.pjm/1102734394))
 
