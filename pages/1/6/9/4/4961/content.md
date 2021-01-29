@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -58,15 +57,15 @@ Let $S$ be a [[set]] and let $(X,\tau)$ be a [[topological space]]. Then
 
 ### The left adjoint of the discrete space functor
 
-The functor $Disc$ does not preserve [[infinite products]]
-because the infinite product of discrete spaces
-may be nondiscrete.
+The functor $Disc$ does not [[preserved limit|preserve]] [[infinite products]]
+because the infinite [[product topological space]] of discrete spaces may be nondiscrete.
 Thus, $Disc$ does not have a [[left adjoint functor]].
 
 However, if we restrict the [[codomain]] of $Disc$
 to [[locally connected spaces]], then the [[left adjoint functor]]
-of $Disc$ does exist and it computes the set of [[connected components]]
-of a given [[locally connected space]], i.e., is the $\pi_0$ functor.
+of $Disc$ does exist and it computes the set of [[connected components]] of a given [[locally connected space]], i.e., is the $\pi_0$ functor.
+
+This is discussed at _[locally connected spaces -- cohesion over sets](locally+connected+topological+space#CohesionOverSets)_.
 
 ## References
 
