@@ -25,7 +25,7 @@ $Q\cong Hom_B(P,B)$
 (v) homomorphisms of $A$-algebras $End_B(P)\leftarrow A\rightarrow End_B(Q)$ are isomorphisms
 
 
-(Bass II.4.1) A Morita context can be constructed from an $A$/algebra $B$ and a right $B$-module $P$. Then set $A = End_B(P)$ and $Q=Hom_B(P,B)$. Then $f = f_P$ and $g = g_P$ are defined by $(b q) p = b (q p)$ and $(q a) p = q(a p)$. 
+(Bass II.4.1) A Morita context can be constructed from an $A$-algebra $B$ and a right $B$-module $P$. Then set $A = End_B(P)$ and $Q=Hom_B(P,B)$. Then $f = f_P$ and $g = g_P$ are defined by $(b q) p = b (q p)$ and $(q a) p = q(a p)$. 
 
 (Bass II.4.4) (i) $f_P$ s surjective iff $P$ is finitely generated projective $B$-module. Then $f_P$ s iso.
 
