@@ -80,4 +80,9 @@ Discussion of implementation in the [[proof assistant]] [[Cubical Agda]]:
 
 * {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalagda.pdf))
 
+On [[normalization]] for cubical type theory:
+
+* [[Jonathan Sterling]], Carlo Angiuli, _Normalization for Cubical Type Theory_, ([arXiv:2101.11479](https://arxiv.org/abs/2101.11479))
+
+
 [[!redirects cubical type theories]]
