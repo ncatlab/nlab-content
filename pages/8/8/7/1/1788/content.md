@@ -1,252 +1,244 @@
 
+### Orientations of Euclidean space
 
-  stola
+  An ordinary *orientation* of a
+  differentiable manifold $Y$ is
+  traditionally defined to be the choice of a volume form
+  (a nowhere vanishing top degree differential form)
+  up to pointwise positive rescaling.
+  Assuming that $Y$ is closed, hence compact,
+  we may equivalently remember just the class of this
+  form in de Rham cohomology, up to positive rescaling:
+  
+\begin{xymatrix@C=3em}
+      \mathrm{vol}_Y
+      \;\in\;
+      \underset{
+        \raisebox{-3pt}{
+          \tiny
+          \color{blue}
+          \bf
+          \begin{tabular}{c}
+            differential
+            forms
+          \end{tabular}
+        }
+      }{
+        \Omega_{\mathrm{dR}}^{\mathrm{dim}(Y)}(Y)
+      }
+      \ar[rr]
+        _-{
+          \;[-]\;
+        }
+        ^-{
+          \mathclap{
+          \mbox{
+            \tiny
+            \color{olive}
+            \bf
+            \begin{tabular}{c}
+              pass to total volume
+            \end{tabular}
+          }
+          }
+        }
+      &&
+      \underset{
+        \mathclap{
+        \raisebox{-3pt}{
+          \tiny
+          \color{blue}
+          \bf
+          de Rham cohomology
+        }
+        }
+      }{
+        H_{\mathrm{dR}}^{\mathrm{dim}(Y)}(Y)
+      }
+\end{xymatrix}
 
- 
-otpo$\,\!$rne
+  If $Y$ were already oriented otherwise, we could ask that
+  $[\mathrm{vol}_Y]$ be rescaled to
+  a *[[unit]]* $\pm 1 \,\in\, \mathbb{Z} \subset \mathbb{R}$,
+  {\it with respect to} the
+  reference orientation. That number $\pm 1 \in \mathbb{Z}$ would
+  be the choice of *relative orientation*.
+  But since we want to
+  define that reference orientation in the first place,
+  the normalization demand on it is, conversely, that it be
+  **(a)** integral and **(b)** minimally so, such that
+  any other integral class is a unique integral multiple.
+  This means to demand that
 
-\begin{prop}
-  For $n \geq 1$, the [[homotopy groups]] of [[complex projective space]] $\mathbb{C}P^n$ are the [[integers]] in degree 2, the [[homotopy groups of spheres|homotopy groups of]] the [[n-sphere|2n+1-sphere]] in degrees $\geq 2n+1$ and [[trivial group|trivial]] otherwise:
-\[
-  \label{ListOfHomotopyGroupsOfComplexProjectiveSpace}
-    \pi_k
-    \big(
-      \mathbb{C}P^n
-    \big)
-    \;=\;
-    \left\{
-    \array{
-      \ast &\vert& k = 0
-      \\
-      1 &\vert& k = 1
-      \\
-      \mathbb{Z} &\vert& k = 2
-      \\
-      \mathbb{Z} &\vert& k = 2n + 1
-      \\
-      \pi_k
-      \big(
-        S^{2n+1}
-      \big)
-      &\vert&
-      k \geq 2n+1
-      \\
-      0 &\vert& otherwise
+
+**(a)** the orienting volume class lifts to integral cohomology:
+\begin{xymatrix@C=2em}
+    \underset{
+      \mathclap{
+      \raisebox{-3pt}{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          integral
+          \\
+          volume class
+        \end{tabular}
+      }
+      }
+    }{
+      [\mathrm{vol}_Y]
     }
-    \right.
-\]
-\end{prop}
-
-\begin{proof}
-  Essentially by definition, $\mathbb{C}P^n$ is the [[quotient space]] of the [[circle group]]-[[action]] on the unit sphere  $S^{2n+1} \simeq S\big(\mathbb{C}^{2n+2}\big)$. 
-
-First of all, this implies that $\mathbb{C}P^n$ is [[connected topological space|connected]], since $S^{2n+1}$ is, hence $\pi_0\big( \mathbb{C}P^n\big) = \ast$.
-
-Moreover, since this is a [[free action]], we have a [[circle principal bundle]] and hence a [[fiber sequence]] of the form
-
-\begin{xymatrix@C=20pt@R=20pt}
-  S^1 
-  \ar[r]
-  &
-  S^{2n+1}
-  \ar[d]
-  \\
-  &
-  \mathbb{C}P^n
-  \,.
+    \;\in\;
+      \underset{
+        \mathclap{
+        \raisebox{-2pt}{
+          \tiny
+          \color{blue}
+          \bf
+          integral cohomology
+        }
+        }
+      }{
+        H^{\mathrm{dim}(Y)}
+        \big(
+          Y; \mathbb{Z}
+        \big)
+      }
+      \ar[rr]^-{
+        \mbox{
+          \tiny
+          \color{olive}
+          \bf
+          \begin{tabular}{c}
+            extension
+            \\
+            of scalars
+          \end{tabular}
+        }
+      }
+      &&
+      \underset{
+        \mathclap{
+        \raisebox{-2pt}{
+          \tiny
+          \color{blue}
+          \bf
+          real cohomology
+        }
+        }
+      }{
+        H^{\mathrm{dim}(Y)}
+        \big(
+          Y; \mathbb{R}
+        \big)
+      }
+      \ar[rr]
+        ^-{
+          \mbox{
+            \tiny
+            \color{olive}
+            \bf
+            \begin{tabular}{c}
+              de Rham
+              \\
+              theorem
+            \end{tabular}
+          }
+        }
+      _-{
+        \simeq
+      }
+      &&
+      \underset{
+        \mathclap{
+        \raisebox{-2pt}{
+          \tiny
+          \color{blue}
+          \bf
+          de Rham cohomology
+        }
+        }
+      }{
+        H_{\mathrm{dR}}^{\mathrm{dim}(Y)}
+        \big(
+          Y
+        \big)
+      }
 \end{xymatrix}
 
-Therefore the homotopy groups of $\mathbb{C}P^n$ sit in the corresponding [[long exact sequence of homotopy groups]], hence a [[long exact sequence]] of the this form:
+**(b)** every other integral cohomology $n$-class of $Y$ is obtained
+  by external cup product of $[\mathrm{vol}_Y]$ with
+  an integral class on the point:
 
-\begin{xymatrix@C=20pt@R=20pt}
-  \cdots
-  \ar[r]
-  &
-  \pi_{k+1}
-  \big(
-    \mathbb{C}P^k
-  \big)
-  \ar[r]
-  &
-  \pi_k
-  \big(
-    S^1
-  \big)
-  \ar[r]
-  &
-  \pi_k
-  \big(
-    S^{2n+1}
-  \big)
-  \ar[r]
-  &
-  \pi_k
-  \big(
-    \mathbb{C}P^n
-  \big)
-  \ar[r]
-  &
-  \pi_{k-1}
-  \big(
-    S^1
-  \big)
-  \ar[r]
-  &
-  \cdots
+\begin{xymatrix}
+    \underset{
+      \mathclap{
+      \raisebox{-3pt}{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          top
+          integral
+          cohomology
+        \end{tabular}
+      }
+      }
+    }{
+      H^{\mathrm{dim}(Y)}\big(Y;\, \mathbb{Z}\big)
+    }
+     \;\simeq\;
+    \underset{
+      \mathclap{
+      \raisebox{-3pt}{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          generated
+          \\
+          under
+          cupping
+        \end{tabular}
+      }
+      }
+    }{
+      H^0\big(\ast;\, \mathbb{Z}\big)
+    }
+    \big\langle
+      \underset{
+        \mathrlap{
+        \;
+        \raisebox{-3pt}{
+          \tiny
+          \color{blue}
+          \bf
+          \begin{tabular}{c}
+            from normalized
+            \\
+            volume class
+          \end{tabular}
+        }
+        }
+      }{
+        [\mathrm{vol}_Y]
+      }
+    \big\rangle
+    \;\;
+    \in
+    \;
+    H^0\big(\ast;\, \mathbb{Z}\big)
+    \,
+    \mathrm{Modules}.
+  \;
 \end{xymatrix}
 
-By the following two basic facts about the [[homotopy groups of spheres]]
-
-$$
-  \pi_{k \geq 2}
-  \big(
-    S^1
-  \big)
-  \;=\;
-  0
-  \,,
-  \phantom{AAAA}
-  \pi_{k \leq 2n}
-  \big(
-    S^{2n+1}
-  \big)
-  \;=\;
-  0
-$$
-
-this long exact sequence contains this part 
-
-\begin{xymatrix@C=20pt@R=20pt}
-  \pi_1
-  \big(
-    S^{2n+1}
-  \big)
-  \ar@{=}[d]
-  \ar[r]
-  & 
-  \pi_1
-  \big(
-    \mathbb{C}P^n
-  \big)
-  \ar@{=}[d]
-  \ar[r]
-  &
-  \pi_0
-  \big(
-    S^1
-  \big)
-  \ar@{=}[d]
-  \\
-  1
-  \ar@{=}[r]
-  &
-  \pi_1
-  \big(
-    \mathbb{C}P^n
-  \big)
-  \ar[r]
-  &
-  \ast
-\end{xymatrix}
-
-
-
-and this part (using now the assumption that $n \geq 1$):
-
-\begin{xymatrix@C=20pt@R=20pt}
-  \pi_2
-  \big(
-    S^{2n+1}
-  \big)
-  \ar@{=}[d]
-  \ar[r]
-  & 
-  \pi_2
-  \big(
-    \mathbb{C}P^n
-  \big)
-  \ar@{=}[d]
-  \ar[r]
-  &
-  \pi_1
-  \big(
-    S^1
-  \big)
-  \ar@{=}[d]
-  \ar[r]
-  &
-  \pi_1
-  \big(
-    S^{2n+1}
-  \big)
-  \ar@{=}[d]
-  \\
-  0
-  \ar[r]
-  &
-  \pi_2
-  \big(
-    \mathbb{C}P^n
-  \big)
-  \ar@{=}[r]
-  &
-  \mathbb{Z}
-  \ar[r]
-  &
-  0
-\end{xymatrix}
-
-and these parts, for all $k \geq 3$:
-
-\begin{xymatrix@C=20pt@R=20pt}
-  \pi_{k}
-  \big(
-    S^1
-  \big)
-  \ar@{=}[d]
-  \ar[r]
-  &
-  \pi_k
-  \big(
-    S^{2n+1}
-  \big)
-  \ar[r]
-  \ar@{=}[d]
-  &
-  \pi_k
-  \big(
-    \mathbb{C}P^n
-  \big)
-  \ar[r]
-  \ar@{=}[d]
-  &
-  \pi_{k-1}
-  \big(
-    S^1
-  \big)
-  \ar@{=}[d]
-  \\
-  0
-  \ar[r]
-  &
-  \pi_k
-  \big(
-    S^{2n+1}
-  \big)
-  \ar@{=}[r]
-  &
-  \pi_k
-  \big(
-    \mathbb{C}P^n
-  \big)
-  \ar[r]
-  &
-  0
-\end{xymatrix}
-
-In both cases the identification in the bottom line follows from [[exact sequence|exactness]], given that the two outer items are [[trivial group|trivial]].
-
-This gives the list (eq:ListOfHomotopyGroupsOfComplexProjectiveSpace), where we just made explicit that $\pi_{2n+1}(S^{2n+1}) = \mathbb{Z}$ (the [[Hopf degree theorem]], if you wish).
-\end{proof}
+  If $Y$ is not compact, we apply this logic to
+  those volume forms that *[[vanishing at infinity|vanish at infinity]]* on $Y$
+  -- their classes are naturally
+  identified with classes as above,
+  defined on the one-point compactification space
+  $X \coloneqq Y^{\mathrm{cpt}}$.
 
 
