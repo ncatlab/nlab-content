@@ -9,6 +9,10 @@ On [[algebraic topology]]:
 
 * [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of Algebraic Topology_, Princeton University Press 1952 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
 
+Introducing the [[Eilenberg-Zilber theorem]]:
+
+* [[Samuel Eilenberg]], [[Joseph Zilber]], _On Products of Complexes_, Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) ([jstor:2372629](https://www.jstor.org/stable/2372629))
+
 Introducing [[Eilenberg-MacLane spaces]]:
 
 * {#EilenbergMacLane53I} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, I_, Annals of Mathematics Second Series, Vol. 58, No. 1 (Jul., 1953), pp. 55-106 ([jstor:1969820](https://www.jstor.org/stable/1969820)) 
