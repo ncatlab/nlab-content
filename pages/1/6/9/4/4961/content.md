@@ -1,3 +1,4 @@
+[[!redirects discrete and codiscrete topology]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -22,7 +23,6 @@
 ## Definition
 
 The [[forgetful functor]] $\Gamma : Top \to Set$ from [[Top]] to [[Set]] that sends any [[topological space]] to its underlying [[set]] has a [[left adjoint]] $Disc : Set \to Top$ and a [[right adjoint]] $Codisc : Set \to Top$.
-
 $$
   (Disc \dashv \Gamma \dashv Codisc) : 
   Top
@@ -38,9 +38,7 @@ For $S \in Set$
 
   this is called the **discrete topology** on $S$, it is the [[finer topology|finest topology]] on $S$; $Disc(S)$ is called a [[discrete space]];
 
-* $Codisc(S)$ is the topological space on $S$ whose only open sets are the [[empty set]] and $S$ itself,
-
-  this is called the **codiscrete topology** on $S$ (also _indiscrete topology_ or _trivial topology_ or _chaotic topology_ ([[SGA4|SGA4-1, 1.1.4]])), it is the [[coarser topology|coarsest topology]] on $S$; $Codisc(S)$ is called a _[[codiscrete space]]_.
+* $Codisc(S)$ is the topological space on $S$ whose only open sets are the [[empty set]] and $S$ itself, which is called the **indiscrete topology** on $S$ (rarely also __antidiscrete topology__ or __codiscrete topology__ or __trivial topology__ or __chaotic topology__ ([[SGA4|SGA4-1, 1.1.4]])), it is the [[coarser topology|coarsest topology]] on $S$; $Codisc(S)$ is called a __indiscrete space__ (rarely also __antidiscrete space__, even more rarely __codiscrete space__).
 
 For an axiomatization of this situation see _[[codiscrete object]]_.
 
@@ -57,6 +55,18 @@ Let $S$ be a [[set]] and let $(X,\tau)$ be a [[topological space]]. Then
 1. every [[function]] (of sets) $X \longrightarrow CoDisc(S)$ is [[continuous function|continuous]].
 
 =--
+
+### The left adjoint of the discrete space functor
+
+The functor $Disc$ does not preserve [[infinite products]]
+because the infinite product of discrete spaces
+may be nondiscrete.
+Thus, $Disc$ does not have a [[left adjoint functor]].
+
+However, if we restrict the [[codomain]] of $Disc$
+to [[locally connected spaces]], then the [[left adjoint functor]]
+of $Disc$ does exist and it computes the set of [[connected components]]
+of a given [[locally connected space]], i.e., is the $\pi_0$ functor.
 
 ## References
 
@@ -99,3 +109,10 @@ following [[SGA4|SGA4-1, 1.1.4]].
 [[!redirects chaotic topological spaces]]
 
 [[!redirects indiscrete topology]]
+[[!redirects indiscrete topologies]]
+[[!redirects antidiscrete topology]]
+[[!redirects antidiscrete topologies]]
+[[!redirects indiscrete space]]
+[[!redirects indiscrete spaces]]
+[[!redirects antidiscrete space]]
+[[!redirects antidiscrete spaces]]
