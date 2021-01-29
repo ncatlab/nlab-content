@@ -306,13 +306,26 @@ A very clear and explicit exposition on the basics of simplicial sets is
 
 * [[Emily Riehl]], _A leisurely introduction to simplicial sets_, 2008, 14 pages ([pdf](http://www.math.jhu.edu/~eriehl/ssets.pdf)).
 
-Another exposition is in Chapter II of
+Another introduction is
+
+* [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, July 7, 2013, [pdf](https://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Trieste-Lecture-Notes.pdf).
+
+An overview of [[simplicial homotopy theory]] is in
+
+* [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, March 7, 2008, [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf).
+
+
+Four classical sources appeared between 1967 and 1971:
 
 * [[Pierre Gabriel]], [[Michel Zisman]], [[Calculus of fractions and homotopy theory]].
 
-A useful (if old) survey article is: 
+* [[J. Peter May]], _Simplicial objects in algebraic topology_, Van Nostrand Mathematical Studies 11 (1967).
 
-*  Edward B. Curtis, _Simplicial homotopy theory_, Advances in Math., __6__ (1971) 107–209 [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808) <a href="http://dx.doi.org/10.1016/0001-8708(71)90015-6">doi</a>
+*  Edward B. Curtis, _Simplicial homotopy theory_, Advances in Mathematics 6 (1971) 107–209 [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808) <https://doi.org/10.1016/0001-8708(71)90015-6>.
+
+* [[Klaus Lamotke]], _Semisimpliziale algebraische Topologie_, Grundlehren der mathematischen Wissenschaften 147 (1968).
+
+
 
 More advanced treatments include 
 
