@@ -30,10 +30,13 @@ On global [[double field theory]] formulated in [[higher differential geometry]]
 
 * [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
 
+On the [[geometric quantization]] of a [[sigma-model]] in [[double field theory]]:
+
+* [[Luigi Alfonsi]] and [[David Berman]], _Double Field Theory and Geometric Quantisation_ ([arXiv:2101.12155](https://arxiv.org/abs/2101.12155))
 
 On other global geometric aspects of theoretical physics (e.g. [[classical double copy]]):
 
-* {#AWW20} [[Luigi Alfonsi]], Chris D. White, Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
+* {#AWW20} [[Luigi Alfonsi]], Chris D. White and Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
 
 ## Invited talks
 
