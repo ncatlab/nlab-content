@@ -1,4 +1,170 @@
 
+$$
+  \array{
+    S^{4k+3}
+    &\longrightarrow&
+    D^{4(k+1)}
+    \\
+    \big\downarrow
+    &{}^{{}_{(po)}}&
+    \big\downarrow
+    \\
+    \mathbb{C}P^{2k+1}
+    &\longrightarrow&
+    \mathbb{C}P^{2k+2}
+    \\
+    \big\downarrow
+    &{}^{{}_{(po)}}&
+    \big\downarrow
+    \\
+    \mathbb{H}P^{k}
+    &\longrightarrow&
+    \mathbb{H}P^{k+1}
+  }
+$$
+
+
+\begin{proof}
+If we coordinatize the inclusion of consecutive projective spaces as
+$$
+  \array{
+    \mathbb{K}P^n
+    &\overset{\;\;\;}{\hookrightarrow}&
+    \mathbb{K}P^{n+1}
+    \\
+    [z_0 \colon \cdots \colon z_n ]
+    &\mapsto&
+    [z_0 \colon \cdots \colon z_n \colon 0]
+  }
+$$
+then the [[complement]] of this inclusion inherits coordinatization as
+$$
+  \mathbb{K}P^{n+1}
+  \setminus
+  \mathbb{K}P^{n}
+  \;=\;
+  \big\{
+    \left.
+    [z_0 \colon \cdots \colon z_n \colon z_{n + 1}]
+    \,\right\vert\,
+    z_{n + 1} \neq 0
+  \big\}
+  \;\subset\;
+  \mathbb{K}P^{n+1}
+  \,.
+$$
+
+In terms of these coordinates, observe the following [[homeomorphism]]:
+
+$$
+  \array{
+    \mathbb{K}P^{n+1} \setminus \mathbb{K}P^n
+    &\overset{\;\;\;\simeq\;\;\;}{\longrightarrow}&
+    Int
+    \big(
+      D^{(n+1) dim_{{}_{\mathbb{R}}}(\mathbb{K})}
+    \big)
+    \,\simeq\,
+    \left\{
+      \big(
+        y_0, \cdots, y_n, (1-r)
+      \big)
+      \,\left\vert\,
+      \array{
+         r \in [0,1) \subset \mathbb{R}\,,
+         \\
+         \left\vert \vec y \right\vert^2 + (1-r)^2  = 1 
+      }
+      \right.
+    \right\}
+    & 
+    \subset 
+    \mathbb{K}^{n+2}
+    \\
+    \big[
+      z_0
+      \,\colon\,
+      \cdots
+      \,\colon\,
+      z_n
+      \,\colon\,
+      z_{n+1}
+    \big]
+    &\mapsto&
+    \tfrac{1}{\left\vert \vec z\right\vert}
+    \Big(
+      z_0
+      \cdot
+      \tfrac{ z^\ast_{n+1} }{ \left\vert z_{n+1}\right\vert }
+      \,,\,
+      \cdots
+      \,,\,
+      z_n
+      \cdot
+      \tfrac{ z^\ast_{n+1} }{ \left\vert z_{n+1}\right\vert }
+      \,,\,
+      \left\vert z_{n+1}\right\vert
+    \Big)
+    \,.
+  }
+$$
+
+under which the [[topological boundary]] on the left corresponds to the boundary sphere as $r \to 1$ on the right.
+
+But since $\mathbb{K}P^{n+1}$ is manifestly the union of its subspace $\mathbb{K}P^n$ with the [[topological closure]] of its [[complement]],
+we have a pushout square as on the right of the following [[pasting diagram]]:
+
+$$
+  \array{
+    D^{ (n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) }
+    &\overset{\;\;\simeq\;\;}{\longrightarrow}&    
+    \overline{
+      \mathbb{K}P^{n+1}
+      \setminus
+      \mathbb{K}P^n
+    }
+    &\longrightarrow&
+    \mathbb{K}P^{n+1}
+    \\
+    \big\uparrow
+    &&
+    \big\uparrow
+    &{}_{^{(po)}}&
+    \big\uparrow
+    \\
+    S^{ (n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) - 1 }
+    &\overset{\;\;\simeq\;\;}{\longrightarrow}&    
+    \partial
+    \big(
+      \mathbb{K}P^{n+1}
+      \setminus
+      \mathbb{K}P^n
+    \big)
+    &\longrightarrow&
+    \mathbb{K}P^n
+  }
+$$
+
+It follows that the total rectangle is a pushout.
+\end{proof}
+
+
+
+
+
+\linebreak
+
+
+***
+
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+
 ### Orientations of Euclidean space
 
   An ordinary *orientation* of a
