@@ -35,7 +35,24 @@ $X$ is called a **Kan object** (in $C$) if $X[n]\to \X^{\Lambda_n^k}$ is an [[ep
 Note that this condition---called the **internal horn-filler condition**---coincides with the usual horn-filler condition (i.e. the Kan condition) if $C=\Set$, since for $V$-enriched functors $F:K\to C$ and $W:K\to V$ we have in the case $V=C$ that the [[weighted limit]] $\lim_W F=[K,V](W,F)$ coincides with the [[hom object]]; so in particular $X^{\Lambda_n^k}=\sSet(\Lambda_n^k,X)$.
 
 
+## Examples
+
+[[Kan simplicial manifolds]] form one possible generalization of [[Lie groupoids]].
+
+If a [[variety of algebras]] $V$ contains a [[Malcev operation]],
+then every [[simplicial object]] in $V$ is Kan.
+
+## Related entries
+
+* [[Kan complex]]
+
+* [[Kan simplicial manifold]]
+
+* [[Malcev operation]]
+
 [[!redirects Kan object]]
 [[!redirects Kan objects]]
 
-category: ∞-groupoid, simplicial object
+category: ∞-groupoid
+
+category: simplicial object
