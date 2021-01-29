@@ -16,7 +16,7 @@
 
 ## Idea
 
-The concept of _normal monomorphism_ generalizes the concept of [[normal subgroup]] inclusions
+The concept of _normal monomorphism_ generalizes the concept of _[[normal subgroup]] inclusions_.
 
 One often considers [[regular monomorphisms]] and [[regular epimorphisms]].  In the theory of [[abelian categories]], one often equivalently uses _normal_ monomorphisms and epimorphisms.  In general, the concept makes sense in a category with [[zero morphisms]], that is in a [[category enriched]] over [[pointed sets]].
 
@@ -39,6 +39,10 @@ The [[inclusion function]] of a [[subgroup]] into a [[group]] is normal if and o
 Every normal monomorphism or epimorphism is clearly regular; the converse holds in any [[Ab-enriched category]] (the equalizer of $f$ and $g$ is the kernel of $f-g$).
 
 Every [[abelian category]] must be binormal; this is one of the axioms in a common definition of abelian category.
+
+## Related concepts
+
+* [[normal]]
 
 ## References
 
