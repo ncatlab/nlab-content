@@ -26,7 +26,7 @@ For a precise definition, see the references.
 
 * A Verity [[double bicategory]] can be regarded as an intercategory in which the only transversal arrows are identities, and the horizontal and vertical cells have basic [[companions]] and [[conjoints]].  This includes in particular the case of [[quintets]] in a [[bicategory]].
 
-* A [[locally double bicategory]] (a bicategory enriched over pseudo double categories) can be regarded as an intercategory with only identity transversal arrows, vertical arrows, and vertical cells.  The horizontal arrows are the objects of the hom-double-categories, the horizontal and basic cells are their arrows, and the cubes are their squares.  This includes in particular [[monoidal double categories]] as the special case where there is only one object.
+* A [[locally cubical bicategory]] (a bicategory enriched over pseudo double categories) can be regarded as an intercategory with only identity transversal arrows, vertical arrows, and vertical cells.  The horizontal arrows are the objects of the hom-double-categories, the horizontal and basic cells are their arrows, and the cubes are their squares.  This includes in particular [[monoidal double categories]] as the special case where there is only one object.
 
 * A [[duoidal category]] can be regarded as an intercategory with one object, one arrow of each sort, and one vertical and one horizontal cell.  The objects of the duoidal category are the basic cells and its morphisms are the cubes; the two tensor products are the horizontal and vertical compositions.
 
