@@ -1,5 +1,10 @@
 
 
+  stola
+
+ 
+otpo$\,\!$rne
+
 \begin{prop}
   For $n \geq 1$, the [[homotopy groups]] of [[complex projective space]] $\mathbb{C}P^n$ are the [[integers]] in degree 2, the [[homotopy groups of spheres|homotopy groups of]] the [[n-sphere|2n+1-sphere]] in degrees $\geq 2n+1$ and [[trivial group|trivial]] otherwise:
 \[
