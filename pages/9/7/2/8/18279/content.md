@@ -162,8 +162,9 @@ $LocConn$ is a [[coreflective subcategory]] of $Top$, i.e., the inclusion $i$ ha
 Being a coreflective category of a complete and cocomplete category, the category $LocConn$ is also complete and cocomplete. Of course, limits and particularly _infinite_ products in $LocConn$ are not calculated as they are in $Top$; rather one takes the limit in $Top$ and _then_ retopologizes it according to Theorem \ref{coref}. (For _finite_ products of locally connected spaces, we can just take the product in $Top$ -- the result will be again locally connected.) 
 
 ### Cohesion over sets
+ {#CohesionOverSets}
 
-Let $\Gamma \colon LocConn \to Set$ be the underlying set functor, and let $\nabla, \Delta \colon Set \to LocConn$ be the functors which assign to a set the same set equipped with the codiscrete and discrete topologies, respectively. Let $\Pi_0 \colon LocConn \to Set$ be the functor which assigns to a locally connected space the set of its connected components. 
+Let $\Gamma \colon LocConn \to Set$ be the underlying set functor, and let $\nabla, \Delta \colon Set \to LocConn$ be the [[functors]] which assign to a set the same set equipped with the [[codiscrete topology|codiscrete]] and [[discrete topologies]], respectively. Let $\Pi_0 \colon LocConn \to Set$ be the functor which assigns to a locally connected space the set of its [[connected components]]. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -173,10 +174,13 @@ $$
   \Pi_0 \dashv \Delta \dashv \Gamma \dashv \nabla \colon Set \to LocConn
 $$ 
 
-and moreover, the functor $\Pi_0$ preserves finite products. 
+and moreover, the functor $\Pi_0$ preserves [[finite products]]. 
 
 =-- 
 
+While $LocConn$ is not a [[topos]], this is the adjunction structure as on a [[cohesive topos]].
+
+\begin{proof}
 The proof is largely straightforward; we point out that the continuity of the unit $X \to \Delta \Pi_0 X$ is immediate from a locally connected space's being the coproduct of its connected components. As for $\Pi_0$ preserving finite products, write locally connected spaces $X$, $Y$ as coproducts of connected spaces 
 
 $$X = \sum_i C_i; \qquad Y = \sum_j D_j;$$ 
@@ -186,6 +190,7 @@ then their product in $LocConn$ coincides with their product in $Top$, and is
 $$X \times Y \cong \sum_{i, j} C_i \times D_j$$ 
 
 where each summand $C_i \times D_j$ is connected by Result \ref{3}. From this it is immediate that $\Pi_0$ preserves finite products. 
+\end{proof}
 
 Accordingly the [[category of sheaves]] on a locally connected space is a [[locally connected topos]]. For related discussions, see also [[cohesive topos]]. 
 
