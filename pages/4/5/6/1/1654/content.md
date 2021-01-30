@@ -1,15 +1,6 @@
+## Idea
+
 A weighted colimit is a concept of [[colimit]] suitable for [[enriched category theory]], dual (in the enriched sense) to the concept of [[weighted limit]]. 
-
-+--{: .query}
-[[Mike Shulman|Mike]]: Are weighted limits and weighted colimits really different enough that they need entirely separate pages? 
-
-[[Todd Trimble|Todd]]: I saw a lot of requests for weighted colimits from other pages; thus prompted, I started writing this. 
-
-I haven't been following discussion about duplication of material. I'm guessing it irritates some people, which I don't understand really. My own guess is that in the present case, it might help having separate pages, rather than force non-experts to deduce what they need to know about weighted colimits by staring at the article on weighted limits. But I'm generally open to discussion. 
-
-_Toby_:  For pedagogical purposes, the examples might well be different.  In any case, since this is written somewhat differently from [[weighted limit]], we could also consider which is better and edit the other to match (or not, if we want to give its approach a chance too).
-=--
-
 
 ## Motivation ## 
 
@@ -91,14 +82,21 @@ $$\widetilde{F}: V^{J^{op}} \to C$$
 
 which is given by the weighted colimit construction $W \mapsto W \cdot F$. 
 
-## Examples ##
+## Examples
 
 To be filled in. The [[tensor product of functors]] is a general example.
 
+## Related entries
 
-#References#
+* [[homotopy weighted colimit]]
+
+* [[weighted limit]]
+
+## References
 
 * Very nice descriptions on the n-Cafe by:
   * [John Baez](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007688)
   * [Todd Trimble](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007723)
 * Notes by Emily Riehl based on a talk by Mike Shulman [Weighted Limits and Colimits](http://www.math.jhu.edu/~eriehl/weighted.pdf)
+
+[[!redirects weighted colimits]]
