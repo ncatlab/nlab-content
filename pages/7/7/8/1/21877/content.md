@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
 =--
 =--
 
@@ -81,6 +85,8 @@ $$
   \,.
 $$
 
+\linebreak
+
 ## Statement
 
 +-- {: .num_prop #CellStructureOfKProjectiveSpace} 
@@ -129,7 +135,8 @@ $$
 
 \begin{proof}
 If we coordinatize the inclusion of consecutive projective spaces as
-$$
+\[
+  \label{CanonicalInclusionsOfProjectiveSpacesByInsertingZeroOnTheRight}
   \array{
     \mathbb{K}P^n
     &\overset{\;\;\;}{\hookrightarrow}&
@@ -139,7 +146,7 @@ $$
     &\mapsto&
     [z_0 \colon \cdots \colon z_n \colon 0]
   }
-$$
+\]
 then the [[complement]] of this inclusion inherits coordinatization as
 $$
   \mathbb{K}P^{n+1}
@@ -282,7 +289,7 @@ $$
   }
 $$
 
-It follows that the total rectangle is a pushout.
+It follows that the total rectangle is a pushout (if you wish: by the [[pasting law]], using that all commuting squares with parallel isomorphisms are pushouts).
 \end{proof}
 
 
@@ -309,6 +316,236 @@ which at each stage $n$ exhibit [[CW-complex]]-[[mathematical structure|structur
 
 
 =--
+
+## Consequences
+ {#Consequences}
+
+Fixing an [[orthonormal basis]] $\mathrm{i}, \mathrm{j}, \mathrm{k} \,\in\, \mathbb{H}$ of [[imaginary number|imaginary]] [[quaternions]] with $\mathrm{i} \cdot \mathrm{j} \,=\, \mathrm{k}$ induces, in particular, a [[star-algebra]] inclusion of the [[complex numbers]] into the [[quaternions]]
+
+\begin{xymatrix@C=20pt}
+  \mathbb{C}
+  \;
+  \ar@{^{(}->}[rr]
+  &&
+  \mathbb{H}
+\end{xymatrix}
+
+and a [[direct sum]] decomposition of $\mathbb{H}$ as a $\mathbb{C}$-[[bimodule]], with right action by direct right multiplication but left action by [[complex conjugation|complex conjugate]] left multiplication in the second variable:
+
+\begin{xymatrix@C=20pt@R=6pt}
+  \mathbb{C} \oplus \mathbb{C}^\ast
+  \ar[rr]^-{ \simeq }
+  &&
+  \mathbb{H}
+  \\
+  ( z, z' )
+  \ar@{|->}[rr]
+  &&
+  z + \mathrm{j} \cdot z' 
+\end{xymatrix}
+
+
+\begin{proposition}
+  \label{CellStructureCompatibleUnderPassingFromCToH}
+  Under a decomposition $\mathbb{H} \,\simeq\, \mathbb{C} \oplus \mathbb{C}^\ast$ as above, the cell structures on [[complex projective spaces]] and [[quaternionic projective spaces]] from Prop. \ref{CellStructureOfKProjectiveSpace} are compatible, in that for all $k \in \mathbb{N}$ we have a [[pasting diagram]] of the form
+
+\begin{xymatrix@C=20pt}
+  S^{4k+3}
+  \;
+  \ar@{^{(}->}[r]
+  \ar[d]
+  \ar@{}[dr]
+    |-{
+      \mbox{\tiny\rm(po)}
+    }
+  &
+  D^{4k+4}
+  \ar[d]
+  \\
+  \mathbb{C}P^{2k+1}
+  \;
+  \ar@{^{(}->}[r]
+  \ar[d]
+  \ar@{}[dr]
+    |-{
+      \mbox{\tiny\rm(po)}
+    }
+  &
+  \mathbb{C}P^{2k+2}
+  \ar[d]
+  \\
+  \mathbb{H}P^k
+  \;
+  \ar@{^{(}->}[r]
+  &
+  \mathbb{K}P^{k+1}
+  \,,
+\end{xymatrix}
+
+where the top square and the total rectangle are the [[pushout]]-squares from Prop. \ref{CellStructureOfKProjectiveSpace}, while in the bottom square
+
+1. the bottom left vertical morphism is the canonical projection (the "[[twistor fibration]]" for $k = 1$);
+
+1. the bottom right vertical morphism is the canonical inclusion $\mathbb{C}P^{2k + 2} \hookrightarrow \mathbb{C}P^{2k+3}$ (eq:CanonicalInclusionsOfProjectiveSpacesByInsertingZeroOnTheRight) followed by that canonical projection.
+
+In particular, it follows by the [[pasting law]] that this bottom square is also a [[pushout]].
+
+\end{proposition}
+
+\begin{proof}
+  First, the bottom left morphism clearly has to be the claimed projection for the total left morphism to be the assumed projection.
+
+  Next, by the [[universal property]] of the top [[pushout]], the bottom right morphism is unique once it is such as to induce the given total rectangle. So we just have to check that the total right vertical morphism factors as claimed. This is a straightforward unwinding of the construction of these morphisms in the proof of Prop. \ref{CellStructureOfKProjectiveSpace}. 
+
+The following diagram means to make this evident for the case that $k = 1$:
+
+\begin{xymatrix@R=6pt@C=4pt}
+    &&
+    &&
+    \left\{
+    \!
+    \frac{
+      (z_0 + \mathrm{j} \cdot z_1,
+      z'_0 + \mathrm{j} \cdot z'_1, 0)
+    }{
+      \left\vert
+        (z_0 + \mathrm{j} \cdot z_1,
+         z'_0 + \mathrm{j} \cdot z'_1)
+      \right\vert
+    }
+    \!
+    \right\}
+    \ar@{=}[d]
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \left\{
+    \!
+    \frac{
+      (z_0 + \mathrm{j} \cdot z_1,
+      z'_0 + \mathrm{j} \cdot z'_1, 1-r)
+    }{
+      \left\vert
+        (z_0 + \mathrm{j} \cdot z_1,
+         z'_0 + \mathrm{j} \cdot z'_1, 1-r)
+      \right\vert
+    }
+    \!
+    \right\}
+    \ar@{=}[d]
+    \\
+    S^7
+    \;
+    \ar@{^{(}->}[rr]
+    \ar[dd]
+    \ar@{}[ddrr]
+    &&
+    D^8
+    \ar[dd]
+    &&
+    \left\{
+    \!
+    \frac{
+      (z_0, z_1, z'_0, z'_1, 0)
+    }{
+      \left\vert  
+        (z_0, z_1, z'_0, z'_1)
+      \right\vert
+    } 
+    \!
+    \right\}
+    \;
+    \ar@{^{(}->}[rr]
+    \ar[dd]
+    &&
+    \left\{
+    \!
+    \frac{
+      (z_0, z_1, z'_0, z'_1, 1-r)
+    }{
+      \left\vert
+        (z_0, z_1, z'_0, z'_1, 1-r)
+      \right\vert
+    }
+    \!
+    \right\}    
+    \ar[dd]
+    \\
+    \\
+    \mathbb{C}P^3
+    \;
+    \ar@{^{(}->}[rr]
+    \ar[dd]
+    &&
+    \mathbb{C}P^4
+    \ar[dd]
+    &&
+    \big\{
+      \!
+      \scalebox{.7}{$
+      \big[
+        z_0 : z_1 :
+        z'_0. : z'_1
+      \big]
+      \!
+      $}
+    \big\}
+    \;
+    \ar@{^{(}->}[rr]
+    \ar[dd]
+    &&
+    \big\{
+      \!
+      \scalebox{.7}{$
+      \big[
+        z_0 : z_1 :
+        z'_0. : z'_1 :
+        1 - r
+      \big]
+      $}
+      \!
+    \big\}
+    \ar[dd]
+    \\
+    \\
+    \mathbb{H}P^1
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \mathbb{H}P^2    
+    && 
+    \big\{
+    \!
+    \scalebox{.7}{$
+      \big[
+        z_0 + \mathrm{j} \cdot z_1
+        :
+        z'_0 + \mathrm{j} \cdot z'_1
+      \big]
+    $}
+    \!
+    \big\}
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \big\{
+    \!
+    \scalebox{.7}{$
+      \big[
+        z_0 + \mathrm{j} \cdot z_1
+        :
+        z'_0 + \mathrm{j} \cdot z'_1
+        :
+        1 - r
+      \big]
+    $}
+    \!
+    \big\}
+\end{xymatrix}
+
+Here the notation closely alludes to the construction inside the proof of Prop. \ref{CellStructureOfKProjectiveSpace}: In particular $1-r$ denotes a _real_ number (regarded inside the complex numbers or quaternions under the chosen embedding above), using that there is always a homogeneous coordinate representative with the last entry of this form. With this understood, the maps are given by sending coordinate labels "to themselves", and, if necessary, by including a last coordinate $1 - r = 0$.
+
+\end{proof}
 
 ## Related statements
 
