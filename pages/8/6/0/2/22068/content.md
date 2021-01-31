@@ -1,7 +1,30 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
 ## Idea
 
 __Homotopy weighted colimits__ (alias __weighted homotopy colimits__)
-are a [[homotopy coherent analog]] of [[weighted colimits]].
+are the analog of [[weighted colimits]] in [[homotopy theory]].
 
 ## In relative categories
 
