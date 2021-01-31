@@ -1,8 +1,29 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 __Homotopy coequalizers__ are a special case of [[homotopy colimits]],
 when the indexing diagram is the [[walking coequalizer category]],
-which has two objects, 0 and 1, and exactly two nonidentity morphisms,
+consisting of a pair of [[parallel morphisms]], i.e. of two [[objects]], 0 and 1, and exactly two nonidentity [[morphisms]],
 both of the form $0\to 1$.
 
 Homotopy coequalizers can be defined in any [[relative category]],
