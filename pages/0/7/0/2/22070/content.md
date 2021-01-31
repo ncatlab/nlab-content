@@ -1,14 +1,38 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 __Homotopy equalizers__ are a special case of [[homotopy limits]],
-when the indexing diagram is the [[walking equalizer category]],
-which has two objects, 0 and 1, and exactly two nonidentity morphisms,
-both of the form $0\to 1$.
+when the indexing [[diagram]] is the [[walking equalizer category]] consists of a pair of [[parallel morphisms]],
+i. e. of two [[objects]], 0 and 1, and exactly two nonidentity [[morphisms]], both of the form $0\to 1$.
 
 Homotopy equalizers can be defined in any [[relative category]],
 just like [[homotopy colimits]],
 but practical computations are typically carried out
 in presence of additional structures such as [[model structures]].
+
+In the absence of nontrivial [[homotopies]] (in a bare [[1-category]]), homotopy equalizers reduce to ordinary [[equalizers]].
 
 ## Computation
 
