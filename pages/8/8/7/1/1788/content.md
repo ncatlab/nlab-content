@@ -1,5 +1,32 @@
 
 $$
+  2
+  \big(
+    dim(X)
+    -
+    n 
+  \big) 
+  \,\lt\,
+  dim(X)
+$$
+
+$$
+  dim(X) 
+  \,\lt\,
+  2n
+$$
+
+$$
+  \mathbb{S}^{n}(X)  
+  \;\simeq\;
+  \pi^n
+  \big(
+    X \times \mathbb{R}
+  \big)
+$$
+
+
+$$
   \array{
     S^{4k+3}
     &\longrightarrow&
