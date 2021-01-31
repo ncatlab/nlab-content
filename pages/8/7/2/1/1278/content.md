@@ -474,7 +474,7 @@ and the observation that indeed every [[stable homotopy type]] in a [[cohesive (
 
 * Simons Center Workshop on Differential Cohomology January 10, 2011- January 14, 2011 ([web](http://www.scgp.stonybrook.edu/?q=node/21))
 
-* {#DG18} Daniel Grady, _Differential cohomology and Applications_, talk at _Geometry, Topology & Physics_, NYU Abu Dhabi, April 2018 ([[DiffCohomologyAndApplications18.pdf:file]])
+* {#DG18} [[Daniel Grady]], _Differential cohomology and Applications_, talk at _Geometry, Topology & Physics_, NYU Abu Dhabi, April 2018 ([[DiffCohomologyAndApplications18.pdf:file]])
 
 
 [[!redirects differential cohomology theory]]
