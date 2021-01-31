@@ -139,3 +139,5 @@ Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, coro
 * [[lax colimit]]
 
 [[!redirects colimits]]
+[[!redirects colimit functor]]
+[[!redirects colimit functors]]
