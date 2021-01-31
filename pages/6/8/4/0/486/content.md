@@ -92,10 +92,9 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 
 *  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
-\bibitem{MarraReggio}
-[[Vincenzo Marra]], [[Luca Reggio]], _A characterisation of the category of compact Hausdorff spaces_, Theory Appl. Categ. 35 (2020), Paper No. 51, 1871–1906. [pdf](http://www.tac.mta.ca/tac/volumes/35/51/35-51.pdf), [arXiv:1808.09738](https://arxiv.org/abs/1808.09738).
+* {#MarraReggio} [[Vincenzo Marra]], [[Luca Reggio]], _A characterisation of the category of compact Hausdorff spaces_, Theory Appl. Categ. 35 (2020), Paper No. 51, 1871–1906. [pdf](http://www.tac.mta.ca/tac/volumes/35/51/35-51.pdf), [arXiv:1808.09738](https://arxiv.org/abs/1808.09738).
 
-\bibitem{Taylor} [[Paul Taylor]], [MathOverflow answer](https://mathoverflow.net/questions/382348/subobjects-in-the-category-of-compact-hausdorff-spaces/382351#382351).
+* {#Taylor} [[Paul Taylor]], [MathOverflow answer](https://mathoverflow.net/questions/382348/subobjects-in-the-category-of-compact-hausdorff-spaces/382351#382351).
 
 [[!redirects pretopos]]
 [[!redirects pretoposes]]
