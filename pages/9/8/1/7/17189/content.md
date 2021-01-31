@@ -20,7 +20,7 @@
 
 ## Definition
 
-A [[model category]] is called _linear_ if it has a [[zero object]] (is a "[[pointed category]]") and for all of its objects $X$, the [[unit of an adjunction|unit]] 
+A [[model category]] is called _linear_ if it has a [[zero object]] (is a "[[pointed category]]" and hence a [[pointed model category]]) and for all of its objects $X$, the [[unit of an adjunction|unit]] 
 
 $$
   X \stackrel{\simeq}{\longrightarrow} \Omega \Sigma X
