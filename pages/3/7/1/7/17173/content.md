@@ -219,6 +219,10 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 
 ## References
 
+
+* {#Thom54} [[René Thom]], p. 21 of: _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
+
+
 Basics on tubular neighbourhoods are reviewed for instance in
 
 * {#DaSilva} [[Ana Cannas da Silva]], section 3 of _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
