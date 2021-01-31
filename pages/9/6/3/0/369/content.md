@@ -58,3 +58,6 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 [[!redirects parallel edge]]
 [[!redirects parallel edges]]
 
+[[!redirects walking equalizer category]]
+[[!redirects walking coequalizer category]]
+
