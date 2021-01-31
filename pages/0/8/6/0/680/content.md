@@ -703,7 +703,7 @@ A [[categorification]] to a [[categorified Dold-Kan correspondence]] is discusse
 * {#Dyckerhoff17} [[Tobias Dyckerhoff]], _A categorified Dold-Kan correspondence_ ([arXiv:1710.08356](https://arxiv.org/abs/1710.08356))
 
 [[!redirects Dold--Kan correspondence]]
-[[!redirects Dold?Kan correspondence]]
+[[!redirects Dold–Kan correspondence]]
 [[!redirects Dold-Kan theorem]]
 [[!redirects Dold--Kan theorem]]
 [[!redirects Dold–Kan theorem]]
