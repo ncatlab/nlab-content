@@ -66,6 +66,11 @@ A _[[Lagrangian density]]_ is called a _[[local Lagrangian]]_ if it "depends onl
 
 * _[[schreiber:Local prequantum field theory]]_
 
+On [[local field theory|locality]] of [[extended functorial field theory|extended]] [[functorial field theory]]:
+
+* [[Daniel Grady]], [[Dmitri Pavlov]], _Extended field theories are local_ ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208))
+
+
 Steps towards a local version of [[BV-formalism]] are undertaken in 
 
 * [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_ ([arXiv:1201.0290](http://arxiv.org/abs/1201.0290))
