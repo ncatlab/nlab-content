@@ -3,7 +3,7 @@
 
 #### Pontryagin's construction
 
-The unstable and framed version of the [[Pontrjagin-Thom construction]], namely the original _[Pontryagin construction](cohomotopy#RelationToCobordismGroup)_, identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Cohomotopy sets]], is due to:
+The unstable and framed version of the [[Pontrjagin-Thom construction]], namely the original _[Pontryagin construction](cohomotopy#RelationToCobordismGroup)_, identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
 
 * {#Pontrjagin38} [[Lev Pontrjagin]], _Classification of continuous maps of a complex into a sphere_,  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
 
