@@ -33,6 +33,18 @@ $$
 
 This may be extended to a family of any number of morphisms, but the morphisms are always compared pairwise to see if they are parallel. Degenerate cases: a family of one parallel morphism is simply a morphism; a family of zero parallel morphisms is simply a pair of objects.
 
+## The walking parallel pair
+
+The above considerations can be formalized in the following definition.
+
+\begin{definition}
+The __walking parallel pair__ category $P$
+has two objects, 0 and 1,
+and two nonidentity arrows, $f,g\colon 0\to 1$.
+\end{definition}
+
+Now functors $P\to C$ are pecisely pairs of parallel morphisms.
+
 ## Limits and colimits
 
 The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]__; the [[colimit]] is their __[[coequalizer]]__. (Of course, these do not always exist.)
@@ -52,6 +64,9 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 [[!redirects parallel pair]]
 [[!redirects parallel pairs]]
 
+[[!redirects walking parallel pair]]
+[[!redirects walking parallel pairs]]
+
 [[!redirects pair of parallel morphisms]]
 [[!redirects pairs of parallel morphisms]]
 
@@ -60,4 +75,3 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 
 [[!redirects walking equalizer category]]
 [[!redirects walking coequalizer category]]
-
