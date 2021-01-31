@@ -211,3 +211,6 @@ For TQFTs appearing in [[solid state physics]] in the context of [[topological o
 [[!redirects extended TFT]]
 [[!redirects extended TFTs]]
 
+[[!redirects extended functorial field theory]]
+[[!redirects extended functorial field theories]]
+
