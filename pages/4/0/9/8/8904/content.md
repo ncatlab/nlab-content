@@ -22,11 +22,9 @@ A _semi-simplicial object_ is like a [[simplicial object]], but without degenera
 ### In terms of functors
 
 For $\mathcal{C}$ a [[category]] or [[(∞,1)-category]], a semi-simplicial object $X$ in $\mathcal{C}$ is a [[functor]] or [[(∞,1)-functor]]
-
 $$
   X \colon \Delta_+^{op}  \to \mathcal{C}
 $$
-
 from $\Delta_+$, the [[wide subcategory]] of the [[simplex category]] on the injective functions (the co-face maps).
 
 ### In homotopy type theory
@@ -104,3 +102,5 @@ More along these lines is in
 [[!redirects semisimplicial type]]
 [[!redirects semi-simplicial types]]
 [[!redirects semisimplicial types]]
+[[!redirects category of semisimplices]]
+[[!redirects categories of semisimplices]]
