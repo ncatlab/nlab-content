@@ -64,7 +64,7 @@ The general abstract definition of [[twisted differential cohomology]] as the in
 
 Discussion of [[twisted differential K-theory]] along these lines includes
 
-* Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
   (specifically: [[KO-theory]])
 
