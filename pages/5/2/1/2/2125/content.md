@@ -1089,6 +1089,5 @@ See also the appendix in
 * [[Pavol Severa]], [[Thomas Willwacher]], _Equivalence of formalities of the little discs operad_, [arXiv:0905.1789](http://arxiv.org/abs/0905.1789)
 
 
-[[!redirects monoidal Dold?Kan correspondence]]
+[[!redirects monoidal Dold–Kan correspondence]]
 [[!redirects monoidal Dold--Kan correspondence]]
-[[!redirects monoidal Dold-kan correspondence]]
