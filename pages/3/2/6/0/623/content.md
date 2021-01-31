@@ -630,21 +630,19 @@ The discusson of the [[hypercrossed complex]] structure on the Moore complex of 
 
 
 [[!redirects Moore complexes]]
-
-
 [[!redirects Moore-complex]]
-
-[[!redirects normalized chains complex]]
-[[!redirects normalized chain complex]]
-
 [[!redirects alternating face map complex]]
 
-[[!redirects normalized chain complexe]]
+[[!redirects normalized chain complex]]
 [[!redirects normalized chain complexes]]
-
-[[!redirects normalized chains complexe]]
+[[!redirects normalized chains complex]]
 [[!redirects normalized chains complexes]]
-
+[[!redirects normalized chains functor]]
+[[!redirects normalized chains functors]]
 
 [[!redirects normalized cochain complex]]
 [[!redirects normalized cochain complexes]]
+[[!redirects normalized cochains complex]]
+[[!redirects normalized cochains complexes]]
+[[!redirects normalized cochains functor]]
+[[!redirects normalized cochains functors]]
