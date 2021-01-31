@@ -29,13 +29,13 @@ For more introduction see at _[[Introduction to Cobordism and Complex Oriented C
 
 ## References
 
-Original articles include
+Original articles:
 
-* {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86
+* {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
 
 * {#Atiyah61} [[Michael Atiyah]], _Thom complexes_, Proc. London Math. Soc. (3), 11:291&#8211;310, 1961. 10 
 
-Textbook accounts include
+Textbook accounts:
 
 * [[Robert Stong]], _Notes on cobordism theory_ , Princeton Univ. Press  (1968) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stongcob.pdf))
 
