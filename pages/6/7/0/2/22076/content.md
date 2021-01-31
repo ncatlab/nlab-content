@@ -1,5 +1,5 @@
 
-* [webpage](https://sites.google.com/view/danielgrady/)
+* [webpage](https://www.gradydaniel.com/)
 
 ## Selected writings
 
