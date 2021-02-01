@@ -547,7 +547,7 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 * Any undirected [[graph]] (loops and/or multiple edges allowed) has a geometric realization as a 1-dimensional CW complex.
 
-* The [[geometric realization]] of any locally finite [[simplicial set]] is a CW-complex ([Milnor 57](#Milnor57)). 
+* The [[geometric realization]] of any [[simplicial set]] is a CW-complex ([Milnor 57](#Milnor57)). 
 
   * In particular, in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
 
@@ -618,7 +618,7 @@ Original articles include
 * {#Milnor59} [[John Milnor]], _On spaces having the homotopy type of a CW-complex_, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280. 
   
 
-* {#Milnor57} [[John Milnor]], _The geometric realization of a semi-simplicial complex_, Annals of Mathematics, 2nd Ser., __65__, n. 2. (Mar., 1957), pp. 357-362; [pdf](http://www.math.binghamton.edu/dwyer/Milnor-GeomReal.pdf)
+* {#Milnor57} [[John Milnor]], _The geometric realization of a semi-simplicial complex_, Annals of Mathematics, 2nd Ser., __65__, n. 2. (Mar., 1957), pp. 357-362; doi:[10.2307/1969967](https://doi.org/10.2307/1969967), [Semantic scholar pdf](https://pdfs.semanticscholar.org/7cbe/0482ce422d3adcc84be80b5ab3f68520a247.pdf)
  
 
 See also
