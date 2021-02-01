@@ -35,6 +35,10 @@ on [[cobordism theory]], introducing [[Thom's theorem]].
 
 * [[tubular neighbourhood]] (p. 21)
 
+### 4. Pre-image of a sub-manifold under a t-regular map
+
+* [[Thom's transversality theorem]] (p. 26)
+
 ## Chapter II -- Sub-manifolds and homology classes of a manifold
 
 
