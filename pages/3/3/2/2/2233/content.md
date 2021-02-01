@@ -157,13 +157,15 @@ More on extended QFTs is also at
 
 ## References
 
-* [[Dan Freed]], Remarks on Chern-Simons theory
+### General
 
-* Daniel Freed, Quantum Groups from Path Integrals. [arXiv](http://arxiv.org/abs/q-alg/9501025) 
+* [[Daniel Freed]], _Remarks on Chern-Simons theory_
 
-* Daniel Freed, Higher Algebraic Structures and Quantization. [arXiv](http://arxiv.org/abs/hep-th/9212115)
+* [[Daniel Freed]], _Quantum Groups from Path Integrals_ ([arXiv:q-alg/9501025](http://arxiv.org/abs/q-alg/9501025))
 
-* [[John Baez]] and [[James Dolan]], Higher-dimensional Algebra and Topological Quantum Field Theory.  [arXiv](http://arxiv.org/abs/q-alg/9503002)
+* [[Daniel Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
+
+* [[John Baez]] and [[James Dolan]], )Higher-dimensional Algebra and Topological Quantum Field Theory_  ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002))
 
 * [[Jacob Lurie]],  _[[On the Classification of Topological Field Theories]]_. [arXiv](http://arxiv.org/abs/0905.0465)
 
@@ -173,18 +175,16 @@ With an eye towards the full extension of [[Chern-Simons theory]]:
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
 
-and with emphasis on the invertible [[quantum anomaly]]-theory in one dimension higher:
-
-* [[Daniel Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
-
-* [[Lukas Müller]], _Extended Functorial Field Theories and Anomalies in Quantum Field Theories_ ([arXiv:2003.08217](https://arxiv.org/abs/2003.08217))
-
 
 For TQFTs appearing in [[solid state physics]] in the context of [[topological order]]:
 
 * {#FreedMoore12} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
 
 * {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
+
+
+
+[[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
 
 
 
