@@ -1,11 +1,13 @@
 
 The talk
 
-* [[Dan Freed]], _4-3-2 8-7-6_, 
+* [[Daniel Freed]],
 
-  ([pdf](https://people.maths.ox.ac.uk/tillmann/ASPECTSfreed.pdf))
+  **4-3-2 8-7-6**
 
   talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+
+  [pdf](https://people.maths.ox.ac.uk/tillmann/ASPECTSfreed.pdf), [[Freed432876.pdf:file]]
 
 discusses aspects and open problems of understanding 
 
