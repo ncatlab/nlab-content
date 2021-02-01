@@ -200,6 +200,12 @@ A formal proof about the [[h-level]] of W-types is discussed in
 * Nils Anders Danielsson, _Positive h-levels are closed under W_ ([web](https://homotopytypetheory.org/2012/09/21/positive-h-levels-are-closed-under-w/))
  {#Danielsson}
 
+and also in
+
+* Jasper Hugunin, _IWTypes_, <https://github.com/jashug/IWTypes>
+
+which also computes the [[identity types]] of W-types (and more generally [[indexed W-types]]).
+
 Discussion of W-types in [[homotopy type theory]], or rather in [[model categories]] presenting [[homotopy theories]], is in 
 
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
