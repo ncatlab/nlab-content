@@ -19,7 +19,7 @@
 
 ## Idea
 
-The collection $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal DoldKan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
+The collection $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal Dold–Kan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
 
 Notably, this cochain complex is an [[E-∞ algebra]] (an [[algebra over an operad|algebra]] over the [[E-∞ operad]]). In [[chain homology and cohomology|cohomology]] it becomes a [[graded algebra|graded-commutative algebra]].
 
@@ -154,7 +154,9 @@ A particularly clear exposition is in
 
 This in turn is nicely reviewed and spelled out in section 3 of 
 
-* [[Peter May]], _Operads and sheaf cohomology_ (2003) (unpublished private notes -- but maybe we get permission to upload them here?)
+* [[Peter May]], _Operads and sheaf cohomology_ (2003).
+[PDF](https://www.math.uchicago.edu/~may/PAPERS/Esheaf.pdf).
+(unpublished private notes -- but maybe we get permission to upload them here?)
 {#May03}
 
 These describe actions of the [[Eilenberg-Zilber operad]] on $C^\bullet([S^\bullet,R])$. 
