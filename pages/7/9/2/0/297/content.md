@@ -2487,7 +2487,7 @@ A survey of some further developments and conjectures (especially as related to 
 
 The discussion of the open-closed case of 2d TQFT goes back to
 
-* {#MooreSegal06} [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
+* {#MooreSegal06} [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv:hep-th/0609042](http://arxiv.org/abs/hep-th/0609042))
 
 * {#Lazaroiu00} [[Calin Lazaroiu]], _On the structure of open-closed topological field theory in two dimensions_, Nuclear Phys. B 603(3), 497&#8211;530 (2001), ([arXiv:hep-th/0010269](http://arxiv.org/abs/hep-th/0010269))
 
@@ -2644,6 +2644,16 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
+
+
+
+
+[[!include D=2 CFT a functorial field theory -- references]]
+
+
+
+
+[[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
 
 
 
