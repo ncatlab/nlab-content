@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _classical [[model category]] structure on [[pointed topological spaces]]_ $Top^{\ast/}_{Quillen}$ is the [[model structure on an undercategory]] of the [[classical model structure on topological spaces]] $Top_{Quillen}$ under the point.
+The _classical [[model category]] structure on [[pointed topological spaces]]_ $Top^{\ast/}_{Quillen}$ is the [[model structure on an undercategory]] of the [[classical model structure on topological spaces]] $Top_{Quillen}$ under the point (a [[pointed model category]]).
 
 With the [[smash product]] this is a [[monoidal model category]].
 
