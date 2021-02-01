@@ -32,7 +32,7 @@ $$
 between the Khovanov homologies associated to the two knots.
 
 
-In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarzVafa05](GukovSchwarzVafa04)) that this 4d TQFT is related to the worldvolume theory of the image in [[string theory|type IIA string theory]] of D3-[[brane]]s ending on NS5-[[brane]]s in a type IIB background of the form $\mathbb{R}^9 \times S^1$ with the circle transverse to both kinds of branes, under one [[S-duality]] and one [[T-duality]] operation
+In ([Witten11](#Witten11)) it is argued, following indications in ([Gukov-Schwarz-Vafa 05](#GukovSchwarzVafa04)) that this 4d TQFT is related to the worldvolume theory of the image in [[string theory|type IIA string theory]] of D3-[[brane]]s ending on NS5-[[brane]]s in a type IIB background of the form $\mathbb{R}^9 \times S^1$ with the circle transverse to both kinds of branes, under one [[S-duality]] and one [[T-duality]] operation
 
 $$
   (D3-NS5) 
