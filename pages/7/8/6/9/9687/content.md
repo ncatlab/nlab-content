@@ -19,7 +19,7 @@
 
 ## Idea
 
-Confinement (e.g [Espiru 94](#Espiru94)) is the (expected) phenomenon in [[Yang-Mills theory]] generally and especially in [[quantum chromodynamics]] that the fundamental [[quarks]], which the [[Yang-Mills theory|YM]]/[[QCD]]-[[Lagrangian density]] actually describes, must form [[baryon|baryonic]] [[bound state|bound states]] which are neutral under the color charge -- the [[mesons]] and [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]). Hence confinement in particular concerns the emergence and existence of [[atomic nuclei]], hence of ordinary [[matter]], which is not manifest at all in the [[quark]]-model. 
+Confinement (e.g [Espiru 94](#Espiru94)) is the (expected) phenomenon in [[Yang-Mills theory]] generally and especially in [[quantum chromodynamics]] that the fundamental [[quarks]], which the [[Yang-Mills theory|YM]]/[[QCD]]-[[Lagrangian density]] actually describes, must form [[baryon|baryonic]] [[bound state|bound states]] which are neutral under the color charge -- the [[mesons]] and [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]). Hence confinement in particular concerns the emergence and existence of [[atomic nuclei]], hence of ordinary [[matter]], which is not manifest at all in the [[quark]]-model. In order to prove, via [[QCD]] itself, that the potential energy of a colorless package of [[quarks]] tends to infinity as the distance between them grows, one must probe the long-range regime of the quark-quark interaction, in which the methods of [[Feynman calculus]] fail. 
 
 Part of the issue is that confinement is a [[non-perturbative effect]] (e.g [Espiru 94](#Espiru94)) outside the range of validity of [[perturbative quantum field theory]].
 
@@ -193,6 +193,7 @@ See also at _[[glueball]]_.
 
 
 Textbook accounts include
+* David Griffiths, chapter 8 of _Introduction to Elementary Particles_ 2nd ed., 2008. ([pdf] (https://www.physics.utah.edu/~belz/phys5110/Griffiths.pdf))
 
 * {#Greensite11} Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
 
