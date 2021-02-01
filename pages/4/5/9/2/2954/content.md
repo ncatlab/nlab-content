@@ -38,8 +38,7 @@ On [[quantum anomalies]] via [[index theory]]:
 
 On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant K-theory]]:
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1
-([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
 
 On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identification with the [[Verlinde ring]] of [[positive energy representations]] of their [[loop group]]:
 
@@ -69,10 +68,15 @@ On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identif
 
   Comptes Rendus Mathematique, Volume 353, Issue 5, May 2015, Pages 415-419
 
-  ([arxiv/1409.6051](http://arxiv.org/abs/1409.6051), [doi:10.1016/j.crma.2015.02.011](https://doi.org/10.1016/j.crma.2015.02.011))
+  ([arxiv:1409.6051](http://arxiv.org/abs/1409.6051), [doi:10.1016/j.crma.2015.02.011](https://doi.org/10.1016/j.crma.2015.02.011))
+
+On the [[cobordism hypothesis]]:
+
+* [[Daniel Freed]], _The cobordism hypothesis_, Bulletin of the American Mathematical Society 50 (2013), pp. 57-92, ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100), [doi:10.1090/S0273-0979-2012-01393-9](https://doi.org/10.1090/S0273-0979-2012-01393-9))
 
 
-## related entries
+
+## Related entries
 
 * [[differential cohomology]]
 
