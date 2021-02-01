@@ -164,11 +164,14 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming AC) every
 
 ## References
 
-* {#Lang02} [[Serge Lang]]  _Algebra_, Graduate Texts in Mathematics 211 (Revised third ed.), Springer 2002
+* {#Lang02} [[Serge Lang]], _Algebra_, Graduate Texts in Mathematics 211 (Revised third ed.), Springer. 2002
 
 
 [[!redirects free abelian group]]
 [[!redirects free abelian groups]]
+
+[[!redirects free abelian group functor]]
+[[!redirects free abelian group functors]]
 
 [[!redirects formal linear combination]]
 [[!redirects formal linear combinations]]
