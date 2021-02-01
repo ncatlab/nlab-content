@@ -41,6 +41,8 @@ The model category structure on $RelCat$ is obtained from that on [[bisimplicial
 
 It is shown in [Meier](#Meier) that [[categories of fibrant objects]] are fibrant in this model structure.
 
+More generally, the subdivided nerve-realization adjunction induces a quillen equivalent model structure on RelCat for every  Bousfield localization of the model structure on bisimplicial sets presenting simplicial spaces.
+
 ### Nerve functors
 
 The compatibility of the various nerve and simplicial localization functors is in section 1.11 of 
