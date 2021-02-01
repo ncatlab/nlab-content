@@ -409,7 +409,7 @@ Let $\mathcal{C}$ be a [[small site]] and let $Sh(\mathcal{C})$ be its category 
 
 1. $f$ is a [[monomorphism]] or [[isomorphism]] precisely if it is so _globally_ in that for each object $U \in \mathcal{C}$ in the site, then the component $f_U \colon X(U) \to Y(U)$ is an [[injection]] or [[bijection]] of [[sets]], respectively.
 
-1.  $f$ is an [[epimorphism]] precisely if it is so _locally_, in that: for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ and every element $y \in Y(U)$ the element $f(p_i)(y)$ is in the image of $f(U_i) : X(U_i) \to Y(U_i)$.
+1.  $f$ is an [[epimorphism]] precisely if it is so _locally_, in that: for all $U \in C$ and every element $y \in Y(U)$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ the element $f(p_i)(y)$ is in the image of $f(U_i) : X(U_i) \to Y(U_i)$.
 
 But if $\{x_i\}_{i \in I}$ is a [[set]] of [[points of a topos]] for $Sh(\mathcal{C})$ such that these are _enough points_ ([def.](point+of+a+topos#EnoughPoints)) then the morphism $f$ is epi/mono/iso precisely it is is so an all [[stalks]], hence precisely if
 
