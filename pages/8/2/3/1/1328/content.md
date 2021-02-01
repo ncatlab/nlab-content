@@ -10,7 +10,7 @@ Precsisely what this condition is like for the particular model constituted by s
 
 and
 
-* To&#235;n-Vezzosi, _Segal topoi and stacks over Segal categories_ ([pdf](http://poincare.dma.unifi.it/~vezzosi/papers/msri.pdf))
+* Toën-Vezzosi, _Segal topoi and stacks over Segal categories_ ([pdf](http://poincare.dma.unifi.it/~vezzosi/papers/msri.pdf))
 
 recalled as corollary 6.5.3.13 in 
 
@@ -202,4 +202,4 @@ $$
   \,.
 $$
 
-[[Note on Formatting|?]]
+[[!redirects homotopy descent]]
