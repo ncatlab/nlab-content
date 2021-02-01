@@ -1,3 +1,4 @@
+[[!redirects model structure on categories with weak equivalences]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -62,3 +63,6 @@ The compatibility of the various nerve and simplicial localization functors is i
 
 * Lennart Meier, *Fibration Categories are Fibrant Relative Categories*, [arxiv](https://arxiv.org/abs/1503.02036)
  {#Meier}
+
+[[!redirects Barwick-Kan equivalence]]
+[[!redirects Barwick–Kan equivalence]]
