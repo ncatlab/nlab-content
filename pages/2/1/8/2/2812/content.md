@@ -1,4 +1,6 @@
 
+> This entry may need to be merged with _[[simplicial cochain]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
