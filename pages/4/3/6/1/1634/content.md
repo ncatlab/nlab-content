@@ -23,7 +23,7 @@
 
 ## Idea ##
 
-In [[topology]], a _neighbourhood_ (or _neighborhood_) of a point $x$ in some [[topological space]] $X$ is a set $U$ such that there is enough room around $x$ in $U$ to move in any direction (but perhaps not very far).  One writes $x \in U^\circ$, $U \stackrel{\circ}\ni x$, or any of the six other obvious variations to indicate that $U$ is a neighbourhood of $x$.
+In [[topology]], a _neighbourhood_ (or _neighborhood_) of a [[point]] $x$ in some [[topological space]] $X$ is a [[subset]] $U$ such that there is enough room around $x$ in $U$ to move in any direction (but perhaps not very far).  One writes $x \in U^\circ$, $U \stackrel{\circ}\ni x$, or any of the six other obvious variations to indicate that $U$ is a neighbourhood of $x$.
 
 
 ## Definitions ##
