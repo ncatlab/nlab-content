@@ -22,7 +22,7 @@
 
 ## Idea
 
-A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects behave like built from [[infinitesimally thickened points|infinitesimally thickened]] [[geometrically discrete ∞-groupoids]] in that they all have "precisely one point in each cohesive piece". 
+A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects behave as though built from [[infinitesimally thickened points|infinitesimally thickened]] [[geometrically discrete ∞-groupoids]] in that they all have "precisely one point in each cohesive piece". 
 
 (There is an evident version of an infinitesimally cohesive 1-topos. In ([Lawvere 07, def. 1](#Lawvere07)) such is referred to as a "[[quality type]]". A hint of this seems to be also in ([Lawvere 91, p. 9](#Lawvere91))).
 
@@ -83,8 +83,7 @@ $$
 ### Formal moduli problems/ strong homotopy Lie algebras
  {#FormalModuliProblems}
 
-[[synthetic differential ∞-groupoids]] are cohesive over generalized
-[[formal moduli problems]]/[[L-∞ algebras]] (generalized meaning without the condition of vanishing on the point and of without the condition of being [[cohesive (∞,1)-presheaf on E-∞ rings|infinitesimally cohesive sheaves in Lurie's sense]]) which in turn are infinitesimally cohesive over [[geometrically discrete ∞-groupoids]].
+[[synthetic differential ∞-groupoids]] are cohesive over generalized [[formal moduli problems]]/[[L-∞ algebras]] (generalized meaning without the condition of vanishing on the point and of without the condition of being [[cohesive (∞,1)-presheaf on E-∞ rings|infinitesimally cohesive sheaves in Lurie's sense]]) which in turn are infinitesimally cohesive over [[geometrically discrete ∞-groupoids]].
 
 $$
   \array{
