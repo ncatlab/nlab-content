@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
-=--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
 =--
 #### Higher algebra
 +--{: .hide}
