@@ -24,6 +24,11 @@ On [[MU]]-[[bordism theory]]:
 * {#ConnerSmith69} [[Pierre Conner]], [[Larry Smith]], _On the complex bordism of finite complexes_, Publications Mathématiques de l'IHÉS, Tome 37 (1969) , pp. 117-221 ([numdam:PMIHES_1969__37__117_0](http://www.numdam.org/item/?id=PMIHES_1969__37__117_0))
 
 
+## Related $n$Lab entries
+
+* [[Conner-Floyd Chern classes]]
+
+* [[Conner-Floyd isomorphism]]
 
 
 
