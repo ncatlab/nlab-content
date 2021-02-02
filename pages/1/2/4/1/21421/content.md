@@ -46,6 +46,12 @@ Via the realization of [[D4/D8 brane bound states]] as [[instantons]] in the [[D
 
 * {#GrossOoguri98} [[David Gross]], [[Hirosi Ooguri]], _Aspects of Large $N$ Gauge Theory Dynamics as Seen by String Theory_, Phys. Rev. D58:106002, 1998 ([arXiv:hep-th/9805129](https://arxiv.org/abs/hep-th/9805129))
 
+More on [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
+
+
+* Salvatore Baldino, Lorenzo Bartolini, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], _Holographic Nuclear Physics with Massive Quarks_ ([arXiv:2102.00680](https://arxiv.org/abs/2102.00680))
+
+
 An alternative scenario of derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]], now on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]], is discussed in:
 
 * {#IvanovaLechtenfeldPopov18} [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
