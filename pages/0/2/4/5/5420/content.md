@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -60,4 +73,4 @@ Discussion in [[motivic cohomology]]:
 
 *  [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Doc. Math., 14:359&#8211;396 (electronic), 2009, [pdf](http://www.math.uni-bielefeld.de/documenta/vol-14/14.pdf)
 
-*  [[Ivan Panin]], [[Konstantin Pimenov]], [[Oliver Röndings]], _On the relation of Voevodsky’s algebraic cobordism to Quillen’s K-theory_, Invent. Math., __175__ (2009), no. 2, 435--451., [MR2470112](http://www.ams.org/mathscinet-getitem?mr=2470112)
+*  [[Ivan Panin]], Konstantin Pimenov, Oliver Röndings, _On the relation of Voevodsky’s algebraic cobordism to Quillen’s K-theory_, Invent. Math., __175__ (2009), no. 2, 435--451., [MR2470112](http://www.ams.org/mathscinet-getitem?mr=2470112)
