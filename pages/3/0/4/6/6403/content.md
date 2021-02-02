@@ -76,6 +76,10 @@ See also
 
 * &#214;zg&#252;r A&#231;&#305;k, _Field equations from Killing spinors_ ([arXiv:1705.04685](https://arxiv.org/abs/1705.04685))
 
+* Ángel Murcia, C. S. Shahbazi, 
+_Parallel spinors on globally hyperbolic Lorentzian four-manifolds_ ([arXiv:2011.02423](https://arxiv.org/abs/2011.02423))
+
+
 Discussion relating to [[Killing vectors]] in [[supergeometry]] ([[superisometries]]) is in
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], pages 1198-1199 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
