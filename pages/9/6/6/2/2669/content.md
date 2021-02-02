@@ -34,7 +34,7 @@ and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady9
 
 See also 
 
-* Wikipedia, _[Hibert scheme](https://en.wikipedia.org/wiki/Hilbert_scheme)
+* Wikipedia, _[Hilbert scheme](https://en.wikipedia.org/wiki/Hilbert_scheme)
 
 ### Hilbert schemes of points
 
