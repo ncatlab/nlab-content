@@ -86,10 +86,10 @@ Adhesiveness is an [[exactness property]], similar to being a [[regular category
 
 ## References
 
-* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive and quasiadhesive categories*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/adhesivejournal.pdf)
+* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive and quasiadhesive categories*, [PDF](https://www.ioc.ee/~pawel/papers/adhesivejournal.pdf)
  {#LS1}
 
-* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/adhesive.pdf)
+* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [PDF](https://www.ioc.ee/~pawel/papers/adhesive.pdf)
  {#LS}
 
 * [[Steve Lack]] and [[Pawel Sobocinski]], *Toposes are adhesive*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)
