@@ -100,6 +100,10 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 ### 10. A cobordism interpretation for $K^\ast(X)$
 
+* [[Conner-Floyd isomorphism]]
+
+  ([[Landweber exact functor theorem]] for [[KU]] and [[KSp]])
+
 
 ### 11. Mappings into spheres
 
