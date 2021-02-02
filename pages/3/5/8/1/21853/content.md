@@ -29,4 +29,12 @@ On [[MU]] and introducing the [[Todd character]]:
 * [[Pierre Conner]], [[Larry Smith]],  _On the complex bordism of finite complexes. II_, J. Differential Geom. Volume 6, Number 2 (1971), 135-174 ([euclid:euclid.ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
 
 
+## Related $n$Lab entries
+
+* [[Conner-Floyd Chern classes]]
+
+* [[Conner-Floyd isomorphism]]
+
+
+
 category: people
