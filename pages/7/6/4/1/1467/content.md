@@ -336,14 +336,16 @@ is a finite subcover of the original open cover of $K \setminus U$. Therefore $K
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #ProductOfCompactSpacesIsCompact}
 ###### Proposition
 
 Assuming the [[axiom of choice]], the category of compact spaces admits all small [[products]]. And, even without the axiom of choice, the category of compact locales admits all small products. 
 
-The first statement follows from the [[Tychonoff theorem]]: every [[product topological space]] of compact spaces is itself again compact.
-
 =-- 
+
+\begin{proof}
+The first statement follows from the [[Tychonoff theorem]]: every [[product topological space]] of compact spaces is itself again compact.
+\end{proof}
 
 +-- {: .num_remark} 
 ###### Remark 
