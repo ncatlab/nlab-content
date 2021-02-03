@@ -114,6 +114,10 @@ This is ([Jardine, theorem 29, corollary 30](#Jardine)).
 In fact, by the discussion at _[[adjoint (∞,1)-functor]]_  it follow that the [[derived functors]] of the adjunction exhibit the [[simplicial localizations]] of cubical sets equivalent to that of simplicial sets, hence makes their [[(∞,1)-categories]] [[equivalence of (∞,1)-categories|equivalent]] (hence equivalent to [[∞Grpd]]). 
 
 
+## Other kinds of cubical sets
+
+In [[cubical type theory]] one uses more structured notions of cubical set (symmetric, cartesian, De Morgan, etc.)  In most cases such categories have both a test model structure, which is equivalent to spaces, and a [[cubical-type model structure]] that corresponds to the interpretation of type theory.  In many cases these are *not* equivalent, and the cubical-type model structure does not model classical homotopy types.  See [[cubical-type model structure]] for more discussion.
+
 
 ## References
 
