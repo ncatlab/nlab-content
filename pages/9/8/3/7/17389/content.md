@@ -31,9 +31,9 @@ For one textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#Fr
 Let $X_n$ denote the $n^{th}$ skeleton of $X$. We argue by [[induction]] that each skeleton is a paracompactum. Vacuously $X_{-1} = \emptyset$ is a paracompactum. Now suppose $X_{n-1}$ is a paracompactum, and suppose $X_n$ is formed as an [[attachment space]] with attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so that 
 
 $$\array{
-\sum_{i \in I} S_i^{n-1} & \stackrel{h}{\hookrightarrow} & \sum_{i \in I} D_i^{n} \\ 
-\mathllap{f} \downarrow & po & \downarrow \mathrlap{g} \\ 
-X_{n-1} & \underset{k}{\hookrightarrow} & X_n
+\sum_{i \in I} S_i^{n-1} & \stackrel{\;h\;}{\hookrightarrow} & \sum_{i \in I} D_i^{n} \\ 
+\mathllap{f} \big\downarrow & {}^{{}_{(po)}} & \big\downarrow \mathrlap{g} \\ 
+X_{n-1} & \underset{\;k\;}{\hookrightarrow} & X_n
 }$$ 
 
 is a pushout square. The embedding $h$ is a closed embedding, and so its pushout along $f$ [is a closed embedding](/nlab/show/subspace+topology#pushout) $k$. Furthermore, the spheres $S_i^{n-1}$ and disks $D_i^n$ are paracompacta since they are compact Hausdorff, and [coproducts of paracompacta are again paracompacta](https://ncatlab.org/nlab/show/paracompact+topological+space#ParacompactnessPreservedByDisjointUnion), making $h$ a closed embedding of paracompact Hausdorff spaces. By the result on [pushouts of closed embeddings of paracompacta](/nlab/show/colimits+of+paracompact+Hausdorff+spaces#ClosedEmbeddingsOfParacompactaClosedUnderPushout), it now follows that $X_n$ is a paracompactum. 
