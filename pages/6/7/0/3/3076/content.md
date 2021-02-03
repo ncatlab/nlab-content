@@ -68,18 +68,34 @@
 
 * [[homotopy limit]]
 
-  * [[homotopy pullback]]
+  * [[homotopy product]]
 
-  * [[mapping cone]]
+  * [[homotopy equalizer]]
 
   * [[homotopy fiber]]
 
+  * [[mapping cone]]
+
+  * [[homotopy pullback]]
+
+  * [[homotopy totalization]]
+
+  * [[homotopy end]]
+
 * [[homotopy colimit]]
 
-  * [[homotopy pushout]]
+  * [[homotopy coproduct]]
+
+  * [[homotopy coequalizer]]
 
   * [[homotopy cofiber]]
 
   * [[mapping cocone]]
+
+  * [[homotopy pushout]]
+
+  * [[homotopy realization]]
+
+  * [[homotopy coend]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-limits+-+contents)</div>
