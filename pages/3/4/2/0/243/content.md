@@ -663,3 +663,6 @@ Application in [[conformal field theory]]:
 
 [[!redirects Fubini theorem for ends]]
 [[!redirects Fubini theorem for coends]]
+
+[[!redirects enriched end]]
+[[!redirects enriched ends]]
