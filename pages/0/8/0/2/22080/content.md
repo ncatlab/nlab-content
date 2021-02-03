@@ -21,11 +21,11 @@
 
 ## Idea
 
-__Homotopy realization__ are a special case of [[homotopy colimits]],
+__Homotopy realizations__ are a special case of [[homotopy colimits]],
 when the indexing diagram is $\Delta^{op}$,
 the [[opposite category]] of the [[category of simplices]].
 
-Homotopy coequalizers can be defined in any [[relative category]],
+Homotopy realizations can be defined in any [[relative category]],
 just like [[homotopy colimits]],
 but practical computations are typically carried out
 in presence of additional structures such as [[model structures]],
@@ -51,17 +51,19 @@ then the resulting functor is the [[colimit functor]] $C^{\Delta^{op}}\to C$.
 The functor $\otimes$ becomes a [[left Quillen bifunctor]]
 if we equip $V^\Delta$ and $C^{\Delta^{op}}$ with one
 of the three following pairs of model structures:
+
 * injective and projective;
 * projective and injective;
 * Reedy and Reedy.
 
 Accordingly, the homotopy realization of a [[simplicial object]] $X\colon \Delta^{op}\to C$ can be computed as follows.
+
 * Cofibrantly resolve the constant weight $1$ in one of the three model structures listed above.
 * Cofibrantly resolve $X$ in the other model structure in the same pair.
 * Compute $Q 1 \otimes Q X$, which is the homotopy realization of $X$.
 
 Cofibrant resolutions in the [[injective model structure]]
-can be computed by appling some [[cofibrant resolution functor]] of $C$ objectwise.
+can be computed by applying some [[cofibrant resolution functor]] of $C$ objectwise.
 
 Cofibrant resolutions in the [[Reedy model structure]]
 can be computed inductively, by repeatedly factoring the [[latching map]] of $X$
@@ -75,11 +77,11 @@ can be computed explicitly in some practical examples.
 
 The inclusion of the
 [[category of semisimplices]] (i.e., fininite inhabited totally ordered sets and injective order-preserving maps) into the [[category of simplices]]
-(with the injectivity condition dropped) is a [[homotopy final functor]],
-i.e., restricting along this inclusion preserves [[homotopy colimits]].
+(with the injectivity condition dropped) is a [[homotopy initial functor]],
+i.e., restricting along the inclusion of opposite categories preserves [[homotopy colimits]].
 
 Thus, homotopy realizations can be computed as
-[[homotopy colimits]] over the [[category of semisimplices]].
+[[homotopy colimits]] over the opposite [[category of semisimplices]].
 The latter category is a [[direct category]],
 which makes cofibrancy conditions particularly easy.
 
@@ -87,19 +89,19 @@ which makes cofibrancy conditions particularly easy.
 
 ### Simplicial sets
 
-In [[simplicial sets]] with [[simplicial weak equivalences]],
-the [[Reedy model structure]] on [[simplicial objects]] in [[simplicial sets]]
+A Reedy [[cofibrant replacement]] of the constant weight $1\colon \Delta\to sSet$
+can be computed as the [[Yoneda embedding]] $Y_\Delta\colon\Delta\to sSet$.
+
+The [[Reedy model structure]] on [[simplicial objects]] in [[simplicial sets]]
+with [[simplicial weak equivalences]]
 coincides with the [[injective model structure]],
 as explained in the article [[elegant Reedy category]].
 In particular, all objects are [[cofibrant]].
 
-A Reedy [[cofibrant replacement]] of the constant weight $1\colon \Delta\to sSet$
-can be computed as the [[Yoneda embedding]] $Y\colon\Delta\to sSet$.
-
-Thus, the homotopy coequalizer of
+Thus, the homotopy realization of
 $$X\colon \Delta^{op} \to sSet$$
 can be computed as
-$$Y\otimes X,$$
+$$Y_\Delta\otimes X,$$
 which is isomorphic to the [[diagonal]] of $X$.
 
 ### Chain complexes of abelian groups
@@ -147,9 +149,11 @@ of [[simplicial topological spaces]].
 
 ## Related notions
 
-* [[coproduct]]
+* [[realization]]
 
 * [[homotopy colimit]]
+
+* [[homotopy coend]]
 
 * [[homotopy pushout]]
 
