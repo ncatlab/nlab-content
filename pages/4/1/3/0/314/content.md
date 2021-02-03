@@ -560,3 +560,5 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 
 [[!redirects limits]]
 
+[[!redirects limit functor]]
+[[!redirects limit functors]]
