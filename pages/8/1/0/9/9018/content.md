@@ -400,5 +400,13 @@ Suggestion that [[higher curvature corrections]] allow [[de Sitter spacetime]] v
 See also
 
 * {#BCHS18} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, Sakura Schafer-Nameki, _Higgs Bundles for M-theory on $G_2$-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
+
+Discussion of [[Yukawa couplings]] among 3 [[generations of fundamental fermions]]:
+
+* Eric Gonzalez, [[Gordon Kane]], Khoa Dang Nguyen, [[Malcolm Perry]], _Quark and lepton mass matrices from localization in M-theory on $G_2$ orbifold_ ([arXiv:2002.11820](https://arxiv.org/abs/2002.11820))
+
+
+
+
  
 [[!redirects G2 compactifications of M-theory]]
