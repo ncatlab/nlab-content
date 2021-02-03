@@ -4,24 +4,25 @@
 
 We spell out component expressions for the [[Hodge star operator]] on $D = d+1$-dimensional [[Minkowski spacetime]].
 
+
 #### Conventions
 
-We use [[Einstein summation convention]] throughout. Hence a generic [[differential p-form]] is 
+We use [[Einstein summation convention]] throughout. With this convention, a generic [[differential p-form]] reads
 
 $$
   \alpha
   \;=\;
   \tfrac{1}{p!}
-  \alpha_{ \mu_1 \cdots \mu_p }
-  d x^{\mu_1}
+  \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+  d x^{ \color{green} \mu_1}
   \wedge 
   \cdots
   \wedge
-  d x^{\mu_p}
+  d x^{\color{green} \mu_p}
   \,.
 $$
 
-Here $p! \coloneqq 1 \cdot 2 \cdot 3 \cdots p$ is the [[factorial]] of $p$.
+Here $p! \coloneqq 1 \cdot 2 \cdot 3 \cdots p \,\in \mathbb{N} \subset \mathbb{R}$ denotes the [[factorial]] of $p \in \mathbb{N}$.
 
 We take the [[Minkowski metric]] to be the $D \times D$ [[diagonal matrix]] of the form
 
@@ -256,7 +257,9 @@ its [[wedge product]] with its [[Hodge dual]] (eq:HodgeStar) is
   \label{AlphaWedgeStarAlpha}
   \alpha \wedge \star \alpha
   \;=\;
-  { \color{magenta} - } 
+    \tfrac{ \color{magenta} -1 }{  
+      { p! }
+    }
   \alpha_{ \mu_1 \cdots \mu_p }
   \alpha^{ \mu_1 \cdots \mu_p }
   \,
@@ -343,9 +346,11 @@ $$
     dvol
     \\
     & =
-    {\color{magenta} -}
-    \alpha_{ \mu_1 \cdots \mu_p }
-    \alpha^{ \mu_1 \cdots \mu_p }
+    \tfrac{ \color{magenta} -1 }{  
+      { \color{green}  p! }
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    \alpha^{ \color{green} \mu_1 \cdots \mu_p }
     \,
     dvol
   \end{aligned}
