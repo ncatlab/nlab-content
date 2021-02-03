@@ -8,14 +8,15 @@ Quoting Zabrodin, [arxiv/1211.4428](http://arxiv.org/abs/1211.4428),
 
 ## Formal idea
 
-Sato and Segal have formulated the $\tau$-function as the [[Fredholm determinant]] of certain 1-parameter family of operators on separable Hilbert space.
+Sato and [[Graeme Segal]] have formulated the $\tau$-function as the [[Fredholm determinant]] of certain 1-parameter family of operators on separable Hilbert space.
+See also closely related page [[Sato Grassmannian]].
 
 #### Other formal interpretations
 
 $\tau$-functions appear as dependent variables in [[Hirota bilinear equation]]s 
 associated to integrable hierarchies.
 
-Tau functions can also be associated to the isomonodromic problems.
+Tau functions can also be associated to the [[isomonodromic problem]]s.
 
 ## References
 
@@ -23,6 +24,9 @@ The $\tau$-function has first been introduced in the formalism of [[Clifford gro
 of free fermions in study of [[holonomic quantum field]]s
 
 * Mikio Sato, Tetsuji Miwa, Michio Jimbo
+
+* E. Date, [[Michio Jimbo]], [[Masaki Kashiwara]], T. Miwa, _Transformation groups for soliton equations,IV A new hierarchy of soliton equations of KP-type_,Physica D4, 343-365 (1982)
+* M. Jimbo, T. Miwa, _Solitons and infinite dimensional Lie algebras_,Publ. RIMS Kyoto Univ. 19, 943-1001 (1983)
 
 The $\tau$-function for [[KP hierarchy]] has originally being studied in 
 
@@ -40,8 +44,7 @@ Reviews include
 
 The connection to 2D [[gravity]] is elucidated in
 
-* [[Victor Kac]], [[Albert Schwarz]], _Geometric interpretation of the partition function of 2D gravity_ Phys. Lett. B
-257 (1991), no. 3-4, 329–334 [pdf](https://web.phys.ntu.edu.tw/string/matrix/PhysLettB257(1991)329_Kac_Schwarz_GeometricInterpretationOfThePartitionFunctionOf2DGravity.pdf)
+* [[Victor Kac]], [[Albert Schwarz]], _Geometric interpretation of the partition function of 2D gravity_ Phys. Lett. B 257 (1991), no. 3-4, 329–334 <a href="https://web.phys.ntu.edu.tw/string/matrix/PhysLettB257(1991)329_Kac_Schwarz_GeometricInterpretationOfThePartitionFunctionOf2DGravity.pdf">pdf</a>
 
 Some special cases of $\tau$-functions include
 
@@ -77,6 +80,10 @@ Recent works on $\tau$-function include
 * J. Harnad, Eunghyun Lee, _Symmetric polynomials, generalized Jacobi-Trudi identities and &#964;-functions_, [arxiv/1304.0020](http://arxiv.org/abs/1304.0020)
 
 * S. Natanzon, A. Zabrodin, _Formal solution to the KP hierarchy_, [arxiv/1509.04472](http://arxiv.org/abs/1509.04472)
+
+There is now a book
+
+* John Harnad, Ferenc Balogh, _Tau functions and their applications_, Cambridge Studies in Math. Physics 2021
 
 category: physics, representation theory, Lie theory
 
