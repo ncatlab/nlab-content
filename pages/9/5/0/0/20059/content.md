@@ -73,3 +73,6 @@ The question whether the geometric realization for the cubical sets based on dis
 [[!redirects type theoretic model structures]]
 [[!redirects type theoretic model structure]]
 [[!redirects type-theoretic model structure]]
+[[!redirects cubical-type model categories]]
+[[!redirects cubical-type model structure]]
+[[!redirects cubical-type model structures]]
