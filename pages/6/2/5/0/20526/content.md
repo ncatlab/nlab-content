@@ -93,9 +93,12 @@ The terminology originates with
 
 * {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
 
-Comprehensive review is in:
+Review and lecture notes:
 
 * [[Eran Palti]], _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
+
+* Marieke van Beest, José Calderón-Infante, Delaram Mirfendereski, Irene Valenzuela, _Lectures on the Swampland Program in String Compactifications_ ([arXiv:2102.01111](https://arxiv.org/abs/2102.01111))
+
 
 Further discussion:
 
