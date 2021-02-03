@@ -8,6 +8,10 @@ On the [[AdS-CFT correspondence]]:
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
+and specifically for [[higher spin gauge theory]]:
+
+* [[Ofer Aharony]], [[Shai Chester]], [[Erez Urbach]], _A Derivation of AdS/CFT for Vector Models_ ([arXiv:2011.06328](https://arxiv.org/abs/2011.06328))
+
 
 On [[(p,q)5-brane webs]]:
 
