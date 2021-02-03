@@ -31,7 +31,7 @@ For more introduction see at _[[Introduction to Cobordism and Complex Oriented C
 
 Original articles:
 
-* {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
+* {#Thom54} [[René Thom]], _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
 
 * {#Atiyah61} [[Michael Atiyah]], _Thom complexes_, Proc. London Math. Soc. (3), 11:291&#8211;310, 1961. 10 
 
