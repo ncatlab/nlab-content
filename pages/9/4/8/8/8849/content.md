@@ -23,6 +23,10 @@ In view of the congruence of the notions of _[[homotopy type]]_ and _[[type]]_ i
 
 For instance a _smooth [[0-type]]_ is then an object in the [[sheaf topos]] $Sh(CartSp) \hookrightarrow Sh_\infty(CartSp) \simeq \mathbf{H}$ of [[smooth sets]].
 
+## Related concepts
+
+* [[smooth homotopy]]
+
 ## References
 
 * [[geometry of physics -- smooth homotopy types]]
