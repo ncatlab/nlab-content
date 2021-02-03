@@ -99,14 +99,21 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 
 ## References
 
+The notion originates with
+
 * {#Thom54} [[René Thom]], p. 65 of: _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
 
-* {#Pontrjagin55} [[Lev Pontrjagin]], Section 3.6 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+* {#Pontrjagin55} [[Lev Pontrjagin]], Section III.6, p. 41 of: _[[Smooth manifolds and their applications in homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
+(Beware that Pontrjagin still wrote "homology" for "cobordism", following an earlier tradition that got abandoned.)
+
+An early textbook account:
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
-* [[Peter Landweber]], _A survey of bordism and cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 100, Issue 2 September 1986 , pp. 207-223 ([doi:10.1017/S0305004100066032](https://doi.org/10.1017/S0305004100066032))
+Further review:
 
+* [[Peter Landweber]], _A survey of bordism and cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 100, Issue 2 September 1986 , pp. 207-223 ([doi:10.1017/S0305004100066032](https://doi.org/10.1017/S0305004100066032))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
@@ -120,7 +127,7 @@ For more see at _[[cobordism cohomology theory]]_.
 
 A relation to [[fixed point spaces]]:
 
-* {#Prieto03} Carlos Prieto, _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([Euclid](https://projecteuclid.org/euclid.tmna/1475266278))
+* {#Prieto03} Carlos Prieto, _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([euclid:tmna/1475266278](https://projecteuclid.org/euclid.tmna/1475266278))
 
 
 
