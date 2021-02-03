@@ -166,8 +166,15 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 
 [[!redirects cobordism cohomology theories]]
 
+[[!redirects Cobordism cohomology theory]]
+[[!redirects Cobordism cohomology theories]]
+
 [[!redirects cobordism cohomology]]
 [[!redirects cobordism cohomologies]]
+
+[[!redirects Cobordism cohomology]]
+[[!redirects Cobordism cohomologies]]
+
 
 [[!redirects cobordism homology theory]]
 [[!redirects cobordism homology theories]]
