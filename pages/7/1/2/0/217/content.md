@@ -139,7 +139,7 @@ An extended discussion from a philosophical perspective is in
 
 * {#McLarty04}[[Colin McLarty]], _Exploring Categorical Structuralism_ , Phil. Math. **12** (2004) 37-53.
 
-* Øystein Linnebo, Richard Pettigrew, _Category theory as an autonomous foundation_, Phil. Math. **19** (2011) 227–254 ([doi:10.1093/philmat/nkr024](https://doi.org/10.1093/philmat/nkr024), [preprint version (pdf)](http://philsci-archive.pitt.edu/5392/1/onlyuptoiso.pdf)) 
+* Øystein Linnebo, Richard Pettigrew, _Category theory as an autonomous foundation_, Phil. Math. **19** (2011) 227–254 ([doi:10.1093/philmat/nkr024](https://doi.org/10.1093/philmat/nkr024),  [preprint version (pdf)](http://philsci-archive.pitt.edu/5392/1/onlyuptoiso.pdf)) 
 
 For a more recent review from a critical perspective containing additional recent references see
 
