@@ -99,6 +99,62 @@ The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausd
 
 =--
 
+## Applications
+
+### In Cohomotopy and Cobordism theory
+  {#InCohomotopyAndCobordism}
+
+[[Pontryagin's theorem]] establishes a [[bijection]]
+
+$$
+  \pi^n
+  \big(
+    X^d
+  \big)
+  \,=\,
+  \pi_0 Maps
+  \big(
+    X^d, S^n
+  \big)
+  \overset
+  {\simeq}{
+    \;\;
+    \longrightarrow
+    \;\;
+  }
+  Cob^n_{Fr}
+  \big(
+    X^d
+  \big)
+$$
+
+between 
+
+1. the $n$-[[Cohomotopy]] set of a _[[closed manifold|closed]]_ (hence: [[compact topological space|compact]]) [[smooth manifold]] $X^d$;
+
+1. the [[cobordism classes]] of its [[normally framed submanifolds]] of [[codimension]] $n$;
+
+by taking the [[homotopy class]] of any [[map]] $[X \overset{c}{\to}S^n]$ into the [[n-sphere]] to the [[preimage]] of any [[regular point]] (say $\{0\} \subset S^n$, for definiteness) of a [[smooth function|smooth]] representative $c$:
+
+$$
+  \Sigma_c \;\coloneqq\; c^{-1}\big( \{0\} \big)
+  \,.
+$$
+
+To show that this construction is indeed [[injection|injective]], one needs that, similarly, the [[pre-image]] of any regular point of a [[smooth homotopy]]
+
+$$
+  X^d \times [0,1]
+  \overset{\eta}{\longrightarrow} 
+  S^d
+$$
+
+between two such smooth representatives $c_0, c_1$ is a [[cobordism]] between $\Sigma_{c_0}$ and $\Sigma_{c_1}$. But for a subspace of $X^d \times [0,1]$ to constitute a [[cobordism]] between submanifolds of $X^d$ it is necessary that its [[projection]] onto the $[0,1]$-factor is compact.
+
+That this is implied here is guaranteed by the assumption that $X^d$ is [[closed manifold|closed]], hence [[compact topological space|compact]], [so that](compact+topological+space#ProductOfCompactSpacesIsCompact) also the [[product topological space|product space]] $X^d \times [0,1]$ is compact:
+
+With this and since the [[n-sphere]] is, of course, [[Hausdorff space|Hausdorff]], Prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed} implies that the maps $c_i$ and $\eta$ above are all [[proper maps|proper]], hence that the corresponding pre-images (of [[singleton]], hence compact, subspaces) are indeed compact, so that in particular the projection of the pre-image of $\eta$ to $[0,1]$ is compact (since [[continuous images of compact spaces are compact]]).
+
 
 
 ## Related statements
