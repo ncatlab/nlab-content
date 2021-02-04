@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -11,11 +22,14 @@ Given an [[embedding of differentiable manifolds]] $i_X \colon X \hookrightarrow
 
 ## Related entries
 
-* [[orthogonality]]
+* [[orthonormal basis]], [[orthogonal basis]]
 
-* [[orthogonal structure]]
+  [[Gram-Schmidt process]]
 
-* [[orthogonal basis]]
+* [[normal bundle]], [[normally framed submanifold]], [[Pontryagin's theorem]]
+
+* [[orthogonality]], [[orthogonal structure]]
+
 
 
 [[!redirects normal vectors]]
