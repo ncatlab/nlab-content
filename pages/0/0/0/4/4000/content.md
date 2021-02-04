@@ -533,7 +533,7 @@ $$
   \mathbf{B}G \to \mathbf{\flat}_{dR}\mathbf{B}^4 U(1)
 $$
 
-in the [[(∞,1)-topos]] [[?LieGrpd]].
+in the [[(∞,1)-topos]] [[Smooth∞Grpd]].
 
 =--
 
