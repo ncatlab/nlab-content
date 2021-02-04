@@ -182,3 +182,71 @@ An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
 
 
 
+\begin{xymatrix@C=20pt}
+  {\phantom{AA}}
+  \overset{
+    \mathclap{
+    \raisebox{3pt}{
+      \tiny
+      \color{blue}
+      \bf
+      \begin{tabular}{c}
+        unstable
+        \\
+        oriented Cobordism
+      \end{tabular}
+    }
+    }
+  }{
+  \mathrm{Cob}^{n}_{\mathrm{SO}}
+    \big(
+      M^d
+    \big)
+  }
+  \ar@{}[r]
+  |-{:=}
+  &
+  \mathrm{NOrientedSubMflds}_{d-n}
+  \big(
+    M^d
+  \big)_{\!\!\big/\mathrm{brdsm}}
+  \ar@<+10pt>[rr]
+    ^-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          asymptotic directed distance
+        \end{tabular}
+      }
+    }
+  \ar@{}[rr]
+    |-{ \simeq }
+  \ar@<-10pt>@{<-}[rr]
+    _-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        pre-image of $B \mathrm{SO}(n)$
+      }
+    }
+  &
+  {\phantom{AAAAA}}
+  &
+  \pi_0
+  \mathrm{Maps}^{\ast/\!}
+  \Big(
+    \big(
+      M^d
+    \big)^{\mathrm{cpt}}
+    \,,\,
+    M \mathrm{SO}(n)
+  \Big)
+  {\phantom{AAAAAAAA}}
+\end{xymatrix}
+
+
+
+
