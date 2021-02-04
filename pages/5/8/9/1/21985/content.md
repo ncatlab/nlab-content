@@ -1,23 +1,31 @@
 
 ### Pontryagin-Thom construction
 
+
 #### Pontryagin's construction
 
-The _[[Pontryagin isomorphism]]_, i.e. the unstable and framed version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
+The _[[Pontryagin theorem]]_, i.e. the unstable and framed version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
 
-* {#Pontrjagin38} {#Pontryagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_,  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+* {#Pontrjagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
+
+* {#Pontryagin50} [[Lev Pontryagin]], _[[Homotopy classification of mappings of an (n+2)-dimensional sphere on an n-dimensional one]]_, Doklady Akad. Nauk SSSR (N.S.) 19 (1950), 957–959 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf))
+
+(both available in English translation in [Gamkrelidze 86](Revaz+Gamkrelidze#Gamkrelidze86)), 
+
+of which a comprehensive account was later given in:
 
 * {#Pontrjagin55} {#Pontryagin55} [[Lev Pontrjagin]], _[[Smooth manifolds and their applications in Homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
 
-Textbook accounts:
+
+Review:
+
+* {#FreedUhlenbeck91} [[Daniel Freed]], [[Karen Uhlenbeck]], Appendix B of: _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
 
 * {#Kosinski93} [[Antoni Kosinski]], chapter IX of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
 
 * {#Milnor97} [[John Milnor]], Chapter 7 of: _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
 
-Also:
-
-* {#FreedUhlenbeck91} [[Daniel Freed]], [[Karen Uhlenbeck]], Appendix B of: _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
+* [[Michel Kervaire]], _La méthode de Pontryagin pour la classification des applications sur une sphère_, in: E. Vesentini (ed.), _Topologia Differenziale_, CIME Summer Schools, vol. 26, Springer 2011 ([doi:10.1007/978-3-642-10988-1_3](https://doi.org/10.1007/978-3-642-10988-1_3))
 
 Discussion of the early history:
 
