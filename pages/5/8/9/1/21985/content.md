@@ -27,6 +27,8 @@ Review:
 
 * [[Michel Kervaire]], _La méthode de Pontryagin pour la classification des applications sur une sphère_, in: E. Vesentini (ed.), _Topologia Differenziale_, CIME Summer Schools, vol. 26, Springer 2011 ([doi:10.1007/978-3-642-10988-1_3](https://doi.org/10.1007/978-3-642-10988-1_3))
 
+* {#Csepai20} [[András Csépai]], _Stable Pontryagin-Thom construction for proper maps_,  Period Math Hung 80, 259–268 (2020) ([arXiv:1905.07734](https://arxiv.org/abs/1905.07734), [doi:10.1007/s10998-020-00327-0](https://doi.org/10.1007/s10998-020-00327-0))
+
 Discussion of the early history:
 
 * [Kosinski 93, Section IX.9](#Kosinski93)
