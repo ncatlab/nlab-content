@@ -98,6 +98,8 @@ due to which Pontryagin's construction came to be mainly known as the _[[Pontrya
 
 * [continuous homotopy implies smooth homotopy](smooth+homotopy#ContinuousHomotopyImpliesSmoothHomotopy)
 
+* [[Pontryagin's theorem]]
+
 ### 7. Homology groups of framed manifolds
 
 ### 8. The suspension operation
