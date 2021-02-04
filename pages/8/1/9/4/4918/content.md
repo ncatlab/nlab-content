@@ -1,4 +1,4 @@
-Martin Hyland is Professor in Mathematical Logic in the University of Cambridge, and is a Fellow of King's College, Cambridge.
+Martin Hyland is Professor in Mathematical Logic in the University of Cambridge, and is a Fellow of King's College, Cambridge. Hyland is  known for work on the effective topos (within topos theory), on the lambda-calculus and on game semantics. 
 
 His  main research interests are in the following.
 
