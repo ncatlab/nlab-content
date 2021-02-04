@@ -52,7 +52,7 @@ The original computations via [[Pontryagin's theorem]] in [[cobordism theory]]:
 
 Review:
 
-* {#WangXu10} [[Guozhen Wang]], Zhouli Xu, Section 2.5 of: _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
+* {#WangXu10} [[Guozhen Wang]], [[Zhouli Xu]], Section 2.5 of: _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
 
 * {#Putnam} [[Andrew Putman]], Section 10 of: _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
 
