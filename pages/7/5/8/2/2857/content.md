@@ -15,6 +15,10 @@ On [[Cayley-Dickson algebras]]:
 * Daniel K. Biss, [[Daniel Christensen]], [[Daniel Dugger]], [[Daniel Isaksen]], _Eigentheory of Cayley-Dickson algebras_, 
 Forum Mathematicum 21(5) (2009), 833-851 ([arxiv:0905.2987](https://arxiv.org/abs/0905.2987))
 
+On computation of [[stable homotopy groups of spheres]] via the [[Adams spectral sequence]]:
+
+* [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _Stable homotopy groups of spheres_ ([arXiv:2001.04247](https://arxiv.org/abs/2001.04247))
+
 
 # Related $n$Lab entries
 
