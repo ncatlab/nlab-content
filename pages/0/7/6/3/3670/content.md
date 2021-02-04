@@ -14,6 +14,7 @@
 \end{imagefromfile}
 
 
+
 **Lev Sem&#1105;novi&#269; Pontrjagin** (&#1051;&#1077;&#1074; &#1057;&#1077;&#1084;&#1105;&#1085;&#1086;&#1074;&#1080;&#1095; &#1055;&#1086;&#1085;&#1090;&#1088;&#1103;&#1075;&#1080;&#1085;) was an influential Soviet mathematician working in Moscow. His main works till the late 1940s were in topology, especially the study of topological groups (including study of [[Pontrjagin duality]]) and algebraic topology in which he also explored applications of differentiable manifolds for computation of homotopy groups; including the introduction of framed cobordism in that work. After the success of the French mathematical school in the late 1940s in introducing new methods of sheaf theory, which Pontrjagin did not like as less direct than the more intuitive geometric methods he was master of, and after some pressure from the government, Pontrjagin switched into applied mathematics where he did some fundamental work, especially in optimization theory.  
 
 Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind since the age of 14.
@@ -22,20 +23,35 @@ Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind s
 
 ## Selected writings
 
-On [[smooth manifolds]] in [[homotopy theory]] ([[Pontryagin's isomorphism]], [[Pontryagin-Thom collapse]]/[[Cohomotopy charge]], [[Cohomotopy]], [[cobordisms]]):
+Introducing [[Pontryagin's theorem]] -- the [[bijection]] between [[cobordism classes]] of [[normally framed submanifolds]] of a [[closed manifold|closed]] [[smooth manifold]] and its [[Cohomotopy]]-sets, established via the  [[Pontryagin-Thom collapse]]/[[Cohomotopy charge]] -- and its application to the computation of 
 
-* {#Pontrjagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+the [[first stable homotopy group of spheres]]:
+
+* [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
+
+and the [[second stable homotopy group of spheres]]:
+
+* {#Pontrjagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication II_, Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+
+  > (this article contains a famous mistake, see [[Michael Hopkins|Hopkins]]'s talk at [Atiyah's 80th Birthday conference](https://www.maths.ed.ac.uk/~v1ranick/atiyah80.htm), see [slide 8](https://www.maths.ed.ac.uk/~v1ranick/hopkins.pdf#page=8), [9:45](https://empg.maths.ed.ac.uk/Videos/Atiyah80/Hopkins.mov))
+
+* [[Lev Pontryagin]], _[[Homotopy classification of mappings of an (n+2)-dimensional sphere on an n-dimensional one]]_, Doklady Akad. Nauk SSSR (N.S.) 19 (1950), 957–959, (Russian) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf))
+
+  > (this article fixes the mistake)
+
+all three of which are available in English translation in [Gamkrelidze 86](#Gamkrelidze86).
+
+A comprehensive account of this [[cobordism theory]]/[[stable homotopy theory]] via [[Pontryagin's theorem]] (now mostly: "[[Pontryagin-Thom theorem]]") is then given in:
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], _[[Smooth manifolds and their applications in homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955, AMS Translation Series 2, Vol. 11, 1959 ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
-
-Computing the [[second stable homotopy group of spheres]]:
-
-* [[Lev Pontryagin]], _Homotopy classification of mappings of an $(n+2)$-dimensional sphere on an $n$-dimensional one_, Doklady Akad. Nauk SSSR (N.S.) 19 (1950), 957–959, (Russian) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf))
-
 
 Introducing the [[Pontrjagin product]]:
 
 * [[Lev Pontrjagin]], _Homologies in compact Lie groups_, Rec. Math. [Mat. Sbornik] N.S., 1939 Volume 6(48), Number 3, Pages 389–422 ([mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng))
+
+Selected articles:
+
+* {#Gamkrelidze86} [[Revaz Gamkrelidze]] (ed.), _L. S. Pontryagin -- Selected Works_, Volume 1: _Selected Research Papers_,  [Classics of Soviet Mathematics](https://www.routledge.com/Classics-of-Soviet-Mathematics/book-series/CRCCLASOVMTH), Gordon and Breach 1986, CRC Press 2019 ([ISBN:9782881241055](https://www.routledge.com/Selected-Research-Papers/Pontryagn/p/book/9782881241055))
 
 
 ## Related $n$Lab entries
