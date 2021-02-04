@@ -425,7 +425,7 @@ Introductions and surveys include
 
 * Alex Wright, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www-personal.umich.edu/~alexmw/HomotopyGroupsOfSoheres.pdf))
 
-* {#WangXu10} [[Guozhen Wang]], Zhouli Xu, _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf), [[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
+* {#WangXu10} [[Guozhen Wang]], [[Zhouli Xu]], _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf), [[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
 
 * {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
 
@@ -443,6 +443,9 @@ Introductions and surveys include
 * [[Stanley Kochmann]], _Stable Homotopy Groups of Spheres -- A Computer-Assisted Approach_, Lecture Notes in Mathematics, 1990
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5 of  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _Stable homotopy groups of spheres_ ([arXiv:2001.04247](https://arxiv.org/abs/2001.04247))
+
 
 A tabulation of stable homotopy groups of spheres is in 
 
