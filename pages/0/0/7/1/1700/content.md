@@ -452,17 +452,17 @@ Lecture notes on the Galois theory for schemes are in
 
 Some of the material above is taken from this.
 
-* [[Ravi Vakil]], [[Kirsten Wickelgren]] _Universal covering spaces and fundamental groups in algebraic geometry as schemes_, ([pdf](http://math.stanford.edu/~vakil/files/VW2Dec1910.pdf)).
+* [[Ravi Vakil]], [[Kirsten Wickelgren]], _Universal covering spaces and fundamental groups in algebraic geometry as schemes_, ([pdf](http://math.stanford.edu/~vakil/files/VW2Dec1910.pdf)).
 
 A comprehensive textbook is
 
-* [[Francis Borceux]], [[George Janelidze]], _Galois theories_ Cambridge University Press (2001)
+* [[Francis Borceux]], [[George Janelidze]], _Galois theories_, Cambridge University Press (2001)
 
 a review of which can be found at [[Galois Theories]].
 
 The locally simply connected case is discussed for instance in 
 
-* Marco Robalo, _Galois Theory towards Dessins d'Enfants_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/575330/1/dissertacao.pdf))
+* Marco Robalo, _Galois theory towards dessins d'enfants_, dissertation, [pdf](https://dspace.ist.utl.pt/bitstream/2295/575330/1/dissertacao.pdf)
 
 Galois theory in a [[presentable (infinity,1)-category|presentable]] [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[stable (infinity,1)-category]] is developed in
 
@@ -473,7 +473,7 @@ Galois theory in topos theory
 
 * [[SGA4]], _Expose VIII, Proposition 2.1._
 
-* {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_ ([arXiv:1506.07155](http://arxiv.org/abs/1506.07155))
+* {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_, J. Pure Appl. Alg. __222__:7, (2018) 1859-1877 [arXiv:1506.07155](http://arxiv.org/abs/1506.07155) [doi](https://doi.org/10.1016/j.jpaa.2017.08.010)
 
 See also
 
@@ -481,7 +481,7 @@ See also
 
 * [Wikipedia: Galois theory](http://en.wikipedia.org/wiki/Galois_theory)
 
-* Tam&#225;s Szamuely, _Galois groups and fundamental groups_, Cambridge Studies in Adv. Math. 
+* Tam&#225;s Szamuely, _Galois groups and fundamental groups_, Cambridge Studies in Adv. Math. __117__ (2009)
 
 * {#Grothendieck75} [[Alexander Grothendieck]], letter to [[Larry Breen]] 17/2/1975 [pdf](https://agrothendieck.github.io/divers/LGB17275en.pdf), [scan](https://agrothendieck.github.io/divers/LGB17275scanen.pdf)
 
