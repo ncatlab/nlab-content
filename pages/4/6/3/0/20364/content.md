@@ -92,7 +92,9 @@ In [[Pontrjagin duality]], the pairing and double dual maps are not necessarily 
   * 3: _Pyknotic abelian groups_, ([video](https://www.msri.org/seminars/24919))
   * 4: _Animating pyknotic sets (AKA pyknotic spaces)_, ([video](https://www.msri.org/seminars/24750))
 
-* {#Scholze19} [[Peter Scholze]], _Lectures on Condensed Mathematics_, ([pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)) 
+* {#Scholze19} [[Peter Scholze]], _Lectures on Condensed Mathematics_, ([pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf))
+
+* Sebastian Wolf, _The pro-étale topos as a category of pyknotic presheaves_, [arxiv/2012.10502](https://arxiv.org/abs/2012.10502)
 
 [[!redirects pyknotic sets]]
 [[!redirects pyknotic object]]
