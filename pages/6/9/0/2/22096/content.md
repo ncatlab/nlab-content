@@ -1,12 +1,20 @@
 
-Classical __Cayley transform__ is an involutive bijection between the vector space of skew-symmetric to the group of special orthogonal matrices given by the formula
+#Contents#
+* table  of contents
+{:toc}
+
+##  Idea
+
+The  classical __Cayley transform__ is an involutive [[bijection]] between the [[vector space]] of [[skew-symmetric matrices]]  to the [[special orthogonal group|group of special orthogonal matrices]] given by the formula
+
 $$
-X \mapsto \frac{I + X}{I - X} 
+  X \mapsto \frac{I + X}{I - X} 
+  \,.
 $$
 
 There are many generalizations (some non-involutive), say for [[J-orthogonal matrix|J-orthogonal matrices]], to shifted center, for operators, in complex analysis and so on. 
 
-### Literature
+## Literature
 
 * [[M M Postnikov]], _Lectures on geometry, Semester V, Lie groups and Lie algebras_
 * wikipedia/[Cayley transform](https://en.wikipedia.org/wiki/Cayley_transform)
