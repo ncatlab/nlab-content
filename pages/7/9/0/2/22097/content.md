@@ -25,7 +25,7 @@ where $A^T$ is the [[transpose matrix]] of $A$.
 
 Most often one considers a case when $J$ is diagonal. For $J = 1$ one recovers the notion of an [[orthogonal matrix]].
 
-All J-orthogonal matrices over the [[ground field]] form an [[algebraic group]] denoted $SO_J(n,\genfd)$ or $SO(n,\genfd; J)$ or alike; in real or complex case a Lie group. The matrices in the Lie algebra are J-skew-symmetric, $A^T J + J A = 0$.
+All J-orthogonal matrices over the [[ground field]] $k$ form an [[algebraic group]] denoted $SO_J(n, k)$ or $SO(n,k; J)$ or alike; in real or complex case a Lie group. The matrices in the Lie algebra are J-skew-symmetric, $A^T J + J A = 0$.
 
 ## Related concepts
 
