@@ -15,7 +15,7 @@ Original articles include
 
 * [[Torsten Ekedahl]], _On the adic formalism_. In The Grothendieck Festschrift, Vol. II, volume 87 of Progr. Math., pages 197&#8211;218. Birkh&#228;user Boston, Boston, MA, 1990.
 
-* Alexander Beilinson, _Constructible sheaves are holonomic_, [arxiv/1505.06768](http://arxiv.org/abs/1505.06768)
+* Alexander Beilinson, _Constructible sheaves are holonomic_, Selecta Mathematica 22 (2016) 1797-1819; a slightly updated version (with respect to the published one) is at [arxiv/1505.06768](http://arxiv.org/abs/1505.06768)
 
 
 An introductory survey is in
