@@ -134,7 +134,7 @@ via
 
 In this form, with the assumption that $M^d$ is [[closed manifold|closed]], hence [[compact topological space|compact]], the statement appears for instance in [Kosinski 93, Sec. IX Prop. 5.5](#Kosinski93).
 
-More generally, if the [[smooth manifold]] $M^d$ is not assumed to be [[compact topological space|compact]], essentially the same [[Pontryagin-Thom construction]] still gives an identification of the [[cobordism classes]] of its [[normally framed submanifolds]] with the _[[reduced cohomology|reduced]]_ [[Cohomotopy]] of its [[one-point compactification]]:
+More generally, if the [[smooth manifold]] $M^d$ is not assumed to be [[compact topological space|compact]], essentially the same [[Pontryagin-Thom construction]] still gives an identification of the [[cobordism classes]] of its [[normally framed submanifolds]] with the _[reduced Cohomotopy](cohomotopy#ReducedCohomotopy)_ of its [[one-point compactification]]:
 
 \begin{xymatrix@C=20pt}
   \overset{
