@@ -12,7 +12,7 @@ The _[[Pontryagin theorem]]_, i.e. the unstable and framed version of the [[Pont
 
 (both available in English translation in [Gamkrelidze 86](Revaz+Gamkrelidze#Gamkrelidze86)), 
 
-of which a comprehensive account was later given in:
+as presented more comprehensively in:
 
 * {#Pontryagin55} [[Lev Pontrjagin]], _[[Smooth manifolds and their applications in Homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
 
@@ -25,7 +25,11 @@ Review:
 
 * {#Milnor97} [[John Milnor]], Chapter 7 of: _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
 
+* [[Mladen Bestvina]] (notes by [[Adam Keenan]]), Chapter 16 in: _Differentiable Topology and Geometry_, 2002 ([[BestvinaKeenanDifferentialTopology.pdf:file]])
+
 * [[Michel Kervaire]], _La méthode de Pontryagin pour la classification des applications sur une sphère_, in: E. Vesentini (ed.), _Topologia Differenziale_, CIME Summer Schools, vol. 26, Springer 2011 ([doi:10.1007/978-3-642-10988-1_3](https://doi.org/10.1007/978-3-642-10988-1_3))
+
+* [[Rustam Sadykov]], Section 1 of: _Elements of Surgery Theory_, 2013 ([pdf](https://www.math.ksu.edu/~sadykov/Lecture%20Notes/Surgery%20Theory.pdf), [[SadykovSurgeryTheory.pdf:file]])
 
 * {#Csepai20} [[András Csépai]], _Stable Pontryagin-Thom construction for proper maps_,  Period Math Hung 80, 259–268 (2020) ([arXiv:1905.07734](https://arxiv.org/abs/1905.07734), [doi:10.1007/s10998-020-00327-0](https://doi.org/10.1007/s10998-020-00327-0))
 
@@ -33,9 +37,7 @@ Discussion of the early history:
 
 * [Kosinski 93, Section IX.9](#Kosinski93)
 
-Lecture notes:
 
-* Mladen Bestvina (notes by Adam Keenan), Chapter 16 in _Differentiable Topology and Geometry_, 2002 ([pdf](http://www.math.utah.edu/~keenan/manifoldsnotes.pdf), [[BestvinaKeenanDifferentialTopology.pdf:file]])
 
 #### Thom's construction
 
@@ -47,7 +49,7 @@ Textbook accounts:
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
-#### Structured and Stable Pontryagin-Thom collapse
+#### Structured and Stable Pontryagin-Thom construction
 
 By a [[Pontryagin-Thom isomorphism]] one typically means the generalization of the above to any other [[tangential structure]] and/or its [[stabilization]] involving maps to [[Thom spectra]].
 
