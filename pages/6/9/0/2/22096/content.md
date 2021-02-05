@@ -5,7 +5,7 @@
 
 ##  Idea
 
-The  classical __Cayley transform__ is an involutive [[bijection]] between the [[vector space]] of [[skew-symmetric matrices]]  to the [[special orthogonal group|group of special orthogonal matrices]] given by the formula
+The  classical __Cayley transform__ is an involutive [[bijection]] between the [[vector space]] of [[skew-symmetric matrices]]  to the [[special orthogonal group|group of special orthogonal matrices]], given by the formula
 
 $$
   X \mapsto \frac{I + X}{I - X} 
