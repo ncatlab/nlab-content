@@ -23,13 +23,13 @@
 ## Idea
 
 
-The _[[Pontryagin theorem]]_ ([Pontryagin 38a](#Pontryagin38a), [50](#Pontryagin50), [55 II.6](#Pontryagin55)) identifies: 
+The _[[Pontryagin theorem]]_ ([Pontryagin 38a](#Pontryagin38a), [50](#Pontryagin50), [55 II.6](#Pontryagin55)) identifies, for a [[closed manifold|closed]] [[smooth manifold]] $M^d$
 
-* the [[cobordism classes]] of [[normally framed submanifolds]] of [[codimension]] $n$ in a [[closed manifold|closed]] [[smooth manifold]] $M^d$
+* the [[cobordism classes]] of [[normally framed submanifolds|normally framed]] [[closed manifold|closed]] [[submanifolds]] of [[codimension]] $n$  in $M^d$
 
 with 
 
-* the $n$-[[Cohomotopy]] of that manifold -- the [[homotopy classes]] of [[maps]] into the [[n-sphere]];
+* the $n$-[[Cohomotopy]] of $M^d$ -- the [[homotopy classes]] of [[maps]] from $M^d$ into the [[n-sphere]];
 
 via 
 
@@ -51,6 +51,7 @@ via
 * the _[[Cohomotopy charge map]]_, often known as the _[[Pontryagin-Thom collapse construction]]_, which sends a [[normally framed submanifold]] $\Sigma^{d-n} \subset M^d$ to the [[continuous function]] taking values in the [[one-point compactification]] $\big( \mathbb{R}^n \big)^{cpt} \simeq S^n$ that assigns to points in $M^d$ sufficiently close to $\Sigma$ their "directed distance" from $\Sigma$, namely their [[normal vector]], and regards all other points as being "[[vanishing at infinity|at infinity]]":
 
 \begin{xymatrix@C=20pt}
+  {\phantom{AAA}}
   \overset{
     \mathclap{
     \raisebox{3pt}{
@@ -295,7 +296,7 @@ An analogous statement, identifying [[cobordism classes]] of [[normally oriented
 (Now the notion of asymptotic directed distance depends on the [[normal bundle|normal tangent spaces]], along $\Sigma$, which themselves vary now in the [[Grassmannian]] $Gr_n$, hence in the [[classifying space]] $B SO(n) \subset M SO(n)$.)
 
 
-Both statements, Pontryagin's and Thom's, as well as their joint generalization to other [[tangential structures]] (besides framing and orientation structure) and notably their [[stabilization]] to [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[Cobordism cohomology theory]], have all come to be widely known as _the [[Pontryagin-Thom construction]]_, or similar, a term commonly used also for rather more involved cases, such as [[MUFr]]-theory. This type of construction constitutes the basis of modern [[cobordism theory]] and its application in [[stable homotopy theory]].
+Both statements, Pontryagin's and Thom's, as well as their joint generalization to other [[tangential structures]] (besides framing and orientation structure) and notably their [[stabilization]] to [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[Cobordism cohomology theory]], have all come to be widely known as _the [[Pontryagin-Thom construction]]_, or similar, a term commonly used also for rather more involved cases, such as in [[MUFr]]-theory. This type of construction constitutes the basis of modern [[cobordism theory]] and its application in [[stable homotopy theory]].
 
 \linebreak
 
