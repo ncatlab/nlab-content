@@ -83,7 +83,8 @@ However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierney calculus]], t
 
 * [[monoidal model category]]
 
-* [[enriched model category]]
+
+* dually: [pullback-power axiom](enriched+model+category#PullbackPowerAxiom) in [[enriched model categories]]
 
 * [[Joyal-Tierney calculus]]
 
