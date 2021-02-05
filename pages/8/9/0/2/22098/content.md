@@ -2,6 +2,8 @@ An orthogonal matrix is a square matrix $A$ satisfying $A^T A = 1$ where $A^T$ i
 
 Orthogonal matrices form a subgroup of the general linear group, namely the [[orthogonal group]].
 
+Every real matrix $A$ can be factorized $A = Q R$ where $Q$ is orthogonal and $R$ is   a (say, upper) triangular matrix (wikipedia/[QR decomposition](https://en.wikipedia.org/wiki/QR_decomposition) which is a special case of [[Iwasawa decomposition]] for semisimple Lie groups). This is consequence of Gram-Schmidt orthogonalization. Similarly, every complex matrix can be factorized into a unitary and a complex upper triangular (complex) matrix.
+
 Over the reals, [[Cayley transform]] is a diffeomorphism between the linear space skewsymmetric matrices and an open subset of the Lie group of orthogonal matrices ($A$ such that $I+A$ is invertible) - a chart which is often having an advantage over using the exponential map. 
 
 For a generalization see [[J-orthogonal matrix]]. 
