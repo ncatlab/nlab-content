@@ -23,6 +23,8 @@ However, in contrast to [[higher-order logic]], we do not allow variables that s
 
 A __predicate calculus__ is simply a system for describing and working with predicate logic.  The precise form of such a calculus (and hence of the logic itself) depends on whether one is using [[classical logic]], [[intuitionistic logic]], [[linear logic]], etc; see those articles for details.
 
+[[type theory|Typed]] predicate logic may be called [[type theory#Logic over type theory|first-order logic over type theory]]. Typed predicate [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[Heyting category]], while typed predicate [[classical logic]] is often identified with the [[internal logic]] of a [[Boolean category]]. Any untyped predicate logic could be thought of as a [[simple type theory|simply typed]] predicate logic with only one type $V$, known as the __[[domain of discourse]]__ or the __universe of discourse__. 
+
 For many (perhaps most?) authors, predicate logic is really __predicate logic with [[equality]]__.  However, some forms of predicate logic do not include an equality primitive, such as [[FOLDS]] (in whose name 'FOL' stands for 'first-order logic').  In some first-order theories, such as [[ZFC]], equality can be defined and so is not needed in the logic itself.
 
 
@@ -37,7 +39,11 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 
 * **predicate logic** (1st order)
 
-* [[higher order logic]]
+* [[second-order logic]]
+
+* [[higher-order logic]]
+
+* [[type theory]]
 
 * [[Lindström's theorem]]
 
