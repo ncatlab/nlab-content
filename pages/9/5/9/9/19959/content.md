@@ -46,7 +46,7 @@ Note that there is no rule for reducing a term of the form $(M \langle x\coloneq
 
 $$ (M \langle x\coloneqq N\rangle) \langle y\coloneqq P\rangle \to (M\langle y\coloneqq P\rangle) \langle x\coloneqq N\langle y\coloneqq P\rangle \rangle$$
 
-but such a rule is undesirable because it destroys the [[strong normalization]] property of the reduction system: although every term still *can* be reduced to a normal form, there are also infinite reduction sequences that simply interchange pairs of substitutions forever.
+but such a rule is undesirable because it destroys the [[strong normalization]] property of the reduction system: although every term still *can* be reduced to a [[normal form]], there are also infinite reduction sequences that simply interchange pairs of substitutions forever.
 
 One might hope that this could be avoided by introducing "explicit simultaneous substitutions" with a reduction rule
 
