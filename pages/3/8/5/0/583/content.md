@@ -62,15 +62,18 @@ There are many different kinds of of "logical theories", each of which correspon
 
 |Theory| |Category|
 |------|-|--------|
-|[[finite product theory]]| |category with [[finite products]]|
-|[[cartesian logic|finite limit]] (aka "left exact" or "cartesian")| |[[finitely complete category]]|
+|[[Lawvere theory|Lawvere]] (or "finite product")| |category with [[finite products]]|
+|[[cartesian logic|cartesian]] (or "left exact" or "finite limit")| |[[finitely complete category]]|
 |[[regular logic|regular]]| |[[regular category]]|
 |[[coherent logic|coherent]]| |[[coherent category]]|
 |[[disjunctive logic|disjunctive]]| |[[extensive category|lextensive category]] (aka finitary disjunctive category)|
 |[[geometric logic|geometric]]| |[[coherent category|infinitary coherent category]] (aka [[geometric category]])|
-|[[first-order logic|first-order]]| |[[Heyting category]]|
+|[[constructive logic|constructive]] [[first-order logic|first-order]]| |[[Heyting category]]|
+|[[classical logic|classical]] [[first-order logic|first-order]]| |[[Boolean category]]|
 |[[dependent types]]| |[[locally cartesian closed category]]|
-|[[higher order logic|higher order]]| |[[topos|elementary topos]]|
+|[[constructive logic|constructive]] [[higher order logic|higher order]]| |[[topos|elementary topos]]|
+|[[classical logic|classical]] [[higher order logic|higher order]]| |[[Boolean topos]]|
+|[[homotopy type theory|homotopy types]]| |[[(∞,1)-topos]]|
 |[[linear logic]]| |[[symmetric monoidal category]]|
 |[[cohesive homotopy type theory|cohesive modal logic]]| |[[cohesive topos]]|
 
