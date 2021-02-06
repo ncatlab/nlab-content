@@ -62,8 +62,6 @@ There are many different kinds of of "logical theories", each of which correspon
 
 |Theory| |Category|
 |------|-|--------|
-|[[constructive logic|constructive]] [[propositional logic|propositional]]| |[[Heyting algebra]] (aka [[(0,1)-topos]])|
-|[[classical logic|classical]] [[propositional logic|propositional]]| |[[Boolean algebra]]|
 |[[Lawvere theory|Lawvere]] (or "finite product")| |category with [[finite products]]|
 |[[cartesian logic|cartesian]] (or "left exact" or "finite limit")| |[[finitely complete category]]|
 |[[regular logic|regular]]| |[[regular category]]|
