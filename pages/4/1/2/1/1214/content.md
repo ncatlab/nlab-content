@@ -8,7 +8,9 @@ In any Mal'cev category, every [[internal category]] is a [[groupoid]].
 
 * [[Dominique Bourn]], [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017 (textbook)
 
+## Related notions
 
+* [[subtractive category]]
 
 [[!redirects Mal'cev categories]]
 [[!redirects Mal'cev category]]
