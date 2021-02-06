@@ -55,6 +55,7 @@ $$ (M \langle x\coloneqq N\rangle) \langle y\coloneqq P\rangle \to M \langle x\c
 Apparently for a long time it was hoped that this would work, but [Mellies](#Mellies) showed that it doesn't: explicit simultaneous substitutions with a rule of this sort also yield infinite reduction sequences.  Note that Mellies worked with a de Bruijn version, so his rules look somewhat different; a version of the counterexample using named variables can be found in [Bloo-Rose](#BlooRose), along with a proof that without any way to "combine substitutions" strong normalization is preserved.
 
 ## References
+* Martín Abadi, Luca Cardelli, Pierre-Louis Curien, and Jean-Jacques Lévy. *Explicit Substitutions*. J. Funct. Program., 1(4):375–416, 1991. doi:10.1017/S0956796800000186.
 
 * [[Paul-André Melliès]], *Typed $\lambda$-calculi with explicit substitution may not terminate*.  In M. Dezani (ed.), Int. Conf. on Typed Lambda Calculus and Applications, Lecture Notes in Computer Science, 1995.
 
