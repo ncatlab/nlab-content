@@ -13,6 +13,18 @@ Second-order logic could be characterised as a [[first order theory]] with [[dep
 ##Remark
 As SOL permits characterisation of mathematical structures up to isomorphism, it is sometimes promoted as a contender to [[set theory]] for the [[foundations of mathematics]] (cf. references). However, characterising structures up to isomorphism is insufficient for [[category theory]] and [[higher category theory]], as [[weak category|weak categories]] could only be characterised up to equivalence of categories, and weak [[∞-groupoid|∞-groupoids]] could only be characterised up to [[homotopy equivalence]]. 
 
+## Related concepts
+
+* [[propositional logic]] (0th order)
+
+* [[predicate logic]] (1st order)
+
+* **second-order logic**
+
+* [[higher-order logic]]
+
+* [[dependent type theory]]
+
 ## References
 
 * Wikipedia, _[Second-order logic](http://en.wikipedia.org/wiki/Second-order_logic)_
