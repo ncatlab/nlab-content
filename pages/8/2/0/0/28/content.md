@@ -935,7 +935,7 @@ of $X$.
 This construction extends to a [[functor]]
 
 $$
-   \Pi_1 \;\colon\; Top \longrightarrow Grp
+   \Pi_1 \;\colon\; Top \longrightarrow Grpd_1
 $$
 
 from the [[1-category]] [[Top]] to the [[1-category]] [[Grpd]]. In fact it extends to a functor
