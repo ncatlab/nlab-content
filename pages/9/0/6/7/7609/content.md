@@ -173,6 +173,8 @@ over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 [[!include substitution natural deduction - table]]
 
+* [[explicit substitution]]
+
 * [[context extension]]
 
 * [[dependent product]], [[universal quantifier]]
