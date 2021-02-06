@@ -141,4 +141,6 @@ See also
 
 [[!redirects duality between heterotic string theory and M/F-theory]]
 
+[[!redirects duality between heterotic string theory and F-theory]]
+
 [[!redirects F-theory on K3]]
