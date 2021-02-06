@@ -19,6 +19,7 @@ A _higher-order logic_ is any [[logic]] which features _higher-order predicates_
 
 [[type theory|Typed]] higher-order logic may be called higher-order type theory.  Typed higher-order [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[topos]].
 
+Higher-order logic in general could be thought of as a [[first order theory]] with [[dependent types]]. There is a [[type]] $V$ called the [[domain of discourse]], and for each type $T$ and each term $t:T$, a dependent type $\mathcal{P}(t)$ whose terms $P(t):\mathcal{P}(t)$ are higher-order predicates depending on $t$. The system $(\mathcal{U}, V:\mathcal{U}, \mathcal{P}:\mathcal{U}\rightarrow\mathcal{U})$ consisting of the [[type universe]] $\mathcal{U}$, the domain of discourse $V$, and the power type functor $\mathcal{P}$ is a [[natural numbers object]]. 
 
 ## Related concepts
 
@@ -31,6 +32,8 @@ A _higher-order logic_ is any [[logic]] which features _higher-order predicates_
 * **higher order logic**
 
   * [[HOL]], [[Isabelle]]
+
+* [[dependent type theory]]
 
 * [[tripos]]
 
