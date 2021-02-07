@@ -302,9 +302,11 @@ The original article is
 
 > although it appears that we have modified the type II theory by adding something new to it, we are now arguing that these objects are actually intrinsic to any nonperturbative formulation of the type II theory; presumably one should think of them as an alternate representation of the black $p$-branes  
 
-General review includes
+General review:
 
 * [[Joseph Polchinski]], _TASI Lectures on D-Branes_ ([arXiv:hep-th/9611050](https://arxiv.org/abs/hep-th/9611050))
+
+* {#Johnson98} [[Clifford Johnson]], _Études on D-Branes_, in: [[Mike Duff]] et. al. (eds.) _Nonperturbative aspects of strings, branes and supersymmetry_, Proceedings, Trieste, Italy, March 23-April 3, 1998 ([arXiv:hep-th/9812196](https://arxiv.org/abs/hep-th/9812196), [spire:481393](https://inspirehep.net/literature/481393))
 
 * [[Koji Hashimoto]], _D-Brane -- Superstrings and New Perspective of Our World_, Springer 2012 ([doi:10.1007/978-3-642-23574-0](https://link.springer.com/book/10.1007%2F978-3-642-23574-0), [spire:1188897](http://inspirehep.net/record/1188897))
 
