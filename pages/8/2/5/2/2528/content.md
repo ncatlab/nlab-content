@@ -10,6 +10,14 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### $(\infty,1)$-Category theory
++-- {: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++-- {: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -57,13 +65,15 @@ Many properties of relations can also be predicated of prerelations, but not all
 
 ### In category theory
 
-The category $Preset$ of presets and prefunctions is a [[weak category|weak]] [[category]] that is [[finitely complete category|finitely complete]], [[extensive category|infinitary extensive]], and [[well-pointed category|well-pointed]] (i.e. whose [[terminal object]] is a [[extremal epimorphism|extremal]] [[separator|generating object]]). 
+One definition of the category $Preset$ of presets is a [[weak category|weak]] [[category]] that is [[finitely complete category|finitely complete]], [[extensive category|infinitary extensive]], and [[well-pointed category|well-pointed]] (i.e. whose [[terminal object]] is a [[extremal epimorphism|extremal]] [[separator|generating object]]). 
 
-The category [[Set|$Set$]] of [[set|sets]] and functions is the [[full subcategory]] of $Preset$ where all [[congruence|equivalence prerelations]] have [[effective epimorphism|effective]] [[quotient object|quotients]], and the category $Setoid$ of __[[setoid|setoids]]__ and functions is the [[exact completion|ex/lex completion]] of $Preset$. This means both $Set$ and $Setoid$ are [[Grothendieck topos|Grothendieck topoi]] over the [[point]] satisfying [[Giraud's axioms]]. As the ex/lex completion is a [[free completion]], there is a [[free functor]] $F: Preset \rightarrow Set$ that is the left adjoint of the [[forgetful functor]] $U: Set \rightarrow Preset$, and $Setoid$ could also be thought of as a subcategory of $Set$, as the category of __[[free object|free]] sets__. (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)
+The category [[Set|$Set$]] of [[set|sets]] is the [[full subcategory]] of $Preset$ where all [[congruence|equivalence prerelations]] have [[effective epimorphism|effective]] [[quotient object|quotients]], and the category $Setoid$ of __[[setoid|setoids]]__ and is the [[exact completion|ex/lex completion]] of $Preset$. This means both $Set$ and $Setoid$ are [[Grothendieck topos|Grothendieck topoi]] over the [[point]] satisfying [[Giraud's axioms]]. As the ex/lex completion is a [[free completion]], there is a [[free functor]] $F: Preset \rightarrow Set$ that is the left adjoint of the [[forgetful functor]] $U: Set \rightarrow Preset$, and $Setoid$ could also be thought of as a subcategory of $Set$, as the category of __[[free object|free]] sets__. (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)
 
-If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Setoid$, as a subcategory of $Set$, $Setoid$ could be thought of as the category of __completely presented sets__, the category of sets with a [[projective presentation]]. 
+If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Setoid$, as a subcategory of $Set$, $Setoid$ could be thought of as the category of __completely presented sets__, the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $Preset$, then $Preset$ is equivalent to $Setoid$, as the axiom of choice implies that $Preset$ is its own free exact completion, and $Preset$ is equivalent to $Set$ because the free functor from $Preset$ to $Set$ is an [[equivalence of categories]]. 
 
-If the [[axiom of choice]] holds in $Preset$, then $Preset$ is equivalent to $Setoid$, as the axiom of choice implies that $Preset$ is its own free exact completion, and $Preset$ is equivalent to $Set$ because the free functor from $Preset$ to $Set$ is an [[equivalence of categories]]. 
+However, these presets still have an equality defined, due to the fact that the [[hom-object]] of a weak category is still a [[set]], which means that the morphisms are functions and elements, and function composition preserves equality, so that these 'presets' are still sets in some sense; see [[tobybartels:preset]] for a discussion of this issue. Commonly, these 'presets' are the [[categorical semantics]] of an [[extensional type theory]] without quotient types (see below) such as Martin-Löf type theory, so are more accurately called 'extensional types' instead, belonging to the category $ExType$ of extensional types instead of $Preset$. 
+
+Instead, it would be more faithful to the original definition of preset for the category $Preset$ of presets and prefunctions to be a weak preset-[[enriched category]] whose objects are presets as well, as prefunctions form a preset. But without equality, one has to replace the associative identity and identity morphism axioms for a category with a [[2-morphism]] called the associator that satisfies the [[pentagon identity]] and 2-morphisms called the left and right unitors that satisfy the [[triangle identities]], resulting in a preset-enriched [[(2,1)-category]]. However, the pentagon identity also involves equalities and so would have to be replaced with a [[3-morphism]] called the [[pentagonator]], and so on, creating a preset-enriched (3,1)-category, a preset-enriched (4,1)-categoy, and so on. In the limit of this process, a preset-enriched category turns out to be an preset-enriched [[(infinity,1)-category]] of presets, or a [[infinity-groupoid]]-enriched (infinity,1)-category, whose objects are [[infinity-groupoids]] as well. This means that $Preset$ is actually equivalent to [[Infinity-Grpd|$\infty Grpd$]], the [[(infinity,1)-topos]] of infinity-groupoids. While every preset still has an equivalence prerelation, these equivalence prerelations represent [[homotopy equivalence]] instead of equality, and so are still not sets. This means sets and equality have to be defined from presets and equivalence prerelations using a different definition; indeed, a set is defined as a preset with a particular equivalence prerelation called equality, where all [[n-morphism|n-morphisms]] for $n\geq 1$ are trivial, such that the set is [[n-truncated object of an (infinity,1)-category|0-truncated]]. Sets as defined have quotients, as quotients of sets can be constructed as an [[(infinity,1)-colimit]]. These 'presets' are the categorical semantics for [[homotopy type theory]].
 
 ### In type theory
 
@@ -73,7 +83,7 @@ It is possible to develop type-theoretic foundations in which presets are *not* 
 
 The sorts in [[Michael Makkai]]\'s [[FOLDS]] are presets.  FOLDS is very different from the other foundations considered above, since it is based strictly on prerelations and has no notion of prefunction.  As far as I can tell, it therefore does not prove the presentation axiom.
 
-In [[homotopy type theory]], a preset (or type) is an [[∞-groupoid]] whose identity type represents [[homotopy equivalence]] instead of equality. A set is then defined as a [[n-truncated object of an (infinity,1)-category|0-truncated]] preset, where equality is a special case of homotopy equivalence where all [[n-morphism|n-morphisms]] for $n\geq 1$ are trivial. For example, the [[integers]] $\mathbb{Z}$ are usually constructed as the [[loop space]] of the [[circle]] as a preset, and only later proven that $\mathbb{Z}$ is a set. Likewise, a [[preorder]] is a preset or ∞-groupoid with a transitive and reflexive relation, and in general, pre-structures are structures over an underlying preset or ∞-groupoid instead of a set. Unlike in the above cases, in homotopy type theory, it is not true that every preset has a free set.
+In [[homotopy type theory]], a preset is called  an [[homotopy type]] and a prefunction is simply called a function, and the identity type represents [[homotopy equivalence]] instead of equality. In homotopy type theory, there is a truncation operation that allows homotopy types to be turned into [[n-types]], and for $n=0$, the 0-type is a set and the identity type for a 0-type is equality. 
 
 If you are willing to accept the presentation axiom, then you can define a notion of preset internal to a given theory of sets: as a [[projective set]].  (With the full axiom of choice, therefore, a preset is simply a set.)  Alternatively, you might forgo presets as such but define a prefunction between sets to be an entire relation; although not everything translates, some of the properties are similar.
 
