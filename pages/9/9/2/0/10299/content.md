@@ -49,6 +49,24 @@ between the [[octonionic projective plane]] and the [[attaching space]] obtained
 
 See also at _[[cell structure of projective spaces]]_.
 
+### AKM-Theorem
+
++-- {: .num_prop}
+###### Proposition
+**(octonionic [[AKM-theorem]])**
+
+The [[13-sphere]] is the [[quotient space]] of the (right-)[[octonionic projective plane]] by the left multiplication [[action]] by [[Sp(1)]]:
+
+$$
+  \mathbb{O}P^2 / \mathrm{Sp}(1)
+  \simeq
+  S^{13}
+$$
+
+=--
+
+([Atiyah-Berndt 02](#AtiyahBerndt02))
+
 
 
 ## Related concepts
@@ -61,12 +79,18 @@ See also at _[[cell structure of projective spaces]]_.
 
 * {#Lackman19} [[Malte Lackmann]], _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
 
-
 See also:
 
 * Wikipedia, _[Cayley plane](http://en.wikipedia.org/wiki/Cayley_plane)_
 
 * Salzmann et. al., *Compact Projective Planes, with an introduction to Octonion Geometry*
+
+
+The [[AKM-theorem]] for $\mathbb{O}P^2$:
+
+* {#AtiyahBerndt02} [[Michael Atiyah]], [[Jürgen Berndt]], in:  Surv. Differ. Geom. VIII, Papers in Honor of Calabi, Lawson, Siu and Uhlenbeck (International Press, Somerville, MA, 2003) 1-27 ([arXiv:math/0206135](https://arxiv.org/abs/math/0206135), [doi:10.4310/SDG.2003.v8.n1.a1](https://dx.doi.org/10.4310/SDG.2003.v8.n1.a1))
+
+
 
 ### In string theory
 
