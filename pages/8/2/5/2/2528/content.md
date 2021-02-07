@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -51,27 +55,25 @@ Many properties of relations can also be predicated of prerelations, but not all
 
 ## Formalisation
 
+### In category theory
+
+The category $Preset$ of presets and prefunctions is a [[weak category|weak]] [[category]] that is [[finitely complete category|finitely complete]], [[extensive category|infinitary extensive]], and [[well-pointed category|well-pointed]] (i.e. whose [[terminal object]] is a [[extremal epimorphism|extremal]] [[separator|generating object]]). 
+
+The category [[Set|$Set$]] of [[set|sets]] and functions is the [[full subcategory]] of $Preset$ where all [[congruence|equivalence prerelations]] have [[effective epimorphism|effective]] [[quotient object|quotients]], and the category $Setoid$ of __[[setoid|setoids]]__ and functions is the [[exact completion|ex/lex completion]] of $Preset$. This means both $Set$ and $Setoid$ are [[Grothendieck topos|Grothendieck topoi]] over the [[point]] satisfying [[Giraud's axioms]]. As the ex/lex completion is a [[free completion]], there is a [[free functor]] $F: Preset \rightarrow Set$ that is the left adjoint of the [[forgetful functor]] $U: Set \rightarrow Preset$, and $Setoid$ could also be thought of as a subcategory of $Set$, as the category of __[[free object|free]] sets__. (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)
+
+If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Setoid$, as a subcategory of $Set$, $Setoid$ could be thought of as the category of __completely presented sets__, the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $Preset$, then $Setoid$ with the presentation axiom is equivalent to $Set$, as the axiom of choice and the existence of effective quotients for all equivalence relations imply the presentation axiom.
+
 ### In type theory
 
-Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]] (sometimes called 'sets', but they don\'t have [[quotient set|quotients]]) which behave something like presets (and are sometimes even called 'presets').  Then a [[set]] (sometimes called '[[setoid]]') is defined as above, as a type with an equality relation.  However, these types usually come equipped with '[[identity type|identity]]' relations, which are equality relations in all but name; this amounts to saying that every preset has a [[free object|free]] set, a __completely presented set__.  (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)  They usually also adopt an [[axiom of choice]] for prefunctions that, together with the identity relations, proves the [[presentation axiom]] (a weak form of the full axiom of choice) for general sets.
+Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]] (sometimes called 'sets', but they don\'t have [[quotient set|quotients]]) which behave something like presets (and are sometimes even called 'presets').  Then a [[set]] (sometimes called '[[setoid]]') is defined as above, as a type with an equality relation.  However, these types usually come equipped with '[[identity type|identity]]' relations, which are equality relations in all but name; this amounts to saying that every preset has a free set. They usually also adopt an [[axiom of choice]] for prefunctions that, together with the identity relations, proves the [[presentation axiom]] for general sets, which means that free sets are completely presented sets.
 
 It is possible to develop type-theoretic foundations in which presets are *not* equipped with identity relations (only metamathematical identity or interconvertibilty *judgements*); see [[tobybartels:preset]] for some discussion.  The presentation axiom is not provable in the base theory, although it is provable in the impredicative version (where identity relations can be defined, following [[Gottfried Leibniz|Leibniz]]\'s definition of equality).  A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 The sorts in [[Michael Makkai]]\'s [[FOLDS]] are presets.  FOLDS is very different from the other foundations considered above, since it is based strictly on prerelations and has no notion of prefunction.  As far as I can tell, it therefore does not prove the presentation axiom.
 
+In [[homotopy type theory]], a preset (or type) is an [[∞-groupoid]] whose identity type represents [[homotopy equivalence]] instead of equality. A set is then defined as a [[n-truncated object of an (infinity,1)-category|0-truncated]] preset, where equality is a special case of homotopy equivalence where all [[n-morphism|n-morphisms]] for $n\geq 1$ are trivial. For example, the [[integers]] $\mathbb{Z}$ are usually constructed as the [[loop space]] of the [[circle]] as a preset, and only later proven that $\mathbb{Z}$ is a set. Likewise, a [[preorder]] is a preset or ∞-groupoid with a transitive and reflexive relation, and in general, pre-structures are structures over an underlying preset or ∞-groupoid instead of a set. Unlike in the above cases, in homotopy type theory, it is not true that every preset has a free set.
+
 If you are willing to accept the presentation axiom, then you can define a notion of preset internal to a given theory of sets: as a [[projective set]].  (With the full axiom of choice, therefore, a preset is simply a set.)  Alternatively, you might forgo presets as such but define a prefunction between sets to be an entire relation; although not everything translates, some of the properties are similar.
-
-In [[homotopy type theory]], a preset (or type) is an [[∞-groupoid]] whose identity type represents [[homotopy equivalence]] instead of equality. A set is then defined as a [[n-truncated object of an (infinity,1)-category|0-truncated]] preset, where equality is a special type of homotopy equivalence where all [[n-morphism|n-morphisms]] for $n\geq 1$ are trivial. For example, the [[integers]] $\mathbb{Z}$ are usually constructed as the [[loop space]] of the [[circle]] as a preset, and only later proven that $\mathbb{Z}$ is a set. Likewise, a [[preorder]] is a preset or ∞-groupoid with a transitive and reflexive relation, and in general, pre-structures are structures over an underlying preset or ∞-groupoid instead of a set. Unlike in the above cases, in homotopy type theory, it is not true that every preset has a free set.
-
-### In category theory
-
-The category $Preset$ of presets and prefunctions is a [[weak category|weak]] [[category]] that is [[finitely complete category|finitely complete]], [[extensive category|infinitary extensive]], and [[well-pointed category|well-pointed]]. 
-
-The category [[Set|$Set$]] of [[set|sets]] and functions is the [[full subcategory]] of $Preset$ where all [[congruence|equivalence prerelations]] have [[effective epimorphism|effective]] [[quotient object|quotients]], and the category $Setoid$ of __[[setoid|setoids]]__ and functions is the [[exact completion|ex/lex completion]] of $Preset$. This means both $Set$ and $Setoid$ are [[Grothendieck topos|Grothendieck topoi]] satisfying [[Giraud's axioms]]. 
-
-As the ex/lex completion is a [[free completion]], there is a [[free functor]] $F: Preset \rightarrow Set$ that is the left adjoint of the [[forgetful functor]] $U: Set \rightarrow Preset$, and $Setoid$ could also be thought of as a subcategory of $Set$, as the category of __free sets__. 
-
-If the [[presentation axiom]] holds in $Setoid$, as a subcategory of $Set$, $Setoid$ could be thought of as the category of __completely presented sets__, the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $Preset$, then $Setoid$ with the presentation axiom is equivalent to $Set$, as the axiom of choice and the existence of effective quotients for all equivalence relations imply the presentation axiom.
 
 ## Applications
 
