@@ -24,6 +24,8 @@ In [[perturbative quantum field theory]], _tadpole cancellation_ refers to the c
 
 * [[C-field tadpole cancellation]] in [[M-theory]]
 
+* [[24 branes transverse to K3]] in [[F-theory]] and [[HET-theory]]
+
 ## Related concepts
 
 * [[anomaly cancellation]]
