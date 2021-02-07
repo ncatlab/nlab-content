@@ -41,7 +41,7 @@
 
 * [[2-sphere]]
 
-  * [[complex projective space]] $\,\mathbb{C}P^1$: [[Riemann sphere]]
+  * [[complex projective line]] $\,\mathbb{C}P^1$: [[Riemann sphere]]
 
   * [[geometric quantization of the 2-sphere]]
 
@@ -49,9 +49,11 @@
 
 * [[3-sphere]]
 
+  * [[fuzzy 3-sphere]]
+
 * [[4-sphere]]
 
-  * [[quaternionic projective space]] $\,\mathbb{H}P^1$
+  * [[quaternionic projective line]] $\,\mathbb{H}P^1$
 
   * [[fuzzy 4-sphere]]
 
@@ -65,7 +67,9 @@
 
 * [[8-sphere]]
 
-  * [[octonionic projective space]] $\,\mathbb{O}P^1$
+  * [[octonionic projective line]] $\,\mathbb{O}P^1$
+
+* [[13-sphere]]
 
 * [[15-sphere]]
 
