@@ -158,6 +158,8 @@ while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invar
 
 * [[quaternionic Hopf fibration]]
 
+* [[24 branes transverse to K3]]
+
 * [[first stable homotopy group of spheres]]
 
 * [[second stable homotopy group of spheres]]
