@@ -66,7 +66,7 @@ Incidentally, a well-pointed topos in a constructive metalogic is still "two-val
 
 ### In a pretopos
 
-If $E$ is only a [[pretopos]], we have to strengthen the condition that 1 is a generator to the condition that 1 is a [[strong generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a strong generator.
+If $E$ is only a [[pretopos]], we have to strengthen the condition that 1 is a generator to the condition that 1 is a [[separator|extremal generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a strong generator.
 
 This strengthening is important in [[predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course, the same applies whenever one is studying an arbitrary pretopos, not just a predicative version of $Set$.
 
@@ -75,7 +75,7 @@ This strengthening is important in [[predicative mathematics]], where the catego
 
 Do we know what these should be in any more general situations?
 
-[[Mike Shulman]]: Well, the pretopos version makes sense in any [[coherent category]], and I would bet that it's the right notion in that generality.  In a [[regular category]] one might just want to assert that $1$ is a (regular-)projective strong generator, which would probably be enough for regular logic.  And in a category with mere finite limits, being a strong generator is all one could ask for, and that'd probably be enough for finite-limit logic.
+[[Mike Shulman]]: Well, the pretopos version makes sense in any [[coherent category]], and I would bet that it's the right notion in that generality.  In a [[regular category]] one might just want to assert that $1$ is a (regular-)projective extremal generator, which would probably be enough for regular logic.  And in a category with mere finite limits, being a extremal generator is all one could ask for, and that'd probably be enough for finite-limit logic.
 
 
 ### Well-pointed $(\infty,1)$-toposes {#Infty1Version}
