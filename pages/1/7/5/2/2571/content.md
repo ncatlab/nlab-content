@@ -34,7 +34,7 @@ Contemporary set theorists often accept additional [[large cardinal]] [[axioms]]
 ## Axioms
 
 $ZFC$ is a [[simple type theory|simply typed]] [[first-order theory|first-order]] [[material set theory]], with a single type $V$ called the __[[cumulative hierarchy]]__ and a binary __membership__ [[predicate]] $\in$ on $V$. Every term of $V$ in standard $ZFC$ is a [[pure set]], which we will call simply a set. 
-A set $a$ is said to be in, a __member__ of, or an __element__ of a set $b$ if $a \in b$, and set $b$ is said to have the member $a$. 
+A set $a$ is said to belong to, be in, be a __member__ of, or be an __element__ of a set $b$ if $a \in b$, and set $b$ is said to have the member $a$. 
 
 There are also variations of ZFC with non-set terms such as [[urelements]] and [[classes]]. Urelements may be distinguished from sets and classes since they have no elements (although the [[empty set]] also has no elements); sets are usually those classes that are themselves elements (members) of sets. Urelements are also called *atoms*, and $ZF$ with atoms included is sometimes called [[ZFA]] or $ZFU$.
 
