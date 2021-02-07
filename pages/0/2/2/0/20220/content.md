@@ -206,9 +206,12 @@ $$
 
 ## Related concepts
 
-* [[RR-field tadpole cancellation]]
+* [[RR-field tadpole cancellation]] in [[type II string theory]]
 
-* [[shifted C-field flux quantization]]
+* [[shifted C-field flux quantization]] in [[M-theory]]
+
+* [[24 branes transverse to K3]] in [[F-theory]] and [[HET-theory]]
+
 
 ## References
  {#References}
