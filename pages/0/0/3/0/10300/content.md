@@ -56,12 +56,19 @@ If Desargues' theorem fails, then we can still construct a sort of algebraic str
 
 ## Examples
 
+* [[real projective plane]]
+
 * [[complex projective plane]]
+
+* [[quaternionic projective plane]]
+
+* [[octonionic projective plane]]
 
 ## Related pages
 
-* [[projective 3-space]]
 * [[projective line]]
+
+
 
 ## References
 
