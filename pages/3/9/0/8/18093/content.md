@@ -104,11 +104,6 @@ Another commonly seen proof of Minkowski's inequality derives it with the help o
 
 [[!redirects Minkowski inequality]]
 
-[[!redirects Minkowski inequality]]
-[[!redirects Minkowski's inequality]]
 [[!redirects Minkowski's inequality]]
 [[!redirects Minkowski\'s inequality]]
 [[!redirects Minkowski/'s inequality]]
-
-[[!redirects Minkowki's inequality]]
-[[!redirects Minkowki's inequality]]
