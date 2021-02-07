@@ -67,6 +67,8 @@ There this interpretation of small instantons as [[wrapped brane|wrapped]] 5-bra
 
 * {#AspinwallMorrison97} [[Paul Aspinwall]], [[David Morrison]], _Point-like Instantons on K3 Orbifolds_, Nucl. Phys. B503 (1997) 533-564 ([arXiv:hep-th/9705104](https://arxiv.org/abs/hep-th/9705104))
 
+* {#Johnson98} [[Clifford Johnson]], _Études on D-Branes_, in: [[Mike Duff]] et. al. (eds.) _Nonperturbative aspects of strings, branes and supersymmetry_, Proceedings, Trieste, Italy, March 23-April 3, 1998 ([arXiv:hep-th/9812196](https://arxiv.org/abs/hep-th/9812196), [spire:481393](https://inspirehep.net/literature/481393))
+
 
 
 [[!include flavor on heterotic M5-branes -- references]]
