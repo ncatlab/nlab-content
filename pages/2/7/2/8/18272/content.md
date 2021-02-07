@@ -51,7 +51,7 @@ Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_
 
 1. $f^{-1}\left( \underset{i \in I}{\cup}  T_i\right) = \left(\underset{i \in I}{\cup} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of a [[union]] of subsets is the union of the pre-images), 
 
-1. $f^{-1}\left( \underset{i \in I}{\cap}  T_i\right) = \left(\underset{i \in I}{\cap} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the pre-images).
+1. $f^{-1}\left( \underset{i \in I}{\cap}  T_i\right) = \left(\underset{i \in I}{\cap} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of the [[intersection]] of the subsets is the intersection of the pre-images).
 =-- 
 
 +-- {: .num_prop} 
