@@ -1036,7 +1036,7 @@ $$
   \,.
 $$
 
-=---
+=--
 
 ([Adams 74, theorem 15.1 page 319](#Adams74))
 
@@ -5208,7 +5208,7 @@ $$
 is presented by a tower of fibrations between fibrant spectra in the [[model structure on topological sequential spectra]], then $Y^\wedge_E$ is represented by the ordinary [[sequential limit]] over this tower.
 
 
-=---
+=--
 
 ([Bousfield 79, top, middle and bottom of page 272](#Bousfield79))
 
@@ -7334,7 +7334,7 @@ $$
   }
 $$
 
-=---
+=--
 
 (e.g. [Hopkins 99, corollary 5.3](#Hopkins99)).
 
@@ -8168,8 +8168,7 @@ The original sources are
 
 based in parts on 
 
-* {#Adams69} [[John Frank Adams]], _Lectures on generalised cohomology_, in 
-[[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York. 
+* {#Adams69} [[John Frank Adams]], _Lectures on generalised cohomology_, in [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York. 
 
 The [[spectrum]]-level discussion of the ASS goes back to around
 
@@ -8201,15 +8200,16 @@ and worked out in some more detail in
 
 For full details of some of the steps involved see also ([Schwede 12](#Schwede12)).
 
-Reviews of the traditional theory include
+Reviews of the traditional theory:
+
+* {#Ravenel78} [[Douglas Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in: [[Michael Barratt]], [[Mark Mahowald]] (eds.) _Geometric Applications of Homotopy Theory II_. Lecture Notes in Mathematics, vol 658, Springer 1978 ([doi:10.1007/BFb0068728](https://doi.org/10.1007/BFb0068728), [pdf](https://people.math.rochester.edu/faculty/doug/mypapers/Novice.pdf))
 
 * {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 onwards
 
-* {#Kochmann96} [[Stanley Kochman]], section 3.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochman]], section 3.6 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#McCleary01} [[John McCleary]], chapter 9 of _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
+* {#McCleary01} [[John McCleary]], chapter 9 of: _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
 
-* {#Ravenel06} [[Doug Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in Geometric Applications of Homotopy Theory II Volume 658 of the series Lecture Notes in Mathematics pp 404-475, 2006(?)
 
 * {#Goerss2007} [[Paul Goerss]], _The Adams-Novikov spectral sequence and the Homotopy Groups of Spheres_, lecture notes 2007 ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/stras1.pdf))
 
