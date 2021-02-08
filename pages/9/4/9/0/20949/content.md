@@ -53,3 +53,6 @@ Further developments:
 
 * [[Marc Henneaux]], [[Wout Merbis]], Arash Ranjbar, _Asymptotic dynamics of $AdS_3$ gravity with two asymptotic regions_ ([arXiv:1912.09465](https://arxiv.org/abs/1912.09465))
 
+* Viraj Meruliya, [[Sunil Mukhi]], Palash Singh, _Poincaré Series, 3d Gravity and Averages of Rational CFT_ ([arXiv:2102.03136](https://arxiv.org/abs/2102.03136))
+
+
