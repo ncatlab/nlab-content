@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +21,7 @@
 
 The _Adams-Novikov spectral sequence_ is the $E$-[[Adams spectral sequence]], for $E = $ [[MU]].
 
-More in detail, the _Adams-Novikov spectral sequence_ is a class of [[spectral sequences]] which converge to and hence are used to compute [[homotopy groups]] of [[connective spectra]],  hence in particular the [[stable homotopy groups of spheres]]. It refines the _[[Adams spectral sequence]]_ by replacing [[ordinary cohomology]] with [[coefficients]] in [[Fp]] by [[complex cobordism cohomology theory]], i.e. with coefficients in [[MU]].
+More in detail, the _Adams-Novikov spectral sequence_ is a class of [[spectral sequences]], which refine the _[[classical Adams spectral sequence]]_ by replacing [[ordinary cohomology]] with [[coefficients]] in [[Fp]] by [[complex cobordism cohomology theory]] [[MU]]. This makes the Adams-Novikov spectral sequence converge to the full [[homotopy groups]] of [[connective spectra]], hence in particular to the full [[stable homotopy groups of spheres]] ([Novikov 67, Theorems 3.1, 3.3](#Novikov67), reviewed as [Ravenel 78, Thm. 3.1](#Ravenel78)).
 
 More generally for $E$ any suitable [[E-infinity ring]] there is an Adams-Novikov-type spectral sequence involving $E$-[[generalized cohomology]]/[[generalized homology]]. This fully general notion is often again just referred to as the _$E$-[[Adams spectral sequence]]_. Accordingly, see there for more. For detailed introduction, see at _[[Introduction to the Adams Spectral Sequence]]_.
 
@@ -76,10 +75,16 @@ While that article was still being translated to English, [[Frank Adams]] learne
 
 * {#Adams74} [[Frank Adams]],  _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
+Further early development of this Adams-Novikov spectral sequence:
 
-Reviews include
+* {#Zahler72} [[Raphael Zahler]], _The Adams-Novikov Spectral Sequence for the Spheres_, Annals of Mathematics Second Series, Vol. 96, No. 3 (Nov., 1972), pp. 480-504 ([doi:10.2307/1970821](https://doi.org/10.2307/1970821))
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, page 11 of chapter I _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+Review:
+
+* {#Ravenel78} [[Douglas Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in: [[Michael Barratt]], [[Mark Mahowald]] (eds.) _Geometric Applications of Homotopy Theory II_. Lecture Notes in Mathematics, vol 658, Springer 1978 ([doi:10.1007/BFb0068728](https://doi.org/10.1007/BFb0068728), [pdf](https://people.math.rochester.edu/faculty/doug/mypapers/Novice.pdf))
+
+
+* {#Ravenel} [[Douglas Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, page 11 of chapter I _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
 
 
 * [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_, chapter IV _$B P$-Theory and the Adams-Novikov Spectral Sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf))
