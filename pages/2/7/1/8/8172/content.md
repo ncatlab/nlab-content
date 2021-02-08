@@ -8243,11 +8243,11 @@ This is nicely surveyed in
 
 * [[Akhil Mathew]], _[The Adams spectral sequence as derived descent, and chromotopy](https://amathew.wordpress.com/2012/09/21/3844/)_, 2012
 
-* {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/), March 2013 ([[DylanWilsonOnANSS.pdf:file]])
+* {#Wilson13} [[Dylan Wilson]], _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_, lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/), March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
 The actual proof that this new perspecive is equivalent the original Adams-Bousfield theory appears as prop. 2.14 in
 
-* {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_ ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869))
+* {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_, Advances in Mathematics Volume 305, 10 January 2017, Pages 994-1084 ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869), [doi:10.1016/j.aim.2016.09.027](https://doi.org/10.1016/j.aim.2016.09.027))
 
 
  
