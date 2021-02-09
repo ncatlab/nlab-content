@@ -258,7 +258,7 @@ The [[universal property]] of $\hat X$ is immediate from the abstract setup:
 
 1. $\hat X$ is simply connected, in that $\tau_1 &#643; \hat X \simeq \ast$
 
-   This is because $&#643; X$ is discrete by construction, and hence so is $\tau_1(&#643; X)$. So by assumpotion \ref{AssumptionOnH} applying $&#643;$ to the above square yields another homotopy pullback of the form
+   This is because $&#643; X$ is discrete by construction, and hence so is $\tau_1(&#643; X)$. So by assumption \ref{AssumptionOnH} applying $&#643;$ to the above square yields another homotopy pullback of the form
 
    $$
      \array{
