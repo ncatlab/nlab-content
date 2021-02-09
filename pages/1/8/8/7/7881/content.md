@@ -54,13 +54,13 @@ $$ \aleph_0 \lt \alpha \lt 2^{\aleph_0} $$
 
 ### In weakly predicative mathematics
 
-[[predicative mathematics|Predicatively]], the power set $\Omega^N$ does not exist, but if function sets exist, then the mathematics is only weakly predicative. Assuming $E$ is a [[Heyting category|Heyting]] [[ΠW-pretopos]], one replaces the subset classifier $\Omega$ in the definition of the Dedekind real numbers with a [[Sierpinski space|Sierpinski space object]] $S$ in $Set$, defined as a $\omega$-[[small]] ([[countable set|countable]]) [[frame]] in $Set$, an initial $\sigma$-frame in $Set$. The continuum hypothesis then becomes that if there is a series of monomorphisms such that
+[[predicative mathematics|Predicatively]], the power set $\Omega^N$ does not exist, but if function sets exist, then the mathematics is only weakly predicative. Assuming $E$ is a [[Heyting category|Heyting]] [[ΠW-pretopos]], one replaces the subset classifier $\Omega$ in the definition of the [[Dedekind real numbers]] with a [[Sierpinski space|Sierpinski space object]] $S$ in $Set$, defined as a $\omega$-[[small]] ([[countable set|countable]]) [[frame]] in $Set$, an initial $\sigma$-frame in $Set$. The continuum hypothesis then becomes that if there is a series of monomorphisms such that
 
 $$N \hookrightarrow A\hookrightarrow S^N$$
 
 then either the first or the second is an isomorphism.
 
-If the ΠW-pretopos $E$ is [[Boolean category|Boolean]], then it is an elementary topos, the principle of excluded middle is true, and $S$ has two elements and is isomorphic to $\Omega$, so the pretopos is no longer predicative, and this definition reduces to the classical definition. 
+If the $\Pi W$-pretopos $E$ is [[Boolean category|Boolean]], then it is an elementary topos, the principle of excluded middle is true, and $S$ has two elements and is isomorphic to $\Omega$, so the pretopos is no longer predicative, and this definition reduces to the classical definition. 
 
 Since $S$ as defined above for Dedekind reals is a countable set, one could replace $S$ with $N$ itself, as $N$ is also countable. The continuum hypothesis then becomes that if there is a series of monomorphisms such that 
 
@@ -70,8 +70,8 @@ then either the first or the second is an isomorphism.
 
 The set $N^N$ is typically called the [[Baire space of sequences]], and sometimes called the Baire real numbers in [[descriptive set theory]] and denoted as $B$. 
 
-#In strongly predicative mathematics
-If neither power sets nor function sets exist, such as in a Boolean or Heyting [[pretopos|W-pretopos]], the mathemativs is strongly predicative and the cardinality of the continuum is an [[inaccessible cardinal]], and classically the continuum hypothesis becomes if there is a cardinal between the inaccessible cardinal $\Aleph_0$ and the inaccessible cardinal $\mathfrak{c}$. 
+### In strongly predicative mathematics
+If neither power sets nor function sets exist, such as in a Boolean or Heyting [[pretopos|W-pretopos]], the mathematics is strongly predicative and the cardinality of the continuum is an [[inaccessible cardinal]]. Then, classically, the continuum hypothesis becomes the question of whether there is a cardinal between the inaccessible cardinal $\aleph_0$ and the inaccessible cardinal $\mathfrak{c}$. 
 
 While the set of real numbers could be defined by fiat as the [[terminal object|terminal]] [[archimedean field]] object $R$ in $Set$, its existence has to be included as an axiom of the set theory, after which the continuum hypothesis becomes if there is a series of monomorphisms such that 
 
