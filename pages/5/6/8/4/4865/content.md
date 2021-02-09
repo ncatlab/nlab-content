@@ -1,5 +1,3 @@
-[[!redirects 11-dimensional supergravity]]
-[[!redirects 11-dimensional supergravity]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -208,7 +206,7 @@ Formulation in terms of [[supergeometry]] ("superspace formulation") is in
 
 The history as of 1990s with an eye towards the development to [[M-theory]] is survey in 
 
-* {#Duff99} [[Mike Duff]], chapter I of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+* {#Duff99} [[Mike Duff]], chapter I of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
@@ -230,20 +228,19 @@ and around (4.2) of [Tsimpis 04](#Tsimpis04)
  
 More recent textbook accounts include
 
-* [[Antoine Van Proeyen]], [[Daniel Freedman]], section 10 of _Supergravity_, Cambridge University Press, 2012 
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], section 10 of: _Supergravity_, Cambridge University Press, 2012 ([pdf](http://www.nucleares.unam.mx/~alberto/apuntes/freedman.pdf), [doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833))
 
 Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the [[supergravity torsion constraints]] is in 
 
-* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B
-Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
+* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
 following 
 
-*  A. Candiello, K. Lechner, _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
+*  A. Candiello, [[Kurt Lechner]], _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
 
 Much computational detail is displayed in
 
-* Andre Miemiec, Igor Schnakenburg, _Basics of M-Theory_, Fortsch.Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137))
+* [[André Miemiec]], [[Igor Schnakenburg]], _Basics of M-Theory_, Fortsch. Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137), [doi:10.1002/prop.200510256]( https://doi.org/10.1002/prop.200510256))
 
 In terms of [[pure spinors]]:
 
@@ -377,8 +374,6 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
 
-* {#Monnier13} Samuel Monnier, _Global gravitational anomaly cancellation for five-branes_, Advances in Theoretical and Mathematical Physics, Volume 19 (2015) 3 ([arXiv:1310.2250](https://arxiv.org/abs/1310.2250)) 
-
 * {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
  
 * [[Daniel Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
@@ -395,3 +390,7 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 [[!redirects D=11 supergravity]]
 
 [[!redirects d=11 supergravity]]
+
+
+[[!redirects 11-dimensional supergravity]]
+[[!redirects 11-dimensional supergravity]]
