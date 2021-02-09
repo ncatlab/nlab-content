@@ -14,26 +14,34 @@
 
 ## Idea
 
-In the 1980-s, [[Grothendieck]] in _Pursuing Stacks_ introduced a notion of [[categories]] he called _test categories_ to make the variants of the [[homotopy theory]] based on the usage of combinatorial models with some kind of cell structure (e.g., [[simplicial set]]s, [[cubical set]]s and cellular sets) independent of a particular combinatorial model.
+The notion of a  _test category_ ([Grothendieck 83](#Grothendieck83))
+is meant to axiomatize common features of [[categories]] of [[geometric shapes for higher structures|shapes]] used to model [[homotopy types]] in [[homotopy theory]], such as the categories of [[simplicial sets]], [[cubical sets]] or [[cellular sets]]. 
 
 ## Definition
 
-Given any small category $\mathcal{C}$, one considers $\mathcal{C}$-sets, hence [[presheaves]] on $\mathcal{C}$, hence [[contravariant functors]] from $\mathcal{C}$ to $Set$. 
+Given any [[small category]] $\mathcal{C}$, one considers $\mathcal{C}$-sets, hence [[presheaves]] on $\mathcal{C}$, hence [[contravariant functors]] from $\mathcal{C}$ to [[Set]]. 
 
-Given an [[object]] $c\in C$, one considers the [[representable functor]] $Hom_{\mathcal{C}}(-,c)=:\Delta^c$. If $X:\mathcal{C}^{op} \to Set$ is a $\mathcal{C}$-set, the elements of $X(c)$ are called the $c$-cells. By the [[Yoneda lemma]], they correspond to the [[natural transformations]] $\Delta^c\to X$. 
+Given an [[object]] $c\in C$, one considers the [[representable functor]] $Hom_{\mathcal{C}}(-,c)=:\Delta^c$. If $X \colon \mathcal{C}^{op} \to Set$ is a $\mathcal{C}$-set, the [[elements]] of $X(c)$ are called the _$c$-cells_. By the [[Yoneda lemma]], they correspond to the [[natural transformations]] $\Delta^c\to X$. 
 
-Let the **cell category** of $X$, denoted $i_{\mathcal{C}} X$, be the full subcategory of the [[overcategory]] $\mathcal{C}Set/X$ whose objects are the transformations of the form $\Delta^c\to X$. (This is another name for the [[category of elements]] of $X$.) The correspondence $X\mapsto i_{\mathcal{C}}X$ extends to a functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ which has a right adjoint $i_{\mathcal{C}}^*:Cat\to\mathcal{C}Set$ whose object part is given by the formula
+Let the **cell category** of $X$, denoted $i_{\mathcal{C}} X$, be the [[full subcategory]] of the [[overcategory]] $\mathcal{C}Set/X$ whose [[objects]] are the transformations of the form $\Delta^c\to X$. (This is another name for the [[category of elements]] of $X$.) 
 
-$$ i_{\mathcal{C}}^*(D)(c):= Hom_{Cat}(\mathcal{C}/c,D).$$
+The correspondence $X\mapsto i_{\mathcal{C}}X$ extends to a [[functor]] $i_{\mathcal{C}} \colon\mathcal{C}Set
+\to $ [[Cat]], which has a [[right adjoint]] $i_{\mathcal{C}}^* \colon Cat\to\mathcal{C}Set$ whose object part is given by the formula
 
-Denote the counit of the adjunction $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$. 
+$$ i_{\mathcal{C}}^*(D)(c)
+  \coloneqq
+Hom_{Cat}(\mathcal{C}/c,D)
+\,.
+$$
 
-Two $\mathcal{C}$-sets $X$ and $Y$ are **weakly equivalent** if there is a map $f:X\to Y$ inducing an equivalence $f_* : i_{\mathcal{C}} X\to i_{\mathcal{C}} Y$ of their cell categories, i.e., the induced map of [[nerve]]s ("[[classifying spaces]]") $B(i_{\mathcal{C}} X)\to B(i_{\mathcal{C}} Y)$ is a weak equivalence of simplicial sets. The functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ induces a functor $i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$ of the homotopy categories.  
+Denote the [[counit of the adjunction]] $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$. 
+
+Two $\mathcal{C}$-sets $X$ and $Y$ are called **weakly equivalent** if there is a [[morphism]] $f \colon X\to Y$ inducing an [[equivalence of categories|equivalence]] $f_* \colon i_{\mathcal{C}} X\to i_{\mathcal{C}} Y$ of their cell categories, i.e., the induced map of [[nerves]] ("[[classifying spaces]]") $B(i_{\mathcal{C}} X)\to B(i_{\mathcal{C}} Y)$ is a [[weak equivalence of simplicial sets]]. The functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ induces a functor $i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$ of the [[homotopy categories]].  
 
 A $\mathcal{C}$-set $X$ is called **aspherical** if the category $i_{\mathcal{C}}(X)$ is weakly contractible, i.e. the nerve $B(i_{\mathcal{C}}(X))$ is a weakly contractible simplicial set. Note that if $\mathcal{C}$ is a weakly contractible category, then this is equivalent to the condition that the map $X \to 1$ to the terminal presheaf is a weak equivalence of $\mathcal{C}$-sets.
 
 A **weak test category** is a small category $\mathcal{C}$ such that, 
-for any category $D$ in $Cat$ which has a terminal object, the $\mathcal{C}$-set $i_{\mathcal{C}}^\ast(D)$ is aspherical.
+for any category $D$ in $Cat$ which has a [[terminal object]], the $\mathcal{C}$-set $i_{\mathcal{C}}^\ast(D)$ is aspherical.
 
 A **test category** is any small category $\mathcal{A}$ such that 
 
@@ -90,8 +98,8 @@ Apart from the archeytpical example of the [[simplex category]] we have the foll
 
 The notion of test category was introduced in 
 
-* [[Alexandre Grothendieck]], _[[Pursuing Stacks]]_, [djvu](http://people.math.jussieu.fr/~maltsin/groth/ps/Pursuing_Stacks.djvu)
- {#Grothendieck}
+* {#Grothendieck83} [[Alexandre Grothendieck]], _[[Pursuing Stacks]]_, 1983 ([djvu](http://people.math.jussieu.fr/~maltsin/groth/ps/Pursuing_Stacks.djvu))
+ 
 
 Various conjectures made there are proven in 
 
@@ -106,15 +114,15 @@ General surveys include
 [html](http://people.math.jussieu.fr/~maltsin/textes.html))
 
 
-* [[Rick Jardine]], _Categorical homotopy theory_, Homot. Homol. Appl. __8__ (1), 2006, pp.71&#8211;144, ([HHA](http://www.intlpress.com/HHA/v8/n1/a3/),  [pdf](http://www.intlpress.com/HHA/v8/n1/a3/v8n1a3.pdf))
+* [[J. F. Jardine]], _Categorical homotopy theory_, Homot. Homol. Appl. __8__ (1), 2006, pp.71&#8211;144, ([HHA](http://www.intlpress.com/HHA/v8/n1/a3/),  [pdf](http://www.intlpress.com/HHA/v8/n1/a3/v8n1a3.pdf))
 
 That the [[cube category]] is a test category is asserted without proof in  ([Grothendieck](#Grothendieck)). A proof is spelled out in ([Cisinski](#Cisinski))
 
 
 That it is not a strict test category is implicitly already in 
 
-* [[Dan Kan]], _Abstract homotopy. I_ , Proc. Nat. Acad. Sci. U.S.A. 41 (1955), 1092&#8211;1096. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC528202/pdf/pnas00727-0082.pdf))
- {#Kan}
+* {#Kan} [[Dan Kan]], _Abstract homotopy. I_ , Proc. Nat. Acad. Sci. U.S.A. 41 (1955), 1092&#8211;1096. ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC528202/pdf/pnas00727-0082.pdf))
+
 
 and led to the preference for [[simplicial sets]] over [[cubical sets]].
 
@@ -133,7 +141,7 @@ That fact that the [[tree category]] is a test category was proved in
 
 A short introduction can be found in
 
-* Chris Kapulkin, _Introduction to Test Categories_ [PDF](http://www.math.uwo.ca/faculty/kapulkin/notes/test_categories.pdf).
+* [[Chris Kapulkin]], _Introduction to Test Categories_ [PDF](http://www.math.uwo.ca/faculty/kapulkin/notes/test_categories.pdf).
 
 [[!redirects test categories]]
 [[!redirects strict test category]]
