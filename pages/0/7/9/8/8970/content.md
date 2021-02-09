@@ -38,6 +38,10 @@ For $n = 1$ we have $\Theta_1 \simeq \Delta$ is the [[simplex category]]; and th
 
 The model structure on $\Theta_n$-cellular sets is [[Quillen equivalence|Quillen equivalent]] to that [[Theta space|∞-n spaces]].  ([Ara, theorem 7.4](#Ara)).
 
+## Related concepts
+
+* [[test category]]
+
 ## References
 
 * [[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv:1206.4354](http://arxiv.org/abs/1206.4354))
