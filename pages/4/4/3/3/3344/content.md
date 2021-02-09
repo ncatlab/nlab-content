@@ -14,7 +14,7 @@
 
 ## Idea
 
-In the 1980-s, [[Grothendieck]] in _Pursuing Stacks_ introduced test categories to make the variants of the [[homotopy theory]] based on the usage of combinatorial models with some kind of cell structure (e.g., [[simplicial set]]s, [[cubical set]]s and cellular sets) independent of a particular combinatorial model.
+In the 1980-s, [[Grothendieck]] in _Pursuing Stacks_ introduced a notion of [[categories]] he called _test categories_ to make the variants of the [[homotopy theory]] based on the usage of combinatorial models with some kind of cell structure (e.g., [[simplicial set]]s, [[cubical set]]s and cellular sets) independent of a particular combinatorial model.
 
 ## Definition
 
