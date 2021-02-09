@@ -36,6 +36,8 @@ There is a [[model category]] structure on presheaves on $\Theta_n$ which models
 
 * [[simplicial set]], [[globular set]], [[cubical set]], [[dendroidal set]]
 
+* [[test category]]
+
 * [[globular operad]], [[omega-category]]
 
 ## References
