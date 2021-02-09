@@ -17,9 +17,9 @@
 
 > Cantor's continuum problem is simply the question: How many points are there on a straight line in Euclidean space? In other terms, the question is: How many different sets of integers do there exist?  K. G&#246;del ([1947](#Goedel47), p.515)
 
-The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's list]] of open problems in mathematics in 1900.
+The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[Dedekind real numbers|Dedekind]] [[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's list]] of open problems in mathematics in 1900.
 
-In concise form the continuum hypothesis ($CH$) reads: $\quad 2^{\aleph_0}=\aleph _1\quad$; which roughly says that every [[subset]] of the [[real numbers]] is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers.
+In concise form the continuum hypothesis ($CH$) reads: $\quad 2^{\aleph_0}=\aleph _1\quad$; which roughly says that every [[subset]] of the Dedekind real numbers is either [[countable set|countable]] or has the same [[cardinality]] as the set of all Dedekind real numbers.
 
 The *generalized continuum hypothesis* ($GCH$) states more generally: $\quad 2^{\aleph_k}=\aleph _{k+1}\quad$. (But see also Remark \ref{GCHinZF} below.) 
 
@@ -39,7 +39,7 @@ The attempt to give categorical accounts of the [[forcing]] methods introduced b
 
 Let $E$ be an [[elementary topos]] with [[subobject classifier]] $\Omega$ and [[natural numbers object]] $N$.  The (external) **continuum hypothesis** in $E$ asserts that if there is a sequence of [[monomorphisms]]
 
-$$N \hookrightarrow B\hookrightarrow \Omega^N$$
+$$N \hookrightarrow A\hookrightarrow \Omega^N$$
 
 then either the first or the second is an [[isomorphism]].
 
@@ -52,6 +52,32 @@ which it is more common to write as
 $$ \aleph_0 \lt \alpha \lt 2^{\aleph_0} $$
 =--
 
+### In weakly predicative mathematics
+
+[[predicative mathematics|Predicatively]], the power set $\Omega^N$ does not exist, but if function sets exist, then the mathematics is only weakly predicative. Assuming $E$ is a [[Heyting category|Heyting]] [[ΠW-pretopos]], one replaces the subset classifier $\Omega$ in the definition of the Dedekind real numbers with a [[Sierpinski space|Sierpinski space object]] $S$ in $Set$, defined as a $\omega$-[[small]] ([[countable set|countable]]) [[frame]] in $Set$, an initial $\sigma$-frame in $Set$. The continuum hypothesis then becomes that if there is a series of monomorphisms such that
+
+$$N \hookrightarrow A\hookrightarrow S^N$$
+
+then either the first or the second is an isomorphism.
+
+If the ΠW-pretopos $E$ is [[Boolean category|Boolean]], then it is an elementary topos, the principle of excluded middle is true, and $S$ has two elements and is isomorphic to $\Omega$, so the pretopos is no longer predicative, and this definition reduces to the classical definition. 
+
+Since $S$ as defined above for Dedekind reals is a countable set, one could replace $S$ with $N$ itself, as $N$ is also countable. The continuum hypothesis then becomes that if there is a series of monomorphisms such that 
+
+$$N \hookrightarrow A\hookrightarrow N^N$$
+
+then either the first or the second is an isomorphism.
+
+The set $N^N$ is typically called the [[Baire space of sequences]], and sometimes called the Baire real numbers in [[descriptive set theory]] and denoted as $B$. 
+
+#In strongly predicative mathematics
+If neither power sets nor function sets exist, such as in a Boolean or Heyting [[pretopos|W-pretopos]], the mathemativs is strongly predicative and the cardinality of the continuum is an [[inaccessible cardinal]], and classically the continuum hypothesis becomes if there is a cardinal between the inaccessible cardinal $\Aleph_0$ and the inaccessible cardinal $\mathfrak{c}$. 
+
+While the set of real numbers could be defined by fiat as the [[terminal object|terminal]] [[archimedean field]] object $R$ in $Set$, its existence has to be included as an axiom of the set theory, after which the continuum hypothesis becomes if there is a series of monomorphisms such that 
+
+$$N \hookrightarrow A\hookrightarrow R$$
+
+then either the first or the second is an isomorphism.
 
 ## Unprovability
 
@@ -62,7 +88,7 @@ There exists a [[boolean topos]] in which the [[axiom of choice]] holds and the 
 
 =--
 
-One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen [[poset]].  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow B\hookrightarrow 2^{\mathbb{N}}$ that are both not isomorphisms.
+One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen [[poset]].  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow A\hookrightarrow 2^{\mathbb{N}}$ that are both not isomorphisms.
 
 The Cohen topos will be constructed from the topos [[Set]] of sets.  For this, recall that the subobject classifier of $Set$ is $2\coloneqq \{0,1\}$. The technique of constructing such a topos is called [[forcing]].
  
@@ -70,11 +96,11 @@ The Cohen topos will be constructed from the topos [[Set]] of sets.  For this, r
 ###### Definition
 **(Cohen poset)**
 
-Let $\mathbb{N}$ be the set of natural numbers; i.e. the natural-numbers object in $Set$. Let $B$ be a set with strictly larger cardinality ${|B|}\gt {|\mathbb{N}|}$; e.g. $B\coloneqq 2^{2^{\mathbb{N}}}$ will do because of the [[diagonal argument]].  Then the *Cohen poset* $P$ is defined to be the set of morphisms
+Let $\mathbb{N}$ be the set of natural numbers; i.e. the natural-numbers object in $Set$. Let $A$ be a set with strictly larger cardinality ${|A|}\gt {|\mathbb{N}|}$; e.g. $A\coloneqq 2^{2^{\mathbb{N}}}$ will do because of the [[diagonal argument]].  Then the *Cohen poset* $P$ is defined to be the set of morphisms
 
 $$p:F_p\to 2$$
 
-where $F_p\subseteq B\times \mathbb{N}$ is any [[finite set|finite]] subset.
+where $F_p\subseteq A\times \mathbb{N}$ is any [[finite set|finite]] subset.
 The order relation on $P$ is defined by
 
 $$q\le p\; iff\; F_q\supseteq F_p\;and\;q|_{F_p}=p$$
@@ -82,9 +108,9 @@ $$q\le p\; iff\; F_q\supseteq F_p\;and\;q|_{F_p}=p$$
 where the right-hand condition means that $q$ restricted to $F_p$ must coincide with $p$.
 =--
 
-We think of each element of $P$ as an approximation to the function $F:B\times\mathbb{N}$ that is the [[exponential|transpose]] of the putative monomorphism
+We think of each element of $P$ as an approximation to the function $F:A\times\mathbb{N}$ that is the [[exponential|transpose]] of the putative monomorphism
 
-$$f:B\to 2^\mathbb{N}$$
+$$f:A\to 2^\mathbb{N}$$
 
 with "smaller" elements considered as better approximations. The very rough intuition is that $p\to q\to \dots$ (if $p\ge p\ge \dots$) forms a [[codirected diagram]] of monomorphisms with domains of increasing size whose colimit is $f$, and that by [[free cocompletion]] (i.e. forming (pre)sheaves) we obtain a topos in which this colimit exists.
 
@@ -96,24 +122,24 @@ The [[dense topology|dense]] [[Grothendieck topology]] on $P$ is [[subcanonical 
 
 +-- {: .num_lemma}
 ###### Lemma
-Let $k_{B\times\mathbb{N}}:\begin{cases}P\to Set \\ p \mapsto B\times\mathbb{N}\end{cases}$ denote the functor constant on $B\times\mathbb{N}$. Let
+Let $k_{A\times\mathbb{N}}:\begin{cases}P\to Set \\ p \mapsto A\times\mathbb{N}\end{cases}$ denote the functor constant on $A\times\mathbb{N}$. Let
 
-$$A:\begin{cases}
+$$C:\begin{cases}
 P\to Set
 \\
-p\mapsto \{(b,n)|p(b,n)=0\}\subseteq B\times \mathbb{N}
+p\mapsto \{(b,n)|p(b,n)=0\}\subseteq A\times \mathbb{N}
 \end{cases}$$
 
-Then we have $\neg\neg A=A$ in $Sub(k_{B\times\mathbb{N}})$; i.e. $A$ is a closed subobject with respect to the dense topology $\neg\neg$ in the [[algebra of subobjects]] of $k_{B\times\mathbb{N}}$.
+Then we have $\neg\neg C=C$ in $Sub(k_{A\times\mathbb{N}})$; i.e. $C$ is a closed subobject with respect to the dense topology $\neg\neg$ in the [[algebra of subobjects]] of $k_{A\times\mathbb{N}}$.
 =--
 
 Let $\Omega$ denote the [[subobject classifier]] of $Psh(P)$. Let $\Omega_{\neg\neg}$ denote the subobject classifier of $Sh(P,\neg\neg)$. Recall that $\Omega_{\neg\neg}$ is given by the equalizer $\Omega_{\neg\neg}=eq(id_\Omega,\neg\neg)$.
 
-By the preceding lemma, the [[characteristic morphism]] $\chi_a$ of the subobject $a \colon A\hookrightarrow k_{B\times\mathbb{N}}=k_B\times\k_\mathbb{N}$ factors through some $f \colon k_{B\times\mathbb{N}}\to \Omega_{\neg\neg}$.
+By the preceding lemma, the [[characteristic morphism]] $\chi_a$ of the subobject $a \colon C\hookrightarrow k_{A\times\mathbb{N}}=k_A\times\k_\mathbb{N}$ factors through some $f \colon k_{A\times\mathbb{N}}\to \Omega_{\neg\neg}$.
 
 +-- {: .num_lemma}
 ###### Lemma 
-The adjoint $g:k_B\to \Omega_{\neg\neg}^{k_{\mathbb{N}}}$ of $f$ is a monomorphism.
+The adjoint $g:k_A\to \Omega_{\neg\neg}^{k_{\mathbb{N}}}$ of $f$ is a monomorphism.
 =--
 
 +-- {: .num_corollary}
@@ -127,9 +153,11 @@ If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of ch
 
 +-- {: .num_remark #GCHinZF} 
 ###### Remark 
-Regarding the statement of the *generalized* continuum hypothesis in *ZF* (not ZFC), one should distinguish various possibilities. One might leave the statement $2^{\aleph_n} = \aleph_{n+1}$ unchanged, so that the GCH becomes a statement just about ordinals or well-ordered sets. But then one could argue such a generalized continuum hypothesis is not as general or strong as it might be, since not all sets can be well-ordered using ZF alone. The more general statement would say that if there are monomorphisms $X \to Y$ and $Y \to P(X)$, then $Y$ is bijective with one of $X, P(X)$. 
+Regarding the statement of the *generalized* continuum hypothesis in *ZF* (not ZFC), one should distinguish various possibilities. One might leave the statement $2^{\aleph_n} = \aleph_{n+1}$ unchanged, so that the GCH becomes a statement just about ordinals or well-ordered sets. But then one could argue such a generalized continuum hypothesis is not as general or strong as it might be, since not all sets can be well-ordered using ZF alone. The more general statement would say that if there are monomorphisms $X \to Y$ and $Y \to P(X)$ for infinite sets $X$ and $Y$, then $Y$ is bijective with one of $X, P(X)$. 
 
 For example, Sierpi&#324;ski proved that over ZF, the generalized continuum hypothesis implies AC. (See [[Hartogs number]].) For this result, he certainly used the stronger formulation. 
+
+In weakly predicative mathematics, power sets do not exist, so the stronger version of the continuum hypothesis for Dedekind real numbers would have to be rephrased in terms of the Sierpinski space $\mathbb{S}$ and function sets: if there are monomorphisms $X \to Y$ and $Y \to \mathbb{S}^X$ for infinite sets $X$ and $Y$, then $Y$ is bijective with one of $X, \mathbb{S}^X$, or equivalently the version involving natural numbers and function sets: if there are monomorphisms $X \to Y$ and $Y \to \mathbb{N}^X$ for infinite sets $X$ and $Y$, then $Y$ is bijective with one of $X, \mathbb{N}^X$. 
 =-- 
 
 ## Generalization: Easton's theorem 
