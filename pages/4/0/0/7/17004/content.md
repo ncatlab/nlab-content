@@ -274,8 +274,7 @@ The concept of stable Cohomotopy as such:
 
 * {#Adams74} [[Frank Adams]], part III, section 6, p. 204 of: _[[Stable homotopy and generalised homology]]_, 1974
 
-* [[John Rognes]], p. 1 of: _The sphere spectrum_, 2004 
-([[RognesSphereSpectrum.pdf:file]])
+* [[John Rognes]], p. 1 of: _The sphere spectrum_, 2004 ([[RognesSphereSpectrum.pdf:file]])
 
 Discussion of stable Cohomotopy as [[framed manifold|framed]] [[cobordism cohomology theory]]:
 
