@@ -35,9 +35,11 @@ On the [[Kahn-Priddy theorem]] (and a pre-cursor of [[Snaith's theorem]]):
 
 * {#Segal73} [[Graeme Segal]], _The stable homotopy of complex of projective space_, The quarterly journal of mathematics (1973) 24 (1): 1-5. ([[Segal72.pdf:file]], [doi:10.1093/qmath/24.1.1]( https://doi.org/10.1093/qmath/24.1.1))
 
-On [[K-theory of permutative categories]] and [[Gamma spaces]] as models for [[connective spectra]]:
+On [[K-theory of permutative categories]], [[Gamma spaces]] as models for [[connective spectra]], and the identification of [[stable Cohomotopy]] with the [[K-theory of a permutative category|K-theory]] of [[finite sets]]:
 
-* [[Graeme Segal]], _Categories and cohomology theories_, Topology 13 (1974).
+* {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>, [pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
+
+
 
 On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
 
