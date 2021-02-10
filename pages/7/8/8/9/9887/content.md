@@ -26,7 +26,7 @@ $$
   \,.
 $$
 
-Later more instances of such characterizations of familiar [[E-∞ rings]] have been given:
+Later, further instances of such characterizations of familiar [[E-∞ rings]] have been given:
 
 * in ([Gepner-Snaith 08](#GepnerSnaith08)) the analogous statement for [[algebraic K-theory]] is formulated in terms of [[motivic spectra]];
 
