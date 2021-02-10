@@ -33,7 +33,7 @@ In a ring, absorption follows from distributivity, since $0\cdot x + 0\cdot x = 
 
 More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in abelian monoids and a semiring is a monoid object in abelian [[semigroup]]s, where abelian groups, abelian monoids and abelian semigroups have suitable monoidal structures (they are not the cartesian ones).
 
-Equivalently, a semiring is the [[hom-set]] of of a [[semicategory]] with a single object that is [[enriched category|enriched]] in [[Ab]].
+Equivalently, a semiring is the [[hom-set]] of a category with a single object that is [[enriched category|enriched]] in the category of abelian [[semigroup]]s.
 
 ### Further weakening
 
