@@ -19,7 +19,7 @@
 
 ## Idea
 
-Abelianisation is the process of [[free functor|freely]] making an [[algebraic structure]] 'abelian'. There are several notions of abelianizations for various algebraic structures.
+Abelianisation is the process of [[free functor|freely]] making an [[algebraic structure]] 'abelian'. There are several notions of abelianizations for various algebraic structures, notably there is the abelianization of [[non-abelian groups]] to [[abelian groups]].
 
 There is also [[Verdier's abelianization functor]] from a [[triangulated category]] to an [[abelian category]] with some universal property; this is treated in a separate entry.  
 
