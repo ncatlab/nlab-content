@@ -46,7 +46,7 @@ Pointed model categories which are [[stable model category|stable]]:
 
 * [[homotopy cofiber]]
 
-* [[pointed category]]
+* [[pointed category]], [[pointed (∞,1)-category]]
 
 * [[linear model category]]
 
