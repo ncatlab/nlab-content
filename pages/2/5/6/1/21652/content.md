@@ -41,9 +41,9 @@ where
 
 * $GL(n,K)$ is the [[group]] of $n \times n$ [[invertible  matrices]] with entries in $K$, 
 
-* $K^\times = GL(1,K)$ is the [[group of units]] of $K$, 
+* $K^\times = GL(1,K)$ is the [[group of units]] of $K$, and
 
-* and $G/[G,G]$ is the [[abelianization]] of the group $G$.  
+* $G/[G,G]$ is the [[abelianization]] of the group $G$.  
 
 Moreover, this group homomorphism (eq:TheGroupHomomorphism)
 is uniquely determined by the following properties:
@@ -67,7 +67,7 @@ gives the **Dieudonné determinant**
 
 \[
   \label{TheDieudonneDeterminant}
-  det_{Dieu}
+  det_{D}
   \,\coloneqq\,
   q \circ \alpha
    \;\colon\; 
@@ -79,7 +79,7 @@ gives the **Dieudonné determinant**
 
 ## The quaternionic case
 
-In the case that $K = \mathbb{H}$ is the [[quaternions]], we have a group isomorphism 
+In the case that $K$ is the ring of [[quaternions]], $\mathbb{H}$, we have a group isomorphism 
 
 $$ 
   \mathbb{H}^\times 
@@ -92,13 +92,13 @@ $$
  \mathbb{R}_{\gt 0} 
 $$
 
-where $\mathbb{R}_{\gt 0}$ is made into a group using [[multiplication]] of [[real numbers]], coming from the fact that now the [[commutator subgroup]] $[\mathbb{H}^\times, \mathbb{H}^\times] $ is the group [[Sp(1)]] of unit quaternions $q$ with $|q| = 1$, and that any invertible quaternion can uniquely be written as $a q$ where $a \in \mathbb{R}_{\gt 0}$ and $\left\vert q \right\vert = 1$.  
+where $\mathbb{R}_{\gt 0}$ is made into a group using [[multiplication]] of [[real numbers]], coming from the fact that now the [[commutator subgroup]] $[\mathbb{H}^\times, \mathbb{H}^\times] $ is the group [[Sp(1)]] of quaternions $q$ with $|q| = 1$, and that any invertible quaternion can uniquely be written as $a q$ where $a \in \mathbb{R}_{\gt 0}$ and $\left\vert q \right\vert = 1$.  
 
 Thus, in this case we can write the Dieudonné determinant (eq:TheDieudonneDeterminant)
 more concretely as a [[group homomorphism]] of the form
 
 $$ 
-  det_{Dieu} 
+  det_{D} 
     \,\colon\, 
   GL(n,\mathbb{H}) 
     \longrightarrow 
@@ -106,11 +106,11 @@ $$
   \,.
 $$
 
-Furthermore, for any $n \times n$ quaternionic matrix $T$ that is not invertible, setting $det(T) \coloneqq 0$  [[extension|extends]] the Dieudonné determinant to a [[function]] of the form
+Furthermore, for any $n \times n$ quaternionic matrix $T$ that is not invertible, setting $det_D(T) \coloneqq 0$  [[extension|extends]] the Dieudonné determinant to a [[function]] of the form
 
 \[
   \label{DieudonneDetOverQuaternions}
-  det_{Dieu} 
+  det_{D} 
     \;\colon\;
   M_n(\mathbb{H}) 
     \longrightarrow 
@@ -122,12 +122,12 @@ where $\mathrm{M}_n(\mathbb{H})$ is now the full [[matrix algebra]] of $n \times
 
 \[
   \label{QuaternionicDieudonneIsMonoidHomomorphism}
-  det_{Dieu}(S T) 
+  det_{D}(S T) 
     \,=\,
-  det_{Dieu}(S) 
-  det_{Dieu}(T), 
+  det_{D}(S) 
+  det_{D}(T), 
    \qquad 
-  det_{Dieu}(1) = 1 
+  det_{D}(1) = 1 
   \,.
 \]
 
@@ -137,27 +137,27 @@ There is another notion of determinant for [[quaternion|quaternionic]] [[matrice
 
  Any matrix $T \in \mathrm{M}_n(\mathbb{H})$ determines by right multiplication a [[homomorphism]] of left $\mathbb{H}$-[[modules]] $T \colon \mathbb{H}^n \to \mathbb{H}^n$.  Choosing any element $i \in \mathbb{H}$ with $i^2 = -1$ gives $\mathbb{H}^n$ the structure of a left $\mathbb{C}$-module: indeed, a [[complex vector space]] of dimension $2n$.  In this way we can identify $T \colon \mathbb{H}^n \to \mathbb{H}^n$ with a [[complex numbers|complex]]-[[linear transformation]] of a complex vector space, and define its [[determinant]] in the usual way for such a transformation.  
 
-This determinant turns out not to depend on the choice of $i \in \mathbb{H}$ with $i^2 = -1$, and it is called the **Study determinant** $sdet(T)$.  
+This determinant turns out not to depend on the choice of $i \in \mathbb{H}$ with $i^2 = -1$, and it is called the **Study determinant** $det_S(T)$.  
 
 It clearly obeys
 
-$$  sdet(S T) = sdet(S) sdet(T), \qquad sdet(1) = 1 
+$$  det_S(S T) = det_S(S) det_S(T), \qquad det_S(1) = 1 
   \,.
 $$
 
-*A priori* this is complex-valued, but in fact one can show (see [Arlaksen 96](#Arlaksen96)) that
+*A priori* it is complex-valued, but in fact one can show (see [Arlaksen 96](#Arlaksen96)) that
 
 $$ 
-  sdet(T) = det_{Dieu}(T)^2 
+  det_{S}(T) = det_{D}(T)^2 
   \,,
 $$
 
 where the determinant on the right is the Dieudonné determinant (eq:DieudonneDetOverQuaternions), and hence real-valued.   
 
-Thus, by (eq:QuaternionicDieudonneIsMonoidHomomorphism), also the Study determinant on $n \times n$ quaternionic matrices defines a monoid homomorphism
+Thus, by (eq:QuaternionicDieudonneIsMonoidHomomorphism), the Study determinant on $n \times n$ quaternionic matrices defines a monoid homomorphism
 
 $$ 
-  sdet 
+  det_{S} 
     \;\colon\;
   GL(n,\mathbb{H}) 
    \longrightarrow 
