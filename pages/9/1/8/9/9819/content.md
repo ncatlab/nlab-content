@@ -82,7 +82,9 @@ More is in
 
 * [[Jean-Pierre Serre]], _Propri&#233;t&#233;s conjecturales des groups de Galois motiviques et des repr&#233;sentations l-adiques_, in U. Jannsen, S. Kleiman, J.-P. Serre (eds)  _Motives_, Proceedings of Symposia in Pure Mathematics, AMS, vol. 55, part 1, 377 - 400 (1994).
 
-* [[Yves André]], _Groupes de Galois motiviques et p&#233;riodes_, ([pdf](http://www.bourbaki.ens.fr/TEXTES/1104.pdf)), S&#233;minaire Bourbaki, 68&#232;me ann&#233;e, 2015-2016 n&#176;1104.
+* [[Yves André]], _Groupes de Galois motiviques et p&#233;riodes_, [pdf](http://www.bourbaki.ens.fr/TEXTES/1104.pdf), S&#233;minaire Bourbaki, 68&#232;me ann&#233;e, 2015-2016 n&#176;1104.
+
+* [[Yves André]], _What is...a motivic Galois group_, writeup of a seminar, [pdf](https://www.him.uni-bonn.de/fileadmin/him/Lecture_Notes/motivic_Galois_group.pdf)
 
 * AB Goncharov, _Polylogarithms and Motivic galois groups_, ([pdf](http://users.math.yale.edu/users/ag727/polylog.pdf)).
 
