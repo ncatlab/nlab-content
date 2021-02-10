@@ -33,6 +33,10 @@ More generally, a _pointed (∞,1)-category_ could be taken to be a [[pointed ob
 
 * [[stable (∞,1)-category]]
 
+* [[zero morphism]], [[null homotopy]]
+
+* [[based loop space object]], [[reduced suspension object]]
+
 * [[Toda bracket]]
 
 ## References
