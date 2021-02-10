@@ -98,35 +98,24 @@ of sorts.
 
 ### Relationship to Many-Sorted Algebraic Theories ###
 
-A [many-sorted algebraic theory](http://ncatlab.org/nlab/show/algebraic+theory#multisorted_algebraic_theories_20) is a GAT whose algebraic theory of sorts has no equations and no operations of arity greater than zero (i.e., has only constants).
+A [many-sorted algebraic theory](algebraic+theory#multisorted_algebraic_theories) is a GAT whose algebraic theory of sorts has no equations and no operations of arity greater than zero (i.e., has only constants).
 
 ### Relationship to Essentially Algebraic Theories ###
 
-Cartmell's paper explains how, for every GAT there is an EAT with the
-same models and for every EAT there is a GAT with the same models.  In
-this sense they are more or less equivalent in descriptive power.
+Cartmell's paper explains how for every GAT there is an [[essentially algebraic theory]] (EAT) with the same models and for every EAT there is a GAT with the same models. In this sense they are more or less equivalent in descriptive power.
 
-Cartmell (sec 6)compares essentially algebraic theories to [[Cartesian logic]].
+Cartmell's paper (in section 6) compares EAT's to [[Cartesian logic]].
 
-However (not in Cartmell's paper), there is no notion in the world of
-EAT's equivalent to a "GAT without sort equations".  This is relevant
-because it yields an interpretation result.  Just as the theory of
-finite-limit categories is an EAT, and one can interpret any EAT in a
-finite-limit category, so too is the theory of monoidal categories a
-GAT without sort equations, and one can interpret any[^any] GAT without sort
+However (not in Cartmell's paper), there is no notion in the world of EAT's equivalent to a "GAT without sort equations". This is relevant because it yields an interpretation result.  Just as the theory of finite-limit categories is an EAT, and one can interpret any EAT in a finite-limit category, so too is the theory of monoidal categories a GAT without sort equations, and one can interpret any[^any] GAT without sort
 equations in a monoidal category.
 
-[^any]: The GAT of monoidal categories (without dom+cod) has a nice property: the argument and result sorts of $comp$ are all the same, and we can get away with using the unit object $I$ of the interpreting category for all sorts of supersort $Ob$.  I need to explain how to interpret GATs which lack this property -- those which have more than one supersort with nontrivial sorts.  Here's a sketch: just as in the "nice" case the interpreting monoidal category $V$ will have an object for each sort of the GAT.  Now construct a monoidal category $K$ with an object for each supersort and a morphism for each of the operations in the algebraic theory of sorts.  If $V'$ is the subcategory of $V$ which does the interpretation, there ought to be a [Grothendieck-Street Fibration](Grothendieck+fibration) of $V'$ over $K$ with the fibration functor sending each sort ($V$-object) to its supersort ($K$-object).
+[^any]: The GAT of monoidal categories (without $dom$ and $cod$) has a nice property: the argument and result sorts of $comp$ are all the same, and we can get away with using the unit object $I$ of the interpreting category for all sorts of supersort $Ob$.  I need to explain how to interpret GATs which lack this property --- those which have more than one supersort with nontrivial sorts.  Here's a sketch: just as in the "nice" case the interpreting monoidal category $V$ will have an object for each sort of the GAT.  Now construct a monoidal category $K$ with an object for each supersort and a morphism for each of the operations in the algebraic theory of sorts.  If $V'$ is the subcategory of $V$ which does the interpretation, there ought to be a [Grothendieck--Street Fibration](Grothendieck+fibration) of $V'$ over $K$ with the fibration functor sending each sort ($V$-object) to its supersort ($K$-object).
 
 ### Relationship to Enriched Categories ###
 
-When one interprets the EAT of categories in a [[finite-limit category]]
-$V$, the result is a $V$-[[internal category]].  When one interprets the
-GAT of categories in a monoidal category $V$, the result is an
-$V$-[[enriched category]].
+When one interprets the EAT of categories in a [[finite-limit category]] $V$, the result is a $V$-[[internal category]]. When one interprets the GAT of categories in a monoidal category $V$, the result is a $V$-[[enriched category]].
 
-The theory of internal categories is an essentially algebraic theory (specifically, the theory for which a model is a category with a designated category internal to it).  Likewise, the theory of enriched categories is a GAT without sort equations (specifically, the theory for which a model is a category with a category enriched in it).
-
+The theory of internal categories is an EAT (specifically, the theory for which a model is a category with a designated category internal to it).  Likewise, the theory of enriched categories is a GAT without sort equations (specifically, the theory for which a model is a category with a category enriched in it).
 
 ### Relationship to Type Theory ###
 
