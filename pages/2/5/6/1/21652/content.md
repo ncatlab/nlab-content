@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _Dieudonné determinant_ is a variant of the notion of [[determinant]] which applies to [[matrices]] with values in [[division rings]], such as the [[quaternions]]. It is crucial for making sense of the notion of "[[special linear group]]" over such coefficients, such as the group [[SL(2,H)]] over the [[quaternions]] 
+The _Dieudonné determinant_ is a variant of the notion of [[determinant]] which applies to [[matrices]] with values in [[division rings]], such as the [[quaternions]]. It is crucial for making sense of the notion of "[[special linear group]]" over such coefficients, such as the group [[SL(2,H)]] over the [[quaternions]].
 
 ## Definition
 
