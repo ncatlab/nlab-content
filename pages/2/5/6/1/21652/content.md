@@ -135,7 +135,7 @@ where $\mathrm{M}_n(\mathbb{H})$ is now the full [[matrix algebra]] of $n \times
 
 There is another notion of determinant for [[quaternion|quaternionic]] [[matrices]], the **Study determinant**, defined as follows:
 
- Any matrix $T \in \mathrm{M}_n(\mathbb{H})$ determines by right multiplication a [[homomorphism]] of left $\mathbb{H}$-[[modules]] $T \colon \mathbb{H}^n \to \mathbb{H}^n$.  Choosing any element $i \in \mathbb{H}$ with $i^2 = -1$ gives $\mathbb{H}^n$ the structure of a left $\mathbb{C}$-module: indeed, a [[complex vector space]] of dimension $2n$.  In this way we can identify $T \colon \mathbb{H}^n \to \mathbb{H}^n$ with a [[complex numbers|complex]]-[[linear transformation]] of a complex vector space, and define its [[determinant]] in the usual way for such a transformation.  
+Any matrix $T \in \mathrm{M}_n(\mathbb{H})$ determines by right multiplication a [[homomorphism]] of left $\mathbb{H}$-[[modules]] $T \colon \mathbb{H}^n \to \mathbb{H}^n$.  Choosing any element $i \in \mathbb{H}$ with $i^2 = -1$ gives $\mathbb{H}^n$ the structure of a left $\mathbb{C}$-module: indeed, a [[complex vector space]] of dimension $2n$.  In this way we can identify $T \colon \mathbb{H}^n \to \mathbb{H}^n$ with a [[complex numbers|complex]]-[[linear transformation]] of a complex vector space, and define its [[determinant]] in the usual way for such a transformation.  
 
 This determinant turns out not to depend on the choice of $i \in \mathbb{H}$ with $i^2 = -1$, and it is called the **Study determinant** $det_S(T)$.  
 
@@ -145,23 +145,23 @@ $$  det_S(S T) = det_S(S) det_S(T), \qquad det_S(1) = 1
   \,.
 $$
 
-*A priori* it is complex-valued, but in fact one can show (see [Arlaksen 96](#Arlaksen96)) that
+*A priori* it is complex-valued, but in fact it takes nonnegative real values, because one can show ([Arlaksen 96](#Arlaksen96)) that
 
 $$ 
   det_{S}(T) = det_{D}(T)^2 
   \,,
 $$
 
-where the determinant on the right is the Dieudonné determinant (eq:DieudonneDetOverQuaternions), and hence real-valued.   
+where the determinant on the right is the Dieudonné determinant (eq:DieudonneDetOverQuaternions). 
 
 Thus, by (eq:QuaternionicDieudonneIsMonoidHomomorphism), the Study determinant on $n \times n$ quaternionic matrices defines a monoid homomorphism
 
 $$ 
   det_{S} 
     \;\colon\;
-  GL(n,\mathbb{H}) 
+  M_n(\mathbb{H}) 
    \longrightarrow 
-  \mathbb{R}_{\gt 0} 
+  \mathbb{R}_{\ge 0} 
 $$
 
 which contains exactly as much information as the Dieudonné determinant.
