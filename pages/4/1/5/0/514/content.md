@@ -22,7 +22,7 @@ A [[category]] is sometimes called __pointed__ if it has a [[zero object]] (e.g.
 
 Every category of [[pointed objects]] is a pointed category in this sense, and this is probably the motivation for the terminology. 
 
-Beware that the concept of _[[pointed objects]] in [[Cat]]_, which may also be called "pointed categories" is more general and more restricted: these are categories with any one [[object]] singled out, with [[functors]] between them preserving these objects.
+Beware that the concept of _[[pointed objects]] in [[Cat]]_, which may also be called "pointed categories" is more general and more restricted: these are categories with any one [[object]] singled out, and with [[functors]] between them required to preserve these objects.
 
 Beware also that the concept of _[[well-pointed topos]]_ is unrelated.
 
@@ -40,6 +40,8 @@ Every [[locally small category|locally small]] pointed category is naturally  [[
   * [[linear model category]]
 
   * [[stable model category]]
+
+* [[pointed (infinity,1)-category]]
 
 ## References
 
