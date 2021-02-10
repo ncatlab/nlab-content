@@ -17,31 +17,189 @@
 * table of contents
 {:toc}
 
+
 ## Idea
+  {#Idea}
 
-In [[abelian categories]] one talks of [[chain complexes]]; and in that context a composable pair $ A \to B \to C $ is null iff $ B \to C $ factors through the [[cokernel]] $ B/(A) $:
-$$ \begin{array}{ccccc}
-A & \to & B \\
-\downarrow &  & \downarrow & \searrow \\
-0 & \to & B/(A) & \to & C
-\end{array}
+Given a [[pointed (∞,1)-category]] $\mathcal{C}$ (such as that [[presentable (∞,1)-category|presented]] by the [[classical model structure on pointed topological spaces]]), the _Toda bracket_ ([Toda 62](#Toda62)) is the operation that takes a sequence of 3 [[composition|composable]] [[1-morphisms]]
+
 $$
-and so forth.  In a strict context, the factorization is unique.
+  X_0
+    \overset{\;\;f_1\;\;}{\longrightarrow}  
+  X_1
+    \overset{\;\;f_2\;\;}{\longrightarrow}  
+  X_2
+    \overset{\;\;f_3\;\;}{\longrightarrow}  
+  X_3
+$$
 
-In a pointed [[(∞,1)-category]] with [[(∞,1)-colimits]] of small [[1-truncated]] [[diagrams]], one may still consider factorizations through [[cofibers]]:
-$ A \to B \to C \sim * : A \to C $
-but now there is a choice to make, roughly parametrized by an [[action]] of $Map_* (\Sigma A, C)$.  This leads to interesting structure, describing (with upper bounds!) how trivially a particular sequence of arrows may compose.
+in $\mathcal{C}$, equipped with a [[pair]] of overlapping [[null homotopies]] (of the [[composition|composite]] of either consecutive pair among these morphisms)
 
-To begin, consider a sequence of maps $ A_0 \to A_1 \to A_2 \to A_3 $.  If the composites $A_0 \to A_2 $ and $ A_1\to A_3$ are nulhomotopic, then one has a diagram
+\begin{xymatrix@C=15pt}
+  X_0
+  \ar[rr]
+    |-{ \;f_1\; }
+  \ar@/^2.6pc/[rrrr]
+    ^-{0}
+    _-{\ }="s1"
+  &&
+  X_1
+  \ar[rr]
+    |-{ \;f_2\; }
+  \ar@/_2.6pc/[rrrr]
+    _-{0}
+    ^-{\ }="t2"
+  &&
+  X_2
+  \ar[rr]
+    |-{ \;f_3\; }
+  &&
+  X_3
+  %
+  \ar@{=>} 
+    "t2"+(0,+6); "t2"
+    ^-{ \phi_2 }
+  \ar@{=>}
+    "s1"; "s1"+(0,-6)
+    ^-{ \phi_1 }
+\end{xymatrix}
+
+to the equivalence class of their [[pasting diagram|pasting]]-composite
+
+\begin{xymatrix@=15pt}
+  &&
+  &&
+  X_0
+  \ar[dd]
+    _-{ f_1 }
+    ^>>{\ }="t1"
+  \ar[rr]
+    _>>{\ }="s1"
+  &&
+  0
+  \ar[dd]
+  \\
+  \\
+  X_0
+  \ar@/^2pc/[rr]
+    ^-{ 0 }
+    _-{\ }="ss"
+  \ar@/_2pc/[rr]
+    _-{ 0 }
+    ^-{\ }="tt"
+  &{\phantom{AAAA}}&
+  X_3
+  &
+  :=
+  &
+  X_1
+  \ar[dd]
+    ^>>{\ }="t2"
+  \ar[rr]
+    |-{ \;f_2\; }
+    _>>{\ }="s2"
+  &&
+  X_2
+  \ar[dd]
+  \\
+  \\
+  &&
+  &&
+  0 
+  \ar[rr]
+  &&
+  X_3
+  %
+  \ar@{=>} "s1"; "t1"
+    ^-{ \phi_1 }
+  \ar@{=>} "s2"; "t2"
+    ^-{ \phi_2 }
+  \ar@{=>} 
+    "ss"; "tt"
+    |-{
+      \mathclap{\phantom{\vert^{\vert}}}
+      \scalebox{.6}{$
+        \big\langle
+          f_1, f_2, f_3
+        \big\rangle_{(\phi_1,\phi_2)}
+      $}
+      \mathclap{\phantom{\vert_{\vert}}}
+    }
+\end{xymatrix}
+
+Specifically,
+
+* if $\mathcal{C}$ admits [[finite (∞,1)-colimits]] or at least [[reduced suspensions]] $\Sigma(-)$ ([[homotopy cofibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] induces a [[1-morphism]]
+
+  $$
+    \Sigma X_0
+      \overset{
+        \big\langle
+          f_1, f_2, f_3
+        \big\rangle_{(\phi_1,\phi_2)}
+      }
+      {\longrightarrow}
+    X_3
+  $$
+
+* if $\mathcal{C}$ admits [[finite (∞,1)-limits]] or at least [[based loop space objects]] $\Omega(-)$ ([[homotopy fibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] induces a [[1-morphism]]
+
+  $$
+    X_0
+      \overset{
+        \big\langle
+          f_1, f_2, f_3
+        \big\rangle_{(\phi_1,\phi_2)}
+      }
+      {\longrightarrow}
+    \Omega X_3
+    \,,
+  $$
+
+or both, as we shall assume for ease of notation,
+then the Toda bracket is the [[homotopy class]] of this 1-morphism in the [[homotopy category of an (infinity,1)-category|homotopy category]]:
+
+\[
+  \label{TheTodaBracketDependingOnTheNullHomotopies}
+  \big\langle
+    f_1, f_2, f_3
+  \big\rangle_{(\phi_1,\phi_2)}
+  \;\;
+  \in
+  \;\;
+  Ho(\mathcal{C})
+  \big(
+    \Sigma X_0, X_3
+  \big)
+  \;\simeq\;
+  Ho(\mathcal{C})
+  \big(
+    X_0, \Omega X_3
+  \big)
+  \,.
+\]
+
+Or rather, traditionally authors want a result that is independent of the choice of [[null homotopies]] $(\phi_1,\phi_2)$ and thus regard (eq:TheTodaBracketDependingOnTheNullHomotopies) in a suitable [[quotient set]] of
+$
+  Ho(\mathcal{C})
+  \big(
+    X_0, \Omega X_3
+  \big)
+$
+where this dependence is quotiented out.
+
+The Toda bracket may be thought of as being in [[homotopy theory]] what the [[Massey product]] is in [[cohomology theory]]. In this sense it is a "[[secondary characteristic class|secondary]] invariant", which exists when/since "primary invariants" -- namely the [[homotopy classes]] of the morphisms $f_2 \circ f_1$ and $f_3\circ f_2$ -- vanish, as witnessed by the null homotopies.
+
+
+## Preliminaries
+
+Consider a sequence of maps $ A_0 \to A_1 \to A_2 \to A_3 $.  If the composites $A_0 \to A_2 $ and $ A_1\to A_3$ are nulhomotopic, then one has a diagram
 $$\begin{array}{ccccc}
 A_0 & \to & A_1 & \to & * \\
 \downarrow & & \downarrow & & \downarrow \\
 * & \to & A_2 & \to & A_3
 \end{array} $$
 any choice of homotopies in the two squares gives a map $ \Sigma A_0 \to A_3 $.
-
-
-## Preliminaries
 
 
 Define $C$ and $D$ to be the cofibers of $A_0 \to A_1$ and $A_1\to A_2$, respectively. A choice of homotopy $ A_0 \to A_2 \sim 0 $ corresponds to a choice of factorization $ A_1 \to C \to A_2 $, which gives a diagram of pushout squares
@@ -93,7 +251,7 @@ In ([Cohen, 1968](#Cohen)) is given a criterion for stable maps of spheres to in
 
 The concept of Toda brackets is due to:
 
-* [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Volume 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t))
+* {#Toda62} [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Volume 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t))
 
 Higher Toda brackets were introduced in:
 
