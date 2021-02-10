@@ -196,9 +196,15 @@ $$
 
 [[!redirects loop space object]]
 [[!redirects loop space objects]]
+
 [[!redirects loop object]]
 [[!redirects loop objects]]
 [[!redirects loop space functor]]
 [[!redirects loop space functors]]
 [[!redirects loop functor]]
 [[!redirects loop functors]]
+
+[[!redirects based loop space object]]
+[[!redirects based loop space objects]]
+
+
