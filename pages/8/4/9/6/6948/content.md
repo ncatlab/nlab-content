@@ -31,7 +31,7 @@ Note that it is quite possible that $\phi a$ may be provable (in a given [[conte
 
 We work in a [[logic]] in which we are concerned with which [[propositions]] entail which propositions (in a given [[context]]); in particular, two propositions which entail each other are considered equivalent.
 
-Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __universal quantification__ of $P$ is any proposition $\forall\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
+Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening rule]] that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __universal quantification__ of $P$ is any proposition $\forall\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
 
 *  $Q \vdash_{\Gamma}\forall\, x\colon T, P$ if and only if $Q[\hat{x}] \vdash_{\Gamma, x\colon T} P$.
 
