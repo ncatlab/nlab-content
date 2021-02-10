@@ -208,7 +208,7 @@ Under the equivalence to [[sequential spectra]] in prop. \ref{SpectraAsExcisiveF
 ### Characterization via a generic stable object
  {#CharacterizationViaAGenericStableObject}
 
-We discuss a characterization of excisive functors on $\infty Grpd_{fin}^{\ast/}$, hence of [[parameterized spectra]], as the result of [[forcing]] a generic pointed object to become a [[stable homotopy type]]. This general perspective is being highlighted by [Anel-Finster-Joyal](#AnelFinsterJoyal).
+We discuss a characterization of excisive functors on $\infty Grpd_{fin}^{\ast/}$, hence of [[parameterized spectra]], as the result of [[forcing]] a generic pointed object to become a [[stable homotopy type]]. This general perspective is being highlighted by [Anel-Biederman-Finster-Joyal](#AnelBiedermanFinsterJoyal17b).
 
 For a slick formulation, we use a generalization of [[powering]] to pointed powers:
 
@@ -363,7 +363,7 @@ A [[model structure for excisive functors]] was given in
    
 Discussion in terms of [[stable homotopy types]] is due to 
 
-* {#AnelFinsterJoyal} [[Mathieu Anel]], [[Eric Finster]], [[André Joyal]], in preparation
+* {#AnelBiedermanFinsterJoyal17b} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _Goodwillie's Calculus of Functors and Higher Topos Theory_ ([arXiv:1703.09632](https://arxiv.org/abs/1703.09632))
 
 [[!redirects excisive (∞,1)-functors]]
 
