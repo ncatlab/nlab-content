@@ -1,4 +1,4 @@
-In the noncommutative case, [[determinant]]s are not useful invariants of [[matrix|matrices]] (in fact, various classical formulas for determinants mutually disagree over noncommutative [[ring]]s) and other [[polynomial]] suggestions were not of much success (in some cases the [[superdeterminant]] and Dieudonn&#233;'s determinant are of use, but they can be easily expressed in terms of quasideterminants anyway). Quasideterminants will be [[noncommutative rational function]]s, rather than polynomial, expressions. 
+In the noncommutative case, [[determinant]]s are not useful invariants of [[matrix|matrices]] (in fact, various classical formulas for determinants mutually disagree over noncommutative [[ring]]s) and other [[polynomial]] suggestions were not of much success (in some cases the [[superdeterminant]] and [[Dieudonné determinant]] are of use, but they can be easily expressed in terms of quasideterminants anyway). Quasideterminants will be [[noncommutative rational function]]s, rather than polynomial, expressions. 
 
 
 ## Definition
@@ -30,7 +30,6 @@ Quasideterminants for a matrix with entries in a commutative ring $R$ are, up to
 ratios of the determinant of the matrix and the determinant
 of the appropriate $(n-1)\times (n-1)$ submatrix, as one can see by remembering the formula for matrix inverse in terms of the cofactor matrices. For systems of linear equations with coefficients (from one side) in a noncommutative ring, there are solution formulas involving quasideterminants and generalizing Cramer's rule (hence left and right Cramer's rule). Quasideterminants with generic entries (entries in a free skewfield) satisfy generalizations of many classical identities: Muir's law of extensionality, Silvester's law, etc., and a new "heredity" principle and so-called "homological identities". Furthermore, for polynomial equations over noncommutative rings, noncommutative Viete's formulas have been found and used in applications.
 
-
 ## References
 
 Quasideterminants were introduced by I. Gel'fand and V. Retakh around 1990. 
@@ -40,12 +39,12 @@ engl. transl. __21__ (1991), pp. 51--58.
 
 * I.M. Gel'fand, V.S. Retakh, A theory of noncommutative determinants and characteristic functions of graphs, Funct.Anal.Appl. __26__ (1992), no.4, pp. 231--246.
 
-* I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_, Selecta Mathematica, New Series 3 (1997) no.4, pp. 517--546;
+* I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_, Selecta Mathematica, N. S. 3 (1997) no.4, pp. 517--546; [doi](https://doi.org/10.1007/s000290050019)
 
 * D.Krob, B.Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm.Math.Phys. 169 (1995), pp. 1--23 [doi](https://doi.org/10.1007/BF02101594)
 
 * Chapter 16: Quasideterminants and Cohn localization in [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series 330, ed.  A. Ranicki; pp. 220--313, [arXiv:math.QA/0403276](http://arxiv.org/abs/math/0403276))
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 [pdf](http://castellet.cat/Publications/quaderns/Quadern41.pdf) 
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 [pdf](http://castellet.cat/Publications/quaderns/Quadern41.pdf); citeseer cashed [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf)
 
 category: algebra
 [[!redirects quasideterminants]]
