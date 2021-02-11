@@ -144,7 +144,7 @@ where
 
 * $at(P) = (T P)/G$ is the **Atiyah Lie algebroid**
 
-* $T X$ is the [[Lie algebroid|tangent Lie algebroid]].
+* $T X$ is the [[tangent Lie algebroid]].
 
 Indeed, a splitting $\nabla_{flat} : T X \to at(P)$ of this sequence in the category of [[Lie algebroid]]s is precisely again a flat connection on $P$ and integrates under [[Lie integration]] to the splitting of $At'(P)$ discussed above.
 
@@ -162,6 +162,8 @@ One can describe non-flat connections without leaving the context of Lie algebro
   * [[Courant Lie 2-groupoid]], [[Courant Lie 2-algebroid]]
 
   * [[quantomorphism group]], [[quantomorphism n-group]]
+
+* [[Schauenburg bialgebroid]] (analogue for affine noncommutative principal bundles)
 
 [[!include higher Atiyah groupoid - table]]
 
