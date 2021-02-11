@@ -147,27 +147,29 @@ $
 $
 that _classifies_ this [[homotopy]], via the [[universal property]] of [[homotopy fibers]]/[[homotopy cofibers]]:
 
-* if $\mathcal{C}$ admits [[finite (∞,1)-colimits]] or at least [[reduced suspensions]] $\Sigma(-)$ ([[homotopy cofibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] induces a [[1-morphism]]
+* if $\mathcal{C}$ admits [[finite (∞,1)-colimits]] or at least [[reduced suspensions]] $\Sigma(-)$ ([[homotopy cofibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] correspondes to  a  [[1-morphism]] of the form:
 
   $$
-    \Sigma X_0
+     \Sigma X_0
       \overset{
-        \big\langle
-          f_1, f_2, f_3
-        \big\rangle_{(\phi_1,\phi_2)}
+        \vdash 
+        (\phi_2 \cdot f_1)
+          \circ
+        (f_3 \cdot \phi_1)
       }
       {\longrightarrow}
     X_3
   $$
 
-* if $\mathcal{C}$ admits [[finite (∞,1)-limits]] or at least [[based loop space objects]] $\Omega(-)$ ([[homotopy fibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] induces a [[1-morphism]]
+* if $\mathcal{C}$ admits [[finite (∞,1)-limits]] or at least [[based loop space objects]] $\Omega(-)$ ([[homotopy fibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] corresponds  to a [[1-morphism]] of  the form
 
   $$
     X_0
       \overset{
-        \big\langle
-          f_1, f_2, f_3
-        \big\rangle_{(\phi_1,\phi_2)}
+        \vdash 
+        (\phi_2 \cdot f_1)
+          \circ
+        (f_3 \cdot \phi_1)
       }
       {\longrightarrow}
     \Omega X_3
@@ -235,7 +237,7 @@ then the Toda bracket is the [[homotopy class]] of this 1-morphism in the [[homo
 
 Here the last [[pasting diagram]] on the bottom right shows the [[homotopy cofiber]]-construction equivalently realized via [[mapping cones]] (ordinary [[cofiber coproducts]] after [[cofibrant resolution|resolving]] points to [[cones]]), by which one may present the top [[homotopy coherent diagram]] in, for instance, any [[pointed model category|pointed]] [[cofibration category]]- or [[model category]]-[[presentable (infinity,1)-category|presentation]] of the [[pointed (∞,1)-category]] $\mathcal{C}$.
 
-(It is in this last form, by "consecutively extending maps over cones", that the Toda bracket was introduced in [Toda 62](#Toda62), and in which it is still presented in most references to date. The above [[homotopy coherent diagram|homotopy-diagrammatic]] formulation follows [[schreiber:M-Theory as Mf-Theory|SS21]]. If anyone knows of another citeable reference that presents the Toda bracket in this more abstract-homotopy/$(\infty,1)$-category theoretic way, then let's add the pointer here.)
+It is in this last form, by "consecutively extending maps over cones", that the Toda bracket was introduced in [Toda 62](#Toda62), and in which it is still presented in most references to date. The above formulation on the top, via [[homotopy coherent diagram|homotopy]]-[[pasting diagrams]], is made explicit in [Hardie-Kamps-Kieboom 99, (0.2)-(0.3)](#HardieKampsKieboom99), [Hardie-Marcum-Oda 01](#HardieMarcumOda01),  [Hardie-Kamps-Marcum 02, (2.2)](#HardieKampsMarcum02) (formalized there inside a [[homotopy 2-category]]).
 
 
 More precisely,  traditionally authors want the Toda bracket to be independent of the choice of [[null homotopies]] $(\phi_1,\phi_2)$ and thus regard (eq:TheTodaBracketDependingOnTheNullHomotopies) in a suitable [[quotient set]] of
@@ -354,7 +356,7 @@ If the Toda bracket for a bracket sequence includes the trivial map $\Sigma^{m+1
 
 By definition, if a sequence is a bracket sequence AND NOT a null-bracket sequence, it follows that all the relevant maps $\Sigma^{k} A_0 \to A_n$ are nontrivial.  Things like these Toda brackets have been studied by many _(FIXME: references later)_ and especially the length-three brackets used by H. Toda to describe most of $\pi_k \mathbb{S}^n$ for $k \lt 31$ or so.
 
-In ([Cohen, 1968](#Cohen68)) is given a criterion for stable maps of spheres to inhabit non-null Toda brackets; this turns out to be most of $\pi_* \mathbb{S}$, and furthermore the maps in the bracket sequences can be chosen from a very small set (_FIXME_: be more precise! degree maps $n \iota$, [[Hopf map]]s $\eta, \theta,\sigma$, and $\alpha_p$... )
+In ([Cohen, 1968](#Cohen68)) is given a criterion for stable maps of spheres to inhabit non-null Toda brackets; this turns out to be most of the [[stable homotopy groups of spheres]] $\pi_* \mathbb{S}$, and furthermore the maps in the bracket sequences can be chosen from a very small set (_FIXME_: be more precise! degree maps $n \iota$, [[Hopf map]]s $\eta, \theta,\sigma$, and $\alpha_p$... )
 
 ## Related concepts
 
@@ -368,16 +370,29 @@ The concept of Toda brackets is due to:
 
 * {#Toda62} [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Volume 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t))
 
-Higher Toda brackets were introduced in:
+and the concept of higher Toda brackets appears around
 
 * {#Cohen68} Joel Cohen, Section 2 of: _The decomposition of stable homotopy_, Annals of Mathematics (2) 87 (2): 305&#8211;320 (1968) ([doi:10.2307/1970586](https://doi.org/10.2307/1970586))
 
-Further discussion: 
+The conceptualization of Toda brackets a [[homotopy coherent diagram|homotopy coherent]] [[pasting diagrams]] in a [[pointed (infinity,1)-category|pointed]] [[homotopy 2-category]] is made explicit in:
+
+* {#HardieKampsKieboom99} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Rudger  Kieboom]], _Higher homotopy groupoids and Toda brackets_, Homology Homotopy Appl. Volume 1, Number 1 (1999), 117-134 ([euclid:hha/1139840198](https://projecteuclid.org/euclid.hha/1139840198))
+
+* {#HardieMarcumOda01} [[Keith Hardie]], [[Howard Marcum]], [[Nobuyuki Oda]], _Bracket operations in the homotopy theory of a 2-category_, Rend. Ist. Mat. Univ. Trieste 33, 19–70 (2001)
+
+* {#HardieKampsMarcum02} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Howard Marcum]], _The Toda bracket in the homotopy category of a track bicategory_, Journal of Pure and Applied Algebra Volume 175, Issues 1–3, 8 November 2002, Pages 109-133 (<a href="https://doi.org/10.1016/S0022-4049(02)00131-7">doi:10.1016/S0022-4049(02)00131-7</a>)
+
+* [[Howard Marcum]], [[Nobuyuki Oda]], _Long Box Bracket Operations in Homotopy Theory_, Appl Categor Struct 19, 137–173 ([doi:10.1007/s10485-009-9186-3](https://doi.org/10.1007/s10485-009-9186-3))
+
+See also:
+
+* [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) ([doi:10.1023/A:1007796409912](http://dx.doi.org/10.1023/A:1007796409912))
+
+
+Discussion for [[ring spectra]]:
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5.7 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-
-* [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) ([doi:10.1023/A:1007796409912](http://dx.doi.org/10.1023/A:1007796409912))
 
 * Boryana Dimitrova, _Universal Toda brackets of commutative ring spectra_, poster, Bonn 2010 ([pdf](http://www.math.uni-bonn.de/people/grk1150/YWT2010/YWT_Dimitrova.pdf))
 
