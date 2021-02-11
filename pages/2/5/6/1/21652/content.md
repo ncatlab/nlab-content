@@ -131,6 +131,10 @@ where $\mathrm{M}_n(\mathbb{H})$ is now the full [[matrix algebra]] of $n \times
   \,.
 \]
 
+## Draxl's Dieudonné predeterminant
+
+Draxl introduces a more primitive notion, Dieudonné predeterminant. Given a generic matrix $T$ over a skew-field one performs its [[Gauss decomposition]] in the form $T = U D L$ where $U$ is upper triangular unidiagonal, $D$ diagonal and $L$ lower triangular unidiagonal matrix, Dieudonné predeterminant $\delta\epsilon\tau(T)$ is the product of the entries of the diagonal part $D$ upside down. If the matrix is not generic, question of rank surface out and the appropriate Bruhat decomposition should be chosen instead. Dieudonné determinant is the image of $\delta\epsilon\tau(T)$ under the projection to the Abeliazation. It is well known that the Gauss decomposition of matrices over a noncommutative ring has an expression in terms of [[quasideterminant]]s, as shown by Gelfand and Retakh in their foundational papers around 1990. 
+
 ##  Relation to the Study determinant
 
 There is another notion of determinant for [[quaternion|quaternionic]] [[matrices]], the **Study determinant**, defined as follows:
@@ -188,7 +192,17 @@ See also:
 
 * Wikipedia, _[Dieudonné determinant](https://en.wikipedia.org/wiki/Dieudonn%C3%A9_determinant)_
 
-Further discussion:
+Comparison to [[quasideterminant]]s is in
+
+* [[Israel Gelfand]], Vladimir Retakh, Robert Lee Wilson, _Quaternionic quasideterminants and determinants_, [math.QA/0206211](https://arxiv.org/abs/math/0206211)
+
+* P. Draxl, _Skew fields_, London Math. Soc. Lecture notes __81__ (1983)
+
+For lectures on quasideterminants see 
+
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007; citeseer cashed [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf)
+
+Further on Dieudonné determinants:
 
 * {#CohenDeLeo99} Nir Cohen, Stefano De Leo, _The quaternionic determinant_, El. J. Lin. Alg. 7, 100-111 (2000) ([arXiv:math-ph/9907015](https://arxiv.org/abs/math-ph/9907015))
 
