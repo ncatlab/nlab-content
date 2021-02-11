@@ -77,32 +77,6 @@ gives the **Dieudonné determinant**
   \,. 
 \]
 
-
-## Draxl's pre-determinant
-  {#DraxlPredeterminant}
-
-[Draxl 83](#Draxl83) introduces a more primitive notion, the _Dieudonné predeterminant_:
-
-Given a generic (i.e.: invertible) matrix $T$ over a [[skew-field]], there is its [[Gauss decomposition]] in the form $T = U D L$ where 
-
-* $U$ is upper triangular unidiagonal, 
-
-* $D$ diagonal 
-
-* $L$ lower triangular unidiagonal matrix. 
-
-This is called the _strict Bruhat normal form_ of $T$ ([Draxl 83, Sec. 19, Thm. 1, Def. 1 (p. 128)](#Draxl83)).
-
-
-The _Dieudonné predeterminant_ $\delta\epsilon\tau(T)$ is the product of the entries of the diagonal part $D$ upside down ([Draxl 83, Sec. 20, Def. 1 (p. 133)](#Draxl83)). 
-
-If the matrix is not generic, question of rank surface out and the appropriate Bruhat decomposition should be chosen instead. 
-
-The Dieudonné determinant is then the image of $\delta\epsilon\tau(T)$ under the projection to the [[abelianization]] ([Draxl 83, Sec. 20, Cor. 1 (p. 135)](#Draxl83))
-
-It is well known that the Gauss decomposition of matrices over a noncommutative ring has an expression in terms of [[quasideterminants]], as shown by [Gelfand-Retakh 02](#GelfandRetakh02). 
-
-
 ## The quaternionic case
 
 In the case that $K$ is the ring of [[quaternions]], $\mathbb{H}$, we have a group isomorphism 
@@ -159,7 +133,7 @@ where $\mathrm{M}_n(\mathbb{H})$ is now the full [[matrix algebra]] of $n \times
 
 ##  Relation to the Study determinant
 
-There is another notion of determinant for [[quaternion|quaternionic]] [[matrices]], the **Study determinant**, defined as follows:
+There is another notion of determinant for [[quaternion|quaternionic]] [[matrices]], the **Study determinant**.  This turns out to be just the square of the Dieudonné determinant, but it often gives a more convenient way to compute the Dieudonné determinant.
 
 Any matrix $T \in \mathrm{M}_n(\mathbb{H})$ determines by right multiplication a [[homomorphism]] of left $\mathbb{H}$-[[modules]] $T \colon \mathbb{H}^n \to \mathbb{H}^n$.  Choosing any element $i \in \mathbb{H}$ with $i^2 = -1$ gives $\mathbb{H}^n$ the structure of a left $\mathbb{C}$-module: indeed, a [[complex vector space]] of dimension $2n$.  In this way we can identify $T \colon \mathbb{H}^n \to \mathbb{H}^n$ with a [[complex numbers|complex]]-[[linear transformation]] of a complex vector space, and define its [[determinant]] in the usual way for such a transformation.  
 
@@ -192,13 +166,45 @@ $$
 
 which contains exactly as much information as the Dieudonné determinant.
 
-##  Applications 
+## Examples and applications 
 
-The [[special linear group]] $\mathrm{SL}(n,\mathbb{H})$ over the [[quaternions]] (e.g. [[SL(2,H)]]) is defined to be the group of $n \times n$ quaternionic matrices for which the Dieudonné determinant equals 1, or equivalently for which the Study determinant equals 1.  
+Over any division ring, the Dieudonné determinant of an invertible $2 \times 2$ matrix has the following form:
 
-Though it is not immediately obvious, any quaternionic unitary matrix has Dieudonné determinant 1.  Thus the [[quaternionic unitary group]] [[Sp(n)]] is a subgroup of $\mathrm{SL}(n,\mathbb{H})$.  
+$$ \det \left({\begin{array}{cc} a & b \\ c & d \end{array}}\right) = 
+\left\lbrace{\begin{array}{ccc} [-c b] & \text{if } \; a = 0 \\ [a d - a c a^{-1}b] & \text{if } \; a \ne 0 \end{array}}\right. \, .$$
 
-Therefore, unlike the real and complex cases, there is no additional concept of "special unitary group" in the quaternionic case.
+Here $[x]$ stands for the equivalence class of $x \in K^\times$ in the abelianization $K^\times/[K^\times, K^\times]$.
+
+The [[special linear group]] $\mathrm{SL}(n,\mathbb{H})$ over the [[quaternions]] (e.g. [[SL(2,H)]]) is defined to be the group of $n \times n$ quaternionic matrices for which the Dieudonné determinant equals 1, or equivalently for which the Study determinant equals 1.    We can show that the [[quaternionic unitary group]] [[Sp(n)]] is a subgroup of $\mathrm{SL}(n,\mathbb{H})$, as follows.    So, unlike the real and complex cases, there is no additional concept of "special unitary group" in the quaternionic case.
+
+Every quaternionic unitary matrix is conjugate to a diagonal one since every element is conjugate to one in a maximal torus, $\mathrm{U}(n)$ contains a maximal torus of $\mathrm{Sp}(n)$, and every matrix in $\mathrm{U}(n)$ is conjugate to a diagonal one.   Thus, every $g \in Sp(n)$ is conjugate to one of the form $\mathrm{diag}(q_1, \dots, q_n)$ with $q_i \in \mathbb{C} \subset \mathbb{H}$ and $|q_i| = 1$ for all $i$.  By the defining properties of the Dieudonné determinant we have $det_D(\mathrm{diag}(q_1, \dots, q_n) = 1$, and since this determinant is invariant under conjugation we have $det_D(g) = 1$ for all $g \in Sp(n)$.  
+
+
+## Draxl's pre-determinant
+  {#DraxlPredeterminant}
+
+[Draxl 83](#Draxl83) introduces a more primitive notion, the _Dieudonné predeterminant_:
+
+Given a generic (i.e.: invertible) matrix $T$ over a [[skew-field]], there is its [[Gauss decomposition]] in the form $T = U D L$ where 
+
+* $U$ is upper triangular unidiagonal, 
+
+* $D$ diagonal 
+
+* $L$ lower triangular unidiagonal matrix. 
+
+This is called the _strict Bruhat normal form_ of $T$ ([Draxl 83, Sec. 19, Thm. 1, Def. 1 (p. 128)](#Draxl83)).
+
+
+The _Dieudonné predeterminant_ $\delta\epsilon\tau(T)$ is the product of the entries of the diagonal part $D$ upside down ([Draxl 83, Sec. 20, Def. 1 (p. 133)](#Draxl83)). 
+
+If the matrix is not generic, questions of rank appear, and the appropriate Bruhat decomposition should be chosen instead. 
+
+The Dieudonné determinant is then the image of $\delta\epsilon\tau(T)$ under the projection to the [[abelianization]] ([Draxl 83, Sec. 20, Cor. 1 (p. 135)](#Draxl83))
+
+It is well known that the Gauss decomposition of matrices over a noncommutative ring has an expression in terms of [[quasideterminants]], as shown by [Gelfand-Retakh 02](#GelfandRetakh02). 
+
+
 
 ## References
 
@@ -222,7 +228,7 @@ Comparison to [[quasideterminants]] is in
 
 For lectures on quasideterminants see 
 
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007; citeseer cashed [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf)
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf)
 
 Further on Dieudonné determinants:
 
