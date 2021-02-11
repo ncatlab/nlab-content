@@ -32,7 +32,7 @@ The _Dieudonné determinant_ is a variant of the notion of [[determinant]] which
   \alpha 
     \;\colon\;
   GL(n,K)/[GL(n,K), GL(n,K)] 
-   \xrightarrow{\;\;\sim\;\;} 
+   \longrightarrow
   K^\times/[K^\times, K^\times] 
   \,,
 \]
