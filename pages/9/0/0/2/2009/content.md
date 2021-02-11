@@ -27,10 +27,16 @@ The most famous noncommutative example is the skewfield of [[quaternions]].
 
 The [[Frobenius theorem]] states that apart from the fields of [[real number|real]] and [[complex numbers]] and quaternions, there are no associative finite-dimensional [[division algebras]] over the real numbers; and even if one includes nonassociative finite-dimensional division algebras one obtains only one more example (the [[octonions]]). See at _[[normed division algebra]]_ for more on this.
 
-
 ## Related concepts
 
 * [[division algebra]]
+
+* [[Dieudonné determinant]]
+
+## References
+
+* [[Peter Draxl]], _Skew fields_, London Math. Soc. Lecture notes __81__, Cambridge University Press 1983 ([doi:10.1017/CBO9780511661907](https://doi.org/10.1017/CBO9780511661907), ISBN:9780511661907)
+
 
 [[!redirects division ring]]
 [[!redirects division rings]]
