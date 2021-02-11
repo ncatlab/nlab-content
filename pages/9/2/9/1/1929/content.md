@@ -62,7 +62,7 @@ A recent related article is
 
 and generalizations with emphasis on noncommutative base are studied in 
 
-* Tomasz Brzezi&#324;ski, Joost Vercruysse, _Bimodule herds_, [arXiv:0805.2510](http://arXiv.org/abs/0805.2510)
+* Tomasz Brzezi&#324;ski, Joost Vercruysse, _Bimodule herds_, J. Algebra __321__:9, (2009) 2670-2704 [arXiv:0805.2510](http://arXiv.org/abs/0805.2510) [doi](https://doi.org/10.1016/j.jalgebra.2009.01.020)
 
 See also
 
