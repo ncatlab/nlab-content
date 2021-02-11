@@ -960,8 +960,12 @@ Two further examples of tangent structures on an $(infty,1)$-category, on [[(∞
 
 [[!redirects tangent (∞,1)-category]]
 [[!redirects tangent (∞,1)-categories]]
+[[!redirects tangent ∞-category]]
+[[!redirects tangent ∞-categories]]
 
 [[!redirects tangent (∞,1)-topos]]
 [[!redirects tangent (∞,1)-toposes]]
 [[!redirects tangent (infinity,1)-topos]]
 [[!redirects tangent (infinity,1)-toposes]]
+[[!redirects tangent ∞-topos]]
+[[!redirects tangent ∞-toposes]]
