@@ -72,6 +72,8 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 * [[quaternionic vector bundle]]
 
+* [[Dieudonné determinant]]
+
 * [[SL(2,H)]]
 
 [[!include exceptional spinors and division algebras -- table]]
