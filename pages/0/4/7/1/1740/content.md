@@ -35,25 +35,17 @@ of the appropriate $(n-1)\times (n-1)$ submatrix, as one can see by remembering 
 
 Quasideterminants were introduced by I. Gel'fand and V. Retakh around 1990. 
 
-* [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants
-of matrices over noncommutative rings_,
-Funct.Anal.Appl. __25__ (1991), no.2, pp. 91--102.
+* [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants of matrices over noncommutative rings_, Funct.Anal.Appl. __25__ (1991), no.2, pp. 91--102.
 engl. transl. __21__ (1991), pp. 51--58. 
 
-* I.M. Gel'fand, V.S. Retakh, A theory of noncommutative
-determinants and characteristic functions of graphs,
-Funct.Anal.Appl. __26__ (1992), no.4, pp. 231--246.
+* I.M. Gel'fand, V.S. Retakh, A theory of noncommutative determinants and characteristic functions of graphs, Funct.Anal.Appl. __26__ (1992), no.4, pp. 231--246.
 
-* I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_,
-Selecta Mathematica, New Series 3 (1997) no.4, pp. 517--546;
+* I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_, Selecta Mathematica, New Series 3 (1997) no.4, pp. 517--546;
 
-* D.Krob, B.Leclerc, _Minor identities
-for quasi-determinants and quantum determinants_,
-Comm.Math.Phys. 169 (1995), pp. 1--23.
+* D.Krob, B.Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm.Math.Phys. 169 (1995), pp. 1--23 [doi](https://doi.org/10.1007/BF02101594)
 
-* [[Z. Škoda]], _Noncommutative localization in
-noncommutative geometry_ (Chapter 16: Quasideterminants and Cohn localization), London Math. Society Lecture Note Series 330, ed.  A. Ranicki; pp. 220--313, [arXiv:math.QA/0403276](http://arxiv.org/abs/math/0403276))
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_, [pdf](http://castellet.cat/Publications/quaderns/Quadern41.pdf) 
+* Chapter 16: Quasideterminants and Cohn localization in [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series 330, ed.  A. Ranicki; pp. 220--313, [arXiv:math.QA/0403276](http://arxiv.org/abs/math/0403276))
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 [pdf](http://castellet.cat/Publications/quaderns/Quadern41.pdf) 
 
 category: algebra
 [[!redirects quasideterminants]]
