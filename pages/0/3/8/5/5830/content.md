@@ -97,7 +97,7 @@ With the [[univalence]] axiom included (for a [[type of types]] "weakly a la Tar
 
 * [[homotopytypetheory:model of type theory in an (infinity,1)-topos]]
 
-See also at _[relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
+See also at _[[relation between type theory and category theory#HomotopyWithUnivalence|relation between type theory and category theory --- univalent homotopy type theory and elementary $(\infty,1)$-toposes]]_.
 
 For a short introduction to a simplicial model of homotopy type theory see [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky' s homotopy type theory]].
 
