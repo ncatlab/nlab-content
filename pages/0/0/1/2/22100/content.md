@@ -8,10 +8,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Definition
 
