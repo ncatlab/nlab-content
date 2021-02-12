@@ -31,6 +31,11 @@ to qualify as a submanifold inclusion it is usually required to be an [[embeddin
 
 1. an [[immersion of differentiable manifolds]].
 
+## Related concepts
+
+* [[embedding of differentiable manifolds]]
+
+* [[hypersurface]]
 
 ## References
 
