@@ -96,7 +96,9 @@ For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holograp
 ### General
 
 
-Textbook:
+Textbooks:
+
+* [[Jan Zaanen]], Yan Liu, Ya-Wen Sun, [[Koenraad Schalm]], _Holographic Duality in Condensed Matter Physics_, Cambridge University Press 2015 ([doi:10.1017/CBO9781139942492]( https://doi.org/10.1017/CBO9781139942492))
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
@@ -115,6 +117,12 @@ and its application to condensed matter physics_,  D-ITP Advanced Topics in Theo
 
 * Andrea Amoretti, _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
 
+* Hong Liu, Julian Sonner, _Quantum many-body physics from a gravitational lens_, Nature Rev.Phys. 2 (2020) 11, 615-633 ([arXiv:2004.06159](https://arxiv.org/abs/2004.06159), [doi:10.1038/s42254-020-0225-1](https://doi.org/10.1038/s42254-020-0225-1))
+
+
+More pointers:
+
+* [[Jan Zaanen]], _[Anti-de-Sitter/Condensed Matter Theory](https://www.lorentz.leidenuniv.nl/zaanen/wordpress/research/anti-de-sittercondensed-matter/)_
 
 
 
@@ -137,8 +145,13 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Rong-Gen Cai, Li Li, Li-Fang Li, Run-Qiu Yang, _Introduction to Holographic Superconductor Models_, Sci China-Phys Mech Astron, 2015, 58(6):060401 ([arXiv:1502.00437](https://arxiv.org/abs/1502.00437))
 
-### Application to quasicrystals
+On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
+* [[Jan Zaanen]], _Planckian dissipation, minimal viscosity and the transport in cuprate strange metals_, SciPost Phys. 6, 061 (2019) ([arXiv:1807.10951](https://arxiv.org/abs/1807.10951))
+
+
+
+### Application to quasicrystals
 
 Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[tensor networks]] as conformal [[quasicrystals]]:
 
