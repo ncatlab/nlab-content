@@ -307,6 +307,9 @@ Both statements, Pontryagin's and Thom's, as well as their joint generalization 
 
 
 
+[[!include cohomotopy in topological data analysis -- references]]
+
+
 
 
 [[!redirects Pontryagin isomorphism]]
