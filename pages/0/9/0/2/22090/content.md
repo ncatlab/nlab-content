@@ -321,6 +321,14 @@ Both statements, Pontryagin's and Thom's, as well as their joint generalization 
 [[!redirects Pontryagin's theorem]]
 [[!redirects Pontrjagin's theorem]]
 
+[[!redirects Pontryagin construction]]
+[[!redirects Pontryagin's construction]]
+[[!redirects Pontryagin constructions]]
+[[!redirects Pontryagin's constructions]]
 
+[[!redirects Pontrjagin construction]]
+[[!redirects Pontrjagin's construction]]
+[[!redirects Pontrjagin constructions]]
+[[!redirects Pontrjagin's constructions]]
 
 
