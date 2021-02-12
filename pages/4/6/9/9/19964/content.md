@@ -296,6 +296,9 @@ Further development:
 
 * Sven Bjarke Gudnason, _Dielectric Skyrmions_ ([arXiv:2009.03082](https://arxiv.org/abs/2009.03082))
 
+* Francisco Correa, Andreas Fring, Takanobu Taira, _Complex BPS Skyrmions with real energy_ ([arXiv:2102.05781](https://arxiv.org/abs/2102.05781))
+
+
 
 
 
