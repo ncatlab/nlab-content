@@ -11,7 +11,7 @@ An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
 
 \bibitem{vandenBergGarner2011}
 
-\bibitem{AdamekRosicky2020}
+\bibitem{AdámekRosícky2020}
 
 \linebreak
 
