@@ -49,6 +49,8 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[surface knot]]
 
+* [[hypersurface]]
+
 ## References
 
 * [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
