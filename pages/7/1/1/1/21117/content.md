@@ -12,7 +12,7 @@
 
 ## Related concepts
 
-* [[quantum computing]]
+* [[quantum computing]], [[topological quantum computing]]
 
 * [[tensor network]]
 
