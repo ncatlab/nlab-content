@@ -380,7 +380,11 @@ Now we pick some embedding $\psi _{0} \colon M \to V$ which, by applying $S^{-}$
 
 ## Related concepts
 
+* [[submanifold]]
+
 * [[Whitney embedding theorem]], [[Nash embedding theorem]]
+
+* [[hypersurface]]
 
 ## References
 
