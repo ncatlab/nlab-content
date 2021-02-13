@@ -166,18 +166,32 @@ More recent developments include
 
 * Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
 
-
 * Oleg Lunin, [[Samir Mathur]], _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
 
 * Alejandra Castro, Joshua M. Lapan, Alexander Maloney, Maria J. Rodriguez, _Black Hole Monodromy and Conformal Field Theory_ ([arXiv:1303.0759](http://arxiv.org/abs/1303.0759))
 
-* Francesco Benini, Paolo Milan, _Black holes in 4d $\mathcal{N} = 4$ Super-Yang-Mills_ ([arXiv:1812.09613](https://arxiv.org/abs/1812.09613))
-
 * H. L. Dao, Parinya Karndumri, _Supersymmetric $AdS_5$ black holes and strings from 5D $N=4$ gauged supergravity_ ([arXiv:1812.10122](https://arxiv.org/abs/1812.10122))
+
+* Behnam Pourhassan, Mubasher Jamil, Mir Faizal, _Black Remnants from T-Duality_ ([arXiv:1912.09235](https://arxiv.org/abs/1912.09235))
+
+
+###  BPS black holes in $AdS_5/CFT_4$ duality
+
+(...)
+
+* Alejandro Cabo-Bizet, Davide Cassani, Dario Martelli, Sameer Murthy, _Microscopic origin of the Bekenstein-Hawking entropy of supersymmetric $AdS_5$ black holes_ ([arXiv:1810.11442](https://arxiv.org/abs/1810.11442))
 
 * {#CKJN18} Sunjin Choi, [[Joonho Kim]], [[Seok Kim]], June Nahmgoong, _Large AdS black holes from QFT_ ([arxiv:1810.12067](https://arxiv.org/abs/1810.12067))
 
-* Behnam Pourhassan, Mubasher Jamil, Mir Faizal, _Black Remnants from T-Duality_ ([arXiv:1912.09235](https://arxiv.org/abs/1912.09235))
+* Francesco Benini, Paolo Milan, _Black holes in 4d $\mathcal{N} = 4$ Super-Yang-Mills_ ([arXiv:1812.09613](https://arxiv.org/abs/1812.09613))
+
+
+(...)
+
+
+
+
+
 
 ### The D$p$-brane bound states
 
@@ -185,6 +199,9 @@ More recent developments include
 
 
 * Mohammad R. Garousi, Ahmad Ghodsi, _Entropy Function for Non-extremal D1D5 and D2D6NS5-branes_, JHEP 0710:036, 2007 ([arXiv:0705.2149](https://arxiv.org/abs/0705.2149))
+
+
+
 
 
 #### D1-D5 brane systems
