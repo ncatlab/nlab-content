@@ -47,6 +47,9 @@ On [[anyons]] as potential basis of [[topological quantum computation]]:
 
 * Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
 
+On detection/construction of [[anyons]] in [[experiment]]:
+
+* James Nakamura, Shuang Liang, Geoffrey C. Gardner, Michael J. Manfra, _Direct observation of anyonic braiding statistics at the ν=1/3 fractional quantum Hall state_ ([arXiv:2006.14115](https://arxiv.org/abs/2006.14115))
 
 
 [[!redirects anyon]]
