@@ -1,6 +1,6 @@
 **$Lex$** is a widely used name for the [[2-category]] of:
 
-* [[small category|small]] [[finitely complete categories]], 
+* [[small category|small]]$\;$[[finitely complete categories]], 
 
 * [[left exact functor|finite-limit-preserving functors]] between these, and 
 
