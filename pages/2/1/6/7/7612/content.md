@@ -23,7 +23,7 @@ It is also possible to write a program in some less strongly typed language and 
 
 So far, fully certified programming in the type-theoretic sense is largely an academic endeavor, see for instance ([SpittersKrebbersvdWeegen](#SpittersKrebbersvdWeegen)); the tools available at present usually require too much time and effort to be worth the payoff in industry.  As automation progresses, this may change.
 
-From the description of the 2015 EPSRC research grant _[Homotopy Type Theory: Programming and Verification](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M016951/1)_ of [[Neil Ghani]], [[Thorsten Altenkirch]], [[Nicola Gambino]] et al.:
+From the description of the 2015 EPSRC research grant _[Homotopy Type Theory: Programming and Verification](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/M016951/1)_ of [[Neil Ghani]], [[Thorsten Altenkirch]], [[Nicola Gambino]] et al.:
 
 > The cost of software failure is truly staggering. Well known individual cases include the Mars Climate Orbiter failure (&#163;80 million), Ariane Rocket disaster (&#163;350 million), Pentium Chip Division failure (&#163;300 million), and more recently the heartbleed bug (est. &#163;400 million). There are many, many more examples. Even worse,  failures such as one in the Patriot Missile System and another  in the Therac-25 radiation system have cost lives. More generally, a  2008 study by the US government estimated that faulty software costs the US economy &#163;100 billion annually. 
 
