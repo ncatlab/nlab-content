@@ -26,6 +26,8 @@ A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects beha
 
 (There is an evident version of an infinitesimally cohesive 1-topos. In ([Lawvere 07, def. 1](#Lawvere07)) such is referred to as a "[[quality type]]". A hint of this seems to be also in ([Lawvere 91, p. 9](#Lawvere91))).
 
+Infinitesimal cohesion may also be defined relative to any [[(∞,1)-topos]].
+
 
 ## Definition
 
