@@ -76,7 +76,7 @@ Therefore the identification of smooth vector fields with derivations is an alge
 
 These statements mean that [[differential geometry]] has more in common with [[algebraic geometry]] than is manifest from the traditional definitions. This serves as the bases for the definition of [[formal smooth manifolds]] and the theory of [[synthetic differential geometry]]. For more exposition of this relation see at _[[geometry of physics -- supergeometry]]_.
 
-Beware however that related algebraic properties familiar from [[affine schemes]] may break in differential geometry: For the [[Kähler differential forms]] of $C^\infty(X)$ to come out as the expected smooth [[differential forms]] one needs to refine the plain $\mathbb{R}$-[[commutative algebra]] $C^\nfty(X)$ to the structure of a _[[smooth algebra]]_. See at _[[Kähler differential forms]]_ for discussion of this issue.
+Beware however that related algebraic properties familiar from [[affine schemes]] may break in differential geometry: For the [[Kähler differential forms]] of $C^\infty(X)$ to come out as the expected smooth [[differential forms]] one needs to refine the plain $\mathbb{R}$-[[commutative algebra]] $C^\infty(X)$ to the structure of a _[[smooth algebra]]_. See at _[[Kähler differential forms]]_ for discussion of this issue.
 
 
 ## Statements
