@@ -332,7 +332,7 @@ General discussion of derived functors in [[homotopy theory]]:
 
 and with an eye towards [[abelian sheaf cohomology]]:
 
-* [[Ugo Bruzzo]], _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: Volume 2 ([doi:10.1142/11473](https://doi.org/10.1142/11473))
+* [[Ugo Bruzzo]], _Derived functors and sheaf cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: Volume 2 ([doi:10.1142/11473](https://doi.org/10.1142/11473))
 
 Discussion in the context of [[(∞,1)-categories]] is in section 5.2.4 of 
 
@@ -342,10 +342,10 @@ The double-categorical functoriality is in
 
 * {#Shulman} [[Mike Shulman]], _Comparing composites of left and right derived functors_, [NYJM](http://nyjm.albany.edu/j/2011/17-5.html)
  
-A more modern definition with better theoretical properties is given in
+A more modern definition with better theoretical properties and with emphasis on the role of correspondences in $\infty$-categorical setup is given in
 
 * [[Vladimir Hinich]], _So, what is a derived functor?_,
-[arXiv](https://arxiv.org/abs/1811.12255).
+[arXiv:1811:12255](https://arxiv.org/abs/1811.12255)
 
 ### In homological algebra
 
