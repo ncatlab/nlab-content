@@ -31,7 +31,7 @@ The basic definition applies to spaces of the form $R^n$ and is generalized from
 
 Let here and in the following $(\mathcal{T},R)$ be a [[smooth topos]].
 
-## in $R^n$ ##
+### In $R^n$
 
 Write, as usual
 
@@ -95,13 +95,10 @@ $$
 
 be the sub-simplicial object of infinitesimal neighbours in $R^n$ that are points in $\ell A$.
 
-+-- {: .un_lemma}
-###### Observation
-**(linearity of space of infinitesimal neighbours)**
+\begin{prpn}
+**(linearity of space of infinitesimal neighbours)** If $p, q \in \ell A$ are infinitesimal neighbours in the [[smooth locus]] $\ell A \subset R^n$, then for all $t \in R$ also the element $p + t(q-p)$ formed by linear combination in $R^n$ is in $\ell A$ and hence is an infinitesimal neighbour of $p$ there.
 
-If $p, q \in \ell A$ are infinitesimal neighbours in the [[smooth locus]] $\ell A \subset R^n$, then for all $t \in R$ also the element $p + t(q-p)$ formed by linear combination in $R^n$ is in $\ell A$ and hence is an infinitesimal neighbour of $p$ there.
-
-=--
+\end{prpn}
 
 +-- {: .proof}
 ###### Proof
@@ -170,11 +167,8 @@ $$
 
 as an [[interval object]] (see there for details).
 
-+-- {: .un_def}
-###### Definition
-**(inclusion of infinitesimal into finite simplices)**
-
-For $\ell A =: X \hookrightarrow R^n$ a [[smooth locus]]
+\begin{defn}
+**(inclusion of infinitesimal into finite simplices)** For $\ell A =: X \hookrightarrow R^n$ a [[smooth locus]]
 define for all $n \in \mathbb{N}$ a morphism
 
 $$
@@ -194,12 +188,9 @@ $$
   \,.
 $$
 
-=--
+\end{defn}
 
-+-- {: .un_prop}
-###### Proposition
-
-The morphisms $\iota_n$ constitute a morphism of [[simplicial object]]s 
+\begin{prpn} The morphisms $\iota_n$ constitute a morphism of [[simplicial object]]s 
 
 $$
   \iota : X^{\Delta^\bullet_{inf}}
@@ -209,7 +200,7 @@ $$
 
 in that they respects the face and degenracy maps on each side.
 
-=--
+\end{prpn}
 
 +-- {: .proof}
 ###### Proof
@@ -233,15 +224,7 @@ For instance
 
 ## Related concepts
 
-The collection of first order infinitesimal neighbours of a space $X$ arranges itself into the [[schreiber:infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$. Various concepts derive from this one:
-
-of [[differential form]]s may be understood in terms of functions on $\Pi(x)^{inf}$. This is described at
-
-* [[differential forms in synthetic differential geometry]].
-
-A [[deRham space]] is the colimit over a $\Pi^{inf}(X)$. 
-
-## Related concepts
+* The collection of first order infinitesimal neighbours of a space $X$ arranges itself into the [[schreiber:infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$. Various concepts derive from this one. [[differential form|Differential forms]] may be understood in terms of functions on $\Pi(x)^{inf}$. This is described at [[differential forms in synthetic differential geometry]]. A [[deRham space]] is the colimit over a $\Pi^{inf}(X)$. 
 
 * [[formal neighbourhood of the diagonal]]
 
