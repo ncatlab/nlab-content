@@ -423,4 +423,9 @@ See also
 
 * {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
 
+A structured/constructive analogue suited to purposes like [[homotopy type theory]] with equivalent homotopy theory is the notion of effective Kan fibration from
+
+* Benno van den Berg, Eric Faber, _Effective Kan fibrations in simplicial sets_, [arXiv:2009.12670](https://arxiv.org/abs/2009.12670)
+* Benno van den Berg, _Effective Kan fibrations in simplicial sets_,  Bohemian Logical & Philosophical Café, Feb 2021, [yt](https://www.youtube.com/watch?v=i1TkX_86rLo)
+
 [[!redirects Kan fibrations]]
