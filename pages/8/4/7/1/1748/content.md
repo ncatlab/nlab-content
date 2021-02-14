@@ -145,7 +145,7 @@ By the factorization axioms every object in a model category has both a good pat
 
 For instance in the [[classical model structure on topological spaces]], the obvious object $X\times [0,1]$ is a cylinder object, but not a good cylinder unless $X$ itself is cofibrant (a [[cell complex]] in this case).
 
-More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInAModelCategory} is analogous to the [[powering]] $\pitchfork(I,X)$ with an [[interval object]] and the cyclinder object $Cyl(X)$ is analogous to the [[tensoring]]  with a cylinder object $I\odot X$.  In fact, if $\mathcal{C}$ is a $V$-[[enriched model category]] and $X$ is fibrant/cofibrant, then these powers and copowers  are in fact examples of (good) path and cylinder objects if the [[interval object]] is sufficiently good. 
+More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInAModelCategory} is analogous to the [[powering]] $\pitchfork(I,X)$ with an [[interval object]] and the cylinder object $Cyl(X)$ is analogous to the [[tensoring]]  with a cylinder object $I\odot X$.  In fact, if $\mathcal{C}$ is a $V$-[[enriched model category]] and $X$ is fibrant/cofibrant, then these powers and copowers  are in fact examples of (good) path and cylinder objects if the [[interval object]] is sufficiently good. 
 
 =--
 
@@ -194,7 +194,7 @@ For more see at _[[homotopy in a model category]]_.
 
 ### In (co-)fibration categories
 
-Clearly the concept of left homotopy in def. \ref{PathAndCylinderObjectsInAModelCategory} only needs part of the model category axioms and thus makes sense more generally in suitable [[cofibration categories]]. Dually, the concepf of path ojects in def. \ref{PathAndCylinderObjectsInAModelCategory} makes sense more generally in suitable [[fibration categories]] such as [[categories of fibrant objects]] in the sense of Brown.
+Clearly the concept of left homotopy in def. \ref{PathAndCylinderObjectsInAModelCategory} only needs part of the model category axioms and thus makes sense more generally in suitable [[cofibration categories]]. Dually, the concept of path objects in def. \ref{PathAndCylinderObjectsInAModelCategory} makes sense more generally in suitable [[fibration categories]] such as [[categories of fibrant objects]] in the sense of Brown.
 
 Likewise if there is a [[cylinder functor]], one gets functorially defined [[cylinder objects]], etc.
 
