@@ -8,6 +8,9 @@ and a Professor Emeritus of Mathematics at the University of California, Berkele
 ## Related concepts
 
 * [[Woodin cardinal]]
+* [[ultimate-L]]
+* [[Omega conjecture]]
+* [[axiom of determinacy]]
 
 [[!redirects William Hugh Woodin]]
 [[!redirects Hugh Woodin]]
