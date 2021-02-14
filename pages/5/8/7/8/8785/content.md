@@ -57,7 +57,7 @@ For $p \lt dim_{\mathbb{C}}(X)$ equivalently this is a differential form in the 
 
 The complex analog of the [[de Rham theorem]] is the [[Dolbeault theorem]]:
 
-for $X$ a [[complex manifold]] then ints [[Dolbeault cohomology]] in bi-degree $(p,q)$ is [[natural isomorphism|naturally isomorphic]] to the [[abelian sheaf cohomology]] in degree $q$ of the [[abelian sheaf]] $\Omega^p \coloneqq \Omega^{p,0}$ of [[holomorphic p-forms]]
+for $X$ a [[complex manifold]] then its [[Dolbeault cohomology]] in bi-degree $(p,q)$ is [[natural isomorphism|naturally isomorphic]] to the [[abelian sheaf cohomology]] in degree $q$ of the [[abelian sheaf]] $\Omega^p \coloneqq \Omega^{p,0}$ of [[holomorphic p-forms]]
 
 $$
   H^{p,q}(X)\simeq H^q(X,\Omega^p)
