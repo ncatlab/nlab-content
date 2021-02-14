@@ -50,4 +50,10 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $T \mathbf{H}$ its [[tangent (∞,1)-t
 
 * [[geometric homotopy type]], [[cohesive homotopy type]]
 
+## References
+
+An account using [[modal homotopy type theory]] is in
+
+* [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], _Synthetic Spectra via a Monadic and Comonadic Modality_, ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
+
 [[!redirects stable homotopy types]]
