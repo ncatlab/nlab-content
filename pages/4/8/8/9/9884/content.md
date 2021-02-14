@@ -56,6 +56,12 @@ is an [[acyclic Kan fibration]] of [[simplicial sets]].
 
 ([Lurie, def. 4.3.1.1](#Lurie))
 
+## Examples
+
+ - If $\mathcal{D} = \Delta[0]$ is the terminal category and $f: \mathcal{C} \to \Delta[0]$ is the unique functor, then an $f$-colimit is the same thing as a colimit in the usual sense.
+
+ - If $K = \Delta[0]$ is the terminal category so that $p: \Delta[0] \to \mathcal{C}$ picks out an object and $f\overline{p}: K^{\triangleright} = \Delta[1] \to \mathcal{D}$ picks out an edge, an $f$-colimit is precisely an $f$-cocartesian lift.
+
 ## References
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
