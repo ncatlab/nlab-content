@@ -1051,6 +1051,15 @@ of the [[discrete topological space]] on the set $X$.
 
 =--
 
++-- {: .num_example #CodiscreteGroupoid}
+###### Example
+**([[codiscrete groupoid]])**
+
+For $X$ any set, there is the _[[codiscrete groupoid]]_ $Codisc(X)$, whose set of objects
+is $X$ and whose homsets are singletons. In other words, it is a groupoid where every object is uniquely isomorphic to every object.
+
+=--
+
 +-- {: .num_example #GroupoidFromDelooping}
 ###### Example
 **([[delooping]] of a  [[group]])**
