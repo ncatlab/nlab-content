@@ -41,12 +41,19 @@ see at _[[K(n)-local stable homotopy theory]]_ (...)
 
 ([[Spectral Schemes|Lurie SpecSchm, example 3.13]])
 
+### Codensity monad of the inclusion into all homotopy types
+
+The inclusion of homotopy types with finite groups into all homotopy types generates a [[condensity monad]] whose algebras lie somewhere between [[totally disconnected]] compact Hausdorff [[condensed mathematics|condensed]] $\infty$-groupoids, and all compact Hausdorff condensed $\infty$-groupoids. (See [Scholze](#Scholze) for more details.)
+
+
 
 ## References
 
 * G. J. Ellis, _Spaces with finitely many non-trivial homotopy groups all of which are finite_, Topology, 36, (1997), 501&#8211;504, ISSN 0040-9383.
 
 * [[Jean-Louis Loday]], _Spaces with finitely many non-trivial homotopy groups_ (<a href="http://www-irma.u-strasbg.fr/~loday/PAPERS/82Loday(Spaces).pdf">pdf</a>)
+
+* {#Scholze} [[Peter Scholze]], _Infinity-categorical analogue of compact Hausdorff_, [MO answer](https://mathoverflow.net/a/380399/447)
 
 [[!redirects homotopy types with finite homotopy groups]]
 
