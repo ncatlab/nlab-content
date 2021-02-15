@@ -40,6 +40,8 @@ The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological i
 
 ## References
 
+### General
+
 See also:
 
 * Wikipedia, _[Quantum Hall effect](https://en.wikipedia.org/wiki/Quantum_Hall_effect)_, _[Fractional quantum Hall effect](http://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)_
@@ -56,24 +58,20 @@ In terms of [[Berry phase]] and Chern numbers in
 
 * Joseph E. Avron, Daniel Osadchy, Ruedi Seiler, _A Topological look at the quantum Hall effect_, Physics Today __56__:8, [doi](http://dx.doi.org/10.1063/1.1611351)
 
-Relation to [[anyons]] with [[braid group statistics]] (and eventually connection to braiding, [[modular tensor categories]], and [[topological quantum computing]] followed) was made initially in 
-
-* [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
-
-Review:
 
 
-* Ady Stern, _Anyons and the quantum Hall effect -- A pedagogical review_, Annals of Physics Volume 323, Issue 1, January 2008, Pages 204-249 ([doi:10.1016/j.aop.2007.10.008](https://doi.org/10.1016/j.aop.2007.10.008), [arXiv:0711.4697](https://arxiv.org/abs/0711.4697))
 
-For a more recent discussion of these connections to [[topological quantum computation]]:
+[[!include anyons in the quantum Hall effect -- references]]
 
-* Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman]], Sankar Das Sarma, _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083, 2008 ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083))
 
-* Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
+
+
+
 
 
 
 category: physics
+
 [[!redirects quantum Hall effect]]
 [[!redirects quantum hall effect]]
 [[!redirects fractional quantum Hall effect]]
