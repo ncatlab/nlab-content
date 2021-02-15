@@ -444,6 +444,12 @@ $$
 
 * [[braid group statistics]]
 
+  [[anyons]], [[quantum Hall effect]]
+
+  [[topological quantum computation]]
+
+* [braid group cryptography](cryptography#BraidGroupCryptographyReferences)
+
 * [[braid category]]
 
 * [[infinitesimal braid relation]]
@@ -474,8 +480,7 @@ For orderings of the braid group see
 
 * [[Patrick Dehornoy]], _Braid groups and left distributive operations_ , Transactions AMS **345** no.1 (1994) pp.115&#8211;150.
 
-* H. Langmaack, _Verbandstheoretische Einbettung von Klassen unwesentlich verschiedener
-Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
+* H. Langmaack, _Verbandstheoretische Einbettung von Klassen unwesentlich verschiedener Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
 
 
 ### Relation to moduli space of monopoles
