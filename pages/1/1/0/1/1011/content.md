@@ -41,6 +41,8 @@ One is often interested in whether an arbitrary category $D$ has [[limit]]s and 
 
 * [[finite graph]]
 
+* [[homotopy type with finite homotopy groups]]
+
 * [[finite homotopy type]]
 
 * [[finite (∞,1)-category]]
