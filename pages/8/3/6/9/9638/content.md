@@ -112,9 +112,12 @@ Discussion of aspects of quantum computing in terms of [[monad (in computer scie
 
 * [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
 
-* [[Thorsten Altenkirch]], Jonathan Grattage, _A functional quantum programming language_ ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
+* [[Thorsten Altenkirch]], Jonathan Grattage, _A functional quantum programming language_, Logic in Computer Science, 2005. Proceedings. 20th Annual IEEE Symposium on, 26-29 June 2005 Page(s):249 - 258 ([arXiv:quant-ph/0409065](https://arxiv.org/abs/quant-ph/0409065), [doi:https://doi.org/10.1109/LICS.2005.1](https://doi.org/10.1109/LICS.2005.1), [pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
 
 * J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, _Structuring quantum effects: superoperators as arrows_ ([arXiv:quant-ph/0501151](http://arxiv.org/abs/quant-ph/0501151))
+
+* Jonathan Grattage, _An overview of QML with a concrete implementation in Haskell_, Quantum Physics and Logic 2008 ([arXiv:0806.2735](https://arxiv.org/abs/0806.2735))
+
 
 ### Topological quantum computing
 
