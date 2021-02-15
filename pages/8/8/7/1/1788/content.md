@@ -30,16 +30,67 @@ An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
 \linebreak
 
 
-In [[metrology]] and [[data analysis]], where an [[observable]] is typically a [[function]] $X \overset{f}{\longrightarrow} \mathbb{R}^n$ from the given data set $X$ to the set of [[real numbers]] $\mathbb{R}^1$, or to an [[n-tuple]] of such (varying in a [[Cartesian space]] $\mathbb{R}^n$), an _iso-hypersurface_ or _level-hypersuface_ is a [[level set]] of this observable, hence the [[subset]] of $X$ consisting all those points $x \in X$ on which this observable $f$ takes the same given value $f(x) = c$. 
+Original proposal:
 
-For example, if $X$ is a model for the Earth's atmosphere, and $f$ assigns to each point the atmospheric [[pressure]] $p(x)$ at this point, in some suitable [[physical unit]], then an iso-surface for $p$ is an _[[isobar]]_: a [[surface]] of constant pressure.
+* F. D. M. Haldane, S. Raghu, _Possible realization of directional optical waveguides in photonic crystals with broken time-reversal symmetry_, Phys. Rev. Lett., vol. 100, no. 1, p. 013904, 2008 ([doi:10.1103/physrevlett.100.013904](https://doi.org/10.1103/physrevlett.100.013904))
 
-For such a [[level set]] to actually be a [[hypersurface]], hence a [[differentiable manifold]] at least to some suitable level of approximation, some minimal regularity conditions on $f$ need to be satisfied, such as that $f$ is a [[differentiable function]] to suitable degree, and, crucially, that its value $c$ (whose [[pre-image]] is formed) is a _[[regular value]]_.
+* Z. Wang, Y. D. Chong, J. D. Joannopoulos, M. Soljačić, _Reflection-free one-way edge modes in a gyromagnetic photonic crystal_, Phys. Rev. Lett., vol. 100, no. 1, p. 013905, 2008 ([doi:10.1103/physrevlett.100.013905](https://doi.org/10.1103/physrevlett.100.013905))
 
-Phrased this way, the construction of iso-hypersurfaces turns out to be a central topic also in areas of pure mathematics, such as in [[differential topology]] and [[cobordism theory]], where the formation of [[pre-images]] of [[regular values]] inside $\mathbb{R}^n$ is known as part of the [[Pontryagin construction]].
+First realizations:
 
-Curiously, this means that[[Pontryagin's theorem]] applies to iso-hypersurfaces, saying here that, as the value $c$ of the [[observable]] $f$ varies, the shape ([[topology]]) of the corresponding iso-hypersurfaces changes (at most) by a _[[cobordism]]_, and that the resulting ([[normally framed submanifold|normally framed]]) [[cobordism class]] of all these hypersurfaces corresponds to the class of $f$ in the $n$-[[Cohomotopy theory]] of the data set $X$.
+* Z. Wang, Y. Chong, J. D. Joannopoulos, and M. Soljačić, _Observation of unidirectional backscattering-immune topological electromagnetic states_, Nature, vol. 461, no. 7265, pp. 772–775, 2009 ([doi:10.1038/nature08293](https://doi.org/10.1038/nature08293))
 
-While Pontryagin's theorem is ancient, the idea that it thus implies the possibility of [[topological data analysis]] via [[Cohomotopy theory]] of [[observables]] and [[cobordism theory]] of their iso-hypersurfaces appears only recently.
+* M. C. Rechtsman, J. M. Zeuner, Y. Plotnik, et al., _Photonic Floquet topological insulators_, Nature, vol. 496, no. 7444, pp. 196–200, 2013 ([doi:10.1038/nature12066](https://doi.org/10.1038/nature12066))
 
+Review:
+
+* Ling Lu, John D. Joannopoulos, Marin Soljačić, _Topological photonics_, Nature Photonics volume 8, pages 821–829 (2014) ([nphoton:2014.248](https://www.nature.com/articles/nphoton.2014.248))
+
+
+* Tomoki Ozawa, et al., _Topological photonics_, Rev. Mod. Phys. 91, 015006 2019 ([doi:10.1103/RevModPhys.91.015006](https://doi.org/10.1103/RevModPhys.91.015006))
+
+* Mordechai Segev, Miguel A. Bandres, _Topological photonics: Where do we go from here?_,  De Gruyter 2020 ([doi:10.1515/nanoph-2020-0441](https://doi.org/10.1515/nanoph-2020-0441))
+
+* Charles Choi, _Topological Photonics: What It Is and Why We Need It_, IEEE Spectrum, Mar 2020 ([web](https://spectrum.ieee.org/semiconductors/optoelectronics/topological-photonics-what-it-is-why-we-need-it))
+
+
+[[topological physics -- contents]]
+
+**Topological Physics** -- Phenomena in [[physics]] controlled by the [[topology]] (often: the [[homotopy theory]]) of the [[physical system]].
+
+General theory:
+
+* ([[extended topological field theory|extended]]) [[topological field theory]]
+
+* [[Chern-Simons theory]]
+
+In [[solid state physics]]:
+
+* [[topological state of matter]]
+
+  * [[gapped Hamiltonian]]
+
+  * [[topological order]], [[symmetry protected trivial order]]
+
+* [[topological insulator]]
+
+  * [[quantum Hall effect]], [[quantum spin Hall effect]]
+
+    [[anyons]], [[braid group statistics]]
+
+* [[topological quantum computation]]
+
+In [[electromagnetism]]:
+
+* [[topological photonics]]
+
+In [[quantum hadrodynamics]]:
+
+* [[Skyrmion]]
+
+In [[quantum chromodynamics]]:
+
+* [[instanton]]
+
+  
 
