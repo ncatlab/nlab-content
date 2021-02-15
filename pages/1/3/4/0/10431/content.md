@@ -7,9 +7,9 @@
 +-- {: .hide}
 [[!include solid state physics -- contents]]
 =--
-#### Homotopy theory
+#### Topological physics
 +--{: .hide}
-[[!include homotopy - contents]]
+[[!include topological physics -- contents]]
 =--
 =--
 =--
