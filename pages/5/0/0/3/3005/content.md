@@ -173,7 +173,7 @@ Other references include:
 
 There is a version for [[Morita context]]s instead of monads:
 
-* [[Tomasz Brzezi?ski]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Appl. Categ. Structures __19__ (2011), no. 5, 821&#8211;858 [MR2836546](http://www.ams.org/mathscinet-getitem?mr=2836546) [doi](http://dx.doi.org/10.1007/s10485-009-9217-0)
+* [[Tomasz Brzezinski]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Appl. Categ. Structures __19__ (2011), no. 5, 821&#8211;858 [MR2836546](http://www.ams.org/mathscinet-getitem?mr=2836546) [doi](http://dx.doi.org/10.1007/s10485-009-9217-0)
 
 Discussion for [[(infinity,1)-monads]] is in 
 
