@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -32,6 +31,8 @@ In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species 
 
 ## References
 
+### General
+
 The concept of [[anyons]] satisfying [[braid group statistics]] goes back to:
 
 * J. M. Leinaas, J. Myrheim, _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
@@ -47,17 +48,38 @@ Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantu
 * [[Jürg Fröhlich]], F. Gabbiani, _Braid statistics in local quantum theory_, Reviews in Mathematical Physics, Volume 2, Issue 03, pp. 251-353 (1990) ([doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107))_
 
 
-On [[anyons]] in the [[quantum Hall effect]]:
 
-* Ady Stern, _Anyons and the quantum Hall effect -- A pedagogical review_, Annals of Physics Volume 323, Issue 1, January 2008, Pages 204-249 ([doi:10.1016/j.aop.2007.10.008](https://doi.org/10.1016/j.aop.2007.10.008), [arXiv:0711.4697](https://arxiv.org/abs/0711.4697))
 
-On [[anyons]] as potential basis of [[topological quantum computation]]:
 
-* Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
+[[!include anyons in the quantum Hall effect -- references]]
 
-On detection/construction of [[anyons]] in [[experiment]]:
+
+
+
+
+
+### Experimental detection of anyons
+ {#ExperimentalRealization}
+
+While the occurrence of [[anyon]]-excitations in the [[quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the quantum Hall effect itself has long been established in [[experiment]], the actual observation of anyons in these systems is subtle:
+
+An early claim of the observation of non-abelian anyons seems to remain unconfirmed:
+
+* Sanghun An, P. Jiang, H. Choi, W. Kang, S. H. Simon, L. N. Pfeiffer, K. W. West, K. W. Baldwin, _Braiding of Abelian and Non-Abelian Anyons in the Fractional Quantum Hall Effect_ ([arXiv:1112.3400](https://arxiv.org/abs/1112.3400))
+
+The claimed observation of abelian anyons is apparently more securely established:
 
 * James Nakamura, Shuang Liang, Geoffrey C. Gardner, Michael J. Manfra, _Direct observation of anyonic braiding statistics_, Nat. Phys. 16, 931–936 (2020). ([arXiv:2006.14115](https://arxiv.org/abs/2006.14115), [doi:10.1038/s41567-020-1019-1](https://doi.org/10.1038/s41567-020-1019-1))
+
+* Bob Yirka, _Best evidence yet for existence of anyons_, ([phys.org/news/2020-07](https://phys.org/news/2020-07-evidence-anyons.html))
+
+
+
+[[!include topological quantum computation with anyons -- references]]
+
+
+
+
 
 
 [[!redirects anyon]]
