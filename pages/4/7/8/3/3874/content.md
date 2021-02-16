@@ -54,11 +54,11 @@ A lightning review of the proof is on the last pages of
 ### From the point of view of physics
  {#ReferencesPhysics}
 
-The index theorem has an interpretation in terms of the [[quantum field theory]] of the [[superparticle]] on the given space. 
+The index theorem has an interpretation in terms of the [[quantum field theory]] of the [[superparticle]] on the given space. See also at [supersymmetric quantum mechanics](https://ncatlab.org/nlab/show/supersymmetric+quantum+mechanics#RelationToIndexTheory).
 
 Traditional physics arguments along these lines include for instance
 
-* P. Windey,  _[[supersymmetric quantum mechanics|Supersymmetric quantum mechanics]] and the Atiyah&#8211;Singer index theorem_, Acta Physica Polonica, __B15__ (1984). ([PDF](http://th-www.if.uj.edu.pl/~acta/vol15/pdf/v15p0435.pdf))
+* P. Windey,  _Supersymmetric quantum mechanics and the Atiyah&#8211;Singer index theorem_, Acta Physica Polonica, __B15__ (1984). ([PDF](http://th-www.if.uj.edu.pl/~acta/vol15/pdf/v15p0435.pdf))
 
 * [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([EUCLID](http://projecteuclid.org/euclid.cmp/1103940278))
 
