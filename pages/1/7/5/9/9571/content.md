@@ -123,21 +123,40 @@ Videos from a seminar at the Newton Institute:
 * Newton Instititute Programme Jan-April 2013: Grothendieck-Teichm&#252;ller Groups, Deformation and Operads, [seminars](https://www.newton.ac.uk/event/gdo/seminars) (some with videos)
 
 
-## References
 
 The Drinfeld conjeture is stated in
 
-* [[Vladimir Drinfel'd]], _On quasi-triangular Quasi-Hopf algebras and a group closely related with $Gal(\overline{\mathbb{Q}/\mathbb{Q}})$, Leningrad Math. J., 2 (1991), 829 - 860.
- {#Drinfeld91}
+* {#Drinfeld91} [[Vladimir Drinfel'd]], _On quasi-triangular Quasi-Hopf algebras and a group closely related with $Gal(\overline{\mathbb{Q}/\mathbb{Q}})$, Leningrad Math. J., 2 (1991), 829 - 860.
 
-Relation to the graph complex
-
-* [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_ ([arXiv:1009.1654](http://arxiv.org/abs/1009.1654))
- {#Willwacher10}
+See also:
+ 
 
 * {#Stix04} [[Jakob Stix]], _The Grothendieck-Teichm&#252;ller group and Galois theory of the rational numbers_, 2004 ([[StiXGaloisAndGT.pdf:file]])
 
 * [[Anton Alekseev]], Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [arxiv/0802.4300](http://arxiv.org/abs/0802.4300)
+
+
+### Relation to graph complexes
+
+Relation to [[graph complexes]]:
+
+$H^0\big( Graphs_0(\mathbb{R}^2) \big)$ is the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]]:
+
+* {#Willwacher10} [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, Invent. math. (2015) 200: 671 ([arxiv:1009.1654](http://arxiv.org/abs/1009.1654))
+
+* {#DolgushevRogers12} [[Vasily Dolgushev]], [[Christopher Rogers]], _Notes on Algebraic Operads, Graph Complexes, and Willwacher's Construction_, In: Mathematical aspects of quantization 583 (2012): 25-145. ([arXiv:1202.2937](https://arxiv.org/abs/1202.2937))
+
+* [[Vasily Dolgushev]], _A manifestation of the Grothendieck-Teichmuellergroup in geometry_ ([slides pdf](https://math.temple.edu/~vald/AMSslides.pdf))
+
+See also:
+
+* Kevin Morand, _A note on multi-oriented graph complexes and deformation quantization of Lie bialgebroids_ ([arXiv:2102.07593](https://arxiv.org/abs/2102.07593))
+
+
+
+ 
+
+
 
 [[!redirects Grothendieck-Teichmueller tower]]
 [[!redirects Grothendieck-Teichmüller group]]
