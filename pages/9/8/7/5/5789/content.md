@@ -172,7 +172,7 @@ and is further explored in:
 * {#Schreiber04} [[Urs Schreiber]], _On deformations of 2d SCFTs_, JHEP 0406:058, 2004 ([arXiv:hep-th/0401175](http://arxiv.org/abs/hep-th/0401175))
 
 
-For supersymemtric quantum mechanics of [[D0-branes]] see:
+For supersymmetric quantum mechanics of [[D0-branes]] see:
 
 * _[[BFSS matrix model]]_, _[[BMN matrix model]]_
 
