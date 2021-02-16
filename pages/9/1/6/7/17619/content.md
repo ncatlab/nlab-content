@@ -18,6 +18,6 @@ so _dihedral homology_ is the cohomology of free loop spaces modulo the $O(2)$-a
 ## References
 
 * Massimiliano Ungheretti, _Free loop spaces and dihedral homology_ ([arXiv:1608.08140](http://arxiv.org/abs/1608.08140))
-
+* T. Popelensky, _On codihedral module for $\ast$-Hopf algebras_, Journal of K-Theory, 2(2) (2008) 353-360 [doi:10.1017/is008001018jkt033](https://doi.org/10.1017/is008001018jkt033)
 
 [[!redirects dihedral cohomology]]
