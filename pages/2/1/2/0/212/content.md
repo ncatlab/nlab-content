@@ -25,6 +25,8 @@ _Alg_ is the [[category]] with [[algebra|algebras]] as [[object|objects]] and al
 
 More abstractly, we can think of $Alg$ as the [[category|full subcategory]] of $Cat(Vect)$, [[internal category|internal categories]] in [[Vect]], with algebras as objects.
 
+In case of [[Ab]], this gives us Category of Rings, namely, $Alg_Z$.
+
 ## Properties
 
 ### Relation to algebras with bimodules
