@@ -26,7 +26,7 @@ $$m_x: H \to H: f \mapsto x \cdot f$$
 
 where $(x \cdot f)(y) := y f(y)$. This operator is not defined on all of $H$, but it is defined on a dense subspace of $H$. For example, if $S$ is the Schwartz space consisting of smooth functions $f$ on $\mathbb{R}$ all of whose derivatives $f^{(n)}(x)$ decay rapidly at infinity (more rapidly than any negative power of $|x|$), then there is a dense inclusion map $i: S \to H$, and $m_x$ is defined globally on $S$. 
 
-Meanwhile the Schwartz space $S$ carries its own topology (as described in the article [[distribution]]), stronger than the topology it inherits from $H$, and the space of tempered distributions $S^*$ is defined to be the continuous dual of the [[topological vector space|TVS]] $S$. Since the continuous inclusion $i: S \to H$ is dense, it follows that any continuous functional 
+Meanwhile the Schwartz space $S$ carries its own topology (as described in the article [[distribution]]), stronger than the topology it inherits from $H$, and the space of tempered distributions $S^*$ is defined to be the continuous dual of the [[topological vector space]] $S$. Since the continuous inclusion $i: S \to H$ is dense, it follows that any continuous functional 
 
 $$f: S \to \mathbb{C}$$ 
 
@@ -57,5 +57,11 @@ Formulation of Quantum Mechanics_  Foundations of Physics, Vol. 32, No. 6, (2002
 See also
 
 * S. Wickramasekara, A. Bohm, _Symmetry Representations in the Rigged Hilbert Space Formulation of Quantum Mechanics _ ([arXiv](http://arxiv.org/abs/math-ph/0302018))
+
+## See also
+
+Discussion on MathOverflow
+
+* [_Good references for Rigged Hilbert spaces?_](https://mathoverflow.net/questions/43313/good-references-for-rigged-hilbert-spaces)
 
 [[!redirects rigged Hilbert spaces]]
