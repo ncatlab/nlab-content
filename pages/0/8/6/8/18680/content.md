@@ -228,7 +228,15 @@ What should be the [[categorical semantics]] of dependent linear type theory was
 
 ## Related concepts
 
-* [[indexed monoidal (∞,1)-category]]
+* dependent linear type theory has [[categorical semantics]] in:
+
+  [[indexed monoidal (∞,1)-category]]
+
+* [[linear type theory]]
+
+* [[quantum logic]], [[quantum programming]]
+
+* [[dependent type theory]]
 
 ## References
  {#References}
@@ -257,8 +265,6 @@ More recent work in the type-theoretic literature includes:
 
 * M. Gaboardi et al., _Linear Dependent Types for Differential Privacy_, in POPL '13, 2013.
 
-* {#FKS20} Peng Fu, Kohei Kishida, Peter Selinger, _Linear Dependent Type Theory for Quantum Programming Languages_, in LICS 2020; [DOI](https://dl.acm.org/doi/10.1145/3373718.3394765), [PDF](https://depend.cs.uni-saarland.de/lics-icalp/papers/B5.F), [video](https://www.youtube.com/watch?v=GUT8j4V6Nzg).
-
 Proposals for a genuine [[syntax]] for dependent linear type theory are in
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
@@ -267,7 +273,7 @@ Proposals for a genuine [[syntax]] for dependent linear type theory are in
 
 * {#KPB15} [[Neelakantan Krishnaswami]], Pierre Pradic, [[Nick Benton]], _Integrating Dependent and Linear Types_, POPL 15  ([pdf](https://www.cl.cam.ac.uk/~nk480/dlnl-paper.pdf))
 
-* [[Martin Lundfall]], _A diagram model of linear dependent type theory_, ([arXiv:1806.09593](https://arxiv.org/abs/1806.09593))
+* Martin Lundfall, _A diagram model of linear dependent type theory_, ([arXiv:1806.09593](https://arxiv.org/abs/1806.09593))
 
 Semantics for dependent linear type theory and linear homotopy type theory are discussed in
 
@@ -278,6 +284,15 @@ Semantics for dependent linear type theory and linear homotopy type theory are d
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_,([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
 
 * {#Schreiber14} [[Urs Schreiber]], _Quantization via Linear Homotopy Types_, ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
+
+
+As a [[quantum programming language]]:
+
+* {#FKS20} [[Peng Fu]], [[Kohei Kishida]], [[Peter Selinger]], _Linear Dependent Type Theory for Quantum Programming Languages_, LICS '20: Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer ScienceJuly 2020 Pages 440–453 ([arXiv:2004.13472](https://arxiv.org/abs/2004.13472), [doi:10.1145/3373718.3394765](https://dl.acm.org/doi/10.1145/3373718.3394765), [pdf](https://depend.cs.uni-saarland.de/lics-icalp/papers/B5.F), [video](https://www.youtube.com/watch?v=GUT8j4V6Nzg))
+
+specifically implemented for [[Quipper]]:
+
+* [[Peng Fu]], [[Kohei Kishida]], [[Neil Ross]], [[Peter Selinger]],  _A Tutorial Introduction to Quantum Circuit Programming in Dependently Typed Proto-Quipper_, in I. Lanese, M. Rawski  (eds.) _Reversible Computation_ RC 2020. Lecture Notes in Computer Science, vol 12227 ([arXiv:2005.08396](https://arxiv.org/abs/2005.08396), [doi:10.1007/978-3-030-52482-1_9](https://doi.org/10.1007/978-3-030-52482-1_9))
 
 
 [[!redirects dependent linear type theories]]
