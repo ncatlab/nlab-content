@@ -33,7 +33,7 @@ Review:
 
 * {#Gilkey95} [[Peter Gilkey]], Section 5.2 of: _Invariance Theory: The Heat Equation and the Atiyah-Singer Index Theorem_, 1995 ([pdf](https://pages.uoregon.edu/gilkey/dirPDF/InvarianceTheory1Ed.pdf))
 
-* Rafe Mazzeo, _The Atiyah-Singer Index theorem: what it is and why you should care_, ([slides](https://www2.bc.edu/patrick-orson/indextheory/asit3.pdf))
+* Rafe Mazzeo, _The Atiyah-Singer Index theorem: what it is and why you should care_, ([slides](https://docplayer.net/52573131-The-atiyah-singer-index-theorem-what-it-is-and-why-you-should-care-rafe-mazzeo-october-10-2002.html))
 
 See also 
 
