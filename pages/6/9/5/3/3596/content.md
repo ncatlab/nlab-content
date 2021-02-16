@@ -283,7 +283,7 @@ Assume then that a category $\mathcal{C}$ with suitable WFSs has been chosen, fo
     \,.
   $$
 
-  The elimination rule says that given such $t$, there exists a compatible section of $C \to Id_A$. If we redraw the previous diagram as a square, then this section is a _[[lifting problem|lift]]_ in that diagram
+  The elimination rule says that given such $t$, there exists a compatible section of $C \to A^I$. If we redraw the previous diagram as a square, then this section is a _[[lifting problem|lift]]_ in that diagram
 
   $$
     \array{   
