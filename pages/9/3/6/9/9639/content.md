@@ -31,6 +31,10 @@ The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological i
 
 ## Related concepts
 
+* [[Hall effect]]
+
+* [[spin Hall effect]], [[quantum spin Hall effect]]
+
 * [[braid group statistics]], [[anyon]]
 
 * [[topological insulator]]
