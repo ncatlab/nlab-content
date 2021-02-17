@@ -84,7 +84,7 @@ If $C$ has a [[terminal object]] $\ast$, then the $J$-injective objects $I$ acco
 Ones says that a category $C$ has **enough injectives** if every object admits a [[monomorphism]] into an injective object.
 
 
-=---
+=--
 
 
 
@@ -709,6 +709,8 @@ Textbook accounts:
 
 * {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], p. 30 in: _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4 ([doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/hilton-stammbach.pdf))
 
+(used, e.g., for the proof of [Lemma](#Adjuncts_Injectives)); 
+
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], sections 9.5, 14.1 of:_[[Categories and Sheaves]]_
 
@@ -756,8 +758,6 @@ For injective toposes in the 2-category of [[bounded topos|bounded toposes]] see
 * [[Peter Johnstone]], _Injective Toposes_ , pp.284-297 in LNM **871** Springer Heidelberg 1981.
 
 * [[Peter Johnstone]], _Sketches of an Elephant vol. 2_ , Cambridge UP 2002. (section C4.3, pp.738-745)
-
-For the proof of [Lemma](#Adjuncts_Injectives) we consulted
 
 
 [[!redirects injective objects]]
