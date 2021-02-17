@@ -94,35 +94,20 @@ A category has equalizers if it has binary [[product]]s and [[pullback]]s.
 +-- {: .proof}
 ###### Proof
 
-For $S \stackrel{\overset{g}{\longrightarrow}}{\underset{f}{\longrightarrow}} T$ the given diagram, first form the [[pullback]]
+For $S \stackrel{\overset{g}{\longrightarrow}}{\underset{f}{\longrightarrow}} T$ the given diagram, form the [[pullback]]
 
 $$
   \array{
-    S \times_{f,g} S &\to& S
-    \\
-    \downarrow && \downarrow^{\mathrlap{g}}
-    \\
-    S &\stackrel{f}{\to}& T
+     eq(f,g) &\to& S 
+     \\
+     \downarrow && \downarrow \mathrlap{(f, g)}
+     \\
+     T &\stackrel{(id, id)}{\to}&  T \times T
   }
   \,.
 $$
 
-This gives a morphism $S \times_{f,g} S \to S \times S$ into the [[product]].
-
-Define $eq(f,g)$ to be the further pullback
-
-$$
-  \array{
-     eq(f,g) &\to& S \times_{f,g} S
-     \\
-     \downarrow && \downarrow 
-     \\
-     S &\stackrel{(id, id)}{\to}&  S \times S
-  }
-  \,.
-$$
-
-One checks that the vertical morphism $eq(f,g) \to S$ equalizes $f$ and $g$ and that it does so universally.
+One checks that the horizontal morphism $eq(f,g) \to S$ equalizes $f$ and $g$ and that it does so universally.
 =--
 
 +-- {: .num_prop}
