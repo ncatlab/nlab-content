@@ -46,9 +46,27 @@ The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological i
 
 ### General
 
+Review:
+
+* {#vonKlitzing86} [[Klaus von Klitzing]], _The quantized Hall effect_, Rev. Mod. Phys. 58, 519 (1986) ([doi:10.1103/RevModPhys.58.519](https://doi.org/10.1103/RevModPhys.58.519))
+
+* _The quantum Hall effect_ ([pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf))
+
+### Integral quantum Hall effect
+
+Original articles:
+
+* [[Klaus von Klitzing]], G. Dorda, and M. Pepper, _New Method for High-Accuracy Determination of the Fine-Structure Constant Based on Quantized Hall Resistance_, Phys. Rev. Lett. 45, 494 (1980) ([doi:10.1103/PhysRevLett.45.494](https://doi.org/10.1103/PhysRevLett.45.494))
+
+* M. A. Paalanen, D. C. Tsui, and A. C. Gossard, _Quantized Hall effect at low temperatures_, Phys. Rev. B 25, 5566(R) April 1982 ([doi:10.1103/PhysRevB.25.5566](https://doi.org/10.1103/PhysRevB.25.5566))
+
 See also:
 
-* Wikipedia, _[Quantum Hall effect](https://en.wikipedia.org/wiki/Quantum_Hall_effect)_, _[Fractional quantum Hall effect](http://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)_
+* Wikipedia, _[Quantum Hall effect](https://en.wikipedia.org/wiki/Quantum_Hall_effect)_, 
+
+### Fractional quantum Hall effect
+
+* Wikipedia _[Fractional quantum Hall effect](http://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)_
 
 A quick review of the description via [[Chern-Simons theory]] with further pointers is in the introduction of 
 
