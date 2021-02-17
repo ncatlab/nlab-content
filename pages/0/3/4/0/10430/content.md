@@ -16,7 +16,14 @@
 
 ## Idea
 
-The _quantum spin Hall effect_, is a variant of the _[[quantum Hall effect]]_ where [[spin-orbit coupling]] in the material takes the role of the external [[magnetic field]].
+A _quantum spin Hall effect_, is
+
+1. a variant of the [[spin Hall effect]] where [[quantum physics|quantum effetcs]] play a role;
+
+1. a variant of the _[[quantum Hall effect]]_ where [[spin-orbit coupling]] in the underlying material (typically a [[topological insulator]]) takes the role of the external [[magnetic field]].
+
+The fact that no external field is needed in a quantum spin Hall effect make the materials that exhibit this effect (e.g. certain [[topological insulators]]) be attractive substrates for operating on the corresponding [[anyon]]-excitations. This makes the quantum spin Hall materials potential hardware for [[topological quantum computation]].
+
 
 ## Related concepts
 
@@ -41,6 +48,9 @@ in [[topological insulators]] based on mercury telluride ("[HgTe quantum wells](
 
   > [[Xiao-Gang Wen]]$\,$[comments (Oct. 2013)](https://ncatlab.org/nlab/revision/diff/quantum+spin+Hall+effect/2):  In fact, the above material have no quantum spin Hall effect since the spin is not conserved due to the spin-orbital interaction that makes the material non trivial, or the _Quantum spin Hall effect_ defined in the paper is different from that defined in the Wiki: http://en.wikipedia.org/wiki/Quantum_spin_Hall_effect 
 
+Experimental detection:
+
+* Markus König, Steffen Wiedmann, Christoph Brüne, Andreas Roth, Hartmut Buhmann, _Quantum Spin Hall Insulator State in HgTe Quantum Wells_, Science  02 Nov 2007, Vol. 318, Issue 5851, pp. 766-770 ([doi:10.1126/science.1148047 ](https://science.sciencemag.org/content/318/5851/766))
 
 Review:
 
