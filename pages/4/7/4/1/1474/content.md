@@ -321,7 +321,7 @@ is an [[epimorphism]].
 
 \end{proposition}
 
-Here is an abstract proof using a little [[category theory]]:
+Here is a proof in the language of [[category theory]]:
 
 \begin{proof}
 
@@ -342,14 +342,14 @@ into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies
 
 $$\array{
 E & \to & Y \\
-\downarrow & & \downarrow \mathrlap{\delta} \\
+\downarrow & & \downarrow \mathrlap{\Delta} \\
 X & \underset{(f, g)}{\to} & Y \times Y. 
 }$$ 
 
-Since $Y$ is Hausdorff, the subset $\delta: Y \to Y \times Y$ is closed, and the pullback $E \hookrightarrow X$ of this closed subset along the continuous map $(f, g)$ is also closed. Since $E$ is a closed subset of $X$ and contains a dense subspace $i: A \hookrightarrow X$, it must be all of $X$ (as a subset of itself). 
+Since $Y$ is Hausdorff, the subset $\Delta: Y \to Y \times Y$ is closed, and the pullback $E \hookrightarrow X$ of this closed subset along the continuous map $h = (f, g)$, which is $E = h^{-1}(\Delta)$, is also closed. Since $E$ is a closed subset of $X$ and contains a dense subspace $i: A \hookrightarrow X$, it must be all of $X$ (as a subset of itself). 
 \end{proof}
 
-Alternatively, here is an explicit proof with [[general topology|basic topology]]:
+Alternatively, here is a proof in the language of [[general topology|basic topology]]:
 
 \begin{proof}
 
