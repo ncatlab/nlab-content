@@ -23,7 +23,7 @@ It is also possible to write a program in some less strongly typed language and 
 
 So far, fully certified programming in the type-theoretic sense is largely an academic endeavor, see for instance ([SpittersKrebbersvdWeegen](#SpittersKrebbersvdWeegen)); the tools available at present usually require too much time and effort to be worth the payoff in industry.  As automation progresses, this may change.
 
-From the description of the 2015 EPSRC research grant _[Homotopy Type Theory: Programming and Verification](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/M016951/1)_ of [[Neil Ghani]], [[Thorsten Altenkirch]], [[Nicola Gambino]] et al.:
+From [Ghani et al. 15](#GhaniEtAl15):
 
 > The cost of software failure is truly staggering. Well known individual cases include the Mars Climate Orbiter failure (&#163;80 million), Ariane Rocket disaster (&#163;350 million), Pentium Chip Division failure (&#163;300 million), and more recently the heartbleed bug (est. &#163;400 million). There are many, many more examples. Even worse,  failures such as one in the Patriot Missile System and another  in the Therac-25 radiation system have cost lives. More generally, a  2008 study by the US government estimated that faulty software costs the US economy &#163;100 billion annually. 
 
@@ -42,19 +42,32 @@ From the description of the 2015 EPSRC research grant _[Homotopy Type Theory: Pr
 
 ## References
 
-* [[Adam Chlipala]], _Certified programming with dependent types_ ([web](http://adam.chlipala.net/cpdt/))
-
-* [[Adam Chlipala]], _Implementing Certified Programming Language Tools in Dependent Type Theory_ PhD (2007) ([web](http://adam.chlipala.net/papers/ChlipalaPhD/))
-
-Discussion of the need for certified programming in scientific computation is in 
+Introduction:
 
 * {#SpittersKrebbersvdWeegen} [[Bas Spitters]], Robberts Krebbers, Eelis van der Weegen, _From computational analysis to thoughts about analysis in HoTT_, MAP International spring school on formalization of Mathematics (2012) ([pdf](http://www.cs.ru.nl/~spitters/MapSpringSchool.pdf))
- 
+
 Sources listing real-world issues programming issues that might motivate verification of software include
 
-* _[Some disasters caused by numerical errors](http://ta.twi.tudelft.nl/users/vuik/wi211/disasters.html)_
+* _[Some disasters caused by numerical errors](https://web.archive.org/web/20200117070005/http://ta.twi.tudelft.nl/nw/users/vuik/wi211/disasters.html)_
 
 * Wikipedia, _[List of software bugs](https://en.wikipedia.org/wiki/List_of_software_bugs)_
+
+
+Software verification via [[dependent type theory]] (such as in [[Coq]]):
+
+* [[Adam Chlipala]], _Implementing Certified Programming Language Tools in Dependent Type Theory_ PhD (2007) ([pdf](http://adam.chlipala.net/papers/ChlipalaPhD/ChlipalaPhD.pdf),  [web](http://adam.chlipala.net/papers/ChlipalaPhD/))
+
+* [[Adam Chlipala]], _Certified programming with dependent types_, MIT Press 2013 ([ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/), )
+
+Proposals to extend this to [[homotopy type theory]]:
+
+* {#GhaniEtAl15} [[Neil Ghani]], [[Thorsten Altenkirch]], [[Nicola Gambino]] et al.:, EPSRC research grant _[Homotopy Type Theory: Programming and Verification](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/M016951/1)_, 2015 
+
+
+
+Verification of [[quantum programming languages]] such as [[Quipper]]:
+
+* Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds) Reversible Computation. RC 2016. Lecture Notes in Computer Science, vol 9720. Springer, Cham ([doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16))
  
 
 [[!redirects verified software]]
