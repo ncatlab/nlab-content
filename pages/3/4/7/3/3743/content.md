@@ -69,7 +69,7 @@ August __15__:4, 2007, pp 415-437  [doi](http://dx.doi.org/10.1007/s10485-007-90
 
 Again within the context of higher dimensional forms of rewriting, [[Tibor Beke]] has given a categorification of certain rewriting procedures of Knuth. This is of relevance here as it contains a strong result on coherence theory:
 
-* [[Tibor Beke]], [Categorification, term rewriting and the Knuth-Bendix procedure](http://faculty.uml.edu/tbeke/knuth.pdf)
+* [[Tibor Beke]], _Categorification, term rewriting and the Knuth-Bendix procedure_, J. Pure and Applied Algebra 215:5 (2011) 728-740 ([pdf](http://faculty.uml.edu/tbeke/knuth.pdf) at author's page) [doi:10.1016/j.jpaa.2010.06.019](https://doi.org/10.1016/j.jpaa.2010.06.019)
 
 There is a preprint by [[Samuel Mimram]]
 
