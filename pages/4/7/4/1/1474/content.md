@@ -317,7 +317,7 @@ $$
   A \overset{\;\;i\;\;}{\hookrightarrow} X
 $$ 
 
-is an [[epimorphism]].
+is an [[epimorphism]]. 
 
 \end{proposition}
 
@@ -338,7 +338,7 @@ $$
   Y
 $$
 
-into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. Equivalently, that $f \circ i = g \circ i$ implies that $1_X \colon X \to X$ is the [[equalizer]] of the pair $(f, g)$. But the equalizer $E \to X$ is formed by taking a [[pullback]] of the [[diagonal map]] $\delta \colon Y \to Y \times Y$ along $(f, g) \colon X \to Y \times Y$: 
+into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. Equivalently, that $f \circ i = g \circ i$ implies that $1_X \colon X \to X$ is the [[equalizer]] of the pair $(f, g)$. But the equalizer $E \to X$ is formed by taking a [[pullback]] of the [[diagonal map]] $\Delta \colon Y \to Y \times Y$ along $(f, g) \colon X \to Y \times Y$: 
 
 $$\array{
 E & \to & Y \\
@@ -347,7 +347,9 @@ X & \underset{(f, g)}{\to} & Y \times Y.
 }$$ 
 
 Since $Y$ is Hausdorff, the subset $\Delta: Y \to Y \times Y$ is closed, and the pullback $E \hookrightarrow X$ of this closed subset along the continuous map $h = (f, g)$, which is $E = h^{-1}(\Delta)$, is also closed. Since $E$ is a closed subset of $X$ and contains a dense subspace $i: A \hookrightarrow X$, it must be all of $X$ (as a subset of itself). 
-\end{proof}
+\end{proof} 
+
+Note, incidentally, that $X$ itself doesn't have to be Hausdorff for the argument to go through. 
 
 Alternatively, here is a proof in the language of [[general topology|basic topology]]:
 
