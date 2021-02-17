@@ -68,3 +68,5 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 
 [[!redirects orthogonal complement]]
 [[!redirects orthogonal complements]]
+
+[[!redirects perpendicular]]
