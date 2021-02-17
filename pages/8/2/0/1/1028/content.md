@@ -100,7 +100,7 @@ $$
   \array{
      eq(f,g) &\to& S 
      \\
-     \downarrow && \downarrow \mathrlap{(f, g)}
+     \big\downarrow && \big\downarrow \mathrlap{(f, g)}
      \\
      T &\stackrel{(id, id)}{\to}&  T \times T
   }
