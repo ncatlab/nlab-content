@@ -89,6 +89,12 @@ On the vortex flux tubes as dynamical [[vortex string|vortex strings]]:
 
 
 
+
+[[!include anyons in topological superconductors -- references]]
+
+
+
+
 ### Discussion via AdS/CFT
 
 
@@ -115,6 +121,9 @@ Via [[topological phases of matter]]:
 [[!redirects superconductor]]
 [[!redirects superconductors]]
 
+[[!redirects topological superconductor]]
+[[!redirects topological superconductors]]
+
 [[!redirects type I superconductor]]
 [[!redirects type I superconductors]]
 
@@ -126,6 +135,7 @@ Via [[topological phases of matter]]:
 
 [[!redirects Meissner effect]]
 [[!redirects Meissner-Ochsenfeld effect]]
+
 
 
 
