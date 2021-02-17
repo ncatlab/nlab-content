@@ -337,12 +337,15 @@ $$
   Y
 $$
 
-into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. With [[classical logic]] we may equivalently show the [[contrapositive]]: That $f \neq g$ implies $f \circ i \neq  g \circ i$.
+into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. Equivalently, that $f \circ i = g \circ i$ implies that $1_X: X \to X$ is the [[equalizer]] of the pair $(f, g)$. But the equalizer $E \to X$ is formed by taking a pullback of the diagonal map $\delta: Y \to Y \times Y$ along $(f, g): X \to Y \times Y$: 
 
-So assume that $f \neq g$. This means that there exists $y \in Y$ with $f(y) \neq g(y)$. Since $Y$ is Hausdorff, there exist then [[disjoint subset|disjoint]] [[open neighbourhoods]] $O_{f(y)},\;O_{g(y)} \subset Y$, i.e. $f(x) \in O_{f(x)}$ and $g(x) \in O_{g(x)}$ with $O_{f(x)} \cap O_{g(x)} = \varnothing$.
+$$\array{
+E & \to & Y \\
+\downarrow & & \downarrow \mathrlap{\delta} \\
+X & \underset{(f, g)}{\to} & Y \times Y. 
+}$$ 
 
-But their [[preimages]] must intersect at least in $x \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$. Since this intersection is an [[open subset]] (as preimages of open subsets are open by definition of [[continuous functions]], and since finite [[intersections]] of open subsets are open by the definition of [[topological spaces]]) there exists a point $a \in A$ with $i(a) \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$ (by definition of [[dense subset]]). But since then $f(i(a)) \in O_{f(x)}$ and $g(i(a)) \in O_{g(x)}$ while $O_{f(x)}$ is [[disjoint subset|disjoint]] from $O_{g(x)}$, it follows that $f(i(a)) \neq g(i(a))$. This means that $f \circ i \neq g \circ i$. 
-
+Since $Y$ is Hausdorff, the subset $\delta: Y \to Y \times Y$ is closed, and the pullback $E \hookrightarrow X$ of this closed subset along the continuous map $(f, g)$ is also closed. Since $E$ is a closed subset of $X$ and contains a dense subspace $i: A \hookrightarrow X$, it must be all of $X$ (as a subset of itself). 
 \end{proof}
 
 \linebreak
