@@ -327,6 +327,9 @@ The following articles discuss (aspects of) the path integral for the [[charged 
 
 * Dana Fine, Stephen Sawin, _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
 
+* Florian Hanisch, Matthias Ludewig, _A Rigorous Construction of the Supersymmetric Path Integral Associated to a Compact Spin Manifold_, ([arXiv:1709.10027](https://arxiv.org/abs/1709.10027))
+
+
 A discussion for [[phase spaces]] equipped with a [[Kähler polarization]] and a [[prequantum line bundle]] is in 
 
 * Laurent Charles, _Feynman path integral and Toeplitz Quantization_, Helv. Phys. Acta **72** (1999) 341., ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
