@@ -165,6 +165,11 @@ On the [[phase diagram]] of [[QCD]]:
 
 * {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ ([arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068))
 
+Via [[lattice QCD]]:
+
+* Jana N. Guenther, _Overview of the QCD phase diagram -- Recent progress from the lattice_ ([arXiv:2010.15503](https://arxiv.org/abs/2010.15503))
+
+
 ### History
 
 * [[George Zweig]], _Origins of the quark model_, 1980 ([pdf](https://authors.library.caltech.edu/18969/1/Origins_of_the_Quark_Model_Final_Zweig%5B1%5D.pdf), [[ZweigQuarkModel1980.pdf:file]])
