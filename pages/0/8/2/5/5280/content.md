@@ -75,7 +75,7 @@ j(y) & = & g(y) & \; \text{if} \; y \notin \exists_f(A)
 That $j$ is inverse to $h$ uses the fact that $\neg A = \exists_g \neg \exists_f(A)$. The rest is obvious. 
 =--
 
-This classic proof is substantially the proof given in Johnstone's [[Elephant]], D4.1.11. The Boolean condition is not *strictly speaking* necessary, i.e., the [[principle of excluded middle]] ($EM$) does not logically follow from the Cantor--Schroeder--Bernstein statement since, for example, the latter holds vacuously (every mono is an iso) in the non-Boolean topos 
+This classic proof is substantially the proof given in Johnstone's [[Elephant]], D4.1.11. The Boolean condition is not *strictly speaking* necessary, i.e., the [[principle of excluded middle]] ($EM$) does not logically follow from the Cantor--Schroeder--Bernstein statement since, for example, the latter holds vacuously (every monic endomorphism is an isomorphism) in the non-Boolean topos 
 
 $$FinSet^C$$ 
 
