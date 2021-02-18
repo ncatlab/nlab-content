@@ -354,7 +354,7 @@ is the corresponding $Spin^c$-structure.
 
 ## Related concepts
 
-* [[spin^c|spin<sup><i>c</i></sup>]]
+* [[spin^c|spin<sup><i>c</i></sup>]], [[MSpin^c|MSpin<sup><i>c</i></sup>]]
 
 * [[twisted differential c-structures|(twisted, differential) c-structures]]
 
