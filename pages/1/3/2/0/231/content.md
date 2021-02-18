@@ -657,18 +657,14 @@ This shows that it is a bit of an illusion to think of a _pentagon_ identity: th
 We can formulate this identification of structure morphisms and coherence laws with orientals more formally using the general notion of [[descent]], which was indeed the original motivation for conceiving the orientals. The descent $\infty$-category $Desc(Y,A)$ (constructed in terms of orientals) can be regarded as a way to formalize "lax $\infty$-functor from $Y$ to $A$".
 
 Indeed, using observations pretty much as just sketched, one finds that for $C$ a 2-category that
-
 $$
   Desc(pt, C) \simeq WeakMonoids(C)
 $$
-
 and for $C$ the 3-category $\mathbf{B}Cat$ we have
-
 $$
   Desc(pt, \mathbf{B}Cat) \simeq LaxMonCat
   \,,
 $$
-
 where the 2-category on the right is defined as $MonCat$ above, but with the associator not required to be an isomorphism.
 
 
@@ -705,6 +701,16 @@ We can remedy this by replacing in the definition of the descent $\infty$-catego
 
 * [[premonoidal category]]
 
+* [[Hopf monoidal category]]
+
+* [[indexed monoidal category]]
+
+* [[traced monoidal category]]
+
+* [[monoidal category with diagonals]]
+
+* [[relevance monoidal category]]
+
 * [[distributivity for monoidal structures]]
 
   * [[distributive monoidal category]]
@@ -715,10 +721,14 @@ We can remedy this by replacing in the definition of the descent $\infty$-catego
 
   * [[rig category]]
 
+  * [[duoidal category]], [[bimonoidal category]]
+
 
 higher versions
 
 * [[monoidal bicategory]]
+
+* [[monoidal 2-category]]
 
 * [[monoidal (∞,1)-category]]
 
@@ -732,10 +742,6 @@ higher versions
 
 * [[MonCat]]
 
-* [[indexed monoidal category]]
-
-* [[traced monoidal category]]
-
 * [[no-cloning theorem]]
 
 * [[Drinfeld center]]
@@ -748,19 +754,7 @@ higher versions
 
 * [[semisimple category]]
 
-* [[distributivity for monoidal structures]]
-
-  * [[duoidal category]], [[bimonoidal category]]
-
-* [[braided monoidal category]], [[symmetric monoidal category]]
-
-* [[Hopf monoidal category]]
-
 * [[monoidal topos]]
-
-* [[monoidal (infinity,1)-category]]
-
-* [[monoidal 2-category]]
 
 * [[DisCoPy]]
 
