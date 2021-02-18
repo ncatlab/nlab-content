@@ -212,13 +212,13 @@ such that these are compatible in that
 +-- {: .num_prop #UniversalEOrientationsAreEquivalentlyMorphismsOfRingSpectra}
 ###### Proposition
 
-A universal $E$-orientation, in the sense of def. \ref{EOrientationOfABfStructure}, for vector bundles with [[(B,f)-structure]] $\mathcal{B}$, is equivalently (the homotopy class of) a homomorphism of [[ring spectra]]
+A universal $E$-orientation, in the sense of def. \ref{EOrientationOfABfStructure}, for vector bundles with [[(B,f)-structure]] $\mathcal{B}$, is equivalently (the homotopy class of) a homomorphism of [[homotopy-commutative ring spectra]]
 
 $$
   \xi \;\colon\; M\mathcal{B} \longrightarrow E
 $$
 
-from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which via the [[Brown representability theorem]] represents the given [[generalized (Eilenberg-Steenrod) cohomology theory]] $E$ (and which we denote by the same symbol).
+from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which, via the [[Brown representability theorem]], represents the given [[generalized (Eilenberg-Steenrod) cohomology theory]] $E$ (and which we denote by the same symbol).
 
 =--
 
