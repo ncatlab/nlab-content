@@ -67,6 +67,16 @@ If $S$ is a [[Noetherian scheme]] of finite [[Krull dimension]], then the [[(∞
 
 This is [DAG XI, Theorem 2.24](#DAGXI). As a consequence, [[Postnikov tower]]s are convergent in the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] on the Nisnevich site over $S$, and in particular that (∞,1)-topos is [[hypercomplete]].
 
++-- {: .num_prop}
+###### Proposition
+More generally, if $S$ is a pro-algebraic space limit of a cofiltered diagram of qcqs algebraic spaces of Krull dimension $\leq d$, then the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] on the small Nisnevich site of $S$ has [[homotopy dimension]] $\leq d$. 
+
+=--
+
+This is Clausen and A. Mathew, Hyperdescent and etale K-theory, 2019, arXiv:1905.06611, Cor.3.11, Thm.3.12, and Thm.3.17.
+
+
+
 ## Related concepts
 
 * [[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ **Nisnevich site** $\to$ [[Zariski site]]
