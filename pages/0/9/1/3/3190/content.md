@@ -7,6 +7,12 @@
 
 ## Selected writings
 
+
+Introducing the [[Atiyah-Bott-Shapiro orientation]] [[MSpin]]$\to$[[KO]] and [[MSpin^c|MSpin<sup><i>c</i></sup>]]$\to$[[KU]]:
+
+* {#AtiyahBottShapiro64} [[Michael Atiyah]], [[Raoul Bott]], [[Arnold Shapiro]], _Clifford modules_, Topology Volume 3, Supplement 1, July 1964, Pages 3-38 (<a href="https://doi.org/10.1016/0040-9383(64)90003-5">doi:10.1016/0040-9383(64)90003-5</a>, [pdf](http://dell5.ma.utexas.edu/users/dafr/Index/ABS.pdf))
+
+
 On the [[Chern-Weil homomorphism]]:
 
 * [[Raoul Bott]], _On the Chern-Weil homomorphism and the continuous cohomology of Lie-groups_, Advances in Mathematics Volume 11, Issue 3, December 1973, Pages 289-303 (<a href="https://doi.org/10.1016/0001-8708(73)90012-1">doi:10.1016/0001-8708(73)90012-1</a>)
@@ -22,8 +28,7 @@ On the [[simplicial de Rham complex]] and [[equivariant de Rham cohomology]]:
 On the [[rigidity theorem for elliptic genera]]:
 
 
-* [[Raoul Bott]], [[Clifford Taubes]], _On the Rigidity Theorems of Witten_, Journal of the American Mathematical Society
-Vol. 2, No. 1 (Jan., 1989), pp. 137-186 ([doi:10.2307/1990915](https://doi.org/10.2307/1990915))
+* [[Raoul Bott]], [[Clifford Taubes]], _On the Rigidity Theorems of Witten_, Journal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 137-186 ([doi:10.2307/1990915](https://doi.org/10.2307/1990915))
 
 * [[Raoul Bott]], _On the Fixed Point Formula and the Rigidity Theorems of Witten_, Lectures at Cargése 1987. In: ’t Hooft G., Jaffe A., Mack G., Mitter P.K., Stora R. (eds) _Nonperturbative Quantum Field Theory_. NATO ASI Series (Series B: Physics), vol 185. Springer (1988) ([doi:10.1007/978-1-4613-0729-7_2](https://doi.org/10.1007/978-1-4613-0729-7_2))
 
