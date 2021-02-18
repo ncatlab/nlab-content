@@ -63,17 +63,15 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[cobordism cohomology theory]]
 
-* [[MFr]]
+* [[MFr]]$\to$[[MSp]]$\to$[[MSU]]$\to$[[MU]]
 
-* [[MSp]]
-
-* [[MSU]]
-
-* [[MU]]
+* [[Conner-Floyd orientation]] 
 
 ### 6. The homomorphism $\mu_c$
 
 * [[Thom isomorphism]]
+
+* [[rational Todd class is Chern character of Thom class]]
 
 ## Cobordism Characteristic Classes
 
