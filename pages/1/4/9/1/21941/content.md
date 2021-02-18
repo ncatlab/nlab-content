@@ -102,7 +102,7 @@ $$
 
 =--
 
-(see [Smith 73, p. 303 (3 of 10)](#Smith73))
+(see [Smith 73, p. 303 (3 of 10)](#Smith73), following [Conner-Floyd 66, Section 6](#ConnerFloyd66))
 
 
 ## Related theorems
@@ -113,9 +113,7 @@ $$
 
 ## References
 
-The statement appears without proof in:
-
-* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], p. 99 (first line) in:  _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 6 and p. 99 (first line) in:  _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 Proof is spelled out in:
 
