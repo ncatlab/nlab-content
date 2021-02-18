@@ -158,7 +158,7 @@ $$
   P^{h +k - i}P^i
 $$
 
-and if $0 \lt h \lt p k$ then
+and if $0 \lt h \le p k$ then
 
 $$
   \begin{aligned}
