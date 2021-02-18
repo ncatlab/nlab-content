@@ -79,7 +79,8 @@ This classic proof is substantially the proof given in Johnstone's [[Elephant]],
 
 $$FinSet^C,$$ 
 
-but this is a non-Boolean topos provided that $C$ is any [[finite category]] that is not a [[groupoid]], e.g., $C = \mathbf{2}$. But that being said, $EM$ is certainly the most natural supposition to make. In fact EM does constructively follow from the Cantor-Schroeder-Bernstein statement provided that a [[natural numbers object]] exists; see [Pradic and Brown, 2019](#PB19). 
+but this is a non-Boolean topos provided that $C$ is any [[finite category]] that is not a [[groupoid]], e.g., $C = \mathbf{2}$. But that being said, $EM$ is certainly the most natural supposition to make. In fact EM does constructively follow from the Cantor-Schroeder-Bernstein statement provided that a [[natural numbers object]] exists; see [Pradic and Brown, 2019](#PB19).
+A proof that in a topos CSB+NNO implies Booleanness is outlined in [Freyd  1994](#Freyd94).
 
 ### Alternative construction of a fixed point {#alt}
 
@@ -245,6 +246,7 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 
 * {#MM} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, Springer-Verlag 1992. 
 
+* {#Freyd94}[[Peter Freyd]], _Cantor-Bernstein - message to the category theory mailing list_, February 1994. ([link](https://www.mta.ca/~cat-dist/archive/1994/94-2))
 
 * {#PB19} Pierre Pradic, Chad E. Brown, *Cantor-Bernstein implies Excluded Middle*, 2019 ([arxiv:1904.09193](https://arxiv.org/abs/1904.09193))
 
