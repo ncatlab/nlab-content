@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Algebraic topology
 +--{: .hide}
-[[!include cohomology - contents]]
-=--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
+[[!include algebraic topology - contents]]
 =--
 #### Higher algebra
 +--{: .hide}
@@ -42,16 +38,16 @@ If so one often says that _the cobordism theory determines the homology theory_ 
 
 ## Examples
 
-Originally this was shown to be the case by ([Conner-Floyd 66](#ConnerFloyd66)) for $E= $[[KU]] with its canonical [[complex oriented cohomology theory|complex orientation]] $MU \to KU$ (they also showed the case for [[KO]] with $M Sp \to KO$). Later the [[Landweber exact functor theorem]] ([Landweber 76](#Landweber76)) generalized this to all [[complex oriented cohomology theories]] $M U \to E$. 
+Originally this was shown to be the case by ([Conner-Floyd 66](#ConnerFloyd66), see _[[Conner-Floyd isomorphism]]_) for $E= $[[KU]] with its canonical [[complex oriented cohomology theory|complex orientation]] $MU \to KU$ (they also showed the case for [[KO]] with [[MSp]] $\to$[[KO]]). Later the [[Landweber exact functor theorem]] ([Landweber 76](#Landweber76)) generalized this to all [[complex oriented cohomology theories]] [[MU]]$\to E$. 
 
-The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topological K-theory]], namely $M Spin^c \to KU$ and $M Spin \to KO$ is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). 
+The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topological K-theory]], namely [[MSpin^c|MSpin<sup><i>c</i></sup>]] $\to$ [[KU]] and [[MSpin]] $\to$ [[KO]] is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). 
 
 For [[elliptic cohomology]] with the [[SO orientation of elliptic cohomology]] $M SO \to Ell$ the statement is due to ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)). For the refinement to the [[spin orientation of elliptic cohomology]] of ([Kreck-Stolz 93](#KreckStolz93)) a statement is due to ([Hovey 95](#Hovey95)).
 
 
 ## Refereces
 
-* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf))
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 * {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610.
 
