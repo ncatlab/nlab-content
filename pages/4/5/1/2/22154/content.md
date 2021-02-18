@@ -84,11 +84,13 @@ $$
   }{
     A
   }
+  \cdot
   \frac{
     v 
   }{
     \rho
   }
+  \cdot
   \frac{
     B 
   }{
@@ -108,7 +110,7 @@ Here
 
 Since the first term is typicall known by construction,  knowledge of either of the remaining two terms makes the Hall effect applicable for _Hall sensors_ measuring the remaining term:
 
-* when the material properties (second term) are known, the Hall effect serves in [[magnetometers]] (measuring the last term);
+* when the material properties (second term) are known, the Hall effect serves in magnetometers (measuring the last term);
 
 * when the external magentic field is known (the third term) the Hall effect provides information about the current and/or its conducting material (the second term).
 
