@@ -77,3 +77,7 @@ and is further developed in (e.g. regarding [[Hadamard states]]) in
 [[!redirects electrodynamics]]
 
 [[!redirects Maxwell theory]]
+
+[[!redirects electrostatic force]]
+[[!redirects electrostatic forces]]
+
