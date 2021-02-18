@@ -11,6 +11,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -34,13 +35,15 @@ $$
   \,.
 $$
 
+
+
 #### The universal Atiyah-Bott-Shapiro orientation
  {#UniversalAtiyahBottShapiroOrientation}
 
 
 There is a universal [[orientation in generalized cohomology]] of
 
-* [[complex K-theory]] [[KU]] over [[spin^c structures]];
+* [[complex K-theory]]$\,$[[KU]] over [[spin^c structures]];
 
 * [[KO]] over [[spin structure]]
 
@@ -53,7 +56,7 @@ and
 
 [[MSpin^c|MSpin<sup><i>c</i></sup>]] $\longrightarrow$ [[KU]]
 
-These are (both) referred to as the _Atiyah-Bott-Shapiro orientation_ (after [Atiyah-Bott-Shapiro](#AtiyahBottShapiro)); the $E_\infty$-structure is due to ([Joachim 04](#Joachim04)).
+These are (both) referred to as the _Atiyah-Bott-Shapiro orientation_ (after [Atiyah-Bott-Shapiro 64](#AtiyahBottShapiro64)); the $E_\infty$-structure is due to ([Joachim 04](#Joachim04)).
 
 The [[genus]] induced by $M Spin \to KO$ is the [[A-hat genus]], that induced by $M Spin^c \to KU$ is the [[Todd genus]].
 
@@ -66,6 +69,40 @@ $$
 $$
 
 from [[MR-theory]] ([Kriz 01, (3.20)](#Kriz01)).
+
+#### The universal Conner-Floyd orientation
+ {#ConnerFloydOrientation}
+
+There are multiplicative [[natural transformations]] of [[multiplicative cohomology theories]], hence homomorphisms of [[homotopy-commutative ring spectra]]
+
+[[MU]] $\longrightarrow$ [[KU]]
+
+and 
+
+[[MSU]] $\longrightarrow$ [[KO]]
+
+which are compatible in that the [[diagram]] formed by the evident vertical morphisms
+
+
+\begin{xymatrix@C=15pt}
+  M S\mathrm{U}
+  \ar[rr]
+  \ar[d]
+  &&
+  K\mathrm{O}
+  \ar[d]
+  \\
+  M \mathrm{U}
+  \ar[rr]
+  &&
+  K \mathrm{U}
+\end{xymatrix}
+
+[[commuting diagram|commutes]].
+
+This _[[Conner-Floyd orientation]]_ is originally due to [Conner-Floyd 66, Section 5](#ConnerFloyd66). 
+
+The morphism [[MU]]$\to$[[KU]] reflects the [[complex oriented cohomology theory|complex orientation]] of [[KU]] via the [[universal complex orientation on MU]]. 
 
 
 ### In KK-theory
@@ -120,11 +157,17 @@ This is due to ([Hopkins-Hovey 92](#HopkinsHovey92)), a variation of the [[Conne
 
 ### In topological K-theory
 
-The $Spin$/$Spin^c$-orientation of [[KO]]/[[KU]] [[topological K-theory]] is attributed to
+The [[MSpin]]/[[MSpin^c|MSpin<sup><i>c</i></sup>]]-orientation of [[KO]]/[[KU]] [[topological K-theory]] is attributed to
 
-* {#AtiyahBottShapiro} [[Michael Atiyah]], [[Raoul Bott]], [[Arnold Shapiro]], _Clifford modules_, Topology 3(Suppl 1):3&#8211;38 ([pdf](http://dell5.ma.utexas.edu/users/dafr/Index/ABS.pdf))
+* {#AtiyahBottShapiro64} [[Michael Atiyah]], [[Raoul Bott]], [[Arnold Shapiro]], _Clifford modules_, Topology Volume 3, Supplement 1, July 1964, Pages 3-38 (<a href="https://doi.org/10.1016/0040-9383(64)90003-5">doi:10.1016/0040-9383(64)90003-5</a>, [pdf](http://dell5.ma.utexas.edu/users/dafr/Index/ABS.pdf))
 
-That the map of spectra $M Spin^c\to KU$  extendes to a homomorphism of [[E-infinity rings]] is due to
+
+The [[MSU]]/[[MU]]-orientation of [[KO]]/[[KU]] ([[Conner-Floyd orientation]]) is originally due to
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 5 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+
+That ABS-orientation $M Spin^c\to KU$  extendes to a homomorphism of [[E-infinity rings]] is due to
 
 * {#Joachim04} [[Michael Joachim]], _Higher coherences for equivariant K-theory_, in _Structured ring spectra_, volume 315 of London Math. Soc. Lecture Note Ser., pages 87&#8211;114. Cambridge Univ. Press, Cambridge, 2004 ([pdf](http://mat.uab.es/~aguade/bcat02/slides/joachim.pdf))
 
@@ -160,6 +203,8 @@ no. 6, 1139&#8211;1183 (1984)
 [[!redirects K-theory orientation]]
 [[!redirects K-theory orientations]]
 
+[[!redirects Conner-Floyd orientation]]
+[[!redirects Conner-Floyd orientations]]
 
 [[!redirects Atiyah-Bott-Shapiro orientation]]
 [[!redirects Atiyah-Bott-Shapiro orientations]]
@@ -167,3 +212,5 @@ no. 6, 1139&#8211;1183 (1984)
 
 [[!redirects Spin orientation of KO]]
 [[!redirects Spin^c orientation of KU]]
+
+
