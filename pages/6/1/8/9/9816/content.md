@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _K-orientation_ is an [[orientation in generalized cohomology]] for [[K-theory]].
+A _K-orientation_ is an [[orientation in generalized cohomology]] for [[K-theory]] (typically: [[topological K-theory]]).
 
 ## Definition
 
@@ -46,18 +46,14 @@ There is a universal [[orientation in generalized cohomology]] of
 
 hence [[E-infinity ring]] homomorphisms out of the [[Thom spectrum]] [[MSpin]]
 
-$$
-  M Spin \longrightarrow KO
-$$
+ [[MSpin]] $\longrightarrow$ [[KO]]
+
 
 and
 
-$$
-  M Spin^c \longrightarrow KU
-  \,.
-$$
+[[MSpin^c|MSpin<sup><i>c</i></sup>]] $\longrightarrow$ [[KU]]
 
-These are (both) referred to as the _Atiyah-Bott-Shapiro orientation_ (after [Atiyah-Bott-Shapiro](#AtiyahBottShapiro)), the $E_\infty$-structure is due to ([Joachim 04](#Joachim04)).
+These are (both) referred to as the _Atiyah-Bott-Shapiro orientation_ (after [Atiyah-Bott-Shapiro](#AtiyahBottShapiro)); the $E_\infty$-structure is due to ([Joachim 04](#Joachim04)).
 
 The [[genus]] induced by $M Spin \to KO$ is the [[A-hat genus]], that induced by $M Spin^c \to KU$ is the [[Todd genus]].
 
@@ -105,14 +101,18 @@ $$
   M Spin_\bullet(-)\otimes_{M Spin_\bullet} KO_\bullet \simeq KO_\bullet(-)
 $$
 
-This is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). See at _[[cobordism theory determining homology theory]]_ for more.
+This is due to ([Hopkins-Hovey 92](#HopkinsHovey92)), a variation of the [[Conner-Floyd isomorphism]]. See at _[[cobordism theory determining homology theory]]_ for more.
 
 ## Related concepts
 
 
 * [[spin^c structure]]
 
+* [[Conner-Floyd isomorphism]], [[cobordism theory determining homology theory]]
+
 * [[Grothendieck-Riemann-Roch theorem]]
+
+
 
 [[!include genera and partition functions - table]]
 
