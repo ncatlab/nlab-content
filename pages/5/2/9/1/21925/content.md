@@ -312,7 +312,11 @@ For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overse
 
 \begin{proposition}[Trivializations of d-invariant are classes in cofiber theory]
   \label{EFluxesAreCocycleInCofiberTheory}
-  There is a [[bijection]] between the set
+  There is a [[bijection]] 
+
+> No, this is wrong. It's just a map. Will fix...
+
+  between the set
   (eq:SetOfTrivializationsOfdInvariant)
   of trivializations of the d-invariant
   and the [[cohomology group]] of the unit cofiber theory
