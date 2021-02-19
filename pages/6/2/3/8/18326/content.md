@@ -36,7 +36,7 @@ A Freyd category is given by
 
 * a category $\mathbb{V}$ with finite products;
 * a symmetric [[premonoidal category]] $\mathbb{C}$, that has the same objects as $\mathbb{V}$;
-* an identity-on-objects functor $J: \mathbb{V} \to \mathbb{C}$ preserving strict symmetric premonoidal structure, whose image lies in the centre of $\mathbb{C}$. 
+* an identity-on-objects functor $J: \mathbb{V} \to \mathbb{C}$ strictly preserving symmetric premonoidal structure, whose image lies in the centre of $\mathbb{C}$. 
 
 ## Properties
 
@@ -110,5 +110,7 @@ and
 * Kazuyuki Asada. "Arrows are strong monads". Proceedings of MSFP '10. [preprint pdf](http://www-kb.is.s.u-tokyo.ac.jp/~asada/papers/arrStrMnd.pdf)
 
 [[!redirects Freyd categories]]
+[[!redirects Freyd-categories]]
+[[!redirects Freyd-category]]
 
 
