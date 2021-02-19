@@ -312,11 +312,7 @@ For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overse
 
 \begin{proposition}[Trivializations of d-invariant are classes in cofiber theory]
   \label{EFluxesAreCocycleInCofiberTheory}
-  There is a [[bijection]] 
-
-> No, this is wrong. It's just a map. Will fix...
-
-  between the set
+  There is a map  between the set
   (eq:SetOfTrivializationsOfdInvariant)
   of trivializations of the d-invariant
   and the [[cohomology group]] of the unit cofiber theory
@@ -635,7 +631,6 @@ Moreover, the [[pasting law]] implies that this bottom middle square is itself h
 
 In conclusion, these construction steps yield a map map $H^E_{n-1}\!(c) \mapsto M^d$ which is as required.
 
-It only remains to see that this map is bijective over any $\Sigma^\infty c$: So assume conversely that $M^d$ is given, and with it the above diagram  except for the dashed arrow. But since the bottom right square is homotopy cartesian, a dashed morphism is uniquely implied. By its uniqueness, this reverse assignment $M^{2d} \mapsto H^E_{n-1}\!(c)$ must be the inverse of the previous construction.
 
 \end{proof}
 
