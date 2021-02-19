@@ -75,7 +75,7 @@ It may be possible to make $(Cat,\Box)$ a [[symmetric monoidal 2-category]], in 
 
 * Every [[monoidal category]] is a premonoidal category.
 
-* If $T$ is a [[strong monad|strong and costrong monad]] on a monoidal category $C$ (e.g. a strong monad on a braided monoidal category), then the [[Kleisli category]] $C_T$ of $T$ inherits a premonoidal structure, such that the functor $C\to C_T$ is a strict premonoidal functor.  This premonoidal structure is only a monoidal structure if $T$ is a [[commutative monad]].
+* If $T$ is a [[strong monad|bistrong monad]] on a monoidal category $C$ (e.g. a strong monad on a braided monoidal category), then the [[Kleisli category]] $C_T$ of $T$ inherits a premonoidal structure, such that the functor $C\to C_T$ is a strict premonoidal functor.  This premonoidal structure is only a monoidal structure if $T$ is a [[commutative monad]].
 
 * A strict premonoidal category is the same as a [[sesquicategory]] with one object, so any object of a sesquicategory has a corresponding premonoidal category whose objects are endomorphisms and arrows are 2-cells.
 
@@ -87,6 +87,15 @@ The central morphisms of a premonoidal category $C$ form a [[subcategory]] $Z(C)
 
 In the same way that a (strict) monoidal category can be identified with a (strict) [[2-category]] with one object, a strict premonoidal category can be identified with a [[sesquicategory]] with one object.  In fact, a sesquicategory is precisely a category [[enriched category|enriched]] over the monoidal category $(Cat,\otimes)$ described above.
 
+## Morphisms
+
+A notion of (non-strict) *premonoidal functor* is somewhat tricky to define.  Part of the definition is clear: it should be a functor that preserves the tensor product up to specified coherent *central* isomorphism.  However, the tricky part is whether it should also be required to preserve centrality of morphisms (or even just isomorphisms).  Desiderata pulling in opposite directions include:
+
+1. If a premonoidal functor is not required to preserve centrality at least of isomorphisms, then premonoidal functors may not be closed under composition, since we may not be able to define central coherence isomorphisms for $G \circ F$ if $G$ does not preserve the centrality of the coherence isomorphisms for $F$.
+
+1. A morphism $T_1 \to T_2$ of bistrong monads on a monoidal category $C$ induces a functor $C_{T_1} \to C_{T_2}$ which preserves the premonoidal structures *strictly*, hence clearly up to coherent central isomorphism.  However, such a functor does not in general preserve centrality even of isomorphisms; a counterexample can be found in [SL13](#SL13), section 5.2.
+
+It seems unlikely that these desiderata can be reconciled purely in the world of premonoidal categories as usually defined.  One solution is to pass to [[Freyd-categories]], which are essentially premonoidal categories equipped with a family of "special" central morphisms forming a cartesian monoidal category with the same tensor product.  Morphisms of Freyd-categories are easy to define, and include all the morphisms $C_{T_1} \to C_{T_2}$ if $C$ is cartesian (and if it isn't, then there should be a suitable non-cartesian generalization of Freyd-categories).  Other solutions that use different ways of representing a "special subfamily of central (iso)morphisms" are to consider the tensor product functor of a premonoidal category to be a not-necessarily-saturated [[anafunctor]], or (in [[homotopy type theory]]) to allow the underlying category of a premonoidal category to be merely a [[homotopytypetheory:precategory]].
 
 ## References
 
@@ -94,6 +103,8 @@ In the same way that a (strict) monoidal category can be identified with a (stri
  [PostScript](http://www.eecs.qmul.ac.uk/~edmundr/pubs/mscs97/premoncat.ps)
 
 * Alan Jeffrey, _Premonoidal categories and a graphical view of programs,_ [pdf file](http://fpl.cs.depaul.edu/ajeffrey/papers/premonA.pdf)
+
+* {#SL13} Sam Staton and Paul Blain Levy, *Universal Properties of Impure Programming Languages*.  ACM Sigplan Notices, 2013, [doi](https://doi.org/10.1145/2480359.2429091).
 
 [[!redirects premonoidal category]]
 [[!redirects premonoidal categories]]
