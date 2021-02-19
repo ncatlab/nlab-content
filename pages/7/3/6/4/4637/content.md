@@ -625,9 +625,11 @@ More recent discussion is in
 
 * [[Vaughan Pratt]], _Communes via Yoneda, from an elementary perspective_, Fundamenta Informaticae 103 (2010), 203&#8211;218.
 
-* {#DL19} Ivan Di Liberti, [[Fosco Loregian]], _On the Unicity of Formal Category Theories_, arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
+* {#DL19} [[Ivan Di Liberti]], [[Fosco Loregian]], _On the Unicity of Formal Category Theories_, arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
 
 * {#DiLiberti} [[Ivan Di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accessibility_, ([arXiv:1910.01014](https://arxiv.org/abs/1910.01014))
+
+* [[Tom Avery]], [[Tom Leinster]], _Isbell conjugacy and the reflexive completion_, arXiv:2102.08290 (2021). ([abstract](https://arxiv.org/abs/2102.08290))
 
 Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
 
