@@ -51,7 +51,7 @@ $$
 
 such that
 
-1. $\Sigma_{V,V} = id$;
+1. $\sigma_{V,V} = id$;
 
 1. for any $Z \hookrightarrow V \hookrightarrow W$ we have [[commuting diagrams]]
 
