@@ -28,3 +28,13 @@ Chapters:
 1. &#201;tude cohomologique des espaces a op&#233;rateurs
 
 category: reference
+
+## References
+
+The original paper is
+
+* [[Alexandre Grothendieck]], _Sur quelques points d'algèbre homologique_.
+
+An English translation due to [[Michael Barr]] can be found in
+
+* [[Alexandre Grothendieck]], _Some aspects of homological algebra_.  [PDF](https://www.math.mcgill.ca/barr/papers/gk.pdf).
