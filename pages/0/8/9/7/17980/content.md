@@ -41,9 +41,9 @@ $$
   =
   \left\{
    \array{
-      2 P & \vert \; I = J
+      2 P & \vert & I = J
       \\
-      0 & \vert \; \text{otherwise}
+      0 & \vert & \text{otherwise}
    }
   \right.
 $$
