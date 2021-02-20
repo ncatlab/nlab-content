@@ -29,7 +29,7 @@ For a discussion of how object oriented programming languages may be able to be 
 
 Proponents of object oriented programming often argue that code in this style is more 'readable' and more 'flexible' than code in other styles, though often also more verbose. These points are, naturally, fiercely contended. 
 
-As touched upon above, there exist various different approaches to object oriented programming, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language) or JavaScript, and the 'everything is an object'-approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). 
+As touched upon above, there exist various different approaches to object oriented programming, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language)) or JavaScript, and the 'everything is an object'-approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). 
 
 \section{Relation to category theory}
 
