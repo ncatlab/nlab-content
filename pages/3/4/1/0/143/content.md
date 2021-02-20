@@ -752,6 +752,10 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
 ## References
 
+The original definition is in
+
+* [[Jean Leray]], _L'anneau d'homologie d'une représentation_.  Comptes rendus hebdomadaires des séances de l'Académie des Sciences 222 (1946), 1366–1368.  [[Leray-0.pdf:file]]
+
 Section C2 in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
