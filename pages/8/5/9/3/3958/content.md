@@ -349,6 +349,16 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 ## References
 
+The original works include
+
+\bibitem{VeblenWhitehead1931}
+
+\bibitem{VeblenWhitehead1932}
+
+\bibitem{Whitney1936}
+
+
+
 Early account with an eye towards [[cobordism theory]] and the [[Pontrjagin-Thom isomorphism]]:
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
@@ -402,8 +412,6 @@ Which provides a solution to exercise 3.21 in
 The [above comment](#LawvereComment) by Lawvere is taken from 
 
 * {#Law89}  [[F. William Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemporary Mathematics 92 (1989), 261-299. ([pdf](http://conceptualmathematics.files.wordpress.com/2013/01/toposesofgeneralizedgraphs.pdf)) 
-
- 
 
 
 [[!redirects smooth manifolds]]
