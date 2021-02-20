@@ -22,7 +22,32 @@ A category equipped with a Grothendieck topology is a [[site]].  Sometimes all s
 Probably the main point of having a site is so that one can define [[sheaf|sheaves]], or more generally [[stack|stacks]], on it.  In particular, the category of sheaves on a (small) site is a [[Grothendieck topos]].
 
 
-## Definition
+## Original definition
+
+In the original definition ([[Michael Artin]]'s seminar notes “Grothendieck topologies”), a Grothendieck topology on a [[category]] $C$ is defined as a [[set]] $T$ of [[coverings]] satisfying certain closure properties.
+
+More precisely (to cite from Artin's notes):
+
+\begin{definition}
+A __Grothendieck topology__ on a [[category]] $C$ is
+is a set $T$ of families of maps $\{\phi_i\colon U_i\to U\}_{i\in I}$
+(known as __coverings__)
+such that
+
+* for any [[isomorphism]] $\phi$ we have $\{\phi\}\in T$;
+
+* if $\{U_i\to U\}\in T$ and $\{V_{i,j}\to U_i\}\in T$ for each $i$, then $\{V_{i,j}\to U\}\in T$;
+
+* if $\{U_i\to U\}\in T$ and $V\to U$ is a morphism, then $U_i\times_U V$ exist and $\{U_i\times_U V\to V\}\in T$.
+
+\end{definition}
+
+
+This is almost identical to the current definition of [[Grothendieck pretopology]],
+except that in Artin's definition only the relevant pullbacks are required to exist.
+
+
+## Definition using sieves
 
 +-- {: .num_defn}
 ###### Definition
@@ -91,6 +116,23 @@ Any [[coherent category]] $C$ admits a [[subcanonical site|subcanonical]] Grothe
 On any category there is a largest subcanonical topology.  This is called the *[[canonical topology]]*, with "subcanonical" a back-formation from this (since a topology is subcanonical iff it is contained in the canonical topology).  On a [[Grothendieck topos]], the covering families in the canonical topology are those which are jointly epimorphic.
 
 
+## Historical note on terminology
+
+The term "topology" for this concept is hallowed by tradition and the name of Grothendieck, but some people consider it to be somewhat unfortunate. While "a category equipped with a (Grothendieck) topology" is, in fact, sort of a generalization of "a set equipped with an (ordinary) topology," the relationship between a category and its topology is quite different from the relationship between a set and its topology.  In particular, when we construct a site from a topological space, the objects of the category are the _open sets_, not the points, of the space.
+
+This use of "topology" can also lead to confusion since for a topologist, there is a completely different and very natural meaning of "topology on a category:" namely, topologies on its sets of objects and morphisms making it into an [[internal category]] in [[Top]].  The topologist's definition is, of course, a conservative extension of the classical notions of "topology on a set" and even "topology on a group," while there are no nontrivial Grothendieck topologies on a group considered as a 1-object category.
+
+Furthermore, the use of "topology" for a category with a system of covers also leads to the use of "continuous" for a functor which preserves covers.  This is (in some people's opinion) doubly unfortunate, since "continuous functor" is used not only by topologists to mean an internal or [[enriched category|enriched]] functor over Top, but also by many category-theorists to mean a functor that preserves all small [[limit|limits]].  This is especially confusing since covers are more akin to colimits than limits. Moreover, while a continuous function between topological spaces does induce a a cover-preserving functor between categories of open sets, the function and the functor go in opposite directions.
+
+In [[Elephant|Sketches of an Elephant]], Peter Johnstone introduced the term __coverage__ used above for a system of covers on a category, with "Grothendieck coverage" as a proposed replacement for "Grothendieck topology."  See [[coverage]] for his definitions.  Proposed replacements for "Lawvere-Tierney topology" include:
+
+* _Local operator_ (used by Johnstone).
+
+* _Local modality_ or _geometric modality_, since in the [[internal logic]] of the topos, it represents a [[modal operator]] with the intutive meaning of "it is locally the case that...".
+
+* _Lawvere-Tierney operator_ or _Lawvere-Tierney modality_ to avoid possible conflict with other uses of "local" or "geometric" in modal logic.
+
+
 ## Related notions 
 
 A more general notion is simply a collection of "covering families," not necessarily sieves, satisfying only pullback-stability; this suffices to define an equivalent notion of sheaf.  Following the [[Elephant]], we call such a system a [[coverage]].  A Grothendieck topology may then be defined as a coverage that consists of sieves (which the Elephant calls "sifted") and satisfies certain extra saturation conditions; see [[coverage]] for details.
@@ -110,13 +152,16 @@ See also
 
 ## References
 
-Standard texbooks inlcude
+The original definition is in
+
+* [[Michael Artin]], _Grothendieck Topologies.  Notes on a Seminar by M. Artin.  Spring, 1962_, Harvard University, Department of Mathematics.  [PDF](http://www.math.nagoya-u.ac.jp/~larsh/teaching/S2013_AG/grothendiecktopologies.pdf)
+
+Standard books include
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Volume 3.
+
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-
-Discussions of variants of the notion and its variants is at _[[historical notes on Grothendieck topology]]_. 
-
 
 [[!redirects Grothendieck topologies]]
