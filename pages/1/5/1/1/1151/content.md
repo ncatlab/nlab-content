@@ -804,6 +804,13 @@ See also
 ## History and references 
  {#References}
 
+The term “cohomology” was introduced by [[Hassler Whitney]] in
+
+* [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45.  [doi](https://doi.org/10.1215/s0012-7094-37-00304-1).
+
+See also
+
+* [[Hassler Whitney]], _On products in a complex_, Annals of Math. 39 (1938) 397–432.  [doi](https://doi.org/10.2307/1968795).
 
 The general perspective on cohomology was essentially established in
 
