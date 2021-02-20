@@ -13,9 +13,10 @@
 * table of contents
 {:toc}
 
-## Scope
+## Overview
 
-In the [[HomePage|nLab]] we appear to currently be interested mainly in the development of ideas of [[category theory]], [[topology]], [[higher category theory]], [[topos theory|sheaf theory]], [[homological algebra]], [[foundations of mathematics]] and the general concept of [[space]], as well as interactions between [[physics]], [[mathematics]] and [[philosophy]]. Hence we will concentrate here on references with similar emphasis and list only a few works for the general history of mathematics ([wikipedia](http://en.wikipedia.org/wiki/History_of_mathematics) has a nice reference list there).
+For the moment, we list here only a few works in the history of mathematics: 
+ some with a focus on fields particularly emphasised in the nLab, and some general. [Wikipedia](http://en.wikipedia.org/wiki/History_of_mathematics) has a nice list of general works.
 
 
 ## Spaces, categories, topology, sheaves, topoi, cohomology, ...
@@ -52,7 +53,7 @@ century_, Springer Undergraduate Mathematics Series
 * [[historical notes on characteristic classes]]
 * [[geometry of 19th century]], [[Erlangen program]]
 * [[Čech methods]]
-* see also [[philosophy]]
+* [[philosophy]]
 * lots of entries on individuals, including for some of the most influential mathematicians in history, e.g. [[Alexander Grothendieck]], [[Jacob Lurie]], [[Maxim Kontsevich]], [[Saunders MacLane]], [[Bourbaki]], [[Alfred Tarski]] etc.
 
 
