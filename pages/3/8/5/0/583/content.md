@@ -70,10 +70,11 @@ There are many different kinds of of "logical theories", each of which correspon
 |[[geometric logic|geometric]]| |[[coherent category|infinitary coherent category]] (aka [[geometric category]])|
 |[[constructive logic|constructive]] [[first-order logic|first-order]]| |[[Heyting category]]|
 |[[classical logic|classical]] [[first-order logic|first-order]]| |[[Boolean category]]|
-|[[dependent types]]| |[[locally cartesian closed category]]|
+|[[extensional type theory|extensional]] [[dependent types]]| |[[locally cartesian closed category]]|
 |[[constructive logic|constructive]] [[higher order logic|higher order]]| |[[topos|elementary topos]]|
 |[[classical logic|classical]] [[higher order logic|higher order]]| |[[Boolean topos]]|
-|[[homotopy type theory|homotopy types]]| |[[(∞,1)-topos]]|
+|[[intensional type theory|intensional]] [[dependent types]]| |[[locally cartesian closed (infinity,1)-category]]|
+|[[intensional type theory|intensional]] [[homotopy type theory|homotopy types]]| |[[(∞,1)-topos]]|
 |[[linear logic]]| |[[symmetric monoidal category]]|
 |[[cohesive homotopy type theory|cohesive modal logic]]| |[[cohesive topos]]|
 
