@@ -804,6 +804,22 @@ See also
 ## History and references 
  {#References}
 
+The original references are
+
+* [[Andrei Kolmogoroff]], _Über die Dualität im Aufbau der kombinatorischen Topologie_, Recueil Mathématique 1(43) (1936), 97–102.  [mathnet](http://mi.mathnet.ru/msb5361).
+
+A footnote on the first page reads:
+
+> Die Resultate dieser Arbeit wurden für den Fall gewöhnlicher Komplexe vom Verfasser im Frühling und im Sommer 1934 erhalten und teilweise an der Internationalen Konferenz für Tensoranalysis (Moskau) im Mai 1934 vorgetragen. Die hier dargestellte allgemeinere Theorie bildete den Gegenstand eines Vortrages, den der Verfasser an der Internationalen Topologischen Konferenz (Moskau, September 1935) hielt; bei letzterer Gelegenheit erfuhr er, dass ein grosser Teil dieser Resultate im Falle von Komplexen indessen von Herrn Alexander erhalten worden ist. Vgl. die inzwischen erschienenen Noten von Herrn Alexander in den «Proceedings of the National Academy of Sciences U.S.A.», 21, (1935), 509—512. Herr Alexander trug über seine Resultate ebenfalls an der Moskauer Topologischen Konferenz vor. Verallgemeinerungen für abgeschlossene Mengen und die Konstruktion eines Homologieringes für Komplexe und abgeschlossene Mengen, über welche der Verfasser ebenso an der Tensorkonferenz 1934 vorgetragen hat, werden in einer weiteren Publikation dargestellt. Diese weitere Begriffsbildungen sind übrigens ebenfalls von Herrn Alexander gefunden und teilweise in den erwähnten Noten publiziert. 
+
+* [[Andrei Kolmogoroff]], _Homologiering des Komplexes und des lokal-bicompakten Raumes_, Recueil Mathématique 1(43) (1936), 701–705.  [mathnet](http://mi.mathnet.ru/msb5475).
+
+* [[J. W. Alexander]], On the chains of a complex and their duals, Proc. Nat. Acad. Sei. USA, 21(1935), 509–511.
+
+* [[J. W. Alexander]], On the ring of a compact metric space, Proc. Nat. Acad. Sci. USA, 21(1935), 511–512.
+
+* [[J. W. Alexander]], On the connectivity ring of an abstract space, Ann. of Math., 37 (1936), 698–708.
+
 The term “cohomology” was introduced by [[Hassler Whitney]] in
 
 * [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45.  [doi](https://doi.org/10.1215/s0012-7094-37-00304-1).
