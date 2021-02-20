@@ -24,7 +24,7 @@
 
 A _Lawvere--Tierney topology_ (or _operator_, or _[[modal logic|modality]]_, also called _[geometric modality](modal+type+theory#GeometricModality)_) on a [[topos]] is a way of saying that something is 'locally' [[true]].  Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _[[geometric logic]]_.  In fact, it is a generalisation of Grothendieck topology in this sense: If $C$ is a [[small category]], then choosing a Grothendieck topology on $C$ is equivalent to choosing a Lawvere--Tierney topology in the [[presheaf topos]] $\Set^{C^\op}$ on $C$.
 
-The use of "topology" for this and the related Grothendieck concept is regarded by some people as unfortunate; see [[historical note on Grothendieck topology]] for some reasons why.  A proposed replacement for "Grothendieck topology" is [[coverage|(Grothendieck) coverage]]; see [[Grothendieck topology]] for some possible replacements for "Lawvere--Tierney topology."
+The use of "topology" for this and the related Grothendieck concept is regarded by some people as unfortunate; see the [historical note](https://ncatlab.org/nlab/show/Grothendieck+topology#historical_note_on_terminology) at [[Grothendieck topology]] for some reasons why.  A proposed replacement for "Grothendieck topology" is [[coverage|(Grothendieck) coverage]]; see the afore-mentioned historical note for some possible replacements for "Lawvere--Tierney topology."
 
 
 ## Definition
