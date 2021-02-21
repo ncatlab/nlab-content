@@ -55,6 +55,28 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 * [[comparison theorem (étale cohomology)]]
 
+
+## References
+
+
+[[!include cohomology -- early references]]
+
+
+### General
+
+See the references at 
+
+* [[singular cohomology]], [[cellular cohomology]]
+
+* [[sheaf cohomology]]
+
+* [[Cech cohomology]]
+
+
+
+
+
+
 [[!include chromatic tower examples - table]]
 
 [[!redirects ordinary cohomology theory]]
