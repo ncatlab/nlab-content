@@ -31,8 +31,8 @@ Hopf algebras and their generalization to [[Hopf algebroids]] arise notably as [
 
 There is a wide variety of variations of the notion of Hopf algebra, relaxing [[properties]] or adding [[structure]]. Examples are _[[weak Hopf algebras]]_, _[[quasi-Hopf algebras]]_, _([[quasi-triangular Hopf algebra|quasi]]-)[[triangular Hopf algebras]]_, _[[quantum groups]]_, _[[hopfish algebras]]_ etc. Most of these notions are systematized via [[Tannaka duality]] by the properties and structures on the coresponding [[categories of modules]], see at _[Tannaka duality](#TannakaDuality)_ below.
 
-## Definition
 
+## Definition
 
 +-- {: .num_defn}
 ###### Definition
@@ -250,7 +250,15 @@ and discussed in detail in
 
 Discussion in [[algebraic topology]] with an eye towards [[stable homotopy theory]], [[Steenrod algebra]] and the [[Adams spectral sequence]]:
 
-* {#Ravenel86} [[Doug Ravenel]], appendix A1 of: _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+* [[Douglas Ravenel]], [[W. Stephen Wilson]], _The Hopf ring for complex cobordism_,  Bull. Amer. Math. Soc. 80 (6) 1185 - 1189, November 1974 (<a href="https://doi.org/10.1016/0022-4049(77)90070-6">doi:10.1016/0022-4049(77)90070-6</a>, [euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-80/issue-6/The-Hopf-ring-for-complex-cobordism/bams/1183536024.full?tab=ArticleLink), [pdf](https://people.math.rochester.edu/faculty/doug/mypapers/hopfring.pdf))
+
+  > (for [[MU]])
+
+* {#Ravenel86} [[Douglas Ravenel]], appendix A1 of: _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+
+* [[Neil Strickland]], _Bott periodicity and Hopf rings_, 1992 ([pdf](https://neil-strickland.staff.shef.ac.uk/research/thesis.pdf), [[StricklandHopfRings.pdf:file]])
+
+  > (for [[topological K-theory]])
 
 * [[W. Stephen Wilson]], _Hopf rings in algebraic topology_, Expositiones Mathematicae, 18:369–388, 2000 ([pdf](https://math.jhu.edu/~wsw/papers2/math/39-hopf-rings-expo-2000.pdf))
 
