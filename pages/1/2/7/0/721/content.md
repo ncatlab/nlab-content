@@ -30,16 +30,22 @@ An even weaker notion than a Grothendieck pretopology, which also generates a Gr
 
 ## Definition
 
+See Definition II.1.3 in [[SGA]] 4.
+
 +-- {: .num_defn}
 ###### Definition
 
-Let $C$ be a [[category]] with [[pullback]]s. A **Grothendieck pretopology** or **basis (for a [[Grothendieck topology]])** on $C$ is an assignment to each [[object]] $U$ of $C$ of a collection of families $\{U_i \to U\}$ of morphisms, called **[[covering]] families** such that
+Let $C$ be a [[category]].
+A **Grothendieck pretopology** or **basis (for a [[Grothendieck topology]])** on $C$ is an assignment to each [[object]] $U$ of $C$ of a collection of families $\{U_i \to U\}$ of morphisms, called **[[covering]] families** such that
 
-1. _isomorphisms cover_ -- every family consisting of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\}$ is a covering family;
+1. (Stability under [[base changes]].)
+The collection of covering families is stable under [[pullback]]: if $\{U_i \to U\}$ is a covering family and $f : V \to U$ is any morphism in $C$, then $\{f^* U_i \to V\}$ exists and is a covering family;
 
-2. _stability axiom_ -- the collection of covering families is stable under [[pullback]]: if $\{U_i \to U\}$ is a covering family and $f : V \to U$ is any morphism in $C$, then $\{f^* U_i \to V\}$ is a covering family;
+1. (Stability under composition.)
+If $\{U_i \to U\}_{i \in I}$ is a covering family and for each $i$ also $\{U_{i,j} \to U_i\}_{j \in J_i}$ is a covering family, then also the family of composites $\{U_{i,j} \to U_i \to U\}_{i\in I, j \in J_i}$ is a covering family.
 
-3. _transitivity axiom_ -- if $\{U_i \to U\}_{i \in I}$ is a covering family and for each $i$ also $\{U_{i,j} \to U_i\}_{j \in J_i}$ is a covering family, then also the family of composites $\{U_{i,j} \to U_i \to U\}_{i\in I, j \in J_i}$ is a covering family.
+1. (Isomorphisms cover.)
+Every family consisting of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\}$ is a covering family;
 
 =--
 
