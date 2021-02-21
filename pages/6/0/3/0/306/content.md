@@ -367,19 +367,19 @@ but $\Delta = \bot$ forces $A = 0$. So the only such category that can have a su
 
 In higher topoi the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
 
-in the [[n-topos|(n+1)-topos]] $n Cat$ of [[n-category|n-categories]] the subobject classifier is the [[stuff, structure, property|forgetful functor]]
+In the [[(n,1)-topos|(n+1,1)-topos]] $n Grpd$ or $(n,0) Cat$ of [[n-groupoid|(n,0)-categories]] the subobject classifier is the [[stuff, structure, property|forgetful functor]]
 
 $$
-  n true : (n-1)Cat_* \to (n-1)Cat
+  (n,1) true : (n-1,0)Cat_* \to (n-1,0)Cat
 $$
 
-from the $n$-category of [[pointed object|pointed]] $(n-1)$-categories to that of $(n-1)$-categories, which forgets the point.
+from the $(n,1)$-category of [[pointed object|pointed]] $(n-1,0)$-categories to that of $(n-1,0)$-categories, which forgets the point.
 
 This is described in more detail at [[generalized universal bundle]]. See also the discussion at [[stuff, structure, property]].
 
-In fact, using the notion of [[(-1)-category]] the subobject classifier in [[Set]] does fit precisely into this pattern: 
+In fact, using the notion of [[(-1)-category|(-1,0)-category]] the subobject classifier in [[Set]] does fit precisely into this pattern: 
 
-the 2-element set $\mathbf{2}$ may be regarded as the [[0-category]] of [[(-1)-category|(-1)-categories]] (of which there are two) and the one-element set $*$ is the [[0-category]] of [[pointed object|pointed]] [[(-1)-category|(-1)-categories]], of which there is one.
+the set of truth values $\Omega$ may be regarded as the [[(0,1)-category]] of [[(-1)-category|(-1,0)-categories]] (of which there are two) and the one-element set $*$ is the [[(0,1)-category]] of [[pointed object|pointed]] [[(-1)-category|(-1,0)-categories]], of which there is one.
 
 In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] subobject classifiers are discussed in section 6.1.6 of
 
