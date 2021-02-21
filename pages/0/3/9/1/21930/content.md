@@ -96,6 +96,8 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[Chern character]]
 
+* [[Pontrjagin character]]
+
 ### 10. A cobordism interpretation for $K^\ast(X)$
 
 * [[Conner-Floyd isomorphism]]
