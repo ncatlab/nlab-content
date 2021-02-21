@@ -27,6 +27,8 @@ Equivalently, the Pontrjagin character is the [[Chern-Dold character]] on [[KO]]
 
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
 
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], p. 53 in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _Pontrjagin, Pfaffian, and Chern Classes_, Section 9.6 in: _Lie groups, principal bundles and characteristic classes_, Volume 2 of: _[[Connections, Curvature, and Cohomology]]_, Pure and Applied Mathematics Volume 47, Part B, 1972, Pages 420-476 (<a href="https://doi.org/10.1016/S0079-8169(08)62879-2">doi:doi.org/10.1016/S0079-8169(08)62879-2</a>)
 
 * Mitsunori Imaoka, Kouji Kuwana, _Stably extendible  vector bundles over  the quaternionic projective spaces_, Hiroshima Math. J. 29  (1999),  273-279 ([euclid:hmj/1206125008](https://projecteuclid.org/euclid.hmj/1206125008))
