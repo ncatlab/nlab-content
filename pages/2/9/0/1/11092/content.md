@@ -2,7 +2,7 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Andrey_Kolmogorov)
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[probability theory]]
 
@@ -10,7 +10,13 @@
 
 * [[random variable]]
 
+* [[Kolmogorov complexity]]
+
+* [[cohomology]]
+
 category: people
 
 [[!redirects Kolmogorov]]
 [[!redirects A. N. Kolmogorov]]
+
+[[!redirects Andrei Kolmogoroff]]
