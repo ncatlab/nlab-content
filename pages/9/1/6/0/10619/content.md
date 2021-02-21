@@ -861,7 +861,7 @@ $$
 $$
 
 a map between spheres, and with $V_{2n} \,\in\, \widetilde K\big( C_f \big)$ any lift (eq:TheSplittingOfExactSequenceOfAbelianGroups)
-of $\Sigma^{2 n} 1 \,\in\, \widetilde K \big( S^{2n} \big) $ to its  homotopy cofiber space, we have that the [[e-invariant]] $e(f)$ (Def. \ref{eInvariantInComplexTopologicalKtheoryAsRationalNumberModuloIntegers}) is equivalently the [[Kronecker pairing|evaluation]] [[modulo]] [[integers]] of the [[Chern character]] $ch(V_{2n}) \,\in\,  H^{ev}\big( C_f;\, \mathbb{Q}  \big)$ on the [[fundamental class]] of the cofiber space:
+of $\Sigma^{2 n} 1 \,\in\, \widetilde K \big( S^{2n} \big) $ to its  homotopy cofiber space, we have that the [[e-invariant]] $e_{\mathbb{C}}(f)$ (Def. \ref{eInvariantInComplexTopologicalKtheoryAsRationalNumberModuloIntegers}) is equivalently the [[Kronecker pairing|evaluation]] [[modulo]] [[integers]] of the [[Chern character]] $ch(V_{2n}) \,\in\,  H^{ev}\big( C_f;\, \mathbb{Q}  \big)$ on the [[fundamental class]] of the cofiber space:
 
 $$
   \exp
@@ -877,7 +877,7 @@ $$
     \,
     {
       \color{blue}
-      e(f)
+      e_{\mathbb{C}}(f)
     }
   \right)
   \;\;\;
@@ -887,6 +887,8 @@ $$
 $$
 
 =--
+
+[Adams 66, Prop. 7.5](#Adams66)
 
 +-- {: .proof}
 ###### Proof
@@ -1088,6 +1090,25 @@ and hence the claim follows.
 
 =--
 
+\begin{remark}
+  \label{eRInvariantIsNotInGeneralTopDegreeChernCharacter}
+The analogue statement of Prop. \ref{QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace} 
+for the $e_{\mathbb{R}}$-invariant (Def. \ref{eRInvariantInTermsOfAdamsOperations}) may _fail_:
+
+The $e_{\mathbb{R}}$-invariant defined in terms of Adams operations (Def. \ref{eRInvariantInTermsOfAdamsOperations}) is $c$ times the top degree coefficient of the [[Chern character]] on $K \mathrm{O} \to K \mathrm{U}$ (the [[Pontrjagin character]]) with ([Adams 66 (7.3) ](#Adams66)):
+
+1. $c = 1$ for $(n + n') = \,0\, mod \, 8$ (here they coincide)
+
+1. $c = \tfrac{1}{2}$ for $(n + n') = \,4\, mod \, 8$ (here the $e_{\mathbb{R}}$-invariant is finer).
+
+Similarly ([Adams 66 Prop. 7.14](#Adams66)):
+
+* the $e_{\mathbb{R}}$-invariant equals the $e_{\mathbb{C}}$-invariant for  $n' = \,0\, mod \, 8$, 
+
+* but equals $\tfrac{1}{2}e_{\mathbb{C}}$ for $n + n' = \,4\, mod \, 8$ .
+
+This means that the $e_{\mathbb{R}}$-invariant is _finer_ than the $e_{\mathbb{C}}$-invariant.
+\end{remark}
 
 
 
@@ -1241,7 +1262,15 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
 
 ### The Adams $e_{\mathbb{R}}$-invariant in $\mathbb{Q}/\mathbb{Z}$
 
-Definition \ref{eInvariantInComplexTopologicalKtheoryAsRationalNumberModuloIntegers} applies verbatim also with real (i.e. orthogonal) [[topological K-theory]] [[KO]] in place of complex topological K-theory [[KU]]. The resulting invariant is denoted $e_{\mathbb{R}}$ ([Adams 66, p. 39](#Adams66)).
+\begin{defn} 
+  \label{eRInvariantInTermsOfAdamsOperations}
+Definition \ref{eInvariantInComplexTopologicalKtheoryAsRationalNumberModuloIntegers} (via [[Adams operations]]) applies verbatim also with real (i.e. orthogonal) [[topological K-theory]] [[KO]] in place of complex topological K-theory [[KU]]. The resulting invariant is denoted $e_{\mathbb{R}}$ ([Adams 66, p. 39](#Adams66)).
+
+
+\end{defn}
+
+But beware that $e_{\mathbb{R}}$ may fail to be equal to the coefficient of the top degree Chern character on [[KO]] (the [[Pontrjagin character]]), see Remark \ref{eRInvariantIsNotInGeneralTopDegreeChernCharacter}. That is, in fact, what makes $e_{\mathbb{R}}$ a finer invariant: It is either equal to $e_{\mathbb{C}}$ or to $\tfrac{1}{2}e_{\mathbb{C}}$. ([Adams 66 (7.3)](#Adams66)).
+
 
 ### As a cobordism invariant of $SU$-manifolds with framed boundary
 
