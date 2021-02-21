@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+On the [[Hopf ring]] of [[MU]]:
+
+* [[Douglas Ravenel]], [[W. Stephen Wilson]], _The Hopf ring for complex cobordism_,  Bull. Amer. Math. Soc. 80 (6) 1185 - 1189, November 1974 (<a href="https://doi.org/10.1016/0022-4049(77)90070-6">doi:10.1016/0022-4049(77)90070-6</a>, [euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-80/issue-6/The-Hopf-ring-for-complex-cobordism/bams/1183536024.full?tab=ArticleLink), [pdf](https://people.math.rochester.edu/faculty/doug/mypapers/hopfring.pdf))
+
+
 On the [[Adams-Novikov spectral sequence]]:
 
 * {#Ravenel78} [[Douglas Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in: [[Michael Barratt]], [[Mark Mahowald]] (eds.) _Geometric Applications of Homotopy Theory II_. Lecture Notes in Mathematics, vol 658, Springer 1978 ([doi:10.1007/BFb0068728](https://doi.org/10.1007/BFb0068728), [pdf](https://people.math.rochester.edu/faculty/doug/mypapers/Novice.pdf))
