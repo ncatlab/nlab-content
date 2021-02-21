@@ -49,19 +49,20 @@ except that in Artin's definition only the relevant pullbacks are required to ex
 
 ## Definition using sieves
 
+The following definition can be found in [[SGA]] 4, Exposé II.
+
 +-- {: .num_defn}
 ###### Definition
 
-
 A **Grothendieck topology** $J$ on a [[category]] $C$ is an assignment to each object $c \in C$ of a collection of [[sieves]] on $c$ which are called _covering sieves_, satisfying the following axioms: 
 
-1. If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
+1. (Stability under [[base change]].)
+If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
+
+1. (Local character condition.)
+If $F$ is a sieve on $c$ such that the sieve $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$ contains a covering sieve of $c$, then $F$ itself covers $c$. 
 
 1. The [[maximal sieve]] $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
-
-1. Two [[sieve|sieves]] $F, G$ of $c$ cover $c$ if and only if their intersection $F \cap G$ covers $c$. (Here the saturation condition is important.) 
-
-1. If $F$ is a sieve on $c$ such that the sieve $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$ is a covering sieve of $c$, then $F$ itself covers $c$. 
 
 =--
 
@@ -73,7 +74,7 @@ A category equipped with a Grothendieck topology is called a **[[site]]** .
 +-- {: .num_remark}
 ###### Remark
 
-The first axiom guarantees that we have a functor $J: C^{op} \to Set$.  Thus $J$ itself can be regarded as an object of the [[presheaf topos]] $[C^{op},Set]$; in this way Grothendieck topologies on $C$ are identified with [[Lawvere-Tierney topologies]] on $[C^{op},Set]$.
+The axiom of stability under [[base change]] guarantees that we have a functor $J: C^{op} \to Set$.  Thus $J$ itself can be regarded as an object of the [[presheaf topos]] $[C^{op},Set]$; in this way Grothendieck topologies on $C$ are identified with [[Lawvere-Tierney topologies]] on $[C^{op},Set]$.
 
 =--
 
@@ -155,6 +156,10 @@ See also
 The original definition is in
 
 * [[Michael Artin]], _Grothendieck Topologies.  Notes on a Seminar by M. Artin.  Spring, 1962_, Harvard University, Department of Mathematics.  [PDF](http://www.math.nagoya-u.ac.jp/~larsh/teaching/S2013_AG/grothendiecktopologies.pdf)
+
+The definition in terms of [[sieves]] is found in
+
+* [[SGA]] 4: Théorie des topos et cohomologie étale des schémas.
 
 Standard books include
 
