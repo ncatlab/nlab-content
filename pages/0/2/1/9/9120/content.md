@@ -38,6 +38,8 @@
 
   $(\rightrightarrows \dashv \rightsquigarrow \dashv Rh)$
 
+**[[orbifold cohomology|singular cohesion]]
+
 
 
 $$
