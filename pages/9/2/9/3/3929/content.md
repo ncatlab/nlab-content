@@ -28,3 +28,4 @@ category: people
 [[!redirects Gregory Max Kelly]]
 [[!redirects Gregory Maxwell Kelly]]
 [[!redirects G.M. Kelly]]
+[[!redirects G. Max Kelly]]
