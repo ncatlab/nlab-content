@@ -1,3 +1,3 @@
-* [webpage](http://www.cs.ubc.ca/~joshdunf/)
+* [webpage](https://research.cs.queensu.ca/home/jana/)
 
 category: people
