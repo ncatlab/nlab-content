@@ -14,7 +14,7 @@ Since this site is used centrally in [[condensed mathematics]], we might call co
 
 ## Infinitesimal cohesion
 
-The [[tangent (∞,1)-topos]] of $Sh_\infty(ProFinSet)$ ought to be composed of some kind of parameterized [[spectra]]. (Pyknotic spectra form the [[stabilization]] of the $(\inty, 1)$-category of pyknotic spaces ([BarHai19, sec 3.1](#BarHai19).)
+The [[tangent (∞,1)-topos]] of $Sh_\infty(ProFinSet)$ ought to be composed of some kind of parameterized [[spectra]]. (Pyknotic spectra form the [[stabilization]] of the $(\infty, 1)$-category of pyknotic spaces ([BarHai19, sec 3.1](#BarHai19)).)
 
 ## Cohesion
 
