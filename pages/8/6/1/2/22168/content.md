@@ -14,13 +14,13 @@ Since this site is used centrally in [[condensed mathematics]], we might call co
 
 ## Infinitesimal cohesion
 
-The [[tangent (∞,1)-topos]] of $Sh_\infty(ProFinSet)$ ought to be composed of parameterized condensed [[spectra]]. (Pyknotic spectra are treated in ([BarHai19, sec 3.1](#BarHai19).)
+The [[tangent (∞,1)-topos]] of $Sh_\infty(ProFinSet)$ ought to be composed of some kind of parameterized condensed [[spectra]]. (Pyknotic spectra are treated in ([BarHai19, sec 3.1](#BarHai19).)
 
 ## Cohesion
 
-The big pro-étale site on all schemes over a separably closed field $k$ is (check) cohesive over the pro-étale site of a point. 
+The big pro-étale site on all schemes over a separably closed field $k$ is almost (check) cohesive over the pro-étale site of a point. 
 
-Consider then [[cohesive (infinity,1)-topos -- structures]].
+Consider then the construction in [[cohesive (infinity,1)-topos -- structures]] that do not rely on finite-product preservation in the left adjoint.
 
 The [[differential cohomology diagram]] for stable objects in sheaves over the former...
 
