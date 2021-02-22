@@ -2,7 +2,7 @@ There are two different notions of a discrete valuation.
 
 A __discrete valuation__ on a field $K$ is a function $v:K\to \mathbf{Z}\cup \{\infty\}$ such that 
 
-* $v$ defines the homomorphism of groups $v|_K : K^*\to \mathbf{Z}$ where $K^*$ is the multiplicative group of $K$
+* $v$ defines the homomorphism of groups $v|_{K^*} : K^*\to \mathbf{Z}$ where $K^*$ is the multiplicative group of $K$
 
 * $v(0) = \infty$
 
