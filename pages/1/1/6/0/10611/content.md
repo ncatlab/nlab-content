@@ -50,7 +50,7 @@ In [[formal logic]] and [[type theory]] modalities are formalized by _[[modal op
 
 Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here operators that are meant to formalize [[necessity]] and [[possibility]] ([[S4 modal logic]]) are maybe most famous. Adding modalities more generally to [[type theory]] and [[homotopy type theory]] yields _[[modal type theory]]_ and _[[modal homotopy type theory]]_. See there for more details.
 
-The [[categorical semantics]] of these modalities is that $\sharp$ is interpreted an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
+The [[categorical semantics]] of these modalities is that $\sharp$ is interpreted as an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
 
 This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman), [Rijke, Shulman, Spitters](#RSS) ).
 
