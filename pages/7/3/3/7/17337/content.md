@@ -1,10 +1,11 @@
-##Idea
+## Idea
 
 In [[type theory]], **type refinement** is a term initially coined to refer to "datasort refinements", sub-datatypes induced by refining the set of available constructors, but later broadened to include "index refinements".
 
-Refinement types are present in languages like LiquidHaskell and F-star. Refinement types are similar to coercions and subset types.
+Refinement types are present in languages like [[Liquid Haskell]] and [[F*]]. Refinement types are similar to coercions and subset types.
 
 ## Related concepts
+
 * [[intrinsic and extrinsic views of typing]]
 
 ## References
