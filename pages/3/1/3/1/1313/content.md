@@ -155,7 +155,7 @@ Note that any cartesian closed category with finite coproducts must be distribut
 
 ## References
 
-  * {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.([doi](https://doi.org/10.1016/0022-4049(82)90004-4))
+  * {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.(<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi</a>)
 
   * {#Niefield81} [[Susan Niefield]], _Cartesian inclusion: locales and toposes._, Communications in Algebra, 9.16, 1981, pp. 1639-1671.  [doi](https://doi.org/10.1080/00927878108822672)
 
