@@ -90,9 +90,11 @@ When the natural numbers are embedded into larger [[rig]]s or [[ring]]s, the ope
 
 ### More examples
 
-* In [[Top]] (the category of _all_ topological spaces), the exponentiable spaces are precisely the [[core-compact spaces]].  In particular, this includes [[locally compact Hausdorff space]]s.  However, most [[nice category of spaces|nice categories of spaces]] are cartesian closed, so that all objects are exponentiable; note that usually the cartesian product in such categories has a slightly different topology than it does in $Top$.
+* In [[Top]] (the category of _all_ topological spaces), the exponentiable spaces are precisely the [[core-compact spaces]] (see [Day and Kelly](#DayKelly)).  In particular, this includes [[locally compact Hausdorff space]]s.  However, most [[nice category of spaces|nice categories of spaces]] are cartesian closed, so that all objects are exponentiable; note that usually the cartesian product in such categories has a slightly different topology than it does in $Top$.
 
-* There are similar characterizations of exponentiable [[locales]] (see [[locally compact locale]] and [[continuous poset]] and (in the appropriate higher-categorical sense) [[toposes]] and [[(∞,1)-toposes]] (see [[metastably locally compact locale]] and [[continuous category]] as well as [[exponentiable topos]]).
+The condition that a topological space be core-compact (i.e. exponentiable) is in fact a condition on its underlying locale. More precisely, a topological space is core-compact if and only if its underlying locale is a [[continuous poset]]. In fact, a topological space is exponentiable if and only if its underlying locale is exponentiable:
+
+* A [[locale]] is exponentiable if and only if it is a [[continuous poset]] (see [Hyland](#Hyland)) -- this is sometimes taken as the _definition_ of a [[locally compact locale]]). The notion of continuous poset generalizes straightforward to that of [[continuous category]] and [[continuous ∞-category]]. Using these notions, one has analogous characterization of those [[toposes]] and [[(∞,1)-toposes]] which are exponentiable (see [[metastably locally compact locale]] and [[continuous category]] as well as [[exponentiable topos]]).
 
 * In [[algebraic set theory]] (see [[category with class structure]] for one example) one often assumes that only small objects (and morphisms) are exponentiable. analogous to how in material [[set theory]] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
 
@@ -108,6 +110,15 @@ However, exponentiating objects do matter sometimes.
 
 * A [[dialogue category]] is a [[symmetric monoidal category]] equipped with an exponentiating object.
 
+### Relative Examples
+
+Let $\mathcal{C}$ be a category with finite limits and $f: C \to D$ a morphism in $\mathcal{C}$. Then $f$ is exponentiable as an object of the slice category $\mathcal{C}\downarrow D$ if and only if the [[base change]] functor $f^\ast: \mathcal{C} \downarrow D \to \mathcal{C} \downarrow C$ has a right adjoint. In this case, we say that $f$ is an [[exponentiable morphism]] in $\mathcal{C}$.
+
+* The exponentiable morphisms in $Top$ were characterized by [Niefield](#Niefield82). In particular, a subspace inclusion $C \to D$ is exponentiable if and only if it is [[locally closed]].
+
+* The exponentiable morphisms in $Locale$ and $Topos$ which are embeddings were also characterized by [Niefield](#Niefield81). It seems(?) that no complete characterization of exponentiable morphisms in $Locale$ or $Topos$ appears in the literature.
+
+* The exponentiable morphisms in $Cat$ are the [[Conduché functors]].
 
 ## Properties 
 
@@ -141,6 +152,17 @@ Note that any cartesian closed category with finite coproducts must be distribut
 * [[exponentiable topos]]
 
 * [[reflexive object]]
+
+## References
+
+  * {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.([doi](https://doi.org/10.1016/0022-4049(82)90004-4))
+
+  * {#Niefield81} [[Susan Niefield]], _Cartesian inclusion: locales and toposes._, Communications in Algebra, 9.16, 1981, pp. 1639-1671.  [doi](https://doi.org/10.1080/00927878108822672)
+
+  * {#Hyland} [[Martin Hyland]], _Function Spaces in the Category of Locales._, [available from Hyland's website](https://doi.org/10.1080/00927878108822672)
+
+ * {#DayKelly} [[Brian Day]] and [[G. Max Kelly]], _On topological quotients preserved by pullback or
+products_, [doi](https://doi.org/10.1017/S0305004100045850)
 
 [[!redirects exponential object]]
 [[!redirects exponential objects]]
