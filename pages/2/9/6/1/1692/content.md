@@ -124,7 +124,7 @@ Let $C$ be a (symmetric) [[polycategory]] in which every morphism has codomain a
 
 The objects of $Chu(C)$ are now pairings $(a, b; r : (a,b) \to ())$ in the appropriate polycategorical sense.  A morphism $(a,b,r) \to (x,y,s)$ is a pair of morphisms $f:a\to x$ and $g:y\to b$ that are "adjoint" with respect to the pairings, in the sense that the following square commutes:
 \begin{tikzcd}
-  (a,y) \ar[r,"{(f,1)}"] \ar[d,"{(1,g)}"'] & (c,y) \ar[d,"s"] \\ (a,x) \ar[r,"r"'] & ().
+  (a,y) \ar[r,"{(f,1)}"] \ar[d,"{(1,g)}"'] & (x,y) \ar[d,"s"] \\ (a,b) \ar[r,"r"'] & ().
 \end{tikzcd}
 More generally, we can directly make $Chu(C)$ into a polycategory by taking the morphisms to be a suitable kind of [[multivariable adjunctions]].  For instance, a morphism $((a,b,r),(x,y,s)) \to (u,v,t)$ consists of three morphisms
 $$ f : (a,x) \to u \qquad g : (a,v) \to y \qquad h : (x,v) \to b $$
