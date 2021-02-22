@@ -4,10 +4,10 @@ In [[type theory]], **type refinement** is a term initially coined to refer to "
 
 Refinement types are present in languages like LiquidHaskell and F-star. Refinement types are similar to coercions and subset types.
 
-###Related concepts
+## Related concepts
 * [[intrinsic and extrinsic views of typing]]
 
-###References
+## References
 
 * _A refinement type by any other name_, ([blog post](http://www.weaselhat.com/2015/03/16/a-refinement-type-by-any-other-name/))
 * Tim Freeman, [[Frank Pfenning]], _Refinement types for ML_, Proceedings of the ACM Conference on Programming Language Design and Implementation, 1991, pp. 268&#8211;277, ([pdf](https://www.cs.cmu.edu/~fp/papers/pldi91.pdf)).
