@@ -137,7 +137,7 @@ $$
 ### Relation to Poisson algebra
  {#RelationToPoissonBracket}
 
-A [[symplectic vector space]] $(V, \omega)$ is in particular a [[symplectic manifold]]. Accordingly its algebra of [[smooth functions]] $C^\infty(V)$ is a [[Poisson algebra]]. The [[Lie algebra]] underlying the Poisson algebra contains the [[Heisenberg Lie algebra]] as the subspace with is the [[direct sum]] of the [[linear functions]] $V^* \hookrightarrow C^\infty(V)$ and the constant functions $\marthbb{R} \hookrightarrow C^\infty(V)$.
+A [[symplectic vector space]] $(V, \omega)$ is in particular a [[symplectic manifold]]. Accordingly its algebra of [[smooth functions]] $C^\infty(V)$ is a [[Poisson algebra]]. The [[Lie algebra]] underlying the Poisson algebra contains the [[Heisenberg Lie algebra]] as the subspace with is the [[direct sum]] of the [[linear functions]] $V^* \hookrightarrow C^\infty(V)$ and the constant functions $\mathbb{R} \hookrightarrow C^\infty(V)$.
 
 For more details in this at _[[Heisenberg Lie algebra]]_ the section _[Relation to Poisson algebra](#http://ncatlab.org/nlab/show/Heisenberg%20Lie%20algebra#RelationToPoissonAlgebra)_.
 
