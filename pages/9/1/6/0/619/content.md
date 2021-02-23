@@ -392,7 +392,7 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 
 ## References
 
-* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer 1967 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer 1967 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/GZ.pdf))
 
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
 
