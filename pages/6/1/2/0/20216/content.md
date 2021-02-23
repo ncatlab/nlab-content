@@ -60,7 +60,9 @@ $$
 \end{center}
 
 
-In particular, the existence of a nowhere vanishing [[vector field]] (for which the above [[sum]] is empty) implies that the [[Euler characteristic]] vanishes.
+In particular, the existence of a nowhere vanishing [[vector field]] (for which the above [[sum]] is empty) implies that the [[Euler characteristic]] vanishes. (The converse also holds: If the Euler characteristic vanishes, then a nowhere vanishing vector field exists (e.g. [MO:a/47553/58526](https://math.stackexchange.com/a/47553/58526).)
+
+
 
 ## Related concepts
 
