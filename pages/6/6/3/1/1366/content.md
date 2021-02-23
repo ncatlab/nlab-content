@@ -48,6 +48,19 @@ Other model structures that present the $(\infty,1)$-category of all $(\infty,1)
 
 * [[model structure for complete Segal spaces]].
 
+### The nerve into simplicial spaces
+
+The nerve functor
+
+$$
+  N : (\infty,1)Cat_1 \to PSh(\Delta, \infty Gpd) : C \mapsto n \mapsto Core(C^{[n]})
+$$
+
+is fully faithful. Thus, the $(\infty,1)$-category of $(\infty,1)$-categories can be identified with the $(\infty,1)$-category of [[category object in an (infinity,1)-category#GrpdInCatIsChoiceOfGroupoidObjects|internal categories in $\infty Gpd$]]
+
+This is closely related to the complete Segal space model.
+
+$N$ is, in fact, the embedding of a [[reflective sub-(infinity,1)-category]]. The $(\infty,1)$-categories can be identified with the subcategory of $PSh(\Delta, \infty Gpd)$ of local objects with respect to the spine inclusions $Sp^n \subseteq \Delta^n$ and with the map $J \to 1$, where $J$ is the indiscrete simplicial space on two discrete objects.
 
 ## Applications
 
