@@ -132,7 +132,7 @@ $$
 
 In some cases, pro-objects in a category $\mathcal{C}$ can be viewed as actual limits in a certain category. We prove here some results of this kind.
 
-\begin{prpn} \label{PropositionCategoriesEquivalentToProC} Let $\mathcal{C}$ be a category, and let $\mathcal{A}$ be a category with [[cofiltered limit|cofiltered limits]]. Suppose that we have a [[fully faithful functor]] $i: \mathcal{C} \rightarrow \mathcal{A}$ which lands in [[compact object|cocompact objects]]. Then $lim_\mthcal{A} \circ (i \circ) : Pro(\mathcal{C}) \to \mathcal{A}$ is fully faithful, and hence defines an equivalence onto its image.
+\begin{prpn} \label{PropositionCategoriesEquivalentToProC} Let $\mathcal{C}$ be a category, and let $\mathcal{A}$ be a category with [[cofiltered limit|cofiltered limits]]. Suppose that we have a [[fully faithful functor]] $i: \mathcal{C} \rightarrow \mathcal{A}$ which lands in [[compact object|cocompact objects]]. Then $lim_{\mathcal{A}} \circ (i \circ) : Pro(\mathcal{C}) \to \mathcal{A}$ is fully faithful, and hence defines an equivalence onto its image.
 
 \end{prpn}
 
