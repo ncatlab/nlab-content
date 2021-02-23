@@ -111,6 +111,10 @@ See also
 
 * F. R. Klinkhamer, _Regularized big bang and IIB matrix model_ ([arXiv:2009.06525](https://arxiv.org/abs/2009.06525))
 
+* F. R. Klinkhamer, _M-theory and the birth of the Universe_ ([arXiv:2102.11202](https://arxiv.org/abs/2102.11202))
+
+
+
 
 
 ### Computer simulation
