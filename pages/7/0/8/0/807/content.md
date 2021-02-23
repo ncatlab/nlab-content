@@ -441,9 +441,9 @@ Review includes
 * Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf))
 
 
-A standard textbook reference for topological Euler characteristics is page p. 156 and onwards in
+Textbook account:
 
-* E.H. Spanier, _Algebraic topology_ , McGraw-Hill  (1966)  
+* [[Edwin Spanier]],  p. 156 onwards in: _Algebraic topology_, McGraw-Hill  (1966)  
 
 Efremovich and Rudyak shown that the Euler characteristic is (up to the overall multiplicative factor) the only additive homotopy invariant of a finite CW complexes:
 
@@ -451,33 +451,33 @@ Efremovich and Rudyak shown that the Euler characteristic is (up to the overall 
 
 The description of Euler characteristics are categorical [[trace]]s in [[symmetric monoidal categories]] is discussed in section 4 of
 
-* [[Albrecht Dold]], [[Dieter Puppe]], _Duality, trace and transfer_ , Proceedings of the Steklov Institute of Mathematics, (1984), issue 4
- {#DoldPuppe}
+* {#DoldPuppe} [[Albrecht Dold]], [[Dieter Puppe]], _Duality, trace and transfer_ , Proceedings of the Steklov Institute of Mathematics, (1984), issue 4
+ 
 
 Behaviour of tracial Euler characteristic under [[homotopy colimit]]s is discussed in 
 
-* [[Peter May]], _The additivity of traces in triangulated categories_ K-theory (1991) ([website](http://www.math.uiuc.edu/K-theory/0474/))
- {#May}
+* {#May} [[Peter May]], _The additivity of traces in triangulated categories_ K-theory (1991) ([website](http://www.math.uiuc.edu/K-theory/0474/))
+ 
 
 Textbooks on combinatorial aspects of Euler characteristic include
 
-* Richard P. Stanley, _Enumerative Combinatorics_ , Vol. I, Cambridge Studies in Advanced Mathematics 49, Cambridge University Press, corrected reprint (1997)
- {#Stanley}
+* {#Stanley} Richard P. Stanley, _Enumerative Combinatorics_ , Vol. I, Cambridge Studies in Advanced Mathematics 49, Cambridge University Press, corrected reprint (1997)
+ 
 
-* [[Gian-Carlo Rota]], _On the foundations of combinatorial theory I: theory of M&#246;bius functions_ , Z. Wahrscheinlichkeitstheorie und Verw. Gebiete 2 (1964), 340&#8211;368.
- {#Rota}
+* {#Rota} [[Gian-Carlo Rota]], _On the foundations of combinatorial theory I: theory of M&#246;bius functions_ , Z. Wahrscheinlichkeitstheorie und Verw. Gebiete 2 (1964), 340&#8211;368.
+ 
 
 The Euler characteristic of a smooth manifold as its [[dimension]] in the [[stable homotopy category]] is discussed in example 3.7 of
 
-* [[Kate Ponto]], [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.sandiego.edu/~shulman/papers/traces_sym.pdf), [slides](http://www.sandiego.edu/~shulman/papers/ccrtraces.pdf)).
- {#PontoShulman}
+* {#PontoShulman} [[Kate Ponto]], [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.sandiego.edu/~shulman/papers/traces_sym.pdf), [slides](http://www.sandiego.edu/~shulman/papers/ccrtraces.pdf)).
+ 
 
 See [[Thom spectrum]] for more on this
 
 The Euler characteristic of groupoids -- [[groupoid cardinality]] -- has been amplified in 
 
-* [[John Baez]], [[James Dolan]], _From Finite Sets to Feynman Diagrams_ ([arXiv](http://arxiv.org/abs/math.QA/0004133))
- {#BaezDolan}
+* {#BaezDolan} [[John Baez]], [[James Dolan]], _From Finite Sets to Feynman Diagrams_ ([arXiv](http://arxiv.org/abs/math.QA/0004133))
+ 
 
 An exposition with an eye towards the relation between Euler characteristic and $\infty$-groupoid cardinality is in 
 
@@ -486,7 +486,7 @@ An exposition with an eye towards the relation between Euler characteristic and 
 
 The role of homotopy cardinality in [[quantization]] is touched on towards the end of
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ 
+* [[Daniel Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ 
 
 The generalization of the definition of Euler characteristic from posets to categories is due to
 
@@ -549,6 +549,6 @@ Complex cardinalities:
 
 * [[Marcelo Fiore]], _Isomorphisms of generic recursive polynomial types_ , to appear in 31st Symposium on Principles of Programming Languages (POPL04). ([ps](http://www.cl.cam.ac.uk/~mpf23/papers/Types/recisos.ps.gz)) 
 
-* C.T.C. Wall, _Arithmetic invariants of subdivision of complexes_, Canad. J. Math. 18(1966), 92-96, [doi](http://dx.doi.org/10.4153/CJM-1966-012-9), [pdf](http://cms.math.ca/cjm/v18/cjm1966v18.0092-0096.pdf)
+* [[C. T. C. Wall]], _Arithmetic invariants of subdivision of complexes_, Canad. J. Math. 18(1966), 92-96, [doi](http://dx.doi.org/10.4153/CJM-1966-012-9), [pdf](http://cms.math.ca/cjm/v18/cjm1966v18.0092-0096.pdf)
 
 [[!redirects Euler characteristics]]
