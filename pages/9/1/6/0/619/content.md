@@ -79,7 +79,7 @@ $$
   \array{
     & \nearrow &\Downarrow^{\eta}& \searrow^{Id}
     \\
-    D &\stackrel{T}{\to}& C &\hookrightarrow & D
+    D &\stackrel{T}{\to}& C &\stackrel{i}{\hookrightarrow} & D
   }
 $$
 
@@ -169,7 +169,7 @@ The reflector in that case is the [[sheafification]] functor.
 +-- {: .num_theorem}
 ######Theorem 
 
-If $X$ is a reflective subcategory of a [[cartesian closed category]], then it is an [[exponential ideal]] if and only if its [[reflector]] $D\to C$ preserves [[finite product]].
+If $X$ is a reflective subcategory of a [[cartesian closed category]], then it is an [[exponential ideal]] if and only if its [[reflector]] $D\to C$ preserves [[finite products]].
 
 In particular, $C$ is then also cartesian closed.  
 
