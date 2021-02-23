@@ -1109,6 +1109,9 @@ Application to [[meson]] physics:
 
 * Daniel Ávila, Leonardo Patiño, _Melting holographic mesons by cooling a magnetized quark gluon plasma_ ([arXiv:2002.02470](https://arxiv.org/abs/2002.02470))
 
+* Xuanmin Cao, Hui Liu, Danning Li, _Pion quasiparticles and QCD phase transitions at finite temperature and isospin density from holography_, Phys. Rev. D 102, 126014 (2020) ([arXiv:2009.00289](https://arxiv.org/abs/2009.00289))
+
+
 * Xuanmin Cao, Songyu Qiu, Hui Liu, Danning Li, _Thermal properties of light mesons from holography_ ([arXiv:2102.10946](https://arxiv.org/abs/2102.10946))
 
 
