@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-## Ideap
+## Idea
 
 On a [[smooth manifold]] $X$ the smooth [[tangent vector fields]] $v \in \Gamma_X(T X)$ are geometrically defined as smoothly varying collections of smooth [[paths]] $\gamma_x \colon \mathbb{R}^1 \to X$ through every point $x \in X$ (i.e. $\gamma(0) = x$), with two such paths regarded as equivalent if their first [[derivative]] $v_x \in T_x X$ at $x$, seen in any [[chart]], coincides.
 
