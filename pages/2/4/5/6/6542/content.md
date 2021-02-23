@@ -249,7 +249,7 @@ $$
 
 * Michael Hutchings, section 5 of _Cup product and intersections_ ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2011/cup.pdf))
 
-* {#Walschap04} Gerard Walschap, chapter 6.3 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
+* {#Walschap04} Gerard Walschap, chapter 6.3 of: _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 ([doi:10.1007/978-0-387-21826-7](https://link.springer.com/book/10.1007/978-0-387-21826-7))
 
 Discussion of [[fiber integration]]:
 
