@@ -71,7 +71,7 @@ $$
 
 Under this identification the somewhat curious-looking composition in $Int(\mathcal{C})$ given by tracing in $\mathcal{C}$ becomes just plain composition in $\mathcal{C}$.
 
-Subcategories (non-full) of $Int(\mathcal{C})$ consisting of morphisms of this form in some ambient $\mathcal{C}$ have been considered in ([Selinger 05](#Selinger05)), there denoted $CMP(\mathcal{C})$, and shown to formalize the concept of [[quantum operations]] in [[quantum physics]]. For a quick review of Selinger's construction see for instance ([Coecke-Heunen 11, section 2](#CoeckeHeunen11)). Comments related to the relation between GoI and such constructions appear in ([Abramsky-Coecke 02](#AbramskyCoecke02)).
+Subcategories (non-full) of $Int(\mathcal{C})$ consisting of morphisms of this form in some ambient $\mathcal{C}$ have been considered in ([Selinger 05](#Selinger05)), there denoted $CPM(\mathcal{C})$, and shown to formalize the concept of [[quantum operations]] in [[quantum physics]]. For a quick review of Selinger's construction see for instance ([Coecke-Heunen 11, section 2](#CoeckeHeunen11)). Comments related to the relation between GoI and such constructions appear in ([Abramsky-Coecke 02](#AbramskyCoecke02)).
 
 Now the $CPM(-)$ construction requires and assumes that $\mathcal{C}$ has all [[dual objects]] (which in the standard model means to restrict to [[Hilbert spaces]] of [[quantum states]] with are of [[finite]] [[dimension]]). To generalize away from this requirement a more general definition of quantum operations in $\mathcal{C}$ is given in  ([Coecke-Heunen 11, def. 1](#CoeckeHeunen11)), there denoted $CP(\mathcal{C})$. Direct inspection shows that $CP(\mathcal{C})$ is still a (non-full) subcategory of $Int(\mathcal{C})$. 
 
