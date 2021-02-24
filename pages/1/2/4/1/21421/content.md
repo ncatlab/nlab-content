@@ -60,6 +60,9 @@ More on [[mesons]] in [[holographic QCD]]:
 
 * Xuanmin Cao, Songyu Qiu, Hui Liu, Danning Li, _Thermal properties of light mesons from holography_ ([arXiv:2102.10946](https://arxiv.org/abs/2102.10946))
 
+* Artur Amorim, Miguel S. Costa, Matti Järvinen, _Regge theory in a Holographic dual of QCD in the Veneziano Limit_ ([arXiv:2102.11296](https://arxiv.org/abs/2102.11296))
+
+
 
 
 An alternative scenario of derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]], now on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]], is discussed in:
