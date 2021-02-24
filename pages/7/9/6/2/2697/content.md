@@ -97,7 +97,7 @@ An $(\infty,1)$-topos that has [[point of a topos|enough points]] is hypercomple
 
 =--
 
-This is [[Higher Topos Theory|HTT, remark 6.5.4.7]].
+This is [[Higher Topos Theory|HTT, remark 6.5.4.7]]. See [SAG, A.4.0.5] for the converse: If an ∞-topos is hypercomplete and locally coherent, then it has enough points.
 
 +-- {: .proof}
 ###### Proof
