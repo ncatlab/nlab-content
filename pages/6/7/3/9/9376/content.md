@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,10 +12,7 @@
 =--
 =--
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -109,7 +104,7 @@ $$
   \,.
 $$
 
-This is a [[diffeomorphism]] $\phi \colon \mathcal{G}_0 \stackrel{\simeq}{\to} \mathcal{G}_0$ of the [[smooth manifold]] of [[objects]] equipped with a [[natural transformation]] $\eta$ whose component map is a [[smooth function]] that assigns to each point $q \in \mathcal{G_0}$ a [[morphism]] in $\mathcal{G}$ of the form $\eta_q \colon q \to \phi(q)$. This collection of data is known as a _[[bisection]]_ of a [[Lie groupoid]]. Bisections naturally form a group $\mathbf{BiSect}(p_{\mathcal{G}})$ , which is all the more manifest if we understand them as autoequivalences of the atlas in the slice, called the [[group of bisections]].
+This is a [[diffeomorphism]] $\phi \colon \mathcal{G}_0 \stackrel{\simeq}{\to} \mathcal{G}_0$ of the [[smooth manifold]] of [[objects]] equipped with a [[natural transformation]] $\eta$ whose component map is a [[smooth function]] that assigns to each point $q \in \mathcal{G}_0$ a [[morphism]] in $\mathcal{G}$ of the form $\eta_q \colon q \to \phi(q)$. This collection of data is known as a _[[bisection]]_ of a [[Lie groupoid]]. Bisections naturally form a group $\mathbf{BiSect}(p_{\mathcal{G}})$ , which is all the more manifest if we understand them as autoequivalences of the atlas in the slice, called the [[group of bisections]].
 
 This perspective of regarding maps of [[smooth groupoids]] as objects in the slice over their codomain (an elementary step in [[higher category theory]]/[[(infinity,1)-topos theory|higher topos theory]], but not common in traditional differential geometry) turns out to be useful and drives all of the refinements, generalizations and theorems that we discuss in the following: we will see that higher [[prequantum geometry]] is essentially the geometry insice [[slice (infinity,1)-topos|higher slice categories]] of [[infinity-stack|higher stacks]] over [[moduli infinity-stack|higher moduli stacks]] of [[principal infinity-connection|higher principal connections]].
 
@@ -643,7 +638,7 @@ The [[dependent sum]] along this map induces a canonical map of [[∞-groups]]
 $$
   \mathbf{BiSect}(At(\nabla))
   \to   
-  \mathbf{BiSetc}(At(\nabla_0))
+  \mathbf{BiSect}(At(\nabla_0))
   \,.
 $$
 
