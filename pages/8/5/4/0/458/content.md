@@ -477,3 +477,14 @@ The connection between locales and toposes via lex totality plays a tacit role t
 [[!redirects localic reflections]]
 
 [[!redirects locale theory]]
+
+[[!redirects map of locales]]
+[[!redirects maps of locales]]
+[[!redirects morphism of locales]]
+[[!redirects morphisms of locales]]
+[[!redirects map of frames]]
+[[!redirects maps of frames]]
+[[!redirects morphism of frames]]
+[[!redirects morphisms of frames]]
+[[!redirects homomorphism of frames]]
+[[!redirects homomorphisms of frames]]
