@@ -223,5 +223,10 @@ Discussion for [[D=11 supergravity]]:
 
 * [[David Berman]], Kwangeon Kim, Kanghoon Lee, _The Classical Double Copy for M-theory from a Kerr-Schild Ansatz for Exceptional Field Theory_ ([arXiv:2010.08255](https://arxiv.org/abs/2010.08255))
 
+Discussion via [[L-infinity algebras]]:
+
+* [[Leron Borsten]], [[Branislav Jurco]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double Copy from Homotopy Algebras_ ([arXiv:2102.11390](https://arxiv.org/abs/2102.11390))
+
+
 
 
