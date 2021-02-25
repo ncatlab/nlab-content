@@ -27,15 +27,17 @@ The refinement of the concept of [[lax colimits]] from [[category theory]] to [[
 In the special case of functors $f : C \to (\infty,1)Cat$, lax (co)limits can be given by (co)ends
 
 $$
-  laxcolim(f) \simeq \int^{c \in C} C_{c/} \times f(c)
-  \simeq \colim_{(c \to d) \in Tw(C)} C_{d/} \times f(c)
+  laxcolim(f)
+  \simeq \colim_{(c \to d) \in \overline{Tw}(C)} C_{d/} \times f(c)
+  \simeq \int^{c \in C} C_{c/} \times f(c)
 $$
 $$
-  laxlim(f) \simeq \int_{c \in C} Fun(C_{/c}, f(c))
-  \simeq \lim_{(c \to d) \in Tw(C)^{op}} Fun(C_{/c}, f(d)) 
+  laxlim(f)
+  \simeq \lim_{(c \to d) \in \overline{Tw}(C)^{op}} Fun(C_{/c}, f(d)) 
+  \simeq \int_{c \in C} Fun(C_{/c}, f(c))
 $$
 
-where $Tw(C)$ is the version of the twisted arrow category where the source is covariant and target is contravariant.
+where $\overline{Tw}(C)$ is the [[twisted arrow (∞,1)-category]].
 
 ## Examples
 
