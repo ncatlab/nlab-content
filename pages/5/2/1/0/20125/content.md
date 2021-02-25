@@ -239,6 +239,17 @@ Tensor networks associated with [[Bruhat-Tits trees]] in [[p-adic AdS/CFT corres
 * Ling-Yan Hung, Wei Li, Charles M. Melby-Thompson, _$p$-adic CFT is a holographic tensor network_ ([arXiv:1902.01411](https://arxiv.org/abs/1902.01411))
 
 
+* Lin Chen, Xirong Liu, Ling-Yan Hung, _Emergent Einstein Equation in p-adic CFT Tensor Networks_ ([arXiv:2102.12022](https://arxiv.org/abs/2102.12022))
+
+* Lin Chen, Xirong Liu, Ling-Yan Hung, _Bending the Bruhat-Tits Tree I:Tensor Network and Emergent Einstein Equations_ ([arXiv:2102.12023](https://arxiv.org/abs/2102.12023))
+
+* Lin Chen, Xirong Liu, Ling-Yan Hung, _Bending the Bruhat-Tits Tree II: the p-adic BTZ Black hole and Local Diffeomorephism on the Bruhat-Tits Tree_ ([arXiv:2102.12024](https://arxiv.org/abs/2102.12024))
+
+
+
+
+
+
 Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CFT correspondence]]:
 
 * Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
