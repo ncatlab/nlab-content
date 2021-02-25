@@ -24,17 +24,13 @@ The refinement of the concept of [[lax colimits]] from [[category theory]] to [[
 
 ## Properties
 
-In the special case of functors $f : C \to (\infty,1)Cat$, lax (co)limits can be given by (co)ends
+In the special case of functors $f : C \to (\infty,1)Cat$, lax (co)limits can be given by the [(∞,1)-end] and coend.
 
 $$
-  laxcolim(f)
-  \simeq \colim_{(c \to d) \in \overline{Tw}(C)} C_{d/} \times f(c)
-  \simeq \int^{c \in C} C_{c/} \times f(c)
+  laxcolim(f)   \simeq \int^{c \in C} C_{c/} \times f(c)
 $$
 $$
-  laxlim(f)
-  \simeq \lim_{(c \to d) \in \overline{Tw}(C)^{op}} Fun(C_{/c}, f(d)) 
-  \simeq \int_{c \in C} Fun(C_{/c}, f(c))
+  laxlim(f)  \simeq \int_{c \in C} Fun(C_{/c}, f(c))
 $$
 
 where $\overline{Tw}(C)$ is the [[twisted arrow (∞,1)-category]].
