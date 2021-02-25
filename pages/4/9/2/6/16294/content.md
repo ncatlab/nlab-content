@@ -22,6 +22,21 @@
 
 The refinement of the concept of [[lax colimits]] from [[category theory]] to [[(infinity,1)-category theory]].
 
+## Properties
+
+In the special case of functors $f : C \to (\infty,1)Cat$, lax (co)limits can be given by (co)ends
+
+$$
+  laxcolim(f) \simeq \int^{c \in C} C_{c/} \times f(c)
+  \simeq \colim_{(c \to d) \in Tw(C)^{op}} C_{d/} \times f(c)
+$$
+$$
+  laxlim(f) \simeq \int_{c \in C} Fun(C_{/c}, f(c))
+  \simeq \lim_{(c \to d) \in Tw(C)} Fun(C_{/c}, f(d)) 
+$$
+
+where $Tw(C)$ is the [[twisted arrow (∞,1)-category]]. (this is the opposite of the convention used in [Gepner-Haugseng-Nikolaus 15](#GepnerHaugsengNikolaus15)
+
 ## Examples
 
 * [[(∞,1)-Grothendieck construction]]
