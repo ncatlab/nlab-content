@@ -149,7 +149,7 @@ $$
 
 interpreting as the [[de Rham differential]].
 
-Beware that this is a very general conceptualization of de Rham coeffcients. In standard examples $\flat_{dR}$ does come from traditional [[differential form]] data (see at _[Deligne coefficients](#DeligneCoefficients)_ and at _[Hopkins-Singer coefficients](#HopkinsSingerCoefficients)_ below), but generally it may have quite different looking models. But in any case $\flat_{dR} \Sigma A$ always has the interpretation of the home of the _[[curvature forms]]_ of cohomology with coefficients in $A$, which makes thinking of $\flat_{dR}$ as producing generalized form data useful.
+Beware that this is a very general conceptualization of de Rham coefficients. In standard examples $\flat_{dR}$ does come from traditional [[differential form]] data (see at _[Deligne coefficients](#DeligneCoefficients)_ and at _[Hopkins-Singer coefficients](#HopkinsSingerCoefficients)_ below), but generally it may have quite different looking models. But in any case $\flat_{dR} \Sigma A$ always has the interpretation of the home of the _[[curvature forms]]_ of cohomology with coefficients in $A$, which makes thinking of $\flat_{dR}$ as producing generalized form data useful.
 
 =--
 
