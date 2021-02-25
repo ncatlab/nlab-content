@@ -26,18 +26,16 @@ $$
 The insertions into the components of the join determine natural transformations
 $src : Tw(C) \to C^{op}$ and $tgt : Tw(C) \to C$.
 
-The alternate convention often appears in the literature,
+Since $(\Delta^n)^{op} \star (\Delta^n)$ is preserved by taking opposites, this construction satisfies $Tw(C) = Tw(C^{op})$, and swaps the source and target maps.
+
+The opposite convention often appears in the literature,
 $$ 
   \overline{Tw}(C)_n = sSet((\Delta^n) \star (\Delta^n)^{op}, C)
 $$
 and comes with natural transformations
 $\overline{src} : \overline{Tw}(C) \to C$ and $\overline{tgt} : \overline{Tw}(C) \to C^{op}$.
 
-These two constructions are related by
-
-* $\overline{Tw}(C) = Tw(C^{op})^{op}$
-* $\overline{src}_C = tgt_{C^{op}}^{op}$
-* $\overline{tgt}_C = src_{C^{op}}^{op}$
+This satisfies $\overline{Tw}(C) \simeq Tw(C)^{op}$.
 
 ## Properties
 
@@ -56,7 +54,9 @@ For a quasi-category $C$, both $Tw(C)$ and $\overline{Tw}(C)$ are quasi-categori
 +-- {: .proof}
 ###### Proof
 
-This description of $\overline{Tw}(C)$ is [Lurie 4.2.5](#Lurie). By the relationship between $Tw$ and $\overline{Tw}$, we have that $Tw(C)$ is classified by $(x,y) \mapsto C^{op}(y,x)$.
+This description of $\overline{Tw}(C)$ is [Lurie 4.2.5](#Lurie). The left fibration classified by a map is the opposite of the right fibration classified
+by the same map.
+
 =--
 
 This means that we have the formulas $Tw(C) \simeq el(\hom_C) \simeq ({*} \downarrow \hom)$, just as in the 1-category version.
