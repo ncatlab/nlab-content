@@ -17,6 +17,8 @@ On [[AdS/CFT]] for $AdS_3/CFT_2$:
 
 * [[Lorenz Eberhardt]], _$AdS_3/CFT_2$ at higher genus_ ([arXiv:2002.11729](https://arxiv.org/abs/2002.11729))
 
+* [[Lorenz Eberhardt]], ,_Summing over Geometries in String Theory_ ([arXiv:2102.12355](https://arxiv.org/abs/2102.12355))
+
 
 
 
