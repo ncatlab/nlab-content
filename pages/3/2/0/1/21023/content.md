@@ -77,11 +77,16 @@ Relation to [[tensor networks]]:
 
 * {#HMSS16} [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
 
-
-
 * {#BHLL17} Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and ($p$-adic) AdS/CFT_, JHEP 1801 (2018) 139 ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
 
 * {#HLM19} Ling-Yan Hung, Wei Li, Charles M. Melby-Thompson, _$p$-adic CFT is a holographic tensor network_ ([arXiv:1902.01411](https://arxiv.org/abs/1902.01411))
+
+* Lin Chen, Xirong Liu, Ling-Yan Hung, _Emergent Einstein Equation in p-adic CFT Tensor Networks_ ([arXiv:2102.12022](https://arxiv.org/abs/2102.12022))
+
+* Lin Chen, Xirong Liu, Ling-Yan Hung, _Bending the Bruhat-Tits Tree I:Tensor Network and Emergent Einstein Equations_ ([arXiv:2102.12023](https://arxiv.org/abs/2102.12023))
+
+* Lin Chen, Xirong Liu, Ling-Yan Hung, _Bending the Bruhat-Tits Tree II: the p-adic BTZ Black hole and Local Diffeomorephism on the Bruhat-Tits Tree_ ([arXiv:2102.12024](https://arxiv.org/abs/2102.12024))
+
 
 
 Including [[spinors]]:
