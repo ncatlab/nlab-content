@@ -194,6 +194,8 @@ for all $X,Y \in C$.  In particular, $Sus = Sus^0 : C \to \Spect^\Sigma_T(C)$ is
 
 * **suspension object**
 
+  * [[suspension type]]
+
   * [[suspension]], [[reduced suspension]]
 
 ## References
