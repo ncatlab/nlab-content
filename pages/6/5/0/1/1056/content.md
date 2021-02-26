@@ -52,6 +52,12 @@ against the Thomason trivial fibrations
 
 ## Properties
 
++-- {: .num_prop}
+###### Proposition 
+$Cat$ is a proper model category.
+=--
+This is corollary 5.5 of [Thomason](#Thomason).
+
 ### Equivalence with the classical model structure on simplicial sets
 
 The Thomason model structure on Cat is [[Quillen equivalent]] to the [[classical model structure on simplicial sets]] by the adjunction
@@ -110,7 +116,7 @@ we get an isomorphism $N(C)^{op} \cong hocolim(1)$.
 
 The original reference is
 
-*  [[Robert Thomason|R. W. Thomason]], _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) <a href="http://archive.numdam.org/article/CTGDC_1980__21_3_305_0.pdf">numdam scan</a>
+*  {#Thomason} [[Robert Thomason|R. W. Thomason]], _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) <a href="http://archive.numdam.org/article/CTGDC_1980__21_3_305_0.pdf">numdam scan</a>
 
 A correction to this article was made in
 
