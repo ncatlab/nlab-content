@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[complex geometry]], Bott-Chern cohomolgy is a [[cohomology]]-theory of [[complex manifolds]] bridginf between [[de Rham cohomology]] and [[Dolbeault cohomology]].
+In [[complex geometry]], Bott-Chern cohomolgy is a [[cohomology]]-theory of [[complex manifolds]] bridging between [[de Rham cohomology]] and [[Dolbeault cohomology]].
 
 ## References
 
