@@ -45,7 +45,7 @@ $$
 
 * [[interval]], [[interval object]]
 
-* [[circle type]]
+* [[suspension type]]
 
 ## References
 
