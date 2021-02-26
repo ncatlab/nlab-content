@@ -36,9 +36,11 @@ This says that the type is [[dependent type|dependent]] on the type A and induct
 
 * The [[circle type]] $S^1$ is the suspension type of $\mathbf{2}$.
 
-* Sphere types of dimension $d:\mathbb{N}$, $S^d$, are suspension types of the sphere type $S^{d-1}$. 
+* The homotopical disk type $G_2$ is the suspension type of $I$.
 
-* [[globe|Globular types]] of dimension $d:\mathbb{N}$, $G_d$, are suspension types of the globular types $G_{d-1}$, with $G_1$ being the interval type.
+* Homotopical $n$-sphere types of dimension $n:\mathbb{N}$, $S^n$, are suspension types of $S^{n-1}$. 
+
+* Homotopical $n$-[[globe]] types of dimension $n:\mathbb{N}$, $G_n$, are suspension types of $G_{n-1}$.
 
 * In general, the suspension type $\Sigma A$ of a type $A$ is the [[homotopy pushout]] of the [[span]] $\mathbf{1} \leftarrow A \rightarrow \mathbf{1}$. 
 
