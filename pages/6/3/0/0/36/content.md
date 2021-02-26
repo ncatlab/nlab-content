@@ -21,6 +21,7 @@ Many structures whose "traditional" definition takes place in [[Set]] (or some o
 * If it is a [[finitely complete category]], the existence of (finite) [[product]]s and [[terminal object]]s means that [[variety of algebras|varieties of algebras]] can be defined. 
 * If the category is a [[topos]] with a [[natural numbers object]], then one can do a certain sort of "ordinary" mathematics inside it, specifically [[predicative mathematics|impredicative]] [[constructive mathematics]] without the fancier tools of [[model theory]] or (ironically) [[category theory]].
 * Further extra conditions on the category, such as being a [[Boolean topos]] or being a [[superextensive site]], bring the internal mathematics closer to that of $Set$.
+* If the category is a [[(infinity,1)-topos]], then one could do most of ordinary constructive mathematics inside of it, including category theory, set theory, model theory, and higher category theory. Adding the [[principle of excluded middle]] or the [[axiom of choice|axiom]] of [[choice object|choice set]]/[[0-groupoids]] results in internal classical mathematics. 
 
 The structure required on $C$ is often referred to as a [[doctrine]].  The question of what exactly a "doctrine" is is a tricky one, but for purposes of this page, we take a "doctrine" to mean a certain type of structure (or [[property-like structure]]) with which a category can be equipped.  For example, there is a doctrine of monoidal categories, a doctrine of categories with finite limits, a doctrine of cartesian closed categories, and so on.
 
