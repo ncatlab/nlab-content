@@ -39,7 +39,7 @@ $$
 
 * On the other hand, postulating an interval type with *definitional* computation rules for `left` and `right` implies [[function extensionality]]. ([Shulman](#Shulman)).
 
-* An interval type is a [[suspension type]] of the [[unit type]]. 
+* An interval type is a [[suspension type]] of the [[unit type]], and the suspension of an interval type is a 2-[[globe]] type. 
 
 ## Related concepts
 
