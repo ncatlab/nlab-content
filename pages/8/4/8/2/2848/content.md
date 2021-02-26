@@ -28,8 +28,9 @@ If (in a given context $\Gamma$) we have a [[type]] $A$, then we may extend $\Ga
 
 If $P$ is a predicate with free variable $x$ of type $A$ and $t$ is a [[term]] of type $A$, then we get a proposition $P[t/x]$ by substituting $t$ for every instance of $x$ in $P$.  Conversely, any proposition $Q$ may be interpreted as a predicate $Q[\hat{x}]$ in which the free variable $x$ simply doesn't appear.  (We have $Q[\hat{x}][t/x] = Q$ for every term $t$.)
 
-There is a more traditional approach of viewing a predicate as a [[function]] from terms to propositions, a __propositional function__.  Then $P[t/x]$ is written $P(t)$, while $P$ itself from above is written $P(x)$ (since a variable is a term).  In this approach, less care is usually taken with the context, so that $Q[\hat{x}]$ may be conflated with $Q$ (since $Q[\hat{x}](x) = Q$, or this would be so if $x$ were a term in $\Gamma$ instead of only in $\Delta$).
+There is a more traditional approach of viewing a predicate as a [[function]] from terms to propositions, a __propositional function__.  Then $P[t/x]$ is written $P(t)$, while $P$ itself from above is written $P(x)$ (since a variable is a term).  In this approach, less care is usually taken with the context, so that $Q[\hat{x}]$ may be conflated with $Q$ (since $Q[\hat{x}](x) = Q$, or this would be so if $x$ were a term in $\Gamma$ instead of only in $\Delta$). 
 
+From a higher-categorical point of view, predicates could be viewed as an [[indexed family]] of propositions with index object $I$ and function $P:I \rightarrow Prop$, the [[(-1)-groupoid]] version of the indexed family of [[set|sets]] found in [[set theory]] with index object $I$ and [[functor]] $S:I \rightarrow Set$ and the indexed family of [[groupoid|groupoids]] found in [[groupoid theory]] with index object $I$ and [[2-functor]] $G:I \rightarrow Grpd$.
 
 ## In category-theoretic logic
 
