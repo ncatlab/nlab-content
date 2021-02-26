@@ -94,6 +94,8 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 
 * [[suspension object]]
 
+  * [[suspension type]]
+
   * [[suspension]], **reduced suspension**
 
     * [[Freudenthal suspension theorem]]
