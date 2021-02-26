@@ -32,7 +32,7 @@ e\downarrow &&\downarrow j
 B &\stackrel{v}\longrightarrow& D
 }$$
 
-is a commutative diagram with $e$ bijective on objects and $j$ fully faithful, then there is a unique functor $h \colon B\to C$ such that $h e = u$ and $j h = v$.
+is a commutative diagram with $e$ bijective on objects and $j$ fully faithful, then there is a unique functor $h \colon B\to C$ such that $h e = u$ and $j h = v$. The object $C$, through which $f$ factors, is called the [[full image]] of $f$.
 
 In fact, this can be generalized to a square commuting up to invertible [[natural transformation]], in which case one still concludes that $h e = u$ but that $j h \cong v$, with the isomorphism composing with $e$ to give the original isomorphism.  This means that this is an [[enhanced factorization system]].
 
