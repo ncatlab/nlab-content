@@ -41,11 +41,15 @@ $$
 
 * An interval type is a [[suspension type]] of the [[unit type]], and the suspension of an interval type is a 2-[[globe]] type. 
 
+* The $n$-ary product of an interval type $I$ with itself is a $n$-[[cube]] type $\Box^n$. An interval type is a 1-cube type and the unit type is a 0-cube. 
+
 ## Related concepts
 
 * [[interval]], [[interval object]]
 
 * [[suspension type]]
+
+* [[cubical type theory]]
 
 ## References
 
