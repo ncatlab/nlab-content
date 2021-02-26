@@ -736,7 +736,7 @@ General accounts include
 Discussion of [[crystalline cohomology]] of super-schemes:
 
 
-* Martin Luu, _Chrystalline cohomology of superschemes_ ([pdf](http://math.uiuc.edu/~mluu/Luu-crystalline.pdf))
+* Martin Luu, _Crystalline cohomology of superschemes_ ([pdf](http://math.uiuc.edu/~mluu/Luu-crystalline.pdf))
 
 
 [[!redirects super-schemes]]
