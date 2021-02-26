@@ -149,6 +149,8 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
 
 * [[suspension object]]
 
+  * [[suspension type]]
+
   * **suspension**, [[reduced suspension]]
 
     * [[Freudenthal suspension theorem]]
