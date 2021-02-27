@@ -56,3 +56,4 @@ One may regard $Grpd$ also just as a 1-category by ignoring the natural isomorph
 category: category
 
 [[!redirects Gpd]]
+[[!redirects category of groupoids]]
