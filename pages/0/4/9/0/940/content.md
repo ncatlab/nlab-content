@@ -66,11 +66,13 @@ Map $b\otimes c\otimes b'\mapsto b\gamma(c)b'$, $B\otimes_A C\otimes_A B\to D$ f
 
 ### Comodules over a coring
 
-Given an $A$-coring $C = ({}_A C_A, \Delta,\epsilon)$, a left $C$-comodule $M$ i a left $A$-module with a map of left $A$-modules $\nu: M\to M\otimes_A {}_A C_A$ (left $C$-coaction), such that 
-the composition $M\stackrel{\nu}\to M\otimes_A C \stackrel{\nu\otimes C}\to (M\otimes_A C)\otimes_A C$ after rebracketing becomes identical to the composition
-$M\stackrel{\nu}\to M\otimes_A C \stackrel{M\otimes \Delta_C}\to M\otimes_A (C \otimes_A C)$ and the counitality axiom holds.
+Given an $A$-coring $C = ({}_A C_A, \Delta,\epsilon)$, a left $C$-comodule $M$ is a left $A$-module with a map of left $A$-modules $\nu: M\to M\otimes_A {}_A C_A$ (left $C$-coaction), such that 
+the composition $M\stackrel{\rho}\to M\otimes_A C \stackrel{\rho\otimes C}\to (M\otimes_A C)\otimes_A C$ after rebracketing becomes identical to the composition
+$M\stackrel{\rho}\to M\otimes_A C \stackrel{M\otimes \Delta_C}\to M\otimes_A (C \otimes_A C)$ and the counitality axiom holds.
 
-The functor $F: M\mapsto M\otimes_A C$ is canonically a comonad on ${}_A Mod$ with  comultiplication $\Delta^F = Id\otimes_A\Delta_C : F\to F F$ and the [[Eilenberg-Moore category]] of the comonad is isomorphic to the category of $C$-comodules, with appropriate notion of morphisms.
+A morphism of left $C$-comodules $f:(M,\rho^M)\to(N,\rho^N)$ is a morphism of underlying $A$-modules $f:M\to N$ such that $(M\otimes_A f)\circ\rho^M = \rho^N\circ f$. Thus there is a category of left $C$-comodules equipped with a forgetful functor to the category of left $A$-modules. 
+
+The functor $F: M\mapsto M\otimes_A C$ is canonically a comonad on ${}_A Mod$ with  comultiplication $\Delta^F = Id\otimes_A\Delta_C : F\to F F$ and the [[Eilenberg-Moore category]] of the comonad $F$ is isomorphic to the category of $C$-comodules.
 
 Analogously, one considers right $C$-comodules as right $A$-comodules with right $C$-coactions. 
 
