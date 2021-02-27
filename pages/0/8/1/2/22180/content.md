@@ -65,6 +65,30 @@ $p : Tw(J^{op}) \to J \times J^{op}$ is the left fibration classified by $J^{op}
 
 ## Properties
 
++-- {: .num_prop }
+###### Proposition (Fubini)
+
+Given a functor $F : J^\op \times J \times K^\op \times K \to C$, if the relevant ends/coends exist, we have natural equivalences
+$$
+\int_J \int_K F \simeq \int_{J \times K} F
+\qquad \qquad
+\int^J \int^K F \simeq \int^{J \times K} F
+$$
+
+=--
++-- {: .proof}
+###### Proof 
+For ends, using the fact $Tw$ preserves products we can compute
+$$
+  \begin{aligned}
+  \int_J \int_K F
+   &\simeq \lim_{j \to j' \in Tw(J)} \lim_{k \to k' \in Tw(K)} F(j,j',k,k')
+   \\&\simeq \lim_{(j,k) \to (j',k') \in \Tw(J \times K)} F(j,j',k,k')
+   \\&\simeq \int_{J \times K} F
+  \end{aligned}
+$$
+The same argument applies for coends.
+=--
 
 +-- {: .num_prop }
 ###### Proposition
