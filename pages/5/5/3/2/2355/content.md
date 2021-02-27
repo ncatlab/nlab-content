@@ -233,13 +233,42 @@ $$
 
 =--
 
-
 +-- {: .proof}
 ###### Proof
 
 This is [[Higher Topos Theory|HTT, prop 5.2.1.3]] (also remark 5.2.2.2), and [[Higher Topos Theory|HTT, prop. 5.2.6.2]].
 
+The idea is to construct the category of right adjoints as an intersection of full subcategories
+$$
+  \array{
+  Func^R(C,D) &\to& C^D
+  \\  \downarrow & & \downarrow
+  \\ (D^C)^{op} &\to& \infty Gpd^{C^{op} \times D}
+  }
+$$
+where the inclusions are given by the yoneda embedding. An element of $Func^R(C,D)$
+corresponds to a functor $p : C^{op} \times D \to \infty Gpd$
+for which there exists a pair of functors $g : D \to C$ and $f : C \to D$ such that $p \simeq D(f-,-) \simeq C(-,g-)$.
+
 =--
+
+### Uniqueness of unit and counit
+
+Given functors $f : C \to D$ and $g : D \to C$, we can use the [[(∞,1)-end]] to determine compute a chain of equivalences
+$$
+  \begin{aligned}
+  C^C(id, gf)
+  &\simeq \int_{c \in C} C(c, gf(c))
+  \\ &\simeq \int_{c \in C} \infty Gpd^D(D(f(c), -), C(c, g-))
+  \\ &\simeq Gpd^{C^{\op} \times D}(D(f-, -), C(-, g-))
+  \end{aligned}
+$$
+dually, we can identify the space of counits as
+$$
+  D^D(fg, id) \simeq Gpd^{C^{\op} \times D}(C(-, g-), D(f-, -))
+$$
+So each half of the equivalence $D(f-,-) \simeq C(-,g-)$ corresponds essentially uniquely to a choice of unit and counit transformation.
+
 
 ### Preservation of limits and colimits {#PresOfLims}
 
