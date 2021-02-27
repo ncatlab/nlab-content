@@ -3,9 +3,9 @@
 
 ## Selected writings
 
-On [[Poincare duality]] and [[cobordism]]:
+On [[Poincare duality]], [[cobordism theory]] and formulating the modern form of the [[Pontryagin-Thom isomorphism]]:
 
-* {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277
+* {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277 ([doi:10.1090/S0002-9947-1963-0156357-4](https://doi.org/10.1090/S0002-9947-1963-0156357-4))
 
 On the [[principal bundles]], [[spherical fibrations]], [[Hopf construction]], ...:
 
