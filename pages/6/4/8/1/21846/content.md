@@ -2,7 +2,7 @@
 
 **flavors of [[bordism homology theories]]/[[cobordism cohomology theories]], their [[Brown representability theorem|representing]] [[Thom spectra]] and [[cobordism rings]]**:
 
-[[bordism homology theory|bordism theory]] $\,M B$ ([[B-bordism]]):
+[[bordism homology theory|bordism theory]]$\;$[[M(B,f)]] ([[B-bordism]]):
 
 * [[MFr]]
 
