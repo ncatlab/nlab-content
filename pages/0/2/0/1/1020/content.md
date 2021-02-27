@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -15,44 +14,87 @@
 
 ## Idea
 
-The left part of a pair of [[adjoint functor]]s is one of two best approximations to a [[weak inverse]] of the other functor of the pair.  (The other best approximation is the functor\'s [[right adjoint]], if it exists. )  Note that a weak inverse itself, if it exists, must be a left adjoint, forming an [[adjoint equivalence]].
+The left part of a pair of [[adjoint functor]]s is one of two best approximations to a [[weak inverse]] of the other functor of the pair.  (The other best approximation is the functor's [[right adjoint]], if it exists.)  Note that a weak inverse itself, if it exists, must be a left adjoint, forming an [[adjoint equivalence]].
 
-A left adjoint to a [[forgetful functor]] is called a [[free functor]]; in general, left adjoints may be thought of as being defined freely, consisting of anything that an inverse might want, regardless of whether it works.
+A left adjoint to a [[forgetful functor]] is called a [[free functor]]. Many left adjoints can be constructed as quotients of free functors.
 
 The concept generalises immediately to [[enriched category|enriched categories]] and in [[2-category|2-categories]].
 
 
 ## Definitions
 
-Given [[partial order|posets]] (or [[preorder|proset]]s) $C$ and $D$ and a monotone function $U: C \to D$, a __left adjoint__ of $U$ is a [[monotone function]] $F: D \to C$ such that
-$$ F(x) \leq y \;\Leftrightarrow\; x \leq U(y) $$
-for all $x$ in $D$ and $y$ in $C$.
+\subsection{For categories}
 
-Given [[locally small categories]] $C$ and $D$ and a [[functor]] $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with a [[natural isomorphism]] between the [[hom-set]] functors
+\begin{defn} \label{DefinitionLeftAdjointForCategories} Given categories $\mathcal{C}$ and $\mathcal{D}$ and a functor $R: \mathcal{D} \to \mathcal{C}$, a _left adjoint_ of $R$ is a functor $L: \mathcal{C} \to \mathcal{D}$ together with [[natural transformation|natural transformations]]
+$\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D} $ such that the following diagrams (known as the [[triangle identities]]) commute, where $\cdot$ denotes the [[whiskering]] of natural transformations.
+
+\begin{centre}
+  \begin{tikzcd} 
+    L \ar[r, "id(L) \cdot \iota"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot id(R)"] \\
+                                                     & L 
+  \end{tikzcd}
+\end{centre}
+
+\begin{centre}
+  \begin{tikzcd} 
+    R \ar[r, "\iota \cdot id(R)"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "id(R) \cdot \epsilon"] \\
+                                                     & R 
+  \end{tikzcd}
+\end{centre}
+ 
+\end{defn}
+
+\begin{rmk} \label{RemarkEquivalentDefinitionLeftAdjointForCategories} Requiring the commutativity of the two diagrams in Definition \ref{DefinitionLeftAdjointForCategories} is equivalent to requiring that there is a [[natural isomorphism]] between the [[hom-functor|Hom functors]]
 
 $$ 
-  Hom_C(F(-),-), Hom_D(-,U(-)): D^{op} \times C \to Set
+  Hom_\mathcal{C}\left(L(-),-\right), Hom_\mathcal{D}\left(-,R(-)\right): D^{op} \times C \to \mathsf{Set}.
 $$
 
-Given $V$-enriched categories $C$ and $D$ and a $V$-[[enriched functor]] $U: C \to D$, a __left adjoint__ of $U$ is a $V$-enriched functor $F: D \to C$ with a $V$-[[enriched natural transformation|enriched natural isomorphism]] between the [[hom-object]] functors
+Depending upon one's interpretation of $\mathsf{Set}$, the [[category of sets]], one may strictly speaking need to restrict to [[locally small category|locally small]] categories for this equivalence to parse. 
+\end{rmk}
+
+\subsection{For enriched categories}
+
+The equivalent formulation of Definition \ref{DefinitionLeftAdjointForCategories} given in Remark \ref{RemarkEquivalentDefinitionLeftAdjointForCategories} generalises immediately to the setting of [[enriched category|enriched categories]].
+
+\begin{defn} Given $\mathbb{V}$-enriched categories $\mathcal{C}$ and $\mathcal{D}$ and a $\mathbb{V}$-[[enriched functor]] $R: \mathcal{D} \to \mathcal{C}$, a _left adjoint_ of $R$ is a $\mathbb{V}$-enriched functor $L: \mathcal{C} \to \mathcal{D}$ together with a $\mathbb{V}$-[[enriched natural transformation|enriched natural isomorphism]] between the [[hom-functor|Hom functors]]
 
 $$ 
-  Hom_C(F(-),-), Hom_D(-,U(-)): D^{op} \times C \to Set 
-  \,.
+  Hom_\mathcal{C}\left((L(-),-\right), Hom_\mathcal{D}\left(-,R(-)\right): D^{op} \times C \to \mathbb{V}.
 $$
 
-Given categories $C$ and $D$ and a functor $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with [[natural transformation]]s
-$$ \iota: id_C \to F ; U,\; \epsilon: U ; F \to id_D $$
-(where $F;U$ etc gives the [[composite]] in the forwards, anti-Leibniz order) satisfying certain [[triangle identities]].
+\end{defn}
 
-Given a [[2-category]] $\mathcal{B}$, objects $C$ and $D$ of $\mathcal{B}$, and a morphism $U: C \to D$ in $\mathcal{B}$, a __left adjoint__ of $U$ is a morphism $F: D \to C$ with $2$-morphisms
-$$ \iota: id_C \to F ; U,\; \epsilon: U ; F \to id_D $$
-satisfying the triangle identities.
+\subsection{In a 2-category}
 
-Although it may not be immediately obvious, these definitions are all compatible.
+Definition \ref{DefinitionLeftAdjointInACategory} generalises immediately from [[Cat]], the 2-category of categories, to any [[2-category]].
 
-Whenever $F$ is a left adjoint of $U$, we have that $U$ is a [[right adjoint]] of $F$.
+\begin{defn} \label{DefinitionLeftAdjointInA2Category} Let $\mathcal{A}$ be a 2-category. Given objects $\mathcal{C}$ and $\mathcal{D}$, and a 1-arrow $R: \mathcal{D} \to \mathcal{C}$ of $\mathcal{A}$, a _left adjoint_ of $R$ is a 1-arrow $L: \mathcal{C} \to \mathcal{D}$ together with 2-arrows
+$\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D} $ such that the following diagrams commute, where $\cdot$ denotes [[whiskering]] in $\mathcal{A}$.
 
+\begin{centre}
+  \begin{tikzcd} 
+    L \ar[r, "id(L) \cdot \iota"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot id(R)"] \\
+                                                     & L 
+  \end{tikzcd}
+\end{centre}
+
+\begin{centre}
+  \begin{tikzcd} 
+    R \ar[r, "\iota \cdot id(R)"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "id(R) \cdot \epsilon"] \\
+                                                     & R 
+  \end{tikzcd}
+\end{centre}
+ 
+\end{defn}
+
+\begin{rmk} If one assumes that one's ambient 2-category has more structure, bringing it closer to being a [[2-topos]], for example a [[Yoneda structure]], one should be able to give an equivalent formulation of Definition \ref{DefinitionLeftAdjointInA2Category} akin to that of Remark \ref{RemarkEquivalentDefinitionLeftAdjointForCategories}.  \end{rmk} 
+
+\subsection{For preorders and posets}
+
+Restricted to [[preorder|preorders]] or [[poset|posets]], Definition \ref{DefinitionLeftAdjointForCategories} in its equivalent formulation of Remark \ref{RemarkEquivalentDefinitionLeftAdjointForCategories} can be expressed in the following terminology.
+
+\begin{defn} Given [[partial order|posets]] or [[preorder|preorders]] $\mathcal{C}$ and $\mathcal{D}$ and a [[monotone function]] $R: \mathcal{D} \to \mathcal{C}$, a _left adjoint_ of $R$ is a monotone function $L: \mathcal{C} \to \mathcal{D}$ such that, for all $x$ in $\mathcal{D}$ and $y$ in $\mathcal{C}$, we have that $L(x) \leq y$ holds if and only if $x \leq R(y) $ holds. \end{defn}
 
 ## Properties
 
@@ -60,14 +102,18 @@ Whenever $F$ is a left adjoint of $U$, we have that $U$ is a [[right adjoint]] o
 
 * left adjoints preserve [[epimorphisms]].
 
+\section{Examples}
+
+* The left adjoint of the [[nerve functor]] $N: \mathsf{Grpd} \to \mathsf{Set}^{\Delta^{op}}$ from the [[category of groupoids]] to the [[category of simplicial sets]] is the [[fundamental groupoid]] functor. 
+
 ## Related entries
 
-*  See [[Galois connection]] for left adjoints of monotone functions.
-*  See [[adjoint functor]] for left adjoints of functors.
-*  See [[adjunction]] for left adjoints in $2$-categories.
-*  See [[examples of adjoint functors]] for examples.
-
+* [[Galois connection]] for more on left adjoints of monotone functions.
+* [[adjoint functor]] for more on left adjoints of functors.
+* [[adjunction]] for more on left adjoints in $2$-categories.
+* [[examples of adjoint functors]] for examples.
 * [[pro-left adjoint]]
+* [[2-adjunction]] for a categorified notion of adjunction.
 
 [[!redirects left adjoints]]
 
