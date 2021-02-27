@@ -44,3 +44,9 @@ For [[essentially surjective functors]], one can relax both the commuting and th
 
 [[!redirects (bo,ff) factorization system]]
 [[!redirects bo-ff factorization system]]
+[[!redirects (bo,ff) factorization]]
+[[!redirects bo-ff factorization]]
+[[!redirects (bo,ff) factorisation system]]
+[[!redirects bo-ff factorisation system]]
+[[!redirects (bo,ff) factorisation]]
+[[!redirects bo-ff factorisation]]
