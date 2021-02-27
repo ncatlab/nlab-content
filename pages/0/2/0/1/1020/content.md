@@ -26,18 +26,18 @@ The concept generalises immediately to [[enriched category|enriched categories]]
 \subsection{For categories}
 
 \begin{defn} \label{DefinitionLeftAdjointForCategories} Given categories $\mathcal{C}$ and $\mathcal{D}$ and a functor $R: \mathcal{D} \to \mathcal{C}$, a _left adjoint_ of $R$ is a functor $L: \mathcal{C} \to \mathcal{D}$ together with [[natural transformation|natural transformations]]
-$\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D} $ such that the following diagrams (known as the [[triangle identities]]) commute, where $\cdot$ denotes the [[whiskering]] of natural transformations.
+$\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D} $ such that the following diagrams (known as the [[triangle identities]]) commute, where $\cdot$ denotes [[whiskering]] of a functor with a natural transformation.
 
 \begin{centre}
   \begin{tikzcd} 
-    L \ar[r, "id(L) \cdot \iota"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot id(R)"] \\
+    L \ar[r, "L \cdot \iota"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot L"] \\
                                                      & L 
   \end{tikzcd}
 \end{centre}
 
 \begin{centre}
   \begin{tikzcd} 
-    R \ar[r, "\iota \cdot id(R)"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "id(R) \cdot \epsilon"] \\
+    R \ar[r, "\iota \cdot R"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "R \cdot \epsilon"] \\
                                                      & R 
   \end{tikzcd}
 \end{centre}
@@ -74,14 +74,14 @@ $\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D
 
 \begin{centre}
   \begin{tikzcd} 
-    L \ar[r, "id(L) \cdot \iota"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot id(R)"] \\
+    L \ar[r, "L \cdot \iota"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot L"] \\
                                                      & L 
   \end{tikzcd}
 \end{centre}
 
 \begin{centre}
   \begin{tikzcd} 
-    R \ar[r, "\iota \cdot id(R)"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "id(R) \cdot \epsilon"] \\
+    R \ar[r, "\iota \cdot R"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "R \cdot \epsilon"] \\
                                                      & R 
   \end{tikzcd}
 \end{centre}
