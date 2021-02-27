@@ -1,10 +1,10 @@
 
-### Pontryagin-Thom construction
+### Pontrjagin-Thom construction
 
 
-#### Pontryagin's construction
+#### Pontrjagin's construction
 
-The _[[Pontryagin theorem]]_, i.e. the unstable and framed version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
+The _[[Pontryagin theorem]]_, i.e. the unstable and [[normally framed submanifold|framed]] version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
 
 * {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
 
@@ -45,7 +45,7 @@ Discussion of the early history:
 
 #### Thom's construction
 
-[[Thom's theorem]] i.e. the unstable and oriented version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally oriented submanifolds]] with [[homotopy classes]] of [[maps]] to the [[universal vector bundle|universal]] [[special orthogonal group|special orthogonal]] [[Thom space]] $M SO(n)$, is due to:
+[[Thom's theorem]] i.e. the unstable and _oriented_ version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally oriented submanifolds]] with [[homotopy classes]] of [[maps]] to the [[universal vector bundle|universal]] [[special orthogonal group|special orthogonal]] [[Thom space]] $M SO(n)$, is due to:
 
 * {#Thom54} [[René Thom]], _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
 
@@ -53,9 +53,16 @@ Textbook accounts:
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
-#### Structured and Stable Pontryagin-Thom construction
 
-By a [[Pontryagin-Thom isomorphism]] one typically means the generalization of the above to any other [[tangential structure]] and/or its [[stabilization]] involving maps to [[Thom spectra]].
+
+
+#### Lashov's construction
+
+The joint generalization of [Pontryagin 38a](#Pontryagin38a), [55](#Pontryagin55) (framing structure) and [Thom 54](#Thom54) (orientation structure) to any family of [[tangential structures]] ("[[(B,f)-structure]]") is first made explicit in  
+
+* {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277 ([doi:10.1090/S0002-9947-1963-0156357-4](https://doi.org/10.1090/S0002-9947-1963-0156357-4))
+
+and the general statement that has come to be known as _[[Pontryagin-Thom isomorphism]]_ (identifying the stable [[cobordism classes]] of normally [[tangential structure|(B,f)-structure]] submanifolds with [[homotopy classes]] of maps to the [[Thom spectrum]] [[Mf]]) is [Lashof 63, Theorem C](#Lashof63).
 
 Textbook accounts:
 
