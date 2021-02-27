@@ -357,7 +357,7 @@ $$
   \,.
 $$
 
-=---
+=--
 
 +-- {: .proof}
 ###### Proof
@@ -935,10 +935,15 @@ Under the [[Brown representability theorem]] the Thom spectrum represents the [[
 
 * [[cobordism theory]]
 
-
 * [[Thom space]], [[Thom isomorphism]], [[Pontryagin-Thom collapse map]]
 
 * [[cobordism ring]]
+
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
+\linebreak
 
 [[!include generalized fiber integration synonyms - table]]
 
@@ -1041,3 +1046,6 @@ A brief exposition appears as example 3.7 in
 
 [[!redirects generalized Thom spectrum]]
 [[!redirects generalized Thom spectra]]
+
+[[!redirects Mf]]
+[[!redirects M(B,f)]]
