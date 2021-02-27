@@ -83,9 +83,10 @@ Segal spaces.
 =--
 
 +-- {: .num_theorem}
-##### Theorem
+###### Theorem
 The localization $L : RelCat[Rezk^{-1}] \simeq (\infty,1)Cat$ is the ∞-localization functor $(C,W) \mapsto C[W^{-1}]$.
 =--
+
 +-- {: .proof}
 ###### Proof
 We will see below that we can compute this through the map $(C,W) \to (NC, NW)$ to marked simplicial sets. Suppose we're given a fibrant replcaement $(NC, NW) \to Y^\natural$. Since $NC$ is a quasi-category, composition induces an equivalence for every quasi-category $Z$
@@ -100,7 +101,7 @@ It is shown in [Meier](#Meier) that [[categories of fibrant objects]] are fibran
 
 ### Compatibility with other models for (∞,1)-categories
 
-One often uses the [[simplicial localization|Hammock Localization]] $L^H : RelCat \to sSetCat$, where $sSetCat$ is given the Bergner model structure whose weak equivalences are the Dwyer-Kan equivalences: i.e. the local weak homotopy equivalences.
+One often uses the [[simplicial localization|hammock localization]] $L^H : RelCat \to sSetCat$, where $sSetCat$ is given the Bergner model structure whose weak equivalences are the Dwyer-Kan equivalences: i.e. the local weak homotopy equivalences.
 
 +-- {: .num_prop}
 ###### Proposition
