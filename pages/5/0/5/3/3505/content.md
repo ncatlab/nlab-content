@@ -21,6 +21,8 @@ The [[model category]] structure on the [[category]] of [[category with weak equ
 
 Every [[category with weak equivalences]] $C$ presents under Dwyer-Kan [[simplicial localization]] a [[simplicially enriched category]] or alternatively under [[Charles Rezk]]'s _simplicial nerve_ a [[complete Segal space|Segal space]], both of which are incarnations of a corresponding [[(∞,1)-category]] $\mathbf{C}$ with the same objects of $C$, at least the 1-morphisms of $C$ and such that every weak equivalence in $C$ becomes a true equivalence ([[homotopy equivalence]]) in $\mathbf{C}$.
 
+By the work of Barwick and Kan, there is a model structure on relative categories presenting the (∞,1)-category of simplicial spaces.
+
 ## Details
 
 For the purposes of the present entry, a [[category with weak equivalences]] means the bare minimum of what may reasonably go by that name: 
@@ -35,13 +37,46 @@ Write $RelCat$ for the [[category]] of relative categories and such morphisms be
 
 ### Model category structure
 
-The model category structure on $RelCat$ is obtained from that on [[bisimplicial set]]s modelling [[complete Segal space]]s in Theorem 6.1  of
++-- {: .num_theorem}
+###### Theorem
+The subdivided nerve of Barwick-Kan induces a right [[transferred model structure]]
+on $RelCat$ such that there is a Quillen equivalence
+$$
+  K_\xi : sSet^{\Delta^{\op}}_{Reedy} \leftrightarrows (RelCat, BK) : N_\xi
+$$
+Both functors preserve and reflect weak equivalences, and the adjunction unit and counit are natural weak equivalences. The simplicial nerve $N$ is naturally weakly equivalent to $N_\xi$.
 
-* [[Clark Barwick]] and [[Dan Kan]], _Relative categories; another model for the homotopy theory of homotopy theories_ ([arXiv:math/1011.1691](http://arxiv.org/abs/1011.1691))
+Furthermore, this all remains true if the Reedy model structure on $sSet^{\Delta^{\op}}$ is replaced with any of its Bousfield localizations.
+
+The model structure on RelCat is left proper. It is also right proper when the model structure on $ sSet^{\Delta^{\op}}$ is right proper.
+=--
++-- {: .proof}
+###### Proof
+The existence and properness of the model structure and the Quillen equivalence is Theorem 6.1 of [Barwick-Kan](#BarKan), as is the fact $N_\xi$ preserves and reflects weak equivalences.
+
+Proposition 10.3 shows the adjunction unit is a natural weak equivalence.
+That the counit is a natural weak equivalence follows by considering the triangle identity, 3-for-2, and the fact $N_\xi$ reflects weak equivalences
+$$
+N_\xi C \xrightarrow{\eta N_\xi C} N_\xi K_\xi N_\xi C
+\xrightarrow{N_\xi \varepsilon C} N_\xi C
+$$
+Finally, by considering the diagram
+$$
+ \array{
+  X & \stackrel{\eta}{\to} & N_\xi K_\xi X
+  \\
+  \downarrow f && \downarrow
+  \\
+  Y & \stackrel{\eta}{\to} & N_\xi K_\xi Y
+ }
+$$
+we see $f$ is a weak equivalence iff $N_\xi K_\xi f$ is,
+and iff $K_\xi f$ is.
+=--
+
+In particular, the complete Segal space model structure is a Bousfield localization of $sSet^{\Delta^{\op}}_{Reedy}$, and thus this theorem guarantees an equivalent model structure on $RelCat$. 
 
 It is shown in [Meier](#Meier) that [[categories of fibrant objects]] are fibrant in this model structure.
-
-More generally, the subdivided nerve-realization adjunction induces a quillen equivalent model structure on RelCat for every  Bousfield localization of the model structure on bisimplicial sets presenting simplicial spaces.
 
 ### Nerve functors
 
@@ -53,7 +88,7 @@ The compatibility of the various nerve and simplicial localization functors is i
 
 * [[Clark Barwick]] and [[Dan Kan]], 
 
-  * _Relative categories: another model for the homotopy theory of homotopy theories_ ([arXiv:math/1011.1691](http://arxiv.org/abs/1011.1691))
+  * {#BarKan} _Relative categories: another model for the homotopy theory of homotopy theories_ ([arXiv:math/1011.1691](http://arxiv.org/abs/1011.1691))
 
   * _A characterization of simplicial localization functors_ ([arXiv:math/1012.1540](http://arxiv.org/abs/1012.1540))
 
