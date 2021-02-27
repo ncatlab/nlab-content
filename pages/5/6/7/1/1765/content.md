@@ -24,7 +24,7 @@
 
 ## Idea
 
-A Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[?ech nerve]] of a [[cover]]: it is used to describe [[descent]] in algebraic contexts.
+A canonical or Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[Čech nerve]] of a [[cover]]: it is used to describe [[descent]] in algebraic contexts.
 
 See also [[monadic descent]].
 
@@ -46,7 +46,7 @@ $$
   \Delta : C\to C\otimes_S C \cong S\otimes_R S\otimes_R S
 $$ 
 
-given by
+given by the bilinear extension of the formula 
 
 $$
   \Delta: s_1\otimes s_2 \mapsto s_1\otimes 1 \otimes s_2
@@ -55,12 +55,7 @@ $$
 and counit 
 
 $$
-  \epsilon : C\to S
-$$ 
-
-given by 
-
-$$
+  \epsilon : C\to S,\,\,\,\,\,\,\,
  \epsilon: s_1 \otimes s_2 \mapsto s_1 s_2
  \,.
 $$  
@@ -109,7 +104,7 @@ $$
   \,.
 $$
 
-The morphism $\pi$ induces its augmented [[?ech nerve]]
+The morphism $\pi$ induces its augmented [[Čech nerve]]
 
 $$
   \left(
@@ -159,13 +154,14 @@ $$
   \,.
 $$
 
-
 ## Properties
 
 ### Relation to ring extensions
 
-Various properties of canonical coring correspond to adequate properties of the ring extension. For example, [[coseparable coring|coseparable]] Sweedler corings correspond to [[split extension]]s (the $k$-algebra extension $R\to S$ is split if there is an $R$-bimodule map $h: S\to R$ with $h(1_S) = 1_R$).
+Various properties of canonical coring correspond to adequate properties of the ring extension. For example, [[coseparable coring|coseparable]] canonical corings correspond to [[split extension]]s (the $k$-algebra extension $R\to S$ is split if there is an $R$-bimodule map $h: S\to R$ with $h(1_S) = 1_R$).
 
+In the case of the trivial ring extension $R\to R$ the coproduct of the canonical coring is the canonical isomorphism 
+$R\to R\otimes_R R$ and the counit is the identity $R\to R$. Thus, every right $R$-module is a comodule over the canonical coring. Such a canonical coring is called a __trivial coring__. This example puts the rings (or associative unital algebras) and their categories of modules as a special case of corings and their categories of comodules. In view of the next paragraph, this is a generalization of a coring of a cover for the case of a trivial (identity) cover.
 
 ### Descent in terms of coring comodules
  {#DescentIntermsOfCoringModules}
@@ -181,7 +177,7 @@ In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ w
 
 #### In terms of (co)monadic descent {#ComonadicDescent}
 
-This [[coring]]-formulation of [[descent]] may be understood as special case of [[comonadic descent]] (see also the discussion at [[Bénabou?Roubaud theorem]]). See e.g. ([Hess 10, section 2](#Hess10)) for a review. We spell this out in a bit more detail:
+This [[coring]]-formulation of [[descent]] may be understood as special case of [[comonadic descent]] (see also the discussion at [[Bénabou-Roubaud theorem]]). See e.g. ([Hess 10, section 2](#Hess10)) for a review. We spell this out in a bit more detail:
 
 The [[bifibration]] in question is 
 
