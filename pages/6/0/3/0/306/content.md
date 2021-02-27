@@ -392,7 +392,9 @@ Whereas for 1-toposes the _subobject classifier_ is the key structural ingredien
 
 * [[quasitopos]] where a weaker notion of subobject classifier only classifies [[strong monomorphism]]s. 
 
-* [[object classifier]]
+* [[discrete object classifier]]
+
+* [[(sub)object classifier in an (infinity,1)-topos]]
 
 * [[type of propositions]], [[type of types]]
 
