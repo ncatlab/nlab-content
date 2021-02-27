@@ -43,12 +43,36 @@ $$
 
 A morphism $(A,C)\to (B,D)$ is a pair $(\alpha,\gamma)$ where
 
-* $\alpha : A\to B$ is an $R$-algebra morphism; by restriction this makes $D$ an $A$-$A$-bimodule by restriction. Denote also by $p:D\otimes_A D\to D\otimes_B D$ the canonical projection of bimodules induced by $\alpha$.
-* $\gamma : C\to D$ is a map of $A$-$A$-bimodules
-* $\gamma$ commutes with counit $\alpha \circ \epsilon_C = \epsilon_D\circ \gamma$
-* $p\circ (\gamma\otimes_A\gamma)\circ \Delta_C = \Delta_D\circ \gamma$
+(i) $\alpha : A\to B$ is an $R$-algebra morphism; by restriction this makes $D$ an $A$-$A$-bimodule by restriction. Denote also by $p:D\otimes_A D\to D\otimes_B D$ the canonical projection of bimodules induced by $\alpha$.
+\begin{xymatrix}
+D\otimes A\otimes D\ar@<.5ex>[r]^{act\otimes C}\ar@<-.5ex>[r]_{C\otimes act}\ar[d]^{D\otimes\alpha\otimes D}& D\otimes D\ar[d]\ar[r] & D\otimes_A D\ar@{.>}[d]^{p}\\
+D\otimes B\otimes D\ar@<.5ex>[r]^{act\otimes D}\ar@<-.5ex>[r]_{D\otimes act} & D\otimes D\ar[r] & D\otimes_B D
+\end{xymatrix}
+(ii) $\gamma : {}_A C_A\to {}_A D_A$ is a map of $A$-$A$-bimodules, that is
+\begin{xymatrix}
+A\otimes C\otimes A\ar[r]^{\alpha\otimes\gamma\otimes\alpha}\ar[d] & B\otimes D\otimes B\ar[d]\\
+C\ar[r]^{\gamma} & D
+\end{xymatrix}
+commutes where the vertical arrows are the combined bimodule actions
 
-The last two conditions can be said that the base ring extension coring $B\otimes_A C\otimes_A B$ of $C$ maps to $D$ (via map induced by $\gamma$) as a morphism of $B$-corings. 
+(iii) $\gamma$ commutes with counit $\alpha \circ \epsilon_C = \epsilon_D\circ \gamma$
+
+(iv) $p\circ (\gamma\otimes_A\gamma)\circ \Delta_C = \Delta_D\circ \gamma$, or diagramatically,
+\begin{xymatrix}
+C\ar[d]^{\gamma}\ar[r]^{\Delta_C} & C\otimes_A C\ar[r]^{\gamma\otimes_A\gamma} & D\otimes_A D\ar[d]_{p}\\
+D\ar[rr]^{\Delta_D} && D\otimes_B D
+\end{xymatrix}
+Map $b\otimes c\otimes b'\mapsto b\gamma(c)b'$, $B\otimes_A C\otimes_A B\to D$ from the base extension of $C$ to $D$ is by construction a map of $B$-bimodules (externally we just use the $B$-actions on $B$ and on $D$ which are compatible by action axioms) and the conditions (iii),(iv) express that this map of $B$-bimodules is a morphism of $B$-corings.
+
+### Comodules over a coring
+
+Given an $A$-coring $C = ({}_A C_A, \Delta,\epsilon)$, a left $C$-comodule $M$ i a left $A$-module with a map of left $A$-modules $\nu: M\to M\otimes_A {}_A C_A$ (left $C$-coaction), such that 
+the composition $M\stackrel{\nu}\to M\otimes_A C \stackrel{\nu\otimes C}\to (M\otimes_A C)\otimes_A C$ after rebracketing becomes identical to the composition
+$M\stackrel{\nu}\to M\otimes_A C \stackrel{M\otimes \Delta_C}\to M\otimes_A (C \otimes_A C)$ and the counitality axiom holds.
+
+The functor $F: M\mapsto M\otimes_A C$ is canonically a comonad on ${}_A Mod$ with  comultiplication $\Delta^F = Id\otimes_A\Delta_C : F\to F F$ and the [[Eilenberg-Moore category]] of the comonad is isomorphic to the category of $C$-comodules, with appropriate notion of morphisms.
+
+Analogously, one considers right $C$-comodules as right $A$-comodules with right $C$-coactions. 
 
 ## Examples
 
