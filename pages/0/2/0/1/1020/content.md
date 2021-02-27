@@ -44,7 +44,7 @@ $\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D
  
 \end{defn}
 
-\begin{rmk} \label{RemarkEquivalentDefinitionLeftAdjointForCategories} Requiring the commutativity of the two diagrams in Definition \ref{DefinitionLeftAdjointForCategories} is equivalent to requiring that there is a [[natural isomorphism]] between the [[hom-functor|Hom functors]]
+\begin{rmk} \label{RemarkEquivalentDefinitionLeftAdjointForCategories} Definition \ref{DefinitionLeftAdjointForCategories} is equivalent to requiring that there is a [[natural isomorphism]] between the [[hom-functor|Hom functors]]
 
 $$ 
   Hom_\mathcal{C}\left(L(-),-\right), Hom_\mathcal{D}\left(-,R(-)\right): D^{op} \times C \to \mathsf{Set}.
@@ -67,9 +67,9 @@ $$
 
 \subsection{In a 2-category}
 
-Definition \ref{DefinitionLeftAdjointInACategory} generalises immediately from [[Cat]], the 2-category of categories, to any [[2-category]].
+Definition \ref{DefinitionLeftAdjointForCategories} generalises immediately from [[CAT]], the 2-category of (large) categories, to any [[2-category]].
 
-\begin{defn} \label{DefinitionLeftAdjointInA2Category} Let $\mathcal{A}$ be a 2-category. Given objects $\mathcal{C}$ and $\mathcal{D}$, and a 1-arrow $R: \mathcal{D} \to \mathcal{C}$ of $\mathcal{A}$, a _left adjoint_ of $R$ is a 1-arrow $L: \mathcal{C} \to \mathcal{D}$ together with 2-arrows
+\begin{defn} \label{DefinitionLeftAdjointInA2Category} Let $\mathcal{A}$ be a 2-category. Given objects $\mathcal{C}$ and $\mathcal{D}$ and a 1-arrow $R: \mathcal{D} \to \mathcal{C}$ of $\mathcal{A}$, a _left adjoint_ of $R$ is a 1-arrow $L: \mathcal{C} \to \mathcal{D}$ together with 2-arrows
 $\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D} $ such that the following diagrams commute, where $\cdot$ denotes [[whiskering]] in $\mathcal{A}$.
 
 \begin{centre}
