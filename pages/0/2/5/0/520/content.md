@@ -65,6 +65,7 @@ See at _[[pointed object]]_ for more details.
 
 
 #### Interpretation as universal Set-bundle 
+ {#InterpretationAsUniversalSetBundle}
 
 The morphism $\Set_{\ast} \to \Set$ is an example of a 
 [[generalized universal bundle]]: the _universal [[Set]]-bundle_. 
