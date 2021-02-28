@@ -31,7 +31,7 @@ $\,$
 ## Purpose
 {#purpose}
 
-The nLab records and explores a wide range of mathematics. Along with work of an expository nature, original material can be found in abundance, as can notes from evolving research.
+The nLab records and explores a wide range of mathematics, physics, and philosophy. Along with work of an expository nature, original material can be found in abundance, as can notes from evolving research.
 
 If you take a little time to find something in the literature, or to work through a proof or example, or to find an intuitive or new way to think about something, add a note on it to the nLab! Others will benefit, and you may well find that it proves useful to you too.
 
