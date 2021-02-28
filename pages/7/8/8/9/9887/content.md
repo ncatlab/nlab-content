@@ -537,6 +537,8 @@ $$
 
 * [[splitting principle]]
 
+* [[algebraic cobordism]]
+
 ## References
 
 The theorem is due to
