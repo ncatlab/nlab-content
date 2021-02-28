@@ -34,7 +34,10 @@ See also
 
 * Colin Bushnell, Guy Henniart, _The local Langlands conjecture for $GL(2)$_ .
 
-(...)
+For 
+
+* [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_, ([pdf](http://www.math.uni-bonn.de/people/scholze/Geometrization.pdf))
+
 
 [[!redirects local Langlands conjectures]]
 
