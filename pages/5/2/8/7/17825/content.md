@@ -28,6 +28,10 @@ On [[AdS3/CFT2]] for [[boundary field theory]]:
 
 * [[Tadashi Takayanagi]], Takahiro Uetoko, _Chern-Simons Gravity Dual of BCFT_ ([arXiv:2011.02513](https://arxiv.org/abs/2011.02513))
 
+On the [[swampland cobordism conjecture]]:
+
+* [[Hirosi Ooguri]], [[Tadashi Takayanagi]], _Cobordism Conjecture in AdS_ ([arXiv:2006.13953](https://arxiv.org/abs/2006.13953))
+
 
 
 ## Related $n$Lab entries
