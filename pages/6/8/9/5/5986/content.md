@@ -17,7 +17,7 @@ Ways to present the correct notion of homomorphism include
 
 * [[anafunctors]] 
 
-* [[groupoid principal bundle|groupoid principal]] [[bibundles]], [[Hilsum-Skandalis morphisms]]
+* [[groupoid principal bundle|groupoid principal]]   [[bibundles]], [[Hilsum-Skandalis morphisms]]
 
 
 [[!redirects Morita morphisms]]
