@@ -48,7 +48,7 @@ A proposition $p:a \leq b$ is an __equality__ if there is a proposition $q:b \le
 The only relationship between the equality proposition $a =_A b$ as defined and the [[identity type]] $Id_A(a, b)$ for $a,b:A$ is that there exists a function 
 $$idtoeq_{a,b}: Id_A(a,b) \rightarrow a =_A b$$
 
-A __preordered set__ or __proset__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence. 
+A __preordered set__ or __proset__ is a preorder such that the type $A_0$ is [[0-truncated]], and a __partial order__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence, making a partial order a set. But becuse a partial order is a set, a partial order is a preordered set. 
 
 ## Properties
 
