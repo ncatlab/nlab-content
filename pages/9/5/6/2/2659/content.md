@@ -183,7 +183,7 @@ It is this kind of relation which is generalized by the nonabelian Hodge theorem
 
 A quick review of the theorem in ([Simpson 92](#Simpson92)) is for instance in ([Raboso 14, section 1.2](#Raboso14)). An elegant abstract reformulation in terms of [[differential cohesion]]/[[D-geometry]], following ([Simpson 96](#Simpson96)) is in ([Raboso 14, section 4.2.1](#Raboso14)):
 
-Analogous to how the [[de Rham stack]] $\int_{inf} X = X_{dR}$ of $X$ is the ([[homotopy quotient|homotopy]]) [[quotient]] of $X$ by the first order [[infinitesimal neighbourhood]] of the [[diagonal]] in $X \times X$, so there is a space ([[stack]]) $X_{Dol}$ which is the formal competion of the 0-section of the [[tangent bundle]] of $X$ ([Simpson 96](#Simpson96)).
+Analogous to how the [[de Rham stack]] $\int_{inf} X = X_{dR}$ of $X$ is the ([[homotopy quotient|homotopy]]) [[quotient]] of $X$ by the first order [[infinitesimal neighbourhood]] of the [[diagonal]] in $X \times X$, so there is a space ([[stack]]) $X_{Dol}$ which is the formal completion of the 0-section of the [[tangent bundle]] of $X$ ([Simpson 96](#Simpson96)).
 
 Now a [[flat vector bundle]] on $X$ is essentially just a [[vector bundle]] on the [[de Rham stack]] $X_{dR}$, and a [[Higgs bundle]] is essentially just a [[vector bundle]] on $X_{Dol}$. Therefore in this language the nonabelian Hodge theorem reads (for $G$ a linear [[algebraic group]] over $\mathbb{C}$)
 
