@@ -19,6 +19,10 @@ Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]
 
 * {#CHRTZ20} [[Mirjam Cvetic]], [[Jonathan Heckman]], Thomas B. Rochais, Ethan Torres, [[Gianluca Zoccarato]], _Geometric Unification of Higgs Bundle Vacua_ ([arXiv:2003.13682](https://arxiv.org/abs/2003.13682))
 
+On the [[swampland cobordism conjecture]]:
+
+* [[Markus Dierigl]], [[Jonathan Heckman]], _On the Swampland Cobordism Conjecture and Non-Abelian Duality Groups_, Physical Review D 2021 ([arXiv:2012.00013](https://arxiv.org/abs/2012.00013))
+
 
 
 ## Related $n$Lab entries
