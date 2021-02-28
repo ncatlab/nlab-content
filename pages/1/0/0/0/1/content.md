@@ -101,7 +101,7 @@ The $n$Lab server is currently hosted at Carnegie Mellon University, funded in t
 
 > The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
 
-However, we will imminently be moving to the cloud, to an account registered to the [Topos Institute](https://topos.institute/). We are currently [[nLab funding|raising funds]]; please contribute if you can!
+However, we will imminently be moving to the cloud, to an account registered to the [Topos Institute](https://topos.institute/). We are currently [[funding of the nLab|raising funds]]; please contribute if you can!
 
 The development of the nLab software and technical administrative matters are currently in the hands of [[Richard Williamson]] and assistant [[Alexis Hazell]]. If you wish to lend a hand, please [contact us](https://nforum.ncatlab.org).
 
