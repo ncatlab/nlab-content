@@ -182,3 +182,8 @@ Joint discussion in F- and [[duality in string theory|dual]] HET-theory:
 
   > (in the context of [[heterotic line bundles]])
 
+
+[[!include swampland cobordism conjecture -- references]]
+
+
+
