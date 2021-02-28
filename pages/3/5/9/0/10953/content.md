@@ -47,11 +47,11 @@ $Q\cong Hom_B(P,B)$
 * Bruno J. M&#252;ller, _The quotient category of a Morita context_, J. Algebra __28__ (1974), 389&#8211;407 [MR0447336](http://www.ams.org/mathscinet-getitem?mr=0447336) <a href="http://dx.doi.org/10.1016/0021-8693(74)90048-9">doi</a> 
 * A. I. Kashu, _On equivalence of some subcategories of modules in Morita contexts_, Discrete Math. 2003, no. 3, 46&#8211;53, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=adm&paperid=383&what=fullt&option_lang=rus)
 * Y. Doi, _Generalized smash products and Morita contexts for arbitrary Hopf algebras_, in: J. Bergen, S. Montgomery (Eds.), Advances in Hopf algebras, in: Lecture Notes in Pure and Appl. Math. __158__, Dekker 1994 [doi](https://doi.org/10.1016/j.jalgebra.2004.02.002)
-* S.Caenepeel, J.Vercruysse, Shuanhong Wang, _Morita theory for corings and cleft entwining structures_, J. Algebra __276__1 (2004) 210-235 [doi](https://doi.org/10.1016/j.jalgebra.2004.02.002)
+* [[S. Caenepeel]], [[J. Vercruysse]], Shuanhong Wang, _Morita theory for corings and cleft entwining structures_, J. Algebra __276__1 (2004) 210-235 [doi](https://doi.org/10.1016/j.jalgebra.2004.02.002)
 
 There are generalizations in more general bicategories:
 
-* L. El Kaoutit. Wide Morita Contexts in Bicategories. Arab. J. Sci. Eng.
+* [[L. El Kaoutit]]. Wide Morita Contexts in Bicategories. Arab. J. Sci. Eng.
 __33__, (2008), 153&#8211;173
 * Bertalan Pecsi, _On Morita context in bicategories_, [pdf](http://www.renyi.hu/~aladar/MrtCtx.pdf)
 
