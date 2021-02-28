@@ -183,7 +183,7 @@ Rendus Acad. Sci. Paris __314__, pp. 249-252 (1992) [ps](http://people.math.juss
 A [[Tannaka duality]]-type theorem relating certain subcategory of
 commutative Hopf algebroids to discrete groupoids is in
 
-* Laiachi EL Kaoutit, _Representative functions on discrete groupoids and duality with Hopf algebroids_, [arxiv/1311.3109](http://arxiv.org/abs/1311.3109)
+* [[Laiachi EL Kaoutit]], _Representative functions on discrete groupoids and duality with Hopf algebroids_, [arxiv/1311.3109](http://arxiv.org/abs/1311.3109)
 
 For the relation to [[groupoid convolution algebras]] see also at _[groupoid convolution algebra -- References -- Convolution Hopf algebroids](category%20algebra#ReferencesConvolutionHopfAlgebroids)_.
 
