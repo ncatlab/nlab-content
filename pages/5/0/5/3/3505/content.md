@@ -84,7 +84,7 @@ Segal spaces.
 
 +-- {: .num_theorem}
 ###### Theorem
-The localization $L : RelCat[Rezk^{-1}] \simeq (\infty,1)Cat$ is the ∞-localization functor $(C,W) \mapsto C[W^{-1}]$.
+The localization $L(RelCat, Rezk) \simeq (\infty,1)Cat$ is the ∞-localization functor $(C,W) \mapsto L(C, W)$ inverting the weak equivalences
 =--
 
 +-- {: .proof}
@@ -94,7 +94,7 @@ $$
   Fun(Y, Z) \simeq Map^\flat(Y^\natural, Z^\natural)
   \to Map^\flat((NC, NW), Z^\natural) \simeq Fun_{NW}(NC, Z)
 $$
-thus $Y$ satisfies the universal property of $NC[NW^{-1}]$.
+thus $Y$ satisfies the universal property of $L(NC, NW)$.
 =--
 
 It is shown in [Meier](#Meier) that [[categories of fibrant objects]] are fibrant in this model structure.
