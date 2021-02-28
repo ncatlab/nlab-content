@@ -20,7 +20,7 @@
 
 ## Idea
 
-Just as a [[subobject classifier]] in a [[(1,1)-category]] classifies the [[monomorphisms]] or [[(-1)-truncated]] morphisms (and thus the [[subobjects]]) of the category, a _discrete object classifier_ in a [[(2,1)-category]] should classify the [[faithful functor|faithful]] or [[0-truncated]] morphisms (and thus the [[discrete morphism|discrete objects]]) in the (2,1)-category, see at _[n-truncated morphisms -- between groupoids](n-truncated+object+of+an+infinity-category#TruncatedMorphismsBetweenGroupoids)_). 
+Just as a [[subobject classifier]] in a [[(1,1)-category]] classifies the [[monomorphisms]] or [[(-1)-truncated]] morphisms (and thus the [[subobjects]]) of the category, a _discrete object classifier_ in a [[(2,1)-category]] should classify the [[faithful functor|faithful]] or [[0-truncated]] morphisms (and thus the [[discrete morphism|discrete objects]]) in the (2,1)-category, see at _[n-truncated morphisms -- between groupoids](n-truncated+object+of+an+infinity-category#TruncatedMorphismsBetweenGroupoids)_. 
 
 ## Definition
 
