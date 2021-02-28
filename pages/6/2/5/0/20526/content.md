@@ -108,10 +108,7 @@ Further discussion:
 
 * [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
 
-* Jacob McNamara, [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355))
-
 * Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]], _Four Dimensional $\mathcal{N}=4$ SYM and the Swampland_ ([arXiv:1912.06144](https://arxiv.org/abs/1912.06144))
-
 
 See also 
 
@@ -197,5 +194,14 @@ Discussion in the context of [[M-theory on G2-manifolds]]:
 
 
 
+[[!include swampland cobordism conjecture -- references]]
+
+
+
+
 [[!redirects swampland conjecture]]
 [[!redirects swampland conjectures]]
+
+
+[[!redirects swampland cobordism conjecture]]
+
