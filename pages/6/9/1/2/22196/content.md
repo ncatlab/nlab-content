@@ -11,3 +11,28 @@ The nLab will carry out an initial request for donations to support the running 
 \section{A community endeavour}
 
 The details of donations will not be made public. The nLab will view itself as equally endebted to those who contribute a smaller amount as to those who contribute a larger amount. When we work on the nLab, we work for everybody: those who have made a donation, and those who have not. 
+
+\section{Donate!}
+  {#Donate}
+
+If you like to support the $n$Lab financially, you are invited to send a donation through the following mechanism, kindly provided by the _[Topos Institute](https://topos.institute/)_ (thanks to [[Brendan Fong]]!):
+
+<center>
+<a href="https://topos.institute/contact">
+<img src="https://ncatlab.org/nlab/files/ToposContactShot210301.jpg" width="300">
+</a>
+</center>
+
+Clicking on [the link](https://topos.institute/contact) you will be asked for your credit card details and the intended sum, as in any online transaction. It's quick and straightforward. 
+
+Please be sure to pick from the menu "My donation is for..." the field "**nLab Online Wiki Restricted Fund**":
+
+<center>
+<a href="https://topos.institute/contact">
+<img src="https://ncatlab.org/nlab/files/nLabDonationInterfaceShot210301.jpg" width="500">
+</a>
+</center>
+
+
+Thanks for your support!
+
