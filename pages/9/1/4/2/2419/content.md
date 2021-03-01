@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _modular form_  is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation property under the [[action]] of the [[modular group]]. Abstractly this transformation property makes the function a [[section]] of a certain [[line bundle]] on the [[quotient]] of the [[upper half plane]] that makes it the [[moduli stack of elliptic curves]] (over the [[complex numbers]]) or more generally the [[Riemann moduli space]] for [[Riemann surfaces]] of given [[genus]].
+A _modular form_  is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation property under the [[action]] of the [[modular group]]. Abstractly this transformation property makes the function a [[section]] of a certain [[line bundle]] on the [[quotient]] of the [[upper half plane]] that makes it the [[moduli stack of elliptic curves]] (over the [[complex numbers]]) or more generally a [[modular curve]].
 
 Modular forms are also often called _classical [[automorphic forms]]_, see [below]()
 
@@ -63,7 +63,7 @@ such that
 
 =--
 
-More generally there is such a definition for $SL(2,\mathbb{Z})$ replaced by any other arithmetic subgroup $\Gamma \subset SL(2,\mathbb{R})$ (e.g. [Litt, def.1](#Litt)), giving modular forms on a [[Riemann moduli spaces]].
+More generally there is such a definition for $SL(2,\mathbb{Z})$ replaced by any other arithmetic subgroup $\Gamma \subset SL(2,\mathbb{R})$ (e.g. [Litt, def.1](#Litt)), giving modular forms on [[modular curves]].
 
 
 
@@ -89,7 +89,7 @@ Similarly one considers modular forms for [[congruence subgroups]] of the full [
 
 Instead of regarding, as [above](#AsSections), modular forms as [[sections]] of a [[line bundle]] on a [[quotient]] of the [[upper half plane]], one may regard them alternatively as plain functions, but on the ([[Möbius group|projective]]) [[special linear group]] $SL(2,\mathbb{R})$. (e.g. [Martin 13, section 2](Martin13), [Litt, section 2](#Litt)).
 
-As such these functions are then invariant under the [[action]] of the [[modular group|modular]] [[subgroup]] $SL(2,\mathbb{Z})\hookrightarrow SL(2,\mathbb{R})$ and hence are really functions on the [[coset space]] $SL(2,\mathbb{R})/SL(2,\mathbb{Z})$ (for forms on moduli of elliptic curves) or more generally $\Gamma \backslash SL(2,\mathbb{Z})$ (for forms on moduli of more general [[Riemann surfaces]]).
+As such these functions are then invariant under the [[action]] of the [[modular group|modular]] [[subgroup]] $SL(2,\mathbb{Z})\hookrightarrow SL(2,\mathbb{R})$ and hence are really functions on the [[coset space]] $SL(2,\mathbb{R})/SL(2,\mathbb{Z})$ (for forms on moduli of elliptic curves) or more generally $\Gamma \backslash SL(2,\mathbb{Z})$ (for forms on more general [[modular curves]]).
 
 This generalizes to the case of other [[congruence subgroups]] (as [above](ForCongruenceSubgroups)). Generally such functions on [[coset spaces]] like this are called _[[automorphic forms]]_. See there for more.
 
