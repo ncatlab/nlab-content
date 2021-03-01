@@ -6,6 +6,15 @@ __Shahn Majid__ is an English [[mathematical physics|mathematical physicist]], a
 
 * academic [webpage](http://www.maths.qmul.ac.uk/~majid/Welcome.html)
 
+
+##Selected publications
+
+* [[T. Brzeziński]] and S. Majid, _Coalgebra bundles_, Commun. Math. Phys, 191, (1998), 467 – 492
+
+
+
+
+
 category: people
 
 [[!redirects S. Majid]]
