@@ -164,12 +164,15 @@ An analogous systematics exists for $(n,r)$-categories that in additions have th
 ## The periodic table 
 
 There is a [[periodic table]] of $(n,r)$-categories:
-<table><tr><th markdown="1">$r$&#8595;\$n$&#8594;</th><th markdown="1">$-2$</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th markdown="1">...</th></tr>
-<tr><th markdown="1">$0$</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>...</td></tr>
-<tr><th markdown="1">$1$</th><td>"</td><td>"</td><td>[[partial order|poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>...</td></tr>
-<tr><th markdown="1">$2$</th><td>"</td><td>"</td><td>"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>...</td></tr>
-<tr><th markdown="1">$3$</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[3-poset]]</td><td>...</td></tr>
-<tr><th markdown="1">&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
+<table><tr><th markdown="1">$r$&#8595;\$n$&#8594;</th><th markdown="1">$-2$</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th markdown="1">...</th><th markdown="1">$\infty$</th></tr>
+<tr><th markdown="1">$-1$</th><td>trivial</td><td>trivial</td><td>trivial</td><td>trivial</td><td>trivial</td><td>...</td><td>trivial</td></tr>
+<tr><th markdown="1">$0$</th><td>"</td><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>...</td><td>[[infinity groupoid]]</td></tr>
+<tr><th markdown="1">$1$</th><td>"</td><td>"</td><td>[[partial order|poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>...</td><td>[[(infinity,1)-category]]</td></tr>
+<tr><th markdown="1">$2$</th><td>"</td><td>"</td><td>"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>...</td><td>[[(infinity,2)-category]]</td></tr>
+<tr><th markdown="1">$3$</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[3-poset]]</td><td>...</td><td>[[(infinity,3)-category]]</td></tr>
+<tr><th markdown="1">&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td><td>&#8942;</td></tr>
+<tr><th markdown="1">$\infty$</th><td>trivial</td><td>truth value</td><td>poset</td><td>2-poset</td><td>3-poset</td><td>...</td><td>[[(infinity,infinity)-category]]/[[infinity poset]]</td></tr>
+</table>
 
 ## Models for weak (n,r)-categories 
 
