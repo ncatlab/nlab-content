@@ -81,6 +81,8 @@ An approach via diagrammatic sets is in
 
 with slides (for GeoCat 2020), [here](https://www.irif.fr/~ahadziha/files/talk-geocat-rewriting.pdf).
 
+* N. Ghani, C. Lüth, _Rewriting via coinserters_,  Nordic Journal of Computing 10 (2003) 290–312 [pdf](http://www.informatik.uni-bremen.de/~clueth/awe/papers/njc04b.pdf)
+
 category: combinatorics, algebra, computer science, logic
 [[!redirects rewriting]]
 [[!redirects rewriting system]]
