@@ -52,16 +52,14 @@ Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as 
 * any $j$-morphism is an [[equivalence]], for $j \gt r$;
 * any two [[parallel morphisms|parallel]] $j$-morphisms are equivalent, for $j \gt n$.
 
-As explained below, we may assume that $n \geq -2$ and $-1 \leq r \leq n + 1$.
+As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$.
 
 For finite $r$, we can also define this inductively in terms of [[(∞,r)-categories]] as follows:
 
 +-- {: .num_defn}
 ###### Definition
 
-For$-2 \leq n \leq \infty$, an **(n,-1)-category** is trivial. This is a consequence of the (-1)-morphism from $0$ to $1$ being reversible, or that $0$ is equivalent to $1$, resulting in a trivial category. 
-
-For $-2 \leq n \leq \infty$, an **[[(n,0)-category]]** is an [[∞-groupoid]] that is [[n-truncated]]: an [[n-groupoid]].
+For $-2 \leq n \leq \infty$, an **[[(n,0)-category]]** is an [[∞-groupoid]] that is [[n-truncated]]: an [[n-groupoid]]. 
 
 For $0 \lt r \lt \infty$, an **(n,r)-category** is an [[(∞,r)-category]] $C$ such that for all [[object]]s $X,Y \in C$ the $(\infty,r-1)$-categorical [[hom-object]] $C(X,Y)$ is an $(n-1,r-1)$-category.
 =--
@@ -166,12 +164,11 @@ An analogous systematics exists for $(n,r)$-categories that in additions have th
 
 There is a [[periodic table]] of $(n,r)$-categories:
 <table><tr><th markdown="1">$r$&#8595;\$n$&#8594;</th><th markdown="1">$-2$</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th markdown="1">...</th><th markdown="1">$\infty$</th></tr>
-<tr><th markdown="1">$-1$</th><td>trivial</td><td>trivial</td><td>trivial</td><td>trivial</td><td>trivial</td><td>...</td><td>trivial</td></tr>
-<tr><th markdown="1">$0$</th><td>"</td><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>...</td><td>[[infinity groupoid]]</td></tr>
+<tr><th markdown="1">$0$</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>...</td><td>[[infinity groupoid]]</td></tr>
 <tr><th markdown="1">$1$</th><td>"</td><td>"</td><td>[[partial order|poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>...</td><td>[[(infinity,1)-category]]</td></tr>
 <tr><th markdown="1">$2$</th><td>"</td><td>"</td><td>"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>...</td><td>[[(infinity,2)-category]]</td></tr>
 <tr><th markdown="1">$3$</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[3-poset]]</td><td>...</td><td>[[(infinity,3)-category]]</td></tr>
-<tr><th markdown="1">&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td><td>&#8942;</td></tr>
+<tr><th markdown="1">&#8942;</th><td>&#8942;</td><td>&#8942;</td><td>&#8942;</td><td>&#8942;</td><td>&#8942;</td><td>&#8945;</td><td>&#8942;</td></tr>
 <tr><th markdown="1">$\infty$</th><td>trivial</td><td>truth value</td><td>poset</td><td>2-poset</td><td>3-poset</td><td>...</td><td>[[(infinity,infinity)-category]]/[[infinity poset]]</td></tr>
 </table>
 
