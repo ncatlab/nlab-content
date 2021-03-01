@@ -88,7 +88,7 @@ This appears as ([Johnstone, lemma 3.5.4 (iii)](#Johnstone)).
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[etale geometric morphism]] is atomic.
+Every [[étale geometric morphism]] is atomic.
 
 =--
 
