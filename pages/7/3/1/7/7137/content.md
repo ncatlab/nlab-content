@@ -34,9 +34,9 @@ See also
 
 * Colin Bushnell, Guy Henniart, _The local Langlands conjecture for $GL(2)$_ .
 
-For an approach via the [[Fargues–Fontaine curve]]
+For an approach via the [[Fargues-Fontaine curve]]
 
-* [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([pdf](http://www.math.uni-bonn.de/people/scholze/Geometrization.pdf))
+* [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
 
 
 [[!redirects local Langlands conjectures]]
