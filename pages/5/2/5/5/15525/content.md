@@ -11,7 +11,7 @@ Ramification of [[ideals]] through [[ring]]/[[algebra]] [[homomorphisms]] is the
 
 Given a [[ring]] [[injection]] $i \colon B \to A$ (for instance the inclusion of $\mathcal{O}_K$ in $\mathcal{O}_L$, where $K \to L$ is a [[field extension]] and $\mathcal{O}_K$ (resp. $\mathcal{O}_L$) is the [[ring of integers]] of $K$ (resp. $L$)), then a [[prime ideal]] $J \subset B$ is said to be _ramified in $A$_ if $\iota(J) A\subset A$ is not a prime ideal anymore. 
 
-Here $\iota(J)A$ will be a product of powers of [[prime ideals]] of $A$, and the _ramification index_ of $J$ at a prime ideal of $A$ is the power with which this appears.
+Here $\iota(J)A$ will be a product of powers of [[prime ideal]]s of $A$, and the _ramification index_ of $J$ at a prime ideal of $A$ is the power with which this appears.
 
 ## Examples
 
