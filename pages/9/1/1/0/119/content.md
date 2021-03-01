@@ -43,12 +43,12 @@ called transitivity, and denoted infix as an implication by $p \implies q \impli
 * For every $a,b:A$, and $p: a \leq b$ we have $p \iff refl_a \wedge p$ and $p \iff p \wedge refl_b$
 * For every $a,b,c,d:A$ and $p:a\leq b$, $q:b\leq c$, $r:c\leq d$, we have $p \wedge (q \wedge r) \iff (p \wedge q) \wedge r$. 
 
-A proposition $p:a \leq b$ is an __equality__ if there is a proposition $q:b \leq a$ such that $p \wedge q \iff refl_a$ and $q \wedge p \iff refl_b$. We write $a =_A b$ for the type of such equalities, which is also a proposition. 
+A proposition $p:a \leq b$ is an __equivalence relation__ if there is a proposition $q:b \leq a$ such that $p \wedge q \iff refl_a$ and $q \wedge p \iff refl_b$. We write $a ~_A b$ for the type of such equivalence relation, which is also a proposition. 
 
-The only relationship between the equality proposition $a =_A b$ as defined and the [[identity type]] $Id_A(a, b)$ for $a,b:A$ is that there exists a function 
-$$idtoeq_{a,b}: Id_A(a,b) \rightarrow a =_A b$$
+The only relationship between the equivalence relation $a ~_A b$ as defined and the [[identity type]] $Id_A(a, b)$ for $a,b:A$ is that there exists a function 
+$$idtoeq_{a,b}: Id_A(a,b) \rightarrow a ~_A b$$
 
-A __preordered set__ or __proset__ is a preorder such that the type $A_0$ is [[0-truncated]], and a __partial order__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence, making a partial order a set. But becuse a partial order is a set, a partial order is a preordered set. 
+A __preordered set__ or __proset__ is a preorder such that the type $A_0$ is [[0-truncated]], and a __partial order__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence. A __partially ordered set__ or __poset__ is a preordered set and a partial order. 
 
 ## Properties
 
