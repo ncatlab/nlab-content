@@ -31,6 +31,12 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 * [[Pos]]
 * [[Rel]]
 * [[simplex category]]
+* [[Lat]]
+* [[DistLat]]
+* [[Frm]]
+* [[Locale]]
+* [[HeytAlg]]
+* [[BoolAlg]]
 
 Just as the motivating example of a $2$-category is the $2$-category [[Cat]] of categories, so the motivating example of a $2$-poset is the $2$-poset [[Pos]] of posets.
 
