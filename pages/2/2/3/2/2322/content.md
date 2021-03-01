@@ -78,6 +78,8 @@ For example,
 
 * When $S$ is the class of **all monomorphisms** in $C$, an $S$-classifier is called a **subobject classifier**. For instance, every topos has a subobject classifier.
 
+* When $S$ is the class of **all faithful morphisms** in $C$, an $S$-classifier is called a **discrete object classifier**. For instance, every (2,1)-topos has a discrete object classifier.
+
 * When $S$ is the class of **all morphisms** in $C$, an $S$-classifier is called an **object classifier**. However, due to size issues, interesting categories tend not to have such objects, which is one reason to be interested in the next example:
 
 * When $S$ is the class of **all relatively $\kappa$-compact morphisms** (for some regular cardinal $\kappa$--see below for the definition), an $S$-classifier is called a **$\kappa$-compact-object classifier**.
@@ -102,7 +104,7 @@ If one gives the projection of the universal object bundle $\widehat Type \to Ty
 
 ## Details
 
-### Subobject classifier {#DetailsSubObjClassf}
+### n-truncated object classifier
 
 +-- {: .num_defn}
 ###### Definition
@@ -135,6 +137,8 @@ We say a morphism $f :x \to y$ in $C$ _classifies_ $S$ -- or simply that $y$ cla
 
 This is [[Higher Topos Theory|HTT, notation 6.1.3.4]] and [[Higher Topos Theory|HTT, def. 6.1.6.1 ]].
 
+#### Subobject classifier {#DetailsSubObjClassf}
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -163,6 +167,28 @@ Every [[(∞,1)-topos]] has a [[subobject classifier]].
 
 This appears as ([[Higher Topos Theory|HTT, prop. 6.1.6.3]]) and the remark below that.
 
+#### Discrete object classifier 
+
++-- {: .num_defn}
+###### Definition
+
+A **discrete object classifier** for $C$ is an object that classifies the class $S$ of [[faithful morphism in an (∞,1)-category|faithful morphism]]/[[(0)-truncated]] morphisms in $C$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The $(\infty,1)$-category [[∞Grpd]] has a a discrete object classifier: the [[1-groupoid]]/[[groupoid]] [[Set]] whose elements are sets ([[0-truncated]] $\infty$-groupoids).
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[(∞,1)-topos]] has a [[discrete object classifier]].
+
+=--
 
 ### Object classifier {#DetailsObjClassf}
 
