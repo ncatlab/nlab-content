@@ -52,12 +52,14 @@ Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as 
 * any $j$-morphism is an [[equivalence]], for $j \gt r$;
 * any two [[parallel morphisms|parallel]] $j$-morphisms are equivalent, for $j \gt n$.
 
-As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
+As explained below, we may assume that $n \geq -2$ and $-1 \leq r \leq n + 1$.
 
 For finite $r$, we can also define this inductively in terms of [[(∞,r)-categories]] as follows:
 
 +-- {: .num_defn}
 ###### Definition
+
+For$-2 \leq n \leq \infty$, an **(n,-1)-category** is trivial. This is a consequence of the (-1)-morphism from $0$ to $1$ being reversible, or that $0$ is equivalent to $1$, resulting in a trivial category. 
 
 For $-2 \leq n \leq \infty$, an **[[(n,0)-category]]** is an [[∞-groupoid]] that is [[n-truncated]]: an [[n-groupoid]].
 
@@ -72,8 +74,7 @@ To interpret this correctly for low values of $j$, we must assume that all objec
 
 To say that parallel $(-1)$-morphisms must be equivalent is meaningful; it requires that there be an object. One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; so we assume that $n \geq -2$. In other words, a $(-2)$-[[(-2)-category|category]] will automatically be an $n$-category for any smaller value of $n$.
 
-If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assume that $r \leq n + 1$. However, when $n = -2$, this contradicts the assumption that $r \geq 0$, so we allow $r = 0$ in that case just to talk about $n = -2$.
-
+If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assume that $r \leq n + 1$. 
 
 ## Homotopy-theoretic relation {#HomtopyTheory}
 
