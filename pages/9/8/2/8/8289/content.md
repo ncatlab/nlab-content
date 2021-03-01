@@ -22,7 +22,7 @@ This article is about functors of two variables.  Possibly the term 'bifunctor' 
 
 A **bifunctor** (short for __binary functor__, that is $2$-ary) or **functor of two variables** is simply a _[[functor]]_ whose [[domain]] is the [[product]] of two [[categories]].
 
-For for $C_1$, $C_2$ and $D$ [[categories]], a functor
+For $C_1$, $C_2$ and $D$ [[categories]], a functor
 
 $$
   F : C_1 \times C_2 \to D
