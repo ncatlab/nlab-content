@@ -50,5 +50,8 @@ For more see the references at _[[homotopy groups of spheres]]_, such as
 [[!redirects stable k-stem]]
 [[!redirects stable k-stems]]
 
+[[!redirects stem of homotopy groups]]
+[[!redirects stems of homotopy groups]]
 [[!redirects stem of homotopy groups of spheres]]
+[[!redirects stems of homotopy groups of spheres]]
 
