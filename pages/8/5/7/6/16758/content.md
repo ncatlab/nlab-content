@@ -75,7 +75,7 @@ A pullback characterisation of [[open geometric morphisms]] from Johnstone ([200
 
 +-- {: .num_prop}
 ###### Proposition
-A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff the pullback of any [[bounded geometric morphism]] with codomain $\mathcal{E}$ is skeletal. $\qed$
+A [[geometric morphism]] $f:\mathcal{F}\to\mathcal{E}$ is open iff its pullback along any [[bounded geometric morphism]] with codomain $\mathcal{E}$ is skeletal. $\qed$
 =--
 
 ## Remark
