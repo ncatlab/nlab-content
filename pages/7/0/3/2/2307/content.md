@@ -188,4 +188,5 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 [[!redirects bordism cohomology theory]]
 [[!redirects bordism cohomology theories]]
 
+[[!redirects Cobordism theory]]
 
