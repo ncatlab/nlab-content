@@ -48,7 +48,7 @@ A proposition $p:a \leq b$ is an __equivalence relation__ if there is a proposit
 The only relationship between the equivalence relation $a ~_A b$ as defined and the [[identity type]] $Id_A(a, b)$ for $a,b:A$ is that there exists a function 
 $$idtoeq_{a,b}: Id_A(a,b) \rightarrow a ~_A b$$
 
-A __preordered set__ or __proset__ is a preorder such that the type $A_0$ is [[0-truncated]], and a __partial order__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence. A __partially ordered set__ or __poset__ is a preordered set and a partial order. 
+A __preordered set__ or __proset__ is a preorder such that the type $A_0$ is [[0-truncated]], and a __partial order__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence. A __partially ordered set__ or __poset__ is a preordered set and a partial order. Every set is the [[core]] of a proset. 
 
 ## Properties
 
