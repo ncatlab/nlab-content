@@ -25,7 +25,7 @@ For $E$ a [[homotopy commutative ring spectrum]], there is a [[bijection]] betwe
 Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
 
-(e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
+(e.g [Lurie 10, lect. 6, theorem 8](#Lurie10), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
 
 
 ## Details
