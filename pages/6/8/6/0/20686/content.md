@@ -40,7 +40,7 @@ See also
 
 [[hadron|Hadronic]] form factors in relation to the [[flavour anomalies]]:
 
-* {#DGKV19} Sébastien Descotes-Genon, Alexander Khodjamirian, Javier Virto, _Light-Cone Sum Rules for $B \to K \pi$ Form Factors and Applications to Rare Decays_ ([arXiv:1908.02267](https://arxiv.org/abs/1908.02267))
+* {#DGKV19} Sébastien Descotes-Genon, Alexander Khodjamirian, [[Javier Virto]], _Light-Cone Sum Rules for $B \to K \pi$ Form Factors and Applications to Rare Decays_ ([arXiv:1908.02267](https://arxiv.org/abs/1908.02267))
 
 * {#DescotesGenon19b} Sebastien Descotes-Genon, _Light-cone sum rules for $B \to K \pi$ form factors and applications to rare decays_, talk at [bsll2019](https://indico.in2p3.fr/event/18646/) ([pdf](https://indico.in2p3.fr/event/18646/contributions/74316/attachments/54770/71918/slides_bslllyon.pdf), [[DescotesGenonBssl19.pdf:file]])
 
