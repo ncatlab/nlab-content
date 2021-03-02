@@ -281,6 +281,10 @@ Outlook on the [[Belle II experiement]] to confirm the flavour anomalies, if rea
 
 > ([p. 20](#HHJLQV20):) Should  the  true  value  of $C_9^{NP}$ and $C_{10}^{NP}$ be at  the current best-fit points of the global fits, an analysis of inclusive $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]] with $50 ab^{-1}$ of data will exclude the SM point $C_9^{NP} = C_{10}^{NP} = 0$ at the level of $\sim 5$[[statistical significance|σ]].  This again underlines the necessity of a full angular analysis of $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]].
 
+Status analysis from [Virto 21](#Virto21):
+
+> (...)
+
 
 ## Relation to other anomalies
  {#RelationToOtherAnomalies}
@@ -523,6 +527,8 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
   (on [LHCb2003.04831](#LHCb200304831))
 
 * {#Koppenburg20} [[Patrick Koppenburg]], _Beauty 2019 -- Conference summary_ ([arXiv:2001.11796](https://arxiv.org/abs/2001.11796))
+
+* {#Virto21} Javier Virto, _Anomalies in $b \to s \ell \ell$ transitions and Global Fits_ ([arXiv:2103.01106](https://arxiv.org/abs/2103.01106))
 
 
 Outlook:
