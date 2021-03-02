@@ -123,10 +123,13 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 \begin{center}
 \begin{imagefromfile}
   "file_name": "ZupanFlavourAnomaly.jpg",
-  "width": 690,
-  "caption": "from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)"
+  "width": 690
 \end{imagefromfile}
+from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
 \end{center}
+
+
+
 
 
 
@@ -142,7 +145,9 @@ Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (s
 
 In fact [Virto 21, p.6](#Virto21) points out (their emphasis):
 
-> **Both $R_K$ and $P'_5$ have moved towards the Standard Model, but this actually improves the New Physics fits.** This is something to keep in mind when judging future measurements.
+> **Both $R_K$ and $P'_5$ have moved towards the Standard Model, but this actually improves the New Physics fits.** $[$...$]$
+
+> The set of $b \to s \ell \ell$ anomalies are alive and a global coherence remains after the measurements in 2019 and 2020. While some key measurements have central values that have moved towards the Standard Model predictions, the overall consistency of the data and the global tension with respect to the Standard Model has not diminished (in fact this may even enhance the significance for New Physics). The New Physics fit is a good fit (with $p$-values in the ballpark of 50%), and the SM pull is high $[$...$]$. In addition, data sets from all different experiments are compatible $[$...$]$.
 
 
 
@@ -533,7 +538,7 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#Koppenburg20} [[Patrick Koppenburg]], _Beauty 2019 -- Conference summary_ ([arXiv:2001.11796](https://arxiv.org/abs/2001.11796))
 
-* {#Virto21} Javier Virto, _Anomalies in $b \to s \ell \ell$ transitions and Global Fits_ ([arXiv:2103.01106](https://arxiv.org/abs/2103.01106))
+* {#Virto21} [[Javier Virto]], _Anomalies in $b \to s \ell \ell$ transitions and Global Fits_ ([arXiv:2103.01106](https://arxiv.org/abs/2103.01106))
 
 
 Outlook:
@@ -581,7 +586,7 @@ Emphasis of higher [[loop order]]-effects:
 
 Emphasis of effects of [[hadron|hadronic]] [[form factors]]:
 
-* {#DGKV19} Sébastien Descotes-Genon, Alexander Khodjamirian, Javier Virto, _Light-Cone Sum Rules for $B \to K \pi$ Form Factors and Applications to Rare Decays_ ([arXiv:1908.02267](https://arxiv.org/abs/1908.02267))
+* {#DGKV19} Sébastien Descotes-Genon, Alexander Khodjamirian, [[Javier Virto]], _Light-Cone Sum Rules for $B \to K \pi$ Form Factors and Applications to Rare Decays_ ([arXiv:1908.02267](https://arxiv.org/abs/1908.02267))
 
 * {#DescotesGenon19b} Sebastien Descotes-Genon, _Light-cone sum rules for $B \to K \pi$ form factorsand applications to rare decays_, talk at [bsll2019](https://indico.in2p3.fr/event/18646/) ([pdf](https://indico.in2p3.fr/event/18646/contributions/74316/attachments/54770/71918/slides_bslllyon.pdf), [[DescotesGenonBssl19.pdf:file]])
 
@@ -604,9 +609,9 @@ Original articles include:
 
 * Andrea  Mauri, Nicola Serra, Rafael  Silva  Coutinho, _Towards establishing Lepton Flavour Universality violation in $\bar B \to \bar K^\ast \ell^+ \ell^-$ decays_ ([arXiv:1805.06401](https://arxiv.org/abs/1805.06401))
 
-* {#CCDGMV17} Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Joaquim Matias, Javier Virto, _Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data_, JHEP 1801 (2018) 093 ([arXiv:1704.05340](https://arxiv.org/abs/1704.05340))
+* {#CCDGMV17} Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Joaquim Matias, [[Javier Virto]], _Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data_, JHEP 1801 (2018) 093 ([arXiv:1704.05340](https://arxiv.org/abs/1704.05340))
 
-* {#CFMVV17} Alejandro Celis, Javier Fuentes-Martin, Avelino Vicente, Javier Virto, _Gauge-invariant implications of the LHCb measurements on Lepton-Flavour Non-Universality_, Phys. Rev. D 96, 035026 (2017) ([arXiv:1704.05672](https://arxiv.org/abs/1704.05672))
+* {#CFMVV17} Alejandro Celis, Javier Fuentes-Martin, Avelino Vicente, [[Javier Virto]], _Gauge-invariant implications of the LHCb measurements on Lepton-Flavour Non-Universality_, Phys. Rev. D 96, 035026 (2017) ([arXiv:1704.05672](https://arxiv.org/abs/1704.05672))
 
 * Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly_ ([arXiv:1811.09603](https://arxiv.org/abs/1811.09603))
 
@@ -684,7 +689,7 @@ General [[effective field theory]] parametrization:
 
 * {#ACDGMM19} Marcel Algueró, Bernat Capdevila, Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, _What $R_K$ and $Q_5$ can tell us about New Physics in $b \to s \ell \ell$ transitions?_ ([arXiv:1902.04900](https://arxiv.org/abs/1902.04900))
 
-* Marcel Algueró, Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, Javier Virto, _Addendum: "Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data"_ ([arXiv:1903.09578](https://arxiv.org/abs/1903.09578))
+* Marcel Algueró, Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, [[Javier Virto]], _Addendum: "Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data"_ ([arXiv:1903.09578](https://arxiv.org/abs/1903.09578))
 
 * Ashutosh Kumar Alok, Amol Dighe, Shireen Gangal, Dinesh Kumar, _Continuing search for new physics in $b \to \mu s s$ decays: two operators at a time_ ([arXiv:1903.09617](https://arxiv.org/abs/1903.09617))
 
