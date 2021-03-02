@@ -1,4 +1,5 @@
 
+
 ### Swampland cobordism conjecture
   {#SwamplandCobordismConjectureReferences}
 
@@ -13,7 +14,6 @@ The _[[swampland cobordism conjecture]]_ is the [[conjecture]] that consistency 
 
 * [[Hirosi Ooguri]], [[Tadashi Takayanagi]], _Cobordism Conjecture in AdS_ ([arXiv:2006.13953](https://arxiv.org/abs/2006.13953))
 
-
-However, in the discussion offered in [McNama-Vafa 17, Sec. 4.5, 5.2](#McNamaVafa17), of [[24 branes transverse to K3]], it is crucially not the (ordinary) [[cobordism group]] which is [[trivial group|zero as a group]], but it is the total brane charge that is the [[zero]] _[[element]]_ in this group.  With the conjecture understood in this form, a suggestion for a rigorous formulation -- and a derivation from [[schreiber:Hypothesis H]] -- is discussed in:
+A more concrete consequence of this conjecture is claimed ([McNamara-Vafa 17, Sec. 5.2, 2nd paragr.](https://arxiv.org/pdf/1909.10355.pdf#page=31)) to be the statement that -- paraphrasing/extrapolating somewhat: _[[Dirac charge quantization|brane charges are quantized]] in [[Cobordism cohomology]]_; so that, in particular _[[tadpole cancellation]] of brane charges is to happen in [[Cobordism cohomology]]._ This statement is discussed, as a consequence of [[schreiber:Hypothesis H]], in:
 
 * [[Hisham Sati]], [[Urs Schreiber]], $\,$_[[schreiber:M-Theory as Mf-Theory|M/F-Theory as Mf-Theory]]_
