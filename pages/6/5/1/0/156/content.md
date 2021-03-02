@@ -22,7 +22,7 @@
 
 ## Definitions
 
-### Skeletons for Categories
+### Skeleton of a Category
 
 A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (So this is a notion irredeemably violating the [[principle of equivalence]] of [[category theory]].)
 
@@ -31,7 +31,7 @@ Traditionally, a __skeleton__ of a category $C$ is defined to be a skeletal [[su
 
 However, in the absence of the [[axiom of choice]], it is more appropriate to define a __skeleton__ of $C$ to be *any* skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
 
-#### Existence of skeletons for categories
+#### Existence of skeletons of categories
 
 +-- {: .num_theorem}
 ###### Theorem
