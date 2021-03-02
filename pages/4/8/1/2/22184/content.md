@@ -28,9 +28,16 @@ In a (2,1)-category $C$ with [[terminal object]] $*$ and finite [[2-pullback|(2,
 
 $$\array{U & \to & Set_* \\
   ^{B}\downarrow & \cong & \downarrow^{inhabited}\\
-  G & \underset{F}{\to} & Set}$$
+  G & \underset{\chi_U}{\to} & Set}$$
 
-If $Set$ exists, it is typically called the __[[universe]] of [[set]]s__, a global element $F:G \rightarrow Set$ is typically called an [[indexed family]] and an element $A:* \rightarrow Set$ is typically called a set, where all these terms refer to the [[internal set theory]] of the (2,1)-category $C$. A set $A:* \rightarrow Set$ is [[inhabited morphism|inhabited]] if it factors into $inhabited \circ B$, where $B:* \rightarrow Set_*$
++-- {: .num_remark}
+###### Remark
+
+If $Set$ exists, it is typically called the **[[universe]] of [[set]]s** or **[[groupoid]] of sets**, and the corresponding $Set_*$ is called the **groupoid of [[pointed set]]s**. A global element $F:G \rightarrow Set$ is typically called an **[[indexed family]]**, an element $A:* \rightarrow Set$ is typically called a **set**, and a set $A:* \rightarrow Set$ is **[[inhabited object|inhabited]]** if there exists a morphism $B:* \rightarrow Set_*$ such that the $A$ [[factor]]s into $inhabited \circ B$. All these terms refer to the [[internal set theory]] of the (2,1)-category $C$. 
+
+The morphism $\chi_U$ is also called the **[[classifying morphism]]** of the discrete object $U$ and morphism $B:U \rightarrow G$.
+
+=--
 
 ## Examples
 
