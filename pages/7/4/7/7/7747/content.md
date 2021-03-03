@@ -135,7 +135,7 @@ The [[homotopy type]] of the [[moduli space of framed manifolds|moduli space of 
 
 ## Related concepts
 
-* [[normal framing]]
+* [[normal framing]], [[normal twisted framing]]
 
 * [[2-framing]]
 
