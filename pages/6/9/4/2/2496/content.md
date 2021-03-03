@@ -23,15 +23,19 @@ Higher-order logic in general could be thought of as a [[first order theory]] wi
 
 ## Related concepts
 
-* [[propositional logic]] (0th order)
+* [[logic]]
 
-* [[predicate logic]] (1st order)
+  * [[propositional logic]] (0th order)
 
-* [[second-order logic]]
+  * [[predicate logic]] (1st order)
 
-* **higher order logic**
+  * [[second-order logic]]
 
-  * [[HOL]], [[Isabelle]]
+  * **higher order logic**
+
+    * [[HOL]], [[Isabelle]]
+
+* [[higher-order set theory]]
 
 * [[dependent type theory]]
 
