@@ -15,6 +15,9 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 
 * [[Peter May]], _Reminiscences of the Life and Mathematics of J. Frank Adams_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/69.pdf))
 
+* [[Ioan James]], _John Frank Adams_ ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/adamsbio.pdf), [[JamesOnAdams.pdf:file]])
+
+
 ## Selected writings
 
 On [[stable homotopy theory]] and [[generalized (Eilenberg-Steenrod) cohomology]]:
