@@ -200,6 +200,8 @@ On [[flat orbifolds]], twisted Cohomotopy becomes [[equivariant Cohomotopy]] and
 [[!include flavours of cohomotopy -- table]]
 
 
+* [[twisted Pontrjagin theorem]]
+
 ## References
 
 The concept is implicit in classical texts on [[differential topology]], for instance
@@ -209,9 +211,9 @@ The concept is implicit in classical texts on [[differential topology]], for ins
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], Section 2 of: _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]])
 
 
-Discussion for twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
+Discussion of the [[twisted Pontrjagin theory]] and of twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
 
-* {#Cruickshank03} [[James Cruickshank]], Section 7 of _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
+* {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 and Section 7 of: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
 
 Discussion of unstabilized twisted cohomotopy, with application to foundations of [[M-theory]] ([[schreiber:Hypothesis H]]):
 
