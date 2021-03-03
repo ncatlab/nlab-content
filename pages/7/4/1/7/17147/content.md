@@ -1,6 +1,8 @@
 
 **[[cobordism theory]]** = [[manifolds and cobordisms - contents|manifolds and cobordisms]] + [[stable homotopy theory]]/[[higher category theory]]
 
+* [[equivariant cobordism theory]]
+
 **Concepts of cobordism theory**
 
 * [[manifold]], [[differentiable manifold]], [[smooth manifold]]
@@ -15,7 +17,7 @@
 
   [[normal bundle]]
 
-* [[Pontryagin's theorem]]
+* [[Pontrjagin's theorem]], [[equivariant Pontrjagin theorem]]
 
   [[normally framed submanifolds]] $\leftrightarrow$ [[Cohomotopy]] 
 
