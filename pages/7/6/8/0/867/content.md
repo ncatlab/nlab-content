@@ -215,3 +215,5 @@ Here are some references on [[directed homotopy theory]]:
 
 [[!redirects order category]]
 [[!redirects order categories]]
+[[!redirects poset category]]
+[[!redirects poset categories]]
