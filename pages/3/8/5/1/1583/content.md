@@ -36,7 +36,8 @@ For instance, we may say that "$p$ is prime if it has exactly two factors, itsel
 
 Here are some other reasons why the empty space should not be considered (path-)connected:
 
-* If the empty space were (path-)connected, unique decomposition into (path-)connected components would fail: $X \cup Y = \emptyset \cup X \cup Y = \dots$.  This is analogous to how if $1$ were a prime, then unique factorization into primes would fail: $6 = 2 \cdot 3 = 1 \cdot 2 \cdot 3 = 1 \cdot 1 \cdot 2 \cdot 3 = \dots$.
+
+* {#IfItwerePathConnectedDecompositionWouldFail} If the empty space were (path-)connected, unique decomposition into (path-)connected components would fail: $X \sqcup Y = \emptyset \sqcup X \sqcup Y = \dots$.  This is analogous to how if $1$ were a prime, then unique factorization into primes would fail: $6 = 2 \cdot 3 = 1 \cdot 2 \cdot 3 = 1 \cdot 1 \cdot 2 \cdot 3 = \dots$.
 
 * In [[homotopy theory]], one defines a space $X$ to be $k$-connected if $\pi_i(X)$ is trivial (that is, has exactly one element) for $i \le k$.  When $k =0$ this says that $\pi_0(X)$ should have exactly one component---that is, that $X$ should be path-connected.  (Actually, this definition really only makes sense if we phrase it in terms of homotopy [[groupoids]]; homotopy _groups_ are only defined once we choose a basepoint, which is clearly impossible for the empty space.)
 
