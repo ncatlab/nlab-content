@@ -8,6 +8,10 @@
 +--{: .hide}
 [[!include cobordism theory -- contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -21,6 +25,8 @@
 The refinement of [[bordism homology theory]] to [[equivariant stable homotopy theory]].
 
 ## Related concepts
+
+* [[equivariant bordism theory]]
 
 [[!include flavours of cobordism cohomology theories -- table]]
 
