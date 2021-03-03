@@ -152,7 +152,7 @@ $$
 
 +-- {: .num_example #DiracOperatorOnDiracSpinorsIsFormallySelfAdjointDifferentialOperator}
 ###### Example
-**([[Dirac operator]] on [[Dirac spinors]] is [[formally self-adjoint differential operator]])**
+**([[Dirac operator]] on [[Dirac spinors]] is [[formally self-adjoint differential operator|formally anti-self adjoint]])**
 
 The [[Dirac operator]] on [[Dirac spinors]] is a [[formally self-adjoint differential operator|formally anti-self adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}):
 
@@ -167,7 +167,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We spell out the proof over [[Minkowski spacetime]]. Then general case is a straightforward generalization
+In brief, the point is that when the Clifford generators themselves are formally self-adjoint, as they are ([this Prop.](geometry+of+physics+--+supersymmetry#CliffordRepresentationIsDiracSelfConjugate)) with respect to the [[Dirac conjugate]] ([this Def. ](geometry+of+physics+--+supersymmetry#DiracConjugate)), then (only) the single [[derivative]] operator picks up a sign under passing to adjoints (i.e. under [[integration by parts]]).
+
+In more formal detail:
 
 Regard the Dirac operator as taking values in the [[dual vector bundle|dual]] [[spin bundle]] by using the [[Dirac conjugate]] $\overline{(-)}$:
 
