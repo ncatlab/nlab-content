@@ -35,13 +35,17 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 
 ## Related concepts
 
-* [[propositional logic]] (0th order)
+* [[logic]]
 
-* **predicate logic** (1st order)
+  * [[propositional logic]] (0th order)
 
-* [[second-order logic]]
+  * **predicate logic** (1st order)
 
-* [[higher-order logic]]
+  * [[second-order logic]]
+
+  * [[higher-order logic]]
+
+* [[first-order set theory]]
 
 * [[type theory]]
 
