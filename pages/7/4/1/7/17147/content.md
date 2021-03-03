@@ -17,13 +17,19 @@
 
   [[normal bundle]]
 
-* [[Pontrjagin's theorem]], [[equivariant Pontrjagin theorem]]
+* [[Pontrjagin's theorem]] ([[equivariant Pontrjagin theorem|equivariant]], [[twisted Pontrjagin theorem|twisted]]):
 
-  [[normally framed submanifolds]] $\leftrightarrow$ [[Cohomotopy]] 
+  $\phantom{\leftrightarrow}$ [[Cohomotopy]] 
 
-* [[Thom's theorem]]
+  $\leftrightarrow$ [[cobordism classes]] of [[normally framed submanifolds]] 
+     
 
-  [[normally oriented submanifolds]] $\leftrightarrow$ maps to [[Thom space]]
+* [[Thom's theorem]]:
+
+  $\phantom{\leftrightarrow}$ [[homotopy classes]] of maps to [[Thom space]] [[MO]]
+
+  $\leftrightarrow$ [[cobordism classes]] of [[normally oriented submanifolds]]  
+
 
 * [[vector bundle]]
 
