@@ -164,6 +164,8 @@ For example, given any projections $A\times B\to A$ and $A\times B\to B$ that ex
 
 
 
+[[!redirects skeleton of a fibration]]
+[[!redirects fibered skeleton]]
 [[!redirects skeleta]]
 [[!redirects skeletons]]
 [[!redirects skeletal]]
