@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. as stated, this is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]].
+A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]]. See below for some related concepts that are invariant.
 
 ## Properties
 
@@ -28,6 +28,16 @@ Note that a gaunt category need not be thin, since we may have parallel non-isom
 ### Relation to complete Segal spaces
 
 The [[nerve]] [[simplicial set]] of a [[category]], regarded as a [[simplicial object]] in [[homotopy types]] under the inclusion $Set \hookrightarrow \infty Grpd$, is a _[[complete Segal space]]_ precisely if the category is gaunt. More discussion of this is at _[Segal space -- Examples -- In Set](Segal%20space#InSetByNervesOfCategories)_.
+
+## Related invariant concepts
+
+To make sense of the definition of a gaunt category, we need to use equality of objects: For every isomorphism $f : a \simeq b$, there is an equality $p : a = b$, relative to which $f$ equals the identity at $a$. Replacing the equality $p$ by an isomorphism $g : a \simeq b$, the resulting condition holds for all categories.
+This echoes how one might understand the definition in [[univalent foundations]]: the univalence condition for a [[univalent category]] is another way of saying that every isomorphism is an identity (and uniquely so).
+
+Alternatively, we could avoid the equality on objects by requiring only that every endoisomorphism $f : a \simeq a$ be equal to the identity at $a$. This amounts to requiring that the [[core]] be a [[thin category]], i.e., that parallel isomorphisms are equal.
+
+Incidentally, we may view both strict categories and categories up to equivalence as embedded in the type of [[flagged category|flagged categories]]. Recall that a flagged category consists of a category $C$, a groupoid $X$, and a surjection $p:X\to C$ of groupoids from $X$ to the underlying groupoid of objects of $C$. In this way, we can view categories as those flagged categories where $p$ is an equivalence, and strict categories as those flagged categories where $X$ is a set (up to homotopy). The intersection of the categories and the strict categories within the type of flagged categories is then exactly this type of core-thin categories.
+
 
 ## References
 
