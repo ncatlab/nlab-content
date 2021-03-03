@@ -26,13 +26,17 @@ A __propositional calculus__, also called __sentential calculus__, is simply a s
 
 ## Related concepts
 
-* **propositional logic** (0th order)
+* [[logic]]
 
-* [[predicate logic]] (1st order)
+  * **propositional logic** (0th order)
 
-* [[higher order logic]]
+  * [[predicate logic]] (1st order)
 
-* [[modal logic]]
+  * [[higher order logic]]
+
+  * [[modal logic]]
+
+* [[zeroth-order set theory]]
 
 [[!redirects propositional logic]]
 [[!redirects propositional calculus]]
