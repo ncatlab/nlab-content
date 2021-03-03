@@ -1,10 +1,15 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Manifolds and cobordisms
 +-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
 =--
 =--
 =--
@@ -26,18 +31,18 @@ A [[submanifold]] equipped with such normal framing is a _normally framed subman
 
 ## Properties
 
-### Pontryagin-Thom isomorphism
+### Pontryagin's theorem
 
-For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the [[Pontryagin-Thom construction]] (e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
+For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the [[Pontryagin theorem]] (e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
 
 $$
-  SubMfd_{/bord}^{d}(X)
+  Cob_{Fr}^{d}(X)
 $$
 
 of [[cobordism classes]] of  [[closed manifold|closed]] and [[normally framed submanifolds]] $\Sigma \overset{\iota}{\hookrightarrow} X$ of [[dimension]] $d$ inside $X$ with the [[cohomotopy]] $\pi^{D-d}(X)$ of $X$ in degree $D- d$
 
 $$
-  SubMfd_{/bord}^{d}(X)
+  Cob_{Fr}^{d}(X)
     \underoverset{\simeq}{PT}{\longrightarrow}
   \pi^{D-d}(X)
   \,.
@@ -51,6 +56,8 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 ## Related concepts
 
 * [[framed manifold]]
+
+* [[normal twisted framing]]
 
 ## References
 
