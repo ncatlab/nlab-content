@@ -64,12 +64,29 @@ which is a map of classes such that $f(tr(t,h))=codom(h)$.
 (The [[domain]] of $tr$ is a [[class]] because $t$ and $h$ are [[sets]].)
 Finally, the transition map satisfies the usual axioms expected from a functor.
 
+For any [[large category]] $I$ and a class $C$ we can define
+the [[constant diagram]] indexed by $I$ with value $C$.
+We take $T=I\times C$ with $f\colon T\to I$ being the [[projection map]].
+The transition map sends $(t,h)\mapsto t$.
+
+## Limits and colimits as adjoint functors
+
+For any [[large category]] $I$
+we have a [[constant diagram]] functor
+that sends a [[class]] $C$ to the [[constant diagram]] on $C$.
+
+We can talk about left and right [[adjoint functors]] to this functor
+in the sense of a [[first-order logic]]
+with two sorts (objects and morphisms),
+augmented with symbols for the functor, its adjoint,
+together with [[unit]] and [[counit]] maps that satisfy the [[triangle identities]].
+
 ## Limits
 
 The category of [[classes]] admits all [[small limits]].
 
 First, it admits [[equalizers]]: the equalizer of $f,g\colon A\to B$
-is the subclass $E$ of $A$ defined by $E(e)=(e\in A \land f(e)=g(e))$.
+is the subclass $E$ of $A$ defined by $E(e)=(e\in A \wedge f(e)=g(e))$.
 
 Secondly, it admits [[small products]]: the [[small product]] of
 an $I$-indexed family of classes $f\colon T\to I$,
