@@ -26,10 +26,10 @@
 
 A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (So this is a notion irredeemably violating the [[principle of equivalence]] of [[category theory]].)
 
-Traditionally, a __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as 
-[[equivalence of categories|equivalent]] to $C$.
+A __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as 
+[[equivalence of categories|equivalent]] to $C$. A __weak skeleton__ of $C$ is any skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
 
-However, in the absence of the [[axiom of choice]], it is more appropriate to define a __skeleton__ of $C$ to be *any* skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
+In the absence of the [[axiom of choice]], it is more appropriate to define a __skeleton__ of $C$ to be a weak skeleton as defined above.
 
 #### Existence of skeletons of categories
 
@@ -113,15 +113,46 @@ although they are trivially equivalent.
 
 ## Properties
 
-One thing we can say without any choice is:
+### Skeletons without choice
+
+Without any choice, we have the following theorems.
 
 +-- {: .num_theorem}
 ###### Theorem
-Any [[thin category]] (i.e. any [[preordered set]]) has a skeleton (in the sense of weak equivalence).
+Any [[thin category]] (i.e. any [[preordered set]]) has a weak skeleton.
 =--
 +-- {: .proof}
 ###### Proof
 In this case, we can take the objects of the skeleton of $C$ to be the isomorphism classes of $C$.  If $C$ is thin, then we can define a partial ordering on its set of isomorphism classes, making them into a skeleton of $C$.
+=--
+
++-- {: .num_theorem}
+###### Theorem
+Any two skeletons (in the strong sense) of a category are isomorphic.
+=--
++-- {: .proof}
+###### Proof
+Let $\mathcal{C}$ be a category, with $sk (\mathcal{C})$ and $sk (\mathcal{C})'$ two skeletons of $\mathcal{C}$, and for each object $Y\in\mathcal{C}$ denote by $X_Y$ and $X_Y'$ respectively the unique objects in $sk (\mathcal{C})$ and $sk (\mathcal{C})'$ which are isomorphic to Y, and denote their respective isomorphisms by $i_Y:Y\to X_Y$ and $i_Y':Y\to X_Y'$. We define a functor $F:sk (\mathcal{C})\to sk (\mathcal{C})'$ by 
+$$
+F(X_Y)=X_Y',
+$$
+$$
+F(f:X_Y\to X_Z)=i_Z'\circ i_Z^{-1}\circ f\circ i_Y\circ i_Y'^{-1}:X_Y'\to Y\to X_Y\to X_Z\to Z\to X_Z'.
+$$
+We then have 
+$$
+F(1_{X_Y})=i_Y'\circ i_Y^{-1}\circ 1_{X_Y}\circ i_Y\circ i_Y'^{-1}=i_Y'\circ i_Y^{-1}\circ i_Y\circ i_Y'^{-1}=i_Y'\circ1_Y\circ i_Y'^{-1}=i_Y'\circ i_Y'^{-1}=1_{X_Y'}=1_{F(X_Y)},
+$$
+$$
+F(f:X_B\to X_C)\circ F(g:X_A\to X_B)=i_C'\circ i_C^{-1}\circ f\circ i_B\circ i_B'^{-1}\circ i_B'\circ i_B^{-1}\circ g\circ i_A\circ i_A'^{-1}
+$$
+$$
+=i_C'\circ i_C^{-1}\circ f\circ i_B\circ 1_{B}\circ i_B^{-1}\circ g\circ i_A\circ i_A'^{-1}=i_C'\circ i_C^{-1}\circ f\circ i_B\circ i_B^{-1}\circ g\circ i_A\circ i_A'^{-1}
+$$
+$$
+=i_C'\circ i_C^{-1}\circ f\circ1_{X_B}\circ g\circ i_A\circ i_A'^{-1}=i_C'\circ i_C^{-1}\circ f\circ g\circ i_A\circ i_A'^{-1}=F(f\circ g),
+$$
+so $F$ is a functor. The inverse $F^{-1}: sk (\mathcal{C})'\to sk (\mathcal{C})$ is defined in the obvious way, and is functorial by similar computations.
 =--
 
 Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton. A necessary condition for an internal category $X_1 \rightrightarrows X_0$ to have a skeleton is the existence quotient $X_0/X_1$ - the object of orbits under the action of the core of $X$. If the quotient map $X_0 \to X_0/X_1$ has a section, then one could consider $X$ to have a skeleton, but this condition isn't sufficient for the induced inclusion functor to be a weak equivalence of internal categories when this makes sense (i.e. if the category is internal to a site).
@@ -134,6 +165,7 @@ Notice that the [[axiom of choice]] fails in general when one considers [[intern
 
 Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a surjective equivalence $C\to S$.  In [[Categories, Allegories]] it is shown that the following are equivalent.
 
+1. The axiom of choice holds.
 1. Any two ana-equivalent categories are strongly equivalent.
    +-- {: .query}
    I removed 'non-ana', since I don\'t think that 'strongly equivalent' would ever be used in an 'ana-' sense.  ---Toby
@@ -141,9 +173,9 @@ Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a sur
    Addendum:  Actually, I don\'t know why I asked whether you meant weakly or strongly here, since obviously one can prove that two ana-equivalent categories are weakly equivalent!  It seems that the discussion above used the terms 'equivalence' and 'ana-equivalence' where [[equivalence of categories]] uses 'strong equivalence' and 'weak equivalence' or 'ana-equivalence'; so I just changed it.  And then I added another entry, which maybe you should remove if Freyd & Scedrov don\'t actually address it.  On the other hand, if they really talk about weak equivalence instead of ana-equivalence (although if they define it in elementary terms, it\'s hard to tell the difference), maybe there\'s no need to say 'ana-' at all on this page.
    =--
 1. Any two weakly equivalent categories are strongly equivalent.
-1. Every small category has a skeleton.
+1. Every small category has a weak skeleton.
 1. Every small category has a coskeleton.
-1. Any two skeletons of a given small category are isomorphic.
+1. Any two weak skeletons of a given small category are isomorphic.
 1. Any two coskeletons of a given small category are isomorphic.
 
 For convenience we add:
