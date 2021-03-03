@@ -256,7 +256,7 @@ as the [[boundary]] correction term  for the [[analytic index|index formula]] on
 
 Introductions and surveys include
 
-* [[Jean-Michel Bismut]], _Local index theory, eta invariants and holomorphic torsion: a survey_, pp. 1-76, in: Surveys in diff. geom. (C. C Hsiang, S/T. Yau, eds.) 1998. International Press
+* [[Jean-Michel Bismut]], _Local index theory, eta invariants and holomorphic torsion: a survey_, pp. 1-76, in: Surveys in diff. geom. 3 (C.-C. Hsiung, S.-T. Yau, eds.) 1996. International Press
 
 * {#Richardson} [[Ken Richardson]], _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
 
