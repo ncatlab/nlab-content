@@ -360,6 +360,8 @@ For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometricall
 
 * [[equivariant stable homotopy theory]]
 
+* [[equivariant cobordism theory]]
+
 * [[equivariant motivic homotopy theory]]
 
 * [[Sullivan conjecture]]
