@@ -89,7 +89,7 @@ $$
 
 Let $N_{(p,e)} (E)$ be the [[normal bundle]] of $E$ relative to this embedding. It is a rank $n- dim F$ bundle over the image of $E$ in $B \times \mathbb{R}^n$.
 
-Fix a [[tubular neighbourhood]] of $E$ in $B \times \mathbb{R}^n$ and identify it with the total space of $N_{(p,e)}$. Then collapsing the whole $B \times \mathbb{R}^n - N_{(p,e)}(E)$ to a point gives the [[Thom space]] of $N_{(p,e)}(E)$, and the quotient map
+Fix a [[tubular neighbourhood]] of $E$ in $B \times \mathbb{R}^n$ and identify it with the total space of $N_{(p,e)}$. Then collapsing the whole [[complement]] $B \times \mathbb{R}^n \setminus N_{(p,e)}(E)$ to a point gives the [[Thom space]] of $N_{(p,e)}(E)$, and the quotient map
 
 $$
   B \times \mathbb{R}^n 
@@ -100,7 +100,7 @@ $$
 $$
 
 factors through the [[one-point compactification]] $(B \times \mathbb{R}^n)^*$
-of $B \times \mathbb{R}^n$. Since $(B \times \mathbb{R}^n)^*\cong \Sigma^n B_+$,
+of $B \times \mathbb{R}^n$. Since $(B \times \mathbb{R}^n)^*\cong \Sigma^n B_+$ (see [here](one-point+compactification#MonoidalFunctoriality)),
 the $n$-fold [[suspension]] of $B_+$ (or, equivalently, the [[smash product]] of $B$ with the $n$-sphere: $\Sigma^n B_+= S^n \wedge B_+$), we obtain a factorization
 $$
   B \times \mathbb{R}^n \to \Sigma^n B_+ \stackrel{\tau}{\to} Th(N_{(p,e)}(E))
@@ -120,9 +120,9 @@ $$
   \tau : x \mapsto 
   \left\{
     \array{
-      \phi(x) & | x \in U
+      \phi(x) & | & x \in U
       \\
-      \infty & | otherwise
+      \infty & | & otherwise
     }
   \right.
   \,.
@@ -131,30 +131,52 @@ $$
 Now let $H$ be some [[multiplicative cohomology theory]], and assume that the Thom space $Th(N_{(p,e)}(E))$ has an $H$-[[orientation in generalized cohomology|orientation]], so that we have a  [[Thom isomorphism]]. Then combined with the [[suspension isomorphism]] the pullback along $\tau$ produces a morphism
 
 $$
-  \int_F : H^\bullet(E) \to H^{\bullet - dim F}(B)
+  \int_F  
+    \;
+    \colon
+    \;
+     H^\bullet(E) 
+     \longrightarrow
+     H^{\bullet - dim F}(B)
 $$
 
-of cohomologies
+of [[cohomology rings]]:
 
 $$
   \array{
    H^\bullet(E)
    \\
-   \downarrow^{\mathrlap{\simeq_{Thom}}{\to}}
+   \big\downarrow
+   {}^{
+      \mathrlap{
+        \simeq_{Thom\;iso}
+      }
+   }
    \\
-   H^{\bullet + n - dim F}(D(N_{(p,e)}(E)),S(N_{(p,e)}(E)))
+   \tilde H^{
+      \bullet + n - dim F
+   }
+   \big(
+     Th(N_{(p,e)}(E))
+   \big)
    \\
-   \downarrow^{\mathrlap{\simeq}}
+   \big\downarrow
+   \mathrlap{
+     \tau^\ast_{
+       Pontrjagin-Thom\;collapse
+     }
+   }
    \\
-   \tilde H^{\bullet + n - dim F}(Th(N_{(p,e)}(E)))
-   &
-   \stackrel{\tau^*}{\to}
-   &
-   \tilde H^{\bullet + n - dim F}(\Sigma^n B_+)
+   \tilde H^{\bullet + n - dim F}
+   \big(
+     \Sigma^n B_+
+   \big)
    \\
-   && \downarrow{\mathrlap{\simeq_{suspension}}}   
+   \big\downarrow
+   {}^\mathrlap{
+     \simeq_{suspension\;iso}
+   }   
    \\
-   &&
    H^{\bullet - dim F}(B)
    }
    \,.
@@ -279,9 +301,9 @@ More generally a [[Thom isomorphism]] may not exists, but $[D X \otimes_{\mathbb
 #### In linear homotopy-type theory
 
 We may formulate the above still a bit more abstractly in 
-[[linear homotopy-type theory]] (following _[[schreiber:Homotopy-type semantics for quantization]]_).
+[[linear homotopy-type theory]] (following _[[schreiber:Homotopy-type semantics for quantization]]_: see at [[indexed monoidal infinity-category]] the section on _[Fundamental classes](indexed+monoidal+infinity-category#FundamentalClasses)_ and following.
 
-(...)
+\linebreak
 
 [[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
