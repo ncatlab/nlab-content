@@ -14,7 +14,7 @@ Since this site is used centrally in [[condensed mathematics]], we might call co
 
 ## Infinitesimal cohesion
 
-The [[tangent (∞,1)-topos]] of $Sh_\infty(ProFinSet)$ ought to be composed of some kind of parameterized [[spectra]]. (Pyknotic spectra form the [[stabilization]] of the $(\infty, 1)$-category of pyknotic spaces ([BarHai19, sec 3.1](#BarHai19)).)
+The [[tangent (∞,1)-topos]] of $Sh_\infty(ProFinSet)$ is composed of pairs $(X,A)$ where X is a condensed $\infty$-groupoid and $A \in D(Cond_{/X},\mathbb{S})$ is a [[hypercomplete]] sheaf of [[spectra]] on the site of condensed sets over $X$ ([Scholze](#Scholze1)). (Pyknotic spectra form the [[stabilization]] of the $(\infty, 1)$-category of pyknotic spaces ([BarHai19, sec 3.1](#BarHai19)).)
 
 ## Cohesion
 
@@ -22,13 +22,20 @@ The big pro-étale site on all schemes over a separably closed field $k$ is almo
 
 Consider then the construction in [[cohesive (infinity,1)-topos -- structures]] that do not rely on finite-product preservation in the left adjoint.
 
-The [[differential cohomology diagram]] for stable objects in sheaves over the former...
+The [[differential cohomology diagram]] for stable objects in condensed cohesive $(\infty, 1)$-toposes is discussed at ([Scholze](#Scholze1)).
 
+## Singular cohesion
+
+To treat condensed orbifolds, we might consider the kind of singular cohesion treated at [[orbifold cohomology]], but relative to condensed $\infty$-groupoids.
+
+But see also ([Scholze](#Scholze2)).
 
 
 ## References
 
-* [[Peter Scholze]], _Answer to 'Cohesion relative to a pyknotic/condensed base'_, ([MathOverflow](https://mathoverflow.net/q/384318/447)).
+* {#Scholze1} [[Peter Scholze]], _Answer to 'Cohesion relative to a pyknotic/condensed base'_, ([MathOverflow](https://mathoverflow.net/q/384318/)).
 
 * {#BarHai19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I.  Basic notions_, ([arXiv:1904.09966](https://arxiv.org/abs/1904.09966))
+
+* {#Scholze2} [[Peter Scholze]], _Answer to 'Condensed / pyknotic approach to orbifolds?'_, ([MathOverflow](https://mathoverflow.net/q/384099/)
 
