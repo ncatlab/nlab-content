@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **neural network** is a class of functions used in both [[supervised learning | supervised]] and [[unsupervised learning | unsupervised]] learning to approximate a correspondence between samples in a dataset and their associated labels. 
+A **neural network** is a class of functions used in both [[supervised learning | supervised]] and [[unsupervised learning | unsupervised]] [[machine learning]] to approximate a correspondence between samples in a dataset and their associated labels. 
 
 ## Definition
  {#Definition}
@@ -53,9 +53,14 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * {#HSTT18} [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and AdS/CFT_,  Phys. Rev. D 98, 046019 (2018) ([arxiv:1802.08313](https://arxiv.org/abs/1802.08313))
 
-A [[category theory|category theoretic]] treatment of back propagation:
+[[category theory|Category theoretic]] treatments of deep learning in neural networks:
 
 * Brendan Fong, David Spivak, Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455))
+
+* [[David Spivak]], _Learners' languages_, ([arXiv:2103.01189](https://arxiv.org/abs/2103.01189))
+
+* G.S.H. Cruttwell, Bruno Gavranović, [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+
 
 
 ### Relation to tensor networks
@@ -69,6 +74,5 @@ Application of [[tensor networks]] and specifically [[tree tensor networks]]:
 
 [[!redirects neural networks]]
 
-[[!redirects machine learning]]
 
 [[!redirects deep learning]]
