@@ -52,6 +52,11 @@ For [[gauge theories]]:
 
 * Zhijin Li, [[David Poland]], _Searching for gauge theories with the conformal bootstrap_ ([arXiv:2005.01721](https://arxiv.org/abs/2005.01721))
 
+On [[manifolds with corners]]:
+
+* António Antunes, _Conformal Bootstrap near the edge_ ([arXiv:2103.03132](https://arxiv.org/abs/2103.03132))
+
+
 
 Comparison to [[experiment]] -- [[superfluid]]-transition:
 
