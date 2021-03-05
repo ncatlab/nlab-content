@@ -65,7 +65,7 @@ Conversely, we have the following:
 If $E$ is nondegenerate (i.e. $1\ncong 0$), Boolean, two-valued, and split supports, then it is well-pointed.
 \end{theorem}
 \begin{proof}
-Let $A\rightarrowtail B$ be a monomorphism such that every global element of $B$ factors through it.  Then $\forall_B A$ is a subterminal object, hence either $1$ or $0$.  If it is $0$, then its complement $\neg\forall_B A = \exists_B \neg A$ is $1$, which is to say that $\neg A$ is well-supported.  Hence, since supports split, $\neg A$ has a global element, which is impossible since every global element of $B$ factors through $A$.  Hence it must be that $\forall_B A = 1$, which implies $A=B$.
+This is Proposition 9.33 on p. 314 of [Johnstone, Topos Theory](#Johnstone77), attributed there to [Freyd](#Freyd70).  Let $A\rightarrowtail B$ be a monomorphism such that every global element of $B$ factors through it.  Then $\forall_B A$ is a subterminal object, hence either $1$ or $0$.  If it is $0$, then its complement $\neg\forall_B A = \exists_B \neg A$ is $1$, which is to say that $\neg A$ is well-supported.  Hence, since supports split, $\neg A$ has a global element, which is impossible since every global element of $B$ factors through $A$.  Hence it must be that $\forall_B A = 1$, which implies $A=B$.
 \end{proof}
 
 Thus, in external classical logic, a topos is well-pointed if and only if it is nondegenerate, Boolean, two-valued, and has split supports.  In particular, a nondegenerate two-valued topos satisfying the external [[axiom of choice]] is well-pointed.
@@ -122,7 +122,11 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 
 ## References
 
-* [[Sheaves in Geometry and Logic]], Sections VI.1 and 10. Thm. \ref{BooleanTwovaluedSupportssplit} in this article is a strengthening of SGL's Prop. VI.1.7. SGL's Section VI.10 is a comparison of well-pointed toposes to RZC (Restricted Zermelo with Choice).
+* {#MM} [[Sheaves in Geometry and Logic]], Sections VI.1 and 10. Thm. \ref{BooleanTwovaluedSupportssplit} in this article is a strengthening of SGL's Prop. VI.1.7. SGL's Section VI.10 is a comparison of well-pointed toposes to RZC (Restricted Zermelo with Choice).
+
+* {#Freyd70} [[Peter Freyd]], _Aspects of Topoi_, Bull. Austral. Soc. Math. no.7 pp.1-76,467-480 (1970).
+ 
+* {#Johnstone77} [[Peter Johnstone]], _Topos Theory_, Academic Press New York 1977. (also available as Dover reprint, Minneola 2014).  See Section 9.3.
 
 
 [[!redirects well-pointed topos]]
