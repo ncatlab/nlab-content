@@ -61,7 +61,7 @@ Finally, a well-pointed topos has [[split supports]].  For the support of any ob
 
 Conversely, we have the following:
 
-\begin{theorem}
+\begin{theorem}\label{BooleanTwovaluedSupportssplit}
 If $E$ is nondegenerate (i.e. $1\ncong 0$), Boolean, two-valued, and split supports, then it is well-pointed.
 \end{theorem}
 \begin{proof}
@@ -122,10 +122,7 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 
 ## References
 
-* [[Sheaves in Geometry and Logic]]
-Sections VI.1 and 10.
-Note that Thm. 3.1 in this article is a strengthening of SGL's Prop. VI.1.7.
-Note also the comparison of WPT to RZC (Restricted Zermelo with Choice) in Section VI.10.
+* [[Sheaves in Geometry and Logic]], Sections VI.1 and 10.  Note that Thm. \ref{BooleanTwovaluedSupportssplit} in this article is a strengthening of SGL's Prop. VI.1.7.  Note also the comparison of well-pointed toposes to RZC (Restricted Zermelo with Choice) in Section VI.10.
 
 
 [[!redirects well-pointed topos]]
