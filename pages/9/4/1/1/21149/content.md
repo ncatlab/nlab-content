@@ -30,5 +30,11 @@ On [[heavy flavor]] via [[holographic QCD]]:
 
 * Yizhuang Liu, [[Ismail Zahed]], _Heavy and Strange Holographic Baryons_, Phys. Rev. D 96, 056027 (2017) ([arXiv:1705.01397](https://arxiv.org/abs/1705.01397))
 
+On [[nucleon]] [[form factors]] via [[holographic QCD]]:
+
+* Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
+
+
+
 
 category: people
