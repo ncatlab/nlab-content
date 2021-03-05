@@ -26,7 +26,7 @@ Lifting this statement to [[stable homotopy theory]] and "[[higher arithmetic ge
 
 One finds that this arithmetic fracturing in stable homotopy theory is really a statement about the [[Bousfield localization of spectra]] with respect to the [[Moore spectrum]] for $\mathbb{Q}$ and that of $\mathbb{Q}/\mathbb{Z}$. Viewed this way there is a more general fracture theorem which says that for any suitable pair $E,F$ of [[spectra]]/[[homology theories]] the [[Bousfield localization of spectra|Bousfield localization]] at their [[coproduct]] decomposes into the separate Bousfield localizations. This generalized fracture theorem appears for instance in [[chromatic homotopy theory]] for localization at [[Morava K-theory]] and [[Morava E-theory]]. (See [below](#GeneralFractureSquares).)
 
-In [[cohesive homotopy theory]] every [[stable homotopy type]] canonically sits in a fracture square formed from the localizations exhibited by the [[shape modality]] and the [[flat modality]]. For [[differential cohesion]] over [[infinitesimal cohesion]] this is a [[higher geometry|higher geometric]] analog of the classical artihmetic fracture. (See [below](#InCohesiveHomotopyTheory).)
+In [[cohesive homotopy theory]] every [[stable homotopy type]] canonically sits in a fracture square formed from the localizations exhibited by the [[shape modality]] and the [[flat modality]]. For [[differential cohesion]] over [[infinitesimal cohesion]] this is a [[higher geometry|higher geometric]] analog of the classical arithmetic fracture. (See [below](#InCohesiveHomotopyTheory).)
 
 
 ## Statement
