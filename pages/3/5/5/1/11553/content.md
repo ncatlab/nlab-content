@@ -203,6 +203,14 @@ See also
 
 * {#DouglasParkSchnell14} [[Michael Douglas]], Daniel S. Park, Christian Schnell, _The Cremmer-Scherk Mechanism in F-theory Compactifications on K3 Manifolds_, JHEP05 (2014) 135 ([arXiv:1403.1595](https://arxiv.org/abs/1403.1595))
 
+### For both
+
+* Yusuke Kimura, _New perspectives in the duality of M-theory, heterotic strings, and F-theory_ ([arXiv:2103.03088](https://arxiv.org/abs/2103.03088))
+
+
+
+
+
 
 [[!redirects duality between F-theory and heterotic string theory]]
 
