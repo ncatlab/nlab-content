@@ -907,6 +907,13 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 
 * [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
 
+#### Nucleons
+
+[[nucleons]]:
+
+[[form factors]]:
+
+* Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
 
 
 
