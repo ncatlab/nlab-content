@@ -122,7 +122,7 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 
 ## References
 
-* [[Sheaves in Geometry and Logic]], Sections VI.1 and 10.  Note that Thm. \ref{BooleanTwovaluedSupportssplit} in this article is a strengthening of SGL's Prop. VI.1.7.  Note also the comparison of well-pointed toposes to RZC (Restricted Zermelo with Choice) in Section VI.10.
+* [[Sheaves in Geometry and Logic]], Sections VI.1 and 10.  Note that Thm. \ref{BooleanTwovaluedSupportssplit} in this article is a strengthening of SGL's Prop. VI.1.7. Section VI.10 is a comparison of well-pointed toposes to RZC (Restricted Zermelo with Choice).
 
 
 [[!redirects well-pointed topos]]
