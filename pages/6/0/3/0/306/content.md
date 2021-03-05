@@ -363,7 +363,35 @@ $$\Delta = \Delta \wedge \top = \Delta \wedge (i_1 \vee i_2) = (\Delta \wedge i_
 but $\Delta = \bot$ forces $A = 0$. So the only such category that can have a subobject classifier is trivial. 
 
 
-## Generalizations: object classifier
+## Generalizations
+
+### Weak subobject classifier
+
+There are many subclasses of [[monomorphisms]], such as [[regular monomorphisms]], [[strong monomorphisms]], and [[extremal monomorphisms]]. As a result, there are weaker forms of subobject classifiers that only classify a subclass of monomorphisms instead of all monomorphisms. 
+
+Suppose there is a [[category]] $C$ with [[finite limit]]s. Let $S$ be a subclass of [[monomorphisms]] in $C$, whose elements we shall refer to as $S$-monomorphisms. An $S$-**subobject classifier** is an $S$-[[monomorphism]] $true : * \to \Omega$ out of the [[terminal object]], such that for every $S$-[[monomorphism]] $U \to X$ in $C$ there is a unique morphism $\chi_U : X \to \Omega$ such that there is a [[pullback]] [[diagram]] of the following form:
+
+$$
+  \array{
+    U &\to& *   
+    \\
+    \downarrow && \downarrow^{\mathrlap{true}}
+    \\
+    X &\stackrel{\chi_U}{\to}& \Omega
+  }
+  \,.
+$$
+
+* If $S$ is the class of all [[monomorphisms]] in $C$, then $\Omega$ is just a **subobject classifier**. 
+* If $S$ is the class of all [[extremal monomorphisms]] in $C$, then $\Omega$ is an **extremal subobject classifier**. 
+* If $S$ is the class of all [[strong monomorphisms]] in $C$, then $\Omega$ is a **strong subobject classifier**. 
+* If $S$ is the class of all [[regular monomorphisms]] in $C$, then $\Omega$ is a **regular subobject classifier**. 
+* If $S$ is the class of all [[effective monomorphisms]] in $C$, then $\Omega$ is an **effective subobject classifier**. 
+* If $S$ is the class of all [[strict monomorphisms]] in $C$, then $\Omega$ is a **strict subobject classifier**. 
+
+Strong subobject classifiers in particular are important in the definition of a [[quasitopos]]. 
+
+### Object classifier
 
 In higher topoi the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
 
