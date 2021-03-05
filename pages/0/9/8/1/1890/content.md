@@ -176,6 +176,9 @@ If the category $C$ is [[closed monoidal category|monoidal closed]], strength an
 
 In this section, let $(C,\otimes 1)$ be monoidal closed, with internal hom denoted by $[-,-]$. Denote the [[unit of an adjunction|unit of the hom-tensor adjunction]] by $\eta_X:X \to [Y,X\otimes Y]$ and the counit (or _evaluation map_, see [[internal hom#EvaluationMap|internal hom - evaluation map]]) by $\epsilon_Y:X\otimes [X,Y]\to Y$.
 
++-- {: .query}
+The unit is the unit of $- \otimes Y \dashv [Y, -]$ applied to $X$. The co-unit is the co-unit of $X \otimes - \dashv [X, -]$ applied to $Y$. The swapping of the variable names is already confusing, but more importantly, we're tensoring on the other side. Either we're assuming that the category is symmetric monoidal (then we should mention so), or we're not but then we should be consistent.
+=--
 
 ### Strong monads are enriched monads
 
