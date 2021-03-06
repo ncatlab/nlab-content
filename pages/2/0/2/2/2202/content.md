@@ -109,6 +109,8 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 
 * {#EilKel66} [[Samuel Eilenberg|S. Eilenberg]], [[Max Kelly|M. G. Kelly]], _Closed Categories_ , pp.421-562 in Eilenberg et al. (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
 
+* [[Malte Gerhold]], [[Stephanie Lachs]], [[Michael Schürmann]], _Categorial Lévy Processes_, [arXiv:1612.05139](https://arxiv.org/abs/1612.05139).
+
 * [Monoidal Categories with Projections](https://golem.ph.utexas.edu/category/2016/08/monoidal_categories_with_proje.html) (blog discussion)
 
 
