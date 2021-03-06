@@ -165,7 +165,9 @@ $$
 
 ## Related concepts
 
-* [[5-dimensional Chern-Simons theory]]
+* [[D=5 gravity]]
+
+* [[D=5 Chern-Simons theory]]
 
 * [[11-dimensional supergravity]] 
 
@@ -248,13 +250,13 @@ The maximal 5d [[gauged supergravity]] was first constructed in
 
 See ([ACFG 01](#ACFG01)).
 
-* Murat Gunaydin, Marco Zagermann, _The Gauging of Five-dimensional, $N=2$ Maxwell-Einstein Supergravity Theories coupled to Tensor Multiplets_,  	Nucl.Phys.B572:131-150,2000 ([arXiv:hep-th/9912027](https://arxiv.org/abs/hep-th/9912027))
+* [[Murat Gunaydin]], Marco Zagermann, _The Gauging of Five-dimensional, $N=2$ Maxwell-Einstein Supergravity Theories coupled to Tensor Multiplets_,  	Nucl.Phys.B572:131-150,2000 ([arXiv:hep-th/9912027](https://arxiv.org/abs/hep-th/9912027))
 
-* Murat Gunaydin, Marco Zagermann, _The Vacua of 5d, $N=2$ Gauged Yang-Mills/Einstein/Tensor Supergravity: Abelian Case_, Phys.Rev.D62:044028,2000 ([arXiv:hep-th/0002228](http://arxiv.org/abs/hep-th/0002228))
+* [[Murat Gunaydin]], Marco Zagermann, _The Vacua of 5d, $N=2$ Gauged Yang-Mills/Einstein/Tensor Supergravity: Abelian Case_, Phys.Rev.D62:044028,2000 ([arXiv:hep-th/0002228](http://arxiv.org/abs/hep-th/0002228))
 
 * A. Ceresole, [[Gianguido Dall'Agata]], _General matter coupled $N=2$, $D=5$ gauged supergravity_, Nucl.Phys. B585 (2000) 143-170 ([arXiv:hep-th/0004111](http://arxiv.org/abs/hep-th/0004111))
 
-* [[John Ellis]], Murat Gunaydin, Marco Zagermann, _Options for Gauge Groups in Five-Dimensional Supergravity_, JHEP 0111:024,2001 ([arXiv:hep-th/0108094](http://arxiv.org/abs/hep-th/0108094))
+* [[John Ellis]], [[Murat Gunaydin]], Marco Zagermann, _Options for Gauge Groups in Five-Dimensional Supergravity_, JHEP 0111:024,2001 ([arXiv:hep-th/0108094](http://arxiv.org/abs/hep-th/0108094))
 
 
 ### Horava-Witten compactification
@@ -270,18 +272,18 @@ Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and 
 
 * {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], R.C. Myers, [[Paul Townsend]], _Black Holes of D=5 Supergravity_, Class.Quant.Grav.16:1-21,1999 ([arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204))
 
-* {#ElvangEmparanMateosReall04} Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _A supersymmetric black ring_, Phys.Rev.Lett.93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
+* {#ElvangEmparanMateosReall04} Henriette Elvang, [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _A supersymmetric black ring_, Phys. Rev. Lett. 93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
 
-* {#ElvangEmparanMateosReall05} Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
+* {#ElvangEmparanMateosReall05} Henriette Elvang, [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
 
-* I. Bena, [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
+* [[Iosif Bena]], [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
 
-* I. Bena, [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
+* [[Iosif Bena]], [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
 
-* [[Davide Gaiotto]], [[Andrew Strominger]], and X. Yin, _5D black rings and 4D black holes_ JHEP 02 (2006) 023 ([hep-th/0504126](http://arxiv.org/abs/hep-th/0504126))
+* [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _5D black rings and 4D black holes_ JHEP 02 (2006) 023 ([hep-th/0504126](http://arxiv.org/abs/hep-th/0504126))
 
-* [[Davide Gaiotto]], [[Andrew Strominger]], and X. Yin, _New connections between 4D and 5D black holes_, JHEP 02 (2006) 024 ([hep-th/0503217](https://arxiv.org/abs/hep-th/0503217))
+* [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _New connections between 4D and 5D black holes_, JHEP 02 (2006) 024 ([hep-th/0503217](https://arxiv.org/abs/hep-th/0503217))
 
 * Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
 
