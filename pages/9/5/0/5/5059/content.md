@@ -968,9 +968,9 @@ made fully explicit (in "FDA" language) in
 * {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; Izquierdo, chapter 8 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
 
 
-The original "brane scan" classification of GS action functionals by WZW terms is due to
+The original "brane scan" classification of GS action functionals by WZW terms:
 
-* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire](http://inspirehep.net/record/22286?ln=en), [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y), [[SuperpBranes.pdf:file]])
+* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire:22286](http://inspirehep.net/record/22286), <a href="https://doi.org/10.1016/0370-2693(87)90896-3">doi:10.1016/0370-2693(87)90896-3</a>, [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y), [[SuperpBranes.pdf:file]])
 
 A complete rigorous classification of all the relevant cocycles on the [[super Poincaré Lie algebra]] was given in
 
@@ -993,7 +993,7 @@ For $d = 11$ the relevant [[super Lie algebra]] [[Lie algebra cohomology|cocycle
 
 A review is in
 
-* {#Duff87} [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([spire](https://inspirehep.net/record/248034?ln=de))
+* {#Duff87} [[Michael Duff]], _Supermembranes: the first fifteen weeks_, Class. Quant. Grav. 5 (1988) 189 ([doi:10.1088/0264-9381/5/1/023](https://doi.org/10.1088/0264-9381/5/1/023), [spire:248034](https://inspirehep.net/record/248034))
 
 from which the above table is taken.
 
@@ -1076,7 +1076,7 @@ with further developments discussed in
 * [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
 
-### anti de Sitter backgrounds
+### Anti de Sitter backgrounds
  {#ReferencesAdSBackgrounds}
 
 Discussion of Green-Schwarz strings on [[super anti de Sitter spacetimes]] includes the following.
