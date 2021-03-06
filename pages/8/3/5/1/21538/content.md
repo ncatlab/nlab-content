@@ -3,9 +3,9 @@
 
 ## Selected writings
 
-On [[confinement]] and [[hadron]]-mass generation in [[QCD]]:
+On [[confinement]] and [[hadron]]-mass generation in [[QCD]] ([[mass gap problem]]):
 
-* {#RobertsSchmidt20} [[Craig Roberts]], [[Sebastian M. Schmidt]], _Reflections upon the Emergence of Hadronic Mass_ ([arXiv:2006.08782](https://arxiv.org/abs/2006.08782))
+* {#RobertsSchmidt20} [[Craig Roberts]], [[Sebastian M. Schmidt]], _Reflections upon the Emergence of Hadronic Mass_, The European Physical Journal Special Topics volume 229, pages 3319–3340 (2020) ([arXiv:2006.08782](https://arxiv.org/abs/2006.08782), [doi:10.1140/epjst/e2020-000064-6](https://doi.org/10.1140/epjst/e2020-000064-6))
 
 > More than 98% of visible mass is contained within [[atomic nuclei|nuclei]].  In first approximation, their atomic weights are simply the sum of the masses of all the [[neutrons]] and [[protons]] ([[nucleons]]) they contain.  Each nucleon has a [[mass]] $m_N \sim 1$ [[GeV]], i.e. approximately 2000-times the [[electron]] mass. The [[Higgs  boson]] produces the latter, but  what produces the masses of the neutron and proton?  This is the question posed above, which is pivotal to the development of modern physics: how can science explain the emergence of [[hadron|hadronic]] mass (EHM)? $[\cdots]$
 
