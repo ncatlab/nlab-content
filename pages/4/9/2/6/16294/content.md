@@ -43,6 +43,8 @@ Take care to note that lax colimits correspond to _oplax_ cones, just as in the 
 
 ## Examples
 
+* If $J : [1] \to (\infty,1)Cat$ is the diagram depicting a functor $f : A \to B$, then $laxlim(J) \simeq (f \downarrow B)$ and $oplaxlim(J) \simeq (B \downarrow f)$.
+
 * [[(∞,1)-Grothendieck construction]]
 
 ## Related concepts
