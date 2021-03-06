@@ -854,9 +854,19 @@ It turns out that the [[shifted C-field flux quantization condition]] is natural
 ## References
  {#References}
 
-The C-field originates as the $A_{\mu\nu\rho}$-field in 
+The C-field in [[D=11 supergravity]] originates as the $A_{\mu\nu\rho}$-field in 
 
 * {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. 76B (1978) 409 (<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>)
+
+Re-derivation in the [[D'Auria-Fré formulation of supergravity]]:
+
+* {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]], (5.11b) of: _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 (<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]) 
+
+Review in:
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], III.8.53 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+* [[André Miemiec]], [[Igor Schnakenburg]], Section 3.1.3 of: _Basics of M-Theory_, Fortsch. Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137), [doi:10.1002/prop.200510256]( https://doi.org/10.1002/prop.200510256))
 
 
 The [[shifted C-field flux quantization condition]] was originally proposed in
