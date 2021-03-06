@@ -1,3 +1,4 @@
+[[!redirects 5d Chern-Simons theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -63,7 +64,9 @@
 
 * [[self-dual Yang-Mills theory]]
 
-* [[5-dimensional supergravity]]
+* [[D=5 gravity]]
+
+* [[D=5 supergravity]]
 
 ## References
 
