@@ -155,7 +155,7 @@ the many experimental cross section measurements.
 
 \linebreak
 
-* {#RobertsSchmidt20} [[Craig Roberts]], [[Sebastian M. Schmidt]], _Reflections upon the Emergence of Hadronic Mass_ ([arXiv:2006.08782](https://arxiv.org/abs/2006.08782))
+* {#RobertsSchmidt20} [[Craig Roberts]], [[Sebastian M. Schmidt]], _Reflections upon the Emergence of Hadronic Mass_, The European Physical Journal Special Topics volume 229, pages 3319–3340 (2020) ([arXiv:2006.08782](https://arxiv.org/abs/2006.08782), [doi:10.1140/epjst/e2020-000064-6](https://doi.org/10.1140/epjst/e2020-000064-6))
 
 > More than 98% of visible mass is contained within [[atomic nuclei|nuclei]].  In first approximation, their atomic weights are simply the sum of the masses of all the [[neutrons]] and [[protons]] ([[nucleons]]) they contain.  Each nucleon has a [[mass]] $m_N \sim 1$ [[GeV]], i.e. approximately 2000-times the [[electron]] mass. The [[Higgs  boson]] produces the latter, but  what produces the masses of the neutron and proton?  This is the question posed above, which is pivotal to the development of modern physics: how can science explain the emergence of [[hadron|hadronic]] mass (EHM)? $[\cdots]$
 
@@ -168,5 +168,13 @@ the many experimental cross section measurements.
 * Michael Creutz, _QCD beyond diagrams_ ([arXiv:2010.04774](https://arxiv.org/abs/2010.04774))
 
 > QCD, the theory of the strong interactions, involves quarks interacting with non-Abelian gluon fields. This theory has many features that are difficult to impossible to see in conventional diagrammatic perturbation theory. This includes quark confinement, mass generation, and chiral symmetry breaking.
+
+\linebreak
+
+* {#Roberts21} [[Craig Roberts]], _On Mass and Matter_, AAPPS Bulletin volume 31, Article number: 6 (2021) ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340), [doi:10.1007/s43673-021-00005-4](https://doi.org/10.1007/s43673-021-00005-4))
+
+> The origin of the proton mass, and with it the basic mass-scale for all nuclear physics, is one of the most pro-found puzzles in Nature. 
+
+> Although  QCD  is  defined  by  a  seemingly  simple  La-grangian, it specifies a problem that has defied solutionfor more than forty years.  The key challenges in modernnuclear and high-energy physics are to reveal the observ-able  content  of  strong  QCD  and,  ultimately,  therefromderive the properties of nuclei. 
 
 
