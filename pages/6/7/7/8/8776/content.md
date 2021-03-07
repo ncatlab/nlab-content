@@ -272,9 +272,9 @@ Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and 
 
 * {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], R.C. Myers, [[Paul Townsend]], _Black Holes of D=5 Supergravity_, Class.Quant.Grav.16:1-21,1999 ([arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204))
 
-* {#ElvangEmparanMateosReall04} Henriette Elvang, [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _A supersymmetric black ring_, Phys. Rev. Lett. 93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
+* {#ElvangEmparanMateosReall04} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _A supersymmetric black ring_, Phys. Rev. Lett. 93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
 
-* {#ElvangEmparanMateosReall05} Henriette Elvang, [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
+* {#ElvangEmparanMateosReall05} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
 
 * [[Iosif Bena]], [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
