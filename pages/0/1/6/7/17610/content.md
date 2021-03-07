@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -37,9 +38,6 @@ The first black ring solution  was found, in [[D=5 supergravity]], in:
 
 * [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
-Further early development:
-
-* [[Roberto Emparan]], _Rotating Circular Strings, and Infinite Non-Uniqueness of Black Rings_, JHEP0403:064, 2004 ([arXiv:hep-th/0402149](https://arxiv.org/abs/hep-th/0402149))
 
 
 
@@ -47,7 +45,18 @@ Review:
 
 * {#EmparanReall06} [[Roberto Emparan]], [[Harvey Reall]], _Black Rings_, Class. Quant. Grav. 23:R169, 2006 ([arXiv:hep-th/0608012](https://arxiv.org/abs/hep-th/0608012))
 
-As [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on a [[4-manifold]] [[product manifold|times]] the black ring's [[circle]]:
+[[KK-compactification|Dimensional reduction]] to [[black holes]] in [[D=4 gravity]]:
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _5D Black Rings and 4D Black Holes_, JHEP 0602:023, 2006 ([arXiv:hep-th/0504126](https://arxiv.org/abs/hep-th/0504126))
+
+On non-uniqueness:
+
+* [[Roberto Emparan]], _Rotating Circular Strings, and Infinite Non-Uniqueness of Black Rings_, JHEP0403:064, 2004 ([arXiv:hep-th/0402149](https://arxiv.org/abs/hep-th/0402149))
+
+* [[Iosif Bena]], [[Simon Ross]], [[Nicholas Warner]], _Coiffured Black Rings_, Class.Quant.Grav. 31 (2014) 165015 ([arXiv:1405.5217](https://arxiv.org/abs/1405.5217))
+
+
+As [[intersecting brane|intersecting]] [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on a [[4-manifold]] [[product manifold|times]] the black ring's [[circle]]:
 
 * [Emparan-Reall 06, Sec. 4.1, 4.2, 6.1](#EmparanReall06)
 
