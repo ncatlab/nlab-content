@@ -62,7 +62,7 @@ Dually, given an [[embedding of differentiable manifolds]] into a [[Euclidean sp
 
 All the usual operations on [[finite dimensional vector spaces]] in [[linear algebra]] generalize to vector bundles by applying them [[fiber]]-wise. For instance there is [[direct sum of vector bundles]] and the [[tensor product of vector bundles]] over the same base space.
 
-To the extent that the base [[space]] $X$ is encoded in its [[algebra of functions]] (tautologically in [[algebraic geometry]] or via [[Gelfand duality]] in [[topology]]), the [[Serre-Swan theorem]] asserts that vector bundles over $X$ are equivalently encoded in the [[projective modules]] over these algebras constitutes by their [[sections]].
+To the extent that the base [[space]] $X$ is encoded in its [[algebra of functions]] (tautologically in [[algebraic geometry]] or via [[Gelfand duality]] in [[topology]]), the [[Serre-Swan theorem]] asserts that vector bundles over $X$ are equivalently encoded in the [[projective modules]] over these algebras constituted by their [[sections]].
 
 Vector bundles have various applications and uses:
 
@@ -141,7 +141,7 @@ Much else to be discussed...
 
 * [[Dale Husemöller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer GTM 1975 (327 p.), 1994 (353 p.). 
 
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
+* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 
@@ -156,7 +156,7 @@ Discussion with an eye towards [[K-theory]] is in
 * [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
 
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
 
