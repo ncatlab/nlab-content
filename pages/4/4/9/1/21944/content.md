@@ -6,6 +6,10 @@ On [[black rings]] in [[D=5 supergravity]]:
 
 * [[Iosif Bena]], [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
 
+On non-uniqueness of [[black rings]]:
+
+* [[Iosif Bena]], [[Simon Ross]], [[Nicholas Warner]], _Coiffured Black Rings_, Class.Quant.Grav. 31 (2014) 165015 ([arXiv:1405.5217](https://arxiv.org/abs/1405.5217))
+
 On [[D1-D5-brane bound states]]:
 
 * [[Iosif Bena]], [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
