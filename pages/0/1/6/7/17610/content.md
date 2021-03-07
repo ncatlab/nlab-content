@@ -22,6 +22,8 @@ Their [[KK-reduction]] down to 4 dimensions yields again ordinary black holes. T
 
 ## Related concepts
 
+* [[black string]]
+
 * [[D=5 Einstein-Maxwell theory]]
 
 ## References
@@ -31,9 +33,15 @@ The first black ring solution in was found, in [[D=5 gravity]], in
 * [[Roberto Emparan]], [[Harvey Reall]], _A rotating black ring in five dimensions_, Phys. Rev. Lett.88:101101, 2002 ([arXiv:hep-th/0110260](https://arxiv.org/abs/hep-th/0110260))
 
 
-The first solution in [[D=5 supergravity]] was given in 
+The first black ring solution  was found, in [[D=5 supergravity]], in:
 
 * [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
+
+Further early development:
+
+* [[Roberto Emparan]], _Rotating Circular Strings, and Infinite Non-Uniqueness of Black Rings_, JHEP0403:064, 2004 ([arXiv:hep-th/0402149](https://arxiv.org/abs/hep-th/0402149))
+
+
 
 Review:
 
@@ -42,6 +50,8 @@ Review:
 As [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on a [[4-manifold]] [[product manifold|times]] the black ring's [[circle]]:
 
 * [Emparan-Reall 06, Sec. 4.1, 4.2, 6.1](#EmparanReall06)
+
+* [Castro-David-Kraus-Larsen 08, Sec 2.2](#CastroDavidKrausLarsen08)
 
 following
 
@@ -57,7 +67,7 @@ More in the context of [[D1-D5-brane bound states]]
 
 * [[Iosif Bena]], [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
 
-* Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
+* {#CastroDavidKrausLarsen08}  Alejandra Castro, Joshua L. Davis, [[Per Kraus]], [[Finn Larsen]], _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
 
 
 [[!redirects black rings]]
