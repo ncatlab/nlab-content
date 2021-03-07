@@ -37,6 +37,8 @@ A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its 
 
 * If $E$ is a [[presheaf category]] and $T\colon E \to Set$ is p.r.a., then the [[comma category]] $Set/T$ (also called the [[Artin gluing]] in this context) is again a presheaf category.  Conversely, if $Set/T$ is a presheaf category, then $T$ preserves connected limits, and thus is p.r.a. if it is accessible.
 
+* A parametric right adjoint functor has in particular a left [[multi-adjoint]], which sends each object $b\in B$ to the family of all units $\eta_{b,i} : b \to T L(b,i)$, where $i$ ranges over all morphisms $b\to T 1$ and $L : B/T1 \to A$ is the left adjoint of $T_1$.  This is because any morphism $b\to T a$ induces a unique composite $i:b \to T a \to T 1$, and hence a unique factorization through $L(b,i)$.
+
 ## Generic morphisms
 
 Central to the theory of parametric right adjoints is the notion of *$T$-generic* morphisms.  For any functor $T$, a morphism $f\colon B\to T A$ is (strictly) **$T$-generic** if any commutative square of the following form:
