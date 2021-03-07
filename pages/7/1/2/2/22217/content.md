@@ -16,7 +16,11 @@ and in [[D=5 supergravity]]:
 
 * [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
-On reducing these to [[black holes]]:
+On [[conserved charges]] carried by [[black rings]]:
+
+* [[Roberto Emparan]], _Rotating Circular Strings, and Infinite Non-Uniqueness of Black Rings_, JHEP0403:064, 2004 ([arXiv:hep-th/0402149](https://arxiv.org/abs/hep-th/0402149))
+
+On reducing [[black rings]] to [[black holes]]:
 
 * {#ElvangEmparanMateosReall05} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
