@@ -36,8 +36,27 @@ Recall from the discussion at [[generalized universal bundle]] and at [[stuff, s
 
 ### For $(\infty,1)$-categories
 
-...see section 3.3.2 of [[Higher Topos Theory|HTT]]...
+One description of the universal cartesian fibration is given in section 3.3.2 of [[Higher Topos Theory|HTT]] as the contravariant [[(∞,1)-Grothendieck construction]] applied to the identity functor $((\infty,1)Cat^{op})^{op} \to (\infty,1)Cat$. 
 
+A more direct description can be given following the idea at [this mathoverflow question](#direct):
+
++-- {: .num_prop }
+###### Proposition
+
+$Z^{op}$ is equivalent to the full subcategory of $(\infty,1)Cat^{[1]}$ spanned by the morphisms of the form $[C_{x/} \to C]$ for small (∞,1)-categories $C$ and objects $x \in C$.
+
+The universal fibration $Z \to (\infty,1)Cat^{op}$ is opposite to the target evaluation.
+
+Dually, the universal cocartesian fibration is $Z' \to (\infty,1)Cat$ where $Z'$ is the (∞,1)-category of arrows of the form $[C_{/x} \to C]$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A key point of this description is that for any small (∞,1)-category $C$, the functor $x \mapsto C_{/x}$ (where $x \to y$ acts by composition) is a fully faithful functor $C \to (\infty,1)Cat_{/C}$. Dually, $x \mapsto C_{x/}$ is a fully faithful functor $C^{op} \to (\infty,1)Cat_{/C}$
+
+=--
 
 ### For $\infty$-Groupoids 
   {#RestInfGrpd}
@@ -67,6 +86,18 @@ This is the _[[universal Kan fibration]]_.
 
 The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fibration]] and it is the _universal right fibration_. In fact it is (when restricted to small objects) the [[object classifier]] in the [[(∞,1)-topos]] [[∞Grpd]], see at [object classifier -- In ∞Grpd](%28sub%29object+classifier+in+an+%28infinity%2C1%29-topos#ObjectClassifierInInfinityGroupoid). 
 
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The universal left fibration is the forgetful functor
+$\infty Grpd_* \to \infty Grpd$. Its opposite is the universal right fibration.
+
+=--
++-- {: .proof}
+###### Proof
+This is proposition 3.3.2.7 of [[Higher Topos Theory|HTT]].
 =--
 
 +-- {: .num_prop }
@@ -136,6 +167,10 @@ The universal fibration as such is discussed in section 3.3.2 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 The concrete description in terms of model theory on marked simplicial sets is in section 3.2. A simpler version of this is in section 2.2.1
+
+The direct description of the universal fibration is discussed at
+
+* {#direct} [A construction of the universal cocartesian fibration](https://mathoverflow.net/questions/383275/)
 
 [[!redirects universal fibration of (∞,1)-categories]]
 
