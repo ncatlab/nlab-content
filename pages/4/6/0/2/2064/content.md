@@ -121,6 +121,12 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
 ## References
 
+Fiber bundles (then spelled fibre-bundles) were defined by [[Hassler Whitney]] in
+
+* [[Hassler Whitney]], _On the theory of sphere-bundles_, Proceedings of the National Academy of Sciences 26:2 (1940), 148-153.  [doi](https://doi.org/10.1073/pnas.26.2.148).
+
+Other sources include
+
 * [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
 
 
