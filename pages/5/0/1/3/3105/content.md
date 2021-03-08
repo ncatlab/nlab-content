@@ -193,7 +193,10 @@ This is related to the definition of [[Pi-algebras]].
 
 In the context of [[simplicial groups]], representing [[connected]] [[homotopy types]], there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. 
 
-(This formula for the Whitehead product is due to [[Dan Kan]] and can be found in the old survey article of [[Ed Curtis]].  The proof that it works was never published.)
+(e.g. [Scherer-Chorny 11, Sec. 1](#SchererChorny11))
+
+
+(This formula for the Whitehead product is due to [[Dan Kan]] and can be found in the old survey article of [[Ed Curtis]].  The proof that it works was never published. For more pointers see [MO:q/296479/381](https://mathoverflow.net/q/296479/381))
 
 
 ### Relation to the Sullivan models
@@ -414,6 +417,12 @@ Discussion of Whitehead products specifically of [[homotopy groups of spheres]]:
 * {#James56} [[Ioan Mackenzie James]], _On the Suspension Triad_, Annals of Mathematics Second Series, Vol. 63, No. 2 (Mar., 1956), pp. 191-247 ([arXiv:1969607](https://www.jstor.org/stable/1969607))
 
 * {#James57} [[Ioan Mackenzie James]], _On the Suspension Sequence_, Annals of Mathematics Second Series, Vol. 65, No. 1 (Jan., 1957), pp. 74-107 ([arXiv:1969666](https://www.jstor.org/stable/1969666))
+
+As [[n-excisive functors]]:
+
+* {#SchererChorny11} [[Jerome Scherer]], [[Boris Chorny]], _Goodwillie calculus and Whitehead products_, Forum Math. 27 (2015), no. 1, 119 - 130 ([arXiv:1109.2691](https://arxiv.org/abs/1109.2691))
+
+
 
 
 Discussion of Whitehead products in [[homotopy type theory]]:
