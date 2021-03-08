@@ -33,6 +33,15 @@ On the analogy between [[AdS/CFT duality]] and [[deep learning]]:
 
 * Tetsuya Akutagawa, Koji Hashimoto, Takayuki Sumimoto, _Deep Learning and AdS/QCD_ ([arXiv:2005.02636](https://arxiv.org/abs/2005.02636))
 
+Introducing the [[nuclear matrix model]] for [[baryons/nucleons]] in the [[Witten-Sakai-Sugimoto model]]:
+
+* {#HashimotoIizukaYi10} [[Koji Hashimoto]], Norihiro Iizuka, Piljin Yi, _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
+
+* {#HashimotoMatsuoMorita19} [[Koji Hashimoto]], [[Yoshinori Matsuo]], [[Takeshi Morita]], _Nuclear states and spectra in holographic QCD_, JHEP12 (2019) 001 ([arXiv:1902.07444](https://arxiv.org/abs/1902.07444))
+
+holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
+
+
 On the binding energy of [[nucleons]] via [[AdS/QCD]]:
 
 * [[Koji Hashimoto]], Yoshinori Matsuo, _Nuclear binding energy in holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
