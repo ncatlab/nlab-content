@@ -35,6 +35,8 @@ This example of [[D-brane charge]] used to be one of the main motivations for fi
 
 * [[differential K-theory]]
 
+* [[twisted equivariant K-theory]]
+
 * [[twisted ordinary differential cohomology]]
 
 ## References
@@ -63,14 +65,20 @@ A definition and proof of its pertinent properties of [[twisted differential coh
 * {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_ ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231))
 
 
+See also:
 
-More detailed discussion of twisted differential K-theory for [[KU]] is due to 
+* [[Byungdo Park]], _Geometric models of twisted differential K-theory I_,  J. Homotopy Relat. Struct. 13, 143–167 (2018) ([arXiv:1602.02292](https://arxiv.org/abs/1602.02292), [doi:10.1007/s40062-017-0177-z](https://doi.org/10.1007/s40062-017-0177-z))
+
+
+More detailed discussion of twisted differential K-theory for [[KU]]/[[KO]] and its application to [[K-theory classification of D-brane charge]]:
 
 * {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
 
-and case of twisted differential [[KO-theory]] is discussed in detail in
-
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+
+* [[Fabio Ferrari Ruffino]], [[Juan Carlos Rocha Barriga]], _Twisted differential K-characters and D-branes_, Nuclear Physics B Volume 960, November 2020, 115169 ([arXiv:2009.04223](https://arxiv.org/abs/2009.04223). [doi:10.1016/j.nuclphysb.2020.115169](https://doi.org/10.1016/j.nuclphysb.2020.115169))
+
+
 
 
 
