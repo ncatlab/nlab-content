@@ -109,6 +109,8 @@ is called the corresponding _[[D-brane charge]]_.
 ## References
  {#References}
 
+### General
+
 The special case where the class of the restriction of the [[B-field]] to the D-brane _equals_ the third [[integral Stiefel-Whitney class]] of the D-brane was discussed in
 
 * [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
@@ -170,6 +172,21 @@ The [[KK-theory]]-description of the FEK anomaly used above is discussed in
 
 * [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
  {#Nuiten}
+
+### Relation to shifted C-field flux
+
+On relating the [[Freed-Witten anomaly]] to the [[shifted C-field flux quantization]]:
+
+On [[D4-branes]]:
+
+* [[Edward Witten]], Section 2 of: _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031, 2000 ([arXiv:hep-th/9912086](https://arxiv.org/abs/hep-th/9912086))
+
+On [[D6-branes]]:
+
+* [[Sergei Gukov]], [[James Sparks]], p. 21 of: _M-Theory on $Spin(7)$ Manifolds_, Nucl. Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
+
+* [[James Sparks]], _Global Worldsheet Anomalies from M-Theory_, JHEP 0408:037, 2004 ([arXiv:hep-th/0310147](https://arxiv.org/abs/hep-th/0310147))
+
 
 
 [[!redirects Freed-Witten anomaly cancellation]]
