@@ -1,8 +1,16 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
 A [[matrix model]] for [[D-brane]] ([[D-instanton]]) dynamics in [[string theory]] which takes the classification of [[D-brane charge]] in [[topological K-theory]] into acount ([Asakawa-Sugimoto-Terashima 01](#AsakawaSugimotoTerashima01))
+
+## Related concepts
+
+[[!include brane matrix models -- content]]
+
 
 ## References
 
