@@ -33,6 +33,11 @@ On the analogy between [[AdS/CFT duality]] and [[deep learning]]:
 
 * Tetsuya Akutagawa, Koji Hashimoto, Takayuki Sumimoto, _Deep Learning and AdS/QCD_ ([arXiv:2005.02636](https://arxiv.org/abs/2005.02636))
 
+On the binding energy of [[nucleons]] via [[AdS/QCD]]:
+
+* [[Koji Hashimoto]], Yoshinori Matsuo, _Nuclear binding energy in holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
+
+
 
 category: people
 
