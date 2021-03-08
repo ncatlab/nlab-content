@@ -52,7 +52,21 @@ The morphism is a **cocartesian fibration** (or **Cartesian opfibration**, **Gro
 
 This is [[Higher Topos Theory|HTT, def. 2.4.2.1]].
 
++-- {: .un_defn}
+###### Definition
 
+Given cartesian fibrations $p : X \to C$ and $q : Y \to C$, let $Map_C^{cart}(p,q) \subseteq Map_C(p,q)$ and $Fun_C^{cart}(p,q) \subseteq Fun_C(p,q)$ be the full subsimplicial sets spanned by the functors that preserve cartesian morphisms. We call such functors **cartesian functors**.
+
+Dually, we make the analogous definition of cocartesian functor.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The $Map_C^{cart}$ are the mapping spaces in the (cartesian) model structure on marked simplicial sets over $C$.
+
+=--
 
 ## Properties {#Properties}
 
@@ -348,6 +362,38 @@ This is  [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 =--
 
+### Free (co)cartesian fibrations
+
+The inclusion of the cartesian fibrations and cartesian functors in the category $(\infty,1)Cat_{/C}$ has a left adjoint.
+
++-- {: .un_prop}
+###### Proposition 
+
+For maps $p : X \to C$ and cartesian fibrations $q : Y \to C$, there are a natural equivalences
+$$
+  Map_C(p, q) \simeq Map_C^{cart}((C \downarrow p), q)
+$$
+Dually, for maps $p : X \to C$ and cocartesian fibrations $q : Y \to C$, there are natural equivalences
+$$
+  Map_C(p, q) \simeq Map_C^{cocart}((p \downarrow C), q)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The cartesian case is theorem 4.5 of [Gepner-Haugseng-Nikolaus](#GepnerHaugsengNikolaus15). For the cocartesian case,
+
+$$
+  Map_C(p,q) \simeq Map_{C^{op}}(p^{op}, q^{op})
+  \simeq \Map_{C^{op}}^{cart}((C^{op} \downarrow p^{op}), q^{op})
+  \simeq \Map_C^{cocart}((p \downarrow C), q)
+$$
+
+=--
+
+
 ## Examples 
 
 ### Projections from comma categories 
@@ -483,6 +529,9 @@ for the moment see
 * [[Jacob Lurie]], section 2.4.2 in _[[Higher Topos Theory]]_
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _A user's guide to co/cartesian fibrations_ ([arXiv:1510.02402](http://arxiv.org/abs/1510.02402))
+
+
+* {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
 [[!redirects cartesian fibration]]
 [[!redirects coCartesian fibration]]
