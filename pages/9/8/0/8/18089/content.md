@@ -56,6 +56,12 @@ The [[category of modules]] over the [[category algebra]] $k C$ is equivalent to
 
 ## References
 
+The earliest mentioning of the term of which the authors are aware is
+
+* \bibitem{tomDieck1987}
+
+Other references are:
+
 * {#Webb08} [[Peter Webb]], _Standard stratifications of EI categories and Alperin's weight conjecture_, ([doi](https://doi.org/10.1016/j.jalgebra.2006.03.052))
 
 * [[Karsten Dietrich]], _Representation Theory of EI-categories_, ([pdf](https://d-nb.info/1007029781/34))
