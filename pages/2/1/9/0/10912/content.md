@@ -32,7 +32,10 @@ Accordingly, a membrane matrix model should be a generalization of the [[IKKT ma
 
 ## Related concepts
 
-* [[BFSS matrix model]], [[M2-brane]], [[M-theory]]
+* [[M2-brane]], [[M-theory]]
+
+[[!include brane matrix models -- content]]
+
 
 
 ## References
