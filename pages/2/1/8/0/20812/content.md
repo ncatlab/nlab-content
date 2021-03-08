@@ -134,6 +134,8 @@ With the corrected 7-flux in [[twisted Cohomotopy]] it becomes true that
 
 ## References
 
+### General
+
 The suggestion originates in
 
 * {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. 22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
@@ -174,6 +176,21 @@ The observation that the condition is implied by [[supergravity C-field|C-field]
 Discussion of the [[Page charge]] in relation to the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of [[fuzzy 3-sphere|fuzzy]] [[3-sphere]]-shape:
 
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
+
+### Relation to Freed-Witten anomaly
+
+
+On relating the [[Freed-Witten anomaly]] to the [[shifted C-field flux quantization]]:
+
+On [[D4-branes]]:
+
+* [[Edward Witten]], Section 2 of: _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031, 2000 ([arXiv:hep-th/9912086](https://arxiv.org/abs/hep-th/9912086))
+
+On [[D6-branes]]:
+
+* [[Sergei Gukov]], [[James Sparks]], p. 21 of: _M-Theory on $Spin(7)$ Manifolds_, Nucl. Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
+
+* [[James Sparks]], _Global Worldsheet Anomalies from M-Theory_, JHEP 0408:037, 2004 ([arXiv:hep-th/0310147](https://arxiv.org/abs/hep-th/0310147))
 
 
 
