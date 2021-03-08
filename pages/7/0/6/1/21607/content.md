@@ -63,7 +63,7 @@ Other references:
 
 * [[Corbett Redden]], _An alternate description of equivariant connections_, Differential Geometry and its Applications Volume 56, February 2018, Pages 81-94 ([doi:10.1016/j.difgeo.2017.11.003](https://doi.org/10.1016/j.difgeo.2017.11.003) [arXiv:1608.01297](https://arxiv.org/abs/1608.01297))
 
-* {#ParkRedden19} Byungdo Park, [[Corbett Redden]], _A classification of equivariant gerbe connections_, Communications in Contemporary MathematicsVol. 21, No. 02, 1850001 (2019) ([doi:10.1142/S0219199718500013](https://doi.org/10.1142/S0219199718500013), [arXiv:1709.06003](https://arxiv.org/abs/1709.06003))
+* {#ParkRedden19} [[Byungdo Park]], [[Corbett Redden]], _A classification of equivariant gerbe connections_, Communications in Contemporary MathematicsVol. 21, No. 02, 1850001 (2019) ([doi:10.1142/S0219199718500013](https://doi.org/10.1142/S0219199718500013), [arXiv:1709.06003](https://arxiv.org/abs/1709.06003))
 
 * Cheng-Yong Du, Lili Shen, Xiaojuan Zhao, _Spark complexes on good effective orbifold atlases categorically_, Theory and Applications of Categories, 33(26):784-812, 2018 ([tac:33-26](http://www.tac.mta.ca/tac/volumes/33/26/33-26abs.html), [arXiv:1708.07551](https://arxiv.org/abs/1708.07551))
 
