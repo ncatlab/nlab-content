@@ -371,11 +371,11 @@ The inclusion of the cartesian fibrations and cartesian functors in the category
 
 For maps $p : X \to C$ and cartesian fibrations $q : Y \to C$, there are a natural equivalences
 $$
-  Map_C(p, q) \simeq Map_C^{cart}((C \downarrow p), q)
+  Fun_C(p, q) \simeq Fun_C^{cart}((C \downarrow p), q)
 $$
 Dually, for maps $p : X \to C$ and cocartesian fibrations $q : Y \to C$, there are natural equivalences
 $$
-  Map_C(p, q) \simeq Map_C^{cocart}((p \downarrow C), q)
+  Fun_C(p, q) \simeq Fun_C^{cocart}((p \downarrow C), q)
 $$
 
 =--
@@ -383,12 +383,12 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The cartesian case is theorem 4.5 of [Gepner-Haugseng-Nikolaus](#GepnerHaugsengNikolaus15). For the cocartesian case,
+The cartesian case for mapping spaces is theorem 4.11 of [Gepner-Haugseng-Nikolaus](#GepnerHaugsengNikolaus15). For the cocartesian case,
 
 $$
-  Map_C(p,q) \simeq Map_{C^{op}}(p^{op}, q^{op})
-  \simeq \Map_{C^{op}}^{cart}((C^{op} \downarrow p^{op}), q^{op})
-  \simeq \Map_C^{cocart}((p \downarrow C), q)
+  Fun_C(p,q) \simeq Fun_{C^{op}}(p^{op}, q^{op})^{op}
+  \simeq \Fun_{C^{op}}^{cart}((C^{op} \downarrow p^{op}), q^{op})^{op}
+  \simeq \Fun_C^{cocart}((p \downarrow C), q)
 $$
 
 =--
