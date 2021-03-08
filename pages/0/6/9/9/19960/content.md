@@ -915,6 +915,11 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 
 * Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
 
+binding energy:
+
+* [[Koji Hashimoto]], Yoshinori Matsuo, _Nuclear binding energy in holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
+
+
 
 
 
