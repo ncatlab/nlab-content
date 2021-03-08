@@ -38,7 +38,7 @@ $$C/X\to D/F(X)$$
 is a [[right adjoint functor]].
 
 A functor $F\colon S/I\to S/J$
-is polynomial if and only if it is a local right adjoint functor,
+is polynomial if and only if it is a [[local right adjoint]] functor,
 see ([GHK, Theorem 2.2.3(iii)](#GHK)).
 
 
