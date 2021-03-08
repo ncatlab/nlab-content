@@ -33,6 +33,8 @@ Often considered in the special case of [[twisted ad-equivariant K-theory]].
 
 * [[twisted ad-equivariant Tate K-theory]]
 
+* [[twisted differential K-theory]]
+
 ## References
 
 In a context of [[orbifold K-theory]]:
