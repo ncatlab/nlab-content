@@ -48,11 +48,8 @@ The [[pp-wave spacetime]]-background for the BMN matrix model arises as the [[Pe
 
 ## Related concepts
 
-* [[BFSS matrix model]]
+[[!include brane matrix models -- content]]
 
-* [[IKKT matrix model]]
-
-* [[membrane matrix model]]
 
 ## References
 
