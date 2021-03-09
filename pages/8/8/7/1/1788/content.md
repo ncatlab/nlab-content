@@ -7,6 +7,7 @@ An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
 \section{Van Kampen's Theorem}
 Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topological space.
 
+
 \section{References}
 
 \bibitem{MarraReggio2020}
@@ -23,7 +24,13 @@ Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topologi
 
 \linebreak
 
+[[daRocha2021-HolographicMesonMasses-Table1a.jpg:file]]
 
+[[daRocha2021-HolographicMesonMasses-Table2.jpg:file]]
+
+[[daRocha2021-HolographicMesonMasses-Table3.jpg:file]]
+
+[[daRocha2021-HolographicMesonMasses-Table4.jpg:file]]
 
 
 > With all due respect to anyone who is interested in them, they are a mess. There is a lot of detailed information known about them, but I won't try to summarize it here. ([Adams](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf#page=212))
