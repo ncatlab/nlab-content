@@ -80,7 +80,9 @@ Review:
 
 * {#Malkiewich11} [[Cary Malkiewich]], section 2 of: _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
-Discussion of [[MO]]-bordism with [[MSO]]-boundaries:
+* [[Branko Juran]], _Thom spaces and the Oriented Cobordism Ring_, 2020 ([pdf](http://www.math.uni-bonn.de/people/daniel/2020/CharClasses/Vortrag4.pdf), [[JuranMO.pdf:file]])
+
+Discussion of [[MO]]-bordism with [[MSO]]-[[manifold with boundary|boundaries]]:
 
 * G. E. Mitchell, _Bordism of Manifolds with Oriented Boundaries_, Proceedings of the American Mathematical Society Vol. 47, No. 1 (Jan., 1975), pp. 208-214 ([doi:10.2307/2040234](https://doi.org/10.2307/2040234))
 
