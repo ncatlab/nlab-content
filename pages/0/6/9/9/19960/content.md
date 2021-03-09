@@ -420,7 +420,14 @@ In this vein, it has been argued in [GLMR 00](#GLMR00) that there is holographic
 
 A popular [[bottom-up model building|bottom-up approach]] of AdS/QCD is known as the _hard-wall model_ ([Erlich-Katz-Son-Stephanov 05](#ErlichKatzSonStephanov05)).
 
-Computations due to [Katz-Lewandowski-Schwartz 05](#KatzLewandowskiSchwartz05) find the following comparison of AdS/QCD predictions to [[QCD]]-[[experiment]]
+Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and further to "improved holographic QCD" is due to [Gursoy-Kiritsis-Nitti 07](#GursoyKiritsisNitti07), [Gursoy-Kiritsis 08](#GursoyKiritsis08), see [GKMMN 10](#GKMMN10).
+
+
+## Comparison with experiment
+
+Comparison with [[experiment]] (mostly using bottom-up models).
+ 
+Computations due to [Katz-Lewandowski-Schwartz 05](#KatzLewandowskiSchwartz05) using the hard-wall model ([Erlich-Katz-Son-Stephanov 05](#ErlichKatzSonStephanov05)) find the following comparison of AdS/QCD predictions to [[QCD]]-[[experiment]]
 
 <center>
 <img src="https://ncatlab.org/nlab/files/HardWallModelPredictions.jpg" width="400">
@@ -428,7 +435,7 @@ Computations due to [Katz-Lewandowski-Schwartz 05](#KatzLewandowskiSchwartz05) f
 
 > graphics from [Erlich 09, section 1.2](#Erlich09)
 
-Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and further to "improved holographic QCD" is due to [Gursoy-Kiritsis-Nitti 07](#GursoyKiritsisNitti07), [Gursoy-Kiritsis 08](#GursoyKiritsis08), see [GKMMN 10](#GKMMN10).
+Computations due to [KKSS 06](#KKSS06), [Gursoy-Kiritsis-Nitti 07](#GursoyKiritsisNitti07), [Gursoy-Kiritsis 08](#GursoyKiritsis08), see [GKMMN 10](#GKMMN10):
 
 
 <center>
@@ -447,7 +454,7 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 
 \linebreak
 
-See also  [Pomarol-Wulzer 09](#PomarolWulzer09):
+From [Pomarol-Wulzer 09](#PomarolWulzer09):
 
 <center>
 <img src="https://ncatlab.org/nlab/files/PomarolHolographicBaryonMasses.jpg" width="500">
@@ -455,9 +462,77 @@ See also  [Pomarol-Wulzer 09](#PomarolWulzer09):
 
 \linebreak
 
+{#TablesdRocha21} From [da Rocha 21](#daRocha21), for [[vector mesons]]:
+
+for [[upsilon-mesons]]:
+
+\begin{imagefromfile}
+    "file_name": "daRocha2021-HolographicMesonMasses-Table1a.jpg",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [da Rocha 21](#daRocha21)"
+\end{imagefromfile}
+
+
+for [[psi-mesons]]:
+
+\begin{imagefromfile}
+    "file_name": "daRocha2021-HolographicMesonMasses-Table2.jpg",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [da Rocha 21](#daRocha21)"
+\end{imagefromfile}
+
+for [[omega-mesons]]:
+
+\begin{imagefromfile}
+    "file_name": "daRocha2021-HolographicMesonMasses-Table3.jpg",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [da Rocha 21](#daRocha21)"
+\end{imagefromfile}
+
+for [[phi-mesons]]:
+
+\begin{imagefromfile}
+    "file_name": "daRocha2021-HolographicMesonMasses-Table4.jpg",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [da Rocha 21](#daRocha21)"
+\end{imagefromfile}
+
+
+
+
+\linebreak
+
 These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18). 
 
-### Embedding into the full standard model of particle physics
+## Embedding into the standard model of particle physics
 
 
 [Nastase 03, p. 2](#Nastase03):
