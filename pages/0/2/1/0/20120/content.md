@@ -22,7 +22,7 @@
 
 By a  _prefix order_ we mean a [[partial order]] which is also downwards [[total order|totally ordered]].
 
-The concept was introduced in ([Cuipers 13a](#Cuipers13a), [Cuipers 13b](#Cuipers13b)) in the context of [[semantics]] for [[programming languages]], and in particular hybrid and cyber-physical systems, as need arose to generalize the notion of (execution) tree to something that would include a mix of continuous and discrete progress of time. After a lot of experimentation, [Cuipers 13a](#Cuipers13a) discovered that the generalization needed was something that expresses two things: time branches when it goes forward (due to different possible courses of action a system may take), but seems linear when looking backward. 
+The concept was introduced in ([Cuijpers 13a](#Cuijpers13a), [Cuijpers 13b](#Cuipers13b)) in the context of [[semantics]] for [[programming languages]], and in particular hybrid and cyber-physical systems, as need arose to generalize the notion of (execution) tree to something that would include a mix of continuous and discrete progress of time. After a lot of experimentation, [Cuijpers 13a](#Cuijpers13a) discovered that the generalization needed was something that expresses two things: time branches when it goes forward (due to different possible courses of action a system may take), but seems linear when looking backward. 
 
 A different way of looking at it, is that executions of systems have a natural prefix order on them. Trying to come up with a generic definition of what a 'prefix' is, Cuijpers could not find anything in literature and came up with the definition below. As it turns out, in roughly the same period, [Ferlez-Cleaveland-Marcus 14](#FerlezCleavelandMarcus14) discovered the definition of "pointed prefix orders" and named them "generalized execution trees".
 
@@ -86,9 +86,9 @@ In this way, prefix ordered sets form a [[category]] [[Pfx]]. Furthermore, they 
 ## References 
  {#References}
 
-* {#Cuipers13a} [[Pieter Cuijpers]], _Prefix Orders as a General Model of Dynamics_, Proceedings of the [9th International Workshop on Developments in Computational Models (DCM)](http://www.dcm-workshop.org.uk/2013/) p. 25–29 ([pdf](http://www.dcm-workshop.org.uk/2013/dcm-2013-pre-proc.pdf#page=30))
+* {#Cuijpers13a} [[Pieter Cuijpers]], _Prefix Orders as a General Model of Dynamics_, Proceedings of the [9th International Workshop on Developments in Computational Models (DCM)](http://www.dcm-workshop.org.uk/2013/) p. 25–29 ([pdf](http://www.dcm-workshop.org.uk/2013/dcm-2013-pre-proc.pdf#page=30))
 
-* {#Cuipers13b} [[Pieter Cuijpers]], _The Categorical Limit of a Sequence of Dynamical Systems_, [EPTCS 120 : Proceedings EXPRESS/SOS 2013](https://www.win.tue.nl/expresssos2013/), p. 78-92, 2013 ([arXiv:1307.7445](https://arxiv.org/abs/1307.7445), [doi:10.4204/EPTCS.120.7]())
+* {#Cuijpers13b} [[Pieter Cuijpers]], _The Categorical Limit of a Sequence of Dynamical Systems_, [EPTCS 120 : Proceedings EXPRESS/SOS 2013](https://www.win.tue.nl/expresssos2013/), p. 78-92, 2013 ([arXiv:1307.7445](https://arxiv.org/abs/1307.7445), [doi:10.4204/EPTCS.120.7]())
 
 * {#FerlezCleavelandMarcus14} James Ferlez, Rance Cleaveland, Steve Marcus, _Generalized Synchronization Trees_, LLNCS 8412: Proceedings of FOSSACS'14, 2014, p. 304–319 (<a href="https://doi.org/10.1007/978-3-642-54830-7_20">10.1007/978-3-642-54830-7_20</a>)
 
