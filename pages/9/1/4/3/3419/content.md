@@ -19,10 +19,14 @@ Every [[group character]] is in particular a class function.
 
 * [[Schur orthogonality relation]]
 
+* [[representation ring]]
+
+* [[rational equivariant K-theory]], [[equivariant Chern character]]
+
 ## References
 
 See also 
 
-* Wikipedia, _[Class function](https://en.wikipedia.org/wiki/Class_function_(algebra))_
+* Wikipedia, _[Class function](https://en.wikipedia.org/wiki/Class_function_(algebra)_
 
 [[!redirects class functions]]
