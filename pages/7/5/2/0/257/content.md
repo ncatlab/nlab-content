@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -378,7 +377,7 @@ Accordingly [[homological algebra]] with its [[derived categories]] and [[derive
 
 * [[model structures on dg-algebras]]
 
-In fact, the original definition of model categories in ([Quillen 67](#Quillen1967AHT)) was motivated by the [[analogy]] between constructions in [[homotopy theory]] and [[homological algebra]].
+In fact, the original definition of model categories in \cite{Quillen1967} was motivated by the [[analogy]] between constructions in [[homotopy theory]] and [[homological algebra]].
 
 ### Categorical model structures
 
@@ -456,9 +455,9 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 
 ## References
 
-The concept of model categories originates in 
+The concept of a model category originates in Chapter I, _Axiomatic homotopy theory_, of
 
-[[!include Quillen1967AHT-ref]]
+\bibitem{Quillen1967}
 
 
 #### Monographs and textbooks
