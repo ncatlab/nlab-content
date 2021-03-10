@@ -25,6 +25,8 @@ The $V_{c b}$-puzzle is different from, but related to, the [[flavour anomalies]
 
 ## Related concepts
 
+* [[flavor problem]]
+
 * [[flavour anomaly]]
 
 * [[Cabibbo anomaly]]
