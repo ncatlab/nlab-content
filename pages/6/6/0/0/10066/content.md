@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -563,8 +562,7 @@ On [[Chern classes of linear representations]]:
 
 * [Atiyah 61, Appendix](#Atiyah61)
 
-* {#Evens65} Leonard Evens, _On the Chern Classes of Representations of Finite Groups_, Transactions of the American Mathematical Society
-Vol. 115 (Mar., 1965), pp. 180-193 ([doi:10.2307/1994264](https://www.jstor.org/stable/1994264))
+\bibitem{Evens1965}
 
 * F. Kamber, Ph. Tondeur, _Flat Bundles and Characteristic Classes of Group-Representations_, American Journal of Mathematics
 Vol. 89, No. 4 (Oct., 1967), pp. 857-886 ([doi:10.2307/2373408](https://www.jstor.org/stable/2373408))
