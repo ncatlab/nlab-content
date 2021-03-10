@@ -537,7 +537,7 @@ In its incarnation (under [[Elmendorf's theorem]]) as a [[Spectra]]-valued [[pre
 
 Review:
 
-* Valentin Zakharevich, Section 2.2 of: _K-Theoretic Computation of the Verlinde Ring_ ([pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf))
+* [[Valentin Zakharevich]], Section 2.2 of: _K-Theoretic Computation of the Verlinde Ring_, thesis 2018 ([hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]])
 
 * {#Ortiz09} Michael L. Ortiz, Theorem 2.2 in: _Differential Equivariant K-Theory_ ([arXiv:0905.0476](https://arxiv.org/abs/0905.0476))
 
