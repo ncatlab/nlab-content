@@ -49,6 +49,10 @@ The [category of fields](field#category) has a multi-initial object, i.e. the fu
 
 The notion of multi-adjoints is credited by [Osmond 20a](#Osmond2020a), [20b](#Osmond2020a) to:
 
+* [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977).
+
+* [[Yves Diers]], _Cat&eacute;gories localement multipr&eacute;sentables_, Archiv der Mathematik 34.1 (1980), pp. 344–356.
+
 * [[Yves Diers]], _Une construction universelle des spectres, topologies spectrales et faisceaux structuraux_, Communication in Algebra Volume 12, Issue 17-18 (1984) ([doi:10.1080/00927878408823101](https://doi.org/10.1080/00927878408823101))
 
 (in discussion of the notion of [[spectrum (geometry)|spectra in geometry]]).
