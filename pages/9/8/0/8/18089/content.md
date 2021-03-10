@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -58,7 +57,7 @@ The [[category of modules]] over the [[category algebra]] $k C$ is equivalent to
 
 The earliest mentioning of the term of which the authors are aware is
 
-* \bibitem{tomDieck1987}
+\bibitem{tomDieck1987}
 
 Other references are:
 
