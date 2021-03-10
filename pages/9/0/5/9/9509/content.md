@@ -69,6 +69,9 @@ On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identif
 
   ([arxiv/1409.6051](http://arxiv.org/abs/1409.6051), [doi:10.1016/j.crma.2015.02.011](https://doi.org/10.1016/j.crma.2015.02.011))
 
+Review:
+
+* [[Valentin Zakharevich]], _K-Theoretic Computation of the Verlinde Ring_, thesis 2018 ([hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf))
 
 
 [[!redirects Verlinde rings]]
