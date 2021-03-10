@@ -22,6 +22,7 @@
 {: toc}
 
 
+
 ## Definitions
 
 Classically:
@@ -79,9 +80,9 @@ The three definitions above do not exhaust the possible constructive notions of 
 ### Category of fields
 {#category}
 
-Fields are not as well-behaved [[category theory|categorically]] as most other common algebraic structures ([[groups]], [[rings]], [[modules]], etc.).  In particular, the [[category]] of fields and field homomorphisms (a [[full subcategory]] of the category of [[rings]]) is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]].
+Fields are not as well-behaved [[category theory|categorically]] as most other common algebraic structures ([[groups]], [[rings]], [[modules]], etc.).  In particular, the [[category]] of fields and field [[homomorphisms]] (a [[full subcategory]] of the category _[[Rings]]_ of [[rings]] and [[ring homomorphisms]]) is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]].
 
-In particular, it lacks a terminal object and also lacks an initial object (though it has a [[weakly initial set]], namely the set of [[prime field]]s).  In particular, it is therefore not [[algebraic category|algebraic]] or [[locally presentable category|locally presentable]].
+In particular, it lacks a [[terminal object]] and also lacks an [[initial object]] (though it has a [[weakly initial set]], namely the set of [[prime fields]], hence has a "[multi-initial object](multi-adjoint#MultiInitialObjectsInFields)").  In particular, it is therefore not [[algebraic category|algebraic]] or [[locally presentable category|locally presentable]].
 
 
 ### Accessibility and sketchability
