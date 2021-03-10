@@ -25,11 +25,16 @@ The concept of _crossed modules_  of groups ([Whitehead 41](#Whitehead41), [Whit
 From other points of view it is:
 
 *  like the inclusion of a [[normal subgroup]], but isn\'t an inclusion in general;
+
 *  like a [[module]] with a twisted 'multiplication';
-*  like the action of automorphisms on a group;
+
+*  like an [[action]] by [[automorphisms]] on a group;
+
 *  a [[crossed complex]] concentrated in degrees $1$ and $2$;
-*  a nonabelian [[chain complex|chain-complex]];
-*  a [[Moore complex]] of certain [[simplicial group]]s.
+
+*  a nonabelian [[chain complex|chain-complex]] of length 2;
+
+*  a [[Moore complex]] of certain [[simplicial groups]].
 
 Historically, crossed modules were among the first examples of [[higher dimensional algebra]] to be studied.
 
@@ -37,48 +42,124 @@ Historically, crossed modules were among the first examples of [[higher dimensio
 
 ### Diagrammatic definition
 
-A **crossed module** is
 
-* a pair of [[group]]s $G_2, G_1$,
+\begin{defn}\label{DiagrammaticDefinition}
+A **crossed module of groups** is
 
-* morphisms of groups
+* a [[pair]] of [[groups]] $G_2, G_1$,
+
+* a [[group homomorphism]]
+
   $$
-    G_2 \stackrel{\delta }{\to}{G_1}
+    G_2 
+      \overset{
+        \delta
+       }{
+         \longrightarrow
+       }
+    G_1
   $$ 
-  and 
-  $$
-    G_1 \stackrel{\alpha}{\to} Aut(G_2)
-  $$ 
-  (which below we will conceive of as a map $\alpha : G_1 \times G_2 \to G_2$ analogously to  the adjoint action $Ad : G \times G \to G$ of a group on itself)
 
-* such that 
+* a [[group homomorphism]] from $G_1$ to the [[automorphism group]] of $G_2$:
+
+  $$
+    G_1 
+      \overset{
+        \alpha
+      }{
+        \longrightarrow
+      } 
+      Aut(G_2)
+      \,,
+  $$ 
+
+  which we may equivalently regard as a [[function]]
+
+  $$
+    \alpha 
+     \;\colon\;
+     G_1 \times G_2 
+       \longrightarrow 
+     G_2
+   $$ 
+
+   (out if the [[Cartesian product]] of underlyings [[sets]]/[[objects]])
+
+   that satisfies the $G_1$-[[action]] property and is such that for every $g_1 \in G_1$ it is a group [[automorphism]] of $G_2$;
+
+such that the following [[commuting diagram|diagrams commute]]:
+
 $$
   \array{
     G_2 \times G_2
-    &&\stackrel{\delta \times Id}{\to}&&
+    &&
+      \overset{
+        \delta \times Id
+      }{
+        \longrightarrow
+      }
+    &&
     G_1 \times G_2
     \\
-    & {}_{Ad}\searrow && \swarrow_\alpha
+    & 
+    {}_{\mathllap{Ad}}
+    \searrow 
+    && 
+    \swarrow_{\mathrlap{\alpha}}
     \\
     &&
     G_2
   }
 $$
+
+
 and
+
 $$
   \array{
-    G_1 \times G_2 &\stackrel{\alpha}{\to}& G_2
+    G_1 \times G_2 
+    &
+      \stackrel{
+        \alpha
+      }{
+        \longrightarrow
+      }
+    & 
+    G_2
     \\
-    \downarrow^{Id \times \delta} && \downarrow^{\delta}
+    \big\downarrow^{
+      \mathrlap{Id \times \delta}
+    } 
+    && 
+    \big\downarrow^{
+      \mathrlap{\delta}
+    }
     \\
-    G_1 \times G_1 &\stackrel{Ad}{\to}& G_1    
+    G_1 \times G_1 
+    &
+      \stackrel{
+        Ad
+      }{
+        \longrightarrow
+      }
+    & 
+    G_1    
+    \,,
   }
 $$
-commute.
+where $Ad$ denotes the [[adjoint action]] of $G_2$ on itself.
+\end{defn}
 
-We may use the notation $(G_2,G_1,\delta)$, for this if the action is fairly obvious, including an explicit [[action]], $(G_2,G_1,\delta,\alpha)$, if there is a risk of confusion.
- 
-If one unwraps the definitions in terms of automorphism groups to use merely finite products (for instance, writing the actions as $G_1 \times G_2 \to G_2$, together with commuting diagrams encoding the necessary properties), then crossed modules can be defined internal to any [[cartesian monoidal category]] $C$, namely as a structure involving internal groups in $C$. For instance, one might consider Lie crossed modules, which are crossed modules of [[Lie groups]]. These are relevant for certain models of the [[String group]].
+\begin{remark}
+The diagrammatic Def. \ref{DiagrammaticDefinition} makes sense  [[internalization|internal]] to any [[cartesian monoidal category]] $\mathcal{C}$:
+
+* for $\mathcal{C}=$ [[Sets]] we get bare crossed modules of [[discrete groups]];
+
+* for $\mathcal{C}=$ [[SmoothManifolds]] we get crossed modules of [[Lie groups]];
+
+  if one allows [[infinite-dimensional manifolds]] here then this subsumes crossed modules of [[Kac-Moody groups]] such as appear in models for the [[String 2-group]].
+
+\end{remark}
 
 
 Alternatively, one can take another tack, and define crossed module objects in categories that support enough structure without using internal groups, the most general case of which, in practice, are [[semiabelian categories]]. There one considers the objects to behave 'like groups' in the sense that the category they form looks very much like the category of groups. Janelidze ([Janelidze 2003](#Janelidze_03)) defined the notion of internal crossed module in a semiabelian category (so that in the prototypical example of the category of groups, they reduce to the above notion). 
@@ -88,14 +169,14 @@ A key result, also due to ([Janelidze 2003](#Janelidze_03)) and generalising the
 +-- {: .num_theorem}
 ###### Theorem
 **(Janelidze's Brown-Spencer theorem).**
-Let $C$ be a semiabelian category. Then the category $XMod(C)$ of crossed modules in $C$ is equivalent to the category $Gpd(C)$ of internal groupoids in $C$.
+Let $C$ be a [[semiabelian category]]. Then the category $XMod(C)$ of crossed modules in $C$ is equivalent to the category $Gpd(C)$ of internal groupoids in $C$.
 =--
 
 Here the notion of [[internal groupoid]] is the usual diagrammatic notion.
 
 ### Definition in terms of equations
 
-The two [[diagram]]s can be translated into equations, which may often be helpful.
+The two [[diagrams]] can be translated into [[equations]], which may often be helpful.
 
 *   If we write the effect of acting with $g_1\in G_1$ on $g_2\in G_2$ as ${}^{g_1}g_2$, then the second diagram translates as the equation:
     $$\delta({}^{g_1}g_2) = g_1\delta(g_2)g_1^{-1}.$$
@@ -137,12 +218,13 @@ between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing thi
 
   of [[automorphism]]s in the category [[Grpd]] of [[groupoid]]s on the one-object [[delooping]] [[groupoid]] $\mathbf{B}H$ of $H$.
 
-*  Almost the canonical example of a crossed module is given by a group $G$ and a normal subgroup $N$ of $G$.  We take $G_2 = N$, and $G_1 = G$ with the action given by conjugation, whilst $\delta$ is the inclusion, $inc : N \to G$. This is 'almost canonical', since if we replace the groups by simplicial groups $G_.$ and $N_.$, then $(\pi_0(G_.),\pi_0(N_.),\pi_0(inc))$ is a crossed module, and given any crossed module, $(C,P,\delta)$, there is a simplicial group $G_.$ and a normal subgroup $N_.$, such that the construction above gives the given crossed module up to isomorphism.
+*  Almost the canonical example of a crossed module is given by a group $G$ and a [[normal subgroup]] $N$ of $G$.  We take $G_2 = N$, and $G_1 = G$ with the action $\alpha$ being the [[conjugation action]], whilst $\delta$ is the given inclusion, $N \hookrightarrow G$. 
+
+  This is 'almost canonical', since if we replace the groups by simplicial groups $G_.$ and $N_.$, then $(\pi_0(G_.),\pi_0(N_.),\pi_0(inc))$ is a crossed module, and given any crossed module, $(C,P,\delta)$, there is a simplicial group $G_.$ and a normal subgroup $N_.$, such that the construction above gives the given crossed module up to isomorphism.
 
 * Another standard example of a crossed module is $M \to ^0 P$ where $P$ is a group and $M$ is a $P$-module. Thus the category of modules over groups embeds in the category of crossed modules. 
 
-* If $\mu: M \to P$ is a crossed module with cokernel $G$, and $M$ is abelian, then the operation of $P$ on $M$ factors through $G$. In fact such crossed modules in which both $M$ and $P$ are abelian should not be sneezed at! A good example is $\mu: C_2 \times C_2 \to C_4$ where $C_n$ denotes the cyclic group of order $n$, $\mu$ is injective on each factor, and $C_4$ acts on the product by the twist.  This crossed module has a [[classifying space]] $X$ with fundamental and second homotopy groups $C_2$ and non trivial $k$-invariant in $H^3(C_2, C_2)$, so $X$ is not a product of [[Eilenberg-MacLane space]]s.  However the crossed module is an algebraic model and so one one can do algebraic constructions with it. It  gives in some ways a better feel for the space than the $k$-invariant. The [[higher homotopy van Kampen theorem]] implies that   the above $X$ gives the 2-type of the [[mapping cone]] of the map of 
-[[classifying space]]s $BC_2 \to BC_4$. 
+* If $\mu: M \to P$ is a crossed module with cokernel $G$, and $M$ is abelian, then the operation of $P$ on $M$ factors through $G$. In fact such crossed modules in which both $M$ and $P$ are abelian should not be sneezed at! A good example is $\mu: C_2 \times C_2 \to C_4$ where $C_n$ denotes the cyclic group of order $n$, $\mu$ is injective on each factor, and $C_4$ acts on the product by the twist.  This crossed module has a [[classifying space]] $X$ with fundamental and second homotopy groups $C_2$ and non trivial $k$-invariant in $H^3(C_2, C_2)$, so $X$ is not a product of [[Eilenberg-MacLane space]]s.  However the crossed module is an algebraic model and so one one can do algebraic constructions with it. It  gives in some ways a better feel for the space than the $k$-invariant. The [[higher homotopy van Kampen theorem]] implies that   the above $X$ gives the 2-type of the [[mapping cone]] of the map of [[classifying space]]s $BC_2 \to BC_4$. 
 
 
 * Suppose $F\stackrel{i}{\to}E\stackrel{p}{\to}B$ is a [[fibration sequence]]
