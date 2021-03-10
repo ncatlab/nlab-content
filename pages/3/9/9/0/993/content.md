@@ -24,7 +24,7 @@ Examples are
 
 + the [[Gelfand spectrum]] of a commutative [[C*-algebra]],
 
-* the spectrum of a commutative [[von Neumann algebras]] is an enhanced [[measurable space]],
+* the spectrum of a commutative [[von Neumann algebra]] is an enhanced [[measurable space]],
 
 * the Grothendieck [[spectrum of a commutative ring]], 
 
@@ -41,6 +41,8 @@ Examples are
 * the [[Pierce spectrum]], 
 
 * the [[Berkovich spectrum]] in rigid [[analytic geometry]], 
+
+* the [[Diers spectrum]] recovers many of the above constructions,
 
 * ...
 
