@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,6 +69,11 @@ On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identif
   Comptes Rendus Mathematique, Volume 353, Issue 5, May 2015, Pages 415-419
 
   ([arxiv/1409.6051](http://arxiv.org/abs/1409.6051), [doi:10.1016/j.crma.2015.02.011](https://doi.org/10.1016/j.crma.2015.02.011))
+
+Review:
+
+* [[Valentin Zakharevich]], _K-Theoretic Computation of the Verlinde Ring_, thesis 2018 ([hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]])
+
 
 
 Computation of the [[twisted ad-equivariant K-theory]]-groups for all [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[simple Lie groups]]:
