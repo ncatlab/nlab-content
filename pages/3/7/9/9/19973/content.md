@@ -62,18 +62,28 @@ Finally, due to [[confinement]], the flavor-changing transitions between [[quark
 All this suggests that the flavor sector is controlled by mechanisms that are not understood or identified yet.
 
 
-### Flavor anomalies
+### Experimental "anomalies"
 
-Due to the [flavor problem](#TheFlavorProblem), the flavor sector of the [[standard model of particle physics]] is the least well understood in detail. Indeed, persistent [[flavor anomalies]] reflect a discrepancy between [[experiment]] ([[LHCb]], [[Belle experiment|Belle]], [[BaBar experiment|BaBar]]) and theoretical computations, which keeps being seen at a global [[statistical significance]] of $\sim 4\sigma$ across all experiments and decay channels. If these [[flavour anomalies]] are real they signify New Physics in the flavor sector.
+Due to the [flavor problem](#TheFlavorProblem), the flavor sector of the [[standard model of particle physics]] is the least well understood in detail. Indeed, thete are persistent and growing discrepancies between SM-predictions and experimental measurements in the flavor sector:
 
+#### Flavor anomaly
 
+[[flavor anomalies]] reflect a discrepancy in [[B-meson]] decays between [[experiment]] ([[LHCb]], [[Belle experiment|Belle]], [[BaBar experiment|BaBar]]) and theoretical computations, which keeps being seen at a global [[statistical significance]] of $\sim 4\sigma$ across all experiments and decay channels. If these [[flavour anomalies]] are real they signify New Physics in the flavor sector.
 
 See at _[[flavour anomalies]]_ for more.
+
+#### Cabibbo anomaly
+
+See at _[[Cabibbo anomaly]]_ and _[[V_cb puzzle]]_.
+
+#### $(g-2)$ anomaly
+
+See at _[[(g-2) anomaly]]_.
 
 ### Geometric engineering on D8-branes
  {#GeometircEngineeringInDBranes}
 
-In [[geometric engineering of QFT|geometric engineering]] of [[flavor physics]] in [[intersecting D-brane models]], the flavour degrees of freedom come from [[open strings]] ending on [[spacetime]]-filling [[D-branes]] ([Karch-Katz 02](#KarchKatz02)).
+In [[geometric engineering of QFT|geometric engineering]] of [[flavor physics]] in [[intersecting D-brane models]], the flavour degrees of freedom come from [[open strings]] ending on [[spacetime]]-filling [[D-branes]] called "[[flavor branes]]" ([Karch-Katz 02](#KarchKatz02)).
 
 Specifically in the [[Sakai-Sugimoto model]] [[geometric engineering of QFT|geometrically engineering]] something close to actual [[quantum chromodynamics]] ([Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05)), flavour is encoded in the presence of [[D8-branes]] in the model:
 
@@ -122,7 +132,7 @@ Here we are showing
 
 * [[flavour anomaly]]
 
-* [[V_cb puzzle]]
+* [[Cabibbo anomaly]], [[V_cb puzzle]]
 
 * [[flavor brane]]
 
@@ -221,9 +231,9 @@ On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scatter
 * {#Buras18} [[Andrzej Buras]], _The Return of Kaon Flavour Physics_, Acta Phys. Pol. B 49, 1043 (2018) ([doi:10.5506/APhysPolB.49.1043](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=49&N=6#1043))
 
 
-### Realization on flavor branes
+### Geometric engineering on flavor branes
 
-[[geometric engineering of QFT|geometric engineering]] of flavour physics in [[intersecting D-brane models]] ([[flavor branes]] in [[AdS/QCD]]) was originally understood in
+The [[geometric engineering of QFT|geometric engineering]] of flavour physics in [[intersecting D-brane models]] ([[flavor branes]] in [[AdS/QCD]]) was originally understood in
 
 * {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
 
