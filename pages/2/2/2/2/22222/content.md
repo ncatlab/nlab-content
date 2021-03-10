@@ -24,5 +24,11 @@ Of course, if each set $I$ is a [[singleton]], then this is an actual [[left adj
 
 If we weaken the notion of adjunction in the opposite way, by removing the uniqueness requirement but keeping $I$ a singleton (or equivalently add to the solution-set condition that $I$ is a singleton), we obtain a [[weak adjoint]].
 
+## References
+
+* Axel Osmond, _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.00853))
+
+* Axel Osmond, _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.02167))
+
 [[!redirects left multi-adjoint]]
 [[!redirects right multi-adjoint]]
