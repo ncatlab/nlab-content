@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 > To be distinguished from [[spectrum]] in the sense of [[stable homotopy theory]], see at [[spectrum - disambiguation]].
 
 #Contents#
@@ -44,4 +55,25 @@ The word 'spectrum' in this setup originates from the fact that the spectrum of 
 
 * [MO discussion](http://mathoverflow.net/a/20293/381) on the history of the idea of a space of ideals on which a ring is a ring of functions, both in analysis and in algebraic geometry
 
-* [[Axel Osmond]], _The general construction of Spectra_, [arXiv:2102.01259](https://arxiv.org/abs/2102.01259).
+For a general-abstract perspective:
+
+* [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972) ([doi:10.1007/978-3-662-59155-0](https://www.springer.com/gp/book/9783540055730))
+
+* [[Jacob Lurie]], _[[Structured Spaces]]_
+
+also 
+
+* [[Cole's theory of spectrum]]
+
+See also:
+
+* [[Yves Diers]], _Une construction universelle des spectres, topologies spectrales et faisceaux structuraux_, Communication in Algebra Volume 12, Issue 17-18 (1984) ([doi:10.1080/00927878408823101](https://doi.org/10.1080/00927878408823101))
+
+* {#Osmond2020a} [[Axel Osmond]], _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.00853))
+
+* {#Osmond2020b} [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
+
+* [[Axel Osmond]], _The general construction of Spectra_ ([arXiv:2102.01259](https://arxiv.org/abs/2102.01259))
+
+
+
