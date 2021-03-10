@@ -383,9 +383,11 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
 * [[flavour (particle physics)]]
 
+* [[Cabibbo anomaly]]
+
 * [[V_cb puzzle]]
 
-* [[anomalous magnetic moment]]
+* [[(g-2) anomaly]]
 
 ## References
  {#References}
