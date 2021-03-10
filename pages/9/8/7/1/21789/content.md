@@ -52,6 +52,10 @@ General definition in terms of [[equivariant function|equivariant]] [[sections]]
 
 * {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Thesis 2009 ([ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]])
 
+Reviewed in:
+
+* [[Valentin Zakharevich]], Section 2.2 of: _K-Theoretic Computation of the Verlinde Ring_, thesis 2018 ([hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]])
+
 
 The corresponding version of the [[Atiyah-Hirzebruch spectral sequence]]:
 
