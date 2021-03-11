@@ -9,10 +9,14 @@ For $G$ a geometric [[group]] (e.g. a [[topological group]] or [[Lie group]]) an
 
 More generally, and less tautologically, if $V \to X$ is a $G$-[[associated bundle]] then one says that $V$ has **structure group** $G$.
 
+In [[physics]] this is called the _[[gauge group]]_.
+
 ## Related concepts
 
 * [[reduction of structure group]]
 
 * [[gauge group]]
+
+* [[equivariance group]]
 
 [[!redirects structure groups]]
