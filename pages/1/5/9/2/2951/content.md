@@ -46,6 +46,11 @@ On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]
 * [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
 
+On [[equivariant bundles]] with [[abelian group|abelian]] [[structure group]]:
+
+* {#LashofMaySegal83} [[Richard Lashof]], [[Peter May]], [[Graeme Segal]], _Equivariant bundles with abelian structural group_, Contemporary Mathematics,  Volume 19, 1983 ([doi:10.1090/conm/019](http://dx.doi.org/10.1090/conm/019), [pdf](http://www.math.uchicago.edu/~may/PAPERS/45.pdf), [[LashofMaySegalEquivariantBundles.pdf:file]])
+
+
 On [[loop groups]] of [[compact Lie groups]] and their [[Kac-Moody group]] [[central extension]]:
 
 * {#PressleySegal} Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
