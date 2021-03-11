@@ -27,7 +27,7 @@
 
 ## Idea
 
-The subject of _equivariant differential topology_ is the enhancement of results of [[differential topology]] from plain [[manifolds]]/[[topological spaces]] to those equipped with [[actions]] of some [[group]] ([[G-spaces]]).
+The subject of _equivariant differential topology_ is the enhancement of results of [[differential topology]] from plain [[manifolds]]/[[topological spaces]] to those equipped with [[actions]] of some [[group]] ([[G-spaces]]) -- the _[[equivariance group]]_.
 
 ## Properties
 
@@ -160,6 +160,8 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 
 
 ## Related concepts
+
+* [[equivariant bundle]]
 
 * [[equivariant homotopy theory]]
 
