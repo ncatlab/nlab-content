@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[equivariant bundles]]:
+
+* [[Tammo tom Dieck]], _Faserb&uuml;ndel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
+
 On [[equivariant bordism homology theory]]:
 
 * [[Tammo tom Dieck]], _Kobordismentheorie und Transformationsgruppen_, Aaarhus University  Preprint Series 1968/69, No. 30 ([gbooks](https://books.google.de/books/about/Kobordismen_Theorie_und_Transformationsg.html?id=1ohGAAAAYAAJ&redir_esc=y))
