@@ -1,6 +1,3 @@
-[[!redirects category of G sets]]
-[[!redirects category of G sets]]
-[[!redirects category-of-G-sets]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,6 +14,7 @@
 {:toc}
 
 ## Idea
+
 This entry is about the category of [[G-set|continuous G-sets]], for a [[topological group]] $G$. Continuous $G$-sets are sets $X$ with an action of $G$ that is continuous when $X$ is given the discrete topology.
 
 The category of continuous $G$-sets is a [[Grothendieck topos]], and is closely related to [[Fraenkel-Mostowski models]].
@@ -24,6 +22,7 @@ The category of continuous $G$-sets is a [[Grothendieck topos]], and is closely 
 ## Definition
 
 Let $G$ be a topological group.
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -31,6 +30,7 @@ The **category of continuous $G$-sets** is the [[category]] of sets $X$ equipped
 =--
 
 There is a simple characterization of when a $G$-action is continuous.
+
 +-- {: .num_prop}
 ###### Proposition
 Let $G$ be a topological group, and $X$ be a set with a $G$ action $\mu: G \times X \to X$. Then the action is continuous if and only if the stabilizer of each element is open.
@@ -51,8 +51,10 @@ For a topological group $G$, we write $G^\delta$ for the discrete version of $G$
 
 +-- {: .num_prop}
 ###### Proposition
-The inclusion $i_G: G Set \to G^\delta Set$ has a right adjoint $r_G: G^\delta \to G Set$
+
+The inclusion $i_G \colon G Set \to G^\delta Set$ has a [[right adjoint]] $r_G: G^\delta \to G Set$
 such that for $X\in G Set$, the continuous $G$-set $r_G X$ is the subset of $X$ consisting of those points with open stabilizer.
+
 =--
 
 +-- {: .proof}
@@ -86,7 +88,7 @@ This follows from the observation that the finite limits and colimits created by
 
 +-- {: .num_cor}
 ###### Corollary
-The category $G Set$ has all finite limits and arbitrary colimits.
+The category $G Set$ has all [[finite limits]] and arbitrary [[colimits]].
 =--
 
 +-- {: .num_cor}
@@ -157,9 +159,13 @@ using the fact that $r_G(i_G(X)) = X$ for all $X \in G Set$.
 The [[power object]] of $X \in G Set$ is given by the subsets of $X$ that have an open stabilizer.
 =--
 
-+-- {: .num_theorem}
+In conclusion we have:
+
++-- {: .num_theorem #GSetsIsAnElementaryTopos}
 ###### Theorem
+
 The category $G Set$ is an [[elementary topos]].
+
 =--
 
 ## Equivalent characterizations
@@ -179,6 +185,7 @@ See [MacLane and Moerdijk, Chapter III.9](#MaclaneMoerdijk).
 =--
 
 More generally, by the [[comparison lemma]], we have
+
 +-- {: .num_theorem}
 ###### Theorem
 Let $G$ be a topological group, and $\mathcal{U}$ be a cofinal set of open subgroups, ie. every open subgroup contains a member of $\mathcal{U}$. Then the category $G Set$ is equivalent to the topos of sheaves on the atomic site $(S(G, \mathcal{U}), At)$, where the objects of $S(G, \mathcal{U})$ are the open subgroups in $\mathcal{U}$, and the morphisms $H \to K$ are the left cosets $a K$ such that $H \subseteq a K a^{-1}$, and all non-empty sieves are covering.
@@ -194,32 +201,48 @@ To be included.
 ### As a classifying topos
 To be included.
 
-## Internal group actions
+## For internal group actions
+ {#InternalGroupActions}
 
-The same construction works for an internal group in an arbitrary topos, and the resulting category is also a topos, by the same proof. In this case, for a group $G$ in a topos $\mathcal{E}$, we write the resulting topos as $G\mathcal{E}$.
+The above construction of the category $G Set$ -- of [[G-sets]] for a [[discrete group]] $G$ in the [[topos]] [[Set]] of [[sets]] -- generalizes to [[group objects]] $G \in Groups(\mathcal{E})$ in any [[topos]] $\mathcal{E}$:
 
-A particular interesting case is when we consider an internal group in the topos $G Set$. For $G$ a discrete group, an internal group in $G Set$ is a group $H$ with a homomorphism $G \to \Aut(H)$. This allows us to form the [[semidirect product group|semidirect product]] $H \rtimes G$.
+The resulting category $G\mathcal{E}$ -- of [[objects]] of $\mathcal{E}$ equipped with [[internalization|internal]] $G$-[[action]] and with $G$-[[equivariant function|equivariant]] [[morphisms]] between them -- is itself a [[topos]], by the same proof as above Thm \ref{GSetsIsAnElementaryTopos}. 
+
+A particularly interesting case of this is an [[internal group]] $H$ in the topos $G Set$ itself, for $G$ a [[discrete group]]: Seen externally this is equivalently a discrete group $H$ equipped with a [[group homomorphism]] $G \to \Aut(H)$ to the [[automorphism group]] of $H$. Notice that this data induces the corresponding [[semidirect product group|semidirect product]] $H \rtimes G$. With that, we have:
 
 +-- {: .num_prop}
 ###### Proposition
-Let $G$ be a discrete group, and let $H$ be a group object in $G Set$. Then the category $H (G Set)$ is [[equivalence of categories|equivalent]] to $(H \rtimes G) Set$. 
+
+Let $G$ be a [[discrete group]], and let $H$ be a [[group object]] in $G Set$. Then the category $H (G Set)$ is [[equivalence of categories|equivalent]] to $(H \rtimes G) Set$. 
+
 =--
 
 +-- {: .proof}
 ###### Proof sketch
-This is a straightforward computation. Given an $X \in H (G Set)$, we write $\mu: H \times X \to X$ for the action map, and the action of $G$ merely by a dot. Then we define the action of $H \rtimes G$ is given by
+
+This is a straightforward computation. Given an $X \in H (G Set)$, we write $\mu \colon H \times X \to X$ for the [[action]] morphism, and denote the action of $G$ merely by a dot. Then we define the action of $H \rtimes G$ by
+
 $$
-  ((h, g), x) \mapsto \mu(h, g \cdot x).
+  ((h, g), x) \mapsto \mu(h, g \cdot x)
+  \,.
 $$
+
 Conversely, given an object $X$ with an $H \rtimes G$ action, we give it a $G$ action by $g \cdot x = (e, g) \cdot x$, and an $H$-action by $\mu(h, x) = (h, e) \cdot x$.
+
 =--
 
-The case of topological groups is more complicated, because an internal topology $T$ on a space $X$ is an internally complete lattice $T \subseteq P(X)$, which is not necessarily closed under infinite external unions. However if we do the rather unnatural (?) thing of closing it under all external unions, then we make $X$ an external topological space. Then we have the following result:
+The case of [[topological groups]] is more complicated, because an internal topology $T$ on a space $X$ is an internally complete lattice $T \subseteq P(X)$, which is not necessarily closed under infinite external unions. However if we do the rather unnatural (?) thing of closing it under all external unions, then we make $X$ an external topological space. Then we have the following result:
+
 +-- {: .num_prop}
 ###### Proposition
-Let $G$ be a topological group, and let $H$ be a topological group object in $G Set$. Then $H (G Set)$ is equivalent to $(H \rtimes G) Set$, where $H \rtimes G$ is given the product topology.
+
+Let $G$ be a [[topological group]], and let $H$ be a topological group object in $G Set$. Then $H (G Set)$ is equivalent to $(H \rtimes G) Set$, where $H \rtimes G$ is given the product topology.
+
 =--
-Proof is a straightforward check that the continuity conditions match up.
+
+The **proof** is a straightforward check that the continuity conditions match up.
+
+See also at _[[equivariant bundle]]_.
 
 ## Related concepts
 
@@ -243,13 +266,19 @@ The formal correspondence between permutation models of [[ZFA]] and toposes of c
 
 * [[Michael Fourman]], _Sheaf models for set theory_, Journal of Pure and Applied Algebra, **19** (1980) pp 91-101, doi:[10.1016/0022-4049(80)90096-1](http://dx.doi.org/10.1016/0022-4049%2880%2990096-1), ([publisher pdf](http://www.sciencedirect.com/science/article/pii/0022404980900961/pdf?md5=0de18da810657bf1ba9de7399d224ec5&pid=1-s2.0-0022404980900961-main.pdf))
 
+
+
 [[!redirects category of G sets]]
 [[!redirects category of G set]]
 [[!redirects category of G-set]]
+[[!redirects category-of-G-sets]]
+
 [[!redirects categories of G-sets]]
 [[!redirects categories of G sets]]
 [[!redirects categories of G-set]]
 [[!redirects categories of G set]]
+
+
 [[!redirects category of continuous G sets]]
 [[!redirects category of continuous G-sets]]
 [[!redirects category of continuous G set]]
