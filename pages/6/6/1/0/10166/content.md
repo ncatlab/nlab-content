@@ -38,6 +38,8 @@ For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a _$G$-equiva
 
 * [[equivariant K-theory]]
 
+* [[twisted bundle]]
+
 ## References
 
 On [[equivariant principal bundles]] and their [[classifying spaces]]:
