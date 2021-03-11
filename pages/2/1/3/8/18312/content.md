@@ -276,6 +276,9 @@ Moreover, since the projection map is the [[quotient space]] projection from thi
 
 * [[fundamental product theorem in topological K-theory]]
 
+* [[projective unitary group]]
+
+* [[twisted K-theory]], [[twisted equivariant K-theory]]
 
 ## References
 
