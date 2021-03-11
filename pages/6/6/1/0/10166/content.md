@@ -32,19 +32,27 @@ For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a _$G$-equiva
 
 ## Related concepts
 
+* [[twisted bundle]]
+
+* [[equivariant differential topology]]
+
 * [[equivariant cohomology]]
 
 * [[equivariant connection]]
 
 * [[equivariant K-theory]]
 
-* [[twisted bundle]]
+
 
 ## References
 
 ### General
 
-On equivariant [[fiber bundles]]:
+On general equivariant [[fiber bundles]]/[[principal bundles]]:
+
+* [[Tammo tom Dieck]], _Faserb&uuml;ndel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
+
+  > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
 
 * [[Richard Lashof]], _Equivariant bundles_, Illinois J. Math. 26(2): 257-271, 1982 ([doi:10.1215/ijm/1256046796.full](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-26/issue-2/Equivariant-bundles/10.1215/ijm/1256046796.full))
 
@@ -54,9 +62,23 @@ On equivariant [[fiber bundles]]:
 
   > (for [[structure group]] [[group extension|extending]] the [[equivariance group]])
 
+
+* [[Andrzej Kozlowski]], _Equivariant Bundles and Cohomology_, Transactions of the American Mathematical Society
+Vol. 296, No. 1 (Jul., 1986), pp. 181-190 ([jstor:2000568](https://www.jstor.org/stable/2000568))
+
+  > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
+
 On [[equivariant principal bundles]] and their [[classifying spaces]]:
+ 
+* [[Peter May]], _Some remarks on equivariant bundles and classifying spaces_, Théorie de l'homotopie, Astérisque, no. 191 (1990), 15 p. ([numdam:AST_1990__191__239_0](http://www.numdam.org/item/?id=AST_1990__191__239_0))
+
+  > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
+
 
 * {#UribeLueck14} [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
+
+
+  > (back to [[structure group]] commuting with the [[equivariance group]])
 
 ### For twisted equivariant K-theory
 
