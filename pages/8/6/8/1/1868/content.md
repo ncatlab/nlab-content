@@ -387,6 +387,8 @@ $$
 
 * [[twisted ∞-bundle]]
 
+* [[equivariant bundle]]
+
 
 ## References
  {#References}
