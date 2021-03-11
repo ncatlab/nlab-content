@@ -25,4 +25,13 @@ On [[microbundles]]:
 
 * [[N. H. Kuiper]] and [[Richard Lashof|R. K. Lashof]], _Microbundles and Bundles II. Semisimplicial Theory_, Invent. Math., 1, (1966), 243 – 259.
 
+On [[equivariant bundles]] (equivariant [[fiber bundles]]):
+
+* [[Richard Lashof]], _Equivariant bundles_, Illinois J. Math. 26(2): 257-271 ([doi:10.1215/ijm/1256046796.full](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-26/issue-2/Equivariant-bundles/10.1215/ijm/1256046796.full))
+
+* [[Richard Lashof]], [[Peter May]], _Generalized equivariant bundles_, Bull. Soc. Math. Belg. Sér. A 38, 265-271, 1986 ([pdf](http://math.uchicago.edu/~may/PAPERS/55.pdf), [[LashofMayGeneralizedEquivariantBundles.pdf:file]])
+
+
+
+
 category: people
