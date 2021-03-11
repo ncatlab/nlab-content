@@ -1,5 +1,3 @@
-[[!redirects coherent quantum state]]
-[[!redirects coherent quantum state]]
 
 #Contents#
 * table of contents
@@ -30,9 +28,16 @@ The basic example of the space $X$ is the homogeneous space $G^{\mathbb {C}}/B =
 
 * [[quasi-free quantum state]]
 
+* [[coherent state (in geometric quantization)]], 
+
+* [[Hall coherent state]]
+
+* [[Berezin quantization]]
+
+* [[wavelet]], [[curvelet]]
+
 ## References
 
-Related entries: [[coherent state (in geometric quantization)]], [[Hall coherent state]], [[Berezin quantization]], [[wavelet]], [[curvelet]]
 
 * A. M. Perelomov, [Coherent states for arbitrary Lie groups](http://projecteuclid.org/euclid.cmp/1103858078),
 Comm. Math. Phys., 26 (1972), pp. 222--236; archived as [arXiv:math-ph/0203002](http://arxiv.org/abs/math-ph/0203002).
@@ -70,4 +75,10 @@ counterparts_, J. Math. Phys. __36__ (1995), pp. 2030--2052.
 
 * N. Aizawa, R. Chakrabarti, _Coherent state on $SU_q(2)$ homogeneous space_, J. Phys. A __42__:29 [arXiv:0905.0194](http://arxiv.org/abs/0905.0194).
 
+[[!redirects coherent states]]
+
+[[!redirects coherent quantum state]]
 [[!redirects coherent quantum states]]
+
+
+
