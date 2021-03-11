@@ -1,17 +1,18 @@
+[[!redirects Mal&#39;cev variety]]
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ##Definition 
 
-A __Mal'cev operation__ on a [[set]] $X$ is a ternary operation, a [[function]]
+A __Malcev operation__ on a [[set]] $X$ is a ternary operation, a [[function]]
 
 $$ t:X\times X\times X\to X,\,\,\,(x,y,z)\mapsto t(x,y,z) ,$$
 
 which satisfies the identities $t(x,x,z)=z$ and $t(x,z,z)=x$.
 An important motivating example is the operation $t$ of a [[heap]], for example the operation on a [[group]] defined by $t(x, y, z) = x y^{-1} z$. 
 
-An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev operation. An algebraic theory is Mal'cev iff one of the following equivalent statements is true:
+An [[algebraic theory]] $T$ is a __Malcev theory__ when $T$ contains a Malcev operation. An algebraic theory is Malcev iff one of the following equivalent statements is true:
 
 1. in the category of $T$-algebras, every [[internal relation|internal]] [[reflexive relation]] is a [[congruence]];
 
@@ -19,9 +20,9 @@ An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev 
 
 3. in the category of $T$-algebras, the composition of equivalence relations is commutative.
 
-Statement (1) is one of the motivations to introduce the notion of [[Mal'cev category]]. 
+Statement (1) is one of the motivations to introduce the notion of [[Malcev category]]. 
 
-A __Mal'cev variety__ is the category of $T$-algebras for a Mal'cev theory $T$, thought of as a [[variety of algebras]]. 
+A __Malcev variety__ is the category of $T$-algebras for a Malcev theory $T$, thought of as a [[variety of algebras]]. 
 
 ## Proofs of equivalence 
 
@@ -31,12 +32,12 @@ The set-theoretic composite of two internal relations in $T$-$Alg$ is also an in
 
 +-- {: .un_prop}
 ######Proposition 1
-If $T$ is a Mal'cev theory, then any internal reflexive relation in $T$-$Alg$ is an internal equivalence relation. 
+If $T$ is a Malcev theory, then any internal reflexive relation in $T$-$Alg$ is an internal equivalence relation. 
 =--
 
 +-- {: .proof}
 ######Proof
-If $t$ is a Mal'cev operation and $R$ is any internal reflexive relation on a $T$-algebra $X$, then $R$ is transitive because given $R(x, y) \wedge R(y, z)$, we infer $R(x, y) \wedge R(y, y) \wedge R(y, z)$, and this together with $t(x, y, y) = x$ and $t(y, y, z) = z$ gives $R(x, z)$ since $R$ is internal. Also $R$ is symmetric, because if $R(x, y)$, we infer $R(x, x) \wedge R(x, y) \wedge R(y, y)$, which together with $t(x, x, y) = y$ and $t(x, y, y) = x$ gives $R(y, x)$. 
+If $t$ is a Malcev operation and $R$ is any internal reflexive relation on a $T$-algebra $X$, then $R$ is transitive because given $R(x, y) \wedge R(y, z)$, we infer $R(x, y) \wedge R(y, y) \wedge R(y, z)$, and this together with $t(x, y, y) = x$ and $t(y, y, z) = z$ gives $R(x, z)$ since $R$ is internal. Also $R$ is symmetric, because if $R(x, y)$, we infer $R(x, x) \wedge R(x, y) \wedge R(y, y)$, which together with $t(x, x, y) = y$ and $t(x, y, y) = x$ gives $R(y, x)$. 
 =-- 
 
 +-- {: .un_prop}
@@ -64,14 +65,14 @@ as desired.
 
 +-- {: .un_prop}
 ######Proposition 4
-If composition of internal equivalence relations in $T$-$Alg$ is commutative, then the theory $T$ has a Mal'cev operation $t$. 
+If composition of internal equivalence relations in $T$-$Alg$ is commutative, then the theory $T$ has a Malcev operation $t$. 
 =--
 
 +-- {: .proof} 
 ######Proof
 According to the yoga of (Lawvere) [[Lawvere theory|algebraic theories]], $n$-ary operations are identified with elements of $F(n)$, the free $T$-algebra on $n$ generators (more precisely, the Lawvere theory is the category opposite to the category of finitely generated free $T$-algebras). Thus we must exhibit a suitable element $t$ of $F(3)$. 
 
-Let $x, y, z$ be the generators of $F(3)$, and let $a, b$ be the generators of $F(2)$. Let $\phi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ and $y$ to $a$ and $z$ to $b$, and let $\psi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ to $a$ and $y$ and $z$ to $b$. An operation $t \in F(3)$ is Mal'cev precisely when 
+Let $x, y, z$ be the generators of $F(3)$, and let $a, b$ be the generators of $F(2)$. Let $\phi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ and $y$ to $a$ and $z$ to $b$, and let $\psi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ to $a$ and $y$ and $z$ to $b$. An operation $t \in F(3)$ is Malcev precisely when 
 
 $$\phi(t) = b \qquad \psi(t) = a$$ 
 
@@ -80,15 +81,15 @@ Let $R$ be the equivalence relation on $F(3)$ given by the kernel pair of $\phi$
 
 ## Examples 
 
-* The theory of [[group]]s, where $t(x, y, z) = x y^{-1} z$, is Mal'cev. 
+* The theory of [[group]]s, where $t(x, y, z) = x y^{-1} z$, is Malcev. 
 
 * The theory of [[Heyting algebra]]s, where 
 $$t(x, y, z) = ((z \Rightarrow y) \Rightarrow x) \wedge ((x \Rightarrow y) \Rightarrow z),$$
-is Mal'cev. 
+is Malcev. 
 
-* If $T$ is Mal'cev, and if $T \to T'$ is a morphism of algebraic theories, then $T'$ is Mal'cev. From this point of view, the theory of groups is Mal'cev because the theory of heaps is Mal'cev, and the theory of Heyting algebras is Mal'cev because the theory of [[cartesian closed category|cartesian closed]] [[meet-semilattice]]s is Mal'cev. 
+* If $T$ is Malcev, and if $T \to T'$ is a morphism of algebraic theories, then $T'$ is Malcev. From this point of view, the theory of groups is Malcev because the theory of heaps is Malcev, and the theory of Heyting algebras is Malcev because the theory of [[cartesian closed category|cartesian closed]] [[meet-semilattice]]s is Malcev. 
 
-See also [[Mal'cev category]]. 
+See also [[Malcev category]]. 
 
 ## The lattice of congruences $Equiv(X)$
 
@@ -128,12 +129,12 @@ and also $S \vee (R \wedge T) \subseteq R \wedge (S \vee T)$. Thus $S \subseteq 
 
 +-- {: .un_cor}
 ######Corollary
-If $T$ is a Mal'cev theory, then the lattice of congruences $Equiv(X)$ on any $T$-algebra $X$ is a modular lattice. 
+If $T$ is a Malcev theory, then the lattice of congruences $Equiv(X)$ on any $T$-algebra $X$ is a modular lattice. 
 =--
 
 ### $Equiv(X)$ is a Desarguesian lattice 
 
-A similar argument shows that congruence lattices for $T$-algebras $X$, for $T$ a Mal'cev theory, satisfy the following property (stronger than the modular property):
+A similar argument shows that congruence lattices for $T$-algebras $X$, for $T$ a Malcev theory, satisfy the following property (stronger than the modular property):
 
 * [[Desarguesian axiom|Desarguesian property]]: if $R_i, S_i, T_i \in Equiv(X)$ for $i = 1, 2$, then
 $$(R_1 \vee R_2) \wedge (S_1 \vee S_2)) \subseteq T_1 \vee T_2 \qquad implies \qquad (R_1 \vee S_1) \wedge (R_2 \vee S_2) \subseteq ((R_1 \vee T_1) \wedge (R_2 \vee T_2)) \vee ((S_1 \vee T_1) \wedge (S_2 \vee T_2))$$ 
@@ -151,7 +152,8 @@ See the monograph [[Borceux-Bourn]].
 
 ## Spelling
 
-The original is '&#1052;&#1072;&#1083;&#1100;&#1094;&#1077;&#1074;'; besides 'Mal&#697;cev', this has also been transliterated 'Malcev' and 'Maltsev'.
+The original is 'Мальцев'; Malcev spelled his name as 'Malcev' in his non-Russian papers.
+This has also been transliterated 'Mal'cev', 'Mal'tsev' and 'Maltsev'.
 
 
 [[!redirects Mal'cev varieties]]
