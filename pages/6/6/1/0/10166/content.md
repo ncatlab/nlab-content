@@ -25,13 +25,19 @@ Generally, for $G$ some [[group]], a _$G$-equivariant bundle_ is a [[bundle]], s
 
 In short, this should mean that $G$-equivariant (fiber-, principal-,...) bundles are (fiber-, principal, ...) bundles _[[internalization|internal]]_ to a [[category]] of [[G-spaces]] (e.g. [[topological G-spaces]], [[G-manifolds]] but also [[G-sets]] etc.). 
 
-While the existing literature does not state the definition of equivariant bundles via [[internalization]], one sees that the explicit definition in [tom Dieck 69](#tomDieck69) (for the case of [[principal bundles]]) is the equivalent external description, _including_, that is, an [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ -- together with the respective compatibility conditions, which equivalently say (as highlighted e.g. in [Murayama-Shimakawa 95, below 1.1](#MurayamaShimakawa95), see the discussion [here](category+of+G-sets#InternalGroupActions)) that the joint action is that of the [[semidirect product group]] $\mathcal{G} \rtimes G$.
+While the existing literature does not state the definition of equivariant bundles via [[internalization]], one sees that the explicit definition in [tom Dieck 69](#tomDieck69) (for the case of [[principal bundles]]) is the equivalent external description, _including_, thereby, an [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ -- together with the respective compatibility conditions, which equivalently say (as highlighted e.g. in [Murayama-Shimakawa 95, below 1.1](#MurayamaShimakawa95), see the discussion [here](category+of+G-sets#InternalGroupActions)) that the joint action is that of the [[semidirect product group]] $\mathcal{G} \rtimes G$.
 
-Beware that this action of the [[equivariance group]] on the [[structure group]] of an [[equivariant principal bundle]] is often and traditionally disregarded, i.e. implicitly taken to be the [[trivial action]] (e.g. [Lashof 82](#Lashof82), [Lashof-May-Segal 83](#LashofMaySegal83)), which equivalently means that the [[semidirect product group]] that acts is reduced to the [[direct product group]] $\mathcal{G} \times G$, meaning that the [[action]] of the [[equivariance group]] _commutes_ with that of the [[structure group]]. This is the default meaning of _equivariant bundle_ in most of the literature.
+Beware that this [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ of an [[equivariant principal bundle]] is often and traditionally disregarded, i.e. implicitly taken to be the [[trivial action]] (e.g. [Lashof 82](#Lashof82), [Lashof-May-Segal 83](#LashofMaySegal83)), which equivalently means that the [[semidirect product group]] that acts is reduced to the [[direct product group]] $\mathcal{G} \times G$, meaning that the [[action]] of the [[equivariance group]] _commutes_ with that of the [[structure group]]. This special case is the default meaning of _equivariant bundle_ in much of the literature!
  
-(The definition of "generalized equivariant bundles" proposed in [Lashof-May 86](#LashofMay86) allows any [[group extension]] of $G$ by $\mathcal{G}$ to act. This reduces to [[semidirect products]] $\mathcal{G} \rtimes G$ for [[split sequence|split extensions]] (see [there](group+extension#SplitExtensionsAndSemidirectProductGroups)) where $\mathcal{G}$ is a [[normal subgroup]], and that is the case that [May 90](#May90) eventuAKKY falls back to, apparently still independently of [tom Dieck 69](#tomDieck69)).
+(The definition of "generalized equivariant bundles" proposed in [Lashof-May 86](#LashofMay86) allows any [[group extension]] of $G$ by $\mathcal{G}$ to act. This reduces to [[semidirect products]] $\mathcal{G} \rtimes G$ for [[split sequence|split extensions]] (see [there](group+extension#SplitExtensionsAndSemidirectProductGroups)) where $\mathcal{G}$ is a [[normal subgroup]], and that is the case that [May 90](#May90) eventually falls back to, apparently still independently of [tom Dieck 69](#tomDieck69); but see [Guillou-May-Merling 17](#GuillouMayMerling17)).
 
-Much of the literature on equivariant bundles is interested in them as [[twisted cohomology|twists]] for [[twisted equivariant cohomology theories]], and here most of the existing literature focuses on [[twisted equivariant K-theory]] and specifically on its equivariant degree-3 twist by equivariant [[projective bundles]] (e.g. [Barcenas-Espinoza-Joachim-Uribe 12](#BarcenasEspinozaJoachimUribe12),  [Uribe-Lück 14, Sec. 15](#UribeLueck14)).
+Much of the literature on equivariant bundles is interested 
+
+* in [[equivariant vector bundles]] regarded as representing [[cocycles]] for [[equivariant K-theory]] ([Segal 68, Sec 1](#Segal68), [Wasserman 69, Sec. 2](#Wasserman69));
+
+and/or
+
+* as [[twisted cohomology|twists]] for [[twisted equivariant cohomology theories]], and here most of the existing literature focuses on [[twisted equivariant K-theory]] and specifically on its equivariant degree-3 twist by equivariant [[projective bundles]] (e.g. [Barcenas-Espinoza-Joachim-Uribe 12](#BarcenasEspinozaJoachimUribe12),  [Uribe-Lück 14, Sec. 15](#UribeLueck14)).
 
 
 ## Examples
@@ -58,11 +64,15 @@ Much of the literature on equivariant bundles is interested in them as [[twisted
 
 ### General
 
-On general equivariant [[fiber bundles]]/[[principal bundles]]:
+On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 
 * {#tomDieck69} [[Tammo tom Dieck]], _Faserb&uuml;ndel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
+
+* [[Edward Bierstone]], _The equivariant covering homotopy property for differentiable $G$-fibre bundles_, J. Differential Geom. 8(4): 615-622 (1973) ([doi:10.4310/jdg/1214431963](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-8/issue-4/The-equivariant-covering-homotopy-property-for-differentiable-G-fibre-bundles/10.4310/jdg/1214431963.full))
+
+  > (for [[structure group]] commuting with the [[equivariance group]], but with [[equivariant differential topology|differentiable structure]])
 
 * {#Lashof82} [[Richard Lashof]], _Equivariant bundles_, Illinois J. Math. 26(2): 257-271, 1982 ([doi:10.1215/ijm/1256046796.full](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-26/issue-2/Equivariant-bundles/10.1215/ijm/1256046796.full))
 
@@ -82,7 +92,7 @@ With [[abelian group|abelian]] [[structure group]]:
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
 
-On [[equivariant principal bundles]] and their [[classifying spaces]]/[[universal principal bundles]]:
+More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[universal principal bundles]]:
  
 * {#May90} [[Peter May]], _Some remarks on equivariant bundles and classifying spaces_, Théorie de l'homotopie, Astérisque, no. 191 (1990), 15 p. ([numdam:AST_1990__191__239_0](http://www.numdam.org/item/?id=AST_1990__191__239_0))
 
@@ -94,12 +104,28 @@ On [[equivariant principal bundles]] and their [[classifying spaces]]/[[universa
 
 * {#UribeLueck14} [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
-
   > (back to [[structure group]] commuting with the [[equivariance group]])
 
-### For twisted equivariant K-theory
+* {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]] _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565)) 
 
-Specifically on equivariant pricipal bundles with [[structure group]] the [[projective unitary group]], hence providing twists for [[twisted equivariant K-theory]]:
+### Equivariant vector bundles
+
+On equivariant [[vector bundles]]:
+
+In the context of [[equivariant K-theory]]:
+
+* {#Segal68} [[Graeme Segal]], Section 1 of: _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 ([numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0))
+
+In a context of [[equivariant differential topology]]:
+
+* {#Wasserman69} [[Arthur Wasserman]], section 2 of: _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 (<a href="https://doi.org/10.1016/0040-9383(69)90005-6">doi:10.1016/0040-9383(69)90005-6</a>[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
+
+
+
+
+### As twists for twisted equivariant K-theory
+
+On equivariant pricipal bundles with [[structure group]] the [[projective unitary group]], hence providing twists for [[twisted equivariant K-theory]]:
 
 
 * {#BarcenasEspinozaJoachimUribe12} Noe Barcenas, Jesus Espinoza, [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_ ([doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061), [arXiv:1202.1880](https://arxiv.org/abs/1202.1880))
@@ -109,12 +135,18 @@ Specifically on equivariant pricipal bundles with [[structure group]] the [[proj
 
 ### For equivariant elliptic cohomology
 
-
 In a context of [[equivariant elliptic cohomology]]:
 
 * [[Matthew Ando]], [[John Greenlees]], Part I of: _Circle-equivariant classifying spaces and the rational equivariant sigma genus_, Math. Z. 269, 1021–1104 (2011) ([arXiv:0705.2687](https://arxiv.org/abs/0705.2687), [doi:10.1007/s00209-010-0773-7](https://doi.org/10.1007/s00209-010-0773-7))
 
 
+### For gauge theory on orbifolds
+
+The general notion of equivariant bundles from [tom Dieck 69](#tomDieck69) (with [[action]] of the [[semidirect product]] of the [[gauge group]] with the [[equivariance group]]) gets a brief mentioning in 
+
+* {#Horava96} [[Petr Hořava]], Section 5.3 of: _Chern-Simons Gauge Theory on Orbifolds: Open Strings from Three Dimensions_, J. Geom. Phys. 21:1-33, 1996 ([arXiv:hep-th/9404101](https://arxiv.org/abs/hep-th/9404101))
+
+in a context of [[Chern-Simons theory]] on [[orbifolds]].
 
 
 [[!redirects equivariant bundles]]
