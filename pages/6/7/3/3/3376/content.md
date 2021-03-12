@@ -9,6 +9,12 @@ On [[classifying spaces]]/[[universal principal bundles]] for [[equivariant prin
 * {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]] _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565)) 
 
 
+On [[equivariant homotopy theory]] and [[Elmendorf's theorem]] via [[enriched model categories]]:
+
+* {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [arXiv:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
+
+
+
 ## Related $n$Lab entries
 
 * [[equivariant homotopy theory]], [[equivariant stable homotopy theory]]
