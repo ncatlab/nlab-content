@@ -26,7 +26,7 @@
 
 _Elmendorf's theorem_ states that for $G$ a [[topological group]], the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the classical $G$-[[equivariant homotopy theory]], namely the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] ([[G-spaces]]) at the _[[weak homotopy equivalences]] on all [[fixed point spaces]]_ of [[closed subset|closed]] [[subgroups]].
 
-This is due, in various stages of refinement (see Remark \ref{AssumptionsAndRefinementsInTheLiterature} below) to [Elmendorf 83](#Elmendorf83), [Cordier-Porter 96, Thm. 3.11](#CordierPorter96) [Guillou 06, Prop. 3.15](#Guillou06), [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8 & 5.6](#GuillouMayRubin13).
+This is due to [Elmendorf 83](#Elmendorf83) and [Dwyer-Kan 84, Sec. 1.2, 1.7 & Thm. 3.1](#DwyerKan84); with alternative proofs in various stages of refinement (see Remark \ref{AssumptionsAndRefinementsInTheLiterature} below) given by [Piacenza 91, Sec. 6](#Piacenza91), [May 96, Sec. V.3](#May96), [Cordier-Porter 96, Thm. 3.11](#CordierPorter96), [Guillou 06, Prop. 3.15](#Guillou06), [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8 & 5.6](#GuillouMayRubin13).
 
 In particular this means that the $G$-[[equivariant homotopy theory]], thus identified with an [[(∞,1)-category of (∞,1)-presheaves]], is an [[(∞,1)-topos]] and in fact (since $Orb_G$ has [[finite products]]) a [[cohesive (∞,1)-topos]]; a point expanded on in [Rezk 14](#Rezk14), [Sati-Schreiber 20](#SatiSchreiber20) (for more on this see at _[[orbifold cohomology]]_).
 
@@ -63,16 +63,15 @@ $$
 \begin{remark}\label{AssumptionsAndRefinementsInTheLiterature}
 (**survey of available proofs.**)
 
-This is stated in [Elmendorf 83](#Elmendorf83) as an [[equivalence of categories|equivalence]] of [[homotopy categories]] and refined in [Cordier-Porter 96, Thm. 3.11](#CordierPorter96), [Guillou 06, Prop. 3.15](#Guillou06) to a ([[simplicial Quillen adjunction|simplicial]]) [[Quillen equivalence]] of [[presentable (infinity,1)-category|presenting]] [[model categories]].
+Elmendorf's theorem is stated in [Elmendorf 83](#Elmendorf83) as an [[equivalence of categories|equivalence]] of [[homotopy categories]]; and is enhanced in [Dwyer-Kan 84, Sec. 1.2, 1.7 & Thm. 3.1](#DwyerKan84) to a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] of [[model categories]] [[presentable (infinity,1)-category|presenting]] (in hindsight) the [[equivalence of (∞,1)-categories]] stated above.
 
-Notice that [Elmendorf 83](#Elmendorf83) assumes $G$ to be a [[compact Lie group]], while [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) showed that the equivalence of [[homotopy categories]] works even for any [[topological group]].
+Moreover, while [Elmendorf 83](#Elmendorf83) assumes $G$ to be a [[compact Lie group]], [Dwyer-Kan 84](#DwyerKan84) allow $G$ to be *any* [[topological group]].
 
-However, [Guillou 06](#Guillou06) assumes $G$ to be a [[finite group]] and [Cordier-Porter 96](#CordierPorter96), [Guillou-May-Rubin 13](#GuillouMayRubin13) assume it to be [[discrete group]] in order to get an actual [[Quillen equivalence]] (either on topological spaces [Guillou 06, Prop. 3.15](#Guillou06), or on simplicial sets [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13) and on topological spaces but simplicially enriched [Cordier-Porter 96](#CordierPorter96)).
+Later [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) re-prove the equivalence of [[homotopy categories]] for $G$ any [[topological group]]; while [Cordier-Porter 96, Thm. 3.11](#CordierPorter96) and [Guillou 06, Prop. 3.15](#Guillou06) re-prove a ([[simplicial Quillen adjunction|simplicial]]) [[Quillen equivalence]] assuming $G$ to be a [[discrete group]] or even [[finite group]], respectively, and [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8](#GuillouMayRubin13) re-prove the Quillen equivalence for $G$ again any topological group.
 
-While [Stephan 13](#Stephan13) claims that [Piacenza 91](#Piacenza91) also gives a [[Quillen equivalence]], this is not what [Piacenza 91, Thm. 6.3](#Piacenza91) actually states. (What is stated is the main step in checking that the [[derived adjunction]] is an equivalence.)
+([Stephan 13](#Stephan13) credits [Piacenza 91](#Piacenza91) with proving a [[Quillen equivalence]], but this is not what [Piacenza 91, Thm. 6.3](#Piacenza91) actually states, though the conclusion follows with hindsight.)
 
-The statement of a Quillen equivalence for $G$ *any* [[topological group]] is in [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8](#GuillouMayRubin13).
-
+These results are all based on the [[classical model structure on topological spaces]].  The analogous Quillen equivalence based on the [[classical model structure on simplicial sets]] is proven in [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13), assuming $G$ to be a [[discrete group]].
 \end{remark}
 
 
@@ -214,11 +213,11 @@ Generalization of [Elmendorf 83](#Elmendorf83) to more general topological group
 
 * {#May96} [[Peter May]] et al., Section V.3 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics Volume: 91; 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
 
-Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[enriched adjunction]] at least close to a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] is in
+Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[enriched adjunction]] and/or to a [[Quillen equivalence]] of [[model categories]] based on the [[classical model structure on topological spaces]] and/or the [[classical model structure on simplicial sets]]:
+
+* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], Section 2 of: _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
 
 * {#CordierPorter96} [[Jean-Marc Cordier]], [[Timothy Porter]], Thm. 3.11 of: _Categorical Aspects of Equivariant Homotopy_, Applied Cat. Structures, **4** (1996) 195 - 212 ([doi:10.1007/BF00122252](https://doi.org/10.1007/BF00122252)) (Proceedings of the European Colloquium of Category Theory, 1994)
-
-and explicit enhancement to a [[Quillen equivalence]] of [[model categories]] based on the [[classical model structure on topological spaces]] and/or the [[classical model structure on simplicial sets]]:
 
 * {#Guillou06} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouEquivariantHomotopy.pdf:file]])
 
@@ -232,9 +231,7 @@ and explicit enhancement to a [[Quillen equivalence]] of [[model categories]] ba
 
 * {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Sections 1 and 5.2 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [arXiv:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
 
-A more general class of Quillen equivalences of which these model-category theoretic enhancements of Elmendorf's theorem turn out to be special cases are discussed in
-
-* [[William Dwyer]], [[Daniel Kan]], Section 2 of: _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
+More on the approach of [Dwyer-Kan 84](#DwyerKan84):
 
 * [[Emmanuel Dror Farjoun]], Prop. 1.3 in: _Homotopy Theories for Diagrams of Spaces_, Proceedings of the AMS, Vol. 101, No. 1 (Sep., 1987), pp. 181-189 ([jstor:2046572 ](https://www.jstor.org/stable/2046572 ))
 
