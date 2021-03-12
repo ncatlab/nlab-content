@@ -140,7 +140,7 @@ See ([Par&#233;-Rosick&#253;](#Par&#233;Rosick&#253;)).
 ###### Proposition 
 **(adjoint functors)**
 
-Every accessible functor satisfies the [[solution set condition]], and every left or right adjoint between accessible categories is accessible.  Therefore, the [[adjoint functor theorem]] takes an especially pleasing form for accessible categories that are complete and cocomplete (i.e. are [[locally presentable categories|locally presentable]]: a functor between such categories is a left (resp. right) adjoint iff it is accessible and preserves all small colimits (resp. limits).
+Every accessible functor satisfies the [[solution set condition]], and every left or right adjoint between accessible categories is accessible.  Therefore, the [[adjoint functor theorem]] takes an especially pleasing form for accessible categories that are complete and cocomplete (i.e. are [[locally presentable categories|locally presentable]]): a functor between such categories is a left (resp. right) adjoint iff it is accessible and preserves all small colimits (resp. limits).
 
 =--
 
