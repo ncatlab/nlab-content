@@ -283,11 +283,15 @@ An expected relation of orbifolds ([[orbispaces]]) to [[global equivariant homot
 ### As diffeological spaces
   {#ReferencesAsDiffeologicalSpaces}
 
-Discussion of orbifolds regarded as naive local quotient [[diffeological spaces]]:
+On [[orbifolds]] regarded as naive local [[quotient spaces]] (instead of [[homotopy quotients]]/[[Lie groupoids]]/[[differentiable stacks]]) but as such formed in [[diffeological spaces]]:
 
 * {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093))
 
 * {#Watts15} [[Jordan Watts]], _The Differential Structure of an Orbifold_, Rocky Mountain Journal of Mathematics, Vol. 47, No. 1 (2017), pp. 289-327 ([arXiv:1503.01740](https://arxiv.org/abs/1503.01740))
+
+On this approach seen in the broader context of [[higher differential geometry]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
 
 ### Orbifold cobordism
