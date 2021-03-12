@@ -7,7 +7,7 @@ The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [
 |--|--------|---|---|---|---|---|---|---|----|----|
 | 11 | |  |  [[M2-brane|M2]] |  |   | [[M5-brane|M5]] |   |   |   |   | 
 | 10 | [[D0-brane|D0]]  | [[F1-brane|F1]], [[D1-brane|D1]]  | [[D2-brane|D2]]  | [[D3-brane|D3]] | [[D4-brane|D4]]  | [[NS5-brane|NS5]], [[D5-brane|D5]] |  [[D6-brane|D6]]  | [[D7-brane|D7]]  | [[D8-brane|D8]]  | [[D9-brane|D9]]  | 
-| 9 | |   |   |  | $\ast$  |  |   |   |   |   | 
+| 9 | |   |   |  | [[super 4-brane in 9d|*]]  |  |   |   |   |   | 
 | 8 | |   |   | $\ast$ |   |  |   |   |   |   | 
 | 7 | |   | [[topological M2-brane|M2]]${}_{top}$  |  |   |  |   |   |   |   |    
 | 6 | |  [[little string|F1]]${}_{little}$, [[self-dual string|S1]]${}_{sd}$  |  | [[3-brane in 6d|S3]] |   |  |   |   |   |   | 
