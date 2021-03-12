@@ -474,7 +474,7 @@ The [[full subcategory]]-inclusion of [[manifolds with boundaries and corners]] 
 ### For orbifolds
  {#ReferencesForOrbifolds}
 
-On [[orbifolds]] regarded as naive [[quotient spaces]] (instead of [[homotopy quotients]]/[[Lie groupoids]]/[[differentiable stacks]]) but as such formed in [[diffeological spaces]]:
+On [[orbifolds]] regarded as naive local [[quotient spaces]] (instead of [[homotopy quotients]]/[[Lie groupoids]]/[[differentiable stacks]]) but as such formed in [[diffeological spaces]]:
 
 * {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093))
 
