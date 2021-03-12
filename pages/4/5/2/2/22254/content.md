@@ -47,7 +47,7 @@ In the following we refer to this $G$ as the _[[equivariance group]]_.
 \begin{remark}
 (**further conditions on the equivariance group**) \linebreak
 
-For purposes of [[equivariant homotopy theory]] one needs (for instance for [[Elmendorf's theorem]] to hold) the [[topological group|topological]] [[equivariance group]] $G$ in Def. \ref{TopologicalGSpaces} to be that underlying a [[compact Lie group]], such as a [[finite group]]. But for the plain [[point-set topology]] of equivariant bundles, this condition is not necessary.
+For purposes of [[equivariant homotopy theory]] one needs (for instance to guarantee that [[Elmendorf's theorem]] holds) the [[topological group|topological]] [[equivariance group]] $G$ in Def. \ref{TopologicalGSpaces} to be that underlying a [[compact Lie group]], such as a [[finite group]]. But for the plain [[point-set topology]] of equivariant bundles, this condition is not necessary.
 \end{remark}
 
 \begin{defn}\label{EquivariantTopologicalGroup}
