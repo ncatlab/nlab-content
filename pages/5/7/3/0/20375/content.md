@@ -16,6 +16,11 @@ and specifically with relation to the [[quantum geometric Langlands corresponden
 * [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], _Unifying Lattice Models, Links and Quantum Geometric Langlands via Branes in String Theory_ ([arXiv:1910.01134](https://arxiv.org/abs/1910.01134))
 
 
+On regularized [[quantization]] of [[Green-Schwarz sigma-models]] for [[super p-branes]], specifically of the [[super 4-brane in 9d]], in generalization of the [matrix model of the M2-brane](M2-brane#QuantizationViaBFSSMatrixModel):
+
+* [[Meer Ashwinkumar]], [[Lennart Schmidt]], [[Meng-Chwan Tan]], Section 2 of: _Matrix Regularization of Classical Nambu Brackets and Super $p$-Branes_ ([arXiv:2103.06666](https://arxiv.org/abs/2103.06666))
+
+
 ## Related $n$Lab entries
 
 * [[semi-holomorphic 4d Chern-Simons theory]]
