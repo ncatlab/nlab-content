@@ -74,6 +74,8 @@ For instance:
 
 [[!redirects string length scales]]
 
+[[!redirects alpha']]
+
 [[!redirects string scale]]
 [[!redirects string scales]]
 
