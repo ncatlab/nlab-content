@@ -1,4 +1,5 @@
-**Mathematical Reviews** is an indexing service provided by the [American Mathematical Society](http://www.ams.org), giving the publication data of mathematics publications which are most often (but not always) accompanied with a short or a featured review "article" or with the original abstract. Its online version is called **MathSciNet**:
+**Mathematical Reviews** is an indexing service provided by the [American Mathematical Society](http://www.ams.org), giving the publication data of mathematics publications which are most often (but not always) accompanied with a short or a featured review "article" or with the original abstract.
+Its online version is called **MathSciNet**:
 
 * web: [https://mathscinet.ams.org/mathscinet/](https://mathscinet.ams.org/mathscinet/)
 
@@ -23,5 +24,7 @@ This can also provide citations in BibTeX format.  The [MRef](https://mathscinet
 ## See also
 
 * [[Zentralblatt MATH]]
+
+* [[Math-Net.Ru]]
 
 [[!redirects MathSciNet]]
