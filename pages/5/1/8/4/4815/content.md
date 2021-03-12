@@ -265,7 +265,8 @@ Discussion of the experimentally observed tiny cosmological constant and the fol
 
 * Joan Sola, _Cosmological constant and vacuum energy: old and new ideas_, J.Phys.Conf.Ser. 453 (2013) 012015 ([arXiv:1306.1527](https://arxiv.org/abs/1306.1527))
  
-* {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
+* Ioanna Kourkoulou, Alberto Nicolis, Guanhao Sun, _A technical analog of the cosmological constant problem and a solution thereof_ ([arXiv:2101.11620](https://arxiv.org/abs/2101.11620), [talk rec](https://t.co/0jV2L9R79q?amp=1))
+
 
 
 ### In string theory
