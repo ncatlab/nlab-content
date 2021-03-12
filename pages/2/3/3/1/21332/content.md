@@ -4,4 +4,8 @@ The editorial work is done by [[FIZ Karlsruhe]], a nonprofit organization.
 
 ## See also
 
-* [[Mathematical Reviews]]
+* [[Mathematical Reviews]] (alias [[MathSciNet]])
+
+* [[Math-Net.Ru]]
+
+[[!redirects zbMATH]]
