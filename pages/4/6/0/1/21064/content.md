@@ -26,6 +26,9 @@ Review:
 
 * [[Gijs van den Oord]], _On Matrix Regularisation of Supermembranes_, 2006 ([pdf](http://web.science.uu.nl/itf/Teaching/2006/vandenOord.pdf))
 
+* [[Meer Ashwinkumar]], [[Lennart Schmidt]], [[Meng-Chwan Tan]], Section 2 of: _Matrix Regularization of Classical Nambu Brackets and Super $p$-Branes_ ([arXiv:2103.06666](https://arxiv.org/abs/2103.06666))
+
+
 The generalization to [[pp-wave spacetimes]] (leading to the [[BMN matrix model]]):
 
 * {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], Section 2 of: _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
