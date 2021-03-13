@@ -142,6 +142,7 @@ $$
 
 * [[semidirect product Lie algebra]]
 
+* [[equivariant group]]
 
 ## References
 
