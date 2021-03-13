@@ -26,11 +26,11 @@ $$
   W \times (-) \colon \mathcal{C} \to \mathcal{C}
 $$
 
-given by forming the [[Cartesian product]] with $W$
+given by forming the [[Cartesian product]] with $W$.
 
-If here $W$ is equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]] (see _[[writer monad]]_). 
+In the context of [[monad (in computer science)|monads in computer science]] this is called the _writer comonad_. This is the case of interest in [[functional programming]] languages such as [[Haskell]], where a [[program]] for the form $X \longrightarrow W \times Y$ behaves like a program taking input of type $X$ to output of type $Y$ while in addition producing output of type $W$.
 
-In the context of [[monad (in computer science)|monads in computer science]] this is called the _writer monad_. This is the case of interest in [[functional programming]] languages such as [[Haskell]], where a [[program]] for the form $X \longrightarrow W \times Y$ behaves like a program taking input of type $X$ to output of type $Y$ while in addition producing output of type $W$, which is aggregated using the the monoid when the functions are composed, creating a sort of side channel. 
+If here $W$ is equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]], allowing aggregation of a program's $W$ outputs, corresponding to a sort of side channel. (See _[[writer monad]]_.)  
 
 ## Properties
 
