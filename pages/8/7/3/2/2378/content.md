@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -337,6 +338,12 @@ identification on the bottom right mapping space out of the point space.
 
 [[!redirects compact open topology]]
 
+[[!redirects mapping space]]
+[[!redirects mapping spaces]]
+
 [[!redirects space of maps]]
 [[!redirects spaces of maps]]
+
+
+
 
