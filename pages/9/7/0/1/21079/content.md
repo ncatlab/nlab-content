@@ -135,7 +135,7 @@ Let $M$ be a monoid, and let's write it additively. Denote by $T_M$ its _right_ 
  
  Let's now look at the Kleisli composition. If we have processes $k:X\to Y\times M$ and $h:Y\to Z\times M$, then $k\circ_{kl} Y:X\to Z\times M$ is given by
  \begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
-  X \ar{r}{k} & X\times M \ar{r}{h\times \mathrm{id}_M} & X\times M \times M \ar{r}{\mathrm{id}_X\times +} & X\times M \\
+  X \ar{r}{k} & Y\times M \ar{r}{h\times \mathrm{id}_M} & Z\times M \times M \ar{r}{\mathrm{id}_X\times +} & Z\times M \\
   x \ar[mapsto]{r} & (y,m) \ar[mapsto]{r} & (z,n,m) \ar[mapsto]{r} & (z, n+m) .
  \end{tikzcd}
  What it does is as follows:
