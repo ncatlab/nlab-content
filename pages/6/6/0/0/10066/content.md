@@ -524,7 +524,7 @@ Discussion in the context of [[equivariant complex oriented cohomology theory]]:
 
 That $G$-equivariant [[topological K-theory]] is [[representable functor|represented]] by a [[topological G-space]] is due to:
 
-* {#Matumoto71} Takao Matumoto, _Equivariant K-theory and Fredholm operators, J. Fac. Sci. Tokyo 18 (1971/72), 109-112 ([pdf](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_action_common_download&item_id=39826&item_no=1&attribute_id=19&file_no=1), [[MatumotoEquivariantKTheory.pdf:file]])
+* {#Matumoto71} Takao Matumoto, _Equivariant K-theory and Fredholm operators_, J. Fac. Sci. Tokyo 18 (1971/72), 109-112 ([pdf](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_action_common_download&item_id=39826&item_no=1&attribute_id=19&file_no=1), [[MatumotoEquivariantKTheory.pdf:file]])
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Sec. 6 and Corollary A3.2 in:  _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
 
