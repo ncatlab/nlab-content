@@ -813,8 +813,6 @@ A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $
 [[!redirects internal-hom]]
 [[!redirects internal-homs]]
 
-[[!redirects mapping space]]
-[[!redirects mapping spaces]]
 
 [[!redirects exponential law]]
 [[!redirects exponential laws]]
