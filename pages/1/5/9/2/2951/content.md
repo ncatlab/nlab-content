@@ -40,6 +40,10 @@ On [[K-theory of permutative categories]], [[Gamma spaces]] as models for [[conn
 * {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>, [pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
 
+Proving the [[equivariant Whitehead theorem]]:
+
+* {#JamesSegal78}  [[Ioan James]], [[Graeme Segal]], Theorem 1.1 in: _On equivariant homotopy type_, Topology Volume 17, Issue 3, 1978, Pages 267-272 (<a href="https://doi.org/10.1016/0040-9383(78)90030-7">doi:10.1016/0040-9383(78)90030-7</a>)
+
 
 On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
 
@@ -76,7 +80,7 @@ On [[higher U(1)-gauge theory]]:
 
 * [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], _The uncertainty of fluxes_ 	Commun.Math.Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
 
-* [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_ 	AnnalsPhys.322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+* [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_ 	Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
 
 [[!redirects G. Segal]]
