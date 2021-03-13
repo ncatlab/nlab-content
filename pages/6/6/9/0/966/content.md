@@ -159,6 +159,12 @@ The second statement, characterizing when $F$ has a left adjoint, is  ([AdamekRo
 
 The first statement, characterizing when $F$ has a right adjoint, can be proven using the special adjoint functor theorem: by a non-trivial theorem ([AdamekRosicky, theorem 1.58](#AdamekRosicky)), any locally presentable category is co-wellpowered. 
 
+Thus, the first statement can be strengthened by removing the assumption that $D$ is locally presentable: it is enough that $D$ be locally small. For example, if $C$ is locally presentable, then every continuous functor 
+
+$$C^{op} \to Set$$ 
+
+has a left adjoint (is representable), because its opposite $C \to Set^{op}$ is cocontinuous and therefore has a right adjoint, even though $Set^{op}$ is not locally presentable. 
+
 A right adjoint to any cocontinuous functor $F \colon C \to D$ between locally presentable categories can also be constructed directly. If $C$ is locally $\lambda$-presentable and $P_\lambda$ is the subcategory of $\lambda$-small objects, then $C$ is equivalent to the full subcategory of $[P_\lambda^{op},Set]$ of presheaves that preserve $\lambda$-small limits ([AdamekRosicky, theorem 1.46](#AdamekRosicky)). The presheaves in the image of the functor $D \to [P_\lambda^{op},Set]$ defined by $d \mapsto \hom(F-,d)$ preserve $\lambda$-small limits because $F$ is cocontinuous. So this functor factors through the subcategory $C$. The functor $D \to C$ so-constructed is a right adjoint to $F$.
 
 
