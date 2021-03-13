@@ -108,7 +108,7 @@ that is constant on the boundary $Sd^l(\Delta^1\times\partial\Delta^n)$.
 
 ## Equivariant version
 
-In $G$-[[equivariant homotopy theory]] the statement is that $G$-homotopy equivalences between [[G-CW complexes]] are equivalent to maps that are weak homotopy equivalences on [[fixed point]] spaces for all closed subgroups (e.g. [Greenlees-May 95, theorem 2.4](#GreenleesMay95)). See at _[[equivariant Whitehead theorem]]_.
+In $G$-[[equivariant homotopy theory]] the statement is that $G$-homotopy equivalences between [[G-CW complexes]] are equivalent to maps that are weak homotopy equivalences on [[fixed point]] spaces $H^H$ for all [[closed subset|closed]] [[subgroups]] $H \subset G$ (e.g. [Greenlees-May 95, theorem 2.4](#GreenleesMay95)). See at _[[equivariant Whitehead theorem]]_.
 
 ## In general $(\infty,1)$-toposes 
 
