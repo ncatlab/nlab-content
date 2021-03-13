@@ -29,7 +29,9 @@ The term is meant to rhyme on the established terminology of _[[equivariant prin
 
 ## Definition
 
-We discuss  equivariant groups in/as [[topological spaces]], for definiteness and due to their relevance as models in [[equivariant homotopy theory]].  Much of the discussion generalizes, say to [[smooth manifolds]] or general [[toposes]].
+We discuss  equivariant groups in/as [[topological spaces]], for definiteness and due to their relevance as models in [[equivariant homotopy theory]].  All of the discussion generalizes, say to [[smooth manifolds]] or general [[toposes]].
+
+### Preliminaries
 
 \begin{defn}
 (**convenient category of topological spaces**)
@@ -120,6 +122,8 @@ $$
 \end{remark}
 In a [[Cartesian monoidal category]] there is a notion of [[internalization|internal]] [[group objects]]:
 
+### Equivariant groups
+
 \begin{defn}\label{EquivariantTopologicalGroup}
 (**equivariant topological groups**) 
 \linebreak
@@ -200,7 +204,7 @@ $$
 \begin{prop}\label{EquivariantGroupsAsSemidirectProductGroups}
   (**Equivariant groups as semidirect product groups**) 
 \linebreak
-The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) is [[equivalence of categories|equivalent]] to that of [[semidirect product groups]] of the form $(-) \rtimes G$ andregarded as [[pointed objects]] in the [[slice category]] of [[Groups]] over $G$:
+The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) is [[equivalence of categories|equivalent]] to that of [[semidirect product groups]] of the form $(-) \rtimes G$ and regarded as [[pointed objects]] in the [[slice category]] of [[Groups]]:
 
 \[
   \label{EquivalenceOfEquivariantTopologicalGroupsToSemidirectProductTopGroups}
@@ -230,6 +234,22 @@ The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTop
   }
 \]
 \end{prop}
+Here $\mathcal{G} \rtimes_\alpha G$ is regarded as equipped with the homomorphisms
+$$
+  \array{
+    G
+    &\longrightarrow&
+    \mathcal{G} \times_\alpha G
+    &\longrightarrow&
+    G
+    \\
+    && 
+    (\gamma,g) &\mapsto& g
+    \\
+    g &\mapsto& (e_{\mathcal{g}},g)
+    \,.
+  }
+$$
 
 \begin{proof}
 This is a straightforward matter of unwinding the definitions:
@@ -335,6 +355,7 @@ $\{ e_{\mathcal{G}} \} \times G$
 
 
 ### Equivariant group actions
+ {#EquivariantGroupActions}
 
 \begin{prop}\label{ActionsOfEquivariantGroupsAsSemidirectProductGroupActions}
   (**equivariant group actions as semidirect product group actions**) \linebreak
@@ -342,8 +363,9 @@ $\{ e_{\mathcal{G}} \} \times G$
   $\big(\mathcal{G}, \alpha \big)$
   with [[semidirect product groups]] $\mathcal{G} \rtimes_\alpha G$,
   we have an [[equivalence of categories|equivalence]] of their
-  [[actions]]:
-  $$
+  [[actions]], given by:
+  \[
+    \label{EquivalenceBetweenEquivariantActionsAndSemidirecProductActions}
     \array{
       \mathcal{G}
       Actions
@@ -353,9 +375,11 @@ $\{ e_{\mathcal{G}} \} \times G$
           TopologicalSpaces
         )
       \big)
-      &\overset{\simeq}{
+      &
+      \overset{\simeq}{
         \longrightarrow
-      }&
+      }
+      &
       (
         \mathcal{G} \rtimes G
       )
@@ -370,24 +394,98 @@ $\{ e_{\mathcal{G}} \} \times G$
         \to
       }
       Aut
-      \Big(
+      \big(
         (X, \rho)  
-      \Big)
+      \big)
       &\mapsto&
       \mathcal{G} \rtimes_\alpha G
       \overset{
         (R,\rho)
       }{\longrightarrow}
       Aut(X)
-      \\
-      &&
-      (R,\rho)(\gamma, g)(x)
-      \;\coloneqq\;
-      R(\gamma)\big( \rho(g)(x) \big)
     }
+  \]
+  with
+  $$
+    \underset{\gamma,g,x}{\forall}
+    \;\;\;
+    (R,\rho)(\gamma, g)(x)
+    \;\coloneqq\;
+    R(\gamma)\big( \rho(g)(x) \big)
+    \,.
   $$
 \end{prop}
 
+\begin{proof}
+
+We observe that the given formula in fact establishes a [[bijection]] between the two kinds of actions.
+
+First, it is clear that;
+
+1. the action property of $\rho$ is equivalently the action property of $(R,\rho)$ on elements of the form $(e, g)$;
+
+1. the action-property of $R$ on the underlying topological spaces is equivalently the action property of $(R,\rho)$ on elements of the form $(\gamma,e)$
+
+and that the full action property of $(R,\rho)$ is equivalent to its restriction to these two cases and to the mixed case:
+
+$$
+  \underset{
+    \gamma,g,x
+  }{\forall}
+  \;\;\;
+  (R,\rho)
+  \big(
+    \underset{
+      \big(
+        \alpha(g)(\gamma),
+        g
+      \big)
+    }{
+      \underbrace{
+        (e,g) \cdot (\gamma,e)
+      }
+    }
+  \big)
+  (x)
+  \;=\;
+  (R,\rho)(e,g)
+  \big(
+    (R,\rho)(\gamma,e)
+    (x)
+  \big)
+  \,.
+$$
+
+Now by definition of $(R,\rho)$, this mixed action condition is equivalent to the condition
+
+$$
+  \underset{
+    \gamma,g,x
+  }{\forall}
+  \;\;\;
+  R
+  \big(
+    \alpha(g)(\gamma)
+  \big)
+  \big(
+    \rho(g)(x)
+  \big)
+  \;=\;
+  \rho(g)
+  \big(
+    R(\gamma)(x)
+  \big)
+  \,.
+$$
+
+But this is equivalently the condition of $G$-equivariance on $R$.
+
+In conclusion, $(R,\rho)$ is an action of the semidirect product group $\mathcal{G} \rtimes_\alpha G$ on $X$ iff $R$ is a $G$-equivariant action of $\mathcal{G}$ on $X$. 
+
+This implies immediately that the condition for a map $X \to X$ to be an action homomorphisms on both sides are the same. 
+
+And so the functor (eq:EquivalenceBetweenEquivariantActionsAndSemidirecProductActions) is in fact an [[isomorphism]] on both objects as well as morphisms, hence in particular an [[equivalence of categories]],
+\end{proof}
 
 ## Related concepts
 
@@ -398,6 +496,8 @@ $\{ e_{\mathcal{G}} \} \times G$
 * [[equivariance group]]
 
 \linebreak
+
+
 
 
 [[!redirects equivariant groups]]
