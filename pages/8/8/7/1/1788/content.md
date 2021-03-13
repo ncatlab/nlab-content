@@ -24,38 +24,38 @@ Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topologi
 
 \linebreak
 
-[[daRocha2021-HolographicMesonMasses-Table1a.jpg:file]]
-
-[[daRocha2021-HolographicMesonMasses-Table2.jpg:file]]
-
-[[daRocha2021-HolographicMesonMasses-Table3.jpg:file]]
-
-[[daRocha2021-HolographicMesonMasses-Table4.jpg:file]]
 
 
-> With all due respect to anyone who is interested in them, they are a mess. There is a lot of detailed information known about them, but I won't try to summarize it here. ([Adams](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf#page=212))
+\begin{defn}\label{TopologicalGSpaces}
+(**topological $G$-spaces**)
+\linebreak
 
-> Of these little is known but their name. They elude both hunters and philosophers. Let them go. I know little more of them, nor does anybody else. ([Melville](https://margot-quotes.livejournal.com/173747.html))
+For $G$ be a [[topological group]] we write 
+$$
+  G Actions(TopologicalSpaces)
+  \;\in\;
+  Categories
+$$ 
+for the [[category]] whose 
+
+* [[objects]] $(X,\rho)$ are [[topological spaces]] $X$ equipped with [[continuous function|continuous]] $G$-[[actions]]
+
+  $$
+    G \times X \overset{}{\longrightarrow} X
+    \;\;\;\;\;\;
+    \leftrightarrow
+    \;\;\;\;\;\;
+    G \overset{\rho}{\longrightarrow} Aut(X) \subset Maps(X,X)
+    \,;
+  $$
+
+* [[morphisms]] are $G$-[[equivariant function|equivariant]] [[continuous functions]] between them ("maps"); i.e. for the category of "[[G-spaces]]", often denote "$G Spaces$" or even $G Sp$ or similar.
+
+\end{defn} 
 
 
-\medskip
 
 
-\begin{center}
-\begin{imagefromfile}
-  "file_name": "ZupanFlavourAnomaly.jpg",
-  "width": 690,
-  "caption": "from"
-\end{imagefromfile}
-\end{center}
-
-\begin{centre}
-\begin{imagefromfile}
-  "file_name": "ZupanFlavourAnomaly.jpg",
-  "width": 690,
-  "caption": "from"
-\end{imagefromfile}
-\end{centre}
 
 
 
