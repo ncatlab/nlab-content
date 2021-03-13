@@ -65,7 +65,7 @@ $$
 
 Elmendorf's theorem is stated in [Elmendorf 83](#Elmendorf83) as an [[equivalence of categories|equivalence]] of [[homotopy categories]]; and is enhanced in [Dwyer-Kan 84, Sec. 1.2, 1.7 & Thm. 3.1](#DwyerKan84) to a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] of [[model categories]] [[presentable (infinity,1)-category|presenting]] (in hindsight) the [[equivalence of (∞,1)-categories]] stated above (e.g. [Blumberg 17. Thm. 1.3.8](#Blumberg17)).
 
-Moreover, while [Elmendorf 83](#Elmendorf83) assumes $G$ to be a [[compact Lie group]], [Dwyer-Kan 84](#DwyerKan84) allow $G$ to be *any* [[topological group]]. (But beware that invoking the [[equivariant Whitehead theorem]] to identify the fixed-locus-wise weak homotopy equivalences used in the theorem with the $G$-homotopy equvalences typically used in practice may again require $G$ to be a compact Lie group.)
+Moreover, while [Elmendorf 83](#Elmendorf83) assumes $G$ to be a [[compact Lie group]], [Dwyer-Kan 84](#DwyerKan84) allow $G$ to be *any* [[topological group]]. But beware that invoking the [[equivariant Whitehead theorem]] to identify the fixed-locus-wise weak homotopy equivalences used in the theorem with the $G$-homotopy equivalences typically used in practice again requires $G$ to be a [[compact Lie group]].
 
 Later [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) re-prove the equivalence of [[homotopy categories]] for $G$ any [[topological group]]; while [Cordier-Porter 96, Thm. 3.11](#CordierPorter96) and [Guillou 06, Prop. 3.15](#Guillou06) re-prove a ([[simplicial Quillen adjunction|simplicial]]) [[Quillen equivalence]] assuming $G$ to be a [[discrete group]] or even [[finite group]], respectively; and [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8](#GuillouMayRubin13) re-prove the Quillen equivalence for $G$ again any topological group.
 
@@ -80,7 +80,7 @@ These results are all based on the [[classical model structure on topological sp
  {#ModelCategoryPresentation}
 
 A version of the theorem that applies fairly generally for ([[discrete group|discrete]]) [[group objects]] in suitable [[cofibrantly generated model categories]] is in ([Guillou 06](#Guillou06), [Stephan 10](#Stephan10), [Stephan 13](#Stephan13)).
- Refe
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -207,11 +207,7 @@ The equivalence of its [[homotopy category]] to that of presheaves over the orbi
 
 * {#Elmendorf83} [[Anthony Elmendorf]], _Systems of fixed point sets_, Trans. Amer. Math. Soc., 277(1):275&#8211;284, 1983 ([jstor:1999356](https://www.jstor.org/stable/1999356))
 
-Generalization of [Elmendorf 83](#Elmendorf83) to general topological groups is discussed ib:
 
-* {#Piacenza91} [[Robert Piacenza]], Section 6 of: _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([doi:10.4153/CJM-1991-046-3](https://doi.org/10.4153/CJM-1991-046-3), [[Piazenza91.pdf:file]])
-
-* {#May96} [[Peter May]] et al., Section V.3 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics Volume: 91; 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
 
 Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[enriched adjunction]] and/or to a [[Quillen equivalence]] of [[model categories]] based on the [[classical model structure on topological spaces]] and/or the [[classical model structure on simplicial sets]]:
 
@@ -231,13 +227,19 @@ Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[e
 
 * {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Sections 1 and 5.2 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [arXiv:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
 
+Other discussions generalizing [Elmendorf 83](#Elmendorf83) (i.e. the equivalence of homotopy categories)  to general topological equivariance groups:
+
+* {#Piacenza91} [[Robert Piacenza]], Section 6 of: _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([doi:10.4153/CJM-1991-046-3](https://doi.org/10.4153/CJM-1991-046-3), [[Piazenza91.pdf:file]])
+
+* {#May96} [[Peter May]] et al., Section V.3 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics Volume: 91; 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
+
 More on the approach of [Dwyer-Kan 84](#DwyerKan84):
 
 * [[Emmanuel Dror Farjoun]], Prop. 1.3 in: _Homotopy Theories for Diagrams of Spaces_, Proceedings of the AMS, Vol. 101, No. 1 (Sep., 1987), pp. 181-189 ([jstor:2046572 ](https://www.jstor.org/stable/2046572 ))
 
 * {#Chorny13} [[Boris Chorny]], _Homotopy  theory  of  relative  simplicial  presheaves_,  Israel J. Math. 205 (2015), no. 1, 471–484, ([arXiv:1310.2932](https://arxiv.org/abs/1310.2932))
 
-These Elmendorf [[Quillen equivalences]] (as in [Stephan 13](#Stephan13)) apply to other [[model categories]], and yield Elmendorf-like equivalences in other contexts:
+These Elmendorf-theorem [[Quillen equivalences]] (as in [Stephan 13](#Stephan13)) apply to other [[model categories]], and yield Elmendorf-like equivalences in other contexts:
 
 * [[Jonathan Rubin]], _Elmendorf constructions for G-categories and G-posets_ ([arXiv:2006.08876](https://arxiv.org/abs/2006.08876))
 
