@@ -55,7 +55,7 @@ The definition of delocalized equivariant cohomology coincides with that of [[Ch
 
 In turn, [[Chen-Ruan cohomology]] of [[global quotient orbifolds]] (and hence, by the [above](#RelationtoChenRuanCohomology) delocalized equivariant cohomology) coincides with [[Bredon cohomology]] with [[coefficients]] in the [[rationalization|rationalized]] [[representation ring]]-functor $G/H \mapsto Rep(H)$ on the [[orbit category]].
 
-(e.g.[Szabo-Valentino 07, Sec. 4.3](#SzaboValentino07)
+([Mislin-Valette 03, Thm. 6.1](#MislinValette03), review in [Szabo-Valentino 07, Sec. 4.3](#SzaboValentino07)
 
 ### Relation to rationalized equivariant K-theory
 
@@ -73,6 +73,9 @@ In further turn, even-periodic [[Bredon cohomology]] with coefficients in the [[
 ## References
 
 * {#ConnesBaum89} [[Alain Connes]], [[Paul Baum]], _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
+
+* {#MislinValette03} [[Guido Mislin]], [[Alain Valette]], Theorem 6.1 in: _Proper Group Actions and the Baum-Connes Conjecture_, Advanced Courses in Mathematics CRM Barcelona, Springer 2003 ([doi:10.1007/978-3-0348-8089-3](https://link.springer.com/book/10.1007/978-3-0348-8089-3))
+
 
 * {#BunkeSpitzweckSchick06} [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Inertia and delocalized twisted cohomology_, Homotopy, Homology and Applications, vol 10(1), pp 129-180 (2008) ([arXiv:math/0609576](https://arxiv.org/abs/math/0609576))
 
