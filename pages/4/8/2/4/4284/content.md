@@ -144,4 +144,4 @@ $$
 
 ## References
 
-The initial import of counterexamples in this entry was taken from [this MO question](http://mathoverflow.net/questions/29006/counterexamples-in-algebra).
+The initial import of counterexamples in this entry was taken from [this MO question](http://mathoverflow.net/questions/29006/counterexamples-in-algebra). See also [[counterexamples in category theory]].
