@@ -10,6 +10,8 @@ This page lists counterexamples in [[category theory]].
 
 1. Taking the skeleton of a [[monoidal category]] does not in general result in a [[strict monoidal category]]. The argument in the case of Set is given in [this MO answer](https://mathoverflow.net/a/128629) In particular, one cannot in general replace a monoidal category with an equivalent category that is simultaneously  strict monoidal and skeletal. 
 
+1. The category of topological spaces and [[local homeomorphism | local homeomorphisms]] is [[locally cartesian closed category | locally cartesian closed]] but not [[cartesian closed category | cartesian closed]] since it does not have a terminal object.
+
  
 ## References
 
