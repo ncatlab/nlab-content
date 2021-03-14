@@ -12,6 +12,8 @@ This page lists counterexamples in [[category theory]].
 
 1. The category of topological spaces and [[local homeomorphism | local homeomorphisms]] is [[locally cartesian closed category | locally cartesian closed]] but not [[cartesian closed category | cartesian closed]] since it does not have a terminal object.
 
+1. There are functors $D:Aff\to Vect$ and $A:Vect \to Aff$ between the categories of [[vector spaces]] and [[affine spaces]], and we have $D(A(V)) \cong V$ for any $V\in Vect$ and $A(D(U)) \cong U$ for any $U\in Aff$, but the categories are not [[equivalence of categories|equivalent]] --- the second isomorphism is not natural.
+
  
 ## References
 
