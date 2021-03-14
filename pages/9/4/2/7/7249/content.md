@@ -62,7 +62,6 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
 * [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
-
 * [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, 2008 ([pdf](https://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Trieste-Lecture-Notes.pdf), [[SergeraertCombinatorialHomotopyTheory.pdf:file]])
 
 
@@ -70,5 +69,8 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
 
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+* [[Jacob Lurie]], _[[Kerodon]]_
 
 
