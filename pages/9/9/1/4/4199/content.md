@@ -25,6 +25,13 @@ Specifically on [[twisted K-theory]] and twisted [[tmf]]:
 * {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics 81, American Mathematical Society 2010 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [ISBN:978-0-8218-4887-6](https://bookstore.ams.org/pspum-81))
 
 
+On [[Becker-Gottlieb transfer]] and [[differential algebraic K-theory]]:
+ 
+* [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_, Memoirs of the American Mathematical Society 2021 ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247), [ISBN:978-1-4704-4685-7](https://bookstore.ams.org/cdn-1608276327798/memo-269-1316/))
+
+
+
+
 ## Related entries
 
 * [[noncommutative motive]], [[algebraic K-theory]]
