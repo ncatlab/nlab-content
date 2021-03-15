@@ -227,6 +227,11 @@ Discussion via [[L-infinity algebras]]:
 
 * [[Leron Borsten]], [[Branislav Jurco]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double Copy from Homotopy Algebras_ ([arXiv:2102.11390](https://arxiv.org/abs/2102.11390))
 
+For curved spacetimes:
+
+* Gokhan Alkac, Mehmet Kemal Gumus, Mustafa Tek, _The Classical Double Copy in Curved Spacetime_ ([arXiv:2103.06986](https://arxiv.org/abs/2103.06986))
+
+
 
 
 
