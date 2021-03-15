@@ -164,6 +164,10 @@ Dependent (multivariate) polynomial functors are considered in
 
 * {#GK} [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
 
+Talks on polynomial functors are available at
+
+* _Workshop on Polynomial Functors_, Topos Institute,
+15–19 March 2021, ([website](https://topos.site/p-func-2021-workshop/))
 
 Generalization to [[homotopy theory]] and [[higher category theory]] is discussed in 
 
