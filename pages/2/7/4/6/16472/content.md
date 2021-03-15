@@ -13,6 +13,6 @@ On rigorous [[semi-topological 4d Chern-Simons theory]] via [[homotopical AQFT]]
 
 * [[AQFT]]
 
-* [[homotopical AQFT♧♧
+* [[homotopical AQFT]]
 
 category: people
