@@ -8,7 +8,7 @@
 
 On [[fiber bundles]] ([[principal bundles]], [[vector bundles]]), [[topological K-theory]] applications to [[D-branes]]:
 
-* [[Dale Husemöller]], [[Michael Joachim]], Branislav Jur&#269;o, [[Martin  Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf))
+* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
 On [[quantum optics]]:
 
