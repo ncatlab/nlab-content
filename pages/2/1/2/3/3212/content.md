@@ -13,6 +13,10 @@ On [[hypergraph categories]]:
 
 * {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph Categories* ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
 
+On [[polynomial functors]]:
+
+* [[David Spivak]], _Poly: An abundant categorical setting for mode-dependent dynamics_, ([arXiv:2005.01894](https://arxiv.org/abs/2005.01894)) 
+
 ## Related $n$Lab entries
 
 * [[derived smooth manifold]]
