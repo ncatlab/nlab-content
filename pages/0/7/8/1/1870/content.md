@@ -353,7 +353,11 @@ See also
 
 * [[Max Karoubi]], _Twisted bundles and twisted K-theory_, in:  Guillermo Cortiñas (ed.) _Topics in Noncommutative Geometry_ ([arXiv:1012.2512](https://arxiv.org/abs/1012.2512), [ISBN:978-0-8218-6864-5](https://bookstore.ams.org/cmip-16))
 
-The seminal result on the relation to [[loop group]] [[representations]], now again with twists in $H^0(X,\mathbb{Z}_2) \times H^1(X,\mathbb{Z}_2) \times H^3(X, \mathbb{Z})$, is in the series of articles
+Textbook accounts:
+
+* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Part IV of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
+
+Discussion of [[twisted ad-equivariant K-theory]] and relation to [[loop group]] [[representations]] and the [[Verlinde ring]], now again with twists in $H^0(X,\mathbb{Z}_2) \times H^1(X,\mathbb{Z}_2) \times H^3(X, \mathbb{Z})$, is in the series of articles
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted K-theory and loop group representations_ [arXiv:math/0312155](http://arxiv.org/abs/math/0312155);  _[[Loop Groups and Twisted K-Theory]] I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)) {#FHT07}; _[[Loop Groups and Twisted K-Theory]] II_ ([arXiv:math/0511232](http://arxiv.org/abs/math/0511232))
 
