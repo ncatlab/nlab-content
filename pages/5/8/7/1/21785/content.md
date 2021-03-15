@@ -70,6 +70,13 @@ On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identif
 
   ([arxiv/1409.6051](http://arxiv.org/abs/1409.6051), [doi:10.1016/j.crma.2015.02.011](https://doi.org/10.1016/j.crma.2015.02.011))
 
+Discussion in terms of [[differentiable stacks]]:
+
+* [[Ulrich Bunke]], Ingo Schroeder, _Twisted K-Theory and TQFT_ ([arXiv:math/0504458](https://arxiv.org/abs/math/0504458), [spire:681555](https://inspirehep.net/literature/681555))
+
+
+
+
 Review:
 
 * [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Section 22 of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
