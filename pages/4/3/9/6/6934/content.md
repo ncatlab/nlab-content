@@ -20,6 +20,14 @@ A [[dependent type|dependently typed]] [[functional programming language]] with 
 Besides [[Coq]], Agda is one of the languages in which [[homotopy type theory]] has been implemented ([Brunerie](#Brunerie)).
 Agda can be compiled to Haskell, Epic or Javascript.
 
+## Cubical Agda
+
+Cubical Agda is a version of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]].
+
+Its main difference from CCHM is that instead of an exotype of "cofibrant propositions" it uses the interval itself, replacing cofibrant propositions by statements of the form $r \equiv 1$ for some dimension expression $r$.  This change does not prevent the construction of a model for the theory in De Morgan [[cubical sets]], although it doesn't technically fall under the Orton-Pitts axioms since $I$ is not a subobject of $\Omega$, and no one has checked whether this model can be strengthened to a [[Quillen model category]].
+
+More problematically, to support [[identity types]] a la Swan (which are distinct from both cubical "path types" and Martin-Lof "jdentity types") the type of cofibrant propositions must support a [[dominance]].  Cubical Agda thus assumes that $I$ supports a dominance, but this is not true in De Morgan cubical sets.  So the semantics of the entirety of Cubical Agda, with Swan identity types, is unclear.  (However, ordinary Martin-Lof jdentity types can also be defined in Cubical Agda as an indexed inductive family, with computational behavior as usual for any inductive types in cubical type theory.)
+
 ## Related concepts
 
 [[!include proof assistants and formalization projects -- list]]
