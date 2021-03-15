@@ -48,7 +48,7 @@ The solution of the problem in the negative, except for one outstanding dimensio
 
 * {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics Volume 184 (2016), Issue 1 ([doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1), [arXiv:0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)) 
 
-* {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+* {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_, Current Developments in Mathematics, 2010: 1-44 (2011) ([[HHRKervaire.pdf:file]], [doi:10.4310/CDM.2010.v2010.n1.a1](https://dx.doi.org/10.4310/CDM.2010.v2010.n1.a1))
 
 On the [[equivariant stable homotopy theory]] involved:
 
