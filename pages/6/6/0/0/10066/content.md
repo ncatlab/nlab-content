@@ -456,6 +456,10 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 
 * {#Wilson16} [[Dylan Wilson]], _Equivariant K-theory_, 2016 ([pdf](https://www.math.uchicago.edu/~dwilson/notes/equivariant-k-theory-talk.pdf), [[WilsonKTheory16.pdf:file]])
 
+Textbook accounts:
+
+* {#HJJS08} [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Section 14 of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
+
 See also
 
 * {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Thesis 2009 ([ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]])
