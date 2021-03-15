@@ -130,6 +130,13 @@ Discussion of [[chaos]] in the [[M2-brane]] physics described by the BMN matrix 
 
 * Minos Axenides, Emmanuel Floratos, Georgios Linardopoulos, _M2-brane Dynamics in the Classical Limit of the BMN Matrix Model_, Phys. Lett. B773 (2017) 265 ([arXiv:1707.02878](https://arxiv.org/abs/1707.02878))
 
+See also:
+
+Discussion of [[entanglement]] and [[entropy]]:
+
+* Cameron Gray, Vatche Sahakian, William Warfield, _Emergent geometry through quantum entanglement in Matrix theories_ ([arXiv:2103.06941](https://arxiv.org/abs/2103.06941))
+
+
 
 
 ### KK-compactification from $D=4$ $\mathcal{N}=4$ SYM
