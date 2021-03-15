@@ -154,6 +154,10 @@ Furthermore, this bicategory is actually the horizontal bicategory of a [[double
 The relation of plain polynomial functors to [[trees]] is discussed in
 
 * {#Kock} [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874))
+
+The category, $Poly$, of one-variable polynomial functors on $Set$ and its application to [[dynamical systems]] is considered in
+
+* [[David Spivak]], _Poly: An abundant categorical setting for mode-dependent dynamics_, ([arXiv:2005.01894](https://arxiv.org/abs/2005.01894)) 
  
 
 Dependent (multivariate) polynomial functors are considered in 
@@ -183,7 +187,7 @@ See also
 
 * Charles Walker, *Universal properties of polynomials*, [arxiv](https://arxiv.org/abs/1806.10477)
 
-* [[Ross Street]], *Polynomials as spans*, Cahiers LXI-2 (2020], [pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf)
+* [[Ross Street]], *Polynomials as spans*, Cahiers LXI-2 (2020), [pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf)
 
 [[!redirects polynomial functor]]
 [[!redirects polynomial functors]]
