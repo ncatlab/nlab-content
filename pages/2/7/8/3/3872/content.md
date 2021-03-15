@@ -10,6 +10,9 @@
 
 * [[Nigel Hitchin]], _Sir Michael Atiyah OM. 22 April 1929–11 January 2019_, Biographical Memoirs of the FRS, September 2020 ([doi:10.1098/rsbm.2020.0001](https://doi.org/10.1098/rsbm.2020.0001))
 
+* [[Nigel Hitchin]], _Michael Atiyah: Geometry and Physics_, 2020 ([pdf](https://cmsa.fas.harvard.edu/wp-content/uploads/2021/01/Geometry-and-physics.pdf), [[HitchinOnAtiyahGeometryPhysics.pdf:file]])
+
+
 
 ## Selected writings
 
