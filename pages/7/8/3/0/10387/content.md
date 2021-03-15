@@ -23,7 +23,7 @@
 
 ## Idea
 
-An _equivariant connection_ is a [[connection on a bundle]] $\nabla$ over a [[space]] $X$ with [[action]] by a group $H$ whuch is equipped with $H$-[[equivariant structure]], hence equivalently -- in the language of [[higher differential geometry]] of [[smooth groupoids]] -- an extension of a connection $\nabla \;\colon\; X \longrightarrow \mathbf{B}G_{conn}$ to a connection $\nabla_{equ}$ on the [[action groupoid]] $X//H$:
+An _equivariant connection_ is a [[connection on a bundle]] $\nabla$ over a [[space]] $X$ with [[action]] by a group $H$ which is equipped with $H$-[[equivariant structure]], hence equivalently -- in the language of [[higher differential geometry]] of [[smooth groupoids]] -- an extension of a connection $\nabla \;\colon\; X \longrightarrow \mathbf{B}G_{conn}$ to a connection $\nabla_{equ}$ on the [[action groupoid]] $X//H$:
 
 $$
   \array{
