@@ -12,6 +12,9 @@ This page collects material related to the textbook
   [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf)
 
 
-on [[fiber bundles]] ([[principal bundles]], [[vector bundles]], [[classifying space]], [[characteristic classes]]), [[topological K-theory]], [[twisted K-theory]] and applications to [[D-branes]]
+on [[fiber bundles]] ([[principal bundles]], [[vector bundles]], [[classifying space]], [[characteristic classes]]), [[topological K-theory]], [[twisted K-theory]], [[equivariant K-theory]], [[twisted ad-equivariant K-theory]] and applications to the [[K-theory classification of D-brane charge]].
+
+
+
 
 category: reference
