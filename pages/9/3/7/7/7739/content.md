@@ -1,10 +1,19 @@
 
 * [webpage](http://www.math.vt.edu/people/quinn/)
 
-* [[Arthur Jaffe]], [[Frank Quinn]], _"Theoretical Mathematics": Towards a cultural synthesis of mathematics and theoretical physics_, Bulletin of the AMS, Volume 29,Number 1, July 1993 ([arXiv:math/9307227](http://arxiv.org/abs/math/9307227))
 
 
-## related $n$Lab entries
+## Selected writings
+
+
+On the relation between the practice of [[mathematics]] and [[physics]] (for historical context see [Hitchin 20, Sec. 8](Michael+Atiyah#Hitchin20)):
+
+* {#JaffeQuinn93} [[Arthur Jaffe]], [[Frank Quinn]], _"Theoretical Mathematics": Towards a cultural synthesis of mathematics and theoretical physics_, Bulletin of the AMS, Volume 29,Number 1, July 1993 ([arXiv:math/9307227](http://arxiv.org/abs/math/9307227))
+
+  > we claim that the role of rigorous [[proof]] in mathematics is functionally [[analogy|analogous]] to the role of [[experiment]] in the natural sciences ([Jaffe-Quinn 93, p. 2](JaffeQuinn93))
+
+
+## Related $n$Lab entries
 
 * [[TQFT]],
 
