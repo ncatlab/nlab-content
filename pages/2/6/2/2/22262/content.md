@@ -11,7 +11,7 @@ The counterexamples here should serve as specimens of possible pittfalls in cate
 
 1. Composing a [[monadic functor]] with another monadic functor need not be monadic. For example, Torsion-free abelian groups are monadic over abelian groups, which are monadic over sets, but torsion-free abelian groups are not monadic over sets. 
 
-1. Taking the skeleton of a [[monoidal category]] does not in general result in a [[strict monoidal category]]. The argument in the case of Set is given in [this MO answer](https://mathoverflow.net/a/128629) In particular, one cannot in general replace a monoidal category with an equivalent category that is siss and tt are the source and target of CC and η\eta is the unit for the monad ℕ[−]\mathbb{N}[-]. In words, CC is sent tmultaneously  strict monoidal and skeletal. 
+1. Taking the skeleton of a [[monoidal category]] does not in general result in a [[strict monoidal category]]. The argument in the case of Set is given in [this MO answer](https://mathoverflow.net/a/128629). In particular, one cannot in general replace a monoidal category with an equivalent category that is simultaneously  strict monoidal and skeletal. 
 
 1. The category of topological spaces and [[local homeomorphism | local homeomorphisms]] is [[locally cartesian closed category | locally cartesian closed]] but not [[cartesian closed category | cartesian closed]] since it does not have a terminal object.
 
@@ -22,7 +22,8 @@ The counterexamples here should serve as specimens of possible pittfalls in cate
 1. There is a 'wrong right adjoint' to the functor $F : Petri \to CMC$ (as described in [[Petri nets#semantics]]) which sends a [[commutative monoidal category]] $C$ to the [[Petri net]] whose source and target are $\eta \circ s : Mor(C) \to \mathbb{N}[Ob(C)]$ and $\eta \circ t : Mor(C) \to \mathbb{N}[Ob(C)]$ where $s$ and $t$ are the source and target of $C$ and $\eta$ is the unit for the monad $\mathbb{N}[-]$. In words, $C$ is sent to the [[Petri net]] whose source and target are the [[source]] and [[target]] of $C$ composed with $\eta$. The natural choice of isomorphism $Hom(FA, B) \cong Hom(A, GB)$, where $G$ is the functor just described, turns out not to yield well-defined morphisms of [[Petri nets]]. See Remark 4.4 in [Master 2020](#PN)
 
 1. Let $C$ be a category without an [[initial object]] and let $R : C \to 1$ be the unique functor from $C$ into the [[terminal category]]. Then $R$ preserves all limits but does not have a left adjoint because this left adjoint would have to send the unique object of 1 to an initial object. 
-.
+
+
 ## See also
 
 * [[counterexamples in algebra]]
