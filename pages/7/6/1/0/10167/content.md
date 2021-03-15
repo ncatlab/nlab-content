@@ -61,7 +61,7 @@ The original articles are
 
 * [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundle and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
 
-* [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
+* [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([euclid:jdg/1214428815](http://projecteuclid.org/euclid.jdg/1214428815))
 
 Reviews and surveys include
 
