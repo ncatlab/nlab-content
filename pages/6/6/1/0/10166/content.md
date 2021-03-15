@@ -33,7 +33,7 @@ Beware that this [[action]] of the [[equivariance group]] $G$ on the [[structure
 
 Much of the literature on equivariant bundles is interested 
 
-* in [[equivariant vector bundles]] regarded as representing [[cocycles]] for [[equivariant K-theory]] ([Segal 68, Sec 1](#Segal68), [Wasserman 69, Sec. 2](#Wasserman69));
+* in [[equivariant vector bundles]] regarded as representing [[cocycles]] for [[equivariant K-theory]] ([Segal 68, Sec 1](#Segal68), [Wasserman 69, Sec. 2](#Wasserman69),[HJJS 08, Sec. 13](#HJJS08));
 
 and/or
 
@@ -311,7 +311,7 @@ such that :
 
 ## References
 
-### General
+### Equivariant fiber bundles
 
 On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 
@@ -383,6 +383,8 @@ On equivariant [[vector bundles]]:
 In the context of [[equivariant K-theory]]:
 
 * {#Segal68} [[Graeme Segal]], Section 1 of: _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 ([numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0))
+
+* {#HJJS08} [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Section 13 of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
 In a context of [[equivariant differential topology]]:
 
