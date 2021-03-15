@@ -41,10 +41,13 @@ In a context of [[orbifold K-theory]] and for [[torsion subgroup|torsion]] class
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
 
-
 With an eye towards [[twisted ad-equivariant K-theory]]:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+
+In terms of [[bundle gerbes]] on [[differentiable stacks]]:
+
+* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_, Annales Scientifiques de l’École Normale Supérieure Volume 37, Issue 6, November–December 2004, Pages 841-910 ([arXiv:math/0306138](https://arxiv.org/abs/math/0306138), [doi:10.1016/j.ansens.2004.10.002](https://doi.org/10.1016/j.ansens.2004.10.002))
 
 General definition in terms of [[equivariant function|equivariant]] [[sections]] of [[equivariant bundles]] of [equivariant classifying spaces](equivariant+K-theory#ReferencesRepresentingSpectrum) for [[equivariant K-theory]]:
 
