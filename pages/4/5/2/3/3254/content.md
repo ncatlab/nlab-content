@@ -167,7 +167,7 @@ $$
       &\overset{\Sigma \phi_n}{\longrightarrow}& 
     \Sigma X_n
     \\
-    {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
+    {}^{incl}\big\downarrow && \big\downarrow^{\mathrlap{\sigma_n}}
     \\
     \hat X_{n+1} &\underset{\phi_{n+1}}{\longrightarrow}& X_{n+1}
   }
