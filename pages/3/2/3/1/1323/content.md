@@ -38,7 +38,7 @@ This notion is part of a hierarchy of [[distributivity for monoidal structures]]
 
 This axiom on binary coproducts easily implies the analogous $n$-ary result for $n\gt 2$.  In fact it also implies the analogous 0-ary statement that the projection
 $$ X\times 0 \to 0$$
-is an isomorphism for any $X$ (see Proposition \ref{nullary} below).  Moreover, for a category with finite products and coproducts to be distributive, it actually suffices for there to be *any* [[natural transformation|natural]] family of isomorphisms $X\times Y + X\times Z \cong X\times (Y+Z)$, not necessarily the canonical ones; see the paper of Lack referenced below.
+is an isomorphism for any $X$ (see Proposition \ref{nullary} below).  Moreover, for a category with finite products and coproducts to be distributive, it actually suffices for there to be *any* [[natural transformation|natural]] family of isomorphisms $X\times Y + X\times Z \cong X\times (Y+Z)$, not necessarily the canonical ones ([Lack](#Lack)).
 
 A category $C$ with finite products and all small coproducts is **infinitary distributive** if the statement applies to all small coproducts.  One can also consider $\kappa$-distributivity for a [[cardinal number]] $\kappa$, meaning the statement applies to coproducts of cardinality $\lt\kappa$.
 
@@ -145,7 +145,7 @@ A further non-example:
 
 * [[Aurelio Carboni]],  and [[Stephen Lack]],  and [[Robert F. C. Walters]], _Introduction to extensive and distributive categories_,  Journal of Pure and Applied Algebra 84 (1993) 145-158, 
 
-* [[Stephen Lack]], _Non-canonical isomorphisms_.  [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
+* {#Lack} [[Stephen Lack]], _Non-canonical isomorphisms_.  [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
 
 
 
