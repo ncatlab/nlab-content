@@ -26,7 +26,7 @@ Cubical Agda is a version of Agda (turned on by the flag `--cubical`) that imple
 
 Its main difference from CCHM is that instead of an exotype of "cofibrant propositions" it uses the interval itself, replacing cofibrant propositions by statements of the form $r \equiv 1$ for some dimension expression $r$.  This change does not prevent the construction of a model for the theory in De Morgan [[cubical sets]], although it doesn't technically fall under the Orton-Pitts axioms since $I$ is not a subobject of $\Omega$, and no one has checked whether this model can be strengthened to a [[Quillen model category]].
 
-More problematically, to support [[identity types]] a la Swan (which are distinct from both cubical "path types" and Martin-Lof "jdentity types") the type of cofibrant propositions must support a [[dominance]].  Cubical Agda thus assumes that $I$ supports a dominance, but this is not true in De Morgan cubical sets.  So the semantics of the entirety of Cubical Agda, with Swan identity types, is unclear.  (However, ordinary Martin-Lof jdentity types can also be defined in Cubical Agda as an indexed inductive family, with computational behavior as usual for any inductive types in cubical type theory.)
+More problematically, to support [[identity types]] a la Swan (which are distinct from both cubical "path types" and Martin-Lof "identity types") the type of cofibrant propositions must support a [[dominance]].  Cubical Agda thus assumes that $I$ supports a dominance, but this is not true in De Morgan cubical sets.  So the semantics of the entirety of Cubical Agda, with Swan identity types, is unclear.  (However, ordinary Martin-Lof jdentity types can also be defined in Cubical Agda as an indexed inductive family, with computational behavior as usual for any inductive types in cubical type theory.)
 
 ## Related concepts
 
@@ -47,8 +47,7 @@ General information on Agda is at
 
 * [[Dan Licata]], Ian Voysey, _[Programming and proving in Agda](http://www.cs.cmu.edu/~drl/teaching/oplss13/)_
 
-* [[Ulf Norell]], _Towards a practical programming
-language based on dependent type theory_, 2007 ([pdf](https://synrc.com/publications/cat/Functional%20Languages/Agda/PracticalDependent.pdf))
+* [[Ulf Norell]], _Towards a practical programming language based on dependent type theory_, 2007 ([pdf](https://synrc.com/publications/cat/Functional%20Languages/Agda/PracticalDependent.pdf))
 
 A tutorial for use of Agda as an implementation of [[homotopy type theory]] is at
 
