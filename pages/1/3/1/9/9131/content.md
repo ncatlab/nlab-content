@@ -42,7 +42,7 @@ For $E \to X$ the trivial bundle $X \times \mathbb{R} \to X $ or $X \times \math
 
 More generally, for $V$ a [[vector space]], the trivial field bundle $X \times V \to X$ has as secton $V$-valued functions. These are also called _linear [[sigma-model]]_ fields.
 
-Still more generally, if $Y$ is any manifold, then the sections of the tricial field bundle $X \times Y \to X$ are called _non-linear [[sigma-model]]_ fields.
+Still more generally, if $Y$ is any manifold, then the sections of the trivial field bundle $X \times Y \to X$ are called _non-linear [[sigma-model]]_ fields.
 
 =--
 
