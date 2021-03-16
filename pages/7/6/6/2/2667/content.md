@@ -186,7 +186,7 @@ Aguiar and Mahajan point out that some of the relationships between the "pointwi
 
 On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ a fifth monoidal structure: the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.  
 
-Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures.  Among other things, it is the free [[lambda-ring]] on one generator.   As we shall see, corresponds to the fact that $Schur$ is the free [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
+Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures. Among other things, it is the free [[lambda-ring]] on one generator. As we shall see, this corresponds to the fact that $Schur$ is the free [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
 
 ## Schur functors on more general categories ##
 
@@ -206,7 +206,7 @@ To illustrate the full breadth of this generalization, here are a few examples:
 
 * the category [[FinVect]], consisting of [[finite-dimensional vector spaces]] over $k$
 
-* the [[category of representation]] of any [[group]] on vector spaces (or [[finite-dimensional vector spaces]]) over $k$
+* the [[category of representations]] of any [[group]] on vector spaces (or [[finite-dimensional vector spaces]]) over $k$
 
 * the category of [[super vector spaces]], [[graded vector space|graded vector spaces]] or [[chain complexes]] over $k$
 
