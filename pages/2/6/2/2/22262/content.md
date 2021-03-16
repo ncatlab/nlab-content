@@ -1,13 +1,113 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
 ## Idea
+
 In [[category theory]], there's often the sense that 'things just work', and that details can be skipped as everything is well behaved. Unfortunately, this is not quite true.
 
 The counterexamples here should serve as specimens of possible pittfalls in category theory, and give an idea of what could go wrong.
 
 ## List
 
-1. Taking the center of a group does not a define a functor from groups to abelian groups. (We get a functor after restricting to the [[core | cores]].)
+1. Sending an [[object]] $x \in \mathcal{C}$ of a [[category]] $\mathcal{C}$ to its [[automorphism group]] $Aut_{\mathcal{C}}(x)$  (or its [[endomorphism monoid]] $End_{\mathcal{C}}(x)$ ) does not in general extend to a [[functor]] from $\mathcal{C}$ to [[Groups]]. 
 
-1. Sending an object of a category to its [[automorphism]] group (or its [[endomorphism]] monoid) is not in general functorial.
+   It does however extend to a [[functor]] on the [[core]] of $\mathcal{C}$ (the maximal [[groupoid]] inside it, keeping only the [[isomorphisms]] of $\mathcal{C}$), where it sends [[morphisms]] (now constrained to be [[isomorphisms]]) to their [[conjugation action]]:
+
+   $$
+     \array{
+       Core(\mathcal{C})   
+       &
+       \overset{
+         \;\;\;
+         Aut_{\mathcal{C}}
+         \;\;\;
+       }{
+         \longrightarrow
+       }
+       &
+       Groups
+       \\
+       x
+       &
+       &
+       Aut_{\mathcal{C}}(x)
+       \\
+       {}^{{}_{\mathllap{
+         \simeq
+       }}}
+       \big\downarrow
+       {}^{{}_{\mathrlap{
+         \gamma
+       }}}
+       &
+       \mapsto
+       &
+       \big\downarrow
+       {}^{{}_{\mathrlap{
+         ad_\gamma 
+         \colon
+         g \mapsto \gamma \circ g \circ \gamma^{-1}
+       }}}
+       &
+       \\
+       y
+       &
+       &
+       Aut_{\mathcal{C}}(y)  
+       \,.
+     }
+   $$
+
+   For example, if $\mathcal{C} = \Pi_1(\mathcal{X})$ is the [[fundamental groupoid]] of a [[topological space]] (which thus coincides with its [[core]] already), then the [[automorphism groups]] of its objects $x \in X$ are the [[fundamental groups]] $\pi_1(X,x)$ at these basepoints, which famously *are* functorial under conjugation by paths in $X$.
+
+
+1. Forming the [[center]] of a [[group]] does not extend to a [[functor]] from [[Groups]] to [[AbelianGroups]]. 
+
+   It does extend to a functor on the [[core]], though:
+
+   $$
+     \array{
+       Core(Groups)
+       &
+       \overset{
+         Center
+       }{
+         \longrightarrow
+       }
+       &
+       AbelianGroups
+       \,.
+     }
+   $$
+
+   Notice that this example is really a special case of the previous one (forming [[automorphism groups]]), or rather of a [[2-category theory|2-category theoretic]] version of it: The [[center]] of a [[group]] is the [[automorphism group]] in the [[endofunctor|endo]]-[[functor category]]  of the [[identity functor]] on the one-object [[delooping]]-[[groupoid]] $\mathbf{B}G$ of $G$:
+
+   $$
+     Center(G)
+     \;\simeq\;
+     Aut_{{}_{End(\mathbf{B}G)}}
+     \big(
+       id_{\mathbf{B}G}
+     \big)
+   $$
+
 
 1. Composing a [[monadic functor]] with another monadic functor need not be monadic. For example, Torsion-free abelian groups are monadic over abelian groups, which are monadic over sets, but torsion-free abelian groups are not monadic over sets. 
 
