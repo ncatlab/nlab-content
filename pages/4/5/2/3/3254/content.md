@@ -22,9 +22,9 @@
 
 For every [[topological space]] $X$ there is a [[CW complex]] $Z$ and a [[weak homotopy equivalence]] $f  \colon Z\to X$. Such a map $f  \colon Z\to X$ is called a **CW approximation** to $X$.
 
-Such CW-approximation may be constructed case-by-case by iteratively attaching (starting from the empty space) cells for each representative of a [[homotopy group]] of $X$ and further cells to kill off spurious homotopy groups introduced this way (e.g. [Hatcher, p. 352-353](#Hatcher)).
+Such CW-approximation may be constructed case-by-case by iteratively [[cell attachment|attaching cells] (starting from the [[empty space]]]) for each representative of a [[homotopy group]] of $X$ and further cells to kill off spurious homotopy groups introduced this way (e.g. [Hatcher, p. 352-353](#Hatcher)).
 
-In the [[classical model structure on topological spaces]] $Top_{Quillen}$, the cofibrant objects are the [[retracts]] of [[cell complexes]], and hence CW approximations are in particular cofibrant replacements in this model structure.
+In the [[classical model structure on topological spaces]] $Top_{Quillen}$, the [[cofibrant objects]] are the [[retracts]] of [[cell complexes]], and hence CW approximations are in particular cofibrant replacements in this model structure.
 
 The [[Quillen equivalence]] $Top_{Quillen} \stackrel{\overset{{\vert - \vert}}{\longleftarrow}}{\underset{Sing}{\longrightarrow}} sSet_{Quillen}$ to the [[classical model structure on simplicial sets]] ("[[homotopy hypothesis]]") yields a _functorial_ CW approximation (by [this proposition](geometric+realization#mono)) via
 
@@ -182,6 +182,9 @@ $$
 * [[Whitehead's theorem]]
 
 * [CW-approximation for sequential spectra](CW-spectrum#CWApproximation)
+
+* in [[equivariant homotopy theory]]: [[G-CW approximation]]
+
 
 ## References
 
