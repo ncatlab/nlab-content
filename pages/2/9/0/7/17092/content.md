@@ -36,6 +36,8 @@ For maps $F \colon E \longrightarrow F$ between genuine [[G-spectra]], they are 
 
 ## Related concepts
 
+* [[G-CW approximation]]
+
 * [[Elmendorf's theorem]]
 
 * [[tom Dieck splitting]]
