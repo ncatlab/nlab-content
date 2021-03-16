@@ -75,7 +75,7 @@ The counterexamples here should serve as specimens of possible pittfalls in cate
      }
    $$
 
-   For example, if $\mathcal{C} = \Pi_1(\mathcal{X})$ is the [[fundamental groupoid]] of a [[topological space]] (which thus coincides with its [[core]] already), then the [[automorphism groups]] of its objects $x \in X$ are the [[fundamental groups]] $\pi_1(X,x)$ at these basepoints, which famously *are* functorial under conjugation by paths in $X$.
+   For example, if $\mathcal{C} = \Pi_1(X)$ is the [[fundamental groupoid]] of a [[topological space]] (which thus coincides with its [[core]] already), then the [[automorphism groups]] of its objects $x \in X$ are the [[fundamental groups]] $\pi_1(X,x)$ at these basepoints, which famously *are* functorial under conjugation by paths in $X$.
 
 
 1. Forming the [[center]] of a [[group]] does not extend to a [[functor]] from [[Groups]] to [[AbelianGroups]]. 
