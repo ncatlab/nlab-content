@@ -41,6 +41,16 @@ Beware the existence of a book of similar title, by the same author and largely 
 
 * [[G-CW complex]]
 
+* [[G-spectrum]]
+
+* [[equivariant stable homotopy theory]]
+
+* [[equivariant stable Cohomotopy]]
+
+* [[equivariant cohomology]]
+
+  [[Bredon cohomology]], [[Mackey functor]]
+
 ## Chapter III Localization
 
 ## Chapter IV The Burnside Ring
