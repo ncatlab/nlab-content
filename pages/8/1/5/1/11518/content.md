@@ -149,7 +149,11 @@ and in terms of [[orthogonal spectra]] due to
 
 * {#MandellMay04} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_. Preprint, April 29, 2000, ([KTheory:0408](http://www.math.uiuc.edu/K-theory/0408/))
 
-also (developed for the [[Arf-Kervaire invariant problem]])
+Further accounts:
+
+* {#tomDieck87} [[Tammo tom Dieck]], Section II.6 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+and in the context of the [[Arf-Kervaire invariant problem]]:
 
 * [[Michael Hill]], [[Michael Hopkins]], [[Doug Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_, Current developments in mathematics, 2009, Int. Press, Somerville, MA, 2010, pp. 23&#8211;57. MR 2757358
 
