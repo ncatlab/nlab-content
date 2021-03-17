@@ -236,15 +236,19 @@ announced in
 
 and there considered specifically for [[finite groups]].
 
+Discussion for any [[topological group]] (and further generalization)  is considered (together with the [[model category|model category theoretic]] proof of [[Elmendorf's theorem]]) in:
+
+* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], Sec. 2.1 and Thm. 3.1 of: _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
+
+Textbook accounts:
+
+* {#tomDieck87} [[Tammo tom Dieck]], Section I.10 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+* {#May96} [[Peter May]], Section I.4 of: _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
+
 Lecture notes:
 
-* {#tomDieck09} [[Tammo tom Dieck]], section 1.3 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
-
-* {#May96} [[Peter May]], section I.4 of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
-
-A very general setting for the use of orbit categories is described in
-
-* [[W. G. Dwyer]] and [[D. M. Kan]], _Singular functors and realization functors_ , Nederl. Akad. Wetensch. Indag. Math., 87, (1984), 147 &#8211; 153. 
+* {#tomDieck09} [[Tammo tom Dieck]], Section 1.3 of: _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
 For more on the relation to [[global equivariant homotopy theory]] see 
 
