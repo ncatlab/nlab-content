@@ -42,6 +42,8 @@ $$
   }
 $$
 
+* The bijections exhibiting full faithfulness of $F$ form a natural isomorphism, by functoriality of $F$ and of pre- and postcomposition.
+
 ## Generalizations
 
 * For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully faithful functor is described at [[fully faithful (∞,1)-functor]].  This is part of a bigger pattern at work here which is indicated at [[stuff, structure, property]] and [[k-surjective functor]].
