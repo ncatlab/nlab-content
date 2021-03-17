@@ -1,7 +1,10 @@
 
+This page compiles material related to the textbook:
+
+
 * [[Tammo tom Dieck]],
 
-  _Transformation Groups and Representation Theory_
+  **Transformation Groups and Representation Theory**
 
   Lecture Notes in Mathematics 766
 
@@ -10,6 +13,13 @@
   ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
 
 on [[representation theory]], [[equivariant homotopy theory]], [[equivariant cohomology]].
+
+Beware the existence of a book of similar title, by the same author and largely on the same subjects:
+
+* [[Tammo tom Dieck]], _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+
+\linebreak
 
 [front matter](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Front.pdf)
 
