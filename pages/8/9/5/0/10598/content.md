@@ -91,9 +91,9 @@ Textbook accounts:
 
 * {#tomDieck87} [[Tammo tom Dieck]], Sections I.1, I.2 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
+* {#Lueck89} [[Wolfgang Lück]], Sections I.1, I.2 of: _Transformation Groups and Algebraic K-Theory_, Lecture Notes in Mathematics **1408** (Springer 1989) ([doi:10.1007/BFb0083681](https://doi.org/10.1007/BFb0083681))
 
 * {#May96} [[Peter May]] et al., Section I.3 of:  _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
-Discussion in [[equivariant differential topology]]:
 
 
 Lecture notes:
