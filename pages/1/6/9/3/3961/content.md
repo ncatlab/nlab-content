@@ -13,42 +13,35 @@ category: meta
 
 ## Minimal Template Code
 
-Remove any sections that you don\'t use.
-
 ~~~~
 
 # Contents (or put a title here)
-* the following line creates the automatic table of contents
+* this block creates the table of contents, leave as is
 {: toc}
 
-## Idea ##
+## Idea
 
-...
-
-
-## Abstract ##
-
-...
+(...)
 
 
-## Definition ##
+## Definition 
 
-...
-
-
-## Properties ##
-
-...
+(...)
 
 
-## Examples ##
+## Properties
 
-...
+(...)
 
 
-## References ##
+## Examples
 
-...
+(...)
+
+
+## References
+
+(...)
 
 
 [[!redirects <put page name here>]]
@@ -56,13 +49,13 @@ Remove any sections that you don\'t use.
 
 ~~~~
 
-A longer example follows.
+A more detailed example follows. Check out the source code [here](https://ncatlab.org/nlab/source/Template+page) to see how it's coded:
 
 ****
 
 
 # Contents
-* the following line creates the automatic table of contents
+* this block creates the table of contents
 {: toc}
 
 ## Idea
@@ -82,62 +75,56 @@ As Jacques Distler said,
 > See [more about definition/theorem/proof-environments](http://golem.ph.utexas.edu/wiki/instiki/show/Theorems).
 
 
-+-- {: .num_defn}
-###### Definition
-**(uvw)**
+\begin{definition}\label{uvwDef}
+**(uvw)** \linebreak
 
 A **uvw** is a UVW in which all letters are lower case.
-=--
+
+\end{definition}
 
 
 This may be summed up in the slogan:
 
 +-- {: .standout}
+
 A uvw is just what it looks like.
+
 =--
 
 
 ## Properties
 
-+-- {: .num_lemma }
-###### Lemma
+\begin{lemma}
 
-Every uvw contains at least one letter.
-=--
+Every uvw (Def. \ref{uvwDef}) contains at least one letter.
 
-+-- {: .proof}
-###### Proof
+\end{lemma}
 
+\begin{proof}
 By inspection.
-=--
+\end{proof}
 
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
 Every uvw contains strictly more than one letter.
-=--
 
-+-- {: .proof}
-###### Proof
+\end{proposition}
 
+\begin{proof}
 Use the above lemma and continue counting:
 
 \[
   1 + 1 = 2  \label{firstequation}
   \,.
 \]
-=--
+\end{proof}
 
+\begin{theorem}
+Every uvw (Def. \ref{uvwDef}) contains exactly three letters.
 
-+-- {: .num_theorem}
-###### Theorem
+\end{theorem}
 
-Every uvw contains exactly three letters.
-=--
-
-+-- {: .proof}
-###### Proof
+\begin{proof}
 
 Along the lines of the above proposition, we use equation \eqref{firstequation} and then conclude with
 
@@ -146,26 +133,32 @@ $$
   \,.
 $$
 
-Notice that this is indeed independent of in which order we sum up the letters, in that the diagram
+Notice that this is indeed independent of in which order we sum up the letters, in that the following [[commuting diagram|diagram commutes]]:
 
 $$
   \array{
     \mathbb{N}\times \mathbb{N} \times \mathbb{N}
-    &\stackrel{Id \times + }{\to}&
+    &
+      \overset{Id \times + }{\longrightarrow} 
+    &
     \mathbb{N} \times \mathbb{N} 
     \\
-    {}^{\mathllap{+ \times Id}}\downarrow && \downarrow^{\mathrlap{+}}
+    {}^{\mathllap{+ \times Id}}
+    \big\downarrow 
+    && 
+    \big\downarrow^{\mathrlap{+}}
     \\
     \mathbb{N} \times \mathbb{N}
-    &\underset{+}{\to}&
+    &
+      \underset{+}{\longrightarrow}
+    &
     \mathbb{N}
   }
   \,.
 $$
 
-commutes.
-=--
 
+\end{proof}
 
 +-- {: .num_corollary}
 ###### Corollary
@@ -184,11 +177,15 @@ No uvw contains more than three letters.
 
 *  Third case
 
+
+
 +-- {: .query}
 _[[Urs Schreiber|First person]]_:  I listed all of the special cases that I know above, but didn\'t Grothendieck study an important version too?
 
 _[[Toby Bartels|Second person]]_:  No, you\'re thinking of Lawvere.  When I find the reference, I\'ll put it here.
 =--
+
+
 
 
 ### Specific examples
@@ -207,7 +204,7 @@ For ease of reference, we will number the examples.
 
 The original definition appeared in section 3 of
 
-* FirstName LastName, _Title_, Journal (year)  ([arXiv](http://put.url/here), [pdf](http://another.url/)).
+* FirstName LastName, _Title_, Journal (year)  ([arXiv:xxxxxx](http://put.url/here), [pdf](http://another.url/)).
 
 
 [[!redirects uvw]]
