@@ -25,6 +25,8 @@ The concept forms part of a related family of concepts concerned with 'generatin
 
 ## Definition
 
+### In category theory
+
 There are actually two different notions of _dense [[subcategory]]_ $D$ of a given [[category]] $C$:
 
 1. A subcategory $D\subset C$ is __dense__ if every [[object]] in $C$ is canonically a [[colimit]] of objects in $D$.  
@@ -36,6 +38,33 @@ An older name for a dense subcategory in this sense is an **adequate subcategory
 2. A subcategory $D\subset C$ is __dense__ if every object $c$ of $C$ has a $D$-expansion, that is a [[morphism]] $c\to\bar{c}$ of [[pro-objects]] in $D$ which is [[universal property|universal]] ([[initial object|initial]]) among all morphisms of pro-objects in $D$ with [[domain]] $c$. 
 
    This second notion is used in [[shape theory]]. An alternative name for this is a **pro-reflective subcategory**, that is a subcategory for which the inclusion has a [[proadjoint]].
+
+### In shape theory
+ {#InShapeTheory}
+
+Beware that in [[shape theory]] a different notion of a "dense subcategory" is in use:
+
+
+
+\begin{definition}\label{DExpansion}
+**(D-expansion)** \linebreak
+A _$D$-expansion_ of an [[object]] $X$ in a [[category]] $C$ is a [[morphism]] $X\to \mathbf{X}$ in the category $\mathrm{pro}C$ of [[pro-objects]] such that $\mathbf{X}$ is in $\mathrm{pro}D$ and $X$ is the rudimentary system (constant inverse system) corresponding to $X$; moreover one asks that the morphism is universal among all such morphisms $X\to\mathbf{Y}$. 
+
+\end{definition}
+
+\begin{definition}\label{ShapeDenseSubcategory}
+**(shape-dense subcategory)** \linebreak
+A [[full subcategory]] $D\subset C$ is __dense__ in the sense of shape theory, if every [[object]] in $C$ admits a $D$-expansion (Def. \ref{DExpansion})
+
+\end{definition}
+
+\begin{remark}
+**(abstract shape category)**
+Given a shape-dense subcategory $D\subset C$ (Def. \ref{ShapeDenseSubcategory}) one defines an **abstract shape category** $\mathrm{Sh}(C,D)$ which has the same objects as $C$, but the morphisms are the equivalence classes of morphisms in $\mathrm{pro}D$ of $D$-expansions (Def. \ref{DExpansion}).
+
+\end{remark}
+
+
 
 ## Applications
 
