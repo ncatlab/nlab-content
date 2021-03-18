@@ -50,7 +50,7 @@ and observe first that the [[constant coefficients]] of $f(x)$ and $(1+x)^r$ are
 
 $$D\left(\sum_{k \geq 0} \frac{r^\underline{k} x^k}{k!}\right) = r \sum_{k \geq 0} \frac{(r-1)^\underline{k} x^k}{k!}$$ 
 
-and similarly 
+(because $r^{\underline{k+1}} = r \cdot (r-1)^{\underline{k}}$) and similarly 
 
 $$D\left(\exp(r \cdot \log(1 + x))\right) = r \cdot \exp((r-1) \cdot \log(1 + x))$$ 
 
