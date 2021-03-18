@@ -1,11 +1,13 @@
 
 $\ldots$
 
-# Contents (or put a title here)
-* this block creates the table of contents, leave as is
-{: toc}
 
-## Idea ##
+\begin{remark}
+  Notice that 
+
+  * bullet items without trailing vertical whitespace 
+  * trigger a bug when followed by closure of the environment.
+\end{remark}
 
 
 Please do not delete the following example for the moment!
