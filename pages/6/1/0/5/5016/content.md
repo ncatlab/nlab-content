@@ -35,4 +35,6 @@ Equivalently this is just an ordinary [[group]] -- a [[set]] with a group struct
 
 * [[discrete ∞-groupoid]]
 
+
+* [[good orbifold]]
 [[!redirects discrete groups]]
