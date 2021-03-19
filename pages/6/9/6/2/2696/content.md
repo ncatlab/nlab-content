@@ -131,9 +131,13 @@ Whitehead's principle does hold, however, for maps between [[homotopy n-types]] 
 
 * [[mod p Whitehead theorem]]
 
+* [[equivariant Whitehead theorem]]
+
 * [equivariant stable Whitehead theorem](G-spectrum#EquivariantWhitehead)
 
-* [[CW-approximation]]
+* [[CW-approximation theorem]]
+
+* [[cellular approximation theorem]]
 
 ## References
 
