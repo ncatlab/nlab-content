@@ -82,6 +82,10 @@ $$
 
 * [[hypermonoid]]
 
+## Book
+
+* B. Davvaz and V. Leoreanu-Fotea, Hyperring Theory and Applications, International Ackademic Press, USA, 2007.
+
 ## References
 
 The notion of hyperring and hyperfield is due to Marc Krasner:
