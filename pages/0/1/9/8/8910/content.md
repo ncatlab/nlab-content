@@ -1,5 +1,5 @@
 
-Olivia Caramello is an Italian mathematician who works as an Associate Professor at the University of Insubria in Como and also holds the Gelfand Chair at IHES. She has pioneered the use of toposes as unifying bridges in mathematics.
+Olivia Caramello is an Italian mathematician who works as an Associate Professor at the University of Insubria in Como and also holds the Gelfand Chair at IHES. She has pioneered the use of [[toposes]] as unifying bridges in mathematics.
 
 * [webpage](http://www.oliviacaramello.com/)
 
