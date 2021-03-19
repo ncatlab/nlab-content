@@ -15,27 +15,27 @@
 
 ## Scope
 
-In the philosophical part of $n$Lab we discuss higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
+In the philosophical part of $n$Lab we discuss [[higher category theory]] and its repercussions in philosophy. More widely, the entries on philosophy in nLab should also contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
 
 ## Nonscope
 
-There are many articles which are not philosophy, but rather essays on general mathematics, and so on, often opinion pieces on what is important and so on. That is not philosophy _per se_, but it may be relevant thoughts and we could link them rather at related pages, like [[opinions on development of mathematics]].  
+There are many articles which are not directly philosophical, but rather essays on general mathematics, often opinion pieces on what is important and so on. Although mathematicians will often speak of their 'philosophy', this is not philosophy _per se_, but it may be relevant to an understanding of the nature of mathematics through its practice, see, for instance, [[development and current state of mathematics]].  
 
 
 ## Idea of relevance of higher categories
 
 Philosophical interest in [[n-category|n-categories]] may be characterised as belonging to one of two kinds.
 
-* **[[metaphysics|Metaphysical]]**: The formation of a new language which may prove to be as important for philosophy as predicate logic was for [[Bertrand Russell]] and the [[analytic philosophy|analytic philosophers]] he inspired. 
+* **[[metaphysics|Metaphysical]]**: The formation of a new language which may prove to be as important for philosophy as predicate logic was for [[Bertrand Russell]] and the [[analytic philosophy|analytic philosophers]] he inspired (see, e.g., [Corfield 20](#Corfield20)).  
 
-* **Illustrative of mathematics as intellectual enquiry**: Such a reconstitution of the fundamental language of [[mathematics]] reveals much about mathematics as a tradition of enquiry stretching back several millennia, for instance, the continued willingness to reconsider basic concepts.
+* **Illustrative of mathematics as intellectual enquiry**: Such a reconstitution of the fundamental language of [[mathematics]] reveals much about the discipline as a tradition of enquiry stretching back several millennia, for instance, the continued willingness to reconsider basic concepts (see, e.g., [Corfield 12](#Corfield19), [Corfield 19](#Corfield19)).
 
 
 ## Metaphysics
 
 [[metaphysics]]
 
-* [[higher category theory|Higher category theory]] provides a new foundation for mathematics - [[foundations|logical]] and [[foundations and philosophy|philosophical]].
+* [[higher category theory|Higher category theory]] and its associated type theories, such as [[homotopy type theory]] provides a new foundation for mathematics - [[foundations|logical]] and [[foundations and philosophy|philosophical]].
 
 * [[higher category theory|Higher category theory]] refines the notion of sameness to allow more subtle variants. It advocates the avoidance of [[evil]].
 
@@ -57,7 +57,7 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 To [[vertical categorification|categorify]] mathematical constructions properly, one must have understood their essential features. This leads us to consider what it is to get concepts 'right'. Which kind of 'realism' is suitable for mathematics? Which virtues should a mathematical community possess to further its ends: a knowledge of its history, close attention to instruction and the sharing of knowledge, a willingness to admit to what is currently lacking in its programmes?
 
 
-## Philosophical sentiments
+## Philosophical positions
 
 * [[Platonism]]
 
@@ -132,6 +132,8 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
+* {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404))
+
 ### Articles 
 
 * Glenn G. Parsons, James Robert Brown, _Platonism, metaphor, and mathematics_, Dialogue __43__ (2004), no. 1, 47&#8211;66, [MR2004k:00004](http://www.ams.org/mathscinet-getitem?mr=2053877)
@@ -142,6 +144,7 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 * [[Mikhail Gromov]], _Ergostructures, Ergologic and the Universal Learning Problem: Chapters 1, 2, 3._ (2013) [pdf](http://www.ihes.fr/~gromov/PDF/ergologic3.1.pdf); _Structures, Learning and Ergosystems: Chapters 1-4, 6_ (2011) [pdf](http://www.ihes.fr/~gromov/PDF/ergobrain.pdf)
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
 * Jeremy Avigad, _Mathematics and language_, [arxiv/1505.07238](http://arxiv.org/abs/1505.07238)
+* {#Corfield12} [[David Corfield]], _Narrative and the Rationality of Mathematical Practice_, in A. Doxiadis and B. Mazur (eds.), Circles Disturbed, Princeton, 2012, ([preprint](https://ncatlab.org/davidcorfield/show/Narrative+and+the+Rationality+of+Mathematical+Practice)).
 
 Some philosophical aspects of the role of category theory are touched upon in some parts of the introductory paper
 
@@ -152,6 +155,10 @@ Some philosophical aspects of the role of category theory are touched upon in so
 * $n$Caf&#233; on Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
 * [[GavinWraith|Gavin]] wrote about "The dangers of category theory", see $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2472&Focus=21255#Comment_21255)
 * [Simplicity](http://s-i-m-p-l-i-c-i-t-y.org/index.html] conference: Ideals of Practice in Mathematics & the Arts; videos online at youtube [channel](http://s-i-m-p-l-i-c-i-t-y.org/videos.html)
+
+### Talks
+
+* {#Corfield19} [[David Corfield]], _The Dynamics of Mathematical Reason_, [slides](https://ncatlab.org/davidcorfield/show/Vienna#DynamicsOfMathematicalReason)
 
 category: philosophy
 
