@@ -91,6 +91,8 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Related concepts
 
+* [[good orbifold]]
+
 * [[étale groupoid]], [[differentiable stack]]
 
 * [[orbispace]], [[topological stack]]
@@ -389,7 +391,7 @@ and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]
 
 For [[topological strings]] the [[path integral as a pull-push transform]] for target orbifolds -- in analogy to what [[Gromov-Witten theory]] is for [[Deligne-Mumford stacks]] -- has first been considered in 
 
-* {#ChenRuan01} Weimin Chen, [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _[[Orbifolds in Mathematics and Physics]]_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
+* {#ChenRuan01} [[Weimin Chen]], [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _[[Orbifolds in Mathematics and Physics]]_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
  A review with further pointers is in 
 
 * {#Abramovich05} [[Dan Abramovich]], _Lectures on Gromov-Witten invariants of orbifolds_ ([arXiv:math/0512372](http://arxiv.org/abs/math/0512372))
