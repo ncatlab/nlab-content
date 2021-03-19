@@ -905,7 +905,7 @@ The [[pullback]] (in [[sSet]]) of a [[minimal Kan fibration]], def. \ref{Minimal
 
 ... [[anodyne extensions]]...
 
-([Goerss-Jardine 99, chapter I, section 4](#GoerssJardine99), [Joyal-Tierney 05, section 31](#JoyalTierney05))
+([Goerss-Jardine 99, chapter I, section 4](#GoerssJardine99), [Joyal-Tierney 09, section 1.7](#JoyalTierney09))
 
 
 +-- {: .num_prop #KanFibrationHasMinimalStrongDeformationRetract}
@@ -915,7 +915,7 @@ For every [[Kan fibration]], def. \ref{KanFibration}, there exists a fiberwise [
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, prop. 10.3](#GoerssJardine99), [Joyal-Tierney 05, theorem 3.3.1, theorem 3.3.3](#JoyalTierney05)).
+(e.g. [Goerss-Jardine 99, chapter I, prop. 10.3](#GoerssJardine99), [Joyal-Tierney 08, theorem 3.3.1, theorem 3.3.3](#JoyalTierney08)).
 
 +-- {: .proof}
 ###### Proof idea
@@ -1414,7 +1414,11 @@ The original article is
 
 The proof there is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are [[fiber bundles]], as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: 
 
-* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005 ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
+
+* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
+
+* {#JoyalTierney09} [[André Joyal]], [[Myles Tierney]], _An introduction to simplicial homotopy theory_, 2009  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
+
 
 A proof (in fact two variants of it) using the [[Kan fibrant replacement]] $Ex^\infty$ functor is given 
 
