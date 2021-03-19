@@ -14,9 +14,9 @@ Open games approach games as open systems, making them morphisms of a [[symmetri
 
 Open games have a close connection to [[lens (in computer science)|lenses]]. This can be used to situate open games inside a symmetric monoidal [[double category]] in a game-theoretically interesting way, see [Hedges 2018](#Hedges18).
 
-##Homotopy and game theory##
+##Topology and game theory##
 
-[[homotopy|Homotopies]] between strategy profiles have been considered as a practical method to compute Nash equilibria (see [Herings and Peeters 2010](#Herings10)). This has never been studied categorically, but it suggests a possible route towards a higher-categorical approach to game theory.
+Deformations between strategy profiles have been considered as a practical method to compute Nash equilibria (see [Herings and Peeters 2010](#Herings10)).
 
 ## References
 
