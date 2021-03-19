@@ -1414,19 +1414,20 @@ The original article is
 
 The proof there is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are [[fiber bundles]], as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: 
 
-
 * {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
 
 * {#JoyalTierney09} [[André Joyal]], [[Myles Tierney]], _An introduction to simplicial homotopy theory_, 2009  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
+
+A standard textbook references for the classical model structure is
+
+* {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], chapter  1 of _[[Simplicial homotopy theory]]_, Birkh&#228;user 1999, 2009 ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
 
 
 A proof (in fact two variants of it) using the [[Kan fibrant replacement]] $Ex^\infty$ functor is given 
 
 * {#Cisinski06} [[Denis-Charles Cisinski]], section 2 of _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
  
-
 which discusses the topic as a special case of a _[[Cisinski model structure]]_.
-
 
 The fun part is not that much about the existence of model structure, but to prove that the fibrations are precisely the [[Kan fibrations]] (and also to prove all the good properties of $Ex^\infty$ without using topological spaces); for two different proofs of this fact using $Ex^\infty$, see Prop. 2.1.41 as well as Scholium 2.3.21 for an alternative). For the rest, everything was already in the book of [[Gabriel and Zisman]], for instance.
 
@@ -1434,21 +1435,18 @@ Another approach also using $Ex^\infty$ is in
 
 * {#Moss} Sean Moss, _Another approach to the Kan-Quillen model structure_, [arXiv](http://arxiv.org/abs/1506.04887).
 
-A standard textbook references for the classical model structure is
-
-* {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], chapter  1 of _[[Simplicial homotopy theory]]_, Birkh&#228;user 1999, 2009 ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
-
 A proof of the model structure not relying on the [[classical model structure on topological spaces]] nor on explicit models for [[Kan fibrant replacement]] is givn in 
 
 * [[Christian Sattler]], _The Equivalence Extension Property and Model Structures_ ([arXiv:1704.06911](https://arxiv.org/abs/1704.06911))
+
+Constructive proofs can be found in
+
+* [[Simon Henry]], _A constructive account of the Kan-Quillen model structure and of Kan's Ex∞ functor_, [arXiv:1905.06160](https://arxiv.org/abs/1905.06160).
+
+* [[Nicola Gambino]], [[Simon Henry]], [[Christian Sattler]], [[Karol Szumiło]], _The effective model structure and ∞-groupoid objects_, [arXiv:2102.06146](https://arxiv.org/abs/2102.06146).
 
 
 [[!redirects Quillen model structure on simplicial sets]]
 [[!redirects Kan-Quillen model structure on simplicial sets]]
 [[!redirects Kan-Quillen model structure]]
-
 [[!redirects classical model category of simplicial sets]]
-
-
-
-
