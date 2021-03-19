@@ -274,6 +274,8 @@ For various applications one uses toposes that have [[stuff, structure, property
 
   [[test topos]]
 
+  [[classifying topos]]
+
 * [[(∞,1)-topos]] 
 
   * [[model topos]]
