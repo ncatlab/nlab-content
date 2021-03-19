@@ -288,6 +288,8 @@ See also
 * {#Myers16} David Jaz Myers, _String diagrams for double categories and (virtual) equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
 * Kenny Courser, _Open systems: a double categorical perspective_, PhD thesis, [arxiv/2008.02394](https://arxiv.org/abs/2008.02394)
 
+* Antonin Delpeuch, _The word problem for double categories_, [arxiv](https://arxiv.org/abs/1907.09927)
+
 Model structures on the category of double categories are discussed in:
 
 * {#FPPModel} Thomas M. Fiore, Simona Paoli, Dorette A. Pronk, [Model structures on the category of small double categories](https://doi.org/10.2140/agt.2008.8.1855), _Algebraic & Geometric Topology_ **8** (2008) 1855–1959.
