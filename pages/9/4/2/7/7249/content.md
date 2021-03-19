@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -58,7 +59,10 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
 * [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
 
-* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
+
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]], _An introduction to simplicial homotopy theory_, 2009  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
+
 
 * [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
