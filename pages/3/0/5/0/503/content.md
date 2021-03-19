@@ -414,6 +414,8 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 * When $\mathcal{V} = \mathbf{Ab}$ is abelian groups, a $\mathcal{V}$-category is a [[pre-additive category]]. The Cauchy completion is the completion under _finite direct sums and idempotent splitting_. Notice that there is also a "sub-Cauchy completion" given by completing just under finite direct sums, which turns a pre-additive category into an [[additive category]].
 
+* When $\mathcal{V} = \mathbf{Ch}$ is [[chain complexes]], a $\mathcal{V}$-category is a [[dg-category]].  Cauchy complete dg-categories are characterized by [Nikolić, Street, and Tendas](#NST2020).
+
 * When $\mathcal{V} = \mathbf{Slat}$ is the category of sup-lattices, a $\mathcal{V}$-category is a locally posetal, [[locally cocomplete bicategory]], i.e. a [[quantaloid]]. The Cauchy completion is some sort of completion under _arbitrary_ sums: it is large even if the original quantaloid is small, and its existence depends on the precise definition we choose of Cauchy completion.
 
 * In the $\infty$-categorical context, we can consider enrichment in the $\infty$-category of [[spectra]]. The Cauchy completion of an $\infty$-category enriched in spectra is its completion under _all finite colimits_.
@@ -652,6 +654,8 @@ Further references include for instance
 * R. Walters, _Sheaves and Cauchy complete categories_ , Cahiers Top. Geom. Diff. Cat. 22 no. 3 (1981) 283-286 ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0))
 
 * R. Walters, _Sheaves on sites as Cauchy-complete categories, J. Pure Appl. Algebra 24 (1982) 95-102
+
+* {#NST2020} Branko Nikolić, [[Ross Street]], Giacomo Tendas, _Cauchy completeness for DG-categories_, [arxiv](https://arxiv.org/abs/2012.10157), 2020
 
 Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in 
 
