@@ -35,7 +35,7 @@ Examples of cartesian bicategories include
 Non-examples include
 
  * the locally-discrete bicategory [[Set]] of sets and functions,
- * the bicategory [[Prof]] of categories and profunctors,
+ * the bicategory [[Cat]] of categories and functors,
  * the bicategory of profunctors and enriched in a _noncartesian_ monoidal category $V$.
 
 Consider for example the bicategory [[Rel]]. This bicategory admits a symmetric monoidal structure given by the cartesian product. Because the cartesian product is _not_ the categorical product, this symmetric monoidal structure is _not_ [[cartesian monoidal category|cartesian monoidal]]. However, the cartesian product restricts to the locally-discrete sub-bicategory [[Set]] of sets and functions, on which it _is_  the categorical product. Note that a relation is the graph of a function if and only if it possesses a right adjoint (which is given by the opposite relation). In a general bicategory, a 1-cell is called _map-like_ if it possesses a right adjoint, and these are the 1-cells playing the role that functions play in $Rel$.
