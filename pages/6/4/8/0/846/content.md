@@ -610,16 +610,9 @@ $$
 
 ### Simplicial $n$-sphere
 
-Let $\partial \Delta[1] = \Delta[0] \coprod \Delta[0]$ the **simplicial 0-sphere**: just the disjoint union of the point. Then the $n$-fold join of $\partial \Delta[1]$ with itself is a simplicial model for the $n$-sphere
-
-$$
-  \mathbf{S}^0 := \partial \Delta[0]
-$$
-
-$$
-  \mathbf{S}^n := \mathbf{S}^0 \star \mathbf{S}^{n-1}
-$$
-
+Let $\partial \Delta[1] = \Delta[0] \sqcup \Delta[0]$ the **simplicial 0-sphere**: just the disjoint union of the point. Then the $n$-fold join of $\partial \Delta[1]$ with itself is a simplicial model for the $n$-sphere
+$$\mathbf{S}^0 := \partial \Delta[1]$$
+$$\mathbf{S}^n := \mathbf{S}^0 \star \mathbf{S}^{n-1}$$
 for $n \in \mathbb{N}$, $n \gt 0$. The [[geometric realization]] of $\mathbf{S}^n$ is equivalent to the topological $n$-sphere.
 
 See [Ehlers/Porter p. 8](http://arxiv.org/PS_cache/math/pdf/9904/9904039v1.pdf#page=8).
