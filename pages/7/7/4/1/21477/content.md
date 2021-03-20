@@ -29,9 +29,9 @@ Every [[Stonean space]] decomposes as a [[coproduct]] of three [[clopen subsets]
 
 By [[Gelfand-type duality for commutative von Neumann algebras]],
 the category of hyperstonean spaces and open continuous maps
-is equivalent to the category of [[localizable Boolean algebras]],
-the opposite category of [[measurable locales]],
-and the opposite category of [[commutative von Neumann algebras]].
+is equivalent to the opposite category of [[localizable Boolean algebras]],
+the category of [[measurable locales]],
+and the opposite category of commutative [[von Neumann algebras]].
 
 ## References
 
