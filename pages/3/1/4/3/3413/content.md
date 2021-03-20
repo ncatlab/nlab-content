@@ -1,10 +1,15 @@
 
 
-**John Michael Boardman** is a British-born mathematician, specialised in algebraic and differential [[topology]]. He received his Ph.D. from the University of Cambridge in 1964. His thesis advisor was C. T. C. Wall. He was formerly at the University of Cambridge, England; he is currently a full professor at Johns Hopkins University in Baltimore, USA.
+**John Michael Boardman** (1938-2021) was a British-born mathematician, specialised in [[algebraic topology]] and [[differential topology]]. He received his Ph.D. from the University of Cambridge in 1964. His thesis advisor was [[C. T. C. Wall]]. He was formerly at the University of Cambridge, England; later a full professor at Johns Hopkins University in Baltimore, USA.
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Boardman)
+
+* [JH University's obituary](https://hub.jhu.edu/2021/03/19/michael-boardman-obituary/)
 
 * [homepage](http://www.math.jhu.edu/~jmb/)
 
-* [wikipedia](http://en.wikipedia.org/wiki/Michael_Boardman)
+## Selected writings
+
 
 Boardman introduced the [[stable homotopy theory|stable homotopy category]] in 1969. His notes on this subject were never formally published, but [[Rainer Vogt]] gave a course on this subject in Aarhus in 1969:  
 
@@ -18,10 +23,10 @@ He coauthored with [[Vogt]] the famous book
 This book introduced the notion of [[weak Kan complex]] that was later popularized by [[André Joyal]] under the name [[quasi-category]] as a natural basis for the  [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]].
 
 
-See also: _Homotopy invariant algebraic structures_: _a conference in honor of J. Michael Boardman_ edited by Jean-Pierre Meyer, Jack Morava, and W. Stephen Wilson. AMS, 1999, CONM/239.
+See also: _Homotopy invariant algebraic structures_: _a conference in honor of J. Michael Boardman_ edited by Jean-Pierre Meyer, [[Jack Morava]], and [[W. Stephen Wilson]]. AMS, 1999, CONM/239.
 
 
-## Selected writings
+
 
 Introducing the [[Boardman homomorphism]]:
 
