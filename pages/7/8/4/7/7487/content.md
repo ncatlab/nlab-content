@@ -31,6 +31,11 @@ A [[subset]] $A$ of a DCPO is Scott-[[open subset|open]] iff it's an [[upper sub
 
 The [[specialisation order]] of the Scott topology of a DCPO is its original order (but the Scott topology is finer than the [[specialisation topology]]).
 
+## Related entries
+
+* [[domain theory]]
+
+* [[continuous lattice]]
 
 [[!redirects dcpo]]
 [[!redirects dcpo's]]
