@@ -741,6 +741,17 @@ Discussion in [[homotopy type theory]]:
 
 * {#Scoccola19} Luis Scoccola, _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
 
+Exposition from the point of view of [[modal homotopy type theory|modal homotopy theory]]:
+
+* [[Urs Schreiber]], _[[nLab:differential cohesion and idelic structure|Fractures, Ideles and the Differential Hexagon]]_, talk at _[Workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, CUNY Graduate Center, August 12-14 2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1806/in/channel/55/))
+
+* [[Urs Schreiber]], _[[schreiber:Differential cohesion and Arithmetic geometry]]_, talk at [Karslruher Weihnachts-Workshop 2015](http://www.math.kit.edu/iag3/~herrlich/seite/weihnachts-workshops)
+
+Formalization in [[cohesive homotopy type theory|cohesive]] [[modal homotopy type theory|modal homotopy type theory]] [[homotopy type theory]]: 
+
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+
+
 See also
 
 * [[John Greenlees]], _Tate cohomology in axiomatic stable homotopy theory_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.490.322&rep=rep1&type=pdf))
