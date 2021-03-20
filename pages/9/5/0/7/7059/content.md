@@ -270,6 +270,11 @@ See also
 
 * {#Shulman19} [[Mike Shulman]], _Comonadic modalities and cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://felix-cherubini.de/modal-workshop.html)_, 2019 ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019a.pdf), [talk recording](https://youtu.be/GA93Hjh-Alk))
 
+Formalization of the shape/flat-[[fracture square]] ([[differential cohomology hexagon]]):
+
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+
+
 [[!redirects cohesive homotopy type theories]]
 
 [[!redirects cohesive homotopy type]]
