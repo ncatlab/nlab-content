@@ -901,3 +901,7 @@ In conclusion, the situation is summarized by the following table.
 * {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive ∞-topos]]_, based on Habilitation thesis, Hamburg 2011 ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 * {#Schreiber14} [[Urs Schreiber]], _[[schreiber:What, and for what is Higher geometric quantization]]_, notes for a talk given at _[Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html)_, Oxford, July 5-8 2014
+
+Related talk notes:
+
+* [[Urs Schreiber]], _[[schreiber:Differential cohesion and Arithmetic geometry]]_, talk at [Karslruher Weihnachts-Workshop 2015](http://www.math.kit.edu/iag3/~herrlich/seite/weihnachts-workshops)
