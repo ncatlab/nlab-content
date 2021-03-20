@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[metrisable space|metrisable]] [[topological space]] $Y$ is an _absolute neighborhood retract_ if for _any_ [[embedding of topological spaces|embedding]] $Y \subset Z$ as a [[closed subspace]] in a [[metrisable topological space]] $Z$, $Y$ is a [[neighborhood retract]] of $Z$.
+A [[metrisable space|metrisable]] [[topological space]] $Y$ is an _absolute neighborhood retract_  (ANR) if ([Borsuk 32, p. 222](#Borsuk32)) for _any_ [[embedding of topological spaces|embedding]] $Y \subset Z$ as a [[closed subspace]] in a [[metrisable topological space]] $Z$, $Y$ is a [[neighborhood retract]] of $Z$.
 
 A [[metrisable space|metrisable]] topological space $Y$ is an _absolute retract_ if for _any_ embedding $Y\subset Z$ as a [[closed subspace]] in a [[metrisable topological space]] $Z$, $Y$ is a [[retract]] of $Z$.
 
@@ -39,6 +39,16 @@ A [[metrisable topological space]] is an absolute retract precisely if it is
 
 
 ## References
+
+The notion of _absolute neighbourhood retract_ is due to
+
+* {#Borsuk32} [[Karol Borsuk]], _Über eine Klasse von lokal zusammenhängenden Räumen_, Fund. Math **19** (1932) 220-242 ([dml:212574](https://eudml.org/doc/212574), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm19/fm19119.pdf))
+
+Further development:
+
+* [[Olof Hanner]], _Some theorems on absolute neighbourhood retracts_, Akriv F&ouml;r Matematik Band 1 nr 30 (1950) ([doi:10.1007/BF02591376](https://doi.org/10.1007/BF02591376))
+
+* [[Karol Borsuk]], _Concerning the classification of topological spaces from the stand point of the theory of retracts_, Fundamenta Mathematicae **46** (3) (1959) 321-330 ([dml:213516](https://eudml.org/doc/213516))
 
 * [[Karol Borsuk]], _Theory of retracts_, Vol. 44. Państwowe Wydawn. Naukowe, 1967
 
