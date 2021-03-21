@@ -21,6 +21,10 @@ On [[Cartesian bicategories]]:
 
 * [[Aurelio Carboni]], [[Max Kelly]], [[Bob Walters]], [[Richard Wood]], _Cartesian Bicategories II_, Theory and Applications of Categories, Vol. 19, 2008, No. 6, pp 93-124. ([arXiv:0708.1921](https://arxiv.org/abs/0708.1921), [tac:19-06](http://www.tac.mta.ca/tac/volumes/19/6/19-06abs.html))
 
+On [[monoid objects in monoidal categories]]:
+
+* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
+
 
 category: people
 
