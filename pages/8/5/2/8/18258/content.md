@@ -23,13 +23,15 @@ Often this property is considered for [[open covers]], see at _[[locally finite 
 
 ## Related concepts
 
-* [[locally finite cover]]
-
-* [[locally finite set of subsets]]
 
 * [[countably locally finite set of subsets]]
 
 * [[countably locally discrete set of subsets]]
+
+* [[locally finite cover]]
+
+* [[locally finite cell complex]]
+
 
 ## References
 
