@@ -21,15 +21,10 @@ A refinement of the notion of [[covering dimension]] for [[Heyting space]]s that
 
 ## Related concepts
 
-* [[dimension]]
+[[!include notions of dimension -- contents]]
 
-  * [[homotopy dimension]]
 
-  * [[cohomological dimension]]
 
-  * [[covering dimension]]
-
-  * **Heyting dimension**
 
 ## References
 
