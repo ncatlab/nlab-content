@@ -33,5 +33,12 @@ That paper in the LNM Gummersbach volume has only short sketches of proofs. Ther
 
 * Francis Borceux, _Sur les localisations alg&#233;briques_, Preprint, Rapp. S&#233;m. Math. Pures, Univ. Louvain, Louvain, Belgium, 1981
 
+On [[monoid objects in monoidal categories]]:
+
+* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
+
+
+
+
 category: people
 [[!redirects F. Borceux]]
