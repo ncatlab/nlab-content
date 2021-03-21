@@ -24,7 +24,7 @@ In [[topology]], a _separable metric space_ is a [[topological space]] that is b
  {#PropertiesDimension}
 
 \begin{prop}
-For separable metric spaces, the following notions of [[dimension]] all (exist and) coincide
+For separable metric spaces, the following notions of [[dimension]] all (exist and) coincide and are thus uniformly referred to as the _[[dimension of a separable metric space]]_:
 
 1. small and large inductive dimension;
 
