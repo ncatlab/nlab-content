@@ -255,9 +255,7 @@ such that :
     \,,
   $
 
-  and the quotient projectiion is locally trivial (...);
-
-* the _shear map_ 
+* **(principality)** the _shear map_ 
 
   $
     \array{
@@ -271,7 +269,33 @@ such that :
     }
   $
 
-  is an isomorphism.
+  is an [[isomorphism]].
+
+* {#EquivariantLocalTriviality} (**local triviality**) quotient projection is locally trivial, in that there exists an [[open cover]] $U \to X$ of [[topological G-spaces]] and a $G$-equivariant trivialization of the [[pullback bundle|pullback]] of $P$ to $U$:
+
+\begin{xymatrix}
+  {U} \times \mathcal{G}
+  \ar@(ul,ur)|-{ \mathcal{G} \rtimes_\alpha G }
+  \ar[d]_{
+    p_1
+  }
+  \ar[rr]
+  \ar@{}[drr]|-{ \mbox{\tiny\rm (pb)} }
+  &&
+  {P}
+  \ar@(ul,ur)|-{ \mathcal{G} \rtimes_\alpha G }
+  \ar[d]^-{p}
+  \\
+  \mathllap{\exists\;\;}
+  {U}
+  \ar@(dl,dr)|-{G}
+  \ar@{->>}[rr]_-{ \mathrm{open} }
+  &&
+  {X}
+  \ar@(dl,dr)|-{G}
+\end{xymatrix}
+
+
 
 \end{defn}
 
@@ -283,12 +307,27 @@ such that :
 \begin{prop}\label{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}
 (**principal bundles internal to $G$-spaces are equivalent to tom Dieck-bundles**)
 \linebreak
-  The $G$-equivariant $(\mathcal{G},\alpha)$-principal bundles in the [[internalization|internal]] sense of Def. \ref{EquivariantPrincipalBundles} are [[equivalence of categories|equivalent]] to the $(G,\alpha,\mathcal{G})$-principal bundles in the sense of [tom Dieck 69](#tomDieck69).
+  The 
+  $G$-equivariant $(\mathcal{G},\alpha)$-principal bundles in the [[internalization|internal]] sense of Def. \ref{EquivariantPrincipalBundles} form a [[full subcategory]] of the $(G,\alpha,\mathcal{G})$-principal bundles in the sense of [tom Dieck 69](#tomDieck69) on those which admit not just a local trivialization, but a $G$-equivariant local trivialization (as [above](#EquivariantLocalTriviality)).
 \end{prop}
 \begin{proof}
   This follows immediately by the fact ([this Prop.](equivariant+group#ActionsOfEquivariantGroupsAsSemidirectProductGroupActions)) that $G$-equivariant actions of [[equivariant groups]] $(G,\alpha)$ are equivalent to plain actions of the [[semidirect product group]] $\mathcal{G} \rtimes_\alpha G$.
 \end{proof}
 
+\begin{remark}\label{SufficientConditionForEquivariantEnhancementOfLocalTrivialization}
+  **(sufficient condition for plain local trivialization to have equivariant enhancement)**
+  A sufficient conditions for existence of plain local trivialization to imply a $G$-equivariant local trivialization, and hence for the inclusion in Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles} to be an actual [[equivalence of categories]], is that:
+
+1. $G$ is a [[finite group]];
+
+1. $X$ is a [[locally compact topological space|locally compact]] [[separable metric space]] of [[finite number|finite]] [[dimension of a separable metric space|dimension]] and with a [[finite number]] of $G$-[[orbit types]];
+
+1. $\mathcal{G}$ is a [[locally compact topological space|locally compact]] [[separable metric space]] such that for every $G$-[[orbit type]] $G/H \subset X$ the [[fixed locus]] $\mathcal{G}^H$ is an [[absolute neighbourhood retract]] (such as a [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[topological manifold]] or a [[finite number|finite]]-[[dimension of a cell complex|dimensional]] and [[locally finite CW-complex|locally finite]] [[CW-complex]], by the discussion [there](absolute+retract#Examples)).
+
+Because ([Atiyah 66, p. 374](KR+cohomology+theory#Atiyah66)) then 
+for every plain local trivialization around any [[orbit]] the [[equivariant Tietze extension theorem]] implies the existence of an [[equivariant function]] to $\mathcal{G}$ on an [[open neighbourhood]] of that orbit, which thus constitutes a $G$-equivariant local trivialization.
+
+\end{remark}
 
 ## Examples
 
