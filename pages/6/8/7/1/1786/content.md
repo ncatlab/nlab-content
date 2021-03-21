@@ -111,6 +111,14 @@ The terminology $H$-space is a definition in a Chapter IV, Section 1 (dedicated 
 
 * [[Jean-Pierre Serre]], _Homologie singuli&#232;re des espaces fibr&#233;s. Applications._, Ann. Math. __54__ (1951), 425--505. 
 
+More general notion of [[internalization|internal]] H-objects:
+
+
+* [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
+
+
+
+
 Some other papers in the 1950s include
 
 * [[Edwin Spanier]], [[Henry Whitehead]], _On fibre spaces in which the fibre is contractible_, Comment. Math. Helv. __29__, 1955, 1--8.
