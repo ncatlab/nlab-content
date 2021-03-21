@@ -41,6 +41,8 @@ So, for instance, a compact Hausdorff space that is second-countable is metrisab
 
 * [[metric space]]
 
+* [[separable metric space]]
+
 * [[topological space]]
 
 * [[Polish space]]
