@@ -10,17 +10,21 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-Many structures whose "traditional" definition takes place in [[Set]] (or some other familiar category) can be formulated "internally" to any other category (or categorical structure) $C$ with "enough structure."
+Any [[mathematical structure]] whose traditional [[Bourbaki]]-style definition is formulated within [[set theory]] can be formulated *internally* to any [[category]]that admits all those types of operations (usually: [[universal constructions]]) on its [[objects]] that the traditional definition applies to [[sets]], hence to the [[objects]] of the [[base topos|base]] category of [[Sets]].
 
-* If the category is equipped with the structure of a [[site]], then geometrical notions, such as defining [[morphism|arrow]]s locally on the domain with patching conditions (or more generally [[descent]] theory), exist inside it. 
-* If it is a [[finitely complete category]], the existence of (finite) [[product]]s and [[terminal object]]s means that [[variety of algebras|varieties of algebras]] can be defined. 
+* If the category is equipped with the structure of a [[site]], then geometrical notions, such as defining [[morphisms]] locally on the domain with patching conditions (or more generally [[descent]] theory), exist inside it. 
+
+* If it is a [[finitely complete category]], the existence of [[finite products]] and [[terminal objects]] means that [[variety of algebras|varieties of algebras]] can be defined. 
+
 * If the category is a [[topos]] with a [[natural numbers object]], then one can do a certain sort of "ordinary" mathematics inside it, specifically [[predicative mathematics|impredicative]] [[constructive mathematics]] without the fancier tools of [[model theory]] or (ironically) [[category theory]].
+
 * Further extra conditions on the category, such as being a [[Boolean topos]] or being a [[superextensive site]], bring the internal mathematics closer to that of $Set$.
+
 * If the category is a [[(infinity,1)-topos]], then one could do most of ordinary constructive mathematics inside of it, including category theory, set theory, model theory, and higher category theory. Adding the [[principle of excluded middle]] or the [[axiom of choice|axiom]] of [[choice object|choice set]]/[[0-groupoids]] results in internal classical mathematics. 
 
 The structure required on $C$ is often referred to as a [[doctrine]].  The question of what exactly a "doctrine" is is a tricky one, but for purposes of this page, we take a "doctrine" to mean a certain type of structure (or [[property-like structure]]) with which a category can be equipped.  For example, there is a doctrine of monoidal categories, a doctrine of categories with finite limits, a doctrine of cartesian closed categories, and so on.
@@ -98,6 +102,16 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 
 * [[internal logic]]
+
+
+## References
+
+With focus on [[internal monoids]] and [[internal groups]]:
+
+
+* [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
+
+
 
 [[!redirects Internalization]]
 [[!redirects internal]]
