@@ -104,6 +104,8 @@ To see this take a countable cover and select a point in each member of the cove
 
 ## Related concepts
 
+* [[separable metric space]]
+
 * [[separable Hilbert space]]
 
 * [[Hausdorff topological space]] 
