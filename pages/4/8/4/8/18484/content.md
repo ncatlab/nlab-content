@@ -15,3 +15,6 @@ $$
 ## Related concepts
 
 * [[Farrell-Tate cohomology]]
+
+[[!include notions of dimension -- contents]]
+
