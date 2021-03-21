@@ -17,7 +17,13 @@ Similarly, a [[pointed object]] in a category with initial object $\emptyset$ an
 
 #Examples#
 
-* An [[interval object]] is a bi-pointed object.
+* The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[axiom of choice|choice sets]] are bi-pointed objects. 
+
+* In general, any non-degenerate subobject classifier in a topos or pretopos is a bi-pointed object.
+
+* Any [[interval object]] is a bi-pointed object with a [[2-morphism]] connecting the two global elements. 
+
+* A [[two-valued object]] is an [[initial object|initial]] bi-pointed object.
 
 #Closed structure#
 
@@ -82,4 +88,6 @@ $
   Y
 $
 
+## See also
 
+* [[two-valued object]]
