@@ -19,6 +19,19 @@ A [[metrisable space|metrisable]] [[topological space]] $Y$ is an _absolute neig
 
 A [[metrisable space|metrisable]] topological space $Y$ is an _absolute retract_ if for _any_ embedding $Y\subset Z$ as a [[closed subspace]] in a [[metrisable topological space]] $Z$, $Y$ is a [[retract]] of $Z$.
 
+## Examples
+
+\begin{example}
+  Every ([[finite number|finite]]-[[dimension|dimension of a manifold]]) [[topological manifold]] is an [[absolute neighbourhood retract]].
+
+\end{example}
+
+\begin{example}
+  Every [[finite number|finite]]-[[dimension of a CW complex|dimensional]] [[locally finite CW complex|locally finite]] [[CW-complex]] is an [[absolute neighbourhood retract]].
+
+\end{example}
+
+
 ## Properties
 
 A [[metrisable topological space]] is an absolute retract precisely if it is 
@@ -52,7 +65,7 @@ Further development:
 
 * [[Karol Borsuk]], _Theory of retracts_, Vol. 44. Państwowe Wydawn. Naukowe, 1967
 
-* {#Hu65} Sze-Tsen Hu, _Theory of Retracts_, Wayne State University Press (1965)
+* {#Hu65} [[Sze-Tsen Hu]], _Theory of Retracts_, Wayne State University Press (1965) ([google-books](https://books.google.ae/books/about/Theory_of_Retracts.html?id=GVTvAAAAMAAJ&redir_esc=y))
 
 * [[Sibe Mardešić]], _Absolute Neighborhood  Retracts and Shape  Theory_ ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mardesic.pdf))
 
