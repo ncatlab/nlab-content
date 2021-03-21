@@ -207,6 +207,8 @@ See at _[[global equivariant homotopy theory]]_.
 
 ## Related concepts
 
+* [[orbit]], [[orbit type]]
+
 * [[equivariant homotopy theory]]
 
 * [[global orbit category]], [[global equivariant stable homotopy theory]]
