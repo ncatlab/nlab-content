@@ -144,6 +144,11 @@ etc.
 * A group object in a [[functor category]] is a [[group functor]].
 * A group object in [[schemes]] is a [[group scheme]].
 * A group object in an [[opposite category]] is a [[cogroup object]].
+
+* A group object in [[G-sets]]/[[G-spaces]] is a $G$-[[equivariant group]], namely a [[semidirect product group]].
+
+
+
 * A group object in [[stacks]] is a [[group stack]].
 
 ## Theory 
@@ -167,8 +172,17 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 ## References
 
+On [[internalization]], [[H-spaces]], [[monoid objects]], [[group objects]] in [[algebraic topology]]/[[homotopy theory]] and introducing the [[Eckmann-Hilton argument]]:
 
-* [[Saunders MacLane]], chapter III, section 6 in _[[Categories for the Working Mathematician]]_, Springer (1971) 
+* [[Beno Eckmann]], [[Peter Hilton]], *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221
+([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
+
+* [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
+
+Review in:
+
+
+* [[Saunders MacLane]], chapter III, section 6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
 
 [[!redirects group objects]]
 
