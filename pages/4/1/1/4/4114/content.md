@@ -131,6 +131,11 @@ $$
 
 ## Related concepts
 
+
+* [[locally finite set of subsets]]
+
+* [[locally finite cell complex]]
+
 * [[cover]], [[open cover]], 
 
 * [[paracompact topological space]]
