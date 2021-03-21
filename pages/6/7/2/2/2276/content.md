@@ -47,9 +47,9 @@ If the original space is [[paracompact space|paracompact]] Hausdorff, then every
 
 ## Related concepts
 
-* [[coadjoint orbit]]
+* [[orbit category]], [[orbit type]]
 
-* [[orbit category]]
+* [[coadjoint orbit]]
 
 * [[coinvariant]]
 
