@@ -162,6 +162,8 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[complete metric space]] and [[localic completion]]
 
+* [[separable metric space]]
+
 [[!include generalized uniform structures - table]]
 
 
