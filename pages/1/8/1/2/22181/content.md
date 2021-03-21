@@ -30,7 +30,7 @@ This says that the type is [[dependent type|dependent]] on the type A and induct
 
 ## Examples
 
-* The type of [[boolean|booleans]] $\mathbf{2}$ is the suspension type of the [[empty type]] $\mathbf{0}$. 
+* The [[two-valued type]] $\mathbf{2}$ is the suspension type of the [[empty type]] $\mathbf{0}$. 
 
 * The [[interval type]] $I$ is the suspension type of the [[unit type]] $\mathbf{1}$. 
 
