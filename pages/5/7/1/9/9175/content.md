@@ -34,7 +34,7 @@ Let $G$ be a Lie group action on a manifold $X$ (left action).
 
 We define the quotient stack $[X/G]$ as 
 $$
-[X/G](Y):=\{P\xrightarrow{p} Y, P\xrightarrow{f}X | P\rightarrow Y \text{ is a G-bundle,} f  \text{ is } G\text{-equivariant}\}.
+[X/G](Y):=\{P\xrightarrow{p} Y, P\xrightarrow{f}X | P\rightarrow Y \,\text{is a G-bundle,}\, f \,\text{is}\, G\text{-equivariant}\}.
 $$ 
 
 Morphisms of objects are $G$-equivariant isomorphisms. This definition is taken from Heinloth's [Some notes on Differentiable stacks](https://www.uni-due.de/~hm0002/stacks.pdf).
@@ -62,29 +62,26 @@ For action groupoid $\mathcal{G}=G\ltimes X$, let $B\mathcal{G}$ be the correspo
 
 ## Universal property (??) for Quotient stack
 
-Let $G$ be a Lie group and $X$ be a manifold with a $G$ action on it. 
+Let $G$ be a Lie group and $X$ be a manifold with a $G$-action. 
 
-Suppose $G$ acts freely, properly on $X$ then, we have mentioned that the quotient stack $[X/G]$ has to be the stack $\underline{X/G}$. The proper, free action of $G$ on $X$ gives a principal $G$ bundle $X\rightarrow X/G$. This $X\rightarrow X/G$ gives a map of stacks $\underline{X}\rightarrow \underline{X/G}$. We call the map of stacks $\underline{X}\rightarrow \underline{X/G}$ to be a principal $G$ bundle. 
+Supposing that $G$ acts freely and properly on $X$, the quotient stack $[X/G]$ will be the stack $\underline{X/G}$. 
+This action yields a [[principal bundles | principal $G$-bundle]] of manifolds $X\rightarrow X/G$, which gives a morphism of stacks $\underline{X}\rightarrow \underline{X/G}$. We refer to this stack morphism $\underline{X}\rightarrow \underline{X/G}$ as a principal $G$-bundle of stacks. 
 
-A map of stacks $\underline{M}\rightarrow \mathcal{D}$ is said to be representable morphism if given a manifold $N$ and a map of stacks $\underline{N}\rightarrow \mathcal{D}$, the fiber product $\underline{M}\times_{\mathcal{D}}\underline{N}$ is a manifold. 
+More precisely, a stack morphism $\underline{M}\rightarrow \mathcal{D}$ is said to be **representable** if given a manifold $N$ and a stack morphism $\underline{N}\rightarrow \mathcal{D}$, the fiber product $\underline{M}\times_{\mathcal{D}}\underline{N}$ is a manifold. 
+A representable morphism of stacks is said to be a **principal $G$ bundle of stacks** if the map $\underline{M}\times_{\mathcal{D}}\underline{N}\rightarrow N$ is a principal $G$-bundle of manifolds. 
+The stack morphism $\underline{X}\rightarrow \underline{X/G}$ is a principal $G$-bundle of stacks, since the map
+$X\rightarrow X/G$ is a principal $G$-bundle of manifolds. 
 
-A map of stacks $\underline{M}\rightarrow \mathcal{D}$ is said to be a principal $G$ bundle if it is a representable morphism and the map of manifolds $\underline{M}\times_{\mathcal{D}}\underline{N}\rightarrow N$ is a principal $G$ bundle. 
+The property "$\underline{X}\rightarrow \underline{X/G}$ is a principal $G$-bundle" is the main ingredient in the definition of the quotient stack $[X/G]$.  Irrespective of whether or not $G$ acts freely and properly on $X$, we still want to define a *quotient stack* as a stack $\mathcal{D}$ such that $\underline{X}\rightarrow \mathcal{D}$ is a principal $G$-bundle of stacks in a "minimal" way. 
 
-It is easy to see that the map of stacks $\underline{X}\rightarrow \underline{X/G}$ is a principal $G$ bundle as the map of manifolds
-$X\rightarrow X/G$ is a principal $G$ bundle. 
+The **quotient stack of the action of $G$ on $X$** is a stack $\mathcal{D}$ equipped with a principal $G$-bundle of stacks $\underline{X}\rightarrow \mathcal{D}$ such that any other principal $G$-bundle of stacks $\underline{X}\rightarrow \mathcal{C}$ factors through $\underline{X}\rightarrow \mathcal{D}$. 
 
-We see the property "$\underline{X}\rightarrow \underline{X/G}$ is a principal $G$ bundle" as main  ingredient to define the quotient stack $[X/G]$.  Irrespective of $G$ acting freely and properly on $X$, we want to define quotient stack as a stack $\mathcal{D}$ such that $\underline{X}\rightarrow \mathcal{D}$ is a principal $G$ bundle in minimal terms. 
-
-More precisely, by quotient stack of the action of $G$ on $X$, we mean a stack $\mathcal{D}$ that **comes with a map of stacks $\underline{X}\rightarrow \mathcal{D}$** that is a principal $G$ bundle (in the sense defined above) any map of stacks $\underline{X}\rightarrow \mathcal{C}$ that is a principal $G$ bundle factors through this map $\underline{X}\rightarrow \mathcal{D}$. 
-
-If $G$ acts freely and properly, then obvious choice for $\mathcal{D}$ is the stack $\underline{X/G}$. 
-
-Using the universal property, it turns out that $\mathcal{D}$ has to be the stack in the definition of quotient stack 
+If $G$ acts freely and properly, then an obvious choice for $\mathcal{D}$ is the stack $\underline{X/G}$. By the universal property, $\mathcal{D}$ must be precisely the stack appearing in the definition of quotient stacks, i.e. 
 $$
-\mathcal{D}(Y):=\{P\xrightarrow{p} Y, P\xrightarrow{f}X | P\rightarrow Y \text{ is a G-bundle,} f  \text{ is } G\text{-equivariant}\}.
+\mathcal{D}(Y):=\{P\xrightarrow{p} Y, P\xrightarrow{f}X | P\rightarrow Y \,\text{is a}\, G\text{-bundle,}\, f  \,\text{is}\, G\text{-equivariant}\}.
 $$ 
 
-Morphisms of objects are $G$-equivariant isomorphisms. We fix the notation $[X/G]$ for $\mathcal{D}$ and call it the quotient stack. 
+Morphisms of quotient stacks are isomorphisms of principal $G$-bundles that commute with $G$-equivariant morphisms. Fixing notation, we write $[X/G]$ for $\mathcal{D}$ and refer to this as **the quotient stack**. 
 
 
 
