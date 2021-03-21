@@ -1,3 +1,9 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 The small and large inductive dimensions, together with the Lebesgue [[covering dimension]] are the three main notions of [[dimension]] for [[topological spaces]].
@@ -19,4 +25,19 @@ and $Ind(X)\le n$ ($n\ge0$) if for any [[closed subset]] $A\subset X$
 and any [[open subset]] $V\subset X$ such that $A\subset V$
 there is an [[open subset]] $U\subset X$ such that $A\subset U\subset V$
 and $Ind(\bar U\setminus U)\le n-1$.
+
+## Related concepts
+
+[[!include notions of dimension -- contents]]
+
+
+## References
+
+* {#Engelking78} [[Ryszard Engelking]], _Dimension Theory_, Mathematical Library **19**, North-Holland Publishing/Polish Scientific Publishers 1978 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/engelking.pdf))
+
+* {#Engelking95} [[Ryszard Engelking]], _Theory of Dimensions -- Finite and Infinite_, Sigma Series in Pure Mathematics **10**, Helderman 1995 ([pdf](http://www.gbv.de/dms/goettingen/187241074.pdf))
+
+
+
+
 
