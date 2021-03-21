@@ -38,7 +38,7 @@ Let
 
 * $X$ a [[topological G-space]],
 
-* $A \subset X^G \subset X$ a [[fixed point|G-fixed]] [[topological subspace]] of $X$,
+* $A \subset X$ a [[topological subspace|sub]] [[G-space]] of $X$,
 
 * $E$ be a [[finite-dimensional vector space|finite-dimensional]] [[orthogonal group|orthogonal]] $G$-[[linear representation]], regarded as a [[Euclidean space|Euclidean]] [[topological G-space]],
 
@@ -85,9 +85,11 @@ If
 
    1. with a [[finite number]] of [[orbit type|orbit types]];
 
-1. the [[domain]] $A \subset X^G \subset X$ is a
+1. the [[domain]] $A \subset X$ is a
 
-   * [[closed subspace]];
+   * [[closed subspace|closed]]
+
+   * [[topological subspace|sub]]-[[G-space]];
   
 1. the [[codomain]] [[G-space]] is a
 
@@ -171,6 +173,8 @@ $$
 ## Related concepts
 
 [[!include extension theorems -- table]]
+
+* [[equivariant principal bundle]]
 
 ## References
  {#References}
