@@ -120,6 +120,8 @@ where $\mathbf{B} M$ is (again) $M$ regarded as a one-object category.
 
 The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^{\mathbf{B} M}$. When $C$ is $Set$ this is called [[MSet]].
 
+Considering this in [[enriched category theory]] yields the [[internalization|internal]] notion of _[[action objects]]_.
+
 ### Actions of a category
 
 One can[^2] also define an [[action of a category on a set|action of a category]] $D$ on the category $C$ as a functor from $D$ to $C$, but usually one just calls this a [[functor]].
