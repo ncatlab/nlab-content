@@ -165,6 +165,16 @@ Simulation of Milky Way-like [[galaxies]]:
 
 * [VINTERGATAN simulation](http://www.astro.lu.se/~florent/vintergatan.php)
 
+#### Cosmic Dawn
+ {#CosmicDawn}
+
+Simulation of [[galaxy formation]] in feedback with [[cosmic reionization]]: 
+
+* [[Pierre Ocvirk]] et al. , _Cosmic Dawn (CoDa): the First Radiation-Hydrodynamics Simulation of Reionization and Galaxy Formation in the Local Universe_ ([arXiv:1511.00011](https://arxiv.org/abs/1511.00011))
+
+* [[Pierre Ocvirk]], et al., _Cosmic Dawn II (CoDa II): a new radiation-hydrodynamics simulation of the self-consistent coupling of galaxy formation and reionization_ ([arXiv:1811.11192](https://arxiv.org/abs/1811.11192))
+
+
 #### Other
 
 * _The Quijote simulations_ ([arXiv:1909.05273](https://arxiv.org/abs/1909.05273))
