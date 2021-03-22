@@ -19,7 +19,9 @@
 
 * [[QCD cosmology]]
 
-* [[structure formation]]
+* [[cosmic reionization]]
+
+* [[cosmic structure formation]]
 
 * [[cosmological constant]], [[dark energy]]
 
