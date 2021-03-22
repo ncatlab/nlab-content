@@ -6,9 +6,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
 =--
 #### 2-Category theory
 +--{: .hide}
