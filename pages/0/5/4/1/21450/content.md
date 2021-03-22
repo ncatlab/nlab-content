@@ -196,3 +196,11 @@ the many experimental cross section measurements.
 > Although QCD is defined by a seemingly simple Lagrangian, it specifies a problem that has defied solution for more than forty years. The key challenges in modern nuclear and high-energy physics are to reveal the observable content of strong QCD and, ultimately, therefrom derive the properties of nuclei. 
 
 
+\linebreak
+
+* [[Guy de Teramond]], [[Stanley Brodsky]], _Longitudinal dynamics and chiral symmetry breaking in holographic light-front QCD_ ([arXiv:2103.10950](https://arxiv.org/abs/2103.10950))
+
+> In spite of the important progress of Euclidean lattice gauge theory, a  basic  understanding  of  the  mechanism of  color  confinement and its  relation  to  chiral  symmetry breaking in QCD has remained an unsolved problem. 
+
+> Recent [[holographic light front QCD|developments]] based on superconformal quantum mechanics in  light-front  quantization  and  its holographic  embedding on a higher  dimensional  gravity theory (gauge/gravity correspondence) have led to new analytic insights into the structure of hadrons and their  dynamics.
+
