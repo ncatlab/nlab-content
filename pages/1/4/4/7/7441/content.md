@@ -52,4 +52,3 @@
 
 * [[model structure for dendroidal complete Segal spaces]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/internal+infinity-categories+contents)</div>
