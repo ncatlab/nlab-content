@@ -171,6 +171,7 @@ The theory of group objects is an example of a [[Lawvere theory]].
 * [[ring]], [[ring object]]
 
 ## References
+ {#References}
 
 On [[internalization]], [[H-spaces]], [[monoid objects]], [[group objects]] in [[algebraic topology]]/[[homotopy theory]] and introducing the [[Eckmann-Hilton argument]]:
 
