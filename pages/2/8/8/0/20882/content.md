@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
-#### Category theory
+#### Categorical algebra
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include categorical algebra -- contents]]
 =--
 =--
 =--
