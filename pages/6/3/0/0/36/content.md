@@ -94,9 +94,7 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 * [[Lie algebra object]]
 
-* [[equivariant group]]
-
-* [[equivariant bundle]]
+* [[action object]]
 
 * [[internal category]], [[internal diagram]], [[internal groupoid]], [[groupoid object in an (∞,1)-category]], [[category object in an (∞,1)-category]]
 
@@ -108,7 +106,9 @@ A very different sort of general result has to do with the [[internal logic]] of
 * [[internal logic]]
 
 
+
 ## References
+ {#References}
 
 On internalization with focus on [[H-spaces]], [[internal monoids]] and [[internal groups]] (and proving the [[Eckmann-Hilton argument]]):
 
@@ -118,19 +118,31 @@ On internalization with focus on [[H-spaces]], [[internal monoids]] and [[intern
 
 * [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories III primitive categories_,  Math. Ann. **150** 165–187 (1963) ([doi:10.1007/BF01470843](https://doi.org/10.1007/BF01470843)) 
 
-Review of [[internal monoids]] and [[internal groups]] internal to [[Cartesian monoidal categories]]:
+Highlighting the role of the [[Yoneda lemma]] in internalization:
 
 * [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
 
-With focus on [[monoid objects]] and their [[action objects]]:
+Moreover with discussion of [[action objects]]:
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], Section V.6 of: _[[Sheaves in Geometry and Logic]]_, Springer 1992 ([doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0))
 
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], around p. 8 of: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
+See also:
+
+* Tao Lu, Zhenzhen Zhu, _The Action of Group Object in A Topos_,   Proceedings of:  _2015 International Conference on Management, Education, Information and Control_ ([doi:10.2991/meici-15.2015.312](https://doi.org/10.2991/meici-15.2015.312))
 
 More general internalization via [[sketches]]:
 
 * [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
+For more see at:
+
+* [[algebra over a Lawvere theory|algebras over]]$\,$ [[algebraic theories]]
+
+* [[algebra over a monad|algebras over]]$\,$ [[monads]]
+
+* [[algebra over an operad|algebras over]]$\,$ [[operads]]
 
 
 
