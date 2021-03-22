@@ -190,14 +190,17 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 ## Properties 
 
 ### General
+ {#PropertiesGeneral}
+
+* a [[closed subspace]] of a paracompact topological space is itself paracompact (e.g. [here](https://www.uio.no/studier/emner/matnat/math/MAT4520/v17/beskjeder/para.pdf#page=1));
 
 * __Dieudonne's theorem__: [[paracompact Hausdorff spaces are normal]] 
 
-* every paracompact finite-dimensional [[manifold]] has a [[partition of unity]]
+* every paracompact [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[topological manifold]] has a [[partition of unity]]
 
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
-  Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
+  Care should be taken as to in which [[category]] one considers [[partitions of unity]] on paracompact spaces: For example, analytic [[partitions of unity]] generally do not exist on ([[finite number|finite]] -[[dimension of a manifold|dimensional]]) [[smooth manifolds]], even when smooth ones do.
 
 * For paracompact Hausdorff spaces, all [[open covers]] are [[numerable open cover|numerable open covers]].
 
