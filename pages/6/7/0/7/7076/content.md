@@ -1,3 +1,4 @@
+[[!redirects cartesian closed model category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,13 +16,13 @@
 
 ## Idea
 
-A _cartesian closed model category_ is a [[cartesian closed category]] that is equipped with the structure of a [[monoidal model category]] in a compatible way, which combines the axioms for a [[monoidal model category]] and an [[enriched model category]].
+A __cartesian model category__ (alias __cartesian closed model category__) is a [[cartesian closed category]] that is equipped with the structure of a [[monoidal model category]] in a compatible way, which combines the axioms for a [[monoidal model category]] and an [[enriched model category]].
 
 ## Definition
 
 A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a cartesian closed category equipped with a [[model category|model structure]] that satisfies the following additional axioms:
 
-* ([[pushout-product axiom|Pushout?product axiom]]). If $f : X \to Y$ and $f' : X' \to Y'$ are cofibrations, then the induced morphism $(Y \times X') \cup^{X \times X'} (X \times Y') \to Y \times Y'$ is a cofibration that is trivial if either $f$ or $f'$ is.
+* ([[pushout-product axiom|Pushout-product axiom]]). If $f : X \to Y$ and $f' : X' \to Y'$ are cofibrations, then the induced morphism $(Y \times X') \cup^{X \times X'} (X \times Y') \to Y \times Y'$ is a cofibration that is trivial if either $f$ or $f'$ is.
 
 * (Unit axiom). The [[terminal object]] is cofibrant.
 
@@ -50,9 +51,9 @@ A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a c
 * [[Carlos Simpson]],  _Homotopy theory of higher categories_ (2012)
 
 [[!redirects cartesian closed model categories]]
-
-[[!redirects Cartesian close model category]]
-[[!redirects Cartesian close model categories]]
+[[!redirects cartesian model categories]]
 
 [[!redirects cartesian closed model structure]]
 [[!redirects cartesian closed model structures]]
+[[!redirects cartesian model structure]]
+[[!redirects cartesian model structures]]
