@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
-+--{: .hide}
-[[!include category theory - contents]]
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
 =--
 #### Internal categories
 +--{: .hide}
