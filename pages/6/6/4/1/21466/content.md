@@ -442,7 +442,7 @@ $$
   \phantom{AAA}
   [\Theta(v_1), \Theta(v_2) ]
   \;=\;
-  \Theta( \rho_{\Theta(v)1)}(v_2) )
+  \Theta( \rho_{\Theta(v_1)}(v_2) )
   \,.
 $$
 
