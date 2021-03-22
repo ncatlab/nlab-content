@@ -172,8 +172,6 @@ Internal to just the [[stable homotopy category]] it is a _[[homotopy module spe
 
 
 
-* Tao Lu, Zhenzhen Zhu, _The Action of Group Object in A Topos_,   Proceedings of:  _2015 International Conference on Management, Education, Information and Control_ ([doi:10.2991/meici-15.2015.312](https://doi.org/10.2991/meici-15.2015.312))
-
 [[!redirects module objects]]
 
 [[!redirects module in a monoidal category]]
