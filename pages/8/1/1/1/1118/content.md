@@ -181,7 +181,16 @@ On [[internalization]], [[H-spaces]], [[monoid objects]], [[group objects]] in [
 
 * [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories III primitive categories_,  Math. Ann. **150** 165–187 (1963) ([doi:10.1007/BF01470843](https://doi.org/10.1007/BF01470843)) 
 
+With emphasis of the role of the [[Yoneda lemma]]:
+
 * [[Saunders MacLane]], chapter III, section 6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
+
+In the broader context of internalization via [[sketches]]:
+
+* [[Michael Barr]], [[Charles Wells]], Section 4.1 of: _[[Toposes, Triples, and Theories]]_, Originally published by: Springer-Verlag, New York, 1985, republished in: Reprints in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
+
+
+With focus on internalization in [[sheaf toposes]]:
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]], Section II.7 of: _[[Sheaves in Geometry and Logic]]_, Springer 1992 ([doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0))
 
