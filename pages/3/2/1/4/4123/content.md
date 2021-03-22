@@ -1,5 +1,5 @@
 
-This page is about a property of [[Cech nerves]] in [[homotopy theory]]. For the "nerve theorem" in [[category theory]] see at _[[Segal conditions]]_. For the "nerve theorem" for [[monads with arities]] see [there](monad+with+arities#NerveTheorem).
+> This page is about a property of [[Cech nerves]] in [[homotopy theory]]. For the "nerve theorem" in [[category theory]] see at _[[Segal conditions]]_. For the "nerve theorem" for [[monads with arities]] see [there](monad+with+arities#NerveTheorem).
 
 ***
 
@@ -55,7 +55,7 @@ This is [[homotopy equivalence|homotopy equivalent]] to $X$.
 
 =--
 
-This is usually attributed to ([Borsuk1948](#Borsuk)). The proof relies on the existence of [[partitions of unity]] (see for instance the review [Hatcher, prop. 4G.2](#Hatcher)).
+This is usually attributed to ([Borsuk 1948](#Borsuk48)). The proof relies on the existence of [[partitions of unity]] (see for instance the review [Hatcher, prop. 4G.2](#Hatcher)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -66,46 +66,40 @@ This statement implies that in the [[cohesive (∞,1)-topos]] [[ETop∞Grpd]] th
 
 ## References
 
-Some earlier references on the nerve theorem include
+Original references:
 
-* [[K. Borsuk]], _On the imbedding of systems of compacta in simplicial complexes_ , Fund. Math. 35, (1948) 217&#8211;234
-{#Borsuk}
+* {#Borsuk48} [[Karol Borsuk]], _On the imbedding of systems of compacta in simplicial complexes_ , Fund. Math. 35, (1948) 217&#8211;234 ([dml:213158](https://eudml.org/doc/213158))
 
 * [[Jean Leray]], _L'anneau spectral et l'anneau filtr&#233; d'homologie d'un espace localement compact et d'une application continue_, J. Math. Pures Appl. (9) 29 (1950), 1&#8211;139.
 
-* [[André Weil]], _Sur les theoremes de de Rham_, Comment. Math. Helv. 26 (1952), 119&#8211;145.
-(See &#167;6.)
+* [[André Weil]], &#167;6. in: _Sur les theoremes de de Rham_, Comment. Math. Helv. 26 (1952), 119&#8211;145.
+
 
 * [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its  open covers_, Proc. Amer. Math. Soc. 18 (1967), 705&#8211;708.
 
-* [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math. 34 (1968), 105&#8211;112.  (See &#167;4.)
+* [[Graeme Segal]],  &#167;4. Zin: _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math. 34 (1968), 105&#8211;112. 
 
-* [[Armand Borel]] and [[Jean-Pierre Serre]],
-_Corners and arithmetic groups_,
+* [[Armand Borel]] and [[Jean-Pierre Serre]], Theorem&#160;8.2.1. in: _Corners and arithmetic groups_,
 Comment. Math. Helv. 48 (1973), 436&#8211;491.
-(See Theorem&#160;8.2.1.)
 
 A version for hypercovers is discussed in
 
-* [[Daniel Dugger]], [[Daniel C. Isaksen]],
-_Topological hypercovers and $\mathbb{A}^1$-realizations_,
-Math. Z. 246 (2004), no. 4, 667&#8211;689.
+* [[Daniel Dugger]], [[Daniel C. Isaksen]], _Topological hypercovers and $\mathbb{A}^1$-realizations_, Math. Z. 246 (2004), no. 4, 667&#8211;689
 
 A review appears as corollary 4G.3 in the textbook
 
-* [[Allen Hatcher]], _Algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)) .
-{#Hatcher}
+* {#Hatcher} [[Allen Hatcher]], _Algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)) .
+
 
 Some slightly stronger statements are discussed in
 
-* Anders Bj&#246;rner, _Nerves, fibers and homotopy groups_ , Journal of combinatorial theory, series A, 102 (2003), 88-93
+* Anders Bj&#246;rner, _Nerves, fibers and homotopy groups_, Journal of combinatorial theory, series A, 102 (2003), 88-93
 
-* Andrzej Nag&#243;rko, _Carrier and nerve theorems in the extension theory_ Proc. Amer. Math. Soc.  135  (2007), 551-558.  ([web](http://www.ams.org/journals/proc/2007-135-02/S0002-9939-06-08477-2/home.html))
+* Andrzej Nag&#243;rko, _Carrier and nerve theorems in the extension theory_, Proc. Amer. Math. Soc.  135  (2007), 551-558.  ([web](http://www.ams.org/journals/proc/2007-135-02/S0002-9939-06-08477-2/home.html))
 
-A nerve theorem for categories has been proved in
+A nerve theorem for categories:
 
-
-* Kohei Tanaka, _Cech complexes for covers of small categories_, Homology, Homotopy and Applications 19(1), (2017), pp. 281-291. [ArXiv Abstract 1508.03688](https://arxiv.org/abs/1508.03688)
+* Kohei Tanaka, _Cech complexes for covers of small categories_, Homology, Homotopy and Applications 19(1), (2017), pp. 281-291. [arXiv:1508.03688](https://arxiv.org/abs/1508.03688)
 
 [[!redirects nerve theorems]]
 
