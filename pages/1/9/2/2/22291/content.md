@@ -26,7 +26,7 @@
 
 **[[universal algebra]]**
 
-* [[Lawvere theory|algebras over]]$\,$ [[algebraic theories]]
+* [[algebra over a Lawvere theory|algebras over]]$\,$ [[algebraic theories]]
 
 * [[algebra over a monad|algebras over]]$\,$ [[monads]]
 
