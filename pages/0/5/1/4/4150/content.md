@@ -1,16 +1,16 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Category theory
+### Context
+#### Categorical algebra
 +-- {: .hide}
-[[!include category theory - contents]]
-=--
-#### Algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
+[[!include categorical algebra -- contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
@@ -21,7 +21,7 @@
 Broadly speaking, _categorical algebra_ is _[[algebra]]_ seen from and generalized via the point of view of [[category theory]]. 
 Thus it studies those aspects of categorical and category-like constructions which are in the spirit of pure algebra. 
 
-First and foremost this includes the study of [[monoidal category]] theory, and the corresponding notions of [[monoid objects]], [[module objects]].
+First and foremost this includes the study of [[monoidal category]] theory, and the corresponding [[internalization|internal]] notions of [[monoid objects]], [[module objects]], etc.
 
 More generally, it is about the study of 
 
