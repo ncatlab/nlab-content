@@ -102,7 +102,7 @@ Finally, a "strong cofibration" is defined in [DK80](#DwyerKanLocalizations) to 
 
 * {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284. ([pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
 
-* {#Lawson16} [[Tyler Lawson]], _Localization of enriched categories and cubical sets_, [arXiv:1602.05313](https://arxiv.org/abs/1602.05313)
+* {#Lawson} [[Tyler Lawson]], _Localization of enriched categories and cubical sets_, [arXiv:1602.05313](https://arxiv.org/abs/1602.05313)
 
 * {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
 
