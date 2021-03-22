@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -220,16 +219,7 @@ We say that a $G$-equivariant principal bundle is a [[principal bundle]] [[inter
 Given 
 
   * an [[equivariance group]] $G \in Groups(TopologicalSpaces)$;
- 
-  * a [[topological G-space]] (Def. \ref{TopologicalGSpaces})
 
-    $
-      (X,\rho) \in G Actions(TopologicalSpaces)
-      \,,
-    $ 
-
-    to be called the _base space_;
-  
   * an [[equivariant topological group]] (Def. \ref{EquivariantTopologicalGroup})
 
     $
@@ -242,18 +232,20 @@ Given
 
 a _$G$-equivariant $(\mathcal{G},\alpha)$-principal bundle over $(X,\rho)$ is:
 
-* a _total $G$-space_ $(P,\rho) \in G Actions(TopologicalSpaces)$;
+* an [[action object]] of $(\mathcal{G},\alpha)$, hence  
+   
+  * a _total [[topological G-space]]_ $(P,\rho) \in G Actions(TopologicalSpaces)$;
 
-* an [[action]] of $\mathcal{G}$ on $P$ (hence [[internalization|internal]] to [[G-spaces]]!);
+  * an [[action]] of $\mathcal{G}$ on $P$ (hence [[internalization|internal]] to [[G-spaces]]!);
 
-such that :
+such that, with the [[quotient]] denoted
 
-* the [[quotient]] is $X$:
+$$
+  P/\mathcal{G} \;\simeq\; X
+  \,,
+$$
 
-  $
-    P/\mathcal{G} \;\simeq\; X
-    \,,
-  $
+and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the following two conditions are satisfied:
 
 * **(principality)** the _shear map_ 
 
@@ -271,7 +263,7 @@ such that :
 
   is an [[isomorphism]].
 
-* {#EquivariantLocalTriviality} (**local triviality**) quotient projection is locally trivial, in that there exists an [[open cover]] $U \to X$ of [[topological G-spaces]] and a $G$-equivariant trivialization of the [[pullback bundle|pullback]] of $P$ to $U$:
+* {#EquivariantLocalTriviality} (**local triviality**) the quotient projection is locally trivial, in that there exists an [[open cover]] $U \to X$ of [[topological G-spaces]] and a $G$-equivariant trivialization of the [[pullback bundle|pullback]] of $P$ to $U$:
 
 \begin{xymatrix}
   {U} \times \mathcal{G}
