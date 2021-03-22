@@ -165,7 +165,7 @@ More on extended QFTs is also at
 
 * [[Daniel Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
-* [[John Baez]] and [[James Dolan]], )Higher-dimensional Algebra and Topological Quantum Field Theory_  ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002))
+* [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_  ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002))
 
 * [[Jacob Lurie]],  _[[On the Classification of Topological Field Theories]]_. [arXiv](http://arxiv.org/abs/0905.0465)
 
