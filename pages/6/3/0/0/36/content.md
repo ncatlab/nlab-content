@@ -118,10 +118,14 @@ On internalization with focus on [[H-spaces]], [[internal monoids]] and [[intern
 
 * [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories III primitive categories_,  Math. Ann. **150** 165–187 (1963) ([doi:10.1007/BF01470843](https://doi.org/10.1007/BF01470843)) 
 
-
 Review of [[internal monoids]] and [[internal groups]] internal to [[Cartesian monoidal categories]]:
 
 * [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
+
+With focus on [[monoid objects]] and their [[action objects]]:
+
+* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], around p. 8 of: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
+
 
 More general internalization via [[sketches]]:
 
