@@ -74,7 +74,7 @@ II.2.1 Derived stacks in symplectic geometry (Damien Calaque)
 II.2.2 Higher pre-quantized geometry (Urs Schreiber)
 
 II.3. Space-time
-II.3.1 Struggles with the Continuum (John Baez)
+II.3.1 [Struggles with the continuum](https://arxiv.org/abs/1609.01421) (John Baez)
 II.3.2 Twistor theory (Roger Penrose)
 II.3.3 Loop quantum gravity (Muxin Han)
 II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
@@ -216,11 +216,7 @@ Hanno Sahlmann on spin networks.
 
 ([video recording](https://www.youtube.com/watch?v=MD_jj3O6IRE))
 
-### Open questions
 
-#### What experiments tell us about space and time (John Baez)
-
-[[John Baez]] on [[experiments]].
 
 
 
