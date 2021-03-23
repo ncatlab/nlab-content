@@ -207,7 +207,7 @@ So fully generally, one finds [[∞-Lie algebra]]s, [[∞-Lie group]]s and gauge
 
 The [[curvature characteristic form]]s / [[Chern character]]s in the abelian formulation of differential cohomology take values in abelian [[∞-Lie algebra]]s and are therefore effectively nothing but differential forms with values in a complex of vector spaces, but more generally in [[∞-Chern-Weil theory]] on nonabelian [[principal ∞-bundle]]s, the [[curvature]]s forms themselves take values in general [[∞-Lie algebra]]s, such as the [[string Lie 2-algebra]], the [[supergravity Lie 3-algebra]] and the [[fivebrane Lie 6-algebra]].
 
-Apart from generalizing the notion of gauge [[Lie group]]s to [[Lie 2-group]]s and further, structural considerations in fundamental physics also led theoretical physicists to consider models for [[spacetime]] that are more general than than the notion of a [[smooth manifold]]. In [[string theory]] [[spacetime]] is allowed to be more generally an [[orbifold]] or a generalization thereof, such as an [[orientifold]]. The natural mathematical model for these generalized spaces are [[Lie groupoid]]s or, essentuially equivalently, _[[differentiable stack]]s_ . 
+Apart from generalizing the notion of gauge [[Lie group]]s to [[Lie 2-group]]s and further, structural considerations in fundamental physics also led theoretical physicists to consider models for [[spacetime]] that are more general than than the notion of a [[smooth manifold]]. In [[string theory]] [[spacetime]] is allowed to be more generally an [[orbifold]] or a generalization thereof, such as an [[orientifold]]. The natural mathematical model for these generalized spaces are [[Lie groupoid]]s or, essentially equivalently, _[[differentiable stack]]s_ . 
 
 It is noteworthy that the notions of generalized gauge groups and the generalized spacetime models encountered this way have a natural common context: all of these are examples of [[smooth ∞-groupoid]]s.
 
@@ -709,7 +709,7 @@ Specifically 2d [[extended quantum field theory]] has been applied to the solid 
 
 For more discussion of 2d [[CFT]] in terms of higher category theory see the references there and at [[FRS formalism]].
 
-In $d = 3$ the [[quantum hall effect]] and related effects are described to some extent by [[Chern-Simons theory]], and Chern-Simons theory comes with a rich higher categorical framework. Notably there is now a fully [[extended TQFT]] description of Chern-Simons theory down to the point, hence in terms of [[(infinity,n)-functors|(infinity,3)-funcots]], see [here](Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended).
+In $d = 3$ the [[quantum hall effect]] and related effects are described to some extent by [[Chern-Simons theory]], and Chern-Simons theory comes with a rich higher categorical framework. Notably there is now a fully [[extended TQFT]] description of Chern-Simons theory down to the point, hence in terms of [[(infinity,n)-functors|(infinity,3)-functors]], see [here](Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended).
 
 Closely related to this, several approaches at realizing [[quantum computing]] rely on [[TQFT]] methods and are treated with methods from higher category theory. For instance the notion of a [[blob n-category]] orginates in investigations of quantum computing.
 
