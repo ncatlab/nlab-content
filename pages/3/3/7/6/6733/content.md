@@ -277,7 +277,7 @@ See at _[[M5-brane charge]]_
 ### Anomaly cancellation
  {#AnomalyCancellation}
 
-Consider an 11-dimensional [[spin structure|spin]]-[[manifold]] $X^{(11)}$ and a 2-parameter family of 6-dimensional [[submanifolds]] $Q_{M5} \hookrightarrow X^{(11)}$. When regarded as a family of [[worldvolumes]] of an [[M5-brane]], the family of [[normal bundles]] $N_X Q_{M5}$ of this inclusion carries a [[characteristic class]]
+Consider an 2-parameter family of 11-dimensional [[spin structure|spin]]-[[manifold]] $X^{(11)}$ and a 2-parameter family of 6-dimensional [[submanifolds]] $Q_{M5} \hookrightarrow X^{(11)}$. When regarded as a family of [[worldvolumes]] of an [[M5-brane]], the family of [[normal bundles]] $N_X Q_{M5}$ of this inclusion carries a [[characteristic class]]
 
 \[
   \label{IM5}
@@ -356,7 +356,7 @@ $$
   2 p_2
 $$
 
-which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the previously remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled... except for yet one last remaining term (see also [BBMN 19b (5.22)](#BBMN19b))
+which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the previously remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled... except for yet one last remaining term (shown as $\propto \gamma_4^2$ in  [BBMN 19b (4.9), (4.13), (5.22)](#BBMN19b)):
 
 \[
   \label{RemainingAnomaly}
@@ -368,7 +368,7 @@ which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegr
 
 where $G_4^{M5}$ denotes the [[basic differential form|basic form]]-component of $G_4$ with respect to the given [[spherical fibration]].
 
-This basuc component has been ignored in [FHMM98](#FreedHarveyMinasianMoore98) and previous references. That this [[basic differential form|basic form]] component $G_4^{M5}$ indeed needs to be considered is highlighted in [BBMN 19b (3.16) & App. C](#BBMN19b) (where it is denoted $\gamma_4$, see also [BBM 20 (2.3)](#BahBonettiMinasian20)).
+This basic component has been ignored in [FHMM98](#FreedHarveyMinasianMoore98) and previous references. That this [[basic differential form|basic form]] component $G_4^{M5}$ indeed needs to be considered is highlighted in [BBMN 19b (3.16) & App. C](#BBMN19b) (where it is denoted $\gamma_4$, see also [BBM 20 (2.3)](#BahBonettiMinasian20)).
 
 See also at _[M-theory -- Open problems -- M5-brane anomaly cancellation](M-theory#OpenProblemM5BraneAnomalyCancellation)_.
 
