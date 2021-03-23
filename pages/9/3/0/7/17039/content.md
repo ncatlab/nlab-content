@@ -72,7 +72,8 @@ On [[differential geometry]].
 
 ##### I.1.2 New methods for old spaces: synthetic differential geometry (Anders  Kock)
 
-[[Anders Kock]] on [[synthetic differential geometry]].
+* [[Anders Kock]], _New methods for old spaces: [[synthetic differential geometry]]_ 
+([arXiv:1610.00286](https://arxiv.org/abs/1610.00286))
 
 ##### I.1.3 Microlocalanalysis and beyond (Pierre Schapira)
 
@@ -90,7 +91,7 @@ On [[Grothendieck toposes]] regarded as "[[logos|logoses]]":
 
 ##### I.2.2 Spaces as infinity-groupoids (Timothy Porter)
 
-[[Timothy Porter]] on [[homotopy types]] as [[infinity-groupoids]].
+* [[Timothy Porter]], _Spaces as infinity-groupoids_ ([preprint pdf](https://ncatlab.org/nlab/files/Spaces+as+infinity-groupoids.pdf)): on [[homotopy types]] as [[infinity-groupoids]].
 
 #####I.2.3 Homotopy type theory: the logic of space (Mike Shulman)
 
