@@ -4,7 +4,7 @@ There are several different (sometimes related) mathematical objects called ''sp
 
 * [[spectrum (geometry)]] in [[geometry]], [[Cole's theory of spectrum]]
 
-* including [[spectral theory]] such _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) [[spectrum of a commutative ring]] [[spectrum of a ring]], _[[analytic spectrum]]_, [[Cole's theory of spectrum]], _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_ [[spectrum of a triangulated category]], [[prime spectrum of a symmetric monoidal stable (∞,1)-category]], etc.
+* including [[spectral theory]] such _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) [[spectrum of a commutative ring]], [[spectrum of a ring]], _[[analytic spectrum]]_, [[Cole's theory of spectrum]], _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_,  _[[spectrum of a triangulated category]]_, _[[prime spectrum of a symmetric monoidal stable (∞,1)-category]]_, etc.
 
 There is also a notion of 
 
