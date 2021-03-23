@@ -54,6 +54,7 @@ Here a finitely generated [[C-infinity ring]] of the form $C^\infty(M)/I$ for so
 =--
 
 ## Some history
+ {#SomeHistory}
 
 _This section is written by [[Eduardo Dubuc]]_.
 
