@@ -19,10 +19,10 @@
 =--
 
 
-This entry lists aspects of [[fundamental physics]] from the [[nPOV]]: its description in terms of [[category theory]] and [[higher category theory]]. For a more coherent exposition starting see also at _[[geometry of physics]]_.
+This entry lists aspects of [[fundamental physics]] from the [[nPOV]]: its description in terms of [[category theory]] and [[higher category theory]]. For a more coherent exposition, starting with introduction of the very basics, see also at _[[geometry of physics]]_.
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## The basic structures {#BasicStructures}
