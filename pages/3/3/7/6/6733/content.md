@@ -326,7 +326,7 @@ The sum of these cohomology classes, evaluated on the [[fundamental class]] of $
 
 This result used to be "somewhat puzzling" ([Witten 96, p. 35](#Witten96)) since consistency of the [[M5-brane]] in [[M-theory]] should require its total [[quantum anomaly]] to vanish. But $p_2(N_{Q_{M5}})$ does not in general vanish, and the right conditions to require under which it does vanish were "not clear" ([Witten 96, p. 37](#Witten96)).
 
-(For more details on computations involved this and the following arguments, see also [Bilal-Metzger 03](#BilalMetzger03)).
+(For more details on computations involved in this and the following arguments, see also [Bilal-Metzger 03](#BilalMetzger03)).
 
 A resolution was proposed in [Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinasianMoore98), also [Bah-Bonetti-Minasian-Nardoni 18 (5)](#BahBonettiMinasianNardoni18), [BBMN 19 (2.9) and appendix A.4, A.5](#BBMN19). By this proposal, the anomaly inflow from the bulk would not be just $I_8$, as in (eq:I8AnomalyInflow) but would be all of the following [[fiber integration]] 
 
@@ -342,11 +342,11 @@ A resolution was proposed in [Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinasi
       G_4  I_8
     \Big)
     & =
-    - \tfrac{1}{24} p_2 + \tfrac{1}{2}(G^{M5}_4)^2 + I_8
+    - \tfrac{1}{24} p_2 + \tfrac{1}{2}([G^{M5}_4])^2 + I_8
   }
 \]
 
-Here  we used [this Prop](Spin5#FiberIntegrationOfCupPowersOfChiOver4Sphere) to find that 
+Here  we used [this Prop](Spin5#FiberIntegrationOfCupPowersOfChiOver4Sphere)
 
 $$
   \pi_\ast\big(
@@ -356,11 +356,23 @@ $$
   2 p_2
 $$
 
-which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled -- except for a remaining term $\tfrac{1}{2}(G^{M5}_4)^2$ which is ignored by fiat.
+which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the previously remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled... except for yet one last remaining term (see also [BBMN 19b (5.22)](#BBMN19b))
+
+\[
+  \label{RemainingAnomaly}
+  [G^{M5}_4]^2 
+  \;\in\; 
+  H^8(Q_{M5}; \mathbb{Z})
+  \,,
+\]
+
+where $G_4^{M5}$ denotes the [[basic differential form|basic form]]-component of $G_4$ with respect to the given [[spherical fibration]].
+
+This basuc component has been ignored in [FHMM98](#FreedHarveyMinasianMoore98) and previous references. That this [[basic differential form|basic form]] component $G_4^{M5}$ indeed needs to be considered is highlighted in [BBMN 19b (3.16) & App. C](#BBMN19b) (where it is denoted $\gamma_4$, see also [BBM 20 (2.3)](#BahBonettiMinasian20)).
 
 See also at _[M-theory -- Open problems -- M5-brane anomaly cancellation](M-theory#OpenProblemM5BraneAnomalyCancellation)_.
 
-An argument that the remaing anomaly vanishes by [[schreiber:Hypothesis H]] is in [SS 20a](#SS20a).
+An argument that the remaing anomaly  (eq:RemainingAnomaly) vanishes by [[schreiber:Hypothesis H]] is in [SS 20a](#SS20a).
 
 \linebreak
 
@@ -639,11 +651,21 @@ This argument is recalled in
 
 * {#Harvey05} [[Jeffrey Harvey]], Section 5 of : _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097](https://arxiv.org/abs/hep-th/0509097), [spire:692082](http://inspirehep.net/record/692082))
 
-* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+* {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
 
-* {#BBMN19} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_ ([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
+* {#BBMN19} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_,  J. High Energ. Phys. 2019, 123 (2019)
+([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
 
-Argument that the remaining term vanishes by [[schreiber:Hypothesis H]]:
+Amplification that the term $G_4^{M5}$ needs to be discussed (denoted $\gamma_4$ there:
+
+* {#BBMN19b} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomalies of QFTs from M-theory and Holography_, J. High Energ. Phys. 2020, 125 (2020) ([arXiv:1910.04166](https://arxiv.org/abs/1910.04166))
+
+
+* {#BahBonettiMinasian20} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], _Discrete and higher-form symmetries in SCFTs from wrapped M5-branes_, J. High Energ. Phys. 2021, 196 (2021) ([arXiv:2007.15003](https://arxiv.org/abs/2007.15003))
+
+
+
+Argument that the remaining anomaly term $[G_4^{M5}]^2$ vanishes, by [[schreiber:Hypothesis H]]:
 
 * {#SS20a} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5-brane anomaly cancellation]]_ ([arXiv:2002.07737](https://arxiv.org/abs/2002.07737))
 
