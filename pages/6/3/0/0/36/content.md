@@ -124,10 +124,17 @@ Highlighting the role of the [[Yoneda lemma]] in internalization:
 
 Moreover with discussion of [[action objects]]:
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], Section V.6 of: _[[Sheaves in Geometry and Logic]]_, Springer 1992 ([doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0))
+* {#MacLaneMoerdijk92} [[Saunders Mac Lane]], [[Ieke Moerdijk]], Section V.6 of: _[[Sheaves in Geometry and Logic]]_, Springer 1992 ([doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0))
 
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], around p. 8 of: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
+Discussion of [[internal categories]], [[internal functors]], [[internal limits]], [[internal sites]]:
+
+* [MacLane-Moerdijk 92, Sec. V.7](#MacLaneMoerdijk92)
+
+* [[Francis Borceux]], Chapter 8 in Vol 1 _Basic Category Theory_ of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)  ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+* [[Peter Johnstone]], Chapter B2 in: Vol. 1 of: _[[Sketches of an Elephant -- A Topos Theory Compendium]]_, Oxford University Press (2002)([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
 
 
 More general internalization via [[sketches]]:
