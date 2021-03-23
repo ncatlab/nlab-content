@@ -13,7 +13,7 @@ There are several typical classes of reconstruction theorems (which are all to s
 
 These theorems reconstruct an algebraic symmetry object ([[group]], [[groupoid]], [[gerbe]], [[Hopf algebra]], Hopf algebroid) from the [[monoidal category]] of [[representation]]s of that object (typically rigid and [[symmetric monoidal category|symmetric]] or [[braided monoidal category|braided]]). The correspondence between the symmetry object and the corresponding [[category of representations]] is called **[[Tannaka duality]]**.
 
-Examples include classical Tannaka theorem and Krein theorem, [[Doplicher-Roberts reconstruction theorem]] in physics, [[Deligne's theorem on tensor categories]], Woronowicz's Tannaka duality for compact matrix pseudogroups, Saavedra-Rivano and Deligne reconstruction theorems for neutral and mixed Tannakian categories, Ulrich's reconstruction theorem, reconstruction theorems of Majid, Nori Tannakian theorem, Grothendieck's version of Galois group in algebraic geometry and so on. The notion of the [[fiber functor]] (due to Grothendieck) is central to these considerations. 
+Examples include the classical Tannaka theorem and Krein theorem, [[Doplicher-Roberts reconstruction theorem]] in physics, [[Deligne's theorem on tensor categories]], Woronowicz's Tannaka duality for compact matrix pseudogroups, Saavedra-Rivano and Deligne reconstruction theorems for neutral and mixed Tannakian categories, Ulrich's reconstruction theorem, reconstruction theorems of Majid, Nori Tannakian theorem, Grothendieck's version of Galois group in algebraic geometry and so on. The notion of the [[fiber functor]] (due to Grothendieck) is central to these considerations. 
 
 ## Reconstruction theorems for schemes
 
