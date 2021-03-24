@@ -21,7 +21,7 @@
 
 An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [[topological manifold]] $X$ which makes the resulting [[smooth manifold]] be [[diffeomorphism|non-diffeomorphic]] to the smooth manifold given by some evident 'standard' smooth structure on $X$. 
 
-Mostly the term is used for smooth structures on [[Euclidean space]] $\mathbb{R}^n$ and on the [[n-spheres]] $S^n$, for $n \in \mathbb{N}$. The standard smooth structure on $\mathbb{R}^n$ is exhibited by the identity [[atlas]], and the standard smooth structure on $S^n$ is that given by the atlas by the two [[hemisphere]] as given by [[stereographic projection]].
+Mostly the term is used for smooth structures on [[Euclidean space]] $\mathbb{R}^n$ and on the [[n-spheres]] $S^n$, for $n \in \mathbb{N}$. The standard smooth structure on $\mathbb{R}^n$ is exhibited by the identity [[atlas]], and the standard smooth structure on $S^n$ is that given by the atlas of the two [[hemispheres]] as given by [[stereographic projection]].
 
 For special values of $n$ there may exist smooth structure not equivalent to these. They are the _exotic smooth structures_.
 
