@@ -77,7 +77,7 @@ The hom-spaces of the universal cocartesian fibration can be described as
 $$
   Z'([C_{/x} \to C], [D_{/y} \to D]) \simeq Core(eval_x \downarrow y)
 $$
-where $eval_x : D^C \to D$. This should be compared with the lax [[slice 2-category]] construction. In fact, $Z'$ can be constructed by taking the underlying (∞,1) category of the lax coslice over the point of the (∞,2)-category of (∞,1)-categories.
+where $eval_x : D^C \to D$. This should be compared with the lax [[slice 2-category]] construction. In fact, $Z'$ can be constructed by taking the underlying (∞,1) category of the lax coslice (or colax, depending on convention) over the point of the (∞,2)-category of (∞,1)-categories.
 
 
 ### For $\infty$-Groupoids 
