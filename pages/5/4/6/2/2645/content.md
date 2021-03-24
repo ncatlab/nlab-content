@@ -280,7 +280,11 @@ Some standard monographs are
 
 * [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
-* V. Guillemin, S. Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
+* [[Loring Tu]], _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
+
+
+
+* [[Victor Guillemin]], [[Shlomo Sternberg]], _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
 
 Lecture notes with an eye on [[Morse theory]] in terms of [[supersymmetric quantum mechanics]] are in
 
