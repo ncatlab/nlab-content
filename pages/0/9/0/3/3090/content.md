@@ -309,6 +309,16 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 
 (...)
 
+### Local recognition
+
++-- {: .num_lemma #MapIsSerreFibrationIfLocallySo}
+###### Lemma
+
+If $p\colon X\to S$ is a continuous map and $\mathcal{U}$ a set of subsets of $S$ whose interiors cover $S$ such that $p|_{p^{-1}(U)}\colon p^{-1}(U)\to U$ is a Serre fibration for all $U$ in $\mathcal{U}$. Then $p$ is a Serre fibration.
+
+=--
+
+See [tom Dieck](#tomDieck2008) ([2008](#tomDieck2008): p. 130; theorem 6.3.3)
 
 ## Examples
  {#Examples}
@@ -316,7 +326,7 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 ### Fiber bundles
  {#FiberBundles}
 
-Every (locally trivial) topological [[fiber bundle]] is a Serre fibration.
+Every (locally trivial) topological [[fiber bundle]] (which is locally a product projection) is a Serre fibration by lemma \ref{MapIsSerreFibrationIfLocallySo}.
 
 
 ### Covering spaces
@@ -340,6 +350,8 @@ Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz f
 * {#SteinbergerWest84} M. Steinberger and J. West, _Covering homotopy properties of maps between CW complexes or ANRs_, Proc. Amer. Math. Soc. 92 (1984), 573-577.  
 
 * {#Cauty92} R. Cauty, _Sur les ouverts des CW-complexes et les fibr&#233;s de Serre_,  Colloquy Math. 63 (1992), 1--7
+
+* {#tomDieck2008} Tammo tom Dieck (2008) _Algebraic topology_. European Mathematical Society, Zürich.
 
 For more see at _[[classical model structure on topological spaces]]_.
 
