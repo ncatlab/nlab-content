@@ -886,11 +886,11 @@ Hence $L$ preserves all cofibrations and $R$ all fibrations.
 +-- {: .num_prop}
 ###### Proposition
 
-The injective model structure on $Ch_{\geq 0}(R Mod)$ (from theorem \ref{InjectiveModelStructure}) is a [[cofibrantly generated model category]].
+The injective model structure on $Ch^{\geq 0}(R Mod)$ (from theorem \ref{InjectiveModelStructure}) is a [[cofibrantly generated model category]].
 
 =--
 
-This appears for instance as [Hovey, theorem 2.3.13](#Hovey).
+This appears for instance as [Hovey, theorem 2.3.13](#Hovey), where it is stated for unbounded (in both directions) chain complexes.
 
 For results on model structures on chain complexes that are provably not cofibrantly generated see section 5.4 of [Christensen, Hovey](#ChristensenHovey).
 
