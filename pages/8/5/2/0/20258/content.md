@@ -61,6 +61,10 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 ### General
 
+* {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399&#8211;405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
+
+
+
 * {#Kreck10} [[Matthias Kreck]], chapter 19 of _Exotic 7-spheres_ of  _Differential Algebraic Topology -- From Stratifolds to Exotic Spheres_, AMS 2010
 
 * {#McEnroe15} Rachel McEnroe, _Milnor' construction of exotic 7-spheres_, 2015 ([pdf](http://math.uchicago.edu/~may/REU2015/REUPapers/McEnroe.pdf))
