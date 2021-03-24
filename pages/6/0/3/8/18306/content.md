@@ -36,7 +36,7 @@ Various results for [[classifying spaces]] that classify arbitrary [[fiber bundl
 \end{remark}
 
 \begin{remark}
- The conclusion that the bundle projection of a topological [[fiber bundle]] is a [[Serre fibration]] follows generally only for numberable bundles (by [this Prop.](Serre+fibration#MapIsSerreFibrationIfPullbackToNumerableCoverIsSo))
+ The conclusion that the bundle projection of a topological [[fiber bundle]] is a [[Hurewicz fibration]] follows generally only for numberable bundles (by [this Prop.](Hurewicz+fibration#MapIsHurewiczFibrationIfPullbackToNumerableCoverIsSo))
 \end{remark}
 
 [[!redirects numerable fiber bundles]]
