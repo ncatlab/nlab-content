@@ -25,7 +25,7 @@ Let $\pi : P \to X$ be a [[bundle]] in the [[category]] [[Diff]] of [[smooth man
 
 The collection of vertical vectors forms the _vertical tangent bjundle_ inside the full [[tangent bundle]], typically denoted $T_\pi P$.
 
-If $\pi$ is a [[smooth function|smooth]] [[surjective submersion]] between [[compact topological space|compact]] [[smooth manifolds]] then its vertical tangent bundle is the [[fiber]]-wise [[kernel]] of $d \pi$, as shown in the following diagram (recalled e.g. in [Berglund 20, p. 16](#Berglund20)):
+If $\pi$ is a [[smooth function|smooth]] [[surjective submersion]] between [[compact topological space|compact]] [[smooth manifolds]] then its vertical tangent bundle is the [[fiber]]-wise [[kernel]] of $d \pi$, as shown in the following diagram (e.g [Tu 17](#Tu17),  [Berglund 20, p. 16](#Berglund20)):
 
 \begin{tikzcd}[column sep=normal, row sep=small]
   T_{\pi} P
@@ -191,6 +191,11 @@ To conclude, it just remains to observe that the [[normal bundle]] of the [[n-sp
 
 
 ## References
+
+Textbook accounts:
+
+*  {#Tu17} [[Loring Tu]], Section 27.5 in: _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
+
 
 See also:
 
