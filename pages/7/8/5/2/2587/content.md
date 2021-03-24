@@ -61,7 +61,7 @@ By [[Whitehead tower|co-killing]] these groups step by step one gets
 
 $$
   \array{
-     cokill this &&&& to get
+     cokill~this &&&& to~get
      \\
      \\
      \pi_{0}(O) & = \mathbb{Z}_2 &&& SO
