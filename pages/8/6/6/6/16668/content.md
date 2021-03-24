@@ -78,9 +78,14 @@ Discussion of solitonic [[black brane]] (and [[exotic brane]]) solutions in term
 
 * {#BermanRudolph14} [[David Berman]], [[Felix Rudolph]], _Strings, Branes and the Self-dual Solutions of Exceptional Field Theory_ ([arXiv.1412.2768](http://arxiv.org/abs/1412.2768))
 
-Discussion for [[E11]] includes
+Discussion for [[E11]]:
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
+
+Discussion for [[E9]]:
+
+* Guillaume Bossard, Franz Ciceri, Gianluca Inverso, [[Axel Kleinschmidt]], [[Henning Samtleben]], _$E_9$ exceptional field theory II. The complete dynamics_ ([arXiv:2103.12118](https://arxiv.org/abs/2103.12118))
+
 
 Generalization to exceptional [[super-spacetimes]]:
 
