@@ -16,7 +16,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -336,9 +335,11 @@ and with emphasis on [[topos theory]]:
  
 * [[Saunders MacLane]], [[Ieke Moerdijk]], section V.7 of: _[[Sheaves in Geometry and Logic]]_
 
-The original concept of categories internal to [[TopologicalSpaces]] and to [[SmoothManifolds]]:
+The original concept of [[topological groupoids]] and [[Lie groupoids]] goes back to
 
-* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_ Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp.137-150. [zbMath review](https://zbmath.org/?q=an:0205.28202)
+* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_, Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp. 137-150 ([[EhresmannCategoriesTopologiques.pdf:file]], [zbMath:0205.28202](https://zbmath.org/?q=an:0205.28202))
+
+and their understanding as categories internal to [[TopologicalSpaces]] and to [[SmoothManifolds]] may originate around:
 
 * [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
