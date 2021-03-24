@@ -360,13 +360,19 @@ See
 
 ## References
 
-Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
+The notion of Lie categories, hence of Lie groupoids, goes back to 
 
-* [[Charles Ehresmann]], _Cat&#233;gories topologiques et cat&#233;gories diff&#233;rentiables_, Colloque de G&#233;ometrie Differentielle Globale (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; (p. 263- in [Ouvres pdf](http://ehres.pagesperso-orange.fr/C.E.WORKS_fichiers/Ehresmann_C.-Oeuvres_I-1_et_I-2.pdf))
+* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_, Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp. 137-150 ([[EhresmannCategoriesTopologiques.pdf:file]], [zbMath:0205.28202](https://zbmath.org/?q=an:0205.28202))
 
-Reviews and developments of the theory of Lie groupoids include
+and their understanding as [[internal categories]] in [[SmoothManifolds]] may originate around:
 
-* Pradines, ....
+* [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
+
+Historical review:
+
+* [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_, Banach Center Publications, vol. 76, Warsawa 2007, 87-157 ([arXiv:0711.1608](http://arxiv.org/abs/0711.1608), [doi:10.4064/bc76-0-5 ](https://www.impan.pl/en/publishing-house/banach-center-publications/all/76/0/86184/in-ehresmann-s-footsteps-from-group-geometries-to-groupoid-geometries))
+
+Surveys of the theory:
 
 * [[Kirill Mackenzie]], _General Theory of Lie Groupoids and Lie Algebroids,_ Cambridge University Press, 2005, xxxviii + 501 pages 
 ([website](http://kchmackenzie.staff.shef.ac.uk/gt.html))
@@ -382,7 +388,6 @@ The relation to [[differentiable stacks]] is discussed/reviewed in section 2 of
 
 * {#Blohmann} [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
  
-
 
 Lie groupoids as a source for [[groupoid convolution algebras|groupoid convolution]] [[C*-algebras]] are discussed in 
 
