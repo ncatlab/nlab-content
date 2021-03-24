@@ -159,34 +159,35 @@ More on extended QFTs is also at
 
 ### General
 
-* [[Daniel Freed]], _Remarks on Chern-Simons theory_
+* [[Ruth J. Lawrence]], _Triangulations, categories and extended topological field theories_. Quantum topology, 191–208, Ser. Knots Everything, 3, World Sci. Publ., River Edge, NJ, 1993.  [doi](https://doi.org/10.1142/9789812796387_0011).
+Presented at the AMS Meeting 876, held in Dayton, Ohio, on October 31, 1992.
 
-* [[Daniel Freed]], _Quantum Groups from Path Integrals_ ([arXiv:q-alg/9501025](http://arxiv.org/abs/q-alg/9501025))
+* [[Daniel S. Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
-* [[Daniel Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
+* [[Daniel S. Freed]], _Quantum Groups from Path Integrals_ ([arXiv:q-alg/9501025](http://arxiv.org/abs/q-alg/9501025))
 
 * [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_  ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002))
+
+* [[Daniel S. Freed]], _Remarks on Chern-Simons theory_, [arXiv:0808.2507](https://arxiv.org/abs/0808.2507).
 
 * [[Jacob Lurie]],  _[[On the Classification of Topological Field Theories]]_. [arXiv](http://arxiv.org/abs/0905.0465)
 
 With an eye towards the full extension of [[Chern-Simons theory]]:
 
-* [[Dan Freed]], _Remarks on Fully Extended 3-Dimensional Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
+* [[Daniel S. Freed]], _Remarks on Fully Extended 3-Dimensional Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
+* [[Daniel S. Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
 
 
 For TQFTs appearing in [[solid state physics]] in the context of [[topological order]]:
 
-* {#FreedMoore12} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
+* {#FreedMoore12} [[Daniel S. Freed]], [[Gregory Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
 
-* {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
+* {#Freed14} [[Daniel S. Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
 
 
 
 [[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
-
-
 
 
 [[!redirects EQFT]]
