@@ -15,9 +15,109 @@
 
 ## Idea
 
-Any [[mathematical structure]] whose traditional [[Bourbaki]]-style definition is formulated within [[set theory]] can be formulated *internally* to any [[category]]that admits all those types of operations (usually: [[universal constructions]]) on its [[objects]] that the traditional definition applies to [[sets]], hence to the [[objects]] of the [[base topos|base]] category of [[Sets]].
+Any [[mathematical structure]] whose traditional [[Bourbaki]]-style definition is formulated within [[set theory]] can be formulated *internally* to any [[category]] that admits all those types of operations (typically: [[universal constructions]]) on its [[objects]] that the traditional definition applies to [[sets]], hence to the [[objects]] of the [[base topos|base]] category of [[Sets]].
 
-* If the category is equipped with the structure of a [[site]], then geometrical notions, such as defining [[morphisms]] locally on the domain with patching conditions (or more generally [[descent]] theory), exist inside it. 
+There is a [[diagram|diagrammatic]] and a [[syntax|syntactic]] way of making this precise, the former is essentially the topic of [[categorical algebra]] (in terms of [[Lawvere theories]] or [[sketches]] or the like), the latter of [[categorical semantics]] (of [[type theories]]).
+
+An archetypical example of internalization is the notion of *[[internal groups]]*, which easily serves to illustrate the general idea:
+
+Where the [[Bourbaki]]-style definition of a [[group]] is, of course: 
+
+* A *group* is a [[set]] $G$ equipped with [[functions]] $e \,\colon\,\ast \to G$ and $m \colon G \times G \to G$ and $(-)^{-1} \colon G \to G$  satisfying three conditions: [[unitality]], [[associativity]], [[inverses]].
+
+one observes that here:
+
+1. [[sets]] and [[functions]] are the [[objects]] and [[morphisms]] in the [[category]] of [[Sets]]; 
+
+1. in invoking the [[singleton set]] $\ast$ and the [[Cartesian product]] set $G \times G$ one is making use of the fact that [[Sets]] admit the [[universal construction]] of [[finite products]];
+
+and that this is _only_ [[mathematical structure|structure]] on [[Sets]] that the definition of [[groups]] is making use of.
+Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mathcal{C}$ with [[finite products]] and declare that:
+
+* An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $e \colon \ast \to G$ and $M \colon G \times G \to G$ and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
+
+  * [[unitality]]
+
+    $$
+      \array{
+        G \times \ast
+        &
+        \overset{
+          id \times e
+        }{\longrightarrow}
+        &
+        G \times G
+        \\
+        {}^{\mathllap{
+           \simeq
+        }} 
+        \big\uparrow
+        &&
+        \big\downarrow
+        {}^{{}_{\mathrlap{ m }}}
+        \\
+        G 
+        &=&
+        G
+      }
+    $$
+
+  * [[associativity]]
+
+    $$
+      \array{
+        G \times G \times G 
+          &\overset{m \times id}{\longrightarrow}&
+        G \times G
+        \\
+        {}^{{}_{\mathllap{ id \times m }}}
+        \big\downarrow
+        &&
+        \big\downarrow
+        {}^{{}_{m}}
+        \\
+        G \times G
+        &\underset{ m }{\longrightarrow}&
+        G
+      }
+    $$
+
+  * [[inverses]] 
+
+    $$
+      \array{
+        G \times G
+        &
+          \overset{ id \times (-)^{-1} }{\longrightarrow}
+        &
+        G \times G
+        \\
+        \big\downarrow
+        &&
+        \big\downarrow {}^{_{\mathrlap{m}}}
+        \\
+        \ast
+        &
+        \underset{ e }{\longrightarrow}
+        &
+        G
+      }
+    $$
+
+
+If here $\mathcal{C} = $ [[Sets]] then this recovers the [[Bourbaki]]-definition of plain [[groups]], while if $\mathcal{C} = $ [[TopologicalSpaces]] this yields the notion of [[topological groups]]; for $\mathcal{C} = $ [[SmoothManifolds]] it yields [[Lie groups]], for $\mathcal{C} = $ [[Varieties]] it yields [[algebraic groups]], etc.
+
+Similarly one defines [[action objects|internal actions]] of groups, etc. 
+
+In fact, realizing that [[groups]] are equivalently [[pointed object|pointed]] [[n-connected object of an (infinity,1)-topos|connected]] [[groupoids]] one may readily generalize the example of [[internal groups]] to a notion of [[internal groupoids]] and then of [[internal categories]]. This way [[category theory]] and with it much of [[mathematics]]  may be considered internally to suitable ambient [[categories]] $\mathcal{C}$ (see also at _[[internal logic]]_ and _[[internal language]]_).
+
+Moreover, if the ambient category is in fact a [[higher category theory|higher category]], then internalization goes along with ([[vertical categorification|vertical]]) _[[categorification]]_. For example an [[internal group]] in the [[2-category]] of [[Groupoids]] is a [[2-group]] (a [[strict 2-group]] if one considers just the three [[diagrams]] shown above, or a general [[2-group]] of one adds higher [[coherence]]-diagrams.)
+
+How much mathematics/[[internal logic]] actually exists in a given ambient [[category]] depends on how much [[extra properties]] this has. For example if $\mathcal{C}$ is a [[topos]] then *all* [[constructive mathematics]] has an internal incarnation in $\mathcal{C}$. For more on this see also at _[[relation between type theory and category theory]]_.
+
+Here is a list matching some extra structure/property of the ambient category $\mathcal{C}$ to the kind of mathematics that exists internal to it:
+
+* If the ambient category is equipped with the structure of a [[site]], then geometrical notions, such as defining [[morphisms]] locally on the domain with patching conditions (or more generally [[descent]] theory), exist inside it. 
 
 * If it is a [[finitely complete category]], the existence of [[finite products]] and [[terminal objects]] means that [[variety of algebras|varieties of algebras]] can be defined. 
 
@@ -27,9 +127,9 @@ Any [[mathematical structure]] whose traditional [[Bourbaki]]-style definition i
 
 * If the category is a [[(infinity,1)-topos]], then one could do most of ordinary constructive mathematics inside of it, including category theory, set theory, model theory, and higher category theory. Adding the [[principle of excluded middle]] or the [[axiom of choice|axiom]] of [[choice object|choice set]]/[[0-groupoids]] results in internal classical mathematics. 
 
-The structure required on $C$ is often referred to as a [[doctrine]].  The question of what exactly a "doctrine" is is a tricky one, but for purposes of this page, we take a "doctrine" to mean a certain type of structure (or [[property-like structure]]) with which a category can be equipped.  For example, there is a doctrine of monoidal categories, a doctrine of categories with finite limits, a doctrine of cartesian closed categories, and so on.
+The [[extra structure]] required on the ambient category $\mathcal{C}$ is sometimes referred to as a _[[doctrine]]_ for internalization.   For example, there is a doctrine of [[monoidal categories]], a doctrine of [[finitely complete category|categories with finite limits]], a doctrine of [[cartesian closed categories]], and so on.
 
-Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
+Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of the process of internalization in a [[doctrine]], although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $\mathcal{D}$ to which [[Sets]] (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $\mathcal{D}$, if this definition of foo in $Sets$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
 
 
 ## Examples
@@ -63,13 +163,13 @@ Like [[vertical categorification|categorification]] or [[horizontal categorifica
 * Categories themselves can be internalised, as algebras of an [[essentially algebraic theory]] (giving [[strict categories]]), in any [[finitely complete category]]; see [[internal category]].
 
 
-## Internalization versus enrichment
+## Internal versus enriched categories
+ {#InternalAndEnrichedCategories}
 
-In the case of categories, there is a dichotomy between [[internal category|internal categories]] and [[enriched category|enriched categories]], both of which are ways of generalizing the notion of category, according to whether it is [defined](category#definitions) by a single collection of all morphisms or by several collections of morphisms, a family of collections indexed by pairs of objects.  In some cases, one of these generalizations is a special case of the other, but in general they are incomparable.
+In the case of the notion of [[categories]] themselves, there is a dichotomy between [[internal category|internal categories]] and [[enriched category|enriched categories]], both of which are ways of generalizing the notion of category, according to whether it is [defined](category#definitions) by a single collection of all morphisms or by several collections of morphisms, a family of collections indexed by pairs of objects.  In some cases, one of these generalizations is a special case of the other, but in general they are incomparable.
 
-As described on this page, __internalization__ is a quite general phenomenon, of which internal categories are a particular case. However, the distinction between "internalization" and "enrichment" becomes less clear in generality.  For example, in addition to categories enriched over a monoidal category, one can define categories enriched over a [[bicategory]] or an [[virtual double category]]. It then turns out that a category enriched over the bicategory (or virtual double category) of [[span|spans]] in a lex category $C$ _which has one object_ is precisely an _internal_ category in $C$.
+As described on this page, __internalization__ is a quite general phenomenon, of which [[internal categories]] are a particular case. However, the distinction between "internalization" and "enrichment" becomes less clear in generality.  For example, in addition to categories enriched over a monoidal category, one can define categories enriched over a [[bicategory]] or an [[virtual double category]]. It then turns out that a category enriched over the bicategory (or virtual double category) of [[span|spans]] in a lex category $C$ _which has one object_ is precisely an _internal_ category in $C$.
 
-Perhaps from the perspective of this page, internal categories and enriched categories are just two _different_ ways of internalizing the notion of category in two _different_ doctrines?
 
 
 ## General Results
