@@ -95,3 +95,7 @@ category: algebraic geometry
 [[!redirects quasi-projective scheme]]
 [[!redirects quasi-projective scheme]]
 
+[[!redirects Var]]
+[[!redirects Varieties]]
+
+
