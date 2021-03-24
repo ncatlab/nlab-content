@@ -79,6 +79,9 @@ The BRST formalism originates around
 
 * [[Carlo Becchi]], A. Rouet, [[Raymond Stora]], (1976). Renormalization of gauge theories. Ann. Phys. 98: 287,
 
+ * [[I. V. Tyutin]], (1975), _Gauge Invariance in Field Theory and Statistical Physics in Operator Formalism_, [arXiv:0812.0580](https://arxiv.org/abs/0812.0580).
+
+
 see also the references at _[[BRST]]_.
 
 A classical standard references for the Lagrangian formalism is
