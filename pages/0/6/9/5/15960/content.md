@@ -95,3 +95,5 @@ Something like an implementation of aspects of opetopic type theory _within_ [[h
 
 * {#Finster18} [[Eric Finster]], _[[homotopytypetheory:Eric Finster, Towards Higher Universal Algebra in Type Theory|Towards Higher Universal Algebra in Type Theory]]_, [Homotopy Type Theory Electronic Seminar](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html) 2018 ([recording](https://www.youtube.com/watch?v=hlCVHVtAlqQ), [[Agda]] [code](https://github.com/ericfinster/higher-alg))
 
+* {#AlliouxFinsterSozeau21} [[Antoine Allioux]], [[Eric Finster]], [[Matthieu Sozeau]], _Types are internal infinity-groupoids_ ([PDF](https://hal.inria.fr/hal-03133144/document))
+
