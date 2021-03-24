@@ -338,12 +338,13 @@ and with emphasis on [[topos theory]]:
 
 The original concept of categories internal to [[TopologicalSpaces]] and to [[SmoothManifolds]]:
 
+* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_ Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp.137-150. [zbMath review](https://zbmath.org/?q=an:0205.28202)
+
 * [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
 The original proofs that the category of internal categories is [[cartesian closed category|cartesian closed]] when the ambient category is [[finitely complete category|finitely complete]] and [[cartesian closed category|cartesian closed]] are in
 
-* {#BastianiEhresmann_69} [[Andrée Bastiani]], [[Charles Ehresmann]]
-_Cat&#233;gories de foncteurs structur&#233;s_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 11 no. 3 (1969), p. 329-384 ([numdam:CTGDC_1969__11_3_329_0](http://www.numdam.org/item?id=CTGDC_1969__11_3_329_0))
+* {#BastianiEhresmann_69} [[Andrée Bastiani]], [[Charles Ehresmann]], _Catégories de foncteurs structurés_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, 11 no. 3 (1969), p. 329-384 ([numdam:CTGDC_1969__11_3_329_0](http://www.numdam.org/item?id=CTGDC_1969__11_3_329_0))
  
 
 and in 
