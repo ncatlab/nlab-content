@@ -80,6 +80,22 @@ There is also a model category whose fibrations are the Hurewicz fibrations and 
 
 Every Hurewicz fibration is a [[Serre fibration]].  Conversely, [[a Serre fibration between CW-complexes is a Hurewicz fibration]].
 
+### Local recognition over numerable open covers
+ {#LocalRecognition}
+
+The following proposition says that being a Hurewicz fibration is a *local property* with respect to the [[codomain]] space, at least as long as the local [[open cover]] used is [[numerable open cover|numerable]].
+
+\begin{prop}\label{MapIsHurewiczFibrationIfPullbackToNumerableCoverIsSo}
+**(Local recognition of Hurewicz fibrations over numerable open covers)**\linebreak
+  
+Let $p \colon E \to B$ be a continuous function such that there exists a [[numerable open cover]] $U \overset{\phi}{\longrightarrow} B$ over which $E$ is a Hurewicz fibration, hence such that the [[pullback]] $\phi^\ast p$ is a Hurewicz fibration.
+
+Then $p$ is a Serre fibration
+
+\end{prop}
+
+A proof may be found spelled out in e.g. [May 99, Sec. 7.4](#May99)
+
 ## Abstract Hurewicz fibrations
  {#Abstractly}
 
@@ -96,6 +112,28 @@ The concept of Hurewicz fibrations makes sense also more generally in the presen
 Every [[covering space]] projection is a Hurewicz fibration, by [this prop.](covering#space#HomotopyLiftingPropertyOfCoveringSpaces).
 
 =--
+
+### Fiber bundles
+ {#FiberBundles}
+
+\begin{prop}\label{NumerableFiberBundlesAreSerreFibrations}
+**(numerable fiber bundles are Serre fibrations)** \linebreak
+
+Every [[numerable fiber bundle]], hence in particular every [[fiber bundle]] over a [[paracompact topological space]], is a Serre fibration.
+
+\end{prop}
+\begin{proof}
+  By definition of local triviality, 
+  for a [[numerable fiber bundle]] $p \colon E \to B$ -- such as a [[fiber bundle]] over a [[paracompact topological space]] -- there exists a [[numerable open cover]] $\phi \colon U \to B$ such that the [[pullback bundle]] $\phi^\ast p$ is trivial, i.e. is the [[Cartesian product]] [[projection]]
+
+$$
+  \phi^\ast p \;\colon\; U \times F \longrightarrow U
+$$
+
+(for $F$ the [[typical fiber]]). Since such a projection is clearly a [[Serre fibration]] (i.e. $F$, like every topological space, is Serre fibrant) the claim follows by the local recognition of Serre fibrations over numerable open covers  ([this Prop.](#MapIsSerreFibrationIfPullbackToNumerableCoverIsSo)).
+
+
+\end{proof}
 
 
 ## References
@@ -117,6 +155,8 @@ See also
 * [[R. Schwänzl]], [[R. Vogt]], _Strong cofibrations and fibrations in enriched categories_, 2002.
 
 * the textbooks on algebraic topology by Whitehead and Spanier.
+
+* {#May99} [[Peter May]], _[[A concise course in algebraic topology]]_,   University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 Abstract analogues of Hurewicz fibrations can be found in 
 
