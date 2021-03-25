@@ -125,7 +125,7 @@ The heart of a stable $(\infty,1)$-category is an [[abelian category]].
 
 ### Application to spectral sequence
 
-If a the heart of a t-structure on a [[stable (∞,1)-category]] with [[sequential limits]] is an [[abelian category]], then the [[spectral sequence of a filtered stable homotopy type]] converges (see there).
+If the heart of a t-structure on a [[stable (∞,1)-category]] with [[sequential limits]] is an [[abelian category]], then the [[spectral sequence of a filtered stable homotopy type]] converges (see there).
 
 ## Related concepts
 
