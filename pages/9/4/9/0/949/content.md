@@ -136,9 +136,9 @@ Constructive mathematics generally requires great care with anything after the m
 
 ## References
 
-*  Sol Feferman; [Relationships between Constructive, Predicative and Classical Systems of Analysis](http://hlombardi.free.fr/FefermanRelationships.pdf) (PDF).
+*  [[Solomon Feferman]]; [Relationships between Constructive, Predicative and Classical Systems of Analysis](http://hlombardi.free.fr/FefermanRelationships.pdf) (PDF).
 
-*  Nik Weaver; [papers on conceptualism](http://www.math.wustl.edu/~nweaver/conceptualism.html).
+*  Nik Weaver; [papers on conceptualism](https://web.archive.org/web/20100616093000/https://www.math.wustl.edu/~nweaver/conceptualism.html).
 
 *  from the Standford Encyclopedia of Philosophy:
    *  [Predicativity in constructive set theory](http://plato.stanford.edu/entries/set-theory-constructive/#PreConSetThe).
