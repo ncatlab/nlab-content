@@ -18,7 +18,7 @@ $C$, a **category over the operad** $O$, or **$O$-category** $D$ is
 
 * a set/class/whatever $D_0$, called the set of **objects** of $D$;
 
-* for each pair $x,y \in D_0$ an object $D(x,y) \in C_0$, called the 
+* for each pair $x,y \in D_0$ an object $D(x,y) \in C$, called the 
 object of **morphisms** from $x$ to $y$ in $D$;
 
 * for each [[natural number]] $n$ and each sequence $x_0, x_1, \cdots, x_n$
