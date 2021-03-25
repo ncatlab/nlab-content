@@ -31,10 +31,10 @@ Often, but not always, this is considered in [[homotopy theory]] or even in [[st
 
 \begin{prop}\label{StableTangentBundleOfUnitSphereBundle}
 **([[stable tangent bundle]] of [[unit sphere bundle]])** \linebreak
-  The [[stable tangent bundle]] of a [[unit sphere bundle]] $S(\mathcal{V})$ in a [[real vector bundle]] $\mathcal{V} \overset{p}{\longrightarrow} M$ (Example \ref{UnitSphereBundles}) over a [[smooth manifold]] $M$ is [[isomorphism|isomorphic]] to the [[pullback bundle|pullback]]  of the [[direct sum of vector bundles|direct sum]] of the [[stable tangent bundle]] of the base manifold with that vector bundle:
+  The once-[[stable tangent bundle|stabilized]] [[tangent bundle]] of a [[unit sphere bundle]] $S(\mathcal{V})$ in a [[real vector bundle]] $\mathcal{V} \overset{p}{\longrightarrow} M$ (Example \ref{UnitSphereBundles}) over a [[smooth manifold]] $M$ is [[isomorphism|isomorphic]] to the [[pullback bundle|pullback]]  of the [[direct sum of vector bundles|direct sum]] of the [[stable tangent bundle]] of the base manifold with that vector bundle:
 
 $$
-  T^{stab} S(\mathcal{V})
+  T S(\mathcal{V}) \times \mathbb{R}
   \;
   \simeq
   \;
@@ -48,7 +48,7 @@ $$
 $$
 \end{prop}
 
-(This is claimed between the lines in [Milnor 56, p. 403](#Milnor1956) and extracted as an explicit statement in [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03).)
+This is stated without proof as [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03), apparently reading between the lines in [Milnor 56, p. 403](#Milnor1956).
 
 \begin{proof}\label{ProofOfStableTangentBundleOfUnitSphereBundle}
   Consider first the actual [[tangent bundle]] but to the [[open ball]]/[[disk]]-[[fiber bundle]] $D(\mathcal{V})$ that fills the given sphere-fiber bundle: By the standard splitting ([this Prop.](vertical+vector+field#SplittingOfTotalSpaceTangentBundle)) this is the [[direct sum of vector bundles|direct sum]]
@@ -92,6 +92,99 @@ $$
 $$
 
 To conclude, it just remains to observe that the [[normal bundle]] of the [[n-sphere]]-boundary inside the $(n+1)$-ball is manifestly [[trivial bundle|trivial]], so that the restriction of the tangent bundle of $D(\mathcal{V})$ to $S(\mathcal{V})$ is the [[stable tangent bundle]] of $S(\mathcal{V})$.
+\end{proof}
+
+We give a more [[homotopy theory|homotopy]]-[[commutative diagram|diagrammatic]] way of regarding this situation:
+
+\begin{prop}
+  Let $B O(n) \simeq S^n \!\sslash\! O(n+1) \longrightarrow B O(n+1)$ denote the universal $n$-[[spherical fibration]] over the [[classifying space]] of the [[orthogonal group]]. Then its [[homotopy fiber]] inclusion is the classifying map $\vdash Fr(S^n)$ of the orthonormal [[frame bundle]] of the [[n-sphere]]:
+
+\begin{tikzcd}
+  S^n
+  \ar[
+    rr,
+    "
+     \vdash \mathrm{Fr}(S^n)
+    "
+  ]
+  \ar[d]
+  \ar[
+    drr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"{
+      description
+    }
+  ]
+  &&
+  B O(n)
+  \ar[d]
+  \\
+  \ast 
+  \ar[
+    rr
+  ]
+  &&
+  B O(n+1)
+\end{tikzcd}
+
+\end{prop}
+\begin{proof}
+  By the [[pasting law]] we find that the [[homotopy fiber]] of the homotopy fiber inclusion, and hence (by the discssion at [[principal infinity-bundle]]) the total space of the bundle it classifies, is $\Omega B O(n+1) \simeq O(n+1)$:
+
+\begin{tikzcd}
+  O(n+1)
+  \ar[
+    rr
+  ]
+  \ar[
+    d
+  ]
+  \ar[
+    drr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"{
+      description
+    }
+  ]
+  &&
+  \ast
+  \ar[
+    d
+  ]
+  \\
+  S^n
+  \ar[
+    rr,
+    "
+     \vdash \mathrm{Fr}(S^n)
+    "{
+      description
+    }
+  ]
+  \ar[d]
+  \ar[
+    drr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"{
+      description
+    }
+  ]
+  &&
+  B O(n)
+  \ar[d]
+  \\
+  \ast 
+  \ar[
+    rr
+  ]
+  &&
+  B O(n+1)
+\end{tikzcd}
+
+And indeed, we have an evident [[isomorphism]]
+$O(n+1)  \simeq \mathrm{Fr}(S^n)$
+given by acting with $O(n+1)$ on the canonical [[orthonormal basis]] $(v_0, v_1, \cdots, v_n)$ of $\mathbb{R}^{n+1}$, regarded as a point $v_0$ on $S^n = S(\mathbb{R}^{n+1})$ equipped with a frame $(v_1, \cdots, v_n)$ of its [[tangent space]] $T_{v_0} S(\mathbb{R}^{n+1})$.
+
 \end{proof}
 
 ## Examples
