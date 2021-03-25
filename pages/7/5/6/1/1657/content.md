@@ -172,7 +172,7 @@ A positive __[[simple function]]__ is a finite $\mathbb{R}_+$-linear combination
 $$ \int \sum_{1 \leq i \leq n} a_i \chi_{S_i} \,\mu = \sum_{1 \leq i \leq n} a_i \mu(S_i) .$$ 
 
 The integral is extended to all measurable functions $f\colon X \to [0, \infty]$ by the rule 
-$$ \int f \,\mu = \sup \{ \int s \,\mu \;|\; 0 \leq s \leq f, s simple \} $$
+$$ \int f \,\mu = \sup \{ \int s \,\mu \;|\; 0 \leq s \leq f, s\; simple \} $$
 if this [[supremum]] converges.  Classically, the integral either converges or diverges to infinity, so $\int f \,\mu$ exists in some sense in any case; the possibilities are more complicated constructively.
 
 For any measurable function $f\colon X \to [-\infty, \infty]$, define $f_+$ and $f_{-}$ by 
