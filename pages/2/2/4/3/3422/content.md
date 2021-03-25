@@ -759,7 +759,9 @@ Then: [[nerve and realization]] associated to $Q$ yield a [[Quillen equivalence]
 A [[Cartesian fibration]] $p : K \to \Delta[1]$ over the 1-[[simplex]] corresponds to a morphism 
 $\Delta[1]^{op} \to $ [[(∞,1)Cat]], hence to an [[(∞,1)-functor]] $F : D \to C$.
 
-By the above  procedure we can express $F$ as the image of $p$ under the straightening functor. However, there is a more immediate way to extract this functor, which we now describe.
+By the above  procedure we can express $F$ as the image of $p$ under the straightening functor. The characterization via lax colimits leads to describing $K$ as the mapping cylinder $(\Delta^1 \times B) \amalg_{\Delta^{\{0\}} \times B} A$.
+
+However, there is a more immediate way to extract this functor, which we now describe. This construction also provides additional strictness properties in the quasicategory model.
 
 First recall the situation for the ordinary [[Grothendieck construction]]: given a [[Grothendieck fibration]] $K \to \{0 \to 1\}$, we obtain a functor $f : K_1 \to K_0$ between the fibers, by _choosing_ for each object $d \in K_1$ a [[Cartesian morphism]] $e_d \to d$. Then the universal property of Cartesian morphism yields for every  morphism $d_1 \to d_2$ in $K_1$ the unique left vertical filler in
 
