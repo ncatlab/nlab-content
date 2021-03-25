@@ -43,7 +43,7 @@ Take care to note that lax colimits correspond to _oplax_ cones, just as in the 
 
 ## Examples
 
-* If $J : [1] \to (\infty,1)Cat$ is the diagram depicting a functor $f : A \to B$, then $laxlim(J) \simeq (f \downarrow B)$ and $oplaxlim(J) \simeq (B \downarrow f)$.
+* If $J : [1] \to (\infty,1)Cat$ is the diagram depicting a functor $f : A \to B$, then the lax limits are the comma categories $laxlim(J) \simeq (f \downarrow B)$ and $oplaxlim(J) \simeq (B \downarrow f)$. Dually, the lax colimits are mapping cylinders: $laxcolim(J) \simeq ([1] \times A) \amalg_{\{0\} \times A} B$ and $oplaxcolim(J) \simeq ([1] \times A ) \amalg_{\{1\} \times A} B$. (an independent construction of the mapping cylinder appears as definition 4.3.3.2 of [Higher Topos Theory](#Lurie))
 
 * The covariant [[(∞,1)-Grothendieck construction]] sends any $F : C \to (\infty,1)Cat$ to $oplaxcolim(F)$, and the contravariant version sends $F : C^{op} \to (\infty,1)Cat$ to $laxcolim(F)$.
 
@@ -54,6 +54,9 @@ Take care to note that lax colimits correspond to _oplax_ cones, just as in the 
 ## References
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
+
+
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects lax (∞,1)-colimits]]
 
