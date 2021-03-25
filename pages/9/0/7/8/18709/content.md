@@ -347,8 +347,7 @@ Then:
 
 ### Tangent bundles of sphere bundles
 
-The following generalizes Cor. \ref{OnceStabilizedVerticalTangentBundlesOfSphereBundlesArePulledBackFromBase} to the full [[tangent bundle]] of sphere-fiber bundles, now assuming that the base is a [[smooth manifold]] and giving a more traditional [[differential geometry|differential-geometric]] [[proof]] (
-the statement appears without proof as [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03), apparently reading between the lines in [Milnor 56, p. 403](#Milnor1956)):
+The following generalizes Cor. \ref{OnceStabilizedVerticalTangentBundlesOfSphereBundlesArePulledBackFromBase} to the full [[tangent bundle]] of sphere-fiber bundles, now assuming that the base is a [[smooth manifold]] and giving a more traditional [[differential geometry|differential-geometric]] [[proof]] (the following statement appears, without proof, as [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03), apparently reading between the lines in [Milnor 56, p. 403](#Milnor1956)):
 
 \begin{prop}\label{StableTangentBundleOfUnitSphereBundle}
 **([[stable tangent bundle]] of [[unit sphere bundle]])** \linebreak
@@ -412,6 +411,10 @@ $$
 
 To conclude, it just remains to observe that the [[normal bundle]] of the [[n-sphere]]-boundary inside the $(n+1)$-ball is manifestly [[trivial bundle|trivial]], so that the restriction of the tangent bundle of $D(\mathcal{V})$ to $S(\mathcal{V})$ is the [[stable tangent bundle]] of $S(\mathcal{V})$.
 \end{proof}
+
+\begin{remark}
+  Prop. \ref{StableTangentBundleOfUnitSphereBundle} implies that every *stable* [[characteristic class]] of the [[tangent bundle]] of an orthogonal [[sphere-fiber bundle]] -- i.e all [[polynomials]] in its [[Pontryagin classes]] -- are *[[basic differential form|basic]]*, i.e. [[pullback in cohomology|pulled back]] from the base space.
+\end{remark}
 
 
 ## Examples
