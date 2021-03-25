@@ -117,7 +117,7 @@ Every [[covering space]] projection is a Hurewicz fibration, by [this prop.](cov
  {#FiberBundles}
 
 \begin{prop}\label{NumerableFiberBundlesAreSerreFibrations}
-**(numerable fiber bundles are Serre fibrations)** \linebreak
+**([[numerable fiber bundles]] are Hurewicz fibrations)** \linebreak
 
 Every [[numerable fiber bundle]], hence in particular every [[fiber bundle]] over a [[paracompact topological space]], is a Serre fibration.
 
@@ -130,9 +130,7 @@ $$
   \phi^\ast p \;\colon\; U \times F \longrightarrow U
 $$
 
-(for $F$ the [[typical fiber]]). Since such a projection is clearly a [[Serre fibration]] (i.e. $F$, like every topological space, is Serre fibrant) the claim follows by the local recognition of Serre fibrations over numerable open covers  ([this Prop.](#MapIsSerreFibrationIfPullbackToNumerableCoverIsSo)).
-
-
+(for $F$ the [[typical fiber]]). Since such a projection is clearly a Hurewicz fibration the claim follows by the local recognition of Hurewicz fibrations over numerable open covers, from Prop. \ref{MapIsHurewiczFibrationIfPullbackToNumerableCoverIsSo}.
 \end{proof}
 
 
