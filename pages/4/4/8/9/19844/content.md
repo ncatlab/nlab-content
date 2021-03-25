@@ -192,6 +192,9 @@ New measurements reported by [[LHC]] [in March 2021](https://home.cern/news/news
 
 > We find that the data on clean observables is a variance with the SM at a level of $3.9 \sigma$.  Furthermore, scenarios with pure left-handed or axial currents provide a better description of these data with a significance close to $5 \sigma$.
 
+[AlSt 21](#AltmannshoferStangl21):
+
+> With the recent updates $[...]$ the case for new physics inrare B decays has been further strengthened. $[...]$ Even if only the theoretically  clean  LFU observables  $[...]$ are considered, muon specific $[$ Wilson coefficients for New Physics$]$ im prove over the Standard Model by $\sqrt{\Delta^2} \simeq 4.7 \sigma$.
 
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
@@ -552,6 +555,7 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#Virto21} [[Javier Virto]], _Anomalies in $b \to s \ell \ell$ transitions and Global Fits_ ([arXiv:2103.01106](https://arxiv.org/abs/2103.01106))
 
+* {#AltmannshoferStangl21} [[Wolfgang Altmannshofer]], Peter Stangl, _New Physics in Rare B Decays after Moriond 2021_ ([arXiv:2103.13370](https://arxiv.org/abs/2103.13370))
 
 Outlook:
 
