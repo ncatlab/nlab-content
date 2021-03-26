@@ -30,16 +30,19 @@ $V$, but independent 'up to homotopy'.  This gives an inverse system of simplici
 
 
 Taking the simplicial homology groups of the $C(X,\alpha)$, gives, for each $n$, an inverse system of Abelian groups, which we will denote $H_n(X,\alpha)$.
+
 ##Definition##
-The $n^{th}$ &#268;ech homology group of the space, $X$, is defined to be
-
-$$\check{H}_n(X) = lim H_n(X,\alpha)$$
-
+The $n$th __Čech homology group__ of the space $X$ is defined to be
+$$\check{H}_n(X) = lim H_n(X,\alpha),$$
 where the limit is taken over all open covers of $X$.
 
-It is to be noted that these groups do not constitute a homology theory in the sense of the Eilenberg-Steenrod axioms as the _exactness axiom_ fails in general. There is a "corrected" theory known under the name [[strong homology]]. 
+It is to be noted that these groups do not constitute a [[homology theory]] in the sense of the [[Eilenberg-Steenrod axioms]] as the _exactness axiom_ fails in general. There is a "corrected" theory known under the name [[strong homology]]. 
 
 ## Literature and links
+
+An expository account is available in Section 2 of
+
+* [[David H. Fremlin]], _Singular homology for amateurs_, [PDF](https://www1.essex.ac.uk/maths/people/fremlin/n16703.pdf).
 
 See also [[Čech methods]].
 
