@@ -20,6 +20,12 @@ Domain theory can be said to have come into existence with [[Dana Scott]]'s solu
 In 1969, Dana Scott solved this problem topologically: the terms were interpreted as continuous functions on a suitable space $D$ isomorphic to its own function space. This $D$ is called a _domain_. Decades later, we now know many techniques for constructing such domains as suitable objects in cartesian closed categories, but Scott's basic insight, that computability could be interpreted as continuity, 
 continues to exert a decisive influence today. 
 
+## Terminology
+
+[[Martín Escardó]] writes on the [nForum](https://nforum.ncatlab.org/discussion/10150/dcpo/?Focus=90736#Comment_90736):
+
+> The usual practice of [[domain theory]] papers and talks is to start by defining “domain” for the purposes of the paper or talk. It is a reusable word. Usually only compound words using the word “domain” have a fixed meaning, such as [[Scott domain]] (bounded complete [[algebraic dcpo]]), [[continuous Scott domain]] (bounded complete [[continuous dcpo]]), [[FS domain]], [[SFP domain]], [[L-domain]]. I wouldn’t use the plain word “domain” in a paper without first explicitly defining it, as it has been used with so many different meanings in the domain theory literature. Also the terminological conventions vary a bit depending on whether domain theory is used for the purposes of computation (e.g., [[programming language semantics]], and [[theory of computability]]) or [[topology]] and [[algebra]]. For example, in [[programming language semantics]] papers one often encounters [[posets]] that have sups of ascending sequences, rather than [[directed sets]], and a least element, because all the authors are interested in is the existence of (least) fixed point of continuous endo-functions, and these assumptions are enough for this purpose. Such [[posets]] are often called domains in such papers. But for applications of [[domain theory]] to [[topology]], [[directed completeness]] is what one needs in general, and often we have more (even all sups — for example, a topological space is [[exponentiable]] if its [[lattice]] of open sets is a [[continuous dcpo]] — but this [[dcpo]] has all sups and moreover is a [[distributive lattice]], and the [[continuous distributive lattices]] are precisely the topologies of [[exponentiable spaces]], up to isomorphism). Because these applications and communities are so diverse, it is natural to see a divergence of terminology, even if many of the techniques are the same.
+
 ## Related concepts
 
 * [[topological domain theory]]
