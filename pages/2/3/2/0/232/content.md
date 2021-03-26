@@ -216,6 +216,8 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#relationship_to_enriched_categories) mentions internalization and enrichment being the result of applying two different interpretation techniques to the same theory. 
 
+See also at [internal category](internal+category#InternalAndEnrichedCategories).
+
 ## Examples
 
 * A category enriched in [[Set]] is a [[locally small category]].
