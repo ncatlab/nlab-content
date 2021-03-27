@@ -23,6 +23,8 @@ Often one uses the term in a context where one can add and multiply matrices usi
 
 More generally, for arbitrary sets $A$ and $B$ we can define an $A\times B$-matrix to be a function $A\times B\to X$.  If $X$ has some kind of "infinitary sums" as well as finite "products", then we can also multiply matrices of this sort: e.g. if $X$ is the set of objects of a [[monoidal category]] with arbitrary [[coproducts]].
 
+Note that if the structure on X is such that matrix multiplication is associative and there exist identity matrices, then matrices over X may be taken as the morphisms of a category $Mat_X$ whose composition is matrix multiplication. This is in particular the case if X is a field, and so many basic theorems of linear algebra may be understood as concerning functors from $Vect_X$ into $Mat_X$ and natural transformations between such functors.
+
 ## Related concepts
 
 * [[matrix multiplication]], [[matrix calculus]]
