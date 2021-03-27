@@ -25,7 +25,7 @@ In [[topology]] a _universal vector bundle_ of some [[rank of a vector bundle|ra
 
 $$
   \array{
-    E &\longrightarrow& \zeta_n
+    \zeta_n &\longrightarrow& E GL(n)
     \\
     \downarrow &(pb)& \downarrow
     \\
