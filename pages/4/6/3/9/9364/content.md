@@ -100,7 +100,11 @@ The [[homotopy theory]] of [[algebra over a monad|algebras]] over polynomial mon
 An application to the theory of [[opetopes]] in discussed in
 
 * [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]] (2010); Polynomial functors and opetopes; Advances in Mathematics, vol 224, pages 2690--2737, [arXiv:0706.1033](http://arxiv.org/abs/0706.1033)
-{#KJBM}, &#167;4.3-4.6 where the main result is that the polynomial monad of stable opetopes is a least fixpoint of the Baez-Dolan construction for polynomial monads.
+{#KJBM}, &#167;4.3-4.6, where the main result is that the polynomial monad of stable opetopes is a least fixpoint of the Baez-Dolan construction for polynomial monads.
+
+An extension of type theory with a universe of associative and unital polynomial monads to define [[opetopic type theory| opetopic types]] in order to encode fully coherent algebraic structures is in
+
+* {#AlliouxFinsterSozeau20} [[Antoine Allioux]], [[Eric Finster]], [[Matthieu Sozeau]], _Types are internal infinity-groupoids_ ([PDF](https://hal.inria.fr/hal-03133144/document))
 
 Polynomial monads as a "generalization of small categories" for homotopy theory are studied in
 
