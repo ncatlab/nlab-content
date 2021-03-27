@@ -39,6 +39,8 @@ $$
   oplaxlim(f)  \simeq \int_{c \in C} Fun((C_{/c})^{op}, f(c))
 $$
 
+where $C_{/\bullet} : C \to (\infty,1) Cat$ and $C_{\bullet/} : C^{op} \to (\infty,1)Cat$ are the functors sending a morphism $c \to c'$ of $C$ to the composition functors $C_{/c} \to C_{/c'}$ and $C_{c'/} \to C_{c/}$.
+
 Take care to note that lax colimits correspond to _oplax_ cones, just as in the 2-categorical case.
 
 ## Examples
