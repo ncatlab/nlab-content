@@ -248,15 +248,26 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 ## Examples
 
-### The standard flat $G$-structure
- {#TheStandardFlatGStructure}
+### Canonical G-structures
 
 +-- {: .num_defn #StandardFlatGStructure}
 ###### Definition
 
-For $G \hookrightarrow GL(n)$ a subgroup, then the _standard flat $G$-structure_ on the [[Cartesian space]] $\mathbb{R}^n$ is the $G$-structure which is generated, via def. \ref{GStructureGeneratedByFrameField}, from the canonical [[frame field]] on $\mathbb{R}^n$ (the one which is the identity at each point, under the defining identifications).
+For $G \hookrightarrow GL(n)$ a subgroup, the _standard flat $G$-structure_ on the [[Cartesian space]] $\mathbb{R}^n$ is the $G$-structure which is generated, via def. \ref{GStructureGeneratedByFrameField}, from the canonical [[frame field]] on $\mathbb{R}^n$ (the one which is the identity at each point, under the defining identifications).
 
 =--
+
+\begin{example}
+  \label{CanonicalHStructureOnFModH}
+  For $H \subset G$ any [[Lie group|Lie]] [[subgroup]]-inclusion, the canonical [[quotient space]] [[coprojection]] $G \to G/H$ to the [[coset space]] is an $H$-[[principal bundle]] that exhibits $H$-structure on $G/H$.
+\end{example}
+ 
+(e.g. [Čap-Slovak 09, p. 53](#CapSlovak09))
+
+
+
+
+
 
 ### Reduction of tangent bundle structure
 
@@ -343,6 +354,8 @@ Textbook accounts:
 * [[Shoshichi Kobayashi]], _Transformation Groups in Differential Geometry_ 1972, reprinted as: Classics in Mathematics Vol. 70, Springer 1995 ([doi:10.1007/978-3-642-61981-6](https://link.springer.com/book/10.1007/978-3-642-61981-6))
 
 * [[Pierre Molino]], _Theorie des G-Structures: Le Probleme d'Equivalence_, Lecture Notes in Mathematics, Springer (1977) ([ISBN:978-3-540-37360-5](https://www.springer.com/de/book/9783540082460))
+
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], Chapter 1 of: _Parabolic Geometries I -- Background and General Theory_, AMS 2009 ([ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154))
 
 
 See also:
