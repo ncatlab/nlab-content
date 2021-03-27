@@ -31,6 +31,10 @@ Some forms of [[relevance logic]] can be presented with a bunched sequent calcul
 
 A logic of **classical bunched implication** is like BI but with arbitrary bunches on the right as well as on the left.  On the right, the semicolon represents the [[additive disjunction]] and the comma represents a [[multiplicative disjunction]], and there are both an additive and a multiplicative [[negation]] that move formulas back and forth.  Both negations are "classical" with respect to their corresponding connectives, e.g. we have $\sim\sim A \multimap A$ (where $\sim$ is the multiplicative negation and $\multimap$ the multiplicative implication) and also $\neg\neg A \to A$ (where $\neg$ is the additive negation and $\to$ the additive implication).  See [Pym 2002](#Pym2002) and [this discussion](https://nforum.ncatlab.org/discussion/4004/paraconsistent-logic/?Focus=57557#Comment_57557).
 
+### Dependent versions
+
+Bunched logics are also used to combine linear type theories with [[dependent type theories]].  See some of the references at [[dependent linear type theory]].
+
 ## Categorical semantics
 
 Bunched logics naturally have semantics in categories with more than one [[monoidal structure]], so that a bunch such as $(A,(B;C),((D,E);F))$ can be interpreted as $A \otimes (B\boxtimes C) \otimes ((D\otimes E)\boxtimes F)$.  Frequently (e.g. if one kind of bunch admits contraction and weakening) one of the two monoidal structures is a [[cartesian monoidal category|cartesian]] one.  A typical and motivating example of a model for BI is the [[category of presheaves]] $[C^{op},Set]$ over a monoidal category $C$, which comes equipped both with the ordinary [[ccc structure on presheaves]] as well as the closed monoidal structure given by [[Day convolution]].
