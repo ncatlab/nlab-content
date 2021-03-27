@@ -366,8 +366,19 @@ This gives a $(k+1)$-dimensional space of holomorphic sections.
 
 For more along these lines see also at _[[geometric quantization of the 2-sphere]]_.
 
+### On the $n$-sphere
+ {#SpinStructureOnTheNSphere}
+
+In fact, the [[n-sphere]] for each $n \in \mathbb{N}$ carries a spin structure, induced, ultimately, from the [[coset space]]-realization $S^n \simeq Spin(n+1)/Spin(n)$.
+
+e.g. 
+
+[Nowaczyk 15, Theorem A.6.6](#Nowaczyk15)
 
 
+* {#Nowaczyk15} Nikolai Nowaczyk, _Dirac Eigenvalues of higher Multiplicity_ ([arXiv:1501.04045](https://arxiv.org/abs/1501.04045))
+
+* {#SpinorsInGeometryAndPhysics} _Spinors in Geometry and Physics_ ([GBooks, p. 243](https://books.google.ae/books?id=d14GCwAAQBAJ&lpg=PA243&ots=_tH_He8UFg&dq=%22spin%20structure%20on%20spheres%22&pg=PA243#v=onepage&q=%22spin%20structure%20on%20spheres%22&f=false))
 
 
 ## Higher spin structures
