@@ -183,7 +183,7 @@ $$
 is presented by a tower of fibrations between fibrant spectra in the [[model structure on topological sequential spectra]], then $Y^\wedge_E$ is represented by the ordinary [[sequential limit]] over this tower.
 
 
-=---
+=--
 
 ([Bousfield 79, top, middle and bottom of page 272](#Bousfield79))
 
@@ -333,11 +333,11 @@ The nilpotent completion of a [[connective spectrum]] at the [[Eilenberg-MacLane
 +-- {: .num_example}
 ###### Examples
 
-For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is the [[formal completion]] $X^{\hat}_p$.
+For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is the [[formal completion]] $X^{\wedge}_p$.
 
-The [[MU]]-nilpotent completion of any spectrum $X$ is $X$.
+The [[MU]]-nilpotent completion of any connective spectrum $X$ is $X$.
 
-The [[BP]]-nilpotent completion at prime $p$ of any spectrum $X$ is $X_{(p)}$.
+The [[BP]]-nilpotent completion at prime $p$ of any connective spectrum $X$ is $X_{(p)}$.
 
 =--
  
