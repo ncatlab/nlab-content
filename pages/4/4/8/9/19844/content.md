@@ -220,25 +220,6 @@ Also, the flavour anomaly appears consistently at $\geq 3 \sigma$ in new decay c
 
 \linebreak
 
-In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimentally seen  statistical significance:
-
-
-\begin{center}
-\begin{imagefromfile}
-  "file_name": "LyonsThresholdForBMesonDecayAnomaly.jpg",
-  "width": 600,
-  "caption": "table taken from [Lyons 13b, p. 4](#Lyons13b)"
-\end{imagefromfile}
-\end{center}
-
-\begin{center}
-\begin{imagefromfile}
-  "file_name": "DorigoThresholdForBMesonDecayAnomaly.jpg",
-  "width": 600,
-  "caption": "table taken from [Dorigo 15, p. 16](#Dorigo15)"
-\end{imagefromfile} 
-\end{center}
-
 
 
 This attitude is reflected in [SGGJC 19, p. 2](#SGGJC19):
