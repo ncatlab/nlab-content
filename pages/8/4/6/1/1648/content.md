@@ -4,6 +4,8 @@ Recently, [[Johan Alm]] wrote a very neat paper
 
 * [Quantization as a Kan Extension](http://ncatlab.org/nlab/files/Kantization09May27.pdf)
 
+A discussion is available at the [$n$Café](https://golem.ph.utexas.edu/category/2009/05/alm_on_quantization_as_a_kan_e.html).
+
 The paper proves an aspect of 
 
 * [The n-Cafe Quantum Conjecture](http://golem.ph.utexas.edu/category/2007/06/the_ncaf_quantum_conjecture.html)
