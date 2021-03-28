@@ -38,6 +38,18 @@ $$G(A)=\{x\in 1+\bar A\mid \Delta x=x\hat\otimes x\}$$
 of _group-like elements_ in $A$.
 Its [[left adjoint functor]] sends a [[group]] to the completion
 of its [[group algebra]].
+(See Proposition A.2.5 in Quillen \cite{Quillen}.)
+
+In the case $k=\mathbf{Q}$,
+the forgetful functor is [[fully faithful]] and its [[essential image]]
+comprises precisely [[Malcev groups]].
+Thus, the category of rational complete Hopf algebras
+is equivalent to the category of [[Malcev groups]].
+(Theorem A.3.3 in Quillen \cite{Quillen}.)
+
+The [[monad]] induced by the [[adjunction]] between
+groups and complete Hopf algebras
+is known as the [[Malcev completion]] of groups.
 
 The [[forgetful functor]] from the category of complete Hopf algebras
 to the [[category of Lie algebras]]
@@ -46,8 +58,14 @@ $$P(A)=\{x\in \bar A\mid \Delta x=x\hat\otimes 1+1\hat\otimes x\}$$
 of _primitive elements_ in $A$.
 Its [[left adjoint functor]] sends a [[Lie algebra]] to the completion
 of its [[universal enveloping algebra]].
-
 (See Proposition A.2.5 in Quillen \cite{Quillen}.)
+
+In the case $k$ has characteristic 0,
+the forgetful functor is [[fully faithful]] and its [[essential image]]
+comprises precisely [[Malcev Lie algebras]].
+Thus, the category of complete Hopf algebras over a [[field]] of characteristic 0
+is equivalent to the category of [[Malcev Lie algebras]] over the same [[field]].
+(Theorem A.3.3 in Quillen \cite{Quillen}.)
 
 ## Properties in the case of zero characteristic
 
@@ -60,7 +78,7 @@ for any complete Hopf algebra $A$.
 
 The exponential map is an isomorphism of sets,
 both of which have natural filtrations induced from $A$,
-which turn them into a complete [[filtered]] [[Lie algebra]] and a complete [[filtered]] [[group]] respectively.
+which turn them into a complete [[filtered Lie algebra]] and a complete [[filtered group]] respectively.
 
 The exponential map induces an isomorphism of the [[associated graded]] [[Lie algebra]] over [[integers]].
 For the filtered [[group]] $G(A)$, the [[Lie bracket]] on its [[associated graded]] [[abelian group]] is given by the [[commutator]].
@@ -77,8 +95,12 @@ $k$-[[module]] of $P(A)$ via the exponential isomorphism.
 
 * [[Malcev group]]
 
+* [[Malcev Lie algebra]]
+
 * [[Malcev completion]]
 
 ## References
 
 * [[Daniel Quillen]], _Rational homotopy theory_, Annals of Mathematics 90:2 (1969), 205.  [doi](http://dx.doi.org/10.2307/1970725).
+
+[[!redirects complete Hopf algebras]]
