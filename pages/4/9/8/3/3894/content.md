@@ -435,6 +435,8 @@ In relation to [[BPS states]]/partial reduction of [[number of supersymmetries]]
 
   (with application to [[D6-branes]]/[[KK-monopoles]] in [[M-theory]])
 
+* [[Ruben Minasian]], [[Daniël Prins]], [[Hagen Triendl]], _Supersymmetric branes and instantons on curved spaces_, JHEP 10 (2017) 159 ([arXiv:1707.07002](https://arxiv.org/abs/1707.07002))
+
 and specifically so for [[M-theory on 8-manifolds]]:
 
 * {#IshamPope88} [[Chris Isham]], [[Christopher Pope]], _Nowhere Vanishing Spinors and Topological Obstructions to the Equivalence of the NSR and GS Superstrings_, Class. Quant. Grav. 5 (1988) 257 ([spire:251240](http://inspirehep.net/record/251240), [doi:10.1088/0264-9381/5/2/006](https://doi.org/10.1088/0264-9381/5/2/006))
