@@ -1,3 +1,4 @@
+[[!redirects (infinity, 1)Prof]]
 #Contents#
 * table of contents
 {:toc}
