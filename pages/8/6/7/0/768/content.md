@@ -910,7 +910,7 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 ### General
 
-Original articles:
+Original articles in topological homotopy theory:
 
 * [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series, Vol. 63, No. 3 (May, 1956), pp. 430-436 ([jstor:1970012](https://www.jstor.org/stable/1970012))
  
@@ -935,11 +935,20 @@ Textbook accounts concerning [[vector bundles]]:
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
  
+Discussion in [[simplicial homotopy theory]]:
+
+* [[Paul Goerss]], [[Rick Jardine]], Section V.3 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996) ([doi:10.1007/978-3-0346-0189-4)]([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)))
+
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460))
+
+* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](https://arxiv.org/abs/1203.2461))
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+
  
-A discussion more from the point of view of [[topos theory]] is in
+Discussion in [[topos theory]] relating to [[classifying toposes]]:
 
 * [[Ieke Moerdijk]], _Classifying spaces and classifying topoi_, Lecture Notes in Math. 1616, Springer-Verlag, New York, 1995.
-
 
 Discussion of characterization of principal bundles by rational [[universal characteristic classes]] and torsion information is in the appendices of 
 
