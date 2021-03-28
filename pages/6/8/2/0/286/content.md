@@ -25,7 +25,8 @@ The ideas here generalize in many directions.  For example, not only properties,
 ## Terminology
 {#terminology}
 
-* [[Michael Makkai]] proposed  the _Principle of Isomorphism_, "all grammatically correct properties of objects of a fixed category are to be invariant under isomorphism", in his [paper](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.lnl/1235415906) "Towards a categorical foundation of mathematics", in Johann A. Makowsky, Elena V. Ravve, eds., Logic Colloquium '95: Proceedings of the Annual European Summer Meeting of the Association of Symbolic Logic, held in Haifa, Israel, August 9-18, 1995 (Berlin: Springer-Verlag, 1998), 153-190.
+* [[Michael Makkai]] proposed  the _Principle of Isomorphism_, "all grammatically correct properties of objects of a fixed category are to be invariant under isomorphism", in his [paper](https://projecteuclid.org/ebooks/lecture-notes-in-logic/Logic%20Colloquium%20'95:%20Proceedings%20of%20the%20Annual%20European%20Summer%20Meeting%20of%20the%20Association%20of%20Symbolic%20Logic,%20held%20in%20Haifa,%20Israel,%20August%209-18,%201995/chapter/Towards%20a%20Categorical%20Foundation%20of%20Mathematics/lnl/1235415906)
+"Towards a categorical foundation of mathematics", in Johann A. Makowsky, Elena V. Ravve, eds., Logic Colloquium '95: Proceedings of the Annual European Summer Meeting of the Association of Symbolic Logic, held in Haifa, Israel, August 9-18, 1995 (Berlin: Springer-Verlag, 1998), 153-190.
 
 * [[Peter Aczel]] mentioned a similar concept, the _Structure Identity Principle_, "isomorphic structures have the same structural properties" in Oberwolfach [report 52/2011](http://www.mfo.de/document/1145/OWR_2011_52.pdf). This seems a priori a little weaker to [[David Roberts|me]], but if we demand that objects should be seen as only having structural properties (as opposed to the category of [[ZF]]-[[sets]]), then we look like we get back the Principle of Isomorphism.
 
