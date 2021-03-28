@@ -1,3 +1,5 @@
+[[!redirects (infinity, 1)-profunctor]]
+[[!redirects (infinity, 1)-profunctor]]
 [[!redirects (\infty, 1)-profunctor]]
 #Contents#
 * table of content
