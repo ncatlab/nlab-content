@@ -17,7 +17,7 @@ This notion of center of a group can be generalized to the center of a [[monoid]
 
 ### Of Lie algebras
 
-The __center of a [[Lie algebra]]__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $z\in L$. There are generalizations for some other kinds of algebras.
+The __center of a [[Lie algebra]]__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $l\in L$. There are generalizations for some other kinds of algebras.
 
 
 ### Of categories and higher categories {#OfCategories}
