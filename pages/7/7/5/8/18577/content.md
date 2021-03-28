@@ -44,7 +44,7 @@ See also:
 
 * [[Victor Ginzburg|V. Ginsburg]], _Characteristic varieties and vanishing cycles_, Invent. Math. __84__, 327--402 (1986), [MR87j:32030](http://www.ams.org/mathscinet-getitem?mr=833194), [doi](http://dx.doi.org/10.1007/BF01388811)
 
-* Masaki Sato, _Restriction, localization and microlocalization_, (expository paper) pp. 195--205 in collection "Quadrature domains and their application" (Operator theory: advances and applications __156__), [doi](http://dx.doi.org/10.1007/b137105)
+* Makoto Sakai, _Restriction, localization and microlocalization_, (expository paper) pp. 195--205 in collection "Quadrature domains and their application" (Operator theory: advances and applications __156__), [doi](http://dx.doi.org/10.1007/b137105)
 
 * M. [[Kashiwara]], [[P. Schapira]], F. Ivorra, I. Waschkies, _Microlocalization of ind-sheaves_, in "Studies in Lie theory", Progress in Math. __243__, Birkh&#228;user 2006. 
 
