@@ -1256,6 +1256,9 @@ Application to [[thermal field theory|thermal]] [[QCD]]:
 
 * Vikas Yadav, Aalok Misra, _Towards Thermal QCD from M theory at Intermediate 't Hooft Coupling and G-Structure Classification of Non-supersymmetric Underlying Geometries_ ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
 
+* Alfonso Ballon-Bayona, Luis A. H. Mamani, Alex S. Miranda, Vilson T. Zanchin, _Effective holographic models for QCD: Thermodynamics and viscosity coefficients_ ([arXiv:2103.14188](https://arxiv.org/abs/2103.14188))
+
+
 
 
 
