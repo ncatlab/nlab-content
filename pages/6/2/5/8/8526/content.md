@@ -27,11 +27,11 @@ The logic of the final part of Mochizuki's approach to the [[abc conjecture]] is
 
 \begin{assum} \label{AssumptionMainInequalityInIUTT} Given $\mathbb{M}$, there are [[real number | real numbers]] $t_{\mathbb{M}}$ and $q_{\mathbb{M}}$ such that $-t_{\mathbb{M}} \geq - q_{\mathbb{M}}$. \end{assum}
 
-\begin{cor} \label{CorollaryInequalityForConstant} Given any real number $c_{\mathbb{M}}$ such that $-t_{\mathbb{M}} \leq c_{\mathbb{M}} \cdot  q_{\mathbb{M}}$, we have that $c_{\mathbb{M}} \geq -1$. \end{cor}
+\begin{cor} \label{CorollaryInequalityForConstant} Given any real number $c$ such that $-t_{\mathbb{M}} \leq c \cdot  q_{\mathbb{M}}$, we have that $c \geq -1$. \end{cor}
 
 \begin{proof} Immediate. \end{proof} 
 
-\begin{assum} \label{AssumptionConstantInvolvedInAbcConjecture} For a particular choice of $\mathbb{M}$, one can construct a $c_{\mathbb{M}}$ such that:
+\begin{assum} \label{AssumptionConstantInvolvedInAbcConjecture} For a particular choice of $\mathbb{M}$, one can construct a real number $c_{\mathbb{M}}$ such that:
 
 1. $-t_{\mathbb{M}} \leq c_{\mathbb{M}} \cdot q_{\mathbb{M}}$;
 1. if $c_{\mathbb{M}} \geq -1$, then the abc conjecture holds.
