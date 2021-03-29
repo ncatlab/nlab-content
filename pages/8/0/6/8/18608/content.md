@@ -46,17 +46,18 @@ This issue is well and widely known in the [[particle physics]]-community, see f
 ### The mass gap problem
  {#ReferencesMassGapProblem}
 
-A survey and problem description in [[mathematics]]/[[mathematical physics]] is in
+A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 * [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills and Mass Gap](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_
 
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
 
-and a report on the progress (essentially none) is in 
+Early report on the progress (essentially none):
 
 * {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
 
-Further comments are in
+
+Further comments:
 
 * [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, Bull Braz Math Soc, New Series 33(2), 201-212 ([arXiv:0911.1013](https://arxiv.org/abs/0911.1013), [pdf](http://emis.impa.br/EMIS/journals/em/docs/boletim/vol332/v33-2-a4-2002.pdf))
 
@@ -64,11 +65,17 @@ Notes reviewing more technical details of the problem are in
 
 * Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
 
+Problem description in terms of [[probability theory|probabilistic]] [[lattice gauge theory]]:
+
+* [[Sourav Chatterjee]], _Yang-Mills for probabilists_, in: _Probability and Analysis in Interacting Physical Systems_, PROMS **283** (2019) Springer ([arXiv:1803.01950](https://arxiv.org/abs/1803.01950), [doi:10.1007/978-3-030-15338-0](https://link.springer.com/book/10.1007/978-3-030-15338-0))
+
 See also
 
 * Wikipedia, _[Mass gap](https://en.wikipedia.org/wiki/Mass_gap)_.
 
 * Wikipedia, _[Yang-Mills existence and the mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap)_
+
+
 
 ### In the nuclear physics literature
 {#ExplicitMentioningInPhysicsLiterature} 
@@ -86,6 +93,8 @@ Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear phys
 
 
 ### Approaches
+
+#### Computer lattice QFT
 
 Of course various partial approaches exist, notably computer-[[experiment]] in [[lattice QCD]]. (Such computer-checks of the mass-gap problem are analogous to computer checks of the [[Riemann hypothesis]], see [there](Riemann+hypothesis#ReferencesComputerChecks))
 High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulations are reported here:
@@ -106,9 +115,15 @@ High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulation
 
 * Yonggoo Heo, C. Kobdaj, M.F.M. Lutz, _Constraints from a large-$N_c$ analysis on meson-baryon interactions at chiral order $Q^3$_, Phys. Rev. D 100, 094035 (2019) ([arXiv:1908.11816](https://arxiv.org/abs/1908.11816))
 
-> Still after many decades of vigorous studies the outstanding challenge of modern physics
-is to establish a rigorous link of QCD to low-energy hadron physics as it is observed in
-the many experimental cross section measurements. 
+> Still after many decades of vigorous studies the outstanding challenge of modern physics is to establish a rigorous link of QCD to low-energy hadron physics as it is observed in the many experimental cross section measurements. 
+
+#### Rigorous lattice QFT
+
+But there is also an approach via rigorous analytic [[lattice gauge theory]]:
+
+* {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2021 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
+
+
 
 (...)
 
