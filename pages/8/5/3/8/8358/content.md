@@ -47,7 +47,7 @@ Applying the tripos-to-topos construction to this tripos produces the realizabil
 
 +-- {: .num_defn} 
 ###### Definition 
-An **assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to P(A)$, where $P(A)$ denotes the [[powerset]] of $A$.  An assembly is **partitioned** if $[-]_X$ takes values in singletons, i.e. is a function ${|X|} \to A$.
+An **assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to P_{\ge 1}(A)$, where $P_{\ge 1}(A)$ denotes the set of [[inhabited set|inhabited]] subsets of $A$.  An assembly is **partitioned** if $[-]_X$ takes values in singletons, i.e. is a function ${|X|} \to A$.
 
 A **morphism** $X \to Y$ between assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that for all $x\in X$ and $b\in [x]_X$, $a\cdot b$ is defined and belongs to $[f(x)]_Y$.
 =--
