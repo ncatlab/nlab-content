@@ -153,3 +153,6 @@ and in [[equivariant Cohomotopy]]:
 
 [[!redirects charge quantization]]
 [[!redirects charge quantizations]]
+
+[[!redirects flux quantization]]
+[[!redirects flux quantizations]]
