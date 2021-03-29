@@ -120,6 +120,8 @@ For more details on Giry's monad and its variants see [[probability monad]].
 
 ## References
 
+### General
+
 The modern formalization of probability theory in [[measure theory]] originates around
 
 * {#Kolmogorov33} [[Andrey Kolmogorov]], _Grundbegriffe der Wahrscheinlichkeitsrechnung_, Ergebnisse der Mathematik und Ihrer Grenzgebiete, Springer Berlin Heidelberg, 1933
@@ -175,6 +177,21 @@ Discussion from a perspective of [[formal logic]]/[[type theory]] is in
 [[Mikhail Gromov]] on possible generalizations/modifications of probability theory (especially probability theory seen as, fundamentally, a ""functor" from a "complex category" to a "simple category""), as well as applications of probability within and without pure mathematics:
 
 * _Probability, symmetry, linearity. (six lectures)_. IHES, Nov 2014. ([videos](https://www.youtube.com/watch?v=aJAQVletzdY)) ([pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/probability-huge-Lecture-Nov-2014.pdf)).
+
+### As Euclidean field theory
+ {#AsEuclideanFieldTheories}
+
+Probability regarded as [[Euclidean quantum field theory]]:
+
+(...) see references at _[[conformal field theory]]_
+
+In relation to the [[mass gap problem]] in [[lattice gauge theory]]:
+
+* [[Sourav Chatterjee]], _Yang-Mills for probabilists_, in: _Probability and Analysis in Interacting Physical Systems_, PROMS **283** (2019) Springer ([arXiv:1803.01950](https://arxiv.org/abs/1803.01950), [doi:10.1007/978-3-030-15338-0](https://link.springer.com/book/10.1007/978-3-030-15338-0))
+
+* {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2020 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
+
+
 
 category: probability
 [[!redirects probability]]
