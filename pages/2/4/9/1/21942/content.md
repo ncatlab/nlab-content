@@ -16,4 +16,4 @@ In view of [[tetraquarks]]:
 
 * [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
 
-category: peopl
+category: people
