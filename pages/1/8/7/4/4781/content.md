@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -214,7 +215,7 @@ See also:
 
 * [[Manifold Atlas]], _<a href="http://www.map.mpim-bonn.mpg.de/Tangent_bundles_of_bundles_(Ex)">Tangent bundles of bundles</a>_
 
-* {#Gollinger16} William Gollinger, Section 1.1.4 in: _Madsen-Tillmann-Weiss Spectra and a Signature Problem for Manifolds_, M&uuml;nster 2016 ([pdf](https://repositorium.uni-muenster.de/document/miami/7369e8b5-6ae4-4e42-b6f3-4602ec24427a/diss_gollinger.pdf))
+* {#Gollinger16} William Gollinger, Section 1.1.4 in: _Madsen-Tillmann-Weiss Spectra and a Signature Problem for Manifolds_, M&uuml;nster 2016 ([pdf](https://repositorium.uni-muenster.de/document/miami/7369e8b5-6ae4-4e42-b6f3-4602ec24427a/diss_gollinger.pdf), [[GollingerMTWSpectra.pdf:file]])
 
 * {#Berglund20} Alexander Berglund, _Characteristic classes for families of bundles_ ([arXiv:2012.12170](https://arxiv.org/abs/2012.12170))
 
