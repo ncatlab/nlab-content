@@ -76,3 +76,8 @@ Discussion of glueballs in [[holographic QCD]] ([[AdS/QCD]]):
 
 
 [[!redirects glueballs]]
+
+[[!redirects glue-ball]]
+[[!redirects glue-balls]]
+
+
