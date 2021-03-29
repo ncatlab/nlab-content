@@ -28,6 +28,10 @@ on applications of [[differential forms]], or rather of [[de Rham cohomology]], 
 
 * [[de Rham complex]]
 
+
+## 2 The Mayer-Vietoris sequence
+
+
 ## 3 Orientation and integration
 
 * [[volume form]]
@@ -42,9 +46,22 @@ on applications of [[differential forms]], or rather of [[de Rham cohomology]], 
 
 * [[Gysin sequence]]
 
+## 5 The Mayer-Vietoris argument
+
 ## 6 The Thom isomorphism
 
+* [[vector bundles]]
+
+* [[fiber integration]], [[projection formula]]
+
 * [[Thom isomorphism]]
+
+
+## 7 The Nonorientable case
+
+## 8 The Generalized Mayer-Vietoris Principle
+
+## 9 More Examples and Applications of the Mayer-Vietoris Principle
 
 ## 10 Presheaves and Cech cohomology
 
