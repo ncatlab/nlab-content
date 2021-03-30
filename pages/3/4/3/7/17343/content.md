@@ -5,8 +5,7 @@
 ***
 
 
-This pages gives a detailed introduction to classical _[[homotopy theory]]_, starting with the concept of [[homotopy]] in
-[[topological spaces]] and motivating from this the "abstract homotopy theory" in general [[model categories]].
+This are lecture notes gibing a detailed introduction to classical _[[homotopy theory]]_, starting with the concept of [[homotopy]] in [[topological spaces]] and motivating from this the "abstract homotopy theory" in general [[model categories]].
 
 $\,$
 
