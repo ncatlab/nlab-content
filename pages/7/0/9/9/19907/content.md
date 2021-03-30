@@ -68,6 +68,12 @@ Further discussion of the graph complex as a model for the [[de Rham cohomology]
 
 * [[Ricardo Campos]], Julien Ducoulombier, Najib Idrissi, [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
 
+The following paper constructs a canonical chain of formality quasiisomorphisms for the operad of chains on framed little disks and the operad of chains on little disks. The construction is done in terms of logarithmic algebraic geometry and is
+remarkable for being rational (and indeed definable integrally) in de Rham
+cohomology:
+
+* [[Dmitry Vaintrob]], _Formality of little disks and algebraic geometry_, [arXiv:2103.15054](https://arxiv.org/abs/2103.15054).
+
 [[!redirects formality of the little n-disk operad]]
 
 [[!redirects the Fulton-MacPherson operad is formal]]
