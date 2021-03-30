@@ -177,7 +177,7 @@ Theories of [[supergravity]] have been known to require higher [[gauge field]]s 
 
 #### BV-BRST formalism {#BVBRST}
 
-The [[BV-BRST formalism]] is secretly a way to talk about the fact that configuraton spaces of [[gauge theory|gauge theories]] are not naive spaces such as [[manifold]]s, but are general [[space]]s in the sense of [[higher geometry]]: 
+The [[BV-BRST formalism]] is secretly a way to talk about the fact that configuration spaces of [[gauge theory|gauge theories]] are not naive spaces such as [[manifold]]s, but are general [[space]]s in the sense of [[higher geometry]]: 
 
 the configuration space is really an object $Conf \in Sh_{(\infty,1)}((dgAlg^-)^{op})$ in the [[∞-stack]] [[(∞,1)-topos]] on the [[(∞,1)-site]] $(dgAlg^-)^{op}$ of certain [[algebra in an (∞,1)-category|∞-algebras]] modeled as [[dg-algebra]]s. The BV-BRST-complex of a physical system is the global [[derived geometry|derived]] function algebra 
 
