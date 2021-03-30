@@ -21,7 +21,7 @@ On [[higher curvature corrections]] in [[11-dimensional supergravity]]:
 
 and specificallyt the on the [[I8]]-term
 
-* {#SoueresTsimpis17} Bertrand Souères, [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
+* {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
 On [[M-theory on 8-manifolds]]:
 
