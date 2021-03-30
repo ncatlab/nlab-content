@@ -4,6 +4,12 @@ _Lev Landau_ (&#1051;&#1077;&#1074; &#1044;&#1072;&#1074;&#1080;&#1076;&#1086;&#
 
 See also [[Landau-Lifschitz]].
 
+## Selected writings
+
+Introducing [[Landau-Ginzburg models]] in [[superconductivity]]:
+
+* [[Vitaly Ginzburg]], [[Lev Landau]], _On the Theory of Superconductivity_,  reprinted In: _On Superconductivity and Superfluidity_ Springer (2009) ([doi:1007/978-3-540-68008-6_4](https://doi.org/10.1007/978-3-540-68008-6_4))
+
 
 category: people
 
@@ -12,3 +18,6 @@ category: people
 [[!redirects Lev Lavidovich Landau]]
 [[!redirects Lev Lavidovič Landau]]
 [[!redirects Лев Давидович Ландау]]
+
+[[!redirects Л. Д. Ландау]]
+
