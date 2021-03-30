@@ -117,7 +117,7 @@ $p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
 ### Higher curvature corrections
  {#HigherCurvatureCorrection}
 
-Possible [[higher curvature corrections]] to 11-dimensional supergravity are discussed in the references listed [below](#ReferencesHigherCurvatureCorrections).
+Possible [[higher curvature corrections]] to 11-dimensional supergravity are discussed in the references listed [below](#ReferencesOnHigherCurvatureCorrectionsIn11dSupergravity).
 
 The first correction is an $R^4$-term at order $\ell^3_{P}$ (11d [[Planck length]]). In [Tsimpis 04](#Tsimpis04) it is shown that part of this is a topological term (total derivative) which relates to the [[shifted C-field flux quantization]].
 
@@ -303,39 +303,13 @@ See also
 
 * Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ ([arXiv:1805.07506](https://arxiv.org/abs/1805.07506))
 
-### Higher curvature corrections
- {#ReferencesHigherCurvatureCorrections}
-
-Discussion of [[higher curvature corrections]]:
-
-* [[Arkady Tseytlin]], _$R^4$ terms in 11 dimensions and conformal anomaly of (2,0) theory_, Nucl.Phys.B584:233-250, 2000 ([arXiv:hep-th/0005072](https://xxx.lanl.gov/abs/hep-th/0005072))
-
-* [[Paul Howe]], [[Dimitrios Tsimpis]], _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 ([arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129))
-
-* {#Tsimpis04} [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(l^3)$_,   JHEP 0410:046, 2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
-
-* {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
-
-* {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
-
-* {#Basu13} Anirban Basu, _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
-
-* {#SoueresTsimpis17} Bertrand Souères, Dimitrios Tsimpis, _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
 
-and from the [[ABJM  model]]:
 
-* Damon J. Binder, Shai M. Chester, Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
 
-See also:
+[[!include higher curvature corrections to D=11 supergravity -- references]]
 
-* [[Mohammad Garousi]], _Minimal gauge invariant couplings at order $\ell^6_p$ in M-theory_ ([arXiv:2102.00639](https://arxiv.org/abs/2102.00639))
 
-Discussion in view of the [[Starobinsky model of cosmic inflation]] is in
-
-* [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
-
-* Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
 
 
 ### Scattering amplitudes and Effective action
