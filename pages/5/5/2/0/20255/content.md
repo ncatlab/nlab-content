@@ -19,7 +19,7 @@
 
 ## Idea
 
-In the [[string theory]]-literature "$I_8$" is the standard notation for a certain [[characteristic class]] of [[manifolds]] (of their [[tangent bundles]]): It is a [[rational numbers|rational]] linear combination of the [[cup product|cup square]] of the [[first fractional Pontryagin class]]  with itself, and the [[second Pontryagin class]]:
+In the [[string theory]]-literature "$I_8$" or "$X_8$" is standard notation for a certain [[characteristic class]] of [[manifolds]] (of their [[tangent bundles]]): It is a [[rational numbers|rational]] linear combination of the [[cup product|cup square]] of the [[first fractional Pontryagin class]]  with itself, and the [[second Pontryagin class]]:
 
 \[
   \label{TheTerm}
@@ -35,7 +35,7 @@ In the [[string theory]]-literature "$I_8$" is the standard notation for a certa
   \,.
 \]
 
-In general this is a [[cohomology class]] in [[ordinary cohomology]] with [[rational number|rational]] [[coefficients]], though in applications it appears in further rational combination with other classes that in total yield a class in [[integral cohomology]].
+In general this is a [[cohomology class]] in [[rational cohomology]], though in applications it appears in further rational combination with other classes that in total yield a class in [[integral cohomology]].
 
 The expression (eq:TheTerm) controls certain [[quantum anomaly cancellation]] in [[M-theory]] and [[type IIA string theory]] ([Vafa-Witten 95](#VafaWitten95), [Duff-Liu-Minasian 95 (3.10) with (3.14)](#DuffLiuMinasian95)). Since it was first obtain as a [[1-loop]]-contribution in [[perturbative quantum gravity|perturbative quantum]] [[supergravity]], it is often known as _the one-loop anomaly term_ or the _one-loop anomaly polynomial_ in [[M-theory]]/[[type IIA string theory]].
 
