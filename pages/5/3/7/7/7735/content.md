@@ -21,7 +21,10 @@ On [[I8]]:
 * {#HarveyMinasianMoore98b} [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Non-abelian Tensor-multiplet Anomalies_, JHEP9809:004, 1998 ([arXiv:hep-th/9808060](https://arxiv.org/abs/hep-th/9808060))
 
 
-## Selected writings
+On [[higher curvature corrections]] in [[type II supergravity]] and in [[D=11 supergravity]]:
+
+* [[James Liu]], [[Ruben Minasian]], _Higher-derivative couplings in string theory: dualities and the B-field_, Nucl. Phys. B 2013 ([arXiv:1304.3137](https://arxiv.org/abs/1304.3137))
+
 
 On [[M5-branes]] and their [[quantum anomaly]]-cancellation:
 
