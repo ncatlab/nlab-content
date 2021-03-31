@@ -38,9 +38,7 @@ In order to understand the definition, we recall a little notation.
 
 The following is Definition 3.1 in [Inter-Universal Teichmüller theory I](#MochizukiIUTTI), on pg.61 (currently).
 
-\begin{defn}
-
-_Initial Θ-data_ is a 7-tuple $(\overline{F} / F, X_{F}, l, \underline{C}_{K}, \underline{\mathbb{V}}, \mathbb{V}^{bad}_{mod}, \underline{\epsilon})$ given the following data.
+\begin{defn} _Initial Θ-data_ is a 7-tuple $(\overline{F} / F, X_{F}, l, \underline{C}_{K}, \underline{\mathbb{V}}, \mathbb{V}^{bad}_{mod}, \underline{\epsilon})$ consisting of the following data.
 
 1. A [[number field]] $F$ such that $\sqrt{-1} \in F$. In other words, we have a field extension of the [[quotient ring]] $\mathbb{Q}[X] / (X^{2} + 1)$, which itself is a field because $X^{2} + 1$ is irreducible: see [[field extension]] for more details on this.
 
@@ -50,7 +48,7 @@ _Initial Θ-data_ is a 7-tuple $(\overline{F} / F, X_{F}, l, \underline{C}_{K}, 
 
 1. The field extension $F / F_{mod}$ is [[Galois extension|Galois]].
 
-1. A [[subset]] $\mathbb{V}$ of $\mathbb{V}\left(K_F\right)$ which is [[bijection|isomorphic]] to $\mathbb{V}\left(F_{mod}\right)$, and is such that the inclusion map $\mathbb{V} \hookrightarrow \mathbb{V}\left(K_F\right)$ is a [[section]] of the canonical map $V\left( K_F \right) \rightarrow V\left( F_{mod} \right)$ (see [[torsion points of an elliptic curve]] for details of this map).
+1. A [[subset]] $\mathbb{V}$ of $\mathbb{V}\left(K_F\right)$ which is [[bijection|isomorphic]] to $\mathbb{V}\left(F_{mod}\right)$. In other words, observing that $F_{mod}$ is a sub-field of $K_F$, a [[section]] of the map $V\left( K_F \right) \rightarrow V\left( F_{mod} \right)$ determined by the inclusion of $F_{mod}$ into $K_F$. 
 
 (TO BE CONTINUED)
 
