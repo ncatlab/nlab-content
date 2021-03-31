@@ -195,7 +195,7 @@ Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO
 
 An elaborate proposal for the correct flavour of real equivariant K-theory needed for [[orientifolds]] is sketched in
 
-* {#Precis} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
 Discussion of the alleged K-theory classification of D-brane charge in relation to the [[M-theory]] [[supergravity C-field|C-field]] is in
 
@@ -206,12 +206,9 @@ See also
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008,2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
 
-For more on this perspective as 10d type II as a [[self-dual higher gauge theory]] in the boudnary of a kind of [[higher dimensional Chern-Simons theory|11-d Chern-Simons theory]] is in
+More complete discussion of [[double dimensional reduction]] of the [[supergravity C-field]] in 11d to the expected [[B-field]] and [[RR-field]] [[flux]]  forms in 10d:
 
-* {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
+* {#MathaiSati03} [[Varghese Mathai]], [[Hisham Sati]], _Some Relations between Twisted K-theory and $E_8$ Gauge Theory_, JHEP0403:016,2004 ([arXiv:hep-th/0312033](http://arxiv.org/abs/hep-th/0312033))
 
-More complete discussion of the decomposition of the [[supergravity C-field]] as one passes from 11d to 10d is in 
-
-* {#MathaiSati03} [[Varghese Mathai]], [[Hisham Sati]], _Some Relations between Twisted K-theory and E8 Gauge Theory_, JHEP0403:016,2004 ([arXiv:hep-th/0312033](http://arxiv.org/abs/hep-th/0312033))
-
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, Volume 114, Pages 91-108 April 2017 ([arXiv:1606.03206](http://arxiv.org/abs/1606.03206), [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024))
 
