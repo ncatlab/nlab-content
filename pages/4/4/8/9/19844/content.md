@@ -196,6 +196,14 @@ New measurements reported by [[LHC]] [in March 2021](https://home.cern/news/news
 
 > With the recent updates $[...]$ the case for new physics inrare B decays has been further strengthened. $[...]$ Even if only the theoretically  clean  LFU observables  $[...]$ are considered, muon specific $[$ Wilson coefficients for New Physics$]$ im prove over the Standard Model by $\sqrt{\Delta^2} \simeq 4.7 \sigma$.
 
+[CFFIN 21](#CFFIN21):
+
+> With the recent result $[$ of [[LHCb]] $]$, for the first time a single observable affected by negligible theoretical uncertainties exhibits a deviation from the SM exceeding the $3 \sigma$ level.  Equally striking is the overall coherence of the picture that emerges, especially in $b \to s \ell^+ \ell^-$ −transitions.  As we shall show in this paper, combining all the $b \to s \ell^+ \ell^-$−observables in a very conservative way, the significance of the New Physics (NP) hypothesis formulated in 2014–2015 of a purely left-handed LFU-violating contact interaction has now reached a [[statistical significance|significance]] of $4.6 \sigma$.
+
+> $[\ldots]$  A more structural way of addressing the flavor structure of the model is the idea of implementing [[GUT|Pati-Salam unification]]
+
+\linebreak
+
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
@@ -538,6 +546,9 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#AltmannshoferStangl21} [[Wolfgang Altmannshofer]], Peter Stangl, _New Physics in Rare B Decays after Moriond 2021_ ([arXiv:2103.13370](https://arxiv.org/abs/2103.13370))
 
+* {#CFFIN21} Claudia Cornella, Darius A. Faroughy, [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias Neubert]], _Reading the footprints of the B-meson flavor anomalies_ ([arXiv:2103.16558](https://arxiv.org/abs/2103.16558))
+
+
 Outlook:
 
 * {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
@@ -611,7 +622,7 @@ Original articles include:
 
 * {#CCDGMV17} Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Joaquim Matias, [[Javier Virto]], _Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data_, JHEP 1801 (2018) 093 ([arXiv:1704.05340](https://arxiv.org/abs/1704.05340))
 
-* {#CFMVV17} Alejandro Celis, Javier Fuentes-Martin, Avelino Vicente, [[Javier Virto]], _Gauge-invariant implications of the LHCb measurements on Lepton-Flavour Non-Universality_, Phys. Rev. D 96, 035026 (2017) ([arXiv:1704.05672](https://arxiv.org/abs/1704.05672))
+* {#CFMVV17} Alejandro Celis, [[Javier Fuentes-Martin]], Avelino Vicente, [[Javier Virto]], _Gauge-invariant implications of the LHCb measurements on Lepton-Flavour Non-Universality_, Phys. Rev. D 96, 035026 (2017) ([arXiv:1704.05672](https://arxiv.org/abs/1704.05672))
 
 * Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly_ ([arXiv:1811.09603](https://arxiv.org/abs/1811.09603))
 
@@ -769,7 +780,7 @@ In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 
 explanation via assumption of [[leptoquarks]]:
 
-* {#BauerNeubert15} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
+* {#BauerNeubert15} Martin Bauer, [[Matthias Neubert]], _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
 
 
 * Yi Cai, John Gargalionis, Michael A. Schmidt, Raymond R. Volkas, _Reconsidering the One Leptoquark solution: flavor anomalies and neutrino mass_ ([arXiv:1704.05849](https://arxiv.org/abs/1704.05849))
@@ -800,7 +811,7 @@ explanation via assumption of [[leptoquarks]]:
 
 * Jason Aebischer, [[Andreas Crivellin]], Christoph Greub, _QCD Improved Matching for Semi-Leptonic B Decays with Leptoquarks_ ([arXiv:1811.08907](https://arxiv.org/abs/1811.08907))
 
-* Michael J. Baker, Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
+* Michael J. Baker, [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias König]], _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
 
 * {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
 
@@ -839,7 +850,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * C. Hati, J. Kriewald, J. Orloff, A.M. Teixeira, _A nonunitary interpretation for a single vector leptoquark combined explanation to the B-decay anomalies_ ([arXiv:1907.05511](https://arxiv.org/abs/1907.05511))
 
-* Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
+* [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias König]], Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
 * Shaikh Saad, Anil Thapa, _A Common Origin of Neutrino Masses and $R_{D^\ast}$, $R_{K^\ast}$ Anomalies_ ([arXiv:2004.07880](https://arxiv.org/abs/2004.07880))
 
@@ -885,7 +896,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 and in relation to [[axions]]:
 
-* Javier Fuentes-Martin, Mario Reig, Avelino Vicente, _4321... axion!_ ([arXiv:1907.02550](https://arxiv.org/abs/1907.02550))
+* [[Javier Fuentes-Martin]], Mario Reig, Avelino Vicente, _4321... axion!_ ([arXiv:1907.02550](https://arxiv.org/abs/1907.02550))
 
 [[leptoquarks]] as possible explanation also of the anomalies seen in the [[ANITA experiment]]
 
