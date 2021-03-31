@@ -60,7 +60,7 @@ A similar charge quantization condition govers [[monopoles]] in [[SU(2)]]-[[Yang
 
 ### For RR-field D-brane charges in K-theory
 
-See at _[[K-theory classification of D-brane charge]]_
+See at _[[D-brane charge quantization in K-theory]]_
 
 ### For the C-field in J-twisted Cohomotopy
 
