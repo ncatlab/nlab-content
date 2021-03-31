@@ -409,6 +409,10 @@ The diagonal, total d&#233;calage and total simplicial set constructions are dis
 
 * [[Danny Stevenson]], _D&#233;calage and Kan's simplicial loop group functor_ ([arXiv:1112.0474](http://arxiv.org/abs/1112.0474)){#Stevenson}
 
+* [[Viktoriya Ozornova]], [[Martina Rovelli]], _The unit of the total décalage adjunction_, Journal of Homotopy and Related Structures (2020) 15:333–349, [doi.org/10.1007/s40062-020-00257-1
+](https://doi.org/10.1007/s40062-020-00257-1)
+
+
 
 The diagonal-induced model structure on $ssSet$ is discussed in
 
