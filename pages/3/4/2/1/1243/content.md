@@ -54,6 +54,8 @@ This is a special case of a [more general result](http://ncatlab.org/nlab/show/p
 
 * In [[rational homotopy theory]] one considers the [[homotopy group]]s $\pi_n(X)$ of [[topological space]]s $X$ tensored over $\mathbb{Q}$: the resulting groups $\pi_n(X) \otimes_{\mathbb{Z}} \mathbb{Q}$ are then necessarily torsion-free -- in this sense [[rational homotopy theory]] studies spaces "up to torsion".
 
+* The torsion elements of an [[elliptic curve]] as a group are important in number theory and arithmetic geometry. See [[torsion points of an elliptic curve]].
+
 ## Related concepts
 
 * [[torsion-free module]]
