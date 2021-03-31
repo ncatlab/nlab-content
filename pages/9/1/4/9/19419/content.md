@@ -62,4 +62,12 @@ _Initial Θ-data_ is a 7-tuple $(\overline{F} / F, X_{F}, l, \underline{C}_{K}, 
 
 * [[Taylor Dupuy]], Anton Hilado, _The Statement of Mochizuki's Corollary 3.12, Initial Theta Data, and the First Two Indeterminacies_, arXiv:[2004.13228](https://arxiv.org/abs/2004.13228)
 
+* [[Taylor Dupuy]], _Initial Theta Data_, video series.
+
+   * [Some Prerequisites, and The Easy Part of Initial Theta Data](https://youtu.be/FTv5TnXR1HQ)
+   * [Transvections](https://youtu.be/4QEntmb2xyE)
+   * [Local Global l-torsion Compatibility](https://youtu.be/gcuqYsrCR5A)
+   * [Existence and Examples](https://youtu.be/sUGXfC8LwwI)
+
+
 [[!redirects Initial Θ-data]]
