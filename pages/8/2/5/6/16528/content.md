@@ -31,6 +31,10 @@ and specifically in terms of [[G-structures]]:
 
 * [[Daniël Prins]], [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with SU(4) structure_, PhysRevD.89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
 
+More on [[G-structures]] in [[supergravity]]:
+
+* [[Robin Terrisse]], [[Dimitrios Tsimpis]], _$SU(3)$ structures on $S^2$ bundles over four-manifolds_, JHEP09 (2017) 133 ([arXiv:1707.04636](https://arxiv.org/abs/1707.04636))
+
 On [[topological twists]]:
 
 * [[Jeong-Hyuck Park]], [[Dimitrios Tsimpis]], _Topological twisting of conformal supercharges_, Nucl. Phys. B776:405-430, 2007 ([arXiv:hep-th/0610159](http://arxiv.org/abs/hep-th/0610159))
