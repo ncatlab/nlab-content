@@ -95,11 +95,11 @@ It is sufficient to see that the functors ([[corestriction|co-]])[[restriction|r
 
 Hence we need to show that 
 
-1. for $c \in \mathcal{C}_{fix} \hookrightarrow \mathcal{C}$ we have that $\eta_{R(d)}$ is an [[isomorphism]];
+1. for $c \in \mathcal{C}_{fix} \hookrightarrow \mathcal{C}$ we have that $\epsilon_{L(c)}$ is an [[isomorphism]];
 
-1. for $d \in \mathcal{D}_{fix} \hookrightarrow \mathcal{D}$ we have that $\epsilon_{L(c)}$ is an [[isomorphism]].
+1. for $d \in \mathcal{D}_{fix} \hookrightarrow \mathcal{D}$ we have that $\eta_{R(d)}$ is an [[isomorphism]].
 
-For the first case we claim that $R(\eta_{d})$ provides an [[inverse morphism|inverse]]: by the [[triangle identity]] (eq:TriangleIdentities) it is a [[right inverse]], but by assumption it is itself an [[invertible morphism]], which implies that $\eta_{R(d)}$ is an isomorphism.
+For the first case we claim that $L(\eta_{c})$ provides an [[inverse morphism|inverse]]: by the [[triangle identity]] (eq:TriangleIdentities) it is a [[right inverse]], but by assumption it is itself an [[invertible morphism]], which implies that $\epsilon_{L(c)}$ is an isomorphism.
 
 The second claim is [[formal duality|formally dual]].
 
