@@ -16,12 +16,8 @@ Named after [[Hendrik Casimir]], who discovered the concept in the context of [[
 * Wikipedia, _[Casimir element](https://en.wikipedia.org/wiki/Casimir_element)_
 
 [[!redirects Casimir operators]]
-
 [[!redirects Casimir invariant]]
 [[!redirects Casimir invariants]]
-
-
 [[!redirects Casimir element]]
-[[!redirects Casimir element]]
-
+[[!redirects Casimir elements]]
 [[!redirects Casimir]]
