@@ -48,7 +48,7 @@ The following is Definition 3.1 in [Inter-Universal Teichmüller theory I](#Moch
 
 1. The field extension $F / F_{mod}$ is [[Galois extension|Galois]].
 
-1. A [[subset]] $\mathbb{V}$ of $\mathbb{V}\left(K_F\right)$ which is [[bijection|isomorphic]] to $\mathbb{V}\left(F_{mod}\right)$. In other words, observing that $F_{mod}$ is a sub-field of $K_F$, a [[section]] of the map $V\left( K_F \right) \rightarrow V\left( F_{mod} \right)$ determined by the inclusion of $F_{mod}$ into $K_F$. 
+1. A [[subset]] $\underline{\mathbb{V}}$ of $\mathbb{V}\left(K_F\right)$ which is [[bijection|isomorphic]] to $\mathbb{V}\left(F_{mod}\right)$. In other words, observing that $F_{mod}$ is a sub-field of $K_F$, a [[section]] of the map $V\left( K_F \right) \rightarrow V\left( F_{mod} \right)$ determined by the inclusion of $F_{mod}$ into $K_F$. 
 
 (TO BE CONTINUED)
 
