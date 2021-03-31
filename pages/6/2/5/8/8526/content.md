@@ -118,6 +118,8 @@ Surveys include
 
 * {#Morrow17} [[Jackson Morrow]], _Kummer classes and Anabelian geometry_, notes from Super [QVNTS](http://www.dms.umontreal.ca/%7Eqvnts/): [Kummer Classes and Anabelian Geometry](http://www.uvm.edu/%7Etdupuy/anabelian.html) 2017 ([pdf](https://www.dropbox.com/s/kiszgkrrsjrqu4p/VermontNotes_Final.pdf?dl=0))
 
+The following two papers give a _statement_ of Corollary 3.12 in plain language (not using the elaborate setup in the IUT papers), and **assuming** the inequality in it as given, derive concrete versions of (weakenings of) Szpiro's conjecture, again, using conventional terminology and techniques.
+
 * [[Taylor Dupuy]], Anton Hilado, _The Statement of Mochizuki's Corollary 3.12, Initial Theta Data, and the First Two Indeterminacies_, arXiv:[2004.13228](https://arxiv.org/abs/2004.13228)
 
 * [[Taylor Dupuy]], Anton Hilado, _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_, arXiv:[2004.13108](https://arxiv.org/abs/2004.13108)
