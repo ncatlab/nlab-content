@@ -54,12 +54,11 @@ More concretely there are various explicit and standard [[coordinates|coordinaza
 #### Conceptual definition
  {#OverGeneralRingConceptualDefinition}
 
-+-- {: .num_defn #EllipticCurve}
-###### Definition
+\begin{defn} \label{DefinitionEllipticCurve} {#EllipticCurve}
 
 An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group scheme]] (a [[group object]] in the [[category]] of [[schemes]]) over $Spec(R)$ that is a relative 1-dimensional, [[smooth scheme|smooth]], [[proper scheme|proper]] curve over $R$. 
 
-=--
+\end{defn} 
 
 +-- {: .num_remark}
 ###### Remark
@@ -309,10 +308,15 @@ _[[level structure on an elliptic curve|level-n structure on an elliptic curve]]
 
 These structures are useful in that the [[moduli stack]] of [[elliptic curves with level-n structure]] (a _[[modular curve]]_ in the case over the complex numbers) provides a finite [[covering]] of the full [[moduli stack of elliptic curves]].
 
-## Properties
+## Group structure
 
+A vital reason for the importance of elliptic curves in number theory, arithmetic geometry, and elsewhere is their group structure. This group structure is present by fiat in Definition \ref{DefinitionEllipticCurve}, and can be constructed given a Weierstrass equation. 
 
-### Group law 
+The [[torsion element|torsion elements]] of this group structure when the elliptic curve is defined over a [[number field]] have good Galois-theoretic properties. See [[torsion points of an elliptic curve]] for more.
+
+## Constructions
+
+### Formal group law 
 
 Given an [[elliptic curve]] over $R$, $E \to Spec R$, we get a [[formal group]] $\hat E$ by completing $E$ along its identity [[section]] $\sigma_0$
 
@@ -322,7 +326,6 @@ $$
 $$
 
 we get a [[ringed space]] $(\hat E, \hat O_{E,0})$
-
 
 
 +-- {: .num_example}
@@ -377,7 +380,7 @@ if $\Delta \coloneqq \epsilon(\delta^2 - \epsilon)^2 \neq 0$ then this is a non-
 
 If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ ([[additive group|additive]] or [[multiplicative group|multiplicative]] formal group law corresponding to [[ordinary cohomology]] and [[topological K-theory]] [[KU]], respectively).
 
-### Relation to elliptic cohomology 
+### Elliptic cohomology 
 
 Elliptic curves, via their [[formal group law]]s, give the name to [[elliptic cohomology]] theories.
 
