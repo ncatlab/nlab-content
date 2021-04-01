@@ -4,6 +4,7 @@
 
 On the conjectural [[D-brane charge quantization in topological K-theory]]:
 
+
 #### Origin and basics
 
 The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K-theory]] originates with:
@@ -46,16 +47,24 @@ Specifically for D-branes in [[WZW models]] see
 
 * [[Peter Bouwknegt]], _A note on equality of algebraic and geometric D-brane charges in WZW models_ ([pdf](http://people.physics.anu.edu.au/~drt105/papers/BR0312259.pdf))
 
-More on this, with more explicit relation to [[noncommutative motives]], is in 
-
-* {#Mahanta09} [[Snigdhayan Mahanta]], _Noncommutative correspondence categories, simplicial sets and pro $C^\ast$-algebras_ ([arXiv:0906.5400](http://arxiv.org/abs/0906.5400))
- 
-
-* {#Mahanta11} [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_, Journal of Geometry and Physics, Volume 61, Issue 5 2011, p. 875-889.   ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
  
 Discussion of D-brane [[matrix models]] taking these K-theoretic effects into account ([[K-matrix model]]) is in
 
 * {#AsakawaSugimotoTerashima01} T. Asakawa, S. Sugimoto, S. Terashima, _D-branes, Matrix Theory and K-homology_, JHEP 0203 (2002) 034 ([arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085))
+
+
+
+### Twisted, equivariant and differential refinement
+
+Discussion of charge quantization in [[twisted K-theory]] for the case of non-vanishing [[B-field]]:
+
+* [Witten 98, Sec. 5.3](#Witten98)
+
+* [[Peter Bouwknegt]], [[Varghese Mathai]], _D-branes, B-fields and twisted K-theory_, Int. J. Mod. Phys. A16:693-706, 2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
+
+An proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
+
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] 
@@ -65,7 +74,6 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
 
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
-
 
 
 #### Reviews
@@ -193,9 +201,6 @@ Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO
 
 * H. Garcia-Compean, W. Herrera-Suarez, B. A. Itza-Ortiz, O. Loaiza-Brito, _D-Branes in Orientifolds and Orbifolds and Kasparov KK-Theory_, JHEP 0812:007, 2008 ([arXiv:0809.4238](https://arxiv.org/abs/0809.4238))
 
-An elaborate proposal for the correct flavour of real equivariant K-theory needed for [[orientifolds]] is sketched in
-
-* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
 Discussion of the alleged K-theory classification of D-brane charge in relation to the [[M-theory]] [[supergravity C-field|C-field]] is in
 
