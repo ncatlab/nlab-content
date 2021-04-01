@@ -125,7 +125,7 @@ $$
 
 is a [[short exact sequence]] of smooth [[real vector bundles]]. 
 
-Now all [[short exact sequences]] of [[real vector bundles]] over [[paracompact topological spaces]] (such as [[smooth manifolds]]) [[split exact sequence|split]] (by a choice of fiberwise metric, e.g. Prop. 3.5 [here](http://www.math.ubc.ca/~cautis/math428/notes-bundles.pdf)), which is the statement to be shown.
+Now all [[short exact sequences]] of [[real vector bundles]] over [[paracompact topological spaces]] (such as [[smooth manifolds]]) [[split exact sequence|split]] (by a choice of fiberwise metric, see at _[[short exact sequence of vector bundles]]_), which is the statement to be shown.
 \end{proof}
 
 ## Examples
