@@ -25,7 +25,10 @@ On [[equivariant homotopy theory]] and [[equivariant cohomology]]:
 
 On [[algebraic topology]]:
 
-* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_. European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
+* [[Tammo tom Dieck]], _Topologie_, De Gruyter 2000 ([doi:10.1515/9783110802542](https://doi.org/10.1515/9783110802542))
+
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_. European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
 
 
 On [[representation theory]]:
