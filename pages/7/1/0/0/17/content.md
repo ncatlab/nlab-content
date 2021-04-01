@@ -32,11 +32,40 @@ There is no feature to preview your edits.  Instead, submit them and then edit a
 ### How to start a new page
 {#newpage}
 
-You do this in two steps, the first of which may have already been done:
+To create a new page on the $n$Lab first make an existing page request a link to it, and then click on that requested link. 
 
-1. Create a preliminary link (represented by a question mark) by editing a current page and putting the name of the new page in double square brackets.  (You can do this in the [[Sandbox]] if there is no better place, but probably you want to do this in context on a relevant page that should link to your new page.)
+In detail:
 
-2. Clicking on the question mark to begin editing the new page.  (It will not actually be created until you hit Submit.)
+1. **Create a link request.** 
+
+   1. Identify any existing $n$Lab page which should eventually refer to your new page. 
+
+      (At least one such page ought to exist, if your new page is related to anything, but if you just cannot think of any, use the _[[Sandbox]]_ page).
+
+   1. Hit "edit" on that existing page. 
+
+   1. In the resulting edit pane, add the string 
+
+      <nowiki>[[your new page name]]</nowiki>
+
+      at some sensible point in the source code. 
+
+      (By default: in the "Related entries"-section.)
+
+   1. Hit "submit" below the edit pane. 
+
+   1. See the existing page render again, now with your edit included. If <nowiki>your new page name</nowiki> did not exist yet as a page, you will see that string appear, in the existing entry, in gray with a clickable question mark behind it.
+     
+
+2. **Satisfy the link request.**
+
+   1. Click on that question mark to open the edit pane for the new page.
+
+   1. Edit.
+
+   1. Once you hit "Submit" below that edit pane, the new page will appear. 
+
+   There is no preview mechanism: Just keep cycling through "Submit" and "Edit" until you are satisfied. 
 
 _Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (<nowiki>[[like this|Like this]]</nowiki>.) We loosely agreed to try to follow that and some other naming conventions; see [below](#naming).
 
