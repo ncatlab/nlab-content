@@ -108,11 +108,14 @@ Textbooks:
 
 * [[Peter May]], _[[A concise course in algebraic topology]]_,   University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
+* [[Tammo tom Dieck]], _Topologie_, De Gruyter 2000 ([doi:10.1515/9783110802542](https://doi.org/10.1515/9783110802542))
+
+
 * [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
 
 * [[Dai Tamaki]], [[Akira Kono]], _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
-* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
+* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
 
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
