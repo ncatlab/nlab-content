@@ -441,10 +441,10 @@ By the Grothendieck construction, adjunct fibrations over $S$ correspond to cate
 For a functor $p : X \to S$ of (∞,1)-categories with small fibers.
 
 * If $p$ is a cartesian fibration classified by $\chi : S^\op \to (\infty,1)Cat$,
-$\chi$ factors through $RAdj$ iff $\chi(f)$ has a left adjoint for every edge $f \in S$
+$\chi$ factors through $RAdj$ iff $p$ is an adjunct fibration
 
 * If $p$ is a cocartesian fibration classified by $\chi : S \to (\infty,1)Cat$,
-$\chi$ factors through $LAdj$ iff $\chi(f)$ has a right adjoint for every edge $f \in S$
+$\chi$ factors through $LAdj$ iff $p$ is an adjunct fibration
 
 =--
 
@@ -461,7 +461,7 @@ This is a restatement of [[Higher Topos Theory|HTT, def. 5.2.2.5]].
 
 There are anti-equivalences $ladj : RAdj^{op} \to LAdj$
 and $radj : LAdj^{op} \to RAdj$ that are the identity on objects
-and the action on homspaces $LAdj(C, D) \to RAdj(D,C)$ is the equivalence sending a functor to its adjoint.
+and the action on homspaces $LAdj(C, D) \simeq RAdj(D,C)$ is the equivalence sending a functor to its adjoint.
 
 =--
 
