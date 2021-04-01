@@ -609,11 +609,15 @@ Emphasis of [[QED]]-corrections:
 * {#MishraMahajan20} Dayanand Mishra, Namit Mahajan
 On the Impact of Soft Photons on  $B \to K \ell^+ \ell^-$ ([arXiv:2010.10853](https://arxiv.org/abs/2010.10853))
 
+Textbook account:
+
+
+* {#Buras20}  [[Andrzej Buras]], _Gauge Theory of Weak Decays_, (2020) ([doi:10.1017/9781139524100](https://doi.org/10.1017/9781139524100), [CERN review](https://cerncourier.com/a/the-hitchhikers-guide-to-weak-decays/) by [[Gino Isidori]])
 
 
 
 
-Original articles include:
+Original articles:
 
 * {#StrumiaEtAl17} Guido D'Amico, Marco Nardecchia, Paolo Panci, Francesco Sannino, [[Alessandro Strumia]], Riccardo Torre, Alfredo Urbano, 
 
