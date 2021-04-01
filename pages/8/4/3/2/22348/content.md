@@ -1,3 +1,4 @@
+\tableofcontents
 
 \section{Idea of a situs }
 
@@ -251,7 +252,7 @@ View the standard geometric simplex in $\mathbb{R}^n$
 as the space of monotone maps 
 $[0,1]^\leq \to (n+1)^\leq$ with 
 Skorokhod-type metric 
-$dist(f,g):= sup_{x} inf_{y} \{ dist( f(x), g(y)) : |x-y|\le\epsilon\}$.
+$dist(f,g):= sup_{x} inf_{y} \{ |x-y| : f(x)=g(y) \}$.
 The category of situses allows us to view both linear orders as situses:
 the situs structure on $[0,1]_\bullet$ "remembers" the metric, 
 and the situs structure on $\Delta_n=Hom(-,(n+1)^\leq)$ 
@@ -392,7 +393,7 @@ involving the following combinatorial structures.
 
 Let $T^\leq$ be an infinitely branching tree of infinite depth, 
 viewed as preorder, and equipped with the indiscrete filter.  
-We may take $T^\leq$ to be ${}^{\le\omega}\omega$. 
+We may take $T^\leq$ to be ${}^{\less\omega}\omega$. 
 Let $T^\leq_\bullet$ denote the corresponding situs.
 
 Let $T^{antichains}_\bullet$ be the simplicial set of 
@@ -401,13 +402,12 @@ $T^{antichains}_\bullet(n^\leq)$ is the set of
 $n$-tuples of pairwise incomparable elements of $T$. 
 Define a subset of 
 $T^{antichains}_\bullet(n^\leq)$ to be large 
-iff
-%%for each infinitely branching subtree of $T^\leq$ of infinite depth, 
+iff 
  it contains a tuple of 
 (pairwise incomparable) immediate descendants of some vertex
 in each infinitely branching subtree of $T^\leq$. 
 In more detail, a subset $\epsilon$ is large iff for each isomorphic copy
-of $T'={}^{\le\omega}\omega$ in $T^\leq$ there is a vertex $v\in T'$
+of $T'={}^{\less\omega}\omega$ in $T^\leq$ there is a vertex $v\in T'$
 and its immediate (in $T'$) descendants $v_1,..,v_n \in \epsilon \cap T'$.
 %A verification shows that this indeed defines a filter. 
  
@@ -453,7 +453,7 @@ Topology and analysis:
  [(pdf)](http://mishap.sdf.org/6a6ywke/6a6ywke.pdf)
 
 Geometric realisation:
-* {#2} [2] (Misha Gavrilovich, Konstantin Pimenov)  Geometric realisation as the Skorokhod semi-continuous path space endofunctor. [(pdf)](http://mishap.sdf.org/SkorokhodGeometricRealisation.pdf)
+* {#2} [2] Misha Gavrilovich, Konstantin Pimenov.  Geometric realisation as the Skorokhod semi-continuous path space endofunctor. [(pdf)](http://mishap.sdf.org/SkorokhodGeometricRealisation.pdf)
 
 Stability and simplicity:
 
