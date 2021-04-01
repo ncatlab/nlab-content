@@ -31,7 +31,7 @@ $\,$
 ## Purpose
 {#purpose}
 
-The nLab records and explores a wide range of mathematics, physics, and philosophy. Along with work of an expository nature, original material can be found in abundance, as can notes from evolving research.
+The nLab records and explores a wide range of mathematics, physics, and philosophy. Along with work of an expository nature, original material can be found in abundance, as can notes from evolving research. Where mathematics, physics, and philosophy arise in other fields, computer science and linguistics for example, the nLab explores these too.
 
 If you take a little time to find something in the literature, or to work through a proof or example, or to find an intuitive or new way to think about something, add a note on it to the nLab! Others will benefit, and you may well find that it proves useful to you too.
 
@@ -40,29 +40,32 @@ A fundamental idea behind the nLab is that the linking between pages of a wiki i
 For more, see Urs Schreiber's thoughts at [[schreiber:What is... the nLab|What is... the nLab?]]. Further details can be found at [[About]].
 
 
-## Discussion, Comments, Questions
+## nForum, discussion, comments, and questions
  {#Discussion}
 
-While we work on the $n$Lab, we talk to each other on the [nForum](http://nforum.ncatlab.org). In particular, for all but the most trivial edits (correcting spelling or punctuation, etc.), we make a note of our latest edits to the $n$Lab in the part [nForum -- latest changes](http://nforum.ncatlab.org/5/), where they may be discussed further.
+Most nLab pages have a corresponding discussion thread at the [nForum](http://nforum.ncatlab.org), linked to in the menus at the top and bottom of the page. For all but the most trivial edits (correcting spelling or punctuation, etc), we ask that you announce your changes at the nForum using the box at the bottom of the edit page. Typically this would be a short note summarising what you have done, but it can also include what you plan to do, or what you would like others to do! See [[nlabmeta:Welcome to the nForum]] for more on the nForum.
 
-If you do make **contributions** to the $n$Lab, you are strongly encouraged to similarly drop a short note there about what you have done -- or maybe just about what you plan to do or even what you would like others to do. 
-See _[[nlabmeta:Welcome to the nForum]]_ for more information.
+If you have any questions about an nLab page, or would like to discuss or make a comment upon something in it, whether because you feel that something is wrong or missing or for any other reason, you are encouraged and very welcome to use the nForum discussion thread for the page for this purpose too. If the discussion thread does not yet exist, feel free to create it manually: use the 'nLab - Latest changes' category, and give it the same title (case-sensitive!) as the nLab page.
 
-If you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layperson and feel that things could be explained better -- then we generally prefer that you post that comment or question to the [nForum](http://nforum.ncatlab.org), where it is visible to everybody who might be concerned.
-
-In case that you do feel that this is not an option and that you do need to contact privately (say by email) a single author of an $n$Lab page, please make sure that you know who the right author is. Beware that the $n$Lab pages are visibly "signed" only by the name of the last person who made any edit on the page, no matter how minor. To find the author who made the edit that you want to comment or ask about privately, you should click on the link "History" at the bottom of any page to see which version was authored by whom. 
-
-
+The pages of the nLab have almost always been edited by several people. In almost all cases, we recommend that you use the nForum rather than contact an author of an edit directly, but if you do have a reason to do this, the history of edits to the page with the details of who made them can be found by clicking on 'History' at the bottom of the page.
 
 ## Contributing to the $n$Lab
  {#Contributing}
 
-If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
+If after looking around for a while you feel like contributing yourself, you are very welcome to do so! See [below](#SoftwareRequirements) for more on how to actually edit, as well as the [[HowTo]].
 
-If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://nforum.ncatlab.org)!
+If you make any edits to the nLab, please follow the guidelines for announcing your changes at the [nForum](https://nforum.ncatlab.org) given [above](#Discussion). If you are unsure whether what you would like to contribute is appropriate, please ask at the nForum before making the edit.
 
+## Viewing and editing the nLab
+ {#SoftwareRequirements}
 
-## Using the $n$Lab
+The nLab should be viewable and editable in any modern web browser on any device. For technical reasons, browsers which are able to render [MathML](http://en.wikipedia.org/wiki/MathML), such as Firefox, may render very large pages quicker than other browsers, but these pages are few and far between, and most people will be able to use the browser of their choice. 
+
+Editing the nLab these days can be done more or less as in LaTeX. Macros are not currently available, but mathematics can be entered within dollar signs as usual, [theorem environments](https://ncatlab.org/nlab/show/HowTo#DefinitionTheoremProofEnvironments), sections and tables of contents can be defined as in LaTeX, [commutative diagrams](https://ncatlab.org/nlab/show/HowTo#diagrams) and figures can be created in Tikz or XyMatrix, and so on. For simple formatting, such as italics, and for some other things such as tables, [Markdown](https://en.wikipedia.org/wiki/Markdown) is used. 
+
+See the [[HowTo]] for more on editing the nLab. 
+
+## Making use of material from the $n$Lab
  {#TermsOfUse}
 
 One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice:
@@ -79,19 +82,6 @@ Usually this works well. If there is need for discussion, the
 [nForum](http://nforum.ncatlab.org) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
 
 
-## Software requirements
- {#SoftwareRequirements}
-
-The $n$Lab sends mathematical formulas to the browser using [MathML](http://en.wikipedia.org/wiki/MathML).  
-
-Notice that **you don't need to know any MathML** for editing the $n$Lab, only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is very similar to ordinary [LaTeX](https://www.latex-project.org/).
-
-Presently only [Firefox](http://www.mozilla.com/firefox/) and its derivatives have implemented _native_ rendering of MathML. Presently all other browsers fall back to invoking [MathJax](https://www.mathjax.org/). This works fine on small pages, but on pages with substantial content the MathJax rendering takes up to several minutes. 
-
-This means that presently **you should use Firefox** or its derivatives to view the $n$Lab ([free download of Firefox](https://www.mozilla.org/en-GB/firefox/new/?gclid=CJnjs-3R3M0CFRHhGwodA10Euw)).
-
-\linebreak
-
 ## Server and setup
  {#Server}
 
@@ -101,7 +91,7 @@ The $n$Lab server is currently hosted at Carnegie Mellon University, funded in t
 
 > The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
 
-However, we will imminently be moving to the cloud, to an account registered to the [Topos Institute](https://topos.institute/). We are currently [[funding of the nLab|raising funds]]; please contribute if you can!
+However, we will imminently be moving to the cloud, to an account registered to the [Topos Institute](https://topos.institute/). For this, we rely on donations which have kindly been made to the nLab. See [[funding of the nLab]] for an overview of the financial side of things.
 
 The development of the nLab software and technical administrative matters are currently in the hands of [[Richard Williamson]] and assistant [[Alexis Hazell]]. If you wish to lend a hand, please [contact us](https://nforum.ncatlab.org).
 
