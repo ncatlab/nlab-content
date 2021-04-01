@@ -454,7 +454,7 @@ A functor $p : X \to S$ is an _adjunct fibration_ iff it is both a cartesian fib
 
 =--
 
-By the Grothendieck construction, adjunct fibrations over $S$ correspond to category-valued functors on $S$ that send arrows of $S$ to adjoint pairs of categories.
+By the [[(∞,1)-Grothendieck construction]] construction, adjunct fibrations over $S$ correspond to category-valued functors on $S$ that send arrows of $S$ to adjoint pairs of categories.
 
 +-- {: .num_lemma}
 ###### Lemma
