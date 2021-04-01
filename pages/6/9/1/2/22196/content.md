@@ -8,13 +8,22 @@ In the autumn of 2020, at the kind initiative of [[Brendan Fong]], the nLab deci
 
 \section{Plan}
 
-The nLab is carrying out an initial [request for donations](#Donate) to support the running of the nLab, via the Topos Institute. Hopefully, the amounts raised will be sufficient to finance the running of the nLab for a number of years, and no further request for donations for this purpose will be made until necessary. It is possible in the future that funds donated to the nLab may be put to the development of the nLab in other ways, but there are no definite plans for this yet.
+In March 2020, the nLab made an initial [request for donations](#Donate) to support the running of the nLab, via the Topos Institute. Thank you very much to everyone who donated! The amounts raised should be sufficient to finance the running of the nLab for a number of years, and no further request for donations for this purpose will be made until necessary. It is possible in the future that funds donated to the nLab may be put to the development of the nLab in other ways, but there are no definite plans for this yet.
+
+\section{Financial overview}
+
+The current state of the nLab finances is as follows. It will be updated regularly, probably monthly, quarterly, or bi-annually. All sums are in US dollars.
+
+
+| Month | Funds | Income (one-off donations) | Income (monthly donations) | Expenditure|
+|-------|-------| ---------------------------|----------------------------|--------------|
+| March 2020 | 6573 | 6505 | 68 | 0 |
 
 
 \section{Donate!}
   {#Donate}
 
-If you like to support the $n$Lab financially, you are invited to send a donation through the following mechanism, kindly provided by the _[Topos Institute](https://topos.institute/)_ (thanks to [[Brendan Fong]]!):
+If you like to support the $n$Lab financially, you are welcome to send a donation (a one-off fixed amount or a running monthly sum) through the following mechanism, kindly provided by the _[Topos Institute](https://topos.institute/)_ (thanks to [[Brendan Fong]]!):
 
 <center>
 <a href="https://topos.institute/contact">
