@@ -29,6 +29,8 @@ The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]
 
 ## Related concepts
 
+* [[leptonic decay]]
+
 * [[CKM matrix]]
 
 * [[V_cb puzzle]]
@@ -37,17 +39,25 @@ The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]
 
 ## References
 
-See the references at
+See also the references at:
+
+* [[QCD]]
 
 * [[electroweak field]], [[electroweak symmetry breaking]]
 
-* [[leptonic decay]]
 
-* [[QCD]]
+
+
+
+See also:
 
 * Wikipedia, _[Weak interaction](http://en.wikipedia.org/wiki/Weak_interaction)_
 
 * Wikipedia, _[Strong interaction](http://en.wikipedia.org/wiki/Strong_interaction)_
+
+Textbook account on [[weak nuclear force]]-mediated [[decays]] with an eye towards in [[flavour physics]] and [[flavour anomalies]]:
+
+* {#Buras20}  [[Andrzej Buras]], _Gauge Theory of Weak Decays_ (2020) ([doi:10.1017/9781139524100](https://doi.org/10.1017/9781139524100), [CERN review](https://cerncourier.com/a/the-hitchhikers-guide-to-weak-decays/) by [[Gino Isidori]])
 
 
 
