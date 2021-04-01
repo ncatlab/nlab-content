@@ -24,7 +24,7 @@
 
 ## Idea
 
-In the context of [[topology]], a _topological $G$-space_ (traditionally just _$G$-space_, for short, if the context is clear) is a [[topological space]] equipped with an [[action]] of a [[topological group]] $G$ -- the _[[equivariance grouo]]_ (usually taken to be the [[topological group]] underlying a [[compact Lie group]], such as a [[finite group]]).
+In the context of [[topology]], a _topological $G$-space_ (traditionally just _$G$-space_, for short, if the context is clear) is a [[topological space]] equipped with an [[action]] of a [[topological group]] $G$ -- the _[[equivariance group]]_ (usually taken to be the [[topological group]] underlying a [[compact Lie group]], such as a [[finite group]]).
 
 The canonical [[homomorphisms]] of topological $G$-spaces are $G$-[[equivariant function|equivariant]] [[continuous functions]], and the canonical choice of [[homotopies]] between these are $G$-equivariant continuous homotopies (for [[trivial action|trivial]] $G$-[[action]] on the [[interval]]). 
 
@@ -140,6 +140,8 @@ See at _[[G-CW complex]]_.
 * [[G-set]], [[G-manifold]]
 
 * [[fixed point space]]
+
+* [[slice theorem]]
 
 * [[equivariant bundle]]
 
