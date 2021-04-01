@@ -45,9 +45,17 @@ Give a [[topological field|topological]] [[ground field]] $k$ and a  base [[topo
   k VectorBundles_B
 \]
 
-(where $0$ denotes the [[rank of a vector bundle|rank]]-[[zero]] bundle) such that $i$ in an [[injection]] and $p$ a [[surjection]], hence such that over each point $b \colon \ast \overset{}{\longrightarrow} B$ we have a [[short exact sequence]] of $k$-[[vector spaces]]:
+(where $0$ denotes the [[rank of a vector bundle|rank]]-[[zero]] bundle) such that 
+$p$ is a [[surjection]]
+and
+$i = ker_B(p)$ in the [[injection]] of its [[fiber]]-wise [[kernel]],
+hence such that over each point $b \colon \ast \overset{}{\longrightarrow} B$ we have a [[short exact sequence]] of $k$-[[vector spaces]]:
 
 $$
+  \underset{
+    b \in B
+  }{\forall}
+  \;\;\;
   0
   \to
   b^\ast \mathcal{V}_L
@@ -65,6 +73,10 @@ $$
   b^\ast \mathcal{V}_R
   \to
   0
+  \;\;\;
+  \in
+  \;
+  k VectorSpaces
   \,.
 $$
 
@@ -89,7 +101,9 @@ then every short exact sequence of topological vector bundles (eq:ShortExactSequ
 $$
   \mathcal{V}
   \;\simeq\;
-  \mathcal{V}_L \oplus_V \mathcal{V}_R
+  \mathcal{V}_L 
+    \oplus_B
+  \mathcal{V}_R
   \,.
 $$
 \end{prop}
