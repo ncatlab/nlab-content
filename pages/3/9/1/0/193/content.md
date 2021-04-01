@@ -37,70 +37,33 @@ Essentially everything that makes category theory nontrivial and interesting bey
 
 ## Definition
 
-### Direct definition
+### Directly
 
-An __adjunction__ in a [[2-category]] is a pair of [[objects]] $C,D$ together with [[morphisms]] $L: C \to D$, $R : D \to C$ and [[2-morphisms]] $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ satisfying the equations
+\begin{defn} \label{DefinitionAdjunction} An _adjunction_ in a [[2-category]] is a pair of [[objects]] $C,D$ together with [[morphisms]] $L: C \to D$, $R : D \to C$ and [[2-morphisms]] $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ such that the following diagrams commute, where $\cdot$ denotes [[whiskering]].
 
-$$ 
-  (R \epsilon) \cdot (\eta R) = 1_R
-  \qquad \text{i.e.} \qquad
-  R \stackrel{\eta \circ 1_R}{\to} R \circ L \circ R \stackrel{1_R \circ \epsilon}{\to} R = R \stackrel{1_R}{\to} R
-  \qquad \text{i.e.} \qquad
-  \array{\arrayopts{ \padding{0} }
-    &&&&1_C& 
-    \\
-    &&\cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction > zigzageta]]
-       \end{svg}\\
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    \\
-    \cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction > zigzagepsilon]]
-       \end{svg}
-    \\
-    &&1_D&
-  }
-  \quad = \quad D \stackrel{R}{\to} C
-$$
-and
-$$ 
-  (\epsilon L) \cdot (L \eta) = 1_L
-  \qquad \text{i.e.} \qquad
-  L \stackrel{1_L \circ \eta}{\to} L \circ R \circ L \stackrel{\epsilon \circ 1_L}{\to} L = L \stackrel{1_L}{\to} L
-  \qquad \text{i.e.} \qquad
-  \array{\arrayopts{ \padding{0} }
-    &&1_C& 
-    \\
-    \cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction > zigzageta]]
-       \end{svg}\\
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    \\
-    &&\cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction > zigzagepsilon]]
-       \end{svg}
-    \\
-    &&&&1_D&
-  }
-  \quad = \quad C \stackrel{L}{\to} D
-$$
+\begin{centre}
+  \begin{tikzcd} 
+    L \ar[r, "L \cdot \eta"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot L"] \\
+                                                     & L 
+  \end{tikzcd}
+\end{centre}
 
-variously called the _[[triangle identities]]_ or the _zig-zag identities_.  We call $L$ the **[[left adjoint]]** (of $R$) and $R$ the **[[right adjoint]]** (of $L$).  We call $\eta$ the [[unit of the adjunction]] and $\epsilon$ the [[counit of the adjunction]].
+\begin{centre}
+  \begin{tikzcd} 
+    R \ar[r, "\eta \cdot R"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "R \cdot \epsilon"] \\
+                                                     & R 
+  \end{tikzcd}
+\end{centre}
 
-When interpreted in the prototypical 2-category [[Cat]], $C$ and $D$ are [[categories]], $L$ and $R$ are [[functors]], and $\eta$ and $\epsilon$ are [[natural transformations]].  In this case (which was of course the first to be defined) there are a number of equivalent definitions of an adjunction, which can be found on the page [[adjoint functor]].  Conversely, the definition in any 2-category can be obtained by [[internalization]] from the definition in $\Cat$.
+\end{defn}
 
+\begin{rmk} The diagrams in Definition \ref{DefinitionAdjunction} are sometimes referred to as the [[triangle identities]] or the _zig-zag identities_. \end{rmk}
+
+\begin{terminology} Given an adjunction as in Definition \ref{DefinitionAdjunction}, we refer to $L$ as the [[left adjoint]] (of $R$), and to $R$ as the [[right adjoint]] (of $L$). We refer to $\eta$ as the [[unit of the adjunction]], and to $\epsilon$ as the [[counit of the adjunction]]. \end{terminology}
+
+\begin{rmk} When interpreted in the prototypical 2-category [[Cat]] of categories, $C$ and $D$ are [[categories]], $L$ and $R$ are [[functors]], and $\eta$ and $\epsilon$ are [[natural transformations]].  In this case (which was of course the first to be defined) there are a number of equivalent definitions of an adjunction, which can be found on the page [[adjoint functor]]. 
+
+The general notion is obtained by [[internalization]] from the definition in [[Cat]]. \end{rmk}
 
 
 ### In terms of string diagrams
