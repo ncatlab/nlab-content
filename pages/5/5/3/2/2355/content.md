@@ -213,6 +213,7 @@ given by $F''|_{c} : \Delta[2] \to K$, by ...
 =--
 
 ### Uniqueness of adjoints
+  {#UniquenessOfAdjoints}
 
 The adjoint of a functor is, if it exists, essentially unique:
 
@@ -407,6 +408,76 @@ An $(\infty,1)$-functor $G:D\to C$ admits a left adjoint if and only if for each
 =--
 
 This is stated explicitly as [Riehl-Verity, Corollary 16.2.7](#RVElements), and can be extracted with some work from [[Higher Topos Theory|HTT, Proposition 5.2.4.2]].
+
+## Category of adjunctions
+
+The functorality of adjunctions can be organized into the existence of two wide subcategories $LAdj \subseteq (\infty,1)Cat$ and $RAdj \subseteq (\infty,1)Cat$
+whose functors are the left adjoints and the right adjoints respectively.
+
+We can then define the functor categories
+
+* $Func^L : LAdj^{op} \times LAdj \to (\infty,1)Cat$
+is defined by taking $Func^L(C,D) \subseteq Func(C, D)$ to be the
+full subcategory spanned by $LAdj(C, D)$.
+
+* $Func^R : RAdj^{op} \times RAdj \to (\infty,1)Cat$
+is defined by taking $Func^R(C,D) \subseteq Func(C, D)$ to be the
+full subcategory spanned by $RAdj(C, D)$.
+
+Lurie defines an adjunction to be a functor $X \to [1]$ that is both a cartesian and a cocartesian fibration. We can generalize this to
+
++-- {: .num_defn #AdjunctFibration}
+###### Definition
+
+A functor $p : X \to S$ is an _adjunct fibration_ iff it is both a cartesian fibration and a cocartesian fibration
+
+=--
+
+By the Grothendieck construction, adjunct fibrations over $S$ correspond to category-valued functors on $S$ that send arrows of $S$ to adjoint pairs of categories.
+
++-- {: .num_lemma}
+###### Lemma
+
+For a functor $p : X \to S$ of (∞,1)-categories with small fibers.
+
+* If $p$ is a cartesian fibration classified by $\chi : S^\op \to (\infty,1)Cat$,
+$\chi$ factors through $RAdj$ iff $\chi(f)$ has a left adjoint for every edge $f \in S$
+
+* If $p$ is a cocartesian fibration classified by $\chi : S \to (\infty,1)Cat$,
+$\chi$ factors through $LAdj$ iff $\chi(f)$ has a right adjoint for every edge $f \in S$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a restatement of [[Higher Topos Theory|HTT, def. 5.2.2.5]].
+
+=--
+
+
++-- {: .num_lemma}
+###### Lemma
+
+There are anti-equivalences $ladj : RAdj^{op} \to LAdj$
+and $radj : LAdj^{op} \to RAdj$ that are the identity on objects
+and the action on homspaces $LAdj(C, D) \to RAdj(D,C)$ is the equivalence sending a functor to its adjoint.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the covariant Grothendieck construction, for any (∞,1)-category C, $Map(C, LAdj)$ can be identified with the core of the category of adjunct fibrations over $C$ with small fibers. The same is true of $Map(C^{\op}, RAdj)$.
+
+Since the Grothendieck construction is natural in the base category, we obtain the asserted equivalence between $LAdj$ and $RAdj^{op}$. Taking $C = [1]$, this establishes the correspondence between an adjunction and its associated adjoint pair of functors.
+
+=--
+
+As discussed at [Uniqueness of Adjoints](#UniquenessOfAdjoints), this anti-equivalence extends to the (∞,2)-enrichment, in the sense they induce anti-equivalences $radj : Func^L(C, D)^{op} \to Func^R(D, C)$ and
+$ladj : Func^R(C, D)^{op} \to Func^L(D, C)$.
+
+
 
 ## Examples
 
