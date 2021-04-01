@@ -1,4 +1,4 @@
-
+ategory of
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -409,6 +409,27 @@ An $(\infty,1)$-functor $G:D\to C$ admits a left adjoint if and only if for each
 
 This is stated explicitly as [Riehl-Verity, Corollary 16.2.7](#RVElements), and can be extracted with some work from [[Higher Topos Theory|HTT, Proposition 5.2.4.2]].
 
+### Preservation by exponentiation
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f : C \to D$ be left adjoint to $g : D \to C$.
+Then for any $A$, $f^A$ is left adjoint to $g^A$ and
+$A^g$ is left adjoint to $A^f$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\eta : id_C \Rightarrow gf$ be a unit transformation. The property
+of being a unit transformation can be detected at the level of enriched homotopy
+categories, so $A^\eta: id_{A^C} \Rightarrow A^f A^g$ and $\eta^A : id_{C^A} \Rightarrow g^A f^A$ are also unit transformations.
+
+=--
+
+
 ## Category of adjunctions
 
 The functorality of adjunctions can be organized into the existence of two wide subcategories $LAdj \subseteq (\infty,1)Cat$ and $RAdj \subseteq (\infty,1)Cat$
@@ -476,6 +497,20 @@ Since the Grothendieck construction is natural in the base category, we obtain t
 
 As discussed at [Uniqueness of Adjoints](#UniquenessOfAdjoints), this anti-equivalence extends to the (∞,2)-enrichment, in the sense they induce anti-equivalences $radj : Func^L(C, D)^{op} \to Func^R(D, C)$ and
 $ladj : Func^R(C, D)^{op} \to Func^L(D, C)$.
+
+The preservation of adjunctions by products and exponentials implies
+
++-- {: .num_lemma}
+###### Lemma
+
+The product and exponential on $(\infty,1)Cat$ restrict to functors
+
+* $- \times - : LAdj \times LAdj \to LAdj$ 
+and $- \times - : RAdj \times RAdj \to RAdj$ 
+* $Func(-,-) : RAdj^{op} \times LAdj \to LAdj$
+and $Func(-,-) : LAdj^{op} \times RAdj \to RAdj$
+
+=--
 
 
 
