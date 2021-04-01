@@ -7,9 +7,12 @@ On [[topological G-spaces]], the [[equivariant Tietze extension theorem]], ...:
 
 * {#Palais60} [[Richard Palais]], Theorem 1.4.3 in: _The classification of $G$-spaces_, Memoirs of the American Mathematical Society, Number 36, 1960 ([pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf))
 
-On [[actions]] of [[Lie groups]], [[principal bundles]], ...:
+On the [[slice theorem]]:
 
-* {#Palais61} [[Richard Palais]], _On the existence of slices for actions of non-compact Lie groups_, _Annals of mathematics vol 73 no 2 (1961) _ ([pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf))
+* [[Richard Palais]], _On the Existence of Slices for Actions of Non-Compact Lie Groups_, Annals of Mathematics
+Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https://www.jstor.org/stable/1970335), [doi:10.2307/1970335](https://doi.org/10.2307/1970335), [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf))
+
+
 
 
 
