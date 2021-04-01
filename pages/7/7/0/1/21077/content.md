@@ -27,6 +27,9 @@ On [[leptoquarks]] and [[flavour anomalies]]:
 
 * [[Javier Fuentes-Martin]], [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
+* Barbara Gallavotti, starring [[Gino Isidori]], _How Particle Physics Works: Episode II - The New Analysis_, June 2019 ([youtube](https://www.youtube.com/watch?v=krWPeFLLBFY))
+
+
 * Claudia Cornella, Darius A. Faroughy, [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias Neubert]], _Reading the footprints of the B-meson flavor anomalies_ ([arXiv:2103.16558](https://arxiv.org/abs/2103.16558))
 
 > With the recent result $[$of [[LHCb]]$]$, for the first time a single observable affected by negligible theoretical uncertainties exhibits a deviation from the SM exceeding the $3 \sigma$ level.  Equally striking is the overall coherence of the picture that emerges, especially in $b \to s \ell^+ \ell^-$ −transitions.  As we shall show in this paper, combining all the $b \to s \ell^+ \ell^-$−observables in a very conservative way, the significance of the New Physics (NP) hypothesis formulated in 2014–2015 of a purely left-handed LFU-violating contact interaction has now reached a [[statistical significance|significance]] of $4.6 \sigma$.
