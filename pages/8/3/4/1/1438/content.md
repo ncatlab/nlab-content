@@ -77,10 +77,10 @@ commutes. Now it is trivial, in fact tautological that $\alpha$ is itself an $F$
 ### Ad&#225;mek's theorem
  {#AdameksTheorem}
 
-In many cases, initial algebras can be constructed in [[recursion|recursive]] fashion, using the following special case of a theorem due to Ad&#225;mek. 
+In many cases, initial algebras can be constructed in a [[recursion|recursive]] fashion, using the following special case of a theorem due to Ad&#225;mek. 
 
 +-- {: .num_theorem #AdameksTheorem}
-######Theorem (Ad&#225;mek) 
+######Theorem (Ad&#225;mek) \label{AdameksTheorem}
 
 Let $C$ be a category with an [[initial object]] $0$ and [[transfinite composition]] of length $\omega$, hence [[colimits]] of sequences $\omega \to C$ (where $\omega$ is the first infinite [[ordinal]]), and suppose $F: C \to C$ preserves colimits of $\omega$-chains. Then the colimit $\gamma$ of the chain 
 
@@ -100,7 +100,7 @@ This approach can be generalized to the [[transfinite construction of free algeb
 
 ### Semantics for inductive types
 
-Initial algebras of endofunctors are the [[categorical semantics]] of [[extensional type theory|extensional]] [[inductive types]].
+Initial algebras of endofunctors provide [[categorical semantics]] for [[extensional type theory|extensional]] [[inductive types]].
 The generalization to [[weak initial]] algebras captures the notion in [[intensional type theory]] and [[homotopy type theory]]. 
 
 
@@ -120,7 +120,7 @@ $$
   F : X \mapsto * \coprod X
 $$
 
-(hence the functor underlying the "[[maybe monad]]").
+(i.e. the functor underlying the "[[maybe monad]]").
 Then an initial algebra over $F$ is precisely a [[natural number object]] $\mathbb{N}$ in $\mathcal{T}$. 
 =--
 
@@ -134,7 +134,7 @@ $$
   \,,
 $$
 
-hence equivalently with a [[pointed object|point]] $0 : * \to X$ and an [[endomorphism]] $s : X \to X$.  This being inital means that for $(0_Y, s_Y) : * \coprod Y \to Y$ any other morphism, there is a unique morphism $f : X \to Y$ such that the [[diagram]]
+hence equivalently with a [[pointed object|point]] $0 : * \to X$ and an [[endomorphism]] $s : X \to X$. Initiality means that for any other $F$-algebra $(0_Y, s_Y) : * \coprod Y \to Y$, there is a unique morphism $f : X \to Y$ such that the [[diagram]]
 
 $$
   \array{
@@ -152,7 +152,7 @@ commutes. This is the very definition of [[natural number object]] $X = \mathbb{
 
 ### More examples
 
-Theorem \ref{AdameksTheorem} applies in particular to any functor $F: Set \to Set$ which is a [[colimit]] of finitely [[representable functors]] $hom(n, -): X \mapsto X^n$, as in the following examples. 
+Theorem \ref{AdameksTheorem} applies (in particular) to any functor $F: Set \to Set$ which is a [[colimit]] of finitely [[representable functors]] $hom(n, -): X \mapsto X^n$, as in the following examples. 
  
 
 * Let $A$ be a set, and let $F: Set \to Set$ be the functor $F(X) = 1 + A \times X$. Then the initial $F$-algebra is $A^*$, the [[free monoid]] on $A$. The $F$-algebra structure is 
@@ -171,7 +171,7 @@ Theorem \ref{AdameksTheorem} applies in particular to any functor $F: Set \to Se
   $$T = 1 + T^2$$ 
   would seem to imply that the structure $T$ behaves something like a structural "sixth root of unity", and indeed the structural isomorphism $T \cong F(T)$ allows one to exhibit an isomorphism 
   $$T = T^7$$ 
-  constructively, as famously explored in the paper by Andreas Blass, [[seven trees in one]]. 
+  constructively, as famously explored by Andreas Blass in the paper "[[Seven trees in one]]". 
 
 
 * Let $F: Set \to Set$ be the functor $F(X) = X^*$ (the free monoid from an earlier example). Then the initial $F$-algebra is the set of isomorphism classes of finite planar rooted [[trees]] (not necessarily binary as in the previous example). 
@@ -192,16 +192,16 @@ Theorem \ref{AdameksTheorem} applies in particular to any functor $F: Set \to Se
 
 ## References
 
-A textbook account of the basic theory is in [chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of
+A textbook account of the basic theory is in [Chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of
 
 * [[Steve Awodey]], _Category theory_ lecture notes (2011) ([web](http://www.andrew.cmu.edu/course/80-413-713/))
 
-A brief review of some basics with an eye towards [[inductive types]] is in section 2 of
+A brief review of some basics, with an eye towards [[inductive types]], is in Section 2 of
 
 * {#AwodeyGambinoSojakova} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
  
 
-Discussion for [[homotopy type theory]] is in
+The relation to [[homotopy type theory]] is discussed in
 
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], _Homotopy-initial algebras in type theory_ ([arXiv:1504.05531](http://arxiv.org/abs/1504.05531))
 
