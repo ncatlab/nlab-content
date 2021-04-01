@@ -472,7 +472,7 @@ $\chi$ factors through $LAdj$ iff $p$ is an adjunct fibration
 +-- {: .proof}
 ###### Proof
 
-This is a restatement of [[Higher Topos Theory|HTT, def. 5.2.2.5]].
+This is a restatement of [[Higher Topos Theory|HTT, corr. 5.2.2.5]].
 
 =--
 
