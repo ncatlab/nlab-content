@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -19,14 +18,14 @@
 
 ### Vertical vector fields
 
-Let $\pi : P \to X$ be a [[bundle]] in the [[category]] [[Diff]] of [[smooth manifolds]]. A [[vector field]] $v \in \Gamma(T P)$ is _vertical_ with respect to this bundle if it is in the [[kernel]] of the [[derivative]] $d \pi \colon T P \to T X$.
+Let $\pi : P \to X$ be a [[bundle]] in the [[category]] of [[SmoothManifolds]]. A [[vector field]] $v \in \Gamma(T P)$ is _vertical_ with respect to this bundle if it is in the [[kernel]] of the [[derivative]] $d \pi \colon T P \to T X$.
 
 ### Vertical tangent bundle
  {#VerticalTangentBundle}
 
-The collection of vertical vectors forms the _vertical tangent bjundle_ inside the full [[tangent bundle]], typically denoted $T_\pi P$.
+The collection of vertical vectors forms the _vertical tangent bundle_ inside the full [[tangent bundle]], typically denoted $T_\pi P$.
 
-If $\pi$ is a [[smooth function|smooth]] [[surjective submersion]] between [[compact topological space|compact]] [[smooth manifolds]] then its vertical tangent bundle is the [[fiber]]-wise [[kernel]] of $d \pi$, as shown in the following diagram (e.g [Tu 17](#Tu17),  [Berglund 20, p. 16](#Berglund20)):
+For $\pi \colon P \to B$ a [[smooth function]] between [[smooth manifolds]], its _vertical tangent bundle_ is the [[fiber]]-wise [[kernel]] of the [[differential]] $d \pi$, as shown in the following diagram (e.g [Tu 17 (27.4)](#Tu17),  [Berglund 20, p. 16](#Berglund20)):
 
 \begin{tikzcd}[column sep=normal, row sep=small]
   T_{\pi} P
@@ -82,14 +81,18 @@ If $\pi$ is a [[smooth function|smooth]] [[surjective submersion]] between [[com
   B
 \end{tikzcd}
 
+
+
 ### Horizontal differential forms
 
 A [[differential form]] on $P$ is a [[horizontal differential form]] with respect to $P \to X$ it it _vanishes_ on vertical vector fields.
 
 ## Properties
 
+
+
 \begin{proposition}\label{SplittingOfTotalSpaceTangentBundle}
-  If $P \overset{\pi}{\longrightarrow} X$ is a [[smooth manifold|smooth]] [[fiber bundle]], then the full [[tangent bundle]] of its total space $P$ is [[isomorphism|isomorphic]] to the [[direct sum of vector bundles|direct sum]] of the vertical tangent bundle ([above](#VerticalTangentBundle)) with the [[pullback bundle|pullback]] of the [[tangent bundle]] of the base space:
+  If $P \overset{\pi}{\longrightarrow} X$ is a [[surjective submersion]] (for instance a [[smooth manifold|smooth]] [[fiber bundle]]) then the full [[tangent bundle]] of its total space $P$ is [[isomorphism|isomorphic]] to the [[direct sum of vector bundles|direct sum]] of the vertical tangent bundle ([above](#VerticalTangentBundle)) with the [[pullback bundle|pullback]] of the [[tangent bundle]] of the base space:
 
 $$
   T P
@@ -105,6 +108,26 @@ $$
  
 \end{proposition}
 
+\begin{proof}
+The assumption that $\pi$ is a [[surjective submersion]] implies that $d \pi \colon T P \longrightarrow \pi^\ast T B$ is a [[surjection]] and hence that 
+
+$$
+  0
+    \to 
+  T_\pi P
+    \longrightarrow
+  T P 
+   \overset{d \pi}{\longrightarrow}
+  \pi^\ast T B
+    \to
+  0
+$$
+
+is a [[short exact sequence]] of smooth [[real vector bundles]]. 
+
+Now all [[short exact sequences]] of [[real vector bundles]] over [[paracompact topological spaces]] (such as [[smooth manifolds]]) [[split exact sequence|split]] (by a choice of fiberwise metric, e.g. Prop. 3.5 [here](http://www.math.ubc.ca/~cautis/math428/notes-bundles.pdf)), which is the statement to be shown.
+\end{proof}
+
 ## Examples
 
 \begin{proposition}\label{VerticalTangentBundleOfRealVectorBundle}
@@ -119,7 +142,7 @@ $$
 $$
 \end{proposition}
 
-(e.g. [Gollinger 16, inside the proof of Prop. 1.1.9](#Gollinger16))
+(e.g. [tomDieck 00 (6.9)](#tomDieck00), [tomDieck 08 (15.6.7)](#tomDieck2008), [Gollinger 16, inside the proof of Prop. 1.1.9](#Gollinger16))
 
 
 \begin{prop}\label{StableTangentBundleOfUnitSphereBundle}
@@ -208,12 +231,17 @@ Textbook accounts:
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]],  Section VII.1 in Volume 1 _De Rham Cohomology of Manifolds and Vector Bundles_, in: _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)  ([ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6))
 
-*  {#Tu17} [[Loring Tu]], Section 27.5 in: _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
+*  {#Tu17} [[Loring Tu]], Section 27.5 in: _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824), [pdf](http://www.math.nagoya-u.ac.jp/~richard/teaching/f2018/Tu_geometry.pdf))
 
 
 See also:
 
 * [[Manifold Atlas]], _<a href="http://www.map.mpim-bonn.mpg.de/Tangent_bundles_of_bundles_(Ex)">Tangent bundles of bundles</a>_
+
+* {#tomDieck00} [[Tammo tom Dieck]], around Satz 6.9 in: _Topologie_, De Gruyter (2000)([doi:10.1515/9783110802542](https://doi.org/10.1515/9783110802542))
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  around (15.6.7) _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
+
 
 * {#Gollinger16} William Gollinger, Section 1.1.4 in: _Madsen-Tillmann-Weiss Spectra and a Signature Problem for Manifolds_, M&uuml;nster 2016 ([pdf](https://repositorium.uni-muenster.de/document/miami/7369e8b5-6ae4-4e42-b6f3-4602ec24427a/diss_gollinger.pdf), [[GollingerMTWSpectra.pdf:file]])
 
