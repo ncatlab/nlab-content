@@ -28,7 +28,7 @@ In order to understand the definition, we recall a little notation.
 1. Given a field $F$, an [[elliptic curve]] $E$ over $F$, and a [[prime number|prime]] $l \geq 2$, let us write $\phi_l: Gal\left(\overline{F} / F\right) \rightarrow GL_{2}\left( \mathbb{F}_{l} \right)$ for the [[homomorphism|group homomorphism]] from the [[Galois group]] of $F$ to the [[general linear group]] of 2x2 invertible matrices with values in $\mathbb{F}_{l}$ determined by the $l$-torsion points of $E$ (see [[torsion points of an elliptic curve]] for details of this homomorphism).
 
 1. Given a field $F$ and an [[elliptic curve]] $E$ over $F$, 
- the notation $K_F$ denotes the [[field]], a [[Galois extension|finite Galois extension]] of $F$, corresponding (by [[Galois theory]]) to the kernel of $\phi_l$.
+ the notation $K_E$ denotes the [[field]], a [[Galois extension|finite Galois extension]] of $F$, corresponding (by [[Galois theory]]) to the kernel of $\phi_l$.
 
 1. Given a [[number field]] $F$, the notation $\mathbb{V}(F)$ denotes the set of [[absolute value|valuations]] on $F$, both archimedean and non-archimedean. 
 
@@ -48,7 +48,7 @@ The following is Definition 3.1 in [Inter-Universal Teichmüller theory I](#Moch
 
 1. The field extension $F / F_{mod}$ is [[Galois extension|Galois]].
 
-1. A [[subset]] $\underline{\mathbb{V}}$ of $\mathbb{V}\left(K_F\right)$ which is [[bijection|isomorphic]] to $\mathbb{V}\left(F_{mod}\right)$. In other words, observing that $F_{mod}$ is a sub-field of $K_F$, a [[section]] of the map $V\left( K_F \right) \rightarrow V\left( F_{mod} \right)$ determined by the inclusion of $F_{mod}$ into $K_F$. 
+1. A [[subset]] $\underline{\mathbb{V}}$ of $\mathbb{V}\left(K_E\right)$ which is [[bijection|isomorphic]] to $\mathbb{V}\left(F_{mod}\right)$. In other words, observing that $F_{mod}$ is a sub-field of $K_E$, a [[section]] of the map $V\left( K_E \right) \rightarrow V\left( F_{mod} \right)$ determined by the inclusion of $F_{mod}$ into $K_E$. 
 
 (TO BE CONTINUED)
 
