@@ -19,4 +19,9 @@
 * [[Gelfand-Naimark-Segal construction]]
 
 * [[Wigner theorem]]
+
+* [[quantum probability theory]]
+
+* [[state on a star-algebra]]
+
 category: people
