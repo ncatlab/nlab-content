@@ -131,8 +131,10 @@ The eponymous example is congruence modulo $n$ (for a fixed [[natural number]] $
 +-- {: .num_example}
 ###### Example
 
+A [[quotient group]] by a  [[normal subgroup]] $K \hookrightarrow G$ is the quotient of the congruence $R = \{(x,y) : xy^{-1} \in K \}$.
 
-A [[quotient group]] by a  [[normal subgroup]] $K \hookrightarrow G$ is the quotient of the relation $G \times K \stackrel{(p_1,p_2)}{\hookrightarrow} G \times G$, where $p_1$ is projection on the first factor and $p_2$ is multiplication in $G$ (these are source and target maps in the [[action groupoid]] $G \sslash K$).
+Alternatively, a [[quotient group]] by a  [[normal subgroup]] $K \hookrightarrow G$ is the quotient of the congruence 
+ $G \times K \stackrel{(p_1,p_2)}{\hookrightarrow} G \times G$, where $p_1$ is projection on the first factor and $p_2$ is multiplication in $G$ (these are source and target maps in the [[action groupoid]] $G \sslash K$).
 
 A special case of this is that of a _[[quotient module]]_.
 
