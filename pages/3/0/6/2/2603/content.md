@@ -50,3 +50,7 @@ With this notion of addition, the collection of multisets in $U$ becomes the $\m
 ## Machine Learning ##
 
 The inner product of multisets is closely related to the "bag of words" kernel in machine learning (see <a href="http://golem.ph.utexas.edu/category/2007/06/kernels_in_machine_learning_ii.html">n-Cafe</a>).
+
+## Related concepts
+
+* [[multiset]]
