@@ -104,6 +104,8 @@ This appears as [Palais 61, Prop. 2.3.1](#Palais61).
 
 * [[compact Lie group]]
 
+* [[equivariant bundle]]
+
 * [[equivariant differential topology]]
 
 * [[equivariant Tietze extension theorem]]
@@ -118,6 +120,8 @@ Proceeding, Vol. 1, No. 1 (Feb., 1950), pp. 35-43 ([jstor:2032430](https://www.j
 * [[Deane Montgomery]], [[Chung Tao Yang]], _The existence of a slice_, Ann. of Math. 65 (1957), 108-116 ([jstor:1969667](https://www.jstor.org/stable/1969667), [doi:10.2307/1969667](https://doi.org/10.2307/1969667))
 
 * [[George Mostow]], _Equivariant embeddings in Euclidean space_,  Ann. of Math. 65 (1957), 432-446 ([jhir:1774.2/46183](http://jhir.library.jhu.edu/handle/1774.2/46183), [pdf scan](https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/46183/Mostow_Mar57.pdf?sequence=1&isAllowed=y))
+
+* {#Palais60} [[Richard Palais]], _Slices and equivariant embeddings_, chapter VIII in: [[Armand Borel]] (ed.), _Seminar on Transformation Groups_, Annals of Mathematics Studies 46, Princeton University Press 1960 ([jstor:j.ctt1bd6jxd](https://www.jstor.org/stable/j.ctt1bd6jxd))
 
 * {#Palais61} [[Richard Palais]], _On the Existence of Slices for Actions of Non-Compact Lie Groups_, Annals of Mathematics
 Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https://www.jstor.org/stable/1970335), [doi:10.2307/1970335](https://doi.org/10.2307/1970335), [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf))
