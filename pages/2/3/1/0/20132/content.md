@@ -181,6 +181,7 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 
 * {#Bredon72} [[Glen Bredon]], _Introduction to compact transformation groups_, Academic Press 1972 ([pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf), [ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1))
 
+
 * [[Tammo tom Dieck]], Section I.5 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 
@@ -194,3 +195,9 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 
 * {#PflaumWilkin17} [[Markus Pflaum]], Graeme Wilkin, _Equivariant control data and neighborhood deformation retractions_, Methods and Applications of Analysis, 2019 ([arXiv:1706.09539](https://arxiv.org/abs/1706.09539))
 
+See also:
+
+* {#LashofRothenberg78} [[Richard Lashof]], [[Melvin Rothenberg]], Section 1 of: _$G$-Smoothing theory_, p. 211-266 in: _Algebraic and Geometric Topology_, Proceedings of Symposia in Pure Mathematics, Vol. XXXII, Part 1, American Mathematical Society 1978 ([doi:10.1090/pspum/032.1](https://doi.org/10.1090/pspum/032.1), [[LashofRothenbergGSmoothingTheory.pdf:file]])
+
+
+[[!redirects differential equivariant topology]]
