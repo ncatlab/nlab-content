@@ -6,7 +6,7 @@
 ## Idea
 
 Vojta introduced a dictionary between [[value distribution theory]]
-of Nevanlinna and [[Diophantine approximation theory]] of Rothand and suggested that this dictionary should continue to hold in higher dimensions.
+of Nevanlinna and [[Diophantine approximation theory]] of Roth and suggested that this dictionary should continue to hold in higher dimensions.
 This leads to qualitative conjectures in 
 [[arithmetic geometry]] which cover almost every important conjecture in the field; notably the [[abc conjecture]],
 [[Mordell's conjecture]], some of [[Lang's conjecture]]s.  The perspective given by [[Arakelov geometry|Arakelov theory]] is central in Vojta's conjectures.
