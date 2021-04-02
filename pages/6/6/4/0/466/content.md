@@ -304,6 +304,10 @@ A discussion of the Yoneda lemma from the point of view of [[universal algebra]]
 
 * [[Vaughan Pratt]], _The Yoneda lemma without category theory: algebra and applications_ ([pdf](http://boole.stanford.edu/pub/yon.pdf)).
 
+A treatment of the Yoneda lemma for [[internal category in an (infinity,1)-category|categories internal to an (∞,1)-topos]] is in 
+
+* Louis Martini, _Yoneda's lemma for internal higher categories_, ([arXiv:2103.17141](https://arxiv.org/abs/2103.17141))
+
 
 [[!redirects yoneda lemma]]
 [[!redirects Yoneda Lemma]]
