@@ -104,7 +104,7 @@ Indications of flavour anomalies have been observed consistently and with increa
 
 
 
-The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)).
+{#GlobalSignificance} The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)).
 
 
 
@@ -269,6 +269,13 @@ In conclusion, with currently available data, the observed flavour anomalies are
 While the [[statistical significance]] of the [[flavour anomalies]] in every single decay channel is about $2\sigma -  3 \sigma$, the effects are all compatible with each other, with a high joint/global statistical significance:
 
 > [Garisto 20](#Garisto20): Alone, each notable B physics result is only a few-sigma discrepancy. But taken together, the aggregate of the results is—depending on whom you ask—a 5- to 7-sigma deviation from the standard model estimates. 
+
+> [[Gino Isidori|Isodori]]: "We’ve seen a lot of anomalies here and there popping up and going back, but this time I think it’s different… . For the first time, it’s not just one thing that doesn't fit with the other, but it's a coherent set of things."
+
+[CFFIN 21](#CFFIN21): 
+
+> striking is the overall coherence of the picture that emerges, especially in $b \to s \ell^+ \ell^-$ −transitions.  As we shall show in this paper, combining all the $b \to s \ell^+ \ell^-$−observables in a very conservative way, the significance of the New Physics (NP) hypothesis formulated in 2014–2015 of a purely left-handed LFU-violating contact interaction has now reached a [[statistical significance|significance]] of $4.6 \sigma$.
+
 
 In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
 
