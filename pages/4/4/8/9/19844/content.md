@@ -77,6 +77,8 @@ See [Alonso 19](#Alonso19) for general introduction to an audience with basic ba
 ## Statistical significance
  {#StatisticalSignificance}
 
+### Up to 2019
+
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
 
 \begin{center}
@@ -104,9 +106,9 @@ Indications of flavour anomalies have been observed consistently and with increa
 
 
 
-{#GlobalSignificance} The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)).
+{#GlobalSignificance} The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)). More recent measurements in March 2021 make even just the combination of the particularly "clean" observables reach $4\sigma - 4.6\sigma$, see [below](#SignificanceMarch2021) for more recent references.
 
-
+### Updates in 2019
 
 This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller mean discrepancy but also had smaller uncertainty, thus keeping the [[statistical significance]] of the apparent anomaly essentially unaffected. But [Caria 19, slide 9](#Caria19)  reported new measurements by [[Belle collaboration|Belle]] ([Belle 1910](#Belle1910))
 according to which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ channel would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The [[statistical significance]] over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)) or $\sim 3\sigma$ ([Jaiswal-Nandi-Patra 20](#JaiswalNandiPatra20)). Moreover, the theoretical prediction is being corrected further away from these measured values ([BDKL 20, footnote 1](#BDKL20)).
@@ -128,7 +130,26 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 \end{imagefromfile}
 \end{center}
 
-Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (see also [Lopes 20](#Lopes20), [CERN Courier 200311](#CERNCourir200311)):
+There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard model increases further if non-trivial [[hadron|hadronic]] [[form factors]] are taken into account:
+
+
+\begin{imagefromfile}
+  "file_name": "DescotesGenonBsll19FormfactorCorrectionA.jpg",
+  "width": 600
+\end{imagefromfile}
+
+\begin{imagefromfile}
+  "file_name": "DescotesGenonBsll19FormfactorCorrectionB.jpg",
+  "width": 600,
+  "caption": "from [Descotes-Genon 19b](#DescotesGenon19b)"
+\end{imagefromfile}
+
+and also that the discrepancy increases further with [[QED]]-corrections taken into account ([Mishra-Mahajan 20,p. 20-21](#MishraMahajan20)).
+
+
+### Updates in 2020
+
+[Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (see also [Lopes 20](#Lopes20), [CERN Courier 200311](#CERNCourir200311)):
 
 \begin{center}
 \begin{imagefromfile}
@@ -137,8 +158,17 @@ Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (s
 \end{imagefromfile}
 \end{center}
 
+From [Crivellin-Mueller-Saturnino 20a](#CrivellinMuellerSaturnino20a) (where "LQ" is [[leptoquark]]):
 
-In fact [Virto 21, p.6](#Virto21) points out (their emphasis):
+\begin{imagefromfile}
+  "file_name": 
+  "CrivellinEtAl.jpg",
+  "width": 500
+\end{imagefromfile}
+
+
+
+[Virto 21, p.6](#Virto21) points out (their emphasis):
 
 > **Both $R_K$ and $P'_5$ have moved towards the Standard Model, but this actually improves the New Physics fits.** $[$...$]$
 
@@ -165,24 +195,11 @@ The [[statistical significances]] of pull away from the [[standard model of part
 
 
 
+### Updates in 2021
 
-There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard model increases further if non-trivial [[hadron|hadronic]] [[form factors]] are taken into account:
+{#SignificanceMarch2021} New measurements reported by [[LHC]] [in March 2021](https://home.cern/news/news/physics/intriguing-new-result-lhcb-experiment-cern) for the first time see deviation in a single decay channel at a statistical significance above $3.1 \sigma$.
 
-
-\begin{imagefromfile}
-  "file_name": "DescotesGenonBsll19FormfactorCorrectionA.jpg",
-  "width": 600
-\end{imagefromfile}
-
-\begin{imagefromfile}
-  "file_name": "DescotesGenonBsll19FormfactorCorrectionB.jpg",
-  "width": 600,
-  "caption": "from [Descotes-Genon 19b](#DescotesGenon19b)"
-\end{imagefromfile}
-
-and also that the discrepancy increases further with [[QED]]-corrections taken into account ([Mishra-Mahajan 20,p. 20-21](#MishraMahajan20)).
-
-New measurements reported by [[LHC]] [in March 2021](https://home.cern/news/news/physics/intriguing-new-result-lhcb-experiment-cern) imply:
+Implications for the significance across channels:
 
 [HLN 21](#HLN21):
 
@@ -204,35 +221,11 @@ New measurements reported by [[LHC]] [in March 2021](https://home.cern/news/news
 
 \linebreak
 
+### Outlook
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
-From [Crivellin-Mueller-Saturnino 20a](#CrivellinMuellerSaturnino20a) (where "LQ" is [[leptoquark]]):
 
-\begin{imagefromfile}
-  "file_name": 
-  "CrivellinEtAl.jpg",
-  "width": 500
-\end{imagefromfile}
-
-Also, the flavour anomaly appears consistently at $\geq 3 \sigma$ in new decay channels:
-
-\begin{imagefromfile}
-  "file_name": "Gerick20FlavourAnomaly.jpg",
-  "width": 570,
-  "caption": "from [Gerick 20](#Gerick20)"
-\end{imagefromfile}
-
-
-
-
-\linebreak
-
-
-
-This attitude is reflected in [SGGJC 19, p. 2](#SGGJC19):
-
-> For some time now, the ratios of semileptonic B-decay rates have appeared to be enhanced with respect to the Standard Model (SM) predictions with a global significance above the evidence threshold.
 
 \linebreak
 
@@ -1011,7 +1004,6 @@ _Explaining $b\to s \ell^+ \ell^-$ data by sneutrinos in the R-parity violating 
 * Quan-Yi Hu, Ya-Dong Yang, Min-Di Zheng, _Revisiting the B-physics anomalies in R-parity violating MSSM_ ([arXiv:2002.09875](https://arxiv.org/abs/2002.09875))
 
 * Wolfgang Altmannshofer, P. S. Bhupal Dev, Amarjit Soni, Yicong Sui, _Addressing $R_{D^\ast}$, $R_{K^\ast}$, muon $g-2$ and ANITA anomalies in a minimal R-parity violating supersymmetric framework_ ([arXiv:2002.12910](https://arxiv.org/abs/2002.12910))
-
 
 
 
