@@ -37,7 +37,7 @@ The theory $\mathsf{DLO}$ of the _dense linear order without endpoints_ is the [
 
 - $\mathsf{DLO}$ admits [[quantifier-elimination]].
 
-- If we view $(\mathbb{Q},&lt;)$ as a category, the [[subobject classifier]] of the topos $\mathbb{Sets}^\mathbb{Q}$ can be identified in a canonical way with the [[Dedekind cut|Dedekind cuts]] on $\mathbb{Q}$.
+- If we view $(\mathbb{Q},&lt;)$ as a category, the [[subobject classifier]] of the topos $\mathbf{Sets}^\mathbb{Q}$ can be identified in a canonical way with the [[Dedekind cut|Dedekind cuts]] on $\mathbb{Q}$.
 
 
 ## Related concepts
