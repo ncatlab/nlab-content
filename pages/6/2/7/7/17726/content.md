@@ -30,11 +30,11 @@ Martin Escardo has given the following translations between the two fields;
 |--|--|
 | [[topological space|space]] | [[type]] |
 | [[continuous function]] | [[function]] |
-| [[clopen set]] | decidable set |
+| [[clopen set]] | -[[decidable object|decidable]] set |
 | [[open set]] | semi-decidable set |
-| [[closed set]] | set with semi-decidable complement |
-| [[discrete space]] | type with decidable equality |
-| [[Hausdorff space]] | type with semi-decidable inequality |
+| [[closed set]] | set with semi-decidable [[complement]] |
+| [[discrete space]] | type with [[decidable equality]] |
+| [[Hausdorff space]] | type with semi-decidable [[inequality relation|inequality]] |
 | [[convergent sequence]] | map out of $\mathbb{N}_\infty$ (see below) |
 | [[compact set]] | exhaustively searchable set, in a finite number of steps |
 
