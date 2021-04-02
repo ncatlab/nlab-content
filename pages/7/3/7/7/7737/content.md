@@ -26,6 +26,7 @@ There are various ways in the literature to make this precise, including:
 * [[stratifolds]]
 * [[orbifolds]]
 * [[poset-stratified space]]
+* [[stratified category]]
 
 ## Examples
 
