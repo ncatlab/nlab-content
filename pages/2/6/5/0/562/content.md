@@ -106,7 +106,11 @@ See [[straightening functor]] for more details.
 
 * Every fibration or opfibration is an [[isofibration]].  In particular, [[strict 2-limit|strict 2-pullbacks]] of fibrations are also [[2-pullbacks]].
 
-* If $p\colon A\to B$ is a fibration, then [[limits]] in $A$ can be constructed out of limits in $B$ and in the fiber categories.  Specifically, given a [[diagram]] $f\colon I\to A$, let $L$ be the limit of $p f\colon I\to B$, with projections $\phi_i\colon L \to p(f(i))$.  Then for each $i\in I$, let $g(i) = \phi_i^*(f(i)) \in p^{-1}(L)$; these objects form a diagram $g\colon I\to p^{-1}(L)$ whose limit is the limit of $f$.  Dually, if $p\colon A\to B$ is an opfibration, then [[colimits]] in $A$ can be constructed out of those in $B$ and in the fiber categories.
+* Suppose that $p\colon A\to B$ is a fibration, and $B$ has $I$-indexed [[limits]]. Then $A$ has $I$-indexed limits and $p$ strictly preserves them if and only if $p$ has fibred $I$-indexed limits. This is in [Gray 66](#Gray); for a general perspective, see [Hermida 99, Corollary 4.9](#Hermida). Concretely, for instance, from right to left, given a [[diagram]] $f\colon I\to A$, let $L$ be the limit of $p f\colon I\to B$, with projections $\phi_i\colon L \to p(f(i))$.  Then for each $i\in I$, let $g(i) = \phi_i^*(f(i)) \in p^{-1}(L)$; these objects form a diagram $g\colon I\to p^{-1}(L)$ whose limit is the limit of $f$. 
+
+* Dually, if $p\colon A\to B$ is an opfibration, then [[colimits]] in $A$ can be constructed out of those in $B$ and in the fiber categories.
+
+* Suppose that $p\colon A\to B$ is a fibred [[cartesian closed category]] with [[simple products]]. Then if $B$ is cartesian closed, so is $A$ and $p$ preserves the structure. (See [Hermida 99, Corollary 4.12](#Hermida).) But the converse does not hold, see Section 4.3.2 of [Hermida's thesis](#HermidaThesis). 
 
 * If $p\colon A\to B$ is a fibration and $B$ admits an [[orthogonal factorization system]] $(E,M)$, then there is a factorization system $(E',M')$ on $A$, where $M'$ is the class of cartesian arrows whose image in $B$ lies in $M$, and $E'$ is the class of all arrows whose image in $B$ lies in $E$.  A dual construction is possible if $p$ is an opfibration.  If it is a bifibration (or more generally, an [[ambifibration]] over $(E,M)$), then these together form a [[ternary factorization system]].
 
@@ -271,7 +275,7 @@ The concept was introduced in the context of [[descent theory]] by [[Alexander G
 
 Another important early reference is
 
-* [[John W. Gray]], _Fibred and Cofibred Categories_ , pp.21-83 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
+* {#Gray} [[John W. Gray]], _Fibred and Cofibred Categories_ , pp.21-83 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
 
 A concise and didactic introduction to fibrations can be found in ch.12 of 
 
@@ -280,6 +284,12 @@ A concise and didactic introduction to fibrations can be found in ch.12 of
 More thorough is ch.8 of
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] vol. 2_ , Cambridge UP 1994.
+
+Hermida worked on the 2-category of fibrations and the application of fibrations to computer science. 
+
+* {#Hermida} [[Claudio Hermida]], _Some properties of Fib as a fibred 2-category_, Journal of Pure and Applied Algebra 134 (1999) 83-109. 
+
+* {#HermidaThesis} [[Claudio Hermida]], [PhD thesis, University of Edinburgh](https://era.ed.ac.uk/bitstream/handle/1842/14057/Hermida1993.Pdf)
 
 The elephant contains a lot of basic information and some good intuition[^caveat]:
 
