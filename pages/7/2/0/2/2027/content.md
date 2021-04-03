@@ -40,7 +40,7 @@ Of course, if the underlying set of the ring has [[decidable equality]] ---as is
 
 * [[Dedekind domain]]
 
-* [[field of fractions]]
+* [[field]], [[field of fractions]]
 
 
 [[!redirects integral domain]]
