@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -280,7 +281,7 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 (**principal bundles internal to $G$-spaces are equivalent to tom Dieck-bundles**)
 \linebreak
   The
-  $G$-equivariant $(\Gamma,\alpha)$-principal bundles in the [[internalization|internal]] sense of Def. \ref{EquivariantPrincipalBundles} are [[equivalence of categories|equivalent]] to the $(G,\alpha,\Gamma)$-principal bundles in the sense of [tom Dieck 69](#tomDieck69).
+  $G$-equivariant $(\Gamma,\alpha)$-principal bundles in the [[internalization|internal]] sense of Def. \ref{EquivariantPrincipalBundles} are [[equivalence of categories|equivalent]] to the $(G,\alpha,\Gamma)$-principal bundles in the sense of [tom Dieck 69](#tomDieck69) (both without any condition of [[local trivializability]], at this point).
 \end{prop}
 \begin{proof}
   This follows immediately by the fact ([this Prop.](equivariant+group#ActionsOfEquivariantGroupsAsSemidirectProductGroupActions)) that $G$-equivariant actions of [[equivariant groups]] $(G,\alpha)$ are equivalent to plain actions of the [[semidirect product group]] $\Gamma \rtimes_\alpha G$.
