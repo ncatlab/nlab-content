@@ -85,6 +85,8 @@ In [[gauge theory]] ([[Yang-Mills theory]]/[[Chern-Simons theory]], ...) ...
 
 * [[maximal compact subgroup]]
 
+* [[closed subgroup]]
+
 * [[proper Lie groupoid]]
 
 * [[p-compact group]]
