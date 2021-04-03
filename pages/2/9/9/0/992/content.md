@@ -378,7 +378,7 @@ This may be thought of as a homotopy-theoretic analog of the [[Freyd-Mitchell em
 +-- {: .num_remark}
 ###### Remark
 
-One way to read this is that [[formal duals]] of presentable [[stable infinity-categories]] are a model for [[spaces]] in ("[[derived noncommutative geometry|derived]]") [[noncommutative geometry]].
+One way to read this is that [[formal duals]] of presentable [[stable infinity-categories]] are a model for [[spaces]] in ("[[derived noncommutative geometry|derived]]") [[noncommutative algebraic geometry]].
 
 =--
 
