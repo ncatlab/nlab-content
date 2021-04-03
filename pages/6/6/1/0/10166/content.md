@@ -273,6 +273,20 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 
 ## Properties
 
+
+### As $(G,\alpha,\Gamma)$-principal bundles
+
+\begin{prop}\label{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}
+(**principal bundles internal to $G$-spaces are equivalent to tom Dieck-bundles**)
+\linebreak
+  The
+  $G$-equivariant $(\Gamma,\alpha)$-principal bundles in the [[internalization|internal]] sense of Def. \ref{EquivariantPrincipalBundles} are [[equivalence of categories|equivalent]] to the $(G,\alpha,\Gamma)$-principal bundles in the sense of [tom Dieck 69](#tomDieck69).
+\end{prop}
+\begin{proof}
+  This follows immediately by the fact ([this Prop.](equivariant+group#ActionsOfEquivariantGroupsAsSemidirectProductGroupActions)) that $G$-equivariant actions of [[equivariant groups]] $(G,\alpha)$ are equivalent to plain actions of the [[semidirect product group]] $\Gamma \rtimes_\alpha G$.
+\end{proof}
+
+
 ### Notions of equivariant local triviality
  {#NotionsOfEquivariantLocalTriviality}
 
@@ -298,20 +312,6 @@ we demanded an equivariant fiber/principal bundle to be locally trivial in the e
 
 Lashof82 $\leftrightarrow$ Bierstone78 ([Lashof 82, Lemmas 1.1, 1.3](#Lashof82))
 
-
-
-### As $(G,\alpha,\Gamma)$-principal bundles
-
-\begin{prop}\label{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}
-(**principal bundles internal to $G$-spaces are equivalent to tom Dieck-bundles**)
-\linebreak
-  The
-  $G$-equivariant $(\Gamma,\alpha)$-principal bundles in the [[internalization|internal]] sense of Def. \ref{EquivariantPrincipalBundles} form a [[full subcategory]] of the $(G,\alpha,\Gamma)$-principal bundles in the sense of [tom Dieck 69](#tomDieck69) on those which admit not just a local trivialization, but a $G$-equivariant local trivialization (as [above](#EquivariantLocalTriviality)).
-\end{prop}
-\begin{proof}
-  This follows immediately by the fact ([this Prop.](equivariant+group#ActionsOfEquivariantGroupsAsSemidirectProductGroupActions)) that $G$-equivariant actions of [[equivariant groups]] $(G,\alpha)$ are equivalent to plain actions of the [[semidirect product group]] $\Gamma \rtimes_\alpha G$.
-\end{proof}
-
 \begin{remark}\label{SufficientConditionForEquivariantEnhancementOfLocalTrivialization}
   **(sufficient condition for plain local trivialization to have equivariant enhancement)**
   Sufficient conditions for existence of plain local trivialization to imply a $G$-equivariant local trivialization, and hence for the inclusion in Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles} to be an actual [[equivalence of categories]], are:
@@ -326,6 +326,10 @@ Because ([Atiyah 66, p. 374](KR+cohomology+theory#Atiyah66)) then
 for every plain local trivialization around any [[orbit]] the [[equivariant Tietze extension theorem]] implies the existence of an [[equivariant function]] to $\Gamma$ on an [[open neighbourhood]] of that orbit, which thus constitutes a $G$-equivariant local trivialization.
 
 \end{remark}
+
+
+
+
 
 ## Examples
 
