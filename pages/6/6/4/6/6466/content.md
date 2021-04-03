@@ -265,7 +265,7 @@ It is also possible to define the notion of a [[Cauchy real number]] object and 
 
 
 ### Classical Dedekind real numbers
-In any [[extensive category|finitely extensive]] [[cartesian closed category]], one could define an object that roughly behaves like the Dedekind real numbers in classical mathematics. Instead of using [[subobjects]] of $\mathbb{Q}$ in defining a cut, one instead uses [[decidable object|decidable subobjects]] of $\mathbb{Q}$, or functions $L, U: \mathbb{Q} \rightarrow 1\coprod 1$ to define decidable cuts, and constructs the classical Dedekind real numbers as pairs of decidable cuts. The classical and constructive Dedekind real numbers are usually inequivalent, the classical Dedekind real numbers being equivalent to classical [[Cauchy real numbers]] and the constructive Dedekind real numbers being equivalent to generalised Cauchy real numbers
+In any $\Pi$-pretopos with a NNO, one could define an object that roughly behaves like the Dedekind real numbers in classical mathematics. Instead of using [[subobjects]] of $\mathbb{Q}$ in defining a cut, one instead uses the [[decidable object|decidable morphisms]] $L, U: \mathbb{Q} \rightarrow 1\coprod 1$ to define decidable cuts, and constructs the classical Dedekind real numbers as pairs of decidable cuts. The classical and constructive Dedekind real numbers are usually inequivalent, the classical Dedekind real numbers being equivalent to classical [[Cauchy real numbers]] and the constructive Dedekind real numbers being equivalent to generalised Cauchy real numbers
 
 ## Related concepts
 
