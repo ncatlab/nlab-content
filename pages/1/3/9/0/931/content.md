@@ -115,11 +115,32 @@ Suppose indeed that we have $(g, t) \in G_2 \times T$ and $\left( g_1, g'', t'' 
 
 Putting these together, we obtain that
 
-$$i\left( \left(g, t \right), \left[ \left( g', t' \right) \right] \right) = i\left( \left(g'', t''\right), \left[ \left(g' h(g_1), a\left(g_1^{-1}, t'\right) \right) \right] \right) = i\left(\left(g'', t''\right), \left[ \left( g', t' \right) \right] \right),$$ 
+$$
+\begin{aligned}
+i\left( \left( g'', t'' \right), \left[ \left( g', t' \right) \right] \right) &= i\left( \left( g'', t'' \right), \left[ \left( g' h(g_1), a\left( g_1^{-1}, t' \right) \right) \right] \right) \\
+  &= \left( g'' h(g_1)^{-1} \left(g' \right)^{-1}, \left[ \left( g' h(g_1), a\left( g_1^{-1}, t' \right) \right) \right] \right) \\
+  &= \left( g \left(g' \right)^{-1}, \left[ \left( g', t' \right) \right] \right) \\
+  &= i\left( g, \left[ \left( g', t' \right) \right] \right),    
+\end{aligned}
+$$
 
 as required.
 
-It is immediate that $\overline{i}$ defines an inverse to the action of $G_2$ on $\left( G_2 \times T \right) / G_1$ induced by left multiplication. \end{proof}
+We now observe that $\overline{i}$ defines an inverse to $a \times p_{2}$, where $a$ is the action of $G_2$ on $\left( G_2 \times T \right) / G_1$ induced by left multiplication, and $p_2$ is the projection map $G_2 \times \left( \left( G_2 \times T \right) / G_1 \right) \rightarrow \left( \left( G_2 \times T \right) / G_1 \right)$. Indeed, for any $g, g' \in G_2$ and $t \in T$, we have that 
+
+$$\overline{i}\left( \left[ \left(g' g, t \right) \right], \left[ \left( g, t \right) \right] \right) = \left( g' g g^{-1}, \left[ \left( g, t \right) \right] \right) = \left( g', \left[ \left( g, t \right) \right] \right),$$ 
+
+as required, and similarly we have that $a \times p_2$ applied to 
+
+$$\overline{i}\left( \left[ \left(g, t \right) \right], \left[ \left( g', t' \right) \right] \right) = \left( g \left(g'\right)^{-1}, \left[ \left( g', t' \right) \right] \right)$$ 
+
+gives 
+
+$$\left( \left[ \left(g \left( g' \right)^{-1} g', t' \right) \right],  \left[ \left( g', t' \right) \right] \right) = \left( \left[ \left(g, t \right) \right], \left[ \left( g', t' \right) \right] \right),$$
+
+as required.
+
+\end{proof}
 
 \begin{defn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. We refer to the $G_2$-torsor constructed from $\underline{T}$ using $h$ as in Proposition \ref{PropositionTorsorChangeOfStructureGroup} as the torsor obtained from $\underline{T}$ by _change of structure group_, and denote it $h_{*}\left(\underline{T}\right)$. \end{defn}
 
