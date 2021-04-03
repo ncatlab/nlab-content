@@ -52,6 +52,7 @@ The second describes [[term elimination|elimination]] on absolute types. This is
 (...)
 
 ### Categorical semantics
+ {#CategoricalSemantics}
 
 We discuss the [[categorical semantics]] of inductive types.
 
