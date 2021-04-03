@@ -247,6 +247,8 @@ A proof is spelled out by [[Todd Trimble]] [here on MO](http://mathoverflow.net/
 
   * [[maximal compact subgroup]]
 
+  * [[closed subgroup]]
+
   * [[loop group]]
 
 * [[Lie group]]
