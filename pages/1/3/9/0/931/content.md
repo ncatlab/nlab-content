@@ -46,6 +46,10 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 
 \end{example}
 
+\begin{example} \label{ExampleTorsorFromAGroup} Let $G$ be a [[group]]. The action of $G$ of $G$ on itself equips the underlying set of $G$ with the structure of a $G$-torsor. \end{example}
+
+\begin{rmk} We shall see [below](#TrivialisationInSets) that all torsors actually arise as in Example \ref{ExampleTorsorFromAGroup}.  \end{rmk}
+
 ### Trivialisation {#TrivialisationInSets}
 
 \begin{prpn} \label{PropositionTorsorIsomorphicAsSetToStructureGroup} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. If $T$ is non-empty, it is isomorphic to the underlying set of $G$. \end{prpn}
@@ -69,7 +73,7 @@ Since $\underline{T}$ is a $G$-torsor, we have that $a \times p_2$ is an isomorp
 
 The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} shows that any choice of element of $T$ gives rise to a trivialisation. Some of these may of course coincide. \end{rmk} 
 
-\begin{rmk} Let $\rho : G \rightarrow T$ be a trivialisation of a torsor $\underline{T}$. The map 
+\begin{rmk} \label{RemarkGroupStructureFromTrivialisation} Let $\rho : G \rightarrow T$ be a trivialisation of a torsor $\underline{T}$. The map 
 
 $$p_{1} \circ \left( \rho^{-1} \times id \right): T \times T \rightarrow G \times T \rightarrow G$$ 
 
@@ -80,12 +84,41 @@ $$\rho \circ d : T \times T \rightarrow G \rightarrow T,$$
 we can think of the resulting map $D$ as a 'division structure' on $T$ for which $\rho$ behaves as an identity, namely such that $D(g, g) = \rho$ for all $g \in G$. In this way, $T$ acquires a group structure isomorphic to that of $G$. 
 
 In this way, a trivialisation of a torsor equips with it a _choice_ of group structure amongst all of those isomorphic to $G$. 
+
 \end{rmk} 
 
 ### Functoriality (change of structure group)
 
+Torsors can be transported, or in other words pushed forward, along group homomorphisms, as we shall now show.
 
-\begin{prpn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. Observe that $\left(g_1, g_2, t \right) \mapsto \left( g_2 \cdot h(g_1)^{-1}, a(g_1, t) \right)$ defines an action $G_1 \times G_2 \times T \rightarrow G_2 \times T$ of $G_1$ on $G_2 \times T$. Then $\left(G_2 \times X \right) / G_1$, the quotient of $G_2 \times X$ with respect to this $G_1$-action, defines a $G_2$-torsor with respect to the action of $G_2$ induced by the group operation of $G_2$. \end{prpn}
+
+\begin{prpn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. Observe that $\left(g_1, g_2, t \right) \mapsto \left( g_2 \cdot h(g_1)^{-1}, a(g_1, t) \right)$ defines an action $G_1 \times G_2 \times T \rightarrow G_2 \times T$ of $G_1$ on $G_2 \times T$. Then $\left(G_2 \times T \right) / G_1$, the quotient of $G_2 \times X$ with respect to this $G_1$-action, defines a $G_2$-torsor with respect to the action of $G_2$ induced by left multiplication, namely that given by $\left( g, \left[ (g', t') \right] \right) \mapsto \left[ \left(g g', t' \right) \right]$, where $\left[ p \right]$, for some $p \in G_2 \times T$, denotes the orbit of $p$ with respect to the action of $G_1$ on $G_2 \times T$. \end{prpn}
+
+\begin{proof} We shall demonstrate that the map 
+
+$$i : \left( G_2 \times T \right) \times \left( \left( G_2 \times T \right) / G_1 \right) \rightarrow G_2 \times \left( \left( G_2 \times T \right) / G_1 \right)$$
+
+given by 
+
+$$\left( (g, t), \left[ (g', t') \right] \right) \mapsto \left( g\left(g'\right)^{-1}, \left[ (g', t') \right] \right)$$
+
+induces a map 
+
+$$\overline{i} : \left( \left( G_2 \times T \right) / G_1 \right) \times \left( \left( G_2 \times T \right) / G_1 \right) \rightarrow G_2 \times \left( \left( G_2 \times T \right) / G_1 \right),$$
+
+that is it respects, in its left factor, the passage to the quotient by the action of $G_1$.
+
+Suppose indeed that we have $(g, t) \in G_2 \times T$ and $\left( g_1, g'', t'' \right) \in G_1 \times G_2 \times T$ such that $(g, t) = \left( g'' \cdot h(g_1)^{-1}, a(g_1, t'') \right)$. Then 
+
+$$\left(g'' \cdot h(g_1)^{-1} \right) \left(g'\right) ^{-1} = g'' \left( g' h(g_1) \right)^{-1}.$$ 
+
+But $\left[ (g', t') \right] = \left[ \left( g' h\left(g_1^{-1}\right)^{-1}, a(g_1^{-1}, t') \right) \right] = \left[ \left( g' h(g_1), a\left(g_1^{-1}, t'\right) \right) \right]$, and thus we obtain that 
+
+$$i\left( \left(g, t \right), \left[ \left( g', t' \right) \right] \right) = i\left(g'', \left[ \left(g' h(g_1), a\left(g_1^{-1}, t'\right) \right) \right] \right) = i\left(g'', \left[ \left( g', t' \right) \right] \right),$$ 
+
+as required.
+
+It is immediately checked that $\overline{i}$ defines an inverse to the action of $G_2$ on $\left( G_2 \times T \right) / G_1$ induced by left multiplication. \end{proof}
 
 \begin{defn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. We refer to the $G_2$-torsor constructed from $\underline{T}$ using $h$ as in Proposition \ref{PropositionTorsorChangeOfStructureGroup} as the torsor obtained from $\underline{T}$ by _change of structure group_, and denote it $h_{*}\left(\underline{T}\right)$. \end{defn}
 
