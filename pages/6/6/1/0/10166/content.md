@@ -212,7 +212,9 @@ $$
 
 ### Equivariant bundles
 
-We say that a $G$-equivariant principal bundle is a [[principal bundle]] [[internalization|internal]] to [[topological G-spaces]]:
+We say that a $G$-equivariant principal bundle is a [[principal bundle]] [[internalization|internal]] to [[topological G-spaces]]. 
+
+(Beware that, following tradition in equivariant bundle theory, we do not impose a [[local trivialization|local trivializability condition]] at this point, but add this as an extra clause later and then speak explicitly of _locall trivial equivariant bundles_ -- for more on this see at _[Notions of equivariant local triviality](#NotionsOfEquivariantLocalTriviality)_.) 
 
 \begin{defn}\label{EquivariantPrincipalBundles}
 (**[[equivariant principal bundle]]**)
@@ -264,30 +266,6 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 
   is an [[isomorphism]].
 
-* {#EquivariantLocalTriviality} (**local triviality**) the quotient projection is locally trivial, in that there exists an [[open cover]] $U \to X$ of [[topological G-spaces]] and a $G$-equivariant trivialization of the [[pullback bundle|pullback]] of $P$ to $U$:
-
-\begin{xymatrix}
-  {U} \times \Gamma
-  \ar@(ul,ur)|-{ \Gamma \rtimes_\alpha G }
-  \ar[d]_{
-    p_1
-  }
-  \ar[rr]
-  \ar@{}[drr]|-{ \mbox{\tiny\rm (pb)} }
-  &&
-  {P}
-  \ar@(ul,ur)|-{ \Gamma \rtimes_\alpha G }
-  \ar[d]^-{p}
-  \\
-  \mathllap{\exists\;\;}
-  {U}
-  \ar@(dl,dr)|-{G}
-  \ar@{->>}[rr]_-{ \mathrm{open} }
-  &&
-  {X}
-  \ar@(dl,dr)|-{G}
-\end{xymatrix}
-
 
 
 \end{defn}
@@ -296,6 +274,7 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 ## Properties
 
 ### Notions of equivariant local triviality
+ {#NotionsOfEquivariantLocalTriviality}
 
 In the internal definition
 [above](#EquivariantLocalTriviality),
