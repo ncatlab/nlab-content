@@ -1,6 +1,7 @@
 
 $\ldots$
 
+$\infty$
 
 
 Please do not delete the following example for the moment!
