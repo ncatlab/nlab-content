@@ -309,16 +309,69 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 
 (...)
 
+
 ### Local recognition
+ {#LocalRecognition}
 
 +-- {: .num_lemma #MapIsSerreFibrationIfLocallySo}
 ###### Lemma
+**(map is Serre fibration if it is locally so)**
 
-If $p\colon X\to S$ is a [[continuous function]] and $\mathcal{U}$ a set of subsets of $S$ whose interiors cover $S$ ([[open cover]]) such that $p|_{p^{-1}(U)}\colon p^{-1}(U)\to U$ is a Serre fibration for all $U$ in $\mathcal{U}$. Then $p$ is a Serre fibration.
+If $p\colon X \to B$ is a [[continuous function]] and $\mathcal{U} = \big\{ U_i \overset{}{\hookrightarrow} B \big\}_{i \in I}$ is an [[open cover]] of its [[codomain]], such that the restriction of $p$ to each $U_i$ (i.e. its [[pullback]] to the cover) is a [[Serre fibration]], then $p$ itself is a Serre fibration:
+
+$$
+  \array{
+    X_{\vert \mathcal{U}}
+    &\longrightarrow&
+    X
+    \\
+    {}^{{}_{\mathllap{
+      {Serre}
+      \atop
+      {fibration}
+    }}}
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow
+    {}^{{}_{\mathrlap{
+      p
+    }}}
+    \\
+    \underset{i \in I}{\sqcup}
+    U_i
+    &\underset{  }{\longrightarrow}&
+    B
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    X
+    \\
+    {}^{{}_{\mathllap{
+      {Serre}
+      \atop
+      {fibration}
+    }}}
+    \big\downarrow
+    {}^{{}_{\mathrlap{
+      p
+    }}}
+    \\
+    B
+  }
+$$
 
 =--
 
 See [tom Dieck 08, p. 130, Thm. 6.3.3](#tomDieck2008).
+
+\begin{remark}
+  An analogous local recognition holds for [[Hurewicz fibrations]] but with [[numerable open covers]]. See [there](Hurewicz+fibration#LocalRecognition).
+\end{remark}
+
+
+
 
 ## Examples
  {#Examples}
@@ -329,7 +382,7 @@ See [tom Dieck 08, p. 130, Thm. 6.3.3](#tomDieck2008).
 
 \begin{example}
 **([[fiber bundles]] are Serre fibrations)**\linebreak
-Every topological [[fiber bundle]] (i.e. locally trivial, meaning that on some [[open cover]] it becomes a [[Cartesian product|product]] [[projection]]) is a Serre fibration.
+Every topological [[fiber bundle]] (i.e. [[locally trivial]], meaning that on some [[open cover]] it becomes a [[Cartesian product|product]] [[projection]]) is a Serre fibration.
 \end{example}
 
 By Lemma \ref{MapIsSerreFibrationIfLocallySo}.
