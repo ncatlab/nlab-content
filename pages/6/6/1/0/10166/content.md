@@ -291,27 +291,190 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 ### Notions of equivariant local triviality
  {#NotionsOfEquivariantLocalTriviality}
 
-In the internal definition
-[above](#EquivariantLocalTriviality),
-we demanded an equivariant fiber/principal bundle to be locally trivial in the evident sense *[[internalization|internal]]* to [[TopologicalGActions]]. But in the literature various variants of this notion are considered. We discuss how (some of) these are related to each other:
 
-* [tom Dieck 69, Def. 2.3](#tomDieck69), [tom Dieck 87, p. 58](#tomDieck87)
+The literature considers various different notions of [[local triviality]] of equivariant bundles. We list them and then (...eventually...) discuss sufficient conditions under which these imply each other.
+
+> under construction
 
 \begin{definition}
-**(Bierstone condition)**
-  A principal
+**(tom Dieck's equivariant local triviality condition -- [tom Dieck 69, Def. 2.3](#tomDieck69), [tom Dieck 87, p. 58](#tomDieck87))**
+  An equivariant principal bundle 
+  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
+  $$
+    P \overset{p}{\longrightarrow} B
+    \;\;
+    \in
+    \;
+    (\Gamma,\alpha)PrincipalBundles
+  $$
+  is **[[locally trivial]]** if there exists 
+
+1. an index-[[set]] $I$,
+
+1. an $I$-[[indexed set]] of [[topological subspace|sub]]-[[topological G-space|G-spaces]]
+ 
+   $$
+     U_i \;\subset\; B
+     \;\;
+     \in
+     G Actions
+     \big(
+      TopologicalSpaces 
+     \big)
+   $$
+
+1. an $I$-[[indexed set]] of [[closed subgroup]] $H_i \subset G$;
+
+1. an $I$-[[indexed set]] of $E_i \overset{p_i}{\to} G/H_i \;\in\; (\Gamma,\alpha)PrincipalBundles$ over their [[coset spaces]];
+
+such that 
+
+1. $\big\{ U_i \hookrightarrow B \big\}_{i \in I}$ is an [[open cover]] in [[TopologicalSpaces]];
+
+1. for each $i \in I$ there is a [[homomorphism]] of $(\Gamma,\alpha)PrincipalBundles$
+
+   $$
+     \array{
+       E_{\vert U_i}
+       &
+         \overset{\simeq}{\longrightarrow}
+       &
+       E_i
+       \\
+       \big\downarrow
+       &
+         {}^{{}_{(pb)}}
+       &
+       \big\downarrow {}^{\mathrlap{p}}
+       \\
+       U_i
+       &\longrightarrow&
+       G/H
+     }
+   $$
+
+   from the restriction of $E$ to $U_i$ and the given  equivariant bundle over the coset space.
 
 \end{definition}
 
-[Bierstone 78, Sec. 4](#Bierstone78)
+\begin{definition}
+**(Bierstone's equivariant local triviality condition -- [Bierstone 78, Sec. 4, p. 619-620](#Bierstone78))**
+  An equivariant principal bundle 
+  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
 
-* [Lashof 82, p. 258](#Lashof82), [Lashof-May 86, p. 267](#LashofMay86)
+  $$
+    P \overset{p}{\longrightarrow} X
+    \;\;
+    \in
+    \;
+    (\Gamma,\alpha)PrincipalBundles
+  $$
+
+  is **[[locally trivial]]** if for each point $x \in X$ (with [[isotropy 
+group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there exists 
+
+1. an [[open neighbourhood]] 
+
+   $$
+     U_x 
+       \;\subset\; 
+     X \;\; \in \; G_x Actions(TopologicalSpaces)
+   $$
+
+1. a $G_x$-[[equivariant function|equivariant]] [[homomorphism]] of $\Gamma PrincipalBundles$
+
+   $$
+     \array{
+       P_{\vert U_x}
+       &
+         \longrightarrow
+       &
+       U_x \times p^{-1}(\{x\})
+       \\
+       {}^{\mathllap{ p_{\vert U_x} }}
+       \big\downarrow
+         &&
+       \big\downarrow
+       {}^{
+         \mathrlap{ pr_1 }
+       }
+       \\
+       U_x &=& U_x
+     }
+   $$
+
+   from the restriction of $P$ to $U_x$ to the [[Cartesian product]] of $U_x$ with the [[fiber]] of $P$ over $x$.
+
+\end{definition}
+
+\begin{definition}
+**(Lashof's equivariant local triviality condition --  [Lashof 82, p. 258](#Lashof82), [Lashof-May 86, p. 267](#LashofMay86))**
+  An equivariant principal bundle 
+  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
+
+  $$
+    P \overset{p}{\longrightarrow} X
+    \;\;
+    \in
+    \;
+    (\Gamma,\alpha)PrincipalBundles
+  $$
+
+  is **[[locally trivial]]** if for each point $x \in X$ (with [[isotropy 
+group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there exists 
+
+1. an index-[[set]] $I$;
+
+1. an $I$-[[indexed set]] of [[closed subgroups]] $H_i \subset G$;
+
+1. an $I$-[[indexed set]] of $H_i$ [[slice theorem|slices]] $S_i \subset X$;
+
+1. an $I$-[[indexed set]] of $\Gamma_i \;\in\; H_i Actions(TopologicalSpaces)$ lifting $\Gamma \in TopologicalSpaces$;
+
+such that 
+
+1. the [[orbits]] of the [[slice theorem|slices]] $\big\{ G\cdot S_i \subset X \big\}_{i \in I}$ form an [[open cover]] over $X$;
+
+1. for each $i \in I$ there is a $G$-[[equivariant function|equivariant]] [[homomorphism]] of $\Gamma PrincipalBundles$
+
+   $$
+     \array{
+       P_{\vert G\cdot S_i}
+       &\longrightarrow&
+       G 
+         \times_{H_i}
+       \big( 
+         S_i \times \Gamma_i
+       \big)
+       \\
+       \big\downarrow
+       &&
+       \big\downarrow
+       \\
+       G \cdot S_i
+       &=&
+       G \times_H S_i
+     }
+   $$
+
+   from the restriction of $P$ over the orbit of the $i$th slice to ...
+
+\end{definition}
+
 
 * [Lashof-Rothenberg 78, p. 216](#LashofRothenberg78)
 
 (...)
 
-Lashof82 $\leftrightarrow$ Bierstone78 ([Lashof 82, Lemmas 1.1, 1.3](#Lashof82))
+\begin{prop}
+
+(...) Lashof82 $\leftrightarrow$ Bierstone78  (...)
+
+\end{prop}
+
+([Lashof 82, Lemmas 1.1, 1.3](#Lashof82))
+
+(...)
 
 \begin{remark}\label{SufficientConditionForEquivariantEnhancementOfLocalTrivialization}
   **(sufficient condition for plain local trivialization to have equivariant enhancement)**
