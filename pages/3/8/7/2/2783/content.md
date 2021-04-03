@@ -219,8 +219,7 @@ On the other hand, some properties are *not* preserved by the completions.
 
 * Carboni and Celia Magno, "The free exact category on a left exact one", J. Austral. Math. Soc. (Ser. A), 1982. 
 
-* Ji&#345;&#237; Rosick&#253;, _Cartesian closed exact completions_, JPAA 142 no. 3 (October 1999), 261-270. ([web](http://www.sciencedirect.com/science/journal/00224049/142/3)) 
- {#JR} 
+* {#JR} Ji&#345;&#237; Rosick&#253;, _Cartesian closed exact completions_, JPAA 142 no. 3 (October 1999), 261-270. ([doi](https://doi.org/10.1016/S0022-4049(98)00146-7)) 
 
 * Hu and Tholen, "A note on free regular and exact completions and their infinitary generalizations", [TAC](http://www.tac.mta.ca/tac/volumes/1996/n10/2-10abs.html) 1996.
 
