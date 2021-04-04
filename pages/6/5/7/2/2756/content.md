@@ -145,5 +145,14 @@ where $\{e^{\mu}{}_{a}\}$ denote the components of the inverse $e^{-1}$ bundle a
 
 This is traditionally the way that the Christoffel symbols are related to the notion of connection. But really both the Christoffel symbols as well as the spin connection components are nothing but a local component expression of the general notion of a connection $1$-form on a $GL(n)$-[[principal bundle]].
 
+## Related concepts
+
+* [[affine connection]]
+
+## References
+
+Originally due to 
+
+* [[Elwin Bruno Christoffel]], _Über die Transformation der homogenen Differentialausdrücke zweiten Grades_, Journal für die reine und angewandte Mathematik 70 (1869), 46–70. [doi:10.1515/crll.1869.70.46](https://doi.org/10.1515/crll.1869.70.46), [doi:10.1515/9783112389409-003](https://doi.org/10.1515/9783112389409-003).
 
 [[!redirects Christoffel symbol]]
