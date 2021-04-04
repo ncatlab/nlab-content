@@ -1,3 +1,4 @@
+[[!redirects coset space coprojections admitting local sections]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
