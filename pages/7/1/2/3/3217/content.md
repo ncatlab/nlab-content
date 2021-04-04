@@ -33,7 +33,7 @@ Historically (as they were introduced in [Ehresmann](#Ehresmann) and [Reeb](#Ree
 
 Expressed in terms of [[higher Lie theory]] such an integrable distribution is a sub-[[Lie algebroid]] of the [[tangent Lie algebroid]] of $X$. Accordingly, under [[Lie integration]] of this structure foliations of $X$ are also equivalently encodes as [[Lie groupoids]] whose space of objects is $X$ and whose [[orbits]] are the leaves of the foliation.
 
-Moreover, foliations are classified by [[Cech cohomology]] [[cocycles]] with coefficients in a [[topological groupoid]]/[[Lie groupoid]] called the _[[Haefliger groupoid]]_. These relations make foliation theory of sub-topic of [[Lie groupoid]]-theory. See also at _[[motivation for higher differential geometry]]_.
+Moreover, foliations are classified by [[Čech cohomology]] [[cocycles]] with coefficients in a [[topological groupoid]]/[[Lie groupoid]] called the _[[Haefliger groupoid]]_. These relations make foliation theory of sub-topic of [[Lie groupoid]]-theory. See also at _[[motivation for higher differential geometry]]_.
 
 The Haefliger groupoids in fact classifies structures slightly more general than foliations: _[[Haefliger structures]]_.
 
@@ -580,7 +580,7 @@ Folitation are classified by the [[Haefliger groupoid]]. See at _[[Haefliger the
 
 ### Characteristic classes
 
-There is a theory of [[characteristic classes]] for foliations. A most well known example is the Godbillon-Vey characteristic class. 
+There is a theory of [[characteristic classes]] for foliations. A most well known example is the [[Godbillon-Vey characteristic class]] for codimension one foliations. 
 
 ## Related concepts
 
