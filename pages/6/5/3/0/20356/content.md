@@ -11,7 +11,7 @@ Original reference:
 
 Expository accounts:
 
-* [[Joseph A. Neisendorfer]], _Samelson products and exponents of homotopy groups_, 
+* [[Joseph Neisendorfer]], _Samelson products and exponents of homotopy groups_, 
 Journal of Homotopy and Related Structures 8:2 (2013), 239-277.  [doi:10.1007/s40062-012-0021-4](http://dx.doi.org/10.1007/s40062-012-0021-4).
 
 * [[Joseph Neisendorfer]].  Samelson products, Chapter 6 in: _Algebraic Methods in Unstable Homotopy Theory_, 158-220.  Cambridge University Press.  [doi:10.1017/cbo9780511691638.008](https://doi.org/10.1017/cbo9780511691638.008).
