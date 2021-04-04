@@ -27,10 +27,11 @@ This is typically required in [[equivariant differential topology]]/[[equivarian
 
 A [[topological group|topological]] [[subgroup]] $H \subset G$ of a [[topological group]] $G$ is called a _closed subgroup_ if as a [[topological subspace]] it is a [[closed subspace]].
 
-## Localic subgroups
+## Properties
 
-Any subgroup of a [[localic group]] is automatically closed.
-See there for more information.
+### Localic subgroups
+
+Any localic subgroup of a [[localic group]] is closed (see [this Theorem](https://ncatlab.org/nlab/show/localic+group#LocalicSubgroupsAreClosed)).
 
 ## Related concepts
 
