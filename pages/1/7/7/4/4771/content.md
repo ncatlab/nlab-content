@@ -43,6 +43,10 @@ The components of the local [[Lie-algebra valued 1-form]] of an affine connectio
 
 ## References
 
+A coordinate-free treatment first appeared in
+
+* [[Harley Flanders]], _Development of an extended exterior differential calculus_.  Transactions of the American Mathematical Society 75:2 (1953), 311–311.  [doi](https://doi.org/10.1090/s0002-9947-1953-0057005-8).
+
 * wikipedia [affine connection](http://en.wikipedia.org/wiki/Affine_connection)
 
 * eom [affine connection](http://eom.springer.de/a/a010950.htm)	
