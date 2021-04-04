@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _Friedmann&#8211;[[Georges Lemaître|Lemaître]]&#8211;Robertson&#8211;Walker models_ (often _FRW-models_) are class of [[model (physics)|models]] in [[cosmology]]. These are [[solutions]] to [[Einstein's equations]] describing a spatially homogeneous and isotropic expanding or contracting [[spacetime]]. Hence these are solutions used as [[model (in theoretical physics)|models]] in [[cosmology]]. Indeed, an FRW-model is part of the [[standard model of cosmology]]. (In contrast to _[[inhomogeneous cosmology]]_.)
+The _Friedmann&#8211;[[Georges Lemaître|Lemaître]]&#8211;Robertson&#8211;[[Arthur Walker|Walker]] models_ (often _FRW-models_) are class of [[model (physics)|models]] in [[cosmology]]. These are [[solutions]] to [[Einstein's equations]] describing a spatially homogeneous and isotropic expanding or contracting [[spacetime]]. Hence these are solutions used as [[model (in theoretical physics)|models]] in [[cosmology]]. Indeed, an FRW-model is part of the [[standard model of cosmology]]. (In contrast to _[[inhomogeneous cosmology]]_.)
 
 ## Details
  {#Details}
@@ -94,6 +94,8 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 ## References
 
+Named after [[Alexander Friedmann]], [[Georges Lemaître]], [[Howard Robertson]], [[Arthur Walker]].
+
 Introduction and survey:
 
 * [[Matthias Blau]], chapter 33 and 34 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
@@ -134,3 +136,5 @@ Discussion in [[Regge calculus]]:
 [[!redirects Robertson-Walker model]]
 [[!redirects Robertson-Walker models]]
 
+
+[[!redirects Friedmann–Lemaître–Robertson–Walker metric]]
