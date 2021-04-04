@@ -154,7 +154,7 @@ has a contractible nerve, but its identity functor is not connected to a constan
 * [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
  {#Cisinski06}
 
-* [[Denis-Charles Cisinski]], _Le localisateur fondamental minimal_
+* [[Denis-Charles Cisinski]], _Le localisateur fondamental minimal_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 45 (2004) no. 2, pp. 109-140, [numdam](http://www.numdam.org/item/CTGDC_2004__45_2_109_0/)
  {#Cisinski04}
 
 See also at _[[Cisinski model structure]]_.
