@@ -380,7 +380,7 @@ See [tom Dieck 08, p. 130, Thm. 6.3.3](#tomDieck2008).
  {#FiberBundles}
 
 
-\begin{example}
+\begin{example}\label{FiberBundlesAreSerreFibrations}
 **([[fiber bundles]] are Serre fibrations)**\linebreak
 Every topological [[fiber bundle]] (i.e. [[locally trivial]], meaning that on some [[open cover]] it becomes a [[Cartesian product|product]] [[projection]]) is a Serre fibration.
 \end{example}
