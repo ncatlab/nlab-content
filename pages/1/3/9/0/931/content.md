@@ -46,9 +46,9 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 
 \end{example}
 
-\begin{example} \label{ExampleTorsorFromAGroup} Let $G$ be a [[group]]. The action of $G$ of $G$ on itself equips the underlying set of $G$ with the structure of a $G$-torsor. \end{example}
+\begin{example} \label{ExampleTorsorFromAGroup} Let $G$ be a [[group]]. The action of $G$ on itself equips the underlying set of $G$ with the structure of a $G$-torsor. \end{example}
 
-\begin{rmk} We shall see [below](#TrivialisationInSets) that all torsors actually arise as in Example \ref{ExampleTorsorFromAGroup}.  \end{rmk}
+\begin{rmk} We shall see in Remark \ref{RemarkGroupStructureFromTrivialisation} that all torsors actually arise as in Example \ref{ExampleTorsorFromAGroup}.  \end{rmk}
 
 ### Trivialisation {#TrivialisationInSets}
 
