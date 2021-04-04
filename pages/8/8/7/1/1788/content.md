@@ -144,5 +144,37 @@ $$
   \phi(\sigma(u))
 $$
 
+$$
+  \array{   
+    G
+    \times_H
+    (S \times \Gamma)
+    &
+    \longrightarrow
+    &
+    G \times_H \Gamma
+    & 
+    =
+    &
+    (\Gamma \times G)
+    \big/
+    ( graph(H \to \Gamma) )
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    & 
+    \swarrow
+    \\
+    G \times_H S
+    &
+    \underoverset
+      {}
+      {}
+      {\longrightarrow}
+    &
+    G \times_H H
+  }
+$$
 
 
