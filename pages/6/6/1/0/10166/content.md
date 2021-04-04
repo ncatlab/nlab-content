@@ -422,7 +422,8 @@ is an [[isomorphism]], of $\Gamma$-[[principal bundles]] over $U \subset G/H$.
 In fact every equivariant principal bundle over a coset space is of this form:
 
 
-\begin{prop}
+\begin{prop}\label{EquivariantPrincipalBundlesOverCosetSpacesAreSemidirectProductCosetsSpaceBundles}
+**(equivariant principal bundle over coset spaces are semidirect product coset space bundles)**
   Let $H \subset G$ be a [[closed subgroup]]. Then every [[Hausdorff space]] $(\Gamma,\alpha)$-principal bundle (Def. \ref{EquivariantPrincipalBundles}) over the [[coset space]]
 
 $$
@@ -529,8 +530,8 @@ The literature considers various different notions of [[local triviality]] of eq
 
 > under construction
 
-\begin{definition}
-**(tom Dieck's equivariant local triviality condition -- [tom Dieck 69, Def. 2.3](#tomDieck69), [tom Dieck 87, p. 58](#tomDieck87))**
+\begin{definition}\label{tomDieckEquivariantLocalTrivialization}
+**(tom Dieck's equivariant local triviality condition -- [tom Dieck 69, Def. 2.3](#tomDieck69), [tom Dieck 87, p. 58](#tomDieck87))**\linebreak
   An equivariant principal bundle 
   (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
   $$
@@ -566,7 +567,8 @@ such that
 
 1. for each $i \in I$ there is a [[homomorphism]] of $(\Gamma,\alpha)PrincipalBundles$
 
-   $$
+   \[
+     \label{tomDieckLocalTrivalityHomomorphism}
      \array{
        E_{\vert U_i}
        &
@@ -584,14 +586,14 @@ such that
        &\longrightarrow&
        G/H
      }
-   $$
+   \]
 
    from the restriction of $E$ to $U_i$ and the given  equivariant bundle over the coset space (as [above](#OverCosetSpaces)).
 
 \end{definition}
 
-\begin{definition}
-**(Bierstone's equivariant local triviality condition -- [Bierstone 78, Sec. 4, p. 619-620](#Bierstone78))**
+\begin{definition}\label{BierstoneEquivariantLocalTrivialization}
+**(Bierstone's equivariant local triviality condition -- [Bierstone 78, Sec. 4, p. 619-620](#Bierstone78))**\linebreak
   An equivariant principal bundle 
   (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
 
@@ -640,8 +642,8 @@ group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there 
 
 \end{definition}
 
-\begin{definition}
-**(Lashof's equivariant local triviality condition --  [Lashof 82, p. 258](#Lashof82), [Lashof-May 86, p. 267](#LashofMay86))**
+\begin{definition}\label{LashofEquivariantLocalTrivialization}
+**(Lashof's equivariant local triviality condition --  [Lashof 82, p. 258](#Lashof82), [Lashof-May 86, p. 267](#LashofMay86))**\linebreak
   An equivariant principal bundle 
   (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
 
@@ -670,7 +672,8 @@ such that
 
 1. for each $i \in I$ there is a $G$-[[equivariant function|equivariant]] [[homomorphism]] of $\Gamma PrincipalBundles$
 
-   $$
+   \[
+     \label{LashofLocalTrivalityHomomorphism}
      \array{
        P_{\vert G\cdot S_i}
        &\longrightarrow&
@@ -688,7 +691,7 @@ such that
        &=&
        G \times_H S_i
      }
-   $$
+   \]
 
    from the restriction of $P$ over the orbit of the $i$th slice to ...
 
@@ -706,6 +709,94 @@ such that
 \end{prop}
 
 ([Lashof 82, Lemmas 1.1, 1.3](#Lashof82))
+
+\begin{prop}\label{LashofLocalTrivializabilityImpliesTopDieckForTrivialAlpha}
+**(Lashof's local trivializability implies tom Dieck's for $\alpha = 1$)**
+  In the case that $\alpha = 1$ (in Def. \ref{EquivariantTopologicalGroup}), equivariant local trivializability in the sense of Lashof (Def. \ref{LashofEquivariantLocalTrivialization}) implies local trivializability in the sense of tom Dieck (Def. \ref{tomDieckEquivariantLocalTrivialization}).
+
+\end{prop}
+
+\begin{proof}
+  It is sufficient to see that Lashof's local model bundles in (eq:LashofLocalTrivalityHomomorphism) are examples of tom Dieck's local model bundles in (eq:tomDieckLocalTrivalityHomomorphism).
+
+So let $H \subset G$ be a [[closed subgroup]], $S \subset X$ be an $H$-[[slice theorem|slice]] and 
+
+\[
+  \label{LashofActionOfHOnGammaInProofLashofImpliestoDieck}
+  \phi \colon H \to \Gamma
+\]
+
+be the [[homomorphism]] through which $H$ acts on $\Gamma$ in Lashof's model for the equivariant bundle over the orbit of the slice. 
+
+$$
+  \array{
+    G \times_H 
+    (S \times \Gamma)
+    \\
+    \big\downarrow
+    \\
+    G \times_H S
+    \,.
+  }
+$$
+
+By Prop. \ref{EquivariantPrincipalBundlesOverCosetSpacesAreSemidirectProductCosetsSpaceBundles} and using that $\alpha = 1$ we obtain from $\phi$ an equivariant principal bundle over $G/H$ by taking the subgroup $Q$ in (eq:EquivariantBundleOfCosetSpaces) to be the [[graph of a function|graph]] of $\phi$ (eq:LashofActionOfHOnGammaInProofLashofImpliestoDieck)
+
+$$
+  Q
+  \;\coloneqq\;
+  graph(\phi)
+  \;\subset\; 
+  \Gamma \times G
+  \,.
+$$ 
+
+Observing that the [[coset space]] by a subgroup of this form coincindes with the quotient by the [[diagonal action]]
+
+$$
+  (\Gamma \times G)/ graph(\phi)
+  \;\simeq\;
+  G \times_H \Gamma
+  \,,
+$$
+
+makes it evident that tom Dieck's condition (eq:tomDieckLocalTrivalityHomomorphism) is satisfied for Lashof's local model in that the following square is manifestly a [[pullback]]:
+
+$$
+  \array{   
+    G
+    \times_H
+    (S \times \Gamma)
+    &
+    \longrightarrow
+    &
+    G \times_H \Gamma
+    & 
+    =
+    &
+    (\Gamma \times G)
+    \big/
+    ( graph(H \overset{\phi}{\to} \Gamma) )
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    & 
+    \swarrow
+    \\
+    G \times_H S
+    &
+    \underoverset
+      {}
+      {}
+      {\longrightarrow}
+    &
+    G \times_H H
+  }
+$$
+
+
+\end{proof}
 
 (...)
 
