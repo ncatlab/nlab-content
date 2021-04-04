@@ -32,4 +32,6 @@ On [[class-locally presentable categories]]:
 [[!redirects J. Rosický]]
 [[!redirects Jiří Rosický]]
 
+[[!redirects Jiři Rosický]]
+
 category: people
