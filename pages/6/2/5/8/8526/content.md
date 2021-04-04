@@ -72,7 +72,26 @@ We now begin working towards explaining what $T_{\mathbb{M}}$ and $q_{\mathbb{M}
 
 Both the set $T_{\mathbb{M}}$ and the real number $q_{\mathbb{M}}$ are constructed ultimately from what Mochizuki refers to as pilot objects. Though the terminology in [IUTT III](#IUTTIII) is very dense, Mochizuki explains in Example 3.6, Remark 3.6.1, and subsequently that these can be understood in quite elementary terms, which we now describe.
 
-Let $X$, $F$, $F_{mod}$, and $\mathbb{V}$ be as at [[initial Θ-data]]: $X$ is a once-punctured [[elliptic curve]], $F$ is a [[number field]], $F_{mod}$ is the [[field of moduli]] of $X$ with respect to $F$, $\mathbb{V}$ is a certain set of [[valuation|valuations]], and all of $X$, $F$, $\overline{F}$, and $\mathbb{V}$ satisfy certain conditions which will not be important for us here. 
+Let $X$, $F$, $F_{mod}$, and $\underline{\mathbb{V}}$ be as at [[initial Θ-data]]: $X$ is a once-puncturing of an [[elliptic curve]] $E$, $F$ is a [[number field]], $F_{mod}$ is the [[field of moduli]] of $X$ with respect to $F$, $\underline{\mathbb{V}}$ is a certain set of [[valuation|valuations]], and all of $X$, $F$, $\overline{F}$, and $\underline{\mathbb{V}}$ satisfy certain conditions which will be referred to here only as needed. Let $F^{\times}_{mod}$ denote the [[group of units|multiplicative group]] of $F_{mod}$.
+
+Let $v \in \underline{\mathbb{V}}$. By definition, $v$ is a valuation on $K_E$, where $K_E$ is as defined at [[initial Θ-data]]. Denote the completion of $K_E$ with respect to $v$ by $K_{v}$, denote the [[ring of integers]] of $K_{v}$ by $\mathcal{O}_{K_{v}}$, and denote the [[group of units]] of these two rings by $K^{\times}_{v}$ and $\mathcal{O}_{v}^{\times}$ respectively. 
+
+Let $\beta_{v}: F_{mod}^{\times} \rightarrow K_{v}^{\times} / \mathcal{O}^{\times}_{v}$ denote the [[homomorphism|group homomorphism]] induced by the composition of the field inclusion $F_{mod} \hookrightarrow K_{E}$ with the canonical ring homomorphisms $K_{E} \hookrightarrow K_{v} \twoheadrightarrow K_{v} / \mathcal{O}_{v}$. 
+
+\begin{defn} \label{DefinitionFStarMOD} We denote by $F^{*}_{MOD}$ the category whose objects consist of:
+
+1. An $F^{\times}_{mod}$-[[torsor]] $T$, where [[torsor]] here is understood with respect to the [[category of sets]].
+
+1. For every $v \in \underline{\mathbb{V}}$, a trivialisation $t_{v}$ of the $K_{v}^{\times} / \mathcal{O}_{K_v}^{\times}$-torsor $T_{v}$ obtained from $T$ by change of structure group with respect to $\beta_{v}$. We require that there is a $t \in T$ such that, for all but finitely many $v$, $t_{v}$ is equal to the trivialisation of $T_{v}$ determined by $\beta_{v}(t)$. (See [[torsor]] for the details of trivialisation of a torsor, and for the notion of change of structure group of a torsor.)
+  
+TODO: FINISH
+
+\end{defn}
+
+\begin{rmk} Definition \ref{DefinitionFStarMOD} is Example 3.6 in [IUTT III](#IUTTIII), and is also discussed in Remark 3.6.1. Remark 3.1.5 of [IUTT I](#IUTTI) is also relevant. \end{rmk}
+
+
+
 
 
 ## Related concepts
