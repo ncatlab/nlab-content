@@ -21,6 +21,10 @@ More specifically, a vector field is a _[[tangent vector field]]_ which is a [[s
 
 Equivalently this is a rank $(1,0)$-[[tensor field]] on $X$
 
+Vector fields can be defined as [[derivations]]
+of the algebra of functions.
+See the article [[derivations of smooth functions are vector fields]].
+
 ## Related concepts
 
 * [[flow of a vector field]]
@@ -32,6 +36,8 @@ Equivalently this is a rank $(1,0)$-[[tensor field]] on $X$
 * [[evolutionary vector field]]
 
 * [[field (physics)]]
+
+* [[derivations of smooth functions are vector fields]]
 
 ## References
 
