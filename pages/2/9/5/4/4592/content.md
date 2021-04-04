@@ -40,6 +40,20 @@ $$
 
 ## References
 
+Cartan introduced Lie derivatives of differential forms and derived [[Cartan's magic formula]] in
+
+* [[Élie Cartan]], _Leçons sur les invariants intégraux_ (based on lectures given in 1920-21 in Paris, Hermann, Paris 1922, reprinted in 1958).
+
+Extension to arbitrary tensor fields was given in
+
+* W. Ślebodziński, Sur les équations de Hamilton, Bull. Acad. Roy. de Belg. 17 (1931).
+
+The term “Lie derivative” (Liesche Ableitung) is due to van Dantzig,
+who also suggested a definition using the flow of a vector field:
+
+* D. van Dantzig, Zur allgemeinen projektiven Differentialgeometrie, Proc. Roy. Acad. Amsterdam 35 (1932) Part I: 524–534; Part II: 535–542.
+
+
 An introduction in the context of [[synthetic differential geometry]] is in 
 
 * [[Gonzalo Reyes]], _Lie derivatives, Lie brackets and vector fields over curves_, [pdf](https://marieetgonzalo.files.wordpress.com/2006/10/lie-derivatives.pdf)
