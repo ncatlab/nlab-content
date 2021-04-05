@@ -77,7 +77,7 @@ or:
 
   1. [[separable metric space]];
 
-  1. of [[finite number|finite]] [[dimension of a separable metric space]]
+  1. of [[finite number|finite]] [[dimension of a separable metric space|dimension]]
 
   (e.g. if $G$ is a [[Lie group]])
 
