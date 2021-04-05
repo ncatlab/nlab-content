@@ -1,4 +1,87 @@
 
+$$
+  \array{
+    \widehat G 
+      \times_{\widehat H} 
+    S
+    &\longrightarrow&
+    \widehat G \times_{\widehat H} \widehat H
+    &{\phantom{}}&
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    G \times_H S
+    &\longrightarrow&
+    G \times_H H
+  }
+$$
+
+
+$$
+  \array{
+    \big(
+      \Gamma \rtimes_\alpha G
+    \big)
+      \times_{\widehat H}    
+    S
+    &
+      \longrightarrow
+    &
+    \big(
+      \Gamma \rtimes_\alpha G
+    \big)
+    / \widehat H
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    G \times_H S
+    &
+    \underoverset
+      {}{}{\longrightarrow}
+    &
+    G/H
+  }
+$$
+
+\linebreak
+
+\linebreak
+
+
+$$
+  \array{
+    \big(
+      \Gamma \rtimes_\alpha G
+    \big)
+      \times_{\widehat H}    
+    S
+    &
+      \longrightarrow
+    &
+    \big(
+      \Gamma \rtimes_\alpha G
+    \big)
+    \times_{\hat H} \hat H
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    G \times_{\hat H} S
+    &
+    \underoverset
+      {}{}{\longrightarrow}
+    &
+    G \times_{\hat H} \widehat H
+  }
+$$
+
+
+
 $\ldots$
 
 $\infty$
