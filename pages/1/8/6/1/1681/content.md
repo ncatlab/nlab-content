@@ -203,6 +203,8 @@ The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[
 
 * [[Moore space]]
 
+* [[Peterson space]]
+
 ## References
 
 ### General
