@@ -17,4 +17,8 @@
 
 * [[Puppe sequence]]
 
+* [[Eilenberg-Zilber theorem]]
+
 category: people
+
+[[!redirects D. Puppe]]
