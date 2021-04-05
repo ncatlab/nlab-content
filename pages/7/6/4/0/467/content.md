@@ -115,7 +115,7 @@ and
 * **JardSimpSh** -- J. Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
 {: #ToenSNAC}
-* **ToenSNAC** -- B. To&#235;n, [[ToenStacksNAC.pdf:file]]
+* **ToenSNAC** -- [[Bertrand Toën]], [[ToenStacksNAC.pdf:file]]
 
 {: #ToenHDS}
-* **ToenHDS** -- B. To&#235;n, _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
+* **ToenHDS** -- [[Bertrand Toën]], _Higher and derived stacks: a global overview_ ([arXiv:math/0604504](https://arxiv.org/abs/math/0604504))
