@@ -334,11 +334,18 @@ See also
 
 * [[Thomas Nikolaus]], _Equivariant Dijkgraaf-Witten theory_, a talk at Muenster ([pdf](http://www.math.uni-hamburg.de/home/nikolaus/Muenster.pdf))
 
-
 For more on this see the discussion on the [n-Forum](http://nforum.mathforge.org/discussion/1046/path-category-vs-cobordisms-for-bundles/?Focus=8337#Comment_8337).
 
-[[!redirects Dijkgraaf--Witten theory]]
-[[!redirects Dijkgraaf?Witten theory]]
+## Dijkgraaf–Witten theory via Kan extensions
 
+* [[Jeffrey C. Morton]], _Cohomological Twisting of 2-Linearization and Extended TQFT_, [arXiv:1003.5603](https://arxiv.org/abs/1003.5603).
+
+* Section 2 and 3 of [[Gijs Heuts]] and [[Jacob Lurie]]'s Ambidexterity, in: Topology and Field Theories, [doi](https://doi.org/10.1090/conm/613).
+
+* Section 3 of [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], Topological quantum field theories from compact Lie groups, [arXiv:0905.0731](https://arxiv.org/abs/0905.0731).
+
+
+[[!redirects Dijkgraaf--Witten theory]]
+[[!redirects Dijkgraaf–Witten theory]]
 [[!redirects Dijkgraaf-Witten model]]
 [[!redirects Dijkgraaf-Witten models]]
