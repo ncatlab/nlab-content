@@ -65,6 +65,15 @@ This is [[Higher Topos Theory|HTT, cor. 5.5.2.9]].
 
 =--
 
+
++-- {: .num_remark}
+###### Remark
+
+For the existence of right adjoints, we can weaken the hypotheses to merely requiring $D$ to be a [[locally small (infinity,1)-category]].
+([[Higher Topos Theory|HTT, rem. 5.5.2.10]])
+
+=--
+
 ## Related concepts
 
 * [[adjoint functor theorem]]
