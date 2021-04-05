@@ -145,7 +145,7 @@ A weak version of the simplicial statement is in theorem 8.1.5 in
 
 * [[Charles Weibel]], _An introduction to homological algebra_
 
-The stronger version as stated above is in chapter 2 of 
+The stronger version as stated above, due to Dold and Puppe, is in chapter 2 of 
 
 * [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Ann. Inst. Fourier **11** (1961) pp.201-312. ([numdam:AIF_1961__11__201_0](http://archive.numdam.org/item/AIF_1961__11__201_0), [pdf](http://archive.numdam.org/article/AIF_1961__11__201_0.pdf))
 
