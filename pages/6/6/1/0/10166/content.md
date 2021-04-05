@@ -389,9 +389,11 @@ $$
       \longrightarrow
     }
     &&
-    \big(
-      \Gamma \times_\alpha G
-    \big) / {\widehat H}
+    \Big(
+      \big(
+        \Gamma \rtimes_\alpha G
+      \big) / {\widehat H}
+    \Big)_{\vert U}
     \\
     & \searrow && \swarrow
     \\
