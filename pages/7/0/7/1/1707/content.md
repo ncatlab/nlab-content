@@ -886,6 +886,16 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 ## References 
 
+### Original references
+
+* [[S. Eilenberg]], [[S. MacLane]], _Relations between Homology and Homotopy Groups_.  Proceedings of the National Academy of Sciences 29:5 (1943), 155–158.  [doi](https://doi.org/10.1073/pnas.29.5.155).
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], _Relations Between Homology and Homotopy Groups of Spaces_.  The Annals of Mathematics 46:3 (1945), 480.  [doi](https://doi.org/10.2307/1969165).
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], _Relations Between Homology and Homotopy Groups of Spaces. II_.  The Annals of Mathematics 51:3 (1950), 514.  [doi](https://doi.org/10.2307/1969365).
+
+* [[Dmitri Faddeev]], _On factor-systems in Abelian groups with operators_. (Russian), Doklady Akad. Nauk SSSR (N. S.) 58, (1947). 361–364.
+
 ### General
 
 Standard textbook references on group cohomology include
