@@ -33,3 +33,5 @@ $$
 
 
 [[!redirects pointed homotopy types]]
+[[!redirects pointed homotopy class]]
+[[!redirects pointed homotopy classes]]
