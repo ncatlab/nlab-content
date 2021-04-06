@@ -204,6 +204,7 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 > In the Standard Model Effective Theory (SMEFT) [41, 42], the significance of NewPhysics from the global $b \to s \ell^+ \ell^-$ analysis increases with the inclusion of new data, reaching a maximum of almost 6σ for the simple hypothesis of a non-vanishing $[$[[leptoquark]] contribution$]$.
 
+* [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
 
 and within [[Randall-Sundrum models]]
@@ -215,6 +216,8 @@ and within [[Randall-Sundrum models]]
 and as a possible explanation also of the anomalies seen at the [[ANITA experiment]]:
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
+
+
 
 ### As dark matter candidates
 
