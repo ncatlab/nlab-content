@@ -61,6 +61,18 @@ See this [[periodic table]] of $k$-transfors between $n$-categories for common n
 
 Note that the [[source]] and [[target]] of a $k$-transfor (between $n$-categories) are $(k-1)$-transfors (between the same $n$-categories).  Given two fixed source and target $(k-1)$-transfors, the $k$-transfors between them (and the $(k+1)$-transfors between those, and so on) form an $(n-k)$-category.
 
+### For n-posets
+
+A similar table [[periodic table]] of $k$-transfors between $n$-posets exists for common names for low values of $n$ and $k$. 
+
+<table><tr><th markdown="1">$k$&#8595;\$n$&#8594;</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th markdown="1">$3$</th><th>...</th></tr>
+<tr><th markdown="1">$0$</th><td>[[implication]]</td><td>[[monotonic function]]</td><td>[[functor]]</td><td markdown="1">$2$-[[2-functor|functor]]</td><td markdown="1">$3$-[[n-functor|functor]]</td><td>...</td></tr>
+<tr><th markdown="1">$1$</th><td>trivial</td><td>[[partial order]] of monotonic functions</td><td>[[natural transformation]]</td><td markdown="1">$2$-transformation</td><td markdown="1">$3$-transformation</td><td>...</td></tr>
+<tr><th markdown="1">$2$</th><td>"</td><td>trivial</td><td>partial order of natural transformations</td><td>[[modification]]</td><td markdown="1">$3$-modification</td><td>...</td></tr>
+<tr><th markdown="1">$3$</th><td>"</td><td>"</td><td>trivial</td><td>partial order of modifications</td><td>perturbation</td><td>...</td></tr>
+<tr><th markdown="1">$4$</th><td>"</td><td>"</td><td>"</td><td>trivial</td><td>partial order of perturbations</td><td>...</td></tr>
+<tr><th markdown="1">$5$</th><td>"</td><td>"</td><td>"</td><td>"</td><td>trivial</td><td>...</td></tr>
+<tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
 
 ## Discussion ##
 
