@@ -316,6 +316,8 @@ There is possibly a relation between the [[flavour anomalies]] and the  [anomali
 
 Indeed, [[leptoquark]] models preferred by the flavour anomalies (see [below](#Leptoquarks)) are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
+Some authors therefore begin to speak jointly of _muon anomalies_ ([GST 21](#GST21)).
+
 
 
 
@@ -547,7 +549,7 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#Virto21} [[Javier Virto]], _Anomalies in $b \to s \ell \ell$ transitions and Global Fits_ ([arXiv:2103.01106](https://arxiv.org/abs/2103.01106))
 
-* {#AltmannshoferStangl21} [[Wolfgang Altmannshofer]], Peter Stangl, _New Physics in Rare B Decays after Moriond 2021_ ([arXiv:2103.13370](https://arxiv.org/abs/2103.13370))
+* {#AltmannshoferStangl21} [[Wolfgang Altmannshofer]], [[Peter Stangl]], _New Physics in Rare B Decays after Moriond 2021_ ([arXiv:2103.13370](https://arxiv.org/abs/2103.13370))
 
 * {#CFFIN21} Claudia Cornella, Darius A. Faroughy, [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias Neubert]], _Reading the footprints of the B-meson flavor anomalies_ ([arXiv:2103.16558](https://arxiv.org/abs/2103.16558))
 
@@ -714,7 +716,7 @@ General [[effective field theory]] parametrization:
 * Marco Ciuchini, António M. Coutinho, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _New Physics in $b \to s \ell^+ \ell^-$ confronts new data on Lepton Universality_ ([arXiv:1903.09632](https://arxiv.org/abs/1903.09632))
 
 
-* Jason Aebischer, [[Wolfgang Altmannshofer]], Diego Guadagnoli, Meril Reboud, Peter Stangl, David M. Straub, _B-decay discrepancies after Moriond 2019_ ([arXiv:1903.10434](https://arxiv.org/abs/1903.10434))
+* Jason Aebischer, [[Wolfgang Altmannshofer]], Diego Guadagnoli, Meril Reboud, [[Peter Stangl]], David M. Straub, _B-decay discrepancies after Moriond 2019_ ([arXiv:1903.10434](https://arxiv.org/abs/1903.10434))
 
 * Alakabha Datta, Jacky Kumar, David London, _The $B$ Anomalies and New Physics in $b \to s e^+ e^-$_ ([arXiv:1903.10086](https://arxiv.org/abs/1903.10086))
 
@@ -878,6 +880,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#HLN21} Gudrun Hiller, Dennis Loose, Ivan Nišandžić, _Flavorful leptoquarks at the LHC and beyond: Spin 1_ ([arXiv:2103.12724](https://arxiv.org/abs/2103.12724))
 
+* {#GST21} [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
@@ -977,7 +980,7 @@ Other possible explanations of the flavour anomalies:
 * [[Andreas Crivellin]], Dario Müller, Christoph Wiegand, _$b \to s \ell^+ \ell^-$ Transitions in Two-Higgs-Doublet Models_ ([arXiv:1903.10440](https://arxiv.org/abs/1903.10440))
 
 
-* Peter Stangl, _Flavour anomalies and (fundamental) partial compositeness_ ([arXiv:1907.05158](https://arxiv.org/abs/1907.05158))
+* [[Peter Stangl]], _Flavour anomalies and (fundamental) partial compositeness_ ([arXiv:1907.05158](https://arxiv.org/abs/1907.05158))
 
 [[right-handed neutrino]]:
 
