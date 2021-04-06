@@ -263,12 +263,13 @@ Beyond these dimensions there are still some interesting identifications, but th
 
 
 ## Examples
+ {#ExampleSection}
 
 
 [[!include low dimensional rotation groups -- table]]
 
 
-
+* [[Spin(11,3)]]
 
 
 ## Applications
