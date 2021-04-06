@@ -32,7 +32,7 @@ In [[intensional type theory]] under the [[propositions as types]] paradigm, an 
 
 To contrast with "computational" or [[definitional equality]], inhabitation of an identity type is sometimes called **propositional equality**.  The identity type $Id_A(x,y)$ is sometimes written $Eq_A(x,y)$ or just $(x=y)$, but in this article we reserve the latter for definitional equality.
 
-In *[[extensional type theory|extensional]]* type theory, such as that modeled in the [[internal logic]] of a 1-category, equality is an [[h-proposition]], and hence each $Id_A(x,y)$ is a [[subsingleton]].  However, in the internal type theory of [[higher category theory|higher categories]], such as the [[internal logic of an (∞,1)-topos]], identity types represent [[path objects]] and are highly nontrivial.  One speaks of _[[homotopy type theory]]_.  In these cases, one may write for instance $Path_A(x,y)$ instead of $Id_A(x,y)$.
+In *[[extensional type theory|extensional]]* type theory, such as that modeled in the [[internal logic]] of a 1-category, equality is an [[h-proposition]], and hence each $Id_A(x,y)$ is a [[subsingleton]].  However, in the internal type theory of [[higher category theory|higher categories]], such as the [[internal logic of an (∞,1)-topos]], identity types represent [[path objects]] and are highly nontrivial.  One speaks of _[[homotopy type theory]]_.  In these cases, identity types are also known as __path types__ or __path space types__ and are sometimes written as $Path_A(x,y)$ instead of $Id_A(x,y)$.
 
 
 ## Definition
@@ -389,6 +389,8 @@ See also
 [[!redirects equality types]]
 [[!redirects path type]]
 [[!redirects path types]]
+[[!redirects path space type]]
+[[!redirects path space types]]
 [[!redirects stable path object]]
 [[!redirects stable path objects]]
 [[!redirects propositional equality]]
