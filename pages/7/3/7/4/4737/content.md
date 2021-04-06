@@ -26,7 +26,7 @@ For $\mathcal{G}$ a [[groupoid object in an (infinity,1)-category|groupoid objec
 
 ## Definition
 
-For $G$ a [[group object]] in some [[(∞,1)-topos]] $\mathbf{H}$ (for instance $\mathbf{H} = $ [[?LieGrpd]] for smooth [[Lie groupoid]]-bundles), and $\mathbf{B}G$ the corresponding [[delooping]] object, $G$-principal bundles are the [[(∞,1)-pullback]]s of the form
+For $G$ a [[group object]] in some [[(∞,1)-topos]] $\mathbf{H}$ (for instance $\mathbf{H} = $ [[Smooth∞Groupoids]] for smooth [[Lie groupoid]]-bundles), and $\mathbf{B}G$ the corresponding [[delooping]] object, $G$-principal bundles are the [[(∞,1)-pullback]]s of the form
 
 $$
   \array{
@@ -109,6 +109,7 @@ is an isomorphism.
 
 ## References
 
-* [[Ieke Moerdijk]], J. Mr&#269;un, _Introduction to foliations and Lie groupoids_ Bulletin (New Series) of the AMS, Volume 42, Number 1, Pages 105&#8211;111
+* [[Ieke Moerdijk]], [[Janez Mrcun]] _Introduction to Foliations and Lie Groupoids_, Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003) ([doi:10.1017/CBO9780511615450](https://doi.org/10.1017/CBO9780511615450))
+
 
 [[!redirects groupoid principal bundles]]
