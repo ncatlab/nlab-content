@@ -410,7 +410,8 @@ Textbooks and other accounts
 
 The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theorem to that of $G$-objects in more general [[model category|model categories]] is in 
 
-* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
+* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](https://faculty.math.illinois.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
+
 
 and further discussed in
 
