@@ -61,7 +61,7 @@ As a [[foundation]] for [[mathematics]], homotopy type theory (also called **[[u
 
 * It can (conjecturally) be [[internalization|internalized]] in many categories and higher categories, providing an [[internal logic]] which enables a single [[proof]] to be reinterpreted in many places with many different meanings.
 
-* It is naturally [[isomorphism]]- and [[equivalence]]-invariant (non-[[evil]]).  This is a consequence of the [[univalence axiom]]: any property or structure (even one which speaks only about [[sets]] and makes no reference to homotopy theory) which is expressible in the theory must be invariant under isomorphism/equivalence.
+* It is naturally [[isomorphism]]- and [[equivalence]]-invariant (respecting the [[principle of equivalence]]).  This is a consequence of the [[univalence axiom]]: any property or structure (even one which speaks only about [[sets]] and makes no reference to homotopy theory) which is expressible in the theory must be invariant under isomorphism/equivalence.
 
 * Notions such as [[propositions]] and sets are *defined* objects, which inherit good computational properties from the underlying type theory.
 
