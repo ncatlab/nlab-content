@@ -6,13 +6,13 @@
 
 ## Idea
 
-[[supersymmetry]] in total [[spacetime]] [[dimension]] 14, of interest for [[spacetime signature]] $11+3$.
+[[Supersymmetry]] in total [[spacetime]] [[dimension]] 14, of interest for [[spacetime signature]] $11+3$.
 
 ## References
 
 
 
-* Khaled Abdel-Khalek, _The Super P-Brane Scan and S Duality_ ([arXiv:hep-th/9607180v1](https://arxiv.org/abs/hep-th/9607180v1))
+* Khaled Abdel-Khalek, _The Super P-Brane Scan and S Duality_ ([arXiv:hep-th/9607180](https://arxiv.org/abs/hep-th/9607180))
 
 * [[Ergin Sezgin]], _Super Yang-Mills in $(11,3)$ Dimensions_, 	Phys.Lett. B403 (1997) 265-272 ([arXiv:hep-th/9703123](https://arxiv.org/abs/hep-th/9703123))
 
@@ -34,6 +34,8 @@ In relation to [[bosonic M-theory]] on [[Cayley plane]]-[[fibers]]:
 * [[D=11 supergravity]]
 
 * [[D=12 supergravity]]
+
+* [[Spin(11,3)]]
 
 [[!redirects 14-dimensional supergravity]]
 
