@@ -98,7 +98,7 @@ Cellular approximation for [[G-CW complexes]] in [[equivariant homotopy theory]]
 
 Textbook account:
 
-* {#tomDieck87} [[Tammo tom Dieck]], Theorem 2.1 in: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+* {#tomDieck87} [[Tammo tom Dieck]], Theorem II.2.1 in: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 Review:
 
