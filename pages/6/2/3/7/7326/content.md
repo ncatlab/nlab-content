@@ -97,12 +97,32 @@ Given an ep groupoid, the properness axiom implies that the orbit space of the o
 
 Properness implies stability.
 
+
+## Related concepts
+
+* [[stack]]
+
+* [[Lie groupoid]]
+
+* [[orbifold]]
+
 ## References
 
+The original paper is
 
-[^Mc Duff]: D. McDuff, groupoids, branched manifolds and multisections
+* [[Ieke Moerdijk]], [[Dorette A. Pronk]], _Orbifolds, Sheaves and Groupoids_.  K-Theory 12:1 (1997), 3-21.  [doi](https://doi.org/10.1023/a:1007767628271).
 
-[^H. Hofer]: H. Hofer, polyfolds and a general Fredholm theory
+An expository account is in
+
+* [[Ieke Moerdijk]], _Orbifolds as groupoids: an introduction_.  Orbifolds in Mathematics and Physics, Contemporary Mathematics (2002), 205-222.  [doi:10.1090/conm/310/05405](http://dx.doi.org/10.1090/conm/310/05405), [arXiv:math/0203100](https://arxiv.org/abs/math/0203100).
+
+Other sources:
+
+[^Mc Duff]: [[Dusa McDuff]], _Groupoids, branched manifolds and multisections_.  Journal of Symplectic Geometry 4:3 (2006), 259-315. 
+ [doi:10.4310/jsg.2006.v4.n3.a2](http://dx.doi.org/10.4310/jsg.2006.v4.n3.a2).
+
+[^H. Hofer]: [[Helmut H. W. Hofer]], _Polyfolds and Fredholm Theory_.  Oxford University Press (2017), [doi](http://dx.doi.org/10.1093/oso/9780198784913.003.0004).
+
 
 category: Lie theory
 
