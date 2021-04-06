@@ -188,6 +188,8 @@ In this diagram now
 
 ## References
 
+### General
+
 General accounts include
 
 * [[Sergiu Klainerman]], _PDE as a unified subject_ 2000 ([pdf](http://www.math.princeton.edu/~seri/homepage/papers/telaviv.pdf))
@@ -202,18 +204,37 @@ General accounts include
 
 * [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
 
+On the partial differential equations appearing in [[physics]]:
+
+* [[Robert Geroch]], _Partial Differential Equations of Physics_, in: _[General Relativity: Proceedings](https://inspirehep.net/literature/328567)_ Edited by G.S. Hall and J.R. Pulham. Edinburgh, IOP Publishing, 1996. p. 19 ([arXiv:gr-qc/9602055](http://arxiv.org/abs/gr-qc/9602055))
+
+
+### Via jet bundles and D-modules
+
 
 Discussion of the spaces of solutions is in 
 
 * Batu G&#252;neysu, [[Markus Pflaum]], _The profinite dimensional manifold structure of formal solution spaces of formally integrable PDE's_ ([arXiv:1308.1005](https://arxiv.org/abs/1308.1005))
 
-Characterization of the category of partial differential equations as the [[Eilenberg-Moore category]] of [[coalgebras]] over the [[jet comonad]] is due to 
+Characterization of the category of partial differential equations as the [[Eilenberg-Moore category]] of [[coalgebras]] over the [[jet comonad]]:
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
+
+Discussion in [[differential cohesion]]:
+
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+Discussion in differentially cohesive [[modal homotopy type theory|modal]] [[homotopy type theory]]:
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+
 
 In the language of [[D-modules]] and hence for the special case of _linear_ differential equations, this appears as prop. 3.4.1.1 in 
 
 * {#GaitsgoryRozenblyum11} [[Dennis Gaitsgory]], [[Nick Rozenblyum]], _Crystals and D-modules_ ([arXiv:1111.2087](http://arxiv.org/abs/1111.2087))
+
+
+### Other
 
 A [[domain specific programming language]] for differential equations is presented in
 
