@@ -261,6 +261,16 @@ Beyond these dimensions there are still some interesting identifications, but th
 
 
 
+
+## Examples
+
+
+[[!include low dimensional rotation groups -- table]]
+
+
+
+
+
 ## Applications
 
 ### Spin geometry
