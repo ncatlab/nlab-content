@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Spin-Geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,7 +20,7 @@
 
 ## Idea
 
-[[Supersymmetry]] in total [[spacetime]] [[dimension]] 14, of interest for [[spacetime signature]] $11+3$.
+[[Supersymmetry]] in total [[spacetime]] [[dimension]] 14, of interest for [[spacetime signature]] $11+3$, hence super-extending [[Spin(11,3)]].
 
 ## References
 
