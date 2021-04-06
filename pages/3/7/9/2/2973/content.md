@@ -30,9 +30,9 @@ We have given the definition for topological spaces, but it also makes sense as 
 
 Write CGWH for the category of [[compactly generated topological spaces|compactly generated]] weakly Hausdorff topological spaces, and $CGH$ for compactly generated [[Hausdorff topological spaces]]. Both are [[convenient categories of topological spaces]] that both admit a [[homotopy hypothesis]]-comparison to [[simplicial sets]], but CGWH has a key further property:
 
-The construction of [[pushouts]] is better behaved in CGWH than in CGH. Specifically, CHWH is closed under pushouts, one leg of which is the inclusion of a closed subspace. CGH does not have such nice behavior, and pushouts like that are used all over _The Geometry of Iterated Loop Spaces_, specifically in the construction of a monad from an operad and in the use of geometric realizations of simplicial spaces.
+>The construction of [[pushouts]] is better behaved in CGWH than in CGH. Specifically, CHWH is closed under pushouts, one leg of which is the inclusion of a closed subspace. CGH does not have such nice behavior, and pushouts like that are used all over _The Geometry of Iterated Loop Spaces_, specifically in the construction of a monad from an operad and in the use of geometric realizations of simplicial spaces.
 
-([[Peter May]], [MO comment, April 2015](http://mathoverflow.net/a/204221/381))
+([[Peter May]], [MO answer, April 2015](http://mathoverflow.net/a/204221/))
 
 
 ## References
@@ -43,7 +43,7 @@ The category of [[compactly generated topological space|compactly generated]] we
 
 as a more convenient setting than Steenrod's compactly generated Hausdorff spaces, given that the latter is not closed under many colimits (for instance quotients) as computed in $Top$.
 
-* [MO discussion](http://mathoverflow.net/q/47702/381)
+* André Henriques et al, _Why the “W” in CGWH (compactly generated weakly Hausdorff spaces)?_, [MO discussion](http://mathoverflow.net/q/47702/), 2010.
 
 [[!redirects weak Hausdorff space]]
 [[!redirects weak Hausdorff spaces]]
