@@ -87,9 +87,9 @@ for a new theory. Any physical or philosophical ideas that one has must be adjus
 and then to try to develop them and ?nd a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and ?nds no  reasonable way out of them. One ought then to realize that one’s whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis."
 
 
-* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985
+* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
 
-  (introduces concepts via [[categories]])
+  > (introduces concepts via [[categories]])
 
 * {#Matolcsi86} [[Tamás Matolcsi]], _A Concept of Mathematical Physics_
 
