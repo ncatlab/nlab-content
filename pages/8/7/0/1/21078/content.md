@@ -9,7 +9,9 @@ On the [[flavour problem]] and [[flavour anomalies]]:
 
 On [[flavour anomalies]]:
 
-* Jason Aebischer, [[Wolfgang Altmannshofer]], Diego Guadagnoli, Meril Reboud, Peter Stangl, David M. Straub, _B-decay discrepancies after Moriond 2019_ ([arXiv:1903.10434](https://arxiv.org/abs/1903.10434))
+* Jason Aebischer, [[Wolfgang Altmannshofer]], Diego Guadagnoli, Meril Reboud, [[Peter Stangl]], David M. Straub, _B-decay discrepancies after Moriond 2019_ ([arXiv:1903.10434](https://arxiv.org/abs/1903.10434))
+
+* {#AltmannshoferStangl21} [[Wolfgang Altmannshofer]], [[Peter Stangl]], _New Physics in Rare B Decays after Moriond 2021_ ([arXiv:2103.13370](https://arxiv.org/abs/2103.13370))
 
 
 On [[Z' bosons]] in view of the [[flavour anomalies]]:
