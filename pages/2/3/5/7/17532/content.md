@@ -15,30 +15,35 @@
 
 ## Idea
 
-This entry is about the category of [[G-set|continuous G-sets]], for a [[topological group]] $G$. Continuous $G$-sets are sets $X$ with an action of $G$ that is continuous when $X$ is given the discrete topology.
+This entry is about the category of [[G-set|continuous G-sets]], for a [[topological group]] $G$. Continuous $G$-sets are sets $X$ with an action of $G$ that is continuous when $X$ is given the [[discrete topology]].
 
 The category of continuous $G$-sets is a [[Grothendieck topos]], and is closely related to [[Fraenkel-Mostowski models]].
 
 ## Definition
 
-Let $G$ be a topological group.
+Let $G$ be a [[topological group]].
 
 +-- {: .num_defn}
 ###### Definition
 
-The **category of continuous $G$-sets** is the [[category]] of sets $X$ equipped with a continuous $G$-action $\mu: G \times X \to X$, where $X$ is given the discrete topology, and the morphisms are the $G$-invariant maps. We write the category as $G Set$. In this page, we always let $G$ act on the left.
+The **category of continuous $G$-sets**, to be denoted $G Set$, is the [[category]] of sets $X$ equipped with a continuous (left) $G$-[[action]] $\mu \colon G \times X \to X$, where $X$ is given the [[discrete topology]], and the morphisms are the $G$-[[equivariant functions]]. 
+
 =--
 
 There is a simple characterization of when a $G$-action is continuous.
 
 +-- {: .num_prop}
 ###### Proposition
-Let $G$ be a topological group, and $X$ be a set with a $G$ action $\mu: G \times X \to X$. Then the action is continuous if and only if the stabilizer of each element is open.
+
+Let $G$ be a [[topological group]], and $X$ be a [[set]] equipped with a $G$ [[action]] $\mu \colon G \times X \to X$. Then the action is [[continuous function|continuous]] if and only if the [[stabilizer subgroup]] of each element is open.
+
 =--
 
 +-- {: .proof}
 ###### Proof
+
 See [[G-sets#ContinuousCharacterization|G-sets]].
+
 =--
 
 
@@ -46,34 +51,42 @@ See [[G-sets#ContinuousCharacterization|G-sets]].
 
 +-- {: .num_defn}
 ###### Notation
-For a topological group $G$, we write $G^\delta$ for the discrete version of $G$. Every $G$-set can be viewed as a $G^\delta$ set in the obvious way.
+
+For a [[topological group]] $G$, we write $G^\delta$ for its underlying [[discrete group]]. Every $G$-set can be viewed as a $G^\delta$ set in the obvious way.
+
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
 The inclusion $i_G \colon G Set \to G^\delta Set$ has a [[right adjoint]] $r_G: G^\delta \to G Set$
-such that for $X\in G Set$, the continuous $G$-set $r_G X$ is the subset of $X$ consisting of those points with open stabilizer.
+such that for $X \in G Set$, the continuous $G$-set $r_G X$ is the subset of $X$ consisting of those points with open [[stabilizer|stabilizer subgroup]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
-This follows from the observation that if $f: X \to Y$ is a $G$-invariant function between $G$-sets, then for each $x \in X$, the stabilizer of $f(x)$ includes the stabilizer of $x$.
+
+This follows from the observation that if $f \colon X \to Y$ is a $G$-[[equivariant function]] between $G$-sets, then for each $x \in X$, the stabilizer of $f(x)$ includes the stabilizer of $x$.
+
 =--
 
 +-- {: .num_prop}
 ###### Proposition
-The forgetful functor $U: G^\delta Set \to Set$ creates all [[small limit|small]] [[limits]] and [[colimits]].
+
+The [[forgetful functor]] $U \colon G^\delta Set \to Set$ [[created limit|creates]] all [[small limit|small]] [[limits]] and [[colimits]].
+
 =--
 
 +-- {: .proof}
 ###### Proof
+
 This follows from the general fact that limits and colimits in [[presheaf categories]] are computed pointwise.
 
 Alternatively, there is an obvious $G$-action we can put on the limits or colimits of the underlying sets of the $G$-sets.
 
 The creating limits part also comes from the fact that the forgetful functor is [[monadic]].
+
 =--
 
 +-- {: .num_prop}
