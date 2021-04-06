@@ -21,9 +21,17 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 ## References
 
+* {#Girard13b} [[Jean-Yves Girard]], _Geometry of Interaction VI: a Blueprint for Transcendental Syntax_, 2013 ([CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.303.7141))
+
 * {#Girard13} [[Jean-Yves Girard]], _Transcendental syntax 2.0_, 2013 ([pdf](https://pdfs.semanticscholar.org/8548/a157279b27de84d1effd772b683c7b9d7701.pdf))
 
-* {#Girard13b} [[Jean-Yves Girard]], _Geometry of Interaction VI: a Blueprint for Transcendental Syntax_, 2013 ([CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.303.7141))
+* {#Girard16} [[Jean-Yves Girard]], _Transcendental syntax I: deterministic case_ ([pdf](http://girard.perso.math.cnrs.fr/trsy1.pdf))
+
+* {#Girard16b} [[Jean-Yves Girard]], _Transcendental syntax II: non-deterministic case_ ([pdf](http://girard.perso.math.cnrs.fr/trsy2.pdf))
+
+* {#Girard18} [[Jean-Yves Girard]], _Transcendental syntax III: equality_ ([pdf](http://girard.perso.math.cnrs.fr/trsy3.pdf))
+
+* {#Girard20} [[Jean-Yves Girard]], _Transcendental syntax IV: logic without systems_ ([pdf](http://girard.perso.math.cnrs.fr/trsy4.pdf))
 
 
 * {#AbrusciPistone12} [Vito Michele Abrusci](http://www.uniroma3.it/persona.php?persona=v9rdc8l%2Fv34h57mDvlwB1jjlJFqAH%2B3Or9wKcvkvgtI%3D&tab=2), Paolo Pistone, _On Transcendental syntax: a Kantian program for logic?_, 2012 ([pdf](https://www.academia.edu/10495057/On_Trascendental_syntax_a_Kantian_program_for_logic))
@@ -33,7 +41,9 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 The beginnings of an attempt to formalize Transcendental Syntax is given in
 
-* [[Boris Eng]], [[Thomas Seiller]], _Stellar Resolution: Multiplicatives_, ([arXiv:2007.16077](https://arxiv.org/abs/2007.16077))
+* [[Boris Eng]], [[Thomas Seiller]], _Multiplicative Linear Logic from Logic Programs and Tilings_, ([hal-02895111](https://hal.archives-ouvertes.fr/hal-02895111))
+
+* [[Boris Eng]], _Stellar Resolution: Multiplicatives - for the linear logician, through examples_ ([hal-02977750](https://hal.archives-ouvertes.fr/hal-02977750))
 
 [[!redirects Transcendental Syntax]]
 [[!redirects Transcendental syntax]]
