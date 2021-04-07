@@ -400,18 +400,20 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
 ### General
 
-Early suggestion to look at the $R_K$ channel at [[LHCb]] are due to 
+Early suggestion to look at the $R_K$ channel at [[LHCb]] are due to:
 
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](http://cds.cern.ch/record/1027442), [pdf](http://cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
 
-General introduction to the issue is in 
+General introduction to the issue in [[B-meson]] decays:
+
+* [[Patrick Koppenburg]], [[Zdenek Dolezal]], [[Maria Smizanska]], _Rare decays of b hadrons_, Scholarpedia, 11(6):32643 ([doi:10.4249/scholarpedia.32643](http://dx.doi.org/10.4249/scholarpedia.32643))
 
 * Simone Bifani, Sebastien Descotes-Genon, Antonio Romero Vidal, Marie-Helene Schune, _Review of Lepton Universality tests in B decays_, Journal of Physics G: Nuclear and Particle Physics, Volume 46, Number 2 (2018) ([arXiv:1809.06229](https://arxiv.org/abs/1809.06229))
 
 
 * {#Alonso19} Rodrigo Alonso, _Lepton (non-) unversality in (flavor changing) neutral current B decays_, Proceedings of [FPCP2019](https://fpcp2019.triumf.ca/) ([arXiv:1907.01716](https://arxiv.org/abs/1907.01716))
 
-and for [[charm quark]] physics in
+and for [[charm quark]] physics:
 
 * [[Alexey Petrov]], _Theory of rare charm decays into leptons_ ([arXiv:1704.03862](https://arxiv.org/abs/1704.03862))
 
