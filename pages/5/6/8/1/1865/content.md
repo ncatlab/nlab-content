@@ -213,11 +213,11 @@ A survey talk is
 
 Differential [[KO-theory]] is studied in 
 
-* {#GradySati18} [[Daniel Grady]], [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
+* {#GradySati18} [[Daniel Grady]], [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_, Advances in Mathematics Volume 384, 25 June 2021, 107671 ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059), [doi:10.1016/j.aim.2021.107671](https://doi.org/10.1016/j.aim.2021.107671))
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] in
 
-* {#GradySati19} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* {#GradySati19} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
 Discussion of differential versions of [[equivariant K-theory]], in the generality of [[orbifolds]] ([[orbifold differential K-theory]]):
