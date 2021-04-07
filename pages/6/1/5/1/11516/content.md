@@ -38,6 +38,319 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 
 ## Properties
 
+### Change of groups and fixed loci
+ {#ChangeOfGroupsAndFixedLoci}
+
+We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$, and how the cross-composite of this adjoint triple with itself yields the [[fixed locus]]-[[adjunction]].
+
+
+Throughout, let $G_1, G_2 \in $ [[TopologicalGroups]]
+and consider a [[continuous function|continuous]] [[homomorphism]] of [[topological groups]]
+
+\[
+  \label{TopologicalGroupHomomorphism}
+  \phi
+  \;\colon\;
+  G_1 
+    \longrightarrow
+  G_2
+  \,.
+\]
+
+
+#### Pullback action
+
+\begin{defn}\label{PullbackAction}
+  **(pullback action)** \linebreak
+Given a topological group homomorphism $\phi$ (eq:TopologicalGroupHomomorphism), 
+write
+  $$
+    Topological G_1 Spaces
+      \overset{
+        \;\;\;
+        \phi^\ast
+        \;\;\;
+       }{\longleftarrow}
+    Topological G_2 Spaces
+  $$
+
+for the [[functor]] which takes a [[topological G-space|topological G2-space]] $(X,\rho)$ to the same underlying [[topological space]] $\rho$, equipped with the $G_1$-action $ \rho(\phi(-))$.
+
+\end{defn}
+
+
+#### Induced action
+
+(...)
+
+\begin{example}\label{RestrictedAction}
+**(restricted action)** \linebreak
+
+(...)
+
+\end{example}
+
+#### Coinduced action
+ {#CoinducedActions}
+
+\begin{defn}\label{CoinducedAction}
+**(coinduced action)** \linebreak
+
+Given a topological group homomorphism $\phi$ (eq:TopologicalGroupHomomorphism), the _coinduced action_ functor
+
+$$
+  Topolgical G_1 Actions
+  \overset{
+     Maps(G_2,-)^{G_1}
+  }{\longrightarrow}
+  Topological G_2 Actions
+$$
+
+sends $X \in Topological G_1 Spaces$ 
+to the $G_1$-[[fixed locus]] in the [[mapping space]] between [[topological spaces]] equipped with $G_1$-[[actions]] (on $G_2$ the $\phi$-induced left multiplication action) 
+and itself equipped with the $G_2$-[[group action|action]] given by
+
+\[
+  \label{ActionOnG1EquivariantMapsOutOfG2}
+  \array{
+    G_2 \times Maps(G_2,X)^{G_1}
+    &
+      \overset{}{\longrightarrow}
+    &
+    Maps(G_2,X)^{G_1}
+    \\   
+    (g_2, h)
+    &\mapsto&
+    h\big(
+      (-) \cdot g_2
+    \big)
+     \,.
+  }
+\]
+\end{defn}
+
+\begin{example}\label{FixedLociAsCoinducedActions}
+**(Fixed loci as coinduced actions)**
+
+Let $H \subset G$ be a topological subgroup and consider the group homomorphism (eq:TopologicalGroupHomomorphism) to be the $H$-[[quotient group]] [[coprojection]] from the [[normal subgroup]] $N(H) \subset G$:
+
+$$
+  \phi \coloneqq q \;\colon\; N(H) \longrightarrow N(H)/H
+  \,.
+$$
+
+Then for any $N(H)$-space $X$ (which in practice will usually be a $G$-space after restriction of its action along $N(H) \hookrightarrow G$, Example \ref{RestrictedAction}) we have that its coinduced action (Def. \ref{CoinducedAction}) is its $H$-[[fixed locus]] $X^H$ equipped with its residual $N(H)$-action:
+
+$$
+  Maps
+  \big(
+    N(H)/H,
+    X
+  \big)^{N(H)}
+  \;\;
+  \simeq
+  \;\;
+   X^H
+  \,.
+$$
+
+\end{example}
+
+
+\begin{prop}\label{CoinducedActionIsRightAdjointToPullbackAction}
+**(coinduced action is right adjoint to pullback action)** \linebreak 
+
+Given a topological group homomorphism $\phi$ (eq:TopologicalGroupHomomorphism), 
+the pullback action functor (Def. \ref{PullbackAction}) is the [[left adjoint]] and the coinduced action functor (Def. \ref{CoinducedAction}) is the [[right adjoint]] in a pair of [[adjoint functors]]
+
+$$
+  G_1 Spaces
+  \underoverset
+    {
+      \underset{
+        Maps
+        \big(
+          G_2, -
+        \big)^{G_1}
+      }{\longrightarrow}
+    }
+    {
+      \overset{
+         \phi^\ast
+      }{
+         \longleftarrow
+      }
+    }
+    {\bot}
+  G_2 Spaces
+$$
+
+\end{prop}
+
+\begin{proof}
+
+To see the defining [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism), consider a $G_1$-[[equivariant function|equivariant]] [[continuous function]]
+
+$$
+  \phi^\ast X
+  \overset{
+    \;\;\;
+    f
+    \;\;\;
+  }{
+    \longrightarrow
+  }
+  Y
+  \,.
+$$
+
+From this we obtain the following function
+
+$$
+  \array{
+    X 
+    &
+      \overset{
+        \tilde f
+      }{
+        \longrightarrow 
+      }
+    &
+    Maps
+    \big(
+      G_2,
+      Y
+    \big)^{G_1}
+    \\
+    x
+    &\mapsto&
+    \big(
+      g_2
+      \mapsto
+      f( g_2 \cdot x )
+    \big)
+    \,,
+  }
+$$
+
+where $e \in G_2$ denotes the [[neutral element]].
+
+This is manifestly:
+
+* well-defined, due to the $G_1$-equivariance of $f$;
+
+* continuous, being built from composition of continuous map;
+
+* $G_2$-equivariant with respect to the action (eq:ActionOnG1EquivariantMapsOutOfG2).
+
+Conversely, given a $G_2$-equivariant continuous function $X \overset{\tilde f}{\longrightarrow} Maps\big(G_2, Y\big)^{G_1}$, we obtain the following function
+
+$$
+  \array{
+    \phi^\ast X 
+    &\overset{}{\longrightarrow}&
+    Y
+    \\
+    x
+    &\mapsto&
+     \tilde f(x)(e)
+    \,.
+  }
+$$
+
+This is:
+
+* continuous, being the composition of continuous functions;
+
+* $G_1$-equivariant due to the equivariance properties of $\tilde f$:
+
+  $$
+    \begin{aligned}
+      \phi(g_1) \cdot x
+      & \mapsto
+      \tilde f
+      \big( 
+        \phi(g_1)\cdot x
+      \big) 
+      (e)
+      \\
+      & = 
+      \tilde f
+      ( 
+        x
+      ) 
+      \big(
+         e \cdot \phi(g_1)
+      \big)
+      \\
+      & =
+      \tilde f
+      ( 
+        x
+      ) 
+      \big(
+         \phi(g_1)
+         \cdot 
+         e
+      \big)
+      \\
+      & =
+      g_1
+        \cdot
+      \big(
+      \tilde f
+      ( 
+        x
+      ) 
+      (
+         e
+      )
+      \big)
+    \end{aligned} 
+  $$
+
+Finally, it is clear that these transformations $f \leftrightarrow \tilde f$ are [[natural transformation|natural]], hence it only remains to see that they are [[bijective]]:
+
+Plugging in the above constructions we find indeed:
+
+$$
+ \widetilde 
+  {\tilde f}
+  \;\colon\;
+  x \mapsto f(e \cdot x) = f(x)
+$$
+
+and
+
+$$
+  \widetilde {\widetilde {\tilde f}}
+  \;\colon\;
+  x 
+  \mapsto 
+  \big(
+    g_2 
+      \mapsto 
+    \underset{
+        {= \tilde f(x)(e \cdot g_2)}    
+        \atop
+        {= \tilde f(x)(g_2)}
+    }{
+      \underbrace{
+        \tilde f(g_2\cdot x)(e)
+      }
+    }
+  \big)
+  \,.
+$$
+
+\end{proof}
+
+
+#### Fixed loci
+
+(...)
+
+
 ### Equivariant Tietze extension theorem
 
 See at _[[equivariant Tietze extension theorem]]_
