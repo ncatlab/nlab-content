@@ -144,8 +144,9 @@ Discussion of [[leptonic decays]] of [[B-mesons]]:
 
 #### General
 
-* {#Brambilla14} Brambilla et al., Section 4.2 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+* [[Patrick Koppenburg]], [[Zdenek Dolezal]], [[Maria Smizanska]], _Rare decays of b hadrons_, Scholarpedia, 11(6):32643 ([doi:10.4249/scholarpedia.32643](http://dx.doi.org/10.4249/scholarpedia.32643))
 
+* {#Brambilla14} Brambilla et al., Section 4.2 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
 * Jochen Dingfelder, Thomas Mannel, _Leptonic and semileptonic decays of $B$ mesons_, Rev. Mod. Phys. 88 (2016) 3, 035008 ([spire:1488176](https://inspirehep.net/literature/1488176), [doi:10.1103/RevModPhys.88.035008](https://doi.org/10.1103/RevModPhys.88.035008))
 
