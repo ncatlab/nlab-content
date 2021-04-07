@@ -237,36 +237,96 @@ Given
 
 a _$G$-equivariant $(\Gamma,\alpha)$-principal bundle over $(X,\rho)$ is:
 
-* an [[action object]] of $(\Gamma,\alpha)$, hence
+* a [[internalization|internal]] [[bundle]], namely a [[morphism]] $P \overset{p}{\to} X$ in [[topological G-spaces]];
 
-  * a _total [[topological G-space]]_ $(P,\rho) \in G Actions(TopologicalSpaces)$;
+* the [[mathematical structure|structure]] of a $(\Gamma,\alpha)$-[[action object]] on the total space $P$:
 
-  * an [[action]] of $\Gamma$ on $P$ (hence [[internalization|internal]] to [[G-spaces]]!);
+such that the following conditions holds:
 
-such that, with the [[quotient]] denoted
+* **(fiberwise action)** the [[action]] is over $X$, in that the following [[commuting diagram|diagram commutes]]:
 
-$$
-  P/\Gamma \;\simeq\; X
-  \,,
-$$
-
-and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the following condition is satisfied:
+\begin{tikzcd}
+  \Gamma \times P
+  \ar[
+    rr,
+    "\rho"
+  ]
+  \ar[
+    dr,
+    "p\circ \mathrm{pr}_2\;"{left}
+  ]
+  &&
+  P
+  \ar[
+    dl,
+    "\;p"{right}
+  ]
+  \\
+  & X
+\end{tikzcd}
 
 * {#EquivariantPrincipality} **(principality)** the _shear map_
 
   $
     \array{
-      P \times \Gamma
+      \Gamma \times P
       &\longrightarrow&
       P \times_X P
       \\
-      (p,\gamma)
+      (\gamma, p)
       &\mapsto&
-      (p, \rho(\gamma)(x))
+      (\rho(\gamma)(p), p)
     }
   $
 
-  is an [[isomorphism]].
+  is an [[isomorphism]], hence this [[commuting diagram]] is moreover a [[pullback square]] (in [[topological G-spaces]]):
+
+
+\begin{tikzcd}
+  \Gamma \times P
+  \ar[
+    drr,
+    bend left=20,
+    "\rho"
+  ]
+  \ar[
+    ddr,
+    bend right=20,
+    "\mathrm{pr}_2\;\;\;"{below}
+  ]
+  \ar[
+    dr,
+    dashed,
+    "\simeq"{description}
+  ]
+  \\
+  & 
+  P \times_X P
+  \ar[
+    r
+  ]
+  \ar[d]
+  \ar[
+    dr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"{description}
+  ]
+  &
+  P 
+  \ar[
+    d,
+    "p"
+  ]
+  \\
+  &
+  P 
+  \ar[
+    r,
+    "p"{below}
+  ]
+  & 
+  X
+\end{tikzcd}
 
 
 
@@ -288,6 +348,32 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 \begin{proof}
   This follows immediately by the fact ([this Prop.](equivariant+group#ActionsOfEquivariantGroupsAsSemidirectProductGroupActions)) that $G$-equivariant actions of [[equivariant groups]] $(G,\alpha)$ are equivalent to plain actions of the [[semidirect product group]] $\Gamma \rtimes_\alpha G$.
 \end{proof}
+
+
+### Restriction to fixed loci
+ {#RestrictionToFixedLoci}
+
+The [[internalization|internal]]-formulation of $G$-equivariant principal; bundles (Def. \ref{EquivariantPrincipalBundles}) serves to make manifest that they have good behaviour under passage to [[fixed loci]]:
+
+Notice that for any [[subgroup]] $H \subset G$ we have the fixed point functor ([here](fixed+point+space#eq:TopologicalHFixedLociAsFunctorToWeylGroupSpaces))
+
+\[
+  \label{TopologicalHFixedLociAsFunctorToWeylGroupSpaces}
+  (-)^H
+  \;\colon\;
+  Topological G Spaces
+   \overset{\;\;\;\;\;}{\longrightarrow}
+  Topological N(H)/H Spaces
+  \,.
+\]
+
+\begin{prop}
+  For $(\Gamma,\alpha)$ an $G$-equivariant topological group (Def. \ref{EquivariantTopologicalGroup}), $P \to X$ a $G$-equivariant $(\Gamma,\alpha)$-principal bundle (Def. \ref{EquivariantPrincipalBundles}) and $H \subset G$ any [[subgroup]], the $H$-fixed locus (eq:TopologicalHFixedLociAsFunctorToWeylGroupSpaces) $P^H \to X^H$ is canonically an $N(H)/H$-equivariant $(\Gamma^H, \alpha^H)$-principal bundle.
+\end{prop}
+\begin{proof}
+  The point is that passage to $H$-fixed loci (eq:TopologicalHFixedLociAsFunctorToWeylGroupSpaces) is a [[right adjoint]] functor ([this Prop.](fixed+point+space#PassageToFixedLociIsRightAdjoint)) and therefore [[right adjoints preserve limits|preserves all limits]], and so in particular [[preserved limit|preserves]] [[Cartesian products]] and [[fiber products]], hence preserves [[internalization|internal]] [[group objects]] as well as the [principality condition](#EquivariantPrincipality). 
+\end{proof}
+
 
 
 ### Over coset spaces
