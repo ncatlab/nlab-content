@@ -75,6 +75,8 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 
 ## Related statements
 
+* [[preserved limit]]
+
 * [[adjoints preserve (co-)limits]]
 
 * [[hom-functor preserves limits]]
