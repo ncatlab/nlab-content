@@ -29,6 +29,8 @@ preserves [[epimorphisms]].
 
 ## Equivalent characterizations
 
+Some of these facts, and more, can be found stated in Exercises 15 and 16 in Chapter IV of [[Sheaves in Geometry and Logic]].
+
 +-- {: .num_theorem #DepProd}
 ###### Theorem
 $E$ is internally projective if and only if the [[dependent product]] functor (the [[right adjoint]] to [[pullback]])
