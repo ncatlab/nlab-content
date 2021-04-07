@@ -101,6 +101,197 @@ Without the assumption of [[proper action]] in Prop. \ref{FixedLociOfSmoothPrope
 
 =--
 
+## Properties
+
+### Fixed point adjunction
+ {#FixedPointAdjunction}
+
+For $G$ a [[topological group]], consider the [[category]] of [[TopologicalGSpaces]].
+
+For $H \subset G$ any [[subgroup]], consider 
+
+* the [[coset space]] $G/H \in Topological G Spaces$;
+
+* the [[Weyl group]] $W_H(G) \coloneqq N_G(H)/H \in TopologicalGroups$.
+
+Observing that for $X \in Topological G Spaces$ the $H$-fixed locus $X^H$ inherits a canonical action of $N(H)/H$, we have a [[functor]]
+
+
+\[
+  \label{TopologicalHFixedLociAsFunctorToWeylGroupSpaces}
+  Topological G Spaces
+  \overset{ 
+    \;\;\;
+      (-)^H
+    \;\;\; 
+  }{\longrightarrow }
+  Topological N(H)/H Spaces
+\]
+
+Notice that $G$ [[action|acts]] canonically on the left of $G/H$, while $N(H)/H$ still acts from the _right_ (both by group multiplication on representatives):
+
+$$
+  \array{
+    G/H \times N(H)/H 
+    &\overset{}{\longrightarrow}&
+    G/H
+    \\
+    \big( 
+      g H, n H
+    \big)
+    &\mapsto&
+    g H n H
+    \mathrlap{
+    \,=\,
+    g n \underset{H}{\underbrace{n^{-1} H n}} H
+    \,=\,
+    g n H
+    }
+  }
+$$
+
+Therefore there exists a [[functor]] in the other direction:
+
+$$
+  \array{
+    Topological N(H)/H Spaces
+    &
+      \overset{ 
+        \;\;\;
+        G/H \times_{N(H)/H} (-)
+        \;\;\;
+      }{\longrightarrow}
+    &
+    Topological G Spaces
+  }
+  \,.
+$$
+
+\begin{prop}\label{PassageToFixedLociIsRightAdjoint}
+**(passage to fixed loci is a [[right adjoint]])** \linebreak
+These are [[adjoint functors]], with the $H$-fixed locus functor (eq:TopologicalHFixedLociAsFunctorToWeylGroupSpaces) being the [[right adjoint]]:
+
+\[
+  \label{AdjunctionBetweenHFixedPointsAndNHExtension}
+  Topological G Spaces
+  \underoverset
+    {
+      \underset{
+        (-)^H
+      }{\longrightarrow}
+    }
+    {
+      \overset{
+        G/H \times_{N(H)/H} (-)
+      }{
+        \longleftarrow
+      }
+    }
+    {\;\;\;\;\;\;\; \bot \;\;\;\;\;\;\;}
+  Topological N(H)/H Spaces
+  \,.
+\]
+
+\end{prop}
+
+\begin{proof}
+
+To see the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) characterizing this [[adjunction]], consider for $X \in Topological N(H)/H Spaces$ and $Y \in Topological G Spaces$ a $G$-[[equivariant]] [[continuous function]]
+
+$$
+  G/H \times_{N(H)/H}  Y
+  \overset{
+    \;\;\;
+    f  
+    \;\;\;
+  }{\longrightarrow}
+  X
+  \,.
+$$
+
+This restricts to an $N(H)$-[[equivariant function]] on the $N(H)$-[[topological subspace]] 
+
+$$
+  \array{
+    Y &\overset{\;\;\;}{\hookrightarrow}& G/H \times_{N(H)/H} Y
+    \\
+    y &\mapsto&  \big[ e H , y \big]
+  }
+$$
+
+Since $Y$ is a fixed locus for $H \subset N(H)$, by [[equivariant function|equivariance]] this restriction has to factor through the $H$-fixed locus $X^H$ of $X$:
+
+$$
+  \array{
+    Y &\subset& G/H \times_{N(H)/H} Y
+    \\
+    {}^{\mathllap{
+      \tilde f
+    }}
+    \big\downarrow 
+    &&
+    \big\downarrow {}^{\mathrlap{f}}
+    \\
+    X^H &\subset& X
+  }
+$$
+
+But given that and since every other point of $G/H \times_{N(H)/H} Y$ is an image under the $G$-action of a point in $Y \subset G/H \times_{N(H)/H}$, this restriction $\tilde f$ already determines $f$ uniquely. 
+
+Since this construction is manifestly [[natural transformation|natural]] in $Y$ and $X$, we have a  [[natural bijection]] $f \leftrightarrow \tilde f$, which establishes the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) for the pair of [[adjoint functors]] in (eq:AdjunctionBetweenHFixedPointsAndNHExtension).
+
+\end{proof}
+
+\begin{remark}
+
+The adjunction (eq:AdjunctionBetweenHFixedPointsAndNHExtension) factors as:
+
+\[
+  Topological G Spaces
+  \underoverset
+    {
+      \underset{
+        (-)^H
+      }{\longrightarrow}
+    }
+    {
+      \overset{
+        G \times_{N(H)} (-)
+      }{
+        \longleftarrow
+      }
+    }
+    {\;\;\;\;\;\;\; \bot \;\;\;\;\;\;\;}
+  Topological N(H) Spaces
+  \underoverset
+    {
+      \underset{
+        (-)^H
+      }{
+        \longrightarrow
+      }
+    }
+    {
+      \overset{
+        N(H)/H \times_{N(H)/H} (-)
+      }{
+        \longleftarrow
+      }
+    }
+    {\;\;\;\;\;\;\; 
+     \bot
+     \;\;\;\;\;\;\;}
+  Topological N(H)/H Spaces
+  \,.
+\]
+
+Here the functor on the top right, $N(H)/H \times_{N(H)/H} (-)$, is the identity on the underlying topological spaces, but extends the action from $N(H)/H$ to $N(H)$, namely through the projection homomorphims $N(H) \to N(H)/H$.
+
+\end{remark}
+
+\linebreak
+
+
 ## Related concepts
 
 * [[homotopy fixed points]]
