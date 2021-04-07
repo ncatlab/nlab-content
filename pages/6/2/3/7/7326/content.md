@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
 * table of contents
 {: toc}
 
@@ -121,7 +132,7 @@ Other sources:
 [^Mc Duff]: [[Dusa McDuff]], _Groupoids, branched manifolds and multisections_.  Journal of Symplectic Geometry 4:3 (2006), 259-315. 
  [doi:10.4310/jsg.2006.v4.n3.a2](http://dx.doi.org/10.4310/jsg.2006.v4.n3.a2).
 
-[^H. Hofer]: [[Helmut H. W. Hofer]], _Polyfolds and Fredholm Theory_.  Oxford University Press (2017), [doi](http://dx.doi.org/10.1093/oso/9780198784913.003.0004).
+[^H. Hofer]: [[Helmut Hofer]], _Polyfolds and Fredholm Theory_.  Oxford University Press (2017) ([doi:10.1093/oso/9780198784913.003.0004](http://dx.doi.org/10.1093/oso/9780198784913.003.0004))
 
 
 category: Lie theory
