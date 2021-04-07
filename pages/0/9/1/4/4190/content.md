@@ -5,4 +5,6 @@
 
 * [[Lagrangian correspondences and category-valued TFT]]
 
+* [[polyfold]]
+
 category: people
