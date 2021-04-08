@@ -1,4 +1,46 @@
 
+$$
+  \array{
+    D \times S \times F
+    &
+    \simeq
+    & 
+    (D \times H) \times_H (S \times F)
+    &
+    \overset{\simeq}{\longrightarrow}
+    & 
+    (D \cdot H)
+    \times_H 
+    (S \times F)
+    &
+    \longrightarrow
+    & 
+    G \times_H ( S \times F )
+    \\
+    \big\downarrow
+    && && 
+    \big\downarrow
+    &
+      {}^{{}_{(pb)}}
+    &
+    \big\downarrow
+    \\
+    D \times S
+    &\simeq&
+    (D \times H) \times_H S
+    &
+    \underoverset
+      { m \times_H id }
+      {\simeq}
+      {\longrightarrow}
+    &
+    (D \cdot H) \times_H S
+    &\hookrightarrow&
+    G \times_H S
+  }
+$$
+
+
 
 \begin{tikzcd}[column sep=large]
   G\mathrm{Spaces}
