@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[homotopy theory]], the _cone_ of a [[space]] $X$ is the space got by taking the $X$-shaped [[cylinder object|cylinder]] $X \times I$, where $I$ may be an [[interval object]], and squashing one end down to a point.  The eponymous example is where $X$ is the [[circle]], i.e. the [[topological space]] $S^1$, and $I$ is the standard interval $[0,1]$.  Then the [[cartesian product]] $X \times I$ really is a [[cylinder]], and the cone of $X$ is likewise a cone.
+In [[homotopy theory]], the _cone_ of a [[space]] $X$ is the space obtained by taking the $X$-shaped [[cylinder object|cylinder]] $X \times I$, where $I$ may be an [[interval object]], and squashing one end down to a point.  The eponymous example is where $X$ is the [[circle]], i.e. the [[topological space]] $S^1$, and $I$ is the standard interval $[0,1]$.  Then the [[cartesian product]] $X \times I$ really is a [[cylinder]], and the cone of $X$ is likewise a cone.
 
 This notion also makes sense when $X$ is a [[category]], if $I$ is taken to be the [[interval category]] $\{ 0 \to 1 \}$, i.e. the [[ordinal]] $\mathbf{2}$.  Note that since the interval category is directed, this gives two different kinds of cone, depending on which end we squash down to a point.
 
