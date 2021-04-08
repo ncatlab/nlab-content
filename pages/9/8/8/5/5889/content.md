@@ -56,6 +56,9 @@ Under weak topological conditions (cf. [Helgason](#Helgason)), every topological
 
 ## References
 
+* {#Bredon72} [[Glen Bredon]], Section I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+
 * {#Helgason} Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_
 
 The following article has categorical analysis of relation between the total space of a principal bundle and of the corresponding quotient space both for the classical case and for noncommutative generalizations:
