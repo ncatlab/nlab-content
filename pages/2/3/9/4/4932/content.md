@@ -14,6 +14,12 @@ On the [[cobordism ring]]:
 
 * {#Milnor60} [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521 ([jstor:2372970](https://www.jstor.org/stable/2372970))
 
+On [[invariant Riemannian metrics]] on ([[compact Lie group|compact]]) [[Lie groups]]:
+
+* {#Milnor76} [[John Milnor]], _Curvatures of left invariant metrics on Lie groups_, Advances in Mathematics, Volume 21, Issue 3, September 1976, Pages 293-329 (<a href="https://doi.org/10.1016/S0001-8708(76)80002-3">doi:10.1016/S0001-8708(76)80002-3</a>)
+
+Review:
+
 
 On [[differential topology]]:
 
