@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,10 +40,45 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 
 ## Properties
 
-### Change of groups and fixed loci
+### Change of equivariance groups 
  {#ChangeOfGroupsAndFixedLoci}
 
-We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$, and how the cross-composite of this adjoint triple with itself yields the [[fixed locus]]-[[adjunction]]. (See also at [induced representation](induced+representation#GeneralAbtractDefinition) for a formulation in [[homotopy type theory]].)
+We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$ (e.g. [May 96, Sec. I.1](#May96), see also at [induced representation](induced+representation#GeneralAbtractDefinition) for a formulation in [[homotopy type theory]])
+
+\begin{tikzcd}
+  G_1\mathrm{Spaces}
+  \ar[
+    rr,
+    shift right=14pt,
+    "{
+      \mathrm{Maps}
+      (
+        G_2,
+        -
+      )^{G_1}
+    }"{
+      below
+    },
+    "\scalebox{.7}{$\bot$}"{above}        
+  ]
+  \ar[
+    rr,
+    shift left=14pt,
+    "{
+      G_2 \times_{{}_{G_1}} (-)
+    }"{
+      above
+    },
+    "\scalebox{.7}{$\bot$}"{below}
+  ]
+  &&
+  G_2\mathrm{Spaces}
+  \mathrlap{\,,}
+  \ar[
+    ll,
+    "\;\phi^\ast"{description}
+  ]
+\end{tikzcd}
 
 
 Throughout, let $G_1, G_2 \in $ [[TopologicalGroups]]
@@ -144,10 +180,45 @@ $$
 
 \begin{prop}\label{InducedActionIsLeftAdjointToPullbackAction}
 **(induced action is left adjoint to pullback action)** \linebreak 
+Given a topological group homomorphism $\phi$ (eq:TopologicalGroupHomomorphism), the _induced action_ functor (Def. \ref{InducedAction}) is [[left adjoint]] to the pullback action functor (Def. \ref{PullbackAction}):
 
-(...)
+$$
+  G_1 Spaces
+  \underoverset
+    {\underset{\phi^\ast}{\longleftarrow}}
+    {\overset{G_2 \times_{G_1} (-)}{\longrightarrow}}
+    {\;\;\; \bot \;\;\; }
+  G_2 Spaces  
+  \,.
+$$
 
 \end{prop}
+\begin{proof}
+  
+For $X$ a $G_1$-space and $Y$ a $G_2$-space, consider a $G_2$-[[equivariant function]] out of the induced action
+
+$$
+  G_2 \times_{G_1} X 
+  \overset{\;\;\; f \;\;\;}{\longrightarrow}
+  Y
+  \,.
+$$
+
+Since the $G_2$-orbit of 
+
+$$
+  X = G_1 \times_{G_1} X \hookrightarrow G_2 \times_{G_1} X
+$$
+
+is the entire domain space on the left, by $G_2$ equivariance, this function is completely determined by its restriction along this inclusion to a $G_1$-equivariant function $\tilde f \;\colon\; X \to Y$, hence to a homomorphism $\tilde f \;\colon\; X \to \phi^\ast Y$.  This correspondence
+
+$$
+  f \leftrightarrow \tilde f
+$$
+
+is clearly a [[natural bijection]] and hence establishes the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) characterizing the adjunction.
+
+\end{proof}
 
 #### Coinduced action
  {#CoinducedActions}
@@ -405,10 +476,11 @@ $$
 \end{proof}
 
 
-#### Fixed loci with residual Weyl group action
+### Fixed loci with residual Weyl group action
  {#FixedLociWithResidualWeylGroupAction}
 
-Combining these [[adjunctions]] to "pull-push" through the [[correspondence]]
+Combining these change-of-equivariance grouo [[adjunctions]] (from [above](#ChangeOfGroupsAndFixedLoci))
+to "pull-push" through the [[correspondence]]
 
 \begin{tikzcd}[row sep=0pt]
   & 
@@ -641,10 +713,13 @@ See also
 
 ## References
 
-* {#Bredon72} [[Glen Bredon]], chapter II of: _[[Introduction to compact transformation groups]]_, Academic Press  1972
+* {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
 * [[Tammo tom Dieck]], Chapter 8 in: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+
+* {#May96} [[Peter May]] et al., Section I.1 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
+
 
 * {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](https://faculty.math.illinois.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
