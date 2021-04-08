@@ -57,11 +57,17 @@ In ([Bourn-Gray 13](#BournGray13)) the condition that $w$ be a monomorphism is d
 
 ## References
 
+* {#Bredon72} [[Glen Bredon]], Section 0.1 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
+
+
+In [[semiabelian categories]]:
+
 * {#Gray14} James Richard Andrew Gray, _Normalizers, centralizers and action representability in semiabelian categories_, Applied Categorical Structures 22(5-6), 981&#8211;1007, 2014.
 
 * {#BournGray13} [[Dominique Bourn]], James Richard Andrew Gray, _Normalizers and split extensions_ ([arXiv:1307.4845](http://arxiv.org/abs/1307.4845))
 
-* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
 
 [[!redirects normalizers]]
