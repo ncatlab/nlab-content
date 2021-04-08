@@ -610,72 +610,6 @@ Therefore it is now sufficient to see that the coset bundle $(\Gamma \rtimes_\al
 
 \end{proof}
 
-\begin{lemma}
-  Let the [[equivariance group]] $G$ be a [[compact Lie group]], consider a [[closed subgroup]] $H \subset G$ and [[topological G-space|topological H-spaces]] $S, F$. Then the canonical projection
-
-$$
-  \array{
-    G \times_H 
-    \big(
-      S \times F
-    \big)
-    \\
-    \big\downarrow
-    \\
-    G \times_H S
-  }
-$$
-
-is a [[locally trivial]] $F$-[[fiber bundle]].
-
-\end{lemma}
-
-([Lashof 82, Lem. 1.1](#Lashof82))
-
-\begin{proof}
-
-Since $G$ is assumed to be a [[compact Lie group]], it admits a [[bi-invariant Riemannian metric]] ([this Prop.](compact+Lie+group#CompactLieGroupsAdmitBiinvariantMetrics)). With respect to this metric, consider a small open [[normal vector|normal]] $\epsilon$-neighbourhood to $H$ at $e$ in $G$
-
-$$
-  D
-  \,\coloneqq\,
-  D_\epsilon N_e H
-  \,\subset \,
-  N H 
-  \;
-    \underoverset{\simeq}{\exp}{\longrightarrow}
-  \;
-  T H
-$$
-
-i.e. of points that with respect to some choice of [[tubular neighbourhood]] of $H \subset G$ are a normal distance $\lt \epsilon$ from $H$.
-
-Then
-
-$$
-  \array{
-    D \times H 
-    \underoverset{ \simeq }{ (-)\cdot(-) }{\longrightarrow}
-    D \cdot H
-  }
-$$
-
-$$
-  D \cdot S 
-  \;=\;
-  (D \cdot H) \times_H S
-  \;\subset\;
-  G \times_H S
-$$
-
-is an open subset
-
-(...)
-
-
-
-
-\end{proof}
 
 
 ### Notions of equivariant local triviality
@@ -865,6 +799,143 @@ such that
 \end{prop}
 
 ([Lashof 82, Lemmas 1.1, 1.3](#Lashof82))
+
+
+\begin{lemma}\label{LashofLocalModelsAreLocallyTrivialAsOrdinaryFiberBundles}
+**(Lashof's local models are locally trivial as ordinary fiber bundles)
+  If the [[equivariance group]] $G$ is a [[compact Lie group]]
+  then for every [[closed subgroup]] $H \subset G$ and [[topological G-space|topological H-spaces]] $S, F$ the canonical projection
+
+$$
+  \array{
+    G \times_H 
+    \big(
+      S \times F
+    \big)
+    \\
+    \big\downarrow
+    \\
+    G \times_H S
+  }
+$$
+
+is a [[locally trivial]] $F$-[[fiber bundle]].
+
+\end{lemma}
+
+([Lashof 82, Cor. 1.2](#Lashof82))
+
+\begin{proof}
+
+Since $G$ is assumed to be a [[compact Lie group]], it admits a [[bi-invariant Riemannian metric]] ([this Prop.](compact+Lie+group#CompactLieGroupsAdmitBiinvariantMetrics)). With respect to this metric, consider a small open [[normal vector|normal]] $\epsilon$-neighbourhood to $H$ at $e$ in $G$
+
+$$
+  D_e
+  \,\coloneqq\,
+  D_\epsilon N_e H
+  \,\subset \,
+  N H 
+  \;
+    \underoverset{\simeq}{\exp}{\longrightarrow}
+  \;
+  T H
+$$
+
+i.e. of points that with respect to some choice of [[tubular neighbourhood]] of $H \subset G$ are a normal distance $\lt \epsilon$ from $H$.
+
+Then the multiplication action
+
+$$
+  \array{
+    D_e \times H 
+    &
+    \underoverset{ \simeq }{ (-)\cdot(-) }{\longrightarrow}
+    &
+    D_e \cdot H
+    \\
+    (d,h) &\mapsto& d \cdot h
+  }
+$$
+
+is a [[diffeomorphism]], because, by right-invariance of the chosen metric, the operation
+
+$$
+  \array{
+    D_e &\overset{}{\longrightarrow}& D_h
+    \\
+    d &\mapsto& d \cdot h
+  }
+$$
+
+is even an [[isometry]], for each $h \in H$.
+
+It follows 
+
+1) by dimension reasons that 
+
+$$
+  D \cdot H \;\subset\; G
+$$
+
+is an [[open neighbourhood]] of $H$ in $G$, and hence that
+
+$$
+  \big(D \cdot H\big) \times_H S
+  \hookrightarrow
+  G \times_H S
+$$
+
+is an [[open neighbourhood]] of $S \subset G_H \times S$.
+
+2) that the restriction of the projection to this neighbourhood is isomorphic to the trivial $F$-fiber bundle:
+
+$$
+  \array{
+    D \times S \times F
+    &
+    \simeq
+    & 
+    (D \times H) \times_H (S \times F)
+    &
+    \overset{\simeq}{\longrightarrow}
+    & 
+    (D \cdot H)
+    \times_H 
+    (S \times F)
+    &
+    \longrightarrow
+    & 
+    G \times_H ( S \times F )
+    \\
+    \big\downarrow
+    && && 
+    \big\downarrow
+    &
+      {}^{{}_{(pb)}}
+    &
+    \big\downarrow
+    \\
+    D \times S
+    &\simeq&
+    (D \times H) \times_H S
+    &
+    \underoverset
+      { m \times_H id }
+      {\simeq}
+      {\longrightarrow}
+    &
+    (D \cdot H) \times_H S
+    &\hookrightarrow&
+    G \times_H S
+    \,.
+  }
+$$
+
+Finally, since $G \times_H S$ is covered by left $G$-translates of the open subset $(D \cdot H) \times_H S$, and since the same argument applies to each of theses, by left-invariance of the metric, the claim follows.
+
+\end{proof}
+
+
 
 \begin{prop}\label{LashofLocalTrivializabilityImpliesTopDieckForTrivialAlpha}
 **(Lashof's local trivializability implies tom Dieck's for $\alpha = 1$)**
