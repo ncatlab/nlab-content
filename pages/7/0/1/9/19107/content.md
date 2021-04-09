@@ -12,7 +12,7 @@ This entry colllects material related to the book
   [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)
 
 
-on [[topological G-spaces]], their [[equivariant homotopy theory]] and their [[equivariant cohomology]] ([[Bredon cohomology]]).
+on [[topological G-spaces]] and their [[equivariant differential topology]], [[equivariant homotopy theory]] and [[equivariant cohomology]] ([[Bredon cohomology]]).
 
 
 #Contents#
@@ -62,8 +62,22 @@ on [[topological G-spaces]], their [[equivariant homotopy theory]] and their [[e
 
 * [[fixed points]]
 
+## II General Theory of $G$-Spaces
+
+## III Homological Theory of Finite Group Actions
+
+## IV Locally Smooth Actions on Manifolds
+
+## V Actions with Few Orbit Types
+
+## VI Smooth Actions
+
+* [[equivariant tubular neighbourhood]]
+
+* [[invariant Riemannian metric]]
 
 
+## Chapter VII Cohomology Structure of Fixed Point Sets
 
 
 
