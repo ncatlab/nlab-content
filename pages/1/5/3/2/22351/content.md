@@ -33,6 +33,54 @@
 For $H \subset G$ a [[closed subspace|closed]] [[subgroup]], 
 a [[topological subspace]] $S \subset X$ is called:
 
+* an *$H$-slice* if
+
+  1. $S$ is an $H$-subspace;
+
+  1. and $H$ is maximal with this property, in that the following map is an [[isomorphism]] (i.e. [[homeomorphism]]):
+
+     $$
+       \array{
+         G \times_H S
+         & 
+         \overset
+         {\simeq}
+         {
+           \longrightarrow 
+         }
+         &
+         G \cdot S
+         \\
+         [g, s] 
+         & 
+         \mapsto
+         &
+         g \cdot s
+       }
+     $$
+
+  1. whose image $G\cdot S \subset X$ is [[open subset|open]];
+
+* a *slice through $x \in X$* if
+
+  1. $x \in S \subset X$;
+
+  1. $S$ is a $G_x$-slice in the above sense, 
+ 
+     for $G_x \coloneqq Stab_G(x)$ the [[stabilizer group]] of $x$.
+
+\end{defn}
+
+(e.g. [Bredon 72, Ch. II, Def. 4.1](#Bredon72))
+
+Alternatively but equivalently (as in [Bredon 72, Ch. II, Thm. 4.4 (iv)](#Bredon72)):
+
+\begin{defn}\label{PalaisSlicesDef}
+  Let $G$ be a [[topological group]] and $X$ a [[topological G-space]].
+
+For $H \subset G$ a [[closed subspace|closed]] [[subgroup]], 
+a [[topological subspace]] $S \subset X$ is called:
+
 * an *$H$-kernel* if it is the [[preimage]] of the base point $[H] \in G/H$ in the [[coset space]] under a $G$-[[equivariant function|equivariant]] [[continuous function]] $f$ from the $G$-[[orbit]] of $S$:
 
   $$
@@ -128,7 +176,7 @@ Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https:/
 
 
 
-* [[Glen Bredon]], Section II.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+* {#Bredon72} [[Glen Bredon]], Section II.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
 Review:
