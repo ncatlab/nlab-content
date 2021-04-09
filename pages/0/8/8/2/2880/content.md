@@ -29,7 +29,7 @@ $$\Delta(c) = \sum c_{(1)}\otimes c_{(2)} $$
 
 with or even without summation sign. Surely in either case we need to remember that we do not have a factorization but we do have a sum of possibly more than one entry. One can formalize in fact which manipulations are allowed with such a reduced notation. 
 
-It gets more useful, when we take into account coassociativity to justify extending the notation to write
+It becomes more useful when we take into account coassociativity to justify extending the notation to write
 
 $$ \array{\sum c_{(1)}\otimes c_{(2)} \otimes c_{(3)} := \sum c_{(1)(1)}\otimes c_{(1)(2)}\otimes c_{(2)} \\
 = \sum c_{(1)}\otimes c_{(2)(1)}\otimes c_{(2)(2)}.}$$
