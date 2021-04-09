@@ -145,6 +145,8 @@ there exists a slice through $x$ (Def. \ref{SlicesDef}).
 
 This appears as [Palais 61, Prop. 2.3.1](#Palais61).
 
+For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to be a [[linear representation]] (e.g. [tomDieck 87, Thm. 5.6](#tomDieck87)).
+
 
 ## Related concepts
 
@@ -182,6 +184,12 @@ Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https:/
 Review:
 
 * {#Karppinen16} [[Sini Karppinen]], _The existence of slices in $G$-spaces, when $G$ is a Lie group_, Helsinki 2016 ([hdl:10138/190707](http://hdl.handle.net/10138/190707))
+
+See also:
+
+* {#tomDieck87} [[Tammo tom Dieck]], Section I.5 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+
 
 [[!redirects slice theorems]]
 
