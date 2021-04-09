@@ -130,7 +130,7 @@ Then linearization of the $G$-action aroujnd the [[fixed locus]] $X^G \subset X$
 
 +-- {: .num_prop #ExistenceOfGInvariantRiemannianMetrics}
 ###### Proposition
-**(existence of $G$-invariant [[Riemannian metric]])**
+**(existence of $G$-[[invariant Riemannian metric]])**
 
 Let $X$ be a [[smooth  manifold]], $G$ a [[compact Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
 
@@ -143,7 +143,7 @@ Then there exists a [[Riemannian metric]] on $X$ with its [[invariant]] with res
 
 +-- {: .num_defn #GInvariantTubularNeighbourhood}
 ###### Definition
-**($G$-invariant [[tubular neighbourhood]])**
+**($G$-[[equivariant tubular neighbourhood]])**
 
 Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
 
@@ -158,7 +158,7 @@ For $\Sigma \subset X^G \subset X$ a [[closed manifold|closed]] [[smooth manifol
 
 +-- {: .num_prop #ExistenceOfGInvariantTubularNeighbourhoods}
 ###### Proposition
-**(existence of $G$-invariant [[tubular neighbourhoods]])**
+**(existence of $G$-[[equivariant tubular neighbourhoods]])**
 
 Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
 
