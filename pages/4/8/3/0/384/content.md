@@ -627,7 +627,7 @@ See also
  
 
 
-An inconclusive discussion [here](http://nforum.mathforge.org/discussion/4135/simplicial-homology/?Focus=33785#Comment_33785) about what parts of the definition a CW complex should be [[stuff, structure, property|properties]] and what parts should be structure.
+An inconclusive discussion [here](http://nforum.mathforge.org/discussion/4135/simplicial-homology/?Focus=33785#Comment_33785) about what parts of the definition of a CW complex should be [[stuff, structure, property|properties]] and what parts should be structure.
 
 
 [[!redirects CW complex]]
