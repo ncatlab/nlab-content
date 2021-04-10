@@ -128,6 +128,11 @@ Some observations from the point of view of [[string theory]] are in
 
 * {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_ (2014)
 
+For more on _physical mathematics_ see
+
+* Piotr Sułkowski, _Quantum fields, strings, and physical mathematics_, ([arXiv:2104.03350](https://arxiv.org/abs/2104.03350))
+
+
 For an extensive list of literature see
 
 * [[books and reviews in mathematical physics]]
