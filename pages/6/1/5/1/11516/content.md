@@ -586,6 +586,35 @@ is the passage to the $H$-[[fixed locus]] $(-)^H$ equipped with its residual [[W
 
 \end{example}
 
+### Further limits and colimits
+
+\begin{lemma}
+  Let $G$ be a [[compact topological group]] and let $f \colon X \longrightarrow Y$ be morphism of [[Hausdorff space|Hausdorff]] $G$-spaces.
+
+Then its [[quotient]] [[natural transformation|naturality]] square 
+
+$$
+  \array{
+    X 
+    &\overset{f}{\longrightarrow}&
+    Y
+    \\
+    \big\downarrow
+     &&
+    \big\downarrow
+    \\
+    X/G
+     &\overset{f/G}{\longrightarrow}&
+    Y/G
+  }
+$$
+
+is a [[pullback square]] if and only if $f$ preserves [[isotropy groups]].
+\end{lemma}
+
+([Bykov-Flores 15, Prop. 4.1](#BykovFlores15))
+
+
 
 ### Equivariant Tietze extension theorem
 
@@ -726,7 +755,12 @@ See also
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
 
 
+
+
+* {#BykovFlores15} Alexander Bykov, Raúl Juárez Flores _G-fibrations and twisted products_, Topology and its Applications Volume 196, Part B, December 2015, Pages 379-397 ([doi:10.1016/j.topol.2015.05.011](https://doi.org/10.1016/j.topol.2015.05.011))
+
 See also the references at _[[equivariant homotopy theory]]_.
+
 
 
 [[!redirects topological G-spaces]]
