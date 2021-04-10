@@ -1,4 +1,4 @@
-* [website](https://www.cs.ox.ac.uk/people/alexis.toumi/)
+* [website](https://alexis.toumi.xyz)
 
 
 ## Selected writings
