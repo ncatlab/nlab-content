@@ -138,7 +138,7 @@ The required commutativity may be verified by using the commutative
 diagrams in the definitions of a monad and an EM-algebra, 
 naturality, and the triangular identities. For details, see the proof
 of Lemma 4.5.1 of [Borceux](#Borceux), 
-pp. 222-223. (Note that this lemma does not depend neither on the
+pp. 222-223. (Note that this lemma does not depend on the
 existence of a left adjoint for the bottom horizontal arrow, nor on
 the existence of coequalizers. Only the commutativity is required.) 
 =--
