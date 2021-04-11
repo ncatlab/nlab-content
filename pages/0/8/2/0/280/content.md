@@ -241,7 +241,7 @@ Historical origins:
   English translation by M. W. Haskell:
 
   _A comparative review of recent researches in geometry_, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([euclid:1183407629](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-2/issue-10/A-comparative-review-of-recent-researches-in-geometry/bams/1183407629.full) [[KleinRetyped.pdf:file]])
-
+LaTeX version retyped by Nitin C. Rughoonauth: [arXiv](https://arxiv.org/abs/0807.3161).
 
 Textbook accounts:
 
