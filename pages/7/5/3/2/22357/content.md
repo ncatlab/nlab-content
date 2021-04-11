@@ -32,6 +32,25 @@ A [[topological group|topological]] [[subgroup]] $H \subset G$ of a [[topologica
 
 \end{defn}
 
++-- {: .num_lemma #OpenSubgroupOfTopologicalGroupIsClosed}
+###### Lemma
+**(open subgroups of topological groups are closed)**
+
+Every [[open subset|open]] [[subgroup]] $H \subset G$ of a topological group is [[closed subset|closed]], hence a [[closed subgroup]].
+
+=--
+
+(e.g [Arhangel'skii-Tkachenko 08, theorem 1.3.5](#ArhangelskiiTkachenko08))
+
++-- {: .proof}
+###### Proof
+
+The [[set]] of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]] [[open subsets]]. One of these cosets is $H$ itself and hence it is the [[complement]] of the [[union]] of the other cosets, hence the complement of an open subspace, hence closed.
+
+=--
+
+
+
 ## Examples
 
 ### Stabilizer subgroup
@@ -176,6 +195,8 @@ or:
 * {#Gleason50} [[Andrew Gleason]], _Spaces With a Compact Lie Group of Transformations_, Proceedings of the American Mathematical Society Vol. 1, No. 1 (Feb., 1950), pp. 35-43 ([jstor:2032430](https://www.jstor.org/stable/2032430), [doi:10.2307/2032430](https://doi.org/10.2307/2032430))
 
 * {#Mostert53} [[Paul Mostert]], _Local Cross Sections in Locally Compact Groups_, Proceedings of the American Mathematical Society, Vol. 4, No. 4 (Aug., 1953), pp.645-649 ([jstor:2032540](https://www.jstor.org/stable/2032540), [doi:10.2307/2032540](https://doi.org/10.2307/2032540))
+
+* {#ArhangelskiiTkachenko08} Alexander Arhangel'skii, Mikhail Tkachenko, _Topological Groups and Related Structures_, Atlantis Press 2008 ([doi:10.2991/978-94-91216-35-0](https://doi.org/10.2991/978-94-91216-35-0))
 
 
 [[!redirects closed subgroups]]
