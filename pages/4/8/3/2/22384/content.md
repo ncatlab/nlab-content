@@ -5,7 +5,7 @@ This page collect material related to the article
 
   English translation by M. W. Haskell:
 
-  _A comparative review of recent researches in geometry_, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([euclid:1183407629](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-2/issue-10/A-comparative-review-of-recent-researches-in-geometry/bams/1183407629.full) [[KleinRetyped.pdf:file]])
+  _A comparative review of recent researches in geometry_, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([euclid:1183407629](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-2/issue-10/A-comparative-review-of-recent-researches-in-geometry/bams/1183407629.full), LaTeX version retyped by Nitin C. Rughoonauth: [arXiv:0807.3161](https://arxiv.org/abs/0807.3161))
 
 on foundations of [[differential geometry]] in the notion of [[group actions]].
 
