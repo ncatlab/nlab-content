@@ -757,20 +757,37 @@ See also
 
 ## References
 
+(For basics see also the references at _[[group actions]]_.)
+
+Early appearance of the notion (as "transformation groups"):
+
+* {#Klein1872} [[Felix Klein]], _[[Vergleichende Betrachtungen über neuere geometrische Forschungen]]_ (1872) Mathematische Annalen volume 43, pages 63–100 1893  ([doi:10.1007/BF01446615](https://doi.org/10.1007/BF01446615))
+
+  English translation by M. W. Haskell:
+
+  _A comparative review of recent researches in geometry_, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([euclid:1183407629](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-2/issue-10/A-comparative-review-of-recent-researches-in-geometry/bams/1183407629.full) [[KleinRetyped.pdf:file]])
+
+See also:
+
+* {#Koszul65} [[Jean-Louis Koszul]], _Lectures on Groups of Transformations_, Tata Institute 1965 ([pdf](http://www.math.tifr.res.in/~publ/ln/tifr32.pdf), [[KoszulGroupsOfTransformations.pdf:file]])
+
+Texbook accounts:
+
 * {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
+  (the term "G-space" appears here)
 
 * [[Tammo tom Dieck]], Chapter 8 in: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
 
+* {#tomDieck87} [[Tammo tom Dieck]], *[[Transformation Groups]]*, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
 * {#May96} [[Peter May]] et al., Section I.1 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 
+More discussion in the contex of [[equivariant homotopy theory]]:
 
 * {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](https://faculty.math.illinois.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
-
-
-
 
 * {#BykovFlores15} Alexander Bykov, Raúl Juárez Flores _G-fibrations and twisted products_, Topology and its Applications Volume 196, Part B, December 2015, Pages 379-397 ([doi:10.1016/j.topol.2015.05.011](https://doi.org/10.1016/j.topol.2015.05.011))
 
