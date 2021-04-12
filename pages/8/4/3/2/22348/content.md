@@ -395,7 +395,7 @@ involving the following combinatorial structures.
 We recall the definition of NTP and a simple theory. 
 
 \begin{definition}[Tent-Ziegler,7.2.1] 1. A formula $\varphi(x, y)$ has the tree property 
-(with respect to k) if there is a tree of parameters $(a_s\,\,|\,\,\emptyset \not= s \in {}^{\lt\omega}\omega )$ such that:
+(with respect to k) if there is a tree of parameters $(a_s\,\,|\,\,\emptyset \neq s \in {}^{\lt\omega}\omega )$ such that:
 
  a) For all $s\in {}^{\lt\omega}\omega $, $(\varphi(x, a_{si} )\,\,|\,\,i \lt\omega )$ is $k$-inconsistent.
 
@@ -453,7 +453,7 @@ and a large subset of $T^{antichains}_\bullet(n)$.
 Note that $(T^\leq_\bullet\cup T^{antichains}_\bullet)(1^\leq)=T^\leq$.
 
 \begin{proposition}
-The following two statements are equivalent:
+The following are equivalent:
 
 i. the formula $\phi$ has NTP with respect to the model $M$
 
@@ -491,8 +491,10 @@ labelled by numbers strictly decreasing along
 any branch, hence $X$ is finite. Hence, $Y$ is not small.
 \end{proof}
 
-A similar reformulation might exist for $NTP_1$, $NSTOP_1$, and 
-[the notion of INP pattern](modeltheory.fandom.com/wiki/INP_pattern).
+A similar reformulation might exist for $NTP_1$, $NTOP_1$, 
+[the notion of INP pattern](modeltheory.fandom.com/wiki/INP_pattern),
+as well as some other no tree or no pattern properties in
+classification theory.
 
 
 \subsection{References}
