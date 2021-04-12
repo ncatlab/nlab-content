@@ -25,7 +25,7 @@
 
 Given a [[group]] $G$ equipped with an [[action]] on some [[space]] $X$, a _slice through the $G$-orbits in $X$_ is a subspace $S\hookrightarrow X$ such that $X$ is exactly exhausted by the $G$-[[orbits]] of $S$. 
 
-More generally, if $H \subset G$ is a [[subgroup]], then a _slice through $G$-orbits modulo $H$_ is a subspace $S \subset G$ to which the $H$-[[action]] on $X$ restricts, and such that the $G$-orbits of $S$ modulo this $H$-action on $S$ exactly exhaust $X$.
+More generally, if $H \subset G$ is a [[subgroup]], then a _slice through $G$-orbits modulo $H$_, or simply an *$H$-slice*, is a subspace $S \subset G$ to which the $H$-[[action]] on $X$ restricts, and such that the $G$-orbits of $S$ modulo this $H$-action on $S$ exactly exhaust $X$.
 
 In [[mathematics]], specifically in [[equivariant differential topology]], the terminology is traditionally used by default to refer to slices through [[open subset|open sub]] [[G-spaces]] $U \subset X$ of a given ambient [[topological G-space]] $X$.
 
@@ -184,6 +184,9 @@ This appears as [Palais 61, Prop. 2.3.1](#Palais61).
 
 For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to be a [[linear representation]] (e.g. [tomDieck 87, Thm. 5.6](#tomDieck87)).
 
+##Examples
+
+* If time evolution on some [[Lorentzian manifold]] is given as an $\mathbb{R}^1$-action with [[timelike]] flow lines, then slices ("1-slices") for this action are known as [[Cauchy surfaces]].
 
 ## Related concepts
 
