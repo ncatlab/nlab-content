@@ -75,5 +75,14 @@ See also [[pseudo-Riemannian manifold]]
 
 * [[Nash embedding theorem]]
 
+## References
+
+
+* [[John M. Lee]], _Riemannian manifolds. An introduction to curvature_. Graduate Texts in Mathematics 176 (1997), Springer.  ISBN: 0-387-98271-X.
+Second Edition (retitled): *Introduction to Riemannian Manifolds* (2018), Springer.  ISBN: 978-3-319-91754-2 ([doi:10.1007/978-3-319-91755-9](https://doi.org/10.1007/978-3-319-91755-9))
+
+
+
+
 [[!redirects Riemannian manifolds]]
 [[!redirects Riemannian structure]]
