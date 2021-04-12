@@ -1137,8 +1137,11 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
 
+Review and examples over the [[2-sphere]]:
 
-Comparative discussion is in:
+* [[Eyup Yalcinkaya]], *Equivariant Principal Bundles over the 2-Sphere* ([arXiv:1902.06293](https://arxiv.org/abs/1902.06293))
+
+See also:
 
 * {#Zou20} [[Foling Zou]], _Notes on equivariant bundles_ ([arXiv:2008.01268](https://arxiv.org/abs/2008.01268))
 
