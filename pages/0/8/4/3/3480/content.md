@@ -217,7 +217,7 @@ $$
   A Mod := [\mathbf{B}A,V]
 $$
 
-the [[enriched functor category]] that encodes the $V$-[[module]]s of $A$, we have that the $V$-enriched [[endomorphism]] algebra $End(F) := [F,F]$ of the $V$-[[enriched functor]] $F : Rep(A) \to V$ is [[natural isomorphism|naturally isomorphic]] to $V$
+the [[enriched functor category]] that encodes the $V$-[[module]]s of $A$, we have that the $V$-enriched [[endomorphism]] algebra $End(F) := [F,F]$ of the $V$-[[enriched functor]] $F : Rep(A) \to V$ is [[natural isomorphism|naturally isomorphic]] to $A$
 
 $$
   End(A Mod \stackrel{F}{\to} V) \simeq A
