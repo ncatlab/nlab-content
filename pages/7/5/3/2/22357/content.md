@@ -113,8 +113,18 @@ Any localic subgroup of a [[localic group]] is closed (see [this Theorem](https:
 
 ## Properties
 
-### Local sections over coset space
+### For Lie groups
+ {#ForLieGroups}
 
+
+\begin{prop}\label{CartanClosedSubgroupTheorem}
+**([[Cartan's closed subgroup theorem]])**
+
+If $H \subset G$ is a [[closed subgroup]] of a ([[finite number|finite]] [[dimension of a manifold|dimensional]]) [[Lie group]], then $H$ is a sub-Lie group, hence a [[smooth manifold|smooth]] [[submanifold]] such that its group operations are [[smooth functions]] with respect to the the [[submanifold]] [[smooth structure]].
+\end{prop}
+
+
+### Local sections over coset space
 
 \begin{prop}\label{CosetSpaceCoprojectionsWithLocalSections}
 **([[coset space coprojections with local sections]])**\linebreak
