@@ -39,8 +39,13 @@ These ideas have been formalized in [[type theory]], where they serve to set up 
 ## Formalization in type theory
  {#FormalizationInTypeTheory}
 
-It is direct and natural to represent formally the notion of Bishop sets
-in [[type theory]]. See for instance ([Palmgren05](#Palmgren05)) for an exposition and ([Coquand-Spiwack, section 3](#CoquandSpiwack)) for a brief list of the axioms.
+Formally, the definition of Bishop set presumes some prior notion of "collection" (the elements) and "relation" (the equality) that can be put together.  These collections are sometimes called [[presets]], and can be formalized in various ways.  In particular, presets generally lack operations such as [[quotients]] and even [[subsets]].
+
+One of the most common approaches is to use [[type theory]], where the collections are simply types.  Note that this is a different approach to the use of type theory in foundations of mathematics than that of, for instance, [[homotopy type theory]] --- in the latter, type theory is enriched with operations on types such as quotients, enabling them to be the basic set-like objects out of which mathematics is built; while in the Bishop-set approach one defines "sets" as types equipped with extra structure, so that the sets have quotient-type operations even though the types do not.  There is an analogy to the construction of the [[exact completion]] of a category, which has quotients even if the original category does not.
+
+Frequently, the type theories used for this purpose do not even have a separate notion of "relation" or "proposition", and thus the untruncated [[propositions as types]] interpretation is used for the equivalence relations in a Bishop set.  That is, one has a type $X:Type$ of elements and a type family $R:X\to X \to Type$ with witnesses that it is "reflexive, symmetric, and transitive", but nothing prevents $R(x,y)$ from having more than one element.  (If the type theory has [[identity types]], one could demand that $R$ consist of [[h-propositions]], but at least historically this is not often done.)  This means that categorically, the Bishop sets are most like the [[ex/lex completion]] of the category of types --- although the morphisms in the ex/lex completion are defined as a *quotient* in the ambient set theory, whereas the morphisms between Bishop sets simply form another Bishop set.
+
+For example, see ([Palmgren05](#Palmgren05)) for an exposition and ([Coquand-Spiwack, section 3](#CoquandSpiwack)) for a brief list of the axioms.
 
 In the context of type theory a Bishop set is sometimes called a __[[setoid]]__.
 
@@ -90,7 +95,7 @@ Reviews include
 
 The formalization of Bishop set is reviewed for instance in section 3 of 
 
-* [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](http://assert-false.net/arnaud/papers/Towards%20constructive%20homological%20algebra%20in%20type%20theory.pdf))
+* [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](https://hal.inria.fr/inria-00432525/document))
  {#CoquandSpiwack}
 
 (there with an eye towards further formalization of [[homological algebra]]).
