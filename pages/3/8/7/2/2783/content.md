@@ -263,3 +263,6 @@ On the other hand, some properties are *not* preserved by the completions.
 [[!redirects ex/lex completions]]
 [[!redirects ex/reg completions]]
 [[!redirects reg/lex completions]]
+
+[[!redirects pseudo-equivalence relation]]
+[[!redirects pseudo-equivalence relations]]
