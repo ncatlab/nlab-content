@@ -17,7 +17,7 @@
 
 ## Idea
 
-The concept of _$(\infty,1)$-pretopos_ ([Lurie, appendix A](#Lurie)) is a version of the concept of _[[pretopos]]_ as one passes from [[toposes]] to [[(∞,1)-toposes]]. The definition is a variant of the characterization of [[Grothendieck (∞,1)-toposes]], via the [Giraud-Rezk-Lurie axioms](infinity-topos#GiraudAxioms), asking only for _some [[finite (∞,1)-limits]]_ and _for [[finite (∞,1)-colimits]]_. 
+The concept of _$(\infty,1)$-pretopos_ ([Lurie, appendix A](#Lurie)) is a version of the concept of _[[pretopos]]_ as one passes from [[toposes]] to [[(∞,1)-toposes]]. The definition is a variant of the characterization of [[Grothendieck (∞,1)-toposes]], via the [Giraud-Rezk-Lurie axioms](infinity-topos#GiraudAxioms), asking only for [[finite (∞,1)-limits]] and [[finite (∞,1)-colimits]] with some exactness properties relating them.
 
 ## Definition
 
