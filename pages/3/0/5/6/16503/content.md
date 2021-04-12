@@ -87,7 +87,7 @@ For more information on the above topos-theoretic example consult
 
 Discussion from a point of view of [[type theory]]/[[computer science]] includes
 
-* {#TorontoMcCarthy10a} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian notation to pure Racket, via measuretheoretic probability_, in _Implementation and Application of Functional Languages_, 2010. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.4274))
+* {#TorontoMcCarthy10a} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian notation to pure Racket, via measure-theoretic probability_, in _Implementation and Application of Functional Languages_, 2010. ([article](https://link.springer.com/chapter/10.1007/978-3-642-24276-2_6))
 
 * {#TorontoMcCarthy10b} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian Notation to Pure Racket_, talk notes 2010. ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
