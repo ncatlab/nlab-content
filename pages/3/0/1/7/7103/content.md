@@ -67,7 +67,7 @@ This appears as ([Lurie, prop. 6.1.5.2](#Lurie)).
 
 Relation to [[homotopy type theory]]:
 
-* [[Chris Kapulkin]], [[Karol Szumi?o]], _Internal Language of Finitely Complete $(\infty,1)$-categories_ ([arXiv:1709.09519](https://arxiv.org/abs/1709.09519))
+* [[Chris Kapulkin]], [[Karol Szumiło]], _Internal Language of Finitely Complete $(\infty,1)$-categories_ ([arXiv:1709.09519](https://arxiv.org/abs/1709.09519))
 
 
 [[!redirects finite (infinity,1)-limit]]
