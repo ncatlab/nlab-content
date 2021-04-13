@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -83,9 +84,15 @@ Review:
 
 * [[Valentin Zakharevich]], _K-Theoretic Computation of the Verlinde Ring_, thesis 2018 ([hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]])
 
-
-
 Computation of the [[twisted ad-equivariant K-theory]]-groups for all [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[simple Lie groups]]:
 
 * [[Volker Braun]], _Twisted K-Theory of Lie Groups_, JHEP 0403 (2004) 029 ([arXiv:hep-th/0305178](https://arxiv.org/abs/hep-th/0305178))
+
+
+Generalization to [[KR-theory]]:
+
+* [[Chi-Kwong Fok]], *The Real K-theory of compact Lie groups*, SIGMA 10 (2014), 022, ([arXiv:1308.3871](https://arxiv.org/abs/1308.3871), [doi:10.3842/SIGMA.2014.022](https://doi.org/10.3842/SIGMA.2014.022))
+
+* [[Chi-Kwong Fok]], *Equivariant twisted Real K-theory of compact Lie groups*,   Journal of Geometry and Physics 124 (2018) 325-349 ([arXiv:1503.00957](https://arxiv.org/abs/1503.00957), [doi:10.1016/j.geomphys.2017.11.013](https://doi.org/10.1016/j.geomphys.2017.11.013))
+
 
