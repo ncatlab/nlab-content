@@ -249,7 +249,7 @@ The notion of nerve and realization (not with these names yet) was introduced an
 
 In fact, in that very article apparently what is now called [[Kan extension]] is first discussed.
 
-Also, in that article, as an example of the general mechanism, also the [[Dold?Kan correspondence]] was found and discussed, independently of the work by Dold and Puppe shortly before, who used a much less general-nonsense approach.
+Also, in that article, as an example of the general mechanism, also the [[Dold-Kan correspondence]] was found and discussed, independently of the work by Dold and Puppe shortly before, who used a much less general-nonsense approach.
 
 In an article in 1984, Dwyer and Kan look at this 'nerve-realization' context from a different viewpoint, using the term 'singular functor' where the above has used 'nerve'. Their motivation example is that in which $S$ is the [[orbit category]] of a group $G$, and the realisation starts with a functor on that category with values in spaces and returns a $G$-space:
 
