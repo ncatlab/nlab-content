@@ -173,18 +173,24 @@ $$
 
 A _slice theorem_ is a statement of sufficient conditions such that there is a slice through each point of a given [[topological G-space]].
 
-\begin{prop}
-  Let $G$ be the [[topological group]] underlying a [[Lie group]] and let $X$ be a [[topological G-space]] with [[proper action]].
+\begin{prop}\label{ExistenceOfSlicesInProperActionsOnLocallyCompactSpaces}
+**(existence of local slices for proper actions on locally compact spaces)** \linebreak
+Let 
 
-Then for every point $x \in X$
-there exists a slice through $x$ (Def. \ref{SlicesDef}).
+* $G$ be the [[topological group]] underlying a [[Lie group]],
+
+* $X$ be a [[locally compact Hausdorff space]],
+
+* $G \times X \overset{\rho}{\to} X$ be a  [[proper action]].
+
+Then for every point $x \in X$ there exists a slice through $x$ (Def. \ref{SlicesDef}).
 \end{prop}
 
-This appears as [Palais 61, Prop. 2.3.1](#Palais61).
+This is due to [Palais 61, Prop. 2.3.1](#Palais61).
 
-
-> Warning: This assumes not quite the usual notion of "proper action", though the notions agree under mild (?) conditions. Will expand...
-
+\begin{remark}\label{PalaisProofBeyondLocalCompactness}
+  The thrust of [Palais 61](#Palais61) is to state Prop. \ref{ExistenceOfSlicesInProperActionsOnLocallyCompactSpaces} without the assumption that $X$ be [[locally compact topological space|locally compact]], in which case the definition of "[[proper action]]" needs to be strengthened ("[Palais proper action](proper+action#PalaisProperness)", [Palais 61, Def. 1.2.2](#Palais61)).
+\end{remark}
 
 For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to be a [[linear representation]] (e.g. [tomDieck 87, Thm. 5.6](#tomDieck87)).
 
