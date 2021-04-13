@@ -250,7 +250,16 @@ These hypotheses are of course pretty severe; important examples of such restric
 
 In any event, the category of locally compact spaces does not admit general infinite products. If it did, then so would the category of locally compact Hausdorff spaces, and so would the category of locally compact Hausdorff abelian groups. However, there is no product of countably many copies of the real numbers in $LCHAb$, for if there were, then by utilizing the universal property of the product, it would become a Hausdorff TVS over the real numbers, in contradiction to the fact that the only locally compact Hausdorff TVS are finite-dimensional. 
 
-Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated space]]s: they are precisely the colimits in $Top$ of diagrams of locally compact spaces. 
+Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated topological spaces]]: they are precisely the colimits in $Top$ of diagrams of locally compact spaces. 
+
+\begin{prop}\label{LocallyCompactHausdorffSpacesAreCompactlyGeneratedWeaklyHausdorff}
+  Every [[locally compact Hausdorff space]] is
+  [[compactly generated topological space|compactly generated]]
+  and [[weakly Hausdorff topological space|weakly Hausdorff]].
+\end{prop}
+
+([Strickland 09, Prop. 1.7](compactly+generated+topological+space#Strickland09))
+
 
 
 ### Gelfand duality
@@ -275,6 +284,7 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 * [[Gelfand duality]]
 
 * [[vanishing at infinity]]
+
 
 
 [[!redirects locally compact topological space]]
