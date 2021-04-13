@@ -113,6 +113,8 @@ M. Hazewinkel, Elsevier 2009, 173&#8211;236 [arxiv:math.RA/0805.3806](http://arx
 * [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002 [math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
 * D. Chikhladze, Category of quantum categories, Theory and Applications of Categories __25__ (2011) 1 - 37.  ([pdf](http://www.tac.mta.ca/tac/volumes/25/1/25-01.pdf))
 
+This starts with a different concept of [[bialgebroid]], which is discussed here on the nLab.  Namely: any $k$-algebra $R$ gives a pseudomonoid $R^e = R^{op} \otimes R$ in the bicategory $Mod_k$ of k-algebras, bimodules, and bimodule homomorphisms, and a **bialgebroid** is then an opmonoidal monad $A$ on $R^e$.   When the fusion (or Galois) operator for this opmonoidal monad is invertible, we say that $A$ is a **Hopf algebroid**.  In G. B&#246;hm's work this definition is stated in a less compressed, more down-to-earth way.
+
 A class of examples of such Hopf algebroids internally in a symmetric monoidal category of filtered cofiltered vector spaces is in
 
 * M. Stojić, PhD thesis, _Completed Hopr algebroids_, University of Zagreb, 2017
@@ -122,7 +124,9 @@ A somewhat less canonical version of the same main subexample, written in coordi
 * S. Meljanac, Z. &#352;koda, M. Stojić, _Lie algebra type noncommutative phase spaces are Hopf algebroids_, Lett. Math. Phys. 107:3, 475–503 (2017) [enhanced pdf](http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSHnmX9Ae5OTohRXxZ3Kuwuk-3D_fxWtIqIinsN9WJMaEHmGcrXGHheD-2FQtZ0bATf5S8uPqTE1vT5wX4Z3MHOr3LESbPy9zd7ZFfFy-2BgrWYwBzwnkToXTLfpXlfVLbWgoyxh3yG3X87hmFOy6WBB8-2BfFT6d5xCnkUAl78V3yBYjEJE6K0TYy2-2FYZewOjCVwZXxVneWJX8yW4YWbnghVE5d2d5zhz6lkzaj9LLNSVj-2B3QvKR6Dg-3D-3D)
  (free for online use) [doi](http://dx.doi.org/10.1007/s11005-016-0908-9) [arxiv/1409.8188](http://arxiv.org/abs/1409.8188)
 
-This starts with a different concept of [[bialgebroid]], which is discussed here on the nLab.  Namely: any $k$-algebra $R$ gives a pseudomonoid $R^e = R^{op} \otimes R$ in the bicategory $Mod_k$ of k-algebras, bimodules, and bimodule homomorphisms, and a **bialgebroid** is then an opmonoidal monad $A$ on $R^e$.   When the fusion (or Galois) operator for this opmonoidal monad is invertible, we say that $A$ is a **Hopf algebroid**.  In G. B&#246;hm's work this definition is stated in a less compressed, more down-to-earth way.
+A definition of a variant of Hopf algebroid which is somewhat similar to Lu's definition but involves working with a 2-sided ideal, with help of a distinguished „balancing” subalgebra, is in
+
+* [[Zoran Škoda]], Martina Stojić, _Hopf algebroids with balancing subalgebra_, [arxiv:1610.03837](https://arxiv.org/pdf/1610.03837)
 
 A notion of multiplier Hopf algebroid is studied in
 
