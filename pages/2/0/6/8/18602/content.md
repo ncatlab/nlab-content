@@ -193,6 +193,9 @@ Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#
 * Sang Quang Dinh, Hieu Minh Tran, _Muon $g-2$ and semileptonic $B$ decays in BDW model with gauge kinetic mixing_ ([arXiv:2011.07182](https://arxiv.org/abs/2011.07182))
 
 
+* Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
+
+
 Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
 
 * Miguel Crispim Romao, Stephen F. King, George K. Leontaris, _Non-universal $Z'$ from Fluxed GUTs_, Physics Letters B Volume 782, 10 July 2018, Pages 353-361 ([arXiv:1710.02349](https://arxiv.org/abs/1710.02349))
