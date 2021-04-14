@@ -719,6 +719,10 @@ See also
 
 * {#Dupont78} Dupont, _Curvature and characteristic classes_, Springer 1978
 
+* Timothy Hosgood, _Chern classes of coherent analytic sheaves: a simplicial
+approach_.  Université d’Aix-Marseille (AMU), 2020. [tel-02882140](https://tel.archives-ouvertes.fr/tel-02882140).
+
+A [[MathOverflow]] question discussing references: <https://mathoverflow.net/questions/345437/canonical-reference-for-chern-characteristic-classes>
 
 [[!redirects Chern classes]]
 
