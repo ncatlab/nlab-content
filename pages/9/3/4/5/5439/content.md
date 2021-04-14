@@ -22,14 +22,14 @@
 * table of contents
 {: toc}
 
-Hilbert module is an abbreaviation both for a Hilbert $C^\ast$-module (this entry)
+Hilbert module is an abbreaviation both for a Hilbert C\*-module (this entry)
 and the analogous notion of a [[Hilbert Q-module]] (see there), where $Q$ is a [[quantale]] (or a [[locale]], in particular).
 
 ## Idea
 
-The notion of _Hilbert $C^\ast$-module_ (or simply _Hilbert module_) is a generalization of the notion of _[[Hilbert space]]_ where the algebra of [[complex numbers]] is replaced by a possibly more general [[C*-algebra]] $A$. In particular a Hilbert $A$-module has an [[inner product]] which takes values not in $\mathbb{C}$, but in $A$, and such that [[complex conjugation]] is replaced by the [[star-algebra|star-operation]] in $A$.
+The notion of _Hilbert C\*-module_ (or simply _Hilbert module_) is a generalization of the notion of _[[Hilbert space]]_ where the algebra of [[complex numbers]] is replaced by a possibly more general [[C*-algebra]] $A$. In particular a Hilbert $A$-module has an [[inner product]] which takes values not in $\mathbb{C}$, but in $A$, and such that [[complex conjugation]] is replaced by the [[star-algebra|star-operation]] in $A$.
 
-Hilbert $C^\ast$-modules naturally appear as modules over [[groupoid convolution algebras]]. Refined to [[Hilbert C*-bimodules]] they serve as generalized [[homomorphism]] between [[C*-algebras]] in [[noncommutative topology]], and, when further equipped with a left weak [[Fredholm module]] as [[cocycles]] in [[KK-theory]].
+Hilbert C\*-modules naturally appear as modules over [[groupoid convolution algebras]]. Refined to [[Hilbert C*-bimodules]] they serve as generalized [[homomorphism]] between [[C*-algebras]] in [[noncommutative topology]], and, when further equipped with a left weak [[Fredholm module]] as [[cocycles]] in [[KK-theory]].
 
 ## Definition
  {#Definition}
@@ -117,14 +117,14 @@ An ordinary complex [[Hilbert space]] is a Hilbert $\mathbb{C}$-module.
 
 =--
 
-The archetypical class of examples of Hilbert $C^\ast$-modules for [[commutative C*-algebras]] is the following. The general definition \ref{HilbertCStarModule} may be understood as the generalization of the structure of this example to [[noncommutative topology|non-commutative C*-algebras]]. See also remark \ref{TheTrivialHilbertBundleAndL2} below.
+The archetypical class of examples of Hilbert C\*-modules for [[commutative C*-algebras]] is the following. The general definition \ref{HilbertCStarModule} may be understood as the generalization of the structure of this example to [[noncommutative topology|non-commutative C*-algebras]]. See also remark \ref{TheTrivialHilbertBundleAndL2} below.
 
 +-- {: .num_example #FromAHilbertSpaceBundle}
 ###### Example
 
 Let $X$ be a [[locally compact topological space]] and write $C_0(X)$ for its [[C*-algebra]] of [[continuous functions]] [[vanishing at infinity]].
 
-Let $E \to X$ be a [[fiber bundle]] of [[Hilbert spaces]] over $X$, hence a canonically [[associated bundle]] to a [[unitary group]]-[[principal bundle]]. Then the space $\Gamma_0(E)$ of continuous compactly supported [[sections]] is a Hilbert $C^\ast$-module over $C_0(X)$ with $C_0(X)$-valued [[inner product]] $\langle -,-\rangle$ the pointwise inner product in the [[Hilbert space]] [[fiber]] of $E$:
+Let $E \to X$ be a [[fiber bundle]] of [[Hilbert spaces]] over $X$, hence a canonically [[associated bundle]] to a [[unitary group]]-[[principal bundle]]. Then the space $\Gamma_0(E)$ of continuous compactly supported [[sections]] is a Hilbert C\*-module over $C_0(X)$ with $C_0(X)$-valued [[inner product]] $\langle -,-\rangle$ the pointwise inner product in the [[Hilbert space]] [[fiber]] of $E$:
 
 $$
   \langle \sigma_1, \sigma_2\rangle(x)
@@ -148,7 +148,7 @@ Every Hilbert $C_0(X)$-module arises, up to [[isomorphism]], as in example \ref{
 +-- {: .num_example #CAstAlgebraAsModuleOverItself}
 ###### Example
 
-Every $C^\ast$-algebra $A$ is a Hilbert $A$-module over itself when equipped by with the $A$-valued inner product given simply by
+Every C\*-algebra $A$ is a Hilbert $A$-module over itself when equipped by with the $A$-valued inner product given simply by
 
 $$
   \langle a_1,a_2\rangle \coloneqq a_1^\ast \cdot a \;\;\in A
@@ -159,7 +159,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-In view of the archetypical example \ref{FromAHilbertSpaceBundle}, example \ref{CAstAlgebraAsModuleOverItself} may be interpreted as exhibiting the trivial [[complex line bundle]] over whatever space $A$ is the $C^\ast$-algebra of functions on (an actual [[topological space]] if $A$ is a [[commutative C*-algebra]] or else the [[noncommutative topology]] defined as the formal dual of $A$).
+In view of the archetypical example \ref{FromAHilbertSpaceBundle}, example \ref{CAstAlgebraAsModuleOverItself} may be interpreted as exhibiting the trivial [[complex line bundle]] over whatever space $A$ is the C\*-algebra of functions on (an actual [[topological space]] if $A$ is a [[commutative C*-algebra]] or else the [[noncommutative topology]] defined as the formal dual of $A$).
 
 =--
 
@@ -185,7 +185,7 @@ This $\ell^2 A$ is sometimes called the **standard Hilbert $A$-module**.
 
 In view of example \ref{FromAHilbertSpaceBundle} we may think of example \ref{L2} as exhibiting the trivial countably-infinite dimensional [[Hilbert space]] bundle over the space dual to $A$.
 
-This is because the [[unitary group]] $U(\mathcal{H})$ of an infinite-dimensional [[separable Hilbert space]] $\mathcal{H}$ is [[contractible topological space|contractible]] (by [[Kuiper's theorem]]), hence so is the [[classifying space]], and so unitary $\mathcal{H}$-fiber bundles (over actual topological spaces) all trivializable. Since moreover $\mathcal{H} \simeq \ell^2(\mathbb{C})$ the Hilbert module of example \ref{FromAHilbertSpaceBundle} for the trivial $\mathcal{H}$-bundle over $C_0(X)$ is equivalent to $\ell^2(C_0(X))$. Example \ref{L2} generalizes this to arbitrary $C*$-algebras $A$.
+This is because the [[unitary group]] $U(\mathcal{H})$ of an infinite-dimensional [[separable Hilbert space]] $\mathcal{H}$ is [[contractible topological space|contractible]] (by [[Kuiper's theorem]]), hence so is the [[classifying space]], and so unitary $\mathcal{H}$-fiber bundles (over actual topological spaces) all trivializable. Since moreover $\mathcal{H} \simeq \ell^2(\mathbb{C})$ the Hilbert module of example \ref{FromAHilbertSpaceBundle} for the trivial $\mathcal{H}$-bundle over $C_0(X)$ is equivalent to $\ell^2(C_0(X))$. Example \ref{L2} generalizes this to arbitrary C\*-algebras $A$.
 
 =--
 
@@ -193,7 +193,7 @@ This is because the [[unitary group]] $U(\mathcal{H})$ of an infinite-dimensiona
 
 ## Properties
 
-### $C^\ast$-algebras of adjointable operators on a Hilbert module
+### C\*-algebras of adjointable operators on a Hilbert module
 
 +-- {: .num_defn #AdjointableOperator}
 ###### Definition
@@ -216,12 +216,12 @@ For $A$ itself regarded as a Hilbert $A$-module as in example \ref{CAstAlgebraAs
 
 =--
 
-### Compact operators on a Hilbert $C^\ast$-module
+### Compact operators on a Hilbert C\*-module
 
 +-- {: .num_defn #CompactOperator}
 ###### Definition
 
-For $H_1, H_2$ two Hilbert $C^\ast$-modules, an adjointable operator $T \colon H_1 \to H_2$, def. \ref{AdjointableOperator}, is of **finite rank** if it is of the form
+For $H_1, H_2$ two Hilbert C\*-modules, an adjointable operator $T \colon H_1 \to H_2$, def. \ref{AdjointableOperator}, is of **finite rank** if it is of the form
 
 $$
   T \colon v \mapsto \sum_{i = 1}^n w_i \langle v_i, v\rangle
@@ -257,17 +257,19 @@ are [[compact operators]] according to def. \ref{CompactOperator}.
 
 * [[Mishchenko-Fomenko index theorem]]
 
+* [[duality between algebra and geometry]]
+
 ## References
 
-Hilbert $C^\ast$-modules were introduced by [[Irving Kaplansky]] in
+Hilbert C\*-modules were introduced by [[Irving Kaplansky]] in
 
 * Irving Kaplansky, _Modules over operator algebras_, Amer. J. Math. __75__ (1953) 839--853
 
 Contemporary references are
 
 * [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, section 13
-* wikipedia, _[Hilbert $C^\ast$-module](http://en.wikipedia.org/wiki/Hilbert_C*-module)_
-* E. Christopher Lance, _Hilbert $C^\ast$-modules, A toolkit for operator algebraists_,  London Math. Soc. Lec. Note Ser. __210__, Cambridge Univ. Press 1995
+* wikipedia, _[Hilbert C\*-module](http://en.wikipedia.org/wiki/Hilbert_C*-module)_
+* E. Christopher Lance, _Hilbert C\*-modules, A toolkit for operator algebraists_,  London Math. Soc. Lec. Note Ser. __210__, Cambridge Univ. Press 1995
 
 [[!redirects Hilbert module]]
 [[!redirects Hilbert modules]]
