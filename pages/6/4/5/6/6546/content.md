@@ -21,6 +21,22 @@ The **holonomy group** of $\nabla$ at $x$ is the subgroup of $G$ on these elemen
 
 If $\nabla$ is the [[Levi-Civita connection]] on a [[Riemannian manifold]] and the holonomy group is a proper subgroup $H$ of the [[special orthogonal group]], one says that $(X,g)$ is a manifold of _[[special holonomy]]_ .
 
+## Classification of holonomy groups of affine connections
+
+Any [[closed Lie subgroup]] of $GL(V)$ occurs as the holonomy
+group of some [[affine connection]] (with [[torsion]], in general).
+See Hano–Ozeki \cite{HanoOzeki}.
+
+Holonomy groups of locally symmetric connections can be classified using [[Élie Cartan]]'s [[classification of symmetric spaces]].
+
+For [[Levi-Civita connections]], holonomy groups were classified by [[Marcel Berger]] \cite{Berger}.
+
+The case of torsion-free [[affine connections]] that are not locally symmetric
+and are not [[Levi-Civita connections]] was treated
+by Merkulov and Schwachhöfer \cite{MerkulovSchwachhofer}.
+A complete list of exotic holonomy groups (for the metric and nonmetric cases)
+can be found in \cite{MerkulovSchwachhofer2}.
+
 ## Related concepts
 
 * [[connection on a bundle]]
@@ -37,7 +53,12 @@ If $\nabla$ is the [[Levi-Civita connection]] on a [[Riemannian manifold]] and t
 
 ## References
 
-(...)
+* {#HanoOzeki} J. Hano, H. Ozeki, _On the holonomy groups of linear connections_, Nagoya Math. J. 10, 97-100 (1956).  [doi](https://doi.org/10.1017/S0027763000000106).
 
+* {#Berger} [[Marcel Berger]], Sur les groupes d'holonomie homogènes de variétés à connexion affine et des variétés riemanniennes.  Bulletin de la Soci&#233;t&#233; math&#233;matique de France 79:null (1955), 279-330.  [doi](http://dx.doi.org/10.24033/bsmf.1464).
+
+* {#MerkulovSchwachhofer} [[Sergei Merkulov]], Lorenz Schwachhöfer.  Classification of Irreducible Holonomies of Torsion-Free Affine Connections.  Annals of Mathematics 150:1 (1999), 77–149.  [doi](http://dx.doi.org/10.2307/121098).
+
+* {#MerkulovSchwachhofer2} [[Sergei Merkulov]], Lorenz Schwachhöfer.  Addendum to Classification of Irreducible Holonomies of Torsion-Free Affine Connections.  Annals of Mathematics 150:3 (1999), 1177–1179.  [doi](http://dx.doi.org/10.2307/121067).
 
 [[!redirects holonomy groups]]
