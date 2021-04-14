@@ -18,7 +18,7 @@
 ## Idea 
  {#Idea}
 
-In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] flavour universality_ (LFU). A possible violation of lepton flavour universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
+In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] [[flavour physics|flavour]] universality_ (LFU). A possible violation of lepton flavour universality (LFUV) is also called a _[[flavour in particle physics|flavour]] anomaly_, which, if confirmed, would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
 The presence -- or not -- of flavour anomalies is part of the general _[[flavour problem]]_ of the [[standard model of particle physics]].
 
@@ -1072,3 +1072,7 @@ Unparticles:
 
 [[!redirects flavor anomaly]]
 [[!redirects flavor anomalies]]
+
+[[!redirects lepton flavour universality violation]]
+[[!redirects LFUV]]
+
