@@ -103,3 +103,5 @@ is equivalent to the category of finite-dimensional smooth [[vector bundles]] ov
 * [[smooth Serre–Swan theorem]]
 
 * [[duality between geometry and algebra]]
+
+[[!redirects dualizable modules]]
