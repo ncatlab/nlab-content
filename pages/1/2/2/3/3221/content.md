@@ -59,7 +59,11 @@ The Serre-Swan theorem serves to relate [[topological K-theory]] with [[algebrai
 
 * [[operator K-theory]] 
 
-* [[Quillen-Suslin theorem]] 
+* [[Quillen-Suslin theorem]]
+
+* [[smooth Serre–Swan theorem]]
+
+* [[duality between geometry and algebra]]
 
 [[!include Isbell duality - table]]
 
@@ -89,5 +93,5 @@ A textbook account on the use of the theorem in [[K-theory]] is for instance
 * [[Max Karoubi]], _$K$-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften, Band __226__, Springer 1978. xviii+308 pp. 
 
 
-[[!redirects Serre?Swan theorem]]
+[[!redirects Serre–Swan theorem]]
 [[!redirects Serre--Swan theorem]]
