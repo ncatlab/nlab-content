@@ -33,6 +33,15 @@ is equivalent to the opposite category of [[localizable Boolean algebras]],
 the category of [[measurable locales]],
 and the opposite category of commutative [[von Neumann algebras]].
 
+## Hyperstonean locales
+
+Hyperstonean locales can be defined as [[Stonean locales]]
+that admit sufficiently many [[normal valuations]].
+
+Assuming the [[axiom of choice]], [[Stonean locales]] are
+[[spatial]], so the category of hyperstonean locales
+is equivalent to the category of hyperstonean spaces.
+
 ## References
 
 Hyperstonean spaces were introduced and studied by [[Jacques Dixmier]]:
@@ -46,3 +55,5 @@ An expository account is given by [[Masamichi Takesaki]] in
 [[!redirects hyperstonean spaces]]
 [[!redirects normal measure]]
 [[!redirects normal measures]]
+[[!redirects hyperstonean locale]]
+[[!redirects hyperstonean locales]]
