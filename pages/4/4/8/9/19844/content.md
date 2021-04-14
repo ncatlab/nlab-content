@@ -207,7 +207,7 @@ Implications for the significance across channels:
 
 [GGJLMCS 21](#GGJLMCS21):
 
-> We find that the data on clean observables is a variance with the SM at a level of $3.9 \sigma$.  Furthermore, scenarios with pure left-handed or axial currents provide a better description of these data with a significance close to $5 \sigma$.
+> We find that the data on clean observables is a variance with the SM at a level of $4 \sigma$.  Furthermore, scenarios with pure left-handed or axial currents provide a better description of these data with a significance close to $5 \sigma$.
 
 [AlSt 21](#AltmannshoferStangl21):
 
@@ -222,6 +222,11 @@ Implications for the significance across channels:
 [LIOS 21](#LIOS21):
 
 > we obtain the global significance to be 3.9 standard deviations
+
+
+[MT 21](#MarzoccaTrifinopoulos21):
+
+> the combined significance of the deviation reaches $4.7\sigma$. Furthermore, taking into account also less theoretically-clean observables $[\ldots]$ the overall significance of the deviations  in  this  channel  is  raised  to  even  above  $6\sigma$, depending on the specific SM prediction employed
 
 \linebreak
 
@@ -338,6 +343,8 @@ Some authors therefore begin to speak jointly of _muon anomalies_ ([GST 21](#GST
 \end{imagefromfile}
 
 (This is as of April 2021, see [here](http://www.scholarpedia.org/article/Rare_decays_of_b_hadrons#Prospects) for the source text with more details.).
+
+A [[leptoquark]]-model meaning to explain all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once: [Marzocca-Trifinopoulos 21](#MarzoccaTrifinopoulos21).
 
 
 \linebreak
@@ -865,7 +872,14 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * Oleg Popov, Michael A. Schmidt, Graham White, _$R_2$ as a single leptoquark solution to $R_{D^{(\ast)}}$ and $R_{K^{(\ast)}}$_ ([arXiv:1905.06339](https://arxiv.org/abs/1905.06339))
 
+
+
+* [[Andreas Crivellin]], Francesco Saturnino, _Correlating Tauonic B Decays to the Neutron EDM via a Scalar Leptoquark_ ([arXiv:1905.08257](https://arxiv.org/abs/1905.08257))
+
 * {#CrivellinSaturnino19} [[Andreas Crivellin]], Francesco Saturnino, _Explaining the Flavor Anomalies with a Vector Leptoquark (Moriond 2019 update)_ ([arXiv:1906.01222](https://arxiv.org/abs/1906.01222))
+
+* {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
+
 
 * {#Malinsky19} [[Michal Malinský]], _Lepton non-universality in $B$-decays in the minimal leptoquark gauge model_ ([arXiv:1906.09174](https://arxiv.org/abs/1906.09174))
 
@@ -886,16 +900,20 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 * Shaikh Saad, Anil Thapa, _A Common Origin of Neutrino Masses and $R_{D^\ast}$, $R_{K^\ast}$ Anomalies_ ([arXiv:2004.07880](https://arxiv.org/abs/2004.07880))
 
 
+
 * P. S. Bhupal Dev, Rukmani Mohanta, Sudhanwa Patra, Suchismita Sahoo, _Unified explanation of flavor anomalies, radiative neutrino mass and ANITA anomalous events in a vector leptoquark model_ ([arXiv:2004.09464](https://arxiv.org/abs/2004.09464))
 
 
 * Suman Kumbhakar, Rukmani Mohanta, _Investigating the effect of $U_1$ vector leptoquark on $b \to u \tau \bar\nu$ mediated B decays_ ([arXiv:2008.04016](https://arxiv.org/abs/2008.04016))
 
-* {#GMV20} Valerio Gherardi, David Marzocca, Elena Venturini, _Low-energy phenomenology of scalar leptoquarks at one-loop accuracy_ ([arXiv:2008.09548](https://arxiv.org/abs/2008.09548))
+* {#GMV20} Valerio Gherardi, [[David Marzocca]], Elena Venturini, _Low-energy phenomenology of scalar leptoquarks at one-loop accuracy_ ([arXiv:2008.09548](https://arxiv.org/abs/2008.09548))
 
 * {#CrivellinMuellerSaturnino20a} [[Andreas Crivellin]], Dario Mueller, Francesco Saturnino, _Leptoquarks in Oblique Corrections and Higgs Signal Strength: Status and Prospects_ ([arXiv:2006.10758](https://arxiv.org/abs/2006.10758))
 
 * {CFFPSV20} Marco Ciuchini, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _Lessons from the $B^{0,+} \to B^{\ast, 0,+} \mu^+ \mu^-$ angular analysis_ ([arXiv:2011.01212](https://arxiv.org/abs/2011.01212))
+
+
+* J. Kriewald, C. Hati, J. Orloff, A. M. Teixeira, _A combined explanation of the B-meson decay anomalies with a single vector leptoquark_ ([arXiv:2012.06315](https://arxiv.org/abs/2012.06315))
 
 
 * Andrei Angelescu, Damir Bečirević, Darius A. Faroughy, Florentin Jaffredo, Olcyr Sumensari, _On the single leptoquark solutions to the B-physics anomalies_ ([arXiv:2103.12504](https://arxiv.org/abs/2103.12504))
@@ -908,17 +926,14 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
 
+* {#MarzoccaTrifinopoulos21} [[David Marzocca]], Sokratis Trifinopoulos, *A Minimal Explanation of Flavour Anomalies: B-Meson Decays, Muon Magnetic Moment, and the Cabbibo Angle* ([arXiv:2104.05730](https://arxiv.org/abs/2104.05730))
+
+
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
 
 * {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
-
-* [[Andreas Crivellin]], Francesco Saturnino, _Correlating Tauonic B Decays to the Neutron EDM via a Scalar Leptoquark_ ([arXiv:1905.08257](https://arxiv.org/abs/1905.08257))
-
-* {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
-
-* J. Kriewald, C. Hati, J. Orloff, A. M. Teixeira, _A combined explanation of the B-meson decay anomalies with a single vector leptoquark_ ([arXiv:2012.06315](https://arxiv.org/abs/2012.06315))
 
 
 [[leptoquarks]] particularly as fields in a [[grand unified theory]]:
@@ -1000,7 +1015,7 @@ Other possible explanations of the flavour anomalies:
 
 [[composite Higgs boson]]:
 
-* {#Marzocca18} David Marzocca, _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
+* {#Marzocca18} [[David Marzocca]], _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
 
 * [[Andreas Crivellin]], Dario Müller, Christoph Wiegand, _$b \to s \ell^+ \ell^-$ Transitions in Two-Higgs-Doublet Models_ ([arXiv:1903.10440](https://arxiv.org/abs/1903.10440))
 
