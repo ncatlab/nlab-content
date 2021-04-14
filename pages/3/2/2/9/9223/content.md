@@ -7,3 +7,6 @@
 * [[Stone-von Neumann theorem]]
 
 [[!redirects Marshall Harvey Stone]]
+[[!redirects Marshall H. Stone]]
+[[!redirects M. H. Stone]]
+[[!redirects M. Stone]]
