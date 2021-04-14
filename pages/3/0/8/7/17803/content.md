@@ -75,3 +75,5 @@ A third fact in this vein is that _[[derivations of smooth functions are vector 
 ## References
 
 * {#Nestruev03} [[Jet Nestruev]], _Smooth manifolds and observables_, Graduate texts in mathematics, 220, Springer-Verlag, ISBN 0-387-95543-7 (2003)
+
+[[!redirects smooth Serre–Swan theorem]]
