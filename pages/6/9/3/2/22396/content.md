@@ -18,13 +18,17 @@ The following five categories are equivalent:
 * [[hyperstonean locales]];
 * [[hyperstonean spaces]].
 
-This result can be seen as a measure-theoretic counterpart of the Gelfand duality
-between commutative unital C*-algebras and compact Hausdorff topological spaces.
-
+This result can be seen as a measure-theoretic counterpart of the [[Gelfand duality]] between commutative unital [[C*-algebras]] and [[compact Hausdorff topological spaces]].
 
 ## Related concepts
 
 * [[von Neumann algebra]]
+
+* [[Hilbert W*-module]]
+
+* [[W*-representation]]
+
+* [[duality between geometry and algebra]]
 
 ## References
 
@@ -39,3 +43,4 @@ American Journal of Mathematics 73:2 (1951), 275–313.
 [doi:10.2307/2372178](https://doi.org/10.2307/2372178).
 
 
+[[!redirects commutative von Neumann algebras]]
