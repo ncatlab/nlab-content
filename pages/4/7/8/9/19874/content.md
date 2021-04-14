@@ -211,6 +211,10 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
 
+A [[leptoquark]] model meant to address all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once:
+
+* {#MarzoccaTrifinopoulos21} [[David Marzocca]], Sokratis Trifinopoulos, *A Minimal Explanation of Flavour Anomalies: B-Meson Decays, Muon Magnetic Moment, and the Cabbibo Angle* ([arXiv:2104.05730](https://arxiv.org/abs/2104.05730))
+
 
 and within [[Randall-Sundrum models]]
 
