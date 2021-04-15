@@ -92,7 +92,7 @@ e.g., [[skyscraper sheaves]] etc.
 |[[Hilbert W*-module]] over a commutative von Neumann algebra|measurable field of Hilbert spaces|
 |[[W*-representations]] of a [[commutative von Neumann algebra]] on a [[Hilbert space]]|[[measurable field of Hilbert spaces]]|
 |[[Hilbert C*-module]] over a commutative unital C\*-algebra|continuous field of Hilbert spaces|
-|[[module]] over a commutative algebra over $k$|sheaf of modules over an affine scheme|
+|[[module]] over a commutative ring|[[quasicoherent sheaf]] of $\mathcal{O}$-modules over an affine scheme|
 |[[dualizable module]] over a commutative algebra over $k$|algebraic vector bundle|
 |dualizable module over a finitely generated germ-determined C$^\infty$-ring|smooth vector bundle|
 |dualizable module over finitely presented complex EFC-algebra|holomorphic vector bundle|
@@ -125,6 +125,11 @@ for an arbitrary family (not necessarily finite) of commuting normal operators.
 * [[Stone duality]]
 
 * [[Zariski spectrum]]
+
+* [[noncommutative geometry]]
+
+* [[reconstruction theorem]], [[Gabriel-Rosenberg theorem]]
+
 
 [[!redirects dualities between algebra and geometry]]
 [[!redirects duality between geometry and algebra]]
