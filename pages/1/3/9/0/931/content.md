@@ -89,7 +89,7 @@ Thus a trivialisation of a torsor equips with it a _choice_ of group structure a
 
 ### Functoriality (change of structure group)
 
-Torsors can be transported, or in other words pushed forward, along group homomorphisms, as we shall now show.
+Torsors can be transported, or in other words pushed forward, along group homomorphisms, as we shall now show. (See also at *[G-space -- change of structure group](topological+G-space#ChangeOfGroupsAndFixedLoci)*).
 
 \begin{prpn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. Observe that $\left(g_1, g_2, t \right) \mapsto \left( g_2 \cdot h(g_1)^{-1}, a(g_1, t) \right)$ defines an action $G_1 \times G_2 \times T \rightarrow G_2 \times T$ of $G_1$ on $G_2 \times T$. Then $\left(G_2 \times T \right) / G_1$, the quotient of $G_2 \times X$ with respect to this $G_1$-action, defines a $G_2$-torsor with respect to the action of $G_2$ induced by left multiplication, namely that given by $\left( g, \left[ (g', t') \right] \right) \mapsto \left[ \left(g g', t' \right) \right]$, where $\left[ p \right]$, for some $p \in G_2 \times T$, denotes the [[orbit]] of $p$ with respect to the action of $G_1$ on $G_2 \times T$. \end{prpn}
 
