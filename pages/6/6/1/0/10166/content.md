@@ -332,6 +332,34 @@ such that the following conditions holds:
 
 \end{defn}
 
+\begin{remark}\label{OnTheInternalDefinitionOfPrincipality}
+**(on the internal definition of principality)**
+Notice that in Def. \ref{EquivariantPrincipalBundles} we do *not* explicitly demand that the base space is the [[quotient space]] of the total space by the [[group action]]. This has several reasons:
+
+1. The way the definition is stated, it involves only [[finite limits]] (no [[colimits]]), which means that this notion of equivariant principal bundle will be preserved by all [[right adjoint]] functors on the ambient category, such as notably the [[fixed locus]]-functors (see [there](topological+G-space#FixedLociWithResidualWeylGroupAction)).
+
+1. Nevertheless, the expected quotient condition is both implied as well as circumvented, as need be:
+
+   Once equivariant local trivializability is imposed [below](#NotionsOfEquivariantLocalTriviality) it follows that the underlying [[continuous function]] $P \to X$ is a [[locally trivial]] [[fiber bundle]]. There are then two cases:
+
+   1. Either the [[typical fiber]] is [[inhabited set|inhabited]]. This implies that $P \to X$ is an [[effective epimorphism]], and with that property the shear map condition [above](#EquivariantPrincipality) implies that $X$ is the quotient of $P$ by $G$.
+
+   1. Or the [[typical fiber]] is the [[empty space]]. This case, often disregarded in discussion of fiber bundles, is actually an example of Def. \ref{EquivariantPrincipalBundles}, because for the empty bundle the shear map is an isomorphism:
+
+      $$
+        \Gamma \times \varnothing
+        \overset{\simeq}{\longrightarrow}
+        \varnothing \times_X \varnothing
+      $$
+
+      (since both [[domain]] and [[codomain]] are isomorphic to the [[empty space]]): 
+
+      *Empty bundles are principal! (and locally trivial!), in the above sense.*
+
+      While this degenerate case is irrelevant for ordinary principal bundles, it is crucial for equivariant principal bundles, since their [[fixed loci]] often have empty total space. In fact, if the action $\alpha$ of the [[structure group]] $\Gamma$ is trivial (as is often the case in applications) then it follows at once that any fixed locus of an equivariant principal bundle can have only one of two typical fibers, $\Gamma$ or $\varnothing$, while the structure group is $\Gamma$, in both cases.
+
+\end{remark}
+
 
 ## Properties
 
