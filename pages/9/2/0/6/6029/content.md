@@ -121,15 +121,16 @@ In conclusion, given a [[3d TQFT]] regarded as [[quantum gravity]] of 2+1-dimens
 
 Chapter VI of 
 
-* [[Rudolf Haag]], _[[Local Quantum Physics]]_ (1992)
- {#Haag92}
+* {#Haag92} [[Rudolf Haag]], _[[Local Quantum Physics]]_ (1992)
+ 
 
 discusses how to extract notions of particles from a [[local net of observables]] satisfying the [[Haag-Kastler axioms]].
 
-Further discussion of subtleties of the definition of particles _in_ (non-[[free field theory|free]]) field theories includes
+Further discussion of subtleties of the definition of particles _in_ (non-[[free field theory|free]]) [[quantum field theories]]:
 
-* [[Jonathan Bain]], _Against particle/field duality: Asymptotic particle states and interpolating fields in interacting QFT (or: Who's afraid of Haag's theorem)_, Erkenntnis 53: 375&#8211;406, 2000  ([pdf](http://faculty.poly.edu/~jbain/papers/lsz.pdf))
- {#Bain00}
+* {#Bain00} [[Jonathan Bain]], _Against particle/field duality: Asymptotic particle states and interpolating fields in interacting QFT (or: Who's afraid of Haag's theorem)_, Erkenntnis 53: 375&#8211;406, 2000  ([pdf](http://faculty.poly.edu/~jbain/papers/lsz.pdf))
+ 
+* Benjamin H. Feintzeig, Jonah Librande, Rory Soiffer, *Localizable Particles in the Classical Limit of Quantum Field Theory* ([arXiv:2104.06442](https://arxiv.org/abs/2104.06442))
 
 
 [[!redirects particles]]
