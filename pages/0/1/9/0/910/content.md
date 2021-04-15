@@ -135,7 +135,7 @@ Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorf
 
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
-cartesian closed]].
+cartesian closed]] ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95))
 
 However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the pullback functor $K/B\to K/A$ has a right adjoint. This is what May and Sigurdsson used in their book _Parametrized homotopy theory_.
 
@@ -147,6 +147,11 @@ to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value]]s in which $\{1
 is closed but not open). From this one can get an [[exponential law for
 spaces]] over $B$ if $B$ is $T_0$, so that all fibres of spaces over
 $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
+
+### Regularity
+ {#Regularity}
+
+The category of compactly generated [[Hausdorff spaces]] is a [[regular category]] ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)).
 
 ## Related concepts
 
@@ -176,9 +181,14 @@ Many properties of compactly generated Hausdorff spaces are used to establish a 
 
 * {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 
-Gabriel and Zisman discuss the connection with the exactness of [[geometric realization]] in
+Relation to exactness of [[geometric realization]]:
 
 * [[Peter Gabriel]], Michel Zisman, _Calculus of Fractions and Homotopy Theory_ , Springer Heidelberg 1967. (ch.III.3-4)
+
+Category theoretic properties:
+
+* {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
+
 
 Other and later references include
 
@@ -196,6 +206,8 @@ Other and later references include
 Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
 
 * [[Peter May]], _[[A concise course in algebraic topology]]_, Chapter 5
+
+
 
 * Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
 
