@@ -1,5 +1,8 @@
 
 
+> under construction
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -327,6 +330,8 @@ such that the following conditions holds:
   & 
   X
 \end{tikzcd}
+
+> Warning: This yields a notion much more restrictive than what is considered in the literature, since it forces all local fibers to be equipped with the same action...
 
 
 
