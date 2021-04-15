@@ -64,9 +64,13 @@
 
 ## In higher category theory
 
-* [[Yoneda lemma for bicategories|2-Yoneda lemma]]
+[[Yoneda lemma for higher categories]]:
 
-* [[(∞,1)-Yoneda lemma]]
+* [[Yoneda lemma for (∞,1)-categories]]
+
+* [[Yoneda lemma for bicategories]]
+
+* [[Yoneda lemma for tricategories]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/Yoneda+lemma+-+contents)</div>
