@@ -3,13 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Quantum Field Theory
+#### Fields and quanta
++-- {: .hide}
+[[!include fields and quanta - table]]
+=--
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
@@ -32,6 +32,10 @@ Therefore, together with the very existence of [[hadrons]], also their basic pro
 * Anthony Thomas, _The resolution of the proton spin crisis_, 2008 ([pdf](http://www4.rcf.bnl.gov/~nouicer/BNL_seminars/AWT_2.pdf))
 
 * Xiangdong Ji, Feng Yuan, Yong Zhao, _Proton spin after 30 years: what we know and what we don't?_ ([arXiv:2009.01291](https://arxiv.org/abs/2009.01291))
+
+Apparent resolution by [[lattice QCD]]-computations:
+
+* C. Alexandrou et al., *Complete flavor decomposition of the spin and momentum fraction of the proton using lattice QCD simulations at physical pion mass*, Phys. Rev. D 101, 094513 ([arXiv:2003.08486](https://arxiv.org/abs/2003.08486), [doi:10.1103/PhysRevD.101.094513](https://doi.org/10.1103/PhysRevD.101.094513))
 
  
 See also 
