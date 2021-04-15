@@ -98,7 +98,7 @@ is [[injective function|injective]].
 
 =--
 
-This appears as ([Rezk, lemma 7.9](#Rezk)). 
+This appears as ([Rezk, lemma 7.9](#Rezk)) and ([Lurie, prop. 6.2.3.10](#Lurie)). 
 
 Useful is also the following characterization:
 
