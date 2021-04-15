@@ -69,7 +69,9 @@ In [[supergravity]] this is accompanied by the [[gravitino]].
 
 ### General
 
-(...)
+See at _[quantum gravity -- and an effective perturbative field theory](quantum+gravity#ReferencesAsAnEffectiveFieldTheory)_
+
+
 
 [[!include classification of long-range forces -- references]]
 
