@@ -20,17 +20,44 @@
 An [[action]]
 
 $$
-  * \;\colon\; G \times X \to X
+  (-)\cdot(-) \;\colon\; G \times X \to X
 $$
 
-of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$,  the [[equation]] $g \ast x = x$ [[implication|implies]] $g= e_G$ (the [[neutral element]]).
+of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$,  the [[equation]] $g \cdot x = x$ [[implication|implies]] $g = e_G$ (the [[neutral element]]), hence if only the action of the [[neutral element]] has [[fixed points]].
 
-Equivalently, an action is free when for any pair of elements $x,y \in X$, there is _at most one_ group element $g \in G$ such that $g * x = y$.
+Equivalently, an action is free if and only if for any [[pair]] of elements $x,y \in X$, there is _at most one_ group element $g \in G$ such that $g \cdot x = y$. 
 
-Beware the similarity to and difference with [[effective group action|effective action]]: a free action is effective, but an effective action need not be free.
+In more abstract terms this says that the action is free if and only if its [[shear map]] 
+
+$$
+  \array{
+    G \times X
+    &
+    \overset
+      { (pr_2, \cdot) }
+      {\longrightarrow}&
+    X \times X
+    \\
+    (g, x) 
+    &
+    \mapsto
+    & 
+    \big( x, g \cdot x \big)
+    \,.
+  }
+$$
+
+is a [[monomorphism]]. In this form the definition makes sense for [[action objects]] [[internalization|internal]] to any ambient [[category]] (with [[finite products]]).
 
 
+
+\begin{remark}
+Beware the similarity to and difference of free actions with [[effective group action|effective action]]: a free action is effective, but an effective action need not be free.
+\end{remark}
+
+\begin{remark}
 A free action that is also [[transitive action|transitive]] is called _[[regular action|regular]]_.
+\end{remark}
 
 ## Examples
 
