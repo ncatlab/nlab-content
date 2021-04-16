@@ -123,3 +123,5 @@ Suppose there are parallel morphisms $g, h:B\rightarrow C$ such that for every g
 [[!redirects surjective map]]
 [[!redirects surjective maps]]
 
+[[!redirects surjectivity]]
+
