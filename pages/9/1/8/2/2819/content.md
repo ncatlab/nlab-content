@@ -23,12 +23,15 @@
 +-- {: .num_defn}
 ###### Definition
 
-A [[continuous map]] $p \;\colon\; E\longrightarrow B$ of [[topological space]] is called a **Hurewicz fibration**  if it satisfies the [[right lifting property]] with respect to maps of the form 
+A [[continuous map]] $p \;\colon\; E\longrightarrow B$ of [[topological space]] is called a **Hurewicz fibration**  if it satisfies the [[right lifting property]] against all [[continuous functions]]
 
-$$ \sigma_0 \;\colon\; X\cong X\times\{0\}\hookrightarrow X\times I
+$$ 
+  \sigma_0 
+  \;\colon\; 
+  X \cong X \times\{0\} \hookrightarrow X \times I
 $$ 
 
-for all topological spaces $X$, where $I$ denotes the [[topological interval]].
+including any [[topological space]] $X$ as one end of the [[cyclinder]] over it (where $I = [0,1]$ denotes the [[topological interval]]).
 
 =--
 
@@ -40,9 +43,12 @@ In this context this right lifting property is called the *[[homotopy lifting pr
 
 $$
   \array{
-    X &\stackrel{f}\to& E
+    X &\stackrel{f}\longrightarrow& E
     \\
-    \downarrow^{\sigma_0} &{}^{\tilde{F}}\nearrow&  \downarrow^p
+    {}^{\mathllap{\sigma_0}}
+    \big\downarrow 
+      &{}^{\tilde{F}}\nearrow&  
+    \big\downarrow {}^{\mathrlap{p}}
     \\
     X\times I &\stackrel{F}{\to}& B
   }
@@ -54,7 +60,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Strictly speaking, the "all" in this context should be interpreted to refer to all spaces in whatever ambient category of spaces one is working in, since frequently this is a [[convenient category of spaces]].  In theory, therefore, a map in such a category could be a Hurewicz fibration in that category without necessarily being a Hurewicz fibration in the category of *all* topological spaces, but in practice this usually doesn't make a whole lot of difference.
+Strictly speaking, the "all" in this context should be interpreted to refer to all spaces in whatever ambient [[category]] of [[TopologicalSpaces]] one is working in, since frequently this is a [[convenient category of spaces]].  In theory, therefore, a map in such a category could be a Hurewicz fibration in that category without necessarily being a Hurewicz fibration in the category of *all* topological spaces, but in practice this usually doesn't make a whole lot of difference.
 
 =--
 
@@ -104,6 +110,30 @@ The concept of Hurewicz fibrations makes sense also more generally in the presen
 ## Examples
  {#Examples}
 
+### Empty bundles
+
+\begin{example}\label{EmptyBundlesAreHurewiczFibrations}
+**([[empty bundles]] are [[Hurewicz fibrations]])** \linebreak
+ All [[empty bundles]] $\varnothing \longrightarrow B$ are Hurewicz fibrations,  because none of the [[commuting squares]] that one would have to non-trivially [[lifting property|lift in]] actually exist:
+
+$$
+  \array{
+    X &\overset{ \not \exists }{\longrightarrow}& \varnothing
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    X \times I &\longrightarrow& B
+    \mathrlap{\,,}
+  }
+$$
+
+since the [[empty topological space]] is a [[strict initial object]]: There is *no* morphism to it from any [[inhabited space]] $X$ 
+
+(If $X$ itself is [[empty topological space|empty]], then so is $X \times I$ and then a square only exists if $B$ in turn is empty. This square, consisting entirely of empty spaces, does have a unique lift, trivially, and hence also the empty bundle over the empty space is a Hurewicz fibration -- for what it's worth.)
+
+\end{example}
+
+### Covering spaces
 
 +-- {: .num_example #CoveringSpaceIsHurewiczFibration}
 ###### Example
@@ -112,6 +142,7 @@ The concept of Hurewicz fibrations makes sense also more generally in the presen
 Every [[covering space]] projection is a Hurewicz fibration, by [this prop.](covering#space#HomotopyLiftingPropertyOfCoveringSpaces).
 
 =--
+
 
 ### Fiber bundles
  {#FiberBundles}
@@ -132,6 +163,8 @@ $$
 
 (for $F$ the [[typical fiber]]). Since such a projection is clearly a Hurewicz fibration the claim follows by the local recognition of Hurewicz fibrations over numerable open covers, from Prop. \ref{MapIsHurewiczFibrationIfPullbackToNumerableCoverIsSo}.
 \end{proof}
+
+Notice that the example of [[empty bundles]] (Example \ref{EmptyBundlesAreHurewiczFibrations}) is a special case of a [[fiber bundle]]: With [[typical fiber]] the [[empty topological space]].
 
 
 ## References
