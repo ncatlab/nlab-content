@@ -334,7 +334,7 @@ such that the following conditions holds:
 
 \begin{remark}\label{OnTheInternalDefinitionOfPrincipality}
 **(on the internal definition of principality)**
-Notice that in Def. \ref{EquivariantPrincipalBundles} we do *not* explicitly demand that the base space is the [[quotient space]] of the total space by the [[group action]]. This has several reasons:
+Notice that in Def. \ref{EquivariantPrincipalBundles} we do *not* explicitly demand that the base space is the [[quotient space]] of the total space by the [[group action]] (it defines an [[internalization|internal]] [[pseudo-torsor]] instead of a [[torsor]]). This has several reasons:
 
 1. The way the definition is stated, it involves only [[finite limits]] (no [[colimits]]), which means that this notion of equivariant principal bundle will be preserved by all [[right adjoint]] functors on the ambient category, such as notably the [[fixed locus]]-functors (see [there](topological+G-space#FixedLociWithResidualWeylGroupAction)).
 
