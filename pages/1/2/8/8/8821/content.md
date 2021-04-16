@@ -17,14 +17,55 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The [[empty set]], among all sets, has two characteristic properties:
+
+1. there is a *unique* [[function]] *out* of the empty set, to any other set;
+
+1. there is *no* [[function]] *to* the empty set, except from itself.
+
+The first property generalizes to arbitrary [[categories]] as the property of an *[[initial object]]*.
+
+The corresponding generalization including also the second property is that of a *strict initial object*:
+
+
 ## Definition
 
-An [[initial object]] $\emptyset$ is called a **strict initial object** if any [[morphism]] $x\to \emptyset$ must be an [[isomorphism]].  
+An [[initial object]] $\varnothing$ is called a **strict initial object** if every [[morphism]] [[codomain|to]] $\varnothing$ is an [[isomorphism]]:
+
+$$
+  X \overset{\simeq}{\longrightarrow} \emptyset
+  \,.
+$$
+
+
+
 
 ## Examples
+ {#Examples}
 
-The initial objects of a poset, of [[Set]], [[Cat]], [[Top]], and of any [[topos]] (more generally of any [[extensive category]] and even any [[distributive category]]) are strict.  
+The [[empty set]] is a strict initial object in [[Sets]].
+
+The [[empty topological space]] is a strict initial object in [[TopologicalSpaces]].
+
+The [[empty groupoid]] is a strict initial object in [[Groupoids]].
+
+The initial objects of any of the following types of categories are strict:
+
+* in [[posets]]
+
+* in [[toposes]] 
+
+* in [[extensive categories]] 
+
+* in [[distributive categories]].
 
 At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
+
+## Related concepts
+
+* An [[empty bundle]] is morphism out of a strict initial object (an [[empty morphism]]), regarded as a [[bundle]].
+
 
 [[!redirects strict initial objects]]
