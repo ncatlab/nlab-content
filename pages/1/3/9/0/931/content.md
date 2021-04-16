@@ -12,6 +12,7 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
@@ -35,7 +36,7 @@ If here $T$ is not required to be [[inhabited set|inhabited]] (possibly [[empty 
 
 \begin{rmk} As a consequence of Remark \ref{RemarkTorsorIsomorphicToStructureGroup}, a torsor with respect to some group can be thought of as a [[heap]]. \end{rmk}
 
-\begin{rmk} Asking that $a \times p_2$ be an isomorphism is the same as to say that it is both [[free action|free]] and [[transitive action|transitive]]: free-ness corresponds to injectivity of $a \times p_2$, and transitivity corresponds to surjectivity of it. \end{rmk}
+\begin{rmk} Asking that the [[shear map]] $a \times p_2$ be an [[isomorphism]] is the same as to say that the action is both [[free action|free]] and [[transitive action|transitive]], hence [[regular action|regular]] if [[inhabited set|inhabited]]: free-ness corresponds to [[injectivity]] of $a \times p_2$, and transitivity corresponds to [[surjectivity]] of the [[shear map]]. \end{rmk}
 
 \begin{example} An [[affine space]] of dimension $n$ over a [[field]] $k$ is a torsor for the additive group $k^n$: this acts by _translation_. \end{example}
 
