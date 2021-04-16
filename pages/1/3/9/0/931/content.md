@@ -29,6 +29,8 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 
 \begin{defn} Let $G$ be a [[group]]. A _$G$-torsor_ is a [[set]] $T$ together with an [[action]] $a: G \times T \rightarrow T$ of $G$ on $T$ such that the [[shear map]] $a \times p_2: G \times T \rightarrow T \times T$ is an [[isomorphism]], where $p_2$ is the canonical [[projection]] map $G \times T \rightarrow T$. \end{defn}
 
+If here $T$ is not required to be [[inhabited set|inhabited]] (possibly [[empty set|empty]]) one also speaks of a *[[pseudo-torsor]]*.
+
 \begin{rmk} \label{RemarkTorsorIsomorphicToStructureGroup} If $T$ is non-empty, we shall prove [below](#TrivialisationInSets) that it follows from the definition that $T$ is isomorphic to the underlying set of $G$.  There are many such isomorphisms, and where torsors are used it is often important to choose/fix one. Such a choice is known as a _trivialisation_ of $T$. See [below](#TrivialisationInSets) for more details. \end{rmk} 
 
 \begin{rmk} As a consequence of Remark \ref{RemarkTorsorIsomorphicToStructureGroup}, a torsor with respect to some group can be thought of as a [[heap]]. \end{rmk}
