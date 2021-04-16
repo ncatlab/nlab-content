@@ -48,9 +48,9 @@ If here $T$ is not required to be [[inhabited set|inhabited]] (possibly [[empty 
 
 \begin{example} \label{ExampleTorsorFromAGroup} Let $G$ be a [[group]]. The action of $G$ on itself equips the underlying set of $G$ with the structure of a $G$-torsor. \end{example}
 
-\begin{example} Given two isomorphic objects $X$ and $Y$ in any category $C$, all isomorphisms between $X$ and $Y$ form a torsor (both for $Aut(X)$ and for $Aut(Y)$, which are mutually isomorphic but not canonically). This is an insight used in (M. Kontsevich, _Operads and motives in deformation quantization_, Lett.Math.Phys.48:35-72 (1999) arXiv:[math/9904055](https://arxiv.org/abs/math/9904055) [doi](https://doi.org/10.1023/A:1007555725247)) explaining period matrices from the point of view of a coordinate ring of an affine torsor. 
-
 \begin{rmk} We shall see in Remark \ref{RemarkGroupStructureFromTrivialisation} that all torsors actually arise as in Example \ref{ExampleTorsorFromAGroup}.  \end{rmk}
+
+\begin{example} Given two isomorphic objects $X$ and $Y$ in any category $C$, all isomorphisms between $X$ and $Y$ form a torsor (both for $Aut(X)$ and for $Aut(Y)$, which are mutually isomorphic but not canonically). This is an insight used in (M. Kontsevich, _Operads and motives in deformation quantization_, Lett.Math.Phys.48:35-72 (1999) arXiv:[math/9904055](https://arxiv.org/abs/math/9904055) [doi](https://doi.org/10.1023/A:1007555725247)) explaining period matrices from the point of view of a coordinate ring of an affine torsor. \end{example}
 
 ### Single-sorted definition
 
