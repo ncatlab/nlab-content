@@ -73,3 +73,8 @@ Anonymous: There is [this stackexchange post](https://math.stackexchange.com/que
 
 [[!redirects inclusion]]
 [[!redirects inclusions]]
+
+[[!redirects injectivity]]
+
+
+
