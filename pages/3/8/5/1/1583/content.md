@@ -23,7 +23,9 @@ The **empty space** is the [[topological space]] with no points.  That is, it is
 
 ### General
 
-The empty space is the [[initial object]] in [[Top]].  It satisfies all [[separation axiom|separation]], [[compact space|compactness]], and countability conditions ([[separable space|separability]], [[first-countable space|first countability]], [[second-countable space|second-countability]]).  It is also both [[discrete space|discrete]] and [[indiscrete space|indiscrete]], a distinction it shares only with the [[point space]].
+The empty space is the ([[strict initial object|strict]]) [[initial object]] in [[TopologicalSpaces]].  
+
+It satisfies all [[separation axiom|separation]], [[compact space|compactness]], and countability conditions ([[separable space|separability]], [[first-countable space|first countability]], [[second-countable space|second-countability]]).  It is also both [[discrete space|discrete]] and [[indiscrete space|indiscrete]], a distinction it shares only with the [[point space]].
 
 
 ### Connectedness
@@ -58,7 +60,6 @@ See [[too simple to be simple]] for general theory.
 
 * [[discrete space]]
 
-* [[nothing]]
 
 [[!include universal constructions of topological spaces -- table]]
 
