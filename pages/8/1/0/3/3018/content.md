@@ -232,7 +232,8 @@ More should go here, but for now see [[compact closed double category]].
 
 A generalization to [[pseudonatural transformations]] can be found in
 
-* Alexander S. Corner, _A universal characterisation of codescent objects_, [TAC](http://tac.mta.ca/tac/volumes/34/24/34-24abs.html) 2019.
+* J.C. Vidal, J.S. Tur, _A 2-categorial generalization of the concept of institution_, Studia Logica, 2010 [doi](https://10.1007/s11225-010-9268-0)
+* Alexander S. Corner, _A universal characterisation of codescent objects_, [TAC](http://tac.mta.ca/tac/volumes/34/24/34-24abs.html) 34:24, 2019.
 
 
 [[!redirects extranatural transformations]]
