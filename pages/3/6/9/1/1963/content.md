@@ -204,6 +204,7 @@ More discussion of this is at [[deformation theory]].
 
 There should be some more clearly algebraic examples (other than obvious things like restricting the above to polynomials), but I don\'t know how to state them.
 
+* Let $R[[x]]$ be a [[formal power series]] over a ring $R$. Then the [[formal derivative]] is a derivation. 
 
 ### Derivations with values in a bimodule
 
