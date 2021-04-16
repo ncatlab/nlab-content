@@ -35,7 +35,13 @@ $$
   }
 $$
 
-The action $A$ is called a *$G$-[[torsor]]* if the shear map is an [[isomorphism]]. (Or rather a [[pseudo-torsor]] if $A$ is not required to be [[inhabited]].)
+The action $A$ is called 
+
+* a *[[free action]]* if the shear map is a [[monomorphism]],
+
+* a *[[transitive action]]* if the shear map is an [[epimorphism]],
+
+* a *$G$-[[torsor]]* if the shear map is an [[isomorphism]] (or rather a *[[pseudo-torsor]]* if $A$ is not required to be [[inhabited]]).
 
 Often this is considered in the case that 
 
