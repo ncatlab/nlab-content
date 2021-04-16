@@ -26,7 +26,7 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 
 ## In the category of sets
 
-### Definition
+### Two-sorted definition
 
 \begin{defn} Let $G$ be a [[group]]. A _$G$-torsor_ is a [[set]] $T$ together with an [[action]] $a: G \times T \rightarrow T$ of $G$ on $T$ such that the [[shear map]] $a \times p_2: G \times T \rightarrow T \times T$ is an [[isomorphism]], where $p_2$ is the canonical [[projection]] map $G \times T \rightarrow T$. \end{defn}
 
@@ -41,12 +41,9 @@ If here $T$ is not required to be [[inhabited set|inhabited]] (possibly [[empty 
 \begin{example} An [[affine space]] of dimension $n$ over a [[field]] $k$ is a torsor for the additive group $k^n$: this acts by _translation_. \end{example}
 
 \begin{example} A [[unit of measurement]] is (typically) an element in an $\mathbb{R}^\times$-torsor, for $\mathbb{R}^\times$ the multiplicative group of non-zero [[real number]]s: for $u$ any unit and $r \in \mathbb{R}$ any non-vanishing real number, also $r u$ is a unit. And for $u_1$ and $u_2$ two units, one is expressed in terms of the other by a unique $r \neq 0$ as $u_1 = r u_2$. For instance for units of [[mass]] we have the unit of [[kilogram]] and that of gram and there is a unique number, $r = 1000$ with
-
   $$
-    kg = 1000 g
-    \,.
+    kg = 1000 g.
   $$
-
 \end{example}
 
 \begin{example} \label{ExampleTorsorFromAGroup} Let $G$ be a [[group]]. The action of $G$ on itself equips the underlying set of $G$ with the structure of a $G$-torsor. \end{example}
@@ -54,6 +51,42 @@ If here $T$ is not required to be [[inhabited set|inhabited]] (possibly [[empty 
 \begin{example} Given two isomorphic objects $X$ and $Y$ in any category $C$, all isomorphisms between $X$ and $Y$ form a torsor (both for $Aut(X)$ and for $Aut(Y)$, which are mutually isomorphic but not canonically). This is an insight used in (M. Kontsevich, _Operads and motives in deformation quantization_, Lett.Math.Phys.48:35-72 (1999) arXiv:[math/9904055](https://arxiv.org/abs/math/9904055) [doi](https://doi.org/10.1023/A:1007555725247)) explaining period matrices from the point of view of a coordinate ring of an affine torsor. 
 
 \begin{rmk} We shall see in Remark \ref{RemarkGroupStructureFromTrivialisation} that all torsors actually arise as in Example \ref{ExampleTorsorFromAGroup}.  \end{rmk}
+
+### Single-sorted definition
+
+It is possible to define torsors using a single-sorted [[algebraic theory]].
+This is entirely analogous to how [[affine spaces]] can be defined
+either as sets with a free and transitive action of a [[vector space]],
+or, equivalently, as sets equipped with operations that take
+arbitrary affine combinations with coefficients in a given ring.
+
+More precisely, a __torsor__ (also
+known as a [[heap]] when stated in a single-sorted form)
+is a set $T$ equipped with a ternary operation
+$$t\colon T^3 \to T$$
+such that
+$$t(a,a,b)=t(b,a,a)=b,\qquad t(t(a,b,c),d,e)=t(a,b,t(c,d,e)).$$
+A __homomorphism of torsors__ is a map of sets that preserves this operation.
+
+The equivalence with the two-sorted definition is demonstrated as follows.
+
+Given a $G$-torsor $T$, we send it to the set $T$ equipped with
+the ternary operation $t(a,b,c)=g(a,b)c$, where
+$g(a,b)$ is the unique element of $G$ such that $g(a,b)b=a$.
+
+Given a torsor $(T,t)$, we send it to the pair $(LTrans(T),T)$,
+where $LTrans(T)$ is a subgroup of the group of bijections on the set $T$
+comprising precisely the bijections of the form $c\mapsto t(a,b,c)$
+for some elements $a,b\in T$.
+The group $G$ acts on $T$ by evaluation: $gt=g(t)$.
+
+Mapping $(T,t)\mapsto (LTrans(T),T)\mapsto (T,t)$ gives back the same torsor
+$(T,t)$ that we started from.
+
+Mapping $(G,T)\mapsto (T,t)\mapsto (LTrans(T),t)$ produces
+a torsor $(LTrans(T),t)$ that is naturally isomorphic to $(G,T)$
+via the isomorphism
+$$(G,T)\to(LTrans(T),T),\qquad g\mapsto (t\mapsto gt),\qquad t\mapsto t.$$
 
 ### Trivialisation {#TrivialisationInSets}
 
