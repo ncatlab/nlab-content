@@ -7,7 +7,7 @@
 
 A _heap_ is an algebraic structure which is basically equivalent to a [[group]] when one forgets about which element is the [[identity element|unit]].  Similar notions are [[affine space]], [[principal homogeneous space]] and so on. However, the notion of a heap has a directness and simplicity in the sense that it is formalized as an algebraic structure with only one ternary operation satisfying a short list of axioms. If we start with a group the ternary operation is defined via $(a,b,c)\mapsto a b^{-1}c$.  We can interpret that operation as shifting $a$ by the (right) translation in the group which translates $b$ into $c$.  There is also a dual version, [[quantum heap]].
 
-Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science.  There are also a number of synonyms for the term 'heap'; below we consider 'torsor' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is associative Mal'cev algebra (in various spellings).
+Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science.  There are also a number of synonyms for the term 'heap'; below we consider 'torsor' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
 
 
 ## Definition
@@ -106,11 +106,13 @@ This is even [[constructive mathematics|constructive]]; the theorems can be prov
 _Cogroups and co-rings in categories of associative rings_, 
 Ch.IV, paragraph 22, p.95ff  -- Providence, R.I. : AMS 1996.
 
-* Z. &#352;koda, _Quantum heaps, cops and heapy categories_, Mathematical Communications 12, No. 1, pp. 1--9 (2007); ([math.QA/0701749](http://arxiv.org/abs/math.QA/0701749))
+* Z. &#352;koda, _Quantum heaps, cops and heapy categories_, Mathematical Communications 12, No. 1, pp. 1--9 (2007); arXiv:[math.QA/0701749](http://arxiv.org/abs/math.QA/0701749)
+
+* Thomas Booker, [[Ross Street]], _Torsors, herds and flocks_, J. Algebra 330 (2011) 346–374 [pdf](https://core.ac.uk/download/pdf/81154582.pdf) [arXiv:0912.4551](https://arxiv.org/abs/0912.4551)
 
 * [wikipedia:heap](http://en.wikipedia.org/wiki/Heap_%28mathematics%29)
 
-* [Heaps and torsors](http://www.math.ucr.edu/home/baez/torsors.html)
+* [[John Baez]] on [Heaps and torsors](http://www.math.ucr.edu/home/baez/torsors.html)
 
 There is an oidification ([[horizontal categorification]]) of a heap, sometimes called a _heapoid_. 
 
@@ -121,3 +123,5 @@ There is an oidification ([[horizontal categorification]]) of a heap, sometimes 
 [[!redirects heap]]
 [[!redirects heaps]]
 [[!redirects Heap]]
+[[!redirects herd]]
+[[!redirects associative Malcev algebra]]
