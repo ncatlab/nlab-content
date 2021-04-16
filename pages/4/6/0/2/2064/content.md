@@ -120,6 +120,8 @@ Every [[locally trivial]] topological fiber bundle projection is a [[Serre fibra
 
   * [[sphere fiber bundle]], [[spherical fibration]]
 
+  * [[empty bundle]]
+
   * [[equivariant bundle]]
 
   * [[fiber bundles in physics]]
