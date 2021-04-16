@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,7 +35,7 @@ $$
   }
 $$
 
-The action $A$ is called a *$G$-[[torsor]]* if the shear map is an [[isomorphism]]. (Beware that this does not imply that $A$ is [[inhabited object|inhabited]].)
+The action $A$ is called a *$G$-[[torsor]]* if the shear map is an [[isomorphism]]. (Or rather a [[pseudo-torsor]] if $A$ is not required to be [[inhabited]].)
 
 Often this is considered in the case that 
 
@@ -81,7 +92,7 @@ because the shear map (eq:ShearMapForBundles) is the universal comparison morphi
 
 * [[group action]]
 
-* [[torsor]]
+* [[torsor]], [[pseudo torsor]]
 
 * [[principal bundle]]
 
