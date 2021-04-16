@@ -29,7 +29,7 @@ $$  \array{ \bullet & {\to} & \bullet & \\
            \downarrow &&\downarrow && \downarrow  \\
           \bullet  & {\to}& \bullet & \to & \bullet   }
 $$
-thus forming a (strict) [[double category]], also written $\square C$. It contains the _vertical category_ $\square_1 C$ and the _horizontal category_ $\square _2 C$. 
+thus forming a (strict) [[double category]], also written $\square C$, whose objects are those of $C$, whose horizontal and vertical 1-cells are given by morphisms in $C$, and whose 2-cells exhibit commutative squares. It contains the _vertical category_ $\square_1 C$ and the _horizontal category_ $\square _2 C$. 
 
 One can also form _multiple compositions_ $[a_{ij}]$ of arrays $(a_{ij})$, $i=1, \ldots, m; j=1, \ldots , n$,  of commutative squares   provided that in the obvious sense _adjacent squares are composible_. One checks by induction that:
 
