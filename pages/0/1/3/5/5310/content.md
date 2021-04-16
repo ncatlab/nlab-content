@@ -26,7 +26,7 @@ to construct a square root of $y$.  However, we *cannot* prove that every comple
 How much choice is needed to prove that every element of $K[\mathrm{i}]$ has a square root, where $K$ is *any* real-closed field?  Maybe [[COSHEP]] will do?
 =--
 
-Note that there is never any trouble finding a square root of $y$ if we assume that $y \neq 0$, nor (obviously) is there any trouble if we assume that $y = 0$.  Accordingly, the classical results hold for [[discrete fields]], but this doesn\'t apply constructively to analysis.
+Note that there is never any trouble finding a square root of $y$ if we assume that $y \neq 0$, nor (obviously) is there any trouble if we assume that $y = 0$.  Accordingly, the classical results hold for [[discrete fields]] and [[integral domain|discrete integral domains]], but this doesn\'t apply constructively to analysis.
 
 
 ## Related concepts
