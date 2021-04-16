@@ -1,0 +1,1 @@
+Reverse mode [[automatic differentiation]] is often referred to as backpropagation, when specialized to the context of [[neural networks]].
