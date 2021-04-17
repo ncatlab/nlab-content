@@ -20,10 +20,9 @@
 In [[geometric group theory]], the _Cayley graph_ (also: _Cayley [[quiver]]_) of a [[group]], $G$, equipped with a [[set]] of [[generators]], $X$, encodes how the chosen generating elements operate (by multiplication)  on the [[elements]] of the group.
 
 
-
 ## Definition
 
-Given a [[group]], $G$, and a [[set]] of [[generators]], $X$, which we regard as a [[subset]] of the underlying set $|G|$ of $G$, we can form a [[directed graph]] with the [[elements]] of $G$ as the [[vertices]] and with its [[edges]] labelled (some people say 'coloured')  by the elements of $X$ with an edge joining a vertex, $g$, to the vertex $g x$ labelled by $x$
+Given a [[group]], $G$, and a [[set]] of [[generators]], $X$ (e.g. a [[finitely generated group]] if $X$ is a [[finite set]]), which we regard as a [[subset]] of the underlying set $|G|$ of $G$, we can form a [[directed graph]] with the [[elements]] of $G$ as the [[vertices]] and with its [[edges]] labelled (some people say 'coloured')  by the elements of $X$ with an edge joining a vertex, $g$, to the vertex $g x$ labelled by $x$
 
 $$
   g \overset{x}{\longrightarrow} g x
@@ -32,25 +31,33 @@ $$
 
 This graph is called the _Cayley graph_ of the group, $G$, relative to the set of generators.
 
+The [[metric]] induced from corresponding [[graph distance]] is also called the *word metric* on the group $G$ with respect to its generators $X$.
+
+
 ## Example 
 
-Consider one of the standard presentations of $S_3$, $ (a,b  :  a^3, b^2, (a b)^2)$. Write $ r = a^3$, $s = b^2$, $t = (ab)^2$.  
+### For the symmetric group
+
+\begin{example}
+Consider one of the standard presentations of the [[symmetric group]] $S_3$, $ (a,b  :  a^3, b^2, (a b)^2)$. Write $ r = a^3$, $s = b^2$, $t = (ab)^2$.  
 
 The Cayley graph is easy to draw.  There are two triangles corresponding to $1 \to a \to a^2$ and to its translate by $b$, $b \to a b \to a^2 b$, flipping the orientation of the second, and three 2-cycles, $1\to b\to 1$, $a\to a b\to a$ and $a^2\to a^2b\to a^2$.
 
-
-
 To understand the geometric significance of this graph we compare the algebraic information in the presentation with the homotopical information in the graph (considered as a CW-complex).
-
 
 Looking at the presentation it leads to a free group, $F$, on the generators, $a$ and $b$, so $F$ is free of rank 2, but the normal closure of the relations $N(R)$ is a subgroup of $F$, so it must be
 free as well, by the [[Nielsen-Schreier theorem]].  Its rank will be 7, given by the [[Nielsen-Schreier theorem|Schreier index formula]].
 
-Looked at geometrically, this will be the [[fundamental group]] of the   Cayley graph, of the
-presentation.  This group is free on generators corresponding to edges outside 
-a maximal tree, and, of course, there are 7 of these.
+Looked at geometrically, this will be the [[fundamental group]] of the   Cayley graph, of the presentation.  This group is free on generators corresponding to edges outside  a maximal tree, and, of course, there are 7 of these.
+\end{example}
 
-##Related entries
+* [[Kendall kernel]]
+
+* [[Mallows kernel]]
+
+## Related entries
+
+* [[graph distance]]
 
 * [[identity among the relations]]
 
@@ -60,13 +67,18 @@ a maximal tree, and, of course, there are 7 of these.
 
 ### General
 
+Textbooks:
+
+* [[Cornelia Druţu]], [[Michael Kapovich]], Section 7.9 of: *Geometric group theory*, Colloquium Publications **63**, AMS 2018 ([ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649))
+
+
 See also:
 
 * Wikipedia, _[Cayley graph ](https://en.wikipedia.org/wiki/Cayley_graph)_
 
 ### Distance on Cayley graph 
 
-On [[distances]] in Cayley graphs:
+On [[graph distances]] in Cayley graphs:
 
 For [[symmetric groups]] ([[permutations]]):
 
@@ -74,3 +86,6 @@ For [[symmetric groups]] ([[permutations]]):
 
 
 [[!redirects Cayley quiver]]
+
+[[!redirects word metric]]
+[[!redirects word metrics]]
