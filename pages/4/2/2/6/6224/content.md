@@ -116,6 +116,8 @@ Specifically:
 
 ## Related pages
 
+* [[solvable group]]
+
 * [[nilpotent module]]
 
 * [[nilpotent element]]
