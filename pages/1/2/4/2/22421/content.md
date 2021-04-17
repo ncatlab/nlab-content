@@ -23,7 +23,7 @@ A *finitely generated group* is a ([[discrete group|discrete]]) [[group]] (equip
 
 Associated with a set of generators on a group is the corresponding [[Cayley graph]], whose [[vertices]] are the group elements which are connected by an [[edge]] if they differ by (left, say) multiplication with one of the generators.
 
-The corresponding [[graph distance]] equips the group with a [[metric]] and makes it an object of [[geometric group theory]].
+The corresponding [[graph distance]] equips the group with a [[metric]] (the *[[word metric]]*) and thus makes it an object of [[geometric group theory]].
 
 ## Related concepts
 
