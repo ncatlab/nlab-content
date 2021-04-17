@@ -75,6 +75,8 @@ $$
 
 * [[universal higher central extension]]
 
+* [[nilpotent group]]
+
 ## References
 
 See also 
