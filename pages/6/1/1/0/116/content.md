@@ -231,6 +231,8 @@ For more see [[counterexamples in algebra]].
 
     * [[finite group]], [[profinite group]]
 
+    * [[finitely generated group]]
+
   * [[subgroup]]
 
     * [[torsion subgroup]]
