@@ -125,6 +125,8 @@ If $G$ is a profinite or pro-p group, the best replacement for the group algebra
 
 ## Related concepts
 
+* [[finite group]], [[finitely generated group]]
+
 * [[pro-object]]
 
 * [[profinite completion of a group]]
