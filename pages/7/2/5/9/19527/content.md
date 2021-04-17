@@ -39,7 +39,7 @@ The [[metric]] induced from corresponding [[graph distance]] is also called the 
 ### For the symmetric group
 
 \begin{example}
-Consider one of the standard presentations of the [[symmetric group]] $S_3$, $ (a,b  :  a^3, b^2, (a b)^2)$. Write $ r = a^3$, $s = b^2$, $t = (ab)^2$.  
+Consider one of the standard presentations of the [[symmetric group]] $S_3$, $ (a,b  :  a^3, b^2, (a b)^2)$. Write $ r = a^3$, $s = b^2$, $t = (a b)^2$.  
 
 The Cayley graph is easy to draw.  There are two triangles corresponding to $1 \to a \to a^2$ and to its translate by $b$, $b \to a b \to a^2 b$, flipping the orientation of the second, and three 2-cycles, $1\to b\to 1$, $a\to a b\to a$ and $a^2\to a^2b\to a^2$.
 
