@@ -35,13 +35,18 @@ It is argued in ([Simpson 12](#Simpson12)) that the Banach-Tarski paradox disapp
 
 ## References
 
-The original article is
+The original article:
 
 * {#BanachTarski24} [[Stefan Banach]], [[Alfred Tarski]], _Sur la décomposition des ensembles de points en parties respectivement congruentes_  Fundamenta Mathematicae (in French). 6: 244–277, 1924 ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm6/fm6127.pdf))
 
+Textbook account:
+
+* [[Cornelia Druţu]], [[Michael Kapovich]], Chapter 17 of: *Geometric group theory*, Colloquium Publications **63**, AMS 2018 ([ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649))
+
+
 See also:
 
-* _[Banach-Tarski paradox](https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox)_
+* Wikipedia, _[Banach-Tarski paradox](https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox)_
 
 Discussion in [[point-free topology]]:
 
