@@ -1,4 +1,55 @@
 
+
+$$
+  \array{
+    t_{i, i+1}
+    \;=\;
+    (1)(2)\cdots (i-1) (i+1, i) (i+2) \cdots (n)
+    \;\colon\;
+    &
+    \{1, \cdots, n\}
+    &
+    \overset{\;\;\simeq\;\;}{\longrightarrow}
+    &
+    \{1, \cdots, n\}
+    \\
+    & 
+    k
+    &\mapsto&
+    \left\{
+    \array{ 
+       k &\vert&  k \notin \{i,i+1\}
+       \\
+       i + 1 &\vert& k = i
+       \\
+       i &\vert& k = i+1
+    }
+    \right.
+  }
+$$
+
+$$
+  \array{
+    \{1, \cdots, n\}
+    &
+    \underoverset{\simeq}{\;\;\; \sigma_{i,j} \;\;\; }{\longrightarrow}
+    &
+    \{1, \cdots, n\}
+    \\
+    k 
+    &\mapsto&
+    \left\{
+    \array{
+       k &\vert& k \notin \{i,j\}
+       \\
+       j &\vert& k = i
+       \\
+       i &\vert& k = j
+    }
+    \right.
+  }
+$$
+
 $$
   \array{
     D \times S \times F
