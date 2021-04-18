@@ -85,6 +85,23 @@ using the fact that tensorings are computed in $\mathcal{C}$.
 
 =--
 
+### Models for over (∞,1)-categories]
+
+When restricted to fibrant objects, the operation of forming over category of a model category induces the operation of forming the [[over (∞,1)-category]] of an [[(∞,1)-category]].
+
+More explicitly, for a model category $C$, let $\gamma : C \to L(C)$ denote the localization (as an [[(∞,1)-category]]) inverting the weak equivalences. (this can equivalently be computed by a [[simplicial localization]]; see the [[model structure on relative categories]])
+
++-- {: .num_prop #PresentationOfSliceInfinityCatAlt}
+###### Proposition
+
+If $C$ is a [[model category]] and $X \in C$ is fibrant, then $\gamma$ induces a map $C/X \to L(C)/\gamma(X)$, which induces an equivalence $L(C/X) \to L(C)/\gamma(X)$.
+
+=--
+
+The main result is corollary 7.6.13 of ([Cisinski](#Cisinski20)). Model categories are (∞,1)-categories with weak equivalences and fibrations as defined in
+definition [Cisinski 7.4.12](#Cisinski20).
+
+
 ### Derived hom-spaces
 
 +-- {: .num_prop #PresentationOfSliceInfinityCat}
@@ -239,6 +256,7 @@ Quillen's criterion for Quillen equivalences now yields the statements about equ
 
 * {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([pdf](http://www-math.mit.edu/~psh/undercat.pdf), [arXiv:1507.01624](https://arxiv.org/abs/1507.01624))
 
+* {#Cisinski20} [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 [[!redirects model structure on an overcategory]]
 [[!redirects model structure on an under category]]
