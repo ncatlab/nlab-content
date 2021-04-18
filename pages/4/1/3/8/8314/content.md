@@ -173,6 +173,8 @@ $$
 
 * [[binary cyclic group]]
 
+* [[permutation cycle]], [[cyclic permutation]]
+
 * [[multiplicative group of integers modulo n]]
 
 * [[Q/Z]]
