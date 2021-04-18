@@ -1,711 +1,90 @@
 
-$\#$
+
+This main result is corollary 7.6.13 of [Cisinski 20](#Cisinski20). Model categories are (∞,1)-categories with weak equivalences and fibrations as defined in [Cisinski Def. 7.4.12](#Cisinski20).
+
+We spell out a proof for the special case that $\mathcal{C}$ carries the [[extra structure]] of a [[simplicial model category]]:
+
++-- {: .num_prop #PresentationOfSliceInfinityCat}
+###### Proposition
+
+If $\mathcal{C}$ is a [[simplicial model category]] and $X \in \mathcal{C}$ is [[fibrant object|fibrant]], then the [[overcategory]] $\mathcal{C}/X$ with the above slice model structure is a [[presentable (infinity,1)-category|presentation]] of the 
+[[over-(∞,1)-category]] $L_W \mathcal{C} / \gamma(X)$: 
+we have an [[equivalence of (∞,1)-categories]]
 
 $$
-  \array{
-    t_{i, i+1}
-    \;=\;
-    (1)(2)\cdots (i-1) (i+1, i) (i+2) \cdots (n)
-    \;\colon\;
-    &
-    \{1, \cdots, n\}
-    &
-    \overset{\;\;\simeq\;\;}{\longrightarrow}
-    &
-    \{1, \cdots, n\}
-    \\
-    & 
-    k
-    &\mapsto&
-    \left\{
-    \array{ 
-       k &\vert&  k \notin \{i,i+1\}
-       \\
-       i + 1 &\vert& k = i
-       \\
-       i &\vert& k = i+1
-    }
-    \right.
-  }
-$$
-
-$$
-  \array{
-    \{1, \cdots, n\}
-    &
-    \underoverset{\simeq}{\;\;\; \sigma_{i,j} \;\;\; }{\longrightarrow}
-    &
-    \{1, \cdots, n\}
-    \\
-    k 
-    &\mapsto&
-    \left\{
-    \array{
-       k &\vert& k \notin \{i,j\}
-       \\
-       j &\vert& k = i
-       \\
-       i &\vert& k = j
-    }
-    \right.
-  }
-$$
-
-$$
-  \array{
-    D \times S \times F
-    &
-    \simeq
-    & 
-    (D \times H) \times_H (S \times F)
-    &
-    \overset{\simeq}{\longrightarrow}
-    & 
-    (D \cdot H)
-    \times_H 
-    (S \times F)
-    &
-    \longrightarrow
-    & 
-    G \times_H ( S \times F )
-    \\
-    \big\downarrow
-    && && 
-    \big\downarrow
-    &
-      {}^{{}_{(pb)}}
-    &
-    \big\downarrow
-    \\
-    D \times S
-    &\simeq&
-    (D \times H) \times_H S
-    &
-    \underoverset
-      { m \times_H id }
-      {\simeq}
-      {\longrightarrow}
-    &
-    (D \cdot H) \times_H S
-    &\hookrightarrow&
-    G \times_H S
-  }
-$$
-
-
-
-\begin{tikzcd}[column sep=large]
-  G\mathrm{Spaces}
-  \ar[
-    rr,
-    shift right=7pt,
-    "(N(H) \hookrightarrow G)^\ast"{below}
-  ]
-  \ar[
-    rr,
-    phantom,
-    "\scalebox{.7}{$\bot$}"
-  ]
-  \ar[
-    rrrr,
-    rounded corners,
-    to path={ 
-         -- ([yshift=-20pt]\tikztostart.south) 
-         --node[below]{\scalebox{.7}{$(-)^H$}} ([yshift=-20pt]\tikztotarget.south) 
-         -- (\tikztotarget.south)}
-  ]
-  &&
-  N\!(H)\mathrm{Spaces}
-  \ar[
-    ll,
-    shift right=7pt,
-    "G \times_{N\!(H)} (-)"{above}
-  ]
-  \ar[
-    rr,
-    shift right=7pt,
-    "{
-      \mathrm{Maps}
-      (
-        N\!(H)\!/H,
-        -
-      )^{N\!(H)}
-    }"{below}
-  ]
-  \ar[
-    rr,
-    phantom,
-    "\scalebox{.7}{$\bot$}"
-  ]
-  &&
-  \big(
-    N\!(H)\!/H
-  \big)\mathrm{Spaces}
-  \ar[
-    ll,
-    shift right=7pt,
-    "{
-      ( N\!(H) \twoheadrightarrow N\!(H)\!/H )^\ast
-    }"{above}
-  ]
-  \ar[
-    llll,
-    rounded corners,
-    to path={
-         -- ([yshift=+20pt]\tikztostart.north)
-         --node[above]{\scalebox{.7}{$G/H \times_{N\!(H)\!/H}(-)$}} ([yshift=+20pt]\tikztotarget.north)
-         -- (\tikztotarget.north)}
-  ]
-\end{tikzcd}
-
-
-Throughout, let $G_1, G_2 \in $ [[TopologicalGroups]]
-and consider a [[continuous function|continuous]] [[homomorphism]] of [[topological groups]]
-
-$$
-  \phi
-  \;\colon\;
-  G_1 
-    \longrightarrow
-  G_2
+  L_W(\mathcal{C}/X) \simeq  (L_W\mathcal{C}) / \gamma(X)
   \,.
 $$
 
-\begin{defn}\label{PullbackAction}
-  **(pullback action)** \linebreak
-  Write
-  $$
-    Topological G_1 Spaces
-      \overset{
-        \;\;\;
-        \phi^\ast
-        \;\;\;
-       }{\longleftarrow}
-    Topological G_2 Spaces
-  $$
+=--
 
-for the [[functor]] which takes a [[topological G-space|topological G2-space]] $(X,\rho)$ to the same underlying [[topological space]] $\rho$, equipped with the $G_1$-action $ \rho(\phi(-))$.
 
-\end{defn}
++-- {: .proof}
+###### Proof
 
-\begin{lemma}
+We write equivalently $(-)^\circ \coloneqq L_W(-)$.
 
-The pullback action functor (Def. \ref{PullbackAction}) is the [[left adjoint]] of a pair of [[adjoint functors]]
+It is clear that we have an [[essentially surjective (∞,1)-functor]] $\mathcal{C}^\circ/X \to (\mathcal{C}/X)^\circ$. What has to be shown is that this is a [[full and faithful (∞,1)-functor]] in that it is an [[equivalence in an (∞,1)-category|equivalence]] on all [[hom-object|hom]]-[[∞-groupoid]]s $\mathcal{C}^\circ/X(a,b) \simeq (\mathcal{C}/X)^\circ(a,b)$.
 
-$$
-  G_1 Spaces
-  \underoverset
-    {
-      \underset{
-        Maps
-        \big(
-          G_2, -
-        \big)^{G_1}
-      }{\longrightarrow}
-    }
-    {
-      \overset{
-         \phi^\ast
-      }{
-         \longleftarrow
-      }
-    }
-    {\bot}
-  G_2 Spaces
-$$
-
-where for $X \in Topological G_1 Spaces$ 
-the expression $Maps(G_2,-)^{G_1}$ denotes the $G_1$-[[fixed locus]] in the [[mapping space]] between [[topological spaces]] equipped with $G_1$-[[actions]] (on $G_2$ the $\phi$-induced left multiplication action) 
-and equipped with the $G_2$-[[group action|action]] given by
-
-\[
-  \label{ActionOnG1EquivariantMapsOutOfG2}
-  \array{
-    G_2 \times Maps(G_2,X)^{G_1}
-    &
-      \overset{}{\longrightarrow}
-    &
-    Maps(G_2,X)^{G_1}
-    \\   
-    (g_2, h)
-    &\mapsto&
-    h\big(
-      (-) \cdot g_2
-    \big)
-     \,.
-  }
-\]
-
-\end{lemma}
-
-\begin{proof}
-
-To see the defining [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism), consider a $G_1$-[[equivariant function|equivariant]] [[continuous function]]
-
-$$
-  \phi^\ast X
-  \overset{
-    \;\;\;
-    f
-    \;\;\;
-  }{
-    \longrightarrow
-  }
-  Y
-  \,.
-$$
-
-From this we obtain the following function
+To see this, notice that the hom-space in an [[over-(∞,1)-category]] $\mathcal{C}^\circ/X$ between objects $a \colon A \to X$ and $b \colon B \to X$ is given (as discussed there) by the  [[(∞,1)-pullback]]
 
 $$
   \array{
-    X 
-    &
-      \overset{
-        \tilde f
-      }{
-        \longrightarrow 
-      }
-    &
-    Maps
-    \big(
-      G_2,
-      Y
-    \big)^{G_1}
+    \mathcal{C}^\circ/X(A \stackrel{a}{\to} X, B \stackrel{b}{\to} X) 
+     &\to& \mathcal{C}^\circ(A,B)
     \\
-    x
-    &\mapsto&
-    \big(
-      g_2
-      \mapsto
-      f( g_2 \cdot x )
-    \big)
-    \,,
+    \big\downarrow 
+      && 
+    \big\downarrow^{\mathrlap{b_*}}
+    \\
+    {*} &\stackrel{a}{\to}& \mathcal{C}^\circ(A,X)
   }
 $$
 
-where $e \in G_2$ denotes the [[neutral element]].
+in [[∞Grpd]].
 
-This is manifestly:
-
-* well-defined, due to the $G_1$-equivariance of $f$;
-
-* continuous, being built from composition of continuous map;
-
-* $G_2$-equivariant with respect to the action (eq:ActionOnG1EquivariantMapsOutOfG2).
-
-Conversely, given a $G_2$-equivariant continuous function $X \overset{\tilde f}{\longrightarrow} Maps\big(G_2, Y\big)^{G_1}$, we obtain the following function
+Let $A \in C$ be a cofibrant representative and $b \colon B \to X$ be a 
+fibration representative in $C$ (which always exists) of the objects of these names in $C^\circ$, respectively. In terms of these we have a cofibration
 
 $$
   \array{
-    \phi^\ast X 
-    &\overset{}{\longrightarrow}&
-    Y
+    \emptyset &&\hookrightarrow&& A
     \\
-    x
-    &\mapsto&
-     \tilde f(x)(e)
-    \,.
-  }
-$$
-
-This is:
-
-* continuous, being the composition of continuous functions;
-
-* $G_1$-equivariant due to the equivariance properties of $\tilde f$:
-
-  $$
-    \begin{aligned}
-      \phi(g_1) \cdot x
-      & \mapsto
-      \tilde f
-      \big( 
-        \phi(g_1)\cdot x
-      \big) 
-      (e)
-      \\
-      & = 
-      \tilde f
-      ( 
-        x
-      ) 
-      \big(
-         e \cdot \phi(g_1)
-      \big)
-      \\
-      & =
-      \tilde f
-      ( 
-        x
-      ) 
-      \big(
-         \phi(g_1)
-         \cdot 
-         e
-      \big)
-      \\
-      & =
-      g_1
-        \cdot
-      \big(
-      \tilde f
-      ( 
-        x
-      ) 
-      (
-         e
-      )
-      \big)
-    \end{aligned} 
-  $$
-
-Finally, it is clear that these transformations $f \leftrightarrow \tilde f$ are [[natural transformation|natural]], hence it only remains to see that they are [[bijective]]:
-
-Plugging in the above constructions we find indeed:
-
-$$
- \widetilde 
-  {\tilde f}
-  \;\colon\;
-  x \mapsto f(e \cdot x) = f(x)
-$$
-
-and
-
-$$
-  \begin{aligned}
-    \widetilde {\widetilde {\tilde f}}
-    \;\colon\;
-    x 
-    & 
-    \mapsto 
-    \big(
-      g_2 \mapsto \tilde f(g_2 \cdot x)(e) 
-    \big)
-    \\
-    & =
-    \big(
-      g_2 \mapsto \tilde f(x)(e \cdot g_2) 
-    \big)  
-    \\
-    & =
-    \big(
-      g_2 \mapsto \tilde f(x)(g_2) 
-    \big)  
-    \,.
-  \end{aligned}
-$$
-
-\end{proof}
-
-\begin{tikzcd}
-  G \times P
-  \ar[
-    drr,
-    bend left=20,
-    "\rho"
-  ]
-  \ar[
-    ddr,
-    bend right=20,
-    "\mathrm{pr}_2\;\;\;"{below}
-  ]
-  \ar[
-    dr,
-    dashed,
-    "\simeq"{description}
-  ]
-  \\
-  & 
-  P \times_X P
-  \ar[
-    r
-  ]
-  \ar[d]
-  \ar[
-    dr,
-    phantom,
-    "\mbox{\tiny\rm(pb)}"{description}
-  ]
-  &
-  P 
-  \ar[
-    d,
-    "p"
-  ]
-  \\
-  &
-  P 
-  \ar[
-    r,
-    "p"{below}
-  ]
-  & 
-  X
-\end{tikzcd}
-
-
-
-$$
-  \array{
-    \widehat G 
-      \times_{\widehat H} 
-    S
-    &\longrightarrow&
-    \widehat G \times_{\widehat H} \widehat H
-    &{\phantom{}}&
-    \\
-    \big\downarrow
-    &&
-    \big\downarrow
-    \\
-    G \times_H S
-    &\longrightarrow&
-    G \times_H H
-  }
-$$
-
-
-$$
-  \array{
-    \big(
-      \Gamma \rtimes_\alpha G
-    \big)
-      \times_{\widehat H}    
-    S
-    &
-      \longrightarrow
-    &
-    \big(
-      \Gamma \rtimes_\alpha G
-    \big)
-    / \widehat H
-    \\
-    \big\downarrow
-    &&
-    \big\downarrow
-    \\
-    G \times_H S
-    &
-    \underoverset
-      {}{}{\longrightarrow}
-    &
-    G/H
-  }
-$$
-
-\linebreak
-
-\linebreak
-
-
-$$
-  \array{
-    \big(
-      \Gamma \rtimes_\alpha G
-    \big)
-      \times_{\widehat H}    
-    S
-    &
-      \longrightarrow
-    &
-    \big(
-      \Gamma \rtimes_\alpha G
-    \big)
-    \times_{\hat H} \hat H
-    \\
-    \big\downarrow
-    &&
-    \big\downarrow
-    \\
-    G \times_{\hat H} S
-    &
-    \underoverset
-      {}{}{\longrightarrow}
-    &
-    G \times_{\hat H} \widehat H
-  }
-$$
-
-
-
-$\ldots$
-
-$\infty$
-
-
-Please do not delete the following example for the moment!
-
-An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
-
-
-
-\section{References}
-
-\bibitem{MarraReggio2020}
-
-\bibitem{vandenBergGarner2011}
-
-\bibitem{AdámekRosícky2020}
-
-\bibitem{FongSpivakTuyeras2017}
-
-\linebreak
-
-\bibitem{Witten1995}
-
-\linebreak
-
-$$
-  \frac{13}{48}
-  (
-    p_2 - \frac{1}{4} p_1^2
-  )
-  -
-  \frac{1}{4}
-  (\frac{1}{4} p_1^2)
-$$
-
-$$
-  \frac{13}{12}
-  (
-    p_2 - \frac{1}{4} p_1^2
-  )
-  -
-  (\frac{1}{4} p_1^2)
-$$
-
-$$
-  \frac{13}{12}
-    p_2 
-
-  -
-  \frac{25}{12}
-  (\frac{1}{4} p_1^2)
-$$
-
-$$
-  13
-  p_2 
-  -
-  5
-  p_1^2
-$$
-
-$\Eta$
-
-Write
-
-$$
-  \array{
-    Q
-    \\
-    \mathllap{
-      {}^{{}_{
-        h \mapsto (\phi(h),h)
-      }}
-    }
-    \big\uparrow
+    & \searrow && \swarrow_{\mathrlap{a}}
     \\ 
-    H
+    && X
   }
 $$
 
-$$
-  (\phi(g_1 g_2), g_1 g_2)
-  =
-  (\phi(g_1), g_1)
-  \cdot
-  (\phi(g_2), g_2)  
-  =
-  \big(
-    \phi(g_1) \cdot \alpha(g_1)(\phi(g_2)),
-    g_1 \cdot g_2
-  \big)
-$$
+in $\mathcal{C}/X$, exhibiting $a$ as a cofibrant object of $\mathcal{C}/X$;  and a fibration
 
 $$
   \array{
-    (\gamma, u)
-    &\mapsto&
-    [\gamma, \sigma(u)]
+    B &&\stackrel{b}{\to}&& X
     \\
-    \Gamma \times U 
-    &
-    \underoverset{}{[id \times \sigma]}{
-      \rightleftarrows
-    }
-    &
-    \big(
-      \Gamma \rtimes_\alpha G_{\vert U} 
-    \big)/ Q
-    \\
-    \gamma 
-    \phi(\sigma(u)),
-    u
-    &&
-    [\gamma, g]
+    & {}_{\mathllap{b}}\searrow && \swarrow_{\mathrlap{Id}}
+    \\ 
+    && X
   }
 $$
 
+in $\mathcal{C}/X$, exhibiting $b$ as a fibrant object in $\mathcal{C}/X$.
+ 
+Moreover, the diagram in [[sSet]] given by
 
 $$
-  [\gamma,g]
-  \;=\;
-  (\gamma,g)
-    \cdot
-  ( \phi(g^{-1} \sigma(u)),  g^{-1} \sigma(u)  )
-  \;=\;
-  (
-    \gamma
-    \alpha(g)(\phi(g^{-1} \sigma(u)))
-  )
-$$
-
-$$
-    \gamma
-    \alpha(g)(\phi(g^{-1} \sigma(u)))
-   =
-    \gamma
-    \alpha(g)(  \phi(g^{-1}) \alpha(g^{-1})(\phi(\sigma(u)))  )
-  =
-  \gamma
-  \alpha(g)(\phi(g^{-1}))
-  \phi(\sigma(u))
-$$
-
-$$
-  \array{   
-    G
-    \times_H
-    (S \times \Gamma)
-    &
-    \longrightarrow
-    &
-    G \times_H \Gamma
-    & 
-    =
-    &
-    (\Gamma \times G)
-    \big/
-    ( graph(H \to \Gamma) )
+  \array{
+    \mathcal{C}/X(a, b) &\longrightarrow& \mathcal{C}(A,B)
     \\
-    \big\downarrow
-    &&
-    \big\downarrow
-    & 
-    \swarrow
+    \big\downarrow && \big\downarrow^{\mathrlap{b_*}}
     \\
-    G \times_H S
-    &
-    \underoverset
-      {}
-      {}
-      {\longrightarrow}
-    &
-    G \times_H H
+    {*} &\stackrel{a}{\to}& \mathcal{C}(A,X)
   }
 $$
+
+is 
+
+
+=--
 
 
