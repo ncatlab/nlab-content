@@ -110,7 +110,7 @@ In this form, Wick rotation is also known as _[[thermal quantum field theory]]_.
 
 > graphics grabbed form [Frolov-Zelnikov 11](#FrolovZelnikov11)
 
-Wick rotation also applies on suitable [[black-hole]]-[[spacetimes]] spring
+Wick rotation also applies on suitable [[black hole]]-[[spacetimes]] spring
 thermodynamics, such as the [[Bekenstein-Hawking entropy]], find elegant explanations, at least at the level of the manipulation of formulas (see e.g. [Fulling-Ruijsenaars 87, section 4](#FullingRuijsenaars87)). 
 
 ### Example
@@ -137,11 +137,12 @@ Technically, this works for any four-vector comparison between Minkowski space a
 
 ## References
 
+
 Wick rotation between [[relativistic field theory]] in terms of [[Wightman axioms]] for [[n-point functions]] on [[Minkowski spacetime]] and [[Euclidean field theory]] in terms of [[Osterwalder-Schrader axioms]] for [[correlators]] on [[Euclidean space]] is due to 
 
 * {#OsterwalderSchrader73} [[Konrad Osterwalder]], [[Robert Schrader]], _Axioms for Euclidean Green's functions_, Comm. Math. Phys. Volume 31, Number 2 (1973), 83-112 ([Euclid:1103858969](https://projecteuclid.org/euclid.cmp/1103858969))
 
-The generalization of this for [[positive number|positive]] [[thermal equilibrium]] [[vacuum staes]], relating to [[thermal quantum field theory]] with compact/periodic Euclidean time is discussed in
+The generalization of this for [[positive number|positive]] [[thermal equilibrium]] [[vacuum states]], relating to [[thermal quantum field theory]] with compact/periodic Euclidean time is discussed in
 
 * {#KleinLandau81} Abel Klein, Lawrence Landau, _Periodic Gaussian Osterwalder-Schrader positive processes and the two-sided Markov property on the circle_, Pacific Journal of Mathematics, Vol. 94, No. 2, 1981 ([
 DOI: 10.2140/pjm.1981.94.341](https://msp.org/pjm/1981/94-2/p12.xhtml), [pdf](https://msp.org/pjm/1981/94-2/pjm-v94-n2-p12-s.pdf))
@@ -172,6 +173,17 @@ See also
 
 * {#Witten13} [[Edward Witten]], _The Feynman $i \epsilon$ in String Theory_ ([arXiv:1307.5124](http://arxiv.org/abs/1307.5124))
 
+On the (non-)existence of Wick rotation for [[quantum field theory on curved spacetimes]]:
+
+MathOverflow comments:
+
+* [[Igor Khavkine]] ([MO:a/165317](https://mathoverflow.net/a/165317/381))
+
+* [[Robert Bryant]] ([MO:a/165345](https://mathoverflow.net/a/165345/381))
+
+See also:
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], p. 7-8 in: _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001))
 
 
-
+[[!redirects Wick rotations]]
