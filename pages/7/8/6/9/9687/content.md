@@ -192,7 +192,8 @@ See also at _[[glueball]]_.
 * {#Wilson74} [[Kenneth Wilson]],  _Confinement of quarks, Phys. Rev. D10, 2445, 1974 ([doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445))
 
 
-Textbook accounts include
+Textbook accounts:
+
 * David Griffiths, chapter 8 of _Introduction to Elementary Particles_ 2nd ed., 2008. ([pdf] (https://www.physics.utah.edu/~belz/phys5110/Griffiths.pdf))
 
 * {#Greensite11} Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
@@ -226,6 +227,11 @@ Other technical reviews include
 * G. M. Prosperi, _Confinement and bound states in QCD_ ([arXiv:hep-ph/0202186](http://arxiv.org/abs/hep-ph/0202186))
 
 * {#DHMMNVW19} Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+
+See also:
+
+* [[Yuri A. Simonov]], *The fundamental scale of QCD* ([arXiv:2103.08223](https://arxiv.org/abs/2103.08223))
+
 
 #### Via monopole condensation
  {#ViaMonopoleCondensation}
@@ -265,9 +271,10 @@ Discussion of confinement as a result of the [[interacting vacuum]] includes
 
 * {#Rafelski90} [[Johann Rafelski]], _Vacuum structure -- An Essay_, in pages 1-29 of H. Fried, Berndt Müller (eds.) _Vacuum Structure in Intense Fields_, Plenum Press 1990 ([GBooks](https://books.google.de/books?id=5uXcBwAAQBAJ&pg=PA14&lpg=PA14&dq=confinement+%22interacting+vacuum%22&source=bl&ots=xPGYJ-JOc-&sig=AoYbqWQeNRMg6hMSRZjJ3nzq8B0&hl=en&sa=X&ved=0ahUKEwjIgK68-tnYAhVCESwKHThMDykQ6AEIKTAA#v=onepage&q=confinement%20%22interacting%20vacuum%22&f=false))
 
-See also
+See also:
 
-* {#Simonov18} Yu. A. Simonov, _What is the confinement mechanism in QCD?_ ([arXiv:1804.08946](https://arxiv.org/abs/1804.08946))
+* {#Simonov18} [[Yuri A. Simonov]], _Field Correlator Method for the confinement in QCD_, Phys. Rev. D 99, 056012 (2019) ([arXiv:1804.08946](https://arxiv.org/abs/1804.08946), [doi:10.1103/PhysRevD.99.056012](https://doi.org/10.1103/PhysRevD.99.056012))
+
 
 ### In super-Yang-Mills theory
  {#ReferencesInSuperYangMillsTheory}
