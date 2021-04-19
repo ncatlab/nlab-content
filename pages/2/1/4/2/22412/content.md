@@ -10,9 +10,12 @@ It is typically the method of choice for computing derivatives in machine learni
 AD works by calculating the (transposed) derivative of a composite program in terms of the (transposed) derivatives of the parts, by using the chain-rule. The distinction between derivatives and transposed derivatives leads to the main distinction in automatic differentiation modes:
 
 
-* _forward mode AD_: this implements the [[tangent bundle]] functor $T$ and calculates derivatives by a forward pass to calculate function values (primals), followed by another forward pass to calculate derivative values (tangents); these two forward passes can be interleaved into a single forward pass for efficiency
+* _forward mode AD_: this implements the [[tangent bundle]] functor $T$ and calculates derivatives by a forward pass to calculate function values (primals), followed by another forward pass to calculate derivative values (tangents); these two forward passes can be interleaved into a single forward pass for efficiency.
 
 * _reverse mode AD_: this implements the [[cotangent bundle]] functor $T^*$ and calculates transposed derivatives by a forward pass to calculate function values (primals), followed by a _reverse_ pass (inverting the control flow of the original program) to calculate transposed derivative values (cotangents); these two passes cannot easily be interleaved due to their differing direction.
+
+When calculating a derivative of a program that implements a function $f:R^n\to R^m$, reverse mode tends to be the more efficient algorithm if $n \gg m$ and forward mode tends to be more efficient if $n\ll m$.
+Seeing that many tasks in machine learning and statistics require the calculation of derivatives (for use in gradient-based optimization or Monte-Carlo sampling) of functions $f:R^n\to R$ (e.g. probability density functions) for $n$ very large, reverse mode AD tends to be the most popular algorithm.
 
 ## Combinatory Homomorphic Automatic Differentiation (CHAD) - a categorical take on AD
 
