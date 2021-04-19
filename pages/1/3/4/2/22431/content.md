@@ -75,7 +75,7 @@ $$
 
 ### Invariance
 
-The following is immediate from the Def. \ref{CayleyDistance}:
+The following is immediate from Def. \ref{CayleyDistance}:
 
 \begin{prop}\label{CayleyMetricIsRightInvariant}
 **(Cayley metric is right invariant)**
@@ -164,7 +164,6 @@ Since it is $k-1$ transposition factors in (eq:CyclicPermutationAsProductOfTrans
 
 ## References
 
-
 Textbook accounts:
 
 * {#Diaconis88} [[Persi Diaconis]], Chapter 6B of: *Group Representations  in Probability  and  Statistics*, Lecture Notes - Monographs Series, Institute of Mathematical Statistics 1988 ([pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
@@ -173,9 +172,13 @@ See also:
 
 * Richard G.E. Pinch, *The distance of a permutation from a subgroup of $S_n$* ([arXiv:math/0511501](https://arxiv.org/abs/math/0511501))
 
+* Thaynara Arielly de Lima; Mauricio Ayala-Rincón, *Complexity of Cayley distance and other general metrics on permutation groups* ([doi:10.1109/ColombianCC.2012.6398020](https://doi.org/10.1109/ColombianCC.2012.6398020), [pdf](https://www.mat.unb.br/ayala/shortw4v2.pdf))
+
 Discussion of the exponentiated negative Cayley distance (kernel):
 
 * [[Michael A. Fligner]], [[Joseph S. Verducci]], Section 4 of: *Distance Based Ranking Models*, Journal of the Royal Statistical Society. Series B (Methodological) Vol. 48, No. 3 (1986), pp. 359-369 ([jstor:2345433](https://www.jstor.org/stable/2345433))
+
+* [[Persi Diaconis]], [[Phil Hanlon]], Section 4 of: *Eigen Analysis for Some Examples of the Metropolis Algorithm*, in Donald Richards (ed.) *Hypergeometric Functions on Domains of Positivity, Jack Polynomials, and Applications*, Contemporary Mathematics Vol. 138, AMS 1992 ([doi:10.1090/conm/138](http://dx.doi.org/10.1090/conm/138), [EFS NSF 392](https://statistics.stanford.edu/research/eigen-analysis-some-examples-metropolis-algorithm), [pdf](https://statweb.stanford.edu/~cgates/PERSI/papers/eigen-metalg.pdf))
 
 * [[Michael A. Fligner]], [[Joseph S. Verducci]] (eds.), *Probability Models and Statistical Analyses for Ranking Data*, Lecture Notes in Statistics **80**, Springer 1993 ([doi:10.1007/978-1-4612-2738-0](https://link.springer.com/book/10.1007/978-1-4612-2738-0))
 
