@@ -1,5 +1,4 @@
-* [website](https://alexis.toumi.xyz)
-
+[alexis.toumi.xyz](https://alexis.toumi.xyz)
 
 ## Selected writings
 
