@@ -61,7 +61,7 @@ General accounts of (perturbative, algebraic) quantum field theory on curved spa
 
 * [[Robert Wald]], _Quantum field theory in curved spacetime and black hole thermodynamics_. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
 
-* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001))
 
 * [[Christopher Fewster]], [[Rainer Verch]], _Algebraic quantum field theory in curved spacetimes_ ([arXiv:1504.00586](https://arxiv.org/abs/1504.00586))
 
