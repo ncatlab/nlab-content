@@ -50,7 +50,7 @@ $$
     \\
     & {}_{\mathllap{id}}\searrow 
     &\swArrow_{\mathrlap{\simeq}}& 
-    \swarrow_{\mathrlap{p_\phi}}
+    \swarrow_{\mathrlap{p_\rho}}
     \\
     && \mathbf{B}G
   }
@@ -71,7 +71,7 @@ $$
   \array{
     (\mathbf{B}G)_\bullet && \stackrel{\sigma_\bullet}{\longrightarrow} && (S//G)_\bullet
     \\
-    & {}_{\mathllap{id_\bullet}}\searrow &=& \swarrow_{\mathrlap{(p_\phi)_\bullet}}
+    & {}_{\mathllap{id_\bullet}}\searrow &=& \swarrow_{\mathrlap{(p_\rho)_\bullet}}
     \\
     && (\mathbf{B}G)_\bullet
   }
@@ -125,7 +125,7 @@ $$
     X && \stackrel{\sigma}{\longrightarrow} && S//G
     \\
     & {}_{\mathllap{g}}\searrow 
-    &\swArrow_{\mathrlap{\simeq}}& \swarrow_{\mathrlap{p_\phi}}
+    &\swArrow_{\mathrlap{\simeq}}& \swarrow_{\mathrlap{p_\rho}}
     \\
     && \mathbf{B}G
   }
