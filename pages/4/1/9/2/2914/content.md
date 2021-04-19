@@ -2,7 +2,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+###Context####
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -84,7 +84,7 @@ using the fact that tensorings are computed in $\mathcal{C}$.
 
 =--
 
-### Models for over (∞,1)-categories
+### As presentations for over (∞,1)-categories
 
 When restricted to [[fibrant objects]], the operation of forming the model structure on an overcategory presents the operation of forming the [[over (∞,1)-category]] of an [[(∞,1)-category]].
 
@@ -197,7 +197,7 @@ is
 
 1. a [[pullback]] diagram in [[sSet]] (by the definition of morphism in an ordinary [[overcategory]]);
 
-1. a [[homotopy pullback]] in the [[model structure on simplicial sets]], because  by the axioms on the [[sSet]]${}_{Quillen}$ [[enriched model category]] $C$ and the above (co)fibrancy assumptions, all objects are [[Kan complex]]es and the right vertical morphism is a [[Kan fibration]]. 
+1. a [[homotopy pullback]] in the [[model structure on simplicial sets]], because  by the [[pullback power axiom]] on the [[sSet]]${}_{Quillen}$ [[enriched model category]] $C$ and the above (co)fibrancy assumptions, all objects are [[Kan complexes]] and the right vertical morphism is a [[Kan fibration]];
 
 1. has in the top left the correct [[derived hom-space]] in $C/X$ (since $a$ is cofibrant and $b$ fibrant).
 
