@@ -84,8 +84,8 @@ the [[semantics]] $[[Df(s)]]$ of the program $Df(s)$ (resp. $Dr(s)$) equals the 
 CHAD is correct in the sense that it calculates the correct (transposed) derivative of any composite (possibly higher-order) program between first-order types  (meaning: types built using only [[positive type]] formers), provided that it calculates the correct (transposed) derivatives of all primitive operations like $(*)$ that we used to generate the source language.
 That is, CHAD is a valid way for compositionally calculating (transposed) derivatives of composite computer programs, as long as we correctly implement the derivatives for all primitive operations (basic mathematical functions like multiplication, addition, sine, cosine) in the language.
 
-We can prove this by a standard [[logical relations]] argument.
-Viewed more abstractly, the proof follows automatically because the [[subscone|scone]] of an $S$-category is itself again an $S$-category, for common most choices of $S$.
+We can prove this by a standard [[logical relations]] argument, relating smooth curves to their primal and (co)tangent curves.
+Viewed more abstractly, the proof follows automatically because the [[Artin gluing]] along a representable functor (like the hom out of the real numbers) of an $S$-category is itself again an $S$-category, for common most choices of $S$.
 
 ## Related concepts 
 
