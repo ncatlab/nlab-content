@@ -172,7 +172,7 @@ A duoidal category is the same as an [[intercategory]] with one object and only 
 
 ## References
 
-* [[Marcelo Aguiar]] and [[Swapneel Mahajan]], *Monoidal Functors, Species and Hopf Algebras*, [pdf](http://www.math.cornell.edu/~maguiar/a.pdf).  Here the notion is called a "2-monoidal category".
+* [[Marcelo Aguiar]] and [[Swapneel Mahajan]], *Monoidal Functors, Species and Hopf Algebras*, [pdf](http://www.math.iitb.ac.in/~swapneel/aguiar.pdf).  Here the notion is called a "2-monoidal category".
 
 * [[Richard Garner]], _Understanding the small object argument_, [arXiv](http://arxiv.org/abs/0712.0724).  Here the notion is called a "2-fold monoidal category", although [[iterated monoidal category|that term]] is also used for the case when the two units coincide.
 
