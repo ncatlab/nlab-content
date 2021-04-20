@@ -36,7 +36,15 @@ $$
 
 Denote the [[counit of the adjunction]] $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$. 
 
-Two $\mathcal{C}$-sets $X$ and $Y$ are called **weakly equivalent** if there is a [[morphism]] $f \colon X\to Y$ inducing an [[equivalence of categories|equivalence]] $f_* \colon i_{\mathcal{C}} X\to i_{\mathcal{C}} Y$ of their cell categories, i.e., the induced map of [[nerves]] ("[[classifying spaces]]") $B(i_{\mathcal{C}} X)\to B(i_{\mathcal{C}} Y)$ is a [[weak equivalence of simplicial sets]]. The functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ induces a functor $i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$ of the [[homotopy categories]].  
+A [[morphism]] of $\mathcal{C}$-sets $f\colon X\to Y$ is a **weak equivalence** is the induced map $i_{\mathcal{C}}(f)\colon i_{\mathcal{C}} X\to i_{\mathcal{C}} Y$ of their cell categories, i.e., the induced map of [[nerves]] ("[[classifying spaces]]") $B(i_{\mathcal{C}} X)\to B(i_{\mathcal{C}} Y)$ is a [[weak equivalence of simplicial sets]].
+Two $\mathcal{C}$-sets $X$ and $Y$ are called **weakly equivalent** if there is a weak equivalence $f \colon X\to Y$. The functor
+$$i_{\mathcal{C}}:\mathcal{C}Set\to Cat$$
+induces a functor
+$$i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$$
+of the [[homotopy categories]].  
+
++-- {: .num_defn #testcategory}
+###### Definition
 
 A $\mathcal{C}$-set $X$ is called **aspherical** if the category $i_{\mathcal{C}}(X)$ is weakly contractible, i.e. the nerve $B(i_{\mathcal{C}}(X))$ is a weakly contractible simplicial set. Note that if $\mathcal{C}$ is a weakly contractible category, then this is equivalent to the condition that the map $X \to 1$ to the terminal presheaf is a weak equivalence of $\mathcal{C}$-sets.
 
@@ -51,39 +59,74 @@ A **test category** is any small category $\mathcal{A}$ such that
 
 A **strict test category** is a test category $\mathcal{A}$ such that
 
-* $i_{\mathcal{C}} : \mathcal{C}Set \to Cat$ preserves [[finite products]] up to weak equivalence, 
+* $i_{\mathcal{A}} : \mathcal{A}Set \to Cat$ preserves [[finite products]] up to weak equivalence, 
 
 or equivalently, such that
 
-* the induced functor $i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$ preserves finite products.
+* the induced functor $i_{\mathcal{A}*}:Ho(\mathcal{A}Set)\to Ho(Cat)$ preserves finite products.
 
-Then one proceeds with $\mathcal{A}$-sets.
+=--
 
-If $\mathcal{A}$ is a test category and $\mathcal{C}$ any small category whose classifying space is contractible (which may or may not be a test category itself), then their cartesian [[product]] $\mathcal{A}\times\mathcal{C}$ is a test category. 
++-- {: .num_remark}
+###### Remark
+
+One can show that a small category $\mathcal{C}$ is a weak test category if and only if both the unit $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$ and the co-unit $\eta : Id_{\mathcal{C}Set/X}\to i^*_{\mathcal{C}}i_{\mathcal{C}}$ are weak equivalence; see Lemme 1.3.8 and Proposition 1.3.9 in ([Maltsiniotis](#Maltsin05)). In particular, one then have an equivalence of categories
+$$Ho(\mathcal{C}Set)\cong Ho(Cat)\, .$$
+
+An example of weak test category which is not a test category is the category $\Delta_+$ (so that a presheaf on $\Delta_+$ is a [[semi-simplicial set]]). This comes from a more general family of examples studied in ([Cisinski, Maltsiniotis](#CisMal11)).
+
+=--
 
 ## Properties
 
 ### Homotopy category
 
-The [[homotopy category]] of a [[category of presheaves]] over a test category, as a [[category with weak equivalences]] is equivalent to the standard homotopy category of [[homotopy theory]]: that of the category of [[simplicial sets]]/[[topological spaces]] with weak equivalences being [[weak homotopy equivalences]].
+The [[homotopy category]] of a [[category of presheaves]] over a (weak) test category, as a [[category with weak equivalences]] is equivalent to the standard homotopy category of [[homotopy theory]]: that of the category of [[simplicial sets]]/[[topological spaces]] with weak equivalences being [[weak homotopy equivalences]].
 
-In other words, presheaves over a test category are models for [[homotopy types]] of [[∞-groupoids]].
+In other words, presheaves over a (weak) test category are models for [[homotopy types]] of [[∞-groupoids]]. There is a relative analogue of this situation for local test categories (see below).
 
 ### Model category structure
 
-The [[presheaf category]] over a test category with the above weak equivalences admits a [[model category]] structure: the [[model structure on presheaves over a test category]]. This is due to ([Cisinski](#Cisinski)) with further developments due to ([Jardine](#Jardine)).
+The [[presheaf category]] over a local test category with the above weak equivalences admits a [[model category]] structure: the [[model structure on presheaves over a test category]]. This is due to ([Cisinski](#Cisinski)) with further developments due to ([Jardine](#Jardine)).
+
++-- {: .num_theorem}
+###### Theorem
+
+A small category $\mathcal{A}$ is a local test category if and only if the category of presheaves of sets on $\mathcal{A}$ is equipped with a [[model category]] structure whose cofibrations are the monomorphisms with the weak equivalences defined as above. Such a model category structure is always [[proper model category | proper]]. Furthermore, if $\mathcal{A}$ is a local test category, the assignment $X\mapsto (i_{\mathcal{A}}(X)\to\mathcal{A})$ is a [[Quillen equivalence]]
+$$\mathcal{A}Set\to SSet/N(\mathcal{A})$$
+(where $SSet/\mathcal{C}$ is equipped with the sliced [[classical model structure on simplicial sets | Kan-Quillen model structure]]),
+and thus induces equivalences of homotopy categories
+$$Ho(\mathcal{A}Set)\cong Ho(Cat/\mathcal{A})\cong Ho(SSet/N(\mathcal{A}))\, .$$
+
+=--
+
++-- {: .proof}
+###### Proof
+See Th&#233;or&#232;me 1.4.3 and Corollaire 4.2.18 in ([Cisinski](#Cisinski)) for the first and second assertion. The Quillen equivalence is a particular case of Proposition 4.4.28 in loc. cit. The properness of the model structure is a particular case of Th&#233;or&#232;me 4.4.30 in loc. cit.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $\mathcal{A}$ is a local test category, one can describe the model structure on $\mathcal{A}$-sets independently from the functor $i_\mathcal{A}$ as follows: it is the minimal [[Cisinski model structure]] such that any morphism between representable presheaf is a weak equivalence and such that any presheaf on $\mathcal{A}$ is canonically an homotopy colimit of representable presheaves. This is Proposition 6.4.26 in ([Cisinski](#Cisinski)).
+
+=--
 
 ## Examples
 
-Apart from the archeytpical example of the [[simplex category]] we have the following
+Apart from the archetypical example of the [[simplex category]] we have the following
 
 * The [[cube category]] is a test category ([Grothendieck](#Grothendieck), [Cisinski](#Cisinski)), however not a strict one ([Kan](#Kan)). (The corresponding [[model category]] is discussed at [[model structure on cubical sets]].=)
 
   The category of [[cubes]] equipped with [[connection on a cubical set]] is even a strict test category ([Maltsiniotis, 2008](#Maltsiniotis)).
 
-* The [[groupoid]]-analog $\tilde \Theta$ of the [[Theta category]] is a test category ([Ara](#Ara)).
+* The [[Theta category]] and its [[groupoid]]-analog $\tilde \Theta$ are test categories ([Ara](#Ara) and [Cisinski, Maltsiniotis](#CisMal11)).
 
 * The [[tree category]] $\Omega$ is a test category. This was proven in an unpublished note of Cisinski, and later appeared as [Ara, Cisinski, Moerdijk, 2019](#AraCisinskiMoerdijk).
+
+* The [[cycle category]] of Connes is a local test category. The corresponding model structure models homotopy types over $K(\mathbb{Z},2)$; see paragraph 8.5.14 and Proposition 8.5.19 in ([Cisinski](#Cisinski)).
+
+* Given a local test category $\mathcal{A}$ and a small category $\mathcal{C}$, the [[product]] $\mathcal{A}\times\mathcal{C}$ is a local test category. It is a test category if both $\mathcal{A}$ and $\mathcal{C}$ have weakly contractible nerves. This is a special case of a more general fact: if $\mathcal{A}$ is a local test category, for any a [[Grothendieck fibration]] $p:\mathcal{X}\to\mathcal{A}$ (with small fibers), the category $\mathcal{X}$ is a local test category. This follows from Corollaire 1.7.15, Exemple 3.2.2 and the dual version of Proposition 3.2.9 in ([Maltsiniotis, 2005](#Maltsin05)). In particular, given any presheaf of groups $G$ on a local test category $\mathcal{A}$, one gets a nice homotopy theory of representations of $G$; see Scholie 7.2.15 in [Cisinski](#Cisinski)).
 
 ## Related concepts
 
@@ -103,14 +146,14 @@ The notion of test category was introduced in
 
 Various conjectures made there are proven in 
 
-* {#Cisinksi} [[Denis-Charles Cisinski]], _Les pr&#233;faisceaux comme mod&#232;les des types d'homotopie_, Asterisque __308__, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf). 
+* {#Cisinski} [[Denis-Charles Cisinski]], _Les pr&#233;faisceaux comme mod&#232;les des types d'homotopie_, Asterisque __308__, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf). 
 
 which moreover develops the main toolset and establishes the [[model structure on presheaves over a test category]].
 
 
 General surveys include
 
-* [[Georges Maltsiniotis]], _La th&#233;orie de l'homotopie de Grothendieck_, Ast&#233;risque, 301, pp. 1-140, (2005) (see
+* {#Maltsin05} [[Georges Maltsiniotis]], _La th&#233;orie de l'homotopie de Grothendieck_, Ast&#233;risque, 301, pp. 1-140, (2005) (see
 [html](http://people.math.jussieu.fr/~maltsin/textes.html))
 
 
@@ -134,6 +177,11 @@ That the category of [[cubes]] _equipped with [[connection on a cubical set]]_ f
 The test category nature of the groupoidal [[Theta category]] is discussed in 
 
 * {#Ara} [[Dimitri Ara]], _The groupoidal analogue $\tilde \Theta$ to Joyal's category $\Theta$ is a test category_ ([arXiv:1012.4319](http://arxiv.org/abs/1012.4319)) 
+
+and the [Theta category]] itself is discussed in
+
+* [[Denis-Charles Cisinski]], [[Georges Maltsiniotis]], _La cat&#233;gorie $\Theta$ de Joyal est une cat&#233;gorie test_ , JPAA **215** no.5 (2011) pp.962-982. ([pdf](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/theta.pdf), in French)
+{#CisMal11}
 
 That fact that the [[tree category]] is a test category was proved in 
 
