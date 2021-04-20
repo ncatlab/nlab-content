@@ -155,30 +155,30 @@ The [[eigenvalues]] of this matrix are (from [here](https://www.wolframalpha.com
 $$
   \frac
     {
-      \lambda^2 -1 
+      e^ {2\lambda} -1 
     }
-    {\lambda^2}  
+    {e^ {2\lambda}}  
   \,,\;\;\;
   \frac
     {
-      \lambda^2 \pm 3 \lambda  + 2 
+      e^{2\lambda} \pm 3 e^{\lambda}  + 2 
     }
-    {\lambda^2}  
+    {e^{2\lambda}}  
   \,,
 $$
 
-where the first one appears with multiplicity 4. Exactly one of these can become non-positive for $\lambda \in \mathbb{R}_+$:
+where the first one appears with multiplicity 4 and is positive since $\lambda$ is positive. The only eigenvalue that can become non-positive for $\lambda \in \mathbb{R}_+$ is:
 
 $$
-  \lambda^2 - 3 \lambda + 2
+  e^2\lambda - 3 e^\lambda + 2
   \;\;is\;\;
   \left\{
   \array{
-    \lt 0 &\vert& 0 \lt \lambda \lt 2
+    \lt 0 &\vert& \lambda \lt ln(2)
     \\
-    = 0 &\vert& \lambda = 2
+    = 0 &\vert& \lambda = ln(2)
     \\
-    \gt 0 &\vert& \lambda \gt 2
+    \gt 0 &\vert& \lambda \gt ln(2)
   }
   \right.
 $$
@@ -189,11 +189,11 @@ The [[Cayley distance kernel]] (eq:CayleyDistanceKernel), regarded as a [[biline
 
 $$
   \array{
-    \text{indefinite} & \text{for} & \lambda \lt 2
+    \text{indefinite} & \text{for} & \lambda \lt ln(2)
     \\
-    \text{positive semi-definite} &\text{for}& \lambda = 2
+    \text{positive semi-definite} &\text{for}& \lambda = ln(2)
     \\
-    \text{positive definite} &\text{for}&  \lambda \gt 2
+    \text{positive definite} &\text{for}&  \lambda \gt ln(2)
   }
 $$
 
