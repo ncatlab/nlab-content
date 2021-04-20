@@ -147,10 +147,10 @@ For $\lambda \in \mathbb{R}_+$, write
   Mat_{6 \times 6}(\mathbb{R})
 \]
 
-for *Cayley distance [[kernel method|kernel]]* on $Sym(3)$, hence the [[matrix]] which is the [[exponential]] of the [[Cayley distance]]-matrix (eq:ExplicitCayleyDistanceMatrix) multiplied by $- \lambda$.
+for the *[[Cayley distance kernel]]* on $Sym(3)$, hence the [[matrix]] which is the [[exponential]] of the [[Cayley distance]]-matrix (eq:ExplicitCayleyDistanceMatrix) multiplied by $- \lambda$.
 
 
-The [[eigenvalues]] of this matrix are (from [here](https://www.wolframalpha.com/input/?i=eigenvalues++exp%5B+-+ln%5Blambda%5D+*++%7B++%7B0%2C1%2C1%2C1+%2C2%2C+2%7D%2C+%7B1%2C+0+%2C+2%2C+2%2C+1%2C+1%7D%2C+%7B1%2C+2%2C+0%2C+2%2C+1%2C+1%7D%2C+%7B1%2C2%2C+2%2C0%2C1%2C+1+%7D%2C+%7B2%2C+1%2C+1%2C+1%2C+0%2C+2+%7D%2C+%7B2%2C1%2C1%2C1%2C2%2C0%7D++%7D+%5D))
+The [[eigenvalues]] of this matrix are (from [here](https://www.wolframalpha.com/input/?i=eigenvalues++exp%5B+-+ln%5Bbeta%5D+*++%7B++%7B0%2C1%2C1%2C1+%2C2%2C+2%7D%2C+%7B1%2C+0+%2C+2%2C+2%2C+1%2C+1%7D%2C+%7B1%2C+2%2C+0%2C+2%2C+1%2C+1%7D%2C+%7B1%2C2%2C+2%2C0%2C1%2C+1+%7D%2C+%7B2%2C+1%2C+1%2C+1%2C+0%2C+2+%7D%2C+%7B2%2C1%2C1%2C1%2C2%2C0%7D++%7D+%5D))
 
 $$
   \frac
@@ -167,10 +167,10 @@ $$
   \,,
 $$
 
-where the first one appears with multiplicity 4 and is positive since $\lambda$ is positive. The only eigenvalue that can become non-positive for $\lambda \in \mathbb{R}_+$ is:
+where the first one appears with multiplicity 4 and is [[positive number|positive]] since $\lambda$ is positive. The only eigenvalue that can become non-positive for $\lambda \in \mathbb{R}_+$ is:
 
 $$
-  e^2\lambda - 3 e^\lambda + 2
+  e^{2\lambda} - 3 e^\lambda + 2
   \;\;is\;\;
   \left\{
   \array{
