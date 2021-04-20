@@ -82,7 +82,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * cocycle in lowest degree [[schreiber:Differential Nonabelian Cohomology|nonabelian differential cohomology]]  
 
-    * originally realized in terms of differential [[?ech cohomology|?ech cocycle]]s
+    * originally realized in terms of differential [[Čech cohomology|Čech cocycle]]s
       $$
         \hat F \in \mathbf{H}(X, \bar \mathbf{B} G)
       $$
@@ -104,7 +104,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * cocycle in degree-$2$ [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
 
-    * naturally/historically realized in terms of Maxwell-Dirac presentation as a cocycle in [[?ech cohomology|?ech]]--[[Deligne cohomology|Deligne]] cocycle
+    * naturally/historically realized in terms of Maxwell-Dirac presentation as a cocycle in [[Čech cohomology|Čech]]--[[Deligne cohomology|Deligne]] cocycle
       $$
         \hat F \in \mathbf{H}(X,\bar \mathbf{B} U(1))
       $$
@@ -125,7 +125,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
     * naturally/historically realized in terms of 
 
-      * a cocycle in [[?ech cohomology|?ech]]--[[Deligne cohomology|Deligne]] cocycle
+      * a cocycle in [[Čech cohomology|Čech]]--[[Deligne cohomology|Deligne]] cocycle
 
         $$
           \hat H \in \mathbf{H}(X,\bar \mathbf{B}^2 U(1))
@@ -142,7 +142,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * cocycle in degree-$4$ [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
 
-    * naturally/historically realized in terms of as a cocycle in [[?ech cohomology|?ech]]--[[Deligne cohomology|Deligne]] cocycle
+    * naturally/historically realized in terms of as a cocycle in [[Čech cohomology|Čech]]--[[Deligne cohomology|Deligne]] cocycle
       $$
         \hat H \in \mathbf{H}(X,\bar \mathbf{B}^3 U(1))
       $$
