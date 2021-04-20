@@ -154,6 +154,105 @@ Now observe that:
 Since it is $k-1$ transposition factors in (eq:CyclicPermutationAsProductOfTranspositions) for cycles of $k$ elements, each cycle reduces the number of transposition needed by one.
 \end{proof}
 
+## Examples
+
+\begin{example}\label{CayleyDistanceOnSym3}
+**([[Cayley distance on Sym(3)]])** \linebreak
+
+The [[Cayley graph]] of the [[symmetric groups]] on 3 elements, $Sym(3)$, with [[edges]] corresponding to any [[transposition]] (not necessarily adjacent) looks like this:
+
+\begin{tikzcd}[row sep=-6pt, column sep=14pt]
+  123
+  \ar[rrrr,-]
+  \ar[ddddd,-]
+  \ar[ddrrr,-]
+  &&
+  &&
+  132
+  \ar[ddddd,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  &&&
+  \scalebox{.8}{$321$}
+  \ar[dddr,-]
+  \\
+  &
+  \scalebox{1.2}{231}
+  \ar[ddl,-]
+  \ar[uuurrr,-, crossing over]
+  \ar[urr,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  213
+  \ar[rrrr,-]
+  &&&&
+  312
+\end{tikzcd}
+
+from which one readily reads off the Cayley distance: Ordering the 6 [[permutations]] as
+
+$$
+  \vec \sigma
+  \;\coloneqq\;
+  \left[
+  \array{
+    123
+    \\
+    213
+    \\
+    132
+    \\
+    321
+    \\
+    312
+    \\
+    231
+  }
+  \right]
+$$
+
+the [[Cayley distance]] on $Sym(3)$, regarded as a $6 \times 6$ [[matrix]]
+
+$$
+  [d_C]
+  \;\coloneqq\;
+  \big(
+  d_C
+  \big( 
+    \sigma_i, \sigma_j
+  \big)
+  \big)_{i,j}
+  \;\in\;
+  Mat_{6 \times 6}(\mathbb{N})
+$$
+
+is this:
+
+$$
+  [d_c]
+  \;=\;
+  \left[
+  \array{
+    0 & 1 & 1 & 1  & 2 &  2
+    \\
+    1 & 0 & 2 & 2 & 1 & 1
+    \\
+    1 & 2 & 0 & 2 & 1 & 1
+    \\
+    1 & 2 & 2 & 0 & 1 & 1 
+    \\
+    2 & 1 & 1 & 1 & 0 & 2 
+    \\
+    2 & 1 & 1 & 1 & 2 & 0
+  }
+  \right]
+$$
+
+\end{example}
+
+
 ## Related concepts
 
 * [[Kendall distance]]
