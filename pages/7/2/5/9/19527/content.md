@@ -35,17 +35,54 @@ This graph is called the _Cayley graph_ of the group, $G$, relative to the set o
 The [[metric]] induced from corresponding [[graph distance]] is also called the *word metric* on the group $G$ with respect to its generators $X$.
 
 
-## Example 
+## Examples 
 
 ### For the symmetric group
 
 \begin{example}
-The [[symmetric group]] $Sym(n)$ may be [[finitely generated group|generated]] from 
+The [[symmetric group]] $Sym(n)$ may be [[finitely generated group|generated]] from, in particular:
 
 * all [[transposition permutations]] -- the corresponding Cayley [[graph distance]] is the original *[[Cayley distance]]*;
 
 * the *adjacent* [[transpositions]] -- the corresponding Cayley [[graph distance]] is known as the *[[Kendall tau distance]]*.
 
+\end{example}
+
+Specifically:
+
+\begin{example}\label{CayleyGraphForSym3}
+**([[Cayley graph of Sym(3)]])**\linebreak
+The following is the [[Cayley graph]] of the [[symmetric groups]] on 3 elements, $Sym(3)$, with [[edges]] corresponding to any [[transposition]] (not necessarily adjacent), hence whose [[graph distance]] is the [[Cayley distance]]:
+
+\begin{tikzcd}[row sep=-6pt, column sep=14pt]
+  123
+  \ar[rrrr,-]
+  \ar[ddddd,-]
+  \ar[ddrrr,-]
+  &&
+  &&
+  132
+  \ar[ddddd,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  &&&
+  \scalebox{.8}{$321$}
+  \ar[dddr,-]
+  \\
+  &
+  \scalebox{1.2}{231}
+  \ar[ddl,-]
+  \ar[uuurrr,-, crossing over]
+  \ar[urr,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  213
+  \ar[rrrr,-]
+  &&&&
+  312
+\end{tikzcd}
 \end{example}
 
 
