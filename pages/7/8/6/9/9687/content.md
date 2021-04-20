@@ -232,6 +232,9 @@ See also:
 
 * [[Yuri A. Simonov]], *The fundamental scale of QCD* ([arXiv:2103.08223](https://arxiv.org/abs/2103.08223))
 
+* Duifje Maria van Egmond, Urko Reinosa, Julien Serreau, Matthieu Tissier, 
+*A novel background field approach to the confinement-deconfinement transition* ([arXiv:2104.08974](https://arxiv.org/abs/2104.08974))
+
 
 #### Via monopole condensation
  {#ViaMonopoleCondensation}
