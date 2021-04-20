@@ -99,6 +99,7 @@ The Mallows kernel (eq:MallowsKernel) is [[positive definite bilinear form|posit
 
 * [[Mallows kernel]]
 
+* [[kernel method]]
 
 ## References
 
