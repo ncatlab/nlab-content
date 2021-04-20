@@ -97,7 +97,7 @@ The Mallows kernel (eq:MallowsKernel) is [[positive definite bilinear form|posit
 
 * [[Cayley distance]]
 
-* [[Mallows kernel]]
+* [[Mallows kernel]], [[Cayley distance kernel]]
 
 * [[kernel method]]
 
