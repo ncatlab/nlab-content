@@ -19,6 +19,8 @@ Within [[group theory]], *geometric group theory* studies [[groups]] by equippin
 
 For [[finitely generated group|finitely generated groups]] this is typically done by regarding the group's [[elements]] as the [[vertices]] of a [[graph]] -- the *[[Cayley graph]]* -- whose [[edges]] connect elements related by multiplication with a generator. The corresponding [[graph distance]] then equips the group with a [[metric]].
 
+The methods of geometric group theory overlap with [[kernel methods]] in [[machine learning]].
+
 ## Related entries
 
 * [[Cayley graph]]
