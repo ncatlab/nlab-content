@@ -25,23 +25,6 @@ When $X$ is [[the]] [[finite set]] $(n) = \{1,\dots,n\}$, then its symmetric gro
 
 (We will make frequent use of the entry [[permutation]] for some key notation and concepts.)
 
-## Examples
-
-### The symmetric group  $S_3$
-
-$S_3$ is the group of permutations of $(3)=\{1,2,3\}$.
-
-One simple way to represent an element of $S_3$ is by listing the $(3)$ on the top row of an array with a second row denoting the image of each element under the permutation.  For instance, the element $sigma= (1\mapsto 2, 2\mapsto 1, 3\mapsto 3)$ can be written more compactly as 
-
-$$\sigma= \left(\array{1&2&3\\2&1&3}\right).$$
-
-We can also use, even more compactly, 'cycle notation', as explained in more detail at [[permutation]], in which successive images under the permutation, $\sigma$, are listed until you get back to where you started. Elements of (3), or more generally of (n),  are usually not listed as cycles of length 1, exept that (1) may be used too indicate the identity element. For the above permutation, this gives
-
-$$\sigma = (1\,2)$$
-
-the _transposition_ exchanging the elements 1 and 2 and leaving 3 'unmoved'.  Whilst the 3-cycle, $(1\,2\,3)$, shifts every element to the right one position and then maps 3 to 1. 
-
-
 In general, an element of $S_n$ can be represented by a two row array
 
 $$\sigma= \left(\array{1&2&\ldots &n\\\sigma(1)&\sigma(2)&\ldots&\sigma(n)}\right).$$
@@ -67,6 +50,60 @@ We express this more compactly by writing $\sigma$ as the composition $\sigma = 
 We can also write $\sigma$ as a product of transpositions
 
 $$(2\,4)(2\,6)(3\,5)$$
+
+
+
+## Examples
+
+### The symmetric group  $S_3$
+
+$S_3$ is the group of permutations of $(3)=\{1,2,3\}$.
+
+One simple way to represent an element of $S_3$ is by listing the $(3)$ on the top row of an array with a second row denoting the image of each element under the permutation.  For instance, the element $sigma= (1\mapsto 2, 2\mapsto 1, 3\mapsto 3)$ can be written more compactly as 
+
+$$\sigma= \left(\array{1&2&3\\2&1&3}\right).$$
+
+We can also use, even more compactly, 'cycle notation', as explained in more detail at [[permutation]], in which successive images under the permutation, $\sigma$, are listed until you get back to where you started. Elements of (3), or more generally of (n),  are usually not listed as cycles of length 1, exept that (1) may be used to indicate the identity element. For the above permutation, this gives
+
+$$\sigma = (1\,2)$$
+
+the _transposition_ exchanging the elements 1 and 2 and leaving 3 'unmoved'.  Whilst the 3-cycle, $(1\,2\,3)$, shifts every element to the right one position and then maps 3 to 1. 
+
+\begin{example}\label{CayleyGraphOfSym3}
+**([[Cayley graph of Sym(3)]])**
+The following shows the [[Cayley graph]] of the [[symmetric groups]] on 3 elements, $Sym(3)$, with [[edges]] corresponding to any [[transposition]] (not necessarily adjacent), hence whose [[graph distance]] is the [[Cayley distance]]:
+
+\begin{tikzcd}[row sep=-6pt, column sep=14pt]
+  123
+  \ar[rrrr,-]
+  \ar[ddddd,-]
+  \ar[ddrrr,-]
+  &&
+  &&
+  132
+  \ar[ddddd,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  &&&
+  \scalebox{.8}{$321$}
+  \ar[dddr,-]
+  \\
+  &
+  \scalebox{1.2}{231}
+  \ar[ddl,-]
+  \ar[uuurrr,-, crossing over]
+  \ar[urr,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  213
+  \ar[rrrr,-]
+  &&&&
+  312
+\end{tikzcd}
+
+\end{example}
 
 
 ### The symmetric group $S_4$
