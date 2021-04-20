@@ -30,6 +30,8 @@ The area of _Topological Data Analysis_ (TDA) has emerged recently as being that
 
 * [[computational topology]]
 
+* [[machine learning]]
+
 ## References
 
 ### General
