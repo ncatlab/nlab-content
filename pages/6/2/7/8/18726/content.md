@@ -1,17 +1,30 @@
 __Richard P. Stanley__ is a mathematician specializing in [[combinatorics]].
 
-## related $n$Lab entries
+
+* [personal page](http://www-math.mit.edu/~rstan/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Richard_P._Stanley)
+
+## Selected writings
+
+On [[enumerative combinatorics|enumerative]] [[combinatorics]]:
+
+* {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), 2011 ([pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
+
+
+
+## Related $n$Lab entries
 
 * [[Catalan number]]
+
 * [[incidence algebra]]
+
 * [[order polynomial]]
+
 * [[zeta polynomial]]
+
 * [[Gian-Carlo Rota]]
 
-## References
-
-* [personal website](http://www-math.mit.edu/~rstan/)
-* [Wikipedia](https://en.wikipedia.org/wiki/Richard_P._Stanley)
 
 category: people
 
