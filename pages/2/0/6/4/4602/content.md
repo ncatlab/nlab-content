@@ -11,6 +11,9 @@ A single morphism $U \to X$ is an [[epimorphism]] if and only it forms an epic s
 
 Finally, the [[empty family]] of morphisms with domain $X$ is a monic source iff $X$ is a [[subterminal object]] (and dually).
 
+## Examples
+
+If a functor $F \colon J \to C$ has a colimit $\mathrm{colim}F$, with maps $\iota_i \colon F i \to \mathrm{colim}F$ for $ i \in J$, then the family $(\iota_i)_{i \in J}$ is jointly epic. Similarly, the maps $(\pi_i \colon \mathrm{lim}F \to F i)_{i\in J}$ are jointly monic, when the limit exists.
 
 [[!redirects epic sink]]
 [[!redirects epimorphic sink]]
