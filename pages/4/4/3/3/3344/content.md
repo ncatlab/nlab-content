@@ -70,7 +70,7 @@ or equivalently, such that
 +-- {: .num_remark}
 ###### Remark
 
-One can show that a small category $\mathcal{C}$ is a weak test category if and only if both the unit $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$ and the co-unit $\eta : Id_{\mathcal{C}Set/X}\to i^*_{\mathcal{C}}i_{\mathcal{C}}$ are weak equivalence; see Lemme 1.3.8 and Proposition 1.3.9 in ([Maltsiniotis](#Maltsin05)). In particular, one then have an equivalence of categories
+One can show that a small category $\mathcal{C}$ is a weak test category if and only if both the unit $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$ and the co-unit $\eta : Id_{\mathcal{C}Set/X}\to i^*_{\mathcal{C}}i_{\mathcal{C}}$ are weak equivalence; see Lemme 1.3.8 and Proposition 1.3.9 in ([Maltsiniotis](#Maltsin05)). In particular, one then has an equivalence of categories
 $$Ho(\mathcal{C}Set)\cong Ho(Cat)\, .$$
 
 An example of weak test category which is not a test category is the category $\Delta_+$ (so that a presheaf on $\Delta_+$ is a [[semi-simplicial set]]). This comes from a more general family of examples studied in ([Cisinski, Maltsiniotis](#CisMal11)).
@@ -87,7 +87,7 @@ In other words, presheaves over a (weak) test category are models for [[homotopy
 
 ### Model category structure
 
-The [[presheaf category]] over a local test category with the above weak equivalences admits a [[model category]] structure: the [[model structure on presheaves over a test category]]. This is due to ([Cisinski](#Cisinski)) with further developments due to ([Jardine](#Jardine)).
+The [[presheaf category]] over a test category with the above weak equivalences admits a [[model category]] structure: the [[model structure on presheaves over a test category]]. This is due to ([Cisinski](#Cisinski)) with further developments due to ([Jardine](#Jardine)). In fact the possibility of such model structures characterizes **local** test categories:
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -108,7 +108,7 @@ See Th&#233;or&#232;me 1.4.3 and Corollaire 4.2.18 in ([Cisinski](#Cisinski)) fo
 +-- {: .num_remark}
 ###### Remark
 
-If $\mathcal{A}$ is a local test category, one can describe the model structure on $\mathcal{A}$-sets independently from the functor $i_\mathcal{A}$ as follows: it is the minimal [[Cisinski model structure]] such that any morphism between representable presheaf is a weak equivalence and such that any presheaf on $\mathcal{A}$ is canonically an homotopy colimit of representable presheaves. This is Proposition 6.4.26 in ([Cisinski](#Cisinski)).
+If $\mathcal{A}$ is a local test category, one can describe the model structure on $\mathcal{A}$-sets independently from the functor $i_\mathcal{A}$ as follows: it is the minimal [[Cisinski model structure]] such that any morphism between representable presheaves is a weak equivalence and such that any presheaf on $\mathcal{A}$ is canonically an homotopy colimit of representable presheaves. This is Proposition 6.4.26 in ([Cisinski](#Cisinski)).
 
 =--
 
@@ -120,7 +120,7 @@ Apart from the archetypical example of the [[simplex category]] we have the foll
 
   The category of [[cubes]] equipped with [[connection on a cubical set]] is even a strict test category ([Maltsiniotis, 2008](#Maltsiniotis)).
 
-* The [[Theta category]] and its [[groupoid]]-analog $\tilde \Theta$ are test categories ([Ara](#Ara) and [Cisinski, Maltsiniotis](#CisMal11)).
+* The [[Theta category]] and its [[groupoid]]-analog $\tilde \Theta$ are strict test categories ([Cisinski, Maltsiniotis](#CisMal11) and [Ara](#Ara)).
 
 * The [[tree category]] $\Omega$ is a test category. This was proven in an unpublished note of Cisinski, and later appeared as [Ara, Cisinski, Moerdijk, 2019](#AraCisinskiMoerdijk).
 
