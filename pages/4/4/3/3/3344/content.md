@@ -128,6 +128,17 @@ Apart from the archetypical example of the [[simplex category]] we have the foll
 
 * Given a local test category $\mathcal{A}$ and a small category $\mathcal{C}$, the [[product]] $\mathcal{A}\times\mathcal{C}$ is a local test category. It is a test category if both $\mathcal{A}$ and $\mathcal{C}$ have weakly contractible nerves. This is a special case of a more general fact: if $\mathcal{A}$ is a local test category, for any a [[Grothendieck fibration]] $p:\mathcal{X}\to\mathcal{A}$ (with small fibers), the category $\mathcal{X}$ is a local test category. This follows from Corollaire 1.7.15, Exemple 3.2.2 and the dual version of Proposition 3.2.9 in ([Maltsiniotis, 2005](#Maltsin05)). In particular, given any presheaf of groups $G$ on a local test category $\mathcal{A}$, one gets a nice homotopy theory of representations of $G$; see Scholie 7.2.15 in [Cisinski](#Cisinski)).
 
+
+Any small category $\mathcal{A}$ which is closed under finite products and which contains an interval is a strict test category (where an interval is an object $I$ equipped with two morphisms from the terminal object $d^e:*\to I$, $e=0,1$, such that there is no maps from an object of $\mathcal{A}$ which factors through both $d^0$ and $d^1$); see Corollaire 1.5.7 in ([Maltsiniotis](#Maltsin05)). Particular cases include the following examples.
+
+* The category of non-empty finite sets is a strict test category (hence [[symmetric simplicial sets]] are a model of homotopy types of CW-complexes). 
+
+* The full subcategory of the category of topological spaces, whose objects are closed balls in euclidian spaces, is a strict test category.
+
+* The category of open balls in euclidian spaces, with $C^\infty$-maps as morphisms, is a strict test category.
+
+* The category of contractible [[Stein manifold | Stein manifolds]], with holomorphic maps as morphisms, is a strict test category.
+
 ## Related concepts
 
 * [[direct category]]
