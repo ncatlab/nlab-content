@@ -3,7 +3,7 @@
 
 **Guarded recursion** is a form of recursion that ensures that solutions of self-referential descriptions exist. This is achieved by "guarding" the recursive occurrence of the object under consideration using a unary [[modality]] $\blacktriangleright$ and pronounced "later". 
 
-The later modality was first discovered by Nakano ([Nakano 2000](#Nakano00)) and used to  ensure *productivity* of conductively defined programs. For example, for an object $A$, the type of *guarded streams* is the unique solution to the equation
+The later modality was first discovered by Nakano ([Nakano 2000](#Nakano00)) and used to  ensure *productivity* of coinductively defined programs. For example, for an object $A$, the type of *guarded streams* is the unique solution to the equation
 \[
 \text{Str}_g A \cong A \times \blacktriangleright \text{Str}_g A
 \]
