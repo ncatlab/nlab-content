@@ -102,8 +102,10 @@ $$
 \end{prop}
 
 ### In terms of numbers of cycles
+ {#InTermsOfNumbersOfCycles}
 
-\begin{prop}
+\begin{prop}\label{CayleyObservation}
+**(Cayley's observation)**
   The Cayley distance between $\sigma_1, \sigma_2 \,\in\, Sym(n)$ equals $n$ minus the [[natural number|number]] of [[permutation cycles]] in $\sigma_1 \circ \sigma_2^{-1}$:
 
 $$
@@ -253,7 +255,7 @@ $$
 \end{example}
 
 
-## Related concepts
+## cRelated concepts
 
 * [[Kendall distance]]
 
