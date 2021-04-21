@@ -66,6 +66,7 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 * [[infinitesimal analysis]]
 
+* [[matrix analysis]]
 
 ## References
  {#References}
