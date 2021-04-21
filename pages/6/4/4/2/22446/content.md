@@ -30,18 +30,20 @@ Let $n \in \mathbb{N}$ be a [[natural number]].
 
 * the $j$th *Gershgorin radius* of $A$ to be the [[sum]] of [[absolute values]] of off-diagonal entries in the $j$th row:
 
-  $$
+  \[
+    \label{GershoginRadiusFormula}
     r_j^A
     \;\coloneqq\;
     \underset{k \neq j}{\sum}
     \left\vert
       a_{j k}
     \right\vert
-  $$
+  \]
 
 * the $j$th *Gershgorin disc* to be the [[closed disk]] in the [[complex plane]] centered at the $j$th diagonal entry with radius the above $j$th Gershgorin radius:
 
-  $$
+  \[
+    \label{GershoginDiscFormula}
     D_j^A
     \;\coloneqq\;
     \Big\{
@@ -54,7 +56,7 @@ Let $n \in \mathbb{N}$ be a [[natural number]].
       r_j^A
     \Big\}
     \,.
-  $$
+  \]
 
 \end{definition}
 
@@ -98,3 +100,11 @@ See also:
 * Wikipedia, *[Gershgorin circle theorem](https://en.wikipedia.org/wiki/Gershgorin_circle_theorem)*
 
 [[!redirects Gershgorin circle theorems]]
+
+[[!redirects Gershogin disc]]
+[[!redirects Gershogin discs]]
+
+[[!redirects Gershogin radius]]
+[[!redirects Gershogin radii]]
+
+
