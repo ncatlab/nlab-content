@@ -221,6 +221,10 @@ Concrete discussion of [[graviton]] [[scattering amplitudes]]:
 
 * S. Abreu, F. Febres Cordero, H. Ita, M. Jaquier, B. Page, M. S. Ruf, V. Sotnikov, _The Two-Loop Four-Graviton Scattering Amplitudes_ ([arXiv:2002.12374](https://arxiv.org/abs/2002.12374))
 
+With an emphasis on the [[S-matrix]]-perspective:
+
+* [[Pierre Vanhove]], *S-matrix approach to general gravity and beyond* ([arXiv:2104.10148](https://arxiv.org/abs/2104.10148))
+
 
 For more discussion of perturbative [[supergravity]] see at 
 
