@@ -72,7 +72,7 @@ constitutes a [[generalized homology theory]] (see e.g. [Buchstaber, II.8](#Buch
 The [[spectrum]] that represents this under the [[Brown representability theorem]] is the universal [[Thom spectra]] $M G$ (e.g. [[MO]] for $G=O$ or [[MU]] for $G = U$), which canonically is a [[ring spectrum]] under [[Whitney sum]] of [[universal vector bundles]]. Accordingly the (co-bordism ring) itself is equivalently the bordism homology groups of the point, hence the [[stable homotopy groups]] of the [[Thom spectrum]] (this is _[[Thom's theorem]]_)
 
 $$
-  \Omega_\bullet^G \simeq \M G_\bullet(\ast) \simeq pi_\bullet(M G)
+  \Omega_\bullet^G \simeq \M G_\bullet(\ast) \simeq \pi_\bullet(M G)
   \,.
 $$
 
