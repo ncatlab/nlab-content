@@ -34,8 +34,8 @@
 
 ## Idea
 
-A [[bubble of nothing]] is an instability of the [[Kaluza-Klein]] [[vacuum]], where a gravitational [[instanton]] mediates the decay of a $5$-dimensional [[Euclidean]] [[Schwarzschild spacetime]] into nothing.
-The hole in space grows at the speed of light until it hits null infinity, leading to the "annihilation" of spacetime.
+A *bubble of nothing* in the sense of [Witten 82](#Witten82) is an instability of the [[Kaluza-Klein]] [[vacuum]] where a [[gravitational instanton]] mediates the decay of a $5$-dimensional [[Euclidean]] [[Schwarzschild spacetime]] into nothing:
+the hole in space grows at the [[speed of light]] until it hits [[null infinity]], leading to the "annihilation" of spacetime.
 
 ## Construction of the solution
 
@@ -62,11 +62,15 @@ so that it goes to $0$ for $r\rightarrow R$ and it goes to $R_5$ for for $r\righ
 
 ## Related concepts
 
+  * [[Coleman-De Luccia instanton]]
+
   * [[Kaluza-Klein theory]]
 
   * [[swampland]]
 
   * [[instanton]]
+
+    * [[gravitational instanton]]
 
   * [[double dimensional reduction]]
 
@@ -83,4 +87,9 @@ so that it goes to $0$ for $r\rightarrow R$ and it goes to $R_5$ for for $r\righ
 
 ## References
 
-* E. Witten, _Instability of the Kaluza-Klein Vacuum_, Nucl. Phys. B195 (1982) 481-492 ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/0550321382900074)).
+* {#Witten82} [[Edward Witten]], _Instability of the Kaluza-Klein Vacuum_, Nucl. Phys. B195 (1982) 481-492 (<a href="https://doi.org/10.1016/0550-3213(82)90007-4">doi:10.1016/0550-3213(82)90007-4</a>).
+
+
+[[!redirects Bubble of nothing]]
+[[!redirects Bubble of nothing]]
+[[!redirects Bubble of nothing]]
