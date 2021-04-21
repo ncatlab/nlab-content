@@ -44,7 +44,7 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 * In the double category $\mathbf{Sq}(K)$ of squares ([[quintets]]) in any [[2-category]] $K$, a companion pair is simply an invertible 2-cell between two parallel 1-morphisms of $K$.
 
-* In the double category $T$-**Alg** of [[algebra over a monad|algebras]], lax morphisms, and colax morphisms for a [[2-monad]], an arrow (of either sort) has a companion precisely when it is a *strong* (= pseudo) $T$-morphism.  This is important in the theory of [[doctrinal adjunction]].
+* In the [[double category of algebras | double category $T$-$\mathbf{Alg}$ of algebras, lax morphisms, and colax morphisms]] for a [[2-monad]] $T$, an arrow (of either sort) has a companion precisely when it is a *strong* (= pseudo) $T$-morphism.  This is important in the theory of [[doctrinal adjunction]].
 
 
 ## Properties
