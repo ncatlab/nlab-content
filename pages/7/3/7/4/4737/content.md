@@ -22,7 +22,11 @@
 
 ## Idea
 
-For $\mathcal{G}$ a [[groupoid object in an (infinity,1)-category|groupoid object]] a _$\mathcal{G}$-principal bundle_ is a [[morphism]] $P \to X$ with an principal [[action]] of $\mathcal{G}$ on $P$.
+Where a [[principal bundle]] with [[structure group]] $G$ (typically at least a [[topological group]]) is a [[fiber bundle]] with [[typical fiber]] $G$ and with [[action]]/[[transition functions]] given by multiplication in $G$, the notion of a *groupoid principal bundle* generalizes this to *structure [[groupoids]]* $\mathcal{G}$ (typically at least [[topological groupoids]]) and [[typical fibers]] being the [[source]]-[[fibers]] of $\mathcal{G}$ (the [[subspaces]] of [[morphisms]] all emanating from a given [[object]]), with [[action]]/[[transition functions]] given by [[composition]] of [[morphisms]] in $\mathcal{G}$.
+
+Under the identification of [[groups]] with [[pointed object|pointed]] [[connected groupoid|connected]] [[groupoids]] (see at [[looping and delooping]]), groupoid principal bundles subsume ordinary [[principal bundles]].
+
+Conversely, a general groupoid principal bundle has [[typical fibers]] that may ([[isomorphism|isomorphically]]) vary even over connected base spaces in a controlled way.
 
 ## Definition
 
