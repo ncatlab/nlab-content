@@ -373,6 +373,11 @@ See also the Math Overflow discussion [here](http://mathoverflow.net/questions/4
 [[!redirects open disc]]
 [[!redirects open discs]]
 
+[[!redirects closed disk]]
+[[!redirects closed disks]]
+[[!redirects closed disc]]
+[[!redirects closed discs]]
+
 
 [[!redirects n-disk]]
 [[!redirects n-disks]]
