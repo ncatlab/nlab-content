@@ -210,7 +210,9 @@ $$
 
 ## Properties
 
-### Gershogin radius
+### Gershgorin radius
+
+We discuss the [[Gershgorin radius]] of the Cayley distance kernel:
 
 \begin{lemma}\label{SumOfExpLambdaNumCyclesOverPermutations}
   For $n \in \mathbb{N}$ and $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, we have
@@ -305,9 +307,9 @@ where:
 
 
 \begin{prop}\label{GershgorinRadiiOfCayleyDistanceKernel}
-**([[Gershogin radius]] of [[Cayley distance kernel]])**
+**([[Gershgorin radius]] of [[Cayley distance kernel]])**
   For $n \in \mathbb{N}$, 
- the [[Gershogin radii]] of the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) are all equal to
+ the [[Gershgorin radii]] of the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) are all equal to
   $$
     r
     \;=\;
@@ -332,7 +334,7 @@ Since moreover
 
 * all entries are [[real number|real]] and non-[[negative number|negative]],  hence equal to their [[absolute value]],
 
-* the diagonal elements are all equal to 1,
+* the diagonal elements are all equal to $1 = e^{ - \lambda \cdot 0 }$,
 
 it follows that this sum over the first row already equals the Gershogin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
 \end{proof}
