@@ -106,7 +106,7 @@ $$
 
 \begin{prop}\label{CayleyObservation}
 **(Cayley's observation)**
-  The Cayley distance between $\sigma_1, \sigma_2 \,\in\, Sym(n)$ equals $n$ minus the [[natural number|number]] of [[permutation cycles]] in $\sigma_1 \circ \sigma_2^{-1}$:
+  The Cayley distance (Def. \ref{CayleyDistance}) between $\sigma_1, \sigma_2 \,\in\, Sym(n)$ equals $n$ minus the [[natural number|number]] of [[permutation cycles]] in $\sigma_1 \circ \sigma_2^{-1}$:
 
 $$
   d_C(\sigma_1, \sigma_2)
