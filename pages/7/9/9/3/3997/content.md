@@ -26,7 +26,19 @@ If $F$ creates all limits or colimits of a given type (i.e. over a given categor
 
 ## Examples
 
-A [[monadic functor]] creates all limits that exist in its codomain, and all colimits that exist in its codomain and are preserved by the corresponding monad (or, equivalently, by the monadic functor itself).  Creation of a particular sort of [[split coequalizer]] figures prominently in Beck's [[monadicity theorem]].
+\begin{example}
+**([[monadic functors]] [[created limit|create limits]])**
+A [[monadic functor]] 
+
+1. creates all limits that exist in its [[codomain]];
+
+1. creates all colimits that exist in its codomain and are preserved by the corresponding monad (or, equivalently, by the monadic functor itself).  
+
+Creation of a particular sort of [[split coequalizer]] figures prominently in Beck's [[monadicity theorem]].
+\end{example}
+
+(e.g. [MacLane 71, Exercise IV.2.2 (p. 138)](#MacLane71))
+
 
 ## Terminological remarks
 
@@ -52,7 +64,7 @@ The definitions given above are all "up to isomorphism", i.e. they satisfy the [
 
 Definition V.1 in
 
-* [[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_.
+* {#MacLane71} [[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_ (1971)
 
 Definition 13.17(2) in
 
