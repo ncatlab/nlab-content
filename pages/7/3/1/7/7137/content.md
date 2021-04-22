@@ -18,7 +18,9 @@
 
 The _local Langlands conjectures_ are certain [[conjectures]] in the context of the [[Langlands program]]. Where the genuine [[Langlands correspondence]] concerns [[global fields]], the local Langlands correspondence concerns [[local fields]].
 
-The local Langlands conjectures assert a correspondence between [[representations]] of the [[Weil group]] of a  [[local field]] and [[representations]] of [[algebraic groups]] over the local field, generalizing  local [[class field theory]] from [[abelian group|abelian]] [[Galois groups]] to non-abelian Galois groups.
+In the case of the [[algebraic group]] $GL_n$, the local Langlands conjectures assert a correspondence between F-semisimple Weil-Deligne [[representations]] of the [[Weil group]] of a  [[local field]] $F$ and irreducible admissible [[representations]] of $GL_n(F)$, generalizing  local [[class field theory]] from [[abelian group|abelian]] [[Galois groups]] to non-abelian Galois groups.
+
+More generally, it states that for a local field $F$ and a reductive group $G$, the isomorphism classes of irreducible admissible representations of $G(F)$ are partitioned into _L-packets_ by the equivalence classes of _L-parameters_.
 
 ## Related concepts
 
@@ -33,6 +35,8 @@ Part of the above material is taken from
 See also
 
 * Colin Bushnell, Guy Henniart, _The local Langlands conjecture for $GL(2)$_ .
+* [Topics on Automorphic Forms](http://www.math.columbia.edu/~chaoli/docs/AutomorphicForm.html), course notes by Chao Li from a course taught by Jack Thorne
+* [Kevin Buzzard's MSRI Summer School on automorphic forms](http://wwwf.imperial.ac.uk/~buzzard/MSRI/)
 
 For an approach via the [[Fargues-Fontaine curve]]
 
