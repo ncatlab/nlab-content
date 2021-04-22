@@ -28,4 +28,8 @@ On [[cobordism cohomology theory]]:
 
 * [[Chern-Dold character]]
 
+
+[[!redirects Victor Buhštaber]]
+
+
 category: people
