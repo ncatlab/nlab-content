@@ -87,7 +87,7 @@ $$
   \;\coloneqq\;
   d_C
   \big(
-    (-) \circ \sigma,
+    (-) \circ \sigma
     ,\,
     (-) \circ \sigma
   \big)
@@ -234,7 +234,7 @@ $$
 is this:
 
 $$
-  [d_c]
+  [d_C]
   \;=\;
   \left[
   \array{
