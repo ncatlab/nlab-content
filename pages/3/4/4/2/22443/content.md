@@ -216,7 +216,7 @@ We discuss the [[Gershgorin radius]] of the Cayley distance kernel, in Prop. \re
 
 
 \begin{lemma}\label{SumOfExpLambdaNumCyclesOverPermutations}
-For $n \in \mathbb{N}$, with $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, and for any [[variable]] $\beta$, we have (as an [[equation]] between [[polynomials]] in $\beta$):
+For $n \in \mathbb{N}$, with $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, and for any [[variable]] $\beta$, we have (as an [[equation]] between [[polynomials]] in $e^\beta$):
   $$
     \underset{
       \sigma \in Sym(n)
