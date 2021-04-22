@@ -37,9 +37,65 @@ Here is an example of a horizontal chord diagram on 5 strands:
 
 ## Defintions
 
-### Set of horizontal chord diagrams
 
-For $n \in \mathbb{N}$, write $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal chord diagrams]] on $n$ strands (the superscript $pb$ is for _[[pure braids]]_).
+### Monoid of horizontal chord diagrams
+ {#MonoidOfHorizontalChordDiagrams}
+
+For $n \in \mathbb{N}$ (the *number of strands*), the *monoid of horizontal chord diagrams* is the [[free monoid]] 
+
+\[
+  \label{HorizontalChordDiagramsAsFreeMonoidOnChords}
+  \mathcal{D}^{pb}_n
+  \;\coloneqq\;
+  FreeMonoid
+  \Big(
+    \big\{
+      (i j)
+      \,\vert\,
+      1 \leq i \lt j \leq n
+    \big\}
+  \Big)
+\]
+
+on the [[set]] of pairs of distinct elements of $\{1, \cdots, n\}$, i.e. of pairs of strands, called the *chords* (the traditional superscript $pb$ is for _[[pure braids]]_).
+
+Hence a horizontal chord diagram is equivalently a finite [[list]] of chords
+
+$$
+  D 
+  \;=\;
+  (i_d j_d)
+    \cdot 
+    \cdots
+    \cdot
+  (i_2 j_2)
+    \cdot
+  (i_1 j_1)
+$$
+
+and the product of chord diagrams is the concatenation of these list, with the [[empty list]] being the [[neutral element]].
+
+The [[function]] that sends the chord $(i j)$ to that [[permutation]] of $n$ elements (strands) which is given by the [[transposition]] $t_{i j}$ of the $i$th with the $j$th strand extends to a unique [[monoid]] [[homomorphism]] from the monoid of horizontal chord diagrams (eq:HorizontalChordDiagramsAsFreeMonoidOnChords) to the [[symmetric group]] on $n$ elements:
+
+$$
+  \array{
+    \mathcal{D}^{pn}_n
+    &\overset{perm}{\longrightarrow}&
+    Sym(n)
+    \\
+    (i_d j_d)
+      \cdot \cdots \cdot
+    (i_1 j_1)
+    &\mapsto&
+    t_{i_d j_d}
+      \circ
+    \cdots
+      \circ
+    t_{i_1 j_1}
+    \,.
+  }
+$$
+
 
 
 ### Closure to round chord diagrams
