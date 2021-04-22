@@ -391,7 +391,7 @@ $$
 \begin{lemma}\label{SumOverFirstRowOfCayleyDistanceKernel}
 **(sum over first row of Cayley distance kernel)** \linebreak
   For $n \in \mathbb{N}$, the [[sum]] over the first row of the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) equals
-$$
+\[
   \underset{
     \sigma \in Sym(n)
   }{\sum}
@@ -407,7 +407,7 @@ $$
     + 
     k
   \big)
-$$
+\]
 \end{lemma}
 \begin{proof}
 We compute as follows:
@@ -461,8 +461,9 @@ where:
 **([[Gershgorin radius]] of [[Cayley distance kernel]])**
   For $n \in \mathbb{N}$, 
  the [[Gershgorin radii]] of the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) are all equal to
-  $$
-    r
+\[
+  \label{GershgorinRadiusExpression}
+    r(\beta)
     \;=\;
   e^{- \beta \cdot n }
   \,
@@ -477,7 +478,7 @@ where:
   \big)
   - 
   1
-  $$
+\]
 \end{prop}
 \begin{proof}
   By [[right invariant metric|right invariance]] of the [[Cayley distance]] ([this Prop.](Cayley+distance#CayleyMetricIsRightInvariant)) the sum over entries of any row is equal to that of the first row.
@@ -489,6 +490,206 @@ Since moreover
 
 it follows that this sum over the first row already equals the Gershogin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
 \end{proof}
+
+\linebreak
+
+### Positivity
+
+\begin{prop}
+  A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive semi-definite bilinear form|positive semi-definite]] is that its [[inverse temperature]] satisfies the following [[inequality]]
+
+\[
+  \label{GershgorinBoundOnTemperatureForPositivity}
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\beta}
+    + 
+    k
+  \big)
+  \;\leq\;
+  2
+  e^{\beta \cdot n }
+  \,.
+\]
+\end{prop}
+\begin{proof}
+  By the [[Gershgorin circle theorem]] and using Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel},
+  all the [[eigenvalues]] of the kernel are within a distance $r(\beta)$ (eq:GershgorinRadiusExpression) from its diagonal values, which are all equal to $1 = e^{- \beta \cdot 0}$. 
+Since, moreover, all eigenvalues are [[real numbers|real]], the condition
+$$
+  1 
+    \;\;\leq\;\; 
+  r(\beta)
+    \;=\;
+  e^{- \beta \cdot n }
+  \,
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\beta}
+    + 
+    k
+  \big)
+  - 
+  1
+$$
+implies that all eigenvalues are contained in the [[interval]] $[0,2] \subset \mathbb{R}$ and hence in particular that they are non-negative.
+\end{proof}
+
+\begin{prop}\label{ExplicitBoundForInverseTemperatureEnsuringPositivity}
+  For [[inverse temperature]] the [[natural logarithm]] of a [[natural number]]
+\[
+  \label{InverseTemperatureEqualToNaturalLogarithmOfNaturalNumber}
+  \beta
+  \;=\;
+  \ln(N)
+  \,,
+  \;\;\;
+  N \,\in\, \mathbb{N}
+\]
+a sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) to be [[positive semi-definite bilinear form|positive semi-definite]] on $Sym(n)$ is that 
+$$
+  N
+    \;\geq\;
+  \frac{
+    n-1
+  }{
+    2^{1/n} - 1
+  }  
+  \,.
+$$
+\end{prop}
+\begin{proof}
+In the given case (eq:InverseTemperatureEqualToNaturalLogarithmOfNaturalNumber)
+the Gershgorin bound (eq:GershgorinBoundOnTemperatureForPositivity) for positive semi-definity of the Cayley distance kernel reads
+$$   
+  \underset{
+   = (N + n - 1)! / (N - 1)!
+  }{
+  \underbrace{
+    N
+    (N + 1)
+    (N + 2)
+    \cdots
+    (N + n - 1)
+  }
+  }
+  \;\leq\;
+  2
+  N^n
+$$
+and hence may equivalently be expressed as
+\[
+  \label{GershgorinPositivityBoundForInverseTemperatureTheLogOfNaturalNumber}
+  \array{
+  &
+  \frac{
+    N (N + 1 ) \cdots (N + n -1) 
+  }{
+    N^n
+  }
+  &
+  \;\leq\;
+  2   
+  \\
+  \Leftrightarrow
+  &
+  \left(
+    { N + n - 1 }
+    \atop
+    { N -1 }
+  \right)
+  \cdot
+  \frac{
+    n !
+  }{
+    N^n 
+  }
+  &
+  \;\leq\;
+  2   
+  }
+  \;\;\;\;\;\;
+    \Rightarrow
+  \;\;\;\;\;\;
+  e^{- ln(N) \cdot d_C}
+  \,
+  \text{is positive semi-definite on}
+  \,
+  Sym(n)
+  \,.
+\]
+
+With the evident bound
+$$
+  \frac{
+    N (N + 1 ) \cdots (N + n -1) 
+  }{
+    N^n
+  }
+  \;\leq\;
+  \left(
+    \frac{
+      N + n - 1
+    }{
+      N
+    }
+  \right)^n
+  \;=\;
+  \left(
+  1 
+    + 
+  \frac{
+    n - 1
+  }{
+    N
+  }
+  \right)^n
+  \,,
+$$
+the condition (eq:GershgorinPositivityBoundForInverseTemperatureTheLogOfNaturalNumber) is satisfied as soon as
+$$
+  \begin{aligned}
+  & 
+  \left(
+  1 
+    + 
+  \frac{
+    n - 1
+  }{
+    N
+  }
+  \right)^n
+  \;\leq\;
+  2
+  \\
+  \Leftrightarrow
+  \;\;\;
+  &
+  N
+    \;\geq\;
+  \frac{
+    n-1
+  }{
+    2^{1/n} - 1
+  }
+  \end{aligned}
+$$
+\end{proof}
+
+\begin{remark}
+  Computer-experiment suggests that these bounds are extremely loose: For the first few values of $n$ the value $N = 2$ is already sufficient for positive semi-definiteness.
+\end{remark}
+
+
+
+
+\linebreak
 
 ### Eigenvectors
 
