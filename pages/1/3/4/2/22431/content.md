@@ -74,6 +74,7 @@ $$
 ## Properties
 
 ### Invariance
+ {#Invariance}
 
 The following is immediate from Def. \ref{CayleyDistance}:
 
@@ -256,6 +257,8 @@ $$
 
 
 ## Related concepts
+
+* [[Cayley distance kernel]]
 
 * [[Kendall distance]]
 
