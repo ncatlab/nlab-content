@@ -1,5 +1,6 @@
+Theodore James Courant is an American mathematician.
 
-* webpage ?
+He got his PhD in 1987 from UC Berkeley, advised by [[Alan Weinstein]].
 
 ## Related entries
 
