@@ -1195,6 +1195,11 @@ to [[confinement]]/[[quark-gluon plasma|deconfinement]] phase transiton:
 
 * {#LYY18} Meng-Wei Li, Yi Yang, Pei-Hung Yuan  _Imprints of Early Universe on Gravitational Waves from First-Order Phase Transition in QCD_ ([arXiv:1812.09676](https://arxiv.org/abs/1812.09676))
 
+With [[magnetic fields]]:
+
+* Umut Gursoy, *Holographic QCD and magnetic fields* ([arXiv:2104.02839](https://arxiv.org/abs/2104.02839))
+
+
 See also
 
 * Yosuke Imamura, _Baryon Mass and Phase Transitions in Large N Gauge Theory_, Prog. Theor. Phys. 100 (1998) 1263-1272 ([arxiv:hep-th/9806162](https://arxiv.org/abs/hep-th/9806162))
