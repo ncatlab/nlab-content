@@ -701,8 +701,26 @@ One [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in 
     {\prod}\big(e^{\beta}- k \big)$.
 \end{prop}
 \begin{proof}
-  That this is an eigenvector follows immediately by the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)).
-The corresponding eigenvalue thus equals the signed sum of, in particular, the first row of the Cayley distance kernel. This is as claimed by Lemma \ref{SumOverSgnFirstRowOfCayleyDistanceKernel}.
+  That this is an eigenvector follows from the following calculation:
+
+The $\tau$ component of the image of this vector is $\underset{
+    \sigma \in Sym(n)
+  }{\sum} sgn(\sigma)
+  e^{ - \beta \cdot d_C(\sigma, \tau) }
+  \;=\; 
+\underset{
+    \sigma \in Sym(n)
+  }{\sum} sgn(\tau)sgn(\sigma \cdot \tau^{-1})
+  e^{ - \beta \cdot d_C(\sigma \cdot \tau^{-1}, e) }
+\;=\; 
+sgn(\tau)\underset{
+    \sigma \in Sym(n)
+  }{\sum} sgn(\sigma)
+  e^{ - \beta \cdot d_C(\sigma, e) }.$
+  
+
+This follows from the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)).
+$(sgn(\sigma))_{\sigma \in Sym(n)}$ is thus an eigenvector and the corresponding eigenvalue equals the signed sum of, in particular, the first row of the Cayley distance kernel. This is as claimed by Lemma \ref{SumOverSgnFirstRowOfCayleyDistanceKernel}.
 \end{proof}
 
 
