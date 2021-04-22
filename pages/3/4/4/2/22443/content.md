@@ -341,11 +341,17 @@ it follows that this sum over the first row already equals the Gershogin radius 
 
 ### Eigenvector
 
-One eigenvector of the Cayley distance kernel is $(sgn(\sigma_i))_i$ with corresponding eigenvalue $e^{- \lambda \cdot n }
+\begin{prop}
+One [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \lambda \cdot n }
   \underoverset
     {k = 0}
     {n - 1}
     {\prod}\big(e^{\lambda}- k \big)$.
+\end{prop}
+\begin{proof}
+  That this is an eigenvector follows immediately by the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)).
+The corresponding eigenvalue thus equals the signed sum of, in particular, the first row of the Cayley distance kernel. This is as claimed by Lemma \ref{SumOverSgnFirstRowOfCayleyDistanceKernel}.
+\end{proof}
 
 
 \begin{lemma}\label{SumOfSgnExpLambdaNumCyclesOverPermutations}
@@ -371,7 +377,7 @@ One eigenvector of the Cayley distance kernel is $(sgn(\sigma_i))_i$ with corres
 (e.g. discussion at [MO:q/245010](https://mathoverflow.net/a/245010/))
 
 \begin{lemma}\label{SumOverSgnFirstRowOfCayleyDistanceKernel}
-**(sum over first row of signed Cayley distance kernel)** \linebreak
+**(signed sum over first row of Cayley distance kernel)** \linebreak
   For $n \in \mathbb{N}$, the [[sum]] over the first row of the signed Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) equals
 $$
   \underset{
