@@ -321,7 +321,7 @@ There are useful [[group presentations]] of the braid groups.   We will return l
 
 ### Geometric definition 
 
-Let $C_n \hookrightarrow \mathbb{C}^n$ be the space of [[configuration space of points|configurations of n points]] in the [[complex plane]], whose elements are those [[n-tuples]] $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. The [[symmetric group]] $S_n$ acts on $C_n$ by permuting coordinates. Let $C_n/S_n$ be the orbit space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), and let $[z_1, \ldots, z_n]$ be the image of $(z_1, \ldots, z_n)$ under the quotient $\pi: C_n \to C_n/S_n$. We take $p = (1, 2, \ldots, n)$ as basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as basepoint for $C_n/S_n$. 
+Let $C_n \hookrightarrow \mathbb{C}^n$ be the space of [[configuration space of points|configurations of n points]] in the [[complex plane]], whose elements are those [[n-tuples]] $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. The [[symmetric group]] $S_n$ acts on $C_n$ by permuting coordinates. Let $C_n/S_n$ be the [[orbit]] space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), and let $[z_1, \ldots, z_n]$ be the image of $(z_1, \ldots, z_n)$ under the quotient $\pi: C_n \to C_n/S_n$. We take $p = (1, 2, \ldots, n)$ as basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as basepoint for $C_n/S_n$. 
 
 +-- {: .num_defn} 
 ###### Definition 
