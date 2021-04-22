@@ -519,9 +519,7 @@ it follows that this sum over the first row already equals the Gershogin radius 
   By the [[Gershgorin circle theorem]] and using Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel},
   all the [[eigenvalues]] of the kernel are within a distance $r(\beta)$ (eq:GershgorinRadiusExpression) from its diagonal values, which are all equal to $1 = e^{- \beta \cdot 0}$. 
 Since, moreover, all eigenvalues are [[real numbers|real]], the condition
-$$
-  1 
-    \;\;\leq\;\; 
+$$ 
   r(\beta)
     \;=\;
   e^{- \beta \cdot n }
@@ -537,6 +535,8 @@ $$
   \big)
   - 
   1
+\;\;\leq\;\; 
+1
 $$
 implies that all eigenvalues are contained in the [[interval]] $[0,2] \subset \mathbb{R}$ and hence in particular that they are non-negative.
 \end{proof}
@@ -735,7 +735,7 @@ $$
   \underset{
     \sigma \in Sym(n)
   }{\sum}
- sgn(\sigma) \cdot e^{ - beta \cdot  d_C(\sigma, e) }
+ sgn(\sigma) \cdot e^{ - \beta \cdot  d_C(\sigma, e) }
   \;=\;  
   e^{- \beta \cdot n }
   \underoverset
