@@ -488,7 +488,7 @@ Since moreover
 
 * the diagonal elements are all equal to $1 = e^{ - \beta \cdot 0 }$,
 
-it follows that this sum over the first row already equals the Gershogin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
+it follows that this sum over the first row equals the Gershgorin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
 \end{proof}
 
 \linebreak
@@ -703,20 +703,27 @@ One [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in 
 \begin{proof}
   That this is an eigenvector follows from the following calculation:
 
-The $\tau$ component of the image of this vector is $\underset{
+The $\tau$ component of the image of this vector is 
+
+$$
+\begin{aligned}
+\underset{
     \sigma \in Sym(n)
   }{\sum} sgn(\sigma)
   e^{ - \beta \cdot d_C(\sigma, \tau) }
-  \;=\; 
+  &\;=\; 
 \underset{
     \sigma \in Sym(n)
   }{\sum} sgn(\tau)sgn(\sigma \cdot \tau^{-1})
   e^{ - \beta \cdot d_C(\sigma \cdot \tau^{-1}, e) }
-\;=\; 
+\\
+ & \;=\; 
 sgn(\tau)\underset{
     \sigma \in Sym(n)
   }{\sum} sgn(\sigma)
-  e^{ - \beta \cdot d_C(\sigma, e) }.$
+  e^{ - \beta \cdot d_C(\sigma, e) }.
+\end{aligned}
+$$
   
 
 This follows from the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)).
