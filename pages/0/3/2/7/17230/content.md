@@ -150,6 +150,18 @@ See also
 
 * Wikipedia, _[Schwinger-Dyson equation](https://en.wikipedia.org/wiki/Schwinger%E2%80%93Dyson_equation)_
 
+
+Discussion of [[round chord diagrams]] organizing Dyson-Schwinger equations:
+
+* Nicolas Marie, [[Karen Yeats]], *A chord diagram expansion coming from some Dyson-Schwinger equations*, Communications in Number Theory and Physics, 7(2):251291, 2013 ([arXiv:1210.5457](https://arxiv.org/abs/1210.5457))
+
+* Markus Hihn, [[Karen Yeats]], *Generalized chord diagram expansions of Dyson-Schwinger equations*, Ann. Inst. Henri Poincar Comb. Phys. Interact. 6 no 4:573-605 ([arXiv:1602.02550](https://arxiv.org/abs/1602.02550))
+
+Review in:
+
+* Ali Assem Mahmoud, Section 3 of: *On the Enumerative Structures in Quantum Field Theory* ([arXiv:2008.11661](https://arxiv.org/abs/2008.11661))
+
+
 [[!redirects Schwinger-Dyson equations]]
 
 [[!redirects Dyson-Schwinger equation]]
