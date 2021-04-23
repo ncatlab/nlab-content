@@ -66,13 +66,39 @@ Let $F$ be a $p$-adic field. The only irreducible admissible representations of 
 
 ### Local Langlands correspondence for $GL_2$
 
-Let $F$ be a $p$-adic field. For $p\neq 2$, the irreducible admissible representations of $GL_2(F)$ are the following:
+\begin{definition}
+
+Let $F$ be a $p$-adic field, $p\neq 2$. Given continuous admissible characters $\chi_{1}$ and $\chi_{2}$, we define $I(\chi_{1},\chi_{2})$ to be the vector space of function $\phi:GL_{2}(F)\to \mathbb{C}$ which are locally constant with respect to the $p$-adic topology on $GL_{2}(F)$ and satisfying
+
+$$\phi\left(\begin{pmatrix}a & b \\0 & d\end{pmatrix}g\right)=\chi_{1}(a)\chi_{2}(d)\Vert a/d\Vert^{1/2}\phi(g).$$
+
+Letting $GL_2(F)$ act on this by translation gives us a representation of $GL_2(F)$. This representation is called the *principal series representation*.
+
+\end{definition}
+
+Whether a principal series is irreducible or not is governed by the following theorem:
+
+\begin{theorem}[Bernstein-Zelevinsky]
+
+If $\chi_{1}/\chi_{2}\neq\Vert\cdot\Vert^{\pm 1}$ then $I(\chi_{1},\chi_{2})$ is irreducible.
+
+If $\chi_{1}/\chi_{2}=\Vert\cdot\Vert^{1}$ then we have an exact sequence
+$$0\to\rho\to I(\chi_{1},\chi_{2})\to S(\chi_{1},\chi_{2})\to 0$$
+where $\rho$ is the $1$-dimensional representation of $GL_2(F)$ given by $\chi_{1}\Vert\cdot\Vert^{1/2}\det$, and $S(\chi_{1},\chi_{2})$ is an irreducible representation.
+
+If $\chi_{1}/\chi_{2}=\Vert\cdot\Vert^{-1}$ then we have an exact sequence
+$$0\to S(\chi_{1},\chi_{2})\to I(\chi_{1},\chi_{2})\to \rho\to 0$$
+with $\rho$ and $S(\chi_{1},\chi_{2})$ as above.
+
+\end{theorem}
+
+Therefore the irreducible admissible representations of $GL_2(F)$ are the following:
 
 * Principal series representations $I(\chi_{1},\chi_{2})$ for $\chi_{1}/\chi_{2}\neq \Vert\cdot\Vert^{\pm 1}$.
 
 * Special representations $S(\chi_{1},\chi_{1}\times\Vert\cdot\Vert)$.
 
-* Finite-dimensional representations $\chi\circ\det$.
+* $1$-dimensional representations $\chi\circ\det$.
 
 * "Base change" representations $BC_{E}^{F}(\psi)$ for $E$ a quadratic extension of $F$ and $\psi$ an admissible character $\psi:E\to\mathbb{C}^{\times}$.
 
@@ -82,7 +108,7 @@ Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil gr
 
 * To the special representation $S(\chi_{1},\chi_{1}\times\Vert\cdot\Vert)$, we associate the Weil-Deligne representation $\left(\begin{pmatrix}\Vert\cdot\Vert\rho_{1} & 0\\0 & \rho_{1}\end{pmatrix},\begin{pmatrix} 0 & 1\\0 & 0\end{pmatrix}\right)$.
 
-* To the finite-dimensional representation $\chi_{1}\circ\det$, we associate the Weil-Deligne representation $\left(\begin{pmatrix}\rho_{1}\times\Vert\cdot\Vert^{1/2} & 0\\0 & \rho_{1}\times\Vert\cdot\Vert^{-1/2}\end{pmatrix},0\right)$.
+* To the $1$-dimensional representation $\chi_{1}\circ\det$, we associate the Weil-Deligne representation $\left(\begin{pmatrix}\rho_{1}\times\Vert\cdot\Vert^{1/2} & 0\\0 & \rho_{1}\times\Vert\cdot\Vert^{-1/2}\end{pmatrix},0\right)$.
 
 * To the "base change" representation $BC_{E}^{F}(\psi)$ we associate the Weil-Deligne representation ($Ind_{W_{E}}^{W_{F}}\sigma,0$), where $\sigma$ is the unique nontrivial element of $\mathrm{Gal}(E/F)$.
 
@@ -92,7 +118,7 @@ Fargues-Scholze have developed a geometric approach to the local Langlands conje
 
 ## p-adic and mod p local Langlands
 
-The $p$-adic (resp. mod $p$) local Langlands correspondence concerns $p$-adic (resp. mod p) representations of the absolute Galois group of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. Currently the only known case is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
+The $p$-adic (resp. mod $p$) local Langlands correspondence concerns $p$-adic (resp. mod p) representations of the absolute Galois group of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. It is related to [[p-adic Hodge theory]]. Currently the only known case is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
 
 ## Related concepts
 
@@ -119,7 +145,7 @@ An approach via the [[Fargues-Fontaine curve]]:
 
 The p-adic and mod p local Langlands correspondence is discussed in:
 
-*{#Breuil2010}, Christophe Breuil, _The emerging p-adic Langlands program_
+*{#Breuil2010} Christophe Breuil, ([_The emerging p-adic Langlands program_](https://www.imo.universite-paris-saclay.fr/~breuil/PUBLICATIONS/ICM2010.pdf)) 
 
 
 [[!redirects local Langlands conjectures]]
