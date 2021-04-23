@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,15 +49,21 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 ## References
 
+Historical origins:
+
 * [[Carl Gauss]], _[[Disquisitiones Arithmeticae]]_, 1801
 
-* Wikipedia en:[number theory](http://en.wikipedia.org/wiki/Number_theory), fr:l'[arithm&#233;tique modulaire](http://fr.wikipedia.org/wiki/Arithm%C3%A9tique_modulaire) 
+Textbook accounts:
 
 * A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965. 
 
 * Albrecht Fr&#246;hlich, Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics **27**, 1993
 
-Lecture notes include
+In a context of [[automorphic forms]] and the [[Langlands correspondence]]:
+
+* {#Tate77} [[John Tate]], *Number theoretic background*, in: *Automorphic forms, representations and L-functions*, Proc. Sympos. Pure Math., Oregon State Univ., Corvallis, Ore. (1977), Part 2, Proc. Sympos. Pure Math., XXXIII, pages 3–26. Amer. Math. Soc., Providence, RI ([ISBN:978-0-8218-3371-1](https://bookstore.ams.org/pspum-33-2), [pdf](http://www.math.ucsd.edu/~csorense/teaching/math205/Tate_Weil.pdf), [[TateNumberTheory.pdf:file]])
+
+Lecture notes:
 
 * [[Andrew Sutherland]], _[Number theory I](https://ocw.mit.edu/courses/mathematics/18-785-number-theory-i-fall-2016/index.htm)_, 2016
 
@@ -65,5 +72,10 @@ Further collection of lecture notes is [here](http://www.math.caltech.edu/~jimlb
 The following survey of Connes-Marcolli work has an accessible quick introduction to algebraic number theory
 
 * P. Almeida, _Noncommutative geometry and arithmetics_, Russian Journal of Mathematical Physics __16__, No. 3, 2009, pp. 350&#8211;362, [doi](http://dx.doi.org/10.1134/S1061920809030030), see also $n$Lab:[[arithmetic and noncommutative geometry]]
+
+See also:
+
+* Wikipedia en:[number theory](http://en.wikipedia.org/wiki/Number_theory), fr:l'[arithm&#233;tique modulaire](http://fr.wikipedia.org/wiki/Arithm%C3%A9tique_modulaire) 
+
 
 [[!redirects number theory]]
