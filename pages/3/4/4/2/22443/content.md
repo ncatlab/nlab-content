@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 =--
 =--
 
@@ -15,6 +19,28 @@
 * table of contents
 {:toc}
 
+## Idea
+
+For $n \in \mathbb{N}$ and for some parameter $\beta \in \mathbb{R}_+$ ("[[inverse temperature]]") the [[function]] on pairs $\sigma_1, \sigma_2 \in $ [[symmetric group|Sym(n)]] of [[permutations]] of $n$ elements which assigns the [[exponential|exponentiated]] [[Cayley distance]] $d_C$ between them, weighted by $- \beta$:
+
+$$
+  (\sigma_1, \sigma_2)
+  \;\mapsto\;
+  e^{ - \beta \cdot d_C(\sigma_1, \sigma_2) }
+  \;\in\;
+  \mathbb{R}
+  \,,
+$$
+
+may naturally be called the *Cayley distance kernel* (though it does not seem to have a standard name in existing literature).
+
+This is different from but akin to other [[kernel methods|kernels]] used in [[geometric group theory]], notably the more widely studied *[[Mallows kernel]]*, which is of the same form but using the [[Kendall distance]] instead of the [[Cayley distance]]. While these two [[distance]] [[functions]] are superficially similar (where the Cayley distance counts the minimum number of [[transpositions]] needed to turn one permutation intto another, the [[Kendall distance]] counts minimum numbers of *adjacent* [[transpositions]]) the two resulting kernels behave qualitatively differently:
+
+Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel may become [[indefinite bilinear form|indefinite]], for small $\beta$, see Example \ref{CayleyDistanceKernelOnSym3} below.
+
+Currently, not much seems to be known about the general behavior of the Cayley distance kernel with $\beta$. Below we discuss sufficient lower bounds on $\beta$, for given $n$, for it to be positive definite.
+
+\linebrerak
 
 ## Definition
 
@@ -32,7 +58,8 @@ $$
 
 denoting its [[Cayley distance]]-function, the corresponding *Cayley distance kernel* for $\beta \in \mathbb{R}_+$ 
 
-$$  
+\[
+  \label{CayleyDistanceKernel}
   \array{
     Sym(n) \times Sym(n)
     &
@@ -44,16 +71,18 @@ $$
     &
     \mathbb{R}
   }
-$$
+\]
 
 is the [[exponential]] of the Cayley distance, weighted by $- \beta$.
+
+This may and often is regarded as a [[square matrix]] over the [[real numbers]] and as such often conflated with the corresponding [[bilinear form]] on the [[linear span]] of $Sym(n)$.
 
 \end{defn}
 
 
 ## Examples 
 
-\begin{example}
+\begin{example}\label{CayleyDistanceKernelOnSym3}
 **([[Cayley distance kernel on Sym(3)]])**
 The [[Cayley graph]] of the [[symmetric groups]] on 3 elements, $Sym(3)$, with [[edges]] corresponding to any [[transposition]] (not necessarily adjacent) looks like
 
@@ -494,9 +523,10 @@ it follows that this sum over the first row equals the Gershgorin radius plus 1 
 \linebreak
 
 ### Positivity
+ {#Positivity}
 
 \begin{prop}
-  A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive semi-definite bilinear form|positive semi-definite]] is that its [[inverse temperature]] satisfies the following [[inequality]]
+  A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive semi-definite bilinear form|positive semi-definite]] is that its [[inverse temperature]] satisfies the following [[inequality]]:
 
 \[
   \label{GershgorinBoundOnTemperatureForPositivity}
@@ -683,7 +713,7 @@ $$
 \end{proof}
 
 \begin{remark}
-  Computer-experiment suggests that these bounds are extremely loose: For the first few values of $n$ the value $N = 2$ is already sufficient for positive semi-definiteness.
+  Computer-experiment suggests ([[schreiber:Weight systems that are states|CSS21]]) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $n$, at least, the inverse temperature $\beta = ln(2)$ is already sufficient for positive semi-definiteness.
 \end{remark}
 
 
@@ -692,6 +722,8 @@ $$
 \linebreak
 
 ### Eigenvectors
+
+We discuss some [[eigenvectors]] of the Cayley distance kernel.
 
 \begin{prop}
 One [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \beta \cdot n }
