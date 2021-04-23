@@ -10,6 +10,8 @@
 
 * [[Boltzmann constant]]
 
+* [[Boltzmann distribution]]
+
 category: people
 
 [[!redirects Boltzmann]]
