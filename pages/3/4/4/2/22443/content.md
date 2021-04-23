@@ -723,10 +723,14 @@ $$
 
 ### Eigenvectors
 
-We discuss some [[eigenvectors]] of the Cayley distance kernel.
+We discuss some [[eigenvectors]] of the Cayley distance kernel. Clearly $(1)_{\sigma \in Sym(n)}$ is an eigenvector with eigenvalue $e^{- \beta \cdot n }
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}\big(e^{\beta}+ k \big)$.
 
 \begin{prop}
-One [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \beta \cdot n }
+A further [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \beta \cdot n }
   \underoverset
     {k = 0}
     {n - 1}
@@ -758,8 +762,7 @@ sgn(\tau)\underset{
 $$
   
 
-This follows from the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)).
-$(sgn(\sigma))_{\sigma \in Sym(n)}$ is thus an eigenvector and the corresponding eigenvalue equals the signed sum of, in particular, the first row of the Cayley distance kernel. This is as claimed by Lemma \ref{SumOverSgnFirstRowOfCayleyDistanceKernel}.
+This follows from the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)) and the fact that $sgn$ is a multiplicative character, $sgn(\sigma \cdot \tau) = sgn(\sigma)\cdot sgn(\tau)$. Thus $(sgn(\sigma))_{\sigma \in Sym(n)}$ is an eigenvector and the corresponding eigenvalue equals the signed sum of, in particular, the first row of the Cayley distance kernel. This is as claimed by Lemma \ref{SumOverSgnFirstRowOfCayleyDistanceKernel}.
 \end{proof}
 
 
@@ -854,6 +857,8 @@ where:
 \end{proof}
 
 When $e^\beta = k$, for $k = 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\beta \gt n-1$, the eigenvalue is positive.
+
+Since this result relies on $sgn(\sigma)$ being a multiplicative character, and the only multiplicative characters of a symmetric group are the trivial one and the sign, the other eigenvectors must be found by other means.
 
 
 ## Related concepts
