@@ -80,6 +80,8 @@ On the other hand [[pretriangulated dg-categories]] are known to provide a model
 
 * [[Schwartz kernel]]
 
+* [[heat kernel]]
+
 * [[kernel method]]
 
 ## References
