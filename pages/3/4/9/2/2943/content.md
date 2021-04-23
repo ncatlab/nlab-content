@@ -27,11 +27,21 @@ One of the basic characteristics of a thermodynamical system is its [[temperatur
 
 ## Related entries
 
-* [[entropy]], [[relative entropy]], [[second law of thermodynamics]], [[generalized second law of thermodynamics|generalized second law]], [[KMS state]]
+* [[temperature]], [[inverse temperature]]
+
+* [[Boltzmann constant]]
+
+* [[Boltzmann distribution]]
+
+* [[entropy]], [[relative entropy]], 
+
+* [[second law of thermodynamics]], [[generalized second law of thermodynamics|generalized second law]], 
+
+* [[KMS state]]
 
 * [[intensive and extensive]]
 
-* [[thermal quantum field theory]]
+* [[thermal quantum field theory]], 
 
 ## References
 
