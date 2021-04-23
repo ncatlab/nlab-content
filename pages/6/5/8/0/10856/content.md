@@ -1,7 +1,9 @@
 
 ## Related entries
 
-* [[thermodynamics]], 
+* [[thermodynamics]]
+
+* [[inverse temperature]]
 
 * [[thermal quantum field theory]], [[Euclidean field theory]]
 
@@ -15,10 +17,10 @@
 
 
 
+
 ## References
 
-* Wikiedpia, _[Temperature](http://en.wikipedia.org/wiki/Temperature)_
+* Wikipedpia, _[Temperature](http://en.wikipedia.org/wiki/Temperature)_
 
 [[!redirects temperatures]]
 
-[[!redirects inverse temperature]]
