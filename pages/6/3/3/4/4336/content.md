@@ -39,6 +39,8 @@ Note that if the structure on X is such that matrix multiplication is associativ
 
 * [[monomial matrix]], [[permutation matrix]]
 
+* [[principal submatrix]]
+
 * [[matrix group]], [[matrix Lie group]]
 
 * [[unitary matrix]]. [[unitary group]]
