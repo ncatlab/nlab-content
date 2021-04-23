@@ -152,6 +152,7 @@ $$
 
 * [[electronvolt]], [[MeV]], [[GeV]], [[TeV]]
 
+* [[Boltzmann constant]]
 
 [[!include fundamental scales -- contents]]
 
