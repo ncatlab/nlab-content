@@ -351,8 +351,9 @@ see [[Pfaffian]] for the moment
 ## Related entries
 
 
-
 * [[matrix]], [[linear algebra]], [[exterior algebra]], [[characteristic polynomial]]
+
+* [[principal submatrix]]
 
 * [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]]
 
