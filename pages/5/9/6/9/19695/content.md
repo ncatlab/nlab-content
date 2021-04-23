@@ -379,4 +379,8 @@ For more on this see at _[Topological G-space -- Fixed loci with residual Weyl g
 [[!redirects fixed point subspace]]
 [[!redirects fixed point subspaces]]
 
+[[!redirects fixed subspace]]
+[[!redirects fixed subspaces]]
 
+[[!redirects invariant subspace]]
+[[!redirects invariant subspaces]]
