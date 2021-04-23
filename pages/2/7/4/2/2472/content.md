@@ -41,7 +41,7 @@ GAGA theorems (whose proofs are very similar to Serre's proofs in the
 complex-analytic case). 
 
 
-* Work of Kisin on modularity of Galois representations makes creative use of rigid-analytic spaces associated to Galois deformation rings.
+* Work of Kisin on modularity of Galois representations makes creative use of rigid-analytic spaces associated to [[Galois deformation rings]].
 
 ## Related concepts
 
