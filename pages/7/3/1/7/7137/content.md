@@ -62,13 +62,13 @@ A *[[Weil-Deligne representation]]* is a pair $(\rho_{0},N)$ where $\rho_{0}:W_{
 
 ### Local Langlands correspondence for $GL_1$
 
-Let $F$ be a $p$-adic field. The only irreducible admissible representations of $GL_1(F)$ ($=F^\times$) are continuous group homomorphisms $\chi:F^\times\to\mathbb{C}^{\times}$. The $1$-dimensional Weil-Deligne representations $(\rho_{0},N)$ of $W_F$ must have monodromy operator $N=0$ and must factor through the abelianization $W_F^{\mathrm{ab}}$. The local Langlands correspondence in this case is the same as local class field theory, and sends $\chi$ to the Weil-Deligne representation $(\rho_{0},0)$, where $\rho_{0}$ is the composition $W_{F}\to W_{F}^{\mathrm{ab}}\xrightarrow{\mathrm{rec}^{-1}}F^{\times}\xrightarrow{\chi}\mathbb{C}^{\times}$, with $\mathrm{rec}:F^{\times}\xrightarrow{\sim}W_{F}^{\mathrm{ab}}$ being the Artin reciprocity map of local class field theory. 
+Let $F$ be a $p$-adic field. The only irreducible admissible representations of $GL_1(F)$ ($=F^\times$) are continuous group homomorphisms $\chi:F^\times\to\mathbb{C}^{\times}$. The $1$-dimensional Weil-Deligne representations $(\rho_{0},N)$ of $W_F$ must have monodromy operator $N=0$ and must factor through the abelianization $W_F^{\mathrm{ab}}$. The local Langlands correspondence in this case is the same as local class field theory, and sends $\chi$ to the Weil-Deligne representation $(\rho_{0},0)$, where $\rho_{0}$ is the composition $W_{F}\to W_{F}^{\mathrm{ab}}\xrightarrow{\mathrm{rec}^{-1}}F^{\times}\xrightarrow{\chi}\mathbb{C}^{\times}$, with $\mathrm{rec}:F^{\times}\xrightarrow{\sim}W_{F}^{\mathrm{ab}}$ being the Artin reciprocity map of local [[class field theory]]. 
 
 ### Local Langlands correspondence for $GL_2$
 
 \begin{definition}
 
-Let $F$ be a $p$-adic field, $p\neq 2$. Given continuous admissible characters $\chi_{1}$ and $\chi_{2}$, we define $I(\chi_{1},\chi_{2})$ to be the vector space of function $\phi:GL_{2}(F)\to \mathbb{C}$ which are locally constant with respect to the $p$-adic topology on $GL_{2}(F)$ and satisfying
+Let $F$ be a $p$-adic field, $p\neq 2$. Given continuous admissible characters $\chi_{1}$ and $\chi_{2}$, we define $I(\chi_{1},\chi_{2})$ to be the vector space of function $\phi:GL_{2}(F)\to \mathbb{C}$ which are [[locally constant function|locally constant]] with respect to the $p$-adic topology on $GL_{2}(F)$ and satisfying
 
 $$\phi\left(\begin{pmatrix}a & b \\0 & d\end{pmatrix}g\right)=\chi_{1}(a)\chi_{2}(d)\Vert a/d\Vert^{1/2}\phi(g).$$
 
@@ -116,9 +116,9 @@ Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil gr
 
 Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21).
 
-## p-adic and mod p local Langlands
+## $p$-adic and mod $p$ local Langlands
 
-The $p$-adic (resp. mod $p$) local Langlands correspondence concerns $p$-adic (resp. mod p) representations of the absolute Galois group of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. It is related to [[p-adic Hodge theory]]. Currently the only known case is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
+The $p$-adic (resp. mod $p$) local Langlands correspondence concerns $p$-adic (resp. mod $p$) representations of the [[absolute Galois group]] of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. It is related to [[p-adic Hodge theory]]. Currently the only known case is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
 
 ## Related concepts
 
@@ -141,11 +141,11 @@ Basic definitions are discussed in:
 
 An approach via the [[Fargues-Fontaine curve]]:
 
-*{#FarguesScholze21} [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
+* {#FarguesScholze21} [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
 
-The p-adic and mod p local Langlands correspondence is discussed in:
+The $p$-adic and mod $p$ local Langlands correspondence is discussed in:
 
-*{#Breuil2010} Christophe Breuil, ([_The emerging p-adic Langlands program_](https://www.imo.universite-paris-saclay.fr/~breuil/PUBLICATIONS/ICM2010.pdf)) 
+* {#Breuil2010} [[Christophe Breuil]], *The emerging p-adic Langlands program*, Proceedings of the International Congress of Mathematicians, Hyderabad, India, 2010 ([pdf](https://www.imo.universite-paris-saclay.fr/~breuil/PUBLICATIONS/ICM2010.pdf))
 
 
 [[!redirects local Langlands conjectures]]
