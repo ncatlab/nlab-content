@@ -54,7 +54,7 @@ If $H \hookrightarrow G$ is an inclusion of [[Lie groups]] then the quotient $G/
 ### For $\infty$-groups
  {#ForInfinityGroups}
 
-More generally, given an [[(∞,1)-topos]] $\mathbf{H}$ and a [[homomorphism]] of  [[∞-group]] ojects $H \to G$, hence equivalently a morphism of their [[deloopings]]
+More generally, given an [[(∞,1)-topos]] $\mathbf{H}$ and a [[homomorphism]] of  [[∞-group]] objects $H \to G$, hence equivalently a morphism of their [[deloopings]]
 $\mathbf{B}H \to \mathbf{B}G$, then the [[homotopy quotient]] $G/H$ is given by the [[homotopy fiber]] of this map
 
 $$
