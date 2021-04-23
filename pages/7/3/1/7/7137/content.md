@@ -72,7 +72,7 @@ Let $F$ be a $p$-adic field, $p\neq 2$. Given continuous admissible characters $
 
 $$\phi\left(\begin{pmatrix}a & b \\0 & d\end{pmatrix}g\right)=\chi_{1}(a)\chi_{2}(d)\Vert a/d\Vert^{1/2}\phi(g).$$
 
-Letting $GL_2(F)$ act on this by translation gives us a representation of $GL_2(F)$. This representation is called the *principal series representation*.
+Letting $GL_2(F)$ act on this by translation gives us a representation of $GL_2(F)$. This representation is said to belong to the *principal series*.
 
 \end{definition}
 
