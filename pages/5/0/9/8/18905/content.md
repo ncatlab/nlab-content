@@ -55,8 +55,9 @@ Roughly this says that [[propagators]] and hence [[n-point functions]] of [[rela
 Precise formulation of the conditions that go into this [[Wick rotation]] between [[relativistic field theory]] and Euclidean field theory is the content of the [[Osterwalder-Schrader theorem]].
 
 ### Temporal compactification to Thermal relativistic field theory
+  {#TemporalCompactificationToThermalRelativisticFieldTheory}
 
-In fact this relation goes deeper still: Under suitable conditions the Euclidean field theory not on $\mathbb{R}^{d+1}$ but on $\mathbb{R}^d \times S^1_\beta$, with the [[circle]]-[[product space|factor]] $S^1_{\beta}$ of [[length]] $\beta$, corresponds to relativistic field theory on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ in a [[vacuum state]] that represents [[thermal equilibrium]] at [[temperature]] $T \coloneqq 1/\beta$. (The previous case of Euclidean field theory on $\mathbb{R}^{d+1}$ may be thought of as the special case $\beta \to \infty$, hence $T \to 0$.)  
+In fact this relation goes deeper still: Under suitable conditions the Euclidean field theory not on $\mathbb{R}^{d+1}$ but on $\mathbb{R}^d \times S^1_\beta$, with the [[circle]]-[[product space|factor]] $S^1_{\beta}$ of [[length]] $\beta$, corresponds to relativistic field theory on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ in a [[vacuum state]] that represents [[thermal equilibrium]] at [[inverse temperature]] $\beta = 1/T$. (The previous case of Euclidean field theory on $\mathbb{R}^{d+1}$ may be thought of as the special case $\beta \to \infty$, hence $T \to 0$.)  
 
 This curious relation of [[Wick rotation]] with "compact peridodic Euclidean time" makes, when it applies, Euclidean field theory be a unification of [[relativistic field theory]] with [[statistical mechanics]]/[[thermodynamics]], then called _thermal quantum field theory_ or _quantum statistical field theory_ or similar.
 
@@ -146,6 +147,8 @@ General introduction to Euclidean and thermal field theory includes [Thoma 00, s
 * [[Ising model]]
 
 ## Related concepts
+
+* [[inverse temperature]]
 
 * [[instanton]], [[caloron]]
 
@@ -252,7 +255,7 @@ Discussion of thermal [[Wick rotation]] on global [[anti-de Sitter spacetime]] (
 
 * {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
 
-The expansion of thermal field theory around the [[infinite-temperature thermal field theory|infinite-temperature-limit]] (i.e. around $\beta = 1/T = 0$, i.e. [[KK-reduction]] in compact/periodic Euclidean time) is discussed in
+The expansion of thermal field theory around the [[infinite-temperature thermal field theory|infinite-temperature-limit]] (i.e. around [[inverse temperature]] $\beta = 1/T = 0$, i.e. [[KK-reduction]] in compact/periodic Euclidean time) is discussed in
 
 * {#Ginsparg80} [[Paul Ginsparg]], _First and second order phase transitions in gauge theories at finite temperature_, Nuclear Physics B Volume 170, Issue 3, 15 December 1980, Pages 388-408 (<a href="https://doi.org/10.1016/0550-3213(80)90418-6">doi:10.1016/0550-3213(80)90418-6</a>)
 
