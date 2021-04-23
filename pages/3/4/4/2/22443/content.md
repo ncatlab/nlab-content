@@ -38,9 +38,9 @@ This is different from but akin to other [[kernel methods|kernels]] used in [[ge
 
 Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel may become [[indefinite bilinear form|indefinite]], for small $\beta$, see Example \ref{CayleyDistanceKernelOnSym3} below.
 
-Currently, not much seems to be known about the general behavior of the Cayley distance kernel with $\beta$. Below we discuss sufficient lower bounds on $\beta$, for given $n$, for it to be positive definite.
+Currently, not much seems to be known about the general behavior of the Cayley distance kernel with $\beta$. [Below](#Positivity) we discuss sufficient lower bounds on $\beta$, for given $n$, for it to be positive definite.
 
-\linebrerak
+\linebreak
 
 ## Definition
 
