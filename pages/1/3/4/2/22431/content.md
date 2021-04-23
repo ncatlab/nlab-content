@@ -115,16 +115,21 @@ $$
   n
   -
   \left\vert
-     Cycles\big( \sigma_1 \circ \sigma_2^{-1}  \big)
+     Cycles
+     \big( 
+       \sigma_1 
+         \circ 
+       \sigma_2^{-1}
+     \big)
   \right\vert
   \,.
 $$
 \end{prop}
 (e.g. [Diaconis 88, p. 118](#Diaconis88))
 \begin{proof}
-  By right invariance (Prop. \ref{CayleyMetricIsRightInvariant}) it is sufficient to see the statement for the case that $\sigma_1 = e$ is the [[neutral element]] of $Sym(n)$, hence the [[identity function|identity]] [[permutation]].
+  By right invariance (Prop. \ref{CayleyMetricIsRightInvariant}) it is sufficient to see the statement for the case that $\sigma_2 = e$ is the [[neutral element]] of $Sym(n)$, hence the [[identity function|identity]] [[permutation]].
 
-Here we need to see that for $\sigma$ any permutation, the minimum number of transpositions whose product yields $\sigma$ equals $n$ minus the number of [[permutation cycle|cycles]] in $\sigma$.
+Here we need to see that for $\sigma = \sigma_1$ any permutation, the minimum number of transpositions whose product yields $\sigma$ equals $n$ minus the number of [[permutation cycle|cycles]] in $\sigma$.
 
 Now observe that:
 
