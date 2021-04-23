@@ -36,7 +36,7 @@ may naturally be called the *Cayley distance kernel* (though it does not seem to
 
 This is different from but akin to other [[kernel methods|kernels]] used in [[geometric group theory]], notably the more widely studied *[[Mallows kernel]]*, which is of the same form but using the [[Kendall distance]] instead of the [[Cayley distance]]. While these two [[distance]] [[functions]] are superficially similar (where the Cayley distance counts the minimum number of [[transpositions]] needed to turn one permutation into another, the [[Kendall distance]] counts minimum numbers of *adjacent* [[transpositions]]) the two resulting kernels behave qualitatively differently:
 
-Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel may become [[indefinite bilinear form|indefinite]], for small $\beta$, see Example \ref{CayleyDistanceKernelOnSym3} below.
+Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel becomes [[indefinite bilinear form|indefinite]], for $\beta \lt ln(2)$, see Example \ref{CayleyDistanceKernelOnSym3} and Prop. \ref{FailureOfPositivityForBetaBelowLn2} below.
 
 Currently, not much seems to be known about the general behavior of the Cayley distance kernel with $\beta$. [Below](#Positivity) we discuss sufficient lower bounds on $\beta$, for given $n$, for it to be positive definite.
 
@@ -525,6 +525,15 @@ it follows that this sum over the first row equals the Gershgorin radius plus 1 
 ### Positivity
  {#Positivity}
 
+\begin{prop}\label{FailureOfPositivityForBetaBelowLn2}
+  For all $n \geq 3$ and all $0 \lt \beta \lt ln(2)$, the Cayley distance kernel $ e^{- \beta \cdot d_C}$ *fails* to be positive semi-definite on $Sym(n)$.
+\end{prop}
+\begin{proof}
+By Example \ref{CayleyDistanceKernelOnSym3} the statement holds for $n = 3$. But the kernel for this case is a [[principal submatrix]] of all the kernels in all other cases, and positivity fails as soon as it fails on any principal submatrix. (This is immediate from the definition, but also a direct consequence of [[Cauchy's interlace theorem]].)
+
+\end{proof}
+
+
 \begin{prop}
   A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive semi-definite bilinear form|positive semi-definite]] is that its [[inverse temperature]] $\beta$ satisfies the following [[inequality]]:
 
@@ -877,6 +886,7 @@ Mentioning of the Cayley distance kernel:
 * [[Persi Diaconis]], [[Phil Hanlon]], Section 4 of: *Eigen Analysis for Some Examples of the Metropolis Algorithm*, in Donald Richards (ed.) *Hypergeometric Functions on Domains of Positivity, Jack Polynomials, and Applications*, Contemporary Mathematics Vol. 138, AMS 1992 ([doi:10.1090/conm/138](http://dx.doi.org/10.1090/conm/138), [EFS NSF 392](https://statistics.stanford.edu/research/eigen-analysis-some-examples-metropolis-algorithm), [pdf](https://statweb.stanford.edu/~cgates/PERSI/papers/eigen-metalg.pdf))
 
 * [[Michael A. Fligner]], [[Joseph S. Verducci]] (eds.), p. xx of: *Probability Models and Statistical Analyses for Ranking Data*, Lecture Notes in Statistics **80**, Springer 1993 ([doi:10.1007/978-1-4612-2738-0](https://link.springer.com/book/10.1007/978-1-4612-2738-0))
+
 
 
 Supplementary references:
