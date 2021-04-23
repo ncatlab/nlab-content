@@ -61,6 +61,7 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 
 * [[Cauchy–Schwarz inequality]]
 
+
 [[!redirects bilinear form]]
 [[!redirects bilinear forms]]
 
@@ -70,6 +71,8 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 [[!redirects positive semi-definite bilinear form]]
 [[!redirects positive semi-definite bilinear forms]]
 
+[[!redirects indefinite bilinear form]]
+[[!redirects indefinite bilinear forms]]
 
 [[!redirects symmetric bilinear form]]
 [[!redirects symmetric bilinear forms]]
