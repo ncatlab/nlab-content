@@ -47,7 +47,7 @@ $$
 
 ## Examples
 
-Higher dimensional traces in a an [[(∞,n)-category of correspondences]] are give by higher [[span traces]]. Thos of the shape of [[Riemann surfaces]] are spelled out for instance in ([lpqft](#lpqft)).
+Higher dimensional traces in a an [[(∞,n)-category of correspondences]] are give by higher [[span traces]]. Those of the shape of [[Riemann surfaces]] are spelled out for instance in ([lpqft](#lpqft)).
 
 ## Related concepts
 
