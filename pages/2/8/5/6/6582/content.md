@@ -27,6 +27,8 @@ Some standard examples are [[Fourier analysis]] on locally compact abelian group
 
 * [[Fourier analysis]], 
 
+* [[Bochner's theorem]]
+
 * [[Tannaka-Krein theorem]], 
 
 * [[Peter-Weyl theorem]], 
@@ -39,9 +41,22 @@ Some standard examples are [[Fourier analysis]] on locally compact abelian group
 
 ## References
 
-* Wikipedia: [harmonic analysis](http://en.wikipedia.org/wiki/Harmonic_analysis)
+* [[Edwin Hewett]], [[Kenneth Ross]], *Abstract Harmonic Analysis* 
+
+  Volume I: *Structure of Topological Groups, Integration Theory, Group Representations*,  Grundlehren der mathematischen Wissenschaften **115**, Springer 1979 ([doi:10.1007/978-1-4419-8638-2](https://link.springer.com/book/10.1007/978-1-4419-8638-2))
+
+  Volume II: *Structure and Analysis for Compact Groups, Analysis on Locally Compact Abelian Groups*,  Grundlehren der mathematischen Wissenschaften **152**, Springer 1970 ([doi:10.1007/978-3-662-26755-4](https://link.springer.com/book/10.1007/978-3-662-26755-4))
+
+
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
+
 * Elias Stein, Guido Weiss, _Introduction to Fourier analysis on Euclidean spaces_, Princeton Univ. Press 1971
+
+See also:
+
+* Wikipedia, [Harmonic analysis](http://en.wikipedia.org/wiki/Harmonic_analysis)
+
+
 * MSRI, [Categorical Structures in Harmonic Analysis](http://www.msri.org/workshops/708), Nov 2014. (videos)
 
 category: analysis
