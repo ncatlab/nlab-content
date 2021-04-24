@@ -11,7 +11,7 @@ It is by no means a comprehensive list, in strict alphabetic order.
 * [ItaCa](https://progetto-itaca.github.io) -- a network of Italian category theorists. See the [event page](https://progetto-itaca.github.io/pages/fest21.html) for the current edition and for [last year](https://progetto-itaca.github.io/pages/fest20.html)'s edition!
 
 
-* [[Math-Phys-Cat]] ([home page](https://math-phys.group)) -- _Algebraic, Categorical & Geometric Methods in Physics_, a Brazilian research group on [[mathematical physics]] with emphasis on [[higher category theory and physics]].
+* [[Math-Phys-Cat]] ([home page](https://math-phys.group)) -- _Mathematical-Physics and Categorification Group_, a Brazilian research group on [[mathematical physics]] with emphasis on [[higher category theory and physics]].
 
 
 * [TallCats](https://compose.ioc.ee) -- the Compositional Systems and Methods group at TalTech University, Tallinn, Estonia.
