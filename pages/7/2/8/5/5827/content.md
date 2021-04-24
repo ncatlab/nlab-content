@@ -54,13 +54,13 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 
 * [[characteristic element of a bilinear form]]
 
-
 * [[Riemannian metric]]
 
 * [[Pythagorean theorem]]
 
 * [[Cauchy–Schwarz inequality]]
 
+* [[Bochner's theorem]]
 
 [[!redirects bilinear form]]
 [[!redirects bilinear forms]]
