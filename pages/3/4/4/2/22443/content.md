@@ -84,7 +84,7 @@ This may and often is regarded as a [[square matrix]] over the [[real numbers]] 
 
 \begin{example}\label{CayleyDistanceKernelOnSym3}
 **([[Cayley distance kernel on Sym(3)]])**
-The [[Cayley graph]] of the [[symmetric groups]] on 3 elements, $Sym(3)$, with [[edges]] corresponding to any [[transposition]] (not necessarily adjacent) looks like
+The [[Cayley graph]] of the [[symmetric groups]] on 3 elements, $Sym(3)$, with [[edges]] corresponding to any [[transposition]] (not necessarily adjacent) looks as follows:
 
 \begin{tikzcd}[row sep=-6pt, column sep=14pt]
   123
@@ -235,6 +235,65 @@ $$
 
 \end{example}
 
+
+
+\begin{example}\label{CayleyDistanceKernelOnSym4}
+**(Cayley distance kernel on Sym(4))**
+
+Similar analysis shows that the eigenvalues of the Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(4)$ are the following:
+
+$$
+  \array{
+    eigenvalue & multiplicity
+    \\
+    e^{-3 \beta}
+    \big(
+      \;
+      + (e^{\beta})^3 + 6 (e^{\beta})^2 + 11 (e^{\beta}) + 6
+      \;
+    \big)
+    & 
+    1
+    \\
+    e^{-3 \beta}
+    \big(
+      \;
+      + (e^{\beta})^3 - 6 (e^{\beta})^2 + 11 (e^{\beta}) - 6
+      \;
+    \big)
+    &
+    1
+    \\
+    e^{-3 \beta}
+    \big(
+      \;
+      + (e^{\beta})^3 \phantom{\; + 0 (e^{\beta})^2 \;} - 1 (e^{\beta}) \phantom{ + 0 }
+      \;
+    \big)
+    &
+    4
+    \\
+    e^{-3 \beta}
+    \big(
+      \;
+      + (e^{\beta})^3 + 2 (e^{\beta})^2 - 1 (e^{\beta}) - 2
+      \;
+    \big)
+    &
+    9
+    \\
+    e^{-3 \beta}
+    \big(
+      \;
+      + (e^{\beta})^3 - 2 (e^{\beta})^2 - 1 (e^{\beta}) + 2
+      \;
+    \big)
+    &
+    9
+  }
+$$
+
+\end{example}
 
 
 ## Properties
@@ -732,11 +791,20 @@ $$
 
 ### Eigenvectors
 
-We discuss some [[eigenvectors]] of the Cayley distance kernel. Clearly $(1)_{\sigma \in Sym(n)}$ is an eigenvector with eigenvalue $e^{- \beta \cdot n }
+We discuss some [[eigenvectors]] of the Cayley distance kernel. 
+
+
+#### The homogeneous distribution
+
+Clearly $(1)_{\sigma \in Sym(n)}$ is an eigenvector with eigenvalue $e^{- \beta \cdot n }
   \underoverset
     {k = 0}
     {n - 1}
     {\prod}\big(e^{\beta}+ k \big)$.
+
+(by Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations})
+
+#### The signature distribution
 
 \begin{prop}
 A further [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \beta \cdot n }
@@ -746,7 +814,7 @@ A further [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigm
     {\prod}\big(e^{\beta}- k \big)$.
 \end{prop}
 \begin{proof}
-  That this is an eigenvector follows from the following calculation:
+That this is an eigenvector follows from the following calculation:
 
 The $\tau$ component of the image of this vector is 
 
