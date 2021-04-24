@@ -82,6 +82,10 @@ A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of ell
 
 * [[Picard stack]]
 
+### Of L-parameters
+
+* [[moduli stack of L-parameters]]
+
 ## Related concepts
 
 * [[moduli]], [[moduli problem]]
