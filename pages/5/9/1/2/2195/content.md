@@ -737,6 +737,9 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 * [[wavelet transform]]
 
+* [[Bochner's theorem]]
+
+
 ## References
 
 Lecture notes include
