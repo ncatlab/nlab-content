@@ -85,6 +85,12 @@ $$
 
 (see, e.g., [Meckes 19, Thm. 7.1](#Meckes19))
 
+\begin{prop}
+  In the context of Prop. \ref{GershgorinTheorem}, if an [[eigenvalue]] has mulitplicity $k$, then it is contained in at least $k$ Gershgorin discs (Def. \ref{GershgorinDiscs}).
+\end{prop}
+
+This is due to [Marsli-Hall 13](#MarsliHall13).
+
 ## Related theorems
 
 * [[Cauchy interlace theorem]]
@@ -94,6 +100,10 @@ $$
 The original article:
 
 * {#Gershgorin31} [[Semyon Aranovich Gershgorin]], *Über die Abgrenzung der Eigenwerte einer Matrix*, Bulletin de l'Académie des Sciences de l'URSS. Classe des sciences mathématiques et na, 1931, Issue 6, Pages 749–754 ([mathnet:eng/izv5235](http://mi.mathnet.ru/eng/izv5235))
+
+Textbook account:
+
+* [[Richard S. Varga]], *Gershgorin and His Circles*, Springer-Verlag, Berlin, 2004 ([doi:10.1007/978-3-642-17798-9](https://link.springer.com/book/10.1007/978-3-642-17798-9))
 
 Lecture notes:
 
@@ -109,9 +119,13 @@ See also:
 * Wikipedia, *[Gershgorin circle theorem](https://en.wikipedia.org/wiki/Gershgorin_circle_theorem)*
 
 
-Strengthening for matrices with non-negative entries:
+Strengthening for eigenvalues with higher multiplicity:
 
-* Imre Bárány, József Solymosi, *Gershgorin disks for multiple eigenvalues of non-negative matrices* ([arXiv:1609.07439](https://arxiv.org/abs/1609.07439))
+* {#MarsliHall13} [[Rachid Marsli]], [[Frank J. Hall]], *Geometric Multiplicities and Geršgorin Discs*, The American Mathematical Monthly Vol. 120, No. 5 (May 2013), pp. 452-455 ([jstor:10.4169/amer.math.monthly.120.05.452](https://www.jstor.org/stable/10.4169/amer.math.monthly.120.05.452))
+
+Further strengthening for matrices with, in addition, non-negative entries:
+
+* Imre Bárány, József Solymosi, *Gershgorin disks for multiple eigenvalues of non-negative matrices*,  In: M. Loebl, J. Nešetřil, R. Thomas (eds.) *A Journey Through Discrete Mathematics*, Springer, Cham. 2017 ([arXiv:1609.07439](https://arxiv.org/abs/1609.07439), [doi:10.1007/978-3-319-44479-6_6](https://doi.org/10.1007/978-3-319-44479-6_6))
 
 
 
