@@ -1,7 +1,7 @@
+> Not to be confused with [[John A. G. Roberts]] working in [[dynamical systems]].
 
 
-
-John Roberts was a [[mathematical physicist]] who works on the mathematical foundations of [[quantum mechanics]] and [[quantum field theory]] in terms of [[AQFT]].
+John Elias Roberts was a [[mathematical physicist]] who works on the mathematical foundations of [[quantum mechanics]] and [[quantum field theory]] in terms of [[AQFT]].
 
 #Contents#
 * table of contents
@@ -25,6 +25,14 @@ that [[local net]]s of [[observable]]s should  carry a notion of [[cohomology]] 
 
 Later Roberts proved together with [[Doplicher]] what is now one of the central results in [[AQFT]], the [[Doplicher-Roberts reconstruction theorem]] -- a version of [[Tannaka duality]] -- which in the context of [[AQFT]] serves to intrinsically characterize the [[superselection sector]]s of a QFT. See also [[DHR superselection theory]].
 
+## Selected Writings
+
+On [[W*-categories]]:
+
+* [[P. Ghez]], [[Ricardo Lima]], [[John E. Roberts]], _W\*-categories_, Pacific Journal of Mathematics 120:1 (1985), 79–109, [doi:10.2140/pjm.1985.120.79](https://doi.org/10.2140/pjm.1985.120.79).
 
 
 category: people
+
+[[!redirects John Roberts]]
+[[!redirects John E. Roberts]]
