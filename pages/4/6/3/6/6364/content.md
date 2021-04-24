@@ -47,6 +47,17 @@ See
 * _[[unitisation of C*-algebras]]_.
 
 
+### Properties
+
+The unitalization functor is not a [[conservative functor]].
+\cite{Andruszkiewicz}
+
+However, it does become conservative when restricted
+to the full subcategory of nonunital algebras
+over a [[field]] $k$
+that do not admit a surjective homomorphism to $k$.
+\cite{Andruszkiewicz}
+
 ### For $\mathbb{E}_k$-algebra
 
 Unitisation in the generality of [[Ek-algebra]] -- hence for [[nonunital Ek-algebras]] -- unitalization is the content of ([Lurie, prop. 5.2.3.13](#Lurie)).
@@ -63,6 +74,7 @@ Unitisation in the generality of [[Ek-algebra]] -- hence for [[nonunital Ek-alge
 
 * {#Lurie} [[Jacob Lurie]], section 5.2.3 of _[[Higher Algebra]]_
 
+* [[Ryszard R. Andruszkiewicz]], _Surprise at Adjoining an Identity to an Algebra_, Vietnam Journal of Mathematics, [doi](https://doi.org/10.1007/s10013-020-00437-9).
 
 [[!redirects unitalization]]
 [[!redirects unitalizations]]
