@@ -865,7 +865,7 @@ where:
 
 \end{proof}
 
-When $e^\beta = k$, for $k = 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\beta \gt n-1$, the eigenvalue is positive.
+When $e^\beta = k$, for $k = 1, 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\beta \gt n-1$, the eigenvalue is positive.
 
 Since this result relies on $sgn(\sigma)$ being a multiplicative character, and the only multiplicative characters of a symmetric group are the trivial one and the sign, the other eigenvectors must be found by other means.
 
