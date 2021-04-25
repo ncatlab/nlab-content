@@ -22,7 +22,7 @@ A _universal Vassiliev invariant_ is a [[Vassiliev knot invariant]] with [[coeff
 
 By evaluating (framed) [[weight systems]] on the [[Jacobi diagram]] [[coefficients]] of a universal Vassiliev invariant it defines a [[function]] from framed [[weight systems]] on [[Jacobi diagrams]], [[chord diagrams modulo 4T are Jacobi diagrams modulo STU|equivalently]] on [[round chord diagrams]] to actual ([[ground field]]-valued) [[Vassiliev knot invariants]].
 
-This construction in particular yields the proof that [[weight systems are associated graded of Vassiliev invariants]].
+This construction in particular yields the proof that [[weight systems are the associated graded objects of Vassiliev invariants]].
 
 In principle there is a vector space of universal Vassiliev invariants, but all that appear in the literature tend to agree ([BNGRT 97](#BNGRT97))
 and are identified  ([AF 96](#AF96)) with the un-traced [[Wilson loop observable]] of [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons theory]]:
