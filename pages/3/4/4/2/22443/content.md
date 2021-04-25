@@ -989,9 +989,10 @@ where:
 
 \end{proof}
 
-When $e^\beta = k$, for $k = 1, 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\beta \gt n-1$, the eigenvalue is positive.
-
 Since this result relies on $sgn(\sigma)$ being a multiplicative character, and the only multiplicative characters of a symmetric group are the trivial one and the sign, the other eigenvectors must be found by other means.
+
+When $e^\beta = k$, for $k = 1, 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\beta \gt n-1$, the eigenvalue is positive. The Cayley distance kernel is therefore non-positive definite in the intervals $n- 2a-2 \lt e^{\beta} \lt n -2a-1$, for $a = 0,1,2,\ldots$. But since the kernel for $S_{n-1}$ is a principal submatrix of that for $S_n$, then by the interlacing theorem, it is also non-positive definite in the intervals $n- 2a-3 \lt e^{\beta} \lt n -2a-2$. In sum, when $e^{\beta} \le n-1$, the kernel is non-positive definite at all non-integer values, in accord with the plots above.
+
 
 
 ## Related concepts
