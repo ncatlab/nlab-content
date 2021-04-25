@@ -45,13 +45,8 @@ The **proof** proceeds via construction of a [[universal Vassiliev invariant]] i
 
 ## Related theorems
 
-* [[weight systems are cohomology of loop space of configuration space]]
+[[!include facts about chord diagrams and weight systems -- contents]]
 
-* [[weight systems are cohomology of knot graph complex]]
-
-* [[stringy weight systems span classical Lie algebra weight systems]]
-
-* [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]
 
 ## Related concepts
 
@@ -73,8 +68,12 @@ Review:
 * {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
 
+[[!redirects weight systems are associated graded of Vassiliev invariants]]
+
 
 [[!redirects horizontal weight systems are associated graded of Vassiliev braid invaraints]]
 
 [[!redirects weight systems are the associated graded of Vassiliev invariants]]
+
+
 
