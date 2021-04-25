@@ -38,7 +38,7 @@ This [[bicategory]] is a good setting to work with objects
 like [[Hilbert spaces]], [[Hilbert W*-modules]] over [[von Neumann algebras]], [[W*-representations]] of [[von Neumann algebras]], etc.
 
 In particular, in this [[bicategory]],
-the [[category of Hilbert spaces]] is both [[complete]] and [[cocomplete]],
+the [[category of Hilbert spaces]] has infinite [[direct sums]] (generalizing the definition of a [[biproduct]] to infinite families of objects),
 unlike in the usual [[bicategory]]
 of [[categories]], [[functors]], and [[natural transformations]],
 where it only has [[finite limits]] and [[finite colimits]].
