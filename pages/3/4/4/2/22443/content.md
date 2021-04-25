@@ -36,9 +36,29 @@ may naturally be called the *Cayley distance kernel* (though it does not seem to
 
 This is different from but akin to other [[kernel methods|kernels]] used in [[geometric group theory]], notably the more widely studied *[[Mallows kernel]]*, which is of the same form but using the [[Kendall distance]] instead of the [[Cayley distance]]. While these two [[distance]] [[functions]] are superficially similar (where the Cayley distance counts the minimum number of [[transpositions]] needed to turn one permutation into another, the [[Kendall distance]] counts minimum numbers of *adjacent* [[transpositions]]) the two resulting kernels behave qualitatively differently:
 
-Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel becomes [[indefinite bilinear form|indefinite]], for $\beta \lt ln(2)$, see Example \ref{CayleyDistanceKernelOnSym3} and Prop. \ref{FailureOfPositivityForBetaBelowLn2} below.
+Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel becomes [[indefinite bilinear form|indefinite]], for sufficiently small non-integer values of $e^\beta$, see Example \ref{CayleyDistanceKernelOnSym3} and Prop. \ref{FailureOfPositivityForBetaBelowLn2} below.
 
-Currently, not much seems to be known about the general behavior of the Cayley distance kernel with $\beta$. [Below](#Positivity) we discuss sufficient lower bounds on $\beta$, for given $n$, for it to be positive definite.
+Curiously, computer experiment suggests ([CSS21](#CSS21)) that for *integer* values of $N \coloneqq e^\beta$ the Cayley distance kernel is always positive (semi-)definite, see Example \ref{CayleyDistanceKernelOnSym4}. At exactly these values the Cayley distance kernel equals ([CSS21](#CSS21)) the [[fundamental representation|fundamental]] $\mathfrak{gl}(N)$-[[Lie algebra weight system]] on [[horizontal chord diagrams]] (for the [[general linear Lie algebra]] $\mathfrak{gl}(n)$ regarded as a [[metric Lie algebra]] with the [[trace]] in its defining [[fundamental representation]], as in [Bar-Natan 95](stringy+weight+systems+span+classical+Lie+algebra+weight+systems#BarNatan95)) under the [[monoid]]-[[homomorphism]] 
+
+$$
+  \array{
+    \mathcal{D}^{pn}_n
+    &\overset{perm}{\longrightarrow}&
+    Sym(n)
+    \\
+    (i_d j_d)
+      \cdot \cdots \cdot
+    (i_1 j_1)
+    &\mapsto&
+    t_{i_d j_d}
+      \circ
+    \cdots
+      \circ
+    t_{i_1 j_1}
+  }
+$$
+
+that sends the [[horizontal chord diagram#MonoidOfHorizontalChordDiagrams|chord]] $(i j)$ to that [[permutation]] of $n$ elements (strands) which is given by the [[transposition]] $t_{i j}$ of the $i$th with the $j$th strand.
 
 \linebreak
 
@@ -220,6 +240,14 @@ $$
   \right.
 $$
 
+The following plot (via WolframAlpha, [here](https://www.wolframalpha.com/input/?i=min%5B+%7B+N%5E2+-+1+%7D%2C+%7B+N%5E2+%2B+3+*+N+%2B+2+%7D%2C+%7B+N%5E2+-+3+*+N+%2B+2+%7D+%5D++for+0.6+%3C+N+%3C+3)) shows ($e^{2 \beta}$ times) the lowest eigenvalue of the Cayley distance kernel on $Sym(3)$, as a function of the exponentiated inverse temperature $N \coloneqq e^{\beta}$:
+
+
+<a href="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym3.jpg">
+<img src="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym3.jpg" width="350">
+</a>
+
+
 In conclusion: The [[Cayley distance kernel]] (eq:CayleyDistanceKernel), regarded as a [[bilinear form]] on the [[linear span]] $\mathbb{R}[Sym(3)]$ is:
 
 $$
@@ -231,6 +259,10 @@ $$
     \text{positive definite} &\text{for}&  e^{\beta} \gt 2
   }
 $$
+
+The asymptotic behaviour is generic (Prop. \ref{FailureOfPositivityForBetaBelowLn2}, Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below).
+Computer experiment ([CSS21](#CSS21)) suggest that the exceptional positive semi-definiteness at integer values of $e^\beta$ holds generally.
+
 
 \end{example}
 
@@ -292,12 +324,27 @@ $$
   }
 $$
 
-The following plot (via WolframAlpha, [here](https://www.wolframalpha.com/input/?i=min%5B+%7B++N%5E3+%2B+6+*+N%5E2+%2B+11+*+N+%2B+6+%2C+N%5E3+-+6+*+N%5E2+%2B+11+*+N++-+6+%2C+N%5E3+-+N+%2C+N%5E3+%2B+2+*+N%5E2+-+N+-+2%2C+N%5E3+-+2+*+N%5E2+-+N++%2B+2+%7D+%5D)) shows the lowest eigenvalue of the Cayley distance kernel on $Sym(4)$ as a function of the exponentiated inverse temperature $N \coloneqq e^\beta$:
+{#PlotOfEigenvalueOfKernelOnSym4AsFunctionOfExponentiatedBeta} The following plot (via WolframAlpha, [here](https://www.wolframalpha.com/input/?i=min%5B+%7B++N%5E3+%2B+6+*+N%5E2+%2B+11+*+N+%2B+6+%2C+N%5E3+-+6+*+N%5E2+%2B+11+*+N++-+6+%2C+N%5E3+-+N+%2C+N%5E3+%2B+2+*+N%5E2+-+N+-+2%2C+N%5E3+-+2+*+N%5E2+-+N++%2B+2+%7D+%5D++for+0.6+%3C+N+%3C+4)) shows ($e^{3 \beta}$ times) the lowest eigenvalue of the Cayley distance kernel on $Sym(4)$ as a function of the exponentiated inverse temperature $N \coloneqq e^\beta$:
 
 
-<a href="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym4.jpg">
-<img src="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym4.jpg" width="400">
+<a href="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym4-b.jpg">
+<img src="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym4-b.jpg" width="540">
 </a>
+
+One sees that the kernel is
+
+$$
+  \array{
+    \text{indefinite} & \text{for} & e^{\beta} \lt 2
+    \\
+    \text{positive semi-definite} &\text{for}& e^{\beta} = 2, 3
+    \\
+    \text{positive definite} &\text{for}&  e^{\beta} \gt 3
+  }
+$$
+
+The asymptotic behaviour is generic (Prop. \ref{FailureOfPositivityForBetaBelowLn2}, Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below).
+Computer experiment ([CSS21](#CSS21)) suggest that the exceptional positive semi-definiteness at integer values of $e^\beta$ holds generally.
 
 
 \end{example}
@@ -790,7 +837,7 @@ $$
 \end{proof}
 
 \begin{remark}
-  Computer-experiment suggests ([[schreiber:Weight systems that are states|CSS21]]) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $n$, at least, the inverse temperature $\beta = ln(2)$ is already sufficient for positive semi-definiteness.
+  Computer-experiment suggests ([CSS21](#CSS21)) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $N$, at least, the inverse temperature $\beta = ln(N-1)$ is already sufficient for positive semi-definiteness.
 \end{remark}
 
 
@@ -964,6 +1011,9 @@ Mentioning of the Cayley distance kernel:
 
 * [[Michael A. Fligner]], [[Joseph S. Verducci]] (eds.), p. xx of: *Probability Models and Statistical Analyses for Ranking Data*, Lecture Notes in Statistics **80**, Springer 1993 ([doi:10.1007/978-1-4612-2738-0](https://link.springer.com/book/10.1007/978-1-4612-2738-0))
 
+The above discussion is largely motivated from and overlaps with:
+
+* {#CSS21} *[[schreiber:Weight systems that are quantum states]]*
 
 
 Supplementary references:
@@ -972,4 +1022,4 @@ Supplementary references:
 
 
 
-
+[[!redirects Cayley distance kernels]]
