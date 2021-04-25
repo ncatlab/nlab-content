@@ -47,15 +47,14 @@ Also every [[quotient]] of an almost connected group is almost connected.
 
 ## References
 
-Textbooks with relevant material include
+Textbooks with relevant material:
 
-* M. Stroppel, _Locally compact groups_, European Math. Soc., (2006)
-  {#Stroppel}
+* {#Stroppel} M. Stroppel, _Locally compact groups_, European Math. Soc., (2006)
+  
 
-* Karl Hofmann Sidney Morris, _The Lie theory of connected pro-Lie groups_, Tracts in Mathematics 2, European Mathematical Society,  (2000)
- {#HofmannMorris}
-
-Original articles include
+* {#HofmannMorris} [[Karl Hofmann]] Sidney Morris, _The Lie theory of connected pro-Lie groups_, Tracts in Mathematics 2, European Mathematical Society,  (2000)
+ 
+Original articles:
 
 * Chabert, Echterhoff, Nest, _The Connes-Kasparov conjecture for almost connected groups and for linear $p$-adic groups_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_2003__97_/PMIHES_2003__97__239_0/PMIHES_2003__97__239_0.pdf))
 
