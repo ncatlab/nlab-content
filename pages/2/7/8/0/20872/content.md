@@ -195,14 +195,8 @@ This is stated as [Kohno 02, Theorem 4.2](#Kohno02)
 
 ## Related theorems
 
-* [[weight systems are associated graded of Vassiliev invariants]]
 
-* [[weight systems are cohomology of knot graph complex]]
-
-* [[stringy weight systems span classical Lie algebra weight systems]]
-
-
-* [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]
+[[!include facts about chord diagrams and weight systems -- contents]]
 
 
 ## Related concepts
