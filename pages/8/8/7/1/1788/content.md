@@ -1,5 +1,7 @@
 
 
+[[topos|$x$]]
+
 \begin{example}\label{CayleyDistanceKernelOnSym3}
 **(Cayley distance kernel on Sym(4))**
 
