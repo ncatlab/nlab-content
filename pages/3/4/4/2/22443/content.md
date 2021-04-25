@@ -331,15 +331,49 @@ $$
 <img src="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym4-b.jpg" width="540">
 </a>
 
-One sees that the kernel is
+One sees that the kernel is:
 
 $$
   \array{
-    \text{indefinite} & \text{for} & e^{\beta} \lt 2
+    \mathllap{
+      \text{indefinite} 
+    }
+    & \text{for} & 
+    \mathrlap{
+      e^{\beta} \in (1,2)
+    }
     \\
-    \text{positive semi-definite} &\text{for}& e^{\beta} = 2, 3
+    \mathllap{
+      \text{positive semi-definite} 
+    }
+    &\text{for}& 
+    \mathrlap{
+      e^{\beta} = 2
+    }
     \\
-    \text{positive definite} &\text{for}&  e^{\beta} \gt 3
+    \mathllap{
+      \text{indefinite} 
+    }
+    & \text{for} & 
+    \mathrlap{
+      e^{\beta} \in (2,3)
+    }
+    \\
+    \mathllap{
+      \text{positive semi-definite} 
+    } 
+    &\text{for}& 
+    \mathrlap{
+      e^{\beta} = 3
+    }
+    \\
+    \mathllap{
+      \text{positive definite}
+    } 
+    &\text{for}&  
+    \mathrlap{
+      e^{\beta} \gt 3
+    }
   }
 $$
 
