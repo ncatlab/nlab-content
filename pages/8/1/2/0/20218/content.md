@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
 A Baire lattice is a [[lattice|lattice theoretic]] abstraction of the [[Baire space|Baire property]] of a topological space. In parallel to the fact that every [[complete space|complete metric space]] is a Baire space every [[continuous poset|continuous lattice]] is a Baire lattice.
@@ -55,10 +59,13 @@ Let $X$ be a [[sober space|sober]] [[topological space]]. Then the lattice of op
 
 ## References
 
-The concept appeared in
+The concept appeared in:
 
- * Karl H. Hofmann, _A note on Baire spaces and continuous lattices_ 1980. Bulletin of the Australian Mathematical Society, 21(2), pp. 265-279. 
+ * [[Karl Heinrich Hofmann]], _A note on Baire spaces and continuous lattices_ 1980. Bulletin of the Australian Mathematical Society, 21(2), pp. 265-279. ([doi:10.1017/S0004972700006080]( https://doi.org/10.1017/S0004972700006080))
 
-For a textbook reference see
+Textbook accounts:
 
- * G. Gierz, K. H. Hofmann, K. Keimel, J. D. Lawson, M. Mislove, [[Dana Scott|D. S. Scott]], _Continuous Lattices and Domains_ 2003, Vol. 93 of _Encyclopedia of Mathematics and its Applications_.
+ * G. Gierz, [[Karl Heinrich Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana Scott]], _Continuous Lattices and Domains_ 2003, Vol. 93 of _Encyclopedia of Mathematics and its Applications_ ([doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725))
+
+
+[[!redirects Baire lattices]]
