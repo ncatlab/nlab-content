@@ -187,7 +187,6 @@ One checks ([here](https://www.wolframalpha.com/input/?i=eigenvalues++exp%5B+-+l
   Mat_{6 \times 6}(\mathbb{R})
 \]
 
-
 has the following [[eigenvalues]]:
 
 $$
@@ -293,7 +292,17 @@ $$
   }
 $$
 
+The following plot (via WolframAlpha, [here](https://www.wolframalpha.com/input/?i=min%5B+%7B++N%5E3+%2B+6+*+N%5E2+%2B+11+*+N+%2B+6+%2C+N%5E3+-+6+*+N%5E2+%2B+11+*+N++-+6+%2C+N%5E3+-+N+%2C+N%5E3+%2B+2+*+N%5E2+-+N+-+2%2C+N%5E3+-+2+*+N%5E2+-+N++%2B+2+%7D+%5D)) shows the lowest eigenvalue of the Cayley distance kernel on $Sym(4)$ as a function of the exponentiated inverse temperature $N \coloneqq e^\beta$:
+
+
+<a href="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym4.jpg">
+<img src="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym4.jpg" width="400">
+</a>
+
+
 \end{example}
+
+
 
 
 ## Properties
