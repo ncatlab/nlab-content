@@ -899,7 +899,7 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
      = 0 
        & for & 
      \mathrlap{
-       e^\beta \in \{1,2, \cdots, n-1\}
+       e^\beta \in \{0,1,2, \cdots, n-1\}
      }
      \\
      \lt 0 
