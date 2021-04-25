@@ -343,7 +343,7 @@ $$
   }
 $$
 
-The asymptotic behaviour is generic (Prop. \ref{FailureOfPositivityForBetaBelowLn2}, Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below).
+The asymptotic behaviour is generic (Prop. \ref{CayleyDistanceKernelIsIndefiniteForEBetaNonIntegralAndSmallernminusone}, Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below).
 Computer experiment ([CSS21](#CSS21)) suggest that the exceptional positive semi-definiteness at integer values of $e^\beta$ holds generally.
 
 
@@ -635,6 +635,228 @@ Since moreover
 it follows that this sum over the first row equals the Gershgorin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
 \end{proof}
 
+
+
+
+\linebreak
+
+### Eigenvectors
+
+We discuss some [[eigenvectors]] of the Cayley distance kernel. 
+
+
+#### The homogeneous distribution
+
+\begin{example}\label{HomogeneousDistributionIsEigenvalue}
+Clearly $(1)_{\sigma \in Sym(n)}$ is an eigenvector with eigenvalue $e^{- \beta \cdot n }
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}\big(e^{\beta}+ k \big)$.
+\end{example}
+(by Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations})
+
+#### The signature distribution
+
+\begin{prop}\label{SignatureDistributionIsEigenvector}
+A further [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] 
+
+\[
+  \label{EigenvectorOfSignDistribution}
+  EV
+  \big
+    (sgn(\sigma))_{\sigma \in Sym(n)}  
+  \big)
+  \;=\;
+  e^{- \beta \cdot n }
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}\big(e^{\beta}- k \big)
+  \,.
+\]
+
+\end{prop}
+\begin{proof}
+That this is an eigenvector follows from the following calculation:
+
+The $\tau$ component of the image of this vector is 
+
+$$
+\begin{aligned}
+\underset{
+    \sigma \in Sym(n)
+  }{\sum} sgn(\sigma)
+  e^{ - \beta \cdot d_C(\sigma, \tau) }
+  &\;=\; 
+\underset{
+    \sigma \in Sym(n)
+  }{\sum} sgn(\tau)sgn(\sigma \cdot \tau^{-1})
+  e^{ - \beta \cdot d_C(\sigma \cdot \tau^{-1}, e) }
+\\
+ & \;=\; 
+sgn(\tau)\underset{
+    \sigma \in Sym(n)
+  }{\sum} sgn(\sigma)
+  e^{ - \beta \cdot d_C(\sigma, e) }.
+\end{aligned}
+$$
+  
+
+This follows from the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)) and the fact that $sgn$ is a multiplicative character, $sgn(\sigma \cdot \tau) = sgn(\sigma)\cdot sgn(\tau)$. Thus $(sgn(\sigma))_{\sigma \in Sym(n)}$ is an eigenvector and the corresponding eigenvalue equals the signed sum of, in particular, the first row of the Cayley distance kernel. This is as claimed by Lemma \ref{SumOverSgnFirstRowOfCayleyDistanceKernel}.
+\end{proof}
+
+
+\begin{lemma}\label{SumOfSgnExpLambdaNumCyclesOverPermutations}
+  For $n \in \mathbb{N}$ and $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, we have
+  $$
+    \underset{
+      \sigma \in Sym(n)
+    }{
+      \sum
+    }
+    sgn(\sigma) \cdot e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }
+    \;=\;
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      e^{\beta} - k
+    \big)
+    \,.
+  $$
+\end{lemma}
+(e.g. discussion at [MO:q/245010](https://mathoverflow.net/a/245010/))
+
+\begin{lemma}\label{SumOverSgnFirstRowOfCayleyDistanceKernel}
+**(signed sum over first row of Cayley distance kernel)** \linebreak
+  For $n \in \mathbb{N}$, the [[sum]] over the first row of the signed Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) equals
+$$
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+ sgn(\sigma) \cdot e^{ - \beta \cdot  d_C(\sigma, e) }
+  \;=\;  
+  e^{- \beta \cdot n }
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\beta}
+    - 
+    k
+  \big)
+$$
+\end{lemma}
+\begin{proof}
+We compute as follows:
+$$
+  \begin{aligned}
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  sgn(\sigma) \cdot e^{ - \beta \cdot  d_C(\sigma, e) }
+  &
+  \;=\;
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  sgn(\sigma) \cdot e^{ - \beta \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
+  \\
+  & 
+  \;=\;
+  e^{- \beta \cdot n }
+  \,
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  sgn(\sigma) \cdot e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }  
+  \\
+  & =\;
+  e^{- \beta \cdot n }
+  \,
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\beta}
+    - 
+    k
+  \big)
+  \mathrlap{\,,}
+  \end{aligned}
+$$
+where:
+
+* the first step is [Cayley's observation](Cayley+distance#CayleyObservation),
+
+* the last step uses Lemma \ref{SumOfSgnExpLambdaNumCyclesOverPermutations}.
+
+\end{proof}
+
+\begin{prop}\label{SignOfTheEigenvalueOfTheSigantureDistribution}
+The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
+\[
+  \label{TheSignOfTheEigenvalueOfTheSignatureDistribution}
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  EV
+  \big(
+    (sgn(\sigma))_{\sigma \in Sym(n)}  
+  \big)
+  \;is\;
+  \left\{
+  \array{
+     \gt 0 
+       & for & 
+     \mathrlap{
+       e^\beta \gt n-1
+     }
+     \\
+     = 0 
+       & for & 
+     \mathrlap{
+       e^\beta \in \{1,2, \cdots, n-1\}
+     }
+     \\
+     \lt 0 
+       & for & 
+     \mathrlap{
+       e^{\beta} \in (n-2a-2,  n-2a-1),\, a \in \mathbb{N}
+     }
+  }
+  \right.
+\]
+\end{prop}
+\begin{proof}
+  Since the prefactor $e^{- \beta \cdot n}$  in (eq:EigenvectorOfSignDistribution) is always positive, we need to equivalently discuss the sign of the polynomial
+  $$
+    \underoverset
+      {k = 0}
+      {n - 1}
+      {\prod}\big(e^{\beta} - k \big)
+    \,.
+  $$
+  Here the first two statements are immediate. For the last last statement, observe that all roots of the polyonomial appear with unit multiplicity, so that the polynomial must change sign as $e^\beta$ crosses over any of its zeros. Therefore the value which is positive for $e^\beta \gt n-1$, by the first statement, must become negative as $e^\beta$ drops below $n=1$, then positive again as it drops below the next zero at $n - 2$, and negative once more as $e^\beta$ drops below $n - 3$, and so on.
+\end{proof}
+
+
+
+#### Further eigenvectors
+
+\begin{remark}
+Since Example \ref{HomogeneousDistributionIsEigenvalue} and Prop. \ref{SignatureDistributionIsEigenvector} rely on $1(\sigma)$
+and $sgn(\sigma)$ being multiplicative [[group characters]], and the only multiplicative characters of a symmetric group are these two, the trivial one and the [[sign representation|sign]], the other eigenvectors must be found by other means.
+\end{remark}
+
+
 \linebreak
 
 ### Positivity
@@ -645,8 +867,34 @@ it follows that this sum over the first row equals the Gershgorin radius plus 1 
 \end{prop}
 \begin{proof}
 By Example \ref{CayleyDistanceKernelOnSym3} the statement holds for $n = 3$. But the kernel for this case is a [[principal submatrix]] of the kernels in all other cases (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), and positivity fails as soon as it fails on any principal submatrix. (This is immediate from the definition, but also a direct consequence of [[Cauchy's interlace theorem]].)
-
 \end{proof}
+
+More generally:
+
+
+\begin{prop}\label{CayleyDistanceKernelIsIndefiniteForEBetaNonIntegralAndSmallernminusone}
+The Cayley distance kernel $e^{- \beta \cdot d_C}$ (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$
+is indefinite for all
+$$
+  e^{\beta}
+  \;\in\;
+  (
+    n - 2a - 2,  \lt n - 2a - 1
+  )
+  \,,
+  \;\;
+  a \in \mathbb{N}
+  \,,
+$$
+or equivalently: 
+
+For $0 \lt e^\beta \lt n-1$ the Cayley distance kernel is indefinite except possibly at [[integer]] values.
+\end{prop}
+\begin{proof}
+With the third statement in Prop. \ref{SignOfTheEigenvalueOfTheSigantureDistribution} the claim follows for every *second* open unit [[interval]] between 0 and $n-1$. But by the same argument the analogous statement is then true on every *other* of these unit intervals for the kernel on $Sym(n-1)$.
+Now since the kernel on $Sym(n-1)$ is a [[principal submatrix]] of that for $Sym(n)$ (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), the [[Cauchy interlace theorem]] implies that the kernel on $Sym(n)$ must have a negative eigenvalue as soon as that on $Sym(n-1)$ does.
+\end{proof}
+
 
 
 \begin{prop}
@@ -841,157 +1089,6 @@ $$
 \end{remark}
 
 
-
-
-\linebreak
-
-### Eigenvectors
-
-We discuss some [[eigenvectors]] of the Cayley distance kernel. 
-
-
-#### The homogeneous distribution
-
-Clearly $(1)_{\sigma \in Sym(n)}$ is an eigenvector with eigenvalue $e^{- \beta \cdot n }
-  \underoverset
-    {k = 0}
-    {n - 1}
-    {\prod}\big(e^{\beta}+ k \big)$.
-
-(by Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations})
-
-#### The signature distribution
-
-\begin{prop}
-A further [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \beta \cdot n }
-  \underoverset
-    {k = 0}
-    {n - 1}
-    {\prod}\big(e^{\beta}- k \big)$.
-\end{prop}
-\begin{proof}
-That this is an eigenvector follows from the following calculation:
-
-The $\tau$ component of the image of this vector is 
-
-$$
-\begin{aligned}
-\underset{
-    \sigma \in Sym(n)
-  }{\sum} sgn(\sigma)
-  e^{ - \beta \cdot d_C(\sigma, \tau) }
-  &\;=\; 
-\underset{
-    \sigma \in Sym(n)
-  }{\sum} sgn(\tau)sgn(\sigma \cdot \tau^{-1})
-  e^{ - \beta \cdot d_C(\sigma \cdot \tau^{-1}, e) }
-\\
- & \;=\; 
-sgn(\tau)\underset{
-    \sigma \in Sym(n)
-  }{\sum} sgn(\sigma)
-  e^{ - \beta \cdot d_C(\sigma, e) }.
-\end{aligned}
-$$
-  
-
-This follows from the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)) and the fact that $sgn$ is a multiplicative character, $sgn(\sigma \cdot \tau) = sgn(\sigma)\cdot sgn(\tau)$. Thus $(sgn(\sigma))_{\sigma \in Sym(n)}$ is an eigenvector and the corresponding eigenvalue equals the signed sum of, in particular, the first row of the Cayley distance kernel. This is as claimed by Lemma \ref{SumOverSgnFirstRowOfCayleyDistanceKernel}.
-\end{proof}
-
-
-\begin{lemma}\label{SumOfSgnExpLambdaNumCyclesOverPermutations}
-  For $n \in \mathbb{N}$ and $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, we have
-  $$
-    \underset{
-      \sigma \in Sym(n)
-    }{
-      \sum
-    }
-    sgn(\sigma) \cdot e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }
-    \;=\;
-    \underoverset    
-      {k = 0}
-      {n-1}
-      {\prod}
-    \big(
-      e^{\beta} - k
-    \big)
-    \,.
-  $$
-\end{lemma}
-(e.g. discussion at [MO:q/245010](https://mathoverflow.net/a/245010/))
-
-\begin{lemma}\label{SumOverSgnFirstRowOfCayleyDistanceKernel}
-**(signed sum over first row of Cayley distance kernel)** \linebreak
-  For $n \in \mathbb{N}$, the [[sum]] over the first row of the signed Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) equals
-$$
-  \underset{
-    \sigma \in Sym(n)
-  }{\sum}
- sgn(\sigma) \cdot e^{ - \beta \cdot  d_C(\sigma, e) }
-  \;=\;  
-  e^{- \beta \cdot n }
-  \underoverset
-    {k = 0}
-    {n - 1}
-    {\prod}
-  \big(
-    e^{\beta}
-    - 
-    k
-  \big)
-$$
-\end{lemma}
-\begin{proof}
-We compute as follows:
-$$
-  \begin{aligned}
-  \underset{
-    \sigma \in Sym(n)
-  }{\sum}
-  sgn(\sigma) \cdot e^{ - \beta \cdot  d_C(\sigma, e) }
-  &
-  \;=\;
-  \underset{
-    \sigma \in Sym(n)
-  }{\sum}
-  sgn(\sigma) \cdot e^{ - \beta \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
-  \\
-  & 
-  \;=\;
-  e^{- \beta \cdot n }
-  \,
-  \underset{
-    \sigma \in Sym(n)
-  }{\sum}
-  sgn(\sigma) \cdot e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }  
-  \\
-  & =\;
-  e^{- \beta \cdot n }
-  \,
-  \underoverset
-    {k = 0}
-    {n - 1}
-    {\prod}
-  \big(
-    e^{\beta}
-    - 
-    k
-  \big)
-  \mathrlap{\,,}
-  \end{aligned}
-$$
-where:
-
-* the first step is [Cayley's observation](Cayley+distance#CayleyObservation),
-
-* the last step uses Lemma \ref{SumOfSgnExpLambdaNumCyclesOverPermutations}.
-
-\end{proof}
-
-Since this result relies on $sgn(\sigma)$ being a multiplicative character, and the only multiplicative characters of a symmetric group are the trivial one and the sign, the other eigenvectors must be found by other means.
-
-When $e^\beta = k$, for $k = 1, 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\beta \gt n-1$, the eigenvalue is positive. The Cayley distance kernel is therefore non-positive definite in the intervals $n- 2a-2 \lt e^{\beta} \lt n -2a-1$, for $a = 0,1,2,\ldots$. But since the kernel for $S_{n-1}$ is a principal submatrix of that for $S_n$, then by the interlacing theorem, it is also non-positive definite in the intervals $n- 2a-3 \lt e^{\beta} \lt n -2a-2$. In sum, when $e^{\beta} \le n-1$, the kernel is non-positive definite at all non-integer values, in accord with the plots above.
 
 
 
