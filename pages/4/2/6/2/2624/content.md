@@ -74,6 +74,8 @@ An overview of results is included in
 [[!redirects distance-nonincreasing functions]]
 [[!redirects weak contraction]]
 [[!redirects weak contractions]]
+[[!redirects contractive map]]
+[[!redirects contractive maps]]
 
 [[!redirects category of metric spaces]]
 [[!redirects the category of metric spaces]]
