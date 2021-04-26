@@ -14,6 +14,8 @@ _Machine learning_ is a branch of [[computer science]] which devises algorithms 
 
 * [[topological data analysis]]
 
+* [[statistical learning theory]]
+
 ## References
 
 See also:
