@@ -336,7 +336,7 @@ The [[transferred model structure]] along this adjunction of the standard [[mode
 
 This is due to ([Moerdijk 89](#Moerdijk))
 
-### Induced from codiagonal $\nabla$.
+### Induced from codiagonal $T$.
 
 The [[transferred model structure]] on $ssSet$ along the total simplicial set functor $T$ exists. And for it 
 
@@ -360,7 +360,7 @@ This is ([CegarraRemedios, theorem 9](#CegarraRemedios)).
 
 #### Remark on notation
 
-There are two uses of $\bar W$ in this area, one is as used in ([CegarraRemedios](#CegarraRemedios)) where it is used for the codiagonal (denoted "$\nabla$" above), the other is for the [[classifying space]] functor for a [[simplicial group]]. This latter is not only the older of the two uses, but also comes with a related $W$ construction.  The relationship between the two is that given a simplicial group or simplicially enriched groupoid, $G$, applying the [[nerve]] functor in each dimension gives a bisimplicial set and $\bar{W}G = \nabla Ner G$. Because of this, some care is needed when using these sources.
+There are two uses of $\bar W$ in this area, one is as used in ([CegarraRemedios](#CegarraRemedios)) where it is used for the codiagonal (sometimes denoted "$\nabla$" or $T$ as above), the other is for the [[classifying space]] functor for a [[simplicial group]]. This latter is not only the older of the two uses, but also comes with a related $W$ construction.  The relationship between the two is that given a simplicial group or simplicially enriched groupoid, $G$, applying the [[nerve]] functor in each dimension gives a bisimplicial set and $\bar{W}G = T Ner G$. Because of this, some care is needed when using these sources.
 
 ## Bisimplicial abelian groups 
 
@@ -391,7 +391,7 @@ Some standard material is for instance in
 * [[Paul Goerss]] and [[Rick Jardine]], _Simplicial Homotopy Theory_
 {#GoerssJardine}
 
-* [[Rick Jardine]], Lecture 008 (2010) ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture008.pdf))
+* [[Rick Jardine]], Lecture 008 (2010) ([pdf](http://jardine.math.uwo.ca/HomTh/lecture008a.pdf))
 
 * [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
 {#Isaacson}
