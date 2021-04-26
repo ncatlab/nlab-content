@@ -76,7 +76,7 @@ and is further developed for instance in
 
 * {#Bonelli03} G. Bonelli, _On the Tensionless Limit of Bosonic Strings, Infinite Symmetries and Higher Spins_, Nucl. Phys. B669 (2003) 159-172 ([arXiv:hep-th/0305155](http://arxiv.org/abs/hep-th/0305155))
 
-* [[Auguste Sagnotti]], M. Taronna, _String Lessons for Higher-Spin Interactions_, Nucl. Phys. B842:299-361,2011 ([arXiv:1006.5242](http://arxiv.org/abs/1006.5242))
+* [[Augusto Sagnotti]], M. Taronna, _String Lessons for Higher-Spin Interactions_, Nucl. Phys. B842:299-361,2011 ([arXiv:1006.5242](http://arxiv.org/abs/1006.5242))
 
 * {#Sagnotti11} [[Augusto Sagnotti]], _Notes on Strings and Higher Spins_ ([arXiv:1112.4285](http://arxiv.org/abs/1112.4285)) 
 
@@ -90,6 +90,11 @@ And conversely:
 
 * {#SeverZhiboedov17} Amit Sever, Alexander Zhiboedov, _On Fine Structure of Strings: The Universal Correction to the Veneziano Amplitude_, JHEP06(2018)054 ([arXiv:1707.05270](https://arxiv.org/abs/1707.05270))
 
+### Relation with double field theory
+
+Discussion of appearence of spin-2 Fierz-Pauli fields in [[double field theory]]:
+
+* Chen-Te Ma, Franco Pezzella, _More Stringy Effects in Target Space from Double Field Theory_, JHEP 08 (2020) 113 ([arXiv:1909.00411](https://arxiv.org/abs/1909.00411v2))
 
 ### Relation to other systems
 
