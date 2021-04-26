@@ -3,7 +3,7 @@
 {:toc}
 
 
-PhD student in theoretical physics at the [Centre for Research in String Theory](https://www.qmul.ac.uk/spa/strings/) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
+PhD candidate in theoretical physics at the [Centre for Research in String Theory](https://www.qmul.ac.uk/spa/strings/) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
 
 ## Research
 
@@ -43,6 +43,8 @@ On other global geometric aspects of theoretical physics (e.g. [[classical doubl
 * {#AWW20} [[Luigi Alfonsi]], Chris D. White and Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
 
 ## Invited talks
+
+* _Global Double Field Theory and tensor hierarchy_, seminar at [Prague Mathematical Physics Seminar Series](https://www.youtube.com/channel/UCIYkS8Ei3JBIpG1az60MceQ), 1st April 2021 ([recording](https://www.youtube.com/watch?v=c0M3VAXWdTQ&t=405s&ab_channel=PragueMathematicalPhysicsSeminar))
 
 * _Higher geometric aspects of global Double Field Theory_, seminar at [Exceptional Geometry Seminar Series](https://sites.google.com/view/egseminars), 28th August 2020 ([recording](https://drive.google.com/file/d/1Hzn_sN0GewfYaP1ZGrIw8jUunDnhud-8/view?usp=sharing), [slides](https://drive.google.com/file/d/1xa_aq8K8aBR1mxwnKFIZjtST2QBGpnSO/view?usp=sharing))
 
