@@ -3,12 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Quantum Field Theory
 +--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
+
 
 
 
@@ -38,9 +39,7 @@ Despite the word "theory", lattice gauge theory is more like "computer-simulated
 ### Sign problem
  {#SignProblem}
 
-(...)
-
-* Wikipedia, _[Numerical sign problem](https://en.wikipedia.org/wiki/Numerical_sign_problem)_
+See at *[[sign problem in lattice QCD]]*.
 
 
 ## Related concepts
@@ -241,3 +240,6 @@ The [[IKKT matrix model]] and claims that it predicts spontaneous [[KK-compactif
 [[!redirects lattice QCD]]
 
 [[!redirects lattice QFT]]
+
+
+[[!redirects lattice quantum chromodynamics]]
