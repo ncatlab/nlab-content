@@ -77,13 +77,13 @@ In particular, a p.r.a. functor $T\colon [I^{op},Set] \to [J^{op},Set]$ is deter
 
 We can extract from this a description that is clearly a generalization of a [[polynomial functor]].
 
-+-- {: .un_prop}
++-- {: .num_prop #AsPolynomial}
 ###### Proposition
 A functor $T\colon [I^{op},Set] \to [J^{op},Set]$ between presheaf categories is p.r.a. iff when expressed in terms of [[discrete fibrations]], it is the composite
 \[ DFib/I \xrightarrow{d^*} DFib/E \xrightarrow{c_*} DFib/K \xrightarrow{p_!} DFib/J \]
 for a polynomial in $Cat$
 \[ I \xleftarrow{d} E \xrightarrow{c} K \xrightarrow{p} J \]
-where $p$ is a discrete fibration and $(d,c)$ is a [[two-sided discrete fibration]] (with in particular $d$ a discrete fibration and $c$ a discrete opfibration).
+where $p$ is a discrete fibration and $(d,c)$ is a [[two-sided discrete fibration]] (with in particular $d$ a fibration and $c$ an opfibration).
 =--
 +-- {: .proof}
 ###### Proof
