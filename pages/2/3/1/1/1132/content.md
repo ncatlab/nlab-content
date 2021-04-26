@@ -46,3 +46,4 @@ For instance section 6.5.3 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects ∞-stackification]]
+
