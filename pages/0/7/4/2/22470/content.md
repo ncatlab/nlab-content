@@ -28,6 +28,7 @@ See also
 * Wikipedia, *[Bochner's theorem](https://en.wikipedia.org/wiki/Bochner%27s_theorem)*
 
 ### For non-abelian groups
+  {#ReferencesForNonabelianGroups}
 
 Generalization to [[non-abelian groups]]:
 
