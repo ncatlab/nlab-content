@@ -1,4 +1,4 @@
 
-* [webpage](http://math.berkeley.edu/~theojf/)
+* [webpage](http://categorified.net/)
 
 category: people
