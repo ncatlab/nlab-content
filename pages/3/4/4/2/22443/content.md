@@ -965,7 +965,7 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
 Since Example \ref{HomogeneousDistributionIsEigenvalue} and Prop. \ref{SignatureDistributionIsEigenvector} rely on $1(\sigma)$
 and $sgn(\sigma)$ being multiplicative [[group characters]], and the only multiplicative characters of a symmetric group are these two, the trivial one and the [[sign representation|sign]], the other eigenvectors must be found by other means.
 
-([Kaski](#Kaski), Corollary 5.4) gives all eigenvectors with eigenvalues $\frac{1}{d_k} \sum_{\sigma: Sym(n)} \alpha(\sigma) \chi_k(\sigma)$, where $\chi_k$ is any character of $S_n$ and $d_k$ is the dimension of the associated representation, the exponentiated Cayley distance $\alpha(\sigma) = e^{-\beta \cdot d(\sigma, e)}$ being a class function. 
+[Kaski 02, Cor. 5.4](#Kaski) gives all eigenvectors with eigenvalues $\frac{1}{d_k} \sum_{\sigma: Sym(n)} \alpha(\sigma) \chi_k(\sigma)$, where $\chi_k$ is any character of $S_n$ and $d_k$ is the dimension of the associated representation, the exponentiated Cayley distance $\alpha(\sigma) = e^{-\beta \cdot d(\sigma, e)}$ being a class function. 
 
 \end{remark}
 
@@ -1231,7 +1231,7 @@ Supplementary references:
 
 * {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), Wadsworth & Brooks/Cole Mathematics Series book series 1986, 1997 ([doi:10.1007/978-1-4615-9763-6](https://link.springer.com/book/10.1007/978-1-4615-9763-6)) reprinted in: Cambridge Studies in Advanced Mathematics, Cambridge University Press 2011 ([ISBN:9781107602625](https://www.cambridge.org/us/academic/subjects/mathematics/discrete-mathematics-information-theory-and-coding/enumerative-combinatorics-volume-1-2nd-edition?format=PB&isbn=9781107602625), [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
 
-* {#Kaski} Petteri Kaski, _Eigenvectors and spectra of Cayley graphs_, ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf))
+* {#Kaski02} Petteri Kaski, *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.jpg:file]])
 
 
 [[!redirects Cayley distance kernels]]
