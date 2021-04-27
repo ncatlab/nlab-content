@@ -146,6 +146,8 @@ See also:
  
 * {#Kaski02} Petteri Kaski, *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.jpg:file]])
 
+* B. Foster-Greenwood, C. Kriloff, *Spectra of Cayley graphs of complex reflection groups*, J. Algebraic Combin., 44(1):33–57, 2016 ([arXiv:1502.07392](https://arxiv.org/abs/1502.07392), [doi:10.1007/s10801-015-0652-8](https://doi.org/10.1007/s10801-015-0652-8))
+
 * Xiaogang Liu, Sanming Zhou, *Eigenvalues of Cayley graphs* ([arXiv:1809.09829](https://arxiv.org/abs/1809.09829))
 
 * Farzaneh Nowroozi, Modjtaba Ghorbani, *On the spectrum of Cayley graphs via character table*, Journal of Mathematical NanoScience, Volume 4, 1-2 (2014) ([doi:10.22061/jmns.2014.477](https://dx.doi.org/10.22061/jmns.2014.477) [pdf](https://journals.sru.ac.ir/article_477_166922038b274bc7128566c1e2ce4b98.pdf))
