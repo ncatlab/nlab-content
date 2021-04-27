@@ -76,7 +76,7 @@ Moreover, since the only dependence on $V'$ in the definition is via the homotop
 
 ## Properties
 
-Just as an ordinary derivator encodes a well-behaved notion of [[homotopy limits], an enriched derivator encodes a notion of homotopy [[weighted limit]].  In order to recover this, we need to represent [[profunctors]] by their [[cograph of a profunctor|collages]].
+Just as an ordinary derivator encodes a well-behaved notion of [[homotopy limits]], an enriched derivator encodes a notion of homotopy [[weighted limit]].  In order to recover this, we need to represent [[profunctors]] by their [[cograph of a profunctor|collages]].
 
 Specifically, let $H\colon A&#8696; B$ be a $V$-profunctor, and $A \overset{u}{\to} \bar{H} \overset{v}{\leftarrow} B$ its collage.  Then homotopy $H$-weighted limits in an enriched derivator are computed by the composite $v^* u_*$, and similarly $H$-weighted colimits are computed by $u^* v_!$.
 
