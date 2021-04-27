@@ -91,6 +91,12 @@ $$
 
 This is due to [Marsli-Hall 13](#MarsliHall13).
 
+\begin{prop}\label{StrengtheningForNonNegativeMatrices}
+  If the matrix has non-negavive values and an eigenvalue has multiplicity greater than 1, then it is contained within this disc of half the radius inside one of the Gershgorin discs (eq:GershoginDiscFormula). 
+\end{prop}
+
+([Barany-Solymosi 16, Theorem 1](#BaranySolymosi16))
+
 ## Related theorems
 
 * [[Cauchy interlace theorem]]
@@ -125,7 +131,7 @@ Strengthening for eigenvalues with higher multiplicity:
 
 Further strengthening for matrices with, in addition, non-negative entries:
 
-* Imre Bárány, József Solymosi, *Gershgorin disks for multiple eigenvalues of non-negative matrices*,  In: M. Loebl, J. Nešetřil, R. Thomas (eds.) *A Journey Through Discrete Mathematics*, Springer, Cham. 2017 ([arXiv:1609.07439](https://arxiv.org/abs/1609.07439), [doi:10.1007/978-3-319-44479-6_6](https://doi.org/10.1007/978-3-319-44479-6_6))
+* {#BaranySolymosi16} Imre Bárány, József Solymosi, *Gershgorin disks for multiple eigenvalues of non-negative matrices*,  In: M. Loebl, J. Nešetřil, R. Thomas (eds.) *A Journey Through Discrete Mathematics*, Springer, Cham. 2017 ([arXiv:1609.07439](https://arxiv.org/abs/1609.07439), [doi:10.1007/978-3-319-44479-6_6](https://doi.org/10.1007/978-3-319-44479-6_6))
 
 
 
