@@ -65,9 +65,13 @@ Generalizations:
 
 ## References
 
-Named after *[[Issai Schur]]*.
+The concept first appears in work by [[Carl Jacobi]] on [[determinants]]. 
 
-The authoritative monograph on the subject is 
+It is named after:
+
+* [[Issai Schur]], *Über eine Klasse von Matrizen die sich einer gegeben Matrix zuordnen lassen*, Inaugural-Dissertation, Berlin (1901)
+
+The authoritative monograph on the subject:
 
 * I. G. Macdonald, _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995 ([ISBN:9780198739128](https://global.oup.com/academic/product/symmetric-functions-and-hall-polynomials-9780198739128?cc=ae&lang=en&))
 
@@ -83,6 +87,9 @@ See also:
 
 * Miles Jones, Luc Lapointe, _Pieri rules for Schur functions in superspace_, [arxiv/1608.08577](https://arxiv.org/abs/1608.08577)
 
+[[!redirects Schur functions]]
+
+[[!redirects Schur polynomial]]
+[[!redirects Schur polynomials]]
 
 
-[[!redirects Schur polynomial]][[!redirects Schur functions]]
