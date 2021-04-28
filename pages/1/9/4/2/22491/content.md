@@ -14,7 +14,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -119,7 +118,7 @@ For example:
 
 * {#RockmoreKostelecHordijkStadler02} Dan Rockmore, Peter Kostelec, Wim Hordijk, Peter F. Stadler, *Fast Fourier Transform for Fitness Landscapes*, Applied and Computational Harmonic Analysis Volume 12, Issue 1, January 2002, Pages 57-76 ([doi:10.1006/acha.2001.0346](https://doi.org/10.1006/acha.2001.0346))
  
-* {#Kaski02} [[Petteri Kaski]], *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.jpg:file]])
+* {#Kaski02} [[Petteri Kaski]], *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.pdf:file]])
 
 * {#FosterGreenwoodKriloff16} [[Briana Foster-Greenwood]], [[Cathy Kriloff]], *Spectra of Cayley graphs of complex reflection groups*, J. Algebraic Combin., 44(1):33–57, 2016 ([arXiv:1502.07392](https://arxiv.org/abs/1502.07392), [doi:10.1007/s10801-015-0652-8](https://doi.org/10.1007/s10801-015-0652-8))
 
