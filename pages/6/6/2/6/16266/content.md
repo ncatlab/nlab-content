@@ -162,6 +162,12 @@ As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking
 
 ## References
 
+The original definition is due to [[Jan-Erik Roos]], see Definition 1 in
+
+* [[Jan-Erik Roos]], Introduction à l'étude de la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos), Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 969–972.  [[roos-distributivity.pdf:file]].
+
+Additional references:
+
 * {#ARV} [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], _Algebraic theories.  A categorical introduction to general algebra_ CUP 2011.
 
 * {#ALR} [[Jiří Adámek]], [[William Lawvere]], [[Jiří Rosický]], [_Continuous Categories Revisited_](http://www.tac.mta.ca/tac/volumes/11/11/11-11abs.html) TAC 11, 2003.
