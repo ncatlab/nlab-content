@@ -49,7 +49,7 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 * A Gray-category with one object is called a Gray-monoid, and is a semi-strict version of a [[monoidal bicategory]].
 
-* A doubly-degenerate Gray-category is the same as a category with two [[monoidal category|monoidal structures]] satisfying an [[exchange law]].  This is essentially the same as a [[braided monoidal category]].
+* A doubly-degenerate Gray-category is the same as a category with two [[monoidal category|monoidal structures]] satisfying an [[exchange law]].  This is essentially the same as a [[braided monoidal category]]. ([Gurski & Cheng](#GurskiCheng))
 
 * Since any tricategory is equivalent to a Gray-category, one can obtain examples of Gray-categories in this way.  For example, the tricategory [[Bicat]] of bicategories, pseudofunctors, pseudonatural transformations, and modifications is equivalent to some Gray-category.
 
@@ -71,6 +71,9 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 * [[Steve Lack]], _A Quillen model structure for Gray-categories_ ([arxiv:1001.2366](http://arxiv.org/abs/1001.2366))
  {#Lack}
+
+* [[Nick Gurski]], [[Eugenia Cheng]], _The periodic table of n-categories II: degenerate tricategories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, 2011., ([arxiv:0706.2307](https://arxiv.org/abs/0706.2307))
+ {#GurskiCheng}
 
 * Peter Guthmann, _The tricategory of formal composites and its strictification_, [arXiv:1903.05777](https://arxiv.org/abs/1903.05777)
 
