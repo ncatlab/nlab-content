@@ -33,4 +33,6 @@ __Adic spaces__ are the basic objects in Huber's approach to [[non-archimedean a
 
 * Torsten Wedhorn, _Adic spaces_ ([arXiv:1910.05934](https://arxiv.org/abs/1910.05934))
 
+* [[Brian Conrad]], _A brief introduction to adic spaces_, [PDF](http://virtualmath1.stanford.edu/~conrad/papers/Adicnotes.pdf).
+
 [[!redirects adic spaces]]
