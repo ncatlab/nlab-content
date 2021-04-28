@@ -15,7 +15,10 @@ Hotz has a mathematical background in algebraic topology. He wrote his dissertat
 In his 1965 habilitation thesis "Eine Algebraisierung des Syntheseproblems von Schaltkreisen" (EIK, Bd. 1, (185-205), Bd, 2, (209-231), English title would be "An algebraisation of the synthesis problem of switching circuits) he used the theory of monoidal categories for describing the syntax and semantics of switching circuits.
 
 * [Part I  (in German)](https://www.magentacloud.de/lnk/LiPMlYfh)
+
 * [Part II (in German)](https://www.magentacloud.de/lnk/YivslUWJ)
+
+* compressed and merged: [[HotzSchaltkreise.pdf:file]]
 
 In this thesis, he introduced [string diagrams](https://ncatlab.org/nlab/show/string+diagram) (under the name "plane nets") as a topological representation of the morphisms in free monoidal categories. This probably is the first formal definition of string diagrams in the literature.
 
