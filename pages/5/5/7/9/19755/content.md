@@ -337,11 +337,11 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 
 ### General
 
-Textbook accounts include
+Textbook accounts:
 
-* {#Sagan01} [[Bruce Sagan]], _The symmetric group_, Springer 2001 ([pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
+* {#Sagan01} [[Bruce Sagan]], _The symmetric group_, Springer 2001 ([doi:10.1007/978-1-4757-6804-6](https://link.springer.com/book/10.1007/978-1-4757-6804-6), [pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
 
-Discussion of the [[classifying spaces]] of symetric groups includes
+Discussion of the [[classifying spaces]] of symmetric groups:
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
 
