@@ -65,6 +65,8 @@ Generalizations:
 
 ## References
 
+Named after *[[Issai Schur]]*.
+
 The authoritative monograph on the subject is 
 
 * I. G. Macdonald, _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995 ([ISBN:9780198739128](https://global.oup.com/academic/product/symmetric-functions-and-hall-polynomials-9780198739128?cc=ae&lang=en&))
