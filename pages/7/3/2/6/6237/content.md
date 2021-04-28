@@ -18,7 +18,19 @@
 
 There are many notions of a character for an algebraic structure, often topologized. 
 
-### Character on a group
+### Character of a group
+ {#CharacterOfAGroup}
+
+For [[groups]], there are two different, but related, concepts which are both often just referred to as *characters* of a group:
+
+1. *[multiplicative group characters](#MultiplicativeCharacterOfAGroup)*,
+
+1. *[characters of linear representations of a group](#CharacterOfALinearRepresentation)*.
+
+Here the first notion is the special case of the second notion for *1-[[dimension of a vector space|dimensional]]* [[linear representations]]. Since for [[abelian groups]] *all* [[irreducible representations]] over the [[complex numbers]] are 1-dimensional, in this case both notions agree, but in general they do not.
+
+#### Multiplicative character of a group
+ {#MultiplicativeCharacterOfAGroup}
 
 A _multiplicative character_ on a ([[discrete group|discrete]]) [[group]] $G$ (a _[[group character]]_) is a [[group homomorphism]] from $G$ to the [[group of units]] $k^\times$ of the [[ground field]] $k$:
 
@@ -42,12 +54,12 @@ For more see at _[[group character]]_.
 For [[topological groups]] one considers [[continuous map|continuous]] characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is a continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
 
 
-### Character of a linear representation
+#### Character of a linear representation of a group
  {#CharacterOfALinearRepresentation}
 
-In [[representation theory]], one defines the _[[character of a linear representation]]_ $\rho\colon G\to End(V)$ to be the [[group character]] on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] in $V$ makes sense (e.g. when $V$ is [[finite-dimensional vector space|finite-dimensional]]).  Since such a function is invariant under conjugation, we may equivalently consider it a function on the set of [[conjugacy classes]] of elements in $G$.
+In [[representation theory]], one defines the _[[character of a linear representation]]_ $\rho\colon G\to End(V)$ to be the [[group character]] on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] in $V$ makes sense (e.g. when $V$ is [[finite-dimensional vector space|finite-dimensional]]).  Since such a function is [[invariant]] under [[conjugation action|conjugation]], one may equivalently consider it a function on the set of [[conjugacy classes]] of elements in $G$.
 
-Sometimes we also extend a character linearly to the free vector space on the set of conjugacy classes.  This version of the character can be identified with the [[bicategorical trace]] of the identity map of the representation, considered as a $k[G]$-$k$-module.
+Sometimes we also extend a character linearly to the [[linear span|free vector space]] on the set of conjugacy classes.  This version of the character can be identified with the [[bicategorical trace]] of the identity map of the representation, considered as a $k[G]$-$k$-module.
 
 There is a different notion of an _infinitesimal character_ in [[Harish–Chandra theory]] and also a notion of the _formal character_.
 
@@ -108,6 +120,8 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 
 ## Related concepts
+
+* [[irreducible character]]
 
 * [[Weyl character formula]]
 
