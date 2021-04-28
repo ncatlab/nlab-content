@@ -20,8 +20,22 @@ and in the quantum group center_, Commun. Math. Phys. 265 (2006) 47&#8211;93; _K
 * Philippe Ruelle, _Logarithmic conformal invariance in the Abelian sandpile model_, [arxiv/1303.4310](http://arxiv.org/abs/1303.4310)
 * David Ridout, Simon Wood, _Bosonic ghosts at $c=2$ as a logarithmic CFT_, [arxiv/1408.4185](http://arxiv.org/abs/1408.4185)
 
+On the [[Verlinde formula]] for logarithmic CFTs:
+
+* [[Thomas Creutzig]], [[Terry Gannon]], _Logarithmic conformal field theory, log-modular tensor categories and modular forms_, J. Phys. A __50__, 404004 (2017) ([doi:10.1088/1751-8121/aa8538](https://doi.org/10.1088/1751-8121/aa8538), [arXiv:1605.04630](https://arxiv.org/abs/1605.04630))
+
+On the [[braided tensor categories]] corresponding to logarithmic CFTs:
+
+* [[Thomas Creutzig]], Simon Lentner, Matthew Rupert, *Characterizing braided tensor categories associated to logarithmic vertex operator algebras* ([arXiv:2104.13262](https://arxiv.org/abs/2104.13262))
+
 category: physics
+
 [[!redirects logarithmic CFTs]]
+
+[[!redirects logarithmic 2d CFT]]
+[[!redirects logarithmic 2d CFTs]]
+
+
 [[!redirects logarithmic conformal field theory]]
 [[!redirects logarithmic conformal field theoroes]]
 
