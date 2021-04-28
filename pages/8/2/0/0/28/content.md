@@ -1230,9 +1230,9 @@ For instance
 
 +-- {: .num_example #GroupoidRepresentationOfDeloopingGroupoid}
 ###### Example
-**([[groupoid representation]] of [[delooping]] groupoid is [[group representation]])
+**([[groupoid representation]] of [[delooping groupoid]] is [[group representation]])
 
-If $B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}),
+If $B G$ is the [[delooping groupoid]] of a [[group]] $G$ (example \ref{GroupoidFromDelooping}),
 then a [[groupoid representation]] of $B G$ according to def. \ref{GroupoidRepresentation} is
 equivalently a [[group representation]] of the group $G$:
 
@@ -1321,7 +1321,7 @@ is clearly a group isomorphism as required.
 
 +-- {: .num_lemma #DeloopingGroupoidEquivalence}
 ###### Lemma
-**([[equivalence of groupoids|equivalences]] between [[coproducts|disjoint unions]] of [[delooping]] groupoids)**
+**([[equivalence of groupoids|equivalences]] between [[coproducts|disjoint unions]] of [[delooping groupoids]])**
 
 Let $\{G_i\}_{i \in I}$ and $\{H_j\}_{j \in J}$ be sets of [[groups]] and consider a homomorphism ([[functor]])
 
@@ -1333,7 +1333,7 @@ $$
   \underset{j \in J}{\sqcup} H_j
 $$
 
-between the corresponding disjoint unions of [[delooping]] groupoids (example \ref{GroupoidFromDelooping}).
+between the corresponding disjoint unions of [[delooping groupoids]] (example \ref{GroupoidFromDelooping}).
 
 Then the following are equivalent:
 
@@ -1359,7 +1359,7 @@ $$
   \beta \;\colon\; F \circ G \Rightarrow id
 $$
 
-are in each separate [[delooping]] groupoid $B H_j$ of the form
+are in each separate [[delooping groupoid]] $B H_j$ of the form
 
 $$
   \array{
@@ -1395,7 +1395,7 @@ $$
   \mathcal{G} \simeq \underset{i \in I}{\sqcup} B G_i
 $$
 
-between $\mathcal{G}$ and a [[disjoint union]] of [[delooping]] groupoids (example \ref{DeloopingGroupoidDisjointUnion}).
+between $\mathcal{G}$ and a [[disjoint union]] of [[delooping groupoids]] (example \ref{DeloopingGroupoidDisjointUnion}).
 This is called a _[[skeleton]]_ of $\mathcal{G}$.
 
 Concretely, this exists for $I = \pi_0(\mathcal{G})$ the set of [[connected components]] of $\mathcal{G}$ (def. \ref{GroupoidConnectedComponents}) and for $G_i \coloneqq Aut_{\mathcal{G}}(x)$ the [[automorphism group]] (def. \ref{InGrupoidAutomorphismGroup}) of any object $x$ in the given connected component.
@@ -1707,19 +1707,21 @@ The disadvantage of the simplicial approach is the difficulty of describing mult
 
 ## References
 
-An early occurence of the concept is
+An early occurence of the concept is (see also _[[Brandt groupoid]]_):
 
 * {#Brandt27} H. Brandt, _&#220;ber eine Verallgemeinerung des Gruppenbegriffes_, Mathematische Annalen, (1927) 96 (1): 360&#8211;366, [doi:10.1007/BF01209171](https://doi.org/10.1007%2FBF01209171)
 
-(see _[[Brandt groupoid]]_).
 
 A motivation and introduction of the concept of groupoid and a tour of examples (including the refinement to [[topological groupoids]] and [[Lie groupoids]]) is in
 
 * [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS volume 43, Number 7 ([pdf](http://www.ams.org/notices/199607/weinstein.pdf))
 
-Further exposition includes
+Further exposition:
 
 * [[Ronnie Brown]], _From groups to groupoids: A brief survey_ at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf), Bulletin of the London Mathematical Society 19(2):113-134, [doi](https://doi.org/10.1112/blms/19.2.113)
+
+* [[Introduction to Topology -- 2]], *[Groupoids](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+2#Groupoid)*
+
 
 Technical discussion can be found, for instance, in the following references.
 
