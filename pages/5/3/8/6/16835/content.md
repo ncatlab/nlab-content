@@ -1,4 +1,16 @@
-A [[symmetric function]] $f$ with coefficients in the field is Schur positive if when written in the basis of Schur polynomials $f = \sum_\mu a_\mu s_\mu$, all coefficients $a_\mu$ are positive. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[symmetric function]] $f$ with [[coefficients]] in the [[ground field]] is *Schur positive* if, when expanded in the [[linear basis]] of [[Schur polynomials]] $f = \sum_\mu a_\mu s_\mu$, all [[coefficients ]] $a_\mu$ are [[positive numbers]]. 
+
+## References
+
+* Rebecca Patrias, *What is Schur positivity and how common is it?* ([arXiv:1809.04448](https://arxiv.org/abs/1809.04448))
+
 
 * Thomas Lam, Alexander Postnikov, Pavlo Pylyavskyy, _Schur positivity and Schur log-concavity_, [math.CO/0502446](http://arxiv.org/abs/math/0502446)
 
