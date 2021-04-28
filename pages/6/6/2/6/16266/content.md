@@ -164,13 +164,14 @@ As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking
 
 The original definition is due to [[Jan-Erik Roos]], see Definition 1 in
 
-* [[Jan-Erik Roos]], Introduction à l'étude de la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos), Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 969–972.  [[roos-distributivity.pdf:file]].
+* {#Roos64} [[Jan-Erik Roos]], *Introduction à l'étude de la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos)*, Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 969–972 ([[roos-distributivity.pdf:file]])
 
 Additional references:
 
 * {#ARV} [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], _Algebraic theories.  A categorical introduction to general algebra_ CUP 2011.
 
 * {#ALR} [[Jiří Adámek]], [[William Lawvere]], [[Jiří Rosický]], [_Continuous Categories Revisited_](http://www.tac.mta.ca/tac/volumes/11/11/11-11abs.html) TAC 11, 2003.
+
 * {#ALRalg} [[Jiří Adámek]], [[William Lawvere]], [[Jiří Rosický]], [_How algebraic is algebra_](http://www.tac.mta.ca/tac/volumes/8/n9/8-09abs.html) TAC 8, 2001.
 
 * {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiří Rosický]], [_A classification of accessible categories_](http://www.sciencedirect.com/science/article/pii/S0022404902001263) JPAA 175, 2002.
