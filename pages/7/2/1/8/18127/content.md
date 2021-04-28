@@ -4757,13 +4757,17 @@ $\,$
 
 ## References
 
-A textbook account is in
+A textbook account:
 
-* {#tomDieck06} [[Tammo tom Dieck]], sections 2 and 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
+* {#tomDieck06} [[Tammo tom Dieck]], sections 2 and 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf), [doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
 
-Lecture notes include
+Lecture notes:
 
 * {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
+
+Further reading:
+
+* *[[geometry of physics -- categories and toposes]] -- Sec. 7: [∞-Groupoids I: Topological homotopy theory](geometry+of+physics+--+categories+and+toposes#TopologicalHomotopyTheory)*
 
 
 $\,$
