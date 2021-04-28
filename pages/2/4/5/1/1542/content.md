@@ -58,6 +58,8 @@ the _chaotic groupoid_ on $X$. The intuition is probably that "everything being 
 
 ## Related concepts
 
+* [[delooping groupoid]]
+
 * [[discrete groupoid]]
 
 * [[indiscrete category]]
