@@ -1,6 +1,6 @@
 
-\begin{defn}
-  For $G$ a [[discrete group]] and $(\Gamma,\alpha)$ a $G$-[[equivariant group|equivariant]] [[topological group]] (hence a [[topological group]] equipped with an [[action]] $\alpha$ of $G$ by continuous [[group automorphisms]]), consider the [[topological groupoid]] which is the [[functor groupoid]] from the [[pair groupoid]] of $G$ to the [[delooping groupoid]] of $\Gamma$:
+\begin{defn}\label{calBGammaForDiscreteG}
+  For $G$ a [[discrete group]] and $(\Gamma,\alpha)$ a $G$-[[equivariant group|equivariant]] [[topological group]] (hence a [[topological group]] equipped with an [[action]] $\alpha$ of $G$ by continuous group [[automorphisms]]), consider the [[topological groupoid]] which is the [[functor groupoid]] from the [[pair groupoid]] of $G$ to the [[delooping groupoid]] of $\Gamma$:
 
 \[
   \label{HomGroupoidFromPairGroupoidOfGToDeloopingGroupoidOfGamma}
@@ -48,7 +48,51 @@ $$
 
 \end{defn}
 
+\begin{remark}
+  This is the groupoid in $G$-spaces which is indicated  oin
+\end{remark}
 
+\begin{prop}
+  Let $H \subset G$ any [[subgroup]], there is an [[equivalence]] of [[topological groupoids]] between the $H$-[[fixed locus]] of the $G$-groupoid from Def. \ref{calBGammaForDiscreteG} and
+
+1. for trivial $\alpha$: the [[functor groupoid]] between the [[delooping groupoids]] of $G$ and $\Gamma$:
+
+   $$
+     \big(
+       \mathcal{B}\Gamma
+     \big)^H
+     \;\;
+     \simeq
+     \;\;
+     Groupoids(TopSpaces)
+     \big(
+       G \rightrightarrows \ast,
+       \,,
+       \Gamma \rightrightarrows \ast
+     \big)
+   $$
+
+1. for general $\alpha$: the [[action groupoid]] of the [[conjugation action]] of $\Gamma \overset{\gamma \mapsto (\gamma,e)}{\hookrightarrow} \Gamma \rtimes_\alpha G$ on [[group homomorphisms]] $\phi \colon G \to \Gamma \rtimes_\alpha G$ which are [[sections]] ($pr_2 \circ \phi = id_G$) of $pr_2 \colon \Gamma \rtimes_\alpha G \to G$:
+
+   $$
+     \big(
+       \mathcal{B}\Gamma
+     \big)^H
+     \;\;
+     \simeq
+     \;\;
+     \Big(
+       Groups(TopSpaces)_{/G}
+       \big(
+         G, \, \Gamma \rtimes_\alpha G
+       \big)
+     \Big)
+     \sslash
+     \Gamma
+     \,.
+   $$
+
+\end{prop}
 
 
 $$
