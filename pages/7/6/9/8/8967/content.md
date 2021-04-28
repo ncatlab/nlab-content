@@ -64,7 +64,7 @@ A pullback around $(f,g)$ with $f$ and $q$ exponentiable is a distributivity pul
 =--
 +-- {: .proof}
 ###### Proof
-See [(Weber)](#Weber).
+See [(Weber, Proposition 2.2.3)](#Weber).
 =--
 
 Invertibility of $\delta$ expresses that [[dependent products]] (the functors $f_*$ and $q_*$) distribute over [[dependent sums]] (the functors $g_!$ and $r_!$).
