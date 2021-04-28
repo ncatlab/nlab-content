@@ -70,6 +70,11 @@ which take a more nPOV of automata theory.
 
 * Liang-Ting Chen, Henning Urbat, _A fibrational approach to automata theory_, [arxiv/1504.02692](http://arxiv.org/abs/1504.02692)
 
+An early discussion of automata via [[string diagrams]] in the [[Cartesian monoidal category]] of [[finite sets]]:
+
+* {#Hotz65} [[Günter Hotz]], _Eine Algebraisierung des Syntheseproblems von Schaltkreisen_, EIK, Bd. 1, (185-205), Bd, 2, (209-231) 1965 ([part I](https://www.magentacloud.de/lnk/LiPMlYfh), [part II](https://www.magentacloud.de/lnk/YivslUWJ), [[HotzSchaltkreise.pdf:file]])
+
+
 category:computer science
 
 [[!redirects automaton]]
