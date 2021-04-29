@@ -960,18 +960,56 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
 
 
 
-#### Further eigenvectors
+#### General eigenvectors
 
-\begin{remark}
-Since Example \ref{HomogeneousDistributionIsEigenvalue} and Prop. \ref{SignatureDistributionIsEigenvector} rely on $1(\sigma)$
-and $sgn(\sigma)$ being multiplicative [[group characters]], and the only multiplicative characters of a symmetric group are these two, the trivial one and the [[sign representation|sign]], the other eigenvectors must be found by other means.
+The general eigenvectors and eigenvalues of the Cayley distance kernel are given as explicit expressions in the [[irreducible characters]] of the [[symmetric group]], by the *[character formula](Cayley+graph+spectrum#CharacterFormulaForCayleyGraphSpectra) of [[Cayley graph spectra]]*:
 
-[Kaski 02, Cor. 5.4](#Kaski02) gives all eigenvectors with eigenvalues $\frac{1}{d_k} \sum_{\sigma: Sym(n)} \alpha(\sigma) \chi_k(\sigma)$, where $\chi_k$ is any character of $S_n$ and $d_k$ is the dimension of the associated representation, the exponentiated Cayley distance $\alpha(\sigma) = e^{-\beta \cdot d(\sigma, e)}$ being a class function. 
+To be able to apply this formula, one just has to observe that the [[Cayley distance]] in a single variable
 
-\end{remark}
+$$
+  \array{
+    Sym(n)
+    &\longrightarrow&
+    \mathbb{R} 
+    \mathrlap{
+      \hookrightarrow \mathbb{C}
+    }
+    \\
+    \sigma &\mapsto& e^{- \beta \cdot d_C(\sigma,e)}
+  }
+$$
+
+is a [[class function]] for all $\beta$, which is immediate by [Cayley's observation](Cayley+distance#CayleyObservation) that $d_c(\sigma,e) = n - \left\vert Cycles(\sigma)\right\vert$.
+
+It thus follows from the general [character formula](Cayley+graph+spectrum#CharacterFormulaForCayleyGraphSpectra) and the [[representation theory of the symmetric group]] ([here](representation+theory+of+the+symmetric+group#IrreducibleRepresentations)) that:
+
+\begin{prop}
+  The [[eigenvalues]] of the Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ are:
+
+1. labeled by [[partitions]] $\lambda$ of $n$,
+
+1. have multiplicity the square of the dimension $\chi^{(\lambda)}(1)$ of the $\lambda$th [[Specht module]];
+
+1. are given by
+
+   $$
+     EV_\lambda\lambda(e^{- \beta\cdot d_C})
+     \;=\;
+     \tfrac{1}{\chi^{(\lambda)}(1)}
+     \underset{ \sigma \in Sym(n) }{\sum}
+     e^{ \beta \cdot ( \left\vert Cycles(\sigma)\right\vert - n )   }
+     \cdot
+     \chi^{{\lambda}}(\sigma)
+     \,,
+   $$
+ 
+   where $\chi^{(\lambda)}$ is the [[irreducible character]] corresponding to the $\lambda$th [[Specht module]].
+ 
+\end{prop}
 
 
 \linebreak
+
 
 ### Positivity
  {#Positivity}
