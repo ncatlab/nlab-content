@@ -34,5 +34,5 @@ Algorithms and Computations in mathematics, Volume 9, Springer Verlag, NY 2007, 
 * [Dionysus](http://www.mrzv.org/software/dionysus) -- C++ library for computing persistent homology
 * Plex for Matlab: older, [C++ based version of Plex](http://comptop.stanford.edu/u/programs/plex.html)
 
-category: topology, applications
+category: topology, applications, reference
 [[!redirects sources in computational topology]]
