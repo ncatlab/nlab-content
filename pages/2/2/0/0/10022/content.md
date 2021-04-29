@@ -84,6 +84,8 @@ In this context the Ryu-Takayanagi formula for holographic entanglement entropy 
 
   * [[black holes in string theory]]
 
+  * [[ER = EPR]]
+
 * [[p-adic AdS-CFT]]
 
 
