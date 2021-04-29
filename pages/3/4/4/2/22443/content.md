@@ -260,8 +260,10 @@ $$
   }
 $$
 
-The asymptotic behaviour is generic (Prop. \ref{FailureOfPositivityForBetaBelowLn2}, Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below).
-Computer experiment ([CSS21](#CSS21)) suggest that the exceptional positive semi-definiteness at integer values of $e^\beta$ holds generally.
+This exhibits the general behaviour discussed as 
+Prop. \ref{FailureOfPositivityForBetaBelowLn2}, 
+Prop. \ref{PositiveSemidefinitenessAtLowIntegerValuedOfEBeta}, 
+Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below.
 
 
 \end{example}
@@ -377,8 +379,10 @@ $$
   }
 $$
 
-The asymptotic behaviour is generic (Prop. \ref{CayleyDistanceKernelIsIndefiniteForEBetaNonIntegralAndSmallernminusone}, Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below).
-Computer experiment ([CSS21](#CSS21)) suggest that the exceptional positive semi-definiteness at integer values of $e^\beta$ holds generally.
+This exhibits the general behaviour discussed as 
+Prop. \ref{CayleyDistanceKernelIsIndefiniteForEBetaNonIntegralAndSmallernminusone},
+Prop. \ref{PositiveSemidefinitenessAtLowIntegerValuedOfEBeta} and
+, Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity} below.
 
 
 \end{example}
@@ -908,8 +912,8 @@ where:
 
 \end{proof}
 
-\begin{prop}\label{SignOfTheEigenvalueOfTheSigantureDistribution}
-The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
+\begin{lemma}\label{SignOfTheEigenvalueOfTheSigantureDistribution}
+The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) of the signature distribution is as follows:
 \[
   \label{TheSignOfTheEigenvalueOfTheSignatureDistribution}
   \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
@@ -945,7 +949,7 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
   }
   \right.
 \]
-\end{prop}
+\end{lemma}
 \begin{proof}
   Since the prefactor $e^{- \beta \cdot n}$  in (eq:EigenvectorOfSignDistribution) is always positive, we need to equivalently discuss the sign of the polynomial
   $$
@@ -964,7 +968,7 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
 
 The general eigenvectors and eigenvalues of the Cayley distance kernel are given as explicit expressions in the [[irreducible characters]] of the [[symmetric group]], by the *[character formula](Cayley+graph+spectrum#CharacterFormulaForCayleyGraphSpectra) of [[Cayley graph spectra]]*:
 
-To be able to apply this formula, one just has to observe that the [[Cayley distance]] in a single variable
+To be able to apply this formula, one just has to observe that the exponentiated [[Cayley distance]] in a single variable
 
 $$
   \array{
@@ -983,7 +987,8 @@ is a [[class function]] for all $\beta$, which is immediate by [Cayley's observa
 
 It thus follows from the general [character formula](Cayley+graph+spectrum#CharacterFormulaForCayleyGraphSpectra) and the [[representation theory of the symmetric group]] ([here](representation+theory+of+the+symmetric+group#IrreducibleRepresentations)) that:
 
-\begin{prop}
+\begin{prop}\label{CharacterFormulaForEigenvalues}
+**(character formula for eigenvalues)** \linebreak
   The [[eigenvalues]] of the Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ are:
 
 1. labeled by [[partitions]] $\lambda$ of $n$,
@@ -1041,13 +1046,120 @@ or equivalently:
 For $0 \lt e^\beta \lt n-1$ the Cayley distance kernel is indefinite except possibly at [[integer]] values.
 \end{prop}
 \begin{proof}
-With the third statement in Prop. \ref{SignOfTheEigenvalueOfTheSigantureDistribution} the claim follows for every *second* open unit [[interval]] between 0 and $n-1$. But by the same argument the analogous statement is then true on every *other* of these unit intervals for the kernel on $Sym(n-1)$.
+With the third statement in Lemma \ref{SignOfTheEigenvalueOfTheSigantureDistribution} the claim follows for every *second* open unit [[interval]] between 0 and $n-1$. But by the same argument the analogous statement is then true on every *other* of these unit intervals for the kernel on $Sym(n-1)$.
 Now since the kernel on $Sym(n-1)$ is a [[principal submatrix]] of that for $Sym(n)$ (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), the [[Cauchy interlace theorem]] implies that the kernel on $Sym(n)$ must have a negative eigenvalue as soon as that on $Sym(n-1)$ does.
 \end{proof}
 
-#### Semi-definiteness for $e^\beta \in \{1,2,\cdots, n-1\}$
 
-(...)
+#### Semi-definiteness for $e^\beta \in \{1,2,\cdots, n-1\}$
+ {#PositiveSemiDefinitenessAtLowNaturalNumbers}
+
+
+\begin{lemma}\label{EigenvaluesNonNegativeAtNBetween1Andn}
+  For $e^\beta = N \in \{1, 2, \cdots, n\}$
+  all the eigenvalues of the Cayley distance kernel 
+  $e^{- \beta \cdot d_C}$ on $Sym(n)$
+  are non-negative.
+\end{lemma}
+\begin{proof}
+  We observe that the eigenvalues at these particular 
+  values of $\beta$ appear, up to a positive multiple, as [[coefficients]] of [[monomials]] in [[Schur polynomials]], but all such coefficients are non-negative integers ([this Prop.](Schur+function#CoefficientsOfMonomialsAreNaturalNumbers)). 
+
+  Concretely, for $\lambda$ any [[partition]] of $n$, with corresponding [[Schur polynomial]] $\s_\lambda$  and [[irreducible character|irreducible]] [[Specht module|Specht]] [[character of a linear representation|character]] $\chi^{(\lambda)}$, consider the following computation:
+
+$$
+  \begin{aligned}
+  s_{\lambda}
+  \big(
+    \underset{
+      N \; args
+    }{
+      \underbrace{
+        x, x, \cdots, x
+      }
+    }
+    ,
+    \underset{
+      n - N \; args
+    }{ 
+      \underbrace{
+        0, 0, \cdots, 0 
+      }
+    }
+  \big)
+  & \;=\;
+  \frac{1}{n!}
+  \underset{ \sigma \in Sym(n) }{\sum}
+    \chi^{(\lambda)}(\sigma)
+    \cdot
+    \big(
+      N x^{l_1} 
+    \big)
+    \big(
+      N x^{l_2} 
+    \big)
+    \cdots
+    \big(
+      N x^{l_{\left\vert Cycles(\sigma)\right\vert}} 
+    \big)
+  \\
+  & \;=\;
+  \left(
+    \frac{1}{n!}
+    \underset{ \sigma \in Sym(n) }{\sum}
+      \chi^{(\lambda)}(\sigma)
+      \cdot
+      N^{ \left\vert Cycles(\sigma) \right\vert }
+  \right)
+  \cdot
+  x^n
+  \\
+  &
+  \;=\;\;
+  \underset{
+    \in \, \mathbb{N}
+  }{
+  \underbrace{
+  \left(
+    \tfrac
+      {\chi^{(\lambda)}(1)}
+      {n!}
+    e^{ln(N) \cdot n}
+    \cdot
+    EV_\lambda (e^{- ln(N) \cdot d_C})
+  \right)
+  }
+  }
+  \cdot
+  x^n
+  \end{aligned}
+$$
+
+Here we used:
+
+1. the Frobenius formula for Schur functions ([this Prop.](Schur+function#FrobeniusFormula));
+
+1. some evident re-arrangements;
+
+1. the character formula for the eigenvalues ([this Prop](#CharacterFormulaForEigenvalues)).
+
+\end{proof}
+
+
+\begin{prop}\label{PositiveSemidefinitenessAtLowIntegerValuedOfEBeta}
+  For $e^\beta = N \in \{1,2, \cdots, n-1\}$
+  the Cayley distance kernel $e^{- \beta \cdot d_C}$
+  is positive semi-definite.
+
+  For $e^{\beta} = n$  it is not indefinite (i.e. positive semi-definite or positive definite).
+\end{prop}
+\begin{proof}
+  By Lemma \ref{EigenvaluesNonNegativeAtNBetween1Andn} the
+  eigenvalues at all these values are non-negative, and by Lemma \ref{SignOfTheEigenvalueOfTheSigantureDistribution} they contain 0 except possibly in the case
+  $e^{\beta} = n$.
+\end{proof}
+
+
 
 
 #### Definiteness for $\e^\beta \gt \frac{n-1}{3^{1/n}-1}  $
@@ -1261,7 +1373,7 @@ $$
   \end{aligned}
 $$
 
-Now to improve this to $q =3$: Since we may assume that at least $N \gt n-1$, we know that the eigenvalues of the homogeneous distribution (Example \ref{HomogeneousDistributionIsEigenvalue}) and of the signature distribution (Prop. \ref{SignatureDistributionIsEigenvector}) are non-negative (by Prop. \ref{SignOfTheEigenvalueOfTheSigantureDistribution}). But by the character formula for [[Cayley graph spectra]] ([this Prop](Cayley+graph+spectrum#CharacterFormula)) these are precisely the two eigenvalues with unit multiplicity. Therefore a strengthening of the [[Gershgorin circle theorem]] applies to all the remaining eigenvalues, saying ([this Prop.](Gershgorin+circle+theorem#StrengtheningForNonNegativeMatrices)) that these are in fact within *half* the Gershgorin radius (eq:GershgorinRadiusExpression). This allows us to put a factor of 1/2 on the left hand side of the first row of  (eq:GershgorinRadiusConditionForNonNegativeEigenvalues), which amounts to replacing the "2" by a "3" on the right of the second row.
+Now to improve this to $q =3$: Since we may assume that at least $N \gt n-1$, we know that the eigenvalues of the homogeneous distribution (Example \ref{HomogeneousDistributionIsEigenvalue}) and of the signature distribution (Prop. \ref{SignatureDistributionIsEigenvector}) are non-negative (by Lemma \ref{SignOfTheEigenvalueOfTheSigantureDistribution}). But by the character formula for [[Cayley graph spectra]] ([this Prop](Cayley+graph+spectrum#CharacterFormula)) these are precisely the two eigenvalues with unit multiplicity. Therefore a strengthening of the [[Gershgorin circle theorem]] applies to all the remaining eigenvalues, saying ([this Prop.](Gershgorin+circle+theorem#StrengtheningForNonNegativeMatrices)) that these are in fact within *half* the Gershgorin radius (eq:GershgorinRadiusExpression). This allows us to put a factor of 1/2 on the left hand side of the first row of  (eq:GershgorinRadiusConditionForNonNegativeEigenvalues), which amounts to replacing the "2" by a "3" on the right of the second row.
 \end{proof}
 
 \begin{remark}
