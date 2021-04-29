@@ -53,4 +53,8 @@ Discussion on [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-space]] 
 
 * {#GangKimLee15} Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of 3d-3d correspondence at Large N_, JHEP04 (2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
+Discussion in a context of [[cosmology]] with an eye towards [[de Sitter spacetimes]]:
+
+* G. Bruno De Luca, [[Eva Silverstein]], Gonzalo Torroba, *Hyperbolic compactification of M-theory and de Sitter quantum gravity* ([arXiv:2104.13380](https://arxiv.org/abs/2104.13380))
+
 [[!redirects M-theory an a hyperbolic manifold]]
