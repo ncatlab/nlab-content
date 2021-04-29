@@ -143,3 +143,5 @@ category: physics
 [[!redirects separable]]
 
 [[!redirects quantum entanglement]]
+
+[[!redirects entangled particles]]
