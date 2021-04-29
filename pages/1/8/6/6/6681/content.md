@@ -46,6 +46,10 @@ On [[M5-branes]] in the [[BMN matrix model]]:
 
 * [[Hai Lin]], [[Juan Maldacena]], _Fivebranes from gauge theory_, Phys. Rev. D74:084014, 2006 ([arXiv:hep-th/0509235](https://arxiv.org/abs/hep-th/0509235))
 
+Proposing [[ER = EPR]]:
+
+ * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
+
 
 General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
 
