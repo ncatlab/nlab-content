@@ -174,6 +174,10 @@ A generalization of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be tw
 
 ...
 
+## Related concepts
+
+* [[semistandard Young tableau]]
+
 ## References ##
 
 For a quick online introduction to Young diagrams, try:
