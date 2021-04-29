@@ -13,7 +13,7 @@ A class $\Phi$ of [[diagram]] shapes for [[limits]], or more generally a class o
 
 ## References
 
-* [[Jiri Adamek]], [[Francis Borceaux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, [web](http://maths.mq.edu.au/~slack/papers/acc.html)
+* [[Jiri Adamek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, [web](http://maths.mq.edu.au/~slack/papers/acc.html)
 
 * [n-Cafe discussion about the above paper](https://golem.ph.utexas.edu/category/2014/05/classifying_by_generalizing_th.html)
 
@@ -21,6 +21,6 @@ A class $\Phi$ of [[diagram]] shapes for [[limits]], or more generally a class o
 
 * Mat&#283;j Dost&#225;l, Ji&#345;&#237; Velebil, *An elementary characterisation of sifted weights*, [arxiv](https://arxiv.org/abs/1405.3090)
 
-* [[G.M.Kelly]], V.Schmitt, *Notes on enriched categories with colimits of some class*, [arxiv](https://arxiv.org/abs/math/0509102)
+* [[G. M. Kelly]], V. Schmitt, *Notes on enriched categories with colimits of some class*, [arXiv](https://arxiv.org/abs/math/0509102)
 
 [[!redirects sound doctrines]]
