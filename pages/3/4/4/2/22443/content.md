@@ -976,6 +976,8 @@ and $sgn(\sigma)$ being multiplicative [[group characters]], and the only multip
 ### Positivity
  {#Positivity}
 
+#### Indefiniteness for $e^{\beta} \in (0,1) \cup (1,2) \cup \cdots \cup (n-2,n-1)$
+
 \begin{prop}\label{FailureOfPositivityForBetaBelowLn2}
   For all $n \geq 3$ and all $0 \lt \beta \lt ln(2)$, the Cayley distance kernel $ e^{- \beta \cdot d_C}$ *fails* to be positive semi-definite on $Sym(n)$.
 \end{prop}
@@ -1005,10 +1007,15 @@ With the third statement in Prop. \ref{SignOfTheEigenvalueOfTheSigantureDistribu
 Now since the kernel on $Sym(n-1)$ is a [[principal submatrix]] of that for $Sym(n)$ (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), the [[Cauchy interlace theorem]] implies that the kernel on $Sym(n)$ must have a negative eigenvalue as soon as that on $Sym(n-1)$ does.
 \end{proof}
 
+#### Semi-definiteness for $e^\beta \in \{1,2,\cdots, n-1\}$
 
+(...)
+
+
+#### Definiteness for $\e^\beta \gt \frac{n-1}{3^{1/n}-1}  $
 
 \begin{prop}
-  A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive semi-definite bilinear form|positive semi-definite]] is that its [[inverse temperature]] $\beta$ satisfies the following [[inequality]]:
+  A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive definite bilinear form|positive definite]] is that its [[inverse temperature]] $\beta$ satisfies the following [[inequality]]:
 
 \[
   \label{GershgorinBoundOnTemperatureForPositivity}
@@ -1021,7 +1028,7 @@ Now since the kernel on $Sym(n-1)$ is a [[principal submatrix]] of that for $Sym
     + 
     k
   \big)
-  \;\leq\;
+  \;\lt\;
   2
   e^{\beta \cdot n }
   \,.
@@ -1050,7 +1057,7 @@ Since, moreover, all eigenvalues are [[real numbers|real]], the condition
   - 
   1
   &
-  \;\;\leq\;\; 
+  \;\;\lt\;\; 
   1
   \\
   \Leftrightarrow
@@ -1067,11 +1074,11 @@ Since, moreover, all eigenvalues are [[real numbers|real]], the condition
     k
   \big)
   &
-  \;\;\leq\;\; 
+  \;\;\lt\;\; 
   2  
   \end{aligned}
 \]
-implies that all eigenvalues are contained in the [[interval]] $[0,2] \subset \mathbb{R}$ and hence in particular that they are non-negative.
+implies that all eigenvalues are contained in the [[interval]] $(0,2) \subset \mathbb{R}$ and hence in particular that they are [[positive number|positive]].
 \end{proof}
 
 \begin{prop}\label{ExplicitBoundForInverseTemperatureEnsuringPositivity}
@@ -1088,7 +1095,7 @@ implies that all eigenvalues are contained in the [[interval]] $[0,2] \subset \m
 a sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) to be [[positive semi-definite bilinear form|positive semi-definite]] on $Sym(n)$ is that 
 $$
   N
-    \;\geq\;
+    \;\gt\;
   \frac{
     n-1
   }{
@@ -1114,7 +1121,7 @@ $$
     (N + n - 1)
   }
   }
-  \;\leq\;
+  \;\lt\;
   2
   N^n
 $$
@@ -1129,7 +1136,7 @@ and hence may equivalently be expressed as
     N^n
   }
   &
-  \;\leq\;
+  \;\lt\;
   2   
   \\
   \Leftrightarrow
@@ -1146,7 +1153,7 @@ and hence may equivalently be expressed as
     N^n 
   }
   &
-  \;\leq\;
+  \;\lt\;
   2   
   }
   \;\;\;\;\;\;
@@ -1154,7 +1161,7 @@ and hence may equivalently be expressed as
   \;\;\;\;\;\;
   e^{- ln(N) \cdot d_C}
   \,
-  \text{is positive semi-definite on}
+  \text{is positive definite on}
   \,
   Sym(n)
   \,.
@@ -1200,14 +1207,14 @@ $$
     N
   }
   \right)^n
-  \;\leq\;
+  \;\lt\;
   2
   \\
   \Leftrightarrow
   \;\;\;
   &
   N
-    \;\geq\;
+    \;\gt\;
   \frac{
     n-1
   }{
@@ -1216,7 +1223,7 @@ $$
   \end{aligned}
 $$
 
-Now to improve this to $q =3$: Assuming that at least $N \geq n-1$, we know that the eigenvalues of the homogeneous distribution (Example \ref{HomogeneousDistributionIsEigenvalue}) and of the signature distribution (Prop. \ref{SignatureDistributionIsEigenvector}) are non-negative (by Prop. \ref{SignOfTheEigenvalueOfTheSigantureDistribution}). But by the character formula for [[Cayley graph spectra]] ([this Prop](Cayley+graph+spectrum#CharacterFormula)) these are precisely the two eigenvalues with unit multiplicity. Therefore a strengthening of the [[Gershgorin circle theorem]] applies to all the remaining eigenvalues, saying ([this Prop.](Gershgorin+circle+theorem#StrengtheningForNonNegativeMatrices)) that these are in fact within *half* the Gershgorin radius (eq:GershgorinRadiusExpression). This allows us to put a factor of 1/2 on the left hand side of the first row of  (eq:GershgorinRadiusConditionForNonNegativeEigenvalues), which amounts to replacing the "2" by a "3" on the right of the second row.
+Now to improve this to $q =3$: Since we may assume that at least $N \gt n-1$, we know that the eigenvalues of the homogeneous distribution (Example \ref{HomogeneousDistributionIsEigenvalue}) and of the signature distribution (Prop. \ref{SignatureDistributionIsEigenvector}) are non-negative (by Prop. \ref{SignOfTheEigenvalueOfTheSigantureDistribution}). But by the character formula for [[Cayley graph spectra]] ([this Prop](Cayley+graph+spectrum#CharacterFormula)) these are precisely the two eigenvalues with unit multiplicity. Therefore a strengthening of the [[Gershgorin circle theorem]] applies to all the remaining eigenvalues, saying ([this Prop.](Gershgorin+circle+theorem#StrengtheningForNonNegativeMatrices)) that these are in fact within *half* the Gershgorin radius (eq:GershgorinRadiusExpression). This allows us to put a factor of 1/2 on the left hand side of the first row of  (eq:GershgorinRadiusConditionForNonNegativeEigenvalues), which amounts to replacing the "2" by a "3" on the right of the second row.
 \end{proof}
 
 \begin{remark}
