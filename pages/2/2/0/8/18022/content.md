@@ -290,11 +290,11 @@ Discussion of rational fiberwise [[suspension spectra]] is in
 * [[Yves Félix]], Aniceto Murillo [[Daniel Tanré]], _Fibrewise stable rational homotopy_, Journal of Topology, Volume 3, Issue 4, 2010, Pages 743–758 ([doi:10.1112/jtopol/jtq023]( https://doi.org/10.1112/jtopol/jtq023))
 
 
-A discussion of full blown rational parametrized stable homotopy theory is due to
+A discussion of full-blown rational parametrized stable homotopy theory is due to
 
 * [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich, 2018
   
-* [[Vincent Braunack-Mayer]], _Strict algebraic models for rational parametrised spectra I_ ([arXiv:1910.14608](https://arxiv.org/abs/1910.14608))
+* [[Vincent Braunack-Mayer]], _Strict algebraic models for rational parametrised spectra I_,  Algebraic & Geometric Topology 21 (2021) 917–1019 ([arXiv:1910.14608](https://arxiv.org/abs/1910.14608), [doi:10.2140/agt.2021.21.917](https://doi.org/10.2140/agt.2021.21.917))
 
 Application to mathematical analysis of [[duality between M-theory and type IIA string theory]]:
 
