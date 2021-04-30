@@ -36,8 +36,12 @@ Another desirable property is that the diagonal map $\Delta_I\colon I \to I\otim
 
 * Any [[cartesian monoidal category]] has a canonical structure of diagonal maps given by the actual [[diagonal morphisms]].
 
+* Given a [[cartesian monoidal category]], the [[wide subcategory]] consisting of the [[monomorphisms]] is a monoidal category with the same product and unit. The [[diagonal morphism]] of the original category, always a [[monomorphism]], plays the role of the diagonal maps in the subcategory. Now there are no projections, since, for instance, in [[Set]], the projection maps are almost never injective.
+
 
 [[!include smash-monoidal diagonals -- section]]
+
+
 
 
 
