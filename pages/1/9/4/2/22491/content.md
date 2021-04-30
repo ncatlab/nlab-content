@@ -80,7 +80,7 @@ For example:
   $$
     EV_\chi
     \;=\;
-    \frac{1}{\chi(1)}
+    \frac{1}{\chi(e)}
     \underset{
       g \in G
     }{\sum}
@@ -88,25 +88,25 @@ For example:
     \,,
   $$
 
-* appear with multiplicity $(\chi(1))^2$;
+* appear with multiplicity $(\chi(e))^2$;
 
-* the corresponding [[eigenvectors]] are the component functions 
+* the corresponding [[eigenvectors]] are the [[complex conjugation|complex conjugated]] component functions 
 
   $$
-    \big(\rho_{i j}(g)\big)_{g \in G}
+    \big(\bar \rho_{i j}(g)\big)_{g \in G}
     \;\;
       \in
     \;\;
     \mathbb{C}[G]
   $$ 
 
-  of the complex [[irreducible representations]] $\rho$ whose [[character of a linear representation|characters]] are the $\chi$, regarded for each $g \in G$ as [[unitary matrices]] $(\rho(g))_{i,j \in \{1, \chi(1)\}} \;\in\; Mat_{\chi(1) \times \chi(1)}(\mathbb{C})$.
+  of the complex [[irreducible representations]] $\rho$ whose [[character of a linear representation|characters]] are the $\chi$, regarded for each $g \in G$ as [[unitary matrices]] $(\rho(g))_{i,j \in \{1, \chi(e)\}} \;\in\; Mat_{\chi(e) \times \chi(e)}(\mathbb{C})$.
 
 
 
 \end{prop}
 
-([Diaconis & Shahshahani 81, Cor. 3](#DiaconisShahshahani81), [Rockmore, Kostelec, Hordijk & Stadler 02, Thm. 1.1](#RockmoreKostelecHordijkStadler02), [Foster-Greenwood & Kriloff 16, Thm. 4.3](#FosterGreenwoodKriloff16), see also [Liu & Zhou 18, Thm. 2.6](#LiuZhou18); in the special case that$G$ is an [[abelian group]] the result is due to [Lovász 1975](#Lovasz75); a comprehensive account is in [Kaski 02, Sec. 2 & 4, Cor. 5.4](#Kaski02)) 
+([Diaconis & Shahshahani 81, Cor. 3](#DiaconisShahshahani81), [Rockmore, Kostelec, Hordijk & Stadler 02, Thm. 1.1](#RockmoreKostelecHordijkStadler02), [Foster-Greenwood & Kriloff 16, Thm. 4.3](#FosterGreenwoodKriloff16), see also [Liu & Zhou 18, Thm. 2.6](#LiuZhou18); in the special case that $G$ is an [[abelian group]] the result is due to [Lovász 1975](#Lovasz75); a comprehensive account is in [Kaski 02, Sec. 2 & 4, Cor. 5.4](#Kaski02)) 
 
 
 ## References
