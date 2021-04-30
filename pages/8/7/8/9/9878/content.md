@@ -47,3 +47,9 @@ See also
 * Wikipedia, _[Coupling constant](https://en.wikipedia.org/wiki/Coupling_constant)_
 
 [[!redirects coupling constants]]
+
+[[!redirects gauge coupling]]
+
+
+
+
