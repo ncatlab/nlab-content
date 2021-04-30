@@ -43,10 +43,15 @@ Related areas include
 
 ### General
 
-See* _[[sources in computational topology]]_
+Textbook accounts:
+
+* {#EdelsbrunnerHarer10} [[Herbert Edelsbrunner]], [[John L. Harer]], *[[Computational Topology, An Introduction]]*, American Mathematical Society, 2010 ([ISBN:978-0-8218-4925-5](http://www.ams.org/bookstore-getitem/item=MBK-69), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf))
 
 
-* [[Computational Topology, An Introduction]].
+See also:
+
+* _[[sources in computational topology]]_
+
 
 ### Computational Homotopy groups
 
