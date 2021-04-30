@@ -85,6 +85,155 @@ In contrast to this example, the literature on the "swampland" phenomenon is cur
 An argument that much of the existing swampland literature does not even live up to the level of rigour of [[folklore]] string theory, and in fact that it is fundamentally flawed, is made in [Banks 19](#Banks19).
 
 
+## Swampland conjectures
+
+The following is a list of the main swampland conjectures, collected.
+
+### No global symmetries conjecture
+
+\begin{conjecture}
+A theory with a finite number of states coupled to [[gravity]] has no global symmetries, which means that they are either broken or gauged. This includes global $p$-form symmetries as well as global discrete symmetries. 
+\end{conjecture}
+
+### Completeness hypothesis
+
+\begin{conjecture}
+A [[gauge theory]] coupled to [[gravity]] must contain physical states with all possible gauge charges consistent with [[Dirac charge quantization]].
+\end{conjecture}
+
+\begin{remark}
+This immediately implies that any continuous [[gauge group]] (i.e. a [[Lie group]]) must be [[compact]].
+However, this does not restrict discrete gauge groups, which can be non-compact (e.g. [[duality]] groups).
+\end{remark}
+
+### BPS completeness hypothesis
+
+\begin{conjecture}
+If a given charge can be populated by [[BPS states]], then the physical spectrum must contain a BPS state with this charge.
+\end{conjecture}
+
+### Weak gravity conjecture
+
+#### Electric weak gravity conjecture
+
+\begin{conjecture}
+Given a $U(1)$-[[gauge theory]] weakly coupled to [[gravity]] with [[gauge coupling]] $g$, there exists an electrically charged state with mass $m$ and charge $q$ satisfying
+
+$$ m \leq \sqrt{2} g q M_p, $$
+
+where $M_p$ is the [[Planck mass]].
+\end{conjecture}
+
+#### Magnetic weak gravity conjecture
+
+\begin{conjecture}
+Given a $U(1)$-[[gauge theory]] weakly coupled to [[gravity]] with [[gauge coupling]] $g$, The cutoff scale $\Lambda$ of the [[effective field theory]] is bounded from above by the [[gauge coupling]] as
+
+$$ \Lambda \leq g M_p^{(d-2)/2}, $$
+
+where $M_p$ is the [[Planck mass]] and $d$ is the [[dimension]].
+\end{conjecture}
+
+#### Convex hull weak gravity conjecture
+
+(...)
+
+#### Sublattice (or tower) weak gravity conjecture
+
+(...)
+
+### Swampland distance conjecture
+
+\begin{terminology}
+Consider the [[moduli space]] $\mathcal{M}$ of a theory coupled to [[gravity]], which is parametrized by the expectation values of some field $\phi^i$ that has no [[potential]]. Starting from any point $P \in \mathcal{M}$ there always exists another point $Q \in \mathcal{M}$ such that their [[geodesic distance]] $d(P,Q)$ is infinite. This is called *infinite field distance limit*.
+\end{terminology}
+
+\begin{example}
+The decompactification limit in compactified [[string theory]] is the standard example of infinite field distance limit.
+\end{example}
+
+\begin{conjecture}
+There exists an infinite tower of states with a mass scale $M$ that becomes exponentially light at any infinite field distance limit as
+
+$$ M(Q) \sim M(P)e^{-c d(P,Q)}, $$
+
+where $c$ is a positive constant.
+\end{conjecture}
+
+### Emergent string conjecture
+
+\begin{conjecture}
+Any infinite field distance limit is either 
+ \begin{itemize}
+ \item a decompactification limit, or
+ \item a limit in which a weakly coupled string becomes tensionless.
+ \end{itemize}
+\end{conjecture}
+
+This is a refinement of the *swampland distance conjecture* which explicits the nature of the tower of states.
+
+### AdS distance conjecture
+
+\begin{conjecture}
+Any [[AdS]] [[vacuum]] has an infinite tower of states that becomes light in the flat spacetime limit $\Lambda\rightarrow 0$, satisfying
+
+$$ m\sim|\Lambda|^c, $$
+
+where $c$ is a constant.
+\end{conjecture}
+
+### AdS instability conjecture
+
+\begin{conjecture}
+Any [[non-supersymmetric vacuum]] is at best metastable (and eventually has to decay).
+\end{conjecture}
+
+### dS conjecture
+
+\begin{conjecture}
+The scalar potential $V$ of an [[effective field theory]] weakly coupled to gravity must satisfy the following bound on its derivatives:
+
+$$ |\nabla V| \geq \frac{c}{M_p}V, $$
+
+where $c\sim\mathcal{O}(1)$ is positive.
+\end{conjecture}
+
+The dS conjecture was further refined as it follows.
+
+\begin{conjecture}
+The previous bound needs to be imposed only if the condition 
+$$ \mathrm{min}(\nabla_i\nabla_j V) \leq -\frac{c'}{M_p^2}V, $$
+for some $c'\sim\mathcal{O}(1)$, on the second derivative of the potential is violated.
+\end{conjecture}
+
+Thanks to this refinement, only proper dS minima are excluded and not general critical points.
+
+### Transplanckian censorship conjecture
+
+(...)
+
+### Asymptotic dS conjecture
+
+\begin{conjecture}
+The scalar potential $V$ of an [[effective field theory]] weakly coupled to [[gravity]] presents a runaway behavior when approaching an infinite field distance point, i.e.
+
+$$ |\nabla V| \geq c V, $$
+
+where $c\sim\mathcal{O}(1)$.
+\end{conjecture}
+
+This is an asymptotic version of the *dS conjecture*.
+
+### Swampland cobordism conjecture
+
+\begin{conjecture}
+For any [[quantum gravity]] theory compactified on a $d$-dimensional internal manifold, the $d$-th [[cobordism group]] must vanish, i.e.
+
+$$ \Omega^{\mathrm{QG}}_d = 0. $$
+\end{conjecture}
+
+
+
 ## References
 
 ### General
