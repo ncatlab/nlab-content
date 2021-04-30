@@ -20,7 +20,7 @@ A __binary operation__ on a [[set]] $S$ is a [[function]] $(-)\cdot (-) \colon S
 
 A magma is called
 
-* _[[unital magma|unital]]_ if it has a [[identity element|neutral element]] $1$, hence an element $1 \in S$ in that $1 \cdot x = x = x \cdot 1$  Some authors mean by 'magma' what we call a unital magma (cf. [[Borceux-Bourn]] Def. 1.2.1). 
+* _[[unital magma|unital]]_ if it has a [[identity element|neutral element]] $1$, hence an element $1 \in S$ in that $1 \cdot x = x = x \cdot 1$  Some authors mean by 'magma' what we call a unital magma (cf. [[Borceux-Bourn]] Def. 1.2.1). One can consider one-sided unital elements separately: $1_L \cdot x = x$ and/or $x = x \cdot 1_R$. Units may be far from unique.
 
 * _[[commutative magma|commutative]]_ if the binary operation takes the same value when its two arguments are interchanged: $x \cdot y = y \cdot x$;
 
