@@ -859,6 +859,10 @@ A generalization of [[Lie integration]] to conjectural Leibniz groups has been c
 * Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
 _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
 
+Integration from Lie algebroids to groupoids is also studied in the dual language and generality of integration of Lie-Reinhart algebras
+and commutative Hopf algebroids,
+
+* Alessandro Ardizzoni, Laiachi El Kaoutit, Paolo Saracco, _Towards differentiation and integration between Hopf algebroids and Lie algebroids_, [arXiv:1905.10288](https://arxiv.org/abs/1905.10288)
 
 [[!redirects Lie integrations]]
 
