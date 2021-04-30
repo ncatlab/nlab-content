@@ -147,10 +147,13 @@ as well as a more introductory text book
 
 * A. A. Ivanov, N. V. Khmylko, _Битопологические пространства_, 1997. Исследования по топологии. 9, Zap. Nauchn. Sem. POMI, 242, editor A. A. Ivanov ([Russian version](http://www.mathnet.ru/php/archive.phtml?jrnid=znsl&wshow=issue&bshow=contents&series=0&year=1997&volume=242&issue=&option_lang=rus&bookID=335)).
 
-The pointfree analogues are reviewed in
+Stone duality for bitopological spaces with applications to domain theory is studied in 
 
-\bibitem{Suarez}
-Anna Laura Suarez,
+* Achim Jung and M. Andrew Moshier: [On the bitopological nature of Stone duality](https://www.cs.bham.ac.uk/~axj/pub/papers/Jung-Moshier-2006-On-the-bitopological-nature-of-Stone-duality.pdf). Technical Report CSR-06-13. School of Computer Science, University of Birmingham, 2006.
+
+The pointfree analogues of bitopoligal spaces are reviewed in
+
+* Anna Laura Suarez,
 _The category of finitary biframes as the category of pointfree bispaces_,
 [arXiv:2010.04622](https://arxiv.org/abs/2010.04622).
 
