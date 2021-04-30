@@ -46,3 +46,7 @@ Ackermann groupoids were introduced in
 * Robert K. Meyer and Richard Routley, _Algebraic analysis of entailment I_, Logique et Analyse NOUVELLE SÉRIE, Vol. 15, No. 59/60 (1972) pp407-428, [JSTOR](https://www.jstor.org/stable/44083856)
 
 and named for [[Wilhelm Ackermann]].
+
+[[!redirects Ackermann groupoids]]
+[[!redirects Ackermann magma]]
+[[!redirects Ackermann magmas]]
