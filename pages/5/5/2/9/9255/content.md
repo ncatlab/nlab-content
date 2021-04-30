@@ -5,14 +5,13 @@
 
 ## Books
 
-* H.  Edelsbrunner and J.L Harer, _[[Computational Topology, An Introduction]]_, AMS, 2010. ([webpage](http://www.ams.org/bookstore-getitem/item=MBK-69))
+* {#EdelsbrunnerHarer10} [[Herbert Edelsbrunner]], [[John L. Harer]], *[[Computational Topology, An Introduction]]*, American Mathematical Society, 2010 ([ISBN:978-0-8218-4925-5](http://www.ams.org/bookstore-getitem/item=MBK-69), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf))
 
 * A. Zomorodian, _Topology for Computing_, Cambridge University Press, 2005, [publishers' webpage](http://www.cambridge.org/gb/knowledge/isbn/item1171674/?site_locale=en_GB)
 
 * Tomasz Kaczynski, Konstantin Mischaikow and Marian Mrozek, _Computational Homology_, Appl. Math. Sci. Vol. 157, Springer Verlag, NY 2004, [webpage](http://www.springer.com/mathematics/applications/book/978-0-387-40853-8)
 
-* Sergei Matveev, _Algorithmic Topology and Classification of 3-Manifolds_, Second Edition,
-Algorithms and Computations in mathematics, Volume 9, Springer Verlag, NY 2007, ISBN 978-3-540-45898-2
+* Sergei Matveev, _Algorithmic Topology and Classification of 3-Manifolds_, Second Edition, Algorithms and Computations in mathematics, Volume 9, Springer Verlag, NY 2007, ISBN 978-3-540-45898-2
 
 ## Websites
 
