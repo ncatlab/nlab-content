@@ -106,20 +106,20 @@ For example:
 
 \end{prop}
 
-([Diaconis & Shahshahani 81, Cor. 3](#DiaconisShahshahani81), [Rockmore, Kostelec, Hordijk & Stadler 02, Thm. 1.1](#RockmoreKostelecHordijkStadler02), [Foster-Greenwood & Kriloff 16, Thm. 4.3](#FosterGreenwoodKriloff16), see also [Liu & Zhou 18, Thm. 2.6](#LiuZhou18); in the special case that $G$ is an [[abelian group]] the result is due to [Lovász 1975](#Lovasz75); a comprehensive account is in [Kaski 02, Sec. 2 & 4, Cor. 5.4](#Kaski02)) 
+([Diaconis & Shahshahani 81, Cor. 3](#DiaconisShahshahani81), [Rockmore, Kostelec, Hordijk & Stadler 02, Thm. 1.1](#RockmoreKostelecHordijkStadler02), [Foster-Greenwood & Kriloff 16, Thm. 4.3](#FosterGreenwoodKriloff16), see also [Liu & Zhou 18, Thm. 2.6](#LiuZhou18); in the special case that $G$ is an [[abelian group]] the result is due to [Lovász 1975](#Lovasz75), [Babai 79, Cor. 3.2](#Babai79); a comprehensive account is in [Kaski 02, Sec. 2 & 4, Cor. 5.4](#Kaski02)) 
 
 
 ## References
 
 * {#Lovasz75} [[László Lovász]], *Spectra of graphs with transitive groups*, Period. Math. Hungar., 6(2):191–195, 1975 ([doi:10.1007/BF02018821](https://doi.org/10.1007/BF02018821), [pdf](https://web.cs.elte.hu/~lovasz/scans/spectra-of-graphs.pdf))
 
-* [[László Babai]], *Spectra of Cayley graphs*, Journal of Combinatorial Theory, Series B Volume 27, Issue 2, October 1979, Pages 180-189 (<a href="https://doi.org/10.1016/0095-8956(79)90079-0">doi:10.1016/0095-8956(79)90079-0</a>)
+* {#Babai79} [[László Babai]], *Spectra of Cayley graphs*, Journal of Combinatorial Theory, Series B Volume 27, Issue 2, October 1979, Pages 180-189 (<a href="https://doi.org/10.1016/0095-8956(79)90079-0">doi:10.1016/0095-8956(79)90079-0</a>)
 
 * {#DiaconisShahshahani81} [[Persi Diaconis]], [[Mehrdad Shahshahani]], *Generating a random permutation with random transpositions*, Z. Wahrscheinlichkeitstheorie verw. Gebiete 57, 159–179 (1981) ([doi:10.1007/BF00535487](https://doi.org/10.1007/BF00535487))
 
-* {#RockmoreKostelecHordijkStadler02} Dan Rockmore, Peter Kostelec, Wim Hordijk, Peter F. Stadler, *Fast Fourier Transform for Fitness Landscapes*, Applied and Computational Harmonic Analysis Volume 12, Issue 1, January 2002, Pages 57-76 ([doi:10.1006/acha.2001.0346](https://doi.org/10.1006/acha.2001.0346))
+* {#RockmoreKostelecHordijkStadler02} [[Dan Rockmore]], [[Peter Kostelec]], [[Wim Hordijk]], [[Peter F. Stadler]], *Fast Fourier Transform for Fitness Landscapes*, Applied and Computational Harmonic Analysis Volume 12, Issue 1, January 2002, Pages 57-76 ([doi:10.1006/acha.2001.0346](https://doi.org/10.1006/acha.2001.0346))
  
-* {#Kaski02} [[Petteri Kaski]], *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.pdf:file]])
+* {#Kaski02} [[Petteri Kaski]], *Eigenvectors and spectra of Cayley graphs*, Lecture at *[T-79.300 Postgraduate Course in Theoretical Computer Science](http://www.tcs.hut.fi/Studies/T-79.300/2002S/)*, Helsinki University of Technology, Spring 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.pdf:file]])
 
 * {#FosterGreenwoodKriloff16} [[Briana Foster-Greenwood]], [[Cathy Kriloff]], *Spectra of Cayley graphs of complex reflection groups*, J. Algebraic Combin., 44(1):33–57, 2016 ([arXiv:1502.07392](https://arxiv.org/abs/1502.07392), [doi:10.1007/s10801-015-0652-8](https://doi.org/10.1007/s10801-015-0652-8))
 
