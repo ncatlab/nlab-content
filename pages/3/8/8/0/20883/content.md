@@ -71,7 +71,7 @@ $$
 which respect the [[coalgebra]] [[mathematical structure|structure]] and satisfy
 
 $$
-  \psi^{q_2} \circ \psi^q_1
+  \psi^{q_2} \circ \psi^{q_1}
   \;=\;
   \psi^{q_1 \cdot q_2}
 $$
@@ -105,7 +105,7 @@ So consider
 
 * $\mathfrak{g}$ be a [[metric Lie algebra]], with metric denoted $k$, 
 
-* $(\mathfrak{g}\otimes C \overset{\rho}{\to} C) \in \mathfrak{g}Mod$ be a [[finite-dimensional vector space|finite-dimensional]] [[Lie algebra representation]] of $\mathfrag{g}$.
+* $(\mathfrak{g}\otimes C \overset{\rho}{\to} C) \in \mathfrak{g}Mod$ be a [[finite-dimensional vector space|finite-dimensional]] [[Lie algebra representation]] of $\mathfrak{g}$.
 
 For comparison with traditional literature, choose 
 
@@ -146,7 +146,7 @@ $$
 $$
 
 $$
-  \langle Z_i Z_j \rangle \;=\; k_{i k}
+  \langle Z_i Z_j \rangle \;=\; k_{i j}
 $$
 
 and such that [[Wick's theorem]] applies to higher [[moments]]:
