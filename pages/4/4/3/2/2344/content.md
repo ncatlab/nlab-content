@@ -314,7 +314,7 @@ If $C$ is an [[(∞,1)-category]], it has a [[homotopy category of an (∞,1)-ca
 
 Since categories are in particular $(\infty,1)$-categories, for any category $X$ we have a [[functor (∞,1)-category]] $C^X$, and thus a homotopy category $Ho(C^X)$.  We define the *homotopy prederivator* of $C$ by
 $$Ho(C)(X) = Ho(C^X).$$
-If $C$ has [[limit in an (∞,1)-category|limits]] and colimits in the $(\infty,1)$-categorical sense, then $Ho(C)$ should be a derivator.
+If $C$ has [[limit in an (∞,1)-category|limits]] and colimits in the $(\infty,1)$-categorical sense, then $Ho(C)$ should be a derivator.  A proof of this is sketched in [GPS, Example 2.5](#GPS14).
 
 
 ### Exotic examples
@@ -464,6 +464,8 @@ Other references include:
 * {#Coley20} Coley, Ian, _The theory of half derivators_, [arxiv:2010.12057](https://arxiv.org/abs/2010.12057), 2020
 
 * {#Richardson20} Richardson, James, _Enriched derivators_, [arXiv:2010.07740](https://arxiv.org/abs/2010.07740), 2020
+
+* {#GPS14} Moritz Groth, Kate Ponto, and [[Mike Shulman]], _Mayer-Vietoris sequences in stable derivators_. Homology, Homotopy and Applications 16 (1) 2014, [arxiv:1306.2072](http://arxiv.org/abs/1306.2072)
 
 [[!redirects derivators]]
 [[!redirects prederivator]]
