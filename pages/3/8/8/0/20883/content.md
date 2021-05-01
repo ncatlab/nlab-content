@@ -30,7 +30,7 @@ In [[knot theory]], a large class of [[weight systems]] arises from reading a ([
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-This does yield weight systems, because, using that [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]], the required [[STU-relations]] translate into the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and Lie action property); see [Roberts & Willerton 06, Theorem 3.1](#RobertsWillerton06), following [Vaintrob 94](#Vaintrob94), [Vogel 11](#Vogel11) following [Bar-Natan 95, 2.4](#BarNatan95), [Bar-Natan 96](#BarNatan96) following [Kontsevich 94](#Kontsevich94).
+This does yield [[weight systems]], because -- using that [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]] -- the required [[STU-relations]] translate into the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and [[Lie action property]]); see [Roberts & Willerton 06, Theorem 3.1](#RobertsWillerton06), following [Vaintrob 94](#Vaintrob94), [Vogel 11](#Vogel11) following [Bar-Natan 95, 2.4](#BarNatan95), [Bar-Natan 96](#BarNatan96) following [Kontsevich 94](#Kontsevich94).
 
 The [[weight systems]] arising this way are called _Lie algebra weight systems_.
 
