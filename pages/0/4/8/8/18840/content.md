@@ -217,6 +217,9 @@ Introductions to quantum probability theory
 
 Further discussion of quantum probability:
 
+* [[Dror Bar-Natan]], *Two examples in noncommutative probability*, Foundations of Physics, **19** (1989) 97–104  ([doi:10.1007/BF00737769](https://doi.org/10.1007/BF00737769))
+    
+
 * Nicolò Drago, [[Valter Moretti]], _The notion of observable and the moment problem for $\ast$-algebras and their GNS representations_ ([doi:1903.07496](https://arxiv.org/abs/1903.07496), [spire:1725528](http://inspirehep.net/record/1725528))
 
 [[!redirects quantum probability theories]]
