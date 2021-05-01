@@ -37,6 +37,26 @@ $$
 
 This identity is called the __[[Leibniz rule]]__; compare it to the product rule in ordinary calculus (first written down by [[Gottfried Leibniz]]). 
 
+#### In a division algebra
+
+For $A$ a [[division algebra]], with left division $\backslash$ and right division $/$ the derivation satisfies the left and right quotient identities for $f, g, h \in A$: 
+
+$$
+  D(f\backslash h) = f\backslash D(h) - f\backslash (D(f) (f\backslash h))
+  \,,
+$$
+
+and 
+
+$$
+  D(h/g) = D(h)/g - ((h/g) D(f))/g
+  \,,
+$$
+which reduces to the regular __[[quotient rule]]__ if the division algebra is associative and commutative: 
+
+$$
+  D\left(\frac{h}{g}\right) = \frac{D(h)}{g} - \frac{D(g) h}{g^2}
+$$
 
 ### Derivations with values in a bimodule
 
@@ -203,6 +223,8 @@ More discussion of this is at [[deformation theory]].
 *  In any of the above examples containing the adjective 'smooth', replace it with $C^k$ and augment $A$ by the inclusion of $C^k$ into $C^{k-1}$.  Then we have an augmented derivation.
 
 There should be some more clearly algebraic examples (other than obvious things like restricting the above to polynomials), but I don\'t know how to state them.
+
+* Let $A$ be any algebra over a ring. The constant function $D(a) = 0$ for all $a \in A$ is a derivation. 
 
 * Let $R[[x]]$ be a [[formal power series]] over a ring $R$. Then the [[formal derivative]] is a derivation. 
 
