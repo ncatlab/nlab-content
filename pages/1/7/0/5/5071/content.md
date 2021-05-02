@@ -31,6 +31,10 @@ A [[topological space]] $X$ is a **polyhedron** if it is [[homeomorphic]] to the
 
 * [[geometric realization]]
 
+* [[polygon]]
+
+  * [[pentagon]]
+
 ##References
 
 * [[Edwin Spanier]], _Algebraic Topology_ , McGraw-Hill, 1966.
