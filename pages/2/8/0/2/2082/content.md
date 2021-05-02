@@ -47,7 +47,10 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 ## References
 
-* [[Vladimir Drinfel'd|V. G. Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 986, Vol. 1, 798&#8211;820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
+* [[Vladimir Drinfel'd|V. G. Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 986, Vol. 1, 798&#8211;820, AMS 1987 ([djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf))
+
+* [[Christian Kassel]], _Quantum groups_, Graduate Texts in Mathematics __155__, Springer 1995 ([doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf))
+
 
 * [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
@@ -79,11 +82,20 @@ Springer 1995.
 
 * V. Chari, A. Pressley, _A guide to quantum groups_, Camb. Univ. Press 1994 
 
-* C. Kassel, _Quantum groups_, Graduate Texts in Mathematics __155__, Springer 1995 (also [errata](http://www-irma.u-strasbg.fr/~kassel/QGbk.html)
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 
-* Tom Bridgeland, _Quantum groups via Hall algebras of complexes_, Annals of Mathematics __177__:2 (2013) 739-759 (21 pages) 
+* [[Tom Bridgeland]], _Quantum groups via Hall algebras of complexes_, Annals of Mathematics __177__:2 (2013) 739-759 (21 pages) 
+
+
+
+In relation to [[hypergeometric functions]] and the [[Knizhnik-Zamolodchikov equation]]:
+
+* [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
+
+* V. Tarasov, [[Alexander Varchenko]], _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp. ([arXiv:q-alg/9703044](https://arxiv.org/abs/q-alg/9703044), [numdam:AST_1997__246__R1_0](http://www.numdam.org/item/AST_1997__246__R1_0))
+
+See also:
 
 * MathOverflow: [q.gr. as relative Drinfeld double](http://mathoverflow.net/questions/20683/quantum-group-as-relative-drinfeld-double), [why Drinfeld-Jimbo q.gr.](http://mathoverflow.net/questions/5538/why-drinfeld-jimbo-type-quantum-groups), [Lusztig perverse sheaves on quiver varieties](http://mathoverflow.net/questions/14361/what-do-the-local-systems-in-lusztigs-perverse-sheaves-on-quiver-varieties-look), [canonical bases for extended q.env.algebras](http://mathoverflow.net/questions/8110/canonical-basis-for-the-extended-quantum-enveloping-algebras), [groups-qgroups-and-... (on elliptic case)](http://mathoverflow.net/questions/58040/groups-quantum-groups-and-fill-in-the-blank), [all posts with quantum group tag](http://mathoverflow.net/questions/tagged/quantum-group)
 
