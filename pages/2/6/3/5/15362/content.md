@@ -2,9 +2,16 @@
 
 * [[mixed complex]], [[cyclic homology]]
 
-###Publications etc.
+## Selected writings
 
-* Christian Kassel, _Cyclic homology, comodules and mixed complexes_, J. Alg. 107 (1987), 195&#8211;216.
+On [[cyclic homology]]:
+
+* [[Christian Kassel]], _Cyclic homology, comodules and mixed complexes_, J. Alg. 107 (1987), 195&#8211;216 (<a href="https://doi.org/10.1016/0021-8693(87)90086-X">doi:10.1016/0021-8693(87)90086-X</a>)
+
+On [[quantum groups]]:
+
+* [[Christian Kassel]], _Quantum groups_, Graduate Texts in Mathematics __155__, Springer 1995 ([doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf))
+
 
 
 category:people
