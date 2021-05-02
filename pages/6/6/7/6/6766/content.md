@@ -73,7 +73,7 @@ The generalization to higher [[genus]] surfaces is due to
 
 * D. Bernard, _On the Wess-Zumino-Witten models on Riemann surfaces, Nucl. Phys. B 309 145-174 (1988)
 
-Finally the interpreation of this connection in terms of the [[geometric quantization]] of [[Chern-Simons theory]] is due to the discussion on p. 20 of
+Finally the interpretation of this connection in terms of the [[geometric quantization]] of [[Chern-Simons theory]] is due to the discussion on p. 20 of
 
 * {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([euclid.cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138))
  
@@ -85,6 +85,15 @@ A quick review of the Knizhnik-Zamolodchikov equation in the context of an intro
 A review of the definition of the Knizhnik-Zamolodchikov connection on the moduli space of [[genus]]-0 surfaces with $n$ marked points is in section 2 of
 
 * Shu Oi, Kimio Ueno, _Connection Problem of Knizhnik-Zamolodchikov Equation on Moduli Space $\mathcal{M}_{0,5}$_ ([arXiv:1109.0715](http://arxiv.org/abs/1109.0715))
+
+
+
+In relation to [[hypergeometric functions]] and [[quantum groups]]:
+
+* [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
+
+* V. Tarasov, [[Alexander Varchenko]], _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp. ([arXiv:q-alg/9703044](https://arxiv.org/abs/q-alg/9703044), [numdam:AST_1997__246__R1_0](http://www.numdam.org/item/AST_1997__246__R1_0))
+
 
 See also
 
