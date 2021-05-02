@@ -352,7 +352,7 @@ Given a Lie groupoid $G_1\Rightarrow G_0$, we take the vector bundle $ker Ts|_{G
 
 Lie differentiation of [[Lie n-groupoids]] was first considered in generality in 
 
-* [[Pavol ?evera]], _$L_\infty$ algebras as 1-jets of simplicial manifolds (and a bit beyond)_ ([arXiv:0612349](http://arxiv.org/abs/math/0612349))
+* [[Pavol Ševera]], _$L_\infty$ algebras as 1-jets of simplicial manifolds (and a bit beyond)_ ([arXiv:0612349](http://arxiv.org/abs/math/0612349))
 
 See also theorem 8.28 of
 
