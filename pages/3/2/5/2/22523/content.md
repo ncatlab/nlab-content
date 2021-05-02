@@ -34,11 +34,15 @@ Concretely, the the HaPPY [[code subspace]] is the [[image]] of the [[linear map
 
    1. assigning $T$ to each [[vertex]] at the center of the [[pentagons]] (show in blue), with 5 of its indices contracted with its neighbours in the hyperbolic plane,
 
-  1 and its 6th uncontracted index remaining as an input (shown in red);
+   1. and its 6th uncontracted index remaining as an input (shown in red);
 
    1. regading the uncontrated edges at the cutoff boundary as output (shown in white)
 
 and thus as a [[linear map]] form the [[tensor product]] over the [[bulk]]-[[vertices]] to the [[tensor product]] over the edges sticking out over the boundary.
+
+## Related concepts
+
+* [[Majorana dimer code]]
 
 ## References
 
@@ -54,4 +58,12 @@ following a precursor observation in
 Review in:
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
+
+See also:
+
+* Elliott Gesteau, Monica Jinwoo Kang, *The infinite-dimensional HaPPY code: entanglement wedge reconstruction and dynamics* ([arXiv:2005.05971](https://arxiv.org/abs/2005.05971))
+
+
+[[!redirects HaPPY codes]]
+
 
