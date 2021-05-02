@@ -57,7 +57,7 @@ $$
 
 which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in that $\langle 1\rangle = 1$.   Under suitable conditions a [[Hilbert space|Hilbert]] [[space of states]] may be (re-)constructed from this *a posteriori* via the _[[GNS construction]]_. 
 
-Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)), but the definition makes sense generally for plain [[star-algebras]], such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann 96, def. 1](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
+Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)), but the definition makes sense generally for plain [[star-algebras]] ([Meyer 95, I.1.1](#Meyer95)), such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann 96, def. 1](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
 
 The perspective that states are normalized positive linear functionals on the algebra of observables is implicit in traditional [[perturbative quantum field theory]], where it is encoded in the [[2-point function]] corresponding to a [[vacuum state]] or more generally a [[quasi-free quantum state]] (the _[[Hadamard propagator]]_).  The perspective is made explicit in [[algebraic quantum field theory]] (see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)) and for [[star-algebras]] of observables that are not necessarily [[C*-algebras]] in [[perturbative algebraic quantum field theory]] (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
 
@@ -285,6 +285,9 @@ More general states in this case are given by [[density matrices]].
 ## References 
 
 ### Exposition
+
+* {#Meyer95} [[Paul-André Meyer]], Section I.1.1 in: *Quantum Probability for Probabilists*,  Lecture Notes in Mathematics **1538**, Springer 1995 ([doi:10.1007/BFb0084701](https://link.springer.com/book/10.1007/BFb0084701))
+
 
 * {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
 
