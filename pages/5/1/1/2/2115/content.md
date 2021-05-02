@@ -2,13 +2,12 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
-
 
 
 
