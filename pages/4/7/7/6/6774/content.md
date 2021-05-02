@@ -5,9 +5,11 @@ __Alexander Varchenko__ is a mathematician at the University of North Carolina a
 
 ## Selected writings
 
-* _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp.
+On [[hypergeometric functions]], the [[Knizhnik-Zamolodchikov equation]] and [[quantum groups]]:
 
-* V. Tarasov, A. Varchenko, _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups, Ast&#233;risque __246__ (1997), vi+135 pp.
+* [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
+
+* V. Tarasov, [[Alexander Varchenko]], _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp. ([arXiv:q-alg/9703044](https://arxiv.org/abs/q-alg/9703044), [numdam:AST_1997__246__R1_0](http://www.numdam.org/item/AST_1997__246__R1_0))
 
 
 On [[Lie algebra weight systems]] for the [[special linear Lie algebra]] $\mathfrak{sl}(2)$:
@@ -18,6 +20,16 @@ On [[Lie algebra weight systems]] for the [[special linear Lie algebra]] $\mathf
 
 ## Related $n$Lab entries
 
- [[hypergeometric function]], [[quantum group]], [[conformal field theory]], [[representation theory]], Kac-Moody Lie algebra, singularity theory
+* [[hypergeometric function]]
+
+* [[quantum group]],
+
+* [[conformal field theory]]
+
+* [[representation theory]]
+
+* [[Kac-Moody Lie algebra]] 
+
+* [[singularity theory]]
 
 [[!redirects A. Varchenko]]
