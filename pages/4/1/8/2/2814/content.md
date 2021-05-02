@@ -78,7 +78,6 @@ satisfying the following conditions:
          &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
        F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
      }
-     \,,
    $$
 
    where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
@@ -118,7 +117,6 @@ satisfying the following conditions:
          &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
        F(x \otimes_{\mathcal{C}} 1  )
      }
-     \,,
    $$
 
    where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
