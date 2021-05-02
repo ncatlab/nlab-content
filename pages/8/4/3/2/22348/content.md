@@ -538,6 +538,18 @@ in classification theory.
 holds in the category of situses. It seems the standard proof would go through if one defines the corresponding lifting properties carefully enough. In particular, to reflect the use of Ramsey theorem, 
 it may be necessary to replace $|M|_\bullet$
 by the simplicial set of types $S^M_\bullet$ where $S^M(n)$ is the set of $n$-types, and also do the same for $T^\leq_\bullet$ and $|T|^{TP}_\bullet$ for quantifier-free types in an appropriate language.  
+
+In fact, it would seem that the standard proof of $NTP=NTP_1\&NTP_2$
+gives that $T^\leq_\bullet\to |T|_\bullet^{TP}$ is
+the pushout of $T^\leq_\bullet\to |T|_\bullet^{TP_1}$ 
+and $T^\leq_\bullet\to |T|_\bullet^{TP_2}$,
+just as diagram chasing considerations show would
+be sufficient for the corresponding relation between the lifting properties.
+Though, possibly one needs to modify 
+the definitions of the filters appropriately modified 
+to reflect the need to use Ramsey theorem and 
+consider the tree properties with respect all the finite conjunctions
+$\&_i\phi(x,y_i)$ of $\phi(x,y)$ at the same time. 
 \end{remark}
 
 
