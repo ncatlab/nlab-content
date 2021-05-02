@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[coherence]] [[identity]] satisfied by an [[associator]] in a [[monoidal category]] or more generally in a [[bicategory]], [[(2,1)-category]] etc, asserting that the following diagram commutes, where 
+The *pentagon identity* is the [[coherence]] [[identity]] satisfied by an [[associator]] in a [[monoidal category]] or more generally in a [[bicategory]], [[(2,1)-category]] etc, asserting that the following [[pentagon|pentagonal]] [[commuting diagram|diagram commutes]], where 
 
 $$
   a_{x,y,z}
