@@ -10,7 +10,12 @@
 
 *Quantum error corection* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]].
 
-Typically, for $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a $n$-fold [[tensor product]] (typically of copies of itself), for some [[natural number]] $n \in \mathbb{N}$:
+From [Ferris & Poulin 2013](#FerrisPoulin13):
+
+> The basic principle of quantum error correction (QEC)is to encode information into the long-range correlations of  [[quantum entanglement|entangled]] quantum many-body  states in  such  a  way that it  cannot be accessed locally. When a local error affects the system, it leaves a detectable imprint—called the error syndrome. The decoding problem consists  in inferring the recovery with greatest probability of success given the error syndrome.  In general, this is a hard problem, but for well-chosen codes, it can be solved efficiently either exactly or heuristically.
+
+
+In simple examples (see [below](#A3FoldqtritCode)), for $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a $n$-fold [[tensor product]] (typically of copies of itself), for some [[natural number]] $n \in \mathbb{N}$:
 
 $$
   \array{
@@ -197,13 +202,20 @@ In the context of [[quantum secret sharing]]:
 
 * {#CleveGottesmanLo99} Richard Cleve, Daniel Gottesman, Hoi-Kwong Lo, *How to share a quantum secret*, Phys. Rev. Lett. 83 (1999) 648-651 ([arXiv:quant-ph/9901025](https://arxiv.org/abs/quant-ph/9901025))
 
-### Operator algebraic Heisenberg picture
 
 [[operator algebra|Operator algebraic]] formulation of quantum error correction in the [[Heisenberg picture]]:
 
 * {#BenyKempfKribs06} Cédric Bény, Achim Kempf, David W. Kribs, _Generalization of Quantum Error Correction via the Heisenberg Picture_, Phys. Rev. Lett. 98, 100502 – Published 7 March 2007 ([doi:10.1103/PhysRevLett.98.100502](https://doi.org/10.1103/PhysRevLett.98.100502), [arXiv:quant-ph/0608071](https://arxiv.org/abs/quant-ph/0608071))
 
 * Cédric Bény, Achim Kempf, David W. Kribs, _Quantum Error Correction of Observables_, Phys. Rev. A 76, 042303 (2007) ([arXiv:0705.1574](https://arxiv.org/abs/0705.1574))
+
+
+### Via tensor networks
+
+On quantum error correction in terms of [[tensor networks]]:
+
+* {#FerrisPoulin13} Andrew J. Ferris, David Poulin, *Tensor Networks and Quantum Error Correction*, Phys. Rev. Lett. 113, 030501 (2014) ([arXiv:1312.4578](https://arxiv.org/abs/1312.4578))
+
 
 ### Via holographic tensor networks
 
