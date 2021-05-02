@@ -110,13 +110,13 @@ Application to [[holographic entanglement entropy]] (...)
 <img src="https://ncatlab.org/nlab/files/BlackHoleTensorNetwork.jpg" width="500"></a>
 </center>
 
-> graphics grabbed from [Harlow 18](#Harlow18)
+> graphics grabbed from [Harlow 18](#Harlow18), see at *[[HaPPY code]]*
 
 <center>
 <img src="https://ncatlab.org/nlab/files/AdSRindlerTensorNetwork.jpg" width="500"></a>
 </center>
 
-> graphics grabbed from [Harlow 18](#Harlow18)
+> graphics grabbed from [Harlow 18](#Harlow18), see at *[[HaPPY code]]*
 
 In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]] has an exact proof [PYHP 15, Theorem 2](#PYHP15).
 
@@ -257,11 +257,11 @@ Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CF
 
 See also
 
-* Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+* [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
 
   ([[quasicrystal]] boundary states)
 
-* Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
+* [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
 
 
 
@@ -282,11 +282,11 @@ reviewed in
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
-* Alexander Jahn, [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
+* [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
 
 See also
 
-* Alexander Jahn, Marek Gluza, Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
+* [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
 
 
@@ -300,7 +300,7 @@ See also
 
 * Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
 
-* {#JGPE19} Alexander Jahn, Marek Gluza, Fernando Pastawski, Jens Eisert, _Majorana dimers and holographic quantum error-correcting codes_ ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268)) 
+* {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_ ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268)) 
 
 ### Relation to spin chains
 
