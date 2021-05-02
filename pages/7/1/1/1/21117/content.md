@@ -8,11 +8,176 @@
 
 ## Idea
 
-(...)
+*Quantum error corection* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]].
+
+Typically, for $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a $n$-fold [[tensor product]] (typically of copies of itself), for some [[natural number]] $n \in \mathbb{N}$:
+
+$$
+  \array{
+    \mathcal{H}
+    & 
+      \overset{\;\;\;code\;\;\;}{
+        \hookrightarrow
+      }
+    &
+    \mathcal{H}^{(1)} 
+      \otimes 
+    \mathcal{H}^{(2)}
+      \otimes
+        \cdots
+      \otimes
+    \mathcal{H}^{(n)}  
+  }
+  \,,
+$$
+
+such that the information in $code(\psi)$ in some of the tensor factors $\mathcal{H}^{(i)}$ can be lost without obstructing the reconstruction of $\psi$.
+
+Often one demands additional properties, such as that a given set of [[linear operators]] $O$ ([[quantum observables]]) acting on $\psi \in \mathcal{H}$ are implemented on $code(\psi)$ by combionations of operators that act non-trivially only on some of the tensor factors (and hence are unaffected by errors in the remaining factors).
+
+## Example
+
+### A qtrit error correcting code
+ {#A3FoldqtritCode}
+
+Simple example from [Cleve, Gottesman & Lo 99, p. 1-2](#CleveGottesmanLo99):
+
+Consider a [[quantum system]] with a 3-dimensional [[space of quantum states]]:
+
+$$
+  \mathcal{H} 
+    \;\coloneqq\; 
+  \mathbb{C}^3 
+    \;=\; 
+  Span\big( 
+    \left\vert 0 \right\rangle,\,
+    \left\vert 1 \right\rangle,\,
+    \left\vert 2 \right\rangle
+  \big)
+$$
+
+and consider a code space inside 3 copies of this space given by the following [[linear map]]
+
+$$
+  \array{
+    \mathcal{H}
+    &
+    \overset{
+      \phantom{AAAA}
+      code
+      \phantom{AAAA}
+    }{\longrightarrow}&
+    \mathcal{H}^{\otimes 3}
+    \\
+    \array{
+      & \alpha \left\vert 0 \right\rangle
+      \\
+      + & \beta \left\vert 1 \right\rangle
+      \\
+      + & \gamma \left\vert 2 \right\rangle
+    }
+    &
+      \mapsto
+    &
+    \array{
+      & \alpha 
+        \tfrac{1}{\sqrt{3}}
+        \big( 
+          \left\vert 000 \right\rangle 
+          +
+          \left\vert 111 \right\rangle 
+          +
+          \left\vert 222 \right\rangle 
+        \big)
+      \\
+      + & \beta
+        \tfrac{1}{\sqrt{3}}
+        \big( 
+          \left\vert 012 \right\rangle 
+          +
+          \left\vert 120 \right\rangle 
+          +
+          \left\vert 201 \right\rangle 
+        \big)
+      \\
+      + & \gamma 
+        \tfrac{1}{\sqrt{3}}
+        \big( 
+          \left\vert 021 \right\rangle 
+          +
+          \left\vert 102 \right\rangle 
+          +
+          \left\vert 210 \right\rangle 
+        \big)
+    }
+  }
+$$
+
+This code corrects errors consisting of the loss of one of the three copies, in the following sense:
+
+There is a [[linear operator]] acting only on two of the three copies, explicitly given ([ADH 14 (3.6)](#ADH14)) by
+
+$$
+  \array{
+    \mathcal{H} \otimes \mathcal{H}
+    &
+    \overset{
+      \;\;\;\;\;\;
+      U^{(12)}
+      \;\;\;\;\;\;
+    }{\longrightarrow}
+    &
+    \mathcal{H} \otimes \mathcal{H}
+    \\
+    \left\vert 00 \right\rangle &\mapsto& \left\vert 00 \right\rangle
+    \\
+    \left\vert 01 \right\rangle &\mapsto& \left\vert 12 \right\rangle
+    \\
+    \left\vert 02 \right\rangle &\mapsto& \left\vert 21 \right\rangle
+    \\
+    \left\vert 10 \right\rangle &\mapsto& \left\vert 22 \right\rangle
+    \\
+    \left\vert 11 \right\rangle &\mapsto& \left\vert 01 \right\rangle
+    \\
+    \left\vert 12 \right\rangle &\mapsto& \left\vert 10 \right\rangle
+    \\
+    \left\vert 20 \right\rangle &\mapsto& \left\vert 11 \right\rangle
+    \\
+    \left\vert 21 \right\rangle &\mapsto& \left\vert 20 \right\rangle
+    \\
+    \left\vert 22 \right\rangle &\mapsto& \left\vert 02 \right\rangle
+  }
+$$
+
+such that
+
+$$
+  \big( U^{(12)} \otimes id^{(3)} \big)
+  \circ
+  code
+  \big(
+    \left\vert \psi \right\rangle
+  \big)
+  \;\; = \;\;
+  \left\vert \psi \right\rangle
+  \,
+  \otimes  
+  \,
+  \tfrac{1}{\sqrt{3}}
+  \left(
+    \left\vert 00 \right\rangle
+    +
+    \left\vert 11 \right\rangle
+    +
+    \left\vert 22 \right\rangle
+  \right)
+$$
 
 ## Related concepts
 
 * [[quantum computing]], [[topological quantum computing]]
+
+* [[quantum secret sharing]]
 
 * [[tensor network]]
 
@@ -28,6 +193,9 @@ See also
 
 * Wikipedia, _[Quantum error correction](https://en.m.wikipedia.org/wiki/Quantum_error_correction)_
 
+In the context of [[quantum secret sharing]]:
+
+* {#CleveGottesmanLo99} Richard Cleve, Daniel Gottesman, Hoi-Kwong Lo, *How to share a quantum secret*, Phys. Rev. Lett. 83 (1999) 648-651 ([arXiv:quant-ph/9901025](https://arxiv.org/abs/quant-ph/9901025))
 
 ### Operator algebraic Heisenberg picture
 
