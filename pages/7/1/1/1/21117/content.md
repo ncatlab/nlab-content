@@ -42,10 +42,10 @@ Often one demands additional properties, such as that a given set of [[linear op
 
 ## Example
 
-### A qtrit error correcting code
+### A 3-qtrit code
  {#A3FoldqtritCode}
 
-Simple example from [Cleve, Gottesman & Lo 99, p. 1-2](#CleveGottesmanLo99):
+The following is a simple illustrative example from [Cleve, Gottesman & Lo 99, p. 1-2](#CleveGottesmanLo99):
 
 Consider a [[quantum system]] with a 3-dimensional [[space of quantum states]]:
 
@@ -178,6 +178,47 @@ $$
   \right)
 $$
 
+### The HaPPY code
+
+
+The [[HaPPY code]] is a [[quantum error correction code]] (a class of such codes really, indexed by a "cutoff" [[natural number]]) which is thought to exhibit characteristic properties akin to the encoding of [[bulk]]-[[quantum states]] by [[boundary field theory|boundary]]-states expected in the [[AdS/CFT correspondence]]. In particular, the HaPPY code (or rather the [[tensor network]] that defines it) exhibits a discretized form of the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]].
+
+Concretely, the the HaPPY [[code subspace]] is the [[image]] of the [[linear map]] formed by:
+
+
+\begin{imagefromfile}
+    "file_name": "HaPPYCodeTesselation.jpg",
+    "float": "right",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Harlow 18](#Harlow18)"
+\end{imagefromfile}
+
+1. picking a [[perfect tensor]] $T$ of [[rank]] 6;
+
+1. picking a finite cutoff of the [[pentagon|pentagonal]] [[tesselation]] of the [[hyperbolic plane]];
+
+1. regarding its [[Poincaré duality|Poincaré dual]] [[graph]] as a [[tensor network]] ([[string diagram]] in [[finite-dimensional vector spaces]]) by 
+
+   1. assigning $T$ to each [[vertex]] at the center of the [[pentagons]] (show in blue), with 5 of its indices contracted with its neighbours in the hyperbolic plane,
+
+  1 and its 6th uncontracted index remaining as an input (shown in red);
+
+   1. regading the uncontrated edges at the cutoff boundary as output (shown in white)
+
+and thus as a [[linear map]] form the [[tensor product]] over the [[bulk]]-[[vertices]] to the [[tensor product]] over the edges sticking out over the boundary.
+
+### Majorana dimer codes
+
+See at *[[Majorana dimer code]]*.
+
+
 ## Related concepts
 
 * [[quantum computing]], [[topological quantum computing]]
@@ -244,4 +285,7 @@ See also
 
 [[!redirects quantum error correcting code]]
 [[!redirects quantum error correcting codes]]
+
+[[!redirects code subspace]]
+[[!redirects code subspaces]]
 
