@@ -158,10 +158,15 @@ $$
 Foundational articles:
 
 * [[A. Connes]], _Noncommutative differential geometry, Part I, the Chern character in $K$-homology_, Preprint, Inst. Hautes &#201;tudes Sci., Bures-sur-Yvette, 1982; _Part II, de Rham homology and noncommutative algebra_, Preprint, IH&#201;S 1983; _Cohomologie cyclique et foncteurs $Ext^n$_, C. R. Acad. Sci. Paris __296__, (1983), pp. 953&#8211;958, [MR86d:18007](http://www.ams.org/mathscinet-getitem?mr=777584)
+
 * [[A. Connes]], _Cohomologie cyclique et foncteur $Ext^n$_, Comptes Rendues Ac. Sci. Paris S&#233;r. A-B, 296 (1983), 953-958.
+
 * [[B. L. Tsygan]], _The homology of matrix Lie algebras over rings and the Hochschild homology_, Uspekhi Mat. Nauk, 38:2(230) (1983), 217&#8211;218.
+
 * [[Jean-Louis Loday]], [[Daniel Quillen]], _Cyclic homology and the Lie algebra homology of matrices_, Comment. Math. Helvetici 59 (1984) 565-591.
-* [[Christian Kassel]], _Cyclic homology, comodules and mixed complexes_, J. Alg. 107 (1987), 195&#8211;216.
+
+* [[Christian Kassel]], _Cyclic homology, comodules and mixed complexes_, J. Alg. 107 (1987), 195&#8211;216 (<a href="https://doi.org/10.1016/0021-8693(87)90086-X">doi:10.1016/0021-8693(87)90086-X</a>)
+
 
 Monographs:
 
