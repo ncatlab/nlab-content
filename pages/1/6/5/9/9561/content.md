@@ -15,7 +15,42 @@
 
 ## Idea
 
-On a [[complex]] [[vector space]] a _sesquilinear map_ is a [[function]] of two arguments which is a [[linear function]] in one argument and complex anti-linear in the other.
+On a [[complex]] [[vector space]] $V$ a _sesquilinear map_ is a [[function]] of two arguments 
+
+$$
+  \langle -,-\rangle
+  \;\colon\; 
+  V \times V
+  \longrightarrow
+  \mathbb{C}
+$$
+
+which is a [[linear function]] in one argument (say the second) and complex anti-linear in the other.
+
+\begin{defn}\label{Definity}
+
+A sesquilinear form $\langle -,-\rangle$ is called
+
+$$
+  \left.
+  \array{
+    \text{positive definite} &if& \langle v^\ast,v \rangle \gt 0
+    \\
+    \text{negative definite} &if& \langle v^\ast,v \rangle \lt 0
+    \\
+    \text{positive semi-definite} &if& \langle v^\ast,v \rangle \geq 0
+    \\
+    \text{negative semi-definite} &if& \langle v^\ast,v \rangle \leq 0
+  }
+  \right\rbrace
+  \;\;
+  \text{for all}\; v \neq 0
+  \,.
+$$
+
+Finally, it is called *indefinite* if it is neither positive nor negative semi-definite.
+\end{defn}
+
 
 More generally:
 
@@ -35,6 +70,7 @@ $$
 
 of the $A$-linear dual $V^\ast$ of $V$ with itself. 
 
+
 ## Related concepts
 
 * [[bilinear form]], [[quadratic form]]
@@ -44,7 +80,9 @@ of the $A$-linear dual $V^\ast$ of $V$ with itself.
 
 ## References
 
-* [[Brian Osserman]], _A primer on sesquilinear forms_ ([pdf](https://www.math.ucdavis.edu/~osserman/classes/150B-W13/sesquilinear.pdf))
+See also:
+
+* [[Brian Osserman]], _A primer on sesquilinear forms_ ([[OssermanSesquilinearForms.pdf:file]])
 
 * Wikipedia, _[Sesquilinear form](https://en.wikipedia.org/wiki/Sesquilinear_form)_
 
