@@ -19,12 +19,21 @@
 
 ## Idea
 
-The term *holographic entanglement entropy* refers to expressions of [[entanglement entropy]] of [[quantum field theories]] expressed "holographically", via a version of [[AdS-CFT duality]], in terms of the [[geometry]] of a higher-dimensional [[bulk]] [[spacetime]].
+The term *holographic entanglement entropy* refers to expressions of [[entanglement entropy]] of [[quantum field theories]] via a version of [[AdS-CFT duality]] ("holography"), in terms of the [[geometry]] of a higher-dimensional [[bulk]] [[spacetime]].
 
-The essential idea is that the [[entanglement entropy]] of a region $U$ in the domain of a [[boundary field theory]] is proportional to the [[volume]] ([[length]], [[area]], ...) of the [[hypersurface]] $\Sigma$ in the [[bulk]] [[spacetime]] which shares the same [[boundary]] $\partial U = \partial \Sigma$ and which has minimal volume with this property.
+The essential idea is that the [[entanglement entropy]] of a region $U$ in the domain of a [[boundary field theory]] should be proportional to the [[volume]] ([[length]], [[area]], ...) of the [[hypersurface]] $\Sigma$ in the [[bulk]] [[spacetime]] which shares the same [[boundary]] $\partial U = \partial \Sigma$ and which has minimal volume with this property.
 A more precise version of this idea is given by the *Ryu-Takayanagi formula*, see [below](#RyuTakayanagiFormula). 
 
-While in the original context of the [[AdS-CFT correspondence]] this formula remains ill-defined, or at least intractable in detail (not the least because it is, ultimately, a statement about [[non-perturbative quantum field theory|non-perturbative]] [[string theory]], hence about [[M-theory]], which remains elusive), the general idea led to the discovery of fully well-defined discretized ("toy") models  of holography in terms of [[tensor networks]] that express ([[code subspaces]]) of [[quantum error correcting codes]] (such as the [[HaPPY code]] and [[Majorana dimer codes]]). In these holographic [[tensor network]] models the behaviour of holographic entanglement entropy and of several other aspects of [[holography]] turn out to have a faithful representation (up to lattice effects caused by the discretization).
+This kind of relation between [[entropy]] of [[quantum systems]] and [[area]]/[[volumes]] of critical surfaces in a [[curved spacetime]] is akin to the [[Bekenstein-Hawking entropy]]-formula for [[black holes]], and indeed it is meant to *subsume* the [[black hole entropy]]-formua for black holes in [[anti de Sitter spacetimes]].
+
+While in the original context of the [[AdS-CFT correspondence]] the Ryu-Takayanagi formula remains ill-defined, or at least intractable in detail (not the least because it is, ultimately, a statement about [[non-perturbative quantum field theory|non-perturbative]] [[string theory]], hence about [[M-theory]], which remains elusive), its general idea led to the discovery of fully well-defined discretized ("toy") models  of holography in terms of [[tensor networks]] that express ([[code subspaces]]) of [[quantum error correcting codes]] (such as the [[HaPPY code]] and [[Majorana dimer codes]]). In these holographic [[tensor network]] models the behaviour of holographic entanglement entropy, and of several other expected aspects of [[holography]], turn out to have a faithful reflection (up to lattice effects caused by the discretization) amenable to explicit analysis, by tools 
+
+1. from [[quantum information theory]],
+
+1. from [[condensed matter physics]] (see also at *[[AdS/CMT]]*).
+
+The power of these [[quantum information theory]]-methods in making precise and detailed sense of [[quantum gravity]] in a [[holographic]] [[bulk]] [[spacetime]] has re-informed the earlier idea in [[AdS/CFT]] that notions of [[spacetime]] and of [[quantum gravity]] may be defined and in fact *emerge* from [[quantum entanglement]], an idea that has become known under the slogan "[It from Qbit](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)". Just to keep in mind that, a priori, this applies "only" to the *extra* (higher) [[bulk]] [[dimension|dimensions]] of [[spacetime]], while the definition of the [[boundary field theory]] typically relies on some notion space(-time) already (maybe unless one considers bulk duals of [[D(-1)-branes]]...).
+
 
 
 ### Ryu-Takayanagi formula
@@ -118,13 +127,12 @@ Review:
 
 * [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([arXiv:0808.3773](https://arxiv.org/abs/0808.3773))
 
-
 * {#NishiokaRyuTakayanagi09} Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Entanglement Entropy: An Overview_, J.Phys.A42:504008,2009 ([arXiv:0905.0932](https://arxiv.org/abs/0905.0932))
 
 * Matthew Headrick, _Lectures on entanglement entropy in field theory and holography_ ([arXiv:1907.08126](https://arxiv.org/abs/1907.08126))
 
 
-Survey talks include
+Survey talks:
 
 * [[Robert Myers]], _Holographic entanglement entropy_,  ([pdf slides](http://www.lpt.ens.fr/IMG/pdf/Myers.pdf))
 
@@ -189,7 +197,7 @@ See also
 
 * {#HMPSR19}  Felix M. Haehl, Eric Mintun, Jason Pollack, Antony J. Speranza, [[Mark Van Raamsdonk]], _Nonlocal multi-trace sources and bulk entanglement in holographic conformal field theories_, J. High Energ. Phys. (2019) 2019: 005 ([arxiv:1904.01584](https://arxiv.org/abs/1904.01584), [talk recording](https://youtu.be/kRCwzyliJ1M))
 
-* {#Yan19} Han Yan, _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
+* {#Yan19} [[Han Yan]], _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
 
 
 Further development of these tensor networks in 
@@ -206,6 +214,7 @@ Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[hol
 Discussion in terms of [[DHR superselection theory]]:
 
 * {#CHMP19} Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
+
 
 
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
