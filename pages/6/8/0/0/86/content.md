@@ -683,7 +683,11 @@ A systematic account of the classical master equation is also in
 * [[David Kazhdan]], _The classical master equation in the finite-dimensional case_ ([pdf](http://math.berkeley.edu/~theojf/KazhdanNotes.pdf))
 
 * {#FelderKazhdan} [[Giovanni Felder]], [[David Kazhdan]], _The classical master equation_ ([arXiv:1212.1631](http://arxiv.org/abs/1212.1631)) 
- 
+
+Generalization from [[Lie algebra]]-actions to actual [[algebraic group]]-actions:
+
+* [[Marco Benini]], [[Pavel Safronov]], [[Alexander Schenkel]], *Classical BV formalism for group actions* ([arXiv:2104.14886](https://arxiv.org/abs/2104.14886))
+
 
 
 Other discussions include
