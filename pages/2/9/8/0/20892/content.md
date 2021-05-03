@@ -6,16 +6,13 @@ We discuss occurrences of [[weight systems]] on [[chord diagrams]]/[[Jacobi diag
 
 1. [In Chern-Simons theory](#ReferencesWeightSystemsInChernSimonsTheory)
 
-1. [For single trace operators in AdS/CFT-duality](#ForSingleTraceOperatorsInAdSCFTDuality)
+1. [In Dp-D(p+2) brane intersections](#ReferencesWeightSystemsInDpDp2BraneIntersections)
+
+1. In [[AdS-CFT in condensed matter physics|quantum many body models]] for [[AdS-CFT correspondence|for holographic]] [[brane]]/[[bulk]] correspondence:
 
    1. [In AdS2/CFT1, JT-gravity/SYK-model](#ReferencesWeightSystemsInSYKModel)
 
-
-   1. [In Dp-D(p+2) brane intersections](#ReferencesWeightSystemsInDpDp2BraneIntersections)
-
-Also
-
-* [As codes for holographic entanglement entropy](#ForHolographicEntanglementEntropy)
+   1. [As dimer/bit thread codes for holographic entanglement entropy](#ForHolographicEntanglementEntropy)
 
 #### In Chern-Simons theory
  {#ReferencesWeightSystemsInChernSimonsTheory}
@@ -125,8 +122,6 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 #### As codes for holographic entanglement entropy
  {#ForHolographicEntanglementEntropy}
 
-[[chord diagram|Chord diagrams]] encoding [[Majorana dimer codes]] and other [[quantum error correcting codes]] via [[tensor networks]] exhibiting [[holographic entanglement entropy]]:
-
 \begin{imagefromfile}
     "file_name": "HanUniversalHolographicCode.jpg",
     "float": "right",
@@ -141,6 +136,8 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
     "caption": "From [Yan 20](#Yan20)"
 \end{imagefromfile}
 
+
+[[chord diagram|Chord diagrams]] encoding [[Majorana dimer codes]] and other [[quantum error correcting codes]] via [[tensor networks]] exhibiting [[holographic entanglement entropy]]:
 
 * {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], *Majorana dimers and holographic quantum error-correcting code*, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
