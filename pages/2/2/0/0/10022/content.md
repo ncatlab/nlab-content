@@ -19,7 +19,13 @@
 
 ## Idea
 
-Holographic entanglement entropy refers to the expression of [[entanglement entropy]] of [[quantum field theories]] expressed "holographically" via a version of [[AdS-CFT duality]] in terms of the [[geometry]] of a higher-dimensional [[bulk]] [[spacetime]]
+The term *holographic entanglement entropy* refers to expressions of [[entanglement entropy]] of [[quantum field theories]] expressed "holographically", via a version of [[AdS-CFT duality]], in terms of the [[geometry]] of a higher-dimensional [[bulk]] [[spacetime]].
+
+The essential idea is that the [[entanglement entropy]] of a region $U$ in the domain of a [[boundary field theory]] is proportional to the [[volume]] ([[length]], [[area]], ...) of the [[hypersurface]] $\Sigma$ in the [[bulk]] [[spacetime]] which shares the same [[boundary]] $\partial U = \partial \Sigma$ and which has minimal volume with this property.
+A more precise version of this idea is given by the *Ryu-Takayanagi formula*, see [below](#RyuTakayanagiFormula). 
+
+While in the original context of the [[AdS-CFT correspondence]] this formula remains ill-defined, or at least intractable in detail (not the least because it is, ultimately, a statement about [[non-perturbative quantum field theory|non-perturbative]] [[string theory]], hence about [[M-theory]], which remains elusive), the general idea led to the discovery of fully well-defined discretized ("toy") models  of holography in terms of [[tensor networks]] that express ([[code subspaces]]) of [[quantum error correcting codes]] (such as the [[HaPPY code]] and [[Majorana dimer codes]]). In these holographic [[tensor network]] models the behaviour of holographic entanglement entropy and of several other aspects of [[holography]] turn out to have a faithful representation (up to lattice effects caused by the discretization).
+
 
 ### Ryu-Takayanagi formula
  {#RyuTakayanagiFormula}
