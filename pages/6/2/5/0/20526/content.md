@@ -86,8 +86,12 @@ An argument that much of the existing swampland literature does not even live up
 
 
 ## Swampland conjectures
+ {#SwamplandConjectures}
 
-The following is a list of the main swampland conjectures, collected.
+The following list of statements have come (around 2020-2021) to be widely discussed in a sector of the [[string phenomenology]] community which associates with the "swampland" imagery. They are now commonly referred to and known as  "conjectures", specifically "the swampland conjectures", but the terms used tend to remain vague/undefined and may change their intended meaning with context (not the least the notion of "state in quantum gravity", which however in most of these statements really means: classical solitonic [[black brane]]-solution in some [[supergravity]]-theory -- e.g. in Conj. \ref{ElectricWeakGravityConjecture}). 
+
+But some of these statements have been interpreted in special cases as more precise statements about [[moduli spaces]] of [[Calabi-Yau manifolds]], and in this form they may be closer to [[conjectures]] in the sense of established sense of [[mathematics]].
+
 
 ### No global symmetries conjecture
 
@@ -116,7 +120,7 @@ If a given charge can be populated by [[BPS states]], then the physical spectrum
 
 #### Electric weak gravity conjecture
 
-\begin{conjecture}
+\begin{conjecture}\label{ElectricWeakGravityConjecture}
 Given a $U(1)$-[[gauge theory]] weakly coupled to [[gravity]] with [[gauge coupling]] $g$, there exists an electrically charged state with mass $m$ and charge $q$ satisfying
 
 $$ m \leq \sqrt{2} g q M_p, $$
@@ -226,20 +230,26 @@ where $c\sim\mathcal{O}(1)$.
 This is an asymptotic version of the *dS conjecture*.
 
 ### Swampland cobordism conjecture
+ {#SwamplandCobordismConjecture}
 
-\begin{conjecture}
-For any [[quantum gravity]] theory compactified on a $d$-dimensional internal manifold, the $d$-th [[cobordism group]] must vanish, i.e.
+From [McNama & Vafa 17](#McNamaVafa17):
+
+\begin{conjecture}\label{OriginalSwamplandCobordismConjecture}
+For any [[quantum gravity]] theory [[KK-compactification|compactified]] on a $d$-dimensional internal manifold, some kind of "quantum-gravity version" of a [[cobordism group]] must vanish in degree $d$. In heuristic symbols:
 
 $$ \Omega^{\mathrm{QG}}_d = 0. $$
 \end{conjecture}
 
+\begin{remark}
+A rigorous discussion of a possible role of [[cobordism cohomology]] in [[M-theory]], assuming [[schreiber:Hypothesis H]], is in [Sati & Schreiber 21a](#SatiSchreiber21a); for relation to discussion of Conj. \ref{OriginalSwamplandCobordismConjecture} see [p. 83](https://arxiv.org/pdf/2103.01877.pdf#page=83) there.
+\end{remark}
 
 
 ## References
 
 ### General
 
-The terminology originates with
+The terminology "swampland", in the context of [[string phenomenology]], originates with:
 
 * {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
 
