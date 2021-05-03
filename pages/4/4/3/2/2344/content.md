@@ -103,7 +103,9 @@ The standard axioms are:
 
 * **(Der5)** For any $X\in Dia$, if $I$ denotes the [[interval category]], then the induced functor
   $$ D(X\times I) \to Hom(I,D(X)) $$
-  is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] (though again, it is not generally faithful).  Sometimes it is convenient to assume this property when $I$ is any (perhaps finite) [[free category]].  Since this functor is also conservative by (Der2), it is then a [[weakly smothering functor]].
+  is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] (though again, it is not generally faithful).  Since this functor is also conservative by (Der2), it is then a [[weakly smothering functor]].
+
+There is substantial variation in (Der5).  Sometimes it is convenient to assume this property when $I$ is any (perhaps finite) [[free category]].  Some references do not include (Der5) at all in the definition, instead calling a derivator **strong** if it satisfies (Der5).
 
 +--{: .query}
 [[Mike Shulman]]: It's clear to me that these are desirable requirements, which are moreover satisfied by all derivators of the form $Ho(C)$, but I would really like a conceptual explanation for why these axioms are *sufficient*.
