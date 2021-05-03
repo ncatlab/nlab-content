@@ -292,7 +292,7 @@ $$
 
 While simplicial sets are a very convenient model for general reasoning about higher weak categories and [[∞-groupoids]], often concrete computations in particular with $(\infty)$-groupoids are more convenient in the context of more strictified models. 
 
-Notably, by the generalized [[Dold-Kan correspondence]] the [[oriental|? nerve]] injects [[crossed complex]]es -- nonabelian generalizations of [[chain complex]]es of abelian groups which are equivalent to [[strict ∞-groupoids]] -- to simplicial sets
+Notably, by the generalized [[Dold-Kan correspondence]] the [[oriental|$\omega$-nerve]] injects [[crossed complex]]es -- nonabelian generalizations of [[chain complex]]es of abelian groups which are equivalent to [[strict ∞-groupoids]] -- to simplicial sets
 
 $$
   CrsCmplx \stackrel{\simeq}{\to}
@@ -303,7 +303,7 @@ $$
 
 Since for instance something as simple as an abelian group $A$ regarded as a complex of groups in degree $n$ (hence as an $n$-group) already bcomes a somewhat involved object to understand under the nervet operation, 
 
-_it is desireable to have a means to control descent for simplicial presheaves which happen to factor through the $\omega$-nerve directly in the context of $Str \omega Cat$._
+_it is desirable to have a means to control descent for simplicial presheaves which happen to factor through the $\omega$-nerve directly in the context of $Str \omega Cat$._
 
 
 In his work on descent
@@ -511,7 +511,7 @@ $$
   \,.
 $$
 
-This way the descent for $[B(-),A]$ on the object $U = colim^\Delta U_\bullet$ is reexpressed as descent for $A$ of the $B$-modified object $colim^\Delta B(Y_\bullet)$. Following Street, this we may call the **codescent** object, as it co-represents descent.  See also [[pseudo-extranatural transformation]].
+This way the descent for $[B(-),A]$ on the object $U = colim^\Delta U_\bullet$ is reexpressed as descent for $A$ of the $B$-modified object $colim^\Delta B(Y_\bullet)$. Following Street, this we may call the **[[codescent]]** object, as it co-represents descent.  See also [[pseudo-extranatural transformation]].
 
 ## Monadic descent
 
@@ -580,10 +580,6 @@ Further developments with categorical perspectives and generalizations can be fo
 [[!redirects descent and codescent]]
 
 [[!redirects codescent]]
-
-[[!redirects codescent object]]
-[[!redirects codescent objects]]
-
 
 [[!redirects descent theory]]
 
