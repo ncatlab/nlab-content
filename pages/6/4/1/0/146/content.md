@@ -237,6 +237,8 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 
 ## Related concepts
 
+* [[(0,1)-presheaf]]
+
 * **presheaf**
 
   [[constant presheaf]]
