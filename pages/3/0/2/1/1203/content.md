@@ -40,6 +40,12 @@ In [[material set theory]], this is equivalent given the [[axiom of foundation]]
 
 In higher categorical terms, the above axiom of finiteness could be stated as follows: [[Set]] is an initial algebra of the 2-endofunctor $F(X) \cong X \coprod 1$ in the [[(2,1)-category]] [[Grpd]]. 
 
+## Related concepts
+
+* [[finite set]], [[finite object]]
+
+* [[Set]], [[FinSet]]
+
 category: foundational axiom
 
 [[!redirects axiom of infinity]]
