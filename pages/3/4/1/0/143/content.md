@@ -704,6 +704,8 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
 ## Related concepts
 
+* [[(0,1)-sheaf]] / [[ideal]]
+
 * [[presheaf]] / [[separated presheaf]] /  **sheaf** / [[cosheaf]]
 
   * [[sheafification]]
