@@ -28,7 +28,7 @@ Concretely, the the HaPPY [[code subspace]] is the [[image]] of the [[linear map
 
 1. picking a [[perfect tensor]] $T$ of [[rank]] 6;
 
-1. picking a finite cutoff of the [[pentagon|pentagonal]] [[tesselation]] of the [[hyperbolic plane]];
+1. picking a finite cutoff of the [[pentagon|pentagonal]] [[tesselation]] $\{5,4\}$ of the [[hyperbolic plane]];
 
 1. regarding its [[Poincaré duality|Poincaré dual]] [[graph]] as a [[tensor network]] ([[string diagram]] in [[finite-dimensional vector spaces]]) by 
 
