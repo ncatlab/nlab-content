@@ -56,6 +56,10 @@ Introducing [[Landau-Ginzburg models]] in [[superconductivity]]:
 
 * [[Vitaly Ginzburg]], [[Lev Landau]], _On the Theory of Superconductivity_,  reprinted In: _On Superconductivity and Superfluidity_ Springer (2009) ([doi:1007/978-3-540-68008-6_4](https://doi.org/10.1007/978-3-540-68008-6_4))
 
+Introducing the [[dimer model]]:
+
+* Daniel S. Rokhsar and Steven A. Kivelson, *Superconductivity and the Quantum Hard-Core Dimer Gas*, Phys. Rev. Lett. 61, 2376 – Published 14 November 1988 ([arXiv:10.1103/PhysRevLett.61.2376](https://doi.org/10.1103/PhysRevLett.61.2376))
+
 
 ### Vortices and flux quantization
 
