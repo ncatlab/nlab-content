@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[dimers]] in [[quantum many-body physics]]:
+
+* [[Richard Kenyon]], [[Andrei Okounkov]], *What is... a dimer?*, Notices of the AMS, Vol. 52 No 3 (2005) ([pdf](https://www.ams.org/notices/200503/what-is.pdf))
+
+
 On [[pillowcase orbifolds]]:
 
 * {#EskinOkounkov05} [[Alex Eskin]], [[Andrei Okounkov]], _Pillowcases and quasimodular forms_, In: Ginzburg V. (ed.) _Algebraic Geometry and Number Theory_, Progress in Mathematics, vol 253. Birkhäuser 2006
