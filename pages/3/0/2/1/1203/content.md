@@ -32,12 +32,13 @@ Broadly speaking, [[finite mathematics]] is mathematics that does not use or nee
 
 A more extreme case is to *deny* the axiom of infinity with an __axiom of finiteness__: every set is [[finite set|finite]].  There is one of these for every definition of 'finite' given on that page; here is the strongest stated directly in terms of [[set theory]] as an axiom of [[induction]]:
 
-* Any property of sets that is invariant under [[isomorphism]] and holds for the [[empty set]] must hold for all sets if, whenever it holds for a set $X$, it holds for the [[disjoint union]] $X \uplus \{*\}$.
+* Any property of sets that is invariant under [[isomorphism]] and holds for the [[empty set]] must hold for all sets if, whenever it holds for a set $X$, it holds for the [[disjoint union]] $X \uplus \{*\}$. 
 
 In [[material set theory]], this is equivalent given the [[axiom of foundation]] (which guarantees that $X$ and $\{X\}$ are [[disjoint sets|disjoint]]):
 
 * Any property of sets that holds for the empty set must hold for all sets if, whenever it holds for a set $X$, it holds for the [[union]] $X \cup \{X\}$.
 
+In higher categorical terms, the above axiom of finiteness could be stated as follows: [[Set]] is an initial algebra of the 2-endofunctor $F(X) \cong X \coprod 1$ in the [[(2,1)-category]] [[Grpd]]. 
 
 category: foundational axiom
 
