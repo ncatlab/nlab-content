@@ -29,7 +29,7 @@ $$
 
 is called _open_ if the following equivalent conditions hold
 
-* the [[localic reflection]] of $f$ is an [[open map]] of [[locales]];
+* the [[localic reflection]] of $f$ over $\mathcal{E}$ is an [[overt space | overt]] internal locale in $\mathcal{E}$;
 
 * the [[inverse image]] $f^*$ is a [[Heyting functor]], hence preserves [[first order logic]].
 
