@@ -34,7 +34,7 @@ with
 
 * **(global spacetime structure:)** the minimal area of a [[coboundary|cobounding]] [[hypersurface]] in an ambient curved [[bulk]] [[spacetime]].
 
-Concretely, in [[tensor network]]-models of [[AdS2/CFT1 duality]], the [[entanglement entropy]] $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of dimers cthat cross between the subregion $A$ and its [[complement]]:
+Concretely, in [[tensor network]]-models of [[AdS2/CFT1 duality]], the [[entanglement entropy]] $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[dimers]] that cross between the subregion $A$ and its [[complement]]:
 
 \begin{imagefromfile}
     "file_name": "ChordDiagramEntanglementEntropy.jpg",
@@ -65,7 +65,7 @@ Concretely, in [[tensor network]]-models of [[AdS2/CFT1 duality]], the [[entangl
 \end{imagefromfile}
 
 
-In the case that the dimers correspond to the [[hyperbolic tesselation]] $\{5,4\}$ from the [[HaPPY code]], this entropy formula 
+In the case that the [[dimers]] correspond to the [[hyperbolic tesselation]] $\{5,4\}$ from the [[HaPPY code]], this entropy formula 
 
 $$
   S_A
@@ -93,8 +93,7 @@ recovers the [[Ryu-Takayanagi formula]] ([JGPE 19 (78)](holographic+entanglement
     "caption": "from [Sati & Schreiber 19c](#SatiSchreiber19c)"
 \end{imagefromfile}
 
-Following [Sati-Schreiber 19c](#SatiSchreiber19c) we recognize the above dimer/bit-thread networks from [JGPE 19](#JGPE19), [Yan 19](#Yan19)
-as *[[chord diagram]]*-encodings of holographic bulks ([p. 38](https://arxiv.org/pdf/1912.10425v3.pdf#page=38)).
+Following [Sati-Schreiber 19c](#SatiSchreiber19c) we recognize the above [[Majorana dimer]]/bit-thread networks from [JGPE 19](#JGPE19), [Yan 19](#Yan19) as *[[chord diagram]]*-encodings of holographic bulks ([p. 38](https://arxiv.org/pdf/1912.10425v3.pdf#page=38)).
 
 Notice that the formula for the [[entanglement entropy]] in the [[Majorana dimer code]]  holds generally, for *any* configuration and hence any underlying [[chord diagram]].
 
