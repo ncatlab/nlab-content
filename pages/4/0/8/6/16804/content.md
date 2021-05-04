@@ -321,6 +321,10 @@ See also:
 
 [[!redirects chord diagrams]]
 
+[[!redirects chord]]
+[[!redirects chords]]
+
+
 [[!redirects Gauss diagram]]
 [[!redirects Gauss diagrams]]
 [[!redirects Gauss code]]
@@ -333,6 +337,5 @@ See also:
 
 [[!redirects algebra of chord diagrams]]
 [[!redirects algebras of chord diagrams]]
-
 
 
