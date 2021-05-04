@@ -17,15 +17,18 @@ Thus they conclude that quantum mechanics is not complete.
 
 ...  Need to talk about separability and locality. Then link to [[Bell inequality|Bell's inequalities]].
 
+## Related entries
+
+* [[ER = EPR]]
 
 ## References
 
 The original article is
 
-* [[Albert Einstein]], B. Podolsky, N. Rosen, _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935)
- {#EPR}
+* {#EPR} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935) ([doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777))
+ 
 
-A thorough treatment is in
+A thorough treatment is in:
 
 * Arthur Fine, _The Einstein-Podolsky-Rosen Argument in Quantum Theory_, Stanford Encyclopedia of Philosophy ([web](http://plato.stanford.edu/entries/qt-epr/))
 
