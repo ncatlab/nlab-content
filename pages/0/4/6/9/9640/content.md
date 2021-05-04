@@ -16,6 +16,11 @@ On [[anyons]] in [[topological superconductors]] ([[Majorana zero modes]]):
 
 * [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], _Majorana Zero Modes and Topological Quantum Computation_, npj Quantum Information 1, 15001 (2015) ([nature:npjqi20151](https://www.nature.com/articles/npjqi20151))
 
+On [[holographic entanglement entropy]] via [[bit threads]]:
+
+* {#FreedmanHeadrick16} [[Michael Freedman]], [[Matthew Headrick]], *Bit threads and holographic entanglement*, Comm. Math. Phys. 352, 407 (2017) ([arXiv:1604.00354](https://arxiv.org/abs/1604.00354))
+
+
 
 ## Related entries
 
