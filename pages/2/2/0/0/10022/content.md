@@ -127,7 +127,7 @@ In this discrete [[HaPPY code]] model for the [[AdS-CFT correspondence]] the Ryu
 ### Chord diagram representation
  {#ChordDiagramRepresentation}
 
-In fact, holographic entanglement entropy in the [[HaPPY code]] turns out to be entirely encoded by the *dimer network* in the underlying [[Majorana dimer code]] ([JGPE 19](#JGPE19)):
+In fact, holographic entanglement entropy in the [[HaPPY code]] turns out to be entirely encoded by the *[[dimer]] network* in the underlying [[Majorana dimer code]] ([JGPE 19](#JGPE19)):
 
 \begin{imagefromfile}
     "file_name": "HaPPYCodesAsDimerCode.jpg",
@@ -142,7 +142,7 @@ In fact, holographic entanglement entropy in the [[HaPPY code]] turns out to be 
     "caption": "From [JGPE 19](#JGPE19)"
 \end{imagefromfile}
 
-in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of dimers that cross between the subregion $A$ and its [[complement]]:
+in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[dimers]] that cross between the subregion $A$ and its [[complement]]:
 
 \begin{imagefromfile}
     "file_name": "ChordDiagramEntanglementEntropy.jpg",
@@ -173,7 +173,7 @@ in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor n
 \end{imagefromfile}
 
 
-In the case that the dimers correspond to the [[hyperbolic tesselation]] $\{5,4\}$ from the [[HaPPY code]], this entropy formula 
+In the case that the [[dimers]] correspond to the [[hyperbolic tesselation]] $\{5,4\}$ from the [[HaPPY code]], this entropy formula 
 
 $$
   S_A
@@ -218,8 +218,7 @@ In the [[continuum limit]] this says that holographic entanglement entropy is ex
     "caption": "from [Sati & Schreiber 19c](#SatiSchreiber19c)"
 \end{imagefromfile}
 
-Following [Sati-Schreiber 19c](#SatiSchreiber19c) we recognize the above dimer/bit-thread networks from [JGPE 19](#JGPE19), [Yan 19](#Yan19)
-as *[[chord diagram]]*-encodings of holographic bulks ([p. 38](https://arxiv.org/pdf/1912.10425v3.pdf#page=38)).
+Following [Sati-Schreiber 19c](#SatiSchreiber19c) we recognize the above [[Majorana dimer]]/bit-thread networks from [JGPE 19](#JGPE19), [Yan 19](#Yan19) as *[[chord diagram]]*-encodings of holographic bulks ([p. 38](https://arxiv.org/pdf/1912.10425v3.pdf#page=38)).
 
 Notice how each [[chord]] here reflects at the same time
 
