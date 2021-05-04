@@ -51,4 +51,5 @@ Reviews and introductions include
 
 [[!redirects thermodynamics limits]]
 
-
+[[!redirects continuum limit]]
+[[!redirects continuum limits]]
