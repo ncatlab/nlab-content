@@ -20,6 +20,8 @@ An **$(\infty,n)$-presheaf** on an [[(∞,n)-category]] $C$ is an [[(∞,n)-func
 
 ## Related concepts
 
+* [[(0,1)-presheaf]]
+
 * [[presheaf]]
 
 * [[(2,1)-presheaf]]
