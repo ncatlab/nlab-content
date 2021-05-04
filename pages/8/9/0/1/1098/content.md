@@ -61,6 +61,8 @@ Various Quillen equivalences between these model structures are constructed in t
 
 ## Related concepts
 
+* [[(0,1)-presheaf]]
+
 * [[presheaf]]
 
 * [[(2,1)-presheaf]]
