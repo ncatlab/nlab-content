@@ -33,6 +33,10 @@ min(2x, 2y, 0)$, and this is a piecewise linear curve.
 
 (To see this remember that in the [[tropical semiring]], the sum of two numbers is their minimum, and their product is their sum. $x^2 = x\oplus x$, $y^2 = y\oplus y$ and so $x^2+y^2$  converts to $min(2x,2y)$. The 0 will remain mysterious for the moment.  (If you cannot wait look at the AARMS notes listed below.))
 
+## Related concepts
+
+ * [[tropical semiring]]
+
 ##References
 
 ###Books and Lecture Notes
