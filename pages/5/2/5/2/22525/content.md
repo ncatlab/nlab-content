@@ -37,6 +37,9 @@ Or the hyperbolic tesselation $\{4,6\}$ by [[squares]]:
 </center>
 
 
+## Related concepts
+
+* [[holographic entanglement entropy]]
 
 ## References
 
