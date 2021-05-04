@@ -40,7 +40,7 @@ The power of these [[quantum information theory]]-methods in making precise and 
 ### Ryu-Takayanagi formula
  {#RyuTakayanagiFormula}
 
-For [[quantum field theories]] that are exhibited as [[boundary field theories]] on the [[asymptotic boundary]] $A$ of an approximately [[anti de Sitter spacetime]] via some approximation to [[AdS-CFT duality]] (for instance for [[QCD]] via [[AdS-QCD duality]]) their [[entanglement entropy]] of a given [[bounded set|bounded domain]] $B\subset A$ turns out to be proportional to the [[voilume]] ([[area]]) of the minimal-area [[codimension]]-2 [[hypersurface]] inside the [[bulk]] spacetime that has the same [[boundary]] $\partial B$ (see [Nishioka-Ryu-Takayanagi 09 (3.3)](#NishiokaRyuTakayanagi09) for review of the formula and [Lewkowycz-Maldacena 13](#LewkowyczMaldacena13) for a conceptual explanation). 
+For [[quantum field theories]] that are exhibited as [[boundary field theories]] on the [[asymptotic boundary]] $A$ of an approximately [[anti de Sitter spacetime]] via some approximation to [[AdS-CFT duality]] (for instance for [[QCD]] via [[AdS-QCD duality]]) their [[entanglement entropy]] of a given [[bounded set|bounded domain]] $B\subset A$ turns out to be proportional to the [[volume]] ([[area]]) of the minimal-area [[codimension]]-2 [[hypersurface]] inside the [[bulk]] spacetime that has the same [[boundary]] $\partial B$ (see [Nishioka-Ryu-Takayanagi 09 (3.3)](#NishiokaRyuTakayanagi09) for review of the formula and [Lewkowycz-Maldacena 13](#LewkowyczMaldacena13) for a conceptual explanation). 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/RyuTakayanagiFormula.jpg" width="520"></a>
@@ -273,7 +273,7 @@ Survey talks:
 
 An influential argument that this relation implies that [[entanglement]] in the boundary theory is what makes spacetime as such appear in the bulk theory is due to
 
-* {#vanRaamsdonk10} [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement_, Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
+* {#vanRaamsdonk10} [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement_, Gen. Rel. Grav. **42** (2010) 2323-2329; Int. J. Mod. Phys. **D19** (2010) 2429-2435 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
 
 * [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement II: It from BC-bit_ ([arXiv:1809.01197](https://arxiv.org/abs/1809.01197))
 
