@@ -190,7 +190,16 @@ A slightly alternative proof of sufficiency uses the theory of well-founded coal
 
 In [[topos theory]] the existence of a natural numbers object (NNO) has a couple of far-reaching consequences. 
 
-Firstly, it is a theorem is due to C. J. Mikkelsen that the existence of a NNO in a topos $\mathcal{S}$ is equivalent to the existence of [[free monoid|free monoids]] in $\mathcal{S}$:
+Firstly, the existence of a NNO in a topos $\mathcal{S}$ is equivalent to the existence of [[free object|free]] unary systems in $\mathcal{S}$, unary systems being objects with an [[endomorphism]] in $\mathcal{S}$. 
+
++-- {: .num_prop #free_object_with_endomorphism_in_topos}
+###### Proposition
+Let $\mathcal{S}$ be a topos and $\mathbf{unsys}(\mathcal{S})$ its category of internal unary systems. Then $\mathcal{S}$ has a NNO precisely if the forgetful functor $U:\mathbf{unsys}(\mathcal{S})\to \mathcal{S}$ has a left adjoint.
+=--
+
+Let $F:\mathcal{S}\to\mathbf{unsys}(\mathcal{S})$ be a left adjoint to the forgetful functor $U$, and let $1$ be a terminal object in $\mathcal{S}$.  Then $F(1)$ is a NNO in $\mathcal{S}$, by definition of an NNO. 
+
+Secondly, it is a theorem due to C. J. Mikkelsen that the existence of a NNO in a topos $\mathcal{S}$ is equivalent to the existence of [[free monoid|free monoids]] in $\mathcal{S}$:
 
 +-- {: .num_prop #free_monoids_in_topos}
 ###### Proposition
@@ -199,7 +208,7 @@ Let $\mathcal{S}$ be a topos and $\mathbf{mon}(\mathcal{S})$ its category of int
 
 For a proof see Johnstone ([1977](#JT77),p.190).
 
-Secondly, it then is a theorem due to [[Andreas Blass]] ([1989](#Blass)) that $\mathcal{S}$ has a NNO precisely if $\mathcal{S}$ has an [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$.
+It then is a theorem due to [[Andreas Blass]] ([1989](#Blass)) that $\mathcal{S}$ has a NNO precisely if $\mathcal{S}$ has an [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$.
 
 A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that [[classifying topos|classifying toposes]] for [[geometric theories]] over $\mathcal{S}$ exist precisely if $\mathcal{S}$ has a NNO.
 
