@@ -20,7 +20,7 @@
 
 ## Idea
 
-The term *holographic entanglement entropy* refers to expressions of [[entanglement entropy]] of [[quantum field theories]] via a version of [[AdS-CFT duality]] ("holography"), in terms of the [[geometry]] of a higher-dimensional [[bulk]] [[spacetime]].
+The term *holographic entanglement entropy* refers to expressions of [[entanglement entropy]] in [[boundary field theory|boundary]] [[quantum field theories]], via a version of [[AdS-CFT duality]] ("holography"), in terms of the [[geometry]] of a higher-dimensional [[bulk]] [[spacetime]].
 
 The essential idea is that the [[entanglement entropy]] of a region $U$ in the domain of a [[boundary field theory]] should be proportional to the [[volume]] ([[length]], [[area]], ...) of the [[hypersurface]] $\Sigma$ in the [[bulk]] [[spacetime]] which shares the same [[boundary]] $\partial U = \partial \Sigma$ and which has minimal volume with this property.
 A more precise version of this idea is given by the *Ryu-Takayanagi formula*, see [below](#RyuTakayanagiFormula). 
@@ -40,7 +40,7 @@ The power of these [[quantum information theory]]-methods in making precise and 
 ### Ryu-Takayanagi formula
  {#RyuTakayanagiFormula}
 
-For [[quantum field theories]] that are exhibited as [[boundary field theories]] on the [[asymptotic boundary]] $A$ of an approximately [[anti de Sitter spacetime]] via some approximation to [[AdS-CFT duality]] (for instance for [[QCD]] via [[AdS-QCD duality]]) their [[entanglement entropy]] of a given [[bounded set|bounded domain]] $B\subset A$ turns out to be proportional to the [[area]] of the minimal-area [[surface]] inside the [[bulk]] spacetime that has the same [[boundary]] $\partial B$ (see [Nishioka-Ryu-Takayanagi 09 (3.3)](#NishiokaRyuTakayanagi09) for review of the formula and [Lewkowycz-Maldacena 13](#LewkowyczMaldacena13) for a conceptual explanation). 
+For [[quantum field theories]] that are exhibited as [[boundary field theories]] on the [[asymptotic boundary]] $A$ of an approximately [[anti de Sitter spacetime]] via some approximation to [[AdS-CFT duality]] (for instance for [[QCD]] via [[AdS-QCD duality]]) their [[entanglement entropy]] of a given [[bounded set|bounded domain]] $B\subset A$ turns out to be proportional to the [[voilume]] ([[area]]) of the minimal-area [[codimension]]-2 [[hypersurface]] inside the [[bulk]] spacetime that has the same [[boundary]] $\partial B$ (see [Nishioka-Ryu-Takayanagi 09 (3.3)](#NishiokaRyuTakayanagi09) for review of the formula and [Lewkowycz-Maldacena 13](#LewkowyczMaldacena13) for a conceptual explanation). 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/RyuTakayanagiFormula.jpg" width="520"></a>
@@ -74,7 +74,7 @@ Various properties of [[entanglement entropy]] find immediate geometric interpre
 
 Further discussion of implications of the Ryu-Takayanagi formula in [van Raamsdonk 10](#vanRaamsdonk10) suggested that the logic may also be turned around: Instead of computing [[entanglement entropy]] of a given [[boundary field theory]] from known [[bulk]] [[geometry]], conversely the [[bulk]] [[spacetime]] may be reconstructed from knowledge of the [[entanglement entropy]] of a boundary field theory.
 
-Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("[[tensor networks]]", [Swingle 09](#Swingle09), [Swingle 12](#Swingle12), and [[quantum error correction codes]] [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18), [Jahn-Eisert 21](#JahnEisert21) for review).
+Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[quantum information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("[[tensor networks]]", [Swingle 09](#Swingle09), [Swingle 12](#Swingle12), and [[quantum error correction codes]] [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18), [Jahn-Eisert 21](#JahnEisert21) for review).
 
 
 Here a [[tensor network]] [[Poincaré duality|Poincaré dual]] to a finite-stage [[hyperbolic tesselation]] of the [[hyperbolic plane]] is interpreted as a discretized model for a [[bulk]] [[spacetime]] with holographic [[quantum state]] on its [[asymptotic boundary]] being given by the [[string diagram]]-evaluation of the [[tensor network]] as a [[linear map]] to the [[tensor product]] of spaces corresonding to the [[edges]] crossing the boundary of the [[tesselation]]. 
@@ -90,7 +90,7 @@ Here a [[tensor network]] [[Poincaré duality|Poincaré dual]] to a finite-stage
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Harlow 18](#Harlow18)"
+    "caption": "from [Harlow 18](#Harlow18)"
 \end{imagefromfile}
 
 
@@ -98,25 +98,29 @@ One shows ([ADH 14](#ADH14)) that this is a decent ("toy") model of expected pro
 
 For example, the [[tensor network]] corresponding to the [[pentagon|pentagonal]] $\{5,4\}$ [[tesselation]] with a [[perfect tensor]] of rank $5+1$ assigned to each tile yields a [[quantum error correcting code]] now known as the [[HaPPY code]].
 
-<center>
-<img src="https://ncatlab.org/nlab/files/AdSRindlerTensorNetwork.jpg" width="500"></a>
-</center>
-
-> [Harlow 18](#Harlow18)
-
-
 The idea is that the [[code subspace]] of this [[HaPPY code]] is that subspace of the boundary [[space of quantum states]] which holographically corresponds to all bulk states *without* a [[black hole]] in the bulk.
 
-More generally, deleting any of the tiles in the interior of the [[tesselation]] is interpreted as the appearance of a bulk [[black hole]], whose [[Bekenstein-Hawking entropy]] is carried by the [[quantum states]] carried by the loose edges cross over the "[[event horizon]]" to the now deleted tiles.
+\begin{imagefromfile}
+    "file_name": "BlackHoleInHaPPYCodeTensorNetworkII.jpg",
+    "float": "right",
+    "width": 360,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Jahn & Eisert 21](#JahnEisert21)"
+\end{imagefromfile}
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/BlackHoleTensorNetwork.jpg" width="500"></a>
-</center>
 
-> graphics grabbed from [Harlow 18](#Harlow18), see at *[[HaPPY code]]*
+More generally, deleting any of the tiles in the interior of the [[tesselation]] is interpreted as the appearance of a bulk [[black hole]], whose [[Bekenstein-Hawking entropy]] is carried by the [[quantum states]] carried by the loose [[edges]] that cross over the "[[event horizon]]" to the now deleted tiles.
 
 The extreme case that *all* tiles are deleted from the [[tensor network]], is thus interpreted describing a [[black hole]] that has swallowed up the entire [[bulk]] spacetime such that its [[horizon]] now coincides with the previous [[asymptotic boundary]], whence its quantum states and entropy now coincide with that of the holographic boundary theory.
+
+\linebreak
 
 In this discrete [[HaPPY code]] model for the [[AdS-CFT correspondence]] the Ryu-Takayanagi formula for holographic entanglement entropy ([above](#RyuTakayanagiFormula)) has an exact proof [PYHP 15, Theorem 2](#PYHP15).
 
@@ -136,11 +140,12 @@ In fact, the RT-formula in the [[HaPPY code]] turns out to be entirely encoded b
     "caption": "From [JGPE 19](#JGPE19)"
 \end{imagefromfile}
 
-in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] simply counts the number of [[chords]] that cross between the subregion $A$ and its [[complement]]:
+
+in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[chords]] that cross between the subregion $A$ and its [[complement]]:
 
 \begin{imagefromfile}
     "file_name": "ChordDiagramEntanglementEntropy.jpg",
-    "width": 580,
+    "width": 460,
     "unit": "px",
     "margin": {
         "top": -40,
@@ -149,6 +154,59 @@ in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor n
         "left": 10
     },
     "caption": "From [JGPE 19](#JGPE19)"
+\end{imagefromfile}
+
+
+\begin{imagefromfile}
+    "file_name": "HanUniversalHolographicCode.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Yan 20](#Yan20)"
+\end{imagefromfile}
+
+
+In the case that the [[chords]] correspond to the [[hyperbolic tesselation]] $\{5,4\}$ from the [[HaPPY code]], this entropy formula 
+
+$$
+  S_A
+  \;=\;
+  \tfrac{1}{2}
+  \ln
+  \big(
+    2^{ \left\vert Chords(A, \bar A) \right\vert }
+  \big)
+$$
+
+recovers the Ryu-Takayanagi formula ([JGPE 19 (78)](#JGPE19)), as here the number of chords crossing any hyperbolic [[geodesic]] grows linearly with the [[length]] of this geodesic. 
+
+Notice how each [[chord]] here reflects at the same time
+
+1. one [[entanglement|entangled pair]] of [[qbits]] in the [[boundary field theory|boundary]] [[quantum system]];
+
+1. a [[geodesic]] through the [[hyperbolic plane]] [[bulk]] spacetime,
+
+which is a (rigorous) state of affairs reminiscent of the "[[ER = EPR]]" slogan.
+
+In the [[continuum limit]] this says that holographic entanglement entropy is exhibited by the [[geodesic]] [[flow]] out of the given subregion through its corresponding minimal bulk surface, an idea that was previously proposed in "bit-thread models" for holographic entanglement entropy ([Freedman & Headrick 16](#FreedmanHeadrick16)):
+
+\begin{imagefromfile}
+    "file_name": "HyperbolicGeodesicFlowAndEntanglementEntropy.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [Freedman & Headrick 16](#FreedmanHeadrick16)"
 \end{imagefromfile}
 
 
@@ -171,6 +229,8 @@ in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor n
 * [[quantum error correcting code]]
 
   * [[HaPPY code]]
+
+  * [[Majorana dimer code]]
 
 ## References
  {#References}
@@ -248,23 +308,9 @@ reviewed in
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
-Embedding of the [[HaPPY code]] in more general [[Majorana dimer codes]]:
-
-* {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
-
-reviewed in Section 4.2 of:
-
-* {#JahnEisert21} [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
-
-
 See also
 
 * [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
-
-
-* {#HMPSR19}  Felix M. Haehl, Eric Mintun, Jason Pollack, Antony J. Speranza, [[Mark Van Raamsdonk]], _Nonlocal multi-trace sources and bulk entanglement in holographic conformal field theories_, J. High Energ. Phys. (2019) 2019: 005 ([arxiv:1904.01584](https://arxiv.org/abs/1904.01584), [talk recording](https://youtu.be/kRCwzyliJ1M))
-
-* {#Yan19} [[Han Yan]], _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
 
 
 Further development of these tensor networks in 
@@ -272,6 +318,28 @@ Further development of these tensor networks in
 * Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_ ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
 
 * Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
+
+The bit-thread proposal for associating holographic entanglement entropy with [[geodesic]] [[flow]] in [[hyperbolic space]]:
+
+* {#FreedmanHeadrick16} [[Michael Freedman]], [[Matthew Headrick]], *Bit threads and holographic entanglement*, Comm. Math. Phys. 352, 407 (2017) ([arXiv:1604.00354](https://arxiv.org/abs/1604.00354))
+
+Embedding of the [[HaPPY code]] and the bit-thread models in more general [[Majorana dimer codes]]:
+
+* {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
+
+reviewed in:
+
+* {#JahnEisert21} [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
+
+* [[Han Yan]], *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
+
+
+See also:
+
+* {#HMPSR19}  Felix M. Haehl, Eric Mintun, Jason Pollack, Antony J. Speranza, [[Mark Van Raamsdonk]], _Nonlocal multi-trace sources and bulk entanglement in holographic conformal field theories_, J. High Energ. Phys. (2019) 2019: 005 ([arxiv:1904.01584](https://arxiv.org/abs/1904.01584), [talk recording](https://youtu.be/kRCwzyliJ1M))
+
+* {#Yan19} [[Han Yan]], _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
+
 
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
@@ -307,4 +375,12 @@ Nicely reviewed in (aimed at readers with minimal background in this problem):
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_					([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
 
 [[!redirects Ryu-Takayanagi formula]]
+
+[[!redirects holographic tensor network]]
+[[!redirects holographic tensor networks]]
+
+[[!redirects bit thread]]
+[[!redirects bit threads]]
+
+
 
