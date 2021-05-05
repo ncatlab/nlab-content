@@ -37,6 +37,8 @@ _[Spec(Z) -- As a 3-dimensional space containing knots](http://ncatlab.org/nlab/
 
 * [[field with one element]]
 
+* [[linear code]]
+
 [[!redirects prime fields]]
 
 [[!redirects Fp]]
