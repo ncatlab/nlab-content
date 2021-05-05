@@ -20,7 +20,7 @@ Just as a [[monoidal category]] is the [[categorification]] of a [[monoid]] and 
 
 ## Definition
 
-A __magma category__ is a [[category]] $C$ with a functor 
+A __magma category__ is a [[category]] $C$ with a [[functor]] 
 
 $$\otimes: C \times C \to C$$ 
 
