@@ -42,23 +42,12 @@ Given [[categories]] $C$ and $D$ and [[functors]] $F,G \colon C \to D,$ a __natu
 is an assignment to every [[object]] $x$ in $C$ of a [[morphism]] 
 $\alpha_x:F(x) \to G(x)$ in $D$ (called the __component__ of $\alpha$ at $x$) such that for any morphism $f:x \to y$ in $C$, the following [[diagram]] [[commuting diagram|commutes]] in $D$:
 
-\[ 
-  \array{ 
-    F(x) 
-    & 
-    \stackrel{F(f)}{\to} 
-    & 
-    F(y) 
-    \\ 
-    \alpha_x\downarrow 
-    && 
-    \downarrow \alpha_y 
-    \\ G(x) 
-    & 
-    \stackrel{G(f)}{\to} & G(y) 
-  }
-  \,. 
-\] 
+\begin{centre}
+  \begin{tikzcd}
+    F(x) \arrow[r, "F(f)"] \arrow[d, "\alpha_x"'] & F(y) \arrow[d, "\alpha_y"] \\
+    G(x) \arrow[r, "G(f)"']                        & G(y)                       
+  \end{tikzcd}
+\end{centre}
 
 ### Composition
 
