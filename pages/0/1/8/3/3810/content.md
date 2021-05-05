@@ -49,6 +49,7 @@ Some of the questions in [[set theory|set]] and [[model theory]] concerning the 
 
 * {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), 2011 ([pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
 
+* [[Bruce Sagan]], *Combinatorics: The Art of Counting*, Graduate studies in Mathematics **210**, AMS  ([ISBN:978-1-4704-6032-7](https://bookstore.ams.org/gsm-210) [pdf](https://users.math.msu.edu/users/bsagan/Books/Aoc/final.pdf))
 
 [[!redirects combinatorial]]
 [[!redirects combinatorialist]]
