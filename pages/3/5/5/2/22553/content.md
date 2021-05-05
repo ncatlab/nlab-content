@@ -39,6 +39,8 @@ More concretely, much attention in [[coding theory]] is on the special lass of *
     * [[binary Golay code]]
 
 * [[quantum error correcting code]]
+  
+  * [[stabilizer code]]
 
   * [[HaPPY code]]
 
