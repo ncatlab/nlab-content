@@ -76,3 +76,5 @@ and in fact the different types of propositional logic are usually conveniently 
 * [[classical mathematics]]
 * [[constructive logic]] / [[intuitionistic logic]]
 * [[material set theory]]
+
+[[!redirects classical logics]]
