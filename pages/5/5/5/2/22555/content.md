@@ -23,9 +23,12 @@ Quantum stabilizer codes are closely related to classical [[error correcting cod
 
 ## References
 
-Stabilizer codes were introduced in:
+Stabilizer codes were introduced, independeny, in
 
 * [[Daniel Gottesman]], *Stabilizer Codes and Quantum Error Correction* ([arXiv:quant-ph/9705052](https://arxiv.org/abs/quant-ph/9705052))
+
+* [[Robert Calderbank]], E. M Rains, [[Peter W. Shor]], N. J. A. Sloane, *Quantum Error Correction and Orthogonal Geometry*, Phys. Rev. Lett. 78:405-408, 1997 ([arXiv:quant-ph/9605005](https://arxiv.org/abs/quant-ph/9605005))
+
 
 following
 
