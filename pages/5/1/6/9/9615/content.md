@@ -113,6 +113,16 @@ $$S_1 = S_1 - 2 T = S_1 + S_2 + S_3 = 0$$
 whence we infer that ${|S_1 + T|}$ is a multiple of $8$, and we have reached a contradiction. 
 =-- 
 
+## Properties
+
+### Relation to quantum stabilizer codes
+ {#RelationToQuantumStabilizerCodes}
+
+Classical binary linear codes
+are closely related to [[quantum error correcting codes]] knows as 
+*[[stabilizer codes]]* (e.g. [Ball, Centelles & Huber 20, Sec. 2.3 & 3](#BallCentellesHuber20))
+
+
 ## Related entries
 
 * [[coding theory]]
@@ -130,12 +140,17 @@ whence we infer that ${|S_1 + T|}$ is a multiple of $8$, and we have reached a c
 
 * {#FLM} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998. liv+508 pp. [MR0996026](http://www.ams.org/mathscinet-getitem?mr=996026)
 
-
 * [[Patrick J. Morandi]], _Error Correcting Codes and Algebraic Curves_ , lecture notes New Mexico State University 2001. ([pdf](http://www.math.nmsu.edu/~pmorandi/math601f01/LectureNotes.pdf))
 
 * Jay A. Wood, _Spinor groups and algebraic coding theory_ , J.Combinatorial Th. Series A **51** (1989) pp.277-313. (available online)
+
+Discussion in relation to [[quantum stabilizer codes]]:
+
+* {#BallCentellesHuber20} Simeon Ball, Aina Centelles, Felix Huber, Section 2.3 & 3 of: *Quantum error-correcting codes and their geometries* ([arXiv:2007.05992](https://arxiv.org/abs/2007.05992))
+
 
 category: combinatorics
 
 [[!redirects binary linear codes]]
 [[!redirects binary code]]
+
