@@ -32,18 +32,23 @@ More generally, in any [[multicategory]] $M$, a **magma object** or **magma in $
 
 ## Properties
 
-The [[Eckmann-Hilton argument]] holds for unital magma structures: two compatible ones on a set must be equal, associative and commutative.
+Every magma $(M,\cdot)$ has a morphism $(-)^2:M \to M$ called the __square__ and defined as $x^2 := x \cdot x$ for all $x \in M$. 
+
+## Free magmas
+
+The free magma on one generator $(M, \cdot, 1)$ is a model of nesting parentheses around a magma, and is important in the study of [[higher category theory]] as [[composition]] of [[morphisms]] in [[(n,r)-categories]] and [[(infinity,n)-categories]] are not [[associative]], but rather satisfy [[coherence laws]] such as the [[pentagon identity]] which relate the various ways to nest parentheses around the [[tensor product]] magma in an [[(infinity,n)-category]] with respect to [[homotopy equivalence]]. Many other higher categorical objects have [[coherence theorems]] which also deal with nested parentheses around a binary operation. 
 
 ## Extensional magmas
 
 In [[foundations of mathematics]] such as [[intensional type theory|intensional]] Martin-Loef [[dependent type theory]], where [[functions]] do not [[function extensionality|preserve equality]], one could distinguish between ordinary magmas as defined above, and __extensional magmas__, whose binary operation preserves equality. 
 
-For a magma $(A, \cdot)$ and elements $a, b, c:A$, a magma is __left extensional__ if $a = c$ implies $a \cdot b = c \cdot b$, and a magma is __right extensional__ if $a = c$ implies $b \cdot a = b \cdot c$. A magma is __extensional__ if it is both left and right extensional. 
+For a magma $(A, \cdot)$ and for all elements $a, b, c:A$, a magma is __left extensional__ if $a = c$ implies $a \cdot b = c \cdot b$, and a magma is __right extensional__ if $a = c$ implies $b \cdot a = b \cdot c$. A magma is __extensional__ if it is both left and right extensional. 
 
 ## Related concepts
 
 * [[magmoid]]
 
+* [[n-ary operation]]
 
 ## Literature
 
