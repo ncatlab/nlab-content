@@ -34,6 +34,12 @@ More generally, in any [[multicategory]] $M$, a **magma object** or **magma in $
 
 The [[Eckmann-Hilton argument]] holds for unital magma structures: two compatible ones on a set must be equal, associative and commutative.
 
+## Extensional magmas
+
+In [[foundations of mathematics]] such as [[intensional type theory|intensional]] Martin-Loef [[dependent type theory]], where [[functions]] do not [[function extensionality|preserve equality]], one could distinguish between ordinary magmas as defined above, and __extensional magmas__, whose binary operation preserves equality. 
+
+For a magma $(A, \cdot)$ and elements $a, b, c:A$, a magma is __left extensional__ if $a = c$ implies $a \cdot b = c \cdot b$, and a magma is __right extensional__ if $a = c$ implies $b \cdot a = b \cdot c$. A magma is __extensional__ if it is both left and right extensional. 
+
 ## Related concepts
 
 * [[magmoid]]
