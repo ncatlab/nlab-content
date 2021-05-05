@@ -18,7 +18,11 @@
 Any physical process is supposed to take [[physical states]] into physical states ([[Schrödinger picture]]). If  [[density matrices]] are used to describe [[quantum states]] in [[quantum mechanics]], then it must be some operation that sends density matrices to density matrices. So for finite-dimensional state spaces a process should be a [[linear map]] of [[vector spaces]] of [[matrices]]
 
 $$
-  U : Mat(n \times n, \mathbb{C}) \to Mat(k \times k, \mathbb{C})
+  U 
+  \;\colon\;
+  Mat(n \times n, \mathbb{C}) 
+    \to 
+  Mat(k \times k, \mathbb{C})
 $$
 
 (so far this is a general "[[superoperator]]") that preserves the subset of [[density matrices]], in that
@@ -51,8 +55,11 @@ A matrix $A \in Mat(n \times n, \mathbb{C})$ is called _positive_ if it is hermi
 A linear map (morphism of [[vector space]]s of matrices)
 
 $$
-  \Phi : Mat(n \times n, \mathbb{C}) \to 
-   Mat(k \times k, \mathbb{C})
+  \Phi
+  \;\colon\;
+  Mat(n \times n, \mathbb{C}) 
+    \to 
+  Mat(k \times k, \mathbb{C})
 $$
 
 is called _positive_ if it takes positive matrices to positive matrices.
@@ -60,11 +67,14 @@ is called _positive_ if it takes positive matrices to positive matrices.
 The map $\Phi$ is called _completely positive_ if for all $p \in \mathbb{N}$ the [[tensor product]]
 
 $$
-  \Phi \otimes Id_{Mat(p\times p),\mathbb{C}} :
-  Mat(n \times n , \mathbb{C})\otimes
+  \Phi \otimes Id_{Mat(p\times p),\mathbb{C}} 
+  \;\colon\;
+  Mat(n \times n , \mathbb{C})
+  \otimes
   Mat(p \times p , \mathbb{C})
-  \to
-  Mat(k \times k , \mathbb{C})\otimes
+    \longrightarrow
+  Mat(k \times k , \mathbb{C})
+  \otimes
   Mat(p \times p , \mathbb{C})
 $$
 
@@ -119,10 +129,11 @@ See also [[extremal quantum channels]] and [[graphical quantum channels]].
 
 ## Universal property
 
-The category of natural numbers and quantum operations between them is a [[semicartesian monoidal category]] with the monoidal structure given by multiplication of numbers. Being semicartesian, the monoidal unit (the number $1$) has a unique morphism to it from any object: this morphism is the trace. 
+The [[category]] whose [[objects]] are indexed by [[natural numbers]] $n,m, \cdots$ and whose [[morphisms]] are quantum operations from $n \times n$ to $m \times m$ matrices is a [[semicartesian monoidal category]] with the [[monoidal category|monoidal structure]] given by multiplication of numbers. Being semicartesian, the monoidal [[tensor unit]] (the number $1$) has a unique morphism to it from any object: this morphism is the trace. 
 
-In fact, this category has the universal property of the semicartesian reflection of the monoidal category of isometries. This is the category whose objects are natural numbers, considered as Hilbert spaces, and whose morphisms are isometries between them, where an [[isometry]] $m\to n$ is an $m\times n$ complex matrix $V$ such that $VV*=I$. 
-In detail, the universal property says that for any strict semicartesian monoidal category $\mathcal{D}$ and any monoidal functor $\mathbf{Isometries}\to \mathcal{D}$, there is a unique symmetric monoidal functor making the following diagram commute:
+In fact, this category has the [[universal property]] of the semicartesian reflection of the monoidal category of [[isometries]]. This is the category whose objects are natural numbers, considered as [[Hilbert spaces]], and whose [[morphisms]] are isometries between them, where an [[isometry]] $m\to n$ is an $m\times n$ complex matrix $V$ such that $VV*=I$. 
+
+In detail, the [[universal property]] says that for any strict semicartesian monoidal category $\mathcal{D}$ and any monoidal functor $\mathbf{Isometries}\to \mathcal{D}$, there is a unique symmetric monoidal functor making the following diagram commute:
 $$
 \array{
 \mathbf{Isometries} &\rightarrow& \mathbf{Quantum Channels} \\
