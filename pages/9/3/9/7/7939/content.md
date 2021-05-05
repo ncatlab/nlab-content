@@ -17,7 +17,7 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 * [[bit]]
 
-* [[quantum logic]], [[quantum computing]]
+* [[quantum logic]], [[quantum computing]], [[quantum error correction]]
 
 * [[dimer]]
 
@@ -34,3 +34,7 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 [[!redirects qubit]]
 [[!redirects qubits]]
+
+[[!redirects q-bit]]
+[[!redirects q-bits]]
+
