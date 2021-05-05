@@ -23,23 +23,25 @@ of [[truth values]]. A 0-[[truncated]] [[(∞,1)-presheaf]].
 
 ## Definition
 
-A **(0,1)-presheaf** on a [[proset]] $P$ is an [[antitone function|antitone]] [[predicate]]
+A **(0,1)-presheaf** on a [[poset]] or [[proset]] $P$ is an [[antitone function|antitone]] [[predicate]]
 
-$$f:P \rightarrow \Omega$$ 
+$$F:P \rightarrow \Omega$$ 
 
-from $P$ to the proset $\Omega$ of truth values, or equivalently, a [[monotone]] predicate
+from $P$ to the poset $\Omega$ of truth values, or equivalently, a [[monotone]] predicate
 
-$$f:P^\op \rightarrow \Omega$$ 
+$$F:P^\op \rightarrow \Omega$$ 
 
-from the [[opposite poset|opposite proset]] of $P$ to $\Omega$.
+from the [[opposite poset]] of $P$ to $\Omega$. 
 
-More generally, for a proset $S$, a **S-valued (0,1)-presheaf** on $P$ is just an antitone 
+More generally, for a poset $S$, a **S-valued (0,1)-presheaf** on $P$ is just an antitone 
 
 $$f:P \rightarrow S$$ 
 
 so (0,1)-presheaves are just antitones. 
 
-The (0,1)-topos analogue of a [[presheaf topos]] would be the [[locale]] of antitone predicates on $P$. 
+## (0,1)-category of (0,1)-presheaves
+
+The [[(0,1)-category]] of a (0,1)-presheaf on a [[(0,1)-site]] forms a [[(0,1)-topos]]. In traditional order theoretic language, the poset (or proset) of a (0,1)-presheaf on a [[posite]] forms a [[locale]]. 
 
 ## Related concepts
 
