@@ -17,5 +17,9 @@ On [[Schur functions]]:
 
 * [[Bruce E. Sagan]], _Schur functions_, in (M. Hazewinkel, ed.) Encyclopaedia of Mathematics, Springer ([pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf), [[SaganSchurFunctions.pdf:file]])
 
+On [[combinatorics]]:
+
+* [[Bruce Sagan]], *Combinatorics: The Art of Counting*, Graduate studies in Mathematics **210**, AMS  ([ISBN:978-1-4704-6032-7](https://bookstore.ams.org/gsm-210) [pdf](https://users.math.msu.edu/users/bsagan/Books/Aoc/final.pdf))
+
 
 category:people
