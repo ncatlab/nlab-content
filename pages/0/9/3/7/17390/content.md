@@ -20,6 +20,8 @@
       * [[binary Golay code]], [[Mathieu group]], [[Leech lattice]]
 
 * [[quantum error correcting code]]
+  
+  * [[stabilizer code]]
 
   * [[HaPPY code]]
 
