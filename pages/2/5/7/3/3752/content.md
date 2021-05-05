@@ -174,7 +174,7 @@ The interest in this semicategory arises from the fact that all morphisms $f : A
 
 The concept of semicategory has more or less evident analogs and generalizations in [[higher category theory]].
 
-For models of higher categories by [[simplicial set]]s, i.e. presehaves on the [[simplex category]] (such as [[Kan complex]]es, [[quasi-categories]], [[weak complicial set]]s)  the corresponding semi-category notion is obtained by discarding the degeneracy maps (which are the identity-assigning maps in the simplicial framework), i.e. by considering just presheaves on the subcategory $\Delta_+ \subset \Delta$ on injective morphisms (see the discuss of $\Delta_+$ at [[Reedy model structure]] for more details).
+For models of higher categories by [[simplicial set]]s, i.e. presheaves on the [[simplex category]] (such as [[Kan complex]]es, [[quasi-categories]], [[weak complicial set]]s)  the corresponding semi-category notion is obtained by discarding the degeneracy maps (which are the identity-assigning maps in the simplicial framework), i.e. by considering just presheaves on the subcategory $\Delta_+ \subset \Delta$ on injective morphisms (see the discuss of $\Delta_+$ at [[Reedy model structure]] for more details).
 
 Accordingly, there is the semi-category analog of a [[Segal space]], called a _[[semi-Segal space]]_.
 
