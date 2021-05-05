@@ -67,7 +67,7 @@ The principle of [[excluded middle]] is not provable in intuitionistic logic, an
 
 The observation that the [[poset]] of [[open subsets]] of a [[topological space]] (the [[internal logic]] of the [[sheaf topos]]) serves as a model for [[intuitionistic logic]] is apparently originally due to
 
-* [[Alfred Tarski]], _Der Aussagenkalk&#252;l und die Topologie_, FundamentaMathemeticae 31 (1938), pp. 103&#8211;134.
+* [[Alfred Tarski]], _Der Aussagenkalk&#252;l und die Topologie_, Fundamenta Mathematicae 31 (1938), pp. 103-134.
  {#Tarski}
 
 A textbook account in the context of [[programming languages]] is in section 30 of
