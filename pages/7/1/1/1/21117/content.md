@@ -8,37 +8,65 @@
 
 ## Idea
 
+### General
+
 *Quantum error corection* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]].
 
 From [Ferris & Poulin 2013](#FerrisPoulin13):
 
 > The basic principle of quantum error correction (QEC)is to encode information into the long-range correlations of  [[quantum entanglement|entangled]] quantum many-body  states in  such  a  way that it  cannot be accessed locally. When a local error affects the system, it leaves a detectable imprint—called the error syndrome. The decoding problem consists  in inferring the recovery with greatest probability of success given the error syndrome.  In general, this is a hard problem, but for well-chosen codes, it can be solved efficiently either exactly or heuristically.
 
+### Quantum error correcting codes
 
-In simple examples of passive correction of erasures (see [below](#A3FoldqtritCode)), for $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a $n$-fold [[tensor product]] (typically of copies of itself), for some [[natural number]] $n \in \mathbb{N}$:
+The simple but important special case of passive correction of erasures may be  handled by *quantum error correcting codes*:
+
+Recall that a classical [[error correcting code]] on a [[finite set]] of states $S$ is, typically, a choice of [[injection]] of $S$ into a [[Cartesian product]] with itself
+
+$$
+  S \overset{\;\;\;\;\;\;\;\;}{\hookrightarrow} S \times \cdots \times S
+$$
+
+(often considered in the form of [[linear codes]], but classical nonetheless). In [[quantum physics]] the [[Cartesian product]] of sets of states is replaced by the [[tensor product of vector spaces|tensor product]] of [[Hilbert spaces]] 
+
+For $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a larger Hilbert spaces, typically an  $n$-fold [[tensor product]] of copies of $H$:
 
 $$
   \array{
-    \mathcal{H}
+    \underset{
+     {\color{blue}logical}
+     \atop
+     {\color{blue}qbits}
+    }{
+      \mathcal{H}
+    }
     & 
-      \overset{\;\;\;code\;\;\;}{
+      \underoverset
+        {{\color{blue}code} \atop {\color{blue} subspace}}
+        {\;\;\;code\;\;\;}
+        {
         \hookrightarrow
       }
     &
+    \underset{
+      \color{blue}
+      physical\;qbits
+    }{
     \mathcal{H}^{(1)} 
-      \otimes 
-    \mathcal{H}^{(2)}
       \otimes
         \cdots
       \otimes
     \mathcal{H}^{(n)}  
+    }
   }
   \,,
 $$
 
-such that the information in $code(\psi)$ in some of the tensor factors $\mathcal{H}^{(i)}$ can be lost without obstructing the reconstruction of $\psi$.
+such that the information in $code(\psi)$ in some of the tensor factors $\mathcal{H}^{(i)}$ can be lost without obstructing the reconstruction of $\psi$ (e.g. [Rowell & Wang 17, Sec. 3.2.3](#RowellWang17)).
 
-Often one demands additional properties, such as that a given set of [[linear operators]] $O$ ([[quantum observables]]) acting on $\psi \in \mathcal{H}$ are implemented on $code(\psi)$ by combionations of operators that act non-trivially only on some of the tensor factors (and hence are unaffected by errors in the remaining factors).
+(Often one demands additional properties, such as that a given set of [[linear operators]] $O$ ([[quantum observables]]) acting on $\psi \in \mathcal{H}$ are implemented on $code(\psi)$ by combionations of operators that act non-trivially only on some of the tensor factors.)
+
+While this is superficially analogous to a classical [[error correcting code]], the crucial and subtle difference is that quantum error correction codes thus take place in a non-[[cartesian monoidal category|Cartesian]] [[symmetric monoidal category|symmetric]] [[monoidal category]]. For this reason, effects of [[quantum entanglement]] play a paramount role in quantum error correction codes.
+
 
 ## Example
 
@@ -221,6 +249,8 @@ See at *[[Majorana dimer code]]*.
 
 ## Related concepts
 
+* [[error correcting code]]
+
 * [[quantum entanglement]], [[holographic quantum entanglement]]
 
 * [[quantum computing]], [[topological quantum computing]]
@@ -233,9 +263,26 @@ See at *[[Majorana dimer code]]*.
 
 ### General
 
+Original articles:
+
+* [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
+
+* [[Andrew M. Steane]], *Error Correcting Codes in Quantum Theory*, Phys. Rev. Lett. 77, 793 1996 ([doi:10.1103/PhysRevLett.77.793](https://doi.org/10.1103/PhysRevLett.77.793))
+
+* [[Robert Calderbank]], [[Peter W. Shor]], *Good Quantum Error-Correcting Codes Exist*, Phys. Rev. A, Vol. 54, No. 2, pp. 1098-1106, 1996 ([doi:10.1103/PhysRevA.54.1098](https://doi.org/10.1103/PhysRevA.54.1098))
+
+* Charles H. Bennett, David P. DiVincenzo, John A. Smolin, William K. Wootters, *Mixed State Entanglement and Quantum Error Correction*, Phys. Rev. A54:3824-3851, 1996 ([doi:10.1103/PhysRevA.54.3824](https://doi.org/10.1103/PhysRevA.54.3824))
+
+Introductions:
+
 * Simon J. Devitt, Kae Nemoto, William J. Munro, _Quantum Error Correction for Beginners_, Rep. Prog. Phys. 76 (2013) 076001 ([arXiv:0905.2794](https://arxiv.org/abs/0905.2794))
 
-* [[Eric Rowell]], [[Zhenghan Wang]], Section 3.2.3 of: _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
+Specifically on quantum error correcting codes:
+
+* Simeon Ball, Aina Centelles, Felix Huber, *Quantum error-correcting codes and their geometries* ([arXiv:2007.05992](https://arxiv.org/abs/2007.05992))
+
+
+* {#RowellWang17} [[Eric Rowell]], [[Zhenghan Wang]], Section 3.2.3 of: _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
 See also
 
