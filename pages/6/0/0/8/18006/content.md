@@ -26,15 +26,23 @@ In [[coding theory]], a _linear code_ is a [[linear subspace]] of a [[vector spa
 
 * [[adinkra]] 
 
-## Link
+* [[quantum error correcting code]]
 
-* Wikipedia, _[Linear code](https://en.wikipedia.org/wiki/Linear_code)_
 
 ## References
 
-* Patrick J. Morandi, _Error Correcting Codes and Algebraic Curves_ , lecture notes New Mexico State University 2001. ([pdf](http://www.math.nmsu.edu/~pmorandi/math601f01/LectureNotes.pdf))
+* [[Patrick Morandi]], _Error Correcting Codes and Algebraic Curves_ , lecture notes New Mexico State University 2001. ([pdf](http://www.math.nmsu.edu/~pmorandi/math601f01/LectureNotes.pdf))
 
 * Jay A. Wood, _Spinor groups and algebraic coding theory_ , J.Combinatorial Th. Series A **51** (1989) pp.277-313. (available online)
 
+See also:
+
+* Wikipedia, _[Linear code](https://en.wikipedia.org/wiki/Linear_code)_
+
 
 [[!redirects linear codes]]
+
+[[!redirects error correcting code]]
+[[!redirects error correcting codes]]
+[[!redirects error-correcting code]]
+[[!redirects error-correcting codes]]
