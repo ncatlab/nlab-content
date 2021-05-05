@@ -86,10 +86,11 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 
 ## Related concepts
 
+* [[(0,1)-presheaf]] / [[(0,1)-sheaf]]
+
 * [[presheaf]] /  [[sheaf]] / **cosheaf**
 
-* [[2-sheaf]] / [[stack]]
-
+* [[2-sheaf]] / [[stack]] 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
 
 * [[Lawvere distribution]]
