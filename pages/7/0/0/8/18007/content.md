@@ -1,5 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
  
-A certain class of [[linear codes]] used for error-correction in communication protocols.
+A certain class of [[linear codes]] used for [[error correction]] in communication protocols.
 
 ## References
 
