@@ -21,21 +21,25 @@ Just as a [[groupoid]] is the [[oidification]] of a [[group]] and a [[ringoid]] 
 
 ## Definition
 
-### With a class of morphisms
+### With a set of morphisms
 
-Let $Q$ be a [[quiver]] with a class of objects $Ob(Q)$, a class of morphisms $Mor(Q)$, for every morphism $f\in Mor(Q)$ an object $s(f)\in Ob{Q}$ called the __source__ or __domain__ of $f$ and an object $t(f) \in Ob{Q}$ called the __target__ or __codomain__ of $f$. A __magmoid__ is a [[partial map|partial binary operation]] 
+Let $Q$ be a [[quiver]] with a collection of objects $Ob(Q)$, a set of morphisms $Mor(Q)$, a function $s: Mor(Q) \to Ob(Q)$ called the __source__ or __domain__ and a function $t: Mor(Q) \to Ob(Q)$ called the __target__ or __codomain__. A __magmoid__ is a [[partial map|partial binary operation]] 
 
 $$\left(-\right)\circ\left(-\right): Mor(Q) \times Mor(Q) \to Mor(Q) + 1$$ 
 
 with coproduct injections $inj:Mor(Q) \to Mor(Q) + 1$ and $pt: 1 \to Mor(Q) + 1$, such that for $f, g \in Mor(Q)$, there is a function $h$ in the inverse image of $inj(h) = f \circ g$ if $s(f) = t(g)$, and $f \circ g = pt(\bullet)$ otherwise. 
 
-### With a family of classes of morphisms
+### With a family of sets of morphisms
 
-Let $Q$ be a [[quiver]] with a class of objects $Ob(Q)$ and for all objects $a, b \in Ob(Q)$, a class of morphisms $Mor(a,b)$. A __magmoid__ is a quiver $Q$ with a binary operation 
+Let $Q$ be a [[quiver]] with a collection of objects $Ob(Q)$ and a [[Set]]-valued functor $Mor: Ob(Q) \times Ob(Q) \to Set$ for all objects $a, b \in Ob(Q)$. A __magmoid__ is a quiver $Q$ with a binary operation 
 
 $$\left(-\right)\circ\left(-\right): Mor(b,c) \times Mor(a,b) \to Mor(a,c)$$ 
 
 for all $a,b,c \in Ob(Q)$. 
+
+### Weak and strict magmoids
+
+A __weak magmoid__ is a magmoid $Q$ whose collection of objects $Ob(Q)$ form a [[groupoid]], while a __strict magmoid__ is a magmoid $Q$ whose collection of objects $Ob(Q)$ form a [[set]]. 
 
 ## Examples
 
