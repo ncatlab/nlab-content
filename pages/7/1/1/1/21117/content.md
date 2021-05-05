@@ -70,7 +70,9 @@ While this is superficially analogous to a classical [[error correcting code]], 
 
 ## Example
 
-### A 3-qtrit code
+### Specific examples
+
+#### A 3-qtrit code
  {#A3FoldqtritCode}
 
 The following is a simple illustrative example from [Cleve, Gottesman & Lo 99, p. 1-2](#CleveGottesmanLo99):
@@ -206,8 +208,7 @@ $$
   \right)
 $$
 
-### The HaPPY code
-
+#### The HaPPY code
 
 The [[HaPPY code]] is a [[quantum error correction code]] (a class of such codes really, indexed by a "cutoff" [[natural number]]) which is thought to exhibit characteristic properties akin to the encoding of [[bulk]]-[[quantum states]] by [[boundary field theory|boundary]]-states expected in the [[AdS/CFT correspondence]]. In particular, the HaPPY code (or rather the [[tensor network]] that defines it) exhibits a discretized form of the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]].
 
@@ -242,16 +243,22 @@ Concretely, the the HaPPY [[code subspace]] is the [[image]] of the [[linear map
 
 and thus as a [[linear map]] form the [[tensor product]] over the [[bulk]]-[[vertices]] to the [[tensor product]] over the edges sticking out over the boundary.
 
-### Majorana dimer codes
+#### Majorana dimer codes
 
 See at *[[Majorana dimer code]]*.
+
+### Classes of examples
+
+* [[stabilizer code]]
 
 
 ## Related concepts
 
 * [[error correcting code]]
 
-* [[quantum entanglement]], [[holographic quantum entanglement]]
+* [[quantum entanglement]]
+
+* [[entanglement entropy]], [[holographic entanglement entropy]]
 
 * [[quantum computing]], [[topological quantum computing]]
 
