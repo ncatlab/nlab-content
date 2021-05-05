@@ -96,7 +96,7 @@ One obtains Sullivan chord diagrams with $p$ disjoint embedded circles from [[ho
 <img src="https://ncatlab.org/nlab/files/ClosingHorizontalChordsToSullivanChordsIII.jpg" width="800">
 </center>
 
-> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 ## Related concepts
 
