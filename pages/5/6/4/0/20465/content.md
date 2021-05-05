@@ -94,11 +94,11 @@ Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] and the [[3d-
 
 * Sam van Leuven, Gerben Oling, _Generalized Toda Theory from Six Dimensions and the Conifold_, J. High Energ. Phys. (2017) 2017: 50 ([arxiv:1708.07840](https://arxiv.org/abs/1708.07840))
 
-See also
-
+See also:
 
 * Julius Eckhard, Heeyeon Kim, [[Sakura Schafer-Nameki]], Brian Willett, _Higher-Form Symmetries, Bethe Vacua, and the 3d-3d Correspondence_ ([arxiv:1910.14086](https://arxiv.org/abs/1910.14086))
 
+* Yale Fan, *3D-3D Correspondence from Seifert Fibering Operators* ([arXiv:2008.13202](https://arxiv.org/abs/2008.13202))
 
 
 ### Black 5-branes and AdS/CFT
