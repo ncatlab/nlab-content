@@ -63,6 +63,9 @@ An English translation appears in the Journal of Soviet Mathematics 6 (1976) pp.
 
 * Peter W. O'Hearn and David J. Pym. The Logic of Bunched Implications. _Bulletin of Symbolic Logic_ 5(2):215-244. ([pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf)) ([doi](https://dx.doi.org/10.2307%2F421090))
 
+* Stephen Read, _Relevant Logic: A Philosophical Examination of Inference_, 2012, ([pdf](https://www.st-andrews.ac.uk/~slr/Relevant_Logic.pdf))
+
+
 [[!redirects relevance logics]]
 [[!redirects relevant logic]]
 [[!redirects relevant logics]]
