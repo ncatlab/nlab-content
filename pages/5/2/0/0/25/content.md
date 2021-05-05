@@ -20,7 +20,7 @@
 _Horizontal categorification_ or _Oidification_ 
 describes the process by which 
 
- 1. a concept is realized to be equivalent to a certain type of [[category]] or [[magma]] with a _single [[object]]_;
+ 1. a concept is realized to be equivalent to a certain type of [[category]] or [[magmoid]] with a _single [[object]]_;
 
  2. and then this concept is generalized -- or oidified -- by passing to instances of such types of categories with more than one object.
 
