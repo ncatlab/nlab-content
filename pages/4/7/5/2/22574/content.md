@@ -19,7 +19,7 @@
 
 A notion of [[entropy]]. (...)
 
-For finite [[quantum systems]], with $\rho$ a [[density matrix]], its min-entropy is the [[logarithm]] of the inverse of its [[maximum]] [[eigenvalue]]:
+For finite [[quantum systems]] with [[density matrix]] $\rho$, the min-entropy is the [[logarithm]] of the inverse of its [[maximum]] [[eigenvalue]]:
 
 $$
   S_{min}(\rho)
