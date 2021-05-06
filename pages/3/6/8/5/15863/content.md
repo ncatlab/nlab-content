@@ -51,6 +51,8 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * A Boolean algebra provides a (degenerate) example of a bi-Heyting algebra by setting $x\Rightarrow y:=\neg x\vee y$ and $x\backslash y:=x\wedge\neg y$.
 
+* An [[irreflexive]] [[comparison]], such as an [[apartness relation]] or a [[linear order]], is a [[(0,1)-category]] [[enriched category|enriched]] on the co-Heyting algebra $\Omega^\op$, where $\Omega$ is the Heyting algebra of [[truth values]].
+
 ##Properties
 
 * $a\backslash b=0$ iff $a\backslash b\leq 0$ iff $a\leq b\vee 0$ iff $a\leq b$. In particular, $a\backslash a=0$.
@@ -65,7 +67,7 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * $\sim$ in turn can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and points to the utility of co-Heyting algebras for [[paraconsistent logic]].
 
-* In [[bi-Heyting toposes]] like e.g. [[essential subtoposes]] of presheaf toposes ([Lawvere](#Law91a), [Reyes](#Reyes)), the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _[[de re and de dicto]]_ effects. The parallel between this and the [[commutator]] in quantum mechanics has been suggested by Lawvere thereby somewhat anticipating the view of D&#246;ring (2013).
+* In [[bi-Heyting toposes]] like e.g. [[essential subtoposes]] of presheaf toposes ([Lawvere](#Law91a), [Reyes](#Reyes)), the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _[[de re and de dicto]]_ effects. The parallel between this and the [[commutator]] in quantum mechanics has been suggested by Lawvere thereby somewhat anticipating the view of D&#246;ring (2013). 
 
 ##Related entries
 
