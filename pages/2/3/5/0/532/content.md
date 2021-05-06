@@ -30,7 +30,7 @@ In the first, if we are given a $(n,i)$-[[horn]], then there is _exactly one_ $n
 
 Abstracting, in part, from this idea, Brown and Higgins developed the idea of a [[cubical T-complex]]. This was a [[cubical set|cubical set]] with in each dimension $n$,  a subset of the $n$-[[cube]]s being declared _'thin'_. The term was adopted to indicate that they, somehow, were of lower dimension than they looked to be.  The theory was initiated in a simplicial context in the 1977 Bangor thesis of Keith Dakin listed below, and used by Brown and Higgins who showed that cubical $T$-complexes were equivalent to  [[crossed complex|crossed complexes]].  The corresponding simplicial $T$-complex theory was further developed in the 1978  Bangor thesis of  Nick Ashley, (see below for publication).
 
-##SImplicial $T$-complex: the definition
+##Simplicial $T$-complex: the definition
 
 +--{: .un_defn}
 ######Definition######
