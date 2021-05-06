@@ -23,7 +23,7 @@ Just as a [[groupoid]] is the [[oidification]] of a [[group]] and a [[ringoid]] 
 
 ### With a set of morphisms
 
-Let $Q$ be a [[quiver]] with a collection of objects $Ob(Q)$, a set of morphisms $Mor(Q)$, a function $s: Mor(Q) \to Ob(Q)$ called the __source__ or __domain__ and a function $t: Mor(Q) \to Ob(Q)$ called the __target__ or __codomain__. A __magmoid__ is a [[partial map|partial binary operation]] 
+Let $Q$ be a [[quiver]] with a collection of objects $Ob(Q)$, a set of morphisms $Mor(Q)$, a function $s: Mor(Q) \to Ob(Q)$ called the __source__ or __domain__ and a function $t: Mor(Q) \to Ob(Q)$ called the __target__ or __codomain__. A __magmoid__ is a quiver $Q$ with a [[partial map|partial binary operation]] 
 
 $$\left(-\right)\circ\left(-\right): Mor(Q) \times Mor(Q) \to Mor(Q) + 1$$ 
 
