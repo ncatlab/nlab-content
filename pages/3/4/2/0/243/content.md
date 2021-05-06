@@ -627,6 +627,7 @@ More examples can be found in [Fosco](#Fosco).
 ## Related concepts
 
 * [[lax biend]]
+* [[(∞,1)-end]]
 
 [[!include homotopy-homology-cohomology]]
 
