@@ -3,16 +3,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Measure and probability theory
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
-#### Algebraic Quantum Field Theory
-+-- {: .hide}
-[[!include AQFT and operator algebra contents]]
 =--
 =--
-=--
+
+
 
 # Contents
 * table of contents
