@@ -6,9 +6,9 @@
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
-#### Quantum Field Theory
+#### Quantum systems
 +--{: .hide}
-[[!include AQFT and operator algebra contents]]
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
