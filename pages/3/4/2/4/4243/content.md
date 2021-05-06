@@ -28,11 +28,11 @@
 
 ## Idea
 
-What is called the _A-model_ [[topological string]] is the 2-dimensional [[topological conformal field theory]] corresponding to the [[Calabi?Yau category]] called the [[Fukaya category]] of a [[symplectic manifold]] $(X,\omega)$. This is the [[Poisson sigma-model]] of the underlying [[Poisson manifold]] after appropriate [[gauge fixing]] ([AKSZ 97, p 19](#AKSZ)). The A-model on $X$ is effectively the [[Gromov?Witten theory]] of $X$.
+What is called the _A-model_ [[topological string]] is the 2-dimensional [[topological conformal field theory]] corresponding to the [[Calabi–Yau category]] called the [[Fukaya category]] of a [[symplectic manifold]] $(X,\omega)$. This is the [[Poisson sigma-model]] of the underlying [[Poisson manifold]] after appropriate [[gauge fixing]] ([AKSZ 97, p 19](#AKSZ)). The A-model on $X$ is effectively the [[Gromov–Witten theory]] of $X$.
 
 The A-model arose in formal [[physics]] from considerations of [[string theory|superstring]]-propagation on [[Calabi-Yau spaces]]: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the [[supersymmetric sigma-model]] with [[target space]] $X$ and then deforming it such that one of the super-[[Virasoro algebra|Virasoro]] generators squares to $0$. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
 
-One can also define an A-model for [[Landau-Ginzburg model|Landau?Ginzburg models]]. The category of [[D-brane|D-branes]] for the corresponding [[open string]] theory is given by the [[Fukaya?Seidel category]].
+One can also define an A-model for [[Landau-Ginzburg model|Landau–Ginzburg models]]. The category of [[D-brane|D-branes]] for the corresponding [[open string]] theory is given by the [[Fukaya–Seidel category]].
 
 By [[homological mirror symmetry]], the A-model is dual to the  [[B-model]].
 
