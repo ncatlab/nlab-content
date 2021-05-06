@@ -11,7 +11,7 @@
 
 ## External links
 
-* [webpage](http://perimeterinstitute.ca/personal/cfuchs/)
+* [webpage](http://www.physics.umb.edu/Research/QBism/chris.html)
 
 
 category: people
