@@ -351,22 +351,25 @@ Implementation in [[experiment]]:
 
 ### Via holographic tensor networks
 
-On quantum error correction in terms of [[tensor networks]]:
+Introducing the idea of quantum error correcting codes given by [[tensor network states]]:
 
 * {#FerrisPoulin13} Andrew J. Ferris, [[David Poulin]], *Tensor Networks and Quantum Error Correction*, Phys. Rev. Lett. 113, 030501 (2014) ([arXiv:1312.4578](https://arxiv.org/abs/1312.4578))
 
+* Dave Bacon, Steven T. Flammia, Aram W. Harrow, Jonathan Shi, *Sparse Quantum Codes from Quantum Circuits*, Proc. of STOC '15, pp. 327-334 (2015); IEEE Transactions on Information Theory, vol 63, no 4, pp 2464-2479, April 2017 ([arXiv:1411.3334](https://arxiv.org/abs/1411.3334))
 
-Interpretation of [[tensor networks]] encoding [[holographic entanglement entropy]] as [[quantum error correcting codes]]:
+Interpretation of [[holographic tensor networks]] encoding [[holographic entanglement entropy]] in models for [[AdS2-CFT1 duality]] as [[quantum error correcting codes]]:
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041), <a href="https://doi.org/10.1007/JHEP04(2015)163">doi:10.1007/JHEP04(2015)163</a>)
 
   > using [Bény-Kempf-Kribs 06](#BenyKempfKribs06)
 
-with a precursor observation in 
+with precursor observations in 
 
 * [[Beni Yoshida]], *Information storage capacity of discrete spin systems*, Annals of Physics 338, 134 (2013) ([arXiv:1111.3275](https://arxiv.org/abs/1111.3275))
 
   > (focus on classical [[error correcting codes]])
+
+* Jose I. Latorre, German Sierra, *Holographic codes* ([arXiv:1502.06618](https://arxiv.org/abs/1502.06618))
 
 and concrete implementation by the [[HaPPY code]]:
 
@@ -377,8 +380,6 @@ Review:
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_, PoS TASI2017 (2018) 002 ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040), [doi:10.22323/1.305.0002](https://doi.org/10.22323/1.305.0002))
 
 see also
-
-* Jose I. Latorre, German Sierra, *Holographic codes* ([arXiv:1502.06618](https://arxiv.org/abs/1502.06618))
 
 
 * [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
@@ -398,6 +399,10 @@ Further discussion of holographic quantum error correcting codes:
 
 
 * ChunJun Cao, Brad Lackey, *Approximate Bacon-Shor Code and Holography* ([arXiv:2010.05960](https://arxiv.org/abs/2010.05960))
+
+Understanding in terms of the [[eigenstate thermalization hypothesis]]:
+
+* Ning Bao, Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
 
 
 [[!redirects quantum error correction code]]
