@@ -34,7 +34,7 @@ While in the original context of the [[AdS-CFT correspondence]] the Ryu-Takayana
 
 1. from [[condensed matter physics]] (see also at *[[AdS/CMT]]*).
 
-The power of these [[quantum information theory]]-methods in making precise and detailed sense of [[quantum gravity]] in a [[holography|holographic]] [[bulk]] [[spacetime]] has re-inforced the earlier idea in [[AdS/CFT]] that notions of [[spacetime]] and of [[quantum gravity]] may be holographically defined and in fact *emerge* from non-gravitational [[quantum physics]], and here specifically from [[quantum entanglement]] -- an idea that has become known under the slogan "[It from Qbit](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)". Just to keep in mind that, a priori, this applies "only" to the *extra* (higher) [[bulk]] [[dimension|dimensions]] of [[spacetime]], while the definition of the [[boundary field theory]] typically relies on some notion domain space(-time) already (maybe unless one considers bulk duals of [[D(-1)-branes]]...).
+The power of these [[quantum information theory]]-methods in making precise and detailed sense of [[quantum gravity]] in a [[holography|holographic]] [[bulk]] [[spacetime]] has re-inforced the earlier idea in [[AdS/CFT]] that notions of [[spacetime]] and of [[quantum gravity]] may be holographically defined and in fact *emerge* from non-gravitational [[quantum physics]], and here specifically from [[quantum entanglement]] -- an idea that has become known under the slogan "[It from Qbit](#SimonsFoundationItFromQBit)". Just to keep in mind that, a priori, this applies "only" to the *extra* (higher) [[bulk]] [[dimension|dimensions]] of [[spacetime]], while the definition of the [[boundary field theory]] typically relies on some notion domain space(-time) already (maybe unless one considers bulk duals of [[D(-1)-branes]]...).
 
 
 
@@ -370,6 +370,12 @@ Discussion in terms of [[DHR superselection theory]]:
 
 * {#CHMP19} Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
 
+
+Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
+
+* {#SimonsFoundationItFromQBit} [[Simons Foundation]], *[It from Qubit: Simons Collaboration on Quantum Fields, Gravity and Information](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)*
+
+* [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
 
 
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
