@@ -42,7 +42,7 @@ A Heyting algebra is a [[bicartesian closed category|bicartesian closed]] [[pose
 
 * [[finitely complete category|finitely complete]], 
 
-* finitely cocomplete, 
+* [[finitely cocomplete category|finitely cocomplete]], 
 
 * and [[cartesian closed category|cartesian closed]].
 =--
