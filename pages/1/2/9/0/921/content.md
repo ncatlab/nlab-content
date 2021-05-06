@@ -116,18 +116,24 @@ See [[locale of real numbers]] for more.
 
 The real line $\mathbb{R}$, or at least the positive real line $\mathbb{R}^+$, may be characterized as the [[terminal object|terminal]] [[coalgebra for an endofunctor]]
 
-Let [[Pos]] be the [[category]] of [[poset]]s. Consider the endofunctor
+Let [[Pos]] be the [[category]] of [[poset]]s with a [[forgetful functor]]
+
+$$ 
+  U\colon Pos \to Set
+$$
+
+Consider the endofunctor
 
 $$
   F_1\colon Pos \to Pos
 $$
 
-that acts by [[ordinal product]] with $\omega$,
+defined as the [[ordinal product]]
 
 $$
   F_1\colon X \mapsto \omega \cdot X,
 $$ 
-where $\omega \cdot X$ is $\omega \times X$ with the [[lexicographic order]]. 
+for $\omega \in Pos$, where $\omega \cdot X$ is the [[cartesian product]] $U(\omega) \times U(X)$ with the [[lexicographic order]]. 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -144,7 +150,7 @@ There are many ways of setting up this description of $\mathbb{R}^+$, depending 
 
 $$(\alpha, \beta): [1, \infty) \to \mathbb{N}_{\geq 2} \cdot [1, \infty)$$ 
 
-where $\alpha(x)$ is the smallest integer strictly greater than $x$, and $\beta(x) = 1/(\alpha(x) - x)$. The stream of integers $a_n = \alpha(\beta^n(x))$ gives a continued fraction representation of $x$ in the form
+where $\alpha(x)$ is the smallest integer strictly greater than $x$, and $\beta(x) = 1/(\alpha(x) - x)$. The stream of integers $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form
 
 $$x = a_0 - \frac1{a_1 - \frac1{a_2 - \ldots}},$$ 
 
@@ -160,8 +166,7 @@ where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1
 $$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$ 
 and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is again a poset isomorphism if we endow the right-hand side with the lexicographic order.
 
-There are more and similar characterizations along these lines.  One is an example at [[final coalgebra]].
-
+There are more and similar characterizations along these lines.  One is an example at [[terminal coalgebra]].
 
 ## Topologies
 {#Topologies}
