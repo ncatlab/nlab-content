@@ -26,7 +26,7 @@ A magma is called
 
 * _[[associative magma|associative]]_ if the binary operation satisfies the [[associativity]] condition $(x \cdot y) \cdot z = x \cdot (y \cdot z)$. 
 
-The term 'magma' is from [[Bourbaki]] and intends to suggest the fluidity of the concept; special cases include [[semigroups]]/[[monoids]], [[quasigroups]], [[groups]], and so on.  The term 'groupoid' is also used, but here that word means [[groupoid|something else]] (see also related discussion at [[historical notes on quasigroups]]).
+The term 'magma' is from [[Bourbaki]] and intends to suggest the fluidity of the concept; special cases include [[unital magmas]], [[semigroups]]/[[monoids]], [[quasigroups]], [[groups]], and so on.  The term 'groupoid' is also used, but here that word means [[groupoid|something else]] (see also related discussion at [[historical notes on quasigroups]]).
 
 More generally, in any [[multicategory]] $M$, a **magma object** or **magma in $M$** is an [[object]] $X$ of $M$ equipped with a [[multimorphism]] $m: X, X \to X$ in $M$.  Here the multimorphism from $X$ and $X$ to $X$ is a __binary operation in $M$__.  In particular, for $M$ a [[monoidal category]], a magma structure on $X$ is a [[morphism]] $m\colon X \otimes X \to X$; and in a [[closed category]], a magma structure on $X$ is a morphisms $m\colon X \to [X, X]$.
 
@@ -47,6 +47,8 @@ For a magma $(A, \cdot)$ and for all elements $a, b, c:A$, a magma is __left ext
 ## Related concepts
 
 * [[magmoid]]
+
+* [[magmoidal category]]
 
 * [[n-ary operation]]
 
