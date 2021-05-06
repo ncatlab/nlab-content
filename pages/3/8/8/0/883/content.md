@@ -15,6 +15,7 @@ which generalises from $3$ to any (finite, positive) number of elements.  To inc
 
 Comparisons are most often studied in [[constructive mathematics]].  In particular, the relation $\lt$ on the (located Dedekind) [[real numbers]] is a comparison, even though its [[negation]] $\geq$ is not constructively [[total relation|total]].  (Indeed, $\lt$ is a [[linear order]], even though $\geq$ is not constructively a [[total order]].)
 
+A comparison is a [[cartesian monoidal category|cartesian monoidal]] [[semicategory]] [[enriched category|enriched]] on the [[co-Heyting algebra]] $TV^\op$, where $TV$ is the [[Heyting algebra]] of [[truth values]].
 
 [[!redirects comparison]]
 [[!redirects comparison relation]]
