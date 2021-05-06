@@ -27,7 +27,7 @@ Formally, a **signature** $\Sigma$ consists of
 
 * A set $S$ whose elements are called **sorts** or **[[types]]** of $\Sigma$, 
 
-* A set $Rel(\Sigma)$ whose elements are called **relation symbols**, equipped with a function $ar: Rel(\Sigma) \to S^*$ to the [[free monoid]] on $S$ which prescribes an **arity** for each relation symbol, 
+* A set $Rel(\Sigma)$ whose elements are called **relation symbols**, equipped with a function $ar: Rel(\Sigma) \to S^*$ to the [[free monoid]] on $S$ which prescribes an [[arity]] for each relation symbol, 
 
 * A set $Func(\Sigma)$ whose elements are called **function symbols**, equipped with a function 
 $$\langle dom, cod \rangle: Func(\Sigma) \to S^* \times S$$ 
