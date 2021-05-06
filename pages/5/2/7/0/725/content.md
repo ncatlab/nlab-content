@@ -85,3 +85,6 @@ As a poset is a special kind of [[category]], a meet is simply a [[product]] in 
 [[!redirects greatest lower bounds]]
 [[!redirects glb]]
 [[!redirects glbs]]
+[[!redirects (0,1)-limit]]
+[[!redirects (0,1)-limits]]
+
