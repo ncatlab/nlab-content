@@ -53,6 +53,6 @@ A [[semicategory]] is a magmoid where the binary operation is [[associative]], a
 
 * [[oidification]]
 
-* [[magma category]]
+* [[magmoidal category]]
 
 [[!redirects magmoids]]
