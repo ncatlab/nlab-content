@@ -7,6 +7,8 @@
 
   * [[quantum state]]
 
+    * [[qbit]], [[dimer]], [[tensor network state]]
+
     * [[space of states (in geometric quantization)]]
 
     * [[state on a star-algebra]], [[quasi-state]]
@@ -17,17 +19,23 @@
 
       * [[wave function]]
 
-        * [[bra-ket]]
-
-        * [[wave function collapse]]
+      * [[bra-ket]]
 
     * [[superposition]], [[quantum interference]]
+
+    * [[quantum measurement]]
+
+      [[wave function collapse]]
+
+      [[measurement problem]]
 
     * [[superselection sector]]
 
     * [[mixed state]], [[density matrix]]
 
       [[entanglement entropy]]
+
+      [[holographic entanglement entropy]]
    
     * [[coherent quantum state]]
 
