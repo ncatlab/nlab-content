@@ -356,10 +356,17 @@ On quantum error correction in terms of [[tensor networks]]:
 * {#FerrisPoulin13} Andrew J. Ferris, [[David Poulin]], *Tensor Networks and Quantum Error Correction*, Phys. Rev. Lett. 113, 030501 (2014) ([arXiv:1312.4578](https://arxiv.org/abs/1312.4578))
 
 
-Interpretation of [[tensor networks]] encoding [[holographic entanglement entropy]] as [[quantum error correcting codes]] (using [Bény-Kempf-Kribs 06](#BenyKempfKribs06)):
+Interpretation of [[tensor networks]] encoding [[holographic entanglement entropy]] as [[quantum error correcting codes]]:
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041), <a href="https://doi.org/10.1007/JHEP04(2015)163">doi:10.1007/JHEP04(2015)163</a>)
 
+  > using [Bény-Kempf-Kribs 06](#BenyKempfKribs06)
+
+with a precursor observation in 
+
+* [[Beni Yoshida]], *Information storage capacity of discrete spin systems*, Annals of Physics 338, 134 (2013) ([arXiv:1111.3275](https://arxiv.org/abs/1111.3275))
+
+  > (focus on classical [[error correcting codes]])
 
 and concrete implementation by the [[HaPPY code]]:
 
@@ -371,6 +378,9 @@ Review:
 
 see also
 
+* Jose I. Latorre, German Sierra, *Holographic codes* ([arXiv:1502.06618](https://arxiv.org/abs/1502.06618))
+
+
 * [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
 
 
@@ -381,6 +391,13 @@ Introduction of the more general [[Majorana dimer code]]:
 Review:
 
 * [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
+
+Further discussion of holographic quantum error correcting codes:
+
+* Robert J. Harris, Nathan A. McMahon, Gavin K. Brennen, Thomas M. Stace, *Calderbank-Steane-Shor Holographic Quantum Error Correcting Codes*, Phys. Rev. A 98, 052301 (2018) ([arXiv:1806.06472](https://arxiv.org/abs/1806.06472))
+
+
+* ChunJun Cao, Brad Lackey, *Approximate Bacon-Shor Code and Holography* ([arXiv:2010.05960](https://arxiv.org/abs/2010.05960))
 
 
 [[!redirects quantum error correction code]]
