@@ -357,11 +357,17 @@ Introducing the idea of quantum error correcting codes given by [[tensor network
 
 * Dave Bacon, Steven T. Flammia, Aram W. Harrow, Jonathan Shi, *Sparse Quantum Codes from Quantum Circuits*, Proc. of STOC '15, pp. 327-334 (2015); IEEE Transactions on Information Theory, vol 63, no 4, pp 2464-2479, April 2017 ([arXiv:1411.3334](https://arxiv.org/abs/1411.3334))
 
+following observations in
+
+* {#Swingle09} [[Brian Swingle]], _Entanglement Renormalization and Holography_, Phys. Rev. D 86, 065007 (2012) ([arXiv:0905.1317](https://arxiv.org/abs/0905.1317))
+
+* {#Swingle12} [[Brian Swingle]], _Constructing holographic spacetimes using entanglement renormalization_ ([arXiv:1209.3304](https://arxiv.org/abs/1209.3304), [spire:1185813](http://inspirehep.net/record/1185813))
+
 Interpretation of [[holographic tensor networks]] encoding [[holographic entanglement entropy]] in models for [[AdS2-CFT1 duality]] as [[quantum error correcting codes]]:
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041), <a href="https://doi.org/10.1007/JHEP04(2015)163">doi:10.1007/JHEP04(2015)163</a>)
 
-  > using [Bény-Kempf-Kribs 06](#BenyKempfKribs06)
+  > (using [Bény-Kempf-Kribs 06](#BenyKempfKribs06))
 
 with precursor observations in 
 
@@ -397,12 +403,22 @@ Further discussion of holographic quantum error correcting codes:
 
 * Robert J. Harris, Nathan A. McMahon, Gavin K. Brennen, Thomas M. Stace, *Calderbank-Steane-Shor Holographic Quantum Error Correcting Codes*, Phys. Rev. A 98, 052301 (2018) ([arXiv:1806.06472](https://arxiv.org/abs/1806.06472))
 
+* Tamara Kohler, Toby Cubitt, *Toy Models of Holographic Duality between local Hamiltonians*, 	J. High Energy Phys. 2019:17 (2019) ([arXiv:1810.08992](https://arxiv.org/abs/1810.08992))
+
+
 
 * ChunJun Cao, Brad Lackey, *Approximate Bacon-Shor Code and Holography* ([arXiv:2010.05960](https://arxiv.org/abs/2010.05960))
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
 * Ning Bao, Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
+
+Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
+
+* {#SimonsFoundationItFromQBit} [[Simons Foundation]], *[It from Qubit: Simons Collaboration on Quantum Fields, Gravity and Information](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)*
+
+* [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
+
 
 
 [[!redirects quantum error correction code]]
