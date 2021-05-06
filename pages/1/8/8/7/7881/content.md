@@ -78,13 +78,7 @@ $$N \hookrightarrow A\hookrightarrow N^N$$
 
 then there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $N^N \hookrightarrow A$.
 
-The set $N^N$ is typically called the [[Baire space of sequences]], and sometimes called the Baire real numbers in [[descriptive set theory]] and denoted as $B$. 
-
-In constructive mathematics, there is an [[homeomorphism]] between $N^N$ and the set of positive [[irrational numbers]] $J$ through infinite [[continued fractions]], so the real numbers could be constructed as the disjoint union $R \cong Q + 2 \times N^N$. The continuum hypothesis then becomes that if there is a series of monomorphisms such that 
-
-$$N \hookrightarrow A\hookrightarrow Q + 2 \times N^N$$
-
-then there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $Q + 2 \times N^N \hookrightarrow A$.
+The set $N^N$ is typically called the [[Baire space of sequences]], and sometimes called the Baire real numbers in [[descriptive set theory]] and denoted as $B$. In constructive mathematics, there is an [[homeomorphism]] between $N^N$ and the set of positive [[irrational numbers]] $J$ through infinite [[continued fractions]]. 
 
 ### In strongly predicative mathematics
 If neither power sets nor function sets exist, such as in a Boolean or Heyting [[pretopos|W-pretopos]], the mathematics is strongly predicative and the cardinality of the continuum is an [[inaccessible cardinal]]. Then, classically, the continuum hypothesis becomes the question of whether there is a cardinal between the inaccessible cardinal $\aleph_0$ and the inaccessible cardinal $\mathfrak{c}$. 
