@@ -55,22 +55,26 @@ See [[states]].
 
 ## References
 
+Textbook accounts
 
-There are a lot of textbooks about operator algebras, here are some examples:
+* [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_,
 
-The classic textbook is this:
+  * Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS 1997 ([ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
 
-* Kadison, Richard V.; Ringrose, John R., _Fundamentals of the theory of operator algebras I and II_, ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
+  * Vol II *Advanced Theory*, Graduate Studies in Mathematics **16**, AMS 1997 ([ISBN:978-0-8218-0820-7](https://bookstore.ams.org/gsm-16))
 
-  These have two accompanying volumes (same title, numbers III and IV) which contain complete solutions to the extensive list of excercises. Highly recommended.
+  * Vol III, *Special Topics, Elementary Theory -- An Exercise Approach*, Springer 1991 ([doi:10.1007/978-1-4612-3212-4](https://link.springer.com/book/10.1007/978-1-4612-3212-4), )
 
- * Gerard Murphy, _$C^\ast$-algebras and Operator Theory_
-
-One of the founders of the Tomito-Takesaki modular theory has recently published a three volume treatise in the Encyclopaedia of Mathematical Sciences:
+* [[Gerard Murphy]], _$C^\ast$-algebras and Operator Theory_, Academic Press 1990 ([doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6))
 
 * [[Masamichi Takesaki]], _Theory of operator algebras I, II and III_ ([pdf I](http://www.math.ucla.edu/~mt/Corrections1.pdf) [pdf II](http://www.math.ucla.edu/~mt/Corrections2.pdf) [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0990.46034&format=complete)).
 
-Lecture notes with an eye towards application in [[quantum physics]] includes
+* [[Kehe Zhu]], *An Introduction to Operator Algebras*, CRC Press 1993 ([ISBN:9780849378751](https://www.routledge.com/An-Introduction-to-Operator-Algebras/Zhu/p/book/9780849378751))
+
+* {#Schmuedgen90} [[Konrad Schmüdgen]], _Unbounded  operator  algebras  and  representation  theory_, Operator  theory, advances and applications, vol. 37. Birkh&#228;user, Basel (1990) ([doi:10.1007/978-3-0348-7469-4](https://link.springer.com/book/10.1007/978-3-0348-7469-4))
+
+
+Lecture notes with an eye towards application in [[quantum physics]]:
 
 * [[Klaas Landsman]], _Lecture notes on operator algebras_ (2011) ([pdf](http://www.math.ru.nl/~landsman/oa2011.pdf))
 
