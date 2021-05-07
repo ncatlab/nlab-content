@@ -14,6 +14,11 @@ On [[quantum optics]]:
 
 * Jan Pe&#345;ina, Zden&#283;k Hradil, Branislav Jur&#269;o, [[Quantum optics and fundamentals of physics]], Kluwer, Dodrecht-Boston 1994
 
+and [[integrable systems]]:
+
+* [[Branislav Jurčo]], *On quantum integrable models related to nonlinear quantum optics. An algebraic Bethe ansatz approach*,  J. Math. Phys. 30, 1739 (1989) ([doi:10.1063/1.528262](http://dx.doi.org/10.1063/1.528262))
+
+
 On the [[Yang-Baxter equation]] and [[integrable systems]]:
 
 
