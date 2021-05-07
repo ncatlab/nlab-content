@@ -96,12 +96,12 @@ Also:
 ## Baez's conjecture
 
 +-- {: .un_theorem}
-###### Conjecture ([[John Baez]])
+###### Conjecture (John Baez)
 
 Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the [[initial object|initial]] symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here; see [[2-limit]].  In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, up to an [[equivalence]] which is itself unique up to an [[isomorphism]] which is actually unique (up to [[equality]]).
 =--
 
-This conjecture has been established in ([Elgueta 20](#Elg20)). See also ([Comfort-Delpeuch-Hedges, Sec. 8](#CDH)).
+This conjecture has been established in ([Elgueta 2021](#Elg21)). See also ([Comfort-Delpeuch-Hedges, Sec. 8](#CDH)).
 
 ## Related concepts
 
@@ -136,11 +136,11 @@ where these categories are called _ring categories_. Discussion with an eye towa
 * [[Peter May]], _$E_\infty$ Ring Spaces and $E_\infty$ Ring spectra_, Springer lectures notes in mathematics, Vol. 533, (1977) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf)) chaper VI
  {#May}
 
-* Bertrand Guillou, _Strictification of categories weakly enriched in symmetric monoidal categories, arXiv:0909.5270
+* Bertrand Guillou, _Strictification of categories weakly enriched in symmetric monoidal categories, [arXiv:0909.5270](http://arxiv.org/abs/0909.5270)
  {#Guillou}
 
 
-* Ang&#233;lica Osorno, _Spectra associated to symmetric monoidal bicategories_ ([arXiv](http://arxiv.org/abs/1005.2227))
+* Ang&#233;lica Osorno, _Spectra associated to symmetric monoidal bicategories_ ([arXiv:1005.2227](http://arxiv.org/abs/1005.2227))
 
 A [[string diagram]] treatment of rig categories via _sheet diagrams_ is in
 
@@ -148,7 +148,8 @@ A [[string diagram]] treatment of rig categories via _sheet diagrams_ is in
 
 Biinitiality of the groupoid of finite sets is shown in 
 
-* {#Elg20} Josep Elgueta, _The groupoid of finite sets is biinitial in the 2-category of rig categories_, ([arXiv:2004.08684](https://arxiv.org/abs/2004.08684)).
+* {#Elg21} Josep Elgueta, _The groupoid of finite sets is biinitial in the 2-category of rig categories_, Journal of Pure and Applied Algebra
+**225** Issue 11 (2021) 106738, doi:[10.1016/j.jpaa.2021.106738](https://doi.org/10.1016/j.jpaa.2021.106738), [arXiv:2004.08684](https://arxiv.org/abs/2004.08684).
 
 [[!redirects rig category]]
 [[!redirects rig categories]]
