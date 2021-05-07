@@ -200,31 +200,36 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 The concept of entropy was introduced, by [[Rudolf Clausius]] in 1865, in the context of [[physics]], and then adapted to [[information theory]] by [[Claude Shannon]] in 1948, to [[quantum mechanics]] by [[John von Neumann]] in 1955, to [[ergodic theory]] by [[Andrey Kolmogorov]] and Sinai in 1958, and to [[topological dynamics]] by Adler, Konheim and McAndrew in 1965.
 
+Survey with an eye towards [[black hole entropy]]:
+
+* [[Ted Jacobson]], _Entropy from Carnot to Bekenstein_ ([arXiv:1810.07839](https://arxiv.org/abs/1810.07839))
+
+
+
+### In quantum probability theory
+ {#ReferencesInQuantumProbabilityTheory}
+
+Discussion of entropy in [[quantum probability theory]], hence for [[quantum states]] understood as positive linear functionals on the [[star-algebra]] [[algebra of observables|of observables]] ([[operator algebra|operator algebraic]] [[state on a star-algebra|states on star-algebras]]) and with their [[density matrices]] defined via the [[GNS construction]]:
+
+Introduction and survey:
+
+* A. P. Balachandran, T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, _Algebraic approach to entanglement and entropy_, Phys. Rev. A 88, 022301 (2013) ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
+
+* Paolo Facchi, Giovanni Gramegna, Arturo Konderak, *Entropy of quantum states* ([arXiv:2104.12611](https://arxiv.org/abs/2104.12611))
+
+* Erling St&#248;rmer, _Entropy in operator algebras_ ([pdf](http://www.researchgate.net/profile/Erling_Stormer/publication/228832297_Entropy_in_operator_algebras/links/02bfe50ed5ccabaf69000000.pdf?origin=publication_detail))
+
+
 [Relative entropy](#RelativeEntropy) of [[states]] on  [[von Neumann algebras]] was introduced in 
 
 * {#Araki} [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
  
 
-Survey with an eye towards [[black hole entropy]] includes
-
-* [[Ted Jacobson]], _Entropy from Carnot to Bekenstein_ ([arXiv:1810.07839](https://arxiv.org/abs/1810.07839))
-
-
-A survey of entropy in [[operator algebras]] is in 
-
-* Erling St&#248;rmer, _Entropy in operator algebras_ ([pdf](http://www.researchgate.net/profile/Erling_Stormer/publication/228832297_Entropy_in_operator_algebras/links/02bfe50ed5ccabaf69000000.pdf?origin=publication_detail))
-
-
-See also 
-
-* A. P. Balachandran, T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, _Algebraic approach to entanglement and entropy_ ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
-
 A large collection of references on quantum entropy is in 
 
-* Christopher Fuchs, _References for research in quantum distinguishability
-and state disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/BigRef.pdf))
+* [[Christopher Fuchs]], _References for research in quantum distinguishability and state disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/BigRef.pdf))
 
-### Categorical and cohomological interpretations
+### Category theoretic and cohomological interpretations
 
 A discussion of entropy with an eye towards the [[presheaf topos]] over the [[site]] of finite [[measure spaces]] is in 
 
