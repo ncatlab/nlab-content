@@ -98,15 +98,17 @@ This is due to ([Araki](#Araki)).
 
 ## References
 
-Relative entropy of [[state]]s on  [[von Neumann algebra]]s was introduced in 
+Relative entropy of [[state on a star-algebra|states]] on  [[von Neumann algebras]] was introduced in:
 
-* [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
- {#Araki}
+* {#Araki} [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_, Publications of the Research Institute for Mathematical Sciences, **11** 3 (1976) 809-833 ([pdf](https://ems.press/content/serial-article-files/2833), [doi:10.2977/prims/1195191148]( https://doi.org/10.2977/prims/1195191148))
+ 
 
 A characterization of [relative entropy](#OnFiniteDimensionalSpaces) on finite-[[dimension]]al [[C-star algebra]]s is given in 
 
-* D. Petz, _Characterization of the relative entropy of states of matrix algebras_ ([pdf](http://www.renyi.hu/~petz/pdf/52.pdf))
- {#Petz}
+* {#Petz} D. Petz, _Characterization of the relative entropy of states of matrix algebras_,  Acta Mathematica Hungarica **59** 3-4 (1992) ([doi:10.1007/bf00050907](https://doi.org/10.1007/bf00050907)) 
+
+
+ 
 
 
 A survey of entropy in [[operator algebra]]s is in 
