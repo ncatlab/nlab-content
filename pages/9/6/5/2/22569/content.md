@@ -20,7 +20,9 @@ A class of measures of [[entropy]] that are essentially logarithms of diversity 
 
 $$ H_\alpha(p) := \frac{1}{1-\alpha}\log\left(\sum_{i=1}^n p_i^\alpha\right) \, . $$
 
-The $\alpha \to 1$ limit recovers the [[Shannon entropy]], and the $\alpha \to \infty$ limit yields the [[min-entropy]]. The Rényi entropy of order 2,
+The $\alpha \to 1$ [[limit of a sequence|limit]] recovers the [[Shannon entropy]], and the $\alpha \to \infty$ [[limit of a sequence|limit]] yields the [[min-entropy]]. 
+
+The Rényi entropy of order 2,
 
 $$ H_2(p) = -\log \left(\sum_{i=1}^n p_i^2\right) \, , $$
 
@@ -29,6 +31,8 @@ is the negative logarithm of the "collision probability", i.e., the probability 
 ## Related concepts
 
 * [[min-entropy]]
+
+* [[holographic Renyi entropy]]
 
 ## References
 
@@ -39,6 +43,12 @@ Due to:
 See also
 
 * Wikipedia, *[Rényi entropy](https://en.wikipedia.org/wiki/R%C3%A9nyi_entropy)*
+
+On [[holographic Renyi entropy]] in relation to [[holographic entanglement entropy]] and [[quantum error correcting codes]]:
+
+* [[Xi Dong]], *The Gravity Dual of Renyi Entropy*, Nature Communications 7, 12472 (2016) ([arXiv:1601.06788](https://arxiv.org/abs/1601.06788), [doi:10.1038/ncomms12472]( https://doi.org/10.1038/ncomms12472))
+
+* [[Chris Akers]], [[Pratik Rath]], *Holographic Renyi entropy from quantum error correction*,  J. High Energ. Phys. 2019, 52 (2019) ([arXiv:1811.05171](https://arxiv.org/abs/1811.05171))
 
 [[!redirects Rényi entropies]]
 
