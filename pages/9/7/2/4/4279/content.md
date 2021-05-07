@@ -436,7 +436,7 @@ See at *[[Gleason's theorem]]*.
 
 * {#Meyer95} [[Paul-André Meyer]], Section I.1.1 in: *Quantum Probability for Probabilists*,  Lecture Notes in Mathematics **1538**, Springer 1995 ([doi:10.1007/BFb0084701](https://link.springer.com/book/10.1007/BFb0084701))
 
-* {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
+* {#Gleason09} [[Jonathan Gleason]], _The $C^\ast$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
 
 With an eye towards [[density matrices]] and their [[entropy]]:
 
