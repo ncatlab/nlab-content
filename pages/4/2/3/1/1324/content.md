@@ -56,7 +56,7 @@ $2 - n$;
 * with the differential of the $n$th generator given by
 $$ -
 \sum_{j+p+q = n}^{1 \lt p \lt n} (-1)^{j p + q} a_{p,j,n} ,$$
-where $a_{p,j,n}$ is $f_p$ attached to the $(j+1)$st input of $f_{n}$.
+where $a_{p,j,n}$ is $f_p$ attached to the $(j+1)$st input of $f_{n-p+1}$.
 
 This can be shown to be a standard free resolution of the linear associative operad in the context of dg-operads; see [Markl 94](http://arxiv.org/abs/hep-th/9411208), [proposition 3.3](http://arxiv.org/PS_cache/hep-th/pdf/9411/9411208v1.pdf#page=13); therefore it is an $A_\infty$ operad.
 
