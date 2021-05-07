@@ -154,27 +154,30 @@ Another definition of the integers as an inductive type:
     | axiom2 : forall (x : int) succ neg succ x == neg x
     | contr1 : forall (x y : int) (p q : x == y), p == q.
 
-A definition of the [[commutative ring]] of integers as a higher inductive type. 
+### Polynomial rings over integers
 
-    Inductive int : Type :=
-    | zero : int
-    | one : int
-    | neg : int -> int
-    | add : int -> int -> int
-    | mult : int -> int -> int
-    | alunital : forall (x : int) add zero x == x
-    | arunital : forall (x : int) add x zero == x
-    | aassoc : forall (x y z : int) add x (add y z) == add (add x y) z
-    | acomm : forall (x y : int) add x y = add y x
-    | alinv : forall (x : int) add (neg x) x == zero
-    | arinv : forall (x : int) add x (neg x) == zero
-    | ldist : forall (x y z : int) mult x (add y z) == add (mult x y) (mult x z)
-    | rdist : forall (x y z : int) mult (add x y) z == add (mult x z) (mult y z)
-    | mlunital : forall (x : int) mult one x == x
-    | mrunital : forall (x : int) mult x one == x
-    | massoc : forall (x y z : int) mult x (mult y z) == mult (mult x y) z
-    | mcomm : forall (x y : int) mult x y = mult y x
-    | contr1 : forall (x y : int) (p q : x == y), p == q.
+A definition of the [[polynomial ring]] over the integers with a set of indeterminants $A$. 
+
+    Inductive intpoly (A: Type)  :=
+    | indet : A -> intpoly(A)
+    | zero : intpoly(A)
+    | one : intpoly(A)
+    | neg : intpoly(A) -> intpoly(A)
+    | add : intpoly(A) -> intpoly(A) -> intpoly(A)
+    | mult : intpoly(A) -> intpoly(A) -> intpoly(A)
+    | alunital : forall (x : intpoly(A)) add zero x == x
+    | arunital : forall (x : intpoly(A)) add x zero == x
+    | aassoc : forall (x y z : intpoly(A)) add x (add y z) == add (add x y) z
+    | acomm : forall (x y : intpoly(A)) add x y = add y x
+    | alinv : forall (x : intpoly(A)) add (neg x) x == zero
+    | arinv : forall (x : intpoly(A)) add x (neg x) == zero
+    | ldist : forall (x y z : intpoly(A)) mult x (add y z) == add (mult x y) (mult x z)
+    | rdist : forall (x y z : intpoly(A)) mult (add x y) z == add (mult x z) (mult y z)
+    | mlunital : forall (x : intpoly(A)) mult one x == x
+    | mrunital : forall (x : intpoly(A)) mult x one == x
+    | massoc : forall (x y z : intpoly(A)) mult x (mult y z) == mult (mult x y) z
+    | mcomm : forall (x y : intpoly(A)) mult x y = mult y x
+    | contr1 : forall (x y : intpoly(A)) (p q : x == y), p == q.
 
 ### Localization
 
