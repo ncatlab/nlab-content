@@ -61,6 +61,10 @@ On the [[cochain cohomology]] of [[graph complexes]]:
 
 * [[Dror Bar-Natan]], [[Brendan McKay]], _Graph cohomology -- An overview and some computations_ ([[BarNatanMcKayGraphCohomology.pdf:file]])
 
+On the [[Cayley distance kernel]]:
+
+* {#BarNatan21} [[Dror Bar-Natan]], *[AcademicPensieve](http://drorbn.net/AcademicPensieve/)* [2021-05](http://drorbn.net/AcademicPensieve/2021-05/), *The Cayley distance kernel following arXiv://2105.0287 by Corfield, Sati, and Schreiber* ([nb](http://drorbn.net/AcademicPensieve/2021-05/CayleyDistanceKernel.nb), [pdf](http://drorbn.net/AcademicPensieve/2021-05/nb/CayleyDistanceKernel.pdf), [[BarNatanCayleyDistanceKernelnb.pdf:file]])
+
 
 
 
