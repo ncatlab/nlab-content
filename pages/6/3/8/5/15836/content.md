@@ -64,9 +64,9 @@ Given a specification of $S$ and $A$, it may be that there exist certain states 
 
 ## History
 
-People have implied (for example at the beginning of [Caves, Fuchs, & Schack, 2001](#CFS2001)) that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]] (for more on this suggestion see also at _[[Bohr topos]]_), and people have implied (in the first paper at [Fuchs, n.d.](#Fuchs)) that it is what [[Albert Einstein]] was groping towards when he attacked Bohr, and still others ([[Ray Streater]] as cited in [Wikimedia Foundation, n.d.](#Wikimedia)) have implied that it is what [[John von Neumann]] was doing when he eschewed interpretation for mathematical axioms.  Any time that somebody has described a quantum state as containing information, or being given by an experimenter\'s knowledge, or being different for one observer than for another, the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
+People have implied (for example at the beginning of [Caves, Fuchs, & Schack, 2001](#CFS2001)) that this is what [[Niels Bohr]] meant all along when he put forth the [[Copenhagen interpretation]] (for more on this suggestion see also at _[[Bohr topos]]_), and people have implied (in [Fuchs, 2002](#Fuchs2002)) that it is what [[Albert Einstein]] was groping towards when he attacked Bohr, and still others ([[Ray Streater]] as cited in [Wikimedia Foundation, n.d.](#Wikimedia)) have implied that it is what [[John von Neumann]] was doing when he eschewed interpretation for mathematical axioms.  Any time that somebody has described a quantum state as containing information, or being given by an experimenter\'s knowledge, or being different for one observer than for another, the Bayesian interpretation is implicit.  Arguably, it is implicit in any statement that the wavefunction describes probabilities, if [[probability]] is treated as Bayesian.  However, the *explicit* exposition of this interpretation seems to have come rather late.
 
-The earliest linking of Bayesianism to quantum states as states of knowledge, as far as I have seen, is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)) (and this is not the origin of these ideas either), but this still allows other interpretations.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]] ([Fuchs, n.d.](#Fuchs)).
+The earliest linking of Bayesianism to quantum states as states of knowledge, as far as I have seen, is Usenet discussion in 1994 ([Baez et al, 2003](#Baez2003)).  [[John Baez]] was promoting similar ideas the previous year ([Baez, 1993](#Baez1993)) (and this is not the origin of these ideas either), but this still allows other interpretations.  The idea of a 'Bayesian interpretation' came to prominence in 2001, drawing out of work on [[quantum information theory]] ([Caves, Fuchs, & Schack, 2001](#CFS2001)).  Further work has been done principally by [[Christopher Fuchs]].
 
 
 ## Related interpretations
@@ -74,6 +74,7 @@ The earliest linking of Bayesianism to quantum states as states of knowledge, as
 The Bayesian interpretation fits into a broader family of [[interpretations of quantum mechanics]] known as _epistemic_ (or _$\psi$-epistemic_ to be more precise).  Although 'epistemic' literally refers to knowledge (suggesting objective Bayesianism in particular), the term may be used more broadly to distinguish from _ontic_ interpretations, in which the state $\psi$ is an objective feature of reality.  In contrast, an epistemic interpretation is one in which the state is subjective in some way (whether relative to one\'s knowledge or otherwise).  Much of what is written above applies more broadly to any epistemic interpretation, although I\'m not sure how much; at least some epistemic interpretations go on to posit a more fundamental reality (involving [[hidden-variable theory|hidden variables]]), while the Bayesian interpretation does not require this.
 
 In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to refer to the position advanced over the course of last decade principally by [[Christopher Fuchs]].  Although Fuchs\'s first papers on the subject (starting with [Caves, Fuchs, & Schack, 2001](#CFS2001)) referred explicitly to 'states of knowledge', Fuchs has since adopted an increasingly subjective approach, drawing many philosophical conclusions that go beyond mere Bayesianism.  These ideas should be attributed to QBism specifically rather than to the Bayesian interpretation generally.
+
 
 ## Related entries
 
@@ -83,27 +84,24 @@ In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to
 
 * [[collapse of the wave function]]
 
+
 ## References
 
 * {#Baez1993} [[John Baez]] (1993). This Week's Finds in Mathematical Physics (Week 27). [Web](http://math.ucr.edu/home/baez/week27.html).
  
+* {#Baez2003} John Baez et al (2003). Bayesian Probability Theory and Quantum Mechanics. Collection of Usenet posts from 1994, with commentary. [Web](http://math.ucr.edu/home/baez/bayes.html).
+ 
+* {#CFS2001} Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [ArXiv](http://arxiv.org/abs/quant-ph/0104088).
 
-* {#Baez2003} John Baez et al (2003). Bayesian Probability Theory and Quantum Mechanics. Collection of Usenet posts from 1994, with commentary. [Web](http://www.math.ucr.edu/home/baez/bayes.html)
-  
+* {#Fuchs2002} [[Christopher Fuchs]] (2002). Quantum Mechanics as Quantum Information (and only a little more). [ArXiv](https://arxiv.org/abs/quant-ph/0205039).
 
-* {#CFS2001} Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [arXiv](http://arxiv.org/abs/quant-ph/0104088).
-  
+* {#FMS2014} [[Christopher Fuchs]], [[David Mermin]], Ruediger Schack (2014). An Introduction to QBism with an Application to the Locality of Quantum Mechanics. American Journal of Physics 82:8, 749--754. [ArXiv](https://arxiv.org/abs/1311.5253).
 
-* {#Fuchs} [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [Web](http://www.perimeterinstitute.ca/personal/cfuchs/).
-
-* [[Christopher Fuchs]], [[David Mermin]], Ruediger Schack, _An Introduction to QBism with an Application to the Locality of Quantum Mechanics_, Am. J. Phys., Vol. 82, No. 8, August 2014, 749-754 ([arXiv:1311.5253](https://arxiv.org/abs/1311.5253))
-
-* {#Mermin18} [[David Mermin]], _Making better sense of quantum mechanics_ ([arXiv:1809.01639](https://arxiv.org/abs/1809.01639))
+* {#Mermin2018} [[David Mermin]]. Making better sense of quantum mechanics. [ArXiv](https://arxiv.org/abs/1809.01639).
 
 See also
 
-* {#Wikimedia}Wikimedia Foundation (n.d.). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
-  
+* {#Wikimedia} Wikimedia Foundation (n.d.). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
 
 
 [[!redirects Bayesian interpretation of quantum mechanics]]
