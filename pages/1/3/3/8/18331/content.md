@@ -69,8 +69,7 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 The problem was stated in
 
-* Richard V. Kadison and [[Isadore Singer]], _Extensions of pure states_
-Americal Journal of Mathematics, 81(2):383&#8211;400, 1959
+* [[Richard V. Kadison]], [[Isadore Singer]], _Extensions of pure states_, American Journal of Mathematics, 81(2):383&#8211;400, 1959 ([jstor:2372748](https://www.jstor.org/stable/2372748))
 
 and its solution was proven in
 
