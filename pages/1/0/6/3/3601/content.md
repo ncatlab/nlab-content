@@ -195,6 +195,7 @@ CPM, classical structures, ...
 * Carmen Maria Constantin, _Sheaf-theoretic methods in quantum mechanics and quantum information theory_, PhD thesis, Oxford 2015 [arxiv/1510.02561](https://arxiv.org/abs/1510.02561)
 
 * [[Samson Abramsky]], Adam Brandenburger, _The sheaf-theoretic structure of nonlocality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
+
 * Dominik Šafránek, _Simple expression for the quantum Fisher information matrix), Phys. Rev. A97 (2018) [doi](https://doi.org/10.1103/PhysRevA.97.042322)
 
 On [[quantum information theory]], ([[holographic entanglement entropy|holographic]])  [[entanglement entropy]], [[tensor network states]] etc:
@@ -202,6 +203,11 @@ On [[quantum information theory]], ([[holographic entanglement entropy|holograph
 * [[Roman Orus]], _Entanglement, quantum phase transitions and quantum algorithms_ ([arXiv:quant-ph/0608013](https://arxiv.org/abs/quant-ph/0608013))
 
 > In Chapter 1 we consider the irreversibility of renormalization group flows from a quantum information perspective by using majorization theory and conformal field theory.
+
+Quantum information in relation to the [[representation theory of the symmetric group]]:
+
+* [[Alonso Botero]], *Quantum Information and the Representation Theory of the Symmetric Group*, Rev. colomb. mat. vol.50 no. 2 Bogotá July/Dec. 2016 ([doi:10.15446/recolma.v50n2.62210](https://doi.org/10.15446/recolma.v50n2.62210), [pdf](http://www.scielo.org.co/pdf/rcm/v50n2/v50n2a05.pdf))
+
 
 #### Videos
 
