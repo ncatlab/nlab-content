@@ -2,6 +2,11 @@
 
 ## Selected writings
 
+Introducing the [[Kadison-Singer problem]]:
+
+* [[Richard V. Kadison]], [[Isadore Singer]], _Extensions of pure states_, American Journal of Mathematics, 81(2):383&#8211;400, 1959 ([jstor:2372748](https://www.jstor.org/stable/2372748))
+
+
 On [[quantum anomalies]] via [[index theory]]:
 
 * [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([doi:10.1073/pnas.81.8.2597]( https://doi.org/10.1073/pnas.81.8.2597), [jstor:23378](https://www.jstor.org/stable/23378))
