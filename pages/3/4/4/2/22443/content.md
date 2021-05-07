@@ -1000,13 +1000,13 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
 1. are given by
 
    $$
-     EV_\lambda\lambda(e^{- \beta\cdot d_C})
+     EV_\lambda[e^{- \beta\cdot d_C}]
      \;=\;
      \tfrac{1}{\chi^{(\lambda)}(1)}
      \underset{ \sigma \in Sym(n) }{\sum}
      e^{ \beta \cdot ( \left\vert Cycles(\sigma)\right\vert - n )   }
      \cdot
-     \chi^{{\lambda}}(\sigma)
+     \chi^{(\lambda)}(\sigma)
      \,,
    $$
  
