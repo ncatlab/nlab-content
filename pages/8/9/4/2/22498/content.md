@@ -28,6 +28,8 @@ In [[characteristic zero]], the [[irreducible representations]] of the symmetric
 
 * [[Specht module]]
 
+* [[representation theory of the general linear group]]
+
 * [[Schur-Weyl duality]]
 
 ## References
