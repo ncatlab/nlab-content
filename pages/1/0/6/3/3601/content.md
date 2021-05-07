@@ -163,11 +163,7 @@ Graphically, this means we can "slide boxes" past each other.
 
 CPM, classical structures, ...
 
-## References
-
-* wikipedia [quantum information](https://en.wikipedia.org/wiki/Quantum_information), [Bures metric](https://en.wikipedia.org/wiki/Bures_metric)
-
-#### Related entries
+## Related entries
 
 * [[quantum logic]], [[quantum theory]], 
 
@@ -181,7 +177,11 @@ CPM, classical structures, ...
 
 * [[MIP-star=RE]]
 
-#### Books
+* [[entanglement entropy]], [[holographic entanglement entropy]]
+
+## References
+
+Textbook accounts:
 
 * Masahito Hayashi, _Quantum information theory - mathematical foundation_ Graduate Texts in Physics (2017)
 
@@ -189,8 +189,21 @@ CPM, classical structures, ...
 
 * Sumeet Khatri, Mark M. Wilde, _Principles of Quantum Communication Theory: A Modern Approach_ ([arXiv:2011.04672](https://arxiv.org/abs/2011.04672))
 
+In a context of [[quantum optics]]:
 
-#### Articles
+* [[Tim Byrnes]], [[Ebubechukwu Ilo-Okeke]], Section 11 of: *Quantum Atom Optics: Theory and Applications to Quantum Technology*, Cambridge University Press 2021 ([arXiv:2007.14601](https://arxiv.org/abs/2007.14601), [CUP](https://www.cambridge.org/core/books/quantum-atom-optics/2D867888B5C666D3A936F1C942C99568))
+
+
+Lecture notes:
+
+* Reinhard Werner, _Mathematical methods of quantum information theory_, 18 lecture course (2017) video playlist [yt](https://www.youtube.com/playlist?list=PLDfPUNusx1EoBAn8vXYjcF95R7mI_eR6o)
+
+See also:
+
+* Wikipedia [quantum information](https://en.wikipedia.org/wiki/Quantum_information), [Bures metric](https://en.wikipedia.org/wiki/Bures_metric)
+
+
+Further original articles:
 
 * Carmen Maria Constantin, _Sheaf-theoretic methods in quantum mechanics and quantum information theory_, PhD thesis, Oxford 2015 [arxiv/1510.02561](https://arxiv.org/abs/1510.02561)
 
@@ -198,7 +211,6 @@ CPM, classical structures, ...
 
 * Dominik Šafránek, _Simple expression for the quantum Fisher information matrix), Phys. Rev. A97 (2018) [doi](https://doi.org/10.1103/PhysRevA.97.042322)
 
-On [[quantum information theory]], ([[holographic entanglement entropy|holographic]])  [[entanglement entropy]], [[tensor network states]] etc:
 
 * [[Roman Orus]], _Entanglement, quantum phase transitions and quantum algorithms_ ([arXiv:quant-ph/0608013](https://arxiv.org/abs/quant-ph/0608013))
 
@@ -209,8 +221,6 @@ Quantum information in relation to the [[representation theory of the symmetric 
 * [[Alonso Botero]], *Quantum Information and the Representation Theory of the Symmetric Group*, Rev. colomb. mat. vol.50 no. 2 Bogotá July/Dec. 2016 ([doi:10.15446/recolma.v50n2.62210](https://doi.org/10.15446/recolma.v50n2.62210), [pdf](http://www.scielo.org.co/pdf/rcm/v50n2/v50n2a05.pdf))
 
 
-#### Videos
 
-* Reinhard Werner, _Mathematical methods of quantum information theory_, 18 lecture course (2017) video playlist [yt](https://www.youtube.com/playlist?list=PLDfPUNusx1EoBAn8vXYjcF95R7mI_eR6o)
 
 [[!redirects quantum information theory]]
