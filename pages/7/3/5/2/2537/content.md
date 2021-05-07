@@ -18,6 +18,17 @@ __Israel Moiseevich Gel'fand__ (&#1048;&#1079;&#1088;&#1072;&#1080;&#1083;&#1100
 
 He helped write a 5-volume work on [[distribution]] theory.
 
+## Selected writings
+
+Introducing the [[GNS construction]]:
+
+* {#GelfandNaimark43} [[Israel Gelfand]], [[Mark Naimark]], *On the imbedding of normed rings into the ring of operators on a Hilbert space*,  Matematicheskii Sbornik. 12 (2): 197&#8211;217 (1943) 
+
+  reprinted in:
+
+  Robert Doran (ed.), *$C^\ast$-Algebras: 1943–1993*, Contemporary Mathematics **167**, AMS 1994 ([doi:10.1090/conm/167](http://dx.doi.org/10.1090/conm/167))
+
+
 
 category: people
 
