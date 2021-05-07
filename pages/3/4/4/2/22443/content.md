@@ -388,6 +388,18 @@ Prop. \ref{PositiveSemidefinitenessAtLowIntegerValuedOfEBeta} and
 \end{example}
 
 
+\begin{example}\label{CayleyDistanceKernelOnSym6}
+**(Cayley distance kernel on Sym(6))**
+
+Similarly, here is the graph of the lowest eigenvalue of the Cayley distance kernel on $Sym(6)$ (from [Bar-Natan 21](#BarNatan21)):
+
+<a href="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym6.jpg">
+<img src="https://ncatlab.org/nlab/files/LowestEigenvalueOfCayleyDistanceKernelOnSym6.jpg" width="440">
+</a>
+
+
+
+\end{example}
 
 
 ## Properties
@@ -1423,6 +1435,9 @@ The above discussion of the positivity of the Cayley distance kernel in dependen
 
 * {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
 
+Further computations in:
+
+* {#BarNatan21} [[Dror Bar-Natan]], *[AcademicPensieve](http://drorbn.net/AcademicPensieve/)* [2021-05](http://drorbn.net/AcademicPensieve/2021-05/), *The Cayley distance kernel following arXiv://2105.0287 by Corfield, Sati, and Schreiber* ([nb](http://drorbn.net/AcademicPensieve/2021-05/CayleyDistanceKernel.nb), [pdf](http://drorbn.net/AcademicPensieve/2021-05/nb/CayleyDistanceKernel.pdf), [[BarNatanCayleyDistanceKernelnb.pdf:file]])
 
 Supplementary references:
 
