@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
-=--
-#### Phyiscs
-+--{: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
@@ -32,6 +32,16 @@ For interacting second quantization see _[[sigma-model -- exposition of second q
 ### Syntax in linear type theory
 
 In [[linear type theory]], which may be regarded as [[quantum logic]] (by the discussion there), the [[Fock space]] construction may naturally be identified with the [[exponential modality]]. See there for more.
+
+## Related concepts
+
+* [[Fock space]]
+
+* [[quantum field theory]]
+
+* [[quantum many-body physics]]
+
+* [[condensed matter physics]]
 
 ## References
 
