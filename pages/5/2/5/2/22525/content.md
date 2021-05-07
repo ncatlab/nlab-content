@@ -49,6 +49,8 @@ Introduction and survey:
 
 * [[David Joyce]], *[Hyperbolic Tesselations](https://mathcs.clarku.edu/~djoyce/poincare/index.html)*
 
+* Damon Motz-Storey, *Constructing Hyperbolic Polygon Tessellations*, 2016 ([pdf](https://damonmotzstorey.files.wordpress.com/2016/11/thesiswithrevisions_damonmotzstorey.pdf), [[MotzStoreyTesselations.pdf:file]])
+
 See also:
 
 * Wikipedia, *[Tesselation](https://en.wikipedia.org/wiki/Tessellation)*
@@ -56,7 +58,6 @@ See also:
 * Wikipedia, *[Uniform tilings in hyperbolic plane](https://en.wikipedia.org/wiki/Uniform_tilings_in_hyperbolic_plane)*
 
 * Wikipedia, *[Hyperbolic Geometry -- Hyperbolic Tesselations](https://mathstat.slu.edu/escher/index.php/Hyperbolic_Geometry#Hyperbolic_Tessellations)*
-
 
 
 [[!redirects tesselations]]
