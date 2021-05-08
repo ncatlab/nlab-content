@@ -19,6 +19,10 @@ If a [[subset]] $k$ of a [[field]] $K$ is a [[subalgebra|subfield]], then we cal
 
 More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, then it must be an [[injection]], so we may treat it as a field extension. 
 
+## Definition
+
+Let $S$ be a set, and let $k$ be a [[field]]. Then a __field extension__ of $k$ is a [[commutative algebra|commutative $k$-algebra]] $K$ with injections $inj,inv:S\to\K$ such that $inj(s) \cdot inv(s) = 1$ for all $s:S$, ensuring that $K$ is a field.
+
 ## Properties
 
 * [[Galois theory]]
