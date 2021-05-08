@@ -46,14 +46,14 @@ The _[[Schur orthogonality relation]]_ is the statement that the [[complex numbe
 
 (e.g. [Fulton & Harris 91, Thm. 2.12](#FultonHarris91), [tom Dieck 09, Prop. 2.2.1 & (2.3.3)](#tomDieck09))
 
-In fact, this holds also at the level of complex [[irreducible representations]] $\rho^{(a)}$, regarded for each $g \in G$ as [[unitary matrices]] $\rho^{(a)}(g) \in U(\chi^{(a)}(e))$ with matrix entries $\big(\rho^{(a)}(g)_{i j}\big)_{i j}$:
+In fact, this holds also at the level of complex [[irreducible representations]] $\rho^{(a)}$ ("grand Schur orthogonality"), regarded for each $g \in G$ as [[unitary matrices]] $\rho^{(a)}(g) \in U(\chi^{(a)}(e))$ with matrix entries $\big(\rho^{(a)}(g)_{i j}\big)_{i j}$:
 
 \[
   \label{SchurOrthogonalityForIrreps}
   \underset{g \in G}{\sum}
-    \rho^{(a)}(g^{-1})_{i_1 j_1}
+    \rho^{(a)}(g)_{i_1 j_1}
     \cdot 
-    \rho^{(b)}(g)_{i_2 j_2}
+    \overline{\rho^{(b)}(g)_{i_2 j_2}}
   \;=\;
   \delta^{a b} \delta_{i_1 i_2} \delta_{j_1 j_2}
   \cdot
@@ -115,8 +115,11 @@ See also:
 
 * Wikipedia, _[Schur orthogonality relation](http://en.wikipedia.org/wiki/Schur_orthogonality_relations)_ 
 
+[[!redirects Schur orthogonality relations]]
 [[!redirects Schur orthogonality]]
 
-[[!redirects Schur orthogonality relations]]
+[[!redirects grand Schur orthogonality relation]]
+[[!redirects grand Schur orthogonality relations]]
+[[!redirects grand Schur orthogonality]]
 
 [[!redirects Schur inner product]]
