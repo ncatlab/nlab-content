@@ -18,7 +18,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -48,8 +48,10 @@ There is a more abstract way to encode all this simply as a [[monoid in a monoid
 
 ### Symmetric operads {#PedestrianDefOperad}
 
-Let $V$ be a [[symmetric monoidal category]]. A 
-( _permutative_ or _[[symmetric operad|symmetric]]_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
+Let $V$ be a [[symmetric monoidal category]]. 
+
+
+{#PermutativeOperad} A (*permutative* or *[[symmetric operad|symmetric]]*) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ (which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory") equipped with the following extra structure: 
 
 * Right [[actions]] of [[symmetric group]]s $\rho_n: S_n \to \hom(F(n), F(n))$; 
 * A _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
@@ -174,7 +176,7 @@ Let $\mathbb{P}$ be the [[groupoid]] of finite cardinals with [[bijections]] as 
 Under this symmetric monoidal structure, $\mathbb{P}$ may be characterized as the free symmetric strict monoidal category on one generator.
 =--
 
-The cardinal sum on $\mathbb{P}$ extends along the [[Yoneda embedding]] to a symmetric monoidal product $F \otimes G$ on the [[presheaf category]] $Psh(\mathbb{P}):=[\mathbb{P}^{op},Set]$. This is an instance of the [[Day convolution]]. 
+The cardinal sum on $\mathbb{P}$ extends along the [[Yoneda embedding]] to a symmetric monoidal product $F \otimes G$ on the [[presheaf category]] $Psh(\mathbb{P}) \coloneqq [\mathbb{P}^{op},Set]$. This is an instance of the [[Day convolution]]. 
 
 +-- {: .un_note style="margin-left:2em"}
 ###### Warning
@@ -211,13 +213,20 @@ It follows from the earlier remark and the above that we may describe $Psh(\math
 ###### Digression
 Recall that we can describe $W \cdot_{\mathbb{P}} X$ as follows: First note that the functor 
 
-$$\Lambda_0:=Hom_D(X(\cdot),\cdot):\mathbb{P}^{op}\times D\to Set,$$ 
+$$
+  \Lambda_0 
+  \coloneqq 
+  Hom_D(X(\cdot),\cdot) 
+  \colon
+  \mathbb{P}^{op}\times D\to Set
+  \,,
+$$ 
 
 so $\Lambda_0$ also gives a functor $\Lambda: D\to [\mathbb{P}^{op},Set]$ by [[currying]] through the second coordinate. 
 
 Then we define $W \cdot_{\mathbb{P}} X$ to be the object representing the functor 
 
-$$\Lambda_W:=Hom_Psh(\mathbb{P})(W,\Lambda(\cdot)):D\to Set$$ 
+$$\Lambda_W \coloneqq Hom_Psh(\mathbb{P})(W,\Lambda(\cdot)):D\to Set$$ 
 
 whenever $\Lambda_W$ is [[representable functor|representable]].
 
@@ -263,7 +272,7 @@ Consequently, we have an equivalence $\underline{Hom}(Psh(\mathbb{P}), Psh(\math
 Since symmetric monoidal cocontinuous functors are stable under composition, the category on the left carries a monoidal product given by endofunctor composition. By transport of structure across the equivalence, we  induce a monoidal product on $Psh(\mathbb{P})$ given by endofunctor composition called the _substitution product of species_. The substitution product of species $F, G$ is denoted $F \circ G$. 
 =--
 
-In detail: a species $G: \mathbb{P}^{op} \to Set$ induces a symmetric monoidal cocontinuous functor 
+In detail: a species $G \colon \mathbb{P}^{op} \to Set$ induces a symmetric monoidal cocontinuous functor 
 
 $$Psh(\mathbb{P}) \to Psh(\mathbb{P}): F \mapsto F \circ G = \sum_k F(k) \otimes_{S_k} G^{\otimes_{Day} k}$$ 
 
@@ -415,7 +424,8 @@ $$
 given by
 
 $$
-  \alpha^*(P)(d_1, \cdots, d_n; d) :=
+  \alpha^*(P)(d_1, \cdots, d_n; d) 
+  \coloneqq
   P(\alpha(d_1), \cdots, \alpha(d_n); \alpha(d))
   \,.
 $$
@@ -424,9 +434,16 @@ Together with a morphism $\phi : Q \to \alpha^* P$ of operads this
 induces a pair of [[adjoint functor]]s on [[algebra over an operad|algebras over an operad]]
 
 $$
- ( (\alpha,\phi)_! \dashv (\alpha,\phi)^* )
-  :
- Alg_V(P) \stackrel{\overset{(\alpha,\phi)_!}{\leftarrow}}{\underset{(\alpha,\phi)^*}{\to}} Alg_V(Q) 
+  \big( 
+    (\alpha,\phi)_! \dashv (\alpha,\phi)^* 
+  \big)
+  \;\colon\;
+  Alg_V(P) 
+  \underoverset
+    {\;\;(\alpha,\phi)^*\;\;}
+    {\;\;(\alpha,\phi)_!\;\;}
+    {\leftrightarrows}
+  Alg_V(Q) 
   \,.
 $$
 
@@ -507,7 +524,6 @@ Monographs include:
 * {#FresseMOF} [[Benoit Fresse]], _Modules over operads and functors_, Springer LNM __1967__, 2009, x+308 pp. [MR2010e:18009](http://www.ams.org/mathscinet-getitem?mr=2494775)
 
 * {#FresseHOGTG} [[Benoit Fresse]], _Homotopy of Operads and Grothendieck-Teichm&#252;ller Groups (Volumes 1 & 2)_, [website](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/) 
-
 
 See also
 
