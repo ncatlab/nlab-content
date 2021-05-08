@@ -33,7 +33,7 @@ limit, (uniform) continuity and convergence,
 equicontinuity of sequences of functions;
 in algebraic topology, being locally trivial and geometric realisation; in 
 geometry, quasi-isomorphism;
-in model theory, stability and simplicity of a theory. 
+in model theory, stability and simplicity and several Shelah's dividing lines, e.g. NIP, NOP, NSTOP, $NSOP_i$, $NTP_i$, of a theory. 
 
 No homotopy theory for situses has been developed,
 although the naive definition of an [interval object](#IntervalSitus) 
@@ -428,7 +428,7 @@ all the simplicial maps $M^{\{\phi\}}_\bullet(n)=M^n\to M^{\{\phi\}}_\bullet(k)=
 
 4. there is $k$ such that for each $n$ $\exists x \wedge_{i\leq n} \phi(x,y_i)$ holds iff  $\exists x \wedge_{i\leq n} \phi(x,y_i)$ for any $k$-element subset $y_{i_1},...,y_{i_k}$ 
 
-5. there is $k$ such that for each $n$ $$\exists x \wedge_{i\leq n} \phi(x,y_i)\leftrightarrow \wedge_{1\leq i_1\le ...\le i_k\le n}\exists x \wedge_{1\leq l\leq k} \phi(x,y_{i_l})$$
+5. there is $k$ such that for each $n$ $\exists x \wedge_{i\leq n} \phi(x,y_i)\leftrightarrow \wedge_{1\leq i_1\le ...\le i_k\le n}\exists x \wedge_{1\leq l\leq k} \phi(x,y_{i_l})$
 
 \end{theorem}
 \begin{proof} Items 1 and 2 are  Remark 2.6 of [Malliaris](#Mallaris2010apal), item 4 and 5 are  both item 2 and item 3 written explicitly.
@@ -457,7 +457,7 @@ We recall the definition of NTP and a simple theory.
  b) For all $\sigma\in {}^{\omega}\omega $ $ \{\varphi(x, a_s )\,\,|\,\,\emptyset \neq s\subseteq \sigma  \}$ is consistent.
 
 
- 2. A theory T is simple if there is no formula $\varphi(x, y)$ with the tree property.
+2. A theory T is simple if there is no formula $\varphi(x, y)$ with the tree property.
 
 \end{definition}  
 
@@ -485,22 +485,30 @@ set $T^\leq_\bullet(n)$ of ordered tuples, for each $n$.
 Let $|T|_\bullet$ be the simplicial set represented by the set 
 $|T|$ of vertices of $T$, namely 
 $|T|_\bullet(n^\leq)=|T|^n$. 
-Let $|T|^{TP}_\bullet$ denote the simplicial set $|T|_\bullet$
-equipped with the _$TP$-tautological_ filter on $|T|_\bullet(n^\leq)$ defined as follows:
 
-   a subset is not small iff it contains all 
-   the lexicographically ordered tuples
+\begin{defn} Let $|T|^{TP}_\bullet$ denote the simplicial set $|T|_\bullet$
+equipped with the _$TP$-tautological_ filter on $|T|_\bullet(n^\leq)$ defined as follows:
+a subset is not small iff it either contains 
+
+1) some tuple in weakly increasing order, or
+
+2) all   the lexicographically ordered tuples
    required to be inconsistent by the tree property 
    with respect to a subtree-counterexample to the tree property. 
 
-In more detail, a subset $\epsilon$ is large iff for each isomorphic copy
+In more detail, a subset $\epsilon$ is large iff 
+
+1') it contains the subset of tuples in weakly increasing order
+
+2') for each isomorphic copy
 of $T'={}^{\lt\omega}\omega$ in $T^\leq$ there is a vertex $v\in T'$
 and its immediate (in $T'$) descendants 
 $v_1\leq_{lex}...\leq_{lex} v_k $ such that $(v_1,..,v_k) \in \epsilon \cap T'$.
 %A verification shows that this indeed defines a filter. 
+\end{defn}
  
-Note that the map $T^\leq_\bullet \to |T|_\bullet^{TP}$ is continuous
-because no tuple of increasing elements is required to be $\phi$-inconsistent by the tree property. 
+Note that by item (i) the map $T^\leq_\bullet \to |T|_\bullet^{TP}$ is continuous.
+Also note that no tuple of increasing elements is required to be $\phi$-inconsistent by the tree property. 
 
 \begin{proposition}
 The following are equivalent:
@@ -619,8 +627,12 @@ on the linear order $I$.
 Let $|I|^{NOP}_\bullet$ be the simplicial set $|I|_\bullet$ represented by the set $|I|$ of elements of $I$, equipped with _NOP-tautological filters_ defined as follows.
 
 
-1.  A subset $X\subset |I|^3$ is large in the _NOP-tautological_ filter on $|I|^n$ iff for each infinite increasing subsequence 
-  $a_i\in I, i\in\omega$  there is a pair $i\lt j$ such that j$(a_i,a_j,a_i)\in X$
+1.  A subset $X\subset |I|^3$ is large in the _NOP-tautological_ filter on $|I|^n$ iff 
+
+a. it contains each triple $(a_i,a_j,a_k)$ for $i\leq j\leq k$
+
+b. for each infinite increasing subsequence 
+  $a_i\in I, i\in\omega$  there is a pair $i\lt j$ such that $(a_i,a_j,a_i)\in X$
 
 2. for $n\neq 3$ the filter on $|I|^n$ is the coarsest filter such that all the simplcial maps $I^n\to I^3$ are continuous. 
 
@@ -655,6 +667,19 @@ $ \phi(a_i,a_j) \leftrightarrow i\leq j$
 $$I^\leq_\bullet \to |I|^{NOP}_\bullet  \rightthreetimes M^{\{\phi\}}_\bullet\to\top$$  
 
 \end{theorem}
+\begin{proof}
+Each map $I^\leq_\bullet \to M^{\{\phi\}}_\bullet$
+corresponds to a sequence $(a_i)_{i\in I}$ such that
+$i\leq j\implies \phi(a_i,a_j) $. 
+
+If NOP fails, take $(a_i)_{i\in I}$ to be a witness of this. 
+Then evidently the induced map $|I|^{NOP}_\bullet  \to M^{\{\phi\}}_\bullet$ is not continuous as there are no witnesses for (b).
+
+
+Assume NOP. Then for each infinite subsequence there is a witness of NOP,
+i.e. a tuple as in (b) contained in the preimage of the set of $\phi$-consistent tuples in $M$. Hence, this preimage is large
+and the induced diagonal map is continuous. 
+\end{proof}
 
 The trick behind the definition of tautological filter works for some other dividing lines such as NSOP and tree properties. We discuss the tree properties in the next section. 
 
@@ -719,7 +744,7 @@ Hence we define NSOP-tautological filters on $|I\cup I^4|_\bullet$ as:
 1.  A subset $U\subset |I\cup I^4|^3$ is large in the {\em $NSOP$-tautological filter} on $|I\cup I^4|^3$ iff each infinite subsequence 
   $ I'\subset I$  contains a witness of (a') and (b'), i.e.
   
-  i.  there is a pair $i\less j,i,j\in I'$ such that $(a_i,a_j,a_i)\in U$
+  i.  there is a pair $i\lt j,i,j\in I'$ such that $(a_i,a_j,a_i)\in U$
   
   ii.    there are $i\lt j, k\lt l$, and $j\lt l$, $i,j,k,l\in I'$ such that
    $((i,j,k,l),i,j)\in U$ and $((i,j,k,l),a_l,a_k)\in U$ 
@@ -737,9 +762,30 @@ Hence we define NSOP-tautological filters on $|I\cup I^4|_\bullet$ as:
 $(a_i)_{i\in\omega}\in M$ satisfying (a') and (b') above, for some saturated model $M$
 
 3. for each linear order $I$, model $M$ and formula $\phi$ it holds
-$$|I\cup I^4|^\leq_\bullet \to |I\cup I^4|^{NSOP}_\bullet  \rightthreetimes M^{\{\phi\}}_\bullet\to\top$$  
+$$|I|^\leq_\bullet \to |I\cup I^4|^{NSOP}_\bullet  \rightthreetimes M^{\{\phi\}}_\bullet\to\top$$  
 
 \end{theorem}
+\begin{proof} Let $(a_i)_{i\in I}$ be a witness for SOP. 
+Take the corresponding map $|I|^\leq_\bullet \to  M^{\{\phi\}}_\bullet$.
+By SOP there are no witnesses of (b') in $M$, thus
+wherever I^4 is sent to, the preimage of the subset of $\phi$-consistent tuples will not contain a witness of ii., hence by definition is large in the NTP-tautological filter. Therefore the lifting property fails. 
+
+Now assume NOP and let us show the lifting property holds. 
+The map $|I|^\leq_\bullet \to  M^{\{\phi\}}_\bullet$ 
+corresponds to a sequence $(a_i)_{i\in I}$ witnessing (a). 
+If this sequence has only finitely many distinct elements, 
+then (b) is witnessed by all tuples where $i,j,k,l$ belong to 
+an infinite constant subsequence, and therefore 
+the preimage of the subset of $\phi$-consistent tuples is large. 
+
+Thus we may assume that all $a_i$'s are distinct. 
+Take the diagonal map sending each
+ $(i,j,k,l)\in I^4$ into a witness of (b')
+whenever it exists. Each infinite subsequence
+also fails SOP, hence there is a witness of (b') for this.
+Hence, the preimage of the subset of $\phi$-consistent tuples is large. 
+\end{proof}
+
 
 #### $NSOP_n$ for $n\gt 3$
 
