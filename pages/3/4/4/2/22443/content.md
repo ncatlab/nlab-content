@@ -1582,9 +1582,11 @@ Further computations in:
 
 Supplementary references:
 
-* {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), Wadsworth & Brooks/Cole Mathematics Series book series 1986, 1997 ([doi:10.1007/978-1-4615-9763-6](https://link.springer.com/book/10.1007/978-1-4615-9763-6)) reprinted in: Cambridge Studies in Advanced Mathematics, Cambridge University Press 2011 ([ISBN:9781107602625](https://www.cambridge.org/us/academic/subjects/mathematics/discrete-mathematics-information-theory-and-coding/enumerative-combinatorics-volume-1-2nd-edition?format=PB&isbn=9781107602625), [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
 
 * {#Kaski02} [[Petteri Kaski]], *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.pdf:file]])
 
+* {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), Wadsworth & Brooks/Cole Mathematics Series book series 1986, 1997 ([doi:10.1007/978-1-4615-9763-6](https://link.springer.com/book/10.1007/978-1-4615-9763-6)) reprinted in: Cambridge Studies in Advanced Mathematics, Cambridge University Press 2011 ([ISBN:9781107602625](https://www.cambridge.org/us/academic/subjects/mathematics/discrete-mathematics-information-theory-and-coding/enumerative-combinatorics-volume-1-2nd-edition?format=PB&isbn=9781107602625), [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
+
+* {#GnedinGorinKerov11} Alexander Gnedin, Vadim Gorin, Sergei Kerov, *Block characters of the symmetric groups*, Journal of Algebraic Combinatorics, 38, no. 1 (2013), 79-101 ([arXiv:1108.5044](https://arxiv.org/abs/1108.5044))
 
 [[!redirects Cayley distance kernels]]
