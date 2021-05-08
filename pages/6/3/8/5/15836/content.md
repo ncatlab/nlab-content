@@ -73,7 +73,7 @@ The earliest linking of Bayesianism to quantum states as states of knowledge, as
 
 The Bayesian interpretation fits into a broader family of [[interpretations of quantum mechanics]] known as _epistemic_ (or _$\psi$-epistemic_ to be more precise).  Although 'epistemic' literally refers to knowledge (suggesting objective Bayesianism in particular), the term may be used more broadly to distinguish from _ontic_ interpretations, in which the state $\psi$ is an objective feature of reality.  In contrast, an epistemic interpretation is one in which the state is subjective in some way (whether relative to one\'s knowledge or otherwise).  Much of what is written above applies more broadly to any epistemic interpretation, although I\'m not sure how much; at least some epistemic interpretations go on to posit a more fundamental reality (involving [[hidden-variable theory|hidden variables]]), while the Bayesian interpretation does not require this.
 
-In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to refer to the position advanced over the course of last decade principally by [[Christopher Fuchs]].  Although Fuchs\'s first papers on the subject (starting with [Caves, Fuchs, & Schack, 2001](#CFS2001)) referred explicitly to 'states of knowledge', Fuchs has since adopted an increasingly subjective approach, drawing many philosophical conclusions that go beyond mere Bayesianism.  These ideas should be attributed to QBism specifically rather than to the Bayesian interpretation generally.
+In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to refer to the position advanced over the course of last decade principally by [[Christopher Fuchs]].  Although Fuchs\'s first papers on the subject (starting with [Caves, Fuchs, & Schack, 2001](#CFS2001)) referred explicitly to 'states of knowledge', Fuchs has since adopted an increasingly subjective approach, drawing many philosophical conclusions that go beyond mere Bayesianism.  These ideas should be attributed to QBism specifically rather than to the Bayesian interpretation generally. For a historical view of how QBism came to be distinguished from earlier Bayesian interpretations of quantum probability, See [Stacey 2019](#Stacey2019). The technical side of this work has generally not yet taken a categorical flavor, though see [van de Wetering 2018](#vandeWetering2018).
 
 
 ## Related entries
@@ -98,6 +98,10 @@ In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to
 * {#FMS2014} [[Christopher Fuchs]], [[David Mermin]], Ruediger Schack (2014). An Introduction to QBism with an Application to the Locality of Quantum Mechanics. American Journal of Physics 82:8, 749--754. [ArXiv](https://arxiv.org/abs/1311.5253).
 
 * {#Mermin2018} [[David Mermin]]. Making better sense of quantum mechanics. [ArXiv](https://arxiv.org/abs/1809.01639).
+
+* {#vandeWetering2018} John van de Wetering (2018). Quantum Theory is a Quasi-stochastic Process Theory. EPTCS 266, pp. 179--196. [ArXiv](https://arxiv.org/abs/1704.08525).
+
+* {#Stacey2019} Blake Stacey (2019). Ideas abandoned en route to QBism. [ArXiv](https://arxiv.org/abs/1911.07386).
 
 See also
 
