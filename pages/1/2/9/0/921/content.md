@@ -70,6 +70,8 @@ See [[Cauchy real number]] for more.
 
 Thete is a characterisation of the set of real numbers as the terminal object in the category of [[archimedean groups]], the category of [[linear order|linearly]] [[ordered groups]] that satisfy the [[archimedean property]]. 
 
+Tarski's axioms for one-dimensional Euclidean geometry results in a abelian group. 
+
 ### The complete ordered field
 
 There is a well-known algebraic (more or less) characterisation of the real line as the 'complete ordered field', or sometimes the 'complete archimedean field'.  This can be interpreted as follows:
