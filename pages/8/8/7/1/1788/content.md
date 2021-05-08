@@ -1,4 +1,71 @@
 
+\begin{prop}
+\end{
+
+$$
+  \Big\langle
+    \big(
+      v_1(\sigma)
+    \big)_{\sigma \in Sym(n)},
+    \;
+    \big(
+      v_2(\sigma')
+    \big)_{\sigma' \in Sym(n)},
+  \Big\rangle
+  \;\;
+    \coloneqq
+  \;\;
+  \underset{\sigma \in Sym(n)}{\sum}
+  \bar v_1(\sigma) \cdot v_2(\sigma)
+  \,.
+$$
+
+\linebreak
+
+$$
+  \begin{aligned}
+    \big\langle
+      \lambda_1, (i_1, j_1)
+    \big\vert
+      \lambda_2, (i_2, j_2)
+    \big\rangle
+    & 
+    \;=\;
+    \frac{ \chi^{(\lambda_1)}(e) }{ n! }
+    \underset{\sigma \in Sym(n)}{\sum}
+    \chi^{(\lambda_1)}(\sigma)_{j_1 1_1}
+    \bar 
+    \chi^{(\lambda_2)}(\sigma)_{i_2 j_2}
+    \\
+    & \;=\;
+    \frac{ \chi^{(\lambda_1)}(e) }{ n! }
+    \underset{\sigma \in Sym(n)}{\sum}
+    \chi^{(\lambda_1)}(\sigma)_{j_1 i_1}
+    \chi^{(\lambda_2)}(\sigma^{-1})_{j_2 i_2}
+    \\
+    & \;=\;
+    \delta^{\lambda_1 \lambda_2}
+    \delta_{i_1 i_2} \delta_{j_1 j_2}
+  \end{aligned}
+$$
+
+Here the first step unwinds the definitions, and the second step uses that the representation matrixes are [[unitary matrices]] in that
+$$
+  \rho^{(\lambda)}(\sigma^{-1})_{i j}
+  \;=\;
+  \bar \rho^{(\lambda)}(\sigma)_{j i}  
+  \,.
+$$
+Finally the last step is [[Schur orthogonality]] 
+for irreps ([this equation](Schur+orthogonality+relation#eq:SchurOrthogonalityForIrreps)).
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+
 $$
   \begin{aligned}
     & 
