@@ -40,8 +40,6 @@ It can then be proven from the commutative ring axioms that every rational numbe
 
 ### As an abelian group
 
-For an abelian group $A$, the [[function algebra]] $A \to A$ is an [[abelian group]], with pointwise addition defining addition of functions: For $f,g:A \to A$, $(f+g)(x)=f(x)+g(x)$ for all $x:A$. 
-
 Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers and let $(\mathbb{Z},0,+,-,1)$ be the [[free abelian group]] on the set ${1}$.  
 
 Let $A$ be an [[abelian group]] containing $\mathbb{Z}$ as an abelian subgroup. There are injections $inj,inv:\mathbb{N}^+\to (A \to A)$ satisfying the following axioms for all $a:A$:
