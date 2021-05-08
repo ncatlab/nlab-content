@@ -66,6 +66,9 @@ This construction is equivalent to the construction by Dedekind cuts, at least a
 
 See [[Cauchy real number]] for more.
 
+### The terminal archimedean group
+
+Thete is a characterisation of the set of real numbers as the terminal object in the category of [[archimedean groups]], the category of [[linear order|linearly]] [[ordered groups]] that satisfy the [[archimedean property]]. 
 
 ### The complete ordered field
 
