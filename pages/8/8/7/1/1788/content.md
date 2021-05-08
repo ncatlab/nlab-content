@@ -1,4 +1,152 @@
 
+\begin{defn}\label{SetsOfSemistandardYoungTableau}
+  **(notation for sets of semistandard Young tableaux)
+  For $n, N \in \mathbb{N}$, write 
+
+  $$
+    ssYT_n(N)
+    \;\in\;
+    Set
+  $$
+
+  for the [[set]] of [[semistandard Young tableau]]
+
+  * with $n$ boxes, and 
+
+  * with entries $\leq N$.
+
+  Moreover for $\lambda \in Part(n)$ write
+
+  $$
+    ssYT_{\lambda \vdash n}(N)  
+    \;\coloneqq\;
+    \big\{
+      T \in ssYT_n(N)
+      \;\vert\;
+      \lambda 
+        = 
+      \left\vert T \right\vert
+    \big\}
+    \;\subset\;
+    ssYT_{n}(N)      
+  $$
+
+  for the [[subset]] on those tableau $T$ whose underlying [[Young diagram]] $\left\vert T \right\vert$ corresponds to the given partition.
+
+\end{defn}
+
+\begin{lemma}
+  For $N \in \mathbb{N}$ the exponential of $N$ to the number of [[permutation cycles|cycles of a permutation]] is, as a [[class function]], equal to the sum of [[irreducible characters]] weighted by the number of corresponding [[semistandard Young tableaux]] (Def. \ref{SetsOfSemistandardYoungTableau}):
+
+$$
+  N^{\left\vert Cycles(-) \right\vert}
+  \;=\;
+  \underset{
+    T \in ssYT_n(N)
+  }{\sum}
+  \chi^{ \left\vert T \right\vert }(-)
+  \,.
+$$
+
+\end{lemma}
+
+This is the statement of [Gnedin, Gorin & Kerov 11, Prop. 2.4](#GnedinGorinKerov11) (with notation from Prop. 2.1).
+
+\begin{proposition}
+
+For $N \in \mathbb{N}$
+and $\lambda \in Part(n)$, the $\lambda$th eigenvalue of the Cayley distance kernel at $\beta = ln(N)$ on $Sym(n)$ is proportional to the number $\left\vert ssYT_{\lambda \vdash n}(N)\right\vert$ of [[semistandard Young tableaux]] (Def. \ref{SetsOfSemistandardYoungTableau})
+
+\[
+  \label{EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux}
+  EigVals[e^{- ln(N) \cdot d_c}]_\lambda
+  \;=\;
+  \tfrac{n!}{N^n \cdot \chi^{(\lambda)}(e)}
+  \left\vert ssYT_{\lambda \vdash n}(N)\right\vert 
+  \,.
+\]
+
+In particular, all eigenvalues are non-negative at $\beta = ln(N)$
+
+$$
+  EigVals[e^{- ln(N) \cdot d_c}]_\lambda
+  \;\geq\;
+  0  
+$$
+
+and the $\lambda$th eigenvalue vanishes precisely when $N$ is smaller than the number of rows of $\lambda = (\lambda_1 \geq \cdots \geq \lambda_{rows(\lambda)})$:
+
+$$
+  EigVals[e^{- ln(N) \cdot d_c}]_\lambda
+  \;=\;
+  0
+  {\phantom{AAAAAA}}
+     \Leftrightarrow
+  {\phantom{AAAAAA}}
+  N \lt rows(\lambda)
+  \,.
+$$ 
+
+
+\end{proposition}
+
+\begin{proof}
+
+We compute as follows:
+
+$$
+  \begin{aligned}
+    EigVals[e^{- ln(N) \cdot d_C}]_\lambda
+    & 
+    \;=\;
+    \tfrac{1}{\chi^{(\lambda)}(e)}
+    \underset{\sigma \in Sym(n)}{\sum}
+    e^{ ln(N) ( \left\vert Cycles(\sigma) \right\vert ) - n }
+    \cdot
+    \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \tfrac{1}{\chi^{(\lambda)}(e)}
+    \underset{\sigma \in Sym(n)}{\sum}
+    e^{ ln(N) ( \left\vert Cycles(\sigma) \right\vert ) - n }
+    \cdot
+    \bar \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \;=\;
+    \tfrac{1}{N^n \cdot \chi^{(\lambda)}(e)}
+    \underset{\sigma \in Sym(n)}{\sum}
+    N^{ \left\vert Cycles(\sigma) \right\vert  }
+    \cdot
+    \bar \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \;=\;
+    \tfrac{1}{N^n \cdot \chi^{(\lambda)}(e)}
+    \underset{
+      T \in ssYT_n(\{1, \cdots, N\})
+    }{\sum}
+    \underset{\sigma \in Sym(n)}{\sum}
+    \chi^{ \left\vert T \right\vert }(\sigma)
+    \cdot
+    \bar \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \;=\;
+    \tfrac{n!}{N^n \cdot \chi^{(\lambda)}(e)}
+    \underset{
+      T \in ssYT_n(N) 
+    }{\sum}
+    \delta^{ \left\vert T\right\vert, \lambda }
+  \end{aligned}
+$$
+
+Here the first line is the expression of the eigenvalues from .... The second line passes to the [[complex conjugation]] using that all eigenvalues are real (the Cayley distance kernel being a real symmetric matrix). With this, the last step follows with [[Schur orthogonality]] ([this equation](Schur+orthogonality+relation#eq:FirstSchurOrthogonalityRelation)).
+
+\end{proof}
+
+
+
 $$
    \stackrel{
       \overset{(\alpha,\phi)_!}{\leftarrow}
@@ -273,3 +421,8 @@ Here we used:
 1. the character formula for the eigenvalues ([this Prop](Cayley+distance+kernel#CharacterFormulaForEigenvalues)).
 
 \end{proof}
+
+
+* {#GnedinGorinKerov11} Alexander Gnedin, Vadim Gorin, Sergei Kerov, *Block characters of the symmetric groups*, Journal of Algebraic Combinatorics, 38, no. 1 (2013), 79-101 ([arXiv:1108.5044](https://arxiv.org/abs/1108.5044))
+
+
