@@ -195,7 +195,7 @@ A definition of the [[rational numbers]] as a polynomial ring over the integers 
     | neg : rational -> rational
     | add : rational -> rational -> rational
     | mult : rational -> rational -> rational
-    | injzero: inj zero == zero
+    | injzero: inj zero == one
     | injsucc: forall (n : nat) inj succ n == add (inj n) one
     | alunital : forall (x : rational) add zero x == x
     | arunital : forall (x : rational) add x zero == x
@@ -209,8 +209,8 @@ A definition of the [[rational numbers]] as a polynomial ring over the integers 
     | mrunital : forall (x : rational) mult x one == x
     | massoc : forall (x y z : rational) mult x (mult y z) == mult (mult x y) z
     | mcomm : forall (x y : rational) mult x y = mult y x
-    | mlinv: forall (n : nat) mult (invelem n) (inj succ n) == one
-    | mrinv: forall (n : nat) mult (inj succ n) (invelem n) == one
+    | mlinv: forall (n : nat) mult (invelem n) (inj n) == one
+    | mrinv: forall (n : nat) mult (inj n) (invelem n) == one
     | contr1 : forall (x y : rational) (p q : x == y), p == q.
 
 Another definition of the rationals as an abelian group with an $N$-action
