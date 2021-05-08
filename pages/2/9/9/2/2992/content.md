@@ -30,9 +30,13 @@ The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions
 
 Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers. The positive integers are embedded into every [[commutative ring]] $R$: there is an injection $inj:\mathbb{N}^+\to\R$ such that $inj(1) = 1$ and $inj(s(n)) = inj(n) + 1$ for all $n:\mathbb{N}^+$. 
 
-Suppose $R$ has an injection $inv:\mathbb{N}^+\to\R$ such that $inj(n) \cdot inv(n) = 1$ and $\inv(n) \cdot \inj(n) = 1$ for all $n:\mathbb{N}^+$. Then $R$ is called a __[[commutative algebra|$\mathbb{Q}$-algebra]]__, and the commutative ring of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] commutative $\mathbb{Q}$-algebra. 
+Suppose $R$ has an injection $inv:\mathbb{N}^+\to\R$ such that $inj(n) \cdot inv(n) = 1$ and $\inv(n) \cdot \inj(n) = 1$ for all $n:\mathbb{N}^+$. Then $R$ is called a __[[commutative algebra|$\mathbb{Q}$-algebra]]__, and the commutative ring of __rational numbers__ $\mathbb{Q}$ is the [[initial object|initial]] commutative $\mathbb{Q}$-algebra. 
 
 It can then be proven from the ring axioms and the properties of the integers that every rational number apart from zero and has a multiplicative inverse, making $\mathbb{Q}$ a field.
+
+### As an directed colimit in CRing
+
+Let $(\mathbb{N},\leq)$ be the directed set of positive integers, and let $A:\mathbb{N}\to CRing$ be a family of [[commutative rings]] where $A_n$ is defined to be $\mathbb{Z}[1/n!]$, the [[localization of a commutative ring|localization]] of the [[integers]] $\mathbb{Z}$ [[localisation of a commutative ring away from an element|away from]] the [[factorial]] $n!$, and for $i, j:\mathbb{N}$, $i\leq j$, there is a commutative [[ring homomorphism]] from $f_{ij}:\mathbb{Z}[1/i!]\to\mathbb{Z}[1/j!]$, with $f_{ii}$ being the [[identity morphism|identity commutative ring homomorphism]] on $\mathbb{Z}[1/i!]$. Then the commutative ring of __rational numbers__ $\mathbb{Q}$ is the [[directed colimit]] $\underset{\to}\lim_i A_i$ of the system. 
 
 ### As an abelian group
 
@@ -40,7 +44,7 @@ Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of
 
 Let $A$ be an [[abelian group]] containing $\mathbb{Z}$ as an abelian subgroup. The positive integers are embedded into the [[function algebra|function abelian group]] $A \to A$, with $id_A:A \to A$ being the [[identity function]] on $A$; i.e. there is an injection $inj:\mathbb{N}^+\to (A \to A)$ such that $inj(1) = id_A$ and $inj(s(n)) = inj(n) + id_A$ for all $n:\mathbb{N}^+$.
 
-Suppose $A$ has an injection $inv:\mathbb{N}^+\to (A \to A)$ such that for all $n:\mathbb{N}^+$, $inj(n) \circ inv(n) = id_A$ and $inv(n) \circ inj(n) = id_A$. Then the abelian group of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] such abelian group. 
+Suppose $A$ has an injection $inv:\mathbb{N}^+\to (A \to A)$ such that for all $n:\mathbb{N}^+$, $inj(n) \circ inv(n) = id_A$ and $inv(n) \circ inj(n) = id_A$. Then the abelian group of __rational numbers__ $\mathbb{Q}$ is the [[initial object|initial]] such abelian group. 
 
 ## Properties
 
