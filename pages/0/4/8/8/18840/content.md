@@ -229,6 +229,9 @@ Discussion of [[density matrices]] and [[entropy]] in quantum probability, via t
 
 * A. P. Balachandran, T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, _Algebraic approach to entanglement and entropy_, Phys. Rev. A 88, 022301 (2013) ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
 
+* [[A. P. Balachandran]], A. R. de Queiroz, S. Vaidya, *Entropy of Quantum States: Ambiguities*, Eur. Phys. J. Plus 128, 112 (2013) ([arXiv:1212.1239](https://arxiv.org/abs/1212.1239), [doi:10.1140/epjp/i2013-13112-3](https://doi.org/10.1140/epjp/i2013-13112-3))
+
+
 * Paolo Facchi, Giovanni Gramegna, Arturo Konderak, *Entropy of quantum states* ([arXiv:2104.12611](https://arxiv.org/abs/2104.12611))
 
 
