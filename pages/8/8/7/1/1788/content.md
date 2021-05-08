@@ -1,6 +1,18 @@
 
-\begin{prop}
-\end{
+$$
+   \stackrel{
+      \overset{(\alpha,\phi)_!}{\leftarrow}
+   }{
+     \underset{(\alpha,\phi)^*}{\to}
+   } 
+$$
+
+$$
+  \underoverset
+    {\;\;(\alpha,\phi)^*\;\;}
+    {\;\;(\alpha,\phi)_!\;\;}
+    {\leftrightarrows}
+$$
 
 $$
   \Big\langle
