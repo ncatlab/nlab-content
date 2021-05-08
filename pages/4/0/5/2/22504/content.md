@@ -1,5 +1,13 @@
 
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -86,4 +94,15 @@ Survey in the context of [[Schur functions]]:
 
 
 See also the references at *[[Young tableau]]*.
+
+
+[[!redirects semistandard Young tableaux]]
+
+[[!redirects semi-standard Young tableau]]
+[[!redirects semi-standard Young tableaus]]
+
+[[!redirects semi standard Young tableau]]
+[[!redirects semi standard Young tableaus]]
+
+
 
