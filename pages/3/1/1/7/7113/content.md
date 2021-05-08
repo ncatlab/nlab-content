@@ -5,10 +5,7 @@
 
 ## Idea
 
-An _archimedean field_ is an [[ordered field]] in which every element is bounded above by a [[natural number]].
-
-So an archimedean field has no infinite elements (and thus no non-zero [[infinitesimal object|infinitesimal]] elements).
-
+An _archimedean field_ is an [[ordered field]] that satisfies the [[archimedean property]].
 
 ## Non-archimedean fields
 
