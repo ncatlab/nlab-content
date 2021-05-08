@@ -42,13 +42,9 @@ It can then be proven from the commutative ring axioms that every rational numbe
 
 Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers and let $(\mathbb{Z},0,+,-,1)$ be the [[free abelian group]] on the set ${1}$.  
 
-Let $A$ be an [[abelian group]] containing $\mathbb{Z}$ as an abelian subgroup. There are injections $inj,inv:\mathbb{N}^+\to (A \to A)$ satisfying the following axioms for all $a:A$:
+Let $A$ be an [[abelian group]] containing $\mathbb{Z}$ as an abelian subgroup. The positive integers are embedded into $A \to A$; there is an injection $inj:\mathbb{N}^+\to (A \to A)$ such that $inj(1)(a) = a$ and $inj(s(n))(a) = inj(n)(a) + a$ for all $n:\mathbb{N}^+$ and $a:A$.
 
-* $inj(1)(a) = a$
-* $inj(s(n))(a) = inj(n)(a) + a$ for all $n:\mathbb{N}^+$
-* $inj(n)(inv(n)(a)) = a$ and $inv(n)(inj(n)(a)) = a$ for all $n:\mathbb{N}^+$. 
-
-The abelian group of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] abelian group satisfying the above axioms. 
+Suppose $A$ has an injection $inv:\mathbb{N}^+\to (A \to A)$ such that for all $n:\mathbb{N}^+$, $inj(n) \circ inv(n) = id_A$ and $inv(n) \circ inj(n) = id_A$, with $id_A$ being the identity function on $A$. Then the abelian group of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] such abelian group. 
 
 ## Properties
 
