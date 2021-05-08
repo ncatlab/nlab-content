@@ -340,10 +340,9 @@ See also:
 
 * Thaynara Arielly de Lima; Mauricio Ayala-Rincón, *Complexity of Cayley distance and other general metrics on permutation groups* ([doi:10.1109/ColombianCC.2012.6398020](https://doi.org/10.1109/ColombianCC.2012.6398020), [pdf](https://www.mat.unb.br/ayala/shortw4v2.pdf))
 
-Discussion of [[character of a linear representation|characters]] for the symmetric group that depend only on Cayley distance from the neutral element ("block character"):
+Discussion of [[character of a linear representation|characters]] for the [[symmetric group]] that depend only on Cayley distance from the neutral element ("block character"):
 
-* Alexander Gnedin, Vadim Gorin, Sergei Kerov, *Block characters of the symmetric groups*, Journal of Algebraic Combinatorics, 38, no. 1 (2013), 79-101 ([arXiv:1108.5044](https://arxiv.org/abs/1108.5044))
-
+* {#GnedinGorinKerov11} [[Alexander Gnedin]], [[Vadim Gorin]], [[Sergei Kerov]], *Block characters of the symmetric groups*, Journal of Algebraic Combinatorics, 38, no. 1 (2013), 79-101 ([arXiv:1108.5044](https://arxiv.org/abs/1108.5044), [doi:10.1007/s10801-012-0394-9](https://doi.org/10.1007/s10801-012-0394-9))
 
 Discussion of the [[Cayley distance kernel]]:
 
