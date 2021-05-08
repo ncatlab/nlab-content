@@ -21,40 +21,61 @@
 
 Given a [[finite group]] $G$ of [[cardinality]] ${\vert G \vert}$, then the [[complex number|complex]] valued [[class functions]]  $\chi \colon G \to \mathbb{C}$ have an [[inner product]] -- the _Schur inner product_ -- given by
 
-$$
+\[
   \langle \alpha, \beta\rangle
   \coloneqq
   \frac{1}{{\vert G \vert}}
   \underset{g \in G}{\sum} \alpha(g) \overline{\beta(g)}
   \,.
-$$
+\]
 
-The _[[Schur orthogonality relation]]_ is the statement that the [[irreducible representation|irreducible]] [[group characters]] $\{\chi_i\}_i$ form an [[orthonormal basis]] of the space of [[class functions]] under this [[inner product]]:
+The _[[Schur orthogonality relation]]_ is the statement that the [[complex numbers|complex]] [[irreducible representation|irreducible]] [[group characters]] $\{\chi^{(a)}\}_a$ form an [[orthonormal basis]] of the space of [[class functions]] under this [[inner product]]:
 
-$$
-  \langle \chi_i, \chi_j \rangle 
+\[
+  \langle \chi^{(a)}, \chi^{(b)} \rangle 
   = 
   \left\{
     \array{
-       1 & if \; i = j
+       1 & if \; a = b
        \\
        0 & otherwise
     }
   \right.
-$$
+\]
 
 
 (e.g. [Fulton & Harris 91, Thm. 2.12](#FultonHarris91), [tom Dieck 09, Prop. 2.2.1 & (2.3.3)](#tomDieck09))
 
+In fact, this holds also at the level of complex [[irreducible representations]] $\rho^{(a)}$, regarded for each $g \in G$ as [[unitary matrices]] $\rho^{(a)}(g) \in U(\chi^{(a)}(e))$ with matrix entries $\big(\rho^{(a)}(g)_{i j}\big)_{i j}$:
 
-Conversely, the sum over all ([[isomorphism classes]]) of [[irreducible characters]] $\chi_i$ yields
+\[
+  \label{SchurOrthogonalityForIrreps}
+  \underset{g \in G}{\sum}
+    \rho^{(a)}(g^{-1})_{i_1 j_1}
+    \cdot 
+    \rho^{(b)}(g)_{i_2 j_2}
+  \;=\;
+  \delta^{a b} \delta_{i_1 i_2} \delta_{j_1 j_2}
+  \cdot
+  \frac{
+    \left\vert G \right\vert
+  }{
+    dim(\rho^{(a)})
+  }  
+  \,.
+\]
 
-$$
-  \underset{\chi_i}{\sum}
-  \chi_i(g)
+(e.g. [tom Dieck 09 (2.2.7)](#tomDieck09))
+
+
+Conversely, the sum over all ([[isomorphism classes]]) of [[irreducible characters]] $\chi_i$ yields:
+
+\[
+  \underset{\chi^{(a)}}{\sum}
+  \chi^{(a)}(g)
   \cdot 
   \overline{
-    \chi_i(h)
+    \chi^{(a)}(h)
   }
   \;=\;
   \left\{
@@ -66,9 +87,10 @@ $$
     0 & \text{otherwise}
   }
   \right.
-$$
+\]
 
 (e.g. [Fulton & Harris 91, Ex. 2.21](#FultonHarris91), [tom Dieck 09, Prop. 2.2.1 & (2.3.3)](#tomDieck09))
+
 
 ## Related concepts
 
@@ -82,7 +104,7 @@ Textbook accounts:
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
 
-Lecture notes
+Lecture notes:
 
 * {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]])
 
