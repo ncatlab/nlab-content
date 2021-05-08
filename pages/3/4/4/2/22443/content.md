@@ -1240,11 +1240,11 @@ For the Cayley distance kernel at $\beta = ln(N)$ with $N \in \mathbb{N}$:
 
 \begin{proof}
 By (eq:EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux) in
-Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} the eigenvalues at $\beta = ln(N)$ count possible numbers of colorings of Young diagrams to [[semistandard Young tableaux]] (ssTY). This gives the first statement.
+Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} the eigenvalues at $\beta = ln(N)$ count possible numbers of colorings of Young diagrams to [[semistandard Young tableaux]] (ssYT). This gives the first statement.
 
-Since in a ssTY the labels must strictly increase downwards, there is no possible ssTY-coloring if there are fewer labels than rows. This gives the second claim.
+Since in a ssYT the labels must strictly increase downwards, there is no possible ssYT-coloring if there are fewer labels than rows. This gives the second claim.
 
-But conversely, since in an ssTY the labels may be constant horizontally, there is at least one coloring once there never are more rows than labels. This gives the last claim.
+But conversely, since in an ssYT the labels may be constant horizontally, there is at least one coloring once there never are more rows than labels. This gives the last claim.
 \end{proof}
 
 
