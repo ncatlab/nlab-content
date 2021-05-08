@@ -55,7 +55,7 @@ $$
 $$
 
 for the [[full subcategory]] of the [[category of presheaves]] on $C$ on the 
-[[retract]]s of [[representable functor]].
+[[retract]]s of [[representable functors]].
 
 This $\overline{C}$ is called the **Cauchy completion** of $C$.
 
