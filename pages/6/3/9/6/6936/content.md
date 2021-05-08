@@ -132,6 +132,17 @@ According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] th
 
 ... 
 
+### Classically extended natural numbers
+
+The [[set]] of [[extended natural numbers]] as it behaves in [[classical mathematics]] as a higher inductive type
+
+    Inductive extnat : Type :=
+    | zero : extnat
+    | succ : extnat -> extnat
+    | inf : extnat -> extnat
+    | fixpoint : succ inf == inf
+    | contr1 : forall (x y : int) (p q : x == y), p == q.
+
 ### Integers
 
 A definition of the set of [[integers]] as a higher inductive type. 
