@@ -78,14 +78,14 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
   * [[dyadic rational number]]
 
 * [[Q/Z]]
-
-* [[quadratic number]]
    
 * [[algebraic number]]
 
 * [[Gaussian number]]
 
 * [[irrational number]]
+
+* [[quadratic irrational number]]
 
 * [[real number]]
 
