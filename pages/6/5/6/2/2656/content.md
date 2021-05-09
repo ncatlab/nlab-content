@@ -118,7 +118,7 @@ In the English representation the boxes are adjusted to the north-west in the 4t
 Let $\mathbb{Y}$ be the set of Young diagrams. Important functions on Young 
 diagrams include:
 
-* **conjugation**: denoted by a prime $\prime : \mathbb{Y} \rightarrow \mathbb{Y}$
+* {#Conjugation} **conjugation**: denoted by a prime $\prime : \mathbb{Y} \rightarrow \mathbb{Y}$
   reflects the Young diagram along its main diagonal (north-west to south-east). 
   In the above example the conjugated partition would be $\lambda^\prime=(6,4,3,3,1)$.
 * **weight**: $wt \colon \mathbb{Y} \rightarrow \mathbb{N}$ provides the number 
