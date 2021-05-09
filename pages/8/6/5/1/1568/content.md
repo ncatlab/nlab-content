@@ -95,7 +95,7 @@ This generalizes all of the above notions of ideal *except* for ideals in proset
 
 ### In categories
 
-More generally still, passing from monoids to their many-object version a right ideal or _[[sieve]]_ in a [[category]] is a subcategory closed under precomposition with morphisms from the entire category, and a cosieve or left ideal is the dual notion closed under postcompositions with morphisms in the entire category.  See [[sieve]].
+More generally still, passing from monoids to their many-object version and from prosets to their many-morphism version, a right ideal or _[[sieve]]_ in a [[category]] is a subcategory closed under precomposition with morphisms from the entire category, and a cosieve or left ideal is the dual notion closed under postcompositions with morphisms in the entire category.  See [[sieve]].
 
 ### In additive categories 
 
