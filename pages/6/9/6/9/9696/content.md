@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[quantum error correction]]:
+
+* [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A454 (1998) 385-410 ([arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031))
+
+
 On [[quantum computation]]:
 
 * [[John Preskill]], *Quantum Computation* lecture notes ([web](http://theory.caltech.edu/~preskill/ph229/))
