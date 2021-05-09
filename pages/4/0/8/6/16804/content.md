@@ -250,9 +250,9 @@ However, such chord diagrams nonetheless play an important role in the theory of
 
 Early consideration of round chord diagrams (as "linked diagrams"):
 
-* Paul R. Stein, *On a class of linked diagrams, I. Enumeration*, Elsevier Journal of Combinatorial Theory, Series A Volume 24, Issue 3, May 1978, Pages 357-366 (<a href="https://doi.org/10.1016/0097-3165(78)90065-1">doi:10.1016/0097-3165(78)90065-1</a>)
+* Paul R. Stein, *On a class of linked diagrams, I. Enumeration*, Journal of Combinatorial Theory, Series A Volume 24, Issue 3, May 1978, Pages 357-366 (<a href="https://doi.org/10.1016/0097-3165(78)90065-1">doi:10.1016/0097-3165(78)90065-1</a>)
 
-* Paul R. Stein, C. J. Everett, *On a class of linked diagrams II. asymptotics*, Discrete Mathematics Volume 21, Issue 3, 1978, Pages 309-318 (<a href="https://doi.org/10.1016/0012-365X(78)90162-0">doi:10.1016/0012-365X(78)90162-0</a>)
+* Paul R. Stein, C. J. Everett, *On a class of linked diagrams II. Asymptotics*, Discrete Mathematics Volume 21, Issue 3, 1978, Pages 309-318 (<a href="https://doi.org/10.1016/0012-365X(78)90162-0">doi:10.1016/0012-365X(78)90162-0</a>)
 
 Original discussion of chord diagrams in the context of [[Vassiliev invariants]]:
 
