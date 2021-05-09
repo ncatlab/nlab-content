@@ -14,7 +14,7 @@
 
 ## Definition
 
-A __quadratic number__ is a number that is the root of some quadratic polynomial with rational coefficients. A __quadratic irrational number__ is a __quadratic number__ that is also [[irrational number|irrational]]. The __real quadratic numbers__  are quadratic numbers without an square root if $-1$, while __complex quadratic numbers__ are quadratic numbers with a square root of $-1$. __Real quadratic irrational numbers__ are real quadratic numbers that are irrational, while __complex quadratic irrational numbers__ are complex quadratic numbers that are irrational. 
+A __quadratic number__ is a [[number]] that is the [[root]] of some quadratic [[polynomial]] with [[rational number|rational]] [[coefficients]]. A __quadratic irrational number__ is a __quadratic number__ that is also [[irrational number|irrational]]. The __real quadratic numbers__  are quadratic numbers without a square root of $-1$ ([[imaginary unit]]), while __complex quadratic numbers__ are quadratic numbers with a square root of $-1$. __Real quadratic irrational numbers__ are real quadratic numbers that are irrational, while __complex quadratic irrational numbers__ are complex quadratic numbers that are irrational. 
 
 ## Properties
 
