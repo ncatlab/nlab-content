@@ -74,4 +74,6 @@ To do: prove that $\mathbb{Z}[1/10]$ are embedded in the reals, define addition 
 
 * Wikipedia, _[Decimal](https://en.wikipedia.org/wiki/Decimal)_
 
+* Wikipedia, _[Decimal representation](https://en.wikipedia.org/wiki/Decimal_representation)_
+
 [[!redirects decimal numbers]]
