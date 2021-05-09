@@ -90,6 +90,8 @@ Localization away from a suitably tame ideal may be understood as the [[dR-shape
 
 * [[localization]], 
 
+* [[localization of a monoid]]
+
 * [[localization of abelian groups]]
 
 * [[localization of a module]]
