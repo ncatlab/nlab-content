@@ -47,6 +47,8 @@ According to ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) thi
 
 * [[Grothendieck group]]
 
+* [[localization of a monoid]]
+
 ## References
 
 Classical accounts include
