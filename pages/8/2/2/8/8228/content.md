@@ -29,13 +29,13 @@ The methods of geometric group theory overlap with [[kernel methods]] in [[machi
 
 ## References
 
-Textbooks:
-
+Textbooks accounts:
 
 * [[Persi Diaconis]], Chapter 6 of: *Group Representations in Probability  and Statistics*, Lecture Notes - Monographs Series, Institute of Mathematical Statistics 1988 ([pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
 
-
 * [[Cornelia Druţu]], [[Michael Kapovich]] (appendix by [[Bogdan Nica]]), *Geometric group theory*, Colloquium Publications **63**, AMS 2018 ([ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649))
+
+* [[Clara Löh]], *Geometric Group Theory*, Springer 2017 ([doi:10.1007/978-3-319-72254-2](https://link.springer.com/book/10.1007/978-3-319-72254-2), [pdf](http://www.mathematik.uni-regensburg.de/loeh/teaching/ggt_ws1011/lecture_notes_old.pdf))
 
 See also:
 
