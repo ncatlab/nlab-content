@@ -18,7 +18,7 @@
 
 ## Definition
 
-A _decimal rational number_ is a [[rational number]] $r \in \mathbb{Q}$ such that the following equivalent conditions hold
+A __decimal rational number__ or __decimal fraction__ is a [[rational number]] $r \in \mathbb{Q}$ such that the following equivalent conditions hold
 
 1. the [[decimal number|decimal]] expansion of $r$ has finitely many digits;
 
@@ -40,4 +40,4 @@ The [[commutative ring]] of decimal rational numbers $\mathbb{Z}[1/10]$ is the [
 [[!redirects decimal rationals]]
 
 [[!redirects decimal fraction]]
-[[!redirects decimal fraction]]
+[[!redirects decimal fractions]]
