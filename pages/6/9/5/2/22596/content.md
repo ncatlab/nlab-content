@@ -8,7 +8,7 @@ Talk about the decimal number system for integers and decimal fractions, and the
 
 ## Finite decimals
 
-Localisation of the [[rig]] of natural numbers at 10 $\mathbb{N}[1/10]$, finite decimals as canonical representatives of $\mathbb{N}[1/10]$, and then group completion of the additive monoid to $\mathbb{Z}[1/10]$.
+Localisation of the [[rig]] of natural numbers at 10 $\mathbb{N}[1/10]$, finite decimals as canonical representatives of $\mathbb{N}[1/10]$, and then [[group completion]] of the additive monoid to $\mathbb{Z}[1/10]$.
 
 ## Infinite decimals and real numbers
 
