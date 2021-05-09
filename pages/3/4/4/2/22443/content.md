@@ -1073,7 +1073,7 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
 
   * with $n$ boxes, and 
 
-  * with entries $\leq N$.
+  * all labels $\leq N$.
 
   Moreover for $\lambda \in Part(n)$ write
 
