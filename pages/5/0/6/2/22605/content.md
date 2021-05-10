@@ -21,6 +21,8 @@ $$
 
 ### For non-commutative monoids
 
+Analogue of [[noncommutative localization]] for noncommutative monoid objects in $Set$ instead of $Ab$. 
+
 ...
 
 ## Group completion
