@@ -10,7 +10,7 @@
 =--
 
 
-# Antihomomorphisms
+# Anti-Homomorphisms
 * table of contents
 {: toc}
 
@@ -34,7 +34,11 @@ An __antiautomorphism__ is an antihomomorphism whose underlying $C$-morphism is 
 
 ## Examples
 
-In a $*$-[[star-algebra|algebra]] the $*$ operator is an antiautomorphism (in fact an anti-[[involution]]).
+* The [[antipode]] in a [[Hopf algebra]] is an anti-homomorphism (by [this Prop.](Hopf+algebra#AntipodeIsAnAntihomomorphism)) 
+
+* In a [[star-algebra]] the star-operation is an anti-homomorphism, in fact an anti-automorphism, hence an anti-[[involution]].
+
+* Combining these two examples, in an [[involutive Hopf algebra]] the [[antipode]] is an anti-automorphism.
 
 
 [[!redirects antihomomorphism]]
@@ -46,3 +50,4 @@ In a $*$-[[star-algebra|algebra]] the $*$ operator is an antiautomorphism (in fa
 [[!redirects antiautomorphisms]]
 [[!redirects anti-automorphism]]
 [[!redirects anti-automorphisms]]
+
