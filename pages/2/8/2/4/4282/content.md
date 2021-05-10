@@ -52,13 +52,36 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 
 ## Examples
 
+### General
+
 * A _[[C-star algebra]]_ is in particular a star-algebra.
 
-* A [[groupoid convolution algebra]] is naturally a $*$-algebra, with the [[involution]] given by pullback along the [[inverse|inversion]] operation of the groupoid.
+### Involutive Hopf algebras
+ {#InvolutiveHopfAlgebras}
 
-* More generally the [[category convolution algebra]] of a [[dagger-category]] is a $*$-algebra, with the involution being the pullback along the $\dagger$ operation.
+\begin{example}\label{InvolutiveHopfAlgebrasAreStarAlgebras}
+**([[involutive Hopf algebras]] are [[star-algebras]])** \linebreak
+  Any [[involutive Hopf algebra]] is a star-algebra, with star-involution given by the [[antipode]] (by [this Prop.](Hopf+algebra#AntipodeIsAnAntihomomorphism)).
+\end{example}
 
-* The algebra of [[horizontal chord diagrams]] is a star-algebra under reversal of orientation of strands (see [here](horizontal+chord+diagram#StarAlgebraStructure)).
+\begin{example}
+**(groupoid algebras are star-algebras)**
+  A [[group algebra]] and, more generally, a [[groupoid convolution algebra]], is a star-algebra, with the star-[[involution]] given by pullback along the [[inverse|inversion]] operation of the groupoid.
+
+Yet more generally, the [[category convolution algebra]] of a [[dagger-category]] is a $*$-algebra, with the involution being the pullback along the $\dagger$ operation.
+
+All these are [[involutive Hopf algebras]] and as such special cases of Example \ref{InvolutiveHopfAlgebrasAreStarAlgebras}
+\end{example}
+
+\begin{example}\label{StarAlgebraOfHorizontalChordDiagrams}
+**(star-algebra of [[horizontal chord diagrams]])** \linebreak
+The algebra of [[horizontal chord diagrams]] is a star-algebra under reversal of orientation of strands (see [here](horizontal+chord+diagram#StarAlgebraStructure), [CSS 21, Prop. 2.9](#CSS21)).
+
+Since [[horizontal chord diagrams are the homology of the loop space of configuration space]] and the [[homology of a loop space]] is an [[involutive Hopf algebra]], this is a special case of Example \ref{InvolutiveHopfAlgebrasAreStarAlgebras}.
+\end{example}
+
+
+
 
 ## Related concepts
 
@@ -73,9 +96,14 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 
 ## References
 
-See also 
+See also:
 
 * Wikipedia, _[star-algebra](https://en.wikipedia.org/wiki/*-algebra)_
+
+Discussion of the Example \ref{StarAlgebraOfHorizontalChordDiagrams} of [[horizontal chord diagrams]]:
+
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
+
 
 [[!redirects star-algebra]]
 [[!redirects star-algebras]]
