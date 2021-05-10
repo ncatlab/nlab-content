@@ -1,16 +1,46 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Talk about the decimal number system for integers and decimal fractions, and then infinite sequences of decimals as a [[terminal coalgebra for an endofunctor]].
 
-## Integers
+## Natural numbers
 
-Define a set of digits $D$, and the [[free monoid]] $D^*$ on $D$ with unit $\epsilon$, quotiented by an equivalence relation. Then define a function $s$ on $D^*$ such that $D^*,\epsilon,s$ is a [[natural numbers object]]. Define addition and multiplication in the usual way, prove that  $D^*$ with addition and multiplication form a commutative [[rig]], and then group complete the additive monoid of $\mathbb{N}$ to $\mathbb{Z}$
+### As a free monoid
+
+Define a set of digits $D$, and the [[free monoid]] $D^*$ on $D$ with unit $\epsilon$, quotiented by an equivalence relation. Then define a function $s$ on $D^*$ such that $D^*,\epsilon,s$ is a [[natural numbers object]]. 
 
 ## Finite decimals
 
 Localisation of the [[rig]] of natural numbers at 10 $\mathbb{N}[1/10]$, finite decimals as canonical representatives of $\mathbb{N}[1/10]$, and then [[group completion]] of the additive monoid to $\mathbb{Z}[1/10]$.
 
-## Infinite decimals and real numbers
+## Infinite decimals
+
+### As an terminal coalgebra
 
 Consider the [[category]] of [[intervals]] $Int$, i.e., linearly ordered sets with identified elements $1$ and $0$, and let 
 
@@ -64,7 +94,23 @@ $$\mathbb{R} \cong (\mathbb{R}^{\geq 0})^{\op} + \mathbb{R}^{\geq 0}$$
 
 with coproduct monomorphisms $+:\mathbb{R}^{\geq 0} \to \mathbb{R}$ and $-:(\mathbb{R}^{\geq 0})^{\op} \to \mathbb{R}$, such that $-p \lt +p$ for all $p:\mathbb{R}^{\geq 0}, p \neq 0,00000....$, and $-0,00000... = +0,00000...$.
 
-To do: prove that $\mathbb{Z}[1/10]$ are embedded in the reals, define addition and a metric on $\mathbb{R}$, prove that $\mathbb{R}$ is an [[archimedean group]] and prove that the [[Cauchy complete category|Cauchy completion]] of $\mathbb{Z}[1/10]$ is embedded in $\mathbb{R}$. 
+### As a $\mathbb{Z}$-graded cochain complex of abelian groups
+
+Let $\mathbb{Z}/10\mathbb{Z}$ be the [[cyclic group]] consisting of 10 elements, and let $V_\bullet$ be a [[chain complex]] of [[abelian groups]] consisting of a sequence of $\mathbb{Z}/10\mathbb{Z}$ indexed by $\mathbb{Z}$. The indices $i:\mathbb{Z}$ are called __place values__, and $i$-[[cochains]] are called __digits__. 
+
+A __10-adic number__ is a cochain such that $c_i = 0$ for all $i \lt j$ or $c_i = 9$ for all $i \lt j$ for $i,j:\mathbb{Z}$. A __10-adic integer__ is a cochain such that $c_i = 0$ for all $i \lt 0$ or $c_ i = 9$ for all $i \lt 0$.
+
+A cyclic group $G$ has a canonical [[cyclic order]] $[(-),(-),(-)]:(G \times G \times G) \to \Omega$. We define the cyclic order on $\mathbb{Z}/10\mathbb{Z}$ such that $[0,n,1]$ is false for all $n:\mathbb{Z}/10\mathbb{Z}$. 
+
+For each $i:\mathbb{Z}$, there exists a [[cocycle]] $f_i: (C_i \times C_i) \to C_{i + 1}$ called the __digitwise carry__ function at place value $i$, defined such that for all $a,b:C_i$, $f_i(a,b) = 0$ if $[a,0,a+b]$ is false, and $f_i(a,b) = 1$ if $[a,0,a+b]$ is true.
+
+We define the __addition without carry__ on the cochain complex $(-)\oplus(-): (C_\bullet \times C_\bullet) \to C_\bullet$ as the addition of all digits using the abelian group operation, and we define the __carry__ $carry: (C_\bullet \times C_\bullet) \to C_\bullet$ as the digitwise carry of all digits. Then, __addition__ $(-)+(-): (C_\bullet \times C_\bullet) \to C_\bullet$ is defined [[recursion|recursively]] as $a+b = (a\oplus b)+carry(a,b)$. 
+
+The cochains consisting of all $n$s for all $n:\mathbb{Z}/10\mathbb{Z}$ are additive [[identity elements]] of the addition operation defined above. As such, they are algebraically equal to the same chain $0$ __zero__, the chain consisting of all zeroes. We define __negation__ $-(-): C_\bullet \to C_\bullet$ such that for all chains $c:C_\bullet$, the digits in $-c$ are $(-c)_i = 9 + -c_i$. As a result, the chain complex itself is an abelian group, and the subset of $C_\bullet$. $C_\bullet$ also forms a [[cyclic group]], so a cyclic order could be put on $C_\bullet$. 
+
+Let us define an $\mathbb{N}$-[[action]] $act: (\mathbb{N}^+\times C_\bullet) \to C_\bullet$ such that $act(0,0) = 0$ and $act(n + 1,c) = act(n,c) + c$ for all $n:\mathbb{N}^+$ and $c:C_\bullet$. This represents the $n$-fold sum of a cochain $c$. The [[archimedean property]] for cyclic orders then states that for all $a,b:C_\bullet$, there exist $n:\mathbb{N}^+$ such that $[0, a, act(n,b)]$ or $[act(n,b),a,0]$. Let $1$ __one__ denote the cochain with all digits equal to zero except at place value $0$, where the digit is equal to $1$. Then the __real numbers__ $\mathbb{R}$ is the largest abelian subgroup of $C_\bullet$ that contains $1$ and is archimedean. A __decimal rational__ is a real 10-adic number, and an __integer__ is a real 10-adic integet. 
+
+One could also establish a [[ring]] structure on $\mathbb{Z}/10\mathbb{Z}$ and construct a multiplication operation on the chain complex such that when restricted to real numbers yields multiplication of real numbers. The chain complex itself with the defined multiplication should be equivalent to the [[quotient ring]] of the [[Laurent series]] $\mathbb{Z}[[x,x^{-1}]]/(x-10)\mathbb{Z}[[x,x^{-1}]]$. 
 
 ## Related concepts
 
