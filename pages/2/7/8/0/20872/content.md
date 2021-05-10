@@ -225,3 +225,8 @@ In: Yoshiaki Maeda, Hideki Omori and [[Alan Weinstein]] (eds.), _Symplectic Geom
 
 
 [[!redirects horizontal weight systems are cohomology of loop space of configuration space]]
+
+[[!redirects horizontal chord diagrams are homology of loop space of configuration space]]
+
+[[!redirects horizontal chord diagrams are the homology of the loop space of configuration space]]
+
