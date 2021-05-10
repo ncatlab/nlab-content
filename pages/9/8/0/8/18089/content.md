@@ -18,7 +18,6 @@
 An _EI-category_ is a [[category]] in which every [[endomorphism]] is an [[isomorphism]]. 
 
 
-
 Similarly an _EI $(\infty,1)$-category_ is an [[(∞,1)-category]] in which every [[endomorphism]] is an [[equivalence in an (∞,1)-category|equivalence]].
 
 ## Examples
@@ -28,6 +27,8 @@ Similarly an _EI $(\infty,1)$-category_ is an [[(∞,1)-category]] in which ever
 * The [[path category]] of an acyclic [[quiver]]. 
 
 * A group, $G$, understood as [delooped](group#delooping) to a pointed connected [[groupoid]].
+
+* A [[one-way category]], which is a category in which every endomorphism is an identity, is trivially an EI-category.
 
 Let $\mathcal{S}$ be a set of [[subgroups]] of a [[group]] $G$. The following are all EI-categories ([Webb08, p. 4078](#Webb08)):
 
