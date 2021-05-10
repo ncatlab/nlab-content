@@ -34,21 +34,33 @@ There is a wide variety of variations of the notion of Hopf algebra, relaxing [[
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #Antipode}
 ###### Definition
+**(antipode)**
 
-A $k$-[[bialgebra]] $(A,m,\eta,\Delta,\epsilon)$ with multiplication $m$, comultiplication $\Delta$, unit $\eta: k\to A$ and counit $\epsilon:A\to k$ is called a **Hopf algebra**
-if there exists a $k$-[[linear function]]
-
-$$S : A \to A$$
-
-called the **antipode** or **coinverse** such that 
+A $k$-[[bialgebra]] $(A,m,\eta,\Delta,\epsilon)$ with multiplication $m$, comultiplication $\Delta$, unit $\eta: k\to A$ and counit $\epsilon \colon A\to k$ is called a **Hopf algebra** if there exists a $k$-[[linear function]]
 
 $$
-  m\circ(\mathrm{id}\otimes S)\circ \Delta = m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon
+  S \colon A \longrightarrow A
+  \,,
+$$
+
+then called the **antipode** or **coinverse**, such that 
+
+$$
+  m\circ(\mathrm{id}\otimes S)\circ \Delta 
+  \;=\; 
+  m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon
 $$ 
 
 (as a map $A\to A$). 
+
+=--
+
++-- {: .num_defn #InvolutiveHopfAlgebra}
+###### Definition
+
+If the antipode of a Hopf algebra (Def. \ref{Antipode}) is an [[involution]], in that $S \circ S = id$, then one speaks of an *[[involutive Hopf algebra]]*.
 
 =--
 
@@ -62,9 +74,13 @@ The unit of a Hopf algebra is a [[grouplike element]],  hence $S(1)1=1$, therefo
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #AntipodeIsAnAntihomomorphism}
 ###### Proposition
-The antipode is an antihomomorphism both of algebras and coalgebras (i.e. a homomorphism $S:A\to A^{cop}_{op}$). 
+
+The antipode is an [[anti-homomorphism]] both of algebras and coalgebras (i.e. a homomorphism $S \colon A\to A^{cop}_{op}$). 
+
+In particular, an [[involutive Hopf algebra]] (Def. \ref{InvolutiveHopfAlgebra}) is a [[star-algebra]].
+
 =--
 
 +-- {: .proof}
@@ -184,7 +200,7 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[Steenrod algebra]]
 
-* the [[ordinary homology]] of a [[finite type]] [[H-space]] (for instance a [[based loop space]]) is a [[Hopf algebra]] via its [[Pontrjagin ring]]-[[mathematical structure|structure]] -- set at _[[homology of loop spaces]]_ for more
+* the [[ordinary homology]] of a [[finite type]] [[H-space]] (for instance a [[based loop space]]) is a [[Hopf algebra]] via its [[Pontrjagin ring]]-[[mathematical structure|structure]] -- see at _[[homology of loop spaces]]_ for more
 
 ## Related concepts
 
@@ -228,7 +244,7 @@ The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](
 
 * [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
-* {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264 [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf)
+* {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264 ([doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
 
 * Susan Montgomery, _Hopf algebras and their action on rings_, AMS 1994, 240p.
 
