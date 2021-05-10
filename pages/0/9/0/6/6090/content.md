@@ -7737,6 +7737,12 @@ For review and further development in the context of [[perturbative AQFT]] see t
 
 * {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
+Claim of finite wave-packet effects on scattering amplitudes related to [[Stokes phenomena]]:
+
+* [[Kenzo Ishikawa]], Yutaka Tobita, *Matter-enhanced transition probabilities in quantum field theory*, Annals Phys. 344 (2014) 118-178 ([arXiv:1206.2593](https://arxiv.org/abs/1206.2593))
+
+* [[Kenzo Ishikawa]], Kenji Nishiwaki, Kin-ya Oda, *New effect in wave-packet scatterings of quantum fields: Saddle points, Lefschetz thimbles, and Stokes phenomenon* ([arXiv:2102.12032](https://arxiv.org/abs/2102.12032))
+
 
 See also
 
