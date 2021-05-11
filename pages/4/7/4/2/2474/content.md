@@ -32,7 +32,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A $C^*$-algebra is a [[Banach algebra]] $(A, {\|-\|})$ over a [[topological field]] $K$ (often the field $K \coloneqq \mathbb{C}$ of [[complex numbers]]) equipped with an [[involution]] $(-)^\ast$ compatible with [[complex conjugation]] if appropriate (that is: a Banach [[star-algebra]]) that satisfies the __$C^*$-identity__
+A $C^*$-algebra is a [[Banach algebra]] $(A, {\|-\|})$ over a [[topological field]] $K$ (often the field $K \coloneqq \mathbb{C}$ of [[complex numbers]]) equipped with an [[anti-involution]] $(-)^\ast$ compatible with [[complex conjugation]] if appropriate (that is: a Banach [[star-algebra]]) that satisfies the __$C^*$-identity__
 $$ 
   {\|{A^* A}\|} = {\|{A^*}\|} \, {\|{A}\|} 
 $$
