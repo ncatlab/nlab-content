@@ -13,22 +13,64 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
+ {#Definition}
 
-An **involution** is an [[endomorphism]] whose square is the [[identity morphism]].  Such an endomorphism must be an [[automorphism]]; indeed, it is its own [[inverse morphism|inverse]].
+An **involution** is an [[endomorphism]] $\sigma$ whose [[composition]] with itself is the [[identity morphism]]:
 
-Where this makes sense, an __anti-involution__ is an [[antihomomorphism]] instead of a [[homomorphism]] (so an antiendomorphism and necessarily an antiautomorphism).
+\[
+  \label{InvolutiveProperty}
+  \sigma \circ \sigma \;=\; id
+  \,.
+\]
+
+Such an endomorphism is necessarily an [[automorphism]], being its own [[inverse morphism|inverse]].
+
+On [[algebras]] and other [[mathematical structures]] where this makes sense, an __anti-involution__ is an [[anti-homomorphism]] satisfying (eq:InvolutiveProperty), instead of a [[homomorphism]] (hence an anti-[[endomorphism]] and necessarily an anti-[[automorphism]]). 
+
+An [[associative algebra]] equipped with an anti-involution is called a *[[star-algebra]]*.
 
 
 ## Properties
 
 ### Commuting involutions
 
-Two involutions $f, g : X \to X$ [[commutative diagram|commute]] if and only if their composition $f g$ is also an involution, as displayed by the following algebra:
+Two involutions $f, g \colon X \to X$ [[commutative diagram|commute]] if and only if their [[composition]] $f g$ is also an involution, as shown by the following manipulations:
 
-$$f g = g f \implies (f g) (f g) = (f g) (g f) = f (g g) f = f f = 1$$
-
-$$(f g) (f g) = 1 \implies f g = f ((f g) (f g)) g = (f f) (g f) (g g) = g f$$
+$$
+  \begin{aligned}
+  f g 
+   \;=\; 
+  g f 
+  &\;\;\;\;\;\implies\;\;\;\;\; 
+  (f g) (f g) 
+    \;=\; 
+  (f g) (g f) 
+    \;=\; 
+  f (g g) f 
+    \;=\; 
+  f f 
+   \;=\; 
+  id
+  \\
+  (f g) (f g) 
+    \;=\; 
+  id
+  &\;\;\;\;\;\implies\;\;\;\;\; 
+  f g 
+    \;=\; 
+  f 
+  \big(
+     (f g) (f g)
+  \big) 
+  g 
+    \;=\; 
+  (f f) (g f) (g g) 
+    \;=\; 
+  g f
+  \,.
+  \end{aligned}
+$$
 
 
 ### Fixed point free involutions
@@ -61,13 +103,19 @@ and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ
 
 ## Related concepts
 
-* [[chord diagram]]
+
+* [[star-algebra]]
 
 * [[dagger category]]
 
 * [[duality]]
 
-* [[star-algebra]], [[complex conjugation]]
+* [[involutive Hopf algebra]]
+
+* [[complex conjugation]]
+
+* [[idempotent]]
+
 
 ## References
 
