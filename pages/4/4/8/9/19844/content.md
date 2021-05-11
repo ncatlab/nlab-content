@@ -916,7 +916,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#CrivellinMuellerSaturnino20a} [[Andreas Crivellin]], Dario Mueller, Francesco Saturnino, _Leptoquarks in Oblique Corrections and Higgs Signal Strength: Status and Prospects_ ([arXiv:2006.10758](https://arxiv.org/abs/2006.10758))
 
-* {CFFPSV20} Marco Ciuchini, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _Lessons from the $B^{0,+} \to B^{\ast, 0,+} \mu^+ \mu^-$ angular analysis_ ([arXiv:2011.01212](https://arxiv.org/abs/2011.01212))
+* {#CFFPSV20} Marco Ciuchini, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _Lessons from the $B^{0,+} \to B^{\ast, 0,+} \mu^+ \mu^-$ angular analysis_ ([arXiv:2011.01212](https://arxiv.org/abs/2011.01212))
 
 
 * J. Kriewald, C. Hati, J. Orloff, A. M. Teixeira, _A combined explanation of the B-meson decay anomalies with a single vector leptoquark_ ([arXiv:2012.06315](https://arxiv.org/abs/2012.06315))
@@ -928,14 +928,20 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#GST21} [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
-[[leptoquarks]] explaining both the [[flavour anomalies]] and the [(g-2)-anomalies](anomalous+magnetic+moment#Anomalies):
+\linebreak
+
+[[leptoquarks]] for explaining both the [[flavour anomalies]] and the [(g-2)-anomalies](anomalous+magnetic+moment#Anomalies):
 
 * Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
+
+* Hyun Min Lee, *Leptoquark Option for B-meson Anomalies and Leptonic Signatures* ([arXiv:2104.02982](https://arxiv.org/abs/2104.02982))
+
 
 * {#MarzoccaTrifinopoulos21} [[David Marzocca]], Sokratis Trifinopoulos, *A Minimal Explanation of Flavour Anomalies: B-Meson Decays, Muon Magnetic Moment, and the Cabbibo Angle* ([arXiv:2104.05730](https://arxiv.org/abs/2104.05730))
 
 * Kayoung Ban, Yongsoo Jho, Youngjoon Kwon, Seong Chan Park, Seokhee Park, Po-Yan Tseng, *A comprehensive study of vector leptoquark on the B-meson and Muon $g-2$ anomalies* ([arXiv:2104.06656](https://arxiv.org/abs/2104.06656))
 
+\linebreak
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
