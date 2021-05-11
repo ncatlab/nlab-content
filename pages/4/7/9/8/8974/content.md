@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -57,6 +58,8 @@
 
 
 * David R. Cok, *Reasoning about functional programming in Java and C++*, ISSTA '18: Companion Proceedings for the ISSTA/ECOOP 2018 WorkshopsJuly 2018 Pages 37–39 ([doi:10.1145/3236454.3236483](https://doi.org/10.1145/3236454.3236483))
+
+  > (building functional programming into [[imperative programming languages]])
 
 Discussion of aspects of [[quantum computing]] in terms of [[monad (in computer science)|monads]] in functional programming are in
 
