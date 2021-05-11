@@ -15,7 +15,20 @@
 
 ## Idea
 
-A __$*$-algebra__ is an [[associative algebra]] (or even a [[nonassociative algebra]]) $A$ equipped with an [[anti-involution]].
+A __$*$-algebra__ is an [[algebra]] $A$ ([[associative algebra|associative]] or [[nonassociative algebra|non-associative]])  equipped with an [[anti-involution]]:
+
+$$
+  (-)^\ast \;\colon\; A \longrightarrow A
+  \;\;\;\;
+  \text{s.t.}
+  \;\;\;\;
+  \underset{a,b \in A}{\forall} \; 
+  (a b)^\ast \;=\; b^\ast a^\ast
+  \,,
+  \;\;\;\;\;\;
+  \underset{a \in A}{\forall} \; \left((a)^\ast\right)^\ast \;=\; a
+  \,.
+$$
 
 
 ## Definition
@@ -25,7 +38,7 @@ In more detail, begin with a [[commutative ring]] (often a [[field]], or possibl
 a __$K$-$*$-algebra__ (a $*$-algebra over $K$) is a $K$-[[module]] $A$ equipped with a $K$-[[bilinear map]] $A\times A \to A$, written as multiplication (and often assumed to be [[associativity|associative]]) and a $K$-antilinear map $A \to A$, written as $x \mapsto x^*$, such that
 
 * $x^{**} = x$ for all $x$ in $A$ (so we have an [[involution]] on the underlying $K$-module), and
-* $(x y)^* = y^* x^*$ for all $x,y$ in $A$ (so it is an anti-involution on $A$ itself).
+* $(x y)^* = y^* x^*$ for all $x,y$ in $A$ (so it is an [[anti-involution]] on $A$ itself).
 
 The claim that the anti-involution is $K$-antilinear means that $(r x)^* = \overline{r} x^*$ for all $r$ in $K$ and all $x$ in $A$ (as well as $(x + y)^* = x^* + y^*$).
 
@@ -53,8 +66,47 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 ## Examples
 
 ### General
+ {#General}
 
-* A _[[C-star algebra]]_ is in particular a star-algebra.
+\begin{example}\label{TrivialStarStructure}
+**(trivial star-structure)**\linebreak
+Any plain [[algebra]] becomes a star-algebra by equipping it with the [[identity morphism|identity]] anti-involution.
+\end{example}
+
+\begin{example}\label{ComplexConjugation}
+**([[complex conjugation]])**\linebreak
+  The [[complex numbers]] -- regarded as an [[associative algebra]] over the [[real numbers]] -- form a star-algebra with anti-involution (which here  is an involution, since the product is [[commutative algebra|commutative]]) given by [[complex conjugation]].
+\end{example}
+
+\begin{example}
+**([[Cayley-Dickson construction]])**
+The [[Cayley-Dickson construction]] takes any star-algebra over the [[real numbers]] to a new star algebra.
+
+Applied to the [[real numbers]] trivially regarded as a star-algebra (via Example \ref{TrivialStarStructure}), this yields, successively, the star-algebras of
+
+* [[real numbers]] (Example \ref{TrivialStarStructure})
+
+* [[complex numbers]] (Example \ref{ComplexConjugation})
+
+* [[quaternions]]
+
+* [[octonions]] 
+
+(which are the four [[real normed division algebras]]) and then further the
+
+* [[sedenions]]
+
+* ...
+
+In each case the star-operation may be thought of as [[complex conjugation]], given by changing the sign of the [[imaginary part]] and keeping the [[real part]] intact.
+
+\end{example}
+
+\begin{example}
+**([[C-star algebras]])**
+A _[[C-star algebra]]_ is a star-algebra where the anti-involution is compatible with the [[norm]] of the underlying [[Banach algebra]].
+\end{example}
+
 
 ### Involutive Hopf algebras
  {#InvolutiveHopfAlgebras}
@@ -70,7 +122,7 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 
 Yet more generally, the [[category convolution algebra]] of a [[dagger-category]] is a $*$-algebra, with the involution being the pullback along the $\dagger$ operation.
 
-All these are [[involutive Hopf algebras]] and as such special cases of Example \ref{InvolutiveHopfAlgebrasAreStarAlgebras}
+All these are [[involutive Hopf algebras]] (since taking [[inverses]] and taking [[dagger-category|dagger-operations]] squares to the identity) and as such are special cases of Example \ref{InvolutiveHopfAlgebrasAreStarAlgebras}
 \end{example}
 
 \begin{example}\label{StarAlgebraOfHorizontalChordDiagrams}
