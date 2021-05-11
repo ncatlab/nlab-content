@@ -60,7 +60,7 @@ $$
 +-- {: .num_defn #InvolutiveHopfAlgebra}
 ###### Definition
 
-If the antipode of a Hopf algebra (Def. \ref{Antipode}) is an [[involution]], in that $S \circ S = id$, then one speaks of an *[[involutive Hopf algebra]]*.
+If the antipode of a Hopf algebra (Def. \ref{Antipode}) is an [[anti-involution]], in that $S \circ S = id$, then one speaks of an *[[involutive Hopf algebra]]*.
 
 =--
 
