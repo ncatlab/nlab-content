@@ -206,13 +206,18 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
+\linebreak
 
-[[leptoquarks]] explaining both the [[flavour anomalies]] and the [(g-2)-anomalies](anomalous+magnetic+moment#Anomalies):
+[[leptoquarks]] for explaining both the [[flavour anomalies]] and the [(g-2)-anomalies](anomalous+magnetic+moment#Anomalies):
+
+* Hyun Min Lee, *Leptoquark Option for B-meson Anomalies and Leptonic Signatures* ([arXiv:2104.02982](https://arxiv.org/abs/2104.02982))
 
 * Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
 
 * Kayoung Ban, Yongsoo Jho, Youngjoon Kwon, Seong Chan Park, Seokhee Park, Po-Yan Tseng, *A comprehensive study of vector leptoquark on the B-meson and Muon $g-2$ anomalies* ([arXiv:2104.06656](https://arxiv.org/abs/2104.06656))
 
+
+\linebreak
 
 A [[leptoquark]] model meant to address all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once:
 
@@ -245,5 +250,13 @@ Appearance in [[GUT]]-theories:
 * {#MurayamaYanagida92} H. Murayama, T. Yanagida, _A viable $SU(5)$ GUT with light leptoquark bosons_, Mod.Phys.Lett. A7 (1992) 147-152 ([spire:315898](http://inspirehep.net/record/315898), [doi:10.1142/S0217732392000070](https://doi.org/10.1142/S0217732392000070))
 
 * [Heek-Teresi 18](#HeekTeresi18), [Heek-Teresi 19](#HeekTeresi19)
+
+### In string phenomenology
+
+Discussion of leptoquarks within [[string phenomenology]]:
+
+* Ricardo Perez-Martinez, Saul Ramos-Sanchez, Patrick K.S. Vaudrevange , *The landscape of promising non-supersymmetric string models* ([arXiv:2105.03460](https://arxiv.org/abs/2105.03460))
+
+
 
 [[!redirects leptoquarks]]
