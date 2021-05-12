@@ -13,6 +13,7 @@ with highlighting of [[homotopy type theory]]:
 
 * [[Klaus Mainzer]], *From Proof Theory to Proof Assistants -- Challenges of Responsible Software and AI*, talk at *[Arbeitstagung Bern-München, ABM Spring 2019](https://cj-xu.github.io/abm19/)* ([pdf](https://cj-xu.github.io/abm19/mainzer.pdf), [[MainzerResponsibleSoftware2019.pdf:file]])
 
-* [[Klaus Mainzer]], *Proof and Computation. Perspectives for Mathematics, Computer Science, and Philosophy*, Chapter 1 in: Klaus Mainzer, Peter Schuster, Helmut Schwichtenberg (eds.), *Proof and Computation II -- From Proof Theory and Univalent Mathematics to Program Extraction and Verification* ([doi:10.1142/12263 ](https://doi.org/10.1142/12263))
+* [[Klaus Mainzer]], *Proof and Computation. Perspectives for Mathematics, Computer Science, and Philosophy*, Chapter 1 in: Klaus Mainzer, Peter Schuster, Helmut Schwichtenberg (eds.), *Proof and Computation II -- From Proof Theory and Univalent Mathematics to Program Extraction and Verification*, World Scientific 2021 ([doi:10.1142/12263](https://doi.org/10.1142/12263))
+
 
 category: people
