@@ -12,7 +12,11 @@ Survey:
 * Simon Gay, _Quantum  programming languages: Survey and bibliography_, Mathematical Structures in Computer Science16(2006) ([doi:10.1017/S0960129506005378](https://doi.org/10.1017/S0960129506005378),  [pdf](http://www.dcs.gla.ac.uk/~simon/publications/QPLsurvey.pdf))
 
 
-Quantum programming via [[linear type theory]]/[[symmetric monoidal categories]]:
+Quantum programming via [[quantum logic]] understood as [[linear type theory]] [[categorical semantics|interpreted in]] [[symmetric monoidal categories]]:
+
+* {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
+
+* {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
 
 * [[Ross Duncan]], *Types for Quantum Computing*, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf))
 
@@ -46,7 +50,7 @@ Quantum programming via [[linear type theory]]/[[symmetric monoidal categories]]
 
 * {#PaykinRandZdancewic17} [[Jennifer Paykin]], [[Robert Rand]], [[Steve Zdancewic]], *QWIRE: a core language for quantum circuits*, POPL 2017: Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming LanguagesJanuary 2017 Pages 846–858 ([doi:10.1145/3009837.3009894](https://doi.org/10.1145/3009837.3009894))
 
-  (using the [[exponential adjunction]] between [[linear type theory]] and [[exponential type theory]])
+  (using the [[exponential modality]] between [[linear type theory]] and [[intuitionistic type theory]])
   
 * [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
 
