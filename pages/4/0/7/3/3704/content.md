@@ -102,14 +102,12 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 The idea that the natural language of [[quantum mechanics]] and [[quantum computation]] is that of [[†-compact categories]] became popular with the publication
 
-* {#AbramskyCoecke} [[Samson Abramsky]] and [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
-
+* {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
 
 with an expanded version in 
 
 * {#AbramskyCoecke08} [[Samson Abramsky]], [[Bob Coecke]], _Categorical quantum mechanics_, in _Handbook of Quantum Logic and Quantum Structures vol II_, Elsevier, 2008 ([arXiv:0808.1023](http://arxiv.org/abs/0808.1023))
  
-
 
 A fairly comprehensive account of the underlying theory of [[string diagrams]] is in
 
