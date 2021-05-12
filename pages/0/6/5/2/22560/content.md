@@ -27,7 +27,7 @@ $$\otimes: C \times C \to C$$
 
 from the [[product category]] of $C$ with itself. 
 
-If there is a specified object $I$, and natural isomorphisms $\lambda_A:\colon A\otimes I\stackrel{\simeq}{\to} A$ and $\rho_A:\colon I\otimes A\stackrel{\simeq}{\to} A$, then it is a **magmoidal category with unit**.
+If there is a specified object $I$, and natural isomorphisms $\lambda_A:\colon A\otimes I\stackrel{\simeq}{\to} A$ and $\rho_A:\colon I\otimes A\stackrel{\simeq}{\to} A$, then it is a **magmoidal category with unit**. Depending on the intended uses, it might be necessary to also impose the coherence condition that $\rho_I = \lambda_I\colon I\otimes I\stackrel{\simeq}{\to} I$ (which appeared in [[Mac Lane]]'s original definition of a [[monoidal category]], but proved redundant by [[Max Kelly]]). Note that the coherence condition usually placed on unitors in [[monoidal categories]] cannot even be stated in the context of a magmoidal category, since there is no associator to relate $A\otimes (I\otimes B)$ and $(A\otimes I)\otimes B$.
 
 
 ## Examples
