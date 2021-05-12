@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -45,6 +46,10 @@ Textbook accounts:
 See also:
 
 * Wikipedia, *[Representation theory of the symmetric group](https://en.wikipedia.org/wiki/Representation_theory_of_the_symmetric_group)*
+
+Notes:
+
+* Yufei Zhao, *Young Tableaux and the Representations of the Symmetric Group* ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhouRepsOfSymmetricGroup.pdf:file]])
 
 Discussion of [[character of a linear representation|characters]] for the [[symmetric group]] that depend only on [[Cayley distance]] from the [[neutral element]] ("block character"):
 
