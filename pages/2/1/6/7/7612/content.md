@@ -126,10 +126,15 @@ and here again specifically for [[cryptography]]:
 
 ### For quantum programming languages
 
-Verification of [[quantum programming languages]] such as [[Quipper]]:
+Verification for [[quantum programming languages]] 
+
+with [[Quipper]]:
 
 * Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds) Reversible Computation. RC 2016. Lecture Notes in Computer Science, vol 9720. Springer, Cham ([doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16))
- 
+
+with [[QWIRE]] (in [[Coq]]):
+
+* [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
 
 [[!redirects verified software]]
 [[!redirects software verification]]
