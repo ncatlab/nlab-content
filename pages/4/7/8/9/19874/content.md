@@ -206,6 +206,11 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
+
+* [[Andreas Crivellin]], Luc Schnell, *Complete Set of Feynman Rules for Scalar Leptoquarks* ([arXiv:2105.04844](https://arxiv.org/abs/2105.04844))
+
+
+
 \linebreak
 
 [[leptoquarks]] for explaining both the [[flavour anomalies]] and the [(g-2)-anomalies](anomalous+magnetic+moment#Anomalies):
