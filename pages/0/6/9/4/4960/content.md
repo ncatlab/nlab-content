@@ -975,7 +975,7 @@ By the discussion at [[exponential ideal]] a reflective subcategories of a [[car
 A cohesive topos comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. We discuss some of these.
 
 
-+-- {: .num_lemmaa}
++-- {: .num_lemma}
 ###### Observation
 
 For $(\Pi \dashv \Disc \dashv \Gamma \dashv coDisc) :  \mathcal{E} \to Set$ a cohesive topos, $(\Gamma \dashv coDisc)$ exhibits $Set$ as a [[subtopos]]
