@@ -90,6 +90,15 @@ Software verification for [[cryptography]]:
 
 ### Via type theory
 
+The general idea of verified programming via ([[dependent type theory|dependent]] [[type theory]]):
+
+* [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>)
+
+Exposition:
+
+* [[Harley Eades]], *Type Theory and Applications*, 2012 ([pdf](https://metatheorem.org/includes/pubs/comp.pdf), [[EadesTypeTheoryAndApplications.pdf:file]])
+
+
 Verification of [[cryptography]] via [[type theory]]:
 
 * Cédric Fournet, Karthikeyan Bhargavan, Andrew D. Gordon, *Cryptographic Verification by Typing for a Sample Protocol Implementation*, In: Aldini A., Gorrieri R. (eds) Foundations of Security Analysis and Design VI. FOSAD 2011. Lecture Notes in Computer Science, vol 6858. Springer (2011) ([doi:10.1007/978-3-642-23082-0_3]( https://doi.org/10.1007/978-3-642-23082-0_3))
