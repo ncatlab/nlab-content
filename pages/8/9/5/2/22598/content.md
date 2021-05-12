@@ -123,6 +123,10 @@ $$
 
 whence the name "hook/content formula".
 
+## Related concepts
+
+* [[hook length formula]]
+
 
 ## References
 
