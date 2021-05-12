@@ -27,7 +27,7 @@ On [[leptoquarks]]:
 
 * [[Andreas Crivellin]], Christoph Greub, Dario Müller, Francesco Saturnino, _Scalar Leptoquarks in Leptonic Processes_ ([arXiv:2010.06593](https://arxiv.org/abs/2010.06593))
 
-
+* [[Andreas Crivellin]], Luc Schnell, *Complete Set of Feynman Rules for Scalar Leptoquarks* ([arXiv:2105.04844](https://arxiv.org/abs/2105.04844))
 
 
 ## Related entries
