@@ -69,7 +69,7 @@ Spelled out, this means that a simplicial model category is
 ### Enrichment, tensoring, and cotensoring 
  {#EnrichmentTensoringCotensoring}
 
-Let $\mathcal{C}$ be a category equipped with the structure of a [[model category]] and with that of an [[sSet]]-[[enriched category]] with is [[tensoring|tensored]] and [[cotensoring|cotensored]] over [[sSet]].
+Let $\mathcal{C}$ be a category equipped with the structure of a [[model category]] and with that of an [[sSet]]-[[enriched category]], i.e., which is [[tensoring|tensored]] and [[cotensoring|cotensored]] over [[sSet]].
 
 +-- {: .num_prop #EquivalenceOfConditions}
 ###### Proposition
