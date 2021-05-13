@@ -13,6 +13,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 _Intensional type theory_ is the flavor of [[type theory]] in which [[identity types]] are not necessarily [[propositions]] (that is, [[(-1)-truncated]]).  [[Per Martin-Löf|Martin-Löf]]'s original definition of identity types, and the equivalent formulation as an [[inductive type]], are by default intensional; one has to impose extra axioms or rules in order to get [[extensional type theory]] (in which identity types are propositions).
@@ -26,7 +27,7 @@ Note that some type theorists use "intensional type theory" to refer to type the
 ### Decidability
  {#Decidability}
 
-Only the intensional but not the [[extensional type theory|extensional]] [[Martin-Löf type theory]] has [[decidability|decidable]] type checking. ([Martin-L&#246;f](#MartinLoef), [Hofmann](#Hofmann)).
+Only the intensional but not the [[extensional type theory|extensional]] [[Martin-Löf type theory]] has [[decidability|decidable]] type checking. ([Martin-L&#246;f 75](#MartinLof75), [Hofmann 95](#Hofmann95)).
 
 ## Examples
 
@@ -35,17 +36,18 @@ Only the intensional but not the [[extensional type theory|extensional]] [[Marti
 ## Related concepts
 
 * [[homotopy type theory]]
+
 * [[extensional type theory]], [[observational type theory]]
+
 * [[function extensionality]]
 
 ## References
 
-* [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, Logic Colloquium '73
-(Amsterdam) (H. E. Rose and J. C. Shepherdson, eds.), North-Holland, 1975, pp. 73-118.
-  {#MartinLoef}
+* {#MartinLof75} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** Pages 73-118,  Elsevier 1975 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+  
 
-* [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of
-Edinburgh, (1995) ([web](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
-  {#Hofmann}
+* {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of
+Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
+  
 
 [[!redirects intensional type theories]]
