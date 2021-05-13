@@ -73,7 +73,7 @@ In fact, languages for [classically controlled quantum computation](#ClassicalCo
 |-------------------|--------------|
 | [[intuitionistic type theory|intuitionistic types]] | [[dependent linear type theory|dependent linear types]]
 
-This idea of classically controlled quantum programming via dependent linear typpe theory has been implemented for the *[[Quipper]]* language in [FKS 20](#FKS20), [FKRS 20](#FKRS20).
+This idea of classically controlled quantum programming via dependent linear type theory has been implemented for the *[[Quipper]]* language in [FKS 20](#FKS20), [FKRS 20](#FKRS20).
 
 
 
