@@ -21,8 +21,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -280,25 +278,44 @@ The earliest occurrence of the univalence axiom is due to:
 
 under the name "universe extensionality".  These authors formulate almost the modern univalence axiom; the only difference is the lack of a coherent definition of [[equivalence in homotopy type theory|equivalence]].  
 
-The univalence axiom in its modern form was introduced and promoted by Vladimir Voevodsky around 2005. (?)
+The univalence axiom has famously come to be attributed to [[Vladimir Voevodsky]], though early documentation is hard to come by. 
+
+The first technical understanding of univalence in simplicial sets seems to be due to:
+
+* {#Bousfield06} [[Aldridge Bousfield]], [email to VV from 01 May 2006 10:10:30 CDT](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/YSQz-jJ_AAAJ)
+
+(which 6 years later came to be written up as [Kapulkin, Lumsdaine & Voevodsky12](#KapulkinLumsdaineVoevodsky12)).
+
+The first mentioning by Voevodsky of the term "univalence" by email is 3.5 years later, from [Dec. 30 2009](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/3N2xxxfSAAAJ) (according to [Grayson, Oct. 2017](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/-Lp5dxTTAAAJ)).
+
+The earliest accounts by Voevodsky's hand date from 2010, but the un-iniated may have trouble recognizing the univalence axiom here:
 
 * {#UnivalentFoundationsProject} [[Vladimir Voevodsky]], Section 4 of: _Univalent Foundations Project_, 2010 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
  
 * [[Vladimir Voevodsky]], *The equivalence axiom and univalent models of type theory* (Talk at CMU on February 4, 2010) ([arXiv:1402.5556](https://arxiv.org/abs/1402.5556))
 
-Textbook account:
 
-* [[UF-IAS-2012|Univalent Foundations Project]], p. 4 & Sec. 2.10 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, 2013  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**, **[[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534)**)
+Later in:
 
-Exposition and srvery:
+* [[Vladimir Voevodsky]],  *[The Origins and Motivations of Univalent Foundations](https://www.ias.edu/ideas/2014/voevodsky-origins)*, IAS Institute Letter Summer 2014
+
+appears the claim that:
+
+> have been working on the ideas that led to the discovery of univalent models since 2005 and gave the first public presentation on this subject at Ludwig-Maximilians-Universität München in November 2009.
+
+A clean and comprehensive discussion finally appears in the textbook:
+
+* [[UF-IAS-2012|Univalent Foundations Project]], p. 4 & Sec. 2.10 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, 2013  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**)
+
+Exposition and survey:
 
 * [[Peter Aczel]], _On Voevodsky's univalence axiom_ ([pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf))
 
 * [[Mike Shulman]], _Homotopy type theory, IV_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html))
 
-An accessible account of Voevodsky's proof that the universal [[Kan fibration]] in [[simplicial sets]] is univalent:
+An accessible account of Voevodsky's proof (following [Bousfield 06](#Bousfield06)) that the universal [[Kan fibration]] in [[simplicial sets]] is univalent:
 
-* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], _Univalence in simplicial sets_, [arXiv](http://arxiv.org/abs/1203.2553)
+* {#KapulkinLumsdaineVoevodsky12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], _Univalence in simplicial sets_, [arXiv:1203.2553](http://arxiv.org/abs/1203.2553)
 
 A quick elegant proof of the [[object classifier]]/universal [[associated infinity-bundle]] in simplicial sets/$\infty$-groupoids is in 
 
