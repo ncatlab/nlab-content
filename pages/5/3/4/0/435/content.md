@@ -35,7 +35,7 @@ For instance
 
   This is discussed in more detail at [[relation between quasi-categories and simplicial categories]].
 
-* on the other hand, eqipping the $sSet$-enriched category with the structure of an $sSet_{Joyal}$-enriched model category over the Joyal-[[model structure for quasi-categories]] makes it a model for an [[(∞,2)-category]].
+* on the other hand, equipping the $sSet$-enriched category with the structure of an $sSet_{Joyal}$-enriched model category over the Joyal-[[model structure for quasi-categories]] makes it a model for an [[(∞,2)-category]].
  
 
 ## Definition
