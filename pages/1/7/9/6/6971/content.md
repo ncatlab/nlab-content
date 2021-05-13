@@ -90,7 +90,8 @@ Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [
 
 ## References
 
-Among the most thorough recent treatments of extensional type theory are
+* {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
+  
 
 * [[Ieke Moerdijk]], E. Palmgren, _Wellfounded trees in categories_. Ann. Pure Appl. Logic, 104:189-218 (2000)
 
