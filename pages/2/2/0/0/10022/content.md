@@ -143,7 +143,7 @@ In fact, holographic entanglement entropy in the [[HaPPY code]] turns out to be 
     "caption": "From [JGPE 19](#JGPE19)"
 \end{imagefromfile}
 
-in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[dimers]] that cross between the subregion $A$ and its [[complement]]:
+in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[dimers]] that cross between the ([[connected topological space|connected]]) subregion $A$ and its [[complement]]:
 
 \begin{imagefromfile}
     "file_name": "ChordDiagramEntanglementEntropy.jpg",
