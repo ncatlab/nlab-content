@@ -102,8 +102,9 @@ Besides the monumental [Mazzola (2002)]((#Mazzola02), the following employ categ
 * Thomas Noll, _The Topos of Triads_ , pp.1-26 in Fripertinger, Reich (eds.),  _Colloquium on Mathematical Music Theory_ ,
 Grazer Math. Ber. **347** (2005). ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.134.5669))
 
-* Alexandre Popoff, _Towards A Categorical Approach of
-Transformational Music Theory_ , arXiv:1204.3216 (2014). ([abstract](http://arxiv.org/abs/1204.3216))
+* Alexandre Popoff, Moreno Andreatta, Andree Ehresmann, _Groupoids and Wreath Products of Musical Transformations: A Categorical Approach from poly-Klumpenhouwer Networks_ , pp. 33-45 in Mathematics and Computation in Music. MCM 2019. Lecture Notes in Computer Science, vol 11502. Springer. ([pdf](https://doi.org/10.1007/978-3-030-21392-3_3))
+
+* Alexandre Popoff, Jason Yust, _Meter networks: a categorical framework for metrical analysis_ , Journal of Mathematic and Music. ([pdf](https://doi.org/10.1080/17459737.2020.1836687))
 
 Methods of physics are employed to study tonality in
 
