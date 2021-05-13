@@ -34,7 +34,7 @@ with
 
 * **(global spacetime structure:)** the minimal area of a [[coboundary|cobounding]] [[hypersurface]] in an ambient curved [[bulk]] [[spacetime]].
 
-Concretely, in [[tensor network]]-models of [[AdS2/CFT1 duality]], the [[entanglement entropy]] $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[dimers]] that cross between the subregion $A$ and its [[complement]]:
+Concretely, in [[tensor network]]-models of [[AdS2/CFT1 duality]], the [[entanglement entropy]] $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[dimers]] that cross between a ([[connected topological space|connected]]) subregion $A$ and its [[complement]]:
 
 \begin{imagefromfile}
     "file_name": "ChordDiagramEntanglementEntropy.jpg",
@@ -53,7 +53,7 @@ Concretely, in [[tensor network]]-models of [[AdS2/CFT1 duality]], the [[entangl
 \begin{imagefromfile}
     "file_name": "HanUniversalHolographicCode.jpg",
     "float": "right",
-    "width": 400,
+    "width": 380,
     "unit": "px",
     "margin": {
         "top": -40,
@@ -79,6 +79,8 @@ $$
 
 recovers the [[Ryu-Takayanagi formula]] ([JGPE 19 (78)](holographic+entanglement+entropy#JGPE19)), as here the number of chords crossing any hyperbolic [[geodesic]] grows linearly with the [[length]] of this geodesic. 
 
+A precursor to this picture is the "bit-thread"-interpretation of entanglement entropy due to [Freedman & Headrick 16](holographic+entanglement+entropy#FreedmanHeadrick16) (notice the use of "EPR pair" in their [Figure 4](https://arxiv.org/pdf/1604.00354.pdf#page=4).)
+
 \begin{imagefromfile}
     "file_name": "ChordDiagram.jpg",
     "float": "right",
@@ -92,6 +94,7 @@ recovers the [[Ryu-Takayanagi formula]] ([JGPE 19 (78)](holographic+entanglement
     },
     "caption": "from [Sati & Schreiber 19c](#SatiSchreiber19c)"
 \end{imagefromfile}
+
 
 Following [Sati-Schreiber 19c](#SatiSchreiber19c) we recognize the above [[Majorana dimer]]/bit-thread networks from [JGPE 19](#JGPE19), [Yan 19](#Yan19) as *[[chord diagram]]*-encodings of holographic bulks ([p. 38](https://arxiv.org/pdf/1912.10425v3.pdf#page=38)).
 
