@@ -211,6 +211,10 @@ General discussion includes
 
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
 
+See also:
+
+* Andrew Beckett, [[José Figueroa-O'Farrill]], *Killing superalgebras for lorentzian five-manifolds* ([arxiv:2105.05775](https://arxiv.org/abs/2105.05775))
+
 
 ### Via M-theory on Calabi-Yau 3-folds
 
