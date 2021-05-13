@@ -125,6 +125,12 @@ Application to [[scattering amplitudes]]:
 
 * Jan H. Kwapisz, Krzysztof A. Meissner, _Asymptotic safety and quantum gravity amplitudes_ ([arXiv:2005.03559](https://arxiv.org/abs/2005.03559))
 
+Unitarity in Asymptotic Safety:
+
+* Alessia Platania, Christof Wetterich, _Non-perturbative unitarity and fictitious ghosts in quantum gravity_ ([arXiv:2009.06637](https://arxiv.org/abs/2009.06637))
+
+
+
 
 
 
