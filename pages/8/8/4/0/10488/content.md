@@ -2,11 +2,11 @@
 
 ## Selected writings
 
-On [[dependent linear type theory]]:
+On [[dependent linear type theory]] (for [[quantum computation]] with classical control) with [[categorical semantics]] in [[indexed monoidal categories]]:
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
 
-* {#VakarSlides14} [[Matthijs Vákár]], _Splitting the Atom of Dependent Types... or Linear and Operational Dependent Type Theory_, November 2014 ([pdf slides](http://users.ox.ac.uk/~magd3996/research/10-11-2014-Oxford-Linear%20dependent%20types.pdf))
+* {#VakarSlides14} [[Matthijs Vákár]], _Splitting the Atom of Dependent Types... or Linear and Operational Dependent Type Theory_, November 2014 ([[VakarLinearAndOperationalDTT.pdf:file]])
 
 * [[Matthijs Vákár]], *A Categorical Semantics for Linear Logical Frameworks*, In: A. Pitts  (ed.), *Foundations of Software Science and Computation Structures* FoSSaCS 2015. Lecture Notes in Computer Science, vol 9034. Springer 2015  ([arXiv:1501.05016](https://arxiv.org/abs/1501.05016), [doi:10.1007/978-3-662-46678-0_7](https://doi.org/10.1007/978-3-662-46678-0_7))
 
