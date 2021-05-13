@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[identity types]] in [[exxtensional type theory|extensional]]/[[intensional type theory]]:
+On [[identity types]] in [[extensional type theory|extensional]]/[[intensional type theory]]:
 
 * {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
 
