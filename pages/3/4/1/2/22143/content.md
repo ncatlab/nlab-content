@@ -5,6 +5,10 @@ On [[quantum programming languages]] ([[programming languages]] for [[quantum co
 
 General:
 
+* [[Jarosław Adam Miszczak]], *High-level Structures for Quantum Computing*, Morgan&Claypool 2012 ([doi:10.2200/S00422ED1V01Y201205QMC006](https://doi.org/10.2200/S00422ED1V01Y201205QMC006), [pdf](https://www.morganclaypool.com/doi/pdf/10.2200/S00422ED1V01Y201205QMC006))
+
+See also:
+
 * Wikipedia, _[Quantum programming](https://en.wikipedia.org/wiki/Quantum_programming)_
 
 Survey:
@@ -19,6 +23,11 @@ Quantum programming via [[quantum logic]] understood as [[linear type theory]] [
 * {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
 
 * [[Ross Duncan]], *Types for Quantum Computing*, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf))
+
+The corresponding [[string diagrams]] are known in quantum computation as *[[quantum circuit diagrams]]*:
+
+* Ryan O’Donnell, *Introduction to the Quantum Circuit Model*, 2015 ([pdf](https://www.cs.cmu.edu/~odonnell/quantum15/lecture01.pdf))
+
 
 
 [[functional programming languages]] for [[quantum computation]]:
