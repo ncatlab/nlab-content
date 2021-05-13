@@ -617,7 +617,8 @@ This is reviewed for instance in
 
 The introduction of [[identity types]] in "intuitionistic type theory" is due to
 
-* {#MartinLoef74} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+* {#MartinLoef75} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** Pages 73-118,  Elsevier 1975 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
 
 The development of that to [[homotopy type theory]] followed insights by ([Hofmann-Streicher 98](#HofmannStreicher98)) and others and was laid out in
 
@@ -680,7 +681,7 @@ Discussion aimed at [[foundations]] include
 
 Work leading up to [[homotopy type theory]] includes
 
-* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], _The groupoid interpretation of type theory_,  in Sambin, Giovanni (ed.) et al., Twenty-five years of constructive type theory. Proceedings of a congress, Venice, Italy, October 19--21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998) [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz)
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz),[[HofmannStreicherGroupoidInterpretation.pdf:file]])
 
 * [[Thomas Streicher]], _Identity Types and Weak Omega-Groupoids_ 2006 [pdf.gz](http://www.mathematik.tu-darmstadt.de/~streicher/TALKS/uppsala.pdf.gz)
 
