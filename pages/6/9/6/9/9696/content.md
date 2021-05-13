@@ -14,7 +14,11 @@ On [[quantum error correction]]:
 
 On [[quantum computation]]:
 
-* [[John Preskill]], *Quantum Computation* lecture notes ([web](http://theory.caltech.edu/~preskill/ph229/))
+* [[John Preskill]], *Quantum Computation*, lecture notes ([web](http://theory.caltech.edu/~preskill/ph229/))
+
+  * On [[quantum circuits]]:
+
+    *Classical and quantum circuits* ([pdf](http://theory.caltech.edu/~preskill/ph219/chap5_13.pdf))
 
 
 Introducing the [[HaPPY code]] [[tensor network]] for discussion of [[holographic entanglement entropy]] and [[quantum error correction]]:
