@@ -1,7 +1,3 @@
-
-
-| In [[intuitionistic mathematics|intuitionistic]] [[logic]] <br/> and [[type theory]]: | In  [[computation]] <br/> and [[computer science]]: | In [[category theory]] <br/> and [[topos theory]]: |
-|--|--|--|
-| A [[proof]] of a [[proposition]], <br/> [[propositions as types|or]] a [[term]] of some [[type]] | A [[program]]/[[λ-term]] with <br/> output of some [[data type]] | A [[generalized element]] <br/> of an [[object]]. |
-
- 
+| In [[dependent linear type theory|dependent linear]] <br/> [[homotopy type theory]]: | In  [classically controlled](quantum+computation#ClassicalControlQuantumData) <br/> [[quantum programming languages]]: | In [[indexed monoidal (∞,1)-categories|indexed monoindal]] <br/> [[parameterized stable homotopy theory|∞-cats of par. spectra]]: | In [[Whitehead generalized cohomology theory|Whitehead-generalized]] <br/> [[twisted cohomology theory]]:
+|--|--|--|--|
+| A [[term]] of some [[type]] <br/> in [[context]]. | A [[quantum circuit]] <br/> controlled by [[data type|classical data]].  | An [[generalized element|element]] of an [[object]] <br/> in a [[slice (∞,1)-category|slice]]. | A [[cocycle]] <br/> in [[twisted cohomology]]. |
