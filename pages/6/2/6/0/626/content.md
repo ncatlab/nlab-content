@@ -373,10 +373,14 @@ See also these:
 
 * [[Peter Freyd]] and [[David Yetter]], _Coherence theorems via knot theory_. Journal of Pure and Applied Algebra, 78:49&#8211;76, 1992.
 
-* [[David Yetter]], _Framed tangles and a theorem of Deligne on braided deformations of tannakian categories_ In M. Gerstenhaber and [[Jim Stasheff]] (eds.) _Deformation Theory and Quantum Groups with Applications to Mathematical Physics_, Contemporary Mathematics 134, pages 325&#8211;349. Americal Mathematical Society,
-1992.
+* [[David Yetter]], _Framed tangles and a theorem of Deligne on braided deformations of tannakian categories_ In M. Gerstenhaber and [[Jim Stasheff]] (eds.) _Deformation Theory and Quantum Groups with Applications to Mathematical Physics_, Contemporary Mathematics 134, pages 325&#8211;349. Americal Mathematical Society, 1992.
+
+* {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([hal:00154243](https://dumas.ccsd.cnrs.fr/PPS/hal-00154243), [pdf](https://hal.archives-ouvertes.fr/hal-00154243/document), [[MelliesFunctorialBoxesInStringDiagrams.pdf:file]])
+
+  > (see also *[[computational trilogy]]*)
 
 For more on the history of the notion see the bibliography in ([Selinger 09](#Selinger09)).
+
 
 
 ### Details
