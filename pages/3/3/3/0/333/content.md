@@ -64,6 +64,8 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[noncommutative torus]], [[fuzzy sphere]]
 
+* [[noncommutative topology of quasiperiodicity]]
+
 * [[noncommutative scheme]]
 
 * [[non-commutative analytic space]]
