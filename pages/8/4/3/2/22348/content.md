@@ -40,7 +40,7 @@ although the naive definition of an [interval object](#IntervalSitus)
 (namely, the simplicial set represented by the linear order $[0,1]$ 
 equipped 
 with some situs structure based on the metric/topology)
-leads to a [[directed topological space|directed (not symmetric) notion of homotopy]].
+leads to a [[directed topological space|directed (not symmetric) notion of homotopy]], and in s&#x12CB; there is a diagram chasing reformulation of local triviality [(becoming trivial after a certain base-change/pullback)](#locallytrivial).
 
 \section{Examples}
 
@@ -115,22 +115,25 @@ and  $X^{\leq\mathfrak{F}}_\bullet^{\operatorname{diag}}$, respectively.
 
 \subsection{Topological and uniform spaces as situses }
 
+
+{#DiagCartDefnNdim}
 More generally, given an arbitrary 
 simplicial set $X_\bullet$ and a filter $\mathfrak{F}$ on the set of $n$-simplices $X_n$, 
 there is a coarsest/finest situs structure on $X_\bullet$
 such that its filter on the set of $n$-simplices is finer/coarser 
 than $\mathfrak{F}$. Taking $n=0$ and the filter $\mathfrak{F}$ always indiscrete gives two fully faithful embeddings of the category of simplicial sets into the category of situses. 
 
-
 We use this to define situses corresponding to uniform and topological spaces. 
 
 \subsubsection{Uniform spaces as situses }
 
-Take a set $X$ and view it as a simplicial set $X_\bullet$ (represented by $X$). A uniform structure on $X$ is a filter on  $X\times X$; 
+Take a set $X$ and view it as a simplicial set $X_\bullet$ (represented by $X$). Recall that a [[uniform space|uniform structure]] on $X$ is a filter on  $X\times X$; 
 take the coarsest situs structure with this filter on
 the set $X\times X$ of $1$-simplices. This is the situs
 associated with the uniform structure on $X$. 
 
+
+{#SymmetricSitus} 
 In fact, it is easy to define uniform spaces in terms of situses.
 A filter on $X\times X$ is a uniform structure iff it is symmetric
 (i.e. the endomorphism of $X\times X$, $(x,y)\mapsto (y,x)$ permuting the coordinates is continuous)
@@ -183,7 +186,7 @@ An endomorphism of the category $\Delta$ of finite linear orders gives rise to a
 Of particular interest is the shift 
 endomorphism $\Delta\to\Delta$ adding a new least element ([[decalage]] considers the endomorphism adding a new greatest element rather than least) 
 on objects, $n\mapsto 1+n$, and on morphisms, 
-$f:n\to m$ goes to $f[+1]:1+n\to 1+m$, $f(0)=0$, $f[+1](1+i)=1+f(i)$, $0\leq i\leq n$. 
+$f:n\to m$ goes to $f[+1]:1+n\to 1+m$, $f[+1](0)=0$, $f[+1](1+i)=1+f(i)$, $0\leq i\leq n$. 
 The object $X_\bullet\circ [+1]$ and morphism $X_\bullet\circ [+1]\to X$
 allows one to talk about local properties of $X_\bullet$, 
 e.g. limits and local triviality. 
@@ -204,7 +207,7 @@ of $\mathfrak{F}$ on $X$.
 
 
 \subsubsection{Compactness and completeness as lifting properties}
-Diagram chasing reformulation of the notion above allows to define compactness and completeness as [lifting properties](en.wikipedia.org/wiki/Lifting_property).
+Diagram chasing reformulation of the notions above allows to define compactness and completeness as [lifting properties](en.wikipedia.org/wiki/Lifting_property).
 
 Let $\mathbb{N}^{cofinite}$ and $\mathbb{N}^{\leq cofinite}$
 denote the set, resp. the linear order $ \mathbb{N}^\leq$, equipped 
@@ -253,12 +256,15 @@ are viewed as filters on the set $\{o,1\}$. (needs verification)
 
 \subsection{Local triviality }
 
+
+{#locallytrivial} 
 A map $f:X\to Y$ of topological or metric spaces is locally trivial with fibre $F$ 
 iff in s&#x12CB; becomes a direct product with $F_\bullet$ ("globally trivial") 
 after base-change 
 $Y_\bullet\circ [+1]\to Y_\bullet$. That is,  
 $f_\bullet:(Y_\bullet\circ [+1])\times_{Y_\bullet} X_\bullet \to  Y_\bullet\circ [+1]$
 is of form $ (Y_\bullet\circ [+1])\times F_\bullet \to  Y_\bullet\circ [+1]$.
+
 
 
 
@@ -274,18 +280,23 @@ the Besser-Drinfeld-Grayson construction
 of geometric realisation in s&#x12CB;, as follows.
 
 
-View the standard geometric simplex in $\mathbb{R}^n$
+View the standard geometric simplex consisting of sequences $0\leq x_1\leq ... \leq x_n\leq 1$ in $\mathbb{R}^n$
 as the space of monotone maps 
 $[0,1]^\leq \to (n+1)^\leq$ with 
 Skorokhod-type metric 
 $dist(f,g):= sup_{x} inf_{y} \{ |x-y| : f(x)=g(y) \}$.
+Recall that Skorokhod metric is used in probality theory 
+to express the intution that two random variables are close
+if one can be obtained from another by a small perturbation 
+of both time and space (values).
 The category of situses allows us to view both linear orders as situses:
 the situs structure on $[0,1]_\bullet$ "remembers" the metric, 
 and the situs structure on $\Delta_n=Hom(-,(n+1)^\leq)$ 
 "remembers" the equality $f(x)=g(x)$, i.e. is the finest situs
 structure such that the filter on the set of 0-simplices is indiscrete.  
-Then one may define a situs structure on the inner hom 
-$$HHom_{Skorokhod}([0,1]_\bullet, -) :s&#x12CB;\to s&#x12CB;$$
+Then one may define a situs structure on the 
+[inner hom](https://ncatlab.org/nlab/show/internal+hom#in_simplicial_sets) 
+$$HHom([0,1]_\bullet, -) :s&#x12CB;\to s&#x12CB;$$
 of the underlying simplicial sets
 motivated by the definition of Skorokhod metric. 
 
@@ -355,7 +366,7 @@ for each $n\ge 0$ and each formula $\phi$ of the language of the theory.
 For $n=1$ this can be reformulated as a lifting property in s&#x12CB; as follows. 
 
 Fix a linear order $I$.  
-Let $I^\leq_\bullet:=(T^\leq)^{\operatorname{cart}}_\bullet$ be the situs associated with the preorder $I^\leq$ with the indiscrete filter.
+Let $I^\leq_\bullet:=(I^\leq)^{\operatorname{cart}}_\bullet$ be the situs associated with the preorder $I^\leq$ with the indiscrete filter.
 [Recall](#PreordersAsSituses) that this is the simplicial set 
 $n^\leq \mapsto Hom_{preorders} (n^\leq, I^\leq)$ represented by $I^\leq$ as a linear order, 
 equipped with indiscrete filters. 
@@ -380,12 +391,20 @@ Let $M$ be a model. The following are equivalent:
 
 i. each $\phi$-indiscernible sequence of elements is in fact a $\phi$-indiscernible set.
 
-ii. the situs $M_\bullet$ is symmetric
+ii. the situs $M_\bullet$ is [symmetric](#SymmetricSitus)
 
 iii. the following lifting property holds in s&#x12CB;:
 $$ (I^{\leq tails})^{\operatorname{cart}}_\bullet\to (|I|^{tails})^{\operatorname{cart}}_\bullet 
 \rightthreetimes M_\bullet\to \top .$$
 \end{proposition}
+\begin{proof} iii. says that each continuous map $ (I^{\leq tails})^{\operatorname{cart}}_\bullet\to M_\bullet$ factors
+as $(I^{\leq tails})^{\operatorname{cart}}_\bullet\to (|I|^{tails})^{\operatorname{cart}}_\bullet 
+\to M_\bullet$. If these maps are injective, remarks above 
+say it is equivalent to i. If not injective, then 
+in some end segment each element occurs infinitely often, 
+and in that case being indiscernible with repetitions 
+means being set indiscernible. 
+\end{proof}
 
 ([Simon,2021](#Simon2021)) implies that a theory is stable iff the lifting property iii. holds 
 for the situs associated with $M\times M$ considered in the language with arbitrary parameters, 
@@ -413,25 +432,34 @@ The characteristic sequence of a first-order formula. 2010](#Mallaris2010jsl)), 
 "Edge distribution and density in the characteristic sequence](#Mallaris2010apal)).
 
 
-##### Finite Cover Property 
+##### Finite Cover Property
+ 
+Recall that a formula φ(x;y) has the _finite cover property_ if for arbitrarily large $n \le \omega$ there exist $ a_0,...a_n$ such that $\{\phi(x;a_0),...\phi(x;a_n)\}$ is n-consistent but (n+1)-inconsistent.
+
+Recall that a simplicial object $M_\bullet$, e.g. a situs, is said to have finite dimension if 
+for some $k$ for each $n$
+ $M_\bullet(n)$ is the pullback of 
+all the simplicial maps $M_\bullet(n)\to M_\bullet(l)$, $l\leq k$.
 Let $P_n$ denote the formula $\exists x \wedge_{i\leq n} \phi(x,y_i)$.
+
 
 \begin{theorem}
 
 1. $\phi$ has no finite cover property
 
-2. the characteristic sequence $\lt P_n\gt $ has finite support (in terminology of [Malliaris, Def.2.5(2)](\#Mallaris2010apal))
+2. the characteristic sequence $\lt P_n\gt $ has finite support (in terminology of [Malliaris, Def.2.6](#Mallaris2010jsl))
 
-3. the situs $M^{\{\phi\}}_\bullet$ has finite dimension, i.e. for some $k$ for each $n$
-the filter on $M^{\{\phi\}}_\bullet(n)=M^n$ is the coarsest filter such that 
-all the simplicial maps $M^{\{\phi\}}_\bullet(n)=M^n\to M^{\{\phi\}}_\bullet(k)=M^k$ are continuous
+3. the situs $M^{\exists\phi}_\bullet$ has finite dimension, i.e. explicitly, for some $k$ for each $n$
+the filter on $M^{\exists\phi}_\bullet(n)=M^n$ is the coarsest filter such that 
+all the simplicial maps $M^{\exists\phi}_\bullet(n)=M^n\to M^{\exists\phi}_\bullet(k)=M^k$ are continuous
+ 
 
 4. there is $k$ such that for each $n$ $\exists x \wedge_{i\leq n} \phi(x,y_i)$ holds iff  $\exists x \wedge_{i\leq n} \phi(x,y_i)$ for any $k$-element subset $y_{i_1},...,y_{i_k}$ 
 
 5. there is $k$ such that for each $n$ $\exists x \wedge_{i\leq n} \phi(x,y_i)\leftrightarrow \wedge_{1\leq i_1\le ...\le i_k\le n}\exists x \wedge_{1\leq l\leq k} \phi(x,y_{i_l})$
 
 \end{theorem}
-\begin{proof} Items 1 and 2 are  Remark 2.6 of [Malliaris](#Mallaris2010apal), item 4 and 5 are  both item 2 and item 3 written explicitly.
+\begin{proof} Items 1 and 2 are  Remark 2.7 of [Malliaris](#Mallaris2010jsl), item 4 and 5 are  both item 2 and item 3 written explicitly.
 \end{proof}
 
 
@@ -735,7 +763,7 @@ Indeed, let $i\lt j$ and $x$ be a counterexample, i.e.
  $\neg (\phi(x,a_j) \wedge \neg \phi(x,a_0)\wedge \phi(x,a_\omega))$.
  These formulae 
  imply that $\neg\phi(x,a_j)$ and thus both
- $(x,a_0,a_i)$ and $(x,a_\omega,a_j)$ are $\phi$-indiscernible. 
+ $(x,a_i,a_\omega)$ and $(x,a_j,a_0)$ are $\phi$-indiscernible. 
 \end{proof}
 
 Hence we define NSOP-tautological filters on $|I\cup I^4|_\bullet$ as:
