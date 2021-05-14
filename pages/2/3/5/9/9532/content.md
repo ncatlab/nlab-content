@@ -1,5 +1,19 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 This entry collects some links related to the textbook
 
 * [[Alain Connes]],
@@ -21,6 +35,8 @@ on [[noncommutative geometry]] in the [[operator algebra]]-theoretic and [[spect
 * [[C*-algebra]]
 
 * [[groupoid convolution algebra]]
+
+* [[noncommutative topology of quasiperiodicity]]
 
 * [[Hilbert module]], [[KK-theory]]
 
