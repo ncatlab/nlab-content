@@ -99,7 +99,7 @@ Because for $\{U_i \to U\}$ a [[cover]] in $\mathcal{C}$ and $F$ a [[sheaf]] on 
 
 $$
   \begin{aligned}
-    PSh_{\mathcal{C}}( \underset{\to}{\lim} ( \coprod_{i, j} U_i \prod_{U} U_j)
+    PSh_{\mathcal{C}}( \underset{\to}{\lim} ( \coprod_{i, j} U_i \times_{U} U_j)
     \stackrel{\to}{\to}
       \coprod_{i} U_i )
     \;,\;
@@ -108,7 +108,7 @@ $$
     & \simeq 
     \lim_{\leftarrow}
      \left(
-      \prod_{i,j} PSh_{\mathcal{C}}( U_i \prod_U U_j, F(f(-)))
+      \prod_{i,j} PSh_{\mathcal{C}}( U_i \times_U U_j, F(f(-)))
        \stackrel{\leftarrow}{\leftarrow}
        \prod_i PSh_C(U_i , F(f(-)))
      \right)
@@ -116,7 +116,7 @@ $$
     & \simeq
     \lim_{\leftarrow}
      \left(
-      \prod_{i,j} F(f(U_i \prod_U U_j)))
+      \prod_{i,j} F(f(U_i \times_U U_j)))
        \stackrel{\leftarrow}{\leftarrow}
        \prod_i F(f(U_i))
      \right)   
@@ -124,13 +124,13 @@ $$
     & \simeq
     \lim_{\leftarrow}
      \left(
-      \prod_{i,j} F(f(U_i) \prod_{f(U)} f(U_j))))
+      \prod_{i,j} F(f(U_i) \times_{f(U)} f(U_j))))
        \stackrel{\leftarrow}{\leftarrow}
        \prod_i F(f(U_i))
      \right)       
     \\
     & \simeq
-    PSh_{\mathcal{D}}( \underset{\to}{\lim} ( \coprod_{i, j} f(U_i) \prod_{f(U)} f(U_j))
+    PSh_{\mathcal{D}}( \underset{\to}{\lim} ( \coprod_{i, j} f(U_i) \times_{f(U)} f(U_j))
     \stackrel{\to}{\to}
       \coprod_{i} f(U_i) )
     \;,\;
