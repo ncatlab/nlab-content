@@ -42,6 +42,7 @@ By [[Gelfand duality]], suitable [[topological spaces]] are [[contravariant func
 
   * [[homotopical structure on C*-algebras]]
 
+* [[noncommutative topology of quasiperiodicity]]
 
 [[!include Isbell duality - table]]
 
