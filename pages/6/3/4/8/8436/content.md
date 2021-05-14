@@ -6,9 +6,9 @@
 +-- {: .hide}
 [[!include solid state physics -- contents]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
