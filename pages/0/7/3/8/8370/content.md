@@ -10,7 +10,7 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Constructivism, Retalizability, Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
@@ -23,6 +23,29 @@
 {: toc}
 
 ## Idea
+ {#Idea}
+
+A profound cross-disciplinary insight has emerged -- starting in the late 1970s, with core refinements in recent years -- observing that 
+three superficially different-looking fields of [[mathematics]], 
+
+* [[computation]]/[[programming languages]] 
+
+* [[formal logic]]/[[type theory]]
+
+* [[(∞,1)-category|∞-]][[category theory]]/[[(∞,1)-topos|∞-]][[topos theory]] ([[algebraic topology]])
+
+are but three different perspectives on a single underlying phenomenon at the [[foundations of mathematics]]:
+
+\begin{tikzpicture}
+  
+  \draw (0,0) circle (1.6);
+  \draw (75+0:1.6) node {\colorbox{white}{\Large computation}};
+  \draw (75+120:1.6) node {\colorbox{white}{\Large spaces}};
+  \draw (75+240:1.6) node {\colorbox{white}{\Large  logic}};
+
+\end{tikzpicture}
+
+
 
 ### Classical
 
@@ -95,7 +118,7 @@ the following notions are equivalent:
 \end{tikzpicture}
 
 
-Whence these three subjects are three aspects of a single underlying phenomenon.
+Whence these three subjects are but three perspectives on a single underlying phenomenon.
 
 This insight dates from the late 1970s; an early record is [Lambek & Scott 86](#LambekScott86); it is explicitly highlighted as a *trilogy* ([Wikipedia](https://en.wikipedia.org/wiki/Trilogy): "three works of art that are connected and can be seen either as a single work or as three individual works") in [Melliès 06, Sec. 1](#Mellies06):
 
@@ -146,7 +169,7 @@ the traditional computational trilogy [above](#ClassicalPlain) enhances to read 
 
 See also [Shulman 18](#Shulman18).
 
-In this deeper form yet another equivalence -- to [[algebraic topology]] ([[schreiber:Proper Orbifold Cohomology|Sati+Schreiber 20]], [p. 5](https://ncatlab.org/schreiber/files/orbi210313.pdf#page=5)) -- opens up, as [[generalized elements]] in an [[(∞,1)-topos]] may equivalently be regarded as [[cocycles]] in ([[non-abelian cohomology|non-abelian]]) [[cohomology]], and in [[twisted cohomology]] if in a [[slice (∞,1)-category]] ([[schreiber:Proper Orbifold Cohomology|Sati+Schreiber 20]] [p. 6](https://arxiv.org/pdf/2008.01101.pdf#page=6), [[schreiber:The Character Map in Twisted Non-Abelian Cohomology|FSS 20]]), whence we have a *computational tetralogy*:
+In this deeper form yet another equivalence -- to [[algebraic topology]] ([[schreiber:Proper Orbifold Cohomology|Sati & Schreiber 20]], [p. 5](https://ncatlab.org/schreiber/files/orbi210313.pdf#page=5)) -- opens up, as [[generalized elements]] in an [[(∞,1)-topos]] may equivalently be regarded as [[cocycles]] in ([[non-abelian cohomology|non-abelian]]) [[cohomology]], and in [[twisted cohomology]] if in a [[slice (∞,1)-category]] ([[schreiber:Proper Orbifold Cohomology|Sati & Schreiber 20]] [p. 6](https://arxiv.org/pdf/2008.01101.pdf#page=6), [[schreiber:The Character Map in Twisted Non-Abelian Cohomology|FSS 20]]), whence we have a *computational tetralogy*:
 
 > (from Sati&Schreiber 21, "Topological and Quantum Systems")
 
@@ -239,8 +262,9 @@ This is the main point of [Melliès 06, Sec. 1](#Mellies06), only that where Mel
 See also [Baez & Stay 09](#BaezStay09).
 
 #### Parametrized
+ {#QuantumParametrized}
 
-Combining the the [classical parametrized trilogy](#ClassicalParametrized) with the [plain quantum trilogy](#QuantumPlain), as one passes
+Combining the [classical parametrized trilogy](#ClassicalParametrized) with the [plain quantum trilogy](#QuantumPlain), as one passes
 
 * from classical [[computation]] to **[classically controlled](quantum+computation#ClassicalControlQuantumData) [[quantum computation]]** on [[linear spaces|linear]] [[spaces of quantum states]] parametrized over classical [[data types]];
 
@@ -252,7 +276,7 @@ Combining the the [classical parametrized trilogy](#ClassicalParametrized) with 
 
 there appears the "classically controlled quantum computational tetralogy":
 
-> (from Sati&Schreiber 21, "Topological and Quantum Systems")
+> (from Sati & Schreiber 21, "Topological and Quantum Systems")
 
 | In [[dependent linear type theory|dependent linear]] <br/> [[homotopy type theory]]: | In  [classically controlled](quantum+computation#ClassicalControlQuantumData) <br/> [[quantum programming languages]]: | In [[indexed monoidal (∞,1)-categories|indexed monoindal]] <br/> [[parameterized stable homotopy theory|∞-cats of par. spectra]]: | In [[Whitehead generalized cohomology theory|Whitehead-generalized]] <br/> [[twisted cohomology theory]]:
 |--|--|--|--|
@@ -319,6 +343,25 @@ there appears the "classically controlled quantum computational tetralogy":
 * with classically controlled quantum computation seen as dependent linear type theory, as stated fully explicitly in [Fu, Kishida & Selinger 20](quantum+programming+language#FKS20), [Fu, Kishida, Ross & Selinger 20](quantum+programming+language#FKS20) and more tentatively before in [Vakar 14](dependent+linear+type+theory#Vakar14), [Vakar 15](dependent+linear+type+theory#Vakar15), [Vakar 17](dependent+linear+type+theory#Vakar17), following [[schreiber:Quantization via Linear homotopy types|Schreiber 14]])
 
 
+\linebreak
+
+
+\begin{imagefromfile}
+    "file_name": "ComputationalTrilogyTopologizedQuantized.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From Sati+Schreiber21: 'Topological and Quantum Systems'"
+\end{imagefromfile}
+
+
+\linebreak
+
 ## Rosetta stone
 
 The following shows a rosetta stone dictionary with more details:
@@ -355,7 +398,7 @@ A exposition of the relation between the three concepts is in
 
 * {#Harper11} [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/), [wayback machine snapshot](https://web.archive.org/web/20170921012554/http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
 
-* {#Eades12} [[Harley Eades]], Section 3 of: *Type Theory and Applications*, 2012 ([pdf](https://metatheorem.org/includes/pubs/comp.pdf))
+* {#Eades12} [[Harley Eades]], Section 3 of: *Type Theory and Applications*, 2012 ([pdf](https://metatheorem.org/includes/pubs/comp.pdf), [[EadesTypeTheoryAndApplications.pdf:file]])
  
 * {#Frumin14} Dan Frumin, _Computational trinitarianism_, Feb 2014 ([prezi slides](http://prezi.com/fnz-4wzsygiq/computational-trinitarianism/))
 
