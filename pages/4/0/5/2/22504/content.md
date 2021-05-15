@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include combinatorics - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -14,17 +18,109 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In [[combinatorics]] a *(semi-)standard Young tableau* is a labelling of the boxes of a [[Young diagram]] with [[positive number|positive]] [[natural numbers]] (a [[Young tableau]]) satisfying extra conditions, at the *minimum* that labels do not decrease to the right and do increase downwards.
+
+The number of (semi-)standard Young tableau of given shape (underlying [[Young diagram]]) govern various objects in the [[representation theory]] [[representation theory of the symmetric group|of the symmetric-]] [[representation theory of the general linear group|and general linear group]].
+
 ## Definition
 
-A *semistandard Young tableau* is a [[Young tableaux]] such that its values are:
+\begin{definition}\label{YoungDiagram}
+**([[Young diagram]])** \linebreak
+For $n \in \mathbb{N}$ a [[positive number|positive]] [[natural number]],  a *[[Young diagram]] with $n$ boxes* is a [[partition]] of $n$, hence a sequence of weakly decreasing [[positive number|positive]] [[natural numbers]]
 
-1. weakly increasing to the right (along rows),
+$$
+  (\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_{rows(\lambda)} )
+  \,,
+  \;\;
+  \lambda_i \in \mathbb{N}_+
+$$
 
-1. strictly increasing downwards (along columns).
+whose [[sum]] is $n$:
+
+\[
+  \label{NumberOfBoxes}
+  n \;=\;  \underset{i}{\sum} \lambda_i
+  \,,
+\]
+
+\end{definition}
+
+
+\begin{definition}\label{SemistandardYoungTableau}
+**([[semistandard Young tableau]])** \linebreak
+
+Given a [[Young diagram]]/[[partition]] $\lambda$ (Def. \ref{YoungDiagram}),
+a *semistandard Young tableau* $T$ *of shape* $\lambda$ 
+
+* is an [[indexed set]] of [[positive number|positive]] [[natural numbers]] of the following form (a *[[Young tableau]]*):
+
+  \[
+    \big(
+      T_{i, j}
+      \in
+      \mathbb{N}_+
+    \big)_{ 
+      {1 \leq i \leq rows(\lambda)} \atop { 1 \leq j \leq \lambda_i } 
+    }
+    \,;
+  \]
+
+* such that these labels are:
+
+  1. weakly increasing to the right/along rows;
+
+     \[
+       \label{RowsAreWeaklyIncreasing}
+       \underset{
+         i
+       }{\forall} 
+       \;\;\;\;\;\;
+         j_1 \lt j_2 \;\Rightarrow\; T_{i, j_1} \leq T_{i, j_2} 
+     \]
+
+  1. strictly increasing downwards/along columns:
+
+     \[
+       \label{ColumnsAreStrictlyIncreasing}
+       \underset{ j }{\forall}
+       \;\;\;\;\;\;
+       i_1 \lt i_2 \;\Rightarrow\; T_{i_1, j} \lt T_{i_2,  j} 
+     \]
+
+\end{definition}
+
+\begin{remark}
+Beware that in a semistandard Young tableau (Def. \ref{SemistandardYoungTableau}):
+
+* the label $T_{1,  1}$ in the top left box is *not required* to be 1; 
+
+* in *some* applications (e.g. (eq:RelationToSchurPolynomialsOfFinitelyManyVariables) below), though not in general, the labels are in addition required to be bounded $T_{i, j} \leq k$.
+
+\end{remark}
+
+\begin{definition}\label{StandardYoungTableau}
+**([[standard Young tableau]])** \linebreak
+A [[semistandard Young tableau]] (Def. \ref{SemistandardYoungTableau}) is called a [[standard Young tableau]] if, in addition to (eq:RowsAreWeaklyIncreasing) and (eq:ColumnsAreStrictlyIncreasing), it satisfies the following equivalent conditions:
+
+* every element of $\big\{1, \cdots, n\}$ appears exactly once;
+
+* the following two conditions hold:
+
+  1. not just the columns but also the rows are strictly increasing,
+
+  1. the last label is $T_{rows(\lambda), \lambda_{rows(\lambda)}} = n$ (eq:NumberOfBoxes)
+
+(Which implies that the first label of a standard Young tableau must be $T_{1,1} = 1$.)
+
+\end{definition}
+
+
 
 ## Examples
 
-For example:
+The following is a semistandard Young tableau that does happen to start with 1 but is not a standard Young tableau:
 
 $$
 \array{
@@ -38,9 +134,33 @@ $$
 
 ## Properties
 
-### Relation to Schur polynomials
+Given a [[partition]] $\lambda \in Part(n)$, we write
 
-Given a [[semistandard Young tableau]] $T$, we write $X^T$ for  the [[monomial]] which contains one factor of the [[variable]] $x_k$ for each occurrence of $k$ in the Young tableau: 
+\[
+  \label{SetOfssYTOfFixedShape}
+  ssYT_\lambda
+  \;in\;
+  Set
+\]
+
+for the [[set]] of semistandard Young tableaux (Def. \ref{SemistandardYoungTableau}) whose underlying [[Young diagram]] (i.e. forgetting its labels) is given by $\lambda$.
+
+Given moreover a [[natural number]] $N \in \mathbb{N}$ we write
+
+\[
+  \label{SetOfssYTOfFixedShapeWithBoundedLabels}
+  ssYT_\lambda(N)
+  \;\subset\;
+  ssYT_\lambda
+\]
+
+for the subset on those semistandard Young tableau $T$ whose labels are bounded by $N$ in that $\underset{i,j}{\forall}\; T_{i, j } \;\leq\; N$.
+
+
+### Relation to Schur polynomials
+ {#RelationToSchurPolynomials}
+
+Given a [[semistandard Young tableau]] $T$, we write $X^T$ for the [[monomial]] which contains one factor of the [[variable]] $x_k$ for each occurrence of $k$ in the Young tableau: 
 
 \[
   \label{MonomialAssociatedWithSemistandardYoungTableau}
@@ -52,31 +172,41 @@ Given a [[semistandard Young tableau]] $T$, we write $X^T$ for  the [[monomial]]
   \,.
 \]
 
-We write 
-
-$$
-  ssYT(\lambda)
-$$
-
-for the set of semistandard Youn tableaux whose underlying [[partition]] (i.e. forgetting its labels) is $\lambda$.
 
 \begin{prop}
-  For $n \in \mathbb{N}$ and $\lambda$ a [[partition]] of $n$, the corresponding Schur polynomial $s_\lambda$ is equal to the [[sum]] over the [[monomials]] (eq:MonomialAssociatedWithSemistandardYoungTableau) associated with all [[semistandard Young tableau]] of shape $\lambda$:
+  For $n \in \mathbb{N}$ and $\lambda$ a [[partition]] of $n$, the corresponding [[Schur polynomial]] $s_\lambda$ is equal to the [[sum]] over the [[monomials]] (eq:MonomialAssociatedWithSemistandardYoungTableau) associated with all [[semistandard Young tableau]] of shape $\lambda$ (eq:SetOfssYTOfFixedShape):
 
 $$
-  s_\lambda
+  s_\lambda(x_1, x_2, \cdots)
   \;\;=\;\;
   \underset{
-    {T \in ssYT(\lambda)},
+    {T \in ssYT_\lambda},
   }{\sum}
   x^T
   \,.
 $$
 \end{prop}
 
-
 ([Sagan 01, Def. 4.4.1](#Sagan01), review in [Sagan Enc., p. 1](#SaganEnc))
 
+This means that Schur polynomials in a [[finite set]] $\{x_1, \cdots, x_N\}$ of [[variables]] count semistandard Young tableau (of fixed shape and) with bounded labels (eq:SetOfssYTOfFixedShapeWithBoundedLabels):
+
+\[
+  \label{RelationToSchurPolynomialsOfFinitelyManyVariables}
+  s_\lambda(x_1, \cdots, x_N)
+  \;\;=\;\;
+  \underset{
+    {T \in ssYT_\lambda(N)},
+  }{\sum}
+  x^T
+  \,.
+\]
+
+
+
+### Hook-length formula
+
+See at *[[hook length formula]]*.
 
 ### Hook-content formula
  {#HookContentFormula}
@@ -148,5 +278,6 @@ See also the references at *[[Young tableau]]*.
 [[!redirects semi standard Young tableau]]
 [[!redirects semi standard Young tableaus]]
 
-
+[[!redirects standard Young tableau]]
+[[!redirects standard Young tableaux]]
 
