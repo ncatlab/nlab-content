@@ -18,7 +18,11 @@ giving a meaning to the phrase "a simplex is sufficiently small":
 by definition, we say "a property holds for all small enough $n$-simplices"
 iff it holds on a set in the filter, and we refer to sets 
 in the filter as _neighbourhoods_. 
-This extends to simplicial language the standard intuition of topology:
+In particular, 
+the situs structure "on a set" (i.e. on the simplicial set represented by the set) allows one to talk about an n-tuple of points 
+being "sufficiently nearby each other" for $n\ge 2$.
+This extends to simplicial language the standard intuition of topology 
+available for  pairs of points (n=2):
 given a topological structure on a set, the precise meaning of the phrase
 "a property $P_{x_0}(x)$ holds for all points $x$ sufficiently close to a given point $x_0$"
 is that the property holds on a neighbourhood of $x_0$;
@@ -131,6 +135,10 @@ Take a set $X$ and view it as a simplicial set $X_\bullet$ (represented by $X$).
 take the coarsest situs structure with this filter on
 the set $X\times X$ of $1$-simplices. This is the situs
 associated with the uniform structure on $X$. 
+Intuitively, we defined the situs  structure "on a set" 
+such that two points $x_1,x_2\in X$ of points are 
+"sufficiently close to each other" in the uniform structure 
+iff the 1-simplex $(x_1,x_2)\in X\times X$ is "sufficiently small".  
 
 
 {#SymmetricSitus} 
@@ -171,9 +179,12 @@ $$UniformSpaces \to s&#x12CB; \to UniformSpaces .$$
 A filter $\mathfrak{F}$ on a metric space $M$ is _Cauchy_ iff 
 $\mathfrak{F}^{\operatorname{cart}}_\bullet \to M_\bullet$ is continuous. 
 
+
 A sequence of functions $f_i:L \to M$, $i\in \mathbb{N}$ of metric spaces
 is _uniformly equicontinuous_ iff the map $(\mathbb{ N}^{cofinite})^{\operatorname{diag}}_\bullet\times L_\bullet \to M_\bullet$ is continuous. 
-
+This gives a precise meaning to the phrase 
+"if $i\in\mathbb{N}$, $x\in L$ and $j\in \mathbb{N}$, $y\in L$ are sufficiently close to each other, so are $f_i(x)$ and $f_j(y)$".
+A different choice of the situs strucuture gives a different precise meaning: 
 
 A sequence of functions $f_i:X \to M$, $i\in \mathbb {N}$ from a topological space $X$ to a metric space $M$
 is _equicontinuous_ iff the map $(\mathbb{ N}^{cofinite})^{\operatorname{diag}}_\bullet\times X_\bullet \to M_\bullet$ is continuous. 
