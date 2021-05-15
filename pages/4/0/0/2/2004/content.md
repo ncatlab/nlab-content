@@ -120,7 +120,7 @@ Observe that via the inclusion $C_T \hookrightarrow C^T$ every $T$-algebra [[rep
 +-- {: .num_prop}
 ###### Proposition
 
-The $T$-algebras in $C$ are equivalently those presheaves on the category of free $T$-algebras whose restriction along the free functor is [[representable functor|representable]] in $C$. In other words, the Eilenberg-Moore category $C^T$ is the (1-category theoretic) [[pullback]]
+The $T$-algebras in $C$ are equivalently those presheaves on the category of free $T$-algebras whose restriction along the free functor is [[representable functor|representable]] in $C$. In other words, the Eilenberg--Moore category $C^T$ is the (1-category theoretic) [[pullback]]
 
 $$
   \array{
@@ -130,7 +130,7 @@ $$
   }
 $$
 
-of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda embedding]] $Y$ of $C$.
+of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda embedding]] $Y$ of $C$. (The top arrow is given by the nerve of the inclusion of the Kleisli category into the Eilenberg--Moore category.)
 
 =--
 
@@ -147,7 +147,7 @@ is given by $\alpha=P(1_{TA})(1_A)$, where $1_{TA}$ is viewed as a [[Kleisli cat
 Just as the [[Kleisli object]] of a monad $t$ in a 2-category $K$ can be defined as the [[lax colimit]] of the [[lax functor]] $\ast \to K$ [[monad|corresponding]] to $t$, the EM object of $t$ is its [[lax limit]].
 
 
-S. Lack has shown how Eilenberg-Moore objects $C^T$ can be obtained as combinations of certain simpler lax limits, when the 2-category $K$ in question is the 2-category of 2-algebras over a 2-monad $\mathbf{G}$ and lax, colax or pseudo morphisms of such: 
+S. Lack has shown how Eilenberg--Moore objects $C^T$ can be obtained as combinations of certain simpler lax limits, when the 2-category $K$ in question is the 2-category of 2-algebras over a 2-monad $\mathbf{G}$ and lax, colax or pseudo morphisms of such: 
 
 * [[Steve Lack]], _Limits for lax morphisms_ , Applied Categorical Structures __13__:3 (2005) , pp. 189--203(15) 
 
@@ -170,7 +170,7 @@ $$
 
 ### Limits and colimits in EM categories
 
-* The Eilenberg-Moore category of a monad $T$ on a category $C$ has all [[limits]] which exist in $C$, and they are [[created limit|created]] by the forgetful functor.
+* The Eilenberg--Moore category of a monad $T$ on a category $C$ has all [[limits]] which exist in $C$, and they are [[created limit|created]] by the forgetful functor.
 
 * In contrast, the subject of [[colimits in categories of algebras]] is less easy, but a good deal can be said.
 
@@ -188,7 +188,7 @@ An _[[accessible monad]]_ is a [[monad]] on an [[accessible category]] whose und
 +-- {: .num_prop}
 ###### Proposition
 
-The Eilenberg-Moore category of a $\kappa$-accessible monad, def. \ref{AccessibleMonad}, is a  $\kappa$-[[accessible category]]. If in addition the category on which the monad acts is a $\kappa$-[[locally presentable category]] then so is the EM-category.
+The Eilenberg--Moore category of a $\kappa$-accessible monad, def. \ref{AccessibleMonad}, is a  $\kappa$-[[accessible category]]. If in addition the category on which the monad acts is a $\kappa$-[[locally presentable category]] then so is the EM-category.
 
 
 =--
@@ -208,7 +208,7 @@ See at _[[topos of algebras over a monad]]_ for details.
 +-- {: .num_example}
 ###### Examples
 
-Given a [[reflective subcategory]] $\mathcal{C} \stackrel{\overset{L}{\leftarrow}}{\underset{\hookrightarrow}{i}} \mathcal{D}$ then the Eilenberg-Moore category of the induced [[idempotent monad]] $i\circ L$ on $\mathcal{D}$ recovers the subcategory $\mathcal{C}$.
+Given a [[reflective subcategory]] $\mathcal{C} \stackrel{\overset{L}{\leftarrow}}{\underset{\hookrightarrow}{i}} \mathcal{D}$ then the Eilenberg--Moore category of the induced [[idempotent monad]] $i\circ L$ on $\mathcal{D}$ recovers the subcategory $\mathcal{C}$.
 
 =--
 
@@ -253,12 +253,12 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
 * [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
  {#RiehlVerity13}
 
-[[!redirects Eilenberg-Moore categories]]
+[[!redirects Eilenberg--Moore categories]]
 [[!redirects Eilenberg–Moore category]]
-[[!redirects Eilenberg-Moore category]]
 [[!redirects Eilenberg--Moore category]]
-[[!redirects Eilenberg-Moore object]]
-[[!redirects Eilenberg-Moore object]]
+[[!redirects Eilenberg--Moore category]]
+[[!redirects Eilenberg--Moore object]]
+[[!redirects Eilenberg--Moore object]]
 [[!redirects Eilenberg--Moore object]]
 [[!redirects Alg(T)]]
 [[!redirects T-Alg]]
