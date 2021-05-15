@@ -49,7 +49,8 @@ See also:
 
 Notes:
 
-* Yufei Zhao, *Young Tableaux and the Representations of the Symmetric Group* ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhouRepsOfSymmetricGroup.pdf:file]])
+* [[Yufei Zhao]], _Young Tableaux and the Representations of the Symmetric Group_ ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhaoYoungTableaux.pdf:file]])
+
 
 Discussion of [[character of a linear representation|characters]] for the [[symmetric group]] that depend only on [[Cayley distance]] from the [[neutral element]] ("block character"):
 
