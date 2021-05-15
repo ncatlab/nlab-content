@@ -95,7 +95,15 @@ Specifically [[M2-M5 brane bound state]] giant gravitons are discussed in:
 
 On the relation of [[polarized branes]] to giant gravitons:
 
-* [[Iosif Bena]], Douglas Smith, _Towards the solution to the giant graviton puzzle_, 	Phys. Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
+* [[Iosif Bena]], Douglas Smith, _Towards the solution to the giant graviton puzzle_, Phys. Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
+
+### Under AdS/CFT
+
+Discussion of [[SYM]]-[[AdS-CFT duality|duals]] of giant gravitons and indexing of [[BPS states]] by [[Young diagrams]]:
+
+* Steve Corley, Antal Jevicki, [[Sanjaye Ramgoolam]], *Exact Correlators of Giant Gravitons from dual $N=4$ SYM*, Adv. Theor. Math. Phys. 5 (2002) 809-839 ([arXiv:hep-th/0111222](https://arxiv.org/abs/hep-th/0111222))
+
+* Garreth Kemp, [[Sanjaye Ramgoolam]], *BPS states, conserved charges and centres of symmetric group algebras*, JHEP 01 (2020) 146 ([arXiv:1911.11649](https://arxiv.org/abs/1911.11649))
 
 
 
