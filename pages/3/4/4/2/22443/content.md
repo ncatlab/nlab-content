@@ -1621,7 +1621,7 @@ Alternatively, this follows from the third clause of Prop. \ref{PositivitiViaCou
 
 \begin{prop}
   \label{CayleyDistanceKernelPositiveForEBetaGreaterThann}
-  The Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ is positive definite for $e^\beta \gt n$.
+  The Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ is positive definite for $e^\beta \gt n - 1$.
 \end{prop}
 The following proof was pointed out by [[Abdelmalek Abdesselam]].
 \begin{proof}
@@ -1688,7 +1688,7 @@ $$
 for all $(i,j)$ that appear in the product, hence that
 
 $$
-  e^{\beta} - i
+  e^{\beta} + 1 - i
   \;\gt\;
   0
 $$
@@ -1707,9 +1707,9 @@ $$
       1 \leq i \leq rows(\lambda)
     }    
   }{max}
-  (i)
+  (i - 1)
   \;=\;
-  n
+  n - 1
   \,.
 $$
 \end{proof}
