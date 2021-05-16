@@ -76,6 +76,8 @@ More in detail, this yields the following identifications:
 
 * [[representation theory of the general linear group]]
 
+* [[representation theory of the special unitary group]]
+
 * [[Schur-Weyl duality]]
 
 ## Related entries
