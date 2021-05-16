@@ -21,6 +21,16 @@ The "hook-content formula" expresses the [[number]] of [[semistandard Young tabl
 
 If the dependency in the "contents" is removed, the formula reduces to the *[[hook length formula]]* that counts [[standard Young tableaux]] of the given shape.
 
+Both of these formulas equivalently give [[dimensions]] of [[irreps]] in [[representation theory]]:
+
+| [[hook length formula]] | [[hook-content formula]] |
+|-------------------------|--------------------------|
+| [[number]] of [[standard Young tableaux]] | [[number]] of [[semistandard Young tableaux]] |
+| [[dimension]] of [[irreps]] of [[symmetric group|Sym(n)]] | [[dimension]] of [[irreps]] of [[SU(n)]] |
+
+See at *[[look length formula]]* for more on this.
+
+
 ## Preliminaries
 
 Given a [[Young diagram]], the *hook* at any one of its boxes is the collection of boxes to the right and below that box, and including the box itself. We write "$\ell hook$" for the *length* of such a hook, i.e. for the number of boxes it contains. Formally:
