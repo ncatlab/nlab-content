@@ -20,9 +20,11 @@
 
 ## Idea
 
-The *hook length formula* counts the [[number]] of [[semistandard Young tableaux|(semi-)]][[standard Young tableaux]] with fixed underlying [[Young diagram]]. 
+The *hook length formula* expresses the [[number]] of [[standard Young tableaux]] with fixed underlying [[Young diagram]] in terms of the lengths of all "hooks" inside the Young diagram.
 
-In the case of [[standard Young tableau]] this number is also equal to the [[dimension]] of the [[irreducible representation]] of the [[symmetric group]] $Sym(n)$ corresponding to $\lambda$, a [[partition]] of $n$ (the [[Specht module]], see at *[[representation theory of the symmetric group]]*).
+This number is also equal to the [[dimension]] of the [[irreducible representation]] of the [[symmetric group]] $Sym(n)$ corresponding to $\lambda$, a [[partition]] of $n$ (the [[Specht module]], see at *[[representation theory of the symmetric group]]*).
+
+Generalized to [[semi-standard Young tableau]] the formula involves the hook length at and the "content" of the boxes of the Young diagram, whence it is then also called a *[[hook-content formula]]* (really: "hook length and box content").
 
 ## Preliminaries
 
@@ -112,7 +114,8 @@ Given
 
 the number (eq:NumberOfSemiStandardYoungTableauxOfFixedShape) of semi-standard Young tableaux of shape $\lambda$ and entries $\leq N$ ([hence](semistandard+Young+tableau#eq:RelationToSchurPolynomialsOfFinitelyManyVariables) the value of the [[Schur polynomial]] $s_\lambda(x_1, \cdots, x_N)$ at $x_i = 1$) is:
 
-$$
+\[
+  \label{TheHookLengthFormulaForSemistandardYoungTableaux}
   \left\vert
     ssYTableaux_\lambda(N)
   \right\vert
@@ -137,9 +140,44 @@ $$
     \ell hook_\lambda(i,j)
   }
   \,.
-$$
+\]
 
 \end{prop}
+
+Here 
+
+$$
+  content(i,j) \;\coloneqq\; j - i
+$$
+
+is also called the *content* of the box $(i,j)$, whence (eq:TheHookLengthFormulaForSemistandardYoungTableaux) is also called a *[[hook-content formula]]* ("hook length and box content"):
+
+$$
+  \left\vert
+    ssYTableaux_\lambda(N)
+  \right\vert
+  \;=\;
+  s_\lambda
+  \big(
+    \underset{
+      \mathclap{
+        N\; arguments
+      }
+    }{
+    \underbrace{
+      1, \cdots, 1
+    }
+    }
+  \big)
+    \;=\; 
+  \underset{(i,j)}{\prod}
+  \frac{
+    N + content(i,j)
+  }{
+    \ell hook_\lambda(i,j)
+  }
+  \,.
+$$
 
 
 ## Related concepts
@@ -148,13 +186,57 @@ $$
 
 ## References
 
+### For standard Young tableaux
+
+The original proof is due to:
+
+* J. S. Frame, G. de B. Robinson, R. M. Thrall, *The Hook Graphs of the Symmetric Group*, Canadian Journal of Mathematics , Volume 6 , 1954 , pp. 316 - 324 ([doi:10.4153/CJM-1954-030-1](https://doi.org/10.4153/CJM-1954-030-1))
+
 Review:
 
-* [[Yufei Zhao]], _Young Tableaux and the Representations of the Symmetric Group_ ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhaoYoungTableaux.pdf:file]])
+* {#Stanley99} [[Richard Stanley]], Cor. 7.21.6 in: *Enumerative combinatorics 2*, Cambridge University Press (1999, 2010) ([doi:10.1017/CBO9780511609589](https://doi.org/10.1017/CBO9780511609589), [webpage](http://www-math.mit.edu/~rstan/ec/))
+
+* Alex Ghorbani, Section 4.4 of: *Applications of representation theory to combinatorics* ([pdf](http://math.uchicago.edu/~may/REU2020/REUPapers/Ghorbani.pdf))
+
+* [[Yufei Zhao]], Section 4.4. of _Young Tableaux and the Representations of the Symmetric Group_ ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhaoYoungTableaux.pdf:file]])
+
+* Shiyue and Andrew, *Young Tableaux and Probability*, 2019 ([pdf](http://www.mit.edu/~lindrew/hooklength.pdf))
+
+
 
 See also:
 
 * Wikipedia, *[Hook length formula](https://en.wikipedia.org/wiki/Hook_length_formula)*
+
+Alternative proofs:
+
+* Jean-Christophe Novelli1, Igor Pak, Alexander V. Stoyanovskii, *A direct bijective proof of the hook-lengthformula*, Discrete Mathematics and Theoretical Computer Science1, 1997, 53–67 ([pdf](https://www.math.ucla.edu/~pak/papers/bij.pdf))
+
+* Kenneth Glass, Chi-Keung Ng, *A Simple Proof of the Hook Length Formula*, The American Mathematical Monthly Vol. 111, No. 8 (Oct., 2004), pp. 700-704 ([jstor:4145043](https://www.jstor.org/stable/4145043)) 
+
+* Jason Bandlow, *An elementary proof of the hook formula*, The Electronic Journal of Combinatorics **15** (2008) ([pdf](http://www.kurims.kyoto-u.ac.jp/EMIS/journals/EJC/Volume_15/PDF/v15i1r45.pdf))
+
+* [[Bruce Sagan]], *Probabilistic proofs of the hook length formulas involving trees*, S&eacute;minaire Lotharingien de Combinatoire 61A (2009) ([pdf](https://users.math.msu.edu/users/bsagan/Papers/Old/pph.pdf))
+
+
+Generalizations:
+
+* Ionuţ Ciocan, Fontanine Matjaž, Konvalinka, Igor Pak, *The weighted hook length formula*, Journal of Combinatorial Theory, Series A Volume 118, Issue 6, August 2011, Pages 1703-1717 ([doi:10.1016/j.jcta.2011.02.004](https://doi.org/10.1016/j.jcta.2011.02.004))
+
+* Alejandro Morales, Igor Pak, Greta Panova, *Hook formulas for skew shapes I. q-analogues and bijections*, Journal of Combinatorial Theory Series A 154 (2018), pp 350--405 ([arXiv:1512.08348](https://arxiv.org/abs/1512.08348))
+
+### For semistandard Young tableaux
+
+The original proof:
+
+* [[Richard Stanley]], Theorem 15.3 in: *Theory and application of plane partitions 2*, Studies in Applied Math. **50** 3 (1971), 259-279 ([pdf](http://www-math.mit.edu/~rstan/pubs/pubfiles/12-2.pdf), [[StanleyPlanePartitions2.pdf:file]])
+
+Review:
+
+* {#Stanley99} [[Richard Stanley]], Thm. 7.21.2 in: *Enumerative combinatorics 2*, Cambridge University Press (1999, 2010) ([doi:10.1017/CBO9780511609589](https://doi.org/10.1017/CBO9780511609589), [webpage](http://www-math.mit.edu/~rstan/ec/))
+
+* *A proof of the HCF* ([pdf](https://someproofsandstuff.files.wordpress.com/2015/03/hookcon.pdf), [[AProofOfTheHCF.pdf:file]])
+
 
 [[!redirects hook length formulas]]
 
