@@ -382,3 +382,7 @@ For more on permutation patterns, see:
 
 
 [[!redirects symmetric groups]]
+
+[[!redirects Sym(n)]]
+
+
