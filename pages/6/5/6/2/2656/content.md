@@ -196,7 +196,7 @@ A nice introduction to Young diagrams can be found here:
 
 More details are in 
 
-* [[William Fulton]], _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997.
+* [[William Fulton]], _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
 
 * Kazuhiko Koike, Itaru Terada, _Young-diagrammatic methods for the representation theory of the classical groups of type $B_n$, $C_n$, $D_n$_,  Journal of Algebra, Volume 107, Issue 2, May 1987, Pages 466-511
 
