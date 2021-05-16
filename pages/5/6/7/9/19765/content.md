@@ -22,4 +22,10 @@ On [[combinatorics]]:
 * [[Bruce Sagan]], *Combinatorics: The Art of Counting*, Graduate studies in Mathematics **210**, AMS  ([ISBN:978-1-4704-6032-7](https://bookstore.ams.org/gsm-210) [pdf](https://users.math.msu.edu/users/bsagan/Books/Aoc/final.pdf))
 
 
+On the [[hook length formula]]:
+
+
+* [[Bruce Sagan]], *Probabilistic proofs of the hook length formulas involving trees*, S &eacute;minaire Lotharingien de Combinatoire 61A (2009) ([pdf](https://users.math.msu.edu/users/bsagan/Papers/Old/pph.pdf))
+
+
 category:people
