@@ -19,9 +19,12 @@ The [[representation theory]] of the [[general linear groups]].
 
 ## Related concepts
 
+* [[Schur-Weyl duality]]
+
 * [[representation theory of the symmetric group]]
 
-* [[Schur-Weyl duality]]
+* [[representation theory of the special unitary group]]
+
 
 ## References
 
