@@ -28,6 +28,9 @@ The [[representation theory]] of the [[general linear groups]].
 
 ## References
 
+* {#Fulton97} [[William Fulton]], Section 8 of: _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
+
+
 * Amritanshu Prasad, *Representations of General Linear Groups* ([doi:10.1017/CBO9781139976824.007]( https://doi.org/10.1017/CBO9781139976824.007))
 
 
