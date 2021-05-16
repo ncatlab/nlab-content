@@ -1023,7 +1023,7 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
      \label{CharacterFormulaForEigenvalueOfCayleyDistanceKernel}
      EigVals[e^{- \beta\cdot d_C}]_\lambda
      \;=\;
-     \tfrac{1}{\chi^{(\lambda)}(1)}
+     \tfrac{1}{\chi^{(\lambda)}(e)}
      \underset{ \sigma \in Sym(n) }{\sum}
      e^{ \beta \cdot ( \left\vert Cycles(\sigma)\right\vert - n )   }
      \cdot
@@ -1114,7 +1114,7 @@ $$
 This is the statement of [Gnedin, Gorin & Kerov 11, Prop. 2.4](#GnedinGorinKerov11) (with notation from Prop. 2.1).
 
 \begin{proposition}\label{EigenvaluesAtLogIntegerInvTemViaYoungTabl}
-**(Eigenvalues of Cayley distance kenrel at $\beta = ln(N)$ count semistandard Young tableaux)** \linebreak
+**(Eigenvalues of Cayley distance kernel at $\beta = ln(N)$ count semistandard Young tableaux)** \linebreak
 
 For $N \in \mathbb{N}$
 and $\lambda \in Part(n)$, the $\lambda$th eigenvalue (eq:EigenvaluesLabeledByPartitions) of the Cayley distance kernel at $\beta = ln(N)$ on $Sym(n)$ is proportional to the number $\left\vert ssYT_{\lambda \vdash n}(N)\right\vert$ of [[semistandard Young tableaux]] (Def. \ref{SetsOfSemistandardYoungTableau})
@@ -1616,7 +1616,108 @@ Alternatively, this follows from Prop. \ref{PositivitiViaCountingOfYoungTableaux
 
 Alternatively, this follows from the third clause of Prop. \ref{PositivitiViaCountingOfYoungTableaux}
 
-#### Definiteness for $\e^\beta \gt \frac{n-1}{3^{1/n}-1}  $
+#### Definiteness for $\e^\beta \gt n  $
+ {#DefinitenessForEBetaGreaterThann}
+
+\begin{prop}
+  \label{CayleyDistanceKernelPositiveForEBetaGreaterThann}
+  The Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ is positive definite for $e^\beta \gt n$.
+\end{prop}
+The following proof was pointed out by [[Abdelmalek Abdesselam]].
+\begin{proof}
+  By Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} the $\lambda$th eigenvalue at integer values 
+
+$$
+  e^{\beta} = N \in \mathbb{N}_+
+$$ 
+
+is a positive multiple of the number of semi-standard Young tableau, and hence is given by the *[[hook-content formula]]*, as follows:
+
+$$
+  \begin{aligned}
+    \frac
+      {  \chi^{(\lambda)}(e) }
+      { n!  }
+    N^n
+    \cdot
+    EigVals[e^{- ln(N)} \cdot d_C]_\lambda
+    &
+    \;=\;
+    \left\vert ssYT_\lambda(N) \right\vert
+    \\
+    &
+    \;=\;
+    \underset{(i,j)}{\prod}
+    \frac
+      { N + content(i,j) }
+      { \ell hook_\lambda(i,j)  }
+  \end{aligned}
+  \,,
+  {\phantom{AAAA}}
+  N \in \mathbb{N}_+
+  \,.
+$$
+
+We may regard this set of equations as the specialization of the following more general equation
+
+$$
+  \frac
+    {  \chi^{(\lambda)}(e) }
+    { n!  }
+  (e^\beta)^n
+  \cdot
+  EigVals[e^{- \beta} \cdot d_C]_\lambda
+  \;=\;
+  \underset{(i,j)}{\prod}
+    \frac
+      { e^\beta + content(i,j) }
+      { \ell hook_\lambda(i,j) }
+$$
+
+to all integer values of $e^\beta$. But since both sides of this equation are [[polynomials]] in $e^\beta$ -- the right hand manifestly so, the left hand side by (eq:CharacterFormulaForEigenvalueOfCayleyDistanceKernel) -- the fact that the equation holds at infinite many distinct points $e^\beta \in \mathbb{N}_+$ implies that in fact it holds for all $e^\beta \in \mathbb{R}_+$.
+
+As such, a sufficient condition for positivity is clearly that 
+$$
+  e^\beta + content(i,j)
+  \;\coloneqq\;
+  e^{\beta} + j - i
+  \;\gt\;
+  0
+$$
+
+for all $(i,j)$ that appear in the product, hence that
+
+$$
+  e^{\beta} - i
+  \;\gt\;
+  0
+$$
+
+for all $i$ that appear. But the index $i$ labels the rows of [[Young diagrams]] of $n$ boxes, and hence the condition is that
+
+$$
+  e^{\beta} 
+    \;\gt\; 
+  \underset{
+    {
+      \lambda \in Part(n)
+    }
+    \atop
+    {
+      1 \leq i \leq rows(\lambda)
+    }    
+  }{max}
+  (i)
+  \;=\;
+  n
+  \,.
+$$
+\end{proof}
+
+
+\linebreak
+
+The following is an alternative proof of a much weaker lower bound, not relying on the [[hook-content formula]] from [[combinatorics]], but on the [[Gershgorin circle theorem]] from [[analysis]]:
 
 \begin{prop}
   A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive definite bilinear form|positive definite]] is that its [[inverse temperature]] $\beta$ satisfies the following [[inequality]]:
