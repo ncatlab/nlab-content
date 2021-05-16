@@ -39,5 +39,8 @@ Together with the horizontal [[4T relations]] these are the relations respected 
 
 [[!redirects 2T relations]]
 
+[[!redirects 2T-relation]]
+[[!redirects 2T-relations]]
+
 [[!redirects 2-term relation]]
 [[!redirects 2-term relations]]
