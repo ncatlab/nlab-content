@@ -125,15 +125,17 @@ Given a [[partition]] ([[Young diagram]]) $\lambda$ of $n$ (boxes), the number (
 
 The [[dimension]] of the [[irrep]] of the [[symmetric group]] $Sym(n)$ that is labelled by a given [[Young diagram]] $\lambda$ (the [[Specht module]] $S^{(\lambda)}$, see at [[representation theory of the symmetric group]]) is also given by the hook length formula (eq:HookLengthFormulaCountingNumberOfStandardYoungTableau):
 
-$$
+\[
+  \label{HookLengthFormulaMeasuresDimensionOfIrrepOfSymmetricGroup}
   dim(S^{(\lambda)})
   \;=\;
   \frac{
     n!  
   }{
     \prod_{(i,j)} \ell hook_\lambda(i,j)
-  }.
-$$
+  }
+  \,.
+\]
 
 ### Counting semi-standard Young tableaux
  {#ForSemiStandardYoungTableaux}
