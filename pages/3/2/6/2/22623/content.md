@@ -20,11 +20,30 @@
 
 ## Idea
 
-The *hook length formula* expresses the [[number]] of [[standard Young tableaux]] with fixed underlying [[Young diagram]] in terms of the lengths of all "hooks" inside the Young diagram.
+Given a [[partition]]/[[Young diagram]] $\lambda$ with $n$ boxes/of $n$:  
 
-This number is also equal to the [[dimension]] of the [[irreducible representation]] of the [[symmetric group]] $Sym(n)$ corresponding to $\lambda$, a [[partition]] of $n$ (the [[Specht module]], see at *[[representation theory of the symmetric group]]*).
+the *hook length formula* expresses both 
 
-Generalized to [[semi-standard Young tableau]] the formula involves the hook length at and the "content" of the boxes of the Young diagram, whence it is then also called a *[[hook-content formula]]* (really: "hook length and box content").
+* the [[number]] of [[standard Young tableaux]] of shape $\lambda$,
+
+* the [[dimension]] of the [[irreducible representation]] of [[symmetric group|Sym(n)]] labelled by $\lambda$ (i.e. of the [[Specht module]] $S^{(\lambda)}$)
+
+in terms of the lengths of all "hooks" inside the Young diagram;
+
+similarly, the *[[hook-content formula]]* expresses both
+
+* the [[number]] of [[semistandard Young tableau]] of shape $\lambda$;
+
+* the [[dimension]] of the [[irreducible representation]] of [[SU(n)]]
+
+in terms of the length of all hooks and the "content" of all of the boxes.
+
+| [[hook length formula]] | [[hook-content formula]] |
+|-------------------------|--------------------------|
+| [[number]] of [[standard Young tableaux]] | [[number]] of [[semistandard Young tableaux]] |
+| [[dimension]] of [[irreps]] of [[symmetric group|Sym(n)]] | [[dimension]] of [[irreps]] of [[SU(n)]] |
+
+
 
 ## Preliminaries
 
@@ -81,13 +100,14 @@ of shape $\lambda$.
 ## Details
 
 
-### For standard Young tableaux
+### Counting standard Young tableaux
 
 \begin{prop}
 **(hook length formula for standard Young tableaux)** \linebreak
 Given a [[partition]] ([[Young diagram]]) $\lambda$ of $n$ (boxes), the number (eq:NumberOfStandardYoungTableauxOfFixedShape) of [[standard Young tableaux]] of shape $\lambda$ equals the [[factorial]] of $n$ over the [[multiplication|product]] of the hook lengths (Def. \ref{HookLength}) at all the boxes of $\lambda$:
 
-$$
+\[
+  \label{HookLengthFormulaCountingNumberOfStandardYoungTableau}
   \left\vert 
     sYTableaux_\lambda
   \right\vert
@@ -97,11 +117,25 @@ $$
   }{
     \prod_{(i,j)} \ell hook_\lambda(i,j)
   }.
-$$
+\]
 
 \end{prop}
 
-### For semi-standard Young tableaux
+### Measuring dimension of irreps of $Sym(n)$
+
+The [[dimension]] of the [[irrep]] of the [[symmetric group]] $Sym(n)$ that is labelled by a given [[Young diagram]] $\lambda$ (the [[Specht module]] $S^{(\lambda)}$, see at [[representation theory of the symmetric group]]) is also given by the hook length formula (eq:HookLengthFormulaCountingNumberOfStandardYoungTableau):
+
+$$
+  dim(S^{(\lambda)})
+  \;=\;
+  \frac{
+    n!  
+  }{
+    \prod_{(i,j)} \ell hook_\lambda(i,j)
+  }.
+$$
+
+### Counting semi-standard Young tableaux
  {#ForSemiStandardYoungTableaux}
 
 \begin{prop}
@@ -180,6 +214,24 @@ $$
 $$
 
 
+### Measuring of dimension of irreps of $SU(n)$
+
+The [[dimension]] of the [[irrep]] $V^{(\lambda)}$ of the [[special unitary group]] $SU(n)$ that is labelled by a given [[Young diagram]] $\lambda$ (the [[Specht module]] $S^{(\lambda)}$, see at [[representation theory of the special unitary group]]) is also given by the hook-content formula (eq:TheHookLengthFormulaForSemistandardYoungTableaux):
+
+$$
+  dim(V^{(\lambda)})
+  \;=\;
+  \underset{(i,j)}{\prod}
+  \frac{
+    N + content(i,j)
+  }{
+    \ell hook_\lambda(i,j)
+  }
+$$
+
+
+
+
 ## Related concepts
 
 * [[hook-content formula]]
@@ -201,8 +253,6 @@ Review:
 * [[Yufei Zhao]], Section 4.4. of _Young Tableaux and the Representations of the Symmetric Group_ ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhaoYoungTableaux.pdf:file]])
 
 * Shiyue and Andrew, *Young Tableaux and Probability*, 2019 ([pdf](http://www.mit.edu/~lindrew/hooklength.pdf))
-
-
 
 See also:
 
@@ -236,6 +286,18 @@ Review:
 * {#Stanley99} [[Richard Stanley]], Thm. 7.21.2 in: *Enumerative combinatorics 2*, Cambridge University Press (1999, 2010) ([doi:10.1017/CBO9780511609589](https://doi.org/10.1017/CBO9780511609589), [webpage](http://www-math.mit.edu/~rstan/ec/))
 
 * *A proof of the HCF* ([pdf](https://someproofsandstuff.files.wordpress.com/2015/03/hookcon.pdf), [[AProofOfTheHCF.pdf:file]])
+
+### For dimensions of irreps
+
+Textbook accounts:
+
+* [[Shlomo Sternberg]], Section 5.4 of: *Group Theory and Physics*, Cambridge University Press 1994
+
+
+Review:
+
+* {#Peluse14} [[Sarah Peluse]], Section 1 of: *Irreducible representations of $SU(n)$ with prime power degree*, S&eacute;minaire Lotharingien de Combinatoire 71 (2014), Article B71d ([pdf](https://www.emis.de/journals/SLC/wpapers/s71peluse.pdf))
+
 
 
 [[!redirects hook length formulas]]
