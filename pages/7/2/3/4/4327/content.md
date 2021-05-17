@@ -72,3 +72,6 @@ $$
 
 [[!redirects special linear group]]
 [[!redirects special linear groups]]
+
+[[!redirects SL(n)]]
+
