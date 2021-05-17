@@ -32,7 +32,13 @@ Or if $\mathcal{V}$=[[topological spaces]] such that $\mathcal{C}$ is [[topologi
 
 ## Examples
 
+* The category Prop of [[proposition]]s is a enriched over itself. Hence for any two proposition $a,b$, there is a hom-proposition $Prop(A,B)$. This is the [[implication]] proposition $a \implies b$. 
+
+* The category [[Set]] of [[set]]s is a enriched over itself. Hence for any two sets $A,B$, there is a hom-set $Set(A,B)$. This is the [[function set]] $A \to B$. 
+
 * The category [[Grpd]] of [[groupoid]]s is a enriched over itself. Hence for any two groupoids $A,B$, there is a [[hom-groupoid]] $Grpd(A,B)$. This is the [[functor category]] $Func(A,B)$.
+
+* The category [[Pos]] of [[poset]]s is a enriched over itself. Hence for any two posets $A,B$, there is a hom-poset $Pos(A,B)$, the poset of [[monotone]]s. 
 
 
 ## Related concepts
