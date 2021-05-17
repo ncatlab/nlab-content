@@ -61,6 +61,13 @@ In words: it is the group whose elements are presented by pairs of elements in $
 +-- {: .num_remark}
 ###### Remark
 
+If one generalises to abelian [[semigroups]], this definition of the tensor product also defines the __tensor product of abelian semigroups__.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 The 0-ary relations $(0,b)\sim 0$ and $(a,0)\sim 0$ follow automatically; one needs them explicitly only if one generalises to [[abelian monoids]].
 
 =--
