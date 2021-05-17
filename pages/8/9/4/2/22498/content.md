@@ -85,10 +85,9 @@ $$
 
 (e.g. [James 78, Thm. 20.1](#James78))
 
-| [[hook length formula]] | [[hook-content formula]] |
-|-------------------------|--------------------------|
-| [[number]] of [[standard Young tableaux]] | [[number]] of [[semistandard Young tableaux]] |
-| [[dimension]] of [[irreps]] of [[symmetric group|Sym(n)]] | [[dimension]] of [[irreps]] of [[SU(n)]] |
+
+[[!include hook length and content formulas -- table]]
+
 
 
 ## Related concepts
