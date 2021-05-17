@@ -79,7 +79,7 @@ $$
   }
 $$
 
-formed in analogy to the enriched hom of [[pointed object]]s.
+formed in analogy to the enriched hom of [[pointed object]]s. The [[initial object]] of $V$ is the [[coproduct]] of $a$ and $b$.
 
 If $V$ has a terminal object, $pt$, then cospans from $pt$ to itself are [[bi-pointed object]]s in $V$.
 
