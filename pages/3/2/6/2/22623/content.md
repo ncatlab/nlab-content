@@ -323,7 +323,7 @@ Review for [[Sym(n)]]:
 
 Review for [[SU(n)]]:
 
-* {#Peluse14} Sarah Peluse, Section 1 of: *Irreducible representations of $SU(n)$ with prime power degree*, S&eacute;minaire Lotharingien de Combinatoire 71 (2014), Article B71d ([pdf](https://www.emis.de/journals/SLC/wpapers/s71peluse.pdf))
+* {#Peluse14} [[Sarah Peluse]], Section 1 of: *Irreducible representations of $SU(n)$ with prime power degree*, S&eacute;minaire Lotharingien de Combinatoire 71 (2014), Article B71d ([pdf](https://www.emis.de/journals/SLC/wpapers/s71peluse.pdf))
 
 * *Some Notes on Young Tableaux as useful for irreps of $\mathrm{su}(n)$* ([pdf](http://www.physics.mcgill.ca/~keshav/673IV/youngtableaux.pdf))
 
