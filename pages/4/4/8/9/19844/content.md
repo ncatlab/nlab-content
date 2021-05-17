@@ -228,6 +228,14 @@ Implications for the significance across channels:
 
 > the combined significance of the deviation reaches $4.7\sigma$. Furthermore, taking into account also less theoretically-clean observables $[\ldots]$ the overall significance of the deviations  in  this  channel  is  raised  to  even  above  $6\sigma$, depending on the specific SM prediction employed
 
+[Davighi 21](#Davighi21):
+
+> A highly conservative method for combining the various $b \to s \ell \ell$ anomalies, including the look-elsewhere effect, estimates their global significance to be 3.9σ. The  combined  set  of  discrepancies are by and  large self-consistent with a common new physics origin involving muons.
+
+[Chang 21](#Chang21):
+
+> From the global fits to various $b \to  s l^+ l^-$−data, the discrepancy is more than $5\sigma$ from the SM predictions. The new result ([59](https://arxiv.org/abs/2103.11769)) further strengthens the lepton flavor universality violation. This anomaly alone convincingly indicates New Physics
+
 \linebreak
 
 ### Outlook
@@ -945,6 +953,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * Kayoung Ban, Yongsoo Jho, Youngjoon Kwon, Seong Chan Park, Seokhee Park, Po-Yan Tseng, *A comprehensive study of vector leptoquark on the B-meson and Muon $g-2$ anomalies* ([arXiv:2104.06656](https://arxiv.org/abs/2104.06656))
 
+* {#Chang21} We-Fu Chang, *One colorful resolution to the neutrino mass generation, three lepton flavor universality anomalies, and the Cabibbo angle anomaly* ([arXiv:2105.06917](https://arxiv.org/abs/2105.06917))
+
+
 \linebreak
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
@@ -999,6 +1010,7 @@ explanations via assumption of [[Z'-bosons]]:
 
 * [[Andreas Crivellin]], Claudio Andreas Manzari, Marcel Alguero, Joaquim Matias, _Combined Explanation of the $Z \to b \bar b$ Forward-Backward Asymmetry, the Cabibbo Angle Anomaly, $\tau \to \mu \nu \nu$ and $b \to s \ell^+ \ell^-$ Data_ ([arXiv:2010.14504](https://arxiv.org/abs/2010.14504))
 
+* {#Davighi21} Joe Davighi, *Anomalous $Z'$ bosons for anomalous B decays* ([arXivL2105.06918](https://arxiv.org/abs/2105.06918))
 
 
 #### Dark matter
