@@ -24,9 +24,66 @@ The [[representation theory]] of the [[symmetric groups]].
 ### Irreducible representations
  {#IrreducibleRepresentations}
 
-In [[characteristic zero]], the [[irreducible representations]] of the symmetric group are, up to [[isomorphism]], given by the [[Specht modules]] labled by [[partitions]] of $n$ (e.g. [Sagan 01, Thm. 2.4.6](#Sagan01)).
+In [[characteristic zero]], the [[irreducible representations]] of the symmetric group are, up to [[isomorphism]], given by the [[Specht modules]] labeled by [[partitions]] $\lambda \in Part(n)$ (e.g. [Sagan 01, Thm. 2.4.6](#Sagan01)).
 
 ### Dimension of irreps and hook length
+
+Over the [[complex numbers]]:
+
+The [[dimension]] of the [[irrep]] $S^{(\lambda)}$ ([[Specht module]]) equals the [[number]] of [[standard Young tableau]] of shape $\lambda$:
+
+\[
+  \label{DimensionOfSPechtModuleEqualsNumberofStandardYoungDiagrams}
+  dim\big(S^{(\lambda)}\big)  
+  \;=\;
+  \left\vert
+    sYTableaux_\lambda
+  \right\vert
+\]
+
+(e.g. [Sagan, Thm. 2.6.5](#Sagan01)) 
+
+Moreover, the [[number]] of [[standard Young tableaux]] of shape $\lambda$ is given by the [[hook length formula]]
+
+\[
+  \label{HookLengthFormulaCountingNumberOfStandardYoungTableau}
+  \left\vert 
+    sYTableaux_\lambda
+  \right\vert
+    \;=\; 
+    n!  
+    \left(
+      \prod_{
+        { 1 \leq i \leq rows(\lambda) }   
+        \atop
+        { 1 \leq j \leq \lambda_i }
+      } 
+      \ell hook_\lambda(i,j)
+    \right)^{-1}
+  \,.
+\]
+
+
+This is due to [Frame, Robinson & Thrall 54](hook+length+formula#FrameRobinsonThrall54). Textbook accounts include [Stanley 99, Cor. 7.21.6](hook+length+formula#Stanley99), [Sagan 01 Thm. 3.10.2](#Sagan01).
+
+Combining (eq:DimensionOfSPechtModuleEqualsNumberofStandardYoungDiagrams) with (eq:HookLengthFormulaCountingNumberOfStandardYoungTableau) gives the [[hook length formula]] for the [[dimension]] of the [[Specht modules]]
+
+$$
+  dim\big(S^{(\lambda)}\big)  
+  \;=\;
+  n!  
+  \left(
+    \prod_{
+      { 1 \leq i \leq rows(\lambda) }   
+      \atop
+      { 1 \leq j \leq \lambda_i }
+    } 
+    \ell hook_\lambda(i,j)
+  \right)^{-1}
+  \,.
+$$
+
+(e.g. [James 78, Thm. 20.1](#James78))
 
 | [[hook length formula]] | [[hook-content formula]] |
 |-------------------------|--------------------------|
@@ -48,7 +105,7 @@ In [[characteristic zero]], the [[irreducible representations]] of the symmetric
 
 Textbook accounts:
 
-* [[G. D. James]], *The Representation Theory of the Symmetric Groups*,  Lecture Notes in Mathematics, volume 682, Springer 1978 ([doi:10.1007/BFb0067708](https://link.springer.com/book/10.1007/BFb0067708), [pdf](http://www-users.math.umn.edu/~webb/oldteaching/Year2010-11/the-representation-theory-of-the-symmetric-groups-SLN.pdf))
+* {#James78} [[G. D. James]], *The Representation Theory of the Symmetric Groups*,  Lecture Notes in Mathematics, volume 682, Springer 1978 ([doi:10.1007/BFb0067708](https://link.springer.com/book/10.1007/BFb0067708), [pdf](http://www-users.math.umn.edu/~webb/oldteaching/Year2010-11/the-representation-theory-of-the-symmetric-groups-SLN.pdf))
 
 * {#Diaconis88} [[Persi Diaconis]], Chapter 7 of: *Group Representations  in Probability  and  Statistics*, IMS Lecture Notes Monogr. Ser., 11: 198pp. (1988) ([jstor:i397389](https://www.jstor.org/stable/i397389), [ISBN: 0940600145](https://projecteuclid.org/ebooks/institute-of-mathematical-statistics-lecture-notes-monograph-series/Group-representations-in-probability-and-statistics/toc/10.1214/lnms/1215467407), [pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
 
