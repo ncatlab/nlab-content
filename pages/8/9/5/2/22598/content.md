@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,12 +24,9 @@ If the dependency in the "contents" is removed, the formula reduces to the *[[ho
 
 Both of these formulas equivalently give [[dimensions]] of [[irreps]] in [[representation theory]]:
 
-| [[hook length formula]] | [[hook-content formula]] |
-|-------------------------|--------------------------|
-| [[number]] of [[standard Young tableaux]] | [[number]] of [[semistandard Young tableaux]] |
-| [[dimension]] of [[irreps]] of [[symmetric group|Sym(n)]] | [[dimension]] of [[irreps]] of [[SU(n)]] |
+[[!include hook length and content formulas -- table]]
 
-See at *[[look length formula]]* for more on this.
+See at *[[hook length formula]]* for more on this.
 
 
 ## Preliminaries
