@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher category theory
+#### $(\infty,1)$-Category theory
 +--{: .hide}
-[[!include higher category theory - contents]]
+[[!include quasi-category theory contents]]
 =--
 =--
 =--
@@ -29,6 +29,7 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,
 1. $\mathcal{C}$ admits a [[factorization system]] $(S_L,S_R)$, where $S_L$ is the collection of [[regular epimorphism|regular]] [[n-connected]] morphisms and $S_R$ is the collection of [[n-truncated]] morphisms. 
 
 =--
+
 
 ## Related concepts
 
