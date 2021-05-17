@@ -19,7 +19,7 @@ The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wi
 
 The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 using software provided and set up by [[Jacques Distler]].  The name "$n$Lab" (short for "$n$-Category Lab", but perhaps less restrictive) was dreamt up by Lisa Raphals ([[John Baez]]'s wife).
 
-The $n$Lab itself spun off the [$n$-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) for discussion about the $n$Lab that doesn\'t fit well here.
+The $n$Lab itself spun off the [$n$Forum](https://nforum.ncatlab.org/) for discussion about the $n$Lab that doesn\'t fit well here.
 
 ##What the $n$Lab is
 
