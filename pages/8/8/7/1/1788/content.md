@@ -1,3 +1,38 @@
-| In [[dependent linear type theory|dependent linear]] <br/> [[homotopy type theory]]: | In  [classically controlled](quantum+computation#ClassicalControlQuantumData) <br/> [[quantum programming languages]]: | In [[indexed monoidal (∞,1)-categories|indexed monoindal]] <br/> [[parameterized stable homotopy theory|∞-cats of par. spectra]]: | In [[Whitehead generalized cohomology theory|Whitehead-generalized]] <br/> [[twisted cohomology theory]]:
-|--|--|--|--|
-| A [[term]] of some [[type]] <br/> in [[context]]. | A [[quantum circuit]] <br/> controlled by [[data type|classical data]].  | An [[generalized element|element]] of an [[object]] <br/> in a [[slice (∞,1)-category|slice]]. | A [[cocycle]] <br/> in [[twisted cohomology]]. |
+
+
+
+
+\begin{defn}\label{JucycMurphyElements}
+
+The *Jucys-Murphy elements* 
+
+$$
+  J_k \;\in\; \mathbb{C}[Sym(n)] \;\;\;\; k \in \{1, \cdots, n\}
+$$
+
+are the following [[sums]] of [[transpositions]] $(i j) \in Sym(n) \subset \mathbb{C}[Sym(n)]$ in this [[group algebra]]:
+
+
++-- {: .num_defn #JucycMurphyElements}
+###### Definition
+
+The *Jucys-Murphy elements* 
+
+$$
+  J_k \;\in\; \mathbb{C}[Sym(n)] \;\;\;\; k \in \{1, \cdots, n\}
+$$
+
+are the following [[sums]] of [[transpositions]] $(i j) \in Sym(n) \subset \mathbb{C}[Sym(n)]$ in this [[group algebra]]:
+
+\[
+  \label{J1IsZero}
+  J_1 \;\coloneqq\; 0
+\]
+
+\]
+  \label{JkAsSum}
+  J_k \;\coloneqq\; \underoverset{i = 1}{k-1}{\sum} (i k)
+\]
+
+=--
+
