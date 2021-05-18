@@ -166,7 +166,7 @@ The terminology  of spectral triples was introduced in
 
 * {#ConnesMoscovici95} [[Alain Connes]], [[Henri Moscovici]],  _The Local Index Formula in Noncommutative Geometry_, Geometry and Funct. Analysis 5 (1995) 174-243.
 
-* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([doi:10.1063/1.531241](https://doi.org/10.1063/1.531241))
 
 and that of [[spectral action]] in
 
