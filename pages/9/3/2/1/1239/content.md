@@ -143,7 +143,7 @@ More in detail, this yields the following identifications:
 ## References
  {#References}
 
-Lecture notes include
+Lecture notes:
 
 * {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]])
 
@@ -151,20 +151,28 @@ Lecture notes include
 
 * Joel Robbin, _Real, Complex and Quaternionic representations_, 2006 ([pdf](http://www.math.wisc.edu/~robbin/angelic/RCH-G.pdf), [[Robbin08RCHRep.pdf:file]])
 
-
-Textbooks include
+Textbook accounts:
 
 * Charles Curtis, Irving Reiner, _Representation theory of finite groups and associative algebras_, AMS 1962
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
 
-
 * {#LuxPahlings10} Klaus Lux, Herbert Pahlings, _Representations of groups -- A computational approach_, Cambridge University Press 2010 ([author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078))
 
+Discussion via [[string diagrams]]/[[Penrose notation]]:
 
-A list of texts on representation theory is maintained at
+* [[Jeffrey Ellis Mandula]], *Diagrammatic techniques in group theory*, Southampton Univ. Phys. Dept. (1981) ([cds:129911](https://cds.cern.ch/record/129911), [pdf](https://cds.cern.ch/record/129911/files/SHEP%2080-81-7.pdf))
+
+* {#Cvitanovic08} [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
+
+  (aimed at [[Lie theory]] and [[gauge theory]])
+
+Further references:
 
 * [[Mikhail Khovanov]], _[Resources](http://www.math.columbia.edu/~khovanov/resources)_.
+
+
+
 
 The relation to [[number theory]] and the [[Langlands program]] is discussed in 
 
