@@ -1444,6 +1444,7 @@ $$
    \,.
 $$
 \end{prop}
+This is essentially Jucys's factorization, see at *[[Jucys-Murphy element]]*.
 \begin{proof}
 
 The point is that the [[hook length formula]] (see [here](hook+length+formula#eq:HookLengthFormulaMeasuresDimensionOfIrrepOfSymmetricGroup)) also gives the dimension of the [[irreps]] of the [[symmetric group]]:
