@@ -238,19 +238,18 @@ An alternative derivation of this statement, using the formula for [[Cayley grap
 
 ## References
 
-The Jucy-Murphy elements are independently due to:
-
-* [[Algimantas Adolfas Jucys]], *Symmetric polynomials and the center of the symmetric group ring*, Rep. Mathematical Phys.5 (1974), pp. 107–112 (<a href="https://doi.org/10.1016/0034-4877(74)90019-6">doi:10.1016/0034-4877(74)90019-6</a>)
-
-* [[G. E. Murphy]], *A new construction of Young's seminormal representation of the symmetric groups*, Journal of Algebra Volume 69, Issue 2, April 1981, Pages 287-297 (<a href="https://doi.org/10.1016/0021-8693(81)90205-2">doi:10.1016/0021-8693(81)90205-2</a>)
-
-Their eigenvalues seem to be due to
+The Jucys-Murphy elements are independently due to:
 
 * {#Jucys71} [[Algimantas Adolfas Jucys]], *Factorization of Young projection operators for the symmetric group*, Lietuvos Fizikos Rinkinys, **11** (1) 9 (1971) ([journal content](http://www.itpa.lt/%7Elfd/Lfz/Turiniai/Turi1971.html#))
 
-recalled in
-
 * {#Jucys74} [[Algimantas Adolfas Jucys]], *Symmetric polynomials and the center of the symmetric group ring*, Reports on Mathematical Physics, Volume 5, Issue 1, February 1974, Pages 107-112 (<a href="https://doi.org/10.1016/0034-4877(74)90019-6">doi:10.1016/0034-4877(74)90019-6</a>)
+
+and
+
+* {#Murphy81} [[G. E. Murphy]], *A new construction of Young's seminormal representation of the symmetric groups*, Journal of Algebra Volume 69, Issue 2, April 1981, Pages 287-297 (<a href="https://doi.org/10.1016/0021-8693(81)90205-2">doi:10.1016/0021-8693(81)90205-2</a>)
+
+(According to [Vershik-Okounkov 04, Footnote 2](representation+theory+of+the+symmetric+group#VershikOkounkov04) [Jucys 74](#Jucys74) "remained unnoticed" until [Murphy 81](#Murphy81) first re-discovered the results, and then Jucys' paper. In fact [Jucys 71](#Jucys71), which must have the actual proofs, seems to remain electronically unavailable.)
+
 
 Review:
 
