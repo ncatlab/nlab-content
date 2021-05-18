@@ -105,7 +105,7 @@ This is stated on the [Wikipedia page](https://en.wikipedia.org/wiki/Jucys%E2%80
     e^{ ln(t) \cdot \# cycles(\sigma) }
     \, \sigma \cdot
   $$
-  (regarded on the right as the linear map given my right multiplication in the [[group algebra]]) are [[indexed set|indexed]] by [[Young diagrams]] $\lambda$ and are given by
+  (regarded on the right as the linear map given by right multiplication in the [[group algebra]]) are [[indexed set|indexed]] by [[Young diagrams]] $\lambda$ and are given by
   $$
     EigVals[e^{- ln(t) \cdot d_C}]_\lambda
     \;=\;  
