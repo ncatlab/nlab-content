@@ -156,7 +156,7 @@ If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in stu
 
 ### Enriched quivers
 
-Let $V$ be a [[category]] (or a [[(infinity,1)-category]]). A quiver $Q$ is a __$V$-enriched quiver__ if it has a collection of objects $Ob(Q)$ and a $V$-valued functor $Mor: Ob(Q) \times Ob(Q) \to V$ for all objects $a, b \in Ob(Q)$. Quivers in the usual sense are enriched in [[Set]], while [[graph|loop directed graphs]]/[[binary relation|binary]] [[relation|endorelations]] are quivers enriched in the category of [[truth values]] $\Omega$. 2-graphs are quivers enriched in [[Rel]]. 
+Let $V$ be a [[category]] (or a [[(infinity,1)-category]]). A quiver $Q$ is a __$V$-enriched quiver__ if it has a collection of objects $Ob(Q)$ and a $V$-valued functor $Mor: Ob(Q) \times Ob(Q) \to V$ for all objects $a, b \in Ob(Q)$. Quivers in the usual sense are enriched in [[Set]], while [[graph|loop directed graphs]]/[[binary relation|binary]] [[relation|endorelations]] are quivers enriched in the category of [[truth values]] $\Omega$. [[n-quiver|$n$-quivers]] are quivers enriched in the category of $(n-1)$-quivers. 
 
 In [[dependent type theory]] with [[type of types|universes]], a [[type]] equipped with an [[identity type]] is a quiver type enriched in a universe [[Type]].
 
