@@ -28,15 +28,17 @@ $$
   J_k \;\in\; \mathbb{C}[Sym(n)] \;\;\;\; k \in \{1, \cdots, n\}
 $$
 
-are the following [[sums]] of [[transpositions]] $(i j) \in Sym(n) \subset \mathbb{C}[Sym(n)]$ in this [[group algebra]]:
+are the following [[sums]] of [[transpositions]] $(i,j) \in Sym(n) \subset \mathbb{C}[Sym(n)]$ in this [[group algebra]]:
 
-$$
+\[
+  \label{J1IsZero}
   J_1 \;\coloneqq\; 0
-$$
+\]
 
-$$
-  J_k \;\coloneqq\; \underoverset{i = 1}{k-1}{\sum} (i k)
-$$
+\[
+  \label{JkAsSum}
+  J_k \;\coloneqq\; \underoverset{i = 1}{k-1}{\sum} (i,k)
+\]
 
 \end{defn}
 
@@ -79,7 +81,6 @@ This is due to [Jucys 71](#Jucys71), recalled as [Jucys 74 (12)](#Jucys74).
 
 \begin{prop}\label{FactorizationOfCayleyDistanceKernelAsCharPolynomialOfJMElements}
  The [[characteristic polynomial]] of the Jucys-Murphy elements is proportional to the [[Cayley distance kernel]]:
-
 $$
   \big(
     t + J_1
@@ -103,12 +104,99 @@ $$
 $$
 
 \end{prop}
-This is attributed on the [Wikipedia page](https://en.wikipedia.org/wiki/Jucys%E2%80%93Murphy_element), Jucys but without explicit reference. Possibly due to [Jucys 71](#Jucys71).
 
+On the [Wikipedia page](https://en.wikipedia.org/wiki/Jucys%E2%80%93Murphy_element) this is attributed to Jucys, but without explicit reference. It might be in [Jucys 71](#Jucys71) (but is not mentioned in the review in [Jucys 74](#Jucys74)). However, it is not much of a theorem, anyways:
 \begin{proof}
+By [[induction]]: 
 
-  By multiplying out and observing that this yields minimal factorizations of permutations into [[transpositions]], as [here](Cayley+distance#eq:CyclicPermutationAsProductOfTranspositions).
+For $n = 1$ the claim reduces to 
 
+$$
+  \big(
+    t + J_1
+  \big)
+  \;=\;
+  e^{ ln(t) \cdot 1 }
+  \,,  
+$$
+
+which holds by (eq:J1IsZero).
+
+Now assume that the statement is true for $n \in \mathbb{N}$. 
+
+Observe that every permutation $\sigma \in Sym(n+1)$ may be written as product
+
+$$
+  \sigma
+  \;=\;
+  c_1(\sigma)
+  \cdot
+  c_2(\sigma)
+  \cdots
+  c_{\# cycles(\sigma)}(\sigma)
+$$
+
+of products of transpositions of the form
+
+$$
+  c_i(\sigma)
+  \;\;
+  \;=\;
+   (i_{\ell_i-1},i_{\ell_i-2})
+   \circ
+   \cdots 
+   \circ 
+   (i_3,i_2)
+   \circ 
+   (i_2,i_1) 
+   \circ 
+   (i_1,i_{\ell_i})
+  \,,
+$$
+
+where $\ell_i$ is the length of the $i$th [[permutation cycle]].
+
+Here we may assume without restriction that 
+
+$$
+  i_j 
+    \lt
+  i_{\ell_i} 
+  \,,
+  {\phantom{AAA}}
+  \text{and}
+  {\phantom{AAA}}
+  i \lt j 
+   \;\;
+   \Rightarrow
+   \;\;
+   i_{\ell_i} \lt j_{\ell_j}
+$$
+
+because if not then we may (1) rearrange the $c_i(\sigma)$ within their product (these commute with each other, since they contain permutations among elements within distinct cycles) and (2) cyclically rearrange the factors withing each $c_i(\sigma)$.
+
+Once all permutations are uniquely represented as products this way, the representative of any $\sigma \in Sym(n+1)$ is uniquely obtained from the representative of an element in $Sym(n)$, by either:
+
+1. multiplying from the right with a transposition $(k, n+1)$ for $k \leq n$, in which case the $n+1$st element will be part of a cycle that was already present;
+
+1. by retaining the previous product as is, in which case the $n+1$st element will be its own new cycle.
+
+This means that
+
+$$
+    \underset{\sigma \in Sym(n+1)}{\sum}
+    t^{ \# cycles(\sigma) }
+    \,
+    \sigma
+    \;
+    =
+    \;
+    \underset{\sigma' \in Sym(n)}{\sum}
+    t^{ \# cycles(\sigma') }    
+    \, 
+    \sigma' (t + J_{n+1})
+$$
+and hence the claim follows by the induction assumption.
 \end{proof}
 
 Combining 
@@ -117,6 +205,7 @@ Prop. \ref{FactorizationOfCayleyDistanceKernelAsCharPolynomialOfJMElements}
 yields:
 
 \begin{corollary}
+
   The [[eigenvalues]] of the [[Cayley distance kernel]]
   $$
     e^{ - ln(t) \cdot d_C }
@@ -142,6 +231,7 @@ yields:
       t - j + i
     \big)
   $$
+
 \end{corollary}
 
 An alternative derivation of this statement, using the formula for [[Cayley graph spectra]] and the [[hook length formula]]/[[hook-content formula]] is [this Prop.](Cayley+distance+kernel#EigenvaluesInTermsOfJustBoxContent) at *[[Cayley distance kernel]]* ([CSS 21](Cayley+distance+kernel#CSS21)).
