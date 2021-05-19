@@ -38,7 +38,7 @@ But one says _presheaf_ instead of (set-valued) _contravariant functor_ when one
 
 ### Young diagrams
 
-A *[[Young diagram]]* is a [[partition]] that wants to become a [[Young tableaux]].
+A *[[Young diagram]]* is a [[partition]] that wants to become a [[Young tableau]].
 
 ### Quivers
 
