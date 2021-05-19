@@ -19,7 +19,7 @@ On the [[Gromov-Witten/Donaldson-Thomas correspondence]]:
 
 * [[Davesh Maulik]], [[Alexei Oblomkov]], [[Andrei Okounkov]], [[Rahul Pandharipande]], _Gromov-Witten/Donaldson-Thomas correspondence for toric 3-folds_ ([arXiv:0809.3976](https://arxiv.org/abs/0809.3976v1))
 
-On the [[representation theory of the symmetric group]] via the [[seminormal representation]]:
+On the [[representation theory of the symmetric group]] via the [[Gelfand-Tsetlin basis]]/[[seminormal representation]]:
 
 On the [[representation theory of the symmetric group]] via the [[seminormal representation]]:
 
