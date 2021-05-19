@@ -17,7 +17,7 @@
 ## Definition
 
 
-Given an [[object]] $Y$ of a [[category]] $C$, a __sink__ to $Y$ in $C$ is a [[family]] of [[morphisms]] of $C$ whose [[targets]] (codomains) are all $Y$:
+Given an [[object]] $Y$ of a [[category]] $C$, a __sink__ to $Y$ in $C$ is a [[family]] of [[morphisms]] of $C$ whose [[targets]] (codomains) are all $Y$, or equivalently, a family of objects in the [[over category]] $C / Y$:
 
 $$ \array {
    X_1 \\
@@ -29,7 +29,7 @@ $$ \array {
 
 We do not, in general, require that this family be [[small category|small]]; if it is so we would call it a "small sink".
 
-The [[duality|dual]] concept is a family of morphisms of $C$ whose [[sources]] (domains) are all $Y$:
+The [[duality|dual]] concept is a family of morphisms of $C$ whose [[sources]] (domains) are all $Y$, or equivalently, a family of objects in the [[under category]] $Y / C$:
 
 $$ \array {
    & & X_1 \\
@@ -48,6 +48,10 @@ If $U\colon C\to D$ is a functor, then a **$U$-structured sink** is a collection
 ## Examples
 
 * Any [[cocone]] under a [[diagram]] is a sink; indeed a cocone is precisely a sink indexed by the objects of the domain of the diagram together with a commutativity condition for the arrows in the diagram.
+
+* A source with two morphisms is a [[span]], a sink with two morphisms is a [[cospan]]. 
+
+* A [[terminal object|terminal source]] is a [[dependent product]], while an [[initial object|initial sink]] is a [[dependent sum]]. 
 
 ## Related pages
 
