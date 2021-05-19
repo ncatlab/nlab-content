@@ -75,6 +75,10 @@ In the table below, structures on the left are always understood up to an isomor
 |[[presheaf]]|[[simplicial presheaf]]|
 |[[sheaf]]|[[(∞,1)-sheaf]]|
 |[[sheaf]]|[[simplicial presheaf]] that satisfies the [[homotopy descent]] property|
+|[[topos]]|[[(∞,1)-topos]]|
+|[[elementary topos]]|[[elementary (∞,1)-topos]]|
+|[[2-category]]|[[(∞,2)-category]]|
+|[[n-category]]|[[(∞,n)-category]]|
 
 [[!redirects homotopy coherent analog]]
 [[!redirects homotopy coherent analogue]]
