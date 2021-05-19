@@ -265,6 +265,10 @@ Survey in the context of [[Schur functions]]:
 
 * {#SaganEnc} [[Bruce E. Sagan]], _Schur functions_, in: [[Michiel Hazewinkel]] (ed.), *[[eom|Encyclopaedia of Mathematics]]*, Springer 2002 ([pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf), [[SaganSchurFunctions.pdf:file]])
 
+Specifically for standard Young tableaux:
+
+* [[Ron M. Adin]], [[Yuval Roichman]], *Enumeration of Standard Young Tableaux*, Chapter 14 in: Miklós Bóna, *Handbook of Enumerative Combinatorics*, CRC Press 2015  ([arXiv:1408.4497](https://arxiv.org/abs/1408.4497), [ISBN:9781482220858](https://www.routledge.com/Handbook-of-Enumerative-Combinatorics/Bona/p/book/9781482220858))
+
 
 See also the references at *[[Young tableau]]*.
 
