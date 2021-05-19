@@ -20,6 +20,8 @@
 
 An **infinite product** is a sequence of numbers (usually [[real number|real]] or [[complex number|complex]] $(a_k)_{k\in\mathbb{N}}$ written as $\prod_{k=0}^\infty a_k$.  Like an [[infinite series]], we are interested in knowing whether such a product [[convergence|converges]], and if so, what it converges to.
 
+In a [[cartesian monoidal category]] $C$, let $(G,\cdot)$ be an multiplicative [[semigroup object]], let $(N,0,s)$ be a natural numbers object in $C$, and let $a:N\to G$ be an __sequence object__ of elements in $G$. Then there exists an sequence object $b:N\to G$ called the __infinite product object__ inductively defined by $b(0) = a(0)$ and $b(s(n)) = a(s(n)) \cdot b(n)$. The element $b(n)$ is called the __$n$-th partial product__ of the sequence $a$. 
+
 (Another sort of infinite product is the [[cartesian product]] of an infinite family of [[sets]], or more generally [[objects]] of some [[category]].  For that notion, see [[product]].)
 
 ## Convergence
