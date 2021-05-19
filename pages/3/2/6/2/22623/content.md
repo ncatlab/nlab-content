@@ -253,6 +253,8 @@ This appears as [Sternberg 94 (C.27)](#Sternberg94)
 
 * [[hook-content formula]]
 
+* [[Plancherel measure]]
+
 ## References
 
 ### For standard Young tableaux
