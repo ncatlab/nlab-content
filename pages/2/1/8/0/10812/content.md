@@ -1,5 +1,6 @@
+* [[divisor (ring theory)]]
 
-* [[zero divisor]]
+  * [[zero divisor]]
 
 * [[divisor (algebraic geometry)]]
 
