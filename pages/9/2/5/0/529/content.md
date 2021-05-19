@@ -226,12 +226,10 @@ $$
       \hookrightarrow
     End_{\mathbb{C}}(V)
   $$
-  [[extension|extends]] uniquely to an algebra homomorphism
+  [[extension|extends]] uniquely to an [[algebra homomorphism]]
   $$
     \mathbb{C}[G]
       \overset{ \phi_V }{\longrightarrow} 
-    Aut_{\mathbb{V}}(V) 
-      \hookrightarrow
     End_{\mathbb{C}}(V)
     \,.
   $$
@@ -241,8 +239,6 @@ $$
   $$
     \mathbb{C}[G]
       \overset{ (\phi_V)_{[V]} }{\longrightarrow} 
-    Aut_{\mathbb{V}}(V) 
-      \hookrightarrow
     \underset{
       [V] \in Irreps_{\mathbb{C}}(G)_{/\sim}
     }{\oplus} 
