@@ -208,10 +208,10 @@ by left-invariance and by positive (semi-)definity of the Cayley distance kernel
 
 Regarding $\mathbb{C}[Sym(n)]$ as the [[regular representation]] of $Sym(n)$ it [decomposes into irreps](regular+representation#RegularRepDecomposedIntoIrreps) ([[Specht modules]]) $S^{(\lambda)}$ with multiplicity their dimension.
 
-For $\lambda \in Part(n)$ write
+For $\lambda \in Part(n)$ and $1 \leq i \leq dim\big( S^{(\lambda)}\big)$ write 
 
 $$
-  P^{(\lambda)}
+  P^{(\lambda)}_i
   \;\colon\;
   \mathbb{C}[Sym(n)]
   \longrightarrow
@@ -223,11 +223,11 @@ for the linear projection onto the linear span of
 $$
   \left\{
     \underset{ \sigma \in Sym(n) }{\sum}
-    \bar S^{(\lambda)}_{i j}(\sigma) \sigma
+    \bar S^{(\lambda)}_{k i}(\sigma) \sigma
     \;\in\;
     \mathbb{C}[Sym(n)]
   \right\}
-    _{ 1 \leq i,j \leq dim(S^{(\lambda)}) }
+    _{ 1 \leq k \leq dim(S^{(\lambda)}) }
   \,.
 $$
 
@@ -236,30 +236,34 @@ Thus
 
 $$
   \underset{
-    \lambda \in Part(n)
+    { \lambda \in Part(n) }
+    \atop
+    {1 \leq i_\lambda \leq dim(S^{(\lambda)})}
   }{ \sum }
-  P^{(\lambda)}
+  P^{(\lambda)}_{i_\lambda}
   \;=\;
   id
   \,.
 $$
 
-Notice that each $P^{(\lambda)}\big( \mathbb{C}[Sym(n)]  \big)$ is a left ideal of the group algebra:
+Notice that each $P^{(\lambda)}_{j_\lambda}\big( \mathbb{C}[Sym(n)]  \big)$ is a left ideal of the group algebra:
 
 
 $$
   \begin{aligned}
   \sigma' 
     \;\bullet\;
+  \left(
   \underset{
-    \sigma \in Part(n)
+    \sigma \in Sym(n)
   }{\sum}
   \bar S^{(\lambda)}(\sigma)_{i j}
   \,
   \sigma
+  \right)
   & \;=\;
   \underset{
-    \sigma \in Part(n)
+    \sigma \in Sym(n)
   }{\sum}
   \bar S^{(\lambda)}(\sigma)_{i j}  
   \,
@@ -267,7 +271,7 @@ $$
   \\
   & =
   \underset{
-    \sigma \in Part(n)
+    \sigma \in Sym(n)
   }{\sum}
   \bar S^{(\lambda)}( (\sigma')^{-1} \sigma)_{i j}  
   \,
@@ -275,7 +279,7 @@ $$
   \\
   & \;=\;
   \underset{
-    \sigma \in Part(n)
+    \sigma \in Sym(n)
   }{\sum}
   \underset{ 1 \leq k \leq dim(S^{(\lambda)}) }{\sum}
   S^{(\lambda)}( \sigma' )_{i k}  
@@ -288,12 +292,14 @@ $$
     1 \leq k \leq dim(S^{(\lambda)}) 
   }{\sum}
   S^{(\lambda)}( \sigma' )_{i k}  
+  \left(
   \underset{
-    \sigma \in Part(n)
+    \sigma \in Sym(n)
   }{\sum}
   \bar S^{(\lambda)}( \sigma)_{k j}  
   \,
   \sigma
+  \right)
   \end{aligned}
 $$
 
@@ -304,8 +310,10 @@ $$
   \;\simeq\;  
   \underset{
     { \lambda \in Part(n) }
+    \atop
+    {1 \leq i_\lambda \leq dim(S^{(\lambda)})}
   }{\oplus}
-  P^{(\lambda)}\big( \mathbb{C}[Sym(n)]  \big)
+  P^{(\lambda)}_i\big( \mathbb{C}[Sym(n)]  \big)
 $$
 
 is a decomposition into left ideals.
@@ -313,9 +321,9 @@ is a decomposition into left ideals.
 This implies that for all $A \in \mathbb{C}[Sym(n)]$ we have
 
 $$
-  [P^{(\lambda)}] \cdot [A]
+  [P^{(\lambda)}_{i_\lambda}] \cdot [A]
   \;=\;
-  [A] \cdot [P^{(\lambda)}]
+  [A] \cdot [P^{(\lambda)}_{i_\lambda}]
 $$
 
 Moreover, we have 
@@ -323,9 +331,9 @@ Moreover, we have
 $$
   [e^{- \beta \cdot d_C}] 
     \cdot 
-  [P^{(\lambda)}]
+  [P^{(\lambda)}_{i_\lambda}]
   \;=\;
-  [P^{(\lambda)}]
+  [P^{(\lambda)}_{i_\lambda}]
     \cdot
   [e^{- \beta \cdot d_C}] 
 $$
@@ -336,7 +344,7 @@ Finally, we have
 
 $$
   \left(  
-    P^{(\lambda)}( \bar S^{(\lambda_1)}_{i_1, j_1} ),
+    P^{(\lambda)}_{i_\lambda}( \bar S^{(\lambda_1)}_{i_1, j_1} ),
     \,
     \bar S^{(\lambda_2)}_{i_2, j_2} 
   \right)
@@ -344,31 +352,31 @@ $$
   \left(  
     \bar S^{(\lambda_1)}_{i_1, j_1},
     \,
-    P^{(\lambda)}
+    P^{(\lambda)}_{i_\lambda}
     (
     \bar S^{(\lambda_2)}_{i_2, j_2} 
     )
   \right)  
 $$
 
-hence $[P^{(\lambda)}]^\dagger = [P^{(\lambda)}]$ (by grand Schur orthogonality, see [this Prop.](Cayley+distance+kernel#DualEigenvectorBasis)).
+hence $[P^{(\lambda)}_{i_\lambda}]^\dagger = [P^{(\lambda)}_{i_\lambda}]$ (by grand Schur orthogonality, see [this Prop.](Cayley+distance+kernel#DualEigenvectorBasis)).
 
 
 ## The mixture
 
-Using the above properties of the projectors $[P^{(\lambda)}]$, we observe that each
+Using the above properties of the projectors $[P^{(\lambda)}_{i_\lambda}]$, we observe that each
 
 $$
   \big\langle
     -
-  \big\rangle_{\beta, \lambda}
+  \big\rangle_{\beta, (\lambda, i_\lambda)}
   \;\coloneqq\;
   \frac{1}{ 
-    \big\langle  P^{(\lambda)}(e) \big\rangle_\beta
+    \big\langle  P^{(\lambda)}_{i_\lambda}(e) \big\rangle_\beta
   }
   \,
   \big\langle 
-    P^{(\lambda)}(-)
+    P^{(\lambda)}_{i_\lambda}(-)
   \big\rangle_\beta
 $$
 
@@ -377,7 +385,7 @@ is still a [[state on a star-algebra|state]]:
 $$
   \begin{aligned}
     \big\langle 
-      P^{(\lambda)}( A^\ast \bullet A)
+      P^{(\lambda)}_{i_\lambda}( A^\ast \bullet A)
     \big\rangle_\beta  
     & \;=\;
     \big(
@@ -385,7 +393,7 @@ $$
       ,\,
       [e^{- \beta \cdot d_C}]
         \cdot
-      [P^{(\lambda)}] 
+      [P^{(\lambda)}_{i_\lambda}] 
         \cdot 
       [A]^\dagger 
         \cdot 
@@ -400,9 +408,9 @@ $$
       ,\,
       [e^{- \beta \cdot d_C}]
         \cdot
-      [P^{(\lambda)}] 
+      [P^{(\lambda)}_{i_\lambda}] 
         \cdot
-      [P^{(\lambda)}] 
+      [P^{(\lambda)}_{i_\lambda}] 
         \cdot 
       [A]^\dagger 
         \cdot 
@@ -415,13 +423,13 @@ $$
     \big(
       e
       ,\,
-      [P^{(\lambda)}] 
+      [P^{(\lambda)}_{i_\lambda}] 
         \cdot
       [e^{- \beta \cdot d_C}]
         \cdot
       [A]^\dagger 
         \cdot 
-      [P^{(\lambda)}] 
+      [P^{(\lambda)}_{i_\lambda}] 
         \cdot
       [A]
         \cdot
@@ -434,7 +442,7 @@ $$
       ,\,
       [e^{- \beta \cdot d_C}]
         \cdot 
-      P^{(\lambda)}(A)
+      P^{(\lambda)}_{i_\lambda}(A)
     \big)
     \\
     & \;\geq\; 0
@@ -449,27 +457,31 @@ It follows that we have decomposed our state into a [[convex combination]] of ot
      -
   \big\rangle_\beta
   \;=\;
-  \underset{ \lambda \in Part(n) }{ \sum }
-  p_\lambda
+  \underset{ 
+     { \lambda \in Part(n) }
+     \atop
+    {1 \leq i_\lambda \leq dim(S^{(\lambda)})}
+  }{ \sum }
+  p_{\lambda, i_\lambda}
   \cdot
   \big\langle    
      -
-  \big\rangle_{\beta, \lambda}
+  \big\rangle_{\beta, (\lambda, i_\lambda)}
   \,,
 \]
 
 where
 
 $$
-  p_\lambda
+  p_{\lambda, i_\lambda}
   \;\coloneqq\;
-  \big\langle  P^{(\lambda)}(e) \big\rangle_\beta
+  \big\langle  P^{(\lambda)}_{i_\lambda}(e) \big\rangle_\beta
   \,.
 $$
 
 
-**Conjecture**. The $\langle  - \rangle_{\beta, \lambda}$
+**Conjecture**. The $\langle  - \rangle_{\beta, (\lambda, i_\lambda)}$
 are [[pure states]].
 
-If so, then (eq:TheConvexCombination) exhibits our state as a mixture in which the $\lambda$th pure state appears with probability $p_\lambda$.
+If so, then (eq:TheConvexCombination) exhibits our state as a mixture in which the $\lambda$th pure state appears with probability $p_{\lambda, i_\lambda}$.
 
