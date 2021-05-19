@@ -42,7 +42,9 @@ are the following [[sums]] of [[transpositions]] $(i,j) \in Sym(n) \subset \math
 
 \end{defn}
 
-Here $J_k$ may be understood as the sum of all transpositions in $Sym(k)$ that are not in the [[subgroup]] $Sym(k-1) \subset Sym(k)$.
+([Murphy 81, p. 287 (1 of 11)](#Murphy81), [Murphy 83, p. 259 (2 of 8)](#Murphy83))
+
+Notice that $J_k$ may be understood as the sum of all transpositions in $Sym(k)$ that are not in the [[subgroup]] $Sym(k-1) \subset Sym(k)$.
 
 ## Properties
 
@@ -59,7 +61,7 @@ Write $sYTableaux_n$ for the [[set]] of [[standard Young tableaux]] with $n$ box
   }
 \]
 
-for the canonical [[linear basis]] of Young's [[seminormal representation]].
+for the [[Gelfand-Tsetlin basis]] (Young's [[seminormal representation]]).
 
 We'll notationally suppress the multiplicity index $m$ in the following.
 
@@ -241,6 +243,16 @@ yields:
 
 An alternative derivation of this statement, using the formula for [[Cayley graph spectra]] and the [[hook length formula]]/[[hook-content formula]] is [this Prop.](Cayley+distance+kernel#EigenvaluesInTermsOfJustBoxContent) at *[[Cayley distance kernel]]* ([CSS 21](Cayley+distance+kernel#CSS21)).
 
+
+
+### Projectors
+
+[Murphy 81, p. 291 (5 of 11)](#Murphy81)
+
+[Murphy 83, p. 259 (2 of 8)](#Murphy83)
+
+[MathOverflow:a/151375](https://mathoverflow.net/a/151375/381)
+
 ## References
 
 The Jucys-Murphy elements are independently due to:
@@ -252,6 +264,11 @@ The Jucys-Murphy elements are independently due to:
 and
 
 * {#Murphy81} [[G. E. Murphy]], *A new construction of Young's seminormal representation of the symmetric groups*, Journal of Algebra Volume 69, Issue 2, April 1981, Pages 287-297 (<a href="https://doi.org/10.1016/0021-8693(81)90205-2">doi:10.1016/0021-8693(81)90205-2</a>)
+
+* {#Murphy83} [[G. E. Murphy]], *The idempotents of the symmetric group and Nakayama's conjecture*, Journal of Algebra Volume 81, Issue 1, March 1983, Pages 258-265 ([pdf](https://core.ac.uk/download/pdf/82692868.pdf))
+
+* {#Murphy92} [[G. E. Murphy]], *On the representation theory of the symmetric groups and associated Hecke algebras*, J. Algebra 152 (1992) 492–513 ([pdf](https://core.ac.uk/download/pdf/82422274.pdf), <a href="https://doi.org/10.1016/0021-8693(92)90045-N">doi:10.1016/0021-8693(92)90045-N</a>))
+
 
 (According to [Vershik-Okounkov 04, Footnote 2](representation+theory+of+the+symmetric+group#VershikOkounkov04), [Jucys 74](#Jucys74) "remained unnoticed" until [Murphy 81](#Murphy81) first re-discovered the results, and then Jucys' paper. In fact [Jucys 71](#Jucys71), which must have the actual proofs, seems to remain electronically unavailable.)
 
