@@ -34,6 +34,10 @@ From [Devitt, Nemoto & Munro 2009](#DevittNemotoMunro09):
 
 > Starting in 1995, several papers appeared, in rapid succession, proposing codes which were appropriate to perform error correction on quantum data ([Sho95](#Shor95); [Ste96a](#Steane96); [CS96](#CalderbankShor96);  [LMPZ96](#LMPZ96);  [BSW96](#BDSW96)). This  was a key theoretical development needed to convince the general community that quantum computation was indeed a possibility. Since this initial introduction, the progress in this field has been extensive.
 
+From [Zhu & Cross 20](#ZhuCross20):
+
+> Although we are currently in an era of quantum computers with tens of noisy qubits, it is likely that a decisive, practical quantum advantage can only be achieved with a scalable, fault-tolerant, error-corrected quantum computer. Therefore, development of quantum error correction is one of the central themes of the next five to ten years. 
+
 Specifically on [[holographic tensor network|holographic quantum error correcting codes]] (see references [below](#ReferencesViaHolographicTensorNetworks)):
 
 From [CDCW 21](#CDCW21):
@@ -341,7 +345,7 @@ on [[quantum observables]]:
 * Cédric Bény, Achim Kempf, [[David W. Kribs]], _Quantum Error Correction of Observables_, Phys. Rev. A 76, 042303 (2007) ([arXiv:0705.1574](https://arxiv.org/abs/0705.1574))
 
 
-Introductions:
+Introduction and survey
 
 * {#DevittNemotoMunro09} [[Simon J. Devitt]], Kae Nemoto, William J. Munro, _Quantum Error Correction for Beginners_, Rep. Prog. Phys. 76 (2013) 076001 ([arXiv:0905.2794](https://arxiv.org/abs/0905.2794))
 
@@ -353,6 +357,7 @@ Introductions:
 
 * Joschka Roffe, *Quantum Error Correction: An Introductory Guide*, Contemporary Physics 2019 ([arXiv:1907.11157](https://arxiv.org/abs/1907.11157))
 
+* {#ZhuCross20} Guanyu Zhu, Andrew Cross, *[Hardware-aware approach for fault-tolerant quantum computation](https://www.ibm.com/blogs/research/2020/09/hardware-aware-quantum/)*, IBM Research Blog, September 2, 2020
 
 See also:
 
@@ -362,9 +367,15 @@ In the context of [[quantum secret sharing]]:
 
 * {#CleveGottesmanLo99} Richard Cleve, Daniel Gottesman, Hoi-Kwong Lo, *How to share a quantum secret*, Phys. Rev. Lett. 83 (1999) 648-651 ([arXiv:quant-ph/9901025](https://arxiv.org/abs/quant-ph/9901025))
 
-Implementation in [[experiment]]:
+Realization in [[experiment]]:
 
 * D. G. Cory, M. D. Price, W. Maas, [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojchiek H. Zurek]], T. F. Havel, and S. S. Somaroo, *Experimental Quantum Error Correction*, Phys. Rev. Lett. 81, 2152 (1998) ([doi:10.1103/PhysRevLett.81.2152](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.2152))
+
+and via methods from [[topological quantum computation]]:
+
+* Daniel Nigg, Markus Mueller, Esteban A. Martinez, Philipp Schindler, Markus Hennrich, Thomas Monz, Miguel A. Martin-Delgado, Rainer Blatt, 
+
+  *Experimental Quantum Computations on a Topologically Encoded Qubit*, Science 18 Jul 2014: Vol. 345, Issue 6194, pp. 302-305 ([arXiv:1403.5426](https://arxiv.org/abs/1403.5426), [doi:10.1126/science.1253742](https://science.sciencemag.org/content/345/6194/302))
 
 On (in-)compatibility of quantum error correction with universality of quantum gates ([[Eastin-Knill theorem]]):
 
