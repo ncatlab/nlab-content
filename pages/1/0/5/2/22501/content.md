@@ -73,6 +73,8 @@ Here the [[direct sum]] is indexed by [[partitions]] $\lambda$ of $n$ by $k$ [[p
 
 * [[representation theory of the symmetric group]]
 
+* [[Schur-Weyl measure]]
+
 ## References 
 
 Review:
