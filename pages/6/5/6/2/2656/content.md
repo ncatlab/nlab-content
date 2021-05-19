@@ -176,13 +176,20 @@ A generalization of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be tw
 
 ## Related concepts
 
-* [[semistandard Young tableau]], [[hook-content formula]]
+* [[semistandard Young tableau]], 
+
+* [[hook length formula]], [[hook-content formula]]
 
 * [[Schur polynomial]]
 
 * [[representation theory of the symmetric group]]
 
 * [[representation theory of the general linear group]]
+
+* [[Schur-Weyl duality]]
+
+* [[Schur-Weyl measure]]
+
 
 ## References ##
 
