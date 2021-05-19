@@ -46,6 +46,12 @@
 
 ## References
 
+Textbook account:
+
+* {#Winitzki} [[Sergei Winitzki]], *The Science of Functional Programming -- A tutorial, with examples in Scala* ([leanpub:sofp](https://leanpub.com/sofp))
+
+See also:
+
 * Wikipedia, _[Functional programming](https://en.wikipedia.org/wiki/Functional_programming)_
 
 * {#Backus1977} John Backus, _Can programming be liberated from the von Neumann style? A functional style and its algebra of programs_, Communications of the ACM Volume 21 Number 8, 1978 ([pdf](http://www.thocp.net/biographies/papers/backus_turingaward_lecture.pdf))
