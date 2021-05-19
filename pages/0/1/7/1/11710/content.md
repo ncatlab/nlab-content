@@ -77,6 +77,8 @@ Closed points are at the heart of the definition of _[[schemes]]_. A scheme $X$ 
 
 ## Related concepts
 
+* [[minimal ideal]]
+
 * [[residue field]]
 
 ## References
