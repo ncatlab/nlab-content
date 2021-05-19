@@ -59,6 +59,8 @@ $$\dot - \; : \mathbb{N} \times \mathbb{N} \rightarrow \mathbb{N}.$$
 
 $$- \; :\mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}.$$
 
+* Subtraction in a [[boolean ring]] is the [[symmetric difference]], and is the same as [[addition]] due to a boolean ring having a [[characteristic]] of 2. 
+
 ## References
 
 ...
