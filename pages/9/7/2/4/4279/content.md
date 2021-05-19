@@ -436,11 +436,16 @@ See at *[[Gleason's theorem]]*.
 
 * {#Meyer95} [[Paul-André Meyer]], Section I.1.1 in: *Quantum Probability for Probabilists*,  Lecture Notes in Mathematics **1538**, Springer 1995 ([doi:10.1007/BFb0084701](https://link.springer.com/book/10.1007/BFb0084701))
 
-* {#Gleason09} [[Jonathan Gleason]], _The $C^\ast$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
+* {#Gleason09} Jonathan Gleason, _The $C^\ast$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
 
 With an eye towards [[density matrices]] and their [[entropy]]:
 
 * Paolo Facchi, Giovanni Gramegna, Arturo Konderak, around (6) in: *Entropy of quantum states* ([arXiv:2104.12611](https://arxiv.org/abs/2104.12611), [spire:1860877](https://inspirehep.net/literature/1860877))
+
+With an eye towards [[Gelfand-Tsetlin algebra|Gelfand-Tsetlin algebras]] and in the generality of [[conditional expectation values]]:
+
+* [[Anatoly Vershik]], Def. 1 in: *Gel'fand-Tsetlin algebras, expectations, inverse limits, Fourier analysis*, pp. 619 in: [[Pavel Etingof]], [[Vladimir S. Retakh]], [[Isadore Singer]] (eds.) *The Unity of Mathematics* In Honor of the Ninetieth Birthday of [[I. M. Gelfand]], ([arXiv:math/0503140](https://arxiv.org/abs/math/0503140), [ISBN:978-0-8176-4467-3](https://www.springer.com/gp/book/9780817640767))
+
 
 ### Original articles
 
