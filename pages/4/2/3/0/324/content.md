@@ -92,6 +92,9 @@ If $V$ has a terminal object, $pt$, then cospans from $pt$ to itself are [[bi-po
 * the [cograph of a function](http://ncatlab.org/nlab/show/graph+of+a+function#cograph)
 * the [[cograph of a functor]]
 
+* [[sink]], [[cosink]]
+
+* [[product]], [[coproduct]]
 
 ##References
 
