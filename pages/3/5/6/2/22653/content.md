@@ -248,7 +248,7 @@ and
 
 * {#Murphy81} [[G. E. Murphy]], *A new construction of Young's seminormal representation of the symmetric groups*, Journal of Algebra Volume 69, Issue 2, April 1981, Pages 287-297 (<a href="https://doi.org/10.1016/0021-8693(81)90205-2">doi:10.1016/0021-8693(81)90205-2</a>)
 
-(According to [Vershik-Okounkov 04, Footnote 2](representation+theory+of+the+symmetric+group#VershikOkounkov04) [Jucys 74](#Jucys74) "remained unnoticed" until [Murphy 81](#Murphy81) first re-discovered the results, and then Jucys' paper. In fact [Jucys 71](#Jucys71), which must have the actual proofs, seems to remain electronically unavailable.)
+(According to [Vershik-Okounkov 04, Footnote 2](representation+theory+of+the+symmetric+group#VershikOkounkov04), [Jucys 74](#Jucys74) "remained unnoticed" until [Murphy 81](#Murphy81) first re-discovered the results, and then Jucys' paper. In fact [Jucys 71](#Jucys71), which must have the actual proofs, seems to remain electronically unavailable.)
 
 
 Review:
