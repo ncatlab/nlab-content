@@ -7,7 +7,7 @@
 
 The _Hasse-Weil zeta function_ is a [[zeta function]]/[[L-function]] associated with [[algebraic varieties]] over a [[number field]] $K$.
 
-Specifically on the [[spectrum of a commutative ring|spectrum]] $Spec(\mathcal{O}_K)$ of the [[ring of integers]] of $K$ it redurces to the [[Dedekind zeta function]] of $K$.
+Specifically on the [[spectrum of a commutative ring|spectrum]] $Spec(\mathcal{O}_K)$ of the [[ring of integers]] of $K$ it reduces to the [[Dedekind zeta function]] of $K$.
 
 ## Properties
 
