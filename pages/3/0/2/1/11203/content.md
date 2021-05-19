@@ -52,6 +52,11 @@ See also:
 
 * Wikipedia, _[Meissner effect](https://en.wikipedia.org/wiki/Meissner_effect)_
 
+Textbook account in the context of [[quantum materials]] and [[topological insulators]]:
+
+* [[Tudor D. Stanescu]], Section II.5 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
+
+
 Introducing [[Landau-Ginzburg models]] in [[superconductivity]]:
 
 * [[Vitaly Ginzburg]], [[Lev Landau]], _On the Theory of Superconductivity_,  reprinted In: _On Superconductivity and Superfluidity_ Springer (2009) ([doi:1007/978-3-540-68008-6_4](https://doi.org/10.1007/978-3-540-68008-6_4))
