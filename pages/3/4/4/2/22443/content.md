@@ -2680,6 +2680,16 @@ $$
   \,.
 $$
 
+By (eq:EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux) in
+Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl}
+
+$$  
+  p_{\lambda, i}
+  \;=\;
+  \tfrac{\left\vert ssYT_{\lambda}(N)\right\vert}{N^n}
+  \,.
+$$
+
 As a sanity check, we have unit total probability:
 
 $$
