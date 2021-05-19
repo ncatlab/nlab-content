@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -42,6 +41,8 @@
 * [[phase transition]]
 
 * [[thermodynamic limit]]
+
+* [[quantum material]]
 
 ## References
 
