@@ -152,6 +152,11 @@ See also:
 
 * Wikipedia, _[star-algebra](https://en.wikipedia.org/wiki/*-algebra)_
 
+Discussion for [[group algebras]]:
+
+* Antonio Giambruno, Cesar Polcino Milies and Sudarshan K. Sehgal, *Star-group identities on units of group algebras: The non-torsion case*, Forum Mathematicum Volume 30 Issue 1 ([doi:10.1515/forum-2016-0266](https://doi.org/10.1515/forum-2016-0266))
+
+
 Discussion of the Example \ref{StarAlgebraOfHorizontalChordDiagrams} of [[horizontal chord diagrams]]:
 
 * {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
