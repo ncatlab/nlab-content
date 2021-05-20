@@ -500,6 +500,8 @@ PS:  You\'re right about the display maps; that part\'s not so strange.  Maybe i
 
 (to be written...)
 
+Relation between [[identity types]] and [[path space objects]] in a [[category with weak equivalences]]. 
+
 ### Higher-categorical semantics
 
 * [[homotopy type theory]]
@@ -522,7 +524,7 @@ The following particular type theories are important enough to (potentially) hav
 
 * the [[internal logic]] of various kinds of categories, including the [[Mitchell-Benabou language]] of an [[elementary topos]]
 
-* the [[internal logic of a 2-topos]]
+* the [[internal logic of a (2,1)-topos]]
 
 * the [[internal logic of an (∞,1)-topos]]
 
