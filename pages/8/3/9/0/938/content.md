@@ -47,7 +47,7 @@ For $X, Y \in $ [[Top]] or $\in $ [[sSet]] two [[topological spaces]] or [[simpl
 
    in [[Set]];
 
-1. for all all [[points]] $x \in X$ and for all $(1 \leq n) \in \mathbb{N}$ $f$ induces an isomorphism on [[homotopy groups]]
+1. for all [[points]] $x \in X$ and for all $(1 \leq n) \in \mathbb{N}$ $f$ induces an isomorphism on [[homotopy groups]]
 
    $$
      \pi_n(f,x) \colon \pi_n(X,x) \stackrel{\simeq}{\to} \pi_n(Y,f(x))
