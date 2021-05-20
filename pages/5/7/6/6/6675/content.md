@@ -15,7 +15,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -27,6 +26,40 @@ In _topological quantum computation_ one aims to make use of [[quantum systems]]
 One approach to potentially realizing topological quantum computation in practice is via [[anyons]] in the [[quantum Hall effect]] and effectively described by some kind of [[Chern-Simons theory]].
 
 For the time being see at _[[quantum computation]]_ for more.
+
+\linebreak
+
+Topological [[quantum gates]] as [[braid group]]-elements:
+
+\begin{imagefromfile}
+    "file_name": "QuantumBraidGateI.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": -10,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Lahtinen & Pachos 17](#LahtinenPachos17)"
+\end{imagefromfile}
+
+\linebreak
+
+
+\begin{imagefromfile}
+    "file_name": "QuantumBraidGateII.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": -10,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Rouabah 20](#Rouabah20)"
+\end{imagefromfile}
+
 
 ## Related concepts
 
