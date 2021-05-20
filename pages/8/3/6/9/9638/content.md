@@ -150,6 +150,8 @@ Introduction and survey:
 
 * *[Quantum Computing Review Q4 2020](https://www.idquantique.com/quantum-computing-review-q4-2020/)*, IDQ January 2021
 
+* [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
+
 * Jiajun Chen, *Review on Quantum Communication and Quantum Computation*,  Journal of Physics: Conference Series, Volume 1865, 2021 International Conference on Advances in Optics and Computational Sciences (ICAOCS) 2021 21-23 January 2021, Ottawa, Canada ([doi:10.1088/1742-6596/1865/2/022008](https://iopscience.iop.org/article/10.1088/1742-6596/1865/2/022008))
 
 * David Matthews,  *How to get started in quantum computing*, Nature **591** March  2021 ([nature:d41586-021-00533-x](https://www.nature.com/articles/d41586-021-00533-x), [pdf](https://media.nature.com/original/magazine-assets/d41586-021-00533-x/d41586-021-00533-x.pdf))
