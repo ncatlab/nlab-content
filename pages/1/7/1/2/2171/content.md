@@ -467,14 +467,17 @@ Classical references are
 
 * [[R. H. Fox]], L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) pp.119-126. [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
 
-A recent monograph is
+Textbook accounts:
 
-* C. Kassel, V. Turaev, _Braid Groups_ , GTM **247** Springer Heidelberg 2008.
+* [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
 See also
 
 * Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
 
+On the [[group homology]] and [[group cohomology]] of braid groups:
+
+* [[Vladimir Vershinin]], *Homology of Braid Groups and their Generalizations*, Banach Center Publications (1998) **42** 1 421-446 ([pdf](https://hopf.math.purdue.edu/Vershinin/hobr.pdf), [dml:208821](https://eudml.org/doc/208821))
 
 For orderings of the braid group see
 
