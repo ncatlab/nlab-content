@@ -55,6 +55,11 @@ The following systematic book written by a several authors offers pretty rigorou
 
 * Sachin S. Shetty, Charles A. Kamhoua, Laurent L. Njilla (eds.) _Blockchain for distributed systems security_, 324 pp. IEEE Press, SMTE Books 2019
 
+See also:
+
+* [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
+
+
 Some key papers in [[zoranskoda:distributed consensus]] include
 
 * M. J. Fischer, N. Lynch, M. S. Paterson, _Impossibility of distributed con-
@@ -85,4 +90,8 @@ For an extended list of references see [[zoranskoda:blockchain]] (at zoranskoda)
 
 category: computer science, applications
 
+[[!redirects blockchains]]
+
 [[!redirects proof of work]]
+
+
