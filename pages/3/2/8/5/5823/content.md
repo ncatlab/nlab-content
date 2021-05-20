@@ -5,26 +5,29 @@ He is currently based at Indiana University ([Home page](https://math.indiana.ed
 
 ## Selected writings
 
-*  Quantum invariants of knots and 3-manifolds.
-Second revised edition, de Gruyter Studies in Mathematics, vol. 18, Walter de Gruyter and Co., Berlin, 2010.
-
-*  _Homotopy Quantum Field Theory_ ,
-EMS Tracts in Math.10, European Math. Soc. Publ. House, Zurich 2010.
-
-  (on [[HQFT|homotopy quantum field theory]])
-
 * _On certain enumeration problems in two-dimensional topology_ , 
 Math. Res. Lett.16(3) (2009), 515-529.
 
-* with [[C. Kassel]], _Braid groups_ ,
-Graduate Texts in Mathematics 247, Springer, 2008.
 
-  (on [[braid group]]s)
+On [[knot theory]] and [[3-manifolds]]:
+
+*  *Quantum invariants of knots and 3-manifolds*, Second revised edition, de Gruyter Studies in Mathematics, vol. 18, Walter de Gruyter and Co., Berlin, 2010.
+
+On  [[HQFT|homotopy quantum field theory]]:
+
+*  _Homotopy Quantum Field Theory_ , EMS Tracts in Math.10, European Math. Soc. Publ. House, Zurich 2010.
+
+
+
+On [[Dijkgraaf-Witten theory]]:
 
 * Dijkgraaf-Witten invariants of surfaces and projective representations of groups, 
 J. Geom. Phys.  57(11)  (2007), 2419-2430.
 
-  (on [[Dijkgraaf-Witten theory]])
+
+On [[braid groups]]:
+
+* [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
 
 ## Related $n$Lab entries
