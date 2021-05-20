@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -232,32 +230,30 @@ Natural Sci. and Math., 15(1-2):11&#8211;25, 1975.
 
 * {#Harding08} [[John Harding]], _A link between quantum logic and categorical quantum mechanics_, Int J Theor Phys (2009) 48: 769&#8211;802
 
-* [[Chris Heunen]], [[Bart Jacobs]], _Quantum Logic in Dagger Kernel Categories_, Order, July 2010, Volume 27, Issue 2, pp 177-212,  ([arXiv:0902.2355](http://arxiv.org/abs/0902.2355))
- {#HeunenJacobs09}
+* {#HeunenJacobs09} [[Chris Heunen]], [[Bart Jacobs]], _Quantum Logic in Dagger Kernel Categories_, Order, July 2010, Volume 27, Issue 2, pp 177-212,  ([arXiv:0902.2355](http://arxiv.org/abs/0902.2355))
+ 
 
-* Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
+* {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
 Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
-  {#CCGP09}
+  
 
-* [[Samson Abramsky]], _Temperley-Lieb Algebra: From Knot Theory to Logic and Computation via Quantum Mechanics_, In Goong Chen, Louis Kauffman,
-and Sam Lomonaco (eds.), _Mathematics of Quantum Computing and Technology_,
-pages 415&#8211;458. Taylor and Francis, 2007. ([arXiv:0910.2737](http://arxiv.org/abs/0910.2737))
+* [[Samson Abramsky]], _Temperley-Lieb Algebra: From Knot Theory to Logic and Computation via Quantum Mechanics_, In Goong Chen, [[Louis Kauffman]],
+and [[Samuel Lomonaco]] (eds.), _Mathematics of Quantum Computing and Technology_, pages 415&#8211;458. Taylor and Francis, 2007. ([arXiv:0910.2737](http://arxiv.org/abs/0910.2737))
 
-* [[Jean-Yves Girard]], _[[Lectures on Logic]]_, European Mathematical Society 2011
- {#Girard11}
+* {#Girard11} [[Jean-Yves Girard]], _[[Lectures on Logic]]_, European Mathematical Society 2011
+ 
 
 
-* Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
- {#LagoFaffian12}
+* {#LagoFaffian12} Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
+ 
 
-* [[Bob Coecke]], [[Chris Heunen]], [[Aleks Kissinger]], _Compositional Quantum Logic_ ([arXiv:1302.4900](http://arxiv.org/abs/1302.4900))
- {#CoeckeHeunenKissinger13}
+* {#CoeckeHeunenKissinger13} [[Bob Coecke]], [[Chris Heunen]], [[Aleks Kissinger]], _Compositional Quantum Logic_ ([arXiv:1302.4900](http://arxiv.org/abs/1302.4900))
+ 
 
 That therefore in particular [[categories of cobordisms]] (the domains of [[FQFT|functorial quantum field theory]]) interpret quantum logic qua [[linear logic]] has been highlighted in 
 
-* [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of
-multiplicative connectives_, Mathematical Structures in Computer Science / Volume 15 / Issue 06 / December 2005, pp 1151 - 1178
- {#Slavnov05}
+* {#Slavnov05} [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of multiplicative connectives_, Mathematical Structures in Computer Science / Volume 15 / Issue 06 / December 2005, pp 1151 - 1178
+ 
 
 * {#BaezStay09} [[John Baez]], [[Mike Stay]], *Physics, topology, logic and computation: a rosetta stone*, ([arxiv/0903.0340](http://arxiv.org/abs/0903.0340)); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174 ([doi:10.1007/978-3-642-12821-9](https://link.springer.com/book/10.1007/978-3-642-12821-9))
  
@@ -269,8 +265,8 @@ Discussion of [[Fock space]]-type free [[quantum field theory]] in [[linear logi
 
 The proposal that the [[internal logic]] of [[Bohr toposes]] is a good notion of quantum logic is made in
 
-* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_, Comm. Math. Phys. 291:63&#8211;110, 2009, free access [doi](http://dx.doi.org/10.1007/s00220-009-0865-6), [arXiv:0709.4364](http://arxiv.org/abs/0709.4364)
- {#HeunenLandsmanSpitters07}
+* {#HeunenLandsmanSpitters07} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_, Comm. Math. Phys. 291:63&#8211;110, 2009, free access [doi](http://dx.doi.org/10.1007/s00220-009-0865-6), [arXiv:0709.4364](http://arxiv.org/abs/0709.4364)
+ 
 
 * [[Steve Vickers]], slides from Midland Grad. School 2010, quantum topos theory, [web](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010), most relevant part IV: [pdf](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010/slides4.pdf)
 
