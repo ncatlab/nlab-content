@@ -36,7 +36,7 @@ Tensor products of [[abelian groups]] were defined by [[Hassler Whitney]] in 193
 
 Let [[Ab]] be the collection of [[abelian groups]], regarded as a [[multicategory]] whose [[multimorphisms]] are the [[multilinear maps]] $A_1, \cdots, A_n \to B$.
 
-The [[tensor product]] $A, B \mapsto A \otimes B$ in this multicategory is the **tensor product of abelian groups.
+The [[tensor product]] $A, B \mapsto A \otimes B$ in this multicategory is the **tensor product of abelian groups**.
 
 =--
 
@@ -229,6 +229,8 @@ where $(-,-)$ denotes the [[greatest common divisor]].
 A proof is spelled out for instance as ([Conrad, theorem 4.1](#Conrad)).
 
 ## Related concepts
+
+* [[tensor product of commutative monoids]]
 
 * [[tensor product of chain complexes]]
 
