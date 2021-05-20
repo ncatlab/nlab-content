@@ -25,12 +25,11 @@ $$
 $$
 
 
-## As a functor
-
-The construction of pushforward measures is how one can make the [[Giry monad]], or other [[measure monads]], functorial. Given a measurable (or continuous, etc.) map $f:X\to Y$, the pushforward gives a well-defined, measurable map $P X\to P Y$ (where $P$ denotes the [[Giry monad]]), making $P$ into a [[functor]].
 
 
 ## Properties
+
+### General 
 
 * The pushforward of a [[τ-additive measure]] along a [[continuous map]] is again τ-additive.
 
@@ -38,16 +37,44 @@ The construction of pushforward measures is how one can make the [[Giry monad]],
 
 * The pushforward measure along a [[product]] projection is called a [[marginal measure]].
 
+### Relation to entropy
+
+\begin{prop}\label{EntropyDoesNotIncreaseUnderPushforward}
+  **([[entropy]] does not increase under [[pushforward measure|pushforward]])**
+  Let $f \colon X \longrightarrow Y$ be a [[measurable function]] between [[measure spaces]], and let $\mu$ be a [[probability distribution]] on $X$. Then the [[entropy]] of $\mu$ is larger or equal to that of its [[pushforward measure|pushforward]] distribution $f_\ast \mu$:
+
+$$
+  S(\mu) 
+  \;\geq\;
+  S
+  \big(
+    f_\ast(\mu)
+  \big)
+  \,.
+$$
+
+\end{prop}
+
+(e.g. [Austin, Prop. 2.7](#Austin))
+
+### Relation to the Giry monad
+
+The construction of pushforward measures is how one can make the [[Giry monad]], or other [[measure monads]], [[functor|functorial]]. Given a measurable (or continuous, etc.) map $f \colon X\to Y$, the pushforward gives a well-defined, measurable map $P X\to P Y$ (where $P$ denotes the [[Giry monad]]), making $P$ into a [[functor]].
+
 
 ## Related concepts
 
 * [[Borel measure]], [[Radon measure]], [[τ-additive measure]]
+
 * [[monads of probability, measures, and valuations]]
+
 * [[Giry monad]]
 
 * [[conditional expectation]]
 
+* [[pullback of a function]]
 
+* [[pullback in cohomology]]
 
 
 
@@ -59,6 +86,10 @@ The construction of pushforward measures is how one can make the [[Giry monad]],
 See also
 
 * Wikipedia, _[Pushforward measure](https://en.wikipedia.org/wiki/Pushforward_measure)_
+
+In relation to [[entropy]]:
+
+* {#Austin} Tim D. Austin, *Entropy and Sinai’s Theorem* ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.135.8492&rep=rep1&type=pdf), [[AustinEntropyAndSinaiTheorem.pdf:file]])
 
 
 [[!redirects pushforward measures]]
