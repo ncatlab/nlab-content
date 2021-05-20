@@ -13,10 +13,11 @@ The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] 
 
 Further discussion:
 
-* Samuel J. Lomonaco Jr., [[Louis Kauffman]], _Topological Quantum Computing and the Jones Polynomial_, Proc. SPIE 6244, Quantum Information and Computation IV, 62440Z (12 May 2006) ([arXiv:quant-ph/0605004](https://arxiv.org/abs/quant-ph/0605004))
+* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*,  New Journal of Physics, Volume 6, January 2004 ([arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090), [doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134))
+
+* [[Samuel J. Lomonaco]], [[Louis Kauffman]], _Topological Quantum Computing and the Jones Polynomial_, Proc. SPIE 6244, Quantum Information and Computation IV, 62440Z (12 May 2006) ([arXiv:quant-ph/0605004](https://arxiv.org/abs/quant-ph/0605004))
 
 * Chetan Nayak, Steven H. Simon, [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
-
 
 * D. Melnikov, A. Mironov, S. Mironov, A. Morozov, An. Morozov, _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 ([arXiv:1703.00431](https://arxiv.org/abs/1703.00431), [doi:10.1016/j.nuclphysb.2017.11.016](https://doi.org/10.1016/j.nuclphysb.2017.11.016))
 
@@ -33,6 +34,8 @@ Further review:
 * [[Eric Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
 * Bernard Field, Tapio Simula, _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology 2018 ([arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2))
+
+
 
 Realization in [[experiment]]:
 
