@@ -33,7 +33,7 @@ $$
 be the [[forgetful functor]] from the category [[CMon]] of commutative monoids, to the category [[Set]] of sets. This has a [[left adjoint]] [[free construction]]:
 
 $$
-  \mathbb{Z}[-] \colon Set \longrightarrow CMon
+  \mathbb{N}[-] \colon Set \longrightarrow CMon
   \,.
 $$
 
@@ -96,7 +96,7 @@ $$
 
 For $S \in $ [[Set]], the __monoid of formal linear combinations__ $\mathbb{N}[S]$ is the 
 [[monoid]] whose underlying [[set]] is that of formal linear combinations, 
-def. \ref{FormalLinearCombination}, and whose group operation is 
+def. \ref{FormalLinearCombination}, and whose monoid operation is 
 the pointwise addition in $\mathbb{N}$:
 
 $$
@@ -124,7 +124,7 @@ monoid of formal linear combinations, def. \ref{MonoidOfFormalLinearCombinations
 For $S$ a set, the free commutative monoid $\mathbb{N}[S]$ is the [[biproduct]] in [[CMon]] of ${|S|}$-copies of $\mathbb{N}$ with itself:
 
 $$
-  \mathbb{ZlN}[S] \simeq \oplus_{s \in S} \mathbb{N}
+  \mathbb{N}[S] \simeq \oplus_{s \in S} \mathbb{N}
   \,.
 $$
 
