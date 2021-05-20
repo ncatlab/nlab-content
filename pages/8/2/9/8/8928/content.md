@@ -227,6 +227,19 @@ Black holes in [[supergravity]]:
 
 * Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
 
+### Fat black holes
+
+Discussion of black holes whose Schwarzschild radius is larger than the [[KK-compactification]]-scale:
+
+* [[Juan Maldacena]], [[Leonard Susskind]], *D-branes and Fat Black Holes*, Nucl. Phys.B475:679-690 (1996) ([arXiv:hep-th/9604042](https://arxiv.org/abs/hep-th/9604042))
+
+* E. Halyo, [[Arvind Rajaraman]], [[Leonard Susskind]], *Braneless Black Holes*, Phys. Lett.B392:319-322 (1997) ([arXiv:hep-th/9605112](https://arxiv.org/abs/hep-th/9605112))
+
+* A.A. Bytsenko, S.D. Odintsov, p. 8 of: *Statistical entropy of near-extremal and fundamental black p-branes*, Prog. Theor. Phys. 98:987-1003 (1997) ([arXiv:hep-th/9611151](https://arxiv.org/abs/hep-th/9611151))
+
+
+
+
 ### Discussion in BFSS matrix theory
 
 Discussion of black holes via the [[BFSS matrix model]] includes the following:
