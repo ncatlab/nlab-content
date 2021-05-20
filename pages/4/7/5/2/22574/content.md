@@ -15,7 +15,9 @@
 
 ## Idea
 
-A notion of [[entropy]]. (...)
+A notion of [[entropy]]. 
+
+In the context of [[probability theory]], the **min-entropy** of a discrete probability distribution is the negative [[logarithm]] of the probability of the most likely outcome. It is never greater than the ordinary [entropy](entropy#entropy_of_a_partition_of_a_discrete_probability_space) of that distribution.
 
 For finite [[quantum systems]] with [[density matrix]] $\rho$, the min-entropy is the [[logarithm]] of the inverse of its [[maximum]] [[eigenvalue]]:
 
@@ -32,6 +34,10 @@ $$
 $$
 
 (see e.g. [Chen 19, Def. 5.2.2](#Chen19)).  Here, $\sigma(\rho)$ is the [[operator spectrum]] of $\rho$, which (in the finite-dimensional case) is the set of eigenvalues.
+
+## Related entries
+
+* [[max-entropy]]
 
 
 ## References
