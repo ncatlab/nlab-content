@@ -2231,6 +2231,7 @@ is a homomorphism of complex star-algebras.
 \linebreak
 
 #### The state
+  {#TheCayleyState}
 
 For 
 
@@ -2627,8 +2628,9 @@ This must hold because the $P^{(\lambda)}_{i_\lambda}(\mathbb{C}[Sym(n)])$ are [
 But this means that (eq:TheConvexCombination) exhibits our state as a [[mixed state|mixture]] in which the $\lambda$th pure state appears with probability $p_{\lambda, i_\lambda}$.
 
 #### The probability distribution
+  {#TheCayleyStateProbabilityDistribution}
 
-Now just to express these probabilities more explicitly:
+Now to express these probabilities more explicitly:
 
 First observe the expansion of the neutral element in our eigenvector basis, evident from [[Schur orthogonality]]:
 
@@ -2677,16 +2679,6 @@ $$
   \;=\;
   \frac{\chi^{(\lambda)}(e)}{n!} 
   EigVals[e^{- \beta \cdot d_C}]
-  \,.
-$$
-
-By (eq:EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux) in
-Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl}
-
-$$  
-  p_{\lambda, i}
-  \;=\;
-  \tfrac{\left\vert ssYT_{\lambda}(N)\right\vert}{N^n}
   \,.
 $$
 
@@ -2746,6 +2738,58 @@ $$
     1
   \end{aligned}
 $$
+
+In fact, by (eq:EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux) in
+Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} we have 
+
+\[
+  \label{ProbabilitiesCountingSemistandardYoungTableaux}
+  p_{\lambda, i}
+  \;=\;
+  \tfrac
+    {\left\vert ssYT_{\lambda}(N)\right\vert}
+    {N^n}
+  \,.
+\]
+
+{#SchurWeylMeasure} If follows that the [[pushforward measure|pushforward]] of this probality distribution along the forgetful function
+
+$$
+  sYTableaux_n
+  \overset{ q }{\longrightarrow}
+  YDiagrams_n
+$$
+
+is 
+
+$$
+  q_\ast
+  p
+  \;:\;
+  \lambda \;\mapsto\;
+  \frac{
+    \left\vert
+      sYTableaux_\lambda
+    \right\vert
+    \cdot
+    \left\vert
+     ssYTableaux_\lambda(N)
+    \right\vert
+  }
+  {N^n}
+  \;=\;
+  \frac{
+    dim\big(S^{(\lambda)}\big)
+    \cdot
+    dim\big(V^{(\lambda)}\big)
+  }
+  {N^n}
+  \,.
+$$
+
+This is the [[Schur-Weyl measure]].
+
+
 
 
 #### The Cayley entropy
