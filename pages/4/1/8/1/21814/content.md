@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a [[brane]] of [[codimension]] 2; such  as a [[cosmic strings]] in 4-dimensional [[spacetime]] or a [[D7-brane]] in [[type IIB string theory]].
+A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a [[brane]] of [[codimension]] 2; such  as a [[cosmic strings]] in 4-dimensional [[spacetime]] or a [[D7-brane]] in [[type IIB string theory]] or the [[3-brane in 6d]].
 
 ## Related concepts
 
