@@ -28,6 +28,10 @@ A _[[series]]_ is just a [[sequence]].
 
 But one says _series_ instead of _sequence_ when one is interested in studying its partial [[sums]]. In particular it means something different to say that a series _converges_ than to say that a sequence converges. The series $n\mapsto a_n$ converges if and only if the sequence $n\mapsto \sum_{i\lt n}a_i$ converges. 
 
+### Action and module objects
+
+A [[module object]] in a [[monoidal category]] $C$ is the same as an [[action object]] in $C$...
+
 ### Presheaves and copresheaves
 
 A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]], just as a [[copresheaf]] is just a functor.  
