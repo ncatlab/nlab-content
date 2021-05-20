@@ -169,6 +169,8 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming AC) every
 
 * [[free group]]
 
+* [[free commutative monoid]]
+
 ## References
 
 * {#Lang02} [[Serge Lang]], _Algebra_, Graduate Texts in Mathematics 211 (Revised third ed.), Springer. 2002
@@ -179,9 +181,3 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming AC) every
 
 [[!redirects free abelian group functor]]
 [[!redirects free abelian group functors]]
-
-[[!redirects formal linear combination]]
-[[!redirects formal linear combinations]]
-
-[[!redirects formal sum]]
-[[!redirects formal sums]]
