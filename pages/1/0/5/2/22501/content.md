@@ -77,6 +77,11 @@ Here the [[direct sum]] is indexed by [[partitions]] $\lambda$ of $n$ by $k$ [[p
 
 ## References 
 
+Original article:
+
+* [[Hermann Weyl]],  *The Classical Groups:  Their Invariants and Representations*,  Princeton University Press, Princeton, N.J., 1939 ([jstor:j.ctv3hh48t](https://www.jstor.org/stable/j.ctv3hh48t))
+
+
 Review:
 
 Textbook accounts:
