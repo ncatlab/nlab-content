@@ -74,6 +74,10 @@ An early claim of the observation of non-abelian anyons seems to remain unconfir
 
 The claimed observation of abelian anyons is apparently more securely established:
 
+* H. Bartolomei, M. Kumar, R. Bisognin, A. Marguerite, J.-M. Berroir, E. Bocquillon, B. Plaçais, A. Cavanna, Q. Dong, U. Gennser, Y. Jin, G. Fève:
+
+  *Fractional statistics in anyon collisions*, Science 368, 173-177 (2020) ([arXiv:2006.13157](https://arxiv.org/abs/2006.13157))
+
 * James Nakamura, Shuang Liang, Geoffrey C. Gardner, Michael J. Manfra, _Direct observation of anyonic braiding statistics_, Nat. Phys. 16, 931–936 (2020). ([arXiv:2006.14115](https://arxiv.org/abs/2006.14115), [doi:10.1038/s41567-020-1019-1](https://doi.org/10.1038/s41567-020-1019-1))
 
 * Bob Yirka, _Best evidence yet for existence of anyons_, ([phys.org/news/2020-07](https://phys.org/news/2020-07-evidence-anyons.html))
