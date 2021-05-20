@@ -60,7 +60,7 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 
 4.  If a finitely generated commutative monoid is cancellative and **torsion-free** ($a + a + \cdots + a = 0 \Rightarrow a = 0$) then it embeds in a finitely generated free abelian group (or more concretely, $\mathbb{Z}^n$).   Conversely any submonoid of $\mathbb{Z}^n$ is cancellative and torsion-free (but not necessarily finitely generated).  A commutative monoid is called an **affine monoid** if it is isomorphic to a finitely generated submonoid of $\mathbb{Z}^n$, and there is an extensive theory of these, connected to [[toric variety|toric varieties]] (see [BrunsGubeladze](#BrunsGubeladze)).
 
-5.  If a finitely generated commutative monoid is cancellative and **nonnegative** ($a + b = 0 \Rightarrow a,b = 0$), it embeds in a finitely generated free commutative monoid, or more concretely, $\mathbb{N}^n$ 
+5.  If a finitely generated commutative monoid is cancellative and **nonnegative** ($a + b = 0 \Rightarrow a,b = 0$), it embeds in a finitely generated [[free commutative monoid]], or more concretely, $\mathbb{N}^n$ 
 (Thm. 3.11, [RosalesGarcía-Sánchez](#RosalesGarcía-Sánchez).   Conversely, any finitely generated submonoid of $\mathbb{N}^n$ is cancellative and nonnegative (but not necessarily finitely generated). 
 
 
