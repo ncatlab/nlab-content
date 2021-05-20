@@ -33,6 +33,8 @@ The [[Frobenius theorem]] states that apart from the fields of [[real number|rea
 
 * [[Dieudonné determinant]]
 
+* [[division rig]]
+
 ## References
 
 * [[Peter Draxl]], _Skew fields_, London Math. Soc. Lecture notes __81__, Cambridge University Press 1983 ([doi:10.1017/CBO9780511661907](https://doi.org/10.1017/CBO9780511661907), ISBN:9780511661907)
