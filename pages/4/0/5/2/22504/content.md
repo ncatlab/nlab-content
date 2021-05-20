@@ -255,6 +255,12 @@ $$
 
 See at *[[hook-content formula]]* for more.
 
+### Relation to dimensions of irreps
+
+
+[[!include hook length and content formulas -- table]]
+
+
 ## References
 
 Textbook account:
