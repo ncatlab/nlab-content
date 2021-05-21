@@ -39,6 +39,10 @@ See also:
 
 * Wikipedia, _[Jones polynomial](https://en.m.wikipedia.org/wiki/Jones_polynomial)_
 
+An [[algorithm]] for computing the Jones polynomial on a [[topological quantum computer]] based on [[anyon statistics]]:
+
+* [[Samuel J. Lomonaco]], [[Louis Kauffman]], _Topological Quantum Computing and the Jones Polynomial_, Proc. SPIE 6244, Quantum Information and Computation IV, 62440Z (12 May 2006) ([arXiv:quant-ph/0605004](https://arxiv.org/abs/quant-ph/0605004))
+
 
 
 [[!include Jones polynomial as Wilson loop observable -- references]]
