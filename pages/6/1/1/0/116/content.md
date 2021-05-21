@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 =--
 =--
 
