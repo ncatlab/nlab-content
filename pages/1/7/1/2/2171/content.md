@@ -442,11 +442,14 @@ $$
 
 ## Related entries
 
+* [[braid representation]]
+
 * [[braid group statistics]]
 
   [[anyons]], [[quantum Hall effect]]
 
   [[topological quantum computation]]
+
 
 * [braid group cryptography](cryptography#BraidGroupCryptographyReferences)
 
@@ -524,10 +527,12 @@ category: knot theory
 [[!redirects pure braid]]
 [[!redirects pure braids]]
 
+[[!redirects pure braid group]]
+[[!redirects pure braid groups]]
+
+
 [[!redirects Artin braid group]]
 [[!redirects Hurwitz braid group]]
 [[!redirects surface braid group]]
 
-[[!redirects braid group representation]]
-[[!redirects braid group representations]]
 
