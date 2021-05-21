@@ -27,7 +27,8 @@ $$f(x) = b' + \sum_{i=1}^n a_i g(\langle W_i, x\rangle + b)$$
 where $a = (a_1, \dots, a_n)$ is the output weight, $b'$ the output bias, $W_i$ the $i^{th}$ row of the hidden weight matrix, and $b$ the hidden bias. Here, the hidden layer is $n$-dimensional.   
 
 
-## Relation with renormalization group flow
+## Relation to renormalization group flow
+ {#RelationToRenormalizationGroupFlow}
 
 A relation between deep neural networks (DNNs) based on Restricted Boltzmann
 Machines (RBMs) and [[renormalization group flow]] in [[physics]] was proposed in ([MS14](#MS14)).
@@ -82,6 +83,7 @@ Application of [[tensor networks]] and specifically [[tree tensor networks]]:
 
 
 ### Relation to renormalization group flow
+ {#ReferencesRelationToRenormalizationGroupFlow}
 
 Relation to deep learning to [[renormalization group flow]]:
 
