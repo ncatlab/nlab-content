@@ -28,7 +28,7 @@ On global [[double field theory]] formulated in [[higher differential geometry]]
 
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
-* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
+* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_, Fortschr. Phys. 2021, 2000102 ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969), [doi:10.1002/prop.202000102](https://doi.org/10.1002/prop.202000102)))
 
 Review:
 
