@@ -255,6 +255,8 @@ This appears as [Sternberg 94 (C.27)](#Sternberg94)
 
 * [[Plancherel measure]]
 
+* [[Schur-Weyl measure]]
+
 ## References
 
 ### For standard Young tableaux
