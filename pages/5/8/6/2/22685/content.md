@@ -16,7 +16,7 @@ A non-zero element $a \in M$ is a __[[zero divisor]]__ if thete exists a non-zer
 
 An absorption magma whose largest submagma not containing $0$ is a [[cancellative magma]] is called an __integral magma__. 
 
-### Division monoid
+### Division magma
 
 An integral magma $M$ such that for all non-zero elements $a, b \in M$ there exist elements $c,d \in M$ such that $a \cdot c = b$ and $d \cdot a = b$ is called a __division magma__. Equivalently, a  division magma is an absorption magma whose largest submagma not containing $0$ is a [[quasigroup]]. 
 
