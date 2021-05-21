@@ -15,8 +15,7 @@
 
 ## Idea
 
-The binary operation in a [[monoid]] like a [[group]] or [[ring]] is called _multiplication_.
-
+The binary operation in a [[monoid]] like a [[group]] or [[ring]] is called _multiplication_. Sometimes an [[action]] on a [[monoid]] is also called _multiplication_
 
 ## Related concepts
 
