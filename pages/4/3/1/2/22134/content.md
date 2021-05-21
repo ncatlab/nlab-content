@@ -3,19 +3,13 @@
 ### Topological quantum computation with anyons
  {#TopologicalQuantumComputationWithAnyons}
 
-The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] of [[anyons]] in the [[quantum Hall effect]] is due to:
+The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] of [[anyons]] (e.g. in the [[quantum Hall effect]]) is due to:
 
 * [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_,  	Annals Phys. 303 (2003) 2-30 ([arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021), <a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>)
 
 * [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], _Topological quantum computation_,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
 
 * [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics. 2002, Vol 227, Num 3, pp 605-622  ([arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108))
-
-Further discussion:
-
-* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*,  New Journal of Physics, Volume 6, January 2004 ([arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090), [doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134))
-
-* [[Samuel J. Lomonaco]], [[Louis Kauffman]], _Topological Quantum Computing and the Jones Polynomial_, Proc. SPIE 6244, Quantum Information and Computation IV, 62440Z (12 May 2006) ([arXiv:quant-ph/0605004](https://arxiv.org/abs/quant-ph/0605004))
 
 * Chetan Nayak, Steven H. Simon, [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
 
@@ -25,7 +19,7 @@ Textbook accounts:
 
 * [[Tudor D. Stanescu]], Part IV of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
-Further review:
+Review:
 
 * Ady Stern, Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science 08 Mar 2013: Vol. 339, Issue 6124, pp. 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
     
@@ -49,5 +43,6 @@ See also:
 
 * {#Rouabah20} Mohamed Taha Rouabah, *Compiling single-qubit braiding gate for Fibonacci anyons topological quantum computation* ([arXiv:2008.03542](https://arxiv.org/abs/2008.03542))
 
+[[!include braid group representations -- references]]
 
 
