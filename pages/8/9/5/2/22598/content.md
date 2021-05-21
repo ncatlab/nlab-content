@@ -157,6 +157,7 @@ $$
 
 * [[hook length formula]]
 
+* [[Plancherel measure]], [[Schur-Weyl measure]]
 
 ## References
 
