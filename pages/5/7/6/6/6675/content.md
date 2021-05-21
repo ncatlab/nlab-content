@@ -29,7 +29,8 @@ For the time being see at _[[quantum computation]]_ for more.
 
 \linebreak
 
-Topological [[quantum gates]] as [[braid group]]-elements:
+In the standard paradigm of topological quantum computation on [[anyons]], 
+topological [[quantum gates]] are [[braid group]]-elements and act through [[braid representations]]:
 
 
 \begin{imagefromfile}
