@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 =--
 =--
 
