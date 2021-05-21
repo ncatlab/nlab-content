@@ -43,6 +43,8 @@ An ideal of $S$ is just a subobject of $S$ in $Mod_S$. Under the assumption that
 
 * [[sieve]]
 
+* [[principal ideal of a monoid]]
+
 
 [[!redirects ideal of a monoid]]
 [[!redirects ideals of a monoid]]
