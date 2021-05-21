@@ -12,7 +12,7 @@ An __absorption monoid__ or __annihilation monoid__ is a [[monoid]] $(M,1,\cdot)
 
 A non-zero element $a \in M$ is a __[[zero divisor]]__ if thete exists a non-zero element $b \in M$ such that $a \cdot b = 0$. 
 
-### Integral cancellative monoids
+### Integral cancellable monoids
 
 An absorption monoid such that $0 \neq 1$ and has no zero divisors other than zero is called an __integral cancellable monoid__. Equivalently, an integral cancellable monoid is an absorption monoid with $0 \neq 1$ whose largest submonoid not containing $0$ is a [[cancellative monoid]]. 
 
