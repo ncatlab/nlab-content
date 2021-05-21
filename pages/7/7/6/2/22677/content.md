@@ -9,6 +9,10 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 =--
 =--
 
