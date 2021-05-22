@@ -164,6 +164,19 @@ See also:
 
 * [The Net Advance of Physics](http://web.mit.edu/redingtn/www/netadv/): *[Quantum Computation](http://web.mit.edu/redingtn/www/netadv/Xqucomputa.html)*
 
+
+Experimental demonstration of "quantum supremacy" ("quantum advantage"):
+
+* F. Arute et al. *Quantum supremacy using a programmable superconducting processor*, Nature **574** (2019) 505–510 ([doi:10.1038/s41586-019-1666-5](https://doi.org/10.1038/s41586-019-1666-5))
+
+* Han-Sen Zhong et al., *Quantum computational advantage using photons*, Science  **370** 6523 (2020) 1460-1463 ([doi:10.1126/science.abe8770](https://science.sciencemag.org/content/370/6523/1460))
+
+Review:
+
+* Adrian Cho, *Google claims quantum computing milestone*, Science **365** 6460 (2019) 1364 ([doi:10.1126/science.365.6460.1364](https://science.sciencemag.org/content/365/6460/1364))
+
+* Philip Ball, *Physicists in China challenge Google’s "quantum advantage"*, Nature **588** 380 (2020) ([doi:10.1038/d41586-020-03434-7](https://doi.org/10.1038/d41586-020-03434-7))
+
 [[!include quantum programming languages -- references]]
 
 
