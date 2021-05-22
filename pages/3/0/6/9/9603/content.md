@@ -5,11 +5,11 @@
 
 ## Idea
 
-A Moufang loop is a set with a [[binary operation]] that is similar to that of a [[group]], but lacks [[associativity]]. Making this precise is a little fiddly.
+A Moufang loop is a set with a [[binary operation]] that is similar to that of a [[group]], but does not require [[associativity]]. Making this precise is a little fiddly.
 
 ## Definition
 
-A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \to Q$ with two-sided unit $e$ such that left and right multiplication, $y\cdot -\colon Q \to Q$ and $-\cdot x\colon Q \to Q$ respectively, are isomorphisms (i.e. it is a unital [[quasigroup]] or _loop_) such that the _Moufang identities_ hold:
+A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \to Q$ with two-sided unit $e$ such that left and right multiplication, $y\cdot -\colon Q \to Q$ and $-\cdot x\colon Q \to Q$ respectively, are [[isomorphisms]] (i.e. it is a unital [[quasigroup]] or _loop_) such that the _Moufang identities_ hold:
 
 * $(u v)(w u) = (u(v w))u) = u((v w)u)$ 
 
