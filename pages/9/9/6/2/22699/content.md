@@ -15,6 +15,7 @@
 A __possibly empty abelian loop__ is a [[set]] $G$ with a binary operation $(-)-(-):G \times G \to G$ called __[[subtraction]]__ such that:
 
   * For all $a$ and $b$ in $G$, $a-a=b-b$
+  * For all $a$ in $G$, $a-(a-a)=a$
   * For all $a$ in $G$, $(a-a)-((a-a)-a)=a$
   * For all $a$ and $b$ in $G$, $a-((b-b)-b) = b-((a-a)-a)$
 
