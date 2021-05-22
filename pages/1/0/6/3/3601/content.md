@@ -204,7 +204,12 @@ Lecture notes:
 
 See also:
 
-* Wikipedia [quantum information](https://en.wikipedia.org/wiki/Quantum_information), [Bures metric](https://en.wikipedia.org/wiki/Bures_metric)
+* Wikipedia, *[Quantum information](https://en.wikipedia.org/wiki/Quantum_information)* 
+
+* Wikipedia, *[Bures metric](https://en.wikipedia.org/wiki/Bures_metric)*
+
+
+* [Quantiki](https://www.quantiki.org/) -- Quantum Information Portal and Wiki
 
 
 Further original articles:
