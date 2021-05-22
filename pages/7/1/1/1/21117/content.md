@@ -381,11 +381,30 @@ In the context of [[quantum secret sharing]]:
 
 * {#CleveGottesmanLo99} Richard Cleve, Daniel Gottesman, Hoi-Kwong Lo, *How to share a quantum secret*, Phys. Rev. Lett. 83 (1999) 648-651 ([arXiv:quant-ph/9901025](https://arxiv.org/abs/quant-ph/9901025))
 
-Realization in [[experiment]]:
+On (in-)compatibility of quantum error correction with universality of quantum gates ([[Eastin-Knill theorem]]):
+
+* [[Bryan Eastin]], [[Emanuel Knill]], *Restrictions on Transversal Encoded Quantum Gate Sets*,  Phys. Rev. Lett. 102, 110502 (2009) ([arXiv:0811.4262](https://arxiv.org/abs/0811.4262))
+
+* {#WVSB20} Paul Webster, Michael Vasmer, Thomas R. Scruby, Stephen D. Bartlett, *Universal Fault-Tolerant Quantum Computing with Stabiliser Codes* ([arXiv:2012.05260](https://arxiv.org/abs/2012.05260))
+
+### Experimental realization
+
+Realization of [[quantum error correction]] in [[experiment]], hence in actual [[quantum computers]]:
 
 * D. G. Cory, M. D. Price, W. Maas, [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojchiek H. Zurek]], T. F. Havel, and S. S. Somaroo, *Experimental Quantum Error Correction*, Phys. Rev. Lett. 81, 2152 (1998) ([doi:10.1103/PhysRevLett.81.2152](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.2152))
 
+
+* Daniel Nigg, Markus Mueller, Esteban A. Martinez, Philipp Schindler, Markus Hennrich, Thomas Monz, Miguel A. Martin-Delgado, Rainer Blatt, 
+
+  *Experimental Quantum Computations on a Topologically Encoded Qubit*, Science 18 Jul 2014: Vol. 345, Issue 6194, pp. 302-305 ([arXiv:1403.5426](https://arxiv.org/abs/1403.5426), [doi:10.1126/science.1253742](https://science.sciencemag.org/content/345/6194/302))
+
+  > (via methods from [[topological quantum computation]])
+
+
 * Adrian Cho, *[The biggest flipping challenge in quantum computing](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*, Science News Jul. 9, 2020 
+
+* Y. Ma et al. *Error-transparent operations on a logical qubit protected by quantum error correction*, Nature Physics volume 16, pages827–831 (2020) ([doi:10.1038/s41567-020-0893-x](https://doi.org/10.1038/s41567-020-0893-x))
+
 
 * Ming Gong et al. *Experimental exploration of five-qubit quantum error correcting code with superconducting qubits*, National Science Review, nwab011 (2021) ([doi:10.1093/nsr/nwab011](https://doi.org/10.1093/nsr/nwab011))
 
@@ -393,23 +412,12 @@ Realization in [[experiment]]:
 
    EurekaAlert, Science China Press: *Demonstration of the universal quantum error correcting code with superconducting qubits*, March 2021 ([2021-03/scp-dot031521](https://www.eurekalert.org/pub_releases/2021-03/scp-dot031521.php))
 
+* {#Lucero21} Erik Lucero (Google), *[Unveiling our new Quantum AI campus](https://blog.google/technology/ai/unveiling-our-new-quantum-ai-campus/)*,  May 18, 2021
 
-and via methods from [[topological quantum computation]]:
-
-* Daniel Nigg, Markus Mueller, Esteban A. Martinez, Philipp Schindler, Markus Hennrich, Thomas Monz, Miguel A. Martin-Delgado, Rainer Blatt, 
-
-  *Experimental Quantum Computations on a Topologically Encoded Qubit*, Science 18 Jul 2014: Vol. 345, Issue 6194, pp. 302-305 ([arXiv:1403.5426](https://arxiv.org/abs/1403.5426), [doi:10.1126/science.1253742](https://science.sciencemag.org/content/345/6194/302))
-
-and prospect:
-
-* {#Lucero21} Erik Lucero, *[Unveiling our new Quantum AI campus](https://blog.google/technology/ai/unveiling-our-new-quantum-ai-campus/)*,  May 18, 2021
+  > (outlook)
 
 
-On (in-)compatibility of quantum error correction with universality of quantum gates ([[Eastin-Knill theorem]]):
 
-* [[Bryan Eastin]], [[Emanuel Knill]], *Restrictions on Transversal Encoded Quantum Gate Sets*,  Phys. Rev. Lett. 102, 110502 (2009) ([arXiv:0811.4262](https://arxiv.org/abs/0811.4262))
-
-* {#WVSB20} Paul Webster, Michael Vasmer, Thomas R. Scruby, Stephen D. Bartlett, *Universal Fault-Tolerant Quantum Computing with Stabiliser Codes* ([arXiv:2012.05260](https://arxiv.org/abs/2012.05260))
 
 
 ### Via holographic tensor networks
