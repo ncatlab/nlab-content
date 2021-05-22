@@ -91,9 +91,9 @@ On the other hand, we could generalize the notion of [[group]] to allow for an e
 * $(a/a)/((a/a)/a) = a$,
 * $a/(b/c) = (a/((c/c)/c))/b$.
 
-Then any possibly-empty-group is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism possibly-empty-group (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of possibly-empty-groups equipped with torsors over the point; etc.
+Then any [[possibly empty group]] is a possibly empty heap, and every possibly empty heap arises in this way from its automorphism [[possibly empty group]] (defined by either method (2) or (3)); the category of possibly empty heaps is equivalent to the category of possibly empty groups equipped with torsors over the point; etc.
 
-This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by treating the empty and inhabited cases separately. (This rather trivial method is obvious to a classical mathematician, but it\'s not constructively valid, since a possibly-empty-group/heap as defined here can\'t be constructively proved empty or inhabited; it can only be proved empty iff not inhabited.  Indeed, taking any group $G$ and any [[truth value]] $P$, the possibly-empty-subgroup $\{x \in G \;|\; P\}$ is empty or inhabited iff $P$ is false or true.)
+This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by treating the empty and inhabited cases separately. (This rather trivial method is obvious to a classical mathematician, but it\'s not constructively valid, since a possibly empty group/heap as defined here can\'t be constructively proved empty or inhabited; it can only be proved empty iff not inhabited.  Indeed, taking any group $G$ and any [[truth value]] $P$, the possibly empty subgroup $\{x \in G \;|\; P\}$ is empty or inhabited iff $P$ is false or true.)
 
 
 ## References and remarks
