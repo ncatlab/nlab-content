@@ -16,18 +16,6 @@
 
 A __left associative [[quasigroup]]__ is a [[semigroup]] $(G, \cdot)$ equipped with a __left division__ $(-)\backslash(-):G \times G \to G$  such that $x \cdot (x \backslash y) = y$ and $x \backslash (x \cdot y) = y$. A __right associative [[quasigroup]]__ is a [[semigroup]] $(G, (-)\cdot(-):G \times G \to G)$ equipped with a __right division__ $(-)/(-):G \times G \to G$ such that $(x / y) \cdot y = x$ and $(x \cdot y) / y = x$. A __two-sided associative [[quasigroup]]__ or just an __associative quasigroup__ is a semigroup that is both a left associative quasigroup and a right associative quasigroup. 
 
-## Properties
-
-### Associative Malcev operations
-
-An associative [[Malcev operation]] on a set $H$ is a ternary operation $t : H \times H \times H\to H$ satisfying the Malcev identities $t(b,b,c) = c$ and $c = t(c,b,b)$ and the ternary associative identity: $t(a,b,t(c,d,e)) = t(t(a,b,c),d,e)$. 
-
-An associative Malcev operation can be defined on every associative quasigroup, and every set with an associative Malcev operation can be made into an associative quasigroup. 
-
-### Relation to possibly empty groups
-
-See [[possibly empty group]]
-
 ## Category of associative quasigroups
 
 An __associative quasigroup homomorphism__ is a [[semigroup homomorphism]] between associative quasigroups that preserves left and right quotients. Associative quasigroup homomorphisms are the [[morphisms]] in the [[category]] of associative quasigroups $AssocQuasiGrp$. 
@@ -76,14 +64,8 @@ Every associative quasigroup $G$ and associative subquasigroup $H \hookrightarro
 
 * The empty associative quasigroup is an associative quasigroup that is not a group. 
 
-* And that is about it.
-
-* An associative quasigroup object in the category of [[pointed sets]] is a [[heap]]. 
-
 ## Related concepts
 
 * [[commutative quasigroup]]
 
 * [[inverse semigroup]]
-
-* [[heap]]
