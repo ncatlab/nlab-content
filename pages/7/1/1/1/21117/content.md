@@ -42,6 +42,10 @@ From [Zhu & Cross 20](#ZhuCross20):
 
 > Although we are currently in an era of quantum computers with tens of noisy qubits, it is likely that a decisive, practical quantum advantage can only be achieved with a scalable, fault-tolerant, error-corrected quantum computer. Therefore, development of quantum error correction is one of the central themes of the next five to ten years. 
 
+[Lucero 21](#Lucero21): 
+
+> Within the decade, Google aims to build a useful, error-corrected quantum computer. $[\cdots]$ Our journey to build an error-corrected quantum computer within the decade includes several scientific milestones, including building an error-corrected logical qubit.
+
 Specifically on [[holographic tensor network|holographic quantum error correcting codes]] (see references [below](#ReferencesViaHolographicTensorNetworks)):
 
 From [Harlow 20](#Harlow20):
@@ -383,11 +387,23 @@ Realization in [[experiment]]:
 
 * Adrian Cho, *[The biggest flipping challenge in quantum computing](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*, Science News Jul. 9, 2020 
 
+* Ming Gong et al. *Experimental exploration of five-qubit quantum error correcting code with superconducting qubits*, National Science Review, nwab011 (2021) ([doi:10.1093/nsr/nwab011](https://doi.org/10.1093/nsr/nwab011))
+
+  survey in:
+
+   EurekaAlert, Science China Press: *Demonstration of the universal quantum error correcting code with superconducting qubits*, March 2021 ([2021-03/scp-dot031521](https://www.eurekalert.org/pub_releases/2021-03/scp-dot031521.php))
+
+
 and via methods from [[topological quantum computation]]:
 
 * Daniel Nigg, Markus Mueller, Esteban A. Martinez, Philipp Schindler, Markus Hennrich, Thomas Monz, Miguel A. Martin-Delgado, Rainer Blatt, 
 
   *Experimental Quantum Computations on a Topologically Encoded Qubit*, Science 18 Jul 2014: Vol. 345, Issue 6194, pp. 302-305 ([arXiv:1403.5426](https://arxiv.org/abs/1403.5426), [doi:10.1126/science.1253742](https://science.sciencemag.org/content/345/6194/302))
+
+and prospect:
+
+* {#Lucero21} Erik Lucero, *[Unveiling our new Quantum AI campus](https://blog.google/technology/ai/unveiling-our-new-quantum-ai-campus/)*,  May 18, 2021
+
 
 On (in-)compatibility of quantum error correction with universality of quantum gates ([[Eastin-Knill theorem]]):
 
