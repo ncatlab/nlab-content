@@ -227,6 +227,8 @@ The generalization of prop. \ref{EquivalenceOfNonunitalAndSliced} to [[nonunital
 
 * [[nonunital Ek-algebra]]
 
+* [[possibly empty nonunital ring]]
+
 
 ## References
  {#References}
