@@ -138,7 +138,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 ## Related concepts
 
-* [[division ring]] 
+* [[division ring]], [[division monoid]]
 
 * [[subfield]]
 
