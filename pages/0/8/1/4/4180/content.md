@@ -217,6 +217,10 @@ Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\as
 
 * [[cohomology of inverse semi-groups]]
 
+## Related concepts
+
+* [[associative quasigroup]] (semigroups with division instead of inverses)
+
 ## References
 
 * [[Mark V. Lawson]], tutorial lectures on semigroups in Ottawa, notes available [here](http://www.ma.hw.ac.uk/~markl/ottawa.html).
