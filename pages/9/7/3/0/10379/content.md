@@ -26,7 +26,7 @@ The terminology used here is motivated by the link with [[formal concept analysi
 
 A _morphism_ or _Chu transform_ from a Chu space $(P_o, \models_P, P_a)$ to a Chu space $(Q_o, \models_Q, Q_a)$ is a pair of functions $(f_a,f_o)$ with $f_o : P_o\to Q_o$ and $f_a : Q_a \to P_a$ such that, for any $x\in P_o $ and $y \in Q_a$,
 
-$$f_o(x)\models_Q y  iff  x \models_P f_a(y).$$
+$$f_o(x)\models_Q y  \iff  x \models_P f_a(y).$$
 =--
 
 This looks very much like some form of adjointness condition, and in particular cases, of course, it is.
