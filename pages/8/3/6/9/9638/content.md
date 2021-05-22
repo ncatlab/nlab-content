@@ -146,7 +146,7 @@ Introduction and survey:
 
 * Qiang Zhang, Feihu Xu, Li Li, Nai-Le Liu, Jian-Wei Pan, *Quantum information research in China*, Quantum Sci. Technol. 4 040503 ([doi:10.1088/2058-9565/ab4bea](https://iopscience.iop.org/article/10.1088/2058-9565/ab4bea))
 
-* Farzan Jazaeri, Arnout Beckers, Armin Tajalli, Jean-Michel Sallese, *A Review on Quantum Computing: Qubits, Cryogenic Electronics and Cryogenic MOSFET Physics* ([arXiv:1908.02656](https://arxiv.org/abs/1908.02656))
+* Farzan Jazaeri, Arnout Beckers, Armin Tajalli, Jean-Michel Sallese, *A Review on Quantum Computing: Qubits, Cryogenic Electronics and Cryogenic MOSFET Physics*, 2019 MIXDES - 26th International Conference "Mixed Design of Integrated Circuits and Systems", 2019, pp. 15-25, ([arXiv:1908.02656](https://arxiv.org/abs/1908.02656), [doi:10.23919/MIXDES.2019.8787164](https://doi.org/10.23919/MIXDES.2019.8787164))
 
 * *[Quantum Computing Review Q4 2020](https://www.idquantique.com/quantum-computing-review-q4-2020/)*, IDQ January 2021
 
