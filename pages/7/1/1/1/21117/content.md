@@ -403,6 +403,8 @@ Realization of [[quantum error correction]] in [[experiment]], hence in actual [
 
 * Adrian Cho, *[The biggest flipping challenge in quantum computing](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*, Science News Jul. 9, 2020 
 
+  > (exposition)
+
 * Y. Ma et al. *Error-transparent operations on a logical qubit protected by quantum error correction*, Nature Physics volume 16, pages827–831 (2020) ([doi:10.1038/s41567-020-0893-x](https://doi.org/10.1038/s41567-020-0893-x))
 
 
