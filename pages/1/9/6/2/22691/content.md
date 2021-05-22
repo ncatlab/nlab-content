@@ -12,7 +12,9 @@ __monoid theory__
 
 * [[submonoid]], [[quotient monoid]]
 
-* [[inverse element]], [[irreducible element]]
+* [[divisor]], [[multiple]], [[quotient element]]
+
+* [[inverse element]], [[unit]], [[irreducible element]]
 
 * [[ideal in a monoid]]
 
@@ -35,6 +37,10 @@ __monoid theory__
 * [[group]], [[abelian group]]
 
 * [[absorption monoid]]
+
+  * [[zero divisor]]
+
+  * [[integral monoid]]
 
 * [[free monoid]], [[free commutative monoid]]
 
