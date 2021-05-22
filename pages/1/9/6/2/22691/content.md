@@ -1,4 +1,5 @@
-__monoid theory__
+
+__monoid theory__ in [[algebra]]:
 
 * [[monoid]], [[infinity-monoid]]
 
