@@ -19,7 +19,7 @@ A __possibly empty abelian group__ is a [[set]] $G$ with a binary operation $(-)
   * For all $a$ and $b$ in $G$, $a-((b-b)-b) = b-((a-a)-a)$
   * For all $a$, $b$, and $c$ in $G$, $a-(b-c)=(a-((c-c)-c)-b$
 
-For any element $a$ in a possibly empty abelian loop $G$, the element $a-a$ is called an __identity element__, and the element $(a-a)-a$ is called the __inverse element__ of $a$. For all elements $a$ and $b$, __addition__ of $a$ and $b$ is defined as $a-((b-b)-b)$. 
+For any element $a$ in a possibly empty abelian group $G$, the element $a-a$ is called an __identity element__, and the element $(a-a)-a$ is called the __inverse element__ of $a$. For all elements $a$ and $b$, __addition__ of $a$ and $b$ is defined as $a-((b-b)-b)$. 
 
 ## Examples
 
@@ -32,5 +32,7 @@ For any element $a$ in a possibly empty abelian loop $G$, the element $a-a$ is c
 * [[possibly empty group]] (non-associative version)
 
 * [[possibly empty abelian loop]] (non-commutative version)
+
+* [[possibly empty nonunital ring]] (semigroup object in the category of possibly empty abelian groups)
 
 * [[abelian group]]
