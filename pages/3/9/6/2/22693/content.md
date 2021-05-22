@@ -45,8 +45,18 @@ $$
   H \hookrightarrow G
   \,.
 $$
+The empty associative is the initial associative subquasigroup of $G$. 
 
-Every associative quasigroup $G$ and associative subquasigroup $H \hookrightarrow G$ has a __set of left [[ideal in a semigroup|ideals]]__ $G H$ in $G$ and a __set of right ideals__ $H G$ in $G$.
+Let $G$ and $H$ be associative quasigroups and let $f:G \to H$ be an associative quasigroup homomorphism. Then given an element $h \in H$, there is an associative subquasigroup 
+$$
+  i: I \hookrightarrow G
+  \,.
+$$
+such that $g \in I$ if and only if $f(g) = h$. $I$ is called the __[[fiber]]__ of $f$ over $h$. 
+
+Because $AssocQuasiGrp$ has a terminal object, cartesian products, and fibers, it is a [[finitely complete category]]. 
+
+Every associative quasigroup $G$ and associative subquasigroup $H \hookrightarrow G$ has a __set of left [[ideal in a semigroup|ideals]]__ $G H$ in $G$ and a __set of right ideals__ $H G$ in $G$. 
 
 ## Examples
 
@@ -55,6 +65,8 @@ Every associative quasigroup $G$ and associative subquasigroup $H \hookrightarro
 * The empty associative quasigroup is an associative quasigroup that is not a group. 
 
 * And that is about it.
+
+* An associative quasigroup object in the category of [[pointed sets]] is a [[heap]]. 
 
 ## Related concepts
 
