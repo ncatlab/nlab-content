@@ -16,7 +16,7 @@
 
 ## Definition
 
-Given a [[group]] $G$ (generally: a [[group object]] in some ambient [[category]] $\mathcal{C}$) and a [[group action]] (generally an [[action object]] in $\mathcal{C}$)
+Given a [[group]] $G$ (generally: a [[group object]] in some ambient [[category]] $\mathcal{C}$, and a [[quasigroup]]-object suffices) and a [[group action]] (generally: an [[action object]] in $\mathcal{C}$)
 
 \[
   \label{ActionMorphism}
@@ -122,6 +122,7 @@ Early explicit appearance of the shear map, alongside discussion of its [[isomor
 
 [[!redirects shear maps]]
 
-
+[[!redirects shearing map]]
+[[!redirects shearing maps]]
 
 
