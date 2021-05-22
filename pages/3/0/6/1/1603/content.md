@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
@@ -17,7 +21,21 @@
 
 ## Idea
 
-Quasigroup is a binary algebraic structure in which every equation of the form $a\cdot x = b$ or of the form $y\cdot a = b$ has a unique solution for $x$, resp. $y$. The notion of _quasigroup_ is a generalization of the notion of _[[group]]_ without the [[associativity]] law or [[identity]] element.   A quasigroup with identity is called a _loop_ (French _la boucle_, Russian &#1083;&#1091;&#1087;&#1072;).
+A *quasigroup* is a binary algebraic structure (a [[magma]]) in which one-sided multiplication is a [[bijection]] in that all [[equations]] of the form 
+
+$$
+  \begin{aligned}
+    a \cdot x & = b
+    \\
+    x \cdot a & = b
+  \end{aligned}
+$$ 
+
+have a unique solution for $x$.
+
+The notion of _quasigroup_ is hence a generalization of the notion of _[[group]]_, in that it does not require the [[associativity]] law nor the existence of an [[identity element]].  
+
+If a quasigroup does have a two-sided [[identity element]] then it is called a _loop_ (French _la boucle_, Russian &#1083;&#1091;&#1087;&#1072;) and a *[[Moufang loop]]* if some further relations are satisfied.
 
 Note that, in the absence of associativity, it is not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
 
@@ -77,7 +95,7 @@ A __[[group]]__ is an associative loop.
 *  Any group is a loop, of course.
 *  Any [[abelian group]] is a quasigroup in two other ways: the product switches places with one of the quotients.  (The other quotient remains a quotient.)
 * Every [[associative quasigroup]], every [[commutative quasigroup]], and every [[loop]] (unital quasigroup) is a quasigroup. 
-* [[H-space]]s are (homotopy-) loops --- this is because the [[shearing map]]s $(x,y)\mapsto (x,x y)$ and $(x,y)\mapsto (x y, y)$ are equivalences.  This generalizes the octonion examples.  Note that a [[loop space]] is always equivalent to a *group*, hence not all homotopy loops are loop spaces.  In particular ...
+* [[H-space]]s are (homotopy-) loops --- this is because the [[shearing maps]] $(x,y)\mapsto (x,x y)$ and $(x,y)\mapsto (x y, y)$ are equivalences.  This generalizes the octonion examples.  Note that a [[loop space]] is always equivalent to a *group*, hence not all homotopy loops are loop spaces.  In particular ...
 *  The nonzero elements of a (not necessarily associative) [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
 * [[code loop]]s are loops which are central extensions of abelian groups (actually vector spaces over the finite field $\mathbb{F}_2$) by $\mathbb{Z}_2$.
 
