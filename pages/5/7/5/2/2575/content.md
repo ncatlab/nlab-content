@@ -846,7 +846,7 @@ A decent survey of the constructions within Chern-Simons theory is in
 
 The [[covariant phase space]] of Chern-Simons theory with its [[presymplectic structure]] is originally discussed in section 5 of 
 
-* {#Witten86} [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213%2886%2990298-1))
+* {#Witten86} [[Edward Witten]], _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213%2886%2990298-1))
  
 
 (there in the context of [[string field theory]], but the manipulations of formulas is the same) and in section 3, example 2 of
