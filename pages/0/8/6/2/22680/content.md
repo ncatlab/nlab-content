@@ -50,6 +50,8 @@ The [[localization of a monoid|localization]] of an absorption monoid at $0$ is 
 
 * [[rig]], [[ring]], [[lattice]], [[field]]
 
+[[!include oidification - table]]
+
 [[!redirects absorption monoids]]
 [[!redirects annihilation monoid]]
 [[!redirects annihilation monoids]]
