@@ -21,8 +21,6 @@
 
 In [[algebra]] a *loop* is a [[quasigroup]] with (two-sided) [[identity element]].
 
-If further conditions are satisfied: [[Moufang loop]].
-
 ## Definition
 
 A __left loop__ is a [[unital magma]] $(G, (-)\cdot(-):G\times G\to G,1:G)$ equipped with a __left division__ $(-)\backslash(-):G \times G \to G$  such that $x \cdot (x \backslash y) = y$ and $x \backslash (x \cdot y) = y$. A __right loop__ is a [[unital magma]] $(G, (-)\cdot(-):G\times G\to G,1:G)$ equipped with a __right division__ $(-)/(-):G \times G \to G$ such that $(x / y) \cdot y = x$ and $(x \cdot y) / y = x$. A __two-sided loop__ or just a __loop__ is a unital magma that is both a left loop and a right loop. 
@@ -45,6 +43,8 @@ Note that, even in a loop, left and right inverses need not agree.  See [the dis
 Local analytic loops have interesting induced structure on the tangent space at the identity, generalizing the Lie algebra of a group, see [[Sabinin algebra]]. Sabinin algebras are closely related to the local study of affine connections on manifolds. They include some known important classes of nonassociative algebras, namely Lie algebras, Mal'cev algebras, Lie triple systems (related to the study of [[symmetric space]]s), Bol algebras as simplest cases.
 
 ## Related concepts
+
+* [[Moufang loop]]
 
 * [[possibly empty loop]]
 
