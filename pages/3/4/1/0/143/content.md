@@ -652,14 +652,14 @@ $\cdots \simeq PSh_S[W^{-1}](U,A)$.
 +-- {: .un_remark}
 ###### Remark: covers versus hypercovers
 
-For checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are already sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, i.e. the [[hypercover]]s. If one takes the colimit in the sheafification prescription above only over [[cover]]s, one obtains instead of sheafification the plus-construction.
+For checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are already sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, i.e. the [[hypercover]]s. If one takes the colimit in the sheafification prescription above only over [[cover]]s, one obtains instead of sheafification the [[plus construction on presheaves|plus-construction]].
 =--
 
 
 +-- {: .un_definition}
 ###### Definition: plus-construction
 
-For $A \in PSh(S)$ a presheaf, the **plus-construction**
+For $A \in PSh(S)$ a presheaf, the **[[plus construction on presheaves|plus-construction]]**
 on $A$ is the presheaf 
 
 $$
@@ -688,7 +688,9 @@ $$
   colim(W \stackrel{\to}{\to} U)
 $$
 
-for $W \to U \times_X U$ a cover. For higher [[stack]]s the hypercover is in general a longer simplicial object of covers and accordingly if one restricts to covers instead of using hypercovers one will need to use the plus-construction more and more often.
+for $W \to U \times_X U$ a cover. For higher [[stack]]s the hypercover is in general a longer simplicial object of covers and accordingly if one restricts to covers instead of using hypercovers one will need to use the plus-construction more and more often.  Specifically, for stacks of $n$-groupoids one needs to apply the plus-construction $n+2$ times; see [[plus construction on presheaves]].
+
+When $n=\infty$, even a countable sequence of applications does not suffice in general, but a sufficiently long transfinite sequence does.  In this case, using hypercovers instead actually produces a different answer, namely the reflection into the [[hypercompletion]] of the sheaf $\infty$-topos.
 =--
 
 
