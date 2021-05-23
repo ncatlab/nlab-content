@@ -16,6 +16,7 @@
 |[[nonunital ring]]|[[Ab]]-[[enriched magmoid|enriched]] [[semicategory]]|
 |[[nonassociative ring]]|[[Ab]]-[[enriched magmoid|enriched]] [[unital magmoid]]|
 |[[ring]]|[[ringoid]]|
+|[[differential ring]]|[[differential ringoid]]|
 |[[nonassociative algebra]]|[[linear magmoid]]|
 |[[nonassociative algebra|nonassociative unital algebra]]|[[unital magmoid|unital]] [[linear magmoid]]|
 |[[nonunital algebra]]|[[linear magmoid|linear]] [[semicategory]]|
