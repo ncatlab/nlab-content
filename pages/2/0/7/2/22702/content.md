@@ -71,6 +71,8 @@ in $Q$, there exists morphisms $d:a\to b$ and $e:b \to a$ such that $g \circ d =
 
 * A one-object quasigroupoid is a [[quasigroup]]. 
 
+* A quasigroupoid [[enriched magmoid|enriched]] in [[truth values]] is an [[equivalence relation]]. 
+
 ## Related concepts
 
 [[!include oidification - table]]
