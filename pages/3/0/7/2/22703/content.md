@@ -40,6 +40,8 @@ A unital magmoid is __invertible__ if for every pair of objects $a,b \in Ob(Q)$ 
 
 * A unital magmoid with only one object is called a [[unital magma]]. 
 
+* A unital magmoid [[enriched magmoid|enriched]] on [[truth values]] is a [[preorder]]. 
+
 ## Related concepts
 
 [[!include oidification - table]]
