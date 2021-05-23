@@ -48,7 +48,7 @@ $$
 
 * A one-object alternative magmoid is a [[alternative magma]]. 
 
-* A [[Mod]]-enriched alternative magmoid is called a alternative algebroid. 
+* A [[Mod]]-enriched alternative magmoid is called a alternative [[linear magmoid]]. 
 
 ## Related concepts
 
