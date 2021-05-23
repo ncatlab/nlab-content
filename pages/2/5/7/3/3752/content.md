@@ -195,6 +195,8 @@ Accordingly, there is the semi-category analog of a [[Segal space]], called a _[
 
 * [[semi-Segal space]]
 
+[[!include oidification - table]]
+
 ## References
 
 Enriched semicategory theory is developed in 
