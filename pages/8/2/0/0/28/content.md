@@ -1704,6 +1704,7 @@ The disadvantage of the simplicial approach is the difficulty of describing mult
 
 * [[Hopf algebroid]]
 
+[[!include oidification - table]]
 
 ## References
 
