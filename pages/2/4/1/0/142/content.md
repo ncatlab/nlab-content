@@ -134,6 +134,8 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
+* [[axiom of stack completion]]
+
 Special kinds of stacks include
 
 * [[geometric stacks]];
