@@ -181,7 +181,8 @@ expanding on
 
 Much further discussion and illustration and relation to [[tensor networks]] is in
 
-* [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_ ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139))
+* {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_, Journal of Mathematical Physics 60, 043506 (2019) ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139), [doi:10.1063/1.5078532](https://doi.org/10.1063/1.5078532))
+
 
 
 Examples of 2-connections with vanishing 2-form curvature obtained from [[geometric quantization]] are discusssed in
