@@ -108,3 +108,7 @@ Further discussion under the relation of [[renormalization group flow]] to [[bul
 
 
 [[!redirects deep learning]]
+
+[[!redirects quantum neural network]]
+[[!redirects quantum neural networks]]
+
