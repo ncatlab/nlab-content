@@ -23,13 +23,13 @@
 
 ## Idea
 
-A linear magmoid is a [[magmoids]] whose [[hom-sets]] are all [[vector spaces]] (or [[modules]]) and whose composition operation is [[bilinear map|bilinear]].  This concept is a [[horizontal categorification]] of the concept of [[nonassociative algebra|nonassociative nonunital algebra]].
+A linear magmoid is a [[magmoids]] whose [[hom-sets]] are all [[vector spaces]] (or [[modules]]) and whose composition operation is [[bilinear map|bilinear]].  This concept is an [[oidification]] of the concept of [[nonassociative algebra|nonassociative nonunital algebra]].
 
 ## Definitions
 
 Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]].)
 
-A __$K$-linear magmoid__ is a [[enriched category|category enriched]] over $K\,$[[Mod]], the [[monoidal category]] of $K$-[[modules]] with the usual [[tensor product]].  (Note that we usually speak of $K\,$[[Vect]] instead of $K\,Mod$ when $K$ is a field.)
+A __$K$-linear magmoid__ is a [[enriched magmoid|magmoid enriched]] over $K\,$[[Mod]], the [[monoidal category]] of $K$-[[modules]] with the usual [[tensor product]].  (Note that we usually speak of $K\,$[[Vect]] instead of $K\,Mod$ when $K$ is a field.)
 
 ## Examples
 
