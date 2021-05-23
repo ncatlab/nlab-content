@@ -28,8 +28,6 @@ Just as a [[groupoid]] is the [[oidification]] of a [[group]] and a [[ringoid]] 
 
 ## Definition
 
-### Unital magmoids
-
 A __unital magmoid__ $Q$ is a [[magmoid]] where every object $a \in Ob(Q)$ has an [[identity morphism]] $id_a: a \to a$, such that for any morphism $f:a \to b$, $f \circ id_a = f$, and for any morphism $g:c \to a$, $id_a \circ g = g$. 
 
 A unital magmoid is __invertible__ if for every pair of objects $a,b \in Ob(Q)$ and for every morphism $f:a \to b$, there exists an [[inverse morphism]] $g:b \to a$ such that $f \circ g = id_b$ and $g \circ f = id_a$. 
