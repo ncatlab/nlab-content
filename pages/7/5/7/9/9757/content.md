@@ -38,6 +38,8 @@ In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebr
 
 ## Related concepts
 
+* [[loop braid group]]
+
 * [[TQFT]]
 
   * [[2d TQFT]]
@@ -47,6 +49,7 @@ In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebr
   * **4d TQFT**
 
     * [[4d Chern-Simons theory]]
+
 
 
 
@@ -78,7 +81,7 @@ As descriptions of [[topological insulators]]/[[topological phases of matter]]:
 
   > (see [[Walker-Wang model]])
 
-* Clement Delcamp, *Excitation basis for (3+1)d topological phases*, Journal of High Energy Physics **2017** (2017) 128 (<a href="https://doi.org/10.1007/JHEP12(2017)128">doi:10.1007/JHEP12(2017)128</a>)
+* [[Clement Delcamp]], *Excitation basis for (3+1)d topological phases*, Journal of High Energy Physics **2017** (2017) 128 ([arXiv:1709.04924](https://arxiv.org/abs/1709.04924) <a href="https://doi.org/10.1007/JHEP12(2017)128">doi:10.1007/JHEP12(2017)128</a>)
 
 \linebreak
 
