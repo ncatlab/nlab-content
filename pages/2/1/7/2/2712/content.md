@@ -38,21 +38,33 @@ The [[CFT|Fuchs-Runkel-Schweigert-construction]] builds from the RT-construction
 
 ## References
 
-Original articles include
+Original articles:
 
-* {#ReshetikhinTuraev91} [[Nikolai Reshetikhin|N. Reshetikhin]], [[Vladimir Turaev|V. Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
+* {#ReshetikhinTuraev91} [[Nikolai Reshetikhin]], [[Vladimir Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([doi:10.1007/BF01239527](https://doi.org/10.1007/BF01239527), [pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
+
+* [[Vladimir Turaev]], *Modular categories and 3-manifold invariants*,  International Journal of Modern Physics B Vol. 06, No. 11n12, pp. 1807-1824 (1992) ([doi:10.1142/S0217979292000876](https://doi.org/10.1142/S0217979292000876))
+
+  > (introducing [[modular tensor categories]])
+
+Textbook accounts:
+
+* [[Vladimir Turaev]], _Quantum invariants of knots and 3-manifolds_, de Gruyter Studies in Mathematics **18** Walter de Gruyter & Co., Berlin, 1994 ([doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221))
+
+* [[Bojko Bakalov]], [[Alexandre Kirillov]], _Lectures on tensor categories and modular functors_ AMS, University Lecture Series, (2000) ([ISBN:978-1-4704-2168-7](https://bookstore.ams.org/ulect-21), [webpage](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)). 
 
 
-A standard textbook account is
+Review:
 
-* B. Bakalov & [[Alexandre Kirillov]], _Lectures on tensor categories and modular functors_ AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)). 
+* Wikipedia, *[Reshetikhin-Turaev invariant](https://en.wikipedia.org/wiki/Reshetikhin%E2%80%93Turaev_invariant)*
 
-(See the dedicated page _[[Help me! I'm trying to understand Bakalov and Kirillov]]_ for help with understanding the computations in this book.)
+See also:
 
-See also
+* [[Jørgen Ellegaard Andersen]], William Petersen, *Construction of Modular Functors from Modular Tensor Categories* ([arXiv:1602.04907](https://arxiv.org/abs/1602.04907))
 
-* [[Kevin Walker]], _On Witten's 3-Manifold Invariants
-_, ([old version](http://canyon23.net/math/1991TQFTNotes.pdf) [draft of new version](http://canyon23.net/math/tc.pdf))
+* [[Jørgen Ellegaard Andersen]], *Construction of the Witten-Reshetikhin-Turaev TQFT from conformal field theory* ([arXiv:1110.5027](https://arxiv.org/abs/1110.5027))
+
+
+* [[Kevin Walker]], _On Witten's 3-Manifold Invariants_ ([old version](http://canyon23.net/math/1991TQFTNotes.pdf) [draft of new version](http://canyon23.net/math/tc.pdf))
 
 Discussion that relates the [[geometric quantization]] of $G$-[[Chern-Simons theory]] to the Reshetikhin-Turaev construction of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
 
@@ -63,26 +75,22 @@ and references cited there.
 
 * Alain Brugui&#232;res, Alexis Virelizier, _Hopf diagrams and quantum invariants_, [math.QA/0505119](http://arxiv.org/abs/math/0505119); _Categorical centers and Reshetikhin-Turaev invariants_, [arxiv/0812.2426](http://arxiv.org/abs/0812.2426)
 
-The relation to the [[Crane-Yetter model]] was discussed in
+Relation to the [[Crane-Yetter model]]:
 
 * {#BarrettGarciIslasMartins04} [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
   
 
 
-[[!redirects Reshetikhin?Turaev construction]]
+[[!redirects Reshetikhin-Turaev construction]]
 [[!redirects Reshetikhin--Turaev construction]]
-[[!redirects ????????∞-∞????? construction]]
-[[!redirects ???????????????? construction]]
-[[!redirects ????????∞--∞????? construction]]
+
 [[!redirects Reshetikin-Turaev model]]
 [[!redirects Reshetikhin-Turaev model]]
-[[!redirects Reshetikhin?Turaev model]]
+[[!redirects Reshetikhin-Turaev model]]
 [[!redirects Reshetikhin--Turaev model]]
+
 [[!redirects Reshetikin-Turaev theory]]
 [[!redirects Reshetikhin-Turaev theory]]
-[[!redirects ????????∞-∞????? model]]
-[[!redirects ???????????????? model]]
-[[!redirects ????????∞--∞????? model]]
 
 [[!redirects Turaev-Reshetikhin TQFT]]
 [[!redirects Turaev-Reshetikhin TQFTs]]
