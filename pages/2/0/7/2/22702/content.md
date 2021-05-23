@@ -59,12 +59,26 @@ in $Q$, there exists morphisms $d:a\to b$ and $e:b \to a$ such that $g \circ d =
 
 * Every [[groupoid]] is a quasigroupoid. 
 
+* Every [[loopoid]] and [[associative quasigroupoid]] is a quasigroupoid.
+
 * A one-object quasigroupoid is a [[quasigroup]]. 
 
 ## Related concepts
 
-* [[quasigroup]]
-
 * [[oidification]]
 
-* [[magmoid]], [[loopoid]], [[associative quasigroupoid]], [[groupoid]]
+  * [[magmoid]], [[magma]]
+
+  * [[unital magmoid]], [[unital magma]]
+
+  * __quasigroupoid__, [[quasigroup]]
+
+  * [[loopoid]], [[loop]]
+
+  * [[semicategory]], [[semigroup]]
+
+  * [[category]], [[monoid]]
+
+  * [[associative quasigroupoid]], [[associative quasigroup]]
+
+  * [[groupoid]], [[group]]
