@@ -258,6 +258,8 @@ Other standard operations on categories include
 
 * [[(n,r)-category]]
 
+[[!include oidification - table]]
+
 
 ## References
 
