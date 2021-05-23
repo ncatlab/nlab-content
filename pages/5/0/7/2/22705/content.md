@@ -11,6 +11,7 @@
 |[[flexible magma]]|[[flexible magmoid]]|
 [[alternative magma]]|[[alternative magmoid]]|
 |[[absorption monoid]]|[[absorption category]]|
+|(left,right) [[cancellative monoid]]|([[left cancellative category|left]],[[right cancellative category|right]]) [[cancellative category]]|
 |[[rig]]|[[CMon]]-[[enriched category]]|
 |[[nonunital ring]]|[[Ab]]-[[enriched magmoid|enriched]] [[semicategory]]|
 |[[nonassociative ring]]|[[Ab]]-[[enriched magmoid|enriched]] [[unital magmoid]]|
@@ -24,11 +25,6 @@
 |[[alternative algebra]]|[[alternative magmoid|alternative]] [[linear magmoid]]|
 |[[strict monoidal category]]|[[strict 2-category]]|
 |[[strict 2-group]]|[[strict 2-groupoid]]|
-|[[graph|loop directed graph]]|[[globular set|2-globular set]]|
-|[[n-globular set]]|[[globular set|(n+1)-globular set]]|
-|[[globular set]]|[[globular set]]|
-|[[strict omega-groupoid]]|[[strict omega-groupoid]]
-|[[crossed complex]]|[[crossed complex]]|
 
 | [[higher algebra|higher algebraic]] [[mathematical structure|structure]] | [[weak enrichment|weak]] [[oidification]] |  
 |----------------|----------|
