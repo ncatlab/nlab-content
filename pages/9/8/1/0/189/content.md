@@ -166,6 +166,7 @@ In [[dependent type theory]] with [[type of types|universes]], a [[type]] equipp
 
 * [[quiver gauge theory]]
 
+[[!include oidification - table]]
 
 ## References
 
