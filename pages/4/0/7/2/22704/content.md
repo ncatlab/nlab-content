@@ -62,8 +62,22 @@ in $Q$ has morphisms $d:a\to b$ and $e:b \to a$ such that $g \circ d = f$ and $f
 
 ## Related concepts
 
-* [[loop]]
-
 * [[oidification]]
+
+  * [[magmoid]], [[magma]]
+
+  * [[unital magmoid]], [[unital magma]]
+
+  * [[quasigroupoid]], [[quasigroup]]
+
+  * __loopoid__, [[loop]]
+
+  * [[semicategory]], [[semigroup]]
+
+  * [[category]], [[monoid]]
+
+  * [[associative quasigroupoid]], [[associative quasigroup]]
+
+  * [[groupoid]], [[group]]
 
 [[!redirects loopoids]]
