@@ -1,4 +1,4 @@
-| set-algebraic structure | [[oidification]] |  
+| [[algebra|algebraic]] [[mathematical structure|structure]] | [[oidification]] |  
 |----------------|----------|
 |[[set]]|[[quiver]]
 |[[magma]]|[[magmoid]]|
