@@ -216,3 +216,8 @@ Some introductory material on the relation between quivers (there called _multig
 [[!redirects quivers]]
 [[!redirects directed pseudograph]]
 [[!redirects directed pseudographs]]
+
+[[!redirects weak quiver]]
+[[!redirects weak quivers]]
+[[!redirects strict quiver]]
+[[!redirects strict quivers]]
