@@ -450,12 +450,13 @@ $$
 
   [[topological quantum computation]]
 
-
 * [braid group cryptography](cryptography#BraidGroupCryptographyReferences)
 
 * [[braid category]]
 
 * [[infinitesimal braid relation]]
+
+* [[loop braid group]]
 
 [[!include chord diagrams and weight systems -- table]]
 
