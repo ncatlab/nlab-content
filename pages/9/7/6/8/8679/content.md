@@ -45,7 +45,7 @@ The original article
 
 * [[Vladimir Turaev]] and O. Ya. Viro, _State sum invariants of 3-manifolds and quantum 6jsymbols_, Topology 31 (1992), no. 4, 865&#8211;902, DOI 10.1016/0040-9383(92)90015-A. MR1191386 
 
-* [[Vladimir Turaev]], _Quantum invariants of knots and 3-manifolds_, vol. 18 of de Gruyter Studies in Mathematics. Walter de Gruyter & Co., Berlin, 1994
+* [[Vladimir Turaev]], _Quantum invariants of knots and 3-manifolds_, de Gruyter Studies in Mathematics **18** Walter de Gruyter & Co., Berlin, 1994 ([doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221))
 
 constructed 3-manifold invariants from quantum [[6j symbols]]. See also 
 
