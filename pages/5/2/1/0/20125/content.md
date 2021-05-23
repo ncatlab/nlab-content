@@ -266,6 +266,15 @@ See also
 * [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
 
 
+### In quantum computation
+
+In [[quantum computation]]:
+
+* {#KimSwingle17} [[Isaac H. Kim]], [[Brian Swingle]], *Robust entanglement renormalization on a noisy quantum computer* ([arXiv:1711.07500](https://arxiv.org/abs/1711.07500))
+
+  > (specifically for [classically controlled quantum computation](quantum+computation#ClassicalControlQuantumData) in terms of [[holographic entanglement entropy|holographic]] [[tensor network]] states)
+
+
 
 
 ### As quantum error correcting codes
