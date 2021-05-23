@@ -61,11 +61,11 @@ for all $a,b,c \in Ob(Q)$.
 
 A [[transitive relation]] is a magmoid [[enriched category|enriched]] on [[truth values]], or a magmoid $M$ where thete is at most one morphism from every object $a$ to object $b$ in $M$
 
+[[!include oidification - table]]
+
 ## Related concepts
 
 * [[magmoidal category]]
-
-[[!include oidification - table]]
 
 [[!redirects magmoids]]
 
