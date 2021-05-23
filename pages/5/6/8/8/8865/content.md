@@ -32,9 +32,13 @@ Etc.
 
 * [[differential graded-commutative algebra]]
 
+* [[differential algebroid]]
+
 ## References
 
 * [[differential Galois theory]]
+
+[[!include oidification - table]]
 
 [[!redirects differential algebras]]
 [[!redirects differential field]]
