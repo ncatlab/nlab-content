@@ -131,6 +131,10 @@ $$T Q \to Q \times V: w \mapsto (\pi(w), d(M_{\pi(w)} \circ J))(w)).$$
 This shows $T Q$ is isomorphic to the product bundle $Q \times V$. 
 =--  
 
+## Related concepts
+
+* [[quasigroupoid]]
+
 ## Literature
 
 * [[eom]]: [quasi-group](http://www.encyclopediaofmath.org/index.php/Quasi-group), [Webs, geometry of](http://www.encyclopediaofmath.org/index.php/Webs,_geometry_of), [Net (in differential geometry)](http://www.encyclopediaofmath.org/index.php/Net_%28in_differential_geometry%29)
