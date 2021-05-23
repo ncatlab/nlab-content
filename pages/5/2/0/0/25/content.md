@@ -2,6 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Categorification
 +-- {: .hide}
 [[!include categorification - contents]]
@@ -49,8 +57,6 @@ But for a more precise statement one needs a more conceptual way to think of Lie
 
 * A horizontal categorification of rings are [[ringoid]]s: [[enriched category|enriched categories]] over the category of abelian groups. ([blog](http://golem.ph.utexas.edu/category/2006/09/ringoids.html))
 
-* A horizontal categorification of [[magma|magmas]] are [[magmoid|magmoids]]. 
-
 * A horizontal categorification of $C^*$-algebras hence ought to be known as _$C^*$--algebroids_  but is usually known as [[C-star-category|C*-categories]].
 
 * Since, by the [[Gelfand-Naimark theorem]], [[C-star algebra]]s are dual to [[topological space]]s, Paolo Bertozzini et. al proposed to define [[spaceoid]]s to be entities dual to $C^*$-categories ([blog](http://golem.ph.utexas.edu/category/2008/01/spaceoids.html)).
@@ -63,9 +69,7 @@ But for a more precise statement one needs a more conceptual way to think of Lie
 [[Urs Schreiber|Urs]]: good point. We should say this at the beginning and split the list of examples in two sorts 
 =--
 
-+--{: .query}
-[[Theresa May]]: Could a [[quiver]] be said to be a horizontal categorification of a [[set]], even though quivers are not categories?
-=--
+[[!include oidification - table]]
 
 ## Further discussion
 
