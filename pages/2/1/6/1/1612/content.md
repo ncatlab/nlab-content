@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -71,11 +72,25 @@ Modular tensor categories arise as [[representation]] categories of [[vertex ope
 
 ### General
 
-A review is for instance in section 2.1 of ([Fuchs-Runkel-Schweigert 02](#FuchsRunkelSchweigert02)).
+Original article:
+
+* [[Vladimir Turaev]], *Modular categories and 3-manifold invariants*,  International Journal of Modern Physics B Vol. 06, No. 11n12, pp. 1807-1824 (1992) ([doi:10.1142/S0217979292000876](https://doi.org/10.1142/S0217979292000876))
+
+Review: 
+
+* [Fuchs-Runkel-Schweigert 02, Sec. 2.1](#FuchsRunkelSchweigert02)
+
+* [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
+
+  > (with focus on relation to [[braid representations]])
 
 A list of examples (with an emphasis on [[representation categories]] of rational [[vertex operator algebras]]) is in
 
 * {#GannonHoehn} [[Terry Gannon]], [[Gerald Höhn]], Hiroshi Yamauchi, _[The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas/)_
+
+Partial classification:
+
+* [[Eric Rowell]], [[Richard Stong]], [[Zhenghan Wang]], *On classification of modular tensor categories*, Comm. Math. Phys. 292 (2009) no. 2, 343--389 ([arXiv:0712.1377](https://arxiv.org/abs/0712.1377))
 
 
 ### Relation to 3dCS/2dWZW quantum field theory
@@ -98,7 +113,7 @@ More specific discussion in the context of [[2d CFT]] is in
 
 Review of construction of MTCs from [[vertex operator algebras]] is in
 
-* James Lepowsky, _From the representation theory of vertex operator algebras to modular tensor categories in conformal field theory_ ([pdf](http://www.pnas.org/content/102/15/5304.full.pdf))
+* [[James Lepowsky]], _From the representation theory of vertex operator algebras to modular tensor categories in conformal field theory_ ([pdf](http://www.pnas.org/content/102/15/5304.full.pdf))
 
 Discussion from the point of view of the [[cobordism hypothesis]] (see also the discussion at [[fusion category]]) is in 
 
