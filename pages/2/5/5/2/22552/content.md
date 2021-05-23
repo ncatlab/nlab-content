@@ -68,3 +68,6 @@ A [[transitive relation]] is a magmoid [[enriched category|enriched]] on [[truth
 [[!include oidification - table]]
 
 [[!redirects magmoids]]
+
+[[!redirects enriched magmoid]]
+[[!redirects enriched magmoids]]
