@@ -50,7 +50,8 @@ To deduce the local version from the global version, given $(A_i)_{i\in I}$ let 
 
 ## References
 
-* {#Makkai} [[Michael Makkai]], [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/).
+* {#Makkai} [[Michael Makkai]], _Avoiding the axiom of choice in general category theory_, Journal of Pure and Applied Algebra **108** isse 2 (1996) pp 109-173, doi:[10.1016/0022-4049(95)00029-1](https://doi.org/10.1016/0022-4049%2895%2900029-1), ([author's page](http://www.math.mcgill.ca/makkai/anafun/)) 
+
 
 [[!redirects SCSA]]
 
