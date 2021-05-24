@@ -223,6 +223,9 @@ Application of classically controlled quantum computation:
 
 * Sukin Sim, Peter D. Johnson, Alan Aspuru-Guzik, *Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms*, Adv. Quantum Technol. 2 (2019) 1900070 ([arXiv:1905.10876](https://arxiv.org/abs/1905.10876))
 
+
+* {#ShaydulinEtAl19} Ruslan Shaydulin et al., *A Hybrid Approach for Solving Optimization Problems on Small Quantum Computers* ([doi:10.1109/MC.2019.2908942](https://doi.ieeecomputersociety.org/10.1109/MC.2019.2908942))
+
 * Eneko Osaba, Esther Villar-Rodriguez, Izaskun Oregi, Aitor Moreno-Fernandez-de-Leceta, *Focusing on the Hybrid Quantum Computing -- Tabu Search Algorithm: new results on the Asymmetric Salesman Problem* ([arXiv:2102.05919](https://arxiv.org/abs/2102.05919))
 
 
