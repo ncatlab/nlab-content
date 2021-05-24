@@ -77,6 +77,12 @@ The topological insulator in 2D exhibiting a quantum spin Hall effect has been f
  
 * L. Wu et al. _Quantized Faraday and Kerr rotation and axion electrodynamics of a 3D topological insulator_, Science (2016). [doi](http://dx.doi.org/10.1126/science.aaf5541)
 
+Discussion via [[AdS/CFT in solid state physics]]:
+
+* Georgios Linardopoulos, *Modelling Topological Materials with D-branes*, INPP Annual Meeting 2017 ([pdf](https://indico.cern.ch/event/680759/contributions/2789343/attachments/1559809/2454998/Linardopoulos.pdf), [[LinardopoulosTopologicalMaterialsWithDBranes.pdf:file]])
+
+
+
 category: physics
 
 [[!redirects topological insulators]]
