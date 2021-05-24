@@ -48,7 +48,7 @@ equals the [[identity morphism]] on $X$.
 
 ## In non-unital contexts
 
-These can be a little more complicated; see [[quasigroup]] for some discussion of the one-object version, and [[quasigroupoid]] for the many-object version. 
+These can be a little more complicated; see [[quasigroup]] and [[possibly empty loop]] for some discussion of the one-object version, and [[quasigroupoid]] for the many-object version. 
 
 
 ## Related concepts
