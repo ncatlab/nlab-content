@@ -17,6 +17,10 @@ On [[black holes in string theory]] via the [[BFSS matrix model]]:
 
 * [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes in Various Dimensions from Matrix Theory_, Phys.Lett.B416:62-66,1998 ([arXiv:hep-th/9709108](https://arxiv.org/abs/hep-th/9709108))
 
+Introducing the notion of [[giant gravitons]]:
+
+* [[John McGreevy]], [[Leonard Susskind]], [[Nicolaos Toumbas]], _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008, 2000 ([arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075))
+
 Proposing [[ER = EPR]]:
 
  * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
