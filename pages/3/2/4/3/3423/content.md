@@ -23,7 +23,7 @@ __$Loc$__ or **$Locale$** is the [[category]] whose [[objects]] are [[locales]] 
 
 $Loc$ is used as a substitute for [[Top]] if one wishes to do [[topology]] with locales instead of standard [[topological spaces]].
 
-$Loc$ is naturally a [[(1,2)-category]]; its [[2-morphism]] are the pointwise ordering of [[frame]] homomorphisms. 
+$Loc$ is naturally a [[(1,2)-category]]; its [[2-morphisms]] are the pointwise ordering of [[frame]] homomorphisms. 
 
 +-- {: .num_defn}
 ###### Definition
@@ -34,7 +34,7 @@ The [[2-category]] [[Locale]] has
 
 * as [[morphisms]] $f : X \to Y$ frame homomorphisms $f^* : Op(Y) \to Op(X)$;
 
-* a unique [[2-morphisms]] $f \Rightarrow g$ whenever for all $U \in Op(Y)$ we have a (then necessarily unique) morphism $f^* U \to g^* U$.
+* a unique [[2-morphism]] $f \Rightarrow g$ whenever for all $U \in Op(Y)$ we have a (then necessarily unique) morphism $f^* U \to g^* U$.
 
 =--
 
