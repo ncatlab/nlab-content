@@ -25,6 +25,20 @@ In [[algebra]] a *loop* is a [[quasigroup]] with (two-sided) [[identity element]
 
 A __left loop__ is a [[unital magma]] $(G, (-)\cdot(-):G\times G\to G,1:G)$ equipped with a __left division__ $(-)\backslash(-):G \times G \to G$  such that $x \cdot (x \backslash y) = y$ and $x \backslash (x \cdot y) = y$. A __right loop__ is a [[unital magma]] $(G, (-)\cdot(-):G\times G\to G,1:G)$ equipped with a __right division__ $(-)/(-):G \times G \to G$ such that $(x / y) \cdot y = x$ and $(x \cdot y) / y = x$. A __two-sided loop__ or just a __loop__ is a unital magma that is both a left loop and a right loop. 
 
+There is another definition of a loop using only division: 
+
+A __left loop__ is a [[pointed]] [[magma]] $(G,\backslash,1)$ such that:
+
+  * For all $a$ and $b$ in $G$, $a\backslash a=1$
+  * For all $a$ in $G$, $(a\backslash 1)\backslash 1=a$
+
+A __right loop__ is a [[pointed]] [[magma]] $(G,/)$ such that:
+
+  * For all $a$ and $b$ in $G$, $a/a=1$
+  * For all $a$ in $G$, $1/(1/a)=a$
+
+A __loop__ is a left and right loop as defined above $(G,\backslash,/,1)$ such that $a/(1/b) = (a\backslash 1)\backslash b$ for all $a$ and $b$ in $G$.
+
 Loops are described by a Lawvere theory.
 
 Note that, even in a loop, left and right inverses need not agree.  See [the discussion on the English Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Quasigroup#Inverse_properties) for convenient inverse properties.
