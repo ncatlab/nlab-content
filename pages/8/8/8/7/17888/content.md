@@ -41,20 +41,6 @@ There are numerous related abstractions of this, relating to different aspects o
 1. In a [[co-Heyting algebra]], which are models of [[subtractive logic]], subtraction is the operation [[left adjoint]] to the [[join]] operator:
 $$ (- \setminus y) \dashv (y \vee -)$$
 
-1. A [[possibly empty abelian group]] is a set $A$ with a binary operation $(-)-(-):A \to A$ called __subtraction__ satisfying the following axioms:
-$$
-  \forall a,b:A.a-a=b-b
-$$
-$$
-  \forall a:A.(a-a)-((a-a)-a)=a
-$$
-$$
-  \forall a,b,c:A.a-(b-c)=(a-((c-c)-c)-b
-$$
-$$
-  \forall a,b:A.a-((b-b)-b)=b-((a-a)-a)
-$$
-
 ## Properties
 
 ...
