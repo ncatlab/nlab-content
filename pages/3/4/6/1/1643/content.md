@@ -28,6 +28,8 @@ A magma is called
 
 * _[[associative magma|associative]]_ if the binary operation satisfies the [[associativity]] condition $(x \cdot y) \cdot z = x \cdot (y \cdot z)$;
 
+* _[[invertible magma|invertible]]_ if it has an [[inverse element]].
+
 * an _[[absorption magma]]_ if it has an element $0 \in S$ such that the binary opetation satisfies the absorption condition: $0 \cdot x = x \cdot 0 = 0$;
 
 * a *[[quasigroup]]* if one-sided multiplication by any element is a [[bijection]].
