@@ -166,6 +166,8 @@ The fiberwiese linear dual of a Lie algebroid (regarded as a vector bundle) is n
 
 * [[super Lie algebroid]]
 
+[[!include oidification - table]]
+
 ## References
 
 The concept of Lie algebroid was introduced in
