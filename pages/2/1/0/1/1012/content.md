@@ -46,10 +46,9 @@ equals the [[identity morphism]] on $X$.
 
 * In a [[balanced category]], such as a [[topos]] or more particularly [[Set]], every morphism that is both [[monomorphism|monic]] and [[epimorphism|epic]] is an [[isomorphism]] and thus has an inverse. A [[partial order]] is an unbalanced category where every morphism is both monic and epic. Only its [[identity morphisms]] have inverses. 
 
-## In non-associative or non-unital contexts
+## In non-unital contexts
 
-These can be a little more complicated; see [[quasigroup]], [[nonassociative group, and [[possibly empty loop]] for some discussion of the one-object version, and [[quasigroupoid]] for the many-object version. 
-
+These can be a little more complicated; see [[invertible magma]] for some discussion of the one-object version. 
 
 ## Related concepts
 
