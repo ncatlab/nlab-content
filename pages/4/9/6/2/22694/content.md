@@ -14,11 +14,11 @@
 
 ## Definition
 
-A __commutative [[quasigroup]]__ is a [[commutative magma]] $(G,(-)\cdot(-):G \times G \to G)$ equipped with a __quotient__ $\frac{(-)}{(-)}:G \times G \to G$ such that $\frac{x}{y} \cdot y = x$ and $\frac{x \cdot y}{y} = x$. 
+A __commutative [[quasigroup]]__ is a [[commutative magma]] $(G,(-)\cdot(-):G \times G \to G)$ equipped with a binary operation $(-)/(-):G \times G \to G$ called __division__ such that $(x/y) \cdot y = x$ and $(x \cdot y)/y = x$. 
 
 ## Examples
 
-* Every commutative [[loop]] is an commutative quasigroup. 
+* Every [[commutative loop]] is a commutative quasigroup. 
 
 * The [[empty magma]] is a commutative quasigroup. 
 
