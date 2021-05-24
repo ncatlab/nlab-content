@@ -100,7 +100,7 @@ Here, $(\infty,1)\widehat{Cat}$ is the (∞,1)-category of large (∞,1)-categor
 
 =--
 
-This follows from ([[Higher Topos Theory|HTT, prop. 5.3.6.10]]), together with the identification of $PSh(C)$ with the category obtained by freely adjoining small colimits to $C$. This functor is locally left adjoint to the contravariant functor determined by the pointwise formula $PSh(C) \simeq (\infty,1)Cat^{C^{op}}$.
+This follows from ([[Higher Topos Theory|HTT, prop. 5.3.6.10]]), together with the identification of $PSh(C)$ with the category obtained by freely adjoining small colimits to $C$. This functor is locally left adjoint to the contravariant functor $C \mapsto Func(C^\op, \infty Grpd)$.
 
 ### Preservation of limits
 
