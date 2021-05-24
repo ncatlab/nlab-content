@@ -42,23 +42,7 @@ A __possibly empty loop__ is a possibly empty left and right loop as defined abo
 
 ### With multiplication and inverses
 
-A __possibly empty left loop__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ and a unary operation called the __left inverse__ $^{-1}(-):G \to G$ such that 
-
-* ${^{-1}a} \cdot a = {^{-1}b} \cdot b$
-* $b \cdot ({^{-1}b} \cdot a) = a$ 
-* ${^{-1}b} \cdot (b \cdot a) = a$
-
-for all $a,b \in G$. For any element $a$ in a possibly empty left loop $G$, the element ${^{-1}a} \cdot a$ is called a __right identity element__, and for all elements $a$ and $b$ in $G$, __left division__ is defined as $b \backslash a = {^{-1}}b \cdot a$.
-
-A __possibly empty right loop__ is a [[magma]] $G,(-)\cdot(-):G\times G\to G)$ and a unary operation called the __right inverse__ $(-)^{-1}:G \to G$ such that 
-
-* $a \cdot a^{-1} = b \cdot b^{-1}$
-* $(a \cdot b^{-1}) \cdot b = a$ 
-* $(a \cdot b) \cdot b^{-1} = a$
-
-for all $a,b \in G$. For any element $a$ in a possibly empty right loop $G$, the element $a \cdot a^{-1}$ is called a __right identity element__, and for all elements $a$ and $b$ in $G$, __left division__ is defined as $a / b = a \cdot b^{-1}$.
-
-A __possibly empty two-sided loop__ or just __possibly empty loop__ is a magma $(G,(-)\cdot(-):G\times G\to G)$ that is both a possibly empty left loop and a possibly empty right loop such that left and right identity elements are the same: $a \cdot a^{-1} = {^{-1}a} \cdot a$ for all $a$ in $G$. 
+A __possibly empty loop__ is a set $G$ with a binary operation, __multiplication__ $(-)\cdot(-):G\times G\to G)$, and two unary operations, the __left inverse__ ${^{-1}(-)}:G \to G$ and the __right inverse__ $(-)^{-1}:G \to G$, such that $G$ with multiplication and the left inverse is a left [[invertible magma]] and $G$ with multiplication and the right inverse is a right [[invertible magma]]. 
 
 ## Examples
 
