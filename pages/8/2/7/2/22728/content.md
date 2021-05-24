@@ -14,7 +14,7 @@
 
 ## Idea
 
-A non-associative [[group]], or a [[loop (algebra)|loop]] whose left and right [[inverses]] are the same. 
+A non-associative [[group]], or an [[invertible magma|invertible]] [[unital magma]]. Nonassociative is used in the sense of not-necessarily associative, in the same sense that a [[nonassociative algebra]] is not-necessarily associative. 
 
 ## Definition
 
