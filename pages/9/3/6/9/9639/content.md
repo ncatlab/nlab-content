@@ -108,6 +108,9 @@ In terms of [[Berry phase]] and Chern numbers in
 
 * Joseph E. Avron, Daniel Osadchy, Ruedi Seiler, _A Topological look at the quantum Hall effect_, Physics Today __56__:8, [doi](http://dx.doi.org/10.1063/1.1611351)
 
+Realization via [[AdS/CFT in condensed matter physics]]:
+
+* Mitsutoshi Fujita, Wei Li, Shinsei Ryu, Tadashi Takayanagi, *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) ([arXiv:0901.0924](https://arxiv.org/abs/0901.0924))
 
 
 
