@@ -238,6 +238,8 @@ The assumption of naturality is necessary for the Yoneda lemma to hold. A simple
 
 A finite counter-example is given by the category with two objects $A$ and $B$, in which $Hom(A,A) = Hom(A,B) = Hom(B,B) = \{0, 1\}$, in which $Hom(B,A) = \{0, 2\}$, and composition is multiplication modulo 2. Here, again, it is certainly the case that $Hom(A,-)$ is isomorphic to $Hom(B,-)$ for any choice of $-$, but $A$ and $B$ are not isomorphic (composition with any arrow $B \rightarrow A$ is $0$, so cannot have an inverse, since $1$ is the identity on $A$ and $B$).
 
+On the other hand, there have been examples of locally finite categories where naturality is not necessary. For example, ([Lovász, Theorem 3.6 (iv)](#Lovasz)) states precisely that finite relational structures $A$ and $B$ are isomorphic if, and only if, $Hom(C,A) \cong Hom(C,B)$ for every finite relational structure $C$. Later ([Pultr, Theorem 2.2](#Pultr)) generalised the result to finitely well-powered, locally finite categories with (extremal epi, mono) [[factorization system]].
+
 ## The Yoneda lemma in semicategories
 
 An interesting phenomenon arises in the case of [[semicategory|semicategories]] i.e. "categories" (possibly) lacking [[identity morphisms]]: 
@@ -307,6 +309,11 @@ A discussion of the Yoneda lemma from the point of view of [[universal algebra]]
 A treatment of the Yoneda lemma for [[internal category in an (infinity,1)-category|categories internal to an (∞,1)-topos]] is in 
 
 * Louis Martini, _Yoneda's lemma for internal higher categories_, ([arXiv:2103.17141](https://arxiv.org/abs/2103.17141))
+
+Early Lovász-Type results include
+
+* {#Lovasz} László Lovász, _Operations with structures_, Acta Mathematica Academiae Scientiarum Hungarica 18.3-4 (1967): 321-328.
+* {#Pultr} Aleš Pultr. _Isomorphism types of objects in categories determined by numbers of morphisms_, Acta Scientiarum Mathematicarum, 35:155–160, 1973.
 
 
 [[!redirects yoneda lemma]]
