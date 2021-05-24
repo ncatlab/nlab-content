@@ -23,6 +23,8 @@ Possibly empty groups arise from [[pseudo-torsors]], or equivalently from associ
 
 ## Definition
 
+### With division only
+
 A __possibly empty left group__ is a [[set]] $G$ with a binary operation $(-)\backslash(-):G \times G \to G$ (a [[magma]]) such that:
 
   * For all $a$ and $b$ in $G$, $a\backslash a=b\backslash b$
@@ -47,7 +49,27 @@ A __possibly empty group__ is a possibly empty left and right group as defined a
 
 * left and right multiplications are equal (i.e. $a/((b/b)/b) = (a\backslash (a\backslash a))\backslash b$) for all $a$ and $b$ in $G$. 
 
-### Alternate definition
+### With multiplication and inverses
+
+A __possibly empty left group__ is a [[semigroup]] $(G,(-)\cdot(-):G\times G\to G)$ and a unary operation called the __left inverse__ $^{-1}(-):G \to G$ such that 
+
+* ${^{-1}a} \cdot a = {^{-1}b} \cdot b$
+* $b \cdot ({^{-1}b} \cdot a) = a$ 
+* ${^{-1}b} \cdot (b \cdot a) = a$
+
+for all $a,b \in G$. For any element $a$ in a possibly empty left group $G$, the element ${^{-1}a} \cdot a$ is called a __right identity element__, and for all elements $a$ and $b$ in $G$, __left division__ is defined as $b \backslash a = {^{-1}}b \cdot a$.
+
+A __possibly empty right group__ is a [[semigroup]] $G,(-)\cdot(-):G\times G\to G)$ and a unary operation called the __right inverse__ $(-)^{-1}:G \to G$ such that 
+
+* $a \cdot a^{-1} = b \cdot b^{-1}$
+* $(a \cdot b^{-1}) \cdot b = a$ 
+* $(a \cdot b) \cdot b^{-1} = a$
+
+for all $a,b \in G$. For any element $a$ in a possibly empty right group $G$, the element $a \cdot a^{-1}$ is called a __right identity element__, and for all elements $a$ and $b$ in $G$, __left division__ is defined as $a / b = a \cdot b^{-1}$.
+
+A __possibly empty two-sided group__ or just __possibly empty group__ is a semigroup $(G,(-)\cdot(-):G\times G\to G)$ that is both a possibly empty left group and a possibly empty right group such that left and right identity elements are the same: $a \cdot a^{-1} = {^{-1}a} \cdot a$ for all $a$ in $G$, and left and right inverse elements are the same: $a^{-1} = {^{-1}a}$ for all $a$ in $G$.
+
+### Torsor-like definition
 
 There is an alternate definition of a possibly empty group that looks like the usual definition of a [[torsor]] or [[heap]]:
 
@@ -62,7 +84,7 @@ One could then define __left division__ to be $a \backslash b = a^{-1} \cdot b$ 
 
 ## Pseudo-torsor
 
-Every possibly empty left group $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = (x\backslash (x\backslash x))\backslash (y \backslash z)$. Every possibly empty right group $H$ has a pseudo-torsor $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x/y)/((z/z)/z)$. This means every possibly empty group has two pseudo-torsors. If the (left or right) possibly empty group is inhabited, then those pseudo-torsors are actually [[torsors]]. 
+Every possibly empty group $G$ has a pseudo-torsor $t:G^3\to G$ defined as $t(x,y,z)=x\cdot y^{-1}\cdot z$. If the possibly empty group is inhabited, then those pseudo-torsors are actually [[torsors]]. 
 
 ## Examples
 
