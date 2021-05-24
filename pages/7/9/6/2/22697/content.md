@@ -12,6 +12,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+There should be a non-associative version of a [[possibly empty group]], given that one of the axioms in that article states, using only division, that the derived multiplication binary operation is associative. That leads to the concept of a _possibly empty loop_. 
+
 ## Definition
 
 A __possibly empty left loop__ is a [[magma]] $(G,\backslash)$ such that:
