@@ -49,4 +49,4 @@ for all $a,b \in G$.
 
 * [[commutative loop]] (unital version)
 
-* [[possibly empty abelian group]] (associative version)
+* [[commutative invertible semigroup]] (associative version)
