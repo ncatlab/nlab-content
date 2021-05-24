@@ -12,6 +12,16 @@
 * table of contents
 {:toc}
 
+## Idea
+
+There should be an [[commutative|abelian]] version of a [[possibly empty group]], in the same way that [[abelian groups]] are the abelian version of [[groups]]. 
+
+In particular, this means that the left and right division operations are the same, and we only need one of them, which is canonically chosen classically as the right division operation. As abelian groups are usually written additively instead of multiplicatively, the binary operation becomes subtraction instead. 
+
+The definition of a possibly empty abelian group given below is a variant of the definition of a [[possibly empty group]], which [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
+
+## Definition
+
 A __possibly empty abelian group__ is a [[set]] $G$ with a binary operation $(-)-(-):G \times G \to G$ called __[[subtraction]]__ such that:
 
   * For all $a$ and $b$ in $G$, $a-a=b-b$
@@ -29,9 +39,9 @@ For any element $a$ in a possibly empty abelian group $G$, the element $a-a$ is 
 
 ## Related concepts
 
-* [[possibly empty group]] (non-associative version)
+* [[possibly empty group]] (non-commutative version)
 
-* [[possibly empty abelian loop]] (non-commutative version)
+* [[possibly empty abelian loop]] (non-associative version)
 
 * [[possibly empty nonunital ring]] (semigroup object in the category of possibly empty abelian groups)
 
