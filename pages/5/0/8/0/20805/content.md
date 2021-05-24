@@ -36,6 +36,9 @@ On [[SYM]]-[[AdS-CFT duality|duals]] of [[giant gravitons]] and indexing of [[BP
 
 * Garreth Kemp, [[Sanjaye Ramgoolam]], *BPS states, conserved charges and centres of symmetric group algebras*, JHEP 01 (2020) 146 ([arXiv:1911.11649](https://arxiv.org/abs/1911.11649))
 
+On [[quantum information]] processing
+
+* [[Sanjaye Ramgoolam]], Michal Sedlák, _Quantum information processing and composite quantum fields_, Journal of High Energy Physics 2019, 170 (2019) [doi:10.1007/JHEP01(2019)170](https://doi.org/10.1007/JHEP01%282019%29170)
 
 category: people
 
