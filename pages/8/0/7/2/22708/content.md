@@ -74,6 +74,8 @@ Local analytic loops have interesting induced structure on the tangent space at 
 
 * [[possibly empty loop]]
 
+* [[nonassociative group]]
+
 [[!include oidification - table]]
 
 ## Literature
