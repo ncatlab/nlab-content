@@ -60,6 +60,8 @@ A __two-sided invertible magma__ or an __invertible magma__ is a [[magma]] $(G,(
 
 * [[nonassociative group]]
 
+* [[commutative invertible magma]]
+
 * [[possibly empty loop]]
 
 * [[possibly empty group]]
