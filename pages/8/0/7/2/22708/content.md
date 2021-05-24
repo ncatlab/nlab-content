@@ -53,11 +53,13 @@ A __loop__ is a left and right loop as defined above $(G,\backslash,/,1)$ such t
 
 Loops are described by a Lawvere theory.
 
-Note that, even in a loop, left and right inverses need not agree.  See [the discussion on the English Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Quasigroup#Inverse_properties) for convenient inverse properties.
+Note that, even in a loop, left and right inverses need not agree.  See [the discussion on the English Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Quasigroup#Inverse_properties) for convenient inverse properties. A loop with a two-sided inverse is a [[nonassociative group]]. 
 
 ## Examples
 
 *  Any [[group]] is a loop.
+
+* Any [[nonassociative group]] is a loop. 
 
 *  The nonzero elements of a (not necessarily associative) unital [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
 * [[code loop]]s are loops which are central extensions of abelian groups (actually vector spaces over the finite field $\mathbb{F}_2$) by $\mathbb{Z}_2$.
