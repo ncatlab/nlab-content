@@ -13,6 +13,11 @@ On [[quantum error correcting codes]] associated with planar bulk/boundary syste
 
 * S. B. Bravyi, [[Alexei Kitaev]], *Quantum codes on a lattice with boundary* ([arXiv:quant-ph/9811052](https://arxiv.org/abs/quant-ph/9811052))
 
+On [[entanglement entropy]] as an indicator of [[topological phases of matter]]:
+
+* [[Alexei Kitaev]], [[John Preskill]], *Topological entanglement entropy*, Phys. Rev. Lett. 96 (2006) 110404 ([arXiv:hep-th/0510092](https://arxiv.org/abs/hep-th/0510092))
+
+
 On the classification of [[gapped Hamiltonians]]/[[topological insulators]] by [[topological K-theory]]:
 
 * [[Alexei Kitaev]], _Periodic table for topological insulators and superconductors_, talk at: L.D.Landau Memorial Conference "Advances in Theoretical Physics", June 22-26, 2008, In:AIP Conference Proceedings 1134, 22 (2009) ([arXiv:0901.2686](https://arxiv.org/abs/0901.2686), [doi:10.1063/1.3149495](https://doi.org/10.1063/1.3149495))
