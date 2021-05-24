@@ -14,7 +14,7 @@
 
 ## Idea
 
-There should be a non-associative version of a [[possibly empty group]], given that one of the axioms in that article states, using only division, that the derived multiplication binary operation is associative. That leads to the concept of a _possibly empty loop_. 
+There should be a non-associative version of a [[possibly empty group]], similar to how a [[loop (algebra)|loop]] is a non-associative [[group]], and given that one of the axioms in that article states, using only division, that the derived multiplication binary operation is associative. That leads to the concept of a _possibly empty loop_, which is an example of [[centipede mathematics]]
 
 The definition of a possibly empty loop given below is a variant of the definition of a [[possibly empty group]], which [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
 
@@ -38,13 +38,11 @@ A __possibly empty loop__ is a possibly empty left and right loop as defined abo
 
 * left and right identity elements are equal (i.e. $a/a = a \backslash a$) for all $a$ in $G$
 
-* left and right inverse elements are equal (i.e. $(a/a)/a = a\backslash (a\backslash a)$) for all $a$ in $G$
-
 * left and right multiplications are equal (i.e. $a/((b/b)/b) = (a\backslash (a\backslash a))\backslash b$) for all $a$ and $b$ in $G$. 
 
 ## Examples
 
-* Every [[loop]] is a possibly empty loop. 
+* Every [[loop (algebra)|loop]] is a possibly empty loop. 
 
 * Every possibly empty group is a possibly empty loop. 
 
@@ -55,3 +53,5 @@ A __possibly empty loop__ is a possibly empty left and right loop as defined abo
 * [[possibly empty group]] (associative version)
 
 * [[possibly empty abelian loop]] (commutative version)
+
+* [[loop (algebra)|loop]]
