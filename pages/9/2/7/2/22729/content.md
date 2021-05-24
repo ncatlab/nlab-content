@@ -24,7 +24,7 @@ A __left invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with
 
 * $a \cdot (b^{-1} \cdot b) = a$
 * $(b^{-1} \cdot b) \cdot a = a$
-* $(a \cdot b^{-1}) \cdot b = a$ 
+* $b \cdot (b^{-1} \cdot a) = a$ 
 * $b^{-1} \cdot (b \cdot a) = a$
 
 for all $a,b \in G$. For any element $a$ in a left invertible magma $G$, the element $a^{-1} \cdot a$ is called a __identity element__, and for all elements $a$ and $b$ in $G$, __left division__ is defined as $a / b = a \cdot b^{-1}$. As a result, every left invertible magma is a left [[quasigroup]]. 
@@ -34,7 +34,7 @@ A __right invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ wit
 * $a \cdot (b \cdot b^{-1}) = a$
 * $(b \cdot b^{-1}) \cdot a = a$
 * $(a \cdot b) \cdot b^{-1} = a$
-* $b \cdot (b^{-1} \cdot a) = a$ 
+* $(a \cdot b^{-1}) \cdot b = a$ 
 
 for all $a,b \in G$. For any element $a$ in a possibly empty right loop $G$, the element $a \cdot a^{-1}$ is called a __identity element__, and for all elements $a$ and $b$ in $G$, __right division__ is defined as $a / b = a \cdot b^{-1}$. As a result, every right invertible magma is a right [[quasigroup]]. 
 
