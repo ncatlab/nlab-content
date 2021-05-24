@@ -26,6 +26,7 @@
 |[[differential algebra]]|[[differential algebroid]]|
 |[[flexible algebra]]|[[flexible magmoid|flexible]] [[linear magmoid]]|
 |[[alternative algebra]]|[[alternative magmoid|alternative]] [[linear magmoid]]|
+|[[Lie algebra]]|[[Lie algebroid]]|
 |[[strict monoidal category]]|[[strict 2-category]]|
 |[[strict 2-group]]|[[strict 2-groupoid]]|
 |[[monoidal poset]]|[[2-poset]]|
