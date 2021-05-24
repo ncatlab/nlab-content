@@ -47,6 +47,18 @@ A __possibly empty group__ is a possibly empty left and right group as defined a
 
 * left and right multiplications are equal (i.e. $a/((b/b)/b) = (a\backslash (a\backslash a))\backslash b$) for all $a$ and $b$ in $G$. 
 
+### Alternate definition
+
+There is an alternate definition of a possibly empty group that looks like the usual definition of a [[torsor]] or [[heap]]:
+
+A __possibly empty group__ is a set $S$ with a binary operation $(-)\cdot(-):S\times S\to S$ called __multiplication__ and a unary operation $(-)^{-1}:S\to S$ called __inverse__ satisfying the following laws:
+
+* [[associativity]]: $a \cdot (b \cdot c) = (a \cdot b) \cdot c$ for all $a,b,c\in S$
+* left [[Malcev operation|Malcev identity]]: $b \cdot b^{-1} \cdot a = a$ for all $a,b\in S$
+* right [[Malcev operation|Malcev identity]]: $a \cdot b^{-1} \cdot b = a$ for all $a,b\in S$
+* [[commutative|commutativity]] with [[inverse elements]]: $a \cdot a^{-1} = a^{-1} \cdot a$ for all $a\in S$
+* [[unique|uniqueness]] of [[identity element]] if [[inhabited]]: $a \cdot a^{-1} = b \cdot b^{-1}$ for all $a,b\in S$
+
 ## Pseudo-torsor
 
 Every possibly empty left group $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = x \cdot (y \backslash z)$. Every possibly empty right group $H$ has a pseudo-torsor $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x / y) \cdot z$. This means every possibly empty group has two pseudo-torsors. If the (left or right) possibly empty group is inhabited, then those pseudo-torsors are actually [[torsors]]. 
