@@ -16,6 +16,8 @@
 
 There should be a non-associative version of a [[possibly empty abelian group]], given that one of the axioms in that article states, using only subtraction, that the derived addition binary operation is associative. That leads to the concept of a _possibly empty abelian loop_. 
 
+The definition of a possibly empty abelian loop given below is a variant of the definition of a [[possibly empty abelian group]], which itself is a variant of the definition of a [[possibly empty group]], which [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
+
 ## Definition
 
 A __possibly empty abelian loop__ is a [[set]] $G$ with a binary operation $(-)-(-):G \times G \to G$ called __[[subtraction]]__ such that:
