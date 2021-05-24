@@ -19,11 +19,13 @@
 
 ## Idea
 
-Possibly empty groups arise from [[pseudo-torsors]], or equivalently from associative [[Malcev operations|Malcev algebras]], [[heaps]]/[[torsors]] being [[inhabited]] [[associative Malcev algebra]]s and giving rise to [[groups]]. The first definition of a possibly empty group given below [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
+Possibly empty groups arise from [[pseudo-torsors]], or equivalently from associative [[Malcev operations|Malcev algebras]], [[heaps]]/[[torsors]] being [[inhabited]] [[associative Malcev algebra]]s and giving rise to [[groups]]. 
 
 ## Definition
 
 ### With division only
+
+This definition of [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
 
 A __possibly empty left group__ is a [[set]] $G$ with a binary operation $(-)\backslash(-):G \times G \to G$ (a [[magma]]) such that:
 
@@ -94,9 +96,15 @@ Every possibly empty group $G$ has a pseudo-torsor $t:G^3\to G$ defined as $t(x,
 
 ## Related concepts
 
-* [[possibly empty loop]] (non-associative version)
+* [[possibly empty loop]]
 
-* [[possibly empty abelian group]] (commutative version)
+* [[invertible magma]] (nonassociative version)
+
+* [[semigroup]] (non-invertible version)
+
+* [[group]] (unital version)
+
+* [[commutative invertible semigroup]] (commutative version)
 
 * [possibly empty heap](heap#empty) (forgetting the unit element)
 
