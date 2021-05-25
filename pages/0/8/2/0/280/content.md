@@ -202,6 +202,7 @@ While the set $X$ has no algebraic structure to be preserved, the action $act$ g
 
 $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$ 
 
+An action of a set $X$ in itself is also called a __[[binary operation]]__, and the set $X$ is called a __[[magma]]__. 
 
 ## Examples
 
