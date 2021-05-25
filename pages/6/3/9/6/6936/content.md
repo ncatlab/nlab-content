@@ -172,6 +172,21 @@ Another definition of the integers as an inductive type:
     | axiom2 : forall (x : int) succ neg succ x == neg x
     | contr1 : forall (x y : int) (p q : x == y), p == q.
 
+### Dyadic rational numbers
+
+A minimal inductive definition of the [[dyadic rational numbers]]: 
+
+    Inductive dyadic : Type :=
+    | zero : dyadic
+    | succ : dyadic -> dyadic
+    | neg : dyadic -> dyadic
+    | act : nat -> dyadic -> dyadic
+    | zeroneg : neg zero  == zero
+    | axiom2 : forall (x : dyadic) succ neg succ x == neg x
+    | forall (x : dyadic) initstep : act 0 x == succ x
+    | halfstep : forall (n : nat) forall (x : dyadic) act (succ n) (act (succ n) x) == act n x
+    | contr1 : forall (x y : dyadic) (p q : x == y), p == q.
+
 ### Polynomial rings over integers
 
 A definition of the [[polynomial ring]] over the integers with a set of indeterminants $A$. 
