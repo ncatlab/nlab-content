@@ -79,6 +79,14 @@ Textbook accounts:
 
 * [[Tudor D. Stanescu]], Part II of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
+Review and survey:
+
+
+* Shou-cheng Zhang, _Viewpoint: Topological states of quantum matter_,  APS Physics 1, 6 (2008) [doi:10.1103/Physics.1.6](http://dx.doi.org/10.1103/Physics.1.6)
+
+* Vishal Bhardwaj, Ratnamala Chatterjee, *Topological Materials -- New Quantum Phases of Matter*, Resonance **25** (2020) 431–441  ([doi:10.1007/s12045-020-0955-5](https://doi.org/10.1007/s12045-020-0955-5), [pdf](https://www.ias.ac.in/article/fulltext/reso/025/03/0431-0441))
+
+
 See also:
 
 * Wikipedia, *[Topological insulator](http://en.wikipedia.org/wiki/Topological_insulator)* 
