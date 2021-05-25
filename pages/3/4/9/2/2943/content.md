@@ -27,7 +27,7 @@ One of the basic characteristics of a thermodynamical system is its [[temperatur
 
 ## Related entries
 
-* [[temperature]], [[inverse temperature]]
+* [[temperature]], [[inverse temperature]], [[absolute zero]]
 
 * [[Boltzmann constant]]
 
