@@ -41,6 +41,10 @@ An __invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with a u
 
 for all $a,b \in G$. 
 
+## Properties
+
+The submagma of every [[power-associative]] invertible magma $M$ [[generator|generated]] by an element $a \in M$ is a [[cyclic group]]. This means in particular there is a $\mathbb{Z}$-[[action]] on $M$ $(-)^{(-)}:M\times\mathbb{Z}\to M$ called the __[[power]]__. 
+
 ## Examples
 
 * Every group is an invertible magma. 
