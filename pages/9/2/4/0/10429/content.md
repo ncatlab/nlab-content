@@ -60,6 +60,10 @@ described by n-category theory. The SPT orders for free fermions are described b
 
 * [[topological insulator]]
 
+* [[strange metal]]
+
+* [[Weyl semimetal]]
+
 * [[topological photonics]]
 
 * [[topological quantum computing]]
