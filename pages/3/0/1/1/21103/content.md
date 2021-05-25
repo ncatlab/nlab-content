@@ -10,20 +10,24 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-(...)
+In [[solid state physics]] a *[[strange metal]]* is a [[metal|metallic]] [[phase of matter]] which is *not* described well by [[Landau's Fermi liquid theory]] of small [[perturbation theory|perturbations]] about the [[Fermi sea]].
+
+Known strange metals exhibit [[topological order]] in that their [[ground state]] has long-range [[entanglement]] (a [[topological phase of matter]]). Instead of by Fermi liquid theory, strange metals are well described by [[AdS/CFT in condensed matter physics]].
 
 ## Related concepts
 
 * [[superconductor]]
 
 * [[AdS/CFT in condensed matter physics]]
+
+* [[metal]], [[Landau's Fermi liquid theory]]
+
 
 ## References
 
@@ -39,7 +43,7 @@ Discussion of [[strange metals]]/[[high-temperature superconductors]] via [[AdS/
 
 * [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
-* Andrea Amoretti, _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
+* [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
