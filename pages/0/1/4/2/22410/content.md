@@ -61,7 +61,9 @@ Examples of references using this terminology: [StacksProject](#StacksProject), 
 
 * [empty heap](heap#empty)
 
-* [[possibly empty group]]
+* [[invertible semigroup]]
+
+* [[associative quasigroup]]
 
 ## References
 
