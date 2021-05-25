@@ -46,6 +46,10 @@ Review:
 
 * {#Chen19} Yi-Hsiu Chen, *Computational Notions of Entropy:Classical, Quantum, and Applications*, 2019 ([pdf](https://dash.harvard.edu/bitstream/handle/1/42029772/CHEN-DISSERTATION-2019.pdf?sequence=1&isAllowed=y))
 
+See also:
+
+* Robert Koenig, Renato Renner, Christian Schaffner, *The operational meaning of min- and max-entropy*, IEEE Trans. Inf. Th., vol. 55, no. 9 (2009) ([arXiv:0807.1338](https://arxiv.org/abs/0807.1338))
+
 In the context of [[holographic entanglement entropy]]:
 
 * [[Ning Bao]], [[Geoffrey Penington]], [[Jonathan Sorce]], [[Aron C. Wall]], Section 2.3 of: _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_,  JHEP 2019:69 ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
