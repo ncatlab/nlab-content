@@ -62,7 +62,13 @@ The general abstract definition of [[twisted differential cohomology]] as the in
 
 * {#Schreiber14} [[Urs Schreiber]], around slide 17 of _[[schreiber:Differential generalized cohomology in Cohesive homotopy type theory]]_ , talk at   IHP trimester on _[Semantics of proofs and certified mathematics](https://ihp2014.pps.univ-paris-diderot.fr/doku.php)_ Workshop 1: _[Formalization of Mathematics](https://ihp2014.pps.univ-paris-diderot.fr/doku.php?id=workshop_1)_, [Institut Henri Poincaré](http://www.ihp.fr/en),  Paris, 5-9 May 2014 ([pdf slides](https://ncatlab.org/schreiber/files/SchreiberParis2014.pdf))
 
-Discussion of [[twisted differential K-theory]] along these lines includes
+* [[Daniel Grady]], [[Hisham Sati]], *Twisted differential generalized cohomology theories and their Atiyah-Hirzebruch spectral sequence*, Algebr. Geom. Topol. 19 (2019) 2899-2960 ([arXiv:1711.06650](https://arxiv.org/abs/1711.06650), [doi:10.2140/agt.2019.19.2899](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-19/issue-6/Twisted-differential-generalized-cohomology-theories-and-their-AtiyahHirzebruch-spectral-sequence/10.2140/agt.2019.19.2899.short))
+
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]_ ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
+
+
+
+Discussion of [[twisted differential K-theory]] along these lines:
 
 * [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
