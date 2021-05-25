@@ -29,9 +29,10 @@ For the moment see _[here](Majorana+spinor#DiracAndWeylRepresentations)_.
 
 ## Related concepts
 
-* [[Dirac spinor]]
+* [[Dirac spinor]], [[Majorana spinor]]
 
-* [[Majorana spinor]]
+* [[Weyl semimetal]]
+
 
 [[!redirects Weyl spinors]]
 [[!redirects Weyl representation]]
