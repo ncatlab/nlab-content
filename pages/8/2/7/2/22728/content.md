@@ -14,11 +14,20 @@
 
 ## Idea
 
-A non-associative [[group]], or an [[invertible magma|invertible]] [[unital magma]]. Nonassociative is used in the sense of not-necessarily associative, in the same sense that a [[nonassociative algebra]] is not-necessarily associative. 
+A non-associative [[group]], or an [[invertible quasigroup|invertible]] [[loop]]. Nonassociative is used in the sense of not-necessarily associative, in the same sense that a [[nonassociative algebra]] is not-necessarily associative. 
 
 ## Definition
 
-A __nonassociative group__ or __invertible unital magma__ is a [[unital magma]] $(G,(-)\cdot(-):G\times G\to G),1:G)$ with a unary operation called the __inverse__ $(-)^{-1}:G \to G$ such that 
+A __nonassociative group__ or __invertible loop__ is a [[loop]] $(G,\backslash,/,1)$ with a unary operation called the __inverse__ $(-)^{-1}:G \to G$ such that 
+
+* $a^{-1} \cdot a = 1$
+* $a \cdot a^{-1} = 1$
+
+for all $a \in G$. 
+
+### Without division
+
+A __nonassociative group__ or __invertible loop__ is a [[unital magma]] $(G,(-)\cdot(-):G\times G\to G),1:G)$ with a unary operation called the __inverse__ $(-)^{-1}:G \to G$ such that 
 
 * $a^{-1} \cdot a = 1$
 * $a \cdot a^{-1} = 1$
@@ -41,9 +50,9 @@ Every non-associative group is a [[loop (algebra)|loop]] with a two-sided [[inve
 
 * [[group]] (associative version)
 
-* [[unital magma]] (non-invertible version)
+* [[loop]] (non-invertible version)
 
-* [[invertible magma]] (non-unital version)
+* [[invertible quasigroup]] (non-unital version)
 
 * [[commutative loop]] (commutative version)
 
