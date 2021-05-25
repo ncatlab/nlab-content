@@ -1,5 +1,5 @@
 
-* [webpage](http://www.nim.nankai.edu.cn/nim_e/members/weiping.htm)
+* [GoogleScholar page](https://scholar.google.com/citations?user=Jx6VIsMAAAAJ)
 
 ## Selected writings
 
