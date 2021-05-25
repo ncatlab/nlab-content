@@ -24,7 +24,7 @@ An [[endofunctor]] on a [[category]] $\mathcal{A}$ is _pointed_ if it is equippe
 +-- {: .num_defn}
 ###### Definition
 
-An [[endofunctor]] $S:\mathcal{A}\to \mathcal{A}$ is called **pointed** if it is equipped with a [[natural transformation]] $\sigma:Id_\mathcal{A} \to S$.  It is called **well-pointed** if $S\sigma = \sigma S$ (as natural transformations $S\to S^2$).
+An [[endofunctor]] $S:\mathcal{A}\to \mathcal{A}$ is called **pointed** if it is equipped with a [[natural transformation]] $\sigma:Id_\mathcal{A} \to S$.  It is called **[[well-pointed endofunctor|well-pointed]]** if $S\sigma = \sigma S$ (as natural transformations $S\to S^2$).
 
 =--
 
