@@ -28,6 +28,16 @@ $$
 
 Examples include [[commutative monoids]], [[abelian groups]], [[commutative rings]], [[commutative algebras]] etc.
 
+## Related concepts
+
+* [[magma]] (noncommutative version)
+
+* [[commutative invertible magma]] (invertible version)
+
+* [[commutative unital magma]] (unital version)
+
+* [[commutative semigroup]] (associative version)
+
 [[!redirects commutative magmas]]
 
 [[!redirects commutative operation]]
