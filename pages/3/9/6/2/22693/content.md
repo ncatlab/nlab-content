@@ -111,3 +111,5 @@ Every associative quasigroup $G$ and associative subquasigroup $H \hookrightarro
 * [[inverse semigroup]]
 
 [[!include oidification - table]]
+
+[[!redirects possibly empty group]]
