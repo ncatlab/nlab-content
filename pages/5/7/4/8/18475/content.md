@@ -83,7 +83,7 @@ For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holograp
 
 ## Related concepts
 
-* [[strange metal]]
+* [[strange metal]] (as opposed to [[Landau's Fermi liquid theory]])
 
 * [[superconductor]]
 
@@ -193,6 +193,6 @@ Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid-
 
 [[!redirects AdS/CFT duality in solid state physics]]
 
-
+[[!redirects AdS/CFT correspondence in condensed matter physics]]
 
 
