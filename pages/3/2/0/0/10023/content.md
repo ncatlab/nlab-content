@@ -84,6 +84,7 @@ Further discussion:
 
 * Shunsuke Furukawa, Gregoire Misguich, *Topological Entanglement Entropy in the Quantum Dimer Model on the Triangular Lattice*, Phys. Rev. B 75, 214407 (2007) ([arXiv:cond-mat/0612227](https://arxiv.org/abs/cond-mat/0612227))
 
+* A. Hamma, W. Zhang, S. Haas, and D. A. Lidar, *Entanglement, fidelity, and topological entropy in a quantum phase transition to topological order*, Phys. Rev. B 77, 155111 (2008) ([doi:10.1103/PhysRevB.77.155111](https://doi.org/10.1103/PhysRevB.77.155111), [arXiv:0705.0026](https://arxiv.org/abs/0705.0026))
 
 * Hong-Chen Jiang, [[Zhenghan Wang]], Leon Balents, *Identifying Topological Order by Entanglement Entropy*, Nature Physics 8, 902-905 (2012) ([arXiv:1205.4289](https://arxiv.org/abs/1205.4289))
 
