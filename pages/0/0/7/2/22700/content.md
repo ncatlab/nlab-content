@@ -44,7 +44,7 @@ For any element $a$ in a commutative invertible semigroup $G$, the element $a-a$
 
 ## Related concepts
 
-* [[possibly empty group]] (non-commutative version)
+* [[invertible semigroup]] (non-commutative version)
 
 * [[commutative invertible magma]] (non-associative version)
 
