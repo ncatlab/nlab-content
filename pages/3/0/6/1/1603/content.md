@@ -72,18 +72,22 @@ A __quasigroup__ is a [[set]] $G$ equipped with three binary operations (product
 Also, without the right quotient we have left quasigroups, and without the left quotient the right quasigroups.
 Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]]. There are weaker structures, say left and right quasigroups in which either $\backslash$ or $/$ is well defined. 
 
-## Left and right quasigroups
+## Properties
+
+Every left quasigroup $G$ has a function $id_L:G\to G$ defined as $id_L(x)=x\backslash x$ for all $x$ in $G$, and every right quasigroup $G$ has a function $id_R:G\to G$ defined as $id_R(x)=x\backslash x$ for all $x$ in $G$. Every left quasigroup additionally has a function $inv_L:G\to G$ defined as $inv_L(x)=x\backslash id_L(x)$ for all $x$ in $G$, and every right quasigroup has a function $inv_R:G\to G$ defined as $inv_R(x)=id_L(x)/x$ for all $x$ in $G$.
+
+A quasigroup is a __possibly empty left loop__ if $id_L(x) = id_L(y)$ for all $x,y$ in $G$, and it is a __possibly empty right loop__ if $id_R(x) = id_R(y)$ for all $x,y$ in $G$. A quasigroup is a __[[possibly empty loop]]__ if additionally $id_L(x) = id_R(y)$ for all $x,y$ in $G$, and it is an __[[invertible quasigroup]]__ if $inv_L(x) = inv_R(x)$ for all $x$ in $G$. If the quasigroup is commutative, then the left and right quotients are [[opposite magma]]s of each other. 
 
 The left (resp. right) quasigroups that are also [[possibly empty loop|possibly empty left (right) loops]] can be explicitly defined through the left (right) quotient operation itself, with multiplication being defined from the left (right) quotient. 
 
-A __left quotient__ on a set $G$ is a binary operation $(-)\backslash(-):G\times G\to G$, such that:
+Let us define a __left quotient__ on a set $G$ as a binary operation $(-)\backslash(-):G\times G\to G$ and functions $id_L(a) = a\backslash a$ and $inv_L(a) = a\backslash id_L(a)$ such that:
 
-  * For all $a$ and $b$ in $G$, $a\backslash a=b\backslash b$
-  * For all $a$ in $G$, $(a\backslash (a\backslash a))\backslash (a\backslash a)=a$
+  * For all $a$ and $b$ in $G$, $id_L(a)=id_L(b)$
+  * For all $a$ in $G$, $inv_L(a)\backslash id_L(a)=a$
 
-For any element $a$ in $G$, the element $a\backslash a$ is called a __right identity element__, and the element $a\backslash (a\backslash a)$ is called the __right inverse element__ of $a$. For all elements $a$ and $b$ in $G$, __left multiplication__ of $a$ and $b$ is defined as $(a\backslash (a\backslash a))\backslash b$. 
+For any element $a$ in $G$, the element $id_L(a) = a\backslash a$ is called a __right identity element__, and the element $inv_L(a) = a\backslash id_L(a)$ is called the __right inverse element__ of $a$. For all elements $a$ and $b$ in $G$, __left multiplication__ of $a$ and $b$ is defined as $a \cdot_L b = inv_L(a) \backslash b$. 
 
-The multiplication operation is __associative__ if for all $a$, $b$, and $c$ in $G$, $(a\backslash b)\backslash c= b\backslash ((a\backslash (a\backslash a))\backslash c)$, __unital__ if there exists an element $1$ in $G$ such that for all $a$ in $G$, $a\backslash a = 1$, and __commutative__ if for all $a$ and $b$ in $G$, $(a\backslash (a\backslash a))\backslash b = (b\backslash (b\backslash b))\backslash a$. 
+The multiplication operation is __associative__ if for all $a$, $b$, and $c$ in $G$, $(a\backslash b)\backslash c= b\backslash (a \cdot_L c)$, __unital__ if there exists an element $1$ in $G$ such that for all $a$ in $G$, $id_L(a) = 1$, and __commutative__ if for all $a$ and $b$ in $G$, $a \cdot_L b = b \cdot_L a$. 
 
 A __right quotient__ on a set $G$ is a binary operation $(-)/(-):G\times G\to G$ such that:
 
