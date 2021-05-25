@@ -42,7 +42,7 @@ An alternative definition is used in [Baez 02](#Baez02): The axioms given there 
 
 ## Counter-examples
 
-* There exists a (nonassociative) algebra $A$ such that for each nonzero $a \in A$ there exists $a^{-1} \in A$ with $a a^{-1} = a^{-1} a = 1$, but there are nonzero zero divisors.
+* There exists a [[reciprocal algebra]] with nonzero zero divisors.
 
 * The [[sedenions]] $\mathbb{S}$ are a finite-dimensional normed real algebra that is not a division algebra (it has zero divisors.)
 
