@@ -50,6 +50,13 @@ Textbook account:
 * [[Tudor D. Stanescu]], Section II.5 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
 
+Review and survey
+
+* Shou-cheng Zhang, _Viewpoint: Topological states of quantum matter_,  APS Physics 1, 6 (2008) [doi:10.1103/Physics.1.6](http://dx.doi.org/10.1103/Physics.1.6)
+
+* Vishal Bhardwaj, Ratnamala Chatterjee, *Topological Materials -- New Quantum Phases of Matter*, Resonance **25** (2020) 431–441  ([doi:10.1007/s12045-020-0955-5](https://doi.org/10.1007/s12045-020-0955-5), [pdf](https://www.ias.ac.in/article/fulltext/reso/025/03/0431-0441))
+
+
 See also:
 
 * Wikipedia, _[Topological insulator](http://en.wikipedia.org/wiki/Topological_insulator)_
@@ -57,8 +64,6 @@ See also:
 * Liang Fu, C. L. Kane, _Topological insulators with inversion symmetry_, Physical Review B 76 (4): 045302. [arXiv:cond-mat/0611341](http://arxiv.org/abs/cond-mat/0611341) [doi](http://dx.doi.org/10.1103%2FPhysRevB.76.045302); _Superconducting proximity effect and Majorana fermions at the surface of a topological insulator_, Phys. Rev. Lett. __100__: 096407, [arXiv:0707.1692](http://arxiv.org/abs/0707.1692) [doi](http://dx.doi.org/10.1103%2FPhysRevLett.100.096407)
 
 * Jeffrey C. Y. Teo, Liang Fu, C. L. Kane, _Surface states and topological invariants in three-dimensional topological insulators: Application to_ $Bi_{1-x}Sb_x$, Phys. Rev. __B 78__, 045426 (2008) [doi](http://link.aps.org/doi/10.1103/PhysRevB.78.045426)
-
-* Shou-cheng Zhang, _Viewpoint: Topological states of quantum matter_, [doi](http://dx.doi.org/10.1103/Physics.1.6)
 
 * J. Kellendonk, _On the $C^\ast$-algebraic approach to topological phases for insulators_, [arxiv/1509.06271](http://arxiv.org/abs/1509.06271)
 
