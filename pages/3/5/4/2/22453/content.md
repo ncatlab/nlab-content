@@ -53,7 +53,7 @@ Finally, when understanding [[thermal field theory|thermal]]/[[Euclidean field t
 
 ## Related concepts
 
-* [[temperature]]
+* [[temperature]], [[absolute zero]]
 
 * [[thermal field theory]], [[infinite-temperature thermal field theory]]
 
