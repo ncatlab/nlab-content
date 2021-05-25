@@ -67,3 +67,5 @@ A __two-sided invertible magma__ or an __invertible magma__ is a [[magma]] $(G,(
 * [[possibly empty group]]
 
 * [[centipede mathematics]]
+
+[[!redirects invertible magmas]]
