@@ -48,7 +48,19 @@ equals the [[identity morphism]] on $X$.
 
 ## In non-unital contexts
 
-These can be a little more complicated; see [[invertible magma]] for some discussion of the one-object version. 
+In a [[magmoid]] or [[semicategory]] (or an element of a [[semigroup]] or [[magma]]), a morphism $f:a \to b$ has a unique __[[retraction]]__ $f^{-1}:b \to a$ if 
+
+* for every morphism $g:b \to c$, $g \circ (f^{-1} \circ f) = g$ and $(g \circ f^{-1}) \circ f = g$
+
+* for every morphism $g:c \to a$, $(f^{-1} \circ f) \circ g = g$ and $f^{-1} \circ (f \circ g) = g$,
+
+and a morphism $f:a \to b$ has a unique __[[section]]__ $f^{-1}:b \to a$ if 
+
+* for every morphism $g:a \to c$, $g \circ (f \circ f^{-1}) = g$ and $(g \circ f) \circ f^{-1} = g$
+
+* for every morphism $g:a \to c$, $(f \circ f^{-1})\circ g = g$ and $f \circ (f^{-1}\circ g) = g$
+
+A morphism $f:a \to b$ has a unique __inverse__ if it has a retraction that is also a section. 
 
 ## Related concepts
 
