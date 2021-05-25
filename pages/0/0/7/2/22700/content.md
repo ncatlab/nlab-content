@@ -51,5 +51,3 @@ For any element $a$ in a commutative invertible semigroup $G$, the element $a-a$
 * [[commutative semigroup]] (non-invertible version)
 
 * [[abelian group]] (unital version)
-
-* [[possibly empty nonunital ring]] (semigroup object in the category of possibly empty abelian groups)
