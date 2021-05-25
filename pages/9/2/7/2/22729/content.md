@@ -48,23 +48,19 @@ A __two-sided invertible magma__ or an __invertible magma__ is a [[magma]] $(G,(
 
 * Every group is an invertible magma. 
 
-* Every [[possibly empty group]] and [[nonassociative group]] is an invertible magma. 
+* Every [[invertible semigroup]] and [[nonassociative group]] is an invertible magma. 
 
 ## Related concepts
 
-* [[magma]]
+* [[magma]] (noninvertible version)
 
-* [[group]]
+* [[nonassociative group]] (unital version)
 
-* [[quasigroup]]
+* [[commutative invertible magma]] (commutative version)
 
-* [[nonassociative group]]
+* [[invertible semigroup]] (associative version)
 
-* [[commutative invertible magma]]
-
-* [[possibly empty loop]]
-
-* [[possibly empty group]]
+* [[quasigroup]], [[possibly empty loop]]
 
 * [[centipede mathematics]]
 
