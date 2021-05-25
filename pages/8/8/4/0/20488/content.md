@@ -85,3 +85,5 @@ category: applications, computer science
 
 [[!redirects encryption]]
 
+[[!redirects braid group cryptography]]
+
