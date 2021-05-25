@@ -51,6 +51,8 @@ for all $a,b \in G$.
 
 * [[invertible semigroup]] (associative version)
 
+* [[invertible quasigroup]] (divisible version)
+
 * [[reciprocal algebra]]
 
 * [[centipede mathematics]]
