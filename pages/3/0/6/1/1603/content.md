@@ -100,7 +100,7 @@ A quasigroup that is left invertible and right invertible can be defined as a se
 
 *  Any group is an associative quasigroup with [[identity elements]].
 * Every [[associative quasigroup]], every [[nonassociative group]], and every [[loop (algebra)|loop]] is a quasigroup. 
-* Every [[invertible magma]] is a quasigroup. 
+* Every [[invertible quasigroup]] is a quasigroup. 
 *  Any [[abelian group]] is a quasigroup in two other ways: the product switches places with one of the quotients.  (The other quotient remains a quotient.)
 * [[H-space]]s are (homotopy-) loops --- this is because the [[shearing maps]] $(x,y)\mapsto (x,x y)$ and $(x,y)\mapsto (x y, y)$ are equivalences.  This generalizes the octonion examples.  Note that a [[loop space]] is always equivalent to a *group*, hence not all homotopy loops are loop spaces.  In particular ...
 *  The nonzero elements of a (not necessarily associative) [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
