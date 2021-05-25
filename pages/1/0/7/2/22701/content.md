@@ -12,22 +12,21 @@
 * table of contents
 {:toc}
 
-A __possibly empty nonunital ring__ is a [[set]] $R$ with a binary operation $(-)-(-):R \times R \to R$ called __[[subtraction]]__ such that:
+A __possibly empty nonunital ring__ is a [[set]] $R$ with a binary operation $(-)+(-):R \times R \to R$ called __addition__ and a unary operation $-:R \to R$ such that:
 
-  * For all $a$ and $b$ in $R$, $a-a=b-b$
-  * For all $a$ in $R$, $(a-a)-((a-a)-a)=a$
-  * For all $a$ and $b$ in $R$, $a-((b-b)-b) = b-((a-a)-a)$
-  * For all $a$, $b$, and $c$ in $R$, $a-(b-c)=(a-((c-c)-c)-b$
+  * For all $a$ and $b$ in $R$, $a+b+(-b)=a$
+  * For all $a$, $b$, and $c$ in $R$, $a+(b+c)=(a+b)+c$
+  * For all $a$ and $b$ in $R$, $a+b=b+a$
 
 and a binary operation $(-)\cdot(-):R \times R \to R$ called __[[multiplication]]__ such that 
 
   * For all $a$, $b$, and $c$ in $R$, $a\cdot (b\cdot c)=(a\cdot b)\cdot c$
-  * For all $a$, $b$, and $c$ in $R$, $a\cdot (b-c)= a\cdot b - a\cdot c$
-  * For all $a$, $b$, and $c$ in $R$, $(a-b)\cdot c= a\cdot c - b\cdot c$
+  * For all $a$, $b$, and $c$ in $R$, $a\cdot (b+c)= a\cdot b + a\cdot c$
+  * For all $a$, $b$, and $c$ in $R$, $(a+b)\cdot c= a\cdot c + b\cdot c$
+  * For all $a$ and $b$ in $R$, $(-a)\cdot b= -(a\cdot b)$
+  * For all $a$ and $b$ in $R$, $a\cdot (-b)= -(a\cdot b)$
 
 A possibly empty nonunital ring is __commutative__ if for all $a$ and $b$ in $R$, $a\cdot b=b \cdot a$. 
-
-For any element $a$ in a possibly empty nonunital ring $R$, the element $a-a$ is called an __additive identity element__, and the element $(a-a)-a$ is called the __additive inverse element__ of $a$. For all elements $a$ and $b$, __addition__ of $a$ and $b$ is defined as $a-((b-b)-b)$. 
 
 ## Examples
 
