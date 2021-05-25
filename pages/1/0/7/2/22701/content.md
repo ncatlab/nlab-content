@@ -40,5 +40,7 @@ A possibly empty nonunital ring is __commutative__ if for all $a$ and $b$ in $R$
 
 * [[nonunital ring]]
 
+* [[possibly empty field]]
+
 [[!redirects possibly empty nonunital commutative ring]]
 [[!redirects possibly empty commutative nonunital ring]]
