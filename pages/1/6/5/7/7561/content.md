@@ -25,6 +25,9 @@ The $P$-adic solenoid is a [[compact space|compact]], [[connected space|connecte
 
 In [[shape theory]], the solenoids provide good examples of _non-stable spaces_. If one takes the [[Čech fundamental group]] of $S_P$, then it is the limit of the inverse sequence of the [[fundamental groups]] of the $X(n)$ together with the induced homomorphisms. It thus is trivial as it contains all integers that are divisible by all the primes in the sequence, and that an infinite number of times! The Strong Shape fundamental group of $S_P$ is not trivial as it involves the first derived functor $Lim^{(1)}$ of the inverse sequence of groups as well.
 
+## Related concepts
+
+* [[decimal number#solenoid]]
 
 ## References
 
