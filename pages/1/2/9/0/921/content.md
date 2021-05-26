@@ -42,7 +42,7 @@ There are two basic approaches possible: to define what a __real number__ is as 
 
 ### Dedekind cuts {#Dedekind}
 
-Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of $\mathbb{Q}$ (the set of [[rational numbers]]) or a [[dense order|dense]] [[subring]] like $\mathbb{Z}[1/10]$ (the set of [[decimal fractions]]) such that:
+Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of a [[countable set|countable]] unbounded [[dense linear order]], such as $\mathbb{Q}$ (the set of [[rational numbers]]) or  $\mathbb{Z}[1/10]$ (the set of [[decimal fractions]]), such that:
 
 *  If $a \in L$, then $b \in L$ for some $b \gt a$.
 *  If $b \in U$, then $a \in U$ for some $a \lt b$.
@@ -55,7 +55,7 @@ If $x \coloneqq (L,U)$ is a Dedekind cut, then we write $a \lt x$ to mean that $
 
 We may approximate a Dedekind cut $x$ as closely as we like by applying (\*) as often as necessary.  This will be only finitely often, for any fixed positive level of approximation, given initial upper and lower bounds (which exist since $L$ and $U$ are inhabited).
 
-See [[Dedekind cut]] for more.
+See [[Dedekind completion]] for more.
 
 
 ### Cauchy sequences
@@ -71,12 +71,6 @@ We can generalise this to any [[Cauchy sequence]] of rational numbers, and $\mat
 This construction is equivalent to the construction by Dedekind cuts, at least assuming [[weak countable choice]] (which also follows from [[excluded middle]]).  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]] (which accepts [[countable choice]]).  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.  (On the other hand, by generalising to Cauchy [[nets]], we recover the Dedekind reals again.)
 
 See [[Cauchy real number]] for more.
-
-### The terminal archimedean group
-
-Thete is a characterisation of the set of real numbers as the terminal object in the category of [[archimedean groups]], the category of [[linear order|linearly]] [[ordered groups]] that satisfy the [[archimedean property]]. 
-
-Tarski's axioms for one-dimensional Euclidean geometry results in a abelian group. 
 
 ### The complete ordered field
 
@@ -104,6 +98,18 @@ Construct $\mathbb{R}$ using, say, Dedekind cuts of rational numbers.  Then it i
 
 However, we note that the proof is valid in weak [[foundations]], in particular internal to any [[topos]] with a [[natural numbers object]].  One can actually work in even weaker foundations than that; see the constructions at [[real numbers object]].  Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]].
 
+### The terminal archimedean group
+
+There is a characterisation of the real line as the 'complete densely linearly ordered archimedean group'. This can be interpreted as follows:
+
+*  An __abelian group__ is well known in algebra.
+*  An __linearly ordered abelian group__ is an [[abelian group]] with a [[linear order]].
+*  An __archimedean group__ is a linearly ordered abelian grouo satisfying the [[archimedean property]].
+*  A __dense linear ordered archimedean group__ is an archimedean group that is also a [[dense linear order]]. 
+* A densely linearly ordered archimedean group is __complete__ if it is [[Dedekind completion|Dedekind-complete]].
+* Alternatively, an archimedean group is __terminal__ if it is the terminal object in the category of archimedean groups. 
+
+Tarski's axioms for one-dimensional Euclidean geometry results in a complete densely linearly ordered archimedean group. 
 
 ### The locale of real numbers
 
