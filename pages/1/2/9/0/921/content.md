@@ -122,10 +122,13 @@ This agrees with the notion of Dedekind real number, even in very weak ([[predic
 
 See [[locale of real numbers]] for more.
 
+### Unit intervals
 
-### $\mathbb{R}$ as a terminal coalgebra
+The [[coalgebra of the real interval|unit interval]] of the real numbers $[0,1]$ could be constructed as a [[terminal coalgebra of an endofunctor]] in the [[category]] of [[intervals]]. Let $(\mathbb{R},0,+,-,1,\lt)$ be a [[linear order|linearly ordered]] [[abelian group]] with a [[monotone]] $f:[0,1]\to \mathbb{R}$ such that $f(0) = 0$ and $f(1) = 1$ for all $a \in \mathbb{R}$. The set $\mathbb{R}$ of real numbers is the initial such ordered group. 
 
-The real line $\mathbb{R}$, or at least the positive real line $\mathbb{R}^+$, may be characterized as the [[terminal object|terminal]] [[coalgebra for an endofunctor]]
+### $\mathbb{R}^+$ as a terminal coalgebra
+
+The positive real line $\mathbb{R}^+$ may be characterized as the [[terminal object|terminal]] [[coalgebra for an endofunctor]]
 
 Let [[Pos]] be the [[category]] of [[poset]]s with a [[forgetful functor]]
 
@@ -177,7 +180,7 @@ where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1
 $$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$ 
 and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is again a poset isomorphism if we endow the right-hand side with the lexicographic order.
 
-There are more and similar characterizations along these lines.  One is an example at [[terminal coalgebra]].
+There are more and similar characterizations along these lines. 
 
 ## Topologies
 {#Topologies}
