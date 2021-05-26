@@ -101,6 +101,8 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 [[!redirects weakly decreasing functions]]
 [[!redirects weakly-decreasing function]]
 [[!redirects weakly-decreasing functions]]
+[[!redirects antitone]]
+[[!redirects antitones]]
 [[!redirects antitone function]]
 [[!redirects antitone functions]]
 [[!redirects order-reversing function]]
