@@ -79,17 +79,27 @@ Review:
 
 * {#Furukawa08} Shunsuke Furukawa, *Entanglement Entropy in Conventional and Topological Orders*, talk at [Topological Aspects of Solid State Physics](http://www.issp.u-tokyo.ac.jp/public/tassp/) 2008 ([pdf](http://www.issp.u-tokyo.ac.jp/public/tassp/pdf_presentation/SY_S_Furukawa.pdf), [[FurukawaEntanglementEntropy.pdf:file]])
 
-In terms of [[Renyi entropy]] (it's indeopendent of the Renyi entropy parameter):
-
-* Ulrich Schollwöck, *(Almost) 25 Years of DMRG - What Is It About?* ([pdf](https://confs.physics.ox.ac.uk/pauli2016/files/slides/Schollwoeck.pdf))
-
-Further discussion:
-
-* Shunsuke Furukawa, Gregoire Misguich, *Topological Entanglement Entropy in the Quantum Dimer Model on the Triangular Lattice*, Phys. Rev. B 75, 214407 (2007) ([arXiv:cond-mat/0612227](https://arxiv.org/abs/cond-mat/0612227))
+Experimental observation:
 
 * A. Hamma, W. Zhang, S. Haas, and D. A. Lidar, *Entanglement, fidelity, and topological entropy in a quantum phase transition to topological order*, Phys. Rev. B 77, 155111 (2008) ([doi:10.1103/PhysRevB.77.155111](https://doi.org/10.1103/PhysRevB.77.155111), [arXiv:0705.0026](https://arxiv.org/abs/0705.0026))
 
 * Hong-Chen Jiang, [[Zhenghan Wang]], Leon Balents, *Identifying Topological Order by Entanglement Entropy*, Nature Physics 8, 902-905 (2012) ([arXiv:1205.4289](https://arxiv.org/abs/1205.4289))
+
+
+In terms of [[Renyi entropy]] (it's independent of the Renyi entropy parameter):
+
+* Ulrich Schollwöck, *(Almost) 25 Years of DMRG - What Is It About?* ([pdf](https://confs.physics.ox.ac.uk/pauli2016/files/slides/Schollwoeck.pdf))
+
+Discussion in the [[dimer model]]:
+
+* Shunsuke Furukawa, Gregoire Misguich, *Topological Entanglement Entropy in the Quantum Dimer Model on the Triangular Lattice*, Phys. Rev. B 75, 214407 (2007) ([arXiv:cond-mat/0612227](https://arxiv.org/abs/cond-mat/0612227))
+
+
+Discussion via [[holographic entanglement entropy]]:
+
+* Ari Pakman, [[Andrei Parnachev]], *Topological Entanglement Entropy and Holography*, JHEP 0807: 097 (2008) ([arXiv:0805.1891](https://arxiv.org/abs/0805.1891))
+
+* [[Andrei Parnachev]], Napat Poovuttikul, *Topological Entanglement Entropy, Ground State Degeneracy and Holography*, Journal of High Energy Physics volume 2015, Article number: 92 (2015) ([arXiv:1504.08244](https://arxiv.org/abs/1504.08244))
 
 
 
