@@ -29,6 +29,12 @@ In [[solid state physics]], by a *quantum material* one means -- broadly and som
 
 * [[topological quantum computation]]
 
+* [[topological phase of matter]]
+
+* [[topological entanglement entropy]]
+
+* [[quantum phase transition]]
+
 
 ## References
 
