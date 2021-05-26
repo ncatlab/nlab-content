@@ -27,12 +27,14 @@
 
 * [[phase of matter]]
 
+* [[quantum phase transition]]
+
 * [[topological phase of matter]]
 
 
 ## References
 
-See also
+See also:
 
 * Wikipedia, _[Phase transition](https://en.m.wikipedia.org/wiki/Phase_transition)_
 
