@@ -79,7 +79,7 @@ See [Alonso 19](#Alonso19) for general introduction to an audience with basic ba
 
 ### Up to 2019
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
+Indications of flavour anomalies have been observed (introduction and review in [Koppenburg 21](#Koppenburg21)) consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
 
 \begin{center}
 \begin{imagefromfile}
@@ -452,6 +452,9 @@ and for [[charm quark]] physics:
 
 * [[Alexey Petrov]], _Theory of rare charm decays into leptons_ ([arXiv:1704.03862](https://arxiv.org/abs/1704.03862))
 
+Detailed introduction and survey as of May 2021;
+
+* {#Koppenburg21} [[Patrick Koppenburg]], *Penguin B decays*, 2021 ([cds:2767155](https://cds.cern.ch/record/2767155), [pdf](https://cds.cern.ch/record/2767155/files/Koppenburg-20210519-Usach.pdf))
 
 See also
 
