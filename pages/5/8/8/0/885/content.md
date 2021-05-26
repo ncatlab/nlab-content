@@ -26,7 +26,7 @@ By default, our natural numbers always include $0$.
 
 ## Natural numbers objects
 
-$\mathbf{N}$ is a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n^+$; in [[computer science]], one often writes $n+$) such that, for a set $X$, an element $a: X$, and a [[function]] $s: X \to X$, there exists a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$. This function $f$ is said to be constructed by __primitive recursion__. (Fancier forms of [[recursion]] are also possible.)  
+$\mathbf{N}$ is a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n^+$; in [[computer science]], one often writes $n+$) such that, for a set $X$, an element $a: X$, and a [[function]] $s: X \to X$, there exists a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+1} = s(f_n)$. This function $f$ is said to be constructed by __primitive recursion__. (Fancier forms of [[recursion]] are also possible.)  
 
 The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
 
