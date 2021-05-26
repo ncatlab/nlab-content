@@ -46,6 +46,8 @@ $$
 
 ## Related concepts
 
+* [[strange metal]]
+
 * [[Jackiw-Teitelboim gravity]]
 
 * [[AdS-CFT in condensed matter physics]]
