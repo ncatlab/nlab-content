@@ -34,16 +34,6 @@ Talk about the decimal number system for integers and decimal fractions, and the
 
 Define a set of digits $D$, and the [[free monoid]] $D^*$ on $D$ with unit $\epsilon$, quotiented by an equivalence relation. Then define a function $s$ on $D^*$ such that $D^*,\epsilon,s$ is a [[natural numbers object]]. 
 
-### As a rig
-
-$$\mathbb{N} \cong \mathbb{N}[10] \coloneq \mathbb{N}[x]/(x=10)$$
-
-## Finite decimals
-
-### Rig theoretic definition
-
-Localisation of the [[rig]] of natural numbers at 10 $\mathbb{N}[1/10]$, finite decimals as canonical representatives of $\mathbb{N}[1/10]$, and then [[group completion]] of the additive monoid to $\mathbb{Z}[1/10]$.
-
 ## Order theoretic definitions
 
 ### Integers
@@ -92,7 +82,23 @@ $$h_1... h_{n-1} 900000... = .h_1... h_{n-1}899999...$$
 as real numbers. In this way, we produce a unique well-defined interval map $X \to [0, 1]$, so that $[0, 1]$ is the terminal coalgebra. 
 =--
 
-Let $(\mathbb{Z},0,s,n,\lt)$ be the set of integers, the initial set with an element $0$, a [[linear order]] $\lt$, a [[monotone]] $s$ such that $a \lt s(a)$ for all $a \in \mathbb{Z}$, and an [[antitone]] $n$ such that $n(0)=0$ and $n = s \circ n \circ s$. Let $\mathbb{R}$ be a set with a structure preserving function $g:\mathbb{Z}\to\mathbb{R}$ and a [[monotone]] $f:[0,1]\to \mathbb{R}$ such that $f(0) = g(0)$ and $f(1) = s(g(0))$. The set $\mathbb{R}$ of [[real numbers]] is the initial such system. The arithmetic operations on any such system can be defined by the properties of the [[function algebra]] of $\mathbb{R}$ and [[currying]]. 
+Let $(\mathbb{Z},0,s,n,\lt)$ be the set of integers, the initial set with an element $0$, a [[linear order]] $\lt$, a [[monotone]] $s$ such that $a \lt s(a)$ for all $a \in \mathbb{Z}$, and an [[antitone]] $n$ such that $n(0)=0$ and $n = s \circ n \circ s$. Let $\mathbb{R}$ be a set with a structure preserving function $g:\mathbb{Z}\to\mathbb{R}$ and a function into the [[monotone]] [[poset]] $f:\mathbb{Z} \to [0,1]\to \mathbb{R}$ such that $f(a)(0) = g(a)$ and $f(a)(1) = s(g(a))$ for all $a \in \mathbb{Z}$. The set $\mathbb{R}$ of __[[real numbers]]__ is the initial such system. By [[uncurrying]] the function $f$, one gets a function $i:\mathbb{Z} \times [0,1]\to \mathbb{R}$. An element $(a,b):\mathbb{Z} \times [0,1]$ is called an __infinite decimal representation__, where the comma used to represent [[pairs]] in [[set theory]] or [[type theory]] is literally the __decimal separator__ commonly seen in non-English speaking countries. 
+
+The arithmetic operations and topological properties on $\mathbb{R}$ can be defined by the properties of the [[function algebra]] of $\mathbb{R}$ and [[currying]]. 
+
+## Rig theoretic definitions
+
+### Integers
+
+$$\mathbb{N} \cong \mathbb{N}[10] \coloneq \mathbb{N}[x]/(x=10)$$
+
+### Finite decimals
+
+Localisation of the [[rig]] of natural numbers at 10 $\mathbb{N}[1/10]$, finite decimals as canonical representatives of $\mathbb{N}[1/10]$, and then [[group completion]] of the additive monoid to $\mathbb{Z}[1/10]$.
+
+### Infinite decimals
+
+[[function algebra|Sequence algebra]] $\mathbb{N}\to\mathbb{Z}[1/10]$ and [[Cauchy sequences]]
 
 ## Doubly infinite decimals 
 
@@ -123,6 +129,8 @@ One could also establish a [[ring]] structure on $\mathbb{Z}/10\mathbb{Z}$ and c
 ## Related concepts
 
 * [[decimal rational number]]
+
+* [[numeral]]
 
 ## References
 
