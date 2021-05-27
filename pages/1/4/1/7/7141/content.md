@@ -29,6 +29,42 @@ A non-archimedean field is one that is not, hence one whose [[norm]] satisfies t
 
 One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|complete]] with respect to an [[absolute value]] ${\vert - \vert}$ either the absolute value is archimedean, in which case $k$ is either the field of [[real numbers]] or of [[complex numbers]], or the absolute value is non-archimedean.
 
+### Non-archimedean fields
+
+For $k$ a non-archimedean field for some non-archimedean [[absolute value]] ${\vert -\vert}$ one defines
+
+* its **ring of integers** to be 
+
+  $$
+    k^\circ := \{x \in k \,|\, {\vert x\vert} \leq 1\}
+    \,.
+  $$
+
+This is a [[local ring]] with maximal ideal
+
+$$
+  k^{\circ\circ} := \{x \in k \,|\, {\vert x\vert} \lt 1\}
+  \,.
+$$
+
+* The **residue field** of $k$ is the [[quotient]]
+
+  $$
+    \tilde k := k^\circ / k^{\circ \circ}
+    \,.
+  $$
+
+
+## Examples
+
+Archimedean valued fields include
+
+* [[real numbers]]
+* [[complex numbers]]
+
+Non-archimedean fields include
+
+* [[p-adic numbers]].
 
 ## Related concepts
 
