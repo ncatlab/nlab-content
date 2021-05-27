@@ -17,7 +17,7 @@ A **quasiordered set**, or **quoset**, is a [[set]] equipped with a quasiorder.
 
 Unlike with other notions of [[order]], a set equipped with a quasiorder cannot be [[constructive mathematics|constructively]] understood as a kind of [[enriched category]] (at least, not as far as I know ...).  Using [[excluded middle]], however, a quasiorder is the same as a [[partial order]]; interpret $x \leq y$ literally to mean that $x \lt y$ or $x = y$, while $x \lt y$ conversely means that $x \leq y$ but $x \ne y$.
 
-Instead, the relation $\lt$ should be defined as an [[irreflexive]] [[comparison]] when generalising mathematics to other categories and to constructive mathematics. 
+Instead, the relation $\lt$ should be defined as an [[irreflexive comparison]] when generalising mathematics to other categories and to constructive mathematics. 
 
 If a quasiorder satisfies comparison (if $x \lt z$, then $x \lt y$ or $y \lt z$), then it is a [[linear order]] (at least on some [[quotient set]]), which is an important concept.
 
