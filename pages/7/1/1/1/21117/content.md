@@ -405,7 +405,7 @@ Realization of [[quantum error correction]] in [[experiment]], hence in actual [
 
   > (exposition)
 
-* Y. Ma et al. *Error-transparent operations on a logical qubit protected by quantum error correction*, Nature Physics volume 16, pages827–831 (2020) ([doi:10.1038/s41567-020-0893-x](https://doi.org/10.1038/s41567-020-0893-x))
+* Y. Ma et al. *Error-transparent operations on a logical qubit protected by quantum error correction*, Nature Physics volume 16, pages 827–831 (2020) ([doi:10.1038/s41567-020-0893-x](https://doi.org/10.1038/s41567-020-0893-x))
 
 
 * Ming Gong et al. *Experimental exploration of five-qubit quantum error correcting code with superconducting qubits*, National Science Review, nwab011 (2021) ([doi:10.1093/nsr/nwab011](https://doi.org/10.1093/nsr/nwab011))
