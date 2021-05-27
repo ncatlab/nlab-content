@@ -89,14 +89,9 @@ Sections 4.31--39 of _[[HAF]]_ do things in even more generality, but I don\'t r
 
 ###Irreflexive comparisons 
 
-Unfortunately, quasiorders are not very useful in constructive mathematics, so they are usually replaced by irreflexive [[comparison]]s. A set with an irreflexive  comparison is a a binary relation that satisfies the irreflexive and comparison properties:
+Unfortunately, quasiorders are not very useful in [[constructive mathematics]], so they are usually replaced by [[irreflexive comparisons]].
 
-* $x \lt x$ is false
-* if $x \lt z$, then $x \lt y$ or $y \lt z$
-
-Equivalently, a [[set]] $S$ equipped with an irreflexive comparison is a [[category]] (with $S$ as the set of [[objects]]) [[enriched category|enriched]] over the [[cartesian monoidal category]] $TV^\op$, that is the [[opposite category|opposite]] of the [[partial order|poset]] of [[truth value|truth values]], made into a [[monoidal category]] using [[disjunction]].
-
-A dense unbounded inhabited irreflexive comparison is an irreflexive comparison $S$ such that, given finite (here always meaning [[Kuratowski-finite]]) [[subsets]] $F$ and $G$ of $S$ such that $x \lt z$ whenever $x \in F$ and $z \in G$, we have some $y$ in $S$ such that $x \lt y$ and $y \lt z$ whenever $x \in F$ and $z \in G$.
+A dense unbounded inhabited [[irreflexive comparison]] is an irreflexive comparison $(S,\lt)$ such that, given finite (here always meaning [[Kuratowski-finite]]) [[subsets]] $F$ and $G$ of $S$ such that $x \lt z$ whenever $x \in F$ and $z \in G$, we have some $y$ in $S$ such that $x \lt y$ and $y \lt z$ whenever $x \in F$ and $z \in G$.
 
 +-- {: .num_defn}
 ###### Definition
