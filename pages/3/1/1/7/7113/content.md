@@ -7,41 +7,27 @@
 
 An _archimedean field_ is an [[ordered field]] that satisfies the [[archimedean property]].
 
-## Non-archimedean fields
+## Properties
 
-For $k$ a non-archimedean field for some non-archimedean [[absolute value]] ${\vert -\vert}$ one defines
-
-* its **ring of integers** to be 
-
-  $$
-    k^\circ := \{x \in k \,|\, {\vert x\vert} \leq 1\}
-    \,.
-  $$
-
-This is a [[local ring]] with maximal ideal
-
-$$
-  k^{\circ\circ} := \{x \in k \,|\, {\vert x\vert} \lt 1\}
-  \,.
-$$
-
-* The **residue field** of $k$ is the [[quotient]]
-
-  $$
-    \tilde k := k^\circ / k^{\circ \circ}
-    \,.
-  $$
-
+Every archimedean field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every archimedean field is the field of [[real numbers]]. 
 
 ## Examples
 
 Archimedean fields include
 
+* [[rational numbers]]
+* [[real closed fields]]
 * [[real numbers]]
 
 Non-archimedean fields include
 
-* [[p-adic numbers]].
+* [[finite fields]]
+
+* [[complex numbers]]
+
+* [[p-adic numbers]]
+
+* [[surreal numbers]]
 
 ## Related concepts
 
