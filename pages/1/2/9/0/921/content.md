@@ -113,7 +113,7 @@ Tarski's axioms for one-dimensional Euclidean geometry results in a complete den
 
 ### The locale of real numbers
 
-Consider [[binary relations]] $\sim$ on [[rational numbers]] satisfying these four properties:
+Consider [[binary relations]] $\sim$ on a [[countable]] [[inhabited]] [[dense linear order]] without endpoints, such as the [[rational numbers]], satisfying these four properties:
 
 *  If $a \geq b$, then $a \sim b$.
 *  If $a \geq b \sim c \geq d$, then $a \sim d$.
