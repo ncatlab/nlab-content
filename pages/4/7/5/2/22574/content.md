@@ -45,6 +45,14 @@ $$
 
 (e.g. [Chen 19, Def. 5.2.2](#Chen19))
 
+## Properties
+
+### Relation to Reny entropy
+
+Min-entropy is the [[limit of a sequence|limit]] of [[Rényi entropy]] at order $\alpha$ as $\alpha \to \infty$.
+
+[[!include Renyi entropies -- table ]]
+
 
 ## Related entries
 
