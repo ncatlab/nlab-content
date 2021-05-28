@@ -31,7 +31,7 @@ One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|compl
 
 ### Non-archimedean fields
 
-For $k$ a non-archimedean field for some non-archimedean [[absolute value]] ${\vert -\vert}$ one defines
+For $k$ a non-archimedean valued field for some non-archimedean [[absolute value]] ${\vert -\vert}$ one defines
 
 * its **ring of integers** to be 
 
@@ -62,7 +62,7 @@ Archimedean valued fields include
 * [[real numbers]]
 * [[complex numbers]]
 
-Non-archimedean fields include
+Non-archimedean valued fields include
 
 * [[p-adic numbers]].
 
@@ -70,6 +70,9 @@ Non-archimedean fields include
 
 * [[archimedean field]]
 
+* [[valuation]]
+
+* [[non-archimedean analytic geometry]]
 
 [[!redirects archimedean valued field]]
 [[!redirects archimedean valued fields]]
