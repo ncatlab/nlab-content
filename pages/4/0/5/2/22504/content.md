@@ -260,6 +260,108 @@ See at *[[hook-content formula]]* for more.
 
 [[!include hook length and content formulas -- table]]
 
+### Number of sYT with bounded number of rows
+  {#NumberOfSYTWithBoundedNumberOfRows}
+
+Counting of numbers of standard Young tableaux with $n$ boxes and $\leq N$ rows:
+
+Write
+
+$$
+  \left\vert
+    sYT_n(N)
+  \right\vert
+  \;=\;
+  \underset{
+    { \lambda \in Part(n) }
+    \atop
+    { rows(\lambds) \leq N }
+  }{
+    \sum
+  }
+  \left\vert
+     sYT_n
+  \right\vert
+  \,.
+$$
+
+
+We have
+
+$$
+  \left\vert
+    sYT_{2n}(2)
+  \right\vert
+  \;=\;
+  \frac{
+    (2n)!
+  }{
+    (n!)^2
+  }
+  \,,
+  \;\;\;\;\;\;
+  \left\vert
+    sYT_{2n+1}(2)
+  \right\vert
+  \;=\;
+  \frac{
+    (2n + 1)!
+  }{
+    n! (n+1)!
+  }
+$$
+
+$$
+  \left\vert
+    sYT_{n}(3)
+  \right\vert
+  \;=\;
+  \underoverset
+    {i = 0}
+    { \rfloor n/2 \lfloor }
+    {\sum}
+    \left( 
+      n \atop {2i}
+    \right)
+    Catalan(i)
+  \;=\;
+   Motzkin(n)
+  \,,
+$$
+
+where 
+
+* $Catalan(k) \;=\; \frac{(2k)!}{k! (k+1)!}$ are the [[Catalan numbers]];
+
+* $Motzkin(-)$ are the [[Motzkin numbers]],
+
+according to
+
+* [[Amitai Regev]], *Asymptotic values for degrees associated with strips of young diagrams*, Advances in Mathematics Volume 41, Issue 2, August 1981, Pages 115-136 (<a href="https://doi.org/10.1016/0001-8708(81)90012-8">doi:10.1016/0001-8708(81)90012-8</a>)
+
+
+For $N = 4,5$: 
+
+$$
+  \left\vert
+    sYT_{2n-1}(4)
+  \right\vert
+  \;=\;
+  Catalan(n) Catalan(n)
+  \,,
+  \;\;\;\;\;\;
+  \left\vert
+    sYT_{2n}(4)
+  \right\vert
+  \;=\;
+  Catalan(n) Catalan(n+1)
+$$
+
+due to
+
+* [[Dominique Gouyou-Beauchamps]], *Standard Young Tableaux of Height 4 and  5*, Europ. J. Combinatorics (1989) 10, 69-82 (<a href="https://doi.org/10.1016/S0195-6698(89)80034-4">doi:10.1016/S0195-6698(89)80034-4</a>, [pdf](https://core.ac.uk/download/pdf/82423471.pdf))
+
+
 
 ## References
 
@@ -283,10 +385,10 @@ See also the references at *[[Young tableau]]*.
 [[!redirects semistandard Young tableaux]]
 
 [[!redirects semi-standard Young tableau]]
-[[!redirects semi-standard Young tableaus]]
+[[!redirects semi-standard Young tableaux]]
 
 [[!redirects semi standard Young tableau]]
-[[!redirects semi standard Young tableaus]]
+[[!redirects semi standard Young tableaux]]
 
 [[!redirects standard Young tableau]]
 [[!redirects standard Young tableaux]]
