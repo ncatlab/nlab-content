@@ -94,3 +94,8 @@ the morphism $c\circ j : X\to C_1$, where $c: C_1\times_{C_0} C_1\to C_1$ is the
 [[!redirects discrete fibrations]]
 [[!redirects discrete opfibration]]
 [[!redirects discrete opfibrations]]
+
+
+## References
+
+Emily Riehl and Fosco Loregian, Categorical notions of fibration. [arXiv:1806.06129](https://arxiv.org/abs/1806.06129)
