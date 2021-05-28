@@ -390,9 +390,16 @@ Around equation (3) in
 
 * [[Steven Gubser]], [[Igor Klebanov]] [[Arkady Tseytlin]], *Coupling Constant Dependence in the Thermodynamics of $N = 4$ Supersymmetric Yang-Mills Theory*, Nucl. Phys. B534:202-222, 1998 ([arXiv:hep-th/9805156](https://arxiv.org/abs/hep-th/9805156))
 
-Around equation (5.5) in
+Around (3) in:
+
+* [[Igor Klebanov]], *From Threebranes to Large $N$ Gauge Theories* ([arXiv:hep-th/9901018](https://arxiv.org/abs/hep-th/9901018))
+
+
+Around equation (5.5) in:
 
 * [[Elias Kiritsis]], T.R. Taylor, *Thermodynamics of D-brane Probes* ([arXiv:hep-th/9906048](https://arxiv.org/abs/hep-th/9906048))
+
+See also:
 
 * [[Mark van Raamsdonk]], *[The Amazing Matrix in String Theory](http://www.physics.mcgill.ca/seminars/PSC_van-raamsdonk.html)* (2006):
 
