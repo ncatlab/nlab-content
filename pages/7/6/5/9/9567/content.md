@@ -29,13 +29,21 @@ An (ordinary) __series__ $\sum_{n=0}^\infty a_n$ whose members are the elements 
 
 ### As an operator
 
-For any group or semigroup $G$, one should be able to define a series as an sequence $a:\mathbb{N} \to G$ with an [[operator]] 
+For any group or semigroup $G$, we can [[inductive definition|inductively define]] the finite sum $\mathbb{N}$-[[action]] 
+
+$$\sum_{n=0}^{(-)} (-)(n) : (\mathbb{N} \to G) \times \mathbb{N} \to G$$
+
+as 
+
+$$\sum_{n=0}^{0} a(n) = a(0)$$
+
+$$\sum_{n=0}^{k+1} a(n) = a(k+1) + \sum_{n=0}^{k} a(n)$$
+
+for all $k:\mathbb{N}$ and $a:\mathbb{N} \to G$, such that [[currying]] the action results in the infinite series [[operator]]
 
 $$\sum_{n=0}^\infty (-)(n) : (\mathbb{N} \to G) \to (\mathbb{N} \to G)$$
 
-over the [[function algebra|function $G$-module]] $\mathbb{N} \to G$, such that [[currying]] the operator results in the partial sum $\mathbb{N}$-[[action]] 
-
-$$\sum_{n=0}^{(-)} (-)(n) : (\mathbb{N} \to G) \times \mathbb{N} \to G$$
+over the [[function algebra|function $G$-module]] $\mathbb{N} \to G$. 
 
 ## Internalisation
 
