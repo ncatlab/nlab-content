@@ -155,7 +155,7 @@ Since the plus-construction preserves finite limits, it suffices to observe that
 
 So far everything has been very formal.  The concrete input from the fact that we are talking about a Grothendieck topology comes here:
 
-\begin{lemma}\label{#Composing}
+\begin{lemma}\label{Composing}
 If $f:A\to B$ is a [[monomorphism in an (infinity,1)-category|monomorphism]] that is plus-connected, then $f^+ : A^+ \to B^+$ is an equivalence.
 \end{lemma}
 \begin{proof}
