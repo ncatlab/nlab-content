@@ -38,6 +38,7 @@ Some of the questions in [[set theory|set]] and [[model theory]] concerning the 
 
 * [[combinatorial functor]]
 
+* [[Catalan number]], [[Motzkin number]]
 
 * [[game theory]]
 
