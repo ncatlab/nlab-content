@@ -180,9 +180,9 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 ## Related concepts
 
-* [[Renyi entropy]]
 
-* [[min-entropy]]
+[[!include Renyi entropies -- table ]]
+
 
 * [[relative entropy]]
 
