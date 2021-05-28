@@ -49,7 +49,7 @@ Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^
    * The class of [[dense monomorphisms]] with [[representable functor|representable]] codomain $y U$.
    * The class of monomorphisms with codomain $y U$ that are inverted by the [[sheafification]] functor.  (Of course, this definition is not available unless we have shown that sheafification exists in some other way.)
 
-1. For $U\in C^{op}$ we define $A^+(U)$ to be the set of [[equivalence classes]] of pairs $(R,s)$ where $R\in J(U)$ and $s=(s_f\in A(dom f)|f\in R)$ is a [[matching family|compatible family]] of elements of $A$ relative to $R$, and $(R,s)\sim (R^\prime,s^\prime)$ iff there is a $J$-covering sieve $\R^{\prime \prime}\subseteq R\cap R^\prime$ on which the restrictions of $s$ and $s^\prime$ agree.
+1. For $U\in C^{op}$ we define $A^+(U)$ to be the set of [[equivalence classes]] of pairs $(R,s)$ where $R\in J(U)$ and $s=(s_f\in A(dom f)|f\in R)$ is a [[matching family|compatible family]] of elements of $A$ relative to $R$, and $(R,s)\sim (R', s')$ iff there is a $J$-covering sieve $R'' \subseteq R \cap R'$ on which the restrictions of $s$ and $s'$ agree.
 
 1. In the [[internal language]] of the presheaf topos $PSh(C)$, we can define $ A^+ = \{ K \subseteq A \,|\, j(K\,\text{ is a singleton}) \}/{\sim}$, where $\sim$ is the equivalence relation given by $K \sim L$ if and only if $j(K = L)$ and $j$ is the [[Lawvere-Tierney topology]].
 
@@ -71,7 +71,7 @@ More generally, when working with presheaves of $n$-groupoids for some finite $n
 
 We now sketch a proof of these facts, using the [[implicit infinity-category convention]] so that our results apply to higher sheaves as well as ordinary ones.
 
-we use the fourth definition above $A^+ = Lan_{r^{op}} Ran_{s^{op}} A$, which we will write more shortly as $A^+ = r_! s_* A$.  There is a canonical map $A\to A^+$, which we can more easily construct and study with the following observation:
+We use the fourth definition above $A^+ = Lan_{r^{op}} Ran_{s^{op}} A$, which we will write more shortly as $A^+ = r_! s_* A$.  There is a canonical map $A\to A^+$, which we can more easily construct and study with the following observation:
 
 \begin{lemma}\label{AnAdjointQuadruple}
   $s:C\to J$ is right adjoint to $r:J\to C$.  Therefore, we have an adjunction $r^* : Psh(C) \rightleftarrows Psh(J) : s^*$, and hence an [[adjoint quadruple]]:
@@ -121,7 +121,7 @@ If some (perhaps transfinite) iteration of the plus-construction on $A\in Psh(C)
 This follows formally from the fact that the plus-construction is a well-pointed endofunctor whose fixed points are the sheaves.
 \end{proof}
 
-Now since the plus-construction is an accessible endofunctor of a locally presentable category, its iteration always converges at some transfinite stage.  It follows that sheafification exists.  (Roughly this argument appears in [Lurie, section 6.5.3](#Lurie).
+Now since the plus-construction is an accessible endofunctor of a locally presentable category, its iteration always converges at some transfinite stage.  It follows that sheafification exists.  (Roughly this argument appears in [Lurie, section 6.5.3](#Lurie).)
 
 We now want to prove that if $A$ is a presheaf of $n$-groupoids for some finite $n$, the iteration in fact converges already after $n+2$ steps.  Though long expected, it seems that this was first actually proven by [Anel and Leena Subramaniam, 2020](#ALS); what follows is inspired by their proof.  We will actually prove something slightly more general.
 
