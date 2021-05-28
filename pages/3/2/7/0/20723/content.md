@@ -50,7 +50,11 @@ Alternative formulation for the case of [[commutative monoid|commutative]] [[top
 
 Generalization to [[generalized homology]] represented by [[ring spectra]] and relation to the [[Quillen plus construction]]:
 
-* [[Thomas Nikolaus]], _The group completion theorem via localizations of ring spectra_, 2017 ([pdf](https://people.mpim-bonn.mpg.de/thoni/Papers/Group_completion.pdf))
+* [[Thomas Nikolaus]], _The group completion theorem via localizations of ring spectra_, 2017 ([pdf](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/Group_completion.pdf))
+
+A proof based on Nikolaus's proof was written up in
+
+* Oscar Bendix Harr, _Group completion is a completion_, [PDF](http://web.math.ku.dk/~jg/students/oscar-bsthesis.pdf).
 
 [[!redirects group completion theorems]]
 [[!redirects group-completion theorem]]
