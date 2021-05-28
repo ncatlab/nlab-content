@@ -79,7 +79,7 @@ See [Alonso 19](#Alonso19) for general introduction to an audience with basic ba
 
 ### Up to 2019
 
-Indications of flavour anomalies have been observed (introduction and review in [Koppenburg 21](#Koppenburg21)) consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
+Indications of flavour anomalies have been observed (first suggested in [Koppenburg 07](##Koppenburg07), for introduction and review see [Koppenburg 21](#Koppenburg21)) consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
 
 \begin{center}
 \begin{imagefromfile}
@@ -351,7 +351,22 @@ Some authors therefore begin to speak jointly of _muon anomalies_ ([GST 21](#GST
   "caption": "from [Koppenburg Scholarp.](#KoppenburgScholarpedia)" 
 \end{imagefromfile}
 
-(This is as of April 2021, see [here](http://www.scholarpedia.org/article/Rare_decays_of_b_hadrons#Prospects) for the source text with more details.).
+(This is as of April 2021, see [here](http://www.scholarpedia.org/article/Rare_decays_of_b_hadrons#Prospects) for the source text with more details; also [Koppenburg 21, slide 44](#Koppenburg21))
+
+\begin{imagefromfile}
+  "file_name": "KoppenburgFlavourAnomaliesPattern.jpg",
+  "width": 600,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "from [Koppenburg 21, slide 53](#Koppenburg21)" 
+\end{imagefromfile}
+
+
 
 A [[leptoquark]]-model meaning to explain all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once: [Marzocca-Trifinopoulos 21](#MarzoccaTrifinopoulos21).
 
