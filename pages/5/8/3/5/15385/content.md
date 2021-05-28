@@ -24,7 +24,7 @@ While [[p-adic numbers]] and other [[non-archimedean fields]] may be [[complete 
 To remedy this ([Tate 71](#Tate71)) introduced a 
 [[Grothendieck topology]] for such [[analytic spaces]] with respect to which there is a good [[analytic geometry]], namely what is called _[[rigid analytic geometry]]_.
 
-This is simple the Grothendieck topology whose [[coverings]] are the covers by [[affinoid domain embeddings]]. It should probably be called the _Tate topology_. But in ([Bosch-G&#252;ntzer-Remmert 84,section 9.1.4](#BoschGuntzerRemmert84)) it is called the _G-topology_ (where actually "G" is short for "Grothendieck"...) and since then that name stuck.
+This is simply the Grothendieck topology whose [[coverings]] are the covers by [[affinoid domain embeddings]]. It should probably be called the _Tate topology_. But in ([Bosch-G&#252;ntzer-Remmert 84,section 9.1.4](#BoschGuntzerRemmert84)) it is called the _G-topology_ (where actually "G" is short for "Grothendieck"...) and since then that name stuck.
 
 ## References
 
