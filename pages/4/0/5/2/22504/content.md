@@ -255,7 +255,7 @@ $$
 
 See at *[[hook-content formula]]* for more.
 
-### Relation to dimensions of irreps
+###asym Relation to dimensions of irreps
 
 
 [[!include hook length and content formulas -- table]]
@@ -285,8 +285,79 @@ $$
   \,.
 $$
 
+Asymptotically for large $n$ this is ([Regev 81, Thm. 2.20](#Regev81)):
 
-We have
+$$
+  \begin{aligned}
+  \left\vert
+    sYT_n(N)
+  \right\vert  
+  &
+  \;
+  \overset{
+    n \to \infty
+  }{\sim}
+  \;
+  \underset{
+    \gamma_N
+  }{
+  \underbrace{
+    (2 \pi)^{ -(N-1)/2 }
+    \cdot
+    N^{ N^2 / 2 }
+  }
+  }
+  \cdot
+  n^{ - (N - 1)(N + 2)/4 }
+  \cdot
+  N^{ n }
+  \cdot
+  n^{ (N - 1)/2 }
+  \cdot
+  \underset{
+    \mathclap{
+      x_1 \geq \cdots \geq x_N
+    }
+  }{\int}
+    \;\;\;\;\;
+    \underset{
+      D(x_1, \cdots, x_N)
+    }{
+    \underbrace{
+    \underset{i \lt j}{\prod}
+    \big(
+      x_i - x_j 
+    \big)
+    }
+    }
+    e^{ - N \left\vert x\right\vert^2 /2 }
+   d x_1 \cdots d x_{N}
+   \\
+   & \;=\;
+   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
+   \cdot
+   N^{ \tfrac{1}{2} N^2 + n}
+   \cdot
+   n^{  - \tfrac{1}{4}( N^2 + N ) }
+   \cdot
+   \underset{
+     \mathclap{
+       x_1 \geq \cdots \geq x_N
+     }
+   }{\int}
+    \;\;\;\;\;
+   \underset{i \lt j}{\prod}
+   \big(
+     x_i - x_j 
+   \big)
+   e^{ - N \left\vert x\right\vert^2 /2 }
+   d x_1 \cdots d x_{N}
+  \end{aligned}
+$$
+
+
+
+Exact special cases:
 
 $$
   \left\vert
@@ -335,9 +406,7 @@ where
 
 * $Motzkin(-)$ are the [[Motzkin numbers]],
 
-according to
-
-* [[Amitai Regev]], *Asymptotic values for degrees associated with strips of young diagrams*, Advances in Mathematics Volume 41, Issue 2, August 1981, Pages 115-136 (<a href="https://doi.org/10.1016/0001-8708(81)90012-8">doi:10.1016/0001-8708(81)90012-8</a>)
+attributed in [Gouyou-Beauchamps 89](#Gouyou-Beauchamps89) to [Regev 81](#Regev81)
 
 
 For $N = 4,5$: 
@@ -357,13 +426,13 @@ $$
   Catalan(n) Catalan(n+1)
 $$
 
-due to
-
-* [[Dominique Gouyou-Beauchamps]], *Standard Young Tableaux of Height 4 and  5*, Europ. J. Combinatorics (1989) 10, 69-82 (<a href="https://doi.org/10.1016/S0195-6698(89)80034-4">doi:10.1016/S0195-6698(89)80034-4</a>, [pdf](https://core.ac.uk/download/pdf/82423471.pdf))
+due to [Gouyou-Beauchamps 89](#Gouyou-Beauchamps89).
 
 
 
 ## References
+
+### General
 
 Textbook account:
 
@@ -380,6 +449,14 @@ Specifically for standard Young tableaux:
 
 See also the references at *[[Young tableau]]*.
 
+
+### Counting for bounded number of rows
+
+* {#Regev81} [[Amitai Regev]], *Asymptotic values for degrees associated with strips of young diagrams*, Advances in Mathematics Volume 41, Issue 2, August 1981, Pages 115-136 (<a href="https://doi.org/10.1016/0001-8708(81)90012-8">doi:10.1016/0001-8708(81)90012-8</a>)
+
+* {#Gouyou-Beauchamps89} [[Dominique Gouyou-Beauchamps]], *Standard Young Tableaux of Height 4 and  5*, Europ. J. Combinatorics (1989) 10, 69-82 (<a href="https://doi.org/10.1016/S0195-6698(89)80034-4">doi:10.1016/S0195-6698(89)80034-4</a>, [pdf](https://core.ac.uk/download/pdf/82423471.pdf))
+
+* Marilena Barnabei, Flavio Bonetti, and Matteo Silimbani: *Combinatorial properties of the numbers oftableaux of bounded height* ([arXiv:0803.2112](https://arxiv.org/abs/0803.2112), [pdf](http://amsacta.unibo.it/2443/1/bounded_height.pdf))
 
 
 [[!redirects semistandard Young tableaux]]
