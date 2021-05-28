@@ -381,7 +381,26 @@ A corresponding discussion as [[schreiber:∞-Wess-Zumino-Witten theory]] and re
 [[!include D-brane charge quantization in topological K-theory -- references]]
 
 
+### Entropy
+ {#ReferencesEntropy}
 
+The [[entropy]] of D-branes scales with the *square* of their number:
+
+Around equation (3) in
+
+* [[Steven Gubser]], [[Igor Klebanov]] [[Arkady Tseytlin]], *Coupling Constant Dependence in the Thermodynamics of $N = 4$ Supersymmetric Yang-Mills Theory*, Nucl. Phys. B534:202-222, 1998 ([arXiv:hep-th/9805156](https://arxiv.org/abs/hep-th/9805156))
+
+Around equation (5.5) in
+
+* [[Elias Kiritsis]], T.R. Taylor, *Thermodynamics of D-brane Probes* ([arXiv:hep-th/9906048](https://arxiv.org/abs/hep-th/9906048))
+
+* [[Mark van Raamsdonk]], *[The Amazing Matrix in String Theory](http://www.physics.mcgill.ca/seminars/PSC_van-raamsdonk.html)* (2006):
+
+  > Most of the dramatic progress in string theory over the past decade has in some way involved the degrees of freedom of D-branes, solitonic objects in string theory whose low energy physics is described by quantum field theories living on the branes. Essential to many of the applications of D-brane physics is the fact that the number of degrees of freedom of a collection of branes scales not as the number of branes, but as the square of the number of branes. 
+
+Around (1.1) in:
+
+* Qianqian Du, Michael Strickland, Ubaid Tantary, $\mathcal{N} = 4$ supersymmetric Yang-Mills thermodynamics to order $\lambda^2$ ([arXiv:2105.02101](https://arxiv.org/abs/2105.02101))
 
 ### For rational CFT
 
