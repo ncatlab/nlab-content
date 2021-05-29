@@ -392,7 +392,7 @@ $$
    & \;=\;
    (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
    \cdot
-   N^{ \tfrac{1}{4} (N^2 + N) + \tfrac{1}{2} n}
+   N^{ \tfrac{1}{4} (N^2 + N) + n}
    \cdot
    n^{  - \tfrac{1}{4}( N^2 - N ) }
   \end{aligned}
