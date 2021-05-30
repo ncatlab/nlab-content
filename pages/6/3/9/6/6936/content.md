@@ -124,12 +124,12 @@ This is already interesting in [[extensional type theory]], where [[quotient typ
 
 A [[quotient inductive type]] is a higher inductive type that includes a "0-truncation" constructor such as `contr1` for a set-quotient.  Many of these are useful in set-based mathematics; in addition to colimits in [[Set]], they can be used to construct free algebras and colimits of algebras of various sorts.  Examples can be found at [[quotient inductive type]], including:
 
-* Multiple definitions of the integers
-* Polynomial rings
-* The [[cumulative hierarchy]]
-* The [[Cauchy real numbers]]
+* multiple definitions of the [[integers]]
+* [[polynomial rings]]
+* the [[cumulative hierarchy]]
+* the [[Cauchy real numbers]]
 * [[partial map classifiers]]
-* Internal type theory
+* [[internal type theory]]
 
 ### Rezk completion
 
