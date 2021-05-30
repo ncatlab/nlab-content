@@ -124,15 +124,28 @@ A definition of a [[free object|free]] [[poset]] as a quotient inductive-inducti
     | setcontr: forall (x y: poset A) (p q : x == y), p == q.
 
     Inductive \leq {poset A}: poset A -> poset A -> Type :=
-    | refl: (forall x) x \leq x
-    | trans: (forall x y z) (x \leq y) -> (y \leq z) -> (x \leq z)
-    | pordercontr: forall (x y) (p q : x \leq y), p == q.
+    | refl: (forall x: poset A) x \leq x
+    | trans: (forall x y z: poset A) (x \leq y) -> (y \leq z) -> (x \leq z)
+    | pordercontr: forall (x y : poset A) (p q : x \leq y), p == q.
 
 ### Partial map classifiers
 
-From Altenkirch, Danielsson, and Kraus 2016
+Every [[partial map classifier]] $A_\bot$ is a [[free object|free]] [[pointed object|pointed]] [[countable set|denumerably]] complete [[partial order]] on a 0-truncated type $A$. They are also called free pointed $\omega$-cpos. [See Altenkirch, Danielsson, and Kraus, 2016](#partial)
 
-partial map classifiers are [[free object|free]] [[countable set|denumerably]] complete [[partial orders]]. 
+    Inductive omegacpo (A: Type) :=
+    | inj: A -> omegacpo A
+    | bottom: omegacpo A
+    | denumjoin: (exists a: nat -> omegacpo A) (forall n: nat) a n \leq a succ n
+    | antisym: (forall x y : omegacpo A) (x \leq y) -> (y \leq x) -> (x == y)
+    | setcontr: forall (x y: omegacpo A) (p q : x == y), p == q.
+
+    Inductive \leq {omegacpo A}: omegacpo A -> omegacpo A -> Type :=
+    | refl: (forall x: omegacpo A) x \leq x
+    | trans: (forall x y z: omegacpo A) (x \leq y) -> (y \leq z) -> (x \leq z)
+    | init: (forall x : omegacpo A) bottom \leq x
+    | upperbound: (forall a: nat -> omegacpo A) ((forall n: nat) a n) \leq denumjoin a p
+    | leastupper: (forall x : omegacpo A) ((forall a: nat -> omegacpo A) ((forall n: nat) a n) \leq x) -> (forall a: nat -> omegacpo A) denum a p \leq x)
+    | pordercontr: forall (x y : poset A) (p q : x \leq y), p == q.
 
 Examples include the [[Sierpinski space]] $1_\bot$. 
 
@@ -148,7 +161,7 @@ From Altenkirch and Kaprosi 2017
 
 * [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
-* [[Thorsten Altenkirch]], Nils Anders Danielsson, Nicolai Kraus, _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_ [arXiv](https://arxiv.org/abs/1610.09254), 2016
+* {#partial} [[Thorsten Altenkirch]], Nils Anders Danielsson, Nicolai Kraus, _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_ [arXiv](https://arxiv.org/abs/1610.09254), 2016
 
 * Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
 
