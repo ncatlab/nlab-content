@@ -51,7 +51,9 @@ Additionally, we tend to use the term 'completion' only for a [[faithful functor
   [[Mike Shulman]]: Also, is the unit of this adjunction monic?  Off the top of my head I see no reason for it to be.
   =--
 
-* [[Grothendieck group]] of a cancellative commutative [[monoid]]; group completion of a cancellative monoid
+* [[Grothendieck group]] of a cancellative commutative [[monoid]]; [[group completion]] of a cancellative monoid
+
+* More generally, [[group completion]] of a monoid, which may end up being the [[trivial group]].  
 
 * Field of fractions of an [[integral domain]]
 
