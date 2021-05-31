@@ -41,8 +41,12 @@ Disjunction is [[de Morgan dual]] to [[logical conjunction|conjunction]].
 
 Like any join, disjunction is an associative operation, so we can take the disjunction of any finite positive whole number of truth values; the disjunction is true if and only if at least one of the various truth values is true.  Disjunction also has an [[identity element]], which is the [[falsity|false]] truth value.  Some logics allow a notion of infinitary disjunction.  Indexed disjunction is [[existential quantification]].
 
-In [[homotopy type theory]], the disjunction of two [[mere propositions]], $P$ and $Q$, is the [[bracket type]] of their [[sum type]], $\| P + Q \|$.
+In [[homotopy type theory]], the disjunction of two [[mere propositions]], $P$ and $Q$, is the [[bracket type]] of their [[sum type]], $\| P + Q \|$. Disjunction types in general could also be regarded as a particular sort of [[higher inductive type]]. In [[Coq]] syntax:
 
+    Inductive disjunction (P Q:Type) : Type :=
+    | inl : P -> disjunction P Q
+    | inr : Q -> disjunction P Q
+    | contr0 : forall (p q : disjunction P Q) p == q
 
 ## Classical vs constructive
 
