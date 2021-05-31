@@ -163,7 +163,7 @@ A [[quotient inductive type]] is a higher inductive type that includes a "0-trun
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Rezk completion]] or [[stack completion]] of a [[pregroupoid]] to a [[groupoid]] is a higher inductive type and the [[1-truncated]] analogue of the quotient set construction above. 
 
-... (translate into Agda)
+... (translate into Coq)
 
 ### Integers
 
