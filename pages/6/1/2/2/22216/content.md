@@ -33,7 +33,7 @@ It can equivalently be defined as the (homotopy) [[pushout]] of $A$ and the unit
 
 * The [[interval type]] $I$ is the cone type of the unit type $1$
 
-* A simplex type $\Delta_n$ is the cone type of the simplex type $\Delta_{n-1}$. $\Delta_1 = I$ and $\Delta_0 = 1$. 
+* A [[simplex type]] $\Delta_n$ is the cone type of the simplex type $\Delta_{n-1}$. $\Delta_1 = I$ and $\Delta_0 = 1$. 
 
 ## See also
 
