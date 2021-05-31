@@ -31,4 +31,6 @@ The 2-[[simplex]]. The [[polygon]] with three sides.
 
 * [[tetrahedron]]
 
+* [[triangle type]]
+
 [[!redirects triangles]]
