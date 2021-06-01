@@ -26,6 +26,10 @@ A __midpoint algebra__ is a [[magma]] $(M,\vert)$ that is commutative, idempoten
 
 * for all $a$, $b$, $c$, and $d$ in $M$, $(a \vert b) \vert (c \vert d) = (a \vert c) \vert (b \vert d)$
 
+## Properties
+
+The [[currying]] of the midpoint operation $\vert$ results in the __contraction__ $(-)\vert : M \to (M \to M)$. Contractions are midpoint [[homomorphisms]]: for all $a$, $b$, and $c$ in $M$, $(a \vert) (b \vert c) = ((a \vert) b) \vert ((a \vert) c)$. 
+
 ## Examples
 
 The [[rational numbers]], [[real numbers]], and the [[complex numbers]] with $a \vert b \coloneqq \frac{a + b}{2}$ are examples of midpoint algebras. 
