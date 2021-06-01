@@ -1,4 +1,4 @@
-> This entry is about scales in [[algebra]]. For scales in [[geometry]] and [[physics]], see [[length scale]]. 
+> This entry is about scales in [[algebra]] and [[linear logic]]. For scales in [[geometry]] and [[physics]], see [[length scale]]. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -64,13 +64,13 @@ $$a \wedge b \coloneqq (a \vert (a^\bullet \vert b)^\wedge)^\vee$$
 
 The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac{1}{2}$, $a^\bullet = 1 - a$, $\bot = 0$, $\top = 1$, $a^\wedge = max(2a-1,0)$, and $a^\vee = min(2a,1)$ is an example of a scale.
 
-The set of truth values in [[linear logic]] is a scale. 
+The set of truth values in Girard's [[linear logic]] is a scale. 
 
 ## Related concepts
 
 * [[minor scale]]
 
-* [[chromatic scale]]
+* [[Heyting scale]]
 
 ## References
 
