@@ -24,7 +24,7 @@ So when $D = {*}$ is the point, an inner fibration $C \to {*}$ is precisely a [[
 
 And when $D = N(\Delta[1])$ is the [[nerve]] of the [[interval category]], an inner fibration $C \to \Delta[1]$ may be thought of as the [[cograph of a profunctor|cograph of an (∞,1)-profunctor]] $C &#8696; D$.
 
-This $(\infty,1)$-profunctor comes form an ordinary [[(∞,1)-functor]] $F : C \to D$ precisely if the inner fibration $K \to \Delta[1]$ is even a [[coCartesian fibration]]. And it comes from a functor $G : D \to C$ precisely if the fibration is even a [[Cartesian fibration]]. This is the content of the [[(∞,1)-Grothendieck construction]].
+This $(\infty,1)$-profunctor comes from an ordinary [[(∞,1)-functor]] $F : C \to D$ precisely if the inner fibration $K \to \Delta[1]$ is even a [[coCartesian fibration]]. And it comes from a functor $G : D \to C$ precisely if the fibration is even a [[Cartesian fibration]]. This is the content of the [[(∞,1)-Grothendieck construction]].
 
 And precisely if the inner fibration/cograph of an $(\infty,1)$-profunctor $K  \to \Delta[1] $ is both a Cartesian as well as a coCartesian fibration does it exhibit a pair of [[adjoint (∞,1)-functor]]s.
 
