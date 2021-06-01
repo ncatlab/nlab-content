@@ -24,6 +24,8 @@ A __closed midpoint algebra__ is a [[cancellative midpoint algebra]] $(M,\vert)$
 
 The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\bot = 0$, and $\top = 1$ is an example of a closed midpoint algebra. 
 
+The set of truth values in Girard's [[linear logic]] is a closed midpoint algebra. 
+
 ## Properties
 
 Every closed midpoint algebra with $\bot = \top$ is [[trivial object|trivial]]. 
