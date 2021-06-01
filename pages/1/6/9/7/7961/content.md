@@ -7,7 +7,7 @@
 
 There is a [[natural bijection]] between the set of finite binary [[tree|trees]] and the set of seven-[[tuples]] of such.
 
-This observation, originally made by [[Bill Lawvere]], has since then been expanded to other ''polynomial equations'' apart from $T \simeq T^7$ and other [[structure type|types]] than [[tree|trees]], revealing connections between [[types and calculus|type theory and calculus]].
+This observation, originally made by [[Bill Lawvere]], has since then been expanded to other "polynomial equations" apart from $T \simeq T^7$ and other [[structure type|types]] than [[tree|trees]], revealing connections between [[types and calculus|type theory and calculus]].
 
 
 ## References
