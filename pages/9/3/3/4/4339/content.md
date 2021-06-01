@@ -71,3 +71,6 @@ Then the empty space is not path connected because it has no paths at all and he
 
 [[!redirects too simple to be simple]]
 [[!redirects too simple]]
+[[!redirects trivial]]
+[[!redirects trivial object]]
+[[!redirects trivial objects]]
