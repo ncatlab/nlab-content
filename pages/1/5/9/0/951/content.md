@@ -72,7 +72,7 @@ All these universal properties have useful duals.  $FinSet^{op}$ is the free cat
 
 ### In Grpd
 
-$FinSet$ is a [[natural numbers object]] in the [[(2,1)-topos]] [[Grpd]] of [[groupoids]] and [[functors]], as it is an initial algebra of the 2-endofunctor $F(X) \cong 1 + X$. It is also a [[free object|free]] [[monoid object]] on one generator in [[Grpd]], an [[initial object|initial]] [[rig object]] in [[Grpd]], and a [[category]]. This all follows from tye fact that the category $FinSet$ is the [[vertical categorification]] of the [[poset]] $\mathbb{N}$ of natural numbers. 
+$FinSet$ is a [[natural numbers object]] in the [[(2,1)-topos]] [[Grpd]] of [[groupoids]] and [[functors]], as it is an initial algebra of the 2-endofunctor $F(X) \cong 1 + X$. It is also a [[free object|free]] [[monoid object]] on one generator in [[Grpd]], an [[initial object|initial]] [[rig object]] in [[Grpd]], and a [[category]]. This all follows from the fact that the category $FinSet$ is the [[vertical categorification]] of the [[poset]] $\mathbb{N}$ of natural numbers. 
 
 ### In topos theory
 
