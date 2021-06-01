@@ -28,6 +28,8 @@ Every symmetric closed midpoint algebra with $\bot = \top$ is [[trivial object|t
 
 The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac{1}{2}$, $a^\bullet = 1 - a$, $\bot = 0$, and $\top = 1$ is an example of a symmetric closed midpoint algebra. 
 
+The set of truth values in Girard's [[linear logic]] is a symmetric closed midpoint algebra. 
+
 ## Related concepts
 
 * [[closed midpoint algebra]]
