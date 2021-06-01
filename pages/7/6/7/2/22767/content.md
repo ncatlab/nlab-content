@@ -30,6 +30,8 @@ $$
   \,.
 $$
 
+Just as for $z =n \in \mathbb{N}$, $\Gamma(n+1) = n!$, so $G(n+2) = n!(n-1)! \cdots 1!$.
+
 ## Definition
 
 (...)
@@ -94,13 +96,67 @@ $$
     {
       G(N/2+ 1)
       \cdot
-      G(N/2 + 1/)
+      G(N/2 + 1/2)
     }
     { G(1/2) }
   \,.
 $$
 
-(claimed in [Kotěšovec 13, p. 2](#Kotesovec))
+([Kotěšovec 13, p. 2](#Kotesovec))
+
+To see this, consider two cases:
+
+$N = 2M$:
+
+$$
+  \underoverset
+    {j = 1}
+    {N}
+    {\prod}
+  \Gamma(j/2)
+  \;=\;
+\underoverset
+    {j = 1}
+    {M}
+    {\prod}
+  \Gamma(j)
+\cdot 
+\underoverset
+    {j = 1}
+    {M}
+    {\prod}
+  \Gamma(j - \frac{1}{2})
+ \;=\;
+G(M+1) \cdot G(M +1/2) /G(1/2)
+ \;=\;
+G(N/2 + 1) \cdot G(N/2 + 1/2)/G(1/2).
+$$
+
+$N = 2M+1$:
+
+$$
+  \underoverset
+    {j = 1}
+    {N}
+    {\prod}
+  \Gamma(j/2)
+  \;=\;
+\underoverset
+    {j = 1}
+    {M}
+    {\prod}
+  \Gamma(j)
+\cdot 
+\underoverset
+    {j = 1}
+    {M+1}
+    {\prod}
+  \Gamma(j - \frac{1}{2})
+ \;=\;
+G(M+1) \cdot G(M +3/2) /G(1/2)
+ \;=\;
+G(N/2 + 1/2) \cdot G(N/2 + 1)/G(1/2).
+$$
 
 ## References
 
