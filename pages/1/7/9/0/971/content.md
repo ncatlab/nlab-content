@@ -165,7 +165,7 @@ For a [[category]] $\mathcal{M}$ the following are equivalent:
 
 * $\mathcal{M}$ is finitely [[accessible category|accessible]].
 
-* $\mathcal{M}\simeq \mathbb{T}\text{-}Mod(Set)$ for some theory $\mathbb{T}$ of presheaf type.
+* $\mathcal{M}\simeq \mathbb{T}\text{-}Mod(Set)$ for some [[theory of presheaf type|theory $\mathbb{T}$ of presheaf type]].
 
 =--
 
