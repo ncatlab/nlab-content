@@ -28,6 +28,8 @@ $$
 
 Examples include [[commutative monoids]], [[abelian groups]], [[commutative rings]], [[commutative algebras]] etc.
 
+Another example of a commutative magma is a [[midpoint algebra]]. 
+
 ## Related concepts
 
 * [[magma]] (noncommutative version)
