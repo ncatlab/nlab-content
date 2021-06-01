@@ -391,6 +391,8 @@ Since every proposition comes with an antithesis proposition in the antithesis i
   * [[bunched logic]]
   * [[separation logic]]
 
+* [[scale]]
+  * [[Heyting scale]]
 
 ## References
 
