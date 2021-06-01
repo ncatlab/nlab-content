@@ -42,4 +42,6 @@ The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac
 
 ## References
 
-* Insert proper reference to _Algebraic Real Analysis_ by [[Peter Freyd]]
+* [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
+
+
