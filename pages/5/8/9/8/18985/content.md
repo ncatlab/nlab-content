@@ -1,4 +1,6 @@
 
+> This entry is about scales in [[geometry]] and [[physics]]. For scales in [[algebra]], see [[scale]]. 
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,7 +40,3 @@
 * Wikipedia, _[Spatial scale](https://en.wikipedia.org/wiki/Spatial_scale)_
 
 [[!redirects length scales]]
-
-
-[[!redirects scale]]
-[[!redirects scales]]
