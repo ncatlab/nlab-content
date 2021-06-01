@@ -58,16 +58,19 @@ Cf. Beke ([2004](#Beke04), p.923) and the references given there. In fact, these
 
 Note that despite the above equivalences the finite accessibility of $\mathbb{T}\text{-}Mod(Set)$ does _not_ imply that $\mathbb{T}$ itself is of presheaf type! One sees this already in case $\mathbb{T}\text{-}Mod(Set)=\emptyset$ since there famously are non trivial (Boolean sheaf) toposes lacking points ("non empty generalized spaces without points") yet up to [[Morita equivalence]] the only theory of presheaf type corresponding to the finite accessibility of the empty category is the inconsistent theory.
 
-The following proposition shows in which sense theories of presheaf type are still determined by their models in $Set$:
+The following proposition shows in which sense theories of presheaf type are still determined by their (finitely presentable) models in $Set$:
 
 +-- {: .num_prop }
 ###### Proposition
 
-Let $\mathbb{T}$ be of presheaf type. Then (modulo neglectable size issues[^iss]) $Set[\mathbb{T}]\simeq  [\mathbb{T}\text{-}Mod_{fp}(Set),Set]$.
+A [[geometric theory]] $\mathbb{T}$ is of presheaf type iff (modulo neglectable size issues[^iss])
+$$Set[\mathbb{T}]\simeq  [\mathbb{T}\text{-}Mod_{fp}(Set),Set]\, .$$
 
 =--
 
-**Proof**. (Cf. [Caramello 2018](#Cara18), pp.198f)
+**Proof**. "$\Rightarrow$":
+
+(Cf. [Caramello 2018](#Cara18), pp.198f)
 
 By assumption $Set[\mathbb{T}]\simeq [\mathcal{C}, Set]$. Since $[\mathcal{C},Set]\simeq [\hat{\mathcal{C}}, Set]$ (by [Johnstone 2002](#JT02), p.10) we can assume that $\mathcal{C}$ is [[Cauchy complete category|Cauchy complete]].
 
