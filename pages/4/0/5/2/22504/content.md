@@ -575,9 +575,9 @@ where
 
 * $Catalan(k) \;=\; \frac{(2k)!}{k! (k+1)!}$ are the [[Catalan numbers]];
 
-* $Motzkin(-)$ are the [[Motzkin numbers]],
+* $Motzkin(-)$ are the [[Motzkin numbers]].
 
-attributed in [Gouyou-Beauchamps 89](#Gouyou-Beauchamps89) to [Regev 81](#Regev81)
+This is attributed in [Gouyou-Beauchamps 89](#Gouyou-Beauchamps89) to [Regev 81](#Regev81).
 
 
 For $N = 4,5$: 
