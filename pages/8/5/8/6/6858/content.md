@@ -104,8 +104,9 @@ $$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$
 
 * [[Euler beta function]]
 
-* [[completed Riemann zeta function]]
+* [[Riemann zeta function]]
 
+* [[Barnes G-function]]
 
 ## References 
 
