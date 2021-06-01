@@ -32,6 +32,8 @@ The [[trivial group]] with $a \vert b = a \cdot b$, $a^\bullet = a^{-1}$ and $\o
 
 * [[symmetric midpoint algebra]]
 
+* [[minor scale]]
+
 ## References
 
 * Insert proper reference to _Algebraic Real Analysis_ by [[Peter Freyd]]
