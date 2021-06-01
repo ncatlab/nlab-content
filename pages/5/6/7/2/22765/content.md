@@ -30,7 +30,7 @@ The [[trivial group]] with $a \vert b = a \cdot b$, $a^\bullet = a^{-1}$ and $\o
 
 * [[closed midpoint algebra]]
 
-* [[symmetric midpoint algebra]]
+* [[symmetric cancellative midpoint algebra]]
 
 * [[minor scale]]
 
