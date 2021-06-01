@@ -263,9 +263,7 @@ See at *[[hook-content formula]]* for more.
 ### Number of sYT with bounded number of rows
   {#NumberOfSYTWithBoundedNumberOfRows}
 
-Counting of numbers of standard Young tableaux with $n$ boxes and $\leq N$ rows:
-
-Write
+We discuss formulas for the number 
 
 $$
   \left\vert
@@ -282,9 +280,11 @@ $$
   \left\vert
      sYT_n
   \right\vert
-  \,.
 $$
 
+of standard Young tableaux with $n$ boxes and $\leq N$ rows.
+
+#### Asymptotic formulas for large $n$
 
 {#AsymptoticFormulaForNumberOfSYTWIthBoundedHeight} Asymptotically for large $n$ this is ([Regev 81, (F.4.5.1)](#Regev81)):
 
@@ -308,7 +308,13 @@ $$
     {N!}
   \cdot
   \big( 
-    \Gamma(3/2)
+    \underset{
+       \sqrt{\pi}/2
+    }{
+    \underbrace{
+      \Gamma(3/2)
+    }
+    }
   \big)^{- N}
   \cdot
   \underoverset
@@ -322,29 +328,97 @@ $$
   \end{aligned}
 $$
 
-
-
-Compare to the conjecture in [Kotěšovec 13](#Kotesovec13):
+Later this appears as a conjecture in [Kotěšovec 13](#Kotesovec13):
 
 $$
+  \begin{aligned}
   \left\vert
     sYT_n(N)
   \right\vert  
+  &
   \;\sim\;
   \underoverset
     {j = 1}
     {N}
     {\prod}
-  \Gamma(j/2)
+  \underset{
+    \Gamma(1 + j/2) \tfrac{2}{j}
+  }{
+  \underbrace{
+    \Gamma(j/2)
+  }
+  }
   \cdot
   \frac{N^n}{\pi^{N/2}}
   \cdot
   \left( 
     \frac{N}{n}
-  \right)^{ \tfrac{1}{4}(N(N-1)) }
+  \right)^{ \tfrac{1}{4}(N(N-1)) }  
+  \\
+  & \;=\;
+  \underoverset
+    {j = 1}
+    {N}
+    {\prod}
+  \Gamma
+  \big(
+    1 + j/2
+  \big)
+  \cdot
+  \frac{2^N}{N!}
+  \cdot
+  \frac{N^n}{\pi^{N/2}}
+  \cdot
+  \left( 
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4}(N(N-1)) }  
+  \,.
+  \end{aligned}
 $$
 
-> Hm, close...
+Using the [[Gauss multiplication formula]] this is equivalently:
+
+$$
+ \begin{aligned}
+  \left\vert
+    sYT_n(N)
+  \right\vert  
+  &
+  \;
+  \overset{
+    n \to \infty
+  }{\sim}
+  \;
+  \left(
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4} N(N-1) }
+  \cdot
+  \frac
+    {N^n}
+    {N!}
+  \cdot
+   2^N
+   \cdot
+   \pi^{ - \tfrac{1}{2} N }
+  \cdot
+  \Gamma
+  \left(
+    1 + \tfrac{N}{2}
+  \right)  
+  \Gamma
+  \left( 
+    N
+  \right)
+  (2\pi)^{ \tfrac{1}{2}(N-1) }
+  \cdot
+  N^{ \tfrac{1}{2} - N }
+  \\
+  & 
+  \;=\;
+  \end{aligned}
+$$
+
+#### Exact formulas for small $N$
 
 Exact formulas for small $N$:
 
