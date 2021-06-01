@@ -68,6 +68,26 @@ $$
 $$
 \end{example}
 
+\begin{remark}
+  A related expression gives a product of [[Barnes G-functions]] (see [there](Barnes+G-function#MultiplicationFormulaForGammaFunctionInTermsOfGFunction)):
+$$
+  \underoverset
+    {j = 1}
+    {N}
+    {\prod}
+  \Gamma(j/2)
+  \;=\;
+  \frac
+    {
+      G(N/2+ 1)
+      \cdot
+      G(N/2 + 1/2)
+    }
+    { G(1/2) }
+  \,.
+$$
+\end{remark}
+
 ## References
 
 * J. Sándor and L. Tóth, *A remark on the gamma function*, Elem. Math. 44 (3), pp. 73–76 (1989) ([dml:141455](https://eudml.org/doc/141455))
