@@ -17,7 +17,7 @@
 
 A notion of [[entropy]]. 
 
-In the context of [[probability theory]], the **max-entropy** or **Hartley entropy** of a [[probability distribution]] on a [[finite set]] is the [[logarithm]] of the number of outcomes with nonzero probability. 
+In the context of [[probability theory]], the **max-entropy** or **Hartley entropy** of a [[probability distribution]] on a [[finite set]] is the [[logarithm]] of the [[number]] of outcomes with non-[[zero]] [[probability]]. 
 
 In [[quantum probability theory]] this means that the max entropy is the logarithm of the [[rank]] of the [[density matrix]].
 
