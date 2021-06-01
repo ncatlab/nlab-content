@@ -161,10 +161,25 @@ A [[small category]] is accessible precisely when it is [[idempotent complete ca
 +-- {: .num_prop }
 ###### Proposition
 
-A [[geometric theory]] $T$ is a [[theory of presheaf type]] precisely if its category $Mod(T,Set)$ of [[models]] in [[Set]] is a finitely accessible category, and if and only if it is [[sketch|sketchable]].
+For a [[category]] $\mathcal{M}$ the following are equivalent:
+
+* $\mathcal{M}$ is finitely [[accessible category|accessible]].
+
+* $\mathcal{M}\simeq \mathbb{T}\text{-}Mod(Set)$ for some theory $\mathbb{T}$ of presheaf type.
 
 =--
 
+Moreover, one has the following result due to Christian Lair:
+
++-- {: .num_prop }
+###### Proposition
+
+For a [[category]] $\mathcal{M}$ the following are equivalent:
+
+* $\mathcal{M}$ is [[accessible category|accessible]].
+
+* $\mathcal{M}$ is [[sketch|sketchable]].
+=--
 
 See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 
