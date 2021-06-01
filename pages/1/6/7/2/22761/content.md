@@ -42,7 +42,7 @@ The [[trivial group]] with $a \vert b = a \cdot b$, $\odot = 1$ and $a^{\bullet}
 
 * [[cancellative midpoint algebra]]
 
-* [[symmetric closed midpoint algebra]]
+* [[symmetric cancellative midpoint algebra]]
 
 * [[symmetric midpoint group]]
 
