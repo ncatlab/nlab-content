@@ -28,7 +28,7 @@ For
 
 the [[Gamma function]] $\Gamma(-)$ satisfies 
 
-$$
+\[
   \underoverset
     {j = 0}
     {N-1}
@@ -40,14 +40,33 @@ $$
   \;=\;
   (2 \pi)^{ \tfrac{1}{2}(N-1) } 
   \cdot
-  N^{ \tfrac{1}{2} - N z }
+  N^{ (\tfrac{1}{2} - N z) }
   \cdot
   \Gamma( N z )
   \,.
-$$
+\]
 
 \end{prop}
 
+\begin{example}
+In the special case of $N = 2$ this is known as the *duplication formula*:
+
+$$
+  \Gamma(z)
+  \cdot
+  \Gamma
+  \big(
+    z + 1/2
+  \big)
+  \;=\;
+  (2\pi)^{1/2}
+  \cdot
+  2^{1/2 - 2z}
+  \cdot
+  \Gamma(2 z)
+  \,.
+$$
+\end{example}
 
 ## References
 
@@ -63,10 +82,12 @@ See also:
 
 * Wolfram MathWorld, *[Gauss multiplication formula](https://mathworld.wolfram.com/GaussMultiplicationFormula.html)*
 
+* Wolfram MathWorld, *[Legendre Duplication formula](https://mathworld.wolfram.com/LegendreDuplicationFormula.html)*
 
 [[!redirects Legendre relation]]
 
 
 [[!redirects multiplication theorem]]
 
-
+[[!redirects duplication formula]]
+[[!redirects Legendre duplication formula]]
