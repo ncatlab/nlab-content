@@ -68,7 +68,9 @@ In the special case that $N = n$, and writing
 
 * $S^{(\lambda)} \in Rep(Sym(n))$ for the [[complex numbers|complex]] [[irreducible representation]] of the [[symmetric group]] which is labeled by $\lambda$ (the [[Specht module]], see the *[[representation theory of the symmetric group]]*);
 
-* $V^{(\lambda)} \in Rep(Sym(n))$ for the [[complex numbers|complex]] [[irreducible representation]] of the ([[special linear group|special]]) [[general linear group]] which is labeled by $\lambda$ (see the *[[representation theory of the general linear group]]*), this is equal to (see at *[[look length formula]]*):
+* $V^{(\lambda)} \in Rep(Sym(n))$ for the [[complex numbers|complex]] [[irreducible representation]] of the ([[special linear group|special]]) [[general linear group]] which is labeled by $\lambda$ (see the *[[representation theory of the general linear group]]*),
+
+this is equal to (see at *[[hook length formula]]*):
 
 $$
   SW(\lambda)
