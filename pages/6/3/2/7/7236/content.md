@@ -85,19 +85,23 @@ Adhesiveness is an [[exactness property]], similar to being a [[regular category
 
 ## References
 
-* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive and quasiadhesive categories*, [PDF](https://www.ioc.ee/~pawel/papers/adhesivejournal.pdf)
- {#LS1}
+* {#LS1} [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive and quasiadhesive categories*, RAIRO - Theoretical Informatics and Applications - Informatique Théorique et Applications, Tome 39 (2005) no. 3, pp. 511-545, [Numdam](http://www.numdam.org/item/ITA_2005__39_3_511_0/),
+[author PDF](https://www.ioc.ee/~pawel/papers/adhesivejournal.pdf)
 
-* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [PDF](https://www.ioc.ee/~pawel/papers/adhesive.pdf)
- {#LS}
 
-* [[Steve Lack]] and [[Pawel Sobocinski]], *Toposes are adhesive*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)
- {#LSToposes}
+* {#LS} [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, 
+In: Walukiewicz I. (eds) Foundations of Software Science and Computation Structures. FoSSaCS 2004. Lecture Notes in Computer Science, vol 2987. Springer, Berlin, Heidelberg. doi:[10.1007/978-3-540-24727-2_20](https://doi.org/10.1007/978-3-540-24727-2_20),
+[author PDF](https://www.ioc.ee/~pawel/papers/adhesive.pdf)
 
-* [[Steve Lack]], *An embedding theorem for adhesive categories*, [TAC](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html)
- {#Lack}
 
-* [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, Vol. 27, 2012, No. 3, pp 27-46. ([arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [TAC](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html))
- {#GarnerLack}
+* {#LSToposes} [[Steve Lack]] and [[Pawel Sobocinski]], *Toposes are adhesive*, In: Corradini A., Ehrig H., Montanari U., Ribeiro L., Rozenberg G. (eds) Graph Transformations. ICGT 2006. Lecture Notes in Computer Science, vol 4178. Springer, Berlin, Heidelberg. doi:[10.1007/11841883_14](https://doi.org/10.1007/11841883_14),
+[author PDF](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)
+
+
+* {#Lack} [[Steve Lack]], *An embedding theorem for adhesive categories*, Theory and Applications of Categories, Vol. 25, 2011, No. 7, pp 180-188. [journal page](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html), arXiv:[1103.0600](https://arxiv.org/abs/1103.0600)
+
+
+* {#GarnerLack} [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, Vol. 27, 2012, No. 3, pp 27-46. ([arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [journal page](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html))
+
 
 [[!redirects adhesive categories]]
