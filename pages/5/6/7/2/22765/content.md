@@ -18,7 +18,7 @@ The idea of a symmetric cloaed midpoint algebra comes from [[Peter Freyd]].
 
 ## Definition
 
-A __symmetric closed midpoint algebra__ is a [[symmetric cancellative midpoint algebra]] $(M,\vert, \odot, (-)^\bullet)$ with two elements $\bot:M$ and $\top:M$ such that $\bot^\bullet = \top$. 
+A __symmetric closed midpoint algebra__ is a [[symmetric cancellative midpoint algebra]] $(M,\vert, \odot, (-)^\bullet)$ with two elements $\bot:M$ and $\top:M$ such that $\bot\vert\top = \odot$. 
 
 ## Properties
 
