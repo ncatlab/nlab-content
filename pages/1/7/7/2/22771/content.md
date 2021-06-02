@@ -22,11 +22,11 @@ The idea of a Heyting scale comes from [[Peter Freyd]].
 
 A __Heyting scale__ or __chromatic scale__ is a [[scale]] $(M,\vert, \odot, (-)^\bullet, \bot, \top,(-)^\wedge,(-)^\vee)$ with a [[Heyting implication]] operation $(-)\rightarrow(-):M \times M \to M$ such that 
 
-* $\bot \rightarrow \bot = \bot$
+* $(\bot \rightarrow \bot)^\bullet = \bot$
 
-* for all $a$ in $M$, $a \rightarrow (a \rightarrow \bot)^\bullet = \bot$
+* for all $a$ in $M$, $a \wedge (a \rightarrow \bot) = \bot$
 
-* for all $a$ and $b$ in $M$, $(a \wedge b) \rightarrow \bot = (a \rightarrow \bot) \wedge (b \rightarrow \bot)$
+* for all $a$ and $b$ in $M$, $((a \wedge b) \rightarrow \bot)^\bullet = (a \rightarrow \bot)^\bullet \wedge (b \rightarrow \bot)^\bullet$
 
 ### In terms of support
 
