@@ -513,6 +513,8 @@ Further discussion of holographic quantum error correcting codes:
 
 * {#CDCW21} Sam Cree, Kfir Dolev, Vladimir Calvera, Dominic J. Williamson, *Fault-tolerant logical gates in holographic stabilizer codes are severely restricted* ([arXiv:2103.13404](https://arxiv.org/abs/2103.13404))
 
+* Robert de Mello Koch, Eunice Gandote, Nirina Hasina Tahiridimbisoa, Hendrik J.R. Van Zyl, *Quantum Error Correction and Holographic Information from Bilocal Holography* ([arXiv:2106.00349](https://arxiv.org/abs/2106.00349))
+
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
