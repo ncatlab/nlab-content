@@ -73,6 +73,11 @@ and other analogues of theorems from [[predicate logic]].  Note that the last it
 A similar logic is satisfied by '[[eventually]]' and its dual ('frequently') in [[filters]] and [[nets]].
 
 
+[[!redirects negligible set]]
+[[!redirects negligible sets]]
+[[!redirects negligible subset]]
+[[!redirects negligible subsets]]
+
 [[!redirects null set]]
 [[!redirects null sets]]
 [[!redirects null subset]]
