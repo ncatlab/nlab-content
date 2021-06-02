@@ -30,9 +30,31 @@ $$(a \vert \top)^\wedge = a$$
 
 $$(a \vert \top)^\vee = \top$$
 
+Defining binary operators $(-)\otimes(-):M\times M\to M$ as 
+
+$$a \otimes b \coloneqq (a \vert b)^\wedge$$
+
+and $(-)\oplus(-):M\times M\to M$ as 
+
+$$a \oplus b \coloneqq (a \vert b)^\vee$$
+
+the above axioms can be rewritten as 
+
+$$\bot \otimes a = \bot$$
+
+$$\bot \oplus a = a$$
+
+$$a \otimes \top = a$$
+
+$$a \oplus \top = \top$$
+
 __Central dilatations__ can be defined as 
 
-$$b^\dagger \coloneqq (((\odot \vert \bot)\vert b)^\vee)^\wedge$$
+$$b^\dagger \coloneqq ((\odot \vert \bot)\oplus b)^\wedge$$
+
+or as 
+
+$$b^\dagger \coloneqq ((\odot \vert \top)\otimes b)^\vee$$
 
 ### In terms of central dilatations
 
@@ -52,6 +74,14 @@ and __$\top$-zooming__ can be defined as
 
 $$a^\wedge \coloneqq (((\bot \vert \odot) \vert a)^\dagger)^\dagger$$
 
+$(-)\otimes(-):M\times M\to M$ can be defined as 
+
+$$a \otimes b \coloneqq (a \vert b)^\wedge$$
+
+and $(-)\oplus(-):M\times M\to M$ can be defined as 
+
+$$a \oplus b \coloneqq (a \vert b)^\vee$$
+
 ## Properties
 
 Every minor scale with $\bot = \top$ is [[trivial object|trivial]]. 
@@ -66,7 +96,7 @@ $\bot$ is a [[fixed point]] of $(-)^\vee$ and $\top$ is a fixed point of $(-)^\w
 
 As a minor scale is a [[closed midpoint algebra]], a minor scale has a [[partial order]]. Let the binary operation $(-)\multimap(-):M \times M \to M$ be defined as 
 
-$$a \multimap b \coloneqq (a^\bullet \vert b)^\vee$$ 
+$$a \multimap b \coloneqq a^\bullet \oplus b$$ 
 
 If $a \leq b$, then $a \multimap b = \top$. 
 
@@ -81,6 +111,8 @@ The set of truth values in Girard's [[linear logic]] is a minor scale.
 * [[symmetric closed midpoint algebra]]
 
 * [[scale]]
+
+* [[linear logic]]
 
 ## References
 
