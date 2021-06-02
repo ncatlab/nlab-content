@@ -52,9 +52,11 @@ and the [[join]] of $a$ and $b$ is given by
 
 $$a \wedge b \coloneqq (a \vert (a^\bullet \vert b)^\wedge)^\vee$$
 
-### Ideals and filters
+With bottom element $\bot$ and top element $\top$, $M$ forms a [[lattice]]. 
 
-...
+A subset $\mathcal{I}$ of a scale $M$ is an __[[ideal]]__ if $\bot \in \mathcal{I}$, and $x \vee y \in \mathcal{I}$ if and only if $x \in \mathcal{I}$ and $y \in \mathcal{I}$. An ideal is a __zoom-invariant ideal__ if it is closed under $\bot$-zooming. 
+
+A subset $\mathcal{F}$ of a scale $M$ is a __[[filter]]__ if $\top \in \mathcal{F}$, and $x \wedge y \in \mathcal{F}$ if and only if $x \in \mathcal{F}$ and $y \in \mathcal{F}$. A filter is a __zoom-invariant filter__ if it is closed under $\top$-zooming. 
 
 ### As star-autonomous categories
 
