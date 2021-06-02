@@ -87,7 +87,7 @@ Forcey has studied the combinatorics of [[polytope]]s associated to enrichment a
 
 The definition is reviewed in 
 
-* [[Alex Hoffnung]], _Notes on enrichment_ ([pdf](http://mysite.science.uottawa.ca/hoffnung/notes_files/enrichment_notes.pdf))
+* [[Alex Hoffnung]], _Notes on enrichment_, ([[Hoffnung_enrichment.pdf:file]]),
 
 and in Chapter 7 of
 
