@@ -77,6 +77,11 @@ Special Issue on Super Riemann Surfaces and String Theory ([arXiv:1209.2459](htt
 
 * {#CodogniViviani17} Giulio Codogni, Filippo Viviani, _Moduli and Periods of Supersymmetric Curves_, Adv. Theor. Math. Phys. 23 (2019) 2, 345-402 ([arXiv:1706.04910](https://arxiv.org/abs/1706.04910), [doi:10.4310/ATMP.2019.v23.n2.a2](https://dx.doi.org/10.4310/ATMP.2019.v23.n2.a2))
 
+See also:
+
+* [[Ugo Bruzzo]], Daniel Hernández Ruipérez, *The supermoduli of SUSY curves with Ramond punctures* ([arXiv:1910.12236](https://arxiv.org/abs/1910.12236))
+
+
 
 Discussion of super Riemann surfaces induced by [[supermultiplets]] for $N$-extended $d = 1$ supersymmetry -- via [[adinkra]] symbols, is due to
 
