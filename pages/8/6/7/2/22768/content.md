@@ -14,7 +14,7 @@
 
 ## Idea
 
-The idea of a minor scale comes from [[Peter Freyd]]. Minor scales are models of [[multiplicative linear logic]]. 
+The idea of a minor scale comes from [[Peter Freyd]]. Certain minor scales are models of [[multiplicative linear logic]]. 
 
 ## Definition
 
@@ -22,15 +22,23 @@ The idea of a minor scale comes from [[Peter Freyd]]. Minor scales are models of
 
 A __minor scale__ is a [[symmetric closed midpoint algebra]] $(M,\vert, \odot, (-)^\bullet, \bot, \top)$ with two binary operations $(-)\otimes(-):M\times M\to M$ called __[[multiplicative conjunction]]__ and $(-)\oplus(-):M\times M\to M$ called __[[multiplicative disjunction]]__ such that for all $a$ in $M$, 
 
-$$\bot \otimes a = \bot$$
+$$a \otimes b = b \otimes a$$
 
-$$\bot \oplus a = a$$
+$$\bot \otimes a = \bot$$
 
 $$a \otimes \top = a$$
 
+$$a \oplus b = b \oplus a$$
+
+$$\bot \oplus a = a$$
+
 $$a \oplus \top = \top$$
 
-__$\bot$-zooming__ can be defined as 
+__Linear implication__ can be defined as
+
+$$a \multimap b \coloneqq a^\bullet \oplus b$$
+
+__$\bot$-zooming can be defined as 
 
 $$a^\vee \coloneqq a \oplus a$$
 
@@ -45,6 +53,18 @@ $$b^\dagger \coloneqq ((\odot \vert \bot)\oplus b)^\wedge$$
 or as 
 
 $$b^\dagger \coloneqq ((\odot \vert \top)\otimes b)^\vee$$
+
+### In terms of linear implication
+
+From $\multimap$ one could define the zoom operators. 
+
+__$\bot$-zooming__ can be defined as 
+
+$a^\vee \coloneqq a^\bullet \multimap a$
+
+__$\top$-zooming__ can be defined as 
+
+$a^\wedge \coloneqq (a \multimap a^\bullet)^\bullet$
 
 ### In terms of zoom operations
 
@@ -65,6 +85,10 @@ $$a \otimes b \coloneqq (a \vert b)^\wedge$$
 __Multiplicative disjunction__ can be defined as 
 
 $$a \oplus b \coloneqq (a \vert b)^\vee$$
+
+__Linear implication__ can be defined as
+
+$$a \multimap b \coloneqq a^\bullet \oplus b$$
 
 __Central dilatations__ can be defined as 
 
@@ -88,17 +112,27 @@ __$\bot$-zooming__ can be defined as
 
 $$a^\vee \coloneqq ((a \vert (\odot \vert \top))^\dagger)^\dagger$$
 
-and __$\top$-zooming__ can be defined as 
+__$\top$-zooming__ can be defined as 
 
 $$a^\wedge \coloneqq (((\bot \vert \odot) \vert a)^\dagger)^\dagger$$
 
-__multiplicative conjunction__ can be defined as 
+__Multiplicative conjunction__ can be defined as 
 
 $$a \otimes b \coloneqq (a \vert b)^\wedge$$
 
-and __multiplicative disjunction__ can be defined as 
+__Multiplicative disjunction__ can be defined as 
 
 $$a \oplus b \coloneqq (a \vert b)^\vee$$
+
+__Linear implication__ can be defined as
+
+$$a \multimap b \coloneqq a^\bullet \oplus b$$
+
+### Additional possible axioms
+
+A minor scale is said to satisfy the __axiom of balance__ if for all $a$ and $b$ in $M$,
+
+$$a \vert (a^\bullet \oplus b) = b \vert (b^\bullet \oplus a)$$
 
 ## Properties
 
@@ -116,11 +150,7 @@ The [[currying]] of $\vartriangleleft$ results in a __dilatation__ $(-)\vartrian
 
 $\bot$ is a [[fixed point]] of $(-)^\vee$ and $\top$ is a fixed point of $(-)^\wedge$. 
 
-As a minor scale is a [[closed midpoint algebra]], a minor scale has a [[partial order]]. Let the binary operation $(-)\multimap(-):M \times M \to M$ be defined as 
-
-$$a \multimap b \coloneqq a^\bullet \oplus b$$ 
-
-If $a \leq b$, then $a \multimap b = \top$. 
+As a minor scale is a [[closed midpoint algebra]], a minor scale has a [[partial order]] $\leq$. If $a \leq b$, then $a \multimap b = \top$. 
 
 ## Examples
 
