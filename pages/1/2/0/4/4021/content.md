@@ -92,6 +92,8 @@ For more details on Giry's monad and its variants see [[probability monad]].
 
 * [[expectation value]], 
 
+* [[almost surely]]
+
 * [[Radon-Nikodym derivative]], 
 
 * [[cumulant]], 
