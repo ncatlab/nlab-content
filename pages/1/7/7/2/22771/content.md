@@ -20,7 +20,7 @@ The idea of a Heyting scale comes from [[Peter Freyd]].
 
 ### In terms of Heyting implication
 
-A __Heyting scale__ or __chromatic scale__ is a [[scale]] $(M,\vert, \odot, (-)^\bullet, \bot, \top,(-)^\wedge,(-)^\vee)$ with a [[Heyting implication]] operation $(-)\rightarrow(-):M \times M \to M$ such that 
+A __Heyting scale__ or __chromatic scale__ is a [[scale]] $M$ with a [[Heyting implication]] operation $(-)\rightarrow(-):M \times M \to M$ such that 
 
 * $(\bot \rightarrow \bot)^\bullet = \bot$
 
