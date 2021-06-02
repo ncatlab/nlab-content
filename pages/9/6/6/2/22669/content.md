@@ -72,7 +72,7 @@ $$
   \tfrac{1}{2}\ln(n!)
 $$
 
-for some $c \in \mathbb{R}$, in that for all $\epsilon \in \mathbb{R}_+$ we have
+for some $c \in \mathbb{R}$ (numerically: $c \gt 1.8$), in that for all $\epsilon \in \mathbb{R}_+$ we have
 
 $$
  \underset{n \to \infty}{\lim} 
