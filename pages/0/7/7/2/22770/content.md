@@ -20,11 +20,21 @@ The idea of a scale comes from [[Peter Freyd]].
 
 ## Definition
 
-A __scale__ is a [[minor scale]] $(M,\vert, \odot, (-)^\bullet, \bot, \top,(-)^\wedge,(-)^\vee)$ such that 
+A __scale__ is a [[minor scale]] $M$ such that 
 
-* for all $a$ and $b$ in $M$, $(a \vert b)^\wedge = (a^\vee \vert b^\wedge)^\wedge \vert (a^\wedge \vert b^\vee)^\wedge$
+* for all $a$ and $b$ in $M$, $a \otimes b = (a^\vee \otimes b^\wedge) \vert (a^\wedge \otimes b^\vee)$
 
-* for all $a$ and $b$ in $M$, $(a \vert b)^\vee = (a^\wedge \vert b^\vee)^\vee \vert (a^\vee \vert b^\wedge)^\vee$
+* for all $a$ and $b$ in $M$, $a \oplus b = (a^\wedge \oplus b^\vee) \vert (a^\vee \oplus b^\wedge)$
+
+In a scale, $\oplus$ is __[[multiplicative disjunction]]__ and $\otimes$ is __[[multiplicative conjunction]]__. 
+
+The operator __additive [[conjunction]]__ is defined as 
+
+$$a \wedge b \coloneqq a \otimes (a^\bullet \oplus b)$$
+
+and __additive [[disjunction]]__ is defined as 
+
+$$a \vee b \coloneqq a \oplus (a^\bullet \otimes b)$$
 
 ## Properties
 
@@ -34,25 +44,15 @@ $\top$ is a [[fixed point]] of $(-)^\vee$ and $\bot$ is a fixed point of $(-)^\w
 
 For every $a$ in $M$, $a = a^\vee \vert a^\wedge$. 
 
-For every $a$ in $M$, $(a\vert \odot)^\wedge = a^\wedge \vert \bot$ and $(a\vert \odot)^\vee = a^\vee \vert \top$. 
+For every $a$ in $M$, $a \otimes \odot = a^\wedge \vert \bot$ and $a \oplus \odot = a^\vee \vert \top$. 
 
 As a scale is a [[closed midpoint algebra]], a scale has a [[partial order]]. Let the binary operation $(-)\multimap(-):M \times M \to M$ be defined as 
 
-$$a \multimap b \coloneqq (a^\bullet \vert b)^\vee$$ 
+$$a \multimap b \coloneqq a^\bullet \oplus b$$ 
 
 If $a \multimap b = \top$, then $a \leq b$. 
 
-### Lattice structure
-
-The [[meet]] of $a$ and $b$ is given by
-
-$$a \wedge b \coloneqq (a \vert (a^\bullet \vert b)^\vee)^\wedge$$
-
-and the [[join]] of $a$ and $b$ is given by 
-
-$$a \wedge b \coloneqq (a \vert (a^\bullet \vert b)^\wedge)^\vee$$
-
-With bottom element $\bot$ and top element $\top$, $M$ forms a [[lattice]]. 
+$(M,\wedge,\vee,\bot,\top)$ forms a [[lattice]]. 
 
 ### Ideals of a scale
 
@@ -77,6 +77,8 @@ The set of truth values in Girard's [[linear logic]] is a scale.
 * [[minor scale]]
 
 * [[Heyting scale]]
+
+* [[linear logic]]
 
 ## References
 
