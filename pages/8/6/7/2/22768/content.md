@@ -30,6 +30,10 @@ $$(a \vert \top)^\wedge = a$$
 
 $$(a \vert \top)^\vee = \top$$
 
+__Central dilatations__ can be defined as 
+
+$$b^\dagger \coloneqq (((\odot \vert \bot)\vert b)^\vee)^\wedge$$
+
 ### In terms of central dilatations
 
 A __minor scale__ is a [[symmetric closed midpoint algebra]] $(M,\vert, \odot, (-)^\bullet, \bot, \top)$ with a function $(-)^\dagger:M\to M$ called __central dilatation__ such that for all $a$ in $M$,
@@ -39,6 +43,14 @@ $$(\odot \vert a)^\dagger = a$$
 $$(\top \vert (\top \vert a))^\dagger = \top$$
 
 $$(\bot \vert (\bot \vert a))^\dagger = \bot$$
+
+__$\bot$-zooming__ can be defined as 
+
+$$a^\vee \coloneqq ((a \vert (\odot \vert \top))^\dagger)^\dagger$$
+
+and __$\top$-zooming__ can be defined as 
+
+$$a^\wedge \coloneqq (((\bot \vert \odot) \vert a)^\dagger)^\dagger$$
 
 ## Properties
 
