@@ -16,7 +16,7 @@
 
 ## Idea
 
-The idea of a scale comes from [[Peter Freyd]]. 
+The idea of a scale comes from [[Peter Freyd]]. Scales are models of multiplicative-additive [[linear logic]]. 
 
 ## Definition
 
