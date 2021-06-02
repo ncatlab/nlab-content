@@ -16,6 +16,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -29,7 +30,7 @@ A [[probability distribution]] on [[Young diagrams]].
 For $\lambda$ a [[partition]]/[[Young diagram]], its Plancherel probability is (see at *[[hook length formula]]*):
 
 $$
-  p_\lambda
+  p^{Pl}_\lambda
   \;\coloneqq\;
   \frac
     {
@@ -55,6 +56,50 @@ where
  
 * $\ell hook_\lambda(i,j)$ denotes the *hook length* at the $(i,j)$-box in the Young diagram $\lambda$.
 
+## Properties
+
+With respect to the Plancherel measure $Part(n)$ in the [[limit of a sequence|limit]] of large $n \to \infty$, the [[logarithm]] of $dim\big( S^{(\lambda)}\big) = \left\vert sYTableaux_\lambda \right\vert$ (see at [[hook length formula]]) is [[almost surely]] approximately constant (i.e. independent of $\lambda$) on the value 
+
+$$
+  ln
+  \big(
+    \left\vert sYTableaux_\lambda \right\vert
+  \big)
+  \;\sim\;
+  \tfrac{c}{2}
+  \sqrt{n}
+  -
+  \tfrac{1}{2}\ln(n!)
+$$
+
+for some $c \in \mathbb{R}$, in that for all $\epsilon \in \mathbb{R}_+$ we have
+
+$$
+ \underset{n \to \infty}{\lim} 
+ p^{Pl}
+ \left(
+   \left\{
+     \lambda \in Part(n)
+     \;\left\vert\;
+       \tfrac{2}{\sqrt{n}}
+       ln
+       \frac
+         {\left\vert sYTableaux_\lambda \right\vert}
+         {\sqrt{n!}}
+       -
+       c
+       \;\lt\;
+       \epsilon
+     \right.
+   \right\}
+ \right)
+ \;=\;
+ 1
+  \,.
+$$
+
+([Vershik & Kerov 85, p. 22 (2 of 11)](#VershikKerov85))
+
 ## Related concepts
 
 * [[Schur-Weyl measure]]
@@ -63,6 +108,8 @@ where
 
 
 ## References
+
+* {#VershikKerov85} [[Anatoly Vershik]], [[Sergei Kerov]], *Asymptotic of the largest and the typical dimensions of irreducible representations of a symmetric group*, Functional Analysis and Its Applications volume 19, pages 21–31 (1985) ([doi:10.1007/BF01086021](https://doi.org/10.1007/BF01086021))
 
 * Maciej Dołęga, *Central limit theorem for random Young diagrams with respect to Jack measure* 2014 ([pdf](https://www.impan.pl/~mdolega/papers/CLT.pdf))
 
