@@ -79,7 +79,6 @@ We give only a sketch; details are in [(LS, Lemma 4.5)](#LS).  If $(f,n)$ and $(
 * The fact that monomorphisms are stable under pushouts in toposes plays a central role for [[Cisinski model structures]] such as notably the standard [[model structure on simplicial sets]], where the monomorphisms are [[cofibrations]] and as such required to be closed under pushout (in particular).
 
 
-
 ## Related concepts
 
 Adhesiveness is an [[exactness property]], similar to being a [[regular category]], an [[exact category]], or an [[extensive category]].  In particular, it can be phrased in the language of "lex colimits".
