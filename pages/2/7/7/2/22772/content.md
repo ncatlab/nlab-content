@@ -18,6 +18,15 @@
 
 In [[probability theory]] an [[event (probability theory)|event]] of [[probability]] 1 is said to happen *almost surely*.
 
+In [[measure theory]], such subsets are also known as [[full subsets]].
+Their complements are known as [[null subsets]] or [[negligible subsets]].
+
+## Related concepts
+
+* [[null subset]]
+
+* [[full subset]]
+
 ## References
 
 See also: 
