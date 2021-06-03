@@ -27,7 +27,7 @@ A [[probability distribution]] on [[Young diagrams]].
 
 ## Definition
 
-For $\lambda$ a [[partition]]/[[Young diagram]], its Plancherel probability is (see at *[[hook length formula]]*):
+For $\lambda$ a [[partition]]/[[Young diagram]], its *Plancherel probability* is (see at *[[hook length formula]]*):
 
 $$
   p^{Pl}_\lambda
@@ -57,8 +57,9 @@ where
 * $\ell hook_\lambda(i,j)$ denotes the *hook length* at the $(i,j)$-box in the Young diagram $\lambda$.
 
 ## Properties
+ {#Properties}
 
-With respect to the Plancherel measure $Part(n)$ in the [[limit of a sequence|limit]] of large $n \to \infty$, the [[logarithm]] of $dim\big( S^{(\lambda)}\big) = \left\vert sYTableaux_\lambda \right\vert$ (see at [[hook length formula]]) is [[almost surely]] approximately constant (i.e. independent of $\lambda$) on the value 
+With respect to the Plancherel measure on $Part(n)$ and in the [[limit of a sequence|limit]] of large $n \to \infty$, the [[logarithm]] of $dim\big( S^{(\lambda)}\big) = \left\vert sYTableaux_\lambda \right\vert$ (see at [[hook length formula]]) is [[almost surely]] approximately constant (i.e. independent of $\lambda$) on the value 
 
 $$
   ln
