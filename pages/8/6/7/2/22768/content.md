@@ -14,7 +14,9 @@
 
 ## Idea
 
-The idea of a minor scale comes from [[Peter Freyd]]. Certain minor scales are models of [[multiplicative linear logic]]. 
+The idea of a minor scale comes from [[Peter Freyd]], in his attempt to give an algebraic (in the sense of universal algebra) description of the real [[interval]], which he believed to be more fundamental than the [[real numbers]] themselves in [[analysis]]. 
+
+Certain minor scales are models of [[multiplicative linear logic]]. 
 
 Minor scales are an example of [[centipede mathematics]]; a lot of this page will be determining which of Freyd's results in _Algebraic Real Analysis_ still applies in minor scales and possible weakenings of the scale identity axiom. 
 
@@ -50,7 +52,7 @@ $$a^\vee \coloneqq a \oplus a$$
 
 and __$\top$-zooming__ can be defined as 
 
-$$a^\wedge \coloneqq (a^\bullet \oplus a^\bullet)^\bullet$$
+$$a^\wedge \coloneqq (a^\bullet \oplus a^\bullet)^\bullet = a \otimes a$$
 
 __Central dilatations__ can be defined as 
 
@@ -150,7 +152,7 @@ $$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\oplus b)^\wedge$$
 
 or as 
 
-$$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\otimes b)^\vee$$
+$$a\vartriangleleft b \coloneqq ((a^\bullet \vert \top)\otimes b)^\vee$$
 
 ## Additional possible equational axioms
 
@@ -202,7 +204,27 @@ $$a \otimes (b \otimes c) = (a \otimes b) \otimes c$$
 
 $$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
 
-* the various __[[lattice]] axioms__ for $(M,\top,\bot,\wedge,\vee)$
+* the various __[[lattice]] axioms__ for $(M,\top,\bot,\wedge,\vee)$: for all $a$, $b$, and $c$ in $M$,
+
+$$a \wedge a = a$$
+
+$$a \wedge b = b \wedge a$$
+
+$$a \wedge (b \wedge c) = (a \wedge b) \wedge c$$
+
+$$\top \wedge a = a$$
+
+$$a \vee a = a$$
+
+$$a \vee b = b \vee a$$
+
+$$a \vee (b \vee c) = (a \vee b) \vee c$$
+
+$$\bot \vee a = a$$
+
+$$a \wedge (a \vee b) = a$$
+
+$$a \vee (a \wedge b) = a$$
 
 * for all $a$ and $b$ in $M$, 
 
