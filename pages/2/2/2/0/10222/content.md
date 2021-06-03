@@ -13,7 +13,7 @@ A _partition_ is any of various ways of dividing a mathematical object into nont
 Each of the following definitions is a special case of a general concept to follow.
 
 
-### Of sets
+### Partitions of sets
 
 Given a [[set]] $S$, a __partition__ of $S$ is a collection $\pi$ of [[inhabited subsets]] of $S$ (called _blocks_) such that
 
@@ -33,9 +33,48 @@ Then the operations we have just described give an [[equivalence of categories|e
 $$ Part(S) \rightleftarrows S \downarrow Surj $$
 between the partial order of partitions ordered by refinement and the preorder of surjections ordered by factorization.
 
-### Of numbers
+### Partitions of natural numbers
 
-Given a [[natural number]] $n$, a __composition__ of $n$ is a [[list]] of positive natural numbers whose sum is $n$, and a __partition__ of $n$ is an unordered list, or [[multiset]], or such numbers.  (That is, different compositions define the same partition if the compositions differ only by order.)  A partition may also be defined as a [[monotone function|monotone]] composition.
+Given a [[natural number]] $n$, 
+
+1. a __composition__ of $n$ is a [[list]] of [[positive number|positive]] natural numbers whose [[sum]] is $n$, 
+
+1. a __partition__ of $n$ is an unordered list, or [[multiset]], of such numbers.  
+
+That is, different compositions define the same partition if the compositions differ only by order. A partition may also be defined as a [[monotone function|monotone]] composition.
+
+In practice, notably in the [[representation theory of the symmetric group]]/[[representation theory of the general linear group|general linear group]], partitions of natural numbers $n \in \mathbb{N}$ are often given as anti-monotone sequences, denoted as
+
+$$
+  \lambda
+  \;=\;
+  (\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_{rows(\lambda)})
+  \,,
+  \;\;\;\;
+  \underoverset
+    {rows(\lambda)}
+    {i = 1}
+    {\sum}  
+    \lambda_i
+  \;=\;
+  n
+  \,.
+$$
+
+#### Young diagrams
+
+Often, especially in [[representation theory]] ([[representation theory of the symmetric group|of the symmetric group]]/[[representation theory of the general linear group|general linear group]]), partitions of a natural number $n$ appear as *[[Young diagrams]]* with $n$ boxes. While Young diagrams in themselves are just an equivalent way of thinking of or depicting partitions, they are used to indicate ("[[concept with an attitude]]") that decorations of partitions to [[Young tableaux]] play a role in a given discussion.
+
+#### Partition function
+
+The __[[partition function (number theory)|partition function]]__ $p$ gives the number of partitions of $n$ as a [[function]] of $n$; this is [OEIS A000041](https://oeis.org/A000041).  Its (ordinary) [[generating function]] is 
+
+$$ 
+  \sum_{n=0}^\infty p(n) x^n = \prod_{k=1}^\infty (1 - x^k)^{-1} 
+  \,.
+$$
+
+#### Relation to partitions of sets
 
 Every [[natural number]] $n$ corresponds to a [[finite set]] $[n]$, and every partition of $[n]$ (as defined above) gives a partition of $n$, but different partitions of $[n]$ may give the same partition of $n$.  Conversely, a composition of $n$ defines a partition of $[n]$, but not every partition of $[n]$ arises in this way.
 
@@ -43,9 +82,6 @@ More precisely, we have the following, where $\rightarrowtail$ indicates an [[in
 $$ Comp(n) \rightarrowtail Part([n]) \twoheadrightarrow Part(n) ;$$
 the [[composite]] of this is also a surjection, which is [[split surjection|split]] by the definition of a partition as a monotone composition.
 
-The __partition function__ $p$ gives the number of partitions of $n$ as a [[function]] of $n$; this is [OEIS A000041](https://oeis.org/A000041).  Its (ordinary) [[generating function]] is
-$$ \sum_{n=0}^\infty p(n) x^n = \prod_{k=1}^\infty (1 - x^k)^{-1} .$$
-Partitions are often described using [[Young diagram]]s.
 
 One may also speak of __multiplicative__ compositions and partitions of $n$ for positive $n$ (where the above are _additive_), also called (ordered and unordered) __factorizations__; these are (ordered and unordered) lists of natural numbers greater than $1$ whose product is $n$.
 
