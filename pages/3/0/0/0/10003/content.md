@@ -67,7 +67,7 @@ $$
 $$
 
 
-For [[geometrically discrete ∞-groupoid|geometrically discrete]] [[∞-group]] [[∞-actions]], hence for $\mathbf{H} = $ [[∞Grpd]], it is the [[Borel model structure]] which [[presentable (infinity,1)-category|presents]] the [[homotopy theory]]. By the discusison there, there [[derived hom space]] is computed as the hom-space out of plain [[actions]] of [[simplicial groups]] out of the total space of the simplicial [[universal principal bundle]] $\mathbf{E}G = W G$. Therefore in this case one finds
+For [[geometrically discrete ∞-groupoid|geometrically discrete]] [[∞-group]] [[∞-actions]], hence for $\mathbf{H} = $ [[∞Grpd]], it is the [[Borel model structure]] which [[presentable (infinity,1)-category|presents]] the [[homotopy theory]]. By the discussion  there, the [[derived hom space]] is computed as the hom-space out of plain [[actions]] of [[simplicial groups]] out of the total space of the simplicial [[universal principal bundle]] $\mathbf{E}G = W G$. Therefore in this case one finds
 
 $$
   X^{h G}
@@ -78,9 +78,9 @@ $$
   \,.
 $$
 
-This is the form in which homotopy fixed points are often defined in traditional literature (for instance in the historical discussion of the [[Sullivan conjecture]] ). 
+This is the form in which homotopy fixed points are often defined in traditional literature (going back to [Thomason 83](#Thomason83) and as in the historical discussion of the [[Sullivan conjecture]]). 
 
-### Homotopy fixed point and periodicity theorems
+### Relation to periodicity theorems
 
 In the context of [[complex oriented cohomology theory]]
 
@@ -105,6 +105,8 @@ In the context of [[complex oriented cohomology theory]]
 [[!include homotopy type representation theory -- table]]
 
 ## References
+
+* {#Thomason83} [[Robert Thomason]], *The homotopy limit problem*, pages 407-419 in: [[Haynes Miller]], [[Stewart Priddy]] (eds.) *Proceedings of the Northwestern Homotopy Theory Conference*, Contemporary Mathematics **19**, AMS 1983 ([doi:10.1090/conm/019](http://dx.doi.org/10.1090/conm/019), [[ThomasonHomotopyLimit.pdf:file]])
 
 * {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
