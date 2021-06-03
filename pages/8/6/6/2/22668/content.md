@@ -42,7 +42,7 @@ $$
   \array{
     YDiagrams_N
     &
-    \overset{ SW }{\longrightarrow}
+    \overset{ p^{SW} }{\longrightarrow}
     &
     [0,1]
     \\
@@ -73,7 +73,7 @@ In the special case that $N = n$, and writing
 this is equal to (see at *[[hook length formula]]*):
 
 $$
-  SW(\lambda)
+  p^{SW}(\lambda)
   \;=\;
   \frac
     {
@@ -88,12 +88,47 @@ $$
 
 
 
-
- 
-
-
-
 ## Properties
+
+### Entropy
+ {#Entropy}
+
+With respect to the Schur-Weyl measure on $Part(n)$ and in the [[limit of a sequence|limit]] of large $n = c N^2 \to \infty$, the [[logarithm]] of the Schur-Weyl probability is [[almost surely]] approximately constant (i.e. independent of $\lambda$) on the value 
+
+$$
+  -
+  ln
+  p^{SW}
+  \;\sim\;
+  \sqrt{n}\cdot H_c
+$$
+
+for some $H_c \in \mathbb{R}$, in that for all $\epsilon \in \mathbb{R}_+$ we have
+
+$$
+ \underset{n = c N^2 \to \infty}{\lim} 
+ p^{SW}
+ \left(
+   \left\{
+     \lambda \in Part(n)
+     \;\left\vert\;
+       \tfrac{-1}{\sqrt{n}}
+       ln
+       p^{SW}(\lambda)
+       -
+       H_c
+       \;\lt\;
+       \epsilon
+     \right.
+   \right\}
+ \right)
+ \;=\;
+ 1
+  \,.
+$$
+
+([Mkrtchyan 14, Thm. 1.1](#Mkrtchyan14))
+
 
 ### Relation to Cayley distance kernel
 
@@ -118,7 +153,7 @@ See also:
 
 * {#Mkrtchyan14} [[Sevak Mkrtchyan]], *Entropy of Schur-Weyl Measures*, Annales de l'I.H.P. Probabilités et statistiques, Tome 50 (2014) no. 2, pp. 678-713.  ([arXiv:1107.1541](https://arxiv.org/abs/1107.1541), [numdam:AIHPB_2014__50_2_678_0](http://www.numdam.org/item/AIHPB_2014__50_2_678_0))
 
-* Meliot, *Kerov’s central limit theorem for Schur-Weyl and Gelfand measures* ([pdf](https://www.imo.universite-paris-saclay.fr/~meliot/files/kerovclt.pdf))
+* [[Pierre-Loïc Méliot]], *Kerov’s central limit theorem for Schur-Weyl and Gelfand measures*, [DMTCS proc.](https://www.dmtcs.org/dmtcs-ojs/index.php/proceedings/) AO, 2011, 669–680 ([pdf](https://www.imo.universite-paris-saclay.fr/~meliot/files/kerovclt.pdf))
 
 * M. S. Boyko and N. I. Nessonov, *Entropy of the Shift on $II_1$-representations of the Group $S(\infty)$* ([pdf](http://iamm.su/upload/iblock/9e9/t2-n1-15-37.pdf))
 
