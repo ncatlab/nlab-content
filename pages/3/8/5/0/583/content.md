@@ -63,7 +63,7 @@ There are many different kinds of of "logical theories", each of which correspon
 |Theory| |Category|
 |------|-|--------|
 |[[Lawvere theory|Lawvere]] (or "finite product")| |category with [[finite products]]|
-|[[cartesian logic|cartesian]] (or "left exact" or "finite limit")| |[[finitely complete category]]|
+|[[cartesian logic|cartesian]]/[[essentially algebraic theory|essentially algebraic]] (or "left exact" or "finite limit")| |[[finitely complete category]]|
 |[[minimal logic]]| |[[cartesian closed category]]
 |[[regular logic|regular]]| |[[regular category]]|
 |[[coherent logic|coherent]]| |[[coherent category]]|
