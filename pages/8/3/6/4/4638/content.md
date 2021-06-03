@@ -1,5 +1,7 @@
 [[!redirects Dan Christensen]]
 
+Dan Christensen is a mathematician at the University of Western Ontario.
+
 * [website](http://jdc.math.uwo.ca/)
 
 ## Selected writings
