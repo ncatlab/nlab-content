@@ -39,7 +39,9 @@ $$
   G Act(\mathbf{H})
   \simeq
   \mathbf{H}_{/\mathbf{B}G}
-  \stackrel{\prod_{\mathbf{B}G}}{\longrightarrow}
+  \overset
+    {\;\;\;\prod_{\mathbf{B}G}\;\;\;}
+    {\longrightarrow}
   \mathbf{H}
   \,.
 $$
@@ -48,16 +50,40 @@ By the general discussion at _[[dependent product]]_ this is given by forming [[
 
 $$
   \array{
-    X &\to& X//G
+    X 
+      &\longrightarrow& 
+    X \sslash G
     \\
-    && \downarrow
+    && \big\downarrow
     \\
     && \mathbf{B}G 
+    \,.
   }
-  \,.
 $$
 
-This is the same as maps out of the point equipped with the trivial $G$-action.
+Such sections
+
+\begin{tikzcd}[column sep=6pt]
+  \ast 
+  \ar[r]
+  &
+  \mathbf{B}G
+  \ar[dr]
+  \ar[rr, dashed]
+  &&
+  X /\!/ G
+  \ar[dl]
+  &
+  X
+  \ar[l]
+  \\
+  &
+  & 
+  \mathbf{B}G
+  &
+\end{tikzcd}
+
+are equivalently homotopy-[[equivariant function]] out of the point equipped with the trivial $G$-action:
 
 $$
   X^{h G}
@@ -66,8 +92,7 @@ $$
   \,.
 $$
 
-
-For [[geometrically discrete ∞-groupoid|geometrically discrete]] [[∞-group]] [[∞-actions]], hence for $\mathbf{H} = $ [[∞Grpd]], it is the [[Borel model structure]] which [[presentable (infinity,1)-category|presents]] the [[homotopy theory]]. By the discussion  there, the [[derived hom space]] is computed as the hom-space out of plain [[actions]] of [[simplicial groups]] out of the total space of the simplicial [[universal principal bundle]] $\mathbf{E}G = W G$. Therefore in this case one finds
+For [[geometrically discrete ∞-groupoid|geometrically discrete]] [[∞-group]] [[∞-actions]], hence for $\mathbf{H} = $ [[∞Grpd]], it is the [[Borel model structure]] which [[presentable (infinity,1)-category|presents]] the [[homotopy theory]]. By the discussion [there](Borel+model+structure#CofibrantReplacementAndHomotopyQuotientsFixedPoints), the [[derived hom space]] is computed as the hom-space out of plain [[actions]] of [[simplicial groups]] out of the total space of the simplicial [[universal principal bundle]] $\mathbf{E}G = W G$. Therefore in this case one finds
 
 $$
   X^{h G}
@@ -108,10 +133,15 @@ In the context of [[complex oriented cohomology theory]]
 
 * {#Thomason83} [[Robert Thomason]], *The homotopy limit problem*, pages 407-419 in: [[Haynes Miller]], [[Stewart Priddy]] (eds.) *Proceedings of the Northwestern Homotopy Theory Conference*, Contemporary Mathematics **19**, AMS 1983 ([doi:10.1090/conm/019](http://dx.doi.org/10.1090/conm/019), [[ThomasonHomotopyLimit.pdf:file]])
 
+See also:
+
 * {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
 
 [[!redirects homotopy fixed points]]
 
-[[!redirects homotopy fixed points]]
+[[!redirects homotopy fixed point space]]
+[[!redirects homotopy fixed point spaces]]
+
+
 
