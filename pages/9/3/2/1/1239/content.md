@@ -118,6 +118,8 @@ More in detail, this yields the following identifications:
 
 * [[McKay correspondence]], [[ADE classification]]
 
+* [[asymptotic representation theory]]
+
 * [[geometric representation theory]]
   
   * [[Borel-Weil theorem]], [[Beilinson-Bernstein localization]]
