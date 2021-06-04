@@ -34,7 +34,7 @@ This carries the projective global [[model structure on functors]] ([[model stru
 
 ### Relation to slicing over $\overline{W} G$
 
-The central theorem of ([DDK 80](#DDK80)) is that the Borel model structure is [[Quillen equivalence|Quillen euqivalent]] to the [[slice model structure]] of the standard [[model structure on simplicial sets]] over the model $\overline{W} G_\bullet$ (see at _[[simplicial group]]_ for notation and details) for the [[delooping]] of $G_\bullet$.
+The central theorem of ([DDK 80](#DDK80)) is that the Borel model structure is [[Quillen equivalence|Quillen euqivalent]] to the [[slice model structure]] of the standard [[model structure on simplicial sets]] over the [[simplicial classifying space]] $\overline{W} G_\bullet$ (see at _[[simplicial group]]_ for notation and details) modelling the [[delooping]] of $G_\bullet$.
 
 This kind of relation is discussed in more detail at _[[∞-action]]_.
 
@@ -117,7 +117,7 @@ is right Quillen.
 
 The model structure, the characterization of its cofibrations, and its equivalence to the [[slice model structure]] of $sSet$ over $\bar W G$ is due to
 
-* {#DDK80} E. Dror, [[William Dwyer]], and [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
+* {#DDK80} [[Emmanuel Dror]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
 
 This is mentioned in 
 
