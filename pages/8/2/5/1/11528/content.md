@@ -26,32 +26,48 @@ In the context of [[equivariant homotopy theory]] this is also called the "coars
 
 ## Definition
 
-Writing $\mathbf{B}G_\bullet$ for the one-object [[sSet-enriched category]] ([[simplicial groupoid]]) whose [[hom-object]] is $G_\bullet$. Write $sSet^{\mathbf{B}G_\bullet}$ for the corresponding [[sSet]]-[[enriched functor category]].
 
-This carries the projective global [[model structure on functors]] ([[model structure on simplicial presheaves]]) $(sSet^{\mathbf{B}G_\bullet})_{proj}$. This is the Borel model structure ([DDK 80](#DDK80)).
+\begin{defn}\label{BorelModelStructure}
+
+For $G_\bullet$ a [[simplicial group]] write 
+
+* $\mathbf{B}G_\bullet$ for the one-object [[sSet-enriched category]] (here: a [[simplicial groupoid]]) whose [[hom-object]] is $G_\bullet$. 
+
+* $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)$ for the [[sSet]]-[[enriched functor category]] to [[SimplicialSets]].
+
+* $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ for the projective [[model structure on functors]] (projective [[model structure on simplicial presheaves]]). 
+
+This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model category]] ([DDK 80, Prop. 2.4](#DDK80)).
+
+\end{defn}
 
 ## Properties
-
-### Relation to slicing over $\overline{W} G$
-
-The central theorem of ([DDK 80](#DDK80)) is that the Borel model structure is [[Quillen equivalence|Quillen euqivalent]] to the [[slice model structure]] of the standard [[model structure on simplicial sets]] over the [[simplicial classifying space]] $\overline{W} G_\bullet$ (see at _[[simplicial group]]_ for notation and details) modelling the [[delooping]] of $G_\bullet$.
-
-This kind of relation is discussed in more detail at _[[∞-action]]_.
 
 ### Cofibrant replacement and homotopy quotients/fixed points
  {#CofibrantReplacementAndHomotopyQuotientsFixedPoints}
 
-The cofibrations $i \colon X \to Y$ in $(sSet^{\mathbf{B}G_\bullet})_{proj}$ are precisely those maps such that
+\begin{prop}
+The cofibrations $i \colon X \to Y$ in $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ (Def. \ref{BorelModelStructure}) are precisely those morphisms such that
 
-1. the underlying homomorphism of [[simplicial sets]] is a [[monomorphism]];
+1. the underlying morphism of [[simplicial sets]] is a [[monomorphism]];
 
-1. the $G_\bullet$-action is a relatively [[free action]], i.e. [[free action|free]] on all [[simplices]] not in the [[image]] of $i$.
+1. the $G_\bullet$-[[action]] is a relatively [[free action]], i.e. [[free action|free]] on all [[simplices]] not in the [[image]] of $i$.
 
-This is part of ([DDK 80, proposition 2.2. ii)](#DDK80)). Also ([Guillou, prop. 5.3](#Guillou)).
+\end{prop}
 
-In particular this means that an object is [[cofibrant object|cofibrant]] if the $G_\bullet$-[[action]] on it is [[free action|free]]. Hence cofibrant replacement is in particular given by forming the [[Cartesian product|product]] with the model $W G_\bullet$ for the total space of the [[universal principal bundle]] over $G_\bullet$ (see at _[[simplicial group]]_ for notation and more details).
+This is ([DDK 80, Prop. 2.2. (ii)](#DDK80), [Guillou, Prop. 5.3](#Guillou)).
 
-It follows that for $X,A\in (sSet^{\mathbf{B}G_\bullet})_{proj}$ the [[derived hom space]]
+
+
+\begin{remark}
+In particular this means that an object is [[cofibrant object|cofibrant]] 
+in $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ if the $G_\bullet$-[[action]] on it is [[free action|free]]. 
+
+Hence [[cofibrant replacement]] is obtained by forming the [[Cartesian product|product]] with the model $W G_\bullet$ for the total space of the [[universal principal bundle]] over $G_\bullet$ (see at _[[simplicial group]]_ for notation and more details).
+\end{remark}
+
+\begin{remark}
+It follows that for $X, A \in sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ the [[derived hom space]]
 
 $$
   R Hom_G(X,A)
@@ -86,6 +102,34 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
    $$
 
    is the [[homotopy fixed points]] of $A$.
+
+\end{remark}
+
+
+
+### Relation to the slice over the simplicial classifying space
+
+\begin{prop}
+  For $G$ a [[simplicial group]], there is a pair of [[adjoint functors]]
+  $$
+    sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}
+      \underoverset
+        {\underset{ \big((-) \times W G\big)/G }{\longrightarrow}}
+        {\overset{ (-) \times_{\overline{W}G} W G  }{\longleftarrow}}
+        {\bot}
+    sSet_{/\overline{W}H}
+  $$
+  which constitute a [[Quillen equivalence]] between the Borel model structure (Def. \ref{BorelModelStructure}) and the [[slice model structure]] of the [[classical model structure on simplicial sets]] slices over the [[simplicial classifying space]] $\overline{W}G$.,
+  
+\end{prop}
+
+([DDK 80, Prop. 2.3](#DDK80)) Here the [[right adjoint]] forms [[associated bundles]] and the [[left adjoint]] forms [[homotopy fibers]].
+
+In fact, these are [[sSet]]-[[enriched functors]] which induced an [[equivalence of (infinity,1)-categories]] between the [[simplicial localizations]]  $L_W sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj} \simeq L_W sSet_{/\overline{W}H}$ ([DDK 80, Prop. 2.5](#DDK80)).
+
+
+This kind of relation is discussed in more detail at _[[∞-action]]_.
+
 
 ### Relation to the fine model structure of equivariant homotopy theory
 
@@ -125,7 +169,7 @@ This is mentioned in
 
 Discussion in relation to the "fine" model structure of [[equivariant homotopy theory]] which appears in [[Elmendorf's theorem]] is in 
 
-* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
+* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
 
 
