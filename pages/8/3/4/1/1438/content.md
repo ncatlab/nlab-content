@@ -75,12 +75,12 @@ commutes. Now it is trivial, in fact tautological that $\alpha$ is itself an $F$
 
 
 ### Ad&#225;mek's theorem
- {#AdameksTheorem}
+ {#AdameksTheorem-sec}
 
-In many cases, initial algebras can be constructed in a [[recursion|recursive]] fashion, using the following special case of a theorem due to Ad&#225;mek. 
+In many cases, initial algebras can be constructed in a [[recursion|recursive]] fashion, using the following special case of a theorem due to Ad&#225;mek (although, the same construction for set-functors already appeared in ([Pohlova,1973](#Pohlova))).
 
-+-- {: .num_theorem #AdameksTheorem}
-######Theorem (Ad&#225;mek) \label{AdameksTheorem}
++-- {: .num_theorem #AdameksTheorem }
+######Theorem (Ad&#225;mek)
 
 Let $C$ be a category with an [[initial object]] $0$ and [[transfinite composition]] of length $\omega$, hence [[colimits]] of sequences $\omega \to C$ (where $\omega$ is the first infinite [[ordinal]]), and suppose $F: C \to C$ preserves colimits of $\omega$-chains. Then the colimit $\gamma$ of the chain 
 
@@ -224,7 +224,12 @@ The relation to [[homotopy type theory]] is discussed in
 The relation to [[free monads]] is discussed in 
 
 * {#Maciej} [Maciej](http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
- 
+
+Original references on initial algebras include
+
+* {#Pohlova} Věra Pohlová. "On sums in generalized algebraic categories." Czechoslovak Mathematical Journal 23.2 (1973): 235-251. <http://eudml.org/doc/12718>.
+* Jiří Adámek. "Free algebras and automata realizations in the language of categories." Commentationes Mathematicae Universitatis Carolinae 15.4 (1974): 589-602.
+* Jiří Adámek, Věra Trnková. Automata and algebras in categories. Vol. 37. Springer Science & Business Media, 1990.
 
 
 [[!redirects initial algebras of an endofunctor]]
