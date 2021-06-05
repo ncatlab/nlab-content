@@ -925,6 +925,11 @@ Review:
 
 * {#Mitchell11} [[Stephen Mitchell]], _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
 
+with emphasis on the underlying [[homotopy theory]]:
+
+* {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes, Copenhagen 2008, ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf), [[Dwyer_HomotopyTheoryOfClassifyingSpaces.pdf:file]])
+
+
 Textbook accounts concerning [[vector bundles]]:
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
