@@ -29,11 +29,15 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
   * [[simplicial set]], [[simplicial group]], [[simplicial topological space]],
 
-* [[nerve]], [[singular simplicial complex]]
+* [[nerve]]
+
+* [[singular simplicial complex]]
+
+* [[simplicial classifying space]], [[simplicial loop space]]
 
 * [[Kan fibration]], [[Kan complex]], 
 
-  * [[nLab:anodyne morphism]], [[left fibration]], [[minimal fibration]]
+  * [[anodyne morphism]], [[left fibration]], [[minimal fibration]]
 
 * [[simplicial homotopy]]
 
@@ -60,7 +64,8 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
 * [[Edward Curtis]], _Simplicial Homotopy Theory_, Advances in Math., 6, (1971), 107 &#8211; 209.
 
-* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996) ([doi:10.1007/978-3-0346-0189-4)]([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)))
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+
 
 * {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
 
@@ -70,6 +75,7 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 * [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
 * [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, 2008 ([pdf](https://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Trieste-Lecture-Notes.pdf), [[SergeraertCombinatorialHomotopyTheory.pdf:file]])
+
 
 
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
