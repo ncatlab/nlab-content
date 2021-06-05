@@ -157,7 +157,7 @@ is known as the standard model for the simplicial $G$-[[universal principal bund
 
 \end{definition}
 
-(e.g. [Goerss & Jardine 09, p. 269](#GoerssJardine09))
+(due to [MacLane 54, p. 3](#MacLane54), [Kan 58, Def. 10.3](#Kan58), see also [Goerss & Jardine 09, p. 269](#GoerssJardine09))
 
 
 \begin{example}
