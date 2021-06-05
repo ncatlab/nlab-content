@@ -39,15 +39,15 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
 
 ## References
 
-The functor $L$ (denoted there by $G$) was introduced by [[Kan]] in §7 of
-
-* [[Daniel M. Kan]], _A combinatorial definition of homotopy groups_, Annals of Mathematics 67:2 (1958), 282–312.  [doi](https://doi.org/10.2307/1970006).
-
-The functor $\bar W$ is essentially due to:
+The functor $\overline W$ is essentially due to:
 
 * {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])
 
 * {#EilenbergMacLane53I} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, I_, Annals of Mathematics Second Series, Vol. 58, No. 1 (Jul., 1953), pp. 55-106 ([jstor:1969820](https://www.jstor.org/stable/1969820)) 
+
+The functor $L$ (denoted there by $G$) was introduced by [[Kan]] in §7 of
+
+* [[Daniel M. Kan]], _A combinatorial definition of homotopy groups_, Annals of Mathematics 67:2 (1958), 282–312.  [doi](https://doi.org/10.2307/1970006).
 
 As part of a [[Quillen equivalence]]:
 
