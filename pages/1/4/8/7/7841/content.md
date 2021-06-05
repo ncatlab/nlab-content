@@ -15,13 +15,13 @@ Rings of _Witt vectors_ are the [[co-free functor|co-free]] [[Lambda-rings]]. De
 
 In [[arithmetic geometry]] the impact of rings of Witt vectors $W(R)$ of a given ring $R$ is that they are like rings [[formal power series]] on $Spec(R)$, such as rings of [[p-adic numbers]]. For more on this see at _[[arithmetic jet space]]_ and at _[[Borger's absolute geometry]]_.
 
-In components, a _Witt vector is an infinite sequence of elements of a given [[commutative ring]] $k$. There is a [[ring]] structure on the set $W(k)$ of Witt vectors of $k$ and $W(k)$ is therefore called *the Witt ring of $k$*. The multiplication is defined by means of [[Witt polynomials]] $w_i$ for every [[natural number]] $i$. If the [[characteristic]] of $k$ is $0$ the Witt ring of $k$ is sometimes called *universal Witt ring* to distinguish it from the case where $k$ is of prime characteristic and a similar but different construction is of interest.
+In components, a _Witt vector_ is an infinite sequence of elements of a given [[commutative ring]] $k$. There is a [[ring]] structure on the set $W(k)$ of Witt vectors of $k$ and $W(k)$ is therefore called *the Witt ring of $k$*. The multiplication is defined by means of [[Witt polynomials]] $w_i$ for every [[natural number]] $i$. If the [[characteristic]] of $k$ is $0$ the Witt ring of $k$ is sometimes called *universal Witt ring* to distinguish it from the case where $k$ is of prime characteristic and a similar but different construction is of interest.
 
 A [[Witt vector|p-adic Witt vector]] is an infinite sequence of elements af a commutative ring of [[prime]] [[characteristic]] $p$. There exists a ring structure whose construction parallels that in characteristic $0$ except that only [[Witt polynomials]]  $w_{p^l}$ whose index is a power of $p$ are taken.
 
 More abstractly, the ring of Witt vectors carries the structure of a [[Lambda-ring]] and the construction $W \colon k\mapsto W(k)$ of the Witt ring $W(k)$ on a [[commutative ring]] $k$ is [[right adjoint]] to the [[forgetful functor]] from [[Lambda-rings]] to [[commutative rings]]. Hence rings of Witt vectors are the _[[co-free functor|co-free]] [[Lambda-rings]]_.
 
-Moreover $W(-)$ is [[representable functor|representable]] by [[symmetric function|Symm]], the ring of [[symmetric functions]] which is a [[Hopf algebra]] and consequently $W$ is a [[group scheme]]. This is explained at [[Lambda-ring]].
+Moreover $W(-)$ is [[representable functor|representable]] by ring of [[symmetric function|symmetric functions]], $\Lambda$.   The reason is that $\Lambda$ is the free Lambda-ring on the commutative ring $\mathbb{Z}$.   Since $\Lambda$ is a [[Hopf algebra]], $W$ is a [[group scheme]]. This is explained at [[Lambda-ring]].
 
 The construction of Witt vectors gives a functorial way to lift a commutative ring $A$ of [[prime]] [[characteristic]] $p$ to a commutative ring $W(A)$ of [[characteristic]] 0. Since this construction is functorial, it can be applied to the [[structure sheaf]] of an [[algebraic variety]].
 In interesting special cases the resulting ring $W(A)$ has even more desirable properties: If $A$ is a [[perfect field]] then $W(A)$ is a [[discrete-valuation ring|discrete valuation]]. This is partly due to the fact that the construction of $W(A)$ involves a ring of [[power series]] and a ring of power series over a field is always a discrete valuation ring.
@@ -410,7 +410,7 @@ Review in the context of the [[Kummer-Artin-Schreier-Witt exact sequence]] is in
 
 * [[Dmitri Kaledin]], universal Witt vectors and the ''Japanese cocycle'', [pdf](http://imperium.lenin.ru/~kaledin/math/jap.pdf)
 
-* [[Lars Hesselholt]], [[Ib Madsen]], _on the de Rham-Witt comples in [[mixed characteristic]]_, [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
+* [[Lars Hesselholt]], [[Ib Madsen]], _On the de Rham-Witt complex in [[mixed characteristic]]_, [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
 
 * [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
