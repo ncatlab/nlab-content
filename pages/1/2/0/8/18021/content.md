@@ -46,7 +46,16 @@ More details and relation to [[décalage]]:
 * [[Danny Stevenson]], _Décalage and Kan's simplicial loop group functor_, Theory and Applications of Categories, Vol. 26, 2012, No. 28, pp 768-787 ([arXiv:1112.0474](https://arxiv.org/abs/1112.0474), [tac:26-28](http://www.tac.mta.ca/tac/volumes/26/28/26-28abs.html))
 
 
+## Related concepts
+
+* [[simplicial delooping functor]]
+
+
 [[!redirects simplicial loop spaces]]
 
 [[!redirects simplicial loop group]]
 [[!redirects simplicial loop groups]]
+[[!redirects simplicial loop functor]]
+[[!redirects simplicial loop functors]]
+[[!redirects simplicial loop space functor]]
+[[!redirects simplicial loop space functors]]
