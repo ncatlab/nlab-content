@@ -23,7 +23,7 @@ While a [[homomorphism]] of [[magmas]] (including [[groups]], [[rings]], etc) mu
 
 Let $A$ and $B$ be [[magmas]], or more generally [[magma objects]] [[internalisation|in]] any [[symmetric monoidal category]] $C$.  (Examples include [[groups]], which are magmas with extra properties; [[rings]], which are magma objects in [[Ab]] with extra proprties; etc.)
 
-An __antihomomorphism__ from $A$ to $B$ is a [[function]] (or $C$-morphism) $f\colon A \to B$ such that:
+An __antihomomorphism__ from $A$ to $B$ is a [[homomorphism]] $f\colon A \to B^\op$ where $B^\op$ is the [[opposite magma]] of $B$, or equivalently, it is a [[function]] (or $C$-morphism) $f\colon A \to B$ such that:
 
 *  for every two ([[generalised element|generalised]]) elements $x, y$ of $A$, $f(x y) = f(y) f(x)$.
 
@@ -40,6 +40,9 @@ An __antiautomorphism__ is an antihomomorphism whose underlying $C$-morphism is 
 
 * Combining these two examples, in an [[involutive Hopf algebra]] the [[antipode]] is an anti-automorphism.
 
+## Related concepts
+
+* [[opposite magma]]
 
 [[!redirects antihomomorphism]]
 [[!redirects antihomomorphisms]]
