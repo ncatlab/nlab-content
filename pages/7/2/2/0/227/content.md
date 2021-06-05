@@ -259,6 +259,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
     [[nilradical]], [[reduced ring]], 
 
+* [[Pythagorean ring]]
+
 * [[near-ring]]
 
 * [[module]], [[bimodule]]
