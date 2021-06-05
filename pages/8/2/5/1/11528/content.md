@@ -109,21 +109,22 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
 
 ### Relation to the slice over the simplicial classifying space
 
-\begin{prop}
+\begin{prop}\label{QuillenEquivalenceToSliceOverSimplicialClassifyingSpace}
   For $G$ a [[simplicial group]], there is a pair of [[adjoint functors]]
-  $$
+  \[
+    \label{QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace}
     sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}
       \underoverset
         {\underset{ \big((-) \times W G\big)/G }{\longrightarrow}}
         {\overset{ (-) \times_{\overline{W}G} W G  }{\longleftarrow}}
         {\bot}
     sSet_{/\overline{W}G}
-  $$
-  which constitute a [[Quillen equivalence]] between the Borel model structure (Def. \ref{BorelModelStructure}) and the [[slice model structure]] of the [[classical model structure on simplicial sets]] slices over the [[simplicial classifying space]] $\overline{W}G$.,
+  \]
+  which constitute a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] between the Borel model structure (Def. \ref{BorelModelStructure}) and the [[slice model structure]] of the [[classical model structure on simplicial sets]] slices over the [[simplicial classifying space]] $\overline{W}G$.,
   
 \end{prop}
 
-([DDK 80, Prop. 2.3](#DDK80)) Here:
+([DDK 80, Prop. 2.3, Prop. 2.4](#DDK80)) Here:
 
 * the [[right adjoint]] forms [[associated bundles]] to [[universal principal bundles]] 
 
@@ -131,9 +132,90 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
 
 In fact, these are [[sSet]]-[[enriched functors]] which induced an [[equivalence of (infinity,1)-categories]] between the [[simplicial localizations]]  $L_W sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj} \simeq L_W sSet_{/\overline{W}H}$ ([DDK 80, Prop. 2.5](#DDK80)).
 
-
 This kind of relation is discussed in more detail at _[[∞-action]]_.
 
+
+\begin{remark}
+
+The statement that (eq:QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace) is an [[sSet]]-*[[enriched adjunction]]* is not made explicit in [DDK 80](#DDK80); there it only says that the functors form a plain [[adjoint functors|adjunction]] ([DDK 80, Prop. 2.3](#DDK80)) and that they are each [[sSet]]-[[enriched functors]] ([DDK 80, Prop. 2.4](#DDK80)). 
+
+The remaining observation that we have a [[natural isomorphism]] of [[sSet]]-[[hom-objects]]
+
+$$
+  \big[
+    X \times_{\overline{W}G} W G,
+    \,
+    V
+  \big]
+  \;\simeq\;
+  \big[
+    X,
+    \,
+    (V \times W G)
+  \big]
+$$
+
+hence
+
+$$
+  sSetCat\big(\mathbf{B}G_\bullet, sSet\big)
+  \Big(
+    \big( X \times_{\overline{W}G} W G \big) \times \Delta[\bullet],
+    \,
+    V
+  \Big)
+  \;\simeq\;
+  sSet_{/\overline{W}G}
+  \big(
+    X \times \Delta[\bullet],
+    \,
+    (V \times W G)
+  \big)
+$$
+
+follows from the plain adjunction by the natural isomorphism
+
+$$
+  { (X \times_{\overline{W}G} W G) \times \Delta[k] } 
+  { {\simeq} (X \times \Delta[k]) \times_{\overline{W}G} W G  } 
+  \,,
+$$
+
+which, in full detail, follows for instance from the [[pasting law]]:
+
+\begin{tikzcd}
+  {
+    { (X \times_{\overline{W}G} W G) \times \Delta[k] } 
+    \atop
+    { \mathllap{\simeq} (X \times \Delta[k]) \times_{\overline{W}G} W G  } 
+  }
+  \ar[r]
+  \ar[d]
+  \ar[dr,phantom,"\mbox{\tiny\rm(pb)}"]
+  & 
+  X \times \Delta[k]
+  \ar[
+    d,
+    "\mathrm{pr}_1"
+  ]
+  \\
+  X \times_{\overline{W}G} W G
+  \ar[r]
+  \ar[d]
+  \ar[dr,phantom,"\mbox{\tiny\rm(pb)}"]
+  & 
+  X 
+  \ar[
+    d
+  ]
+  \\
+  W G
+  \ar[r]
+  &
+  \overline{W}G
+\end{tikzcd}
+
+\end{remark}
 
 ### Relation to the fine model structure of equivariant homotopy theory
 
