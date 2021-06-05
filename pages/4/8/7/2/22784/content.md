@@ -37,7 +37,7 @@ The __reciprocal__ $\frac{1}{(-)}:(-\infty,0)\union(0,\infty)\to\mathbb{R}$ is t
 $$
 \frac{1}{x} \coloneqq 
 \begin{cases}
-\lim_{a\to 0^-} -a \sum_{n=0}^{\infty} a^n (x+f(a+1))^n & x \in (-\infty,0) \\
+\lim_{a\to 0^-} (-a) \sum_{n=0}^{\infty} a^n (x+f(a+1))^n & x \in (-\infty,0) \\
 \lim_{a\to 0^+} a \sum_{n=0}^{\infty} (-a)^n (x+g(a-1))^n & x \in (0,\infty) 
 \end{cases}
 $$
