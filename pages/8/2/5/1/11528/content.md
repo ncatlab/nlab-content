@@ -117,13 +117,17 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
         {\underset{ \big((-) \times W G\big)/G }{\longrightarrow}}
         {\overset{ (-) \times_{\overline{W}G} W G  }{\longleftarrow}}
         {\bot}
-    sSet_{/\overline{W}H}
+    sSet_{/\overline{W}G}
   $$
   which constitute a [[Quillen equivalence]] between the Borel model structure (Def. \ref{BorelModelStructure}) and the [[slice model structure]] of the [[classical model structure on simplicial sets]] slices over the [[simplicial classifying space]] $\overline{W}G$.,
   
 \end{prop}
 
-([DDK 80, Prop. 2.3](#DDK80)) Here the [[right adjoint]] forms [[associated bundles]] and the [[left adjoint]] forms [[homotopy fibers]].
+([DDK 80, Prop. 2.3](#DDK80)) Here:
+
+* the [[right adjoint]] forms [[associated bundles]] to [[universal principal bundles]] 
+
+* the [[left adjoint]] forms [[homotopy fibers]].
 
 In fact, these are [[sSet]]-[[enriched functors]] which induced an [[equivalence of (infinity,1)-categories]] between the [[simplicial localizations]]  $L_W sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj} \simeq L_W sSet_{/\overline{W}H}$ ([DDK 80, Prop. 2.5](#DDK80)).
 
