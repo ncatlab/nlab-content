@@ -1,4 +1,33 @@
 
+\begin{tikzcd}
+  & g_2 g_1
+  \ar[
+    dr,
+    "{(g_2 g_1, g_0)}"{sloped, near start},
+    ""{name=s, below, pos=0.01}
+  ]
+  \\
+  g_2
+  \ar[
+    ur,
+    "{(g_2, g_1)}"{sloped, near end}
+  ]
+  \ar[
+    rr,
+    "{(g_2, g_1 g_0)}"{below},
+    ""{name=t, above}
+  ]
+  &
+  {}
+  &
+  g_2 g_1 g_0
+  \ar[
+    from=s, to=t,
+    Rightarrow,
+    "{(g_2, g_1, g_0)}"{description}
+  ]
+\end{tikzcd}
+
 $$
   \big(X \times_{\overline{W}G} W G\big)
   \times \Delta[k]
