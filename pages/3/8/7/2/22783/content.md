@@ -52,7 +52,7 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
     $$
       (W G)_n
       \;\coloneqq\;
-      G_{n} \times G_{n_1} \times \cdots \times G_0
+      G_{n} \times G_{n-1} \times \cdots \times G_0
     $$
  
   * face maps are given by
