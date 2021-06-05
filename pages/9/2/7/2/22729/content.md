@@ -43,6 +43,8 @@ for all $a,b \in G$.
 
 ## Properties
 
+Every invertible magma is a [[cancellative magma]]. 
+
 The submagma of every [[power-associative]] invertible magma $M$ [[generator|generated]] by an element $a \in M$ is a [[cyclic group]]. This means in particular there is a $\mathbb{Z}$-[[action]] on $M$ $(-)^{(-)}:M\times\mathbb{Z}\to M$ called the __[[power]]__. 
 
 ## Examples
