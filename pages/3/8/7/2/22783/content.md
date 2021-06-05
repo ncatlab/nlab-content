@@ -371,6 +371,8 @@ $$
 
 ## Related concepts
 
+* [[simplicial loop functor]]
+
 * [[simplicial homotopy theory]]
 
 * [[Borel model structure]]
@@ -388,9 +390,13 @@ Its [[left adjoint]] [[simplicial loop space]] functor $L$ was introduced by [[K
 
 * [[Daniel M. Kan]], §7 of: _A combinatorial definition of homotopy groups_, Annals of Mathematics 67:2 (1958), 282–312.  [doi](https://doi.org/10.2307/1970006).
 
-As part of a [[Quillen equivalence]]:
+The adjunction was explicitly spelled out by [[Kan]] in
 
 * {#Kan58} [[Daniel Kan]], Sections 10-11 in: _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53 ([jstor:1970042](https://www.jstor.org/stable/1970042))
+
+Kan's paper also appears to be the first reference where $\bar W$ is defined explicitly.
+
+As part of a [[Quillen equivalence]]:
 
 * {#Quillen69} [[Dan Quillen]], Section 2 of: _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725))
 
