@@ -114,6 +114,8 @@ It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
 
 * [[unit of a monad]]
 
+* [[exponential ring]]
+
 ## References
 
 See also 
