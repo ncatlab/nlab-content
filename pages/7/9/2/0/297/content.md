@@ -2564,12 +2564,14 @@ For the case of one-dimensional smooth field theories, see
 * [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_,
 ([arXiv:0705.0452](https://arxiv.org/abs/0705.0452))
 
-* [[Daniel Berwick-Evans]], [[Dmitri Pavlov]], _Smooth one-dimensional topological field theories are vector bundles with connection_,
-[arXiv:1501.00967](https://arxiv.org/abs/1501.00967),
+* [[Daniel Berwick-Evans]], [[Dmitri Pavlov]], _Smooth one-dimensional topological field theories are vector bundles with connection_( [arXiv:1501.00967](https://arxiv.org/abs/1501.00967))
 
-* [[Matthias Ludewig]], [[Augusto Stoffel]],
-_A framework for geometric field theories and their classification in dimension one_,
-[arXiv:2001.05721](https://arxiv.org/abs/2001.05721).
+* [[Matthias Ludewig]], Augusto Stoffel, _A framework for geometric field theories and their classification in dimension one_ ([arXiv:2001.05721](https://arxiv.org/abs/2001.05721))
+
+For the analogous discussion in [[AQFT]] see also:
+
+* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], *Smooth 1-dimensional algebraic quantum field theories* ([arXiv:2010.13808](https://arxiv.org/abs/2010.13808))
+
 
 
 ### (extended) FQFT from background fields: $\sigma$-models## 
