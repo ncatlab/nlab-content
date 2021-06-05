@@ -111,6 +111,8 @@ An $n$-[[n-category|category]] has $n$ kinds of opposites.  See (or write) [[opp
 
 * under [[delooping]] a [[monoid]] to a pointed one-object [[category]], passing to the opposite monoid corresponds to passing to the [[opposite category]].
 
+* [[antihomomorphism]]
+
 [[!redirects opposite magma]]
 [[!redirects opposite magmas]]
 
