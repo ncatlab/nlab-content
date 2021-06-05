@@ -37,7 +37,7 @@ For $G_\bullet$ a [[simplicial group]] write
 
 * $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ for the projective [[model structure on functors]] (projective [[model structure on simplicial presheaves]]). 
 
-This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model category]] ([DDK 80, Prop. 2.4](#DDK80)).
+This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model category]] ([DDK 80, Prop. 2.4](#DDK80), [Goerss & Jardine 09, Chapter V, Thm. 2.3](#GoerssJardine09)).
 
 \end{defn}
 
@@ -108,6 +108,7 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
 
 
 ### Relation to the slice over the simplicial classifying space
+ {#RelationToSliceOverSimplicialClassifyingSpace}
 
 \begin{prop}\label{QuillenEquivalenceToSliceOverSimplicialClassifyingSpace}
   For $G$ a [[simplicial group]], there is a pair of [[adjoint functors]]
@@ -247,11 +248,12 @@ is right Quillen.
 
 ## References
 
+
 The model structure, the characterization of its cofibrations, and its equivalence to the [[slice model structure]] of $sSet$ over $\bar W G$ is due to
 
 * {#DDK80} [[Emmanuel Dror]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
 
-The result is also mentioned as:
+This Quillen equivalence also mentioned as:
 
 * {#Dwyer2008} [[William Dwyer]], Exercise 4.2 in: _Homotopy theory of classifying spaces_, Lecture notes, Copenhagen 2008, ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf), [[Dwyer_HomotopyTheoryOfClassifyingSpaces.pdf:file]])
 
@@ -259,6 +261,9 @@ Discussion in relation to the "fine" model structure of [[equivariant homotopy t
 
 * {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
+Textbook account of (just) the Borel model structure:
+
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.2 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
 
 Discussion with the model of [[∞-groups]] by [[simplicial groups]] replaced by groupal [[Segal spaces]] is in 
