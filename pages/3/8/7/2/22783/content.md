@@ -141,11 +141,12 @@ This carries a $G$-[[action]] by left multiplication on the first factor:
 
 The [[quotient]] of $W G$ by this $G$-action (eq:GActionOnWG) is denoted
 
-$$
+\[
+  \label{OverlineWGAsQuotientOfWG}
   \overline{W} G
   \;\coloneqq\;
   W G / G
-$$
+\]
 
 and the quotient [[coprojection]]
 
@@ -287,6 +288,18 @@ with the [[nerve]] of the [[action groupoid]] of $G$ acting on itself by right m
     "{(g_2, g_1, g_0)}"{description}
   ]
 \end{tikzcd}
+
+Finally this means that the simplicial classifying complex (eq:OverlineWGAsQuotientOfWG) of an ordinary group is isomorphic to the [[nerve]] of its [[delooping groupoid]]:
+
+$$
+  \overline{W}G
+  \;\simeq\;
+  N
+  \big(
+    G \rightrightarrows \ast
+  \big)
+  \,.
+$$
 
 \end{example}
 
