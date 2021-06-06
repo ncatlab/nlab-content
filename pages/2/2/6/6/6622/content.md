@@ -701,3 +701,4 @@ _Tensor Categories_, [course notes available online](http://www-math.mit.edu/~et
 
 * J. Armstrong, [Mac Lane's coherence theorem](http://unapologetic.wordpress.com/2007/06/29/mac-lanes-coherence-theorem/)
 
+* Luke Trujillo, [A Coherent Proof of Mac Lane's Coherence Theorem](https://scholarship.claremont.edu/hmc_theses/243/)
