@@ -1,4 +1,6 @@
 
+$\ldots$
+
 \begin{tikzcd}
   & g_2 g_1
   \ar[
