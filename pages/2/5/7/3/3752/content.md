@@ -223,6 +223,11 @@ Topologically enriched semicategories are used for studying some aspects of conc
 
 * {#Gaucher} [[Philippe Gaucher]], _Flows revisited: the model category structure and its left determinedness_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, vol LXI-2 (2020) ([published](http://cahierstgdc.com/wp-content/uploads/2020/04/GAUCHER-LXI-2.pdf), [arXiv:1806.08197](https://arxiv.org/abs/1806.08197))
 
+Semi-categories, semi-adjunctions and semi-cartesian closed categories have been used to study the [[lambda calculus]] since 
+
+* Susumu Hayashi, _Adjunction of semifunctors: Categorical structures in nonextensional lambda calculus_, Theoretical Computer Science
+Volume 41, 1985, Pages 95-104 [doi:10.1016/0304-3975(85)90062-3](https://doi.org/10.1016/0304-3975%2885%2990062-3)
+
 [[!redirects semicategories]]
 
 [[!redirects semi-category]]
