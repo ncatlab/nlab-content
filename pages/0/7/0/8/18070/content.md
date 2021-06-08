@@ -1639,8 +1639,8 @@ with full details and proofs in
 
 see also
 
-* {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], Najib Idrissi, [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
-
+* {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], [[Najib Idrissi]], [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
+* {#Idrissi21} [[Najib Idrissi]], [_Real homotopy of configuration spaces_](https://idrissi.eu/research/peccot)
 
 A systematic development of [[Euclidean field theory|Euclidean]] [[perturbative quantum field theory]] with [[n-point functions]] considered as [[smooth functions]] on [[Fulton-MacPherson compactifications]]/[[wonderful compactifications]] of [[configuration spaces of points]] and more generally of subspace arrangements is due to 
 
