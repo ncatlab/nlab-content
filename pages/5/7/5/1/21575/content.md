@@ -218,7 +218,7 @@ Let us consider a full subcatogry $C$ of the category of locally ringed spaces w
 We consider $C$ as site with the Grothendieck topology induced by open coverings.
 Then, for any $X$ in $C$, the topos $Sh(C)_{/X}$ is aspherical because there is an adjunction between $Sh(X)$ and $Sh(C)_{/X}$ in the $2$-category of topoi.
 Therefore, since $C$ is a [[strict test category]], we see that $Sh(C)$
-is a test topos in which the Artin-Mazur weak equivalencesne are stable under finite products; see Thm. 6.1.8 in ([Cisinski03](#Cisinski03])).
+is a test topos in which the Artin-Mazur weak equivalences are stable under finite products; see Thm. 6.1.8 in ([Cisinski03](#Cisinski03])).
 If $X$ is a locally ringed space which has a covering by spaces in $C$, then the sheaf on $C$ represented by $X$ corresponds
 in the test model structure on $Sh(C)$ to the classical weak homotopy type of $X$ (this follows by hyperdescent in shape theory). In practice, all objects of $C$
 admit CW-structures, so that we even get the classical homotopy type of $X$ characterized by the sheaf represented by $X$ on $C$.
