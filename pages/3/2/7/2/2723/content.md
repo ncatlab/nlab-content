@@ -29,7 +29,7 @@ The formulation of the [[sigma-model]] 2d [[CFT]]s that are used in (super) [[st
 
    The disadvantage is that, as one says, "target space supersymmetry is not manifest": as described at [[string theory]], every 2d CFT gives rise to an effective background [[quantum field theory]] (that quantum field theory whose [[S-matrix]] approximates the [[S-matrix]] obtained by evaluating the given CFT correlators on all possible surfaces and summing over the conformal [[moduli space]] and all genera). One can identify explcitly in the [[vertex operator algebra]] of the 2d CFT those operators that correspond to the fields of this effective background field theory (the _vertex operators_). One finds that these fields are those of a theory of [[supergravity]] and [[super Yang-Mills theory]]. So in particular there is a [[super Lie algebra]] acting on them. But this "supersymmetry" of the effective target space theory appears like an accident if one unwraps all this: there is no structural one-line argument (known) that would guarantee that the effective background quantum field theory of a 2d super [[CFT]] is itself supersymmetric.
 
-1. In the [[GS-string]] [[sigma-model]] formulation, the worldsheet is an ordinary [[manifold]], but target space is a [[supermanifold]].
+1. In the [[Green-Schwarz superstring]] [[sigma-model]] formulation, the [[worldsheet]] is an ordinary [[manifold]], but target space is a [[supermanifold]].
 
    This has the immediate advantage that target space supersymmetry is now "manifest": as described at [[supergravity]] it is just the super-[[diffeomorphism]] invariance of the theory, and the [[sigma-models]] in question all manifestly have this property.
 
@@ -48,6 +48,18 @@ This at once made the previously mathemtically rather unjustified approach make 
 * [[string scattering amplitude]]
 
 ## References
+
+### General
+
+The original articles:
+
+(...)
+
+Relation to the [[RNS string]]:
+
+* [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* ([arXiv:2106.04448](https://arxiv.org/abs/2106.04448))
+
+### Sheaf ov VOAs
 
 A good reference that explains the sheaf of vertex operator algebra perspective on the Berkovits superstring is
 
