@@ -29,7 +29,7 @@ This means that the definition of lax functor involves a choice of orientation o
 
 Often the term lax functor is used for $n$-functors $F : C \to D$ whose domain $C$ is an ordinary [[category]] (regarded as an $n$-category with only trivial higher morphisms), while the codomain $D$ is often taken to be a [[2-category]].
 
-A **normal lax functor** preserves identities strictly.
+A **normal lax functor** (sometimes called *strictly unitary*) preserves identities strictly.
 
 
 ## Definition
