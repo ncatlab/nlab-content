@@ -15,7 +15,7 @@
 
 ## Definition
 
-A __thin category__ is a [[category]] in which, given any two objects $x$ and $y$ and any two morphisms $f$ and $g$ from $x$ to $y$, the morphisms $f$ and $g$ are equal:
+A __thin__ or __posetal category__ a [[category]] in which, given any two objects $x$ and $y$ and any two morphisms $f$ and $g$ from $x$ to $y$, the morphisms $f$ and $g$ are equal:
 
 $$
       x \underoverset{\quad g \quad}{f}{\rightrightarrows} y \implies f=g
