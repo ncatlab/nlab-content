@@ -297,12 +297,91 @@ The [stars and bars argument](https://en.wikipedia.org/wiki/Stars_and_bars_%28co
 
 As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $\mathbf{n}$ (OEIS sequence [A088218](https://oeis.org/A088218), or [A001700](https://oeis.org/A001700) if we consider endomorphisms $[n] \to [n] \in \Delta$), while taking $m=2$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
 
+### Extra Degeneracies
+
+In some applications, in addition to the usual maps in the simplex category, one has "extra degeneracies" whose key property can be described as constructing an [[absolute limit]] of shape $\Delta$.
+
+Let $\Delta_\bot \subseteq \Delta$ be the [[wide subcategory]] spanned by the functors that preserve minima. Equivalently, $\Delta_\bot \subseteq \Delta_*$ is the full subcategory of pointed objects of the form $(S, \bot_S)$ where $\bot_S$ is the minimum of $S$.
+
++-- {: .num_prop }
+###### Proposition
+
+$1 \oplus - : \Delta_a \to \Delta_\bot$ is an [[absolute limit]] cone in the sense of [[(∞,1)-categories]] (and thus in the sense of ordinary categories).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the characterization of absolute limits by representable functors, we need to show every $\Delta_\bot(1 \oplus -, m) : \Delta_a^{\op} \to \infty Grpd$ is a colimit cocone. Observe $\Delta_\bot(1 \oplus -, m) \cong \Delta_a(-, m)$. Since the cone point is $\Delta_a(0, m) = *$, this claim follows from the fact $m$ is a weakly contractible simplicial set.
+
+=--
+
+Since the retract of an absolute limit is again an absolute limit, we can generalize. Define $\Delta_x$ by the pushout in $(\infty,1)Cat$:
+
+$$
+\begin{matrix}
+\Delta_a^{\leq 0} \times \Delta_a &\xrightarrow{\oplus}& \Delta_a
+\\ \!\!\!\!\!\!\!\!\!\!\!\!(1 \oplus -) \times id \downarrow
+& & \downarrow \iota\!
+\\ \Delta_\bot^{\leq 1} \times \Delta_a &\xrightarrow{\rho}& \Delta_x
+\end{matrix}
+$$
+
++-- {: .num_prop }
+###### Proposition
+
+$\iota : \Delta_a \to \Delta_x$ is an [[absolute limit]] cone in the sense of [[(∞,1)-categories]] (and thus in the sense of ordinary categories).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+$\rho$ transposes to a retraction diagram in the category of augmented simplicial objects of $\Delta_x$. This retraction expresses $\iota$ as a retract of the functor $\Delta_a \xrightarrow{1 \oplus -} \Delta_\bot \subseteq \Delta_a \xrightarrow{\iota} \Delta_x$. Since the first map is an absolute limit, so is the composite.
+
+=--
+
+The homotopy category $h \Delta_x$ has a similar property.
+
+To mesh with the usual description of extra degeneracies, the categories $\Delta_\bot$ and $h \Delta_x$ can be given by
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathbf{C}$ be the category constructed from $\Delta_a$ by adjoining arrows $s_{-1} : m \to (m+1)$ for all $m \geq 0$, and by imposing the cosimplicial identities
+
+* $s_{-1} d_0 = 1$
+* $s_{-1} d_{k+1} = d_k s_{-1}$ for $k \geq 0$
+* $s_{-1} s_{k+1} = s_k s_{-1}$ for $k \geq 0$
+
+Then the monomorphism $1 \oplus - : \Delta_a \to h \Delta_x$ extends to an equivalence $\mathbf{C} \to h \Delta_x$.
+
+Let $\mathbf{C}'$ be constructed by imposing the remaining cosimplicial identity
+$s_{-1} s_0 = s_{-1} s_{-1}$. Then $1 \oplus - : \Delta_a \to \Delta_\bot$
+extends to an equivalence $\mathbf{C}' \to \Delta_\bot$.
+
+=--
+
++-- {: .proof }
+###### Proof idea
+
+The case of $\mathbf{C}'$ follows by the same argument showing that $\Delta$ is presented by the face and degeneracy maps modulo the cosimplicial identities by an algorithm reducing arrows to a normal form. The key observation is that a map of $\Delta$ is contained in $\Delta_\bot$ iff its normal form does not contain any copies of $d_0$.
+
+The case of $\mathbf{C}$ can be determined by working through the construction of $h \Delta_x$ as a pushout of ordinary categories.
+
+=--
+
+The construction of $h \Delta_x$ from $\Delta_a$ consists of the usual definition of "extra degeneracies". The construction of $\Delta_\bot$ from $\Delta_a$ can be described as having "strong extra degeneracies".
+
+
 ## Related constructions ##
 
 ### Simplicial sets 
  {#SimplicialSets}
 
-[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Presheaves on $\Delta_a$ are **[[augmented simplicial sets]].
+[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Presheaves on $\Delta_a$ are **[[augmented simplicial sets]]. 
 
 Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$. So 
 in particular we have $(\Delta^n)[m] = Hom_{\Delta}([m],[n])$ and hence 
@@ -314,6 +393,17 @@ The face and degeneracy maps and the relation they satisfy are geometrically bes
 
 * the degeneracy map $Y(\sigma_i) : \Delta^{n+1} \to \Delta^{n}$ projects the standard simplicial $(n+1)$-simplex onto the standard simplicial $n$-simplex by collapsing its vertex number $i$ onto the face opposite to it.
 
+#### Extra degeneracies
+
+Presheaves on $\Delta_x$ are _(augmented) simplicial sets with extra degeneracies_,
+and presheaves on $\Delta_a$ are _(augmented) simplicial sets with strong extra degeneracies_. The key feature is
+
++-- {: .num_prop }
+###### Proposition
+
+If an augmented simplicial object $P : \Delta_a^{op} \to C$ can be extended to $\Delta_x^{op} \to C$, then $P$ is a colimit diagram.
+
+=--
 
 ### Realization and nerve
  {#RealizationAndNerve}
