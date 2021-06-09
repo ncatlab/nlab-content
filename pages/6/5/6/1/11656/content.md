@@ -4,6 +4,16 @@
 
 ## Selected writings
 
+On [[F-theory]] [[KK-compactification|KK-compactified]] on [[Calabi-Yau manifolds]] and [[duality between F-theory and heterotic string theory]]:
+
+* {#MorrisonVafa96a} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- I_, Nucl. Phys. B473 (1996) 74-92 ([arXiv:hep-th/9602114](http://arxiv.org/abs/hep-th/9602114))
+
+* {#MorrisonVafa96b} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- II_, Nucl. Phys. B476:437-469, 1996 ([arXiv:hep-th/9603161](http://arxiv.org/abs/hep-th/9603161))
+
+and in relation to the [[duality between M-theory and heterotic string theory]]:
+
+* [[Bobby Acharya]], Alex Kinsella, [[David Morrison]], *Non-Perturbative Heterotic Duals of M-Theory on $G_2$ Orbifolds* ([arXiv:2106.03886](https://arxiv.org/abs/2106.03886))
+
 On the [[D=6 N=(1,0) SCFT]] on [[heterotic M5-branes]] and their [[KK-compactifications]]:
 
 * [[Ori Ganor]], [[David Morrison]], [[Nathan Seiberg]], _Branes, Calabi-Yau Spaces, and Toroidal Compactification of the $N=1$ Six-Dimensional $E_8$ Theory_, Nucl. Phys. B487:93-127, 1997 ([arXiv:hep-th/9610251](https://arxiv.org/abs/hep-th/9610251))
