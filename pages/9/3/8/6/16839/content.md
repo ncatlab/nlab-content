@@ -17,9 +17,9 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,
 
 =--
 
-## Properties
+## Other notions of "exact"
 
-There is a [[Quillen Q-construction]] for exact (infinity,1)-categories which allows to compute its [[algebraic K-theory]].
+There is another meaning for "exact (∞,1)-category" for which there is a [[Quillen Q-construction]] for exact (∞,1)-categories which allows to compute its [[algebraic K-theory]].
 
 ## Related concepts
 
@@ -30,6 +30,8 @@ There is a [[Quillen Q-construction]] for exact (infinity,1)-categories which al
 * [[Quillen Q-construction]]
 
 ## References
+
+References for the version of exactness suitable for the Q construction
 
 * [[C. Barwick]], _On the Q construction for exact quasicategories_, [arXiv:1301.4725](http://arxiv.org/abs/1301.4725).
 
