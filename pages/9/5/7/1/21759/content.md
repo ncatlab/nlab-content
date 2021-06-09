@@ -96,6 +96,8 @@ on [[geometry]] and [[topology]] in [[mathematical physics]], such as in [[fiber
 
 ## Characteristic Classes
 
+* [[Chern-Weil homomorphism]]
+
 * [[characteristic classes]]
 
 ## Index Theorems
