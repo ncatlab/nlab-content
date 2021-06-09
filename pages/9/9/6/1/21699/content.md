@@ -21,7 +21,7 @@
 
 ## Idea
 
-The [[ring spectrum]] commonly denoted $ku$ is the [[connective cover]] of the specturm [[KU]], which [[Brown representability theorem|represents]] [[complex vector bundle|complex]] [[topological K-theory]].
+The [[ring spectrum]] commonly denoted $ku$ is the [[connective cover]] of the spectrum [[KU]], which [[Brown representability theorem|represents]] [[complex vector bundle|complex]] [[topological K-theory]].
 
 
 ## Related concepts
