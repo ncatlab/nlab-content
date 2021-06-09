@@ -313,7 +313,7 @@ $1 \oplus - : \Delta_a \to \Delta_\bot$ is an [[absolute limit]] cone in the sen
 +-- {: .proof}
 ###### Proof
 
-By the characterization of absolute limits by representable functors, we need to show every $\Delta_\bot(1 \oplus -, m) : \Delta_a^{\op} \to \infty Grpd$ is a colimit cocone. Observe $\Delta_\bot(1 \oplus -, m) \cong \Delta_a(-, m)$. Since the cone point is $\Delta_a(0, m) = *$, this claim follows from the fact $m$ is a weakly contractible simplicial set.
+By the characterization of absolute limits by representable functors, we need to show every $\Delta_\bot(1 \oplus -, m) : \Delta_a^{\op} \to \infty Grpd$ is a colimit cocone. Observe $\Delta_\bot(1 \oplus -, m) \cong \Delta_a(-, m)$. Since the cone point is $\Delta_a(0, m) = *$, we need to show that the colimit of the simplicial [[∞-gropuoid]] $\Delta(-, m)$ is contractible. Since the colimit (in simplicial ∞-gropuoids) of a simplicial set  is the precisely its homotopy type, the theorem follows from the fact that $\Delta^{m-1}$ is a contractible simplicial set.
 
 =--
 
