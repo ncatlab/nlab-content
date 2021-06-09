@@ -140,18 +140,21 @@ The conjectured duality between [[type IIA string theory]] [[KK-compactification
 * {#Lerche99} [[Wolfgang Lerche]], _On the Heterotic/F-Theory Duality in Eight Dimensions_, In: Baulieu L., Green M., Picco M., Windey P. (eds.) _Progress in String Theory and M-Theory_, NATO Science Series (Series C: Mathematical and Physical Sciences), vol 564. Springer 2001 ([arXiv:hep-th/9910207](https://arxiv.org/abs/hep-th/9910207), [doi:10.1007/978-94-010-0852-5_2](https://doi.org/10.1007/978-94-010-0852-5_2))
 
 
-Review includes
+Review:
 
 * [[Paul Aspinwall]], [[David Morrison]], _String Theory on K3 Surfaces_, in [[Brian Greene]], [[Shing-Tung Yau]] (eds.), _Mirror Symmetry II_, International Press, Cambridge, 1997, pp. 703-716 ([arXiv:hep-th/9404151](https://arxiv.org/abs/hep-th/9404151))
 
 
 * {#Aspinwall96} [[Paul Aspinwall]], _K3 Surfaces and String Duality_, in  [[Shing-Tung Yau]] (ed.): _Differential geometry inspired by string theory_ 1-95 ([arXiv:9611137](https://arxiv.org/abs/hep-th/9611137) [spire:426102](http://inspirehep.net/record/426102))
 
-Further discussion includes
+Further discussion:
 
 * [[Paul Aspinwall]], _Enhanced Gauge Symmetries and K3 Surfaces_, Phys.Lett. B357 (1995) 329-334 ([arXiv:hep-th/9507012](http://arxiv.org/abs/hep-th/9507012))
 
 * [[Eric Bergshoeff]], C. Condeescu, G. Pradisi, F. Riccioni, _Heterotic-Type II duality and wrapping rules_, JHEP12(2013)057 ([arXiv:1311.3578](https://arxiv.org/abs/1311.3578))
+
+
+
 
 Specifically in relation to the putative [[K-theory]]-classification of [[D-brane charge]]:
 
@@ -162,6 +165,8 @@ Specifically in [[M-theory on G2-manifolds]]:
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] section 6.4 of _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
+* [[Bobby Acharya]], Alex Kinsella, [[David Morrison]], *Non-Perturbative Heterotic Duals of M-Theory on $G_2$ Orbifolds* ([arXiv:2106.03886](https://arxiv.org/abs/2106.03886))
+
 Specifically in relation to [[Moonshine]]:
 
 * [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404))
@@ -171,9 +176,9 @@ Specifically in relation to [[Moonshine]]:
 
 Discussion for [[F-theory]] includes
 
-* {#MorrisonVafa96a} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- I_, Nucl.Phys. B473 (1996) 74-92 ([arXiv:hep-th/9602114](http://arxiv.org/abs/hep-th/9602114))
+* {#MorrisonVafa96a} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- I_, Nucl. Phys. B473 (1996) 74-92 ([arXiv:hep-th/9602114](http://arxiv.org/abs/hep-th/9602114))
 
-* {#MorrisonVafa96b} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- II_, Nucl.Phys.B476:437-469,1996 ([arXiv:hep-th/9603161](http://arxiv.org/abs/hep-th/9603161))
+* {#MorrisonVafa96b} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- II_, Nucl. Phys. B476:437-469, 1996 ([arXiv:hep-th/9603161](http://arxiv.org/abs/hep-th/9603161))
 
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
