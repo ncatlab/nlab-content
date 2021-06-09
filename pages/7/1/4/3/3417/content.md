@@ -96,16 +96,15 @@ In particular, the fibrant objects in this structure are the [[Kan complex]]-enr
 
 ## Properties
 
-
 +-- {: .num_prop #RightProperness}
 ###### Proposition
 
-The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[right proper model category]].
+The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[proper model category]].
 
 
 =--
 
-([Bergner 04, prop. 3.5](#Bergner04))
+A reference for right properness is ([Bergner 04, prop. 3.5](#Bergner04)). A reference for left properness is ([Lurie, A.3.2.4](#Lurie)) and ([Lurie, A.3.2.25](#Lurie)).
 
 
 ## Related concepts
@@ -132,7 +131,7 @@ Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there oug
 
 Also:
 
-* [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_
+* {#Lurie} [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
 
