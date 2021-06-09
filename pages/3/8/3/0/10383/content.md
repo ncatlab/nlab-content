@@ -189,7 +189,7 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 * [[Adam Marsh]], _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089)), chapter 10 in: [[Adam Marsh]], _Mathematics for Physics: An Illustrated Handbook_, World Scientific 2018 ([doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/))
 
 
-* {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* {#RudolhSchmidt} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
 
 
