@@ -48,6 +48,9 @@ A map $A \to B$ is an **equivalence** if for any $X$, $\Fun(X,A) \rightarrow \Fu
 
 The category of quasi-categories and isofibrations, inner fibrations that lift also against the inclusion of either endpoint into the nerve of the walking isomorphism, defines an $\infty$-cosmos.
 
+## Related concepts
+
+* [[homotopy 2-category of (∞,1)-categories]]
 
 ## References
 
@@ -63,9 +66,9 @@ For a simplified notion with "all objects cofibrant"
 
 * [[Emily Riehl]], [[Dominic Verity]], _Kan extensions and the calculus of modules for $\infty$-categories_ ([arXiv:1507.01460](https://arxiv.org/abs/1507.01460))
 
-A book in progress, regularly being updated
+Textbook account:
 
-* [[Emily Riehl]] and [[Dominic Verity]], _Elements of $\infty$-Category Theory_, (2020) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
 
 
 [[!redirects infinity-cosmoi]]
