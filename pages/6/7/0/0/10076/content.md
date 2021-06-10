@@ -38,7 +38,7 @@ If $(R,+,0)$ is only a monoid or semigroup, we say instead that $R$ is a **near-
 
 There is also a weaker notion, of __loop near ring__, where in the 
 axioms above the group structure on $(R,+,0)$ is weakened to a [[loop (algebra)|loop]]
-algebraic structure (i.e. the associativity of addition is dropped).
+algebraic structure (i.e. left and right additive inverses no longer coincide and the associativity of addition is dropped).
 
 ## Internalization
 
