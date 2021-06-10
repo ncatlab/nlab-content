@@ -151,9 +151,16 @@ This is the statement of [Renaudin 06, cor. 2.3.8](#Renaudin06).
 
 ## References
 
-* {#Renaudin06} [[Olivier Renaudin]], section 1.2 of _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339))
+* {#Renaudin06} [[Olivier Renaudin]], Section 1.2 of: *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
+([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
+
+Via [[bicategories of fractions]]:
+
+* [[Dorette A. Pronk]], Section 2 of: _Etendues and stacks as bicategories of fractions_, Comp. Math. **102** 3 (1996) pp.243-303. ([numdam:CM_1996__102_3_243_0](http://www.numdam.org/item/?id=CM_1996__102_3_243_0))
+
 
 [[!redirects localizations of a 2-category]]
+[[!redirects localizations of 2-categories]]
 
 [[!redirects 2-localization of a 2-category]]
 [[!redirects 2-localizations of a 2-category]]
