@@ -173,13 +173,14 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 ## Related concepts
 
-* [[homotopy 2-category of (∞,1)-categories]]
-
-* [[PrCat]], [[Pr(∞,1)Cat]]
+* one might expect that $Ho_2(CombModCat)$ is similarly equivalent to the full full sub-2-category of the [[homotopy 2-category of (∞,1)-categories]] on the [[presentable (∞,1)-categories]], but this seems to remain open
 
 * [[Ho(Cat)]]
 
 * [[double category of model categories]]
+
+* [[PrCat]], [[Pr(∞,1)Cat]]
+
 
 [[!include locally presentable categories - table]]
 
