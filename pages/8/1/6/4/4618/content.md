@@ -104,6 +104,13 @@ Therefore for $D$ the left Bousfield localization of a simplicial left proper mo
 
 * [[monoidal Quillen adjunction]]
 
+## References
+
+On the enhancement of plain [[Quillen adjunctions]] between [[left proper model category|left proper]] [[combinatorial model categories]] to simplicial Quillen adjunctions:
+
+
+* {#BlumbergRiehl14} [[Andrew Blumberg]], [[Emily Riehl]], Appendix A of: *Homotopical resolutions associated to deformable adjunctions*, Algebr. Geom. Topol. 14 (2014) 3021-3048 ([arXiv:1208.2844](https://arxiv.org/abs/1208.2844))
+
 
 
 [[!redirects simplicial Quillen adjunctions]]
