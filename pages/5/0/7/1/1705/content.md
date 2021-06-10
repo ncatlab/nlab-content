@@ -312,8 +312,7 @@ The original articles are
 * {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_ , Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983) , Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. 1987 .
   
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
-and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
 
 A survey of the general topic involved here can be found in the following paper:
@@ -322,9 +321,16 @@ A survey of the general topic involved here can be found in the following paper:
 
 Hammock localization is described in Section 4.1 there.
 
+See also:
+
+* {#Hinich13} [[Vladimir Hinich]], *Dwyer-Kan Localization Revisited*, Homology, Homotopy and Applications Volume 18 (2016) Number 1 ([arXiv:1311.4128](https://arxiv.org/abs/1311.4128), [doi:10.4310/HHA.2016.v18.n1.a3](https://dx.doi.org/10.4310/HHA.2016.v18.n1.a3))
+
+
 A useful quick collection of facts can be found at the beginning of Section 2 in the following paper:
 
 * [[Clark Barwick]], _On (enriched) Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
+
 
 [[!redirects simplicial localizations]]
 
