@@ -150,8 +150,7 @@ $$
 With that the statement follows using the [[small object argument]] to show the existence of the required factorizations.
 
 To find this small set, we make use of the assumption that the subcategory
-$Arr_W(C) \subset Arr(C)$ of weak equivalences and commuting squares in $C$ between them
-is an [[accessible category|accessible]] subcategory of the [[arrow category]] $Arr(C)$.  This means that there is a small set $W_0 \subset W$ such that every element of $W$
+$Arr_W(C) \subset Arr(C)$ of weak equivalences and commuting squares in $C$ between them is an [[accessible category|accessible]] subcategory of the [[arrow category]] $Arr(C)$.  This means that there is a small set $W_0 \subset W$ such that every element of $W$
 is a $\kappa$-[[directed colimit]] over element in $W_0$ in $Arr_W(C)$, for some large enough [[cardinal number]] $\kappa$, such that all elements of $I$ are $\kappa$-[[compact object|compact]].
 
 Using the [[small object argument]] factor
@@ -569,7 +568,7 @@ For instance:
 
 One might therefore ask which cofibrantly generated model categories are Quillen equivalent to combinatorial ones.  It turns out that if one assumes the large-cardinal hypothesis [[Vopenka's principle|Vop&#283;nka's principle]], then *every* cofibrantly generated model category is Quillen equivalent to a combinatorial one.  In fact, if we slightly generalize the notion of "cofibrantly generated," this statement is equivalent to Vop&#283;nka's principle.  For a discussion of this see
 
-* J. Rosicky, _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
+* [[Jiří Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
 
 Although Vop&#283;nka's principle cannot be proven from [[ZFC]], and in fact is fairly strong as [[large cardinal]] hypotheses go, this means that looking for cofibrantly generated model categories that are not Quillen equivalent to combinatorial ones is probably a waste of time.  Certainly, all known cofibrantly generated model categories *are* Quillen equivalent to simplicial ones, usually in a fairly natural way.
 
@@ -598,16 +597,13 @@ After [[Jeff Smith]] presented his recognition theorem at a conference in Barcel
 * {#Beke} [[Tibor Beke]], _Sheafifiable homotopy model categories_ , Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
  
 
-
 The very definition of combinatorial model categories appears also for instance as definition A.2.6.1 in 
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_;
  
-
 or definition 1.3 in 
 
 * {#Barwick} [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
- 
 
 
 Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
@@ -620,13 +616,18 @@ based on results in
 
 * {#DuggerUniversalHomotopy} [[Dan Dugger]], _[[Universal homotopy theories]]_
 
+Futher details are discussed in:
+
+* [[Jiří Rosický]], *On combinatorial model categories*, Appl. Cat. Str. 17 (2009), 303-316 ([arXiv:0708.2185](https://arxiv.org/abs/0708.2185))
+
 Review:
 
-* [[George Raptis]], *Notes on combinatorial model categories* 2014/2020 ([[RaptisCombinatorialModelCategories.pdf:file]])
+* [[George Raptis]], *Notes on combinatorial model categories* 2014/2020 ([pdf](https://graptismath.net/files/notes-comb-model-cat.pdf) [[RaptisCombinatorialModelCategories.pdf:file]])
 
-The [[localization of a 2-category|homotopy 2-category]] [[Ho(CombModCat)]] of combinatorial model categories at the [[Quillen equivalences]] is discussed in:
+On the [[localization of a 2-category]][[Ho(CombModCat)]] of combinatorial model categories at the [[Quillen equivalences]] and its equivalence to the [[homotopy 2-category]] of (locally) presentable [[derivators]]:
 
-* [[Olivier Renaudin]], _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:0603339](https://arxiv.org/abs/math/0603339))
+* {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
+([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
  
 See also 
 
