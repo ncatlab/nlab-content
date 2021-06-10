@@ -25,11 +25,13 @@ On [[weak complicial sets]]:
 *    D. R. Verity, 2007, Weak complicial sets. II. Nerves of complicial Gray-categories , in Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 441--467, Amer. Math. Soc., Providence, RI. 
 
 
-On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]]:
+On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]] of [[∞-cosmoi]]:
 
 * [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021))
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
+
+* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
 
 
 On [[(∞,1)-functors]] and [[(∞,1)-monads]]:
