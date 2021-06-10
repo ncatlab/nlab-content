@@ -39,13 +39,17 @@ Simplicial Quillen adjunctions model pairs of [[adjoint (∞,1)-functor]]s in a 
 Let $C$ and $D$ be [[simplicial model categories]] and let 
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D 
+  (L \dashv R) 
+  \;\colon\; 
+  C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D 
 $$
 
 be an [[sSet]]-[[enriched category theory|enriched]] [[adjunction]] whose underlying ordinary adjunction is a Quillen adjunction. Let $C^\circ$ and $D^\circ$ be the [[(∞,1)-categories]] presented by $C$ and $D$ (the [[Kan complex]]-enriched full [[sSet]]-subcategories on fibrant-cofibrant objects). Then the Quillen adjunction lifts to a pair of [[adjoint (∞,1)-functors]] 
 
 $$
-  (\mathbb{L} \dashv \mathbb{R}) : C^\circ \stackrel{\leftarrow}{\to} D^{\circ}
+  (\mathbb{L} \dashv \mathbb{R}) 
+  \;\colon\; 
+  C^\circ \stackrel{\leftarrow}{\to} D^{\circ}
   \,. 
 $$
 
