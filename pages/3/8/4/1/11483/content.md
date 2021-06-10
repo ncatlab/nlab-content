@@ -10,3 +10,6 @@ On [[tmf]]:
 
 
 category: people
+
+
+[[!redirects Michael A. Hill]]
