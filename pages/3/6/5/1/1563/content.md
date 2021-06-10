@@ -162,11 +162,11 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 * _An elementary theory of the category of sets_, 1964, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511. Expanded version with commentary by [[Colin McLarty]] and the author in:
 Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac](http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
 
-   (Axiomatizing the category of sets; a summary is at [[ETCS]])
+   > (axiomatizing the category [[Set]] of sets; see at *[[ETCS]]*)
 
-*  _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
+*  _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
 
-   (Axiomatizing the category of categories; a summary is at [[ETCC]])
+   > (axiomatizing the [[2-category]] [[Cat]] of categories; see at *[[ETCC]]*)
 
 * _[[Categorical dynamics]]_, 1967 Chicago lectures ([pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
 
