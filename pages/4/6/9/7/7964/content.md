@@ -463,6 +463,15 @@ Discussion in [[holographic QCD]]:
 
 * Johanna Erdmenger, Nick Evans, Werner Porod, Konstantinos S. Rigatos, _Gauge/gravity dual dynamics for the strongly coupled sector of composite Higgs models_ ([arXiv:2010.10279](https://arxiv.org/abs/2010.10279))
 
+Discussion in [[heterotic string theory]]:
+
+* Steven Abel, [[Keith Dienes]],
+*Calculating the Higgs Mass in String Theory* ([arXiv:2106.04622](https://arxiv.org/abs/2106.04622))
+
+
+
+
+
 
 
 
