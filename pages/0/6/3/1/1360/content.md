@@ -586,7 +586,7 @@ A [[combinatorial simplicial model category]] is precisely a _presentation_ for 
 
 The definition appears in 
 
-* {#Quillen67} [[Dan Quillen]], chapter II, section 2 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+* {#Quillen67} [[Dan Quillen]], chapter II, section 2 of: _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967 ([doi:10.1007/BFb0097438](https://link.springer.com/book/10.1007/BFb0097438))
 
 Textbook references include
 
