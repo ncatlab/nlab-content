@@ -11,17 +11,17 @@
 =--
 
 
-# Contents
+#Contents#
 * table of contents
 {:toc}
 
-##Idea
+## Idea
 
 Much has been said about **inverting a class of morphisms** in a category (see [[localization]]), and there are many different settings in which one wants to, and can, do this. Homotopical algebra is largely concerned with how to compute the [[homotopy category]] so it is locally small. One the other hand, we have [[simplicial localization]] which retains all the homotopy information and returns an $(\infty,1)$-category. 
 
-If we have a 2-category with a notion of weak equivalence, one could localize the underlying 1-category in a way hopefully compatible with the 2-arrows, or extend the result fully into the 2-dimensional setting. In general this will require bicategories, and is the subject of the paper [Etendues and stacks as bicategories of fractions](Pronk96) by [[Dorette Pronk]].
+If we have a 2-category with a notion of weak equivalence, one could localize the underlying 1-category in a way hopefully compatible with the 2-arrows, or extend the result fully into the 2-dimensional setting. In general this will require bicategories, and is the subject of [Pronk 96](#Pronk96).
 
-#Definition#
+## Definition
 
 Let $B$ be a  [[bicategory]] with a class $W$ of 1-[[morphism|cells]]. $W$ is said to **admit a right calculus of fractions** if it satisfies the following conditions
 
@@ -56,39 +56,47 @@ Given such a setup, Pronk constructs the [[localization]] of $B$ at $W$ and the 
 
 
 
-#Example#
+## Example
 
 Let $S$ be a category with binary products and pullbacks together with a class of [[davidroberts:class of admissible maps|admissible maps]] $E$.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ######Theorem: 
 The 2-categories $Cat(S)$ and $Gpd(S)$ of categories and groupoids internal to $S$ admit [[bicategory of fractions|bicategories of fractions]] for the class of $E$-[[davidroberts:weak equivalence|equivalences]].
 =--
 
 The resulting localization is equivalent to the bicategory of [[anafunctor|anafunctors]] in $S$. For details, see [Roberts (2012)](#Roberts12).
 
-# Example: Grothendieck toposes as a bicategory of fractions of localic groupoids
+\begin{example}
+**(Grothendieck toposes as a bicategory of fractions of localic groupoids)**\linebreak
 
 The category of etale-complete [[localic groupoids]] (with open source and target maps) admits a [[bicategory of fractions]] at open essentially surjective fully faithful functors.
 
 The resulting bicategory is equivalent to the bicategory of [[Grothendieck toposes]], [[geometric morphisms]], and [[natural isomorphisms]].
 
 See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
+\end{example}
 
 
-##Related entries
+## Related entries
 
 * [[localization of a 2-category]]
 
 * [[category of fractions]]
+
 * [[localization]]
+
 * [[bicategory]]
+
 * [[anafunctor]]
+
 * [[orbifold]]
+
 * [[stack]]
+
 * [[étendue]]
 
-##References
+## References
 
 * [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid.  I_, Transactions of the American Mathematical Society, Volume 310, Number 2, December 1988.
 
@@ -96,7 +104,7 @@ See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
 
 * E. Vitale, _Bipullbacks and categories of fractions_, [pdf](https://perso.uclouvain.be/enrico.vitale/BPBc.pdf)
 
-* [[Dorette A. Pronk]], _Etendues and stacks as bicategories of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
+* [[Dorette A. Pronk]], _Etendues and stacks as bicategories of fractions_, Comp. Math. **102** 3 (1996) pp.243-303. ([numdam:CM_1996__102_3_243_0](http://www.numdam.org/item/?id=CM_1996__102_3_243_0))
 
 * {#Roberts12} [[David Roberts]], _Internal categories, anafunctors and localisations_, TAC **26** (2012) pp.788-829. ([pdf](http://www.tac.mta.ca/tac/volumes/26/29/26-29.pdf)) {#Roberts12}
 
@@ -107,6 +115,12 @@ See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
 * M. Tommasini, _Some insights on bicategories of fractions II_ , arXiv:1410.5075 (2014). ([pdf](http://arxiv.org/pdf/1410.5075))
 
 * M. Tommasini, _Some insights on bicategories of fractions III_ , arXiv:1410.6395 (2014). ([pdf](http://arxiv.org/pdf/1410.6395))
+
+See also:
+
+* {#Renaudin06} [[Olivier Renaudin]], Section 1.2 of: *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
+([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
+
 
 [[!redirects bicategories of fractions]]
 [[!redirects bicategorical localization]]
