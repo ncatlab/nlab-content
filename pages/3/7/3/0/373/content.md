@@ -285,7 +285,7 @@ A more detailed account of the definition, including a discussion of its  [[cohe
 
 A comprehensive monograph is
 
-* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055))
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
 Some 2-category theory, including [[2-limit]]s/2-colimit is discussed in
 
@@ -320,7 +320,7 @@ Discussion of weak 2-categories in the style of [[A-infinity categories]] is (us
 
 * Andor Lucacs, _Dendroidal weak 2-categories_ ([arXiv:1304.4278](http://de.arxiv.org/abs/1304.4278))
 
-* [[Jonathan Chiche]], _La th&#233;orie de l'homotopie des 2-cat&#233;gories_, thesis, [arXiv](http://arxiv.org/abs/1411.6936).
+* Jonathan Chiche, _La th&#233;orie de l'homotopie des 2-cat&#233;gories_, thesis, [arXiv](http://arxiv.org/abs/1411.6936).
 
 [[!redirects 2-category]]
 [[!redirects 2-categories]]
