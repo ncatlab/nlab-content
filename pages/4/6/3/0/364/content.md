@@ -8,9 +8,12 @@ An introductory [[category theory]] textbook for beginning graduate students or 
 
 * [[Emily Riehl]], _[[Category Theory in Context]]_
 
-A textbook on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory:
+Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory (via [[∞-cosmoi]] and the [[homotopy 2-category of (∞,1)-categories]]):
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+
+* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+
 
 On [[transferred model structures]] and [[model structures on functors]]:
 
