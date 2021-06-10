@@ -185,7 +185,7 @@ The importance of quasi-categories as a basis for [[category theory]] has been p
 
 For several years Joyal has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive writeup of lecture notes does:
 
-* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories), ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
+* {#Joyal08} [[André Joyal]], _The theory of quasicategories and its applications_, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
 
 and more recently, with more details
 
