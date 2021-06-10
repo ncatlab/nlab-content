@@ -118,7 +118,7 @@ The idea underlying marked simplicial is directly analogous to the idea underlyi
 Let $R$ be a fibrant replacement in $sSetCat$. Then the natural transformation
 $(NC, NW) \mapsto NRL^H(C,W)^\natural$ of marked simplicial sets is a natural weak equivalence.
 =--
-This is theorem 1.2.1 of [Hinich](#Hinich)
+This is theorem 1.2.1 of [Hinich 13](#Hinich13)
 
 
 ### Nerve functors
@@ -141,7 +141,8 @@ The compatibility of the various nerve and simplicial localization functors is i
 
   * _Partial model categories and their simplicial nerves_ ([arXiv:math/1102.2512](http://arxiv.org/abs/1102.2512))
 
-* {#Hinich} Vladimir Hinich *Dwyer-Kan Localization Revisited* ([arXiv:math/1311.4128](https://arxiv.org/abs/1311.4128))
+* {#Hinich13} [[Vladimir Hinich]] *Dwyer-Kan Localization Revisited*, 
+Homology, Homotopy and Applications Volume 18 (2016) Number 1 ([arXiv:1311.4128](https://arxiv.org/abs/1311.4128), [doi:10.4310/HHA.2016.v18.n1.a3](https://dx.doi.org/10.4310/HHA.2016.v18.n1.a3))
 
 * Lennart Meier, *Fibration Categories are Fibrant Relative Categories*, [arxiv](https://arxiv.org/abs/1503.02036)
  {#Meier}
