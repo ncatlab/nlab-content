@@ -173,6 +173,8 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 ## Related concepts
 
+* [[homotopy 2-category of (∞,1)-categories]]
+
 * [[PrCat]], [[Pr(∞,1)Cat]]
 
 * [[Ho(Cat)]]
@@ -186,3 +188,6 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 * {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
 ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
+
+
+[[!redirects HoCombModCat]]
