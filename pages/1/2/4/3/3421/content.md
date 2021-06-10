@@ -69,6 +69,10 @@ The [[universal construction]]s of [[category theory]] generalize, with unique e
 
 ## Related concepts
 
+* [[(∞,1)-category of (∞,1)-categories]]
+
+* [[homotopy 2-category of (∞,1)-categories]]
+
 [[!include table of category theories]]
 
 ## References
