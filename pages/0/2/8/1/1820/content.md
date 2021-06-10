@@ -92,7 +92,7 @@ There are two powerful theorems that characterize combinatorial model categories
 
 * [[Jeff Smith]]'s theorem characterizes combinatorial model categories just in terms of weak equivalences and generating cofibrations, hence using only two third of the input data explicitly required. This greatly facilitates identifying combinatorial model category structures. For instance it helps to show that the left [[Bousfield localization of model categories|Bousfield localization]] of certain combinatorial model categories is again a combinatorial model category.
 
-* [[Dan Dugger]]'s theorem shows that [[combinatorial model category|combinatorial model categories]] are, up to [[Quillen equivalence]], precisely those model categories that have a _presentation_ in that they are [[Bousfield localization of model categories|Bousfield localization]]s of [[model structure on simplicial presheaves|global model structures on simplicial presheaves]]. This was used by [[Jacob Lurie]] to show that simplicial combinatorial model categories are precisely the models for [[presentable (∞,1)-category|locally presentable (∞,1)-categories]].
+* [[Dugger's theorem]] shows that [[combinatorial model category|combinatorial model categories]] are, up to [[Quillen equivalence]], precisely those model categories that have a _presentation_ in that they are [[Bousfield localization of model categories|Bousfield localization]]s of [[model structure on simplicial presheaves|global model structures on simplicial presheaves]]. This was used by [[Jacob Lurie]] to show that simplicial combinatorial model categories are precisely the models for [[presentable (∞,1)-category|locally presentable (∞,1)-categories]].
 
 
 ### Smith's theorem 
@@ -605,7 +605,7 @@ The definition of combinatorial model categories appears also for instance as
 
 Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
 
-Dugger's theorem is due to
+[[Dugger's theorem]] is due to
 
 * {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_, Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
  
