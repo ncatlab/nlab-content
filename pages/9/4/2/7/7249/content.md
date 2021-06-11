@@ -62,7 +62,7 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 * [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
 
-* [[Edward Curtis]], _Simplicial Homotopy Theory_, Advances in Math., 6, (1971), 107 &#8211; 209.
+*  [[Edward B. Curtis]], _Simplicial homotopy theory_, Advances in Mathematics 6 (1971) 107–209 (<a href="https://doi.org/10.1016/0001-8708(71)90015-6">doi:10.1016/0001-8708(71)90015-6</a>, [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808))
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
