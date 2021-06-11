@@ -265,7 +265,7 @@ Several classical examples of OFS $(E,M)$:
 
 * (Street) in [[Cat]], $E$ = 0-[[final functors]], $M$ = [[discrete fibrations]] 
 
-* (Street) in $\mathrm{Cat}$,  $M$ = 0-[[initial functors]], $M$ = [[discrete opfibration]]s
+* (Street) in $\mathrm{Cat}$,  $E$ = 0-[[initial functors]], $M$ = [[discrete opfibration]]s
 
 * in $\mathrm{Cat}$, $M$ = [[conservative functor]]s, $E$ = left orthogonal of $M$ ("iterated strict localizations" after A. Joyal)
 
