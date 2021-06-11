@@ -91,6 +91,11 @@ On [[parametrized stable homotopy theory]]:
 
 * [[Peter May]], [[Johann Sigurdsson]], _Parametrized Homotopy Theory_, Mathematical Surveys and Monographs, vol. 132, AMS 2006  ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
+On [[enriched model category theory]]:
+
+* [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and presheaf categories_, New York J. Math. 26 (2020) 37–9 ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567), [](https://www.emis.de/journals/NYJM/j/2020/26-3.html), [NYJM:2020/26-3](https://www.emis.de/journals/NYJM/j/2020/26-3.html))
+
+
 On [[higher category theory]]:
 
 * {#BaezMay10} [[John Baez]], [[Peter May]] (eds.), _[[johnbaez:Towards Higher Categories|Towards Higher Categories]]_, Springer 2010 ([doi:10.1007/978-1-4419-1524-5](https://link.springer.com/book/10.1007/978-1-4419-1524-5))
