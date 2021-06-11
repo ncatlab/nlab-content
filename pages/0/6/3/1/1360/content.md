@@ -590,15 +590,15 @@ The definition appears in
 
 Textbook references include
 
-* {#Hirschhorn} [[Philip Hirschhorn]], section 9.1.5 of _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 2009.
+* {#Hirschhorn} [[Philip Hirschhorn]], Section 9.1.5 in _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 * [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_
 
-Further review includes
+Further review:
 
 * {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model categories and simplicial methods_ ([arXiv:math/0609537](http://arxiv.org/abs/math/0609537))
  
-Further developments include
+Further developments:
 
 * {#RezkSchwedeShipley} [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
  
