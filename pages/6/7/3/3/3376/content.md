@@ -8,6 +8,10 @@ On [[enriched model categories]]:
 
 * [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and presheaf categories_, New York J. Math. 26 (2020) 37–9 ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567), [](https://www.emis.de/journals/NYJM/j/2020/26-3.html), [NYJM:2020/26-3](https://www.emis.de/journals/NYJM/j/2020/26-3.html))
 
+On [[model category]]-presentations for [[Elmendorf's theorem]] in [[equivariant homotopy theory]]:
+
+* {#Guillou06} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouEquivariantHomotopy.pdf:file]])
+
 
 On [[classifying spaces]]/[[universal principal bundles]] for [[equivariant principal bundles]]:
 
