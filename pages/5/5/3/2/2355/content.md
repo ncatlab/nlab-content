@@ -593,7 +593,11 @@ Using this, we get the following.
 For $C$ and $D$ [[sSet]]-[[enriched categories]] whose hom-objects are all [[Kan complexes]], the image 
 
 $$
-  N(C) \stackrel{\overset{N(L)}{\to}}{\underset{N(R)}{\leftarrow}}
+  N(C) 
+    \underoverset
+      {\underset{N(R)}{\longleftarrow}}
+      {\overset{N(L)}{\longrightarrow}}
+      {\bot}
   N(D)
 $$
 
