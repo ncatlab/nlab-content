@@ -77,6 +77,8 @@ This is a mathematical reflection of the idea that renormalization is about rega
 
 * [[locally covariant perturbative quantum field theory]]
 
+* [[Schwinger-Tomonaga-Feynman-Dyson]]
+
 ## References
  {#References}
 
