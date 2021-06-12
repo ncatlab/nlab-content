@@ -1,4 +1,4 @@
-
+ge
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -28,7 +28,7 @@ In general, these forgetful functors cannot be expected to have [[left adjoints]
 $$ Mnd_f(C) \to PtEnd_f(C) \to End_f(C) \to [ob(C)_f,C] $$ 
 where the subscript $f$ denotes restriction to finitary things, and $ob(C)_f$ is the set of [[compact objects]] of $C$.  In this case, all these forgetful functors do have left adjoints, and moreover at least the functors $Mnd_f(C) \to End_f(C)$ and $Mnd_f(C) \to [ob(C)_f,C]$ are monadic.  (This is shown in the papers cited below.)  The construction is by a convergent [[transfinite composition]].
 
-For example, the left adjoint to $Mnd_f(C) \to End_f(C)$, shows that there exists a "free finitary monad" on any finitary endofunctor.  Note, though, that this does not *automatically* imply that the "free finitary monad" on a finitary endofunctor is also a "free monad" on that endofunctor, i.e. that as a free object it satisfies the requisite universal property relative to all objects of $Mnd(C)$, not merely those lying in $Mnd_f(C)$.  It is, however, generally true that this is the case: free finitary monads are also free monads.
+For example, the left adjoint to $Mnd_f(C) \to End_f(C)$, shows that there exists a "free finitary monad" on any finitary endofunctor.  Note, though, that this does not *automatically* imply that the "free finitary monad" on a finitary endofunctor is also a "free monad" on that endofunctor, i.e. that as a free object it satisfies the requisite universal property relative to all objects of $Mnd(C)$, not merely those lying in $Mnd_f(C)$.  It is, however, true: free finitary monads are also free monads.
 
 ## Algebraically-free monads
 
