@@ -44,7 +44,7 @@ There are several Metamath databases on the Metamath website.  The most develope
 See also
 
 * Wikipedia, _[Metamath](https://en.wikipedia.org/wiki/Metamath)_
-* Mario Carneiro's paper _[Metamath Zero: The Cartesian Theorem Prover](https://arxiv.org/abs/1910.10703)_ discusses a metamath variant that _bootstraps_ ie prooves it's own correctness.
+* Mario Carneiro's paper _[Metamath Zero: The Cartesian Theorem Prover](https://arxiv.org/abs/1910.10703)_ discusses a metamath variant that _bootstraps_ ie proves it's own correctness.
 
 
 
