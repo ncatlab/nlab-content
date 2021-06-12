@@ -96,6 +96,9 @@ If $E$ is only a [[pretopos]] or a [[coherent category]], we have to strengthen 
 
 This strengthening is important in [[predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course, the same applies whenever one is studying an arbitrary pretopos, not just a predicative version of $Set$.
 
+### In a lextensive category
+
+If $E$ is only a [[lextensive category]], such as in a [[category of sets]] without [[quotient sets]] (as commonly found in the [[syntactic category]] of an [[extensional type theory]]), then $1$ is only a [[initial object|noninitial]] [[indecomposable object|indecomposable]] [[extremal epimorphism|extremal]] [[generator]]. 
 
 ### In more general categories
 
