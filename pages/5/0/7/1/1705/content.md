@@ -146,7 +146,7 @@ This appears as ([DwyerKanCalculating, def. 2.1](#DwyerKanCalculating)).
 ###### Proposition
 
 For $(C,W)$ a [[category with weak equivalences]], write $L^H C \in sSet Cat$ for its hammock localization and $C[W^{-1}] \in Cat$ for its ordinary [[localization]]. 
-Write $Ho(L^H C) \in Cat$ for the category with the same objects as $C$ and morphisms between $X$ and $Y$ being $\pi_0 L^H C(X,Y)$.
+Write $Ho(L^H C) \in Cat$ for the category with the same objects as $C$ and morphisms between $X$ and $Y$ being the [[connected components]] $\pi_0 L^H C(X,Y)$.
 
 There is an [[equivalence of categories]]
 
@@ -161,32 +161,52 @@ $$
 
 This appears as ([DwyerKanCalculating, prop. 3.1](#DwyerKanCalculating)).
 
+\begin{remark}
+  Hammock localization is clearly a [[functor]] from the category of [[relative categories]] to [[sSet-enriched categories]]:
+
+$$
+  RelativeCat \overset{L^H_W}{\longrightarrow} SimplicialCategories
+$$
+
+\end{remark}
+
+See also [Barwick & Kan 12, Sec. 1.5](#BarwickKan12), [Spitzweck 10, p. 3](#Spitzweck10).
+
+
 +-- {: .num_prop #PrePostCompositionWithWeakEquivalences}
 ###### Proposition
 
 Let $(C,W)$ be a [[category with weak equivalences]], and let
 
 $$
-  (f : X \to Y) \in W \subset Mor(C)
+  (X \overset{f}{\to} Y) \in W \subset Mor(C)
 $$
 
-be a weak equivalence. Then for all objects $U \in C$ we have that the to concatenation operations on hammocks induce [[weak homotopy equivalence]]s
+be a [[weak equivalence]]. Then for all objects $U \in C$ we have that the  concatenation operation on hammocks induce [[weak homotopy equivalences]]
 
 $$
-  f_* : L^H C(U,X) \stackrel{\simeq}{\to}
-     L^H C(U,Y)
+  f_* 
+  \;\colon\; 
+  L^H C(U,X) 
+    \stackrel{\simeq}{\to}
+  L^H C(U,Y)
 $$
 
 and
 
 $$
-  f^* : L^H C(Y,U) \stackrel{\simeq}{\to} L^H C(X, U)
+  f^* 
+    \;\colon\; 
+  L^H C(Y,U) 
+    \stackrel{\simeq}{\to} 
+  L^H C(X, U)
   \,.
 $$
 
 =--
 
 This appears as ([DwyerKanCalculating, prop. 3.3](#DwyerKanCalculating)).
+
 
 
 ### Simplical localization gives all $(\infty,1)$-categories
@@ -301,34 +321,36 @@ This is one of the central statements in ([DwyerKanFunctionComplexes](#DwyerKanF
 
 ## References 
 
-The original articles are
+The original articles:
 
 * {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284. ([pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
   
-* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_ , J. Pure Appl. Algebra 18 (1980), 17&#8211;35. ([pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf))
+* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17&#8211;35. ([pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf))
   
 * {#DwyerKanFunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_ , Topology 19 (1980), 427&#8211;440.
   
 * {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_ , Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983) , Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. 1987 .
   
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, volume 113 of Mathematical Surveys and Monographs
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+Survey:
+
+* [[Tim Porter]], Section 4.1 of: _$S$-Categories, $S$-groupoids, Segal categories and quasicategories_ ([arXiv](http://arxiv.org/abs/math/0401274))
+
+* [[Clark Barwick]], Section 2: _On (enriched) Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
 
-A survey of the general topic involved here can be found in the following paper:
+Further development:
 
-* [[Tim Porter]], _$S$-Categories, $S$-groupoids, Segal categories and quasicategories_ ([arXiv](http://arxiv.org/abs/math/0401274))
-
-Hammock localization is described in Section 4.1 there.
-
-See also:
+* {#BarwickKan12} [[Clark Barwick]], [[Daniel Kan]], *A characterization of simplicial localization functors and a discussion of DK equivalences*, Indagationes Mathematicae Volume 23, Issues 1–2, March 2012, Pages 69-79 ([doi:10.1016/j.indag.2011.10.001](https://doi.org/10.1016/j.indag.2011.10.001))
 
 * {#Hinich13} [[Vladimir Hinich]], *Dwyer-Kan Localization Revisited*, Homology, Homotopy and Applications Volume 18 (2016) Number 1 ([arXiv:1311.4128](https://arxiv.org/abs/1311.4128), [doi:10.4310/HHA.2016.v18.n1.a3](https://dx.doi.org/10.4310/HHA.2016.v18.n1.a3))
 
+See also:
 
-A useful quick collection of facts can be found at the beginning of Section 2 in the following paper:
+* {#Spitzweck10} [[Markus Spitzweck]], *Homotopy limits of model categories over inverse index categories*, Journal of Pure and Applied Algebra Volume 214, Issue 6, June 2010, Pages 769-777 ([doi:10.1016/j.jpaa.2009.08.001](https://doi.org/10.1016/j.jpaa.2009.08.001))
 
-* [[Clark Barwick]], _On (enriched) Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
 
 
 
