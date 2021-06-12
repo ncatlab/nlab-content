@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Introducing the [[model structure on sSet-categories]]:
+
+* {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_,  Trans. Amer. Math. Soc. 359 (2007), 2043-2058  ([arXiv:0406507](http://arxiv.org/abs/math/0406507), [doi:10.1090/S0002-9947-06-03987-0](https://doi.org/10.1090/S0002-9947-06-03987-0))
+
+
 On the [[homotopy theory of homotopy theories]] (the [[(infinity,1)-category of (infinity,1)-categories]]):
 
 * {#Bergner07} [[Julia Bergner]], _Three models for the homotopy theory of homotopy theories_, Topology Volume 46, Issue 4, September 2007, Pages 397-436 ([arXiv:math/0504334](https://arxiv.org/abs/math/0504334), [doi:10.1016/j.top.2007.03.002](https://doi.org/10.1016/j.top.2007.03.002))
