@@ -244,8 +244,8 @@ The opposite of the category of commutative von Neumann algebras has a subobject
 Suppose a category $\mathbf{C}$ has a subobject classifier; this entails some striking structural consequences for $\mathbf{C}$. We list a few here: 
 
 +-- {: .num_prop #regular} 
-###### Proposition 
-Every [[monomorphism]] in $\mathbf{C}$ is a [[regular monomorphism]], i.e., is an equalizer of some pair of maps. 
+###### Proposition
+Every [[monomorphism]] in $\mathbf{C}$ is a [[regular monomorphism]], i.e. is an [[equalizer]] of some pair of maps. 
 =-- 
 
 +-- {: .proof} 
@@ -261,7 +261,7 @@ X & \underset{\chi_i}{\to} & \Omega.
 
 +-- {: .num_cor} 
 ###### Corollary 
-$\mathbf{C}$ is balanced, i.e., a morphism in $\mathbf{C}$ is an isomorphism iff it is both [[monomorphism|monic]] and [[epimorphism|epic]]. 
+$\mathbf{C}$ is [[balanced category|balanced]], i.e., a morphism in $\mathbf{C}$ is an isomorphism iff it is both [[monomorphism|monic]] and [[epimorphism|epic]]. 
 =-- 
 
 +-- {: .proof} 
