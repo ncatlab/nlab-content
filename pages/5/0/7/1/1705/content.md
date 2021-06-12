@@ -320,9 +320,7 @@ A [[Quillen equivalence]] $D \leftrightarrows C$ between [[model categories]] in
 
 =--
 
-This is shown in [Lurie 09, Cor. A.3.1.12](#Lurie09), under the additional assumptions that the model categories are [[simplicial model category|simplicial]], that every object of $C$ is [[cofibrant object|cofibrant]] and that the right adjoint is an sSet [[enriched functor]].
-The statement without these extra assumptions in claimed in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwyer & Kan 80, Prop. 4.4 with 5.4](#DwyerKan80FunctionComplexes).
-
+This is made explicit in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwyer & Kan 80 FuncComp, Prop. 4.4 with 5.4](#DwyerKan80FunctionComplexes).
 
 
 ## Related concepts
