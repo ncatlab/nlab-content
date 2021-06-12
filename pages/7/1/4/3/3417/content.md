@@ -55,9 +55,9 @@ An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet-categories]] is ca
 
   is a weak equivalence in the standard [[model structure on simplicial sets]].
 
-Such a morphism is also called a **Dwyer-Kan weak equivalence** after the work by Dwyer-Kan on [[simplicial localization]]. 
-
 =--
+
+This notion is due to [Dwyer & Kan 80 FuncComp, Sec. 2.4](#DwyerKan80FunctionComplexes) and known as *[[Dwyer-Kan equivalences]]*.
 
 
 +-- {: .num_prop}
@@ -133,7 +133,7 @@ A model category structure on the category of $sSet$-categories with a fixed set
 
 Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
 
-* {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_, Trans. AMS ([arXiv:0406507](http://arxiv.org/abs/math/0406507))
+* {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_,  Trans. Amer. Math. Soc. 359 (2007), 2043-2058  ([arXiv:0406507](http://arxiv.org/abs/math/0406507), [doi:10.1090/S0002-9947-06-03987-0](https://doi.org/10.1090/S0002-9947-06-03987-0))
 
 Also:
 
