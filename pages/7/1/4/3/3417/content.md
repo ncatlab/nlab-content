@@ -63,12 +63,13 @@ Such a morphism is also called a **Dwyer-Kan weak equivalence** after the work b
 +-- {: .num_prop}
 ###### Proposition
 
-A [[Quillen equivalence]] $D \leftrightarrows C$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localization]]s.
+A [[Quillen equivalence]] $D \leftrightarrows C$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localizations]].
 
 =--
 
-This is shown in [Lurie 09, Cor. A.3.1.12](#Lurie), under the additional assumptions that the model categories are [[simplicial model category|simplicial]], that every object of $C$ is [[cofibrant object|cofibrant]] and that the right adjoint is an sSet [[enriched functor]].
-The statement without these extra assumptions in claimed in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwyer & Kan 80, Prop. 4.4 with 5.4](#DwyerKan80FunctionComplexes).
+This is made explicit in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwyer & Kan 80, Prop. 4.4 with 5.4](#DwyerKan80FunctionComplexes).
+
+The analogous statement under further passage to [[model structure on quasi-categories|Joyal equivalences]] of [[quasi-categories]] is [Lurie 09, Cor. A.3.1.12](#Lurie), under the additional assumptions that the model categories are [[simplicial model category|simplicial]], that every object of $C$ is [[cofibrant object|cofibrant]] and that the right adjoint is an sSet [[enriched functor]].
 
 
  
