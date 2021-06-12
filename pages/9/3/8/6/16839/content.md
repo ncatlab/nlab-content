@@ -38,6 +38,9 @@ There is another meaning for "exact (∞,1)-category" for which there is a [[Qui
 
 References for the version of exactness suitable for the Q construction
 
-* [[Clark Barwick]], _On the Q construction for exact quasicategories_, [arXiv:1301.4725](http://arxiv.org/abs/1301.4725).
+* [[Clark Barwick]], _On the Q construction for exact quasicategories_ ([arXiv:1301.4725](http://arxiv.org/abs/1301.4725))
 
-* [[Clark Barwick]], _On exact infinity-categories and the Theorem of the Heart_, [arXiv:1212.5232](http://arxiv.org/abs/1212.5232).
+* [[Clark Barwick]], _On exact infinity-categories and the Theorem of the Heart_ ([arXiv:1212.5232](http://arxiv.org/abs/1212.5232))
+
+[[!redirects exact (∞,1)-categories]]
+
