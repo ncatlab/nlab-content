@@ -63,10 +63,15 @@ Such a morphism is also called a **Dwyer-Kan weak equivalence** after the work b
 +-- {: .num_prop}
 ###### Proposition
 
-A [[Quillen equivalence]] $C \stackrel{\leftarrow}{\to} D$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localization]]s.
+A [[Quillen equivalence]] $D \leftrightarrows C$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localization]]s.
 
 =--
 
+This is shown in [Lurie 09, Cor. A.3.1.12](#Lurie), under the additional assumptions that the model categories are [[simplicial model category|simplicial]], that every object of $C$ is [[cofibrant object|cofibrant]] and that the right adjoint is an sSet [[enriched functor]].
+The statement without these extra assumptions in claimed in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwyer & Kan 80, Prop. 4.4 with 5.4](#DwyerKan80FunctionComplexes).
+
+
+ 
 +-- {: .num_prop #BergnerModelStructure}
 ###### Proposition
 
@@ -123,7 +128,7 @@ A reference for right properness is ([Bergner 04, prop. 3.5](#Bergner04)). A ref
 
 A model category structure on the category of $sSet$-categories with a fixed set of objects was first given in 
 
-* [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_ , J. Pure and Applied Algebra 17 (3) (1980) ([pdf](https://www3.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
+* [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_, J. Pure and Applied Algebra 17 (3) (1980) ([pdf](https://www3.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
 
 Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
 
@@ -141,6 +146,11 @@ Survey and review:
 
 * [[Emily Riehl]], Section 16 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
+See also
+
+* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_ , Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
+
+* {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, New York Journal of Mathematics Volume 22 (2016) 57-93 ([arXiv:1501.03146](https://arxiv.org/abs/1501.03146), [publisher](http://nyjm.albany.edu/j/2016/22-4.html))
 
 
 
