@@ -311,7 +311,19 @@ Then $C^\circ$ and $L^H C$ are connected by an [[equivalence of (∞,1)-categori
 
 =--
 
-This is one of the central statements in ([DwyerKanFunctionComplexes](#DwyerKanFunctionComplexes)). The weak homotopy equivalence between $C^\circ(X,Y)$ and $L^H C(X,Y)$ is in corollary 4.7. The equivalence of $\infty$-categories stated above follows with this and the diagram of morphisms of simplicial categories in prop. 4.8.
+This is one of the central statements in ([Dwyer & Kan 80 FuncComp](#DwyerKan80FunctionComplexes)). The weak homotopy equivalence between $C^\circ(X,Y)$ and $L^H C(X,Y)$ is in corollary 4.7. The equivalence of $\infty$-categories stated above follows with this and the diagram of morphisms of simplicial categories in prop. 4.8.
+
++-- {: .num_prop #QuillenEquivalencesInducingDKEquivalences}
+###### Proposition
+
+A [[Quillen equivalence]] $D \leftrightarrows C$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localizations]].
+
+=--
+
+This is shown in [Lurie 09, Cor. A.3.1.12](#Lurie09), under the additional assumptions that the model categories are [[simplicial model category|simplicial]], that every object of $C$ is [[cofibrant object|cofibrant]] and that the right adjoint is an sSet [[enriched functor]].
+The statement without these extra assumptions in claimed in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwyer & Kan 80, Prop. 4.4 with 5.4](#DwyerKan80FunctionComplexes).
+
+
 
 ## Related concepts
 
@@ -327,7 +339,7 @@ The original articles:
   
 * {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17&#8211;35. ([pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf))
   
-* {#DwyerKanFunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_ , Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
+* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_ , Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
   
 * {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_ , Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983) , Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. 1987 .
   
@@ -348,7 +360,12 @@ Further development:
 
 See also:
 
+
+* {#Lurie09} [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_
+
 * {#Spitzweck10} [[Markus Spitzweck]], *Homotopy limits of model categories over inverse index categories*, Journal of Pure and Applied Algebra Volume 214, Issue 6, June 2010, Pages 769-777 ([doi:10.1016/j.jpaa.2009.08.001](https://doi.org/10.1016/j.jpaa.2009.08.001))
+
+* {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, New York Journal of Mathematics Volume 22 (2016) 57-93 ([arXiv:1501.03146](https://arxiv.org/abs/1501.03146), [publisher](http://nyjm.albany.edu/j/2016/22-4.html))
 
 
 
