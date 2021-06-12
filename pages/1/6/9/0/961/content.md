@@ -106,6 +106,13 @@ An effective congruence, def. \ref{EffectiveCongruence}, is always the [[kernel 
 
 ## Examples
 
++-- {: .num_example #DiagonalMorphismIsCongruence}
+###### Example
+
+Every [[diagonal morphism]] on an object is a congruence and has a [[quotient object]] [[isomorphic]] to the original object. 
+
+=--
+
 +-- {: .num_example #KernelPairIsCongruence}
 ###### Example
 
