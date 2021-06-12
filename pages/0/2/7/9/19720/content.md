@@ -49,6 +49,6 @@ The [[equivariant cohomology]]/[[equivariant spectrum]]-version of [[algebraic K
 
 * Henning Hauschild, [[Stefan Waner]], theorem 0.1 of _The equivariant Dold theorem mod $k$ and the Adams conjecture_, Illinois J. Math. Volume 27, Issue 1 (1983), 52-66. ([euclid:1256065410](https://projecteuclid.org/euclid.ijm/1256065410))
 
-* Kuzuhisa Shimakawa, _Note on the equivariant $K$-theory spectrum_, Publ. RIMS, Kyoto Univ. **29** (1993), 449-453 ([pdf](http://www.ems-ph.org/journals/show_pdf.php?issn=0034-5318&vol=29&iss=3&rank=5), [doi](https://doi.org/10.2977/prims/1195167052))
+* [[Kazuhisa Shimakawa]], _Note on the equivariant $K$-theory spectrum_, Publ. RIMS, Kyoto Univ. **29** (1993), 449-453 ([pdf](http://www.ems-ph.org/journals/show_pdf.php?issn=0034-5318&vol=29&iss=3&rank=5), [doi:10.2977/prims/1195167052](https://doi.org/10.2977/prims/1195167052))
 
 * Christopher French, theorem 2.4 in _The equivariant $J$–homomorphism for finite groups at certain primes_, Algebr. Geom. Topol. Volume 9, Number 4 (2009), 1885-1949 ([euclid:1513797069](https://projecteuclid.org/euclid.agt/1513797069))
