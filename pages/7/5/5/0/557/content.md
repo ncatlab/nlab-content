@@ -97,7 +97,7 @@ Given a set of colors $\mathfrak{C}$ and a [[closed category|closed]] [[symmetri
 
 ## Relation to properads and polycategories
 
-[[Properads]] have a similar multiple compositional structure to PROPs, but without the tensor product of morphisms, meaning operations cannot be concatenated. [[Polycategories]] are also similar, but only allow composition along a single object at once. See [Polycategory: Relation to properads](https://ncatlab.org/nlab/show/polycategory#relation_to_properads) for a more detailed explanation.
+[[Properads]] have a similar multiple compositional structure to PROPs, but without the tensor product of morphisms, meaning operations cannot be concatenated. [[polycategory|Polycategories]] are also similar, but only allow composition along a single object at once. See [Polycategory: Relation to properads](https://ncatlab.org/nlab/show/polycategory#relation_to_properads) for a more detailed explanation.
 
 ## Related concepts
 
