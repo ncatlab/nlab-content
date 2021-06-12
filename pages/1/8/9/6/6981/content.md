@@ -25,6 +25,7 @@
 | [[equivalence class]] | [[quotient]] | [[quotient type]] |
 | [[induction]] | [[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
 | higher [[induction]] |  [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]] |
+| - |  [[0-truncated]] [[(infinity,1)-colimit|higher colimit]] | [[quotient inductive type]] |
 | [[coinduction]] | [[limit]] | [[coinductive type]] |
 | [[completely presented set]] | [[discrete object]]/[[0-truncated object]]    | [[h-level 2]]-[[type]]/[[preset]]/[[h-set]] |
 | [[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] |
