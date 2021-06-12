@@ -2,6 +2,11 @@
 
 ## Selected writings
 
+On [[equivariant algebraic K-theory]]:
+
+* [[Kazuhisa Shimakawa]], _Note on the equivariant $K$-theory spectrum_, Publ. RIMS, Kyoto Univ. **29** (1993), 449-453 ([pdf](http://www.ems-ph.org/journals/show_pdf.php?issn=0034-5318&vol=29&iss=3&rank=5), [doi:10.2977/prims/1195167052](https://doi.org/10.2977/prims/1195167052))
+
+
 On [[universal principal bundle|universal]] [[equivariant principal bundles]]:
 
 * [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
