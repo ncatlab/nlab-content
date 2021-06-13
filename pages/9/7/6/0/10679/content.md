@@ -94,17 +94,15 @@ See also
 
 * Wikipedia, _[Stone&#8211;&#268;ech compactification](https://en.wikipedia.org/wiki/Stone%E2%80%93%C4%8Cech_compactification)_
 
-[[!redirects Stone–Cech compactification]]
-
-[[!redirects Stone-∞ech compactification]]
 [[!redirects Stone-Cech compactification]]
-[[!redirects Stone?ech compactification]]
-[[!redirects StoneCech compactification]]
-[[!redirects Stone--∞ech compactification]]
-[[!redirects Stone--Cech compactification]]
-[[!redirects Stone-∞ech compactifications]]
 [[!redirects Stone-Cech compactifications]]
-[[!redirects Stone?ech compactifications]]
-[[!redirects StoneCech compactifications]]
-[[!redirects Stone--∞ech compactifications]]
+[[!redirects Stone-Čech compactification]]
+[[!redirects Stone-Čech compactifications]]
+[[!redirects Stone–Cech compactification]]
+[[!redirects Stone–Cech compactifications]]
+[[!redirects Stone–Čech compactification]]
+[[!redirects Stone–Čech compactifications]]
+[[!redirects Stone--Cech compactification]]
 [[!redirects Stone--Cech compactifications]]
+[[!redirects Stone--Čech compactification]]
+[[!redirects Stone--Čech compactifications]]
