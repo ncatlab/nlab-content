@@ -57,7 +57,7 @@ $$
   core(FinSet)^{op} \to \infty Grpd
 $$
 
-to the [[(∞,1)-category]] [[∞Grpd]].
+to the [[(∞,1)-category]] [[∞Grpd]] ([Gepner-Haugseng-Kock 17, Def. 3.2.9](#GHK)).
 
 The [[(∞,1)-category]] of $\infty$-species is the [[(∞,1)-category of (∞,1)-presheaves]]
 
@@ -437,6 +437,10 @@ species of structures_, 2008, [pdf](http://bergeron.math.uqam.ca/Site/bergeron_a
 An application in computer science: 
 
 * [[Brent Yorgey]], _Random testing and beyond! with combinatorial species_, slides [pdf](http://www.cis.upenn.edu/~byorgey/talks/combtesting-ku-20091124.pdf); _Species and functors and types, oh my_, article, [pdf](http://www.cis.upenn.edu/~byorgey/papers/species-pearl.pdf)
+
+Homotopical species are defined in (Def. 3.2.9):
+
+* {#GHK} [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
 
 Formalization in [[homotopy type theory]]:
 
