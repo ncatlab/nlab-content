@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++-- {: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # The ultrafilter theorem
 * tic
 {: toc}
@@ -13,7 +27,7 @@ In [[classical mathematics]], the ultrafilter theorem is a theorem about ultrafi
 +-- {: .un_theorem}
 ###### Ultrafilter theorem
 
-Given a [[set]] $X$, every proper [[filter]] on $X$ may be extended to an [[ultrafilter]] (that is, a maximal proper filter) on $X$.
+Given a [[set]] $X$, every proper [[filter]] on $X$ may be extended to an [[ultrafilter]] (that is, a [[maximal element|maximal]] [[proper filter]]) on $X$.
 =--
 
 +-- {: .proof}
