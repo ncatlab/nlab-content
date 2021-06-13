@@ -12,6 +12,8 @@ Proving the [[biequivalence]] between [[Feynman categories]] and [[colored opera
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], and [[Andrew Tonks]]. _Groupoids and Faà di Bruno formulae for Green functions in bialgebras of trees_. Adv. Math., 254:79–117, 2014. 
 
+* {#GHK} [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
+
 
 category: people
 
