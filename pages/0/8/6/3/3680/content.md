@@ -152,7 +152,7 @@ The following result is the $(\infty,1)$-categorical analog of what is known as 
 ###### Theorem 
 **(recognition theorem for final $(\infty,1)$-functors)**
 
-A morphism $p : K \to C$ of [[simplicial sets]] with $C$ a [[quasi-category]] is final precisely if for each object $c \in C$ the [[comma category|comma]]-object $c/p := c/C \times_C K$ is weakly [[contractible]]. 
+A morphism $p : K \to C$ of [[simplicial sets]] with $C$ a [[quasi-category]] is final precisely if for each object $c \in C$ the [[comma category|comma]]-object $c/p \coloneqq c/C \times_C K$ is weakly [[contractible]]. 
 
 =--
 
@@ -165,8 +165,8 @@ $$
     \downarrow && \downarrow
     \\
     K &\stackrel{p}{\to}& C
+    \mathrlap{\,.}
   }
-  \,,
 $$
 
 where $c/C$ is the [[over quasi-category|under quasi-category]] under $c$.
@@ -502,21 +502,16 @@ This can be used to establish a Bousfield-Kan formula for homotopy colimits; see
 
 ## References
 
-Section 4.1 of 
-
-* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
  
+* {#Lurie} [[Jacob Lurie]], Section 4.1 of: _[[Higher Topos Theory]]_
+ 
+* [[Dan Dugger]], Section 6 ofL _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
 
-Section 6 of 
+* {#Hovey} [[Mark Hovey]], Item 9 of: _Errata to Model Categories_ ([pdf](http://hopf.math.purdue.edu/Hovey/model-err.pdf))
 
-* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+* {#Shah} [[Jay Shah]], *Parametrized higher categories and higher algebra: Expose II- Indexed homotopy limits and colimits*
 
-
-* {#Hovey} [[Mark Hovey]], item 9 of _Errata to Model Categories_ ([pdf](http://hopf.math.purdue.edu/Hovey/model-err.pdf))
-
-*{#Shah} [[Jay Shah]] Parametrized higher categories and higher algebra: Expose II- Indexed homotopy limits and colimits.
-
-*{#Cisinski} [[Denis-Charles Cisinski]] Higher Categories and Homotopical Algebra.
+* {#Cisinski} [[Denis-Charles Cisinski]], *Higher Categories and Homotopical Algebra*
 
 
 [[!redirects cofinal (infinity,1)-functor]]
