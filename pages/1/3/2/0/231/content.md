@@ -269,7 +269,7 @@ There is a [[strict 2-category]] MonCat with:
 
 One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is equivalent to a strict one.  
 
-Every monoidal category is also equivalent In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] with its cartesian product is not.  For the former fact, see [this remark by Jamie Vicary](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_2.html#c015959); for the latter, see the end of Section VI.1 in the second edition of *Categories for the Working Mathematician*.
+Every monoidal category is also equivalent In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] with its cartesian product is not.  For the former fact, see [this remark by Jamie Vicary](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_2.html#c015959); for the latter, see the end of Section VII.1 in the second edition of *Categories for the Working Mathematician*.
 
 
 ## Properties 
