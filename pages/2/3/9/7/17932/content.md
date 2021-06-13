@@ -1,6 +1,8 @@
 
 * [webpage](http://www.math.columbia.edu/~okounkov/)
 
+* Yen Duong, *[A Profile of Andrei Okounkov](https://www.simonsfoundation.org/2021/06/10/connecting-the-family-tree-of-mathematics/)*, Simons Foundation News, June 06, 2021
+
 ## Selected writings
 
 On [[dimers]] in [[quantum many-body physics]]:
