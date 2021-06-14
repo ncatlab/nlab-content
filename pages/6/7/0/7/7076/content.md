@@ -28,7 +28,7 @@ A **cartesian model category** (following [Rezk 09, 2.2](#Rezk09) and [Simpson 1
 
   $$
     (Y \times X') 
-      \overset{X \times X'}{\sqcup} 
+      \overset{X \times X'}{\coprod} 
     (X \times Y') 
        \longrightarrow 
     Y \times Y'
@@ -74,7 +74,7 @@ A **cartesian model category** (following [Rezk 09, 2.2](#Rezk09) and [Simpson 1
 
 ## References
 
-* {#Rezk09} [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_. (2010). ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
+* {#Rezk09} [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_, Geom. Topol. 14(1): 521-571 (2010). ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602), [doi:10.2140/gt.2010.14.521](https://projecteuclid.org/journals/geometry-and-topology/volume-14/issue-1/A-cartesian-presentation-of-weak-ncategories/10.2140/gt.2010.14.521.full))
 
 * {#Simpson12} [[Carlos Simpson]],  _Homotopy theory of higher categories_ (2012)
 
