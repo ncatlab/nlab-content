@@ -84,7 +84,7 @@ That $\mathcal{C}$ is locally presentable is equivalent to each of the following
 
 =--
 
-This is [Lurie, Thm. 5.5.1.1 \& Prop. A.3.7.6](#Lurie), following [Simpson 99](#Simpson99), [Dugger 00](#Dugger00); review in [Cisinski 19, Thm. 7.11.16, Rem. 7.11.17](#Cisinski19).
+This is [Lurie, Thm. 5.5.1.1 & Prop. A.3.7.6](#Lurie), following [Simpson 99](#Simpson99), [Dugger 00](#Dugger00); review in [Cisinski 19, Thm. 7.11.16, Rem. 7.11.17](#Cisinski19).
 
 
 +-- {: .num_remark}
