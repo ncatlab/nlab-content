@@ -363,7 +363,7 @@ $$
 ### Simplicial presheaves
  {#SimplicialPresheaves}
 
-If the underlying [[site]] has [[finite product]], then both the injective and the projective, the global and the local [[model structure on simplicial presheaves]] becomes a (Cartesian) [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
+If the underlying [[site]] has [[finite product]], then both the injective and the projective, the global and the local [[model structure on simplicial presheaves]] becomes a [[cartesian closed mononoidal model category|cartesian]] [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
 
 See at _[[model structure on simplicial presheaves]]_ the section _[Closed monoidal structure](https://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#MonoidalStructure)_.
 
@@ -434,6 +434,8 @@ See [[model structure on monoids in a monoidal model category]].
 
 
 ## Related concepts
+
+* [[cartesian closed monoidal model category]]
 
 * [[monoidal localization]]
 
