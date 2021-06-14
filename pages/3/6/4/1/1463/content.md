@@ -63,6 +63,7 @@ However, in other respects, the ultrafilter theorem is very weak as a "choice pr
 
 It can prove *some* traditional applications of [[dependent choice]]. For example, it can be used to [[linear order|linearly order]] any set. From there it can be used to prove that a countable union of nonempty finite sets is countable, which in turn can be used to establish the weak K&#246;nig lemma; see [here](/nlab/show/compactness+theorem#totalorder). 
 
+In [[constructive mathematics]], the ultrafilter principle also implies [[De Morgan's law]], which means that the poset of [[truth values]] $\Omega$ is a [[De Morgan Heyting algebra]]. Any [[topos]] with an internal ultrafilter principle is thus a [[De Morgan topos]]. 
 
 ## Other formulations
 
@@ -113,6 +114,10 @@ Various equivalences with the ultrafilter theorem are stated and proved (in <b>Z
 See a summary (in GIF!): [page 1](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/equivuf1.gif) and [page 2](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/equivuf2.gif).
 
 It\'s possible that I\'ve made some mistakes above in deciding which of these use excluded middle or the existence of a natural numbers object.  (I very much doubt that any of them use replacement.)
+
+For the ultrafilter principle in constructive mathematics: 
+
+* John Bell, "Boolean Algebras and Distributive  Lattices Treated Constructively", _Mathematical Logic  Quarterly  45_, 1999. [pdf](publish.uwo.ca/~jbell/BOOLCON.pdf)
 
 
 [[!redirects ultrafilter principle]]
