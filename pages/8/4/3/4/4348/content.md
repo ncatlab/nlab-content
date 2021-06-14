@@ -57,4 +57,14 @@ One advantage of stuff types over the more familiar structure types (i.e., speci
 
 * [[John Baez]], Fall 2003 to Spring 2004 [seminar notes](http://math.ucr.edu/home/baez/qg-fall2003/).
 
+For more on stuff types see:
+
+* [[John Baez]], [Groupoidification](http://math.ucr.edu/home/baez/groupoidification/)
+
+For the generalization of stuff types using $\infty$-groupoids, see:
+
+* Imma Gálvez-Carrillo, Joachim Kock,
+and Andrew Tonks, Homotopy linear algebra, _Proc. Roy. Soc. Edinburgh
+Sect. A_, **148(2)** (2018), 293--325.  ([arXiv](https://arxiv.org/abs/1602.05082))
+
 [[!redirects stuff types]]
