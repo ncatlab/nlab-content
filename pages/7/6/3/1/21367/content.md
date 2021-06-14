@@ -40,3 +40,10 @@ See also:
 
 
 * [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arXiv:2004.09082](https://arxiv.org/abs/2004.09082))
+
+* Hiroyuki Umeeda, *Quark-hadron duality for heavy meson mixings in the 't Hooft model* ([arXiv:2106.06215](https://arxiv.org/abs/2106.06215))
+
+
+
+
+
