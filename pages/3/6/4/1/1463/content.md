@@ -74,7 +74,7 @@ The first three are, if you work through the definitions, almost direct rephrasi
 
 *  The Boolean prime ideal theorem: every proper [[ideal]] in a [[Boolean ring]] is contained in a [[prime ideal]].  (Stronger formulations of the Boolean prime ideal theorem also follow.)
 
-*  The [[Stone representation theorem]]: every [[Boolean algebra]] is a subalgebra of some (classical) [[power set]] $2^X$.  (Stronger formulations of the Stone representation theorem also follow.)
+*  The [[Stone representation theorem]]: every [[Boolean algebra]] is a subalgebra of some [[function algebra]] $2^X$ into the [[initial object|initial]] Boolean algebra.  (Stronger formulations of the Stone representation theorem also follow.)
 
 These basic results in [[logic]] are equivalent to the ultrafilter theorem:
 
