@@ -16,6 +16,10 @@ M : V \mapsto \oplus_{n\geq 0} M(n)\otimes_{\Sigma_n} V^{\otimes n}
 $$
 The composition of such functors defines a monoidal product on $C^{S^{op}}$ called the __plethysm product__. This way we obtain a monoidal category. The monoids in that category are the (symmetric) $C$-[[operads]]. 
 
+## Related concepts
+
+* [[plethory]]
+
 ## History and references
 
 In Richard P. Stanley's book _Enumerative Combinatorics_, he discusses the origin of the term 'plethysm' in Volume 2, Appendix 2.  He says that the term was introduced in 
