@@ -16,12 +16,14 @@
 
 ## Definition
 
-For $g,h \in G$ two elements of a [[group]], their **group commutator** if 
+For $g,h \in G$ two elements of a [[group]], their **group commutator** is defined as
 
 $$
   [g,h] \coloneqq g^{-1} h^{-1} g h
   \,.
 $$
+
+This definition Is also valid for [[invertible semigroups]]. 
 
 ## Related concepts
 
