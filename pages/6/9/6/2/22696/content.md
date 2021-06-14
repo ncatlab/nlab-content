@@ -69,4 +69,4 @@ Every invertible semigroup $G$ has a [[pseudo-torsor]], or associative [[Malcev 
 
 * [[pseudo-torsor]], [[torsor]]
 
-
+[[!redirects invertible semigroups]]
