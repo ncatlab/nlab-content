@@ -82,7 +82,7 @@ Also, totality lifts along [[solid functors]]; that is, if the [[codomain]] of a
 
 For example
 
-* any category which is [[monadic]] over [[Set]] (see ([Kelly](#Kelly)) Thm. 6.17)
+* any category which is [[monadic]] over [[Set]] (see also ([Kelly](#Kelly)) Thm. 6.17)
 
 * any category admitting a [[topological functor]] to [[Set]]
 
