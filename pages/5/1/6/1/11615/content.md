@@ -30,7 +30,7 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 ## Examples
 
-* _[[synthetic geometry]]_ axiomatizes the nature of figures drawn in the [[plane]] without speaking of the [[plane]] itself as a collection of points and without speaking of these figures as being [[subsets]] of points.
+* _[[synthetic geometry]]_ axiomatizes the nature of objects in a [[plane]] or [[hyperplane]] without speaking of the [[plane]] or [[hyperplane]] itself as a collection of points and without speaking of these figures as being [[subsets]] of points.
 
 * _[[synthetic differential geometry]]_ is  refinement of this to contemporary research-level mathematics.
 
