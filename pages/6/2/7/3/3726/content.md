@@ -331,12 +331,28 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects n-connected object of an (infinity,1)-category]]
 [[!redirects n-connected objects of an (infinity,1)-category]]
 [[!redirects n-connected objects of (infinity,1)-categories]]
+
 [[!redirects n-simply connected object of an (∞,1)-category]]
 [[!redirects n-simply connected objects of an (∞,1)-category]]
 [[!redirects n-simply connected objects of (∞,1)-categories]]
 [[!redirects n-simply connected object of an (infinity,1)-category]]
 [[!redirects n-simply connected objects of an (infinity,1)-category]]
 [[!redirects n-simply connected objects of (infinity,1)-categories]]
+
+[[!redirects n-connected morphism of an (∞,1)-category]]
+[[!redirects n-connected morphisms of an (∞,1)-category]]
+[[!redirects n-connected morphisms of (∞,1)-categories]]
+[[!redirects n-connected morphism of an (infinity,1)-category]]
+[[!redirects n-connected morphisms of an (infinity,1)-category]]
+[[!redirects n-connected morphisms of (infinity,1)-categories]]
+
+[[!redirects n-connected morphism of an ∞,1-category]]
+[[!redirects n-connected morphisms of an ∞,1-category]]
+[[!redirects n-connected morphisms of ∞,1-categories]]
+[[!redirects n-connected morphism of an infinity,1-category]]
+[[!redirects n-connected morphisms of an infinity,1-category]]
+[[!redirects n-connected morphisms of infinity,1-categories]]
+
 
 [[!redirects connected object in an infinity-topos]]
 [[!redirects connected object of an infinity-topos]]
