@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _blob complex_ maybe thought of as a generalization of the [[Hochschild complex]] to [[higher category theory|higher categories]] and higher dimensional [[manifold]]s.  
+The _blob complex_ may be thought of as a generalization of the [[Hochschild complex]] to [[higher category theory|higher categories]] and higher dimensional [[manifold]]s.  
 
 One thinks of the Hochschild complex as associated to a 1-[[category]] and a 1-[[manifold]] (the circle).  It's a fairly small complex, analogous to cellular homology.  The blob complex for the same input data (1-category and circle) yields a [[quasi-isomorphism|quasi-isomorphic]] but much much larger [[chain complex]], analogous to [[singular homology]].  
 
