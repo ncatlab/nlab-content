@@ -10,7 +10,7 @@ A __unital Riesz space__ is a Riesz space equipped with a unit: an element $u$ s
 
 A __morphism of unital Riesz spaces__ is a morphism of Riesz spaces that preserves the unit.
 
-Any unit $u$ induces a [[seminorm]]: $\|x\|_u=\inf\{t\mid t\ge0 \land |x|\le t u\}$.
+Any unit $u$ induces a [[seminorm]]: $\|x\|_u=\inf\{t\mid t\ge0 \; and\; |x|\le t u\}$.
 
 An _Archimedean Riesz space__ is a Riesz space such that any infinitesimal element $e$ is zero.  Here $e$ is __infinitesimal__ if there is $b$ such that $n e\le b$ for all integer $n$.
 
