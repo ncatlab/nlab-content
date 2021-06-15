@@ -818,6 +818,8 @@ More discussion of the internal perspective:
 [[!redirects n-truncated morphism in an (∞,1)-category]]
 [[!redirects n-truncated morphisms in an (infinity,1)-category]]
 [[!redirects n-truncated morphisms in an (∞,1)-category]]
+[[!redirects n-truncated morphisms in an infinity,1-category]]
+[[!redirects n-truncated morphisms in an ∞,1-category]]
 
 
 [[!redirects 0-truncated morphism of an (∞,1)-category]]
