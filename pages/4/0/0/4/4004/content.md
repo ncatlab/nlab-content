@@ -31,11 +31,11 @@ A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its 
 
 * Since $\Sigma_{T1}$ [[created limit|creates]] [[connected limits]], if $T$ is p.r.a. then it [[preserved limit|preserves]] connected limits, and in particular preserves [[pullbacks]].  It follows that any p.r.a. monad is a [[cartesian monad]].
 
-* Conversely, an [[accessible functor]] between [[presheaf categories]] is p.r.a. if and only if it preserves [[connected limits]].
+* Conversely, a [[functor]] between [[presheaf categories]] is p.r.a. if it preserves [[connected limits]]. The reason is that (in the notation above), if $T$ preserves connected limits, then $T_1$ preserves all small limits, and a limit-preserving functor from a [[cototal category]] such as a presheaf category to a locally small category is a right adjoint. 
 
 * Any [[polynomial functor]] $\Sigma_h \Pi_g f^*$ is p.r.a., since then $T_1$ can be identified with $\Pi_g f^*$, which has the left adjoint $\Sigma_f \; g^*$.
 
-* If $E$ is a [[presheaf category]] and $T\colon E \to Set$ is p.r.a., then the [[comma category]] $Set/T$ (also called the [[Artin gluing]] in this context) is again a presheaf category.  Conversely, if $Set/T$ is a presheaf category, then $T$ preserves connected limits, and thus is p.r.a. if it is accessible.
+* If $E$ is a [[presheaf category]] and $T\colon E \to Set$ is p.r.a., then the [[comma category]] $Set/T$ (also called the [[Artin gluing]] in this context) is again a presheaf category.  Conversely, if $Set/T$ is a presheaf category, then $T$ preserves connected limits, and thus is p.r.a.
 
 * A parametric right adjoint functor (with [[locally small category|locally small]] codomain) has in particular a left [[multi-adjoint]], which sends each object $b\in B$ to the family of all units $\eta_{b,i} : b \to T L(b,i)$, where $i$ ranges over all morphisms $b\to T 1$ and $L : B/T1 \to A$ is the left adjoint of $T_1$.  This is because any morphism $b\to T a$ induces a unique composite $i:b \to T a \to T 1$, and hence a unique factorization through $L(b,i)$.  Conversely, if $A$ has a terminal object and $T:A\to B$ has a left multi-adjoint, then it is a parametric right adjoint.
 
