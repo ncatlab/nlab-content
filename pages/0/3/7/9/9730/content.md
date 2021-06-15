@@ -42,10 +42,10 @@ where fermionic conformal nets are arranged into a [[tricategory]]  with [[symme
 
 More on this in
 
-* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
-* [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
- {#DouglasHenriquesGeometric}
+* {#DouglasHenriquesGeometric} [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
+ 
 
 [[!redirects 2-Clifford algebra]]
 [[!redirects 2-Clifford algebras]]
