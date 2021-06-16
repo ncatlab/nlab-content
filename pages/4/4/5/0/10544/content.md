@@ -14,7 +14,14 @@ Here's a list of the papers I've written: [link](https://arxiv.org/search/math?s
 
 [This](http://tetrapharmakon.github.io) is my personal website. Write me an email!
 
-## related $n$Lab entries
+## Selected writings
+
+Review of [[cohesion]] ([[cohesive toposes]]) and [[differential cohesion]]:
+
+* {#Loregian19} [[Fosco Loregian]], *Cohesion in Rome*, talk notes, Dec. 2019  ([pdf](https://tetrapharmakon.github.io/stuff/cohesive_rome.pdf), [[LoregianCohesion.pdf:file]])
+
+
+## Related $n$Lab entries
 
 * [[orthogonal factorization system in a derivator]]
 * [t-structure](https://ncatlab.org/nlab/show/t-structure#in_stable_categories)
