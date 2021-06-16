@@ -1,1 +1,2 @@
-Name
+
+see *[[fixed point]]
