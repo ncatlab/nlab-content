@@ -186,5 +186,8 @@ A constructive and predicative theory in the programme of [[formal topology]] ca
 [[!redirects pointless uniformity]]
 [[!redirects pointless uniformities]]
 
+[[!redirects complete uniformity]]
+[[!redirects complete uniformities]]
+
 [[!redirects fine uniformity]]
 [[!redirects fine uniformities]]
