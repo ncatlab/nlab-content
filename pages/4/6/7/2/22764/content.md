@@ -18,7 +18,7 @@ The idea of a closed midpoint algebra comes from [[Peter Freyd]].
 
 ## Definition
 
-A __closed midpoint algebra__ is a [[cancellative midpoint algebra]] $(M,\vert)$ with two elements $\bot:M$ and $\top:M$. 
+A __closed midpoint algebra__ is a [[cancellative midpoint algebra]] $(M,\vert)$ equipped with two chosen elements $\bot:M$ and $\top:M$. 
 
 ## Examples
 
