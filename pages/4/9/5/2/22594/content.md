@@ -17,7 +17,7 @@
 
 ## Idea
 
-An _archimedean group_ is a [[linear order|linearly]] [[ordered group]] in which every element is bounded above by a [[natural number]].
+An _archimedean group_ is a [[linear order|linearly]] [[ordered group]] in which every positive element is bounded above by a [[natural number]].
 
 So an archimedean group has no infinite elements (and thus no non-zero [[infinitesimal object|infinitesimal]] elements).
 
@@ -37,7 +37,7 @@ An archimedean group that is also a linearly ordered [[ring]] is called an __arc
 
 ## Properties
 
-Every archimedean group is an [[abelian group]] and has no bounded [[cyclic group|cyclic]] [[subgroups]]. The group of [[real numbers]] is the [[terminal object|terminal]] archimedean group. 
+Every archimedean group is an [[abelian group]] and has no bounded [[cyclic group|cyclic]] [[subgroups]]. Every archimedean group admits an [[embedding]]  into the group of [[real numbers]]. 
 
 ## Examples
 
