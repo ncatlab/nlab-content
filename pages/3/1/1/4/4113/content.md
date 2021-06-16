@@ -46,16 +46,13 @@ What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refini
 Consider $\mathbb{R}$ with its [[Euclidean space|Euclidean]] [[metric topology]].
 
 Let $\epsilon \in (0,\infty)$  and consider the [[open cover]]
-
 $$
   \{
     (n-1-\epsilon , n+1 +  \epsilon) \subset \mathbb{R}
-  \}_{n \in \mathbb{Z} \subset \mathbb{R} }
-  \,.
+  \}_{n \in \mathbb{Z} \subset \mathbb{R} }.
 $$
 
 Then a partition of unity $\{ f_n \colon \mathbb{R} \to [0,1] \}_{n \in \mathbb{N}}$ subordinate to this cover is given by
-
 $$
   f_n(x)
     \coloneqq
@@ -67,10 +64,8 @@ $$
       \\
       0 &\vert& \text{otherwise}
     }
-  \right\}
-  \,.
+  \right\}.
 $$
-
 
 =--
 
@@ -93,10 +88,26 @@ Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
 =--
 
-
-
-
 Similarly [[normal spaces]] are equivalently those such that every [[locally finite cover]] has a subordinate partition of unity (reference Bourbaki, Topology Generale - find this!)
+
+### The case of non-Hausdorff spaces
+
+Slightly more generally,
+a [[topological space]] (not necessarily Hausdorff)
+is [[fully normal]] if and only every [[open cover]] admits a subordinate partition of unity.
+
+A [[T1-space]] is [[fully normal]] if and only if it is [[paracompact]],
+in which case it is also Hausdorff.
+
+For [[topological spaces]] that are not [[T1-spaces]],
+the condition of being [[fully normal]] is strictly stronger than [[paracompactness]].
+
+### The case of locales
+
+A [[regular locale]] is [[fully normal]] if and only if it is [[paracompact]].
+
+The usual proof of the existence of partitions of unity
+goes through for such locales since it does not make any use of points.
 
 ### Existence on smooth manifolds
  {#ExistenceOnSmoothManifolds}
