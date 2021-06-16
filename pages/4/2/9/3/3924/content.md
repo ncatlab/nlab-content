@@ -20,7 +20,7 @@
 =--
 =--
 
-* **associator** , [[unitor]], [[Jacobiator]]
+* **associator**, [[unitor]], [[Jacobiator]]
 
 * [[pentagonator]], [[hexagonator]]
 
