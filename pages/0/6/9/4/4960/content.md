@@ -2327,13 +2327,19 @@ A good deal of the structure of cohesive toposes is also considered in
 * {#KontsevichRosenbergSpaces} [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
  
 
-under the name _[[Q-categories]]_ .
+under the name _[[Q-categories]]_.
 
 The [[internal logic]] of [[local toposes]] is discussed in 
 
-* {#AwodeyBirkedal} [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ , Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
+* {#AwodeyBirkedal} [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_, Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
   
+Notation and terminology above, and generalization to [[differential cohesion]] etc., follows:
 
+* [[Urs Schreiber]], *[[schreiber:differential cohomology in a cohesive topos]]* ([arXiv:1310.7930](https://arxiv.org/abs/1310.7930))
+
+Exposition:
+
+* {#Loregian19} [[Fosco Loregian]], *Cohesion in Rome*, talk notes, Dec. 2019  ([pdf](https://tetrapharmakon.github.io/stuff/cohesive_rome.pdf), [[LoregianCohesion.pdf:file]])
 
 
 
