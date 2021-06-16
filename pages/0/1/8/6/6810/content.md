@@ -95,6 +95,9 @@ Discussion of [[AdS spacetime|AdS vacua]]:
 
 * [[Giuseppe Dibitetto]], [[Nicolò Petri]], _BPS objects in $D=7$ supergravity and their M-theory origin_, JHEP 12 (2017) 041 ([arXiv:1707.06152](https://arxiv.org/abs/1707.06152))
 
+* Bernardo Fraiman, Héctor Parra De Freitas, *Symmetry Enhancements in 7d Heterotic Strings* ([arXiv:2106.08189](https://arxiv.org/abs/2106.08189))
+
+
 
 
 ### By reduction from 10d/11d supergravity
