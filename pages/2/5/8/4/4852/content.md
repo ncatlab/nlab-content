@@ -59,7 +59,7 @@ Both the "equivalence of hom-categories" definition and the "unit and counit" de
 * [[Emily Riehl]] and [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, 2015, [arxiv](https://arxiv.org/abs/1310.8279)
 {#RV15}
 
-* Piotr Pstr&#261;gowski, _On dualizable objects in monoidal bicategories, framed surfaces and the Cobordism Hypothesis_, 2014 [arviv](https://arxiv.org/abs/1411.6691)
+* Piotr Pstr&#261;gowski, _On dualizable objects in monoidal bicategories, framed surfaces and the Cobordism Hypothesis_, 2014 [arxiv](https://arxiv.org/abs/1411.6691)
 {#Pstr&#261;gowski14}
 
 * [[Emily Riehl]] and [[Mike Shulman]], _A type theory for synthetic ∞-categories_, 2017, [arxiv](https://arxiv.org/abs/1705.07442)
