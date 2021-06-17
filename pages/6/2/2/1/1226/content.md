@@ -36,7 +36,7 @@ $C$ is called **$\kappa$-filtered** if for all $\kappa$-small $K\in\sSet$ and ev
 +-- {: .num_prop}
 ###### Proposition
 
-An [[(∞,1)-category]] $K$ is filtered precisely if [[(∞,1)-colimit]]s of shape $K$ in [[? Grpd]] commute with all [[finite (∞,1)-limits]], hence if
+An [[(∞,1)-category]] $K$ is filtered precisely if [[(∞,1)-colimits]] of shape $K$ in [[∞Grpd]] commute with all [[finite (∞,1)-limits]], hence if
 
 $$
   {\lim_\to} : Func(K, \infty Grpd) \to \infty Grpd
