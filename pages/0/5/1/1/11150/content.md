@@ -42,6 +42,13 @@ Surveys include
 
 * {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], appendix A.1 of _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
 
+The path integral, the DOZZ formula, and the conformal bootstrap is described in further detail here:  
+
+* François David, Antti Kupiainen, Rémi Rhodes, Vincent Vargas, _Liouville Quantum Gravity on the Riemann sphere_ ([arxiv:1410.7318](https://arxiv.org/abs/1410.7318))
+
+* Antti Kupiainen, Rémi Rhodes, Vincent Vargas, _Integrability of Liouville theory: proof of the DOZZ Formula_ ([arxiv:1707.08785](https://arxiv.org/abs/1707.08785))
+
+* Colin Guillarmou, Antti Kupiainen, Rémi Rhodes, Vincent Vargas, _Conformal bootstrap in Liouville Theory_ ([arxiv:2005.11530](https://arxiv.org/abs/2005.11530))
 
 An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to 
 
