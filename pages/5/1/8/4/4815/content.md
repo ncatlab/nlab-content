@@ -146,6 +146,11 @@ Introduction and review:
 
 * Konstantinos Xenos, _An Introduction to FRW Cosmology and dark energy models_ ([arXiv:2101.06135](https://arxiv.org/abs/2101.06135))
 
+Careful discussion in [[perturbative quantum gravity]]:
+
+* [[John Donoghue]], *The cosmological constant and the use of cutoffs* ([arXiv:2009.00728](https://arxiv.org/abs/2009.00728))
+
+
 ### Observation
 
 (...)
