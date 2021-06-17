@@ -74,7 +74,13 @@ is an [[equivalence of ∞-groupoids]].
 
 In terms of the concrete incarnation of the notion of $(\infty,1)$-category by the notion of [[quasi-category]], we have that $Hom_C(L(d),c)$ and $Hom_D(d,R(c))$ are incarnated as [[hom-object in a quasi-category|hom-objects in quasi-categories]], which are [[Kan complexes]], and the above equivalence is a [[homotopy equivalence]] of Kan complexes.
 
-In this form this definition appears as [[Higher Topos Theory|HTT, def. 5.2.2.7]].
+In this form is due to [Lurie 09, Def. 5.2.2.7](#Lurie09).
+
+{#RiehlVerityOnAdjunctionsViaHomEquivalences} Streamlined discussion is in
+[Riehl & Verity 15, 4.4.2-4.4.4](#RiehlVerity15)
+and [Riehl & Verity 20, 3.3.3-3.5.1](#RiehlVerity20)
+and [Riehl & Verity "Elements", Prop. 4.1.1](#RVElements).
+
 
 ### In terms of cographs/heteromorphisms
  {#InTermsOfCographsHeteromorphisms}
@@ -680,19 +686,20 @@ A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{
 ## References
 
 
-
 * {#Lurie} [[Jacob Lurie]], Section 5.2 in: _[[Higher Topos Theory]]_ 
  
 
-A study of adjoint functors between [[quasi-categories]] is given in
+Discussion of adjoint $(\infty,1)$-functors as [[adjunctions]] in the [[homotopy 2-category of (∞,1)-categories]] (and modeled via [[∞-cosmoi]]):
 
 * {#RiehlVerity15} [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
 
-and further discussion, including also that of [[(∞,1)-monads]] is in 
+and further discussion including also that of [[(∞,1)-monads]]:
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
 
-A textbook development in the context of [[infinity-cosmoi]] can be found in
+Review in:
+
+* {#RiehlVerity20} [[Emily Riehl]], [[Dominic Verity]], Def. 1.1.2 in: _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
 * {#RVElements} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-category theory_, ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
 
@@ -705,6 +712,8 @@ and also in
 * {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, New York Journal of Mathematics Volume 22 (2016) 57-93 ([arXiv:1501.03146](https://arxiv.org/abs/1501.03146), [publisher](http://nyjm.albany.edu/j/2016/22-4.html))
 
 [[!redirects adjoint (infinity,1)-functors]]
+
+[[!redirects adjoint infinity,1-functor]]
 
 [[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (∞,1)-functors]]
