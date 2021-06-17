@@ -55,7 +55,7 @@ If $a=0$ or $b = 0$ then we can find triples $(\phi,\theta,\psi)$ satisfying the
 $$
 u(\phi,\theta,\psi):= u = \left(\array{ 
 cos\frac{\theta}{2} e^{i\frac{\phi+\psi}{2}}& i sin\frac\theta{2}e^{i\frac{\phi-\psi}{2}} 
-\\ i sin\frac\theta{2}e^{i\frac{\psi-\phi}{2}} & cos\frac\theta{2} e^{i\frac{\phi+\psi}{2}} 
+\\ i sin\frac\theta{2}e^{i\frac{\psi-\phi}{2}} & cos\frac\theta{2} e^{-i\frac{\phi+\psi}{2}} 
 }\right)
 $$
 
