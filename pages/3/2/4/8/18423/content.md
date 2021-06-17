@@ -35,7 +35,9 @@ This is true for instance for the case
 
 This is due to ([BEBP](#BEBP), see [Pavlov, theorem 0.2](#Pavlov)). For $X$ a [[stable homotopy type]] in the [[tangent (∞,1)-topos]] $T Smooth\infty Grpd$ this was observed in [Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13)
 
+## Related concepts
 
+* [[concordance]]
 
 ## References
 
