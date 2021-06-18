@@ -74,6 +74,12 @@ The concept goes back to
 
 * [[Graeme Segal]], _Categories and cohomology theories_, Topology 13 (1974).
 
+Another early reference considers $\Gamma$-objects in [[simplicial groups]].
+It is also the first reference that uses the terms “special Γ-spaces”
+and “very special Γ-spaces”, which it attributes to Segal.
+
+* [[Donald W. Anderson]], _Chain functors and homology theories_, Symposium on Algebraic Topology, Lecture Notes in Mathematics (1971), 1–12.  [doi](http://dx.doi.org/10.1007/bfb0060890).
+
 The [[model category]] structure on $\Gamma$-spaces (a [[generalized Reedy model structure]]) was established in
 
 * {#BousfieldFriedlander77} [[A. K. Bousfield]], [[E. M. Friedlander]], _Homotopy Theory of &#915;-spaces, Spectra, and Bisimplicial Sets_, Geometric Applications of Homotopy Theory (1977) ([pdf](http://dodo.pdmi.ras.ru/~topology/books/bousfield-friedlander.pdf))
