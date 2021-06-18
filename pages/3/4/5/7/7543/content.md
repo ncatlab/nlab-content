@@ -523,12 +523,14 @@ See at _[[globular theory]]_ for more.
 
 ## References
 
-The "Segal conditions" are originally due to
+The "Segal conditions" are originally due to:
 
-* {#Segal} [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
+* {#Grothendieck61} [[Alexander Grothendieck]], Prop. 4.1 of: _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+
+and named after their mentioning in
+
+* {#Segal} [[Graeme Segal]], Section 2 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/)) 
  
- 
-where they are attributed to [[Alexander Grothendieck]].
 
 
 The interpretation of the Segal condition as a [[sheaf]] condition is reviewed for instance in section 2 of 
