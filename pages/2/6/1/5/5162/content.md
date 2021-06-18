@@ -1,6 +1,10 @@
+Normal Earl Steenrod was an algebraic topologist working at Princeton University.
+
+He got his PhD from Princeton in 1936, advised by [[Solomon Lefschetz]].
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Norman_Steenrod)
 
+His PhD students include [[George Whitehead]], [[Edwin Spanier]], [[William Massey]], [[Jose Adem]], [[Franklin Peterson]], [[Emery Thomas]], [[Peter Freyd]], [[Samuel Gitler]], [[Wu-Chung Hsiang]].
 
 ## Selected writings
 
