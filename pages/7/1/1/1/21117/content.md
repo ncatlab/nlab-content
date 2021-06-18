@@ -387,6 +387,11 @@ On (in-)compatibility of quantum error correction with universality of quantum g
 
 * {#WVSB20} Paul Webster, Michael Vasmer, Thomas R. Scruby, Stephen D. Bartlett, *Universal Fault-Tolerant Quantum Computing with Stabiliser Codes* ([arXiv:2012.05260](https://arxiv.org/abs/2012.05260))
 
+In relation to the [[SYK model]]:
+
+* Shao-Kai Jian, Chunxiao Liu, Xiao Chen, [[Brian Swingle]], Pengfei Zhang, *Quantum error as an emergent magnetic field* ([arXiv:2106.09635](https://arxiv.org/abs/2106.09635))
+
+
 ### Experimental realization
 
 Realization of [[quantum error correction]] in [[experiment]], hence in actual [[quantum computers]]:
