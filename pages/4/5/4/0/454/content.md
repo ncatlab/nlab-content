@@ -80,6 +80,8 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
 * [[frame]]
 
+* [[pseudolattice ordered abelian group]]
+
 ## References
 
 * [[Peter Johnstone]], chapter 1 of _[[Stone Spaces]]_
