@@ -67,6 +67,8 @@ Non-abelian examples include free groups and torsion-free nilpotent groups.  The
 
 * [[pseudolattice ordered abelian group]]
 
+* [[totally ordered abelian group]]
+
 ## References
 
 *  English Wikipedia: [Partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).
