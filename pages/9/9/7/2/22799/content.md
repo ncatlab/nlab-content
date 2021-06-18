@@ -10,6 +10,9 @@ On the rigorous construction of [[Liouville theory]]
 
 * [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], _Integrability of Liouville theory: proof of the DOZZ Formula_, Annals of Mathematics, Pages 81-166 from Volume 191 (2020), Issue 1, ([arxiv:1707.08785](https://arxiv.org/abs/1707.08785), [doi:10.4007/annals.2020.191.1.2](https://doi.org/10.4007/annals.2020.191.1.2))
 
+* [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *The DOZZ formula from the path integral*, Journal of High Energy Physics volume 2018, Article number: 94 (2018) ([arXiv:1803.05418](https://arxiv.org/abs/1803.05418) <a href="https://doi.org/10.1007/JHEP05(2018)094">doi:10.1007/JHEP05(2018)094</a>)
+
+
 and via the [[conformal bootstrap]]:
 
 
