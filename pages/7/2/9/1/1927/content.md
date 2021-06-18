@@ -61,6 +61,9 @@ Every effective epimorphism is, of course, a [[regular epimorphism]] and hence a
 
 ## References
 
+* {#Grothendieck61} [[Alexander Grothendieck]], p. 101 (4 of 21) in: _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+
+
 In [[toposes]] effective epimorphisms are considered in 
 
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], section IV.7  of _[[Sheaves in Geometry and Logic]]_
