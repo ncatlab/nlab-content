@@ -26,7 +26,7 @@ An __absorption category__ or __annihilation category__ $C$ is a [[category]] wh
 
 [Is this terminology attested in the literature?] 
 
-Such a structure is the same thing as a [[enriched category theory|category enriched]] in the category of [[pointed sets]], taking the [[monoidal category|monoidal product]] to be the [[wedge product]].  
+Such a structure is the same thing as a [[enriched category theory|category enriched]] in the category of [[pointed sets]], taking the [[monoidal category|monoidal product]] to be the [[smash product]].  
 
 ## Examples
 
