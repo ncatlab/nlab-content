@@ -46,7 +46,7 @@ Similarly [[Tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska
 
 Original articles include
 
-* {#Anderson69} D. W. Anderson, _Universal coefficient theorems for K-theory_, mimeographed notes, Univ. California, Berkeley, Calif., 1969.
+* {#Anderson69} [[Donald W. Anderson]], _Universal coefficient theorems for K-theory_, mimeographed notes, Univ. California, Berkeley, Calif., 1969.
 
 * Zen-ichi Yosimura, Universal coefficient sequences for cohomology theories of CW-spectra, Osaka J. Math. 12 (1975), no. 2, 305&#8211;323. MR 52 #9212
 
