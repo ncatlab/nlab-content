@@ -37,3 +37,4 @@ We have $2^\kappa = 2^{\kappa \times \kappa} = (2^\kappa)^\kappa$. If $(\lambda_
 The appeal to the axiom of choice _in the form discussed above_ is unnecessary, since $2^\kappa = \prod_{i\in \kappa} 2$ is obviously inhabited. However, there are other ways in which choice-specific features make themselves known, for instance $2^\kappa$ is a cardinal (i.e. has a well-ordering). And the statement that every infinite cardinal $\kappa$ satisfies $\kappa \simeq \kappa \times \kappa$ is equivalent to the axiom of choice. And lastly, the definition of cofinality is very difficult in the absence of AC, see for instance [this blog post by Karagila](http://karagila.org/2015/cofinality-and-the-axiom-of-choice/).
 
 [[!redirects König’s theorem]]
+[[!redirects Konig's theorem]]
