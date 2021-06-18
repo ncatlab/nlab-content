@@ -75,7 +75,7 @@ Typically, one wants that $i$ is [[dense functor]], i.e. that every object $c$ o
 $$
 \mathrm{colim}((i/c)\stackrel{\mathrm{pr}_S}{\longrightarrow} S \stackrel{i}{\to} C) = c,
 $$
-which is equivalent to the requirement that the corresponding nerve functor is [[full and faithful functor|fully faithful]] (in other words, if $i$ is inclusion then $S$ is a left adequate subcategory of $C$ in terminology of \[Isbell 1960\]). 
+which is equivalent to the requirement that the corresponding nerve functor is [[full and faithful functor|fully faithful]] (in other words, if $i$ is inclusion then $S$ is a left adequate subcategory of $C$ in terminology of [Isbell 60](#Isbell60)). 
 The nerve functor may be viewed as a [[singular functor]] of the functor $i$.
 
 ## Examples ##
@@ -688,17 +688,20 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 
 ### For covers
 
-The original definition was given in 1926 by [[Paul Alexandroff]]:
+The notion of the nerve of an [[cover]] (in modern parlance: of its [[Cech groupoid]]) appears in: 
 
-* [[Paul Alexandroff]], _Über den allgemeinen Dimensionsbegriff und seine Beziehungen zur elementaren geometrischen Anschauung_, Mathematische Annalen 98 (1928), 617–635. [doi:10.1007/BF01451612](https://doi.org/10.1007/BF01451612).
+* [[Paul Alexandroff]], Section 9 of: _Über den allgemeinen Dimensionsbegriff und seine Beziehungen zur elementaren geometrischen Anschauung_, Mathematische Annalen 98 (1928), 617–635 ([doi:10.1007/BF01451612](https://doi.org/10.1007/BF01451612)).
+
 
 ### For categories
 
-The notion of the nerve of a category may be due to [[Grothendieck]]. 
+The notion of the nerve of a general category may be due to:
 
-A first description in print is:
+* [[Alexander Grothendieck]],  *Th&eacute;orie  de  la  descente,  etc.*,   Seminaire  Bourbaki,  **195**  (1959-1960)
 
-* [[Graeme Segal]], Section 3 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
+and its first prominent appearance in print is:
+
+* [[Graeme Segal]], Section 2 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
 
   > (in the context of constructing [[classifying spaces]] for [[principal bundles]] in [[algebraic topology]])
 
@@ -713,9 +716,9 @@ Review and exposition:
 
 See also:
 
-* [[W. G. Dwyer]], [[D. M. Kan]], Singular functors and realization functors, Nederl. Akad. Wetensch. Indag. Math. 46 (1984), no. 2, 147--153. [pdf](http://www.nd.edu/~wgd/Dvi/SingularAndRealization.pdf)
+* {#Isbell60} [[John Isbell]], *Adequate subcategories*, Illinois J. Math. 4, 541--552 (1960) ([doi:10.1215/ijm/1255456274](https://www.projecteuclid.org/journals/illinois-journal-of-mathematics/volume-4/issue-4/Adequate-subcategories/10.1215/ijm/1255456274.full))
 
-* [[John Isbell]], *Adequate subcategories*, Illinois J. Math. 4, 541--552 (1960) ([doi:10.1215/ijm/1255456274](https://www.projecteuclid.org/journals/illinois-journal-of-mathematics/volume-4/issue-4/Adequate-subcategories/10.1215/ijm/1255456274.full))
+* [[W. G. Dwyer]], [[D. M. Kan]], Singular functors and realization functors, Nederl. Akad. Wetensch. Indag. Math. 46 (1984), no. 2, 147--153. [pdf](http://www.nd.edu/~wgd/Dvi/SingularAndRealization.pdf)
 
 
 ### For higher categories
@@ -730,7 +733,7 @@ For [[2-categories]]:
 
 For [[3-categories]]:
 
-* {#Carrasco2014} Pilar Carrasco, _Nerves of Trigroupoids as Duskin-Glenn’s $3$-Hypergroupoids_, Applied Categorical Structures 23.5 (2015): 673-707.
+* {#Carrasco2014} Pilar Carrasco, _Nerves of Trigroupoids as Duskin-Glenn’s $3$-Hypergroupoids_, Applied Categorical Structures 23.5 (2015): 673-707 ([doi:10.1007/s10485-014-9374-7](https://doi.org/10.1007/s10485-014-9374-7))
 
 
 
