@@ -13,8 +13,14 @@ On the [[flavour anomalies]]:
 
 * Pere Arnan, [[Andreas Crivellin]], Marco Fedele, Federico Mescia, _Generic Loop Effects of New Scalars and Fermions in $b \to s \ell^+ \ell^-$ and a Vector-like 4th Generation_ ([arXiv:1904.05890](https://arxiv.org/abs/1904.05890))
 
-
 * [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
+
+* {#Crivellin21} [[Andreas Crivellin]], *Heavy Flavours -- Theory*, talk at [LHCP, Paris 2021](https://indico.cern.ch/event/905399/) ([[CrivellinLHCP2021.pdf:file]])
+
+
+Via [[leptoquarks]]:
+
+* Alexandre Carvunis, [[Andreas Crivellin]], Diego Guadagnoli, Shireen Gangal, *The Forward-Backward Asymmetry in $B \to D^\ast \ell \nu$: One more hint for Scalar Leptoquarks?* ([arXiv:2106.09610](https://arxiv.org/abs/2106.09610))
 
 Via [[Z' bosons]]:
 
