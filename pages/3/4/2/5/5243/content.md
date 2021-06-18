@@ -67,6 +67,7 @@ The category of [[complex manifolds]] and [[holomorphic maps]] can be embedded i
 
 *  [[Oka manifold]]. 
 
+* [[smooth Oka principle]]
 
 ## References
 
