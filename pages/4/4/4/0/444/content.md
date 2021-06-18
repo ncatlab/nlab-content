@@ -686,9 +686,15 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 
 ## References
 
+### For covers
+
+The original definition was given in 1926 by [[Paul Alexandroff]]:
+
+* [[Paul Alexandroff]], _Über den allgemeinen Dimensionsbegriff und seine Beziehungen zur elementaren geometrischen Anschauung_, Mathematische Annalen 98 (1928), 617–635. [doi:10.1007/BF01451612](https://doi.org/10.1007/BF01451612).
+
 ### For categories
 
-The notion of the nerve of a category may be due to [[Grothendieck]], based on the nerve of a covering from 1926 work of [[Pavel Sergeevič Aleksandrov]]. 
+The notion of the nerve of a category may be due to [[Grothendieck]]. 
 
 A first description in print is:
 
