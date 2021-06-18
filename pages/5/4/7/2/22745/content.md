@@ -10,6 +10,10 @@ Due to the [[reflexivity]] of the partial order, ordered rings may have [[zero d
 
 ## Related concepts
 
+* [[pseudolattice ordered ring]]
+
+* [[totally ordered ring]]
+
 * [[ordered field]]
 
 * [[ordered integral domain]]
