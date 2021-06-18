@@ -43,8 +43,7 @@ Then one may call a lattice that *does* have a top and a bottom a __bounded latt
 
 The other approach is to define a lattice, as above, to require a top and a bottom and then use the term __pseudolattice__ to allow for the possibility that it might not.
 
-From an algebraic point of view, requiring top and bottom is quite natural, a special case of preferring [[monoids]] to more general [[semigroups]].  In any case, one can formally adjoin a top and a bottom if required.  On the other hand, many examples, especially from analysis, do not come with a top or a bottom, and adjoining them would break the other structure.  For example, adjoining top ($\infty$) and bottom ($-\infty$) to the [[real line]] makes it no longer a [[field]] (addition is especially problematic); more generally, a [[Banach lattice]] need not (and, except in one degenerate case, cannot) have a top or a bottom.
-
+From an algebraic point of view, requiring top and bottom is quite natural, a special case of preferring [[monoids]] to more general [[semigroups]].  In any case, one can formally adjoin a top and a bottom if required.  On the other hand, many examples, especially from analysis, do not come with a top or a bottom, and adjoining them would break the other structure. For example, adjoining top ($\infty$) and bottom ($-\infty$) to the [[real line]] makes it no longer a [[field]] (addition is especially problematic); more generally, a [[Banach lattice]] need not (and, except in one degenerate case, cannot) have a top or a bottom. In fact, adjoining top and bottom to any [[total order|totally]] [[ordered ring]] makes it no longer a [[ring]]. 
 
 ## Lattice homomorphisms
 
