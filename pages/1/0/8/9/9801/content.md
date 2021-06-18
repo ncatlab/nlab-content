@@ -180,4 +180,8 @@ Emphasis of the special case of abelian gauging in Section 2 of
 
 
 [[!redirects gauged Wess-Zumino-Witten model]]
-[[!redirects gauged Wess-Zumino-Witten modesl]]
+[[!redirects gauged Wess-Zumino-Witten models]]
+
+[[!redirects gauged WZW-model]]
+[[!redirects gauged WZW-models]]
+
