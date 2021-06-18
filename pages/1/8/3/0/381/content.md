@@ -153,8 +153,7 @@ Alg. 47 (1987) 1-33.
 
 Another 1980s reference is
 
-* [[Ross Street]], _The algebra of oriented simplices_,
-J. Pure Appl. Algebra 49 (1987) 283-335; MR89a:18019 ([pdf](http://www.math.mq.edu.au/~street/aos.pdf)),
+* [[Ross Street]], _The algebra of oriented simplices_, J. Pure Appl. Algebra 49 (1987) 283-335; MR89a:18019 ([pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>),
 
 in which strict $\omega$-categories are called "$\omega$-categories."  This paper was also the first to define [[orientals]].
 
