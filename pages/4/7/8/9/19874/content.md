@@ -222,6 +222,8 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * Kayoung Ban, Yongsoo Jho, Youngjoon Kwon, Seong Chan Park, Seokhee Park, Po-Yan Tseng, *A comprehensive study of vector leptoquark on the B-meson and Muon $g-2$ anomalies* ([arXiv:2104.06656](https://arxiv.org/abs/2104.06656))
 
+* Alexandre Carvunis, [[Andreas Crivellin]], Diego Guadagnoli, Shireen Gangal, *The Forward-Backward Asymmetry in $B \to D^\ast \ell \nu$: One more hint for Scalar Leptoquarks?* ([arXiv:2106.09610](https://arxiv.org/abs/2106.09610))
+
 
 \linebreak
 
