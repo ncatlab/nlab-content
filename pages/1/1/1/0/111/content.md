@@ -46,7 +46,9 @@ For more background on and context for categories see
 There are two broad ways to write down the definition of category; in the usual [[foundations of mathematics]], these two definitions are equivalent.  It is good to know both, for several reasons:
 
 *  Each introduces its own system of notation, both of which are useful in other parts of category theory, so one should know them.
+
 *  One definition generalises quite nicely to the notion of [[internal category]], while the other generalises quite nicely to the notion of [[enriched category]]; these are both important concepts.
+
 *  When examining alternative foundations, sometimes one definition or the other may be more appropriate; in any case, one will want to examine the question of their equivalence.
 
 The two definitions may be distinguished by whether they use a single collection of all [[morphisms]] or several collections of morphisms, a [[family of sets|family of collections]] indexed by pairs of [[objects]].
@@ -54,6 +56,8 @@ The two definitions may be distinguished by whether they use a single collection
 
 ### With one collection of morphisms
  {#OneCollectionOfMorphisms}
+
+([Grothendieck 61, Section 4](#Grothendieck61))
 
 A __category__ $C$ consists of 
 
@@ -267,10 +271,14 @@ Other standard operations on categories include
 
 The concept originates in
 
-* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society
-Vol. 58, No. 2 (Sep., 1945), pp. 231-294, doi:[10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6) ([JSTOR](http://www.jstor.org/stable/1990284))
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society Vol. 58, No. 2 (Sep., 1945), pp. 231-294, doi:[10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6) ([JSTOR](http://www.jstor.org/stable/1990284))
 
-The standard textbook is
+The definition "with a single set of morphisms" (i.e. as [[internal categories]] in [[Set]]) appears in:
+
+* {#Grothendieck61} [[Alexander Grothendieck]], Section 4 of: _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+
+
+Textbook accounts:
 
 * [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_
 
