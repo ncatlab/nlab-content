@@ -225,7 +225,7 @@ $$
   B U_{\mathcal{K}} \coloneqq U(\mathcal{H})/U_{\mathcal{K}}
 $$
 
-is a model for the [[classifying space]] of reduced K-theory.
+is a model for the [[classifying space]] of reduced complex [[topological K-theory]] [[KU]].
 
 ## Related concepts
 
@@ -233,22 +233,24 @@ is a model for the [[classifying space]] of reduced K-theory.
 
 ## References
 
-Introductions are in
+Discussion in the context of [[topological K-theory]]:
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
  
-
 * {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
  
-
-* {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_ 
+* {#Karoubi} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
  
-
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
-The [[H-space]] structure on $B U \times \mathbb{Z}$ is discussed in
+Discussion in the broader context of [[twisted equivariant topological K-theory]]:
 
-* [[Peter May]],  p. 205 (213 of 251 in _[[A Concise Course in Algebraic Topology]]_.
+* Noe Barcenas, Jesus Espinoza, [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2014) ([doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061), [arXiv:1202.1880](https://arxiv.org/abs/1202.1880))
+
+
+On the [[H-space]] structure on $B U \times \mathbb{Z}$:
+
+* [[Peter May]],  p. 205 (213 of 251) in: _[[A Concise Course in Algebraic Topology]]_.
 
 
 [[!redirects stable unitary groups]]
