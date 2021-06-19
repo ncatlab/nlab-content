@@ -45,11 +45,11 @@ because this identifies morphisms out of $&#643; X$ as [[higher parallel transpo
 
 Concretely, in the [[cohesive ∞-topos]] of [[smooth ∞-groupoids]] it is readily checked ([[schreiber:differential cohomology in a cohesive topos|dcct]], see around [here](smooth+infinity-groupoid+--+structures#FlatCoefficientsForDeloopedLieGroup) at *[[smooth ∞-groupoid -- structures]]*) that $\flat \mathbf{B}\mathcal{G}$ indeed classifies [[flat ∞-connections]] in the traditional sense. 
 
-It requires more work to show that, in this case, $&#643; X$ is indeed modeled by a [[path ∞-groupoid]] in the traditional sense (say based on the idea of the smooth [[singular simplicial complex]]). That this is indeed the case is Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod} below, due to [[Dmitri Pavlov]] et al.
+It requires more work to show, even in this concrete smooth case, that $&#643; X$ is indeed modeled by a [[path ∞-groupoid]] in the traditional sense (say based on the idea of the smooth [[singular simplicial complex]]). That this is indeed the case is Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod} below, due to [[Dmitri Pavlov]] et al.
 
+This fact has some remarkable consequences, which we develop [further below](#Consequences).
 
-## Statement
- {#Statement}
+## Details
 
 Throughout, 
 
@@ -71,6 +71,10 @@ Throughout,
 \]
 
 denotes the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]], which is the [[hypercomplete (∞,1)-topos]] over the [[site]] of [[smooth manifolds]] or equivalently over the [[dense subsite]] of [[Cartesian spaces]].
+
+
+### Smooth path $\infty$-groupoid
+
 
 \begin{definition}\label{SmoothExtendedSimplices}
 **(smooth extended [[simplices]])** \linebreak
@@ -94,7 +98,7 @@ $$
     \,\in\,
     \mathbb{R}^{n+1}
     \,\left\vert\,
-    \sum_i x_i \,=\, 0
+    \sum_i x_i \,=\, 1
     \right.
   \Big\}
   \;\subset\;
@@ -108,20 +112,48 @@ and with co-degeneracy and co-face maps given by addition of consecutive variabl
 **([[path ∞-groupoid]])** \linebreak
   For $A \,\in\, SmoothGroupoids_\infty = Sh_\infty(CartesianSpaces)$, 
   write
-  $$
+  \[
+    \label{SimplicialFormulaForPathInfinityGroupoid}
+    \begin{aligned}
     Sing(A)
+    &
     \;\coloneqq\;
     \underset{\underset{[n] \in \Delta^{op}}{\longrightarrow}}{\lim}
     X
     \big(
        \Delta^n_{smth}
     \big)
+    \\
+    & \;\simeq\;
+    \underset{\underset{[n] \in \Delta^{op}}{\longrightarrow}}{\lim}
+    \mathbf{H}
+    \big(
+      \Delta^n_{smth},
+      X
+    \big)
+    \;
     \;\;\;
     \in
     Groupoids_\infty
-  $$
-  for the [[homotopy colimit]] (in [[∞-groupoids]]) of the evaluation of $A$ (as a [[(∞,1)-presheaf]]) on the smooth extended simplices (Def. \ref{SmoothExtendedSimplices}).
+    \end{aligned}
+  \]
+  for the [[homotopy colimit]] (in [[∞-groupoids]]) of the evaluation of $A$ (as an [[(∞,1)-presheaf]]) on the smooth extended simplices (Def. \ref{SmoothExtendedSimplices}).
+
+Here in the second line we recall, just for emphasis, how, under the [[(∞,1)-Yoneda lemma]], these values are the [[∞-groupoids]] of the $\Delta^n$-shaped *[[plots]]* of the [[generalized smooth space]] $X$.
 \end{definition}
+
+\begin{example}
+  For $X \,\in\, DiffeologicalSpaces \xhookrightarrow{\;\;y\;\;} SmoothGroupoids_\infty$ a [[diffeological space]] (in particular: a [[smooth manifold]]) its [[path ∞-groupoid]] in the sense of Def. \ref{PathInfinityGroupoid}) is its ordinary smooth [[singular simplicial complex]] (e.g. [Christensen & Wu 13, Def. 4.3](#ChristensenWu13)).
+
+This follows by 
+
+1. the [[sub-(infinity,1)-category|fully faithful embedding]] of [[diffeological spaces]] as the [[concrete object|concrete]] [[n-truncated object of an (infinity,1)-category|0-truncated objects]] (see [here](diffeological+space#EmbeddingOfDiffeologicalSpacesIntoTheSheafTopos));
+
+1. the fact that [every simplicial set is the homotopy colimt over its cells](homotopy+limit#SimplicialSetIsHomotopyColimitOverItself).
+
+\end{example}
+
+### Equivalence to smooth shape modality
 
 \begin{proposition}\label{SmoothShapeModelityGivenBySmoothPathInfinityGroupod}
 **(smooth [[shape modality]] given by smooth [[path ∞-groupoid]])**
@@ -152,36 +184,40 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
 
 1. is in fact an [[(∞,1)-sheaf]]
 
-   $$
+   \[
      \mathbf{Sing}(A)
      \;\in\;
      Sh_\infty(CartesianSpaces)
      \xhookrightarrow{\;\;\;}
      PSh_\infty(CartesianSpaces)
-   $$
+   \]
 
 1. as such is equivalent to the [[shape modality|shape]] of $A$:
 
-   $$
+   \[
+     \label{ShapeEquivalentToSmoothlyParameterizedPathInfinityGroupoid}
      &#643; A
      \;\simeq\;
      \mathbf{Sing}(A)
      \,,
-   $$
+   \]
 
    which means in particular (by $&#643; \simeq Disc \circ Shape$) that it is equivalent to the plain [[path ∞-groupoid]] from Def. \ref{PathInfinityGroupoid}, equipped with [[discrete object|discrete]] smooth structure:
 
-   $$
+   \[
+     \label{SmoothlyParameterizePathInfinityGroupoidIsDiscrete}
      \mathbf{Sing}(A) \;\simeq\; Disc \circ Sing(A)
      \,.
-   $$
+   \]
   
 \end{proposition}
 
 This is due to [Pavlov et al. 19, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 14, Thm. 0.2](#Pavlov). The analogous statement for sheaves of [[stable homotopy types]] (which follows essentially formally) was observed in [BNV 13, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case).
 
-## Consequences
+\linebreak
 
+## Consequences
+ {#Consequences}
 
 ### Smooth Oka principle
  {#ConsequenceSmoothOkaPrinciple}
@@ -308,6 +344,7 @@ Since the composite of these equivalences is still [[natural equivalence|natural
 \end{proof}
 
 ### Classification of principal $\infty$-bundles
+  {#ClassificationOfPrincipalInfinityBundles}
 
 \begin{definition}
   \label{ClassifyingSpaceAsShapeOfDelooping}
@@ -333,7 +370,8 @@ Since the composite of these equivalences is still [[natural equivalence|natural
 \begin{remark}
 Recall that $\mathbf{B}\mathcal{G}$ is the [[moduli stack]] of $\mathcal{G}$-[[principal ∞-bundles]], in that for $X \in SmoothGroupoids_\inft$ there is a [[natural equivalence]] (of [[∞-groupoids]])
 
-$$
+\[
+  \label{ModulationOfPrincipalInfinityBundles}
   \mathcal{G}PrinBund_X
   \;\;
   \simeq
@@ -344,7 +382,7 @@ $$
   \;
   Groupoids_\infty
   \,.
-$$
+\]
 
 In particular, upon [[n-truncated object of an (infinity,1)-category|0-truncation]] $\tau_0$, this means that the [[moduli stack]] $\mathbf{B}\mathcal{G}$ classifies [[equivalence classes]] of [[principal ∞-bundles]]:
 
@@ -361,10 +399,10 @@ $$
   \,.
 $$
 
-But for this reduced information much less than the full [[moduli stack]] may be necessary: A *[[classifying space]]* for $\mathcal{G}$-[[principal ∞-bundles]] is a [[discrete object]] in $Groupoids_\infty \xhookrightarrow{Disc} SmoothGroupoids_\infty$, such that [[homotopy classes]] of maps into its still correspond to [[equivalence classes]] of [[principal ∞-bundles]], at least over suitable domains.
+But for this reduced information much less than the full [[moduli stack]] may be necessary: A *[[classifying space]]* for $\mathcal{G}$-[[principal ∞-bundles]] is a [[discrete object]] in $Groupoids_\infty \xhookrightarrow{Disc} SmoothGroupoids_\infty$, such that [[homotopy classes]] of maps into it still correspond to [[equivalence classes]] of [[principal ∞-bundles]], at least over suitable domains.
 \end{remark}
 
-Slightly coarser than plain equivalence classes of principal $\infty$-bundles are [[concordance classes]] of principal $\infty$-bundles (in fact, often the two notions coincide):
+Slightly coarser than plain equivalence classes of principal $\infty$-bundles are [[concordance classes]] of principal $\infty$-bundles (in fact, often the two notions coincide, see e.g. [Roberts-Stevenson 16, Cor. 15](#nonabelian+cohomology#RobertsStevenson16)):
 
 \begin{definition}\label{ConcordanceClassesOfPrincipalInfinityBundles}
   **([[concordance classes]] of [[principal ∞-bundles]])** \linebreak
@@ -378,7 +416,7 @@ Slightly coarser than plain equivalence classes of principal $\infty$-bundles ar
   $$
     \widehat P \;\in\; \mathcal{G}PrinBund_{X \times \mathbb{R}}
   $$
-  whose restriction to the points $0,1 \,\in\, mathbb{R}$ is 
+  whose restriction to the points $0,1 \,\in\, \mathbb{R}$ is 
   [[equivalence in an (∞,1)-category|equivalent]] to the 
   given pair of bundles:
   $$
@@ -394,7 +432,8 @@ Slightly coarser than plain equivalence classes of principal $\infty$-bundles ar
     \,.
   $$
   We write
-  $$
+  \[
+    \label{SetOfConcordanceClassesOfPrincipalInfinityBundles}
     \big(
        \mathcal{G}PrinBund_X
     \big)_{/\sim_{conc}}
@@ -408,11 +447,12 @@ Slightly coarser than plain equivalence classes of principal $\infty$-bundles ar
     \big(
        \mathcal{G}PrinBund_{X \times \mathbb{R}}
     \big)
-  $$
+  \]
   for the set of [[equivalence classes]] of [[principal ∞-bundles]] under this concordance [[relation]].
 \end{definition}
 
-\begin{proposition}
+\begin{proposition}\label{ClassificationOfSmoothPrincipalInfinityBundlesUpToConcordance}
+**([[classifying spaces]] for [[smooth ∞-groupoid|smooth]] [[principal ∞-bundles]] up to [[concordance]])**
   For 
 
   * any [[smooth ∞-group]] $\mathcal{G} \,\in\, Groups(SmoothGroupoids_\infty)$;
@@ -441,6 +481,7 @@ $$
 \end{proposition}
 
 \begin{proof}
+This follows as the [[composition]] of the following sequence of [[natural bijections]]:
 
 $$
 \begin{aligned}
@@ -576,12 +617,38 @@ $$
   \end{aligned}
 $$
 
+Here:
+
+* the first step is the relation between the [[(∞,1)-categorical hom-space]] and the [[internal hom]] via the Points-functor $Pts(X) \coloneqq \mathbf{H}(\ast,X)$;
+
+* the second step is the definition of the classifying space (Def. \ref{ClassifyingSpaceAsShapeOfDelooping});
+
+* the third step is the smooth Oka principle (Prop. \ref{SmoothOkaPrinciple});
+
+* the fourth step is the relation $&#643; \;\simeq\; Disc \circ Sing$ (eq:SmoothlyParameterizePathInfinityGroupoidIsDiscrete) from Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod};
+
+* the fifth step is the relation $Pnts \circ Disc \simeq id$, valied in any [[cohesive (∞,1)-topos]];
+
+* the sixth step is (eq:SimplicialFormulaForPathInfinityGroupoid) from Def. \ref{PathInfinityGroupoid};
+
+* the seventh step is the formula for the [[internal hom]] by the [[closed monoidal structure on presheaves]];
+
+* the eighth step is the modulation of principal $\infty$-bundles by their [[moduli stack]] (eq:ModulationOfPrincipalInfinityBundles);
+
+* the ninth step uses that [[n-truncated object in an (infinity,1)-category|n-truncation]] is a [[left adjoint|left]] [[adjoint (∞,1)-functor]] and hence commutes with [[(∞,1)-colimits]];
+
+* the tenth step uses that the inclusion of the first two face maps into the [[opposite category|opposite]] of the [[simplex category]] is a [[final functor]] (by [this example](final+functor#FirstPairOfFaceMapsFinalInOppositeSimplexCategory), noting that this happens in the [[1-category]] of [[n-truncated object in an (infinity,1)-category|0-truncated]] [[∞-groupoids]], hence in [[Sets]]);
+
+* the eleventh step invokes the definition (eq:SetOfConcordanceClassesOfPrincipalInfinityBundles) of [[concordance]] of principal $\infty$-bundles (Def. \ref{ConcordanceClassesOfPrincipalInfinityBundles}).
+
 \end{proof}
 
 
 ## Related concepts
 
 * [[concordance]]
+
+* [[higher parallel transport]]
 
 ## References
 
@@ -595,6 +662,9 @@ with a precursor observation in:
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
+For [[diffeological spaces]] among all smooth $\infty$-groupoids, their smooth path $\infty$-groupoid was considered also in:
+
+* {#ChristensenWu13} [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], Def. 4.3 of: _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
 [[!redirects shape via cohesive path infinity-groupoid]]
 
