@@ -30,12 +30,14 @@ __Euler's theorem on rotations__: a composition of rotations of a sphere is a ro
 
 Consider the vector space $\mathbf{R}^3\subset\mathbf{H}$ of imaginary quaternions. Let $s\in\mathbf{R}^3\backslash\{0\}$. Then $\sigma_{s^\perp}:q\mapsto -s q s^{-1}$ is a reflection with respect to the plane through origin and orthogonal to $q$. If $s\in\mathbf{H}$ is a quaternion the map $\rho'_s:q\mapsto s q s^{-1}$ leaves the space $\mathbf{R}^3$ of imaginary quaternions invariant and the restriction $\rho_s = \rho'_s|_{\mathbf{R}^3}$ is a rotation. Every rotation arises in that way and the map $s\mapsto\rho_s$ factorizes as the quotient map to the space of real rays $\mathbf{H}\to\mathbf{R}P^3$ and a homeomorphism $\mathbf{R}P^3\cong SO(3)$. The composition of rotations corresponds to the multiplication of quaternions. Components $a,b,c,d$ of quaternions involved fixing $s\in\mathbf{H}$ at the unit sphere $S^3\subset\mathbf{H}$ are called __[Euler-Rodrigues parameters](https://en.wikipedia.org/wiki/Euler%E2%80%93Rodrigues_formula)__. There is a redundancy of 1 parameter (plus the matter of 2-element kernel in the map $S^3\to\mathbf{R}P^3$), but this choice has its advantage in numerical modeling as it avoids the special role of the boundaries for the Euler angles. 
 
-There is a similar construction for $SO(4)$ (see Berger, 8.9.8). Indeed, there is an epimorphism of Lie groups
+There is a similar construction for [[SO(4)]] (e.g. [Berger 87, Thm 8.9.8](#Berger87)). Indeed, there is an epimorphism of Lie groups (see at *[Spin(4) -- exceptional isomorphisms](Spin4#ExceptionalIsomorphisms)*)
 
 $$
-\tau : S^3\times S^3\to SO(4),\,\,\,\,(s,r)\mapsto \{q\mapsto s q\overline{r}\}
+  \tau   
+  \;\colonb\; 
+  S^3\times S^3\to SO(4),\,\,\,\,(s,r)\mapsto \{q\mapsto s q\overline{r}\}
 $$
-with kernel $\{(1,1),(-1,-1)\}$. The direct product structure of the domain can be used to easily exhibit some nontrivial subgroups in $SO(4)$. 
+with [[kernel]] $\{(1,1),(-1,-1)\}$. The [[direct product group|direct product]] structure of the [[domain]] can be used to easily exhibit some nontrivial [[subgroups]] in $SO(4)$. 
 
 
 ## Related concepts
@@ -48,7 +50,11 @@ with kernel $\{(1,1),(-1,-1)\}$. The direct product structure of the domain can 
 
 ## Literature
 
-* C. Berger, _Geometry_
+
+* {#Berger87} [[Marcel Berger]], *Geometry I*, Springer 1987 ([doi:10.1007/978-3-540-93815-6](https://doi.org/10.1007/978-3-540-93815-6))
+
+
+
 
 * Hui Cheng, K. C. Gupta, _An historical note on finite rotations_, J. Appl. Mech. Mar 1989, 56(1): 139-145 (7 pages) [doi](https://doi.org/10.1115/1.3176034)
 
