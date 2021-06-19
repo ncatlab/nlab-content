@@ -31,7 +31,7 @@ Since all the elementary topos structure follows from having [[finite limits]] a
 Let $\mathcal{E}$ be an [[elementary topos]]. Write $\Omega \in \mathcal{E}$ for the [[subobject classifier]]. For each [[object]] $A \in \mathcal{E}$ write
 
 $$
-  P A := \Omega^A
+  P A \coloneqq \Omega^A
 $$
 
 for the [[exponential object]]. Write
