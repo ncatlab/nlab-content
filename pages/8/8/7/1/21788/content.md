@@ -114,6 +114,9 @@ As a form of [[equivariant elliptic cohomology]] ([[twisted ad-equivariant Tate 
 
 * [[Zhen Huan]], _Quasi-elliptic cohomology_, 2017 ([hdl](http://hdl.handle.net/2142/97268))
 
+* [[Zhen Huan]], *Quasi-elliptic cohomology and its Spectrum* ([arXiv:1703.06562](https://arxiv.org/abs/1703.06562))
+
+
 * {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
 
 For simply-connected [[compact Lie groups]]:
