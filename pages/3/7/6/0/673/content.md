@@ -29,8 +29,10 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Papers
 
-* _The elementary construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552). Accepted to appear, Categories and General Algebraic Structures with Applications. (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title). 
+
 * _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]]. Accepted to appear, Annales de l'Institut Fourier, 3 August 2020.
+
+* _The elementary construction of formal anafunctors_, Categories and General Algebraic Structures with Applications, in press, [journal page](https://cgasa.sbu.ac.ir/article_101133.html), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552). (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title). 
 
 * _(Re)constructing code loops_, American Mathematical Monthly **128** Issue 2 (2021) 151–161, doi:[10.1080/00029890.2021.1852047](https://doi.org/10.1080/00029890.2021.1852047), [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Joint with Ben Nagy.
 
