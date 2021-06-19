@@ -21,6 +21,10 @@ The [[commutative ring]] of dyadic rational numbers $\mathbb{Z}[1/2]$ is the [[l
 
 * [[symmetric midpoint algebra]]
 
+* [[dyadic rational module]]
+
+* [[dyadic rational algebra]]
+
 ## References
 
 * Wikipedia, _[Dyadic rational](https://en.wikipedia.org/wiki/Dyadic_rational)_
