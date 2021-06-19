@@ -91,10 +91,14 @@ Discussion of concordance of topological [[principal bundles]] (in fact for [[si
 
 Discussion of concordance in terms of the [[shape modality]] in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]] (see at *[[shape via cohesive path ∞-groupoid]]* for more):
 
+* {#Pavlov14} [[Dmitri Pavlov]], _Structured Brown representability via concordance_, 2014 ([pdf](https://dmitripavlov.org/concordance.pdf), [[Pavlov_Concordance.pdf:file]])
+
 * {#BEBP} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
 
 [[!redirects concordances]]
 
 [[!redirects concordance class]]
 [[!redirects concordance classes]]
+
+
 
