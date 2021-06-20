@@ -176,7 +176,7 @@ Perhaps surprisingly, this adjunction is even a *simplicially enriched* adjuncti
 
 An early discussion of simplicial objects is in:
 
-* [[Alexander Grothendieck]], p. 108 (11 of 21) in: _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+* [[Alexander Grothendieck]], p. 108 (11 of 21) in: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), [English transl. pdf](https://labs.thosgood.com/builds/fga-3-III.pdf))
 
 
 See also:
