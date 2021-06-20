@@ -111,7 +111,7 @@ because the shear map (eq:ShearMapForBundles) is the universal comparison morphi
 
 Early explicit appearance of the shear map, alongside discussion of its [[isomorphism|isomorphy]] ([[pseudo-torsor]]-condition):
 
-* {#Grothendieck60} [[Alexander Grothendieck]], p. 312 (15 of 30) in: [[FGA]] *Technique de descente et théorèmes d’existence engéométrie algébrique. I. Généralités. Descente parmorphismes fidèlement plats*, Séminaire N. Bourbaki, 1960, exp. no190, p. 299-327 ([numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0))
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 312 (15 of 30) in: [[FGA]] *Technique de descente et théorèmes d’existence engéométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire N. Bourbaki, 1960, exp. no190, p. 299-327 ([numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0))
 
 * {#Grothendieck61} [[Alexander Grothendieck]], p. 105 (8 of 21) in: [[FGA ]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), [English transl. pdf](https://labs.thosgood.com/builds/fga-3-III.pdf))
 
