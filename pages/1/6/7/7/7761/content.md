@@ -29,7 +29,7 @@ In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory i
 
 * Marek W. Zawadowski, _Descent and duality_, Annals of Pure and Applied Logic __71__, n.2 (1995), 131&#8211;188
 
-* {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
+* {#Lurie} [[Jacob Lurie]], _Ultracategories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
 
 For a conjecture that ultracategories are a kind of generalized multicategory see
 
