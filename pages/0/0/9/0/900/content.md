@@ -202,7 +202,7 @@ The form of [[shape theory]] developed by  [[Sibe Mardesic|Marde&#353;i&#263;]] 
 
 ## References
 
-* [[Alexander Grothendieck]], Section A.2 of: *Technique de descente et théorèmes d'existence en géométrie algébriques. II. Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195, 22 p.  ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/?id=SB_1958-1960__5__369_0))
+* [[Alexander Grothendieck]], Section A.2 of: [[FGA]] *Technique de descente et théorèmes d'existence en géométrie algébriques. II. Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195, 22 p.  ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/?id=SB_1958-1960__5__369_0), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-II.pdf), [web version](https://thosgood.com/fga/book/FGA-3-II))
 
 
 
