@@ -98,7 +98,7 @@ $$C_1 \coloneqq \{c \in C: q^{-1}(\{c\}) \subseteq K_1\}, \qquad C_2 \coloneqq \
 
 and we observe $q^{-1}(C_1) = K_1$ and $q^{-1}(C_2) = K_2$. By definition of quotient topology, since $K_1, K_2$ are closed we infer $C_1, C_2$ are closed. They are also disjoint and $C = C_1 + C_2$, so by connectedness of $C$ either $C_1 = \emptyset$ or $C_2 = \emptyset$, and therefore $K_1 = q^{-1}(C_1)$ or $K_2 = q^{-1}(C_2)$ is empty, as required. 
 
-Finally, given a continuous map $f: X \to Y$ with $Y$ totally disconected, each connected component $C$ of $X$ is mapped to a connected set $f(C)$ of $Y$ which is a singleton by total disconnectedness of $Y$, and so we get a (unique) factoring through a map $X/\sim \to Y$, continuous of course by virtue of the quotient topology. This completes the proof. 
+Finally, given a continuous map $f: X \to Y$ with $Y$ totally disconnected, each connected component $C$ of $X$ is mapped to a connected set $f(C)$ of $Y$ which is a singleton by total disconnectedness of $Y$, and so we get a (unique) factoring through a map $X/\sim \to Y$, continuous of course by virtue of the quotient topology. This completes the proof. 
 =-- 
 
 
