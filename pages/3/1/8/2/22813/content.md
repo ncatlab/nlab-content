@@ -6,7 +6,7 @@
 
 On the [[field with one element]]:
 
-* [[Tim Hosgood]], _Under $\mathop{Spec}\mathbb{Z}$: a reader's companion_, master thesis, [pdf](https://thosgood.com/assets/files/under-spec-z.pdf).
+* [[Tim Hosgood]], _Under $\mathop{Spec}\mathbb{Z}$: a reader's companion_, master thesis, 2016 ([pdf](https://thosgood.com/assets/files/under-spec-z.pdf)).
 
 On [[simplicial Chern--Weil theory]]:
 
