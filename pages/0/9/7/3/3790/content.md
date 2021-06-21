@@ -10,7 +10,7 @@
 
 \section{Related nLab pages}
 
-* [[Mochizuki's corollary 3.1.2]]
+* [[Mochizuki's corollary 3.12]]
 * [[anabelioid]]
 * [[initial Θ-data]]
 * [[semi-graph]]
