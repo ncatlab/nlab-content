@@ -19,7 +19,13 @@ _Mochizuki's corollary 3.12_ or _Mochizuki's inequality_ is a conjecture by [[Sh
 
 ## Statement
 
-...
+Let $E$ be an [[elliptic curve]] over a [[number field]] $F$ with [[initial theta data]] $(\overline{F}/F, E_F, l, \underline{M}, \underline{V}, V_{mod}^{bad}, \underline{\epsilon})$. Then the following inequality holds:
+
+$$
+  -\underline{\widehat{deg}}(P_q)\leq\underline{\widehat{deg}}_{lgp}(P_{hull(U_\Theta)})
+$$
+
+TODO: details
 
 ## Consequences
 
