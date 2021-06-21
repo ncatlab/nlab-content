@@ -68,6 +68,9 @@ The case of [[twisted ad-equivariant Tate K-theory]]:
 
 * {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
 
+* {#Huan18Quasi} [[Zhen Huan]], *Quasi-theories* ([arXiv:1809.06651](https://arxiv.org/abs/1809.06651))
+
+
 * Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
 
 * Thomas Dove, _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
