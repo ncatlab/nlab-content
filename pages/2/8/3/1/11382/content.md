@@ -63,15 +63,16 @@ A modern walk through the derivation of gravitational waves from linearization o
 
 * {#Guidry13} Mike Guidry, _[Astrophysics 616: General Relativity, Black Holes, and Cosmology](http://eagle.phys.utk.edu/guidry/astro616/)_ -- _Chapter 21 -- Gravitational waves_ ([pdf](http://eagle.phys.utk.edu/guidry/astro616/lectures/lecture_ch21.pdf))
 
-
-
-
-
-
 See also
 
 * Wikipedia, _[Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)_
 
+Review in view of modern gravitational wave detection (see [below](#ReferencesExperimentalObservation)):
+
+* Rong-Gen Cai et al., *The Gravitational-Wave Physics*, National Science Review 4 (2017) 687-706 ([arXiv:1703.00187](https://arxiv.org/abs/1703.00187), [doi:10.1093/nsr/nwx029](https://doi.org/10.1093/nsr/nwx029))
+
+
+* Ligong Bian et al., *The Gravitational-Wave Physics II: Progress* ([arXiv:2106.10235](https://arxiv.org/abs/2106.10235))
 
 ### Theoretical predictions
   {#eferencesTheoreticalPredictions}
