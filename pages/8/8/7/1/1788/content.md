@@ -1,4 +1,31 @@
 
+$$
+  (S^1)\hat{_I}
+$$
+
+$$
+  Ext
+  \Big(
+    \big(
+      \mathcal{L}^{const} X 
+    \big) \!\sslash\! S^1
+  \Big)
+  \longrightarrow
+  A
+$$
+
+$$
+  \big(
+    \mathcal{L}^{const} X 
+  \big) \!\sslash\! S^1
+  \longrightarrow
+  Cyc(A)
+$$
+
+\linebreak
+
+\linebreak
+
 Let $\mathcal{C}$ be a [[small category]]. We write
 
 \[
