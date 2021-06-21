@@ -14,4 +14,17 @@ On [[equivariant elliptic cohomology]] in the form of [[twisted ad-equivariant T
 
 * {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
 
+
+
+## Related $n$Lab entries
+
+* [[Tate K-theory]]
+
+* [[orbifold K-theory]]
+
+* [[equivariant elliptic cohomology]]
+
+* [[cyclic loop space]]
+
+
 category: people
