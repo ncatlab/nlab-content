@@ -44,7 +44,7 @@ The logic of the final part of Mochizuki's approach to the [[abc conjecture]] is
 
 \begin{proof} Follows immediately from Corollary \ref{CorollaryInequalityForConstant} and Assumption \ref{AssumptionConstantInvolvedInAbcConjecture}. \end{proof}
 
-\begin{rmk} That Assumption \ref{AssumptionMainInequalityInIUTT} holds is the fundamental result of the IUTT series of papers. It is Corollary 3.12 in [IUTT III](#IUTTIII), and it is this corollary to which the objections raised by Scholze and Stix pertain.
+\begin{rmk} That Assumption \ref{AssumptionMainInequalityInIUTT} holds is the fundamental result of the IUTT series of papers. It is [[Mochizuki's corollary 3.12|Corollary 3.12]] in [IUTT III](#IUTTIII), and it is this corollary to which the objections raised by Scholze and Stix pertain.
 
 That Assumption \ref{AssumptionConstantInvolvedInAbcConjecture} holds is the main purpose of [IUTT IV](#IUTTIV). It is established by Theorem 1.10 and Corollary 2.2. Theorem 1.10 establishes the particular inequality of the form $c_{\mathbb{M}} \geq -1$ that will be made use of; Corollary 2.2 specialises and refines it to an inequality which directly implies the abc conjecture. As far we know, these parts of the argument are expected to be sound.
 \end{rmk}
@@ -104,6 +104,8 @@ TODO: FINISH
 
 * [[initial Θ-data]]
 
+* [[Mochizuki's corollary 3.12]]
+
 * [[universe polymorphism]]
 
 * [[poly-morphism]] (not to be be confused with [[polymorphism]])
@@ -137,7 +139,7 @@ Surveys include
 
 * {#Morrow17} [[Jackson Morrow]], _Kummer classes and Anabelian geometry_, notes from Super [QVNTS](http://www.dms.umontreal.ca/%7Eqvnts/): [Kummer Classes and Anabelian Geometry](http://www.uvm.edu/%7Etdupuy/anabelian.html) 2017 ([pdf](https://www.dropbox.com/s/kiszgkrrsjrqu4p/VermontNotes_Final.pdf?dl=0))
 
-The following two papers give a _statement_ of Corollary 3.12 in plain language (not using the elaborate setup in the IUT papers), and **assuming** the inequality in it as given, derive concrete versions of (weakenings of) Szpiro's conjecture, again, using conventional terminology and techniques.
+The following two papers give a _statement_ of [[Mochizuki's Corollary 3.12]] in plain language (not using the elaborate setup in the IUT papers), and **assuming** the inequality in it as given, derive concrete versions of (weakenings of) Szpiro's conjecture, again, using conventional terminology and techniques.
 
 * [[Taylor Dupuy]], Anton Hilado, _The Statement of Mochizuki's Corollary 3.12, Initial Theta Data, and the First Two Indeterminacies_, arXiv:[2004.13228](https://arxiv.org/abs/2004.13228)
 
