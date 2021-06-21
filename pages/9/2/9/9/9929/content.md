@@ -819,8 +819,12 @@ The cohomology of $\mathbb{C}P^\infty$ is naturally computed as the [[inverse li
 
 See also for instance remark 1.1. in [[Jacob Lurie]]: _[[A Survey of Elliptic Cohomology]]_.
 
-
 =--
+
+\begin{example}\label{ComplexKTheoryOfClassifyingSpaceOfCircleGroup}
+**([[topological K-theory]] of [[classifying space]] of [[circle group]])**
+  For the case of [[topological K-theory]] $E = $ [[KU]], the cohomology ring $KU^\bullet(B U(1)) \;\simeq\; \mathbb{Z}[ [ c_1^{KU}] ]$ (Prop. \ref{CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}) may also be computed via the [[Atiyah-Segal completion theorem]], see the [Example there](Atiyah-Segal+completion+theorem#ComplexTopologicalKTheoryOfBS1).
+\end{example}
 
 
 ### Formal group law
