@@ -211,3 +211,6 @@ But since everything else commutes, the two ways of going around this diagram co
 * [[hom-functor preserves limits]]
 
 * [[adjoints preserve (co-)limits]]
+
+[[!redirects colimits of presheaves are computed objectwise]]
+
