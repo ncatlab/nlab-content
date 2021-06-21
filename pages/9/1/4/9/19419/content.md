@@ -78,6 +78,10 @@ We shall assume that we have defined the notion of a _compactly bounded_ subset 
 
 \begin{rmk} Given a Mochizuki elliptic curve $E$, one can show that one can construct initial Θ-data whose elliptic curve is $E$. TODO: details. \end{rmk} 
 
+\section{Related concepts}
+
+* [[Mochizuki's corollary 3.12]]
+
 \section{References}
 
 * {#MochizukiIUTTI} [[Shinichi Mochizuki]], _Inter-Universal Teichmüller Theory I: Construction Of Hodge Theaters_, (2017). [Link to paper](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf)
@@ -95,3 +99,8 @@ We shall assume that we have defined the notion of a _compactly bounded_ subset 
 
 
 [[!redirects Initial Θ-data]]
+[[!redirects initial theta-data]]
+[[!redirects Initial theta-data]]
+[[!redirects initial theta data]]
+[[!redirects Initial theta data]]
+
