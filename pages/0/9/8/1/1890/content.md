@@ -374,7 +374,7 @@ T{[X,Y]} \ar{r}{\eta} & {[X,T{[X,Y]}\otimes X]} \ar{r}{{[X,s]}} & {[X,T({[X,Y]}\
 
 Conversely, given a pointwise structure $s':T[X,Y]\to [X,TY]$ we can obtain a costrength as
 \begin{tikzcd}[nodes={scale=1.25}, column sep=large]
-TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otimes Y} & {[Y,T(X\otimes Y)]} \otimes Y \ar{r}{\epsilon} & T(X\otimes B ) .
+TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otimes Y} & {[Y,T(X\otimes Y)]} \otimes Y \ar{r}{\epsilon} & T(X\otimes Y ) .
 \end{tikzcd}
 
 By [[currying]] it can be shown that the respective diagrams of costrength and pointwise structure are equivalent (the unit condition corresponds to the unit condition, and so on).
