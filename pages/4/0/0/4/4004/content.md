@@ -15,10 +15,14 @@
 
 ## Definition
 
-Let $T\colon A\to B$ be a [[functor]] such that $A$ has a [[terminal object]] $1$.  Then $T$ can canonically be factored as the composite
+Let $T\colon A\to B$ be a [[functor]] such that the [[category]] $A$ has a [[terminal object]] $1$.  Then $T$ can canonically be factored as the composite
 
 $$ 
-  A \overset{T_1}{\to} B/T1 \overset{\Sigma_{T1}}{\to} B
+  A 
+   \overset{\;\;T_1\;\;}{\longrightarrow} 
+  B/T1 
+   \overset{\;\;\Sigma_{T1}\;\;}{\longrightarrow} 
+  B
 $$
 
 of $T$ applied to the [[slice category]] $A \simeq A/1$, followed by [[dependent sum]] (projection on the source). 
