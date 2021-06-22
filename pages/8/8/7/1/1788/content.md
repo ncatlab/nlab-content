@@ -1,42 +1,76 @@
 
-\begin{tikzcd}
-  (X \times W G)/G
-  \\
-  \\
-  X \times_G (G \times G)
-  \\
-  X \times_G G
-\end{tikzcd}
+For $\mathcal{G} \,\in\, Groups(sSets)$ a [[simplicial group]], write $\mathcal{G}Actions(sSets)$ for the [[category]] of $\mathcal{G}$-[[actions]] on [[simplicial sets]].
+
+\begin{proposition}
+  The [[forgetful functor]] $undrl$ from $\mathcal{G}Actions$ to underlying simplicial sets has a [[right adjoint]]
 
 $$
- \array{
-  Hom
-  \big(
-    \mathcal{G} \times \Delta[n],
-    X
-  \big)
-  \times 
-  Hom
-  \big(
-    \Delta[n],
+  sSet
+  \underoverset
+    {\underset{ \;\;\; [\mathcal{G},-] \;\;\; }{\longrightarrow}}
+    {\overset{ \;\;\; undrl \;\;\; }{\longleftarrow}}
+    {\bot}
+  \mathcal{G}Actions(sSet)
+$$
+
+which sends $X \in sSet$ to 
+
+* the simplicial set 
+
+  $$
+    [\mathcal{G},X] 
+    \;\coloneqq\;
+    Hom_{sSet}\big( \mathcal{G} \times \Delta[\bullet], X\big) 
+    \;\;\;
+    \in
+    sSet
+  $$
+
+* equipped with the $\mathcal{G}$-action
+
+  $$
+    \mathcal{G} \times [\mathcal{G},X]
+    \longrightarrow 
     \mathcal{G}
-  \big)
+  $$
+
+  which in degree $n \in \mathbb{N}$ is the [[function]] 
+
+  $$
+    Hom(\Delta[n], \mathcal{G})
+    \,\times\,
+    Hom
+    \big(
+      \mathcal{G} \times \Delta[n],
+      \,
+      X
+    \big)
+    \longrightarrow
+    Hom
+    \big(
+      \mathcal{G} \times \Delta[n],
+      \,
+      X
+    \big)    
+  $$
+
+  that sends
+
+  \[
+  \label{CofreeSimplicialActionInComponents}
+  \begin{aligned}
   &
-  \longrightarrow
-  &
-  Hom
-  \big(
-    \mathcal{G} \times \Delta[n],
-    X
-  \big)
-  \\
-  \big(
+  \Big(
     \mathcal{G}\times \Delta[n]
     \overset{\phi}{\to}
     X,
+    \;
     \Delta[n] \overset{g_n}{\to} \mathcal{G}
-  \big)
-  &\mapsto&
+  \Big)
+  \\
+  \;\;\mapsto\;\;
+  &
+  \Big(
   \mathcal{G} \times \Delta[n]
   \overset{id \times diag}{\longrightarrow}
   \mathcal{G} \times \Delta[n] \times \Delta[n]
@@ -46,9 +80,100 @@ $$
   \mathcal{G} \times \Delta[n]
   \overset{\phi}{\to}
    X
-  }
+  \Big)
+  \end{aligned}
+  \]
+
+\end{proposition} 
+
+\begin{proof}
+
+For $P \in \mathcal{G}Actions(sSet)$, and $X \in sSet$, we check the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
+
+$$
+  \big\{
+    P \overset{\;\;\phi_{(-)}\;\;}{\longrightarrow} [G,X]
+  \big\}
+  \;\;\;\overset{ \;\; \widetilde{(-)} \;\; }{\leftrightarrow}\;\;\;
+  \big\{
+    undrl(P) \overset{\;\; {\widetilde \phi}_{(-)} \;\; }{\longrightarrow} X
+  \big\}
+  \,.
 $$
 
+Given
+
+$$
+  \phi_{(-)}
+  \;\colon\;
+  p_n 
+  \mapsto 
+  \big(
+    \phi_{p_n}
+    \;\colon\;
+    \mathcal{G} \times \Delta[n] \to X
+  \big)
+$$
+
+define
+
+\[
+  \label{AdjunctOfHomomorphismToCofreeSimplicialAction}
+  \widetilde \phi_{(-)}
+  \;\colon\;
+  p_n 
+  \mapsto
+  \phi_{p_n}(e_n, \sigma_n)
+  \,,
+\]
+
+where $e_n \in \mathcal{G}_n$ denotes the [[neutral element]] in degree $n \in \mathbb{N}$ and where $\sigma_n \in (\Delta[n])_n$ denotes the unique non-degenerate element $n$-cell in the [[n-simplex]].
+
+We need to show that ${\widetilde \phi}_{(-)} \colon undrl(P) \to X$ already determines all of $\phi_{(-)}$.
+
+Write $\sigma_n \in (\Delta[n])_n$ for the unique non-degenerate simplex in that degree, and observe that $\phi_{p_n}$ is uniquely fixed by its values  $\phi_{p_n}( -, \sigma_n )$ on this simplex. Now for any $g_n \in \mathcal{G}_n$ observe the following sequence of identifications:
+
+$$
+  \begin{aligned} 
+    \phi_{p_n}(g_n, \sigma_n)
+    & \;=\;
+    \phi_{p_n}( e_n \cdot g_n, \sigma_n )
+    \\
+    & \;=\;
+    \big(
+      g_n \cdot \phi_{p_n}
+    \big)
+    ( e_n, \sigma_n )
+    \\
+    & \;=\;
+    \phi_{ g_n \cdot p_n }
+    (e_n, \sigma_n)
+    \\
+    & \;=\;
+    {\widetilde \phi}_{g_n \cdot p_n}
+  \end{aligned}
+$$
+
+Here
+
+* the first step is the unit law in the component group $\mathcal{G}_n$;
+
+* the second step uses the definition (eq:CofreeSimplicialActionInComponents) of the cofree action;
+
+* the third step is the assumption that $\phi_{(-)}$ is a homomorphism of $\mathcal{G}$-actions ([[equivariant function|equivariance]]);
+
+* the fourth step is the definition (eq:AdjunctOfHomomorphismToCofreeSimplicialAction).
+
+
+\linebreak
+
+$$
+  \phi_{p_n}( e_n \cdot g_n, \sigma_n )
+  \;=\;
+  \phi_{ g_n \cdot p_n }( e_n, \sigma_n )
+$$
+
+\end{proof}
 
 
 $$
