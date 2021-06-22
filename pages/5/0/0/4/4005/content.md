@@ -21,9 +21,7 @@ The **Hawaiian earring space** is a famous counterexample in [[algebraic topolog
 
 It is an example of a space which is not [[semi-locally simply connected space|semi-locally simply connected]]. 
 
-The term “Hawaiian earring” is by far the most common name for this space
-and is used in hundreds of papers.
-Rarely, other terms can be found in the literature, such as “clamshell”,
+Other terms can be found in the literature, such as “clamshell”,
 “infinite earring”, and “shrinking wedge of circles”.
 \cite{Dudley} is an early reference that mentions the terms “clamshell”
 and “Hawaiian earring”.
