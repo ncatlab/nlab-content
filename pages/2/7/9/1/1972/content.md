@@ -193,7 +193,7 @@ $$
 
 from the [[sphere spectrum]] to [[KU]].
 
-
+f
 ### Splitting principle and Brauer induction theorem
 
 The [[Brauer induction theorem]] says that, over the [[complex numbers]], the representation ring is generated already from the [[induced representations]] of 1-dimensional representations. This may be regarded as the [[splitting principle]] for linear representations and for [[characteristic classes of linear representations]] ([Symonds 91](#Symonds91)).
@@ -201,10 +201,36 @@ The [[Brauer induction theorem]] says that, over the [[complex numbers]], the re
 
 ## Examples
 
+\begin{example}\label{RepresentationRingOfUnitaryGroups}
+**([[representation ring]] of [[unitary groups]])**
+For $n \in \mathbb{N}$, the complex representation ring of [[U(n)]] is 
 
-### Spin group
+$$
+  R_{\mathbb{C}}
+  \big(
+    U(n)
+  \big)
+  \;\simeq\;
+  \mathbb{Z}[x_1, \cdots, , x_{n-1}, x_n, x_n^{-1}]
+  \,,
+$$
 
-The completion of $Rep(Spin(2k))$ is $\mathbb{Z}[ [ e^{\pm x_j} ] ]$ for $1 \leq j \leq k$ (e.g [Brylinski 90, p. 9](#Brylinski90)).
+and that of [[SU(n)]] is 
+
+$$
+  R_{\mathbb{C}}
+  \big(
+    SU(n)
+  \big)
+  \;\simeq\;
+  \mathbb{Z}[x_1, \cdots, , x_{n-1}]
+  \,.
+$$
+\end{example}
+
+(e.g. [Husemöller 66, Ch. 14, Thm. 3.1 (p. 192)](#Husemoeller66))
+
+* The completion of $Rep(Spin(2k))$ is $\mathbb{Z}[ [ e^{\pm x_j} ] ]$ for $1 \leq j \leq k$ (e.g [Brylinski 90, p. 9](#Brylinski90)).
 
 
 ## Related concepts
@@ -219,9 +245,13 @@ The completion of $Rep(Spin(2k))$ is $\mathbb{Z}[ [ e^{\pm x_j} ] ]$ for $1 \leq
 ### General
 
 
-Lecture notes include
+Lecture notes:
 
-* {#tomDieck09} [[Tammo tom Dieck]], section 4.4. in _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+* {#tomDieck09} [[Tammo tom Dieck]], Section 4.4. in: _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+Computations for the [[classical Lie groups]]:
+
+* {#Husemoeller66} [[Dale Husemöller]], *Representation Rings of Classical Groups*, Chapter 14 in: _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/husemoller)) 
 
 Exposition in relation to [[equivariant K-theory]] includes
 
