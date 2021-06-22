@@ -211,7 +211,7 @@ $$
     U(n)
   \big)
   \;\simeq\;
-  \mathbb{Z}[x_1, \cdots, , x_{n-1}, x_n, x_n^{-1}]
+  \mathbb{Z}[x_1, \cdots, x_{n-1}, x_n, x_n^{-1}]
   \,,
 $$
 
@@ -223,7 +223,7 @@ $$
     SU(n)
   \big)
   \;\simeq\;
-  \mathbb{Z}[x_1, \cdots, , x_{n-1}]
+  \mathbb{Z}[x_1, \cdots, x_{n-1}]
   \,.
 $$
 \end{example}
