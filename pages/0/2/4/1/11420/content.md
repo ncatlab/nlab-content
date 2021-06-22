@@ -71,6 +71,28 @@ If $R$ is a [[field]], then geometrically $Spec(R[x])$ is the [[affine line]] in
 
 =--
 
+More generally:
+
+\begin{example}\label{CompletionOfNoetherianRingByPowerSeries}
+**([[completion of a ring|completion]] of [[Noetherian ring]] by [[power series]])** \linebreak
+For $R$ a [[Noetherian ring]] and $I = (a_1, \cdots, a_n)$ a finitely generated [[ideal]], the completion of $R$ at $I$ is [[isomorphism|isomorphic]] to the [[power series ring]] over $R$ on the $a_i$, in that
+
+$$
+  R\hat{_{I}}
+  \;\simeq\;
+  R
+  [ [ x_1, \cdots, x_n  ] ] 
+  /
+  \big(
+    x_1 - a_1, \cdots, x_n - a_n 
+  \big)
+  \,.
+$$
+
+\end{example}
+
+(e.g. [[The Stacks Project]] [Lemma 0316](https://stacks.math.columbia.edu/tag/0316), [Buchholtz 08, Sec. 6.4](Atiyah-Segal+completion+theorem#Buchholtz08))
+
 The key class of example of completions in [[non-archimedean analytic geometry]] is the following.
 
 +-- {: .num_example #pAdicNumbers}
@@ -94,9 +116,9 @@ This [[analogy]] is part of what is known as the [[function field analogy]], whi
 +-- {: .num_example #AtiyahSegalTheorem}
 ###### Example
 
-The [[Atiyah-Segal completion theorem]] states that for $G$ a [[topological group]] and $X$ a [[G-space]], then the [[topological K-theory]] ring $K(X//G)$ of the [[homotopy quotient]] $X//G$ (of the [[Borel construction]]) is the completion of the $G$-[[equivariant K-theory]] ring of $X$.
+The [[Atiyah-Segal completion theorem]] states that for $G$ a [[topological group]] and $X$ a [[G-space]], then the [[topological K-theory]] ring $K(X\sslash G)$ of the [[homotopy quotient]] $X \sslash G$ (of the [[Borel construction]]) is the completion of the $G$-[[equivariant K-theory]] ring of $X$.
 
-So this says that the "very naive" equivariant K-theory embodied by $K(X//G)$ is an infinitesimal approximation to the genuine equivariant K-theory. 
+So this says that the "very naive" equivariant K-theory embodied by $K(X  \sslash G)$ is an infinitesimal approximation to the genuine equivariant K-theory. 
 
 =--
 
@@ -104,7 +126,7 @@ So this says that the "very naive" equivariant K-theory embodied by $K(X//G)$ is
 ###### Example
 
 
-The phenonemon of example \ref{AtiyahSegalTheorem} appears for other [[generalized cohomology theories]] too, such as [[complex cobordism]] ([GreenleesMay 97](#GreenMay97)). For [[complex oriented cohomology theories]] it says that the [[formal group]] assigned by these to $\ast//U(1)$ is to be thought of as the formal completion of a more globally defined something.  One case where this "something" has been understood in some detail is that where the cohomology theory is [[elliptic cohomology]]. In that case the analog of equivariant K-theory is _[[equivariant elliptic cohomology]]_, see there for more details.
+The phenonemon of example \ref{AtiyahSegalTheorem} appears for other [[generalized cohomology theories]] too, such as [[complex cobordism]] ([GreenleesMay 97](#GreenMay97)). For [[complex oriented cohomology theories]] it says that the [[formal group]] assigned by these to $\ast  \sslash U(1)$ is to be thought of as the formal completion of a more globally defined something.  One case where this "something" has been understood in some detail is that where the cohomology theory is [[elliptic cohomology]]. In that case the analog of equivariant K-theory is _[[equivariant elliptic cohomology]]_, see there for more details.
 
 =--
 
@@ -164,8 +186,7 @@ Discussion of formal completion of [[(infinity,1)-modules]] in terms of [[totali
 
 Completion for complex cobordism theory is in
 
-* {#GreenMay97} [[John Greenlees]], [[Peter May]], _Localization and Completion Theorems for MU-Module Spectra_, Annals of Mathematics
-Second Series, Vol. 146, No. 3 (Nov., 1997), pp. 509-544
+* {#GreenMay97} [[John Greenlees]], [[Peter May]], _Localization and Completion Theorems for MU-Module Spectra_, Annals of Mathematics Second Series, Vol. 146, No. 3 (Nov., 1997), pp. 509-544
 
 [[!redirects completion of a ring]]
 [[!redirects completion of rings]]
