@@ -33,9 +33,9 @@ For $G_\bullet$ a [[simplicial group]] write
 
 * $\mathbf{B}G_\bullet$ for the one-object [[sSet-enriched category]] (here: a [[simplicial groupoid]]) whose [[hom-object]] is $G_\bullet$. 
 
-* $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)$ for the [[sSet]]-[[enriched functor category]] to [[SimplicialSets]].
+* $G_\bullet Actions(sSet) \;\coloneqq\; sSetCat\big(\mathbf{B}G_\bullet, sSet\big)$ for the [[sSet]]-[[enriched functor category]] to [[SimplicialSets]].
 
-* $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ for the projective [[model structure on functors]] (projective [[model structure on simplicial presheaves]]). 
+* $G_\bullet Actions(sSet)_{proj} \coloneqq sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ for the projective [[model structure on functors]] (projective [[model structure on simplicial presheaves]]). 
 
 This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model category]] ([DDK 80, Prop. 2.4](#DDK80), [Goerss & Jardine 09, Chapter V, Thm. 2.3](#GoerssJardine09)).
 
@@ -46,7 +46,8 @@ This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model 
 ### Cofibrant replacement and homotopy quotients/fixed points
  {#CofibrantReplacementAndHomotopyQuotientsFixedPoints}
 
-\begin{prop}
+\begin{prop}\label{CofibrationsOfSimplicialActions}
+**(cofibrations of simplicial actions)** \linebreak
 The cofibrations $i \colon X \to Y$ in $sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ (Def. \ref{BorelModelStructure}) are precisely those morphisms such that
 
 1. the underlying morphism of [[simplicial sets]] is a [[monomorphism]];
@@ -104,7 +105,6 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
    is the [[homotopy fixed points]] of $A$.
 
 \end{remark}
-
 
 
 ### Relation to the slice over the simplicial classifying space
@@ -219,6 +219,188 @@ which, in turn, follows, for instance, via the [[pasting law]]:
 \end{tikzcd}
 
 \end{remark}
+
+### Relation to the model structure on plain simplicial sets
+ {#RelationToModelStructureOnPlainSimplicialSets}
+
+> under construction
+
+For $\mathcal{G} \,\in\, Groups(sSets)$ a [[simplicial group]], write $\mathcal{G}Actions(sSets)$ for the [[category]] of $\mathcal{G}$-[[actions]] on [[simplicial sets]].
+
+\begin{proposition}\label{CofreeAction}
+**(underlying simplicial sets and cofree simplicial action)** \linebreak
+  The [[forgetful functor]] $undrl$ from $\mathcal{G}Actions$ to underlying simplicial sets is a [[left Quillen functor]] from the Borel model structure (Def. \ref{BorelModelStructure}) to the [[classical model structure on simplicial sets]].
+
+Its [[right adjoint]]
+
+$$
+  sSet
+  \underoverset
+    {\underset{ \;\;\; [\mathcal{G},-] \;\;\; }{\longrightarrow}}
+    {\overset{ \;\;\; undrl \;\;\; }{\longleftarrow}}
+    {\bot}
+  \mathcal{G}Actions(sSet)
+$$
+
+sends $X \in sSet$ to 
+
+* the simplicial set 
+
+  $$
+    [\mathcal{G},X] 
+    \;\coloneqq\;
+    Hom_{sSet}\big( \mathcal{G} \times \Delta[\bullet], X\big) 
+    \;\;\;
+    \in
+    sSet
+  $$
+
+* equipped with the $\mathcal{G}$-action
+
+  $$
+    \mathcal{G} \times [\mathcal{G},X]
+    \longrightarrow 
+    \mathcal{G}
+  $$
+
+  which in degree $n \in \mathbb{N}$ is the [[function]] 
+
+  $$
+    Hom(\Delta[n], \mathcal{G})
+    \,\times\,
+    Hom
+    \big(
+      \mathcal{G} \times \Delta[n],
+      \,
+      X
+    \big)
+    \longrightarrow
+    Hom
+    \big(
+      \mathcal{G} \times \Delta[n],
+      \,
+      X
+    \big)    
+  $$
+
+  that sends
+
+  \[
+  \label{CofreeSimplicialActionInComponents}
+  \begin{aligned}
+  &
+  \Big(
+    \mathcal{G}\times \Delta[n]
+    \overset{\phi}{\to}
+    X,
+    \;
+    \Delta[n] \overset{g_n}{\to} \mathcal{G}
+  \Big)
+  \\
+  \;\;\mapsto\;\;
+  &
+  \Big(
+  \mathcal{G} \times \Delta[n]
+  \overset{id \times diag}{\longrightarrow}
+  \mathcal{G} \times \Delta[n] \times \Delta[n]
+  \overset{ id \times g_n \times id }{\longrightarrow}
+  \mathcal{G} \times \mathcal{G} \times \Delta[n]
+  \overset{(-)\cdot(-) \times id}{\to}
+  \mathcal{G} \times \Delta[n]
+  \overset{\phi}{\to}
+   X
+  \Big)
+  \end{aligned}
+  \]
+
+\end{proposition} 
+
+\begin{proof}
+
+We already know from Def. \ref{BorelModelStructure} that $underl$ preserves all [[weak equivalences]] and from Prop. \ref{CofibrationsOfSimplicialActions} that it preserves all [[cofibrations]]. Therefore it is a left Quillen functor as soon as it is a [[left adjoint]].
+
+The idea of the existence of the cofree right adjoint is familiar from [[topological G-space]] (see the section on [coinduced actions](topological+G-space#CoinducedActions) there).
+
+For $P \in \mathcal{G}Actions(sSet)$, and $X \in sSet$, we check the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
+
+$$
+  \big\{
+    P \overset{\;\;\phi_{(-)}\;\;}{\longrightarrow} [G,X]
+  \big\}
+  \;\;\;\overset{ \;\; \widetilde{(-)} \;\; }{\leftrightarrow}\;\;\;
+  \big\{
+    undrl(P) \overset{\;\; {\widetilde \phi}_{(-)} \;\; }{\longrightarrow} X
+  \big\}
+  \,.
+$$
+
+Given
+
+$$
+  \phi_{(-)}
+  \;\colon\;
+  p_n 
+  \mapsto 
+  \big(
+    \phi_{p_n}
+    \;\colon\;
+    \mathcal{G} \times \Delta[n] \to X
+  \big)
+$$
+
+define
+
+\[
+  \label{AdjunctOfHomomorphismToCofreeSimplicialAction}
+  \widetilde \phi_{(-)}
+  \;\colon\;
+  p_n 
+  \mapsto
+  \phi_{p_n}(e_n, \sigma_n)
+  \,,
+\]
+
+where $e_n \in \mathcal{G}_n$ denotes the [[neutral element]] in degree $n \in \mathbb{N}$ and where $\sigma_n \in (\Delta[n])_n$ denotes the unique non-degenerate element $n$-cell in the [[n-simplex]].
+
+We need to show that ${\widetilde \phi}_{(-)} \colon undrl(P) \to X$ already determines all of $\phi_{(-)}$.
+
+Write $\sigma_n \in (\Delta[n])_n$ for the unique non-degenerate simplex in that degree, and observe that $\phi_{p_n}$ is uniquely fixed by its values  $\phi_{p_n}( -, \sigma_n )$ on this simplex. Now for any $g_n \in \mathcal{G}_n$ observe the following sequence of identifications:
+
+$$
+  \begin{aligned} 
+    \phi_{p_n}(g_n, \sigma_n)
+    & \;=\;
+    \phi_{p_n}( e_n \cdot g_n, \sigma_n )
+    \\
+    & \;=\;
+    \big(
+      g_n \cdot \phi_{p_n}
+    \big)
+    ( e_n, \sigma_n )
+    \\
+    & \;=\;
+    \phi_{ g_n \cdot p_n }
+    (e_n, \sigma_n)
+    \\
+    & \;=\;
+    {\widetilde \phi}_{g_n \cdot p_n}
+  \end{aligned}
+$$
+
+Here
+
+* the first step is the unit law in the component group $\mathcal{G}_n$;
+
+* the second step uses the definition (eq:CofreeSimplicialActionInComponents) of the cofree action;
+
+* the third step is the assumption that $\phi_{(-)}$ is a homomorphism of $\mathcal{G}$-actions ([[equivariant function|equivariance]]);
+
+* the fourth step is the definition (eq:AdjunctOfHomomorphismToCofreeSimplicialAction).
+
+
+\end{proof}
+
+
 
 ### Relation to the fine model structure of equivariant homotopy theory
 
