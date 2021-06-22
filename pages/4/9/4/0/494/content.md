@@ -1215,6 +1215,13 @@ Every [[adjunction]] $(L \dashv R)$ induces a [[monad]] $R \circ L$ and a [[como
 Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adjunctions]] constitutes itself an [[adjunction]] between adjunctions and monads, called the _[[semantics-structure adjunction]]_.
 
 
+
+
+[[!include sliced adjoint functors -- section]]
+
+
+
+
 ## Examples 
  {#Examples}
 
