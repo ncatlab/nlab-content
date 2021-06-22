@@ -234,7 +234,7 @@ Exposition in relation to [[equivariant K-theory]] includes
 
 Classical results for [[compact Lie groups]]:
 
-* [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques, January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
+* {#Segal68} [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques, January 1968, Volume 34, Issue 1, pp 113-128 ([numdam:PMIHES_1968__34__113_0](http://www.numdam.org/item/?id=PMIHES_1968__34__113_0))
 
 * Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
 
