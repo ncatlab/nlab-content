@@ -272,6 +272,7 @@ $$
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
 
+
 ### Limits and Colimits in a slice
  {#LimitsAndColimits}
 
@@ -296,6 +297,17 @@ For $\mathcal{C}$ an [[(∞,1)-category]], $X \;\colon\; \mathcal{D} \longrighta
 =--
 
 For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
+
+
+
+
+
+[[!include sliced adjoint functors -- section]]
+
+
+
+
+
 
 ## Examples
 
