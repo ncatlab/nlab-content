@@ -311,6 +311,10 @@ Relation to [[universal algebra]]:
 * Anthony Voutas, _The basic theory of monads and their connection to
 universal algebra_ ([pdf](https://pdfs.semanticscholar.org/98c0/ca084f561160b6ddc11c6d64df18b6594b5b.pdf))
 
+An elementary proof of the equivalence between infinitary [[Lawvere theories]] and [[monads]] on the [[category of sets]] is given in Appendix A of
+
+* [[Martin Brandenburg]], Large limit sketches and topological space objects, [arXiv:2106.11115](https://arxiv.org/abs/2106.11115).
+
 In [[higher category theory]]:
 
 * [[T. M. Fiore]], [[N. Gambino]], [[J. Kock]],  _Monads in double categories_, [arxiv/1006.0797](http://arxiv.org/abs/1006.0797)
