@@ -8,6 +8,60 @@
   X \times_G G
 \end{tikzcd}
 
+$$
+ \array{
+  Hom
+  \big(
+    \mathcal{G} \times \Delta[n],
+    X
+  \big)
+  \times 
+  Hom
+  \big(
+    \Delta[n],
+    \mathcal{G}
+  \big)
+  &
+  \longrightarrow
+  &
+  Hom
+  \big(
+    \mathcal{G} \times \Delta[n],
+    X
+  \big)
+  \\
+  \big(
+    \mathcal{G}\times \Delta[n]
+    \overset{\phi}{\to}
+    X,
+    \Delta[n] \overset{g_n}{\to} \mathcal{G}
+  \big)
+  &\mapsto&
+  \mathcal{G} \times \Delta[n]
+  \overset{id \times diag}{\longrightarrow}
+  \mathcal{G} \times \Delta[n] \times \Delta[n]
+  \overset{ id \times g_n \times id }{\longrightarrow}
+  \mathcal{G} \times \mathcal{G} \times \Delta[n]
+  \overset{(-)\cdot(-) \times id}{\to}
+  \mathcal{G} \times \Delta[n]
+  \overset{\phi}{\to}
+   X
+  }
+$$
+
+
+
+$$
+  Hom_{sSet}
+  \big(
+    P, X
+  \big)
+  \;\longrightarrow\;
+  Hom_{\mathcal{G}Acts}
+  \big(
+    P, [\mathcal{G}, X]
+  \big)
+$$
 
 \begin{lemma}
 
