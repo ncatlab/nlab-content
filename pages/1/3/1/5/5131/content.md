@@ -17,7 +17,7 @@
 * table of contents
 {:toc}
 
-This page describes aspects of the combinatorics of [[product]]s of [[simplicial set]]s.
+This page describes aspects of the combinatorics of [[Cartesian products]] of [[simplicial sets]].
 
 ## Properties
 
@@ -25,7 +25,7 @@ This page describes aspects of the combinatorics of [[product]]s of [[simplicial
 ###### Notation
 
 For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
-for $\mu = (\mu_1 \lt  \mu_2, \lt \cdots \lt \mu_q)$ a sequence of natural numbers in $\{0, \cdots p+q\}$, write
+for $\mu = (\mu_1 \lt  \mu_2, \lt \cdots \lt \mu_q)$ a sequence of [[natural numbers]] in $\{0, \cdots p+q\}$, write
 
 $$
   s_\mu : X_p \to X_{p+q}
@@ -310,6 +310,15 @@ The subgraph of those with $\mu_3 = 4$, of course, is a copy of our earlier $(2,
 which is 
 $$Shuff(3,1)\oplus Shuff(2,2)^{op}\times \{4\},$$
 the ordinal sum, or join, of the anti-lex ordered shuffle sets.  This sort of decomposition is quite general.
+
+
+## References
+
+Exposition in:
+
+* {#Friedman08} [[Greg Friedman]], Section 5 of: _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221), [doi:10.1216/RMJ-2012-42-2-353](https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-42/issue-2/Survey-Article-An-elementary-illustrated-introduction-to-simplicial-sets/10.1216/RMJ-2012-42-2-353.full))
+
+
 
 
 [[!redirects product of simplices]]
