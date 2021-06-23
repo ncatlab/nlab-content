@@ -91,7 +91,7 @@ This is discussed in further detail at [[model structure on categories with weak
 
 The application of relative categories as expressing the idea of having a subcategory of distinguished morphisms can be neatly packaged into viewing relative categories as [[enriched categories]] over the category of sets with distinguished subsets.
 
-Let $PairSet$ be the cartesian closed category whose objects are pairs of small sets $(X, A)$ such that $A \subseteq X$, and whose morphisms $(X, A) \to (Y, B)$ are functions $f : X \to Y$ with $f(A) \subseteq B$.
+Let $PairSet$ be the [[cartesian closed category]] whose objects are pairs of small sets $(X, A)$ such that $A \subseteq X$, and whose morphisms $(X, A) \to (Y, B)$ are functions $f : X \to Y$ with $f(A) \subseteq B$.
 
 
 +-- {: .num_prop}
@@ -107,7 +107,7 @@ $RelCat$ is isomorphic to the category of small $PairSet$-enriched categories.
 With minimal rephrasing, a small $PairSet$-enriched category consists of the data
 
 * A small set of objects $C$
-* For objects $X,Y$, a set $C(X,Y)$ with a subset $W(X,Y)$
+* For objects $X,Y$, a small set $C(X,Y)$ with a subset $W(X,Y)$
 * For objects $X,Y,Z$, a composition $C(Y,Z) \times C(X,Y) \to C(X,Z)$
 that restricts to $W(Y,Z) \times W(X,Y) \to W(X,Z)$
 * For objects $X$, a choice of identity element $id_X \in W(X,X)$
@@ -120,6 +120,8 @@ that is subject to identity and associativity relations. It's immediate that thi
 ## Related concepts
 
 * [[simplicial localization]]
+* [[F-category]]
+* [[marked simplicial set]]
 
 ## References
 
