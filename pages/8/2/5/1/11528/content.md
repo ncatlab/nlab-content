@@ -223,8 +223,6 @@ which, in turn, follows, for instance, via the [[pasting law]]:
 ### Relation to the model structure on plain simplicial sets
  {#RelationToModelStructureOnPlainSimplicialSets}
 
-> under construction
-
 For $\mathcal{G} \,\in\, Groups(sSets)$ a [[simplicial group]], write $\mathcal{G}Actions(sSets)$ for the [[category]] of $\mathcal{G}$-[[actions]] on [[simplicial sets]].
 
 \begin{proposition}\label{CofreeAction}
@@ -265,7 +263,8 @@ sends $X \in sSet$ to
 
   which in degree $n \in \mathbb{N}$ is the [[function]] 
 
-  $$
+  \[
+    \label{CofreeSimplicialActionComponentFunctions}
     Hom(\Delta[n], \mathcal{G})
     \,\times\,
     Hom
@@ -281,7 +280,7 @@ sends $X \in sSet$ to
       \,
       X
     \big)    
-  $$
+  \]
 
   that sends
 
@@ -290,11 +289,11 @@ sends $X \in sSet$ to
   \begin{aligned}
   &
   \Big(
+    \Delta[n] \overset{g_n}{\to} \mathcal{G},
+    \;
     \mathcal{G}\times \Delta[n]
     \overset{\phi}{\to}
     X,
-    \;
-    \Delta[n] \overset{g_n}{\to} \mathcal{G}
   \Big)
   \\
   \;\;\mapsto\;\;
@@ -315,13 +314,23 @@ sends $X \in sSet$ to
 
 \end{proposition} 
 
+Here and in the following proof we make free use of the [[Yoneda lemma]] [[natural bijection]]
+
+$$
+  Hom_{sSet}(\Delta[n], S) \;\simeq\; S_n
+$$
+
+for any [[simplicial set]] $S$ and for $\Delta[n] \in \Delta \overset{y}{\hookrightarrow} sSet$ the simplicial [[n-simplex]].
+
 \begin{proof}
 
-We already know from Def. \ref{BorelModelStructure} that $underl$ preserves all [[weak equivalences]] and from Prop. \ref{CofibrationsOfSimplicialActions} that it preserves all [[cofibrations]]. Therefore it is a left Quillen functor as soon as it is a [[left adjoint]].
+We already know from Def. \ref{BorelModelStructure} that $underl$ preserves all [[weak equivalences]] and from Prop. \ref{CofibrationsOfSimplicialActions} that it preserves all [[cofibrations]]. Therefore it is a [[left Quillen functor]] as soon as it is a [[left adjoint]] at all.
 
-The idea of the existence of the cofree right adjoint is familiar from [[topological G-space]] (see the section on [coinduced actions](topological+G-space#CoinducedActions) there).
+The idea of the existence of the [[cofree functor|cofree]] [[right adjoint]] to $unrl$ is familiar from [[topological G-space]] (see the section on [coinduced actions](topological+G-space#CoinducedActions) there), where it can be easily expressed point-wise in [[point-set topology]]. The formula (eq:CofreeSimplicialActionInComponents) adapts this idea to simplicial sets. Its form makes manifest that this gives a simplicial homomorphism, and with this the adjointness follows the usual logic by focusing on the image of the non-degenerate top-degree cell in $\Delta[n]$:
 
-For $P \in \mathcal{G}Actions(sSet)$, and $X \in sSet$, we check the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
+To check that (eq:CofreeSimplicialActionInComponents) really gives the right adjoint, it is sufficient to check the corresponding [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism), hence to check 
+for $P \in \mathcal{G}Actions(sSet)$, and $X \in sSet$,
+that we have a [[natural bijection]] of [[hom-sets]] of the form
 
 $$
   \big\{
@@ -334,7 +343,7 @@ $$
   \,.
 $$
 
-Given
+So given 
 
 $$
   \phi_{(-)}
@@ -348,7 +357,7 @@ $$
   \big)
 $$
 
-define
+on the left, define
 
 \[
   \label{AdjunctOfHomomorphismToCofreeSimplicialAction}
@@ -360,11 +369,11 @@ define
   \,,
 \]
 
-where $e_n \in \mathcal{G}_n$ denotes the [[neutral element]] in degree $n \in \mathbb{N}$ and where $\sigma_n \in (\Delta[n])_n$ denotes the unique non-degenerate element $n$-cell in the [[n-simplex]].
+where $e_n \in \mathcal{G}_n$ denotes the [[neutral element]] in degree $n \in \mathbb{N}$ and where $\sigma_n \in (\Delta[n])_n$ denotes the unique non-degenerate element $n$-cell in the [[n-simplex]]. 
 
-We need to show that ${\widetilde \phi}_{(-)} \colon undrl(P) \to X$ already determines all of $\phi_{(-)}$.
+It is clear that this is a [[natural transformation]] in $P$ and $X$. We need to show that ${\widetilde \phi}_{(-)} \colon undrl(P) \to X$ uniquely determines all of $\phi_{(-)}$.
 
-Write $\sigma_n \in (\Delta[n])_n$ for the unique non-degenerate simplex in that degree, and observe that $\phi_{p_n}$ is uniquely fixed by its values  $\phi_{p_n}( -, \sigma_n )$ on this simplex. Now for any $g_n \in \mathcal{G}_n$ observe the following sequence of identifications:
+To that end, write $\sigma_n \in (\Delta[n])_n$ for the unique non-degenerate simplex in that degree, and observe that $\phi_{p_n}$ is uniquely fixed by its values  $\phi_{p_n}( -, \sigma_n )$ on this simplex. Now for any $g_n \in \mathcal{G}_n$ observe the following sequence of identifications:
 
 $$
   \begin{aligned} 
@@ -397,6 +406,7 @@ Here
 
 * the fourth step is the definition (eq:AdjunctOfHomomorphismToCofreeSimplicialAction).
 
+These identifications show that $\phi_{(-)}$ is uniquely determined by ${\widetilde \phi_{(-)}}$, and vice versa.
 
 \end{proof}
 
