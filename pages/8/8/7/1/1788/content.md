@@ -1,4 +1,7 @@
 
+
+$\gg$
+
 For $\mathcal{G} \,\in\, Groups(sSets)$ a [[simplicial group]], write $\mathcal{G}Actions(sSets)$ for the [[category]] of $\mathcal{G}$-[[actions]] on [[simplicial sets]].
 
 \begin{proposition}
