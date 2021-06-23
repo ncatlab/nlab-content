@@ -18,16 +18,19 @@
 
     the [[simplicial group]] which is the [[nerve]] of the [[2-group]] that is the [[delooping groupoid]] of the additive group of [[integers]].
 
-Then 
+Then the [[functor groupoid]]
 
-$$
+\[
+  \label{InertiaGroupoidAsFunctorGroupoidOutOfBZ}
   \begin{aligned}
+    \Lambda(X \!\sslash\! G)
+    & \;\coloneqq\;
     \big[
       \mathbf{B}\mathbb{Z}, X \!\sslash\! G
     \big]
+    \\
     &
     \;\simeq\;
-    N 
     Func
     \big(  
       (\mathbb{Z} \rightrightarrows \ast),
@@ -42,16 +45,56 @@ $$
     \Big(
       X^{g} \!\sslash\! C_g
     \Big)
-    \\
-    & \;\simeq\;
-    \underset{
-      [g] \in ConjCl(G)
-    }{\coprod}
-    \big(
-      X^g \times (C_g)^{\times^\bullet}
-    \big)    
   \end{aligned}
+\]
+
+is known as the *[[inertia groupoid]]* of $X \!\sslash\! G$. Here
+
 $$
+  ConjCla(G)
+  \;\coloneqq\;
+  G/_{ad} G
+  \,,
+  \;\;\;\;\;\;\;\;\;\;\;
+  C_g 
+  \;\coloneqq\;
+  \big\{
+    h \in G
+    \,\left\vert\,
+    h \cdot g = g \cdot h
+    \right.
+  \big\}
+$$
+
+denotes, respectively, the set of [[conjugacy classes]] of elements of $G$, and the [[centralizer]] of $\{g\} \subset G$ -- this data serves to express the [[equivalence of categories|equivalent]] [[skeleton]] of the inertia groupoid in the last line of (eq:InertiaGroupoidAsFunctorGroupoidOutOfBZ).
+
+Now, by Prop. \ref{CofreeAction} the inertia groupoid (eq:InertiaGroupoidAsFunctorGroupoidOutOfBZ) carries a canonical [[infinity-action|2-action]] of the [[2-group]] $\mathbf{B}\mathbb{Z}$:
+
+By the formula (eq:CofreeSimplicialActionInComponents), for $n \in \mathbb{Z}$ the 2-group element in degree 1
+
+$$
+  {\color{purple}n}
+  \;\colon\;
+  \Delta[1]
+  \longrightarrow
+  \mathbf{B}G
+$$
+
+acts on the morphisms 
+
+$$
+  (x,g) \overset{h}{\longrightarrow} (h\cdot x, g)
+  \;\;\;
+  \in
+  \;
+  \Lambda(X \!\sslash\! G)
+$$
+
+of the inertia groupoid as follows:
+
+<img src="https://ncatlab.org/nlab/files/BZActionOnInertiaGroupoid20210623.jpg" width="800" />
+
+\end{example}
 
 $$
   \big(
@@ -229,7 +272,6 @@ $$
   }
 $$
 
-\end{example}
 
 
 
