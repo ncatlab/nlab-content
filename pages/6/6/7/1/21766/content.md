@@ -23,6 +23,8 @@ Traditionally, direct high energy experiments have been dominating the field sin
 
 But heavy [[fundamental particles]], whose mass may be beyond that of direct reaction products obtained in a given accelerator experiment, may still manifest themselves indirectly, as [[virtual particles]] contributing to [[loop order|loop corrections]] of the [[scattering amplitudes]] of all lighter particles to which they couple. Therefore, sufficiently _precise_ measurement of particle reaction at low energy may still reveal the presence and properties of particles at (much) higher energy.
 
+{#IntensityFrontier} Discerning the small statistical effects expected in precision experiments requires access to a large amount of experimental data, hence to a high *intensity* of particle scattering processes, whence the community refers to precision experiments as probing "the intensity frontier" of particle physics. This is in contrast to direct detection experiment which can do with less data as long as it concerns high energy scattering processes, whence direct detection experiments are said to be probing "the energy frontier" of particle physics.
+
 An example for a potential effect seen in precision experiments are the [[flavour anomalies]] in [[B-meson]] decays at various experiments, including the [[LHCb experiment]], [[Belle experiment]] and [[BaBar experiment]]. 
 
 Since, at the same time, the [[LHC experiment]] has not made any further _direct_ detection, beyond the [[Higgs boson]], it has been argued that indirect precision experiments will or should gain in importance in the future of [[particle physics]].
