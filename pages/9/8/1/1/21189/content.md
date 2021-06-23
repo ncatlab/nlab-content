@@ -78,6 +78,15 @@ $$
 
 (the subscript "$V$" is for "vector") either explicitly by [[positive number|positive]] [[quark]] [[masses]] or [[spontaneous symmetry breaking|spontaneously]] by a [[vacuum expectation value]] $\langle \bar q q\rangle = \langle \bar q_L q_R\rangle + \langle \bar q_R q_L\rangle$, is called _[[chiral symmetry breaking]]. This is the origin of the term _chiral perturbation theory_.
 
+Additionally, the application of [[noether's theorem]] to the classical global symmetry of the lagrangian density in the chiral limit yields $ 2 \times (8+1) = 18 $ conserved currents, via the method of [[Gell-Mann]] and [[Levy]]. Namely, the promotion of the [[global symmetry]] inherent in the lagrangian density to a [[local symmetry]] allows us to identify these conserved [[noether currents]] 
+
+$$
+  J^\mu_a = \frac{\partial \delta \mathcal{L}}{\partial \partial_\mu \epsilon_a}
+  \partial_{\mu} J^{\mu}_a = \frac{\partial \delta \mathcal{L}}{\partial \epsilon_a}
+$$
+
+
+
 (...)
 
 ## Properties
@@ -277,6 +286,15 @@ See also
 
 
 [[!include baryon chiral perturbation theory -- references]]
+
+### Applications of XPT to [[lattice QCD]]
+
+* cite{Sharpe:2006pu}
+\bibitem{Sharpe:2006pu}
+* S.R.Sharpe, Applications of Chiral Perturbation theory to lattice QCD, ILFTN Workshop on "Perspectives in Lattice QCD", Nara, Japan, Oct 31-Nov 11 2005, 2006
+([arXiv:hep-lat/0607016](https://arxiv.org/abs/hep-lat/0607016v2))
+
+
 
 
 
