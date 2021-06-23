@@ -97,6 +97,14 @@ The equivalence of category of modules over the Drinfeld double for the case of 
 
 Essentially the same conclusion (with similar motivation and in terms of equivariant fibres of monoidal fibered categories with orbifolds encoded as internal groupoid objects in the base) was independently obtained by [[Zoran Škoda]] at MPI Bonn in 2004 (unpublished).
 
+
+[[!redirects Drinfel'd doubles]]
+
 [[!redirects Drinfeld double]]
+[[!redirects Drinfeld doubles]]
+
 [[!redirects quantum double]]
+[[!redirects quantum doubles]]
+
+
  
