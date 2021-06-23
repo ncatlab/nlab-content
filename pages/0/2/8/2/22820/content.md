@@ -31,7 +31,7 @@ if we use the [[slice category]] $Set/C$ instead of [[Set]].
 ## The nonsymmetric case
 
 A similar correspondence can be established for [[nonsymmetric operads]],
-except that we must include the data of a transformation to $Sym$,
+except that we must include the data of a transformation to the [[monad]] of the [[associative operad]],
 which is no longer unique.
 
 ## The homotopical case
