@@ -78,6 +78,12 @@ $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$
   This is a stronger statement than saying that their underlying strict categories, as above, are isomorphic, which is yet stronger than saying that their underlying categories of loose maps are equivalent.  See [this post](http://article.gmane.org/gmane.science.mathematics.categories/5877) by [[Peter May]].
 
 
+## Related Concepts 
+
+* [[relative category]] 
+
+* [[F-category]]
+
 ## References
 
 $\mathcal{M}$-categories are mentioned as $Subset$-categories (thinking of $\mathcal{M}$ as the category of [[subset]] inclusions) in
