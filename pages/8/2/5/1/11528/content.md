@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -56,7 +57,7 @@ The cofibrations $i \colon X \to Y$ in $sSetCat\big(\mathbf{B}G_\bullet, sSet\bi
 
 \end{prop}
 
-This is ([DDK 80, Prop. 2.2. (ii)](#DDK80), [Guillou, Prop. 5.3](#Guillou)).
+This is ([DDK 80, Prop. 2.2. (ii)](#DDK80), [Guillou, Prop. 5.3](#Guillou), [Goerss & Jardine 09, V Lem. 2.4](#GoerssJardine09)).
 
 
 
@@ -326,7 +327,7 @@ for any [[simplicial set]] $S$ and for $\Delta[n] \in \Delta \overset{y}{\hookri
 
 We already know from Def. \ref{BorelModelStructure} that $underl$ preserves all [[weak equivalences]] and from Prop. \ref{CofibrationsOfSimplicialActions} that it preserves all [[cofibrations]]. Therefore it is a [[left Quillen functor]] as soon as it is a [[left adjoint]] at all.
 
-The idea of the existence of the [[cofree functor|cofree]] [[right adjoint]] to $unrl$ is familiar from [[topological G-space]] (see the section on [coinduced actions](topological+G-space#CoinducedActions) there), where it can be easily expressed point-wise in [[point-set topology]]. The formula (eq:CofreeSimplicialActionInComponents) adapts this idea to simplicial sets. Its form makes manifest that this gives a simplicial homomorphism, and with this the adjointness follows the usual logic by focusing on the image of the non-degenerate top-degree cell in $\Delta[n]$:
+The idea of the existence of the [[cofree functor|cofree]] [[right adjoint]] to $undrl$ is familiar from [[topological G-space]] (see the section on [coinduced actions](topological+G-space#CoinducedActions) there), where it can be easily expressed point-wise in [[point-set topology]]. The formula (eq:CofreeSimplicialActionInComponents) adapts this idea to simplicial sets. Its form makes manifest that this gives a simplicial homomorphism, and with this the adjointness follows the usual logic by focusing on the image of the non-degenerate top-degree cell in $\Delta[n]$:
 
 To check that (eq:CofreeSimplicialActionInComponents) really gives the right adjoint, it is sufficient to check the corresponding [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism), hence to check 
 for $P \in \mathcal{G}Actions(sSet)$, and $X \in sSet$,
