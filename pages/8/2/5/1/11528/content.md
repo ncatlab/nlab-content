@@ -366,6 +366,8 @@ on the left, define
   p_n 
   \mapsto
   \phi_{p_n}(e_n, \sigma_n)
+  \;\in\;
+  X_n
   \,,
 \]
 
@@ -373,7 +375,7 @@ where $e_n \in \mathcal{G}_n$ denotes the [[neutral element]] in degree $n \in \
 
 It is clear that this is a [[natural transformation]] in $P$ and $X$. We need to show that ${\widetilde \phi}_{(-)} \colon undrl(P) \to X$ uniquely determines all of $\phi_{(-)}$.
 
-To that end, write $\sigma_n \in (\Delta[n])_n$ for the unique non-degenerate simplex in that degree, and observe that $\phi_{p_n}$ is uniquely fixed by its values  $\phi_{p_n}( -, \sigma_n )$ on this simplex. Now for any $g_n \in \mathcal{G}_n$ observe the following sequence of identifications:
+To that end, observe for any $g_n \in \mathcal{G}_n$ the following sequence of identifications:
 
 $$
   \begin{aligned} 
