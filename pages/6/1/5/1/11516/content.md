@@ -475,6 +475,10 @@ $$
 
 \end{proof}
 
+\begin{remark}\label{AnalogousCofreeActionForSimplicialGroupActions}
+  For the analogous statement of cofree-actions of [[simplicial groups]] on [[simplicial sets]] see at *[[Borel model structure]]* [this Prop.](Borel+model+structure#CofreeAction).
+\end{remark}
+
 
 ### Fixed loci with residual Weyl group action
  {#FixedLociWithResidualWeylGroupAction}
