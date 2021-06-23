@@ -53,6 +53,158 @@ $$
   \end{aligned}
 $$
 
+$$
+  \big(
+    (1,0),
+    [0,0,1]
+  \big)
+  \mapsto
+  \big(
+    (1,0),
+    [0,0,1],
+    [0,0,1]
+  \big)
+  \mapsto
+  \big(
+    (1,0),
+    (0,n),
+    [0,0,1]
+  \big)
+  \mapsto
+  \big(
+    (1,n),
+    [0,0,1]
+  \big)
+$$
+
+
+$$
+  \big(
+    (0,1),
+    [0,1,1]
+  \big)
+  \mapsto
+  \big(
+    (0,1),
+    [0,1,1],
+    [0,1,1]
+  \big)
+  \mapsto
+  \big(
+    (0,1),
+    (n,0),
+    [0,1,1]
+  \big)
+  \mapsto
+  \big(
+    (n,1),
+    [0,1,1]
+  \big)
+$$
+
+
+
+\begin{tikzcd}[column sep=60pt, row sep=60pt]
+  (
+    \bullet
+    ,
+    [0]
+  )
+  \ar[
+    r,
+    "{
+      (
+        0
+        ,
+        [0,1]
+      )
+    }"{above}
+  ]
+  \ar[
+    d,
+    "{
+      (
+        1
+        ,
+        [0,0]
+      )
+    }"{left}
+  ]
+  \ar[
+    dr,
+    "{
+      (
+        1
+        ,
+        [0,1]
+      )
+    }"{description, sloped}
+  ]
+  &
+  (
+    \bullet
+    ,
+    [1]
+  )
+  \ar[
+    d,
+    "{
+      (
+        1
+        ,
+        [1,1]
+      )
+    }"{right}
+  ]
+  \ar[
+    dl,
+    phantom,
+    "{
+      (
+        (1,0)
+        ,
+        [0,0,1]
+      )
+    }"{near end, scale=.7}
+  ]
+  \ar[
+    dl,
+    phantom,
+    "{
+      (
+        (0,1)
+        ,
+        [0,1,1]
+      )
+    }"{near start, scale=.7}
+  ]
+  \\
+  (
+    \bullet
+    ,
+    [0]
+  )
+  \ar[
+    r,
+    "{
+      (
+        0
+        ,
+        [0,1]
+      )
+    }"{below}
+  ]
+  &
+  (
+    \bullet
+    ,
+    [1]
+  )
+\end{tikzcd}
+
+
+
+
 Now the action
 
 $$
