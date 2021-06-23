@@ -21,6 +21,8 @@
 A **relative category** is an extremely weak version of a [[category with weak equivalences]], providing the bare minimum needed to present an [[(∞,1)-category]]. The idea was first explored in a series of papers by Dwyer and Kan in 1980s.
 A model structure on relative categories was constructed by Barwick and Kan [2012].
 
+More generally, the notion of relative category captures the idea of having a distinguished wide subcategory of morphisms that should be preserved by functors. Relative categories are occasionally used for this purpose, unrelated to any higher categorical purpose.
+
 ## Definition
 
 A **relative category** $C$ is a [[pair]] $(und C, weq C)$, where $und C$ is a [[category]] and $W$ is a [[wide subcategory]]. A [[morphism]] in $weq C$ is said to be a **[[weak equivalence]]** in $C$. A **relative functor** $f : C \to D$ is a [[functor]] $f \colon und C \to und D$ that preserves weak equivalences in the obvious sense.
@@ -84,6 +86,36 @@ such that every left [[Bousfield localization of model categories|Bousfield loca
 =--
 
 This is discussed in further detail at [[model structure on categories with weak equivalences]].
+
+## As enriched categories
+
+The application of relative categories as expressing the idea of having a subcategory of distinguished morphisms can be neatly packaged into viewing relative categories as [[enriched categories]] over the category of sets with distinguished subsets.
+
+Let $PairSet$ be the cartesian closed category whose objects are pairs of small sets $(X, A)$ such that $A \subseteq X$, and whose morphisms $(X, A) \to (Y, B)$ are functions $f : X \to Y$ with $f(A) \subseteq B$.
+
+
++-- {: .num_prop}
+###### Proposition
+
+$RelCat$ is isomorphic to the category of small $PairSet$ enriched categories.
+
+=--
+
++-- {: .proof} 
+###### Proof 
+
+With minimal rephrasing, a small $PairSet$-enriched category consists of the data
+
+* A small set of objects $C$
+* For objects $X,Y$, a set $C(X,Y)$ with a subset $W(X,Y)$
+* For objects $X,Y,Z$, a composition $C(Y,Z) \times C(X,Y) \to C(X,Z)$
+that restricts to $W(Y,Z) \times W(X,Y) \to W(X,Z)$
+* For objects $X$, a choice of identity element $id_X \in W(X,X)$
+
+that is subject to identity and associativity relations. It's immediate that this is exactly the same data as a relative category $(C,W)$. And under this identification, enriched functors and relative functors are the same thing.
+
+=--
+
 
 ## Related concepts
 
