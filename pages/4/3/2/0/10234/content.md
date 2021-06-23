@@ -66,7 +66,7 @@ On the [[spin]] of the proton ([[proton spin crisis]]):
 
 On the [[mass]] of the proton and the [[mass gap problem]] ($\sim$[[confinement]]-problem) of [[QCD]]:
 
-* Craig D. Roberts, _On Mass and Matter_ ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340))
+* {#Roberts21} Craig D. Roberts, _On Mass and Matter_ ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340))
 
 
 
