@@ -1,4 +1,85 @@
 
+\begin{example}
+  Let 
+
+  * $G \in Groups(Sets)$ 
+
+    be a [[discrete group]],
+
+  * $X \in G Actions(Sets)$ 
+
+    be a $G$-[[group action|action]],
+
+  * $\mathcal{X} \;\coloneqq\; X \sslash G \;\coloneqq\; N( X \times G \rightrightarrows X ) \,=\, X \times G^{\times^\bullet} \in sSet$ 
+ 
+    the [[simplicial set]] which is the [[nerve]] of its [[action groupoid]] (a model for its [[homotopy quotient]]),
+
+  * $\mathcal{G} \,\coloneqq\, \mathbf{B}\mathbb{Z} \,\coloneqq\, N(\mathbb{Z} \rightrightarrows \ast)  \,\coloneqq\, \mathbb{Z}^{\times^\bullet} \,\in\, Groups(sSet)$ 
+
+    the [[simplicial group]] which is the [[nerve]] of the [[2-group]] that is the [[delooping groupoid]] of the additive group of [[integers]].
+
+Then 
+
+$$
+  \begin{aligned}
+    \big[
+      \mathbf{B}\mathbb{Z}, X \!\sslash\! G
+    \big]
+    &
+    \;\simeq\;
+    N 
+    Func
+    \big(  
+      (\mathbb{Z} \rightrightarrows \ast),
+      \,
+      (X \times G \rightrightarrows X)
+    \big)
+    \\
+    & \;\underset{\in \mathrm{W}}{\leftarrow}\;
+    \underset{
+      [g] \in ConjCl(G)
+    }{\coprod}
+    \Big(
+      X^{g} \!\sslash\! C_g
+    \Big)
+    \\
+    & \;\simeq\;
+    \underset{
+      [g] \in ConjCl(G)
+    }{\coprod}
+    \big(
+      X^g \times (C_g)^{\times^\bullet}
+    \big)    
+  \end{aligned}
+$$
+
+Now the action
+
+$$
+  \array{
+    \mathbb{Z}^{\times^\bullet}
+    \times
+    X^g \times (C_g)^{\times^\bullet}
+    &\longrightarrow&
+    X^g \times (C_g)^{\times^\bullet}
+    \\
+    \mathbb{Z} \times X^g \times C_g
+    &\longrightarrow&
+    X^g \times C_g 
+    \\
+    \big\downarrow \big\downarrow
+    &&
+    \big\downarrow \big\downarrow
+    \\
+    X^g 
+    &\longrightarrow&
+    X^g
+  }
+$$
+
+\end{example}
+
+
 
 $\gg$
 
