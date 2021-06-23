@@ -221,6 +221,8 @@ which, in turn, follows, for instance, via the [[pasting law]]:
 
 \end{remark}
 
+
+
 ### Relation to the model structure on plain simplicial sets
  {#RelationToModelStructureOnPlainSimplicialSets}
 
@@ -241,14 +243,14 @@ $$
   \mathcal{G}Actions(sSet)
 $$
 
-sends $X \in sSet$ to 
+sends $\mathcal{X} \in sSet$ to 
 
 * the simplicial set 
 
   $$
-    [\mathcal{G},X] 
+    [\mathcal{G},\mathcal{X}] 
     \;\coloneqq\;
-    Hom_{sSet}\big( \mathcal{G} \times \Delta[\bullet], X\big) 
+    Hom_{sSet}\big( \mathcal{G} \times \Delta[\bullet], \mathcal{X}\big) 
     \;\;\;
     \in
     sSet
@@ -257,8 +259,8 @@ sends $X \in sSet$ to
 * equipped with the $\mathcal{G}$-action
 
   $$
-    \mathcal{G} \times [\mathcal{G},X]
-    \longrightarrow 
+    \mathcal{G} \times [\mathcal{G},\mathcal{X}]
+    \overset{ (-) \cdot (-) }{\longrightarrow}
     \mathcal{G}
   $$
 
@@ -272,14 +274,14 @@ sends $X \in sSet$ to
     \big(
       \mathcal{G} \times \Delta[n],
       \,
-      X
+      \mathcal{X}
     \big)
     \longrightarrow
     Hom
     \big(
       \mathcal{G} \times \Delta[n],
       \,
-      X
+      \mathcal{X}
     \big)    
   \]
 
@@ -294,7 +296,7 @@ sends $X \in sSet$ to
     \;
     \mathcal{G}\times \Delta[n]
     \overset{\phi}{\to}
-    X,
+    \mathcal{X},
   \Big)
   \\
   \;\;\mapsto\;\;
@@ -308,7 +310,7 @@ sends $X \in sSet$ to
   \overset{(-)\cdot(-) \times id}{\to}
   \mathcal{G} \times \Delta[n]
   \overset{\phi}{\to}
-   X
+  \mathcal{X}
   \Big)
   \end{aligned}
   \]
@@ -318,7 +320,7 @@ sends $X \in sSet$ to
 Here and in the following proof we make free use of the [[Yoneda lemma]] [[natural bijection]]
 
 $$
-  Hom_{sSet}(\Delta[n], S) \;\simeq\; S_n
+  Hom_{sSet}(\Delta[n], \mathcal{S}) \;\simeq\; \mathcal{S}_n
 $$
 
 for any [[simplicial set]] $S$ and for $\Delta[n] \in \Delta \overset{y}{\hookrightarrow} sSet$ the simplicial [[n-simplex]].
@@ -327,19 +329,23 @@ for any [[simplicial set]] $S$ and for $\Delta[n] \in \Delta \overset{y}{\hookri
 
 We already know from Def. \ref{BorelModelStructure} that $underl$ preserves all [[weak equivalences]] and from Prop. \ref{CofibrationsOfSimplicialActions} that it preserves all [[cofibrations]]. Therefore it is a [[left Quillen functor]] as soon as it is a [[left adjoint]] at all.
 
-The idea of the existence of the [[cofree functor|cofree]] [[right adjoint]] to $undrl$ is familiar from [[topological G-space]] (see the section on [coinduced actions](topological+G-space#CoinducedActions) there), where it can be easily expressed point-wise in [[point-set topology]]. The formula (eq:CofreeSimplicialActionInComponents) adapts this idea to simplicial sets. Its form makes manifest that this gives a simplicial homomorphism, and with this the adjointness follows the usual logic by focusing on the image of the non-degenerate top-degree cell in $\Delta[n]$:
+The idea of the existence of the [[cofree functor|cofree]] [[right adjoint]] to $undrl$ is familiar from [[topological G-spaces]] (see the section on [coinduced actions](topological+G-space#CoinducedActions) there), where it can be easily expressed point-wise in [[point-set topology]]. The formula (eq:CofreeSimplicialActionInComponents) adapts this idea to simplicial sets. Its form makes manifest that this gives a simplicial homomorphism, and with this the adjointness follows the usual logic by focusing on the image of the non-degenerate top-degree cell in $\Delta[n]$:
 
 To check that (eq:CofreeSimplicialActionInComponents) really gives the right adjoint, it is sufficient to check the corresponding [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism), hence to check 
-for $P \in \mathcal{G}Actions(sSet)$, and $X \in sSet$,
+for $\mathcal{P} \in \mathcal{G}Actions(sSet)$, and $\mathcal{X} \in sSet$,
 that we have a [[natural bijection]] of [[hom-sets]] of the form
 
 $$
   \big\{
-    P \overset{\;\;\phi_{(-)}\;\;}{\longrightarrow} [G,X]
+    \mathcal{P} 
+       \overset{\;\;\phi_{(-)}\;\;}{\longrightarrow} 
+    [\mathcal{G}, \mathcal{X}]
   \big\}
   \;\;\;\overset{ \;\; \widetilde{(-)} \;\; }{\leftrightarrow}\;\;\;
   \big\{
-    undrl(P) \overset{\;\; {\widetilde \phi}_{(-)} \;\; }{\longrightarrow} X
+    undrl(\mathcal{P}) 
+      \overset{\;\; {\widetilde \phi}_{(-)} \;\; }{\longrightarrow} 
+    \mathcal{X}
   \big\}
   \,.
 $$
@@ -354,7 +360,7 @@ $$
   \big(
     \phi_{p_n}
     \;\colon\;
-    \mathcal{G} \times \Delta[n] \to X
+    \mathcal{G} \times \Delta[n] \to \mathcal{X}
   \big)
 $$
 
@@ -368,7 +374,7 @@ on the left, define
   \mapsto
   \phi_{p_n}(e_n, \sigma_n)
   \;\in\;
-  X_n
+  \mathcal{X}_n
   \,,
 \]
 
@@ -399,7 +405,7 @@ $$
   \end{aligned}
 $$
 
-Here
+Here:
 
 * the first step is the unit law in the component group $\mathcal{G}_n$;
 
