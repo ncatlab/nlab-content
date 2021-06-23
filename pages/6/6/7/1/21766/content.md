@@ -23,7 +23,7 @@ Traditionally, direct high energy experiments have been dominating the field sin
 
 But heavy [[fundamental particles]], whose mass may be beyond that of direct reaction products obtained in a given accelerator experiment, may still manifest themselves indirectly, as [[virtual particles]] contributing to [[loop order|loop corrections]] of the [[scattering amplitudes]] of all lighter particles to which they couple. Therefore, sufficiently _precise_ measurement of particle reaction at low energy may still reveal the presence and properties of particles at (much) higher energy.
 
-{#IntensityFrontier} Discerning the small statistical effects expected in precision experiments requires access to a large amount of experimental data, hence to a high *intensity* of particle scattering processes, whence the community refers to precision experiments as probing "the intensity frontier" of particle physics. This is in contrast to direct detection experiment which can do with less data as long as it concerns high energy scattering processes, whence direct detection experiments are said to be probing "the energy frontier" of particle physics.
+{#IntensityFrontier} Discerning the small statistical effects expected in precision experiments requires access to a large amount of experimental data, hence to a high *intensity* of particle scattering processes, whence the community refers to precision experiments as probing "the intensity frontier" of particle physics (see the references [below](#IntensityFrontierReferences)). This is in contrast to direct detection experiment which can do with less data as long as it concerns high energy scattering processes, whence direct detection experiments are said to be probing "the energy frontier" of particle physics.
 
 An example for a potential effect seen in precision experiments are the [[flavour anomalies]] in [[B-meson]] decays at various experiments, including the [[LHCb experiment]], [[Belle experiment]] and [[BaBar experiment]]. 
 
@@ -50,10 +50,11 @@ In view of [[flavour anomalies]]:
 * {#AHRS20} Rafael Aoude, Tobias Hurth, Sophie Renner, William Shepherd, _The impact of flavour data on global fits of the MFV SMEFT_ ([arXiv:2003.05432](https://arxiv.org/abs/2003.05432))
 
 
+{#IntensityFrontierReferences} On the "intensity frontier"-terminology:
 
+* Elizabeth Clements, *New tools forge new frontiers*, [Symmetry Magazine](https://www.symmetrymagazine.org/), Aug. 2008 ([pdf](https://www.symmetrymagazine.org/sites/default/files/legacy/pdfs/200808/new_frontiers.pdf))
 
-
-
+* J. L. Hewett et al. *Planning the Future of U.S. Particle Physics (Snowmass 2013): Chapter 2: Intensity Frontier* ([arXiv:1401.6077](https://arxiv.org/abs/1401.6077))
 
 
 [[!redirects precision experiments]]
