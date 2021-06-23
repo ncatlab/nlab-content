@@ -37,6 +37,8 @@ With focus on [[Higgs field]]-interactions:
 
 * Gudrun Heinrich, *Collider Physics at the Precision Frontier*, Physics Reports, Volume 922, 2021, Pages 1-69 ([arXiv:2009.00516](https://arxiv.org/abs/2009.00516))
 
+* Sven Heinemeyer, Stanislaw Jadach, Jürgen Reuter, *Theory requirements for SM Higgs and EW precision physics at the FCC-ee* ([arXiv:2106.11802](https://arxiv.org/abs/2106.11802))
+
 In view of potential [[leptoquarks]]:
 
 * I. Doršner, S. Fajfer, A. Greljo, J. F. Kamenik, N. Košnik, _Physics of leptoquarks in precision experiments and at particle colliders_, Physics Reports Volume 641, 17 June 2016, Pages 1-68 ([arXiv:1603.04993](https://arxiv.org/abs/1603.04993))
