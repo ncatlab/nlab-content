@@ -49,7 +49,9 @@ Original articles:
 
 Review and further development:
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 4 of: _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201, [arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222); _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946), [math.AT/0110207](http://arxiv.org/abs/math/0110207)
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 4 of: _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201 ([arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222), [doi:10.1093/qmath/hag053](https://doi.org/10.1093/qmath/hag053))
+
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, ([MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946), [math.AT/0110207](http://arxiv.org/abs/math/0110207))
 
 See also:
 
