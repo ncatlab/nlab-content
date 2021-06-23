@@ -97,7 +97,7 @@ Let $PairSet$ be the cartesian closed category whose objects are pairs of small 
 +-- {: .num_prop}
 ###### Proposition
 
-$RelCat$ is isomorphic to the category of small $PairSet$ enriched categories.
+$RelCat$ is isomorphic to the category of small $PairSet$-enriched categories.
 
 =--
 
