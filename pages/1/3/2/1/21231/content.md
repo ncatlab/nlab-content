@@ -575,6 +575,11 @@ Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
 
 * {#Hebenstreit14} Florian Hebenstreit, _A space-time resolved view  of the Schwinger effect_, Frontiers of intense laser physics – KITP 2014 ([[HebenstreitSchwingerEffect2014.pdf:file]])
 
+and in relation to [[magnetic monopoles]]:
+
+* B. Acharya et al., *First experimental search for production of magnetic monopoles via the Schwinger mechanism* ([arXiv:2106.11933](https://arxiv.org/abs/2106.11933))
+
+
 Discussion in [[cosmic inflation|inflationary]] [[cosmology]]:
 
 * {#Martin07} Jerome Martin, _Inflationary Perturbations: the Cosmological Schwinger Effect_, Lect. Notes Phys. 738:193-241, 2008 ([arXiv:0704.3540](https://arxiv.org/abs/0704.3540), [doi:10.1007/978-3-540-74353-8_6](https://doi.org/10.1007/978-3-540-74353-8_6))
