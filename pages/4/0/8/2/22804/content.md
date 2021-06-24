@@ -24,8 +24,7 @@ A pseudolattice ordered ring is an [[ordered ring]] whose order forms a [[pseudo
 
 The following [[essentially algebraic]] definition is adapted from the algebraic definition of [[pseudolattice ordered abelian group]] by [[Peter Freyd]]:
 
-A __pseudolattice ordered ring__ is an [[ring]] $R$ with a function $ramp:R \to R
-r$ such that for all $a$ and $b$ in $G$,
+A __pseudolattice ordered ring__ is an [[ring]] $R$ with a function $ramp:R \to R$ such that for all $a$ and $b$ in $G$,
 
 $$
   a = ramp(a) - ramp(-a)
@@ -35,7 +34,13 @@ $$
   ramp(a - ramp(b)) = ramp(ramp(a) - ramp(b))
 $$
 
-and the following [[Horn clause]]: if $ramp(a) = a$ and $ramp(b) = b$, then $ramp(a b) = a b$ (multiplication of non-negative elements is non-negative)
+and the following [[Horn clause]]: 
+
+$$
+  ramp(a) = a \wedge ramp(b) = b \vdash ramp(a b) = a b
+$$
+
+An element $a$ in $R$ is __non-negative__ if $ramp(a) = a$. The Horn clause can then be stated as multiplication of non-negative elements is non-negative.
 
 The [[join]] $(-)\vee(-):R \times R \to R$ is defined as
 
