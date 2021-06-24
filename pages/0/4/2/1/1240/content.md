@@ -418,7 +418,7 @@ $$
   i \colon H \hookrightarrow G
 $$ 
 
-be a group homomorphism (often assumed to be a [[subgroup]] inclusion, and sometimes with $G$ assumed to be a [[finite group]]). For $E \in H Rep$ some $H$-representation (often taken to be the trivial $H$-representation), let $Ind_i E \in G Rep$ be the induced $G$-representation. Then the [[endomorphism ring]] $End_G(Ind_i E)$ of $Ind_i E$ in $G Rep$ is called the _centralizer algebra_ or also the _[[Hecke algebra]]_ or _[[Iwahori?Hecke algebra]]_ $Hecke(E,i)$ of the induced representation. (Basics are in ([Woit, def. 2](#Woit)), details are in ([Curtis-Reiner, section 67](#CR)), a quick survey of related theory is in ([Srinivasan](http://homepages.math.uic.edu/~srinivas/bfggpaper.pdf))).
+be a group homomorphism (often assumed to be a [[subgroup]] inclusion, and sometimes with $G$ assumed to be a [[finite group]]). For $E \in H Rep$ some $H$-representation (often taken to be the trivial $H$-representation), let $Ind_i E \in G Rep$ be the induced $G$-representation. Then the [[endomorphism ring]] $End_G(Ind_i E)$ of $Ind_i E$ in $G Rep$ is called the _centralizer algebra_ or also the _[[Hecke algebra]]_ or _[[Iwahori-Hecke algebra]]_ $Hecke(E,i)$ of the induced representation. (Basics are in ([Woit, def. 2](#Woit)), details are in ([Curtis-Reiner, section 67](#CR)), a quick survey of related theory is in ([Srinivasan](http://homepages.math.uic.edu/~srinivas/bfggpaper.pdf))).
 
 In terms of the notation in _[General abstract formulation](#GeneralAbtractDefinition)_ above and for $i \colon H \to G$ any homomorphism of $\infty$-groups, we have the [[∞-monoid]]
 
