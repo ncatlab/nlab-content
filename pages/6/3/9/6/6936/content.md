@@ -119,6 +119,17 @@ The (homotopy) [[homotopy pushout|pushout]] of $f \colon A\to B$ and $g\colon A\
     | inr : C -> hpushout f g
     | glue : forall (a : A), inl (f a) == inr (g a).
 
+### Quotients of types
+ {#QuotientsOfTypes}
+
+The [[quotient]] of a pure or Type-valued [[equivalence relation]]:
+
+    Inductive quotient (A : Type) (R : A -> A -> Type) : Type :=
+    | proj : A -> quotient A R
+    | relate : forall (x y : A), R x y -> proj x == proj y
+
+This definition is translated into Coq from the Cubical Agda library. 
+
 ### Disjunctions
 
 The [[disjunction]] of two types $A$ and $B$, yielding an [[hProp]]: 
