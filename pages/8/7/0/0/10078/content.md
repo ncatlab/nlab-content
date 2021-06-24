@@ -90,6 +90,10 @@ Reviews include
 
 * [[Christian Schubert]], _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
 
+* James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration* ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
+
+New techniques for worldline integration
+
 Exposition with an eye towards [[quantum gravity]] is in
 
 * {#Witten11} [[Edward Witten]], from 30:40 on in _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
