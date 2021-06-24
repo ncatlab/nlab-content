@@ -100,3 +100,6 @@ The claimed observation of abelian anyons is apparently more securely establishe
 
 
 [[!redirects anyon statistics]]
+
+[[!redirects non-abelian anyon]]
+[[!redirects non-abelian anyons]]
