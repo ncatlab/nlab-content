@@ -62,6 +62,13 @@ The name _Hawaiian earring_ seems to be due to:
 
 * {#Dudley61} R. M. Dudley, _Continuity of homomorphisms_, Duke Math. J. 28:4 (1961), 587-594 ([doi:10.1215/S0012-7094-61-02859-9](https://doi.org/10.1215/S0012-7094-61-02859-9))
 
+See also:
+
+* Wikipedia, *[Hawaiian earring](https://en.m.wikipedia.org/wiki/Hawaiian_earring)*
+
+
+
+
 [[!redirects Hawaiian earring spaces]]
 [[!redirects Hawaiian earring]]
 [[!redirects Hawaiian earrings]]
