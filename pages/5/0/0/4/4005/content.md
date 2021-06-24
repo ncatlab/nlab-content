@@ -17,20 +17,26 @@
 
 ## Idea
 
-The **Hawaiian earring space** is a famous counterexample in [[algebraic topology]] which shows the need for care in hypotheses to develop a good theory of [[covering space]]s. 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Hawaiian_earrings.svg/440px-Hawaiian_earrings.svg.png" width="160">
+</div>
 
-It is an example of a space which is not [[semi-locally simply connected space|semi-locally simply connected]]. 
+The [[topological space]] which is the [[union]] of an infinite number of [[circles]] in the [[plane]], of decreasing radius and all sharing exactly one point, has commonly been known as the *Hawaiian earring space* (apparently following [Dudley 61](#Dudley61), though the space appears earlier in [Griffiths 56](#Griffiths56)). Other terminology is “clamshell” (also [Dudley 61](#Dudley61)) or, more recently, “infinite earring” or “shrinking wedge of circles”.
 
-Other terms can be found in the literature, such as “clamshell”,
-“infinite earring”, and “shrinking wedge of circles”.
-\cite{Dudley} is an early reference that mentions both the terms “clamshell”
-and “Hawaiian earring”, though it appeared earlier ([Griffiths 1956](#Griffiths56)), with no specific name.
+This is an example of a space which is not [[semi-locally simply connected space|semi-locally simply connected]]. 
+
+In [[topology]] and [[algebraic topology]] this space has been of interest mainly as a counterexample, showing the need for care in hypotheses for a good theory of [[covering spaces]]. 
+
+
+
 
 ## Definition
 
 The Hawaiian earring space is the [[topological space]] defined to be the set 
 
-$$\bigcup_{n \in \mathbb{N}} \{(x, y) \in \mathbb{R}^2: (x - 1/2^n)^2 + y^2 = 1/2^{2n}\}$$
+$$
+  \bigcup_{n \in \mathbb{N}} \{(x, y) \in \mathbb{R}^2: (x - 1/2^n)^2 + y^2 = 1/2^{2n}\}
+$$
 
 endowed with [[subspace topology]] inherited from $\mathbb{R}^2$. 
 
@@ -44,16 +50,17 @@ Viewed in terms of [[general topology]], it would be hard to sell the Hawaiian e
 
 * [[Warsaw circle]]
 
+
+
 ## References
 
+An early paper discussing the concept without giving it any specific name is:
 
-An early paper not using any specific name is
+* {#Griffiths56} H. B. Griffiths, _Infinite Products of Semi-Groups and Local Connectivity_, Proceedings of the London Mathematical Society, s3-6 (1956) 455-480 ([doi:10.1112/plms/s3-6.3.455](https://doi.org/10.1112/plms/s3-6.3.455))
 
-* {#Griffiths56} H.B. Griffiths, _Infinite Products of Semi-Groups and Local Connectivity_, Proceedings of the London Mathematical Society, s3-6 (1956) 455-480. [doi:10.1112/plms/s3-6.3.455](https://doi.org/10.1112/plms/s3-6.3.455)
+The name _Hawaiian earring_ seems to be due to:
 
-The name _Hawaiian earring_ seems to be due to
-
-* {#Dudley} R. M. Dudley, _Continuity of homomorphisms_, Duke Math. J. 28:4 (1961), 587-594. [doi:10.1215/S0012-7094-61-02859-9](https://doi.org/10.1215/S0012-7094-61-02859-9).
+* {#Dudley61} R. M. Dudley, _Continuity of homomorphisms_, Duke Math. J. 28:4 (1961), 587-594 ([doi:10.1215/S0012-7094-61-02859-9](https://doi.org/10.1215/S0012-7094-61-02859-9))
 
 [[!redirects Hawaiian earring spaces]]
 [[!redirects Hawaiian earring]]
