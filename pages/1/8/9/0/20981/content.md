@@ -18,6 +18,9 @@ On the [[worldline formalism]] for [[perturbative quantum field theory]]:
 
 * [[Christian Schubert]], _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
 
+* James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration* ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
+
+
 Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
