@@ -10,6 +10,8 @@ $$T(S)=\coprod_{n\ge0} O_n \times_{\Sigma_n} S^n.$$
 
 Such a monad $T$ is equipped with a canonical weakly [[cartesian natural transformation]] to the [[monad]] $Sym$ arising from the [[commutative operad]].
 
+[[finitary monad|Finitary monads]] correspond to [[algebraic theories]], and the analytic monads correspond to algebraic theories that are "linear regular", that is to say, they can be presented using only equations where the same variables appear on both sides and exactly once on each side (see e.g. \cite{Szawiel-Zawadowski}). 
+
 ## Properties
 
 A theorem of Joyal \cite{Joyal} states that
@@ -60,3 +62,4 @@ See Gepner–Haugseng–Kock \cite{GHK}.
 
 * {#GHK} [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, [arXiv:1712.06469](https://arxiv.org/abs/1712.06469).
 
+* {#Szawiel-Zawadowski}[[Stanislaw Szawiel]] and [[Marek Zawadowski]], _Theories of analytic monads_, Math. Struct. Comp. Sci. 24 (2014). [arxiv:1204.2703](https://arxiv.org/pdf/1204.2703.pdf)
