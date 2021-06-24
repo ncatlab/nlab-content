@@ -83,4 +83,10 @@ Constructions in the generality of non-[[semisimple category|semisimple]] [[tens
 
 
 
+
 [[!redirects 3d TQFTs]]
+
+[[!redirects 3d topological field theory]]
+[[!redirects 3d topological field theories]]
+
+
