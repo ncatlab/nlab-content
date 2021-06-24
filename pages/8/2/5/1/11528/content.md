@@ -516,15 +516,14 @@ $$
 
 of the inertia groupoid as follows (recall the nature of [[products of simplices]]):
 
-<img src="https://ncatlab.org/nlab/files/BZActionOnInertiaGroupoid20210623.jpg" width="800" />
+<img src="https://ncatlab.org/nlab/files/BZActionOnInertiaGroupoid20210624.jpg" width="800" />
 
 \end{example}
 
 
-
 ### Relation to the fine model structure of equivariant homotopy theory
 
-The [[identity functor]] goves a [[Quillen adjunction]] between the Borel model structure and [[equivariant homotopy theory]] ([Guillou, section 5](#Guillou)).
+The [[identity functor]] gives a [[Quillen adjunction]] between the Borel model structure and [[equivariant homotopy theory]] ([Guillou, section 5](#Guillou)).
 
 The left adjoint is
 
