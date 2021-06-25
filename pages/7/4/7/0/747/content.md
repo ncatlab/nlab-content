@@ -1381,7 +1381,7 @@ The characterization of the model category of simplicial presheaves as the canon
 
   * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-A set of lecture notes on simplicial presheaves with an eye towrads algebraic sites and [[derived algebraic geometry]] is
+A set of lecture notes on simplicial presheaves with an eye towards algebraic sites and [[derived algebraic geometry]] is
 
 * [[Bertrand Toen]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
 
