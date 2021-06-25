@@ -70,7 +70,7 @@ where the [[equivalence relation]] "$\sim$" identifies, for every morphism $[k] 
 
 This form of geometric realization of simplicial topological spaces goes back to ([Segal68](#Segal68)). An early reference that realizes this construction as a [[coend]] is ([MacLane](#MacLane)).
 
-One also considers geometric realization after restricting to the subcategory $\Delta_+ \hookrightarrow \Delta$ of the [[simplex category]] on the strictly increasing maps (that is, the coface maps only---no codegeneracies).
+One also considers geometric realization after [restricting](semi-simplicial+set#AdjunctionWithSimplicialSets) to the subcategory $\Delta_+ \overset{j^{op}}{\hookrightarrow} \Delta$ of the [[simplex category]] on the strictly increasing maps (that is, the coface maps only---no codegeneracies). (This yields the underlying *[[semi-simplicial set]]*).
 
 +-- {: .num_defn #FatGeometricRealization}
 ###### Definition
@@ -1001,27 +1001,30 @@ A definition of the Bousfield-Kan map, and the Reedy model category theory neces
 
 * Hirschhorn, *Model categories and their localizations*, AMS Mathematical Surveys and Monographs No. 99, 2003
 
-The (fat) geometric realization of ([[nerves]] of) [[topological groupoid]]s is discussed in section 2.3 of
+On the (fat) geometric realization of ([[nerves]] of) [[topological groupoids]]:
 
-* {#GepnerHenriques07} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([arXiv:math/0701916](https://arxiv.org/abs/math/0701916))
+* {#GepnerHenriques07} [[David Gepner]], [[André Henriques]], Section 2.3 in: _Homotopy theory of orbispaces_ ([arXiv:math/0701916](https://arxiv.org/abs/math/0701916))
 
 See also
 
 * [[David Carchedi]], section 3.2 of _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_ ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
 
 
-Globally Kan simplicial spaces are considered in 
+On globally Kan simplicial spaces:
 
 * {#BrownSzczarba} E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 
 
-The right adjoint to geometric realization of simplicial topological spaces is discussed in 
+On the [[right adjoint]] to geometric realization of simplicial topological spaces 
 
-* {#Seymour} R. M. Seymour, _Kan fibrations in the category of simplicial spaces_
-Fund. Math., 106(2):141-152, 1980. 
+* {#Seymour} R. M. Seymour, _Kan fibrations in the category of simplicial spaces_ Fund. Math., 106(2):141-152, 1980. 
+
+On geometric relatization of [[semi-simplicial topological spaces]]:
+
+* [[Johannes Ebert]], [[Oscar Randal-Williams]], *Semi-simplicial spaces*, Algebr. Geom. Topol. 19 (2019) 2099-2150 ([arXiv:1705.03774](https://arxiv.org/abs/1705.03774))
 
 
-Geometric realization of general [[Cech nerve]]s is discussed in
+On Geometric realization of general [[Cech nerves]]:
 
 * {#DuggerIsaksen} [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
 
