@@ -5,6 +5,10 @@ The reason for introducing categories was to introduce functors, and the reason 
 
 ## Selected writings
 
+Introducing [[simplicial sets]] and [[semi-simplicial sets]] (see the historical remarks [here](semi-simplicial+set#History)):
+
+* {#EilenbergZilber50} [[Samuel Eilenberg]], [[Joseph Zilber]], *Semi-Simplicial Complexes and Singular Homology*, *Annals of Mathematics* vol. 51 no. 3 (1950), 499--513 ([jstor:1969364](https://www.jstor.org/stable/1969364))
+
 On [[algebraic topology]]:
 
 * [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of Algebraic Topology_, Princeton University Press 1952 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
