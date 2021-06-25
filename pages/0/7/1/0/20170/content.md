@@ -31,6 +31,10 @@ Moreover, if the manifold does have a [[manifold with boundary|boundary]], then 
 
 * [[G-representation spheres are G-CW-complexes]]
 
+## Related concepts
+
+* [[equivariant differential topology]]
+
 ## References
 
 * {#Illman78} [[Sören Illman]], _Smooth equivariant triangulations of $G$-manifolds for $G$ a finite group_, Math. Ann. (1978) 233: 199 ([doi:10.1007/BF01405351](https://doi.org/10.1007/BF01405351))
@@ -42,8 +46,6 @@ See also
 * {#Matumoto71} T. Matumoto, _Equivariant K-theory and Fredholm operators, J. Fac. Sci. Tokyo 18 (1971/72), 109-112 ([jairo](http://jairo.nii.ac.jp/0021/00002586/en))
 
 * {#Waner80} [[Stefan Waner]], _Equivariant Homotopy Theory and Milnor's Theorem_, Transactions of the American Mathematical Society Vol. 258, No. 2 (Apr., 1980), pp. 351-368 ([JSTOR](http://www.jstor.org/stable/1998061))
-
-
 
 * {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
