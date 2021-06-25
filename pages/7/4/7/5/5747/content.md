@@ -141,6 +141,9 @@ On the other hand, in other contexts the prefix "semi-" is used to denote absenc
 
 * {#EilenbergZilber50} [[Samuel Eilenberg]], [[Joseph Zilber]], *Semi-Simplicial Complexes and Singular Homology*, *Annals of Mathematics* vol. 51 no. 3 (1950), 499--513 ([jstor:1969364](https://www.jstor.org/stable/1969364))
 
+* [[Daniel Kan]], *Is an ss complex a css complex?*, Advances in Mathematics
+Volume 4, Issue 2, April 1970, Pages 170-171 (<a href="https://doi.org/10.1016/0001-8708(70)90021-6">doi:10.1016/0001-8708(70)90021-6</a>)
+
 *  {#RourkeSanderson71} [[Colin Rourke]],  [[Brian Sanderson]], _&#916;-Sets I: Homotopy Theory_. The Quarterly Journal of Mathematics 22: 321&#8211;338 (1971) ([doi:10.1093/qmath/22.3.321](https://doi.org/10.1093/qmath/22.3.321), [pdf](http://www.maths.ed.ac.uk/~aar/papers/deltars.pdf))
 
 * S. Buoncristiano, [[Colin Rourke]], [[Brian Sanderson]], _A geometric approach to Homology Theory_, LMS Lect. Notes 18, (1976)
