@@ -167,6 +167,8 @@ The existence of the $G$-equivariant tubular neighbourhoods is for instance in [
 
 ## Related concepts
 
+* [[equivariant triangulation]], [[equivariant triangulation theorem]]
+
 * [[equivariant bundle]]
 
 * [[equivariant extension theorem]]
