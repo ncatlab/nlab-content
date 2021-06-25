@@ -106,7 +106,7 @@ The notion of the cyclic loop space of a topological space appears as:
 * {#Stapleton11} [[Nathaniel Stapleton]], _Transchromatic generalized character maps_, Algebr. Geom. Topol. 13 (2013) 171-203 ([arXiv:1110.3346](https://arxiv.org/abs/1110.3346))
 
 
-The cyclic loop space of [[orbifolds]], or at least its restriction to constant loops, is discussed in the context of [[equivariant elliptic cohomology]] via [[Tate K-theory]] in:
+A version of the cyclic loop space of [[orbifolds]], or at least its restriction to constant loops, namely [[Huan's inertia orbifold]], is discussed in the context of [[equivariant elliptic cohomology]] via [[Tate K-theory]] in:
 
 * {#Huan18} [[Zhen Huan]], Def. 2.14 of: _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
 
