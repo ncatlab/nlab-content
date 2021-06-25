@@ -6,6 +6,8 @@
 
 * [[relation between category theory and type theory]]
 
+* [[internal logic]]
+
 category: people
 
 
