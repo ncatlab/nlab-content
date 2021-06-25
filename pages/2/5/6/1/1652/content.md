@@ -7,7 +7,7 @@
 
 ## Idea
 
-A [[topological space]] $X$ is _(semi-)locally simply connected_ if every neighborhood of a point has a subneighbourhood in which loops based at the point in the subneighborhood can be contracted in $X$. It is similar to but weaker than the condition that every neighborhood of a point has a subneighborhood that is [[simply connected]]. This latter condition is called _local simple-connectedness_. 
+A [[topological space]] $X$ is _(semi-)locally simply connected_ if every [[neighborhood]] of a point has a subneighbourhood in which [[loops]] based at the point in the subneighborhood can be contracted in $X$. It is similar to but weaker than the condition that every neighborhood of a point has a subneighborhood that is [[simply connected]]. This latter condition is called _local simple-connectedness_. 
 
 ## Definition
 
@@ -26,7 +26,8 @@ For a [[topos]]-theoretic notion of locally $n$-connected see [[locally n-connec
 
 [[!redirects semi-locally simply-connected space]]
 
+
 [[!redirects locally simply-connected space]]
 [[!redirects locally simply-connected spaces]]
 [[!redirects semi-locally simply topological connected space]]
-[[!redirects semi-locally simply connected space]]
+
