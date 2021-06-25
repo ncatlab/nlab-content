@@ -6,11 +6,16 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -23,25 +28,27 @@ A special case is that of [[simplicial manifold]]s.
 
 Often one is interested in simplicial topological spaces with extra nice properties. See [[nice simplicial topological space]] for more on that.
 
+
 ## Applications
 
 As with simplicial objects in general, simplicial spaces may serve to model [[internal ∞-groupoid]]s in [[Top]]. Notably there is a rich theory of [[simplicial topological group]]s.
 
+
 ## Related notions
 
-* **simplicial topological space**, [[nice simplicial topological space]]
+* [[nice simplicial topological space]]
 
 * [[simplicial topological group]]
 
 * [[geometric realization of simplicial spaces]]
 
-
+* [[semi-simplicial topological space]]
 
 ## References
 
 A standard textbook reference is chapter 11 of
 
-* [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
-{#May}
+* {#May} [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+
 
 [[!redirects simplicial topological spaces]]
