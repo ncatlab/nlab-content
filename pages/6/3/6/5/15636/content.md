@@ -1,5 +1,5 @@
 
 
-* [webpage](http://www.mathematik.uni-kl.de/~barakat/de/)
+* [webpage](https://mohamed-barakat.github.io/)
 
 category: people
