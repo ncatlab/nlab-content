@@ -14,8 +14,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -416,13 +414,13 @@ A detailed discussion with emphasis on the correct [[anafunctor]] morphisms betw
 An old discussion on variants of internal categories, crossed modules and 2-groups is archived [here](http://nforum.mathforge.org/discussion/621/internal-category/?Focus=29967#Comment_29967).
 
 [[!redirects internal categories]]
-[[!redirects internal groupoid]]
-[[!redirects internal groupoids]]
+
 [[!redirects category internal]]
 [[!redirects categories internal]]
-[[!redirects groupoid internal]]
-[[!redirects groupoids internal]]
 
 [[!redirects category object]]
 [[!redirects category objects]]
 [[!redirects internal nerve]]
+
+
+
