@@ -50,7 +50,7 @@ endowed with [[subspace topology]] inherited from the [[Euclidean topology]] of 
 
 More abstractly: the earring space can be described up to [[homeomorphism]] as the [[one-point compactification]] of a [[coproduct]] (in [[Top]]; a [[disjoint union space]]) of [[countably infinite set|countably]] many open [[intervals]] (e.g. section 2.1 of ([Cannon-Conner 2000](#CannonConner00))). This shows that the specific radii converging to zero (which was taken to be $1/2^n$ above) don't actually matter. Equivalently, the earring space is [[homeomorphic]] to the [[one-point compactification]] of the [[product space]] $\mathbb{N}\times \mathbb{R}$, where the space of [[real numbers]] $\mathbb{R}$ has the [[Euclidean space|Euclidean topology]] and that of [[natural numbers]] $\mathbb{N}$ has the [[discrete topology]].
 
-Another topological characterisation is as the [[suspension]] of the [[one-point compactification]] of $\mathbb{N}$ with the [[discrete topology]] (that is, the "free convergent sequence").
+Another topological characterisation is as the [[reduced suspension]] of the [[one-point compactification]] of $\mathbb{N}$ with the [[discrete topology]] (that is, the "free convergent sequence"). The basepoint is taken to be the added limit point "at infinity". 
 
 ## Properties
  {#Properties}
