@@ -601,6 +601,8 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * [[Mannque Rho]], [[Ismail Zahed]] (eds.) Chapter 4 of: _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
+* Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons* ([arXiv:2106.13136](https://arxiv.org/abs/2106.13136))
+
 
 See also
 
