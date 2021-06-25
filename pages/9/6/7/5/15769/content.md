@@ -11,8 +11,12 @@ On the [[ordinary homology]] of [[configuration spaces of points]]:
 
 On [[submanifold]] [[cobordism categories]]:
 
-
 * [[Oscar Randal-Williams]], _Embedded Cobordism Categories and Spaces of Manifolds_, 	Int. Math. Res. Not. IMRN 2011, no. 3, 572-608 ([arXiv:0912.2505](https://arxiv.org/abs/0912.2505))
+
+On [[semi-simplicial topological spaces]]:
+
+* [[Johannes Ebert]], [[Oscar Randal-Williams]], *Semi-simplicial spaces*, Algebr. Geom. Topol. 19 (2019) 2099-2150 ([arXiv:1705.03774](https://arxiv.org/abs/1705.03774))
+
 
 On [[action functionals]] for [[topological field theories]] via [[equivariant ordinary differential cohomology]] (such as [[Chern-Simons theory]]):
 
