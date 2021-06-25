@@ -40,7 +40,9 @@ $$
 
 endowed with [[subspace topology]] inherited from $\mathbb{R}^2$. 
 
-More abstractly: the earring space can be described up to [[homeomorphism]] as the [[one-point compactification]] of a [[coproduct]] (in [[Top]]; a [[disjoint union space]]) of [[countably infinite set|countably]] many open [[intervals]]. This shows that the specific radii converging to zero (which was taken to be $1/2^n$ above) don't actually matter. Equivalently, the earring space is [[homeomorphic]] to the one-point compactification of the product space $\mathbb{N}\times \mathbb{R}$, where $\mathbb{R}$ has the Euclidean topology and $\mathbb{N}$ has the discrete topology.
+More abstractly: the earring space can be described up to [[homeomorphism]] as the [[one-point compactification]] of a [[coproduct]] (in [[Top]]; a [[disjoint union space]]) of [[countably infinite set|countably]] many open [[intervals]] (eg setion 2.1 of ([Cannon-Conner 2000](#CannonConner00))). This shows that the specific radii converging to zero (which was taken to be $1/2^n$ above) don't actually matter. Equivalently, the earring space is [[homeomorphic]] to the one-point compactification of the product space $\mathbb{N}\times \mathbb{R}$, where $\mathbb{R}$ has the Euclidean topology and $\mathbb{N}$ has the discrete topology.
+
+Another topological characterisation is as the [[suspension]] of the one-point compactification of $\mathbb{N}$ with the discrete topology (that is, the "free convergent sequence").
 
 Every neighborhood of $(0, 0)$ has non-contractible loops inside it (this would not be the case under the CW topology, i.e., the evident [[quotient space]] of countably many circles with the [[coproduct]] or [[disjoint union topological space|disjoint sum topology]], making the result a countable bouquet of circles). 
 
@@ -61,6 +63,12 @@ An early paper discussing the concept without giving it any specific name is:
 The name _Hawaiian earring_ seems to be due to:
 
 * {#Dudley61} R. M. Dudley, _Continuity of homomorphisms_, Duke Math. J. 28:4 (1961), 587-594 ([doi:10.1215/S0012-7094-61-02859-9](https://doi.org/10.1215/S0012-7094-61-02859-9))
+
+
+The following discusses the combinatorial structure of the fundamental group of the earring space.
+
+* {#CannonConner00}  J.W.Cannon and G.R.Conner, _The combinatorial structure of the Hawaiian earring group_, Topology and its Applications **106** (2000) pp 225–271, doi:[10.1016/S0166-8641(99)00103-0](https://doi.org/10.1016/S0166-8641%2899%2900103-0)
+
 
 See also:
 
