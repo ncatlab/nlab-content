@@ -193,6 +193,8 @@ with face and degeneracy maps
 
 ## Related notions
 
+* [[simplicial classifying space]]
+
 * [[principal bundle]]
 
 * [[torsor]] and [[heap]]
