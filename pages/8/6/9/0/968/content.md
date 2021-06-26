@@ -61,13 +61,14 @@ $S^1$-[[equivariant homotopy theory]] ([Spalinski 95](#Spalinski95), [Blumberg 0
 
 ## Related concepts
 
+* [[cyclic category]]
+
 * [[cyclic cohomology]]
 
-* [[cyclotomic spectrum]]
+* [[cyclic space]], [[cyclotomic spectrum]]
 
 * [[skew-simplicial set]], [[symmetric set]], [[simplicial set]]
 
-* [[cyclotomic spectrum]]
 
 ## References
 
