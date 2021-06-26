@@ -159,6 +159,10 @@ Hence it is an isomorphism if and only if $y_! x^* \to w_! z^*$ is an isomorphis
 While this argument does not generalize to general enriched categories and proarrow equipments, it does generalize in a different direction.  The notion of [[derivator]] is essentially designed exactly so that this argument works, up until the last step: in a general derivator, colimits of constant diagrams may depend on more (or less) than the set of connected components of the domain.  For instance, in the derivator of [[∞-groupoids]], the colimit of a constant diagram is a copower with the [[nerve]] of the domain category, a finer invariant than its $\pi_0$.  It is a theorem of Cisinski that this is the finest possible: colimits of constant diagrams in a derivator never depend on anything more than the nerve of the domain.  Therefore, this yields a characterization of the [[homotopy exact squares]] for computing [[homotopy Kan extensions]] in derivators: the squares where the functor $(b/A/c) \to D(v(b),g(c))$ induces a weak equivalence of nerves.
 
 
+##References
 
+Some of the early theory is in
+
+* [[René Guitart]], _Relations et carrés exacts,_ Ann. Sc. Math. Qué., juillet 1980, vol. IV, N° 2, p. 103-125.
 
 [[!redirects exact squares]]
