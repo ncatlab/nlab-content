@@ -28,6 +28,6 @@ On a [[constructive model structure on simplicial sets]]:
 
 * [[modular theory]]
 
-* [[weal model structure on semi-simplicial sets]]
+* [[weak model structure on semi-simplicial sets]]
 
 category: people
