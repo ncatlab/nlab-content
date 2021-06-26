@@ -119,7 +119,9 @@ This is described at
 
 * [[principal ∞-bundle]]
 
-* [[universal principal ∞-bundle]] , **groupal model for universal principal ∞-bundle**
+* [[universal principal ∞-bundle]]
+
+* [[simplicial classifying space]]
 
 * [[universal connection]]
 
