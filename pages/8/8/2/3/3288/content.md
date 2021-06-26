@@ -351,38 +351,42 @@ When unwrapping what all this means, one sees that the object $LoopSpace_x(X) \i
 
 * [[Dirac-Ramond operator]], [[Witten genus]]
 
+* [[free loop orbifold]], [[inertia orbifold]]
 
+* [[loop space]], [[free loop space]]
 
 ## References
 
 A general standard reference on generalized smooth spaces is
 
-* Kriegl and Michor, _A Convenient Setting of Global Analysis_
- {#km}
+* {#km} Kriegl and Michor, _A Convenient Setting of Global Analysis_
+ 
 
 The structure of loop spaces as Fr&#233;chet manifolds is covered in chapter 42 of [KM](#km) and in various other articles, many of which cover extensions of the basic construction to other mapping spaces.  In particular,
 
 * Michor, _Manifolds of differentiable mappings_ [MR583436 (83g:58009)](http://www.ams.org/mathscinet-getitem?mr=583436)
+
 * Michor, _A convenient setting for differential geometry and global analysis (I and II)_ [MR764972 (86g:58014a)](http://www.ams.org/mathscinet-getitem?mr=764972)
+
 * [[Andrew Stacey]], _The Differential Topology of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Seminars/diffloop.html) (Note: this was designed as an "easy reader" version of [KM](#km))
+
 * [[Andrew Stacey]], _Constructing Smooth Manifolds of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Research/Papers/smooth.html)
 
 The relation of this [[Fréchet manifold]]  structure to the canonical [[diffeological space]] structure is discussed in 
 
-* [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
- {#Waldorf}
-
+* {#Waldorf} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+ 
 Discussion of [[G-structures]] on smooth loop spaces is in the following articles. 
 
 For [[orientation]] structure on loop space and its [[transgression]] from [[spin structure]] on target space:
 
-* [[Konrad Waldorf]], _A Loop Space Formulation for Geometric Lifting Problems_ ([arXiv:1007.5373](http://arxiv.org/abs/1007.5373))
- {#Waldorf10}
+* {#Waldorf10} [[Konrad Waldorf]], _A Loop Space Formulation for Geometric Lifting Problems_ ([arXiv:1007.5373](http://arxiv.org/abs/1007.5373))
+ 
 
 For [[spin structure]] on loop spaces and its [[transgression]] from [[string structure]] on target space:
 
-* [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) ([pdf])
- {#Stolz}
+* {#Stolz} [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) ([pdf])
+ 
 
 * {#Waldorf12} [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_ ([arXiv:1209.1731](http://arxiv.org/abs/1209.1731))
 
@@ -390,8 +394,8 @@ For [[spin structure]] on loop spaces and its [[transgression]] from [[string st
 
 There are also sketchy notes in
 
-* [[Richard Melrose]], _Analysis on loop spaces_, Lecture notes, 2013 ([pdf](http://math.mit.edu/~rbm/18.158-S13/18-158-S13.pdf))
- {#Melrose}
+* {#Melrose} [[Richard Melrose]], _Analysis on loop spaces_, Lecture notes, 2013 ([pdf](http://math.mit.edu/~rbm/18.158-S13/18-158-S13.pdf))
+ 
 
 For the motivation of much of this via the [[Dirac-Ramond operator]] and the [[Witten genus]] see the references there.
 
@@ -400,3 +404,4 @@ This entry was created in parallel with [this MO thread](http://mathoverflow.net
 
 [[!redirects smooth loop space]]
 [[!redirects smooth loop spaces]]
+
