@@ -138,7 +138,7 @@ $$
 
 ## Related concepts
 
-* [[inertia orbifold]]
+* [[inertia orbifold]], [[free loop orbifold]]
 
 * [[cyclic loop space]]
 
