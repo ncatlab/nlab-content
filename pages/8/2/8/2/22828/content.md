@@ -157,10 +157,16 @@ When $\mathcal{X} \simeq X \!\sslash\! G$ is a [[global quotient orbifold]] of a
 
 * [[Ernesto Lupercio]], [[Bernardo Uribe]], _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, ([math.AT/0110207](http://arxiv.org/abs/math/0110207), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310), [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946))
 
-A [[Fréchet–Lie group|Fréchet–Lie]] groupoid presenting the cohesive free loop orbifold:
+* [[Kai Behrend]], [[Grégory Ginot]], [[Behrang Noohi]], [[Ping Xu]], Section 5 of:  *String topology for stacks*, Astérisque, no. 343 (2012) , 183 p. ([arXiv:0712.3857](https://arxiv.org/abs/0712.3857), [numdam:AST_2012__343__R1_0](http://www.numdam.org/item/AST_2012__343__R1_0))
 
-* [[David Michael Roberts]], [[Raymond Vozzo]], _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973).
+  > (with an eye towards [[string topology]] of orbidolds)
 
+* [[David Michael Roberts]], [[Raymond Vozzo]], _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 ([journal version](http://cahierstgdc.com/index.php/volume-lix-2018), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973))
+> (a [[Fréchet–Lie group|Fréchet–Lie]] groupoid presentation)
+
+* {#Huan18} [[Zhen Huan]], Section 2 of: _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
+
+  > (in view of [[equivariant elliptic cohomology]] via [[Tate K-theory]])
 
 
 
