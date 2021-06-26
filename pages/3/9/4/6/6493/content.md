@@ -243,7 +243,7 @@ Original articles:
 
 Review and further development:
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 4 of: _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201 ([arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222), [doi:10.1093/qmath/hag053](https://doi.org/10.1093/qmath/hag053))
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 4 of: _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__ 2 (2004) 185-201 ([arxiv:math.AT/0210222](http://arxiv.org/abs/math/0210222), [doi:10.1093/qmath/hag053](https://doi.org/10.1093/qmath/hag053))
 
 * {#Moerdijk02} [[Ieke Moerdijk]], Section 6 in: _Orbifolds as Groupoids: an Introduction_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
 
