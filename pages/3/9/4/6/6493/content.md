@@ -147,7 +147,7 @@ Let:
 
 Then we have:
 
-1. The *cohesive free loop space-orbifold* of $\mathcal{X}$ is 
+1. The *cohesive [[free loop orbifold]]* of $\mathcal{X}$ is 
 
    $$
      \mathcal{L}\mathcal{X}
@@ -172,7 +172,7 @@ Then we have:
    which is the actual [[free loop space object]] formed in [[smooth groupoids]].
 
 
-The [[shape modality]]-[[unit of a monad|unit]] $\mathcal{A} \xrightarrow{ \eta_{\mathcal{A}}} &#643; \mathcal{A}$ induced a canonical comparison morphism between the two
+The [[shape modality]]-[[unit of a monad|unit]] $\mathcal{A} \xrightarrow{ \eta_{\mathcal{A}}} &#643; \mathcal{A}$ induces a canonical comparison morphism between the two
 
 $$
   \Lambda \mathcal{X}
@@ -185,7 +185,7 @@ $$
   \,.
 $$
 
-When $\mathcal{X} \simeq X \!\sslash\! G$ is a [[global quotient orbifold]] of a [[smooth manifold]] $X$ (for instance for a [[good orbifold]], but $X$ could more generally be a [[diffeological space]] for the present discussion), then this inclusion is the [[n-truncated object of an (infinity,1)-category|faithful inclusion]] of the *cohesively constant loops*, namely those that factor through points in the covering space $X$.
+When $\mathcal{X} \simeq X \!\sslash\! G$ is a [[global quotient orbifold]] of a [[smooth manifold]] $X$ (for instance for a [[good orbifold]], but $X$ could more generally be a [[diffeological space]] for the present discussion), then this inclusion is the [[n-truncated object of an (infinity,1)-category|faithful inclusion]] of the *cohesively constant loops*, namely those that map to points in the naive quotient space of $\mathcal{X}$.
 \end{remark}
 
 \begin{remark}
@@ -245,8 +245,6 @@ Review and further development:
 
 * [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 4 of: _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201 ([arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222), [doi:10.1093/qmath/hag053](https://doi.org/10.1093/qmath/hag053))
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, ([math.AT/0110207](http://arxiv.org/abs/math/0110207), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310), [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946))
-
 * {#Moerdijk02} [[Ieke Moerdijk]], Section 6 in: _Orbifolds as Groupoids: an Introduction_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
 
 See also:
@@ -262,10 +260,13 @@ In view of the [[Chern character]] for [[twisted K-theory|twisted]] [[orbifold K
 
 * [[Jean-Louis Tu]], [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics __207__ (2006) 455&#8211;483, [pdf](http://www.math.univ-metz.fr/~tu/publi/orb.pdf) (cf. sec. 2.3)
 
+More on the cohesive [[free loop orbifold]]:
 
-A Fréchet–Lie groupoid presenting the cohesive free loop space-orbifold is given in
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, ([math.AT/0110207](http://arxiv.org/abs/math/0110207), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310), [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946))
 
-* [[David Michael Roberts]], [[Raymond Vozzo]], _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973).
+A [[Fréchet–Lie group|Fréchet–Lie]] groupoid presenting the cohesive free loop orbifold:
+
+* [[David Michael Roberts]], [[Raymond Vozzo]], _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973).
 
 
 [[!redirects inertia orbifolds]]
