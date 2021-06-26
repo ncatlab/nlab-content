@@ -9,7 +9,7 @@ The Church numerals are an encoding of the [[natural numbers]] into [[untyped la
 
 ## Definition
 
-The $n$th Church numeral $\underline{n}$ is the operation of "iteration $n$ times", sending a function $f$ to its $n$th iterate.  Thus $\inderline{0}(f)$ is the identity function, $\underline{1}(f) = f$, $\underline{2}(f) = f\circ f = \lambda x. f(f(x))$, and so on.
+The $n$th Church numeral $\underline{n}$ is the operation of "iteration $n$ times", sending a function $f$ to its $n$th iterate.  Thus $\underline{0}(f)$ is the identity function, $\underline{1}(f) = f$, $\underline{2}(f) = f\circ f = \lambda x. f(f(x))$, and so on.
 
 ## Connection to realizability
 
