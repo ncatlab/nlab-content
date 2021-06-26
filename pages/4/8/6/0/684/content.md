@@ -189,6 +189,8 @@ $$
 
   * [[loop space]], [[free loop space]], [[derived loop space]]
 
+  * [[inertia orbifold]]
+
 * [[suspension object]]
 
   * [[suspension]], [[reduced suspension]]
