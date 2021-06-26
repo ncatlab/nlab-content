@@ -65,7 +65,7 @@ Let $M$ be an $R$-module.
 
 \end{proposition}
 
-Let $(m_i)_{i\in \mathbb{N}}$ be a sequence of elements in $M$ such that for all $n$, all but finitely many of the $m_i$'s belong to $I^n$. Then $M$ is complete if and only if for every such sequence, the partial sums $\sum{i\leq k} m_i$ have a well-defined limit in $M$. The above proposition shows an $L$-complete needs not to be separated, hence, this limit might not exists. However, informally speaking, $L$-complete modules are those for which we can still make sense of some sort of limit.
+Let $(m_i)_{i\in \mathbb{N}}$ be a sequence of elements in $M$ such that for all $n$, all but finitely many of the $m_i$'s belong to $I^n$. Then $M$ is complete if and only if for every such sequence, the partial sums $\sum_{i\leq k} m_i$ have a well-defined limit in $M$. The above proposition shows an $L$-complete needs not to be separated, hence, this limit might not exists. However, informally speaking, $L$-complete modules are those for which we can still make sense of some sort of limit.
 
 \begin{proposition}([Salch 20](#Salch20))
 
