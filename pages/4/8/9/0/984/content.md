@@ -22,6 +22,8 @@ where $\partial_i$ are boundaries, $\sigma_i$ are degeneracies.
 
 ## Related concepts
 
+* [[cyclic space]]
+
 * [[cyclotomic spectrum]]
 
 [[!redirects cyclic objects]]
