@@ -39,8 +39,14 @@ The $S^1$-equivariant suspension spectrum of a cyclotomic space is a [[cyclotomi
 
 * [[cyclotomic spectrum]]
 
+* [[cyclic space]]
+
 ## References
 
 * {#Schl09} [[Christian Schlichtkrull]], _The cyclotomic trace for symmetric ring spectra_, Geometry & Topology Monographs 16 (2009), 545&#8211;592, ([pdf](/http://msp.org/gtm/2009/16/gtm-2009-16-014s.pdf)), ([arXiv:0903.3495](https://arxiv.org/abs/0903.3495))
 
 * {#AGHL12} [[Vigleik Angeltveit]], [[Teena Gerhardt]], [[Michael Hill]], Ayelet Lindenstrauss, _On the algebraic K-theory of truncated polynomial algebras in several variables_ ([arXiv:1206.0247](https://arxiv.org/abs/1206.0247))
+
+[[!redirects cyclotomic spaces]]
+
+
