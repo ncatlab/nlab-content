@@ -54,6 +54,8 @@ Also see [[free loop space object]] for more information.
 
   * [[derived microlocalization]]
 
+  * [[inertia orbifold]]
+
 * [[suspension object]]
 
   * [[suspension]]
@@ -62,7 +64,6 @@ Also see [[free loop space object]] for more information.
 ## References
 
 The relevance of derived loop spaces was amplified in a series of articles by [[David Ben-Zvi]] and [[David Nadler]],
-
 
 * [[David Ben-Zvi]], [[David Nadler]],
 
