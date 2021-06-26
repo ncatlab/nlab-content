@@ -263,6 +263,11 @@ In view of the [[Chern character]] for [[twisted K-theory|twisted]] [[orbifold K
 * [[Jean-Louis Tu]], [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics __207__ (2006) 455&#8211;483, [pdf](http://www.math.univ-metz.fr/~tu/publi/orb.pdf) (cf. sec. 2.3)
 
 
+A Fréchet–Lie groupoid presenting the cohesive free loop space-orbifold is given in
+
+* [[David Michael Roberts]], [[Raymond Vozzo]], _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973).
+
+
 [[!redirects inertia orbifolds]]
 
 [[!redirects inertia stack]]
