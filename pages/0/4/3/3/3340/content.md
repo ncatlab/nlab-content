@@ -95,7 +95,7 @@ $$
   HC_\bullet( C^\bullet(X) )
 $$
 
-([Loday 11](#Loday11))
+([Jones 87, Thm. A](#Jones87), review in [Loday 92, Cor. 7.3.14](#Loday92), [Loday 11, Sec 4](#Loday11))
 
 If the [[coefficients]] are [[rational numbers|rational]], and $X$ is of [[finite type]] then this may be computed by the _[[Sullivan model for free loop spaces]]_, see there the section on _[Relation to Hochschild homology](Sullivan+model+of+free+loop+space#RelationToHochschildHomology)_.
 
@@ -213,9 +213,15 @@ no. 2, 187&#8211;215, [MR87c:18009](http://www.ams.org/mathscinet-getitem?mr=793
 
 The relation to [[cyclic loop spaces]]:
 
-* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf))
+* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
 
-* {#Loday11} [[Jean-Louis Loday]], _Free loop space and homology_ ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405))
+reviewed in:
+
+* {#Loday92} [[Jean-Louis Loday]], *Cyclic Spaces and $S^1$-Equivariant Homology* ([doi:10.1007/978-3-662-21739-9_7](https://link.springer.com/chapter/10.1007/978-3-662-21739-9_7))
+
+  Chapter 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
+
+* {#Loday11} [[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
 The [[Loday-Quillen-Tsygan theorem]] is originally due, independently, to
 
