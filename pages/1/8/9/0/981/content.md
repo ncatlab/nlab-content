@@ -189,7 +189,7 @@ The cyclic category is a [[generalized Reedy category]], as explained [here](htt
 
 ### Generalized Reedy model structure
 
-The cycle category is a [[generalized Reedy category]]. Hence "cyclic spaces" carry a [[generalized Reedy model structure]].
+The cycle category is a [[generalized Reedy category]] (see [Berger-Moerdijk 08, example 2.7](#BM08)). Hence "cyclic spaces" carry a [[generalized Reedy model structure]].
 
 ## Related concepts
 
@@ -216,16 +216,15 @@ The cycle category is a [[generalized Reedy category]]. Hence "cyclic spaces" ca
 
 * R. Krasauskas, _Skew-simplicial groups_, (Russian)  Litovsk. Mat. Sb.  __27__ (1987),  no. 1, 89--99, [MR88m:18022](http://www.ams.org/mathscinet-getitem?mr=88m:18022) (English transl. [[krasauskas.pdf:file]])
 
-* [[William Dwyer]], [[Daniel Kan]], 
-_Normalizing the cyclic modules of Connes_,
-Comment. Math. Helv. 60 (1985), no. 4, 582--600. 
+* [[William Dwyer]], [[Daniel Kan]], _Normalizing the cyclic modules of Connes_, Comment. Math. Helv. 60 (1985), no. 4, 582--600. 
 
-* [[William Dwyer]], [[Mike Hopkins]], [[Daniel Kan]],  _The homotopy theory of cyclic sets_,
-Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289. 
+* [[William Dwyer]], [[Mike Hopkins]], [[Daniel Kan]],  _The homotopy theory of cyclic sets_, Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289. 
 
 * Z. Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855) 
 
 * {#Elm} [[Anthony Elmendorf]], *A simple formula for cyclic duality*, Proc. Amer. Math. Soc. Volume 118, Number 3 (July 1993), 709-711. ([pdf](http://www.ams.org/journals/proc/1993-118-03/S0002-9939-1993-1143017-0/S0002-9939-1993-1143017-0.pdf))
+
+* {BM08} [[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ ([arXiv:0809.3341](https://arxiv.org/abs/0809.3341))
 
 * {#NS} [[Thomas Nikolaus]], [[Peter Scholze]], *On topological cyclic homology* ([arxiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
