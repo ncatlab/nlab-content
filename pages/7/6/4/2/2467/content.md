@@ -18,6 +18,11 @@ As an inspirative and energetic lecturer Connes also directly contibuted to the 
 
 ## Selected writings
 
+Introducing the [[cyclic category]] and [[cyclic objects]] ([[cyclic sets]], [[cyclic spaces]]) for [[cyclic homology]]:
+
+* [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **269** (1983), S&#233;rie I, 953-958
+
+
 On the [[equivariant Chern character]]:
 
 * [[Alain Connes]], [[Paul Baum]], _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
