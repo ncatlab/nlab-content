@@ -363,7 +363,7 @@ Embedding of the [[HaPPY code]] and the bit-thread models in more general [[Majo
 
 reviewed in:
 
-* {#JahnEisert21} [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
+* {#JahnEisert21} [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_, Quantum Sci. Technol. 6 033002 ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619), [doi:10.1088/2058-9565/ac0293](https://iopscience.iop.org/article/10.1088/2058-9565/ac0293))
 
 * {#Yan19} [[Han Yan]], *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
 
