@@ -92,6 +92,8 @@ Suppose that $f$ satisfies the additional hypothesis (and assume [[weak countabl
 
 +-- {: .query}
 I\'m not sure how to finish this, and maybe it\'s a mistake!  Certainly the result follows from [[countable choice]], but I had thought that it followed from *weak* countable choice.  (The proof from countable choice is to continue the bisection algorithm for infinitely many steps and take $\lim_n c_n$.)  There certainly ought to be a proof that uses only excluded middle (which implies $WCC$), since Theorem \ref{classical} needs only that.
+
+Anonymous: Matthew Frank gave a proof of the constructive intermediate value theorem without any choice at all in this arxiv article: [arxiv:1701.02227](https://arxiv.org/abs/1701.02227). 
 =--
 
 +-- {: .proof}
@@ -109,6 +111,8 @@ Other ways to identify $c$ (in Theorem \ref{classical} or \ref{hypothesis}) are 
 
 * [[Peter Schuster]]; Unique existence, approximate solutions,
 and countable choice; [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7).
+
+* [[Matthew Frank]], _Interpolating Between Choices for the Approximate Intermediate Value Theorem_ ([arxiv:1701.02227](https://arxiv.org/abs/1701.02227))
 
 * Matt F.; answer to Approximate intermediate value theorem in pure constructive mathematics; MathOverflow; [web](http://mathoverflow.net/q/255371).
 
