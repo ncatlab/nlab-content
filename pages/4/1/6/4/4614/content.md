@@ -1042,6 +1042,12 @@ Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139]
 
   (expanded version of [Rezk 14](#Rezk14))
 
+### Realization of topological stacks 
+
+On geometric realizations of [[topological stacks]]:
+
+* [[Johannes Ebert]], *The homotopy type of a topological stack* ([arXiv:0901.3295](https://arxiv.org/abs/0901.3295))
+
 
 [[!redirects geometric realization of a simplicial space]]
 [[!redirects geometric realization of a simplicial topological space]]
@@ -1052,3 +1058,9 @@ Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139]
 [[!redirects fat geometric realization of a simplicial topological space]]
 [[!redirects fat geometric realization]]
 [[!redirects fat realization]]
+
+
+[[!redirects geometric realization of topological stacks]]
+[[!redirects geometric realizations of topological stacks]]
+
+
