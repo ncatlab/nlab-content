@@ -1,49 +1,50 @@
+[[!redirects cycle category]]
 
 
-# The cycle category
+# The cyclic category
 * table of contents
 {: toc}
 
 
 ## Idea
 
-[[Alain Connes]]\'s __cycle category__ $\Lambda$ (sometimes denoted $\mathcal{C}$), often called his __cyclic category__ or __category of cycles__, is a small category whose [[presheaves]] -- called _[[cyclic sets]]_ or more generally _[[cyclic objects]]_  -- are somewhere intermediate between [[simplicial sets]] and [[symmetric sets]]. It strictly contains the [[simplex category]], and has [[cyclic groups]] for automorphism groups. Among its virtues, it is a self-dual category. 
+[[Alain Connes]]\'s __cyclic category__ $\Lambda$ (sometimes denoted $\mathcal{C}$) is a [[small category]] whose [[presheaves]] -- called _[[cyclic sets]]_ or more generally _[[cyclic objects]]_  -- are somewhere intermediate between [[simplicial sets]] and [[symmetric sets]]. It strictly contains the [[simplex category]], and has [[cyclic groups]] for [[automorphism groups]]. Among its virtues, it is a self-dual category. 
 
 The cycle category is used for the description of the cyclic structure on [[Hochschild homology]]/[[Hochschild cohomology]] and accordingly for the description of [[cyclic homology]]/[[cyclic cohomology]].
 
 
 ## Definitions 
 
-Multiple descriptions of the cycle category $\Lambda$ are possible, but a convenient starting point is to consider first a category $L$ whose objects are natural numbers $n \geq 0$, and where the hom-set $L(m, n)$ consists of increasing functions $f: \mathbb{Z} \to \mathbb{Z}$ satisfying the "spiraling property", that $f(i + m + 1) = f(i) + n + 1$, with composition given by functional composition. The category $L$ is (equivalent to) the category $\Lambda_\infty$ called the [[paracycle category]] by [Nikolaus and Scholze](#NS).
+Multiple descriptions of the cyclic category $\Lambda$ are possible, but a convenient starting point is to consider first a category $L$ whose [[objects]] are [[natural numbers]] $n \geq 0$, and where the [[hom-set]] $L(m, n)$ consists of increasing functions $f: \mathbb{Z} \to \mathbb{Z}$ satisfying the "spiraling property", that $f(i + m + 1) = f(i) + n + 1$, with [[composition]] given by ordinary function composition. The category $L$ is ([[equivalence of categories|equivalent]] to) the category $\Lambda_\infty$ called the [[paracyclic category]] by [Nikolaus and Scholze](#NS).
 
 Then, define $\Lambda$ to be a quotient category of $L$ having the same objects, with $\Lambda(m, n) = L(m, n)/\sim$ where $\sim$ is the equivalence relation for which $f \sim g$ means $f - g$ is a constant multiple of $n+1$. Let $q: L \to \Lambda$ be the quotient. 
 
 +-- {: .num_remark #simplex} 
 ###### Remark 
-Notice that $f \in L(m, n)$ is completely determined by the values $f(0), \ldots, f(m)$. There is a faithful embedding $i: \Delta \to L$ which on objects is the identity, where $f \in L(m, n)$ belongs to the image of $i$ iff $0 \leq f(0)$ and $f(m) \leq n$. The composite 
+Notice that $f \in L(m, n)$ is completely determined by the values $f(0), \ldots, f(m)$. There is a [[faithful functor|faithful]] [[subcategory|embedding]] $i \colon \Delta \to L$ which on objects is the identity, where $f \in L(m, n)$ belongs to the image of $i$ iff $0 \leq f(0)$ and $f(m) \leq n$. The composite 
 
 $$\Delta \stackrel{i}{\hookrightarrow} L \stackrel{q}{\to} \Lambda$$ 
 
-is again faithful, so that the simplex category sits inside $\Lambda$. 
+is again [[faithful functor|faithful]], so that the [[simplex category]] sits inside $\Lambda$. 
 =-- 
 
 +-- {: .num_remark} 
 ###### Remark 
-Of course the successor function $\tau: \mathbb{Z} \to \mathbb{Z}$ gives a function $\tau_n \in L(n, n)$ defined by $\tau_n(i) = i+1$, which in turn induces a function $q(\tau) \in \Lambda(n, n)$ such that $q(\tau)^{n+1} = 1_n$. In this way, we have inclusions $\mathbb{Z}/(n+1) \hookrightarrow \Lambda(n, n)$ of cyclic groups inside $\Lambda$. 
+Of course the [[successor]] function $\tau \colon \mathbb{Z} \to \mathbb{Z}$ gives a function $\tau_n \in L(n, n)$ defined by $\tau_n(i) = i+1$, which in turn induces a function $q(\tau) \in \Lambda(n, n)$ such that $q(\tau)^{n+1} = 1_n$. In this way, we have inclusions $\mathbb{Z}/(n+1) \hookrightarrow \Lambda(n, n)$ of [[cyclic groups]] inside $\Lambda$. 
 =-- 
 
-__[[cyclic object|Cyclic objects]]__ in a category $C$ are the contravariant functors $\Lambda^{\mathrm{op}}\to C$, [[cocyclic objects]] are the covariant functors $\Lambda\to C$.  Note that $\Lambda$ itself is, via its inclusion into $Cat$, an example of a cocyclic object in $Cat$.  (Thus, the common term "the cyclic category" to refer to $\Lambda$ is misleading, just like using "the [[simplicial category]]" to refer to the [[simplex category]] $\Delta$.)
+__[[cyclic object|Cyclic objects]]__ in a category $C$ are the [[contravariant functors]] $\Lambda^{\mathrm{op}}\to C$, [[cocyclic objects]] are the [[covariant functors]] $\Lambda\to C$.  Note that $\Lambda$ itself is, via its inclusion into $Cat$, an example of a [[cocyclic object]] in $Cat$.  (Thus, the common term "the cyclic category" to refer to $\Lambda$ is misleading, just like using "the [[simplicial category]]" to refer to the [[simplex category]] $\Delta$.)
 
 If $A$ is an [[abelian category]] then the category of $A$-presheaves on $\Lambda$ is usually called (Connes\'s) category of __cyclic modules__ in $A$.
 
 
-## Structure of the cycle category {#structure}
+## Structure of the cyclic category {#structure}
 
 To analyze the structure of $\Lambda$ further, we make a series of easy observations. These are largely based on [Elmendorf 93](#Elm). 
 
 +-- {: .num_prop} 
 ###### Proposition 
-Every morphism $f$ of $L$, regarded as a functor $\mathbb{Z} \to \mathbb{Z}$, has a left adjoint $f^\ast: \mathbb{Z} \to \mathbb{Z}$ that is also a morphism of $L$. Similarly, every morphism $f$ of $L$ has a right adjoint $f_\ast$ belonging to $L$. 
+Every [[morphism]] $f$ of $L$, regarded as a functor $\mathbb{Z} \to \mathbb{Z}$, has a [[left adjoint]] $f^\ast: \mathbb{Z} \to \mathbb{Z}$ that is also a morphism of $L$. Similarly, every morphism $f$ of $L$ has a [[right adjoint]] $f_\ast$ belonging to $L$. 
 =-- 
 
 +-- {: .proof} 
@@ -77,7 +78,7 @@ $L$ is a self-dual category.
 
 +-- {: .proof} 
 ###### Proof 
-The duality functor $L^{op} \to L$ is the identity on objects and takes $f: m \to n$ to $f^\ast: n \to m$. It is contravariant since the left adjoint of a composite $f g$ is $g^\ast f^\ast = (f g)^\ast$. It is an equivalence because its inverse is the right-adjoint mapping, $f \mapsto f_\ast$. 
+The [[opposite category|duality]] functor $L^{op} \to L$ is the identity on objects and takes $f: m \to n$ to $f^\ast: n \to m$. It is contravariant since the left adjoint of a composite $f g$ is $g^\ast f^\ast = (f g)^\ast$. It is an equivalence because its inverse is the right-adjoint mapping, $f \mapsto f_\ast$. 
 =-- 
 
 +-- {: .num_prop} 
@@ -120,7 +121,7 @@ Every morphism $f: m \to n$ in $\Lambda$ may be uniquely decomposed as $f = \tau
 
 +-- {: .num_prop #action} 
 ###### Proposition 
-The cyclic group $\mathbb{Z}/(m+1)$ acts on $\Delta^{op}(m, n)$ via the following formula for $f \in L(m, n), f(0) = 0$: 
+The [[cyclic group]] $\mathbb{Z}/(m+1)$ [[group action|acts]] on $\Delta^{op}(m, n)$ via the following formula for $f \in L(m, n), f(0) = 0$: 
 
 $$k \cdot f = \tau^{-f(k)} \circ f \circ \tau^k$$ 
 
@@ -219,8 +220,7 @@ The cycle category is a [[generalized Reedy category]]. Hence "cyclic spaces" ca
 _Normalizing the cyclic modules of Connes_,
 Comment. Math. Helv. 60 (1985), no. 4, 582--600. 
 
-* [[William Dwyer]], [[Mike Hopkins]], [[Daniel Kan]], 
-_The homotopy theory of cyclic sets_,
+* [[William Dwyer]], [[Mike Hopkins]], [[Daniel Kan]],  _The homotopy theory of cyclic sets_,
 Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289. 
 
 * Z. Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855) 
