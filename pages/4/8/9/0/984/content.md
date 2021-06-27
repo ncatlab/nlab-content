@@ -11,7 +11,9 @@ Cyclic objects are used in the description of the cyclic structure on [[Hochschi
 
 ## Definition
 
-Let $\Lambda$ denote the [[cycle category]] of [[Alain Connes]].  A __cyclic object__  in a [[category]] $C$ is a $C$-valued [[presheaf]] on $\Lambda$.  Equivalently it is a [[simplicial object]] $F_\bullet$ together with a sequence of isomorphisms $t_n : F_n \rightarrow F_n$, $n\geq 1$, such that
+Let $\Lambda$ denote the [[cyclic category]] of [[Alain Connes]].  A __cyclic object__  in a [[category]] $C$ is a $C$-valued [[presheaf]] on $\Lambda$.  ([[formal duality|Dually]], a *cocyclic object* is a [[copresheaf]] on the cyclic category.)
+
+Equivalently, this is a [[simplicial object]] $F_\bullet$ together with a sequence of isomorphisms $t_n : F_n \rightarrow F_n$, $n\geq 1$, such that
 $$\array{
 \partial_i t_n = t_{n-1} \partial_{i-1},\,\, i \gt 0, &
 \sigma_i t_n = t_{n+1} \sigma_{i-1},\,\, i \gt0, \\
@@ -24,6 +26,18 @@ where $\partial_i$ are boundaries, $\sigma_i$ are degeneracies.
 
 * [[cyclic space]]
 
-* [[cyclotomic spectrum]]
+* [[cyclic set]]
+
+* [[cyclotomic space]], [[cyclotomic spectrum]]
+
+## References
+
+See the references at *[[cyclic category]]* and at *[[cyclic set]]* and *[[cyclic space]]*.
+
+
+
 
 [[!redirects cyclic objects]]
+
+[[!redirects cocyclic object]]
+[[!redirects cocyclic objects]]
