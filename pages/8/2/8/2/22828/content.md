@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -151,11 +152,13 @@ When $\mathcal{X} \simeq X \!\sslash\! G$ is a [[global quotient orbifold]] of a
 
 * [[inertia orbifold]], [[Huan's inertia orbifold]]
 
+* [[cyclic loop stack]]
+
 * [[free loop space]], [[derived loop space]]
 
 ## References
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, ([math.AT/0110207](http://arxiv.org/abs/math/0110207), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310), [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946))
+* {#LupercioUribe01} [[Ernesto Lupercio]], [[Bernardo Uribe]], _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, ([math.AT/0110207](http://arxiv.org/abs/math/0110207), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310), [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946))
 
 * [[Kai Behrend]], [[Grégory Ginot]], [[Behrang Noohi]], [[Ping Xu]], Section 5 of:  *String topology for stacks*, Astérisque, no. 343 (2012) , 183 p. ([arXiv:0712.3857](https://arxiv.org/abs/0712.3857), [numdam:AST_2012__343__R1_0](http://www.numdam.org/item/AST_2012__343__R1_0))
 
