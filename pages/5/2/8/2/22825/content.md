@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of an [[inertia orbifold]] is closely related to that of a [[free loop space]] of an orbifold. As such, one may expect there to be an [[action]] of the [[circle group]] $S^1$ on inertia orbifolds, corresponding to "rotation of loops". An explicit component-based modification of the inertia orbifold construction which builds in an $S^1$-action of sorts (akin to [[cyclic loop spaces]]) was highlighted in [Huan 18](#Huan18) (Def. \ref{HuanInertiaOrbifold} below). 
+The notion of an [[inertia orbifold]] is closely related to that of a [[free loop space]]/[[free loop stack]] of an orbifold. As such, one may expect there to be an [[action]] of the [[circle group]] $S^1$ on inertia orbifolds, corresponding to "rotation of loops". An explicit component-based modification of the inertia orbifold construction which builds in an $S^1$-action of sorts (akin to [[cyclic loop spaces]]/[[cyclic loop stacks]]) was highlighted in [Huan 18](#Huan18) (Def. \ref{HuanInertiaOrbifold} below). 
 
 The [[orbifold K-theory]] of these modified inertia orbifolds ("quasi-elliptic cohomology") is closely related to [[equivariant elliptic cohomology]] at the [[Tate curve]] of the original orbifold (see also at *[[Tate K-theory]]*).
 
@@ -141,6 +141,8 @@ $$
 * [[inertia orbifold]], [[free loop orbifold]]
 
 * [[cyclic loop space]]
+
+* [[cyclic loop stack]]
 
 * [[Tate K-theory]]
 
