@@ -1,4 +1,4 @@
-[[!redirects cycle category]]
+
 
 
 # The cyclic category
@@ -236,9 +236,12 @@ See also
 * Blog [discussion](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html) 
 
 
-[[!redirects cyclic category]]
+[[!redirects cyclic categories]]
+
 [[!redirects Connes' cyclic category]]
 [[!redirects category of cycles]]
 [[!redirects cycle category]]
+
+[[!redirects paracyclic category]]
 
 category: category
