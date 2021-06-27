@@ -101,32 +101,31 @@ By the [[Yoneda lemma]], $Hom(T,Bun_G) \cong Bun_G(T)$ for all $T$. Moreover, if
 
 ## References
 
-Foundations are in
+Basics
 
-* {#Noohi}[[Behrang Noohi]]
 
-  * _[Foundations of Topological Stacks I](http://arxiv.org/abs/math.AG/0503247)_
-
-  * _[Homotopy types of topological stacks](http://front.math.ucdavis.edu/0808.3799)_
-
+* {#Noohi}[[Behrang Noohi]], *Foundations of Topological Stacks I* ([arXiv:math.AG/0503247](http://arxiv.org/abs/math.AG/0503247))
 
 * {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011 ([dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf). [[CarchediDifferentiableStacks.pdf:file]])
-
 
 * [[David Carchedi]], _Compactly Generated Stacks: A Cartesian Closed Theory of Topological Stacks_, Advances in Mathematics, Vol.229(6) (2012) 3339-3397, doi:[10.1016/j.aim.2012.02.006](http://dx.doi.org/10.1016/j.aim.2012.02.006), ([arXiv:0907.3925](http://arxiv.org/abs/0907.3925))
 
 * Metzler, _Topological and smooth stacks_ ([arXiv:math/0306176](http://arxiv.org/abs/math/0306176))
 
+On [[geometric realization of topological stacks]]:
+
+* {#Noohi}[[Behrang Noohi]], *Homotopy types of topological stacks*, Advances in Mathematics Volume 230, Issues 4–6, July–August 2012, Pages 2014-2047 ([arXiv:0808.3799](https://arxiv.org/abs/0808.3799))
+
+* [[Johannes Ebert]], *The homotopy type of a topological stack* ([arXiv:0901.3295](https://arxiv.org/abs/0901.3295))
 
 
-The [[mapping stacks]] of [[topological stacks]] are discussed in 
+On [[mapping stacks]] of [[topological stacks]]:
 
 * {#Noohi08} [[Behrang Noohi]], _Mapping stacks of topological stacks_ ([arXiv:0809.2373](http://arxiv.org/abs/0809.2373))
  
+and in the special case of [[free loop stacks]]:
 
-See also
-
-* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_ ([arXiv](http://front.math.ucdavis.edu/0712.3857))
+* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_ ([arXiv:0712.3857](http://front.math.ucdavis.edu/0712.3857))
 
 
 [[!redirects topological stack]]
