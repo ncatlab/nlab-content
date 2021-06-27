@@ -6323,10 +6323,11 @@ Underlying most of the [[dualities in string theory]] is the phenomenon of  "[[d
 
 1. in parallel the [[dimension]] of [[branes]] is reduced if they _[[wrapped brane|wrap]]_ $F$.
 
-We first give an exposition of the
+We now explain its mathetical formulation following ([FSS 16, section 3](#FSS16), [BMSS 18, section 2.2](#BMSS18)):
+
+First we give an exposition of the
 
 * _[Idea](#DoubleDimensionalReductionIdea)_.
-
 
 Then we discuss a first approximation to a mathematical formalization:
 
@@ -8907,15 +8908,22 @@ The derivation of supersymmetric [[topological T-duality]], rationally, and of t
 
 * {#FSS16b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
+and the mathematical formulation of [[double dimensional reduction]] that this uses is further discussed in
+
+* {#BMSS18} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], Section 2.2 of:  _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics 371: 197 (2019) ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115), [doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4))
+
+
 The derivation of the process of higher invariant extensions that leads from the [[superpoint]] to [[11-dimensional supergravity]]:
 
 * {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_ ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
 
-General discussion of [[twisted cohomology]] is in
+General discussion of [[twisted cohomology]] is in:
 
 * {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015) ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
-A textbook account of much of the story is in
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology]]* ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
+
+Foundations and parts of the story is in:
 
 * {#dcct} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_, Thesis
 
