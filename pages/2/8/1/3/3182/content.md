@@ -1040,6 +1040,9 @@ Discussion of [[geometric realization of simplicial topological spaces|geometric
  {#Stevenson}
 
 
+[[!redirects DTopological∞Groupoid]]
+[[!redirects DTopological∞Groupoids]]
+
 
 [[!redirects Euclidean-generated infinity-groupoids]]
 [[!redirects Euclidean-generated infnity-groupoid]]
