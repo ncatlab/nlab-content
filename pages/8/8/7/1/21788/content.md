@@ -47,7 +47,7 @@ $$
 ### Equivariant version
  {#IdeaEquivariantVersion}
 
-The [[equivariant cohomology|equivariant]] version of Tate K-theory is a form of [[equivariant elliptic cohomology]]. For $G$ a [[finite group]] and $X$ a [[topological G-space]] it comes down ([Ganter 07, Def. 3.1](#Ganter07), [Ganter 13, Def. 2.6](#Ganter13), [Dove 19, Def. 6.16](#Dove19)) to the sub-ring
+The [[equivariant cohomology|equivariant]] version of Tate K-theory is a form of [[equivariant elliptic cohomology]]. For $G$ a [[finite group]] and $X$ a [[topological G-space]] it comes down ([Ganter 07, Def. 3.1](#Ganter07), [Ganter 13, Def. 2.6](#Ganter13), review in[Dove 19, Def. 6.16](#Dove19)) to the sub-ring
 
 $$
   Ell_{Tate}
@@ -63,7 +63,15 @@ of the [[direct sum]], over [[conjugacy classes]] of group elements $g$, of [[La
 
 on those elements which satisfy the _rotation condition_:
 
-**Rotation condition**. _The $C_g$-[[equivariant vector bundles]] $V_j$ which form the coefficient of $q^{j/\left\vert g \right\vert }$ are such that $g$ acts on them by multiplication with $\exp\big( 2 \pi i \frac{j}{\left\vert g \right\vert}  \big)$_
+**{#RotationCondition}Rotation condition**. _The $C_g$-[[equivariant vector bundles]] $V_j$ which form the coefficient of $q^{j/\left\vert g \right\vert }$ are such that $g$ acts on them by multiplication with $\exp\big( 2 \pi i \frac{j}{\left\vert g \right\vert}  \big)$_.
+
+{#RotationConditionImpliedByHuanInertiaEquivariance} This rotation condition may be understood more intrinsically 
+(this is made explicit on [p. 63](https://arxiv.org/pdf/1912.02374.pdf#page=69) of [Dove 19](#Dove19))
+as that in implied by the [[orbifold K-theory]] on [[Huan's inertia orbifold]], induced by the nature of the quotient groups
+$$
+  \Lambda_g \;\coloneqq\; \frac{C_g \times \mathbb{R}}{ \langle (g^{-1},1) \rangle }
+$$
+appearing [there](Huan's+inertia+orbifold#HuanCentralizer). This quotient exactly equates the action of $g \in G$ with that of a rotation of $S^1$.
 
 Hence, in generalization of [[twisted ad-equivariant K-theory]] there is [[twisted ad-equivariant Tate K-theory]] (an [[equivariant elliptic cohomology]] theory) relating to the [[Verlinde ring]] of [[positive energy representation|positive energy]] [[loop group representations]] 
 ([Lurie 09, Sec. 5.2](#Lurie09), 
