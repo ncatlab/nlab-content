@@ -206,7 +206,9 @@ The cycle category is a [[generalized Reedy category]] (see [Berger-Moerdijk 08,
 
 The original definition:
 
-* {#Connes83} [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **269** (1983), S&#233;rie I, 953-958
+* {#Connes83} [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **296** (1983), S&#233;rie I, 953-958 ([pdf](https://alainconnes.org/wp-content/uploads/n83.pdf), [[Connes_CohomologieCyclique.pdf:file]]).
+
+
 
 * {#Cartier85} [[Pierre Cartier]], Section 1.6 of: *Homologie cyclique : rapport sur des travaux récents de Connes, Karoubi, Loday, Quillen...*, Séminaire Bourbaki: volume 1983/84, exposés 615-632, Astérisque, no. 121-122 (1985), Exposé no. 621 ([numdam:SB_1983-1984__26__123_0](http://www.numdam.org/item/?id=SB_1983-1984__26__123_0))
 
