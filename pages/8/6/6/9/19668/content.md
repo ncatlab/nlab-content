@@ -12,7 +12,7 @@ This page compiles material related to the textbook:
 
   ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
 
-on [[representation theory]], [[equivariant homotopy theory]], [[equivariant cohomology]].
+on [[transformation groups]]/[[topological G-spaces]], [[representation theory]], [[equivariant homotopy theory]], [[equivariant cohomology]].
 
 Beware the existence of a book of similar title, by the same author and largely on the same subjects:
 
