@@ -83,6 +83,8 @@ See also
 In the [[nuclear physics]]/[[QCD]]-literature the mass gap problem is (and has long been) known as the _[confinement problem](confinement#OpenProblemConfinementReferences)_.
 Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear physics]]/[[phenomenology|phenomenological]] discussion of [[confinement]]:
 
+* [[Igor Klebanov]], Oyvind Tafjord, "Can we quantitatively understand quark and gluon confinement in Quantum Chromodynamics and the existence of a mass gap?", 10th of *[10 Physics Problems for the Next Millennium](http://theory.caltech.edu/~preskill/millennium.html)* selected at [Strings 2000](https://inspirehep.net/conferences/972466)
+
 * [Roberts &Schmidt 20, p. 2](#RobertsSchmidt20)
 
 * [Roberts 21, footn. 2](#Roberts21)
