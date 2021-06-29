@@ -48,7 +48,7 @@ $$
   \,,
 $$
 
-where the vertical morphisms are the [[curvature]] maps and the bottom morphims reflects ordinary [[fiber integration]] of [[differential forms]].
+where the vertical morphisms are the [[curvature]] maps and the bottom morphisms reflects ordinary [[fiber integration]] of [[differential forms]].
 
 =--
 
