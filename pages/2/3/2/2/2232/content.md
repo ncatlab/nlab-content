@@ -15,6 +15,14 @@ The original example is the __center__ $Z(G)$ of a [[group]] $G$, which is defin
 
 This notion of center of a group can be generalized to the center of a [[monoid]] in an obvious way.
 
++-- {: .num_defn}
+###### Definition
+
+Let $C$ be an object in a [[2-category]]. The center of $C$, $Z(C)$ is the [[monoid]] of [[endomorphisms]] of the identity morphism, $id_C : C \rightarrow C$.
+=--
+
+One can invoke the [[Eckmann-Hilton argument]] to prove that vertical and horizontal composition agree on $Z(C)$ and are commutative. 
+
 ### Of Lie algebras
 
 The __center of a [[Lie algebra]]__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $l\in L$. There are generalizations for some other kinds of algebras.
