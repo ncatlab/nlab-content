@@ -31,7 +31,7 @@ $$
   \,.
 $$
 
-The [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathcal{L}_{const}(X//G)$ is denoted $Fix(X)$ in ([Hopkins-Kuhn-Ravenel 00](#HopkinsKuhnRavenel00), [Stapleton 13, p. 2](#Stapleton13).
+The [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathcal{L}_{const}(X//G)$ is denoted $Fix(X)$ in ([Hopkins-Kuhn-Ravenel 00](#HopkinsKuhnRavenel00), [Stapleton 13, p. 2](#Stapleton13)).
 
 Regarding $S^1$ as the [[circle group]], there is a canonical $S^1$ [[infinity-action]] on any free loop space $\mathcal{L}(-)$ (by rigid rotation of loops), and it restricts to $\mathcal{L}_{const}(-)$. Hence there is the [[homotopy quotient]] stack
 
