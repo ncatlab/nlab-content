@@ -35,7 +35,7 @@ In fact, the category $Alg(H)$, together with its forgetful functor $U\colon Alg
 
 ## Coalgebras in Prof
 
-One version of [[Yoneda lemma|Yoneda's lemma]] says that for a profunctor $K \colon C &#8696; C$ there is a bijection between extranatural transformations $\ast \to K$ and natural transformations $\hom_C \to K$.  So there are bijections
+One version of [[Yoneda lemma|Yoneda's lemma]] says that for a profunctor $H \colon C &#8696; C$ there is a bijection between extranatural transformations $\ast \to H$ and natural transformations $\hom_C \to H$.  So there are bijections
 $$
 \array{
   \ast \: {\ddot\to} \: H(X,X) \\
