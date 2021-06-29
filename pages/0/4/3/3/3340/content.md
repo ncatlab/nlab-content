@@ -141,14 +141,17 @@ $$
 
 ## Related entries 
 
-* [[cyclic space]]
+* [[cyclic category]]
+
+* [[cyclic object]]
+
+  [[cyclic set]] [[cyclic space]]
 
 * [[cyclic loop space]]
 
-* [[cycle category]], [[cyclic object]], [[Hochschild homology]]
-
 * [[topological cyclic homology]]
 
+* [[Hochschild homology]], [[topological Hochschild homology]]
 
 * [[Sullivan model of free loop space]]
 
@@ -165,7 +168,8 @@ Foundational articles:
 
 * [[A. Connes]], _Noncommutative differential geometry, Part I, the Chern character in $K$-homology_, Preprint, Inst. Hautes &#201;tudes Sci., Bures-sur-Yvette, 1982; _Part II, de Rham homology and noncommutative algebra_, Preprint, IH&#201;S 1983; _Cohomologie cyclique et foncteurs $Ext^n$_, C. R. Acad. Sci. Paris __296__, (1983), pp. 953&#8211;958, [MR86d:18007](http://www.ams.org/mathscinet-getitem?mr=777584)
 
-* [[A. Connes]], _Cohomologie cyclique et foncteur $Ext^n$_, Comptes Rendues Ac. Sci. Paris S&#233;r. A-B, 296 (1983), 953-958.
+* {#Connes83} [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **296** (1983), S&#233;rie I, 953-958 ([pdf](https://alainconnes.org/wp-content/uploads/n83.pdf), [[Connes_CohomologieCyclique.pdf:file]]).
+
 
 * [[B. L. Tsygan]], _The homology of matrix Lie algebras over rings and the Hochschild homology_, Uspekhi Mat. Nauk, 38:2(230) (1983), 217&#8211;218.
 
