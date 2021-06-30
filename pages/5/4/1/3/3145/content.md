@@ -1,5 +1,6 @@
 
-Michael Hopkins is a mathematician at Harvard University.
+Michael Jerome Hopkins is a mathematician at Harvard University.
+He got his PhD from Northwestern University in 1984, advised by [[Mark Mahowald]].
 
 * [website](http://www.harvardscience.harvard.edu/directory/researchers/michael-j-hopkins)
 
@@ -112,6 +113,8 @@ On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomolog
 category: people
 
 [[!redirects Michael Hopkins]]
+[[!redirects Michael J. Hopkins]]
+[[!redirects Michael Jerome Hopkins]]
 [[!redirects M. Hopkins]]
 [[!redirects Hopkins]]
 [[!redirects Mike Hopkins]]
