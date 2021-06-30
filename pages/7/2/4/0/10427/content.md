@@ -157,6 +157,7 @@ Formalization of the [[shape modality|shape]]/[[flat modality|flat]]-[[fracture 
 
 * [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
 
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_ ([arXiv:2106.15390](https://arxiv.org/abs/2106.15390))
 
 [[!redirects modal homotopy type theories]]
 
