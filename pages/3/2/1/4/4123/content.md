@@ -55,7 +55,9 @@ This is [[homotopy equivalence|homotopy equivalent]] to $X$.
 
 =--
 
-This is usually attributed to ([Borsuk 1948](#Borsuk48)). The proof relies on the existence of [[partitions of unity]] (see for instance the review [Hatcher, prop. 4G.2](#Hatcher)).
+The proof relies on the existence of [[partitions of unity]].
+
+This is usually attributed to ([Borsuk 1948](#Borsuk48)). It appears more explicitly as [Weil 52, p. 141](#Weil52) [McCord 67, Thm. 2](#McCord67), review in [Hatcher, prop. 4G.3](#Hatcher).
 
 +-- {: .num_remark}
 ###### Remark
@@ -72,12 +74,12 @@ Original references:
 
 * [[Jean Leray]], _L'anneau spectral et l'anneau filtr&#233; d'homologie d'un espace localement compact et d'une application continue_, J. Math. Pures Appl. (9) 29 (1950), 1&#8211;139.
 
-* [[André Weil]], &#167;6. in: _Sur les theoremes de de Rham_, Comment. Math. Helv. 26 (1952), 119&#8211;145.
+* {#Weil52} [[André Weil]], &#167;6. in: _Sur les theoremes de de Rham_, Comment. Math. Helv. 26 (1952), 119&#8211;145 ([dml:139040](https://eudml.org/doc/139040))
 
 
-* [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its  open covers_, Proc. Amer. Math. Soc. 18 (1967), 705&#8211;708.
+* {#McCord67} [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its  open covers_, Proc. Amer. Math. Soc. 18 (1967), 705&#8211;708 ([jstor:2035443](https://www.jstor.org/stable/2035443))
 
-* [[Graeme Segal]],  &#167;4. Zin: _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math. 34 (1968), 105&#8211;112. 
+* [[Graeme Segal]],  &#167;4 in: _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math. 34 (1968), 105&#8211;112. 
 
 * [[Armand Borel]] and [[Jean-Pierre Serre]], Theorem&#160;8.2.1. in: _Corners and arithmetic groups_,
 Comment. Math. Helv. 48 (1973), 436&#8211;491.
@@ -88,7 +90,7 @@ A version for hypercovers is discussed in
 
 A review appears as corollary 4G.3 in the textbook
 
-* {#Hatcher} [[Allen Hatcher]], _Algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)) .
+* {#Hatcher} [[Allen Hatcher]], _Algebraic topology_ ([web](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)) .
 
 
 Some slightly stronger statements are discussed in
