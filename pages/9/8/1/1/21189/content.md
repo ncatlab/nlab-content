@@ -283,10 +283,14 @@ See also
 
 [[!include WZW term of QCD chiral perturbation theory -- references]]
 
-
+The QCD vacuum breaks chiral symmetry down to the diagonal subgroup of SU(3), $U(3)_v$, whereby 8 massless [[Goldstone boson | goldstone bosons]] appear, each of which are coupled via $F_0$ to the conserved axial-vector current. The physics of these [[Goldstone boson | goldstone bosons]], which are themselves the pion fields, describe the low energry [[effective field theory]] known as [[chiral perturbation theory]]. In this low energy structure of QCD, heavy quarks do not play a role since their degrees of freedom are frozen at low energies. However, when the baryon fields are treated as heavy static [[fermions]] in the expansion of the physical vacuum state of QCD, one can write the effective theory in terms of baryon fields with a definite velocity, $B_v$. In the heavy baryon limit, the most general Lagrangian at leading-order is
+$$
+  L_v^0 = iTr\overline{B}_v(v*\mathscr{D})B_v + 2DTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + 2FTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + \frac{1}{4}f^2Tr\partial_{\mu}\Sigma\partial^\mu \Sigma^\dagger + aTrM(\Sigma + \Sigma^\dagger)
+$$   
 
 
 [[!include baryon chiral perturbation theory -- references]]
+
 
 ### Applications to lattice QCD
 
