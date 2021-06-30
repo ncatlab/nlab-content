@@ -11,7 +11,7 @@
 
 ## Idea
 
-**Disjunctive logic** is the [[internal logic]] of [[lextensive categories]].
+**Disjunctive logic** is the [[internal logic]] of [[pre-lextensive categories]].  Roughly speaking this means it is [[cartesian logic]], with conjunction and "provably-unique existential quantification", together with "provably-disjoint disjunction".
 
 ## Definition
 
