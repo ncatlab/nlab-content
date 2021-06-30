@@ -1308,6 +1308,7 @@ Formalization in [[cohesive homotopy type theory|cohesive]] [[modal homotopy typ
 
 * [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
 
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_ ([arXiv:2106.15390](https://arxiv.org/abs/2106.15390))
 
 For discussion of the hexagon in an [[equivariant cohomology|equivariant]] setting, see 
 
