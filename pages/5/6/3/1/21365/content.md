@@ -1,10 +1,17 @@
+[[!redirects baryon chiral perturbation theory -- references]]
 
 
 ### Baryon chiral perturbation theory
- {#BaryonChiralPerturbationTheoryReferences}
+
+The QCD vacuum breaks chiral symmetry down to the diagonal subgroup of SU(3), $U(3)_v$, whereby 8 massless [[Goldstone boson | goldstone bosons]] appear, each of which are coupled via $F_0$ to the conserved axial-vector current. The physics of these [[Goldstone boson | goldstone bosons]], which are themselves the pion fields, describe the low energry [[effective field theory]] known as [[chiral perturbation theory]]. In this low energy structure of QCD, heavy quarks do not play a role since their degrees of freedom are frozen at low energies. However, when the baryon fields are treated as heavy static [[fermions]] in the expansion of the physical vacuum state of QCD, one can write the effective theory in terms of baryon fields with a definite velocity, $B_v$. In the heavy baryon limit, the most general Lagrangian at leading-order is
+$$
+  L_v^0 = iTr\overline{B}_v(v*\mathscr{D})B_v + 2DTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + 2FTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + \frac{1}{4}f^2Tr\partial_{\mu}\Sigma\partial^\mu \Sigma^\dagger + aTrM(\Sigma + \Sigma^\dagger)
+$$   
+
 
 Discussion of [[baryon chiral perturbation theory]], i.e of [[chiral perturbation theory]] with explicit [[effective field theory|effective]] (as opposed to or in addition to implicit [[Skyrmion|skyrmionic]]) [[baryon]] [[field (physics)|fields]] included (see also _[[Walecka model]]_ and _[[quantum hadrodynamics]]_):
 
+## References
 Review:
 
 * [[Ulf-G. Meissner]], _Chiral QCD: Baryon dynamics_, in:  At The Frontier of Particle Physics, pp. 417-505 (2001) ([arxiv:hep-ph/0007092](https://arxiv.org/abs/hep-ph/0007092))
@@ -20,6 +27,8 @@ Review:
 Original articles:
 
 * Elizabeth Jenkins, Aneesh V. Manohar, _Baryon chiral perturbation theory using a heavy fermion lagrangian_, Physics Letters B Volume 255, Issue 4, 21 February 1991, Pages 558-562 (<a href="https://doi.org/10.1016/0370-2693(91)90266-S">doi:10.1016/0370-2693(91)90266-S</a>)
+
+* Elizabeth Jenkins, Aneesh V. Manohar, _Chiral corrections to the baryon axial currents__, Physics Letters B Volume 259, Issue 3, 25 April 1991, Pages 353-358 (<a href="https://doi.org/10.1016/0370-2693(91)90840-M">doi:10.1016/0370-2693(91)90840-M</a>)
 
 * Robert Baur, Joachim Kambor, _Generalized Heavy Baryon Chiral Perturbation Theory_, Eur. Phys. J. C7:507-524, 1999 ([arXiv:hep-ph/9803311](https://arxiv.org/abs/hep-ph/9803311))
 
