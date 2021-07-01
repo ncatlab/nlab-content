@@ -76,32 +76,33 @@ _Doc. Math._ 1998, Extra Vol. I, 607&#8211;615 (electronic). [MR1660657](http://
 
 * {#FrenkelLepowskiMeurman89} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1989. liv+508 pp. [MR0996026](http://www.ams.org/mathscinet-getitem?mr=996026)
 
-* [[Terry Gannon]], "Monstrous moonshine: the first twenty-five years."
-_Bull. London Math. Soc._ **38** (2006), no. 1, 1&#8211;33.  [MR2201600](http://www.ams.org/mathscinet-getitem?mr=2201600) [arXiv:math/0402345v2](http://arxiv.org/abs/math/0402345) [math.QA]
-* Terry Gannon, _Moonshine beyond the Monster: The Bridge Connecting Algebra, Modular Forms and Physics_, Cambridge Monographs on Mathematical Physics, Cambridge University Press, Cambridge, Massachusetts 2006. [MR2257727](http://www.ams.org/mathscinet-getitem?mr=2257727)
+* [[Terry Gannon]], *Monstrous moonshine: the first twenty-five years*, _Bull. London Math. Soc._ **38** (2006), no. 1, 1&#8211;33.  [MR2201600](http://www.ams.org/mathscinet-getitem?mr=2201600) [arXiv:math/0402345](http://arxiv.org/abs/math/0402345) [math.QA]
+
+* [[Terry Gannon]], _Moonshine beyond the Monster: The Bridge Connecting Algebra, Modular Forms and Physics_, Cambridge Monographs on Mathematical Physics, Cambridge University Press, Cambridge, Massachusetts 2006. [MR2257727](http://www.ams.org/mathscinet-getitem?mr=2257727)
+
 * Koichiro Harada, _"Moonshine" of finite groups_.
 EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#252;rich, 2010. viii+76 pp. [MR2722318](http://www.ams.org/mathscinet-getitem?mr=2722318)
 
-* Griess, Robert L., Jr.; Lam, Ching Hung "A moonshine path from E8 to the Monster." _J. Pure Appl. Algebra_ 215 (2011), no. 5, 927&#8211;948 [MR2747229](http://www.ams.org/mathscinet-getitem?mr=2747229) [arXiv:0910.2057v2](http://arxiv.org/abs/0910.2057v2) [math.GR]
+* Griess, Robert L., Jr.; Lam, Ching Hung *A moonshine path from E8 to the Monster*, J. Pure Appl. Algebra_ 215 (2011), no. 5, 927&#8211;948 [MR2747229](http://www.ams.org/mathscinet-getitem?mr=2747229) [arXiv:0910.2057v2](http://arxiv.org/abs/0910.2057v2) [math.GR]
 
 * Jae-Hyun Yang "Kac-Moody algebras, the Monstrous Moonshine, Jacobi forms and infinite products." _Number theory, geometry and related topics_ (Iksan City, 1995), 13&#8211;82, Pyungsan Inst. Math. Sci., Seoul, 1996. [MR1404967](http://www.ams.org/mathscinet-getitem?mr=1404967) [arXiv:math/0612474v2](http://arxiv.org/abs/math/0612474) [math.NT]
 
-* Vassilis Anagiannis, Miranda C. N. Cheng, _TASI Lectures on Moonshine_ ([arXiv:1807.00723](https://arxiv.org/abs/1807.00723))
+* Vassilis Anagiannis, [[Miranda Cheng]], _TASI Lectures on Moonshine_ ([arXiv:1807.00723](https://arxiv.org/abs/1807.00723))
 
 ### Historical References 
 
-* John Conway and Simon Norton, "Monstrous moonshine." _Bull. London Math. Soc._ **11** (1979), no. 3, 308--339; [MR0554399](http://www.ams.org/mathscinet-getitem?mr=554399) (81j:20028)
+* [[John Conway]] and Simon Norton, "Monstrous moonshine." _Bull. London Math. Soc._ **11** (1979), no. 3, 308--339; [MR0554399](http://www.ams.org/mathscinet-getitem?mr=554399) (81j:20028)
 
 * {#FrenkelLepowskiMeurman89} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, "A natural representation of the Fischer-Griess Monster with the modular function $J$ as character." _Proc. Nat. Acad. Sci. U.S.A._ **81** (1984), no. 10, Phys. Sci., 3256--3260. [MR0747596](http://www.ams.org/mathscinet-getitem?mr=747596) (85e:20018)
 
 * [[Robert Griess]], "The friendly giant." _Invent. Math._ **69** (1982), no. 1, 1--102. [MR671653](http://www.ams.org/mathscinet-getitem?mr=671653) (84m:20024)
-* John G. Thompson, "Some numerology between the Fischer-Griess Monster and the elliptic modular function." _Bull. London Math. Soc._ **11** (1979), no. 3, 352--353.
-[MR0554402](http://www.ams.org/mathscinet-getitem?mr=554402) (81j:20030)
+
+* John G. Thompson, "Some numerology between the Fischer-Griess Monster and the elliptic modular function." _Bull. London Math. Soc._ **11** (1979), no. 3, 352--353. [MR0554402](http://www.ams.org/mathscinet-getitem?mr=554402) (81j:20030)
 
 ### Further developments
  {#FurtherDevelomentsReferences}
 
-* Miranda C. N. Cheng, John F. R. Duncan, Jeffrey A. Harvey, _Umbral Moonshine_ ([arXiv:1204.2779](http://arxiv.org/abs/1204.2779))
+* [[Miranda Cheng]], John F. R. Duncan, Jeffrey A. Harvey, _Umbral Moonshine_ ([arXiv:1204.2779](http://arxiv.org/abs/1204.2779))
 
 * John F. R. Duncan, Michael J. Griffin and Ken Ono, _Proof of the Umbral Moonshine Conjecture_ ([arXiv:1503.01472](http://arxiv.org/abs/1503.01472))
 
@@ -112,7 +113,7 @@ EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#2
 
 Discussion of possible realizations in [[superstring theory]] (specifically [[heterotic string theory]] and [[type II string theory]] in [[K3-surfaces]], see [[HET - II]]) via [[automorphisms of super vertex operator algebras]]:
 
-* S. Chaudhuri, D.A. Lowe, _Monstrous String-String Duality_, Nucl.Phys.B469:21-36, 1996 ([arXiv:hep-th/9512226](https://arxiv.org/abs/hep-th/9512226))
+* S. Chaudhuri, D.A. Lowe, _Monstrous String-String Duality_, Nucl. Phys. B469 : 21-36, 1996 ([arXiv:hep-th/9512226](https://arxiv.org/abs/hep-th/9512226))
 
 * {#Duncan05} John F. Duncan, _Super-moonshine for Conway's largest sporadic group_ ([arXiv:math/0502267](https://arxiv.org/abs/math/0502267))
 
@@ -132,7 +133,7 @@ Specifically in relation to [[KK-compactifications]] of [[string theory]] on [[K
 
 Possible relation to [[bosonic M-theory]]:
 
- [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
+* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
 
 
 
