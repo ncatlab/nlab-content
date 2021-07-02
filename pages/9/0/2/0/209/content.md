@@ -48,6 +48,15 @@ See also _[[faithful morphism]]_ for a generalization to an arbitrary [[2-catego
 
 And see [[0-truncated morphism of an (∞,1)-category|0-truncated morphism]] for generalization to [[(∞,1)-categories]] (see <a href="n-truncated+object+of+an+(infinity,1)-category#TruncatedMorphismsBetweenGroupoids">there</a>).
 
++-- {: .num_remark }
+###### Warning
+
+This generalization is about extending to morphisms in general (∞,1)-categories the fact that in $\infty{}Grpd$, $0$-truncated morphisms give a reasonable notion of faithful functor.
+
+In particular, the notion of a "faithful morphism in the (∞,1)-category of (∞,1)-categories" does _not_ give the right notion of a "faithful functor between (∞,1)-categories".
+
+=--
+
 ## Properties
 
 +-- {: .num_prop }
