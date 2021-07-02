@@ -94,7 +94,7 @@ A comprehensive treatment in the context of [[(∞,1)-category]]-theory,  genera
 
 * [[Jacob Lurie]], _Derived algebraic geometry II: Noncommutative algebra_, [math.CT/0702299](http://arxiv.org/abs/math/0702299), Section 3.
 
-later absorned as
+later absorbed as
 
 * [[Jacob Lurie]], section 6.2.4 of _[[Higher Algebra]]_
 
