@@ -50,8 +50,6 @@ Alternatively, since the [[axiom of infinity]] states the existence of a set (an
 
 [[!include empty objects -- contents]]
 
-* [[nothing]]
-
 
 category: foundational axiom
 
