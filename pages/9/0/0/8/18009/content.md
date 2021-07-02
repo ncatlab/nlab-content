@@ -103,6 +103,8 @@ The notion of the cyclic loop space of a topological space appears as:
 
 * {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
 
+* [[Gunnar Carlsson]], [[Ralph Cohen]], *The cyclic groups and the free loop space*, Commentarii Mathematici Helvetici **62** (1987) 423–449  ([doi:10.1007/BF02564455](https://doi.org/10.1007/BF02564455), [dml:140092](https://eudml.org/doc/140092))
+
 * {#Witten88} [[Edward Witten]], _The index of the Dirac operator in loop space_. In Elliptic curves and modular forms in algebraic topology (Princeton, NJ, 1986), volume 1326 of Lecture Notes in Math., pages 161&#8211;181. Springer, Berlin, 1988 ([doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045))
 
 * {#Loday92} [[Jean-Louis Loday]], *Cyclic Spaces and $S^1$-Equivariant Homology* ([doi:10.1007/978-3-662-21739-9_7](https://link.springer.com/chapter/10.1007/978-3-662-21739-9_7))
@@ -113,6 +115,15 @@ The notion of the cyclic loop space of a topological space appears as:
 * {#Loday11}[[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
 * {#Stapleton11} [[Nathaniel Stapleton]], _Transchromatic generalized character maps_, Algebr. Geom. Topol. 13 (2013) 171-203 ([arXiv:1110.3346](https://arxiv.org/abs/1110.3346))
+
+Specifically on cyclic loop spaces of [[n-spheres]]:
+
+* [[Nancy Hingston]], *An Equivariant Model for the Free Loop Space of $S^N$*, American Journal of Mathematics **114** 1 (1992) 139-155 ([doi:10.2307/2374740](https://doi.org/10.2307/2374740), [jstor:2374740](https://www.jstor.org/stable/2374740))
+
+See also:
+
+* [[Urs Frauenfelder]], *Dihedral homology and the moon*, J. Fixed Point Theory Appl. **14** (2013) 55–69 ([arXiv:1204.4549](https://arxiv.org/abs/1204.4549), [doi:10.1007/s11784-013-0146-z](https://doi.org/10.1007/s11784-013-0146-z))
+
 
 
 A version of the cyclic loop space of [[orbifolds]], or at least its restriction to constant loops, namely [[Huan's inertia orbifold]], is discussed in the context of [[equivariant elliptic cohomology]] via [[Tate K-theory]] in:
