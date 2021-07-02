@@ -187,7 +187,7 @@ This means we may think of $A$ as measuring how [[infinitesimal object|infinites
 
 ### Curvature characteristic forms
 
-Let $\langle - \rangle \in W(\mathfrak{g})$  be an [[invariant polynomial]] on the Lie algebra. For $A \in Omega^1(P,\mathfrak{g})$ an Ehresmann connection, write
+Let $\langle - \rangle \in W(\mathfrak{g})$  be an [[invariant polynomial]] on the Lie algebra. For $A \in \Omega^1(P,\mathfrak{g})$ an Ehresmann connection, write
 
 $$
   \langle F_A \rangle = \langle F_A \wedge F_A \wedge \cdots F_A\rangle
