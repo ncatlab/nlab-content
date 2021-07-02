@@ -18,13 +18,16 @@
 
 ### In 1-category theory
 
-A [[functor]] $F: C \to D$ from the category $C$ to the category $D$ is _faithful_ if for each pair of objects $x, y \in C$, the function
+A [[functor]] $F: C \to D$ from the category $C$ to the category $D$ is _faithful_, or an embedding, if for each pair of objects $x, y \in C$, the function
 
 $$F : C(x,y) \to D(F(x), F(y))$$
 
-between [[hom sets]] is [[injection|injective]].  
+between [[hom sets]] is [[injection|injective]]. The arrow function of $F$ assigns to each $f : x \rightarrow y$ an arrow $Ff : Fx \rightarrow Fy$, thereby defining a function 
+$$ F_{x,y} : hom(x,y) \rightarrow hom(Fx, Fy). f \mapsto Ff $$
 
-More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective functor|surjective]] &#8211; or loosely speaking, 'surjective on equations between given morphisms'.
+More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective functor|surjective]] &#8211; or loosely speaking, 'surjective on equations between given morphisms'. 
+
+
 
 ### In higher category theory
  {#InHigherCategoryTheory}
