@@ -280,6 +280,7 @@ We discuss the [[presentable (infinity,1)-category|presentation]] of the phenome
 
 * [[Sullivan model of classifying space]]
 
+* [[transchromatic character]]
 
 
 ## References
