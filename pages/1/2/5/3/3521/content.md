@@ -63,7 +63,7 @@ In this last formulation it is clearest what the two canonical morphisms out of 
 
 Concretely, the d&#233;calage construction is the following.
 
-+-- {: .num_defn}
++-- {: .num_defn #DecalageInComponents}
 ###### Definition
 
 For $X$ a [[simplicial set]],
@@ -77,6 +77,16 @@ the **d&#233;calage** $Dec_0\, X \in sSet$ of $X$, is the simplicial set obtaine
 
 =--
 
+Analogously:
+
+* $(Dec^0 \, X)_n \coloneqq X_{n+1}$;
+
+* $d_k^{n,Dec^0 X}  \coloneqq d^{n+1,X}_{k+1}$;
+
+* $s_k^{n,Dec^0 X}  \coloneqq s^{n+1,X}_{k+1}$.
+
+([Illusie 72](#Illusie72), review in [Stevenson 11, Def. 2](#Stevenson11)) 
+
 ### As a restriction of total d&#233;calage
  {#AsARestrictionOfTotalDecalage}
 
@@ -85,11 +95,10 @@ It is often useful to understand this as a special case of the _[[total décalag
 +-- {: .num_defn}
 ###### Definition
 
-
-Write $\sigma : \Delta_a \times \Delta_a \to \Delta_a$ for the [[ordinal sum]] operation on the [[asSet|augmented simplex category]]. The [[total décalage]] functor is precompositon with this
+Write $\sigma \colon \Delta_a \times \Delta_a \to \Delta_a$ for the [[ordinal sum]] operation on the [[asSet|augmented simplex category]]. The [[total décalage]] functor is precompositon with this
 
 $$
-  \sigma^* : sSet_a \to ssSet_a
+  \sigma^* \colon sSet_a \to ssSet_a
 $$
 
 or rather its restriction from [[augmented simplicial sets]] to just [[simplicial sets]]/[[bisimplicial sets]].
@@ -199,20 +208,20 @@ So this exhibits the $n$-cells of $Dec_0 X$ as being the cones of $n$-simplices 
 ###### Proposition
 
 
-For $X \in sSet$ its d&#233;calage $Dec_0 X$ comes with two canonical morphisms out of it
+For $X \in sSet$ its d&#233;calage $Dec_0 X$ comes with two canonical [[morphisms]] out of it
 
 $$
   \array{
-    Dec_0 X &\to& X
+    Dec_0 X &\overset{\in Fib}{\longrightarrow}& X
     \\
-    \downarrow^{\mathrlap{\simeq}}
+    \big\downarrow {}^{\mathrlap{\in \mathrm{W}}}
     \\
     const X_0
+    \mathrlap{\,.}
   }
-  \,.
 $$
 
-Here in terms of the description [above](#DefinitionInTermsOfCones) of d&#233;calage by cones:
+Here, in terms of the description [above](#DefinitionInTermsOfCones) of d&#233;calage by cones:
 
 * the horizontal morphism is induced from the canonical inclusion 
   $\Delta[n] \hookrightarrow \Delta[n]\star \Delta[0]$;
@@ -224,16 +233,17 @@ Or in terms of components, as discussed
 [above](#DefinitionInComponents), 
 
 * the horizontal morphism is given by
-  $d_{last} : Dec_0 Y \to Y$,
+  $d_{last} \colon Dec_0 Y \to Y$,
   hence in degree $n$ by the remaining face map 
-  $d_{n+1} : X_{n+1} \to X_n$;
+  $d_{n+1} \colon X_{n+1} \to X_n$;
 
-* the vertical morphism is given in degree 0 by $s_0 : X_1 \to X_0$ and in every higher degree similarly by $s_0 \circ s_0 \circ \cdots \circ s_0$.
+* the vertical morphism is given in degree 0 by $s_0 \colon X_1 \to X_0$ and in every higher degree similarly by $s_0 \circ s_0 \circ \cdots \circ s_0$.
 
 =--
 
-See for instance ([Stevenson, around def. 2](#Stevenson11)) for an account.
+(review in [Stevenson 11, Def. 2](#Stevenson11))
 
+These morphisms are a [[Kan fibration]] and a [[simplicial weak equivalence]], respectively, by the [following](#FibrationResolution) discussion.
 
 
 
@@ -242,8 +252,7 @@ See for instance ([Stevenson, around def. 2](#Stevenson11)) for an account.
 ### Fibration resolution
  {#FibrationResolution}
 
-We discuss here how $Dec_0 X \to X$ is a [[resolution]] of $const X_0 \to X$ by 
-a [[Kan fibration]].
+We discuss here how $Dec_0 X \to X$ is a [[resolution]] of $const X_0 \to X$ by a [[Kan fibration]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -313,7 +322,7 @@ For each of these the statement that the projection $X_{/x} \to X$ is a [[Kan fi
 
 For $X$ a [[Kan complex]], the d&#233;calage morphism $Dec_0 X \to X$ is a [[Kan fibration]] [[resolution]] of the inclusion $const X_0 \to X$ of the set of 0-cells of $X$, regarded as a [[discrete object|discrete]] simplicial set:
 
-there is a diagram
+there is a [[commuting diagram]]
 
 $$
   \array{
@@ -384,27 +393,43 @@ $$\Delta_a^{op}\to [\mathbf{SSet}, \mathbf{SSet}].$$
  
 Hence by the "walking" correspondence, the value of $[0]$ under this monoidal functor is a comonad on simplicial sets whose underlying functor is d&#233;calage: 
 
-$$Dec_0: Set^{\Delta_a^{op}} \to Set^{\Delta_a^{op}}$$
+$$
+  Dec_0 \colon Set^{\Delta_a^{op}} \to Set^{\Delta_a^{op}}
+$$
 
 (Tautologically, though, this is merely an elaborate way to rephrase the earlier description of this comonad.) 
 
-The map $d_{last}: Dec_0 \to Id$ is the counit of the comonad. The comonad itself is analogous to a kind of unbased [[path space object]] comonad $P$ on $Top$ whose value at a space $X$ is a pullback 
+The map $d_{last} \colon Dec_0 \to Id$ is the counit of the comonad. The comonad itself is analogous to a kind of unbased [[path space object]] comonad $P$ on $Top$ whose value at a space $X$ is a pullback 
 
-$$\array{
-P X & \to & X^I \\
-\downarrow & & \downarrow \mathrlap{eval_0} \\
-|X| & \stackrel{i}{\to} & X
-}$$
+$$
+  \array{
+    P X & \to & X^I 
+    \\
+    \downarrow & & \downarrow \mathrlap{eval_0} 
+    \\
+    |X| & \stackrel{i}{\to} & X  
+  }
+$$
 
 where $i$ is the set-theoretic identity inclusion of $X$ equipped with the discrete topology. Thus we have 
 
-$$P X = \sum_{x_0 \in X} P(X, x_0),$$ 
+$$
+  P X 
+  \;=\; 
+  \sum_{x_0 \in X} P(X, x_0),
+
+$$ 
 
 the sum over all possible basepoints $x_0$ of path spaces based at $x_0$. The analogy is made precise by a canonical isomorphism 
 
-$$Dec_0 \circ S \cong S \circ P$$ 
+$$
+  Dec_0 \circ Sing 
+  \;\cong\; 
+  Sing \circ P
+  \,,
+$$ 
 
-where $S: Top \to Set^{\Delta^{op}}$ is simplicial singularization. 
+where $Sing \;\colo\; Top \to Set^{\Delta^{op}}$ is the [[singular simplicial complex]]-[[functor]]. 
 
 A $P$-coalgebra partitions $X$ into path components and exhibits contractibility of each component. Similarly, a coalgebra of the d&eacute;calage comonad exhibits the acyclicity of the underlying simplicial set. 
 
@@ -419,7 +444,7 @@ A $P$-coalgebra partitions $X$ into path components and exhibits contractibility
 
 A central application is the special case where $X = \overline{W} G$ is the [[simplicial classifying space]] of a [[simplicial group]] $G$ (see at _[[simplicial principal bundle]]_). In this case $Dec_0 \overline{W} G$, called $W G$, is a standard model for the _[universal simplicial principal bundle](simplicial%20principal%20bundle#UniversalSimplicialBundle)_.
 
-Or rather, with the conventions used at *[[simplicial classifying spaces]]* (which are those of [Goerss & Jardine, p. 269](simplicial+classifying+space#GoerssJardine09)) we have $W G \,=\, Dec^0(\overline{W}G)$ (shifting and forgetting the *first*, i.e. 0th, face-and degeneracy maps, as in [Stevenson 11, bottom of p. 4](#Stevenson11).)
+Or rather, with the conventions used at *[[simplicial classifying spaces]]* (which are those of [Goerss & Jardine, p. 269](simplicial+classifying+space#GoerssJardine09)) we have $W G \,=\, Dec^0(\overline{W}G)$ (Def. \ref{DecalageInComponents}).
 
 
 ### For simplicial groups
@@ -441,7 +466,7 @@ which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$. This crossed module represe
 
 Original sources are 
 
-* [[Luc Illusie]], _Complexe cotangent et d&#233;formations I_, volume 239 of Lecture Notes in Maths ,  Springer-Verlag. and  1972, _Complexe cotangent et d&#233;formations II_, volume 283 of Lecture Notes in Maths , Springer-Verlag (1971)
+* {#Illusie72} [[Luc Illusie]], _Complexe cotangent et d&#233;formations I_, volume 239 of Lecture Notes in Maths ,  Springer-Verlag. and  1972, _Complexe cotangent et d&#233;formations II_, volume 283 of Lecture Notes in Maths , Springer-Verlag (1971)
 
 and
 
@@ -453,14 +478,7 @@ The notion of d&#233;calage has been widely used since the paper introducing the
 
 Reviews are in
 
-* [[Phil Ehlers]], _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
-University of Wales Bangor, (pdf [[Ehlers-thesis.pdf|here:file]]) 
-
-The link with simplicial groups and algebraic models of homotopy $n$-types is given in 
-
-* [[Tim Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
-
-* [[Tim Porter]], _[[Menagerie|The crossed menagerie]]_
+* [[Phil Ehlers]], _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993,  University of Wales Bangor, (pdf [[Ehlers-thesis.pdf|here:file]]) 
 
 A detailed account of various technical aspects:
  
@@ -474,6 +492,12 @@ and
 Closely related technical results are in section 3 of 
 
 * {#Joyal}  [[André Joyal]], _The theory of quasi-categories and its applications_ , lectures at CRM Barcelona (2008)
+
+The link with simplicial groups and algebraic models of homotopy $n$-types is given in 
+
+* [[Tim Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
+
+* [[Tim Porter]], _[[Menagerie|The crossed menagerie]]_
  
 
 An application in the theory of [[stacks]] is discussed in
