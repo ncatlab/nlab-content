@@ -53,6 +53,8 @@ An expository account is given by [[Masamichi Takesaki]] in
 * [[Masamichi Takesaki]], _Theory of Operator Algebras_, Chapter III, Section 1.
 
 [[!redirects hyperstonean spaces]]
+[[!redirects hyperstonean topological space]]
+[[!redirects hyperstonean topological spaces]]
 [[!redirects normal measure]]
 [[!redirects normal measures]]
 [[!redirects hyperstonean locale]]
