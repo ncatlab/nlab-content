@@ -346,3 +346,5 @@ To be done...
 [[!redirects von Neumann algebras]]
 [[!redirects von Neumann-algebra]]
 [[!redirects von Neumann-algebras]]
+[[!redirects category of von Neumann algebras]]
+[[!redirects categories of von Neumann algebras]]
