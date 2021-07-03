@@ -664,6 +664,8 @@ $$
 
 * [[simplicial loop functor]]
 
+* [[free loop space of classifying space]]
+
 * [[simplicial homotopy theory]]
 
 * [[Borel model structure]]
@@ -710,7 +712,7 @@ Identification of the [[slice model structure]] over $\overline{W}G$ with the [[
 
 Generalization to [[simplicial presheaves]]:
 
-* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Section 3.5 of: _Principal $\infty$-bundles -- _Presentations_, Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Section 3.5 of: _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
 
 [[!redirects simplicial classifying spaces]]
 
@@ -722,3 +724,7 @@ Generalization to [[simplicial presheaves]]:
 
 [[!redirects simplicial delooping functor]]
 [[!redirects simplicial delooping functors]]
+
+[[!redirects universal principal simplicial complex]]
+[[!redirects universal principal simplicial complexes]]
+
