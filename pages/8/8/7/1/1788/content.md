@@ -1,102 +1,107 @@
 
-* face maps are given by:
 
-   \[
-      \label{FaceMapsOfbarWG}
-      \begin{aligned}
-      &
-      d_i
-      \big(
-        g_{n-1}, \cdots, g_0
-      \big)
-      \\
-      &
-      \;\coloneqq\;
-      \left\{
-      \array{
-        \big(
-          g_{n - 2}, 
-          \,
-          \cdots,
-          \,
-          g_0
-        \big)
-        & \text{if} &
-        i = 0
-        \\
-        \big(
-          d_{i-1}(g_{n-1}),
-          \,
-          \cdots
-          ,\,
-          d_0(g_{n-i}) \cdot g_{n-i-1},
-          \,
-          g_{n -  i - 2}, 
-          \,
-          \cdots,
-          \,
-          g_0
-        \big)
-        & \text{if} &
-        0 \lt i \lt n
-        \\
-        \big(
-          d_{n-1}(g_{n-1}),
-          \,
-          \cdots,
-          \,
-          d_1(g_1)
-        \big)
-        & \text{if} &
-        i = n
-      }
-      \right.
-      \end{aligned}
-    \]
-
-* degeneracy maps:
-
-  \[
-    \label{DegeneracyMapsOfbarWG}
-    \begin{aligned}
-    &
-    s_i(g_{n-1}, \cdots, g_0)
+\begin{tikzcd}
+    &&
+    &[-15pt]
+    \frac{W \mathcal{G}}{\mathcal{G}}
+    \times W\mathcal{G}
+    \ar[
+      dr,
+      "\mathrm{pr}_1 \in \mathrm{W}"{description}
+    ]
+    &[-15pt]
     \\
-    &
-    \;\coloneqq\;
-    \left\{
-    \array{
-    \big(
-      e,
-      \,
-      g_{n-1},
-      \,
-      \cdots,
-      \,
-      g_0
-    \big)
-    & \text{if} &
-    i = 0
-    \\
-    \big(
-      s_{i - 1}(g_{n-1}),
-      \,
-      \cdots,
-      \,
-      s_0(g_{n-i}),
-      \,
-      e,
-      \,
-      g_{n-i-1},
-      \,
-      \cdots,
-      \,
-      g_0
-    \big)
-    & \text{if} &
-    i \gt 0
+    \frac{
+      \mathclap{\phantom{\vert_a}}
+      W \mathcal{G} \times \mathcal{G}_{\scalebox{.4}{ad}}
+    }{
+      \mathcal{G}
     }
-    \right.
-    \end{aligned}
-  \]
-
+    \ar[dd]
+    \ar[rr]
+    \ar[
+      ddrr,
+      phantom,
+      "\mbox{\tiny\rm (pb)}"{pos=.14}
+    ]
+    &&
+    \frac{
+      \mathclap{\phantom{\vert_a}}
+      W \mathcal{G} \times W\mathcal{G} \times \mathcal{G}_{\scalebox{.4}{ad}}
+    }
+    {
+      \mathcal{G} \times \mathcal{G}
+    }
+    \ar[
+      ur,
+      "\sim"{sloped, below},
+      "{
+        \scalebox{.7}{$
+        \!\!\!\!
+        [\vec g, (\vec g',h)] \mapsto ([\vec g], h^{-1}\cdot \vec g')
+        $}
+      }"{sloped, above}
+    ]
+    \ar[
+      dd,
+      "\in \mathrm{Fib}"{right},
+      "
+       \frac{
+         W(\mathcal{G} \times \mathcal{G})
+         \times
+         \left(
+           \!\!\!\!\!\!
+           \begin{array}{c}
+             \mathcal{G}_{\scalebox{.4}{ad}}
+             \\
+             \downarrow
+             \\
+             \ast
+           \end{array}
+           \!\!\!\!\!\!
+         \right)
+       }{
+         \mathclap{\phantom{\vert^{a}}}
+         \mathcal{G} \times \mathcal{G}
+       }
+      "{left}
+    ]
+    &
+    &
+    \frac{
+      W\mathcal{G}
+    }
+    {
+     \mathcal{G}
+    }
+    \ar[
+      ddll,
+      "\mathrm{diag}"{right, xshift=4pt}
+    ]
+    \ar[
+      ll,
+      "\in \mathrm{W}"{below},
+      "{
+        [ \vec g, (\vec g, e) ]
+        \raisebox{5pt}{\rotatebox{180}{$\mapsto$}}
+        [\vec g]
+      }"{above}
+    ]
+    \\
+    \\
+    \frac{
+      W\mathcal{G}
+    }{
+      \mathcal{G}
+    }
+    \ar[
+      rr,
+      "\mathrm{diag}"{below}
+    ]
+    &&
+    \frac{
+      W \mathcal{G} \times W\mathcal{G}
+    }{
+      \mathcal{G} \times \mathcal{G}
+    }
+\end{tikzcd}
