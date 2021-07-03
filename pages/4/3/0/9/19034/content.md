@@ -27,7 +27,7 @@ In [[particle physics]] [[phenomenology]] one distinguishes two strategies for c
 
 * in a "bottom-up approach" one first specifies exactly which properties a [[model (physics)|model]] is supposed to have, and then incrementally uses the remaining wiggle room to see if this specification may be completed to an actual model of the full theory.
 
-This distinction was highlighted, and the terminology established, in ([Aldazabal-Ibáñez-Quevedo-Uranga 00](#AldazabalIbanezQuevedoUranga00)); there in the context of discussion of [[string phenomenology]] and specifically of [[intersecting D-brane models]] in [[type II string theory]]. In fact the article proposes and advertizes the bottom-up-strategy, felt to be in contrast with the, at that time, dominant top-down-strategy going back to ([Candelas-Horowitz-Witten 85](#CandelasHorowitzWitten85)).
+This distinction was highlighted, and the terminology established, in ([Aldazabal-Ibáñez-Quevedo-Uranga 00](#AldazabalIbanezQuevedoUranga00)); there in the context of discussion of [[string phenomenology]] and specifically of [[intersecting D-brane models]] in [[type II string theory]]. In fact the article proposes and advertizes the bottom-up-strategy, felt to be in contrast with the, at that time, dominant top-down-strategy going back to ([Candelas-Horowitz-Strominger-Witten 85](#CandelasHorowitzStromingerWitten85)).
 
 
 <img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="700"/>
@@ -52,7 +52,7 @@ In [[string phenomenology]] the terminology as such was introduced and specifica
 
 while the "top-down approach" in [[string phenomenology]] originates with
 
-* {#CandelasHorowitzWitten85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
+* {#CandelasHorowitzStromingerWitten85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
 
 
 [[!redirects bottom-up model building]]
