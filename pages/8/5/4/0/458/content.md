@@ -389,10 +389,87 @@ This is a small part of a pattern in [[higher topos theory]], described at [[n-l
 
 ## Examples
 
-* [[the locale of real numbers]]
+### General topology
 
-* [[Cantor space]]
+As explained above, the functor from [[topological spaces]] to locales
+provides a very large collection of examples.
+When restricted to [[sober topological spaces]], this functor becomes fully faihtful
+and its [[essential images]] consists of [[spatial locales]].
 
+Without the axiom of [[excluded middle]],
+many classical examples, such as [[the locale of real numbers]]
+or [[Cantor space]],
+can cease to be spatial.
+
+Naturally, one is interested in examples of locales that are not spatial,
+and a few are given below.
+
+### Measure theory
+
+An amazing feature of [[pointfree topology]] is that
+it contains not only point-set [[general topology]],
+but also point-set [[measure theory]], again as a [[full subcategory]].
+
+Specifically, recall from the [[duality between geometry and algebra]]
+that various categories of commutative algebras are contravariantly
+equivalent to certain corresponding categories of spaces.
+The category of algebras relevant for [[measure theory]]
+is the category of [[commutative von Neumann algebras]]
+and ultraweak \*-homomorphisms;
+it is widely accepted that dropping the commutativity
+condition and passing to the opposite category yields
+the correct category of noncommutative measurable spaces.
+
+The category of [[commutative von Neumann algebras]]
+is contravariantly equivalent to several other categories:
+
+* compact strictly localizable enhanced measurable spaces and measurable maps;
+
+* [[hyperstonean topological spaces]] and [[open maps]];
+
+* [[hyperstonean locales]] and [[open maps]];
+
+* [[measurable locales]] and maps of locales.
+
+The last category is particularly interesting:
+it is a [[full subcategory]] of [[locales]],
+which means that [[measure theory]] embeds
+into pointfree topology,
+which means that methods and results from pointfree topology
+can be used right away in [[measure theory]].
+This stands in contrast to the traditional
+point-set treatments, where two rather different
+formalisms must be developed for point-set topological spaces
+and for point-set measurable spaces.
+
+With the exception of [[discrete locales]],
+[[measurable locales]] are never spatial.
+
+### Intersections of dense sublocales
+
+Another important source of nonspatial sublocales
+is given by intersections (of arbitrary cardinality)
+of [[dense sublocales]].
+
+Again, in contrast to the point-set setting,
+where the [[Baire category theorem]] identifies
+the rather restrictive conditions under which
+the intersection of dense topological subspaces is again dense,
+in the pointfree setting arbitrary intersections
+of [[dense sublocales]] are always dense.
+
+In particular, one can intersection all [[dense sublocales]]
+of a given [[locale]], which always produces a nonspatial locale,
+unless the original locale is discrete.
+This is the [[double negation sublocale]].
+
+But there are other interesting examples.
+Connecting to [[measure theory]], we can consider
+a [[valuation]] $\nu$ on a given [[locale]] $L$
+and take the intersection of all [[sublocales]] $S$
+such that $\nu(S)=\nu(1)$.
+The resulting sublocale can be seen as the smallest
+sublocale with a measure 0 complement.
 
 
 ## Related concepts
