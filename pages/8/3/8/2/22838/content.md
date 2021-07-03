@@ -1,17 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 According to the [[duality between geometry and algebra]],
-various categories of commutative algebras and similar objects
-are equivalent to certain corresponding categories of spaces.
+various ([[opposite category|opposite]]) [[categories]] of [[commutative algebras]] and similar objects
+are [[equivalence of categories|equivalent]] to certain corresponding categories of [[spaces]].
 
-For example, the [[Gelfand duality]] establishes
-a contravariant [[equivalence of categories]]
-between the category of commutative unital [[C*-algebras]]
+For example, [[Gelfand duality]] establishes
+a [[opposite category|contravariant]] [[equivalence of categories]]
+between the category of [[commutative algebra|commutative]] [[associative unital algebra|unital]] [[C*-algebras]]
 and the category of [[compact Hausdorff topological spaces]].
 
 Thus, one can drop the commutativity condition and argue
 that studying arbitrary [[C*-algebras]] amounts
-to studying noncommutative general topology,
+to studying [[noncommutative topology|noncommutative general topology]],
 a part of [[noncommutative geometry]].
 
 Analogously, in [[measure theory]] one works with [[commutative von Neumann algebras]] instead, which are equivalent to several other categories:
@@ -24,7 +44,7 @@ Thus, dropping the commutativity condition
 results in the [[category of von Neumann algebras]]
 (with ultraweakly continuous *-homomorphisms),
 and we can view this [[category]]
-as the [[category]] of noncommutative measurable spaces.
+as the [[category]] of *noncommutative measurable spaces*.
 
 Thus, noncommutative measure theory is more-or-less the study
 of [[von Neumann algebras]], more precisely those aspects of them
@@ -58,6 +78,26 @@ the category of [[W*-modules]] over [[von Neumann algebras]],
 and the category of [[representations of von Neumann algebras]]
 on a [[Hilbert space]].
 
+## Related concepts
+
+* [[quantum probability theory]]
+
+* [[noncommutative topology]], [[noncommutative geometry]]
+
+* [Locales -- Examples -- Measure theory](locale#ExamplesMeasureTheory)
+
+* [[measure theory]], [[measurable space]], [[measurable function]]
+
 ## References
 
 * [[Masamichi Takesaki]], _Theory of Operator Algebras I, II, III_, Springer, I: 1979. vii+415 pp. ISBN: 0-387-90391-7; II: 2003. xxii+518 pp. ISBN: 3-540-42914-X; III: 2003. xxii+548 pp. ISBN: 3-540-42913-1.
+
+[[!redirects non-commutative measure theory]]
+
+[[!redirects noncommutative measurable space]]
+[[!redirects noncommutative measurable spaces]]
+[[!redirects non-commutative measurable space]]
+[[!redirects non-commutative measurable spaces]]
+
+
+
