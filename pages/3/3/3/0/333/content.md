@@ -58,7 +58,7 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 ## Related concepts
 
-* [[noncommutative topology]]
+* [[noncommutative topology]], [[noncommutative measure theory]], [[noncommutative probability theory]]
 
 * [[groupoid algebra]]
 
