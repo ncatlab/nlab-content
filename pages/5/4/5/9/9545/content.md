@@ -44,6 +44,10 @@ By [[Gelfand duality]], suitable [[topological spaces]] are [[contravariant func
 
 * [[noncommutative topology of quasiperiodicity]]
 
+* [[noncommutative geometry]]
+
+* [[noncommutative measure theory]]
+
 [[!include Isbell duality - table]]
 
 $\,$
