@@ -59,10 +59,14 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
 
     \[
       \label{FaceMapsOfWG}
+      \begin{aligned}
+      &
       d_i
       \big(
         g_n, g_{n-1}, \cdots, g_0
       \big)
+      \\
+      &
       \;\coloneqq\;
       \left\{
       \array{
@@ -97,12 +101,18 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
         i = n
       }
       \right.
+      \end{aligned}
     \]
 
 * degeneracy maps are given by
 
-  $$
+  \[
+    \label{DegeneracyMapsOfWG}
+    \begin{aligned}
+    &
     s_i(g_n, g_{n-1}, \cdots, g_0)
+    \\
+    &
     \;\coloneqq\;
     \big(
       s_i(g_n),
@@ -111,7 +121,7 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
       \,
       \cdots,
       \,
-      s_0(g_{n-1}),
+      s_0(g_{n-i}),
       \,
       e,
       \,
@@ -122,11 +132,12 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
       g_0
     \big)
     \,,
-  $$
+    \end{aligned}
+  \]
 
   where $e$ denotes the respective [[neutral element]].
 
-This carries a $G$-[[action]] by left multiplication on the first factor:
+This carries a $G$-[[action]] by left multiplication on the top degree component:
 
 \[
   \label{GActionOnWG}
@@ -139,6 +150,8 @@ This carries a $G$-[[action]] by left multiplication on the first factor:
     \mathrlap{\,.}
   }
 \]
+
+(It is this straightforward simplicial incarnation of the left $G$-action that singles out the model $W G$ for the universal simplicial principal space. For another model with an alternative good property see at *[[groupal model for universal principal simplicial complex]]*.)
 
 The [[quotient]] of $W G$ by this $G$-action (eq:GActionOnWG) is denoted
 
