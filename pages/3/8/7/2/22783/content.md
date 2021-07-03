@@ -49,6 +49,7 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
   for the the [[simplicial set]] whose
 
   * underlying sets are
+
     $$
       (W G)_n
       \;\coloneqq\;
@@ -170,9 +171,147 @@ $$
 
 is known as the standard model for the simplicial $G$-[[universal principal bundle]] (see [below](#ClassificationOfSimplicialPrincipalBundles)).
 
+
+{#StructureMapsOfSimplicialClassifyingComplex} Under the [[isomorphism]]
+
+$$
+  \big(
+    \overline{W}G
+  \big)_{n}
+  \;\coloneqq\;
+  (W G)_n/G_n
+  \;\simeq\;
+  G_n/G_n \times G_{n-1} \times \cdots \times G_0
+  \;\simeq\;
+  G_{n-1} \times \cdots \times G_{0}
+$$
+
+the above face maps (eq:FaceMapsOfWG) and degeneracy maps (eq:DegeneracyMapsOfWG) on $W G$ imply the following structure maps on the simplicial classifying complex 
+
+$$
+  \overline{W}G
+  \;\;\;
+  \in
+  \;
+  SimplicialSets
+$$
+
+* underlying sets are
+
+  $$
+    (\overline{W}G)_n
+    \;\coloneqq\;
+    G_{n-1} \times \cdots \times G_1 \times G_0
+    \,;
+  $$
+
+
+* face maps are given by:
+
+   \[
+      \label{FaceMapsOfbarWG}
+      \begin{aligned}
+      &
+      d_i
+      \big(
+        g_{n-1}, \cdots, g_0
+      \big)
+      \\
+      &
+      \;\coloneqq\;
+      \left\{
+      \array{
+        \big(
+          g_{n - 2}, 
+          \,
+          \cdots,
+          \,
+          g_0
+        \big)
+        & \text{if} &
+        i = 0
+        \\
+        \big(
+          d_{i-1}(g_{n-1}),
+          \,
+          \cdots
+          ,\,
+          d_0(g_{n-i}) \cdot g_{n-i-1},
+          \,
+          g_{n -  i - 2}, 
+          \,
+          \cdots,
+          \,
+          g_0
+        \big)
+        & \text{if} &
+        0 \lt i \lt n
+        \\
+        \big(
+          d_{n-1}(g_{n-1}),
+          \,
+          \cdots,
+          \,
+          d_1(g_1)
+        \big)
+        & \text{if} &
+        i = n
+        \mathrlap{\,;}
+      }
+      \right.
+      \end{aligned}
+    \]
+
+* degeneracy maps are given by:
+
+  \[
+    \label{DegeneracyMapsOfbarWG}
+    \begin{aligned}
+    &
+    s_i(g_{n-1}, \cdots, g_0)
+    \\
+    &
+    \;\coloneqq\;
+    \left\{
+    \array{
+    \big(
+      e,
+      \,
+      g_{n-1},
+      \,
+      \cdots,
+      \,
+      g_0
+    \big)
+    & \text{if} &
+    i = 0
+    \\
+    \big(
+      s_{i - 1}(g_{n-1}),
+      \,
+      \cdots,
+      \,
+      s_0(g_{n-i}),
+      \,
+      e,
+      \,
+      g_{n-i-1},
+      \,
+      \cdots,
+      \,
+      g_0
+    \big)
+    & \text{if} &
+    0 \lt i
+    \mathrlap{\,.}
+    }
+    \right.
+    \end{aligned}
+  \]
+
 \end{definition}
 
-(due to [MacLane 54, p. 3](#MacLane54), [Kan 58, Def. 10.3](#Kan58), the above follows [Goerss & Jardine 09, p. 269](#GoerssJardine09))
+(This goes back to [MacLane 1954, p. 3](#MacLane54), [Kan 1958, Def. 10.3](#Kan58); the above follows [Goerss & Jardine 1999/2009, p. 269](#GoerssJardine09).)
 
 \begin{example}\label{LowDimensionCellsOfWG}
 **(low-dimension cells of $W G$)** \linebreak
