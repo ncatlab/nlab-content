@@ -35,7 +35,7 @@ The original articles:
 
 * {#ScherkSchwarz79} [[Joël Scherk]], [[John Schwarz]], _Spontaneous breaking of supersymmetry through dimensional reduction_, Physics Letters B Volume 82, Issue 1, 12 March 1979, Pages 60-64 (<a href="https://doi.org/10.1016/0370-2693(79)90425-8">doi:10.1016/0370-2693(79)90425-8</a>)
 
-* {#ScherkSchwarz89} [[Joël Scherk]], [[John Schwarz]], _How to get masses from extra dimensions_, in: Supergravities in Diverse Dimensions, pp. 1282-1309 (1989)  ([doi:10.1142/9789814542340_0083](https://doi.org/10.1142/9789814542340_0083))
+* {#ScherkSchwarz89} [[Joël Scherk]], [[John Schwarz]], _How to get masses from extra dimensions_, Nuclear Physics B Volume 153, 1979, Pages 61-88  ([doi:10.1016/0550-3213(79)90592-3](https://doi.org/10.1016/0550-3213(79)90592-3)), reprinted in: Supergravities in Diverse Dimensions, pp. 1282-1309 (1989) ([doi:10.1142/9789814542340_0083](https://doi.org/10.1142/9789814542340_0083))
 
 ### Examples and applications
 
