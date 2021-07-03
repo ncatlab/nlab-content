@@ -164,14 +164,11 @@ $$
 
 * [[inertia orbifold]], [[free loop orbifold]]
 
-* [[cyclic loop space]]
+* [[cyclic loop space]], [[cyclic loop stack]]
 
-* [[cyclic loop stack]]
+* [[Tate K-theory]], [[equivariant elliptic cohomology]]
 
-* [[Tate K-theory]]
-
-* [[equivariant elliptic cohomology]]
-
+* [[transchromatic character]]
 
 
 ## References
