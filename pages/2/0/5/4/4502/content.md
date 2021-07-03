@@ -157,3 +157,6 @@ The use of [[L-∞-algebra]]s $inn(\mathfrak{g})$ as $L_\infty$-algebraic models
 [[!redirects groupal models for universal principal ∞-bundles]]
 
 [[!redirects groupal models for universal principal infinity-bundles]]
+
+[[!redirects groupal model for universal principal simplicial complex]]
+[[!redirects groupal models for universal principal simplicial complex]]
