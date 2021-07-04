@@ -27,6 +27,33 @@ $$
   \,.
 $$
 
+For [[discrete groups]] (in particular for [[finite groups]]) this is seen by elementary inspection (Example \ref{FreeLoopSpaceOfDeloopingOfDiscreteGroup} below) and as such is familiar from many related constructions, such as that of [[inertia groupoids]]. 
+
+In more generality the statement is [[folklore]] (as witnessed by parts of the [MO discussion](#MODiscussion)) but rarely argued in detail.
+
+For [[topological groups]] of the [[homotopy type]] of a [[CW-complex]] there is a [[point-set topology|point-set]] argument ([Gruher 2007](#Gruher07)) with continuous paths in the [[universal principal bundle]] which, with some care, largely mimics the naive example . 
+
+More generally, such as for [[simplicial groups]], there is a more abstract computation of the defining [[homotopy pullback]] by [[fibrant resolution]], which is spelled out as Prop. \ref{FreeLoopSpaceOfSimplicialClassifyingSpaceAsAdQuotient} below, following an analogous argument for topological groups indicated in [Klein, Schochet & Smith 2009](#KleinSchochetSmith09).
+
+Finally, since, in the full generality of [[∞-groups]] [[internalization|internal to]] any [[(∞,1)-topos]], hence for [[∞-group]] [[∞-stacks]] $\mathcal{G}$, the [[homotopy quotient]] of an action, regarded in the [[slice (∞,1)-topos|slice]] over the [[delooping]]/[[moduli stack]] $\mathbf{B}\mathcal{G}$, in fact characterizes and *defines* the action as an [[∞-action]]
+
+$$
+  \mathcal{G} \,\in\, Groups(\mathbf{H})
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+  \mathcal{G}Actions(\mathbf{H})
+  \;\;
+  \underoverset
+    {\;\;\;\;\simeq\;\;\;\;}
+    {(-)\sslash \mathcal{G}}
+    {\longrightarrow}
+  \;\;
+  \mathbf{H}_{/\mathbf{B}\mathcal{G}}
+$$
+
+one may turn this around ([NSS 12a, Exp. 4.13 (3)](#NSS12a), [SS 20, Exp. 2.82](#SS20)) and *define* the [[conjugation action]] of an [[∞-group]] [[∞-stack]] to be that whose [[homotopy quotient]] over $\mathbf{B}\mathcal{G}$ is the left vertical morphism (eq:HomotopyPullbaclDefiningFreeLoopSpaceObject) in the defining [[homotopy pullback]]-construction of the [[free loop space object]] of $\mathbf{B}\mathcal{G}$.
+
 ## Proof
 
 The statement is [[folklore]], but complete proofs in the literature are rare.
@@ -99,7 +126,7 @@ and write
   $$
 
 
-\begin{proposition}
+\begin{proposition}\label{FreeLoopSpaceOfSimplicialClassifyingSpaceAsAdQuotient}
   The [[free loop space object]] of the [[simplicial classifying space]] $\overline{W} \mathcal{G}$ is [[isomorphism|isomorphic]] in the [[classical homotopy category]] to the [[Borel construction]] of the [[conjugation action]] (eq:ConjugationAction):
 
 $$
@@ -259,7 +286,7 @@ $$
   Ho(\infty Groupoids)
 $$
 
-(essentially by its [[Quillen adjunction]] to the [[simplicial loop space]]-functor ([here](model+structure+on+reduced+simplicial+sets#RelationToSimplicialGroups)) and the [[May recognition theorem]], see [NSS12b, Cor. 3.33](free+loop+space+of+classifying+space#NSS12b)).
+(essentially by its [[Quillen adjunction]] to the [[simplicial loop space]]-functor ([here](model+structure+on+reduced+simplicial+sets#RelationToSimplicialGroups)) and the [[May recognition theorem]], see [NSS 12a, Cor. 3.33](free+loop+space+of+classifying+space#NSS12b)).
 
 In summary this means (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)) that this ordinary [[pullback]]-square represents the [[homotopy pullback]] (eq:HomotopyPullbaclDefiningFreeLoopSpaceObject) that defines the [[free loop space object]].
 
@@ -270,6 +297,102 @@ In summary this means (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdin
  {#ForTopologicalSpaces}
 
 A [[point-set topology|point-set argument]] for [[topological spaces]]/[[topological groups]] is spelled out in [Gruher 2007, App. A](#Gruher07). Discussion of the [[presentable (infinity,1)-category|presentation]] of the phenomenon in the [[classical model structure on topological spaces]] in the abstract style [above](#ForSimplicialSets) is indicated in [Klein, Schochet & Smith 2009](#KleinSchochetSmith09).
+
+## Examples
+
+### Discrete (finite) groups
+ {#ExampleDiscreteGroups}
+
+\begin{example}\label{FreeLoopSpaceOfDeloopingOfDiscreteGroup}
+**([[free loop space]] of classifying space of [[discrete groups]])** \linebreak
+
+The archetypical example has $\mathcal{G} = G \in Groups(Sets)$ a [[discrete group]], such as (but not necessarily) a [[finite group]]. In this case the [[classifying space]] $B \mathcal{G} \simeq K(G,1)$ is an [[Eilenberg-MacLane space]] whose [[homotopy type]] is represented in the [[classical homotopy category]] simply by the [[delooping groupoid]] $G \rightrightarrows \ast$ of $G$. With this, the analysis of its [[free loop space]] follows from elementary inspection:
+
+The [[hom-groupoid]]
+
+$$
+  \big[
+    \mathbf{B}\mathbb{Z}
+    ,\,
+    \mathbf{B}G
+  \big]
+  \;\simeq\;
+  \big(
+     G \times G 
+     \underoverset
+       {pr_2}
+       { Ad }  
+       {\rightrightarrows}
+     G
+  \big)
+$$
+
+has 
+
+* as [[objects]] the [[functors]] $\mathbf{B}\mathbb{Z} \longrightarrow \mathbf{B}G$, hence equivalently [[group homomorphisms]] $\mathbb{Z} \to G$, hence equivalently elements $g \in G$;
+
+* as [[morphisms]] the [[natural transformations]] between these, whose single component $h \in G$ must make the naturality [[commuting square|square commute]]
+
+$$
+  \array{
+    \mathbf{B}\mathbb{Z}
+    &\xrightarrow{\;\;\;}&
+    \mathbf{B}G
+    \\
+    \\
+    \bullet
+    &&
+    \bullet 
+    &\xrightarrow{\;\;\;h\;\;\;}&
+    \bullet
+    \\
+    \big\downarrow {}^{\mathrlap{1}}
+    &&
+    \big\downarrow {}^{\mathrlap{g}}
+    &&
+    \big\downarrow {}^{\mathrlap{g'}}
+    \\
+    \bullet
+    &&
+    \bullet
+    &\xrightarrow{\;\;\;h\;\;\;}&
+    \bullet
+  }
+$$
+
+The condition that this commutes means equivalently that $g'$ is the image of $g$ under the [[conjugation action]] by $h$:
+
+$$
+  h \cdot g' \;=\; g \cdot h
+  \;\;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;\;
+  g' = h^{-1} \cdot g \cdot h \;=\; Ad_h(g) 
+  \,.
+$$
+
+This shows that the [[hom-groupoid]] is the [[action groupoid]] of the [[conjugation action]]
+
+$$
+  \mathcal{L} \mathbf{B}G
+  \;\simeq\;
+  \big[
+    \mathbf{B}\mathbb{Z}
+    ,\,
+    \mathbf{B}G
+  \big]
+  \;\simeq\;
+  G \sslash_{ag} G
+  \,.
+$$
+
+\end{example}
+
+This simple example essentially re-appears in the discussion of [[inertia groupoids]].
+
+
+
+
 
 
 ## Related concepts
@@ -297,14 +420,14 @@ An abstract proof in the [above](#ForSimplicialSets) style, for [[topological gr
 
 See also:
 
-* MathOverflow discussion [MO/q/20671](https://mathoverflow.net/q/20671/381)
+* {#MODiscussion} MathOverflow discussion [MO/q/20671](https://mathoverflow.net/q/20671/381)
 
 Discussion in the generality of [[∞-groups]] in [[(∞,1)-toposes]]:
 
-* {#NSS12b} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Example 4.13 (3) in: *[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]*, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015), pages 749-801 
+* {#NSS12a} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Example 4.13 (3) in: *[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]*, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015), pages 749-801 
 ([doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6), [arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
-* [[Hisham Sati]], [[Urs Schreiber]], Example 2.82 in: *[[schreiber:Proper Orbifold Cohomology]]* ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+* {#SS20} [[Hisham Sati]], [[Urs Schreiber]], Example 2.82 in: *[[schreiber:Proper Orbifold Cohomology]]* ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
 [[!redirects free loop spaces of classifying spaces]]
 
