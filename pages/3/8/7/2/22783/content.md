@@ -623,10 +623,20 @@ In all of the following, $G$ is any simplicial group.
  {#KanFibrancy}
 
 \begin{prop}\label{SimplicialClassifyingSpaces}
-**([[simplicial classifyong spaces]] are [[Kan complexes]])** \linebreak
-  The simplicial set $\overline{W}G$ is a [[Kan complex]].
+**([[simplicial classifying spaces]] are [[Kan complexes]])** \linebreak
+  The underlying simplicial set of any simplicial classifying $\overline{W}G$ (Def. \ref{BarWGInComponents}) is a [[Kan complex]].
 \end{prop}
 (e.g. [Goerss & Jardine 09, Sec. V Cor. 6.8 (p. 287)](#GoerssJardine09))
+\begin{proof}
+This follows as the combination of the following facts:
+
+1. every [[simplicial group]] is fibrant in the projective [[model structure on simplicial sets]] ([this Prop.](model+structure+on+simplicial+groups#EveryObjectIsFibrant));
+
+1. $\overline{W}(-)$ is a [[right Quillen functor]] from there to the injective [[model structure on reduced simplicial sets]] (Prop. \ref{QuillenEquivalenceBetweenSimplicialGroupsAndReducedSimplicialSets});
+
+1. every injectively fibrant reduced simplicial set is a Kan complex ([this Prop.](model+structure+on+reduced+simplicial+sets#FibrationsInTermsOfKanFibrations)).
+
+\end{proof}
 
 \begin{prop}
   The coprojection $W G \overset{}{\longrightarrow} \overline{W}G$
