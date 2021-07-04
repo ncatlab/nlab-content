@@ -14,7 +14,7 @@ A delta lens (or d-lens) is a [[functor]] with additional structure specifying a
 
 ## Definition ##
 
-A **delta lens** $(f, \varphi) : A \to B$ from a [[category]] $A$ to a category $B$ consists of a [[functor]] $f : A \to B$ together with a _lifting operation_ sending each pair $(a \in A, u : fa \to b \in B)$ to a [[morphism]] $\varphi(a, u) : a \to a'$ in $A$, where $a' = cod(\varphi(a, u))$, such that 
+A **delta lens** $(f, \varphi) : A \to B$ from a [[category]] $A$ to a category $B$ consists of a [[functor]] $f : A \to B$ together with a _lifting operation_ sending each pair $(a \in A, u : f a \to b \in B)$ to a [[morphism]] $\varphi(a, u) : a \to a'$ in $A$, where $a' = cod(\varphi(a, u))$, such that 
 
 * $\varphi$ defines a choice of lifts: $f \varphi(a, u) = u$,
 
