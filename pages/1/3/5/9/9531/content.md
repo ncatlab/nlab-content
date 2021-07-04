@@ -80,7 +80,7 @@ In the following examples, all groups are discrete.
 
 ## Related concepts
 
-* [[topological G-space]]
+* [[topological G-space]], [[simplicial group action]]
 
 * [[category of G-sets]]
 
