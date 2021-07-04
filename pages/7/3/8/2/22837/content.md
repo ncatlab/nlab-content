@@ -259,7 +259,7 @@ Consider the following [[commuting diagram]] of [[SimplicialSets]]:
 
 Here:
 
-* all [[objects]] are [[fibrant objects]] ([[Kan complexes]]), since [[simplicial classifying spaces]] $\overline{W}\mathcal{G}$ are Kan complexes, either directly by [this Prop.](simplicial+classifying+space#SimplicialClassifyingSpaces), or as follows:
+* all [[objects]] are [[fibrant objects]] ([[Kan complexes]]), since [[simplicial classifying spaces]] $\overline{W}\mathcal{G}$ are Kan complexes, by [this Prop.](simplicial+classifying+space#SimplicialClassifyingSpaces), which, recall, comes about as follows:
 
   * [[simplicial groups]] have underlying [[Kan complexes]] ([this Thm.](simplicial+group#MooreTheorem), which we use below to know that $\mathcal{G}_{ad} \to \ast $ is a [[Kan fibration]]), hence are [[fibrant objects]] in the [[model structure on simplicial groups]];
 
@@ -268,6 +268,8 @@ Here:
   * fibrant reduced simplicial sets are Kan complexes ([this Prop.](model+structure+on+reduced+simplicial+sets#FibrationsInTermsOfKanFibrations));
 
 * the right vertical morphism is a [[fibration]] ([[Kan fibration]]), since it is the image under the [[right Quillen functor]] $(W \mathcal{G} \times (-)) /\mathcal{G}$ on the [[Borel model structure]] ([this Prop.](Borel+model+structure#QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace));
+
+  > this only shows fibrancy in the [[model structure on reduced simplicial sets]]... needs fixing...
 
 * the top right morphism is a [[simplicial weak equivalence]], by [[two-out-of-three]], as it is a [[right inverse]] of the triangular morphisms, which are manifestly a simplicial weak eqivalence since $W \mathcal{G}$ is [[contractible homotopy type|contractible]] (by [this Prop.](simplicial+classifying+space#UniversalPrincipalSimplicialComplexIsContractible)).
 
