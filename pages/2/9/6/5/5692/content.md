@@ -180,6 +180,7 @@ $$
 
 +-- {: .num_prop #QuillenAdjunctionWithSimplicialGroups}
 ###### Proposition
+**([[Quillen equivalence between simplicial groups and reduced simplicial sets]])**
 
 The [[simplicial loop space]] functor $G$ and the [[simplicial classifying space]]-construction $\overline{W}(-)$ constitute a [[Quillen equivalence]]
 
