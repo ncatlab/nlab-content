@@ -64,7 +64,7 @@ for the [[Yoneda embedding]].
 ###### Definition
 **(local epimorphisms from [[Grothendieck topology]])**
 
-Let the [[small category]] $\mathcal{C}$ be equipped with a [[Grothendieck topology]].
+Let the [[small category]] $\mathcal{S}$ be equipped with a [[Grothendieck topology]].
 
 For $U \in \mathcal{S}$ an object in the site, a [[morphism]] of [[presheaves]] into the corresponding [[representable presheaf|represented presheaf]]
 
@@ -104,7 +104,7 @@ is a [[covering sieve]].
 A general morphism of presheaves
 
 $$
-  A \overset{}{\longrightarrow} B \;\;\; \in [\mathcal{S}^{op}, A]
+  A \overset{}{\longrightarrow} B \;\;\; \in [\mathcal{S}^{op}, Set]
 $$ 
 
 is a _local epimorphism_ if for every $U \in \mathcal{S}$ and 
