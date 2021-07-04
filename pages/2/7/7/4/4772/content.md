@@ -73,11 +73,83 @@ $$
 
 and it makes $H$ not only an $H$-module, but in fact a monoid in the monoidal category of $H$-modules (usually called $H$-[[module algebra]]). 
 
+
+### Of a simplicial group on itself
+ {#OfASimplicialGroupOnItself}
+
+Let 
+
+* $\mathcal{G}$ be a [[simplicial group]], 
+
+and write
+
+* $\mathcal{G}\Actions(sSet)$ for the [[category]] of $\mathcal{G}$-[[action objects]] [[internalization|internal to]] [[SimplicialSets]]l
+
+* $W \mathcal{G} \in \mathcal{G}Actions(sSet)$ for its [[universal principal simplicial complex]];
+
+* $\overline{W}\mathcal{G} \,=\, \frac{W \mathcal{G}}{\mathcal{G}} \in sSet$ for the [[simplicial classifying space]];
+
+* $\mathcal{G}_{ad} \in \mathcal{G}Actions(sSet)$ for the [[adjoint action]] of $\mathcal{G}$ on itself:
+
+  \[
+    \label{ConjugationAction}
+    \array{
+      \mathcal{G}_{ad} \times \mathcal{G}
+      &\xrightarrow{\;\;\;}&
+      \mathcal{G}_{ad}
+      \\
+      (g_k,h_k) &\mapsto&  h_k \cdot g_k \cdot h_k^{-1}
+    }
+  \]
+
+  which we may understand as the restriction along the [[diagonal morphism]] $\mathcal{G} \xrightarrow{diag} \mathcal{G} \times \mathcal{G}$ of the following action of the [[direct product group]]:
+
+  $$
+    \array{
+      \mathcal{G}_{ad}
+      \times 
+      (\mathcal{G} \times \mathcal{G})
+      &\xrightarrow{\;\;\;}&
+      \mathcal{G}_{ad}
+      \\
+      (g_k, (h'_k, h_k))
+      &\mapsto&
+      h'_k \cdot g_k \cdot h^{-1}_k
+      \mathrlap{\,.}
+    }
+  $$
+
+
+\begin{proposition}\label{FreeLoopSpaceOfSimplicialClassifyingSpaceAsAdQuotient}
+  The [[free loop space object]] of the [[simplicial classifying space]] $\overline{W} \mathcal{G}$ is [[isomorphism|isomorphic]] in the [[classical homotopy category]] to the [[Borel construction]] of the [[adjoint  action]] (eq:ConjugationAction):
+
+$$
+  \mathcal{L}
+  \big(
+    \overline{W}\mathcal{G}
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \mathcal{G}_{ad} \sslash \mathcal{G}
+  \;\;\;\;\;\;
+  \in
+  \;\;
+  Ho\big(
+    sSet_{Qu}
+  \big)
+$$
+\end{proposition}
+
+For proof and more background see at *[[free loop space of classifying space]]*.
+
 ## Related concepts
 
 * [[coadjoint action]]
 
 * [[adjoint representation]], [[adjoint bundle]]
+
+* [[free loop space of classifying space]]
 
 * [[conjugation action]]
 
