@@ -1442,6 +1442,10 @@ of $\infty$-actions is the _[[Borel model structure]]_ ([DDK 80](#DDK80)).
 
   * [[stabilizer ∞-group]]
 
+* [[simplicial group action]], [[topological G-space]]
+  
+  [[model structure on simplicial group actions]]
+
 * [[module]], [[∞-module]]
 
 * [[representation]], [[∞-representation]]
