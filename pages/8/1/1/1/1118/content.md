@@ -40,17 +40,34 @@ $$
 such that the following diagrams commute:
 $$
 \array{
-G\times G\times G & \stackrel{id\times m}{\to} & G\times G\\
- m\times id\downarrow && \downarrow m \\
- G\times G & \stackrel{m}{\to} &G
+  G\times G\times G 
+  & \stackrel{id\times m}{\longrightarrow} 
+  & 
+  G\times G
+  \\
+  {}^{
+    \mathllap{
+    m\times id
+    }
+  }
+  \big\downarrow && \downarrow m 
+  \\
+  G\times G & \stackrel{m}{\longrightarrow} & G
 }
 $$
 (expressing the fact multiplication is associative),
 $$
 \array{
-G & \stackrel{(1,id)}{\to} & G\times G\\
- (\id,1)\downarrow &\underset{=}{\searrow}& \downarrow m \\
- G\times G & \stackrel{m}{\to} &G
+  G 
+  & \stackrel{(1,id)}{\longrightarrow} 
+  & G\times G
+  \\
+  {}^{\mathllap{(\id,1)}}
+  \big\downarrow 
+  &\underset{=}{\searrow}& 
+  \big\downarrow m 
+  \\
+  G\times G & \stackrel{m}{\longrightarrow} &G
 }
 $$
 (telling us that the unit map picks out an element that is a left and right identity), and
@@ -58,13 +75,27 @@ $$
 \array{
 G 
   & 
-  \stackrel{
-    \mathllap{
-      (id,(-)^{-1})\circ\Delta
-    }
-  }{\to} & G\times G\\
- ((-)^{-1},id)\circ\Delta\downarrow & \underset{1}{\searrow}& \downarrow m \\
- G\times G & \stackrel{m}{\to} &G
+   \overset{
+     (id,(-)^{-1})\circ\Delta
+   }
+   {\longrightarrow} 
+   & 
+   G\times G
+   \\
+   {}^{
+     \mathllap{
+       ((-)^{-1},id)\circ\Delta
+     }
+   }
+   \big\downarrow 
+   & 
+   \underset{1}{\searrow}& \downarrow m 
+   \\
+   G\times G 
+   & 
+   \stackrel{m}{\longrightarrow} 
+   &
+   G
 }
 $$
 (telling us that the inverse map really does take an inverse), where we have let $1: G \to G$ denote the composite $G \to * \stackrel{1}{\to} G$ and $\Delta$ is a [[diagonal morphism]].
@@ -138,17 +169,31 @@ etc.
  {#Examples}
 
 * A group object in [[Set]] is a [[group]].
+
 * A group object in [[Top]] is a [[topological group]].
+
+* A group object in [[sSet]] is a [[simplicial group]].
+
 * A group object in [[Ho(Top)]] is an [[H-group]].
+
 * A group object in [[Diff]] is a [[Lie group]].
+
 * A group object in [[SDiff]] is a [[supergroup|super Lie group]].
+
 * A group object in [[Grp]] is an [[abelian group]] (using the [[Eckmann-Hilton argument]]).
+
 * A group object in [[Ab]] is an abelian group again.
+
 * A group object in [[Cat]] is a strict [[2-group]].
+
 * A group object in [[Grpd]] is a strict $2$-group again.
+
 * A group object in [[CRing]]$^{op}$ is a commutative [[Hopf algebra]].
+
 * A group object in a [[functor category]] is a [[group functor]].
+
 * A group object in [[schemes]] is a [[group scheme]].
+
 * A group object in an [[opposite category]] is a [[cogroup object]].
 
 * A group object in [[G-sets]]/[[G-spaces]] is a $G$-[[equivariant group]], namely a [[semidirect product group]].
