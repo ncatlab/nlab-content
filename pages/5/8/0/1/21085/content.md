@@ -13,7 +13,7 @@ Unlike [[lens (in computer science)|lenses]], optics do not require a cartesian 
 
 ## Definition
 
-Let $(\mathbf M, I, \otimes)$ be a symmetric monoidal category. Let $\mathbf C$ and $\mathbf D$ be $\mathbf M$-actegories, i.e. there are pseudoactions $\bullet$ and $\ast$ of $\mathbf M$ acts on $\mathbf C$ and $\mathbf D$, respectively.
+Let $(\mathbf M, I, \otimes)$ be a symmetric monoidal category. Let $\mathbf C$ and $\mathbf D$ be $\mathbf M$-[[actegories]], i.e. there are pseudoactions $\bullet$ and $\ast$ of $\mathbf M$ acts on $\mathbf C$ and $\mathbf D$, respectively.
 
 **Definition 1**. The category of optics $(\mathbf C, \mathbf D)$-mixed optics $\mathrm{Optic}_{\bullet, \ast}(\mathbf C, \mathbf D)$ has objects given by pairs $(X : \mathbf C,Y : \mathbf D)$ and hom-sets given by
 $$
