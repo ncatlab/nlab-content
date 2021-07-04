@@ -662,9 +662,9 @@ $$
   \,.
 $$
 \end{prop}
-\begin{prop}
+\begin{proof}
   By the fact ([this Prop.](Borel+model+structure#QuillenEquivalenceToSliceOverSimplicialClassifyingSpace)) that the [[Borel construction]] is a [[right Quillen functor]] from the [[model structure on simplicial group actions]] to the [[slice model structure]] of the [[classical model structure on simplicial sets]] over the simplicial classifying space; see [this Example](Borel+construction#ProjectionToSimplicialClassifyingSpaceIsKanFibration).
-\end{prop}
+\end{proof}
 
 \begin{prop}\label{UniversalPrincipalSimplicialComplexIsContractible}
   The simplicial set $W G$ is [[contractible]].
@@ -717,7 +717,6 @@ $$
   0
 $$
 which exhibit the claim to be proven.
-
 \end{proof}
 
 ### Classification of simplicial principal bundles 
