@@ -21,7 +21,7 @@
 
 ## Idea
 
-Given a [[simplicial group]] $G_\bullet$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[simplicial sets]] equipped with $G$-[[action]] which presents the [[(∞,1)-category]] of [[∞-actions]] of the [[∞-group]] (see there) presented by $G$.
+Given a [[simplicial group]] $G_\bullet$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[simplicial group actions]], hence of [[simplicial sets]] equipped with $G$-[[action]] which presents the [[(∞,1)-category]] of [[∞-actions]] of the [[∞-group]] (see there) presented by $G$.
 
 In the context of [[equivariant homotopy theory]] this is also called the "coarse model structure" (e.g. [Guillou, section 5](#Guillou)), since it is not equivalent to the "fine" homotopy theory of [[G-spaces]] which enters [[Elmendorf's theorem]].
 
@@ -129,7 +129,9 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
 
 ([DDK 80, Prop. 2.3, Prop. 2.4](#DDK80)) Here:
 
-* the [[right adjoint]] forms [[associated bundles]] to [[universal principal bundles]] 
+* the [[right adjoint]] is the [[Borel construction]] 
+
+  which one may understand as formin [[associated bundles]] to [[universal principal bundles]];
 
 * the [[left adjoint]] forms [[homotopy fibers]].
 
@@ -828,4 +830,7 @@ Discussion of a [[global equivariant homotopy theory|globalized]] model structur
 
 
 [[!redirects Borel model structures]]
+
+[[!redirects model structure on simplicial group actions]]
+[[!redirects model structures on simplicial group actions]]
 
