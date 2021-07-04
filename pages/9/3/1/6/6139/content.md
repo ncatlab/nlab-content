@@ -440,11 +440,17 @@ For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal
 
 ## Related concepts
 
+* [[May recognition theorem]]
+
+* [[Quillen equivalence between simplicial groups and reduced simplicial sets]]
+
 * [[loop space object]], [[free loop space object]],
 
   * [[delooping]], **looping and delooping**
 
-  * [[loop space]], [[free loop space]], [[derived loop space]]
+  * [[loop space]], 
+
+  * [[free loop space]], [[derived loop space]], [[free loop stack]]
 
 * [[suspension object]]
 
