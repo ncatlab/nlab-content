@@ -52,6 +52,7 @@ Recall that the [[free loop space object]] of $\mathbf{B}\mathcal{G}$ (in partic
 
 
 ### For simplicial sets
+ {#ForSimplicialSets}
 
 We discuss the [[presentable (infinity,1)-category|presentation]] of the phenomenon in the [[classical model structure on simplicial sets]]. 
 
@@ -266,28 +267,33 @@ In summary this means (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdin
 
 
 ### For topological spaces
+ {#ForTopologicalSpaces}
 
-We discuss the [[presentable (infinity,1)-category|presentation]] of the phenomenon in the [[classical model structure on topological spaces]]. 
+A [[point-set topology|point-set argument]] for [[topological spaces]]/[[topological groups]] is spelled out in [Gruher 2007, App. A](#Gruher07). Discussion of the [[presentable (infinity,1)-category|presentation]] of the phenomenon in the [[classical model structure on topological spaces]] in the abstract style [above](#ForSimplicialSets) is indicated in [Klein, Schochet & Smith 2009](#KleinSchochetSmith09).
 
-
-(...)
 
 ## Related concepts
 
 * [[free loop space]], [[free loop stack]]
 
+* [[transchromatic character]]
+
+* [[double dimensional reduction]]
+
 * [[classifying space]], [[simplicial classifying space]],
 
 * [[Sullivan model of classifying space]]
 
-* [[transchromatic character]]
-
 
 ## References
 
-The proof idea for [[topological spaces]] is indicated in:
+A point-set proof in [[TopologicalSpaces]] is given in 
 
-* John R. Klein, [[Claude Schochet]], Samuel B. Smith, Lemma 9.1 of: *Continuous trace $C^\ast$-algebras, gauge groups and rationalization*,  Journal of Topology and Analysis Vol. 01, No. 03, pp. 261-288 (2009)  ([arXiv:0811.0771](https://arxiv.org/abs/0811.0771), [doi:10.1142/S179352530900014X](https://doi.org/10.1142/S179352530900014X))
+* {#Gruher07} [[Kate Gruher]], *A proof of $L B G \simeq Ad(E G)$*, Appendix A in: *String Topology of Classifying Spaces*, 2007 ([[Gruher_FreeLoopSpaceOfClassifyingSpace.pdf:file]])
+
+An abstract proof in the [above](#ForSimplicialSets) style, for [[topological groups]]/[[topological spaces]], is indicated in:
+
+* {#KleinSchochetSmith09} John R. Klein, [[Claude Schochet]], Samuel B. Smith, Lemma 9.1 of: *Continuous trace $C^\ast$-algebras, gauge groups and rationalization*,  Journal of Topology and Analysis Vol. 01, No. 03, pp. 261-288 (2009)  ([arXiv:0811.0771](https://arxiv.org/abs/0811.0771), [doi:10.1142/S179352530900014X](https://doi.org/10.1142/S179352530900014X))
 
 See also:
 
@@ -301,4 +307,6 @@ Discussion in the generality of [[∞-groups]] in [[(∞,1)-toposes]]:
 * [[Hisham Sati]], [[Urs Schreiber]], Example 2.82 in: *[[schreiber:Proper Orbifold Cohomology]]* ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
 [[!redirects free loop spaces of classifying spaces]]
+
+[[!redirects free loop space of a classifying space]]
 
