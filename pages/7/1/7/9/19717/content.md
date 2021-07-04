@@ -6,30 +6,50 @@
 ## Idea
 In [[computer science]], originally in [[database theory]], **lenses** are used in situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
 
-More recently, lenses (and their [[monoidal category|non-cartesian]] generalization, [[optic (in computer science)|optics]], have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Spivak](#SpivakACT19)).
+More recently, lenses have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Spivak](#SpivakACT19)).
 
 ## Definition
 
-Let $C$ be a [[category]] with [[finite products]]. A **lens** in C denoted $L =(S,V,g,p)$ has states $S$ and view states $V$ which are objects of $C$, and two arrows of C, a *Get* arrow $g:S \to V$ and a *Put* arrow $p:V \times S \to S$, often taken to satisfy the following equations, or _lens laws_:
+Let $(\mathbf C, 1, \times)$ be a [[category]] with [[finite products]].
 
-1. (PutGet) the Get of a Put is the projection: $g p= \pi_0$.
-1. (GetPut) the Put for a trivially updated state is trivial: $p \langle g, 1_S \rangle = 1_S$.
-1. (PutPut) composing Puts does not depend on the first view update: $p(1_V \times p) = p \pi_{0,2}$.
+***Definition 1***. Let $S,V$ be objects of $\mathbf C$. A **lens** $L$, with *states* $S$ and *views* $V$, is a pair of arrows $\mathrm{get}:S \to V$ and $\mathrm{put}:V \times S \to S$, often taken to satisfy the following equations, or _lens laws_:
 
-Sometimes a lens satisfying all three laws is said to be _lawful_. Sometimes it is said that a _well-behaved_ lens satisfies (1) and (2) and a _very well-behaved_ lens satisfies also (3).
+1. (PutGet) the get of a put is the projection: $\mathrm{get} \mathrm{put} = \pi_0$.
+1. (GetPut) the put for a trivially updated state is trivial: $\mathrm{put} \langle \mathrm{get}, 1_S \rangle = 1_S$.
+1. (PutPut) composing puts does not depend on the first view update: $\mathrm{put}(1_V \times \mathrm{put}) = \mathrm{put} \pi_{0,2}$.
+
+**Remark 1**. The two morphisms comprising a lens can also be called 'view' and 'update'. More generally, they are referred to as the 'forward' and 'backward' parts of the lens.
+
+**Remark 2**. Sometimes a lens satisfying all three laws is said to be _lawful_. Sometimes it is said that a _well-behaved_ lens satisfies (1) and (2) and a _very well-behaved_ lens satisfies also (3).
 
 In other words, a (lawful) lens for a fixed $V$ is an [[algebra over a monad|algebra]] from the monad $V^{\ast} \cdot \Sigma$ (the [possibility](necessity+and+possibility#globally) operator):
 
 $$
-  C/V
+  \mathbf C/V
   \underoverset
     {\underset{V^{\ast}}{\longleftarrow}}
     {\overset{\Sigma}{\longrightarrow}}
     {\bot}
-  C.
+  \mathbf C.
 $$
 
 They are also [[coalgebra over a comonad|coalgebras]] for the [[store comonad]].
+
+Lenses (regardless of their lawfulness) organize in a category $\mathrm{Lens}(\mathbf C)$ whose objects are the same as $\mathbf C$ and whose morphisms $X \to Y$ are lenses with states $X$ and views $Y$. The identity lens is given by $(1_X, \pi_1) :X \to X$. Composition of $(\mathrm{get}_1,g):X \to Y$ and $(\mathrm{get}_2,k):Y \to Z$ is given by:
+$$
+  \mathrm{get}_{12} = \mathrm{get}_1 \circ \mathrm{get}_2
+$$
+$$
+  \mathrm{put}_{12} = \mathrm{put}_1 \circ \langle \mathrm{put}_2 \circ \langle 1_Z, \mathrm{get}_1\rangle, 1_X \rangle \circ \langle 1_Z, \Delta_X \rangle
+$$
+The $\mathrm{put}_{12}$ morphism is probably easier to describe using generalized elements:
+$$
+  \mathrm{put}_{12} : (z,x) \mapsto \mathrm{put}_1(\mathrm{put}_2(z, \mathrm{get}_1(x)), x)
+$$
+
+**Remark 2**. Crucially, associativity of this composition relies on naturality of the diagonals $\Delta$, which is a distinctively cartesian feature. [[optic (in computer science)|Optics]] are a sweeping generalization of lenses which overcomes this obstacle.
+
+Moreover, the [[cartesian product]] of $\mathbf C$ endows $\mathrm{Lens}(\mathbf C)$ of a [[monoidal product]].
 
 ## Generalizations
 
@@ -42,7 +62,7 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 
 A morphism between directed [[polynomial functor|containers]] is another kind of generalised lens satisfying laws called _update-update lenses_; see ([Ahman-Uustalu 2017, Section 5](#AhmanUustalu17)). These are equivalent to [[cofunctor|cofunctors]]. 
 
-An [[optic (in computer science)|optic]] defines a symmetric monoidal functor from SymmMonCat to itself. Evaluating the result for different symmetric monoidal categories gives these various generalizations such as Prisms which use the disjoint union in Set. ([Riley Theorem 2.0.8](#Riley))
+An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' state from the forward part to the backward part, avoiding the necessity of a cartesian structure by swapping it with a sufficiently rich actegorical context.
 
 ## Related entries
 
