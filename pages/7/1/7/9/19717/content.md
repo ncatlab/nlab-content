@@ -34,6 +34,11 @@ Many kinds of generalization have been proposed - asymmetric lenses, bimorphic l
 
 One generalization considers the lenses from the previous section as _monomorphic_ by contrast to _polymorphic_ lens which go between pairs of types, $\lambda: (S, T) \to (A, B)$, consisting of a view function, $v_{\lambda}: S \to A$, and an update function $u_{\lambda}: S \times B \to T$. Without further conditions, these are known as _bimorphic lenses_. To impose conditions comparable to the lens laws above requires that the types be related.
 
+Another generalization are [[delta lens|delta lenses]]. Here we have categories $S$ and $V$ called the source and view, together with a *Get* functor $g : S \to V$ and a function $\varphi \colon S_{0} \times_{V_{0}} V_{1} \to S_{1}$ which takes a pair $(s \in S, u : gs \to v \in V)$ to a morphism 
+$\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is the *Put* function. The function $\varphi$ must also satisfy three lens laws. When $S$ and $V$ are [[indiscrete category|codiscrete categories]], delta lenses are equivalent to a lens in [[Set]]; see ([Johnson-Rosebrugh 2016, Proposition 4](#JohnsonRosebrugh16)). 
+
+A morphism between directed [[polynomial functor|containers]] is another kind of generalised lens satisfying laws called _update-update lenses_; see ([Ahman-Uustalu 2017, Section 5](#AhmanUustalu17)). These are equivalent to [[cofunctor|cofunctors]]. 
+
 An [[optic (in computer science)|optic]] defines a symmetric monoidal functor from SymmMonCat to itself. Evaluating the result for different symmetric monoidal categories gives these various generalizations such as Prisms which use the disjoint union in Set. ([Riley Theorem 2.0.8](#Riley))
 
 ## Related entries
@@ -42,10 +47,11 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 
 * [[polynomial functor]]
 
+* [[delta lens]] 
+
 ##References
 
 * Bohannon, A., Vaughan, J. and Pierce, B. (2006)  _Relational Lenses: A language for updatable views._ Proceedings of Principles of Database Systems (PODS) 2006
-
 
 * Foster, J., Greenwald, M., Moore, J., Pierce, B. and Schmitt, A. (2007)  _Combinators for bidirectional  tree  transformations:  A  linguistic  approach  to  the  view  update  problem._ ACM Transactions on Programming Languages and Systems 29
 
@@ -61,8 +67,16 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 
 * [[David Spivak]], _Lenses:  applications and generalizations_, [slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf) of talk at ACT 19. 
 
-* [[Michael Johnson]], [[Robert Rosebrugh]], _The more legs the merrier: A new composition for symmetric (multi-)lenses_, ([arXiv:2101.10482](https://arxiv.org/abs/2101.10482))
+* {#Spivak19} [[David Spivak]], _Generalized Lens Categories via functors $C^{op} \to Cat$_, preprint, 2019 ([arXiv:1908.02202](https://arxiv.org/abs/1908.02202))
 
-* Bryce Clarke, _A diagrammatic approach to symmetric lenses_, ([arXiv:2101.10481](https://arxiv.org/abs/2101.10481))
+* {#AhmanUustalu17} Danel Ahman, [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
+
+* {#JohnsonRosebrugh16} [[Michael Johnson]], [[Robert Rosebrugh]], _Unifying Set-Based, Delta-Based and Edit-Based Lenses_, CEUR Workshop Proceedings, 1571, 2016 ([pdf](http://ceur-ws.org/Vol-1571/paper_13.pdf))
+
+* {#JohnsonRosebrugh20} [[Michael Johnson]], [[Robert Rosebrugh]], _The more legs the merrier: A new composition for symmetric (multi-)lenses_, EPTCS, 333, 2020 ([arXiv:2101.10482](https://arxiv.org/abs/2101.10482))
+
+* {#Clarke20a} Bryce Clarke, _Internal lenses as functors and cofunctors_, EPTCS, 323, 2020 ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
+
+* {#Clarke20b} Bryce Clarke, _A diagrammatic approach to symmetric lenses_, EPTCS, 333, 2020 ([arXiv:2101.10481](https://arxiv.org/abs/2101.10481))
 
 [[!redirects lenses (in computer science)]]
