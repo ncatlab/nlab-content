@@ -983,6 +983,7 @@ $$
 $$
 
 #### Adjoint action
+ {#ExamplesAdjointAction}
 
 The fiber sequence
 
@@ -1003,6 +1004,7 @@ $$
   \,.
 $$
 
+For more on this see at *[[free loop space of a classifying space]]*.
 
 
 #### Automorphism action
