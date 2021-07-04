@@ -38,7 +38,7 @@ A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or *
 
 It is a **right fibration** or **right Kan fibration** if its extends against all horns except possibly the left outer ones: $0 \lt k \leq n$.
 
-So $X \to S$ is a left fibration precisely if for all commuting squares
+So $X \to S$ is a right fibration precisely if for all commuting squares
 
 $$
   \array{
@@ -231,7 +231,7 @@ for a Grothendieck fibration in groupoids.
 
 Under the operation of forming the [[opposite quasi-category]], left fibrations turn into right fibrations, and vice versa: if $p : C \to D$ is a left fibration then $p^{op} : C^{op} \to D^{op}$ is a right fibration.
 
-Therefore it is sufficient to list properties of only one type of these fib rations, that for the other follows.
+Therefore it is sufficient to list properties of only one type of these fibrations, that for the other follows.
 
 =--
 
