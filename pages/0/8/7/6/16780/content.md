@@ -121,7 +121,7 @@ See [this Prop](quaternion+group#InclusionInLargerFininteSubgroupsOfSU2) at _[[q
 
 ### Group cohomology
 
-The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
+The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#Groupprops), [Tomoda & Zvengrowski 08, Sec. 4.1](#TomodaZvengrowski08) [Kirdar 13](#Kirdar13), [Epa & Ganter 16, p. 12](#EpaGanter16).
 
 
 ## Related concepts
@@ -134,9 +134,21 @@ Discussion in the context of [[classification of finite rotation groups]] goes b
 
 * {#Klein1884} [[Felix Klein]], chapter I.4 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
 
-Exposition is in 
+Exposition:
 
 * Tony Phillips, _[The Geometry of the Binary Tetrahedral Group in SU(2)](http://www.math.stonybrook.edu/~tony/bintet/)_
+
+See also:
+
+* Wikipedia, _[Tetrahedral symmetry](https://en.wikipedia.org/wiki/Tetrahedral_symmetry)_
+
+Discussion of the [[group cohomology]]:
+
+* {#TomodaZvengrowski08} [[Satoshi Tomoda]], [[Peter Zvengrowski]], *Remarks on the cohomology of finite fundamental groups of 3-manifolds*, Geom. Topol. Monogr. 14 (2008) 519-556 ([arXiv:0904.1876](https://arxiv.org/abs/0904.1876))
+
+* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
+
+* {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
 
 
 Discussion of [[higher central extension]] to [[Platonic 2-groups]] is in
@@ -145,13 +157,6 @@ Discussion of [[higher central extension]] to [[Platonic 2-groups]] is in
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
 
-See also
-
-* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
-
-* Wikipedia, _[Tetrahedral symmetry](https://en.wikipedia.org/wiki/Tetrahedral_symmetry)_
-
-* {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
 
 
 
