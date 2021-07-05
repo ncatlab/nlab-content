@@ -310,7 +310,8 @@ $$
 
 =--
 
-For pointers to proofs see for instance [Epa-Ganter 16, section 4](#EpaGanter16).
+
+([Tomoda & Zvengrowski 08](#TomodaZvengrowski08), [Epa & Ganter 16, p. 12](#EpaGanter16), see also [FHHP 01, Cor. 3.1](#FHHP01))
 
 +-- {: .num_remark #DiscreteTorsion} 
 ###### Remark
@@ -358,7 +359,7 @@ The classification in Theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} goes ba
 
 * {#Klein1884} [[Felix Klein]], chapter I of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
 
-Textbook accounts include
+Textbook accounts:
 
 * {#MillerBlichfeldtDickson16} G. A. Miller, H. F. Blichfeldt, L. E. Dickson, _Theory and applications of finite groups_, Dover, New York, 1916
 
@@ -386,6 +387,15 @@ See also
 Discussion of the [[lattice]] of [[subgroups]] of the three exceptional subgroups is in 
 
 * {#GoncalvesGuaschi11} Daciberg Lima Gonçalves, John Guaschi, _The Subgroups of the Binary Polyhedral Groups_, Appendix of _The classification of the virtually cyclic subgroups of the sphere braid groups_, Springer (Ed.) (2013) 112 ([arXiv:1110.6628](https://arxiv.org/abs/1110.6628), [pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf))
+
+Discussion of the [[group cohomology]]:
+
+* {#TomodaZvengrowski08} [[Satoshi Tomoda]], [[Peter Zvengrowski]], *Remarks on the cohomology of finite fundamental groups of 3-manifolds*, Geom. Topol. Monogr. 14 (2008) 519-556 ([arXiv:0904.1876](https://arxiv.org/abs/0904.1876))
+
+see also
+
+* {#FHHP01} [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], Nikolaos Prezas, Cor. 3.1 in: *Discrete Torsion, Non-Abelian Orbifolds and the Schur Multiplier*, JHEP 0101:033, 2001 ([arXiv:hep-th/0010023](https://arxiv.org/abs/hep-th/0010023))
+
 
 The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Platonic 2-groups]]") are discussed in
 
