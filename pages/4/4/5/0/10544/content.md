@@ -20,6 +20,10 @@ Review of [[cohesion]] ([[cohesive toposes]]) and [[differential cohesion]]:
 
 * {#Loregian19} [[Fosco Loregian]], *Cohesion in Rome*, talk notes, Dec. 2019  ([pdf](https://tetrapharmakon.github.io/stuff/cohesive_rome.pdf), [[LoregianCohesion.pdf:file]])
 
+On [[optic (in computer science)]]:
+
+* [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
+
 
 ## Related $n$Lab entries
 
