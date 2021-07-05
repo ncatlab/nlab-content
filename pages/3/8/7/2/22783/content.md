@@ -645,14 +645,6 @@ This follows as the combination of the following facts:
 
 \end{proof}
 
-\begin{prop}\label{UniversalSimplicialPrincipalBundleIsKanFibration}
-  The coprojection $W G \overset{}{\longrightarrow} \overline{W}G$
-  (eq:TheUniversalSimplicialPrincipalBundle)
-  is a [[Kan fibration]].
-\end{prop}
-(e.g [Goerss & Jardine 09, Sec. V Lemma 4.1 (p. 270)](#GoerssJardine09))
-
-More generally:
 \begin{prop}\label{CoprojectionOutOfBorelConstructionIsKanFibration}
   For a [[simplicial group action]] of $G$ on a [[Kan complex]] $X$, the canonical coprojection from the [[Borel construction]] to the simplicial classifying space is a [[Kan fibration]]:
 $$
@@ -664,6 +656,47 @@ $$
 \end{prop}
 \begin{proof}
   By the fact ([this Prop.](Borel+model+structure#QuillenEquivalenceToSliceOverSimplicialClassifyingSpace)) that the [[Borel construction]] is a [[right Quillen functor]] from the [[model structure on simplicial group actions]] to the [[slice model structure]] of the [[classical model structure on simplicial sets]] over the simplicial classifying space; see [this Example](Borel+construction#ProjectionToSimplicialClassifyingSpaceIsKanFibration).
+\end{proof}
+
+In particular:
+\begin{prop}\label{UniversalSimplicialPrincipalBundleIsKanFibration}
+  The coprojection $W G \overset{}{\longrightarrow} \overline{W}G$
+  (eq:TheUniversalSimplicialPrincipalBundle)
+  is a [[Kan fibration]].
+\end{prop}
+(e.g [Goerss & Jardine 09, Sec. V Lemma 4.1 (p. 270)](#GoerssJardine09))
+\begin{proof}
+  This is the special case of Prop. \ref{CoprojectionOutOfBorelConstructionIsKanFibration}
+for $X = G$ equipped with the left multiplication [[simplicial group action|action]] on itself, using again that 
+the underlying simplicial set of any simplicial group is a Kan complex
+([this Prop.](model+structure+on+simplicial+groups#EveryObjectIsFibrant)):
+$$
+  \array{
+    G &\longrightarrow& W G
+    \\
+    && 
+    \big\downarrow{}^{\mathrlap{\in Fib}}
+    \\
+    && \overline{W}G
+  }
+  {\phantom{AAAAAA}}
+  \simeq
+  {\phantom{AAAA}}
+  \left(
+  W G \times
+  \left(
+    \array{
+      G
+      \\
+      \downarrow
+      \\
+      \ast
+    }
+  \right)
+  \right)
+  \big/ G
+  \,.
+$$
 \end{proof}
 
 \begin{prop}\label{UniversalPrincipalSimplicialComplexIsContractible}
@@ -718,6 +751,16 @@ $$
 $$
 which exhibit the claim to be proven.
 \end{proof}
+
+\begin{proposition}\label{DeloopedKanFibrationOfHomomorphismOfSimplicialGroups}
+  Let $\mathcal{G}_1 \xrightarrow{\phi} \mathcal{G}_2$ be a [[homomorphism]] of [[simplicial groups]] which is a [[Kan fibration]].
+Then the induced morphism of [[simplicial classifying spaces]]
+$\overline{W}\mathcal{G}_1 \xrightarrow{ \overline{W}(\phi)} \overline{W}\mathcal{G}_2$ is a [[Kan fibration]] if and only if $\phi$ is a [[surjection]] on [[connected components]]: $\pi_0(\phi) \colon \pi_0(\mathcal{G}_1) \twoheadrightarrow{\;} \pi_0(\mathcal{G}_1)$.
+\end{proposition}
+([Goerss & Jardine, Ch. V, Cor. 6.9](#GoerssJardine09), see the proof [here](model+structure+on+reduced+simplicial+sets#DeloopedKanFibrationOfHomomorphismOfSimplicialGroups))
+
+
+
 
 ### Classification of simplicial principal bundles 
  {#ClassificationOfSimplicialPrincipalBundles}
