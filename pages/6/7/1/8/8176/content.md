@@ -25,6 +25,9 @@
 The _Serre spectral sequence_ or _Leray-Serre spectral sequence_
 is a [[spectral sequence]] for computation of [[ordinary cohomology]] ([[ordinary homology]]) of [[topological spaces]] in a [[Serre fibration|Serre]]-[[fiber sequence]] of [[topological spaces]].
 
+\begin{proposition}\label{OrdinaryCohomologicalSerreSpectralSequence}
+**(ordinary cohomology Serre spectral sequence)**\linebreak
+
 Given a [[homotopy fiber sequence]]
 
 $$
@@ -37,9 +40,11 @@ $$
   }
 $$
 
-such that the canonical [[group action]] of the [[fundamental group]] $\pi_1(X)$ on the [[ordinary cohomology]] of the [[fiber]] $F$ is [[trivial action|trivial]] (for instance if $X$ is a [[simply connected topological space]]), then there exists a *cohomology Serre spectral sequence* of the form (e.g. [Hatcher, Thm. 1.14](#Hatcher)):
+over a [[connected topological space]] $X$,
+such that the canonical [[group action]] of the [[fundamental group]] $\pi_1(X)$ on the [[ordinary cohomology]] of the [[fiber]] $F$ is [[trivial action|trivial]] (for instance if $X$ is a [[simply connected topological space]]), then there exists a *cohomology Serre spectral sequence* of the form:
 
-$$
+\[
+  \label{SecondPageAndConvergenceOfOrdinaryCohomologicalSerreSpectralSequence}
   E_2^{p,q}
   \;=\; 
   H^p
@@ -51,11 +56,16 @@ $$
   \;\Rightarrow\; 
   H^{p+q}(E)
   \,.
-$$
+\]
+
+\end{proposition}
+
+(e.g. [Hatcher, Thm. 1.14](#Hatcher))
 
 {#ConvergenceOfTheOrdinaryCohomologySSS} Hence for $n \in \mathbb{N}$ we have a [[filtration]] of [[abelian groups]]
 
-$$
+\[
+  \label{FilteringForOrdinaryCohomologySerreSpectralSequence}
   0
   \xhookrightarrow{
     \;\;
@@ -80,7 +90,7 @@ $$
   \;=\;
   H^n(E)
   \,,
-$$
+\]
 
 where
 
@@ -191,7 +201,10 @@ For details on the plain Serre spectral sequence see at _[[Atiyah-Hirzebruch spe
 
 ## Examples
 
-\begin{example}
+
+\begin{example}\label{IntegralCohomologyOfHomotopyQuotientOf4SphereByADEAction}
+**([[integral cohomology]] of [[homotopy quotient]] of [[4-sphere]] by [[finite subgroup of SU(2)]])** \linebreak
+
   Let 
 
   * $G \xhookrightarrow{\;i\;} Sp(1) \simeq SU(2) \simeq Spin(3)$ be a [[finite subgroup of SU(2)]];
@@ -202,10 +215,11 @@ For details on the plain Serre spectral sequence see at _[[Atiyah-Hirzebruch spe
 
 Then the [[integral cohomology]] in degree 4 of the [[homotopy quotient]] is the [[direct sum]]
 
-$$
+\[
+  \label{Integral4CohomologyOfHomotopyQuotientOf4SphereByFiniteSubgroupOfSU2}
   H^4
   \big(
-    S^4 /\!/ G,
+    S^{\mathbb{H}} \!\sslash\! G,
     \,
     \mathbb{Z}
   \big)
@@ -213,57 +227,30 @@ $$
   \simeq
   \;\;
   \mathbb{Z} \oplus (\mathbb{Z}/\left\vert G \right\vert)
-$$
+\]
 
 of the [[integers]] with the [[cyclic group]] of [[order of a group|order]] that of $G$.
 
 \end{example}
 \begin{proof}
 By the [[Borel construction]] we have a [[homotopy fiber sequence]] of the form
-$$
+\[
+  \label{BorelConstructionFor4SphereActedOnByADESubgroup}
   \array{
-    S^4 &\longrightarrow& S^{4} /\!/ G
+    S^4 &\longrightarrow& S^{\mathbb{H}} \!\sslash\! G
     \\
     && \big\downarrow
     \\
     && B G
   }
-$$
+\]
 
 over the [[classifying space]] of $G$. 
 
-Noticing that the integral cohomology of the classifying space is the [[group cohomology]]
+Here the [[integral cohomology]] of the [[4-sphere]] [[fiber]] is (e.g. by the nature of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},4)$)
 
-$$
-  H^\bullet(B G, \mathbb{Z})
-  \;\simeq\;
-  H^\bullet_[grp](G, \mathbb{Z})
-$$
-
-we have for the given [[finite subgroup of SU(2)]]
-
-$$
-  H_n(B G, \mathbb{Z})
-  \;\simeq\;
-  \left\{
-  \array{
-    \mathbb{Z} &\vert& n = 0
-    \\
-    G^{ab} &\vert&  n = 1 \, mod \, 4
-    \\
-    \mathbb{Z}/{\vert G\vert} &\vert& n = 3 \,mod\, 4
-    \\
-    0 &\vert& \text{otherwise} 
-  }
-  \right.
-  \,,
-$$
-
-where $G^{ab} \coloneqq G / [G,G]$ denotes the [[abelianization]] of $G$.
-
-Moreover (e.g. by the nature of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},4)$) we have
-
-$$
+\[
+  \label{IntegralCohomologyOfThe4Sphere}
   H^n
   \big(
     S^4,
@@ -275,13 +262,71 @@ $$
   \array{
     \mathbb{Z} & for & n \in \{0,4\}
     \\
-    0 & \text{otherwise}
+    0 & \text{otherwise} \,.
   }
   \right.
-  \,.
+\]
+
+We claim that the [[group action]] of $\pi_1(B G) \simeq G$ (by [this Prop.](simplicial+classifying+space#HomotopyGroupsOfBarWG)) on the [[integral cohomology]] of the [[fiber]] is [[trivial action|trivial]]. This follows by observing that: 
+
+1. we have an [[isomorphism]] of [[topological G-spaces]] between the [[representation sphere]] of $\mathbb{H}$ and the [[unit sphere]] in $\mathbb{R} \oplus \mathbb{H}$ (by [this Prop.](representation+sphere#RepresentationSpheresAsUnitSpheres)):
+
+   $$
+     S^{\mathbb{H}}
+     \;\simeq_{G}\;
+     S(\mathbb{R} \oplus \mathbb{H})
+     \,;
+   $$
+
+
+1. the [[group action]] of [[Sp(1)]] on $\mathbb{H} \simeq_{\mathbb{R}} \mathbb{R}^4$ is through the defining action of [[SO(4)]], hence the action on $\mathbb{R} \oplus \mathbb{H}$ is through [[SO(5)]], 
+
+   because [[quaternions]] are a [[normed division algebra]], so that left-multiplication by unit-[[norm]] quaternions $q \in$ [[Sp(1)]] $= S(\mathbb{H})$ preserves the [[norm]] (e.g [[schreiber:Equivariant homotopy and super M-branes|HSS 18, Rem. A.8]]);
+
+1. the generator of $H^4(S^4,\mathbb{Z})$ may be identified with the [[volume form]] (under the [[Hopf degree theorem]] and the [[de Rham theorem]]) which is manifestly preserved by the action of the [[special orthogonal group]] $SO(5)$.
+
+Therefore, the [[integral cohomology|integral]]-cohomological Serre spectral sequence (Prop. \ref{OrdinaryCohomologicalSerreSpectralSequence}) applies to the Borel fiber sequence (eq:BorelConstructionFor4SphereActedOnByADESubgroup).
+
+Now, noticing that the [[integral cohomology]] of a [[classifying space]] of a [[discrete group]] is its [[group cohomology]]
+
+$$
+  H^\bullet(B G, \mathbb{Z})
+  \;\simeq\;
+  H^\bullet_{grp}(G, \mathbb{Z})
 $$
 
-Using these ingredients in the cohomology Serre spectral sequence
+we have for the given [[finite subgroup of SU(2)]] (by [this Prop](finite+rotation+group#GroupCohomologyOfFiniteSubgroupsOfSU2)) that:
+
+\[
+  \label{IntegralCohomologyOfClassifyingSpaceOfFiniteSubgroupOfSU2}
+  H^4(B G, \mathbb{Z})
+  \;\simeq\;
+  \left\{
+  \array{
+    \mathbb{Z} &\vert& n = 0
+    \\
+    G^{ab} &\vert&  n = 2 \, mod \, 4
+    \\
+    \mathbb{Z}/{\vert G \vert} 
+    &\vert& 
+    n \, \text{positive multiple of} \, 4
+    \\
+    0 &\vert& \text{otherwise} \,,
+  }
+  \right.
+\]
+
+where $G^{ab} \coloneqq G / [G,G]$ denotes the [[abelianization]] of $G$.
+
+
+Using the cohomology groups
+(eq:IntegralCohomologyOfThe4Sphere)
+and
+(eq:IntegralCohomologyOfClassifyingSpaceOfFiniteSubgroupOfSU2) 
+in the fomula 
+(eq:SecondPageAndConvergenceOfOrdinaryCohomologicalSerreSpectralSequence)
+for the second page $E_2^{\bullet, \bullet}$
+of the cohomology Serre spectral sequence (Prop. \ref{OrdinaryCohomologicalSerreSpectralSequence}) shows that this is of the following form:
 
 \begin{tikzcd}[row sep={between origins, 21pt}, column sep={between origins, 21pt}]
       {}
@@ -465,7 +510,72 @@ Using these ingredients in the cohomology Serre spectral sequence
       &{}&{}&{}&{}&{}
 \end{tikzcd}
 
+Since the [[codomains]] of the [[differentials]] on all the following pages are translated diagonally (downwards and rightwards, by the [general formula](spectral+sequence#eq:FormOfDifferentialInCohomologySpectralSequence)) from the codomains seen above, one sees that for every differential on every page, the [[domain]] or the [[codomain]] is the [[zero group]]. 
+
+This means that all differentials are the [[zero morphism]], hence that the spectral sequence collapses already on this second page:
+
+$$
+  E^{\bullet, \bullet}_\infty
+  \;\;
+  \simeq
+  \;\;
+  E^{\bullet, \bullet}_2
+  \,.
+$$
+
+Therefore the convergence statement (eq:FilteringForOrdinaryCohomologySerreSpectralSequence) says that the degree-4 cohomology group in question is a [[group extension]] of 
+
+$$
+  E^{0,4}_\infty 
+  \;\simeq\;
+  H^0\big(B G, \, H^4(S^4; \mathbb{Z}) \big) 
+  \;\simeq\; 
+  H^0\big( B G, \, \mathbb{Z}\big)
+  \;\simeq\;
+  \mathbb{Z}
+$$
+
+by
+
+$$
+  E^{4,0}_\infty 
+  \;\simeq\;
+  H^4\big(B G, \, H^0(S^4; \mathbb{Z}) \big) 
+  \;\simeq\; 
+  H^4\big( B G, \, \mathbb{Z}\big)
+  \;\simeq\;
+  \mathbb{Z}/\left\vert G \right\vert
+$$
+
+in that we have a [[short exact sequence]] of the form
+
+$$ 
+  0 
+  \to
+  \mathbb{Z}/\left\vert G\right\vert
+  \hookrightarrow
+  H^4\big( S^4 \!\sslash\! G;\, \mathbb{Z} \big)
+  \twoheadrightarrow
+  \mathbb{Z}
+  \to 
+  0
+  \,.
+$$
+
+But since the [[Ext-group]] of the [[integers]] is [[trivial group|trivial]] ([this Expl.](Ext#ExtensionsOfTheIntegersAreTrivial)) this extension must be the [[direct sum]]
+
+$$
+  H^4\big( S^4 \!\sslash\! G;\, \mathbb{Z} \big)
+  \;\simeq\;
+  \mathbb{Z}_{\left\vert G\right\vert}
+  \oplus
+  \mathbb{Z}
+  \,.
+$$
+
+This is the claim (eq:Integral4CohomologyOfHomotopyQuotientOf4SphereByFiniteSubgroupOfSU2) to be proven.
 \end{proof}
+
 
 
 ## Consequences
