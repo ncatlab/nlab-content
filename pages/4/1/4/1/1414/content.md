@@ -453,7 +453,7 @@ With [[Tim Porter]], Cordier proved the simplicial generalisation of a theorem o
 
 *  [[Jean-Marc Cordier]], [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, Math. Proc. Cambridge Philos. Soc. __100__, (1986), 65 &#8211; 90.
 
-This theorem describes an equivalence between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the homotopy category of [[homotopy coherent diagram]]s in the sense of Vogt. This paper includes an explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a quasicategory. As well as the harder result on when [[outer horn]]s in this quasicategory can be filled.
+This theorem describes an equivalence between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the homotopy category of [[homotopy coherent diagram]]s in the sense of Vogt. This paper includes an explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a quasicategory as well as the harder result on when [[outer horn]]s in this quasicategory can be filled.
 
 Vogt's original version of the theorem is in 
 
@@ -467,7 +467,7 @@ Two other papers are relevant to this:
 
 An elementary discussion of the concept of homotopy coherence forms Chapter V of
 
-*  K. H. Kamps, [[Tim Porter]], _Abstract homotopy and simple homotopy theory_, World Scientific 1997. 
+*  [[K. H. Kamps]], [[Tim Porter]], _Abstract homotopy and simple homotopy theory_, World Scientific 1997. 
 
 
 
