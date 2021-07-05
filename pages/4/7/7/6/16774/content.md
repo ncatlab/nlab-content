@@ -150,7 +150,7 @@ The [[coset space]] $SU(2)/2I$ is the [[Poincaré homology sphere]].
 
 ### Group cohomology
 
-For a little bit about the [[group cohomology]] (or at least the homology) of the binary icosahedral group $SL_2(\mathbb{F}_5)$, see _[Groupprops](#Groupprops)_
+For a little bit about the [[group cohomology]] (or at least the homology) of the binary icosahedral group $SL_2(\mathbb{F}_5)$, see *[Tomoda & Zvengrowski 08, Section 4.3](#TomodaZvengrowski08)*, *[Epa & Ganter 16, p. 12](#EpaGanter16)* _[Groupprops](#GrouppropsGroupCohomology)_
 
 
 ## Related concepts
@@ -159,17 +159,28 @@ For a little bit about the [[group cohomology]] (or at least the homology) of th
 
 ## References
 
-* {#Klein1884} [[Felix Klein]], chapter I.8 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+Origin:
 
+* {#Klein1884} [[Felix Klein]], chapter I.8 of: _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+
+See also:
 
 * Wikipedia, _[Icosahedral symmetry](https://en.wikipedia.org/wiki/Icosahedral_symmetry)_
 
-* {#Groupprops} Groupprops, _[Alternating group:A5](http://groupprops.subwiki.org/wiki/Alternating_group:A5)_ _[Group cohomology of algebrating group:A5](http://groupprops.subwiki.org/wiki/Group_cohomology_of_alternating_group:A5)_
+* {#Groupprops} Groupprops, _[Alternating group:A5](http://groupprops.subwiki.org/wiki/Alternating_group:A5)_ 
 
 * [[Philip Boalch]], _The fifty-two icosahedral solutions to Painlev&#233; VI_, J. Reine Angew. Math. 596 (2006) 183--214 ([arXiv:0406281](http://arxiv.org/abs/math/0406281))
 
-* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+Discussion of the [[group cohomology]]:
 
+* {#TomodaZvengrowski08} [[Satoshi Tomoda]], [[Peter Zvengrowski]], Section 4.3 of: *Remarks on the cohomology of finite fundamental groups of 3-manifolds*, Geom. Topol. Monogr. 14 (2008) 519-556 ([arXiv:0904.1876](https://arxiv.org/abs/0904.1876))
+
+* {#GrouppropsGroupCohomology} _[Group cohomology of algebrating group:A5](http://groupprops.subwiki.org/wiki/Group_cohomology_of_alternating_group:A5)_
+
+
+Discussion of [[Platonic 2-group]]-extensions:
+
+* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
 
