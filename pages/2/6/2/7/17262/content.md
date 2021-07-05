@@ -114,6 +114,13 @@ The following shows the [[subgroup lattices]] of the first few [[generalized qua
 </center>
 
 
+### Group cohomology
+
+The [[group cohomology]] of the generalized quaternion groups: see [Tomoda & Zvengrowski 2008](#TomodaZvengrowski08)
+
+
+
+
 ## Related entries
 
 * [[quaternion]]
@@ -152,6 +159,11 @@ See also
 * Groupprops, _[Linear representation theory of the quaternion group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_quaternion_group)_
 
 * GroupNames, _[Quaternion groups $Q_{2^n}$](https://people.maths.bris.ac.uk/~matyd/GroupNames/quaternion.html)_
+
+On the [[group cohomology]]:
+
+* {#TomodaZvengrowski08} [[Satoshi Tomoda]], [[Peter Zvengrowski]], *Remarks on the cohomology of finite fundamental groups of 3-manifolds*, Geom. Topol. Monogr. 14 (2008) 519-556 ([arXiv:0904.1876](https://arxiv.org/abs/0904.1876))
+
 
 [[!redirects quaternion groups]]
 
