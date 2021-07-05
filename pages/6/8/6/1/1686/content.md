@@ -65,7 +65,7 @@ A __cohomology spectral sequence__ in $\mathcal{A}$ is
 
   satisfying $d_r^2 = 0$ (more precisely, $d_r^{p+r,q-r+1}\circ d_r^{p,q} = 0$)
 
-* [[isomorphisms]] $\alpha_r^{p,q}: H^{p,q}(E_r)\to E^{p,q}_{r+1}$ where 
+* [[isomorphisms]] $\;$ $\alpha_r^{p,q}: H^{p,q}(E_r)\to E^{p,q}_{r+1}$ where 
   the [[chain cohomology]] is given by
   
   $$
@@ -75,7 +75,7 @@ A __cohomology spectral sequence__ in $\mathcal{A}$ is
 
 =--
 
-Analogously a **homology spectral sequence** is collection of objects $(E_{p,q}^r)$ with the differential $d_r$ of degree $(-r,r-1)$.
+Analogously, a **homology spectral sequence** is collection of objects $(E_{p,q}^r)$ with the differential $d_r$ of degree $(-r,r-1)$.
 
 
 
