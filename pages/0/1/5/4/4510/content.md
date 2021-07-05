@@ -588,9 +588,9 @@ Various notions of [[cohomology groups]] in the context of [[algebra]] can be ex
 
 +-- {: .num_prop #ExtensionsOfTheIntegersAreTrivial} 
 ###### Proposition
-**([[group extensions]] of the [[integers]] are trivial)**
+**([[group extensions]] of the [[integers]] are [[trivial group|trivial]])**
 
-The $Ext^1$-group of the [[integers]] with coefficients in any $A \in $ [[AbelianGroups]] is trivial:
+The $Ext^1$-group of the [[integers]] with coefficients in any $A \in $ [[AbelianGroups]] is [[trivial group|trivial]]:
 
 $$
   Ext^1\big(
@@ -604,7 +604,8 @@ $$
 
 =--
 
-(e.g. [Boardman, Prop. 19](#Boardman))
+(since the integers are already projective,
+e.g. [Boardman, Prop. 19](#Boardman))
 
 
 +-- {: .num_prop #GroupExtensionsOfFiniteCyclicGroups} 
