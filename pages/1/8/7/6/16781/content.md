@@ -41,7 +41,7 @@ More in detail, there are variants of the octahedral group corresponding to the 
 
 * finally the _binary octahedral group_ is the [[double cover]], hence the lift of $I$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]];
 
-* next there is a [[string 2-group]] lift $String_{2O} \hookrightarrow String_{SU(2)}$ of the octahedral group ([Epa 10](#Epa10), [Epa-Ganter 16](#EpaGanter16))
+* next there is a [[string 2-group]] lift $String_{2O} \hookrightarrow String_{SU(2)}$ of the octahedral group ([Epa 10](#Epa10), [Epa & Ganter 16](#EpaGanter16))
 
 $$
   \array{
@@ -104,7 +104,7 @@ See [this Prop](quaternion+group#InclusionInLargerFininteSubgroupsOfSU2) at _[[q
 
 ### Group cohomology
 
-The [[group cohomology]] of the orientation-preserving octahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
+The [[group cohomology]] of the orientation-preserving octahedral group is discussed in [Groupprops](#Groupprops), [Tomoda & Zvengrowski 08, Sec. 4.2](#TomodaZvengrowski08), [Kirdar 13](#Kirdar13), [Epa & Ganter 16, p. 12](#EpaGanter16).
 
 
 ## References
@@ -119,9 +119,15 @@ See also
 
 * Wikipedia, _[Octahedral symmetry](https://en.wikipedia.org/wiki/Octahedral_symmetry)_
 
+Discussion of the group cohomology:
+
 * {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
 
+* {#TomodaZvengrowski08} [[Satoshi Tomoda]], [[Peter Zvengrowski]], *Remarks on the cohomology of finite fundamental groups of 3-manifolds*, Geom. Topol. Monogr. 14 (2008) 519-556 ([arXiv:0904.1876](https://arxiv.org/abs/0904.1876))
+
 * {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
+
+Discussion of [[Platonic 2-group]]-extensions:
 
 * {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
 
