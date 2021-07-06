@@ -319,6 +319,12 @@ Critical review of [[dark energy]] in the standard model of cosmology:
 
 * Martin Bojowald, Ding Ding, _Canonical description of cosmological backreaction_ ([arXiv:2011.03018](https://arxiv.org/abs/2011.03018))
 
+In relation to [[structure formation]] during [[cosmic inflation]]:
+
+* [[Martin Bojowald]], Ding Ding, *Canonical description of cosmological backreaction*, JCAP **03** (2021) 083
+([arXiv:2011.03018](https://arxiv.org/abs/2011.03018))
+
+
 
 
 
