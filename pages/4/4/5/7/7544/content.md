@@ -195,6 +195,9 @@ Comprehension schemes are used to characterize categorical properties of element
 
 * [[Raffael Stenzel]], _(∞,1)-Categorical Comprehension Schemes_, ([arXiv:2010.09663](https://arxiv.org/abs/2010.09663))
 
+A partial analogue of the elementary 1-topos [[FinSet]] is constructed in
+
+* [[Mathieu Anel]], *The elementary infinity-topos of truncated coherent spaces*, [arxiv](https://arxiv.org/abs/2107.02082), 2021
  
 
 [[!redirects elementary (∞,1)-topos]]
