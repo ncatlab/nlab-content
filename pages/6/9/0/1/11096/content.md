@@ -64,6 +64,8 @@ The inclusion of homotopy types with finite groups into all homotopy types gener
 
 * {#Scholze} [[Peter Scholze]], _Infinity-categorical analogue of compact Hausdorff_, [MO answer](https://mathoverflow.net/a/380399/447)
 
+Discussion as an [[elementary (∞,1)-topos]]:
+
 * {#Anel21} [[Mathieu Anel]], _The elementary infinity-topos of truncated coherent spaces_ ([arXiv:2107.02082](https://arxiv.org/abs/2107.02082))
 
 [[!redirects homotopy types with finite homotopy groups]]
