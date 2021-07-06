@@ -425,7 +425,7 @@ $$
   G Bund(X) \simeq \mathbf{H}(X, \mathbf{B}G)
 $$
 
-of $G$-orincipal $\infty$-bundles over $X$ with [[cocycles]] $X \to \mathbf{B}G$.
+of $G$-principal $\infty$-bundles over $X$ with [[cocycles]] $X \to \mathbf{B}G$.
 
 
 =-- 
@@ -433,7 +433,7 @@ of $G$-orincipal $\infty$-bundles over $X$ with [[cocycles]] $X \to \mathbf{B}G$
 +-- {: .proof}
 ###### Proof
 
-The [[arrow category]] $\mathbf{H}^I$ is still an [[(infinity,1)-topos]] and hence the Griraud-Lurie axioms still hold. This means that by the discussion at [[groupoid object in an (infinity,1)-category]] (using the statement below [[Higher Topos Theory|HTT, cor. 6.2.3.5]]) we have an equivalence
+The [[arrow category]] $\mathbf{H}^I$ is still an [[(infinity,1)-topos]] and hence the Giraud-Lurie axioms still hold. This means that by the discussion at [[groupoid object in an (infinity,1)-category]] (using the statement below [[Higher Topos Theory|HTT, cor. 6.2.3.5]]) we have an equivalence
 
 $$
   Grpd(\mathbf{H}^I) \simeq 
@@ -442,7 +442,7 @@ $$
 
 between groupoid objects in $\mathbf{H}^I$ and [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]] in the arrow category. 
 
-Notice that groupoid objects and effective epis in $\mathbf{H}^I$ are given objectwise over the two objects of the inerval $I = \Delta[1]$.
+Notice that groupoid objects and effective epis in $\mathbf{H}^I$ are given objectwise over the two objects of the interval $I = \Delta[1]$.
 
 Restricting this equivalence along the inclusion
 
