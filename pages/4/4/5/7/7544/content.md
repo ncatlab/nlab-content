@@ -22,7 +22,7 @@
 
 The notion of an _elementary (∞,1)-topos_ is an analogue of the notion of _[[elementary topos]]_ in [[(∞,1)-category theory]].  This is in contrast to the notion of a _Grothendieck_ _[[(∞,1)-topos]] [[equivalence of (∞,1)-categories|equivalent]] to an [[(∞,1)-category of (∞,1)-sheaves]]_, the analogue of a [[sheaf topos]], which is more specific (see [[geometric homotopy type theory]]).
 
-Note that every _Grothendieck_ [[(∞,1)-topos]] provides [[categorical semantics]] for [[homotopy type theory]] with [[univalence|univalent]] weakly-Tarskian [[types of types]] and also [[higher inductive types]] (HITs).  Elementary $(\infty,1)$-toposes ought to be roughly the larger class of *all* $(\infty,1)$-categories that provide [[categorical semantics]] for such homotopy type theory.  More precisely, we will define an elementary $(\infty,1)$-topos to have the $(\infty,1)$-categorical structure that ought to correspond to that type-theoretic structure; a [[coherence theorem]] making it *actually* model the corresponding type theory is still unknown.
+{#AsCategoricalSemanticsForHoTT} Note that every _Grothendieck_ [[(∞,1)-topos]] provides [[categorical semantics]] for [[homotopy type theory]] with [[univalence|univalent]] [[types of types]] and also [[higher inductive types]] (HITs) -- see [here](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence).  Elementary $(\infty,1)$-toposes ought to be roughly the larger class of *all* $(\infty,1)$-categories that provide [[categorical semantics]] for such homotopy type theory.  More precisely, we will define an elementary $(\infty,1)$-topos to have the $(\infty,1)$-categorical structure that ought to correspond to that type-theoretic structure; a [[coherence theorem]] making it *actually* model the corresponding type theory is still unknown (but see at [[initiality conjecture]]).
 
 In general, the problem with "elementary-izing" the notion of $(\infty,1)$-topos is that Grothendieck $(\infty,1)$-toposes have many properties that are not reflected in type theory due to the finitary nature of type theory; the question is to find appropriate "finitary shadows" of them.  For instance, one can construct [[initial algebras for endofunctors]] using a [[transfinite induction]] argument; thus in type theory we postulate the existence of [[inductive types]].  Deciding what class of "infinitary constructions" that are available in Grothendieck $(\infty,1)$-toposes can be described finitarily by something that deserves the name "[[higher inductive type]]" is overall an open question, but we can obtain reasonable definitions by restricting the class of [[HITs]] we ask for.
 
@@ -195,9 +195,9 @@ Comprehension schemes are used to characterize categorical properties of element
 
 * [[Raffael Stenzel]], _(∞,1)-Categorical Comprehension Schemes_, ([arXiv:2010.09663](https://arxiv.org/abs/2010.09663))
 
-A partial analogue of the elementary 1-topos [[FinSet]] is constructed in
+On [[homotopy type with finite homotopy groups|π-finite homotopy types]] as a partial analogue of the elementary 1-topos [[FinSet]]:
 
-* [[Mathieu Anel]], *The elementary infinity-topos of truncated coherent spaces*, [arxiv](https://arxiv.org/abs/2107.02082), 2021
+* [[Mathieu Anel]], *The elementary infinity-topos of truncated coherent spaces*, 2021 ([arxiv:2107.02082](https://arxiv.org/abs/2107.02082))
  
 
 [[!redirects elementary (∞,1)-topos]]
