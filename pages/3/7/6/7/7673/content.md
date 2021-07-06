@@ -532,6 +532,10 @@ The formulation in terms of representable natural transformations is in
 
 * [[Steve Awodey]]. (2018). *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, 28(2), 241-286. [PDF](https://arxiv.org/pdf/1406.3219.pdf)
 
+See also
+
+* Clive Newstead, _Algebraic models of dependent type theory_ ([arXiv:2103.06155](https://arxiv.org/abs/2103.06155)) 
+
 A proof of initiality for dependent type theory is claimed in
 
 * Simon Castellan, _Dependent type theory as the initial category with families_, 2014 ([pdf](http://iso.mor.phis.me/archives/2011-2012/stage-2012-goteburg/report.pdf))
