@@ -137,7 +137,7 @@ Every $A_\infty$-space is [[weak homotopy equivalence|weakly homotopy equivalent
 
 =--
 
-This is a classical result by ([Stasheff](#Stasheff), [BoardmanVogt](#BoardmanVogt)). It follows also as a special case of the more general result on rectification in a [[model structure on algebras over an operad]] (see there). 
+This is a classical result by ([Stasheff 1963](#Stasheff63), [BoardmanVogt](#BoardmanVogt)). It follows also as a special case of the more general result on rectification in a [[model structure on algebras over an operad]] (see there). 
 
 ### In spectra
 
@@ -171,8 +171,7 @@ A survey of $A_\infty$-algebras in chain complexes is in
 
 Classical articles on $A_\infty$-algebra in topological spaces are 
 
-* [[Jim Stasheff]], _Homotopy associativity of H-spaces I_ , Trans. Amer. Math. Soc. 108 (1963), p. 275-292.
-{#Stasheff}
+* {#Stasheff63} [[Jim Stasheff]], *Homotopy associativity of H-spaces I*, Trans. Amer. Math. Soc. 108 (1963), p. 275-292 ([doi:10.1090/S0002-9947-1963-0158400-5](https://doi.org/10.1090/S0002-9947-1963-0158400-5))
 
 * [[Michael Boardman]] and [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological spaces_ , Lect. Notes Math. 347 (1973).
 {#BoardmanVogt}
