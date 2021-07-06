@@ -19,15 +19,13 @@
 
 ## Idea
 
-The concept of a  [[homotopy type]] ([[homotopy n-type]]) all of whose [[homotopy groups]] are [[finite groups]] does not have an established name. Sometimes it is called _$\pi$-finiteness_. In the context of [[groupoid cardinality]] "tameness" is used. In [[homological algebra]] "of [[finite type]]" is used, which in [[homotopy theory]] however badly clashes with the concept of [[finite homotopy type]] which is crucially different from _homotopy type with finite homotopy groups_.
+The concept of a [[homotopy type]] ([[homotopy n-type]]) all of whose [[homotopy groups]] are [[finite groups]] does not have an established name. Sometimes it is called _$\pi$-finiteness_. In the context of [[groupoid cardinality]] "tameness" is used. In [[homological algebra]] "of [[finite type]]" is used, which in [[homotopy theory]] however badly clashes with the concept of [[finite homotopy type]] which is crucially different from _homotopy type with finite homotopy groups_. ([Anel 21](#Anel21)) uses "truncated coherent spaces".
 
 ## Properties
 
 ### (Co-)Limits indexed by homotopy types with finite homotopy groups
 
 see at _[[K(n)-local stable homotopy theory]]_ (...)
-
-
 
 ### Relation to coherent objects
  {#RelationToCoherentObjects}
@@ -40,6 +38,16 @@ see at _[[K(n)-local stable homotopy theory]]_ (...)
 =--
 
 ([[Spectral Schemes|Lurie SpecSchm, example 3.13]])
+
++-- {: .num_prop }
+###### Proposition
+The $(\infty, 1)$-category of homotopy types with finite homotopy groups is the initial [[(∞,1)-pretopos]].
+
+
+=--
+
+([Anel 21, Theorem 2.6.6](#Anel21)).
+
 
 ### Codensity monad of the inclusion into all homotopy types
  {#CodensityMonadOfInclusionIntoAllHomotopyTypes}
@@ -55,6 +63,8 @@ The inclusion of homotopy types with finite groups into all homotopy types gener
 * [[Jean-Louis Loday]], _Spaces with finitely many non-trivial homotopy groups_ (<a href="http://www-irma.u-strasbg.fr/~loday/PAPERS/82Loday(Spaces).pdf">pdf</a>)
 
 * {#Scholze} [[Peter Scholze]], _Infinity-categorical analogue of compact Hausdorff_, [MO answer](https://mathoverflow.net/a/380399/447)
+
+* {#Anel21} [[Mathieu Anel]], _The elementary infinity-topos of truncated coherent spaces_ ([arXiv:2107.02082](https://arxiv.org/abs/2107.02082))
 
 [[!redirects homotopy types with finite homotopy groups]]
 
