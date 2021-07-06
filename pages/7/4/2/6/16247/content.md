@@ -42,6 +42,10 @@ For any irreducible finite representation $R_{\lambda}$ of $\mathcal{g}$,
 $TrR_\lambda(x)R_\lambda(y) = I_\lambda k(x,y)$
 Where $I_\lambda$ is the _Dynkin Index_ of $R_\lambda$.
 
+The Dynkin index can also be defined in terms of the eigenvalue $C_\lambda$ of the quadratic [[Casimir operator]]:
+$ I_\lambda = \frac{dim(R_\lambda)}{dim(\mathcal{g}}C_\lambda $.
+
+
 
 ### Classification of simple Lie groups
 
