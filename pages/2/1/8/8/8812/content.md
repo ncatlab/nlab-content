@@ -65,7 +65,7 @@ For $E$ a [[real vector bundle|real]] [[trivial line bundle]] then the principal
 ## References
 
 
-* [[Nigel Higson]], John Roe, chapter 2.5 of  _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
+* [[Nigel Higson]], [[John Roe]], chapter 2.5 of  _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
 
 * {#Freed} [[Dan Freed]], _Geometry of Dirac operators_ ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf))
  
