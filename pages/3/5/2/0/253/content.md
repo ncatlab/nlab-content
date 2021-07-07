@@ -157,6 +157,10 @@ When we do have a strict 2-category, however, other strict notions can be quite 
 
 * [[pseudofunctor]]
 
+* [[monoidal bicategory]]
+
+* [[closed bicategory]]
+
 
 Discussion about the use of the term "weak enrichment" above is at _[[weak enrichment]]_.
 
