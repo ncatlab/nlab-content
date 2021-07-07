@@ -1,5 +1,10 @@
 
+William G. Dwyer is a mathematician at the University of Notre Dame. 
+
+
 * [website](http://www.nd.edu/~wgd/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/William_Gerard_Dwyer)
 
 ## Selected articles 
 
@@ -7,6 +12,16 @@ On the $G$-[[Borel model structure]] and its [[Quillen equivalence]] with the [[
 
 * {#DDK80} [[Emmanuel Dror]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
 
+On [[simplicial localization]]:
+
+* {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284. ([pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
+  
+* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17&#8211;35. ([pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf))
+  
+* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_, Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
+  
+* {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_, Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983), Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. 1987 .
+  
 
 On (enhancement and generalization of) [[Elmendorf's theorem]] in [[equivariant homotopy theory]]:
 
@@ -44,6 +59,16 @@ On [[homotopy theory]] and [[classifying spaces]]:
 
 * [[Dwyer-Kan loop groupoid]]
 
+
+[[!redirects William Gerard Dwyer]]
+
 [[!redirects W. G. Dwyer]]
 
+[[!redirects William G. Dwyer]]
+
+[[!redirects Bill Dwyer]]
+
+[[!redirects Dwyer]]
+
 category: people
+
