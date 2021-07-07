@@ -9,7 +9,11 @@ In [[computer science]], originally in [[database theory]], a concept called  *l
 
 An insightful explanation and critique of the concept of "lenses" is offered in [Spivak 19](#Spivak19) (exposition in [Spivak ACT19](#SpivakACT19)), where it is argued that the notion may and should be regarded as a small fragment (namely that of [[trivial bundle|trivial]] [[display maps]]) of the general notion of ([[categorical model of dependent types|categorical semantics]] for) [[dependent type theory|dependent types]], such as discussed at *[[hyperdoctrine]]* and related entries.
 
-More recently, lenses have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Spivak ACT19](#SpivakACT19)).
+This perspective, however, it's not the end of the story. Lenses were born as abstract gadgetry to implement bidirectional (i.e. read/write) accessors for data structures, and this idea can be extended in numerous directions. Notably, [[optics (in computer science)|optics]] are a better generalisation of lenses for these uses and indeed emerged first in the [[functional programming]] literature.
+
+In this sense, lenses are but the elementary manifestation of two more interesting mathematical frameworks: [[fibration|fibrations]] and [[optics (in computer science)|optics]] (thus [[Tambara module|Tambara modules]]).
+
+More recently, lenses and optics (including both the dependent and non-dependent versions) have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Hedges 21](#Hedges21)).
 
 ## Definition
 
@@ -61,7 +65,7 @@ $$
 $$
 
 \begin{remark}
-Crucially, associativity of this composition relies on naturality of the diagonals $\Delta$, which is a distinctively cartesian feature. [[optic (in computer science)|Optics]] are a sweeping generalization of lenses which overcomes this obstacle.
+Crucially, associativity of this composition relies on [[monoidal category with diagonals|naturality of the diagonals]], which is a given in cartesian categories but not in more general monoidal categories. [[optic (in computer science)|Optics]] are a sweeping generalization of lenses which overcomes this obstacle.
 \end{remark}
 
 Moreover, the [[cartesian product]] of $\mathbf C$ endows $\mathrm{Lens}(\mathbf{C})$ of a [[monoidal product]].
@@ -168,6 +172,8 @@ An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' s
 * {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, talk at [ACT 19](http://www.cs.ox.ac.uk/ACT2019/) ([slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf), [[Spivak_Lenses.pdf:file]]) 
 
 * {#MyersSpivak} [[David Myers]], [[David Spivak]], _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
+
+* {#Hedges21} [[Jules Hedges]], _Lenses as a foundation for cybernetics_, CyberCat seminar, [youtube](https://www.youtube.com/watch?v=WkZPH3Vb5ug&t=1927s)
 
 [[!redirects lenses (in computer science)]]
 
