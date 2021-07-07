@@ -515,6 +515,37 @@ Prop. \ref{PushoutAlongRelativeSullivanModelsPreservesQuasiIsos} comes close to 
 
 =--
 
+#### Change of scalars
+
+\begin{proposition}\label{ExtensionOfScalarsQuillenAdjunction}
+  Let $k$ be a [[field]] of [[characteristic zero]], with 
+  $\mathbb{Q} \xhookrightarrow{i} k$ the corresponding inclusion of the [[rational numbers]]. Then the iduced [[extension of scalars]]$\;\dashv\;$[[restriction of scalars]]-[[adjunction]]
+
+$$
+  \big(
+    dgcAlg^{\geq 0}_k
+  \big)_{proj}
+    \underoverset
+      {\underset{res_{\mathbb{Q}}}{\longrightarrow}}
+      {\overset{ (-) \otimes_{\mathbb{Q}} \mathbb{R} }{\longleftarrow}}
+      {\bot_{\mathrlap{Qu}}}
+  \big(
+    dgcAlg^{\geq 0}_{\mathbb{Q}}  
+  \big)_{proj}
+$$
+
+is a [[Quillen adjunction]] between the respective projective model categories (Def. \ref{ProjectiveModelStructureOnCdgAlg}).
+
+\end{proposition}
+([Bousfield & Gugenheim 1976, Lemma 11.6](#BousfieldGugenheim76))
+\begin{proof}
+  It is immediate that [[restriction of scalars]] is a [[right Quillen functor]]: 
+
+1. It preserves [[fibrations]], since these are the [[surjections]] of underlying sets, and restriction of scalars does not change the underlying sets.
+
+1. It preserves [[weak equivalences]], since these are the [[isomorphisms]] on [[cochain cohomology]] [[cohomology groups|groups]] of underlying [[cochain complexes]], and, again, restriction of scalars does not change the underlying sets of the underlying cochain complexes.
+
+\end{proof}
 
 #### Commutative vs. non-commutative dg-algebras 
  {#CommVsNoncomm}
