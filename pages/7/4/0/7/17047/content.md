@@ -26,7 +26,7 @@
 
 _Inductive families_ generalize [[inductive types]]. Instead of defining a single type inductively, one simultaneously defines a whole family of types. An alternative term is "indexed inductive definition".
 
-A simple example of an inductive family is the type of vectors Vect n indexed by the dimension n. This is defined by two constructors: one for the empty vector of dimension 0, and another for the operation which constructs a vector of dimension n+1 by adding a component to a vector of dimension n. The family of finite types Fin n (indexed by n) can also be defined as an inductive family: the constructor 0 is in any Fin n, and there is a successor operation which constructs an element in Fin (n+1) from an element in Fin n.
+A simple example of an inductive family is the type of vectors Vect n indexed by the dimension n. This is defined by two constructors: one for the empty vector of dimension 0, and another for the operation which constructs a vector of dimension n+1 by adding a component to a vector of dimension n. The family of [[finite type|finite types]] Fin n (indexed by n) can also be defined as an inductive family: the constructor 0 is in any Fin n, and there is a successor operation which constructs an element in Fin (n+1) from an element in Fin n.
 
 By the identification of [[propositions as types]], inductive families correspond to inductively defined predicates. For example, the [[identity type]] on a type A can be defined inductively by the reflexivity rule stipulating that a is identical to a for any a : A, that is, identity is the least reflexive relation. The identity family of types in intuitionistic type theory results from the identification of this relation with a family of types.
 
