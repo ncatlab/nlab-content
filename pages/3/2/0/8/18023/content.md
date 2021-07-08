@@ -79,7 +79,7 @@ Theorem \ref{RationalStableDoldKanCorrespondence} parallels that of classical [[
 +-- {: .num_theorem #ClassicalRationalHomotopyTheory}
 ###### Theorem
 
-There is an [[equivalence of (infinity,1)-categories|equivalence of homotopy theories]] between the [[homotopy theory]] of [[nilpotent topological space|nilpotent]] [[rational topological spaces]] of [[finite type]] with that of cochain [[dgc-algebras]] over $\mathbb{Q}$ in non-negative degree
+There is an [[equivalence of (infinity,1)-categories|equivalence of homotopy theories]] between the [[homotopy theory]] of [[nilpotent topological space|nilpotent]] [[rational topological spaces]] [[of finite type]] with that of cochain [[dgc-algebras]] over $\mathbb{Q}$ in non-negative degree
 
 $$
   \infty Grpd_{\mathbb{Q}, nil,fin}
