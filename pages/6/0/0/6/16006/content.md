@@ -19,7 +19,7 @@
 
 For $\mathbf{H}$ a [[topos]], then an [[essential subtopos]]  $\mathbf{H}_l \hookrightarrow \mathbf{H}$ is called a _level_ of $\mathbf{H}$. This is equivalently the inclusion of the [[right adjoint]] of an [[adjoint cylinder]]/[[adjoint modality]].
 
-The terminology is due to the fact ([Kelley-Lawvere 89](#KL89)) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos, or more generally the essential localizations of a suitably complete category, form a [[complete lattice]]. 
+The terminology is due to the fact ([Kelly-Lawvere 89](#KL89)) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos, or more generally the essential localizations of a suitably complete category, form a [[complete lattice]]. 
 
 If for two levels $\mathbf{H}_{1} \hookrightarrow \mathbf{H}_2$ the second one includes the [[modal types]] of the [[idempotent comonad]] of the first one, and if it is minimal with this property, then [[Lawvere]] speaks of "[[Aufhebung]]" (see there for details) of the [[unity of opposites]] exhibited by the first one.
 
@@ -41,7 +41,7 @@ If for two levels $\mathbf{H}_{1} \hookrightarrow \mathbf{H}_2$ the second one i
 
 ## Properties
 
-The lattice of essential localizations of a category is contained in the lattice of all localizations. While the suprema of localizations coincide in both lattices, the infinimum in the lattice of all localizations of even a pair of essential localizations need _not_ be an essential localization  ([Kelley-Lawvere 89](#KL89)).
+The lattice of essential localizations of a category is contained in the lattice of all localizations. While the suprema of localizations coincide in both lattices, the infinimum in the lattice of all localizations of even a pair of essential localizations need _not_ be an essential localization  ([Kelly-Lawvere 89](#KL89)).
 
 Recall (e.g. from [Borceux 1994](#Borceux1), p.106) that [[adjunction|adjunctions]] compose: if $G\dashv F:\mathcal{A}\to\mathcal{B}$ and $K\dashv H:\mathcal{B}\to\mathcal{C}$ then $G\circ K \dashv H\circ F:\mathcal{A}\to\mathcal{C}$. Applying this twice to a pair of essential localizations yields:
 
