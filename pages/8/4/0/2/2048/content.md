@@ -31,7 +31,7 @@ Let $(X,\mathcal{O})$ be a [[ringed space]] or, more generally, a [[ringed site]
 
 A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
 
-*  __finitely generated__, or of __finite type__ , if every point $x \in X$ has an open neighbourhood such that there is a surjective morphism 
+*  __finitely generated__, or __[[of finite type]]__ , if every point $x \in X$ has an open neighbourhood such that there is a surjective morphism 
 
    $$\mathcal{O}^n|_U \to \mathcal{E}|_U$$ 
 
