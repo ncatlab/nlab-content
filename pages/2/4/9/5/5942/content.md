@@ -54,7 +54,6 @@ Introductory disucssoon over the [[complex numbers]] (with an eye towards [[GAGA
 
 
 [[!redirects locally of finite type]]
-[[!redirects finite type]]
 
 [[!redirects morphisms of finite type]]
 
