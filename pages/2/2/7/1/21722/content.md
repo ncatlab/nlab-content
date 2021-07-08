@@ -59,9 +59,9 @@ for the [[full subcategory]] of the [[homotopy category of a model category|homo
 
 * [[connected topological space|connected]]: $\pi_0(X^H) = \ast$
 
-* [[simply connected topological space|simply connected]]: $\pi_1(X^H) = 1$ is the [[trivial group]]
+* [[simply connected topological space|simply connected]]: $\pi_1(X^H) = 1$ is the [[trivial group]];
 
-* rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X^H;,\mathbb{Q}) \big) \lt \infty$ for all $n \in \mathbb{N}$.
+* rationally [[of finite type]]: $dim_{\mathbb{Q}}\big( H^n(X^H;,\mathbb{Q}) \big) \lt \infty$ for all $n \in \mathbb{N}$.
 
 and
 
