@@ -31,7 +31,7 @@ The generalization of the concept of _[[nilpotent Lie algebra]]_ from [[Lie alge
 
 ### Rational homotopy theory
 
-The central theorem of [[rational homotopy theory]] says that the [[homotopy theory]] of  nilpotent $L_\infty$-algebras of [[finite type]] over the [[rational numbers]] is equivalently that of [[rational topological spaces|rational]] [[nilpotent topological spaces]] of [[finite type]].
+The central theorem of [[rational homotopy theory]] says that the [[homotopy theory]] of  nilpotent $L_\infty$-algebras [[of finite type]] over the [[rational numbers]] is equivalently that of [[rational topological spaces|rational]] [[nilpotent topological spaces]] of [[finite type]].
 
 
 ## References
