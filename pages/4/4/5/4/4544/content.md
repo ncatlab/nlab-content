@@ -1,5 +1,6 @@
 
-> This entry is about finite types in [[homological algebra]] and [[rational homotopy theory]]. For finite types in [[type theory]] and [[homotopy type theory]] see *[[inductive family]]*.
+> This entry is about "objects of finite type" in [[algebra]], [[homological algebra]] and [[rational homotopy theory]]. For [[finite homotopy types]] and [[π-finite homotopy types]] in [[homotopy theory]] see there. For related notions in [[category theory]] see at *[[compact object]]*.
+For finite [[types]] in [[type theory]] and in [[homotopy type theory]] see at *[[inductive family]]*. For more disambigation see at *[[finite type]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,7 +16,7 @@
 =--
 =--
 
-See also _[[compact object]]_.
+
 
 ## Contents
 * table of contents
@@ -74,4 +75,11 @@ See also/instead at _[[finite spectrum]]_.
 ## References
 
 * [[Nicolae Popescu]], _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+
 * MathOverflow [m-oplus-n-is-of-finite-type-if-m-n-are-of-finite-type](http://mathoverflow.net/questions/46136/m-oplus-n-is-of-finite-type-if-m-n-are-of-finite-type)
+
+[[!redirects objects of finite type]]
+
+[[!redirects of finite type]]
+
+
