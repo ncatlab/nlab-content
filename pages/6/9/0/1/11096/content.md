@@ -54,6 +54,11 @@ The $(\infty, 1)$-category of homotopy types with finite homotopy groups is the 
 
 The inclusion of homotopy types with finite groups into all homotopy types generates a [[codensity monad]] whose algebras lie somewhere between [[totally disconnected]] compact Hausdorff [[condensed mathematics|condensed]] $\infty$-groupoids, and all compact Hausdorff condensed $\infty$-groupoids. (See [Scholze](#Scholze) for more details.)
 
+## Related concepts
+
+* [[finite homotopy type]]
+
+* [[finite type]]
 
 
 ## References
@@ -72,3 +77,11 @@ Discussion as an [[elementary (∞,1)-topos]]:
 
 [[!redirects tame homotopy type]]
 [[!redirects tame homotopy types]]
+
+[[!redirects π-finite homotopy type]]
+[[!redirects π-finite homotopy types]]
+
+[[!redirects pi-finite homotopy type]]
+[[!redirects pi-finite homotopy types]]
+
+
