@@ -40,7 +40,7 @@ Similarly a [[spectrum]] ([[stable homotopy type]]) given by a sequence of finit
 +-- {: .num_remark}
 ###### Remark
 
-Beware that a finite homotopy type in general does not have finite and finitely many [[homotopy groups]] (see e.g. at [[homotopy groups of spheres]]). Homotopy types with finite and finitely many homotopy groups have alternatively been called _$\pi$-finite_, or _[[groupoid cardinality|tame]]_, or (adapted from [[homological algebra]]) "of [[finite type]]" (which needs to be carefully distinguishes, therefore, from "finite homotopy type"). 
+Beware that a finite homotopy type in general does not have finite and finitely many [[homotopy groups]] (see e.g. at [[homotopy groups of spheres]]). Homotopy types with finite and finitely many homotopy groups have alternatively been called _$\pi$-finite_, or _[[groupoid cardinality|tame]]_, or (adapted from [[homological algebra]]) "[[of finite type]]" (which needs to be carefully distinguishes, therefore, from "finite homotopy type"). 
 See at _[[homotopy type with finite homotopy groups]]_.
 
 =--
@@ -53,6 +53,8 @@ The [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]
 
 
 ## Related concepts
+
+* [[π-finite homotopy type]], [[finite type]]
 
 * [[finite set]], [[hereditarily finite set]]
 
@@ -67,7 +69,6 @@ The [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]
 * [[(infinity,1)-presheaves]] on $\infty Grpd_{fin}^{op}$ form the [[classifying (infinity,1)-topos]] for objects.
 
 ## References
-
 
 * [[Doug Ravenel]], _The stable homotopy theory of finite complexes_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ (1995)
 
