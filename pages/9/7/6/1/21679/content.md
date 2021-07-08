@@ -253,7 +253,7 @@ $$
 $$
 in that the following holds:
 
-\begin{proposition}
+\begin{proposition}\label{DerivedPLdeRhamFunctorsRelatedByChangeOfScalars}
   For $k$ be a [[field]] of [[characteristic zero]], the following [[diagram]] of [[derived functors]] [[commuting diagram|commutes]] up to [[natural isomorphism]]:
 
 \begin{tikzcd}
@@ -322,6 +322,123 @@ in that the following holds:
 
 This is effectivley the statement of [Bousfield&Gugenheim 1976, Lem. 11.7](#BousfieldGugenheim76).
 
+This state of affairs may be recast as follows ([FSS 2020](#FSS20)):
+
+For any [[field]] $k$ of [[characteristic zero]], abbreviate
+
+$$
+  L_k 
+  \;\coloneqq\;
+  \mathbb{R} exp_{\mathrm{P}k\mathrm{L}}
+    \circ
+  \mathbb{L} \Omega^\bullet_{\mathrm{P}kLdR}
+  \,,
+$$
+
+keeping in mind that this is a localization of spaces only if $k = \mathbb{Q}$.
+
+Then for $X, A \in Ho(sSet)^{fin_{\mathbb{Q}}}_{\geq 1, nil}$ a [[pair]] of [[connected homotopy type|connected]] [[nilpotent homotopy type|nilpotent]] [ℚ-finite](finite+type#InRationalHomotopyTheory) [[homotopy types]], define the *$k$-[[Chern-Dold character]]* on the [[non-abelian cohomology|non-abelian]] $A$-cohomology of $X$ to be the [[cohomology operation]] induced by the [[derived adjunction unit]] of the [[PL de Rham complex|PL de Rham adjunction]] ([this Prop.](PL+de+Rham+complex#QuillenAdjunctionBetweenSimplicialSetsAndConnectivedgcAlgebras)):
+
+\[
+  \label{ChernDoldCharacter}
+  ch^k_A(X)
+  \;\colon\;
+  H(X;\, A)
+  \;\xrightarrow{ 
+    \;\;
+    H(X;\, \mathbb{D}\eta^{\mathrm{P}k\mathrm{L}_A}) 
+    \;\;
+  }\;
+  H(X;\, L_k A)  
+  \,.
+\]
+
+Moreover, define *extension of scalars on [[non-abelian cohomology|non-abelian]] [[rational cohomology]]* to be the comoposite
+
+\[
+  \label{ExtensionOfScalarsOnChomolology}
+  \array{
+    H(X;\, L_{\mathbb{Q}}A)
+    &\xrightarrow{ (-) \otimes_{{}_{\mathbb{Q}}} k   }&
+    H(X;\, L_{k}A)    
+    \\
+    {}^{\mathllap{
+      \widetilde{(-)}
+    }}
+    \big\downarrow {}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{\simeq}}
+    \big\uparrow 
+    {}^{\mathrlap{
+      \widetilde{(-)}
+    }}
+    \\
+    H
+    \big(
+      \mathbb{D}\Omega^\bullet_{\mathrm{P}\mathbb{Q}\mathrm{LdR}}(X);
+      \,
+      \mathbb{D}\Omega^\bullet_{\mathrm{P}\mathbb{Q}\mathrm{LdR}}(A)
+    \big)
+    &
+    \xrightarrow{
+      \mathbb{D}
+      \big(
+        (-) \otimes_{{}_{\mathbb{Q}}} k
+      \big)
+    }
+    &
+    H
+    \big(
+      \mathbb{D}\Omega^\bullet_{\mathrm{P}k\mathrm{LdR}}(X);
+      \,
+      \mathbb{D}\Omega^\bullet_{\mathrm{P}k\mathrm{LdR}}(A)
+    \big)    
+  }
+\]
+
+(where $H(-;\,-) \coloneqq Ho(-,\,-)$ denotes [[hom-sets]] in the respective [[homotopy category of a model category|homotopy category]])
+
+of:
+
+1. the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the [[derived adjunction|derived]] [[PL de Rham complex|PL de Rham adjunction]];
+
+1. the corresponding hom-component of the [[derived functor]] of [[extension of scalars]] ([this Prop.](model+structure+on+dg-algebras#ExtensionOfScalarsQuillenAdjunction)).
+
+(This is essentially the construction of "tensoring a homotopy type with $\mathbb{R}$" that is mentioned in [DGMS 1975, Footnote 5](#DGMS75).)
+
+Then:
+
+\begin{prop}\label{kChernDoldCharacterFactorsThroughRationalChernDoldCharacter}
+  The $k$-Chern-Dold character (eq:ChernDoldCharacter)
+  factors through the rational Chern-Dold character via the extension-of-scalars-transformation (eq:ExtensionOfScalarsOnChomolology).
+
+$$
+  ch^k_A(X)
+  \;=\;
+  \big(
+    (-)\otimes_{{}_{\mathbb{Q}}} k
+  \big)
+  \,\circ\, 
+  ch^{\mathbb{Q}}_A(X)
+  \,.
+$$
+\end{prop}
+\begin{proof}
+Consider the following [[diagram]] of [[hom-sets]] (shown for $k = \mathbb{R}$, just for definiteness):
+
+<img src="https://ncatlab.org/nlab/files/RationalAndRealCharacterMap20210708.jpg" width="740">
+
+Here:
+
+* the [[commuting diagram|commutativity]] of the bottom part is Prop. \ref{DerivedPLdeRhamFunctorsRelatedByChangeOfScalars};
+
+* the triangle on the left as well as as the outer diagram [[commuting diagram|commute]] by basic properties of [[adjoint functors]] ([this Lemma](geometry+of+physics+--+categories+and+toposes#ReExpressingMiddleFunctorInAdjointTriple));
+
+* the square on the right commutes by definition (eq:ExtensionOfScalarsOnChomolology);
+
+Together this implies that the top rectangle commutes, which is the claim to be shown.
+\end{proof}
+
 ## Related concepts
 
 * [[fundamental theorem of equivariant dg-algebraic rational homotopy theory]]
@@ -330,7 +447,19 @@ This is effectivley the statement of [Bousfield&Gugenheim 1976, Lem. 11.7](#Bous
 
 ## References
 
+The full-blown equivalence first appears in
+
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+
+Related discussion over the [[real numbers]]:
+
+* {#DGMS75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], *Real homotopy theory of Kähler manifolds*, 
+Inventiones mathematicae volume 29, pages 245–274 (1975) ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
+
+Review and interpretation in terms of [[non-abelian cohomology|non-abelian]] [[Chern-Dold character]]-theory:
+
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]*
+
 
 
 [[!redirects fundamental theorem of dgc-algebraic rational homotopy theory]]
