@@ -113,7 +113,7 @@ The relation between these algebras is that the Sullivan algebras are the cofibr
 
 * _[Homotopy theory](#HomotopyTheory)_
 
-Finally we state and discuss the main theorem, that the construction of dg-algebras of [piecewise polynomial differential forms]] on a topological space exhibits an [[equivalence of categories|equivalence]] between the [[homotopy theory]] of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] and that of [[minimal Sullivan algebras]]:
+Finally we state and discuss the main theorem, that the construction of dg-algebras of [piecewise polynomial differential forms]] on a topological space exhibits an [[equivalence of categories|equivalence]] between the [[homotopy theory]] of [[simply connected topological space|simply connected]] [[rational topological spaces]] [[of finite type]] and that of [[minimal Sullivan algebras]]:
 
 * _[The rationalization adjunction](#SullivanRationalizationAdjunction)_
 
