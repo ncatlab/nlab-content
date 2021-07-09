@@ -13,7 +13,7 @@ A **closed symmetric bicategory** is a symmetric bicategory that is [[closed bic
 
 A symmetric bicategory is a [[horizontal categorification]] of a [[symmetric monoidal category]]. It is not to be confused with a symmetric [[monoidal bicategory]], which is a [[vertical categorification]] of the same concept.
 
-Note, however, that one-object symmetric bicategories are more expressive than symmetric monoidal categories: a symmetric bicategory with a single object $A$ is a symmetric monoidal category if and only if $t$ is the identity.
+Note, however, that one-object symmetric bicategories are more expressive than [[symmetric monoidal categories]]: a symmetric bicategory with a single object $A$ is a symmetric monoidal category if and only if $t$ is the identity.
 
 ## Examples
 
