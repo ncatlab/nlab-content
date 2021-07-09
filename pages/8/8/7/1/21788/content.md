@@ -67,7 +67,7 @@ on those elements which satisfy the _rotation condition_:
 
 {#RotationConditionImpliedByHuanInertiaEquivariance} This rotation condition may be understood more intrinsically 
 (this is made explicit on [p. 63](https://arxiv.org/pdf/1912.02374.pdf#page=69) of [Dove 19](#Dove19))
-as that in implied by the [[orbifold K-theory]] on [[Huan's inertia orbifold]], induced by the nature of the quotient groups
+as that in implied by the [[orbifold K-theory]] on [[Huan's inertia orbifold]] ([Huan 18](#Huan18)), induced by the nature of the quotient groups
 $$
   \Lambda_g \;\coloneqq\; \frac{C_g \times \mathbb{R}}{ \langle (g^{-1},1) \rangle }
 $$
