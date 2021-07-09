@@ -48,7 +48,7 @@ A discussion of some of these issues using tools from [[(infinity,1)-category th
 
 See also
 
-* John Lind, _Bundles of spectra and algebraic K-theory_ ([arXiv:1304.5676](http://arxiv.org/abs/1304.5676))
+* [[John Lind]], _Bundles of spectra and algebraic K-theory_ ([arXiv:1304.5676](http://arxiv.org/abs/1304.5676))
 
 A general abstract context for parameterized spectra are [[tangent (infinity,1)-toposes]].
 
