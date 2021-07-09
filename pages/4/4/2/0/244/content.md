@@ -229,6 +229,8 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
 * [[equivariant symmetric monoidal category]]
 
+* [[symmetric bicategory]]
+
 ## References
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
