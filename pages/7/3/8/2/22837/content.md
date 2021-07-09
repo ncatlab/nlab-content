@@ -301,7 +301,7 @@ A [[point-set topology|point-set argument]] for [[topological spaces]]/[[topolog
 
 ## Examples
 
-### Discrete (finite) groups
+### For discrete (finite) groups
  {#ExampleDiscreteGroups}
 
 \begin{example}\label{FreeLoopSpaceOfDeloopingOfDiscreteGroup}
@@ -391,10 +391,136 @@ $$
 
 This simple example essentially re-appears in the discussion of [[inertia groupoids]].
 
+### For simplicial abelian groups
+ {#ExampleForSimplicialAbelianGroups}
 
+As a direct corollary of the general statement we have:
 
+\begin{prop}\label{FreeLoopSpaceOfClassifyingSpaceOfSimplicialAbelianGroup}
+  For $\mathcal{A} \in AbGroup(sSet)$ 
+  a [[simplicial group|simplicial]] [[abelian group]], 
+  the 
+  [[homotopy type]] of the
+  [[free loop space]] of its [[simplicial classifying space]]
+  is the [[homotopy product]] ([[Cartesian product]]) of $\mathcal{A}$ with its [[delooping]]:
+  $$
+    \big[
+      \mathbf{B}\mathbb{Z},
+      \,
+      \mathbf{B}\mathcal{A}
+    \big]
+    \;\;
+    \simeq
+    \;\;
+    \mathcal{A} \,\times\, \mathbf{B}\mathca;{A}
+    \,.
+  $$
+\end{prop}
+\begin{proof}
+This is the composite of the following sequence of equivalences ([[isomorphisms]] in the [[classical homotopy category]]):
+$$
+  \begin{aligned}
+    \big[
+      \mathbf{B}\mathbb{Z},
+      \,
+      \mathbf{B}\mathcal{A}
+    \big]
+    &
+    \;\simeq\;
+    \frac{
+      \mathcal{A}_{\mathrm{ad}}
+        \times
+      W\mathcal{A} 
+    }{ \mathcal{A} }
+    \\
+    & \;\simeq\;
+    \frac{
+      \mathcal{A}_{\mathrm{triv}}
+      \times
+      W\mathcal{A}      
+    }{ \mathcal{A} }    
+    \\
+    & \;\simeq\;
+    \mathcal{A}
+      \times
+    \frac{
+      W\mathcal{A}
+    }{ \mathcal{A} }
+    \\
+    & \;\simeq\;
+    \mathcal{A}
+    \times
+    \overline{W}\mathcal{A}
+    \\
+    & \;\simeq\;
+    \mathcal{A} \times \mathbf{B}\mathcal{A}
+  \end{aligned}
+$$
 
+Here:
 
+* the first step is Prop. \ref{FreeLoopSpaceOfSimplicialClassifyingSpaceAsAdQuotient};
+
+* the second step observes that for [[abelian groups]] the [[adjoint action]] (eq:ConjugationAction) is actually the [[trivial action]];
+
+* the third step is the evident consequence for the [[quotient]];
+
+* the fourth step is the definition of the [[simplicial classifying space]];
+
+* the last step is the identification of the simplicial classifying space with the [[delooping]] as [[∞-groups]].
+
+\end{proof}
+
+As an immediate special cases of Prop. \ref{FreeLoopSpaceOfClassifyingSpaceOfSimplicialAbelianGroup} we have:
+
+\begin{example}\label{FreeLoopSpaceOfEilenbergMacLaneSpaces}
+**([[free loop space]] of [[Eilenberg-MacLane spaces]])** \linebreak
+
+For $n \in \mathbb{N}$ and 
+
+$$
+  \mathbf{B}^{n+1}
+  \mathbb{Z}
+  \;\simeq\;
+  &#643; \mathbf{B}^n S^1
+$$
+
+the [[shape modality|shape]] of the [[circle n-group|circle (n+1)-group]], we have
+
+$$
+  \mathcal{L} \mathbf{B}^{n+1}\mathbb{Z}
+    \;\simeq\;
+  \mathbf{B}^n\mathbb{Z} 
+    \,\times\, 
+  \mathbf{B}^{n+1} \mathbb{Z}
+  \,.
+$$
+
+More generally, for $A \in AbGroups(Set)$ any [[discrete group|discrete]] [[abelian group]] we have
+
+$$
+  \mathcal{L} \mathbf{B}^{n+1}A
+  \;\simeq\;
+  \mathbf{B}^n A 
+    \,\times\, 
+  \mathbf{B}^{n+1}A
+  \,,
+$$
+
+where  the $n$-fold [[delooping]]
+
+$$
+  \mathbf{B}^n A
+  \;\simeq\;
+  K(n,A)
+$$
+
+is equivalently the [[homotopy type]] of the [[Eilenberg-MacLane space]] for $A$ in degree $n$ (classifying [[ordinary cohomology]] in degree $n$ with [[coefficients]] in $A$).  
+\end{example}
+
+\begin{remark}
+  Example \ref{FreeLoopSpaceOfEilenbergMacLaneSpaces} pertains to the discussion of [[double dimensional reduction]] of brane charges in [[ordinary cohomology]] by the discussion [here](geometry+of+physics+--+fundamental+super+p-branes#DoubleDimensionalReductionViaCyclification) at *[[geometry of physics -- fundamental super p-branes]]*.
+\end{remark}
 
 ## Related concepts
 
