@@ -383,13 +383,16 @@ $$
     \mathbf{B}G
   \big]
   \;\simeq\;
-  G \sslash_{ag} G
+  G \sslash_{ad} G
   \,.
 $$
 
 \end{example}
 
 This simple example essentially re-appears in the discussion of [[inertia groupoids]].
+
+Discussion includes [Willerton 2008, ](#Willerton08).
+
 
 ### For simplicial abelian groups
  {#ExampleForSimplicialAbelianGroups}
@@ -548,6 +551,10 @@ An abstract proof in the [above](#ForSimplicialSets) style, for [[topological gr
 See also:
 
 * {#MODiscussion} MathOverflow discussion [MO/q/20671](https://mathoverflow.net/q/20671/381)
+
+The special case of [[discrete group|discrete]]/[[finite grouos]] is discussed in some form also in 
+
+* {#Willerton08} [[Simon Willerton]], *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 ([arXiv:math/0503266](https://arxiv.org/abs/math/0503266))
 
 Discussion in the generality of [[∞-groups]] in [[(∞,1)-toposes]] and defining the [[adjoint action]] in this generality:
 
