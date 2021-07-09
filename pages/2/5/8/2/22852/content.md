@@ -21,6 +21,12 @@ Related concepts:
 
 * [[finite object]]
 
+* [[finitely generated object]], [[finitely presented object]]
+
+* ([[fully dualizable object|fully]]-)[[dualizable object]]
+
+  [[perfect module]]
+
 * [[compact object]]
 
 * [[finite category]], [[finite graph]]
