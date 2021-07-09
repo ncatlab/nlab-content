@@ -47,7 +47,8 @@ For formalizations see at
 
 A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]] is in
 
-* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_, 2006
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+
   
 A formulation of aspects of this in [[(∞,1)-category theory]] is in 
 
