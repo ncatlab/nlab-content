@@ -87,6 +87,8 @@ In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 
 * [[formal neighbourhood of the diagonal]]
 
+* [[diagonal of a bisimplicial set]]
+
 
 [[!redirects diagonal]]
 [[!redirects diagonals]]
