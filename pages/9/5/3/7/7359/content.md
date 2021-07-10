@@ -16,6 +16,10 @@ On the [[twisted Chern character]] in [[orbifold K-theory]]:
 
 * [[Jean-Louis Tu]], [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics Volume 207, Issue 2, 20 December 2006, Pages 455-483 ([arXiv:math/0505267](https://arxiv.org/abs/math/0505267), [doi:10.1016/j.aim.2005.12.001](https://doi.org/10.1016/j.aim.2005.12.001))
 
+On the [[cohomology ring]]-structure of [[twisted equivariant K-theory]]:
+
+* [[Jean-Louis Tu]], [[Ping Xu]], *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
+
 
 
 category: people
