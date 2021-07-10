@@ -1,5 +1,5 @@
 
-> this entry is about the _signature_ of a [[permutation]]. For other notions of [[signature]] see there.
+> This entry is about the _signature_ of a [[permutation]]. For other notions of [[signature]] see there.
 
 #Contents#
 * table of contents
