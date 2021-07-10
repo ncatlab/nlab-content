@@ -173,7 +173,7 @@ Foundational articles:
 
 * [[B. L. Tsygan]], _The homology of matrix Lie algebras over rings and the Hochschild homology_, Uspekhi Mat. Nauk, 38:2(230) (1983), 217&#8211;218.
 
-* [[Jean-Louis Loday]], [[Daniel Quillen]], _Cyclic homology and the Lie algebra homology of matrices_, Comment. Math. Helvetici 59 (1984) 565-591.
+* [[Jean-Louis Loday]], [[Daniel Quillen]], _Cyclic homology and the Lie algebra homology of matrices_, Comment. Math. Helvetici 59 (1984) 565-591 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
 * [[Christian Kassel]], _Cyclic homology, comodules and mixed complexes_, J. Alg. 107 (1987), 195&#8211;216 (<a href="https://doi.org/10.1016/0021-8693(87)90086-X">doi:10.1016/0021-8693(87)90086-X</a>)
 
