@@ -622,7 +622,7 @@ and the category of Grothendieck fibrations in groupoids is replaced by the mode
 
 In this case there is not one, but two different functors that generalize the Grothendieck construction.
 
-The first functor $h_!$ is a [[left adjoint]], it implements the [[homotopy colimit]] using the [[diagonal]] of a [[bisimplicial set]],
+The first functor $h_!$ is a [[left adjoint]], it implements the [[homotopy colimit]] using the [[diagonal of a bisimplicial set]],
 and the second functor $r^*$ is a [[right adjoint]], it uses the [[codiagonal]] (also known as the [[totalization]]) of a bisimplicial set.
 Both functors fit into [[adjunctions]] $h_!\dashv h^*$ and $r_!\dashv r^*$,
 where the other two adjoints can be seen as rectification functors:
