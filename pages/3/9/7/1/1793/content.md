@@ -1107,17 +1107,20 @@ Finally a third approach to the unbounded case is discussed in
 
 A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex is in
 
-* [[Rick Jardine]], _Presheaves of chain complexes_ ([ps](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.6884&rep=rep1&type=ps))
+* [[J. F. Jardine]], _Presheaves of chain complexes_ ([ps](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.6884&rep=rep1&type=ps))
 
 A model structure on noncommutative [[dg-algebra]]s whose proof strategy is useful also for cochain complexes is in
 
-* [[Rick Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58.
+* [[J. F. Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58.
 
 
 [[!redirects model structures on chain complexes]]
 
 [[!redirects model structure on cochain complexes]]
 [[!redirects model structures on cochain complexes]]
+
+[[!redirects model structure on connective chain complexes]]
+[[!redirects model structures on connective chain complexes]]
 
 
 [[!redirects model structure on unbounded chain complexes]]
@@ -1127,3 +1130,5 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 [[!redirects injective model structure on chain complexes]] 
 
 [[!redirects injective model structure on connective cochain complexes]]
+
+
