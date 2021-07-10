@@ -217,11 +217,11 @@ which is difficult to define directly because of the complications of the tensor
 
 The Eilenberg-Zilber map was introduced in:
 
-* [[Samuel Eilenberg]], [[Saunders MacLane]], (5.3) of: *On the groups $H(\Pi,n)$*, I, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor:1969820](https://www.jstor.org/stable/1969820))
+* [[Samuel Eilenberg]], [[Saunders MacLane]], (5.3) of: *On the groups $H(\Pi,n)$*, I*, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor:1969820](https://www.jstor.org/stable/1969820))
 
 following the [[Eilenberg-Zilber theorem]] of
 
-* [[Samuel Eilenberg]], [[Joseph A. Zilber]], American Journal of Mathematics Vol. 75, No. 1 (Jan., 1953), pp. 200-204 ([jstor:2372629](https://www.jstor.org/stable/2372629), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
+* [[Samuel Eilenberg]], [[Joseph A. Zilber]], *On Products of Complexes*, American Journal of Mathematics Vol. 75, No. 1 (Jan., 1953), pp. 200-204 ([jstor:2372629](https://www.jstor.org/stable/2372629), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
 
 Review and further discussion:
 
@@ -233,8 +233,9 @@ Review and further discussion:
 
 * [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
 
-* [[Tim Porter]], section 11.2 of _[[Crossed Menagerie]]_,
+* [[Tim Porter]], Section 11.2 of: _[[Crossed Menagerie]]_,
 
+* [[Kerodon]], *The Eilenberg-Zilber Homomorphism* ([00RS](https://kerodon.net/tag/00RS))
 
 The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
 
