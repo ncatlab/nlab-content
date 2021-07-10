@@ -66,7 +66,7 @@ The [[homology groups]] by an [[Eilenberg-Moore spectral sequence]].
 
 Formally the dual to totalization is [[geometric realization]]: where totalization is the [[end]] over a [[power]]ing with $\Delta$, realization is the [[coend]] over the [[tensoring]].
 
-But various other operations carry names similar to "totalization". For instance a [[total chain complex]] is related under [[Dold-Kan correspondence]] to the [[diagonal]] of a [[bisimplicial set]] -- see [[Eilenberg-Zilber theorem]]. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the operation that is often called $Tot$ and called the _total simplicial set_ of a bisimplicial set.
+But various other operations carry names similar to "totalization". For instance a [[total chain complex]] is related under [[Dold-Kan correspondence]] to the [[diagonal of a bisimplicial set]] -- see at *[[Eilenberg-Zilber theorem]]*. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the operation that is often called $Tot$ and called the _total simplicial set_ of a bisimplicial set.
 
 To a cosimplicial chain complex we can assign a double complex by taking the alternating sum of the coface maps. Then the totalization of this cosimplicial object and the totalization of the double complex as defined in homological algebra coincide. Moreover, the associated [[Bousfield-Kan spectral sequence]] and [[spectral sequence of a double complex]] coincide.
 
@@ -94,7 +94,7 @@ Some kind of notes are in
 
 Discussion of totalizations as [[homotopy limits]] includes
 
-* {#Hirschhorn15} [[Philip Hirschhorn]], section 9 of _The diagonal of a multicosimplicial object_ ([arXiv:1506.06837](https://arxiv.org/abs/1506.06837))
+* {#Hirschhorn15} [[Philip Hirschhorn]], Section 9 of: _The diagonal of a multicosimplicial object_ ([arXiv:1506.06837](https://arxiv.org/abs/1506.06837))
 
 * [[Akhil Mathew]], [[Vesna Stojanoska]], _Fibers of partial totalizations of a pointed cosimplicial space_, Proc. Amer. Math. Soc. 144 (2016), no. 1, 445--458 ([arXiv:1408.1665](https://arxiv.org/abs/1408.1665))
 
