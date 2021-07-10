@@ -21,7 +21,7 @@ This page describes aspects of the combinatorics of [[Cartesian products]] of [[
 
 ## Properties
 
-+-- {: .un_definition}
++-- {: .num_definition}
 ###### Notation
 
 For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
@@ -48,7 +48,7 @@ where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 The non-degenerate simplices in the [[product]] 
 $$
@@ -149,7 +149,7 @@ $$\begin{matrix}
 
 ###The poset of $(p,q)$-shuffles###
 
-Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-shuffles.  
+Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-[[shuffles]].  
 
 ####Easy examples
 
@@ -164,7 +164,7 @@ $$\begin{matrix} (0\lt 1)&-&(0\lt 2)&-&(1\lt 2)\end{matrix}$$
  
 We need here to explain the partial order.  We take the '$\mu$-signature' of the shuffle, that is, the ordered set $\mu_1\lt\ldots \lt \mu_p$. (Of course, this determines the $\nu$-signature as that is the complement of $\mu$.)
 
-+--{: .un_defn}
++--{: .num_defn}
 ######Definition######
 Given two $(p,q)$-shuffles, represented by $(\mu, \nu)$ and $(\mu\prime,\nu\prime)$, we set 
 
@@ -173,16 +173,16 @@ $$(\mu, \nu) \leq (\mu\prime,\nu\prime)$$
 if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We refer to this poset as $(Shuff(p,q),\leq)$.
 =--
 
-Going to  $(Shuff(3,1),\leq)$, the poset for $(3,1)$-shuffles,  the fact that $q = 1$ will mean that this poset is again linear:
+Going to  $(Shuff(3,1),\leq)$, the poset for $(3,1)$-shuffles,  the fact that $q = 1$ will mean that this poset is again [[linear order|linear]]:
 $$\begin{matrix}
 (0 \lt 1 \lt 2) &-& (0 \lt 1 \lt 3)& - &(0 \lt 2 \lt 3)& - &(1 \lt 2 \lt 3)
 \end{matrix}$$
 
 This is true in general:
 
-+--{: .un_lemma}
++--{: .num_lemma}
 ######Lemma
-If $p = 1$ or $q = 1$, then  $(Shuff(p,q),\leq)$ is a linear poset.
+If $p = 1$ or $q = 1$, then  $(Shuff(p,q),\leq)$ is a [[linear order|linear poset]].
 =--
 
 +-- {: .proof}
@@ -201,7 +201,7 @@ $$\begin{matrix}
 where at each stage one misses out the single $\nu$-value.
 =--
 
-In all cases, each position is obtained from the one immediately to its 'left' by increasing _one_ value, yet remaining with a shuffle.  This is more clearly seen in the (2,2) example, which is no longer linear.  First we display the grid in which things are happening.
+In all cases, each position is obtained from the one immediately to its 'left' by increasing _one_ value, yet remaining with a shuffle.  This is more clearly seen in the (2,2) example, which is no longer [[linear order|linear]].  First we display the grid in which things are happening.
 $$\begin{matrix}
 (0,2) & - & (1,2) & - & (2,2) \\
 | & & | & & | \\
@@ -210,7 +210,7 @@ $$\begin{matrix}
 (0,0) & - & (1,0) & - & (2,0)
 \end{matrix}$$
 
-We can then look at the shuffle poset, noting again that it is not linear:
+We can then look at the shuffle poset, noting again that it is not [[linear order|linear]]:
 $$\begin{matrix}
 &&&&(1\lt 2)&&&&\\
 &&& \nearrow &&\searrow &&&\\
@@ -311,14 +311,28 @@ which is
 $$Shuff(3,1)\oplus Shuff(2,2)^{op}\times \{4\},$$
 the ordinal sum, or join, of the anti-lex ordered shuffle sets.  This sort of decomposition is quite general.
 
+## Related concepts
+
+* [[Eilenberg-Zilber map]]
 
 ## References
 
-Exposition in:
+The shuffle-formula is due (in terms of [[simplicial abelian groups]] of [[cochain on a simplicial set|chains on a simplicial set]], see at *[[Eilenberg-Zilber map]]*) to:
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], (5.3) in: *On the groups $H(\Pi,n)$*, I, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor:1969820](https://www.jstor.org/stable/1969820))
+
+following:
+
+* [[Samuel Eilenberg]], [[Joseph A. Zilber]], American Journal of Mathematics Vol. 75, No. 1 (Jan., 1953), pp. 200-204 ([jstor:2372629](https://www.jstor.org/stable/2372629), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
+
+
+Exposition:
 
 * {#Friedman08} [[Greg Friedman]], Section 5 of: _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221), [doi:10.1216/RMJ-2012-42-2-353](https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-42/issue-2/Survey-Article-An-elementary-illustrated-introduction-to-simplicial-sets/10.1216/RMJ-2012-42-2-353.full))
 
+Textbook accounts:
 
+* [[Greg Friedman]], Appendix B.6 in: *Singular Intersection Homology*,  Cambridge University Press 2020 ([doi:10.1017/9781316584446](https://doi.org/10.1017/9781316584446), [pdf](http://faculty.tcu.edu/gfriedman/IHbook.pdf))
 
 
 [[!redirects product of simplices]]
