@@ -44,6 +44,13 @@ The [[Dold-Kan correspondence]] yields (see [there](Dold-Kan+correspondence#Mode
 
 ([Quillen 67, Section II.4 item 5](#Quillen67), see also [Schwede-Shipley 03, section 4.1](#SchwedeShipley03), [p.17](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17), [Jardine 03, Lemma 1.5](#Jardine03)).
 
+In fact, much more is true: all five classes of maps
+in a [[model category]] ([[weak equivalences]], (acyclic) [[cofibrations]],
+and (acyclic) [[fibrations]]) are preserved and reflected
+by both of these equivalences.
+That is to say, each [[model structure]] is obtained from the other
+one by transferring it along the corresponding equivalence of categories.
+
 
 ## Related concepts
 
