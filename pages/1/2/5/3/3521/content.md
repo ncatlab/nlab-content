@@ -462,6 +462,10 @@ which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$. This crossed module represe
 
 * [[bar construction]]
 
+* [[diagonal of a bisimplicial set]]
+
+* [[simplicial classifying space]]
+
 ## References
 
 Original sources are 
