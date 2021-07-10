@@ -23,12 +23,12 @@ On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomo
 
 * {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
-On [[orbifold K-theory]]:
+On [[twisted equivariant K-theory|twisted]] [[orbifold K-theory]]:
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
 
 
-* [[Alejandro Adem]], [[Yongbin Ruan]], Bin Zhang, _A Stringy Product on Twisted Orbifold K-theory_, Morfismos (10th Anniversary Issue), Vol. 11, No 2 (2007), 33-64.  ([arXiv:math/0605534](https://arxiv.org/abs/math/0605534), [Morfismos pdf](www.morfismos.cinvestav.mx/Portals/morfismos/SiteDocs/Articulos/Volumen11/No2/Zhang/arz.pdf))
+* [[Alejandro Adem]], [[Yongbin Ruan]], [[Bin Zhang]], _A Stringy Product on Twisted Orbifold K-theory_, Morfismos (10th Anniversary Issue), Vol. 11, No 2 (2007), 33-64.  ([arXiv:math/0605534](https://arxiv.org/abs/math/0605534), [Morfismos pdf](www.morfismos.cinvestav.mx/Portals/morfismos/SiteDocs/Articulos/Volumen11/No2/Zhang/arz.pdf))
 
 On [[orbifolds]] in [[mathematical physics]] and in particular in [[string theory]]:
 
@@ -57,5 +57,7 @@ On [[orbifolds]] in [[mathematical physics]] and in particular in [[string theor
 * [[Borel construction]]
 
 * [[finite group]]
+
+* [[transgression]]
 
 category: people
