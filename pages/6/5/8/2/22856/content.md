@@ -50,11 +50,20 @@ $$\gamma_{m}(\gamma_{n}(x))=\frac{(nm)!}{(n!)^{m}m!}\gamma_{nm}(x).$$
 
 Divided power algebras were originally introduced in 
 
-* [[Pierre Berthelot]], A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9
+* [[Henri Cartan]], _Puissances divisées_, Séminaire Henri Cartan, Tome 7 (1954–1955) no. 1, Exposé no. 7, 11 p. [Numdam:SHC_1954–1955__7_1_A7_0](http://www.numdam.org/item/SHC_1954-1955__7_1_A7_0/).
 
-* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $g \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. MR 0384804
+Their theory was further developed in Berthelot's PhD thesis, which was later published as volume 407 of the Springer Lecture Notes on Mathematics series:
+
+* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. MR 0384804
+
+Reviews of the notion include the following references:
+
+* [[Pierre Berthelot]], A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9
 
 * [[Aise Johan de Jong]] et al., [[The Stacks Project]], [Chapter 09PD](https://stacks.math.columbia.edu/tag/09PD).
 
 [[!redirects PD-algebra]]
+[[!redirects PD-algebras]]
 [[!redirects divided power structure]]
+[[!redirects divided power structures]]
+[[!redirects divided power algebras]]
