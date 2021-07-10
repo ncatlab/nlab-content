@@ -163,33 +163,35 @@ commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bull
 
 * [[Eilenberg-Zilber theorem]]
 
+* [[product of simplices]]
+
 * [[cap product]], [[cup product]]
 
-In the context of  filtered spaces $X_*, Y_*$ and their associated [[FundamentalCrossedComplex|fundamental crossed complex]]es $\Pi X_*, \Pi Y_*$ there is a natural  Eilenberg-Zilber morphism  
+In the context of  filtered spaces $X_*, Y_*$ and their associated fundamental crossed complexes $\Pi X_*, \Pi Y_*$ there is a natural  Eilenberg-Zilber morphism  
 $$\eta: \Pi X_* \otimes \Pi Y_* \to \Pi (X_* \otimes Y_*)$$
 which is difficult to define directly because of the complications of the tensor product of crossed complexes,  but has a direct definition in terms of the associated cubical homotopy $\omega$--groupoids. This morphism is an isomorphism of free crossed complexes if $X_*, Y_*$ are the skeletal filtrations of CW-complexes. For more on all  this, see the book [[Nonabelian Algebraic Topology]] p. 533. 
 
 ## References
 
-The Eilenberg-Zilber map was introduced in (5.3) of 
+The Eilenberg-Zilber map was introduced in:
 
-* [[Samuel Eilenberg]], [[Saunders MacLane]], On the groups $H(\Pi,n)$, I, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor](https://www.jstor.org/stable/1969820))
+* [[Samuel Eilenberg]], [[Saunders MacLane]], (5.3) of: *On the groups $H(\Pi,n)$*, I, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor:1969820](https://www.jstor.org/stable/1969820))
 
-See also  
+following the [[Eilenberg-Zilber theorem]] of
 
-* {#May} [[Peter May]], 29.7 of _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+* [[Samuel Eilenberg]], [[Joseph A. Zilber]], American Journal of Mathematics Vol. 75, No. 1 (Jan., 1953), pp. 200-204 ([jstor:2372629](https://www.jstor.org/stable/2372629), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
 
+See also:
+
+* {#May} [[Peter May]], Section 29.7 of _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
 * [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
 
-
 * [[Tim Porter]], section 11.2 of _[[Crossed Menagerie]]_,
 
+* [[Jean-Louis Loday]], Section 1.6 of: _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
-* [[Jean-Louis Loday]], section 1.6 of _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992.
-
-* {#Quillen69} [[Dan Quillen]], part I, section 4 of _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
-
+* {#Quillen69} [[Dan Quillen]], part I, section 4 of _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725))
 
 The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
 
