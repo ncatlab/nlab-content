@@ -17,24 +17,40 @@
 
 ## Definition
 
-Let $C : sAb \to Ch_\bullet^+$ be the chains/[[Moore complex]] functor of the [[Dold-Kan correspondence]].
+Denote by 
 
-Let $(sAb, \otimes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
+* $C \colon sAb \to Ch_\bullet^+$ the chains/[[Moore complex]] [[functor]] of the [[Dold-Kan correspondence]];
 
-+-- {: .num_defn}
+* $(sAb, \otimes)$ the [[monoidal category]] of [[simplicial abelian groups]] with [[tensor product]] given degreewise by the [[tensor product of abelian groups]];
+
+* $(Ch_\bullet^+, \otimes)$ the [[monoidal category|monoidal]] [[category of chain complexes]] with its [[tensor product of chain complexes]].
+
++-- {: .num_defn #TheEilenbergZilberMap}
 ###### Definition
 
-For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Eilenberg-Zilber map** or **Eilenberg-MacLane map** or **shuffle map** is the [[natural transformation]] on [[chain complex]]es
+For $A,B \in sAb$ two [[simplicial abelian group]], the **Eilenberg-Zilber map** (or **Eilenberg-MacLane map** or **shuffle map**) is the [[natural transformation]] on [[chain complexes]]
 
 $$
-  \nabla_{A,B} :  C(A) \otimes C(B) \to C(A \otimes B) 
+  \nabla_{A,B} 
+  \;\colon\;  
+  C(A) \otimes C(B) 
+   \longrightarrow 
+  C(A \otimes B) 
 $$
 
-defined on two $n$-simplices $a \in A_p$ and $b \in B_q$ by
+defined on two [[n-simplices]] $a \in A_p$ and $b \in B_q$ by
 
 $$
-  \nabla_{A,B} : a \otimes b \mapsto 
-   \sum_{(\mu,\nu)} sign(\mu,\nu) (s_\nu(a)) \otimes (s_\mu(b))
+  \nabla_{A,B} 
+  \;\colon\; 
+  a \otimes b 
+    \;\mapsto\; 
+   \sum_{(\mu,\nu) \in Sh(p,q)} 
+   sgn(\mu,\nu) 
+   \cdot
+   \big(s_\nu(a)\big) 
+     \otimes 
+   \big(s_\mu(b)\big)
    \;\;
    \in
    C_{p+q}(A \otimes B)
@@ -43,44 +59,58 @@ $$
   \,,
 $$
 
-where the sum is over all $(p,q)$-[[shuffle]]s
+where 
 
-$$
-  (\mu,\nu) = (\mu_1, \cdots, \mu_p, \nu_1, \cdots, \nu_q)
-$$
+* the [[sum]] is over all $(p,q)$-[[shuffles]]
 
-and the corresponding degeneracy maps are
+  $$
+    (\mu,\nu) = (\mu_1, \cdots, \mu_p, \nu_1, \cdots, \nu_q)
+    \,,
+  $$
 
-$$
-  s_{\mu} = s_{\mu_p - 1} \circ \cdots s_{\mu_2 - 1} \circ s_{\mu_1 - 1}
-$$
+* $sgn(\mu,\nu)$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
 
-and
+* the corresponding degeneracy maps are:
+  
+  $$ 
+    s_{\mu}   
+      \coloneqq 
+    s_{\mu_p - 1} \circ \cdots s_{\mu_2 - 1} \circ s_{\mu_1 - 1}
+  $$
 
-$$
-  s_{\nu} = s_{\nu_q - 1} \circ \cdots s_{\nu_2 - 1} \circ s_{\nu_1 - 1}
-  \,.
-$$
+  and
 
-(The shift in the indices is to be coherent with the convention that the [[shuffle]] $(\mu, \nu)$ is a [[permutation]] of $\{1, \dots, p+q\}$. In many references the shift disappears by making it a permutation of $\{0, \dots, p+q-1\}$ instead.) The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
+  $$
+    s_{\nu} 
+      \coloneqq 
+    s_{\nu_q - 1} \circ \cdots s_{\nu_2 - 1} \circ s_{\nu_1 - 1}
+    \,.
+  $$
 
 =--
+
+\begin{remark}
+The shift in the indices in Def. \ref{TheEilenbergZilberMap} is to be coherent with the convention that the [[shuffle]] $(\mu, \nu)$ is a [[permutation]] of $\{1, \dots, p+q\}$. In many references the shift disappears by making it a permutation of $\{0, \dots, p+q-1\}$ instead.) The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
+\end{remark}
 
 +-- {: .num_remark}
 ###### Remark
 
-The sum may be understood as being over all non-degenerate simplices in the product $\Delta[p] \times \Delta[q]$. See [[products of simplices]] for more on this.
+The sum in Def. \ref{TheEilenbergZilberMap} may be understood as being over all non-degenerate simplices in the [[Cartesian product]] $\Delta[p] \times \Delta[q]$ of [[simplices]]. See at *[[products of simplices]]* for more on this.
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-
-This map restricts to the normalized chain complex
+This Eilenberg-Zilber map (Def. \ref{TheEilenbergZilberMap}) restricts to the [[normalized chain complex]] inside the [[Moore complex]], to a morphism of the form
 
 $$
-  \nabla_{A,B} :  N(A) \otimes N(B) \to N(A \otimes B) 
+  \nabla_{A,B} 
+    \;\colon\;  
+  N(A) \otimes N(B) 
+    \longrightarrow 
+  N(A \otimes B) 
   \,.
 $$
 
@@ -93,23 +123,23 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The Eilenberg-Zilber map is a [[lax monoidal transformation]] that makes $C$ and $N$ into [[lax monoidal functor]]s. 
+The Eilenberg-Zilber map (Def. \ref{TheEilenbergZilberMap}) is a [[lax monoidal transformation]] that makes $C$ and $N$ into [[lax monoidal functors]]. 
 
 =--
 
-See [[monoidal Dold-Kan correspondence]] for details.
+See at *[[monoidal Dold-Kan correspondence]]* for details.
+
 
 +-- {: .num_prop}
 ###### Proposition
 
-
-On normalized chain complexes the EZ map has a [[left inverse]], given by the [[Alexander-Whitney map]] $\Delta_{A,B}$:
+On [[normalized chain complexes]] the EZ map (Def. \ref{TheEilenbergZilberMap}) has a [[left inverse]], given by the [[Alexander-Whitney map]] $\Delta_{A,B}$:
 
 $$
   Id 
-  :
+  \colon
   N A \otimes N B \stackrel{\nabla_{A,B}}{\to} N(A \otimes B)
-  \stackrel{\Delta_{A,B}}{\to}
+  \stackrel{\Delta_{A,B}}{\longrightarrow}
   N A \otimes N B
   \,.
 $$
@@ -130,29 +160,29 @@ For the next statement notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[s
 
 +-- {: .num_prop}
 ###### Proposition
-
  
-The EZ map is [[symmetric monoidal functor|symmetric]] in that for all $A,B \in sAb$ the square
+The EZ map (Def. \ref{TheEilenbergZilberMap}) is [[symmetric monoidal functor|symmetric]] in that for all $A,B \in sAb$ the square
 
 $$
   \array{
     C A \otimes C B &\stackrel{\sigma}{\to}& C B \otimes C A
     \\
-    {}^{\mathllap{\nabla_{A,B}}}\downarrow 
+    {}^{\mathllap{\nabla_{A,B}}}
+    \big\downarrow 
     && 
-    \downarrow^{\mathrlap{\nabla_{B,A}}}
+    \big\downarrow^{\mathrlap{\nabla_{B,A}}}
     \\
     C(A\otimes B) &\stackrel{C(\sigma)}{\to}& C(B \otimes A)
   }
 $$
 
-commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bullet^+$.
+[[commuting diagram|commutes]], where $\sigma$ denotes the [[braiding|symmetry isomorphism]] in $sAb$ and $Ch_\bullet^+$.
 
 =--
 
 ## Applications
 
-* The Eilenberg-Zilber map induces a functor from [[simplicial Lie algebras]] to [[dg-Lie algebras]] (see [here](dgLieAlgebraOfASimplicialLieAlgebra))
+* The Eilenberg-Zilber map induces a functor from [[simplicial Lie algebras]] to [[dg-Lie algebras]] (see [here](dgLieAlgebraOfASimplicialLieAlgebra)).
 
 
 ## Related concepts
@@ -181,17 +211,18 @@ following the [[Eilenberg-Zilber theorem]] of
 
 * [[Samuel Eilenberg]], [[Joseph A. Zilber]], American Journal of Mathematics Vol. 75, No. 1 (Jan., 1953), pp. 200-204 ([jstor:2372629](https://www.jstor.org/stable/2372629), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
 
-See also:
+Review and further discussion:
 
 * {#May} [[Peter May]], Section 29.7 of _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
+
+* {#Quillen69} [[Dan Quillen]], part I, section 4 of _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725))
+
+* [[Jean-Louis Loday]], Section 1.6 of: _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
 * [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
 
 * [[Tim Porter]], section 11.2 of _[[Crossed Menagerie]]_,
 
-* [[Jean-Louis Loday]], Section 1.6 of: _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
-
-* {#Quillen69} [[Dan Quillen]], part I, section 4 of _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725))
 
 The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
 
