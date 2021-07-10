@@ -41,9 +41,8 @@ of connective chain complexes is naturally identified with the category of $\mat
 
 ### Equivalence of categories {#EquivalenceOfCategories}
 
-+-- {: .num_theorem }
-###### Theorem (Dold--Puppe)
-
+\begin{theorem}
+**(Dold--Puppe)**
 For $A$ an [[abelian category]] 
 there is an [[equivalence of categories]]
 
@@ -62,38 +61,41 @@ where
 
 * $N$ is the [[normalized chains complex]]/normalized [[Moore complex]] functor.
 
-
-=--
+\end{theorem}
 
 ([Dold 58](#Dold58), [Kan 58](#Kan58), [Dold-Puppe 61](#DoldPuppe61)).
 
-+-- {: .num_theorem }
-###### Theorem (Kan)
-
+\begin{theorem}
+**(Kan)** \linebreak
 For the case that $A$ is the category [[Ab]] of [[abelian group]]s, the functors $N$ and $\Gamma$ are [[nerve and realization]] with respect to the cosimplicial chain complex
 
 $$
-  \mathbb{Z}[-]: \Delta \to Ch_+(Ab)
+  \mathbb{Z}[-]
+  \;\colon\; 
+  \Delta \longrightarrow Ch_+(Ab)
 $$
 
-that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the free simplicial abelian group $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
+that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the [[free construction|free]] [[simplicial abelian group]] $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
 
 $$
-    \Gamma(V) : [k]  \mapsto 
+    \Gamma(V) 
+    \;\colon\; 
+    [k]  
+    \mapsto 
     Hom_{Ch_\bullet^+(Ab)}(N(\mathbb{Z}(\Delta[k])), V)
     \,.
 $$
 
-=--
+\end{theorem}
 
 This is due to ([Kan 58](#Kan58)).
 
-More explicitly we have the following
+More explicitly:
 
 +-- {: .num_prop #ExplicitUnitAndCounit}
 ###### Proposition
 
-* For $V \in Ch_\bullet^+$ the simplicial abelian group $\Gamma(V)$ is in degree $n$ given by
+* For $V \in Ch_\bullet^+$ the [[simplicial abelian group]] $\Gamma(V)$ is in degree $n$ given by
 
   $$
     \Gamma(V)_n = \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
@@ -186,7 +188,7 @@ It follows that with the inverse structure maps, we also have an [[adjunction]] 
 
 Both $Ch_\bullet^+(A)$ and $A^{\Delta^{op}}$ are [[categories with weak equivalences]] in an standard way: 
 
-* the weak equivalences of simplicial abelian groups are the [[weak homotopy equivalence]]s of the underlying [[Kan complex]]es, hence morphisms that induces [[isomorphism]]s on all [[simplicial homotopy group]];
+* the weak equivalences of simplicial abelian groups are the [[weak homotopy equivalences]] of the underlying [[Kan complexes]], hence morphisms that induce [[isomorphisms]] on all [[simplicial homotopy groups]];
 
 * the weak equivalences of chain complexes are the [[quasi-isomorphisms]]: the morphisms that induces isomorphisms on all [[chain homology]] groups.
 
@@ -194,7 +196,7 @@ Both $Ch_\bullet^+(A)$ and $A^{\Delta^{op}}$ are [[categories with weak equivale
 ###### Proposition
 
 These functors $N$ and $\Gamma$ both respect all weak equivalences 
-with respect to the standard [[model structure on simplicial sets]] [[model structure on chain complexes|and on chain complexes]] in that they induce isomorphisms between [[simplicial homotopy groups]] and [[homology group]]s.
+with respect to the [[classical model structure on simplicial sets]] [[model structure on chain complexes|and on chain complexes]] in that they induce isomorphisms between [[simplicial homotopy groups]] and [[homology group]]s.
 
 =--
 
@@ -203,7 +205,7 @@ The structures of categories with weak equivalences have standard refinements to
 
 * the _projective_ [[model structure on chain complexes]] $Ch_\bullet$ has as fibrations the chain maps that are surjections in each positive degree;
 
-* the _[[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]_ has as fibrations those whose underlying morphisms in [[sSet]] are fibrations ([[Kan fibrations]]) with respect to the standard [[model structure on simplicial sets]].
+* the _[[model structure on simplicial abelian groups]]_ has as [[fibrations]] those whose underlying morphisms in [[sSet]] are fibrations  with respect to the [[classical model structure on simplicial sets]] (hence: [[Kan fibrations]]).
 
 +-- {: .num_prop #QuillenEquivalenceBetweensAbAndCh}
 ###### Proposition
