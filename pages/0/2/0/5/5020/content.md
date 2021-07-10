@@ -34,15 +34,21 @@ is a [[monomorphism in an (∞,1)-category]] in [[∞Grpd]].
 
 * A morphism $A\to B$ of [[E-infinity rings]] is an epimorphism iff $B$ is smashing over $A$, i.e., if $B\wedge_A B\approx B$.
 
-* A morphism $X\to Y$ between [[connected spaces]] is an epimorphism iff $Y$ is formed via a Quillen-plus construction from a [[perfect group|perfect]] [[normal subgroup]] of the [[fundamental group]] $\pi_1 X$.  More generally, a map of spaces is an epi iff all its fibers are [[acyclic spaces]] in the sense that their [[suspensions]] are [[contractible]].  This is discussed in [Raptis](#Raptis).
+* A morphism $X\to Y$ between [[connected spaces]] is an epimorphism iff $Y$ is formed via a [[Quillen plus construction]] from a [[perfect group|perfect]] [[normal subgroup]] of the [[fundamental group]] $\pi_1(X)$.  
 
-* A generalization of this to epimorphisms and acyclic spaces in [[(infinity,1)-toposes]] is discussed in [Hoyois](#Hoyois).
+  More generally, a map of spaces is an epi iff all its fibers are acyclic spaces in the sense that their [[suspensions]] are [[contractible]].  This is discussed in [Raptis 17](#Raptis17).
+
+* A generalization of this to epimorphisms and acyclic spaces in [[(infinity,1)-toposes]] is discussed in [Hoyois 19](#Hoyois19).
 
 ## References
 
-* {#Raptis} G. Raptis, *Some characterizations of acyclic maps*, [arxiv](https://arxiv.org/abs/1711.08898), 2017
+* {#Raptis17} [[George Raptis]], *Some characterizations of acyclic maps*, Journal of Homotopy and Related Structures volume 14, pages 773–785 (2019) 2017 ([arxiv:1711.08898](https://arxiv.org/abs/1711.08898), [doi:10.1007/s40062-019-00231-6](https://doi.org/10.1007/s40062-019-00231-6))
 
-* {#Hoyois} Marc Hoyois, *On Quillen's plus construction*, [web](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf), 2019
+* {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf))
 
+
+[[!redirects epimorphisms in an (infinity,1)-category]]
 
 [[!redirects epimorphism in an (∞,1)-category]]
+[[!redirects epimorphisms in an (∞,1)-category]]
+
