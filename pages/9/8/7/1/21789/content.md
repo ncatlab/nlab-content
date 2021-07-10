@@ -63,6 +63,10 @@ Alternatively, in terms of [[Grothendieck groups]] of [[equivariant bundle|equiv
 
 * [[Christopher Dwyer]], _Twisted equivariant K-theory for proper actions of discrete groups_, K-Theory v. 38, n. 2 (January, 2008): 95-111 ([arXiv:0710.2136](https://arxiv.org/abs/0710.2136), [doi:10.1007/s10977-007-9016-z](http://dx.doi.org/10.1007/s10977-007-9016-z))
 
+On the [[cohomology ring]]-structure:
+
+* [[Jean-Louis Tu]], [[Ping Xu]], *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
+
 
 The corresponding version of the [[Atiyah-Hirzebruch spectral sequence]]:
 
