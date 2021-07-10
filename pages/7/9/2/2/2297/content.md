@@ -28,14 +28,17 @@ On [[2-representations]]:
 
 * [[Nora Ganter]], [[Mikhail Kapranov]], _Representation and character theory in 2-categories_, Adv. Math. __217__ (2008), no. 5, 2268-2300, [math.AT/0602510](http://arxiv.org/abs/math/0602510); _Symmetric and exterior powers of categories_, [arxiv/1110.4753](http://arxiv.org/abs/1110.4753)
 
+On [[2-group]]-[[higher central extensions|extensions]] by the [[circle 2-group]]:
 
-On [[Platonic 2-groups]]:
+of [[tori]] (see also at [[T-duality 2-group]]):
+
+* [[Nora Ganter]], _Categorical Tori_, SIGMA 14 (2018), 014, 18 ([arXiv:1406.7046](https://arxiv.org/abs/1406.7046))
+
+
+of [[finite subgroups of SU(2)]] (to [[Platonic 2-groups]]):
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
 
-On categorical extensions of a torus by the circle 
-
-* [[Nora Ganter]], _Categorical Tori_ ([arXiv:1406.7046](https://arxiv.org/abs/1406.7046))
 
 
 See also:
