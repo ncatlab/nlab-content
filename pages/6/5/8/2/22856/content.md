@@ -11,14 +11,13 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A *divided power algebra* is an [[associative algebra]] $A$ together with an [[ideal]] $I$ and a collection of operations $\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ which behave like operations of taking [[divided powers]] $x\mapsto x^{n}/n!$ in [[power series]].
+A *divided power algebra* is an [[associative algebra]] $A$ together with an [[ideal]] $I$ and a collection of operations $\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ which behave like operations of taking divided powers $x\mapsto x^{n}/n!$ in [[power series]].
 
 ## Definition
 
@@ -62,8 +61,15 @@ Reviews of the notion include the following references:
 
 * [[Aise Johan de Jong]] et al., [[The Stacks Project]], [Chapter 09PD](https://stacks.math.columbia.edu/tag/09PD).
 
+See also:
+
+* Wikipedia, *[Divided power structure](https://en.wikipedia.org/wiki/Divided_power_structure)*
+
 [[!redirects PD-algebra]]
 [[!redirects PD-algebras]]
 [[!redirects divided power structure]]
 [[!redirects divided power structures]]
 [[!redirects divided power algebras]]
+
+[[!redirects divided power]]
+[[!redirects divided powers]]
