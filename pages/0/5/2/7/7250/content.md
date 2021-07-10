@@ -18,16 +18,24 @@ The plus construction doesn't change the [[homology]] of the space but 'kills' a
 
 ## References
 
-* M. Kervaire,_Smooth homology spheres and their fundamental groups_, Trans. Amer. Math. Soc., 144 (1969) pp. 67&#8211;72
+* [[Michele Kervaire]], *Smooth homology spheres and their fundamental groups*, Trans. Amer. Math. Soc., 144 (1969) pp. 67&#8211;72
 
-See section IV.1 of
 
-* {#Weibel} [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
-
-See also
-
-* Dustin Clausen, _Plus construction considerations_, [MO/121351/2503](http://mathoverflow.net/a/121351/2503).
+* {#Weibel} [[Charles Weibel]], Section IV.1 of _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
 
 Relation to the [[group completion theorem]]:
 
 * [[Thomas Nikolaus]], _The group completion theorem via localizations of ring spectra_, 2017 ([pdf](https://people.mpim-bonn.mpg.de/thoni/Papers/Group_completion.pdf))
+
+See also:
+
+* Dustin Clausen, _Plus construction considerations_, [MO:a/121351](http://mathoverflow.net/a/121351/2503)
+
+Discussion in [[(∞,1)-category theory]]:
+
+* {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf))
+
+
+
+
+
