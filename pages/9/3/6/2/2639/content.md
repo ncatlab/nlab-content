@@ -143,9 +143,16 @@ By following through these maps one can obtain an explicit description of the qu
 
 ## References
 
-The original reference is:
+Original references:
 
 * [[Samuel Eilenberg]], [[Joseph Zilber]], _On Products of Complexes_, Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) ([jstor:2372629](https://www.jstor.org/stable/2372629))
+
+* {#EilenbergMacLane54} [[Samuel Eilenberg]], [[Saunders MacLane]], Section 2 of: *On the Groups $H(\Pi,n)$, II: Methods of Computation*, Annals of Mathematics, Second Series, Vol. 60, No. 1 (Jul., 1954), pp. 49-139 ([jstor:1969702](https://www.jstor.org/stable/1969702), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
+
+using the definition of the [[Eilenberg-Zilber map]] in:
+
+* {#EilenbergMacLane53} [[Samuel Eilenberg]], [[Saunders MacLane]], (5.3) of: *On the groups $H(\Pi,n)$*, I*, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor:1969820](https://www.jstor.org/stable/1969820))
+
 
 A weak version of the simplicial statement: 
 
