@@ -285,3 +285,5 @@ and is explained in section C.3 of Tom Leinster's book,
 [[!redirects presheaf topos]]
 [[!redirects presheaf toposes]]
 [[!redirects presheaf topoi]]
+
+[[!redirects Presheaves]]
