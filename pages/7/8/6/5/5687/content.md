@@ -142,7 +142,7 @@ The statement about $\bar W G$ is proven in ([RobertsStevenson](#RobertsStevenso
 
 * [[simplicial topological space]], [[nice simplicial topological space]]
 
-* **simplicial topological group**
+* [[simplicial group]], [[simplicial abelian group]]
 
 * [[geometric realization of simplicial topological spaces]]
 
