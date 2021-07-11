@@ -17,18 +17,80 @@
 * table of contents
 {:toc}
 
-This page describes aspects of the combinatorics of [[Cartesian products]] of [[simplicial sets]].
+## Idea
 
-## Properties
+This page describes aspects of the [[combinatorics]] of [[Cartesian products]] of [[simplicial sets]], mostly by describing (Prop. \ref{NonDegenerateSimplicesInProductOfSimplices}) the non-degenerate simplicices inside a [[Cartesian product]] $\Delta[p] \times \Delta[q]$ of basic [[n-simplices]] for $n = p,q$. These are enumerate by the $(p,q)$ (un-)[[shuffles]] in a manner that for [[simplicial abelian groups]] is originally known from the [[Eilenberg-Zilber map]].
 
-+-- {: .num_definition}
-###### Notation
 
+## Products of simplicial sets
+
+\begin{proposition}\label{CartesianProductOfSimplicialSetsIsComponentwise}
+**([[cartesian product]] of [[simplicial sets]])**\linebreak
+For $K, L \,\in\,$ [[SimplicialSets]], their [[Cartesian product]], 
+
+$$
+  K \times L
+  \;\in\;
+  SimplicialSets
+$$
+
+is the simplicial set whose $k$th component [[set]] is the [[Cartesian product]] of [[Sets]] of the components of the two factors
+
+$$
+  (K\times L)_k
+  \;=\;
+  K_k \times L_k
+  \,,
+$$
+
+and whose face- and degeneracy maps are, similarly, the image under the Cartesian product-[[functor]] of the face- and degeneracy maps of the factors:
+
+$$
+  d^{K \times K}_i(x,y) 
+  \;=\; 
+  \big(
+    d^K_i(x), \, d^L_i(y)
+  \big)
+  \,,
+  \;\;\;\;\;
+  s^{K \times K}_i(x,y) 
+  \;=\; 
+  \big(
+    s^K_i(x), \, s^L_i(y)
+  \big)
+$$
+
+\end{proposition}
+
+\begin{remark}
+Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
+implies that a [[simplex]] 
+of the form $(s_\alpha(x), s_\beta(y) \in K \times L$ 
+may be non-degenerate even though its two components are degenerate. 
+
+This happens exactly when $\alpha \cap \beta = \varnothing$.  
+
+(Here we mean by $s_\alpha$ the composite, in order, of the $s_i$ for $i \in \alpha$.)
+
+In particular, take $K = \Delta[p]$ and $L= \Delta[q]$ with $x_p \in \Delta[p]_p$, $y_q \in \Delta[q]_q$, the 'identity' simplices that generate them.  
+
+(We will use an _ad hoc_ notation here, since the more obvious, $\iota_p$, and  $\iota_q$, would not distinguish the two simplices sufficiently in some formulae.)  There 
+
+are, then, non-degenerate simplices of dimension $p+q$, but none of higher dimension in $\Delta[p]\times \Delta[q]$.  These are of the form $(s_\alpha x_p,s_\beta y_q)$, where $\#\alpha = q$, $\#\beta = p$.
+\end{remark}
+
+
+
+## Non-degenerate cells in a product of simplices
+
+### Characterization
+
+\begin{definition}
 For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
 for $\mu = (\mu_1 \lt  \mu_2, \lt \cdots \lt \mu_q)$ a sequence of [[natural numbers]] in $\{0, \cdots p+q\}$, write
 
 $$
-  s_\mu : X_p \to X_{p+q}
+  s_\mu \colon X_p \to X_{p+q}
 $$
 
 for the map dual to the sequence 
@@ -46,13 +108,14 @@ $$
 
 where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
 
-=--
+\end{definition}
 
-+-- {: .num_prop}
-###### Proposition
-The non-degenerate simplices in the [[product]] 
+\begin{proposition}\label{NonDegenerateSimplicesInProductOfSimplices}
+
+The non-degenerate simplices in the [[Cartesian product]] (Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise})
+
 $$
-  \Delta[p] \times\Delta[q]
+  \Delta[p] \times \Delta[q]
 $$ 
 
 of [[simplices]] in [[sSet]] are precisely those of the form 
@@ -63,58 +126,204 @@ $$
 
 for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\Delta[p]$ and $\Delta[q]$, respectively.
 
-=--
+\end{proposition}
+
+\begin{remark}\label{NotationForSimplicesInAProductOfSimplices}
+**(notation for simplices in a product of simplices)** \linebreak
+More explicitly:  If we represent a vertex of a product by a 'column vector' rather than the more usual 'row vector' for the moment, then any non-degenerate $(p+q)$-simplex of $\Delta[p]\times \Delta[q]$ can be represented in the form of an ordered list of vertices with $p + q + 1 $ columns:
+
+$$
+  \left(
+    \begin{array}{ccccccccc}
+      0& \ldots & 0 & 1 & \ldots & 1 & 2 & \ldots & p
+      \\
+      0& \ldots & i & i & \ldots & j & j & \ldots & q
+    \end{array}
+  \right)
+  \,,
+$$
+
+The top row, which is a simplex in $\Delta[p]$, changes at exactly those positions at which the bottom row repeats.  The top row gives a degenerate $p+q$ simplex of $\Delta[p]$, whilst the bottom row one of $\Delta[q]$, i.e., the array gives $(s_\alpha x_p, s_\beta y_q)$ for some $(\alpha, \beta)$ as above.
+\end{remark}
+
+### Examples
+ {#Examples}
+
+\begin{example}\label{CylindersOfSimplices}
+**([[cylinders]] of [[simplices]])**
+
+The non-degenerate (n+1)-simplices in the [[cylinder]] of the [[n-simplex]]
+$$
+  \begin{aligned} & \Delta[1] \\ \times & \Delta[n] \end{aligned}
+  \;\in\;
+  sSet
+$$ 
+
+are, according to Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise}
+ and in the notation of Remark \ref{NotationForSimplicesInAProductOfSimplices}, as follows:
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 1 & 1 & 1 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 0 & 1 & 2 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+  \,,
+$$
+
+\linebreak
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 0 & 1 & 1 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 1 & 1 & 2 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+$$
+
+\linebreak
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 0 & 0 & 1 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 1 & 2 & 2 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+  \,,
+$$
+
+\linebreak
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 0 & 0 & 0 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 1 & 2 & 3 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+  \,,
+$$
+
+and so on.
+
+\end{example}
+
+\begin{example}
+  The non-degenerate simplices in 
+  $$
+    \begin{aligned}
+      & \Delta[2]
+      \\
+      \times & \Delta[1]
+    \end{aligned}
+  $$
+  are, in specialization of Example \ref{CylindersOfSimplices}, 
+  according to Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise}
+  and in the notation of Remark \ref{NotationForSimplicesInAProductOfSimplices}, 
+  the following three:
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 1 & 2 & 2
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 0 & 0 & 1 
+    \mathrlap]
+  }
+  \;\,
+  \right)
+  \,,
+  \;\;\;\;\;\;\;
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 1 & 1 & 2
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 0 & 1 & 1 
+    \mathrlap]
+  }
+  \;\,
+  \right)
+  \,,
+  \;\;\;\;\;\;\;
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 0 & 1 & 2
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 1 & 1 & 1 
+    \mathrlap]
+  }
+  \;\,
+  \right)
+$$  
+
+\end{example}
 
 
 
-## Shuffles and products of simplices
+### In terms of partitions
 
-[[shuffle|Shuffles]] are interesting combinatorial structures but the reason why they come into many constructions in [[homotopy theory]] and [[higher category theory]] is because of their relationship with the structure of [[product]]s.
+Each such simplex yields a [[partition]] of $\{0, \ldots, p+q-1\}$ into two disjoint sets,
+$\mu_1\lt\ldots \lt\mu_p$, and $\nu_1 \lt \ldots \lt \nu_q$, and vice versa, any such partition yields a simplex. Suppose that we have an array, as above, written
 
-The definition of the product, $K\times L$, of [[simplicial set]]s $K$ and $L$ gives that $(K\times L)_k$ is defined to be $K_k\times L_k$ with face and degeneracy maps defined 'componentwise' so, for instance, $d_i(x,y) = (d_i x,d_i y)$.  This means that a [[simplex]] $(s_\alpha x, s_\beta y)$ can be non-degenerate even though its two components are degenerate.  Of course, this happens exactly when $\alpha \cap \beta = \emptyset$.  (Here we mean by $s_\alpha$ the composite, in order,  of the $s_i$ for $i \in \alpha$.)
-
-In particular, take $K = \Delta[p]$ and $L= \Delta[q]$ with $x_p \in \Delta[p]_p$, $y_q \in \Delta[q]_q$, the 'identity' simplices that generate them.  (We will use an _ad hoc_ notation here, since the more obvious, $\iota_p$, and  $\iota_q$, would not distinguish the two simplices sufficiently in some formulae.)  There are, then,  non-degenerate simplices of dimension $p+q$, but none of higher dimension in $\Delta[p]\times \Delta[q]$.  These are of the form $(s_\alpha x_p,s_\beta y_q)$, where $\#\alpha = q$, $\#\beta = p$.
-
-
-
-### Non-degenerate simplices in a product 
-If we represent a vertex of a product by a 'column vector' rather than the more usual 'row vector' for the moment, then any non-degenerate $(p+q)$-simplex of $\Delta[p]\times \Delta[q]$ can be represented in the form of an ordered list of vertices,
-
-$$\left(\begin{array}{ccccccccc}
-0& \ldots & 0 & 1 & \ldots & 1 & 2 & \ldots & p\\
-0& \ldots & i & i & \ldots & j & j & \ldots & q
-\end{array}\right),$$
-
-with $p + q + 1 $ columns.  The top row, which is a simplex  in $\Delta[p]$, changes at exactly those positions at which the bottom row repeats.  The top row gives a degenerate $p+q$ simplex of $\Delta[p]$, whilst the bottom row one of $\Delta[q]$, i.e., the array gives $(s_\alpha x_p, s_\beta y_q)$ for some $(\alpha, \beta)$  as above.
-
-### Illustrative example 
-
-The usual illustrative example is of the three 3-simplices of $\Delta[2]\times \Delta[1]$:
-
-1. $\left(\begin{array}{cccc}0&1&2&2\\0&0&0&1\end{array}\right)$, 
-
-1. $\left(\begin{array}{cccc}0&1&1&2\\0&0&1&1\end{array}\right)$, 
-
-1. $\left(\begin{array}{cccc}0&0&1&2\\0&1&1&1\end{array}\right)$
-
-with, for 1), $\alpha = (2)$, $\beta = (1,0)$; for 2) $\alpha = (1)$, $\beta = (2,0)$; and, for 3), $\alpha = (0)$, $\beta = (2,1)$.
-
-
-### Simplices of the product and partitions
-
-Each such simplex yields a partition of $\{0, \ldots, p+q-1\}$ into two disjoint sets,
- $\mu_1\lt\ldots \lt\mu_p$, and $\nu_1 \lt \ldots \lt \nu_q$, and vice versa, any such partition yields a simplex. Suppose that we have an array, as above, written
-
- $$\left(\begin{array}{cccc}
-i_0& i_1&\ldots & i_{p+q}\\
-j_0& j_1 & \ldots & j_{p+q}
-\end{array}\right),$$
+$$
+  \left(
+    \begin{array}{cccc}
+      i_0& i_1&\ldots & i_{p+q}
+      \\
+      j_0& j_1 & \ldots & j_{p+q}
+     \end{array}
+  \right)
+  \,,
+$$
 
 with $0= i_0 \leq i_1 \leq \ldots \leq i_{p+q}= p$, then if $i_k = i_{k+1}$, we put $k$ into the second set, otherwise $k$ is put in the first set.  This, of course, leads to an operation that preserves order. For instance, in the above example 2., the $i$-sequence is $(0,1,1,2)$, so there is the single repeat with $k = 1$, and $\nu = \{1\}$. 
 
 We likewise require $0= j_0 \leq j_1 \leq \ldots \leq j_{p+q}= p$, and put $k$ into the first set if  $j_k = j_{k+1}$.  For the example, we have the $j$-sequence is $(0,0,1,1)$, so $\mu = \{ 0,2\}$.  Of course, from the partition you can get the sequences and conversely. The attentive reader will, of course, have noted that, for example 2., the $\alpha$, we specified was exactly the $\nu$, and the $\beta$ was the $\mu$.  This is general with the simplex corresponding to a partition, $(\mu,\nu)$,  being given by $(s_{\nu_q}\ldots s_{\nu_1}x_p,s_{\mu_p}\ldots s_{\mu_1}y_q)$.
 
-Each such partition defines a permutation of $\{0,\ldots, p+q-1 \}$.  Let us write $\iota_0 : \{ 0, \ldots, q-1\}\to \{0, \ldots, p+q-1\}$ for the order preserving function $\iota_0 (r)= p+r$, whilst $\iota_1 : \{ 0, \ldots, p-1\}\to \{0, \ldots, p+q-1\}$ will denote the inclusion, so $\iota_1(r) = r$. There will be a permutation  $\sigma$ of $\{0,\ldots, p+q-1 \}$ such that $\sigma \iota_0(r) = \nu_{r+1}$ and $\sigma\iota_1(r) = \mu_{r+1}$. This means that the permutation looks like  
+Each such partition defines a [[permutation]] of $\{0,\ldots, p+q-1 \}$.  Let us write $\iota_0 : \{ 0, \ldots, q-1\}\to \{0, \ldots, p+q-1\}$ for the order preserving function $\iota_0 (r)= p+r$, whilst $\iota_1 : \{ 0, \ldots, p-1\}\to \{0, \ldots, p+q-1\}$ will denote the inclusion, so $\iota_1(r) = r$. There will be a permutation  $\sigma$ of $\{0,\ldots, p+q-1 \}$ such that $\sigma \iota_0(r) = \nu_{r+1}$ and $\sigma\iota_1(r) = \mu_{r+1}$. This means that the permutation looks like  
 
 $$\sigma =\left(\begin{array}{ccccccccc}0&1&2& \ldots & p-1&p&p+1& \ldots & p+q-1\\
 \mu_1&\mu_2&\mu_3&\ldots & \mu_p&\nu_1&\nu_2&\ldots &\nu_q\end{array}\right).$$
@@ -128,7 +337,7 @@ For our standard examples, we have : 1) $\sigma$ is the identity, 2) $\sigma = \
 We thus have, in this case, the signs are +1, -1, and  + 1, respectively.
 
 
-### Paths in the product 
+### In terms of paths
 
 
 A final useful interpretation of $(p,q)$ shuffles is of ascending paths through a $p$ by $q$ integer lattice from $(0,0)$ to $(p,q)$.  This is quite well illustrated by our example.  The vertices are the integer pairs, $(i,j)$ with $0\leq i\leq p$ and $0\leq j\leq q$, so in our case we get
@@ -147,17 +356,13 @@ $$\begin{matrix}
 (0,0) & - & (1,0) && 
 \end{matrix}$$
 
-###The poset of $(p,q)$-shuffles###
+## The poset of $(p,q)$-shuffles###
 
 Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-[[shuffles]].  
 
-####Easy examples
-
-We will start by giving some elementary examples. (This section can be skipped if you want to move on to the more theoretical analysis of these posets.)
 
 Our $(2,1)$-example is really too simple and small to illustrate this well, but the two cases $(3,1)$ and $(2,2)$ do a much better job, but, even so, we first look at the (2,1) example:
 $$\begin{matrix} (0\lt 1)&-&(0\lt 2)&-&(1\lt 2)\end{matrix}$$
-
 
 
 (This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left. The vertex $(0\lt 1)$ corresponds to the shuffle with $\mu_1 = 0, \mu_1 = 1$, and so on.)
@@ -246,11 +451,12 @@ and in the second case, we get the shuffle:
 
 From $(1 \lt 2)$ or $(0\lt3)$, there is only one way to go, namely to $(1 \lt 3)$ and a 2-step path (left to you), and, finally it is just one step from  $(1 \lt 3)$ to $(2 \lt 3)$ and the other extremal path.
 
-####Summary####
 
-Each path corresponds to a simplex of maximal dimension in the product. The poset encodes the simplest relationships between those paths with the links in the Hasse diagram corresponding to simple changes in the path, and adjacency of the two simplices in the product, but note that the poset is usually not linear.
+\linebreak
 
-##The Anti-Lex order
+In summary, each path corresponds to a simplex of maximal dimension in the product. The poset encodes the simplest relationships between those paths with the links in the Hasse diagram corresponding to simple changes in the path, and adjacency of the two simplices in the product, but note that the poset is usually not linear.
+
+## The Anti-Lex order
 
 There is a total order on $Shuff(p,q)$ related to the above partial order and which is useful when checking cancellation of terms in non-commutative contexts, as occurs in the Whitehead product formula given by Curtis and attributed to Kan.  This is the **anti-lexicographic order.
 
