@@ -78,13 +78,14 @@ Discussion of this in the modern context of [[higher geometry]]/[[D-geometry]] i
 
 A [[p-adic cohomology]] for [[varieties]] in [[characteristic]] $p$ it was it was discussed in
 
-* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. MR 0384804
+* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. ([doi:10.1007/BFb0068636](https://link.springer.com/book/10.1007/BFb0068636),  MR 0384804)
 
-The [[comparison theorem (crystalline cohomology)]] shown there (theorem V2.3.2) shows that the crystalline cohomology over $\mathbb{Z}/p$ is canonically identified with the [[de Rham cohomology]] of a lift to [[p-adic geometry]] if one exists. See also
+* [[Pierre Berthelot]], [[Arthur Ogus]], _$F$-Isocrystals and de Rham Cohomology_, I, Invent. math. 72, 1983, pp. 159-199 ([eudml:143016](https://eudml.org/doc/143016))
 
-* [[Pierre Berthelot]], A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9
+Review:
 
-* [[Pierre Berthelot]], A. Ogus, _$F$-Isocrystals and de Rham Cohomology_, I, Invent. math. 72, 1983, pp. 159-199
+* [[Pierre Berthelot]], [[Arthur Ogus]], _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ([ISBN:0-691-08218-9](https://press.princeton.edu/books/hardcover/9780691648323/notes-on-crystalline-cohomology-mn-21))
+
 
 Discussion of this in terms of [[Cech cohomology]] is in 
 
