@@ -66,7 +66,7 @@ However, according to ([Krage 02, p. 33](#Krage)):
 ## Similarity to concepts of modern particle physics
  {#SimilarityToParticlePhysics}
 
-### Baryogenersis
+### Baryogenesis
 
 It is however striking that the modern concept of [[baryogenesis]] via the [[chiral anomaly]] and its sensitivity to [[instantons]] is not too far away from Kelvin's intuition.
 
