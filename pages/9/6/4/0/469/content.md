@@ -15,17 +15,17 @@
 
 ## Idea
 
-A closed monoidal category $C$ is a [[monoidal category]] that is also a [[closed category]], in a compatible way:
+A *closed monoidal category* is a [[monoidal category]] $C$ that is also a [[closed category]], in a compatible way:
 
-it has for each [[object]] $X$ a [[functor]] $(-) \otimes X : C \to C$ of forming the [[tensor product]] with $X$, as well as a functor $[X,-] : C \to C$ of forming the [[internal-hom]] with $X$, and these form a pair of [[adjoint functor]]s.
+it has for each [[object]] $X$ a [[functor]] $(-) \otimes X : C \to C$ of forming the [[tensor product]] with $X$, as well as a functor $[X,-] : C \to C$ of forming the [[internal-hom]] with $X$, and these form a pair of [[adjoint functors]].
 
 
-The strategy for formalizing the idea of a closed category, that "the collection of morphisms from $a$ to $b$ can be regarded as an object of $C$ itself", is to mimic the situation in [[Set]] where for any three objects (sets) $a$, $b$, $c$ we have an isomorphism
+The strategy for formalizing the idea of a closed category, that "the collection of morphisms from $a$ to $b$ can be regarded as an object of $C$ itself", is to mimic the situation in [[Set]] where for any three objects (sets) $a$, $b$, $c$ we have [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
 $$
   Hom(a \otimes b, c) \simeq Hom(a, [b,c])
   \,,
 $$
-naturally in all three arguments,
+[[natural transformation|natural]] in all three [[variables]],
 where $\otimes = \times$ is the standard [[cartesian product]] of sets.  This [[natural isomorphism]] is called [[currying]].
 
 Currying can be read as a characterization of the [[internal hom]] $Hom(b,c)$ and is the basis for the following definition.
@@ -37,18 +37,32 @@ A closed monoidal category is a special case of the notion of [[closed pseudomon
 
 ### Symmetric closed monoidal category
 
-A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all objects $b \in C_0$ the functor $ - \otimes b : C \to C$ has a [[adjoint functor|right adjoint]] functor $[b,-] : C \to C$.
-
-This means that for all $a,b,c \in C_0$ we have a [[natural bijection]]
+A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ - \otimes b : C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
 
 $$
-  Hom_C(a \otimes b, c) \simeq Hom_C(a, [b,c])
+  \underset{v \in C}{\forall}
+  \;\;
+  C
+  \underoverset
+    {\underset{[b,-]}{\longrightarrow}}
+    {\overset{b \otimes (-)}{\longleftarrow}}
+    {\;\;\;\;\;\bot\;\;\;\;\;}
+  C
+  \,.
+$$
+
+This [means](adjoint+functor#InTermsOfHomIsomorphism) that for all $a,b,c \in C_0$ we have a [[natural bijection]]
+
+$$
+  Hom_C(a \otimes b, c) 
+   \;\simeq\; 
+  Hom_C(a, [b,c])
   \,,
 $$
 
-natural in all arguments.
+[[natural transformation|natural]] in all [[variables|arguments]].
 
-The object $[b,c]$ is called the **[[internal hom]]** of $b$ and $c$. This is commonly also denoted by lower case $hom(b,c)$ (and then often underlined).
+The object $[b,c]$ is called the **[[internal hom]]** of $b$ and $c$. This is commonly also denoted by lower case $hom(b,c)$ (and then sometimes underlined).
 
 ### Cartesian closed monoidal category
 
@@ -196,7 +210,11 @@ For more historical development see at _[linear type theory -- History of linear
 
 In [[enriched category theory]] the enriching category is taken to be closed monoidal. Accordingly the standard textbook on enriched category theory
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_, section 1.5, ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
+* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp. ([ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)); 
+
+  republished as:
+
+  Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 has a chapter on just closed monoidal categories.
 
