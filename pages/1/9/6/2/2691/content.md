@@ -88,7 +88,7 @@ In $dgcAlg^{\geq 0}_{k}$ (eq:CategoryOfdgcAlgebras):
 
    (see at _[pushouts of commutative monoids](category+of+monoids#PushoutOfCommutativeMonoids)_)
 
-1. the [[product]] is given by [[direct sum]] on underlying [[graded vector spaces]]
+1. the [[product]] is given by [[direct sum]] on [[underlying]] [[graded vector spaces]]
 
    (since the [[forgetful functor]] is a [[right adjoint]]).
 
@@ -541,9 +541,9 @@ is a [[Quillen adjunction]] between the respective projective model categories (
 \begin{proof}
   It is immediate that [[restriction of scalars]] is a [[right Quillen functor]]: 
 
-1. It preserves [[fibrations]], since these are the [[surjections]] of underlying sets, and restriction of scalars does not change the underlying sets.
+1. It preserves [[fibrations]], since these are the [[surjections]] of [[underlying]] [[sets]], and restriction of scalars does not change the underlying sets.
 
-1. It preserves [[weak equivalences]], since these are the [[isomorphisms]] on [[cochain cohomology]] [[cohomology groups|groups]] of underlying [[cochain complexes]], and, again, restriction of scalars does not change the underlying sets of the underlying cochain complexes.
+1. It preserves [[weak equivalences]], since these are the [[isomorphisms]] on [[cochain cohomology]] [[cohomology groups|groups]] of [[underlying]] [[cochain complexes]], and, again, restriction of scalars does not change the underlying sets of the underlying cochain complexes.
 
 \end{proof}
 
