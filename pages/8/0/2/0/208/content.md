@@ -33,4 +33,11 @@ See [[stuff, structure, property]] and also section 2.4 [page 15](http://arxiv.o
 
 * John C. Baez, Michael Shulman, _Lectures on n-Categories and Cohomology_ ([arXiv](http://arxiv.org/abs/math.CT/0608420)).
 
+See also 
+
+* Wikipedia, *[Forgetful functor](https://en.wikipedia.org/wiki/Forgetful_functor)*
+
 [[!redirects forgetful functors]]
+
+[[!redirects underlying]]
+
