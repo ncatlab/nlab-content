@@ -302,7 +302,11 @@ A [[point-set topology|point-set argument]] for [[topological spaces]]/[[topolog
 ### In homotopy type theory
   {#InHomotopyTypeTheory}
 
-Recall that in [[homotopy type theory]], an [[∞-group]] $G$ is represented by its [[delooping]] type, a pointed connected type $\mathbf{B} G$. An [[∞-action]] of $G$ on a [[term]] $a$ of [[type]] $A$ is given by a [[group homomorphism]] $G \to Aut_A(a)$, represented by a morphism of [[pointed homotopy types]] $\mathbf{B} G \to_* (A,a)$. (Since $\mathbf{B} G$ is [[connected homotopy type|connected]], it doesn't matter whether we restrict the [[codomain]] to the [[connected component]] of $A$ at $a$.)
+Recall that in [[homotopy type theory]], an [[∞-group]] $G$ is represented by its [[delooping]] type, a pointed connected type $\mathbf{B} G$. 
+
+(The [categorical semantics](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence) of this is a groupal [[A-∞ algebra|A-∞]] [[∞-stack]], in some [[(∞,1)-topos]], so that the following is actually about free loop spaces in the generality of [[inertia ∞-stacks]], not though in the yet further generality of [[free loop ∞-stacks]].)
+
+An [[∞-action]] of $G$ on a [[term]] $a$ of [[type]] $A$ is given by a [[group homomorphism]] $G \to Aut_A(a)$, represented by a morphism of [[pointed homotopy types]] $\mathbf{B} G \to_* (A,a)$. (Since $\mathbf{B} G$ is [[connected homotopy type|connected]], it doesn't matter whether we restrict the [[codomain]] to the [[connected component]] of $A$ at $a$.)
 
 We thus see that the type of all [[∞-actions]] of $G$ on objects of $A$ is the [[function type]] $\mathbf{B} G \to A$. In particular, the type of $U$-small $G$-types, where $U$ is a [[type universe]], is $\mathbf{B} G \to U$.
 
@@ -342,7 +346,7 @@ Putting this together, we get that the [[homotopy quotient|homotopy orbits]] of 
   \end{aligned}
 \]
 
-where in the last step we used the [[universal property]] of the [[homotopy type]] ([[shape modality|shape]]) of the [[circle]], $&#643;S^1 \simeq \mathbf{B}\mathbb{Z}$, defined as a [[higher inductive type]] ([here](higher+inductive+type#ExamplesTheCircle)) with a point [[term introduction rule|constructor]] $base : &#643;S^1$ and a path constructor $loop : base =_{&#643;S^1} base$.
+where in the last step we used the [[universal property]] of the [[homotopy type]] ([[shape modality|shape]]) of the [[circle type]], $&#643;S^1 \simeq \mathbf{B}\mathbb{Z}$, defined as a [[higher inductive type]] ([here](higher+inductive+type#ExamplesTheCircle)) with a point [[term introduction rule|constructor]] $base : &#643;S^1$ and a path constructor $loop : base =_{&#643;S^1} base$.
 
 The function type $&#643;S^1 \to B G$ is the representation of the free loop type $\mathcal{L}(\mathbf{B} G)$ of $\mathbf{B} G$, completing the argument.
 
