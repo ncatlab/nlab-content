@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
-#### Higher Lie theory
+#### Mapping space
 +--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include mapping space - contents]]
 =--
 =--
 =--
@@ -231,10 +231,54 @@ where
 
 For $G$ a [[finite group]] (most of the following holds more generally fro [[discrete groups]]), we discuss the inertia groupoid $\Lambda \mathbf{B}G$ of the [[delooping groupoid]] $\mathbf{B}G \,=\, (G \rightrightarrows \ast)$.
 
+\begin{remark}\label{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}
+**([[delooping groupoid]] and [[simplicial classifying space]] of [[finite group]])** \linebreak
+The [[nerve]] of the [[delooping groupoid]] of a [[discrete group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial classifying space]] of $G$ (see [this Example](simplicial+classifying+space#SimplicialClassifyingSpaceOfAnOrdinaryGroup)): 
+$$
+  N
+  \big(
+    G \rightrightarrows \ast
+  \big)
+  \;\simeq\;
+  \overline{W} G
+  \;\;\;
+  \in
+  \;
+  sSet
+  \,.
+$$
+For notational brevity we will be referring to $\overline{W}G$ in the following, but it may be helpful to keep thinking of the nerve of the delooping groupoid. 
+From that perspective, an [[n-simplex]] in $\overline{W}G$, which is an [[n-tuple]] of group elements, is suggestively denoted as a sequence of composable arrows:
+
+$$
+  \big(\overline{W}G\big)_{n}
+  \;\;
+    =
+  \;\;
+  \Big\{
+    \bullet
+    \xrightarrow{g_{n-1}}
+    \bullet
+    \xrightarrow{\;}
+    \cdots
+    \bullet
+    \xrightarrow{\;}
+    \bullet
+    \xrightarrow{g_1}
+    \bullet
+    \xrightarrow{g_0}
+    \bullet
+    \;\big\vert\;
+    g_i \in G
+  \Big\}
+  \,.
+$$
+
+\end{remark}
+
 
 \begin{proposition}
 The inertia groupoid $\Lambda \mathbf{B} G$ is [[isomorphism|isomorphic]] to the [[action groupoid]] of the [[adjoint action]] of $G$ on itself:
-
 $$
   \Lambda \mathbf{B}G
   \;\simeq\;
@@ -250,18 +294,172 @@ $$
   \right)
 $$
 \end{proposition}
-
-
-$$
-   N\big( \Lambda \mathbf{B}G\big)_\bullet
-   \;\simeq\;
-   G^{\times_{\bullet + 1}}
-$$
+This follows by immediate inspection. For more discussion see at *[[free loop space of a classifying space]]* the section *[Examples -- For finite groups](free+loop+space+of+classifying+space#ExampleDiscreteGroups)*.
 
 
 \begin{proposition}
 The [[groupoid convolution algebra]] of the inertia groupoid of the [[delooping groupoid]] $\mathbf{B}G$ is the [[Drinfeld double]] of the [[group convolution algebra]] of $G$.
 \end{proposition}
+
+
+
+\begin{definition}\label{MinimalSimplicialCircle}
+**(minimal simplicial circle)** \linebreak
+  Write 
+  $$
+    S 
+    \;\coloneqq\;
+    \Delta[1]/\partial\Delta[1]
+    \;\;\;
+    \in
+    \;
+    sSet
+  $$
+  for the [[simplicial set]] with exactly two non-degenerate cells, 
+
+* one of which in degree 0, which we denote by $[0] = [1]$,
+
+* and one in degree 1, which we denote by $\big[ [0], [1] \big]$.
+
+\end{definition}
+
+The following proposition follows on abstract grounds, but the explicit component-based proof we give is necessary in order to understand the [[transgression]]-formula for [[cocycles]] in the [[group cohomology]] of $G$ to cocycles on the inertia groupoid.
+\begin{proposition}\label{RelationToSimplicialHomComplexIntoClassifyingSpace}
+The [[nerve]] of the inertia groupoid of a delooping groupoid of a [[finite group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial hom complex]] out of the minimal simplicial circle $S$ (Def. \ref{MinimalSimplicialCircle}) into the [[simplicial classifying space]] $\overline{W}G$ (Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}):
+
+$$
+  N\big( \Lambda \mathbf{B}G\big)_\bullet
+  \;\simeq\;
+  [S,\overline{W}G]_\bullet
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+We claim that the isomorphism is given by sending, for each $n \in \mathbb{N}$, any [[n-simplex]] $(\gamma, g_{n-1}, \cdots, g_1, g_0)$ of $N\big( Func( \mathbf{B}\mathbb{Z}, \, \mathbf{B}G )\big)$, being a sequence of [[natural transformations]] of the form
+$$
+  \array{
+    \bullet
+    &\xrightarrow{g_{n-1}}&
+    \bullet
+    &\xrightarrow{g_{n-2}}&
+    \cdots
+    &\xrightarrow{g_{n-j-1}}&
+    \bullet
+    &\xrightarrow{g_{n-j-2}}&
+    \bullet
+    &\xrightarrow{g_{n-j-3}}&
+    \cdots
+    &\xrightarrow{g_{0}}&
+    \bullet
+    \\
+    \big\downarrow
+    {}^{\mathrlap{  
+      \gamma 
+    }}
+    && 
+    \big\downarrow
+    {}^{\mathrlap{  
+      g_{n-1}^{-1} \cdot \gamma \cdot g_{n-1}
+    }}
+    && 
+    && 
+    \big\downarrow
+    &&
+    \big\downarrow
+    && &&
+    \big\downarrow 
+    {}^{\mathrlap{  
+      ( g_{n-1} \cdots g_{0} )^{-1} 
+      \cdot
+      \gamma 
+      \cdot
+      ( g_{n-1} \cdots g_{0} )
+    }}
+    \\
+    \bullet
+    &\xrightarrow{g_{n-1}}&
+    \bullet
+    &\xrightarrow{g_{n-2}}&
+    \cdots
+    &\xrightarrow{g_{n-j-1}}&
+    \bullet
+    &\xrightarrow{g_{n-j-2}}&
+    \bullet
+    &\xrightarrow{g_{n-j-3}}&
+    \cdots
+    &\xrightarrow{g_{0}}&
+    \bullet
+    \mathrlap{\,,}
+  }
+$$
+
+
+to the homomorphism of simplicial sets
+
+$$
+  \Delta[n] \times S \xrightarrow{\;\;} \overline{W}G
+  \,,
+$$
+
+which, in turn, sends a non-degenerate $(n+1)$-simplex in $\Delta[n] \times S$ of the form (in the path notation discussed at *[[product of simplices]]*)
+
+$$
+  \array{
+    (0,[0])
+    &\to&
+    (1,[0])
+    &\to&
+    \cdots
+    &\to&
+    (j,[0])
+    \\
+    && && && \big\downarrow
+    \\
+    && && && 
+    (j,[1])
+    &\to&
+    (j+1,[1])
+    &\to&
+    \cdots
+    &\to&
+    (n,[1])
+  }
+$$
+
+to the $n+1$-simplex in $\overline{W}G$ (Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}) of the form
+ 
+$$
+  \array{
+    \bullet
+    &\xrightarrow{g_{n-1}}&
+    \bullet
+    &\xrightarrow{g_{n-2}}&
+    \cdots
+    &\xrightarrow{g_{n-j-1}}&
+    \bullet
+    \\
+    && && && 
+    \big\downarrow 
+    {}^{\mathrlap{  
+      ( g_{n-1} \cdots g_{n-j-1} )^{-1} 
+      \cdot
+      \gamma 
+      \cdot
+      ( g_{n-1} \cdots g_{n-j-1} )
+    }}
+    \\
+    && && && 
+    \bullet
+    &\xrightarrow{g_{n-j-2}}&
+    \bullet
+    &\xrightarrow{g_{n-j-3}}&
+    \cdots
+    &\xrightarrow{g_{0}}&
+    \bullet
+  }
+$$
+
+\end{proof}
 
 ## Related concepts
 
