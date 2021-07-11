@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
 =--
 =--
 
@@ -100,6 +104,10 @@ As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then
 * [[2-functor 2-category]]
 
 * [[(infinity,1)-category of (infinity,1)-functors]]
+
+* [[simplicial mapping complex]]
+
+* [[inertia groupoid]]
 
 [[!redirects functor category]]
 [[!redirects functor categories]]
