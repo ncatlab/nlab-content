@@ -46,7 +46,7 @@ The [[Dold-Kan correspondence]] yields (see [there](Dold-Kan+correspondence#Mode
 
 In fact, much more is true: all five classes of maps
 in a [[model category]] ([[weak equivalences]], (acyclic) [[cofibrations]],
-and (acyclic) [[fibrations]]) are preserved and reflected
+and (acyclic) [[fibrations]]) are [[preserved]] and [[reflected]]
 by both of these equivalences.
 That is to say, each [[model structure]] is obtained from the other
 one by transferring it along the corresponding equivalence of categories.
