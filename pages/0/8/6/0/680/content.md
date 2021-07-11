@@ -213,18 +213,24 @@ The structures of categories with weak equivalences have standard refinements to
 Both 
 
 $$
-  (N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
+  (N \dashv \Gamma) 
+  \;\colon\; 
+  Ch_\bullet^+ 
+    \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
   sAb
 $$
 
 as well as
 
 $$
-  (\Gamma \dashv N) : sAb \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}}
+  (\Gamma \dashv N) 
+  \;\colon\; 
+  sAb 
+    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}}
   Ch_\bullet^+
 $$
 
-are [[Quillen equivalence]]s with respect to these model structures.
+are [[Quillen equivalences]] with respect to these model structures.
 
 =--
 
@@ -234,7 +240,7 @@ This is due to [Quillen 67, Section II.4 item 5](#Quillen67), see also [Schwede-
 +-- {: .num_remark }
 ###### Remark
 
-The category [[sAb]] $ = Ab^{\Delta^{op}}$ is -- being a [[category of simplicial objects]] of a category with [[colimits]] -- is naturally an [[sSet]]-[[enriched category]] and with the model structure this makes it a [[simplicial model category]].
+The category [[sAb]] $ = Ab^{\Delta^{op}}$ -- being a [[category of simplicial objects]] of a category with [[colimits]] -- is naturally an [[sSet]]-[[enriched category]] and with [[model structure on simplicial abelian groups|its model structure]] this makes it a [[simplicial model category]].
 
 Since the DK-correspondence is even an [[equivalence of categories]], this induces accordingly the structure of a simplicial model category also on $Ch_\bullet^+$. Therefore the above Quillen equivalence is even a [[simplicial Quillen adjunction]].
 
