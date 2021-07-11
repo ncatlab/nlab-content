@@ -276,6 +276,9 @@ On transgression of [[group cohomology]] for [[discrete groups]] to cohomology o
 [[!redirects inertia stack]]
 [[!redirects inertia stacks]]
 
+[[!redirects inertia ∞-stack]]
+[[!redirects inertia ∞-stacks]]
+
 [[!redirects inertia groupoid]]
 [[!redirects inertia groupoids]]
 
