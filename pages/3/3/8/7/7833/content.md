@@ -26,7 +26,7 @@ defines an action of $R$ on $M$. This construction extends to a  [[functor]]
 $$
   \rho_f \colon SMod \longrightarrow RMod
 $$
-between [[categories of modules]], sending $\cdot_S$ to $\cdot_R$. This is called *restrict of scalars* (along $f$).
+between [[categories of modules]], sending $\cdot_S$ to $\cdot_R$. This is called *restriction of scalars* (along $f$).
 
 This functor has a [[left adjoint functor]] 
 
