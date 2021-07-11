@@ -58,7 +58,7 @@ Genuine powers can be constructed in the expected way from the divided powers:
 +-- {: .num_prop} 
 ###### Proposition
 
-If $(A,I,\gamma)$ is a divided power algebra, then $n! \gamma_n(x) = x^n$ for every $x \in I$ and $n in \mathbb{N}$.
+If $(A,I,\gamma)$ is a divided power algebra, then $n! \gamma_n(x) = x^n$ for every $x \in I$ and $n \in \mathbb{N}$.
 =--
 
 +-- {: .proof} 
