@@ -20,11 +20,16 @@ Dually, a bicategory admitting all *left* extensions and lifts is called a **coc
 ## Examples
 
 - [[Prof]]
+- The bicategory $Span(E)$ is closed if and only if the category $E$ is [[locally cartesian closed]]; see ([Day 1974, Proposition 4.1](#Day74)).
 
 ## Related entries
 
 - [[symmetric bicategory]]
 - An [[closed category|extension system]] is to a closed bicategory what a [[closed category]] is to a [[monoidal category]].
+
+## References
+
+* {#Day74} [[Brian Day]], _Limit spaces and closed span categories_,  Lecture Notes in Mathematics, 420, 1974 ([doi:10.1007/BFb0063100](https://doi.org/10.1007/BFb0063100))
 
 [[!redirects closed bicategories]]
 [[!redirects coclosed bicategory]]
