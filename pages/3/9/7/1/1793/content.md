@@ -92,11 +92,11 @@ We discuss the
 There is a [[model category]] structure on the [[category of chain complexes]]
 $Ch_{\bullet \geq 0 }(\mathcal{A})$ (in non-negative degree) whose
 
-* weak equivalences are [[quasi-isomorphisms]];
+* [[weak equivalences]] are the [[quasi-isomorphisms]];
 
-* fibrations are the morphisms that are [[epimorphisms]] in $R$[[Mod]] in each _[[positive number|positive]]_ degree;
+* [[fibrations]] are the morphisms that are [[underlying]] [[epimorphisms]] in $R$[[Mod]] in each _[[positive number|positive]]_ degree;
 
-* cofibrations are degreewise [[monomorphisms]] with degreewise [[projective object|projective]] [[cokernel]];
+* [[cofibrations]] are degreewise [[monomorphisms]] with degreewise [[projective object|projective]] [[cokernel]];
 
 called the **projective model structure**.
 
@@ -105,6 +105,8 @@ called the **projective model structure**.
 The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
 ([Quillen 67, II.4, pages II.4.11, II.4.12](#Quillen67)).
 See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06), [Dungan 10, 2.4.2, proof in section 2.5](#Dungan10)).
+
+{#MonoidalModelStructureOnConnectiveChainComplexes} With respect to the degreewise [[tensor product of chain complexes]] this is a [[monoidal model category]] ([Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
 
 
 ##### Injective structure on cochain complexes
@@ -723,11 +725,9 @@ Given a projective class $\mathcal{P}$ in $\mathcal{A}$ (def. \ref{ProjectiveCla
 
 Then this constitutes a [[model category]] structure precisely if cofibrant [[resolution]]s exist, which is the case in particular if
 
-1. $\mathcal{P}$ is the pullback projective class (def. \ref{PullbackProjectiveClass}) of a trivial projective class (def. \ref{TrivialProjectiveClass}) along a functor $U$ that preserves countable [[direct sum]]s;
+1. $\mathcal{P}$ is the pullback projective class (def. \ref{PullbackProjectiveClass}) of a trivial projective class (def. \ref{TrivialProjectiveClass}) along a functor $U$ that preserves countable [[direct sums]];
 
-1. [^fine]
-
-[^fine]:Some one finish this part.
+1. (...)
 
 When the structure exists, it is a [[proper model category]].
 
@@ -1066,8 +1066,12 @@ The model structure on unbounded chain complexs with fibrations the degreewise s
 
 and noticed as cofibrantly generated model structure on p. 7 of
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ ([arXiv:math/9801082](http://arxiv.org/abs/math/9801082))
- {#SchwedeShipley98}
+* {#SchwedeShipley98} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ ([arXiv:math/9801082](http://arxiv.org/abs/math/9801082))
+
+In the context of the [[Dold-Kan correspondence]] with the [[model structure on simplicial abelian groups]]:
+
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376))
+ 
 
 A textbook account is around Theorem 2.3.11 of:
 
