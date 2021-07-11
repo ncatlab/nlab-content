@@ -58,21 +58,43 @@ such that the following two compatibility conditions are satisfied
 
 =--
 
-+-- {: .num_remark #CaseOfCofibrantTensorUnit}
-###### Remark
+\begin{remark}\label{InternalHomQuillenAdjunction}
+**(internal hom Quillen adjunction)**
 
-The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ is  preserves cofibrations and acyclic cofibrations.
+Let $X$ be a [[cofibrant object]], hence $\varnothing \overset{\exists !}{\to} X$ a [[cofibration]].
 
-In particular if the [[tensor unit]] $I$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the [pushout-product axiom](#PushoutProductAxiom). (Because then $Q I \to I$ is a weak equivalence between cofibrant objects and such are preserved by functors that preserve acyclic cofibrations, by [[Ken Brown's lemma]]. ) 
+In this case the [[pushout-product axiom]] (Def. \ref{MonoidalModelCategory}) says that the [[tensor product]] [[functor]] $X \otimes (-)$ preserves [[cofibrations]] and [[acyclic cofibrations]]. Since the ambient category is assumed to be [[closed monoidal category]], so that this functor has a [[right adjoint]] [[internal hom]] $[X,-]$, this means that it is the [[left Quillen functor]] in a [[Quillen adjunction]]
 
-=--
+$$
+  \mathcal{C}
+  \underoverset
+    {\underset{[X,-]}{\longrightarrow}}
+    {\overset{X\otimes(-)}{\longleftarrow}}
+    {
+      \;\;\;\;\;
+      \bot_{\mathrlap{Qu}} 
+      \;\;\;\;\;
+    }
+  \mathcal{C}
+$$
+
+\end{remark}
+
+
+\begin{remark}\label{CaseOfCofibrantTensorUnit}
+**(cofibrant tensor unit implies unit axiom)**\linebreak
+As a special case of Rem. \ref{InternalHomQuillenAdjunction}: If the [[tensor unit]] $I$ happens to be [[cofibrant objects|cofibrant]], then the unit axiom in def. \ref{MonoidalModelCategory} is already implied by the [pushout-product axiom](#PushoutProductAxiom). 
+
+(Because then $Q I \to I$ is a [[weak equivalence]] between [[cofibrant objects]] and such are preserved by functors that preserve acyclic cofibrations, by [[Ken Brown's lemma]]. ) 
+\end{remark}
 
 
 
 +-- {: .num_defn #MonoidAxiom}
 ###### Definition
+**([[monoid axiom]])**
 
-We say a [[monoidal model category]], def. \ref{MonoidalModelCategory}, satisfies the **[[monoid axiom]]**, def. \ref{MonoidalModelCategory}, if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a weak equivalence.
+One says that a [[monoidal model category]], def. \ref{MonoidalModelCategory}, satisfies the *[[monoid axiom]]* if every [[morphism]] that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a [[weak equivalence]].
 
 =--
 
