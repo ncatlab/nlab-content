@@ -61,6 +61,10 @@ Reviews of the notion include the following references:
 
 * [[Aise Johan de Jong]] et al., [[The Stacks Project]], [Chapter 09PD](https://stacks.math.columbia.edu/tag/09PD).
 
+In relation to the [[sphere spectrum]]
+
+* [[Sanath Devalapurkar]], _Divided powers and the sphere spectrum_, [blog post](https://sanathdevalapurkar.github.io/blog/algebraic-topology/2019/02/20/divided-powers.html)
+
 See also:
 
 * Wikipedia, *[Divided power structure](https://en.wikipedia.org/wiki/Divided_power_structure)*
