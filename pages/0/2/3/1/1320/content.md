@@ -36,7 +36,9 @@ Given a pair of [[adjoint functors]] $F: C \to D :U$, $F \dashv U$, with [[unit 
 
 Consider the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-modules) in $C$. Clearly $U (\epsilon_M): T U M = U F U M \to U M$ is a $T$-action. In fact there is a canonical __comparison functor__ $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ given on objects by $K(M)=(U M, U (\epsilon_M))$.  We then say that we have a (resp. strictly) [[monadic adjunction]] iff $K$ is an equivalence (resp. isomorphism) of categories.
 
-A [[functor]] $U: D \to C$ is **monadic** (resp. **strictly monadic**) if it has a [[left adjoint]] $F: C\to D$ and the comparison functor $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ is an [[equivalence of categories]] (resp. an isomorphism of categories).  In other words, up to equivalence, monadic functors are precisely the [[forgetful functor]]s defined on Eilenberg--Moore categories for monads, and strictly monadic functors are the same as these forgetful functors up to isomorphism. A __category__ $D$ is __monadic__ over a category $C$ if there is a functor $U: D \to C$ which is monadic. 
+A [[functor]] $U: D \to C$ is **monadic** (resp. **strictly monadic**) if it has a [[left adjoint]] $F: C\to D$ and the comparison functor $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ is an [[equivalence of categories]] (resp. an isomorphism of categories).  In other words, up to equivalence, monadic functors are precisely the [[forgetful functor]]s defined on Eilenberg--Moore categories for monads, and strictly monadic functors are the same as these forgetful functors up to isomorphism. A __category__ $D$ is __monadic__ over a category $C$ if there is a functor $U: D \to C$ which is monadic.
+
+Monadic functors are sometimes called **functors of effective descent type**. See the page on [[monadic descent]] for more details.
 
 ## Properties
 
@@ -55,14 +57,13 @@ This is an instance of a general phenomenon: Let $\mathcal{C}$ be a reflective s
 
 * [[comonadic functor]], [[monadicity theorem]]
 
-* If the comparison functor is only [[fully faithful]], a functor is sometimes said to be of [[descent type]].
+* If the comparison functor is only [[fully faithful]], a functor is sometimes called [[premonadic]] or said to be of [[descent type]].
 
 * [[monadic decomposition]]
 
 [[!redirects monadic]]
 [[!redirects monadic category]]
 [[!redirects monadic functors]]
-
 
 [[!redirects comonadic]]
 [[!redirects co-monadic]]
@@ -71,4 +72,8 @@ This is an instance of a general phenomenon: Let $\mathcal{C}$ be a reflective s
 [[!redirects co-monadic functor]]
 [[!redirects comonadic functors]]
 [[!redirects co-monadic functors]]
+
+[[!redirects effective descent type]]
+[[!redirects functor of effective descent type]]
+[[!redirects functors of effective descent type]]
 
