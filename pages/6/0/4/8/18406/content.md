@@ -25,12 +25,12 @@ A functor is of *descent type* if it satisfies "half" of the condition to be [[m
 
 ## Definition
 
-A functor $U:B\to A$ is of **descent type** if 
+A functor $U:B\to A$ is of **descent type** (or is **premonadic**) if 
 
 1. it has a [[left adjoint]] $F:A\to B$, and
 2. for all $b\in B$ the canonical [[fork]] $F U F U b \underoverset{F U \epsilon}{\epsilon F U}{\rightrightarrows} F U b \xrightarrow{\epsilon} b$ is a [[coequalizer]].
 
-The second condition is equivalent to asking that the comparison functor $B \to A^{U F}$ from $B$ to the [[Eilenberg-Moore category]] of the [[monad]] $U F$ is [[fully faithful]].
+The second condition is equivalent to asking that the comparison functor $B \to A^{U F}$ from $B$ to the [[Eilenberg-Moore category]] of the [[monad]] $U F$ is [[fully faithful]]. When the comparison functor is [[essentially surjective]] (hence an [[equivalence of categories]]), $U$ is of [[effective descent type]] or [[monadic]].
 
 ## Examples
 
@@ -43,3 +43,5 @@ By [[monadic descent]], a morphism $f$ in the base of a [[fibration]] is a [[des
 
 [[!redirects descent type]]
 [[!redirects functors of descent type]]
+[[!redirects premonadic functor]]
+[[!redirects premonadic functors]]
