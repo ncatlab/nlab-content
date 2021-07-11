@@ -96,3 +96,7 @@ If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved b
 [[!redirects reflected colimit]]
 [[!redirects reflected colimits]]
 [[!redirects reflection of colimits]]
+
+[[!redirects reflects]]
+[[!redirects reflected]]
+
