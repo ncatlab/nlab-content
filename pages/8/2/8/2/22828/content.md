@@ -177,14 +177,21 @@ When $\mathcal{X} \simeq X \!\sslash\! G$ is a [[global quotient orbifold]] of a
 
 [[!redirects free loop orbifolds]]
 
-[[!redirects free loop stack]]
-[[!redirects free loop stacks]]
-
 [[!redirects loop orbifold]]
 [[!redirects loop orbifolds]]
 
+[[!redirects free loop stack]]
+[[!redirects free loop stacks]]
+
+[[!redirects free loop ∞-stack]]
+[[!redirects free loop ∞-stacks]]
+
 [[!redirects loop stack]]
 [[!redirects loop stacks]]
+
+[[!redirects loop ∞-stack]]
+[[!redirects loop ∞-stacks]]
+
 
 
 
