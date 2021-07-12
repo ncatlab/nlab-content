@@ -23,6 +23,7 @@ This page describes aspects of the [[combinatorics]] of [[Cartesian products]] o
 
 
 ## Products of simplicial sets
+ {#ProductsOfSimplicialSets}
 
 \begin{proposition}\label{CartesianProductOfSimplicialSetsIsComponentwise}
 **([[cartesian product]] of [[simplicial sets]])**\linebreak
@@ -36,16 +37,18 @@ $$
 
 is the simplicial set whose $k$th component [[set]] is the [[Cartesian product]] of [[Sets]] of the components of the two factors
 
-$$
+\[
+  \label{ComponentSetsOfProductSimplicialSet}
   (K\times L)_k
   \;=\;
   K_k \times L_k
   \,,
-$$
+\]
 
 and whose face- and degeneracy maps are, similarly, the image under the Cartesian product-[[functor]] of the face- and degeneracy maps of the factors:
 
-$$
+\[
+  \label{StructureMapsOfProductSimpliciaSet}
   d^{K \times K}_i(x,y) 
   \;=\; 
   \big(
@@ -58,32 +61,207 @@ $$
   \big(
     s^K_i(x), \, s^L_i(y)
   \big)
-$$
+\]
 
 \end{proposition}
+\begin{proof}  
+  Since [[SimplicialSets]] is a [[category of presheaves]], namely over the [[simplex category]], this is a special case of the general fact that [[limits of presheaves are computed objectwise]].
 
-\begin{remark}
+But it is also immediate to check that
+(eq:StructureMapsOfProductSimpliciaSet) with (eq:ComponentSetsOfProductSimplicialSet)
+satisfies the defining [[universal property]] of the [[Cartesian product]].
+\end{proof}
+
+\begin{remark}\label{DegenerateSimplicesInProductOfSimplicialSets}
+**(degenerate simplices in product of simplicial sets)**
 Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
-implies that a [[simplex]] 
+means in particular that a [[simplex]] 
 of the form $(s_\alpha(x), s_\beta(y) \in K \times L$ 
-may be non-degenerate even though its two components are degenerate. 
+may be non-degenerate even though its two components are degenerate
+(see the archetypical Example \ref{NonDegenerateSimplicesInSimplicialSquare} below).
 
-This happens exactly when $\alpha \cap \beta = \varnothing$.  
-
-(Here we mean by $s_\alpha$ the composite, in order, of the $s_i$ for $i \in \alpha$.)
-
-In particular, take $K = \Delta[p]$ and $L= \Delta[q]$ with $x_p \in \Delta[p]_p$, $y_q \in \Delta[q]_q$, the 'identity' simplices that generate them.  
-
-(We will use an _ad hoc_ notation here, since the more obvious, $\iota_p$, and  $\iota_q$, would not distinguish the two simplices sufficiently in some formulae.)  There 
-
-are, then, non-degenerate simplices of dimension $p+q$, but none of higher dimension in $\Delta[p]\times \Delta[q]$.  These are of the form $(s_\alpha x_p,s_\beta y_q)$, where $\#\alpha = q$, $\#\beta = p$.
+Indeed, the proposition says that the degenerate simplices in $K \times L$ are precisely those such that their two simplex-components in $K$ and $L$, respectively, are in the image of the *same* degeneracy map $\alpha = \beta$.
 \end{remark}
 
 
 
 ## Non-degenerate cells in a product of simplices
+ {#NonDegenerateCellsInAProductOfSimplices}
 
 ### Characterization
+
+\begin{proposition}\label{NonDegenerateSimplicesInProductOfSimplices}
+**(non-degenerate $(p+q)$-simplices in $\Delta[p] \times \Delta[q]$)**
+\linebreak
+For $p,q \,\in\, \mathbb{N}$
+the non-degenerate simplices in the [[Cartesian product]] (Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise})
+
+$$
+  \Delta[p] \times \Delta[q]
+$$ 
+
+of standard [[simplices]] in [[sSet]] correspond, under the [[Yoneda lemma]], to precisely those morphisms of [[simplicial sets]]
+
+\[
+  \label{GenericSimplexInProductOfSimplices}
+  \Delta[p+q]
+  \xrightarrow{\;\; \sigma \;\;}
+  \Delta[p] \times \Delta[q]
+\]
+
+which satisfy the following equivalent conditions:
+
+* as morphisms of [[posets]], they are [[strictly monotone]];
+
+* as [[permutations]] of $(p+q)$ elements they are $(p,q)$-[[shuffles]];
+
+* as morphisms of [[finitely generated object|finitely generated]] [[categories]] they take generating morphisms to generating morphisms;
+
+\end{proposition}
+
+(e.g. [Kerodon 2.5.7.2](#Kerodon): [00RH](https://kerodon.net/tag/00RH))
+
+Such morphisms may hence be represented by [[paths]]
+
+* on a $(p+1)\times(q+1)$-lattice,
+
+* from one corner to its opposite corner,
+
+* consisting of $p+q$ unit steps, 
+
+* each either horizontally or vertially:
+
+\begin{tikzcd}
+  [
+    row sep=large
+  ]
+    {(0,0)}
+    \ar[r]
+    \ar[d]
+    \ar[
+      r,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    %
+    {(1,0)}
+    \ar[r]
+    \ar[d]
+    \ar[
+      d,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    {(2,0)}
+    \ar[rr,dotted]
+    \ar[d]
+    &
+    &
+    {(p,0)}
+    \ar[d]
+    \\
+    {(0,1)}
+    \ar[r]
+    \ar[d]
+    &
+    {(1,1)}
+    \ar[r]
+    \ar[d]
+    \ar[
+      d,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    {(2,1)}
+    \ar[rr, dotted]
+    \ar[d]
+    &
+    \cdots
+    &
+    {(p,1)}    
+    \ar[d]
+    \\
+    {(0,2)}
+    \ar[r]
+    \ar[dd, dotted]
+    &
+    {(1,2)}
+    \ar[r]
+    \ar[dd, dotted]
+    \ar[
+      r,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    {(2,2)}
+    \ar[rr, dotted]
+    \ar[dd, dotted]
+    \ar[ddrr, dotted]
+    \ar[
+      ddrr,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt,
+      dotted
+    ]
+    &
+    &
+    {(p,2)}
+    \ar[dd, dotted]
+    \\
+    &
+    &
+    &&
+    \\
+    {(0,q)}
+    \ar[r]
+    &
+    {(1,q)}
+    \ar[r]
+    &
+    {(2,q)}
+    \ar[rr, dotted]
+    &
+    &
+    {(p,q)}
+\end{tikzcd}
+
+
+\begin{proof}
+From Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
+it is clear (Rem. \ref{DegenerateSimplicesInProductOfSimplicialSets}) that a 
+simplex $\sigma$ (eq:GenericSimplexInProductOfSimplices) is degenerate 
+precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then -- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ -- it must be that the path proceeds by $p + q$ unit steps. 
+\end{proof}
+
+\begin{remark}\label{NotationForSimplicesInAProductOfSimplices}
+**(sequence-notation for simplices in a product of simplices)** \linebreak
+Written as a [[pair]] of $(p+q)$-simplices, one in $\Delta[p]$ and one in $\Delta[q]$, the non-degenerate simplex (eq:GenericSimplexInProductOfSimplices) is a [[pair]] of [[monotone]] lists of [[natural numbers]]
+
+$$
+  \left(
+    \begin{array}{ccccccccc}
+      0& \ldots & 0 & 1 & \ldots & 1 & 2 & \ldots & p
+      \\
+      0& \ldots & i & i & \ldots & j & j & \ldots & q
+    \end{array}
+  \right)
+  \,,
+$$
+
+such that one row has a constant step precisely where the other has not.
+\end{remark}
+
+
+Here is a slightly alternative way to think of these non-degenerate simplices:
 
 \begin{definition}
 For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
@@ -110,8 +288,7 @@ where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
 
 \end{definition}
 
-\begin{proposition}\label{NonDegenerateSimplicesInProductOfSimplices}
-
+\begin{proposition}
 The non-degenerate simplices in the [[Cartesian product]] (Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise})
 
 $$
@@ -128,23 +305,6 @@ for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\D
 
 \end{proposition}
 
-\begin{remark}\label{NotationForSimplicesInAProductOfSimplices}
-**(notation for simplices in a product of simplices)** \linebreak
-More explicitly:  If we represent a vertex of a product by a 'column vector' rather than the more usual 'row vector' for the moment, then any non-degenerate $(p+q)$-simplex of $\Delta[p]\times \Delta[q]$ can be represented in the form of an ordered list of vertices with $p + q + 1 $ columns:
-
-$$
-  \left(
-    \begin{array}{ccccccccc}
-      0& \ldots & 0 & 1 & \ldots & 1 & 2 & \ldots & p
-      \\
-      0& \ldots & i & i & \ldots & j & j & \ldots & q
-    \end{array}
-  \right)
-  \,,
-$$
-
-The top row, which is a simplex in $\Delta[p]$, changes at exactly those positions at which the bottom row repeats.  The top row gives a degenerate $p+q$ simplex of $\Delta[p]$, whilst the bottom row one of $\Delta[q]$, i.e., the array gives $(s_\alpha x_p, s_\beta y_q)$ for some $(\alpha, \beta)$ as above.
-\end{remark}
 
 ### Examples
  {#Examples}
@@ -449,24 +609,6 @@ For our standard examples, we have : 1) $\sigma$ is the identity, 2) $\sigma = \
 We thus have, in this case, the signs are +1, -1, and  + 1, respectively.
 
 
-### In terms of paths
-
-
-A final useful interpretation of $(p,q)$ shuffles is of ascending paths through a $p$ by $q$ integer lattice from $(0,0)$ to $(p,q)$.  This is quite well illustrated by our example.  The vertices are the integer pairs, $(i,j)$ with $0\leq i\leq p$ and $0\leq j\leq q$, so in our case we get
-
-$$\begin{matrix}
-(0,1) & - & (1,1) & - & (2,1) \\
-| & & | & & | \\
-(0,0) & - & (1,0) & - & (2,0)
-\end{matrix}$$
-
-
-The path corresponding to a $(p,q)$-shuffle just follows the list of (transposed pairs of) vertices, so, for instance, 2) goes  
-$$\begin{matrix}
- &  & (1,1) & - & (2,1) \\
- & & | & &  \\
-(0,0) & - & (1,0) && 
-\end{matrix}$$
 
 ## The poset of $(p,q)$-shuffles###
 
@@ -642,6 +784,10 @@ The shuffle-formula is due (in terms of [[simplicial abelian groups]] of [[cocha
 following:
 
 * [[Samuel Eilenberg]], [[Joseph A. Zilber]], American Journal of Mathematics Vol. 75, No. 1 (Jan., 1953), pp. 200-204 ([jstor:2372629](https://www.jstor.org/stable/2372629), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
+
+The streamlined perspective of strictly monotonic morphisms $\Delta[p+q] \to \Delta[p] \times \Delta[q]$ is highlighted in 
+
+* {#Kerodon} [[Kerodon]], 2.5.7.2 *$(p,q)$-Shuffles* ([00RH](https://kerodon.net/tag/00RH))
 
 
 Exposition:
