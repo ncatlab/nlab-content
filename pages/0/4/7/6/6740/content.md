@@ -119,7 +119,7 @@ The basic definition and some elementary properties are given in
 
 This paper also establishes  [[Gelfand-type duality for commutative von Neumann algebras]].
 
-The broader theory of measurable locales originates on [[MathOverflow]], in various questions and answers by [[Dmitri Pavlov]].  Here is an index:
+The theory of measurable locales originated on [[MathOverflow]], in various questions and answers by [[Dmitri Pavlov]].  Here is an index:
 
 * [[Dmitri Pavlov]], [answer](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542) to _Is there a category structure one can place on measure spaces so that category-theoretic products exist?_ (version: 2011-01-08)
 
