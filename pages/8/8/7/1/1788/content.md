@@ -1,4 +1,191 @@
 
+
+Such morphisms may hence be represented by [[paths]] 
+
+* on a $(p+1)\times(q+1)$-lattice,
+
+* from one corner to its opposite corner,
+
+* consisting of $p+q$ unit steps, 
+
+* each either horizontally or vertially:
+
+
+\begin{proof}
+
+From Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
+it
+
+is clear (Rem. \ref{DegenerateSimplicesInProductOfSimplicialSets}) that a 
+
+simplex $\sigma$ (eq:GenericSimplexInProductOfSimplices) is degenerate 
+
+precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then -- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ -- it must be that the path proceeds by $p + q$ unit steps. 
+
+\end{proof}
+
+
+Here is another way to think of these non-degenerate simplices:
+
+
+\begin{definition}
+For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
+for $\mu = (\mu_1 \lt  \mu_2, \lt \cdots \lt \mu_q)$ a sequence of [[natural numbers]] in $\{0, \cdots p+q\}$, write
+
+$$
+  s_\mu \colon X_p \to X_{p+q}
+$$
+
+for the map dual to the sequence 
+
+$$
+  [p+q] 
+    \stackrel{\sigma_{\mu_q}}{\to}
+  [p+q-1]
+    \stackrel{\sigma_{\mu_{q-1}}}{\to}
+  \cdots
+   \stackrel{\sigma_{\mu_1}}{\to}
+   [p]
+  \,,
+$$
+
+where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
+
+\end{definition}
+
+
+
+\linebreak
+
+Such morphisms may hence be represented by [[paths]] 
+
+* on a $(p+1)\times(q+1)$-lattice,
+
+* from one corner to its opposite corner,
+
+* consisting of $p+q$ unit steps, 
+
+* each either horizontally or vertially:
+
+
+\begin{proof}
+
+From Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
+it
+
+is clear (Rem. \ref{DegenerateSimplicesInProductOfSimplicialSets}) that a 
+
+simplex $\sigma$ (eq:GenericSimplexInProductOfSimplices) is degenerate 
+
+precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then -- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ -- it must be that the path proceeds by $p + q$ unit steps. 
+
+\end{proof}
+
+\begin{tikzcd}
+  [
+    row sep=large
+  ]
+    {(0,0)}
+    \ar[r]
+    \ar[d]
+    \ar[
+      r,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    %
+    {(1,0)}
+    \ar[r]
+    \ar[d]
+    \ar[
+      d,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    {(2,0)}
+    \ar[rr,dotted]
+    \ar[d]
+    &
+    &
+    {(p,0)}
+    \ar[d]
+    \\
+    {(0,1)}
+    \ar[r]
+    \ar[d]
+    &
+    {(1,1)}
+    \ar[r]
+    \ar[d]
+    \ar[
+      d,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    {(2,1)}
+    \ar[rr, dotted]
+    \ar[d]
+    &
+    \cdots
+    &
+    {(p,1)}    
+    \ar[d]
+    \\
+    {(0,2)}
+    \ar[r]
+    \ar[dd, dotted]
+    &
+    {(1,2)}
+    \ar[r]
+    \ar[dd, dotted]
+    \ar[
+      r,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt
+    ]
+    &
+    {(2,2)}
+    \ar[rr, dotted]
+    \ar[dd, dotted]
+    \ar[ddrr, dotted]
+    \ar[
+      ddrr,-,
+      color=blue,
+      opacity=.25,
+      line width=6pt,
+      dotted
+    ]
+    &
+    &
+    {(p,2)}
+    \ar[dd, dotted]
+    \\
+    &
+    &
+    &&
+    \\
+    {(0,q)}
+    \ar[r]
+    &
+    {(1,q)}
+    \ar[r]
+    &
+    {(2,q)}
+    \ar[rr, dotted]
+    &
+    &
+    {(p,q)}
+\end{tikzcd}
+
+
+
 $$
   \Delta[n+1]
   \longrightarrow
