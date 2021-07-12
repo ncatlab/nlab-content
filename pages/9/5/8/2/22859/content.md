@@ -32,6 +32,8 @@ The notion of *differential categories* ([Blute, Cocket & Seely 2006](#BluteCock
 
 *  {#BluteCocketSeely06} [[R. F. Blute]], [[J. R. B. Cockett]], and [[R. A. G. Seely]]: _Differential categories_. Math. Struct. Comput. Sci. 16(06), 1049–1083 (2006) ([doi:10.1017/S0960129506005676](https://doi.org/10.1017/S0960129506005676))
 
+* [[Rick Blute]], [[Robin Cockett]], Jean-Simon Lemay and [[Robert Seely]] _Differential categories revisited,_ Appl. Categ. Struct. 28, 171-235 (2020).[doi:10.1007/s10485-019-09572-y](https://doi.org/10.1007/s10485-019-09572-y)
+
 * {#EhrhardtRegnier09} [[T. Ehrhard]], [[L. Regnier]]: _The differential lambda-calculus_, Theor. Comput. Sci.309(1),1–41 (2003)
 
 * [[T. Ehrhard]], [[L. Regnier]]: _Differential interaction nets,_ Theor. Comput. Sci.364(2),166–195(2006)
