@@ -196,12 +196,16 @@ $$
 
 * The Eilenberg-Zilber map induces a functor from [[simplicial Lie algebras]] to [[dg-Lie algebras]] (see [here](dgLieAlgebraOfASimplicialLieAlgebra)).
 
+* The Eilenberg-Zilber map controls the formula for [[transgression in group cohomology]], see there fore more.
+
+* In the context of filtered spaces $X_*, Y_*$ and their associated fundamental [[crossed complexes]] $\Pi X_*, \Pi Y_*$ there is a natural  Eilenberg-Zilber morphism  
+$$\eta: \Pi X_* \otimes \Pi Y_* \to \Pi (X_* \otimes Y_*)$$
+which is difficult to define directly because of the complications of the tensor product of crossed complexes,  but has a direct definition in terms of the associated cubical homotopy $\omega$--groupoids. This morphism is an isomorphism of free crossed complexes if $X_*, Y_*$ are the skeletal filtrations of CW-complexes. For more on all  this, see the book *[[Nonabelian Algebraic Topology]]* p. 533. 
+
 
 ## Related concepts
 
 * [[Alexander-Whitney map]]
-
-* **Eilenberg-Zilber map**
 
 * [[Eilenberg-Zilber theorem]]
 
@@ -209,9 +213,8 @@ $$
 
 * [[cap product]], [[cup product]]
 
-In the context of  filtered spaces $X_*, Y_*$ and their associated fundamental crossed complexes $\Pi X_*, \Pi Y_*$ there is a natural  Eilenberg-Zilber morphism  
-$$\eta: \Pi X_* \otimes \Pi Y_* \to \Pi (X_* \otimes Y_*)$$
-which is difficult to define directly because of the complications of the tensor product of crossed complexes,  but has a direct definition in terms of the associated cubical homotopy $\omega$--groupoids. This morphism is an isomorphism of free crossed complexes if $X_*, Y_*$ are the skeletal filtrations of CW-complexes. For more on all  this, see the book [[Nonabelian Algebraic Topology]] p. 533. 
+* [[transgression in group cohomology]]
+
 
 ## References
 
