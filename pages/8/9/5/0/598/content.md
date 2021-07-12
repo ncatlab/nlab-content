@@ -730,3 +730,6 @@ category: simplicial object
 [[!redirects simplicial groups]]
 
 
+[[!redirects sGrp]]
+[[!redirects SimplicialGroups]]
+
