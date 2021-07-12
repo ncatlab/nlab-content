@@ -8,17 +8,16 @@ that only involve weak equivalences.
 
 ## Definition
 
-A __partial model category__ is a [[relative category]]
-such that its class of weak equivalences
-satisfies the [[2-out-of-6 property]]
+A __partial model category__ is a [[relative category]] $(C, W)$
+that satisfies the [[2-out-of-6 property]]
 (if $s r$ and $t s$ are weak equivalences, then so are $r$, $s$, $t$, $t s r$)
 and admits a [[3-arrow calculus]],
 i.e., there are [[subcategories]]
-$U$ and $V$ (which can be thought of as analogues of acyclic cofibrations
+$U, V \subseteq W$ of the weak equivalences (which can be thought of as analogues of acyclic cofibrations
 and acyclic fibrations)
-such that $U$ is closed under [[cobase changes]] (which are required to exist),
-$V$ is closed under [[base changes]],
-and any morphism can be functorially factored as the composition $v u$
+such that $U$ is closed under [[cobase changes]] along arbitrary morphisms of $C$ (which are required to exist),
+$V$ is closed under [[base changes]] along arbitrary morphisms of $C$,
+and any weak equivalence can be functorially factored as the composition $v u$
 for some $u\in U$ and $v\in V$.
 
 ## Properties
