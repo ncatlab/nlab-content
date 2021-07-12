@@ -75,7 +75,7 @@ For $n \geq 2$, this follows by [[induction]], since $n! \gamma_n(x) = (n-1)! \g
 +-- {: .num_prop} 
 ###### Proposition
 
-If $A$ is a commutative ring with an ideal $I$ such that $x^n$ is an $(n!)$-th multiple for every $x \in I$ and $n \geq 0$, then $(A,I)$ has a unique divided power structure, and it is given by $\gamma_n(x) = x^n / n!$.
+If $A$ is a commutative, torsion free ring with an ideal $I$ such that $x^n$ is an $(n!)$-th multiple for every $x \in I$ and $n \geq 0$, then $(A,I)$ has a unique divided power structure, and it is given by $\gamma_n(x) = x^n / n!$.
 =--
 
 +-- {: .proof} 
