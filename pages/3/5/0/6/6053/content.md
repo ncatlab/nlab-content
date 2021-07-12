@@ -106,5 +106,9 @@ Essentially the same conclusion (with similar motivation and in terms of equivar
 [[!redirects quantum double]]
 [[!redirects quantum doubles]]
 
+[[!redirects twisted Drinfeld double]]
+[[!redirects twisted Drinfeld doubles]]
+
+
 
  
