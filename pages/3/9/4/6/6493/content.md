@@ -304,7 +304,7 @@ The [[groupoid convolution algebra]] of the inertia groupoid of the [[delooping 
 
 
 \begin{definition}\label{MinimalSimplicialCircle}
-**(minimal simplicial circle)** \linebreak
+**([[minimal simplicial circle]])** \linebreak
   Write 
   $$
     S 
@@ -584,7 +584,7 @@ In view of the [[Chern character]] for [[twisted K-theory|twisted]] [[orbifold K
 
 See also the references at *[[free loop orbifold]]*.
 
-On transgression of [[group cohomology]] for [[discrete groups]] to cohomology of [[inertia groupoids]]:
+On [[transgression in group cohomology]], for [[discrete groups]], to [[groupoid cohomology]] of [[inertia groupoids]]:
 
 * {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 ([arXiv:math/0503266](https://arxiv.org/abs/math/0503266))
 
