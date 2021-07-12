@@ -27,7 +27,7 @@ tangent bundle is a cartesian differential category.
 ## Definition
 
 We present the revised definition of a cartesian differential category
-due to Cruttwell \cite{Cruttwell}.
+due to [[Geoff Cruttwell]],[see below](#Cruttwell).
 
 The adjective “cartesian” refers to the existence of finite products.
 
@@ -62,8 +62,10 @@ $$D(f)(0_X,a)=0_X$$
 
 ## References
 
-*  [[R. Blute]], [[Robin Cockett]], and[[R.A.G.Seely]],  _Cartesian differential categories,_ Theory and Applications of Categories,22, pg. 622–672, 2008 ([tac:22-23](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html))
+*  [[Rick Blute]], [[Robin Cockett]], and [[R.A.G. Seely]],  _Cartesian differential categories,_ Theory and Applications of Categories,22, pg. 622–672, 2008 ([tac:22-23](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html))
 
+
+* {#Cruttwell}[[Geoff Cruttwell]], _Cartesian differential categories revisited,_ Mathematical Structures in Computer Science, Vol. 27 (1), pg. 70-91 (first published online in 2015
 
 ## Related concepts
 
