@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
 > under construction
 
 #Contents#
@@ -7,30 +23,36 @@
 
 ## Idea
 
-For $G$ a [[discrete group]] (often taken to be a [[finite group]]), and for $A$ any [[abelian group]] there is a [[transgression]] [[homomorphism]]
+For $G$ a [[discrete group]] (often taken to be a [[finite group]]) and for $A$ any [[abelian group]], there is a [[transgression]] [[homomorphism]] of [[cohomology groups]]
 
 \[
   \label{TransgressionMapOnGroupCohomology}
   H_{grp}^{\bullet + 1}(G;\,A)
-  \;=\;
+  \;\;=\;\;
   H^{\bullet + 1}(B G;\, A)
-  \xrightarrow{ \tau }
+  \xrightarrow{ 
+    \;\;\;
+    \tau 
+    \;\;\;
+  }
   H^n
   \big(
     \Lambda B G,
     \,
     A
   \big)
-  \;\simeq\;
+  \;\;\;
+    \simeq
+  \;
   \underset{
     [g] \in G^{ad}/G
   }{\oplus}
   H^n_{grp}\big(C_g;\, A \big)
 \]
 
-from the [[group cohomology]] of $G$ to the [[groupoid cohomology]], in one degree lower,  of the [[inertia groupoid]]  $\Lambda B G$ of its [[delooping groupoid]] $B G \simeq (G \rightrightarrows G)$.
+from the [[group cohomology]] of $G$ to the [[groupoid cohomology]], in one degree lower,  of the [[inertia groupoid]]  $\Lambda B G$ of its [[delooping groupoid]] $B G \simeq (G \rightrightarrows \ast)$.
 
-Since the [[inertia groupoid]] of the [[delooping groupoid]] is [[equivalence of groupoids|equivalent]] to a [[disjoint union]] over [[conjugacy classes]] $[g] \in G^{ad}/G$ of [[delooping groupoids]] of [[centralizer subgroups]] $C_g$ with $C_e = G$
+Since the [[inertia groupoid]] of the [[delooping groupoid]] is [[equivalence of groupoids|equivalent]] to a [[disjoint union]] over [[conjugacy classes]] $[g] \in G^{ad}/G$ of [[delooping groupoids]] of [[centralizer subgroups]] $C_g$, with $C_e = G$,
 
 \[
   \label{DecompositionOfTheInertiaGroupoid}
@@ -38,22 +60,30 @@ Since the [[inertia groupoid]] of the [[delooping groupoid]] is [[equivalence of
   \;\simeq\;
   \underset{ [g] \in G_{ad}/G }{\coprod}
   B C_g
-  \;\simeq\;
+  \;\;\;\simeq\;\;\;
   B G \,\sqcup\, 
   \underset{ [g] \neq [e] }{\coprod}
   B C_g
 \]
 
-this induces in particular a [[corestriction|corestricted]] transgression map within the [[group cohomology]] of $G$, or, generally, to the [[group cohomology]] of its [[centralizer subgroups]]:
+this induces a [[corestriction|corestricted]] transgression map within the [[group cohomology]] of $G$, and, more generally, to the [[group cohomology]] of any of its [[centralizer subgroups]]:
 
 $$
   H_{grp}^{\bullet + 1}(G;\,A)
-  \xrightarrow{ \tau_{[e]} }
+  \xrightarrow{ 
+    \;\;\;
+    \tau_{[e]} 
+    \;\;\;
+  }
   H_{grp}^{\bullet}(G;\,A)
   \,,
   \;\;\;\;\;\;\;
   H_{grp}^{\bullet + 1}(G,A)
-  \xrightarrow{ \tau_{[g]} }
+  \xrightarrow{ 
+    \;\;\;
+    \tau_{[g]} 
+    \;\;\;
+  }
   H_{grp}^{\bullet}(C_g;\,A)
   \,.
 $$
@@ -74,7 +104,23 @@ It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGr
   \,,
 \]
 
-where we use the shorthand
+where
+
+$$ 
+  \gamma
+  \xrightarrow{ g_{n-1} }
+  Ad_{n-1}(\gamma)
+  \xrightarrow{ g_{n-2} }
+  \cdots
+  \crightarrpw{ g_0 }
+  Ad_{0}(\gamma)
+  \;\;\;\;\;
+  \in
+  \;\;
+  \Lambda B G
+$$
+
+is any sequence of $n$ composable [[morphisms]] in the [[inertia groupoid]], and where we use a shorthand for the [[adjoint action]] of $G$ on itself:
 
 $$
   \begin{aligned}
@@ -88,15 +134,15 @@ $$
   \end{aligned}
 $$
 
-(which restricts to $Ad_j(\gamma) = \gamma$ upon [[corestriction]] the connected components on the right of (eq:DecompositionOfTheInertiaGroupoid)).
+(which restricts to $Ad_j(\gamma) = \gamma$ upon [[corestriction]] to the connected component on the right of (eq:DecompositionOfTheInertiaGroupoid)) indexed by $[\gamma]$.
 
-In historically influential examples, this formula (all for the case $n=4$, $A = \mathbb{Z}$ or, equivalently, $n = 3$, $A = $ [[U(1)]]):
+In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ or, equivalently, $n = 3$ and $A = $ [[U(1)]], this formula:
 
-* implicitly underlies ([Dijkgraaf & Witten 1990, p. 24](#DijkgraafWitten90)) the discussion of [[Dijkgraaf-Witten theory]], 
+* implicitly underlies ([Dijkgraaf & Witten 1990, p. 24](#DijkgraafWitten90)) the discussion of [[Dijkgraaf-Witten theory]]; 
 
-* explains ([Willerton 2008](#Willerton08)) the nature of the "twisted [[Drinfeld double]]" of the [[group algebra]] of $G$;
+* explains ([Willerton 2008](#Willerton08)) the nature of the "[[twisted Drinfeld double]]" of the [[group algebra]] of $G$;
 
-* governs the expression ([Dove 2019, Sec. 6.4](#Dove19)) of 4-twisted [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
+* governs the expression ([Dove 2019, Sec. 6.4](#Dove19)) of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
 
 Below we mean to spell out a general abstract definition of the transgression map (eq:TransgressionMapOnGroupCohomology) and a full proof of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] -- the classical [[Eilenberg-Zilber theorem]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08)).
 
@@ -689,13 +735,20 @@ Chasing a cocycle through this sequence and using Prop. \ref{FormOfTheSimplicial
 
 ## References
 
-* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990) 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
+The transgression map is alluded to in 
 
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], p. 24 of: _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990) 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
+
+An indication of a proof, implicilty using ingredients of the [[Eilenberg-Zilber map]] (here re-discovered under the name "Parmesan map"):
 
 * {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 ([arXiv:math/0503266](https://arxiv.org/abs/math/0503266))
 
-* [[Jean-Louis Tu]], [[Ping Xu]], Section 3 of: *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
+The transgression formula itself (without derivation) is also considered, in a context of [[twisted equivariant K-theory|twisted]] [[orbifold K-theory]], in:
 
 * [[Alejandro Adem]], [[Yongbin Ruan]], [[Bin Zhang]], Section 4 of: _A Stringy Product on Twisted Orbifold K-theory_, Morfismos (10th Anniversary Issue), Vol. 11, No 2 (2007), 33-64.  ([arXiv:math/0605534](https://arxiv.org/abs/math/0605534), [Morfismos pdf](www.morfismos.cinvestav.mx/Portals/morfismos/SiteDocs/Articulos/Volumen11/No2/Zhang/arz.pdf))
+
+* [[Jean-Louis Tu]], [[Ping Xu]], Section 3 of: *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
+
+and specifically in the context of equivariant [[Tate K-theory]] in:
 
 * {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
