@@ -100,7 +100,7 @@ Divided power algebras were originally introduced in
 
 Their theory was further developed in [[Pierre Berthelot]]'s PhD thesis (in the context of [[crystalline cohomology]]), which was later published as:
 
-* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. ([doi:10.1007/BFb0068636](https://link.springer.com/book/10.1007/BFb0068636),  MR 0384804)
+* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$_, Lecture Notes in Mathematics, Vol. 407, Springer-Verlag, Berlin, 1974. ([doi:10.1007/BFb0068636](https://doi.org/10.1007/BFb0068636),  MR 0384804)
 
 Review:
 
