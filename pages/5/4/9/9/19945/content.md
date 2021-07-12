@@ -33,7 +33,7 @@ with $y,p_0, \ldots, p_n \in K$ and $n=1,2,\ldots$ has a solution in $K$ if and 
 
 ## Examples
 
-* The [[max-plus algebra]] $(-\infty, +\infty]$ with addition given by maximum and multiplication given by ordinary addition.
+* The [[max-plus algebra]] $[-\infty, +\infty)$ with addition given by maximum and multiplication given by ordinary addition.
 
 * The two element semifield $ \{ 0, 1 \} $ with $ 0 \leq 1 $
  and $ + = \cdot = \vee $ is commutative and algebraically closed but does not fulfill the assumptions of theorem \ref{fundamentalThm}. Indeed, the equation $ 1 \cdot x = 1 $ does not have a unique solution.
