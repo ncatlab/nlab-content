@@ -17,7 +17,7 @@
 
 ## Idea
 
-A **forgetful functor** is a [[functor]] which is defined by 'forgetting' something.  For example, the forgetful functor from [[Grp]] to [[Set]] forgets the group structure of a [[group]], remembering only the underlying [[set]].
+A **forgetful functor** is a [[functor]] which is defined by 'forgetting' some [[mathematical structure|structure]].  For example, the forgetful functor from [[Grp]] to [[Set]] forgets the group structure of a [[group]], remembering only the underlying [[set]].
 
 In common parlance, the term 'forgetful functor' has no precise definition, being simply used whenever a functor is obviously defined by forgetting something.  Many forgetful functors of this sort have left or right [[adjoint functor|adjoints]] (and many are actually [[monadic functor|monadic]] or [[comonadic functor|comonadic]]), leading to the paradigmatic adjunction "free $\dashv$ forgetful."
 
@@ -40,4 +40,7 @@ See also
 [[!redirects forgetful functors]]
 
 [[!redirects underlying]]
+
+[[!redirects forgetful]]
+
 
