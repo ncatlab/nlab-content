@@ -27,14 +27,14 @@ tangent bundle is a cartesian differential category.
 ## Definition
 
 We present the revised definition of a cartesian differential category
-due to [[Geoff Cruttwell]],[see below](#Cruttwell).
+due to [[Geoff Cruttwell]], [see below](#Cruttwell).
 
 The adjective “cartesian” refers to the existence of finite products.
 
 A prototypical example of a carteisan differential category
 is the category whose objects are open subsets of finite-dimensional real vector (or affine) spaces
 and morphisms are smooth maps.
-Below, if $U\subset R^n$ is such an object, then $L_0(U)=R^n$ is the tangent space at any point of~$U$.
+Below, if $U\subset R^n$ is such an object, then $L_0(U)=R^n$ is the tangent space at any point of $U$.
 
 \begin{definition}
 A __(generalized) cartesian differential category__
@@ -65,7 +65,7 @@ $$D(f)(0_X,a)=0_X$$
 *  [[Rick Blute]], [[Robin Cockett]], and [[R.A.G. Seely]],  _Cartesian differential categories,_ Theory and Applications of Categories,22, pg. 622–672, 2008 ([tac:22-23](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html))
 
 
-* {#Cruttwell}[[Geoff Cruttwell]], _Cartesian differential categories revisited,_ Mathematical Structures in Computer Science, Vol. 27 (1), pg. 70-91 (first published online in 2015
+* {#Cruttwell}[[Geoff Cruttwell]], _Cartesian differential categories revisited,_ Mathematical Structures in Computer Science, Vol. 27 (1), pg. 70-91 (first published online in 2015), [doi:10.1007/s10485-019-09572-y](https://doi.org/10.1007/s10485-019-09572-y)
 
 ## Related concepts
 
