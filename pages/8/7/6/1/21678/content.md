@@ -46,5 +46,6 @@ For full proof see also at _[[Introduction to Homotopy Theory]]_ [this Prop.](In
 
 * {#Quillen67} [[Daniel Quillen]], chapter I _Axiomatic homotopy theory_ in:  _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
+[[!redirects derived adjunctions]]
 
 
