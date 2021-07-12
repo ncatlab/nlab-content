@@ -164,3 +164,6 @@ category: category
 
 [[!redirects category of unbounded chain complexes]]
 [[!redirects categories of unbounded chain complexes]]
+
+[[!redirects ChainComplexes]]
+[[!redirects ConnectiveChainComplexes]]
