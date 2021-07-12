@@ -28,6 +28,7 @@ More formally, [[SimplicialSets]] is a [[Cartesian monoidal category]] and the c
 
 Since [[SimplicialSets]] is the [[category of presheaves]] over the [[simplex category]], its [[internal hom]] has the general form discussed at *[[closed monoidal structure on presheaves]]*:
 
+\begin{definition}
 For $X, Y \,\in\, sSet$, their [[internal hom]] or *simplicial mapping complex* is the simplicial set
 
 $$
@@ -45,7 +46,17 @@ $$
   \,.
 $$
 
-hence the simplicial set which in degree $k$ has the set of [[morphisms]] of simplicial sets from the [[Cartesian product]] of $X$ with the standard [[n-simplex]] to $Y$.
+whose 
+
+* component set in degree $k$ is the [[hom-set]] of simplicial sets 
+
+  * from the [[product of simplicial sets]] of $X$ with the standard [[n-simplex]] $\Delta[n]$ 
+
+  * to $Y$, 
+
+* and whose face maps $d_i$ and degeneracy maps $s_i$ are given by precomposition with $id_X \times \delta_i$ and $id_X \times \sigma_i$, respectively ($\delta_i$ and $\sigma_i$ denoting the generating morphisms of the [[simplex category]]).
+
+\end{definition}
 
 ## Examples
 
