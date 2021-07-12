@@ -870,6 +870,8 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 * [[group homology]]
 
+* [[transgression in group cohomology]]
+
 * [[group extension]]
 
   * [[Baer sum]]
