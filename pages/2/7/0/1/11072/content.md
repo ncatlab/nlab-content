@@ -130,7 +130,7 @@ The semantics of ! as a comonad is discussed in:
 * {#BBPH92} [[Nick Benton]], Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], *Linear lambda-Calculus and Categorical Models Revisited* (1992), [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.6958)
  
 
-* {#BCS96} R. F. Blute , J. R. B. Cockett and R. A. G. Seely.  *! and ? &#8211; Storage as tensorial strength* [doi](https://doi.org/10.1017/S0960129500001055), [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.7317&rep=rep1&type=pdf)
+* {#BCS96} [[R. F. Blute]] , [[J. R. B. Cockett]] and [[R. A. G. Seely]].  *! and ? &#8211; Storage as tensorial strength* [doi](https://doi.org/10.1017/S0960129500001055), [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.7317&rep=rep1&type=pdf)
  
 
 * {#Mellies09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, 2009. [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf)
