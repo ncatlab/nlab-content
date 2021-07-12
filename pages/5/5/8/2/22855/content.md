@@ -24,7 +24,7 @@ The [[category]] of [[simplicial abelian groups]] carries the [[mathematical str
 
 of [[forgetful functor|underlying]] [[simplicial sets]].
 
-Hence the [[free functor|free]]/[[forgetful functor|underlying]]-[[adjoint functors]] (where the [[free functor]] produces degreewise [[free abelian groups]] $\mathbb{Z}[-]$) is a [[Quillen adjunction]] with the [[classical model structure on simplicial sets]] $sSet_{Qu}$:
+Hence the [[free functor|free]]/[[forgetful functor|underlying]]-[[adjoint functors]] (where the [[free functor]] produces [[free simplicial abelian groups]] $\mathbb{Z}[-]$) is a [[Quillen adjunction]] with the [[classical model structure on simplicial sets]] $sSet_{Qu}$:
 
 \[
   \label{QuillenAdjunctionWithClassicalModelStructureOnSimplicialSets}
