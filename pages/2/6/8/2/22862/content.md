@@ -14,7 +14,6 @@
 =--
 
 
-
 > under construction
 
 #Contents#
@@ -64,6 +63,7 @@ Since the [[inertia groupoid]] of the [[delooping groupoid]] is [[equivalence of
   B G \,\sqcup\, 
   \underset{ [g] \neq [e] }{\coprod}
   B C_g
+  \,,
 \]
 
 this induces a [[corestriction|corestricted]] transgression map within the [[group cohomology]] of $G$, and, more generally, to the [[group cohomology]] of any of its [[centralizer subgroups]]:
@@ -134,7 +134,7 @@ $$
   \end{aligned}
 $$
 
-(which restricts to $Ad_j(\gamma) = \gamma$ upon [[corestriction]] to the connected component on the right of (eq:DecompositionOfTheInertiaGroupoid)) indexed by $[\gamma]$.
+(which [[restriction|restricts]] to $Ad_j(\gamma) = \gamma$ upon [[corestriction]] to the connected component on the right of (eq:DecompositionOfTheInertiaGroupoid) that is indexed by $[\gamma]$).
 
 In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ or, equivalently, $n = 3$ and $A = $ [[U(1)]], this formula (eq:SumFormulaForTransgressedCocycle):
 
@@ -142,7 +142,7 @@ In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ 
 
 * explains ([Willerton 2008](#Willerton08)) the nature of the "[[twisted Drinfeld double]]" of the [[group algebra]] of $G$;
 
-* governs the expression ([Dove 2019, Sec. 6.4](#Dove19)) of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
+* governs ([Dove 2019, Sec. 6.4](#Dove19)) the expression of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
 
 Below we mean to spell out a general abstract definition of the transgression map (eq:TransgressionMapOnGroupCohomology) and a [full proof](#ProofOfTheComponentFormula) of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] which we review [below](#BackgroundAndLemmata)  -- the classical [[Eilenberg-Zilber theorem]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08)).
 
@@ -214,12 +214,24 @@ We denote (using the same symbols for [[derived functors]] as for the original [
       \underoverset
         {\underset{[X,-]}{\longrightarrow}}
         {\overset{X \times (-)}{\longleftarrow}}
-        {\bot}
+        {\;\;\;\;\;\;\bot\;\;\;\;\;\;}
     Ho(sSet)
     \,,
   \]
 
-  (whose underived [[right adjoint]] is the [[simplicial mapping complex]]-construction).
+  (whose underived [[right adjoint]] is the [[simplicial mapping complex]]-construction);
+
+* the [[derived adjunction|derived]] [[internal-hom]]-[[Quillen adjunction]] ([here](monoidal+model+category#InternalHomQuillenAdjunction)) for $\mathbb{Z}[1] \,\in\,$ [[ConnectiveChainComplexes]]:
+
+  \[
+    \label{DerivedDegreeShiftAdjunction}
+    Ho(Ch^+_\bullet)
+      \underoverset
+        {\underset{ V_\bullet \mapsto V_{\bullet + 1} }{\longrightarrow}}
+        {\overset{ V_\bullet \mapsto V_{\bullet - 1} }{\longleftarrow}}
+        {\;\;\;\;\;\;\bot\;\;\;\;\;\;}
+    Ho(Ch^+_\bullet)
+  \]
 
 \end{definition}
 
@@ -621,7 +633,7 @@ The [[groupoid convolution algebra]] of the inertia groupoid of the [[delooping 
 
 
 \begin{definition}\label{MinimalSimplicialCircle}
-**(minimal simplicial circle)** \linebreak
+**([[minimal simplicial circle]])** \linebreak
   Write 
   $$
     S 
@@ -640,9 +652,42 @@ The [[groupoid convolution algebra]] of the inertia groupoid of the [[delooping 
 
 \end{definition}
 
+\begin{proposition}\label{NormalizedChainComplexOfMinimalSimplicialCircle}
+**([[normalized chain complex]] of [[minimal simplicial circle]])**
+\linebreak
+  The [[normalized chain complex]] of the [[free simplicial abelian group]] of the [[minimal simplicial circle]] $S$ (Def. \ref{MinimalSimplicialCircle}) has the group of [[integers]] in degrees 0 and 1, and all [[differentials]] are [[zero morphism|zero]]:
+$$
+  N_\bullet \circ \mathbb{Z}(S)
+  \;\simeq\;
+  \left[
+  \array{
+    \vdots
+    \\
+    \big\downarrow
+    \\
+    0
+    \\
+    \big\downarrow
+    \\
+    \mathbb{Z}
+    \\
+    \big\downarrow {}^{\mathrlap{ 0 }}
+    \\
+    \mathbb{Z}
+  }
+  \;\;
+  \right]
+  \;\simeq\;
+  \mathbb{Z}[1] \,\oplus\, \mathbb{Z} 
+  \,.
+$$
+\end{proposition}
+
+
+
 The following proposition follows on abstract grounds, but the explicit component-based proof we give is necessary in order to understand the [[transgression]]-formula for [[cocycles]] in the [[group cohomology]] of $G$ to cocycles on the inertia groupoid.
 \begin{proposition}\label{RelationToSimplicialHomComplexIntoClassifyingSpace}
-The [[nerve]] of the inertia groupoid of a delooping groupoid of a [[finite group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial hom complex]] out of the minimal simplicial circle $S$ (Def. \ref{MinimalSimplicialCircle}) into the [[simplicial classifying space]] $\overline{W}G$ (Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}):
+The [[nerve]] of the inertia groupoid of a delooping groupoid of a [[finite group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial hom complex]] out of the [[minimal simplicial circle]] $S$ (Def. \ref{MinimalSimplicialCircle}) into the [[simplicial classifying space]] $\overline{W}G$ (Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}):
 
 $$
   N\big( \Lambda \mathbf{B}G\big)_\bullet
@@ -867,8 +912,6 @@ As a consequence:
 
 We prove that the formula (eq:SumFormulaForTransgressedCocycle) indeed expresses transgression in group cohomology. 
 
-(...)
-
 Consider the following sequence of [[natural isomorphisms]]:
 
 $$
@@ -937,7 +980,13 @@ $$
     \Big(
       N_\bullet \circ \mathbb{Z}\big([S, \overline{W}G]\big) 
         \otimes 
-      \underset{\mathbb{Z}[1]}{\underbrace{N_\bullet \circ \mathbb{Z}(S)}},
+      \underset{
+        \mathbb{Z}[1]
+        \oplus 
+        \mathbb{Z}
+      }{
+        \underbrace{N_\bullet \circ \mathbb{Z}(S)}
+      },
       \,
       A[n]
     \Big)    
@@ -975,7 +1024,7 @@ Here
 
 * the first three lines recall the identification from Prop. \ref{GroupCohomologyIsOrdinaryCohomologyOfClassifyingSpace};
 
-* the fourth line is the [component function](functor#eq:ComponentFunctionOnHomSets) on [[hom-sets]] of the [[derived functor|derived]] [[internal hom]]/[[simplicial mapping complex]]-[[functor]] out of the minimal simplicial circle $S$ (Def. \ref{MinimalSimplicialCircle});
+* the fourth line is the [component function](functor#eq:ComponentFunctionOnHomSets) on [[hom-sets]] of the [[derived functor|derived]] [[internal hom]]/[[simplicial mapping complex]]-[[functor]] out of the [[minimal simplicial circle]] $S$ (Def. \ref{MinimalSimplicialCircle});
 
 * the fifth line is the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the derived [[free abelian group|free]] [[simplicial abelian group]]-adjunction (eq:DerivedFreeSimplicialAbelianGroupAdjunction);
 
@@ -983,13 +1032,17 @@ Here
 
 * the seventh line is pre-composition with the [[Eilenberg-Zilber map]], using that this is a [[quasi-isomorphism]] (and hence an [[isomorphism]] in the [[homotopy category]] [[model structure on connective chain complexes|on chain complexes]]) by the [[Eilenberg-Zilber theorem]];
 
-* ...
+  under the brace we are using Prop. \ref{NormalizedChainComplexOfMinimalSimplicialCircle};
 
-* ...
+* the eighth line is the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the derived degree-shift adjunction (eq:DerivedDegreeShiftAdjunction)
+
+  (observing that the [[tensor product of chain complexes|tensor product]] of [[normalized chain complexes]] of [[free simplicial abelian groups]] is a [[cofibrant object|cofibrant]] representative of the correct [[derived functor]]-image -- using that all simplicial sets are [[cofibrant object|cofibrant]], that $\mathbb{Z}(-)$ and $N_\bullet$ are [[left Quillen functors]], and that $(Ch^+_\bullet, \otimes)$ is a [[monoidal model category]] ([this Prop.](model+structure+on+chain+complexes#ProjectiveModelStructureOnConnectiveChainComplexesIsMonoidal)), so that the [[tensor product of chain complexes|tensor product]] with $\mathbb{Z} \oplus \mathbb{Z}[1]$ is the correct [[left derived functor]]);
+
+* the ninth line is the [[projection]] onto the second [[direct sum|direct summand]];
 
 * the last line is Def. \ref{GroupoidCohomology} of [[groupoid cohomology]].
 
-Chasing a cocycle through this sequence and using Prop. \ref{FormOfTheSimplicialEvaluationMap} when it gets to go through the [[Eilenberg-Zilber map]] yields (eq:SumFormulaForTransgressedCocycle).
+Chasing a cocycle through this sequence, and using Prop. \ref{FormOfTheSimplicialEvaluationMap} when it gets sent through the [[Eilenberg-Zilber map]], yields (eq:SumFormulaForTransgressedCocycle). (...)
 
 
 ## References
@@ -998,7 +1051,7 @@ The transgression map is alluded to in
 
 * {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], p. 24 of: _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990) 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
 
-An indication of a proof, implicilty using ingredients of the [[Eilenberg-Zilber map]] (here re-discovered under the name "Parmesan map"):
+An indication of a proof, implicitly using ingredients of the [[Eilenberg-Zilber map]] (re-discovered under the name "Parmesan map"):
 
 * {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 ([arXiv:math/0503266](https://arxiv.org/abs/math/0503266))
 
@@ -1008,7 +1061,7 @@ The transgression formula itself (without derivation) is also considered, in a c
 
 * [[Jean-Louis Tu]], [[Ping Xu]], Section 3 of: *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
 
-and specifically in the context of equivariant [[Tate K-theory]] in:
+and specifically in the context of equivariant [[Tate K-theory]]:
 
 * {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
 
