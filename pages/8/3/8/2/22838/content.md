@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Measure and probability theory
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
 #### Geometry
-+--{: .hide}
++-- {: .hide}
 [[!include higher geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -35,21 +34,22 @@ to studying [[noncommutative topology|noncommutative general topology]],
 a part of [[noncommutative geometry]].
 
 Analogously, in [[measure theory]] one works with [[commutative von Neumann algebras]] instead, which are equivalent to several other categories:
-[[compact strictly localizable enhanced measurable spaces]],
+[[localizable measurable space|compact strictly localizable]] [[enhanced measurable spaces]],
 [[hyperstonean topological spaces]] and [[open maps]],
 [[hyperstonean locales]] and [[open maps]],
 [[measurable locales]] (and arbitrary morphisms of [[locales]]).
 
 Thus, dropping the commutativity condition
 results in the [[category of von Neumann algebras]]
-(with ultraweakly continuous *-homomorphisms),
+(with ultraweakly continuous $*$-homomorphisms),
 and we can view this [[category]]
-as the [[category]] of *noncommutative measurable spaces*.
+as the [[category]] of __noncommutative measurable spaces__.
 
 Thus, noncommutative measure theory is more-or-less the study
 of [[von Neumann algebras]], more precisely those aspects of them
 that reproduce known phenomena in [[measure theory]] when specialized
 to the commutative case.
+
 
 ## Examples
 
@@ -60,12 +60,12 @@ This is quite different from the categorical [[product]]
 of measurable spaces, which corresponds to the Dauns [[tensor product]]
 of [[von Neumann algebras]].
 
-As another example, the theory of [[L^p-spaces]] generalizes
+As another example, the theory of $L^p$-[[Lebesgue space|spaces]] generalizes
 to [[von Neumann algebras]].
 This is a work of many authors, including [[von Neumann]],
 [[Edward Nelson]], [[Irving Segal]], and [[Uffe Haagerup]].
 It plays a crucial role in [[Tomita-Takesaki modular theory]],
-which is essentially nothing else than the theory of [[L^p-spaces]]
+which is essentially nothing else than the theory of $L^p$-spaces
 where $p$ is a purely [[imaginary number]].
 In particular, it allows one to classify [[type III factors]].
 
@@ -78,6 +78,7 @@ the category of [[W*-modules]] over [[von Neumann algebras]],
 and the category of [[representations of von Neumann algebras]]
 on a [[Hilbert space]].
 
+
 ## Related concepts
 
 * [[quantum probability theory]]
@@ -88,16 +89,16 @@ on a [[Hilbert space]].
 
 * [[measure theory]], [[measurable space]], [[measurable function]]
 
+
 ## References
 
 * [[Masamichi Takesaki]], _Theory of Operator Algebras I, II, III_, Springer, I: 1979. vii+415 pp. ISBN: 0-387-90391-7; II: 2003. xxii+518 pp. ISBN: 3-540-42914-X; III: 2003. xxii+548 pp. ISBN: 3-540-42913-1.
 
+
+[[!redirects noncommutative measure theory]]
 [[!redirects non-commutative measure theory]]
 
 [[!redirects noncommutative measurable space]]
 [[!redirects noncommutative measurable spaces]]
 [[!redirects non-commutative measurable space]]
 [[!redirects non-commutative measurable spaces]]
-
-
-
