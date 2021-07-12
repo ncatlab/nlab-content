@@ -30,11 +30,14 @@ G&#233;om. Diff. cat., 52 (2011) 253 &#8211; 268 ([pdf](http://www.math.mcgill.c
 
 * {#BlutePanangadenSeely94} [[Richard Blute]], [[Prakash Panangaden]], [[R. A. G. Seely]], _Fock Space: A Model of Linear Exponential Types_ (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.6825), [[BPSLinear.pdf:file]])
 
-*  [[R.F.Blute]], [[J.R.B.Cockett]], and [[R.A.G. Seely]]: _Differential categories_. Math. Struct. Comput. Sci. 16(06), 1049–1083 (2006)
+Introducing [[differential categories]]:
+
+*  {#BluteCocketSeely06} [[R. F. Blute]], [[J. R. B. Cockett]], and [[R. A. G. Seely]]: _Differential categories_. Math. Struct. Comput. Sci. 16(06), 1049–1083 (2006) ([doi:10.1017/S0960129506005676](https://doi.org/10.1017/S0960129506005676))
 
 category: people
 
 [[!redirects Rick Blute]]
 [[!redirects R. Blute]]
 [[!redirects R.F.Blute]]
+[[!redirects R. F. Blute]]
 [[!redirects R Blute]]
