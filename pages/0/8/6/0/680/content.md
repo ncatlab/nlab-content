@@ -75,14 +75,22 @@ $$
   \Delta \longrightarrow Ch_+(Ab)
 $$
 
-that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the [[free construction|free]] [[simplicial abelian group]] $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
+that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the [[free simplicial abelian group]] $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
 
 $$
     \Gamma(V) 
     \;\colon\; 
     [k]  
     \mapsto 
-    Hom_{Ch_\bullet^+(Ab)}(N(\mathbb{Z}(\Delta[k])), V)
+    Hom_{Ch_\bullet^+(Ab)}
+    \Big(
+      N
+      \big(
+        \mathbb{Z}(\Delta[k])
+      \big), 
+      \,
+      V
+    \Big)
     \,.
 $$
 
