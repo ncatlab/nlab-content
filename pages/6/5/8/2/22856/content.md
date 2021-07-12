@@ -30,7 +30,7 @@ A __divided power algebra__ is a triple $(A,I,\gamma)$ with
 
 - $\gamma=\{\gamma_{n}\colon I\to I\}_{n\geq 1}$ an [[indexed set]] of [[functions]] (of [[underlying]] [[sets]]);
 
-satisfying the following conditions:
+where we additionally adopt the convention $\gamma_0(x) = 1$ (which is usually not in $I$), and this data is required to satisfy the following conditions:
 
 1. For each $x\in I$, we have $\gamma_{1}(x)=x$.
 
@@ -38,7 +38,6 @@ satisfying the following conditions:
 $$
 \gamma_{n}(x+y)=\sum_{k=0}^{n}\gamma_{n-k}(x)\gamma_{k}(y),
 $$
-where we take the convention that $\gamma_0(x)\equiv 1$, even though this isn't an element of $I$ except in trivial cases;
 
 1. For each $\lambda\in A$, each $x\in I$ and $n\geq 0$, we have
 $$
@@ -59,6 +58,13 @@ For a given $(A,I)$, a __divided power structure__ on $(A,I)$ is a $\gamma$ maki
 
 If $A$ is an $R$-algebra for a ring $R$, we call it a __divided power $R$-algebra__ or __PD-$R$-algebra__.
 
+
++-- {: .un_remark}
+###### Remark
+
+Some sources include $\gamma_0$ in the data rather than as convention. Some sources give the data as $\gamma_n : I \to A$ typing while including $\gamma_n(x) \in I$ for $n \geq 1$ as an axiom.
+
+=--
 
 ## Properties
 
