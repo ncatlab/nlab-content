@@ -404,7 +404,7 @@ and so on.
 
 \begin{example}
 \label{NonDegenerateSimplicesInSimplicialSquare}
-**(non-degenrate simplices in [[simplicial set|simplicial]] [[square]])**
+**(non-degenerate simplices in [[simplicial set|simplicial]] [[square]])**
 \linebreak
 The complete set of non-degenerate simplices in 
 $\Delta[1] \times \Delta[1]$
