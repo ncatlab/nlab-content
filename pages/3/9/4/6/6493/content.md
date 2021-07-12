@@ -435,24 +435,24 @@ $$
     \bullet
     &\xrightarrow{g_{n-2}}&
     \cdots
-    &\xrightarrow{g_{n-j-1}}&
+    &\xrightarrow{g_{n-j}}&
     \bullet
     \\
     && && && 
     \big\downarrow 
     {}^{\mathrlap{  
-      ( g_{n-1} \cdots g_{n-j-1} )^{-1} 
+      ( g_{n-1} \cdots g_{n-j} )^{-1} 
       \cdot
       \gamma 
       \cdot
-      ( g_{n-1} \cdots g_{n-j-1} )
+      ( g_{n-1} \cdots g_{n-j} )
     }}
     \\
     && && && 
     \bullet
-    &\xrightarrow{g_{n-j-2}}&
+    &\xrightarrow{g_{n-j}}&
     \bullet
-    &\xrightarrow{g_{n-j-3}}&
+    &\xrightarrow{g_{n-j-1}}&
     \cdots
     &\xrightarrow{g_{0}}&
     \bullet
@@ -460,6 +460,91 @@ $$
 $$
 
 \end{proof}
+
+
+As a consequence:
+
+\begin{proposition}\label{FormOfTheSimplicialEvaluationMap}
+  The [[evaluation map]]
+  $$
+    [S,\overline{W}G] \times S
+    \xrightarrow{\;\;}
+    \overline{W}G
+  $$
+  (out of the [[product of simplicial sets|product]] of the [[simplicial hom complex]] out of $S$ with $S$)
+  takes any non-degenerate $n+1$-simplex of $[S,\overline{W}G] \times S$ of the form (still in the path notation discussed at *[[product of simplices]]*)
+  $$
+    \array{
+      (\gamma, [0]) 
+      &\xrightarrow{ (g_{n-1}, id) }&
+      ( Ad_{n-1}(\gamma), [0]  )
+      &\xrightarrow{ (g_{n-2}, id) }&
+      \cdots
+      &\xrightarrow{ (g_{j}, id) }&
+      \big( Ad_{j}(\gamma), [0]  \big)      
+      \\
+      && && &&
+      \big\downarrow {}^{\mathrlap{ (e, [ [0],[1] ]) }}
+      \\
+      && && &&
+      (Ad_j(\gamma), [1])
+      &\xrightarrow{ (g_{n-j},id)  }
+      &
+      \cdots
+      &\xrightarrow{ (g_0,id) }&      
+      (Ad_0(\gamma), [1])
+      \mathrlap{\,,}
+    }
+  $$
+  where we are abbreviating
+  $$  
+    \begin{aligned}
+    Ad_j(\gamma) 
+      &
+      \;\coloneqq\;
+    Ad_{(g_{n-1} \cdots g_j)}(\gamma)
+    \\
+    &
+    \;\coloneqq\;
+    (g_{n-1} \cdots g_j)^{-1} 
+      \cdot 
+    \gamma
+      \cdot
+    (g_{n-1} \cdots g_j)
+    \,,
+    \end{aligned}
+  $$
+  to the following $n+1$ simplex of $\overline{W}G$:
+  $$
+    \array{
+      \bullet
+      &\xrightarrow{ g_{n-1} }&
+      \bullet
+      &\xrightarrow{ g_{n-2} }&
+      \cdots
+      &\xrightarrow{ g_{j} }&
+      \bullet
+      \\
+      && && &&
+      \big\downarrow {}^{\mathrlap{ 
+        Ad_j(\gamma)
+      }}
+      \\
+      && && &&
+      \bullet
+      &\xrightarrow{ g_{n-j} }
+      &
+      \cdots
+      &
+      \xrightarrow{ g_0 } 
+      &      
+      \bullet
+      \mathrlap{\,.}
+    }
+  $$
+\end{proposition}
+
+
 
 ## Related concepts
 
