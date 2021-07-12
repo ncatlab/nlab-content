@@ -41,7 +41,7 @@ We will briefly examine variations of the notion of measurable space, from those
 
 Historically, people have used more general notions that $\sigma$-algebras, such as algebras, $\delta$-rings, and similar concepts whose names you can probably now guess; these are all discussed at [[sigma-algebra]].  These are all more general than $\sigma$-algebras, being possibly not closed under some operations.  When using some of these more general rings of measurable sets, it is necessary to allow [[partial functions]] whose domain is a [[relatively measurable set]] as measurable functions; for details, see [[measurable function]].
 
-It is often convenient if a measurable space has, in addition to the $\sigma$-algebra of measurable sets, a $\sigma$-[[sigma-ideal|ideal]] of __measurable [[null sets]]__.  That is, besides the set $X$ and the $\sigma$-alebra $\Sigma$, we have a collection $N \subseteq \Sigma$ that is closed under [[countable set|countable]] unions and taking subsets (within $\Sigma$).  (The elements of $N$ are the *measurable* null sets; a __[[null set]]__ is *any* subset of a measurable null set.)  One can equivalently specify a $\delta$-[[delta-filter|filter]] of __measurable [[full sets]]__; the full sets are the [[complements]] of the null sets.  Either way, this allows us to use almost measurable [[almost functions]] up to [[almost equality]], as described at [[measurable function]].
+An __enhanced measurable space__ has, in addition to the $\sigma$-algebra of measurable sets, a $\sigma$-[[sigma-ideal|ideal]] of __measurable [[null sets]]__.  That is, besides the set $X$ and the $\sigma$-alebra $\Sigma$, we have a collection $N \subseteq \Sigma$ that is closed under [[countable set|countable]] unions and taking subsets (within $\Sigma$).  (The elements of $N$ are the *measurable* null sets; a __[[null set]]__ is *any* subset of a measurable null set.)  One can equivalently specify a $\delta$-[[delta-filter|filter]] of __measurable [[full sets]]__; the full sets are the [[complements]] of the null sets.  Either way, this allows us to use almost measurable [[almost functions]] up to [[almost equality]], as described at [[measurable function]].
 
 In [[constructive mathematics]], because [[complement|complementation]] doesn\'t behave nicely, the concept of $\sigma$-algebra is not so useful.  It\'s also essential to use [[almost functions]] to avoid a paucity of measurable functions.  One solution, due to [[Henry Cheng]], may be found at [[Cheng measurable space]]; briefly, we use [[disjoint pairs]] $(A,B)$ of sets instead of individual measurable sets and use formal complements in the algebra, as well as a notion of [[full sets]].  Assuming [[excluded middle]], a Cheng measurable space is actually equivalent to a measurable space equipped with null (or full) sets, as in the previous paragraph.
 
@@ -184,3 +184,6 @@ See also
 [[!redirects completion of a measurable space]]
 [[!redirects completions of a measurable space]]
 [[!redirects completions of measurable spaces]]
+
+[[!redirects enhanced measurable space]]
+[[!redirects enhanced measurable spaces]]
