@@ -53,6 +53,10 @@ $U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_
 
 * [[circle 2-group]]
 
+* [[circle]], [[unit circle]], [[circle type]], [[minimal simplicial circle]]
+
+* [[torus]]
+
 [[!include low dimensional rotation groups -- table]]
 
 
