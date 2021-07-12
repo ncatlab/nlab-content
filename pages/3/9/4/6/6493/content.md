@@ -229,7 +229,7 @@ where
 
 ### Intertia groupoid of a delooping groupoid
 
-For $G$ a [[finite group]] (most of the following holds more generally fro [[discrete groups]]), we discuss the inertia groupoid $\Lambda \mathbf{B}G$ of the [[delooping groupoid]] $\mathbf{B}G \,=\, (G \rightrightarrows \ast)$.
+For $G$ a [[finite group]] (most of the following holds more generally for [[discrete groups]]), we discuss the inertia groupoid $\Lambda \mathbf{B}G$ of the [[delooping groupoid]] $\mathbf{B}G \,=\, (G \rightrightarrows \ast)$.
 
 \begin{remark}\label{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}
 **([[delooping groupoid]] and [[simplicial classifying space]] of [[finite group]])** \linebreak
