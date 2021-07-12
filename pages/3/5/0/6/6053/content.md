@@ -46,7 +46,7 @@ More generally, the analog of this statement holds for [[orbifolds]] ([Hinich 05
 
 ## Related concepts
 
-* [[inertia orbifold]]
+* [[inertia orbifold]], [[transgression in group cohomology]]
 
 * [[Drinfeld center]]
 
@@ -78,7 +78,7 @@ was obtained in
 
 * [[Shahn Majid]], _Cross product quantisation, nonabelian cohomology and twisting of Hopf algebras_, [hep-th/9311184](http://arxiv.org/abs/hep-th/9311184)
 
-The geometric interpretation of this was discussed in 
+Interpretation via [[transgression in group cohomology]]:
 
 * [[Simon Willerton]], _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv:math/0503266](http://arxiv.org/abs/math/0503266))
 
