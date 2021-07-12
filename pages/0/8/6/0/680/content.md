@@ -278,8 +278,8 @@ This manifestly [[presentable (infinity,1)-category|presents]] connective chain 
 
 There are versions of the Dold-Kan correspondence for other [[geometric shapes for higher structures]] than the [[simplex]], also for the [[globe]] and the [[cube]].
 
-+-- {: .num_theorem }
-###### Theorem (globular Dold-Kan correspondence)
+\begin{theorem}
+**(globular Dold-Kan correspondence)**\linebreak
 
 Write [[Ab]] for the category of [[abelian group]]s. (Could be any [[additive category]] with [[kernel]]s for the following to be true). Then the following categories of structures [[internalization|internal to]] $Ab$ are equivalent.
 
@@ -293,7 +293,7 @@ Write [[Ab]] for the category of [[abelian group]]s. (Could be any [[additive ca
 
 1. The category of [[globe|globular]] [[strict ∞-groupoid]]s.
 
-=--
+\end{proof}
 
 A proof with references to the rich literature can be found for instance in 
 
@@ -726,3 +726,7 @@ A [[categorification]] to a [[categorified Dold-Kan correspondence]] is discusse
 [[!redirects dual Dold-Kan theorem]]
 [[!redirects dual Dold--Kan theorem]]
 [[!redirects dual Dold–Kan theorem]]
+
+[[!redirects Dold-Kan equivalence]]
+
+
