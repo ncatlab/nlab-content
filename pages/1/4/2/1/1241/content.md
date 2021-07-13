@@ -427,6 +427,9 @@ See also:
 
 * Francisco J. de Anda, Alfredo Aranda, António P. Morais, Roman Pasechnik, _Gauge couplings evolution from the Standard Model, through Pati-Salam theory, into $E_8$ unification of families and forces_ ([arXiv:2011.13902](https://arxiv.org/abs/2011.13902))
 
+* Alfredo Aranda, Francisco J. de Anda, António P. Morais, Roman Pasechnik, *A Different Take on $E_8$ Unification* ([arXiv:2107.05421](https://arxiv.org/abs/2107.05421))
+
+* Alfredo Aranda, Francisco J. de Anda, António P. Morais, Roman Pasechnik, *Sculpting the Standard Model from low-scale Gauge-Higgs-Matter $E_8$ Grand Unification in ten dimensions* ([arXiv:2107.05495](https://arxiv.org/abs/2107.05495))
 
 
 
