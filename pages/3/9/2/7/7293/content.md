@@ -408,6 +408,8 @@ See also
 
 * [[Wen-Tsun Wu]], _Sur les puissances de Steenrod_, Colloque de Topologie de Strasbourg, IX, La Biblioth&#232;que Nationale et Universitaire de Strasbourg, (1952)
 
+* {#GonzalezDiazReal99} [[Rocio Gonzalez-Diaz]], [[Pedro Real]], *A Combinatorial Method for Computing Steenrod Squares*, Journal of Pure and Applied Algebra 139 (1999) 89-108 ([arXiv:math/0110308](https://arxiv.org/abs/math/0110308))
+
 
 [[!redirects Steenrod squares]]
 
