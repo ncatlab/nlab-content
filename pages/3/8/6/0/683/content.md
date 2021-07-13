@@ -748,17 +748,18 @@ This example, too, is important at [[geometric function theory]].
 ### Homotopy colimits of simplicial diagrams 
  {#OverSimplicialDiagrams}
 
+Recall that every [[simplicial set]] is the [[colimit]] of its [[category of elements|elements]] ([this Prop.](simplicial+set#SimplicialSetIsColimitOfItsSimplices)). The following says that this is in fact a homotopy colimit, up to equivalence.
 
 +-- {: .num_prop #SimplicialSetIsHomotopyColimitOverItself}
 ###### Proposition
-**(simplicial set is homotopy colimit over itself)**
+**([[simplicial set]] is [[homotopy colimit]] of its cells)**
 
 Every [[simplicial set]] is the [[homotopy colimit]] over its cells.
 
 Precisely: for $X \in $ [[sSet]] a [[simplicial set]], let 
 
 $$
-  \tilde X : \Delta^{op} \to Set \hookrightarrow sSet
+  \tilde X \coend \Delta^{op} \to Set \hookrightarrow sSet
 $$
 
 be the corresponding [[bisimplicial set]] which in degree $k$ is the the constant simplicial set on the set $X_k$ of $k$-simplices. 
@@ -793,10 +794,12 @@ It follows that the hocolim is given by
 
 $$
   \int^{[k] \in \Delta} \Delta[k] \times X_k
+  \;\simeq\;
+  X
   \,.
 $$
 
-By the [[co-Yoneda lemma]] this is [[isomorphic]] to $X$.
+which is the expression of $X$ is an ordinat [[colimit]] of its elements ([this Prop.](simplicial+set#SimplicialSetIsColimitOfItsSimplices), the "[[co-Yoneda lemma]]").
 
 =--
 
