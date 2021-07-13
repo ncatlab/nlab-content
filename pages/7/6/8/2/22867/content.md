@@ -121,7 +121,7 @@ where
 
 \end{proposition}
 
-For unnormalized chain complexes, where we have a [[homotopy equivalence]], this is the original [[Eilenberg-Zilber theorem]] ([Eilenberg & Zilber 1953](#EilenbergZilber53), [Eilenberg & MacLane 1954, Thm. 2.1](#EilenbergMacLane54)), review in [MacLane 1975, VIII 8](#MacLane75), [Dold 1995, VI 12.1](#Dold95). The above [[deformation retraction]] for normalized chain complexes is [Eilenberg & MacLane 1954, Thm. 2.1a](#EilenbergMacLane54). Both are reviewed in [May 1967, Cor. 29.10](#May67), the latter at least mentioned in [MacLane 1975, VIII Cor. 8.9](#MacLane75). Explicit description of the [[homotopy operator]] is given in [Gonzalez-Diaz & Real 1999](#GonzalezDiazReal99).
+For unnormalized chain complexes, where we have a [[homotopy equivalence]], this is the original [[Eilenberg-Zilber theorem]] ([Eilenberg & Zilber 1953](#EilenbergZilber53), [Eilenberg & MacLane 1954, Thm. 2.1](#EilenbergMacLane54)), review in [MacLane 1975, VIII 8](#MacLane75), [Dold 1995, VI 12.1](#Dold95). The above [[deformation retraction]] for normalized chain complexes is [Eilenberg & MacLane 1954, Thm. 2.1a](#EilenbergMacLane54). Both are reviewed in [May 1967, Cor. 29.10](#May67), the latter at least mentioned in [MacLane 1975, VIII Cor. 8.9](#MacLane75). Explicit description of the [[homotopy operator]] is given in [Gonzalez-Diaz & Real 1999, p. 7](#GonzalezDiazReal99).
 
 
 ## Related concepts
