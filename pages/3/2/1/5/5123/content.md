@@ -161,11 +161,11 @@ $$
 ###### Proposition
 **([[Eilenberg-Zilber theorem]])**
 
-For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a chain [[homotopy equivalence]].
+For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a [[chain homotopy|chain]]-[[homotopy equivalence]].
 
 =--
 
-Revirw includes [May, 29.10](#May).
+(e.g. [May, 29.10](#May)).
 
 
 For the next statement notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[symmetric monoidal categories]].
