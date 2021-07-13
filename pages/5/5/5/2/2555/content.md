@@ -82,9 +82,17 @@ If $C$ has the structure of a [[model category]] then "nice" means that $X \copr
 
 ## References
 
-The precise argument that for $X$ a [[cell complex]] then also the standard cyclinder $X\times I$ is a cell complex is spelled out for instance as prop. 2.9 in 
+The general definition in [[model categories]] is due to:
 
-* {#Ottina14} Ottina, _An A-based cofibrantly generated model category_ ([arXi:1405.2086](http://arxiv.org/abs/1405.2086))
+* {#Quillen67} [[Daniel Quillen]], Section I.1, Def. 4, p. 9 (15 of 165) in: _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967 ([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+
+Lecture notes:
+
+* *[[Introduction to Homotopy Theory]]*, around [this Def.](Introduction+to+Homotopy+Theory#PathAndCylinderObjectsInAModelCategory)
+
+The precise argument that for $X$ a [[cell complex]] then also the standard cyclinder $X\times I$ is a cell complex is spelled out in 
+
+* {#Ottina14} Ottina, Prop. 2.9 in: _An A-based cofibrantly generated model category_ ([arXi:1405.2086](http://arxiv.org/abs/1405.2086))
 
 
 
