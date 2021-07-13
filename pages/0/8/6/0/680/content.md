@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
-#### Higher category theory
+#### Homotopy theory
 +--{: .hide}
-[[!include higher category theory - contents]]
+[[!include homotopy - contents]]
 =--
 =--
 =--
@@ -599,7 +599,7 @@ One may view the (monoidal) Dold-Kan correspondence as a relation between a well
 
 * **Dold-Kan correspondence**
 
-* [[monoidal Dold-Kan correspondence]]
+* [[monoidal Dold-Kan correspondence]], [[Eilenber-Zilber/Alexander-Whitney deformation retraction]]
 
 * [[operadic Dold-Kan correspondence]]
 
