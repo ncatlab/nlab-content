@@ -94,7 +94,7 @@ It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGr
   \;=\;
   \pm
   \underset{
-    0 \leq j \ln n
+    0 \leq j \leq n
   }{\sum}
   (-1)^j
   \cdot
