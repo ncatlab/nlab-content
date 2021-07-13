@@ -244,6 +244,37 @@ For the moment see _[[bar construction]]_.
 
 ## Properties
 
+### Basic properties
+ {#BasicProperties}
+
+\begin{proposition}\label{SimplicialSetIsColimitOfItsSimplices}
+**([[simplicial set]] is [[colimit]] of its [[category of elements|elements]])**
+\linebreak
+  Every simplicial set $X \in sSet$ is the [[colimit]] of its simplices, in that 
+  $$
+    \begin{aligned}
+      X 
+      & 
+      \;\simeq\;
+      \underset{
+        \Delta[k] \in el(X)
+      }{lim}
+      \Delta[k]
+      \\
+      & \;\simeq\;
+      \int^{[k] \in \Delta} \Delta[k] \times X_k
+    \end{aligned}
+  $$
+\end{proposition}
+Here the first line shows a [[colimit]] over the [[category of elements]] of $X$ (e.g. [Goerss & Jardine, I, Lemma 2.1](#GoerssJardine09)) and the second line shows the corresponding [[coend]]-expression (by [this Prop.](end#CoendAsColimitOverCategoryOfElements)).
+\begin{proof}
+Since [[SimplicialSets]] is a [[category of presheaves]] (over the [[simplex category]] $\Delta$) this is a special case of the general fact that every presheaf is a colimit of [[representable functor|representables]] ([this Prop.](presheaf#EveryPresheafIsColimitOfRepresentables), the "[[co-Yoneda lemma]]").
+\end{proof}
+
+\begin{remark}
+In fact, the colimit in Prop. \ref{SimplicialSetIsColimitOfItsSimplices} is a [[homotopy colimit]], see [there](homotopy+limit#SimplicialSetIsHomotopyColimitOverItself).
+\end{remark}
+
 ### Classifying topos
 
 #### Simplicial sets
@@ -328,8 +359,8 @@ Further discussion in the context of [[simplicial homotopy theory]]/[[algebraic 
 
 * [[Klaus Lamotke]], _Semisimpliziale algebraische Topologie_, Grundlehren der mathematischen Wissenschaften 147 (1968).
 
-* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, 
-Progress in Mathematics, Birkh&#228;user (1996)
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+
 
 * {#Cisinski06} [[Denis-Charles Cisinski]], Section 2 of: _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
 
