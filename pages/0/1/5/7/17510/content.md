@@ -8,8 +8,11 @@
 
 ## Selected writings
 
-Introducing [[Bredon-Illman cohomology]]:
+Introducing [[G-CW complexes]] and [[Bredon-Illman cohomology]]:
 
+* {#Illman72} [[Sören Illman]], *Equivariant singular homology and cohomology for actions of compact lie groups* ([doi:10.1007/BFb0070055](https://doi.org/10.1007/BFb0070055)) In: H. T. Ku, L. N. Mann, J. L. Sicks, J. C. Su (eds.), *Proceedings of the Second Conference on Compact Transformation Groups* Lecture Notes in Mathematics, vol 298. Springer 1972 ([doi:10.1007/BFb0070029](https://link.springer.com/book/10.1007/BFb0070029))
+
+* {#Illman73} [[Sören Illman]], *Equivariant algebraic topology*, Annales de l'Institut Fourier, Tome 23 (1973) no. 2, pp. 87-91 ([doi:10.5802/aif.458](https://doi.org/10.5802/aif.458))
 
 * [[Sören Illman]], _Equivariant singular homology and cohomology_, Bull. Amer. Math. Soc. Volume 79, Number 1 (1973), 188-192 ([euclid:bams/1183534324](https://projecteuclid.org/euclid.bams/1183534324))
 
@@ -26,8 +29,17 @@ On [[equivariant differential topology]], proving the [[equivariant triangulatio
 
 * [[G-CW complex]]
 
+* [[Bredon-Illman cohomology]]
+
+* [[equivariant cellular approximation theorem]]
+
+* [[equivariant Whitehead theorem]]
+
 * [[equivariant triangulation theorem]]
 
 * [[G-representation spheres are G-CW-complexes]]
 
+
 category: people
+
+[[!redirects Soren Illman]]
