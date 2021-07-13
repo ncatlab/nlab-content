@@ -57,7 +57,11 @@ There are at least five approaches to performing diagram chases in general abeli
 
 * [[Daniel Murfet]], _Diagram Chasing in Abelian Categories_ (2006) ([pdf](http://therisingsea.org/notes/DiagramChasingInAbelianCategories.pdf))
 
-* [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958))
- {#Bergman}
+* {#Bergman} [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958))
+ 
 
 [[!redirects diagram chasing lemmas]]
+
+[[!redirects diagram chase]]
+[[!redirects diagram chases]]
+
