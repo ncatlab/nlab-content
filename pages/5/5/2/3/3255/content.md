@@ -96,12 +96,19 @@ Cellular approximation for [[G-CW complexes]] in [[equivariant homotopy theory]]
 
 * {#Matumoto71} [[Takao Matumoto]], Theorem 4.4 in: _On $G$-CW complexes and a theorem of JHC Whitehead_, J. Fac. Sci. Univ. Tokyo Sect. IA 18, 363-374, 1971 ([[matumoto.pdf:file]])
 
+and, independently, due to:
+
+* {#Illman72} [[Sören Illman]], Prop. 2.4 of: *Equivariant singular homology and cohomology for actions of compact lie groups* ([doi:10.1007/BFb0070055](https://doi.org/10.1007/BFb0070055)) In: H. T. Ku, L. N. Mann, J. L. Sicks, J. C. Su (eds.), *Proceedings of the Second Conference on Compact Transformation Groups* Lecture Notes in Mathematics, vol 298. Springer 1972 ([doi:10.1007/BFb0070029](https://link.springer.com/book/10.1007/BFb0070029))
+
+See also
+
+* {#Illman73} [[Sören Illman]], p. 90 (5 of 6) in: *Equivariant algebraic topology*, Annales de l'Institut Fourier, Tome 23 (1973) no. 2, pp. 87-91 ([doi:10.5802/aif.458](https://doi.org/10.5802/aif.458))
+
+
 Textbook account:
 
 * {#tomDieck87} [[Tammo tom Dieck]], Theorem II.2.1 in: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
-Review:
-
-* [[Jay Shah]], Theorem 2.5 in: _Equivariant algebraic topology_, 2010 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
 
 [[!redirects equivariant cellular approximation theorem]]
+
