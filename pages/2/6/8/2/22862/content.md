@@ -14,8 +14,6 @@
 =--
 
 
-> under construction
-
 #Contents#
 * table of contents
 {:toc}
@@ -144,7 +142,7 @@ In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ 
 
 * governs ([Dove 2019, Sec. 6.4](#Dove19)) the expression of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
 
-Below we mean to spell out a general abstract definition of the transgression map (eq:TransgressionMapOnGroupCohomology) and a [full proof](#ProofOfTheComponentFormula) of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] which we review [below](#BackgroundAndLemmata)  -- the classical [[Eilenberg-Zilber theorem]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08)).
+Below we mean to spell out a general abstract definition (Def. \ref{Transgression}) of the transgression map (eq:TransgressionMapOnGroupCohomology) and a [full proof](#ProofOfTheComponentFormula) of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] which we review [below](#BackgroundAndLemmata)  -- the classical [[Eilenberg-Zilber theorem]], i.e. the [[Eilenberg-Zilber/Alexander-Whitney deformation retraction]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08) under the name "Parmesan theorem").
 
 
 \linebreak
@@ -906,15 +904,156 @@ As a consequence:
   $$
 \end{proposition}
 
+### Transgression in cohomology
+
+\begin{definition}\label{Transgression}
+  **([[transgression]])**
+  For $\mathcal{A} \,\in\, sAb$, hence with  
+  [[free loop space of classifying space|free loop space of its classifying space]] given
+  (by [this Prop.](free+loop+space+of+classifying+space#FreeLoopSpaceOfClassifyingSpaceOfSimplicialAbelianGroup)) by
+  \[
+    \label{FreeLoopSpaceOfClassifyingSpaceOfAbelianSimplicialGroup}
+    \Lambda \mathbf{B}\mathcal{A}
+    \;\simeq\;
+    \mathcal{A}
+    \times 
+    \mathbf{B}\mathcal{A}
+  \]
+  we say that *[[transgression]]* in $\mathcal{A}$-cohomology
+  is 
+  $$
+    H
+    \big( 
+      -;\,
+      \mathbf{B}\mathcal{A}
+    \big)
+    \xrightarrow{ [S, -] }
+    H
+    \big( 
+      \Lambda(-);\,
+      \mathcal{A} \times \mathbf{B}\mathcal{A}
+    \big)
+    \xrightarrow{\;\; pr_2 \;\; }
+    H
+    \big( 
+      \Lambda(-);\,
+      \mathcal{A}
+    \big)    
+    \,.
+  $$
+\end{definition}
+
+\begin{proposition}\label{FreeLoopSpaceOfEMSpaceIdentifiedViaEilenbergZilber}
+**([[free loop space of classifying space]] identified via [[Eilenberg-Zilber map]])** \linebreak
+For $n \in \mathbb{N}_+$ and
+for $A \,\in\, Ab$ the [[integers]] or the [[circle group]],
+the following [[composition|composite]] of is a [[simplicial weak equivalence]]
+\[
+  \label{ComparisonMorphismFromFreeLoopSpaceViaEilenbergZilber}
+  \begin{aligned}
+    \big[
+      S,
+      \,
+      B^n A
+    \big]_\bullet   
+    & \;=\;
+    \big[
+      S, 
+      \,
+      frgt \circ DK(A[n])
+    \big]_\bullet
+    \\
+    &
+    \;\simeq\;   
+    sSet
+    \big(
+      S \times \Delta[\bullet],
+      \,
+      frgt \circ DK(A[n])
+    \big)
+    \\
+    & \;\simeq\;
+    Ch_+
+    \big(
+      N \circ \mathbb{Z}(S \times \Delta[\bullet]),
+      \,
+      A[n]
+    \big)    
+    \\
+    & \;\xrightarrow{EZ_S}\;
+    Ch_+
+    \big(
+      N \circ \mathbb{Z}(S) 
+      \,\otimes\,
+      N \circ \mathbb{Z}(\Delta[\bullet]),
+      \,
+      A[n]
+    \big)    
+    \\
+    & \;\simeq\;
+    Ch_+
+    \big(
+      N \circ \mathbb{Z}(\Delta[\bullet]),
+      \,
+      [
+        N \circ \mathbb{Z}(S),
+        \,
+        A[n]
+      ]
+    \big)    
+    \\
+    & \;\simeq\;
+    \Big(
+    frgt \circ DK
+    \big(
+      [
+        \underset{
+          \mathbb{Z} \oplus \mathbb{Z}[1]
+        }{
+        \underbrace{
+          N \circ \mathbb{Z}(S)
+        }
+        },
+        \,
+        A[n]
+      ]
+    \big)
+    \Big)_\bullet
+    \\
+    & \;\simeq\;
+    \Big(
+    frgt \circ DK
+    \big(
+      A[n] \oplus A[n-1]
+    \big)
+    \Big)_\bullet
+    \;=\;
+    B^n A \times B^{n-1} A
+  \end{aligned}
+\]
+
+\end{proposition}
+Here all [[isomorphisms]] are [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the [above](#HomotopyCategories) [[adjoint functor|adjunctions]], the step denoted $EZ_S$ is pre-composition with the [[Eilenberg-Zilber map]], and under the brace we are using Prop. \ref{NormalizedChainComplexOfMinimalSimplicialCircle}.
+
+\begin{proof}
+  By the fact that the [[Eilenberg-Zilber map]] has a [[left inverse]] given by the [[Alexander-Whitney map]] $AW$ (see at *[[Eilenberg-Zilber/Alexander-Whitney deformation retraction]]*, the analogous composite with $AW_S$ instead of $EZ_S$ yields a left inverse morphism, which hence [[retraction|retracts]] the [[homotopy groups]] of $B^n A \times B^{n-1}A$ onto those of $\big[S, B^n A \big]$. 
+But, by (eq:FreeLoopSpaceOfClassifyingSpaceOfAbelianSimplicialGroup), the latter is a product of [[Eilenberg-MacLane spaces]]
+with homotopy groups $A$ concentrated in degrees $n$ and $n -1 $. By assumption on $A$ the only retractions of $A$ onto itself is the identity, so that $EZ_S$ must induce the identity morphism of homotopy groups. 
+\end{proof}
+
+
 
 ## Proof of the component formula
  {#ProofOfTheComponentFormula}
 
 We prove that the formula (eq:SumFormulaForTransgressedCocycle) indeed expresses transgression in group cohomology. 
 
+\begin{proof}
+
 Consider the following sequence of [[natural isomorphisms]] of [[hom-sets]] of the above [[homotopy categories]] (Def. \ref{HomotopyCategories}):
 
-$$
+\[
+  \label{TransgressionDecomposed}
   \begin{aligned}
     H^n_{grp}
     \big(
@@ -933,7 +1072,7 @@ $$
     \;\simeq\;
     Ho(sSet)
     \big(
-      \overline{W}G; \, frgt \circ DK\big( A[n] \big)
+      \overline{W}G, \, frgt \circ DK\big( A[n] \big)
     \big)
     \\
     =
@@ -945,7 +1084,7 @@ $$
     \;\overset{[S,-]}{\to}\;
     Ho(sSet)
     \Big(
-      [S,\overline{W}G];\, \, \big[S, frgt \circ DK\big( A[n] \big)\big]
+      [S,\overline{W}G],\, \, \big[S, frgt \circ DK\big( A[n] \big)\big]
     \Big)
     \\
     & 
@@ -1018,7 +1157,7 @@ $$
     \big)        
     \,.
   \end{aligned}
-$$
+\]
 
 Here 
 
@@ -1042,8 +1181,166 @@ Here
 
 * the last line is Def. \ref{GroupoidCohomology} of [[groupoid cohomology]].
 
-Chasing a cocycle through this sequence, and using Prop. \ref{FormOfTheSimplicialEvaluationMap} when it gets sent through the [[Eilenberg-Zilber map]], yields (eq:SumFormulaForTransgressedCocycle). (...)
+[[diagram chase|Chasing]] a group cocycle (Def. \ref{GroupCohomology}) through this sequence, and using Prop. \ref{FormOfTheSimplicialEvaluationMap} when it gets sent through the [[Eilenberg-Zilber map]], manifestly outputs the sum formula (eq:SumFormulaForTransgressedCocycle) to be proven. 
 
+Hence it only remains to see that this concrete composite (eq:TransgressionDecomposed) is equal to the abstractly defined transgression map (Def. \ref{Transgression}). 
+
+{#VerifyingTheMapIsCorrect} This follows by Prop. \ref{FreeLoopSpaceOfEMSpaceIdentifiedViaEilenbergZilber}. In detail, since:
+
+1. $A[n] \in Ch_+$ is a [[fibrant object]] (like every object in the projective [[model structure on connective chain complexes]]);
+
+1. $[S,\overline{W}G] \in sSet$ is a [[cofibrant objects]] (like every object in the [[classical model structure on simplicial sets]]);
+
+the chain of hom-isomorphisms of [[derived adjunctions]] in (eq:TransgressionDecomposed) is covered (through the [[quotient]] by [[left homotopy]] that defines the [[homotopy category of a model category]] according to [this Lemma](homotopy+category+of+a+model+category#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) by "the same" chain of hom-isomorphisms of plain adjunctions. Using here that every simplicial set $X$ is the [[colimit]] over its [[category of elements|elements]] $\Delta[k] \in el(X)$ ([this Prop.](simplicial+set#SimplicialSetIsColimitOfItsSimplices)) and that the [[1-category]]-theoretic [[hom functors]] turn this colimit, in their first argument, into a [[limit]] ([this Prop.](hom-functor+preserves+limits#HomFunctorPreservesLimits)), we find that the composite in (eq:TransgressionDecomposed) is covered by
+
+$$
+  \begin{aligned}
+    sSet
+    \Big(
+      \big[S, \overline{W}G \big], 
+      \,
+      \big[S, frgt \circ DK(A[n]) \big]
+    \Big)
+    & \;\simeq\;
+    sSet
+    \Big(
+      \underset{
+        \underset{
+          \mathclap{
+            {\Delta[k] \in}
+            \atop
+            {el\big([S,\overline{W}G]\big)}
+          }
+        }
+        {\longrightarrow}
+      }{\lim}
+      \Delta[k], 
+      \,
+      \big[S, frgt \circ DK(A[n]) \big]
+    \Big)    
+    \\
+    & \;\simeq\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    sSet
+    \Big(
+      \Delta[k], 
+      \,
+      \big[S, frgt \circ DK(A[n]) \big]
+    \Big)    
+    \\
+    & \;\simeq\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    Ch_+
+    \Big(
+      N_\bullet \circ \mathbb{Z}
+      \big(
+        S \times \Delta[k] 
+      \big), 
+      \,
+      A[n]
+    \Big)    
+    \\
+    & \;\xrightarrow{EZ_S}\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    Ch_+
+    \Big(
+      N_\bullet \circ \mathbb{Z}(S)
+      \,\otimes\,
+      N_\bullet \circ \mathbb{Z}(\Delta[k]),
+      \,
+      A[n]
+    \Big)    
+    \\
+    & \;\simeq\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    sSet
+    \Big(
+      \Delta[k],
+      \,
+      frgt \circ DK
+      \big(
+        A[n] \oplus A[n-1] 
+      \big)
+    \Big)    
+    \\
+    & \;\simeq\;
+    sSet
+    \Big(
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longrightarrow}
+    }{\lim}
+      \Delta[k],
+      \,
+      frgt \circ DK
+      \big(
+        A[n] \oplus A[n-1] 
+      \big)
+    \Big)    
+    \\
+    & \;\simeq\;
+    sSet
+    \Big(
+      [S,\overline{W}G],
+      \,
+      frgt \circ DK
+      \big(
+        A[n] \oplus A[n-1] 
+      \big)
+    \Big)    
+    \,.
+  \end{aligned}
+$$
+
+This is manifestly the image under $sSet\big( [S,\overline{W}G], - \big)$ of the correct morphism (eq:ComparisonMorphismFromFreeLoopSpaceViaEilenbergZilber) from Prop. \ref{FreeLoopSpaceOfEMSpaceIdentifiedViaEilenbergZilber}.
+
+\end{proof}
 
 ## References
 
