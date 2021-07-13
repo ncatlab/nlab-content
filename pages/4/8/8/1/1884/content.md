@@ -569,7 +569,7 @@ given by restricting a virtual vector bundle to the basepoint.
 The [[kernel]] of this map is called the _[[reduced K-theory]] group_ of $(X,x)$, denoted
 
 $$
-  \tilde K(X) \;\coloneqq\; ker(const_x^\ast)
+  \tilde{K}(X) \;\coloneqq\; ker(const_x^\ast)
   \,.
 $$
 
@@ -587,7 +587,7 @@ with the [[point space]], and regard this as a [[pointed topological space]] wit
 Then the reduced K-theory of $X_+$ is the plain K-theory of $X$:
 
 $$
-  \tilde K(X_+)
+  \tilde{K}(X_+)
     \simeq
   K(X)
   \,.
@@ -657,7 +657,7 @@ this complement [[subspace]] $X \setminus \{x\} \subset X$ is a [[locally compac
 [[Hausdorff space]], and every locally compact Hausdorff spaces arises
 this way (by [this prop.](one-point+compactification#InclusionIntoOnePointExtensionIsOpenEmbedding)).
 
-Therefore one may think of the [[reduced K-groups]] $\tilde K(X)$ (def. \ref{KernelReducedKGroup})
+Therefore one may think of the [[reduced K-groups]] $\tilde{K}(X)$ (def. \ref{KernelReducedKGroup})
 of compact Hausdorff spaces as the those K-groups of locally compact Hausdorff spaces which
 "vanish at infinity".
 
@@ -675,7 +675,7 @@ on the category $Top^{\ast/}$ of _[[pointed topological spaces]]_
 (whose [[morphisms]] are the [[continuous functions]] that preserve the base-point):
 
 $$
-  \tilde K \;\colon\; (Top^{\ast/})^{op} \longrightarrow Ab
+  \tilde{K} \;\colon\; (Top^{\ast/})^{op} \longrightarrow Ab
   \,.
 $$
 
@@ -712,13 +712,13 @@ $$
 
 +-- {: .num_prop #KGrupDirectSummandReducedKGroup}
 ###### Proposition
-**(over [[compact Hausdorff spaces]] $\tilde K(X)$ is a [[direct sum|direct summand]] of $K(X)$)
+**(over [[compact Hausdorff spaces]] $\tilde{K}(X)$ is a [[direct sum|direct summand]] of $K(X)$)
 
 If $(X,x)$ is a [[pointed topological space|pointed]] [[compact Hausdorff space]] then the defining [[short exact sequence]]
 of [[reduced K-theory]] groups (def. \ref{KernelReducedKGroup})
 
 $$
-  0 \to \tilde K(X) \overset{\phantom{AAA}}{\hookrightarrow} K(X) \overset{const_x^\ast}{\longrightarrow} K(\ast) \simeq \mathbb{Z}
+  0 \to \tilde{K}(X) \overset{\phantom{AAA}}{\hookrightarrow} K(X) \overset{const_x^\ast}{\longrightarrow} K(\ast) \simeq \mathbb{Z}
    \to 0
 $$
 
@@ -728,7 +728,7 @@ $$
   \array{
     K(X)
       &\overset{\phantom{A}\simeq \phantom{A}}{\longrightarrow}&
-    \tilde K(X) \oplus \mathbb{Z}
+    \tilde{K}(X) \oplus \mathbb{Z}
     \\
     [E] - [X \times k^n]
       &\overset{\phantom{AAA}}{\mapsto}&
@@ -749,7 +749,7 @@ piece that has vanishing virtual rank over the connected component of $x$ and a 
 $$
   [E]- [X \times k^n]
     =
-  \underset{\in \tilde K(X) \subset K(X)}{\underbrace{\left( [E] - [X \times k^{rk_x(E)}] \right)}}
+  \underset{\in \tilde{K}(X) \subset K(X)}{\underbrace{\left( [E] - [X \times k^{rk_x(E)}] \right)}}
     -
   \underset{\in \mathbb{Z} \subset K(X) }{\underbrace{[X \times k^{n-rk_x(E)}]}}
   \,.
@@ -796,7 +796,7 @@ of complex topological K-theory, discussed [below](#BottPeriodicities).
 
 =--
 
-In order to describe $\tilde K(X)$ itself as an equivalence class, we consider the followign refinement
+In order to describe $\tilde{K}(X)$ itself as an equivalence class, we consider the followign refinement
 of [[stable equivalence of vector bundles]] (def. \ref{StableEquivalenceOfVectorBundles}):
 
 +-- {: .num_defn #EquivalenceRelationForReducedKTheory}
@@ -844,10 +844,10 @@ $$
 For $X$ a [[compact Hausdorff space]] then the commutative [[monoid]] $(Vect(X)_{/\sim_{red}}, +)$
 from def. \ref{EquivalenceRelationForReducedKTheory} is already an [[abelian group]] and is
 in fact [[natural isomorphism|naturally isomorphic]]
-to the [[reduced K-theory]] group $\tilde K(X)$ (def. \ref{KernelReducedKGroup}):
+to the [[reduced K-theory]] group $\tilde{K}(X)$ (def. \ref{KernelReducedKGroup}):
 
 $$
-  \tilde K(X) \simeq (Vect(X)_{/\sim_{red}}, +)
+  \tilde{K}(X) \simeq (Vect(X)_{/\sim_{red}}, +)
   \,.
 $$
 
@@ -856,7 +856,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{KGrupDirectSummandReducedKGroup} $\tilde K(X)$ is the subgroup of the [[Grothendieck group of a commutative monoid|Grothendieck group]] $K(X)$
+By prop. \ref{KGrupDirectSummandReducedKGroup} $\tilde{K}(X)$ is the subgroup of the [[Grothendieck group of a commutative monoid|Grothendieck group]] $K(X)$
 on the elements of the form $[E]- [X \times k^{rk_x(E)}]$, which are clearly entirely determined by
 $[E] \in Vect(X)_{/\sim}$. Hence we need to check if the equivalence relation of the Gorthendieck
 goup coincides with $\sim_{red}$ on these representatives.
@@ -898,15 +898,15 @@ necessarily have the same rank, it implies the equality of the second component.
 
 +-- {: .num_remark}
 ###### Remark
-**([[non-unital ring|non-unital]] [[commutative ring]]-structure on $\tilde K(X)$)**
+**([[non-unital ring|non-unital]] [[commutative ring]]-structure on $\tilde{K}(X)$)**
 
 In view of the [[commutative ring]] structure on the K-group $K(X)$ from remark \ref{KTheoryRing},
-the reduced K-group $\tilde K(X)$ from def. \ref{KernelReducedKGroup}, being the [[kernel]]
+the reduced K-group $\tilde{K}(X)$ from def. \ref{KernelReducedKGroup}, being the [[kernel]]
 of a ring [[homomorphism]] (remark \ref{FunctorialityOfKGroup}) is an ideal in $K(X)$,
 hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 
 (The ring unit of $K(X)$ is the class $[X \times k^1, X \times k^0]$ of the [[trivial vector bundle|trivial]]
-[[line bundle]] on $X$, which has virtual rank 1, and hence is not in $\tilde K(x)$.)
+[[line bundle]] on $X$, which has virtual rank 1, and hence is not in $\tilde{K}(X)$.)
 
 
 =--
@@ -951,7 +951,7 @@ Recall  that for the case that $A = \emptyset \subset X$ then $X/\emptyset = X_+
 
 1. for $A = \emptyset \subset X$ we have $K(X,\emptyset) = \tilde K(X \sqcup \ast) \simeq K(X)$ (example \ref{ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup});
 
-1. for $A = \{x\} \subset X$ we have $K(X, \{x\}) = \tilde K(X/\{x\}) = \tilde K(X)$.
+1. for $A = \{x\} \subset X$ we have $K(X, \{x\}) = \tilde K(X/\{x\}) = \tilde{K}(X)$.
 
 
 =--
@@ -993,7 +993,7 @@ are in degree zero and writes
 $$
   K^0(X) \coloneqq K(X)
   \phantom{AAAA}
-  \tilde K^0(X) \coloneqq \tilde K(X)
+  \tilde K^0(X) \coloneqq \tilde{K}(X)
     \phantom{AAA}
   K^0(X,A) \coloneqq K(X,A)
   \,.
@@ -1282,7 +1282,7 @@ $$
   \;\colon\;
   \tilde K(Y)
     \overset{\simeq}{\longrightarrow}
-  \tilde K(X)
+  \tilde{K}(X)
   \,.
 $$
 
@@ -1424,7 +1424,7 @@ $$
   \,.
 $$
 
-Hence it only remains to see for $x \in \tilde K(X)$ a class with $i^\ast(x) = 0$
+Hence it only remains to see for $x \in \tilde{K}(X)$ a class with $i^\ast(x) = 0$
 that $x = q^\ast(y)$ comes from a class on the quotient $X/A$. But by compactness, the class
 $x$ is given by a [[virtual vector bundle]] of the form $E - rk(E)$
 (prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}, prop. \ref{KGrupDirectSummandReducedKGroup}).
@@ -1560,7 +1560,7 @@ $$
 and in the pointed case a splitting of the [[reduced K-theory]] groups
 
 $$
-  \tilde K(X)
+  \tilde{K}(X)
     \;\simeq\;
   \tilde K(A)
     \oplus
@@ -1582,7 +1582,7 @@ $$
       {\underset{r^\ast}{\longrightarrow}}
       {\overset{i^\ast}{\longleftarrow}}
       {}
-  \tilde K(X)
+  \tilde{K}(X)
     \overset{}{\longleftarrow}
   K(X,A)
     \longleftarrow
@@ -1606,7 +1606,7 @@ $$
      {\underset{r^\ast}{\longrightarrow}}
      {\overset{i^\ast}{\longleftarrow}}
      {}
-  \tilde K(X)
+  \tilde{K}(X)
     \longleftarrow
   K(X,A)
     \longleftarrow
@@ -1633,7 +1633,7 @@ $$
 Then there is an [[isomorphism]]
 
 $$
-  \tilde K(X \vee Y) \simeq \tilde K(X) \oplus \tilde K(Y)
+  \tilde K(X \vee Y) \simeq \tilde{K}(X) \oplus \tilde K(Y)
   \,.
 $$
 
@@ -1661,11 +1661,11 @@ isomorphism that establishes the claim:
 $$
   \tilde K(X \times Y)
     \simeq
-  \tilde K(X)
+  \tilde{K}(X)
     \oplus
   \tilde K( (X \times Y)/(X \times \{y\}) )
     \simeq
-  \tilde K(X) \oplus \tilde K(Y) \oplus \tilde K(X \wedge Y)
+  \tilde{K}(X) \oplus \tilde K(Y) \oplus \tilde K(X \wedge Y)
   \,.
 $$
 
@@ -1704,9 +1704,9 @@ $$
 By functoriality (remark \ref{FunctorialityOfReducedKGroups}) this implies that similarly
 
 $$
-  id_{\tilde K(X)}
+  id_{\tilde{K}(X)}
     \;\colon\;
-  \tilde K(X) \longrightarrow \tilde K(X \vee Y) \longrightarrow \tilde K(X)
+  \tilde{K}(X) \longrightarrow \tilde K(X \vee Y) \longrightarrow \tilde{K}(X)
   \phantom{AA}
    \text{and}
   \phantom{AA}
@@ -1724,7 +1724,7 @@ Therefore by prop. \ref{ExactSequenceInReducedTopologicalKTheory} there are [[sh
 $$
   0
     \to
-  \tilde K(X)
+  \tilde{K}(X)
     \longrightarrow
   \tilde K(X \vee Y)
     \longrightarrow
@@ -1786,7 +1786,7 @@ $$
     \;\simeq\;
   \tilde K(X \wedge Y)
     \oplus
-  \tilde K(X)
+  \tilde{K}(X)
     \oplus
   \tilde K(Y)
   \,.
@@ -1852,7 +1852,7 @@ $$
     \longrightarrow
   \tilde K( X \times Y )
     \overset{i^\ast}{\longrightarrow}
-  \tilde K(X) \oplus \tilde K(Y)
+  \tilde{K}(X) \oplus \tilde K(Y)
   \,.
 $$
 
@@ -1861,7 +1861,7 @@ with [[section]] given by "external direct sum"
 
 $$
   \array{
-    \tilde K(X) \oplus \tilde K(Y)
+    \tilde{K}(X) \oplus \tilde K(Y)
       &\longrightarrow&
     \tilde K(X \times Y)
     \\
@@ -1881,7 +1881,7 @@ $$
     \longrightarrow
   \tilde K(X \times Y)
     \overset{i^\ast}{\longrightarrow}
-  \tilde K(X) \oplus \tilde K(Y)
+  \tilde{K}(X) \oplus \tilde K(Y)
     \to
   0
 $$
@@ -1906,7 +1906,7 @@ that makes the following [[commuting diagram|diagram commute]]:
 
 $$
   \array{
-    \tilde K(X) \oplus \tilde K(Y)
+    \tilde{K}(X) \oplus \tilde K(Y)
       &\hookrightarrow&
     K(X) \oplus K(Y)
     \\
@@ -1922,7 +1922,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{KGrupDirectSummandReducedKGroup} the elements in $\tilde K(X)$ and $\tilde K(Y)$
+By prop. \ref{KGrupDirectSummandReducedKGroup} the elements in $\tilde{K}(X)$ and $\tilde K(Y)$
 are represented by [[virtual vector bundles]] which vanish when restricted to the base points
 $x \in X$ and $y \in Y$, respectively. But this implies that their [[external tensor product of vector bundles]]
 vanishes over $X \times \{y\}$ and $\{x\} \times Y$. From the proof of prop. \ref{ReducedKTheoryOfProductSpace}
@@ -1930,9 +1930,9 @@ it is the restriction of the product to to these subspaces that gives the map
 
 
 $$
-  K(X \times Y) \simeq \tilde K(X \times Y) \oplus \tilde K(X) \oplus \tilde K(Y)
+  K(X \times Y) \simeq \tilde K(X \times Y) \oplus \tilde{K}(X) \oplus \tilde K(Y)
     \longrightarrow
-  \tilde K(X) \oplus \tilde K(Y)
+  \tilde{K}(X) \oplus \tilde K(Y)
 $$
 
 and hence on these element this component vanishes.
@@ -1992,7 +1992,7 @@ $$
 A **proof** of this may be obtained by analysis of the
 relevant [[clutching function]], see _[here](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)_.
 
-Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)). This element
+Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde{K}(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde{K}(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)). This element
 
 $$
   h - 1 \in \tilde K_{\mathbb{C}}(S^2)
@@ -2103,10 +2103,10 @@ with the image of the [[basic complex line bundle on the 2-sphere]] in reduced K
 
 $$
   (h-1)
-    \widetilde \boxtimes
+    \tilde \boxtimes
   (-)
     \;\colon\;
-  \tilde K(X) \overset{\simeq}{\longrightarrow} \tilde K(\Sigma^2 X)
+  \tilde{K}(X) \overset{\simeq}{\longrightarrow} \tilde K(\Sigma^2 X)
 $$
 
 from that of $X$ to that of its double [[suspension]] $\Sigma^2 X$.
@@ -2128,7 +2128,7 @@ $$
     \oplus
   \tilde K(Y)
     \oplus
-  \tilde K(X)
+  \tilde{K}(X)
 $$
 
 relating the reduced K-theory of the [[product topological space]]
@@ -2151,7 +2151,7 @@ $$
   \right)
     \otimes
   \left(
-     \tilde K(X) \oplus \mathbb{Z}
+     \tilde{K}(X) \oplus \mathbb{Z}
   \right)
    \;\simeq\;
   \left(
@@ -2165,18 +2165,18 @@ $$
       \oplus
     \tilde K(S^2)
       \oplus
-    \tilde K(X)
+    \tilde{K}(X)
       \oplus
     \mathbb{Z}
   \right)
   \,.
 $$
 
-Multiplying out and chasing through the constructions to see that this reduces to an isomorphism on the common summand $\tilde K(S^2) \oplus \tilde K(X) \oplus \mathbb{Z}$, this yields an isomorphism of the form
+Multiplying out and chasing through the constructions to see that this reduces to an isomorphism on the common summand $\tilde K(S^2) \oplus \tilde{K}(X) \oplus \mathbb{Z}$, this yields an isomorphism of the form
 
 $$
-  \tilde K(S^2) \otimes \tilde K(X)
-    \underoverset{\simeq}{\widetilde \boxtimes}{\longrightarrow}
+  \tilde K(S^2) \otimes \tilde{K}(X)
+    \underoverset{\simeq}{\tilde \boxtimes}{\longrightarrow}
   \tilde K(S^2 \wedge X)
     =
   \tilde K(\Sigma^2 X)
@@ -2207,13 +2207,13 @@ $$
     \mathbb{Z} \otimes \tilde K_{\mathbb{C}}(X)
       \overset{ \beta \otimes id }{\longrightarrow}
     \tilde K_{\mathbb{C}}(S^2) \otimes \tilde K_{\mathbb{C}}(X)
-      \underoverset{\simeq}{\widetilde \boxtimes}{\longrightarrow}
+      \underoverset{\simeq}{\tilde \boxtimes}{\longrightarrow}
       &
     \tilde K_{\mathbb{C}}(S^2 \wedge X)
       =
     \tilde K_{\mathbb{C}}(\Sigma^2 X)
     \\
-    E - rk_x(E) &\overset{\phantom{AAAA}}{\mapsto}& (h-1) \widetilde \boxtimes (E - rk_x(E))
+    E - rk_x(E) &\overset{\phantom{AAAA}}{\mapsto}& (h-1) \tilde \boxtimes (E - rk_x(E))
   }
 $$
 
@@ -2265,18 +2265,18 @@ $$
   K^\bullet(X)
 $$
 
-is the [[linear map]] which on the direct summands $\tilde K^0(X) \coloneqq \tilde K(X)$ and $\tilde K^1(X) \coloneqq \tilde K(\Sigma X)$
+is the [[linear map]] which on the direct summands $\tilde K^0(X) \coloneqq \tilde{K}(X)$ and $\tilde K^1(X) \coloneqq \tilde K(\Sigma X)$
 is given by the following morphisms, which are [[composition|composites]] of the external product $\tilde \boxtimes$ on reduced K-groups
 from prop. \ref{ExternalTensorProductOnReducedKGroups} with pullbacks along the above suspended diagonal maps:
 
 $$
-  \tilde K(X) \otimes \tilde K(X)
+  \tilde{K}(X) \otimes \tilde{K}(X)
     \overset{\tilde \boxtimes}{\longrightarrow}
-  \tilde K(X)
+  \tilde{K}(X)
 $$
 
 $$
-  \tilde K(X) \otimes \tilde K(\Sigma X)
+  \tilde{K}(X) \otimes \tilde K(\Sigma X)
     \overset{\tilde \boxtimes}{\longrightarrow}
   \tilde K(X \wedge (\Sigma X))
     \overset{ (\Sigma(q \circ \Delta_X))^\ast }{\longrightarrow}
@@ -2290,7 +2290,7 @@ $$
     \overset{ (\Sigma^2(q \circ \Delta_X))^\ast }{\longrightarrow}
   \tilde K(\Sigma^2 X)
     \simeq
-  \tilde K(X)
+  \tilde{K}(X)
   \,,
 $$
 
@@ -2415,7 +2415,7 @@ $$
 are [[classifying spaces]] for real and complex $K$-theory, respectively: for every compact Hausdorff topological space $X$, we have an isomorphism of groups
 
 $$
-  \tilde K(X)
+  \tilde{K}(X)
   \simeq
   [X, B U ]
   \,.
@@ -2436,7 +2436,7 @@ See for instance ([Friedlander, prop. 3.2](#Friedlander)) or ([Karoubi, prop. 1.
 +-- {: .proof}
 ###### Proof
 
-First consider the statement for reduced cohomology $\tilde K(X)$:
+First consider the statement for reduced cohomology $\tilde{K}(X)$:
 
 Since a [[compact topological space]] is a [[compact object]] in [[Top]] (and using that the [[classifying spaces]] $B U(n)$ are (see there) [[paracompact topological space]]s, hence normal, and since the inclusion morphisms are closed inclusions (...)) the [[hom-functor]] out of it commutes with the [[filtered colimit]]
 
@@ -2456,14 +2456,14 @@ Since $[X, B U(n)] \simeq U(n) Bund(X)$, in the last line the colimit is over [[
 For the full statement use that by prop. \ref{missing} we have
 
 $$
-  K(X) \simeq H^0(X, \mathbb{Z}) \oplus \tilde K(X)
+  K(X) \simeq H^0(X, \mathbb{Z}) \oplus \tilde{K}(X)
   \,.
 $$
 
 Because $H^0(X,\mathbb{Z}) \simeq [X, \mathbb{Z}]$ it follows that
 
 $$
-  H^0(X, \mathbb{Z}) \oplus \tilde K(X)
+  H^0(X, \mathbb{Z}) \oplus \tilde{K}(X)
   \simeq
   [X, \mathbb{Z}] \times [X, B U]
   \simeq
