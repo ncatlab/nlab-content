@@ -7560,16 +7560,15 @@ for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable wea
 
 
 
-+-- {: .num_remark}
-###### Final Remark
-
+\begin{remark}
+**(transition to spectral sequences)**\linebreak
 For a [[tower of fibrations]] of spectra, the long sequences of stable homotopy groups associated with any (co-)fiber sequence of spectra, from prop. \ref{LongExactSequenceOfStableHomotopyGroups}, combine to an [[exact couple]]. The induced [[spectral sequence of a tower of fibrations]] is the central tool of computation in [[stable homotopy theory]].
 
 We discuss how these spectral sequences arise in the section _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_.
 
 We discuss in detail the special case of the [[Adams spectral sequences]] in the section _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_.
 
-=--
+\end{remark}
 
 
 
@@ -7592,7 +7591,7 @@ A classical textbook  on stable homotopy theory for "unstructured" spectra is
 
 For establishing the stable model structure on spectra we use the [[Bousfield-Friedlander theorem]] as discussed in
 
-* {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section X.4 of _[[Simplicial homotopy theory]]_, (1996)
+* {#GoerssJardine96} [[Paul Goerss]], [[J. F. Jardine]], section X.4 of _[[Simplicial homotopy theory]]_, (1996)
 
 and as applied for general Omega-spectrification functors in
 
