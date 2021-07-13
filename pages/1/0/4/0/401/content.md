@@ -120,6 +120,110 @@ If $(X,A)$ is an NDR-pair, then the inclusion has a left [[homotopy inverse]] if
 
 The pair $(X,A)$ is a __DR-pair__ if it is a deformation retract and there is a function $u:X\to I$ such that $A=u^{-1}(0)$ (i.e. it gives simultaneously a deformation retract and a NDR-pair). If $(X,A)$ is an NDR-pair then the inclusion $A\hookrightarrow X$ is a homotopy equivalence iff $A$ is a deformation retract of $X$. Any map $f:X\to Y$ is a [[homotopy equivalence]] iff $X$ is the deformation retract of the mapping cylinder of $f$. If $(X,A)$ is an NDR-pair and $A$ is [[contractible space|contractible]], then the quotient map $X\to X/A$ is a homotopy equivalence. 
 
+
+### In chain complexes
+ {#ExamplesInChainComplexes}
+
+\begin{proposition}\label{EZAWDeformationRetract}
+**([[Eilenberg-Zilber/Alexander-Whitney deformation retraction]])** \linebreak
+
+Let 
+
+* $A, B \,\in\, sAb = $ [[SimplicialAbelianGroups]]
+
+and denote 
+
+* by $N(A), N(B) \,\in\, Ch^+_\bullet = $ [[ConnectiveChainComplexes]] their [[normalized chain complexes]], 
+
+* by $A \otimes B \,\in\, sAb$ the degreewise [[tensor product of abelian groups]],
+
+* by $N(A) \otimes N(B)$ the [[tensor product of chain complexes]].
+
+Then there is a [[deformation retraction]]
+
+\begin{tikzcd}
+  N(A) \otimes N(B)
+  \ar[
+    rr,
+    bend right=20,
+    "\mathrm{id}"{below},
+    "\ "{above, name=t}
+  ]
+  \ar[
+    rr,
+    phantom,
+    "\ "{name=s, yshift=-6pt}
+  ]
+  \ar[
+    r,
+    "\nabla_{A,B}"
+  ]
+  &
+  N( A \otimes B )
+  \ar[
+    r,
+    "\Delta_{A,B}"
+  ]
+  &
+  N(A) \otimes N(B)
+  \ar[
+    from=s,
+    to=t,
+    -,
+   shift left=1pt
+  ]
+  \ar[
+    from=s,
+    to=t,
+    -,
+   shift right=1pt
+  ]
+\end{tikzcd}
+
+\begin{tikzcd}
+  N( A \otimes B )
+  \ar[
+    rr,
+    bend right=20,
+    "\mathrm{id}"{below},
+    "\ "{above, name=t}
+  ]
+  \ar[
+    rr,
+    phantom,
+    "\ "{name=s, yshift=-6pt}
+  ]
+  \ar[
+    r,
+    "\Delta_{A,B}"
+  ]
+  &
+  N(A) \otimes N(B)
+  \ar[
+    r,
+    "\nabla_{A,B}"
+  ]
+  &
+  N( A \otimes B )
+  \ar[
+    from=s,
+    to=t,
+    Rightarrow
+  ]
+\end{tikzcd}
+
+where 
+
+* $\nabla_{A,B}$ is the [[Eilenberg-Zilber map]];
+
+* $\Delta_{A,B}$ is the [[Alexander-Whitney map]].
+
+\end{proposition}
+
+For unnormalized chain complexes, where we have a [[homotopy equivalence]], this is the original [[Eilenberg-Zilber theorem]] ([Eilenberg & Zilber 1953](EZAW+deformation+retraction#EilenbergZilber53), [Eilenberg & MacLane 1954, Thm. 2.1](EZAW+deformation+retraction#EilenbergMacLane54)). The above [[deformation retraction]] for normalized chain complexes is [Eilenberg & MacLane 1954, Thm. 2.1a](EZAW+deformation+retraction#EilenbergMacLane54). Both are reviewed in [May 1967, Cor. 29.10](EZAW+deformation+retraction#May67). Explicit description of the [[homotopy operator]] is given in [Gonzalez-Diaz & Real 1999](EZAW+deformation+retraction#GonzalezDiazReal99).
+
+
+
 ## Related concepts
 
 * [[retract]], [[neighbourhood retract]]
@@ -137,5 +241,10 @@ For instance
 
 [[!redirects deformation retracts]]
 
+[[!redirects deformation retraction]]
+[[!redirects deformation retractions]]
+
 [[!redirects strong deformation retract]]
 [[!redirects strong deformation retracts]]
+
+
