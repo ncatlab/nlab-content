@@ -112,6 +112,9 @@ An attempt to make the notion precise is due to
 
 * Greg Anderson, Diego Castano, _Measures of fine tuning_, Phys. Lett.B 347:300-308, 1995 ([arXiv:hep-ph/9409419](https://arxiv.org/abs/hep-ph/9409419))
 
+* [[James Wells]], *Evaluation and Utility of Wilsonian Naturalness* ([arXiv:2107.06082](https://arxiv.org/abs/2107.06082))
+
+
 
 Critical comments are in
 
