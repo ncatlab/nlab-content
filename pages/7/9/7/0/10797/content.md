@@ -1,21 +1,32 @@
 
 
-This page collects some links related to the article
+This page collects some links related to the article:
 
-* [[Jacob Lurie]]
+* [[Jacob Lurie]], 
 
-  _Rational and $p$-adic Homotopy Theory_
+  DAG XIII: **Rational and p-Adic Homotopy Theory**
+ 
+  2011
 
+  [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf), [[Lurie_RationalHomotopyTheory.pdf:file]]
 
-  ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf))
+on [[rational homotopy theory]] and [[p-adic homotopy theory]] seen within the theory of algebraic [[∞-stacks]] and [[derived algebraic geometry]].
 
-on [[p-adic homotopy theory]].
 
 #Contents#
 * table of contents
 {:toc}
 
-## 2 $E_\infty$-Algebras in positive characteristic
+
+## Rational homotopy theory
+
+* [[rational homotopy theory]]
+
+* [[fundamental theorem of dg-algebraic rational homotopy theory]]
+
+  (Prop. 1.3.3, 1.3.4)
+
+## $E_\infty$-Algebras in positive characteristic
 
 ### 2.1 Norm maps
 
@@ -37,3 +48,5 @@ on [[p-adic homotopy theory]].
 
 category: reference
 
+
+[[!redirects Rational and p-Adic Homotopy Theory]]
