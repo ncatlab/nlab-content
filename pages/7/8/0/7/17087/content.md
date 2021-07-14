@@ -79,6 +79,11 @@ See also
 
 * Justin Hilburn, Joel Kamnitzer, Alex Weekes, _BFN Springer Theory_ ([arXiv:2004.14998](https://arxiv.org/abs/2004.14998))
 
+* Zijun Zhou, *Virtual Coulomb branch and vertex function* ([arXiv:2107.06135](https://arxiv.org/abs/2107.06135))
+
+
+
+
 
 On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
 
