@@ -14,7 +14,7 @@
 
 ## Idea
 
-The **Ehrenfeucht-Fra&#239;ss&#233; [[comonad]]** is a comonad introduced by [[Samson Abramsky]] and [[Nihil Shah]] in [Abramsky-Shah 2018](#AbramskyShah), to study [[Ehrenfeucht-Fraïssé games]].
+The **Ehrenfeucht-Fra&#239;ss&#233; comonad** is a [[comonad]] introduced by [[Samson Abramsky]] and [[Nihil Shah]] in [Abramsky-Shah 2018](#AbramskyShah), to study [[Ehrenfeucht-Fraïssé games]].
 
 If $\mathcal{R}(\sigma)$ denotes the set of $\sigma$-structures, for $\sigma$ a relational signature, there is a comonad $\mathbb{E}_k$ on $\mathcal{R}(\sigma)$, where
 
@@ -38,5 +38,5 @@ Let $\mathcal{R}(\sigma)$ be as above.
 ## References
 
 * {#AbramskyShah} [[Samson Abramsky]] and [[Nihil Shah]],
-_Relating Structure and Power: Comonadic Semantics for Computational Resources_, arXiv preprint (https://arxiv.org/abs/1806.09031)
+_Relating Structure and Power: Comonadic Semantics for Computational Resources_ ([arXiv:1806.09031](https://arxiv.org/abs/1806.09031))
 
