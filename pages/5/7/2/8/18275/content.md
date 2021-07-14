@@ -58,7 +58,7 @@ Then
 
    where on the right we have the [[limit]] in $\mathcal{D}$ over the [[diagram]] $R \circ X \colon \mathcal{I} \overset{X}{\longrightarrow} \mathcal{C} \overset{R}{\longrightarrow} \mathcal{D}$.
 
-1. If $X \colon \mathcal{I} \to \mathcal{D}$ is a [[diagram]] whose [[colimit]] $\underset{\longrightarrow}{\lim}_{i} X_i$ exists in $\mathcal{D}$, then this colimit is preserved by the [[left adjoint]] $l$ in that there is a [[natural isomorphism]]
+1. If $X \colon \mathcal{I} \to \mathcal{D}$ is a [[diagram]] whose [[colimit]] $\underset{\longrightarrow}{\lim}_{i} X_i$ exists in $\mathcal{D}$, then this colimit is preserved by the [[left adjoint]] $L$ in that there is a [[natural isomorphism]]
 
    $$
      L
