@@ -16,9 +16,9 @@
 ## Idea
 
 **Ehrenfeucht-Fra&#239;ss&#233; games** are a technique in [[model theory]] for
-studying whether to structures are elementary equivalent. Variations
+studying whether two [[structures in model theory|structures]] are [[elementary equivalence|elementary equivalent]]. Variations
 can be used to study equivalence with respect to logics other than
-first-order logic.
+[[first-order logic]].
 
 The games are played by two players: the _spoiler_, whose objective is
 to establish a difference between the two structures, and the
