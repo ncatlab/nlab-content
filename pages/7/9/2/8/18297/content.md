@@ -320,6 +320,7 @@ This is Theorem 4.47 and Proposition 7.48 in [V&#228;&#228;n&#228;nen 2011](#Vaa
 ## Related concepts
 
 * [[type in model theory]]
+* [[Ehrenfeucht-Fraïssé comonad]]
 
 ## References
 
