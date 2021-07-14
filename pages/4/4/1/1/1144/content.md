@@ -1240,15 +1240,16 @@ More on the relation to Lie theory is in:
 
 The above description of the Quillen approach draws on blog comments by [[Kathryn Hess]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c030961) and by [[David Ben-Zvi]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c031038).
 
-Discussion from the point of view of [[(∞,1)-category theory]] and [[E-∞ algebras]] is in
-
-* [[Jacob Lurie]], Section 1 of: _Rational and $p$-adic homotopy theory_, 2011 ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf), [[Lurie_RationalHomotopyTheory.pdf:file]])
 
 An extension of rational homotopy theory to describe (some) non-[[simply connected spaces]] is given, using [[derived algebraic geometry]], in
 
-* [[B. Toën]], _Champs affines_, Selecta Math. (N.S.) 12 (2006), no. 1, 39-135.
+* [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
 
   See in particular Cor. 2.4.11, Cor. 2.5.3 and Cor. 2.5.4, and the MathOverflow answer [MO/79309](http://mathoverflow.net/a/79309) by [[Denis-Charles Cisinski]].
+
+Further discussion of rational homotopy theory seen within the theory of algebraic [[∞-stacks]]:
+
+* [[Jacob Lurie]], Section 1 of: DAG XIII: _[[Rational and p-Adic Homotopy Theory]]_, 2011 ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf), [[Lurie_RationalHomotopyTheory.pdf:file]])
 
 Generalization to non-[[connected spaces]] is discussed in
 
