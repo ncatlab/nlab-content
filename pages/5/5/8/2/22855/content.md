@@ -61,6 +61,8 @@ one by transferring it along the corresponding equivalence of categories.
 
 * [[Dold-Kan correspondence]]
 
+* [[model structure on cosimplicial abelian groups]]
+
 * [[model structure on simplicial algebras]]
 
 
