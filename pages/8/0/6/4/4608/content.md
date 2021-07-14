@@ -15,7 +15,7 @@
 
 ## Idea
 
-Let $Ab^{\Delta}$ be the [[category of cosimplicial objects]] in the category [[Ab]] of [[abelian group]]s -- the category of _cosimplicial abelian groups_ .
+Let $Ab^{\Delta}$ be the [[category of cosimplicial objects]] in the category [[Ab]] of [[abelian group]]s -- the category of _[[cosimplicial abelian group|cosimplicial abelian groups]]_ .
 
 This entry discusses structures of [[model categories]] on $Ab^\Delta$.
 
@@ -113,12 +113,16 @@ This argument is essentially that on page 41 of ([To&euml;n](#Toen))
 =--
 
 
+## Related concepts
+
+* [[model structure on simplicial abelian groups]]
+
 
 ## References
 
 The [[model structure on cosimplicial algebras]] is discussed in detail in
 
-* [[Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
-{#Toen}
+* {#Toen} [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
+
 
 The above proof that $Ab^\Delta_{proj}$ is a simplicial model category mimics the proof on page 41 there. Indeed, the claim is that the model structure on cosimplicial algebras is the [[transferred model structure]] induced by the above from the evident forgetful functor.
