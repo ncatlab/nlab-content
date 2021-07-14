@@ -1181,7 +1181,7 @@ The structure of a [[simplicial model category]] is described in detail at [[mod
 
 The Quillen adjunction over abelian $T$-algebras that we consider generalizes that discussed in 
 
-* {#Toen}[[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+* {#Toen} [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
 
 
 over ordinary commutative $k$-algebras. See also [[rational homotopy theory in an (infinity,1)-topos]].
@@ -1196,7 +1196,7 @@ on which this entry here is based.
 
 The considerations in 
 
-* {#Spivak} [[David Spivak]], _Derived smooth manifolds_  Duke Math. J. Volume 153, Number 1 (2010), 55-128. ([pdf](http://www.uoregon.edu/~dspivak/derived-smooth-manifolds.pdf))
+* {#Spivak} [[David Spivak]], _Derived smooth manifolds_, Duke Math. J. Volume 153, Number 1 (2010), 55-128. ([pdf](http://www.uoregon.edu/~dspivak/derived-smooth-manifolds.pdf))
 
 
 on [[derived smooth manifold]]s may be considered as complementary to the approach taken here: there simplicial $C^\infty$-rings are considered, instead of cosimplicial ones. A fully comprehensive treatment of _derived synthetic differential geometry_ would consider the combination of both aspects: simplicial presheaves on duals of simplicial $C^\infty$-rings with a functor $\mathcal{O}$ taking them to cosimplicial-simplicial $C^\infty$-rings. 
