@@ -1059,7 +1059,7 @@ The [[cohomology localization]] of $SynthDiff\infty Grpd$ and the infinitesimal 
 
 The discussion of the cohomology localization of $SynthDiff\infty Grpd$ follows that in another context in
 
-* {#Toen} [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+* {#Toen} [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
 
 
 The construction of the infinitesimal path object has been amplified and discussed by [[Anders Kock]] under the name _combinatorial differential forms_, for instance in
