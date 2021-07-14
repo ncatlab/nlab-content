@@ -20,22 +20,22 @@
 
 ## Idea
 
-A _schematic homotopy type_ is a [[geometric ∞-stack]] over a site of formal duals of $k$-algebras that models a [[homotopy type]] in generalization to how a [[dg-algebra]] models a [[rational space]] in [[rational homotopy theory]]: schematic homotopy type can in particular model more general [[fundamental group]]s.
+A _schematic homotopy type_ is a [[geometric ∞-stack]] over a site of [[formal duality|formal duals]] of $k$-[[associative algebras|algebras]] that models a [[homotopy type]] in generalization to how a [[dg-algebra]] models a [[rational space]] in [[rational homotopy theory]] (via the [[fundamental theorem of dg-algebraic rational homotopy theory]]): schematic homotopy types in particular model more general [[fundamental groups]]
 
 (...)
 
 ## Definition
 
 
-Let $k$ be a commutative [[ring]], $T$ the [[Lawvere theory]] of commutative $k$-[[associative algebra]]s. Let $\mathbb{U} \subset \mathbb{V}$ be an inclusion of [[universe]]s Let
+Let $k$ be a [[commutative ring]], $T$ the [[Lawvere theory]] of commutative $k$-[[associative algebras]]. Let $\mathbb{U} \subset \mathbb{V}$ be an inclusion of [[universes]]. Let
 
 $$
   T \hookrightarrow C = T Alg_{\mathbb{U}} \hookrightarrow T Alg_{\mathbb{V}}
 $$
 
-be the [[site]] on formal duals of small $k$-algebras equipped with the [[fpqc-topology]]. 
+be the [[site]] on [[formal duality|formal duals]] of small $k$-algebras equipped with the [[fpqc-topology]]. 
 
-By the general discussion at [[function algebras on ∞-stacks]] we have then  the [[Isbell duality]] pair of [[adjoint (∞,1)-functor]]s
+By the general discussion at [[function algebras on ∞-stacks]] we have then  the [[Isbell duality]] [[pair]] of [[adjoint (∞,1)-functors]]
 
 $$
   (\mathcal{O} \dashv Spec) : (T Alg_{\mathbb{V}}^{\Delta})^{op}
@@ -73,8 +73,8 @@ This appears as ([To&#235;n, def 3.1.2](#Toen))
 
 ## Properties
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
 A schematic homotopy type is in particular a [[geometric ∞-stack]] over $C$.
 
@@ -110,14 +110,16 @@ An introduction to the general theory
 
 * [[Ludmil Katzarkov]], [[Tony Pantev]], [[Bertrand Toën]], _Schematic homotopy types and non-abelian Hodge theory_, [math.AG/0107129](http://arxiv.org/abs/math/0107129)
 
-* [[Bertrand Toën]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
-{#Toen}
 
-The stack $Perf$ of [[perfect complex]]es is discussed for instance in section 21 of 
+* {#Toen} [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
 
-* [[Andre Hirschowicz]], [[Carlos Simpson]], _Descente pour les n-champs_ ([arXiv:math/9807049](http://arxiv.org/abs/math/9807049))
-{#HirschowizSimpson}
+
+The stack $Perf$ of [[perfect complexes]] is discussed for instance in section 21 of 
+
+* {#HirschowizSimpson} [[Andre Hirschowicz]], [[Carlos Simpson]], _Descente pour les n-champs_ ([arXiv:math/9807049](http://arxiv.org/abs/math/9807049))
+
 
 [[!redirects schematic homotopy types]]
 
 [[!redirects de Rham schematic homotopy type]]
+
