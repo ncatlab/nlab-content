@@ -59,6 +59,8 @@ A *simplicial abelian group* is
 
 * [[model structure on simplicial abelian groups]]
 
+* [[cosimplicial abelian group]]
+
 ## Related concepts
 
 * [[Moore complex]]
