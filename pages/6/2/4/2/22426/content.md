@@ -20,10 +20,11 @@
 
 ## Idea
 
-The *Kendall tau distance* between two [[permutations]] is the [[minimum]] [[natural number|number]] of [[transpositions]] (swaps) of *adjacent* elements needed to turn one into the other.
+An adaptation of the [[Kendall tau rank correlation]], the *Kendall tau distance* between two [[permutations]] is the [[minimum]] [[natural number|number]] of [[transpositions]] (swaps) of *adjacent* elements needed to turn one into the other. This quantity can also be defined as the total number of [[discordant pairs]] between the two [[permutations]]. 
 
 (This is in contrast to the [[Cayley distance]] which counts the minimum number of [[transpositions]] of any pairs of elements, not necessarily adjacent.)
 
+This quantity is also referred to as the *bubble sort distance*, since bubble sorting algorithms repeatedly iterate over a list and swap adjacent elements if they are out of order.
 
 
 ## Definition
@@ -87,6 +88,8 @@ For $\beta \in \mathbb{R}_{\geq 0}$, the [[exponential]] of this distance weight
 ## Properties
 
 
+
+
 \begin{theorem}
 The Mallows kernel (eq:MallowsKernel) is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$.
 \end{theorem}
@@ -118,6 +121,8 @@ Textbook account:
 See also:
 
 * Wikipedia, *[Kendall tau distance](https://en.wikipedia.org/wiki/Kendall_tau_distance)*
+
+* Cicirello_2020, *Kendall tau sequence distance: Extending Kendall tau from ranks to sequences*, EAI Endorsed Transactions on Industrial Networks and Intelligent Systems, vol. 7, no.23, ([DOI=10.4108/eai.13-7-2018.163925](http://dx.doi.org/10.4108/eai.13-7-2018.163925))
 
 Review and [[proof]] that the exponentiated negative Kendall tau distance (the [[Mallows kernel]]) is a [[positive definite bilinear form]]:
 
