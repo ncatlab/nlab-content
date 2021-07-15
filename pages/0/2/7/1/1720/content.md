@@ -177,9 +177,9 @@ The following says that left/right properness holds _locally_ in every model cat
 
 Given a [[model category]],
 
-1. every [[pushout]] of a weak equivalence between cofibrant objects along a cofibration is again a weak equivalence;
+1. every [[pushout]] of a [[weak equivalence]] between [[cofibrant objects]] along a [[cofibration]] is again a weak equivalence;
 
-1. every [[pullback]] of a weak equivalence between fibrant objects along a fibration is again a weak equivalence.
+1. every [[pullback]] of a [[weak equivalence]] between [[fibrant objects]] along a [[fibration]] is again a weak equivalence.
 
 =--
 
@@ -437,25 +437,38 @@ A model category is [[right proper model category|right proper]] if and only if 
 
 
 ### Slice categories
+ {#SliceCategories}
 
-For any model category $M$, and any morphism $f\colon A\to B$, the adjunction
-$$ \Sigma_f : M/A \rightleftarrows M/B : f^* $$
-is a [[Quillen adjunction]].  If this adjunction is a [[Quillen equivalence]], then $f$ must be a weak equivalence.  In general, the converse can be proven only if $A$ and $B$ are fibrant.
+For any model category $M$, and any morphism $f \colon A\to B$, the 
+[[base change]] of [[slice categories]] along $f$
+$$ 
+  \Sigma_f 
+    \;\colon\; 
+  M/A 
+    \rightleftarrows 
+  M/B 
+   \;\colon\; 
+  f^* $$
+is a [[Quillen adjunction]] between [[slice model categories]] ([this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction)).  
 
-+-- {: .num_theorem #ViaSliceCategories}
-###### Theorem
+If this adjunction is a [[Quillen equivalence]], then $f$ must be a [[weak equivalence]].  In general, the converse can be proven only if $A$ and $B$ are fibrant.
+
+\begin{proposition}\label{ViaSliceCategories}
 The following are equivalent:
 
 1. $M$ is right proper.
+
 1. If $f$ is any weak equivalence in $M$, then $\Sigma_f \dashv f^*$ is a Quillen equivalence.
-=--
 
-This is [Rezk 02, Proposition 2.5](#Rezk02).
+\end{proposition}
 
-In other words, $M$ is right proper iff all slice categories have the "correct" Quillen equivalence type.
+This is due to [Rezk 02, Prop. 2.5](#Rezk02).
+
+\begin{remark}
+The statement of Prop. \ref{ViaSliceCategories} may be read as saying $M$ is right proper iff all [[slice model categories]] have the "correct" Quillen equivalence type.
 
 Since whether or not a Quillen adjunction is a Quillen equivalence depends only on the classes of weak equivalences, not the fibrations and cofibrations, it follows that being right proper is really a property of a [[homotopical category]].  In particular, if one model structure is right proper, then so is any other model structure on the same category with the same weak equivalences.
-
+\end{remark}
 
 
 ### Local cartesian closure
@@ -494,7 +507,7 @@ Proposition \ref{FibrationsBetweenFibrantObjectsSuffice} can be found in
 
 * {#Bousfield01} [[Aldridge Bousfield]], *On the telescopic homotopy theory of spaces*, Trans. Amer. Math. Soc. 353 (2001), 2391-2426, [web with fulltext](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-00-02649-0/)
 
-See also
+See also:
 
 * {#Rezk98} [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv:9811038](http://arxiv.org/abs/math/9811038))
  
@@ -502,7 +515,7 @@ See also
 
 * {#Nikolaus10} [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv:1003.1342](http://arxiv.org/abs/1003.1342))
 
-Examples of nonproper model structures can be found in
+Examples of nonproper model structures can be found in:
 
 * [[Simon Henry]], _Counter-example to the existence of left Bousfield localization of combinatorial model category_ [MathOverflow](https://mathoverflow.net/questions/325383/counter-example-to-the-existence-of-left-bousfield-localization-of-combinatorial)
 
