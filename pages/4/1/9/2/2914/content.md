@@ -28,7 +28,7 @@ whose images under the [[forgetful functors]] $\mathcal{C}_{/X} \to \mathcal{C}$
 are fibrations, cofibrations or weak equivalences, respectively, in $\mathcal{C}$.
 \end{proposition}
 
-([Hirschhorn 2002, Thm. 7,6,5](#Hirschhorn02), [May & Ponto 2012, Th. 15.3.6](#MayPonto12))
+([Hirschhorn 2002, Thm. 7.6.5](#Hirschhorn02), [May & Ponto 2012, Th. 15.3.6](#MayPonto12))
 
 ## Properties ##
 
@@ -212,12 +212,11 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
 
 
 ### Quillen adjunctions
+ {#PropertiesQuillenAdjunctions}
 
-
-\begin{proposition}\label{AdjunctionSliceCat}
+\begin{proposition}\label{SlicedQuillenAdjunction}
 **(slice Quillen adjunctions)** \linebreak
-
-Consider a [[Quillen adjunction]]
+Given a [[Quillen adjunction]]
 $$
   \mathcal{D}
     \underoverset
@@ -228,61 +227,54 @@ $$
   \,,
 $$
 
-Then the following [sliced adjunctions](over+category#OnSlices) are [[Quillen adjunctions]] between the corresponding slice model categories (Prop. \ref{SliceModelStructure}):
+then for any [[object]] $b \in \mathcal{C}$ the [sliced adjunction](over+category#OnSlices) over $b$ is a  [[Quillen adjunction]] between the corresponding slice model categories (Prop. \ref{SliceModelStructure}):
 
-
-1. For $d \in \mathcal{D}$ any object, the [sliced adjunction](over+category#OnSlices)
-
-   \[
-     \label{QuillenAdjunctionSlicedOverD}
-     \mathcal{D}_{/d}
-       \underoverset
-         {\underset{R_{/d}}{\longrightarrow}}
-         {\overset{L_{/d}}{\longleftarrow}}
-         {\;\;\;\;\bot_{\mathrlap{Qu}}\;\;\;\;}
-     \mathcal{C}_{/R(d)}
-     \,,
-     \;\;\;\;
-     \text{with}
-     \;\;
-     L_{/d} 
-       \;\colon\; 
-     \mathcal{C}_{/R(d)} 
-       \xrightarrow{\;L\;} 
-     \mathcal{D}_{/L\circ R(d)} 
-       \xrightarrow{\;(\eta_d)^\ast\;} 
-     \mathcal{D}_{/d}
-     \,,
-   \]
-   is a [[Quillen adjunction]].
-
-   
-
-1. If $X \in \mathcal{C}$, then
-   $$
-     L \colon \mathcal{C}_{/X} \leftrightarrows \mathcal{D}_{/L(X)} \colon R
-   $$
-   is an adjunction,
-   where in the composition 
-   $R \colon \mathcal{D}_{/L X} \to \mathcal{C}_{/R L X} \to A_{/X}$, 
-   the second functor is the [[base change]] functor 
-   along the [[adjunction unit]] $X \to R \circ L(X)$.
-
+\[
+  \label{SlicedQuillenAdjointFunctors}
+  \mathcal{D}_{/L(c)}
+  \underoverset
+    {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
+    {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
+    {\bot_{\mathrlap{Qu}}}
+  \mathcal{C}_{/b}
+  \mathrlap{\,,}
+\]
 
 \end{proposition}
 
 (e.g. [Li 2016, Prop. 2.5 (2)](#Li16))
 
 \begin{proof}
+By the nature of the [sliced adjunction](over+category#OnSlices), 
+its [[left adjoint]] $L_{/b}$ acts as $L$ on [[underlying]] morphism. But since $L$ is assumed to be a [[left Quillen functor]] and since the (acyclic) cofibrations of the slice model structure are those of [[underlying]] morphisms (Prop. \ref{SliceModelStructure}), $L_{/b}$ preserves them and is hence itself a [[left Quillen functor]].
+\end{proof}
 
-From Prop. \ref{SliceModelStructure} it is immediate that:
+\begin{proposition}
+Given a [[Quillen equivalence]]
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\;\;\simeq_{\mathrlap{Qu}}\;\;\;\;}
+  \mathcal{C}
+  \,,
+$$
 
-* in the case (eq:QuillenAdjunctionSlicedOverD) the [[right adjoint]] $R_{/d}$ is a [[right Quillen functor]], since on [[underlying]] morphisms it is just $R$, which is a right Quillen functor by assumption
+and a [[cofibrant object]] $b$ such that $L(b)$ is a [[fibrant object]], then the sliced Quillen adjunction (eq:SlicedQuillenAdjointFunctors) from Prop. \ref{SlicedQuillenAdjunction} is itself a [[Quillen equivalence]]:
 
-* in the case...
+$$
+  \mathcal{D}_{/L(b)}
+  \underoverset
+    {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
+    {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
+    {\simeq_{\mathrlap{Qu}}}
+  \mathcal{C}_{/b}
+$$
 
-> am being interrupted...
-
+\end{proposition}
+\begin{proof}
+  It is sufficient to check that the [[derived adjunction unit]] and [[derived adjunction counit]] are [[weak equivalences]] (...)
 \end{proof}
 
 ## Examples
