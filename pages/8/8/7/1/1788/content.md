@@ -1,4 +1,32 @@
 
+\begin{remark}
+  The sliced adjunction (Prop. \ref{SliceAdjoints}) in the second form (eq:SlicedAdjointFunctorsOverRb) is such that the sliced [[left adjoint]] form [[adjuncts]] of slicing morphisms, in that (again by [this Prop.](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)):
+
+$$
+  L_{/d}
+  \left(
+    \array{
+      c
+      \\
+      \big\downarrow {}^{\mathrlap{\tau}}
+      \\
+      R(b)
+    }
+  \right)
+  \;\;
+  =
+  \;\;
+  \array{
+    L(c)
+    \\
+    \big\downarrow {}^{\mathrlap{\widetilde{\tau}}}
+    \\
+    b
+  }
+$$
+\end{remark}
+
+
 **(1a)**
 
 \begin{tikzcd}[column sep={between origins, 33}, row sep=4]
