@@ -1,23 +1,21 @@
-[[!redirects étalé space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### étale morphisms
-+--{: .hide}
++-- {: .hide}
 [[!include etale morphisms - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -29,11 +27,13 @@ The set $E_x = p^{-1}(x)$ where $x\in B$ is called the __[[stalk]]__ of $p$ over
 
 The underlying set of the _total space_ $E$ is the union of its stalks (notice that we do not say fiber!).  $p$ is sometimes refered to as the _projection_.
 
+
 ## Definition for arbitrary toposes
 
 The following is adapted from a [MathOverflow answer](https://mathoverflow.net/questions/78681/etal%c3%a9-space-construction-for-presheaves-on-a-grothendieck-site/111293#111293) by [[David Carchedi]]:
 
 > As long as $C$ has a [[small set]] of topological generators (i.e., as long as $Sh(C,J)$ isn't too large to be a [[topos]]), there always exists a certain version of an étale space: If $F$ is a [[sheaf]] on $(C,J)$, the [[slice topos]] $Sh(C,J)/F$ has a canonical étale projection  $\pi_F:Sh(C,J)/F \to Sh(C,J)$. This map is a [[local homeomorphism of topoi]]. This topos with this local homeomorphism is the étale space of $F$. Indeed, we may make this construction for each object $c \in C$, call it $U(c) \coloneqq Sh(C,J)/y(c)$, where $y(c)$ is the (possibly sheafified) [[Yoneda embedding|Yoneda embedded]] object. Then, "[[sections]] of $\pi_F$ over $U(c) \to Sh(C,J)$" are in [[bijection]] with [[elements]] of $F(c)$. If the Grothendieck [[site]] $(C,J)$ happened to be the [[canonical site]] of a [[topological space]], then each [[slice]] $Sh(C,J)/F$ is equivalent to [[category of sheaves|sheaves]] on the étale space of that [[sheaf]], and the projection corresponds to the usual one. In particular, $U(c) \to Sh(C,J)$ corresponds to the inclusion of an [[open subset]]. So, this is reduces to the usual construction for spaces. Another example is, if $(C,J)$ were the [[small étale site]] of some [[scheme]] $S$, then each $Sh(C,J)/F$ is the small étale site of some algebraic space (with no separation conditions) étale over $S$, with $\pi_F$ corresponding to the étale map from this algebraic space to $S$.
+
 
 ## Properties
 
@@ -47,6 +47,7 @@ The set of sections of $p$ over $U$ is denoted by $\Gamma_U p = (\Gamma p)(U) = 
 If $P:Open(B)^{op}\to Set$ is a [[sheaf]], then one sometimes calls the total space $E(P)$ of the étale space $L(P) = (E(P)\to B)$ the __space of the sheaf__ $P$, having in mind the adjoint equivalence above.  (This is also called the __sheaf space__ or the __display space__ (alias __étale space__, or in French: __espace étalé__); compare also a [[display morphism]] of [[contexts]].)  The associated sheaf functor $a:PShv_B\to Shv_B\hookrightarrow PShv_B$ decomposes as $a = \Gamma\circ L$, and $a$ may be considered as an endofunctor part of an [[idempotent monad]] in $PShv_B$ whose corresponding [[reflective subcategory]] is $Shv_B$.
 
 (e.g. [MacLane-Moerdijk, section II.5, II.6](#MacLaneMoerdijk))
+
 
 ### Relation to covering spaces
 
@@ -101,6 +102,7 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 For generalizations to étale spaces of stacks in groupoids see
 
 * [[David Carchedi]], _An étalé space construction for stacks_,  Algebr. Geom. Topol. 13 (2013), no. 2, 831–903.
+
 
 [[!redirects etale space]]
 [[!redirects etale spaces]]
