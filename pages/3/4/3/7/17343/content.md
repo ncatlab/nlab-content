@@ -4450,12 +4450,9 @@ is called a **[[Quillen adjunction]]** (and $L$,$R$ are called left/right **Quil
 
 =--
 
-+-- {: .num_prop #ConditionsOnQuillenAdjunctionAreIndeedEquivalent}
-###### Proposition
-
+\begin{proposition}\label{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}
 The conditions in def. \ref{QuillenAdjunction} are indeed all equivalent.
-
-=--
+\end{proposition}
 
 ([Quillen 67, I.4, theorem 3](#Quillen67))
 
@@ -4536,9 +4533,8 @@ Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) $L$ 
 
 =--
 
-+-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
-###### Proposition
-**([[derived adjunction]])**
+\begin{proposition}\label{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
+**([[derived adjunction]])** \linebreak
 
 For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot_{Qu}}\mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
 
@@ -4552,7 +4548,7 @@ $$
   \,.
 $$
 
-=--
+\end{proposition}
 
 ([Quillen 67, I.4 theorem 3](#Quillen67))
 
