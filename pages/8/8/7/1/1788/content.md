@@ -1,435 +1,235 @@
 
-$$
-  \begin{aligned}
-    sSet
-    \Big(
-      \big[S, \overline{W}G \big], 
-      \,
-      \big[S, frgt \circ DK(A[n]) \big]
-    \Big)
-    & \;\simeq\;
-    sSet
-    \Big(
-      \underset{
-        \underset{
-          \mathclap{
-            {\Delta[k] \in}
-            \atop
-            {el\big([S,\overline{W}G]\big)}
-          }
-        }
-        {\longrightarrow}
-      }{\lim}
-      \Delta[k], 
-      \,
-      \big[S, frgt \circ DK(A[n]) \big]
-    \Big)    
-    \\
-    & \;\simeq\;
-    \underset{
-      \underset{
-        \mathclap{
-          {\Delta[k] \in}
-          \atop
-          {el\big([S,\overline{W}G]\big)}
-        }
-      }
-      {\longleftarrow}
-    }{\lim}
-    \,
-    sSet
-    \Big(
-      \Delta[k], 
-      \,
-      \big[S, frgt \circ DK(A[n]) \big]
-    \Big)    
-    \\
-    & \;\simeq\;
-    \underset{
-      \underset{
-        \mathclap{
-          {\Delta[k] \in}
-          \atop
-          {el\big([S,\overline{W}G]\big)}
-        }
-      }
-      {\longleftarrow}
-    }{\lim}
-    \,
-    Ch_+
-    \Big(
-      N_\bullet \circ \mathbb{Z}
-      \big(
-        S \times \Delta[k] 
-      \big), 
-      \,
-      A[n]
-    \Big)    
-    \\
-    & \;\xrightarrow{EZ_S}\;
-    \underset{
-      \underset{
-        \mathclap{
-          {\Delta[k] \in}
-          \atop
-          {el\big([S,\overline{W}G]\big)}
-        }
-      }
-      {\longleftarrow}
-    }{\lim}
-    \,
-    Ch_+
-    \Big(
-      N_\bullet \circ \mathbb{Z}(S)
-      \,\otimes\,
-      N_\bullet \circ \mathbb{Z}(\Delta[k]),
-      \,
-      A[n]
-    \Big)    
-    \\
-    & \;\simeq\;
-    \underset{
-      \underset{
-        \mathclap{
-          {\Delta[k] \in}
-          \atop
-          {el\big([S,\overline{W}G]\big)}
-        }
-      }
-      {\longleftarrow}
-    }{\lim}
-    \,
-    sSet
-    \Big(
-      \Delta[k],
-      \,
-      frgt \circ DK
-      \big(
-        A[n] \oplus A[n-1] 
-      \big)
-    \Big)    
-    \\
-    & \;\simeq\;
-    sSet
-    \Big(
-    \underset{
-      \underset{
-        \mathclap{
-          {\Delta[k] \in}
-          \atop
-          {el\big([S,\overline{W}G]\big)}
-        }
-      }
-      {\longrightarrow}
-    }{\lim}
-      \Delta[k]
-      \,
-      frgt \circ DK
-      \big(
-        A[n] \oplus A[n-1] 
-      \big)
-    \Big)    
-    \\
-    & \;\simeq\;
-    sSet
-    \Big(
-      [S,\overline{W}G]
-      \,
-      frgt \circ DK
-      \big(
-        A[n] \oplus A[n-1] 
-      \big)
-    \Big)    
-  \end{aligned}
-$$
+Recall that ([this Prop.](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)) the hom-isomorphism that defines an adjunction of functors ([this Def.](adjoint+functor#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)) is equivalently given in terms of [[composition]] with 
 
+* the [[adjunction unit]] $eta_c \colon c \xrightarrow{\;} R \circ L(c)$ 
 
+* the [[adjunction counit]] $\epsilon_d \colon L \circ R(d) \xrightarrow{\;} d$ 
 
-\linebreak
+as follows:
 
-\linebreak
+\begin{tikzcd}[column sep={between origins, 33}]
+    L(c)
+    \ar[rr, "f"]
+    &&
+    d
+    &{\phantom{AAA}}\leftrightarrow{\phantom{AAA}}&
+    c 
+    \ar[rr, "\eta_c"]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=+12pt]\tikztostart.north)
+           --node[above]{
+               \scalebox{.7}{$
+                 \widetilde{f}
+               $}
+             } ([yshift=+8.5pt]\tikztotarget.north)
+           -- (\tikztotarget.north)}
+    ]
+    &&
+    R \circ L(c)
+    \ar[rr, "R(f)"]
+    &&
+    R(d)
+\end{tikzcd}
 
+\begin{tikzcd}[column sep={between origins, 33}]
+    c
+    \ar[rr, "\widetilde f"]
+    &&
+    R(d)
+    &{\phantom{AAA}}\leftrightarrow{\phantom{AAA}}&
+    L(c)
+    \ar[rr, "L(\widetilde{f})"]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=+8pt]\tikztostart.north)
+           --node[above]{
+               \scalebox{.7}{$
+                 f
+               $}
+             } ([yshift=+8.5pt]\tikztotarget.north)
+           -- (\tikztotarget.north)}
+    ]
+    &&
+    L \circ R(d)
+    \ar[
+      rr,
+      "\epsilon_d"
+    ]
+    &&
+    d
+\end{tikzcd}
 
-\begin{proposition}
-For $n \in \mathbb{N}_+$ and
-for $A \,\in\, Ab$ the [[integers]] or the [[circle group]],
-the following [[composition|composite]] of is a [[simplicial weak equivalence]]
-$$
-  \begin{aligned}
-    \big[
-      S,
-      \,
-      B^n A
-    \big]_\bullet   
-    & \;=\;
-    \big[
-      S, 
-      \,
-      frgt \circ DK(A[n])
-    \big]_\bullet
-    \\
-    &
-    \;\simeq\;   
-    sSet
-    \big(
-      S \times \Delta[\bullet],
-      \,
-      frgt \circ DK(A[n])
-    \big)
-    \\
-    & \;\simeq\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(S \times \Delta[\bullet]),
-      \,
-      A[n]
-    \big)    
-    \\
-    & \;\xrightarrow{EZ_S}\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(S) 
-      \,\otimes\,
-      N \circ \mathbb{Z}(\Delta[\bullet]),
-      \,
-      A[n]
-    \big)    
-    \\
-    & \;\simeq\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(\Delta[\bullet]),
-      \,
-      [
-        N \circ \mathbb{Z}(S),
-        \,
-        A[n]
-      ]
-    \big)    
-    \\
-    & \;\simeq\;
-    \Big(
-    frgt \circ DK
-    \big(
-      [
-        \underset{
-          \mathbb{Z} \oplus \mathbb{Z}[1]
-        }{
-        \underbrace{
-          N \circ \mathbb{Z}(S)
-        }
-        },
-        \,
-        A[n]
-      ]
-    \big)
-    \Big)_\bullet
-    \\
-    & \;\simeq\;
-    \Big(
-    frgt \circ DK
-    \big(
-      A[n] \oplus A[n-1]
-    \big)
-    \Big)_\bullet
+Using this, consider the following transformations of morphisms in sliced categories:
+
+**(1a)**
+
+\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+    L(c) 
+    \ar[rr, "f", dashed]
+    \ar[dr]
+      && 
+    d
+    \ar[dl, "p"]
     \\
     & 
-    B^n A \times B^{n-1} A
-  \end{aligned}
-$$
+    L(b)
+\end{tikzcd}
 
-\end{proposition}
-Here all [[isomorphisms]] are [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the [above](#HomotopyCategories) [[adjoint functor|adjunctions]], the step denoted $EZ_S$ is pre-composition with the [[Eilenberg-Zilber map]], and under the brace we are using Prop. \ref{NormalizedChainComplexOfMinimalSimplicialCircle}.
+**(2a)**
 
-\begin{proof}
-  By the fact that the [[Eilenberg-Zilber map]] has a [[left inverse]] given by the [[Alexander-Whitney map]] $AW$ (see at *[[Eilenberg-Zilber/Alexander-Whitney deformation retraction]]*, the analogous composite with $AW_S$ instead of $EZ_S$ yields a left inverse morphism, which hence [[retraction|retracts]] the [[homotopy groups]] of $B^n A \times B^{n-1}A$ onto those of $\big[S, B^n A \big]$. 
-
-But by [this Prop.](https://ncatlab.org/nlab/show/free+loop+space of classifying space#FreeLoopSpaceOfClassifyingSpaceOfSimplicialAbelianGroup) the latter is a product of [[Eilenberg-MacLane spaces]]
-\[
-  \big[
-    S,
-    \,
-    B^n A
-  \big]
-  \;\simeq\;
-  B^n A \times B^{n-1} A
-  \;\;\;
-  \in
-  \;
-  Ho(sSet)
-  \,,
-\]
-hence with homotopy group $A$ in degrees $n$ and $n -1 $. By assumption on $A$ the only retractions of $A$ onto $A$ is the identity, so that $EZ_S$ must induces the identity morphism of homotopy groups. 
-\end{proof}
-
-
-
-$$
-  \mathbb{Z}
-  \colon
-  sSet
-  \rightleftarrows
-  sAb
-  \colon
-  frgt
-$$
-
-$$
-  N
-  \colon
-  sAb
-  \rightleftarrows
-  Ch_+
-  \colon
-  DK
-$$
-
-\linebreak
-
-$$
-  \begin{aligned}
-    \big[
-      S, 
-      \,
-      frgt \circ DK(V)
-    \big]_\bullet
+\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+    c 
+    \ar[
+      rr,
+      "{\eta_c}"
+    ]
+    \ar[dr]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=+12pt]\tikztostart.north)
+           --node[above]{
+               \scalebox{.7}{$
+                 \widetilde{f}
+               $}
+             } ([yshift=+8pt]\tikztotarget.north)
+           -- (\tikztotarget.north)}
+    ]
+    &&
+    R \circ L(c)
+    \ar[rr, "{R(f)}", dashed]
+    \ar[dr]
+      &&
+    R(d)
+    \ar[dl, "R(p)"]
+    \\
     &
-    \;\simeq\;   
-    sSet
-    \big(
-      S \times \Delta[\bullet],
-      \,
-      frgt \circ DK(V)
-    \big)
-    \\
-    & \;\simeq\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(S \times \Delta[\bullet]),
-      \,
-      V
-    \big)    
-    \\
-    & \;\xrightarrow{EZ_S}\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(S) 
-      \,\otimes\,
-      N \circ \mathbb{Z}(\Delta[\bullet]),
-      \,
-      V
-    \big)    
-    \\
-    & \;\simeq\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(\Delta[\bullet]),
-      \,
-      [
-        N \circ \mathbb{Z}(S),
-        \,
-        V
+    b
+    \ar[
+      rr,
+      "\eta_b"{below}
+    ]
+    &
+    &
+    R \circ L(b)
+\end{tikzcd}
+
+**(2b)**
+
+\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+    c
+    \ar[
+      rr,
+      dashed
+    ]
+    \ar[dr]
+      \ar[
+      rrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=+12pt]\tikztostart.north)
+           --node[above]{
+               \scalebox{.7}{$
+                 \widetilde{f}
+               $}
+             } ([yshift=+8pt]\tikztotarget.north)
+           -- (\tikztotarget.north)}
       ]
-    \big)    
+    &&
+    \eta_b^\ast\big(R(d)\big)
+    \ar[rr]
+    \ar[dl]
+    \ar[
+      dr,
+      phantom,
+      "\mbox{\tiny\rm(pb)}"
+    ]
+      &&
+    R(d)
+    \ar[dl, "R(p)"]
     \\
-    & \;\simeq\;
-    \Big(
-    frgt \circ DK
-    \big(
-      [
-        N \circ \mathbb{Z}(S),
-        \,
-        V
-      ]
-    \big)
-    \Big)_\bullet
-  \end{aligned}
-$$
+    &
+    b
+    \ar[
+      rr,
+      "\eta_b"{below}
+    ]
+    &
+    &
+    R \circ L(b)
+\end{tikzcd}
 
+**(1b)**
 
-$$
-  \begin{aligned}
-    \Big(
-      frgt \circ DK
-      \big(
-        [
-          N \circ \mathbb{Z}(S),
-          \,
-          V
-        ]
-      \big)
-    \Big)_\bullet
-    & \;\simeq\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(\Delta[\bullet]),
-      \,
-      [
-        N \circ \mathbb{Z}(S),
-        \,
-        V
-      ]
-    \big)    
+\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+    L(c)
+    \ar[dr]
+    \ar[rrrr, "\widetilde{f}"]
+    \ar[
+      rrrrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=+8pt]\tikztostart.north)
+           --node[above]{
+               \scalebox{.7}{$
+                 f
+               $}
+             } ([yshift=+8pt]\tikztotarget.north)
+           -- (\tikztotarget.north)}
+    ]
+    &&
+    &&
+    L \circ R(d)
+    \ar[rr, "{\epsilon_d}"]
+    \ar[dl]
+    &&
+    d
+    \ar[dl, "p"]
     \\
-    & \;\simeq\;
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(S) 
-      \,\otimes\,
-      N \circ \mathbb{Z}(\Delta[\bullet]),
-      \,
-      V
-    \big)    
-    \\
-    & \xrightarrow{AW_S}
-    Ch_+
-    \big(
-      N \circ \mathbb{Z}(S \times \Delta[\bullet]),
-      \,
-      V
-    \big)    
-    \\  
-    & \;\simeq\;
-    sSet
-    \big(
-      S \times \Delta[\bullet],
-      \,
-      frgt \circ DK(V)
-    \big)
-    \\
-    & \;\simeq\;
-    \big[
-      S, 
-      \,
-      frgt \circ DK(V)
-    \big]_\bullet
-  \end{aligned}
-$$
+    &
+    L(b)
+    \ar[
+      rr,
+      "L(\eta_b)"{below}
+    ]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=-8pt]\tikztostart.south)
+           --node[below]{
+               \scalebox{.7}{$
+                 \mathrm{id}
+               $}
+             } ([yshift=-8pt]\tikztotarget.south)
+           -- (\tikztotarget.south)}
+    ]
+    &
+    &
+    L \circ R \circ L(b)
+    \ar[rr, "\epsilon_{L(b)}"{below}]
+    &&
+    L(b)
+\end{tikzcd}
 
-$$
-    \big[
-      S, 
-      \,
-      frgt \circ DK(V)
-    \big]_\bullet
-    \xrightarrow{\;EZ_S\;}
-      \Big(
-      frgt \circ DK
-      \big(
-        [
-          N \circ \mathbb{Z}(S),
-          \,
-          V
-        ]
-      \big)
-    \Big)_\bullet
-    \xrightarrow{\;AW_S\;}
-    \big[
-      S, 
-      \,
-      frgt \circ DK(V)
-    \big]_\bullet
-$$
+Here 
 
+* (2a) and (2b) are equivalent expression of the same morphism $\tilde f$ in $\mathcal{C}_{/b}$, by the [[universal property]] of the [[pullbackk]];
+
+* (1a) and (1b) are equivalent expressions of the same morphism $f$ in $\mathcal{D}_{/L(b)}$, by the above expression of [[adjuncts]] between $\mathcal{C}$ and $\mathcal{D}$.
+
+Hence 
+
+* starting with a morphism as in (1a) and transforming it to $(2)$ and then to (1b) is the identity operation;
+
+* starting with a morphism as in (2b) and transforming it to (1) and then to (2a) is the identity operation.
+
+In conclusion, the transformations (1) $\leftrightarrow$ (2) consitute a hom-isomorphism that witnesses the adjunction $L_{/c} \dashv R_{/c}$.
 
 
