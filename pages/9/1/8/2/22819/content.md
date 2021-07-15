@@ -20,42 +20,43 @@ $$
 
 be a pair of [[adjoint functors]] ([[adjoint (∞,1)-functors|adjoint ∞-functors]]), where the [[category]] ([[(∞,1)-category|∞-category]]) $\mathcal{C}$ has all [[pullbacks]] ([[homotopy pullbacks]]). 
 
-Then for every [[object]] $X \in \mathcal{C}$ there is induced a pair of adjoint functors between the [[slice categories]] ([[slice (∞,1)-categories|slice ∞-categories]])
+Then for every [[object]] $c \in \mathcal{C}$ there is induced a pair of adjoint functors between the [[slice categories]] ([[slice (∞,1)-categories|slice ∞-categories]])
 
 $$
-  (L/X \dashv R/X) 
+  (L_{/c} \dashv R_{/c}) 
   \;\colon\; 
-  \mathcal{D}/(L X) 
+  \mathcal{D}_{/L(c)}
   \underoverset
-    {\underset{\;\;R/X\;\;}{\longrightarrow}}
-    {\overset{\;\;L/X\;\;}{\longleftarrow}}
+    {\underset{\;\;R_{/c}\;\;}{\longrightarrow}}
+    {\overset{\;\;L_{/c}\;\;}{\longleftarrow}}
     {\bot}
-  \mathcal{C}/X
+  \mathcal{C}_{/c}
   \mathrlap{\,,}
 $$
 
 where:
 
-* $L/X$ is the evident induced functor;
+* $L_{/c}$ is the evident induced functor (applying $L$ to the entire triangle [[diagrams]] in $\mathcal{C}$ which represent the morphisms in $\mathcal{C}_{/c}$);
 
-* $R/X$ is the [[composition|composite]]
+* $R_{/c}$ is the [[composition|composite]]
 
   $$
-    R/X   
-    \;\colon\; 
-    \mathcal{D}/{L X} 
+    R_{/c} 
+      \;\colon\; 
+    \mathcal{D}_{/{L(c)}} 
       \overset{\;\;R\;\;}{\longrightarrow} 
-    \mathcal{C}/{(R L X)} 
-      \overset{\;\;\eta_{X}^*\;\;}{\longrightarrow}
-    \mathcal{C}/X
+    \mathcal{C}_{/{(R \circ L(c))}} 
+      \overset{\;\;\eta_{c}^*\;\;}{\longrightarrow}
+    \mathcal{C}_{/c}
   $$
 
   of 
 
-  1. the evident functor induced by $R$ 
+  1. the evident functor induced by $R$;
 
-  1. the ([[homotopy pullback|homotopy]]) [[pullback]] along the $(L \dashv R)$-[[unit of an adjunction|unit]] at $X$.
+  1. the ([[homotopy pullback|homotopy]]) [[pullback]] along the $(L \dashv R)$-[[unit of an adjunction|unit]] at $c$.
 
 =--
 
-This is [[Higher Topos Theory|HTT, prop. 5.2.5.1]].
+(In the generality of [[(∞,1)-category theory]] this appears as [[Higher Topos Theory|HTT, prop. 5.2.5.1]])
+
