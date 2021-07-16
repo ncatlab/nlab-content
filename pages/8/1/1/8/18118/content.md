@@ -48,7 +48,7 @@ $$
   \{ X \setminus Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
 $$
 
-is still an oopen cover of $X$, hence in particular intersects to a finite open cover of $Y$. 
+is still an open cover of $X$, hence in particular intersects to a finite open cover of $Y$. 
 But since $Y \cap ( X \setminus Y ) = \empty$, it follows that indeed
 
 $$
