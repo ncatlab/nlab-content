@@ -15,36 +15,100 @@
 
 ## Definition
 
-An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] or [[unital magmoid]] (or an element of a [[monoid]] or [[unital magma]]) is another morphism $f^{-1} : Y \to X$ which is both a left-inverse (a [[retraction]]) as well as a right-inverse (a [[section]]) of $f$, in that 
+\begin{definition}\label{InverseMorphism}
+**([[inverse morphisms]])** \linebreak
+An **inverse** of a [[morphism]] $f \colon X \to Y$ in a [[category]] or [[unital magmoid]] (or an element of a [[monoid]] or [[unital magma]]) is another morphism $f^{-1} \colon Y \to X$ which is both a [[left-inverse]] (a [[retraction]]) as well as a [[right-inverse]] (a [[section]]) of $f$, in that 
 $$
-  f \circ f^{-1} : Y \to Y 
+  f \circ f^{-1} \,=\, id_Y \colon Y \to Y 
 $$
-equals the [[identity morphism]] on $Y$ and
+[[equality|equals]] the [[identity morphism]] on $Y$ 
+and
 $$
-  f^{-1} \circ f : X \to X 
+  f^{-1} \circ f \,=\, id_X \colon X \to X 
 $$
-equals the [[identity morphism]] on $X$.
+[[equality|equals]] the [[identity morphism]] on $X$.
+\end{definition}
+
+\begin{definition}\label{Isomorphism}
+A [[morphism]] that has an [[inverse morphism]] (Def. \ref{InverseMorphism}) is called an *[[isomorphism]]*.
+\end{definition}
+
+\begin{remark}
+A ([[small category|small]]) [[category]] in which all morphisms have inverses is called a *[[groupoid]]*.
+\end{remark}
+
+## Properties
 
 
-## Remarks
+\begin{prop}\label{InversesAreUnique}
+**([[inverse morphisms]] are unique)** \linebreak
+  If $f$ is an [[isomorphism]] (Def. \ref{Isomorphism}) with [[inverse morphism]] $f^{-1}$ (Def. \ref{InverseMorphism}), then any [[left inverse]] as well as any [[right inverse]] is already an actual [[inverse morphism]] and in fact is [[equality|equal]] to $f^{-1}$.
+\end{prop}
+In particular, [[inverse morphisms]] are unique when they exist.
+\begin{proof}
+  Let $g$ be a [[left inverse]], hence such that $g \circ f \,=\, id$. 
+  Write $f^{-1}$ for the actual inverse, hence such that
+  $f^{-1} \circ f \,=\, id$ and $f \circ f^{-1} \,=\, id$.  
+  Then the following sequence of equalities implies that
+  $g = f^{-1}$:
+  $$
+  \begin{aligned}
+    g 
+    & \;=\;
+    g \circ id
+    \\
+    & \;=\;
+    g \circ ( f \circ f^{-1} )
+    \\
+    & \;=\;
+    (g \circ f) \circ f^{-1}
+    \\
+    & \;=\;
+    id \circ f^{-1}
+    \\
+    & \;=\;
+    f^{-1}
+    \,.
+  \end{aligned}
+  $$
+Here all steps use just the definitions of the various morphisms, except the third step, which uses [[associativity]] of [[composition]] in any [[category]].
 
-* A morphism which has an inverse is called an [[isomorphism]].
+An analogous argument applies to right inverses; and either argument applies to actual inverses.
+\end{proof}
 
-* The inverse $f^{-1}$ is unique if it exists.
+\begin{prop}
+  Let $f$ be an [[isomorphism]] (Def. \ref{Isomorphism}).
+  Then the inverse morphism $\left(f^{-1}\right)^{-1}$ of an inverse morphism $f^{-1}$ (Def. \ref{InverseMorphism}) exists and is [[equality|equal]] to the original morphism:
+$$
+  \left(f^{-1}\right)^{-1}
+  \;=\;
+  f
+  \,.
+$$
+\end{prop}
+\begin{proof}
+  By the uniqueness of inverses (Prop. \ref{InversesAreUnique}) for $f^{-1}$.
+\end{proof}
 
-* The inverse of an inverse morphism is the original morphism, $(f^{-1})^{-1} = f$.
 
-* An [[identity morphism]], $i$, is a morphism which is its own inverse: $i^{-1} = i$.
+## Examples
 
-* A category in which all morphisms have inverses is called a [[groupoid]].
+\begin{example}\label{IdentityMorphismsAreTheirOwnInverses}
+**([[identity morphisms]] are their own [[inverse morphisms]])** \linebreak
+Any [[identity morphism]]  is its own inverse morphism (Def. \ref{InverseMorphism}):
+$$
+  id^{-1} \,=\, id
+  \,.
+$$
+\end{example}
 
-* An amusing exercise is to show that if $f,g,h$ are morphisms such that $f\circ g,\; g\circ h$ are defined and are isomorphisms, then $f,g,h$ are all isomorphisms. 
 
-  * This is a special case of the **[[two-out-of-six property]]** which is satisfied by the _weak equivalences_ in any [[homotopical category]].
+\begin{example}
+In a [[balanced category]], such as in a [[topos]] (in particular in [[Sets]]) every morphism that is both a [[monomorphism]] and well as an [[epimorphism]] is actually an [[isomorphism]] and thus has an [[inverse morphism]]. 
 
-  * When this is applied to a [[homotopy category]] such as that of [[Top]] for the standard [[model structure on topological spaces]] it implies the construction of and formulae for certain homotopies.
+To see that this is not generally the case, notice that any [[partial order]] is an (necessarily unbalanced) category where every morphism is both a monomorphism as well as an epimorphism, but only its [[identity morphisms]] have [[inverse morphisms]] (as they must, by Exp.  \ref{IdentityMorphismsAreTheirOwnInverses}). 
+\end{example}
 
-* In a [[balanced category]], such as a [[topos]] or more particularly [[Set]], every morphism that is both [[monomorphism|monic]] and [[epimorphism|epic]] is an [[isomorphism]] and thus has an inverse. A [[partial order]] is an unbalanced category where every morphism is both monic and epic. Only its [[identity morphisms]] have inverses. 
 
 ## In non-unital contexts
 
