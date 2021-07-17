@@ -6,8 +6,7 @@
 
 * [[Dusa McDuff]], Dietmar Salamon, _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs 1998. x+486 pp.
 
-* [[Dusa McDuff]], Dietmar Salamon, _J-holomorphic curves
-and quantum cohomology_, AMS, University Lecture Series __6__, 1994.; [revised pdf](http://www.barnard.edu/math/mcduff/survey/6manjl26.pdf)
+* [[Dusa McDuff]], Dietmar Salamon, _J-holomorphic curves and quantum cohomology_, AMS, University Lecture Series __6__, 1994.; [revised pdf](http://www.barnard.edu/math/mcduff/survey/6manjl26.pdf)
 
 * J. W. Robbin, D. Salamon, _[[Maslov index]] for paths_, Topology __32__  (1993), no. 4, 827--844, [doi](http://dx.doi.org/10.1016/0040-9383(93)90052-W), [pdf](http://www.math.ethz.ch/~salamon/PREPRINTS/maslov.pdf), [MR94i:58071](http://www.ams.org/mathscinet-getitem?mr=94i:58071)
 
@@ -22,6 +21,15 @@ and quantum cohomology_, AMS, University Lecture Series __6__, 1994.; [revised p
 * Joel W. Robbin, Dietmar A. Salamon, _Feynman path integrals and the metaplectic representation_, Math. Z. __221__ (1996), no. 2, 307&#8211;-335, [MR98f:58051](http://www.ams.org/mathscinet-getitem?mr=98f:58051), [doi](http://dx.doi.org/10.1007/BF02622118)
 
 * [[Joel W. Robbin]], Dietmar A. Salamon, _Phase functions and path integrals_, Symplectic geometry (Proc., ed. D. Salamon), 203&#8211;-226, London Math. Soc. Lecture Note Ser. __192__, Cambridge Univ. Press 1993, [[RobbinSalamonPhaseFunctionsPathIntegrals.djvu:file]].
+
+On [[complex Lie groups]]:
+
+* [[Dietmar Salamon]], *Notes on complex Lie groups*, 2019 ([pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/cx-lie.pdf), [[Salamon_ComplexLieGroups.pdf:file]])
+
+On [[compact Lie groups]]:
+
+* [[Dietmar Salamon]], *Notes on compact Lie groups*, 2021 ([pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/liegroup.pdf), [[Salamon_CompactLieGroups.pdf:file]])
+
 
 category: people
 
