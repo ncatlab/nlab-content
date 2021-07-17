@@ -102,6 +102,12 @@ $$
 
 A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](#Hatcher)).
 
+\begin{prop}\label{ComplexProjectiveSpaceIsOkaManifold}
+**([[complex projective space]] is [[Oka manifold]])** \linebreak
+Every [[complex projective space]] $\mathbb{C}P^n$, $n \in \mathbb{N}$, is an [[Oka manifold]]. More generally every [[Grassmannian]] over the [[complex numbers]] is an [[Oka manifold]].
+\end{prop}
+(review in [Forstnerič & Lárusson 11, p. 9](Oka+manifold#ForstnericLarusson11), [Forstnerič 2013, Ex. 2.7](Oka+manifold#Forstneric13))
+
 
 ## Examples
 
