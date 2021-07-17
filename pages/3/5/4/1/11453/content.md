@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[type II string theory]] on [[orientifolds]] ([Dai-Lin-Polchinski 89](#DaiLinPolchinski89)), one says _O-plane_ for the [[fixed point]] locus of the $\mathbb{Z}_2$-[[involution]] (see at _[[real space]]_).
+In [[type II string theory]] on [[orientifolds]] ([Dai-Leigh-Polchinski 89](#DaiLeighPolchinski89)), one says _O-plane_ for the [[fixed point]] locus of the $\mathbb{Z}_2$-[[involution]] (see at _[[real space]]_).
 
 O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), see ([DMR 13](#DMR13)) for a mathematical account. They serve [[RR-field tadpole cancellation]] and as such play a key role in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
 
@@ -258,7 +258,7 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 The term "orientifold" originates around 
 
-* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758))
+* {#DaiLeighPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758))
 
 Other early accounts include
 
