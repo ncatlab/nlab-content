@@ -95,7 +95,7 @@ Original articles:
  
 * [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
 
-* [[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874, [arxiv/0705.0591](http://arxiv.org/abs/0705.0591)
+* [[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874 ([arxiv/0705.0591](http://arxiv.org/abs/0705.0591), [doi:10.4310/PAMQ.2010.v6.n3.a11](https://dx.doi.org/10.4310/PAMQ.2010.v6.n3.a11))
 
 Proof of the [[homotopy theory|homotopy-theoretic]] Oka principle:
 
@@ -105,7 +105,7 @@ Proof of the [[homotopy theory|homotopy-theoretic]] Oka principle:
 
 Discussion in terms of [[higher complex analytic geometry]] and [[complex analytic ∞-groupoids]]:
 
-* {#Larusson01} [[Finnur Lárusson]], _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_ ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103))
+* {#Larusson01} [[Finnur Lárusson]], _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_,  International Journal of Mathematics Vol. 14, No. 02, pp. 191-209 (2003)  ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103), [doi:10.1142/S0129167X03001727](https://doi.org/10.1142/S0129167X03001727))
 
 * {#Larusson03} [[Finnur Lárusson]], _Model structures and the Oka principle_, Journal of Pure and Applied Algebra Volume 192, Issues 1–3, 1 September 2004, Pages 203-223 ([math.CV/0303355](http://arxiv.org/abs/math/0303355), [doi:10.1016/j.jpaa.2004.02.005](https://doi.org/10.1016/j.jpaa.2004.02.005))
 
