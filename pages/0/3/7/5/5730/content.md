@@ -80,19 +80,24 @@ A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Y
 
 * [[hypercomplex manifold]]
 
+* [[smooth manifold]], [[topological manifold]]
+
 ## References
 
-Textbook accounts include
+Textbook accounts:
 
 * {#Voisin02} [[Claire Voisin]], section 2 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
+See also:
+
+* Wikipedia, *[Complex manifold](https://en.wikipedia.org/wiki/Complex_manifold)*
 
 With an eye towards application in [[mathematical physics]]:
 
 * [[Mikio Nakahara]], Chapter 8 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
 
-Lectures notes include
+Lectures notes:
 
 * Stefan Vandoren, _Lectures on Riemannian Geometry, Part II:
 Complex Manifolds_ ([pdf](http://www.phys.uu.nl/~vandoren/MRIlectures.pdf))
@@ -104,3 +109,8 @@ Complex Manifolds_ ([pdf](http://www.phys.uu.nl/~vandoren/MRIlectures.pdf))
 
 [[!redirects complex analytic manifold]]
 [[!redirects complex analytic manifolds]]
+
+[[!redirects complex-analytic manifold]]
+[[!redirects complex-analytic manifolds]]
+
+
