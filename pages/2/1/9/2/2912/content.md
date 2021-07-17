@@ -22,6 +22,11 @@
 
 ## Selected writings
 
+On the [[core of a ring]]:
+
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81 (<a href="https://doi.org/10.1016/0022-4049(72)90023-0">doi:10.1016/0022-4049(72)90023-0</a>)
+
+
 On the $G$-[[Borel model structure]] and its [[Quillen equivalence]] with the [[slice model structure]] over the [[simplicial classifying space]] $\overline W G$:
 
 * {#DDK80} [[Emmanuel Dror]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
