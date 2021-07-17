@@ -38,6 +38,11 @@ On infinite-dimensional manifolds, we have several notions of holomorphic functi
 
 * {#Voisin02} [[Claire Voisin]], section 1 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
+In relation to the [[homotopy theory|homotopy-theoretic]] [[Oka principle]]:
+
+* {#Forstneric11} [[Franc Forstnerič]], _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
+
+
 [[!redirects holomorphic function]]
 [[!redirects holomorphic functions]]
 [[!redirects holomorphic map]]
