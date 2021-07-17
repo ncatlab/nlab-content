@@ -20,17 +20,26 @@
 
 ## Idea
 
-*Oka manifolds* comprise the class of [[complex analytic manifolds]] which satisfy the *[[Oka principle]]*.
+*Oka manifolds* (the term is due to [Forstnerič 2009a](#Forstneric09a)) comprise the class of [[complex analytic manifolds]] which satisfy the *[[Oka principle]]*.
 
 *Oka maps* are the relative version; they are [[fibrations]] in the Jardine-L&#225;russon model structure on the category of [[simplicial presheaves]] on the simplicial Stein site. Those cofibrant objects which are representable by complex manifolds are in fact [[Stein manifolds]]. 
 
 ## Examples
 
 \begin{prop}\label{ComplexProjectiveSpaceIsOkaManifold}
-**([[complex projective space]] is [[Oka manifold]])** \linebreak
+**([[complex projective spaces]] are [[Oka manifolds]])** \linebreak
 Every [[complex projective space]] $\mathbb{C}P^n$, $n \in \mathbb{N}$, is an [[Oka manifold]]. More generally every [[Grassmannian]] over the [[complex numbers]] is an Oka manifold.
 \end{prop}
 (review in [Forstnerič & Lárusson 11, p. 9](#ForstnericLarusson11), [Forstnerič 2013, Ex. 2.7](#Forstneric13))
+
+Yet more generally:
+\begin{prop}\label{CosetSpacesOfComplexLieGroupsAreOkaManifolds}
+**([[coset spaces]] of [[complex Lie groups]] are [[Oka manifolds]])** \linebreak
+Every [[complex Lie group]] and every [[coset space]] ([[homogeneous space]]) of complex Lie groups is an [[Oka manifold]].
+\end{prop}
+(review in [Forstnerič & Lárusson 11, p. 9](#ForstnericLarusson11), [Forstnerič 2013, Thm. 2.6](#Forstneric13))
+
+
 
 ## References
 
@@ -42,8 +51,12 @@ Introduction and review:
 
 * {#Forstneric11} [[Franc Forstnerič]], Section 5 of: _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
 
-
 * {#Forstneric13} [[Franc Forstnerič]] (appendix by [[Finnur Lárusson]]), *Oka manifolds: From Oka to Stein and back*, Annales de la Faculté des sciences de Toulouse, Mathématiques, Série 6, Tome 22 (2013) no. 4, pp. 747-809 ([numdam:AFST_2013_6_22_4_747_0](https://afst.centre-mersenne.org/item/?id=AFST_2013_6_22_4_747_0))
+
+See also:
+
+* [[Finnur Lárusson]], *Affine simplices in Oka manifolds*, Documenta Mathematica (2009) Volume: 14, page 691-697 ([eudml:228723](https://eudml.org/doc/228723))
+
 
 Proof of the [[homotopy theory|homotopy-theoretic]] [[Oka principle]]:
 
