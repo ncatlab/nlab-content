@@ -17,12 +17,13 @@
 
 +-- {: .num_defn #CoreOfARing}
 ###### Definition
+**(core of a ring)**
 
-For $R$ a [[commutative ring]], its **[[core of a ring|core]]** $c R$ is the [[regular image]] of the unique [[ring]] [[homomorphism]] $\mathbb{Z} \overset{e}{\longrightarrow} R$ (note that $\mathbb{Z}$ is the [[initial object|initial]] commutative ring).  That is, it is the smallest [[regular monomorphism]] into $R$ in the category [[CRing]].
+For $R$ a [[commutative ring]], its **[[core of a ring|core]]** $c R$ is the [[regular image]] of the unique [[ring]] [[homomorphism]] $\mathbb{Z} \overset{e}{\longrightarrow} R$ from the [[integers]] (which are the [[initial object]] among [[CommutativeRings]]).  That is, it is the smallest [[regular monomorphism]] into $R$ in the [[category]] of [[CommutativeRings]].
 
-By the general construction of regular images ([here](image#AsEqualizer)), this can be computed as the [[equalizer]] of the two inclusions from $R$ into the [[pushout]] $R\sqcup_{\mathbb{Z}} R$.  Since $\mathbb{Z}$ is initial, this is just the [[coproduct]] $R\sqcup R$ in $CRing$, which is the [[tensor product of abelian groups]] $R\otimes R$ equipped with its canonically induced commutative ring structure ([prop.](CRing#CoproductIsTensorProduct)).
+By the general construction of [[regular images]] ([here](image#AsEqualizer)), this can be computed as the [[equalizer]] of the two inclusions from $R$ into the [[pushout]] $R\sqcup_{\mathbb{Z}} R$.  Since $\mathbb{Z}$ is [[initial object|initial]], this is just the [[coproduct]] $R\sqcup R$ in [[CommutativeRings]], which is the [[tensor product of abelian groups]] $R\otimes R$ equipped with its canonically induced commutative ring structure ([this Prop.](CRing#CoproductIsTensorProduct)).
 
-Thus the most explicit definition of $c R$ is that it is the [[equalizer]] in
+Thus, a more explicit characterization of $c R$ is as the [[equalizer]] in
 
 $$
   c R 
@@ -36,27 +37,36 @@ $$
 where the top morphism is
 
 $$
-  R \simeq \mathbb{Z} \otimes R \overset{e \otimes id}{\longrightarrow} R \otimes R
+  R 
+    \;\simeq\; 
+  \mathbb{Z} \otimes R 
+  \xrightarrow{e \otimes id} 
+  R \otimes R
 $$
 
 and the bottom one is
 
 $$
-  R \simeq R \otimes \mathbb{Z}  \overset{id \otimes e}{\longrightarrow} R \otimes R
+  R 
+    \;\simeq\; 
+  R \otimes \mathbb{Z}  
+    \xrightarrow{id \otimes e} 
+  R \otimes R
   \,.
 $$
 
-
-A ring which is [[isomorphism|isomorphic]] to its core is called a **solid ring**.
-
 =--
+
+\begin{definition}\label{SolidRing}
+**(solid rings)** \linebreak
+A [[commutative ring]] $R$ which is [[isomorphism|isomorphic]] to its [[core of a ring|core]] (Def. \ref{CoreOfARing}), $R \,\simeq\, c R$ is called a **solid ring**.
+\end{definition}
 
 ([Bousfield-Kan 72, &#167;1, def. 2.1](#BousfieldKan72), [Bousfield 79, 6.4](#Bousfield79))
 
-+-- {: .num_remark #DualInterpretation}
-###### Remark
-
-We may think of the [[opposite category]] $CRing^{op}$ as that of affine [[arithmetic schemes]]. Here for $R \in CRing$ we write $Spec(R)$ for the same object, but regarded in $CRing^{op}$. 
+\begin{remark}\label{DualInterpretation}
+**(geometric interpretation)** \linebreak
+By [[duality between algebra and geometry]], we may think of the [[opposite category]] $CommutativeRings^{op}$ as that of [[affine scheme|affine]] [[arithmetic schemes]]. Here for $R \in CRing$ we write $Spec(R)$ for the same object, but regarded in $CRing^{op}$. 
 
 So the [[initial object]] $\mathbb{Z}$ in [[CRing]] becomes the [[terminal object]] [[Spec(Z)]] in $CRing^{op}$, and so for every $R$ there is a unique morphism
 
