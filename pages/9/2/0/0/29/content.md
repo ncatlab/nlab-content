@@ -45,9 +45,9 @@ A morphism could be called __isic__ (following the more common 'monic' and 'epic
 
 ## Properties
 
-It is immediate that isomorphisms satisfy the [[two-out-of-three]] property. But they also satisfy [[two-out-of-six property]].
+It is immediate that isomorphisms satisfy the [[two-out-of-three]] property. But they also satisfy [[two-out-of-six property]] satisfied by the [[weak equivalences]] in any [[homotopical category]].
 
-Note that the inverse of an isomorphism is an isomorphism, as is any [[identity morphism]] or [[composite]] of isomorphisms.  Thus, being isomorphic is an [[equivalence relation]] on objects.  The equivalence classes form the [[fundamental 0-groupoid]] of the category in question.
+Note that the [[inverse morphism]] of an isomorphism is an isomorphism, as is any [[identity morphism]] or [[composite]] of isomorphisms.  Thus, being isomorphic is an [[equivalence relation]] on objects.  The equivalence classes form the [[fundamental 0-groupoid]] of the category in question.
 
 Every isomorphism is both a [[split monomorphism]] (and thus about any other kind of [[monomorphism]]) and a [[split epimorphism]] (and thus about any other kind of [[epimorphism]]).  In a [[balanced category]], every morphism that is both monic and epic (called a [[bimorphism]]) is invertible, but this does not hold in general.  However, any monic [[regular epimorphism]] (or dually, any epic [[regular monomorphism]]) must be an isomorphism.
 
