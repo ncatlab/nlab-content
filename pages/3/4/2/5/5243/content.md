@@ -28,10 +28,51 @@ The _Oka-Grauert principle_ states that for any [[Stein manifold]] $X$ the holom
 
 The principle should maybe better be called the _Oka-Grauert-Gromov principle/theory_. Gromov viewed it in his book on partial differential relations as one of the examples of [[h-principle]]. 
 
-## Statement in higher complex analytic geometry
+## Homotopical Oka principle
+ {#HomotopicalOkaPrinciple}
+
+\begin{prop}\label{WeakHomotopyEquivalenceOkaPrinciples}
+**(weak homotopy equivalence Oka principle)**
+For 
+
+* $S$ a [[Stein manifold]],
+
+* $X$ an [[Oka manifold]],
+
+the inclusion
+$$
+  Maps_{hol}
+  \big(
+    S, \, X
+  \big)
+  \xhookrightarrow{\;\simeq_{whe}\;}
+  Maps
+  \big(
+    S ,\, X
+  \big)
+$$
+of the [[subspace]] of [[holomorphic functions]] 
+into the [[mapping space]] of their [[underlying]] [[topological spaces]] (with the [[compact-open topology]])
+is a [[weak homotopy equivalence]].
+\end{prop}
+(review in [Forstnerič & Lárusson 2011, Cor. 3.5](#ForstnericLarusson11))
+
+More generally, for $Z \xrightarrow{\;} S$ a stratified holomorphic [[fiber bundle]] of [[Oka manifolds]], the corresponding inclusion of [[spaces of sections]]
+
+$$
+  \Gamma_{hol}\big(S, \, Z \big)
+  \xhookrightarrow{\;\simeq_{whe}\;}
+  \Gamma\big(S, \, Z \big)
+$$
+
+is a [[weak homotopy equivalence]].
+
+([Forstnerič 2011, Cor. 5.4.8](#Forstneric11))
+
+## In higher complex analytic geometry
  {#StatementInComplexAnalyticGeometry}
 
-In ([Larusson 01](#Larusson01), [Larusson 03](#Larusson03)) this is formulated in terms of [[higher complex analytic geometry]] of [[complex analytic infinity-groupoids]].
+In ([Lárusson 2001](#Larusson01), [Lárusson 2003](#Larusson03)) this is formulated in terms of [[higher complex analytic geometry]] of [[complex analytic infinity-groupoids]].
 
 Say that a [[complex manifold]] $X$ is an _[[Oka manifold]]_ if for every [[Stein manifold]] $\Sigma$ the canonical morphism
 
@@ -86,6 +127,7 @@ Introduction and review:
 
 * {#Forstneric13} [[Franc Forstnerič]] (appendix by [[Finnur Lárusson]]), *Oka manifolds: From Oka to Stein and back*, Annales de la Faculté des sciences de Toulouse, Mathématiques, Série 6, Tome 22 (2013) no. 4, pp. 747-809 ([numdam:AFST_2013_6_22_4_747_0](https://afst.centre-mersenne.org/item/?id=AFST_2013_6_22_4_747_0))
 
+* [[Franc Forstnerič]], *Developments in Oka theory since 2017* ([arXiv:2006.07888](https://arxiv.org/abs/2006.07888))
 
 Original articles:
 
