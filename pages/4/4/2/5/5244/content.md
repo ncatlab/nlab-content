@@ -1,21 +1,57 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Oka manifolds comprise a special class of [[complex analytic manifolds]] which are suited to apply the [[Oka principle]]. Oka maps are a relative version; they are fibrations in the Jardine-L&#225;russon model structure on the category of [[simplicial presheaves]] on the simplicial Stein site. Those cofibrant objects which are representable by complex manifolds are in fact [[Stein manifolds]]. 
+*Oka manifolds* comprise the class of [[complex analytic manifolds]] which satisfy the *[[Oka principle]]*.
+
+*Oka maps* are the relative version; they are [[fibrations]] in the Jardine-L&#225;russon model structure on the category of [[simplicial presheaves]] on the simplicial Stein site. Those cofibrant objects which are representable by complex manifolds are in fact [[Stein manifolds]]. 
+
+## Examples
+
+\begin{prop}\label{ComplexProjectiveSpaceIsOkaManifold}
+**([[complex projective space]] is [[Oka manifold]])** \linebreak
+Every [[complex projective space]] $\mathbb{C}P^n$, $n \in \mathbb{N}$, is an [[Oka manifold]]. More generally every [[Grassmannian]] over the [[complex numbers]] is an Oka manifold.
+\end{prop}
+(review in [Forstnerič & Lárusson 11, p. 9](#ForstnericLarusson11), [Forstnerič 2013, Ex. 2.7](#Forstneric13))
 
 ## References
 
-* [[Franc Forstnerič]], _Oka manifolds_, C. R. Math. Acad. Sci.
-Paris 347 (2009), 1017&#8211;20.
-* Franc Forstneri&#269;, _Oka maps_, [arxiv/0911.3439](http://arxiv.org/abs/0911.3439)
+Introduction and review:
 
-A beginner's survey is
+* {#Larusson10} [[Finnur Lárusson]], _What is an Oka manifold?_, Notices AMS Volume 57, Number 1, 2010 ([pdf](http://www.ams.org/notices/201001/rtx100100050p.pdf), [[Larussen_OkaManifolds.pdf:file]])
 
-* [[Finnur Lárusson]], _What is an Oka manifold_, Notices AMS, [pdf](http://www.ams.org/notices/201001/rtx100100050p.pdf)
+* {#ForstnericLarusson11} [[Franc Forstnerič]], [[Finnur Lárusson]], *Survey of Oka theory*, New York J. Math., 17a (2011), 1-28 ([arXiv:1009.1934](https://arxiv.org/abs/1009.1934), [eudml:232963](https://eudml.org/doc/232963))
+
+* {#Forstneric11} [[Franc Forstnerič]], Section 5 of: _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
+
+
+* {#Forstneric13} [[Franc Forstnerič]] (appendix by [[Finnur Lárusson]]), *Oka manifolds: From Oka to Stein and back*, Annales de la Faculté des sciences de Toulouse, Mathématiques, Série 6, Tome 22 (2013) no. 4, pp. 747-809 ([numdam:AFST_2013_6_22_4_747_0](https://afst.centre-mersenne.org/item/?id=AFST_2013_6_22_4_747_0))
+
+Proof of the [[homotopy theory|homotopy-theoretic]] [[Oka principle]]:
+
+* {#Forstneric09a} [[Franc Forstnerič]], _Oka manifolds_, Comptes Rendus Mathematique, Acad. Sci. Paris 347 (2009), 1017&#8211;20 ([arXiv:0906.2421](https://arxiv.org/abs/0906.2421), [doi:10.1016/j.crma.2009.07.005](https://doi.org/10.1016/j.crma.2009.07.005))
+
+* {#Forstneric09b} [[Franc Forstnerič]], _Oka maps_, Comptes Rendus Mathematique, Acad. Sci. Paris, Ser. I 348 (2010) 145-148 ([arxiv/0911.3439](http://arxiv.org/abs/0911.3439), [doi:10.1016/j.crma.2009.12.004](https://doi.org/10.1016/j.crma.2009.12.004))
+
+
 
 [[!redirects Oka manifolds]]
 [[!redirects Oka map]]
