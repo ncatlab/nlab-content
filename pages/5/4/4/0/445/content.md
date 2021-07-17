@@ -248,9 +248,14 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 
 
 [[!redirects images]]
+
 [[!redirects regular image]] 
+[[!redirects regular images]] 
+
 [[!redirects regular coimage]] 
+[[!redirects regular coimages]] 
 
 [[!redirects image factorization]]
 [[!redirects image factorizations]]
+
 
