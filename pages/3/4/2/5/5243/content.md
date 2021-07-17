@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include complex geometry - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -61,15 +65,27 @@ The category of [[complex manifolds]] and [[holomorphic maps]] can be embedded i
 
 =--
 
-([Larusson 03](#Larusson03))
+([Larusson 03](#Larusson03) -- this apparently follows an observation due to [[J. F. Jardine]] and uses his [[intermediate model structure on simplicial presheaves]])
+
 
 ## Related concepts
 
-*  [[Oka manifold]]. 
+* [[Oka manifold]]
 
 * [[smooth Oka principle]]
 
 ## References
+
+Introduction and review:
+
+* {#Larusson10} [[Finnur Lárusson]], _What is an Oka manifold?_, Notices AMS Volume 57, Number 1, 2010 ([pdf](http://www.ams.org/notices/201001/rtx100100050p.pdf), [[Larussen_OkaManifolds.pdf:file]])
+
+* {#ForstnericLarusson11} [[Franc Forstnerič]], [[Finnur Lárusson]], *Survey of Oka theory*, New York J. Math., 17a (2011), 1-28 ([arXiv:1009.1934](https://arxiv.org/abs/1009.1934), [eudml:232963](https://eudml.org/doc/232963))
+
+* {#Forstneric11} [[Franc Forstnerič]], Section 5.3 of: _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
+
+* {#Forstneric13} [[Franc Forstnerič]] (appendix by [[Finnur Lárusson]]), *Oka manifolds: From Oka to Stein and back*, Annales de la Faculté des sciences de Toulouse, Mathématiques, Série 6, Tome 22 (2013) no. 4, pp. 747-809 ([numdam:AFST_2013_6_22_4_747_0](https://afst.centre-mersenne.org/item/?id=AFST_2013_6_22_4_747_0))
+
 
 Original articles:
 
@@ -77,39 +93,25 @@ Original articles:
 
 * {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) [doi](http://dx.doi.org/10.1007/BF01351803)
  
-
-* [[Mikhail Gromov]], _Oka's principle for holomorphic sections
-of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897.
+* [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897.
 
 * [[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874, [arxiv/0705.0591](http://arxiv.org/abs/0705.0591)
 
+Proof of the [[homotopy theory|homotopy-theoretic]] Oka principle:
 
-Surveys and review:
+* {#Forstneric09a} [[Franc Forstnerič]], _Oka manifolds_, Comptes Rendus Mathematique, Acad. Sci. Paris 347 (2009), 1017&#8211;20 ([arXiv:0906.2421](https://arxiv.org/abs/0906.2421), [doi:10.1016/j.crma.2009.07.005](https://doi.org/10.1016/j.crma.2009.07.005))
 
-* [[Finnur Lárusson]], _What is an Oka manifold?_, Notices AMS Volume 57, Number 1 ([pdf](http://www.ams.org/notices/201001/rtx100100050p.pdf), [[Larussen_OkaManifolds.pdf:file]])
+* {#Forstneric09b} [[Franc Forstnerič]], _Oka maps_, Comptes Rendus Mathematique, Acad. Sci. Paris, Ser. I 348 (2010) 145-148 ([arxiv/0911.3439](http://arxiv.org/abs/0911.3439), [doi:10.1016/j.crma.2009.12.004](https://doi.org/10.1016/j.crma.2009.12.004))
 
-* [[Franc Forstnerič]], [[Finnur Lárusson]], _Survey of Oka theory_, [arxiv/1009.1934](http://arxiv.org/abs/1009.1934)
-
-* {#Forstneric11} [[Franc Forstnerič]], section 5.3 of _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011
-
-
-
-
-Discussion in terms of [[higher complex analytic geometry]] and [[complex analytic infinity-groupoids]] is in 
+Discussion in terms of [[higher complex analytic geometry]] and [[complex analytic ∞-groupoids]]:
 
 * {#Larusson01} [[Finnur Lárusson]], _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_ ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103))
 
-
-* {#Larusson03} [[Finnur Lárusson]], _Model structures and the Oka principle_, [math.CV/0303355](http://arxiv.org/abs/math/0303355)
-
-This construction stems from some observations from Jardine, and uses his intermediate model structure from
-
-*  [[John Frederick Jardine]], _Intermediate model structures for simplicial presheaves_, Canad. Math. Bull. __49__ (2006), no. 3, 407&#8211;413, [MR2007d:18021](http://www.ams.org/mathscinet-getitem?mr=2252262)
+* {#Larusson03} [[Finnur Lárusson]], _Model structures and the Oka principle_, Journal of Pure and Applied Algebra Volume 192, Issues 1–3, 1 September 2004, Pages 203-223 ([math.CV/0303355](http://arxiv.org/abs/math/0303355), [doi:10.1016/j.jpaa.2004.02.005](https://doi.org/10.1016/j.jpaa.2004.02.005))
 
 Some other articles on Oka principle:
 
 * Tyson Ritter, _A strong Oka principle for embeddings of some planar domains into $C\times C^*$_, [arxiv/1011.4116](http://arxiv.org/abs/1011.4116)
-
 
 Related MO discussion: [by Georges Elencwajg](http://mathoverflow.net/a/60053/381)
 
