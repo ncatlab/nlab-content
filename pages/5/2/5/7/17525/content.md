@@ -121,7 +121,7 @@ also called the _[[coimage]]_ of $Spec(R) \to Spec(\mathbb{Z})$. Since [[limits]
 
 This is morally the reason why for $E$ a [[homotopy commutative ring spectrum]] then the core $c \pi_0(E)$ of its underlying ordinary ring in degree 0 controls what the $E$-[[Adams spectral sequence]] converges to ([Bousfield 79, theorems 6.5, 6.6](#Bousfield79), see [here](Adams+spectral+sequence#ConvergenceStatements)), because the $E$-Adams spectral sequence computes [[E-nilpotent completion]] which is essentially the analog in [[higher algebra]] of the above story: namely the coimage ([(infinity,1)-image](infinity-image#ViaColimitOfCechNerve)) of $Spec(E) \to $ [[Spec(S)]] (see [here](Adams+spectral+sequence#DefinitionInHigherAlgebra)). 
 
-=--
+\end{remark}
 
 
 
