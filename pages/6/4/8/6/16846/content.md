@@ -74,7 +74,7 @@ Although the bornological topos can be regarded as a cohesive category of "space
 
 * {#Lawvere97}[[F. William Lawvere]], _Volterra's functionals and covariant cohesion of space_ , in _Proceedings of the May 1997 Meeting in Perugia_ , Perugia Studies in Mathematics 1997.
 
-* {#Lawvere08}[[F. William Lawvere]], _Cohesive Toposes: Combinatorial and Infinitesimal Cases_, Como Ms. 2008. ([pdf](http://comocategoryarchive.com/Archive/temporary_new_material/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf))
+* {#Lawvere08}[[F. William Lawvere]], _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_, Como Ms. 2008.
 
 
 [[!redirects Bornological topos]]
