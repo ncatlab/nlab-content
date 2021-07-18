@@ -40,6 +40,8 @@ Every [[complex Lie group]] and every [[coset space]] ([[homogeneous space]]) of
 (review in [Forstnerič & Lárusson 11, p. 9](#ForstnericLarusson11), [Forstnerič 2013, Thm. 2.6](#Forstneric13))
 
 
+The complement of any compact polynomially convex subset of $\mathbf{C}^n$ ($n\gt1$) is an Oka manifold.
+(Kusakabe \cite[Theorem 1.2, Corollary 1.3]{Kusakabe}.)
 
 ## References
 
@@ -60,6 +62,7 @@ See also:
 
 * [[Finnur Lárusson]], *Affine simplices in Oka manifolds*, Documenta Mathematica (2009) Volume: 14, page 691-697 ([eudml:228723](https://eudml.org/doc/228723))
 
+* {#Kusakabe} [[Yuta Kusakabe]], _Oka properties of complements of holomorphically convex sets_, [arXiv:2005.08247](https://arxiv.org/abs/2005.08247). 
 
 Proof of the [[homotopy theory|homotopy-theoretic]] [[Oka principle]]:
 
