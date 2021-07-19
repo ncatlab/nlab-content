@@ -143,10 +143,10 @@ For a [[morphism]] $f$ in a [[regular category]], the following conditions are a
 ###### Proposition
 **image factorization**
 
-In a regular category, every morphism $f : x\to y$ can be factored -- uniquely up to [[isomorphism]] -- through its [[image]] $im(f)$ as
+In a regular category, every morphism $f : x\to y$ can be factored -- uniquely up to [[isomorphism]] -- through its [[coimage]] $coim(f)$ as
 
 $$
-  f : x \stackrel{e}{\to} im(f) \stackrel{i}{\to} y
+  f : x \stackrel{e}{\to} coim(f) \stackrel{i}{\to} y
   \,,
 $$
 
@@ -157,7 +157,9 @@ where $e$ is a [[regular epimorphism]] and $i$ a [[monomorphism]].
 +-- {: .proof}
 ###### Proof
 
-Let $e : x \to im(f)$ be the [[coequalizer]] of the [[kernel pair]] of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: im(f) \to y$ such that $f = i e$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors.  
+Let $e : x \to coim(f)$ be the [[coequalizer]] of the [[kernel pair]] of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: coim(f) \to y$ such that $f = i e$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[coimage]] of $f$, i.e., the smallest subobject through which $f$ factors.  
+
+This is the mere definition of first isomorphism theorem.
 
 A proof is spelled out on p. 30 of ([vanOosten](#vanOosten)).
 
