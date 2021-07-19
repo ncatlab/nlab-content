@@ -13,7 +13,14 @@ On [[Yang-Mills theory]] and [[topology]]/[[homotopy theory]]:
 
 On [[cyclic homology]] and homology of [[cyclic loop spaces]]:
 
-* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
+* {#Jones87} [[John D. S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
+
+
+On [[homotopy of rational maps]] and [[moduli spaces of monopoles]] related to [[braid groups]]:
+
+* [[Ralph Cohen]], [[John D. S. Jones]],  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+
+
 
 On [[operads]] and [[iterated loop spaces]]:
 
@@ -49,4 +56,5 @@ category: people
 [[!redirects JDS Jones]]
 [[!redirects J.D.S. Jones]]
 [[!redirects John D.S. Jones]]
+[[!redirects John D. S. Jones]]
 [[!redirects John Jones]]
