@@ -5,8 +5,11 @@
 
 Discussion of [[D4-branes]] [[polarized brane|polarizing]] into [[NS5-branes]]:
 
-* [[Iosif Bena]], [[Radu Roiban]], _$\mathcal{N}=1*$ in 5 dimensions: Dijkgraaf-Vafa meets Polchinski-Strassler_, 	JHEP 0311 (2003) 001 ([arXiv:hep-th/0308013](https://arxiv.org/abs/hep-th/0308013))
+* [[Iosif Bena]], [[Radu Roiban]], _$\mathcal{N}=1^\ast$ in 5 dimensions: Dijkgraaf-Vafa meets Polchinski-Strassler_, 	JHEP 0311 (2003) 001 ([arXiv:hep-th/0308013](https://arxiv.org/abs/hep-th/0308013))
 
+On [[twistor string theory]]:
+
+* {#RoibanVolovich04} [[Radu Roiban]], [[Anastasia Volovich]], *All Googly Amplitudes from the B-model in Twistor Space*, Phys. Rev. Lett. 93 (2004) 131602 ([arXiv:hep-th/0402121](https://arxiv.org/abs/hep-th/0402121))
 
 
 On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills theory]] identified as [[integrable system|integrable]] [[spin chains]] with respect to the [[dilatation operator]], and the correspondence of their spectrum with the [[classical field theory|classical]] [[Green-Schwarz superstring]] on [[anti de Sitter spacetime|AdS5]] under the [[AdS/CFT correspondence]]:
