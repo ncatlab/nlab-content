@@ -1,4 +1,3 @@
-[[!redirects twistor]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -526,7 +525,7 @@ Introductions and surveys:
 
 * {#FioresiLledoVaradarajan07} R. Fioresi, M. A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J.Math.Phys.48:113505,2007 ([arXiv:0609813](https://arxiv.org/abs/math/0609813))
 
-* [[Michael Atiyah]], Maciej Dunajski, Lionel Mason, _Twistor theory at fifty: from contour integrals to twistor strings_ ([arXiv:1704.07464](https://arxiv.org/abs/1704.07464))
+* [[Michael Atiyah]], Maciej Dunajski, Lionel Mason, _Twistor theory at fifty: from contour integrals to twistor strings_,  Proc. R. Soc. A473: 20170530 ([arXiv:1704.07464](https://arxiv.org/abs/1704.07464), [doi:10.1098/rspa.2017.0530](http://dx.doi.org/10.1098/rspa.2017.0530))
 
 * {#Adamo17} Tim Adamo, _Lectures on twistor theory_ ([arXiv:1712.02196](https://arxiv.org/abs/1712.02196))
 
