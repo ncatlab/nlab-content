@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,7 +39,7 @@ A standard application of this is to the discussion of [[moduli spaces of bundle
 
 The original texts are
 
-*  {#MumfordFogartyKirwan65} [[David Mumford]], John Fogarty, Frances Clare Kirwan, _Geometric invariant theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, Springer-Verlag (1965)
+*  {#MumfordFogartyKirwan65} [[David Mumford]], [[John Fogarty]], [[Frances Clare Kirwan]], _Geometric invariant theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, Springer-Verlag (1965/1982) ([ISBN:978-3-540-56963-3](https://www.springer.com/gp/book/9783540569633), [pdf](https://altexploit.files.wordpress.com/2017/08/mumford-d-fogarty-j-geometric-invariant-theory-springer-1982.pdf))
 
 
 * {#Mumford77} [[David Mumford]], _Stability of projective varieties_, L'Enseignement Math&#233;matique __23__ (1977) [doi](http://dx.doi.org/10.5169/seals-48919)
