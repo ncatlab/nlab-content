@@ -52,3 +52,7 @@ Various approaches to the classification of surfaces are described in introducto
 * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
 * _[How to see the genus](http://lamington.wordpress.com/2009/09/23/how-to-see-the-genus/)_
+
+[[!redirects genus of a Riemann surface]]
+
+
