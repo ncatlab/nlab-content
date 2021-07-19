@@ -52,7 +52,7 @@ The [[T-duality]] between type IIA and type IIB little strings is discussed in
 
 Construction within [[F-theory]] is discussed in
 
-* Lakshya Bhardwaj, Michele Del Zotto, [[Jonathan Heckman]], [[David Morrison]], [[Tom Rudelius]], [[Cumrun Vafa]], _F-theory and the Classification of Little Strings_ ([arXiv:1511.05565](http://arxiv.org/abs/1511.05565))
+* Lakshya Bhardwaj, [[Michele Del Zotto]], [[Jonathan Heckman]], [[David Morrison]], [[Tom Rudelius]], [[Cumrun Vafa]], _F-theory and the Classification of Little Strings_ ([arXiv:1511.05565](http://arxiv.org/abs/1511.05565))
 
 See also
 
