@@ -301,7 +301,7 @@ $$
 is called an _[[isomorphism]]_ if there exists an [[inverse morphism]]
 
 $$
-  Y \overset{f^{-1}}{\longrightarrow} Y \;\; \in Hom_{\mathcal{C}}(Y,X)
+  Y \overset{f^{-1}}{\longrightarrow} X \;\; \in Hom_{\mathcal{C}}(Y,X)
 $$
 
 namely a morphism such that the [[compositions]] with $f$ are equal to the [[identity morphisms]] on $X$ and $Y$, respectively
