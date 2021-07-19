@@ -30,11 +30,23 @@ that is associative and unital up to natural isomorphism with respect to $\otime
 
 For any [[category]] $A$, the category of [[endofunctors]] $End(A)$ is [[monoidal category|monoidal]] with respect to the (horizontal) composition (the composition of functors and the [[Godement product]] for natural transformations).
 
-Given a [[monoidal category]] $(C,\otimes,1,l,r,a)$ a (left or right) __$C$-actegory__ is a category $A$ together with a (left or right) coherent action of $C$ on $A$. Depending on an author and context, the left coherent action of $C$ on $A$ is a morphism of monoidal categories $C\to End(A)$ in the lax, colax, pseudo or strict sense (most often in pseudo-sense) or, in another terminology, a monoidal, comonoidal, strong monoidal or strict [[monoidal functor]]. Right coherent actions correspond to the monoidal functors into the category $End(A)$ with the opposite tensor product. 
+Given a [[monoidal category]] $(C,\otimes,I,l,r,a)$ a (left or right) __$C$-actegory__ is a category $A$ together with a (left or right) coherent action of $C$ on $A$. Depending on an author and context, the left coherent action of $C$ on $A$ is a morphism of monoidal categories $C\to End(A)$ in the lax, colax, pseudo or strict sense (most often in pseudo-sense) or, in another terminology, a monoidal, comonoidal, strong monoidal or strict [[monoidal functor]]. Right coherent actions correspond to the monoidal functors into the category $End(A)$ with the opposite tensor product. 
 
 $C$-actegories, colax $C$-equivariant functors and natural transformations of colax $C$-equivariant functors form a [[strict 2-category]] $_C Act^c$. A [[monad]] in $_C Act^c$ amounts to a pair of a monad in $Cat$ and a [[distributive law]] between the monad and an action of $C$. 
 
 The notion of $C$-action (hence a $C$-actegory) is easily extendable to [[bicategories]] (see Bakovi&#263;'s thesis).
+
++-- {: .num_defn #Actegory}
+###### Definition
+A **(left) $\mathcal{C}$-(pseudo)actegory** is
+
+1. a category $\mathcal{A}$;
+1. a functor $\oslash : \mathcal{C} \times \mathcal{A} \to \mathcal{A}$ called the *action*;
+1. a natural isomorphism $\lambda_a : a \to I \oslash a$ called the *unitor*;
+1. a natural isomorphism $\alpha_{c,d,a} : c \oslash (d \oslash a) \to (c \otimes d) \oslash a$ called the *actor*;
+
+satisfying a pentagonal and two triangular laws (see [KJ01](#KJ01), diagg. (1.1)-(1.3)) that witness the coherence of $\lambda$ and $\alpha$ with the unitors and associators of $\mathcal{C}$.
+=--
 
 ## Connection with enrichment 
 If a category $D$ is [[enriched category|enriched]] in $C$ with [[copowers]], then the copower structure forms an actegory on the ordinary category underlying $D$. 
