@@ -31,7 +31,7 @@ This means that it is a [[stable point]] under the action of [[automorphisms]].
 
 Many references are at [[moduli space of bundles]]. The notion was introduced by [[David Mumford]] in the context of GIT in 1960-s:
 
-* D. Mumford, J. Fogarty, F. Kirwan, (1994), Geometric invariant theory, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, 3rd ed. Springer 1994
+* [[David Mumford]], J. Fogarty, [[Frances Kirwan]], (1994), Geometric invariant theory, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, 3rd ed. Springer 1994
 
 * [[Gerd Faltings]], _Stable G-bundles and projective connections_, J. Alg. Geometry , 2 (1993) pp. 507&#8211;568 [MR1211997](http://www.ams.org/mathscinet-getitem?mr=1211997) [Zbl 0790.14019](http://www.zentralblatt-math.org/zbmath/search/?q=an%3A0790.14019)
 	
