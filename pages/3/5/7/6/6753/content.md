@@ -16,7 +16,7 @@
 
 ## Idea
 
-_Geometric measure theory_ and _geometric integration theory_ studies various [[measures]] of subsets of [[Euclidean spaces]] and possibly of some geometric generalizations) and their geometric properties. Especially, one studies [[rectifiability]] of subsets of some lower dimensionality, to define notions like area, arc length etc. and to study [[distributions]] and [[currents]] on such spaces. Very central questions and motivations belong to the [[variational calculus|variational problems]] including the study of minimal surfaces. 
+_Geometric measure theory_ and _geometric integration theory_ studies various [[measures]] of subsets of [[Euclidean spaces]] and possibly of some geometric generalizations) and their geometric properties. Especially, one studies [[rectifiability]] of subsets of some lower dimensionality, to define notions like area, arc length etc. and to study [[distributions]] and [[currents]] on such spaces. Very central questions and motivations belong to the [[variational calculus|variational problems]] including the study of [[minimal surface|minimal surfaces]]. 
 
 ## Related concepts
 
