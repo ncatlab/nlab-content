@@ -35,6 +35,12 @@ Beyond the speculative hypothesized role of [[string theory]] as a physical theo
 
 > [[Jacques Hadamard]] ([source](http://homepage.math.uiowa.edu/~jorgen/hadamardquotesource.html))
  
+\linebreak
+
+> The construction of efficient computational methods for field theory scattering amplitudes has benefited substantially from string theory input.
+
+> [Roiban & Volovich 2004](#RoibanVolovich04)
+
 
 ## Examples
 
@@ -217,10 +223,9 @@ While this argument does not give direct information about the origin of the BH-
 
 Reviews include
 
-chapter 5 of 
 
-* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
- {#AGMOO}
+* {#AGMOO} {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], Chapter 5 of:  _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. 323:183-386, 2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)) 
+
 
 ### Application to pure mathematics
 
