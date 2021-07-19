@@ -81,11 +81,22 @@ A key observation here is ([Atiyah-Bott 83, section 7](#AtiyahBott83)), that a $
 
 * [[pseudoholomorphic vector bundle]]
 
+* [[Oka principle]]
+
+\
 ## References
 
 ### General
 
-* Wikipedia, _[holomorphic vector bundle](http://en.wikipedia.org/wiki/Holomorphic_vector_bundle)_
+Textbook accounts:
+
+* {#Forstneric11} [[Franc Forstnerič]], Section 1.5 in: _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
+
+  > (in the context of the [[Oka principle]])
+
+See also
+
+* Wikipedia, _[Holomorphic vector bundle](http://en.wikipedia.org/wiki/Holomorphic_vector_bundle)_
 
 ### Relation to complex vector bundles with flat holomorphic connection
 
