@@ -88,6 +88,11 @@ Textbook accounts:
 
 * {#Voisin02} [[Claire Voisin]], section 2 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
+* {#Forstneric11} [[Franc Forstnerič]], Section 1.5 in: _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
+
+  > (in the context of the [[Oka principle]])
+
+
 See also:
 
 * Wikipedia, *[Complex manifold](https://en.wikipedia.org/wiki/Complex_manifold)*
