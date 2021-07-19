@@ -15,10 +15,11 @@
 
 ## Idea
 
-A [[random variable]] is called *deterministic* if  it happens to be non-random ("[[red herring principle]]") in that it does not actually depend on the given [[event (in probability theory)|events]], hence if it is a [[constant function]] on the underlying [[measure space]]/[[probability space]] (or at least takes a fixed value [[almost surely]]).
+A [[random variable]] is called *deterministic* if it happens to be non-random ("[[red herring principle]]") in that it does not actually depend on the given [[event (in probability theory)|events]], hence if it is a [[constant function]] on the underlying [[measure space]]/[[probability space]] (or at least takes a fixed value [[almost surely]]).
 
 ## Related concepts
 
+* [[Dirac measure]]
 * [[constant function]] /  [[locally constant function]] 
 
 * [[constant sheaf]] / [[locally constant sheaf]]
