@@ -45,7 +45,7 @@ $$
 
 out of the [[tensor product of chain complexes]], which satisfies the [[action]] property. Explicitly this means that
 
-1. $\rho$ preserves degrees: for all $a \in A$ and $v \in V$ of homogeneous degees ${\vert a \vert}$ and ${\vert v \vert}$, respectively, then $\vert \rho(a,v)\vert = {\vert a \vert} + {\vert v \vert}$;
+1. $\rho$ preserves degrees: for all $a \in A$ and $v \in V$ of homogeneous degrees ${\vert a \vert}$ and ${\vert v \vert}$, respectively, then $\vert \rho(a,v)\vert = {\vert a \vert} + {\vert v \vert}$;
 
 1. for all $a \in A$, $v \in V$ with $a$ in degree $\vert a \vert$, then 
 
