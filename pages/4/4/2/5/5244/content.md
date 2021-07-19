@@ -20,7 +20,7 @@
 
 ## Idea
 
-*Oka manifolds* (the term is due to [Forstnerič 2009a](#Forstneric09a)) comprise the class of [[complex analytic manifolds]] which satisfy the *[[Oka principle]]*.
+*Oka manifolds* (the term is due to [Forstnerič 2009a](#Forstneric09a)) comprise the class of [[complex analytic manifolds]] which, when used as [[classifying spaces]], satisfy the weak homotopy equivalence form of the *[[Oka principle]]*.
 
 *Oka maps* are the relative version; they are [[fibrations]] in the Jardine-L&#225;russon model structure on the category of [[simplicial presheaves]] on the simplicial Stein site. Those cofibrant objects which are representable by complex manifolds are in fact [[Stein manifolds]]. 
 
@@ -40,8 +40,10 @@ Every [[complex Lie group]] and every [[coset space]] ([[homogeneous space]]) of
 (review in [Forstnerič & Lárusson 11, p. 9](#ForstnericLarusson11), [Forstnerič 2013, Thm. 2.6](#Forstneric13))
 
 
-The complement of any compact polynomially convex subset of $\mathbf{C}^n$ ($n\gt1$) is an Oka manifold.
-(Kusakabe \cite[Theorem 1.2, Corollary 1.3]{Kusakabe}.)
+\begin{example}\label{ComplementsOfCompactPolynomiallyConvextSubsets}
+The [[complement]] of any compact polynomially convex subset of $\mathbf{C}^n$ ($n\gt1$) is an Oka manifold. 
+\end{example}
+([Kusakabe 20, Theorem 1.2, Corollary 1.3](#Kusakabe20))
 
 ## References
 
@@ -62,7 +64,7 @@ See also:
 
 * [[Finnur Lárusson]], *Affine simplices in Oka manifolds*, Documenta Mathematica (2009) Volume: 14, page 691-697 ([eudml:228723](https://eudml.org/doc/228723))
 
-* {#Kusakabe} [[Yuta Kusakabe]], _Oka properties of complements of holomorphically convex sets_, [arXiv:2005.08247](https://arxiv.org/abs/2005.08247). 
+* {#Kusakabe20} [[Yuta Kusakabe]], _Oka properties of complements of holomorphically convex sets_ ([arXiv:2005.08247](https://arxiv.org/abs/2005.08247)). 
 
 Proof of the [[homotopy theory|homotopy-theoretic]] [[Oka principle]]:
 
