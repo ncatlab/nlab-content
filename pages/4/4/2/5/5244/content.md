@@ -22,7 +22,7 @@
 
 *Oka manifolds* (the term is due to [Forstnerič 2009a](#Forstneric09a)) comprise the class of [[complex analytic manifolds]] which, when used as [[classifying spaces]], satisfy the weak homotopy equivalence form of the *[[Oka principle]]*.
 
-*Oka maps* are the relative version; they are [[fibrations]] in the Jardine-L&#225;russon model structure on the category of [[simplicial presheaves]] on the simplicial Stein site. Those cofibrant objects which are representable by complex manifolds are in fact [[Stein manifolds]]. 
+The relative notion are *Oka maps* ([Forstnerič 2009a](#Forstneric09a)), these are [[fibrations]] in the Jardine-L&#225;russon model structure on the category of [[simplicial presheaves]] on the simplicial Stein site. Those cofibrant objects which are representable by complex manifolds are in fact [[Stein manifolds]]. 
 
 ## Examples
 
