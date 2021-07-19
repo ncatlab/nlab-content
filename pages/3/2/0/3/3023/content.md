@@ -155,10 +155,13 @@ Historical references include
 
 * [[Hermann Weyl]], _Die Idee der Riemannschen Fl&#228;che_, 1913 (_The concept of a Riemann surface_) (on the book, by Peter Schreiber, 2013: [web](http://mathineurope.eu/en/home/47-information/math-calendar/971-1913-publication-of-the-concept-of-a-riemann-surface-by-hermann-weyl))
 
-Lecture notes include
+Lecture notes:
 
 * {#Bobenko} [[Alexander Bobenko]], _Compact Riemann Surfaces_ lecture notes ([pdf](http://page.math.tu-berlin.de/~bobenko/Lehre/Skripte/RS.pdf))
 
 *  [[Eberhard Freitag]], _Riemann surfaces -- Sheaf theory, Riemann Surfaces, Automorphic forms_, 2013 ([pdf](http://www.rzuser.uni-heidelberg.de/~t91/skripten/riemfl.pdf))
+
+* {#Wehler20} [[Joachim Wehler]], *Riemann surfaces* 2020 ([pdf](https://www.mathematik.uni-muenchen.de/~wehler/20190530_RiemannSurfacesScript.pdf))
+
 
 [[!redirects Riemann surfaces]]
