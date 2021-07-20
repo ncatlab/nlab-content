@@ -17,9 +17,9 @@
 
 ## Idea
 
-The _classical [[model category]] structure on [[pointed topological spaces]]_ $Top^{\ast/}_{Quillen}$ is the [[model structure on an undercategory]] of the [[classical model structure on topological spaces]] $Top_{Quillen}$ under the point (a [[pointed model category]]).
+The _classical [[model category]] structure on [[pointed topological spaces]]_ $Top^{\ast/}_{Quillen}$ is the [[model structure on pointed objects]] of the [[classical model structure on topological spaces]] $Top_{Quillen}$ under the point (a [[pointed model category]]).
 
-With the [[smash product]] this is a [[monoidal model category]].
+Equipped with the [[smash product]] this is a [[monoidal model category]].
 
 ## Properties
 
@@ -101,4 +101,7 @@ This is a special case of a general statement about cofibrant generation of [[co
 
 ## References
 
-* [[Mark Hovey]], around corollary 2.4.20 of _Model categories_
+Textbook accounts:
+
+* {#Hovey99} [[Mark Hovey]], Cor. 2.4.20 in: _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+
