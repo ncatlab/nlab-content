@@ -29,12 +29,12 @@ $$
 there is induced an [[adjunction]] of [[opposite functors]]  between their [[opposite categories]] of the form
 
 $$
-  \mathcal{D}^{op}
+  \mathcal{C}^{op}
     \underoverset
       {\underset{L^{op}}{\longrightarrow}}
       {\overset{R^{op}}{\longleftarrow}}
       {\;\;\;\;\bot\;\;\;\;}
-  \mathcal{C}^{op}
+  \mathcal{D}^{op}
   \,.
 $$
 
