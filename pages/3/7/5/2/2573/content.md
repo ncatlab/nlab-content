@@ -59,6 +59,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 * Akihiro Kanamori (2012). _In Praise of Replacement_. The Bulletin of Symbolic Logic 18:1 (2012 March).  [pdf](http://math.bu.edu/people/aki/20.pdf).
 
+* $n$-category Cafe (2021),  [Large Sets 12](https://golem.ph.utexas.edu/category/2021/07/large_sets_12.html) ([[Tom Leinster]]) and [Large Sets 12.5](https://golem.ph.utexas.edu/category/2021/07/large_sets_125.html) ([[Mike Shulman]]) -- includes discussion of a number of different replacement axioms for [[ETCS]] and more general [[structural set theory]].
 
 ## Related entries
 
