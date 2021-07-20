@@ -497,7 +497,7 @@ In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \r
 +-- {: .proof}
 ###### Proof
 
-The model strcuture as claimed is immediate by inspection.
+The model structure as claimed is immediate by inspection.
 
 =--
 
