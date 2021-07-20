@@ -41,6 +41,13 @@ Introducing the [[Dwyer-Wilkerson H-space]]:
 
 *  {#DwyerWilkerson93} [[William Dwyer]], [[Clarence Wilkerson]], _A new finite loop space at the prime two_, J. Amer. Math. Soc. 6 (1993), 37-64  ([doi:10.1090/S0894-0347-1993-1161306-9](https://doi.org/10.1090/S0894-0347-1993-1161306-9))
 
+On [[homotopy theory]] and [[model categories]]:
+
+* {#DwyerSpalinski95} [[William Dwyer]], [[Jan Spalinski]], *[[Homotopy theories and model categories]]* ([[DwyerSpalinski_HomotopyTheories.pdf:file]]) 
+
+  in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
+
 On [[homotopy theory]] and [[classifying spaces]]:
 
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes, Copenhagen 2008, ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf), [[Dwyer_HomotopyTheoryOfClassifyingSpaces.pdf:file]])
