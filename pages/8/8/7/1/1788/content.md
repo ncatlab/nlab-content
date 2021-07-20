@@ -26,8 +26,139 @@ $$
 $$
 
 \end{prop}
+
+In all of the following, consider a [[pullback]] [[commuting square|square]] of [[chain maps]] between [[chain complexes]]:
+
+$$
+  \array{   
+    A \times_B C 
+    &
+    \overset{
+     p^\ast f \, \in \mathrm{QIso}
+    }{\longrightarrow}&
+    C
+    \\
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow {}^{\mathrlap{p \in Surj}}
+    \\
+    A
+    &
+    \underset{
+      f \in \mathrm{QIso}
+    }{\longrightarrow}
+    &
+    B
+  }
+$$
+
+
+\begin{lemma}
+  Let 
+
+  * $n \in \mathbb{Z}$;
+  
+  * $f \;\colon\; A \to B$ a [[chain map]] which induces an [[isomorphism]] on [[chain homology]] in degree $n$:
+
+    $$
+      H_n(f) \;\colon\; H_n(A) \xrightarrow{\;\simeq\;} H_n(B)
+    $$ 
+
+  * $p \;\colon\; C \to B$ be a [[chain map]] which is a [[surjection]] in degree $n+1$
+
+    $$
+      p_{n+1} \;\colon\; C_{n+1} \overset{\;\;\;\;}{\twoheadrightarrow} B_{n+1}
+    $$
+
+Then the [[pullback]] $p^\ast(f)$ is also an [[isomorphism]] on [[chain homology]] in degree $n$:
+
+$$
+  H_n
+  \big(
+   p^\ast(f)
+  \big) 
+    \;\colon\; 
+  H_n(A) \xrightarrow{\;\simeq\;} H_n(B)
+  \,.
+$$   
+\end{lemma}
+
 \begin{proof}
-For we show that $H_\bullet(p^\ast f)_\bullet$  
+
+First to see that 
+$  H_n
+  \big(
+   p^\ast(f)
+  \big) 
+$
+is an [[injection]]: Consider a [[cycle]] $(a_n, c_n) \in A \times_B C$ whose image under $p^\ast(f)$ becomes exact:
+
+* $d(a_n,c_n) = 0$,
+
+* $c_n = \partial c_{n+1}$.
+
+We need to show that then also $(a_n, c_n)$ is exact.
+
+It follows that also $f(a_n)$ is exact, because:
+
+$$
+  \begin{array}{lll}
+    f(a_n)
+    & = 
+    p(c_n)
+    \\
+    & =
+    p(\partial c_{n+1})
+    \\
+    & = 
+    \partial p( c_{n+1} )
+    \,.
+  \end{array}
+$$
+
+By assumption on $f$ this means that already $a_n$ is exact
+
+$$
+  a_n  = \partial a_{n+1} 
+$$
+
+and by assumption on $p$ there is $c'_{n+1}$ with 
+
+$$
+  f(a_{n+1}) = p(c'_{n+1})
+  \,.
+$$
+
+Since, in summary, this implies that 
+
+
+
+
+by assumption 
+
+$ f(a_n) = p(c_n) = p(d c_{n-1}) = d p(c_{n-1})$
+
+
+Hence $d(a_{n-1},c_{n-1}) = (a_n,c_n)$.
+
+
+
+For surjectivity
+
+For $d c_n = 0$
+
+$d p(c_n) = 0$
+
+$ p(c_n) = f(a_n) + d b_{n-1} $
+
+$b_{n-1} = p(c_{n-1})$
+
+$p( c_n ) = f(a_n) + p( d c_{-1}) $
+
+$$
+  d( a_n, c_n - d c_{n-1} ) = 0
+$$
+
 \end{proof}
 
 \begin{prop}\label{InducedQuilleAdjunctionsOnModelCategoriesOfPointedObjects}
