@@ -1436,7 +1436,7 @@ Discussion of the model structure on unbounded dg-algebras over a field of chara
 
 A general discussion of algebras over an operad in unbounded chain complexes is in
 
-* {#Hinich} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+* {#Hinich} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_, Communications in Algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 
 
 A survey of some useful facts with an eye towards [[dg-geometry]] is in
