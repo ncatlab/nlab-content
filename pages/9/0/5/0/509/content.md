@@ -482,9 +482,11 @@ Notice that if sufficient [[colimits]] exist in the first place, then this funct
 The [[classifying topos]] for pointed object is the [[presheaf topos]] $PSh((FinSet_\ast)^{op})$ on the [[opposite category]] of pointed [[finite sets]]. See at _[[classifying topos for the theory of objects]]_ for more on this.
 
 ### Model category structure
+ {#ModelCategoryStructure}
 
 +-- {: .num_prop #ModelStructureOnSliceCategory}
 ###### Proposition
+**([[model structure on pointed objects]])**
 
 Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
 
@@ -569,6 +571,8 @@ $$
 * [[topos of pointed objects]]
 
 * [[fibration of points]]
+
+* [[model structure on pointed objects]]
 
 ## References
 
