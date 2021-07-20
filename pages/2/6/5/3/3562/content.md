@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -29,6 +40,11 @@ $$
 $$
 
 from [[(∞,1)Cat]] to itself. Up to equivalence, this is the only nontrivial such automorphism. For more on this see [[(∞,1)Cat]].
+
+## Related concepts
+
+* [[opposite model category]]
+
 
 [[!redirects opposite quasi-category]]
 [[!redirects opposite (∞,1)-category]]
