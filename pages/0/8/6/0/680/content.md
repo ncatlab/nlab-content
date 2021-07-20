@@ -599,7 +599,7 @@ One may view the (monoidal) Dold-Kan correspondence as a relation between a well
 
 * **Dold-Kan correspondence**
 
-* [[monoidal Dold-Kan correspondence]], [[Eilenber-Zilber/Alexander-Whitney deformation retraction]]
+* [[monoidal Dold-Kan correspondence]], [[Eilenberg-Zilber/Alexander-Whitney deformation retraction]]
 
 * [[operadic Dold-Kan correspondence]]
 
