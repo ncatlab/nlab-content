@@ -14,7 +14,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -110,13 +110,13 @@ See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06), [Dungan 
 \begin{prop}\label{ProjectiveModelStructureOnConnectiveChainComplexesIsProper}
   The projective model structure on connective chain complexes is a [[proper model category]].
 \end{prop}
-([Jardine 03, Prop. 1.5](#Jardine03))
+(e.g. [Jardine 03, Prop. 1.5](#Jardine03))
 
 \begin{proposition}
 \label{ProjectiveModelStructureOnConnectiveChainComplexesIsMonoidal}
 {#MonoidalModelStructureOnConnectiveChainComplexes} With respect to the degreewise [[tensor product of chain complexes]] this is a [[monoidal model category]].
 \end{proposition}
-([Jardine 03, Prop. 1.5](#Jardine03),  [Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
+(e.g. [Jardine 03, Prop. 1.5](#Jardine03),  [Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
 
 
 
@@ -1003,7 +1003,12 @@ The projective model structure on connective chain complexes (Theorem \ref{Proje
 
 * {#Quillen67} [[Daniel Quillen]], Section II.4 item 5 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
-see also
+see also:
+
+* {#DwyerSpalinski95} [[William Dwyer]], [[Jan Spalinski]], Section 7 of: *[[Homotopy theories and model categories]]* ([[DwyerSpalinski_HomotopyTheories.pdf:file]]) 
+
+  in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
 
 * {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kirsten Schemmerhorn]], Theorem 1.5 in: _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
