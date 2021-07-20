@@ -51,7 +51,9 @@ A [[functor]] $i \colon S \to C$ is __dense__ if it satisfies the following equi
 
    (This version generalizes readily to the [[enriched category theory]]).
 
-1. the corresponding [[restricted Yoneda embedding]] $C \to [S^{op},Set]$ is [[full and faithful functor|fully faithful]]. 
+1. the corresponding [[restricted Yoneda embedding]] $C \to [S^{op},Set]$ is [[full and faithful functor|fully faithful]].
+
+1. $lan_i i$ is the identity.
 
 \end{definition}
 
