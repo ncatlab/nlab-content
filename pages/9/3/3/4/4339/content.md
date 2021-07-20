@@ -25,7 +25,7 @@ Examples include:
 
 *  [[one|1]] is not a [[prime number]].
 *  The [[trivial ring]] is not a [[field]] (or even an [[integral domain]]).
-*  The [[trivial group]] is not a [[simple group]] (which is the [trope-namer](https://tvtropes.org/pmwiki/pmwiki.php/Main/TropeNamers)).
+*  The [[trivial group]] is not a [[simple group]] (which is the trope-namer).
 *  A [[zero object]] is not a [[simple object]] (generalizing the previous example).
 *  The [[empty space]] is not a [[path-connected space]] (or even a [[connected space]]).
 *  The [[improper ideal]] is not a [[maximal ideal]] (or even a [[prime ideal]]).
