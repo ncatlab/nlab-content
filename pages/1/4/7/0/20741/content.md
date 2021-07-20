@@ -71,7 +71,6 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * [[David Spivak]], _Learners' languages_, ([arXiv:2103.01189](https://arxiv.org/abs/2103.01189))
 
-\bibitem{Spivak202103}
 
 * G.S.H. Cruttwell, Bruno Gavranović, [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
 
