@@ -43,12 +43,16 @@ Two introductions are:
 
 * [[Steve Awodey]], _An Outline of Algebraic Set Theory_ ([pdf](http://caae.phil.cmu.edu/projects/ast/Papers/awodey_outline.pdf))
 
-* Benno van den Berg, Ieke Moerdijk, _A Unified Approach to Algebraic Set Theory_ [arXiv](http://arxiv.org/abs/0710.3066)
+* [[Benno van den Berg]], [[Ieke Moerdijk]], _A Unified Approach to Algebraic Set Theory_ [arXiv](http://arxiv.org/abs/0710.3066)
 
 A standard textbook is
 
 * [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_, Cambridge University Press (1995)
  {#JoyalMoerdijk}
+
+A reference for BIST is
+
+* [[Steve Awodey]], [[Carsten Butz]], [[Alex Simpson]], [[Thomas Streicher]], ["Relating first-order set theories, toposes and categories of classes"](https://doi.org/10.1016/j.apal.2013.06.004), _Annals of Pure and Applied Logic_ 165 (2014)
 
 [[!redirects algebraic set theories]]
 [[!redirects small maps]]
