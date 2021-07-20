@@ -299,7 +299,7 @@ then:
 \begin{proof}
 Consider the first case:
 By the nature of the [sliced adjunction](over+category#OnSlices), 
-its [[left adjoint]] $L_{/b}$ acts as $L$ on [[underlying]] morphism. 
+its [[left adjoint]] $L_{/b}$ acts as $L$ on [[underlying]] [[morphisms]]. 
 But since $L$ is assumed to be a [[left Quillen functor]]
 and since the (acyclic) cofibrations of the slice model structure are those of [[underlying]] morphisms (Prop. \ref{SliceModelStructure}), 
 $L_{/b}$ preserves them and is hence itself a [[left Quillen functor]].
@@ -352,7 +352,125 @@ $$
 
 ## Examples
 
-* the [[classical model structure on pointed topological spaces]] is the model structure on the undercategory under the point of the [[classical model structure on topological spaces]].
+\begin{example}
+The [[classical model structure on pointed topological spaces]] is the model structure on the [[undercategory]] under the point (the [[category of pointed objects]]) of the [[classical model structure on topological spaces]].
+\end{example}
+
+
+\begin{prop}\label{InducedQuilleAdjunctionsOnModelCategoriesOfPointedObjects}
+**(induced [[Quillen adjunction]] on [[model categories of pointed objects]])** \linebreak
+Given a [[Quillen adjunction]] between [[model categories]]
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \mathcal{C}
+  \,,
+$$
+there is induced a [[Quillen adjunction]] between the corresponding [[model categories of pointed objects]]
+$$
+  \mathcal{D}^{\ast\!/}
+    \underoverset
+      {\underset{R^{\ast\!/}}{\longrightarrow}}
+      {\overset{L^{\ast\!/}}{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \mathcal{C}^{\ast\!/}
+  \,,
+$$
+where 
+
+* the [[right adjoint]] acts directly as $R$ on the triangular [[commuting diagrams]] in $\mathcal{C}$ that define the morphisms in $\mathcal{C}^{\ast\!/}$;
+
+* the [[left adjoint]] is the [[composition|composite]] of the corresponding direct application of $L$ followed by [[pushout]] along the [[adjunction counit]] $L(\ast) \simeq L \circ R(\ast) \xrightarrow{ \;\epsilon_\ast \; } \ast$ (using that $R(\ast) \simeq \ast$ since [[right adjoints preserve limits]] and hence [[terminal objects]]):
+
+  $$
+    L^{\ast\!/}
+    \;\colon\;
+    \mathcal{C}^{\ast\!/}
+    \xrightarrow{ \;\; L  \;\; }
+    \mathcal{D}^{L(\ast)\!/}
+    \;\simeq\;
+    \mathcal{D}^{L\circ R(\ast)\!/}
+    \xrightarrow{ \;\; (-) \sqcup \epsilon_\ast \;\; }
+    \mathcal{D}^{\ast\!/}
+    \,.
+  $$
+
+\end{prop}
+\begin{proof}
+  It is fairly straightforward to check this directly (e.g. [Hovey 1999, Prop. 1.3.5](model+structure+on+pointed+objects#Hovey99)), but it is also a special case of Prop. \ref{SlicedQuillenAdjunction} -- to make this explicit, notice that passing to [[opposite categories]] with their [[opposite model structures]] turns the original Quillen adjunction into the [[opposite Quillen adjunction]]:
+
+$$
+  \mathcal{D}^{op}
+    \underoverset
+      {\underset{L^{op}}{\longrightarrow}}
+      {\overset{R^{op}}{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \mathcal{C}^{op}
+  \,.
+$$
+
+Now the passage to [[pointed objects]] corresponds to [[slice category|slicing]] (instead of [[coslice category|co-slicing]]), since
+
+\[
+  \label{PointedObjectsIsOppositeOfCopointedObjectsInOpposite}
+  \mathcal{C}^{\ast\!/}
+  \;\;
+  \simeq
+  \big(
+    \mathcal{C}^{op}_{/\ast}
+  \big)^{op}
+  \,,
+  \;\;\;\;\;\;\;
+  \text{similarly}
+  \;\;\;
+  \mathcal{D}^{\ast\!/}
+  \;\;
+  \simeq
+  \big(
+    \mathcal{D}^{op}_{/R(\ast)}
+  \big)^{op}
+  \,,
+\]
+
+whence item (1) in Prop. \ref{SlicedQuillenAdjunction} says that there is a Quillen adjunction of the form
+
+$$
+  \mathcal{D}^{op}_{/R(\ast)}
+    \underoverset
+      {\underset{L^{op}_{/\ast}}{\longrightarrow}}
+      {\overset{R^{op}_{/\ast}}{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \mathcal{C}^{op}_{/\ast}
+  \,,
+$$
+
+hence with [[opposite Quillen adjunction]] of the required form
+
+$$
+  \mathcal{D}^{\ast\!/}  
+  \simeq
+  \big(\mathcal{D}^{op}_{/R(\ast)}\big)^{op}
+    \underoverset
+      {\underset{ 
+        R^{\ast\!/} \,\coloneqq\, \big( R^{op}_{/\ast} \big)^{op}
+      }{\longrightarrow}}
+      {\overset{
+        L^{\ast\!/} \,\coloneqq\, \big( L^{op}_{/\ast} \big)^{op}
+      }{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \big(\mathcal{C}^{op}_{/\ast}\big)^{op}
+  \simeq
+  \mathcal{C}^{\ast\!/}
+  \,,
+$$
+
+
+with $R^{op}$ acting directly as $R$ on underlying diagrams, and with $L^{op}$ acting as the composite of $L$ following by [[pullback]] -- in $\mathcal{C}^{op}$ -- along the [[adjunction unit]] of $(R^{op} \dashv L^{op})$. Since the component morphism of the [[adjunction unit|unit]] of the [[opposite adjunction]] $(R^{op} \dashv L^{op})$ is that of the adjunction unit of $(L \dashv R)$, and since [[pullback]] in an [[opposite category]] is [[pushout]] in the original category, this implies the claim. 
+\end{proof}
+
 
 ## Related concepts
 
