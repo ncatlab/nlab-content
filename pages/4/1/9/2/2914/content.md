@@ -400,15 +400,15 @@ where
 
 \end{prop}
 \begin{proof}
-  It is fairly straightforward to check this directly (e.g. [Hovey 1999, Prop. 1.3.5](model+structure+on+pointed+objects#Hovey99)), but it is also a special case of Prop. \ref{SlicedQuillenAdjunction} -- to make this explicit, notice that passing to [[opposite categories]] with their [[opposite model structures]] turns the original Quillen adjunction into the [[opposite Quillen adjunction]]:
+  It is fairly straightforward to check this directly (e.g. [Hovey 1999, Prop. 1.3.5](model+structure+on+pointed+objects#Hovey99)), but it is also a special case of Prop. \ref{SlicedQuillenAdjunction} --- to make this explicit, notice that passing to [[opposite categories]] with their [[opposite model structures]] turns the original Quillen adjunction into the [[opposite Quillen adjunction]]:
 
 $$
-  \mathcal{D}^{op}
+  \mathcal{C}^{op}
     \underoverset
       {\underset{L^{op}}{\longrightarrow}}
       {\overset{R^{op}}{\longleftarrow}}
       {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
-  \mathcal{C}^{op}
+  \mathcal{D}^{op}
   \,.
 $$
 
@@ -438,12 +438,12 @@ Now the passage to [[pointed objects]] corresponds to [[slice category|slicing]]
 whence item (1) in Prop. \ref{SlicedQuillenAdjunction} says that there is a Quillen adjunction of the form
 
 $$
-  \mathcal{D}^{op}_{/R(\ast)}
+  \mathcal{C}^{op}_{/R(\ast)}
     \underoverset
       {\underset{L^{op}_{/\ast}}{\longrightarrow}}
       {\overset{R^{op}_{/\ast}}{\longleftarrow}}
       {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
-  \mathcal{C}^{op}_{/\ast}
+  \mathcal{D}^{op}_{/\ast}
   \,,
 $$
 
