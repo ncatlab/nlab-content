@@ -7,9 +7,20 @@
 
 ## Selected writings 
 
+On [[quantum groups]]:
+
 * V. G. Drinfel'd, _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 798&#8211;820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
 
+On [[chiral algebras]]:
+
 * A. A. Beilinson, V. Drinfeld, _[[Chiral Algebras]]_, AMS 2004 (the final form of a preprint in various forms since around 1995, cf. [here](http://www.math.uchicago.edu/~mitya/langlands.html)).
+
+On [[braided monoidal category|braided]] [[fusion categories]]:
+
+* [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
+
+
+On [[prismatic cohomology]]
 
 * [[Vladimir Drinfeld]], _Prismatization_ ([arXiv:2005.04746](https://arxiv.org/abs/2005.04746))
 
