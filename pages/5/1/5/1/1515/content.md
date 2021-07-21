@@ -33,7 +33,13 @@ Corecursion exploits the existence of a morphism from a [[coalgebra for an endof
 
    where $pred(x)$ is as defined at [[extended natural number]].
 
-   Then $(\bar{\mathbb{N}} \times \bar{\mathbb{N}}, add)$ is an $H$-coalgebra. The unique coalgebra morphism ${+}\colon \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to \bar{\mathbb{N}}$ (to the terminal coalgebra $\bar{\mathbb{N}}$) is addition on the extended natural numbers.
+   Then $(\bar{\mathbb{N}} \times \bar{\mathbb{N}}, add)$ is an $H$-coalgebra. The unique coalgebra morphism ${+}\colon \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to \bar{\mathbb{N}}$ (to the terminal coalgebra $\bar{\mathbb{N}}$) is addition on the extended natural numbers.  From this definition, we may read off these basic facts about $+$:
+
+* $n + m \gt 0$ with $pred(n + m) = pred(n) + m$ if $n \gt 0$,
+* $n + m \gt 0$ with $pred(n + m) = 0 + pred(m)$ if $n = 0$ and $m \gt 0$,
+* $n + m = 0$ if $n = 0$ and $m = 0$.
+
+(From the last two, it's immediate to prove by [[coinduction]] that $0 + m = m$ for all $m$.)
 
 
 ## Reference
@@ -41,6 +47,7 @@ Corecursion exploits the existence of a morphism from a [[coalgebra for an endof
 * Ji&#345;&#237; Ad&#225;mek, _Introduction to Coalgebra_ ([pdf](http://www.tac.mta.ca/tac/volumes/14/8/14-08.pdf))
 
 * Lawrence Moss, Norman Danner, _On the Foundations of Corecursion_ ([journal](http://jigpal.oxfordjournals.org/content/5/2/231), [pdf](ftp://ftp.cs.indiana.edu/pub/techreports/TR444.pdf))
+
 
 [[!redirects corecursion]]
 [[!redirects corecursive definition]]
