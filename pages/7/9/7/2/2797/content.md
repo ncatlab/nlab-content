@@ -52,12 +52,13 @@ The [[Picard 2-groupoid]] of a braided monoidal 2-category is a [[braided 3-grou
 
 * [[André Joyal]], [[Ross Street]], Section 5 of: _Braided tensor categories_, Adv. Math. **102** (1993), 20--78 ([doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055))
 
+* [[Mikhail Kapranov]], [[Vladimir Voevodsky]], *2-Categories and Zamolodchikov tetrahedra equations*, in: _Proc. Symp. Pure Math._ **56** Part 2 (1994), AMS, Providence, pp. 177--260 ([doi:10.1090/pspum/056.2](https://doi.org/10.1090/pspum/056.2))
 
-* Mikhail Kapranov and Vladimir Voevodsky, 2-Categories and Zamolodchikov tetrahedra equations, in _Proc. Symp. Pure Math._ **56** Part 2 (1994), AMS, Providence, pp. 177--260.
+* [[Mikhail Kapranov]], [[Vladimir Voevodsky]], *Braided monoidal 2-categories and Manin-Schechtman higher braid groups*, Journal of Pure and Applied Algebra Volume 92, Issue 3, 25 March 1994, Pages 241-267 (<a href="https://doi.org/10.1016/0022-4049(94)90097-3">doi:10.1016/0022-4049(94)90097-3</a>)
 
-* John Baez and Martin Neuchl, Higher-dimensional algebra I: braided monoidal 2-categories, <i>Adv. Math.</i> <b>121</b> (1996), 196-244.  ([pdf]( http://math.ucr.edu/home/baez/hda1.pdf))
+* [[John C. Baez]], [[Martin Neuchl]], *Higher-Dimensional Algebra I: Braided Monoidal 2-Categories*, Adv. Math. 121 (1996), 196-244 ([arXiv:q-alg/9511013](https://arxiv.org/abs/q-alg/9511013))
 
-* Sjoerd Crans, Generalized centers of braided and sylleptic monoidal 2-categories, _Adv. Math._ **136** (1998), 183-223.  ([pdf](http://www.sciencedirect.com/science/article/pii/S0001870898917200/pdf?md5=1fa4380913384da004def3f3441a61ac&pid=1-s2.0-S0001870898917200-main.pdf))
+* [[Sjoerd E. Crans]], Section 2.2. of: *Generalized Centers of Braided and Sylleptic Monoidal 2-Categories*, Advances in Mathematics, Volume 136, Issue 2, 25 June 1998, Pages 183-223 ([doi:10.1006/aima.1998.1720](https://doi.org/10.1006/aima.1998.1720))
 
 
 [[!redirects braided monoidal 2-categories]]
