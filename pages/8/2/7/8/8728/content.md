@@ -65,6 +65,14 @@ A _symmetric 2-group_ is a [[2-group]] equipped with the following equivalent st
 
   * [[abelian 3-group]]
 
+## References
+
+Under the name "symmetric cat-groups" and thought of as a sub-class of [[braided monoidal categories]], the notion of braided 2-groups is considered in:
+
+
+* [[M. Bullejos]], [[Pilar Carrasco]], [[Antonio M. Cegarra]], *Cohomology with coefficients in symmetric cat-groups. An extension of Eilenberg–MacLane's classification theorem*, Mathematical Proceedings of the Cambridge Philosophical Society , Volume 114 , Issue 1 , July 1993 , pp. 163 - 189 ([doi:10.1017/S0305004100071498](https://doi.org/10.1017/S0305004100071498))
+
+
 [[!redirects symmetric 2-groups]]
 
 [[!redirects abelian 2-group]]
