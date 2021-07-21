@@ -171,7 +171,7 @@ Talks on polynomial functors are available at
 
 A book in progress and a course on polynomial functors are available at
 
-* Nelson Niu & [[David Spivak]], _Polynomial Functors: A General Theory of Interaction_, Topos Institute, 15 July - 26 August 2021. ([website](https://topos.site/poly-course/), [pdf](https://github.com/ToposInstitute/poly/raw/main/Book-Poly.pdf))
+* [[David Spivak]], Nelson Niu, _Polynomial Functors: A General Theory of Interaction_, Topos Institute, 15 July - 26 August 2021. ([website](https://topos.site/poly-course/), [pdf](https://github.com/ToposInstitute/poly/raw/main/Book-Poly.pdf))
 
 Generalization to [[homotopy theory]] and [[higher category theory]] is discussed in 
 
@@ -186,16 +186,16 @@ Generalization to [[homotopy theory]] and [[higher category theory]] is discusse
 
 See also
 
-* [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_, Advances in Mathematics, vol 224, pages 2690--2737, (2010) ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033))
+* [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_, Advances in Mathematics, vol 224, 2010, pp 2690--2737. ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033))
 {#KJBM}
 
 * [[Yde Venema]], _Algebras and Coalgebras_, &#167;6 (p.332-426) in Blackburn, van Benthem, Wolter, _Handbook of modal logic_, Elsevier, 2007.
 
-* [[Mark Weber]], *Polynomials in categories with pullbacks*, [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
+* [[Mark Weber]], *Polynomials in categories with pullbacks*, Theory and Applications of Categories, Vol. 30, 2015, No. 16, pp 533-598. ([journal](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html))
 
-* Charles Walker, *Universal properties of polynomials*, [arxiv](https://arxiv.org/abs/1806.10477)
+* Charles Walker, *Universal properties of polynomials*, ([arXiv:1806.10477](https://arxiv.org/abs/1806.10477))
 
-* [[Ross Street]], *Polynomials as spans*, Cahiers LXI-2 (2020), [pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf)
+* [[Ross Street]], *Polynomials as spans*, Cahiers de topologie et géométrie différentielle catégoriques, Vol. LXI-2 (2020), pp 113-153 ([pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf))
 
 [[!redirects polynomial functor]]
 [[!redirects polynomial functors]]
