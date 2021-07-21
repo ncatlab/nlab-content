@@ -61,7 +61,7 @@ There is a [[periodic table]] of $k$-tuply groupal $n$-groupoids:
 The [[homotopy theory]] of $k$-tuply groupal $n$-groupoids is discussed in 
 
 
-* [[A.R. Garzón]], J.G. Miranda, _Serre homotopy theory in subcategories of simplicial groups_ Journal of Pure and Applied Algebra Volume 147, Issue 2, 24 March 2000, Pages 107-123 
+* [[A.R. Garzón]], J.G. Miranda, _Serre homotopy theory in subcategories of simplicial groups_, Journal of Pure and Applied Algebra Volume 147, Issue 2, 24 March 2000, Pages 107-123 (<a href="https://doi.org/10.1016/S0022-4049(98)00143-1">doi:10.1016/S0022-4049(98)00143-1</a>) 
 
 
 [[!redirects k-tuply groupal n-groupoid]]
