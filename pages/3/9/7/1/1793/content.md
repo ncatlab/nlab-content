@@ -855,6 +855,146 @@ Suppose $(\mathcal{G}, \mathcal{H})$ is a _weakly flat_ descent structure on $\m
 
 ## Properties
 
+### Properness
+ {#Properness}
+
+Model categories of chain complexes tend to be [[proper model categories]].
+
+\begin{prop}\label{PushoutAlongDegreewiseInjectionsPreservesQuasiIosmorphism}
+**([[pushout]] along degreewise [[injections]] presrves [[quasi-isomorphism]])** \linebreak
+  Let 
+  $$
+   \array{
+    A &\overset{\; i \;}{\longrightarrow}& B
+    \\
+    {}^{\mathllap{f}}
+    \big\downarrow
+    &{}^{{}_{(po)}}&
+    \big\downarrow {}^{\mathrlap{g}}
+    \\
+    C &\underset{\; j \;}{\longrightarrow}& D
+   }
+  $$
+  be a [[pushout]] [[commuting diagram|square]] of [[chain maps]] between (unbounded) [[chain complexes]], such that 
+
+* $i$ is a degreewise [[injection]];
+
+* $f$ is a [[quasi-isomorphism]].
+
+Then also $g$ is a [[quasi-isomorphism]].
+
+[[formal duality|Dually]], the [[pullback]] of a quasi-isomorphism along a degreewise [[surjection]] is again a quasi-isomorphism.
+\end{prop}
+(e.g. [Strickland 2020, Prop. 24](#Strickland20))
+\begin{proof}
+  The [[pushout]] of chain complexes is degreewise a pushout in the underlying [[abelian category]].
+  Since pushout in abelian categories preserves monomorphisms ([this Prop.](abelian+category#PullbackPreservesEpimorphisms)) it follows that also $j_n$ is a monomorphism. Finally, the [[pasting law]] implies that the induced morphism of [[cokernels]] of $i$ and $j$ is an [[isomorphism]]. In summary, this means that we have a [[commuting diagram]] of chain complexes as follows:
+  $$
+   \array{
+    A
+    &\overset{\;\;\; i \;\;\;}{\hookrightarrow}& 
+    B 
+    &\longrightarrow&
+    cok(i)
+    \\
+    {}^{\mathllap{f}}
+    \big\downarrow
+    &{}^{{}_{(po)}}&
+    \big\downarrow {}^{\mathrlap{g}}
+    &&
+    \big\downarrow {}^{\mathrlap{\simeq}}
+    \\
+    C
+    &\underset{\;\;\; j \;\;\;}{\hookrightarrow}& 
+    D
+    &\longrightarrow&
+    cok(j)
+    \,.
+   }
+  $$
+
+This implies a morphism of the corresponding [[long exact sequences in chain homology]] of the form:
+
+$$
+  \array{
+    \cdots
+    &\to&
+    H_{n+1}
+    \big(
+      cok(i)
+    \big)
+    &
+    \xrightarrow{\; \delta \;}
+    &
+    H_n(A)
+    &
+    \xrightarrow{\; i_\ast\;}
+    &
+    H_n(B)
+    &
+    \xrightarrow{\;\;\;}
+    &
+    H_n\big(cok(i)\big)
+    &
+    \xrightarrow{\;\delta\;}
+    &
+    H_{n-1}(A)
+    &
+    \to
+    &
+    \cdots  
+    \\
+    &&
+    {}^{\mathllap{}}
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{f_\ast}}
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{g_\ast}}
+    \big\downarrow
+    &&
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{f_\ast}}
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    \\
+    \cdots
+    &\to&
+    H_{n+1}
+    \big(
+      cok(j)
+    \big)
+    &
+    \xrightarrow{\; \delta \;}
+    &
+    H_n(C)
+    &
+    \xrightarrow{\; j_\ast\;}
+    &
+    H_n(D)
+    &
+    \xrightarrow{\;\;\;}
+    &
+    H_n\big(cok(j)\big)
+    &
+    \xrightarrow{\;\delta\;}
+    &
+    H_{n-1}(C)
+    &
+    \to
+    &
+    \cdots  
+  }
+$$
+From this the [[five lemma]] implies that $g_\ast$ is an isomorphism on [[chain homology]], hence that $g$ is a quasi-isomorphism.
+\end{proof}
+
+
 ### Left/right exact functors and Quillen adjunctions {#ExactFuncsAndQuillenFuncs}
 
 Let $\mathcal{A}$ and $\mathcal{B}$ be [[abelian categories]]. Let the [[categories of chain complexes]] $Ch_\bullet^+(\mathcal{A})$ and $Ch_\bullet^+(\mathcal{B})$ be equipped with the model structure described [above](#GeneralResults) where fibrations are the degreewise [[split monomorphism]]s with [[injective object|injective]] [[kernel]]s.
@@ -1062,8 +1202,6 @@ and are reviewed in
 ### For unbounded chain complexes
   {#ForUnboundedChainComplexes}
 
-Work specifically on model structures on unbounded complexes includes the following.
-
 Spaltenstein wrote a famous paper
 
 * N. Spaltenstein, _Resolutions of unbounded complexes_, Compositio Mathematica, 65 no. 2 (1988), p. 121-154 ([numdam](http://www.numdam.org/item?id=CM_1988__65_2_121_0))
@@ -1077,8 +1215,8 @@ shows that there is a model category structure on the category of unbounded chai
 
 The model structure on unbounded chain complexs with fibrations the degreewise surjections is noted in the remark after theorem 9.3.1 in
 
-* [[Mark Hovey]], J. Palmieri, [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610.
- {#HoveyPalmieriStrickland97}
+* {#HoveyPalmieriStrickland97} [[Mark Hovey]], J. Palmieri, [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610.
+ 
 
 and noticed as cofibrantly generated model structure on p. 7 of
 
@@ -1087,6 +1225,10 @@ and noticed as cofibrantly generated model structure on p. 7 of
 In the context of the [[Dold-Kan correspondence]] with the [[model structure on simplicial abelian groups]]:
 
 * {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376))
+
+Also:
+
+* {#Strickland20} [[Neil Strickland]], *The model structure for chain complexes* ([arXiv:2001.08955](https://arxiv.org/abs/2001.08955))
  
 
 A textbook account is around Theorem 2.3.11 of:
