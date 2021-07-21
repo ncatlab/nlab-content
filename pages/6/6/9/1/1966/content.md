@@ -4,7 +4,12 @@ Sjoerd Crans has mainly worked on aspects of the [[algebraic definition of highe
 Crans also made an influential contribution to the theory of [[models for ∞-stack (∞,1)-toposes]] in his study of the [[model structure on simplicial sheaves]].
 
 
-# Articles #
+## Selected writings
+
+On [[braided monoidal 2-categories]] and [[sylleptic monoidal 2-categories]]:
+
+* [[Sjoerd E. Crans]], *Generalized Centers of Braided and Sylleptic Monoidal 2-Categories*, Advances in Mathematics, Volume 136, Issue 2, 25 June 1998, Pages 183-223 ([doi:10.1006/aima.1998.1720](https://doi.org/10.1006/aima.1998.1720))
+
 
 A collection of articles by Sjoerd Crans is here:
 
@@ -27,3 +32,5 @@ A collection of articles by Sjoerd Crans is here:
 
 
 category: people
+
+[[!redirects Sjoerd E. Crans]]
