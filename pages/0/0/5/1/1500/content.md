@@ -128,15 +128,18 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 ## References ##
 
-Some classical references include
+Original articles:
 
-* [[P. Etingof]], D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
+* [[P. Etingof]], D. Nikshych and [[Victor Ostrik]], [On fusion categories](http://arxiv.org/abs/math/0203060).
 
 * [[Pavel Etingof]] and [[Damien Calaque]], [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
 
 * [[Michael Müger]], [Tensor categories: A selective guided tour](http://arxiv.org/abs/0804.3587).
 
 * [[Pavel Etingof]], D. Nikshych and V. Ostrik, _Fusion categories and homotopy theory_ ,  Quantum Topology, 1(2010), 209-273. (Earlier version available as [ArXiv:0909.3140](http://arxiv.org/PS_cache/arxiv/pdf/0909/0909.3140v2.pdf)
+
+* [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
+
 
 A review is also in chapter 6 of
 
