@@ -42,6 +42,7 @@ A _sylleptic 3-group_ is a [[3-group]] equipped with the following equivalent [[
 
 ## Related concepts
 
+* [[sylleptic monoidal 2-category]]
 
 * [[∞-group]], [[k-tuply groupal n-groupoid]]
 
