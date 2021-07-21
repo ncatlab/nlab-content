@@ -31,6 +31,8 @@ A **sylleptic $\infty$-group** is an [[∞-group]] $G$ equipped with the followi
 
 ## Related concepts
 
+* [[sylleptic monoidal 2-category]]
+
 * [[∞-group]], [[k-tuply groupal n-groupoid]]
 
 * [[May recognition theorem]]
@@ -50,3 +52,10 @@ A **sylleptic $\infty$-group** is an [[∞-group]] $G$ equipped with the followi
   * [[symmetric 2-group]]
 
 [[!redirects sylleptic ∞-groups]]
+
+[[!redirects sylleptic infinity-group]]
+[[!redirects sylleptic infinity-groups]]
+
+
+[[!redirects sylleptic n-group]]
+[[!redirects sylleptic n-groups]]
