@@ -99,8 +99,12 @@ By the second formulation of the definition \ref{AbelianCategory},  in an abelia
 
 It follows that every abelian category is a _[[balanced category]]_.
 
-
 =--
+
+\begin{prop}\label{PullbackPreservesEpimorphisms}
+  In an [[abelian category]], [[pullback]] preserves [[epimorphisms]] and [[pushout]] preserves [[monomorphisms]].
+\end{prop}
+Because every abelian category is a [[regular category]]. For an explicit proof see, e.g., [Selick, Prop. 1.3.13](#Selick).
 
 
 
@@ -262,7 +266,7 @@ Other classic references, now available online, include:
 * {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
   
 
-Textbook accounts include
+Textbook accounts:
 
 * A.J. Berrick and M.E. Keating, Categories and Modules, with K-theory in View, Cambridge studies in advanced mathematics Vol 67, Cambridge University Press 2000.
 
@@ -273,9 +277,13 @@ Textbook accounts include
 * {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 1 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
 ))
 
-Reviews include
+Reviews:
 
-* Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf](http://www-bcf.usc.edu/~lauda/teaching/rankeya.pdf))
+* Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf]
+(http://www-bcf.usc.edu/~lauda/teaching/rankeya.pdf))
+
+* {#Selick} Paul Selick, *Homological Algebra Notes* ([pdf](www.math.toronto.edu/selick/mat1352/1350notes.pdf), [[Selick_HomologicalAlgebra.pdf:file]])
+
 
 Embedding of abelian categories into [[Ab]] is discussed in
 
