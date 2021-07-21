@@ -15,6 +15,12 @@ On [[n-groups]] and [[homotopy types]]:
 
 * [[Pilar Carrasco]] and [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_, J. Pure Appl. Alg., 75, (1991), 195 &#8211; 235.
 
+On [[non-abelian cohomology]] with [[coefficients]] in [[braided 2-groups]] and [[symmetric 2-groups]]:
+
+* [[Manuel Bullejos]], [[Pilar Carrasco]], [[Antonio M. Cegarra]], *Cohomology with coefficients in symmetric cat-groups. An extension of Eilenberg–MacLane's classification theorem*, Mathematical Proceedings of the Cambridge Philosophical Society , Volume 114 , Issue 1 , July 1993 , pp. 163 - 189 ([doi:10.1017/S0305004100071498](https://doi.org/10.1017/S0305004100071498))
+
+
+
 On the [[diagonal of a bisimplicial set|diagonal]] of [[bisimplicial sets]]:
 
 * [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf), [doi:10.1016/j.topol.2004.12.003](https://doi.org/10.1016/j.topol.2004.12.003))
