@@ -47,7 +47,11 @@ The [[Picard 2-groupoid]] of a braided monoidal 2-category is a [[braided 3-grou
 
 ## References
 
+
 * {#Breen88} [[Lawrence Breen]], _Une lettre &#224; P. Deligne au sujet des $2$-cat&#233;gories tress&#233;es_ (1988) ([pdf](http://www.math.univ-paris13.fr/~breen/deligne.pdf))
+
+* [[André Joyal]], [[Ross Street]], Section 5 of: _Braided tensor categories_, Adv. Math. **102** (1993), 20--78 ([doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055))
+
 
 * Mikhail Kapranov and Vladimir Voevodsky, 2-Categories and Zamolodchikov tetrahedra equations, in _Proc. Symp. Pure Math._ **56** Part 2 (1994), AMS, Providence, pp. 177--260.
 
