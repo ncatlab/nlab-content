@@ -172,7 +172,7 @@ For $T$ a [[simplicial Lawvere theory]] (def. \ref{SimplicialLawvereTheory}) the
 
 This is due to ([Reedy 74, theorem I](#Reedy74)), reviewed in ([Schwede 01](#Schwede01)).
 
-The analogous statement with the [[classical model structure on simplicial sets]] replaced by the [[classical model structure on topological spaces]] is due to ([Schw&#228;nzl-Vogt 91](#Schw&#228;nzlVogt91)9
+The analogous statement with the [[classical model structure on simplicial sets]] replaced by the [[classical model structure on topological spaces]] is due to ([Schw&#228;nzl-Vogt 91](#Schw&#228;nzlVogt91))
 
 
 
@@ -334,7 +334,7 @@ The generalization to the case that the theory $T$ itself is allowed to be simpl
 
 and the topological version is due to
 
-* {#Schw&#228;nzlVogt91} [[Roland Schwänzl]], [[Rainer Vogt]], _The categories of $A_\infty$- and $E_\infty$-monoids and ring spaces as closed simplicial and topological model categories_, Archives of Mathematics 56 (1991) 405-411
+* {#Schw&#228;nzlVogt91} [[Roland Schwänzl]], [[Rainer Vogt]], _The categories of $A_\infty$- and $E_\infty$-monoids and ring spaces as closed simplicial and topological model categories_, Archives of Mathematics 56 (1991) 405-411 ([doi:10.1007/BF01198229](https://doi.org/10.1007/BF01198229))
 
 
 
