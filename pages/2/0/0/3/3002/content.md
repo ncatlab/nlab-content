@@ -85,11 +85,11 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 
 * an [[inequality space]] homomorphism is a [[strongly extensional function]]
 
+* [[homomorphism of L-infinity algebras|homomorphism of $L_\infty$-algebras]]
 
 ## Related concepts
 
 * homomorphisms are to [[functions]] as [[logical relations]] are to [[relations]]
-
 
 [[!redirects homomorphism]]
 [[!redirects homomorphisms]]
