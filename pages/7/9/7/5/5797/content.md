@@ -134,7 +134,7 @@ $$
 
 is a [[linear map]] that preserves the bidegree and all the brackets, in an evident sens.
 
-A _strong homotopy homomorphism_ ("sh map") of super $L_\infty$-algebras is something weaker than that, best defined in [[formal duality|formal duals]], below in def. \ref{SuperLInfinityCEAlgebra}.
+A _[[homomorphism of L-infinity algebras|strong homotopy homomorphism]]_ ("[[sh map]]") of super $L_\infty$-algebras is something weaker than that, best defined in [[formal duality|formal duals]], below in def. \ref{SuperLInfinityCEAlgebra}.
 
 =--
 
