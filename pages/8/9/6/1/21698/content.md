@@ -25,7 +25,7 @@
 
 The construction of [[algebraic K-theory]] $K(R)$, originally defined for [[rings]] $R$, generalizes to [[A-∞ ring|$A_\infty$]]-[[ring spectra]]. 
 When $R$ happens to be a [[connective spectrum|connective]] [[E-infinity ring|$E_\infty$]]-[[ring spectrum]], then also the [[Brown representability theorem|representing spectrum]] $K(R)$ of its algebraic K-theory is a [[connective spectrum|connective]] [[E-infinity ring|$E_\infty$]]-[[ring spectrum]]
-([Schwänzl & Vogt 1994, Thm. 1](#SchwaenzlVogt94), [EKMM 1997, Thm. 6.1](#EKMM97)) so that this construction may then be iterated to yield _iterated algebraic K-theories_ $K(K(R))$, $K(K(K(R)))$, etc.
+([Schwänzl & Vogt 1994, Thm. 1](#SchwaenzlVogt94), [EKMM 1997, Thm. 6.1](#EKMM97)) so that this construction may then be iterated ([Rognes 2014](#Rognes14)) to yield _iterated algebraic K-theories_ $K(K(R))$, $K(K(K(R)))$, etc.
 
 
 The [[red-shift conjecture]] says that this iteration plays a special role in [[chromatic homotopy theory]].
@@ -42,6 +42,8 @@ The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-
 
 ### Red-shift conjecture
 
+See at *[[red-shift conjecture]]*.
+
 ## References
 
 ### Algebraic K-theory of ring spectra
@@ -57,9 +59,14 @@ On the [[algebraic K-theory]] of ([[connective spectrum|connective]]) [[ring spe
 
 * [[Jacob Lurie]], _Algebraic K-Theory of Ring Spectra_, Lecture 19 of _[Algebraic K-Theory and Manifold Topology](https://www.math.ias.edu/~lurie/281.html)_, 2014 ([pdf](http://people.math.harvard.edu/~lurie/281notes/Lecture19-Rings.pdf))
 
-The  algebraic K-theory of specifically of [[suspension spectra]] of [[loop spaces]] (Waldhausen's _[[A-theory]]_) is originally due to
+The  algebraic K-theory specifically of [[suspension spectra]] of [[loop spaces]] (Waldhausen's _[[A-theory]]_) is originally due to
 
 * [[Friedhelm Waldhausen]], _Algebraic K-theory of spaces_, In: A. Ranicki N.,  Levitt, F. Quinn (eds.), Algebraic and Geometric Topology, Lecture Notes in Mathematics, vol 1126. Springer, Berlin, Heidelberg (1985) ([doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449))
+
+On the iteration of the construction and the [[red-shift conjecture]]:
+
+* {#Rognes14} [[John Rognes]], _Chromatic redshift_, lecture notes, MSRI 2014 ([arXiv:1403.4838](https://arxiv.org/abs/1403.4838))
+
 
 
 On the [[algebraic K-theory]] $K(R)$ of a [[ring spectrum]] $R$ as the [[Grothendieck group]] of [[(∞,1)-module bundles]] over $R$: 
