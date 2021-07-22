@@ -16,7 +16,7 @@ Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and
 
 Survey of [[homotopy theory]] from [[homotopical categories]] to [[(∞,1)-categories]]:
 
-* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *Stable categories and structured ring spectra*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
+* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
 
 
 On [[transferred model structures]] and [[model structures on functors]]:
