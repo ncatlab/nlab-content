@@ -78,7 +78,7 @@ The notion of _absolute neighbourhood retract_ is due to
 
 Further development:
 
-* [[Olof Hanner]], _Some theorems on absolute neighbourhood retracts_, Akriv F&ouml;r Matematik Band 1 nr 30 (1950) ([doi:10.1007/BF02591376](https://doi.org/10.1007/BF02591376))
+* [[Olof Hanner]], _Some theorems on absolute neighbourhood retracts_, Arkiv F&ouml;r Matematik Band 1 nr 30 (1950) ([doi:10.1007/BF02591376](https://doi.org/10.1007/BF02591376))
 
 * {#Dugundji52} J. Dugundji, _Note on CW polytopes_, Portugaliae mathematica (1952) **11** 1 (1952) 7-10-b ([dml:114693](https://eudml.org/doc/114693))
 
