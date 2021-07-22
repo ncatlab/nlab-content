@@ -72,7 +72,7 @@ Conversely via the [[Brown representability theorem]] a spectrum representing a 
 
 
 
-## Reference
+## References
 
 The notion of (commutative) homotopy ring spectra, i.e. ([[commutative monoid|commutative]]) [[monoids]] in the [[stable homotopy category]] with respect to the [[smash product of spectra]]:
 
@@ -84,13 +84,15 @@ Review:
 
 * [[John Michael Boardman]], Sections 3,7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
+* {#BakerRichter04} [[Andrew Baker]], [[Birgit Richter]] _Structured ring spectra_, London Mathematical Society Lecture Notes Series 315, Springer 2004 ([ISBN:9780521603058](https://www.cambridge.org/de/academic/subjects/mathematics/algebra/structured-ring-spectra?format=PB))
+
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Appendix C.2 of: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
 * {#Malkiewich14} [[Cary Malkiewich]], section 1.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
 * [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]] -- [Homotopy ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra)_, 2016
 
-* [[Birgit Richter]], _Commutative ring spectra_ ([arXiv:1710.02328](https://arxiv.org/abs/1710.02328))
+* [[Birgit Richter]], _Commutative ring spectra_ ([arXiv:1710.02328](https://arxiv.org/abs/1710.02328), [pdf](https://www.math.uni-hamburg.de/home/richter/rev-commringspectra.pdf)), in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press.
 
 
 On [[H-infinity ring spectra]]:
@@ -110,9 +112,6 @@ Discussion of ring spectra as rings with respect to the [[symmetric smash produc
 
 * {#EKMM} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
-See also
-
-* {#BakerRichter} [[Andrew Baker]], [[Birgit Richter]] _Structured ring spectra_, London Mathematical Society Lecture Notes Series 315, Springer 2004
 
 A comprehensive account for [[symmetric spectra]] is in
 
