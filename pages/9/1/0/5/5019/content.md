@@ -1,7 +1,14 @@
-_Sergei Merkulov_ is a mathematician in Stockholm. He is working on [[operad]]s, [[homotopy algebra]]s, [[deformation theory]], [[quantization]] and related questions. 
 
-* [webpage](http://www2.math.su.se/~sm)
+_Sergei Merkulov_ is a mathematician working on [[operads]], [[homotopy algebras]], [[deformation theory]], [[quantization]] and related questions. 
+
+* [institute page](https://wwwfr.uni.lu/recherche/fstm/dmath/people/sergei_merkulov)
+
+## Selected writings
+
+(...)
 
 category: people
+
 [[!redirects S. A. Merkulov]]
 [[!redirects S. Merkulov]]
+[[!redirects Sergei A. Merkulov]]
