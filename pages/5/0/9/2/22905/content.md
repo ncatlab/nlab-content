@@ -4,7 +4,7 @@
 
 ## Idea
 
-In [[deep learning]] and [[game theory]], we usually think of neural networks/economic agents as processes taking in an input $A$ and producing an output $B$. However, we additionally want to model that these processes have extra, "hidden" inputs. In neural networks we call these _weights_ (or _parameters_) and in game theory we call these _strategies_.
+In [[deep learning]] and [[game theory]], we usually think of neural networks/economic agents as processes taking in an input $A$ and producing an output $B$. However, we additionally want to model that these processes have extra, "hidden" inputs not available to the outside world. In neural networks we call these _weights_ (or _parameters_) and in game theory we call these _strategies_.
 
 In other words, we want to form a category where a morphism $A \to B$ contains the data of a) a _parameter space_ $P$ and b) a morphism $f : P \otimes A \to B$. From this description we see that this construction necessitates a choice of some underlying monoidal category $\mathcal{C}$.
 
@@ -16,7 +16,7 @@ This gives us an intuitive way to compose parameterised maps:
 
 <img src="/nlab/files/para_comp2.gif" width="500"/>
 
-This construction is called $\mathbf{Para}(\mathcal{C})$, originally introduced in ([Backprop as Functor](#FongSpivakTuyeras2017)) in a specialised form; then succesively refined in ([Categorical Foundations of Gradient-based learning](#Cruttwell2021)), ([Towards Foundations of Categorical Cybernetics](#CatCyber)).
+This construction is called $\mathbf{Para}(\mathcal{C})$, originally introduced in ([Backprop as Functor](#FongSpivakTuyeras2017)) in a specialised form; then succesively refined in ([Compositional Deep Learning](#CompDL)), ([Categorical Foundations of Gradient-based learning](#Cruttwell2021)), ([Towards Foundations of Categorical Cybernetics](#CatCyber)).
 
 ## Definition 
 
@@ -58,4 +58,6 @@ When the base category is set to be the category of [[optics (in computer scienc
 
 * {#Cruttwell2021} G.S.H. Cruttwell, Bruno Gavranović, [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
 
-* {#CatCyber} Matteo Capucci, Bruno Gavranovć,Jules Hedges, Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:201506332](https://arxiv.org/pdf/2105.06332.pdf))
+* {#CatCyber} Matteo Capucci, Bruno Gavranovć,Jules Hedges, Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:2015.06332](https://arxiv.org/pdf/2105.06332.pdf))
+
+* {#CompDL} Bruno Gavranović, _Compositional Deep Learning_, ([arXiv:1907.08292](https://arxiv.org/abs/1907.08292))
