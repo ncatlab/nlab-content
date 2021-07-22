@@ -84,7 +84,9 @@ The analogous statement with the [[classical model structure on simplicial sets]
 
 * {#Reedy74} [[Christopher Reedy]], _Homology of algebraic theories_, Ph.D. Thesis, University of California, San Diego, 1974
 
-* {#Schw&#228;nzlVogt91} [[Roland Schwänzl]], [[Rainer Vogt]], _The categories of $A_\infty$- and $E_\infty$-monoids and ring spaces as closed simplicial and topological model categories_, Archives of Mathematics 56 (1991) 405-411
+* {#Schw&#228;nzlVogt91} [[Roland Schwänzl]], [[Rainer Vogt]], _The categories of $A_\infty$- and $E_\infty$-monoids and ring spaces as closed simplicial and topological model categories_, Archives of Mathematics 56 (1991) 405-411 ([doi:10.1007/BF01198229](https://doi.org/10.1007/BF01198229))
+
+  > (the [[model structure on simplicial algebras]])
 
 * {#Schwede01} [[Stefan Schwede]], _Stable homotopy of algebraic theories_, Topology 40 (2001) 1-41 ([pdf](http://www.math.uni-bonn.de/people/schwede/stable.pdf))
 
