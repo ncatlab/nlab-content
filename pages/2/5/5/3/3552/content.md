@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -202,8 +203,7 @@ e.g [Hess 06, prop 1.18](#Hess06).
 +-- {: .num_theorem #SullivanRationalizationEquivalence}
 ###### Theorem
 
-Consider the [[adjunction]] of [[derived functors]]
-
+Consider the [[derived adjunction]] 
 $$
   Ho(Top)
    \simeq
@@ -215,7 +215,7 @@ $$
   Ho( (dgcAlg_{\mathbb{Q}, \geq 0})^{op} )
 $$
 
-induced from the [[Quillen adjunction]] 
+induced from the of the [[PL de Rham complex]]-[[Quillen adjunction]] 
 
 $$
   (dgcAlg_{\mathbb{Q}, \geq 0}_{proj})^{op}
@@ -226,10 +226,9 @@ $$
   sSet_{Quillen}
 $$
 
-([this theorem](rational+homotopy+theory#SullivanRationalizationAdjunction)).
+([this theorem](rational+homotopy+theory#SullivanRationalizationAdjunction)). 
 
-
-Then: On the [[full subcategory]] $Ho(Top_{\mathbb{Q}, \geq 1}^{fin})$ of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] this adjunction restricts to an [[equivalence of categories]]
+Then: On the [[full subcategory]] $Ho(Top_{\mathbb{Q}, \geq 1}^{fin})$ of [[nilpotent topological space|nilpotent]] [[rational topological spaces]] of [[finite type]] this adjunction restricts to an [[equivalence of categories]]
 
 $$
   Ho(Top_{\mathbb{Q}, \gt 1}^{fin})
@@ -241,7 +240,7 @@ $$
   \,.
 $$
 
-In particular the [[adjunction unit]]
+In particular the [[derived adjunction unit]]
 
 $$
   X \longrightarrow K_{poly}(\Omega^\bullet_{pwpoly}(X))
@@ -252,7 +251,7 @@ exhibits the [[rationalization]] of $X$.
 =--
 
 
-This is a central theorem of [[rational homotopy theory]], see for instance  [Hess 06, corollary 1.26](#Hess06).
+This is the [[fundamental theorem of dgc-algebraic rational homotopy theory]], see there for more.
 
 It follows that the [[cochain cohomology]] of the cochain complex of [[piecewise polynomial differential forms]] on any topological, hence equivalently that of any of its [[Sullivan models]], coincides with its [[ordinary cohomology]] with coefficients in the [[rational numbers]]:
 
@@ -277,6 +276,15 @@ between the [[homotopy groups]] of $X$ and the generators of the minimal Sulliva
 e.g. [Hess 06, theorem 1.24](#Hess06).
 
 
+### Relation to nilpotent $L_\infty$-algebras
+
+Under the [[formal duality]] between [[L-∞ algebras|$L_\infty$-algebras]] and their [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[dgc-algebras]], 
+the connected Sullivan models
+correspond [[bijection|bijectively]] 
+to 
+[[connective]] 
+[[nilpotent L-infinity algebra|nilpotent $L_\infty$-algebras]]
+([Berglund 2015, Thm. 2.3](#Berglund15)).
 
 
 
@@ -333,6 +341,11 @@ Review and application:
 * {#Menichi13} [[Luc Menichi]], _Rational homotopy -- Sullivan models_, IRMA Lect. Math. Theor. Phys., EMS ([arXiv:1308.6685](https://arxiv.org/abs/1308.6685))
 
 * {#FelixHalperin17} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
+
+Dual interpretation  as 
+[[nilpotent L-infinity algebra|nilpotent $L_\infty$-algebras]]:
+
+* {#Berglund15} [[Alexander Berglund]], Def. 2.1 in: _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_,  Homology, Homotopy and Applications, Volume 17 (2015) Number 2 ([arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16))
 
 
 [[!redirects Sullivan models]]
