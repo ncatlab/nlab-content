@@ -8,7 +8,9 @@ The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-
 
 * {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_, Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
-These authors were following [Zwiebach 92](#Zwiebach92), who had found in his work on [[closed string field theory]] that the [[n-point functions]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with such a structure. Zwiebach in turn was following the [[BV-formalism]] due to [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83)
+* {#Kontsevich97} [[Maxim Kontsevich]], Section 4.3 of: *Deformation quantization of Poisson manifolds, I*,  Lett. Math. Phys. **66** (2003) 157-216 ([arXiv:q-alg/9709040](https://arxiv.org/abs/q-alg/9709040), [doi:10.1023/B:MATH.0000027508.00421.bf](https://doi.org/10.1023/B:MATH.0000027508.00421.bf))
+
+At least [Lada & Stasheff 92](#LadaStasheff92) were following [Zwiebach 92](#Zwiebach92), who had found in work on [[closed string field theory]] that the [[n-point functions]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with $L_\infty$-algebra structure (see further reference [there](string+field+theory#ReferencesHomotopyAlgebra)). Zwiebach, in turn, was following the [[BV-formalism]] due to [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83)
 
 See also at _[L-infinity algebra -- History](L-infinity-algebra#History)_.
 
@@ -149,7 +151,7 @@ For more see at _[string field theory -- References -- Relation to A-infinity an
 
 The general solution of the [[deformation quantization]] problem of [[Poisson manifolds]] due to 
 
-* {#Kontsevich97} [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, ([arXiv:q-alg/9709040](http://arxiv.org/abs/q-alg/9709040)).
+* [Kontsevich 97](#Kontsevich97)
  
 makes crucial use of [[L-∞ algebra]]. Later it was understood that indeed [[L-∞ algebras]] are equivalently the universal model for infinitesimal [[deformation theory]] (of anything), also called [[formal moduli problems]]:
 
