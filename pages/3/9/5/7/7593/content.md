@@ -5,11 +5,11 @@
 
 On [[iterated algebraic K-theory]] and the [[red-shift conjecture]]:
 
-* {#Rognes99} [[John Rognes]], _Algebraic K-theory of finitely presented ring spectra_, lecture at Schloss Ringberg, Germany, January 1999 ([pdf](http://folk.uio.no/rognes/papers/red-shift.pdf))
+* {#Rognes99} [[John Rognes]], _Algebraic K-theory of finitely presented ring spectra_, lecture at Schloss Ringberg, Germany, January 1999 ([pdf](https://www.mn.uio.no/math/personer/vit/rognes/papers/red-shift.pdf), [[Rognes_AlgebraicKTheoryOfRingSpectra.pdf:file]])
 
-* {#Rognes00} [[John Rognes]], _Algebraic K-theory of finitely presented ring spectra_, Oberwolfach talk September 2000 (OWF abstract [pdf](http://oda.mfo.de/show/mfo/oda/Vortragsbuch/800/E20_00127/VB_SE20_00127_N126_P034.jpg))
+* {#Rognes00} [[John Rognes]], _Algebraic K-theory of finitely presented ring spectra_, Oberwolfach talk September 2000 (OWF abstract [[Rognes_AlgebraicKTheoryOfRingSpectra_OWF.pdf:file]])
 
-* [[Christian Ausoni]], [[John Rognes]], _The chromatic red-shift in algebraic K-theory_, Enseign. Math. (2) 54 (2008), 9-11. ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/gmconj-AR.pdf), [[AusoniRognesRedShiftInAlgebraicKTheory.pdf:file]])
+* [[Christian Ausoni]], [[John Rognes]], _The chromatic red-shift in algebraic K-theory_, Enseign. Math. (2) 54 (2008), 9-11. ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/gmconj-AR.pdf), [[AusoniRognesRedShiftInAlgebraicKTheory.pdf:file]], [doi:10.5169/seals-109873](http://doi.org/10.5169/seals-109873))
 
 On the first [[algebraic K-theory]] $K(ku)$ of [[topological K-theory]] ([[iterated algebraic K-theory]]):
 
@@ -27,6 +27,8 @@ Interpretation of [[algebraic K-theory]] of [[topological K-theory]] ([[iterated
 ## Related $n$Lab entries
 
 * [[red-shift conjecture]]
+
+* [[iterated algebraic K-theory]]
 
 
 category: people
