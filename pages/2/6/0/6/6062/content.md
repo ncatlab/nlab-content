@@ -146,7 +146,7 @@ The following tabulates the main categories considered below, the functors relat
 
 |  [[L-∞ algebras]] | form [[Chevalley-Eilenberg algebra]] | [[pro-objects]] in commutative [[Artin algebra|Artin]] [[dg-algebras]] | dualize | commutative [[dg-coalgebra]] | form [[tangent space|tangents]] | [[dg-Lie algebras]] |
 |--|--|--|--|--|--|--|
-| $L_\infty Alg$ | $\stackrel{CE}{\hookrightarrow}$ | $Pro(dgArtinCAlg)^{op} $ | $\stackrel{(-)^*}{\hookrightarrow}$ | $dgCoCAlg$ | $\stackrel{\mathcal{L}}{\to}$ | $dgLieAlg$ | 
+| $L_\infty Alg$ | $\stackrel{CE}{\hookrightarrow}$ | $Pro(dgArtinCAlg)^{op} $ | $\underoverset{\;\simeq\;}{(-)^*}{\longrightarrow}$ | $dgCoCAlg$ | $\stackrel{\mathcal{L}}{\to}$ | $dgLieAlg$ | 
 |    |     | $=: dgFormalSpace$ |   |  | | |
 | [[category of fibrant objects]] | [[equivalence of (∞,1)-categories]] under [[simplicial localization]] |  [[opposite model structure]] of [[cofibrantly generated model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[cofibrantly generated model category|cofibrantly generated]] [[model category]] |
 | prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} | def. \ref{ChevalleyEilenbergAlgebraConstruction} | def. \ref{dgFormalSpace} | prop. \ref{DualizingInclusionOfDGFormalSpaceIntoDgCoalgebras} | def. \ref{DGCoalgebrasCategory} |  prop. \ref{LeftAdjointFromDgCoAlgToDgAlg} | def. \ref{dgLieAlgebraCategory} |
@@ -239,7 +239,7 @@ $$
 
 =--
 
-([Quillen, App. B6](#Quillen)) ([Hinich98, 1.2.1, 2.2.5](#Hinich98)) See also ([Pridham, def. 3.23](#Pridham)).
+([Quillen 69, App. B6](#Quillen69), [Hinich98, 1.2.1, 2.2.5](#Hinich98), see also [Pridham, def. 3.23](#Pridham)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -309,7 +309,7 @@ from def. \ref{SendingDGLieAlgebraToDgCoalgebra} sends [[quasi-isomorphisms]] on
 ([Lurie, prop. 2.2.6](#Lurie))
 
 
-+-- {: .num_prop}
++-- {: .num_prop #QuillenEquivalenceBetweendgLieAnddgCoCAlg}
 ###### Proposition
 
 The pair of [[adjoint functors]]
@@ -326,7 +326,7 @@ from prop. \ref{LeftAdjointFromDgCoAlgToDgAlg} constitutes a [[Quillen equivalen
 
 =--
 
-([Hinich98, theorem 3.2](#Hinich98))
+([Hinich 1998, theorem 3.2](#Hinich98))
 
 +-- {: .num_remark}
 ###### Remark
@@ -544,10 +544,14 @@ which regards an [[L-infinity algebra]] $\mathfrak{g}$ as a [[dg-coalgebra]] by 
 +-- {: .num_prop #LInfinityAlgebraIsFibrantObjectIndgFormalSpace}
 ###### Proposition
 
-$L_\infty$-algebras are precisely the [[fibrant objects]] in $dgFormalSpace$: the [[Chevalley-Eilenberg algebra]] [[functor]] of def. \ref{ChevalleyEilenbergAlgebraConstruction},
+$L_\infty$-algebras are precisely the [[fibrant objects]] in $dgFormalSpace$ (hence in the [[model structure on dg cocommutative coalgebras]], by [Pridham Cor. 4.56](#Pridham)): the [[Chevalley-Eilenberg algebra]] [[functor]] of def. \ref{ChevalleyEilenbergAlgebraConstruction},
 
 $$
-  L_\infty Alg \stackrel{CE}{\to} Pro(dgArtinCAlg_k)^{op} \simeq dgFormalSpace
+  L_\infty Alg 
+    \stackrel{CE}{\to} 
+  Pro(dgArtinCAlg_k)^{op} 
+    \simeq 
+  dgFormalSpace
 $$
 
 is an [[equivalence of categories]] onto its [[essential image]], which are the [[fibrant objects]] of $dgFormalSpace$:
@@ -790,6 +794,8 @@ Recognizing [[homotopy fiber products]] in any of the model structure above can 
 
 ## Related concepts
 
+* [[relation between L-∞ algebras and dg-Lie algebras]]
+
 * [[model structure on dg-coalgebras]]
 
 * [[model structure on dg-Lie algebras]]
@@ -808,7 +814,7 @@ Recognizing [[homotopy fiber products]] in any of the model structure above can 
 
 Precursors for 2-reduced dg-algebras are dicussed in 
 
-* {#Quillen} [[Daniel Quillen]], _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295.
+* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
  
 
 The homotopy-theoretic nature of $L_\infty$-algebras and their relation to deformation problems was then notably amplified in 
