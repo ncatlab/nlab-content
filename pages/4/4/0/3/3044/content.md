@@ -269,6 +269,6 @@ Review with discussion of [[homotopy limits]] and [[homotopy colimits]] is in
 
 [[!redirects model stucture on dg-coalgebras]]
 
-
+[[!redirects model structure on dg cocommutative coalgebras]]
 
 
