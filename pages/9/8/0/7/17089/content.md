@@ -1,6 +1,6 @@
 ### General
 
-The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-ary brackets satisfying a generalized [[Jacobi identity]] was introduced in generality in
+The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-ary brackets satisfying a generalized [[Jacobi identity]] is due to:
 
 * {#Stasheff92} [[Jim Stasheff]], _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_ Number 1510 in Lecture Notes in Math. Springer, Berlin, 1992 ([doi:10.1007/BFb0101184](https://doi.org/10.1007/BFb0101184)).
 
@@ -10,13 +10,15 @@ The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-
 
 * {#Kontsevich97} [[Maxim Kontsevich]], Section 4.3 of: *Deformation quantization of Poisson manifolds, I*,  Lett. Math. Phys. **66** (2003) 157-216 ([arXiv:q-alg/9709040](https://arxiv.org/abs/q-alg/9709040), [doi:10.1023/B:MATH.0000027508.00421.bf](https://doi.org/10.1023/B:MATH.0000027508.00421.bf))
 
-At least [Stasheff 92](#Stasheff92) was following [Zwiebach 92](#Zwiebach92), who had found in work on [[closed string field theory]] that the [[n-point functions]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with $L_\infty$-algebra structure (see further reference [there](string+field+theory#ReferencesHomotopyAlgebra)). Zwiebach, in turn, was following the [[BV-formalism]] due to [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83)
+At least [Stasheff 92](#Stasheff92) was following [Zwiebach 92](#Zwiebach92), who had observed that the [[n-point functions]] in [[closed string field theory]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with $L_\infty$-algebra structure (see further reference [there](string+field+theory#ReferencesHomotopyAlgebra)). Zwiebach, in turn, was following the [[BV-formalism]] due to [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83).
 
 See also at _[L-infinity algebra -- History](L-infinity-algebra#History)_.
 
-A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
+Discussion in terms of [[cofibrant resolutions]] of the [[Lie operad]]:
 
-* {#KrizMay} [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
+* {#KrizMay95} [[Igor Kriz]], [[Peter May]], p. 28 of: _Operads, algebras, modules and motives_, Ast&#233;risque __233__, Soci&#233;t&#233; Math&#233;matique de France (1995) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf), [numdam:AST_1995__233__1_0](http://www.numdam.org/item/?id=AST_1995__233__1_0))
+
+* {#LodayVallette12} [[Jean-Louis Loday]], [[Bruno Vallette]], Sec. 3.2.12 and onwards in: *Algebraic Operads*, Grundlehren der mathematischen Wissenschaften **346**, Springer 2012 ([ISBN 978-3-642-30362-3](https://www.springer.com/gp/book/9783642303616), [pdf](http://irma.math.unistra.fr/~loday/PAPERS/LodayVallette.pdf))
 
 A historical survey is
 
