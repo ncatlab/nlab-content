@@ -254,7 +254,7 @@ Discussion in differentially cohesive [[homotopy type theory]] is in
 
 A nice elementary introduction which emphasizes calculations and the application as _engineering mathematics_ can be found in
 
-* [[John Lane Bell]], _A Primer of Infinitesimal Analysis_ , Cambridge UP 1998.
+* [[John Lane Bell]], _A Primer of Infinitesimal Analysis_, Cambridge UP 1998 ([ISBN:9780521887182](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/primer-infinitesimal-analysis-2nd-edition?format=HB&isbn=9780521887182))
 
 The textbooks 
 
