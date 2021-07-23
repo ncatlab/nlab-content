@@ -18,9 +18,9 @@
 
 The **well-ordering theorem** is a famous result in [[set theory]] stating that every [[set]] may be [[well-order|well-ordered]].
 
-Fundamental for [[Georg Cantor| G. Cantor's]] approach to [[ordinal arithmetic]] it was an open problem until [[Ernst Zermelo|E. Zermelo]] gave a [[proof]] in 1904 using the [[axiom of choice]] (to which it is in fact equivalent if one admits the principle of [[excluded middle]]).
+Fundamental for [[Georg Cantor| G. Cantor's]] approach to [[ordinal arithmetic]] it was an open problem until [[Ernst Zermelo|E. Zermelo]] gave a [[proof]] in 1904 using the [[axiom of choice]] (to which it is in fact equivalent).
 
-Hence, [[classical mathematics|classically]], the well-ordering theorem is one of the many equivalent formulations of the [[axiom of choice]] like also e.g. [[Zorn's lemma]].
+Hence the well-ordering theorem is one of the many equivalent formulations of the [[axiom of choice]] like also e.g. [[Zorn's lemma]].
 
 ## Statement and proof 
 
