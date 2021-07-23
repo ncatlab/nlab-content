@@ -20,7 +20,7 @@
 
 ## Idea
 
-[[dg-Lie algebras]] may be thought of as the "strict" [[strong homotopy Lie algebras]]. As such they support a [[homotopy theory]]. The _[[model category]]_ structure on dg-Lie algebras is one way to present this homotopy theory. This is used for instance in [[deformation theory]], see at _[[formal moduli problems]]_.
+[[dg-Lie algebras]] may be thought of (see [[relation between L-∞ algebras and dg-Lie algebras|here]]) as the "strict" [[strong homotopy Lie algebras]]. As such they support a [[homotopy theory]]. The _[[model category]]_ structure on dg-Lie algebras is one way to present this homotopy theory. This is used for instance in [[deformation theory]], see at _[[formal moduli problems]]_.
 
 For dg-Lie algebras in positive degree and over the rational numbers this model structure, due to ([Quillen 69, theorem II](#Quillen69)) is one of the algebraic models for presenting [[rational homotopy theory]] (see there) of [[simply connected topological spaces]].
 
@@ -87,6 +87,7 @@ between [[dg-coalgebras]] and dg-Lie algebras, where the [[right adjoint]] is th
 
 In particular, therefore the composite $i \circ \mathcal{R}$ is a [[resolution]] functor for $L_\infty$-algebras.
 
+For more see at *[[relation between L-∞ algebras and dg-Lie algebras]]*.
 
 ### Relation to dg-coalgebras
  {#RelationToDgCoalgebras}
@@ -253,6 +254,8 @@ The [[normalized chains complex]] functor from [[simplicial Lie algebras]] const
 * [[model structure on simplicial Lie algebras]]
 
 * [[model structure for L-∞ algebras]]
+
+* [[relation between L-∞ algebras and dg-Lie algebras]]
 
 ## References
 
