@@ -20,7 +20,7 @@
 
 ## Idea
 
-There are two notions of [[homomorphism]] of [[L-∞ algebras|$L_\infty$-algebras]], one a special case of the other, depending on there [[homotopy theory|homotopy theoretic]] perspective:
+There are two notions of [[homomorphism]] of [[L-∞ algebras|$L_\infty$-algebras]], one a special case of the other, depending on the [[homotopy theory|homotopy theoretic]] perspective:
 
 If an [[L-∞ algebra|$L_\infty$]]-algebra $\mathfrak{g} = (V_\bullet, [\cdots])$ is regarded as a [[chain complex]]  $V_\bullet$ equipped with higher-[[arity|ary]]-bracket operations $[\cdots]$, then a homomorphism $\mathfrak{g} \xrightarrow{\;\;} \mathfrak{g}'$ is a [[chain map]] $V_\bullet \xrightarrow{\;\;} V'_\bullet$ which is compatible with the bracket operations.
 
@@ -45,7 +45,7 @@ These homotopy-correct homomorphisms of $L_\infty$-algebras are known under a va
 
 * "weak maps" 
 
-  ([Lada & Markl 1994, Rem. 5.4](#LadaMarkl94)),
+  ([Lada & Markl 1994, Rem. 5.3](#LadaMarkl94)),
 
 * "$L_\infty$-morphisms" 
    
@@ -60,7 +60,7 @@ These homotopy-correct homomorphisms of $L_\infty$-algebras are known under a va
 
 * {#Merkulov02} [[Sergei A. Merkulov]], *Operads, deformation theory and $F$-manifolds* ([arXiv:math/0210478](https://arxiv.org/abs/math/0210478))
 
-See also:
+The terminology "strong homotopy" for the homotopy-coherent morphisms was originally borrowed from:
 
 * {#Sugawara60} [[Masahiro Sugawara]], *On the homotopy-commutativity of groups and loop spaces*, Mem. College Sci. Univ. Kyoto Ser. A Math. 33(2): 257-269 (1960) ([DOI:10.1215/kjm/1250775911](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-33/issue-2/On-the-homotopy-commutativity-of-groups-and-loop-spaces/10.1215/kjm/1250775911.full))
 
