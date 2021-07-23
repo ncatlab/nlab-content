@@ -109,6 +109,14 @@ and for the [[model structure for excisive functors|excisive-functor-type model 
  
 * [[Bjørn Ian Dundas]], [[Oliver Röndigs]], [[Paul Arne Østvær]], _Enriched functors and stable homotopy theory_,  Doc. Math., 8:409&#8211;488, 2003 ([EuDML](https://eudml.org/doc/123650))
 
+
+Review:
+
+* [[Daniel Dugger]], *Stable categories and spectra via model categories* ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf)), in:  [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press
+
+
+
+
 [[!redirects model structures on spectra]]
 
 [[!redirects model category of spectra]]
