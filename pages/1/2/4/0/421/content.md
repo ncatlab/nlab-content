@@ -356,8 +356,8 @@ The [[orientals]] relate simplices to [[globes]].
 
 * [[Delta-generated space]]
 
-[[!redirects simplices]]
 
+[[!redirects simplices]]
 
 [[!redirects simplicial simplex]]
 [[!redirects cellular simplex]]
@@ -382,6 +382,13 @@ The [[orientals]] relate simplices to [[globes]].
 [[!redirects 3-simplex]]
 [[!redirects 3-simplices]]
 
-
 [[!redirects n-simplex]]
 [[!redirects n-simplices]]
+
+[[!redirects topological n-simplex]]
+[[!redirects topological n-simplices]]
+
+[[!redirects geometric n-simplex]]
+[[!redirects geometric n-simplices]]
+
+
