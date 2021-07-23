@@ -190,6 +190,10 @@ arXiv:[0911.0068](http://arxiv.org/abs/0911.0068).
 
 * {#Bauer-Lumsdaine_13} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _On the Bourbaki-Witt Principle in Toposes_, Math. Proc. Cam. Phil. Soc. 155 (2013), no. 1, 87-99 doi:[10.1017/S0305004113000108](http://dx.doi.org/10.1017/S0305004113000108), arXiv:[1201.0340](http://arxiv.org/abs/1201.0340).
 
+On Zorn's lemma and [[Boolean algebra]] in [[intuitionistic type theories]]:
+
+* {#Bell} [[John Lane Bell]], *Zorn’s lemma and complete Boolean algebras in intuitionistic type theories*, The Journal of Symbolic Logic, 62(4):1265–1279, 1997 ([doi:10.2307/2275642](https://doi.org/10.2307/2275642))
+
 
 [[!redirects Zorn lemma]]
 [[!redirects Zorn's lemma]]
