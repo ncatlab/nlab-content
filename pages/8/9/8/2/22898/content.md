@@ -35,6 +35,14 @@ On [[ring spectra]]:
 
 * [[Birgit Richter]], _Commutative ring spectra_ ([arXiv:1710.02328](https://arxiv.org/abs/1710.02328), [pdf](https://www.math.uni-hamburg.de/home/richter/rev-commringspectra.pdf))
 
+On [[spectral algebraic geometry]]:
+
+* [[Charles Rezk]], _Spectral algebraic geometry ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf))
+
+On the different [[model categories]] of [[spectra]]:
+
+* [[Daniel Dugger]], _Stable categories and spectra via model categories_ ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf))
+
 (...)
 
 category: reference
