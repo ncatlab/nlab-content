@@ -24,11 +24,17 @@ On [[optic (in computer science)]]:
 
 * [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
+On [[ends]] and [[coends]]:
+
+* [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
+
 
 ## Related $n$Lab entries
 
 * [[orthogonal factorization system in a derivator]]
+
 * [t-structure](https://ncatlab.org/nlab/show/t-structure#in_stable_categories)
+
 * [[end]]
 
 category: people
