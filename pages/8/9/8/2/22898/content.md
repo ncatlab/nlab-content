@@ -30,6 +30,10 @@ On [[homotopical categories]] and [[(∞,1)-categories]]:
 
 * [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886)) 
 
+On [[model categories of spectra]]:
+
+* [[Daniel Dugger]], _Stable categories and spectra via model categories_ ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf))
+
 
 On [[ring spectra]]:
 
@@ -37,11 +41,9 @@ On [[ring spectra]]:
 
 On [[spectral algebraic geometry]]:
 
-* [[Charles Rezk]], _Spectral algebraic geometry ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf))
+* [[Charles Rezk]], *Spectral algebraic geometry* ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf))
 
-On the different [[model categories of spectra]]:
 
-* [[Daniel Dugger]], _Stable categories and spectra via model categories_ ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf))
 
 (...)
 
