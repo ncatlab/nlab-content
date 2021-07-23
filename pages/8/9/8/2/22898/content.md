@@ -39,7 +39,7 @@ On [[spectral algebraic geometry]]:
 
 * [[Charles Rezk]], _Spectral algebraic geometry ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf))
 
-On the different [[model categories]] of [[spectra]]:
+On the different [[model categories of spectra]]:
 
 * [[Daniel Dugger]], _Stable categories and spectra via model categories_ ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf))
 
