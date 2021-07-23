@@ -625,6 +625,8 @@ such that for each $\mathfrak{g} \in L_\infty Alg_k$
 
 This appears for instance as ([Kriz & May 1995, Cor. 1.6](#KrizMay95)).
 
+For more see at *[[relation between L-∞ algebras and dg-Lie algebras]]*.
+
 ### Relation to $\infty$-Lie groupoids
 
 In generalization to how a [[Lie algebra]] integrates to a [[Lie group]], $L_\infty$-algebras integrate to [[∞-Lie group]]s.
@@ -639,13 +641,14 @@ and
 
 ## Related concepts
 
-* [[homomorphism of L-∞ algebras]]
 
 * [[A-∞ algebra]]
 
 * [[E-∞ algebra]]
 
 * **$L_\infty$-algebra**
+
+  * [[homomorphism of L-∞ algebras]]
 
   * [[infinity-Lie algebra cohomology]]
 
@@ -659,6 +662,7 @@ and
 
   * [[sheaf of L-∞ algebras]]
 
+* [[relation between L-∞ algebras and dg-Lie algebras]]
 
 ## References 
  {#References}
