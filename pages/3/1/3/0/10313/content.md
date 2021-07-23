@@ -25,6 +25,10 @@ Many or most rectification statements are examples of the general _[Rectificatio
 
 This includes notably [[Vogt's theorem]] on the rectification of [[homotopy coherent diagrams]].
 
+## Examples
+
+* [[relation between L-infinity algebras and dg-Lie algebras|relation between $L_\infty$-algebras and dg-Lie algebras]]
+
 ## Related concepts
 
 * [[coherence]]
