@@ -172,11 +172,11 @@ This "old logic" was famously criticized
 
 as opposed to the "new logic" of [[Peano]] and [[Frege]], contemporary [[predicate logic]].
 
-The first textbook on mathematical logic is
+Textbooks on mathematical logic:
 
-* {#HilbertAckermann59} [[David Hilbert]], [[Wilhelm Ackermann]], _Grundz&#252;ge der Theoretischen Logik_ , 4th ed. Springer Heidelberg 1959 [1928]
+* {#HilbertAckermann59} [[David Hilbert]], [[Wilhelm Ackermann]], _Grundz&#252;ge der Theoretischen Logik_, 4th ed. Springer Heidelberg 1959 [1928]
 
-Modern textbooks on mathematical logic include
+* {#BellMach77} [[John Lane Bell]], M. Machover, _A Course in Mathematical Logic_, North-Holland Amsterdam 1977. (ch. 10,&#167;5) ([ISBN:9780720428445](https://www.elsevier.com/books/a-course-in-mathematical-logic/bell/978-0-7204-2844-5))
 
 * [[Open Logic Project]], _The open logic text_ ([pdf](http://people.ucalgary.ca/~rzach/static/open-logic/open-logic-complete.pdf))
 
