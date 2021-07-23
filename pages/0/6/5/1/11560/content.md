@@ -71,3 +71,10 @@ For the 2014 installment of UOregon's Moursund Lecture Series, Jacob Lurie gave 
 * [[Jacob Lurie]], [Ambidexterity](http://media.uoregon.edu/channel/2014/05/23/moursund-mathematics-lecture-series-dr-jacob-lurie-lecture-2-ambidexterity/)
 
 * [[Jacob Lurie]], [Roots of Unity in Stable Homotopy Theory](http://media.uoregon.edu/channel/2014/05/28/moursund-mathematics-lecture-series-dr-jacob-lurie-lecture-3-roots-of-unity-in-stable-homotopy-theory/)
+
+More review:
+
+* [[Charles Rezk]], *Spectral algebraic geometry* ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf)) in:  [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press
+
+
+
