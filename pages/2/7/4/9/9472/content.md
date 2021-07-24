@@ -1,4 +1,4 @@
 
-* [webpage](http://users.uoa.gr/~iandroul/iandroul_en.html)
+* [webpage](http://scholar.uoa.gr/iandroul)
 
 category: people
