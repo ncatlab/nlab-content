@@ -61,3 +61,7 @@ An older and rather _different system_ also called continuous logic of a Russian
 * Vitaly I. Levin, _Basic concepts of continuous logic_, Studies in logic grammar and rethoric, 11 (24) 2007, [pdf](http://math.univ-lyon1.fr/~begnac/articles/cfo.pdf)
 
 There is a version of [[abstract elementary classes]] in the setting of continuous logic, [[metric abstract elementary class]]es. 
+
+An analysis which avoids enriched logic is 
+
+* Daniel Figueroa, [[Benno van den Berg]], _A topos for continuous logic_ ([arXiv:2107.10543](https://arxiv.org/abs/2107.10543))
