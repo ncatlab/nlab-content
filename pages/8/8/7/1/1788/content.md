@@ -119,7 +119,6 @@ $$
     c_k(\nabla)
   }
   }
-  \cdot t^k
   \;\;
     \coloneqq
   \;\;
@@ -130,7 +129,7 @@ $$
   \,.
 $$
 
-By the [[relation between determinant and trace]], this is equal to the [[exponential]] of the [[trace]] of the [[logarithm]] of $I + \frac{i F_\nabla}{2\pi}$, the latter given by the [[Mercator series]] in $\frac{i F_\nabla}{2\pi}$:
+By the [[relation between determinant and trace]], this is equal to the [[exponential]] of the [[trace]] of the [[logarithm]] of $I + \frac{i F_\nabla}{2\pi}$, this being the [[exponential series]] in the trace of the [[Mercator series]] in $\frac{i F_\nabla}{2\pi}$:
 
 $$
   \begin{aligned}
@@ -150,7 +149,7 @@ $$
     \circ
       ln
       \left(
-        I + t \frac{i F_\nabla}{2\pi}
+        I + \frac{i F_\nabla}{2\pi}
       \right)
   \\
   & 
@@ -161,28 +160,282 @@ $$
     \left(
       -
       \underset
-        {k \in \mathbb{N}}
+        {k \in \mathbb{N}_+}
         {\sum}
         \tfrac{1}{k}
-        \left(\frac{- i F_\nabla}{2\pi}\right) 
+        \left(
+          \frac{F_\nabla}{2\pi i}
+        \right)^k
     \right)
     \\
     & 
     \;=\;
-  \exp
+    \exp
     \left(
-      -
       \underset
-        {k \in \mathbb{N}}
+        {k \in \mathbb{N}_+}
         {\sum}
         \tfrac{1}{k}
-        \left(\frac{- i}{2\pi}\right) 
-        \cdot
-        tr
         \left(
-          F^{\wedge_n}_\nabla
+          \frac
+            { - (-i)^k }
+            {(2\pi)^k}
+          tr\big( F_\nabla^{\wedge_k} \big)
         \right)
     \right)
+    \\
+    & 
+    \;=\;
+    1 
+    \\
+    & \phantom{\;=\;}
+    +
+    \phantom{\frac{1}{1}} 
+    \left(
+      i
+      \tfrac{ tr\big(F_\nabla\big) }{2 \pi} 
+      +
+      \tfrac{1}{2}
+      \tfrac{ tr\big( (F_\nabla)^{2} \big)}{(2 \pi)^2}  
+      -i
+      \tfrac{1}{3}
+      \tfrac{ tr\big( (F_\nabla)^{3} \big)}{(2 \pi)^3}  
+      -
+      \tfrac{1}{4}
+      \tfrac{ tr\big( (F_\nabla)^{4} \big)}{(2 \pi)^4}  
+      + 
+      \cdots
+    \right)
+    \\
+    & \phantom{\;=\;}  
+    + 
+    \frac{1}{2}
+    \left(
+      i
+      \tfrac{ tr\big(F_\nabla\big) }{2 \pi} 
+      +
+      \tfrac{1}{2}
+      \tfrac{ tr\big( (F_\nabla)^{2} \big)}{(2 \pi)^2}  
+      -i
+      \tfrac{1}{3}
+      \tfrac{ tr\big( (F_\nabla)^{3} \big)}{(2 \pi)^3}  
+      -
+      \tfrac{1}{4}
+      \tfrac{ tr\big( (F_\nabla)^{4} \big)}{(2 \pi)^4}  
+      + 
+      \cdots
+    \right)^2
+    \\
+    & \phantom{\;=\;}  
+    +
+    \frac{1}{6}
+    \left(
+      i
+      \tfrac{ tr\big(F_\nabla\big) }{2 \pi} 
+      +
+      \tfrac{1}{2}
+      \tfrac{ tr\big( (F_\nabla)^{2} \big)}{(2 \pi)^2}  
+      -i
+      \tfrac{1}{3}
+      \tfrac{ tr\big( (F_\nabla)^{3} \big)}{(2 \pi)^3}  
+      -
+      \tfrac{1}{4}
+      \tfrac{ tr\big( (F_\nabla)^{4} \big)}{(2 \pi)^4}  
+      + 
+      \cdots
+    \right)^3
+    \\
+    & \phantom{\;=\;}  
+    +
+    \frac{1}{24}
+    \left(
+      i
+      \tfrac{ tr\big(F_\nabla\big) }{2 \pi} 
+      +
+      \tfrac{1}{2}
+      \tfrac{ tr\big( (F_\nabla)^{2} \big)}{(2 \pi)^2}  
+      -i
+      \tfrac{1}{3}
+      \tfrac{ tr\big( (F_\nabla)^{3} \big)}{(2 \pi)^3}  
+      -
+      \tfrac{1}{4}
+      \tfrac{ tr\big( (F_\nabla)^{4} \big)}{(2 \pi)^4}  
+      + 
+      \cdots
+    \right)^4
+    \\
+    & \phantom{\;=\;}  
+    +
+    \cdots
+    \\
+    & \;=\;
+    1 
+    \\
+    & \phantom{\;=\;}
+    +
+    i
+    \frac
+      { tr\big(F_\nabla\big) }
+      { 2 \pi }    
+    \\
+    & \phantom{\;=\;}
+    +
+    \tfrac{1}{2}
+    \frac
+      { tr\big( (F_\nabla)^2 \big) }
+      { (2 \pi)^2 }
+    +
+    \frac{1}{2}
+    \left(
+      i
+      \frac
+        { tr\big( F_\nabla \big) }
+        { 2\pi }
+    \right)^2
+    \\
+    & \phantom{\;=\;}
+    -
+    i
+    \tfrac{1}{3}
+    \frac
+      { tr\big( (F_\nabla)^3 \big) }
+      { (2 \pi)^3 }    
+    +
+    \frac{1}{2}
+    \left(
+      2
+      \left(
+        i
+        \frac
+          { tr\big( F_\nabla \big) }
+          { 2 \pi }    
+      \right)
+      \left(
+        \tfrac{1}{2}
+        \frac
+          { tr\big( (F_\nabla)^2 \big) }
+          { (2 \pi)^2 }    
+      \right)
+    \right)
+    +
+    \frac{1}{6}
+    \left(
+      \left(
+        i
+        \frac
+          { tr\big(F_\nabla\big) }
+          { 2\pi }
+      \right)^3
+    \right)
+    \\
+    & \phantom{\;=\;}
+    - 
+    \tfrac{1}{4}
+    \frac
+      {tr\big( (F_\nabla)^4 \big)}
+      { (2 \pi)^4 }
+    +
+    \frac{1}{2}
+    \left(
+      i 
+      \tfrac
+        {tr\big( (F_\nabla)^2 \big)}
+        { (2 \pi)^2 }
+    \right)^2
+    +
+    \frac{1}{24}
+    \left(
+      i
+      \frac
+        {tr\big( F_\nabla \big)}
+        { 2\pi }
+    \right)^4
+    \\
+    & \;=\;
+    1 
+    \\
+    & \phantom{\;=\;}
+    +
+    i
+    \frac
+      { tr\big(F_\nabla\big) }
+      { 2 \pi }    
+    \\
+    & \phantom{\;=\;}
+    +
+    \tfrac{1}{2}
+    \frac
+      { tr\big( (F_\nabla)^2 \big) }
+      { (2 \pi)^2 }
+    +
+    \frac{1}{2}
+    \left(
+      i
+      \frac
+        { tr\big( F_\nabla \big) }
+        { 2\pi }
+    \right)^2
+    \\
+    & \phantom{\;=\;}
+    -
+    i
+    \tfrac{1}{3}
+    \frac
+      { tr\big( (F_\nabla)^3 \big) }
+      { (2 \pi)^3 }    
+    +
+    \frac{1}{2}
+    \left(
+      2
+      \left(
+        i
+        \frac
+          { tr\big( F_\nabla \big) }
+          { 2 \pi }    
+      \right)
+      \left(
+        \tfrac{1}{2}
+        \frac
+          { tr\big( (F_\nabla)^2 \big) }
+          { (2 \pi)^2 }    
+      \right)
+    \right)
+    +
+    \frac{1}{6}
+    \left(
+      \left(
+        i
+        \frac
+          { tr\big(F_\nabla\big) }
+          { 2\pi }
+      \right)^3
+    \right)
+    \\
+    & \phantom{\;=\;}
+    - 
+    \tfrac{1}{4}
+    \frac
+      {tr\big( (F_\nabla)^4 \big)}
+      { (2 \pi)^4 }
+    +
+    \frac{1}{2}
+    \left(
+      i 
+      \tfrac
+        {tr\big( (F_\nabla)^2 \big)}
+        { (2 \pi)^2 }
+    \right)^2
+    +
+    \frac{1}{24}
+    \left(
+      i
+      \frac
+        {tr\big( F_\nabla \big)}
+        { 2\pi }
+    \right)^4    
+    \\
+    & \phantom{\;=\;}
+    + \cdots
   \end{aligned}
 $$
 
