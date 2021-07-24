@@ -68,7 +68,7 @@ $$
 The multiplicative [[unit]] 
 
 \[
-  \label{UnitInAlgebraOfMatrixValuedEvenDegreeDifferentialForms}
+  \label{UnitInAlgebraOfEndomorphismValuedEvenDegreeDifferentialForms}
   I
   \;\in\;
   Mat_{n \times n} 
@@ -338,7 +338,7 @@ $$
     \frac{1}{2}
     \left(
       i 
-      \tfrac
+      \frac
         {tr\big( (F_\nabla)^2 \big)}
         { (2 \pi)^2 }
     \right)^2
@@ -356,88 +356,231 @@ $$
     \\
     & \phantom{\;=\;}
     +
+    \underset{ c_1 }{
+    \underbrace{
     i
     \frac
       { tr\big(F_\nabla\big) }
       { 2 \pi }    
+    }}
     \\
     & \phantom{\;=\;}
     +
-    \tfrac{1}{2}
+    \underset{ c_2 }{
+    \underbrace{
     \frac
-      { tr\big( (F_\nabla)^2 \big) }
-      { (2 \pi)^2 }
-    +
-    \frac{1}{2}
-    \left(
-      i
-      \frac
-        { tr\big( F_\nabla \big) }
-        { 2\pi }
-    \right)^2
+      {\tr\big( (F_\nabla)^2 \big) - \big( tr(F_\nabla) \big)^2  }
+      { 8 \pi^2  }
+    }}
     \\
     & \phantom{\;=\;}
-    -
+    +
+    \underset{ c_3 }{ 
+    \underbrace{
     i
-    \tfrac{1}{3}
     \frac
-      { tr\big( (F_\nabla)^3 \big) }
-      { (2 \pi)^3 }    
-    +
-    \frac{1}{2}
-    \left(
-      2
-      \left(
-        i
-        \frac
-          { tr\big( F_\nabla \big) }
-          { 2 \pi }    
-      \right)
-      \left(
-        \tfrac{1}{2}
-        \frac
-          { tr\big( (F_\nabla)^2 \big) }
-          { (2 \pi)^2 }    
-      \right)
-    \right)
-    +
-    \frac{1}{6}
-    \left(
-      \left(
-        i
-        \frac
-          { tr\big(F_\nabla\big) }
-          { 2\pi }
-      \right)^3
-    \right)
+      {   
+        - 2
+        \cdot
+        tr\big( (F_\nabla)^3  \big)
+        + 3
+        \cdot
+        tr(F_\nabla)
+        \cdot
+        tr\big( (F_\nabla)^2 \big)
+        - 
+        \big( tr(F_\nabla ) \big)^3
+      }    
+      {48 \pi^3}
+    }}
     \\
     & \phantom{\;=\;}
-    - 
-    \tfrac{1}{4}
+    +
+    \underset{ c_4 }{
+    \underbrace{
     \frac
-      {tr\big( (F_\nabla)^4 \big)}
-      { (2 \pi)^4 }
-    +
-    \frac{1}{2}
-    \left(
-      i 
-      \tfrac
-        {tr\big( (F_\nabla)^2 \big)}
-        { (2 \pi)^2 }
-    \right)^2
-    +
-    \frac{1}{24}
-    \left(
-      i
-      \frac
-        {tr\big( F_\nabla \big)}
-        { 2\pi }
-    \right)^4    
+      {
+        -6
+        \cdot
+        tr\big( (F_\nabla)^4 \big)
+        - 12
+        \cdot 
+        tr\big(  (F_\nabla)^2 \big)^2
+        +
+        \big( tr(F_\nabla) \big)^4
+      }
+      {384 \pi^4}
+    }}
     \\
     & \phantom{\;=\;}
     + \cdots
   \end{aligned}
 $$
+
+##### Pontrjagin forms
+
+$$
+  \begin{aligned}
+    p(\nabla)
+    &
+    \;\coloneqq\;
+    \underset{ k \in \mathbb{N} }{\sum}
+    (-1)^k
+    \underset{
+      \mathclap{
+        deg = 4k
+      }
+    }{
+    \underbrace{
+      p_{k}(\nabla)
+    }
+    }
+    \\
+    &
+    \;\coloneqq\;
+    c\big(  \nabla \otimes \mathbb{C} \big)
+    \\
+    &
+    \;=\;
+    c\big(  \nabla \oplus \overline{\nabla} \big)  
+    \\
+    & 
+    \;=\;
+    c\big(\nabla\big)\cdot c\big(\overline{\nabla} \big)  
+    \\
+    & 
+    \;=\;
+    \left( 
+      \underset{k \in \mathbb{N}}{\sum} c_{k}(\nabla)
+    \right)
+    \left( 
+      \underset{k \in \mathbb{N}}{\sum} (-1)^k c_k(\nabla)
+    \right)
+    \\
+    & \;=\;
+    1
+    \\
+    &
+    \phantom{\;=\;}
+    - 
+    \big( c_1(\nabla) \big)^2
+    +
+    2 \cdot c_2(\nabla)
+    \\
+    &
+    \phantom{\;=\;}
+    +
+    \big( c_2(\nabla) \big)^2
+    - 
+    2 \cdot c_1(\nabla) c_3(\nabla)
+    +
+    2 \cdot c_4(\nabla)
+    \\
+    & \phantom{\;=\;}
+    + \cdots
+    \\
+    & \;=\;
+    1
+    \\
+    &
+    \phantom{\;=\;}
+    -
+    \left(
+      i 
+      \frac
+        {tr(F_\nabla)}
+        {2 \pi}
+    \right)^2
+    +
+    2
+    \frac
+      {
+        tr\big( (F_\nabla)^2  \big) 
+        -
+        \big( tr(F_\nabla) \big)^2 
+      }
+      {8 \pi^2}
+    \\
+    & 
+    \phantom{\;=\;}
+    +
+    \left(
+      \frac
+        {
+          tr\big( (F_\nabla)^2  \big) 
+          -
+          \big( tr(F_\nabla) \big)^2 
+        }
+        {8 \pi^2}
+    \right)^2
+    +
+    2
+    \frac
+      {
+        -6
+        \cdot
+        tr\big( (F_\nabla)^4 \big)
+        - 12
+        \cdot 
+        tr\big(  (F_\nabla)^2 \big)^2
+        +
+        \big( tr(F_\nabla) \big)^4
+      }
+      {384 \pi^4}
+    \\
+    & 
+    \phantom{\;=\;}
+    \phantom{+}    
+    - 
+    2
+    \left(
+      i 
+      \frac
+        {tr(F_\nabla)}
+        {2 \pi}
+    \right)
+    \left(
+    i
+    \frac
+      {   
+        - 2
+        \cdot
+        tr\big( (F_\nabla)^3  \big)
+        + 3
+        \cdot
+        tr(F_\nabla)
+        \cdot
+        tr\big( (F_\nabla)^2 \big)
+        - 
+        \big( tr(F_\nabla ) \big)^3
+      }    
+      {48 \pi^3}
+    \right)
+    \\
+    & \phantom{\;=\;}
+    \cdots
+    \\
+    & \;=\;
+    1
+    \\
+    &
+    \phantom{\;=\;}
+    +
+    \underset{ p_1 }{
+    \underbrace{
+    \frac
+      { tr\big( (F_\nabla)^2 \big) }
+      {4 \pi^2}
+    }}
+    \\
+    & 
+    \phantom{\;=\;}
+    \frac
+      {-}
+      {-}
+  \end{aligned}  
+$$
+
 
 
 (...)
