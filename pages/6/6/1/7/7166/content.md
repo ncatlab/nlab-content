@@ -104,7 +104,7 @@ $$C \stackrel{\widehat{f_\alpha}}{\to} C(V_\alpha) \hookrightarrow K$$
 
 Any such lift is obtained in just this way. 
 
-It is easy to see that this description is equivalent to that described in a MathOverflow discussion [here](http://mathoverflow.net/questions/31109/is-there-an-explicit-construction-of-a-free-coalgebra/31126#31126). See also the nForum discussion [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3467&page=1). 
+It is easy to see that this description is equivalent to that described in a MathOverflow discussion [here](http://mathoverflow.net/questions/31109/is-there-an-explicit-construction-of-a-free-coalgebra/31126#31126). See also the nForum discussion [here](https://nforum.ncatlab.org/discussion/3467). 
 
 #### The cofree coalgebra over a 1-dimensional space
 
