@@ -134,7 +134,7 @@ M-theory on
 
 * $S^1_A \times \left( S^1_B \sslash \mathbb{Z}_2 \right)$ yields [[type I' string theory]]
 
-Hence the [[S-duality]] that swaps the two circle factors corresponds to _[[duality between type I and heterotic string theory]]_. 
+Hence the [[S-duality]] that swaps the two circle factors corresponds to a duality between heterotic E and type I' string theory. And T-dualizing turns this into a _[[duality between type I and heterotic string theory]]_. 
 
 
 
