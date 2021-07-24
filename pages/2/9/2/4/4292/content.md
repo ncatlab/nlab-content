@@ -186,3 +186,6 @@ category: analysis, algebra
 [[!redirects formal power series algebra]]
 [[!redirects formal power series algebras]]
 
+[[!redirects power series algebra]]
+[[!redirects power series algebras]]
+
