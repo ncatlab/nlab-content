@@ -49,7 +49,7 @@ To get the large (or "global") axiom of choice (that any surjection between prop
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], the well-ordering principle is also equivalent to the axiom of choice. This was [proved by Andrew Swan](https://hott.zulipchat.com/#narrow/stream/228519-general/topic/inductive.20well-ordering.20gives.20excluded.20middle.3F/near/246863644) (2021) and [formalized in Agda by Tom de Jong](https://www.cs.bham.ac.uk/~mhe/TypeTopology/WellOrderingTaboo.html) (2021). 
+In [[constructive mathematics]], the well-ordering principle is also equivalent to the axiom of choice. This was [proved by Andrew Swan](https://hott.zulipchat.com/#narrow/stream/228519-general/topic/inductive.20well-ordering.20gives.20excluded.20middle.3F/near/246863644) (2021) and formalized in [Agda by Tom de Jong](https://www.cs.bham.ac.uk/~mhe/TypeTopology/WellOrderingTaboo.html) (2021) and in [Coq by Dominik Kirst](https://github.com/dominik-kirst/sierpinski-hott/blob/master/coq/orders_lem.v) (2021). 
 
 [[Zorn's lemma]] is, on the other hand, constructively weaker than the axiom of choice, as it doesn't even imply excluded middle. But together with excluded middle it implies choice. However, Zorn's lemma is not particularly useful without excluded middle.
 
