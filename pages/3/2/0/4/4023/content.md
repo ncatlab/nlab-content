@@ -235,6 +235,8 @@ Finally, we include one more property of determinants which pertains to matrices
 ### As a polynomial in traces of powers
  {#AsAPolynomialInTracesofPowers}
 
+On the [[relation between determinant and trace]]:
+
 If $A$ is an $n \times n$ [[matrix]], the determinant of its [[exponential]] equals the [[exponential]] of its [[trace]] 
 
 $$
