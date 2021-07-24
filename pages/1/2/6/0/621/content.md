@@ -141,6 +141,8 @@ where we inserted the normalization factor $\frac{1}{2}$.
 
 ## Related concepts
 
+* [[relation between trace and determinant]]
+
 * [[traced monoidal category]]
 
 * [[Euler characteristic]]
@@ -154,6 +156,8 @@ where we inserted the normalization factor $\frac{1}{2}$.
 * [[Dennis trace]], [[cyclotomic trace]]
 
 * [[trace of horizontal to round chord diagrams]]
+
+
 
 ## References
 
