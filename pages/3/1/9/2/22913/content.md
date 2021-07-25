@@ -82,7 +82,7 @@ The multiplicative [[unit]]
 
 in this algebra is the [[smooth function]] ([[differential 0-forms]]) which is [[constant function|constant]] on the $n \times n$ [[identity matrix]] and independent of $t$.
 
-Given a [[connection on a principal bundle|connection]] on a $G$-[[principal bujndle]], we regard its [[Lie algebra valued differential form|$\mathfrak{g}$-valued]] [[curvature form]] as an element of this algebra
+Given a [[connection on a principal bundle|connection]] on a $G$-[[principal bundle]], we regard its [[Lie algebra valued differential form|$\mathfrak{g}$-valued]] [[curvature form]] as an element of this algebra
 
 \[
   \label{CurvatureFormAsElementOfMatrixValuedEvenDegreeDifferentialForm}
