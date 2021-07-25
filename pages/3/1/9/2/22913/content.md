@@ -136,7 +136,8 @@ $$
 
 By the [[relation between determinant and trace]], this is equal to the [[exponential]] of the [[trace]] of the [[logarithm]] of $I + \frac{i F_\nabla}{2\pi}$, this being the [[exponential series]] in the [[trace]] of the [[Mercator series]] in $\frac{i F_\nabla}{2\pi}$:
 
-$$
+\[
+  \label{ExplicitUnwindingOfTotalChernForm}
   \begin{aligned}
   c(\nabla)
   &
@@ -342,7 +343,7 @@ $$
     +
     \frac{1}{2}
     \left(
-      i 
+      \tfrac{1}{2}
       \frac
         {tr\big( (F_\nabla)^2 \big)}
         { (2 \pi)^2 }
@@ -411,7 +412,7 @@ $$
         -6
         \cdot
         tr\big( (F_\nabla)^4 \big)
-        - 12
+        + 3
         \cdot 
         tr\big(  (F_\nabla)^2 \big)^2
         +
@@ -423,10 +424,61 @@ $$
     & \phantom{\;=\;}
     + \cdots
   \end{aligned}
-$$
+\]
 
 
 ##### Pontrjagin forms
+
+Setting $tr(F_\nabla) = 0$ in these expressions (eq:ExplicitUnwindingOfTotalChernForm) yields the *[[total Pontrjagin form]]* $p(\nabla)$ with degree=$4k$-components the [[Pontrjagin forms]] $p_{k}(\nabla)$:
+
+$$
+  \begin{aligned}
+    p(\nabla)
+    &
+    \;\coloneqq\;
+    \underset{k \in \mathbb{N}}{\sum}
+    \underset{
+      deg = 4k
+    }{
+      \underbrace{
+        p_{k}(\nabla)
+      }
+    }
+    \\
+    & \;=\;
+    1
+    \\
+    &
+    \phantom{\;=\;}
+    +
+    \underset{ \color{blue} = p_1(\nabla) }{
+    \underbrace{
+    \frac
+      {\tr\big( (F_\nabla)^2 \big) }
+      { 8 \pi^2  }
+    }}
+    \\
+    &
+    \phantom{\;=\;}
+    +
+    \underset{ \color{blue} = p_2(\nabla) }{
+    \underbrace{
+    \frac
+      {
+        - 2
+        \cdot
+        tr\big( (F_\nabla)^4 \big)
+        + 
+        tr\big(  (F_\nabla)^2 \big)^2
+      }
+      {128 \pi^4}
+    }}
+    \\
+    \phantom{\;=\;}
+    +
+    \cdots
+  \end{aligned}
+$$
 
 (...)
 
