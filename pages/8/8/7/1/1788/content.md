@@ -1,4 +1,6 @@
 
+[[Chern- and Pontrjagin forms -- section]]
+
 ### Characteristic forms: Chern-, Pontrjagin-, and Euler-forms
 
 #### Preliminaries
