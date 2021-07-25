@@ -36,7 +36,7 @@ Under the identification of [[local systems]] --  in the sense of [[locally cons
 
 Textbook accounts:
 
-* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 of: _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section I 9.2.1 of: _[[Hodge theory and Complex algebraic geometry]] I,_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
 
 
 [[!redirects flat vector bundles]]
