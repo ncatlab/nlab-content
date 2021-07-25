@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -72,27 +73,38 @@ Further discussion:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Section 2 of: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
 
-* [[Constantin Teleman]], around Prop. 3.7 in: _K-theory of the moduli of bundles over a Riemann surface and deformations of the Verlinde algebra_, in: [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_, Cambridge 2004 ([arXiv:math/0306347](https://arxiv.org/abs/math/0306347), [spire:660158](https://inspirehep.net/literature/660158))
+* {#Teleman04} [[Constantin Teleman]], around Prop. 3.7 in: _K-theory of the moduli of bundles over a Riemann surface and deformations of the Verlinde algebra_, in: [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_, Cambridge 2004 ([arXiv:math/0306347](https://arxiv.org/abs/math/0306347), [spire:660158](https://inspirehep.net/literature/660158))
 
 * {#Cavalcanti03} [[Gil Cavalcanti]], Section I.4 of: _New aspects of the $d d^c$-lemma_, Oxford  2005 ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
 
 ### Twist in degree 1
  {#ReferencesForTwistInDegree1}
 
-The classical case of twisted de Rham cohomology with twists in *degree 1*, given by [[flat connections]] on [[flat line bundles]] and more generally on [[flat vector bundles]]), and its equivalence to [[sheaf cohomology]] with [[cofficients]] in [[abelian sheaves]] of [[flat sections]] ([[local systems]]):
+The classical case of twisted de Rham cohomology with twists in *degree 1*, given by [[flat connections]] on [[flat line bundles]] and more generally on [[flat vector bundles]]), and its equivalence to [[sheaf cohomology]] with [[coefficients]] in [[abelian sheaves]] of [[flat sections]] ([[local systems]]):
+
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section II 5.1.1 of: _[[Hodge theory and Complex algebraic geometry]] II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615177](https://doi.org/10.1017/CBO9780511615177))
 
 Review:
 
 * Cailan Li, *Cohomology of Local Systems on $X_\Gamma$* ([pdf](http://math.columbia.edu/~mundy/L3.pdf), [[Li_CohomologyOfLocalSystems.pdf:file]])
 
-Discussion in the context of [[analytic torsion]]:
+* Youming Chen, Song Yang, Section 2.1 in: *On the blow-up formula of twisted de Rham cohomology*. Annals of Global Analysis and Geometry volume 56, pages 277–290 (2019) ([arXiv:1810.09653](https://arxiv.org/abs/1810.09653), [doi:10.1007/s10455-019-09667-8](https://doi.org/10.1007/s10455-019-09667-8))
 
-* [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
 
-### Twist in higher degrees
+### Twist in any and higher degrees
  {#ReferencesTwistInHigherDegrees}
 
-(...)
+* [Teleman 04, Sec. 3](#Teleman04)
+
+* [[Hisham Sati]], *A Higher Twist in String Theory*, J. Geom. Phys. 59:369-373, 2009 ([arXiv:hep-th/0701232](https://arxiv.org/abs/hep-th/0701232))
+
+* [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
+  
+  > (relation to [[analytic torsion]])
+
+In the broader context of [[twisted cohomology theory]] and the [[Chern-Dold character map]]:
+
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3.3 of: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]_ ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
 
 
 
