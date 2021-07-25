@@ -9,9 +9,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+The "Mercator series" (so named after its appearance in [Mercator 1667](#Mercator1667)) is the [[Taylor series]] of the [[natural logarithm]] around 1.
 
 ## Statement
 
@@ -79,7 +84,7 @@ $$
   \;\xrightarrow{x \to 0}\; 
   - k
 $$
-we get, for $n \in \mathbb{N}_+$:
+we obtain for $n \in \mathbb{N}_+$, by [[induction]]:
 $$
   \begin{aligned}
   \frac{d^n}{d x^n} 
@@ -109,9 +114,19 @@ $$
 yields the claim.
 \end{proof}
 
-Note that this is not named for [Gerardus Mercator](https://en.wikipedia.org/wiki/Gerardus_Mercator), the cartographer with the famous map projection, but the mathematician [Nicholas Mercator](https://en.wikipedia.org/wiki/Nicholas_Mercator).
+## Related concepts
+
+* [[Chern form]]
+
+* [[geometric series]]
 
 ## References
+
+Apparently first published in:
+
+* {#Mercator1667} [[Nicholas Mercator]], *Logarithmotechnia: Sive Methodus constuendi Logrithmos*, London 1667  ([GoogleBooks](https://books.google.de/books?hl=en&lr=&id=HFl1JqyXpSoC&oi=fnd&pg=PP6&dq=Logarithmotechnia.&ots=2xDsxWNWwO&sig=PfSwMZjoMnW7EAtH79uxX3ATsqc&redir_esc=y#v=onepage&q=Logarithmotechnia.&f=false))
+
+but will have been known before that.
 
 See also:
 
