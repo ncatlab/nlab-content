@@ -654,6 +654,15 @@ Since $(\mu_k^\ast \otimes \mu_{n-k}^\ast)$ is a monomorphism by lemma \ref{From
 
 =--
 
+
+
+
+[[!include Chern- and Pontrjagin forms -- section]]
+
+
+
+
+
 ## Examples
 
 ### Chern classes of linear representations
