@@ -174,7 +174,7 @@ $D_X$-[[D-module|modules]] and local systems on $X$.
 
 ## Related concepts
 
-* [[flat vector bundle]]
+* [[flat vector bundle]], [[Gauss-Manin connection]]
 
 * [[simplicial local system]]: within Sullivan's (1977) theory of _Infinitesimal computations in topology_, he refers to 'local systems' several times. This seems to be simplicial in nature. [[simplicial local system|This]] entry explores some of the uses of that notion based on Halperin's lecture notes on minimal models
 
@@ -203,6 +203,10 @@ A definition  appears as an exercise in
 on page 58 : 
 
 >_A local system on a space $X$ is a covariant functor from the fundamental groupoid of $X$ to some category._
+
+Textbook account and relation to [[twisted de Rham cohomology]]:
+
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 of: _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
 
 A blog exposition of some aspects of linear local system is developed here:
 
