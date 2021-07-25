@@ -165,6 +165,15 @@ yields the claim.
 * [[logarithmic cohomology operation]]
 
 
+## References
+
+Historical textbooks:
+
+* [[Nicholas Mercator]], *Logarithmotechnia: Sive Methodus constuendi Logrithmos*, London 1667  ([GoogleBooks](https://books.google.de/books?hl=en&lr=&id=HFl1JqyXpSoC&oi=fnd&pg=PP6&dq=Logarithmotechnia.&ots=2xDsxWNWwO&sig=PfSwMZjoMnW7EAtH79uxX3ATsqc&redir_esc=y#v=onepage&q=Logarithmotechnia.&f=false))
+
+(...)
+
+
 [[!redirects logarithm]]
 
 [[!redirects logarithms]]
