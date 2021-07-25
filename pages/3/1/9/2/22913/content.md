@@ -495,22 +495,60 @@ $$
     & \;=\;
     \frac
       {
+        tr\big(  (F_\nabla)^2 \big)^2
         - 2
         \cdot
         tr\big( (F_\nabla)^4 \big)
-        + 
-        tr\big(  (F_\nabla)^2 \big)^2
       }
       {128 \pi^4}
+      \,.
   \end{aligned}
 $$
 
-(e.g. [Nakahara 2003, Exp. 11.5](#Nakahara03))
+(See also, e.g., [Nakahara 2003, Exp. 11.5](#Nakahara03))
 
 ##### Euler forms
 
-(...)
+With the [[curvature form]] again regarded as a 2-form valued $n \times n$-[[matrix]]
 
+$$ 
+  F_{\nabla}
+  \;=\;
+  \big(
+    (F_{\nabla})^a{}_b
+  \big)
+$$
 
-(e.g. [Nakahara 2003, Exp. 11.7](#Nakahara03))
+the [[Euler form]] is [[Pfaffian]], hence the following [[sum]] over [[permutations]] $\sigma \in Sym(2n)$ with summands signed by the the [[signature of a permutation|signature]] $sgn(sigma) \in \{\pm 1\}$:
+
+$$
+  \chi_{2n}(\nabla)
+  \;=\;
+  \frac
+    {(-1)^n}
+    { (4 \pi)^n \cdot n! }
+  \underset{\sigma}{\sum}
+    sgn(\sigma)
+    \cdot
+    (F_{\nabla})_{\sigma(1)\sigma(2)}
+    \wedge
+    (F_{\nabla})_{\sigma(3)\sigma(4)}
+    \wedge
+      \cdots
+    \wedge
+    (F_{\nabla})_{\sigma(2n-1)\sigma(2n)}
+  \,.
+$$
+
+The first one is, using the [[Einstein summation convention]]:
+
+$$
+  \chi_4(\nabla)
+  \;=\;
+  \frac
+    { \epsilon^{ a b c d} (F_{\nabla})_{a b} \wedge (F_\nabla)_{c d}  }
+    {32 \pi^2}
+$$
+
+(See also, e.g., [Nakahara 2003, Exp. 11.7](#Nakahara03))
 
