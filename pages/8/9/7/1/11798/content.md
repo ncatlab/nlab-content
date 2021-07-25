@@ -4,13 +4,15 @@ This page collects material related to the textbook
 
 * [[Claire Voisin]] (translated by [[Leila Schneps]]),
 
-  _Hodge theory and Complex algebraic geometry I,II_, 
+  **Hodge theory and Complex algebraic geometry**
 
   Cambridge Stud. in Adv. Math. 
 
-  __76, 77__, 2002/3
+  **76**, **77**, 2002/3
 
-  [doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344)
+  vol I: [doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344)
+
+  vol II: [doi:10.1017/CBO9780511615177](https://doi.org/10.1017/CBO9780511615177)
 
 on [[Hodge theory]] and [[GAGA]].
 
