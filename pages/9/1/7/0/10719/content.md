@@ -59,7 +59,8 @@ see e.g. ([GGN 13, p. 8](#GGN13)) for discussion.
  
 * {#GGN13} [[David Gepner]], Moritz Groth, [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_ ([arXiv:1305.4550](http://arxiv.org/abs/1305.4550))
 
-* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](https://math.mit.edu/events/talbot/2007/tmfproc/Chapter09/Bousfield.pdf), [[Bauer_BousfieldLocalization.pdf:file]]), chapter 6 in:  [[Christopher Douglas]], [[John Francis]], [[André Henriques]], [[Michael Hill]] (eds.), _Topological Modular Forms_, Mathematical Surveys and Monographs Volume 201, AMS 2014  ([ISBN:978-1-4704-1884-7](https://bookstore.ams.org/surv-201))
+
 
 * {#Nardin12} [[Denis Nardin]], section 3.2 of _Stability and distributivity over orbital ∞-categories_, 2012 ([pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
 
