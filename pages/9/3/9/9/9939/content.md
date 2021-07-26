@@ -728,15 +728,15 @@ see also
 * [[Carles Casacuberta]], [[Javier Gutiérrez]], _Homotopical Localizations of Module Spectra_, Transactions of the American Mathematical Society
 Vol. 357, No. 7 (Jul., 2005), pp. 2753-2770  ([jstor](http://www.jstor.org/stable/3845180))
 
-Lecture notes include
+Review:
 
 * [[Nerses Aramian]], _Bousfield Localization_ ([pdf](http://www.math.uiuc.edu/~aramyan2/bousfield.pdf))
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf), [[Bauer_BousfieldLocalization.pdf:file]]), Chapter 6 in: [[Christopher Douglas]], [[John Francis]], [[André Henriques]], [[Michael Hill]] (eds.), _Topological Modular Forms_, Mathematical Surveys and Monographs Volume 201, AMS 2014  ([ISBN:978-1-4704-1884-7](https://bookstore.ams.org/surv-201))
-
-
  
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
+
+* [[Tyler Lawson]], *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888)) in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*  MSRI Book Series, Cambridge University Press
 
 
 Discussion in the general context of [[higher algebra]]/[[stable homotopy theory]]:
