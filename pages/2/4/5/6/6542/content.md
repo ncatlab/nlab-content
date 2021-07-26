@@ -108,6 +108,15 @@ For more see at _[[top Chern class]]_.
 * [[Poincaré–Hopf theorem]]
 
 
+
+
+
+[[!include Chern- and Pontrjagin forms -- section]]
+
+
+
+
+
 ### On unit sphere bundles
 
 +-- {: .num_prop #TrivializationOfEulerFormOnUnitSphereBundle}
