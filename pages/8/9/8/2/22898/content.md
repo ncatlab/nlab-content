@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
 =--
 =--
+=--
+
 
 This page compiles links related to the book collection:
 
@@ -34,6 +39,9 @@ On [[model categories of spectra]]:
 
 * [[Daniel Dugger]], _Stable categories and spectra via model categories_ ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf))
 
+On [[Bousfield localization of spectra]]:
+
+* [[Tyler Lawson]], *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888))
 
 On [[ring spectra]]:
 
