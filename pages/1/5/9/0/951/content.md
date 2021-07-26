@@ -9,8 +9,7 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -18,10 +17,10 @@
 
 $\Fin\Set$ is the [[category]] of [[finite set]]s and all [[function]]s between them: the [[full subcategory]] of [[Set]] on finite sets.  
 
-
 (For [[constructive mathematics|constructive]] purposes, take the strictest sense of 'finite'.)
 
 It is easy (and thus common) to make $\Fin\Set$ [[skeleton|skeletal]]; there is one [[object]] for each [[natural number]] $n$ (including $n = 0$), and a [[morphism]] from $m$ to $n$ is an $m$-tuple $(f_0, \ldots, f_{m-1})$ of numbers satisfying $0 \leq f_i \lt n$.  This amounts to identifying $n$ with the set $\{0, \ldots, n - 1\}$.  (Sometimes $\{1, \ldots, n\}$ is used instead.)
+
 
 ## Properties
 
@@ -56,6 +55,7 @@ In constructive mathematics, for any flavor of _[[finite set|finite]]_, $\mathca
 
 =--
 
+
 ### Universal properties
 
 $FinSet$ is the free category with finite coproducts on one object: that is, for any category $C$ with finite coproducts and any object $c \in C$ there is a functor $F : FinSet \to C$ preserving finite coproducts with $F(1) = c$, and $F$ is unique up to natural isomorphism.   
@@ -70,9 +70,13 @@ The last fact is closely connected to this: $FinSet$, made symmetric monoidal us
 
 All these universal properties have useful duals.  $FinSet^{op}$ is the free category with finite products on one object and also the free category with finite limits on one object; the symmetric monoidal category $(FinSet, +)^{op}$ is equivalent to the PROP for cococommutative comonoids.
 
+
 ### In Grpd
 
-$FinSet$ is a [[natural numbers object]] in the [[(2,1)-topos]] [[Grpd]] of [[groupoids]] and [[functors]], as it is an initial algebra of the 2-endofunctor $F(X) \cong 1 + X$. It is also a [[free object|free]] [[monoid object]] on one generator in [[Grpd]], an [[initial object|initial]] [[rig object]] in [[Grpd]], and a [[category]]. This all follows from the fact that the category $FinSet$ is the [[vertical categorification]] of the [[poset]] $\mathbb{N}$ of natural numbers. 
+$FinSet$ is a [[natural numbers object]] in the [[(2,1)-topos]] [[Grpd]] of [[groupoids]] and [[functors]], as it is an initial algebra of the 2-endofunctor $F(X) \cong 1 + X$. It is also a [[free object|free]] [[monoid object]] on one generator in [[Grpd]], an [[initial object|initial]] [[rig object]] in [[Grpd]], and a [[category]]. This all follows from the fact that the category $FinSet$ is a [[vertical categorification]] of the [[poset]] $\mathbb{N}$ of natural numbers.
+
+As a groupoid itself, the [[core]] of $Fin Set$ is (with the operation of [[disjoint union]]) the free [[symmetric monoidal category]] on one object.  (There is no way to generate non-invertible morphisms from this data.)
+
 
 ### In topos theory
 
@@ -89,10 +93,10 @@ The [[copresheaf]] category $[FinSet,Set]$ is the [[classifying topos]] for the 
 
 The [[simplex category]] $\Delta$ embeds into $\Fin\Set$ as a category with the same objects but fewer morphisms. The category of [[cyclic set]]s introduced by Connes lies in between. All the three are special cases of extensions of $\Delta$ by a group in a particularly nice way. Full classification of allowed [[skew-simplicial sets]] has been given by Krasauskas and independently by Loday and Fiedorowicz.
 
+
 ### As a Lawvere theory
 
 The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the multi-sorted [[Lawvere theory]] of unbiased [[boolean algebra]]s. As a [[Lawvere theory]], $FinSet$ has one more sort, corresponding to $\emptyset$, and one more model, in which every sort has exactly one element (in all the other models, the sort corresponding to $\emptyset$ is empty).
-
 
 
 
@@ -106,6 +110,8 @@ The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the mu
 
 * [[FinRel]]
 
+
+
 ## References
 
 * [[Steve Awodey]], _[Category Theory](http://www.andrew.cmu.edu/course/80-413-713/) -- lecture 7_ ([pdf](http://www.andrew.cmu.edu/course/80-413-713/notes/chap07.pdf))
@@ -114,6 +120,9 @@ The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the mu
 * [[Yves Lafont]], Towards an algebraic theory of Boolean circuits, February 12, 2013.  ([pdf](http://iml.univ-mrs.fr/~lafont/pub/circuits.pdf))
 
 
+
 category: category
 
 [[!redirects category of finite sets]]
+[[!redirects FinSet]]
+[[!redirects Fin Set]]
