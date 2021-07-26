@@ -288,7 +288,7 @@ $$
 Regarded as a morphism of [[generalized homology]]-theories, this is also called the [[Hurewicz homomorphism]], or rather the [[Boardman homomorphism]] for $tmf$
 
 
-+-- {: .num_prop}
++-- {: .num_prop #BoardmanHomomorphismInTmfIs6Connected}
 ###### Proposition
 **(Boardman homomorphism in $tmf$ is 6-connected)**
 
