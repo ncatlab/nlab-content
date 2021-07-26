@@ -102,7 +102,7 @@ Recall that ([this Prop.](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnit
 
 as follows:
 
-\begin{tikzcd}[column sep={between origins, 33}]
+\begin{tikzcd}
     L(c)
     \ar[rr, "f"]
     &&
@@ -129,7 +129,7 @@ as follows:
     R(d)
 \end{tikzcd}
 
-\begin{tikzcd}[column sep={between origins, 33}]
+\begin{tikzcd}
     c
     \ar[rr, "\widetilde f"]
     &&
@@ -175,6 +175,9 @@ Using this, consider the following transformations of morphisms in slice categor
     L(b)
 \end{tikzcd}
 
+
+
+
 **(2a)**
 
 \begin{tikzcd}
@@ -217,7 +220,7 @@ Using this, consider the following transformations of morphisms in slice categor
 
 **(2b)**
 
-\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+\begin{tikzcd}
     c
     \ar[
       rr,
@@ -262,7 +265,7 @@ Using this, consider the following transformations of morphisms in slice categor
 
 **(1b)**
 
-\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+\begin{tikzcd}
     L(c)
     \ar[dr]
     \ar[rrrr, "L(\widetilde{f})"]
@@ -333,7 +336,7 @@ The **second case** follows analogously, but a little more directly since no pul
 
 **(1a)**
 
-\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+\begin{tikzcd}
   c
   \ar[rr, dashed, "f"]
   \ar[dr]
@@ -347,7 +350,7 @@ The **second case** follows analogously, but a little more directly since no pul
 
 **(2)**
 
-\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+\begin{tikzcd}
   L(c)
   \ar[rr, dashed, "L(f)"]
   \ar[dr]
@@ -380,7 +383,7 @@ The **second case** follows analogously, but a little more directly since no pul
 
 **(1b)**
 
-\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+\begin{tikzcd}
   c
   \ar[rr, "\eta_c"{above}]
   \ar[dr]
