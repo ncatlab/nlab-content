@@ -1,0 +1,1 @@
+Moved to [[ambidextrous adjunction]]. To be removed.
