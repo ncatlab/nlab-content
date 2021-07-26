@@ -23,6 +23,8 @@
 
 A __comonad__ (or cotriple) on a [[category]] $A$ is a [[comonoid]] in the [[monoidal category]] of endofunctors $A \to A$. More generally, a comonad in a [[2-category]] $E$ is a [[comonoid]] in the [[monoidal category]] $E(X,X)$ for some [[object]] $X\in K$.
 
+Just as a monad may be defined for any 2-category, $E$, as a [[lax 2-functor]] from $\mathbf{1}$ to $E$, so a comonad in $E$ is an oplax 2-functor from $\mathbf{1} \to E$.
+
 See at _[[monad]]_ for more.
 
 ## Properties
