@@ -80,3 +80,5 @@ A list of elementary examples of factorization systems
 * M. Gavrilovich, [_The unreasonable power of the lifting property in elementary mathematics_](http://mishap.sdf.org/by:gavrilovich/expressive-power-of-lifting-property.pdf)
 
 * M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf)
+
+[[!redirects factorisation system]]
