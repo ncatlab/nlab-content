@@ -212,7 +212,7 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
   
 \end{proposition}
 
-This is due to [Pavlov et al. 19, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 14, Thm. 0.2](#Pavlov). The analogous statement for sheaves of [[stable homotopy types]] (which follows essentially formally) was observed in [BNV 13, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case).
+This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 2014, Thm. 0.2](#Pavlov), also [Bunk 2020, Sec. 3](#Bunk20). The analogous statement for sheaves of [[stable homotopy types]] (which follows essentially formally) was observed in [BNV 13, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case).
 
 \linebreak
 
@@ -653,11 +653,13 @@ Here:
 
 ## References
 
-This identification Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod} is due to
+The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod} is due to
  
 * {#Pavlov14} [[Dmitri Pavlov]], _Structured Brown representability via concordance_, 2014 ([pdf](https://dmitripavlov.org/concordance.pdf), [[Pavlov_Concordance.pdf:file]])
 
 * {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
+
+* {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces* ([arXiv:2007.06039](https://arxiv.org/abs/2007.06039))
 
 with a precursor observation in:
 
@@ -669,4 +671,9 @@ For [[diffeological spaces]] among all smooth $\infty$-groupoids, their smooth p
 
 [[!redirects shape via cohesive path infinity-groupoid]]
 
+[[!redirects shape via the cohesive path ∞-groupoid]]
+[[!redirects shape via the cohesive path infinity-groupoid]]
+
 [[!redirects smooth Oka principle]]
+
+
