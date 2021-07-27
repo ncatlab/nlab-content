@@ -1715,7 +1715,7 @@ An early occurence of the concept is (see also _[[Brandt groupoid]]_):
 
 A motivation and introduction of the concept of groupoid and a tour of examples (including the refinement to [[topological groupoids]] and [[Lie groupoids]]) is in
 
-* [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS volume 43, Number 7 ([pdf](http://www.ams.org/notices/199607/weinstein.pdf))
+* [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS volume 43, Number 7 (1996) ([pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]])
 
 Further exposition:
 
@@ -1724,7 +1724,7 @@ Further exposition:
 * [[Introduction to Topology -- 2]], *[Groupoids](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+2#Groupoid)*
 
 
-Technical discussion can be found, for instance, in the following references.
+See also:
 
 * [[Philip Higgins]], _Presentations of Groupoids, with Applications to Groups_, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
 
