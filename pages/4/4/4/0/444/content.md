@@ -707,6 +707,10 @@ Another early appearance in print is:
 
 Review and exposition:
 
+* [[Kerodon]], *The Nerve of a Category* ([002L](https://kerodon.net/tag/002L))
+
+* [[Kerodon]], *The Nerve of a Groupoid* ([0035](https://kerodon.net/tag/0035))
+
 * [[Tom Leinster]], p. 117 onwards in: _Higher operads, higher categories_ , London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9 ([arXiv:math.CT/0305049](https://arxiv.org/abs/math/0305049))
 
 * [[Tom Leinster]], *[How I learned to love the nerve construction](https://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html)*, $n$-Category Caf&#233;, January 6, 2008.
