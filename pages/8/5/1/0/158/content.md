@@ -102,6 +102,9 @@ Kęstutis Česnavičius and Peter Scholze they write
 
 ## References
 
+* [[Jacob Lurie]], Section 1.1.2 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+
 Formulations in [[homotopy type theory]] include
 
 * [[Thorsten Altenkirch]], Ondrej Ryp&#225;cek, _A Syntactical Approach to Weak $\omega$-Groupoids_ ([pdf](http://www.cs.nott.ac.uk/~txa/publ/weakomega2.pdf))
