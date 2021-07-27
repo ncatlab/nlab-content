@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -300,44 +301,18 @@ This can be found, for instance, in II.8.6--7 of [Goerss-Jardine](#GoerssJardine
 
 ## References 
 
-Dan Quillen's original proof in
-
-* {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
-
-of the [[classical model structure on simplicial sets]] is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are fiber bundles, as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: at the end of
-
-* [[Israel Gelfand]], [[Yuri Manin]], _Methods of Homological Algebra_, Springer, 1996
-
-as well as in
-
-* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01))
-
-A proof (in fact two variants of it) using the [[Kan fibrant replacement]] $Ex^\infty$ functor is given in section 2 of
-
-* {#Cisinski06} [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
- 
-
-which discusses the topic as a special case of a _[[Cisinski model structure]]_.
 
 
-The fun part is not that much about the existence of model structure, but to prove that the fibrations are precisely the [[Kan fibrations]] (and also to prove all the good properties of $Ex^\infty$ without using topological spaces); for two different proofs of this fact using $Ex^\infty$, see Prop. 2.1.41 as well as Scholium 2.3.21 for an alternative). For the rest, everything was already in the book of Gabriel and Zisman, for instance.
+[[!include classical model structure on simplicial sets -- references]]
 
-Another approach also using $Ex^\infty$ is in
 
-* {#Moss} Sean Moss, _Another approach to the Kan-Quillen model structure_, [arXiv](http://arxiv.org/abs/1506.04887).
- 
 
-Other standard textbook references for the classical model structure are
+### Joyal model structure on simplicial sets
 
-* {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ (Birkh&#228;user) ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
- 
+For teferences on the *[[model structure for quasi-categories]]* see there.
 
-* {#Hovey} [[Mark Hovey]], _Model categories_
- 
 
-For references on the Joyal model structure see _[[model structure for quasi-categories]]_.
 
-As a [[categorical semantics]] for [[homotopy type theory]], the model structure on simplicial sets is considered in
 
-* {#KapulkinLumnsdaineVoevodsky12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], ([arXiv:1203.2553](http://arxiv.org/abs/1203.2553))
+
 
