@@ -11,6 +11,9 @@ On [[Kaluza-Klein compactification]] in [[supergravity]]:
 
 On the [[partition function]] of the [[superstring]] ([[heterotic string theory|heterotic string]] and [[type II string theory|type II string]]) as a [[modular form]] with values in the [[Chern character]] of the [[background field|background]] [[field strengths]] ("character-valued partition function", then also called the *[[elliptic genus]]*/*[[Witten genus]]*) and relation to [[Green-Schwarz anomaly cancellation]]:
 
+* [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]], *Heterotic string-loop calculation of the anomaly cancelling term*, Nuclear Physics B Volume 289, 1987, Pages 609-627 (<a href="https://doi.org/10.1016/0550-3213(87)90397-X">doi:10.1016/0550-3213(87)90397-X</a>)
+
+
 * [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]],  [[Nicholas P. Warner]], *Anomaly cancelling terms from the elliptic genus*, Nuclear Physics B Volume 299, Issue 1, 28 March 1988, Pages 91-116 (<a href="https://doi.org/10.1016/0550-3213(88)90468-3">doi:10.1016/0550-3213(88)90468-3</a>)
 
 
