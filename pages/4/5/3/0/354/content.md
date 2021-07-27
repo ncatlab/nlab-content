@@ -847,6 +847,8 @@ The simplicial notion of a Kan complex has an analogue for [[cubical set | cubic
 
 Other concepts:
 
+* [[∞-groupoid]]
+
 * [[Eilenberg subcomplex]]
 
 * [[weak Kan complex]]
@@ -859,12 +861,15 @@ see there for more information.
 
 ## References
 
-Textbook accounts include 
+Exposition:
+
+* {#Friedman08} [[Greg Friedman]], Section 7 of: _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221), [doi:10.1216/RMJ-2012-42-2-353](https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-42/issue-2/Survey-Article-An-elementary-illustrated-introduction-to-simplicial-sets/10.1216/RMJ-2012-42-2-353.full))
+
+Textbook accounts:
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter IV.3 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
-
-* [[Paul Goerss]], [[J. F. Jardine]], section I.3 of _[[Simplicial homotopy theory]]_, number 174 in Progress in Mathematics, Birkh&#228;user. 1999
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section I.3 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
 See also:
 
