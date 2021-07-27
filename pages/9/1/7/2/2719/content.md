@@ -1,7 +1,15 @@
 
 * [website](http://math.berkeley.edu/~alanw/)
 
-## related $n$Lab entries
+
+## Selected writings
+
+On [[groupoids]]:
+
+* [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS **43** 7 (1996) ([pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]])
+
+
+## Related $n$Lab entries
 
 * [[symplectic geometry]]
 
