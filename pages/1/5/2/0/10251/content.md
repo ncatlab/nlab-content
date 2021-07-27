@@ -39,6 +39,8 @@ On the [[partition function]] of the [[superstring]] ([[heterotic string theory|
 
 * [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies and modular invariance in string theory*, Physics Letters B 177 (3-4), 317-323, 1986 (<a href="https://doi.org/10.1016/0370-2693(86)90760-4">doi:10.1016/0370-2693(86)90760-4</a>)
 
+* [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]], *Heterotic string-loop calculation of the anomaly cancelling term*, Nuclear Physics B Volume 289, 1987, Pages 609-627 (<a href="https://doi.org/10.1016/0550-3213(87)90397-X">doi:10.1016/0550-3213(87)90397-X</a>)
+
 * [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]],  [[Nicholas P. Warner]], *Anomaly cancelling terms from the elliptic genus*, Nuclear Physics B Volume 299, Issue 1, 28 March 1988, Pages 91-116 (<a href="https://doi.org/10.1016/0550-3213(88)90468-3">doi:10.1016/0550-3213(88)90468-3</a>)
 
 
