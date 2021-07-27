@@ -236,7 +236,7 @@ General discussion is in
 
 Local presentability of EM-categories is discussed on p. 123, 124 of
 
-* [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  {#AdamekRosicky}
 
 The following paper of Melli&#232;s compares the representability condition of ([Linton 69](#Linton69)) with the [[Segal condition]] that distinguishes those [[simplicial sets]] that are the [[nerves]] of categories.
