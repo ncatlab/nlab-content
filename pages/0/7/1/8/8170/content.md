@@ -41,6 +41,10 @@ On [[Yukawa couplings]] in the [[G2-MSSM]]:
 
 * Eric Gonzalez, [[Gordon Kane]], Khoa Dang Nguyen, [[Malcolm Perry]], _Quark and lepton mass matrices from localization in M-theory on $G_2$ orbifold_ ([arXiv:2002.11820](https://arxiv.org/abs/2002.11820))
 
+and on [[neutrino]] masses:
+
+* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on G2 orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
+
 
 ## Related $n$Lab entries
 
