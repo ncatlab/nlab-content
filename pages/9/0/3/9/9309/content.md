@@ -634,6 +634,11 @@ A completely different approach via [[TT deformation]] of the abelian DBI action
 
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
 
+On [[KK-compactification]] of the non-abelian DBI-action from 10d to 4d:
+
+* Yoshihiko Abe, Tetsutaro Higaki, Tatsuo Kobayashi, Shintaro Takada, Rei Takahashi, *4D effective action from non-Abelian DBI action with magnetic flux background* ([arXiv:2107.11961](https://arxiv.org/abs/2107.11961))
+
+
 
 ### On flavor branes for holographic QCD
 
