@@ -9,15 +9,20 @@
 
 
 
-On [[K-theory]]:
+On [[topological K-theory]]:
 
 * {#Karoubi78} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 * _Lectures on K-theory_, Proc. of the Trieste Conference in 2002, Contemporary Developments in Algebraic K-theory, ICTP Lecture notes __15__ (2003).
 
+On [[cyclic homology]], [[topological K-theory]] and [[differential K-theory]]:
+
+* [[Max Karoubi]], *Homologie cyclique et K-théorie*, Astérisque, no. 149 (1987) ([numdam:AST_1987__149__1_0](http://www.numdam.org/item/AST_1987__149__1_0))
+
+
 On [[equivariant K-theory]]:
 
-* [[Max Karoubi]], _Equivariant K-theory of real vector spaces and real vector bundles_, 	Topology and its Applications, 122, (2002) 531-456 ([arXiv:math/0509497](https://arxiv.org/abs/math/0509497))
+* [[Max Karoubi]], _Equivariant K-theory of real vector spaces and real vector bundles_, Topology and its Applications, 122, (2002) 531-456 ([arXiv:math/0509497](https://arxiv.org/abs/math/0509497))
 
 On [[Bott periodicity]]:
 
@@ -27,9 +32,6 @@ On [[algebraic topology]] and [[differential geometry]]:
 
 * _Algebraic Topology via Differential Geometry_ (with Christian Leruste). Cambridge Univ. Press (1987), based on _M&#233;thodes de g&#233;om&#233;trie diff&#233;rentielle en topologie alg&#233;brique_ (1982, Paris 7)
 
-On [[cyclic homology]]:
-
-* _Homologie cyclique et K-th&#233;orie_, Ast&#233;risque __149__. Soci&#233;t&#233; Math&#233;matique de France (1987).
 
 ## Related $n$Lab entries
 
