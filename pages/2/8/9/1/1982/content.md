@@ -45,9 +45,11 @@ There is a generalization, the noncommutative measure theory, which is more or l
 
 ## References
 
+### General
+
 A comprehensive five-volume treatise (with a sixth volume forthcoming) is
 
-* [[David H. Fremlin]], _[[Measure Theory]]_, Volumes 1–5, Torres Fremlin, Colchester.  Volume 1, 2000; Volume 2, 2001; Volume 3, 2002; Volume 4, 2003; Volume 5, 2008.  [Website](https://www1.essex.ac.uk/maths/people/fremlin/mt.htm).
+* [[David H. Fremlin]], _Measure Theory_, Volumes 1–5, Torres Fremlin, Colchester.  Volume 1, 2000; Volume 2, 2001; Volume 3, 2002; Volume 4, 2003; Volume 5, 2008.  [Website](https://www1.essex.ac.uk/maths/people/fremlin/mt.htm).
 
 A more concise two-volume treatise is
 
@@ -68,12 +70,18 @@ Other texts include
 
 * D. H. Fremlin (2001); _Measure Theory_; 5 volumes, [web](http://www.essex.ac.uk/maths/people/fremlin/mt.htm).
 
+### Via topos theory
+ {#ReferencesViaToposTheory}
+
 Discussion via [[topos theory]]
 
 * {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf), [d-scholarship:7348](http://d-scholarship.pitt.edu/7348))
 
-
 and particularly via [[Boolean toposes]]:
 
 * {#Henry14} [[Simon Henry]], _Measure theory over boolean toposes_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 163 Issue 1, 2016 ([arXiv:1411.1605](https://arxiv.org/abs/1411.1605), [doi:10.1017/S0305004116000700](https://doi.org/10.1017/S0305004116000700))
+
+* [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](arXiv:2010.00681))
+
+
 
