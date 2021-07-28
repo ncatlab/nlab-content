@@ -115,6 +115,8 @@ Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#
 
 ## References
 
+### General
+
 * {#BlassScedrov75} [[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
 
 * {#Diaconescu75}Radu Diaconescu, _Axiom of Choice and Complementation_ , Trans. AMS **51** no.1 (1975) pp.176-178. ([pdf](http://www.ams.org/journals/proc/1975-051-01/S0002-9939-1975-0373893-X/S0002-9939-1975-0373893-X.pdf))
@@ -124,11 +126,16 @@ Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#
 
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vols. I,II_, Oxford UP 2002. (A4.5.22, D3.4, D4.5)
 
-Relation to [[measure theory]] is discussed in
+### Relation to measure theory
+ {#ReferencesRelationToMeasureTheory}
+
+On relation of Boolean toposes to [[measure theory]]:
 
 * {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf), [d-scholarship:7348](http://d-scholarship.pitt.edu/7348))
 
 * {#Henry14} [[Simon Henry]], _Measure theory over boolean toposes_, Mathematical Proceedings of the Cambridge Philosophical Society, 2016 ([arXiv:1411.1605](https://arxiv.org/abs/1411.1605))
+
+* [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](arXiv:2010.00681))
 
  
 
