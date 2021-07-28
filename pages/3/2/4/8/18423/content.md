@@ -223,7 +223,7 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
   
 \end{proposition}
 
-This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 2014, Thm. 0.2](#Pavlov). The analogous statement for [[sheaves of spectra]] (which follows essentially formally) was observed in [Bunke-Nikolaus-Völkl 2013, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case). The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) then appeared also as  [Bunk 2020, Prop. 3.6 with Prop. 3.11](#Bunk20). 
+This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 2014, Thm. 0.2](#Pavlov). The analogous statement for [[sheaves of spectra]] (which follows essentially formally) was observed in [Bunke-Nikolaus-Völkl 2013, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case). The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also claimed as  [Bunk 2020, Prop. 3.6 with Prop. 3.11](#Bunk20). 
 
 \linebreak
 
@@ -674,7 +674,7 @@ with a precursor observation in:
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also proven in:
+The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also claimed in:
 
 * {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces* ([arXiv:2007.06039](https://arxiv.org/abs/2007.06039))
 
