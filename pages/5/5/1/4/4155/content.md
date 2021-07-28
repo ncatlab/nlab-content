@@ -23,7 +23,23 @@
 
 This page is about the modular theory introduced by Tomita for [[von Neumann-algebras]]. It is important both for the structure theory of von Neumann-algebras and in the [[Haag-Kastler approach]] to [[AQFT]], one important example is the [[Bisognano-Wichmann theorem]]. It is often called Tomita-Takesaki theory, because the first presentation beyond a preprint is due to [[Masamichi Takesaki]]. 
 
-## Definition ##
+## nPOV definition
+
+The modern approach to defining the modular automorphism group
+is through the theory of noncommutative [[L_p-spaces]].
+This was pioneered by Haagerup in 1979 \cite{Haagerup} and Yamagami in 1992 \cite{Yamagami}.
+
+In this approach,
+given a [[von Neumann algebra]] $M$, a faithful semifinite normal [[weight]] $\mu$ on $M$, and an [[imaginary number]] $t$,
+the modular automorphism associated to $M$, $\mu$, and $t$ is
+$$\sigma_\mu^t\colon M\to M,\qquad m\mapsto \mu^t m \mu^{-t}.$$
+
+This approach makes it easy to deduce various properties of the modular automorphism group.
+
+For more details, see a [MathOverflow answer](https://mathoverflow.net/questions/386464/making-sense-of-every-non-commutative-algebra-has-its-own-internal-time-evoluti/386481#386481).
+
+
+## Traditional definition ##
 Let $\mathcal{H}$ be a [[Hilbert space]], $\mathcal{M}$ a [[von Neumann-algebra]] with commutant $\mathcal{M}'$ and a separating and cyclic vector $\Omega$. Then there is a **modular operator** $\Delta$ and a **modular conjugation** $J$ such that:
 
 1. $\Delta$ is self-adjoint, positive and invertible (but not bounded).
@@ -48,6 +64,12 @@ $$
 6. $J$ maps $\mathcal{M}$ to $\mathcal{M}'$.
 
 ## References
+
+* {#Haagerup} [[Uffe Haagerup]], [$L^p$-spaces associated with an arbitrary von Neumann algebra](https://dmitripavlov.org/haagerup.pdf).  Algèbres d'opérateurs et leurs applications en physique mathématique.  Colloques Internationaux du Centre National de la Recherche Scientifique 274, 175–184.
+
+* {#Yamagami} [[Shigeru Yamagami]], _Algebraic aspects in modular theory_, Publications of the Research Institute for Mathematical Sciences 28:6 (1992), 1075-1106.  [doi](http://dx.doi.org/10.2977/prims/1195167738).
+
+* [[Shugeru Yamagami]], _Modular theory for bimodules_, Journal of Functional Analysis 125:2 (1994), 327-357.  [doi](http://dx.doi.org/10.1006/jfan.1994.1127).
 
 ### General
 
