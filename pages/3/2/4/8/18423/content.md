@@ -158,7 +158,7 @@ This follows by
 \begin{proposition}\label{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid}
 **(smooth [[shape modality]] given by smooth [[path ∞-groupoid]])**
 
-  For $A \,\in\, SmoothGroupoids_\infty = Sh_\infty(CartesianSpaces)$, 
+  For $A \,\in\, SmoothGroupoids_\infty = Sh_\infty(SmthMfd)$, 
   the **smooth path $\infty$-groupoid**, namely the [[(∞,1)-presheaf]]
 
   $$
@@ -188,9 +188,9 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
      \label{SmoothSingIsInfinitySheaf}
      \mathbf{Sing}(A)
      \;\in\;
-     Sh_\infty(CartesianSpaces)
+     Sh_\infty(SmthMfds)
      \xhookrightarrow{\;\;\;}
-     PSh_\infty(CartesianSpaces)
+     PSh_\infty(SmthMfds)
    \]
 
 1. as such is equivalent to the [[shape modality|shape]] of $A$:
