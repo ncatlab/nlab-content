@@ -6,6 +6,10 @@
 * Tao's [homepage](http://www.math.ucla.edu/~tao) at UCLA
 * Terence Tao's blog: [What's new](http://terrytao.wordpress.com/)
 
+## Selected writings
+
+* [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](arXiv:2010.00681))
+
 category: people
 
 [[!redirects Terry Tao]]
