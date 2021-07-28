@@ -28,9 +28,19 @@ The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert sche
 and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady99), [O'Grady 03](compact+hyperkähler+manifold#OGrady03)
 ), see [Sawon 04, Sec. 5.3](#Sawon04).
 
+## Related concepts
+
+* [[homotopy of rational maps]]
+
 ## References
 
 ### General
+
+Textbook account:
+
+* [[János Kollár]], Chapter I of: *Rational Curves on Algebraic Varieties*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **32**, Springer 1996 ([doi:10.1007/978-3-662-03276-3](https://doi.org/10.1007/978-3-662-03276-3))
+
+   
 
 See also 
 
