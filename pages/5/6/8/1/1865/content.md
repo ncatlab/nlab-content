@@ -166,10 +166,9 @@ See at _[Differential cohomology diagram -- Differential K-theory](differential+
 
 ## References
 
-### History
- {#History}
+### General
 
-An early sketch of a definition, motivated by the description of [[D-brane charge]] in [[string theory]], is in 
+An early sketch of a general definition, motivated by the description of [[D-brane charge]] in [[string theory]], is in 
 
 * [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, Surveys in Differential Geometry, Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
 
@@ -177,7 +176,7 @@ An early sketch of a definition, motivated by the description of [[D-brane charg
 
 Then the general construction of [[differential cohomology]] theories via [[differential function complexes]] of 
 
-* [[Michael Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology, and M-Theory_,  J. Differential Geom. Volume 70, Number 3 (2005), 329-452 ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216))
+* {#HopkinsSinger05} [[Michael Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_,  J. Differential Geom. Volume 70, Number 3 (2005), 329-452 ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216))
 
 (motivated in turn by [[7d Chern-Simons theory]] and the [[M5-brane]] [[partition function]])
 
@@ -189,16 +188,18 @@ For more historical remarks see section 1.6 of
 
 A discussion of more models and their relation in the context of [[cohesive homotopy type theory]] and the [[differential cohomology hexagon]] then appears in 
 
-* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], section 6 of _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Section 6 of: _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-### General
-
-
-A review is in
+Survey:
 
 * {#BunkeSchick10} [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663)).
 
-The Simons-Sullivan model is due to
+
+Cocycle models via [[vector bundles]] [[bundle with connection]]:
+
+* [[Max Karoubi]], *Homologie cyclique et K-théorie*, Astérisque, no. 149 (1987) ([numdam:AST_1987__149__1_0](http://www.numdam.org/item/AST_1987__149__1_0))
+
+* [[John Lott]], *$\mathbf{R}/\mathbf{Z}$ Index theory*, Communications in Analysis and Geometry **2** 2 (1994) 279-311 ([pdf](https://math.berkeley.edu/~lott/rztheory.pdf))
 
 * {#SimonsSullivan} [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv:0810.4935](http://arxiv.org/abs/0810.4935))
   
@@ -220,15 +221,8 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 * {#GradySati19} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
-Discussion of differential versions of [[equivariant K-theory]], in the generality of [[orbifolds]] ([[orbifold differential K-theory]]):
 
-* [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold K-Theory_, J. Noncommut. Geom. 7 (2013), no. 4, 1027-1104 ([arXiv:0905.4181](https://arxiv.org/abs/0905.4181))
-
-The equivalence of these models with the respective special case of the general construction in 
-
-* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
-
-in terms of [[differential function complexes]] is in 
+The equivalence of these models with the respective special case of the general construction in [Hopkins & Singer 05](#HopkinsSinger05) in terms of [[differential function complexes]] is in 
 
 * Kevin Klonoff, _An Index Theorem in Differential K-Theory_ PdD thesis (2008) ([pdf](http://www.lib.utexas.edu/etd/d/2008/klonoffk16802/klonoffk16802.pdf))
 
@@ -279,11 +273,11 @@ The operation of [[T-duality]] on hypothetical [[twisted differential K-theory]]
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see also [there](D-brane#ReferencesKTheoryDescription)):
 
-* {#GradySati19a} Daniel Grady, [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
+* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
 
-* {#GradySati19b} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
 ### Further
