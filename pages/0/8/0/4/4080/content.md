@@ -29,6 +29,11 @@ If $f$ is dominant then in this situation is the composition $g\circ f$ is alway
 
 ## References
 
+Review
+
+* [[János Kollár]], Section 3 of: *Algebraic hypersurfaces*, Bull. Amer. Math. Soc. 56 (2019), 543-568  ([arXiv:1810.02861](https://arxiv.org/abs/1810.02861), [doi:10.1090/bull/1663](https://doi.org/10.1090/bull/1663))
+
+
 See also 
 
 * Wikipedia, *[Rational mapping](https://en.wikipedia.org/wiki/Rational_mapping)*
