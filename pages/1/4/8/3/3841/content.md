@@ -86,6 +86,41 @@ and by construction of $\aleph(X)$, each $X_{\alpha+1} \setminus X_\alpha$ has c
 * Assuming the consistency (with [[ZFC]]) of 'there is a [[proper class]] of [[strongly compact cardinal|strongly compact cardinals]]', it is consistent with $ZF$ that every uncountable cardinal is singular (and in fact every infinite well-orderable cardinal has [[cofinality]] $\aleph_0$), a result due to [[Moti Gitik]].  (Of course this conclusion is inconsistent with $ZFC$, in which many uncountable cardinals, starting with $\aleph_1$, are regular.)
 
 
+## Relevance for category theory
+
+Regular cardinals $\lambda$ are used in the definitions
+of $\lambda$-[[filtered colimits]],
+$\lambda$-[[presentable objects]],
+$\lambda$-[[accessible categories]],
+locally $\lambda$-presentable categories,
+$\lambda$-[[ind-completion]],
+and many notions derived from these, e.g.,
+$\lambda$-[[combinatorial model categories]].
+
+Then notions make sense for all cardinals, not necessarily regular.
+However, the relevant concepts reduce to those for regular cardinals.
+
+Recall that the [[cofinality]] $cof(\lambda)$ of a cardinal $\lambda$
+is the smallest cardinal $\mu$ such that $\lambda$ is a sum
+of $\mu$ cardinals smaller than $\lambda$.
+
+A cardinal $\lambda$ is regular if and only if $\lambda=cof(\lambda)$.
+
+A category has $\lambda$-[[filtered colimits]]
+if and only if it has $cof(\lambda)$-[[filtered colimits]].
+
+A category is locally $\lambda$-presentable
+if and only if it is locally $cof(\lambda)$-presentable.
+
+## Related concepts
+
+* [[large cardinal]]
+
+* [[cofinality]]
+
+* [[arity class]]
+
+
 [[!redirects regular cardinal]]
 [[!redirects regular cardinals]]
 [[!redirects regular cardinal number]]
