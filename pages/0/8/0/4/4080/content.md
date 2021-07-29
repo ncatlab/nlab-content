@@ -29,7 +29,12 @@ If $f$ is dominant then in this situation is the composition $g\circ f$ is alway
 
 ## References
 
-Review
+Textbook account:
+
+* {#ShafarevichVol1} [[Igor Shafarevich]], Section 1.4 of: *Basic Algebraic Geometry 1 -- Varieties in Projective Space*, Springer 1977, 1994, 2013 ([pdf](http://userpage.fu-berlin.de/aconstant/Alg2/Bib/Shafarevich.pdf), [doi:10.1007/978-3-642-57908-0](https://link.springer.com/book/10.1007/978-3-642-57908-0))
+
+
+Review:
 
 * [[János Kollár]], Section 3 of: *Algebraic hypersurfaces*, Bull. Amer. Math. Soc. 56 (2019), 543-568  ([arXiv:1810.02861](https://arxiv.org/abs/1810.02861), [doi:10.1090/bull/1663](https://doi.org/10.1090/bull/1663))
 
