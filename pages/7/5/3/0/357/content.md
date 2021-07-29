@@ -212,6 +212,8 @@ Virtual double categories can be viewed as "the natural place in which to enrich
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_, [link](http://www.maths.gla.ac.uk/~tl/book.html), [arXiv:0305049](http://arxiv.org/abs/math/0305049)
 
+* [[Tom Leinster]], **fc**-multicategories, [arxiv](https://arxiv.org/abs/math/9903004) (1999)
+
 * [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, [arXiv:0907.2460](http://arxiv.org/abs/0907.2460)
 {#CruttwellShulman}
 
