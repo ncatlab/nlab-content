@@ -18,6 +18,8 @@ This entry provides a hyperlinked index for the textbook
 
   Cambridge University Press (1994)
 
+  [doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136)
+
   [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)
 
 which gives a first exposition to central concepts in _[[homological algebra]]_.
