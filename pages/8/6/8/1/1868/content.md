@@ -465,3 +465,8 @@ The observation then re-appears independently in
 
 [[!redirects twisted unitary bundle]]
 [[!redirects twisted unitary bundles]]
+
+[[!redirects connection on a twisted vector bundle]]
+[[!redirects connections on a twisted vector bundle]]
+[[!redirects connections on twisted vector bundles]]
+
