@@ -64,12 +64,21 @@ When $Y = \coprod_i U_i$ comes form an an open [[cover]] $\{U_i \to X\}$ the abo
 
 ## References 
 
-The concept of bundle gerbe modules was introduced in 
+The concept is due to 
 
-* {#CBMMS}  [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
+* {#BCMMS02}  [[Peter Bouwknegt]], [[Alan Carey]], [[Varghese Mathai]], [[Michael Murray]], [[Danny Stevenson]], Section 4 of: _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194), [doi:10.1007/s002200200646](https://doi.org/10.1007/s002200200646))
+
+recognized as equivalent to earlier discussion of [[twisted bundles]] in
+
+* {#LupercioUribe01} [[Ernesto Lupercio]], [[Bernardo Uribe]], Prop. 7.2.2 (from v2 on) in: *Gerbes over Orbifolds and Twisted K-theory*, Comm. Math. Phys. 245(3): 449-489.  ([arXiv:math/0105039](http://arxiv.org/abs/math/0105039), [doi:10.1007/s00220-003-1035-x](https://doi.org/10.1007/s00220-003-1035-x))
+
   
+both motivated by modelling [[twisted K-theory]] in terms of [[Grothendieck groups]] of [[twisted bundles]].
 
-for modelling [[twisted K-theory]] by [[twisted bundle]]s.
+The [[Cech cohomology|Cech cocycle]]-incarnation of bundle gerbe modules (effectively due to [Lupercio & Uribe 2001, Def. 7.2.1](#LupercioUribe01)) was then also considered in:
+
+* {#Mackaay03} [[Marco Mackaay]], _A note on the holonomy of connections in twisted bundles_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 44 (2003) no. 1, pp. 39-62.  ([arXiv:math/0106019](http://arxiv.org/abs/math/0106019), [numdam:CTGDC_2003__44_1_39_0](http://www.numdam.org/item/?id=CTGDC_2003__44_1_39_0))
+
 
 A [[splitting principle]] for bundle gerbe modules is discussed in
 
