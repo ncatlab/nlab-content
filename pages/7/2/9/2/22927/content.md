@@ -22,3 +22,8 @@ unlike the little disks operad.
 * [[Alexander Voronov]], _The Swiss-Cheese Operad_, [arXiv:math/9807037](https://arxiv.org/abs/math/9807037).
 
 * [[Najib Idrissi]], _Swiss-Cheese operad and Drinfeld center_, [arXiv:1507.06844](https://arxiv.org/abs/1507.06844).
+
+See also
+
+* Wikipedia, [Swiss-cheese operad](https://en.wikipedia.org/wiki/Operad#Swiss-cheese_operad) in Operad.
+
