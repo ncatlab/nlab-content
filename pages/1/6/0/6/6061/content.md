@@ -112,7 +112,7 @@ turns out to
      \;\;\;
      \in
      \;
-     H^{H_3}_{dR}(X)
+     H^{3 + H_3}_{dR}(X)
    \]
 
    is independent of the choices ($B_2$, $\nabla_1$, $\nabla_2$) made.
