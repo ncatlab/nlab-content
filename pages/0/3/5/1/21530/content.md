@@ -59,6 +59,10 @@ This is the approach taken in [AdemRuan 01, Def. 3.4](#AdemRuan01)
 
 ### General
 
+The definition originates, via [[bundle gerbes]] and [[bundle gerbe modules]] on [[Lie groupoids]], in: 
+
+* {#LupercioUribe01} [[Ernesto Lupercio]], [[Bernardo Uribe]], *Gerbes over Orbifolds and Twisted K-theory*, Comm. Math. Phys. **245** (2004) 449-489.  ([arXiv:math/0105039](http://arxiv.org/abs/math/0105039), [doi:10.1007/s00220-003-1035-x](https://doi.org/10.1007/s00220-003-1035-x))
+
 The definition of the K-theory of [[global quotient orbifolds]] as the [[twisted equivariant K-theory]] of the [[universal covering space]] appears in
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
