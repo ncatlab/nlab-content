@@ -5,7 +5,7 @@
 
 ## Idea
 
-A regular cardinal is is a [[cardinal number]] that is 'closed under union'.  The [[category]] of [[sets]] bounded by a regular cardinal has several nice properties, making it a [[universe]] that is handy for some purposes but falls short of being a [[Grothendieck universe]].  Unlike Grothendieck universes (which are based on [[inaccessible cardinals]] rather than regular cardinals), it is easy to prove that (even [[uncountable set|uncountable]]) regular cardinals exist.
+A regular cardinal is is a [[cardinal number]] that is 'closed under [[union]]'.  The [[category]] of [[sets]] bounded by a regular cardinal has several nice properties, making it a [[universe]] that is handy for some purposes but falls short of being a [[Grothendieck universe]].  Unlike Grothendieck universes (which are based on [[inaccessible cardinals]] rather than regular cardinals), it is easy to prove that (even [[uncountable set|uncountable]]) regular cardinals exist.
 
 
 ## Definitions
