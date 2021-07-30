@@ -134,7 +134,7 @@ Linearly distributive categories that are both closed and co-closed can be ident
 
 ## History
 
-The concept was originally called a _weakly distributive category_  and was introduced by [[Robin Cockett]] and [[Robert Seely]] in 1991 at the Durham conference on applications of categories ([Cockett-Seely 97](#CockettSeely97)).  Subsequently, in recognition of their fundamental role in the [[categorical semantics]] for the [[proof theory]] of [[linear logic]], and the fact that they are not a "weakening" of [[distributive categories]] in any standard sense, they were renamed to _linearly distributive categories_.
+The concept was originally called a _weakly distributive category_  and was given prominence by [[Robin Cockett]] and [[Robert Seely]] in 1991 at the Durham conference on applications of categories ([Cockett-Seely 97](#CockettSeely97)).  Subsequently, in recognition of their fundamental role in the [[categorical semantics]] for the [[proof theory]] of [[linear logic]], and the fact that they are not a "weakening" of [[distributive categories]] in any standard sense, they were renamed to _linearly distributive categories_.
 
 A key feature of linearly distributive categories is the existence of [[morphisms]] of the form
 
@@ -142,7 +142,7 @@ $$
    \delta \colon A \otimes (B \parr C) \longrightarrow (A \otimes B) \parr C
 $$
 
-which exhibit linear [[distributivity]].  The importance of this map had previously  been overlooked in the [[linear logic]] community due to the (continuing) tendency to write [[sequents]]  in a one-sided manner.  However, the importance of the map was gradually being realized:  for example [[Valeria de Paiva]] and [[Martin Hyland]] had independently pointed out the significance of the map.
+which exhibit linear [[distributivity]].  The importance of this map had previously  been overlooked in the [[linear logic]] community due to the (continuing) tendency to write [[sequents]]  in a one-sided manner.  However, the importance of the map was realized:  for example [[Valeria de Paiva]] and [[Martin Hyland]] had independently pointed out the significance of the map, several years earlier in de Paiva's thesis.
 
 Linearly distributive categories were introduced to modularize the [[proof theory]] of [[linear logic]] and to allow a more systematic approach to the then still unsolved [[coherence]] problems associated with the units in linear logic.  This program of work culminated in a solution which was published in ([BCST 1996](#BCST))
 
