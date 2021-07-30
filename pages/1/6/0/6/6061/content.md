@@ -28,7 +28,7 @@ The **twisted Chern character** analogously goes from [[twisted K-theory]] to [[
 ### In terms of twisted curvature characteristic forms
  {#InTermsOfTwistedCurvatureCharacteristicForms}
 
-At least for [[torsion subgroup|torsion]]-class twists $\tau_3 \in \,H^3(X;, \mathbb{Z})\,$ (e.g. modeled as a [[bundle gerbe]]) on [[compact topological space|compact]] [[smooth manifolds]] $X$, a class in the [[twisted K-theory]] $KU^{\tau_3}(X)$ may be represented as a suitable [[Grothendieck group]]-[[equivalence class]] $[V_1,V_2]$ of a [[pair]] $V_1, V_2 \in TwVectBund^{\tau_3}(X)$ of [[complex vector bundles|complex]] [[twisted vector bundles]] (e.g. modeled as [[bundle gerbe modules]]). 
+For a degree-3 [[ordinary cohomology]]-class $\tau_3 \in \,H^3(X;, \mathbb{Z})\,$ (e.g. modeled as a [[bundle gerbe]]) on a [[compact topological space|compact]] [[smooth manifold]] $X$, a class in the $\tau_3$-[[twisted K-theory]] $KU^{\tau_3}(X)$ may be represented as a suitable [[Grothendieck group]]-[[equivalence class]] $[V_1,V_2]$ of a [[pair]] $V_1, V_2 \in TwVectBund^{\tau_3}(X)$ of [[complex vector bundles|complex]] [[twisted vector bundles]] (e.g. modeled as [[bundle gerbe modules]], possibly of infinite [[rank of a vector bundle|rank]]). 
 
 Then for any lift of the twist $\tau_3$ [to](ordinary+differential+cohomology#CurvatureAndCharClass) a [[Deligne cohomology|Deligne cocycle]] $[h_0, A_1, B_2, H_3]_U$ (a [[connection on a bundle gerbe]]) with respect to some [[surjective submersion]] $p \colon U \twoheadrightarrow X$, hence in particular with a [[differential 2-form]] (the local [[B-field]])
 
@@ -40,13 +40,18 @@ Then for any lift of the twist $\tau_3$ [to](ordinary+differential+cohomology#Cu
   \,,
 \]
 
-one may make a choice of [[connections on twisted vector bundles]] $(\nabla_1, \nabla_2)$ on $(V_1, V_2)$, and this induces [[square matrix]]-valued [[curvature 2-forms]] 
+one may make a choice of [[connections on twisted vector bundles]] $(\nabla_1, \nabla_2)$ on $(V_1, V_2)$, and this induces [[endomorphism ring]]-valued [[curvature 2-forms]] 
 
 \[
   \label{TwistedCurvatureForms}
-  (F_1, F_2) 
+  F_i 
     \,\in\, 
-  \Omega^2\big(U, Mat(\mathbb{C})\big)
+  \Omega^2
+  \big(
+    U, 
+    \,
+    End(V_i)
+  \big)
 \]
 
 on the cover. 
@@ -72,6 +77,8 @@ Now the twisted [[characteristic form]] (eq:TwistedCharacteristicFormOnCover) ob
 \]
 
 turns out to
+
+1. be well-defined, in that the [[traces]] all exist;
 
 1. be the [[pullback of differential forms|pullback]] of an even-degree [[differential form]] on $X$
 
@@ -114,7 +121,6 @@ turns out to
 
 This class (eq:TwistedChernCharacterAsTwistedDeRhamClassOfTwistedCharClass) is the *twisted Chern character* of the twisted K-theory class $[V_1, V_2]$ ([BCMMS 2002, p. 26](#BCMMS02)).
 
-Generalization to non-torsion twists and infinite-rank twisted vector bundle is possible but notoriously subtle.
 
 ## References
 
