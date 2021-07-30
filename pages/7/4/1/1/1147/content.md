@@ -157,3 +157,10 @@ $$
 
 For the analogous result in the context of [[(∞,1)-category]] theory see
 <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#WithOvercategories">(∞,1)-Category of (∞,1)-presheaves -- Interaction with overcategories</a>
+
+
+## Related concepts
+
+* [[comma category]]
+
+* [[presheaf]]
