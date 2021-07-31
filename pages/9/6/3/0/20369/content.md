@@ -33,6 +33,7 @@ Rust on Parity Substrate can be used for smart contracting via Ink eDSL package
 
 Some research papers
 
+* Oxide: The Essence of Rust ([arXiv:1903.00982](https://arxiv.org/abs/1903.00982))
 * _RustBelt: securing the foundations of the rust programming language_ [doi](https://doi.org/10.1145/3158154) (open access)
 * B. Lamowski et al. _Sandcrust: automatic sandboxing of unsafe components in Rust_, [doi](https://doi.org/10.1145/3144555.3144562)
 * Garming Sam, Nick Cameron, Alex Potanin, _Automated refactoring of rust programs_,  ACSW '17: Proceedings of the Australasian Computer Science Week Multiconference [doi](https://doi.org/10.1145/3014812.3014826)
