@@ -43,6 +43,8 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 * **general**
 
   * [[Python]]
+* **[[linear logic]]
+  * [[Rust]]
 
 * **[[higher order logic]]**:
 
