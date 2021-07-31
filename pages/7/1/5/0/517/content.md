@@ -29,6 +29,11 @@ On [[infinite loop spaces]]:
 
   _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
 
+On [[E-infinity spaces|$E_\infty$-spaces]] and [[E-infinity ring spectra|$E_\infty$-ring sectra]]:
+
+* [[Peter May]] with contributions by [[Frank Quinn]], [[Nigel Ray]] and [[Jørgen Tornehave]], _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_, Lecture Notes in Mathematics 577, Springer 1977 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf), [cds:1690879](https://cds.cern.ch/record/1690879))
+
+
 On [[equivariant cohomology]] and [[equivariant homotopy theory]]:
 
 * {#May96} [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics Volume: 91; 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
