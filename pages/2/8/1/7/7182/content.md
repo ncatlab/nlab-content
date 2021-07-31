@@ -15,7 +15,7 @@ The __scissors congruence group__  $\mathcal{P}(X,G)$ where $G$ is a subgroup of
 
 (i) $[P]-[P']-[P'']$ when $P = P'\coprod P''$,
 
-(ii) $[gP]-[P]$.
+(ii) $[g P]-[P]$.
 
 In the book 
 
