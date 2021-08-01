@@ -32,7 +32,9 @@ with further accounts in:
 
 * {#Cairns61} [[Stewart S. Cairns]], *A simple triangulation method for smooth manifolds*, Bull. Amer. Math. Soc. 67 (1961), 389-390 ([doi:10.1090/S0002-9904-1961-10631-9](https://doi.org/10.1090/S0002-9904-1961-10631-9))
 
-* [[Jacob Lurie]], *Existence of Triangulations* ([pdf](https://www.math.ias.edu/~lurie/937notes/937Lecture4.pdf))
+    > (but see [MO:a/177199](https://mathoverflow.net/a/177199/381), where this "simpler argument" is claimed to be wrong)
+
+* [[Jacob Lurie]], *Existence of Triangulations* ([pdf](https://www.math.ias.edu/~lurie/937notes/937Lecture4.pdf)), Lecture 4 in: *[Topics in Geometric Topology](https://www.math.ias.edu/~lurie/937.html)* 
 
 Generalization to existence of [[equivariant triangulation]] for smooth [[G-manifolds]] ([[equivariant triangulation theorem]]):
 
