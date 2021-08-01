@@ -38,7 +38,7 @@ The definition is stated for instance as def. 2.3.3 in
 
 Lecture notes include
 
-* [[William  Fulton]], R. Pandharipande, _Notes on stable maps and quantum cohomology_ ([arXiv:alg-geom/9608011](http://arxiv.org/abs/alg-geom/9608011))
+* [[William Fulton]], R. Pandharipande, _Notes on stable maps and quantum cohomology_ ([arXiv:alg-geom/9608011](http://arxiv.org/abs/alg-geom/9608011))
 
 
 [[!redirects stable maps]]
