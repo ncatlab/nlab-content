@@ -36,9 +36,9 @@ with further accounts in:
 
 * [[Jacob Lurie]], *Existence of Triangulations* ([pdf](https://www.math.ias.edu/~lurie/937notes/937Lecture4.pdf)), Lecture 4 in: *[Topics in Geometric Topology](https://www.math.ias.edu/~lurie/937.html)* 
 
-A detailed exposition is available in Chapter II of
+A detailed exposition is available in Chapter II (see Thm. 10.6) of
 
-* [[James R. Munkres]], _Elementary Differential Topology_, Annals of Mathematics Studies 54 (1966), Princeton University Press, [doi](http://dx.doi.org/10.1515/9781400882656).
+* [[James R. Munkres]], _Elementary Differential Topology_, Annals of Mathematics Studies 54 (1966), Princeton University Press ([doi:10.1515/9781400882656](http://dx.doi.org/10.1515/9781400882656)).
 
 Generalization to existence of [[equivariant triangulation]] for smooth [[G-manifolds]] ([[equivariant triangulation theorem]]):
 
