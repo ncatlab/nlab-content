@@ -14,4 +14,8 @@ Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
 
 * [[Ron Donagi]], [[Sheldon Katz]], [[Eric Sharpe]], _Spectra of D-branes with Higgs vevs_, Adv.Theor.Math.Phys. 8 (2005) 813-859 ([arXiv:hep-th/0309270](https://arxiv.org/abs/hep-th/0309270))
 
+On [[enumerative geometry]] and [[string theory]]/[[Gromov-Witten theory]]:
+
+* {#Katz06} [[Sheldon Katz]], *Enumerative Geometry and String Theory*, Student Mathematical Library **32** AMS (2006) ([ISBN:978-1-4704-2143-4](https://bookstore.ams.org/stml-32), [spire:739788](https://inspirehep.net/literature/739788))
+
 category: people
