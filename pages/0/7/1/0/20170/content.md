@@ -33,6 +33,8 @@ Moreover, if the manifold does have a [[manifold with boundary|boundary]], then 
 
 ## Related concepts
 
+* [[triangulation theorem]]
+
 * [[equivariant differential topology]]
 
 ## References
