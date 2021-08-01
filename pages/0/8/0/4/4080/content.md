@@ -38,6 +38,10 @@ Review:
 
 * [[János Kollár]], Section 3 of: *Algebraic hypersurfaces*, Bull. Amer. Math. Soc. 56 (2019), 543-568  ([arXiv:1810.02861](https://arxiv.org/abs/1810.02861), [doi:10.1090/bull/1663](https://doi.org/10.1090/bull/1663))
 
+Lecture notes:
+
+* Daniel Plaumann, *Rational Functions and Maps* ([pdf](http://www.math.uni-konstanz.de/~plaumann/CAG15/cagslides05.pdf), [[Plaumann_RationalFunctionsAndmaps.pdf:file]]), Lecture 5 in *Classical algebraic geometry* 2015 
+
 
 See also 
 
