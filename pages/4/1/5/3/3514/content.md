@@ -31,24 +31,29 @@ His contributions to [[mathematics]] include the following:
 
 ## Selected writings
 
+On the [[triangulation theorem]] for [[smooth manifolds]]:
+
+* {#Whitehead40} [[J. H. C. Whitehead]], *On $C^1$-complexes*, Ann. of Math. (2) 41 (1940), 809–824 ([doi:10.2307/1968861](https://doi.org/10.2307/1968861), [jstor:1968861](https://www.jstor.org/stable/1968861))
+
+On the [[Hopf invariant]]:
+
 * [[J. H. C. Whitehead]], _An expression of Hopf ’s invariant as an integral_, Proc. Nat. Acad. Sci. U. S. A.33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
-  (on the [[Hopf invariant]])
+On [[homotopy theory]] via [[crossed modules]]:
 
 * [[J. H. C. Whitehead]], _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
 
  * [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull.
 Amer. Math. Soc., 55 (1949), 453--496.
 
-  (on [[homotopy theory]] via [[crossed modules]])
+
+On [[homotopy theory]]:
 
 * [[J. H. C. Whitehead]], _Algebraic Homotopy Theory_, in Proc. Int. Cong. of Mathematics, Harvard, volume 2, 354 – 357. 51 (1950)
 
-  (on [[homotopy theory]])
+On [[simple homotopy type]]: 
 
 * [[J. H. C. Whitehead]], Simple homotopy type, Amer. J. Math., 72, (1950), 1 - 57.
-
-  (on [[simple homotopy type]]).
 
 
 
