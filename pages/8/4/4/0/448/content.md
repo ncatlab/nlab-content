@@ -170,6 +170,10 @@ As an important step:
 
 The basic technique is to use [[subdivision]]. 
 
+## Related concepts
+
+* [[triangulation]], [[triangulation theorem]]
+
 
 ## References
 
