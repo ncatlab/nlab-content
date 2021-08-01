@@ -22,6 +22,10 @@
 
 A _piecewise-linear manifold_, or _PL manifold_ for short, is a [[manifold]] whose transition functions are [[piecewise linear functions]].
 
+## Related concepts
+
+* [[triangulation theorem]]
+
 ## References
 
 See also
