@@ -245,25 +245,35 @@ See also
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
-### Classification by rational map
+### Classification by rational maps
 
-On the classification of monopoles by [[rational maps]] between [[Riemann spheres]]:
+On the classification of monopoles by [[rational maps]], namely [[holomorphic maps]] between [[Riemann spheres]]:
 
 
 
 * {#Donaldson84} [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
 
-* {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_ , M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
+* {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_, M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
 
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+
+  > (relation to [[homotopy of rational maps]])
 
 * [[Michael Atiyah]], [[Nigel Hitchin]], J. T. Stuart and M. Tabor, _Low-Energy Scattering of Non-Abelian Magnetic Monopoles_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences Vol. 315, No. 1533, New Developments in the Theory and Application of Solitons (Aug. 13, 1985), pp. 459-469 ([jstor:37546](https://www.jstor.org/stable/37546))
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
-* Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles from Rational Maps* ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
+* Charles P. Boyer, B. M. Mann, *Monopoles, non-linear $\sigma$-models, and two-fold loop spaces*,  Commun. Math. Phys. 115, 571–594 (1988) ([arXiv:10.1007/BF01224128](https://doi.org/10.1007/BF01224128))
+
+  > (generalization to [[rational maps]] to [[complex projective spaces]])
 
 
+* S. Jarvis, *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
+ 
+
+
+
+* Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
 
 * [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([arXiv:0908.1938](https://arxiv.org/abs/0908.1938))
 
