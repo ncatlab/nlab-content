@@ -330,7 +330,7 @@ and
 
 =--
 
-### Symmetric Monoidal Structures on the Category of Sketches
+### Monoidal Structures on the Category of Sketches
 
 The category of sketches is well behaved: it is complete, cocomplete, cartesian closed and has a second symmetric monoidal closed structure.
 
@@ -370,7 +370,7 @@ The set of diagrams is the union of the following three sets:
 
 * The set of cones and cocones are define analogously to the set of commuting diagrams, except _only_ the vertical and horizontal cones are taken. 
      
-This tensor product, along with the unit $(\ast, \emptyset, \emptyset, \emptyset)$, gives the category of sketches a second symmetric monoidal category.
+This tensor product, along with the unit $(\ast, \emptyset, \emptyset, \emptyset)$, gives the category of sketches a monoidal structure.
 =--
 
 This monoidal structure is useful for considering structures like double categories (i.e. categories in the category of categories).
@@ -381,6 +381,15 @@ This monoidal structure is useful for considering structures like double categor
 Let $S,T$ be sketches, and $X$ some category. Then the category of models of $S$ in the category of models of $T$ in $X$ is equivalent to the category of models of $S \otimes T$ in $X$.
 
 =--
+
+One can ask when $S \otimes T$ has the same models as $T \otimes S$, i.e. when $S$-models in the category of $T$-models are the same as $T$-models in the category of $S$-models.
+This is the case, roughly, when the colimits and limits specified in the sketches commute. For example, since limits always commute, you can swap the sketches if both are limit sketches. And you can swap a finite product sketch with a sifted colimit sketch etc. For more precise statements see David Bensons article and the references therein.
+
+
+In general one can not swap the order in the monoidal product.
+For example take the (terminal object + coproduct)-sketch $S$ whose models are maps $X \to X \coprod 1$ and the finite product sketch $M$ whose models are monoids. Look at models of these in $Set$:
+Since in the category of monoids the terminal object is also initial, the coproduct of a monoid with the terminal object is isomorphic to that monoid again. Therefore $S$-models in $M$-Mod are monoids with an endomorphism.
+On the other hand $M$-models in $S$-Mod are pairs of monoids one of which has one element more, plus a homomorphism between them. These categories do not seem to be equivalent.
 
 ## Related concepts
 
@@ -409,6 +418,10 @@ Reprints in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](htt
 That not only every sketchable category is [[accessible category|accessible]] but that conversely every [[accessible category]] is sketchable is due to
 
 * Christian Lair, _Cat&#233;gories modelables et cat&#233;gories esquissables_, [Diagrammes (1981)](http://www.numdam.org/article/DIA_1981__6__A5_0.pdf).
+
+The tensor product of sketches is investigated here:
+
+* David D. Benson, Multilinearity of sketches, [TAC, vol.11, nr. 3, pp.269-277](http://www.tac.mta.ca/tac/volumes/1997/n11/n11.pdf)
 
 The category of sketches itself was studied as a [[categorical semantics]] for [[type theory]] in:
 
