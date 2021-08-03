@@ -13,15 +13,19 @@
 =--
 =--
 
-#Thick subcategories and Serre quotient categories#
+#Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-A [[full subcategory|full]] [[triangulated subcategory]] is __thick__ (or __&#233;paisse__) if it is closed under [[extension]]s. 
+A non-[[empty category|empty]] [[full subcategory|full]] [[triangulated subcategory]] is called _thick_ (or __&#233;paisse__) if it is closed under taking [[direct summands]] (e.g. [Murayama, Def. 11](#Murayama)).
 
-Sometimes the same definition is used in [[abelian categories]] as well. However, for many authors, including [[Pierre Gabriel]], in abelian categories, this term denotes the stronger notion of a [[topologizing subcategory]] closed under extensions; in other words, a nonempty full subcategory $T$ of an abelian category $A$ is  __thick__ (in the strong sense) iff  for every exact sequence 
+Sometimes this is considered in the generality of [[abelian categories]], where a thick subcategory is an [[additive category|additive]] [[full subcategory]] which closed under taking [[direct summands]], [[kernels]] of [[epimorphisms]], [[cokernels]] of [[monomorphisms]], and [[extensions]] (e.g. [Dichev 2009](#Dichev09)).
+
+> The following needs harmonizing.
+
+However, for many authors, including [[Pierre Gabriel]], in abelian categories, this term denotes the stronger notion of a [[topologizing subcategory]] closed under extensions; in other words, a nonempty full subcategory $T$ of an abelian category $A$ is  __thick__ (in the strong sense) iff  for every exact sequence 
 $$
 0 \longrightarrow M\longrightarrow M''\longrightarrow M'\longrightarrow 0
 $$
@@ -86,6 +90,12 @@ Conversely, let $\Sigma$ be a saturated class of morphisms of $A$ with a calculu
 * [[A. L. Rosenberg]], _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
 
 * {#Schubert70b} H. Schubert, _Kategorien II_ , Springer Heidelberg 1970.
+
+* {#Murayama} Takumi Murayama, *The classification of thick subcategories and Balmer's reconstruction theorem* ([pdf](https://web.math.princeton.edu/~takumim/NeemanBalmer.pdf))
+
+Discussion for [[quiver representations]]:
+
+* {#Dichev09} Nikolay Dimitrov Dichev, *Thick subcategories for quiver representations* 2009 ([pdf](https://d-nb.info/995877602/34))
 
 [[!redirects thick subcategories]]
 [[!redirects epaisse subcategory]]
