@@ -19,9 +19,9 @@
 
 ## Definition
 
-A (nonempty) [[full subcategory]] $T$ of an [[abelian category]] $A$ (so  for the moment of (say left) modules over a [[ring]] $R$) is a __Serre subcategory__ if for any [[exact sequence]]
+A (nonempty) [[full subcategory]] $T$ of an [[abelian category]] $A$ is a __Serre subcategory__ if for any [[exact sequence]]
 $$
-0\to M\to M'\to M''\to 0
+ M\to M'\to M''
 $$
 $M'$ is in $T$ iff $M$ and $M''$ are in $T$. 
 
@@ -43,5 +43,9 @@ has a (nonzero) [[subobject]] from $T$.  This becomes an idempotent operation on
 Moreover $\bar{T}$ is always [[thick subcategory|thick]] in the stronger sense (that is, thick and topologizing). 
 
 __Serre subcategories in the strong sense__ are those nonempty full subcategories which are stable under the operation $T\mapsto\bar{T}$.
+
+## References
+
+* [[The Stacks Project]], *[Serre subcategories](https://stacks.math.columbia.edu/tag/02MN)*
 
 [[!redirects Serre subcategories]]
