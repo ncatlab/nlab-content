@@ -165,7 +165,7 @@ $$
   \,.
 $$
 
-Ones says that the original square satisfies the **[[Beck-Chevalley condition]]** if this mate is an [[equivalence]].
+One says that the original square satisfies the **[[Beck-Chevalley condition]]** if this mate is an [[equivalence]].
 
 =--
 
