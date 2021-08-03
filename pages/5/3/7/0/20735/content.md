@@ -360,6 +360,9 @@ Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states
 
 [[!redirects moduli spaces of monopoles]]
 
+[[!redirects moduli space of Yang-Mills monopoles]]
+[[!redirects moduli spaces of Yang-Mills monopoles]]
+
 [[!redirects moduli space of k monopoles]]
 [[!redirects moduli spaces of k monopoles]]
 
