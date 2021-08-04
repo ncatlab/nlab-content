@@ -1,8 +1,6 @@
-
-
 $\doubleheadarrow$
 
-$\rfloor$ $\lfoor$
+$\rfloor$ $\lfloor$
 
 * [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies, characters and strings*, Nuclear Physics B Volume 287, 1987, Pages 317-361 (<a href="https://doi.org/10.1016/0550-3213(87)90108-8">doi:10.1016/0550-3213(87)90108-8</a>)
 
