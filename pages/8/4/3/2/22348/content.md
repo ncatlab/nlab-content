@@ -4,14 +4,20 @@
 
 A _situs_ is a notion of generalised topological space, and 
  defined as a simplicial object of 
-the [[category of filters|category of filters on sets]], i.e. 
+the [[category of filters|category of filters on sets]] 
+or, equivalently, the category of finitely additive measures 
+taking values 0 and 1 only, i.e. 
 a simplicial set equipped, for each $n\geq 0$, 
-with a filter on the set of $n$-simplices such that 
+with a filter, equiv. such a measure, 
+on the set of $n$-simplices such that 
 under any face or degeneration map the preimage of a large set is large. 
 We denote the category of situses by s&#x12CB;.
+Most of what we say below would also apply to the category $sM$ of _simplicial sets with finitely additive measures_ obtained by 
+dropping the restriction that the measure takes only two values. 
+With appropriate definitions, s&#x12CB; is a full subcategory of $sM$.
 
 
-Intuitively, these filters are viewed 
+Intuitively, these filters(measures) are viewed 
 as additional structure of topological nature on a simplicial set 
 ("the situs structure on a simplicial set")
 giving a meaning to the phrase "a simplex is sufficiently small":
