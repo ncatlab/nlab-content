@@ -26,7 +26,7 @@ iff it holds on a set in the filter, and we refer to sets
 in the filter as _neighbourhoods_. 
 In particular, 
 the situs structure "on a set" (i.e. on the simplicial set represented by the set) allows one to talk about an n-tuple of points 
-being "sufficiently nearby each other" for $n\ge 2$.
+being "sufficiently near each other" for $n\ge 2$.
 This extends to simplicial language the standard intuition of topology 
 available for  pairs of points (n=2):
 given a topological structure on a set, the precise meaning of the phrase
