@@ -29,7 +29,7 @@ An equivalent definition can be obtained algebraically, or category-theoreticall
 
 The Reidemeister trace was introduced in 
 
-* [[Kurt Reidemeister]] _Automorphismen von Homotopiekettenringen_, Mathematische
+* [[Kurt Reidemeister]], _Automorphismen von Homotopiekettenringen_, Mathematische
 Annalen, 112:586&#8211;593 (1936)
 
 A modern treatment is in
