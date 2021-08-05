@@ -148,6 +148,7 @@ For special properties of categories of monoids, see [[category of monoids]].
 * A monoid object in [[Ho(Top)]] is an [[H-monoid]].
 * A monoid object in the category of monoids (with cartesian product as the tensor product) is a [[commutative monoid]].  This is a version of the [[Eckmann-Hilton argument]].
 * A monoid object in the category of complete join-[[semilattice]]s (with its tensor product that represents maps preserving joins in each variable separately) is a unital [[quantale]].
+* The category of [[pointed set]]s has a monoidal structure given by the [[smash product]]. A monoid object in this monoidal category is an [[absorption monoid]].
 * Given any monoidal category $C$, a monoid in the monoidal category $C^{op}$ is called a [[comonoid]] in $C$.
 * In a [[cocartesian monoidal category]], every object is a monoid object in a unique way.
 * For any category $C$, the [[endofunctor]] category $C^C$ has a monoidal structure induced by composition of endofunctors, and a monoid object in $C^C$ is a [[monad]] on $C$.
