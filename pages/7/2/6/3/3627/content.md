@@ -38,6 +38,6 @@
 
 * [[Pilar Carrasco]], 1987, _Complejos Hipercruzados, Cohomologia y Extensiones_, Ph.D. thesis, Universidad de Granada. 
 
-* [[Pilar Carrasco|P. Carrasco]] and [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_, J. Pure Appl. Alg., 75, (1991), 195 &#8211; 235.
+* [[Pilar Carrasco|P. Carrasco]] and [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_, J. Pure Appl. Alg., 75, (1991), 195 &#8211; 235. <https://doi.org/10.1016/0022-4049(91)90133-M>
 
 [[!redirects hypercrossed complexes]]
