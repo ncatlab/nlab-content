@@ -44,7 +44,9 @@ From this picture, we can see that:
 
 The fact that $Quiv$ is a presheaf topos allows us to use [[topos theory]], which give answers to questions like whether finite [[limit|limits]] of directed graphs exist, or how to construct the [[exponential object|exponential]] quiver $Y^X$ of all morphisms $X\to Y$ between two quivers in $Quiv$. 
 
-In the following subsections, some of the structure of the topos $Quiv$ will be worked out explicitly. 
+The [[initial object]] $0$ in $Quiv$ is the graph without vertices and edges aka the _empty graph_. The [[terminal object]] is the graph $1$ with one vertice and one edge. [[point|Points]] of an arbitrary graph $Y$ i.e. maps $1\to Y$ then correpond to _loops_ in $Y$ whence any loopfree graph with a vertice has no points but is not empty ($\neq 0$).
+ 
+In the following subsections, more of the structure of the topos $Quiv$ will be worked out explicitly. 
 
 ### The subobject classifier{#Omega_graph}
 
@@ -136,6 +138,8 @@ Furthermore, since it is a general result for presheaf toposes (cf. [La Palme Re
 ## Related entries
 
 * [[hypergraph]]
+
+* [[graphic category]]
 
 
 ## References
