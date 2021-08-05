@@ -626,7 +626,7 @@ A discussion with an emphasis of the generalization to non-abelian simplicial gr
  
 The discusson of the [[hypercrossed complex]] structure on the Moore complex of a general simplicial group is in
 
-* {#Carrasco-Cegarra} [[Pilar Carrasco|P. Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
+* {#Carrasco-Cegarra} [[Pilar Carrasco|P. Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235 <https://doi.org/10.1016/0022-4049(91)90133-M>
 
 
 [[!redirects Moore complexes]]
