@@ -240,13 +240,13 @@ A discussion of entropy with an eye towards the [[presheaf topos]] over the [[si
 
 * [[Mikhail Gromov]], _In a search for a structure, Part I: On entropy_ (2012) ([pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/structre-serch-entropy-july5-2012.pdf))
 
-* [[William Lawvere]], _State categories, closed categories, and the existence_ (subtitle: Semi-continuous entropy functions), IMA reprint 86, [pdf](https://www.ima.umn.edu/State-Categories-Closed-Categories-and-Existence-Semi-Continuous-Entropy-Functions)
+* [[William Lawvere]], _State categories, closed categories, and the existence_ [of] _semi-continuous entropy functions_, IMA Preprint Series #86, 1984. ([web](https://www.ima.umn.edu/preprints/State-Categories-Closed-Categories-and-Existence-Semi-Continuous-Entropy-Functions))
 
-(Co)homological viewpoint is discussed in
+A (co)homological viewpoint is discussed in
 
 * P. Baudot, D. Bennequin, _The homological nature of entropy_, Entropy, 17(5):3253--3318, 2015 [doi](https://doi.org/10.3390/e17053253) (open access)
 
-(for an update see also the abstract of a Baudot's talk [here](https://calendar.math.cas.cz/content/information-cohomology-and-topological-information-data-analysis))
+(for an update see also the abstract of a talk of Baudot [here](https://calendar.math.cas.cz/content/information-cohomology-and-topological-information-data-analysis))
 
 ### Axiomatic characterizations
  {#ReferencesAxiomaticCharacterization}
@@ -260,11 +260,11 @@ A characterization of [relative entropy](#RelativeEntropy) on finite-[[dimension
 
 A simple characterization of von Neumann entropy of [[density matrices]] (mixed [[quantum states]]) is discussed in 
 
-* Bernhard Baumgartner, _Characterizing Entropy in Statistical Physics and in Quantum Information Theory_, [arXiv:1206.5727](http://arxiv.org/abs/1206.5727)
+* Bernhard Baumgartner, _Characterizing Entropy in Statistical Physics and in Quantum Information Theory_, [arXiv:1206.5727].(http://arxiv.org/abs/1206.5727)
 
 Entropy-like quantities appear in the study of many PDEs, with entropy estimates. For an intro see
 
-* L. C. Evans, _A survey of entropy methods for partial differential equations_, [pdf](http://math.berkeley.edu/~evans/ams.entropy.pdf); (and longer course text:) _Entropy and partial differential equations_, [pdf](http://math.berkeley.edu/~evans/entropy.and.PDE.pdf)
+* L. C. Evans, _A survey of entropy methods for partial differential equations_, Bull. Amer. Math. Soc. 41 (2004), 409-438 ([web](https://www.ams.org/journals/bull/2004-41-04/S0273-0979-04-01032-8/), [pdf](http://math.berkeley.edu/~evans/ams.entropy.pdf)); and longer Berkeley graduate course text: _Entropy and partial differential equations_. ([pdf](http://math.berkeley.edu/~evans/entropy.and.PDE.pdf))
 
 
 [[!redirects entropy]]
@@ -275,6 +275,3 @@ Entropy-like quantities appear in the study of many PDEs, with entropy estimates
 
 [[!redirects Shannon entropy]]
 [[!redirects Shannon entropies]]
-
-
-
