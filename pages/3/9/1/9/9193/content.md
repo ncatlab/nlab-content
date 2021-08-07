@@ -51,6 +51,12 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 
 * _[[geometry of physics]]_
 
+On [[Yang-Mills monopoles]]:
+
+* Betti Hartmann, Burkhard Kleihaus, Jutta Kunz, *Axially Symmetric Monopoles and Black Holes in Einstein-Yang-Mills-Higgs Theory*, Phys. Rev. D65 (2002) 024027 ([arXiv:hep-th/0108129](https://arxiv.org/abs/hep-th/0108129))
+
+
+
 
 
 [[!redirects Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
