@@ -81,5 +81,13 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 
 * _[[geometry of physics]]_
 
+On [[Yang-Mills monopoles]]:
+
+* J. Bjoraker, Y. Hosotani, *Monopoles, Dyons and Black Holes in the Four-Dimensional Einstein-Yang-Mills Theory*, Phys. Rev. D62:043513, 2000 ([arXiv:hep-th/0002098](https://arxiv.org/abs/hep-th/0002098))
+
+
+
+
+
 
 [[!redirects Einstein-Yang-Mills theories]]
