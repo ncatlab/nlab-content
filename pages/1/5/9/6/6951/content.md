@@ -16,9 +16,9 @@
 
 ## Idea
 
-**Kripke--Joyal semantics** is a higher order generalization of the [[semantics|semantic]] interpretation proposed initially by Beth, Gregorczyk, and Kripke for [[intuitionistic logic|intuitionistic predicate logic]]. It provides a notion of _'local truth'_ or _'validity at a stage'_ in a [[topos]].
+**Kripke--Joyal semantics** is a higher order generalization of the [[semantics|semantic]] interpretation proposed initially by Beth, Grzegorczyk, and Kripke for [[intuitionistic logic|intuitionistic predicate logic]]. It provides a notion of _'local truth'_ or _'validity at a stage'_ in a [[topos]].
 
-Since it is closely related to [[Paul Cohen|Paul Cohen's]] [[forcing]] technique in [[set theory]], a connection that was already observed by Gregorczyk and Kripke, it is sometimes called _forcing_ semantics. Other terms in use for it are _external_ semantics, _cover_ semantics or _Beth--Kripke--Joyal_ semantics.
+Since it is closely related to [[Paul Cohen|Paul Cohen's]] [[forcing]] technique in [[set theory]], a connection that was already observed by Grzegorczyk and Kripke, it is sometimes called _forcing_ semantics. Other terms in use for it are _external_ semantics, _cover_ semantics or _Beth--Kripke--Joyal_ semantics.
 
 By giving a semantics to formulas written in the [[higher-order logic|higher-order]] [[type theory]] used to express [[ordinary mathematics]] in a topos, the Kripke--Joyal semantics serves as [[semantics|semantic]] interface between the [[internalisation|internal (syntactic) description]] of mathematical objects using the [[Mitchell–Bénabou language]] and the external description.  
 
