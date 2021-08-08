@@ -34,7 +34,7 @@ $$
 \array{
   (u \otimes v) \otimes F(w) & & \overset{\beta_{u\otimes v,w}}{\to} & & F((u\otimes v)\otimes w)\\
   ^\mathllap{\alpha_{u,v,F(w)}}\downarrow & & & & \downarrow^{\mathrlap{F(\alpha_{u,v,w})}}\\
-  u\otimes (v\otimes F(w)) & \underset{1_u\otimes\beta_{v,w}}{\to} & u\otimes F(v\otimes w) & \underset{\beta_{u,v\otimes w}}{\to} & F(u\otimes v\otimes w)
+  u\otimes (v\otimes F(w)) & \underset{1_u\otimes\beta_{v,w}}{\to} & u\otimes F(v\otimes w) & \underset{\beta_{u,v\otimes w}}{\to} & F(u\otimes (v\otimes w))
 }
 $$
 and
