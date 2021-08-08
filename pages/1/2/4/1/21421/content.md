@@ -29,7 +29,6 @@ In the [[Sakai-Sugimoto model]] of [[holographic QCD]] the [[D=5 Yang-Mills theo
 
 * {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
-
 * {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
 Extensive review of this [[holographic QCD|holographic]]/[[Kaluza-Klein theory|KK-theoretic]]-realization of [[quantum hadrodynamics]] from [[D=5 Yang-Mills theory]] is in:
@@ -55,6 +54,10 @@ and further developed in the [[nuclear matrix model]]:
 * {#HashimotoMatsuoMorita19} [[Koji Hashimoto]], [[Yoshinori Matsuo]], [[Takeshi Morita]], _Nuclear states and spectra in holographic QCD_, JHEP12 (2019) 001 ([arXiv:1902.07444](https://arxiv.org/abs/1902.07444))
 
 * Yasuhiro Hayashi, Takahiro Ogino, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Stringy excited baryons in holographic QCD_, Prog Theor Exp Phys (2020) ([arXiv:2001.01461](https://arxiv.org/abs/2001.01461))
+
+In relation to [[Yang-Mills monopoles]]:
+
+* [[Stefano Bolognesi]], *Solitons, Large $N$ and Holography*, 2015 ([[Bolognesi_SolitonsHolography.pdf:file]])
 
 
 
