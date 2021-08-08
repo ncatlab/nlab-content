@@ -9,6 +9,13 @@ On the [[AGT correspondence]]:
 
 * {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
 
+On [[D=4 N=2 super Yang-Mills theory]]:
+
+
+* [[Yuji Tachikawa]], *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics, vol. 890, 2014 ([arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), [web version](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html))
+
+
+
 On [[anomaly cancellation]] in [[D=6 N=(2,0) SCFT]] and [[D=6 N=(1,0) SCFT]]:
 
 
@@ -29,7 +36,7 @@ On the [[WZW term]] in [[chiral perturbation theory]]:
 
 Speculations on lifting the [[Witten genus]] of the [[heterotic string]] to [[topological modular forms]]:
 
-* [[Yuji Tachikawa]], _Topological modular forms and the absence of a heterotic global anomaly_ ([arXov:2103.12211](https://arxiv.org/abs/2103.12211))
+* [[Yuji Tachikawa]], _Topological modular forms and the absence of a heterotic global anomaly_ ([arXiv:2103.12211](https://arxiv.org/abs/2103.12211))
 
 
 
