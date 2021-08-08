@@ -22,7 +22,7 @@
 
 ## Idea
 
-> In order to express this kinship of these different cohomological theories, I formulated the notion of "motive" associated to an algebraic variety. By this term I want to suggest that it is the "common motive" (or "common reason") behind this multitude of cohomological invariants attached to an algebraic variety, or indeed, behind all cohomological invariants that are a priori possible. ([[Grothendieck]], [[Recoltes et Semailles]])
+> In order to express this kinship of these different cohomological theories, I formulated the notion of "motive" associated to an algebraic variety. By this term I want to suggest that it is the "common motive" (or "common reason") behind this multitude of cohomological invariants attached to an algebraic variety, or indeed, behind all cohomological invariants that are a priori possible. ([[Grothendieck]], [[Récoltes et Semailles]])
 
 The similarity of the behaviour of various [[cohomologies]] of [[algebraic variety|varieties]] over a [[field]] suggests that there is a universal one among them with values in an intermediate [[abelian category]], called the _[[category]] of motives_. The idea is that to every variety $X$ is associated a motive $M(X)$, such that every good [[cohomology theory]] factors through the functor $M$. (Here not every motive is supposed to be the image of a single variety.)
 
@@ -153,7 +153,7 @@ The stable $(\infty,1)$-category of _Beilinson motives_ is the $(\infty,1)$-cate
 =--
 
 
-Cisinski and D&#233;glise have shown that $H_B$ is exactly the $+$-summand $S^0_{\mathbb{Q}_+}$ of the rational motivic sphere spectrum, and hence that a Beilinson motive is the same thing as a Morel motive. They have also shown that Beilison/Morel motives are equivalent to Ayoub motives. Finally, they have shown that Beilinson motives are equivalent to rational Voevodsky motives $DM(S,\mathbb{Q})$ when $S$ is [[excellent scheme|excellent]] and [[geometrically unibranch scheme|geometrically unibranch]]. Over such schemes, all four definitions of the derived category of mixed motives are therefore equivalent.
+Cisinski and D&#233;glise have shown that $H_B$ is exactly the $+$-summand $S^0_{\mathbb{Q}_+}$ of the rational motivic sphere spectrum, and hence that a Beilinson motive is the same thing as a Morel motive. They have also shown that Beilinson/Morel motives are equivalent to Ayoub motives. Finally, they have shown that Beilinson motives are equivalent to rational Voevodsky motives $DM(S,\mathbb{Q})$ when $S$ is [[excellent scheme|excellent]] and [[geometrically unibranch scheme|geometrically unibranch]]. Over such schemes, all four definitions of the derived category of mixed motives are therefore equivalent.
 
 ### As modules over a spectrum representing motivic cohomology over $Spec \mathbb{Z}$ (Spitzweck motives)
 
@@ -161,7 +161,7 @@ One idea to define a category of integral motives with a formalism of [[six oper
 
 Spitweck defined such an $E_\infty$-algebra $M_{\mathbb{Z}}$ such that
 
-* if $S$ is smooth over a [[Dedekind domain]], $M_S$ represents [[motivic cohomology|Bloch?Levine motivic cohomology]],
+* if $S$ is smooth over a [[Dedekind domain]], $M_S$ represents [[motivic cohomology|Bloch-Levine motivic cohomology]],
 * if $S$ is smooth over a field, $M_S$ is equivalent to Voevodsky's motivic Eilenberg&#8211;Mac Lane spectrum $H\mathbb{Z}$,
 * $M_{\mathbb{Z}}\otimes\mathbb{Q}$ is the Beilinson motive $H_B$.
 
@@ -274,7 +274,7 @@ Spitzweck's definition of a motivic cohomology spectrum over $Spec \mathbb{Z}$ i
 
 A summary of the axioms and of the main theorems is in the introduction of
 
-* [[Denis-Charles Cisinski]], F. D&#233;glise, _Triangulated categories of mixed motives_, [arxiv/0912.2110](http://arxiv.org/abs/0912.2110)
+* [[Denis-Charles Cisinski]], [[Frédéric Déglise]], _Triangulated categories of mixed motives_, [arxiv/0912.2110](http://arxiv.org/abs/0912.2110)
  {#CisinskiDeglise}
 
 An outline of the big picture can be found in the introduction to
@@ -329,7 +329,7 @@ Explicit discussion of the relation to [[Hodge theory]] is in
 
 Relation of [[motivic cohomology]] to [[bivariant algebraic K-theory]] (see also at _[[KK-theory]]_) is discussed in 
 
-* [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
+* [[Alain Connes]], [[Caterina Consani]], [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
  {#ConnesConsaniMarcolli05}
 
 * [[Guillermo Cortiñas]], [[Andreas Thom]], _Bivariant algebraic K-theory_. J. Reine Angew. Math. 510 (2007), 71&#8211;124. ([arXiv:math/0603531](http://arxiv.org/abs/math/0603531))
@@ -362,7 +362,7 @@ Further investigation of these stacky Chow motives then appears in
 * [[Bertrand Toën]], _On motives for Deligne-Mumford stacks_, International Mathematics Research Notices 2000, 17 (2000) 909-928 ([arXiv:math/0006160](http://arxiv.org/abs/math/0006160), [web](http://hal.archives-ouvertes.fr/hal-00773027), [pdf](http://hal.archives-ouvertes.fr/docs/00/77/30/27/PDF/motdm.pdf))
  {#Toen00}
 
-* Utsav Choudhury, _Motives of Deligne-Mumford Stacks_ ([arXiv:1109.5288](http://arxiv.org/abs/1109.5288))
+* [[Utsav Choudhury]], _Motives of Deligne-Mumford Stacks_ ([arXiv:1109.5288](http://arxiv.org/abs/1109.5288))
 
 For more see at _[[motives in physics]]_.
 
