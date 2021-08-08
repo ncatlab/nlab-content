@@ -271,7 +271,7 @@ On the classification of monopoles by [[rational maps]], namely [[holomorphic ma
  
 
 
-* S. Jarvis, *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
+* Stuart Jarvis, *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
 
 * Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles and Harmonic Maps*, J. Math. Phys. 40:5440-5455 (1999) ([arXiv:hep-th/9903183](https://arxiv.org/abs/hep-th/9903183))
 
