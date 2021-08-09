@@ -171,7 +171,7 @@ The stable $(\infty,1)$-category of $M_S$-modules is thus a well-behaved candida
 
 Correspondences are interesting in [[noncommutative geometry]] of the [[operator algebra]] flavour. For example, KK-groups are in fact themselves sort of correspondences; Connes and Skandalis had an early reference very much paralleling some ideas from the algebraic world. More recently, motives in the operator algebraic setup have been approached by Connes, Marcolli and others. 
 
-In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories, Kontsevich proposed a theory of [[noncommutative motive]]s. There is now already a more general setup (than Kontsevich's) due Cisinski and Tabuada (see Refs.).
+{#Noncommutative} In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories, Kontsevich proposed a theory of [[noncommutative motive]]s. There is now a more general setup (than Kontsevich's) due Cisinski and Tabuada, see the [references](noncommutative+motive#References) at *[[noncommutative motive]]*.
 
 In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rigid analytic geometry]], $A^1$-homotopy theory is replaced by $B^1$-homotopy theory and the appropriate analogue of the Voevodsky's category of mixed motives has been constructed; the construction follows the same basic pattern. 
 
