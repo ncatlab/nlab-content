@@ -91,6 +91,12 @@ Application to [[semi-topological 4d Chern-Simons theory]]:
 
 * [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
 
+More on relevant [[model category]]-structures:
+
+* Victor Carmona, *Algebraic Quantum Field Theories: a homotopical view* ([arXiv:2107.14176](https://arxiv.org/abs/2107.14176))
+
+
+
 
 
 [[!redirects homotopical algebraic quantum field theories]]
