@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[Yang-Mills monopoles]]:
+
+* [[Paul Sutcliffe]], *BPS Monopoles*, Int. J. Mod. Phys. A12:4663-4706 (1997) ([arXiv:hep-th/9707009](https://arxiv.org/abs/hep-th/9707009))
+
 On classification of [[Yang-Mills monopoles]] via [[rational maps]] ([[holomorphic maps]], really) from the [[Riemann sphere]] to a [[flag variety]]:
 
 * {#IonnadouSutcliffe99a} [[Theodora Ioannidou]], [[Paul Sutcliffe]], *Monopoles and Harmonic Maps*, J. Math. Phys. 40:5440-5455 (1999) ([arXiv:hep-th/9903183](https://arxiv.org/abs/hep-th/9903183))
@@ -38,6 +42,8 @@ including beyond the [[pion]] also the [[rho-meson]]:
 
 
 ## Related $n$Lab entries
+
+* [[Yang-Mills monopoles]]
 
 * [[skyrmion]]
 
