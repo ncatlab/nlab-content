@@ -63,7 +63,7 @@ Quick exposition of the basic idea includes
 
 * {#Albertsson03} Cecilia Albertsson, around p. 31 of _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
 
-For mathematical discussion in the case of [[D=3 N=4 super Yang-Mills theory]]:
+Mathematical discussion in the case of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Hiraku Nakajima]], _Introduction to a provisional mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories_ ([arXiv:1706.05154](http://arxiv.org/abs/1706.05154))
 
@@ -71,11 +71,16 @@ For mathematical discussion in the case of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_, Adv. Theor. Math. Phys. 22 (2018) 1071-1147 ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
 
-* [[Constantin Teleman]], _The role of Coulomb branches in 2D gauge theory_, ([arXiv:1801.10124](https://arxiv.org/abs/1801.10124))
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], *Coulomb branches of 3d $\mathcal{N}=4$ quiver gauge theories and slices in the affine Grassmannian* (with appendices by Alexander Braverman, Michael Finkelberg, Joel Kamnitzer, Ryosuke Kodera, Hiraku Nakajima, Ben Webster, and Alex Weekes), Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 1 ([arXiv:1604.03625](https://arxiv.org/abs/1604.03625))
+
+  > (relation to the [[moduli space of Yang-Mills monopoles]])
+
 
 * [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([ arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
 
-See also
+See also:
+
+* [[Constantin Teleman]], _The role of Coulomb branches in 2D gauge theory_, ([arXiv:1801.10124](https://arxiv.org/abs/1801.10124))
 
 * Justin Hilburn, Joel Kamnitzer, Alex Weekes, _BFN Springer Theory_ ([arXiv:2004.14998](https://arxiv.org/abs/2004.14998))
 
