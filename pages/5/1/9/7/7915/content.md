@@ -57,7 +57,7 @@ Originating in [[Hamiltonian mechanics]] and [[geometric optics]], contact geome
 of its odd [[characteristic classes]] vanish. Since all the characteristic classes of a closed, orientable 3-manifold vanish, Chern in 1966 posed the questions of whether such a manifold always admits a contact structure and whether there are non-isomorphic contact structures on
 one manifold.
 
-One of the milestones in the study of contact geometry is Bennequin's proof of the existence of exotic contact structures (i. e., contact structures not isomorphic to the standard one) on $\mathbb{R}^3$. Bennequin recognized that the induced singular [[foliation]] on a [[surface]] [[embedding|embedded]] in a contact 3-manifold plays a crucial role for the classification of contact structures. This role was further explored in the work of Eliashberg, who distinguished two classes of contact structures in dimension 3, overtwisted and tight, and gave a homotopy classification for overtwisted contact structures on 3-manifolds. Eliashberg also proved that on $\mathbb{R}^3$ and $S^3$, the standard contact structure is the only tight contact structure.
+One of the milestones in the study of contact geometry is [[Daniel Bennequin|Bennequin]]'s proof of the existence of exotic contact structures (i. e., contact structures not isomorphic to the standard one) on $\mathbb{R}^3$ ([Bennequin 83](#Bennequin83)). Bennequin recognized that the induced singular [[foliation]] on a [[surface]] [[embedding|embedded]] in a contact 3-manifold plays a crucial role for the classification of contact structures. This role was further explored in the work of Eliashberg, who distinguished two classes of contact structures in dimension 3, overtwisted and tight, and gave a homotopy classification for overtwisted contact structures on 3-manifolds ([Eliashberg 89](#Eliashberg89)). Eliashberg also proved that on $\mathbb{R}^3$ and $S^3$, the standard contact structure is the only tight contact structure.
 
 ## Related concepts
 
@@ -130,7 +130,11 @@ See also
 
 ### Further 
 
-See also
+* {#Bennequin83} [[Daniel Bennequin]], _Entrelacements et equations de Pfaff_, Ast&#233;rique, 107-108 (1983), 87-161. ([pdf](http://www.numdam.org/article/AST_1983__107-108__87_0.pdf))
+
+* {#Eliashberg89} [[Yakov Eliashberg]], _Classification of overtwisted contact structures on 3-manifolds_, Invent. Math. 98 (1989), 623-637. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8237&rep=rep1&type=pdf))
+
+* {#Eliashberg92} [[Yakov Eliashberg]], _Contact 3-manifolds twenty years since J Martinet’s work_, Ann. Inst. Fourier, 42 (1992), 165-192. ([pdf](http://www.numdam.org/item/10.5802/aif.1288.pdf))
 
 * [[Hansjörg Geiges]], _Contact structures on 1-connected 5-manifolds_, Mathematika 38 (1991), 303-311; 
 
@@ -142,10 +146,6 @@ See also
 T&#244;hoku Math. J. 49 (1997), 415-422. 
 
 * [[Hansjörg Geiges]], J. Gonzalo, _Moduli of contact circles_, J. Reine Angew. Math. 551 (2002), 41-85; _Contact geometry and complex surfaces_, Invent. Math. 121 (1995), 147-209. 
-
-
-
-
 
 [[!redirects contact manifolds]]
 
