@@ -24,7 +24,7 @@ An application of Mealy morphisms to symmetric [[delta lens|(delta) lenses]] is 
 
 Mealy morphisms are also considered under the name "two-dimensional partial map" (a notion attributed to [[Lawvere]]) in the Appendix of the paper: 
 
-* {#LackStreet02} [[Stephen Lack]], [[Ross Street]], _The formal theory of monads II_, Journal of Pure and Applied Algebra, 175, 2002 ( [doi:10.1016/S0022-4049%2802%2900137-8](https://doi.org/10.1016/S0022-4049(02)00137-8))
+* {#LackStreet02} [[Stephen Lack]], [[Ross Street]], _The formal theory of monads II_, Journal of Pure and Applied Algebra, 175, 2002 ( [doi:10.1016/S0022-4049(02)00137-8](https://doi.org/10.1016/S0022-4049%2802%2900137-8))
 
 Some talk slides which mention Mealy morphisms: 
 
