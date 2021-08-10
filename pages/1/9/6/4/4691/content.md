@@ -244,7 +244,7 @@ A discussion of entropy with an eye towards the [[presheaf topos]] over the [[si
 
 A (co)homological viewpoint is discussed in
 
-* P. Baudot, D. Bennequin, _The homological nature of entropy_, Entropy, 17(5):3253--3318, 2015 [doi](https://doi.org/10.3390/e17053253) (open access)
+* Pierre Baudot, [[Daniel Bennequin]], _The homological nature of entropy_, Entropy, 17 (2015), 3253-3318. ([doi](https://doi.org/10.3390/e17053253))
 
 (for an update see also the abstract of a talk of Baudot [here](https://calendar.math.cas.cz/content/information-cohomology-and-topological-information-data-analysis))
 
