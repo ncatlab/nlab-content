@@ -276,11 +276,11 @@ The lift to [[M-theory]] as [[M5-MO9 brane bound states]] is due to [Strominger 
 
 ### General
 
-Introductions and surveys include
+Introductions and surveys:
 
 * J. Zinn-Justin, _The principles of instanton calculus_, Les Houches (1984)
 
-* M.A. Shifman et al., _ABC of instantons_, Fortschr.Phys. 32,11 (1984) 585
+* [[Mikhail Shifman]] et al., _ABC of instantons_, Fortschr.Phys. 32,11 (1984) 585
 
 * [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], Section 10.2 of: _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
 
@@ -296,6 +296,11 @@ A survey in view of the [[asymptotic series|asymptotic]] nature of the [[Feynman
 For a fairly comprehensive list of literature see the bibliography of 
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
+
+Identification of the [[moduli space]] of instantons with that of [[holomorphic maps]] from the [[Riemann sphere]] to the [[loop group]] of the [[gauge group]]:
+
+* {#Atiyah84} [[Michael Atiyah]], *Instantons in two and four dimensions*, Commun. Math. Phys. 93, 437–451 (1984) ([doi:10.1007/BF01212288](https://doi.org/10.1007/BF01212288))
+
 
 Detailed argument for the [[theta-vacuum]] structure from [[chiral symmetry breaking]] is offered in 
 
