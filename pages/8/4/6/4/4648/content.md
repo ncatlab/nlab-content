@@ -174,19 +174,23 @@ See also the deformation to the [[quantum geometric Langlands correspondence]], 
 
 ### Surveys and reviews
 
-A classical survey is
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 
-Another set of lecture notes on geometric Langlands and [[nonabelian Hodge theory]] is
-
 * [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
 conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
 
-More exposition of the relation to [[string theory]] and [[S-duality]] is in
+  > (with an eye towards [[nonabelian Hodge theory]])
+
+More on the relation to [[string theory]] and [[S-duality]]:
 
 * {#Frenkel09} [[Edward Frenkel]], _Gauge Theory and Langlands Duality_, S&#233;minaire Bourbaki no 1010, June 2009 ([arXiv:0906.2747](http://arxiv.org/abs/0906.2747))
+
+With emphasis on the role of [[magnetic monopoles]] and [['t Hoof lines]]:
+
+* [[Alexander B. Atanosov]], *Magnetic Monopoles, 't Hooft Lines, and the Geometric Langlands Correspondence*, 2018 ([pdf](http://abatanasov.com/Files/Thesis.pdf), [slides](http://abatanasov.com/Files/Thesis%20Presentation.pdf))
+
 
 ### Further resources
 
