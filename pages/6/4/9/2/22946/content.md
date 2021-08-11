@@ -41,7 +41,6 @@ and for un-pointed maps in
 * [[Stuart Jarvis]], *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
 
 
-
 Further discussion:
 
 * [[Charles P. Boyer]], [[B. M. Mann]], *Monopoles, non-linear $\sigma$-models, and two-fold loop spaces*,  Commun. Math. Phys. 115, 571–594 (1988) ([arXiv:10.1007/BF01224128](https://doi.org/10.1007/BF01224128))
@@ -50,6 +49,9 @@ Further discussion:
 
 * {#IonnadouSutcliffe99b} [[Theodora Ioannidou]], [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
 
+Review:
+
+* [[Alexander B. Atanosov]], *Magnetic monopoles and the equations of Bogomolny and Nahm* ([pdf](http://abatanasov.com/Files/3D%20Monopoles.pdf)), chapter 5 in: *Magnetic Monopoles, 't Hooft Lines, and the Geometric Langlands Correspondence*, 2018 ([pdf](http://abatanasov.com/Files/Thesis.pdf), [slides](http://abatanasov.com/Files/Thesis%20Presentation.pdf))
 
 
 On the relevant  [[homotopy of rational maps]] (see there for more references):
