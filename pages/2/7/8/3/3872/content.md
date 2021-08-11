@@ -68,16 +68,22 @@ On [[equivariant K-theory]] and the [[Atiyah-Segal completion theorem]]:
 
 * [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
 
-On [[instantons]] in [[Yang-Mills theory]]:
+On [[Yang-Mills instantons]]:
 
 * {#AtiyahJones78} [[Michael Atiyah]], [[John David Stuart Jones]], _Topological aspects of Yang-Mills theory_, Comm. Math. Phys. Volume 61, Number 2 (1978), 97-118 ([arXiv:1103904210](https://projecteuclid.org/euclid.cmp/1103904210))
 
-On the [[moduli spaces of monopoles]]:
+* {#Atiyah84} [[Michael Atiyah]], *Instantons in two and four dimensions*, Commun. Math. Phys. 93, 437–451 (1984) ([doi:10.1007/BF01212288](https://doi.org/10.1007/BF01212288))
+
+On [[Yang-Mills monopoles]]:
+
+* [[Michael Atiyah]], [[Nigel Hitchin]], J. T. Stuart and M. Tabor, _Low-Energy Scattering of Non-Abelian Magnetic Monopoles_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences Vol. 315, No. 1533, New Developments in the Theory and Application of Solitons (Aug. 13, 1985), pp. 459-469 ([jstor:37546](https://www.jstor.org/stable/37546))
+
+
+On the [[moduli spaces of Yang-Mills monopoles]]:
 
 * [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_  M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
 
 
-* [[Michael Atiyah]], [[Nigel Hitchin]], J. T. Stuart and M. Tabor, _Low-Energy Scattering of Non-Abelian Magnetic Monopoles_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences Vol. 315, No. 1533, New Developments in the Theory and Application of Solitons (Aug. 13, 1985), pp. 459-469 ([jstor:37546](https://www.jstor.org/stable/37546))
 
 On [[knot theory]] and [[Chern-Simons theory]]:
 
