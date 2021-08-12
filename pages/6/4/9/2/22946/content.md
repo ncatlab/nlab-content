@@ -51,7 +51,7 @@ Further discussion:
 
 Review:
 
-* [[Alexander B. Atanosov]], *Magnetic monopoles and the equations of Bogomolny and Nahm* ([pdf](http://abatanasov.com/Files/3D%20Monopoles.pdf)), chapter 5 in: *Magnetic Monopoles, 't Hooft Lines, and the Geometric Langlands Correspondence*, 2018 ([pdf](http://abatanasov.com/Files/Thesis.pdf), [slides](http://abatanasov.com/Files/Thesis%20Presentation.pdf))
+* [[Alexander B. Atanasov]], *Magnetic monopoles and the equations of Bogomolny and Nahm* ([pdf](http://abatanasov.com/Files/3D%20Monopoles.pdf)), chapter 5 in: *Magnetic Monopoles, 't Hooft Lines, and the Geometric Langlands Correspondence*, 2018 ([pdf](http://abatanasov.com/Files/Thesis.pdf), [slides](http://abatanasov.com/Files/Thesis%20Presentation.pdf))
 
 
 On the relevant  [[homotopy of rational maps]] (see there for more references):
