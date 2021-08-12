@@ -28,6 +28,8 @@ is a **$\kappa$-accessible functor** (for $\kappa$ a [[regular cardinal]]) if $C
 
 ## Properties
 
+It is immediate from the definition that accessible functors are closed under composition.
+
 ### Raising the index of accessibility
 
 If $\lambda\le\kappa$, then every $\kappa$-filtered colimit is also $\lambda$-filtered, and thus if $F$ preserves $\lambda$-filtered colimits then it also preserves $\kappa$-filtered ones.  Therefore, if $F$ is $\lambda$-accessible and $C$ and $D$ are $\kappa$-accessible, then $F$ is $\kappa$-accessible.  Two conditions under which this happens are:
@@ -61,6 +63,13 @@ the closure of the image of an accessible functor under passage to subobjects is
 
 The existence of a [[proper class]] of [[strongly compact cardinals]]
 can be weakened, see the paper of [Brooke-Taylor and Rosický](#BrookeTaylorRosicky).
+
+## Examples
+
+* Given [[locally presentable categories]] $C$ and $D$ and a functor $F\colon C\to D$, if $F$ has a left or right adjoint, then it is an accessible functor
+
+* Using the previous example, we can see that [[polynomial endofunctors]] of $\mathbf{Set}$ are accessible, as they are the composite of a string of various functors with adjoints.
+
 
 ## Related concepts
 
