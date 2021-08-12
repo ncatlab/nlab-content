@@ -3,9 +3,15 @@ __Andrey Lazarev__ is a mathematician at the University of Leicester. His resear
 * [homepage](http://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/al179)
 
 
-## Selected papers and prerints
+## Selected writings
 
-* Joseph Chuang, Andrey Lazarev, _L-infinity maps and twistings_, [arxiv/0912.1215](http://arxiv.org/abs/0912.1215); _Abstract Hodge decomposition and minimal models for cyclic algebras_, [arxiv./0810.2393](http://arxiv.org/abs/0810.2393), _Feynman diagrams and minimal models for operadic algebras_, [arxiv/0802.3507](http://arxiv.org/abs/0802.3507), _Dual Feynman transform for modular operads_, [arxiv/0704.2561](http://arxiv.org/abs/0704.2561)
+* Joseph Chuang, Andrey Lazarev, _L-infinity maps and twistings_, [arxiv/0912.1215](http://arxiv.org/abs/0912.1215); 
+
+* Joseph Chuang, Andrey Lazarev,_Abstract Hodge decomposition and minimal models for cyclic algebras_, [arxiv./0810.2393](http://arxiv.org/abs/0810.2393), 
+
+* Joseph Chuang, Andrey Lazarev,_Feynman diagrams and minimal models for operadic algebras_, [arxiv/0802.3507](http://arxiv.org/abs/0802.3507), 
+
+* Joseph Chuang, Andrey Lazarev,_Dual Feynman transform for modular operads_, [arxiv/0704.2561](http://arxiv.org/abs/0704.2561)
 
 * Alastair Hamilton, Andrey Lazarev, _Characteristic classes of $A_\infty$-algebras_, [arxiv/0801.0904](http://arxiv.org/abs/0801.0904); _Symplectic $A_\infty$-algebras and string topology operations_, Amer. Math. Soc. Transl. (2), Vol. 224, 2008, 147--157, [arxiv/0707.4003](http://arxiv.org/abs/0707.4003); _Symplectic $C_\infty$-algebras_, Mosc. Math. J. 8 (2008), no. 3, 443--475, 615, [arxiv/0707.3951](http://arxiv.org/abs/0707.3951); _Cohomology theories for homotopy algebras and noncommutative geometry_, Algebr. Geom. Topol. __9__ (2009), 1503--1583, [arxiv/0707.3937](http://arxiv.org/abs/0707.3937); _Graph cohomology classes in the [[BV-BRST formalism|Batalin-Vilkovisky formalism]]_, J.Geom.Phys. __59__:555-575, 2009, [arxiv/0701825](http://arxiv.org/abs/math/0701825); _Characteristic classes of A-infinity algebras_, [math.QA/0608395](http://arxiv.org/abs/math/0608395)
 
@@ -15,7 +21,19 @@ __Andrey Lazarev__ is a mathematician at the University of Leicester. His resear
 
 * [[Jonathan Block]], Andrey Lazarev, _Andr&#233;-Quillen cohomology and rational homotopy of function spaces_, [math.KT/0306406](http://arxiv.org/abs/math/0306406)
 
+* [[Andrey Lazarev]], Def. 5.1 in: *Maurer-Cartan moduli and models for function spaces* ([arxiv:1109.3715](http://arxiv.org/abs/1109.3715))
+
+* Joseph Chuang, [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
+
  
 * [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
 category: people
+
+## Related $n$Lab entries
+
+* [[L-infinity algebra]]
+
+* [[Maurer-Cartan equation]]
+
+
 [[!redirects A. Lazarev]]
