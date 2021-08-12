@@ -280,7 +280,7 @@ Let $d \in D$ be any dart of $M$.  Since the action of $\mathcal{C}_2^+$ is tran
 
 * {#LandoZvonkin04} [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
-* {#VidalPhD} Samuel Vidal, _Groupe Modulaire et Cartes Combinatoires. G&#233;n&#233;ration et Comptage._ PhD Thesis, Universit&#233; Lille I, France, July 2010. [pdf](http://www.cafemath.fr/articles/thesis.pdf)
+* {#VidalPhD} Samuel Vidal, _Groupe Modulaire et Cartes Combinatoires. G&#233;n&#233;ration et Comptage._ PhD Thesis, Universit&#233; Lille I, France, July 2010. [pdf](https://mathblog.uk/articles/thesis.pdf)
 
 * [[Alexander K. Zvonkin]], Functional Composition is a Generalized Symmetry, _Symmetry: Culture and Science_ Vol. 21, Nos.1-4, 333-368, 2010. ([pdf](https://www.labri.fr/perso/zvonkin/Research/tesselations.pdf))
 
