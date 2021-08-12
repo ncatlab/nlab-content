@@ -711,7 +711,7 @@ Discussion of the mathematical aspects is in
 
 * Korbinian M&#252;nster, [[Ivo Sachs]], _On Homotopy Algebras and Quantum String Field Theory_ ([arXiv:1303.3444](http://arxiv.org/abs/1303.3444))
 
-* {#DoubekJurcoMuenster13} Martin Doubek, [[Branislav Jurco]], Korbinian Muenster, _Modular operads and the quantum open-closed homotopy algebra_ ([arXiv:1308.3223](https://arxiv.org/abs/1308.3223))
+* {#DoubekJurcoMuenster13} [[Martin Doubek]], [[Branislav Jurco]], Korbinian Muenster, _Modular operads and the quantum open-closed homotopy algebra_, J. High Energ. Phys. 2015, 1–55 (2015) ([arXiv:1308.3223](https://arxiv.org/abs/1308.3223), <a href="https://doi.org/10.1007/JHEP12(2015)158">doi:10.1007/JHEP12(2015)158</a>)
 
 
 Surveys include
