@@ -189,7 +189,7 @@ More on the relation to [[string theory]] and [[S-duality]]:
 
 With emphasis on the role of [[magnetic monopoles]] and [['t Hoof lines]]:
 
-* [[Alexander B. Atanosov]], *Magnetic Monopoles, 't Hooft Lines, and the Geometric Langlands Correspondence*, 2018 ([pdf](http://abatanasov.com/Files/Thesis.pdf), [slides](http://abatanasov.com/Files/Thesis%20Presentation.pdf))
+* [[Alexander B. Atanasov]], *Magnetic Monopoles, 't Hooft Lines, and the Geometric Langlands Correspondence*, 2018 ([pdf](http://abatanasov.com/Files/Thesis.pdf), [slides](http://abatanasov.com/Files/Thesis%20Presentation.pdf))
 
 
 ### Further resources
