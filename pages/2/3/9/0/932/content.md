@@ -18,8 +18,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -137,28 +135,54 @@ A Maurer--Cartan equation for $A_\infty$-[[A-infinity-algebra|algebra]]s is usua
 
 [[Sophus Lie]] considered groups of transformations first and discovered [[Lie algebra]]s only later (letter to Mayer, 1874). He has shown that infinitesimally one can solve the Maurer--Cartan equations for a given set of structure constants of a finite-dimensional Lie algebra. This means that one can construct a neighborhood with either the invariant differential form, or dually the invariant vector fields whose commutator corresponds to the commutator of the Lie algebra. This amounts to integrating the Lie algebra to a [[local Lie group]]. Only much later, Elie Cartan succeeded in proving the global version of integration, that is the Cartan--Lie theorem. J-P. Serre in an influential textbook called the Cartan--Lie theorem the "[[Lie's three theorems|third Lie theorem]]", which became a rather popular term in recent years, though one should correctly call so just the theorem on local solvability of Maurer--Cartan equation.  
 
+
 ## References
 
-The historical article of <a href="http://en.wikipedia.org/wiki/Ludwig_Maurer">L. Maurer</a> is 
+The original article:
 
-* L. Maurer, _&#220;ber allgemeinere Invarianten-Systeme_,
-M&#252;nch. Ber. __18__ (1888), 103-150.
+* [[Ludwig Maurer]], _&#220;ber allgemeinere Invarianten-Systeme_, M&#252;nch. Ber. __18__ (1888), 103-150.
+
+Textbook accounts:
+
+* {#Nakahara03} [[Mikio Nakahara]], Section 5.6.4 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+* [[Martin Markl]], Def. 3.11 in: _Deformation theory of algebras and their diagrams_, 129 pp, CBMS __116__, AMS 2012 ([ISBN:978-0-8218-8979-4](http://www.ams.org/bookstore-getitem/item=CBMS-116), [toc pdf](https://www.gbv.de/dms/goettingen/721467989.pdf))
+
+
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Prop. 1.4.9 in: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
+
 
 A MathOverflow entry about Maurer-Cartan forms for Lie groups: [maurer-cartan-form](http://mathoverflow.net/questions/34418/maurer-cartan-form)
 
-For literature on the third Lie theorem from the point of view of Maurer--Cartan equations, compare the following references:
+On  [[Lie's third theorem]] from the point of view of Maurer--Cartan equations:
 
 * Sigurdur Helgason, Differential geometry, Lie groups, and symmetric spaces
+
 * N. Bourbaki, Lie algebras and lie groups, historical appendix 
+
 * F. Engel, P. Heegaard, Sophus Lie Samlede Avhandliger (Collected works) 
 
-* [[Andrey Lazarev]], _Maurer-Cartan moduli and models for function spaces_, [arxiv/1109.3715](http://arxiv.org/abs/1109.3715)
+In the generality of [[L-infinity algebras|$L_\infty$-algebras]]:
 
-Around def. 3.1 in
+* [[Martin Doubek]], [[Martin Markl]], [[Petr Zima]], equation (31) in: *Deformation Theory (lecture notes)*, Archivum mathematicum 43(5), 2007, 333-371 ([arXiv:0705.3719](https://arxiv.org/abs/0705.3719))
 
-* R. M. Hain, _Twisting cochains and duality between minimal algebras and minimal Lie algebras_, Trans. Amer. Math. Soc. **277** (1983), no. 1, 397--411.
- {#Hain}
+* [[Andrey Lazarev]], Def. 5.1 in: *Maurer-Cartan moduli and models for function spaces*, Advances in Mathematics Volume 235, 1 March 2013, Pages 296-320 ([arxiv:1109.3715](http://arxiv.org/abs/1109.3715), [doi:10.1016/j.aim.2012.11.009](https://doi.org/10.1016/j.aim.2012.11.009))
+
+* Joseph Chuang, [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
+
+Also around def. 3.1 in
+
+* {#Hain} R. M. Hain, _Twisting cochains and duality between minimal algebras and minimal Lie algebras_, Trans. Amer. Math. Soc. **277** (1983), no. 1, 397--411.
+
+In relation to [[equations of motion]] of [[Yang-Mills theory]] and [[gravity]] (by truncation of [[string field theory]]):
+
+* [[Anton M. Zeitlin]], *Formal Maurer-Cartan Structures: from CFT to Classical Field Equations*, JHEP 0712:098, 2007 ([arXiv:0708.0955](https://arxiv.org/abs/0708.0955))
+  
+[[!redirects Maurer-Cartan equations]]
 
 [[!redirects Maurer-Cartan equation]]
-[[!redirects Maurer-Cartan elements]]
+
 [[!redirects Maurer-Cartan element]]
+[[!redirects Maurer-Cartan elements]]
+
