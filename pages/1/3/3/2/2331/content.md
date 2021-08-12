@@ -221,11 +221,13 @@ The Kontsevich and Soibelman references below are also good.
 
 * {#SchlessingerStasheff12} [[Michael Schlessinger]], [[Jim Stasheff]], _Deformation theory and rational homotopy type_ ([arXiv:1211.1647](https://arxiv.org/abs/1211.1647))
 
-* C. Doran, S. Wong, “Deformation Theory: An Historical Annotated Bibliography,” Chapter 2 in Deformation of Galois Representations, to appear in the AMS-IP Studies in Advanced Mathematics Series.
+* [[Charles Doran]], S. Wong, *Deformation Theory: An Historical Annotated Bibliography*, Chapter 2 in Deformation of Galois Representations, to appear in the AMS-IP Studies in Advanced Mathematics Series.
 
-* M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
+On [[deformation theory]] in terms of [[L-infinity algebra|$L_\infty$-algebras]] and their [[Maurer-Cartan equations]]:
 
-* [[Martin Markl]], _Deformation theory of algebras and their diagrams_, 129 pp, CBMS __116__, AMS 2012, [book page](http://www.ams.org/bookstore-getitem/item=CBMS-116)
+* [[Martin Doubek]], [[Martin Markl]], [[Petr Zima]], equation (31) in: *Deformation Theory (lecture notes)*, Archivum mathematicum 43(5), 2007, 333-371 ([arXiv:0705.3719](https://arxiv.org/abs/0705.3719))
+
+* [[Martin Markl]], _Deformation theory of algebras and their diagrams_, 129 pp, CBMS __116__, AMS 2012 ([ISBN:978-0-8218-8979-4](http://www.ams.org/bookstore-getitem/item=CBMS-116), [toc pdf](https://www.gbv.de/dms/goettingen/721467989.pdf))
 
 * Wikipedia: [deformation theory](http://en.wikipedia.org/wiki/Deformation_theory), [cotangent complex] (http://en.wikipedia.org/wiki/Cotangent_complex)
 * E. Sernesi, _An overview of classical deformation theory_, [pdf](http://www.mat.uniroma3.it/users/sernesi/sernesioverviewdefth.pdf)
