@@ -66,7 +66,7 @@ can be weakened, see the paper of [Brooke-Taylor and Rosický](#BrookeTaylorRosi
 
 ## Examples
 
-* Given [[locally presentable categories]] $C$ and $D$ and a functor $F\colon C\to D$, if $F$ has a left or right adjoint, then it is an accessible functor
+* Given [[locally presentable categories]] $C$ and $D$ and a functor $F\colon C\to D$, if $F$ has a left or right adjoint, then it is an accessible functor.
 
 * Using the previous example, we can see that [[polynomial endofunctors]] of $\mathbf{Set}$ are accessible, as they are the composite of a string of various functors with adjoints.
 
