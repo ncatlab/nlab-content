@@ -61,6 +61,10 @@ Exposition for the case of maps from the [[Riemann sphere]] to a [[complex proje
 
 
 
+[[!include Skyrmions from rational maps -- references]]
+
+
+
 
 
 
