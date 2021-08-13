@@ -40,10 +40,13 @@ On the [[homotopy type of spaces of rational maps]] and [[moduli spaces of monop
 * [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
 Volume: 258 (2000)  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
 
-
 and more generally on [[moduli spaces]]:
 
 * [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([arXiv:0908.1938](https://arxiv.org/abs/0908.1938))
+
+On [[Yang-Mills monopoles]] and [[braid groups]]:
+
+* [[Ralph Cohen]], [[John D. S. Jones]], _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
 
 
 category: people
