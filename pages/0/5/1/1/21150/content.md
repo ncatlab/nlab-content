@@ -37,7 +37,7 @@ on [[Skyrmions]], particularly as a model for [[confinement]] in [[QCD]] of [[qu
 
 On [[Skyrmions]] as [[model (in theoretical physics)|models]] for [[atomic nuclei]] all the way up to [[carbon]]:
 
-* {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) 
+* {#BattyeMantonSutcliffe10} [[Richard A. Battye]], [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) 
 
 \linebreak
 
