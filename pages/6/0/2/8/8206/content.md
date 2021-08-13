@@ -75,15 +75,18 @@ Survey:
 
 * {#Spradlin} [[Marcus Spradlin]], *Progress and Prospects in Twistor String Theory* ([pdf](https://conservancy.umn.edu/bitstream/handle/11299/130081/1/spradlin.pdf))
 
+* [[Michael Atiyah]], [[Maciej Dunajski]], [[Lionel J. Mason]], Section 7 of: _Twistor theory at fifty: from contour integrals to twistor strings_,  Proc. R. Soc. A473: 20170530 ([arXiv:1704.07464](https://arxiv.org/abs/1704.07464), [doi:10.1098/rspa.2017.0530](http://dx.doi.org/10.1098/rspa.2017.0530))
+
+
 Further developments:
 
 * Yvonne Geyer, Arthur E. Lipstein, [[Lionel Mason]], _Ambitwistor strings in 4-dimensions_, Phys. Rev. Lett. 113, 081602 (2014) ([arXiv:1404.6219](http://arxiv.org/abs/1404.6219))
 
 Discussion for [[D=4 N=8 supergravity]]:
 
-* {#CachazoSkinner12} Freddy Cachazo, [[David Skinner]], *Gravity from Rational Curves*, Phys. Rev. Lett. 110, 161301, 2012 ([arXiv:1207.0741](https://arxiv.org/abs/1207.0741), [arXiv:10.1103/PhysRevLett.110.161301](https://doi.org/10.1103/PhysRevLett.110.161301))
+* {#CachazoSkinner12} Freddy Cachazo, [[David Skinner]], *Gravity from Rational Curves*, Phys. Rev. Lett. 110, 161301, 2012 ([arXiv:1207.0741](https://arxiv.org/abs/1207.0741), [doi:10.1103/PhysRevLett.110.161301](https://doi.org/10.1103/PhysRevLett.110.161301))
 
-* {#Adamo15} Tim Adamo, *Gravity with a cosmological constant from rational curves*, JHEP 1511: 098, 2015 ([arXiv:1508.02554](https://arxiv.org/abs/1508.02554))
+* {#Adamo15} Tim Adamo, *Gravity with a cosmological constant from rational curves*, JHEP **2015** 098, 2015 ([arXiv:1508.02554](https://arxiv.org/abs/1508.02554))
 
 
 [[!redirects twistor string]]
