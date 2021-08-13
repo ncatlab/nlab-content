@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -53,15 +54,15 @@ For a useful exposition of this see ([Tolland](#Tolland)).
 ### Expositions
 
 
-Some introductory notes:
+Introductory notes:
 
 * Simon Rose, _Introduction to Gromov-Witten theory_ ([arXiv:1407.1260](http://arxiv.org/abs/1407.1260))
 
-* {#Bertram02} [[Albrecht Bertram]], *Stable Maps and Gromov-Witten Invariants*, School and Conference on Intersection Theory and Moduli Trieste, 9-27 September 2002 ([pdf](http://users.ictp.it/~pub_off/lectures/lns019/Bertram/Bertram.pdf))
+* {#Bertram02} [[Albrecht Bertram]], *Stable Maps and Gromov-Witten Invariants*, School and Conference on Intersection Theory and Moduli Trieste, 9-27 September 2002 ([pdf](http://users.ictp.it/~pub_off/lectures/lns019/Bertram/Bertram.pdf), [[Bertram_StableMaps.pdf:file]])
 
-* {#Katz06} [[Sheldon Katz]], *Enumerative Geometry and String Theory*, Student Mathematical Library **32** (2006) ([ISBN:978-1-4704-2143-4](https://bookstore.ams.org/stml-32), [spire:739788](https://inspirehep.net/literature/739788))
+* {#Katz06} [[Sheldon Katz]], *Enumerative Geometry and String Theory*, Student Mathematical Library **32**, AMS 2006 ([ISBN:978-1-4704-2143-4](https://bookstore.ams.org/stml-32), [spire:739788](https://inspirehep.net/literature/739788))
 
-Here are some seminar notes:
+Seminar notes:
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
@@ -72,8 +73,8 @@ And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
 An exposition of GW theory as a [[TCFT]] is at
 
-* [[AJ Tolland]], _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
- {#Tolland}
+* {#Tolland} [[AJ Tolland]], _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
+ 
 
 The origin of Gromov-Witten theory in and relation to [[string theory]] and other [[physics]] motivation is recalled and surveyed in 
 
@@ -83,8 +84,8 @@ The origin of Gromov-Witten theory in and relation to [[string theory]] and othe
 
 Discussion in the context of [[geometric quantization]] is in 
 
-* Emily Clader, Nathan Priddis, Mark Shoemaker, _Geometric Quantization with Applications to Gromov-Witten Theory_ ([arXiv:1309.1150](http://arxiv.org/abs/1309.1150))
- {#CladerPriddisShoemaker13}
+* {#CladerPriddisShoemaker13} Emily Clader, Nathan Priddis, Mark Shoemaker, _Geometric Quantization with Applications to Gromov-Witten Theory_ ([arXiv:1309.1150](http://arxiv.org/abs/1309.1150))
+ 
 
 
 ### As a TCFT
@@ -99,12 +100,11 @@ A discussion by quantization of quadratic Hamiltonians is in
 
 * [[Alexander Givental]], _Gromov-Witten invariants and quantization of quadratic Hamiltonians_ ([pdf](http://math.berkeley.edu/~giventh/papers/gwi.pdf))
 
-* M. Kontsevich, Yu. Manin, _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164 (1994), no. 3, 525--562 ([euclid](http://projecteuclid.org/euclid.cmp/1104270948)).
+* [[Maxim Kontsevich]], [[Yuri Manin]], _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164 (1994), no. 3, 525--562 ([euclid](http://projecteuclid.org/euclid.cmp/1104270948)).
 
 * [[Yuri Manin]], _Frobenius manifolds, quantum cohomology and moduli spaces_, Amer. Math. Soc., Providence, RI, 1999, 
 
-* W. Fulton, R. Pandharipande, _Notes on stable maps and quantum cohomology_, in: Algebraic Geometry-
-Santa uz 1995 ed. Kollar, Lazersfeld, Morrison. Proc. Symp. Pure Math. 62, 45&#8211;96 (1997)
+* W. Fulton, R. Pandharipande, _Notes on stable maps and quantum cohomology_, in: Algebraic Geometry, Santa Cruz 1995 ed. Kollar, Lazersfeld, Morrison. Proc. Symp. Pure Math. 62, 45&#8211;96 (1997)
 
 * J Robbin, D A Salamon, _A construction of the Deligne-Mumford orbifold_,  J. Eur. Math. Soc. (JEMS)  8  (2006),  no. 4, 611--699 ([arxiv](http://arxiv.org/abs/math/0407090); [pdf at JEMS](http://www.ems-ph.org/journals/show_pdf.php?issn=1435-9855&vol=8&iss=4&rank=3)); corrigendum  J. Eur. Math. Soc. (JEMS)  9  (2007),  no. 4, 901--905 ([pdf at JEMS](http://www.ems-ph.org/journals/show_pdf.php?issn=1435-9855&vol=9&iss=4&rank=11)).
 
