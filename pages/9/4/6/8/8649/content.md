@@ -100,6 +100,9 @@ Review:
 
 * {#MangiarottiSardanashvily00} L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000 ([doi:10.1142/2524](https://doi.org/10.1142/2524))
 
+* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
+
+
 * {#Heras18} Ricardo Heras, _Dirac quantisation condition: a comprehensive review_, Contemp. Phys. 59, 331 (2018) ([arXiv:1810.13403](https://arxiv.org/abs/1810.13403))
 
 See also 
