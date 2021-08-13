@@ -317,6 +317,9 @@ Generalization to the case that the [[codomain]] is
 
 Application to [[Skyrmions]]:
 
+* [[Conor J. Houghton]], [[Nicholas Manton]], [[Paul Sutcliffe]], *Rational Maps, Monopoles and Skyrmions*, Nucl. Phys. B510 (1998) 507-537 ([arXiv:hep-th/9705151](https://arxiv.org/abs/hep-th/9705151), <a href="https://doi.org/10.1016/S0550-3213(97)00619-6">doi:10.1016/S0550-3213(97)00619-6</a>)
+
+
 * [[Nicholas S. Manton]], B.M.A.G. Piette, *Understanding Skyrmions using Rational Maps*, in: Casacuberta C., Miró-Roig R.M., Verdera J., Xambó-Descamps S. (eds.) European Congress of Mathematics. Progress in Mathematics, vol 201. Birkhäuser, Basel. 2001 ([doi:10.1007/978-3-0348-8268-2_27](https://doi.org/10.1007/978-3-0348-8268-2_27), [arXiv:hep-th/0008110](https://arxiv.org/abs/hep-th/0008110))
 
 
