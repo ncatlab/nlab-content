@@ -19,7 +19,7 @@
 
 ## Idea
 
-A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way based on a type of "constructors" and a type of "arities".  It is thus a particular kind of [[inductive type]], with one constructor having a certain canonical form.
+A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way based on a type of "constructors" and a type of "arities", with one constructor having a certain canonical form.  As such it is a particular kind of [[inductive type]].
 
 In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist. In particular, W-types can be used to provide a [[constructive mathematics|constructive]] counterpart of the [[classical logic|classical]] notion of a [[well-ordering]] and to uniformly define a variety of [[inductive types]]. More complex inductive types, with multiple constructors that are assumed only to be strictly positive, can be reduced to W-types, at least in the presence of other structure such as [[sum types]] and [[function extensionality]]; see for instance [AAG](#AAG). This can even be extended to [[inductive families]].
 
