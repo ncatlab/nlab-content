@@ -42,6 +42,8 @@ A detailed exposition is available in Chapter II (see Thm. 10.6) of
 
 Generalization to existence of [[equivariant triangulation]] for smooth [[G-manifolds]] ([[equivariant triangulation theorem]]):
 
+* {#Illman72} [[Sören Illman]], *Equivariant algebraic topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
+
 * {#Illman78} [[Sören Illman]], _Smooth equivariant triangulations of $G$-manifolds for $G$ a finite group_, Math. Ann. (1978) 233: 199 ([doi:10.1007/BF01405351](https://doi.org/10.1007/BF01405351))
 
 * {#Illman83} [[Sören Illman]], _The Equivariant Triangulation Theorem for Actions of Compact Lie Groups_, Mathematische Annalen (1983) Volume: 262, page 487-502 ([dml:163720](https://eudml.org/doc/163720))
