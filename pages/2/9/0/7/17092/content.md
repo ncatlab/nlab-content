@@ -53,6 +53,9 @@ following a partial result in
 
 and, independently, due to
 
+* {#Illman72} [[Sören Illman]], Prop. 3.3 in: *Equivariant Algebraic Topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
+
+
 * {#Illman72} [[Sören Illman]], Prop. 2.5 in: *Equivariant singular homology and cohomology for actions of compact lie groups* ([doi:10.1007/BFb0070055](https://doi.org/10.1007/BFb0070055)) In: H. T. Ku, L. N. Mann, J. L. Sicks, J. C. Su (eds.), *Proceedings of the Second Conference on Compact Transformation Groups* Lecture Notes in Mathematics, vol 298. Springer 1972 ([doi:10.1007/BFb0070029](https://link.springer.com/book/10.1007/BFb0070029))
 
 See also:
