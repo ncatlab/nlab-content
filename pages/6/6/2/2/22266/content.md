@@ -38,7 +38,6 @@ This should hold for $G$ a [[compact Lie group]] (such as a [[finite group]]) an
 
 * {#May96} [[Peter May]] et al., Thm 3.6 in: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 
-* [[Jay Shah]], Theorem 2.9 in: _Equivariant algebraic topology_, 2010 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
 
 [[!redirects G-CW approximations]]
 
