@@ -115,7 +115,7 @@ More generally there is $RO(G)$-graded [[equivariant cohomology]] with [[coeffic
 
 ## References
 
-The original text is
+The original text:
 
 * {#Bredon67b} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967 ([doi:10.1007/BFb0082690](https://link.springer.com/book/10.1007/BFb0082690))
 
@@ -123,20 +123,19 @@ announced in
 
 * {#Bredon67a} [[Glen Bredon]], _Equivariant cohomology theories_, Bull. Amer. Math. Soc. Volume 73, Number 2 (1967), 266-268. ([educlid:1183528794](https://projecteuclid.org/euclid.bams/1183528794))
 
-Also
+Also:
+
+* {#Illman72} [[Sören Illman]], Chapter III in: *Equivariant Algebraic Topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
 
 * [[Sören Illman]], _Equivariant singular homology and cohomology_, Bull. Amer. Math. Soc. Volume 79, Number 1 (1973), 188-192 ([euclid:bams/1183534324](https://projecteuclid.org/euclid.bams/1183534324))
 
 
 
-Reviews include
-
-
+Review:
 
 * {#Blumberg17} [[Andrew Blumberg]], section 1.4 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
 * {#tomDieck87} [[Tammo tom Dieck]], Section II.9 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
-
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], pages 9-10 of _[[Equivariant stable homotopy theory]]_, chapter 8, pages 277-323 in: [[Ioan James]] (ed.), _[[Handbook of Algebraic Topology]]_, North-Holland, Amsterdam, 1995. ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7), [pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
