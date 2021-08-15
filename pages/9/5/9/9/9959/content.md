@@ -38,7 +38,10 @@ See at _[[Dirac charge quantization]]_.
 
 ## References
 
-For instance 
+Textbook accounts:
+
+* [[Yakov Shnir]], Part I of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
+
 
 * [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_
 
