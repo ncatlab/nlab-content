@@ -61,7 +61,7 @@ This result appears as corollary 4.9 in [Johnstone (2006)](#J06).
 
 ## References
 
-* [[Peter Johnstone]], _Open maps of toposes_, Manuscripta Math. **31** no.1-3 (1980) pp.217-247. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002222744))
+* [[Peter Johnstone]], _Open maps of toposes_, Manuscripta Math. **31** no.1-3 (1980) pp.217-247. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002222744), [doi](https://doi.org/10.1007/BF01303275))
 
 * {#J02}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol.II_ , Oxford UP 2002. (section C3.1, pp.606-625)
 
