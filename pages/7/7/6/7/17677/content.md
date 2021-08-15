@@ -16,11 +16,47 @@ Tarski's informal definition ([Ln](#Ln)) is reproduced here,
 
 Logic is now to be seen as the maximally invariant theory.
 
+## Cases of invariance in logical systems
+
+### Propositional logic
+
 In the propositional case, consider the [[symmetric group]], $S_n$, acting on a set, $X$, of cardinality $n$. Then it also acts on all cartesian powers, $X^k$. Subsets of $X^k$ are $k$-ary [[relations]], and those invariant under $S_n$ are unions of the [[orbits]] of its action. The idea then is that such relations are invariant if and only if they are definable using only logical constants.
 
-Johan van Benthem proposed ([JvB](#JvB)) such a treatment for a certain [[type theory]]. [[Steve Awodey]] ([ULL](#ULL)) has argued that [[homotopy type theory]] should be seen in a similar light as expressing invariance under the broader notion of [[equivalence]]. In ([UPL](#UPL)) he speaks of what he calls the _Tarski-Grothendieck Thesis_:
+
+### Simple type theory
+
+Johan van Benthem proposed ([JvB](#JvB)) such a treatment for a certain [[simple type theory]]. Here there is a type of individuals, $e$, a type of truth values, $t$, and it is closed under function types. For instance, invariant elements of the type $((e, t), t)$ include the [[quantifiers]].
+
+Van Benthem demonstrates that types possessing an invariant element are precisely those of either of the forms
+
+1. $(a_1, (a_2, \ldots,(a_n, t)\ldots)),$
+
+1. $(a_1, (a_2, \ldots,(a_n, e)\ldots)),$ where at least one of the $a_i$ fails to have an invariant element.
+
+### Homotopy type theory
+
+[[Steve Awodey]] ([ULL](#ULL)) has argued that [[homotopy type theory]] should be seen in a similar light as expressing invariance under the broader notion of [[equivalence]]. In ([UPL](#UPL)) he speaks of what he calls the _Tarski-Grothendieck Thesis_:
 
 > If a statement, concept, or construction is purely logical, then it should  be invariant under all equivalences of the structures involved. A statement that is not invariant must involve some non-logical specifics, pertaining not to general logical form but to some particular aspects of the objects bearing the structure.  If it is the hallmark of a logical concept that it should pertain only to general, formal structure and not to any specific features of  the objects bearing that structure, then this formal character may be witnessed  by the fact that the concept is invariant under all equivalence transformations.
+
+One way to understand this is in terms of type formation that is invariant under type equivalence. So given a type $A: \mathcal{U}$, we have for instance
+
+* [[dependent sum type]] and [[dependent product type]] formation in 
+$$(X: BAut(A)) \to (X \to \mathcal{U}) \to \mathcal{U},$$
+
+* list type formation in 
+$$(X: BAut(A)) \to \mathcal{U},$$
+
+* [[identity type]] formation in 
+$$(X: BAut(A)) \to X \to (X \to \mathcal{U}),$$
+
+and so on.
+
+Types formed from two or more types may be treated similarly, so that the formation of [[sum type]], [[product type]] and [[function type]] are invariant elements of 
+
+* $(X: BAut(A)) \to (Y: BAut(B)) \to \mathcal{U}.$
+
+
 
 ##References
 
