@@ -40,7 +40,7 @@ Experimental exclusion bounds of gluino [[rest masses]] due to the [[LHC]] [[exp
 
 ## References
 
-* {#ParticleDataGroup17} [Particle Data Group Review 2017](http://pdg.lbl.gov/), 113. _Supersymmetry , part II (experiment)_ ([pdf](http://pdg.lbl.gov/2017/reviews/rpp2017-rev-susy-2-experiment.pdf))
+* {#ParticleDataGroup17} [[Particle Data Group]] [Review 2017](http://pdg.lbl.gov/), 113. _Supersymmetry , part II (experiment)_ ([pdf](http://pdg.lbl.gov/2017/reviews/rpp2017-rev-susy-2-experiment.pdf))
 
 See also:
 
