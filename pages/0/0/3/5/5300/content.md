@@ -33,7 +33,9 @@ On [[string topology]]:
 On the [[homotopy type of spaces of rational maps]] and [[moduli spaces of monopoles]] related to [[braid groups]]:
 
 
-* [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
+* [[Fred Cohen]], [[Ralph Cohen]], [[Benjamin M. Mann]], [[R. James Milgram]], _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
+
+* {#CohenShimamoto91} [[Ralph L. Cohen]], [[Don H. Shimamoto]], *Rational Functions, Labelled Configurations, and Hilbert Schemes*, Journal of the London Mathematical Socienty **43** 2 (1991) 509-528 ([doi:10.1112/jlms/s2-43.3.509](https://doi.org/10.1112/jlms/s2-43.3.509))
 
 * [[Ralph Cohen]], [[John D. S. Jones]], _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
 
