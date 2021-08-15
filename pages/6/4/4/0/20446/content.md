@@ -51,7 +51,7 @@ See at
 
 ## References
 
-* {#PDG18} Particle Data Group Review 2018, _12. CKM Quark-Mixing Matrix_ ([pdf](http://pdg.lbl.gov/2019/reviews/rpp2018-rev-ckm-matrix.pdf))
+* {#PDG18} [[Particle Data Group]] Review 2018, _12. CKM Quark-Mixing Matrix_ ([pdf](http://pdg.lbl.gov/2019/reviews/rpp2018-rev-ckm-matrix.pdf))
 
 * Sébastien Descotes-Genon, [[Patrick Koppenburg]], _The CKM Parameters_, Annual Review of Nuclear and Particle Science Vol 67:97-127, 12 October 2017 ([arXiv:1702.08834](https://arxiv.org/abs/1702.08834))
 
