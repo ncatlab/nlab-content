@@ -77,6 +77,8 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 * Jean-Marc Richard, _An introduction to the quark model_ ([arXiv:1205.4326](https://arxiv.org/abs/1205.4326), [spire:1115489](http://inspirehep.net/record/1115489))
 
+* [[Particle Data Group]], *Quark Model* ([pdf](https://pdg.lbl.gov/2020/reviews/rpp2020-rev-quark-model.pdf), [web](https://pdg.lbl.gov/2021/reviews/contents_sports.html)), Chapter 15 in: *[The Review of Particle Physics](https://pdg.lbl.gov/)*,  Prog. Theor. Exp. Phys. 2020, 083C01 (2020) ([doi:10.1093/ptep/ptaa104](https://doi.org/10.1093/ptep/ptaa104))
+
 Textbooks:
 
 * {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf), [spire:205394](https://inspirehep.net/record/205394))
