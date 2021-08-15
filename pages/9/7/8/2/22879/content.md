@@ -310,6 +310,9 @@ Generalization to the case that the [[codomain]] is
 
 * [[Frances Kirwan]], *On spaces of maps from Riemann surfaces to Grassmannians and applications to the cohomology of moduli of vector bundles*, Ark. Mat. 24(1-2): 221-275 (1985) ([doi:10.1007/BF02384399](https://www.projecteuclid.org/journals/arkiv-for-matematik/volume-24/issue-1-2/On-spaces-of-maps-from-Riemann-surfaces-to-Grassmannians-and/10.1007/BF02384399.full))
 
+*  [[Benjamin M. Mann]], [[R. James Milgram]],  *Some spaces of holomorphic maps to complex Grassmann manifolds*, J. Differential Geom. 33(2): 301-324 (1991) ([doi:10.4310/jdg/1214446318](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-33/issue-2/Some-spaces-of-holomorphic-maps-to-complex-Grassmann/10.4310/jdg/1214446318.full))
+
+
 ... a [[toric variety]]:
 
 * [[Martin A. Guest]], *The topology of the space of rational curves on a toric variety*, Acta Math. 174(1): 119-145 (1995) ([doi:10.1007/BF02392803](https://projecteuclid.org/journals/acta-mathematica/volume-174/issue-1/The-topology-of-the-space-of-rational-curves-on-a/10.1007/BF02392803.full), [arXiv:alg-geom/9301005](https://arxiv.org/abs/alg-geom/9301005))
