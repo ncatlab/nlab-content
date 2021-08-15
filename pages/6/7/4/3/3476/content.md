@@ -63,7 +63,7 @@ In a [[topos]] with a [[natural numbers object]] (NNO), W-types for any polynomi
 #### Dependent W-types
  {#DependentWTypesCategoricalSemantics}
 
-The above has a natural generalization to [[dependent type|dependent]] W-types ([Gambino-Hyland 04](#GambinoHyland04)): 
+The above has a natural generalization to [[dependent type|dependent]] or *indexed* W-types ([Gambino-Hyland 04](#GambinoHyland04)) with a type $C$ of *indices*: 
 
 given a [[diagram]] of the form
 
@@ -90,7 +90,8 @@ $$
 $$
 
 This reduces to the above for $C = \ast$ the [[terminal object]].
-Notice that we do not necessarily have $g f \simeq h$, so this is not just simply a polynomial endofunctor of $\mathcal{C}/_{C}$ considered as a lccc in its own right.
+
+Notice that we do not necessarily have $g f = h$, so this is not just simply a polynomial endofunctor of $\mathcal{C}/_{C}$ considered as a lccc in its own right.  If we *do* have $g f = h$, then $C$ is called a type of *parameters* instead of indices.
 
 
 ### W-types in type theory
@@ -125,11 +126,9 @@ c(x,u,\lambda y.wrec(u(y),c)):C(sup(x,u))}}$$
 
 ([Awodey-Gambino-Sojakova](#AwodeyGambinoSojakova) &#167;2, originally from [Martin-L&#246;f](#Martin-LofITT))
 
-The main distinction from the naive categorical theory above is that the map $f$ (from the lines above the rules) must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.  In the case of dependent polynomial functors, $q$ must also be a display map in order to define $\Sigma_q$.  (Actually, using [[adjunction|adjointness]], one can still define the W-type even if $q$ is not a display map, but its properties are not as good.  This extra generality is important, however.  For example, [[identity type]]s arise as this more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
+The main distinction from the naive categorical theory above is that the map $f$ (from the lines above the rules) must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.
 
-+--{: .query}
-[[Mike Shulman]]: Is the term "W-type" still used in this generality?  Or are they just called "inductive types"?
-=--
+In the case of dependent polynomial functors, it seems that $q$ must also be a display map, in order to define $\Sigma_q$.  However, using [[adjunction|adjointness]], one can still define the W-type even if $q$ is not a display map.  This more general version is what in type theory is called an *indexed W-type*; if $q$ is a display map then one sometimes refers to *non-uniform parameters* instead of *indices*.  (By contrast, *uniform parameters* are the kind discussed above where $g f = h$, so that the entire construction takes place in a single slice category  This is an instance of the [[red herring principle]], since non-uniform parameters are not really parameters at all, but a special kind of indices.)  For example, [[identity type]]s are indexed W-types but not parametrized ones (even non-uniformly); see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
 
 Note also that in [[intensional type theory]], a W-type is only an initial algebra with respect to propositional equality, not definitional equality.  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the natural numbers.
 
