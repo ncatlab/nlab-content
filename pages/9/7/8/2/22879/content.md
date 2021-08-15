@@ -126,8 +126,9 @@ is
   an [[isomorphism]] on [[ordinary homology|ordinary]] [[homology groups]] in degrees $\leq (d - 2g) (2 n -1)$.
 
 \end{proposition}
-([Segal 1979, Prop. 1.2, 1.3](#Segal79))
 
+This is due to [Segal 1979, Prop. 1.2, 1.3](#Segal79). The analogous statement for rational curves in [[real projective spaces]] is in [Mostovoy 01](#Mostovoy01).
+ 
 \begin{example}\label{TheArchetypicalExample}
 **(the archetypical case)** \linebreak
   In the special case that $n = 1$ and $\Sigma = S^2$ is the [[2-sphere]] with its [[complex structure]], so that both [[domain]] and [[codomain]] are the [[Riemann sphere]] $\mathbb{C}P^1$, Prop. \ref{SegalOnHomotopyTypeOfRationalMapsIntoCPn} says that
@@ -283,7 +284,7 @@ Prop. \ref{HomologyEquivalenceForMapsBetweenComplexProjectiveSpaces} generalizes
 
 ### Maps out of Riemann surfaces
 
-The original theorem for maps from compact Riemann surfaces to projective spaces:
+The original theorem for [[rational maps]]/[[continuous maps]] from compact [[Riemann surfaces]] to [[complex projective spaces]]:
 
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
@@ -297,6 +298,10 @@ Further discussion:
 Volume: 258 (2000)  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
 
 * {#Kamiyama07} Yasuhiko Kamiyama, *Remarks on spaces of real rational functions*, The Rocky Mountain Journal of Mathematics Vol. 37, No. 1 (2007), pp. 247-257 ([jstor:44239357](https://www.jstor.org/stable/44239357))
+
+The analog for rational curves into [[real projective spaces]]:
+
+* {#Mostovoy01} [[Jacob Mostovoy]], *Spaces of Rational Loops on a Real Projective Space*, Transactions of the American Mathematical Society, Vol. 353, No. 5 (May, 2001), pp. 1959-1970 ([jstor:221802](https://www.jstor.org/stable/221802))
 
 
 Generalization to the case that the [[codomain]] is 
