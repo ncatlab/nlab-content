@@ -16,6 +16,12 @@ On [[baryon-lepton symmetry]]:
 
 * [[Robert Marshak]], _Yukawa Meson, Sakata Model and Baryon-Lepton Symmetry Revisited_, Progress of Theoretical Physics Supplement, Volume 85, May 1985, Pages 61–74 ([dpi:10.1143/PTP.85.61](https://doi.org/10.1143/PTP.85.61))
 
+On [[particle physics]]:
+
+* [[Robert E. Marshak]], *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
+
+
 category: people
 
 [[!redirects Robert Marshak]]
+[[!redirects Robert E. Marshak]]
