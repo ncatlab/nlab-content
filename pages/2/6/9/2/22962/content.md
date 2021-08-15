@@ -12,6 +12,6 @@ It "aims to establish a basic theory of dependence and independence underlying s
 
 ## Literature
 
-* Juoko Väänänen, Dependence logic: A new approach to independence friendly logic, London Mathematical Society Student Texts 70, Cambridge University Press 2007
+* Jouko Väänänen, Dependence logic: A new approach to independence friendly logic, London Mathematical Society Student Texts 70, Cambridge University Press 2007
 * P. Galliani, J. Väänänen, _On dependence logic_, In: Baltag A., Smets S. (eds) Johan van Benthem on Logic and Information Dynamics. Outstanding Contributions to Logic, vol 5. Springer, Cham. 2014 [doi](https://doi.org/10.1007/978-3-319-06025-5_4)
 * Samson Abramsky, Juha Kontinen, Jouko Väänänen, Heribert Vollmer (eds.), _Dependence logic: theory and applications_, Birkhäuser, Basel, 2016
