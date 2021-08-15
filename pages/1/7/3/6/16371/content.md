@@ -160,13 +160,12 @@ For some further details see at [[dense subtopos]].
 
 * {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (Expos&#233; IV 9.2, 9.3.4-9.4., pp.451ff)
 
-* {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
+* {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open localizations_ , JPAA **74** (1991) 229-238 <a href="https://doi.org/10.1016/0022-4049(91)90113-G">doi</a>
 
-* C. Getz, M. Korostenski, _Open Localizations and Factorization Systems_ , Quest. Math. **17** no.2 (1994) pp.225-230.
+* C. Getz, M. Korostenski, _Open localizations and factorization systems_ , Quest. Math. **17** no.2 (1994) 225-230 [doi](https:/doi.org/10.1080/16073606.1994.9631761)
+* {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, 93-95)
 
-* {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, pp.93-95)
-
-* {#Johnstone80}[[Peter Johnstone]], _Open maps of toposes_ , Manuscripta Math. **31** (1980) pp.217-247. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002222744))
+* {#Johnstone80}[[Peter Johnstone]], _Open maps of toposes_ , Manuscripta Math. **31** (1980) 217-247. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002222744))
 
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vols. I,II_, Oxford UP 2002. (A4.5., pp.204-220; C3.1.5-7, pp.609f)
 
