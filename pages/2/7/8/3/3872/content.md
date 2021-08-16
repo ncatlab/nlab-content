@@ -103,9 +103,16 @@ On [[M-theory on G2-manifolds]]:
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
+Introducing the [[Atiyah-Sutcliffe conjecture]]:
+
+* [[Michael F. Atiyah]], [[Paul M. Sutcliffe]], _The geometry of point particles_, Proc. Roy. Soc. London Ser. A 458 (2002), 1089–1115 ([hep-th/0105179](https://arxiv.org/abs/hep-th/0105179), [doi:10.1098/rspa.2001.0913](https://doi.org/10.1098/rspa.2001.0913))
+
+
 On the [[AKM-theorem]] and its further generalization to the [[13-sphere]] being an [[Sp(1)]]-quotient of the [[octonionic projective plane]]:
 
 * {#AtiyahBerndt02} [[Michael Atiyah]], [[Jürgen Berndt]], in:  Surv. Differ. Geom. VIII, Papers in Honor of Calabi, Lawson, Siu and Uhlenbeck (International Press, Somerville, MA, 2003) 1-27 ([arXiv:math/0206135](https://arxiv.org/abs/math/0206135), [doi:10.4310/SDG.2003.v8.n1.a1](https://dx.doi.org/10.4310/SDG.2003.v8.n1.a1))
+
+
 
 On [[twisted K-theory]] and [[twisted equivariant K-theory]]:
 
@@ -170,7 +177,12 @@ On [[twistors]]:
 
 category: people
 
+[[!redirects Michael F. Atiyah]]
+
 [[!redirects M. F. Atiyah]]
 [[!redirects M. Atiyah]]
 [[!redirects Atiyah]]
 [[!redirects Sir Michael Atiyah]]
+
+
+
