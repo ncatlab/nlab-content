@@ -167,15 +167,15 @@ CPM, classical structures, ...
 
 * [[quantum logic]], [[quantum theory]]
 
-* [[Kochen-Specker theorem]]
-
-* [[quantum computation]]
+* [[quantum computation]], [[quantum cryptography]]
 
 * [[qbit]], [[quantum circuit model]]
 
 * [[quantum error correcting code]]
 
 * [[information theory]], [[information geometry]]
+
+* [[Kochen-Specker theorem]]
 
 * [[MIP-star=RE]]
 
