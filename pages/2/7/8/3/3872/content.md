@@ -107,6 +107,8 @@ Introducing the [[Atiyah-Sutcliffe conjecture]]:
 
 * [[Michael F. Atiyah]], [[Paul M. Sutcliffe]], _The geometry of point particles_, Proc. Roy. Soc. London Ser. A 458 (2002), 1089–1115 ([hep-th/0105179](https://arxiv.org/abs/hep-th/0105179), [doi:10.1098/rspa.2001.0913](https://doi.org/10.1098/rspa.2001.0913))
 
+* [[Michael Atiyah]], [[Joseph Malkoun]], *The Relativistic Geometry and Dynamics of Electrons*, Found Phys 48, 199–208 (2018) ([doi:10.1007/s10701-018-0139-2](https://doi.org/10.1007/s10701-018-0139-2))
+
 
 On the [[AKM-theorem]] and its further generalization to the [[13-sphere]] being an [[Sp(1)]]-quotient of the [[octonionic projective plane]]:
 
