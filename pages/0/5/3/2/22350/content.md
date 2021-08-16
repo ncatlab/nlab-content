@@ -110,7 +110,7 @@ $$
 (e.g. [Hatcher, Prop. 1.3](#Hatcher), [Freed, Lemma 5.6](#Freed))
 
 \begin{proof}
-Sketch: Under the assumption on $B$, there exists (by [this Prop.](ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)) a [[inner product on vector bundles|fiberwise inner product]] on $\mathca{V}$. With this the splitting follows by th usual splitting of short exact sequences of [[real vector spaces]], applied fiberwise: $\mathcal{V}_R$  is fiberwise identified with the [[orthogonal complement]] of $\mathcal{V}_L$.  
+Sketch: Under the assumption on $B$, there exists (by [this Prop.](inner+product+on+vector+bundles#ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)) a [[inner product on vector bundles|fiberwise inner product]] on $\mathcal{V}$. With this the splitting follows by th usual splitting of short exact sequences of [[real vector spaces]], applied fiberwise: $\mathcal{V}_R$  is fiberwise identified with the [[orthogonal complement]] of $\mathcal{V}_L$.  
 \end{proof}
 
 
