@@ -10,13 +10,13 @@
 
 ## Related entries
 
-* [[arithmetic cryptography]], 
+* [[arithmetic cryptography]]
 
 * [[digital identity]], 
 
 * [[information theory]], 
 
-* [[quantum information theory]], 
+* [[quantum cryptography]], [[quantum information theory]]
 
 * [[quantum computing]], 
 
