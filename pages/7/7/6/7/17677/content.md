@@ -5,9 +5,9 @@
 
 ## Idea
 
-Philosophers have sought a means to isolate the properly [[logic|logical]] components of a [[theory]] from the remainder. For a philosopher such as [[Rudolf Carnap]], this was considered an important step in establishing the [analytic-synthetic distinction](analytic+versus+synthetic#analyticsynthetic_distinction_in_philosophy), separating that which is true by virtue of form from that which has empirical content. Famously [[Willard Quine]] argued against such a distinction in his “Two Dogmas of Empiricism” ([Quine 1951](#Quine51)).
+Philosophers have sought a means to isolate the properly [[logic|logical]] from the descriptive terms of a [[language]] in which empirical or mathematical [[theories]] may be expressed. For a philosopher such as [[Rudolf Carnap]], this was considered an important step in establishing the [analytic-synthetic distinction](analytic+versus+synthetic#analyticsynthetic_distinction_in_philosophy), separating that in a [[theory]] which is the case by virtue of form from that which has empirical content. Famously [[Willard Quine]] argued against such a distinction in his “Two Dogmas of Empiricism” ([Quine 1951](#Quine51)).
 
-A prominent idea in the attempt to isolate the logical components of a theory has been to use [[invariant|invariance]] under arbitrary [[permutations]] of the corresponding domain of objects of the universe of discourse. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup).
+A prominent idea in the attempt to isolate the logical components of a language has been to use [[invariant|invariance]] under arbitrary [[permutations]] of the corresponding domain of objects of the universe of discourse. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup).
 
 Tarski's informal definition ([Ln](#Ln)) is reproduced here,
 >Now suppose we continue this idea, and consider still wider classes of transformations.
