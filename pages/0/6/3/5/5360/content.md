@@ -49,9 +49,11 @@ This amounts to an involutory [[quandle]] object $Q$ in the category of smooth m
 
 ## References
 
+Related items include [[homogeneous space]], [[quandle]], [[Lie triple system]], [[transvection]].
+
 The definition in terms of quandles coincides with the classical definition in the case of connected symmetric spaces.  For details, including a comparison of other definitions of symmetric space, see:
 
-* Wolgang Bertram, _The Geometry of Jordan and Lie Structures_, Lecture Notes in Mathematics **1754**, Springer, Berlin, 2000.
+* Wolgang Bertram, _The geometry of Jordan and Lie structures_, Lecture Notes in Mathematics **1754**, Springer, Berlin, 2000.
 
 The relation to quandles is given in Theorem I.4.3.  Bertram attributes this result to part I, chapter II of
 
