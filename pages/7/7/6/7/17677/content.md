@@ -5,9 +5,7 @@
 
 ## Idea
 
-Philosophers have sought a means to isolate the properly [[logic|logical]] from the descriptive terms of a [[language]] in which empirical or mathematical [[theories]] may be expressed. For a philosopher such as [[Rudolf Carnap]], this was considered an important step in establishing the [analytic-synthetic distinction](analytic+versus+synthetic#analyticsynthetic_distinction_in_philosophy), separating that in a [[theory]] which is the case by virtue of form from that which has empirical content. Famously [[Willard Quine]] argued against such a distinction in his “Two Dogmas of Empiricism” ([Quine 1951](#Quine51)).
-
-A prominent idea in the attempt to isolate the logical components of a language has been to use [[invariant|invariance]] under arbitrary [[permutations]] of the corresponding domain of objects of the universe of discourse. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup).
+A prominent idea in the effort to isolate what are the properly [[logic|logical]] concepts we deploy has been to use the notion of [[invariant|invariance]]. The thought here is that logical concepts are those that remain invariant under arbitrary [[permutations]] of the corresponding domain of objects of the universe of discourse. This approach has been seen by some, notably [[Friederich Mautner]] and [[Alfred Tarski]], as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup). Just as [[Euclidean geometry|Euclidean]] concepts are preserved by Euclidean transformations of space, and [[topology|topological]] ones are preserved by [[homeomorphisms]], so here logical concepts are those preserved by any permutation. 
 
 Tarski's informal definition ([Ln](#Ln)) is reproduced here,
 >Now suppose we continue this idea, and consider still wider classes of transformations.
@@ -19,6 +17,8 @@ Tarski's informal definition ([Ln](#Ln)) is reproduced here,
 >possible one-one transformations of the world onto itself.
 
 Logic is now to be seen as the maximally invariant theory.
+
+Tarski goes on to point out that using this method to distinguish between logical and mathematical concepts, the result is dependent on the chosen foundational theory. When [[Bertrand Russell|Russell's]] theory of types is chosen, as used by Whitehead and him in _Principia Mathematica_, then the membership relation is a logical concept. However, using a [[material set theory]], such as [[ZFC]], then it is not. 
 
 ## Cases of invariance in logical systems
 
@@ -59,6 +59,8 @@ and so on.
 Types formed from two or more types may be treated similarly, so that the formation of [[sum type]], [[product type]] and [[function type]] are invariant elements of 
 
 * $(X: BAut(A)) \to (Y: BAut(B)) \to \mathcal{U}.$
+
+In this way, any concept expressible in [[homotopy type theory]], and compatible with the [[univalence axiom]], is to be counted as logical.
 
 ## Related concepts
 
