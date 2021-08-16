@@ -5,9 +5,9 @@
 
 ## Idea
 
-Philosophers have sought a means to isolate the properly [[logic|logical]] components of a language from the remainder. For a philosopher such as [[Rudolf Carnap]], this was considered an important step in establishing the [analytic-synthetic distinction](analytic+versus+synthetic#analyticsynthetic_distinction_in_philosophy), separating that which is true by virtue of form from that which has empirical content. Famously [[Willard Quine]] argued against such a distinction in his “Two Dogmas of Empiricism” ([Quine 1951](#Quine51)).
+Philosophers have sought a means to isolate the properly [[logic|logical]] components of a [[theory]] from the remainder. For a philosopher such as [[Rudolf Carnap]], this was considered an important step in establishing the [analytic-synthetic distinction](analytic+versus+synthetic#analyticsynthetic_distinction_in_philosophy), separating that which is true by virtue of form from that which has empirical content. Famously [[Willard Quine]] argued against such a distinction in his “Two Dogmas of Empiricism” ([Quine 1951](#Quine51)).
 
-A prominent idea in the attempt to isolate the logical components of a language has been to use [[invariant|invariance]] under arbitrary [[permutations]] of the corresponding domain of objects of the universe of discourse. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup).
+A prominent idea in the attempt to isolate the logical components of a theory has been to use [[invariant|invariance]] under arbitrary [[permutations]] of the corresponding domain of objects of the universe of discourse. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup).
 
 Tarski's informal definition ([Ln](#Ln)) is reproduced here,
 >Now suppose we continue this idea, and consider still wider classes of transformations.
@@ -24,7 +24,7 @@ Logic is now to be seen as the maximally invariant theory.
 
 ### Propositional logic
 
-In the propositional case, consider the [[symmetric group]], $S_n$, [[group action|acting]] on a [[set]], $X$, of [[cardinality]] $n$. Then it also acts on all [[Cartesian product|cartesian powers]], $X^k$. Subsets of $X^k$ are $k$-ary [[relations]], and those invariant (as [[subsets]]) under $S_n$ are [[unions]] of the [[orbits]] of its action. The idea then is that such relations are invariant if and only if they are definable using only logical constants.
+In the [[propositional logic|propositional]] case, consider the [[symmetric group]], $S_n$, [[group action|acting]] on a [[set]], $X$, of [[cardinality]] $n$. Then it also acts on all [[Cartesian product|cartesian powers]], $X^k$. Subsets of $X^k$ are $k$-ary [[relations]], and those invariant (as [[subsets]]) under $S_n$ are [[unions]] of the [[orbits]] of its action. The idea then is that such relations are invariant if and only if they are definable using only logical constants.
 
 
 ### Simple type theory
