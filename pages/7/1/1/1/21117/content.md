@@ -320,6 +320,10 @@ See at *[[Majorana dimer code]]*.
 
 ### General
 
+The idea of quantum encryption based on the [[no-cloning theorem]] originates with:
+
+* [[Stephen Wiesner]], *Conjugate Coding*, circulated in the 1960s, finally published in ACM SIGACT News **15** 1 (1983) 78–88 ([original pdf](http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/wiesner.pdf), [doi:10.1145/1008908.1008920](https://doi.org/10.1145/1008908.1008920))
+
 Original articles on quantum error correcting codes:
 
 * {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
