@@ -34,9 +34,9 @@ From [Feynman 1955](#Feynman55):
 
 > This is not a new idea; this is the idea of the age of reason. $[\ldots]$ that we should arrange a system by which new ideas could be developed, tried out, tossed out, more new ideas brought in; a trial and error system. $[\ldots]$ the openness of the possibilities was an opportunity, and that doubt and discussion were essential to progress into the unknown.
 
-> if we suppress all discussion, all criticism, saing "This is it, boys, man is saved!" $[$ we would $]$ doom man for a long time to the chains of authority, confined to the limits of our present imagination. It has been done so many times before.
+> if we suppress all discussion, all criticism, saying "This is it, boys, man is saved!" $[$ we would $]$ doom man for a long time to the chains of authority, confined to the limits of our present imagination. It has been done so many times before.
 
-> It is our responsibility as scientists, knowing the great progress and great value of a satisfactory philosophy of ignorance, the great progress that is the fruit of freedom of thought, to proclaim the value of this freedom, to teach how doubt is not to be feared but welcomed and discussed, and to demand this freedom as our duty to all incoming generations.
+> It is our responsibility as scientists, knowing $[\ldots]$ the great progress that is the fruit of freedom of thought, to proclaim the value of this freedom, to teach how doubt is not to be feared but welcomed and discussed, and to demand this freedom as our duty to all incoming generations.
 
 From [Feynman 1964](#Feynman64) (from [this page](http://www.sitpor.org/wp-content/uploads/2015/03/Helix-Books-Richard-P.-Feynman-The-Pleasure-of-Finding-Things-Out_-The-Best-Short-Works-of-Richard-Feynman-Perseus-Publishing-Company-1999.pdf#page=131) and the [next](http://www.sitpor.org/wp-content/uploads/2015/03/Helix-Books-Richard-P.-Feynman-The-Pleasure-of-Finding-Things-Out_-The-Best-Short-Works-of-Richard-Feynman-Perseus-Publishing-Company-1999.pdf#page=132)):
 
