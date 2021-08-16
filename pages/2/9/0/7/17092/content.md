@@ -22,7 +22,7 @@
 
 The _equivariant Whitehead theorem_ is the generalization of the [[Whitehead theorem]] from ([[stable homotopy theory|stable]]) [[homotopy]] to ([[equivariant stable homotopy theory|stable]]) [[equivariant homotopy theory]]:
 
-Assume that the [[equivariance group]] be a [[compact Lie group]] ([Matumoto 71](#Matumoto71), [Illman 72](#Illman72), [James-Segal 78](#JamesSegal78), [Waner 80](#Waner80)). (This assumption is used, e.g. in [Waner 80, Rem. 7.4](#Waner80), [Shah 10, Rem. 1.2](#Shah10), to guarantee that [[Cartesian products]] of [[coset spaces]] $G/H$ are themselves [[G-CW-complexes]], which follows for [[compact Lie groups]], e.g. by the [[equivariant triangulation theorem]].)
+Assume that the [[equivariance group]] be a [[compact Lie group]] ([Matumoto 71](#Matumoto71), [Illman 72](#Illman72), [James-Segal 78](#JamesSegal78), [Waner 80](#Waner80)). (This assumption is used, e.g. in [Waner 80, Rem. 7.4](#Waner80), to guarantee that [[Cartesian products]] of [[coset spaces]] $G/H$ are themselves [[G-CW-complexes]], which follows for [[compact Lie groups]], e.g. by the [[equivariant triangulation theorem]].)
 
 Then: *$G$-[[homotopy equivalences]] $f \colon X \longrightarrow Y$ between [[G-CW complexes]] are equivalent to maps that induce [[weak homotopy equivalences]] $f^H \colon X^H \longrightarrow Y^H$ on all [[fixed point]] spaces for all [[closed topological space|closed]] [[subgroups|subgroups]] $H \hookrightarrow G$*. 
 
@@ -64,8 +64,6 @@ See also:
 
 
 Review and Lecture notes:
-
-* {#Shah10} [[Jay Shah]], Theorem 2.3 in: _Equivariant algebraic topology_, 2010 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
 
 
 * {#Blumberg17} [[Andrew Blumberg]], Section 1.2 in: _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
