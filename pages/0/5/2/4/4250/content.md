@@ -275,16 +275,19 @@ This definition of homotopy sheaves of [[simplicial presheaves]] is familiar fro
 
 > this needs more discussion
 
+## Related concepts
+
+* [[long exact sequence of homotopy groups]]
 
 ## References
 
-The intrinsic $(\infty,1)$-theoretic description is the topic of section 6.5.1 of
+The intrinsic $(\infty,1)$-theoretic description is the topic of section 6.5.1 in:
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 The model in terms of the [[model structure on simplicial presheaves]] is duscussed for instance in
 
-* [[Rick Jardine]], _Simplicial presheaves_ ([page 4](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=4))
+* [[J. F. Jardine]], _Simplicial presheaves_ ([page 4](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=4))
 
 
 [[!redirects categorical homotopy groups in an (∞,1)-topos]]
