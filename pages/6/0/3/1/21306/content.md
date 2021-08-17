@@ -45,7 +45,7 @@ Discussion in view of [[hadron supersymmetry]] in [[holographic light front QCD]
 ### Experimental detection
  {#ExperimentalDetection}
 
-[[experiment|Experimental]] detection of a tetraquark resonance $X(6900)$ made entirely of four [[charm quarks]] and argued to be the first oberserved "true" tetraquark state (instead of just a "[[diquark]] molecule"):
+[[experiment|Experimental]] detection of a tetraquark resonance $X(6900)$ made entirely of four [[charm quarks]] and argued to be the first observed "true" tetraquark state (instead of just a "[[diquark]] molecule"):
 
 * [[LHCb collaboration]], *Observation of structure in the $J/\psi$-pair mass spectrum*, Science Bulletin 65 (2020) 1983 ([arXiv:2006.16957](https://arxiv.org/abs/2006.16957), [doi:10.1016/j.scib.2020.08.032](https://doi.org/10.1016/j.scib.2020.08.032), [CERN news](https://phys.org/news/2020-07-cern-physicists-discovery-unique-particle.html))
 
