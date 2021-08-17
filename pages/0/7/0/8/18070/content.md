@@ -1277,7 +1277,7 @@ This is due to [Kohno 02](#Kohno02). See also [Lambrechts-Tourtchine 09, Section
 \linebreak
 
 
-### Relation weight systems, chord diagrams and Vassiliev invariants
+### Relation to weight systems, chord diagrams and Vassiliev invariants
 
 [[weight systems are cohomology of loop space of configuration space]]:
 
@@ -1362,6 +1362,36 @@ $$
 This is stated as [Kohno 02, Theorem 4.2](#Kohno02)
 
 [[!include chord diagrams and weight systems -- table]]
+
+
+### Berry-Robbins and Atiyah-Sutcliffe construction
+ {#AtiyahSutcliffeConstruction}
+
+In the course of providing a [[geometry|geometric]]-[[proof]] of the [[spin-statistics theorem]], [Berry & Robbins 1997](Atiyah-Sutcliffe+conjecture#BerryRobbins97) asked, at each [[natural number]] $n \in \mathbb{N}$, for a [[continuous function|continuous]] and [[symmetric group|$Sym(n)$]]-[[equivariant function]]
+
+\[
+  \label{TheBerryRobbinsMap}
+  \underset{ {}^{\{1,\cdots, n\}}  }{Conf}\big(\mathbb{R}^3\big)
+  \xrightarrow{\phantom{AAA}}
+  \mathrm{U}(n)/\big(\mathrm{U}(1)\big)^n
+\]
+
+* from the [[configuration space of points|configuration space of $n$ points]] (ordered and unlabeled) in [[Euclidean space]] $\mathbb{R}^3$
+
+* to the [[coset space]] of the [[unitary group]] $\mathrm{U}(n)$ by its [[maximal torus]], hence the complete [[flag manifold]] of flags in $\mathbb{C}^n$, 
+
+both equipped with the evident [[group action]] by the [[symmetric group]] $Sym(n)$.
+
+For the first non-empty case $n = 2$ this readily reduces to asking for a [[continuous map]] of the form $\mathbb{R}^3 \setminus \{0\} \xrightarrow{\;\;} \mathbb{C}P^1 \simeq S^2$ which is [[equivariant function|equivariant]] with respect to passage to antipodal points. This is immediately seen to be given by the radial projection.
+But this special case turns out not to be representative of the general case, as this simple construction idea does not generalize to $n \gt 2$.
+
+That a continuous and $Sym(n)$-equivariant Berry-Robbins map (eq:TheBerryRobbinsMap) indeed exists for all $n$ was proven in [Atiyah 2000](Atiyah-Sutcliffe+conjecture#Atiyah00). 
+
+In this article, [[Michael Atiyah|Atiyah]] turned attention to the stronger question asking for a [[smooth function|smooth]] and $Sym(n) \times $[[SO(3)|$SO(3)$]]-[[equivariant]] function (eq:TheBerryRobbinsMap) and provided an elegant proof strategy for this stronger statement, which however hinges on some [[conjecture|conjectural]] positivity properties of a certain [[determinant]] (discussed in more detail and with first numerical evidence in [Atiyah 2001](Atiyah-Sutcliffe+conjecture#Atiyah01)), interpreted as the [[electromagnetism|electrostatic]] [[energy]] of $n$-[[particles]] in $\mathbb{R}^3$.
+
+Extensive numerical checks of this stronger but conjectural construction was recorded, up to $n \lt 30$ , in [Atiyah & Sutcliffe 2002](Atiyah-Sutcliffe+conjecture#AtiyahSutcliffe02), together with a refined formulation of the [[conjecture]], whence it came to be known as the *[[Atiyah-Sutcliffe conjecture]]*.
+
+The [[Atiyah-Sutcliffe conjecture]] has been [[proof|proven]] for $n = 3$ in [Atiyah 2000](Atiyah-Sutcliffe+conjecture#Atiyah00)/[01](Atiyah-Sutcliffe+conjecture#Atiyah01) and for $n = 4$ by [Eastwood & Norbury 01](Atiyah-Sutcliffe+conjecture#EastwoodNorbury01). A general proof is claimed in [Atiyah & Malkoun 18](Atiyah-Sutcliffe+conjecture#AtiyahMalkoun18).
 
 
 
