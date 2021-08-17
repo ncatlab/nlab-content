@@ -19,7 +19,7 @@
 The [[Sullivan model]] of [[complex projective space]] $\mathbb{C}P^n$ is
 
 $$
-  \mathbb{R}
+  \mathbb{Q}
   [
     f_2, h_{2n+1}
   ]
