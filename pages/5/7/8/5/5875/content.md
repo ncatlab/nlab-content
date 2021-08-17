@@ -57,15 +57,24 @@ The first exhaustive study of these is due to
 whence the terminology _Puppe sequences_.
 
 
-Textbook accounts include
+Textbook accounts:
 
-* {#Switzer75} [[Robert Switzer]], around 2.59 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+* [[Norman Steenrod]], Thm. 17.4 in: _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
 
-* {#Kochmann96} [[Stanley Kochmann]], corollary 3.2.7 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Switzer75} [[Robert Switzer]], around 2.59 in: _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-See also
+* {#Kochmann96} [[Stanley Kochmann]], Corollary 3.2.7 in: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  Thm. 6.1.2 in: _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
+
+See also:
 
 * Wikipedia, _[Long exact sequence of a fibration](http://en.wikipedia.org/wiki/Homotopy_group#Long_exact_sequence_of_a_fibration)_
+
+In the generality of [[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups in an $(\infty,1)$-topos]]:
+
+* [[Jacob Lurie]], Rem. 6.5.1.5 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
 
 [[!redirects long exact sequences of homotopy groups]]
 
