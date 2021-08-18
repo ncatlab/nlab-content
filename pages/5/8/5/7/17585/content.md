@@ -115,7 +115,7 @@ is the dgc-algebra obtained from $(\wedge\bullet V, d_X)$ by shifting down all g
 +-- {: .num_prop #ModelForS1quotient}
 ###### Proposition
 
-Given a [[Sullivan model]] $(\wedge^\bullet (V \oplus s V), d_{\mathcal{L}X})$ for a [[free loop space]] as in prop. \ref{SullivanModelForTheFreeLoopSpace}, then a Sullivan model for the [[cyclic loop space]], i.e. for the [[homotopy quotient]] $\mathcal{L} X // S^1$ with respect to the canonical [[circle group]] action that rotates loops (i.e. for the [[Borel construction]] $\mathcal{L}X \times_{S^1} E S^1$) is given by
+Given a [[Sullivan model]] $(\wedge^\bullet (V \oplus s V), d_{\mathcal{L}X})$ for a [[free loop space]] as in prop. \ref{SullivanModelForTheFreeLoopSpace}, then a Sullivan model for the [[cyclic loop space]], i.e. for the [[homotopy quotient]] $\mathcal{L} X \sslash S^1$ with respect to the canonical [[circle group]] action that rotates loops (i.e. for the [[Borel construction]] $\mathcal{L}X \times_{S^1} E S^1$) is given by
 
 $$
   (\wedge^\bullet(  V\oplus s V \oplus \langle \omega_2\rangle ), d_{\mathcal{L}X/S^1})
@@ -316,7 +316,7 @@ $$
   \,,
 $$
 
-with $\mathfrak{l}(S^4)$ from prop. \ref{SullivanModelForTheFreeLoopSpace} and $\mathfrak{l}(\mathcal{L}S^4 //S^1)$ from prop. \ref{ModelForS1quotient},
+with $\mathfrak{l}(S^4)$ from prop. \ref{SullivanModelForTheFreeLoopSpace} and $\mathfrak{l}(\mathcal{L}S^4 \sslash S^1)$ from prop. \ref{ModelForS1quotient},
 where on the right we have homs in the [[slice category|slice]] over the [[line Lie n-algebra|line Lie 2-algebra]], via prop. \ref{ModelForS1quotient}.
 
 Moreover, this isomorphism takes
