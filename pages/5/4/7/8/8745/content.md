@@ -20,10 +20,21 @@ The original proof by Duflo is rather case by case, using the structure theory o
 
 ## References
 
-* M. Duflo, _Op&#233;rateurs diff&#233;rentiels bi-invariants sur un groupe de Lie_, Ann. Sci. &#201;cole Norm. Sup. (4) 10 (1977), 265&#8211;288 [MR56:3188](http://www.ams.org/mathscinet-getitem?mr=56:3188) [numdam](http://numdam.org/numdam-bin/fitem?id=ASENS_1977_4_10_2_265_0) 
-* Damien Calaque, Carlo A. Rossi, _Lectures on Duflo isomorphisms in Lie algebra and complex geometry_, European Math. Soc. 2011
+Original article:
+
+* [[Michel Duflo]], *Opérateurs différentiels bi-invariants sur un groupe de Lie*, Ann. Sci. École Norm. Sup. (4) 10 (1977), 265&#8211;288  ([numdam:ASENS_1977_4_10_2_265_0](http://www.numdam.org/item/ASENS_1977_4_10_2_265_0/), [MR56:3188](http://www.ams.org/mathscinet-getitem?mr=56:3188))
+
+Further discussion:
+
+* [[Damien Calaque]], Carlo A. Rossi, _Lectures on Duflo isomorphisms in Lie algebra and complex geometry_, European Math. Soc. 2011
+
 * [[M. Kontsevich]], _Deformation quantization of Poisson manifolds_, Lett. Math. Phys. __66__ (2003), no. 3, 157&#8211;216; _Operads and motives in deformation quantization_, Lett. Math. Phys. __48__ (1999), no. 1, 35&#8211;72.
-* A. Brochier, _A Duflo star-product for Poisson groups_, [arxiv/1604.08450](http://arxiv.org/abs/1604.08450)
+
+* [[Adrien Brochier]], _A Duflo star-product for Poisson groups_([arxiv/1604.08450](http://arxiv.org/abs/1604.08450))
+
+See also: 
+
+* Wikipedia, *[Duflo isomorphism](https://en.wikipedia.org/wiki/Duflo_isomorphism)*
 
 
 
