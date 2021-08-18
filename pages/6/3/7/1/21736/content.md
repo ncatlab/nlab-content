@@ -25,7 +25,7 @@
 
 ## Idea
 
-The _equivariant Chern-Dold character_ is the generalization of the _[[Chern-Dold character]]_ from [[generalized (Eilenberg-Steenrod) cohomology]] to [[equivariant cohomology]], and the generalization of the [[equivariant Chern character]] on [[equivariant K-theory]] to other equivariant generalized cohomology theories.
+The _equivariant Chern-Dold character_ is the generalization of the _[[Chern-Dold character]]_ from [[Whitehead-generalized cohomology]] to [[equivariant cohomology]], and the generalization of the [[equivariant Chern character]] on [[equivariant K-theory]] to other equivariant generalized cohomology theories.
 
 ## Related concepts
 
@@ -45,3 +45,5 @@ The _equivariant Chern-Dold character_ is the generalization of the _[[Chern-Dol
 
 
 * [[Wolfgang Lück]], _Equivariant Chern characters_, 2006 ([pdf](https://www.him.uni-bonn.de/lueck/data/goettingen_equi_Chern061130trans.pdf), [[LuckEquivariantChernCharacters.pdf:file]])
+
+[[!redirects equivariant Chern-Dold characters]]
