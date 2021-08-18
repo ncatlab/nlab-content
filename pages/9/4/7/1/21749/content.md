@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-([Baum-Connes 89, over (7.3)](#ConnesBaum89))
+([Baum-Connes 89, above (7.3)](#ConnesBaum89))
 
 ## Properties
 
