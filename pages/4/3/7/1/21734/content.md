@@ -45,11 +45,15 @@ The equivariant Chern character has a variety of different but equivalent concre
 
 * [[Chen-Ruan cohomology]]
 
+
 ## References
 
 * J. Słomińska, _Equivariant Chern homomorphism_, Bull. Acad. Polon. Sci., Sér. Sci. Math. Astronom. Phys, Vol. 24 (1976), 909-913.
 
 * [[Alain Connes]], [[Paul Baum]], _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
+
+* [[Michel Duflo]], [[Michèle Vergne]], *Cohomologie équivariante et descente*, Astérisque, no. 215 (1993) ([numdam:AST_1993__215__5_0](http://www.numdam.org/book-part/AST_1993__215__5_0))
+
 
 * {#LueckOliver01} [[Wolfgang Lück]], [[Bob Oliver]], _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_, Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15), [pdf](https://www.math.univ-paris13.fr/~bobol/lo2.pdf))
 
