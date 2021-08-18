@@ -49,6 +49,7 @@ On [[equivariant elliptic cohomology]] and [[positive energy representations]] o
 
 * {#GepnerMeier20} [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
 
+* [[Michèle Vergne]], *Bouquets revisited and equivariant elliptic cohomology*, International Journal of Mathematics 2021 ([arXiv:2005.00312](https://arxiv.org/abs/2005.00312), [doi:10.1142/S0129167X21400127](https://doi.org/10.1142/S0129167X21400127))
 
 Relation to [[Kac-Weyl characters]] of [[loop group representations]] 
 
