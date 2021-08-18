@@ -1,7 +1,13 @@
 
 * [website](https://sites.northwestern.edu/getzler/)
 * [list of publications](https://sites.northwestern.edu/getzler/Papers)
-* N. Berline, [[Ezra Getzler]], M. Vergne, _Heat kernels and Dirac operators_, Grundlehren __298__, Springer 1992, "Text Edition" 2003. 
+
+## Selected writings
+
+On [[heat kernels]], [[Dirac operators]] and [[index theory]]:
+
+* [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], *Heat Kernels and Dirac Operators*, Grundlehren __298__, Springer 2004 ([ISBN:9783540200628](https://www.springer.com/gp/book/9783540200628))
+
 
 category: people
 
