@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -41,9 +42,16 @@ Review:
 
 * [[Klaas Landsman]], _Singularities, black holes, and cosmic censorship: A tribute to Roger Penrose_ ([arXiv:2101.02687](https://arxiv.org/abs/2101.02687))
 
+* [[José M. M. Senovilla]], *A critical appraisal of the singularity theorems* ([arXiv:2108.07296](https://arxiv.org/abs/2108.07296))
+
+
 See also:
 
 * Wikipedia, _[Penrose-Hawking singularity theorem](http://en.wikipedia.org/wiki/Penrose&#8211;Hawking_singularity_theorems)_
+
+For further developments see
+
+* [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
 
 In view of [[constructive mathematics]]:
 
@@ -53,12 +61,15 @@ In view of [[constructive mathematics]]:
 
 * {#Sbierski} Jan Sbierski, _On the Existence of a Maximal Cauchy Development for the Einstein Equations - a Dezornification_ [PDF](http://arxiv.org/abs/1309.7591)
 
-For further developments see
 
-* [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
 
+
+
+
+[[!redirects Penrose singularity theorems]]
 
 [[!redirects Penrose-Hawking singularity theorem]]
 
+[[!redirects Penrose-Hawking singularity theorems]]
 
-[[!redirects Penrose singularity theorem]]
+
