@@ -10,7 +10,7 @@ The following is a list of quotes highlighting the open problem of confinement:
 
 * {#Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
 
-> many of the essential  properties that the theory $[$QCD$]$ is presumed to have, including  confinement, dynamical mass generation, and chiral symmetry  breaking, are only poorly understood. And apart from the low-lying bound states of heavy quarks, which we believe can be  described by a nonrelativistic Schroedinger equation, we are unable to derive from the basic theory even the grossest  features of the partticle spectrum, or of traditional strong  interaction phenomenology
+> many of the essential  properties that the theory $[$QCD$]$ is presumed to have, including  confinement, dynamical mass generation, and chiral symmetry  breaking, are only poorly understood. And apart from the low-lying bound states of heavy quarks, which we believe can be  described by a nonrelativistic Schroedinger equation, we are unable to derive from the basic theory even the grossest  features of the particle spectrum, or of traditional strong  interaction phenomenology
 
 \linebreak
 
@@ -233,7 +233,6 @@ the many experimental cross section measurements.
 
 > Perhaps the gauge/string duality has provided us with a "physicist's proof of confinement" in some exotic gauge theories like the one described by the warped deformed conifold. Yet, we still don’t have a quantitative handle on the Asymptotically Free theories in 3+1 dimensions. $[\cdots]$ Don’t take confinement for granted, even in 1+1 dimensions where it seems obvious. Proof of Color Confinement in 2+1 and 3+1 dimensions would be very important.
 
-* {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [video](https://youtu.be/B9NI2LE7d68?t=1183))
-
+* {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [[Dubovsky_QCDStrings.pdf:file]], [video](https://youtu.be/B9NI2LE7d68?t=1183))
 
 
