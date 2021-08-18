@@ -1008,12 +1008,12 @@ See also
 * Wikipedia, _[Complex projective space](https://en.wikipedia.org
 /wiki/Complex_projective_space)_
 
-Computation of [[cohomotopy]]-sets of complex projective spaces:
+Computation of [[Cohomotopy]]-sets of complex projective spaces:
 
 * {#West71} Robert West, _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal Indiana University Mathematics Journal Vol. 20, No. 9 (March, 1971), pp. 807-827 ([jstor:24890146](https://www.jstor.org/stable/24890146))
 
 
-Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to
+Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$:
 
 * R. E. Mosher,  _Some stable homotopy of complex projective space_, Topology 7 (1968), 179-193 ([pdf](https://core.ac.uk/download/pdf/82547916.pdf))
 
@@ -1024,6 +1024,11 @@ Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to
 Detailed review of the [[Atiyah-Hirzebruch spectral sequence]] for [[complex oriented cohomology]] is in
 
 * {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology, generalized orientation and Thom isomorphism_, 2016, 2018 ([[PedrotticECohomology2018.pdf:file]])
+
+Computation of the [[ordinary cohomology]] of [[cyclic loop spaces]] of complex projective spaces (their *[[string cohomology]]*):
+
+* [[Marcel Bökstedt]], [[Iver Ottosen]], *String cohomology groups of complex projective spaces*, Algebr. Geom. Topol. 7(4): 2165-2238 (2007). ([arXiv:math/0605754](https://arxiv.org/abs/math/0605754), [doi:10.2140/agt.2007.7.2165](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-7/issue-4/String-cohomology-groups-of-complex-projective-spaces/10.2140/agt.2007.7.2165.full))
+
 
 
 [[!redirects complex projective spaces]]
