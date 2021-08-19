@@ -22,7 +22,7 @@ Hadron supersymmetry
 ([Miyazawa 66](#Miyazawa66), 
 [Miyazawa 68](#Miyazawa68)) is an approximate ([[supersymmetry breaking|dynamically broken]]) [[supersymmetry]] among the [[experiment|experimentally]] observed spectra of [[hadrons]], hence an approximate [[symmetry]] of [[quantum hadrodynamics]], relating the [[masses]] of [[mesons]] (which are [[bosons]]) to [[baryons]] (which are [[fermions]]) and further to [[tetraquarks]] (which are again [[bosons]]).
 
-This experimentally observed hadron [[flavor physics|flavor]] supersymmetry is in contrast to the more popular but also more speculative idea of [[color charge]] [[supersymmetry]] ([[super QCD]], [[MSSM]]), which hypothesizes that [[quarks]] and [[gluons]] have [[superpartners]]. While these ([[squarks]] and [[gluinos]]) have not been observed, even single [[quarks]] have never been observed, due to their [[confinement]] inside [[hadrons]].
+This experimentally observed (see [below](#Phenomenology)) hadron [[flavor physics|flavor]] supersymmetry is in contrast to the more popular but also more speculative idea of [[color charge]] [[supersymmetry]] ([[super QCD]], [[MSSM]]), which hypothesizes that [[quarks]] and [[gluons]] have [[superpartners]]. While these ([[squarks]] and [[gluinos]]) have not been observed, even single [[quarks]] have never been observed, due to their [[confinement]] inside [[hadrons]].
 
 In terms of [[geometric engineering of QFT]] via [[intersecting D-brane models]], [[hadron supersymmetry]] means that the [[flavor brane]] is [[supersymmetry|supersymmetric]], while the [[color brane]] may not be.
 
@@ -71,8 +71,9 @@ This [[supersymmetry]] would be an exact [[symmetry]] of [[quantum hadrodynamics
 \linebreak
 
 ## Phenomenology
+ {#Phenomenology}
 
-A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] of the [[Regge trajectories]] of [[mesons]] and [[hadrons]]. This is indeed observed, with high accuracy:
+A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] of the [[Regge trajectories]] of [[mesons]] and [[hadrons]]. This is indeed observed in [[experiment]], with high accuracy:
 
 \begin{imagefromfile}
     "file_name": "MesonBaryonReggeTrajectoriesKlemptMetsch.jpg",
