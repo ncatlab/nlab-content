@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -188,6 +189,10 @@ recalled for instance in
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
 * Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
+
+Exposition also in:
+
+* [[Jakob Schwichtenberg]], *[divergence-perturbation-series-qft](http://jakobschwichtenberg.com/divergence-perturbation-series-qft)*
 
 
 For the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
