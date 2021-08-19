@@ -55,6 +55,11 @@ based on
 
   _Discrete Torsion, Quotient Stacks, and String Orbifolds_, in _[[Orbifolds in Mathematics and Physics]]_ ([arXiv:math/0110156](http://arxiv.org/abs/math/0110156))
 
+In relation to twisted [[Chen-Ruan cohomology|Chen-ruan]] [[orbifold cohomology]]:
+
+* [[Yongbin Ruan]], *Discrete torsion and twisted orbifold cohomology*, J. Sympl. Geom. 2 (2003), 1–24 ([arXiv:math/0005299](https://arxiv.org/abs/math/0005299))
+
+
 See also
 
 * [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], Nikolaos Prezas, _Discrete Torsion, Non-Abelian Orbifolds and the Schur Multiplier_, JHEP 0101:033, 2001 ([arXiv:hep-th/0010023](https://arxiv.org/abs/hep-th/0010023))
