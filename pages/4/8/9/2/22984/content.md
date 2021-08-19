@@ -25,7 +25,7 @@ A **regular hyperdoctrine**, also called an **elementary existential doctrine**,
 Let $C$ be a [[category]] with [[finite limits]]. A **[[regular logic|regular]] [[hyperdoctrine]]**, or **elementary existential doctrine**, over $C$ is a [[functor]]
 
 $$
-  P : C^{op} \to InfSemiLattice
+  P \;\colon\; C^{op} \to InfSemiLattice
 $$
 
 from the [[opposite category]] of $C$ to the category of inf-[[semilattices]], such that for every [[morphism]] $f : A \to B$ in $C$, the functor $P(A) \to P(B)$ has a [[left adjoint]] $\exists_f$ satisfying
@@ -40,16 +40,21 @@ The original definition of Lawvere did not include the last two conditions and a
 
 ## Related concepts
 
-* [[regular hyperdoctrine]]
 * [[first-order hyperdoctrine]]
+
+* [[coherent hyperdoctrine]]
+
+* [[Boolean hyperdoctrine]]
+
+
 
 ## References
 
 * [[William Lawvere]], *Equality in hyperdoctrines and comprehension schema as an adjoint functor*
 
-* Davide Trotta, *The existential completion*, 2021, [arxiv](https://arxiv.org/abs/2108.03416)
+* Davide Trotta, *The existential completion*, 2021 ([arxiv:2108.03416](https://arxiv.org/abs/2108.03416))
 
-* Davide Trotta, *An algebraic approach to the completions of elementary doctrines*, 2021, [arxiv](https://arxiv.org/abs/2108.03415)
+* Davide Trotta, *An algebraic approach to the completions of elementary doctrines*, 2021 ([arxiv:2108.03415](https://arxiv.org/abs/2108.03415))
 
 [[!redirects regular hyperdoctrines]]
 [[!redirects elementary existential doctrine]]
