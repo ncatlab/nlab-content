@@ -87,6 +87,8 @@ One can even extend this into the realm not just of provability, but furthermore
 
 * [[Boolean hyperdoctrine]]
 
+* [[regular hyperdoctrine]]
+
 * [[tripos]]
 
 [[!redirects first-order hyperdoctrines]]
