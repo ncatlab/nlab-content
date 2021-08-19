@@ -64,6 +64,7 @@ Bulletin of the Belgian Mathematical Society, v. 2 (1995), No 5, pp. 529-540.
 * Thomas Appl,  Diethard H Schiller, _Generalized hypergeometric coherent states_, J. Phys A37:7 (2004) 2731 [doi](https://doi.org/10.1088/0305-4470/37/7/015)
 * M. Spera, _On Kahlerian coherent states_, in Proc. Int. Conf. on Geometry, Integrability and Quantization 241-256, Institute of Biophysics and Biomedical Engineering, Bulg. Acad. Sci. 2000.
 * Rukmini Dey, Kohinoor Ghosh, Pullback coherent and squeezed states and quantization, [arXiv:2108.08082](https://arxiv.org/abs/2108.08082)
+* JP Antoine, F. Bagarello, JP Gazeau (eds) Coherent States and Their Applications. Springer Proceedings in Physics 205
 
 Coherent states can be generalized to [[noncommutative geometry]], most notably for [[quantum groups]]:
 
