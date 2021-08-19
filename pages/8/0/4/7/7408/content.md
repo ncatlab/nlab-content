@@ -24,7 +24,7 @@
 A _Boolean hyperdoctrine_ $P$ is a [[hyperdoctrine]] for [[lattices]] which are [[Boolean algebras]]
 
 $$
-  P : T^{op} \to BooleanAlgebra
+  P \;\colon\; T^{op} \to BooleanAlgebra
   \,.
 $$
 
@@ -34,6 +34,8 @@ $$
 * [[first-order hyperdoctrine]]
 
 * [[coherent hyperdoctrine]]
+
+* [[regular hyperdoctrine]]
 
 
 ## References
