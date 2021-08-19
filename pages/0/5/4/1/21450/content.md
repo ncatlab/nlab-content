@@ -44,12 +44,24 @@ The following is a list of quotes highlighting the open problem of confinement:
 
 * [[Igor Klebanov]], Oyvind Tafjord, "Can we quantitatively understand quark and gluon confinement in Quantum Chromodynamics and the existence of a mass gap?", 10th of *[10 Physics Problems for the Next Millennium](http://theory.caltech.edu/~preskill/millennium.html)* selected at [Strings 2000](https://inspirehep.net/conferences/972466)
 
+
+
+\linebreak
+
+
+
+* [[Yakov Shnir]], *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
+
+  Section 9.1:
+
+  > $[$confinement$]$ still remains one of the very few Big Unsolved Problems of the theoretical physics of the XXI-st century. Moreover, this is the "classic question that has resisted solution over the years", which was included by the Clay Mathematics Institute in the list of seven Millennium Prize Problems [$[14]$](mass+gap#JaffeWitten00). The award will amount to USD 1,000,000, thus, it is worth-while to account for more information about the matter.
+
 \linebreak
 
 
 * {#CsakiReece06} Csaba Csaki, [[Matthew Reece]], _Toward a Systematic Holographic QCD: A Braneless Approach_, JHEP 0705:062, 2007 ([arxiv:hep-ph/0608266](https://arxiv.org/abs/hep-ph/0608266))
 
-  (in motivation of [[Ads/QCD]])
+  (in motivation of [[AdS/QCD]])
 
 > QCD is a perennially problematic theory. Despite its decades of experimental support, the detailed low-energy physics remains beyond our calculational reach. The lattice provides a
 technique for answering nonperturbative questions, but to date there remain open questions that have not been answered.
@@ -231,8 +243,14 @@ the many experimental cross section measurements.
 
 * {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
 
-> Perhaps the gauge/string duality has provided us with a "physicist's proof of confinement" in some exotic gauge theories like the one described by the warped deformed conifold. Yet, we still don’t have a quantitative handle on the Asymptotically Free theories in 3+1 dimensions. $[\cdots]$ Don’t take confinement for granted, even in 1+1 dimensions where it seems obvious. Proof of Color Confinement in 2+1 and 3+1 dimensions would be very important.
+> Perhaps the gauge/string duality has provided us with a "physicist's proof of confinement" in some exotic gauge theories like the one described by the warped deformed conifold. Yet, we still don't have a quantitative handle on the Asymptotically Free theories in 3+1 dimensions. $[\cdots]$ Don’t take confinement for granted, even in 1+1 dimensions where it seems obvious. Proof of Color Confinement in 2+1 and 3+1 dimensions would be very important.
+
+\linebreak
 
 * {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [[Dubovsky_QCDStrings.pdf:file]], [video](https://youtu.be/B9NI2LE7d68?t=1183))
 
+  concludes in view of [[AdS/QCD]]:
 
+  > With  modern  lattice  tools  and  understanding  of  QFT/string theory we are in a good position to solve this problem. It may take another 30 years to build a new collider and get new data in  particle  physics.  But  we  are  lucky  to  have  a  tractable  and fundamental  problem  to  solve  while  waiting.  Participants  of STRINGS 2051 will be puzzled if we don’t make an effort now  and leave it to them.
+
+\linebreak
