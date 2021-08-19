@@ -41,6 +41,24 @@ A __[[regular cardinal]]__ may be defined to be a collection of cardinals $C$ su
 Traditionally, one requires a regular ordinal or cardinal to be [[infinite set|infinite]], and thus classically they are the same with no exceptions.
 
 
+## Cofinality without choice
+
+Assuming the consistency of the existence
+of arbitrarily large [[strongly compact cardinals]],
+it is consistent with ZF that
+every infinite set is a countable union of sets of smaller cardinality.
+See \cite{Gitik}.
+
+
+## Related concepts
+
+* [[initial functor]], [[final functor]]
+
+## References
+
+* {#Gitik} M. Gitik, _All uncountable cardinals can be singular_, Israel Journal of Mathematics 35:1-2 (1980), 61-88.  [doi](http://dx.doi.org/10.1007/bf02760939).
+
+
 [[!redirects cofinality]]
 [[!redirects cofinalities]]
 
