@@ -1200,7 +1200,7 @@ Discussion with an emphasis of quantizing [[classical field theory]] on curved [
 
 Aspects at least of geometric prequantization are usefully discussed also in section II of 
 
-* [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993)
+* [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993) ([doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308))
 
 Further reviews include
 
