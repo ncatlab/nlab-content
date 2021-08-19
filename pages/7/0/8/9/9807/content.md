@@ -994,6 +994,9 @@ Discussion in relation to [[equivariant K-theory]] and [[equivariant elliptic co
 
 * [[Michèle Vergne]], *Bouquets revisited and equivariant elliptic cohomology*, International Journal of Mathematics 2021 ([arXiv:2005.00312](https://arxiv.org/abs/2005.00312), [doi:10.1142/S0129167X21400127](https://doi.org/10.1142/S0129167X21400127))
 
+Generalization to equivariant-[[twisted de Rham cohomology]] (as the [[codomain]] for the [[twisted equivariant Chern character]]):
+
+* [[Varghese Mathai]], [[Danny Stevenson]], p. 18 of: *Chern character in twisted K-theory: equivariant and holomorphic cases*, Commun. Math. Phys. **236** (2003) 161-186 ([arXiv:hep-th/0201010](https://arxiv.org/abs/hep-th/0201010), [doi:10.1007/s00220-003-0807-7](https://doi.org/10.1007/s00220-003-0807-7))
   
 
 [[!redirects equivariant de Rham complex]] 
