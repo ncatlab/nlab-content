@@ -12,6 +12,11 @@ On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomo
 
 * {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
+On [[discrete torsion]] in relation to twisted [[Chen-Ruan cohomology|Chen-ruan]] [[orbifold cohomology]]:
+
+* [[Yongbin Ruan]], *Discrete torsion and twisted orbifold cohomology*, J. Sympl. Geom. 2 (2003), 1–24 ([arXiv:math/0005299](https://arxiv.org/abs/math/0005299))
+
+
 On [[twisted equivariant K-theory|twisted]] [[orbifold K-theory]]:
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
