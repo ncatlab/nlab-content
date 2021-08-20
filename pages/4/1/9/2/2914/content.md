@@ -235,7 +235,76 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
   Since the [[left adjoint]] $f_1$ is the [[postcomposition]] operation, it manifestly preserves the classes of [[underlying]] morphisms, hence in particular preserves the classes of (acyclic) cofibrations in the slice model structure (by Prop. \ref{SliceModelStructure}), hence is a [[left Quillen functor]].
 \end{proof}
 
-If this adjunction is a [[Quillen equivalence]], then $f$ must be a [[weak equivalence]].  In general, the converse can be proven only if $c_1$ and $c_2$ are [[fibrant objects|fibrant]].
+\begin{prop}\label{LeftBaseChangeQuillenEquivalence}
+**([[left base change Quillen equivalence]])** \linebreak
+
+Let $\mathcal{C}$ be a [[model category]], 
+and $\phi \colon S \overset{ \in \mathrm{W} }{\longrightarrow} T$ be a [[weak equivalence]] in $\mathcal{C}$.
+
+Then the left base change Quillen adjunction along $\phi$ (Prop. \ref{LeftBaseChangeQuillenAdjunction}) is a [[Quillen equivalence]]
+
+$$
+  \mathcal{C}_{/T}
+    \underoverset
+      {\underset{\phi^*}{\longrightarrow}}
+      {\overset{\phi_!}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu}}
+  \mathcal{C}_{/S}  
+$$
+
+if and only if $\phi$ has this property:
+
+$(\ast)$ *The [[pullback]] ([[base change]]) of $\phi$ along any [[fibration]] is still a [[weak equivalence]].*
+\end{prop}
+Notice that the property $(\ast)$ of $\phi$ is implied as soon as either:
+
+* $\phi$ is an [[acyclic fibration]],
+
+* $\mathcal{C}$ is [[right proper model category|right proper]], or
+
+* both $S$ and $T$ are [[fibrant objects]]
+
+(for the first two this follows by definition, for the third by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)).
+\begin{proof}
+Using the characterization of Quillen equivalences by derived adjuncts ([here](Quillen+equivalence#AdjunctOfWeakEquivalence)), the base change adjunction is a Quillen equivalence iff for 
+
+* any [[cofibrant object]] $X \to S$ in the slice over $S$ (i.e. $X$ is cofibrant in $\mathcal{C}$) 
+
+* and a [[fibrant object]] $p \colon Y \to T$ in the slice over $T$ (i.e. $p$ is a [[fibration]] in $\mathcal{C}$), 
+
+we have that 
+
+(1) $X \to \phi^*(Y) = S \times_T Y$ is a weak equivalence 
+
+iff 
+
+(2) $\phi_!(X) \to Y$ is a weak equivalence.
+
+But the latter morphism is the top composite in the following [[commuting diagram]]:
+
+$$
+  \array{
+    X 
+      &\longrightarrow& 
+    S \times_T Y 
+      &\overset{p^\ast \phi}{\longrightarrow}& 
+    Y
+    \\
+    &\searrow& 
+    \big\downarrow 
+    &{}^{_{(pb)}}& 
+    \big\downarrow {}^{\mathrlap{p \in Fib}}
+    \\
+    && S &\underset{\phi \in \mathrm{W} }{\longrightarrow}& T
+  }
+$$
+
+Hence the [[two-out-of-three]]-property says that (1) is equivalent to (2) if $p^\ast \phi$ is a weak equivalence.
+
+Conversely, taking $X \to \phi^\ast(X)$ to be a weak equivalence (hence a [[cofibrant resolution]] of $\phi^\ast(X)$), [[two-out-of-three]] implies that if $(\phi_! \dashv \phi^\ast)$ is a Quillen equivalence, then $p^\ast \phi$ is a weak equivalence.
+\end{proof}
+
+In particular:
 
 \begin{proposition}\label{RightPropernessAndLeftQuillenBaseChange}
 The following are equivalent:
