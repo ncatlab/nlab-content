@@ -84,7 +84,10 @@ As [[black brane]] [[supergravity]]-solutions:
 
 * {#VanPol15} Bert Van Pol, Section 5 of: _Aspects of D-branes in supergravity_, thesis 2015 ([pdf](http://inspirehep.net/record/1404388/files/bertvanpol-phdthesis.pdf), [[VanPolThesis15.pdf:file]])
 
-* {#DibitettoPetri18} Giuseppe Dibitetto, Nicolò Petri, _Surface defects in the D4-D8 brane system_, J. High Energ. Phys. (2019) 2019: 193 ([arXiv:1807.07768](https://arxiv.org/abs/1807.07768))
+* {#DibitettoPetri18} [[Giuseppe Dibitetto]], [[Nicolò Petri]], _Surface defects in the D4-D8 brane system_, J. High Energ. Phys. (2019) 2019: 193 ([arXiv:1807.07768](https://arxiv.org/abs/1807.07768))
+
+* Minwoo Suh, *D4-D8-branes wrapped on a manifold with non-constant curvature* ([arXiv:2108.08326](https://arxiv.org/abs/2108.08326))
+
 
 #### With D2/D6-defects realizing $AdS_3/CFT_2$
 
