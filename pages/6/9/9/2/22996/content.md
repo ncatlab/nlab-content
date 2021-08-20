@@ -1,3 +1,4 @@
+[[!redirects Jean M. Maranda]]
 
 * [Mathematics Generalogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=17855)
 
