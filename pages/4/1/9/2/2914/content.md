@@ -215,7 +215,8 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
 ### Quillen adjunctions
  {#PropertiesQuillenAdjunctions}
 
-#### Quillen base change
+#### Base change Quillen adjunction
+ {#BaseChangeQuillenAdjunction}
 
 \begin{proposition}\label{LeftBaseChangeQuillenAdjunction}
 **(left base change Quillen adjunction)** \linebreak
@@ -539,3 +540,25 @@ See also:
 
 [[!redirects co-slice model structure]]
 [[!redirects co-slice model structures]]
+
+
+[[!redirects base change Quillen adjunction]]
+[[!redirects base change Quillen adjunctions]]
+
+[[!redirects left base change Quillen adjunction]]
+[[!redirects left base change Quillen adjunctions]]
+
+[[!redirects right base change Quillen adjunction]]
+[[!redirects right base change Quillen adjunctions]]
+
+
+[[!redirects base change Quillen equivalence]]
+[[!redirects base change Quillen equivalences]]
+
+[[!redirects left base change Quillen equivalence]]
+[[!redirects left base change Quillen equivalences]]
+
+[[!redirects right base change Quillen equivalence]]
+[[!redirects right base change Quillen equivalences]]
+
+
