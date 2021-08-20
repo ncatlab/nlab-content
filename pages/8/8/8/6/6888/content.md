@@ -4,9 +4,15 @@ Jean-Pierre Marquis is a professor in the D&#233;partement de Philosophie of the
 * [philpeople.org page](https://philpeople.org/profiles/jean-pierre-marquis-marquis)
 
 
-His publications include:
+## Selected writings
 
-*  _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer, 2008
-* (with [[Gonzalo Reyes]]) _A History of Categorical Logic, 1963-1977_, ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf))
+On the history of [[category theory]]:
+
+* _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer, 2008
+
+On the history of [[categorical logic]]:
+
+* {#MarquisReyes09} [[Jean-Pierre Marquis]], [[Gonzalo Reyes]], (2009) _The History of Categorical Logic 1963-1977 ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf), [[MarquisReyes_CategoricalLogic.pdf:file]])
+
 
 category: people
