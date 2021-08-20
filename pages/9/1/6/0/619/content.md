@@ -141,9 +141,7 @@ The equivalence of statements 1 to 4 are originally due to ([Gabriel-Zisman 67, 
 +-- {: .proof}
 ###### Proof
 
-The equivalence of (1) and (2) is [this prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints). The equivalence of (1) and (3) is [this Prop.](idempotent+monad#EquivalentConditions). The equivalence of (1) and (5) can be seen by observing that $lan_{Q^*} Q^* \cong Q^* lan_{Q^*} id \cong Q^* Q_*$, which is pointwise, since $lan_{Q^*} id$ is absolute, and is isomorphic to the identity if and only if $Q_*$ is fully faithful.
-
-For the last item see at _[[reflective localization]]_. 
+The equivalence of (1) and (2) is [this prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints). The equivalence of (1) and (3) is [this Prop.](idempotent+monad#EquivalentConditions). For (4) see _[[reflective localization]]_. The equivalence of (1) and (5) can be seen by observing that $lan_{Q^*} Q^* \cong Q^* lan_{Q^*} id \cong Q^* Q_*$, which is pointwise, since $lan_{Q^*} id$ is absolute, and is isomorphic to the identity if and only if $Q_*$ is fully faithful.
 
 =--
 
