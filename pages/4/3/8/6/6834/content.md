@@ -118,6 +118,8 @@ The canonical example of this phenomenon is the [[RR-field]] in [[string theory]
 
 ## References
 
+### General
+
 Introduction and exposition includes
 
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _An invitation to higher gauge theory_, General Relativity and Gravitation 43 (2011), 2335-2392 ([arXiv:1003.4485](https://arxiv.org/abs/1003.4485))
@@ -130,20 +132,11 @@ Introduction and exposition includes
 
 * _[Examples of prequantum field theories II: Higher gauge fields](https://www.physicsforums.com/insights/examples-prequantum-field-theories-ii-higher-gauge-fields/)
 
-For technical introduction to the [[RR-field]] as a higher gauge field see
+For technical introduction to the [[RR-field]] as a higher gauge field (for more see at *[[Dirac charge quantization]]*):
 
 * {#Freed00} [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, Surveys in Differential Geometry, Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 ([arxiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
-
-Discussion of higher gauge theory for [[Green-Schwarz mechanisms]]:
-
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String and Fivebrane structures_, Commun. Math. Phys. 315 (2012), 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001))
-
-* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_ ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790))
-
-* [[Francesco Benini]], [[Clay Cordova]], [[Po-Shen Hsin]], _On 2-Group Global Symmetries and Their Anomalies_, ([arXiv:1803.09336](https://arxiv.org/abs/1803.09336))
-
 
 
 For foundations of higher [[prequantum field theory]] see 
@@ -159,6 +152,11 @@ For higher gauge theory in [[condensed matter physics]] see
 * Chenchang Zhu, Tian Lan, Xiao-Gang Wen, _Topological non-linear σ-model, higher gauge theory, and a realization of all 3+1D topological orders for boson systems_, ([arXiv:1808.09394](https://arxiv.org/abs/1808.09394))
 
 * J.P. Ang, Abhishodh Prakash, _Higher categorical groups and the classification of topological defects and textures_, ([ arXiv:1810.12965](https://arxiv.org/abs/1810.12965))
+
+
+
+[[!include higher gauge theory of the Green-Schwarz mechanism -- references]]
+
 
 
 [[!redirects higher gauge fields]]
