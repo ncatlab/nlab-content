@@ -278,6 +278,10 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 ## References
 
+An early account of enriched categories (perhaps the earliest) is given by:
+
+* [[J. M. Maranda]], *Formal categories*, Vol. 17 of Canadian Journal of Mathematics 1965, pp. 758--801
+
 Textbook accounts:
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp. ([ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)); 
