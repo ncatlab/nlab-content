@@ -26,4 +26,10 @@ Determination of the [[2-group]] structure constants for all the six-dimensional
 
 * [[Michele Del Zotto]] and [[Kantaro Ohmori]], _2-Group Symmetries of 6D Little String Theories and T-Duality_, Annales Henri Poincaré volume 22, pp. 2451–2474 (2021) ([doi:10.1007/s00023-021-01018-3)](https://doi.org/10.1007/s00023-021-01018-3), [arXiv:2009.03489](https://arxiv.org/abs/2009.03489))
 
+On [[anomaly cancellation]] via the [[Green-Schwarz mechanism]] from the point of view of [[higher gauge theory]]:
+
+* [[Yasunori Lee]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], *Matching higher symmetries across Intriligator-Seiberg duality* ([arXiv:2108.05369](https://arxiv.org/abs/2108.05369))
+
+
+
 category: people
