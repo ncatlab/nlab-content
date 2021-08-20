@@ -1,4 +1,6 @@
 
+[[higher gauge theory of the Green-Schwarz mechanism -- references]]
+
 $\infty$
 
 $$
