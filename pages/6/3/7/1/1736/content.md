@@ -225,7 +225,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The sufficient condition this proof uses is that that every pullback of $\phi$ along a fibration is a weak equivalence; this is guaranteed by any of the listed conditions.
+The sufficient condition this proof uses is that that every pullback of $\phi$ along a fibration is a weak equivalence; this is guaranteed by any of the listed conditions. (This is also a necessary condition, by taking $X \to S \times_T Y$ to be a cofibrant replacement in the setup below)
 
 It's immediate from the definition of the [[model structure on an over category]] that $\phi_!$ preserves all three classes of morphisms. Given a cofibrant object $X \to S$ (i.e. $X$ is cofibrant in $\mathcal{C}$) and a fibrant object $Y \to T$ (i.e. $Y \to T$ is a fibration in $\mathcal{C}$), we seek to show that $X \to \phi^*(Y)$ is a weak equivalence iff $\phi_!(X) \to Y$ is a weak equivalence.
 
