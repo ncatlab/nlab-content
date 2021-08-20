@@ -2,6 +2,7 @@
 
 * [webpage](https://www.ias.edu/scholars/clay-cordova)
 
+
 ## Selected writings
 
 On the [[3d-3d correspondence]]:
@@ -18,7 +19,11 @@ On [[D=5 super Yang-Mills theory]]:
 
 * [[Clay Cordova]], [[Daniel Jafferis]], _Five-Dimensional Maximally Supersymmetric Yang-Mills in Supergravity Backgrounds_ ([arXiv:1305.2886](https://arxiv.org/abs/1305.2886))
 
-On [[anomaly cancellation]] via the [[Green-Schwarz mechanism]] in [[D=6 N=(2,0) SCFT]] and [[D=6 N=(1,0) SCFT]]:
+On [[anomaly cancellation]] via the [[Green-Schwarz mechanism]] from a [[higher gauge theory]]-perspective
+
+* [[Francesco Benini]], [[Clay Cordova]], [[Po-Shen Hsin]], *On 2-Group Global Symmetries and Their Anomalies*,  J. High Energ. Phys. **2019** 118 (2019) ([arXiv:1803.09336](https://arxiv.org/abs/1803.09336), <a href="https://doi.org/10.1007/JHEP03(2019)118">doi:10.1007/JHEP03(2019)118</a>)
+
+and specifically so in [[D=6 N=(2,0) SCFT]] and [[D=6 N=(1,0) SCFT]]:
 
 * [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], from p. 18 in: _2-Group Global Symmetries and Anomalies in Six-Dimensional Quantum Field Theories_ ([arXiv:2009.00138](https://arxiv.org/abs/2009.00138))
 
