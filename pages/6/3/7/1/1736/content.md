@@ -232,13 +232,13 @@ $(\ast)$ *The [[pullback]] ([[base change]]) of $\phi$ along any [[fibration]] i
 \end{prop}
 Notice that the property $(\ast)$ of $\phi$ is implied as soon as either:
 
-* $\phi$ is an [[acyclic fibration]],
-
 * $\mathcal{C}$ is [[right proper model category|right proper]], or
+
+* $\phi$ is an [[acyclic fibration]], or
 
 * both $S$ and $T$ are [[fibrant objects]]
 
-(for the first two this follows by definition, for the third by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)).
+(for the first this follows by definition; for the second by the fact that $\phi^\ast$ is a [[right Quillen functor]] by [this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction); for the third by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback) on recognizing [[homotopy pullbacks]]).
 \begin{proof}
 Using the characterization of Quillen equivalences by derived adjuncts ([here](#AdjunctOfWeakEquivalence)), the base change adjunction is a Quillen equivalence iff for 
 
