@@ -26,8 +26,11 @@ In short, Quillen equivalence is the right notion of [[equivalence]] for [[model
 Let $C$ and $D$ be [[model category|model categories]] and let
 
 $$
-  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}}
-   D
+  (L \dashv R) 
+  \;\colon\; 
+  C 
+    \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}}
+  D
 $$
 
 be a [[Quillen adjunction]] with $L$ [[left adjoint]] to $R$.
@@ -51,7 +54,7 @@ A [[Quillen adjunction]] $(L \dashv R)$ is a **Quillen equivalence** if the foll
 
 * The total right [[derived functor]] $\mathbb{R} : Ho(D) \to Ho(C)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
 
-* For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
+* {#AdjunctOfWeakEquivalence} For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
 
 * The following two conditions hold:
 
@@ -177,6 +180,7 @@ Since [[equivalence of categories|equivalences of categories]] enjoy the [[categ
 [[sSet]]-[[enriched functor|enriched]] Quillen equivalences between [[combinatorial model categories]] present equivalences between the corresponding [[locally presentable (infinity,1)-categories]]. And every equivalence between these is presented by a Zig-Zag of Quillen equivalences. See there for more details.
 
 ## Examples
+ {#Examples}
 
 
 +-- {: .num_example #TrivialQuillenEquivalence}
@@ -204,44 +208,77 @@ From [this prop.](geometry+of+physics+--+categories+and+toposes#ComputationOfLef
 =--
 
 
-+-- {: .num_example #OverCategory}
-###### Example
 
-Let $\mathcal{C}$ be a model category, and $\phi : S \to T$ be a weak equivalence.
-Suppose either that $\phi$ is a trivial fibration, that $\mathcal{C}$ is right proper, or that both $S$ and $T$ are fibrant.
+\begin{prop}\label{LeftBaseChangeQuillenEquivalence}
+**([[left base change Quillen equivalence]])** \linebreak
 
-Then the composition-pullback adjunction is a Quillen equivalence
+Let $\mathcal{C}$ be a [[model category]], 
+and $\phi \colon S \overset{ \in \mathrm{W} }{\longrightarrow} T$ be a [[weak equivalence]] in $\mathcal{C}$.
+
+Then the [left base change Quillen adjunction](slice+model+structure#BaseChangeQuillenAdjunction) along $\phi$ is a Quillen equivalence
+
 $$
-  \mathcal{C}_{/S}  
-    \underoverset
-      {\underset{\phi_!}{\longrightarrow}}
-      {\overset{\phi^*}{\longleftarrow}}
-      {\phantom{{}_{Qu}}\simeq_{Qu}}
   \mathcal{C}_{/T}
+    \underoverset
+      {\underset{\phi^*}{\longrightarrow}}
+      {\overset{\phi_!}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu}}
+  \mathcal{C}_{/S}  
 $$
 
-=--
+if and only if $\phi$ has this property:
 
-+-- {: .proof}
-###### Proof
+$(\ast)$ *The [[pullback]] ([[base change]]) of $\phi$ along any [[fibration]] is still a [[weak equivalence]].*
+\end{prop}
+Notice that the property $(\ast)$ of $\phi$ is implied as soon as either:
 
-The sufficient condition this proof uses is that that every pullback of $\phi$ along a fibration is a weak equivalence; this is guaranteed by any of the listed conditions. (This is also a necessary condition, by taking $X \to S \times_T Y$ to be a cofibrant replacement in the setup below)
+* $\phi$ is an [[acyclic fibration]],
 
-It's immediate from the definition of the [[model structure on an over category]] that $\phi_!$ preserves all three classes of morphisms. Given a cofibrant object $X \to S$ (i.e. $X$ is cofibrant in $\mathcal{C}$) and a fibrant object $Y \to T$ (i.e. $Y \to T$ is a fibration in $\mathcal{C}$), we seek to show that $X \to \phi^*(Y)$ is a weak equivalence iff $\phi_!(X) \to Y$ is a weak equivalence.
+* $\mathcal{C}$ is [[right proper model category|right proper]], or
+
+* both $S$ and $T$ are [[fibrant objects]]
+
+(for the first two this follows by definition, for the third by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)).
+\begin{proof}
+Using the characterization of Quillen equivalences by derived adjuncts ([here](#AdjunctOfWeakEquivalence)), the base change adjunction is a Quillen equivalence iff for 
+
+* any [[cofibrant object]] $X \to S$ in the slice over $S$ (i.e. $X$ is cofibrant in $\mathcal{C}$) 
+
+* and a [[fibrant object]] $p \colon Y \to T$ in the slice over $T$ (i.e. $p$ is a [[fibration]] in $\mathcal{C}$), 
+
+we have that 
+
+(1) $X \to \phi^*(Y) = S \times_T Y$ is a weak equivalence 
+
+iff 
+
+(2) $\phi_!(X) \to Y$ is a weak equivalence.
+
+But the latter morphism is the top composite in the following [[commuting diagram]]:
 
 $$
   \array{
     X 
-     &\to& S \times_T Y &\to& Y
+      &\longrightarrow& 
+    S \times_T Y 
+      &\overset{p^\ast \phi}{\longrightarrow}& 
+    Y
     \\
-    && \downarrow && \downarrow
+    &\searrow& 
+    \big\downarrow 
+    &{}^{_{(pb)}}& 
+    \big\downarrow {}^{\mathrlap{p \in Fib}}
     \\
-    && S &\to& T
+    && S &\underset{\phi \in \mathrm{W} }{\longrightarrow}& T
   }
 $$
-Unfolding the definitions, we seek to prove that $X \to S \times_T Y$ is a weak equivalence iff $X \to Y$ is a weak equivalence. This is true if $S \times_T Y \to Y$ is a weak equivalence, which is true by assumption. 
 
-=--
+Hence the [[two-out-of-three]]-property says that (1) is equivalent to (2) if $p^\ast \phi$ is a weak equivalence.
+
+Conversely, taking $X \to \phi^\ast(X)$ to be a weak equivalence (hence a [[cofibrant resolution]] of $\phi^\ast(X)$), [[two-out-of-three]] implies that if $(\phi_! \dashv \phi^\ast)$ is a Quillen equivalence, then $p^\ast \phi$ is a weak equivalence.
+
+\end{proof}
+
 
 ## Related concepts
 
