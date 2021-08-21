@@ -117,6 +117,10 @@ A reference written by Brouwer and still in print in English is
 
 * [[L.E.J. Brouwer]], _Brouwer's Cambridge Lectures on Intuitionism_, edited by D. van Dalen
 
+Early exposition and endorsement:
+
+* [[Hermann Weyl]], *Über die neue Grundlagenkrise der Mathematik*, Zürich 1920 ([gdz](https://gdz.sub.uni-goettingen.de/id/PPN266833020_0010?tify={%22pages%22:[45],%22panX%22:0.525,%22panY%22:0.381,%22view%22:%22info%22,%22zoom%22:0.659}), [purl:PPN266833020_0010](http://resolver.sub.uni-goettingen.de/purl?PPN266833020_0010))
+
 Then an axiomatization of intuitionistic mathematics is given in
 
 * [[Stephen Kleene]], R. E. Vesley, _The foundations of intuitionistic mathematics_, North-Holland (1965)
