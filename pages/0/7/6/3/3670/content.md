@@ -23,6 +23,13 @@ Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind s
 
 ## Selected writings
 
+Introducing [[Pontrjagin duality]]:
+
+* [[Lev Pontrjagin]], *Theory of topological commutative groups*, Uspekhi Mat. Nauk, 1936, no. 2, 177–195 ([mathnet:umn8882](http://mi.mathnet.ru/eng/umn8882))
+
+  English translation: Annals of Mathematics Second Series, Vol. 35, No. 2 (Apr., 1934), pp. 361-388 ([doi:10.2307/1968438](https://doi.org/10.2307/1968438))
+
+
 Introducing [[Pontryagin's theorem]] -- the [[bijection]] between [[cobordism classes]] of [[normally framed submanifolds]] of a [[closed manifold|closed]] [[smooth manifold]] and its [[Cohomotopy]]-sets, established via the  [[Pontryagin-Thom collapse]]/[[Cohomotopy charge]] -- and its application to the computation of 
 
 the [[first stable homotopy group of spheres]]:
