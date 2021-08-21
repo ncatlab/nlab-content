@@ -24,7 +24,7 @@
 
 ### General
 
-*Quantum error corection* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]].
+*Quantum error correction* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]].
 
 From [Ferris & Poulin 2013](#FerrisPoulin13):
 
