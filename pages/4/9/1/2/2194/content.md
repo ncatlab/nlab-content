@@ -45,11 +45,11 @@ and whose [[counit of an adjunction|counit]] (the same arrow read in the opposit
 
 $$Ab^{op} \to CompAb$$
 
-[ ] 
 
 $$CompAb^{op} \to Ab$$ 
 
-where $Ab$ is the category of (discrete topological) groups and $CompAb$ is the category of compact Hausdorff topological abelian groups, each embedded in $LocCompAb$ in the evident way. 
+where [[Ab]] is the category of ([[discrete topological space|discrete topological]]) groups and $CompAb$ is the category of abelian [[Hausdorff space|Hausdorff]] [[compact topological groups]], each 
+embedded in $LocCompAb$ in the evident way. 
 
 The [[Fourier transform]] on locally compact abelian groups is formulated in terms of Pontrjagin duals (see below). 
 
