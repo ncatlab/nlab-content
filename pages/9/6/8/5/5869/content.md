@@ -129,6 +129,8 @@ This is given by letting a projective unitary act by conjugation on a Fredholm o
 
 ## Related concepts
 
+* [[universal equivariant PU(H)-bundle]]
+
 * [[projective linear group]]
 
 * [[unitary group]]
@@ -137,7 +139,9 @@ This is given by letting a projective unitary act by conjugation on a Fredholm o
 
 * [[orthogonal group]]
 
-  [[special orthogonal group]]
+  * [[special orthogonal group]]
+
+  * [[spin group]]
 
 ## References
 
