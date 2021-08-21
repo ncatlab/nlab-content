@@ -18,9 +18,10 @@ On [[twisted equivariant K-theory|twisted]] [[orbifold K-theory]]:
 
 * [[Edward Becerra]], [[Bernardo Uribe]], _Stringy product on twisted orbifold K-theory for abelian quotients_, Trans. Amer. Math. Soc. 361 (2009), 5781-5803  ([arXiv:0706.3229](https://arxiv.org/abs/0706.3229), [doi:10.1090/S0002-9947-09-04760-6](https://doi.org/10.1090/S0002-9947-09-04760-6))
 
-On [[equivariant principal bundles]] with structure group the [[projective unitary group]], providing twists for [[twisted equivariant K-theory]]:
+On 3-[[twisted equivariant K-theory]] via the [[universal equivariant PU(H)-bundle|universal equivariant $PU(\mathcal{H})$-bundle]]:
 
-* Noe Barcenas, Jesus Espinoza, [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_ ([doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061), [arXiv:1202.1880](https://arxiv.org/abs/1202.1880))
+* {#BEJU14} [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2014) ([arXiv:1202.1880](https://arxiv.org/abs/1202.1880), [doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061))
+
 
 On [[equivariant principal bundles]] and their [[classifying spaces]]:
 
@@ -28,8 +29,8 @@ On [[equivariant principal bundles]] and their [[classifying spaces]]:
 
 On the analog of the [[Atiyah-Hirzebruch spectral sequence]] for [[twisted equivariant K-theory]]:
 
-* Noe Barcenas, Jesus Espinoza, [[Bernardo Uribe]], Mario Velasquez, _Segal's spectral sequence in twisted equivariant K-theory for proper and discrete actions_, Proceedings of the Edinburgh Mathematical Society
-Volume 61 Issue 1 ([arXiv:1307.1003](https://arxiv.org/abs/1307.1003), [doi:10.1017/S0013091517000281](https://doi.org/10.1017/S0013091517000281))
+* [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Bernardo Uribe]], [[Mario Velasquez]], _Segal's spectral sequence in twisted equivariant K-theory for proper and discrete actions_, Proceedings of the Edinburgh Mathematical Society **61** 1 (2018) ([arXiv:1307.1003](https://arxiv.org/abs/1307.1003), [doi:10.1017/S0013091517000281](https://doi.org/10.1017/S0013091517000281))
 
 
 category: people
+
