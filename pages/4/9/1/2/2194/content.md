@@ -159,9 +159,10 @@ where $d\mu$ is a suitable choice of [[Haar measure]] on $A$, and $d\hat{\mu}$ i
 
 The original article:
 
-* [[Lev Pontrjagin]], *Theory of topological commutative groups*, Uspekhi Mat. Nauk, 1936, no. 2, 177–195 ([mathnet:umn8882](http://mi.mathnet.ru/eng/umn8882))
+* {#Pontrjagin34} [[Lev Pontrjagin]], *Theory of topological commutative groups*, Annals of Mathematics Second Series, Vol. 35, No. 2 (Apr., 1934), pp. 361-388 ([doi:10.2307/1968438](https://doi.org/10.2307/1968438))
 
-  English translation: Annals of Mathematics Second Series, Vol. 35, No. 2 (Apr., 1934), pp. 361-388 ([doi:10.2307/1968438](https://doi.org/10.2307/1968438))
+  Russian translation: Uspekhi Mat. Nauk, 1936, no. 2, 177–195 ([mathnet:umn8882](http://mi.mathnet.ru/eng/umn8882))
+
 
 
 Gentle exposition:
@@ -192,7 +193,7 @@ Also:
 
 Discussion of [[categorification|categorified]] Pontrjagin duality for [[2-groups]] and application to [[topological T-duality]]:
 
-* [[Ulrich Bunke]], [[Thomas Schick]], [[Markus Spitzweck]], [[Andreas Thom]], _Duality for topological abelian group stacks and T-duality_, Proceedings of the ICM 2006 satellite conference, Valladolid, Spain, 2006. Z&#252;rich: EMS. Series of Congress Reports, 227-347 (2008) ([arXiv:math/0701428](http://arxiv.org/abs/math/0701428))
+* {#BSST07} [[Ulrich Bunke]], [[Thomas Schick]], [[Markus Spitzweck]], [[Andreas Thom]], _Duality for topological abelian group stacks and T-duality_, Proceedings of the ICM 2006 satellite conference, Valladolid, Spain, 2006. Z&#252;rich: EMS. Series of Congress Reports, 227-347 (2008) ([arXiv:math/0701428](http://arxiv.org/abs/math/0701428))
 
 * [[Calder Daenzer]], _A groupoid approach to noncommutative T-duality_, PhD, 2007 ([pdf](http://www.math.upenn.edu/grad/dissertations/DaenzerThesis.pdf))
 
