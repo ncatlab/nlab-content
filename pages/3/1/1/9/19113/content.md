@@ -314,7 +314,9 @@ The [[group homology]] with [[integer]] [[coefficients]] is
 
 =--
 
-This general statement is [Epa & Ganter 16, p. 12](#EpaGanter16). The three exceptional cases are worked out in explicit detail in [Tomoda & Zvengrowski 08, Section 4](#TomodaZvengrowski08). The vanishing of $H^3(G_{ADE},\mathbb{Z}) = H^2(G_{ADE}, \mathbb{C}^\times)$ is also [FHHP 01, Cor. 3.1](#FHHP01).
+This general statement is summarized in [Epa & Ganter 16, p. 12](#EpaGanter16). 
+A detailed proof for the case of cyclic groups is spelled out in [BSST 07, Lem. 4.51](Pontrjagin+dual#BSST07).
+The three exceptional cases are worked out in explicit detail in [Tomoda & Zvengrowski 08, Section 4](#TomodaZvengrowski08). The vanishing of $H^3(G_{ADE},\mathbb{Z}) = H^2(G_{ADE}, \mathbb{C}^\times)$ is also [FHHP 01, Cor. 3.1](#FHHP01).
 
 
 +-- {: .num_remark #DiscreteTorsion} 
