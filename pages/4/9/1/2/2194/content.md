@@ -48,6 +48,185 @@ In general, the dual of a [[discrete space|discrete]] group is a [[compact space
 The [[finite group|finite]] [[cyclic groups]] are Pontrjagin self-dual: $\widehat{\mathbb{Z}/n} \,\simeq\, \mathbb{Z}/n$.
 \end{example}
 
+
+\begin{prop}\label{PontrajginDualOfCompactGroupAsSecondGroupCohomologyGroup}
+  **(Pontrjagin dual of compact group as second group cohomology group)**
+  \linebreak
+  If $G$ is a [[finite group]] (more generally: a [[compact Lie group]]) then its Pontrjagin dual is equivalently its [[cohomology group]] in degree-2 [[group cohomology]] (more generally: refined [[Lie group cohomology]]) with [[integer]] [[coefficients]]:
+  $$
+    \widehat{G}
+    \;\simeq\;
+    H^2_{grp}
+    \big(
+      G
+      ;\,
+      \mathbb{Z}
+    \big)
+    \;=\;
+    H^2
+    \big(
+      B G
+      ;\,
+      \mathbb{Z}
+    \big)
+    \,.
+  $$
+\end{prop}
+\begin{proof}
+  The key point is that, by assumption on $G$, we have
+  \[
+    \label{RealGroupCohomologyOfCompactGroupVanishes}
+    H^{\bullet \geq 1}_{grp}
+    \big(
+      G;\, \mathbb{R} 
+    \big)
+    \;=\;
+    0
+    \,.
+  \]
+
+Using this, the conclusion is obtained as follows:
+The defining [[short exact sequence]] of [[groups]]
+$$
+  \mathbb{Z} \xhookrightarrow{\;} \mathbb{R} \twoheadrightarrow S^1
+$$
+extends to a [[homotopy fiber sequence]] of [[2-groups]] (and further of [[n-groups]])
+$$
+  \mathbb{Z}
+    \xrightarrow{\;\;}
+  \mathbb{R}
+    \xrightarrow{\;\;}
+  S^1 
+    \xrightarrow{\;\;} 
+  B \mathbb{Z}
+    \xrightarrow{\;\;} 
+  B \mathbb{R}
+    \xrightarrow{\;\;} 
+  \cdots
+  \,.
+$$
+
+This induces a [[long exact sequence]] of [[cohomology groups]] induced from the [[long exact sequence of homotopy groups]] of the image of this fiber sequence under the [[derived hom-space]] $\mathbf{H}(B G,-) \coloneqq Maps(B G;\, -)$ (of $\mathbf{H} =$ [[∞Grpd]]):
+$$
+  \array{
+  \cdots
+  &\to&
+  \pi_1
+  \left(
+    \mathbf{H}(B G, \, B^2 \mathbb{R})
+  \right)
+  &\xrightarrow{\;\;}&
+  \pi_1
+  \left(
+    \mathbf{H}(B G, \, B^2 S^1)
+  \right)
+  &\xrightarrow{\;\;}&
+  \pi_0
+  \left(
+    \mathbf{H}(B G, \, B^2 \mathbb{Z})
+  \right)
+  &\xrightarrow{\;\;}&
+  \pi_0
+  \left(
+    \mathbf{H}(B G, \, B^2 \mathbb{R})
+  \right)
+  &\to&
+  \cdots
+  \\
+  &&
+  =
+  &&
+  =
+  &&
+  =
+  &&
+  =
+  \\
+  \cdots
+  &\to&
+  \underset{
+    = 0
+  }{
+  \underbrace{
+  H^1
+  \big(
+    B G
+    \;,
+    \mathbb{R}
+  \big)
+  }
+  }
+  &\xrightarrow{\;\;}&
+  H^1
+  \big(
+    B G
+    \;,
+    S^1
+  \big)
+  &\xrightarrow{\;\simeq\;}&
+  H^2
+  \big(
+    B G
+    \;,
+    \mathbb{Z}
+  \big)
+  &\xrightarrow{\;\;}&
+  \underset{
+    = 0
+  }{
+  \underbrace{
+  H^2
+  \big(
+    B G
+    \;,
+    \mathbb{R}
+  \big)
+  }
+  }
+  &\to&
+  \cdots
+  \,.
+  }
+$$
+Using the assumption (eq:RealGroupCohomologyOfCompactGroupVanishes) under the braces, this implies the middle isomorphism, as shown.
+
+Now the claim follows by re-expressing $H^1(B G;\, S^1)$ as follows:
+
+$$
+  \begin{aligned}
+  H^2(B G;\, \mathbb{Z})
+  \;\simeq\;
+  H^1(B G;\, S^1)
+  &
+  \;\simeq\;
+  \pi_0 \mathbf{H}\big( B G, \, B S^1 \big)
+  \\
+  &
+  \;\simeq\;
+  \pi_0 Groupoids\big( G \rightrightarrows \ast, \, S^1 \rightrightarrows \ast \big)
+  \\
+  & \;\simeq\;
+  \pi_0 
+  \Big(
+    Groups\big(G,S^1\big) \sslash S^1
+  \Big)
+  \\
+  & \;\simeq\;
+  \pi_0 
+  \Big(
+    Groups\big(G,\,S^1\big) \times B S^1
+  \Big)
+  \\
+  & \;\simeq\;
+  Groups(G,S^1)
+  \;\simeq\;
+  \widehat G
+  \,,
+  \end{aligned}
+$$
+where the third line expresses the [[functor groupoid]] of [[functors]] and [[natural transformations]] between [[delooping groupoids]], while the last step uses that the [[circle group]], being [[abelian group|abelian]], has [[trivial action|trivial]] [[conjugation action]] on the [[hom-set]] of [[group homomorphisms]]. (For $G$ a [[compact Lie group]] the analogous argument applies to the [[delooping]]/[[quotient stacks]] $\mathbf{B}G$ in $\mathbf{H} = $[[Smooth∞Grpd]].)
+\end{proof}
+
 \begin{example}\label{EquivariantFundamentalGroupOf3TwistOfKTheory}
 **(equivariant fundamental group of 3-twists of equivariant K-theory)**
 \linebreak
@@ -68,7 +247,7 @@ $$
 \end{example}
 By [BEJU 2014, Thm. 1.10](universal+equivariant+PU-bundle#BEJU14), see [this Prop.](universal+equivariant+PU-bundle#EquivariantHomotopyGroupsOfBaseSpace).
 
-\\begin{example}
+\begin{example}
 The Pontrjagin dual $\hat{\mathbb{R}}$ of the additive group of [[real numbers]] is isomorphic again to $\mathbb{R}$ itself, with the pairing given by $(x,p) \mapsto \mathrm{e}^{\mathrm{i} x p}$. More generally, $\widehat{\mathbb{R}^n} \,=\, \mathbb{R}^n$.
 \end{example}
 
@@ -77,7 +256,7 @@ The Pontrjagin dual $\hat{\mathbb{R}}$ of the additive group of [[real numbers]]
 ### Pontrjagin duality theorem
 
 \begin{theorem}
-For every [[locally compact space|locally compact]] (Hausdorff) topological abelian group $A$, the natural function $A \mapsto \widehat{\widehat{A}}$ from $A$ into the Pontrjagin dual of the Pontrjagin dual of $A$, assigning to every $g\in A$ the continuous character $f_g$ given by $f_g(\chi)=\chi(g)$, is an [[isomorphism]] of topological groups (that is, a group isomorphism that is also a [[homeomorphism]]). 
+For every [[abelian group|abelian]] [[Hausdorff space|Hausdorff]] [[locally compact topological group]] $A$, the natural function $A \mapsto \widehat{\widehat{A}}$ from $A$ into the Pontrjagin dual of the Pontrjagin dual of $A$, assigning to every $g\in A$ the continuous character $f_g$ given by $f_g(\chi)=\chi(g)$, is an [[isomorphism]] of topological groups (that is, a group isomorphism that is also a [[homeomorphism]]). 
 \end{theorem}
 
 Thus, the [[functor]]
@@ -98,13 +277,13 @@ $$CompAb^{op} \to Ab$$
 where [[Ab]] is the category of ([[discrete topological space|discrete topological]]) groups and $CompAb$ is the category of abelian [[Hausdorff space|Hausdorff]] [[compact topological groups]], each 
 embedded in $LocCompAb$ in the evident way. 
 
-The [[Fourier transform]] on locally compact abelian groups is formulated in terms of Pontrjagin duals (see below). 
+The [[Fourier transform]] on abelian [[locally compact groups]] is formulated in terms of Pontrjagin duals (see below). 
 
 
 
 ### Basic properties of dual groups
 
-There are many properties of locally compact Hausdorff abelian groups that implies properties of their Pontrjagin duals.  For example:
+There are many properties of Hausdorff abelian [[locally compact groups]] that implies properties of their Pontrjagin duals.  For example:
 
 * If $A$ is [[finite group|finite]], then $\widehat{A}$  is finite.
 
@@ -144,13 +323,19 @@ where $d\mu$ is a suitable choice of [[Haar measure]] on $A$, and $d\hat{\mu}$ i
 
 ## Related concepts
 
+* [[Pontryagin duality for torsion abelian groups]]
+
+* [[locally compact topological group]]
+
+* [[Fourier transform]]
+
+* [[character group]]
+
 * [[dual object]]
 
 * [[Cartier duality]], [[Poincaré line bundle]]
 
-* [[character group]]
 
-* [[Pontryagin duality for torsion abelian groups]]
 
 
 ## References
@@ -171,9 +356,9 @@ Gentle exposition:
 
 Textbook accounts:
 
-* {#Morris77} Sidney A. Morris, _Pontryagin Duality and the Structure of Locally Compact Abelian Groups_, London Math. Soc. Lecture Notes 29, Cambridge U. Press, 1977.
+* {#Morris77} [[Sidney A. Morris]], _Pontryagin Duality and the Structure of Locally Compact Abelian Groups_, London Math. Soc. Lecture Notes 29, Cambridge U. Press, 1977 ([doi:10.1017/CBO9780511600722](https://doi.org/10.1017/CBO9780511600722))
 
-* {#Armacost81} David A. Armacost, _The Structure of Locally Compact Abelian Groups_, Dekker, New York, 1981.
+* {#Armacost81} David L. Armacost, *The Structure of Locally Compact Abelian Groups*, Dekker, New York, 1981.
 
 See also
 
