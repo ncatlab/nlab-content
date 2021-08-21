@@ -20,19 +20,57 @@
 
 ## Definition
 
-Let $A$ be a [[abelian group|commutative]] ([[Hausdorff space|Hausdorff]]) [[topological group]]. A (continuous) *[[group character]]* of $A$ is any continuous homomorphism $\chi: A\to S^1$ to the [[circle group]]. The __Pontrjagin dual group__ $\widehat{A}$ is the commutative group of all characters of $A$ with pointwise multiplication (that is multiplication induced by multiplication in the [[circle group]], the multiplication of norm-$1$ complex numbers in $S^1\subset\mathbb{C}$) and with the topology of [[uniform convergence]] on each [[compact space|compact]] $K\subset A$ (this is equivalent to the [[compact-open topology]]). 
+\begin{definition}\label{PontrjaginDualGroup}
+Let $A$ be a [[abelian group|commutative]] ([[Hausdorff space|Hausdorff]]) [[topological group]]. A (continuous) *[[group character]]* of $A$ is any continuous homomorphism $\chi: A\to S^1$ to the [[circle group]]. The __Pontrjagin dual group__ 
+
+$$
+  \widehat{A}
+  \;\coloneqq\;
+  TopGrps
+  \big(
+    A
+    ,\,
+    S^1
+  \big)
+$$ 
+is the [[abelian group]] of all these [[group characters]] of $A$, equipped with pointwise multiplication (that is multiplication induced by multiplication in the [[circle group]], the multiplication of norm-$1$ complex numbers in $S^1\subset\mathbb{C}$) and with the [[topological space|topology]] of [[uniform convergence]] on each [[compact space|compact]] $K\subset A$ (this is equivalent to the [[compact-open topology]]). 
+\end{definition}
 
 ## Examples
 
+\begin{example}
 The Pontrjagin dual of the additive group of [[integers]] $\mathbb{Z}$ is the [[circle group]] $S^1$, and conversely, $\mathbb{Z}$ is the Pontrjagin dual of $S^1$. This pairing of dual topological groups, given by $(n,z) \mapsto z^n$, is related to the subject of [[Fourier transforms]]. 
+\end{example}
 
 In general, the dual of a [[discrete space|discrete]] group is a [[compact space|compact]] group and conversely. In particular, therefore, the dual of a [[finite group]] is again finite.
 
-For example, the finite [[cyclic groups]] are Pontrjagin self-dual.
+\begin{example}
+The [[finite group|finite]] [[cyclic groups]] are Pontrjagin self-dual: $\widehat{\mathbb{Z}/n} \,\simeq\, \mathbb{Z}/n$.
+\end{example}
 
-The Pontrjagin dual $\hat{\mathbb{R}}$ of the additive group of [[real numbers]] is isomorphic again to $\mathbb{R}$ itself, with the pairing given by $(x,p) \mapsto \mathrm{e}^{\mathrm{i} x p}$.
+\begin{example}\label{EquivariantFundamentalGroupOf3TwistOfKTheory}
+**(equivariant fundamental group of 3-twists of equivariant K-theory)**
+\linebreak
+  For $G$ a [[finite group]], the [[fundamental group]] $\pi_1(-)$ of the $G$-[[fixed locus]] $(-)^G$ of the base space $\mathcal{B} PU(\mathcal{H})$ of the [[universal equivariant PU(H)-bundle|universal equivariant $PU(\mathbb{H})$-bundle]] ([[classifying space|classifying]] 3-[[twisted cohomology|twists]] in [[twisted equivariant K-theory]]) is
+$$
+  \pi_1
+  \Big(
+     \big(
+       \mathcal{B} PU(\mathcal{H})
+     \big)^G
+  \Big)
+  \;\simeq\;
+  Grps(G, S^1)
+  \,=\,
+  \widehat G  
+$$
+(in any [[connected component]] of a "stable map" $G \to PU(\mathcal{H})$, that is) and hence is the Pontrjagin dual group (Def. \ref{PontrjaginDualGroup}) when $G$ is [[abelian group|abelian]].
+\end{example}
+By [BEJU 2014, around Cor. 1.11](universal+equivariant+PU-bundle#BEJU14), see [this Prop.](universal+equivariant+PU-bundle#EquivariantHomotopyGroupsOfBaseSpace).
 
-Similarly, $\hat{\mathbb{R}^n}$ is isomorphic to the [[Cartesian space]] $\mathbb{R}^n$.
+\\begin{example}
+The Pontrjagin dual $\hat{\mathbb{R}}$ of the additive group of [[real numbers]] is isomorphic again to $\mathbb{R}$ itself, with the pairing given by $(x,p) \mapsto \mathrm{e}^{\mathrm{i} x p}$. More generally, $\widehat{\mathbb{R}^n} \,=\, \mathbb{R}^n$.
+\end{example}
 
 ## Properties
 
