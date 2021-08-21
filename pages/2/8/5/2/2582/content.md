@@ -288,7 +288,7 @@ A textbook account is around example 4.20 in
 
 A more detailed useful discussion happens to be in section 2.A, starting on p. 11 of 
 
-* [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_ Memoirs of the American Mathematical Society number 752 ([web](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false)) also ([arXiv] (http://arxiv.org/abs/math/0109133))
+* [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_,  Memoirs of the American Mathematical Society number 752 ([arXiv:math/0109133] (http://arxiv.org/abs/math/0109133), [doi:10.1090/memo/0752](http://dx.doi.org/10.1090/memo/0752), [GoogleBooks](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false))
 
 
 [[!redirects Whitehead tower]]
