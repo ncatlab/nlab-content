@@ -310,7 +310,7 @@ such that the following conditions holds:
   \ar[
     dr,
     phantom,
-    "\mbox{\tiny\rm(pb)}"{description}
+    "\mbox{\tiny(pb)}"{description}
   ]
   &
   P 
@@ -1166,7 +1166,7 @@ For $G$ discrete and $\Gamma$ [[discrete group|discrete]] or [[compact Lie group
      \;\;
      Groupoids(TopSpaces)
      \big(
-       G \rightrightarrows \ast,
+       H \rightrightarrows \ast,
        \,,
        \Gamma \rightrightarrows \ast
      \big)
@@ -1184,7 +1184,7 @@ For $G$ discrete and $\Gamma$ [[discrete group|discrete]] or [[compact Lie group
      \Big(
        Groups(TopSpaces)_{/G}
        \big(
-         G, \, \Gamma \rtimes_\alpha G
+         H, \, \Gamma \rtimes_\alpha G
        \big)
      \Big)
      \sslash
@@ -1255,6 +1255,8 @@ that a homotopy-inverse is given by the evident inclusion functor $i$ that fills
 ## Examples
 
 * [[equivariant tautological line bundle]]
+
+* [[universal equivariant PU(H)-bundle]]
 
 * in [[arithmetic geometry]]: [[shtuka]]
 
@@ -1417,4 +1419,11 @@ in a context of [[Chern-Simons theory]] on [[orbifolds]].
 
 [[!redirects equivariant vector bundle]]
 [[!redirects equivariant vector bundles]]
+
+[[!redirects universal equivariant bundle]]
+[[!redirects universal equivariant bundles]]
+
+[[!redirects universal equivariant principal bundle]]
+[[!redirects universal equivariant principal bundles]]
+
 
