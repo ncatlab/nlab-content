@@ -18,13 +18,15 @@
 
 Our [[galaxy]].
 
->  Democritus, $[$holds$]$ that it is the splendor which ariseth from the coalition of many small *asterons*, which, being firmly united amongst themselves, do mutually enlighten one another.
+>  Democritus $[$holds$]$ that it is the splendor which ariseth from the coalition of many small stars, which, being firmly united amongst themselves, do mutually enlighten one another.
+
+> Δημόκριτος πολλῶν καὶ μικρῶν καὶ συνεχῶν ἀστέρων συμφωτιζομένων ἀλλήλοις συναυγασμὸν διὰ τὴν πύκνωσιν.
 
 > ([Pseudo Plutarch](#PseudoPlutarch) ~ 400 AD, attributing to [[Democritus]] $\sim$ 400 BC -- original Greek [here](http://articles.adsabs.harvard.edu/pdf/1901Obs....24..382L#page=2))
 
 > $\,$
 
-> The Milky Way, is made up of a very large number of small, tightly-clustered stars, which, on account of their concentration and smallness, seem to be cloudy patches. Because of this, it was likened to milk in color.
+> The Milky Way is made up of a very large number of small, tightly-clustered stars, which, on account of their concentration and smallness, seem to be cloudy patches. Because of this, it was likened to milk in color.
 
 > ([[Naṣīr al-Dīn al-Ṭūsī]] in *Tadhkira* 1261 AD, as translated in [Ragep 1993, p. 128](#Ragep93))
 
