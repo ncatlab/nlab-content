@@ -77,5 +77,3 @@ A textbook account in the context of [[programming languages]] is in section 30 
 
 [[!redirects intuitionistic logic]]
 [[!redirects Intuitionistic logic]]
-[[!redirects constructive logic]]
-[[!redirects constructivist logic]]
