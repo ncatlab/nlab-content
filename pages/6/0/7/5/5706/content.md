@@ -26,6 +26,8 @@ This page collects material related to:
 
 a textbook on [[algebraic topology]] and [[homotopy theory]].  
 
+See also:
+
 * [[Peter May]], [[Kate Ponto]],
 
   _More concise algebraic topology -- Localization, Completion, and Model Categories_
