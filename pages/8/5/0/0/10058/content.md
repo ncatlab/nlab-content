@@ -130,14 +130,14 @@ See also
 [[!redirects Phi^3 interactions]]
 
 [[!redirects phi^n theory]]
-[[!redirects phi^n theory]]
+[[!redirects phi^n theories]]
 
 [[!redirects Phi^n theory]]
-[[!redirects phi^n theory]]
+[[!redirects Phi^n theory]]
 
 [[!redirects phi^4 theory]]
-[[!redirects phi^4 theory]]
+[[!redirects phi^4 theories]]
 
 [[!redirects Phi^4 theory]]
-[[!redirects phi^4 theory]]
+[[!redirects Phi^4 theories]]
 
