@@ -41,7 +41,7 @@ The _[[fracture theorem]]_ says that under mild conditions, homotopy theory may 
 
 * {#Mandell01} [[Michael Mandell]], _$E_\infty$-algebras and $p$-Adic homotopy theory_, Topology 40 (2001), no. 1, 43-94. ([pdf](http://hopf.math.purdue.edu/Mandell/einf.pdf))
 
-  surveyed in: _Algebraic models in $p$-adic homotopy theory_, YTM13, 2013 ([pdf](https://pages.iu.edu/~mmandell/YTM/YTC3-handout.pdf))
+  surveyed in: _Algebraic models in $p$-adic homotopy theory_, YTM13, 2013 ([pdf](https://mmandell.pages.iu.edu/YTM/YTC3-handout.pdf))
 
 * [[Jacob Lurie]], _$p$-Adic homotopy theory_ ([pdf](http://www-math.mit.edu/~lurie/917notes/Lecture27.pdf))
 
