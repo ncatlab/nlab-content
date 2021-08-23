@@ -11,4 +11,4 @@ On [[holographic tensor networks]] and [[quantum error correcting codes]] in ful
 
 category: people
 
-[[!redirects Aaron Wall]]
+[[!redirects Aron Wall]]
