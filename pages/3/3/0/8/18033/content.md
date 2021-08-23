@@ -73,6 +73,11 @@ Comparison to [[experiment]] -- [[superfluid]]-transition:
 
   [[Slava Rychkov]], _Conformal bootstrap and the $\lambda$-point specific heat experimental anomaly_, Journal Club for Condensed Matter Physics recommendation 2020 ([pdf](https://www.condmatjclub.org/uploads/2020/01/JCCM_January_2020_02.pdf), [doi:10.36471/JCCM_January_2020_02](https://doi.org/10.36471/JCCM_January_2020_02))
 
+Solving the bootstrap constraints via [[machine learning]]:
+
+* Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving Conformal Field Theories with Artificial Intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
+
+
 
 ### Superconformal bootstrap
  {#ReferencesSuperconformal}
