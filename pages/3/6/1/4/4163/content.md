@@ -186,9 +186,13 @@ recalled for instance in
 
 * Justin Bond, last section of _Perturbative QFT is Asymptotic; is Divergent; is Problematic in Principle_ ([pdf](https://mcgreevy.physics.ucsd.edu/s13/final-papers/2013S-215C-Bond-Justin.pdf))
 
+* {#FloryHellingSluka12} Mario Flory, [[Robert C. Helling]], Constantin Sluka, Section 2 of: *How I Learned to Stop Worrying and Love QFT* ([arXiv:1201.2714](https://arxiv.org/abs/1201.2714))
+
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
 * Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
+
+The argument that the perturbation series should be trustworthy for number of terms smaller than the inverse of the [[coupling constant]] is recalled in [Flory, Helling & Sluka 2012, p. 8 & eq. (34) & Sec. 2.5](#FloryHellingSluka12).
 
 Exposition also in:
 
@@ -197,7 +201,7 @@ Exposition also in:
 
 For the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
 
-* {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf), [[HellingClassicalQFT.pdf:file]])
+* {#Helling} [[Robert C. Helling]], p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf), [[HellingClassicalQFT.pdf:file]])
 
 * {#BakulevShirkov10} Alexander P. Bakulev, [[Dmitry Shirkov]], section 1.1 of _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia (ISBN 978-86-82441-30-4), pp. 27--54 ([arXiv:1102.2380](https://arxiv.org/abs/1102.2380)) 
 
