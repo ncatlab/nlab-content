@@ -1543,15 +1543,18 @@ Textbook accounts:
 
 * {#Kelley55} [[John Kelley]], _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
+* [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
-* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989) ([pdf](https://pdfs.semanticscholar.org/6da4/9fba6462a5c3e6b528a8b3e8be3a1c1e743d.pdf))
 
 * {#BradleyBrysonTerilla20} [[Tai-Danae Bradley]], [[Tyler Bryson]], [[John Terilla]], _Topology -- A categorical approach_, MIT Press 2020 ([ISBN:9780262539357](https://mitpress.mit.edu/books/topology), [web version](https://topology.pubpub.org/))
 
   > (with emphasis on tools from [[category theory]])
+
+* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+
 
 See also
 
