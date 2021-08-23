@@ -3,8 +3,15 @@ John Kelley (1916-1999) was an American mathematician, known primarily for his w
 
 * [Wikipedia article](http://en.wikipedia.org/wiki/John_L._Kelley)
 
-## Writings
+## Selected writings
 
-* _General Topology_, Graduate Texts in Mathematics, Springer 1955
+On [[general topology]]:
+
+* [[John Kelley]], _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
+
+## Related $n$Lab entries
+
+* [[compactly generated topological space]]
+
 
 category: people
