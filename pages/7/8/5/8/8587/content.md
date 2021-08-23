@@ -4,7 +4,7 @@
 =--
 ## Introduction ## {: .num_section}
 
-In [MR764972](#MR764972) and [MR767683](MR767683), Michor gives a description of a category of "smooth manifolds" due to himself and Kriegl which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary smooth manifolds in the finite dimensional situation.
+In [MR764972](#MR764972) and [MR767683](MR767683), Michor gives a description of a category of "smooth manifolds" due to himself and Kriegl which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary smooth manifolds in the finite dimensional situation and. This is also true in the Banach space situation; not stated in the paper, but easy to generalize from the finite dimensional situation.
 
 
 +-- {: .num_section #sectionb }
