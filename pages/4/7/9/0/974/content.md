@@ -412,18 +412,15 @@ The definition is due to
 * {#GabrielUlmer} [[Pierre Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_, Springer LNM 221, 1971
 
 
-The standard textbook is
+Textbook account:
 
-* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
  
 
-
-More details are in 
+See also
 
 * {#CentazzoRosickyVitale} C. Centazzo, [[Jiří Rosický]], [[Enrico Vitale]], _A characterization of locally $\mathbb{D}$-presentable categories_ ([pdf](http://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf))
 
-
-Some further discussion is in 
 
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]: III Categories of Sheaves_ (proposition 3.4.16), page 220. 
 
