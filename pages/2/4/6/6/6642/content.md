@@ -28,7 +28,7 @@ A *reflective factorization system* is an [[orthogonal factorization system]] $(
 
 Let $C$ be a [[category]] with a [[terminal object]] $1$.  If $(E,M)$ is an (orthogonal) [[orthogonal factorization system|factorization system]] on $C$, then the [[full subcategory]] $M/1 \subseteq C$ (consisting of those objects $X$ for which $X\to 1$ is in $M$) is [[reflective subcategory|reflective]].  The reflection of $Y\in C$ is obtained by the $(E,M)$-factorization $Y \xrightarrow{e} \ell Y \xrightarrow{m} 1$. (e.g. ([Rosicky-Tholen 08, 2.10](#RosickyTholen08)))
 
-In fact, in this we do not need $(E,M)$ to be a factorization system; only a [[prefactorization system]] with the property that any morphism with [[terminal object|terminal]] [[codomain]] admits an $(E,M)$-factorization.  For the nonce, let us call such a prefactorization system *favorable*.
+In fact, in this we do not need $(E,M)$ to be a factorization system; only a [[orthogonal factorization system#prefactorization_systems|prefactorization system]] with the property that any morphism with [[terminal object|terminal]] [[codomain]] admits an $(E,M)$-factorization.  For the nonce, let us call such a prefactorization system *favorable*.
 
 Conversely, suppose that $A\hookrightarrow C$ is a [[reflective subcategory]], and define $E$ to be the class of morphisms inverted by the [[reflector]] $\ell\colon C\to A$, and define $M = E^\perp$.  Then $(E,M)$ is a favorable prefactorization system.  In this way we obtain an [[adjunction]] 
 
