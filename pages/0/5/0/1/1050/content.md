@@ -26,7 +26,7 @@
 
 ## Idea 
 
-A left/right _exact functor_ is a [[functor]] that preserves [[finite limits]]/finite [[colimits]]. 
+A left/right _exact functor_ is a [[functor]] that [[preserved limit|preserves]] [[finite limits]]/finite [[colimits]]. 
 
 The term originates in [[homological algebra]], see remark \ref{OriginOfTerminology} below, where a central role is played by [[exact sequences]] (originally of [[modules]], more generally in any [[abelian category]]) and the fact that various [[functors]] preserve or destroy exactness of sequences to some extent gave vital information on those functors.
 
