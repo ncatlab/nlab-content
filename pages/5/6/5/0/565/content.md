@@ -135,6 +135,9 @@ A similar way to use Isbell's result applies to show that a really vast number o
 
 ## References
 
+* [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]], *Abstract and Concrete Categories*, Wiley 1990, reprinted as: Reprints in Theory and Applications of Categories, No. 17 (2006) pp. 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html))
+
+
 * _[[The Joy of Cats]]_
 {#JoyOfCats}
 
