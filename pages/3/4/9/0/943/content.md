@@ -133,11 +133,23 @@ Appreciation of the role of convenient categories was in full force by the early
 
 [^1]: The '$k$' certainly  refers to 'kompakt' rather than Kelley's initial. 
 
+## Related concepts
+
+* [[compactly generated topological space]]
+
+* [[Delta-generated topological space]], [[D-topological space]]
+
+* [[quasi-topological space]]
 
 ## References
 
-* Booth, Peter I. _The exponential law of maps. II._ 
-Math. Z. 121 (1971), 311&#8211;319. {#Booth}
+* {#Steenrod} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
+
+
+* Peter I. Booth,  _The exponential law of maps. II._  Math. Z. 121 (1971), 311&#8211;319. {#Booth}
+
+
+See also:
 
 * {#Brown61} [[Ronnie Brown]], _Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes_, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
 
@@ -148,17 +160,15 @@ Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 * [[Ronnie Brown]], _Function spaces and product topologies_,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
 {#Brown64}
 
-* [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), available from amazon: Section 5.9: Spaces of functions and the compact-open topology. {#Brown06}
+* {#Brown06} [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), available from amazon: Section 5.9: Spaces of functions and the compact-open topology. 
 
 * Cohen, D. E. _Spaces with weak topology_, Quart. J. Math., (2) 5 (1954) 77&#8211;-80. 
 
 * Crabb, Michael; James, Ioan,  _Fibrewise homotopy theory_.  
 Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7 {#CrabbJames}
 
-* {#Steenrod} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
 
-
-* {#BT} Booth, P.; Tillotson, J., _Monoidal closed, Cartesian closed and convenient categories of topological spaces_. Pacific J. Math. 88 (1980), no. 1, 35--53. [project euclid](http://projecteuclid.org/euclid.pjm/1102779712)
+* {#BT} P. Booth, ; Tillotson, J., _Monoidal closed, Cartesian closed and convenient categories of topological spaces_. Pacific J. Math. 88 (1980), no. 1, 35--53. [project euclid](http://projecteuclid.org/euclid.pjm/1102779712)
 
 
 * {#Johnstone} [[Peter Johnstone]], _On a topological topos_, Proc. London Math. Soc. (3) 38 (1979) 237--271.
@@ -167,6 +177,8 @@ Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. 
 * Harasani, Hamed A. _Topos theoretic methods in general topology_, PhD Thesis, University of Wales, Bangor, (1988) [(link to pdf files)](http://groupoids.org.uk/harasani.html). {#Harasani}
 
 * {#Spanier} [[Edwin Spanier]], _Quasi-topologies_, Duke Mathematical Journal 30 (1) (1963), 1--14.
+
+  > (on [[quasi-topological spaces]])
 
 
 * {#KM} [[Andreas Kriegl]]; [[Peter Michor]] , _[[The Convenient Setting of Global Analysis]]_, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).
