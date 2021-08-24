@@ -42,6 +42,10 @@ On other global geometric aspects of theoretical physics (e.g. [[classical doubl
 
 * {#AWW20} [[Luigi Alfonsi]], Chris D. White and Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
 
+PhD thesis:
+
+* [[Luigi Alfonsi]], _Extended Field Theories as higher Kaluza-Klein theories_ ([arXiv:2108.10297](https://arxiv.org/abs/2108.10297))
+
 ## Invited talks
 
 * _Extended geometry from higher geometry_, gong show at [Higher Structures in QFT and String Theory](https://sites.google.com/view/jrqftconf2021), 13th July 2021
