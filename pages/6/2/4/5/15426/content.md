@@ -19,6 +19,8 @@ Finite open covers appear in the definition of [[compact topological spaces]]
 
 * [[compact topological space]]
 
+* [[quasi-topological space]]
+
 [[!redirects finite covers]]
 
 [[!redirects finite open cover]]
