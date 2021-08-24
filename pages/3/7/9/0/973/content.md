@@ -402,18 +402,22 @@ Original articles:
 
 * [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
-An overview of the theory is given in
+Overview in:
 
-* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
- {#AdamekRosicky}
+* [[Charles Wells]], *Sketches: Outline with references*, 1993 ([citeseer:10.1.1.217.3531](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.217.3531), [[Wells_Sketches.pdf:file]])
 
-An extensive treatment of the links between theories, sketches and models can be found in 
+Textbook accounts:
 
-* [[Michael Makkai]], [[Robert Paré]], _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989. 
-{#MakkaiPare}
-
-* [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Originally published by: Springer-Verlag, New York, 1985, republished in:
+* [[Michael Barr]], [[Charles Wells]], Section 4 of: *[[Toposes, Triples, and Theories]]*, Originally published by: Springer-Verlag, New York, 1985, republished in:
 Reprints in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
+
+and with emphasis on the relation to [[locally presentable category|locally presentable]] and [[accessible categories]]:
+
+* {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]], Chapter 3 onwards in: _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
+
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], Def. 1.49 onwards in: _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+
+
 
 That not only every sketchable category is [[accessible category|accessible]] but that conversely every [[accessible category]] is sketchable is due to
 
