@@ -226,23 +226,21 @@ Original articles include
 
 * [[Jacques Penon]], _Sur le quasi-topos_ , Cahiers Top. G&#233;om. Diff. 18 (1977), 181&#8211;218.
 
-Standard textbook references are
+Textbook accounts:
 
-*  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991.
-{#Wyler}
-
+* {#Wyler} Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991.
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
 {#Elephant} (section A2.6)
 
-* J. Adamek, H. Herrlich, G. E. Strecker, _Abstract and Concrete Categories_ , Dover Mineola 2009. (Available online as [TAC Reprint no.17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html) (2006) pp.1-507; section 28)
+* [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]], *Abstract and Concrete Categories*, Wiley 1990, reprinted as: Reprints in Theory and Applications of Categories, No. 17 (2006) pp. 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html))
 
 Quasi-toposes of [[concrete sheaves]] are considered in
 
 * [[Eduardo Dubuc]], _Concrete quasitopoi_ , Lecture Notes in Math. 753 (1979), 239&#8211;254
 
-* [[Eduardo Dubuc]], L. Espanol, _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727))
-{#DE} 
+* {#DE} [[Eduardo Dubuc]], [[Luis Español]], _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727))
+
 
 A review is in
 
