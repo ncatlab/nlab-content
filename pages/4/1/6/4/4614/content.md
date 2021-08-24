@@ -958,14 +958,13 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 ### General
 
-The first occurence of the definition of geometric realization of simplicial topological spaces seems to be
+The first occurence of the definition of geometric realization of ([[semi-simplicial object|semi]]) simplicial topological spaces (being [[nerves]] of [[topological categories]]) seems to be
 
-* {#Segal68} [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
+* {#Segal68} [[Graeme Segal]],  Section 2 of _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
 
-but the construction was implicit in earlier discussion of [[classifying space]]s. The observation that this is a [[coend]] was noted in
+but the construction was implicit in earlier discussion of [[classifying spaces]]. The observation that this is a [[coend]] was noted in
 
-* {#MacLane} [[Saunders MacLane]], _The Milgram bar construction as a tensor product of functors_ SLNM Vol. 168 (1970)
-
+* {#MacLane} [[Saunders MacLane]], Section 6 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday* Lecture Notes in Mathematics *168*,  Springer, 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
 
 The definition of _good_ simplicial topological spaces goes back to
 
