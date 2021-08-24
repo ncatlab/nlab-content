@@ -1,4 +1,4 @@
-<div style="float:left;margin:0 20px 10px 20px;"><img width = "100" src="http://photos.academia.edu/26650/8691/8255/large_charles.wells.jpg?1323912173" alt="Charles Wells" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "100" src="http://photos.academia.edu/26650/8691/8255/large_charles.wells.jpg?1323912173" alt="Charles Wells" /></div>
 
 
 Charles Wells is Professor Emeritus of Mathematics at 
@@ -8,15 +8,20 @@ Charles Wells is Professor Emeritus of Mathematics at
 
 * [publications](http://www.cwru.edu/artsci/math/wells/pub/papers.html)
 
-## Books
+## Selected writings:
 
-* _[[Toposes, Triples, and Theories]]_ with [[Michael Barr]] ([web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
+On [[topos theory]], [[monads]] ("triples") and [[algebraic theories]] via [[sketches]]:
 
-  on [[topos theory]], [[monads]] and [[algebraic theories]];
+* [[Michael Barr]], and  [[Charles Wells]], *Toposes, Triples, and Theories*, Grundlehren der math. Wissenschaften 278 Springer 1983, republished in: Reprints in Theory and Applications of Categories, No. 12 (2005) pp. 1-287 ([tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]])
+
+On [[category theory]]:
 
 * _Category theory for computing science_ with [[Michael Barr]] ([web](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html))
 
-  on [[category theory]].
+On [[sketches]]:
+
+* [[Charles Wells]], *Sketches: Outline with references*, 1993 ([citeseer:10.1.1.217.3531](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.217.3531), [[Wells_Sketches.pdf:file]])
+
 
 [[!redirects C. Wells]]
 
