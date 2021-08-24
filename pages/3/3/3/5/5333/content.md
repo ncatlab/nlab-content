@@ -37,6 +37,10 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
 A priori the [[worldsheet]] [[2d SCFT]] describing the quantum heterotic string has $N=(1,0)$ [[supersymmetry]]. Precisely if the corresponding [[target space]] [[effective field theory]] has $N=1$ supersymmetry does the worldsheet theory enhance to $N=(2,0)$ supersymmetry. See at _[[2d (2,0)-superconformal QFT]]_ and at _[[Calabi-Yau manifolds and supersymmetry]]_ for more on this.
 
+### Gauge groups
+
+Precisely two ([[isomorphism classes]] of) [[gauge groups]] are consistent (give [[quantum anomaly cancellation]]): one is the [[direct product group]] $E_8 \times E_8$ of the [[exceptional Lie group]] [[E8]] with itself, the other is in fact the [[semi-spin group]] $SemiSpin(32)$.
+
 ### Dualities
  {#Dualities}
 
