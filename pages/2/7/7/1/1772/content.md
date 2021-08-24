@@ -289,6 +289,7 @@ where the bottom and the right morphisms are [[monomorphism]]s. Therefore also t
 
 * The category of [[quasi-Borel space|quasi-Borel spaces]] is the category of concrete sheaves on the category of standard Borel spaces considered with the [[extensive category#Superextensive sites|extensive coverage]]. 
 
+* [[quasi-topological spaces]]
 
 ## Related concepts
 
@@ -305,7 +306,7 @@ The notion of quasitoposes of concrete sheaves goes back to
 
 and is further developed in
 
-* [[Eduardo Dubuc]], L. Espanol, _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727)) .
+* [[Eduardo Dubuc]], [[Luis Espanol]], _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727)) .
 
 A review of categories of concrete sheaves, with special attention to sheaves on [[CartSp]], i.e. to [[diffeological space]]s is in
 
