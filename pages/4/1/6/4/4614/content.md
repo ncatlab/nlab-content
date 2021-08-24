@@ -957,46 +957,45 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 ## References
 
 ### General
+ {#General}
 
-The first occurence of the definition of geometric realization of ([[semi-simplicial object|semi]]) simplicial topological spaces (being [[nerves]] of [[topological categories]]) seems to be
+The realization construction of simplicial topological spaces is implicit in classical discussion of [[classifying spaces]] $B G$, which may be understood as the realization of the [[nerves]] of their [[topological groupoid|topological]] [[delooping groupoids]] $G \rightrightarrows \ast$.
+
+More explicit allusion to realization at least of [[semi-simplicial objects|semi-simplicial]] [[nerves]] of [[topological categories]] appeared, without details, in:
 
 * {#Segal68} [[Graeme Segal]],  Section 2 of _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
 
-but the construction was implicit in earlier discussion of [[classifying spaces]]. The observation that this is a [[coend]] was noted in
+The detailed [[coend]] formula for and the relevance of [[compactly generated topological spaces]] for [[preserved limit|preservation]] at least of [[finite products]] is due to:
 
 * {#MacLane} [[Saunders MacLane]], Section 6 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday* Lecture Notes in Mathematics *168*,  Springer, 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
 
-The definition of _good_ simplicial topological spaces goes back to
+Further details, including proof of the preservation not just of binary products but also of pullbacks appears in:
 
-* {#Segal73} [[Graeme Segal]], _Configuration-Spaces and Iterated Loop-Spaces_ , Inventiones math. 21,213-221 (1973)
+* {#May72} [[Peter May]], Section 11 of: *The geometry of iterated loop spaces*, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
 
+The notion of *good* simplicial spaces is due to 
 
-An original reference on geometric realization of simplicial topological spaces is is appendix A of
+* {#Segal73} [[Graeme Segal]], Appendix 2 of: *Configuration-spaces and iterated loop-spaces*, Invent. Math. __21__ (1973), 213&#8211;221.  ([doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377)
 
-* {#Segal74} [[Graeme Segal]], _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_, Topology, 13:293&#8211;312, 1974 (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">10.1016/0040-9383(74)90022-6</a>)
+and the notion of *fat* geometric realization togeteher with its homotopy equivalence to ordinary realization for good simplicial spaces is due to:
 
+* {#Segal74} [[Graeme Segal]], Appendix A of _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_, Topology, 13:293&#8211;312, 1974 (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">10.1016/0040-9383(74)90022-6</a>)
 
-A proof that ordinary and fat geometric realisation give homotopic spaces, for the special case of the nerve of a topological category is in
+More discussion of the comparison of different realization functors is in: 
 
 * {#Wang17} Yi-Sheng Wang, _Fat realization and Segal's classifying space_ ([arXiv:1710.03796](https://arxiv.org/abs/1710.03796))
 
 * {#Wang18} Yi-Sheng Wang, _Geometric realization and its variants_ ([arXiv:1804.00345](https://arxiv.org/abs/1804.00345))
 
-A standard textbook reference is chapter 11 of
 
-* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
+A proof that good simplicial spaces are proper is implicit in the proof of   [Segal 1974, Lemma A.5](#Segal74). It appears explicitly in
 
-
-A proof that good simplicial spaces are proper is implicit in the proof of lemma A.5 in ([Segal74](#Segal74)). Explicitly it appears in
-
-* {#Lewis} L. Gaunce Lewis Jr., _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([JSTOR](.org/pss/1999197))
-
+* {#Lewis} [[L. Gaunce Lewis, Jr.]], _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([jstor:1999197](https://www.jstor.org/stable/1999197))
 
 A generalization of the statement that good implies proper to other [[topological concrete categories]] and a discussion of the geometric realization of $W G \to \bar W G$ for $G$ a [[simplicial topological group]] is in 
 
-* {#RobertsStevenson} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
+* {#RobertsStevenson} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460), [nyjm:22-19](http://nyjm.albany.edu/j/2016/22-19.html))
  
-
 * {#Stevenson} [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
  
 
