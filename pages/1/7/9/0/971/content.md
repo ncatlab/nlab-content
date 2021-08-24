@@ -209,20 +209,17 @@ See at _[Functor category -- Accessibility](functor+category#LocalPresentability
 
 The term _accessible category_ is due to
 
-* {#MakkaiPare89}  [[Michael Makkai]], [[Robert Paré]], _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989.1989. 
-{#MakkaiPare}
+* {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
 
-The standard textbook on the theory of accessible categories is
 
-* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
- {#AdamekRosicky}
+A standard textbook on the theory of accessible categories:
+
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994) 
 
 See also
 
-* [[Robert Paré]], [[Jiří Rosický]], _Colimits of accessible categories_ ([arXiv:1110.0767](http://arxiv.org/abs/1110.0767))
- {#Par&#233;Rosick&#253;}
-
-and 
+* {#Par&#233;Rosick&#253;} [[Robert Paré]], [[Jiří Rosický]], _Colimits of accessible categories_ ([arXiv:1110.0767](http://arxiv.org/abs/1110.0767))
+ 
 
 * [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiří Rosický]], _A classification of accessible categories,_ Journal of Pure and Applied Algebra 175:7-30, 2002. [abstract](http://maths.mq.edu.au/~slack/papers/acc.html)
 
