@@ -24,7 +24,7 @@ The (super-large) category of quasi-topological spaces is a [[quasitopos]] (alth
 
 ## References 
 
-* Edwin Spanier, _Quasi-topologies_, Duke Mathematical Journal 30, number 1 (1963). 
+* [[Edwin Spanier]], _Quasi-topologies_, Duke Mathematical Journal **30**, number 1 (1963) pp 1–14. doi:[10.1215/S0012-7094-63-03001-1](https://doi.org/10.1215/S0012-7094-63-03001-1)
 
 
 [[!redirects quasi-topological space]]
