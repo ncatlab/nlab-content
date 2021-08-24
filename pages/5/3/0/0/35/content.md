@@ -368,7 +368,7 @@ Their understanding as [[internal categories]]/[[internal groupoids]] [[internal
 
 * [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
-but the accepted definition of [[internal groupoids]] seems not to be contained in there.
+but the simple notion of [[internalization]] and [[internal groupoids]] ([Grothendieck 1960](internalization#Grothendieck60), [61](internalization#Grothendieck61)) is hardly recognizable in this account.
 
 Textbook accounts:
 
