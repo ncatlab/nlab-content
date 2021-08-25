@@ -349,7 +349,8 @@ be reversed to get a homotopy from $B$ to $A$.
 \subsection{Stability and simplicity in model theory}
 
 Let us now describe how situses can be used to reformulate
-two notions of model theory: stability and simplicity of a first-order theory. 
+two notions of model theory: stability and simplicity of a first-order theory. An alternative and more general approach is given in the next section on the Shelah's dividing lines which completely covers simplicity(NTP). 
+
 
 \subsubsection{Stability. }
 
@@ -436,6 +437,7 @@ for a saturated enough model $M$ of the theory.
 \subsubsection{Simplicity. }
 
 The definition of simplicity is not as simple combinatorially. 
+A more general approach to simplicity is discussed in the next section on Shelah's dividing lines. 
 
 First let us introduce the situs associated with a model
 for this purpose; this situs structure is defined to talk 
@@ -653,7 +655,7 @@ We show that in the category of situses
 a number of the Shelah's divining lines,
 namely  $NOP, NSOP, NSOP_i, NTP, NTP_i$, and $NATP$
 are expressed as Quillen lifting properties of form 
-$$A \to B \rightthreetimes M\to\top$$  
+$$A_\bullet \to B_\bullet \rightthreetimes M_\bullet\to\top$$  
 where $\top$ is the terminal object, and 
 $M$ is a situs associated with a model and a formula,
 and $A$ and $B$ are objects of combinatorial nature.  
@@ -665,7 +667,7 @@ Recall the common pattern of definitions of
 $NOP, NSOP, NSOP_i, NTP, NTP_i, NATP$. 
 As usually stated, such a property wrt a formula $\phi$ and a model $M$ 
 require
-that there is a combinatorial structure ("counterexample" or "witness") 
+that there is no combinatorial structure ("counterexample" or "witness") 
 formed by elements of the model $M$ satisfying certain "positive" requirement 
 that certain collections of formulas are consistent, and "negative" requirement 
 that certain collections of formulas are inconsistent. 
@@ -680,8 +682,7 @@ and are so chosen that both morphisms  $A_\bullet\to M_\bullet$ and $B_\bullet \
 both correspond to maps of sets $a_\bullet :|I|\to |M|$ and $a'_\bullet:|I'|\to |M|$.
 The $A_n$'s and $B_n$'s represent the indices of tuples mentioned 
 in positive, resp. negative, requirements. 
-The filters on $A_n$ are taken indiscrete; thus continuity of  
-$f:A_\bullet\to M_\bullet$ means that for each $n\in \Bbb N$,
+The filters on $A_n$ are taken indiscrete; thus continuity of $f:A_\bullet\to M_\bullet$ means that for each $n\in \mathbb {N}$,
 each tuple $(a_i)_{0\leq i\le n} \in a(A_n)\subset |M|^n$ satisfies a certain formula. 
 Namely, if $M_\bullet$ is the situs of $\phi$-indiscernible sequences, 
 the continuity says that each such sequence is $\phi$-indiscernile;
