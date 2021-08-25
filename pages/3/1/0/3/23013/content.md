@@ -13,6 +13,8 @@
 
   * [[(∞,1)-topos]] ([[n-localic (infinity,1)-topos|$n$-localic]])
 
+    $\;\;\;\;$ [[model topos]]
+
 * [[2-topos]]
 
   * [[(2,2)-topos]] ([[n-localic 2-topos|$n$-localic]])
