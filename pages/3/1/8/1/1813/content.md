@@ -23,7 +23,7 @@
 Under rather general conditions a [[functor]]
 
 $$
-  S_C : S \to C
+  S_C \;\colon\; S \to C
 $$
 
 into a [[cocomplete category]] $C$ (possibly a $V$-[[enriched category]] with $V$ some [[complete category|complete]] [[symmetric monoidal category]]) induces a pair of [[adjoint functors]]
@@ -97,29 +97,29 @@ $$
 $$
 
 
-+-- {: .num_theorem }
-###### Theorem (Kan)
-
+\begin{theorem}
 Nerve and realization are a pair of [[adjoint functors]] 
 
 $$
-  (|-| \dashv N)
+  ({|-|} \dashv N)
 $$
 
-with $N$ [[right adjoint]].
-=--
+with $N$ the [[right adjoint]].
 
+\end{theorem}
+([Kan 1958, Sec. 3](#Kan58))
 +-- {: .proof}
 ###### Proof
 
 Using the fact that the Hom in its first argument sends [[coends]] to [[ends]]
 and then using the definition of [[copower|tensoring]]
-over $V$, we check the hom-isomorphism
+over $V$, we check the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism):
 
 $$
   \begin{aligned}
     Hom_C(|X|, c)
-    &:=
+    & 
+    \coloneqq
     Hom_C( \int^{s} S_C(s) \cdot X_s, c)
     \\
     & \simeq
@@ -245,7 +245,7 @@ Under some conditions one can characterize when and where the nerve construction
 
 The notion of nerve and realization (not with these names yet) was introduced and proven to be an [[adjunction]] in section 3 of
 
-* {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
+* {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor:1993103](http://www.jstor.org/stable/1993103)).
 
 In fact, in that very article apparently what is now called [[Kan extension]] is first discussed.
 
