@@ -21,40 +21,179 @@
 
 ## Idea
 
-The _codiscrete groupoid_ on a [[set]] is the [[groupoid]] whose [[object]]s are the elements of the [[set]] and which has a _unique [[morphism]]_ for every ordered pair of objects.
+The _codiscrete groupoid_ on a [[set]] is the [[groupoid]] whose [[objects]] are the elements of the [[set]] and which has a _unique [[morphism]]_ for every ordered pair of objects.
 
-This is also called the **pair groupoid** of $X$ and sometimes also the __chaotic groupoid__ , __indiscrete groupoid__, or __coarse groupoid__ on $X$, in older literature also [[Brandt groupoid]].
+This is also called the **pair groupoid** of $X$ and sometimes also the __chaotic groupoid__ (this is explained [below](#Adjointness)), __indiscrete groupoid__, or __coarse groupoid__ on $X$, in older literature also [[Brandt groupoid]].
 
 
 ## Definition
 
-For $X$ set, the **codiscrete groupoid** of $X$ is the groupoid $Codisc(X)$ with
+\begin{definition}\label{CodiscreteGroupoid}
+**(codiscrete groupoid)** \linebreak
+For $X \in Set$, the **codiscrete groupoid** of $X$ is the [[groupoid]] 
 
-* $Obj(X) = X$;
+$$
+  Codisc(X)
+  \;\coloneqq\;
+  X \times X
+    \underoverset
+      {pr_2}
+      {pr_1}
+      {\rightrightarrows}
+$$
 
-* $Mor(X) = X \times X$.
+whose object of objects is
 
-This definition makes sense also [[internal category|internally]], for $X$ an object in any category with finite [[limit]]s. (In fact, this is one of those cases where the category can easily be defined with some limits lacking; we need only finite [[product]]s of $X$.)
+* $Obj(X) = X$,
 
+whose objects of morphisms is the [[Cartesian product]] of $X$ with itself
 
+* $Mor(X) = X \times X$,
 
-**Remark** The codiscrete groupoid on $X$ is also sometimes called 
-the _chaotic groupoid_ on $X$. The intuition is probably that "everything being connected with everything else sounds pretty chaotic", but one can argue that the term "chaotic groupoid" exactly misses the true intrinsic nature of codiscrete groupoids: since these are all just "puffed up versions of the point" they are "maximally homogenous" things. Which space would be less chaotic than the point?
+whose [[source]] and [[target]] morphism are the two canonical [[projections]] out of the product, and whose [[composition]] operation is the unique one compatible with this:
 
+$$
+  X \times X \times X
+  \xrightarrow{\; (pr_1, pr_3) \; }
+  X \times X
+$$
+
+\end{definition}
+
+\begin{remark}
+Def. \ref{CodiscreteGroupoid} manifestly makes sense in the generality of [[internal groupoids]] [[internalization|internal]] to any category with [[finite limits]] (in fact only [[finite products]] are involved in the definition of codiscrete groupoids).
+\end{remark}
 
 
 
 ## Properties
 
-* Every codiscrete groupoid on an [[inhabited set]] is [[contractible space|contractible]]: [[equivalence of categories|equivalent]] to the [[point]]. More generally, any codiscrete groupoid is equivalent to a [[truth value]].
+### General
 
-* For $X$ a [[finite set]] of cardinality $n \gt 0$, the [[category algebra]] of $Codisc(X)$ is the algebra of $n\times n$ matrices. The contractibility of $Codisc(X)$ is reflected in the fact that this algebra is [[Morita equivalence|Morita equivalent]] to the [[ground ring]], which is the category algebra of the [[point]].
+* Every codiscrete groupoid on an [[inhabited set]] is [[contractible space|contractible]]: [[equivalence of categories|equivalent]] to the [[terminal groupoid]] (the [[point]]). More generally, any codiscrete groupoid is equivalent to a [[truth value]].
 
-  This maybe serves to illustrate: even though codiscrete groupoids are pretty trivial, they are not too trivial to be entirely without interest. Often it is useful to have big puffed-up versions of the point available.
+* For $X$ a [[finite set]] of [[cardinality]] $n \gt 0$, the [[category algebra]] of $Codisc(X)$ is the algebra of $n\times n$ matrices. The contractibility of $Codisc(X)$ is reflected in the fact that this algebra is [[Morita equivalence|Morita equivalent]] to the [[ground ring]], which is the category algebra of the [[point]].
 
-*  The underlying [[quiver]] of a codiscrete groupoid is a [[complete graph]] (in that there is one *and only one* edge between any ordered pair of vertices).
+  This maybe serves to illustrate: even though codiscrete groupoids are pretty trivial, they are not too trivial to be entirely without interest. Often it is useful to have big puffed-up versions of the point available (see [[cofibrant resolution]]).
 
-* The [[nerves]] of codiscrete groupoids are precisely the [[codiscrete objects]] in [[sSet]], regarded as a [[cohesive topos]].
+*  The [[underlying]] [[directed graph]] of a codiscrete groupoid is a [[complete graph]] (in that there is one *and only one* edge between any ordered pair of vertices).
+
+### Adjointness
+ {#Adjointness}
+
+The [[1-category]] [[Grpd]] of [[groupoids]] is related to [[Set]] by an [[adjoint quadruple]] of [[functors]]
+
+\begin{tikzcd}
+  \mathrm{Grpd}
+  \ar[
+    rr,
+    shift left=26pt,
+    "{
+      \pi_0
+    }"{description}
+  ]
+  \ar[
+    rr,
+    "{
+      (-)_0
+    }"{description}
+  ]
+  &&
+  \mathrm{Set}
+  \ar[
+    ll,
+    shift right=13pt,
+    "{
+      \mathrm{Disc}
+    }"{description}
+  ]
+  \ar[
+    ll,
+    shift left=13pt,
+    "{
+      \mathrm{Codisc}
+    }"{description}
+  ]
+\end{tikzcd}
+
+Here 
+
+$$
+  (-)_0
+  \;\;
+  \colon
+  \;\;
+  \big(  
+    X_1 
+    \rightrightarrows
+    X_0 
+  \big)
+  \;\;\;
+    \mapsto 
+  \;\;\;
+  X_0
+$$
+
+sends a groupoid to its set of [[objects]].
+
+The [[right adjoint]] to this functor sends a set to its codiscrete groupoid according to Def. \ref{CodiscreteGroupoid}. To see this, observe the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) that reflects this adjunction:
+
+For $\mathcal{X} = \big( \mathcal{X}_1 \rightrightarrows \mathcal{X}_0\big)\,\in\,$ [[Grpd]] and for $S \,\in\, $ [[Set]], a [[morphism]] of groupoids (i.e. a [[functor]]) of the form
+
+$$
+  \mathcal{X}
+    \xrightarrow{\;\; F \;\;} 
+  CoDisc(S) 
+$$
+
+is uniquely determined as soon as its component function 
+
+$$
+  \mathcal{X}_0 
+    \xrightarrow{\;\; F_0 \;\;}
+  CoDisc(S) = S
+$$
+
+is chose, because for every morphism $(x \xrightarrow{f} y) \,\in\,\mathcal{X}_1$  there is one and only one morphism $F_0(x) \to F_0(y)$ that it may be sent to, and making this unique choice for each $f$ does constitute a functor $F$ for every choice of $F_0$.
+
+This association there gives a [[natural bijection]] of [[hom-sets]]
+
+$$
+  Grpd
+  \big(
+    \mathcal{X}
+    ,\,
+    CoDisc(S)
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  Set
+  \big(
+    \mathcal{X}_0
+    ,\,
+    S
+  \big)
+$$
+
+and hence witnesses the claimed [[adjunction]]
+
+$$
+  CoDisc
+    \;\; \dashv  \;\; 
+  (-)_0 
+  \,.
+$$
+
+It has been argued in [Lawvere 1984](chaos#Lawvere84) that such [[codiscrete object]]-constructions, [[right adjoint]] to [[forgetful functors]], deserve to be called "chaotic".
+
+Correspondingly, [[nerves]] of codiscrete groupoids are precisely the [[codiscrete objects]] in [[sSet]], regarded as a [[cohesive topos]] over [[Set]].
+
+
+
+
+
+
 
 ## Examples
  {Example}
