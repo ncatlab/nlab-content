@@ -36,10 +36,16 @@ This appears as [Rezk, 6.1](#Rezk).
 
 ## Related concepts
 
+
 * [[model site]], [[model structure on simplicial presheaves]]
 
 
+[[!include flavors of higher toposes -- list]]
+
+
 [[!include locally presentable categories - table]]
+
+
 
 ## References
 
