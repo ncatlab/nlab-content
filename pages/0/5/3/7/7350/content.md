@@ -54,7 +54,7 @@ In [Paré 1990, p. 741 (11 0f 16)](#Pare90) this observation is attributed to [[
 ## Examples
 
 \begin{example}\label{CategoriesWithInitialObjectAreLFinite}
-**(categories with initial objects are L-final)** \linebreak
+**(categories with initial objects are L-finite)** \linebreak
   Any category $\mathcal{C}$ with an [[initial object]] $\varnothing \,\in\, \mathcal{C}$ is L-finite, with the inclusion of the [[terminal category]] mapping to this initial object
 $\{\varnothing\} \xhookrightarrow{\;} \mathcal{C}$
 being an [[initial functor]] (by [this exp.](final+functor#InclusionOfATerminalObjectIsFinal)) as required by Def. \ref{CharacterizationsOfLFiniteLimits}.
