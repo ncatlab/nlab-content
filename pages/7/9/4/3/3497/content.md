@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -109,9 +109,15 @@ that identifies $Topos_{(m,1)}$ equivalently with the full subcategory of $m$-lo
 
 ### $(2,1)$-Toposes
 
-If $E$ is a (2,1)-topos in which every object is *covered* by a 0-[[truncated]] object, then $E$ is equivalent to the category of (2,1)-sheaves on a 1-site (rather than merely a (2,1)-site, as is the case for general (2,1)-topoi), and is thus canonically *associated* to a 1-topos, namely the category of 1-sheaves on that same 1-site.  And in fact, $E$ can be recovered from this 1-topos as the category of (2,1)-sheaves for its canonical topology.  
+If $E$ is a [[(2,1)-topos]] in which every object is *covered* by a 0-[[truncated]] object, then $E$ is equivalent to the category of (2,1)-sheaves on a 1-site (rather than merely a (2,1)-site, as is the case for general (2,1)-topoi), and is thus canonically *associated* to a 1-topos, namely the category of 1-sheaves on that same 1-site.  And in fact, $E$ can be recovered from this 1-topos as the category of (2,1)-sheaves for its canonical topology.  
 
 See [[michaelshulman:truncated 2-topos]] for more.
+
+
+## Related concepts
+
+
+[[!include flavors of higher toposes -- list]]
 
 
 
