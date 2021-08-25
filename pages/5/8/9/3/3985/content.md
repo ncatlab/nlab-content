@@ -71,7 +71,7 @@ One finds, as discussed [below](#Properties), that reflective subcategories may 
 
 Let $S \subset Mor(C)$ be a class of morphisms. 
 
-* An object $c \in C$ is called an **$S$-[[local object]]** if for all morphisms $f : x \to y$ in $C$ the induced morphism
+* An object $c \in C$ is called an **$S$-[[local object]]** if for all morphisms $f : x \to y$ in $S$ the induced morphism
 
   $$
     Hom_C(f,c) : Hom_C(y,c) \to Hom_C(x,c)
