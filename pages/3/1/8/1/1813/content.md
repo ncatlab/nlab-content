@@ -97,11 +97,11 @@ $$
 $$
 
 
-\begin{theorem}
+\begin{theorem}\label{NerveAndRealizationAreAdjoint}
 Nerve and realization are a pair of [[adjoint functors]] 
 
 $$
-  ({|-|} \dashv N)
+    {|-|} \,\dashv\, N
 $$
 
 with $N$ the [[right adjoint]].
