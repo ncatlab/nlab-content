@@ -118,19 +118,12 @@ For literature on [[internal categories]] in [[1-toposes]] see at _[[2-sheaf]]_.
 
 ## Related concepts
 
-* [[(0,1)-topos]]
+* [[elementary theory of the 2-category of categories]] ([[ETCC]])
 
-* [[topos]], [[(∞,1)-topos]], [[(n,1)-topos]]
 
-* **2-topos**, [[(∞,2)-topos]]
+[[!include flavors of higher toposes -- list]]
 
-  * [[elementary theory of the 2-category of categories]] ([[ETCC]])
 
-  * [[n-localic 2-topos]]
-
-* [[n-topos]]
-
-* [[(∞,n)-topos]]
 
 ## References
 
