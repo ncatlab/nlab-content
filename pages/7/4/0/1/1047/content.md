@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
 
 Following the terminology of [[(n,r)-category|(n,r)-categories]], an __$(\infty,0)$-category__ is an [[∞-category]] in which every $j$-morphism (for $j \gt 0$) is an [[equivalence]].  
 
