@@ -14,3 +14,5 @@ By the general rules of $(n,r)$-[[(n,r)-category|categories]], a $(1,0)$-categor
 * any two parallel $j$-morphisms are equivalent, for $j \gt 1$.
 
 You can start from any notion of $\infty$-category, strict or weak; up to [[equivalence of categories|equivalence]], the result is always the same as a [[groupoid]].
+
+[[!redirects (1,0)-categories]]
