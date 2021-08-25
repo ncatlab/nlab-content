@@ -138,7 +138,7 @@ Let $u,v \in \mathcal{E}'(\mathbb{R}^n)$ be two  [[compactly supported distribut
 
 $$
   WF(u \star v)
-  \;=\;
+  \;\subseteq\;
   \left\{
     (x + y, k)
     \;\vert\;
