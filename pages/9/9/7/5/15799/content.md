@@ -12,6 +12,9 @@ On construction and axiomatization of [[homotopical AQFT]] via [[homotopy theory
 
 * {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_, Communications in Mathematical Physics November 2017, Volume 356, Issue 1, pp 19&#8211;64 ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
 
+* [[Simen Bruinsma]], [[Christopher J. Fewster]], [[Alexander Schenkel]], *Relative Cauchy evolution for linear homotopy AQFTs* ([arXiv:2108.10592](https://arxiv.org/abs/2108.10592))
+
+
 On the [[stack]] of [[Yang-Mills theory|Yang-Mills]] [[gauge fields]]:
 
 * {#BeniniSchenkelSchreiber17} [[Marco Benini]], [[Alexander Schenkel]], [[Urs Schreiber]], _The stack of Yang-Mills fields on Lorentzian manifolds_, Commun. Math. Phys. 359, 765–820 (2018) ([arXiv:1704.01378](https://arxiv.org/abs/1704.01378), [doi:10.1007/s00220-018-3120-1](https://doi.org/10.1007/s00220-018-3120-1))
