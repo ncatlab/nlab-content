@@ -51,6 +51,15 @@ The notion of L-finite category (Def. \ref{CharacterizationsOfLFiniteLimits}) is
 
 In [Paré 1990, p. 741 (11 0f 16)](#Pare90) this observation is attributed to [[Richard Wood]]. 
 
+## Examples
+
+\begin{example}\label{CategoriesWithInitialObjectAreLFinite}
+**(categories with initial objects are L-final)** \linebreak
+  Any category $\mathcal{C}$ with an [[initial object]] $\varnothing \,\in\, \mathcal{C}$ is L-finite, with the inclusion of the [[terminal category]] mapping to this initial object
+$\{\varnothing\} \xhookrightarrow{\;} \mathcal{C}$
+being an [[initial functor]] (by [this exp.](final+functor#InclusionOfATerminalObjectIsFinal)) as required by Def. \ref{CharacterizationsOfLFiniteLimits}.
+\end{example}
+
 ## Related concepts
 
 * [[finite category]]
