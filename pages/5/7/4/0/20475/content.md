@@ -49,11 +49,18 @@ See also
 
 * Wikipedia, _[Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)_
 
-### Concerning mathemarical structure
+### Concerning mathematical structure
+ {#ConcerningMathematicalStructures}
 
-A proposal for a formalization of the concept of chaos in terms of [[adjoint modalities]] is in
+The terminology "chaotic" for [[codiscrete objects]] goes back to 
+
+* [[SGA4|SGA4-1, 1.1.4]] (1972)
+
+where it is used for [[Grothendieck topologies]], from which it was, apparently, adapted to [[chaotic topologies]] on [[topological spaces]].
+
+General formalization of the concept in terms of [[right adjoints]] to [[forgetful functors]] is due to:
 
 * {#Lawvere84} [[William Lawvere]], _Functorial Remarks on the General Concept of Chaos_, IMA Preprint 87, 1984 ([pdf](https://www.ima.umn.edu/sites/default/files/87s.pdf))
 
-
 [[!redirects chaos theory]]
+
