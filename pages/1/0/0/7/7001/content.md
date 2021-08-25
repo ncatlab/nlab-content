@@ -20,7 +20,7 @@
 
 ## Definition
 
-For $\Gamma : \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _has [[codiscrete object]]s_ if it has a  [[full and faithful functor|full and faithful]] [[right adjoint]] $coDisc : \mathcal{B} \hookrightarrow \mathcal{E}$. 
+For $\Gamma \colon \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _has [[codiscrete object]]s_ if it has a  [[full and faithful functor|full and faithful]] [[right adjoint]] $coDisc : \mathcal{B} \hookrightarrow \mathcal{E}$. 
 
 An object in the [[essential image]] of $coDisc$ is called a **codiscrete object.
 
@@ -30,12 +30,18 @@ If one thinks of $\mathcal{E}$ as a [[category]] of [[spaces]], then the codiscr
 
 The dual notion is that of _[[discrete objects]]_.
 
+## Examples
+
+* [[codiscrete topology]]
+
+* [[codiscrete groupoid]]
+
 ## Properties
 
+\begin{prop}
 $\Gamma$ is a [[faithful functor]] on [[morphisms]] whose [[codomain]] is concrete. 
+\end{prop}
 
-
-## Properties
 
 +-- {: .num_prop}
 ###### Proposition
@@ -58,12 +64,15 @@ This is ([Shulman, theorem 2](#Shulman)).
 
 ## Related concepts
 
+* [[chaos]]
+
+
 [[!include cohesion - table]]
 
 
 ## References
 
-* [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
- {#Shulman}
+* {#Shulman} [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
+ 
 
 [[!redirects concrete objects]]
