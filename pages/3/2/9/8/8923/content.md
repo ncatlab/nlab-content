@@ -27,11 +27,5 @@ See at _[Internal category object in an (∞,1)-category -- Iterated internaliza
 
 ## Related concepts
 
-* [[(0,1)-topos]]
-
-* [[topos]], [[(∞,1)-topos]], [[(n,1)-topos]]
-
-* [[2-topos]]
-
-* [[(∞,2)-topos]]
+[[!include flavors of higher toposes -- list]]
 
