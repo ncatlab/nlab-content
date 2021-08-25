@@ -23,7 +23,7 @@ Computability theory deals only with computability in principle and disregards t
 
 The key concept in computability theory is that of a _[[computable function]]_, hence of a [[function]] whose output may be determined from its input by an actual [[computation]]. There are two main types of computability, depending on whether one takes the domain and codomain of computable functions to be _finite string_ from a finite alphabet, hence equivalently [[natural numbers]], or _infinite strings_ from a finite interval, hence sequence of natural numbers. 
 
-In the first case -- "type I computability" -- computable functions are [[partial recursive functions]]. In the second -- "type II computability" -- they are [[continuous functions]] on (quotients of) [[Baire space (computability)|Bair space]] (see at _[[computable function (analysis)]]_).
+In the first case -- "type I computability" -- computable functions are [[partial recursive functions]]. In the second -- "type II computability" -- they are [[continuous functions]] on (quotients of) [[Baire space (computability)|Baire space]] (see at _[[computable function (analysis)]]_).
 
 [[!include computable mathematics -- table]]
 
