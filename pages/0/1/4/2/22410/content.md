@@ -52,10 +52,45 @@ However, the condition alone that the [[shear map]] (eq:ShearMapForBundles) be a
 
 Examples of references using this terminology: [StacksProject](#StacksProject), [Moret-Bailly 13, slide 5](#MoretBailly13), [BGA 13, p. 73-74](#BGA13).
 
-
 ## Examples
 
 * Even if a $G$-[[equivariant principal bundle]] is an actual [[torsor]] ([[internalization|in]] [[topological G-spaces]] [[slice category|sliced]] over a given base) its [[fixed loci]] will generally only be (similarly internal) pseudo-torsors.
+
+## Properties
+
+\begin{proposition}\label{PseudoPrincipalProjectionIsEffectiveIfItIsQuotient}
+  [[internalization|Internal to]] some 
+  ambient [[category]] $\mathcal{C}$
+  with [[finite limits]], let 
+
+  * $G \,\in\, Grp(\mathcal{C})$ be a [[group object]], 
+  * $P \,\in\, G Act(\mathcal{C})$ an [[action object]],
+  * $(P \to X) \,\in\, G PsTor(\mathcal{C}_{/X})$ a [[formally principal bundle]].
+
+Then the following are equivalent:
+
+1. $P \to X$ is the $G$-[[quotient]] [[coprojection]];
+
+1. $P \to X$ is an [[effective epimorphism]].
+
+\end{proposition}
+\begin{proof}
+  The first condition is equivalent to 
+  $$
+    P \times_X P \rightrightarrows P \to X
+  $$
+  being a [[coequalizer]], the second to
+  $$
+    P \times G \rightrightarrows P \to X
+  $$
+  being a coequalizer. But the pseudo-principality condition 
+  says that we have an [[isomorphism]] (the [[shear map]])
+  $$
+    P \times_X P \simeq P \times G
+  $$
+  which identifies these two [[diagrams]].
+\end{proof}
+
 
 ## Related concepts
 
