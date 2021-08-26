@@ -182,6 +182,11 @@ Historically important is also the reference
 
 on [[tangent Lie algebroid]]s. 
 
+A bijective correspondence between Lie algebroid structures, homological vector fields of degree 1, and odd linear Poisson structures is established in the paper
+
+* [[A. Yu. Vaintrob]], _Lie algebroids and homological vector fields_, Russian Mathematical Surveys 52:2 (1997), 428–429.  [doi](http://dx.doi.org/10.1070/rm1997v052n02abeh001802), [[vaintrob.pdf:file]].
+
+
 Contemporary textbooks include:
 
 * K. C. H. Mackenzie, _General theory of Lie groupoids and Lie algebroids,_ Cambridge University Press, 2005, xxxviii + 501 pages 
