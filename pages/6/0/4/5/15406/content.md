@@ -18,3 +18,8 @@ More on [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
 
 
 category: people
+
+[[!redirects A. Vaintrob]]
+[[!redirects A. Y. Vaintrob]]
+[[!redirects A. Yu. Vaintrob]]
+
