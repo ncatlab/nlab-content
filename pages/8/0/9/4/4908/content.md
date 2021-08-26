@@ -7,9 +7,10 @@ Ji&#345;&#237; Ad&#225;mek is a pure [[category theory|category theorist]]. One 
 
 ## Selected writings
 
-On [[concrete categories]]:
+On [[category theory]] with emphasis on [[concrete categories]]:
 
-* [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]], *Abstract and Concrete Categories*, Wiley 1990, reprinted as: Reprints in Theory and Applications of Categories, No. 17 (2006) pp. 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html))
+* [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], *[[Abstract and Concrete Categories -- The Joy of Cats]]*, John Wiley and Sons, New York (1990), reprinted in: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
+
 
 On [[locally presentable categories|locally presentable]] and [[accessible categories]]:
 
