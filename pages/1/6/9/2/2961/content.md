@@ -5,8 +5,15 @@ This page collects links related to the book
 
   **Abstract and Concrete Categories: The Joy of Cats**
 
-  [webpage](http://katmat.math.uni-bremen.de/acc/),
-  [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+  John Wiley and Sons, New York (1990)
+
+  reprinted as:
+
+  Reprints in Theory and Applications of Categories **17** (2006) 1-507
+
+  [tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html)
+
+  [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
 on [[category theory]]
 
@@ -27,3 +34,4 @@ category: reference
 [[!redirects Joy of Cats]]
 [[!redirects Abstract and Concrete Categories]]
 [[!redirects Abstract and Concrete Categories: The Joy of Cats]]
+[[!redirects Abstract and Concrete Categories -- The Joy of Cats]]
