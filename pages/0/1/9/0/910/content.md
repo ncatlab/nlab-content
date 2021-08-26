@@ -34,9 +34,9 @@ continuous if and only if $f$ is $k$-continuous.
 3. $X$ is an [[identification space]] of a [[disjoint union]] of compact Hausdorff spaces.
 4. A [[subspace]] $U \subseteq X$ is [[open subspace|open]] if and only if the [[preimage]] $t^{-1}(U)$ is open for any compact Hausdorff space $C$ and continuous $t\colon C \to X$.
 
-A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t\colon C\to X$ is closed (when $C$ is compact Hausdorff).  Some authors go on to require a [[Hausdorff space|Hausdorff]] space, but this seems to be unnecessary.
+A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t\colon C\to X$ is closed (when $C$ is compact Hausdorff).  Some authors (especially the early authors on the subject) go on to require a [[Hausdorff space|Hausdorff]] space, but this seems to be unnecessary.
 
-Sometimes $k$-spaces are called __Kelley spaces__, after [[John Kelley]], who studied them extensively; however, they predate him and the '$k$' does not stand for his name.  (Probably it has something to do with 'compact' or 'kompakt'.)
+Sometimes $k$-spaces are called __Kelley spaces__, after [[John Kelley]], who studied them extensively; however, they predate him and the '$k$' does not stand for his name but probably it comes from the German word *kompakt*.
 
 
 ## Examples
@@ -102,7 +102,7 @@ Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ 
 $$ k\Top \to \Top \to \Top_k $$
 of which the first is the inclusion of a [[full subcategory|full]] [[coreflective subcategory]], the second is [[bijective on objects functor|bijective on objects]], and the composite $k\Top \to Top_k$ is an [[equivalence of categories]].
 
-The [[coreflection]] $\Top \to k\Top$ is denoted $k$, and is sometimes (e.g. by [[M M Postnikov]]) also called **kaonization** and sometimes (e.g. by [[Peter May]]) **$k$-ification**.  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
+The [[coreflection]] $\Top \to k\Top$ is denoted $k$, and is sometimes (e.g. by [[M M Postnikov]]) also called **kaonization** and sometimes  **$k$-ification** ([May 1999, p. 49](#May99)).  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
 
 In particular, the identity map $id:k(X)\to X$ is continuous, and forms the counit of the coreflection.  Thus this coreflection has a counit which is both [[monic]] and [[epic]], i.e. a "[[bimorphism]]"---such a coreflection is sometimes called a "bicoreflection."
 
@@ -159,12 +159,14 @@ The category of compactly generated [[Hausdorff spaces]] is a [[regular category
 
 ## References 
 
-The following article attributes the concept to Hurewicz:
+The idea of compactly generated spaces appears first, assuming the Hausdorff condition, in:
 
-* David Gale, _Compact Sets of Functions and Function Rings_ ,
-Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf))
+* David Gale, Section 1 of: _Compact Sets of Functions and Function Rings_,
+Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf), [doi:10.2307/2032373](https://doi.org/10.2307/2032373), [jstor:2032373](https://www.jstor.org/stable/2032373))
 
-Early textbook accounts:
+where it is attributed to [[Witold Hurewicz]].
+
+Early textbook accounts assuming the Hausdorff condition:
 
 * [[John Kelley]], p. 230 in: _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
@@ -172,47 +174,62 @@ Early textbook accounts:
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], sections I.1.5.3 and III.2 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/GZ.pdf))
 
+Influential emphasis of the usefulness of the notion as providing a [[convenient category of topological spaces]]:
+
+* {#Steenrod} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
+
 Early discussion in the context of [[geometric realization of simplicial topological spaces]]:
 
 * {#MacLane70} [[Saunders MacLane]], Section 4 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday*, Lecture Notes in Mathematics *168*,  Springer 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
 
+and briefly in 
 
-A lecture note careful about the (weakly) Hausdorff assumptions when needed/wanted is in the lecture notes
+* {#May72} [[Peter May]], Section 1 of: *The geometry of iterated loop spaces*, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
+
+More history and early references, with emphasis on [[category theory|category-theoretic]] aspects:
+
+* [[Horst Herrlich]], [[George Strecker]], Section 3.4 of: *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1* , Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
+
+
+The idea of generalizing compact generation to weakly Hausdorff spaces appears in:
+
+* [[Michael C. McCord]], Section 2 of: *Classifying Spaces and Infinite Symmetric Products*, Transactions of the American Mathematical Society, Vol. 146 (Dec., 1969), pp. 273-298  ([jstor:1995173](https://www.jstor.org/stable/1995173), [pdf](https://www.ams.org/journals/tran/1969-146-00/S0002-9947-1969-0251719-4/S0002-9947-1969-0251719-4.pdf))
+
+where it is attributed to [[John C. Moore]].
+
+Review in this generality:
+
+* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
+
+* {#May99} [[Peter May]], Chapter 5 of: _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf), [[StricklandCGHWSpaces.pdf:file]])
 
-Many properties of compactly generated Hausdorff spaces are used to establish a variant of the theory of fibrations, cofibrations and deformation retracts in 
+* [[Charles Rezk]], *Compactly Generated Spaces*, 2018 ([pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]])
 
-* {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
 
 Proof that k-spaces form a [[regular category]]:
 
 * {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
 
 
-Other and later references:
+See also:
 
-* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
-
-
-* [[George Whitehead]], _Elements of homotopy theory_
+* [[George W. Whitehead]], Section I.4 of: *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
 
 * [[Brian Day|Brian J. Day]], _Relationship of Spanier's Quasi-topological Spaces to k-Spaces_  , M. Sc. thesis University of Sydney 1968. ([pdf](http://www.math.mq.edu.au/~street/DayMasters.pdf))
 
-* Peter Booth, ; Heath, Philip R.; Piccinini, Renzo A.
-Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
-
-* [[Horst Herrlich]], [[George Strecker]], Section 3.4 of: *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1* , Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
-
-* [[Peter May]], Chapter 5 of: _[[A concise course in algebraic topology]]_ (1999)
+* Peter Booth, Philip R. Heath, Renzo A. Piccinini, *Fibre preserving maps and functional spaces*, Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Section 0 of: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
+  > (in a context of [[rational homotopy theory]])
+
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, around note 4.3.22 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
-
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
+
+* Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
 
 * {#Schwede12} [[Stefan Schwede]], section A.2 of _[[Symmetric spectra]]_ (2012)
 
@@ -231,6 +248,11 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 [[!redirects compactly generated weakly Hausdorff topological spaces]]
 [[!redirects compactly generated weakly Hausdorff space]]
 [[!redirects compactly generated weakly Hausdorff spaces]]
+
+[[!redirects weakly Hausdorff compactly generated topological space]]
+[[!redirects weakly Hausdorff compactly generated topological spaces]]
+
+
 [[!redirects k-space]]
 [[!redirects k-spaces]]
 [[!redirects kaonization]]
@@ -239,3 +261,4 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 [[!redirects kaonisations]]
 [[!redirects Kelley space]] 
 [[!redirects Kelley spaces]]
+
