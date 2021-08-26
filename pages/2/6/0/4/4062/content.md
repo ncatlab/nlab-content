@@ -109,7 +109,7 @@ There are two [[double categories]] with objects those of $K$, vertical arrows [
 
 What this means is that, for example, the mate of a square coming from a [[pasting diagram]] is given by pasting the mates of the individual 2-cells (whenever this makes sense).
 
-In the double category $Adj(K)$, every vertical arrow has both a [[companion]] (the left adjoint) and a [[conjoint]] (the right adjoint).  (In fact, in some sense it is the universal double category cosntructed from $K$ with this property.)  Therefore, it is equivalent to a [[2-category equipped with proarrows]].  More explicitly, there is a forgetful functor $L \colon Adj_V(K) \to K$ from the 2-category of objects, adjunctions and mate-pairs in $K$ to $K$ that sends an adjunction $f \dashv u$ to $f$.  It is [[locally fully faithful 2-functor|locally fully faithful]], and moreover every $L f$ has a right adjoint in $K$ by definition; this gives the more traditional definition of a proarrow equipment.
+In the double category $Adj(K)$, every vertical arrow has both a [[companion]] (the left adjoint) and a [[conjoint]] (the right adjoint).  (In fact, in some sense it is the universal double category constructed from $K$ with this property.)  Therefore, it is equivalent to a [[2-category equipped with proarrows]].  More explicitly, there is a forgetful functor $L \colon Adj_V(K) \to K$ from the 2-category of objects, adjunctions and mate-pairs in $K$ to $K$ that sends an adjunction $f \dashv u$ to $f$.  It is [[locally fully faithful 2-functor|locally fully faithful]], and moreover every $L f$ has a right adjoint in $K$ by definition; this gives the more traditional definition of a proarrow equipment.
 
 ## Examples
  {#Examples}
