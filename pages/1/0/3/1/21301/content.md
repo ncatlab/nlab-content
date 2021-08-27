@@ -101,12 +101,50 @@ A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] o
 
 ## References
 
+
+### Original articles
+
+The phenomenon of [[hadron supersymmetry]] was first noted and formalized (together with early classification of [[supersymmetry]] [[super Lie algebras]]) in:
+
+* {#Miyazawa66} [[Hironari Miyazawa]], _Baryon Number Changing Currents_, Prog. Theor. Phys. 36 (1966) 6, 1266-1276 ([spire:1235194](https://inspirehep.net/literature/1235194), [doi:10.1143/PTP.36.1266](https://doi.org/10.1143/PTP.36.1266))
+
+* {#Miyazawa68} [[Hironari Miyazawa]], _Spinor Currents and Symmetries of Baryons and Mesons_, Phys. Rev. 170, 1586 (1968) ([doi:10.1103/PhysRev.170.1586](https://doi.org/10.1103/PhysRev.170.1586))
+
+In view of [[diquark]] models:
+
+* [[Don B. Lichtenberg]], *Baryon Supermultiplets of $SU(6) \times O(3)$ in a Quark-Diquark Model*, Phys. Rev. **178** (1969) 2197 ([doi:10.1103/PhysRev.178.2197](https://doi.org/10.1103/PhysRev.178.2197))
+
+An argument that [[hadron supersymmetry]] is in fact implied by the [[constituent quark model]] in [[quantum chromodynamics]]:
+
+* {#CattoGuersey85} [[Sultan Catto]], [[Feza Gürsey]], _Algebraic treatment of effective supersymmetry_, Nuov Cim A 86, 201–218 (1985) ([doi:10.1007/BF02902548](https://doi.org/10.1007/BF02902548))
+
+* {#CattoGuersey88} [[Sultan Catto]], [[Feza Gürsey]], _New realizations of hadronic supersymmetry_, Nuov Cim A 99, 685–699 (1988) ([doi:10.1007/BF02730633](https://doi.org/10.1007/BF02730633))
+
+* [[Sultan Catto]], _Algebraic Realization of Quark-Diquark Supersymmetry_ ([arXiv:hep-th/9811069](https://arxiv.org/abs/hep-th/9811069), [spire:479005](https://inspirehep.net/literature/479005))
+
+* [[Sultan Catto]], Yasemin Gürcan, A. Khalfan, L. Kurt, B. Nicolescu, E. Yu, _Hadronic Supersymmetry from QCD_, Ukrainian Journal of Physics, Vol. 64 No. 8 (2019) ([doi:10.15407/ujpe64.8.672](https://doi.org/10.15407/ujpe64.8.672))
+
+* {#CGNY19} [[Sultan Catto]], Yasemin Gürcan, B. Nicolescu, E. Yu, _Effective Hadronic Supersymmetry from Quantum Chromodynamics_, Ukrainian Journal of Physics, Vol 64 No 12 (2019)  ([doi:10.15407/ujpe64.12.1096](https://doi.org/10.15407/ujpe64.12.1096))
+
+
+Formulation via [[octonions]]:
+
+* [[Sultan Catto]], Yasemin Gürcan, Amish Khalfan and Levent Kurt, _Algebraic formulation of hadronic supersymmetry based on octonions: new mass formulas and further applications_, Journal of Physics: Conference Series, Volume 563, XXII International Conference on Integrable Systems and Quantum Symmetries (ISQS-22) 23–29 June 2014, Prague, Czech Republic ([doi:10.1088/1742-6596/563/1/012006/meta](https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012006/meta))
+
+
+See also:
+
+* Čestmir Burdik, [[Sultan Catto]], Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
+
+
+
 ### Review
 
 Review of the original work [Miyazawa 66](#Miyazawa66), [Miyazawa 68](#Miyazawa68), [Catto-Gürsey 85](#CattoGuersey85), [Catto-Gürsey 88](#CattoGuersey88):
 
-* [[Don Lichtenberg]], _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.) _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer 1996 ([doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29))
+* Mauro Anselmino, Enrico Predazzi, Svante Ekelin, Sverker Fredriksson, [[Don B. Lichtenberg]], Chapter IX of: *Diquarks*, Rev. Mod. Phys. **65** (1993) 1199 ([doi:10.1103/RevModPhys.65.1199](https://doi.org/10.1103/RevModPhys.65.1199))
 
+* [[Don Lichtenberg]], _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.) _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer 1996 ([doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29))
 
 * {#Lichtenberg99} [[Don Lichtenberg]], _Whither Hadron Supersymmetry?_, Contribution to: _[International Conference on Orbis Scientiae 1999: Quantum Gravity, Generalized Theory of Gravitation and Superstring Theory Based Unification_ (28th Conference on High-Energy Physics and Cosmology Since 1964)](https://inspirehep.net/conferences/972660) (1999) 203-208
 ([arXiv:hep-ph/9912280](https://arxiv.org/abs/hep-ph/9912280), [spire:511339](https://inspirehep.net/literature/511339))
@@ -121,35 +159,23 @@ Review with emphasis on the formulation via [[holographic light front QCD]]:
 * [[Stanley Brodsky]], _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_, International Conference on Beauty, Charm and Hyperon Hadrons (BEACH 2018) 17–23 June 2018, Peniche, Portugal ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
 
-### Original articles
+### Exotic hadron phenomenology
 
-The phenomenon of [[hadron supersymmetry]] was first noted and formalized (together with early classification of [[supersymmetry]] [[super Lie algebras]]) in:
+Discussion of [[exotic hadron]]-[[phenomenology]] using broken [[hadron supersymmetry]]:
 
-* {#Miyazawa66} [[Hironari Miyazawa]], _Baryon Number Changing Currents_, Prog. Theor. Phys. 36 (1966) 6, 1266-1276 ([spire:1235194](https://inspirehep.net/literature/1235194), [doi:10.1143/PTP.36.1266](https://doi.org/10.1143/PTP.36.1266))
+* [[Don Lichtenberg]],  Renato Roncaglia, Enrico Predazzi, *Predicting exotic hadron masses from supersymmetry and a quark -- diquark model*, J. Phys. G: Nucl. Part. Phys. **23** (1997) 865 ([doi:10.1088/0954-3899/23/8/001](https://iopscience.iop.org/article/10.1088/0954-3899/23/8/001))
 
-* {#Miyazawa68} [[Hironari Miyazawa]], _Spinor Currents and Symmetries of Baryons and Mesons_, Phys. Rev. 170, 1586 (1968) ([doi:10.1103/PhysRev.170.1586](https://doi.org/10.1103/PhysRev.170.1586))
+* [[Harry J. Lipkin]], *Exotic Hadrons in the Constituent Quark Model*, Prog. Theor. Phys. Suppl. **168** (2007) 15-22 ([arXiv:hep-ph/0703190](https://arxiv.org/abs/hep-ph/0703190), [doi:10.1143/PTPS.168.15](https://doi.org/10.1143/PTPS.168.15))
 
-The argument that [[hadron supersymmetry]] is in fact implied by the [[constituent quark model]] in [[quantum chromodynamics]]:
+Specifically regarding [[tetraquarks]]:
 
-* {#CattoGuersey85} [[Sultan Catto]], [[Feza Gürsey]], _Algebraic treatment of effective supersymmetry_, Nuov Cim A 86, 201–218 (1985) ([doi:10.1007/BF02902548](https://doi.org/10.1007/BF02902548))
+* [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
 
-* {#CattoGuersey88} [[Sultan Catto]], [[Feza Gürsey]], _New realizations of hadronic supersymmetry_, Nuov Cim A 99, 685–699 (1988) ([doi:10.1007/BF02730633](https://doi.org/10.1007/BF02730633))
+  > (via [[holographic light front QCD]])
 
-* [[Sultan Catto]], _Algebraic Realization of Quark-Diquark Supersymmetry_ ([arXiv:hep-th/9811069](https://arxiv.org/abs/hep-th/9811069), [spire:479005](https://inspirehep.net/literature/479005))
+* M. A. Bedolla, J. Ferretti, C. D. Roberts, E. Santopinto, *Spectrum of fully-heavy tetraquarks from a diquark+antidiquark perspective* ([arXiv:1911.00960](https://arxiv.org/abs/1911.00960), [doi:10.1140/epjc/s10052-020-08579-3](https://doi.org/10.1140/epjc/s10052-020-08579-3))
 
-* [[Sultan Catto]], Yasemin Gürcan, A. Khalfan, L. Kurt, B. Nicolescu, E. Yu, _Hadronic Supersymmetry from QCD_, Ukrainian Journal of Physics, Vol. 64 No. 8 (2019) ([doi:10.15407/ujpe64.8.672](https://doi.org/10.15407/ujpe64.8.672))
-
-
-* {#CGNY19} [[Sultan Catto]], Yasemin Gürcan, B. Nicolescu, E. Yu, _Effective Hadronic Supersymmetry from Quantum Chromodynamics_, Ukrainian Journal of Physics, Vol 64 No 12 (2019)  ([doi:10.15407/ujpe64.12.1096](https://doi.org/10.15407/ujpe64.12.1096))
-
-
-
-
-
-
-
-
-
+  > (in view of [experimental results in 2021](tetraquark#ExperimentalDetection))
 
 
 
@@ -165,6 +191,8 @@ Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[sup
 
 * [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum_, Phys. Rev. D 92, 074010 (2015) ([arXiv:1504.05112](https://arxiv.org/abs/1504.05112))
 
+* [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], Section 4.2 of: *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
+
 
 * {#BTDL16}  [[Stanley Brodsky]], [[Guy de Téramond]], [[Hans Günter Dosch]], Cédric Lorcé, _Meson/Baryon/Tetraquark Supersymmetry from Superconformal Algebra and Light-Front Holography_, International Journal of Modern Physics AVol. 31, No. 19, 1630029 (2016) ([arXiv:1606.04638](https://arxiv.org/abs/1606.04638))
 
@@ -172,30 +200,13 @@ Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[sup
 
 * [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum II_, Phys. Rev. D 95, 034016 (2017) ([arXiv:1612.02370](https://arxiv.org/abs/1612.02370))
 
-* {#NielsenBrodsky18} [[Marina Nielsen]], [[Stanley Brodsky]], _Hadronic Superpartners from Superconformal and Supersymmetric Algebra_, Phys. Rev. D 97, 114001 (2018) ([arXiv:1802.09652](https://arxiv.org/abs/1802.09652))
+* {#NielsenBrodsky18} [[Marina Nielsen]], [[Stanley Brodsky]], _Hadronic Superpartners from Superconformal and Supersymmetric Algebra_, Phys. Rev. D 97, 114001 (2018) ([arXiv:1802.09652](https://arxiv.org/abs/1802.09652), [doi:10.1103/PhysRevD.97.114001](https://journals.aps.org/prd/references/10.1103/PhysRevD.97.114001))
 
 
 * [[Marina Nielsen]], [[Stanley Brodsky]], Guy F. de Téramond, [[Hans Günter Dosch]], Fernando S. Navarra, [[Liping Zou]], _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
 
-In view of [[tetraquarks]]:
 
 
-* [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
-
-
-
-
-### Via octonions
-
-Formulation via [[octonions]]:
-
-
-* [[Sultan Catto]], Yasemin Gürcan, Amish Khalfan and Levent Kurt, _Algebraic formulation of hadronic supersymmetry based on octonions: new mass formulas and further applications_, Journal of Physics: Conference Series, Volume 563, XXII International Conference on Integrable Systems and Quantum Symmetries (ISQS-22) 23–29 June 2014, Prague, Czech Republic ([doi:10.1088/1742-6596/563/1/012006/meta](https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012006/meta))
-
-
-See also:
-
-* Čestmir Burdik, [[Sultan Catto]], Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
 
 
 
