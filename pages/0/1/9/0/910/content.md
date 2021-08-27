@@ -96,13 +96,13 @@ Since the topology is determined by convergent sequences = maps from one-point [
 =-- 
 
 
-## Kaonization
+## k-Ification
 
 Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ denote the category of all topological spaces and $k$-continuous maps.  We have inclusions
 $$ k\Top \to \Top \to \Top_k $$
 of which the first is the inclusion of a [[full subcategory|full]] [[coreflective subcategory]], the second is [[bijective on objects functor|bijective on objects]], and the composite $k\Top \to Top_k$ is an [[equivalence of categories]].
 
-The [[coreflection]] $\Top \to k\Top$ is denoted $k$, and is sometimes (e.g. by [[M M Postnikov]]) also called **kaonization** and sometimes  **$k$-ification** ([May 1999, p. 49](#May99)).  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
+The [[coreflection]] $\Top \to k\Top$ is denoted $k$, and is also called **kaonization** ([Postnikov 1982, p. 34](#Postnikov82)) and sometimes  **$k$-ification** ([May 1999, p. 49](#May99)).  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
 
 In particular, the identity map $id:k(X)\to X$ is continuous, and forms the counit of the coreflection.  Thus this coreflection has a counit which is both [[monic]] and [[epic]], i.e. a "[[bimorphism]]"---such a coreflection is sometimes called a "bicoreflection."
 
@@ -168,7 +168,7 @@ where it is attributed to [[Witold Hurewicz]].
 
 Early textbook accounts assuming the Hausdorff condition:
 
-* [[John Kelley]], p. 230 in: _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
+* {#Kelley55} [[John Kelley]], p. 230 in: _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
 * [[James Dugundji]], Section XI.9 of: *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
@@ -197,7 +197,7 @@ The idea of generalizing compact generation to weakly Hausdorff spaces appears i
 
 where it is attributed to [[John C. Moore]].
 
-Review in this generality:
+Review in this generality of CG weakly Hausdorff spaces:
 
 * {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
 
@@ -208,9 +208,20 @@ Review in this generality:
 * [[Charles Rezk]], *Compactly Generated Spaces*, 2018 ([pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]])
 
 
+The terminology "kaonic spaces", or rather the Russian version "каонные пространства" is used in 
+
+* {#Postnikov71} [[M M Postnikov]], *Введение в теорию Морса*, Наука 1971 ([web](http://libgen.is/book/index.php?md5=4BF450585846A0531FF485E34D062C0A))
+
+* {#Postnikov82} [[M M Postnikov]], p. 34 of: *Лекции по алгебраической топологии. Основы теории гомотопий*, Наука 1982 ([web](http://libgen.is/book/index.php?md5=34A8C3C956EB80877F4E3CF5A297F514))
+
 Proof that k-spaces form a [[regular category]]:
 
 * {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
+
+Review  with focus on compactly generated [[topological G-spaces]] in [[equivariant homotopy theory]] and specifically [[equivariant bundle]]-theory:
+
+* [[Bernardo Uribe]], [[Wolfgang Lück]], Section 16 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
+
 
 
 See also:
@@ -233,9 +244,6 @@ See also:
 
 * {#Schwede12} [[Stefan Schwede]], section A.2 of _[[Symmetric spectra]]_ (2012)
 
-* [[Bernardo Uribe]], [[Wolfgang Lück]], Section 16 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
-
-  > (with focus on compactly generated [[topological G-spaces]] used in [[equivariant bundle]]-theory)
 
 
 
