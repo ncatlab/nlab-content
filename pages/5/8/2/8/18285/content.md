@@ -70,6 +70,10 @@ Textbook account:
 
 * [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
 
+For an exploration of atypical examples of ∞-cosmoi whose objects are 2-categories or bicategories
+
+* [[Emily Riehl]], Mira Wattal, _On ∞-cosmoi of bicategories_ ([arXiv:2108.11786](https://arxiv.org/abs/2108.11786))
+
 
 [[!redirects infinity-cosmoi]]
 
