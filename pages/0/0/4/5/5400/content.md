@@ -48,7 +48,7 @@ A [[W\*-module]] over a factor $A$ is _finite_ if it is not isomorphic to its pr
 
 Type I factors are characterized by the condition that the K-theory of finite modules
 is isomorphic to $\mathbf{Z}$, the group of integers.
-The only factors of this type are of the from $B(H)$, bounded operators on a Hilbert spacre~$H$.
+The only factors of this type are of the from $B(H)$, bounded operators on a Hilbert space $H$.
 
 ### Type II
 
