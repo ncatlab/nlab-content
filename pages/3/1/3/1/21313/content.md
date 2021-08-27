@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the [[running coupling constant]] in [[QCD]]:
+
+* [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
+
+
 On [[light-front quantization]] of [[QCD]]:
 
 * [[Stanley Brodsky]], H-C Pauli, S. Pinsky, _Quantum Chromodynamics and Other Field Theories on the Light Cone_, Phys. Rept. 301:299-486, 1998 ([arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477))
