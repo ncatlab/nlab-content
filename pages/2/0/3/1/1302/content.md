@@ -123,7 +123,7 @@ For a very explicit statement of this see for instance [page 13](http://arxiv.or
 
 See also a very precise and detailed treatment in 
 
-* [[Dmitri Orlov]], _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
+* [[Dmitri Orlov]], _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003, __67__:3, 119&#8211;138 (preprint versions: [pdf](http://web.archive.org/web/20210506231653/http://www.mi-ras.ru/~orlov/papers/NST.pdf) [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
 
 ###Direct definition for presheaves of sets on Aff {#AsSheavesII} 
@@ -535,6 +535,10 @@ Their [[descent]] properties are discussed in
 and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher context is discussed in 
 
 * [[Jacob Lurie]], _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
+
+On a geometric stack
+
+* Leovigildo Alonso Tarrío, Ana Jeremías López, Marta Pérez Rodríguez, María J. Vale Gonsalves, _A functorial formalism for quasi-coherent sheaves on a geometric stack_, Expositiones Mathematicae __33__:4 (2015) 452-501 [doi](https://doi.org/10.1016/j.exmath.2014.12.007)
 
 category: algebraic geometry
 
