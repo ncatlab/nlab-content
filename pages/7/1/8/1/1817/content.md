@@ -14,6 +14,9 @@ Introducing [[Postnikov systems]]:
 
 * [[M. M. Postnikov]], _Issledovaniya po gomotopičeskoĭ teorii nepreryvnyh otobraženiĭ. I. Algebraičeskaya teoriya sistem. II. Naturalʹnaya sistema i gomotopičeskiĭ tip_. (Russian) $[$_Investigations in homotopy theory of continuous mappings. I. The algebraic theory of systems. II. The natural system and homotopy type._$]$ Trudy Mat. Inst. Steklov. no. 46. Izdat. Akad. Nauk SSSR, Moscow, 1955. ([mathnet:tm1182](http://mi.mathnet.ru/eng/tm1182))
 
+## Related $n$Lab entries
+
+* [[compactly generated topological space]]
 
 
 category: people
