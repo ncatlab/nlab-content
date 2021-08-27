@@ -14,6 +14,18 @@ Then the following are equivalent:
 
 1. $P \to X$ is an [[effective epimorphism]].
 
+***
+
+\linebreak
+
+- $G$-fixed-wise contractibility of $Maps(\mathbf{E}G,\mathbf{E}\Gamma)$ follows from $G$-equivariant contraction of $\mathbf{E}\Gamma$
+
+- the universal equivariant principal $\infty$-bundle is $\ast \longrightarrow Maps(\mathbf{E}G, \mathbf{B}\Gamma)$ and the point is that the base space is pointed, but no longer pointed connected -- but the universal bundle is still that point inclusion (meaning that all other fibers are empty, as admissible for a formally principal bundle)
+
+
+\linebreak
+
+***
 
 \end{proposition}
 \begin{proof}
