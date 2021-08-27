@@ -16,9 +16,14 @@
 
 ## Idea 
 
-A [[topological space]] is _compactly generated_ if (in a certain sense) the continuous images in it of all [[compact Hausdorff space]]s tell you everything about its topology.
+{#IsCalled} A [[topological space]] is called _compactly generated_ 
+-- also called a
+"k-space"[^1] ([Gale 1950, 1.](#Gale50)),
+"Kelley space" ([Gabriel & Zisman 1967, III.4](#GabrielZisman67)), or
+"kaonic space" ([Postnikov 1982, p. 34](#Postnikov82)) --
+if its topology is detected by the [[continuous map|continuous]] [[images]] of [[compact Hausdorff spaces]] inside it.
 
-Compactly generated spaces form a [[convenient category of topological spaces]].
+Compactly generated spaces form a [[convenient category of topological spaces]] ([Steenrod 1967](#Steenrod67)) and as such have come to be commonly used in the foundations of [[algebraic topology]] and [[homotopy theory]], especially in their modern form as compactly generated *weakly Hausdorff* spaces ([McCord 1969](#McCord69)).
 
 
 ## Definitions 
@@ -36,7 +41,6 @@ continuous if and only if $f$ is $k$-continuous.
 
 A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t\colon C\to X$ is closed (when $C$ is compact Hausdorff).  Some authors (especially the early authors on the subject) go on to require a [[Hausdorff space|Hausdorff]] space, but this seems to be unnecessary.
 
-Sometimes $k$-spaces are called __Kelley spaces__, after [[John Kelley]], who studied them extensively; however, they predate him and the '$k$' does not stand for his name but probably it comes from the German word *kompakt*.
 
 
 ## Examples
@@ -102,7 +106,10 @@ Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ 
 $$ k\Top \to \Top \to \Top_k $$
 of which the first is the inclusion of a [[full subcategory|full]] [[coreflective subcategory]], the second is [[bijective on objects functor|bijective on objects]], and the composite $k\Top \to Top_k$ is an [[equivalence of categories]].
 
-The [[coreflection]] $\Top \to k\Top$ is denoted $k$, and is also called **kaonization** ([Postnikov 1982, p. 34](#Postnikov82)) and sometimes  **$k$-ification** ([May 1999, p. 49](#May99)).  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
+{#TheCoreflection} The [[coreflection]] $\Top \to k\Top$ is usually denoted $k$, also called *$k$-ification* ([May 1999, p. 49](#May99)) or, more recently, *kaonization* ([Kornell 2018](https://arxiv.org/abs/1811.01922)).
+
+
+This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
 
 In particular, the identity map $id:k(X)\to X$ is continuous, and forms the counit of the coreflection.  Thus this coreflection has a counit which is both [[monic]] and [[epic]], i.e. a "[[bimorphism]]"---such a coreflection is sometimes called a "bicoreflection."
 
@@ -161,7 +168,7 @@ The category of compactly generated [[Hausdorff spaces]] is a [[regular category
 
 The idea of compactly generated spaces appears first, assuming the Hausdorff condition, in:
 
-* David Gale, Section 1 of: _Compact Sets of Functions and Function Rings_,
+* {#Gale50} David Gale, Section 1 of: _Compact Sets of Functions and Function Rings_,
 Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf), [doi:10.2307/2032373](https://doi.org/10.2307/2032373), [jstor:2032373](https://www.jstor.org/stable/2032373))
 
 where it is attributed to [[Witold Hurewicz]].
@@ -176,7 +183,7 @@ Early textbook accounts assuming the Hausdorff condition:
 
 Influential emphasis of the usefulness of the notion as providing a [[convenient category of topological spaces]]:
 
-* {#Steenrod} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
+* {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
 
 Early discussion in the context of [[geometric realization of simplicial topological spaces]]:
 
@@ -193,7 +200,7 @@ More history and early references, with emphasis on [[category theory|category-t
 
 The idea of generalizing compact generation to weakly Hausdorff spaces appears in:
 
-* [[Michael C. McCord]], Section 2 of: *Classifying Spaces and Infinite Symmetric Products*, Transactions of the American Mathematical Society, Vol. 146 (Dec., 1969), pp. 273-298  ([jstor:1995173](https://www.jstor.org/stable/1995173), [pdf](https://www.ams.org/journals/tran/1969-146-00/S0002-9947-1969-0251719-4/S0002-9947-1969-0251719-4.pdf))
+* {#McCord69} [[Michael C. McCord]], Section 2 of: *Classifying Spaces and Infinite Symmetric Products*, Transactions of the American Mathematical Society, Vol. 146 (Dec., 1969), pp. 273-298  ([jstor:1995173](https://www.jstor.org/stable/1995173), [pdf](https://www.ams.org/journals/tran/1969-146-00/S0002-9947-1969-0251719-4/S0002-9947-1969-0251719-4.pdf))
 
 where it is attributed to [[John C. Moore]].
 
@@ -245,6 +252,7 @@ See also:
 * {#Schwede12} [[Stefan Schwede]], section A.2 of _[[Symmetric spectra]]_ (2012)
 
 
+[^1]: The reason for  choosing the term "k-space" in [Gale 1950](#Gale50) seems to be lost in history. The "k" is not for "Kelley", as [Kelley 1955](#Kelley55) came later. It might have been an allusion to the German word *kompakt*.
 
 
 
@@ -263,10 +271,11 @@ See also:
 
 [[!redirects k-space]]
 [[!redirects k-spaces]]
+
+[[!redirects Kelley space]] 
+[[!redirects Kelley spaces]]
+
 [[!redirects kaonization]]
 [[!redirects kaonizations]]
 [[!redirects kaonisation]]
 [[!redirects kaonisations]]
-[[!redirects Kelley space]] 
-[[!redirects Kelley spaces]]
-
