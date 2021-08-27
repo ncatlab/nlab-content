@@ -255,7 +255,8 @@ Gentle introductions include
 
 * [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
 
-* [[Andrej Bauer]], _Five Stages of Accepting Constructive Mathematics_, talk at IAS March 18, 2013  ([video](http://video.ias.edu/members/1213/0318-AndrejBauer)), Bull. Amer. Math. Soc., 2016 ([publisher](http://www.ams.org/journals/bull/0000-000-00/S0273-0979-2016-01556-4/home.html))
+* [[Andrej Bauer]], _Five Stages of Accepting Constructive Mathematics_, 
+Bull. Amer. Math. Soc. 54 (2017), 481-498 ([pdf](http://dx.doi.org/10.1090/bull/1556)]. See also a talk at IAS March 18, 2013  ([video](http://video.ias.edu/members/1213/0318-AndrejBauer)).
 
 * [[Fred Richman]], _[Interview with a constructive mathematician](http://math.fau.edu/richman/docs/intrview.html)_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
 
