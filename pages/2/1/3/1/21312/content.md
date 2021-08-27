@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On the [[running coupling constant]] in [[QCD]]:
+
+* [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
+
+
 Introducing [[holographic light front QCD]]:
 
 * [[Guy de Teramond]], [[Stanley Brodsky]], _Light-Front Holography: A First Approximation to QCD_, Phys. Rev. Lett. 102:081601, 2009 ([arXiv:0809.4899](https://arxiv.org/abs/0809.4899))
