@@ -74,6 +74,8 @@ Now we claim that any two morphisms $f,g:S\to X$ with domain $S$ are equivalent.
 Finally, since $0$ is a strict initial object, $0\to S$ is monic.  And of course $1_S : S\to S$ is also monic, and these two monomorphisms are classified by two maps $f,g:S\to \Omega$ into the subobject classifier.  By the previous paragraph, $f\simeq g$, hence $S\cong 0$ and is initial.
 =--
 
+In fact, disjoint binary coproducts can actually be constructed from local cartesian closure and the subobject classifier; see [FreyRasekh](#FreyRasekh).  This is similar to the fact that the finite colimits in an [[elementary topos]] can be constructed from the rest of the structure, but it is unclear whether it can be generalized beyond coproducts in the infinite-dimensional case.  In particular, it is shown in [FreyRasekh](#FreyRasekh) that local cartesian closure and the subobject classifier do *not* suffice to construct pushouts; the $\infty$-category of truncated spaces is a counterexample.
+
 +-- {: .num_theorem}
 ###### Theorem
 For any finite family of morphisms $\{f_i : Y_i \to X_i\}_{i\in I}$, there exists a universe classifying all the $f_i$.
@@ -182,6 +184,10 @@ The construction of $n$-truncations without recursive HITs is in
 The construction of natural numbers from propositional resizing and univalence is in
 
 * {#ConstructingNat} HoTT/Coq library, <https://github.com/HoTT/HoTT/blob/master/theories/PropResizing/Nat.v>
+
+The construction of coproducts from local cartesian closure and the subobject classifier is in
+
+* {#FreyRasekh} [[Jonas Frey]] and [[Nima Rasekh]], _Constructing Coproducts in locally Cartesian closed ∞-categories_, [arxiv](https://arxiv.org/abs/2108.11304), 2021
 
 Results holding for elementary (∞,1)-toposes:
 
