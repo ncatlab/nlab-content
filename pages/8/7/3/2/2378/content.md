@@ -328,14 +328,21 @@ identification on the bottom right mapping space out of the point space.
 
 ## References
 
-* Ralph H. Fox, _On Topologies for Function Spaces_
-, Bull. AMS **51** (1945) pp.429-432. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.bams/1183506987))
+Textbook accounts:
+
+* [[Francis Borceux]], Sections 7.1 & 7.2 of: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Sections 1.2, 1.3 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+See also:
+
+* Wikipedia, *[Compact-open topology](http://en.wikipedia.org/wiki/Compact-open_topology)*
+
+* Ralph H. Fox, _On Topologies for Function Spaces_, Bull. AMS **51** (1945) pp.429-432. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.bams/1183506987))
 
 * Eva Lowen-Colebunders, G&#252;nther Richter, _An Elementary Approach to Exponential Spaces_, Applied Categorical Structures May 2001, Volume 9, Issue 3, pp 303-310 ([publisher](http://link.springer.com/article/10.1023%2FA%3A1011268007097))
 
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, sections 1.2, 1.3 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Compact-open_topology)
 
 
 [[!redirects compact open topology]]
