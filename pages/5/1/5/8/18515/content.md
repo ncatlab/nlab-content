@@ -3196,6 +3196,9 @@ and shown to be equivalent to the definition in terms of singular structure in
 
 * {#Radzikowski96} [[Marek Radzikowski]], _Micro-local approach to the Hadamard condition in quantum field theory on curved space-time_, Commun. Math. Phys. 179 (1996), 529&#8211;553 ([Euclid](http://projecteuclid.org/euclid.cmp/1104287114))
 
+A gap in the Kay-Wald definition of Hadamard states and in the equivalence with Radzikowski's formulation has been discussed and closed in 
+
+* {#Moretti121} [[Valter Moretti]], _On the global Hadamard condition in QFT and the signed squared geodesic distance defined in domains larger than convex normal neighbourhoods_, Lett. Math. Phys. 2021 ([arXiv:2107.04903](https://arxiv.org/abs/2107.04903))
 
 Hadamard states with [[smooth function|smooth]] dependence on the [[mass]] square (needed for [[dimensional regularization]] methods in [[causal perturbation theory]]/[[perturbative AQFT]]) are constructed in
 
