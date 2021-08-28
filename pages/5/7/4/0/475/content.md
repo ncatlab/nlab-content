@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -57,17 +57,20 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 ## References
 
-The original source is
+The original source:
 
 * [[Robert Gordon]], [[John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 
 
-This was refined in the thesis
+refined in:
 
 * [[Nick Gurski]], _An algebraic theory of tricategories_ ([pdf](http://gauss.math.yale.edu/~mg622/tricats.pdf))
 
-which is probably the best current starting point to read about tricategories and from where to take pointers to the original work by Gordon-Power-Street.
+See also:
 
-* [[Richard Garner]], [[Nick Gurski]], _The low-dimensional structures that tricategories form_ ([arXiv](http://arxiv.org/abs/0711.1761))
+Textbook account:
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 11.2 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
 
 A discussion of [[monoidal category|monoidal]] tricategories, regarded by the discussion at [[k-tuply monoidal (n,r)-category]] as one-object [[tetracategories]], is in section 3 of
 
@@ -75,7 +78,10 @@ A discussion of [[monoidal category|monoidal]] tricategories, regarded by the di
 
 See also
 
-* Peter Guthmann, _The tricategory of formal composites and its strictification_, [arXiv:1903.05777](https://arxiv.org/abs/1903.05777)
+* [[Richard Garner]], [[Nick Gurski]], *The low-dimensional structures that tricategories form* ([arXiv:0711.1761](http://arxiv.org/abs/0711.1761))
+
+
+* Peter Guthmann, _The tricategory of formal composites and its strictification_ ([arXiv:1903.05777](https://arxiv.org/abs/1903.05777))
 
 
 
