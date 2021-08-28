@@ -4,7 +4,9 @@
 
 ## Selected writings
 
-On [[exponential objects]] among [[topological spaces]]:
+On [[exponential objects]] among [[topological spaces]] and [[compactly generated topological spaces]]:
+
+* [[Susan Niefield]], *Cartesianness*, PhD thesis, Rutgers 1978 ([proquest:302920643](https://www.proquest.com/docview/302920643))
 
 * {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167 (<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>, [pdf](https://core.ac.uk/download/pdf/81936509.pdf))
 
