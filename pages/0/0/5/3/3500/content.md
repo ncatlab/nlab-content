@@ -18,5 +18,5 @@ One of the series of Grothendieck's works is [[FGA]] (see entry [[EGA]] for over
 
 See the [conference page](http://indico.ictp.it/event/a0255/other-view?view=ictptimetable) for scans of the lecture notes.
 
-category: references
+category: reference
 
