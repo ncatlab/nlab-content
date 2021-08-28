@@ -4,6 +4,12 @@ __Gregory Maxwell Kelly__ (1930-2007) was a category theorist, the founder of th
 
 ## Selected writings
 
+
+On [[limits]] and [[colimits]] and [[exponential objects]] in the [[category]] [[Top]] of [[topological spaces]]:
+
+* {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 - 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
+
+
 On [[enriched category theory]]:
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982)
