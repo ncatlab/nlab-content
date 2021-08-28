@@ -18,7 +18,7 @@ On [[exponential objects]] among [[internal groupoids]] in [[Top]] ([[topologica
 * [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
 
 
-
+category: people
 
 [[!redirects D. Pronk]]
 [[!redirects Dorette A. Pronk]]
