@@ -671,11 +671,14 @@ A [[representable functor]] $C(-,X) :  C^{op} \to Set \hookrightarrow Cat$ maps 
 
 ## References
 
-Standard references are  in
+Textbook accounts:
 
-* sections A1.1.7, B1.3.1 of [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], sections A1.1.7, B1.3.1 of:  _[[Sketches of an Elephant]]_
+ 
 * [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_, pp. 1--104 of [[FGA explained]]; [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512).
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 10 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
 
 The [[geometric realization of categories|geometric realization]] of Grothendieck constructions has been analyzed in
 
