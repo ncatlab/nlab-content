@@ -54,6 +54,9 @@ $$ (M \langle x\coloneqq N\rangle) \langle y\coloneqq P\rangle \to M \langle x\c
 
 Apparently for a long time it was hoped that this would work, but [Mellies](#Mellies) showed that it doesn't: explicit simultaneous substitutions with a rule of this sort also yield infinite reduction sequences.  Note that Mellies worked with a de Bruijn version, so his rules look somewhat different; a version of the counterexample using named variables can be found in [Bloo-Rose](#BlooRose), along with a proof that without any way to "combine substitutions" strong normalization is preserved.
 
+## Categorical Models of Explicit Substitutions
+
+The original calculus of explicit substitutions, considered as a type theory, can be given sound and complete categorical models, in terms of indexed categories. This explicit substitutions construction is parametric in the kind of logic that your terms stand for: the Calculus of Constructions [Ritter] (#Ritter), Intuitionistic Linear Logic [Ghani2000] (#Ghani2000) and propositional Constructive Necessity [Ghani1998] (#Ghani1998) can be given formalizations in terms of explicit substitutions calculi, which helps to show the correctness of the implementation of these type theories.
 
 ## The linear substitution calculus
 
@@ -77,6 +80,12 @@ The LSC has found applications in:
 
 * Roel Bloo and Kristoffer H. Rose, *Preservation of Strong Normalisation in Named Lambda Calculi with Explicit Substitution and Garbage Collection*.  In CSN-95: Computer Science in the Netherlands 1995, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5026)
  {#BlooRose}
+
+* Eike Ritter, *Categorical abstract machines for higher-order typed lambda calculi*, Theoretical Computer Science, vol 136, p.125–162, 1994.
+
+* Neil Ghani, Valeria de Paiva and Eike Ritter, *Linear Explicit Substitutions*, Journal of the IGPL, Vol, 8(1), pp.7-31, 2000.
+
+* Neil Ghani, Valeria de Paiva and Eike Ritter, *Explicit substitutions for constructive necessity*, In Larsen, Kim G. and Skyum, Sven and Winskel, Glynn (eds.), Automata, Languages and Programming, 1998.
 
 The linear substitution calculus is discussed in:
 
