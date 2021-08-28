@@ -12,6 +12,8 @@ Valter Moretti is a mathematical physicists who deals with several mathematical 
 
 * [[Gleason's theorem]]
 
+* [[Hadamard distribution]]
+
 * [[spectral theory]]
 
 * [[quaternionic quantum mechanics]]
