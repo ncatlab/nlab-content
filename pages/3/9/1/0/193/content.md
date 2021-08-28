@@ -194,6 +194,9 @@ Chasing the element $1_{R(d)}$ down and then across, we get $f: c \to R(d)$ and 
 For the basics, see any text on [[category theory]] (and see the references at _[[adjoint functor]]_), for instance:
 
 * {#Borceux94} [[Francis Borceux]], Vol 1, Section 3 of _[[Handbook of Categorical Algebra]]_
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 6 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
  
 * _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
 
