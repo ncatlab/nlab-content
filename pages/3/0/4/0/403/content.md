@@ -398,9 +398,6 @@ The original proofs that the category of internal categories is [[cartesian clos
 
 * {#BastianiEhresmann_69} [[Andrée Bastiani]], [[Charles Ehresmann]], _Catégories de foncteurs structurés_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, 11 no. 3 (1969), p. 329-384 ([numdam:CTGDC_1969__11_3_329_0](http://www.numdam.org/item?id=CTGDC_1969__11_3_329_0))
  
-
-and in 
-
 * {#BastianiEhresmann_72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 13 no. 2 (1972), p. 104-214 ([Numdam](http://www.numdam.org/item?id=CTGDC_1972__13_2_104_0))
 
 See also:
@@ -408,13 +405,19 @@ See also:
 * [[Enrico Ghiorzi]], Section 1.2 of: *Complete internal categories* ([arXiv:2004.08741](https://arxiv.org/abs/2004.08741))
 
 
-Discussion in terms of [[monads]] in [[spans]] is in 
+Discussion in terms of [[monads]] in [[spans]]:
 
 * Renato Betti, _Formal theory of internal categories_, Le Matematiche Vol. LI (1996) Supplemento 35-52 [pdf](http://www.dmi.unict.it/ojs/index.php/lematematiche/article/view/456/427)
 
-A detailed discussion with emphasis on the correct [[anafunctor]] morphisms between internal categories is in 
 
-* [[David Roberts]], _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
+Discussion of the [[canonical model structure]] on categories of internal categories:
+
+* T. Everaert, R.W. Kieboom, [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
+
+Discussion of [[localization]] and [[anafunctors]] between internal categories:
+
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [tac:26-29](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
+
  
 
 An old discussion on variants of internal categories, crossed modules and 2-groups is archived [here](http://nforum.mathforge.org/discussion/621/internal-category/?Focus=29967#Comment_29967).
