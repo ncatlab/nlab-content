@@ -22,9 +22,7 @@
 
 ## Idea
 
-The naive [[2-category]] $Cat(S)$ of [[internal categories]] in a category $S$ does not have enough [[equivalences]] in general, due to the failure of the [[axiom of choice]] in $S$. The [[functors]] which _should_ be equivalences are called **weak equivalences**, and one often works with the [[bicategory of fractions|localisation]] of $Cat(S)$ at the weak equivalences. Roughly speaking, a weak equivalence is a functor which is 'fully faithful' and 'essentially surjective', but these terms need to be interpreted appropriately.
-
-The concept of weak equivalences first arose in work of Bunge and Par&#233; on stack completions of internal categories.
+The naive [[2-category]] $Cat(S)$ of [[internal categories]] [[internalization|in]] an ambient [[category]] $S$ does in general not have enough [[equivalences of categories]], due to the failure of the [[axiom of choice]] in $S$. Those [[internal functors]] which *should* but may not have [[inverses]] up to internal [[natural isomorphism]], namely those which are suitably [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]], may be regarded as [[weak equivalences]] of internal categories ([Bunge & Paré 1979](#BungePare79)). The [[bicategory of fractions|2-category theoretic localisation]] of $Cat(S)$ at this class of [[1-morphisms]] then serves as a more natural [[2-category]] of [[internal categories]].
 
 ## Definition
 
@@ -54,7 +52,12 @@ We then define an internal functor to be a **$J$-equivalence** if it is fully fa
 
 ## References
 
-* M. Bunge, R. Par&#233;, _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 4 (1979), p. 373-399 [NUMDAM](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)
-* [[T. Everaert]], [[R.W.Kieboom]] and [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories 15 (2005), no. 3, 66-94. ([journal](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html))
+* {#BungePare79} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 4 (1979), p. 373-399 ([numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
+
+* [[Tomas Everaert]], [[R.W.Kieboom]] and [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories 15 (2005), no. 3, 66-94. ([journal](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html))
+
 * [[David Roberts]], _Internal categories, anafunctors and localisation_, Theory and Applications of Categories, 26 (2012) No. 29, pp 788-829. ([journal](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html))
  
+
+[[!redirects weak equivalences of internal categories]]
+
