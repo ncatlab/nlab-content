@@ -57,6 +57,9 @@ and inverses are given by swapping the two entries, $(h_0,h_1)^{-1} = (h_1,h_0)$
 
 * [[n-groupoid]], [[infinity-groupoid]]
 
+## References
+
+See the references at *[[strict 2-category]]*.
 
 
 [[!redirects strict 2-groupoid]]
