@@ -1719,13 +1719,19 @@ A motivation and introduction of the concept of groupoid and a tour of examples 
 
 Further exposition:
 
-* [[Ronnie Brown]], _From groups to groupoids: A brief survey_ at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf), Bulletin of the London Mathematical Society 19(2):113-134, [doi](https://doi.org/10.1112/blms/19.2.113)
+* [[Ronnie Brown]], _From groups to groupoids: A brief survey_, at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf), Bulletin of the London Mathematical Society 19(2):113-134, [doi](https://doi.org/10.1112/blms/19.2.113)
 
 * [[Introduction to Topology -- 2]], *[Groupoids](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+2#Groupoid)*
 
 * Alberto Santini, *Topological groupoids* ([pdf](http://web.math.ku.dk/~moller/students/alberto.pdf))
 
   > (about groupoids in [[topology]], notably [[fundamental groupoids]] -- not about [[topological groupoids]])
+
+With an eye towards [[homotopy theory]]:
+
+* {#Richter19} [[Birgit Richter]], Section 1.2 of: _From categories to homotopy theory_, Cambridge Studies in Advanced Mathematics 188, Cambridge University Press 2020 ([doi:10.1017/9781108855891](https://doi.org/10.1017/9781108855891), [book webpage](https://www.math.uni-hamburg.de/home/richter/catbook.html), [pdf](https://www.math.uni-hamburg.de/home/richter/bookdraft.pdf))
+
+
 
 See also:
 
