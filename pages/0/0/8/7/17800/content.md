@@ -1,13 +1,25 @@
-# Covert space
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+# Covert space
 * table of contents
 {: toc}
 
 ## Idea
 
-A **covert space** is a [[space]] $X$ such that the unique map $X\to 1$ to the [[terminal object|terminal]] space is a [[closed map]].  This should be compared with [[overt spaces]], where $X\to 1$ is an [[open map]], and [[compact spaces]], where $X\to 1$ is a [[proper map]].  Since proper maps are closed, all compact spaces are covert.
+A **covert space** is a [[topological space]] $X$ such that the unique [[map]] $X\to 1$ to the [[terminal object|terminal]] [[point space]] is a [[closed map]].  
 
-In [[classical mathematics]], every space is covert, just as every space is overt.  However, in [[constructive mathematics]], and in particular in [[synthetic topology]], covertness can be a strong condition that already carries much of the power of compactness.
+This should be compared with [[overt spaces]], where $X\to 1$ is an [[open map]], and [[compact spaces]], where $X\to 1$ is a [[proper map]].  Since proper maps are closed, all compact spaces are covert.
+
+In [[classical mathematics]], every topological space is covert, just as every space is overt.  However, in [[constructive mathematics]], and in particular in [[synthetic topology]], covertness can be a strong condition that already carries much of the power of [[compact topological space|compactness]].
 
 ## Definition
 
@@ -46,15 +58,14 @@ Contrary to a remark in [[Sketches of an Elephant]], this condition implies that
 
 ## References
 
-* [[Eduardo Dubuc]] and [[Jacques Penon]], *Objets compacts dans les topos*,
+* {#DubucPenon} [[Eduardo Dubuc]] and [[Jacques Penon]], *Objets compacts dans les topos*,
   Journal of the Australian Mathematical Society. Series A.
   Pure Mathematics and Statistics, 40(2), 1986, p. 203–217.
   doi:[10.1017/S144678870002718X](https://dx.doi.org/10.1017/S144678870002718X)
- {#DubucPenon}
+ 
 
-* Vermeulen, *Proper maps of locales*, Journal of Pure and Applied Algebra, 92, 1994, p. 79–107.
-  [pdf (core.ac.uk)](https://core.ac.uk/download/pdf/82053693.pdf)
- {#Vermeulen}
+* {#Vermeulen} Vermeulen, *Proper maps of locales*, Journal of Pure and Applied Algebra, 92, 1994, p. 79–107. ([pdf (core.ac.uk)](https://core.ac.uk/download/pdf/82053693.pdf))
+ 
 
 [[!redirects covert spaces]]
 [[!redirects covert sets]]
