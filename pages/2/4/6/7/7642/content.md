@@ -55,6 +55,6 @@ We then define an internal functor to be a **$J$-equivalence** if it is fully fa
 ## References
 
 * M. Bunge, R. Par&#233;, _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 4 (1979), p. 373-399 [NUMDAM](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)
-* T. Everaert, R. W. Kieboom and T. Van der Linden, _Model structures for homotopy of internal categories_, Theory and Applications of Categories 15 (2005), no. 3, 66-94. ([journal](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html))
+* [[T. Everaert]], [[R.W.Kieboom]] and [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories 15 (2005), no. 3, 66-94. ([journal](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html))
 * [[David Roberts]], _Internal categories, anafunctors and localisation_, Theory and Applications of Categories, 26 (2012) No. 29, pp 788-829. ([journal](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html))
  
