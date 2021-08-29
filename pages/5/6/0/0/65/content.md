@@ -105,7 +105,8 @@ A more elementary writeup of the proof is in
 
 A general [[internalization|internal]] version relative to a Grothendieck [[coverage]] can be found in
 
-* T. Everaert, R.W. Kieboom, [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
+* [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
+
     
 though it seems that the assumptions in this article apply to ambient categories that are [[semiabelian categories]], but do not apply to ambient categories like [[Top]].
 
