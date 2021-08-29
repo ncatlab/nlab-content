@@ -21,14 +21,18 @@
 
 ## Idea 
 
-In general, a _2-limit_ is the sort of limit appropriate in a (weak) [[2-category]].  See [[2-limit]] for details.  However, when we happen to be in a [[strict 2-category]] we also have another notion at our disposal.  Since strict 2-categories are just categories  [[enriched category|enriched]] over [[Cat]], we can apply the usual notions of [[weighted limit]]s in enriched categories verbatim.  (Historically, these were called _2-limits_ while the up-to-isomorphism limits were called _bilimits_.)
+In general, a _[[2-limit]]_ is the sort of [[limit]] appropriate in a (weak) [[2-category]].  However, when we happen to be in a [[strict 2-category]] we also have another notion at our disposal:
 
-Because enriched category theory doesn't know anything about the 2-categorical nature of Cat, the resulting limits can have cones that commute strictly and have universal properties expressed by isomorphisms of categories; thus they can violate the [[principle of equivalence]].  However, such strict limits often turn out to be technically useful even if we are fundamentally only interested in the non-strict notions, since in many strict 2-categories we can use tools of enriched category theory to construct strict limits, and then by considering suitably strict limits in accord with the [[principle of equivalence]] we can construct (non-strict) limits.  This is reminiscent of the use of strict structures in [[homotopy theory]] as a tool to get at weak ones, and in fact a precise comparison can be made (see below).
+Since strict 2-categories are equivalently categories [[enriched category|enriched]] over [[Cat]] (i.e. over the [[very large category|very large]] [[1-category]] of [[categories]] with [[functors]] between them), we can apply the usual notions of [[weighted limits]] in [[enriched categories]] verbatim to speak of certain 2-limits ([Street 1976](#Street76), [Kelly 1989](#Kelly89)). Here we refer to these [[Cat]]-[[enriched category|enriched]] [[weighted limits]] as *strict 2-limits*.  (Beware that, historically, these were called _2-limits_ while the properly 2-category-theoretic limits were called _bilimits_.)
+
+Because [[enriched category theory]] doesn't know anything about the [[2-category theory|2-category theoretic]] nature of [[Cat]], the resulting *strict 2-limits* can have [[cones]] that [[commuting diagram|commute]] strictly and have [[universal properties]] expressed by [[isomorphisms]] of categories (instead of [[equivalences of categories]]); thus they can violate the [[2-category theory|2-category theoretic]] [[principle of equivalence]].  
+
+However, strict 2-limits often turn out to be technically useful even if one is ultimately interested only in weak 2-limits, since in many situations strict 2-limits may serve as stepping stones for the constrction of weak [[2-limits]].  This is reminiscent of the use of strict structures in [[homotopy theory]] as a tool to get at weak ones, and in fact a precise comparison can be made (see below).
 
 
 ## Classification 
 
-By a **limit** we will mean the fully 2-categorical notion described at [[2-limit]], in which cones commute up to isomorphism and the universal property is expressed by an equivalence of categories.
+By a **limit** we will mean the fully 2-categorical notion described at [[2-limit]], in which cones [[commuting diagram|commute]] up to invertible [[2-morphisms]] and the [[universal property]] is expressed by an [[equivalence of categories]].
 
 +-- {: .query}
 It just occured to me that 'strict initial object' conflicts with this.  But unlike 'weak limit', that doesn't generalise very far.
@@ -36,7 +40,7 @@ It just occured to me that 'strict initial object' conflicts with this.  But unl
 Heh, you're right.  I suppose we could try calling strict initial objects _stable initial objects_, which would make more sense anyway since they are really the 0-ary version of a stable coproduct.  But there's probably not likely to be any real confusion created by the two uses of strict.
 =--
 
-* A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may violate the [[principle of equivalence]].  (cf. [[red herring principle]].)
+* A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched [[weighted limit]].  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may violate the [[principle of equivalence]].  (cf. [[red herring principle]].)
 
 * A **pseudo limit** (or _strict pseudo limit_ if it is necessary to emphasize the strictness) is a limit whose cones commute up to coherent 2-cell isomorphism, but whose universal property can still be expressed by an _isomorphism_ of categories.  For any weight $W$, there is another weight $W'$ (a [[cofibrant replacement]] of $W$) such that pseudo $W$-weighted limits are equivalent to strict $W'$-weighted ones.  The idea is that $W'$ includes explicitly all the extra isomorphisms in a pseudo $W$-cone.  Since any isomorphism of categories is _a fortiori_ an equivalence of categories, any pseudo limit is also a limit.
 
@@ -52,7 +56,8 @@ If there is a [[model category]] structure on the 1-category underlying the give
 
 ## Examples 
 
-Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict products, strict pullbacks, strict equalizers, and so on.  Of these, strict products (including terminal objects) respect the [[principle of equivalence]] (and thus are also limits), while others such as pullbacks and equalizers tend to violate the [[principle of equivalence]].
+
+Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict [[products]], strict [[pullbacks]], strict [[equalizers]], and so on.  Of these, strict products (including [[terminal objects]]) respect the 2-category theoretic [[principle of equivalence]] (and thus are also 2-limits), while others such as pullbacks and equalizers tend to violate the 2-category theoretic [[principle of equivalence]].
 
 * For example, a strict terminal object is an object 1 such that $K(X,1)$ is _isomorphic_ to the [[terminal category]], for any object $X$.
 
@@ -78,7 +83,8 @@ If one is mostly interested in (non-strict) limits, then there is little harm in
 
 * The **strict lax pullback** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$, $q:P\to B$, $r:P\to C$, and 2-cells $f p \to r$ and $g q \to r$.
 
-In particular, the strict lax pullback is quite different from the following more common limit.
+
+In particular, the strict lax pullback in the following list of examples  is quite different from the following more common limit.
 
 * The **comma object** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a generalization of the [[comma category]] in $Cat$; it is a universal object $(f/g)$ equipped with projections $p:(f/g)\to A$ and $q:(f/g)\to B$ and a 2-cell $f p \to g q$.
 
@@ -97,11 +103,20 @@ Here are some more important examples of 2-limits, all of which come in strict a
 
 ## References 
 
-* [[Ross Street]], _Limits indexed by category-valued 2-functors_
+Original articles on Cat-enriched weighted limits:
 
-* [[Max Kelly]], _Elementary observations on 2-categorical limits_
+* {#Street76} [[Ross Street]], _Limits indexed by category-valued 2-functors_, Journal of Pure and Applied Algebra Volume 8, Issue 2, June 1976, Pages 149-181 (<a href="https://doi.org/10.1016/0022-4049(76)90013-X">doi:10.1016/0022-4049(76)90013-X</a>)
 
-* [[Steve Lack]], _A 2-categories companion_ ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535))
+* {#Kelly89} [[Max Kelly]], *Elementary observations on 2-categorical limits*, Bulletin of the Australian Mathematical Society, 39(2), 301-317 ([doi:10.1017/S0004972700002781](https://doi.org/10.1017/S0004972700002781), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C14F8C3C46D45BCEC748660630EA7535/S0004972700002781a.pdf/div-class-title-elementary-observations-on-2-categorical-limits-div.pdf))
+
+Review and list of examples:
+
+* {#Lack10} [[Steve Lack]], around Sec. 6.8 in: _A 2-categories companion_,  In: Baez J., May J. (eds.) *[[Towards Higher Categories]]*. The IMA Volumes in Mathematics and its Applications, vol 152. Springer 2010 ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535), [doi:10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4))
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 5.3 of: *2-Dimensional Categories*, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
+
+See also:
 
 * [[Steve Lack]], _Homotopy theoretic aspects of 2-monads_ ([arXiv:math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646)).
 
