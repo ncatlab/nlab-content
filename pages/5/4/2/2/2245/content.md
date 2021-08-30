@@ -98,13 +98,15 @@ The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically wit
 
 ## References
 
-The standard references are 
 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970; English edition is _Introduction to algebraic geometry and algebraic groups_, North-Holland, Amsterdam 1980 (North-Holland)
 
 * [[SGA3]] _Sch&#233;mas en groupes, 1962&#8211;1964, Lecture Notes in Mathematics 151, 152 and 153, 1970
 
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, i.e. SGA III-1, III-2, III-3
+
+* {#Milne17} [[James Milne]], *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+
 
 * A. Borel, _Linear algebraic groups_, Springer (2nd edition much expanded)
 
