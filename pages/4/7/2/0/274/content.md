@@ -128,6 +128,8 @@ One may also form the $n$-fold [[comma object]]-fiber product of a choice of bas
 
 ## Related concepts
 
+* [[complete Segal space]]
+
 * [[Gamma space]]
 
 * [[Segal operad]]
