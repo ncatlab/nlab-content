@@ -75,6 +75,13 @@ The [[Lazard ring]], carrying the universal (1-dimensional, commutative) [[forma
 
 ## References
 
+Textbook account:
+
+* {#Karpilovsky87} [[Gregory Karpilovsky]], Chapter 2 of: *The Algebraic Structure of Crossed Products*, Mathematics Studies **142**, North Holland 1987 ([ISBN:9780080872537](https://www.elsevier.com/books/the-algebraic-structure-of-crossed-products/karpilovsky/978-0-444-70239-5))
+
+
+For [[Hopf algebras]]:
+
 * Ken Brown, Paul Gilmartin, James J. Zhang, _Connected (graded) Hopf algebras_ ([arXiv:1601.06687](http://arxiv.org/abs/1601.06687))
 
 [[!redirects graded algebras]]
