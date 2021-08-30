@@ -39,9 +39,18 @@ So, a (2,1)-category is in particular modeled by
 
 * [[hom-groupoid]]
 
+* [[strict (2,1)-category]]
+
 * [[equivalence of (2,1)-categories]]
 
 * [[monoidal (2,1)-category]], [[symmetric monoidal (2,1)-category]]
+
+## References
+
+The special case of [[strict (2,1)-categories]], motivated from the [[homotopy 2-category]] of [[topological spaces]]:
+
+* [[Peter H. H. Fantham]], [[Eric J. Moore]], *Groupoid Enriched Categories and Homotopy Theory*, Canadian Journal of Mathematics **35** 3 (1983) 385-416 ([doi:10.4153/CJM-1983-022-8](https://doi.org/10.4153/CJM-1983-022-8))
+  
 
 
 [[!redirects (2,1)-categories]]
