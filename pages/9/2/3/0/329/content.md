@@ -32,7 +32,7 @@ Notice that _[[double category]]_ is another term for _[[n-fold category|2-fold 
 
 ## Definition
 
-A _strict 2-category_, often called simply a _2-category_, is a [[enriched category|category enriched over]] [[Cat]], where $Cat$ is treated as the [[1-category]] of [[strict categories]]. 
+A _strict 2-category_, often called simply a _2-category_, is a [[enriched category|category enriched over]] [[Cat]], where $Cat$ is treated as the [[1-category]] of [[strict categories]] with [[functors]] between them. 
 
 Similarly, a [[strict 2-groupoid]] is a groupoid enriched over groupoids. This is also called a [[geometric shapes for higher structures|globular]] strict 2-groupoid, to emphasise the underlying geometry. The category of strict 2-groupoids is equivalent to the category  of [[crossed module]]s over groupoids. It is also equivalent to the category of (strict) double groupoids with connections. 
 
@@ -130,6 +130,14 @@ Literature references for the abstract notion of [[sesquicategory]], a structure
 
 ## References 
 
+Original articles:
+
+* {#Godement} [[Roger Godement]], *Topologie alg&#233;brique et theorie des faisceaux*, Hermann, Paris, 1958. 
+ 
+
+* {#Ehresmann} [[Charles Ehresmann]], *Cat&#233;gories double et cat&#233;gories structur&#233;es*, C.R. Acad. Paris 256 (1963), 1198-1201. ([ResearchGate link](https://www.researchgate.net/publication/266276121_Categories_doubles_et_categories_structurees))
+
+
 Exposition and review:
 
 * {#Street}  [[Ross Street]], *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam 1996. ([pdf](http://maths.mq.edu.au/~street/45.pdf)) 
@@ -141,13 +149,9 @@ Exposition and review:
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 2.3 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
 
+The special case of [[strict (2,1)-categories]]:
 
-Original articles:
-
-* {#Godement} [[Roger Godement]], *Topologie alg&#233;brique et theorie des faisceaux*, Hermann, Paris, 1958. 
- 
-
-* {#Ehresmann} [[Charles Ehresmann]], *Cat&#233;gories double et cat&#233;gories structur&#233;es*, C.R. Acad. Paris 256 (1963), 1198-1201. ([ResearchGate link](https://www.researchgate.net/publication/266276121_Categories_doubles_et_categories_structurees))
+* [[Peter H. H. Fantham]], [[Eric J. Moore]], *Groupoid Enriched Categories and Homotopy Theory*, Canadian Journal of Mathematics **35** 3 (1983) 385-416 ([doi:10.4153/CJM-1983-022-8](https://doi.org/10.4153/CJM-1983-022-8))
   
 
  
