@@ -126,7 +126,7 @@ Among review of the [[Witten-Sakai-Sugimoto model]]:
 
 * {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int. J. Mod. Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
 
-* {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
+* {#Rebhan14} [[Anton Rebhan]], _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
 
 ### General $D p$-$D(p+4)$-brane bound states
 
