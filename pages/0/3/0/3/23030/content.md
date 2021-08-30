@@ -1,0 +1,126 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contebts
+{:toc}
+
+
+## Definition
+
+\begin{definition}\label{CrossedHomomorphism}
+  Let $G \,\in\, $ [[Grp]] be a [[group]] (or [[group object]] [[internalization|internal]] to an ambient [[category]] with [[finite products]]) and let $\Gamma \,\in\, G Act$ be an $G$-[[equivariant group]], hence a [[group]] equipped with a [[group action]] $\alpha \;\colon\; G \to Aut_{Grp}(\Gamma)$ of $G$ on $\Gamma$ by [[group homomorphism|group]] [[automorphisms]].
+
+Then a *crossed homomorphism* from $G$ to $\Gamma$ is a [[function]] ([[morphism]] in the [[internalization|ambient]] category)
+
+$$
+  \phi \;\colon\; G \xrightarrow{\;} \Gamma
+$$
+
+satisfying the following "$G$-crossed" homomorphism property:
+
+$$
+  \phi(g_1 \cdot g_2)  
+  \;=\;
+  \phi(g_1) \cdot \alpha(g_1)\big( \phi(g)_2 \big)
+  \,.
+$$
+\end{definition}
+
+\begin{remark}
+  For $\alpha$ the [[trivial action]], 
+  the notion of a crossed homomorphism (Def. \ref{CrossedHomomorphism})
+  reduces to that of an ordinary [[group homomorphism]].
+\end{remark}
+
+## Properties
+
+### Relation to semidirect product groups
+
+\begin{proposition}
+  Crossed homomorphisms $G \to \Gamma$ (Def. \ref{CrossedHomomorphism}) are equivalently [[group homomorphism|homomorphic]] [[sections]] of the [[projection]] out of the [[semidirect product group]] $\Gamma \rtimes_\alpha G \xrightarrow{pr_2} G$:
+
+$$
+  CrsHom(G,\,\Gamma)
+  \;\simeq\;
+  GrpHom_{{}_{/G}}
+  \big(
+    G 
+    ,\,
+    \Gamma \rtimes_\alpha G
+  \big)
+  \;\coloneqq\;
+  GrpHom(G, \, \Gamma \rtimes_\alpha G)
+  \underset{
+    GrpHom(G,\,G)
+  }{\times}
+  \{id\}
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+  By immediate unwinding of the definition of the [[semidirect product group]], such a section is an assignment
+  $$
+    \array{
+      G &\xrightarrow{\;}& \Gamma \rtimes_\alpha G
+      \\
+      g 
+      &\mapsto&
+      \big(
+        \phi(g), \, g
+      \big)
+    }
+  $$
+  such that
+  $$
+    \big(
+      \phi(g_1 \cdot g_2), \, g_1 \cdot g_2
+    \big)    
+    \;\overset{!}{=}\;
+    \big(
+      \phi(g_1), g_1
+    \big)
+    \cdot
+    \big(
+      \phi(g_2), g_2
+    \big)
+    \;=\;
+    \Big(
+      \phi(g_1) 
+        \cdot
+      \alpha(g_1)\big(\phi(g_2)\big)
+      ,\,
+      g_1 \cdot g_2
+    \Big)    
+    \,.
+  $$  
+\end{proof}
+
+
+## References
+
+For the special case that $\Gamma$ is an [[abelian group]] (in the context of [[homological algebra]]):
+
+* [[Saunders Mac Lane]], Section IV.2 of: _Homology_ (1975) reprinted as Classics in Mathematics. Springer-Verlag, Berlin, 1995. x+422 pp. ISBN 3-540-58662-8 ([doi:10.1007/978-3-642-62029-4](https://link.springer.com/book/10.1007/978-3-642-62029-4))
+
+The general notion (in discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]):
+
+* {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
+
+
+[[!redirects crossed homomorphisms]]
+
+[[!redirects crossed group homomorphism]]
+[[!redirects crossed group homomorphisms]]
+
+
+
