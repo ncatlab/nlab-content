@@ -918,6 +918,10 @@ Exposition includes
 
 * {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
 
+With discussion of [[non-abelian cohomology|non-abelian]] group cohomology:
+
+* {#Karpilovsky87} [[Gregory Karpilovsky]], *The Algebraic Structure of Crossed Products*, Mathematics Studies **142**, North Holland 1987 ([ISBN:9780080872537](https://www.elsevier.com/books/the-algebraic-structure-of-crossed-products/karpilovsky/978-0-444-70239-5))
+
 
 An introduction to group cohomology of a group $G$ as the cohomology of the [[classifying space]] $B G$ is for instance in 
 
