@@ -155,6 +155,8 @@ $$
 
 * [[equivariant group]]
 
+* [[crossed homomorphism]]
+
 ## References
 
 A general survey is in
