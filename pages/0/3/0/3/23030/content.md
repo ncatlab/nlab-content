@@ -14,6 +14,28 @@
 {:toc}
 
 
+## Idea
+ {#Idea}
+
+In [[group theory]], and specifically in [[group cohomology]]-theory, the notion of *crossed homomorphisms* (Def. \ref{CrossedHomomorphism} below) is a generalization of that of [[group homomorphisms]] where a [[group action]] -- of the [[domain]]-group $G$ by [[automorphisms]] on the [[codomain]] group $\Gamma$ -- is incorporated.
+
+Crossed homomorphisms are equivalently [[group homomorphism|homomorphic]] [[sections]] of the [[projection]] to $G$ out of the corresponding [[semidirect product group]] $\Gamma \rtimes G$ (Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup} below). 
+
+This largely explains their relevance in all contexts of $G$-[[equivariant algebraic topology]] and [[equivariant differential topology]], such as in [[equivariant principal bundle]]-theory (Prop. \ref{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces} below) where [[semidirect product groups]] appear as $G$-[[equivariant groups]].
+
+In particular (Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} below, which is not made explicit in traditional literature):
+
+* the [[local coefficient bundle]] for [[non-abelian cohomology|non-abelian]] [[group cohomology]] in degree-1 is the image of the projection out of the semidirect product group under forming [[delooping groupoids]],
+
+* the [[strict (2,1)-category]]-theoretic [[sections]] of this bundle form precisely the [[groupoids]] of crossed homomorphisms with "crossed conjugations" (Def. \ref{AdjointActionOnCrossedHomomorphisms} below) between them;
+
+* and the [[connected components]] of these groupoids is the [[non-abelian cohomology|non-abelian]] [[group cohomology]] $H^1(G,\Gamma)$.
+
+This last fact is classical in the special case that $\Gamma$ is an [[abelian group]], where it serves to define [[group cohomology]] with coefficients in degree 1 ([MacLane 1975, IV.2](#MacLane75)).
+
+
+
+
 ## Definition
 
 In all of the following, let $G \,\in\, $ [[Grp]] be a [[group]] (or [[group object]] [[internalization|internal]] to an ambient [[category]] with [[finite products]]) and let $\Gamma \,\in\, G Act$ be an $G$-[[equivariant group]], hence a [[group]] equipped with a [[group action]] 
@@ -221,8 +243,8 @@ $$
 
 \begin{remark}
   Subgroups of the form (eq:MayStyleCrossedHomomorphism)
-  are considered throughout articles by [[Peter May]] on [[equivariant principal bundles]] (e.g. in [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](#May90)).
-That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomorphisms]] may have been one the key observations that lead to [Murayama & Shimakawa 1995](#MurayamaShimakawa95), though the statement of Prop. \ref{MayStyleCrossedHomomorphisms} is still not explicit there.
+  are considered throughout articles by [[Peter May]] on [[equivariant principal bundles]] (e.g. in [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](equivariant+bundle#May90)).
+That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomorphisms]] may have been one the key observations that lead to [Murayama & Shimakawa 1995](#MurayamaShimakawa95), though the statement of Prop. \ref{GraphOfACrossedHomomorphism} is still not explicit there.
 \end{remark}
 
 
@@ -230,6 +252,8 @@ That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomo
 #### Crossed conjugation
 
 \begin{definition}\label{AdjointActionOnCrossedHomomorphisms}
+**(crossed conjugation)**
+\linebreak
   Two crossed homomorphisms 
   $\phi_1, \phi_2$ (Def. \ref{CrossedHomomorphism}) are [[adjoint action|adjoint]] $\phi_1 \xrightarrow{\;\gamma\;} \phi_2$ if in 
   their incarnation as homomorphisms to $\Gamma \rtimes G$  (Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}) they are related by conjugation with an element  
@@ -318,54 +342,27 @@ All the formulas [above](#ComponentDefinition) may conceptually be understood as
 \]
 \end{proposition}
 \begin{proof}
+\label{ProofOfCrossedHomomorpismsAreSlicedFunctors}
 By definition, a morphism in the groupoid on the right is a 
 [[commuting diagram]] of [[functors]] and [[natural transformations]]
-as shown in the following:
+as shown on the left of the following:
 
-\begin{tikzcd}
-      &&
-      \mathbf{B}(\Gamma \rtimes G)
-      \ar[
-        d,
-        "\mathbf{B}\mathrm{pr}_2"
-      ]
-      \\
-      \mathbf{B}G
-      \mathrlap{\,.}
-      \ar[
-        rr,-,
-        shift right=1pt
-      ]
-      \ar[
-        rr,-,
-        shift left=1pt
-      ]
-      \ar[
-        urr,
-        dashed,
-        bend left=30,
-        "\ "{right, name=s}
-      ]
-      \ar[
-        urr,
-        dashed,
-        bend right=10,
-        "\ "{left, name=t}
-      ]
-      &&
-      \mathbf{B}G
-      %
-      \ar[
-        from=s,
-        to=t,
-        dashed,
-        Rightarrow
-      ]
-\end{tikzcd}
+\begin{imagefromfile}
+    "file_name": "CrossedHomomorphismsAsSlicedFunctors210831.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [SS21](https://ncatlab.org/schreiber/show/TED+cohomology)"
+\end{imagefromfile}
 
-Unwinding the definitions, it is clear that functors fitting into this diagram (indicated by the dashed single arrows) are bijective to group homomorphisms $G \to \Gamma \rtimes G$ whose [[composition]] with $\Gamma \rtimes G \xrightarrow{pr_2} G$ is the [[identity morphisms]], hence are crossed homomorphisms, by Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}.
+Unwinding the definitions, it is clear that functors fitting into this diagram (indicated by the dashed single arrows on the left) are bijective (under passage to their component functions shown on the right) to [[group homomorphisms]] $G \to \Gamma \rtimes G$ whose [[composition]] with $\Gamma \rtimes G \xrightarrow{pr_2} G$ is the [[identity morphisms]] -- hence are bijective to crossed homomorphisms, by Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}.
 
-Moreover, natural transformations $\eta \;\colon\; F \Rightarrow F'$ fitting into this diagram (indicated by the dashed double arrow) must be such that their [[whiskering]] with $\mathbf{B}pr_2$ is the identity transformation, which means that their single component is of the form
+Moreover, [[natural transformations]] $F \Rightarrow F'$ fitting into this diagram (indicated by the dashed double arrow on the left) must be such that their [[whiskering]] with $\mathbf{B}pr_2$ is the [[identity natural transformation]], which means that their single component (as shown on the right) is of the form
 
 $$
   \eta(\bullet) \;=\; \big( \gamma, \mathrm{e}\big)
@@ -542,7 +539,7 @@ In discussion of [[algebraic groups]]:
 
 As [[non-abelian cohomology|non-abelian]] [[group cohomology]]:
 
-* Grouppropos, *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
+* Groupprops, *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
 
 Discussion for [[finite groups]]:
 
