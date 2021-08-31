@@ -206,9 +206,11 @@ Implications for the significance across channels:
 
 > Naive combination of $R_K$ and $R_{K*}$ measurements shows a deviation from the standard model above $4 \sigma$
 
-[GGJLMCS 21](#GGJLMCS21):
 
-> We find that the data on clean observables is a variance with the SM at a level of $4 \sigma$.  Furthermore, scenarios with pure left-handed or axial currents provide a better description of these data with a significance close to $5 \sigma$.
+[Geng et al. 21](#GengEtAl21):
+
+> Motivated by $[\cdots]$  LHCb's new measurements $[\cdots]$ we quantify the combined level of discrepancy with the Standard Model and fit values of short-distance Wilson coefficients. A combination of the clean observables $R_K$, $R_{K^\ast}$, and $B_s \to \mu \mu$ alone results in a discrepancy with the Standard Model at $4.0 \sigma$, up from $3.5 \sigma$ in 2017. One-parameter scenarios with purely left-handed or with purely axial coupling to muons fit the data well and result in a $\sim 5 \sigma$ pull from the Standard Model.
+
 
 [AlSt 21](#AltmannshoferStangl21):
 
@@ -632,6 +634,7 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#LancieriniMoise21} Davide Lancierini, R. Dan Moise, *[Anomalous measurements: recent results deepen flavour puzzle](https://ep-news.web.cern.ch/content/anomalous-measurements-recent-lhcb-results-deepen-flavour-puzzle)*, CERN EP Newsletter 21st June 2021  ([arXiv:2107.06337](https://arxiv.org/abs/2107.06337))
 
+* {#GengEtAl21} Li-Sheng Geng, Benjamín Grinstein, Sebastian Jäger, Shuang-Yi Li, Jorge Martin Camalich, Rui-Xiang Shi, *Implications of new evidence for lepton-universality violation in $b \to s \ell^+ \ell^-$ decays*, Phys. Rev. D **104** (2021) 035029  ([arXiv:2103.12738](https://arxiv.org/abs/2103.12738), [doi:10.1103/PhysRevD.104.035029](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.035029))
 
 Outlook:
 
