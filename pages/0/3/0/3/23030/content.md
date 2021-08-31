@@ -189,7 +189,11 @@ $$
     \;\;\;
     \text{and}
     \;\;\;
-    \widehat{G} \cap i(\Gamma) \;=\; \{\mathrm{e}\}    
+    \widehat{G} \cap i(\Gamma) 
+      \;=\; 
+    \big\{
+      (\mathrm{e},\,\mathrm{e})
+    \big\}    
     \,,
   \]
   and every subgroup of this form arises as the [[graph of a function|graph]] of a unique crossed homomorphism.
@@ -359,7 +363,7 @@ as shown on the left of the following:
         "right": 0, 
         "left": 10
     },
-    "caption": "From [SS21](https://ncatlab.org/schreiber/show/TED+cohomology)"
+    "caption": "from [SS21](https://ncatlab.org/schreiber/show/TED+cohomology)"
 \end{imagefromfile}
 
 Unwinding the definitions, it is clear that functors fitting into this diagram (indicated by the dashed single arrows on the left) are bijective (under passage to their component functions shown on the right) to [[group homomorphisms]] $G \to \Gamma \rtimes G$ whose [[composition]] with $\Gamma \rtimes G \xrightarrow{pr_2} G$ is the [[identity morphisms]] -- hence are bijective to crossed homomorphisms, by Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}.
