@@ -497,7 +497,7 @@ A [[topological G-space|G-equivariant]] [[classifying space]] $B_G \Gamma$ for $
 \end{proposition}
 \begin{proof}
 After a little reformulation via
-Prop. \ref{MayStyleCrossedHomomorphisms}
+Prop. \ref{GraphOfACrossedHomomorphism}
 and
 Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}, this is the statement of [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](#May90). 
 \end{proof}
