@@ -912,6 +912,11 @@ and specifically with an eye towards cohomology of [[finite groups]]
 
 *  [[Alejandro Adem]], [[R. James Milgram]], _Cohomology of Finite Groups_, Springer 2004
 
+and specifically with an eye towards [[profinite groups]]:
+
+* {#NSW08} [[Jürgen Neukirch]], Alexander Schmidt, Kay Wingberg, Chapter 1 of: *Cohomology of Number Fields*, Springer Grundlehren der mathematischen Wissenschaften **323**, Springer 2008 ([doi:10.1007/978-3-540-37889-1](https://link.springer.com/book/10.1007/978-3-540-37889-1), [webpage](https://www.mathi.uni-heidelberg.de/~schmidt/NSW2e/))
+
+
 Exposition includes
 
 * [[Alejandro Adem]], _Lectures on the cohomology of finite groups_ ([pdf](http://www.math.uic.edu/~bshipley/ConMcohomology1.pdf))
