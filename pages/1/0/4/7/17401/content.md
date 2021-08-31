@@ -31,7 +31,7 @@ One can of course additionally ask that a relevance monoidal category be [[close
 
 ## Examples
 
-* The category of [[pointed sets]], which is equivalent to the category of sets and [[partial functions]], is a relevance monoidal category with its pointed [[smash product]] ([Došen-Petrić 2007](#DosenPetric07)).
+* The category of [[pointed sets]], which is equivalent to the category of sets and [[partial functions]], is a relevance monoidal category with its pointed [[smash product]] ([Došen-Petrić 2007](#DosenPetric07)).  The unit for this tensor product is not the terminal object, which is the 1-element pointed set, but instead the 2-element pointed set, so this relevance monoidal category is not cartesian.  The category of pointed sets can also be given a cartesian monoidal structure.
 
 * Any [[Church monoid]] is a relevance monoidal category whose underlying category is a [[poset]].
 
