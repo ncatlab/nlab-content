@@ -65,8 +65,8 @@ The circle of $n$Lab entries belonging or related closely to algebraic number th
 
 * [[L-function]], [[motive]], [[Riemann conjecture]], [[algebraic K-theory]], [[Grothendieck Galois theory]]
 
-### Literature
 
+## Literature
 
 * Albrecht Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.
 
