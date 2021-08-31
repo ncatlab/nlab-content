@@ -29,11 +29,11 @@ In particular (Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} b
 
 * the [[strict (2,1)-category]]-theoretic [[sections]] of this bundle form precisely the [[groupoids]] of crossed homomorphisms with "crossed conjugations" (Def. \ref{AdjointActionOnCrossedHomomorphisms} below) between them;
 
-* and the [[connected components]] of these groupoids is the [[non-abelian cohomology|non-abelian]] [[group cohomology]] $H^1(G,\Gamma)$.
+* and the [[connected components]] of these groupoids is the [[non-abelian cohomology|non-abelian]] [[group cohomology]] $H^1(G,\Gamma)$ (Rem. \ref{AsGroup1Cocycles}, \ref{AsCoboundariesInGroupCohomology}).
 
 This last fact is classical in the special case that $\Gamma$ is an [[abelian group]], where it serves to define [[group cohomology]] with coefficients in degree 1 ([MacLane 1975, IV.2](#MacLane75)).
 
-
+Beware that, while the notion of crossed homomorphisms makes sense for [[group objects]] [[internalization|internal]] to any ambient [[category]] $\mathcal{C}$, it may not need to strictly coincide with that of [[cocycles]] in first [[group cohomology]] beyond $\mathcal{C} = $ [[Set]] (for reasons discussed at *[[Lie group cohomology]]*, or, for the case of [[profinite groups]], in [NSW 2008, p. 24](#NSW08)).
 
 
 ## Definition
@@ -95,7 +95,7 @@ For [[abelian group|abelian]] $\Gamma$ this terminology seems to be due to [MacL
 \begin{remark}\label{AsGroup1Cocycles}
 **(as 1-[[cocycles]] in [[group cohomology]])**
 \linebreak
-  In the special case that $\Gamma$ in Def. \ref{CrossedHomomorphism} is an [[abelian group]], crossed homomorphisms are also known as *[[cocycles]] in [[group cohomology]]* in degree 1. In general they may be understood as 1-cocyles in [[non-abelian cohomology|non-abelian]] group cohomology.
+  In the special case that $\Gamma$ in Def. \ref{CrossedHomomorphism} is an [[abelian group]], crossed homomorphisms are also known as *[[cocycles]] in [[group cohomology]]* in degree 1 (e.g. [Brown 1982, p. 45](#Brown82)). In general they may be understood as 1-cocyles in [[non-abelian cohomology|non-abelian]] group cohomology (e.g. [NSW 2008, p. 16](#NWS08)).
 \end{remark}
 
 \begin{example}\label{ConstantFunctionOnNeutralElement}
@@ -128,7 +128,7 @@ $$
   \,.
 $$
 \end{proposition}
-(e.g. [Brown 1982, p. 88](#Brown82), [Milne 2017, Exp. 15.1](#Milne17))
+(e.g. [Brown 1982, p. 88](#Brown82), [NSW 2008, Ex. 1 on p. 24](#NSW08), [Milne 2017, Exp. 15.1](#Milne17))
 \begin{proof}
   By immediate unwinding of the definition of the [[semidirect product group]], such a section is an assignment
   $$
@@ -274,7 +274,7 @@ That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomo
   $$
 \end{definition}
 
-\begin{remark}
+\begin{remark}\label{AsCoboundariesInGroupCohomology}
 **(as 1-[[coboundaries]] in [[group cohomology]])**
 \linebreak
   When $\Gamma$ is an [[abelian group]], the conjugates according to Def. \ref{AdjointActionOnCrossedHomomorphisms} 
@@ -289,6 +289,8 @@ These (eq:GroupCoboundaryInSpecializationOfConjugation) are also known as "princ
 
 With crossed homomorphisms understood as 1-[[cocycles]] in [[group cohomology]] 
 (Rem. \ref{AsGroup1Cocycles}), these elements (eq:GroupCoboundaryInSpecializationOfConjugation) are the *1-[[coboundaries]]*.
+
+The definitions here apply verbatim also for [[non-abelian group|non-abelian]] $\Gamma$, where we get [[non-abelian cohomology|non-abelian]] [[group cohomology]] (e.g. [NSW 2008, p. 16](#NSW08)).
 \end{remark}
 
 
@@ -538,6 +540,8 @@ In discussion of [[algebraic groups]]:
 * {#Milne17} [[James Milne]], Section 15.a (16.a in the pdf) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
 As [[non-abelian cohomology|non-abelian]] [[group cohomology]]:
+
+* {#NSW08} [[Jürgen Neukirch]], Alexander Schmidt, Kay Wingberg, pages 16 & 24 in: *Cohomology of Number Fields*, Springer Grundlehren der mathematischen Wissenschaften **323**, Springer 2008 ([doi:10.1007/978-3-540-37889-1](https://link.springer.com/book/10.1007/978-3-540-37889-1), [webpage](https://www.mathi.uni-heidelberg.de/~schmidt/NSW2e/))
 
 * Groupprops, *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
 
