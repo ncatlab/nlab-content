@@ -51,41 +51,16 @@ For [[abelian group|abelian]] $\Gamma$ this terminology seems to be due to [MacL
   reduces to that of an ordinary [[group homomorphism]].
 \end{remark}
 
-\begin{remark}\label{AbelianCase}
-  In the special case that $\Gamma$ in Def. \ref{CrossedHomomorphism} is an [[abelian group]], crossed homomorphisms are also known as
-
-* [[cocycles]] in [[group cohomology]] in degree 1; 
-
-* [[derivations on a group]] (for better or worse). 
-
+\begin{remark}\label{AsGroup1Cocycles}
+**(as 1-[[cocycles]] in [[group cohomology]])**
+\linebreak
+  In the special case that $\Gamma$ in Def. \ref{CrossedHomomorphism} is an [[abelian group]], crossed homomorphisms are also known as *[[cocycles]] in [[group cohomology]]* in degree 1. In general they may be understood as 1-cocyles in [[non-abelian cohomology|non-abelian]] group cohomology.
 \end{remark}
-
-As for plain homomorphisms, crossed homomorphisms are related by [[inner automorphisms]] of the [[codomain]], where the point is that there is no further twisting by $G$ in this definition:
-
-\begin{definition}\label{AdjointActionOnCrossedHomomorphisms}
-  Two crossed homomorphisms 
-  $\phi_1, \phi_2$ (Def. \ref{CrossedHomomorphism}) are [[adjoint action|adjoint]] $\phi_1 \xrightarrow{\;\gamma\;} \phi_2$ if 
-  $\gamma \in \Gamma$ is such that 
-  $$
-    \underset{
-      g \in G
-    }{\forall}
-    \;\;\;
-    \phi_2(g) 
-      \;=\;
-    \gamma \cdot \phi_1(g) \cdot \gamma^{-1}
-    \,.
-  $$
-\end{definition}
-This notion is implicit in some texts (see Prop. \ref{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces} below) but is maybe not made explicit in existing literature.
-
-
-## Properties
-
-### Relation to semidirect product groups
 
 \begin{proposition}
   \label{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}
+**(as splittings/[[homomorphism|homomorphic]] [[sections]] of the [[semidirect product group]]-projection)**
+\linebreak
   Crossed homomorphisms $G \to \Gamma$ (Def. \ref{CrossedHomomorphism}) are equivalently [[group homomorphism|homomorphic]] [[sections]] of the [[projection]] out of the [[semidirect product group]] $\Gamma \rtimes_\alpha G \xrightarrow{pr_2} G$ (see also at [split group extensions](group+extension#SplitExtensionsAndSemidirectProductGroups)):
 
 $$
@@ -122,6 +97,10 @@ $$
   $$
   such that
   $$
+   \underset{
+     g_1, g_2 \in G
+   }{\forall}
+   \;\;\;\;\;
     \big(
       \phi(g_1 \cdot g_2), \, g_1 \cdot g_2
     \big)    
@@ -146,10 +125,245 @@ $$
 \end{proof}
 
 
-## Examples
+\begin{definition}\label{AdjointActionOnCrossedHomomorphisms}
+  Two crossed homomorphisms 
+  $\phi_1, \phi_2$ (Def. \ref{CrossedHomomorphism}) are [[adjoint action|adjoint]] $\phi_1 \xrightarrow{\;\gamma\;} \phi_2$ if in 
+  their incarnation as homomorphisms to $\Gamma \rtimes G$  (Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}) they are related by conjugation with an element  
+  $\gamma \in \Gamma \xhookrightarrow{\;} \Gamma \rtimes G$, in that:
+  $$
+    \underset{
+      g \in G
+    }{\forall}
+    \;\;\;
+    \big(
+      \phi_2(g)
+      ,\,
+      g
+    \big)
+      \;=\;
+    \big(
+      \gamma^{-1}
+      ,\,
+      \mathrm{e}
+    \big)
+      \cdot 
+    \big(
+      \phi_1(g)
+      ,\,
+      g
+    \big)
+      \cdot 
+    \big(
+      \gamma
+      ,\, 
+      \mathrm{e}
+    \big)
+    \,,
+  $$
+  where $\mathrm{e} \in G$ denotes the [[neutral element]].
+\end{definition}
+This notion (Def. \ref{AdjointActionOnCrossedHomomorphisms}) is implicit in some texts (see Prop. \ref{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces} below) but is maybe not made explicit in existing literature. It may conceptually be understood as follows:
 
-### Connected components of equivariant classifying spaces
- {#ConnectedComponentsOfEquivariantClassifyingSpaces}
+\begin{proposition}
+  \label{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid}
+**([[groupoid]] of [[crossed homomorphisms]] is [[slice category|sliced]] [[functor groupoid]] of [[delooping groupoids]])**
+\linebreak
+  The [[groupoid]] 
+  $$
+     CrsHom(G,\Gamma) \sslash_{\!\! ad} \Gamma  
+     \;\;\;
+     \in
+     \;
+     Grpd
+  $$
+  of crossed homomorphisms (Def. \ref{CrossedHomomorphism}) with conjugations between them (Def. \ref{AdjointActionOnCrossedHomomorphisms}) is [[isomorphism|isomorphic]] to the [[slice category|sliced]] [[functor groupoid]] of [[sections]] of the [[delooping groupoid]] $\mathbf{B}(\Gamma \rtimes G)$ of the [[semidirect product group]]:
+
+\[
+  \label{SlicedFunctorGroupoid}
+  CrsHom(G,\Gamma) \sslash_{\!\! ad} \Gamma
+  \;\;
+    \simeq
+  \;\;
+  Fnctr_{{}_{/\mathbf{B}G}}
+  \big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}(\Gamma \rtimes G)
+  \big)
+  \;=\;
+  Fnctr
+  \big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}(\Gamma \rtimes G)
+  \big)
+  \underset{
+    Fnctr
+    \big(
+      \mathbf{B}G
+      ,\,
+      \mathbf{B}G
+    \big)
+  }{\times}
+  \{id\}
+  \,.
+\]
+\end{proposition}
+\begin{proof}
+By definition, a morphism in the groupoid on the right is a 
+[[commuting diagram]] of [[functors]] and [[natural transformations]]
+as shown in the following:
+
+\begin{tikzcd}
+      &&
+      \mathbf{B}(\Gamma \rtimes G)
+      \ar[
+        d,
+        "\mathbf{B}\mathrm{pr}_2"
+      ]
+      \\
+      \mathbf{B}G
+      \mathrlap{\,.}
+      \ar[
+        rr,-,
+        shift right=1pt
+      ]
+      \ar[
+        rr,-,
+        shift left=1pt
+      ]
+      \ar[
+        urr,
+        dashed,
+        bend left=30,
+        "\ "{right, name=s}
+      ]
+      \ar[
+        urr,
+        dashed,
+        bend right=10,
+        "\ "{left, name=t}
+      ]
+      &&
+      \mathbf{B}G
+      %
+      \ar[
+        from=s,
+        to=t,
+        dashed,
+        Rightarrow
+      ]
+\end{tikzcd}
+
+Unwinding the definitions, it is clear that functors fitting into this diagram (indicated by the dashed single arrows) are bijective to group homomorphisms $G \to \Gamma \rtimes G$ whose [[composition]] with $\Gamma \rtimes G \xrightarrow{pr_2} G$ is the [[identity morphisms]], hence are crossed homomorphisms, by Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}.
+
+Moreover, natural transformations $\eta \;\colon\; F \Rightarrow F'$ fitting into this diagram (indicated by the dashed double arrow) must be such that their [[whiskering]] with $\mathbf{B}pr_2$ is the identity transformation, which means that their single component is of the form
+
+$$
+  \eta(\bullet) \;=\; \big( \gamma, \mathrm{e}\big)
+  \;\;\;
+  \in
+  \;
+  \Gamma \rtimes G
+  \,,
+$$
+
+where $\mathrm{e} \in G$ denotes the [[neutral element]].
+
+In conclusion, the [[naturality square]] in $\mathbf{B}(\Gamma \rtimes G)$
+that all these components must make [[commuting square|commute]] is of the form
+
+$$
+  \array{
+    \bullet
+    &\;\;\;\;\mapsto\;\;\;\;&
+    \bullet
+    &\xrightarrow{\;\;\;\;\;\;(\gamma,\mathrm{e})\;\;\;\;\;\;}&
+    \bullet
+    \\
+    {}^{\mathllap{ g }}
+    \big\downarrow
+    &&
+    \big\downarrow
+    {}^{\mathrlap{ \big( \phi_1(g),\, g\big) }}
+    &&
+    \big\downarrow
+    {}^{\mathrlap{ \big( \phi_2(g),\, g\big) }}
+    \\
+    \bullet
+    &\;\;\;\;\mapsto\;\;\;\;&
+    \bullet
+    &\xrightarrow{\;\;\;\;\;\;(\gamma,\mathrm{e})\;\;\;\;\;\;}&
+    \bullet
+  }
+  {\phantom{AAAAAAAAAAA}}
+  \in
+  \;
+  \mathbf{B}(\Gamma \rtimes G)
+  \,.
+$$
+
+Since [[composition]] in the [[delooping groupoid]] is given by the group product, this is equivalently the condition that
+
+$$
+    \big(
+      \phi_2(g)
+      ,\,
+      g
+    \big)
+      \;=\;
+    \big(
+      \gamma^{-1}
+      ,\,
+      \mathrm{e}
+    \big)
+      \cdot 
+    \big(
+      \phi_1(g)
+      ,\,
+      g
+    \big)
+      \cdot 
+    \big(
+      \gamma
+      ,\, 
+      \mathrm{e}
+    \big)
+    \;\;\;\;\;
+    \in
+    \;
+    \Gamma \rtimes G
+    \,,
+$$
+
+which is precisely the defining relation from Def. \ref{AdjointActionOnCrossedHomomorphisms}.  
+\end{proof}
+
+\begin{remark}
+**([[conjugacy classes]] of [[crossed homomorphisms]] are [[non-abelian cohomology|non-abelian]] first [[group cohomology]])**
+\linebreak
+  In view of the identification of crossed homomorphisms with 1-cocycles in [[non-abelian cohomology|non-abelian]] [[group cohomology]], we may identify their conjugacy classes (Def. \ref{AdjointActionOnCrossedHomomorphisms}), hence, by Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid}, the [[connected components]] of the sliced functor groupoid (eq:SlicedFunctorGroupoid)
+with the group cohomology sets:
+$$
+  CrsHom(H,\Gamma)_{/\sim}
+  \;\simeq\;
+  \pi_0
+  \Big(
+    Fnctr_{{}_{/\mathbf{B}G}}
+    \big(
+      \mathbf{B}G
+      ,\,
+      \mathbf{B}(\Gamma \rtimes G)
+    \big)
+  \Big)
+  \;\simeq\;
+  H^1_{Grp}(G,\Gamma)
+  \,.
+$$
+\end{remark}
+
+
+## Examples
 
 Let $G \,\in\, Grp(Top)$ and $\Gamma \,\in\, Grp\big( G Act(Top) \big)$ be [[topological groups]] which are [[compact Lie groups]] (to be on the safe side). Then:
 
@@ -170,10 +384,16 @@ $$
   \simeq
   \;\;
   CrsHom(H,\Gamma)_{/\sim}
+  \;\;
+  \simeq
+  \;\;
+  H^1_{Grp}(H,\Gamma)
   \,.
 $$
 \end{proposition}
+\begin{proof}
 After a little reformulation using Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}, this is the statement of [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86). 
+\end{proof}
 
 
 ## Related concepts
