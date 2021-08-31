@@ -68,7 +68,7 @@ For a simplified notion with "all objects cofibrant"
 
 Textbook account:
 
-* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](emilyriehl.github.io/files/elements.pdf))
 
 For an exploration of atypical examples of ∞-cosmoi whose objects are 2-categories or bicategories
 
