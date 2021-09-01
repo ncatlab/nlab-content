@@ -65,7 +65,7 @@ Earlier it has been suggested that this reflects the principle of asymptotic saf
 >  As shown in fig. 2 (upper right), the corresponding Higgs quartic [[beta-function]] vanishes at a [[scale]] of about $10^{17}$-$10^{18}$ [[GeV]]. In order to quantify the degree of cancellation in the β-function, we plot in fig. 2 (lower right) $\beta_\lambda$ in units of its pure [[top quark]] contribution.  The vanishing of $\beta_\lambda$ looks  more  like  an  accidental  cancellation  between  various  large  contributions, rather than an asymptotic approach to zero.
 
 
-<img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="800"/>
+<img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="700"/>
 
 
 ## References
@@ -101,13 +101,14 @@ Critical review:
 
 * {#Shomer07} Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
 
-* {#Donoghue19} [[John Donoghue]], _A Critique of the Asymptotic Safety Program_,  
-Frontiers in Physics 8, 56 (2020)
-([arXiv:1911.02967](https://arxiv.org/abs/1911.02967), [doi:10.3389/fphy.2020.00056](https://www.frontiersin.org/articles/10.3389/fphy.2020.00056/full))
+* {#Donoghue19} [[John Donoghue]], _A Critique of the Asymptotic Safety Program_,  Frontiers in Physics 8, 56 (2020) ([arXiv:1911.02967](https://arxiv.org/abs/1911.02967), [doi:10.3389/fphy.2020.00056](https://www.frontiersin.org/articles/10.3389/fphy.2020.00056/full))
 
-See also
+See also:
 
-* Roberto Percacci, _Asymptotic Safety FAQs_ ([web](http://www.percacci.it/roberto/physics/as/faq.html))
+* [[Roberto Percacci]], _Asymptotic Safety FAQs_ ([web](http://www.percacci.it/roberto/physics/as/faq.html))
+
+* {#DonoghuePercacci21} [[John Donoghue]] vs. [[Roberto Percacci]], *Debate on Asymptotically Safe Quantum Gravity*, Perimeter Institute, April 2021 ([video](https://pirsa.org/21040021), [slides](https://pdf.pirsa.org/files/21040021.pdf))
+
 
 * {#BiemansPlataniaSaueressig17} Jorn Biemans, Alessia Platania, Frank Saueressig, _Renormalization group fixed points of foliated gravity-matter systems_ ([arXiv:1702.06539](https://arxiv.org/abs/1702.06539))
 
