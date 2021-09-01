@@ -655,7 +655,7 @@ $$
   \big(
     \mathbf{E}G
     ,\,
-    \mathbf{B}G
+    \mathbf{B}\Gamma
   \big)^H
   \;\simeq\;
   CrsHom(H,\Gamma) 
