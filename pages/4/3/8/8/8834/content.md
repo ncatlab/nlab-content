@@ -548,7 +548,7 @@ and the concept of higher Toda brackets appears around
 
 * {#Cohen68} Joel Cohen, Section 2 of: _The decomposition of stable homotopy_, Annals of Mathematics (2) 87 (2): 305&#8211;320 (1968) ([doi:10.2307/1970586](https://doi.org/10.2307/1970586))
 
-The conceptualization of Toda brackets a [[homotopy coherent diagram|homotopy coherent]] [[pasting diagrams]] in a [[pointed (infinity,1)-category|pointed]] [[homotopy 2-category]] is made explicit in:
+{#ReferencesTodaBracketInHomotopy2Category} The conceptualization of Toda brackets a [[homotopy coherent diagram|homotopy coherent]] [[pasting diagrams]] in a [[pointed (infinity,1)-category|pointed]] [[homotopy 2-category]] (regarded as a [[strict (2,1)-category]]) is made explicit in:
 
 * {#HardieKampsKieboom99} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Rudger  Kieboom]], _Higher homotopy groupoids and Toda brackets_, Homology Homotopy Appl. Volume 1, Number 1 (1999), 117-134 ([euclid:hha/1139840198](https://projecteuclid.org/euclid.hha/1139840198))
 
