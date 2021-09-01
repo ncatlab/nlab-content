@@ -123,6 +123,8 @@ Speculations on physics aspects of lifting the [[Witten genus]] to [[topological
 
 * [[Yuji Tachikawa]], _Topological modular forms and the absence of a heterotic global anomaly_ ([arXiv:2103.12211](https://arxiv.org/abs/2103.12211))
 
+* [[Yuji Tachikawa]], Mayuko Yamashita, _Topological modular forms and the absence of all heterotic global anomalies_ ([arXiv:2108.13542](https://arxiv.org/abs/2108.13542))
+
 
 
 
