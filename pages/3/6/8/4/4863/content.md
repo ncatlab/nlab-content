@@ -95,7 +95,7 @@ This is the infinitesimal form of a [[gauge transformation]]: an [[isomorphism]]
 
 Moreover, all this of course remains true if the [[Cartesian product|product]] $X \times F$ -- which we may think of as the trivial $F$-[[fiber bundle]] over $X$ -- is generalized to any [[associated bundle]] $E \to X$ with [[fiber]] $F$, associated to a $G$-[[principal bundle]] $P \to X$ (hence such that $E = P \times_G F$), in which case the above decomposition of the metric applies locally.
 
-Then one finds that the KK-mechanics indeed not only reproduces [[gauge fields]] and their correct [[dynamics]] from pure [[gravity]] in higher dimensions, but also the [[forces]] which they excert on test particles. For instance the trajectory of a [[charged particle]] subject to the [[Lorentz force]] exerted by an [[electromagnetic field]] in $d$-dimensional [[spacetime]] is in fact a [[geodesic]] in the field of pure [[gravity]] of the total space of the corresponding KK-un-compactified [[circle principal bundle]]. See ([Bleecker 81](#Bleecker81)) or ([Bartlett 13](#Bartlett13)) for a pedagogical discussion of this effect.
+Then one finds that the KK-mechanics indeed not only reproduces [[gauge fields]] and their correct [[dynamics]] from pure [[gravity]] in higher dimensions, but also the [[forces]] which they exert on test particles. For instance the trajectory of a [[charged particle]] subject to the [[Lorentz force]] exerted by an [[electromagnetic field]] in $d$-dimensional [[spacetime]] is in fact a [[geodesic]] in the field of pure [[gravity]] of the total space of the corresponding KK-un-compactified [[circle principal bundle]]. See ([Bleecker 81](#Bleecker81)) or ([Bartlett 13](#Bartlett13)) for a pedagogical discussion of this effect.
 
 A [[pseudo-Riemannian manifold]] of this form $\left(E, g^KK_{E}\right)$ for fixed _[[moduli]]_ $g_F$ is called a **Kaluza-Klein compactification** of the [[spacetime]] $E$. One also speaks of the effective spacetime $X$ as being obtained by **dimensional reduction** from the spacetime $E$.
 
@@ -339,7 +339,7 @@ A textbook account of the geometry behind the [[Lorentz force]] in the Kaluza-Kl
 
 An expository talk of the above material from Bleecker can be found in this talk:
 
-* {#Bartlett13} [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
+* {#Bartlett13} [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://math.sun.ac.za/bbartlett/assets/The%20geometry%20of%20force.pdf)). 
  
 
 Discussion of KK-compactification on [[SU(3)]] equipped with a [[Riemannian metric|metric]] that is [[invariant metric|left invariant]] but not right invariant, thereby inducing an extra term akin to a [[Higgs field]] (see also at *[[Connes-Lott model]]*):
