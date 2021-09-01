@@ -902,33 +902,33 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 ### General
 
-Standard textbook references on group cohomology include
+Textbook accounts:
 
 * [[Kenneth Brown]],  _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
 
-and specifically with an eye towards cohomology of [[finite groups]]
+specifically with an eye towards cohomology of [[finite groups]]
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
 *  [[Alejandro Adem]], [[R. James Milgram]], _Cohomology of Finite Groups_, Springer 2004
 
-and specifically with an eye towards [[profinite groups]]:
+specifically for [[profinite groups]]:
 
 * {#NSW08} [[Jürgen Neukirch]], Alexander Schmidt, Kay Wingberg, Chapter 1 of: *Cohomology of Number Fields*, Springer Grundlehren der mathematischen Wissenschaften **323**, Springer 2008 ([doi:10.1007/978-3-540-37889-1](https://link.springer.com/book/10.1007/978-3-540-37889-1), [webpage](https://www.mathi.uni-heidelberg.de/~schmidt/NSW2e/))
 
+specifically for [[algebraic groups]]:
 
-Exposition includes
+* {#Milne17} [[James Milne]], Section 15 (16 in the pdf) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+
+Further exposition:
 
 * [[Alejandro Adem]], _Lectures on the cohomology of finite groups_ ([pdf](http://www.math.uic.edu/~bshipley/ConMcohomology1.pdf))
 
 * {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
 
-With discussion of [[non-abelian cohomology|non-abelian]] group cohomology:
-
-* {#Karpilovsky87} [[Gregory Karpilovsky]], *The Algebraic Structure of Crossed Products*, Mathematics Studies **142**, North Holland 1987 ([ISBN:9780080872537](https://www.elsevier.com/books/the-algebraic-structure-of-crossed-products/karpilovsky/978-0-444-70239-5))
 
 
-An introduction to group cohomology of a group $G$ as the cohomology of the [[classifying space]] $B G$ is for instance in 
+An introduction to group cohomology of a group $G$ as the cohomology of the [[classifying space]] $B G$:
 
 * Joshua Roberts, _Group cohomology: a classifying space perspective_ ([pdf](http://www.piedmont.edu/math/jroberts/notes/qualifyingtalk.pdf))
 
