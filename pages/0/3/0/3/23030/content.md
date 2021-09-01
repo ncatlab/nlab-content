@@ -759,7 +759,7 @@ Using this, consider the following expression for a pair of comparison functors:
 
 Here 
 
-* $L$ is the restriction along $(H \times H \rightrightarrow H) \xhookrightarrow{\;} (G \times G \rightrightarrows G)$ of the previous isomorphism for $H = $G;
+* $L$ is the restriction along $(H \times H \rightrightarrows H) \xhookrightarrow{\;} (G \times G \rightrightarrows G)$ of the previous isomorphism for $H = $G;
 
 * $R$ is given in terms of the above generating morphisms (eq:GeneratingMorphisms) as follows:
 
