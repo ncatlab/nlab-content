@@ -44,9 +44,9 @@ $\,$
 
 **References**
 
-* GroupNames, _[Q8](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/Q8.html)_, 
+* [[GroupNames]], _[Q8](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/Q8.html)_, 
 
-* Groupprops, _[Linear representation theory of dicyclic groups](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_dicyclic_groups)_
+* [[Groupprops]], _[Linear representation theory of dicyclic groups](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_dicyclic_groups)_
 
 * [[James Montaldi]], _[Real representations -- Binary cubic -- Q8](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic)_
 
