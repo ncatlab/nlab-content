@@ -268,7 +268,7 @@ See also:
 
 [^1]: The reason for  choosing the term "k-space" in [Gale 1950](#Gale50) seems to be lost in history. The "k" is not for "Kelley", as [Kelley 1955](#Kelley55) came later. It might have been an allusion to the German word *kompakt*.
 
-[^2]: [[Martin Escardo]] recalls, [here in 2021](https://nforum.ncatlab.org/discussion/8638/compactly-generated-topological-space/?Focus=94755#Comment_94755), [[William Lawvere]] reporting, in 2003, on a conversation with [David Gale](#Gale50) as follows: "Now I have telephoned David Gale again. He states that he had participated in a seminar at Princeton in 1948-1949 in which Hurewicz lectured on his k-space definition and on the exponential law which results."
+[^2]: According to [this comment](https://nforum.ncatlab.org/discussion/8638/compactly-generated-topological-space/?Focus=94755#Comment_94755).
 
 
 
