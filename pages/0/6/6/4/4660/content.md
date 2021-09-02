@@ -28,7 +28,7 @@
 
 _Lie group cohomology_ generalizes the notion of [[group cohomology]] from [[discrete group]]s to [[Lie group]]s.
 
-From the [[nPOV]] on [[cohomology]], a natural definition is that for $G$ a Lie group, its cohomology is the intrinsic cohomology of its [[delooping]] [[Lie groupoid]] $\mathbf{B}G$ in the [[(∞,1)-topos]] $\mathbf{H} =$ [[?LieGrpd]].
+From the [[nPOV]] on [[cohomology]], a natural definition is that for $G$ a Lie group, its cohomology is the intrinsic cohomology of its [[delooping]] [[Lie groupoid]] $\mathbf{B}G$ in the [[(∞,1)-topos]] $\mathbf{H} =$ [[smooth infinity-groupoid|Smth$\infty$Grpd]].
 
 In the literature one finds a sequence of definitions that approach this intrisic topos-theoretic definition. This is discussed below. For a detailed discussion of the relation of this to the intrinsic topos-theoretic definition see the section <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#CohomologyOfLieGroups">Cohomology of Lie groups</a> at [[∞-Lie groupoid]].
 
