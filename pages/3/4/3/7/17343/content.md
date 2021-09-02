@@ -6386,7 +6386,7 @@ Finally we check that the concept of [[homotopy]] and [[homotopy groups]] does n
 +-- {: .num_prop #kificationComparisonIsWeakHomotopyEquivalence}
 ###### Proposition
 
-For every topological space $X$, the canonical function $k(X) \longrightarrow X$ (the [[adjunction unit]]) is a [[weak homotopy equivalence]].
+For every topological space $X$, the canonical function $k(X) \longrightarrow X$ (the [[adjunction counit]]) is a [[weak homotopy equivalence]].
 
 =--
 
