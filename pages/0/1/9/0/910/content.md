@@ -173,7 +173,7 @@ $$
   k(X)
     \underoverset
       {whe}
-      {\;\eta^k_X\;}
+      {\;\varepsilon^k_X\;}
       {\longrightarrow}
   X
   \,,
