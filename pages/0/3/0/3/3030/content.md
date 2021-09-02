@@ -12,7 +12,7 @@
 
 
 
-This entry largely discusses [[Schreier theory]] of nonabelian [[group extension]]s -- but from the [[nPOV]].
+This entry largely discusses [[Schreier theory]] of nonabelian [[group extensions]] -- but from the [[nPOV]].
 
 
 #Contents#
@@ -556,6 +556,8 @@ See there for details.
 
 ## Related concepts
 
+* [[non-abelian cohomology]]
+
 * [[group cohomology]]
 
   * **nonabelian group cohomology**, [[groupoid cohomology]]
@@ -565,3 +567,11 @@ See there for details.
 * [[Lie group cohomology]] 
 
   * [[∞-Lie groupoid cohomology]]
+
+## References
+
+Non-abelian group cohomology in degree 1, as the set of [crossed-conjugation](crossed+homomorphism#AdjointActionOnCrossedHomomorphisms)-[[equivalence classes]] of [[crossed homomorphisms]] is made explicit in
+
+* [[Groupprops]], *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
+
+
