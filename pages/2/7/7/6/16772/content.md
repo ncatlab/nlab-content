@@ -194,13 +194,13 @@ See also
 
 * Wikipedia, _[Dicyclic group](https://en.wikipedia.org/wiki/Dicyclic_group)_
 
-* Groupprops, _[Dicyclic group](https://groupprops.subwiki.org/wiki/Dicyclic_group)_
+* [[Groupprops]], _[Dicyclic group](https://groupprops.subwiki.org/wiki/Dicyclic_group)_
 
-* Groupprops, _[Linear representation theory of dicyclic groups](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_dicyclic_groups)_
+* [[Groupprops]], _[Linear representation theory of dicyclic groups](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_dicyclic_groups)_
 
-* {#Groupprops} Groupprops, _[Group cohomology of dihedral group:D8](http://groupprops.subwiki.org/wiki/Group_cohomology_of_dihedral_group:D8)_
+* {#Groupprops} [[Groupprops]], _[Group cohomology of dihedral group:D8](http://groupprops.subwiki.org/wiki/Group_cohomology_of_dihedral_group:D8)_
 
-* GroupNames, _[Dicyclic groups $Dic_n$](https://people.maths.bris.ac.uk/~matyd/GroupNames/dicyclic.html)_
+* [[GroupNames]], _[Dicyclic groups $Dic_n$](https://people.maths.bris.ac.uk/~matyd/GroupNames/dicyclic.html)_
 
 [[!redirects dihedral groups]]
 
