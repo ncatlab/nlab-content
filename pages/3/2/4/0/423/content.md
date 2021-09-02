@@ -1458,7 +1458,8 @@ See also [[examples in topology]].
 ### Algebraic topology and homotopy theory
 
 * [[homotopy]], [[homotopy inverse]], [[homotopy theory]], [[homotopy equivalence]], [[rational homotopy theory]]
-* [[shape theory]], [[algebraic topology]], [[basic problems of algebraic topology]]
+
+* [[shape theory]], [[algebraic topology]]
 
 * [[model category]], [[category of fibrant objects]], [[Quillen adjunction]], [[Quillen equivalence]], [[category with weak equivalences]],
 
@@ -1543,30 +1544,27 @@ Textbook accounts:
 
 * {#Kelley55} [[John Kelley]], _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
-* [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
+* {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989) ([pdf](https://pdfs.semanticscholar.org/6da4/9fba6462a5c3e6b528a8b3e8be3a1c1e743d.pdf))
 
-* {#BradleyBrysonTerilla20} [[Tai-Danae Bradley]], [[Tyler Bryson]], [[John Terilla]], _Topology -- A categorical approach_, MIT Press 2020 ([ISBN:9780262539357](https://mitpress.mit.edu/books/topology), [web version](https://topology.pubpub.org/))
-
-  > (with emphasis on tools from [[category theory]])
-
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
 
-On [[category theory|category theoretic]] aspects of [[general topology]]:
+With emphasis on [[category theory|category theoretic]] aspects of [[general topology]]:
 
-* [[Horst Herrlich]], [[George Strecker]], *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1* , Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
+* [[Horst Herrlich]], [[George Strecker]], *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1*, Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
 
 
+* {#BradleyBrysonTerilla20} [[Tai-Danae Bradley]], [[Tyler Bryson]], [[John Terilla]], _Topology -- A categorical approach_, MIT Press 2020 ([ISBN:9780262539357](https://mitpress.mit.edu/books/topology), [web version](https://topology.pubpub.org/))
 
 See also
 
 * [[Alan Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
-and see also the references at _[[algebraic topology]]_.
+and see further references at *[[algebraic topology]]*.
 
 Lecture notes: 
 
@@ -1585,6 +1583,9 @@ Basic topology set up in [[intuitionistic mathematics]] is discussed in
 
 * {#Waaldijk96} [[Frank Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
 
-See also
+See also:
 
 * [[Topospaces]], a Wiki with basic material on topology.
+
+
+
