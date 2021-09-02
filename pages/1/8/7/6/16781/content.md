@@ -113,7 +113,7 @@ The [[group cohomology]] of the orientation-preserving octahedral group is discu
 
 Aspects of the linear [[representation theory]] of the binary octahedral group ([[irreducible representations]], [[character table]]) is spelled out at 
 
-* Groupprops, _[Linear representation theory of binary octahedral group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_binary_octahedral_group)_
+* [[Groupprops]], _[Linear representation theory of binary octahedral group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_binary_octahedral_group)_
 
 See also
 
