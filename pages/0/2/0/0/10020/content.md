@@ -137,9 +137,11 @@ Generalization to [[boundary field theory]]:
 
 
 
-See also
+See also:
 
 * Stefano Speziali, _Spin 2 fluctuations in 1/4 BPS AdS3/CFT2_ ([arxiv:1910.14390](https://arxiv.org/abs/1910.14390))
+
+* Bruno Balthazar, Amit Giveon, David Kutasov, Emil J. Martinec, *Asymptotically Free AdS3/CFT2* ([arXiv:2109.00065](https://arxiv.org/abs/2109.00065))
 
 
 
