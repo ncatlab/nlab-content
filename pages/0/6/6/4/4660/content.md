@@ -322,13 +322,18 @@ The definition of the refined [[topological group]] cohomology in terms of degre
 
 It was later rediscovered for [[Lie group]]s in
 
-* [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
-{#Brylinski}
+* {#Brylinski} [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 
 following
 
-* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes, Ast&eacute;risque vol. 124-125 (1985), pp. 113-130
-{#Blanc}
+* {#Blanc}P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes, Ast&eacute;risque vol. 124-125 (1985), pp. 113-130
+
+
+Further discussion:
+
+* [[Friedrich Wagemann]], [[Christoph Wockel]], *A Cocycle Model for Topological and Lie Group Cohomology*, Transactions of the American Mathematical Society **367** 3 (2015) 1871-1909 ([arXiv:1110.3304](https://arxiv.org/abs/1110.3304), [jstor:24513021](https://www.jstor.org/stable/24513021))
+
+
 
 Relevant background on the theory of abelian sheaf cohomology on simplicial spaces is at the beginning of 
 
