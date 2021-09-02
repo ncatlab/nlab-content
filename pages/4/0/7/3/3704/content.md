@@ -113,6 +113,10 @@ A fairly comprehensive account of the underlying theory of [[string diagrams]] i
 
 * {#Selinger} [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 
+Textbook account of the underlying [[category theory]]:
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
+
 
 A pedagogical exposition of the graphical calculus is in
 
