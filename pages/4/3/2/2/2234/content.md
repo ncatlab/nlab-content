@@ -9,31 +9,76 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
+
 ## Definition
 
-The __centralizer subgroup__ (also: _[[commutant]]_) of a [[subset]] $S$ in (the [[set]] [[forgetful functor|underlying]]) a [[group]] $G$ is the [[subgroup]] 
+\begin{definition}\label{CentralizerSubgroup}
+Given a [[group]] $G$ and a [[subset]] $S \,\subset\, G$ of its [[underlying]] [[set]], 
+the *centralizer subgroup* (also: the *[[commutant]]*) of $S$ in $G$ is the [[subgroup]] 
 
 $$
-  C_G(S) \subset G
+  C_G(S) 
+  \;\coloneqq\;
+  \big\{
+    g \in G 
+    \,\vert\,
+    \underset{s \in S}{\forall}
+    (
+      g \cdot s \,=\, s \cdot g
+    )
+  \big\}
+  \;\subset\;
+  G
 $$ 
 
-of all [[elements]] $c \in G$ which commute with $S$, hence such that $c \cdot s = s \cdot c$ for all $s \in S$.  
+of all [[elements]] $c \in G$ which commute with the elements of $S$.
+\end{definition}
 
-Notice the similarity with but difference to the concept of _[[normalizer subgroup]]_.
+Notice the similarity with but the difference to the concept of _[[normalizer subgroup]]_, see Prop. \ref{RelationToNormalizer}.
 
-The centralizer of $S$ is clearly a [[subgroup]] of its [[normalizer]]
+
+## Properties
+
+\begin{proposition}\label{RelationToNormalizer}
+Given a [[subset]] $S \subset G$ of a [[group]] $G$,
+the *centralizer subgroup* of $S$ (Def. \ref{CentralizerSubgroup})
+is a [[subgroup]] of the [[normalizer subgroup]]:
 
 $$
   C_G(S)
+  \;
   \subset
+  \;
   N_G(S)
+  \,.
 $$
-
-as fixing the set $g H = H g$ is a weaker requirement than  $g h=h g$ for all $h\in H$.
+\end{proposition}
+\begin{proof}
+  Since an element $g \in G$ which fixes each element $s \in S$ separately
+  already fixes the entire subset as such:
+  $$
+    \underset{s \in S}{\forall}
+    \big(
+      g \cdot s
+      \,=\,
+      s \cdot g 
+    \big)
+    \;\;\;\;\;
+    \Rightarrow
+    \;\;\;\;\;
+    \big(
+      g \cdot S
+      \,=\,
+      S \cdot g 
+    \big)
+    \,.
+  $$
+\end{proof}
 
 ## Related concepts
 
