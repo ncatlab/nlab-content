@@ -158,7 +158,7 @@ See also
 
 * [[eom]], _[Crystallographic group](https://www.encyclopediaofmath.org/index.php/Crystallographic_group)_
 
-* Groupprops, _[Space group](https://groupprops.subwiki.org/wiki/Space_group)_
+* [[Groupprops]], _[Space group](https://groupprops.subwiki.org/wiki/Space_group)_
 
 * Wikipedia, _[Space group](https://en.wikipedia.org/wiki/Space_group)_
 
