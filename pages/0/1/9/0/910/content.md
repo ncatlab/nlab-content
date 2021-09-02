@@ -161,7 +161,48 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 ### Regularity
  {#Regularity}
 
-The category of compactly generated [[Hausdorff spaces]] is a [[regular category]] ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)).
+The category of compactly generated [[Hausdorff spaces]] is a [[regular category]]. ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)).
+
+### Homotopy
+ {#Homotopy}
+
+\begin{proposition}\label{kIficationIsWeakHomotopyEquivalence}
+  For every [[topological space]] $X$, the canonical [[continuous function]] to its $k$-ification (the [[adjunction unit]]) is a [[weak homotopy equivalence]], hence induces an [[isomorphism]] on all [[homotopy groups]]:
+
+$$
+  X
+    \underoverset
+      {whe}
+      {\;\eta^k_X\;}
+      {\longrightarrow}
+  k(X)
+  \,,
+  \;\;\;
+  \text{i.e.}
+  \;\;\;
+  \pi_0(X)
+    \xrightarrow{\;\sim\;}
+  \pi_0\big(k(X)\big)
+  \,,
+  \;\;
+  \text{and}  
+  \;\;
+  \underset{
+    {x \in X}
+    \atop
+    {n \in \mathbb{N}_+}
+  }{\forall}
+  \Big(
+    \pi_n(X,\,x)   
+      \xrightarrow{\sim}
+    \pi_n\big( k(X),\, x \big)
+  \Big)
+  \,.
+$$
+\end{proposition}
+A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparisonIsWeakHomotopyEquivalence) at *[[Introduction to Homotopy Theory]]*.
+
+
 
 ## Related concepts
 
