@@ -12,6 +12,10 @@ On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[B
 
 * {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
 
+On a [[perturbation series]] for the [[M2-brane]] [[Green-Schwarz sigma-model]] quantized to the [[BFSS matrix model]]:
+
+* [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
+
 
 On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
 
