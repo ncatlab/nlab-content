@@ -92,7 +92,7 @@ $$
 
 * [[algebraic number theory]]
 
-## References
+## Literature
 
 * [[John Tate]], _Galois cohomology_ ([pdf](http://modular.math.washington.edu/edu/2010/582e/refs/tate-galois_cohomology.pdf))
 
@@ -100,10 +100,14 @@ $$
 
   _Cohomologie galoisienne_, Lecture Notes in Mathematics, 5 (Fifth ed. 1994), Springer-Verlag, MR1324577 doi:[10.1007/BFb0108758)](https://doi.org/10.1007/BFb0108758)
 
+* {#GilleSzamuely06} [[Philippe Gille]], [[Tamás Szamuely]], *Central Simple Algebras and Galois Cohomology*, Cambridge University Press  2006 ([doi:10.1017/CBO9780511607219](https://doi.org/10.1017/CBO9780511607219), [pdf](http://www.math.ens.fr/~benoist/refs/Gille-Szamuely.pdf))
+
 
 * Gr&#233;gory Berhuy, _An introduction to Galois cohomology and its applications_ ([pdf](http://www-fourier.ujf-grenoble.fr/~berhuy/fichiers/NTUcourse.pdf))
 
 * M. Kneser, _Lectures on Galois cohomology of classical groups_ ([pdf](http://www.math.tifr.res.in/~publ/ln/tifr47.pdf))
+
+See also:
 
 * Wikipedia, _[Galois cohomology](http://en.wikipedia.org/wiki/Galois_cohomology)_
 
