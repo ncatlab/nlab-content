@@ -815,7 +815,12 @@ For an elementary introduction to monoidal categories using [[string diagrams]],
 
 A more detailed tour of monoidal categories, also using string diagrams, and including autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories:
 
-* Peter Selinger, [A survey of graphical languages for monoidal categories](http://www.mathstat.dal.ca/~selinger/papers.html#graphical).
+* [[Peter Selinger]], [A survey of graphical languages for monoidal categories](http://www.mathstat.dal.ca/~selinger/papers.html#graphical).
+
+Textbook account with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]]:
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
+
 
 
 [[!redirects monoidal category]]
