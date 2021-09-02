@@ -313,6 +313,7 @@ Discussion of the corresponding continuum theory, formulated via [[local nets of
 
 * {#Faulkner20} [[Thomas Faulkner]], _The holographic map as a conditional expectation_ ([arXiv:2008.04810](https://arxiv.org/abs/2008.04810))
 
+### Via holographic tensor networks and quantum codes
 
 Relation to [[renormalization]] of [[entanglement]] and [[tensor networks]] is due to 
 
@@ -385,6 +386,12 @@ Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[hol
 Discussion in terms of [[DHR superselection theory]]:
 
 * {#CHMP19} Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
+
+Discussion of [[gauge symmetry]] of [[holographic tensor networks]] and their [[quantum error correcting codes]]:
+
+* Kfir Dolev, Vladimir Calvera, Sam Cree, Dominic J. Williamson, 
+*Gauging the bulk: generalized gauging maps and holographic codes* ([arXiv:2108.11402](https://arxiv.org/abs/2108.11402))
+
 
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
