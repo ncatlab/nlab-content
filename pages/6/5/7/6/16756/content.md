@@ -16,5 +16,10 @@ following
 
 * [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Non-Abelian sigma models from Yang-Mills theory compactified on a circle_, Physics Letters B Volume 781, 10 June 2018, Pages 322-326 ([arXiv:1803.07322](https://arxiv.org/abs/1803.07322))
 
+On a [[perturbation series]] for the [[M2-brane]] [[Green-Schwarz sigma-model]] quantized to the [[BFSS matrix model]]:
+
+* [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
+
+
 
 category: people
