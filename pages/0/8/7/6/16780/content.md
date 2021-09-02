@@ -148,7 +148,7 @@ Discussion of the [[group cohomology]]:
 
 * {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
 
-* {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
+* {#Groupprops} [[Groupprops]], _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
 
 
 Discussion of [[higher central extension]] to [[Platonic 2-groups]] is in
