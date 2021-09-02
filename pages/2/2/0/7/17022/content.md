@@ -24,7 +24,7 @@ A [[field extension]] with [[Galois group]] a [[dihedral group]].
 
 ## Referenes
 
-* GroupProps, _[Galois extensions for dihedral groups:D8](http://groupprops.subwiki.org/wiki/Galois_extensions_for_dihedral_group:D8)_
+* [[Groupprops]], _[Galois extensions for dihedral groups:D8](http://groupprops.subwiki.org/wiki/Galois_extensions_for_dihedral_group:D8)_
 
 * Hirotada Naito, _Dihedral extensions of degree 8 over the rational p-adic fields_, Proc. Japan Acad. Ser. A Math. Sci. Volume 71, Number 1 (1995), 17-18. ([Euclid](http://projecteuclid.org/euclid.pja/1195510841))
 
