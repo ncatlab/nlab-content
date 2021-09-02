@@ -42,6 +42,6 @@ $\,$
 
 **References**
 
-* Groupnames, _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/GL(2,3).html">GL(2,3)</a>_
+* [[GroupNames]], _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/GL(2,3).html">GL(2,3)</a>_
 
 category: character tables
