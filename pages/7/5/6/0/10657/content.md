@@ -52,7 +52,7 @@ Discussion in [[semi-abelian categories]]:
 
 ### For discrete groups
 
-* groupprops wiki _[Universal central extension](http://groupprops.subwiki.org/wiki/Universal_central_extension)_
+* [[Groupprops]], _[Universal central extension](http://groupprops.subwiki.org/wiki/Universal_central_extension)_
 
 ### For Lie groups
 
