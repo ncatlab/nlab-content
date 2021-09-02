@@ -371,6 +371,11 @@ This and much more history is recalled in
 
 * [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, World Scientific 2021 ([doi:10.1142/12253](https://doi.org/10.1142/12253))
 
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
+
+  > (emphasis on [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]])
+
 #### Topos theory
 
 Monographs on [[topos theory]]:
