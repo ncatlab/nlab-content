@@ -237,6 +237,9 @@ The classical theory via [[principal bundles]] and [[Lie groups]]/[[algebraic gr
 
 *  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
 
+The case of [[nonabelian group cohomology]]:
+
+* {#Milne17} [[James Milne]], Section 27.a (of the [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf), not present in the published version) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
 
 ### Categorified theory -- 2-bundles/gerbes 
