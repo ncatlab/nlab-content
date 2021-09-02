@@ -48,6 +48,10 @@ See also
 
 * Qiang Jia, _On matrix description of D-branes_ ([arXiv:1907.00142](https://arxiv.org/abs/1907.00142))
 
+A new kind of [[perturbation series]] for the quantized super-membrane:
+
+* [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
+
 
 [[!redirects quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
