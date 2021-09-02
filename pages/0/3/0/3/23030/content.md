@@ -266,7 +266,8 @@ That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomo
   $\phi_1, \phi_2$ (Def. \ref{CrossedHomomorphism}) are [[adjoint action|adjoint]] $\phi_1 \xrightarrow{\;\gamma\;} \phi_2$ if in 
   their incarnation as homomorphisms to $\Gamma \rtimes G$  (Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}) they are related by conjugation with an element  
   $\gamma \in \Gamma \xhookrightarrow{\;} \Gamma \rtimes G$, in that:
-  $$
+  \[
+    \label{CrossedConjugationRelation}
     \underset{
       g \in G
     }{\forall}
@@ -279,7 +280,7 @@ That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomo
       \cdot
     \alpha(g)(\gamma)
     \,.
-  $$
+  \]
 \end{definition}
 (e.g. [Gille & Szamuely 2006, (2) on p. 25](#GilleSzamuely06))
 \begin{remark}\label{AsCoboundariesInGroupCohomology}
@@ -311,8 +312,7 @@ All the formulas [above](#ComponentDefinition) may conceptually be understood as
 **([[groupoid]] of [[crossed homomorphisms]] is [[slice category|sliced]] [[functor groupoid]] of [[delooping groupoids]])**
 \linebreak
   The [[groupoid]] 
-  \[
-    \label{ConjugationGroupoidOfCrossedHomomorphismsInPropRelatingToSlicedFunctor}
+  \[   \label{ConjugationGroupoidOfCrossedHomomorphismsInPropRelatingToSlicedFunctor}
      CrsHom(G,\Gamma) \sslash_{\!\! ad} \Gamma  
      \;\;
        \coloneqq
@@ -429,7 +429,8 @@ $$
 
 Since [[composition]] in the [[delooping groupoid]] is given by the group product, this is equivalently the condition that
 
-$$
+\[
+  \label{CrossedConjugationAsConjugationInTheSemidirectProduct}
     \big(
       \phi_2(g)
       ,\,
@@ -458,9 +459,9 @@ $$
     \;
     \Gamma \rtimes G
     \,,
-$$
+\]
 
-which is equivalently the defining relation from Def. \ref{AdjointActionOnCrossedHomomorphisms}.  
+which is evidently equivalent to the defining relation from Def. \ref{AdjointActionOnCrossedHomomorphisms}.  
 \end{proof}
 
 \begin{remark}
@@ -486,9 +487,74 @@ $$
 $$
 \end{remark}
 
+But we also get higher homotopy information, beyond the cohomology set:
+
+\begin{proposition}\label{AutomorphismGroupOfCrossedHomomorphism}
+**([[automorphism group]] of [[crossed homomorphisms]])**
+\linebreak
+  For $\phi \colon G \xrightarrow{\;} \Gamma$
+  a crossed homomorphism (Def. \ref{CrossedHomomorphism}),
+  its [[automorphism group]] in the conjugation groupoid (eq:ConjugationGroupoidOfCrossedHomomorphismsInPropRelatingToSlicedFunctor), hence the [[subgroup]] 
+$$
+  Aut(\phi)
+  \;\coloneqq\;
+  Aut_{{}_{
+    CrsHom(G,\Gamma) \sslash_{\! ad} \Gamma
+  }}
+  \big(
+    \phi
+  \big)
+  \;=\;
+  \Big\{
+  \,
+    \gamma \,\in\, \Gamma
+    \,\vert\,
+    \phi(-)
+      \,=\,
+    \gamma^{-1} \cdot \phi(-) \cdot \alpha(-)(\gamma)
+  \,
+  \Big\}
+  \;\;\;
+  \subset
+  \;
+  \Gamma
+$$
+of crossed conugations (Def. \ref{AdjointActionOnCrossedHomomorphisms}) that [[fixed point|fix]] it, is, equivalently, the [[intersection]] of $i(\Gamma) = \{ (\gamma, \mathrm{e}) \,\vert\, \gamma \in \Gamma \}$ with
+
+1. the [[centralizer]] $C_{{}_{\Gamma \rtimes G}}\big(Graph(\phi)\big)$
+
+1. the [[normalizer]] $N_{{}_{\Gamma \rtimes G}}\big(Graph(\phi)\big)$
+
+of the [[graph of a function|graph]] of $\phi$ inside the [[semidirect product]] group:
+$$
+  \begin{aligned}
+    Aut(\phi)
+    &
+    \;\;=\;\;
+    i(\Gamma) 
+      \,\cap\, 
+    C_{{}_{\Gamma \rtimes G}}\big(Graph(\phi)\big)
+    \\
+    &
+    \;\;=\;\;
+    i(\Gamma) 
+      \,\cap\, 
+    N_{{}_{\Gamma \rtimes G}}\big(Graph(\phi)\big)
+    \,.
+  \end{aligned}
+$$
+\end{proposition}
+(compare [Lashof & May 1986, below Thms. 10, 11](equivariant+bundle#LashofMay86))
+\begin{proof}
+  The first statement is immediate from the re-formulation (eq:CrossedConjugationAsConjugationInTheSemidirectProduct) of 
+crossed conjugation (eq:CrossedConjugationRelation).
+
+From this, the second statement follows by observing that the action in the form (eq:CrossedConjugationAsConjugationInTheSemidirectProduct) manifestly fixes the $G$-component under projection along $pr_2$, while the [[graph of a function|graph]] of a function $G \to \Gamma$ has at most one element with a given $G$-component.
+\end{proof}
+
+
 
 ## Examples
-
 
 ### In relation to crossed modules
 
