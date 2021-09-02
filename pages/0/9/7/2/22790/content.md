@@ -2,7 +2,15 @@
 
 * [personal page](https://www.mschmidt.uni-bayreuth.de/)
 
+
+## Selected writings
+
+
 On [[differential geometry]] and [[mathematical physics]]
+
+specifically on [[differential geometry]] and [[Lie groups]]:
+
+* [[Gerd Rudolph]], [[Matthias Schmidt]], *Differential Geometry and Mathematical Physics Part I. Manifolds, Lie Groups and Hamiltonian Systems*, Springer 2013 ([doi:10.1007/978-94-007-5345-7](https://link.springer.com/book/10.1007/978-94-007-5345-7))
 
 specifically on [[fiber bundles in physics]] ([[principal bundles]], [[principal connections]], [[classifying spaces]], [[Chern-Weil theory]], [[spin bundles]], [[Yang-Mills theory]]):
 
