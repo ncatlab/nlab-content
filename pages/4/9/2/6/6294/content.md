@@ -36,7 +36,48 @@ The more traditional definition, based on a traditional presentation of the [[eq
 ### Via the microcosm principle
  {#ViaTheMicrocosmPrinciple}
 
-(...)
+Alternatively, one may define ring objects following the Baez–Dolan [[microcosm principle]]. Indeed, similarly to how it is possible to define monoids in a monoidal category (a pseudomonoid in $(\mathsf{Cat},\times,\mathsf{pt})$), it is possible to speak of  semiring objects internal to any [[bimonoidal category]] (a pseudomonoid in $(\mathsf{SymMonCats},\otimes_{\mathbb{F}},\mathbb{F})$).
+
+Namely, a **semiring in a [[bimonoidal category]]** $(\mathcal{C},\otimes_{\mathcal{C}},\oplus_{\mathcal{C}},\mathbf{0}_{\mathcal{C}},\mathbf{1}_{\mathcal{C}})$ is given by a quintuple $(R,\mu^{+}_{R},\eta^{+}_{R},\mu^{\times}_{R},\eta^{\times}_{R})$ consisting of
+
+  - An object $R$ of $\mathcal{C}$, called the **underlying object** of the semiring;
+  - A morphism
+    $$\mu^{+}_{R}\colon R\oplus_{\mathcal{C}}R\longrightarrow R$$
+    of $\mathcal{C}$, called the **addition morphism of $R$**;
+  - A morphism
+    $$\mu^{\times}_{R}\colon R\otimes_{\mathcal{C}}R\longrightarrow R$$
+    of $\mathcal{C}$, called the **multiplication morphism of $R$**;
+  - A morphism
+    $$\eta^{+}_{R}\colon\mathbf{0}_{\mathcal{C}}\longrightarrow R$$
+    of $\mathcal{C}$, called the **additive unit morphism of $R$**;
+  - A morphism
+    $$\eta^{\times}_{R}\colon\mathbf{1}_{\mathcal{C}}\longrightarrow R$$
+    of $\mathcal{C}$, called the **multiplicative unit morphism of $R$**;
+
+satisfying the following conditions:
+
+  1. The triple $(R,\mu^{+}_R,\eta^{+}_R)$ is a [[commutative monoid in a symmetric monoidal category | commutative monoid in $\mathcal{C}$]];
+  2. The triple $(R,\mu^{\times}_R,\eta^{\times}_R)$ is a [[monoid in a monoidal category | monoid in $\mathcal{C}$]];
+  3. The diagrams
+
+     \begin{imagefromfile}
+         "file_name": "semiring_in_bimonoidal_bilinearity_1.png",
+         "width": 800
+     \end{imagefromfile}
+ 
+     corresponding to the semiring axioms $a(b+c)=a b+a c$ and $(a+b)c=a c+b c$ commute;
+  4. The diagrams
+
+     \begin{imagefromfile}
+         "file_name": "semiring_in_bimonoidal_bilinearity_2_corr.png",
+         "width": 500
+     \end{imagefromfile}
+
+     corresponding to the semiring axioms $0a=0$ and $a0=0$ commute;
+
+Moreover, for $\mathcal{C}$ a _braided_ bimonoidal category, one defines a **commutative semiring in $\mathcal{C}$** to be a semiring in $\mathcal{C}$ whose multiplicative monoid structure is commutative.
+
+A partial version of this definition first appeared in ([Brun 2006, Definition 5.1](#Brun2006)).
 
 ## Examples
 
@@ -48,6 +89,14 @@ The more traditional definition, based on a traditional presentation of the [[eq
 
 * The [[affine line]] (see there) is a ring object in the given ambient [[topos]].
 
+For the notion of a semiring in a [[bimonoidal category]] [defined via the microcosm principle](#ViaTheMicrocosmPrinciple), we have the following examples.
+
+ * A semiring in $\left(\mathsf{Sets},\coprod,\times,\emptyset,\times\right)$ is a monoid.
+ * A semiring in $\left(\mathsf{CMon},\oplus,\otimes_\mathbb{N},0,\mathbb{N}\right)$ is a semiring.
+ * A semiring in $\left(\mathsf{Ab},  \oplus,\otimes_\mathbb{Z},0,\mathbb{Z}\right)$ is a ring.
+ * A semiring in $\left(\mathsf{Mod}_R,\oplus,\otimes_R,0,R\right)$ is an associative algebra.
+ * A semiring in $\left(\mathsf{Cats},\coprod,\times,\emptyset_{\mathsf{cat}},\mathsf{pt}\right)$ is a strict monoidal category.
+
 ## Related concepts
 
 * [[monoid]], [[monoid object]],
@@ -56,6 +105,9 @@ The more traditional definition, based on a traditional presentation of the [[eq
 
 * [[ring]], **ring object**
 
+## References
+
+* {#Brun2006} [[Morten Brun]], *Witt Vectors and Equivariant Ring Spectra*, 2006. Proceedings of the London Mathematical Society, Volume 94, pp. 351--385. ([arXiv:math/0411567](https://arxiv.org/abs/math/0411567), [doi:10.1112/plms/pdl010](https://doi.org/10.1112/plms/pdl010).)
 
 [[!redirects ring object]]
 [[!redirects ring objects]]
