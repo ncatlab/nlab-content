@@ -19,7 +19,25 @@
 
 ## Idea
 
-For $G$ a [[compact Lie group]] and $\Gamma$ any [[Lie group]], every [[group homomorphisms]] $\phi \,\colon\, G \xrightarrow{\;} \Gamma$ (as [[topological groups]], [[continuous homomorphisms of Lie groups are smooth|hence]] as [[Lie groups]]) has a [[neighbourhood]] (in the homomorphism-[[subspace]] of the [[compact open topology]]) all whose elements $\phi'$ are [[conjugation|conjugate]] to $\phi$, in that for each there exists $\gamma \,\in\, \Gamma$ such that $\phi'(-) \,=\,   \gamma^{-1} \cdot \phi(-) \cdot \gamma$ ([Conner & Floyd 1964, Lem. 31.8](#ConnerFloyd64), [Rezk  et al. 2013](#Rezk13)).
+For $G$ a [[compact Lie group]] and $\Gamma$ any [[Lie group]], every [[group homomorphisms]] $\phi \,\colon\, G \xrightarrow{\;} \Gamma$ (as [[topological groups]], [[continuous homomorphisms of Lie groups are smooth|hence]] as [[Lie groups]]) has a [[neighbourhood]] $U_\phi$ (in the homomorphism-[[subspace]] of the [[compact open topology]]) all whose elements $\phi'$ are [[conjugation|conjugate]] to $\phi$, in that 
+
+\[
+  \label{ExistenceOfConjugationsForNearbyHomomorphisms}  
+  \underset{
+    \phi' \in U_{\phi}
+  }{\forall}
+  \;\;\;
+  \underset{
+    \gamma \in \Gamma
+  }{\exists}
+  \;\;\;\;\;\;\;
+  \phi'(-) 
+    \,=\,   
+  \gamma^{-1} \cdot \phi(-) \cdot \gamma
+  \,.
+\]
+
+([Conner & Floyd 1964, Lem. 31.8](#ConnerFloyd64), [Rezk  et al. 2013](#Rezk13)).
 
 It follows (highlighted in [Rezk 2014, Rem. 2.2.1](#Rezk14)) that the [[quotient space]] of the homomorphism space $Hom(G,\Gamma) \,\subset\, Maps(G,\Gamma)$ under the [[adjoint action]] by $\Gamma$ is [[discrete topological space|discrete]]:
 
@@ -53,6 +71,7 @@ and that the homomorphism space itself decomposes, as a [[topological G-space|$\
   \,.
 \]
 
+
 ## Examples
 
 \begin{example}\label{Pontrjagin duality}
@@ -62,6 +81,127 @@ and that the homomorphism space itself decomposes, as a [[topological G-space|$\
 
 In this case, since $S^1$ is [[abelian group|abelian]] so that the [[conjugation action]] on $Hom(G,S^1)$ is [[trivial action|trivial]], the statement (eq:DiscreteQuotientSpace) is a special case of the classical fact that the [[Pontrjagin dual]] of a [[compact topological group]] is [[discrete group|discrete]] (see [there](Pontrjagin+dual#BasicPropertiesOfDualGroups)).
 \end{example}
+
+## For crossed homomorphisms
+ {#ForCrossedHomomorphisms}
+
+Let 
+
+$$
+  \alpha 
+    \;\colon\; 
+  G 
+    \xrightarrow{\;}
+  Aut_{Grp}(\Gamma)
+$$
+
+be a [[group action]] by [[group homomorphism|group]] [[automorphisms]], with the special property that its restriction to the [[center of a group|center]] $C(G) \subset G$ is [[trivial action|trivial]] (for example when $G$ has [[trivial group|trivial]] center to start with):
+
+$$
+  \alpha_{\vert C(G)}
+  \;=\;
+  id_{\Gamma}
+  \,.
+$$
+
+In that case the above statement (eq:ExistenceOfConjugationsForNearbyHomomorphisms) generalizes to say that *nearby [[crossed homomorphisms]] are [crossed conjugate](crossed+homomorphism#AdjointActionOnCrossedHomomorphisms).
+
+
+More precisely, notice ([this Prop.](crossed+homomorphism#CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup)) that  a [[crossed homomorphism]] $\phi \;\colon\; G \xrightarrow{\;} \Gamma$ is equivalently 
+a plain [[group homomorphism]] $(\phi(-),\,(-)) \,\colon\, G \xrightarrow{\;} \Gamma \rtimes G$ to the [[semidirect product group]], subject to the constraint that its projection to $G$ is the [[identity morphism]].
+Now say that another crossed homomorphism $\phi'$ is nearby if it is so as a plain homomorphism $(\phi'(-),(-))$ to the semidirect product group (i.e. we consider [[neighbourhoods]] of crossed homomorphism in the sense of neighbourhoods of the points which they represent in $Hom(G,\Gamma \rtimes G))$.
+
+
+Then the above statement (eq:ExistenceOfConjugationsForNearbyHomomorphisms) says that there is an element $(\gamma,\,h) \,\in\, \Gamma \rtimes G$ such that
+
+\[
+  \label{ConjugationOfHomomorphismsToSemidirectProductGroup}
+  \underset{g \in G}{\forall}
+  \;\;\;\;\;
+  \big(
+    \phi'(g),\,g
+  \big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \gamma, \, h
+  \big)^{-1}
+  \cdot
+  \big(
+    \phi(g),\,g
+  \big)
+  \cdot
+  \big(
+    \gamma, \, h
+  \big)
+  \,.
+\]
+
+In order for such a conjugation to be a [crossed conjugation](crossed+homomorphism#AdjointActionOnCrossedHomomorphisms) of $\phi$ to $\phi'$, we need its $G$-component to be the [[neutral element]]: $h = \mathrm{e} \,\in\, G$.
+
+Now, the further conjugation of (eq:ConjugationOfHomomorphismsToSemidirectProductGroup) by $\big(\mathrm{e},\,h^{-1}\big)$ yields:
+
+$$
+  \Big(
+    \alpha(h^{-1})
+    \big(
+      \phi'(g)
+    \big)
+    ,\, g
+  \Big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \mathrm{e},\, h 
+  \big)
+  \cdot
+  \big(
+    \gamma, \, h
+  \big)^{-1}
+  \cdot
+  \big(
+    \phi(g),\,g
+  \big)
+  \cdot
+  \big(
+    \gamma, \, h
+  \big)
+  \cdot
+  \big(
+    \mathrm{e},\, h^{-1} 
+  \big)
+  \,.
+$$
+
+But we know that $h \in C(G)$ is in the [[center of a group|center]] of $G$, since the projection of both sides of (eq:ConjugationOfHomomorphismsToSemidirectProductGroup) to $G$ must be the identity, by construction of crossed homomorphisms. 
+
+Therefore, by the assumption that the action of $G$ on $\Gamma$ restricts along the inclusion $C(G) \xhookrightarrow{\;} G$ to the [[trivial action]],
+we have $\alpha(h^{-1})\big( \phi(g) \big) \,=\, \phi(g)$ and it follows that
+
+$$
+  \big(
+    \gamma, \, h
+  \big)
+  \cdot
+  \big(
+    \mathrm{e},\, h^{-1} 
+  \big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \gamma, \, \mathrm{e}
+  \big)  
+$$
+
+exhibits the required crossed conjugation:
+
+$$
+  \phi'(-) \;=\;  \gamma^{-1} \cdot \phi(-) \cdot \alpha(-)(\gamma)
+  \,.
+$$
 
 
 ## Related concepts
