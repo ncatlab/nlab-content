@@ -1348,7 +1348,12 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
 
 * {#UribeLueck14} [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
-  > (back to [[structure group]] commuting with the [[equivariance group]])
+  > (for [[structure group]] commuting with the [[equivariance group]])
+
+* {#Rezk14} [[Charles Rezk]], Sec. 2.3 in: *[[Global Homotopy Theory and Cohesion]]*, 2014 ([pdf](http://www.math.uiuc.edu/~rezk/global-cohesion.pdf), [[Rezk14.pdf:file]])
+
+  > (for [[structure group]] commuting with the [[equivariance group]],
+    and in relation to the [[global orbit category]] with an eye towards [[equivariant homotopy theory]])
 
 * {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]], _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565))
 
