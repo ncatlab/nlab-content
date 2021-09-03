@@ -54,6 +54,11 @@ whose image is contained in $W$, and this is a contradiction. Since $U$ contains
 
 In the other direction, suppose given such a $U$. It follows from the Gleason-Yamabe theorem that there is an open subgroup $V$ of $G$ that is a Lie group. (To be completed.) 
 =--
+
+## Related concepts
+
+* [[nearby homomorphisms from compact Lie groups are conjugate]]
+
  
 ## References 
 
