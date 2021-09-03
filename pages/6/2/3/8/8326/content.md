@@ -7416,7 +7416,7 @@ pages 43-56, 1994.
 
 Related commentary is in
 
-* {#Rodin14} [[Andrei Rodin]], section 5.8 _Categorical Logic and Hegelian Dialectics_ of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478)), Springer 1914
+* {#Rodin14} [[Andrei Rodin]], section 5.8 _Categorical Logic and Hegelian Dialectics_ of _Axiomatic Method and Category Theory_, Springer 2014 ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478), [doi:10.1007/978-3-319-00404-4](https://www.springer.com/gp/book/9783319004037)) 
 
 Discussion of formalization of the topics of the "subjective logic" within [[type theory]] include
 
