@@ -230,6 +230,8 @@ See
 
 ## References
 
+Textbook accounts:
+
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
 
   * *I.* A. L. Onishchik, E. B.  Vinberg, _Foundations of Lie Theory_,
@@ -240,14 +242,16 @@ See
 
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf))
 
-Discussion with a view towards [[Chern-Weil theory]] is in 
-chapter IV in vol III of 
+* {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
 
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+Discussion with a view towards [[Chern-Weil theory]]: 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], chapter IV in vol III of: _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 Discussion in [[synthetic differential geometry]] is in 
 
-*  {#Kock09} [[Anders Kock]], section 6 of _Synthetic Geometry of Manifolds_, 2009 ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+* {#Kock09} [[Anders Kock]], section 6 of _Synthetic Geometry of Manifolds_, 2009 ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
 [[!redirects Lie algebras]]
