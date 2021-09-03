@@ -255,6 +255,16 @@ Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PD
 
 * [[Karl-Hermann Neeb]], _Monastir summer school: Infinite-dimensional Lie groups_ ([pdf](http://www.math.uni-hamburg.de/home/wockel/data/monastir.pdf))
 
+### Spaces of homomorphisms
+
+On [[mapping spaces]] of [[continuous function|continuous]] [[homomorphisms]] from [[topological groups]] to [[Lie groups]]:
+
+* [[Pierre Conner]], [[Edwin Floyd]], Ch. III, Lem. 38.1 in: _Differentiable periodic maps_, Bull. Amer. Math. Soc. Volume 68, Number 2 (1962), 76-86 ([euclid:bams/1183524501](https://projecteuclid.org/euclid.bams/1183524501))
+
+* [[Frederick R. Cohen]], [[Mentor Stafa]], *A survey on spaces of homomorphisms to Lie groups*,  In: Callegaro F., Cohen F., De Concini C., Feichtner E., Gaiffi G., Salvetti M. (eds.) *Configuration Spaces*, INdAM Series, vol 14, Springer 2016 ([arXiv:1412.5668](https://arxiv.org/abs/1412.5668), [doi:10.1007/978-3-319-31580-5_15](https://doi.org/10.1007/978-3-319-31580-5_15)) 
+
+* [[Charles Rezk]], *Nearby homomorphisms from compact Lie groups are conjugate* ([MO:q/123624](https://mathoverflow.net/q/123624/381))
+
 [[!redirects Lie groups]]
 
 [[!redirects classical group]]
