@@ -326,6 +326,8 @@ identification on the bottom right mapping space out of the point space.
 
 * [[mapping complex]], [[simplicial mapping complex]]
 
+* [[nearby homomorphisms from compact Lie groups are conjugate]]
+
 ## References
 
 Textbook accounts:
