@@ -196,7 +196,7 @@ In [[physics]], when a [[classical mechanical system]] is symmetric, i.e. invari
 
 The reason that in the definition of a [[unitary representation]], the [[strong operator topology]] on $\mathcal{U}(\mathcal{H})$ is used and not the [[norm topology]], is that only few [[homomorphisms]] turn out to be [[continuous map|continuous]] in the norm topology.
 
-Example: let $G$ be a [[compact topological space|compact]] [[Lie group]] and $L^2(G)$ be the [[Hilbert space]] of square integrable [[measurable function]]s with respect to its [[Haar measure]]. The right [[regular representation]] of $G$ on $L^2(G)$ is defined as
+Example: let $G$ be a [[compact Lie group]] and $L^2(G)$ be the [[Hilbert space]] of square integrable [[measurable function]]s with respect to its [[Haar measure]]. The right [[regular representation]] of $G$ on $L^2(G)$ is defined as
 
 $$
       R: G \to \mathcal{U}(L^2(G))
@@ -208,9 +208,11 @@ $$
 
 and this will generally not be continuous in the norm topology, but is always continuous in the strong topology. 
 
-### Which topological groups admit Lie group structure?
+### Relation to Lie groups
 
-* _[[Hilbert's fifth problem]]_
+* *[[Hilbert's fifth problem]]*: "Which topological groups admit Lie group structure?"
+
+* [[continuous homomorphisms of Lie groups are smooth]]
 
 ### Protomodularity
  {#Protomodularity}
