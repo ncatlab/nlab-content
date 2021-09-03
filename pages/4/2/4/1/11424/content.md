@@ -10,7 +10,7 @@ The _elementary symmetric polynomial_ on $n$ [[variables]] $\{X_i\}$ of degree $
 $$
   \sigma_k(X_1, \cdots, X_n)
   \coloneqq
-  \sum_{1 \leq i_1 \leq \cdots \leq i_k \leq n}
+  \sum_{1 \leq i_1 \lneq \cdots \lneq i_k \leq n}
   X_{i_1} \cdots X_{i_k}
   \,.
 $$
