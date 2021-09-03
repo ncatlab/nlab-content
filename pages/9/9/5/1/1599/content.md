@@ -67,6 +67,11 @@ Then every [[smooth function|smooth]] [[action]] of $G$ on $X$ is [[proper actio
 
 The _[[equivariant triangulation theorem]]_ ([Illman 78](equivariant+triangulation+theorem#Illman78), [Illman 83](equivariant+triangulation+theorem#Illman83)) says that for $G$ a compact Lie group and $X$ a [[compact topological space|compact]] [[smooth manifold]] equipped with a [[smooth function|smooth]] $G$-[[action]], there exists a $G$-[[equivariant triangulation]] of $X$.
 
+### Spaces of homomorphisms
+
+* [[nearby homomorphisms from compact Lie groups are conjugate]]
+
+
 ## Examples
 
 * A [[discrete group]] is a compact Lie group iff it is a [[finite group]].
