@@ -100,7 +100,7 @@ for the [[homotopy colimit]] (the "homotopy [[direct limit]]") over this diagram
 +-- {: .num_remark }
 ###### Remark
 
-The [[topological space]] $B U$ is **not** equivalent to $B U(\mathcal{H}) $, where $U(\mathcal{H})$ is the [[unitary group]] on a separable infinite-dimensional [[Hilbert space]] $\mathcal{H}$. In fact the latter is [[contractible]], hence has a  [[weak homotopy equivalence]] to the point
+The [[topological space]] $B U$ is **not** equivalent to $B U(\mathcal{H}) $, where [[U(ℋ)|$U(\mathcal{H})$]] is the [[unitary group]] on an infinite-dimensional [[separable Hilbert space|separable]] [[Hilbert space]] $\mathcal{H}$. In fact the latter is [[contractible]], hence has a  [[weak homotopy equivalence]] to the point
 
 $$  
   B U(\mathcal{H}) \simeq *
@@ -207,13 +207,13 @@ be the group of unitary operators on a [[separable Hilbert space]] $\mathcal{H}$
 
 =--
 
-Palais showed that
+Palais showed that:
 
 
 +-- {: .num_prop }
 ###### Proposition
 
-$U_\mathcal{K}$ is a [[homotopy equivalence|homotopy equivalent]] model for $B U$. It is in fact the [[norm closure]] of the evident model of $B U$ in $U(\mathcal{H})$. 
+$U_\mathcal{K}$ is a [[homotopy equivalence|homotopy equivalent]] model for $B U$. It is in fact the [[norm closure]] of the evident model of $B U$ in [[U(ℋ)|$U(\mathcal{H})$]]. 
 
 Moreover $U_{\mathcal{K}} \subset U(\mathcal{H})$ is a [[Banach Lie group|Banach Lie]] [[normal subgroup]].
 
