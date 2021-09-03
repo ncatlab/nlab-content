@@ -57,7 +57,7 @@ Related commentary is in ([Rodin 14](#Rodin14)).
 * {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
 
-* {#Rodin14} [[Andrei Rodin]], section 5.8 of  _Categorical Logic and Hegelian Dialectics_ of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478)), Springer 1914
+* {#Rodin14} [[Andrei Rodin]], section 5.8 of:  _Categorical Logic and Hegelian Dialectics_ of _Axiomatic Method and Category Theory_, Springer 2014 ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478), [doi:10.1007/978-3-319-00404-4](https://www.springer.com/gp/book/9783319004037))
 
 
 [[!redirects subjective and objective logic]]
