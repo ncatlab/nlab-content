@@ -205,6 +205,11 @@ For the example of [[phi^4 theory]] this non-convergence of the perturbation ser
 
 * {#BakulevShirkov10} Alexander P. Bakulev, [[Dmitry Shirkov]], section 1.1 of _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia (ISBN 978-86-82441-30-4), pp. 27--54 ([arXiv:1102.2380](https://arxiv.org/abs/1102.2380)) 
 
+Discussion of remaining issues even when resummation does apply:
+
+* Sebastian Schenk, *The Breakdown of Resummed Perturbation Theory at High Energies* ([arXiv:2109.00549](https://arxiv.org/abs/2109.00549))
+
+
 
 See also
 
