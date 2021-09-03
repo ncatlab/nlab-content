@@ -24,7 +24,7 @@ Let $G, H \,\in\, Grp(SmthMfd) \xrightarrow{\;Grp(undrl)\;} Grp(TopSp)$ be [[Lie
 
 Then every [[continuous function|continuous]] [[group homomorphism]] $G \xrightarrow{\;} H$ is [[smooth function|smooth]]. 
 
-Hence the [[function]] of [[hom-sets]]
+In other words, the [[function]] of [[hom-sets]]
 
 $$
   Grp(SmthMfd)
@@ -37,9 +37,13 @@ $$
 is a [[bijection]].
 \end{proposition}
 
-(e.g. [Hall 2015, Cor. 3.50](#(Hall15))
+This follows by applying [[Cartan's closed subgroup theorem]] to the [[graph of a function|graph]] of the homomorphism.
+
+(e.g. [Wang 2013, Cor. 1.7](#Wang13), [Hall 2015, Cor. 3.50](#(Hall15))
 
 ## Related concepts
+
+* [[Cartan's closed subgroup theorem]]
 
 * [[smooth Oka principle]]
 
@@ -48,6 +52,11 @@ is a [[bijection]].
 Textbook accounts:
 
 * {#Hall15} [[Brian C. Hall]], Cor. 3.50 in: *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
+
+Lecture notes:
+
+* {#Wang13} [[Zuoqin Wang]], Cor. 1.7 in: *Cartan's closed subgroup theorem*, Lecture 11 in: [李群引论](http://staff.ustc.edu.cn/~wangzuoq/Courses/13F-Lie/Lie.html), 2013 ([pdf](http://staff.ustc.edu.cn/~wangzuoq/Courses/13F-Lie/Notes/Lec%2011.pdf), [[Wang_CartanClosedSubgroupTheorem.pdf:file]])
+
 
 
 
