@@ -141,3 +141,5 @@ See also
 [[!redirects Phi^4 theory]]
 [[!redirects Phi^4 theories]]
 
+[[!redirects phin theory]]
+
