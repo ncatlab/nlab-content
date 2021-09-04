@@ -199,7 +199,8 @@ between the [Quillen model structure](#QuillenModelStructure) and the [Strom mod
 
 The original "Quillen" or "q-" model structure is due to
 
-* {#Quillen67} [[Dan Quillen]], chapter II, section 3 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+* {#Quillen67} [[Daniel Quillen]], Ch. II, Sec. 3 of *[[Homotopical Algebra]]*, Lecture Notes in Mathematics **43**, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+
 
 An expository, concise and comprehensive writeup is in
 
