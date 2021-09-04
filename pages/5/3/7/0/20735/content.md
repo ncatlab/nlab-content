@@ -238,8 +238,10 @@ Here we are showing
 
 
 ## References
+ {#References}
 
 ### General
+ {#ReferencesGeneral}
 
 * [[Michael Atiyah]], [[Nigel Hitchin]], J. T. Stuart and M. Tabor, _Low-Energy Scattering of Non-Abelian Magnetic Monopoles_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences Vol. 315, No. 1533, New Developments in the Theory and Application of Solitons (Aug. 13, 1985), pp. 459-469 ([jstor:37546](https://www.jstor.org/stable/37546))
 
