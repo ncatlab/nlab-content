@@ -1,4 +1,53 @@
 
+
+\begin{tikzcd}
+    c_X^\ast(W G)
+    \ar[rr]
+    \ar[
+      d,
+      "p_X \,\in\, \mathrm{Fib}"
+    ]
+    &&
+    c_Y^\ast(W G)
+    \ar[
+      d,
+      "p_Y \,\in\, \mathrm{Fib}"
+    ]
+    \ar[rr]
+    &&
+    W G
+    \ar[
+      d,
+      "\in \mathrm{Fib}"
+    ]
+    \\
+    X
+    \ar[
+      rr,
+      "f"{below}
+    ]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+         -- ([yshift=-7pt]\tikztostart.south)
+         --node[below]{\scalebox{.7}{$
+               c_Y
+             $}} ([yshift=-7pt]\tikztotarget.south)
+         -- (\tikztotarget.south)}
+    ]
+    &&
+    Y
+    \ar[
+      rr,
+      "c_Y"{below}
+    ]
+    &&
+    \overline{W}G
+\end{tikzcd}
+
+
+
 $U(\mathcal{H})$
 
 [[U(ℋ)]]
