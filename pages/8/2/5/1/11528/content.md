@@ -34,7 +34,7 @@ In the context of [[equivariant homotopy theory]] this is also called the "coars
 
 ### In topological spaces
 
-Throughout, write [[Top]] for the [[category]] of [[compactly generated weak Hausdorff spaces]].
+Throughout, write [[Top]] for the [[category]] of [[compactly generated weak Hausdordd spaces]].
 
 \begin{definition}
   For $G \,\in\, Grp(TopSp)$ a [[topological group]], write
@@ -160,7 +160,7 @@ $$
 \end{prop}
 ([Guillou 2006, Ex. 5.5](#Guillou06))
 \begin{proof}
-  By defintion of the weak equivalences and fibrations in Prop. \ref{BorelModelStructureOnTopologicalSpaces}, it is immediate that $triv$ preserves these classes of morphisms.
+  By definition of the weak equivalences and fibrations in Prop. \ref{BorelModelStructureOnTopologicalSpaces}, it is immediate that $triv$ preserves these classes of morphisms.
 \end{proof}
 
 \begin{prop}
@@ -221,7 +221,7 @@ $$
 
 models the Borel $G$-[[equivariant cohomology]] of $X$ with [[coefficients]] in $A$. 
 
-In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial set is a [[Kan complex]]) then 
+In particular, if $A$ is [[fibrant object|fibrant]] (the underlying simplicial set is a [[Kan complex]]) then:
 
 1. if the $G_\bullet$-action on $A$ is trivial, then 
 
@@ -259,12 +259,12 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
   For $G$ a [[simplicial group]], there is a pair of [[adjoint functors]]
   \[
     \label{QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace}
-    G_\bullet Acts(sSet)_{proj}
+    G Act\big(sSet_{Qu}\big)_{proj}
       \underoverset
         {\underset{ \big((-) \times W G\big)/G }{\longrightarrow}}
         {\overset{ (-) \times_{\overline{W}G} W G  }{\longleftarrow}}
         {\bot}
-    sSet_{/\overline{W}G}
+    \big(sSet_{Qu}\big)_{/\overline{W}G}
   \]
   which constitute a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] between the Borel model structure (Def. \ref{BorelModelStructure}) and the [[slice model structure]] of the [[classical model structure on simplicial sets]], sliced over the [[simplicial classifying space]] $\overline{W}G$.
   
@@ -280,26 +280,31 @@ Here:
 
 * the [[left adjoint]] forms [[homotopy fibers]].
 
-\begin{proof}
-  
-Consider a [[morphism]] in $sSet_{/\overline{W}G}$
+\begin{proof}\label{SimplicialProofOfEquivalenceToSliceModelStructure}
+Consider any [[morphism]] in $sSet_{/\overline{W}G}$:
 
 $$
   \array{
     X && \xrightarrow{\;\;f\;\;} && Y
-    \\
-    & {}_{\mathllap{p_X}}\searrow && \swarrow_{\mathrlap{p_Y}}
     \mathrlap{\,.}
+    \\
+    & 
+      {}_{\mathllap{c_X}}\searrow 
+    && 
+      \swarrow_{\mathrlap{c_Y}}
     \\
     && \overline{W}G
   }
 $$
 
-Its image under the left adjoint is, by definition, the top left arrow in the following [[commuting diagram]]:
+Its image under the left adjoint functor is, by definition, the top left arrow in the following [[commuting diagram]]:
 
 \begin{tikzcd}
     c_X^\ast(W G)
-    \ar[rr]
+    \ar[
+      rr,
+      "(f) \underset{\overline{W}G}{\times} W G"
+    ]
     \ar[
       d,
       "p_X \,\in\, \mathrm{Fib}"
@@ -360,7 +365,7 @@ In summary, the left adjoint functor in (eq:QuillenAdjunctionWithSliceOverSimpli
 Next...
 \end{proof}
 
-In fact, these functors (eq:QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace) are [[sSet]]-[[enriched functors]] which induced an [[equivalence of (infinity,1)-categories]] between the [[simplicial localizations]]  $L_W sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj} \simeq L_W sSet_{/\overline{W}H}$ ([DDK 80, Prop. 2.5](#DDK80)).
+In fact, these functors (eq:QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace) are [[sSet]]-[[enriched functors]] which induce an [[equivalence of (infinity,1)-categories|equivalence of $(\infty,1)$-categories]] between the [[simplicial localizations]]  $L_W sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj} \simeq L_W sSet_{/\overline{W}H}$ ([DDK 80, Prop. 2.5](#DDK80)).
 
 This kind of relation is discussed in more detail at _[[∞-action]]_.
 
@@ -865,7 +870,6 @@ $$
 
 \end{prop}
 \begin{proof}
-
 The required [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) is the composite of the following sequence of [[natural bijections]]:
 
 $$
@@ -1025,7 +1029,7 @@ $$
 
 
 
-## References
+## Literature
 
 ### In simplicial sets
  {#ReferencesInSimplicialSets}
