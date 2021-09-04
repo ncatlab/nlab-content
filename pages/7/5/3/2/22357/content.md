@@ -101,8 +101,6 @@ $$
 $$
 
 Since this is a [[continuous function]], and since $x \in X$ is a [[closed point]] by assumption that $X$ is [[T1 topological space|T1]], hence since $\{x\} \subset X$ is a [[closed subset]], it follows that $G_x \subset G$ is a closed subset, since [continuous preimages of closed subsets are closed](continuous+map#PropertiesPreservedByAContinuousFunction).
-
-
 \end{proof}
 
 
