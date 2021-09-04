@@ -507,5 +507,12 @@ See also the discussion of [[Majorana spinors]]
 
 * {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
 
+On [[subgroups]] of Clifford algebras reminiscent of [[gauge groups]] of relevance in the [[standard model of particle physics]] and [[grand unified theories]] thereof:
+
+* {#Wilson20} [[Robert A. Wilson]], *A group-theorist's perspective on symmetry groups in physics* ([arXiv:2009.14613](https://arxiv.org/abs/2009.14613))
+
+* {#Wilson21} [[Robert A. Wilson]], *On the Problem of Choosing Subgroups of Clifford Algebras for Applications in Fundamental Physics*, Adv. Appl. Clifford Algebras 31, 59 (2021) ([doi:10.1007/s00006-021-01160-5]( https://doi.org/10.1007/s00006-021-01160-5))
+
+(For similar investigations, see also [here](Albert+algebra#ReferencesRelationStandardModel) at *[[Albert algebra]]*.)
 
 [[!redirects Clifford algebras]]
