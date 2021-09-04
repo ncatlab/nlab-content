@@ -136,10 +136,9 @@ $$
 $$
 \end{example}
 
-
+> Hm, this is not a proper argument... To come back to.
 
 #### Borel construction
-
 
 
 \begin{prop}\label{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}
@@ -154,12 +153,15 @@ $$
   $$
   between the [[classical model structure on topological spaces]] and the projective Borel model structure from Prop. \ref{BorelModelStructureOnTopologicalSpaces}, whose
 
-* [[right Quillen functor]] $triv$ assigns [[trivial actions]];
+* [[right Quillen functor]], $triv$, assigns [[trivial actions]];
 
 * [[left Quillen functor]] assigns [[topological quotient spaces]].
 
 \end{prop}
 ([Guillou 2006, Ex. 5.5](#Guillou06))
+\begin{proof}
+  By defintion of the weak equivalences and fibrations in Prop. \ref{BorelModelStructureOnTopologicalSpaces}, it is immediate that $triv$ preserves these classes of morphisms.
+\end{proof}
 
 \begin{prop}
   The [[Borel construction]] exhibits the [[left derived functor]] of the [[quotient space]]-[[left Quillen functor]] in Prop. \ref{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}:
