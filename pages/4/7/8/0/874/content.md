@@ -252,6 +252,13 @@ In [[material set theory]], the existence of binary cartesian products follows f
   * [[dependent sum type]], [[dependent product type]]
 
 
+## References
+
+Textbook account:
+
+* [[Francis Borceux]], Section 2.1 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+
 category: foundational axiom
 
 [[!redirects cartesian product]]
