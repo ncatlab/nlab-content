@@ -339,7 +339,7 @@ This and much more history is recalled in
 
 * [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
 
-* [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], _Abstract and concrete categories: the joy of cats_ ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
+* [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], *[[Abstract and Concrete Categories]]*, John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
 * [[Benjamin Pierce]], _Basic category theory for computer scientists_.
 
