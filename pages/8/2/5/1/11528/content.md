@@ -270,15 +270,97 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
   
 \end{prop}
 
-([DDK 80, Prop. 2.3, Prop. 2.4](#DDK80)) Here:
+(this is essentially the statement of [DDK 80, Prop. 2.3, Prop. 2.4](#DDK80)) 
+
+Here:
 
 * the [[right adjoint]] is the [[Borel construction]] 
 
-  which one may understand as formin [[associated bundles]] to [[universal principal bundles]];
+  understood as forming [[associated bundles]] to [[universal principal bundles]];
 
 * the [[left adjoint]] forms [[homotopy fibers]].
 
-In fact, these are [[sSet]]-[[enriched functors]] which induced an [[equivalence of (infinity,1)-categories]] between the [[simplicial localizations]]  $L_W sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj} \simeq L_W sSet_{/\overline{W}H}$ ([DDK 80, Prop. 2.5](#DDK80)).
+\begin{proof}
+  
+Consider a [[morphism]] in $sSet_{/\overline{W}G}$
+
+$$
+  \array{
+    X && \xrightarrow{\;\;f\;\;} && Y
+    \\
+    & {}_{\mathllap{p_X}}\searrow && \swarrow_{\mathrlap{p_Y}}
+    \mathrlap{\,.}
+    \\
+    && \overline{W}G
+  }
+$$
+
+Its image under the left adjoint is, by definition, the top left arrow in the following [[commuting diagram]]:
+
+\begin{tikzcd}
+    c_X^\ast(W G)
+    \ar[rr]
+    \ar[
+      d,
+      "p_X \,\in\, \mathrm{Fib}"
+    ]
+    &&
+    c_Y^\ast(W G)
+    \ar[
+      d,
+      "p_Y \,\in\, \mathrm{Fib}"
+    ]
+    \ar[rr]
+    &&
+    W G
+    \ar[
+      d,
+      "\in \mathrm{Fib}"
+    ]
+    \\
+    X
+    \ar[
+      rr,
+      "f"{below}
+    ]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+         -- ([yshift=-7pt]\tikztostart.south)
+         --node[below]{\scalebox{.7}{$
+               c_Y
+             $}} ([yshift=-7pt]\tikztotarget.south)
+         -- (\tikztotarget.south)}
+    ]
+    &&
+    Y
+    \ar[
+      rr,
+      "c_Y"{below}
+    ]
+    &&
+    \overline{W}G
+\end{tikzcd}
+
+Here the right square and the total rectangle are [[Cartesian squares]] ([[pullback squares]]), by defnition of the functor. It follows by the [[pasting law]] that also the square on the left is cartesian. Specifically, since [[fibrations]] are preserved under pullback, as shown, the top left morphism in question is the pullback of $f$ along a [[fibration]].
+
+It follows that $(f) \underset{\overline{W}G}{\times} W G$ is:
+
+1. a [[weak equivalence]] if $f$ is a weak equivalence, because the [[classical model structure on simplicial sets]] is a [[right proper model category]] (see [here](classical+model+structure+on+simplicial+sets#Properness));
+
+1. a [[monomorphism]] if $f$ is a monomorphism, since monomorphisms are preserved by pullback (see [here](monomorphism#MonomorphismsArePreservedByPullback)).
+
+   Moreover, since $W G \to \overline{W}G$ is the [[universal principal bundle]], it follows that $c_Y^\ast(W G) \to Y$ is a [[simplicial principal bundle]], so that, in particular, the action of $G$ on $c_Y^\ast(W G)$ is [[free action|free]]. 
+
+   By Prop. \ref{CofibrationsOfSimplicialActions} this means that $(f) \underset{\overline{W}G}{\times} W G$ is a [[cofibration]] if $f$ is a cofibration.
+
+In summary, the left adjoint functor in (eq:QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace) preserves the classes of [[weak equivalences]] and of [[cofibrations]], hence also that of [[acyclic cofibrations]], and so it is a [[left Quillen functor]]. 
+
+Next...
+\end{proof}
+
+In fact, these functors (eq:QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace) are [[sSet]]-[[enriched functors]] which induced an [[equivalence of (infinity,1)-categories]] between the [[simplicial localizations]]  $L_W sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj} \simeq L_W sSet_{/\overline{W}H}$ ([DDK 80, Prop. 2.5](#DDK80)).
 
 This kind of relation is discussed in more detail at _[[∞-action]]_.
 
