@@ -25,7 +25,7 @@ This largely explains their relevance in all contexts of $G$-[[equivariant algeb
 
 In particular (Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} below, which is not made explicit in traditional literature):
 
-* the [[local coefficient bundle]] for [[non-abelian cohomology|non-abelian]] [[group cohomology]] in degree-1 is the image of the projection gout of the semidirect product group under forming [[delooping groupoids]],
+* the [[local coefficient bundle]] for [[non-abelian cohomology|non-abelian]] [[group cohomology]] in degree-1 is the image of the projection out of the semidirect product group under forming [[delooping groupoids]],
 
 * the [[strict (2,1)-category]]-theoretic [[sections]] of this bundle form precisely the [[groupoids]] of crossed homomorphisms with "crossed conjugations" (Def. \ref{AdjointActionOnCrossedHomomorphisms} below) between them;
 
