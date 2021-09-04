@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #CW complexes
 * table of contentsF
 {: toc}
@@ -316,7 +317,7 @@ and so then the [[product topological space]] $X \times Y$ itself has CW-complex
 
 =--
 
-([Hatcher, theorem A.6](#Hatcher))
+(e.g.[Hatcher, theorem A.6](#Hatcher) -- for more and more pointers see [Brooke-Taylor 2017](#BrookeTaylor17))
 
 ### Local contractibility
  {#LocalContractibility}
@@ -620,8 +621,11 @@ Original articles include
 
 * {#Milnor57} [[John Milnor]], _The geometric realization of a semi-simplicial complex_, Annals of Mathematics, 2nd Ser., __65__, n. 2. (Mar., 1957), pp. 357-362; doi:[10.2307/1969967](https://doi.org/10.2307/1969967), [Semantic scholar pdf](https://pdfs.semanticscholar.org/7cbe/0482ce422d3adcc84be80b5ab3f68520a247.pdf)
  
+On [[products]] of CW-complexes:
 
-See also
+* {#BrookeTaylor17} [[Andrew Brooke-Taylor]], *Products of CW complexes -- the full story*, 2017 ([pdf](http://www.math.helsinki.fi/logic/arctic/2017/Slides/BrookeTaylor_arctic2017.pdf), [[Brooke-Taylor_ProductsOfCWComplexes.pdf:file]])
+
+See also:
 
  * {#NapierRamachandran} Terrance Napier,  Mohan Ramachandran,  _[Elementary Construction of Exhausting Subsolutions of Elliptic Operators](http://www.unige.ch/math/EnsMath/EM_en/)_ L'Enseignement Math&eacute;matique, t. 50 (2004), p. 367 - 389.
  
