@@ -75,9 +75,18 @@ This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model 
 #### Cofibrant replacement
 
 \begin{prop}\label{CofibrantObjectsInTopologicalBorelModelStructure}
-The [[cofibrant objects]] in $G Act\big( TopSp_{Qu}\big)_{proj}$ (Prop. \ref{BorelModelStructureOnTopologicalSpaces}) have [[free action]] by $G$. 
+
+A sufficient condition for a [[topological G-space]] $X$ to be a [[cofibrant object]] in $G Act\big( TopSp_{Qu}\big)_{proj}$ (from Prop. \ref{BorelModelStructureOnTopologicalSpaces}) is that
+
+1. its [[underlying]] [[topological spaces]] is cofibrant in the [[classical model structure on topological spaces]];
+
+1. its $G$-[[group action|action]] is [[free action]].
+
 \end{prop}
 ([Guillou, Prop. 5.3](#Guillou))
+\begin{proof}
+  The first condition ensures that the defining [[lifting property]] against [[fibrations]] holds for the [[underlying]] topological spaces in the image of the [[forgetful functor|functor which forgets]] the $G$-action. Since this is [[right adjoint]] to the [[free action]]-functor, this lift is already a lift also as $G$-spaces.
+\end{proof}
 
 \begin{example}\label{ProductWithUniversalPrincipalGSpaceIsCofibrantReplacement}
   Since the [[universal principal bundle|universal principal space]] $E G$ (the [[topological realization]] $E G \,=\, \big\vert W G\big\vert$ of the [[universal principal simplicial complex]]) is
