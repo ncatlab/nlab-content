@@ -14,9 +14,9 @@
 =--
 
 
-#CW complexes
-* table of contentsF
-{: toc}
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Idea
@@ -317,7 +317,7 @@ and so then the [[product topological space]] $X \times Y$ itself has CW-complex
 
 =--
 
-(e.g.[Hatcher, theorem A.6](#Hatcher) -- for more and more pointers see [Brooke-Taylor 2017](#BrookeTaylor17))
+(e.g. [Hatcher, theorem A.6](#Hatcher) -- for more and more pointers see [Brooke-Taylor 2017](#BrookeTaylor17))
 
 ### Local contractibility
  {#LocalContractibility}
