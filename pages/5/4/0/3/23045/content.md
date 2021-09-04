@@ -22,7 +22,7 @@
 
 ## Idea
 
-The [[unitary group]] on an infinite-dimensional [[separable Hilbert space|separable]] [[Hilbert space]] $\mathcal{H}$.
+The [[unitary group]] on an infinite-dimensional [[separable Hilbert space|separable]] [[Hilbert space]] $\mathcal{H}$ is traditionally denoted $U(\mathcal{H})$. It does not quite have an established prose name, but is often referred to by some combination of the words "unitary group" and "strong topology".
 
 ## Properties
 
@@ -51,4 +51,6 @@ Previous influential but wrong claim that they do not:
 
 This paper made the mistake of assuming that because various topologies were distinct on $GL(\mathcal{H})$, they remain distinct on $U(\mathcal{H})$.
 
+[[!redirects U(H)]]
 
+[[!redirects infinite unitary group with strong topology]]
