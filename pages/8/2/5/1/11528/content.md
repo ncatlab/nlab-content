@@ -136,7 +136,7 @@ $$
 $$
 \end{example}
 
-> Hm, this is not a proper argument... To come back to.
+> Hm, this is not a proper argument... 
 
 #### Borel construction
 
@@ -155,7 +155,7 @@ $$
 
 * [[right Quillen functor]], $triv$, assigns [[trivial actions]];
 
-* [[left Quillen functor]] assigns [[topological quotient spaces]].
+* [[left Quillen functor]], $(-)/G$, assigns [[topological quotient spaces]] by the [[relation]] $G \times X \underoverset{pr_2}{\mathclap{(-)\cdot(-)}}{\rightrightarrows}$.
 
 \end{prop}
 ([Guillou 2006, Ex. 5.5](#Guillou06))
@@ -266,7 +266,7 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
         {\bot}
     sSet_{/\overline{W}G}
   \]
-  which constitute a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] between the Borel model structure (Def. \ref{BorelModelStructure}) and the [[slice model structure]] of the [[classical model structure on simplicial sets]] slices over the [[simplicial classifying space]] $\overline{W}G$.,
+  which constitute a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] between the Borel model structure (Def. \ref{BorelModelStructure}) and the [[slice model structure]] of the [[classical model structure on simplicial sets]], sliced over the [[simplicial classifying space]] $\overline{W}G$.
   
 \end{prop}
 
