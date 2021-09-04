@@ -156,6 +156,11 @@ Coequalizers were defined in the paper
 for any finite collection of parallel morphisms.
 The paper refers to them as _right equalizers_, whereas [[equalizers]] are referred to as _left equalizers_.
 
+Textbook account:
+
+* [[Francis Borceux]], Section 2.4 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+
 [[!redirects coequalizers]]
 [[!redirects coequaliser]]
 [[!redirects coequalize]]
