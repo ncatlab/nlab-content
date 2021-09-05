@@ -145,7 +145,7 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 
 * {#GibbonsJohnson12} [[Jeremy Gibbons]], [[Michael Johnson]], _Relating Algebraic and Coalgebraic Descriptions of Lenses_, Electronic Communications of the EASST, 49, 2012 ([doi:10.14279/tuj.eceasst.49.726](http://dx.doi.org/10.14279/tuj.eceasst.49.726))
 
-* [[Michael Johnson]], [[Robert Rosebrugh]], and R. J. Wood.  _Lenses, fibrations and universal translations._ Math. Structures Comput. Sci., 22(1):25–42, 2012
+* [[Michael Johnson]], [[Robert Rosebrugh]], and  [[Richard J. Wood]].  _Lenses, fibrations and universal translations._ Math. Structures Comput. Sci., 22(1):25–42, 2012
 
 * {#JohnsonRosebrugh16} [[Michael Johnson]], [[Robert Rosebrugh]], _Unifying Set-Based, Delta-Based and Edit-Based Lenses_, CEUR Workshop Proceedings, 1571, 2016 ([pdf](http://ceur-ws.org/Vol-1571/paper_13.pdf))
 
