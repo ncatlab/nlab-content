@@ -5,15 +5,19 @@
 
 ## Idea
 
-In [[computer science]], originally in [[database theory]], a concept called  *lenses* is used to formally capture situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
+In [[computer science]], originally in [[database theory]], a concept called  *lenses* is used to formally capture situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as *updates* to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
 
-An insightful explanation and critique of the concept of "lenses" is offered in [Spivak 19](#Spivak19) (exposition in [Spivak ACT19](#SpivakACT19)), where it is argued that the notion may and should be regarded as a small fragment (namely that of [[trivial bundle|trivial]] [[display maps]]) of the general notion of ([[categorical model of dependent types|categorical semantics]] for) [[dependent type theory|dependent types]], such as discussed at *[[hyperdoctrine]]* and related entries.
+There are, in general, two different approaches to lenses:
 
-This perspective, however, it's not the end of the story. Lenses were born as abstract gadgetry to implement bidirectional (i.e. read/write) accessors for data structures, and this idea can be extended in numerous directions. Notably, [[optics (in computer science)|optics]] are a better generalisation of lenses for these uses and indeed emerged first in the [[functional programming]] literature.
+* Lawful lenses are an algebraic structure which axiomatize product projections. The laws govern the ways views and updates relate. These are generalized into [[delta lens|Delta lenses]], which are more flexible lawful lenses.
 
-In this sense, lenses are but the elementary manifestation of two more interesting mathematical frameworks: [[fibration|fibrations]] and [[optics (in computer science)|optics]] (thus [[Tambara module|Tambara modules]]).
+* Lawless lenses, and in particular bi-directional or polymorphic lenses, separate the two directions of view and update so that the laws no longer type-check. These lawless lenses are used to organize bi-directional flow of data, and are generalized into [[optics (in computer science)|optics]] in the [[functional programming]] literature. 
 
-More recently, lenses and optics (including both the dependent and non-dependent versions) have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Hedges 21](#Hedges21)).
+An alternate generalization of lawless lenses is put forward in [Spivak 19](#Spivak19) as the Grothendieck construction of the fiberwise dual of an indexed category. This notion of lawless lens has been adopted in the context of categorical systems theory because they represent a *bidirectional stateful computation* which describes the way some systems expose and update their internal state. For instance, see ([Myers](#Myers)), ([Spivak-Niu](#SpivakPoly)), or ([Hedges 21](#Hedges21)).
+
+In this sense, lawless lenses are applications of two mathematical frameworks which are interesting in their own right: [[fibration|fibrations]] and [[optics (in computer science)|optics]] (thus [[Tambara module|Tambara modules]]).
+
+
 
 ## Definition
 
@@ -21,7 +25,7 @@ Let $(\mathbf{C}, 1, \times)$ be a [[category]] with [[finite products]].
 
 \begin{definition}
 Let $S,V$ be objects of $\mathbf C$. 
-A **lens** $L$, with **source** $S$ and **view** $V$, is a pair of arrows $\mathrm{get} : S \to V$ and $\mathrm{put} : V \times S \to S$, often taken to satisfy the following equations, or _lens laws_:
+A **(lawful) lens** $L$, with **source** $S$ and **view** $V$, is a pair of arrows $\mathrm{get} : S \to V$ and $\mathrm{put} : V \times S \to S$, often taken to satisfy the following equations, or _lens laws_:
 
 1. (PutGet) the get of a put is the projection: 
 $\mathrm{get} \mathrm{put} = \pi_0$.
@@ -110,6 +114,8 @@ There are many generalizations of lenses which have been proposed, however they 
 
 * One generalization considers the lenses from the previous section as _monomorphic_ by contrast to _polymorphic_ lens which go between pairs of types, $\lambda: (S, T) \to (A, B)$, consisting of a view function, $v_{\lambda}: S \to A$, and an update function $u_{\lambda}: S \times B \to T$. Without further conditions, these are known as _bimorphic lenses_. To impose conditions comparable to the lens laws above requires that the types be related.
 
+These sorts of lenses are generalized by [Spivak 19](#Spivak19). For a quick explanation of how these sorts of generalized lenses are of use in systems theory, see [Myers20](#Myers20); for a longer explanation, see Chapter 2 of [Myers](#Myers).
+
 * An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' state from the forward part to the backward part, avoiding the necessity of a cartesian structure by swapping it with a sufficiently rich actegorical context.
 
 ### Lenses with laws
@@ -149,6 +155,8 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 
 * {#Spivak19} [[David Spivak]], _Generalized Lens Categories via functors $C^{op} \to Cat$_ ([arXiv:1908.02202](https://arxiv.org/abs/1908.02202))
 
+* {#Myers20} [[David Jaz Myers]], _Double Categories of Dynamical Systems (Extended Abstract)_ ([arXiv:2005.05956](https://arxiv.org/abs/2005.05956))
+
 * {#JohnsonRosebrugh20} [[Michael Johnson]], [[Robert Rosebrugh]], _The more legs the merrier: A new composition for symmetric (multi-)lenses_, EPTCS, 333, 2020 ([arXiv:2101.10482](https://arxiv.org/abs/2101.10482))
 
 * {#Clarke20a} [[Bryce Clarke]], _Internal lenses as functors and cofunctors_, EPTCS, 323, 2020 ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
@@ -165,7 +173,9 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 
 * {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, talk at [ACT 19](http://www.cs.ox.ac.uk/ACT2019/) ([slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf), [[Spivak_Lenses.pdf:file]]) 
 
-* {#MyersSpivak} [[David Myers]], [[David Spivak]], _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
+* {#Myers} [[David Jaz Myers]], _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
+
+* {#SpivakPoly} [[David Spivak]], [[Nelson Niu]], _Polynomial Functors: A General Theory of Interaction_, [Current Draft](https://topos.site/poly-book.pdf)
 
 * {#Hedges21} [[Jules Hedges]], _Lenses as a foundation for cybernetics_, CyberCat seminar, [youtube](https://www.youtube.com/watch?v=WkZPH3Vb5ug&t=1927s)
 
