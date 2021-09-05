@@ -1,4 +1,107 @@
 
+\begin{prop}
+Transported through the equivalence of Prop. \ref{HFixedLociOFMappingGroupoidFromEGToBGamma}, 
+the canonical [[group action]] (see [this Prop.](fixed+point+space#PassageToFixedLociIsRightAdjoint)) of the [[Weyl group]] $W_G(H)$ on the $H$-[[fixed locus]] 
+$
+  Fnctr\big(\mathbf{E}G ,\, \mathbf{B}\Gamma\big)^H
+$
+becomes, on connected components
+$
+  \pi_0
+  \big(
+    CrsHom(H,\,\Gamma) \sslash_{\!\!ad} \Gamma
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  H^1_{Grp}(H,\,\Gamma)
+$,
+the $W_G(H)$-action on the non-abelian group 1-cohomology of $H$ from Prop. \ref{WeylGroupActsOnNonAbGroup1CohomOfSubgroup}.
+\end{prop}
+\begin{proof}
+  We make explicit use of the functors $L, R$ constructed in the proof of Prop. \ref{HFixedLociOFMappingGroupoidFromEGToBGamma}. Noticing that $R$ is a section of $L$, we need to (1) send a crossed homomorphism up with $R$, (2) there act on it with $n$, (3) send the result back with $L$. The result is the desired induced action.
+
+Explicitly, by the definition of $L$ in the proof of Prop. \ref{HFixedLociOFMappingGroupoidFromEGToBGamma}, this way a crossed homomorpism $\phi \,\colon\, H \to \Gamma$ is sent by $n \in N_G(H)$ to the assignment
+\[
+  \label{TransportingCanonicalActionOnFixedLocusToGroupCohomology}
+  h \,\mapsto\,    
+    \Big(L\big( n \cdot (R \phi) \big)\Big)(h)
+    \;=\;
+    \alpha(n)
+    \Big(
+      (R\phi)
+      \big(
+        n^{-1} ,\, n^{-1} \cdot h
+      \big)
+    \Big)
+  \,.
+\]
+
+It just remains to evaluate the right hand side. 
+
+Notice that the definition of $L$ is independent of the choice of $\sigma \,\colon\, G/H \xrightarrow{\;} G$ (eq:SectionOfTheCoprojectionToTheCosetSpace), and that $R$ (whose definition does depend on this choice ) is a section for each choice. Hence we may choose $\sigma$ in a way convenient way *for each $n$*.
+
+Now if $n \in H \subset N_G(H)$ then its canonical action on the $H$-fixed locus is trivial, and also the claimed induced action is trivial, so that in this case there is nothing further to be proven. Therefore we assume now that $n$ is not in $H$, and then we choose $\sigma$ such as to pick $n^{-1}$ as the representative in its $H$-coset:
+$$
+  \sigma\big( \big[n^{-1}\big] \big) \;\coloneqq\; n^{-1}
+  \,.
+$$
+
+With this choice, the right hand side of (eq:TransportingCanonicalActionOnFixedLocusToGroupCohomology) is evaluated as follows, where we repeatedly use that, by definition and choice of $\sigma$, $R\phi$ assigns the neutral element to the morphism $n^{-1} \to \mathrm{e}$ in the pair groupoid:
+
+$$
+  \begin{aligned}
+    \Big(L\big( n \cdot (R \phi) \big)\Big)(h)
+    & \;=\;
+    \alpha(n)
+    \Big(
+      (R\phi)
+      \big(
+        n^{-1} ,\, n^{-1} \cdot h
+      \big)
+    \Big)
+    \\
+    & \;=\;
+    \;=\;
+    \alpha(n)
+    \big(
+      (R\phi)(\mathrm{e},\, n^{-1} \cdot h)
+    \big)
+    \\
+    &
+    \;=\;
+    \alpha\big(n^{-1} \cdot h \cdot n \cdot n\big)
+    \big(
+      (R\phi)(n^{-1} \cdot h^{-1} \cdot n,\, n^{-1})
+    \big)
+    \\
+    &
+    \;=\;
+    \alpha\big(n^{-1} \cdot h \cdot n  \cdot n\big)
+    \big(
+      (R\phi)(n^{-1} \cdot h^{-1} \cdot n,\, \mathrm{e})
+    \big)
+    \\
+    &
+    \;=\;
+    \alpha(n)
+    \big(
+      (R\phi)(\mathrm{e},\, n^{-1} \cdot h \cdot n)
+    \big)
+    \\
+    & \;=\;
+    \alpha(n)
+    \big(
+      \phi(n^{-1} \cdot h \cdot n)
+    \big)
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+
+This is indeed the claimed formula (eq:ActionOfNormalizerOnCrossedHomomorphismsFromSubgroup).
+\end{proof}
+
+
 Given $\alpha \,G\, \xrightarrow{\;} Aut_{Grp}(\Gamma)$
 as above, consider a [[subgroup]] $H \subset G$.
 
