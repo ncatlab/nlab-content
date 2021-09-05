@@ -14,7 +14,7 @@
 
 ## Definition
 
-Given a [[subset]] $S$ of a [[group]] $G$, its __normalizer__ $N(S)=N_G(S)$ is the [[subgroup]] of $G$ consisting of all elements $g\in G$ such that $g S = S g$, i.e. for each $s\in S$ there is $s'\in S$ such that $g s=s'g$.  
+Given a [[subset]] $S$ of (the [[underlying]] [[set]] of) a [[group]] $G$, its __normalizer__ $N(S) = N_G(S)$ is the [[subgroup]] of $G$ consisting of all elements $g\in G$ such that $g S = S g$, i.e. for each $s\in S$ there is $s'\in S$ such that $g s = s'g$.  
 
 Notice the similarity but also the difference to the definition of the _[[centralizer subgroup]]_, for which $s' = s$ in the above.
 
