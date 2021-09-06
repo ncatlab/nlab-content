@@ -1057,7 +1057,8 @@ between
 * the conjugation groupoid (eq:ConjugationGroupoidOfCrossedHomomorphismsInPropRelatingToSlicedFunctor) of crossed homomorphisms $H \to \Gamma$.
 
 \end{proposition}
-We take this statement and the following proof from [SS21](https://ncatlab.org/schreiber/show/TED+cohomology).
+This is essentially the statement of [Guillou, May & Merling 2017, Thm. 4.14, Cor. 4.15](#GuillouMayMerling17).
+We take the following detailed proof from [SS21](https://ncatlab.org/schreiber/show/TED+cohomology). Its ingredients are needed below in the proof of Prop. \ref{ResidualWeylGroupActionOnFixedLocuOfEquivariantClassifyingSpace}.
 \begin{proof}
   By Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} the statement is equivalently that
 $$
@@ -1407,7 +1408,7 @@ In discussion of [[equivariant principal bundles]]:
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
 
-* {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]], Def. 4.1 in: _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565))
+* {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]], around Def. 4.1 in: _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565))
 
 Discussion for [[finite groups]]:
 
