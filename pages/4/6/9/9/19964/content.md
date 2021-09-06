@@ -368,6 +368,11 @@ In higher dimensions:
 * Emir Syahreza Fadhilla, Ardian Nata Atmaja, Bobby Eka Gunara, 
 *BPS Skyrmions of Generalized Skyrme Model In Higher Dimensions* ([arXiv:2108.08694](https://arxiv.org/abs/2108.08694))
 
+For the [[electroweak field]]:
+
+* Juan Carlos Criado, Valentin V. Khoze, Michael Spannowsky, *Electroweak Skyrmions in the HEFT* ([arXiv:2109.01596](https://arxiv.org/abs/2109.01596))
+
+
 
 
 Further resources:
