@@ -10,7 +10,7 @@ A monotone function is a [[functor]] between [[preordered sets]].
 
 ## Explicit definitions
 
-Let $S$ and $T$ be preordered sets, that is [[sets]] equipped with a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] binary [[relation]] $\leq$.  (By convention, the same symbol is used for both sets, even technically it is not the same relation.)
+Let $S$ and $T$ be preordered sets, that is [[sets]] equipped with a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] binary [[relation]] $\leq$.  (By convention, the same symbol is used for both sets, even though technically it is not the same relation.)
 
 Then a [[function]] $f$ from $S$ to $T$ is __monotone (increasing)__, __isotone__, __weakly increasing__, or __order-preserving__ if it preserves $\leq$:
 $$ x \leq y \;\Rightarrow\; f(x) \leq f(y) $$
