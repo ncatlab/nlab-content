@@ -66,17 +66,20 @@ include the following:
 
   ([Gleason 50, Thm. 4.1](#Gleason50))
 
-  \linebreak
 
 or:
 
-* $G$ is a [[locally compact topological groups]]
+* $G$ is a [[locally compact topological group]]
 
   which is moreover a [[separable metric space]] of [[finite number|finite]] [[dimension of a separable metric space|dimension]]
 
   and $H \subset G$ is a [[closed subgroup]].
 
   ([Mostert 53, Theorem 3](#Mostert53), see also [Karube 58, Theorem 2](#Karube58))
+
+* $G$ is a [[Lie group]] and $H$ is a [[closed subgroup]] (hence a closed sub-Lie group, by [[Cartan's closed subgroup theorem]])
+
+  (e.g. [tom Dieck & Br&ouml;cker 1985, Thm. 4.3](#tomDieckBroecker85)
 
 \end{prop}
 
@@ -85,7 +88,7 @@ or:
 
 * $G$ is a [[compact Lie group]]
 
-  and $H$ is a [[closed subgroup]].
+  and $H$ is a [[closed subgroup]] (hence a closed sub-Lie group, by [[Cartan's closed subgroup theorem]])
 
 (This is a special case of Gleason's condition since [[Lie groups]] are [[Hausdorff spaces]] and [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]].)
 
@@ -119,6 +122,8 @@ Examples of quotient coprojections $ G \to G/H$ *without* local sections are giv
 * {#Mostert53} [[Paul Mostert]], _Local Cross Sections in Locally Compact Groups_, Proceedings of the American Mathematical Society, Vol. 4, No. 4 (Aug., 1953), pp.645-649 ([jstor:2032540](https://www.jstor.org/stable/2032540), [doi:10.2307/2032540](https://doi.org/10.2307/2032540))
 
 * {#Karube58} Takashi Karube, _On the local cross-sections in locally compact groups_,  J. Math. Soc. Japan 10(4): 343-347 (October, 1958) ([doi:10.2969/jmsj/01040343](https://projecteuclid.org/journals/journal-of-the-mathematical-society-of-japan/volume-10/issue-4/On-the-local-cross-sections-in-locally-compact-groups/10.2969/jmsj/01040343.full))
+
+* {#tomDieckBroecker85} [[Tammo tom Dieck]], [[Theodor Bröcker]], Thm. 4.3 on p. 33 of: *Representations of compact Lie groups*, Springer 1985 ([doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0))
 
 [[!redirects coset space coprojections with local sections]]
 
