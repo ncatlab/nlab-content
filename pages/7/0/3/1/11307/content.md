@@ -1,5 +1,12 @@
+Nobuo Yoneda (kanji: 米田, 信夫, katakana: ヨネダ, ノブオ)
+was a Japanese mathematician.
+
+He got his PhD degree in 1961 from the University of Tokyo,
+supervised by Shokichi Iyanaga.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Nobuo_Yoneda)
+
+* Bibliographic entry for Yoneda's PhD dissertation: <https://ci.nii.ac.jp/naid/500000325773>
 
 * Yoshiki Kinoshita, *Nobuo Yoneda (1930-1996)* 
 
