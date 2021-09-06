@@ -309,7 +309,7 @@ See also:
 
 [^1]: The reason for  choosing the term "k-space" in [Gale 1950](#Gale50) seems to be lost in history. The "k" is not for "Kelley", as [Kelley 1955](#Kelley55) came later. It might have been an allusion to the German word *kompakt*.
 
-[^2]: According to personal communication by David Gale to [[William Lawvere]] in 2003, forwarded by Lawvere to [[Martin Escardo]] at that time, and then kindly forwarded by Escardo to the nForum in 2021.
+[^2]: This is according to personal communication by David Gale to [[William Lawvere]] in 2003, forwarded by Lawvere to [[Martin Escardo]] at that time, and then kindly forwarded by Escardo to the nForum in 2021; see [there](https://nforum.ncatlab.org/discussion/8638/compactly-generated-topological-space/?Focus=94755#Comment_94755).
 
 
 
@@ -318,10 +318,17 @@ See also:
 [[!redirects compactly generated topological spaces]]
 [[!redirects compactly generated space]]
 [[!redirects compactly generated spaces]]
+
 [[!redirects compactly generated weakly Hausdorff topological space]]
 [[!redirects compactly generated weakly Hausdorff topological spaces]]
 [[!redirects compactly generated weakly Hausdorff space]]
 [[!redirects compactly generated weakly Hausdorff spaces]]
+
+[[!redirects compactly generated weak Hausdorff topological space]]
+[[!redirects compactly generated weak Hausdorff topological spaces]]
+[[!redirects compactly generated weak Hausdorff space]]
+[[!redirects compactly generated weak Hausdorff spaces]]
+
 
 [[!redirects weakly Hausdorff compactly generated topological space]]
 [[!redirects weakly Hausdorff compactly generated topological spaces]]
@@ -333,7 +340,12 @@ See also:
 [[!redirects Kelley space]] 
 [[!redirects Kelley spaces]]
 
+[[!redirects k-ification]]
+[[!redirects k-ifications]]
+
 [[!redirects kaonization]]
 [[!redirects kaonizations]]
 [[!redirects kaonisation]]
 [[!redirects kaonisations]]
+
+
