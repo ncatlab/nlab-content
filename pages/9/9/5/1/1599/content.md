@@ -121,4 +121,10 @@ Lecture notes:
 
 * [[Dietmar Salamon]], *Notes on compact Lie groups*, 2021 ([pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/liegroup.pdf), [[Salamon_CompactLieGroups.pdf:file]])
 
+On the [[representation theory]]:
+
+* [[Tammo tom Dieck]], [[Theodor Bröcker]], *Representations of compact Lie groups*, Springer 1985 ([doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0))
+
+For more see also the references at *[[equivariant homotopy theory]]*.
+
 [[!redirects compact Lie groups]]
