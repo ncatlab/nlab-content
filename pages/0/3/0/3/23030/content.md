@@ -1151,12 +1151,17 @@ Here
 
 * $R$ is given in terms of the above generating morphisms (eq:GeneratingMorphisms) as follows:
 
+\[
+  \label{DefinitionOfFunctorR}
+  \;\;
+\]
+
 \begin{imagefromfile}
     "file_name": "CompHFixedMappingGroupoidFromEGToBGamma210901.jpg",
     "width": 700,
     "unit": "px",
     "margin": {
-        "top": -20,
+        "top": -57,
         "bottom": 20,
         "right": 0, 
         "left": 10
@@ -1260,8 +1265,23 @@ $$
   \,.
 $$
 
-With this choice, the right hand side of (eq:TransportingCanonicalActionOnFixedLocusToGroupCohomology) is evaluated as follows, where we repeatedly use that, by definition and choice of $\sigma$, $R\phi$ assigns the neutral element 
-to the morphism $n^{-1} \to \mathrm{e}$ in the pair groupoid
+Notice that with this choice, $R\phi$ (eq:DefinitionOfFunctorR) assigns  the [[neutral element]]  to the morphism between the neutral element and $n^{-1}$ in the [[pair groupoid]]:
+
+\[
+  \label{RPhiOnNeutralTonInverse}
+  (R\phi)\big(\mathrm{e}, n^{-1}\big)
+  \;=\;
+  \mathrm{e}
+  \,,
+  \;\;\;\;
+  (R\phi)\big(n^{-1}, \mathrm{e}\big)
+  \;=\;
+  \mathrm{e}
+  \;\;\;\;\;
+  \,.
+\]
+
+{#ThisWay} This way, the right hand side of (eq:TransportingCanonicalActionOnFixedLocusToGroupCohomology) is evaluated as follows:
 
 $$
   \begin{array}{lll}
@@ -1275,7 +1295,7 @@ $$
       \big)
     \Big)
     & 
-    \text{by the previous argument}
+    \text{by}\;\text{(eq:TransportingCanonicalActionOnFixedLocusToGroupCohomology)}
     \\
     & \;=\;
     \alpha(n)
@@ -1283,7 +1303,7 @@ $$
       (R\phi)(\mathrm{e},\, n^{-1} \cdot h)
     \big)
     & 
-    \text{by the previous remark}
+    \text{by}\;\text{(eq:RPhiOnNeutralTonInverse)}
     \\
     &
     \;=\;
@@ -1301,7 +1321,7 @@ $$
       (R\phi)(n^{-1} \cdot h^{-1} \cdot n,\, \mathrm{e})
     \big)
     & 
-    \text{by the previous remark}  
+    \text{by}\;\text{(eq:RPhiOnNeutralTonInverse)}  
     \\
     &
     \;=\;
@@ -1318,7 +1338,7 @@ $$
       \phi(n^{-1} \cdot h \cdot n)
     \big)
     &
-    \text{by definition of} \; R
+    \text{by definition of} \; R \; \text{(eq:DefinitionOfFunctorR)}
     \mathrlap{\,.}
   \end{array}
 $$
