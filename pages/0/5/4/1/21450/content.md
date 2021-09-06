@@ -254,3 +254,14 @@ the many experimental cross section measurements.
   > With  modern  lattice  tools  and  understanding  of  QFT/string theory we are in a good position to solve this problem. It may take another 30 years to build a new collider and get new data in  particle  physics.  But  we  are  lucky  to  have  a  tractable  and fundamental  problem  to  solve  while  waiting.  Participants  of STRINGS 2051 will be puzzled if we don’t make an effort now  and leave it to them.
 
 \linebreak
+
+* Clara Peset, Antonio Pineda, Oleksandr Tomalak, *The proton radius (puzzle?) and its relatives* ([arXiv:2106.00695](https://arxiv.org/abs/2106.00695))
+
+  > (in the context of the [[proton radius puzzle]])
+
+
+> In the beginning God created quarks, And made them interact through the strong forces, And it was dark... And God said, "I do not understand a damn thing"
+
+
+
+
