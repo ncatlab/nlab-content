@@ -2,8 +2,10 @@
 * table of contents
 {:toc}
 
+## Position
 
-PhD candidate in theoretical physics at the [Centre for Research in String Theory](https://www.qmul.ac.uk/spa/strings/) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
+Postdoc researcher in Mathematical Physics at the [University of Hertfordshire](https://www.herts.ac.uk/).
+PhD candidate in Theoretical Physics at the Centre for Research in String Theory (currently known as [Centre for Research in Theoretical Physics](https://www.qmul.ac.uk/spcs/ctp/)) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
 
 ## Research
 
