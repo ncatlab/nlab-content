@@ -1,4 +1,37 @@
 
+Write $TopSp$ for the [[convenient category of topological spaces|convenient category]] of [[compactly generated weak Hausdorff spaces]], and $TopSp_{Qu}$ for the [[classical model structure on topological spaces]] in its version for compactly generated spaces ([this Thm.](classical+model+structure+on+topological+spaces#ModelStructureOnTopcg)).
+
+\begin{proposition}
+  If $H \subset G \,\in\, Grp(TopSp)$ is a [[subgroup]]-inclusion of [[topological groups]] such that the corresponding [[coset space]] [[coprojection]] is a [[Serre fibration]]
+$$
+  G
+  \xrightarrow{ \;\in Fib\; }
+  G/H
+  \;\;\;
+  \in
+  \;
+  TopSp_{Qu}
+$$
+(for example in that it [[coset space coprojection admitting local sections|admits local sections]]).
+
+Then the [[quotient]] of the [[universal principal bundle|universal principal space]] $E G$ by the subgroup $H$ is [[weak homotopy equivalence|weak homotopy equivalent]] to the [[classifying space]] $B H$ of $H$:
+$$
+  (E G)/H \;\simeq\; B H \;\;\; \in Ho(TopSp_{Qu})
+  \,.
+$$
+\end{proposition}
+
+$$
+  H
+  \xrightarrow{\;}
+  \frac{E G \times G}{G}
+  \xrightarrow{\;}
+  \frac{
+    E G \times (G/H)
+  }{G}  
+$$
+
+
 \begin{prop}
 Transported through the equivalence of Prop. \ref{HFixedLociOFMappingGroupoidFromEGToBGamma}, 
 the canonical [[group action]] (see [this Prop.](fixed+point+space#PassageToFixedLociIsRightAdjoint)) of the [[Weyl group]] $W_G(H)$ on the $H$-[[fixed locus]] 
