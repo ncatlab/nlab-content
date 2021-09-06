@@ -360,6 +360,7 @@ All the formulas [above](#ComponentDefinition) may conceptually be understood as
   \,.
 \]
 \end{proposition}
+We take this statement and the following proof from [SS21](https://ncatlab.org/schreiber/show/TED+cohomology).
 \begin{proof}
 \label{ProofOfCrossedHomomorpismsAreSlicedFunctors}
 By definition, a morphism in the groupoid on the right is a 
