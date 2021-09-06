@@ -220,7 +220,7 @@ The [[exceptional Lie groups]] incude
 
 * {#Bredon72} [[Glen Bredon]], Section 0.5 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
-  > (in the context of [[topological groups]])
+  > (in the broader context of [[topological groups]])
 
 
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
@@ -231,6 +231,9 @@ The [[exceptional Lie groups]] incude
 
   Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
 
+* [[Tammo tom Dieck]], [[Theodor Bröcker]], Ch. I of: *Representations of compact Lie groups*, Springer 1985 ([doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0))
+
+  > (in the context of [[representation theory]])
 
 * [[Hans Duistermaat]], J. A. C. Kolk, _Lie groups_, 2000
 
@@ -240,7 +243,6 @@ The [[exceptional Lie groups]] incude
 
 
 * {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
-
 
 * {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
 
