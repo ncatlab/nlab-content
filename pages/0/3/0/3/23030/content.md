@@ -204,7 +204,8 @@ $$
   \]
   and every subgroup of this form arises as the [[graph of a function|graph]] of a unique crossed homomorphism.
 \end{proposition}
-This is, essentially, considered in [tom Dieck 1969, Sec. 2.1](#tomDieck69).
+This is, essentially, considered in [tom Dieck 1969, Sec. 2.1](#tomDieck69),
+also [Guillou, May & Merling 2017, Lem. 4.5](#GuillouMayMerling17).
 \begin{proof}
   The first statement is immediate from the definition.
 
@@ -255,7 +256,7 @@ This is, essentially, considered in [tom Dieck 1969, Sec. 2.1](#tomDieck69).
 \begin{remark}
   Subgroups of the form (eq:MayStyleCrossedHomomorphism)
   are considered throughout articles by [[Peter May]] on [[equivariant principal bundles]] (e.g. in [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](equivariant+bundle#May90)).
-That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomorphisms]] may have been one the key observations that lead to [Murayama & Shimakawa 1995](#MurayamaShimakawa95), though the statement of Prop. \ref{GraphOfACrossedHomomorphism} is still not explicit there.
+That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomorphisms]] may have been one the key observations that lead to [Murayama & Shimakawa 1995](#MurayamaShimakawa95), though the statement of Prop. \ref{GraphOfACrossedHomomorphism} was still not explicit there.
 \end{remark}
 
 
@@ -282,7 +283,7 @@ That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomo
     \,.
   \]
 \end{definition}
-(e.g. [Gille & Szamuely 2006, (2) on p. 25](#GilleSzamuely06))
+(e.g. [Gille & Szamuely 2006, (2) on p. 25](#GilleSzamuely06), [Guillou, May & Merling 2017, Def. 4.11](#GuillouMayMerling17))
 \begin{remark}\label{AsCoboundariesInGroupCohomology}
 **(as 1-[[coboundaries]] in [[group cohomology]])**
 \linebreak
@@ -1405,6 +1406,8 @@ In discussion of [[equivariant principal bundles]]:
   > (not using the terminology "crossed homomorphism", but already characterizing their graphs, as in Lem. \ref{GraphOfACrossedHomomorphism})
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
+
+* {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]], Def. 4.1 in: _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565))
 
 Discussion for [[finite groups]]:
 
