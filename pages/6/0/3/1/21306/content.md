@@ -86,13 +86,24 @@ reviewed in:
 * [[Jean-Marc Richard]], *Fully-heavy tetraquarks and other heavy multiquarks*, Nuclear and Particle Physics Proceedings 00 (2021) 1–5 ([arXiv:2105.02503](https://arxiv.org/abs/2105.02503))
 
 
-#### $T_{c c}$ tetraquark
+#### $T^+_{c c}$ tetraquark
 
 Indication of a tetraquark $c c \bar u \bar d$ with two [[charm quarks]], and [[anti-particle|anti]]-[[up quark]] and an [[anti-particle|anti]]-[[down quark]]:
 
 * [[LHCb collaboration]], *Observation of an exotic narrow doubly charmed tetraquark* ([arXiv:2109.01038](https://arxiv.org/abs/2109.01038))
 
 * [[LHCb collaboration]], *Study of the doubly charmed tetraquark $T^+_{c c}$* ([arXiv:2109.01056](https://arxiv.org/abs/2109.01056))
+
+Further discussion:
+
+* Sean Fleming, Reed Hodges, Thomas Mehen, *$T_{c c}^+$ Decays: Differential Spectra and Two-Body Final States* ([arXiv:2109.02188](https://arxiv.org/abs/2109.02188))
+
+* Huimin Ren, Fan Wu, Ruilin Zhu, *Hadronic molecule interpretation of $T_{c c}^+$ and its beauty-partners* ([arXiv:2109.02531](https://arxiv.org/abs/2109.02531))
+
+
+
+
+
 
 
 
