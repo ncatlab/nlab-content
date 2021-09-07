@@ -53,6 +53,7 @@ Left and right residuals are unique up to isomosphism.
 ## Related concepts
 
 * [[exponential object]]
+* [[internal hom]]
 * [[monoidal closed category]]
 
 [[!redirects left residual]]
