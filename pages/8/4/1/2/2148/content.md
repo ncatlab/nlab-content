@@ -38,7 +38,7 @@ In 1972, the phrase _twisted cohomology_ was  used by Larmore to describe
 $H(-; \mathcal{E})$, cohomology with coefficients in a special kind of [[spectrum]] $\mathcal{E}$  related to a [[fibration]] $p:E\to B.$ The result is what May and Sigurdsson call a parameterized spectrum,
 the _parameters_ being the points of $B$, which might also be called, in the older topological terminology, an _ex-spectrum_.
 
-In recent years, especially after  the invention of [[twisted K-theory]], 'twisted cohomology' has become the generic term, including not only twisted [[generalized (Eilenberg–Steenrod) cohomology]] but even what is known as twisted _[[nonabelian cohomology|non-abelian]]_ cohomology. Among other things, non-abelian refers to the fact 
+In recent years, especially after  the invention of [[twisted K-theory]], 'twisted cohomology' has become the generic term, including not only twisted [[Whitehead-generalized cohomology]] but even what is known as twisted _[[nonabelian cohomology|non-abelian]]_ cohomology. Among other things, non-abelian refers to the fact 
 that no spectrum need be involved, but only a single target space, preferably at least a [[loop space]].
 
 Also in 1972 Robinson constructed Moore--[[Postnikov system]]s for non-simple fibrations. In particular, he
