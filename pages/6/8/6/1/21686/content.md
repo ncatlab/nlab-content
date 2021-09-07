@@ -71,9 +71,13 @@ Review of the [[Chern-Weil homomorphism]]:
 
 * [[Shiing-Shen Chern]], [[James Simons]], Section 2 of: _Characteristic Forms and Geometric Invariants_, Annals of Mathematics Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69 ([jstor:1971013](https://www.jstor.org/stable/1971013))
 
-  (in the context of [[Chern-Simons forms]])
+  > (in the context of [[Chern-Simons forms]])
 
 * [[John Milnor]], [[Jim Stasheff]], Appendix C of: _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
+
+* {#Meinrenken03} [[Eckhard Meinrenken]], Section 5 of: *Group actions on manifolds*, Lecture Notes 2003 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/action.pdf), [[Meinrenken_GroupActionsOnManifolds.pdf:file]])
+
+  > (via [[equivariant de Rham cohomology]])
 
 * {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], Section 3.3 of: _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
 J. Differential Geom. Volume 70, Number 3 (2005), 329-452 ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908))
