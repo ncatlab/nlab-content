@@ -797,10 +797,18 @@ More discussion in the contex of [[equivariant homotopy theory]]:
 
 Specifically in the context of [[proper equivariant homotopy theory]]:
 
-
 * {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_, Memoirs of the AMS ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
 
 See also the references at _[[equivariant homotopy theory]]_.
+
+
+The special case of [[smooth function|smooth]] [[Lie group]]-[[group actions|actions]] on [[smooth manifolds]]:
+
+Lecture notes:
+
+* {#Meinrenken03} [[Eckhard Meinrenken]], *Group actions on manifolds*, Lecture Notes 2003 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/action.pdf), [[Meinrenken_GroupActionsOnManifolds.pdf:file]])
+
+
 
 
 
