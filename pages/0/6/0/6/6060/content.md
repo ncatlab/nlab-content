@@ -112,7 +112,9 @@ There is also a corresponding argument in terms of [[bundle gerbes]], given in [
 ##### Via Künneth theorem
  {#TransgressionOf3TwistTo1TwistVieKuenneth}
 
-For $g \in G$ consider the right [[group action]] of the [[direct product group]] $C_G(g) \times \mathbb{Z}$ on the [[fixed locus]] $X^g$ (eq:gFixedLocusInGManifold) given by
+Throughout, fix an element $g \in G$. 
+
+Consider the right [[group action]] of the [[direct product group]] $C_G(g) \times \mathbb{Z}$ (of the [[centralizer subgroup]] with the [[integers]]) on the [[fixed locus]] $X^g$ (eq:gFixedLocusInGManifold) given by
 
 \[
   \label{ActionOfCentralizerTimesIntegersOnFixedLocus}
