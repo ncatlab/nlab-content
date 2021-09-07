@@ -436,7 +436,7 @@ This appears as [[Higher Topos Theory|HTT, lemma 6.5.1.2]].
 +-- {: .proof}
 ###### Proof
 
-First notice that the statement is true for $C = $ [[∞Grpd]]. For instance we can use the example [In ∞Grpd and Top](#InInfGrpd), model [[∞-groupoid]]s by [[Kan complex]]es and notice that then $\tau_{\leq n}$ is given by the truncation functor $tr_{n+1} : sSet \to [\Delta^{op}_{\leq n+1}, Set]$. This is also a [[right adjoint]] and as such preserves in particular product in $sSet$, which are $(\infty,1)$-products in $\infty Grpd$.
+First notice that the statement is true for $C = $ [[∞Grpd]]. For instance we can use the example [In ∞Grpd and Top](#InInfGrpd), model [[∞-groupoid]]s by [[Kan complex]]es and notice that then $\tau_{\leq n}$ is given by the truncation functor $tr_{n+1} : sSet \to [\Delta^{op}_{\leq n+1}, Set]$. This is also a [[right adjoint]] and as such preserves in particular products in $sSet$, which are $(\infty,1)$-products in $\infty Grpd$.
 
 From that we deduce that the statement is true for  $C$ any [[(∞,1)-category of (∞,1)-presheaves]] $C = PSh_{(\infty,1)}(K) = Func_{(\infty,1)}(K^{op}, \infty Grpd)$ because all relevant operations there are objectwise those in $\infty Grpd$.
 
