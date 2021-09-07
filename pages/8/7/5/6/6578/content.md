@@ -20,6 +20,11 @@ On [[twisted K-homology]]:
 
 * [[Eckhard Meinrenken]], _Twisted K-homology and group-valued moment maps_ (2010) ([arXiv:1008.1261](http://arxiv.org/abs/1008.1261))
 
+On [[smooth function|smooth]] [[transformation groups]]/[[G-spaces]] ([[Lie group]]-[[group actions]] on [[smooth manifolds]] in relation to [[Chern-Weil theory]] and [[equivariant de Rham cohomology]]:
+
+* {#Meinrenken03} [[Eckhard Meinrenken]], *Group actions on manifolds*, Lecture Notes 2003 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/action.pdf), [[Meinrenken_GroupActionsOnManifolds.pdf:file]])
+
+
 On [[equivariant de Rham cohomology]]:
 
 * {#Meinrenken06} [[Eckhard Meinrenken]], _Equivariant cohomology and the Cartan model_, in: _Encyclopedia of Mathematical Physics_, Pages 242-250 Academic Press 2006 ([pdf](http://www.math.toronto.edu/mein/research/enc.pdf), [doi:10.1016/B0-12-512666-2/00344-8](https://doi.org/10.1016/B0-12-512666-2/00344-8))
