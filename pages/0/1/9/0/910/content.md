@@ -210,12 +210,11 @@ A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparis
 
 ## References 
 
-The idea of compactly generated spaces appears first, assuming the Hausdorff condition, in:
+The idea of compactly generated Hausdorff spaces first appears in print in:
 
-* {#Gale50} David Gale, Section 1 of: _Compact Sets of Functions and Function Rings_,
-Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf), [doi:10.2307/2032373](https://doi.org/10.2307/2032373), [jstor:2032373](https://www.jstor.org/stable/2032373))
+* {#Gale50} [[David Gale]], Section 1 of: _Compact Sets of Functions and Function Rings_, Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf), [doi:10.2307/2032373](https://doi.org/10.2307/2032373), [jstor:2032373](https://www.jstor.org/stable/2032373))
 
-where it is attributed to [[Witold Hurewicz]], who lectured on the topic in Princeton, 1948-1949.[^2]
+where it is attributed to [[Witold Hurewicz]], who introduced the concept in a lecture series given in Princeton, 1948-49, which Gale attended.[^2]
 
 Early textbook accounts assuming the Hausdorff condition:
 
@@ -309,7 +308,7 @@ See also:
 
 [^1]: The reason for  choosing the term "k-space" in [Gale 1950](#Gale50) seems to be lost in history. The "k" is not for "Kelley", as [Kelley 1955](#Kelley55) came later. It might have been an allusion to the German word *kompakt*.
 
-[^2]: This is according to personal communication by David Gale to [[William Lawvere]] in 2003, forwarded by Lawvere to [[Martin Escardo]] at that time, and then kindly forwarded by Escardo to the nForum in 2021; see [there](https://nforum.ncatlab.org/discussion/8638/compactly-generated-topological-space/?Focus=94755#Comment_94755).
+[^2]: This is according to personal communication by [[David Gale]] to [[William Lawvere]] in 2003, forwarded by Lawvere to [[Martin Escardo]] at that time, and then kindly forwarded by Escardo to the nForum in 2021; see [there](https://nforum.ncatlab.org/discussion/8638/compactly-generated-topological-space/?Focus=94755#Comment_94755).
 
 
 
