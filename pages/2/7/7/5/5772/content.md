@@ -18,7 +18,9 @@ The min-plus algebra may be used to draw an analogy between the use of [[action 
 
 ## References
 
-* St&#233;phane Gaubert, [Introduction aux Syst&#232;mes Dynamiques &#224; &#201;v&#233;nements Discrets](http://amadeus.inria.fr/gaubert/PAPERS/POLY12-02-1999.pdf)
+* [[Stéphane Gaubert]], [Introduction aux Syst&#232;mes Dynamiques &#224; &#201;v&#233;nements Discrets](http://amadeus.inria.fr/gaubert/PAPERS/POLY12-02-1999.pdf)
+
+* [[Stéphane Gaubert]], _Methods and Applications of $(max,+)$ Linear Algebra_ [Report 3088](https://hal.inria.fr/inria-00073603/document), January 1997, INRIA.
 
 * [[John Baez]] & [[David Corfield]], [Changing the rig](http://math.ucr.edu/home/baez/corfield/2006/05/changing-rig.html)
 
