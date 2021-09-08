@@ -60,6 +60,8 @@ $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow 
 
 * [[idempotent semiring]]
 
+* [[residuated map]]
+
 ##References
 
 * Nikolaos Galatos, _Residuated lattices_, [slides](https://www2.karlin.mff.cuni.cz/~ssaos/2008/ResiduatedLatticesTutorial.pdf)
