@@ -1,5 +1,5 @@
 
-> This entry seems to be just a partial duplicate of *[[internal hom]]*. See there for more.
+> This entry as written remains a partial duplicate of *[[internal hom]]*. See there for more. But [[lattices]] with internal homs are also known as *[[residuated lattice|residuated lattices]]*.
 
 #Contents#
 * table of contents
