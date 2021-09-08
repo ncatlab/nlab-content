@@ -670,5 +670,3 @@ $$
   \times
   G^{\pi_0(\mathcal{X})}
 $$
-
-
