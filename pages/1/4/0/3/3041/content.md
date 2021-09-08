@@ -1,8 +1,9 @@
-Simona Paoli is an associate professor in School of Mathematics and Actuarial Science of the 
-University of Leicester
+Simona Paoli is a Senior Lecturer in Mathematics Institute, University of Aberdeen, Aberdeen U.K.
 
 
-* [website](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli)
+* [old website](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli)
+
+* [New profile](https://www.abdn.ac.uk/people/Simona.Paoli) still a stub.
 
 ## Selected writings
 on [[higher category theory]] in terms of [[n-fold categories]] and comparison with the Tamsamani Simpson model.
