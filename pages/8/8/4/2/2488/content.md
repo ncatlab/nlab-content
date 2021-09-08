@@ -118,9 +118,9 @@ Unwinding the definitions and applying the [[long exact sequence of homotopy gro
 +-- {: .num_prop }
 ###### Proposition
 For $n \geq -1$, a morphism $f : X \to Y$ of ∞-groupoids is $n$-truncated
-iff, for every point $x \in X$, we have $\pi_{n+1}(X, x) \to \pi_{n+1}(Y, f(x))$ is monic and for every $k \geq n+2$, $\pi_k(X, x) \to \pi_k(Y, f(x))$ is an isomorphism.
+iff, for every point $x \in X$, we have $\pi_{n+1}(X, x) \to \pi_{n+1}(Y, f(x))$ is a [[monomorphism]] and for every $k \geq n+2$, $\pi_k(X, x) \to \pi_k(Y, f(x))$ is an [[isomorphism]].
 
-$f$ is $(-2)$-trunacated iff it is a weak homotopy equivalence.
+$f$ is $(-2)$-trunacated iff it is a [[weak homotopy equivalence]].
 =--
 
 
