@@ -1,4 +1,4 @@
-Mark Lawson is senior lecturer at Heriot-Watt University, Edinburgh.  He has published extensively on inverse semigroups, finite automata and their interactions with other parts of mathematics and computer science.
+Mark Lawson is a professor at Heriot-Watt University, Edinburgh.  He has published extensively on inverse semigroups, finite automata and their interactions with other parts of mathematics and computer science.
 
 
 
