@@ -64,4 +64,10 @@ $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow 
 
 ##References
 
+A classical reference is 
+
+* M. Ward and R. P. Dilworth, _Residuated Lattices_,  Transactions of the American Mathematical Society, Vol. 45, No. 3 (May, 1939), pp. 335-354.[doi.org/10.2307/1990008 ](https://doi.org/10.2307/1990008 ) 
+
+A set of slides from a modern treatment is 
+
 * Nikolaos Galatos, _Residuated lattices_, [slides](https://www2.karlin.mff.cuni.cz/~ssaos/2008/ResiduatedLatticesTutorial.pdf)
