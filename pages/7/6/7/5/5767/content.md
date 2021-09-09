@@ -47,7 +47,7 @@ Apart from applications in [[tropical geometry]], the min-plus and max-plus alge
 
 ## References
 
-*  The use of the tropical algebra in [[discrete event systems]] is handled in many sources. A slightly old set of notes (in French) for an introductory  course by St&#233;phane Gaubert, of INRIA Rocquencourt.  They can be found [here](http://amadeus.inria.fr/gaubert/PAPERS/POLY12-02-1999.pdf).
+*  The use of the tropical algebra in [[discrete event systems]] is handled in many sources. A slightly old set of notes (in French) for an introductory  course by [[Stéphane Gaubert]], of INRIA Saclay.  They can be found [here](http://amadeus.inria.fr/gaubert/PAPERS/POLY12-02-1999.pdf).
 
 * [[Jean-Eric Pin]], _Tropical semirings_, [Hal preprint, hal-00113779](https://hal.archives-ouvertes.fr/hal-00113779/file/Tropical.pdf), and in the next reference,  pp.50-69, 1998, Publ. Newton Inst. 11. 
 
