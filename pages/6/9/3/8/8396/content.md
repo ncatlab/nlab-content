@@ -17,3 +17,4 @@ Mark Lawson is a professor at Heriot-Watt University, Edinburgh.  He has publish
 category:people
 [[!redirects M. V. Lawson]]
 [[!redirects Mark Lawson]]
+[[!redirects M.V.Lawson]]
