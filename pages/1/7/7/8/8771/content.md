@@ -19,7 +19,7 @@ The term _dioid_ is sometimes used as an alternative name for idempotent semirin
 
 ## Properties
 
-On a semiring there is a partial order given by
+On an idempotent semiring, there is a partial order given by
 
 $$ x \leq y : \iff x + y = y. $$
 
@@ -42,6 +42,7 @@ To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stack
 * [[idempotent semifield]]
 * [[tropical semiring]]
 * [[max-plus algebra]] 
+* [[residuated idempotent semiring]]
 
 
 [[!redirects idempotent semiring]]
