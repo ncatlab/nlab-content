@@ -18,11 +18,11 @@ from $S$ to itself are [[residuated mapping|residuated]].
 
 Any complete idempotent semiring is automatically residuated.  We set
 
-$$a\backslash b:= \lambda^\#_a(b) = max{x\mid \ax\leq b\}}$$
+$a \backslash b:= \lambda^\#_a (b) = max \{x \mid ax \leq b\}$
 
 and 
 
-\[b / a:= \rho_a^\# (b) = max \{ x \mid xa \leq b\}.\]
+$b / a:= \rho_a^\# (b) = max \{ x \mid xa \leq b\}.$
 
 In the completed $(max,+)$ semiring, $\overline{\mathbb{R}}_{max}$, $a\backslash b$ and $b/a$ are equal and both equal $b-a$, provided that $a\neq \mathbb{0}$, in which case they equal $+\infty$.
 
