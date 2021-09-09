@@ -24,9 +24,9 @@ $$X\cdot Y=\{x\cdot y\mid x\in X, y\in Y\};$$
 
 $$X\backslash Y = \{z\in M\mid X\cdot\{z\}\subseteq Y\};$$
 
-$$Y/ X= \{z\in M\mid \{z\}\cdot X\subseteq Y\}.$$
+$$Y/ X= \{z\in M\mid \{z\}\cdot X\subseteq Y\}$$
 
-Then $L$ with this structure is a residuated lattice. 
+and then $L$ with this structure is a residuated lattice. 
 
 * A special instance if this is with the quantale of ideals in a ring, $R$; see [[ideals in a monoid]] and [[quantale]], especially the section on examples.
 
@@ -51,6 +51,10 @@ We have
 * the residuation relation is satisfied:
 
 $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow (R\subseteq T / S)).$$
+
+##Categorical interpretations of residuation
+
+
 
 ##Related entries
 
