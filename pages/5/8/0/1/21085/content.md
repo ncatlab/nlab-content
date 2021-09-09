@@ -7,9 +7,9 @@
 
 ## Idea
 
-**Optics** are constructions used in [[computer science]] as bidirectional data accessors. They include [[lens (in computer science)|lenses]] and prisms, used to access, respectively, components of product data types and components of coproduct data types.
+**Optics** are constructions used in [[computer science]] as bidirectional data accessors. They include [[lens (in computer science)|lenses]] and prisms, used to access and modify, respectively, components of product data types and components of coproduct data types.
 
-Unlike [[lens (in computer science)|lenses]], optics do not require a cartesian structure to be around. That's replaced by a bi-[[actegory|actegorical]] structure and a quotient which 'ties' residual and incoming views.
+Unlike [[lens (in computer science)|lenses]], in general optics do not require a cartesian structure to be present. That's replaced by a bi-[[actegory|actegorical]] structure and a quotient which 'ties' residual and incoming views.
 
 ## Definition
 
@@ -29,11 +29,20 @@ One says optics are defined _up to sliding_ along the residual, a terminology su
 
 ##References
 
+A brief account of the purpose of optics is in:
+
+* [[Bartosz Milewski]], _Optics for the Working Mathematician_, ([blog post](https://bartoszmilewski.com/2021/09/08/optics-for-the-working-mathematician/))
+
+A similar, but more detailed account, is in:
+
+* Emily Pillmore, Mario Román, _Profunctor Optics: The Categorical View_, ([blog post](https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#more))
+
+Articles:
+
 * {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
 
 * [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
-* Emily Pillmore, Mario Román, _Profunctor Optics: The Categorical View_, ([blog post](https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#more))
 
 * {#Roman} Mario Román, _Open Diagrams via Coend Calculus_, ([arXiv:2004.04526](https://arxiv.org/abs/2004.04526))
 
