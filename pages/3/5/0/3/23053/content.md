@@ -7,6 +7,6 @@ Stéphane Gaubert is Directeur de Recherche at INRIA, at their Research unit in 
 
 ##Selected publications / preprints etc.
 
-* [[Stéphane Gaubert]], _Methods and Applications of $(max,+)$ Linear Algebra_ [Report 3088](https://hal.inria.fr/inria-00073603/document), January 1997, INRIA.
+* [[Stéphane Gaubert]], _Methods and Applications of $(max,+)$ Linear Algebra,_ [Report 3088](https://hal.inria.fr/inria-00073603/document), January 1997, INRIA.
 
 category:people
