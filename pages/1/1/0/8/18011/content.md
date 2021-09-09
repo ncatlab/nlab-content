@@ -7,7 +7,7 @@
 
 ## Idea
 
-Residuals are "[[exponential object|exponential objects]] for a [[monoidal category]]": they are compatible with the monoidal product $\otimes$. Because $\otimes$ is (in general) not symmetric, we distinguish a *left residual* and a *right residual*. In a [[symmetric monoidal category]], these are the same.
+Residuals, in the sense here, are "[[exponential object|exponential objects]] for a [[monoidal category]]": they are compatible with the monoidal product $\otimes$. Because $\otimes$ is (in general) not symmetric, we distinguish a *left residual* and a *right residual*. In a [[symmetric monoidal category]], these are the same.
 
 Recall the definition of an exponential object for a cartesian category:
 
@@ -70,4 +70,4 @@ Left and right residuals are unique up to isomosphism.
 
 The term "residual" for left/right [[internal homs]] is (non-standard and) used in 
 
-* [[Paul-André Melliès]] and [[Noam Zeilberger]], Def. 12 Functors Are Type Refinement Systems. In _Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages_, POPL '15, 3&#8211;16. New York, NY, USA, 2015. ACM. doi:[10.1145/2676726.2676970](http://doi.acm.org/10.1145/2676726.2676970).
+* [[Paul-André Melliès]] and [[Noam Zeilberger]], _Functors Are Type Refinement Systems_, in _Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages_, POPL '15, 3&#8211;16. New York, NY, USA, 2015. ACM. doi:[10.1145/2676726.2676970](http://doi.acm.org/10.1145/2676726.2676970).
