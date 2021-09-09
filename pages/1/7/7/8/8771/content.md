@@ -5,7 +5,7 @@
 
 ## Idea
 
-Recall that a [[semiring]] is a set $R$ equipped with two binary operations, denoted $+$, and $\cdot$ and called _addition_ and _multiplication_, satisfying the ring (or [[rng]]) axioms except that there may neither be a zero nor a negative nor an inverse.
+Recall that a [[semiring]] is a set $R$ equipped with two binary operations, denoted $+$, and $\cdot$ and called _addition_ and _multiplication_, satisfying the ring (or [[rng]]) axioms except that there may or may not be either be a zero nor a negative nor an inverse, for which reason do check.
 
 
 ## Definition
@@ -17,9 +17,11 @@ An idempotent semiring (also known as a _dioid_) is one in which addition is [[i
 
 The term _dioid_ is sometimes used as an alternative name for idempotent semirings.
 
+From now on we will assume that the semiring, $S$, has a neutral element $\varepsilon$ for + and one $e$ for $\cdot$.  Moreover we assume that for all $s\in S$, $s\cdot \varepsilon =\varepsilon s = \varepsilon$.
+
 ## Properties
 
-On an idempotent semiring, there is a partial order given by
+On an idempotent semiring, $S$, there is a partial order given by
 
 $$ x \leq y : \iff x + y = y. $$
 
