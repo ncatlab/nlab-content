@@ -60,7 +60,7 @@ $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow 
 
 * [[idempotent semiring]]
 
-* [[residuated map]]
+* [[residuated morphism]]
 
 ##References
 
