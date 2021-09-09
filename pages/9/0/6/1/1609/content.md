@@ -45,12 +45,12 @@ for any morphisms $f$ and $g$.
 
 The particular case of an ordered groupoid (in which each $f^{-1}$ is the inverse of $f$) is called an ordered groupoid.  This has been studied extensively by Mark Lawson, for instance see
 
-* Lawson, Mark V _Constructing ordered groupoids_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 2 (2005), p. 123-138,
+* [[ Mark V. Lawson]],  _Constructing ordered groupoids_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 2 (2005), p. 123-138,
 ([numdam](http://www.numdam.org/item?id=CTGDC_2005__46_2_123_0))
 
 or his book: 
 
-* M.V. Lawson, _Inverse semigroups: the theory of partial symmetries_ , World Scientific, 1998. 
+* [[M.V.Lawson]], _Inverse semigroups: the theory of partial symmetries_, World Scientific, 1998. 
 
 He makes the point that they were initially studied by Ehresmann and are very closely related to inverse semi-groups.  
 
