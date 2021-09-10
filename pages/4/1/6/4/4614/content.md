@@ -413,6 +413,21 @@ It follows that:
 
 \end{proof}
 
+On [[homotopy limits]]:
+
+This following is claimed on the first two pages of [Anderson 1978](#Anderson78):
+
+\begin{proposition}\label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
+  If $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ is a morphism of simplicial spaces such that 
+
+1. on [[simplicial sets]] of [[connected components]] it is a [[Kan fibration]];
+
+1. the component spaces $X_n$, $Y_n$ ($n \in \mathbb{N}$) are each [[connected topological space|connected]] or [[discrete topological space|discrete]]
+
+then the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ is a [[homotopy pullback]]-square in topological spaces.
+\end{proposition}
+
+
 #### Fat geometric realization
 
 The operation of [fat geometric realization](#FatGeometricRealization) does not preserve [[fiber product]]s on the nose, in general, but it does preserve all [[finite limit]]s up to [[homotopy]]. 
