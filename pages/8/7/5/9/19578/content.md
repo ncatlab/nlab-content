@@ -98,7 +98,8 @@ Review of the relation to [[string theory]]/[[intersecting D-brane models]] incl
 
 * {#Uranga02} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_ ([arXiv:hep-th/0201209](https://arxiv.org/abs/hep-th/0201209))
 
-* {#Teraguchi07} Shunsuke Teraguchi, around slide 21 _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf),  [[PPP7teraguchi.pdf:file]])
+* {#Teraguchi07} Shunsuke Teraguchi, around slide 21 of:  _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf),  [[PPP7teraguchi.pdf:file]])
+
 
 based on
 
