@@ -413,22 +413,6 @@ It follows that:
 
 \end{proof}
 
-On [[homotopy limits]]:
-
-\begin{proposition}\label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
-  If $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ is a morphism of simplicial spaces such that 
-
-1. on [[simplicial sets]] of [[connected components]] it is a [[Kan fibration]];
-
-1. the component spaces $X_n$, $Y_n$ ($n \in \mathbb{N}$) are each [[connected topological space|connected]] or [[discrete topological space|discrete]]
-
-then the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ is a [[homotopy pullback]]-square in topological spaces.
-\end{proposition}
-([Anderson 1978, p. 2](#Anderson78))
-
-An alternative sufficient condition is: $Y_\bullet$ is pointed and degreewise connected ([Lurie HA, Lem. 5.5.6.17](#LurieHigherAlgebra)). For more see [Lurie SimplicialSpaces](#LurieSimplicialSpaces).
-
-
 
 
 #### Fat geometric realization
@@ -450,6 +434,34 @@ preserves all [[finite limits]].
 \end{prop}
 
 This is claimed in [Gepner-Henriques 07, Remark 2.23](#GepnerHenriques07).
+
+### Preservation of homotopy limits
+
+On [[homotopy limits]]:
+
+\begin{proposition}
+\label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
+**([[homotopy pullbacks]] [[preserved limit|preserved]] by geometric realization)**
+\linebreak
+  For $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ a morphism of simplicial spaces, the following are sufficient conditions for the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ to be a [[homotopy pullback]]-square in topological spaces, assuming throughout that all simplicial spaces are good so that their realization computes their [[homotopy colimit]]:
+
+
+1. [Anderson 1978, p. 2](#Anderson78):
+
+   1. on [[simplicial sets]] of [[connected components]], $\pi_0(f)_\bullet$ is a [[Kan fibration]],
+
+   1. the component spaces $X_n$, $Y_n$ ($n \in \mathbb{N}$) are each [[connected topological space|connected]] or [[discrete topological space|discrete]];
+
+1. {#RezkConditionForPreservationOfHomotopyPullbacks} [Rezk 2014, Prop. 5.4](#Rezk14):
+
+   * the [[simplicial set]] of [[connected components]] of the base is [[constant functor|constant]]: $\pi_0(Y)_\bullet \simeq const(\pi_0(Y_0))$.
+
+\end{proposition}
+
+The [second](#RezkConditionForPreservationOfHomotopyPullbacks) statement is also essentially a special case of [Lurie HA, Lem. 5.5.6.17](#LurieHigherAlgebra) (using that simplicial $\infty$-colimits are sifted, by [this Prop.](sifted+infinity-colimit#SimplicialInfinityColimitsAreSifted)), which generalizes to [[(infinity,1)-toposes|$(\infty,1)$-toposes]] other than $L_W Top$.
+
+See also [Lurie 2011](#Lurie11).
+
 
 
 ### Relation to the homotopy colimit
@@ -1079,13 +1091,15 @@ Discussion of sufficient conditions for geometric realization to be compatible w
 
 * {#Anderson78} [[Donald Werner Anderson]], _Fibrations and geometric realization_,  Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
 
+* {#Lurie11} [[Jacob Lurie]], *Simplicial spaces*, Lecture 7 of: *[Algebraic L-theory and Surgery](https://www.math.ias.edu/~lurie/287x.html)*, 2011 ([pdf](https://www.math.ias.edu/~lurie/287xnotes/Lecture7.pdf))
+
+
 * {#Rezk14} [[Charles Rezk]], _When are homotopy colimits compatible with homotopy base change?_, 2014 ([pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]])
 
 * Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
 
   (expanded version of [Rezk 14](#Rezk14))
 
-* {#LurieSimplicialSpaces} [[Jacob Lurie]], *Simplicial spaces*, Lecture 7 of: *[Algebraic L-theory and Surgery](https://www.math.ias.edu/~lurie/287x.html)* ([pdf](https://www.math.ias.edu/~lurie/287xnotes/Lecture7.pdf))
 
 * {#LurieHigherAlgebra} [[Jacob Lurie]], around Lemma 5.5.6.17 in: *[[Higher Algebra]]*
 
