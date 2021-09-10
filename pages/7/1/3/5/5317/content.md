@@ -40,9 +40,13 @@ The sphere spectrum is naturally an [[E-∞ ring]] and in fact is the [[initial 
 
 ## Related concepts
 
+* [[sphere]]
+
 * [[spherical fibration]]
 
 * [[equivariant sphere spectrum]]
+
+* [[2-periodic sphere spectrum]]
 
 * [[Cohomotopy]]
 
