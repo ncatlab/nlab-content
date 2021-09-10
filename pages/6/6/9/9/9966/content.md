@@ -59,6 +59,8 @@ There is an analogue of the [[Landweber exact functor theorem]] for [[even cohom
 
 * [[Morava E-theory]]
 
+* [[2-periodic sphere spectrum]]
+
 
 ## References
 
