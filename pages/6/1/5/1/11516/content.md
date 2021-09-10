@@ -642,9 +642,9 @@ See at _[[equivariant Tietze extension theorem]]_
 ### Model structure and homotopy theory
  {#ModelStructureAndHomotopyTheory}
 
-The standard [[homotopy theory]] on $G$-spaces used in [[equivariant homotopy theory]] considers [[weak equivalences]] which are [[weak homotopy equivalence]] on all (ordinary) [[fixed point]] spaces for all suitable [[subgroups]]. By [[Elmendorf's theorem]], this is equivalent to [[(∞,1)-presheaves]] over the [[orbit category]] of $G$.
+The standard [[homotopy theory]] on $G$-spaces used in [[equivariant homotopy theory]] considers [[weak equivalences]] which are [[weak homotopy equivalence]] on all (ordinary) [[fixed loci]] for all suitable [[subgroups]]. This is presented by the *[[fine model structure on topological G-spaces]]*, which, by[[Elmendorf's theorem]], is equivalent to [[(∞,1)-presheaves]] over the [[orbit category]] of $G$.
 
-On the other hand there is also the standard homotopy theory of [[infinity-actions]], presented by the [[Borel model structure]], in this context also called the "coarse" or "naive" equivariant model structure ([Guillou](#Guillou)).
+On the other hand there is also the standard homotopy theory of [[infinity-actions]], presented by the *[[Borel model structure]]*, in this context also called the "coarse" or "naive" equivariant model structure ([Guillou](#Guillou)).
 
 
 ## Examples
