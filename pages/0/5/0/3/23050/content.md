@@ -14,7 +14,8 @@ $$(ab\le c)\Leftrightarrow (b\le a \backslash c)\Leftrightarrow (a\le c / b).$$
 
 ##Examples
 
-* Let $(M,\cdot, e)$ be a monoid and consider $L=\mathcal{P}(M)$.
+###Powerset of a monoid.
+ Let $(M,\cdot, e)$ be a monoid and consider $L=\mathcal{P}(M)$.
 
 If $X, Y\subseteq M$, define 
 
@@ -26,9 +27,11 @@ $$Y/ X= \{z\in M\mid \{z\}\cdot X\subseteq Y\}$$
 
 and then $L$ with this structure is a residuated lattice. 
 
-* A special instance if this is with the quantale of ideals in a ring, $R$; see [[ideals in a monoid]] and [[quantale]], especially the section on examples.
+* A special instance of this is with the quantale of ideals in a ring, $R$; see [[ideals in a monoid]] and [[quantale]], especially the section on examples.
 
-* For any set, $X$, the relation algebra, $Rel(X)=\mathcal{P}(X\times X)$ of binary relations on $X$ is a residuated lattice.
+###Relation algebra on a set
+
+ For any set, $X$, the relation algebra, $Rel(X)=\mathcal{P}(X\times X)$ of binary relations on $X$ is a residuated lattice.
 
 Writing $R^-$ for the complement of a relation, $R$, and $R;S$ for the relational composition of two relations, $R$ and $S$, we define
 
@@ -50,7 +53,9 @@ We have
 
 $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow (R\subseteq T / S)).$$
 
-* Any [[lattice ordered group]] gives a residuated lattice. This is described in the entry on lattice ordered groups.
+###Lattice-ordered group
+
+Any [[lattice ordered group]] gives a residuated lattice. This is described in the entry on lattice ordered groups.  It is noteworthy that in this context, the residuals are quotients and, in fact, the inverses in the group are residuals. 
 
 ##Categorical interpretations of residuation
 
