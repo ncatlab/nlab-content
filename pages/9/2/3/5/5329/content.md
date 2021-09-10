@@ -46,21 +46,17 @@ This is ([Lurie, lemma 5.5.8.11](#Lurie)).
 
 ### General
 
-+-- {: .num_prop }
-###### Proposition
-
+\begin{proposition}
 The [[opposite category]] $\Delta^{op}$ of the [[simplex category]] is a sifted $(\infty,1)$-category.
+\end{proposition}
+([Lurie HTT, prop. 5.5.8.4](#LurieHTT)).
 
-=--
-
-+-- {: .num_prop }
-###### Proposition
+\begin{proposition}
 
 Every [[filtered (∞,1)-category]] is sifted.
 
-=--
-
-This appears as ([Lurie, prop. 5.3.1.20](#Lurie)).
+\end{proposition}
+([Lurie HTT, prop. 5.3.1.20](#LurieHTT)).
 
 ### In categories of commutative monoids
 
@@ -83,11 +79,10 @@ See [[commutative monoid in a symmetric monoidal (∞,1)-category]] for details.
 * [[filtered category]], [[filtered (∞,1)-category]]
 
 ## References
+ 
 
-Section 5.5.8 of 
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-  {#Lurie}
+* {#LurieHTT} [[Jacob Lurie]], Section 5.5.8 of: _[[Higher Topos Theory]]_
+  
 
 [[!redirects sifted (infinity,1)-categories]]
 [[!redirects sifted (∞,1)-category]]
