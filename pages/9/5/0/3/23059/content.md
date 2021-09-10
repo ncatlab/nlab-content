@@ -34,6 +34,8 @@ We note that given any $x, y \in G$, we can form $x / y = x\cdot y^{-1}$, and $y
 
 This gives that any lattice ordered group gives a [[residuated lattice]].
 
+The lattice ordered groups form a variet ub the category of residuated lattices that is axiomatised by the identity $x\cdot (1/x) = x$.
+
 ##References
 The original article that considered ordered groups in the non-commutative case is by Garrett Birkhoff:
 
@@ -43,7 +45,7 @@ He later considered Lattice-ordered Lie groups.
 
 There are several monographs or books on the subject of lattice ordered groups.
 
-* Marlow Anderson and Todd Feil, _Lattice Ordered Groups: An Introduction,_ Reidel, Springer Science & Business Media, 6 Dec 2012. 
+* Marlow Anderson and Todd Feil, _Lattice Ordered Groups: An Introduction,_ Reidel Texts in the Mathematical Sciences, vol 4, (1988), (doi:10.1007/978-94-009-2871-8).
 
-* V. M. Kopytov, N. Ya. Medvedev, The Theory of Lattice-Ordered Groups,  Mathematics and Its Applications, volume 307, Springer, [doi](https://doi.org/10.1007/978-94-015-8304-6).
+* V. M. Kopytov, N. Ya. Medvedev, _The Theory of Lattice-Ordered Groups_,  Mathematics and Its Applications, volume 307, 1994), Springer, [doi](https://doi.org/10.1007/978-94-015-8304-6).
 
