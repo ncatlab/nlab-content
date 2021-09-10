@@ -29,11 +29,11 @@ $$
   \,,
 $$
 
-where the last map is specified by [[Bott periodicity]] ([Lurie, Rotation Invariance, Remark 3.5.13](#LurieRotation)). 
+where the last map is specified by [[Bott periodicity]] ([Lurie, Rotation Invariance, Remark 3.5.13](#LurieRotation)). It cannot be equipped with an [[E-infinity operad|$E_{\infty}$]] structure.
 
 As a spectrum it is given by the [[direct sum]] ([[wedge sum]]) 
 $\bigoplus_{n \in \mathbb{Z}} \mathbb{S}^{-2n}$
-of all even-degree [[suspensions]] of the plain [[sphere spectrum]]  .
+of all even-degree [[suspensions]] of the plain [[sphere spectrum]].
 
 
 
