@@ -41,6 +41,8 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 
 * [[holomorphic symplectic geometry]]
 
+* [[Arnold conjecture]]
+
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
 
@@ -73,6 +75,6 @@ Symplectic geometry is also involved in [[geometric optics]], [[geometric quanti
 * wikipedia [symplectic geometry](http://en.wikipedia.org/wiki/Symplectic_geometry)
 Application: "Jacobi's elimination of nodes" is moved to [[equivariant localization and elimination of nodes]]. 
 
-A proof of the Arnold conjecture in symplectic geometry is in 
+A proof of the [[Arnold conjecture]] in symplectic geometry is in 
 
-* Mohammed Abouzaid, Andrew J. Blumberg, _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
+* [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
