@@ -140,6 +140,11 @@ See at _[quaternionic Hopf fibration --  Class in equivariant stable homotopy th
 
 * The [[cohomology theory]] [[Brown representability theorem|represented]] by the equivariant sphere spectrum is _[[equivariant stable cohomotopy]]_.
 
+* [[sphere spectrum]]
+
+* [[2-periodic sphere spectrum]]
+
+
 ## References
 
 ### General
