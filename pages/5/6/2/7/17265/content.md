@@ -3504,13 +3504,17 @@ $$
 
 * [[model structure on topological spaces]]
 
-  * [[classical model structure on topological spaces]]
-
-    * [[classical model structure on pointed topological spaces]]
+  * [[classical model structure on pointed topological spaces]]
 
   * [[Strøm model structure]]
 
   * [[model structure on Delta-generated topological spaces]]
+
+For [[topological G-spaces]] in [[equivariant homotopy theory]]:
+
+* [[fine model structure on topological G-spaces]]
+
+* [[coarse model structure on topological G-spaces]] ([[Borel model structure]])
 
 
 ## References
