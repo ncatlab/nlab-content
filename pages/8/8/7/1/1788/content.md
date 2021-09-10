@@ -1,4 +1,16 @@
 
+\begin{proposition}\label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
+  If $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ is a morphism of simplicial spaces such that 
+
+1. on [[simplicial sets]] of [[connected components]] it is a [[Kan fibration]];
+
+1. all component spaces $X_n$, $Y_n$ ($n \in \mathbb{N}$) are [[connected topological space|connected]] or [[discrete topological space]]
+
+then the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ is a [[homomotopy pullback]]-square in topological spaces.
+\end{proposition}
+
+
+
 Write $TopSp$ for the [[convenient category of topological spaces|convenient category]] of [[compactly generated weak Hausdorff spaces]], and $TopSp_{Qu}$ for the [[classical model structure on topological spaces]] in its version for compactly generated spaces ([this Thm.](classical+model+structure+on+topological+spaces#ModelStructureOnTopcg)).
 
 \begin{proposition}
