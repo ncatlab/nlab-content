@@ -16,7 +16,7 @@ In particular, there is always a "vertical 2-category" consisting of the objects
 
 ## Applications
 
-Augmented Virtual double categories are a natural context in which to compare [[proarrow equipments]] and [[Yoneda structures]], which are two different approaches to "formal category theory".  In both cases there is a notion of "profunctor" which are generally considered to be small-set-valued, but Yoneda structures require non-locally-small categories (the presheaf categories of non-small categories).  In this context the Yoneda embedding can be given a universal property relative to the horizontal arrows.  See [(Koudenburg)](#Koudenburg19).
+Augmented Virtual double categories are a natural context in which to compare [[proarrow equipments]] and [[Yoneda structures]], which are two different approaches to [[formal category theory]].  In both cases there is a notion of "profunctor" which are generally considered to be small-set-valued, but Yoneda structures require non-locally-small categories (the presheaf categories of non-small categories).  In this context the Yoneda embedding can be given a universal property relative to the horizontal arrows.  See [(Koudenburg)](#Koudenburg19).
 
 ## Related pages
 
