@@ -7,9 +7,23 @@ The aim of **formal category theory**  is to axiomatise the constructions of cat
 
 > The purpose of category theory is to try to describe certain general aspects of the structure of mathematics.  Since category theory is also part of mathematics, this categorical type of description should apply to it as well as to other parts of mathematics. ([Gray 74](#Gray74))
 
+Contexts to develop formal category theory include [[proarrow equipments]] and [[Yoneda structures]].
+
+## Related pages
+
+* [[proarrow equipment]] 
+* [[virtual double category]]
+* [[virtual equipment]]
+* [[Yoneda structure]]
+
+
 ## References
 
 * {#Gray74} [[John Gray]], [[Adjointness for 2-Categories]], 1974.
+
+* [[Ivan Di Liberti]], [[Simon Henry]], Mike Lieberman, [[Fosco Loregian]], _Formal category theory_, ([course notes](https://tetrapharmakon.github.io/stuff/course_muni-formal.pdf))
+
+* [[Ivan Di Liberti]], [[Fosco Loregian]], _On the unicity of formal category theories_ ([arXiv:1901.01594](https://arxiv.org/abs/1901.01594))
 
 * {#Koudenburg15} Seerp Roald Koudenburg, *A double-dimensional approach to formal category theory*, [arXiv](http://arxiv.org/abs/1511.04070), 2015.  In this paper augmented virtual categories are called "hypervirtual double categories".
 
