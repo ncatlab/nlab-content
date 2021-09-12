@@ -33,6 +33,8 @@ For general $G$, [[Elmendorf's theorem]] asserts that this is [[Quillen equivale
 
 * [[equivariant homotopy theory]]
 
+* [[Elmendorf's theorem]]
+
 ## References
 
 For the moment, see the references and discussion at *[[Elmendorf's theorem]]* for more.
