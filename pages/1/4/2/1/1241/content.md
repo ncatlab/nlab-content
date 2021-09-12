@@ -368,6 +368,9 @@ for non-superymmetric [[model (physics)|models]]:
 
 * Nobuchika Okada, Digesh Raut, Qaisar Shafi, _Inflation, Proton Decay, and Higgs-Portal Dark Matter in $SO(10) \times U(1)_\pri$_ ([arXiv:1906.06869](https://arxiv.org/abs/1906.06869))
 
+* V. Suryanarayana Mummidi, Ketan M. Patel, *Leptogenesis and fermion mass fit in a renormalizable $SO(10)$ model* ([arXiv:2109.04050](https://arxiv.org/abs/2109.04050))
+
+
 for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
 * Archana Anandakrishnan, B. Charles Bryant, Stuart Raby, _LHC Phenomenology of $SO(10)$ Models with Yukawa Unification II_ ([arXiv:1404.5628](http://arxiv.org/abs/1404.5628))
