@@ -15,7 +15,7 @@ It was finally published together with an author's comment and a supplement here
 
 In his thesis, Lawvere introduces [[Lawvere theories]] and the [[categorical semantics|functorial perspective]] into model theory. He takes steps towards axiomatizing [[ETCC|the category of categories as a foundation for mathematics]]. This  includes introducing the notion of [[comma category]] as an auxiliary to a definition of [[adjoint functors|adjunction]] implicitly involving an isomorphism of [[2-sided discrete fibrations]] (cf. Lawvere 2004 pp.12--13).
 
-For a generalization to relational theories see
+Generalization to relational theories:
 
 * [[Filippo Bonchi]], [[Dusko Pavlovic]], [[Pawel Sobocinski]], _Functorial Semantics for Relational Theories_, ([arXiv:1711.08699](https://arxiv.org/abs/1711.08699))
 
