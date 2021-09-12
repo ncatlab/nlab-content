@@ -19,5 +19,9 @@ Generalization to relational theories:
 
 * [[Filippo Bonchi]], [[Dusko Pavlovic]], [[Pawel Sobocinski]], _Functorial Semantics for Relational Theories_, ([arXiv:1711.08699](https://arxiv.org/abs/1711.08699))
 
+Generalization to partial algebraic theories:
+
+* [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]] _Functorial semantics for partial theories_, ([arXiv:2011.06644](https://arxiv.org/abs/2011.06644))
+
 
 category:reference
