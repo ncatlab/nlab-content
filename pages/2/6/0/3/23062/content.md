@@ -35,8 +35,14 @@ For general $G$, [[Elmendorf's theorem]] asserts that this is [[Quillen equivale
 
 ## References
 
+For the moment, see the references and discussion at *[[Elmendorf's theorem]]* for more.
+
+The original article:
+
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], Section 1.2 of: _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
 
+Further discussion:
 
-For the moment, see the references and discussion at *[[Elmendorf's theorem]]* for more.
+* {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Theorem 1.6 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [doi:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
+
 
