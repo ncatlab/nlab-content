@@ -19,4 +19,4 @@ on [[algebraic stacks]] and [[functor of points|functorial]] [[algebraic geometr
 
 ## English translation
 
-* Ruìān Chén, [pdf](http://www-personal.umich.edu/~ruchen/articles/stacks.pdf)
+* Ruìān Chén, [PDF 1](https://web.archive.org/web/20190617183638/http://www-personal.umich.edu/~ruchen/articles/stacks.pdf), [[toen-master-course.pdf:file]]
