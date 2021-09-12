@@ -117,6 +117,10 @@ The proposal [above](#Definition) was originally motivated from the discussion o
 
 * {#Kapranov15b} [[Mikhail Kapranov]], _Super-geometry_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=bjsNwKYT8JE))
 
+A closely related suggestion later appears in:
+
+* MathOverflow comment  [MO:a/40327](https://mathoverflow.net/a/403274/381), Sep 2021
+
 
 
 [[!redirects spectral super-schemes]]
