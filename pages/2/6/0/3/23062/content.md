@@ -35,7 +35,7 @@ Throughout, we write
 
 * $TopSp_{Qu}$ for its [[classical model structure on topological spaces]] ([here](classical+model+structure+on+topological+spaces#ModelStructureOnCompactlyGeneratedTopologicalSpaces));
 
-* $G \,\in\, Grp(TopSp)$ for a fixed [[topological group]];
+* $G \,\in\, Grp(CptSmthMfd) \xrightarrow{\;} Grp(TopSp)$ for the [[underlying]] [[topological group]] of a [[compact Lie group]];
 
 * $G Act(TopSp)$ for the [[category]] of [[continuous function|continuous]] $G$-[[group action|actions]], hence for the category of [[topological G-spaces]] with [[continuous function|continuous]] [[equivariant functions]] between them.
 
@@ -51,20 +51,66 @@ $G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equi
 ## Properties
 
 
-\begin{prop}
-  The model category $G Act\big( TopSp_{Qu}\big)_{fine}$ (Prop. \ref{FineModelStructureOnGSpaces}) is an [[enriched model category]] over $TopSp_{Qu}$ with [[hom-objects]] given by the $G$-[[fixed loci]] of the [[conjugation action]] on the [[mapping spaces]]:
+\begin{prop}\label{TheFineModelStructure}
+  The model category $G Act\big( TopSp_{Qu}\big)_{fine}$ (Prop. \ref{FineModelStructureOnGSpaces}) is 
+
+1. {#CofibrantGeneration} a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the images under forming [[products]] ([[k-ification|k-ified]] [[topological product spaces]]) of [[coset spaces]] $G/H$ with the classical generating cofibrations ([here](classical+model+structure+on+topological+spaces#TopologicalGeneratingCofibrations) and [here](classical+model+structure+on+topological+spaces#TopologicalGeneratingAcyclicCofibrations)):
+
+   \[
+     \label{GeneratingCofibrations}
+     \begin{aligned}
+     J_{G Top} 
+       &\;\coloneqq\;
+     \big\{
+       G/H \times D^n \xhookrightarrow G/H \times D^n \times I
+     \big\}
+     \\
+     I_{G Top} 
+       &\;\coloneqq\;
+     \big\{
+       G/H \times D^n \xhookrightarrow G/H \times D^n \times I
+     \big\}
+     \end{aligned}
+   \]
+
+1. an [[enriched model category]] over $TopSp_{Qu}$ with [[hom-objects]] given by the $G$-[[fixed loci]] of the [[conjugation action]] on the [[mapping spaces]], hence such that
+   \[
+     \label{EnrichmentOverTopologicalSpaces}
+     Maps(-,-)^G 
+       \;\colon\;
+     G Act\big(TopSp_{Qu}\big)_{fine}^{op}
+       \times
+     G Act\big(TopSp_{Qu}\big)_{fine}^{op}
+      \xrightarrow{\;}
+     TopSp_{Qu}
+   \]
+   is a [[Quillen bifunctor]].
+\end{prop}
+This is part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouMayRubin13).
+
+
+\begin{proposition}
+  For $X \,\in\, G Act\big(TopSp_{Qu}\big)_{fine}$ a [[G-CW complex]], the [[functor]] which assigns [[mapping spaces]] out of $X$ equipped with the [[conjugation action]], is a [[right Quillen functor]], hence make a [[Quillen adjunction]] together with the [[functor]] of taking [[product]] with $X$ (the [[k-ification|k-ified]] [[topological product space]]) equipped with the [[diagonal action]]:
 $$
-  Maps(-,-)^G \;\colon\;
-  G Act(TopSp)^{op}
-    \times
-  G Act(TopSp)^{op}
-   \xrightarrow{\;}
-  TopSp
+  G Act\big( TopSp_{Qu}\big)_{fine}
+    \underoverset
+    {\underset{Maps(X,-)}{\longrightarrow}}
+    {\overset{X \times (-)}{\longleftarrow}}
+    {\bot_{\mathrlap{Qu}}}
+  G Act\big( TopSp_{Qu}\big)_{fine}
+  \mathrlap{\,.}
+$$
+\end{proposition}
+\begin{proof}
+  Let $f \,\colon\, A \xrightarrow{\;} B$ be a ([[acyclic fibration|acyclic]]) [[fibration]]. It is sufficient to to show that $Maps(X,f)$ is an (acyclic) fibration in $G Act\big( TopSp_{Qu}\big)_{fine}$, hence that $Maps(X,f)^H$ is an (acyclic) fibration in $TopSp_{Qu}$ for every $H \underset{clsd}{\subset} G$. But the latter may be identified with
+$$
+  Maps(X,f) \,=\, Maps\big( G/H \,\times\, X  \big)^{ G }
   \,.
 $$
-\end{prop}
-This part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouMayRubin13).
+It is now sufficient to see that $G/H \times X$ is cofibrant, because then (eq:EnrichmentOverTopologicalSpaces) implies that the right hand side is an (acyclic) fibration.
 
+Since [[G-CW complexes]] are cofibrant by (eq:GeneratingCofibrations), and since $G/H$ is a $G$-CW-complex (evidently) as is $X$ (by assumption), it is sufficient to observe that taking products preserves $G$-CW complexes. This is true for $G$ a [[compact Lie group]], by the [[equivariant triangulation theorem]] for [[G-manifolds]].
+\end{proof}
 
 
 ## Related concepts
