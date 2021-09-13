@@ -123,6 +123,9 @@ A comparison of "regular proarrow equipments" with "regular [[fibrations]] of [[
 
 * [[Finn Lawler]], *Fibrations of predicates and bicategories of relations*, [arXiv](http://arxiv.org/abs/1502.08017)
 
+A study of equipments of relations from a double-categorical viewpoint, and a characterization of those that arise from some [[factorization system]], is in
+
+* [[Michael Lambert]], *Double categories of relations*, [arxiv](https://arxiv.org/abs/2107.07621) 2021
 
 [[!redirects (1,2)-category equipment]]
 [[!redirects (1,2)-category equipped with proarrows]]
