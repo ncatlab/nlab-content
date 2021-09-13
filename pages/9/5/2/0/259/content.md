@@ -213,6 +213,8 @@ Survey includes (see also the references at [[(infinity,1)-category]]):
 
 * {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf), [[RezkQuasicategories.pdf:file]])
 
+* [[Charles Rezk]], _Introduction to quasicategories_, [PDF](https://faculty.math.illinois.edu/~rezk/quasicats.pdf).
+
 * [[Moritz Groth]], _A short course on ∞-categories_ ([arXiv:1007.2925](https://arxiv.org/abs/1007.2925))
 
 An in-depth study of adjunctions between quasi-categories and the monadicity theorem is given in
