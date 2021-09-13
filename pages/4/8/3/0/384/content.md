@@ -295,7 +295,7 @@ A **cellular map** between CW-complexes $X$ and $Y$ is a [[continuous function]]
 If $A \hookrightarrow X$ is an inclusion of CW-complexes, then the quotient $X/A$ is naturally itself a CW-complex, such that the quotient map $X \to X/A$ is cellular.
 
 
-If $X$ is a CW-complex and $K$ is a [[finite CW-complex]], then the [[product topological space]] $X \times K$ is naturally itself a CW-complex.
+If $X$ is a CW-complex and $K$ is a [[finite CW-complex]], then the [[product topological space]] $X \times K$ is naturally itself a CW-complex (see [Brooke-Taylor 2017](#BrookeTaylor17) for more and more generality, and see Prop. \ref{ClosureOfCWComplexesUnderCartesianProduct} below).
 
 For example the [[suspension]] of a CW-complex itself carries the structure of a CW-complex.
 
@@ -304,8 +304,9 @@ Similarly for [[pointed topological space|pointed]] CW-complexes: the [[smash pr
 
 +-- {: .num_prop #ClosureOfCWComplexesUnderCartesianProduct}
 ###### Proposition
-
-For $X$ and $Y$ [[CW-complexes]] with attaching maps $\{\phi_\alpha\}$ and $\{\Psi_\beta\}$, then the [[compactly generated topological space|k-ification]] $(X \times Y)_c$ of their [[product topological space]] $X \times Y$ (hence their Cartesian product in the category of [[compactly generated topological spaces]]) is again a CW-complex with attaching maps $\{\Phi_\alpha \times \Psi_\beta\}$. 
+**(product preserves CW-complexes in [[compactly generated topological spaces]])**
+\linebreak
+For $X$ and $Y$ [[CW-complexes]] with attaching maps $\{\phi_\alpha\}$ and $\{\Psi_\beta\}$, then the [[k-ification]] $(X \times Y)_c$ of their [[product topological space]] $X \times Y$ (hence their Cartesian product in the category of [[compactly generated topological spaces]]) is again a CW-complex with attaching maps $\{\Phi_\alpha \times \Psi_\beta\}$. 
 
 If either of the two CW-complexes is a [[locally compact topological space]] or if both are countable CW-complexes (have a [[countable set]] of cells) then
 
@@ -317,7 +318,7 @@ and so then the [[product topological space]] $X \times Y$ itself has CW-complex
 
 =--
 
-(e.g. [Hatcher, theorem A.6](#Hatcher) -- for more and more pointers see [Brooke-Taylor 2017](#BrookeTaylor17))
+(e.g. [Hatcher 2002, theorem A.6](#Hatcher02))
 
 ### Local contractibility
  {#LocalContractibility}
@@ -330,7 +331,7 @@ A CW-complex is a [[locally contractible topological space]].
 
 =--
 
-For instance ([Hatcher, prop. A.4](#Hatcher)). 
+For instance ([Hatcher 2002, prop. A.4](#Hatcher02)). 
 
 ### Compactness properties
 
@@ -399,7 +400,7 @@ For $X$ a CW complex, the inclusion $X' \hookrightarrow X$ of any subcomplex has
 
 =--
 
-For instance ([Hatcher, prop. A.5](#Hatcher)).
+For instance ([Hatcher 2002, prop. A.5](#Hatcher02)).
 
 +-- {: .num_remark }
 ###### Remark
@@ -496,7 +497,7 @@ $$
 
 =--
 
-This is mostly for instance in ([Hatcher, lemma 2.34 b),c)](#Hatcher)).
+This is mostly for instance in ([Hatcher 2002, lemma 2.34 b),c)](#Hatcher02)).
 
 +-- {: .proof}
 ###### Proof
@@ -603,7 +604,8 @@ Basic textbook accounts include
 
 * {#May} [[Peter May]], _[[A Concise Course in Algebraic Topology]]_, U. Chicago Press (1999) 
 
-* {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002
+* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
+
   
 * {#HatcherTopologyOfCellComplexes} [[Allen Hatcher]], _Topology of cell complexes_ ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATapp.pdf)) in _Algebraic Topology_
 
