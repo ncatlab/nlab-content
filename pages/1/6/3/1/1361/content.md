@@ -86,7 +86,7 @@ Textbook account:
 
 See also:
 
-* [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and presheaf categories_, New York J. Math. 26 (2020) 37–9 ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567), [](https://www.emis.de/journals/NYJM/j/2020/26-3.html), [NYJM:2020/26-3](https://www.emis.de/journals/NYJM/j/2020/26-3.html))
+* [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and presheaf categories_, New York J. Math. 26 (2020) 37–9 ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567), [NYJM:2020/26-3](https://www.emis.de/journals/NYJM/j/2020/26-3.html))
 
 [[!redirects enriched model categories]]
 
