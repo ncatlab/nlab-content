@@ -321,7 +321,7 @@ $$
   \,.
 $$
 
-This is continuous becaue [[projections]] out of [[product topological spaces]] are continuous, by
+This is continuous because [[projections]] out of [[product topological spaces]] are continuous, by
 the [[universal property]] of the [[Cartesian product]].
 
 To see that the relation is [[symmetric relation|symmetric]]: If $\eta \colon f \Rightarrow g$ is a homotopy then
