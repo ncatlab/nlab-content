@@ -664,6 +664,8 @@ and
 
 * [[relation between L-∞ algebras and dg-Lie algebras]]
 
+* [[EL-∞ algebra]]
+
 ## References 
  {#References}
 
