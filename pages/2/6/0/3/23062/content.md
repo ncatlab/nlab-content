@@ -25,7 +25,10 @@ For $G$ a [[topological group]], there exists a [[model category]]-[[mathematica
 
 In the case that $G$ is a [[compact Lie group]], the corresponding [[homotopy theory]] coincides with that of [[G-CW complexes]] [[localization|localized]] at $G$-equivariant [[homotopy equivalences]].
 
-For general $G$, [[Elmendorf's theorem]] asserts that this is [[Quillen equivalence|Quillen equivalent]] to the [[model category of simplicial presheaves]] on the [[orbit category]] of $G$ (...).
+For general $G$, [[Elmendorf's theorem]] asserts that this is [[Quillen equivalence|Quillen equivalent]] to the [[model category of simplicial presheaves]] on the [[orbit category]] of $G$.
+
+The fine model structure is in contrast to the "coarse" or [[Borel model structure]], which instead presents the [[slice (infinity,1)-category|slice]] homotopy theory over the [[classifying space]] $B G$.
+
 
 ## Definition
 
@@ -47,29 +50,31 @@ Throughout, we write
 $G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equivalences]] and [[fibrations]] are those [[morphisms]] $f \,\colon\, X \xrightarrow{\;} Y$ such that for each [[closed subgroup]] $H \,\underset{clsd}{\subset}\, G$ their ([[corestriction|co-]])[[restriction]] $f^H \,\colon\, X^H \xrightarrow{\;} Y^H$ to the  $H$-[[fixed loci]] is, respectivelhy, a [[weak equivalence]] or [[fibration]] in the [[classical model structure on topological spaces]], hence a [[weak homotopy equivalence]] or [[Serre fibration]].
 \end{proposition}
 
+([Dwyer & Kan 1984, 1.2](#DwyerKan84))
+
 
 ## Properties
 
 
-\begin{prop}\label{TheFineModelStructure}
-  The model category $G Act\big( TopSp_{Qu}\big)_{fine}$ (Prop. \ref{FineModelStructureOnGSpaces}) is 
+\begin{prop}\label{BasicPropertiesOfTheFineModelStructure}
+  The model category $G Act\big( TopSp_{Qu}\big)_{fine}$ (Prop. \ref{FineModelStructureOnGSpaces}) is:
 
-1. {#CofibrantGeneration} a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the images under forming [[products]] ([[k-ification|k-ified]] [[topological product spaces]]) of [[coset spaces]] $G/H$ with the classical generating cofibrations ([here](classical+model+structure+on+topological+spaces#TopologicalGeneratingCofibrations) and [here](classical+model+structure+on+topological+spaces#TopologicalGeneratingAcyclicCofibrations)):
+1. {#CofibrantGeneration} a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the images under forming [[products]] ([[k-ification|k-ified]] [[product topological spaces]]) of [[coset spaces]] $G/H$ with the classical generating cofibrations ([here](classical+model+structure+on+topological+spaces#TopologicalGeneratingCofibrations) and [here](classical+model+structure+on+topological+spaces#TopologicalGeneratingAcyclicCofibrations)):
 
    \[
      \label{GeneratingCofibrations}
      \begin{aligned}
-     J_{G Top} 
+     I_{G Top} 
        &\;\coloneqq\;
      \big\{
-       G/H \times D^n \xhookrightarrow G/H \times D^n \times I
-     \big\}
+       G/H \times S^{n-1} \xhookrightarrow{\;} G/H \times D^n 
+     \big\}_{n \in \mathbb{N}}
      \\
      I_{G Top} 
        &\;\coloneqq\;
      \big\{
-       G/H \times D^n \xhookrightarrow G/H \times D^n \times I
-     \big\}
+       G/H \times D^n \xhookrightarrow{\;} G/H \times D^n \times I
+     \big\}_{n \in \mathbb{N}}
      \end{aligned}
    \]
 
@@ -85,13 +90,17 @@ $G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equi
      TopSp_{Qu}
    \]
    is a [[Quillen bifunctor]].
+
 \end{prop}
 This is part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouMayRubin13).
 
 
 \begin{proposition}
-  For $X \,\in\, G Act\big(TopSp_{Qu}\big)_{fine}$ a [[G-CW complex]], the [[functor]] which assigns [[mapping spaces]] out of $X$ equipped with the [[conjugation action]], is a [[right Quillen functor]], hence make a [[Quillen adjunction]] together with the [[functor]] of taking [[product]] with $X$ (the [[k-ification|k-ified]] [[topological product space]]) equipped with the [[diagonal action]]:
-$$
+  \label{InternalHomQuillenAdjunction}
+**([[internal hom]] [[Quillen adjunction]])**
+\linebreak
+  For $X \,\in\, G Act\big(TopSp_{Qu}\big)_{fine}$ a [[G-CW complex]], the [[functor]] which assigns [[mapping spaces]] out of $X$ equipped with the [[conjugation action]], is a [[right Quillen functor]], hence make a [[Quillen adjunction]] together with the [[functor]] of taking [[product]] with $X$ (the [[k-ification|k-ified]] [[product topological space]]) equipped with the [[diagonal action]]:
+\[
   G Act\big( TopSp_{Qu}\big)_{fine}
     \underoverset
     {\underset{Maps(X,-)}{\longrightarrow}}
@@ -99,17 +108,26 @@ $$
     {\bot_{\mathrlap{Qu}}}
   G Act\big( TopSp_{Qu}\big)_{fine}
   \mathrlap{\,.}
-$$
+\]
 \end{proposition}
 \begin{proof}
-  Let $f \,\colon\, A \xrightarrow{\;} B$ be a ([[acyclic fibration|acyclic]]) [[fibration]]. It is sufficient to to show that $Maps(X,f)$ is an (acyclic) fibration in $G Act\big( TopSp_{Qu}\big)_{fine}$, hence that $Maps(X,f)^H$ is an (acyclic) fibration in $TopSp_{Qu}$ for every $H \underset{clsd}{\subset} G$. But the latter may be identified with
+  Let $f \,\colon\, A \xrightarrow{\;} B$ be an ([[acyclic fibration|acyclic]]) [[fibration]]. It is sufficient to to show that $Maps(X,f)$ is an (acyclic) fibration in $G Act\big( TopSp_{Qu}\big)_{fine}$, hence that $Maps(X,f)^H$ is an (acyclic) fibration in $TopSp_{Qu}$ for every $H \underset{clsd}{\subset} G$. But the latter may be identified, up to [[isomorphism]] ([[homeomorphism]]) with
 $$
-  Maps(X,f) \,=\, Maps\big( G/H \,\times\, X  \big)^{ G }
+  Maps(X,\,f)^H 
+    \,\simeq\,
+  Maps
+  \left(
+    G/H
+    ,\,
+    Maps(X,\,f)
+  \right)^G
+    \,\simeq\,
+  Maps\big( G/H \times X, \, f  \big)^{ G }
   \,.
 $$
-It is now sufficient to see that $G/H \times X$ is cofibrant, because then (eq:EnrichmentOverTopologicalSpaces) implies that the right hand side is an (acyclic) fibration.
+It is now sufficient to see that $G/H \times X$ is cofibrant, because then (eq:EnrichmentOverTopologicalSpaces) in Prop. \ref{BasicPropertiesOfTheFineModelStructure} implies that the right hand side is an (acyclic) fibration:
 
-Since [[G-CW complexes]] are cofibrant by (eq:GeneratingCofibrations), and since $G/H$ is a $G$-CW-complex (evidently) as is $X$ (by assumption), it is sufficient to observe that taking products preserves $G$-CW complexes. This is true for $G$ a [[compact Lie group]], by the [[equivariant triangulation theorem]] for [[G-manifolds]].
+Since [[G-CW complexes]] are cofibrant by (eq:GeneratingCofibrations) in Prop. \ref{BasicPropertiesOfTheFineModelStructure}, and since $G/H$ is a $G$-CW-complex (evidently) as is $X$ (by assumption), it is finally sufficient to observe that taking products preserves $G$-CW complexes. This is true for $G$ a [[compact Lie group]], by the [[equivariant triangulation theorem]] for [[G-manifolds]].
 \end{proof}
 
 
