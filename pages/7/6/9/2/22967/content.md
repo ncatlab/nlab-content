@@ -42,7 +42,7 @@ In this article, [[Michael Atiyah|Atiyah]] turned attention to the stronger ques
 
 Extensive numerical checks of this stronger but conjectural construction was recorded, up to $n \lt 30$ , in [Atiyah & Sutcliffe 2002](#AtiyahSutcliffe02), together with a refined formulation of the [[conjecture]], whence it came to be known as the *Atiyah-Sutcliffe conjecture*.
 
-The Atiyah-Sutcliffe conjecture has been [[proof|proven]] for $n = 3$ in [Atiyah 2000](#Atiyah00)/[01](#Atiyah01) and for $n = 4$ by [Eastwood & Norbury 01](#EastwoodNorbury01). A general proof is claimed in [Atiyah & Malkoun 18](#AtiyahMalkoun18).
+The Atiyah-Sutcliffe conjecture has been [[proof|proven]] for $n = 3$ in [Atiyah 2000](#Atiyah00)/[01](#Atiyah01) and for $n = 4$ by [Eastwood & Norbury 01](#EastwoodNorbury01). 
 
 ## References
 
@@ -70,10 +70,6 @@ Full formulation of the Atiyah-Sutcliffe conjecture:
 Proof for $n = 4$:
 
 * {#EastwoodNorbury01} [[Michael Eastwood]], [[Paul Norbury]], _A proof of Atiyah’s conjecture of four points in Euclidean three-space_, Geom. Topol. 5 (2001) 885–893 ([arXiv:math/0109161](https://arxiv.org/abs/math/0109161), [doi:10.2140/gt.2001.5.88510.2140/gt.2001.5.885](https://msp.org/gt/2001/5-2/p12.xhtml))
-
-General proof is claimed in:
-
-* {#AtiyahMalkoun18} [[Michael Atiyah]], [[Joseph Malkoun]], *The Relativistic Geometry and Dynamics of Electrons*, Found Phys 48, 199–208 (2018) ([doi:10.1007/s10701-018-0139-2](https://doi.org/10.1007/s10701-018-0139-2))
 
 Further discussion:
 
