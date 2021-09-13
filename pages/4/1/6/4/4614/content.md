@@ -443,8 +443,13 @@ On [[homotopy limits]]:
 \label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
 **([[homotopy pullbacks]] [[preserved limit|preserved]] by geometric realization)**
 \linebreak
-  For $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ a morphism of simplicial spaces, the following are sufficient conditions for the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ to be a [[homotopy pullback]]-square in topological spaces, assuming throughout that all simplicial spaces are good so that their realization computes their [[homotopy colimit]]:
+  For $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ a morphism of simplicial spaces, the following are sufficient conditions for the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ to be a [[homotopy pullback]]-square in topological spaces (assuming throughout that all simplicial spaces are good or that the realization is taken to be fat, so that realization computes the [[homotopy colimit]]):
 
+1. {#BousfieldFriedlanderPiStarKanCondition} [Bousfield & Friedlander 1978, Thm. B.4](#BousfieldFriedlander78):
+
+   1. on [[simplicial sets]] of [[connected components]], $\pi_0(f)_\bullet$ is a [[Kan fibration]],
+
+   1. the simplicial spaces $X_\bullet$ and $Y_\bullet$ satisfy the [[π-Kan condition]];
 
 1. [Anderson 1978, p. 2](#Anderson78):
 
@@ -456,11 +461,14 @@ On [[homotopy limits]]:
 
    * the [[simplicial set]] of [[connected components]] of the base is [[constant functor|constant]]: $\pi_0(Y)_\bullet \simeq const(\pi_0(Y_0))$.
 
+   This is also essentially [Lurie HA, Lem. 5.5.6.17](#LurieHigherAlgebra) (using that simplicial $\infty$-colimits are [[sifted infinity-colimit|sifted]], by [this Prop.](sifted+infinity-colimit#SimplicialInfinityColimitsAreSifted)), which generalizes the statement to [[(infinity,1)-toposes|$(\infty,1)$-toposes]] other than $L_W Top$.
+
+1. {#KanLikeFibrationConditionForPreservationOfHomotopyPullbacks} [Mazel-Gee 2014, Cor. 6.7](#MazelGee14), [Lurie 2011, Prop. 10](#Lurie11):
+
+   * the morphism is a [[Kan fibration]] in a homotopical sense.
+
 \end{proposition}
 
-The [second](#RezkConditionForPreservationOfHomotopyPullbacks) statement is also essentially a special case of [Lurie HA, Lem. 5.5.6.17](#LurieHigherAlgebra) (using that simplicial $\infty$-colimits are sifted, by [this Prop.](sifted+infinity-colimit#SimplicialInfinityColimitsAreSifted)), which generalizes to [[(infinity,1)-toposes|$(\infty,1)$-toposes]] other than $L_W Top$.
-
-See also [Lurie 2011](#Lurie11).
 
 
 
@@ -1089,6 +1097,9 @@ On geometric realization of simplicial spaces as a [[left Quillen functor]] on t
 
 Discussion of sufficient conditions for geometric realization to be compatible with [[homotopy pullbacks]]:
 
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]])
+
+
 * {#Anderson78} [[Donald Werner Anderson]], _Fibrations and geometric realization_,  Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
 
 * {#Lurie11} [[Jacob Lurie]], *Simplicial spaces*, Lecture 7 of: *[Algebraic L-theory and Surgery](https://www.math.ias.edu/~lurie/287x.html)*, 2011 ([pdf](https://www.math.ias.edu/~lurie/287xnotes/Lecture7.pdf))
@@ -1096,11 +1107,11 @@ Discussion of sufficient conditions for geometric realization to be compatible w
 
 * {#Rezk14} [[Charles Rezk]], _When are homotopy colimits compatible with homotopy base change?_, 2014 ([pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]])
 
-* Aaron Mazel-Gee, _Model $\infty$-categories I: some pleasant properties of the $\infty$-category of simplicial spaces_ ([arXiv:1412.8411](https://arxiv.org/abs/1412.8411))
-
 * Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
 
   (expanded version of [Rezk 14](#Rezk14))
+
+* {#MazelGee14} [[Aaron Mazel-Gee]], _Model $\infty$-categories I: some pleasant properties of the $\infty$-category of simplicial spaces_ ([arXiv:1412.8411](https://arxiv.org/abs/1412.8411))
 
 
 * {#LurieHigherAlgebra} [[Jacob Lurie]], around Lemma 5.5.6.17 in: *[[Higher Algebra]]*
