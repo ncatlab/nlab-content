@@ -186,9 +186,9 @@ For unnormalized chain complexes, where we have a [[homotopy equivalence]], this
 
 The [[Eilenberg-Zilber theorem]] is due to
 
-* {#EilenbergZilber53} [[Samuel Eilenberg]], [[Joseph Zilber]], _On Products of Complexes_, Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) ([jstor:2372629](https://www.jstor.org/stable/2372629))
+* {#EilenbergZilber53} [[Samuel Eilenberg]], [[Joseph Zilber]], _On Products of Complexes_, Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) ([jstor:2372629](https://www.jstor.org/stable/2372629), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
 
-* {#EilenbergMacLane54} [[Samuel Eilenberg]], [[Saunders MacLane]], Section 2 of: *On the Groups $H(\Pi,n)$, II: Methods of Computation*, Annals of Mathematics, Second Series, Vol. 60, No. 1 (Jul., 1954), pp. 49-139 ([jstor:1969702](https://www.jstor.org/stable/1969702), [doi:10.2307/2372629](https://doi.org/10.2307/2372629))
+* {#EilenbergMacLane54} [[Samuel Eilenberg]], [[Saunders MacLane]], Section 2 of: *On the Groups $H(\Pi,n)$, II: Methods of Computation*, Annals of Mathematics, Second Series, Vol. 60, No. 1 (Jul., 1954), pp. 49-139 ([jstor:1969702](https://www.jstor.org/stable/1969702))
 
 using the definition of the [[Eilenberg-Zilber map]] in:
 
