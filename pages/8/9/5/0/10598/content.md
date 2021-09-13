@@ -23,7 +23,7 @@
 
 The concept of _$G$-CW  complex_ is to that of [[CW-complexes]] as [[topological G-spaces]] are to [[topological spaces]]: for $G$ a [[compact topological group]], the notion of _$G$-CW-complex_ is much like that of [[CW-complex]], only that where in the latter case one builds a [[topological space]] from gluing of [[disks]] $D^n$ ("[[cell complex|cells]]") for a $G$-CW-complex one glues [[products]] of [[disks]] with $G$-[[orbits]] $G/H$ ([[coset spaces]]) for [[compact Lie group|compact]] [[subgroups]] $H$.
 
-These are cofibrant spaces used in $G$-[[equivariant homotopy theory]].
+These are [[cofibrant objects]] in the $G$-[[fine model structure on topological G-spaces]].
 
 
 ## Examples
