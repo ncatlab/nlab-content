@@ -27,6 +27,46 @@ In the case that $G$ is a [[compact Lie group]], the corresponding [[homotopy th
 
 For general $G$, [[Elmendorf's theorem]] asserts that this is [[Quillen equivalence|Quillen equivalent]] to the [[model category of simplicial presheaves]] on the [[orbit category]] of $G$ (...).
 
+## Definition
+
+Throughout, we write
+
+* [[TopologicalSpaces|TopSp]] for the [[conventient category of topological spaces|convenient category]] of [[compactly generated weak Hausdorff spaces]];
+
+* $TopSp_{Qu}$ for its [[classical model structure on topological spaces]] ([here](classical+model+structure+on+topological+spaces#ModelStructureOnCompactlyGeneratedTopologicalSpaces));
+
+* $G \,\in\, Grp(TopSp)$ for a fixed [[topological group]];
+
+* $G Act(TopSp)$ for the [[category]] of [[continuous function|continuous]] $G$-[[group action|actions]], hence for the category of [[topological G-spaces]] with [[continuous function|continuous]] [[equivariant functions]] between them.
+
+
+\begin{proposition}\label{FineModelStructureOnGSpaces}
+**(fine model structure on $G$-spaces)**
+\linebreak
+  There is a [[model category]]-[[mathematical structure|structure]] 
+$G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equivalences]] and [[fibrations]] are those [[morphisms]] $f \,\colon\, X \xrightarrow{\;} Y$ such that for each [[closed subgroup]] $H \,\underset{clsd}{\subset}\, G$ their ([[corestriction|co-]])[[restriction]] $f^H \,\colon\, X^H \xrightarrow{\;} Y^H$ to the  $H$-[[fixed loci]] is, respectivelhy, a [[weak equivalence]] or [[fibration]] in the [[classical model structure on topological spaces]], hence a [[weak homotopy equivalence]] or [[Serre fibration]].
+\end{proposition}
+
+
+## Properties
+
+
+\begin{prop}
+  The model category $G Act\big( TopSp_{Qu}\big)_{fine}$ (Prop. \ref{FineModelStructureOnGSpaces}) is an [[enriched model category]] over $TopSp_{Qu}$ with [[hom-objects]] given by the $G$-[[fixed loci]] of the [[conjugation action]] on the [[mapping spaces]]:
+$$
+  Maps(-,-)^G \;\colon\;
+  G Act(TopSp)^{op}
+    \times
+  G Act(TopSp)^{op}
+   \xrightarrow{\;}
+  TopSp
+  \,.
+$$
+\end{prop}
+This part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouMayRubin13).
+
+
+
 ## Related concepts
 
 * [[Borel model structure]]
