@@ -218,7 +218,7 @@ Type theory for full linear logic, together with its categorical interpretation,
 
 Further review and discussion is in 
 
-* {#Bierman95} Gavin M. Bierman, _What is a categorical model of intuitionistic linear logic? ([web] (http://research.microsoft.com/en-us/um/people/gmb/papers/tlca95.pdf)) 
+* {#Bierman95} Gavin M. Bierman, _What is a categorical model of intuitionistic linear logic? ([web] (https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.31.8687&rep=rep1&type=pdf)) 
  
 
 The more general case of general [[symmetric monoidal categories]] is reviewed and further discussed in 
