@@ -1,4 +1,6 @@
 
+$\pi_\ast$
+
 \begin{proposition}\label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
   If $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ is a morphism of simplicial spaces such that 
 
