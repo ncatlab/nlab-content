@@ -47,8 +47,10 @@ of the [[Cartesian product]] of $X$ with the [[universal principal simplicial co
 
 ## Properties
 
-### Model category-theoretic properties
+### Homotopy-theoretic properties
  {#ModelCategoryTheoreticProperties}
+
+#### In simplicial sets
 
 \begin{prop}\label{BorelConstructionIsRightQuillenFunctor}
   The simplicial Borel construction (eq:BorelConstructionInSimplicialSets) is a [[right Quillen functor]] in a [[Quillen equivalence]]
@@ -88,6 +90,74 @@ As an example:
 This follows because the morphism is the image of the terminal morphism $X \xrightarrow{\;} \ast$ under the [[right Quillen functor]] from Prop. \ref{BorelConstructionIsRightQuillenFunctor}, hence is a fibration if $X \to \ast$ is.
 \end{example}
 For generalization of this statement to [[simplicial presheaves]] see [NSS 12b, Thm. 3.91](#NSS12b).
+
+#### In topological spaces
+
+In the following, we write $TopSp$ for the [[convenient category of topological spaces|convenient category]] of [[compactly generated weak Hausdorff spaces]].
+
+Let 
+
+* $G \,\in\, Grp(TopSp)$ be a [[topological group]] which is [well-pointed](simplicial+topological+group#WellPointedSimplicialTopologicalGroup) in that the inclusion of the [[neutral element]] is a [[Hurewicz cofibration]] [hence](Hurewicz+cofibration#HurewiczCofibrationsInCGWHSpacesAreClosed) a [[closed cofibration]].
+
+* $X \,\in\, G Act(TopSp)$ be a ([[compactly generated weak Hausdorff space|cgwh]])-[[topological G-space]].
+
+\begin{prop}\label{HomotopyFiberSequenceofTopologicalBorelConstruction}
+Then the topological [[Borel construction]] $(X \times E G)/G$ fits into a [[homotopy fiber sequence]] of the form
+
+\[
+  \label{HomotopyFiberSequenceOfTopologicalBorelConstruction}
+  X 
+    \xrightarrow{\;\;} 
+  \frac{ 
+    X \times EG
+  }{
+    G
+  } 
+    \xrightarrow{\;\;}
+  B G
+  \,.
+\]
+
+\end{prop}
+\begin{proof}
+  The sequence (eq:HomotopyFiberSequenceOfTopologicalBorelConstruction) is the image under [[geometric realization of simplicial topological spaces]] of the sequence of [[simplicial topological spaces]]
+
+\[
+  \label{TopologiCALBorelConstructionFiberSequenceLevelOfSimplicialSpaces}
+  const(X)_\bullet
+    \xrightarrow{\;\;\;}
+  X \times G^{\times^\bullet}
+    \xrightarrow{\;\;\;}
+  G^{\times^\bullet}
+\]
+
+which, in turn, is the image under passage to [[nerves]] of the sequence of [[topological groupoids]]
+
+$$
+  (X \rightrightarrows X)
+    \xrightarrow{\;\;}
+  (X \times G \rightrightarrows X)
+    \xrightarrow{\;\;}
+  (G \rightrightarrows \ast)
+  \,,
+$$
+
+with the [[action groupoid]] in the middle and the [[delooping groupoid]] on the right.
+
+Therefore, by the general respect of geometric realization for homotopy fiber products ([this Prop.](geometric+realization+of+simplicial+topological+spaces#SufficientConditionsForRealizationToPreserveHomotopyPullback)) it is now sufficient to observe that
+
+1. the simplicial topological spaces appearing in (eq:TopologiCALBorelConstructionFiberSequenceLevelOfSimplicialSpaces) are all [[good simplicial topological space|good]] (so that their geometric realization models their [[homotopy colimit]]);
+
+1. the sequence (eq:TopologiCALBorelConstructionFiberSequenceLevelOfSimplicialSpaces) of simplicial topological spaces is degreewise a homotopy fiber sequence of topological spaces;
+
+1. the morphism $X \times G^{\times^\bullet} \to G^{\times^\bullet}$ is a homotopical Kan fibration (see [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration)).
+
+For the first condition observe that the degeneracy maps of the [[nerve]] of an  [[action groupoid]] are all of the form $X \times G^{n} \times ( \{e\} \xhookrightarrow{\;} G)$, hence are closed cofibrations (by [this Example](Hurewicz+cofibration#KifiedProductsOfCofibrationsWithCompactlyGeneratedSpaces)).
+
+For the second condition, observe  that [[projections]] $X \times G^n \to G^n$ are evidently [[Serre fibrations]] whose ordinary [[fiber]] is $X$, so that $X \to X \times G^n \to G^n$ is a [[homotopy fiber sequence]] (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)).
+
+For the third point, notice that in the present case the horn-filling map [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration) is in fact an [[isomorphism]], hence certainly surjective on connected components. 
+\end{proof}
 
 
 ### As the realization of the action groupoid
