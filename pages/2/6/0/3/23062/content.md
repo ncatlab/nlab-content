@@ -99,12 +99,16 @@ $G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equi
 \end{prop}
 This is part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouMayRubin13).
 
+\begin{prop}\label{MonoidalModelCategoryStructure}
+  The model category $G Act\big( TopSp_{Qu}\big)_{fine}$ (Prop. \ref{FineModelStructureOnGSpaces}) is a [[cartesian monoidal category|cartesian]] [[monoidal model category]] in that it satisfies the [[pushout-product axiom]].
+\end{prop}
+([DHLPS 19, Prop. 1.1.3 (iii)](#DHLPS19))
 
 \begin{proposition}
   \label{InternalHomQuillenAdjunction}
 **([[internal hom]] [[Quillen adjunction]])**
 \linebreak
-  For $X \,\in\, G Act\big(TopSp_{Qu}\big)_{fine}$ a [[G-CW complex]], the [[functor]] which assigns [[mapping spaces]] out of $X$ equipped with the [[conjugation action]], is a [[right Quillen functor]], hence makes a [[Quillen adjunction]] together with the [[functor]] of taking the [[product]] with $X$ (the [[k-ification|k-ified]] [[product topological space]]) equipped with the [[diagonal action]]:
+  For $X \,\in\, G Act\big(TopSp_{Qu}\big)_{fine}$ a [[cofibrant object]], the [[functor]] which assigns [[mapping spaces]] out of $X$ equipped with the [[conjugation action]], is a [[right Quillen functor]], hence makes a [[Quillen adjunction]] together with the [[functor]] of taking the [[product]] with $X$ (the [[k-ification|k-ified]] [[product topological space]]) equipped with the [[diagonal action]]:
 \[
   G Act\big( TopSp_{Qu}\big)_{fine}
     \underoverset
@@ -130,9 +134,7 @@ $$
   Maps\big( G/H \times X, \, f  \big)^{ G }
   \,.
 $$
-It is now sufficient to see that $G/H \times X$ is cofibrant, because then (eq:EnrichmentOverTopologicalSpaces) in Prop. \ref{BasicPropertiesOfTheFineModelStructure} implies that the right hand side is an (acyclic) fibration:
-
-Since [[G-CW complexes]] are cofibrant by (eq:GeneratingCofibrations) in Prop. \ref{BasicPropertiesOfTheFineModelStructure}, and since $G/H$ is a $G$-CW-complex (evidently) as is $X$ (by assumption), it is finally sufficient to observe that taking products preserves $G$-CW complexes. This is true for $G$ a [[compact Lie group]], by the [[equivariant triangulation theorem]] for [[G-manifolds]].
+It is now sufficient to see that $G/H \times X$ is cofibrant, because then (eq:EnrichmentOverTopologicalSpaces) in Prop. \ref{BasicPropertiesOfTheFineModelStructure} implies that the right hand side is an (acyclic) fibration. But $G/H$ is evidently cofibrant (being a [[G-CW complex]]), so that its product with any cofibrant object $X$ is again cofibrant, by Prop. \ref{MonoidalModelCategoryStructure}.
 \end{proof}
 
 
@@ -156,4 +158,5 @@ Further discussion:
 
 * {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Theorem 1.6 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [doi:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
 
+* {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_, Memoirs of the AMS ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
 
