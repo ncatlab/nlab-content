@@ -21,6 +21,11 @@ He got his PhD in 1999 at MIT, advised by [[Michael J. Hopkins]].
 
 * _Sheaves and homotopy theory_, [pdf](http://math.mit.edu/~dspivak/files/cech.pdf).
 
+On [[hypercovers]] in [[simplicial presheaves]]:
+
+* {#DuggerHollanderIsaksen02} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_, Mathematical Proceedings of the Cambridge Philosophical Society. Vol. 136. No. 1., 2004. ([arXiv:0205027](http://arxiv.org/abs/math/0205027), [K-theory archive](http://www.math.uiuc.edu/K-theory/0563/))
+
+
 On [[Delta-generated spaces]]:
 
 * [[Daniel Dugger]], _Notes on Delta-generated spaces_, 2003 ([web](https://pages.uoregon.edu/ddugger/delta.html), [[DuggerDeltaGenerated.pdf:file]])
