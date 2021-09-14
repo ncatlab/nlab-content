@@ -83,7 +83,9 @@ $G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equi
      \end{aligned}
    \]
 
-1. an [[enriched model category]] over $TopSp_{Qu}$ with [[hom-objects]] given by the $G$-[[fixed loci]] of the [[conjugation action]] on the [[mapping spaces]], hence such that
+   ([Fausk 08, Prop. 2.11](#Fausk08))
+
+1. in addition an [[enriched model category]] over $TopSp_{Qu}$ with [[hom-objects]] given by the $G$-[[fixed loci]] of the [[conjugation action]] on the [[mapping spaces]], hence such that
    \[
      \label{EnrichmentOverTopologicalSpaces}
      Maps(-,-)^G 
@@ -96,14 +98,18 @@ $G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equi
    \]
    is a [[Quillen bifunctor]].
 
+   ([Guillou, May & Rubin 2013, Thm 3.7](#GuillouMayRubin13), [Schwede 2018, Prop. B.7](#Schwede18))
+
 \end{prop}
-This is part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouMayRubin13).
+
+In fact:
 
 \begin{prop}\label{MonoidalModelCategoryStructure}
   The model category $G Act\big( TopSp_{Qu}\big)_{fine}$ (Prop. \ref{FineModelStructureOnGSpaces}) is a [[cartesian monoidal category|cartesian]] [[monoidal model category]] in that it satisfies the [[pushout-product axiom]].
 \end{prop}
 ([DHLPS 19, Prop. 1.1.3 (iii)](#DHLPS19))
 
+Prop. \ref{MonoidalModelCategoryStructure} immediately implies (by [this general Prop.](monoidal+model+category#InternalHomQuillenAdjunction)):
 \begin{proposition}
   \label{InternalHomQuillenAdjunction}
 **([[internal hom]] [[Quillen adjunction]])**
@@ -119,23 +125,6 @@ This is part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouM
   \mathrlap{\,.}
 \]
 \end{proposition}
-\begin{proof}
-  Let $f \,\colon\, A \xrightarrow{\;} B$ be an ([[acyclic fibration|acyclic]]) [[fibration]]. It is sufficient to to show that $Maps(X,f)$ is an (acyclic) fibration in $G Act\big( TopSp_{Qu}\big)_{fine}$, hence that $Maps(X,f)^H$ is an (acyclic) fibration in $TopSp_{Qu}$ for every $H \underset{clsd}{\subset} G$. But the latter may be identified, up to [[isomorphism]] ([[homeomorphism]]) with
-$$
-  Maps(X,\,f)^H 
-    \,\simeq\,
-  Maps
-  \left(
-    G/H
-    ,\,
-    Maps(X,\,f)
-  \right)^G
-    \,\simeq\,
-  Maps\big( G/H \times X, \, f  \big)^{ G }
-  \,.
-$$
-It is now sufficient to see that $G/H \times X$ is cofibrant, because then (eq:EnrichmentOverTopologicalSpaces) in Prop. \ref{BasicPropertiesOfTheFineModelStructure} implies that the right hand side is an (acyclic) fibration. But $G/H$ is evidently cofibrant (being a [[G-CW complex]]), so that its product with any cofibrant object $X$ is again cofibrant, by Prop. \ref{MonoidalModelCategoryStructure}.
-\end{proof}
 
 
 ## Related concepts
@@ -156,7 +145,12 @@ The original article:
 
 Further discussion:
 
+* {#Fausk08} [[Halvard Fausk]], Prop. 2.11 in: *Equivariant homotopy theory for pro-spectra*,  Geom. Topol. 12 (2008) 103-176 ([doi:10.2140/gt.2008.12.103](http://dx.doi.org/10.2140/gt.2008.12.103), [arXiv:math/0609635](https://arxiv.org/abs/math/0609635))
+
 * {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Theorem 1.6 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [doi:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
 
-* {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_, Memoirs of the AMS ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
+* {#Schwede18} [[Stefan Schwede]], Prop. B.7 in: _[[Global homotopy theory]]_, New Mathematical Monographs **34** Cambridge University Press, 2018 ([doi:10.1017/9781108349161](https://doi.org/10.1017/9781108349161), [arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+
+
+* {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], Prop. 1.1.3 in: _Proper equivariant stable homotopy theory_, Memoirs of the AMS ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
 
