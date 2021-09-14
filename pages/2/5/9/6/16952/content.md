@@ -111,7 +111,7 @@ A standard reference is
 
 * {#Schwede15} [[Stefan Schwede]], section 4 (from page 40 on) in _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
-* {#FauskLewisMay01} [[Halvard Fausk]], [[L. Gaunce Lewis]], [[Peter May]],  _The Picard group of equivariant stable  homotopy theory_, Advances in Mathematics Volume 163, Issue 1, 15 October 2001, Pages 17&#8211;33  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/FLMJan01.pdf))
+* {#FauskLewisMay01} [[Halvard Fausk]], [[L. Gaunce Lewis]], [[Peter May]],  _The Picard group of equivariant stable  homotopy theory_, Advances in Mathematics Volume 163, Issue 1, 15 October 2001, Pages 17&#8211;33  ([arXiv:2008.05551](https://arxiv.org/abs/2008.05551), [pdf](http://www.math.uchicago.edu/~may/PAPERS/FLMJan01.pdf))
 
 * [[Justin Noel]], _Equivariant cohomology of representation spheres and $Pic(S_G)$-graded homotopy groups_, 2013 ([pdf](http://www.nullplug.org/talks/equivariant.pdf))
 
