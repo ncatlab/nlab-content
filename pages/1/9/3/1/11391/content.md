@@ -17,6 +17,11 @@ On [[equivariant bordism homology theory]]:
 
 * {#tomDieck75} [[Tammo tom Dieck]], _Orbittypen und äquivariante Homologie II_, Arch. Math. (Basel) 26 (1975), no. 6, 650–662 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tomdieck2.pdf))
 
+On [[homotopy theory]]:
+
+* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
+
 On [[equivariant homotopy theory]] and [[equivariant cohomology]]:
 
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979
