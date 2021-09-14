@@ -469,6 +469,7 @@ the following are sufficient conditions for the geometric realization of any [[h
 
    This is also essentially [Lurie HA, Lem. 5.5.6.17](#LurieHigherAlgebra) (using that simplicial $\infty$-colimits are [[sifted infinity-colimit|sifted]], by [this Prop.](sifted+infinity-colimit#SimplicialInfinityColimitsAreSifted)), which generalizes the statement to [[(infinity,1)-toposes|$(\infty,1)$-toposes]] other than $L_W Top$.
 
+
 1. {#KanLikeFibrationConditionForPreservationOfHomotopyPullbacks} [Mazel-Gee 2014, Cor. 6.7](#MazelGee14), [Lurie 2011, Prop. 10](#Lurie11):
 
    * the morphism (eq:AMorphismOfSimplicialTopologicalSpacesToBeHomotopyPulledBack) is a homotopy-theoretic [[Kan fibration]], in that for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the induced map
@@ -486,7 +487,52 @@ the following are sufficient conditions for the geometric realization of any [[h
 
      (into the [[homotopy fiber product]] of the space of space of [[horns|$(n,k)$-horns]] in $X$ with that of [[simplex|$n$-simplices]] in $Y$)
 
-     is [[surjective]] on [[connected components]].
+     is [[surjective]] on [[connected components]], 
+
+     hence in that for all solid homotopy-commutative squares as follows, there exists a dashed lift up to homotopy (with the left morphism being the [[horn|$(n,k)$-horn]]-inclusion in [[simplicial sets]] regarded as degree-wise [[discrete topological spaces]]):
+
+\begin{tikzcd}
+        \Lambda^n_k
+        \ar[
+          rr,
+          "{\ }"{below, name=s1, pos=.7}
+        ]
+        \ar[d]
+        &&
+        \mathrm{X}_\bullet
+        \ar[
+          d,
+          "{f_\bullet}"{right}
+        ]
+        \\
+        \Delta^n
+        \ar[
+          rr,
+          "{\ }"{above, name=t2, pos=.3}
+        ]
+        \ar[
+          urr,
+          dashed,
+          "{\ }"{above, name=t1},
+          "{\ }"{below, name=s2}
+        ]
+        &&
+        \mathrm{Y}_{\bullet}
+        \mathrlap{\,,}
+        %
+        \ar[
+          from=s1,
+          to=t1,
+          Rightarrow,
+          dashed
+        ]
+        \ar[
+          from=s2,
+          to=t2,
+          Rightarrow,
+          dashed
+        ]
+\end{tikzcd}
 
 \end{proposition}
 
