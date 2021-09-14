@@ -34,7 +34,7 @@ A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
 equipped with the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$
 such that the following two compatibility conditions are satisfied
 
-1. {#PushoutProductAxiom} ([[pushout-product axiom]]) For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
+1. {#PushoutProductAxiom} ([[pushout-product axiom]]) For every [[pair]] of [[cofibrations]] $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the [[pushout|cofibered]] [[coproduct]] over ways of forming the [[tensor product]] of these objects
 
    $$
      (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
@@ -43,17 +43,17 @@ such that the following two compatibility conditions are satisfied
      \,,
    $$
 
-   is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
+   is itself a cofibration, which, furthermore, is acyclic (i.e. a [[weak equivalence]]) if $f$ or $f'$ is.
 
-   (Equivalently this says that the [[tensor product]] $\otimes : C \times C \to C$ is a left [[Quillen bifunctor]].)
+   (Equivalently this says that the [[tensor product]] $\otimes \colon C \times C \to C$ is a left [[Quillen bifunctor]].)
 
-1. (unit axiom) For every cofibrant object $X$ and every cofibrant resolution $\emptyset \hookrightarrow Q I \stackrel{p_I}{\longrightarrow} I$ of the [[tensor unit]] $I$, the resulting morphism
+1. (unit axiom) For every [[cofibrant object]] $X$ and every [[cofibrant resolution]] $\emptyset \hookrightarrow Q I \stackrel{p_I}{\longrightarrow} I$ of the [[tensor unit]] $I$, the resulting morphism
 
    $$
      Q I \otimes X \stackrel{p_I \otimes X}{\longrightarrow} I\otimes X \stackrel{\simeq}{\longrightarrow} X
    $$ 
 
-  is a weak equivalence.
+  is a [[weak equivalence]].
 
 
 =--
