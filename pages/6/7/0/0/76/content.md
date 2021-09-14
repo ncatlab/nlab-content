@@ -252,6 +252,9 @@ A foundational set of lecture notes is developing in
 
 See also:
 
+* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
+
 * H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
 
 * Jasper Moller, _Homotopy theory for beginners_ ([pdf](http://www.math.ku.dk/~moller/e01/algtopI/comments.pdf))
