@@ -162,9 +162,12 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias König]], Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
+* {#HLN21} [[Gudrun Hiller]], Dennis Loose, Ivan Nišandžić, _Flavorful leptoquarks at the LHC and beyond: Spin 1_ ([arXiv:2103.12724](https://arxiv.org/abs/2103.12724))
+
 * J. Kriewald, C. Hati, J. Orloff, A. M. Teixeira, _A combined explanation of the B-meson decay anomalies with a single vector leptoquark_ ([arXiv:2012.06315](https://arxiv.org/abs/2012.06315))
 
 * Andrei Angelescu, Damir Bečirević, Darius A. Faroughy, Florentin Jaffredo, Olcyr Sumensari, _On the single leptoquark solutions to the B-physics anomalies_ ([arXiv:2103.12504](https://arxiv.org/abs/2103.12504))
+
 
 
 within [[GUT]]-models and specifically within [[Pati-Salam models]]:
