@@ -166,7 +166,7 @@ and equivalently express the above diagram of [[left homotopies]] as the followi
 In this equivalent formulation, the homotopy extension property is simply the [[right lifting property]] against the [[evaluation]] map $ev_0 \;\colon\; Y^{[0,1]} \xrightarrow{\;} Y$ out of the [[path space]] of $Y$.
 \end{remark}
 
-(e.g. [May 1999, p. 43](#May99))
+(e.g. [May 1999, p. 43 (51 of 251)](#May99))
 
 \begin{definition}\label{ClosedHurewiczCofibration}
 **(closed cofibrations)**
@@ -194,7 +194,7 @@ A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is cal
 \]
 admits a [[retraction]].
 \end{proposition}
-(e.g. [Gutiérrez, Prop. 8.3](#Gutierrez))
+(e.g. [May 1999, Sec. 6.4, p. 45 (53 of 251)](#May99); [Gutiérrez, Prop. 8.3](#Gutierrez))
 
 
 \begin{example}\label{KifiedProductsOfCofibrationsWithCompactlyGeneratedSpaces}
@@ -211,7 +211,7 @@ A subcomplex inclusion into a [[CW-complex]] is a closed Hurewicz cofibration.
 
 =--
 
-e.g. Bredon _Topology and Geometry_, p. 431
+By Prop. \ref{CharacterizationViaRetractionOfPushoutProduct}, see e.g. Bredon _Topology and Geometry_, p. 431.
 
 
 More generally, every [[retract]] of a [[relative cell complex]] inclusion is a closed Hurewicz cofibration. 
@@ -229,8 +229,11 @@ Every Hurewicz cofibration $i$ is [[injective function|injective]] and a [[homeo
 ([Homotopietheorie](#Homotopietheorie) (1.17)). 
 
 \begin{prop}\label{HurewiczCofibrationsInCGWHSpacesAreClosed}
-In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], the image $i(A)$ of a Hurewicz cofibration is always closed (the same in the category of all [[Hausdorff spaces]]), 
+In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], the image $i(A)$ of a Hurewicz cofibration is always closed.
+The same holds in the category of all [[Hausdorff spaces]].
 \end{prop}
+
+(e.g. [May 1999, Sec. 6.2, p. 44 (52 of 251)](#May99))
 
 But in the plain category [[Top]] of all topological spaces there are pathological counterexamples. 
 
