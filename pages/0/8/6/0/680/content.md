@@ -301,7 +301,7 @@ Write [[Ab]] for the category of [[abelian group]]s. (Could be any [[additive ca
 
 1. The category of [[globe|globular]] [[strict ∞-groupoid]]s.
 
-\end{proof}
+\end{theorem}
 
 A proof with references to the rich literature can be found for instance in 
 
