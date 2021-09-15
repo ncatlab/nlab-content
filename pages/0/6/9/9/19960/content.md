@@ -682,6 +682,11 @@ and its relation to [[baryons]]:
 
 * {#SuganumaNakagawaMatsumoto16} Hideo Suganuma, Yuya Nakagawa, Kohei Matsumoto, _1+1 Large $N_c$ QCD and its Holographic Dual $\sim$ Soliton Picture of Baryons in Single-Flavor World_, JPS Conf. Proc. 13, 020013 (2017) ([arXiv:1610.02074](https://arxiv.org/abs/1610.02074))
 
+On [[jet bundle]] [[cohomology]] in the Sakai-Sugimoto model:
+
+* Ekkehart Winterroth, *Variational cohomology and Chern-Simons gauge theories in higher dimensions* ([arXiv:2103.03037](https://arxiv.org/abs/2103.03037))
+
+
 
 
 
