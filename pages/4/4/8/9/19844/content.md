@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -79,7 +80,7 @@ See [Alonso 19](#Alonso19) for general introduction to an audience with basic ba
 
 ### Up to 2019
 
-Indications of flavour anomalies have been observed (first suggested in [Koppenburg 07](##Koppenburg07), for introduction and review see [Koppenburg 21](#Koppenburg21)) consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
+Indications of flavour anomalies have been observed (first suggested in [Hiller 2002](#Hiller02), [Koppenburg 2007](#Koppenburg07), for introduction and review see [Koppenburg 21](#Koppenburg21)) consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
 
 \begin{center}
 \begin{imagefromfile}
@@ -468,7 +469,15 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
 ### General
 
-Early suggestion to look at the $R_K$ channel at [[LHCb]] are due to:
+Early suggestion to look for New Physics in B-meson decays:
+
+* {#Hiller02} [[Gudrun Hiller]], * $b \to s \ell^+ \ell^-$ decays in and beyond the Standard Model*, AIP Conf. Proc. 549:614-618, 2002 ([arXiv:hep-ph/0008092](https://arxiv.org/abs/hep-ph/0008092))
+
+* [[Gudrun Hiller]], *Physics reach of rare b-decays*, Nucl. Phys. Proc. Suppl. 115 (2003) 76-81 ([arXiv:hep-ph/0207121](https://arxiv.org/abs/hep-ph/0207121))
+
+* [[Gudrun Hiller]], *Phenomenology of New Physics* ([arXiv:hep-ph/0308180](https://arxiv.org/abs/hep-ph/0308180))
+
+and specifically concerning the [[LHCb]]-experiment
 
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](http://cds.cern.ch/record/1027442), [pdf](http://cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
 
@@ -974,7 +983,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * Andrei Angelescu, Damir Bečirević, Darius A. Faroughy, Florentin Jaffredo, Olcyr Sumensari, _On the single leptoquark solutions to the B-physics anomalies_ ([arXiv:2103.12504](https://arxiv.org/abs/2103.12504))
 
-* {#HLN21} Gudrun Hiller, Dennis Loose, Ivan Nišandžić, _Flavorful leptoquarks at the LHC and beyond: Spin 1_ ([arXiv:2103.12724](https://arxiv.org/abs/2103.12724))
+* {#HLN21} [[Gudrun Hiller]], Dennis Loose, Ivan Nišandžić, _Flavorful leptoquarks at the LHC and beyond: Spin 1_ ([arXiv:2103.12724](https://arxiv.org/abs/2103.12724))
 
 * {#GST21} [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
@@ -1055,6 +1064,10 @@ explanations via assumption of [[Z'-bosons]]:
 * [[Andreas Crivellin]], Claudio Andreas Manzari, Marcel Alguero, Joaquim Matias, _Combined Explanation of the $Z \to b \bar b$ Forward-Backward Asymmetry, the Cabibbo Angle Anomaly, $\tau \to \mu \nu \nu$ and $b \to s \ell^+ \ell^-$ Data_ ([arXiv:2010.14504](https://arxiv.org/abs/2010.14504))
 
 * {#Davighi21} Joe Davighi, *Anomalous $Z'$ bosons for anomalous B decays* ([arXivL2105.06918](https://arxiv.org/abs/2105.06918))
+
+* Rigo Bause, [[Gudrun Hiller]], Tim Höhne, Daniel F. Litim, Tom Steudtner, *B-Anomalies from flavorful $U(1)'$ extensions, safely* ([arXiv:2109.06201](https://arxiv.org/abs/2109.06201))
+
+  > (in view of [[Higgs field]] [metastability](Higgs+field#MassAndVacuumInstability))
 
 
 #### Dark matter
