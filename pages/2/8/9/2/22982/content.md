@@ -30,6 +30,7 @@ The generalization of the [[Chern character]] from [[K-theory]] to [[twisted equ
 * [[Chern-Dold character]]
 
 ## References
+ {#References}
 
 * {#AdemRuan03} [[Alejandro Adem]], [[Yongbin Ruan]], Section 7 of: *Twisted Orbifold K-Theory*, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
 
