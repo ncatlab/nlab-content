@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,6 +21,18 @@
 ## Idea
 
 The [[projective unitary group]] on an infinite-dimensional [[separable Hilbert space|separable]] [[complex vector space|complex]] [[Hilbert space]] $\mathcal{H}$ is traditionally denoted $PU(\mathcal{H})$, being the [[quotient space|quotient]] of the [[unitary group]] [[U(ℋ)]] by its [[circle group|circle]] [[subgroup]] $S^1 \simeq S(\mathbb{C}) \simeq$ [[U(1)]].
+
+## Properties
+
+### Nearby homomorphisms into $PU(\mathcal{H})$ are conjugate
+
+Since $\Gamma \,\coloneqq\,$ [[PU(ℋ)]] is not a (finite-dimensional) [[Lie group]], it falls outside the applicability of the general theorem that [[nearby homomorphisms from compact Lie groups are conjugate]]. 
+Nevertheless, the conclusion still holds, at least for [[domain]] $G$ a [[discrete group|discrete]], hence [[finite group]]:
+
+  The [[PU(ℋ)]][[G-space|-space]] of homomorphisms $Hom\big(G,\, PU(\mathcal{H})\big)$ is a [[disjoint union]] ([as here](nearby+homomorphisms+from+compact+Lie+groups+are+conjugate#eq:DisjointUnionOfOrbits)) of [[orbits]] of the [[conjugation action]].
+
+  This is established in [Uribe & Lück 2013, Sec. 15](#UribeLueck13), [p. 38](https://arxiv.org/pdf/1304.4862.pdf#page=38).
+
 
 ## Related concepts
 
@@ -31,6 +44,9 @@ The [[projective unitary group]] on an infinite-dimensional [[separable Hilbert 
 ## Literature
 
 * [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
+
+* {#UribeLueck13} [[Bernardo Uribe]], [[Wolfgang Lück]], Section 15 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
+
 
 * [[Jesus Espinoza]], [[Bernardo Uribe]], *Topological properties of spaces of projective unitary representations*, Rev. Acad. Colombiana Cienc. Exact. Fís. Natur. 40 (2016), no. 155, 337-352 ([arXiv:1511.06785](https://arxiv.org/abs/1511.06785), [scielo:S0370-39082016000200013](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0370-39082016000200013), [doi:10.18257/raccefyn.317](https://doi.org/10.18257/raccefyn.317))
 
