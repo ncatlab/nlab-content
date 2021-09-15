@@ -929,13 +929,18 @@ Original discussion of classifying spaces in topological homotopy theory:
 
 * {#MacLane} [[Saunders MacLane]], Section 6 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday* Lecture Notes in Mathematics *168*,  Springer, 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
 
-  > (understood as [[geometric realization of simplicial topological spaces]] via a [[coend]]-formula)
+  > (understanding  [[geometric realization of simplicial topological spaces]] via a [[coend]]-formula)
  
 * [[Graeme Segal]], _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
 
 * [[Norman Steenrod]], _Milgram's classifying space of a topological group_, Topology Volume 7, Issue 4, November 1968, Pages 349-368 (<a href="https://doi.org/10.1016/0040-9383(68)90012-8">doi:10.1016/0040-9383(68)90012-8</a>)
 
 * [[Jim Stasheff]], _H-spaces and classifying spaces: foundations and recent developments_, Algebraic topology (Proc. Sympos. Pure Math., Vol. XXII, Univ. Wisconsin, Madison, Wis., 1970), Providence, R.I.: American Mathematical Society (1971) pp. 247–272
+
+* {#tomDieck74} [[Tammo tom Dieck]], *On the homotopy type of classifying spaces*, Manuscripta Math 11, 41–49 (1974) ([doi:10.1007/BF01189090](https://doi.org/10.1007/BF01189090))
+
+  > (relating the plain and fat [[geometric realization of simplicial topological spaces]] appearing in Milnor's and Milgram's constructions)
+
 
 Review:
 
