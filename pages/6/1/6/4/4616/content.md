@@ -38,7 +38,7 @@ In other words this says: $X_\bullet$ is proper if it is cofibrant in the [[Reed
 
 =--
 
-The notion of good simplicial topological space goes back to ([Segal](#Segal)), that of proper simplicial topological space to ([May](#May)). 
+The notion of good simplicial topological space goes back to ([Segal 1973](#Segal73)), that of proper simplicial topological space to ([May](#May)). 
 
 
 ## Properties
@@ -135,9 +135,9 @@ May originally said _strictly proper_ for what now is just called _proper_ .
 
 The definition of _good_ simplicial space goes back to 
 
-* [[Graeme Segal]], _Configuration-Spaces and Iterated Loop-Spaces_, Inventiones math. 21,213-221 (1973)
+* {#Segal73} [[Graeme Segal]], *Configuration-spaces and iterated loop-spaces*, Invent. Math. __21__ (1973), 213&#8211;221.  ([doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377)
 
-The implication $good \Rightarrow proper$ seems to be handled like a folk theorem. Its origin is maybe in 
+The implication $good \Rightarrow proper$ seems to be a [[folk theorem]]. Its origin is maybe in 
 
 * {#Lewis} [[L. Gaunce Lewis, Jr.]], _When is the natural map $X \to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. 273 (1982), 147--155.
   
