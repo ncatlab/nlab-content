@@ -85,7 +85,6 @@ and the more explicit suggestion that, under this identification, the [[Chern-Do
 This perspective is also picked up in [Gukov, Pei, Putrov & Vafa 18](#GukovPeiPutrovVafa18).
  
 Discussion of the [[2d SCFTs]] (namely [[supersymmetry|supersymmetric]] [[SU(2)]]-[[WZW-models]]) conjecturally corresponding, under this conjectural identification, to 
-
 the elements of 
 $\mathbb{Z}/24$ 
 [$\simeq$](tmf#BoardmanHomomorphismInTmfIs6Connected) 
@@ -98,7 +97,7 @@ $
 $\pi_3(\mathbb{S})$ 
 (the [[third stable homotopy group of spheres]]):
 
-* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], [[Edward Witten]], p. 17 of: *A Note On Some Minimally Supersymmetric Models In Two Dimensions*, ([arXiv:1902.10249](https://arxiv.org/abs/1902.10249)) in S. Novikov et al. *Integrability, Quantization, and Geometry: II. Quantum Theories and Algebraic Geometry*, Proc. Symposia Pure Math., 103(2), 2021 ([ISBN: 978-1-4704-5592-7](https://bookstore.ams.org/pspum-103-2))
+* {#GaiottoJohnsonFreydWitten19} [[Davide Gaiotto]], [[Theo Johnson-Freyd]], [[Edward Witten]], p. 17 of: *A Note On Some Minimally Supersymmetric Models In Two Dimensions*, ([arXiv:1902.10249](https://arxiv.org/abs/1902.10249)) in S. Novikov et al. *Integrability, Quantization, and Geometry: II. Quantum Theories and Algebraic Geometry*, Proc. Symposia Pure Math., 103(2), 2021 ([ISBN: 978-1-4704-5592-7](https://bookstore.ams.org/pspum-103-2))
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Mock modularity and a secondary elliptic genus* ([arXiv:1904.05788](https://arxiv.org/abs/1904.05788))
 
