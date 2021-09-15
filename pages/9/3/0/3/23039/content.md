@@ -52,10 +52,11 @@ It follows (highlighted in [Rezk 2014, Rem. 2.2.1](#Rezk14)) that the [[quotient
   \,,
 \]
 
-and that the homomorphism space itself decomposes, as a [[topological G-space|$\Gamma$-space]] via the [[adjoint action]], into the [[disjoint union]], [[indexed set|indexed]] by (eq:DiscreteQuotientSpace), of the [[coset spaces]] of $\Gamma$ by the corresponding [[centralizer subgroups]] $C_\Gamma(\phi) \subset \Gamma$:
+and that the homomorphism space itself decomposes, as a [[topological G-space|$\Gamma$-space]] via the [[adjoint action]], into the [[disjoint union]], [[indexed set|indexed]] by (eq:DiscreteQuotientSpace), of the [[coset spaces]] of $\Gamma$ by the corresponding [[stabilizer subgroups]] ("[[centralizer subgroups]]") $C_\Gamma(\phi) \subset \Gamma$:
 
 
 \[
+  \label{DisjointUnionOfOrbits}
   Hom(G,\Gamma)
   \;\simeq\;
   \underset{ 
@@ -67,7 +68,7 @@ and that the homomorphism space itself decomposes, as a [[topological G-space|$\
   \;\;\;
   \in
   \;
-  G Act(TopSp)
+  \Gamma Act(TopSp)
   \,.
 \]
 
@@ -82,7 +83,9 @@ and that the homomorphism space itself decomposes, as a [[topological G-space|$\
 In this case, since $S^1$ is [[abelian group|abelian]] so that the [[conjugation action]] on $Hom(G,S^1)$ is [[trivial action|trivial]], the statement (eq:DiscreteQuotientSpace) is a special case of the classical fact that the [[Pontrjagin dual]] of a [[compact topological group]] is [[discrete group|discrete]] (see [there](Pontrjagin+dual#BasicPropertiesOfDualGroups)).
 \end{example}
 
-## For crossed homomorphisms
+## Variants
+
+### For crossed homomorphisms
  {#ForCrossedHomomorphisms}
 
 Let 
@@ -203,6 +206,14 @@ $$
   \,.
 $$
 
+### For non-Lie groups
+ {#ForNonCompactGroups}
+
+* While the [[projective unitary group]] $\Gamma \,\coloneqq\,$ [[PU(ℋ)]] on a [[separable Hilbert space]] $\mathcal{H}$ is not a (finite-dimensional) [[Lie group]] and hence outside the scope of assumption for the above general theorem, the conclusion still holds, at least for $G$ [[discrete group|discrete]], hence [[finite group|finite]]:
+
+  The [[PU(ℋ)]][[G-space|-space]] of homomorphisms $Hom\big(G,\, PU(\mathcal{H})\big)$ is a [[disjoint union]] (eq:DisjointUnionOfOrbits) of [[orbits]] of the [[conjugation action]].
+
+  This is established in [Uribe & Lück 2013, Sec. 15](universal+equivariant+PUH-bundle#UribeLueck13), [p. 38](https://arxiv.org/pdf/1304.4862.pdf#page=38).
 
 ## Related concepts
 
@@ -218,5 +229,5 @@ $$
 * {#Rezk14} [[Charles Rezk]], Rem. 2.2.1 in: *[[Global Homotopy Theory and Cohesion]]*, 2014 ([pdf](http://www.math.uiuc.edu/~rezk/global-cohesion.pdf), [[Rezk14.pdf:file]])
 
 
-
+[[!redirects nearby homomorphisms are conjugate]]
 
