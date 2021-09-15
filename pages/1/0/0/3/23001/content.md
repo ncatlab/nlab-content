@@ -9,6 +9,10 @@ On the [[topology]] of the infinite [[unitary group]] [[U(ℋ)]] on a [[separabl
 
 * {#EspinozaUribe} [[Jesus Espinoza]], [[Bernardo Uribe]], _Topological properties of the unitary group_, JP Journal of Geometry and Topology **16** (2014) Issue 1, pp 45-55 ([arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [journal](http://www.pphmj.com/abstract/8730.htm))
 
+and of the corresponding [[projective unitary group]] [[PU(ℋ)]]:
+
+* [[Jesus Espinoza]], [[Bernardo Uribe]], *Topological properties of spaces of projective unitary representations*, Rev. Acad. Colombiana Cienc. Exact. Fís. Natur. 40 (2016), no. 155, 337-352 ([arXiv:1511.06785](https://arxiv.org/abs/1511.06785), [scielo:S0370-39082016000200013](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0370-39082016000200013), [doi:10.18257/raccefyn.317](https://doi.org/10.18257/raccefyn.317))
+
 
 On 3-[[twisted equivariant K-theory]] via the [[universal equivariant PU(H)-bundle|universal equivariant $PU(\mathcal{H})$-bundle]]:
 
