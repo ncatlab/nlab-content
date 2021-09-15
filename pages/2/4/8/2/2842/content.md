@@ -34,81 +34,145 @@ In fact, the notion of [[homotopy extension property]] makes sense in any [[cate
 
 
 ## Definition
-
-+-- {: .num_defn #HurewiczCofibration}
-###### Definition
-
-A [[continuous function]] $i \colon A \longrightarrow X$ is a **Hurewicz cofibration** if it satisfies the [[homotopy extension property]] in that:
-
-* for any [[topological space]] $Y$, 
-
-* all continuous functions $ f \colon A\to Y$, there exists $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i=f$ 
-   
-  $$
-    \array{
-       A &\stackrel{f}{\to}& Y
-       \\
-       {}^{\mathllap{i}}\downarrow & \nearrow_{\mathrlap{\tilde f}} 
-       \\
-       X  
-    }
-  $$
+ {#Definition}
 
 
-* and any [[left homotopy]] $F \colon A\times I\to Y$ such that $F(-,0)=f$ 
-
-there is a homotopy $\tilde{F} \colon X\times I\to Y$ such that 
-
-> (somebody needs to fix the formatting...)
-  
-* $\tilde{F}\circ(i\times id_I)=F$ 
-
-  $$
-    \array{
-       A \times I &\overset{F}{\longrightarrow}& Y
-       \\
-       {}^{\mathllap{i \times id_I}}\downarrow & \nearrow_{\mathrlap{\tilde F}}
-       \\
-       X \times I
-    }
-  $$
-
-* and $\tilde{F}(-,0)=\tilde{f}$
-
-  $$
-    \array{
-       A &\overset{id_A \times const_0}{\longrightarrow}& A \times I &\overset{F}{\longrightarrow}& Y
-       \\
-       {}^{\mathllap{i \times id_I}}\downarrow
-       && {}^{\mathllap{i \times id_I}}\downarrow & \nearrow_{\mathrlap{\tilde F}}
-       \\
-       X &\underset{id_X \times const_0}{\longrightarrow}& X \times I
-    }
-    \phantom{AAA}
-      =
-    \phantom{AAA}
-    \array{
-    \array{
-       A &\stackrel{f}{\to}& Y
-       \\
-       {}^{\mathllap{i}}\downarrow & \nearrow_{\mathrlap{\tilde f}} 
-       \\
-       X  
-    }
-    }
-  $$
 
 
-=--
+\begin{definition}\label{HurewiczCofibration}
+**(Hurewicz cofibration)**
+\linebreak
+A map ([[continuous function]]) $i \colon A \xrightarrow{\;} X$ betwee [[topological spaces]] is a *Hurewicz cofibration* if it satisfies the [[homotopy extension property]] for all spaces, hence if
 
-+-- {: .num_defn #ClosedHurewiczCofibration}
-###### Definition
+* for any map $f \colon X \longrightarrow Y$ and any [[left homotopy]] $\eta \,\colon\,  A \times [0,1] \longrightarrow Y$ such that $\eta(-,0) = f \circ i$, there exists a [[left homotopy]] $\widehat{\eta} \,\colon\,  X \times [0,1] \longrightarrow Y$ such that $\widehat{\eta} \circ (i \times id) = \eta$;
 
-A Hurewicz cofibration $i \colon A\to X$ (def. \ref{HurewiczCofibration}) is called a _[[closed cofibration]]_ if the [[image]] $i(A)$ is a [[closed subspace]] in $X$.
+equivalently:
 
-=--
+* given a [[commuting diagram]] in [[Top|TopSp]] of solid arrows as shown below, there exists a dashed arrow $\widehat \eta$ making all sub-diagrams commute:
 
-If $A\subset X$ is closed and the inclusion is a cofibration, then the pair $(X,A)$ is called an [[NDR-pair]].
+\begin{tikzcd}[column sep={between origins, 40pt}]
+    A
+    \ar[
+      dd,
+      "{i}"{left}
+    ]
+    \ar[
+      rr,
+      "{(\mathrm{id},\, 0)}"
+    ]
+    &&
+    A \times [0,1]
+    \ar[
+      dd,
+      "{ i \times \mathrm{id} }"{right}
+    ]
+    \ar[
+      dl,
+      "{\eta}"{left, yshift=3pt}
+    ]
+    \\
+    &
+    Y
+    \\
+    X
+    \ar[
+      rr,
+      "{ (\mathrm{id},\, 0) }"{below}
+    ]
+    \ar[
+      ur,
+      "{f}"
+    ]
+    &&
+    X \times [0,1]
+    \ar[
+      ul,
+      dashed,
+      "{ \widehat \eta }"{description}
+    ]
+\end{tikzcd}
+ \end{definition}
+
+\begin{remark}
+**(re-formulation in terms of right homotopies)**
+\linebreak
+In a [[convenient category of topological spaces|convenient]] [[cartesian closed category]] $TopSp$ of [[topological spaces]] (such as that of [[compactly generated topological spaces]]) the [[product]] $\dashv$ [[internal hom]]-[[adjunction]]
+
+$$
+  TopSp
+    \underoverset
+    {\underset{ (-)^{[0,1]} }{\longrightarrow}}
+    {\overset{ (-) \times [0,1]  }{\longleftarrow}}
+    {\;\;\;\;\;\bot\;\;\;\;\;}
+  TopSp
+$$
+
+allows to pass to [[adjunct]] morphisms in Def. \ref{HurewiczCofibration} 
+
+$$
+  \array{
+    TopSp
+    \big(
+      A \times [0,1]
+      ,\,
+      Y
+    \big)
+    &\simeq&
+    TopSp
+    \big(
+      A
+      ,\,
+      Y^{[0,1]}
+    \big)
+    \\
+    \eta &\leftrightarrow& \eta'
+  }
+$$
+
+and equivalently express the above diagram of [[left homotopies]] as the following (somewhat more transparent) diagram of [[right homotopies]], where $ev_0 \,\colon\, Y^{[0,1]}\to Y$ denotes [[evaluation]] at 0 $\gamma \mapsto \gamma(0)$:
+
+
+\begin{tikzcd}
+    A
+    \ar[
+      d,
+      "{i}"{left}
+    ]
+    \ar[
+      r,
+      "{ \eta' }"{above}
+    ]
+    &
+    Y^{[0,1]}
+    \ar[
+      d,
+      "\mathrm{ev}_0"
+    ]
+    \\
+    X
+    \ar[
+      r,
+      "{f}"{below}
+    ]
+    \ar[
+      ur,
+      dashed,
+      "\widehat \eta'"{description}
+    ]
+    &
+    Y
+\end{tikzcd}
+
+In this equivalent formulation, the homotopy extension property is simply the [[right lifting property]] against the [[evaluation]] map $ev_0 \;\colon\; Y^{[0,1]} \xrightarrow{\;} Y$ out of the [[path space]] of $Y$.
+\end{remark}
+
+(e.g. [May 1999, p. 43](#May99))
+
+\begin{definition}\label{ClosedHurewiczCofibration}
+**(closed cofibrations)**
+\linebreak
+A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is called a _[[closed cofibration]]_ if the [[image]] $i(A)$ is a [[closed subspace]] in $X$. In this case the pair $(A,X)$ is also called an *[[NDR-pair]]*.
+\end{definition}
 
 
 
@@ -259,7 +323,7 @@ Textbook accounts:
 
 * {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
-* [[Peter May]], Chapter 6 of: *[[A concise course in algebraic topology]]*, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+* {#May99} [[Peter May]], Chapter 6 of: *[[A concise course in algebraic topology]]*, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 Lecture notes:
 
