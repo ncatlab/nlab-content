@@ -62,6 +62,10 @@ As a possible solution to the [[flavour anomalies]]:
 
   > (in view of [[Higgs field]] [metastability](Higgs+field#MassAndVacuumInstability))
 
+
+* Disha Bhatia, Nishita Desai, Amol Dighe, Frugal $U(1)_X$ models with non-minimal flavor violation for $b \to s \ell \ell$ anomalies and neutrino mixing* ([arXiv:2109.07093](https://arxiv.org/abs/2109.07093))
+
+
 Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
 
 * Miguel Crispim Romao, Stephen F. King, George K. Leontaris, _Non-universal $Z'$ from Fluxed GUTs_, Physics Letters B Volume 782, 10 July 2018, Pages 353-361 ([arXiv:1710.02349](https://arxiv.org/abs/1710.02349))
