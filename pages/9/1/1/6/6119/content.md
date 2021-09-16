@@ -1,5 +1,5 @@
 
-* [website](http://www.math.uni-bonn.de/~mgroth/)
+* [website](https://personen.uni-mainz.de/public/person/8032)
 
 ## related entries
 
