@@ -15,15 +15,23 @@
 
 ## Overview
 
-Matching asymptotic expansions of certain functions like [[Airy functions]] and more generally of solutions to the [[wave equations]] (say in short wave approximation or solutions to non-Fuchsian meromorphic ODEs) comes with sharp changes (disconintuities) at certain phase angles (Stokes lines) described by certain factors, Stokes matrices. 
+Matching [[asymptotic series]] expansions of certain functions like [[Airy functions]] and more generally of solutions to the [[wave equations]] (say in short wave approximation or solutions to non-Fuchsian meromorphic ODEs) comes with sharp changes (disconintuities) at certain phase angles (Stokes lines) described by certain factors, Stokes matrices. 
 
 G. G. Stokes has discovered these phenomena -- now also known more generally as [[wall crossing]] phenomena -- in the study of [[geometric optics]], more specifically the study of [[Airy function]] which is an example of a solution to a linear meromorphic [[ordinary differential equation]] which has an irregular singular point, hence the equation is not [[Fuchsian equation|Fuchsian]]. The Stokes phenomenon does not happen to Fuchsian equations. Their formal meromorphic solutions are automatically convergent. Exactly the presence of the irregular singularities makes the appearance of formal solutions with zero radius of convergence. Now look around the origin. One can try to prove that there are asymptotic expressions at best in some regions of argument. There are jumps at certain slopes. In fact there is Stokes sheaf and the first nonabelian cohomology of the Stokes sheaf measures the obstruction for a formal meromomorphic expansion to be build up of sectorial true meromorphic expansions. 
 
 Stokes factors (multipliers, matrices) appear also in the study of stability in the geometry of moduli spaces of sheaves. According to Toledano Laredo "Joyce's wall-crossing formulae for invariants counting semistable objects in an abelian category A may be understood as Stokes phenomena for a connection on the Riemann sphere taking value in the Ringel-Hall Lie algebra of A.".
 
-## References and related entries
+## Related entries
 
-* [[Airy function]], [[semiclassical approximation]], [[wall crossing]].
+* [[Airy function]]
+
+* [[semiclassical approximation]]
+
+*  [[wall crossing]]
+
+## Literature
+
+### General
 
 The historical work of G. Stokes is
 
@@ -73,11 +81,12 @@ Painlev&#233; transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](htt
 * D. G. Babbitt, V. S. Varadarajan, _Local moduli for meromorphic differential equations_,  Bull. Amer. Math. Soc. (N.S.) __12__, N. 1 (1985), 95-98.
 
 * P. Boalch, _Symplectic manifolds and isomonodromic deformations_, [link](http://www.dma.ens.fr/~boalch/files/smid.pdf); _Geometry and braiding of Stokes data; fission and wild character varieties_, [arXiv:1111.6228](http://arxiv.org/abs/1111.6228); P. P. Boalch, _Stokes matrices, Poisson Lie groups and Frobenius manifolds_, Invent. Math. 146 (2001), no. 3, 479&#8211;506. [MR1869848](http://www.ams.org/mathscinet-getitem?mr=1869848) [doi](http://dx.doi.org/10.1007/s002220100170)
+
 * A. A. Kapaev, _Quasi-linear Stokes phenomenon for the Painlev&#233; first equation_, J. Phys. A: Math. Gen. __37__, 11149 (2004) [doi](http://dx.doi.org/10.1088/0305-4470/37/46/005)
 
 * Kiran S. Kedlaya, _Good formal structures for flat meromorphic connections, I: Surfaces_, Duke Math. J. __154__, n. 2 (2010), 343-418, [MR2682186](http://www.ams.org/mathscinet-getitem?mr=2682186), [euclid](http://projecteuclid.org/euclid.dmj/1281963652) 
 
-* Marco Gualtieri, Songhao Li, Brent Pym, _The Stokes groupoids_, [arxiv/1305.7288](http://arxiv.org/abs/1305.7288)
+* [[Marco Gualtieri]], Songhao Li, Brent Pym, _The Stokes groupoids_, [arxiv/1305.7288](http://arxiv.org/abs/1305.7288)
 
 > We construct and describe a family of groupoids over complex curves which serve as the universal domains of definition for solutions to linear ordinary differential equations with singularities. As a consequence, we obtain a direct, functorial method for resumming formal solutions to such equations. 
 
@@ -98,6 +107,15 @@ Proceedings volumes:
 * B L J Braaksma, G K Immink, M van der Put, eds, _The Stokes Phenomenon and Hilbert's 16th Problem_, World Sci. 1996
 
 * B L J Braaksma, G K Immink, M van der Put, J Top, eds, _Differential equation and the Stokes phenomenon_, World Sci. 2002
+
+
+### In string theory
+
+On [[non-perturbative effects]] and [[Stokes phenomena]] in [[topological string]] [[string scattering amplitude|amplitudes]]:
+
+* Murad Alim, Arpan Saha, [[Jörg Teschner]], Iván Tulli, *Mathematical structures of non-perturbative topological string theory: from GW to DT invariants* ([arXiv:2109.06878](https://arxiv.org/abs/2109.06878))
+
+
 
 
 [[!redirects Stokes phenomena]]
