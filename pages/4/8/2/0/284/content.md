@@ -392,7 +392,7 @@ A foundational set of lecture notes:
 
 A survey with an eye towards [[higher algebra]] is in 
 
-* [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
+* [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](https://arxiv.org/pdf/1007.2925))
 
 A survey on various notions of [[homotopical categories]]:
 
