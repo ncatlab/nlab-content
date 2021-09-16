@@ -16,6 +16,8 @@ On [[equivariant K-theory]] as a [[Spectra]]-valued [[presheaf]] on the [[orbit 
 
 On [[equivariant principal bundles]] and their [[classifying spaces]]:
 
+* [[Wolfgang Lück]], *Survey on Classifying Spaces for Families of Subgroups*,  In: *Infinite Groups: Geometric, Combinatorial and Dynamical Aspects* Progress in Mathematics, **248** Birkhäuser (2005) ([arXiv:math/0312378](https://arxiv.org/abs/math/0312378), [doi:10.1007/3-7643-7447-0_7](https://doi.org/10.1007/3-7643-7447-0_7))
+
 * [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
 On [[proper equivariant homotopy theory]]:
