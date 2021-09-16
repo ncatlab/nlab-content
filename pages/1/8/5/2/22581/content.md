@@ -43,7 +43,7 @@ And for $rows(\lambda) \leq n-1$ these are also the irreps of the [[special unit
 
 ## References
 
-* {#Sternberg94} [[Shlomo Sternberg]], Section 5 and Appendix C.7 of: *Group Theory and Physics*, Cambridge University Press 1994
+* {#Sternberg94} [[Shlomo Sternberg]], Section 5 and Appendix C.7 of: *Group Theory and Physics*, Cambridge University Press 1994 ([ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853))
 
 * {#Fulton97} [[William Fulton]], Section 8 of: _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
 
