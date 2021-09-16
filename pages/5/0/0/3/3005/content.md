@@ -148,6 +148,10 @@ There is also a 2-categorical approach using quasicategories in
 
 ## References
 
+The original reference for the (crude and precise) monadicity theorems is an untitled manuscript of [[Jon Beck]] that was distributed around 1966 -- 1968. The following is a scan of a copy distributed at the *Conference Held at the Seattle Research Center of the Battelle Memorial Institute* in June -- July 1968, provided by John Kennison.
+
+[[Untitled manuscript.pdf:file]]
+
 Canonical textbook references include 
 
 * {#Borceux} [[Francis Borceux]], Section 4 in volume 2 of  _[[Handbook of Categorical Algebra]]_, in 3 vols. 
