@@ -53,9 +53,14 @@ The relation to [[topological M-theory]]/the [[topological membrane]] is discuss
 
 * [[Jan de Boer]], [[Paul de Medeiros]], Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
 
-See also
+On [[non-perturbative effects]] and [[Stokes phenomena]] in [[topological string]] [[string scattering amplitude|amplitudes]]:
 
-* wikipedia [topological string theory](http://en.wikipedia.org/wiki/Topological_string_theory)
+* Murad Alim, Arpan Saha, [[Jörg Teschner]], Iván Tulli, *Mathematical structures of non-perturbative topological string theory: from GW to DT invariants* ([arXiv:2109.06878](https://arxiv.org/abs/2109.06878))
+
+
+See also:
+
+* Wikipedia [topological string theory](http://en.wikipedia.org/wiki/Topological_string_theory)
 
 * Lotte Hollands, _Topological Strings and Quantum Curves_ ([arXiv:0911.3413](https://arxiv.org/abs/0911.3413))
 
