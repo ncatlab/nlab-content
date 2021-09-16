@@ -285,11 +285,21 @@ For more see [[counterexamples in algebra]].
 
 [[!include oidification - table]]
 
-## References
+## Literature
 
-The original article that gives a definition equivalent to the modern definition of a group is
+The original article that gives a definition equivalent to the modern definition of a group:
 
-* [[Heinrich Weber]], Beweis des Satzes, dass jede eigentlich primitive quadratische Form unendlich viele Primzahlen darzustellen fähig ist. Mathematische Annalen 20:3 (1882), 301–329.  [doi](http://dx.doi.org/10.1007/bf01443599).
+* [[Heinrich Weber]], *Beweis des Satzes, dass jede eigentlich primitive quadratische Form unendlich viele Primzahlen darzustellen fähig ist*, Mathematische Annalen 20:3 (1882), 301–329 ([doi:10.1007/bf01443599](http://dx.doi.org/10.1007/bf01443599))
+
+Textbook account
+
+in relation to applications in [[physics]]:
+
+* {#Sternberg94} [[Shlomo Sternberg]], *Group Theory and Physics*, Cambridge University Press 1994 ([ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853))
+
+See also:
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Group_(mathematics)">Group_(mathematics)</a>*
 
 
 [[!redirects groups]]
