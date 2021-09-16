@@ -41,7 +41,7 @@ In any case, the [[forgetful functor]] from $Hilb$ to [[Vect]] is [[faithful fun
 
 ## References
 
-A pedagogical description of the [[monoidal category structure]] on $Hilb$ with an emphasis on their role in [[quantum mechanics]] and their relation to [[nCob]]:
+A pedagogical description of the [[monoidal category]] structure on $Hilb$ with an emphasis on their role in [[quantum mechanics]] and their relation to [[nCob]]:
 
 * [[John Baez]], _The monoidal category of Hilbert spaces_ ([web](http://math.ucr.edu/home/baez/quantum/node4.html))
 
