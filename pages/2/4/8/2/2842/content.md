@@ -194,7 +194,8 @@ A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is cal
   \;
   X \times [0,1]
 \]
-admits a [[retraction]] $r$:
+
+{#TheRetraction} admits a [[retraction]] $r$:
 
 \begin{tikzcd}
         \mathrm{X} \!\times\! \{0\}
