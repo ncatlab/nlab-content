@@ -7041,7 +7041,7 @@ As a by-product, we obtain the model category theory of [[homotopy colimits]] in
 
 In the following we say _[[Top]]-[[enriched category]]_ and _[[Top]]-[[enriched functor]]_ etc. for what often is referred to as "[[topological category]]" and "[[topological functor]]" etc. As discussed there, these latter terms are ambiguous.
 
-**Literature** ([[Categorical Homotopy Theory|Riehl, chapter 3]]) for basics of [[enriched category theory]]; ([Piacenza 91](#Piacenza91)) for the [[projective model structure on functors|projective model structure on topological functors]].
+**Literature** ([[Categorical Homotopy Theory|Riehl, chapter 3]]) for basics of [[enriched category theory]]; ([Piacenza 91](classical+model+structure+on+topological+spaces#Piacenza91)) for the [[projective model structure on functors|projective model structure on topological functors]].
 
 $\,$
 
@@ -7627,12 +7627,12 @@ These are [[cofibrantly generated model category]], def. \ref{CofibrantlyGenerat
 
 =--
 
-([Piacenza 91, theorem 5.4](#Piacenza91))
+([Piacenza 91, theorem 5.4](classical+model+structure+on+topological+spaces#Piacenza91))
 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits} the category has all limits and colimits, hence it remains to check the model structure
+By prop. \ref{TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits} the category has all limits and colimits, hence it remains to check the model structure.
 
 But via the enriched Yoneda lemma (prop. \ref{TopologicallyEnrichedYonedaLemma}) it follows that proving the model structure reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}.
 In particular, the technical lemmas \ref{CompactSubsetsAreSmallInCellComplexes}, \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and \ref{AcyclicSerreFibrationsAreTheJTopFibrations} generalize immediately to the present situation, with the evident small change of wording:
