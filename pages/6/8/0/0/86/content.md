@@ -123,7 +123,7 @@ $$
     \colon 
   \Omega^\bullet(X) 
     \stackrel{\simeq}{\longrightarrow}
-  \wedge^{-\bullet} \Gamma(T X)
+  \wedge^{d-\bullet} \Gamma(T X)
   \,,
 $$
 
@@ -280,6 +280,7 @@ $$
   BV_{cl}(X, S)
   \coloneqq
   (\wedge^\bullet \Gamma(T X), \iota_{d S})
+
 $$
 
 is the [[derived critical locus]] of the function $S$.
