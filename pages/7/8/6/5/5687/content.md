@@ -119,18 +119,18 @@ The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), t
 
 
 
-\begin{proposition}
+\begin{proposition}\label{RealizationOfWellPointedIsWellPointed}
 If $G$ is a [well-pointed](#WellPointedSimplicialTopologicalGroup) simplicial topological group, then
 
 1. $G$ is a [[nice simplicial topological space|good simplicial topological space]];
 
-1. $\overline{W} G$ is a [[nice simplicial topological space|proper simplicial topological space]].
+1. $\overline{W} G$ is a [[nice simplicial topological space|proper simplicial topological space]];
 
-1. the [[geometric realization of simplicial topological spaces|geometric realization]] $|G|$ is well-pointed;
+1. the [[geometric realization of simplicial topological spaces|geometric realization]] $|G|$ is well-pointed.
 
 \end{proposition}
 
-([Roberts & Stevenson 2012, Prop. 3](#RobertsStevenson12))
+([Roberts & Stevenson 2012, Prop. 3](#RobertsStevenson12), for the last item see also [Baez & Stevenson 2008, Lem. 1](#BaezStevenson08))
 
 ## Related concepts
 
@@ -153,9 +153,12 @@ and
 * [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 {#May}
 
-Discussion of their [[geometric realization of simplicial topological spaces|geometric realization]] and [[principal infinity-bundles|principa $\infty$-bundles]]:
+Discussion of their [[geometric realization of simplicial topological spaces|geometric realization]] and [[principal infinity-bundles|principal $\infty$-bundles]]:
+
+* {#BaezStevenson08} [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) Algebraic Topology_. Abel Symposia, vol 4. Springer 2009 ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
 
 * {#RobertsStevenson12} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460), [nyjm:22-19](http://nyjm.albany.edu/j/2016/22-19.html))
+
 
 
 
