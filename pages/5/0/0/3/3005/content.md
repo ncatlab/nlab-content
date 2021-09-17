@@ -148,11 +148,11 @@ There is also a 2-categorical approach using quasicategories in
 
 ## References
 
-The original reference for the (crude and precise) monadicity theorems is an untitled manuscript of [[Jon Beck]] that was distributed around 1966 -- 1968. The following is a scan of a copy distributed at the *Conference Held at the Seattle Research Center of the Battelle Memorial Institute* in June -- July 1968, provided by John Kennison.
+The original reference for the (crude and precise) monadicity theorems is an untitled manuscript of [[Jon Beck]] that was distributed around 1966 -- 1968. The following is a scan of a copy distributed at the *Conference Held at the Seattle Research Center of the Battelle Memorial Institute* in June -- July 1968, provided by John Kennison:
 
-[[Untitled manuscript.pdf:file]]
+* {#Beck68} [[Jon Beck]], untitled manuscript, 1968 ([[Beck_MonadicityTheorem.pdf:file]])
 
-Canonical textbook references include 
+Textbook accounts:
 
 * {#Borceux} [[Francis Borceux]], Section 4 in volume 2 of  _[[Handbook of Categorical Algebra]]_, in 3 vols. 
 
@@ -166,7 +166,7 @@ Other references include:
 
 * [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_ , C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98
 
-* Du&#353;ko Pavlovi&#263;, Categorical interpolation: descent and the Beck-Chevalley condition without direct images,  Category theory Como 1990, pp. 306--325, Lecture Notes in Mathematics 1488, Springer 1991
+* [[Duško Pavlović]], Categorical interpolation: descent and the Beck-Chevalley condition without direct images,  Category theory Como 1990, pp. 306--325, Lecture Notes in Mathematics 1488, Springer 1991
 
 * [[Pierre Deligne]], _[[Catégories Tannakiennes]]_ , Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp. 111-195.
 
@@ -186,8 +186,8 @@ Discussion for [[(infinity,1)-monads]] is in
 
 and realized in the context of [[quasi-categories]] in 
 
-* [[Emily Riehl]], [[Dominic Verity]], section 7.2 of _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
- {#RiehlVerity13}
+* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], section 7.2 of _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
+ 
 
 
 [[!redirects Beck's Monadicity Theorem]]
