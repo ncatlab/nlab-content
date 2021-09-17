@@ -100,16 +100,13 @@ This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model 
 #### Cofibrations and Cofibrant replacement
 
 \begin{prop}\label{CofibrantObjectsInTopologicalBorelModelStructure}
-A [[topological G-space]] $X$ is [[cofibrant object|cofibrant]] in $G Act\big( TopSp_{Qu}\big)_{proj}$ (from Prop. \ref{BorelModelStructureOnTopologicalSpaces}) precisely if
-
-1. $G$-[[quotient space]] is cofibrant in the [[classical model structure on topological spaces]];
-
-1. its $G$-[[group action|action]] is [[free action|free]].
-
+The model category $G Act\big(TopSp_{Qu}\big)_{proj}$ from Prop. \ref{BorelModelStructureOnTopologicalSpaces} is [[cofibrantly generated model category|cofibrantly generated]] with generating cofibrations being (see [this Def.](Introduction+to+Homotopy+Theory#GeneratingCofibrationsForProjectiveStructureOnFunctors)) the [[product topological space|product]] with $G$ (regarded with its free left multiplication action) of the generating cofibrations of [[classical model structure on topological spaces|$TopSp_{Qu}$]].
 \end{prop}
-For [[discrete group|discrete]] $G$ a statement along these lines appears as   [Guillou 2006, Prop. 5.3](#Guillou06)).
+For [[discrete group|discrete]] $G$ a statement along these lines appears as   [Guillou 2006, Prop. 5.3](#Guillou06).
 \begin{proof}
-  By [this Thm.](Introduction+to+Homotopy+Theory#ProjectiveModelStructureOnTopologicalFunctors) the model category $G Act\big(TopSp_{Qu}\big)_{proj}$ from Prop. \ref{BorelModelStructureOnTopologicalSpaces} is [[cofibrantly generated model category|cofibrantly generated]] with generating cofibrations being (see [this Def.](Introduction+to+Homotopy+Theory#GeneratingCofibrationsForProjectiveStructureOnFunctors)) the [[product topological space|product]] with $G$ (regarded with its free left multiplication action) of the generating cofibrations of [[classical model structure on topological spaces|$TopSp_{Qu}$]].
+This is a special case of [this Thm.](Introduction+to+Homotopy+Theory#ProjectiveModelStructureOnTopologicalFunctors) about topological functor categories.
+
+Alternatively, the statement is a special case of that for the [[fine model structure on topological G-spaces]] for the case of trivial family of closed subgroups (see [there](fine+model+structure+on+topological+G-spaces#SpecializationToBorelModelStructure)).
 \end{proof}
 
 
@@ -138,8 +135,8 @@ $$
 
 > Hm, this is not a proper argument... 
 
-#### Borel construction
 
+#### Topological Borel construction
 
 \begin{prop}\label{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}
   There is a [[Quillen adjunction]]
@@ -163,6 +160,29 @@ $$
   By definition of the weak equivalences and fibrations in Prop. \ref{BorelModelStructureOnTopologicalSpaces}, it is immediate that $triv$ preserves these classes of morphisms.
 \end{proof}
 
+\begin{prop}\label{BorelConstructionOfFreeActionEquivalentToPlainQuotient}
+**([[Borel construction]] of [[free action]] is [[weak homotopy equivalence|weak hom. equivalent]] to plain [[quotient space]])**
+\linebreak
+  Let $G$ be a [[compact Lie group]] and 
+  let $X$ be a [[G-CW complex]] whose $G$-action is [[free action|free]]. Then the comparison morphism between the [[Borel construction]] and the plain [[quotient space]] of $X$ is a [[weak homotopy equivalence]]:
+
+$$
+  (X \times E G)/G 
+  \xrightarrow{ \; 
+    (id_x \times (E G \to \ast))/G \, \in\, W 
+  \; }
+  X/G
+  \,.
+$$
+\end{prop}
+\begin{proof}
+  Since $E G$ is a [[G-CW complex]], the product $X \times E G$ is cofibrant (by the analog of [this Prop.](fine+model+structure+on+topological+G-spaces#MonoidalModelCategoryStructure)) and $X$ is cofibrant by assumption and by Prop. \ref{CofibrantObjectsInTopologicalBorelModelStructure}.
+
+Hence, by Prop. \ref{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}, the morphism in question is the image under a [[left Quillen functor]], of a weak equivalence between cofibrant objects. Therefore the claim follows by [[Ken Brown's lemma]] ([here](Introduction+to+Homotopy+Theory#KenBrownLemma)).
+\end{proof}
+
+
+
 \begin{prop}
   The [[Borel construction]] exhibits the [[left derived functor]] of the [[quotient space]]-[[left Quillen functor]] in Prop. \ref{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}:
 
@@ -184,6 +204,8 @@ $$
 \begin{proof}
   Since the [[left derived functor]] of a left Quillen functor is given by the application of the latter on any [[cofibrant replacement]], the claim follows by Ex. \ref{ProductWithUniversalPrincipalGSpaceIsCofibrantReplacement}.
 \end{proof}
+
+> or would follow, if that Example were argued properly
 
 
 ### In simplicial sets
