@@ -37,6 +37,9 @@ If (as in a [[measure space]], a [[Cheng space]], or a [[localisable measurable 
 
 * [[pushforward measure]]
 
+## Literature
+
+* Dave Applebaum, *Measurable Functions* ([pdf](http://www.applebaum.staff.shef.ac.uk/Ch2MeasFn.pdf))
 
 
 category: analysis
