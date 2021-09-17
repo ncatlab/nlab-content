@@ -168,7 +168,7 @@ Introductory lecture notes include
 
 and for just [[quantum mechanics]] in the algebraic perspective:
 
-* {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
+* {#Gleason09} Jonathan Gleason, _The $C^\ast$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
 
 Classical textbooks are
 
