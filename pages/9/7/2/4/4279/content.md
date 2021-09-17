@@ -37,7 +37,7 @@ In order to motivate the definition from more traditional formulations in  [[phy
 Often this is formalized in the [[Schrödinger picture]] where a [[Hilbert space|Hilbert]] [[space of states]] $\mathcal{H}$ is taken as primary, and the [[observables]] are [[representation|represented]] as suitable [[linear operators]] $A$ on $\mathcal{H}$. Then for $\psi \in \mathcal{H}$ a state ([[pure state]]) the [[expectation value]] of $A$ in this state is the [[inner product]] $\langle \psi \vert A \vert \psi \rangle \coloneqq (\psi, A \psi)$. This defines a [[linear function]]
 
 $$
-  \langle \psi \vert (-) \vert \psi \rangle
+  \langle \psi \vert - \vert \psi \rangle
   \;\colon\;
   \mathcal{A}
   \longrightarrow
@@ -240,24 +240,26 @@ The term "pure" originates from the notion of [[entanglement]], a pure state is 
 ## Examples
  {#Examples}
 
-+-- {: .num_prop #ClassicalProbabilityMeasureAsStateOnMeasurableFunctions}
-###### Proposition
+\begin{example}\label{ClassicalProbabilityMeasureAsStateOnMeasurableFunctions}
 **(classical [[probability measure]] as state on [[measurable functions]])**
-
-For $\Omega$ classical [[probability space]], hence a [[measure space]] which normalized total measure $\int_\Omega d\mu = 1$, let $\mathcal{A} \coloneqq L^1(\Omega)$ be the algebra of Lebesgue [[measurable functions]] with values in the [[complex numbers]], regarded as a [[star algebra]] by pointwise [[complex conjugation]]. Then forming the [[expectation value]] with respect to $\mu$ defines a [[state on a star-algebra|state]] (def. \ref{StateOnAStarAlgebra}):
+\linebreak
+For $\Omega$ a [[locally compact topological space|locally compact]] [[Hausdorff space]] equipped with a compatible structure of a classical [[probability space]], hence a [[measure space]] which normalized total measure $\int_\Omega d\mu = 1$, let $\mathcal{A} \coloneqq C_0(\Omega)$ be the algebra of [[continuous function]] with values in the [[complex numbers]] and [[vanishing at infinity]], regarded as a [[star algebra]] by pointwise [[complex conjugation]]. Then forming the [[expectation value]] with respect to $\mu$ defines a [[state on a star-algebra|state]] (def. \ref{StateOnAStarAlgebra}):
 
 $$
   \array{
-    L^1(\Omega) 
-      &\overset{\langle (-)\rangle_\mu}{\longrightarrow}& 
+    C_0(\Omega) 
+      &\overset{\langle - \rangle_\mu}{\longrightarrow}& 
     \mathbb{C}
     \\
-    A &\mapsto& \int_\Omega A d\mu
+    A &\mapsto& \int_\Omega A \, d\mu
   }
 $$
 
+\end{example}
 
-=--
+(e.g. [Landsman 2017, p. 16-17](#Landsman17))
+
+
 
 +-- {: .num_example #ElementsOfHilbertSpaceAsPureStates}
 ###### Example
@@ -268,7 +270,7 @@ Let $\mathcal{H}$ be a [[complex numbers|complex]] [[separable Hilbert space|sep
 $$
   \array{
     \mathcal{B}(\mathcal{H})
-      &\overset{\langle (-)\rangle_\psi}{\longrightarrow}&
+      &\overset{\langle -\rangle_\psi}{\longrightarrow}&
      \mathbb{C}
      \\
      A &\mapsto& \langle \psi \vert\, A \, \vert \psi \rangle &\coloneqq& \langle \psi, A \psi \rangle
