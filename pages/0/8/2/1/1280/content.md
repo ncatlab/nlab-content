@@ -93,7 +93,7 @@ One goal of [[relevance logic]] is to ensure that no sequent can be valid unless
 
 ### Paraconsistent set theory
 
-One potential application of paraconsistent logic would be to give a [[set theory]] in which the unrestricted [[comprehension rule]] is valid, but which is nontrivial.  For instance, if $R = \{ x \mid x\notin x \}$ is the set from [[Russell's paradox]], then a paraconsistent logic could admit that both $R\in R$ and $R\notin R$ without trivializing.
+One potential application of paraconsistent logic would be to give a [[set theory]] in which the [[unrestricted comprehension rule]] is valid, but which is nontrivial.  For instance, if $R = \{ x \mid x\notin x \}$ is the set from [[Russell's paradox]], then a paraconsistent logic could admit that both $R\in R$ and $R\notin R$ without trivializing.
 
 It should be noted, however, that not all paraconsistent logics remain nontrivial in the presence of full comprehension.  If the [[contraction rule]] is permitted (as it is in many [[relevance logics]], then it seems hard to avoid [[Curry's paradox]] in the following form.  For any statement $P$, consider the Curry-Russell set $C = \{ x \mid (x\in x) \to P \}$.  Suppose $C\in C$; then by definition of $C$ we have $(C\in C)\to P$, and so (using $C\in C$ again, by contraction) we have $P$.  Therefore, $(C\in C) \to P$.  But then by definition of $C$ we have $C\in C$, and hence by [[modus ponens]] we have $P$.  Note that this argument does not require ECQ.
 
