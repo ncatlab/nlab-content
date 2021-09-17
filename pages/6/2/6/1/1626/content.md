@@ -471,14 +471,15 @@ $$
 
 The set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") is thus the [[coequalizer]] in
 
-$$ 
+\[
+  \label{ConnectedComponentsAsCoequalizer}
   \hom([0, 1], X) 
     \underoverset
     {ev_1}
     {ev_0}
     {\rightrightarrows}
   \hom(1, X) \to \pi_0(X) .
-$$
+\]
 
 Observe that this is a [[reflexive coequalizer]], as witnessed by the mutual right inverse $\hom(!, X): \hom(1, X) \to \hom([0, 1], X)$.
 
