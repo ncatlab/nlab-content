@@ -105,6 +105,12 @@ $G Act\big(TopSp_{Qu}\big)_{fine}$ on [[topological G-spaces]] whose [[weak equi
 
 \end{prop}
 
+\begin{remark}\label{SpecializationToBorelModelStructure}
+**(specialization to [[Borel model structure]])**
+\linebreak
+The direct analog of Prop. \ref{FineModelStructureOnGSpaces}, Prop. \ref{BasicPropertiesOfTheFineModelStructure} holds for any choice of family of closed subgroups of $G$. In the case that the family contains only the [[trivial group]] $1 \subset G$ the result is the topological [[Borel model structure]]. 
+\end{remark}
+
 \begin{corollary}\label{GCWComplexesAreCofibrant}
   Evey [[G-CW complex]] (being, by definition, a special [[cell complex]] in the generating cofibrations (eq:GeneratingCofibrations)) is a [[cofibrant object]] in the fine equivariant model structure.
 \end{corollary}
