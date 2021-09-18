@@ -140,11 +140,11 @@ See [[geometric realization of simplicial topological spaces]] for more details.
 
 
 
-The main article is 
+The original article is
 
 * {#Strom72} [[Arne Strøm]], _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972) ([pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/strom-the-homotopy-category-is-a-homotopy-category-1972.pdf), [[Strom_HomotopyCategory.pdf:file]])
 
-using results on [[Hurewicz cofibrations]]:
+using results on [[Hurewicz cofibrations]] from:
 
 * [[Arne Strøm]], _Note on cofibrations_,  Math. Scand.  **19** (1966) 11-14 ([jstor:24490229](https://www.jstor.org/stable/24490229), [dml:165952](https://eudml.org/doc/165952), MR0211403)
 
@@ -152,13 +152,15 @@ using results on [[Hurewicz cofibrations]]:
 
 A proof using different techniques, as well as a generalisation, is in the following paper.
 
-* [[Tobias Barthel]] and [[Emily Riehl]], _On the construction of functorial factorizations for model categories_ ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427))
- {#BarthelRiehl}
+* {#BarthelRiehl} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089))
+ 
 
-A proof was also claimed in the following, but it contains a serious mistake (originating in a paper of Cole) which invalidates the argument; see the above paper of Barthel and Riehl for more. The same mistake appears in other works co-authored by May, including the books with Ponto.
+Beware that a proof was also claimed in 
 
-* [[Peter May]] and Johann Sigurdsson, _Parametrized homotopy theory_
-([web](http://www.math.uiuc.edu/K-theory/0716/))
+* [[Peter May|May]], [[Johann Sigurdsson]], *[[Parametrized Homotopy Theory]]*, 
+
+but this contains a serious mistake originating in a paper of Cole (noticed by [[Richard Williamson]]) which invalidates the argument; see [Barthel & Riehl, p. 2](#BarthelRiehl) for more. The same mistake appears in other works co-authored by May, including the books with Ponto.
+
 
 [[!redirects Strøm's model category]]
 [[!redirects Strom's model category]]
