@@ -106,6 +106,9 @@ Textbooks:
 
   (with focus on [[differential forms]], [[differential topology]])
 
+* {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+
+
 * {#Dold95} [[Albrecht Dold]], *Lectures on Algebraic Topology*, Springer 1995 ([doi:10.1007/978-3-642-67821-9](https://www.springer.com/gp/book/9783540586609), [pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-67821-9%2F1.pdf))
 
 * [[Peter May]], _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
