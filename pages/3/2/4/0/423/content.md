@@ -24,6 +24,11 @@
 * table of contents
 {:toc}
 
+> I believe that we lack another analysis properly geometric or linear  which expresses location directly as algebra expresses magnitude. 
+
+> [[G. W. Leibniz]] (letter to Huygens 1679, according to [Bredon 93, p. 430](#Bredon93))
+
+
 ## Idea
 
 __Topology__ is one of the basic fields of [[mathematics]].  The term is also used for a particular structure in a [[topological space]]; see [[topological structure]] for that.
@@ -294,10 +299,9 @@ The simple definition of [[open subsets]] and the simple _principle of continuit
 topology closely related to [[formal logic]] (for more on this see at _[[locale]]_).
 
 
-+-- {: .num_remark}
-###### # Remark
+\begin{remark}
 **(the category of topological spaces)**
-
+\linebreak
 The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]].
 
 One says that
@@ -316,7 +320,7 @@ by [[diagrams]], like this one:
 
 > graphics grabbed from [Lawvere-Schanuel 09](#category+theory#LawvereSchanuel09).
 
-=--
+\end{remark}
 
 
 
@@ -612,15 +616,13 @@ $\,$
 Important examples of pairs of spaces that are _not_ homeomorphic include the following:
 
 
-+-- {: .num_theorem #TopologicalInvarianceOfDimension}
-###### # Theorem
+\begin{theorem}\label{TopologicalInvarianceOfDimension}
 **([[topological invariance of dimension]])**
-
+\linebreak
 For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphic]].
 
 More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open set in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
-
-=--
+\end{theorem}
 
 The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]]).
 
@@ -1546,9 +1548,12 @@ Textbook accounts:
 
 * {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
+
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989) ([pdf](https://pdfs.semanticscholar.org/6da4/9fba6462a5c3e6b528a8b3e8be3a1c1e743d.pdf))
+
+* {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
