@@ -12,11 +12,20 @@
 
 A **homotopy end** or **coend** is a [[homotopy limit]] corresponding to an [[end]] or coend.
 
-For now, see 
+For now, see:
 
-* [[coend in a derivator]];
+* [[coend in a derivator]],
 
-* [derived coends over tensors](http://ncatlab.org/nlab/show/Quillen+bifunctor#CoendsOverTensors).
+* [derived coends over tensors](Quillen+bifunctor#CoendsOverTensors),
+
+* [[homotopy weighted colimits]], 
+
+* [[fat geometric realization]]
+
+## References
+
+* {#ArkhipovOrsted18} [[Sergey Arkhipov]], [[Sebastian Ørsted]], *Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories* ([arXiv:1807.03266](https://arxiv.org/abs/1807.03266))
+
 
 [[!redirects homotopy coends]]
 [[!redirects homotopy end]]
