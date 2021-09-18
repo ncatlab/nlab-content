@@ -1,4 +1,112 @@
 
+\begin{tikzcd}[row sep=small]
+    A 
+    \ar[
+      d,
+      hook
+    ]
+    \ar[rr]
+    &&
+    \{0\}
+    \ar[
+      d,
+      hook
+    ]
+    \\
+    X
+    \ar[
+      rr,
+      dashed,
+      "{\phi}"{description}
+    ]
+    &&
+    {[0,1]}
+    \\
+    X \setminus U
+    \ar[
+      u,
+      hook
+    ]
+    \ar[rr]
+    &&
+    \{1\}
+    \ar[
+      u,
+      hook
+    ]
+\end{tikzcd}
+
+
+
+
+\begin{tikzcd}[column sep=20pt]
+    &
+    A \times [0,1]
+    \ar[
+      dr,
+      ->>
+    ]
+    \\[-25pt]
+    U 
+    \ar[
+      d,
+      hook,
+      "{
+        (\mathrm{id}, 0)
+      }"{left}
+    ]
+    \ar[
+      drr,
+      hook,
+      "{  
+      }"
+    ]
+    & 
+    &
+    A
+    \ar[
+      d,
+      hook
+    ]
+    \\
+    U \times [0,1]
+    \ar[
+      rr,
+      dashed,
+      "{\eta}"{description}
+    ]
+    \ar[
+      from=uur,
+      hook,
+      crossing over
+    ]
+    &&
+    X
+    \\
+    U
+    \ar[
+      u,
+      hook,
+      "{
+        (\mathrm{id}, 1)
+      }"{left}
+    ]
+    \ar[
+      rr,
+      dashed
+    ]
+    &&
+    A 
+    \ar[
+     u,
+     hook
+    ]
+\end{tikzcd}
+
+
+
+\linebreak
+
 \begin{tikzcd}
         \mathrm{X} \!\times\! \{0\}
         \;\cup\;
