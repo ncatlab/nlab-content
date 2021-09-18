@@ -536,10 +536,10 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #NerveOfGroupoidIsKanComplex}
 ###### Proposition
 
-These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], hence make the [[nerve]] $\mathcal{G}_\bullet$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
+These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], hence make the [[nerve]] $\mathcal{G}_\bullet$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex, where each $n \geq 2$-[[horn]] has a _unique_ filler (extension to a [[simplex]]).
 
 =--
 
