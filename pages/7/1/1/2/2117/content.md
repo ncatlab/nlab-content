@@ -126,3 +126,6 @@ Set theory is not the only [[foundation of mathematics]].  For example, there ar
 
 [[!redirects von Neumann universe]]
 [[!redirects von Neumann universes]]
+
+[[!redirects set of all sets]]
+
