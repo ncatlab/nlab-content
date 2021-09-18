@@ -24,7 +24,7 @@ $$ \{ x \mid P(x) \}. $$
 
 ## Restricted comprehension
 
-Standard [[set theories]] such as [[ZFC]] avoid this [[paradox]] by replacing unrestricted comprehension with the [[axiom scheme of separation]] (or "restricted comprehension"), which restrictes $x$ to lie in some previously specified set $X$.
+Standard [[set theories]] such as [[ZFC]] avoid this [[paradox]] by replacing unrestricted comprehension with the [[axiom scheme of separation]] (or "restricted comprehension"), which restricts $x$ to lie in some previously specified set $X$.
 
 ## Stratified comprehension
 
