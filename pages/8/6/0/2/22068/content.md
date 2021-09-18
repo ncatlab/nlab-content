@@ -63,6 +63,14 @@ See Section 9.2 in
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, New Mathematical Monographs 24, Cambridge University Press, 2014.
 
+and for simplicially based theories, 
+
+*  [[Jean-Marc Cordier]] and [[Timothy Porter]], _Homotopy Coherent Category Theory_, Trans. Amer. Math. Soc. 349 (1997) 1-54, ([pdf](http://www.ams.org/journals/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+
+(That article uses the older terminology of 'indexed colimits' rather than the `weighted' one.)
+
+
+
 Other references:
 
 * [[Lukáš Vokřínek]], _Homotopy weighted colimits_, [arXiv:1201.2970](https://arxiv.org/abs/1201.2970).
