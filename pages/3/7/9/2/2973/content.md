@@ -39,11 +39,11 @@ Write CGWH for the category of [[compactly generated topological spaces|compactl
 
 The category of [[compactly generated topological space|compactly generated]] weakly Hausdorff topological spaces was introduced in  
 
-* {#McCord69} M. C. McCord,  (1969), _Classifying spaces and infinite symmetric products_, Transactions of the American Mathematical Society 146: 273&#8211;298, doi:10.2307/19951
+* {#McCord69} [[Michael C. McCord]], Section 2 of: *Classifying Spaces and Infinite Symmetric Products*, Transactions of the American Mathematical Society, Vol. 146 (Dec., 1969), pp. 273-298  ([jstor:1995173](https://www.jstor.org/stable/1995173), [pdf](https://www.ams.org/journals/tran/1969-146-00/S0002-9947-1969-0251719-4/S0002-9947-1969-0251719-4.pdf))
 
 as a more convenient setting than Steenrod's compactly generated Hausdorff spaces, given that the latter is not closed under many colimits (for instance quotients) as computed in $Top$.
 
-* André Henriques et al, _Why the “W” in CGWH (compactly generated weakly Hausdorff spaces)?_, [MO discussion](http://mathoverflow.net/q/47702/), 2010.
+* [[André Henriques]] et al, _Why the “W” in CGWH (compactly generated weakly Hausdorff spaces)?_, [MO discussion](http://mathoverflow.net/q/47702/), 2010.
 
 [[!redirects weak Hausdorff space]]
 [[!redirects weak Hausdorff spaces]]
