@@ -56,10 +56,10 @@ This model structure is sometimes called the **[[Quillen model structure on topo
 
 
 
-### Hurewicz (or Str&#248;m) Model Structure
+### Hurewicz (or Strøm) Model Structure
  {#StromModelStructure}
 
-A second model structure has 
+A second model structure -- the *[[Strøm model structure]]* -- has 
 
 * weak equivalences are the [[homotopy equivalences]];
 
@@ -208,17 +208,18 @@ An expository, concise and comprehensive writeup is in
 
 Standard textbooks references include 
 
-* {#Hovey} [[Mark Hovey]] _Model categories_ 
+* {#Hovey}  [[Mark Hovey]], _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
-* Hirschhorn _Model categories and their localizations_.
+* {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
 
 * [[Kate Ponto]], [[Peter May]], section 17 of _More concise algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
-For the "Hurewicz," "Str&#248;m," or "h-" model structure:
+For the "Hurewicz," "h-" or "[[Strøm model structure]]": 
 
-* [[Arne Strøm]], _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972)
+* [[Arne Strøm]], _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972) ([pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/strom-the-homotopy-category-is-a-homotopy-category-1972.pdf), [[Strom_HomotopyCategory.pdf:file]])
 
-For the "mixed" or "m-" model structure:
+For the "m-" or "[[mixed model structure]]":
 
 * Michael Cole, _Mixing model structures_, Topology Appl. 153 no. 7 (2006) [doi](http://dx.doi.org/10.1016/j.topol.2005.02.004).
 
