@@ -324,7 +324,7 @@ and so then the [[product topological space]] $X \times Y$ itself has CW-complex
  {#LocalContractibility}
 
 
-+-- {: .num_prop }
++-- {: .num_prop #CWComplexesAreLocallyContractible}
 ###### Proposition
 
 A CW-complex is a [[locally contractible topological space]].
@@ -643,3 +643,6 @@ An inconclusive discussion [here](http://nforum.mathforge.org/discussion/4135/si
 
 [[!redirects relative CW-complex]]
 [[!redirects relative CW-complexes]]
+
+[[!redirects relative CW complex]]
+[[!redirects relative CW complexes]]
