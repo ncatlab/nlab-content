@@ -156,6 +156,10 @@ Although usually presented as an axiom scheme, in many cases, all instances of s
 
 Full separation follows from the [[axiom of replacement]] and the principle of [[excluded middle]] (along with the axiom of the [[empty set]]).  Therefore, the axiom is often left out entirely of a description of [[ZFC]] (the usually accepted foundation of mathematics).  In versions of set theory for [[constructive mathematics]], however, we often have replacement but only bounded or limited separation, and in any case separation must be listed explicitly.
 
+## Related concepts
+
+* [[axiom of full comprehension]]
+
 ## References
 
 ### General
@@ -164,25 +168,25 @@ Full separation follows from the [[axiom of replacement]] and the principle of [
 
 ### In hyperdoctrines
 
-* [[Lawvere]], F. W. _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
- {#Lawvere70}
+* {#Lawvere70} [[Lawvere]], F. W. _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
+ 
 
-* [[Lawvere]], F. W. _Metric spaces, generalized logic and closed categories_ Rend. Sem. Mat. Fis. Milano, 43:135&#8211;166 (1973). Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
- {#Lawvere73}
+* {#Lawvere73} [[Lawvere]], F. W. _Metric spaces, generalized logic and closed categories_ Rend. Sem. Mat. Fis. Milano, 43:135&#8211;166 (1973). Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
+ 
 
-* [[Thomas Ehrhard]]. A Categorical Semantics of Constructions. LICS 1988. ([pdf](https://www.irif.univ-paris-diderot.fr/~ehrhard/pub/categ-sem-constr.pdf))
- {#Ehrhard88}
+* {#Ehrhard88} [[Thomas Ehrhard]]. A Categorical Semantics of Constructions. LICS 1988. ([pdf](https://www.irif.univ-paris-diderot.fr/~ehrhard/pub/categ-sem-constr.pdf))
+ 
 
-* [[Bart Jacobs]]. Comprehension categories and the semantics of type dependency. _Theoretical Computer Science_ 107:2 (1993), pp. 169-207.
- {#Jacobs93}
+* {#Jacobs93} [[Bart Jacobs]]. Comprehension categories and the semantics of type dependency. _Theoretical Computer Science_ 107:2 (1993), pp. 169-207.
+ 
 
-* [[Bart Jacobs]].  _Categorical Logic and Type Theory_.  Elsevier, 1999.
- {#Jacobs99}
+* {#Jacobs99} [[Bart Jacobs]].  _Categorical Logic and Type Theory_.  Elsevier, 1999.
+ 
 
 * [[Finn Lawler]], section "Tabulation and comprehension" in _[[finnlawler:thesis outline|Fibrations of predicates and bicategories of relations]]_ (2014)
 
-* Carboni, Janelidze, Kelly, Par&#233;. _On localization and stabilization for factorization systems_.  Applied Categorical Structures, 1997.
- {#Carboni97}
+* {#Carboni97} Carboni, Janelidze, Kelly, Par&#233;. _On localization and stabilization for factorization systems_.  Applied Categorical Structures, 1997.
+ 
 
 
 
