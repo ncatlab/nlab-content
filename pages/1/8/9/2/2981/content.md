@@ -150,15 +150,15 @@ using results on [[Hurewicz cofibrations]]:
 
 * [[Arne Strøm]], _Note on cofibrations II_,  Math. Scand.  **22** (1968) 130--142 (1969) ([jstor:24489730](https://www.jstor.org/stable/24489730), [dml:166037](https://eudml.org/doc/166037), MR0243525)
 
-One modern re-proof can be found in
-
-* [[Peter May]] and Johann Sigurdsson, _Parametrized homotopy theory_
-([web](http://www.math.uiuc.edu/K-theory/0716/))
-
-A review is in section 2 and a generalization in section 5 of
+A proof using different techniques, as well as a generalisation, is in the following paper.
 
 * [[Tobias Barthel]] and [[Emily Riehl]], _On the construction of functorial factorizations for model categories_ ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427))
  {#BarthelRiehl}
+
+A proof was also claimed in the following, but it contains a serious mistake (originating in a paper of Cole) which invalidates the argument; see the above paper of Barthel and Riehl for more. The same mistake appears in other works co-authored by May, including the books with Ponto.
+
+* [[Peter May]] and Johann Sigurdsson, _Parametrized homotopy theory_
+([web](http://www.math.uiuc.edu/K-theory/0716/))
 
 [[!redirects Strøm's model category]]
 [[!redirects Strom's model category]]
