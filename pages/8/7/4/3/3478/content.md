@@ -42,9 +42,12 @@ Is this right?  Do these two definitions correspond in that a [[sober space]] or
 
 ## Examples 
 
-* Any [[CW-complex]] is locally contractible.
+* Any [[CW-complex]] is locally contractible (see [there](CW+complex#CWComplexesAreLocallyContractible)).
+
 * Any [[paracompact space|paracompact]] [[manifold]] is locally contractible.
+
 * Any [[contractible space]] is semi-locally contractible
+
 * The [[cone]] on the [[Hawaiian earring space]] is contractible, hence semi-locally contractible, but is not locally contractible, as any neighbourhood of the 'bad point' is not simply connected.
 
 ## Properties
