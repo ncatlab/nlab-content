@@ -213,7 +213,7 @@ Lecture notes:
 * {#Martins20} [[Yuri Ximenes Martins]], _Introduction to Abstract Homotopy Theory_ ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302))
 
 
-Survey
+Survey:
 
 * [[Klaus Heiner Kamps]], [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_, World Scientific 1997 ([doi:10.1142/2215](https://doi.org/10.1142/2215), [GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
@@ -224,6 +224,10 @@ Survey
 
 
 * [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_, 2019
+
+* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
+
+  > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
 
 The original axiomatization of homotopy theory by [[model categories]] is due to
 
