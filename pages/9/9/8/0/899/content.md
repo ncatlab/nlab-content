@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _topological group_ is a [[topological space]] with a continuous [[group]] structure: a [[group object]] in the [[category]] [[Top]].
+A _topological group_ is a [[topological space]] with a continuous [[group]] structure: a [[group object]] [[internalization|internal to]] the [[category]] [[Top]] of topological spaces and continuous functions between them.
 
 ## Definition
 
@@ -97,7 +97,11 @@ Now for $n \in \mathbb{N}$, write $C_e^n  \subset G$ for the [[image]] of $\unde
 Then 
 
 $$
-  H \coloneqq \underset{n \in \mathbb{N}}{\cup} C_e^n
+  H \coloneqq 
+   \underset
+   {n \in \mathbb{N}}
+   {\cup} 
+  C_e^n
     \;\subset\; 
   G
 $$ 
@@ -172,14 +176,14 @@ $$
    R \colon G \to \mathcal{U}(\mathcal{H})
 $$
 
-where $\mathcal{U}(\mathcal{H})$ is the group of [[unitary operator]]s on $\mathcal{H}$ with respect to the [[strong topology]].
+where [[U(H)|$\mathcal{U}(\mathcal{H})$]] is the group of [[unitary operators]] on $\mathcal{H}$ with respect to the [[strong topology]].
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Here $\mathcal{U}(\mathcal{H})$ is a complete, metrizable topological group in the [[strong topology]], see ([Schottenloher, prop. 3.11](#Schottenloher)).
+Here [[U(H)|$\mathcal{U}(\mathcal{H})$]] is a complete, metrizable topological group in the [[strong topology]], see ([Schottenloher, prop. 3.11](#Schottenloher)).
 
 =--
 
