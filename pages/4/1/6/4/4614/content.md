@@ -160,7 +160,8 @@ $$
 
 =--
 
-A proof appears as ([Lewis, corollary 2.4 (b)](#Lewis)). A generalization of this result to more general topological categories is ([RobertsStevenson, prop. 16](#RobertsStevenson)).
+([Roberts & Stevenson 2012, App. A](#RobertsStevenson), following hints in [Gaunce Lewis 1982](#GaunceLewis82))
+
 
 ### Bisimplicial sets and good resolutions
 
@@ -198,7 +199,7 @@ which is degreewise a weak homotopy equivalence.
 +-- {: .proof}
 ###### Proof
 
-Each space $|Sing X_n|$ is a [[CW-complex]], hence in particular a [[locally equi-connected space]]. By ([Lewis, p. 153](#Lewis)) inclusions of [[retract]]s of locally equi-connected spaces are [[closed cofibration]]s, and since degeneracy maps are retracts, this means that the degeneracy maps in $|Sing X_\bullet|$ are closed cofibrations.
+Each space $|Sing X_n|$ is a [[CW-complex]], hence in particular a [[locally equi-connected space]]. By ([Gaunce Lewis 1982, p. 153](#GaunceLewis82)) inclusions of [[retract]]s of locally equi-connected spaces are [[closed cofibration]]s, and since degeneracy maps are retracts, this means that the degeneracy maps in $|Sing X_\bullet|$ are closed cofibrations.
 
 The second sentence follows directly by the remarks above.
 
@@ -258,7 +259,7 @@ $$
   {\vert({\vert Sing(X_\bullet) \vert})\vert}  \cong {| d Sing(X_\bullet)_\bullet |}
   \,.
 $$
-This also follows from results of ([Lewis](#Lewis)).  Thus, as a resolution of $X_\bullet$, the levelwise realization of the levelwise singular complex ${\vert Sing(X_\bullet) \vert}$ has the pleasant property that its geometric realization, as a simplicial *space*, can be calculated as the realization of a single simplicial *set* (the diagonal of $Sing(X_\bullet)_\bullet$).
+This also follows from results of ([Gaunce Lewis 1982](#GaunceLewis82)).  Thus, as a resolution of $X_\bullet$, the levelwise realization of the levelwise singular complex ${\vert Sing(X_\bullet) \vert}$ has the pleasant property that its geometric realization, as a simplicial *space*, can be calculated as the realization of a single simplicial *set* (the diagonal of $Sing(X_\bullet)_\bullet$).
 
 
 ## Properties
@@ -355,8 +356,7 @@ This appears as ([Segal74, prop. A.1](#Segal)).
 
 ### Relation between fat and ordinary geometric realization
 
-+-- {: .num_prop #FatRealizationOfGoodSimplicialSpaces}
-###### Proposition
+\begin{proposition}\label{FatRealizationOfGoodSimplicialSpaces}
 
 If the simplicial topological space $X_\bullet$ is [good](#GoodAndProper) then the natural morphism from its [fat geometric realization](#FatGeometricRealization) to its [ordinary geometric realization](#GeometricRealization) is a [[homotopy equivalence]]
 
@@ -365,9 +365,9 @@ $$
   \,.
 $$
 
-=--
+\end{proposition}
 
-A direct proof of this (not using that good implies proper) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof using properness is due to [tom Dieck 1974, Prop. 1](#tomDieck74).
+A direct proof of this (not using that [good implies proper](#GoodImpliesProper)) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof, using properness, is due to [tom Dieck 1974, Prop. 1](#tomDieck74).
 
 A recent paper treating the special case where $X_\bullet$ is the nerve of a [[topological category]], and each $X_n$ is of the [[homotopy type]] of a [[CW-complex]], is [Wang 2017](#Wang17), [Wang 18](#Wang18).
 
@@ -602,7 +602,7 @@ where $(D/ -)\colon D \to Cat$ sends each object of $D$ to its [[overcategory]],
 $$ N(D/ -) \otimes_D X_\bullet \to \Delta \otimes_{\Delta} X_\bullet = {|X_\bullet|} $$
 which is also called the **Bousfield-Kan map**.
 
-Since the Str&#248;m model structure is a [[simplicial model category]], standard arguments involving Reedy model structures imply that the Bousfield-Kan map is a Str&#248;m weak equivalence (i.e. a homotopy equivalence) whenever $X$ is Str&#248;m Reedy cofibrant (i.e. proper).  Thus we have:
+Since the Str&#248;m model structure is a [[simplicial model category]], standard arguments involving Reedy model structures imply that the Bousfield-Kan map is a Str&#248;m weak equivalence (i.e. a homotopy equivalence) whenever $X$ is Str&#248;m Reedy cofibrant (i.e. proper).  Thus we have (see also [Arkhipov & Ørsted 2018, Exp. 6.4](#ArkhipovOrsted18)):
 
 +-- {: .num_prop #RealizationOfGoodSimplicialSpacesIsHomotopyColimit}
 ###### Proposition
@@ -1103,6 +1103,9 @@ and the notion of *fat* geometric realization together with its homotopy equival
 
 * {#tomDieck74} [[Tammo tom Dieck]], *On the homotopy type of classifying spaces*, Manuscripta Math 11, 41–49 (1974) ([doi:10.1007/BF01189090](https://doi.org/10.1007/BF01189090))
 
+Discussion of fat geometric realization as representing the [[homotopy colimit]] (as a [[homotopy coend]]):
+
+* {#ArkhipovOrsted18} [[Sergey Arkhipov]], [[Sebastian Ørsted]], Exp. 6.4 in: *Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories* ([arXiv:1807.03266](https://arxiv.org/abs/1807.03266))
     
 
 More discussion of the comparison of different realization functors is in: 
@@ -1114,7 +1117,7 @@ More discussion of the comparison of different realization functors is in:
 
 A proof that good simplicial spaces are proper is implicit in the proof of   [Segal 1974, Lemma A.5](#Segal74). It appears explicitly in
 
-* {#Lewis} [[L. Gaunce Lewis, Jr.]], _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([jstor:1999197](https://www.jstor.org/stable/1999197))
+* {#GaunceLewis82} [[L. Gaunce Lewis, Jr.]], _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([jstor:1999197](https://www.jstor.org/stable/1999197))
 
 A generalization of the statement that good implies proper to other [[topological concrete categories]] and a discussion of the geometric realization of $W G \to \bar W G$ for $G$ a [[simplicial topological group]] is in 
 
