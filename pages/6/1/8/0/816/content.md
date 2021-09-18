@@ -178,7 +178,9 @@ This leads to the classical definition of homotopy limits in $\Simp\Set$-enriche
 
 See for instance also
 
-* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf) or [pdf](http://www.math.unipa.it/%7Engambino/Research/Papers/weighted.pdf))
+*  [[Jean-Marc Cordier]] and [[Timothy Porter]], _Homotopy Coherent Category Theory_, Trans. Amer. Math. Soc. 349 (1997) 1-54, ([pdf](http://www.ams.org/journals/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+
+* [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf) or [pdf](http://www.math.unipa.it/%7Engambino/Research/Papers/weighted.pdf))
 
 In some nice cases the weight $N(K/-)$ can be replaced by a simpler weight; an example is discussed at [[Bousfield-Kan map]].
 
