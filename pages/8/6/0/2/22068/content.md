@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -49,6 +50,13 @@ given by the ordinary [[weighted colimit]] functor.
 The _homotopy weighted colimit_ can then be defined
 as the [[left derived]] [[Quillen bifunctor]] of the weighted colimit functor.
 
+## Related concept
+
+* [[homotopy coend]]
+
+* [[fat geometric realization]]
+
+
 ## References
 
 See Section 9.2 in
@@ -63,7 +71,7 @@ Other references:
 
 * [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_, [arXiv:math/0610194](https://arxiv.org/abs/math/0610194).
 
-* [[Sergey Arkhipov]], [[Sebastian Ørsted]], _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_, [arXiv:1807.03266](https://arxiv.org/abs/1807.03266).
+* [[Sergey Arkhipov]], [[Sebastian Ørsted]], _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_ ([arXiv:1807.03266](https://arxiv.org/abs/1807.03266)).
 
 
 [[!redirects homotopy weighted colimits]]
