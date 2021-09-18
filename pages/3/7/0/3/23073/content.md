@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # Full (unrestricted) comprehension
 
 * table of contents
@@ -6,33 +16,35 @@
 
 ## Idea
 
-The axiom or rule of **full** or **unrestricted comprehension** says that for any property $P$, there exists a set of all objects satisfying $P$:
+In [[mathematical logic]]/[[mathematical foundations]], the [[axiom]] or rule of **full** or **unrestricted comprehension** says that for any property $P$, there exists a [[set]] of all objects satisfying $P$:
 
 $$ \{ x \mid P(x) \}. $$
 
-[[set theory|Set theory]] with the unrestricted comprehension rule is called [[naive set theory]], and is inconsistent due to [[Russell's paradox]] and [[Curry's paradox]].  Here we mention several approaches to this issue.
+[[set theory|Set theory]] with the unrestricted [[comprehension]] rule is called [[naive set theory]], and is inconsistent due to [[Russell's paradox]] and [[Curry's paradox]].  Here we mention several approaches to this issue.
 
 ## Restricted comprehension
 
-Standard set theories such as [[ZFC]] avoid this paradox by replacing unrestricted comprehension with the [[axiom scheme of separation]] (or "restricted comprehension"), which restrictes $x$ to lie in some previously specified set $X$.
+Standard [[set theories]] such as [[ZFC]] avoid this [[paradox]] by replacing unrestricted comprehension with the [[axiom scheme of separation]] (or "restricted comprehension"), which restrictes $x$ to lie in some previously specified set $X$.
 
 ## Stratified comprehension
 
-Set theories such as [[New Foundations]] instead replace comprehension by a rule of "stratified comprehension".  This permits a "set of all sets" but still appears to avoid paradox.
+Set theories such as [[New Foundations]] instead replace comprehension by a rule of "stratified comprehension".  This permits a "[[set of all sets]]" but still appears to avoid paradox.
 
 ## Substructural logics
 
-It is also possible to retain full comprehension but avoid paradox by modifying the ambient logic.  Passing to [[constructive logic]] doesn't help, and indeed the root issue has nothing to do with [[negation]] as such, since Curry's paradox can be stated without any negation.  One might think that [[paraconsistent logic]] would help, but many paraconsistent logics are still vulnerable to Curry's paradox.  Perhaps the most obvious culprit is the [[contraction rule]], and indeed [[linear logic]] (including some paraconsistent logics) can admit a full comprehension rule without explosion.
+It is also possible to retain full comprehension but avoid paradox by modifying the ambient logic.  Passing to [[constructive logic]] doesn't help, and indeed the root issue has nothing to do with [[negation]] as such, since [[Curry's paradox]] can be stated without any [[negation]].  One might think that [[paraconsistent logic]] would help, but many paraconsistent logics are still vulnerable to Curry's paradox.  Perhaps the most obvious culprit is the [[contraction rule]], and indeed [[linear logic]] (including some paraconsistent logics) can admit a full comprehension rule without explosion.
 
 ## Normal logics
 
 Another possibility is to keep the contraction rule but restrict the use of the [[cut rule]].  It is not necessary to forbid all uses of cut, since many cuts can be normalized or eliminated.  Indeed, in ordinary consistent logic, *all* cuts can be eliminated; but in the presence of full comprehension they cannot all be.  Thus, another way to avoid paradox with full comprehension is to permit only proofs that can be normalized.
 
-Note that unlike a restriction on contraction, this is a "global" restriction: the proofs of two lemmas can independently be valid, but their combination may no longer be so.  Similar "global" restrictions on logic were investigated by Fitch.
+Note that unlike a restriction on contraction, this is a "global" restriction: the proofs of two lemmas can independently be valid, but their combination may no longer be so.  Similar "global" restrictions on logic were investigated by [Fitch 1953](#Fitch52), [69](#Fitch69).
 
 ## References
 
 ### In linear logic
+
+In [[linear logic]]:
 
 * Grishin, V. N., "Predicate and set theoretic calculi based on logic without contraction rules" (Russian), _Izvestiya Akademii Nauk SSSR Seriya Matematicheskaya_, 45(1): 47 &#8211; 68, 1981. English translation in Math. USSR Izv., 18(1): 41 &#8211; 59, 1982. ([math-net.ru](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=1547&option_lang=eng))
 
@@ -44,9 +56,9 @@ Note that unlike a restriction on contraction, this is a "global" restriction: t
 
 Several global restrictions were considered in
 
-* [[Frederic Fitch]], *Symbolic Logic: An introduction*, 1952
+* {#Fitch52} [[Frederic Fitch]], *Symbolic Logic: An introduction*, Ronald Press, New York 1952
 
-* [[Frederic Fitch]], *A method for avoiding the Curry paradox*, in *Essays in Honor of Carl G. Hempel*, Reidel, Dordrecht, Holland 1969, pp. 255--265.
+* {#Fitch69} [[Frederic Fitch]], *A method for avoiding the Curry paradox*, in *Essays in Honor of Carl G. Hempel*, Reidel, Dordrecht, Holland 1969, pp. 255--265 ([doi:10.1007/978-94-017-1466-2](https://link.springer.com/book/10.1007/978-94-017-1466-2))
 
 The notation therein is somewhat difficult to follow for a modern reader, especially due to the somewhat confused treatment of what nowadays would be called free and bound variables.  A more modern explanation of Fitch's restrictions can be found in:
 
