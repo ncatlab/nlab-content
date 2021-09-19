@@ -475,7 +475,7 @@ The [[product]] of two closed cofibrations is a closed cofibration.
 \begin{example}\label{RelativeCWComplexes}
   Any [[relative CW complex]]-inclusion is an h-cofibration.
 \end{example}
-Proofs may be found spelled out in: [Bredon 1993, Cor. I.4 on p. 431](#Bredon93), [Félix, Halperin & Thomas 2000, Prop. 1.9](rational+homotopy+theopry#FelixHalperinThomas00), [Mathew 2010](#Mathew10)
+Proofs may be found spelled out in: [Bredon 1993, Cor. I.4 on p. 431](#Bredon93), [Félix, Halperin & Thomas 2000, Prop. 1.9](rational+homotopy+theopry#FelixHalperinThomas00), [Mathew 2010b](#Mathew10b)
 
 More generally, every [[retract]] of a [[relative cell complex]] inclusion is a closed Hurewicz cofibration. 
 
@@ -527,7 +527,9 @@ Lecture notes:
 
 Exposition:
 
-* {#Mathew10} [[Akhil Mathew]], *Examples of cofibrations*, 2010 ([web](https://amathew.wordpress.com/2010/10/08/examples-of-cofibrations/))
+* {#Mathew10a} [[Akhil Mathew]], *Cofibrations*, 2010 ([web](https://amathew.wordpress.com/2010/10/07/cofibrations/))
+
+* {#Mathew10b} [[Akhil Mathew]], *Examples of cofibrations*, 2010 ([web](https://amathew.wordpress.com/2010/10/08/examples-of-cofibrations/))
 
 The fact that morphisms of fibrant pullback diagrams along closed cofibrations induce closed cofibrations is in
 
