@@ -14,6 +14,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -286,9 +287,9 @@ An early account of enriched categories (perhaps the earliest) is given by:
 
 * [[J.-M. Maranda]], *Formal categories*, Vol. 17 of Canadian Journal of Mathematics 1965, pp. 758--801 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf))
 
-Enrichment in a multicategory was first suggested in:
+Enrichment in a [[multicategory]] was first suggested in:
 
-* [[J. Lambek]], *Deductive Systems and Categories II: Standard constructions and closed categories*, Springer 1969, p. 106
+* {#Lambek69} [[Joachim Lambek]], *Deductive Systems and Categories II: Standard constructions and closed categories*,  In: [[Peter Hilton]] (eds.) *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86** Springer 1969 ([doi:10.1007/BFb0079385](https://doi.org/10.1007/BFb0079385), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0079385.pdf))
 
 Textbook accounts:
 
