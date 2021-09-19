@@ -68,6 +68,10 @@ Survey, examples, and implementations:
 
 * Qiskit, *[Defining Quantum Circuits](https://qiskit.org/textbook/ch-algorithms/defining-quantum-circuits.html)*
 
+* {#SKQHackathon20} [South Korea Qiskit Hackathon'20 - Qiskit Metal exercise](https://qiskit.org/documentation/metal/circuit-examples/full-design-flow-examples/Exercise-for-the-South-Korea-Hackathon'20.html)
+
+  > (tutorial for a 2-[[qbit]] quantum chip using Qiskit)
+
 * Microsof Build, *[Quantum circuit diagrams](https://docs.microsoft.com/en-us/azure/quantum/concepts-circuits)*
 
 * Vladimir P. Gerdt, Alexander N. Prokopenya, *The Circuit Model of Quantum Computation and Its Simulation with Mathematica*, In: Adam G., Buša J., Hnatič M. (eds.) *Mathematical Modeling and Computational Science* MMCP 2011. Lecture Notes in Computer Science, vol 7125. Springer 2011 ([doi:10.1007/978-3-642-28212-6_4](https://doi.org/10.1007/978-3-642-28212-6_4))
