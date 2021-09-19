@@ -15,7 +15,7 @@
 
 ## Idea 
 
-What is called _the line with two origins_ is the [[topological space]] which results by "gluing" a copy of the real line identically to itself, except at the origin. This is a basic example of a [[non-Hausdorff topological space]] (even a non-Hausdorff [[smooth manifold]]) and of the fact that [[quotient topological spaces]] of [[Hausdorff topological spaces]] need not be Hausdorff themselves.
+What is called _the line with two origins_ is the [[topological space]] which results by "gluing" a copy of the [[real line]] identically to itself, except at the origin. This is a basic example of a [[non-Hausdorff topological space]] (even a non-Hausdorff [[smooth manifold]]) and of the fact that [[quotient topological spaces]] of [[Hausdorff topological spaces]] need not be Hausdorff themselves.
 
 
 ## Definition
@@ -28,21 +28,21 @@ $$
     x_i \sim y_j
   \right)
    \;\Leftrightarrow\;
-  \left(
+  \Big(
     \left(
       x = y
     \right)
     \,\text{and}\,
-    \left(
-      \left(
+    \big(
+      (
         x \neq 0
-      \right)
+      )
       \,\text{or}\,
-      \left(
+      (
         i = j
-      \right)
-    \right)
-  \right)
+      )
+    \big)
+  \Big)
   \,.
 $$
 
@@ -108,7 +108,7 @@ $$
   \mathbb{R}
 $$
 
-However, it is [[T1]] and [[sober space|sober]].
+However, the line with two origins is [[T1]] and [[sober space|sober]].
 
 It is also a [[topological manifold]], even a [[smooth manifold]], except that one often requires such to be Hausdorff to rule out examples such as this.  In a similar vein, it is [[locally compact space|locally compact]] (and a [[compact space|compact]] version can be made by starting with $[{-1,1}]$ instead of $\mathbb{R}$), [[paracompact space|paracompact]], and so forth.
 
