@@ -24,6 +24,13 @@ The [[projective unitary group]] on an infinite-dimensional [[separable Hilbert 
 
 ## Properties
 
+### General
+
+\begin{prop}\label{WellPointedInOperatorTopology}
+  In its [[operator topology]] ([[U(ℋ)#WithOperatorTopology|here]]), $PU(\mathcal{H})$ is a [[well-pointed topological group]].
+\end{prop}
+([Hebestreit & Sagave 2020, p. 23](#HebestreitSagave19), using [Dardalat & Pennig 2016, Prop. 2.26](twisted+K-theory#DardalatPennig16))
+
 ### Nearby homomorphisms into $PU(\mathcal{H})$ are conjugate
 
 Since $\Gamma \,\coloneqq\,$ [[PU(ℋ)]] is not a (finite-dimensional) [[Lie group]], it falls outside the applicability of the general theorem that [[nearby homomorphisms from compact Lie groups are conjugate]]. 
@@ -43,13 +50,19 @@ Nevertheless, the conclusion still holds, at least for [[domain]] $G$ a [[discre
 
 ## Literature
 
+General discussion:
+
 * [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
 
 * {#UribeLueck13} [[Bernardo Uribe]], [[Wolfgang Lück]], Section 15 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
-
 * [[Jesus Espinoza]], [[Bernardo Uribe]], *Topological properties of spaces of projective unitary representations*, Rev. Acad. Colombiana Cienc. Exact. Fís. Natur. 40 (2016), no. 155, 337-352 ([arXiv:1511.06785](https://arxiv.org/abs/1511.06785), [scielo:S0370-39082016000200013](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0370-39082016000200013), [doi:10.18257/raccefyn.317](https://doi.org/10.18257/raccefyn.317))
+
+Concerning well-pointedness:
+
+* {#HebestreitSagave19} [[Fabian Hebestreit]], [[Steffen Sagave]], *Homotopical and operator algebraic twisted K-theory*, Mathematische Annalen **378** (2020) 1021-1059 ([arXiv:1904.01872](https://arxiv.org/abs/1904.01872), [doi:10.1007/s00208-020-02066-6](https://doi.org/10.1007/s00208-020-02066-6))
+
 
 [[!redirects PU(H)]]
 
-
+[[!redirects projective unitary group on a Hilbert space]]
