@@ -53,7 +53,7 @@ The "local" [[topological properties]] of Euclidean space are inherited by local
 
 +-- {: .num_prop #LocalPropertiesOfLocallyEuclideanSpace}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]], [[locally connected topological space|locally connected]], [[locally compact topological space|locally compact]])**
+**([[locally Euclidean spaces]] are [[T1|$T_1$]]-[[separation axiom|separated]], [[sober topological space|sober]], [[locally connected topological space|locally connected]], [[locally compact topological space|locally compact]])**
 
 Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then
 
@@ -84,11 +84,10 @@ $$
   Cl(\{-\}) \;\colon\; X \to IrrClSub(X)
 $$
 
-that sends points to the [[topological closure]] of their singleton sets is a [[bijection]] with the set of [[irreducible closed subsets]]. By the first statement above the map is [[injective function|injective]] (via [this lemma](separation+axioms#T1InTermsOfClosureOfPoints)).
-
+that sends points to the [[topological closure]] of their [[singleton sets]] is a [[bijection]] with the set of [[irreducible closed subsets]]. By the first statement above the map is [[injective function|injective]] (via [this lemma](separation+axioms#T1InTermsOfClosureOfPoints)).
 Hence it remains to see that every irreducible closed subset is the topological closure of a singleton. We will show something stronger: every irreducible closed subset is a singleton.
 
-Let $P \subset X$ be an open proper subset such that if there are two open subsets $U_1, U_2 \subset X$ with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$. By [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) we need to show that there exists a point $x \in X$ such that $P = X \setminus \{x\}$ it its [[complement]].
+So let $P \subset X$ be an open proper subset such that if there are two open subsets $U_1, U_2 \subset X$ with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$. By [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) we need to show that there exists a point $x \in X$ such that $P = X \setminus \{x\}$ it its [[complement]].
 
 Now since $P \subset X$ is a proper subset, and since the locally Euclidean space $X$ is covered by Euclidean neighbourhoods, there exists a Euclidean neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ such that $P \cap U \subset U$ is a proper subset. In fact this still satisfies the condition that for $U_1, U_2 \underset{\text{open}}{\subset} U$ then $U_1 \cap U_2 \subset P \cap U$ implies $U_1 \subset P \cap U$ or $U_2 \subset P \cap U$. Accordingly, by [that prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) it follows that $\mathbb{R}^n \setminus \phi^{-1}(P \cap U)$ is an irreducible closed subset of [[Euclidean space]]. Sine [[metric spaces]] are [[sober topological space]] as well as $T_1$-[[separation axiom|separated]], this means that there exists $x \in \mathbb{R}^n$ such that $\phi^{-1}(P \cap U) = \mathbb{R}^n \setminus \{x\}$.
 
