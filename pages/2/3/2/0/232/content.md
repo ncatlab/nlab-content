@@ -286,6 +286,10 @@ An early account of enriched categories (perhaps the earliest) is given by:
 
 * [[J.-M. Maranda]], *Formal categories*, Vol. 17 of Canadian Journal of Mathematics 1965, pp. 758--801 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf))
 
+Enrichment in a multicategory was first suggested in:
+
+* [[J. Lambek]], *Deductive Systems and Categories II: Standard constructions and closed categories*, Springer 1969, p. 106
+
 Textbook accounts:
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp. ([ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)); 
