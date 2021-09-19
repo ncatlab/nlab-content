@@ -33,7 +33,7 @@ A key property of well-pointed topological groups (in the [[convenient category 
 \begin{example}\label{ParacompactBanachManifoldsAreWellPointed}
   Every [[locally Euclidean topological space|locally Euclidean]] [[Hausdorff space]] is well-pointed, in particular every [[topological manifold]] is well pointed. In fact, every [[paracompact topological space|paracompact]] [[Banach manifold]] is well-pointed.
 \end{example}
-(Immediate by the discussion of [examples of Hurwicz cofibrations](Hurewicz+cofibration#Examples)).
+(Immediate by the discussion of [examples of Hurewicz cofibrations](Hurewicz+cofibration#Examples)).
 
 \begin{example}\label{PointInclusionIntoPUH}
 **(the [[projective unitary group]] [[PU(ℋ)]])**
