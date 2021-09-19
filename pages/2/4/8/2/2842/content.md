@@ -481,22 +481,32 @@ More generally, every [[retract]] of a [[relative cell complex]] inclusion is a 
 
 This is part of the statement of the [[Quillen adjunction]] between then [[classical model structure on topological spaces]] and the [[Strøm model structure]] (see [below](#StromModelStructure)).
 
-### Closed points in locally Euclidean spaces
+### Points in locally Euclidean Hausdorff spaces
  {#BasepointsInLocallyEuclideanSpaces}
 
 \begin{proposition}
-  Any [[point]]-inclusion into a ([[finite number|finite]]-[[dimension of a manifold|dimensional]]) [[locally Euclidean space|locally Euclidean]] [[Hausdorff space]] $X$ is an h-cofibration.
+  Any [[point]]-inclusion into a ([[finite number|finite]]-[[dimension of a manifold|dimensional]]) [[locally Euclidean space|locally Euclidean]] [[Hausdorff space]] (e.g. a [[topological manifold]]) is an h-cofibration.
 \end{proposition}
-\begin{proof}
+\begin{proof}\label{ProofThatPointInclusionsInLocallyEuclideanHausdorffSpacesArehCofibs}
 By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]] $U$ which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$. Now let:
 
-* $K \;\coloneqq\; B_\epsilon(1)$ be the (compact) [[closed ball]] in $\mathbb{R}^n$ of unit [[radius]];
+* $\epsilon \,\in\, (0,\epsilon)$ be a [[positive number|positive]] [[real number]];
 
-* $\phi\colon X\to[0,1]$ be given by $x\mapsto\min\{\| x\| ,1\}$ on $U$ (so that $\phi|_{U}$ is continuous) and $x\mapsto 1$ on $X\setminus U$ (so that $\phi|_{X\setminus K}$ is continuous — and hence $\phi$, by the [[sheaf]] property).
+* $K \;\coloneqq\; B_{\leq 1}(0)$ the [[closed ball]] (hence [[compact space|compact]] by [[Heine-Borel theorem|Heine-Borel]]) around the origin in $\mathbb{R}^n$ of unit [[radius]];
+
+* $U \;\coloneqq\; B_{\lt 1 + \epsilon}(0)$ the [[open ball]] around the origin of [[radius]] $1 + \epsilon$;
+
+* $\phi \colon X \to[0,1]$ be given by 
+
+  1. $x \mapsto min\big( \| x\|, 1 \big)$ on $U$ (the [[distance]] from the origin cut off at 1),
+
+  1. $x \mapsto 1$ on the [[complement]] $X \setminus K$.
+
+  It is manifest that this is a well defined function and that the [[restrictions]] $\phi|_{U}$ and $\phi|_{X\setminus K}$ are [[continuous functions]]. Moreover, since [[compact subspaces of Hausdorff spaces are closed]], $X \setminus K$ is [[open subset|open]] and $\big\{ U ,\, X \setminus K \big\}$ is an [[open cover]] of $X$. Therefore (by the [[sheaf]]-property of continuous functions), $\phi$ is continuous on all of $X$. 
 
 * $\eta \colon (\vec x, t) \mapsto (1-t)\cdot \vec x$.
 
-It is immediate to see that this data satisfies the conditions discussed in Prop. \ref{CharactrerizationViaNeighbourhoodDeformation}. Since every point in a [[Hausdorff space]] is [[closed point|closed]], that proposition applies and implies the claim.
+It is immediate to see that this data satisfies the conditions discussed in Prop. \ref{CharactrerizationViaNeighbourhoodDeformation}. Since [[Hausdorff spaces]] are [[T1|$T_1$]],  so that all of their points are [[closed point|closed]], that proposition applies and implies the claim.
 \end{proof}
 
 
