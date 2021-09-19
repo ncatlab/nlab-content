@@ -179,7 +179,7 @@ A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is cal
 ## Properties
 
 
-### Closedness
+### (Non-)Closed images
  {#Closedness}
 
 \begin{prop}
@@ -200,7 +200,7 @@ But in the plain category [[Top]] of all topological spaces there are pathologic
 \begin{example}
 Let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\varnothing$ are [[open subsets]] of $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration. 
 \end{example}
-([Strøm 1955, p. 5](#Strom66))
+([Strøm 1966, p. 5](#Strom66))
 
 
 ### Characterization for closed subspace inclusions
@@ -260,7 +260,7 @@ When the [[image]] of a Hurewicz cofibration is a [[closed subspace]] -- which i
 
 
 \end{proposition}
-(e.g. [May 1999, Sec. 6.4, p. 45 (53 of 251)](#May99); [Gutiérrez, Prop. 8.3](#Gutierrez))
+([Strøm 1968 Thm. 2](#Strom68); review in [May 1999, Sec. 6.4, p. 45 (53 of 251)](#May99); [Gutiérrez, Prop. 8.3](#Gutierrez))
 
 
 \begin{example}\label{KifiedProductsOfCofibrationsWithCompactlyGeneratedSpaces}
@@ -395,6 +395,121 @@ and in fact such that only $A$ is the [[preimage]] of zero: $A \,=\, \phi^{-1}(\
 (This is due to [Strøm 1966, Thm. 2](#Strom66); recalled, e.g., in [Bredon 1993, Thm. 1.5 on p. 431](#Bredon93))
 
 
+### Interaction with (fiber) producs
+ {#InteractionWithFiberProducts}
+
+\begin{prop}\label{CrossedUnionOfhCofsIshCof}
+  If 
+
+  $$
+    \array{
+      A_1 
+      & &
+      A_2
+      \\
+      \big\downarrow {}^{\mathrlap{i_1}}
+      & , &
+      \big\downarrow {}^{\mathrlap{i_2}}
+      \\
+      X_1 
+      & &
+      X_2
+    }
+  $$
+
+  is a [[pair]] of Hurewicz cofibrations, with $i_1(A_1) \underset{clsd}{\subset} X_1$ [[closed subspace|closed]], then the inclusion 
+
+  $$
+    \array{
+      A_1 \times X_2 
+      \;\cup\;
+      X_1 \times A_2
+      \\
+      \big\downarrow
+      \\
+      X_1 \times X_2
+    }
+  $$
+
+  into the [[product space]] of the [[codomains]]
+  is itself a Hurewicz cofibration.
+  
+\end{prop}
+([Strøm 1968, Thm. 6](#Strom68))
+
+
+\begin{proposition}\label{FiberProductPreserveshCofibrations}
+**([[fiber product]] of [[Hurewicz fibrations]] preserves [[Hurewicz cofibrations]])**
+\linebreak
+Let
+
+$$
+  \array{
+     X_0 &\hookrightarrow & X
+     \\
+     {}^{\mathllap{p_0}}\downarrow && \downarrow^{\mathrlap{p}}
+     \\ 
+     B_0 &\hookrightarrow& B
+     \\
+     \uparrow && \uparrow
+     \\
+     E_0 &\hookrightarrow& E
+  }
+$$
+
+be a [[commuting diagram]] of [[topological spaces]] such that
+
+* the horizontal morphisms are closed cofibrations;
+
+* the morphisms $p_0$ and $p$ are [[Hurewicz fibrations]].
+
+Then the induced morphism on [[fiber products]] 
+
+$$
+  X_0 \times_{B_0} E_0 \hookrightarrow X \times_B E
+$$ 
+
+is also a closed cofibration.
+\end{proposition}
+([Kieboom 1987, Thm. 1](#Kieboom87)).
+
+\begin{corollary}
+**([[Cartesian product]] preserves [[Hurewicz cofibrations]])**
+\linebreak
+If 
+
+  $$
+    \array{
+      A_1 
+      & &
+      A_2
+      \\
+      \big\downarrow {}^{\mathrlap{i_1}}
+      & , &
+      \big\downarrow {}^{\mathrlap{i_2}}
+      \\
+      X_1 
+      & &
+      X_2
+    }
+  $$
+
+is a [[pair]] of Hurewicz cofibrations, then their image under the [[product]] functor is, too:
+
+$$
+  \array{
+    A_1 \times A_2
+    \\
+    \big\downarrow
+    \\
+    X_1 \times X_2
+  }
+$$
+
+\end{corollary}
+\begin{proof}
+  This is the special case of Prop. \ref{FiberProductPreserveshCofibrations} for $B$ and $B_0$ being the [[point space]]
+\end{proof}
 
 
 ### Str&#248;m's model structure
@@ -422,51 +537,6 @@ $$
 This means in particular that any  [[retract]] of a  [[relative cell complex]] inclusion is a closed Hurewicz cofibration.
 
 
-### Interaction with pullbacks
- {#InteractionWithPullbacks}
-
-+-- {: .num_theorem}
-###### Theorem
-
-Let
-
-$$
-  \array{
-     X_0 &\hookrightarrow & X
-     \\
-     {}^{\mathllap{p_0}}\downarrow && \downarrow^{\mathrlap{p}}
-     \\ 
-     B_0 &\hookrightarrow& B
-     \\
-     \uparrow && \uparrow
-     \\
-     E_0 &\hookrightarrow& E
-  }
-$$
-
-be a [[commuting diagram]] of [[topological spaces]] such that
-
-* the horizontal morphisms are closed cofibrations;
-
-* the morphisms $p_0$ and $p$ are [[Hurewicz fibrations]].
-
-Then the induced morphism on [[pullbacks]] is also a closed cofibration
-
-$$
-  X_0 \times_{B_0} E_0 \hookrightarrow X \times_B E
-  \,.
-$$ 
-
-=--
-
-This is stated and proven in ([Kieboom](#Kieboom)).
-
-+-- {: .num_cor}
-###### Corollary
-
-The [[product]] of two closed cofibrations is a closed cofibration.
-
-=--
 
 ## Examples
  {#Examples}
@@ -596,7 +666,7 @@ Exposition:
 
 The fact that morphisms of fibrant pullback diagrams along closed cofibrations induce closed cofibrations is in
 
-* {#Kieboom} [[Rudger Kieboom]], _A pullback theorem for cofibrations_, Manuscripta Math **58** (1987) pp 381–384, doi:[10.1007/BF01165895](https://doi.org/10.1007/BF01165895)
+* {#Kieboom87} [[Rudger Kieboom]], _A pullback theorem for cofibrations_, Manuscripta Math **58** (1987) pp 381–384 ([doi:10.1007/BF01165895](https://doi.org/10.1007/BF01165895))
 
 The terminology "h-cofibration" is due to:
 
