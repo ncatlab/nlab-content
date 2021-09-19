@@ -121,13 +121,11 @@ But this is not so, Hausdorffness is a "non-local condition".
 
 =--
 
-+-- {: .num_example #NonHausdorffManifolds}
-###### Nonexample
-**([[non-Hausdorff locally Euclidean spaces]])**
-
+\begin{example}\label{NonHausdorffManifolds}
+counter-example: **([[non-Hausdorff locally Euclidean spaces]])**
+\linebreak
 An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is a [[non-Hausdorff topological space]], is the [[line with two origins]].
-
-=--
+\end{example}
 
 +-- {: .num_lemma #PathConnectedFromConnectedLocallyEuclideanSpace}
 ###### Lemma
