@@ -49,7 +49,7 @@ so $g(a)$ is a fixed point of $n$.
 
 The presence of the diagonal map $\Delta_S$ here explains why this proof is called the _diagonal argument_.  (This explanation is anachronistic but morally correct.) Lawvere's proof also explains (in fact generalizes) the $Y$&#8209; or [[fixed-point combinator]] in [[untyped lambda-calculus]], where $Y(n)$ is a fixed-point for any term $n$. 
 
-It immediately follows (even constructively) that if $V$ has a [[self-mapping]] with no fixed point, then no map from $S$ to $S \to V$ can be a surjection.  In fact, we have something slightly stronger than (but classically equivalent to) the failure of $f$ to be a surjection: there actually exists an element $g$ of $S \to V$ that is not equal to any value in the range of $f$.  (If $V$ has an [[apartness relation]], then you can get an even stronger result for a correspondingly stronger hypothesis on $n$, but that doesn\'t apply to the versions below.)
+It immediately follows (even constructively) that if $V$ has a [[self-mapping]] with no fixed point (such a map is sometimes called a *derangement*), then no map from $S$ to $S \to V$ can be a surjection.  In fact, we have something slightly stronger than (but classically equivalent to) the failure of $f$ to be a surjection: there actually exists an element $g$ of $S \to V$ that is not equal to any value in the range of $f$.  (If $V$ has an [[apartness relation]], then you can get an even stronger result for a correspondingly stronger hypothesis on $n$, but that doesn\'t apply to the versions below.)
 
 +-- {: .num_theorem #cantor}
 ###### Theorem
