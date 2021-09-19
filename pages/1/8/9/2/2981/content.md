@@ -159,7 +159,7 @@ Beware that a proof was also claimed in
 
 * [[Peter May|May]], [[Johann Sigurdsson]], *[[Parametrized Homotopy Theory]]*, 
 
-but this contains a serious mistake originating in a paper of Cole (noticed by [[Richard Williamson]]) which invalidates the argument; see [Barthel & Riehl, p. 2](#BarthelRiehl) for more. The same mistake appears in other works co-authored by May, including the books with Ponto.
+but this contains a serious mistake originating in a paper of Cole (noticed by [[Richard Williamson]]) which invalidates the argument; see [Barthel & Riehl, p. 2 and Rem 5.12 and Sec. 6.1](#BarthelRiehl) for more. The same mistake appears in other works co-authored by May, including the books with Ponto.
 
 
 [[!redirects Strøm's model category]]
