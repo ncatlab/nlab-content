@@ -192,7 +192,10 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 ### General
  {#PropertiesGeneral}
 
-* a [[closed subspace]] of a paracompact topological space is itself paracompact (e.g. [here](https://www.uio.no/studier/emner/matnat/math/MAT4520/v17/beskjeder/para.pdf#page=1));
+\begin{proposition}\label{ClosedSubspacesOfParacompactsAreParacompact}
+A [[closed subspace]] of a [[paracompact topological space]] is itself paracompact.
+\end{proposition}
+(e.g. [here](https://www.uio.no/studier/emner/matnat/math/MAT4520/v17/beskjeder/para.pdf#page=1));
 
 * __Dieudonne's theorem__: [[paracompact Hausdorff spaces are normal]] 
 
