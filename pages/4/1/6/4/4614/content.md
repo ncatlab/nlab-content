@@ -1210,7 +1210,9 @@ On geometric realizations of [[topological stacks]]:
 
 [[!redirects geometric realization of a simplicial space]]
 [[!redirects geometric realization of a simplicial topological space]]
+
 [[!redirects geometric realization of simplicial spaces]]
+
 [[!redirects fat geometric realization of simplicial spaces]]
 [[!redirects fat geometric realization of simplicial topological spaces]]
 [[!redirects fat geometric realization of a simplicial space]]
@@ -1219,7 +1221,13 @@ On geometric realizations of [[topological stacks]]:
 [[!redirects fat realization]]
 
 
+[[!redirects topological realization of simplicial topological spaces]]
+[[!redirects topological realizations of simplicial topological spaces]]
+
+
 [[!redirects geometric realization of topological stacks]]
 [[!redirects geometric realizations of topological stacks]]
+
+
 
 
