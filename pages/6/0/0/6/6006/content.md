@@ -39,7 +39,22 @@ A survey is in the slides
 
 * [[Peter May]], _What are parameterized spectra good for?_ ([pdf slides](http://www.math.uchicago.edu/~may/TALKS/MichiganPrint.pdf)) 
 
-One application is [[twisted cohomology]]: instead of cocycles given by maps $X \to A$, twisted cocycles are given by [[section]]s $X \to P$ of a bundle $P \to X$ of spectra over $X$.
+## Subtleties
+ {#Subtleties}
+
+Beware that section 4.4 claims a new proof of the [[Strøm model structure]], but relying on a statement in 
+
+* [[Michael Cole]], *Many homotopy categories are homotopy categories*, Topology and its Applications 153 (2006) 1084–1099 ([doi:10.1016/j.topol.2005.02.006](https://doi.org/10.1016/j.topol.2005.02.006))
+
+which later was noticed to be false, by [[Richard Williamson]], for details see p. 2 and Rem 5.12 and Sec. 6.1 in:
+
+* {#BarthelRiehl13} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089), [euclid:agt/1513715550](https://projecteuclid.org/euclid.agt/1513715550))
+ 
+
+
+## Applications
+
+One application is [[twisted cohomology]]: instead of cocycles given by maps $X \to A$, twisted cocycles are given by [[sections]] $X \to P$ of a bundle $P \to X$ of spectra over $X$.
 
 A discussion of some of these issues using tools from [[(infinity,1)-category theory]] are in 
 
