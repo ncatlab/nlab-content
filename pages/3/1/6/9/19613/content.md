@@ -1,11 +1,14 @@
 [[!redirects N. H. Kuiper]]
 
-
-##Nicolaas Kuiper
-
 * [wikipedia page](https://en.wikipedia.org/wiki/Nicolaas_Kuiper)
 
-##Selected writings:
+
+## Selected writings:
+
+Proof of [[Kuiper's theorem]] (that [[U(ℋ)]] is [[contractible]] in the [norm topology](UH#NormTopology)):
+
+* {#Kuiper64} [[Nicolaas Kuiper]], *Contractibility of the unitary group in Hilbert space*, Topology, 3, 19-30 (1964)
+
 
 On [[microbundles]]:
 
