@@ -23,7 +23,7 @@
 ###### Proposition
 **(Arnold-Kuiper-Massey theorem)**
 
-The [[4-sphere]] is the [[quotient space]] of the [[complex projective plane]] by the [[finite group of order 2|O(1)]]-[[action]] on homogeneous coordinates by [[complex conjugation]]:
+The [[4-sphere]] is the [[quotient space]] of the [[complex projective plane]] by the [[finite group of order 2|O(1)]]-[[action]] by [[complex conjugation]] (on homogeneous coordinates):
 
 $$
   \mathbb{C}P^2 /  \mathrm{O}(1)
@@ -111,7 +111,7 @@ and independently due to
 
 Another proof of these cases and further generalization to the [[13-sphere]] being an [[Sp(1)]]-quotient of the [[octonionic projective plane]]:
 
-* {#AtiyahBerndt02} [[Michael Atiyah]], [[Jürgen Berndt]], in:  Surv. Differ. Geom. VIII, Papers in Honor of Calabi, Lawson, Siu and Uhlenbeck (International Press, Somerville, MA, 2003) 1-27 ([arXiv:math/0206135](https://arxiv.org/abs/math/0206135), [doi:10.4310/SDG.2003.v8.n1.a1](https://dx.doi.org/10.4310/SDG.2003.v8.n1.a1))
+* {#AtiyahBerndt02} [[Michael Atiyah]], [[Jürgen Berndt]], *Projective planes, Severi varieties and spheres*, in:  Surv. Differ. Geom. VIII, Papers in Honor of Calabi, Lawson, Siu and Uhlenbeck (International Press, Somerville, MA, 2003) 1-27 ([arXiv:math/0206135](https://arxiv.org/abs/math/0206135), [doi:10.4310/SDG.2003.v8.n1.a1](https://dx.doi.org/10.4310/SDG.2003.v8.n1.a1))
 
 
 [[!redirects AKM theorem]]
