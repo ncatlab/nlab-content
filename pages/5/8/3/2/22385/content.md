@@ -1,5 +1,26 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+
+=--
+=--
+=--
+=--
 
 # Setoids
+* table of contents
+{: toc}
+
 
 ## Idea
 
