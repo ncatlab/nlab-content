@@ -61,6 +61,8 @@ Another variant with strong links with category theory is that of [[inverse semi
 
 ## Examples
 
+* A left or right [[ideal in a monoid|ideal of a monoid ]] $M$ is a subsemigroup of $M$ and is only a submonoid if it contains the unit in which case it is $M$  itself. A monoid $M$ induces the [[topos]] of its right [[action]]s on sets - its right [[M-Set]] $= Set^{M^op}$. The set of all of $M$'s right ideals corresponds to the elements of  the [[subobject classifier|truth value object]], $\Omega$, of this topos. The analogous construction holds for left M-Sets  $= Set^{M}$ .
+
 * The natural numbers with a binary operation $(-) +_n (-):\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ inductively defined as $0 +_n 0 = n$, $S(x) +_n y = S(x +_n y)$, and $x +_n S(y) = S(x +_n y)$ for all $x,y:\mathbb{N}$ is a commutative semigroup for all $n:\mathbb{N}$. 
 
 ## Internalization 
