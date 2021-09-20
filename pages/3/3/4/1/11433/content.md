@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -163,6 +164,8 @@ $$
 
 ## References
 
+* [[Robert Loren Jaffe]], *Natural Units and the Scales of Fundamental Physics*, Course Notes 2007 ([pdf](https://stuff.mit.edu/afs/athena/course/8/8.06/spring08/handouts/units.pdf), [[Jaffe_NaturalUnits.pdf:file]])
+
 Discussion in the context of [[philosophy of science]] includes
 
 * [[Georg Hegel]], [Book I, third section, first chapter](Science+of+Logic#TheMeasureFirstChapter)  of _[[Science of Logic]]_
@@ -170,3 +173,6 @@ Discussion in the context of [[philosophy of science]] includes
 
 [[!redirects physical unit]]
 [[!redirects physical units]]
+
+[[!redirects unit of measurement]]
+[[!redirects units of measurement]]
