@@ -25,20 +25,27 @@ Throughout, let $\mathcal{H}$ be a [[separable Hilbert space|separable]] infinit
 ###### Theorem
 **(Kuiper's theorem)**
 
-The [[group]] of [[bounded operator|bounded]] and [[invertible element|invertible]] [[linear operators]] $GL(\mathcal{H})$, regarded as a [[topological group]] under the [[norm topology]] or [[strong operator topology]] or [[weak operator topology]], is ([[weak homotopy equivalence|weakly]]) [[contractible]]. 
+The [[topological group|topological]] [[unitary group]] [[U(ℋ)|$\mathrm{U}(\mathcal{H})$]] in either the
 
-Similarly, the [[unitary group]] [[U(ℋ)|$\mathrm{U}(\mathcal{H})$]], being [[homotopy equivalence|homotopy equivalent]] to $GL(\mathcal{H})$ by the [[Gram-Schmidt process]], is also contractible. 
+* [norm topology](UH#NormTopology) 
+
+or the equivalent
+
+* [strong operator topology](UH#StrongOperatorTopology)
+
+* [weak operator topology](UH#WeakOperatorTopology)
+
+* [compact-open topology](UH#WeakOperatorTopology)
+
+is [[contractible]]
+
+in that there is a [[left homotopy]] between the [[identity]] $id \;\colon\; U(\mathcal{H}) \to U(\mathcal{H})$  and the [[constant function]] $const_{\mathrm{e}} \;\colon\; U(\mathcal{H}) \to U(\mathcal{H})$.
+
+Similarly, since the [[general linear group]] $GL(\mathcal{H})$ of [[bounded operators]] is homotopy-equivalent to [[U(ℋ)|$\mathrm{U}(\mathcal{H})$]]  by the [[Gram-Schmidt process]], it, too, is [[contractible]].
 
 =--
 
-The original paper [Kuiper 64](#Kuiper64) proved this group to be contractible in the 
-[[norm topology]]; later Dixmier and Douady proved contractibility for the [[operator topology|strong operator topology]].  
-
-Direct proofs for the unitary group:
-
-Atiyah and Segal note in their paper on twisted K-theory that there is an easy proof of contractibility in the [[weak operator topology]] ([Atiyah & Segal 2004, Prop. A2.1](#AtiyahSegal04)).  One major difference in the topologies is that with the operator topology then it is a [[CW-complex]] but with the weak topology then it isn't even an [[ANR]]. 
-
-Note that on [[U(ℋ)|$U(\mathcal{H})$]] the strong [[operator topology]] coincides with the [[compact open topology]] ([Schottenloher](#Schottenloher)), and with these topologies $U(\mathcal{H})$ is a topological group (the same is not true for $GL(\mathcal{H})$). In fact more is true: the compact open, strong and weak topologies *and* their $\ast$-counterparts all agree on $U(\mathcal{H})$, which in this topology is a [[Polish space|Polish]] group ([Espinoza-Uribe](#EspinozaUribe)).
+See the commented list of references [below](#References).
 
 
 ## Related statements
@@ -47,19 +54,29 @@ Note that on [[U(ℋ)|$U(\mathcal{H})$]] the strong [[operator topology]] coinci
 
 * [[U(ℋ)|$U(\mathcal{H})$]]
 
-## References 
 
-The original article
+## References 
+ {#References}
+
+Proof for the [norm topology](UH#NormTopology) on [[U(ℋ)]]:
 
 * {#Kuiper64} [[Nicolaas Kuiper]], *Contractibility of the unitary group in Hilbert space*, Topology, 3, 19-30 (1964)
 
-* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+* [[Luc Illusie]], *Contractibilité du groupe linéaire des espaces de Hilbert de dimension infinie*, Séminaire Bourbaki : années 1964/65 1965/66, exposés 277-312, Séminaire Bourbaki, no. 9 (1966), Exposé no. 284, 9 p. ([numdam:SB_1964-1966__9__105_0](http://www.numdam.org/item/SB_1964-1966__9__105_0))
 
+Proof for the [strong operator topology](UH#StrongOperatorTopology) on [[U(ℋ)]]:
+
+* {#DixmierDOuady63} [[Jacques Dixmier]], [[Adrien Douady]], Lem. 3 on p. 251 of: *Champs continus d’espaces hilbertiens et de $C^\ast$-algèbres*, Bulletin de la Société Mathématique de France, Tome 91 (1963) , pp. 227-284 ([numdam:BSMF_1963__91__227_0](http://archive.numdam.org/item/BSMF_1963__91__227_0))
+
+Direct proof for the [compact-open topology](UH#CompactOpenTopology) on [[U(ℋ)]]:
+
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Prop. A2.1_Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+
+Proof that the [compact-open topology](UH#CompactOpenTopology) agrees with the [strong operator topology](UH#StrongOperatorTopolgy) on [[U(ℋ)]], by which contractibility of the former follows from that of the latter:
 
 * {#Schottenloher} [[Martin Schottenloher]], _The Unitary Group In Its Strong Topology_ ([arXiv:1309.5891](https://arxiv.org/abs/1309.5891)), Advances in Pure Mathematics **08** 05 (2018) ([doi:10.4236/apm.2018.85029](https://www.scirp.org/html/4-5301487_84967.htm))
 
 * {#EspinozaUribe} [[Jesus Espinoza]], [[Bernardo Uribe]], _Topological properties of the unitary group_, JP Journal of Geometry and Topology **16** (2014) Issue 1, pp 45-55 ([arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [journal](http://www.pphmj.com/abstract/8730.htm))
-
 
 See also: 
 
