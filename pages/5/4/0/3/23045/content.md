@@ -104,7 +104,8 @@ The [[limit of a sequence|limit]] of this sequence is $\underset{k \to \infty}{l
 
 In **summary**:
 
-$$
+\[
+  \label{DiagramOfAllTheTopologies}
   U(\mathcal{H})_{norm}
     \xrightarrow{ \;\;\; \neq \;\;\; }
   U(\mathcal{H})_{strong}
@@ -112,7 +113,7 @@ $$
   U(\mathcal{H})_{weak}  
     \overset{ \phantom{AA} = \phantom{AA} }{\leftrightarrow}
   U(\mathcal{H})_{compop}  
-$$
+\]
 
 (also [Espinoza & Uribe 2014, Thm. 1.2](#EspinozaUribe14))
 
@@ -129,11 +130,25 @@ is *not* [[locally compact topological space|locally compact]].
 ([Grigorchuk & de la Harpe 2014, Sec. 5](#GrigorchukHarpe2014))
 
 
-(...)
+\begin{theorem}\label{KuiperTheorem}
+**(Kuiper's theorem)**
+\linebreak
+The [[topological group|topological]] [[unitary group]] [[U(ℋ)|$\mathrm{U}(\mathcal{H})$]] in either the
 
-* [[Kuiper's theorem]]
+* [norm topology](#NormTopology) 
 
-(...)
+or the
+
+* [strong operator topology](#StrongOperatorTopology)
+
+* [weak operator topology](#WeakOperatorTopology)
+
+* [compact-open topology](#CompactOpenTopology)
+
+is [[contractible]] in that there is a [[left homotopy]] between the [[identity]] $id \;\colon\; U(\mathcal{H}) \to U(\mathcal{H})$  and the [[constant function]] $const_{\mathrm{e}} \;\colon\; U(\mathcal{H}) \to U(\mathcal{H})$.
+\end{theorem}
+See the [references](Kuiper's+theorem#References) at *[[Kuiper's theorem]]*.
+
 
 \begin{proposition}\label{UHCircleFiberBundle}
   The [[U(1)]]-[[quotient space]] [[coprojection]] of [[U(ℋ)]]  over [[PU(ℋ)]] -- both in their strong [[operator topology]] -- is a [[circle group|circle]]-[[principal bundle]]:
