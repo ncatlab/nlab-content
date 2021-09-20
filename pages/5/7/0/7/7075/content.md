@@ -112,7 +112,7 @@ $$
 and identify this presentation of the 2-sphere with the complex projective line via [[stereographic projection]], the Hopf fibration is identified with the map  $S^3 \to S^2$ given by sending
 
 $$
-  (z_0, z_1) \mapsto (2 z_0 z_1^* , {|z_0|}^2 - {|z_1|}^2).
+  (z_0, z_1) \mapsto (2 z_0 \overline{z_1} , {|z_0|}^2 - {|z_1|}^2).
 $$
 
 ### Realization via quaternions
