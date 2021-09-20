@@ -260,12 +260,13 @@ When the [[image]] of a Hurewicz cofibration is a [[closed subspace]] -- which i
 
 
 \end{proposition}
-([Strøm 1968 Thm. 2](#Strom68); review in [May 1999, Sec. 6.4, p. 45 (53 of 251)](#May99); [Gutiérrez, Prop. 8.3](#Gutierrez))
+([Strøm 1968 Thm. 2](#Strom68); review in [May 1999, Sec. 6.4, p. 45 (53 of 251)](#May99); [AGP 2002, Thm. 4.1.7](#AGP02); [Gutiérrez, Prop. 8.3](#Gutierrez))
 
 
 \begin{example}\label{KifiedProductsOfCofibrationsWithCompactlyGeneratedSpaces}
   Let $A \xhookrightarrow{i} X$ be a [[closed subset|closed]] [[topological subspace]]-inclusion of [[compactly generated topological spaces]] which is a Hurewicz cofibration. Then for $Y$ any [[compactly generated topological space]], the [[k-ification|k-ified]] [[product space]]-construction $Y \times A \xhookrightarrow{ id_Y \times i  } Y \times X$ is itself a Hurewicz cofibration.
 \end{example}
+(e.g. [AGP 2002, Ex. 4.2.16](#AGP02))
 \begin{proof}
   Since [[compactly generated spaces]] with the k-ified product space construction form a [[cartesian closed category]], the operation $Y \times (-)$ is a [[left adjoint]] and [[left adjoints preserve colimits|hence]] [[preserved colimit|preserves]] the [[pushout]] in (eq:PushoutProductMap). It follows that the retract which exhibits, according to Prop. \ref{CharacterizationViaRetractionOfPushoutProduct}, the cofibration property of $i$, may be extended as a [[constant function]] in $Y$ to yield a retract that exhibits the cofibration property of $Y \times i$.
 \end{proof}
@@ -395,6 +396,19 @@ and in fact such that only $A$ is the [[preimage]] of zero: $A \,=\, \phi^{-1}(\
 (This is due to [Strøm 1966, Thm. 2](#Strom66); recalled, e.g., in [Bredon 1993, Thm. 1.5 on p. 431](#Bredon93))
 
 
+### Assorted facts
+ {#AssortedFacts}
+
+\begin{prop}\label{hCofibrationIntoNormalSpaceIffSoIntoAnyOpenNeighbourhood}
+  If $X$ is a [[normal topological space]] then any inclusion $A \xhookrightarrow{\;} X$ is an h-cofibration iff its factorization $A \hookrightarrow{\;} U_A$ through any [[open neighbourhood]] $U_A \subset X$ of $A$ is an h-cofibration.
+\end{prop}
+([AGP 2002, Prop. 4.1.9](#AGP02))
+
+\begin{prop}
+  The [[composition]] of two h-cofibrations is itself an h-cofibration.
+\end{prop}
+(e.g. [AGP 2002, Ex. 4.2.17](#AGP02))
+
 ### Interaction with (fiber) producs
  {#InteractionWithFiberProducts}
 
@@ -512,7 +526,7 @@ $$
 \end{proof}
 
 
-### Str&#248;m's model structure
+### Strøm's model structure
  {#StromModelStructure}
 
 The collections
@@ -625,14 +639,23 @@ Therefore the statement follows with Prop. \ref{ClosedInclusionIntoANRIsANRIffhC
 \end{example}
 
 
+## Related concepts
+
+* [[Hurewicz fibration]]
+
+* [[Strøm model structure]]
+
+* [[Serre cofibration]]
+
 
 
 ## References
 
 
+Named after:
 
+* [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; ([doi:10.1073%2Fpnas.41.11.956](https://dx.doi.org/10.1073%2Fpnas.41.11.956), [jstor:89187](https://www.jstor.org/stable/89187), [pdf](http://www.pnas.org/content/41/11/956.full.pdf). MR0073987)
 
-Named after *[[Witold Hurewicz]]*.
 
 Original articles:
 
@@ -645,9 +668,11 @@ Original articles:
 
 Textbook accounts:
 
+* {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], Chapter I of: *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
+
 * {#Bredon93} [[Glen Bredon]], Section VII.1 of: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
-* {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
 * {#May99} [[Peter May]], Chapter 6 of: *[[A concise course in algebraic topology]]*, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
