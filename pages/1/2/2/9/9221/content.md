@@ -30,6 +30,10 @@ $\pi_3(\mathbb{S})$
 
 * [[Theo Johnson-Freyd]], *Topological Mathieu Moonshine* ([arXiv:2006.02922](https://arxiv.org/abs/2006.02922))
 
+On [[Lie groups]] and [[quantum groups]]:
+
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
+
 
 
 category: people
