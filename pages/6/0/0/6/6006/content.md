@@ -25,7 +25,9 @@ This entry collects links related to the book
 
   **Parametrized Homotopy Theory**, 
 
-  Mathematical Surveys and Monographs, vol. 132, AMS 2006  
+  Mathematical Surveys and Monographs **132** 
+
+  AMS 2006  
 
   [ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132)
 
@@ -42,11 +44,11 @@ A survey is in the slides
 ## Subtleties
  {#Subtleties}
 
-Beware that section 4.4 claims a new proof of the [[Strøm model structure]], but relying on a statement in 
+Beware that section 4.4 claims a new proof of the [[Strøm model structure]], but relying on
 
-* [[Michael Cole]], *Many homotopy categories are homotopy categories*, Topology and its Applications 153 (2006) 1084–1099 ([doi:10.1016/j.topol.2005.02.006](https://doi.org/10.1016/j.topol.2005.02.006))
+* [[Michael Cole]], Prop. 5.3 in:  *Many homotopy categories are homotopy categories*, Topology and its Applications 153 (2006) 1084–1099 ([doi:10.1016/j.topol.2005.02.006](https://doi.org/10.1016/j.topol.2005.02.006))
 
-which later was noticed to be false, by [[Richard Williamson]], for details see p. 2 and Rem 5.12 and Sec. 6.1 in:
+which later was noticed to be false, by [[Richard Williamson]]; for details see p. 2 and Rem 5.12 and Sec. 6.1 in:
 
 * {#BarthelRiehl13} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089), [euclid:agt/1513715550](https://projecteuclid.org/euclid.agt/1513715550))
  
