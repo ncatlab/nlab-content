@@ -156,9 +156,11 @@ Beware that a proof of the Strøm model structure was also claimed in
 
 * [[Peter May|May]], [[Johann Sigurdsson|Sigurdsson]], *[[Parametrized Homotopy Theory]]*, 
 
-but relying on a statement in 
+but relying on
 
-* [[Michael Cole]], *Many homotopy categories are homotopy categories*, Topology and its Applications 153 (2006) 1084–1099 ([doi:10.1016/j.topol.2005.02.006](https://doi.org/10.1016/j.topol.2005.02.006))
+* {#Cole06} [[Michael Cole]], a statement in *Many homotopy categories are homotopy categories*, Topology and its Applications 153 (2006) 1084–1099 ([doi:10.1016/j.topol.2005.02.006](https://doi.org/10.1016/j.topol.2005.02.006))
+
+* {#MayPonto12} [[Peter May]], [[Kate Ponto]], Lemma 17.1.7 in: *[[More concise algebraic topology]] -- Localization, Completion, and Model Categories*, University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
 
 which later was noticed to be false, by [[Richard Williamson]], see [Barthel & Riehl, p. 2 and Rem 5.12 and Sec. 6.1](#BarthelRiehl13) for details. 
 
