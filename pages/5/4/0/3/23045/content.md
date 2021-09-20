@@ -14,7 +14,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -25,23 +24,85 @@ The [[unitary group]] on an infinite-dimensional [[separable Hilbert space|separ
 
 Its [[quotient]] by the [[circle group|circle]] [[subgroup]] [[U(1)]] is the corresponding [[projective unitary group]] [[PU(ℋ)]].
 
+## Definition
+ {#Definition}
+
+Throughout, let $\mathcal{H}$ be any [[separable Hilbert space|separably]] infinite-dimensional [[complex numbers|complex]] [[Hilbert space]].
+
+\begin{definition}\label{TheTopologies}
+The set $B(\mathcal{H})$ of [[bounded operators]] carries the following [[topological space|topologies]], characterized by the conditions under which a [[sequence]] $\{ T_k \,\in\, B(\mathcal{H}) \}_{k \in \mathbb{N}}$ [[convergence|converges]] to a fixed operator $T \,\in\, B(\mathcal{H})$:
+
+The [[limit of a sequence|limit]] of this sequence is $\underset{k \to \infty}{lim} T_k \;=\; T$
+
+* {#NormTopology} ...in the **[[norm topology]]** or *[[topology of uniform convergence]]* if
+   
+  $$
+    \underset{
+      { x \in \mathcal{H} }
+      \atop
+      { \vert x \vert \leq 1 }
+    }{sup}
+    \big(
+      \vert T_k(x) - T(x)
+    \big)
+    \;\to\; 0
+    \,;
+  $$
+
+* {#StrongOperatorTopology} ...in the **[[strong operator topology]]** or *[[topology of pointwise convergence]]* if
+
+  $$
+    \underset{ x \in \mathcal{H} }{\forall}  \; T_k(x) \to T(x)
+    \,;
+  $$
+
+* {#WeakOperatorTopology} ...in the **[[weak operator topology]]** if
+
+  $$
+    \underset{ x, y \in \mathcal{H}  }{\forall}
+    \;
+    \big\langle
+      T_k(x), \, y
+    \big\rangle
+    \to
+    \big\langle
+      T_k(x), \, y
+    \big\rangle
+    \,;
+  $$
+
+* {#CompactOpenTopology} ...in the **[[compact-open topology]]** if
+
+  uniform convergence [above](#NormTopology) holds for the restrictions $T_k\vert_{C}$ and $T\vert_C$ to any [[compact subset]] $C \subset \mathcal{H}$.
+
+\end{definition}
+(This list follows [Espinoza & Uribe 2014, p. 2](#EspinozaUribe14).)
+
+
 ## Properties
 
 
 \begin{prop}\label{WithNormTopology}
-  The [[norm topology]] makes $U(\mathcal{H})$ a [[topological group]], in fact a [[Banach Lie group]].
+  The [norm topology](#NormTopology) makes $U(\mathcal{H})$ a [[topological group]], in fact a [[Banach Lie group]].
 \end{prop}
 (e.g. [Schottenloher 2013 p. 4/Sec. 3](#Schottenloher13))
 
 \begin{prop}\label{WithOperatorTopology}
-  On $U(\mathcal{H})$ the weak and strong [[operator topology]] agree and make it a [[topological group]].
+  On $U(\mathcal{H})$ the [weak operator topology](#WeakOperatorTopology) and [strong operator topology](#StrongOperatorTopology) agree and make it a [[topological group]].
 \end{prop}
-([Hilgert & Neeb 1993, Cor. 94](#HilgertNeeb93))
+([Hilgert & Neeb 1993, Cor. 94](#HilgertNeeb93); [Schottenloher 2013, Prop. 1](#Schottenloher13); [Espinoza & Uribe 2014, Lem. 1.5](#EspinozaUribe14))
+
+\begin{prop}\label{WithNormTopology}
+  The [compact-open topology](#CompactOpenTopology) coincides with the [strong operator topology](#StrongOperatorTopology)
+\end{prop}
+([Schottenloher 2013 Prop. 2](#Schottenloher13); [Espinoza & Uribe 2014, Lem. 1.8](#EspinozaUribe14))
 
 \begin{prop}
-  The [[norm topology]] on $U(\mathcal{H})$ (from Prop. \ref{WithNormTopology}) is strictly finer than the (weak or strong) [[operator topology]] (from Prop. \ref{WithOperatorTopology}).
+  The [norm topology](#NormTopology) on $U(\mathcal{H})$ (from Prop. \ref{WithNormTopology}) is strictly finer than the (weak or strong) [[operator topology]] (from Prop. \ref{WithOperatorTopology}).
 \end{prop}
-([Espinoza & Uribe 2014, p. 5-6](#EspinozaUribe14))
+(e.g. [Espinoza & Uribe 2014, p. 5-6](#EspinozaUribe14), see also [Schottenloher 2013, p. 4](#Schottenloher13))
+
+In **summary**:
 
 $$
   U(\mathcal{H})_{norm}
@@ -49,13 +110,17 @@ $$
   U(\mathcal{H})_{strong}
     \overset{ \phantom{AA} = \phantom{AA} }{\leftrightarrow}
   U(\mathcal{H})_{weak}  
+    \overset{ \phantom{AA} = \phantom{AA} }{\leftrightarrow}
+  U(\mathcal{H})_{compop}  
 $$
+
+(also [Espinoza & Uribe 2014, Thm. 1.2](#EspinozaUribe14))
 
 \begin{prop}
   Equipped with the strong topology (Prop. \ref{WithOperatorTopology}), $U(\mathcal{H})$ 
 is [[complete metric space|completely metrizable]].
 \end{prop}
-([Neeb 1997, Prop. II.1](#Neeb97))
+([Neeb 1997, Prop. II.1](#Neeb97), [Schottenloher 2013 Prop. 3](#Schottenloher13), [Espinoza & Uribe 2014, Lem. 1.6](#EspinozaUribe14))
 
 \begin{prop}
   Equipped with the strong topology (Prop. \ref{WithOperatorTopology}), $U(\mathcal{H})$ 
@@ -137,6 +202,9 @@ Proof of [[Kazhdan's property (T)]] for $U(\mathcal{H})$:
     
 
 [[!redirects U(H)]]
+[[!redirects UH]]
 
 [[!redirects infinite unitary group with strong topology]]
+
+
 
