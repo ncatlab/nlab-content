@@ -95,7 +95,7 @@ For the discussion of the [[homotopy theory]] given by the model structure on to
 
 Write
 
-* $kTop \hookrightarrow Top$ for the [[full subcategory]] of [[k-spaces]];
+* $k Top \hookrightarrow Top$ for the [[full subcategory]] of [[k-spaces]];
 
 * $CGTop \hookrightarrow Top$ for the full subcategory of [[compactly generated spaces]].
 
@@ -103,13 +103,17 @@ Write
 
 +-- {: .num_prop}
 ###### Proposition
+**([[model structure on compactly generated topological spaces]])**
 
-There is a [[model category]] structure $kTop_{Quillen}$ on $kTop$ in which a morphism is a cofibration, fibration or weak equivalence, respectively, precisely if it is so under the inclusion $kTop \hookrightarrow Top$. And this inclusion is the [[left adjoint]] in a [[Quillen equivalence]]
+There is a [[model category]] structure $kTop_{Qu}$ on $k Top$ in which a morphism is a cofibration, fibration or weak equivalence, respectively, precisely if it is so under the inclusion $k Top \hookrightarrow Top$ in the [[classical model structure on topological spaces]]. This inclusion is the [[left adjoint]] in a [[Quillen equivalence]]
 
 $$
-  Top_{Quillen} \stackrel{\overset{}{\hookleftarrow}}{\underset{}{\to}}
-  kTop_{Quillen}
-  \,.
+  k Top
+  \underoverset
+    {\underset{k}{\longleftarrow}}
+    {\overset{}{\hookrightarrow}}
+    {\;\;\;\; \simeq_{\mathrlap{Qu}} \;\;\;\;}
+  Top
 $$
 
 =--
@@ -123,19 +127,26 @@ This appears for instance as ([Hovey, theorem 2.4.23](#Hovey))
 There is a [[model category]] structure $CGTop_{Quillen}$ on $CGTop$ in which a morphism is a cofibration, fibration or weak equivalence, respectively, precisely if it is so under the inclusion $CGTop \hookrightarrow Top$. And this inclusion is the [[right adjoint]] in a [[Quillen equivalence]]
 
 $$
-  CGTop_{Quillen} \stackrel{\overset{w}{\leftarrow}}{\underset{}{\hookrightarrow}}
-  kTop_{Quillen}
-  \,.
+  CGTop_{Qu}
+  \underoverset
+    {\underset{}{\hookrightarrow}}
+    {\overset{ h }{\longleftarrow}}
+    {\;\;\;\; \simeq_{\mathrlap{Qu}} \;\;\;\; }
+  k Top_{Qu}
+  \mathrlap{\,.}
 $$
 
 =--
 
-Notice that $Top_{Quillen}$ is _not_ a [[monoidal model category]], because $Top$ itself is not ([[cartesian closed category|cartesian]]) [[closed monoidal category|closed]].
+(e.g. [Hovey 1999, Thm. 2.4.25](#Hovey99))
+
+
+To appreciate the following, notice that [[classical model structure on topological spaces|$Top_{Qu}$]] is _not_ a [[monoidal model category]], because [[Top]] itself is not ([[cartesian closed category|cartesian]]) [[closed monoidal category|closed]].
 
 +-- {: .num_prop}
 ###### Proposition
 
-Both $kTop_{Quillen}$ and $CGTop_{Quillen}$ are [[symmetric monoidal category|symmetric]] [[monoidal model categories]].
+Both $k Top_{Qu}$ and $CGTop_{Qu}$ are [[symmetric monoidal category|symmetric]] [[monoidal model categories]].
 
 =--
 
@@ -145,9 +156,11 @@ This appears as ([Hovey, prop. 4.2.11](#Hovey)).
 ###### Proposition
 
 In fact $CGTop_{Quillen}$ is a [[cartesian closed model category]].
-(see e.g [Berger-Moerdijk 03](#BergerMoerdijk03))
 
 =--
+
+(This is briefly mentioned in [Berger-Moerdijk 2003, Sec. 2.2.3](#BergerMoerdijk03).)
+
 
 
 ### Relation between $Top_{Quillen}$ and $sSet_{Quillen}$
@@ -156,7 +169,7 @@ The [Quillen model structure](#QuillenModelStructure) $Top_{Qullen}$ is [[Quille
 
 $$
   (\vert-\vert \dashv Sing)
-  : 
+  \colon
   Top_{Quillen} 
     \stackrel{\overset{|-|}{\leftarrow}}{\underset{Sing}{\to}} 
   sSet_{Quillen}
@@ -208,7 +221,7 @@ An expository, concise and comprehensive writeup is in
 
 Standard textbooks references include 
 
-* {#Hovey}  [[Mark Hovey]], _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+* {#Hovey}  [[Mark Hovey]], *[[Model Categories]]*, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
