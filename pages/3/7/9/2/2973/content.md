@@ -34,6 +34,9 @@ Write CGWH for the category of [[compactly generated topological spaces|compactl
 
 ([[Peter May]], [MO answer, April 2015](http://mathoverflow.net/a/204221/))
 
+## Related concepts
+
+* [[model structure on compactly generated weak Hausdorff spaces]]
 
 ## References
 
