@@ -34,7 +34,7 @@ In [[graph theory]], a __path__ is a [[list]] of edges, each of which ends where
 ## Concatenation
 
 Given a Moore path $f$ from $a$ to $b$ and a Moore path $g$ from $b$ to $c$, the __concatenation__ of $f$ and $g$ is a Moore path $f ; g$ or $g \circ f$ from $a$ to $c$.  If the domain of $f$ is $[0,m]$ and the domain of $g$ is $[0,n]$, then the domain of $f ; g$ is $[0,m+n]$, and
-$$ (f ; g)(x) \coloneqq \left \{ \array { f(x) & \quad x \leq m \\ g(m+x) & \quad x \geq m .} \right . $$
+$$ (f ; g)(x) \coloneqq \left \{ \array { f(x) & \quad x \leq m \\ g(x-m) & \quad x \geq m .} \right . $$
 In this way, we get a ([[strict category|strict]]) [[category]] whose [[objects]] are [[global element|points]] in $X$ and whose [[morphisms]] are Moore paths in $X$, with concatenation as [[composition]].  This category is called the __[[Moore path category]]__.
 
 Often we are more interested in a [[quotient category]] of the Moore path category.  If we use unparametrised paths (in which case we may use paths with domain $\mathbb{I}$ if we wish), then we get the __unparametrised [[path category]]__.  If $X$ is a [[smooth space]], then we may additionally identify paths related through a [[thin homotopy]] to get the __[[path groupoid]]__.  Finally, if $X$ is a [[continuous space]] and we identify paths related through any (endpoint-preserving) [[homotopy]], then we get the __[[fundamental groupoid]]__ of $X$.
