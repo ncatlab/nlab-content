@@ -38,7 +38,7 @@ Because every [[set]] is canonically a comonoid with respect to the [[cartesian 
 
 ## References
 
-The main historical reference is Marcelo Aguiar's 1997 Cornell thesis ([pdf](http://www.math.cornell.edu/~maguiar/thesis2.pdf)), under the guidance of S. Chase. [[George Janelidze]] calls such generalization **noncartesian internal category**, because if the tensor product is the cartesian product the notion reduces to the traditional internal category. 
+The main historical reference is Marcelo Aguiar's 1997 Cornell thesis *Internal categories and quantum groups* ([pdf](http://pi.math.cornell.edu/~maguiar/thesis2.pdf)), under the guidance of S. Chase. [[George Janelidze]] calls such generalization **noncartesian internal category**, because if the tensor product is the cartesian product the notion reduces to the traditional internal category. 
 
 +-- {: .query}
 [[David Roberts]]: I think Ross Street and the other Australian category theorists call this a quantum category - I did go to a talk once, but my notes are elsewhere.
