@@ -5,15 +5,24 @@
 
 * [[category with weak equivalences]]
 
+  ([[relative category]], [[homotopical category]])
+
+* [[fibration]], [[cofibration]]
+
 * [[weak factorization system]]
 
-* [[homotopy (as an operation)|homotopy]]
+* [[resolution]]
 
-  * [[homotopy category]]
+* [[cell complex]]
 
 * [[small object argument]]
 
-* [[resolution]]
+* [[homotopy (as an operation)|homotopy]]
+
+* [[homotopy category]]$\;$[[homotopy category of a model category|of a model category]]
+
+
+
 
 ## Morphisms ##
 
@@ -31,7 +40,11 @@
 
 * [[homotopy limit]]/[[homotopy colimit]]
 
- * [[Bousfield-Kan map]]
+  [[homotopy weighted colimit|homotopy weighted (co)limit]]
+
+  [[homotopy coend|homotopy (co)end]]
+
+* [[Bousfield-Kan map]]
 
 
 ## Refinements ##
@@ -66,20 +79,20 @@
 
 ## Producing new model structures
 
-
 * [[global model structures on functor categories|on functor categories (global)]]
 
   * [[Reedy model structure]]
 
-* [[model structure on an overcategory|on overcategories]]
+* [[model structure on an overcategory|on slice categories]]
 
 * [[Bousfield localization of model categories|Bousfield localization]]
 
 * [[transferred model structure]] 
 
-  * [[model structure on algebraic fibrant objects]]
+  * [[model structure on algebraic fibrant objects|on algebraic fibrant objects]]
 
 * [[Grothendieck construction for model categories]]
+
 
 ## Presentation of $(\infty,1)$-categories ##
 
@@ -103,13 +116,13 @@
 
   * [[classical model structure on topological spaces|classical model structure]]
 
+  * [[model structure on compactly generated topological spaces|on compactly generated spaces]]
+
   * [[model structure on Delta-generated topological spaces|on Delta-generated spaces]]
 
   * [[model structure on diffeological spaces|on diffeological spaces]]
 
-  * [[Strom  model structure]]
-
-
+  * [[Strøm model structure]]
 
 * [[Thomason model structure]]
 
@@ -135,13 +148,25 @@
 
 * [[model structure on cosimplicial simplicial sets]]
 
+### for equivariant $\infty$-groupoids
+
+* [[fine model structure on topological G-spaces]]
+
+* [[coarse model structure on topological G-spaces]] 
+
+  ([[Borel model structure]])
+
+
 ### for rational $\infty$-groupoids
 
 * [[model structure on dgc-algebras]]
 
+### for rational equivariant $\infty$-groupoids
+
+* [[model structure on equivariant chain complexes]]
+
 * [[model structure on equivariant dgc-algebras]]
 
-  [[model structure on equivariant chain complexes]]
 
 ### for $n$-groupoids
 
@@ -249,4 +274,3 @@
 * [[model structure for (2,1)-sheaves]]/for stacks
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/model+category+theory+-+contents)</div>
