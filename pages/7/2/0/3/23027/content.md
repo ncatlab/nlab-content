@@ -41,6 +41,11 @@ In this context, some authors use the term "track category" for "$Grpd$-enriched
 
 * {#Baues91} Chapter VI of: [[Hans-Joachim Baues]], *Combinatorial Homotopy and 4-Dimensional Complexes*, Expositions in Mathematics, De Gruyter 1991 ([doi:10.1515/9783110854480](https://doi.org/10.1515/9783110854480))
 
+see also
+
+* [[Klaus Heiner Kamps]], [[Tim Porter]], Sec. IV.1 of: _Abstract Homotopy and Simple Homotopy Theory_, World Scientific 1997 ([doi:10.1142/2215](https://doi.org/10.1142/2215), [GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+
+
 For example, [[Toda brackets]] have a neat desciption in the [[homotopy 2-category]] of topological spaces regarded (Ex. \ref{Homotopy2CategoryOfTopologicalSpaces}) as a strict (2,1)-category (hence: "track category"):
 
 * {#HardieKampsKieboom99} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Rudger  Kieboom]], _Higher homotopy groupoids and Toda brackets_, Homology Homotopy Appl. Volume 1, Number 1 (1999), 117-134 ([euclid:hha/1139840198](https://projecteuclid.org/euclid.hha/1139840198))
