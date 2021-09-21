@@ -26,24 +26,40 @@ if its topology is detected by the [[continuous map|continuous]] [[images]] of [
 As opposed to general topological spaces, compactly generated spaces form a [[cartesian closed category]] while still being general enough for most purposes of [[general topology]], hence form a [[convenient category of topological spaces]] ([Steenrod 1967](#Steenrod67)) and as such have come to be commonly used in the foundations of [[algebraic topology]] and [[homotopy theory]], especially in their modern guise as compactly generated *weakly Hausdorff* spaces, due to [McCord 1969, Sec. 2](#McCord69).
 
 
-## Definitions 
+## Definition
+ {#Definition}
 
-A [[function]] $f\colon X \to Y$ between [[topological space]]s is __$k$-continuous__
-if for all [[compact Hausdorff space]]s $C$ and [[continuous functions]] $t\colon C \to X$ the composite $f \circ t\colon C \to Y$ is continuous.
+\begin{definition}\label{kContinuousFunction}
+**($k$-continuous functions)**
+\linebreak
+A [[function]] $f\colon X \to Y$ between [[underlying]] [[sets]] of [[topological spaces]] is called *$k$-continuous* if for all [[compact Hausdorff spaces]] $C$ and [[continuous functions]] $t \colon C \to X$ the [[composition|composite]] $f \circ t \colon C \to Y$ is [[continuous function|continuous]].
+\end{definition}
  
-The following conditions on a space $X$ are equivalent:
+\begin{proposition}\label{EquivalentConditionsForCompactGeneration}
+**(equivalent characterizations of compact generation)**
+\linebreak
+The following conditions on a [[topological space]] $X$ are equivalent:
 
-1. For all spaces $Y$ and all functions $f\colon X \to Y$, $f$ is
-continuous if and only if $f$ is $k$-continuous.
+1. For all spaces $Y$ and all [[functions]] $f \colon X \to Y$ (of [[underlying]] [[sets]]), $f$ is [[continuous function|continuous]] if and only if $f$ is $k$-continuous (Def. \ref{kContinuousFunction}).
 
-2. There is a [[set]] $S$ of compact Hausdorff spaces such that the previous condition holds for all $C \in S$.
+2. There is a [[set]] $S$ (instead of a [[proper class]]) of [[compact Hausdorff spaces]] such that the previous condition holds for all $C \in S$.
 
 3. $X$ is an [[identification space]] of a [[disjoint union]] of compact Hausdorff spaces.
 
-4. A [[subspace]] $U \subseteq X$ is [[open subspace|open]] if and only if the [[preimage]] $t^{-1}(U)$ is open for any compact Hausdorff space $C$ and continuous $t\colon C \to X$.
+4. A [[subspace]] $U \subseteq X$ is [[open subspace|open]] if and only if the [[preimage]] $t^{-1}(U)$ under any [[continuous function]] $t \colon C \to X$ out of a [[compact Hausdorff space]] $C$ is open.
 
-A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t\colon C\to X$ is closed (when $C$ is compact Hausdorff).  Some authors (especially the early authors on the subject) go on to require a [[Hausdorff space|Hausdorff]] space, but this seems to be unnecessary.
+\end{proposition}
 
+\begin{definition}\label{kSpace}
+**(k-spaces)**
+\linebreak
+A [[topological space]] $X$ is a __$k$-space__ if any (hence all) of the conditions in Prop. \ref{EquivalentConditionsForCompactGeneration} hold.  
+\end{definition}
+\begin{remark}
+**(terminology)**
+\linebreak
+Some authors say that a $k$-space (Def. \ref{kSpace}) is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t\colon C\to X$ is closed (when $C$ is compact Hausdorff).  Some authors (especially the early authors on the subject) go on to require a [[Hausdorff space|Hausdorff]] space, but this seems to be unnecessary.
+\end{remark}
 
 
 ## Examples
@@ -103,27 +119,118 @@ Since the topology is determined by convergent sequences = maps from one-point [
 =-- 
 
 
-## k-Ification
-
-Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ denote the category of all topological spaces and $k$-continuous maps.  We have inclusions
-$$ k\Top \to \Top \to \Top_k $$
-of which the first is the inclusion of a [[full subcategory|full]] [[coreflective subcategory]], the second is [[bijective on objects functor|bijective on objects]], and the composite $k\Top \to Top_k$ is an [[equivalence of categories]].
-
-{#TheCoreflection} The [[coreflection]] $\Top \to k\Top$ is usually denoted $k$ and sometimes called *$k$-ification* ([May 1999, p. 49](#May99)).[^3]
-
-
-This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
-
-In particular, the identity map $id:k(X)\to X$ is continuous, and forms the counit of the coreflection.  Thus this coreflection has a counit which is both [[monic]] and [[epic]], i.e. a "[[bimorphism]]"---such a coreflection is sometimes called a "bicoreflection."
-
-Moreover, the identity $id: X \to k(X)$ is $k$-continuous, so that the counit becomes an isomorphism in $\Top_k$.  This shows that $k\Top \to \Top_k$ is [[essentially surjective functor|essentially surjective]], and it is fully faithful since any $k$-continuous function between $k$-spaces is $k$-continuous; hence it is an equivalence.
-
-Since $k\Top \hookrightarrow \Top$ is coreflective, it follows that $k\Top$ is [[complete category|complete]] and [[cocomplete category|cocomplete]].  Its [[colimits]] are constructed as in $Top$, but its [[limits]] are the $k$-ification of limits in $Top$.  This is nontrivial already for [[products]]: the $k$-space product $X\times Y$ is the $k$-ification of the usual [[product topology]].  The $k$-space product is better behaved in many ways; e.g. it enables [[geometric realization]] to preserve products (and all finite limits), and the product of two [[CW complexes]] to be another CW complex.
-
-If one is interested in $k$-spaces which are also [[weakly Hausdorff space|weak Hausdorff]], then there is a further [[reflector]] which must be applied; see [[weakly Hausdorff space]].
-
-
 ## Properties
+
+
+### Coreflection into topological spaces
+ {#CoreflectionIntoTopologicalSpaces}
+
+\begin{definition}\label{CategoryOfKSpaces}
+**(category of k-spaces)**
+\linebreak
+We write
+\[
+  \label{kSpacesAsSubcategoryOfAllSpaces}
+  k\Top 
+  \xhookrightarrow{\;\;\;\;}
+  Top
+\]
+for the category of $k$-spaces (Def. \ref{kSpace}) with [[continuous functions]] between them, hence for the [[full subcategory]] of [[Top]] on the k-spaces.
+\end{definition}
+
+
+\begin{prop}\label{TheCoreflection}
+The inclusion (eq:kSpacesAsSubcategoryOfAllSpaces)
+is that of a  [[coreflective subcategory]]
+\[
+  \label{kIficationReflection}
+  k Top
+  \underoverset
+    {\underset{k}{\longleftarrow}}
+    {\overset{}{\hookrightarrow}}
+    {\;\;\;\; \bot \;\;\;\;}
+  Top
+\]
+\end{prop}
+The [[coreflection]] 
+$k$ is sometimes called *$k$-ification* ([May 1999, p. 49](#May99)).[^3]
+\begin{proof}
+The reflection functor $k$ is constructed as follows: 
+
+We take $k(X) \coloneqq X$ on [[underlying]] [[sets]], and equip this with the [[topological space|topology]] whose [[closed sets]] are those whose [[intersection]] with [[compact Hausdorff space|compact Hausdorff]] subsets of (the original topology on) $X$ is [[closed subset|closed]] (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
+
+In particular, the identity map $id \colon k(X)\to X$ is continuous, and forms the [[counit of an adjunction|counit]] of the [[coreflective subcategory|coreflection]].  Thus this coreflection has a counit which is both a [[monomorphisms]] as well as an [[epimorphisms]], i.e. a "[[bimorphism]]"---such a coreflection is sometimes called a "bicoreflection."
+\end{proof}
+
+\begin{remark}
+There is also the category $\Top_k$ of all topological spaces and $k$-continuous maps (Def. \ref{kContinuousFunction}).  But the [[composition|composite]] sequence of inclusions
+$$ 
+  k\Top \xhookrightarrow{\;} \Top \xrightarrow{\;} \Top_k 
+  \,,
+$$
+of which the first is the  [[full subcategory|full]] inclusion (eq:kSpacesAsSubcategoryOfAllSpaces) and the second is [[bijective on objects functor|bijective on objects]] $k\Top \to Top_k$, is an [[equivalence of categories]].
+
+Namely, the [[identity morphism]] $id \colon X \to k(X)$ is $k$-continuous, so that the [[adjunction counit]] from Prop. \ref{TheCoreflection} becomes an [[isomorphism]] in $\Top_k$.  This shows that $k\Top \to \Top_k$ is [[essentially surjective functor|essentially surjective]], and it is [[fully faithful functor|fully faithful]] since any $k$-continuous function between $k$-spaces is $k$-continuous; hence it is an equivalence.
+\end{remark}
+
+\begin{remark}
+Since $k\Top \hookrightarrow \Top$ is coreflective, it follows that $k\Top$ is [[complete category|complete]] and [[cocomplete category|cocomplete]].  Its [[colimits]] are constructed as in [[Top]], but its [[limits]] are the $k$-ification (eq:kIficationReflection) of [limits in Top](Top#UniversalConstructions).  
+
+Notice that this is nontrivial already for [[products]]: the $k$-space product $X \times Y$ is the $k$-ification of the usual [[product topology]].  The $k$-space product is better behaved in many ways; e.g. it enables [[geometric realization]] to preserve products (and all [[finite limits]]), and the product of two [[CW complexes]] to be another CW complex.
+\end{remark}
+
+
+### Reflection into weak Hausdorff spaces
+ {#ReflectionIntoWeakHausdorffSpaces}
+
+\begin{definition}
+\label{FullSubcategoryOfCGWHSpacesInsideCGSpaces}
+Write
+$$
+  h k Top
+  \xhookrightarrow{\;\;\;}
+  k Top
+$$
+for the further [[full subcategory]] inside that of k-spaces (Def. \ref{CategoryOfKSpaces}) on those which in addition are [[weak Hausdorff spaces]].
+\end{definition}
+
+\begin{prop}\label{ReflectionOntoCGWHSpaces}
+**(cgwh spaces reflective in cg spaces)**
+\linebreak
+The [[full subcategory]]-inclusion of [[weakly Hausdorff space|weak Hausdorff spaces]] in k-spaces (Def. \ref{FullSubcategoryOfCGWHSpacesInsideCGSpaces}) is a [[reflective subcategory]] inclusion:
+$$
+  h k Top
+  \underoverset
+    {\underset{}{\hookrightarrow}}
+    {\overset{ h }{\longleftarrow}}
+    {\;\;\;\; \bot \;\;\;\; }
+  k Top
+$$
+\end{prop}
+(e.g. [Strickland 2009, Prop. 2.22](#Strickland09))
+
+\begin{remark}\label{SequencesOfCoReflections}
+**(sequence of [[coreflective subcategory|(co-)]][[reflective subcategory|reflections]])**
+\linebreak
+In summary, Prop. \ref{TheCoreflection} and Prop. \ref{ReflectionOntoCGWHSpaces} yield a sequence of [[adjoint functors]] of this form:
+
+$$
+  h k Top
+  \underoverset
+    {\underset{}{\hookrightarrow}}
+    {\overset{ h }{\longleftarrow}}
+    {\;\;\;\; \bot \;\;\;\; }
+  k Top
+  \underoverset
+    {\underset{k}{\longleftarrow}}
+    {\overset{}{\hookrightarrow}}
+    {\;\;\;\; \bot \;\;\;\;}
+  Top
+$$
+
+The [[classical model structure on topological spaces]] restricts along these (co-)reflective embeddings to a [[Quillen equivalence|Quillen equivalent]] [[model structure on compactly generated topological spaces]]. See there for more.
+\end{remark}
+
 
 ### Cartesian closure
 
@@ -132,7 +239,7 @@ The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian cl
 (This is slightly different from the usual [[compact-open topology]] if $X$ happens to have non-Hausdorff compact subspaces; in that case the usual definition includes such subspaces as tests, while the above definition excludes them.  Of course, if $X$ itself is Hausdorff, then the two become identical.)
 
 With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$.  It follows, by [[Yoneda lemma]] arguments ([prop.](closed+monoidal+category#TensorHomIsoInternalizes)), that the bijection
-$$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
+$$k\Top(X \times Y, Z) \to k Top(X,k\Top(Y,Z))$$
 is actually an isomorphism in $\Top_k$, which we may call a *$k$-homeomorphism* (e.g. [Strickland 09, prop. 2.12](#Strickland09)).  In fact, it is actually a homeomorphism, i.e. an isomorphism already in $Top$.
 
 It follows that the category $k\Top$ of $k$-spaces and continuous maps is also cartesian closed, since it is equivalent to $\Top_k$.  Its exponential object is the $k$-ification of the one constructed above for $\Top_k$.  Since for $k$-spaces, $k$-continuous implies continuous, the underlying set of this exponential space $k\Top(X,Y)$ is the set of all continuous maps from $X$ to $Y$.  Thus, when $X$ is Hausdorff, we can identify this space with the $k$-ification of the usual [[compact-open topology]] on $Top(X,Y)$.
@@ -205,6 +312,8 @@ A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparis
 
 
 ## Related concepts
+
+* [[model structure on compactly generated topological spaces]]
 
 * [[Euclidean-generated topological spaces]] ([[Delta-generated topological spaces]])
 
