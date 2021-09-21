@@ -8,6 +8,11 @@ On [[homotopy Lie groups]]:
 
 * With [[Kasper K. Andersen]], [[Jesper Grodal]], and [[Antonio Viruel]], _The classification of $p$-compact groups for $p$ odd_. Ann. of Math. (2) 167 (2008), no. 1, 95-210. ([pdf](http://www.math.ku.dk/~moller/reprints/poddclass.pdf))
 
+On [[homotopy theory]]:
+
+* [[Jesper Michael Møller]], _Homotopy theory for beginners_, 2015 ([pdf](http://www.math.ku.dk/~moller/e01/algtopI/comments.pdf), [[Moller_HomotopyTheory.pdf:file]])
+
+
 ## Related $n$Lab entries
 
 * [[fundamental group]], [[covering space]]
