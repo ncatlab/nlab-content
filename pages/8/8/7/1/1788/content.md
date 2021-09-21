@@ -1,4 +1,36 @@
 
+
+\begin{imagefromfile}
+    "file_name": "2Cell.jpg",
+    "width": 200,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+
+\begin{imagefromfile}
+    "file_name": "3Cell.jpg",
+    "width": 215,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+
+
 \begin{proposition}\label{ClosedInclusionIntoANRIsANRIffhCofibration}
   Let $X$ be an [[absolute neighbourhood retract]] (ANR) and $A \xhookrightarrow{i} X$ a [[closed subspace]]-inclusion. Then $i$ is a [[Hurewicz cofibration]] iff $A$ is itself an ANR.
 \end{proposition}
