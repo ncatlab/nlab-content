@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -93,6 +92,11 @@ In relation to [[hypergeometric functions]] and the [[Knizhnik-Zamolodchikov equ
 * [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
 
 * V. Tarasov, [[Alexander Varchenko]], _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp. ([arXiv:q-alg/9703044](https://arxiv.org/abs/q-alg/9703044), [numdam:AST_1997__246__R1_0](http://www.numdam.org/item/AST_1997__246__R1_0))
+
+In the generality of [[noncartesian internal categories]]:
+
+* [[Marcelo Aguiar]],  *Internal categories and quantum groups*, PhD thesis, Cornell 1997 ([pdf](http://pi.math.cornell.edu/~maguiar/thesis2.pdf), [[Aguiar_InternalCategoriesAndQuantumGroups.pdf:file]]) 
+
 
 See also:
 
