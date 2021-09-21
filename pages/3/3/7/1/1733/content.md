@@ -78,7 +78,7 @@ The central tool for breaking down all this [[higher algebra|higher algebraic]] 
 
 ## Related entries
 
-*  [[basic problems of algebraic topology]], [[topology]], [[differential topology]]
+*  [[topology]], [[differential topology]]
 *  [[homotopy theory]], [[shape theory]], [[nonabelian algebraic topology]], [[rational homotopy theory]]
 *  [[homotopy lifting property]], [[Hurewicz fibration]], [[Hurewicz connection]], [[Serre fibration]]
 *  [[homotopy extension property]], [[Hurewicz cofibration]], [[deformation retract]]
@@ -92,92 +92,11 @@ The central tool for breaking down all this [[higher algebra|higher algebraic]] 
 *  [[fibration sequence]], [[cofibration sequence]] 
 *  [[Freudenthal suspension theorem]], [[Whitehead theorem]] 
 
+
 ## References
-
-(See also the references at *[[homotopy theory]]* and &[[(infinity,1)-category theory|$(\infty,1)$-category theory]]*.)
-
-Textbooks:
-
-* [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of Algebraic Topology_, Princeton University Press 1952 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
-
-* {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, Springer 1966 ([doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1))
-
-* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
-
-* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
-
-  (with focus on [[differential forms]], [[differential topology]])
-
-* {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+ {#References}
 
 
-* {#Dold95} [[Albrecht Dold]], *Lectures on Algebraic Topology*, Springer 1995 ([doi:10.1007/978-3-642-67821-9](https://www.springer.com/gp/book/9783540586609), [pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-67821-9%2F1.pdf))
-
-* [[Peter May]], _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
-
-* [[Tammo tom Dieck]], _Topologie_, De Gruyter 2000 ([doi:10.1515/9783110802542](https://doi.org/10.1515/9783110802542))
-
-
-* [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
-
-* [[Dai Tamaki]], [[Akira Kono]], _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
-
-* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
-
-* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
-
-Lecture notes:
-
-* {#HopkinsMathew} [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
-
-* [[Friedhelm Waldhausen]], _Algebraische Topologie_ I ([pdf](https://www.math.uni-bielefeld.de/~fw/at.pdf)) , II ([pdf](https://www.math.uni-bielefeld.de/~fw/at_II.pdf)), III ([pdf](https://www.math.uni-bielefeld.de/~fw/at_III.pdf)) ([web](https://www.math.uni-bielefeld.de/~fw/))
-
-* [[James F. Davis]] and [[Paul Kirk]], _Lecture notes in algebraic topology_ ([pdf](http://www.indiana.edu/~jfdavis/teaching/m623/book.pdf))
-
-* [[Gereon Quick]], _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014
-
-Survey of various subjects in algebraic topology:
-
-* {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
-
-Survey with relation to [[differential topology]]:
-
-* [[Sergei Novikov]], _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
-
-* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
-
-Books with an emphasis on [[homotopy theory]]: 
-
-* [[Robert E. Mosher]], and [[Martin C. Tangora]], *Cohomology operations and applications in homotopy theory*, Harper & Row, 1968, reprinted by [Dover 2008](https://store.doverpublications.com/0486466647.html) [GoogleBooks](https://www.google.com/books/edition/Cohomology_Operations_and_Applications_i/wu79f-7V_6AC)
-
-* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
-
-* [[George W. Whitehead]], *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
-
-* [[Hans-Joachim Baues]], _Homotopy types_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland, 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
-
-* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
-
-* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics Vol. 127, American Mathematical Society, 2011 ([doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)])
-
-* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
-
-  > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
-
-
-Some interactive 3D demos can be found at
-
-* [[Neil Strickland]], *Interactive pages for Algebraic Topology*, [web site](http://neil-strickland.staff.shef.ac.uk/courses/MAS435/demos/)
-
-
-
-Further online resources include
-
-* [a thread on this at MathOverflow](http://mathoverflow.net/questions/18041/algebraic-topology-beyond-the-basicsany-texts-bridging-the-gap).
-
-
-Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
-
-* [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
+[[!include homotopy theory and algebraic topology -- references]]
 
 
