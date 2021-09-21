@@ -359,6 +359,10 @@ sets]]
 ## References 
  {#References}
 
+
+[[homotopy theory and algebraic topology -- references]]
+
+
 (See also the references at *[[algebraic topology]]* at *[[simplicial homotopy theory]]* and at *[[(infinity,1)-category theory|$(\infty,1)$-category theory]]*.)
 
 Textbook accounts of homotopy theory of [[topological spaces]]:
