@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,7 +24,16 @@
 +-- {: .num_prop }
 ###### Proposition
 
-The [[category]] of [[Delta-generated topological spaces]] carries the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] with the same generating (acyclic) cofibrations as for the [[classical model structure on topological spaces]] and such that the [[reflective subcategory|reflection]] into all [[topological spaces]] ([this Prop.](Delta-generated+topological+space#AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces)) is a [[Quillen equivalence]] to the [[classical model structure on topological spaces]].
+The [[category]] of [[Delta-generated topological spaces]] carries the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] with the same generating (acyclic) cofibrations as for the [[classical model structure on topological spaces]] and such that the [[coreflective subcategory|coreflection]] into all [[topological spaces]] ([this Prop.](Delta-generated+topological+space#AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces)) is a [[Quillen equivalence]] with the [[classical model structure on topological spaces]]:
+
+$$
+  TopologicalSpaces_{Qu}
+  \underoverset
+    {\underset{Cdfflg}{\longrightarrow}}
+    {\hookleftarrow}
+    {\;\;\;\;\;\simeq_{\mathrlap{Qu}}\;\;\;\;\;}
+  DTopologicalSpaces_{Har}
+$$
 
 =--
 
