@@ -72,9 +72,13 @@ on [[model categories]] and the [[homotopy theory]] modeled by them.
 
 #### 2.1.2. Relative I-cell complexes and the small object argument
 
+* [[cell complex]]
+
 * [[small object argument]]
 
 #### 2.1.3. Coﬁbrantly generated model categories
+
+* [[cofibrantly generated model category]]
 
 ### 2.2. The stable category of modules
 
@@ -85,6 +89,9 @@ on [[model categories]] and the [[homotopy theory]] modeled by them.
 ### 2.4. Topological spaces
 
 * [[classical model structure on topological spaces]]
+
+* [[model structure on compactly generated topological spaces]]
+
 
 ### 2.5. Chain complexes of comodules over a Hopf algebra
 
@@ -128,7 +135,11 @@ on [[model categories]] and the [[homotopy theory]] modeled by them.
 
 ### 4.1. Closed monoidal categories and closed modules
 
+* [[closed monoidal category]]
+
 ### 4.2. Monoidal model categories and modules over them
+
+* [[monoidal model category]]
 
 ### 4.3. The homotopy category of a monoidal model category
 
