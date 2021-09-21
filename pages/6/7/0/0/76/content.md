@@ -128,7 +128,24 @@ If $X$ is cofibrant and $Y$ is fibrant, then every generalized morphism from $X$
 
 Quillen also introduced a highly structured notion of equivalence between model categories, now called a [[Quillen equivalence]], which among other things ensures that they present the same $(\infty,1)$-category.  Quillen equivalences are now being used to compare different definitions of higher categories.
 
-## Related concepts 
+
+
+## Related entries
+ {#RelatedConcepts}
+
+
+### General 
+
+* [[homotopy theory FAQ]]
+
+* [[higher structures]]
+
+* [[algebraic homotopy]]
+
+* [[homotopy type theory]]
+
+
+### Flavors of homotopy theory
 
 * [[synthetic homotopy theory]]
 
@@ -136,119 +153,174 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 * [[stable homotopy theory]]
 
+* [[proper homotopy theory]]
+
 * [[parameterized homotopy theory]]
 
 * [[equivariant homotopy theory]], [[global equivariant homotopy theory]]
 
-* [[chromatic homotopy theory]]
+* [[equivariant stable homotopy theory]]
+
+* [[rational homotopy theory]]
+
+* [[rational parameterized stable homotopy theory]]
 
 * [[p-adic homotopy theory]]
 
-* [[algebraic homotopy]]: In his talk at the 1950 ICM in Harvard, [[Henry Whitehead]] introduced the idea of [[algebraic homotopy]] theory and said
+* [[chromatic homotopy theory]]
 
-_"The ultimate aim of algebraic homotopy is to construct a purely
-  algebraic theory, which is equivalent to homotopy theory in the same sort of 
-  way that 'analytic' is equivalent to 'pure' projective geometry."_
 
-This theme was taken up  by Baues, (1988), using a type of abstract homotopy theory closely related to Ken Brown's [[category of fibrant objects|categories of fibrant objects]].  Whitehead's own work was extended by Ronnie Brown and Phil Higgins, see [[nonabelian algebraic topology]].
 
-*  [[homotopy type theory]]: A formalization of homotopy theory in terms of [[Martin-Löf dependent type theory]] is _[[homotopy type theory]]_.
+### Basic concepts in homotopy theory
 
-* [[higher structures]]
+* [[interval object]], 
 
-## Related entries ##
+  [[cylinder object]], [[path space object]]
 
-* [[homotopy theory FAQ]]
 
-* [[algebraic homotopy]]
-
-* [[proper homotopy theory]]
-
-* [[category of fibrant objects]]
-* [[category with weak equivalences]]
-* [[closed monoidal deformation retract]]
-* [[closed monoidal homotopical category]]
-* [[cylinder functor]], [[cocylinder]]
-* [[derived functor]]
-* [[deformation retract of a homotopical category]], [[neighborhood retract]]
-* [[Dold fibration]]
-* [[equivalence]]
-* [[folk model structure]]
-* [[fundamental groupoid]]
-* [[homological resolution]]
-* [[homotopical category]]
-* [[homotopical cohomology theory]]
 * [[homotopy]], [[homotopy group]]
-* [[homotopy category]]
-* [[homotopy limit]], [[homotopy colimit]]
-* [[homotopy coherent category theory]]
-* [[Hurewicz fibration]], [[Hurewicz connection]], [[Hurewicz cofibration]]
-* [[interval object]]
+
+* [[deformation retract]], [[neighborhood retract]]
+
+
+### Categorical homotopy theory
+
+
+* [[category with weak equivalences]]
+
+  [[homotopical category]], [[relative category]]
+
+* [[category of fibrant objects]], [[cofibration category]]
+
 * [[model category]]
+
+(...)
+
+* [[closed monoidal deformation retract]]
+
+* [[closed monoidal homotopical category]]
+
+* [[cylinder functor]], [[cocylinder]]
+
+* [[derived functor]]
+
+* [[deformation retract of a homotopical category]]
+
+* [[Dold fibration]]
+
+* [[equivalence]]
+
+* [[folk model structure]]
+
+* [[fundamental groupoid]]
+
+* [[homological resolution]]
+
+* [[homotopical category]]
+
+* [[homotopical cohomology theory]]
+
+* [[homotopy category]]
+
+* [[homotopy limit]], [[homotopy colimit]]
+
+* [[homotopy coherent category theory]]
+
+* [[Hurewicz fibration]], [[Hurewicz connection]], [[Hurewicz cofibration]]
+
+
+
 * [[model structure on crossed complexes]]
-* [[model structure on simplicial sets]], [[model structure on dendroidal sets]]
+
+* [[model structure on simplicial sets]], [[model structure on dendroidal 
+sets]]
+
 * [[path object]], [[path groupoid]], [[path n-groupoid]]
 
-* [[rational homotopy theory]], [[p-adic homotopy theory]]
 
 * [[test category]]
-* [[topology]]
+
+
 * [[weak equivalence]]
+
 
 ## References 
  {#References}
 
-Textbook accounts of homotopy theory for topological spaces:
+(See also the references at *[[algebraic topology]]* at *[[simplicial homotopy theory]]* and at *[[(infinity,1)-category theory|$(\infty,1)$-category theory]]*.)
+
+Textbook accounts of homotopy theory of [[topological spaces]]:
+
+* [[Robert E. Mosher]], and [[Martin C. Tangora]], *Cohomology operations and applications in homotopy theory*, Harper & Row, 1968, reprinted by [Dover 2008](https://store.doverpublications.com/0486466647.html) [GoogleBooks](https://www.google.com/books/edition/Cohomology_Operations_and_Applications_i/wu79f-7V_6AC)
+
+
+* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
 * [[George W. Whitehead]], *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
 
-* [[Robert E. Mosher]], and [[Martin C. Tangora]], *Cohomology operations and applications in homotopy theory*, Harper & Row, 1968, reprinted by [Dover 2008](https://store.doverpublications.com/0486466647.html) [GoogleBooks](https://www.google.com/books/edition/Cohomology_Operations_and_Applications_i/wu79f-7V_6AC)
+* {#Bredon93} [[Glen Bredon]], Chapter VII of: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+
+* [[Hans-Joachim Baues]], _Homotopy types_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland, 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], and [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer Science & Business Media, 2008 ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
 
 * [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics Vol. 127, American Mathematical Society, 2011 ([doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)])
 
-Exposition with an eye towards [[homotopy type theory]]:
 
-* {#Shulman17} [[Mike Shulman]], _The logic of space_, chapter in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
+
+  > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
+
+More abstract homotopy theory:
+
+* [[Klaus Heiner Kamps]], [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_, World Scientific 1997 ([doi:10.1142/2215](https://doi.org/10.1142/2215), [GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+
+* [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_, 2019
 
 Lecture notes:
+
+* [[William Dwyer]], _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf), [[Dwyer_HomotopyTheoryOfClassifyingSpaces.pdf:file]])
+
+* [[Jesper Michael Møller]], _Homotopy theory for beginners_, 2015 ([pdf](http://www.math.ku.dk/~moller/e01/algtopI/comments.pdf), [[Moller_HomotopyTheory.pdf:file]])
 
 * [[Urs Schreiber]], _[[Introduction to Homotopy Theory]]_ (2016)
 
 * {#Martins20} [[Yuri Ximenes Martins]], _Introduction to Abstract Homotopy Theory_ ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302))
 
 
-Survey:
+Introduction, from [[category theory]] to (mostly [[(infinity,1)-category theory|abstract]], [[simplicial homotopy theory|simplicial]]) homotopy theory:
 
-* {#Bredon93} [[Glen Bredon]], Chapter VII of: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+
+* {#Richter19} [[Birgit Richter]], _From categories to homotopy theory_, Cambridge Studies in Advanced Mathematics 188, Cambridge University Press 2020 ([doi:10.1017/9781108855891](https://doi.org/10.1017/9781108855891), [book webpage](https://www.math.uni-hamburg.de/home/richter/catbook.html), [pdf](https://www.math.uni-hamburg.de/home/richter/bookdraft.pdf))
+
+* [[Urs Schreiber]], _[[geometry of physics -- categories and toposes]]_
 
 
-* [[Klaus Heiner Kamps]], [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_, World Scientific 1997 ([doi:10.1142/2215](https://doi.org/10.1142/2215), [GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+Exposition with an eye towards [[homotopy type theory]]:
 
+* {#Shulman17} [[Mike Shulman]], _The logic of space_, chapter in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+
+See also:
 
 * {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015  ([pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf), [doi:10.1017/CBO9781139343329](https://doi.org/10.1017/CBO9781139343329))
 
-  (with emphasis on [[cubical objects]] such as in [[n-excisive functors]] and [[Goodwillie calculus]])
+  > (with emphasis on [[cubical objects]] such as in [[n-excisive functors]] and [[Goodwillie calculus]])
 
 
-* [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_, 2019
-
-* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
-
-  > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
-
-The original axiomatization of homotopy theory by [[model categories]] is due to
+The axiomatization of abstract homotopy theory by [[model categories]] is due to:
 
 * {#Quillen67} [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics 43, Berlin, New York, 1967
 
-The similar axiomatization involving the weaker structure of a [[calculus of fractions]] is due to
+Similar axiomatization involving the weaker structure of a [[calculus of fractions]]:
 
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
 
-A standard account of the modern form of [[simplicial homotopy theory]] is in
+Textbook accounts on [[simplicial homotopy theory]] (see there for more):
 
 * [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
+
 
 Formulation of abstract homotopy theory as the theory of [[(∞,1)-toposes]] is due to 
 
@@ -256,7 +328,7 @@ Formulation of abstract homotopy theory as the theory of [[(∞,1)-toposes]] is 
 
 and the formalization of this in the [[internal logic|internal language]] of [[homotopy type theory]] is due to
 
-* Univalent Foundations Project, _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
+* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
 A foundational set of lecture notes is developing in 
 
@@ -265,28 +337,9 @@ A foundational set of lecture notes is developing in
 
 See also:
 
-* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
-
-
-* H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
-
-* Jasper Moller, _Homotopy theory for beginners_ ([pdf](http://www.math.ku.dk/~moller/e01/algtopI/comments.pdf))
-
-* [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
-
-* {#Riehl14} [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
-
-* [[William Dwyer]], _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf))
-
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
 
-From [[category theory]] to [[homotopy theory]]:
-
-* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
-
-* {#Richter19} [[Birgit Richter]], _From categories to homotopy theory_, Cambridge Studies in Advanced Mathematics 188, Cambridge University Press 2020 ([doi:10.1017/9781108855891](https://doi.org/10.1017/9781108855891), [book webpage](https://www.math.uni-hamburg.de/home/richter/catbook.html), [pdf](https://www.math.uni-hamburg.de/home/richter/bookdraft.pdf))
-
-* [[Urs Schreiber]], _[[geometry of physics -- categories and toposes]]_
+* [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
 
 Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
@@ -300,6 +353,8 @@ and in
 More regarding the sociology of the field (such as its [[folklore]] results):
 
 * {#Barwick17} [[Clark Barwick]], _The future of homotopy theory_, 2017 ([pdf](http://www.maths.ed.ac.uk/~cbarwick/papers/future.pdf), [[BarwickFutureOfHomotopyTheory.pdf:file]])
+
+
 
 
 [[!redirects Homotopy Theory]]
