@@ -198,9 +198,15 @@ This theme was taken up  by Baues, (1988), using a type of abstract homotopy the
 ## References 
  {#References}
 
-Early textbook account:
+Textbook accounts of homotopy theory for topological spaces:
 
 * [[George W. Whitehead]], *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+
+* [[Robert E. Mosher]], and [[Martin C. Tangora]], *Cohomology operations and applications in homotopy theory*, Harper & Row, 1968, reprinted by [Dover 2008](https://store.doverpublications.com/0486466647.html) [GoogleBooks](https://www.google.com/books/edition/Cohomology_Operations_and_Applications_i/wu79f-7V_6AC)
+
+* [[Marcelo Aguilar]], [[Samuel Gitler]], and [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer Science & Business Media, 2008 ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
+
+* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics Vol. 127, American Mathematical Society, 2011 ([doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)])
 
 Exposition with an eye towards [[homotopy type theory]]:
 
