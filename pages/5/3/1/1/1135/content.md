@@ -142,7 +142,7 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * [[George Janelidze]], L&aacute;szl&oacute; M&aacute;rki, [[Walter Tholen]], _Semi-abelian categories_, J. Pure Appl. Alg. __168__, 2-3 (2002) 367-386, <a href="http://dx.doi.org/10.1016/S0022-4049(01)00103-7">doi</a>
 
-* [[Dominique Bourn]], [[Francis Borceux]], [[Mal'cev, protomodular, homological and semi-abelian categories]], Kluwer 2004.
+* [[Dominique Bourn]], [[Francis Borceux]], *[[Mal'cev, protomodular, homological and semi-abelian categories]]*, Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
 
 * Dominique Bourn, [[Maria Manuel Clementino]], _Categorical and topological aspects of semi-abelian theories_ , lecture notes Haute Bodeux 2007. ([pdf](http://www.math.yorku.ca/~tholen/HB07BournClementino.pdf))
 
