@@ -60,7 +60,8 @@ These are (both) referred to as the _Atiyah-Bott-Shapiro orientation_ (after [At
 
 The [[genus]] induced by $M Spin \to KO$ is the [[A-hat genus]], that induced by $M Spin^c \to KU$ is the [[Todd genus]].
 
-Of course $KU$ is also a [[complex oriented cohomology theory]] and as such canonically comes with an $E_\infty$-map $MU \to KU$ (see at [spin^c structure -- from almost complex structure](spin%5Ec+structure#FromAlmostComplexStructures)).
+{#OfCourse} Of course, $KU$ is also a [[complex oriented cohomology theory]] and as such canonically comes with a [[homomorphism]] of [[homotopy-commutative ring spectra]] $MU \to KU$ ([this general Prop.](complex+oriented+cohomology+theory#ComplexOrientationIsMUAlgebraStructure), see at [spin^c structure -- from almost complex structure](spin%5Ec+structure#FromAlmostComplexStructures)).
+
 
 On this level there is also the [[real oriented cohomology|real orientation]] of [[real K-theory]] given by a map 
 
