@@ -24,6 +24,10 @@
 * table of contents
 {:toc}
 
+\linebreak
+
+\linebreak
+
 > I believe that we lack another analysis properly geometric or linear  which expresses location directly as algebra expresses magnitude. 
 
 > [[G. W. Leibniz]] (letter to Huygens 1679, according to [Bredon 93, p. 430](#Bredon93))
@@ -1548,8 +1552,9 @@ Textbook accounts:
 
 * {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
-
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
+
+* {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989) ([pdf](https://pdfs.semanticscholar.org/6da4/9fba6462a5c3e6b528a8b3e8be3a1c1e743d.pdf))
 
