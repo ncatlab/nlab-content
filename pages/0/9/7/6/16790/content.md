@@ -66,7 +66,9 @@ where $\mathbb{R}^{p,1}$ is [[Minkowski spacetime]] (the brane [[worldvolume]]) 
 If $X_{d-(p+2)}$ is a smooth [[quotient space]] by the [[action]] of a [[finite subgroup of SU(2)]], then the corresponding [[cone brane]] is a brane "at an [[ADE-singularity]]".
 
 
-Examples and applications of such cone branes, in the context of [[M-theory on G2-manifolds]], are discussed in [Atiyah-Witten 01](#AtiyahWitten01).
+Examples and applications of such [[cone branes]], in the context of [[M-theory on G2-manifolds]], are discussed in [Atiyah-Witten 01](#AtiyahWitten01).
+
+See also at *[[flat space holography]]*.
 
 ## Examples
  {#Examples}
