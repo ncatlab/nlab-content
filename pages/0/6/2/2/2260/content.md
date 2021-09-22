@@ -1,20 +1,28 @@
 
-# Borceux--Bourn
-* table of contents
-{: toc}
 
-## Introduction
+This entry is about the book:
 
-Borceux--Bourn is the book
 
-* [[Francis Borceux]], [[Dominique Bourn]], _Mal'cev, protomodular, homological and semi-abelian categories_, Mathematics and Its Applications __566__, Kluwer 2004
+
+* [[Francis Borceux]], [[Dominique Bourn]], 
+
+  **Mal'cev, protomodular, homological and semi-abelian categories** 
+
+  Mathematics and Its Applications __566__, 
+
+  Kluwer 2004
+
+  [doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3)
+
+on the generalization of tools of [[homological algebra]], such as [[diagram chasing lemmas]], to non-[[abelian category|abelian]] contexts such as [[Mal'cev categories]], [[protomodular categories]], [[semi-abelian categories]] and [[homological categories]].
 
 From the introduction:
 
-> The most striking successes of category theory, as far as clarification of mathematical situations is concerned, are probably the theory of abelian categories and the theory of toposes. This is not too amazing since both theories are closely related to the development of sheaf theory, a context in which it is desirable to get rid of the usual notion of element.
-> But up to recently, category theory did not provide any comparable insight in General Algebra, a domain in which element-based mathematics remains the slogan. In particular, category theory could not provide a structural tool able to grasp, even in the most representative category of classical algebra - namely, the category $\mathrm{Gp}$ of groups - the deep essence of the notion of normal subobject: namely, an equivalence class for a congruence and not just the kernel of a morphism. 
+> The most striking successes of category theory, as far as clarification of mathematical situations is concerned, are probably the theory of [[abelian categories]] and the theory of [[toposes]]. This is not too amazing since both theories are closely related to the development of sheaf theory, a context in which it is desirable to get rid of the usual notion of element.
 
-> And category theory could not grasp either the conceptual foundations of the homological lemmas: the Nine Lemma, the Snake Lemma, which remain valid and strongly meaningful in the category $\mathrm{Gp}$ of groups, even if this category does not belong to the abelian setting in which these lemmas are generally proved in a significant categorical way.
+> But up to recently, category theory did not provide any comparable insight in General Algebra, a domain in which element-based mathematics remains the slogan. In particular, category theory could not provide a structural tool able to grasp, even in the most representative category of classical algebra - namely, the category [[Grp|$\mathrm{Gp}$]] of groups - the deep essence of the notion of normal [[subobject]]: namely, an equivalence class for a congruence and not just the kernel of a morphism. 
+
+> And category theory could not grasp either the conceptual foundations of the [[diagram chasing lemmas - contents|homological lemmas]]: the Nine Lemma, the [[snake lemma|Snake Lemma]], which remain valid and strongly meaningful in the category $\mathrm{Gp}$ of groups, even if this category does not belong to the abelian setting in which these lemmas are generally proved in a significant categorical way.
 
 > Of course, there have been since a long time attempts to provide an axiomatic context in which to get the isomorphism theorems, the decomposition theorems or the previous homological lemmas for the varieties of Universal Algebra: Baer (1947, [6]), Goldie (1952, [48]), Atiyah (1956, [5]), Higgins (1956, [54]), Kurosh (1959, [73]), Hilton-Ledermann (1960, [55]), Eckmann-Hilton (1962, [40]), Tsalenko (1967, [92]), but also Hofmannn (1960, [56]), Fr&#246;hlich (1961, [46]), Huq (1968, [57]), Gerstenhaber (1970, [47]), Burgin (1970, [34]), Orzech (1972, [83]).
 
@@ -299,7 +307,9 @@ Mat. Sbornik __73__ (1967) 564-584
 
 category: reference
 
-[[!redirects Borceux-Bourn]]
-[[!redirects Borceux–Bourn]]
-[[!redirects Borceux--Bourn]]
 [[!redirects Mal'cev, protomodular, homological and semi-abelian categories]]
+
+
+[[!redirects Borceux-Bourn]]
+[[!redirects Borceux--Bourn]]
+
