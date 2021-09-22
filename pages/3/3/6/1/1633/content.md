@@ -157,11 +157,9 @@ In fact this applies also to [[locally Euclidean spaces]] which are not necessar
 
 
 
-
-+-- {: .num_example #CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
-###### Nonexample
-**(countably infinite products of non-compact spaces are not locally compact)**
-
+\begin{example}\label{CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
+**(countably infinite products of non-compact spaces are NOT locally compact)**
+\linebreak
 Let $X$ be a [[topological space]] which is not [[compact topological space|compact]]. Then the [[product topological space]] of a [[countable set|countably infinite set]] of copies of $X$ 
 
 $$
@@ -169,12 +167,10 @@ $$
 $$
 
 is not locally compact.
-
-=--
+\end{example}
 
 +-- {: .proof}
 ###### Proof
-
 
 Since the [[continuous image of a compact space is compact]], and since the [[projection]] maps $p_i \;\colon\; \underset{\mathbb{N}}{\prod} X \longrightarrow X$ are continuous, it follows that every compact subspace of the product space is contained in one of the form
 
@@ -203,12 +199,10 @@ with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\math
 
 =--
 
-+-- {: .num_example #RationalsAreNotLocallyCompact}
-###### Nonexample
-
+\begin{example}\label{RationalsAreNotLocallyCompact}
+**(non-example)**
 The space of [[rational numbers]] as a subspace of the [[real numbers]] with the Euclidean topology is not locally compact since its compact subsets all have empty interior.
-
-=--
+\end{example}
 
 ## Properties
 
@@ -250,7 +244,7 @@ These hypotheses are of course pretty severe; important examples of such restric
 
 In any event, the category of locally compact spaces does not admit general infinite products. If it did, then so would the category of locally compact Hausdorff spaces, and so would the category of locally compact Hausdorff abelian groups. However, there is no product of countably many copies of the real numbers in $LCHAb$, for if there were, then by utilizing the universal property of the product, it would become a Hausdorff TVS over the real numbers, in contradiction to the fact that the only locally compact Hausdorff TVS are finite-dimensional. 
 
-Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated topological spaces]]: they are precisely the colimits in $Top$ of diagrams of locally compact spaces. 
+Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated topological spaces]]: they are precisely the colimits in $Top$ of diagrams of locally compact spaces:
 
 \begin{prop}\label{LocallyCompactHausdorffSpacesAreCompactlyGeneratedWeaklyHausdorff}
   Every [[locally compact Hausdorff space]] is
@@ -260,7 +254,10 @@ Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not a
 
 ([Strickland 09, Prop. 1.7](compactly+generated+topological+space#Strickland09))
 
-
+\begin{proposition}\label{HausdorffkSpacesAreQuotientsOfLCHausSpaces}
+  A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
+\end{proposition}
+(e.g. [Piccinini 92, Thm. B.4](#Piccinini92))
 
 ### Gelfand duality
 
@@ -270,7 +267,18 @@ Under [[Gelfand duality]] the category of compact Hausdorff topological spaces i
 
 ### Further properties 
 
+\begin{proposition}
 Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever they are also [[second-countable space|second-countable]].
+\end{proposition}
+
+\begin{example}\label{LocallyCompactHausdorffSpacesAreCompletelyRegular}
+  Locally compact Hausdorff spaces are [[completely regular topological spaces]].
+\end{example}
+(e.g. [Engelking 1989, Thm. 3.3.1](#Engelking89))
+\begin{remark}
+  Example \ref{LocallyCompactHausdorffSpacesAreCompletelyRegular} plays a key role in discussion of [[slice theorem|slice theorems]], see there for more.
+\end{remark}
+
 
 
 ## Related concepts
@@ -285,6 +293,13 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 
 * [[vanishing at infinity]]
 
+## References
+
+Textbook accounts:
+
+* {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
+
+* {#Piccinini92} [[Renzo A. Piccinini]], Appendix B in: *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
 
 
 [[!redirects locally compact topological space]]
