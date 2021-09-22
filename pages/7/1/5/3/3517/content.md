@@ -23,6 +23,9 @@ The **five lemma** is one of the basic lemmas of [[homological algebra]], useful
 
 ## Statement
 
+
+### In abelian categories
+
 Let $\mathcal{A}$ be an [[abelian category]].
 Consider a [[commutative diagram]] in $\mathcal{A}$  of the form 
 
@@ -75,17 +78,76 @@ demonstrating that $b$ is in the image of $f_3$.
 Hence $f_3$ is an epimorphism.
 =--
 
-+-- {: .num_remark}
-###### Remark 
+\begin{remark}\label{FiveLemmaForNonabelianGroups}
+**(five-lemma for [[non-abelian groups]])**
+\linebreak
+The five lemma (Prop. \ref{FiveLemma}) also holds in the category [[Grp]] of all [[groups]] (including [[non-abelian groups]]), by essentially the same diagram-chasing proof. In fact, [[Grp]], while not [[abelian category|abelian]], is still a [[homological category]] (by [this Example](homological+category#CategoryOfGroupsIsHomological)); and the five-lemma generally extends to homological categories, see [below](#InHomologicalCategories).
+\end{remark}
 
-The five lemma also holds in the category [[Grp]] of [[groups]], by essentially the same diagram-chasing proof. 
+\begin{remark}
+One may avoid appealing to the [[Freyd-Mitchell embedding theorem]] in the above proof if one works with [[element in an abelian category|generalized elements]] or uses the device of [[internal logic|interpreting]] [[regular logic]] in the given abelian category. The former requires a bit of manual reformulation, while the latter is almost automatic, as the element-based proof given above only uses (constructive) regular reasoning.
+\end{remark}
 
-=-- 
 
-+-- {: .num_remark}
-###### Remark
-One can avoid appealing to the [[Freyd-Mitchell embedding theorem]] if one works with [[element in an abelian category|generalized elements]] or uses the device of [[internal logic|interpreting]] [[regular logic]] in the given abelian category. The former requires a bit of manual reformulation, while the latter is almost automatic, as the element-based proof given above only uses (constructive) regular reasoning.
-=--
+### In homological categories
+ {#InHomologicalCategories}
+
+\begin{prop}\label{FiveLemmaInHomologicalCategories}
+**([[five lemma]] in [[homological categories]])**
+\linebreak
+In any [[homological category]], given a [[commuting diagram]] of the form
+
+\begin{tikzcd}
+  A_1
+  \ar[r]
+  \ar[d, "\sim"{xshift=-5pt, yshift=-3pt, sloped}]
+  &
+  B_1
+  \ar[d, "\sim"{xshift=-5pt, yshift=-3pt, sloped}]
+  \ar[r]
+  &
+  C_1
+  \ar[r]
+  \ar[d, dashed]
+  & 
+  D_1
+  \ar[r]
+  \ar[d, "\sim"{xshift=-5pt, yshift=-3pt, sloped}]
+  & 
+  E_1
+  \ar[d, "\sim"{xshift=-5pt, yshift=-3pt, sloped}]
+  \\
+  A_1
+  \ar[r]
+  &
+  B_1
+  \ar[r]
+  &
+  C_1
+  \ar[r]
+  & 
+  D_1
+  \ar[r]
+  & 
+  E_1
+\end{tikzcd}
+
+such that
+
+* both rows are [[long exact sequence|exact]];
+
+* all outer vertical morphisms are [[isomorphisms]]
+
+then the middle vertical morphism (dashed) is also an [[isomorphism]].
+\end{prop}
+(e.g. [Janelidze 2009, Thm. 1.4.4](#Janelidze09))
+
+\begin{example}\label{FiveLemmaInHomologicalCategoryOfNonabelianGroups}
+**(five-lemma in the homological category of non-abelian groups)**
+\linebreak
+Since the category [[Grp]] of all [[groups]] (including [[non-abelian groups]]) is [[homological category|homological]] (by [this Example](homological+category#CategoryOfGroupsIsHomological)), the classical fact that the five lemma holds in [[Grp]] (Rem. \ref{FiveLemmaForNonabelianGroups}) is an example of Prop. \ref{FiveLemmaInHomologicalCategories}.
+\end{example}
+
 
 ## Immediate consequences
 
@@ -145,6 +207,7 @@ $$
 
 
 
+
 ### Short split five lemma
 
 The **short split five lemma** is a statement usually stated in the setup of [[semiabelian categories]]:
@@ -197,7 +260,7 @@ In nonabelian contexts:
 
 * [[Francis Borceux]], [[Dominique Bourn]], _[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004
 
-* {#Janelidze09} [[Tamar Janelidze]], *Foundations of relative non-abelian homological algebra*, 2009 ([pdf](https://open.uct.ac.za/bitstream/item/4777/thesis_sci_2009_janelidze_t.pdf?sequence=1), [[Janelidze_NonabelianHomologicalAlgebra.pdf:file]] [hdl:11427/4891](http://hdl.handle.net/11427/4891))
+* {#Janelidze09} [[Tamar Janelidze]], *Foundations of relative non-abelian homological algebra*, 2009 ([pdf](https://open.uct.ac.za/bitstream/item/4777/thesis_sci_2009_janelidze_t.pdf?sequence=1), [[Janelidze_NonabelianHomologicalAlgebra.pdf:file]], [hdl:11427/4891](http://hdl.handle.net/11427/4891))
 
 
 The short 5-lemma also appears in various topological algebra contexts; see for example 
