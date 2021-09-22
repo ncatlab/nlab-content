@@ -3,10 +3,9 @@
 
 ## Selected writings
 
-On [[topological G-spaces]], the [[equivariant Tietze extension theorem]], ...:
+On [[topological G-spaces]], [[classifying spaces]], the [[equivariant Tietze extension theorem]], ...:
 
-* {#Palais60} [[Richard Palais]], 
-_The classification of $G$-spaces_, Memoirs of the American Mathematical Society, Number 36, 1960 ([pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf))
+* {#Palais60} [[Richard Palais]], *The classification of $G$-spaces*, Memoirs of the AMS **36**, 1960  ([ISBN:978-0-8218-9979-3](https://bookstore.ams.org/memo-1-36) [pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf), [[Palais_ClassificationOfGSpaces.pdf:file]])
 
 On the [[slice theorem]]:
 
