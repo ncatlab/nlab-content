@@ -80,29 +80,58 @@ Here we are using "image" in the sense of "the smallest monic through which a mo
 
 Examples of regular categories include the following:
 
-* [[Set]] is a regular category. 
+\begin{example}
+[[Set]] is a regular category. 
+\end{example}
 
-* More generally, any [[topos]] is regular. 
+\begin{example}
+More generally, any [[topos]] is regular. 
+\end{example}
 
-* Even more generally, a [[locally cartesian closed category]] with [[coequalizers]] is regular, and so any [[quasitopos]] is regular. 
+\begin{example}
+Even more generally, a [[locally cartesian closed category]] with [[coequalizers]] is regular, and so any [[quasitopos]] is regular. 
+\end{example}
 
-* The category of [[algebra over a Lawvere theory|models]] of any finitary [[algebraic theory]] (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of [[abelian group]]s. 
+\begin{example}
+The category of [[algebra over a Lawvere theory|models]] of any finitary [[algebraic theory]] (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of [[abelian groups]].
+\end{example}
 
-* Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. For example, the category of [[frames]] $Frm \simeq Loc^{op}$ is regular, and the category of [[compact Hausdorff spaces]] is regular. A proof may be found [here](/nlab/show/colimits+in+categories+of+algebras#exact). 
+\begin{example}\label{CategoryOfGroupsIsRegular}
+  The category [[Grp]] of all [[groups]] (including [[non-abelian groups]]) is regular.
+\end{example}
+(e.g. [Borceux 1994 II, Ex. 2.4.3](#Borceux94))
 
-* Any [[abelian category]] is regular. 
+\begin{example}
+Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. For example, the category of [[frames]] $Frm \simeq Loc^{op}$ is regular, and the category of [[compact Hausdorff spaces]] is regular. A proof may be found [here](/nlab/show/colimits+in+categories+of+algebras#exact). 
+\end{example}
 
-* If $C$ is regular, then so is the [[functor category]] $C^D$ for any category $D$. 
+\begin{example}
+Any [[abelian category]] is regular. 
+\end{example}
 
-* If $C$ is regular and $T$ is a [[Lawvere theory]], then the category $Mod(T, C)$ of $T$-models in $C$ is also regular. See Theorem 5.11 in Barr's [Exact Categories](#Barr). 
+\begin{example}
+If $C$ is regular, then so is the [[functor category]] $C^D$ for any category $D$. 
+\end{example}
 
-* A [[slice]] of a regular category is also regular; cf. [[locally regular category]]. So is any [[co-slice]]. (Source: [[Borceux-Bourn]], Appendix section 5.) 
+\begin{example}
+If $C$ is regular and $T$ is a [[Lawvere theory]], then the category $Mod(T, C)$ of $T$-models in $C$ is also regular. See Theorem 5.11 in Barr's [Exact Categories](#Barr). 
+\end{example}
 
-* If $Q$ is a quasitopos, then $Q^{op}$ is regular. Source: A2.6.3(i) in the [[Elephant]]. 
+\begin{example}
+A [[slice]] of a regular category is also regular; cf. [[locally regular category]]. So is any [[co-slice]]. (Source: [[Borceux-Bourn]], Appendix section 5.) 
+\end{example}
 
-* [[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [here](/nlab/show/subspace+topology#pushout). 
+\begin{example}
+If $Q$ is a quasitopos, then $Q^{op}$ is regular. Source: A2.6.3(i) in the [[Elephant]]. 
+\end{example}
 
-* The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (but is not, however, locally cartesian closed, nor is it [[exact category|exact]]) ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)) 
+\begin{example}
+[[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [here](/nlab/show/subspace+topology#pushout). 
+\end{example}
+
+\begin{example}
+The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (but is not, however, locally cartesian closed, nor is it [[exact category|exact]]) ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)) 
+\end{example}
 
 
 Examples of categories which are **not regular** include 
@@ -258,9 +287,11 @@ Some of the historical context is provided in the introduction of
 
 * [[Peter Johnstone]], _Topos Theory_ (1977)
 
-A nice textbook treatment can be found in chapter 2 of
+A nice textbook treatment can be found in 
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra 2: Categories and Structures_ , Cambridge UP 1994.
+* {#Borceux94} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2:: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
+
 
 More streamlined are
 
