@@ -7,7 +7,12 @@ Introducing the [[BFSS matrix model]] ([[M-theory]] as [[D0-brane]] [[quantum me
 
 * {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
 
-* [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:https://arxiv.org/abs/hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
+* [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
+
+In view of [[flat space holography]]:
+
+* [[Leonard Susskind]], *Holography in the flat space limit*, AIP Conf.Proc. 493 (1999) 1, 98-112,  ([spire](https://inspirehep.net/literature/482388), [arXiv:hep-th/9901079](https://arxiv.org/abs/hep-th/9901079), [doi:10.1063/1.1301570](https://doi.org/10.1063/1.1301570))
+
 
 On [[black holes in string theory]] via the [[BFSS matrix model]]:
 
