@@ -260,7 +260,7 @@ Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a we
 
 Textbook accounts:
 
-* {#Engelking89} Ryszard Engelking, *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
+* {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
 
 [[!redirects completely regular]]
 [[!redirects completely regular space]]
