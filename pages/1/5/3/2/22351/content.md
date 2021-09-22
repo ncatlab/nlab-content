@@ -41,7 +41,10 @@ In [[physics]] one typically considers this for $G$ a [[gauge group]], in which 
 
 There is the following [[general abstract]] definition of slices via [[adjunctions]] (which however seems not to be made explicit in existing literature):
 
-\begin{defn} Let $H \subset G$ be a [[subgroup]] inclusion such that restricting given [[actions]] ([[internalization|internal]] to a given ambient [[category]]) of $G$ to $H$ has a [[left adjoint]] $G \times_{H} (-)$ (e.g. for [[topological G-spaces]] the [topological induced action](topological+G-space#induced_action)).
+\begin{defn}
+**(HSlice)**
+\linebreak
+Let $H \subset G$ be a [[subgroup]] inclusion such that restricting given [[actions]] ([[internalization|internal]] to a given ambient [[category]]) of $G$ to $H$ has a [[left adjoint]] $G \times_{H} (-)$ (e.g. for [[topological G-spaces]] the [topological induced action](topological+G-space#induced_action)).
 
 Then an *$H$-slice* in a $G$-action $U$ is an $H$-subaction inclusion $S \overset{i}{\hookrightarrow} U$ whose induction/restriction-[[adjunct]] is an [[isomorphism]]:
 
@@ -74,7 +77,8 @@ a [[topological subspace]] $S \subset X$ is called:
 
   1. and $H$ is maximal with this property, in that the following map is an [[isomorphism]] (i.e. [[homeomorphism]]):
 
-     $$
+     \[
+       \label{IsomorphismDefiningASlice}
        \array{
          G \times_H S
          & 
@@ -92,7 +96,7 @@ a [[topological subspace]] $S \subset X$ is called:
          &
          g \cdot s
        }
-     $$
+     \]
 
   1. whose image $G\cdot S \subset X$ is [[open subset|open]];
 
@@ -186,17 +190,130 @@ Let
 Then for every point $x \in X$ there exists a slice through $x$ (Def. \ref{SlicesDef}).
 \end{prop}
 
-This is due to [Palais 61, Prop. 2.3.1](#Palais61).
+This is due to [Palais 61, Prop. 2.3.1](#Palais61), recalled as [Karppinen 2016, Thm. 6.2.7](#Karppinen16).
 
 \begin{remark}\label{PalaisProofBeyondLocalCompactness}
-  The thrust of [Palais 61](#Palais61) is to state Prop. \ref{ExistenceOfSlicesInProperActionsOnLocallyCompactSpaces} without the assumption that $X$ be [[locally compact topological space|locally compact]], in which case the definition of "[[proper action]]" needs to be strengthened ("[Palais proper action](proper+action#PalaisProperness)", [Palais 61, Def. 1.2.2](#Palais61)).
+  The thrust of [Palais 61](#Palais61) is to state Prop. \ref{ExistenceOfSlicesInProperActionsOnLocallyCompactSpaces} without the assumption that $X$ be [[locally compact topological space|locally compact]], in which case the definition of "[[proper action]]" needs to be strengthened ("[Palais proper action](proper+action#PalaisProperness)", [Palais 61, Def. 1.2.2](#Palais61)). Under the assumption of local compactness, Palais' more general statement reduces as above, see [Karppinen 2016, Rem. 5.2.4](#Karppinen16).
 \end{remark}
 
 For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to be a [[linear representation]] (e.g. [tomDieck 87, Thm. 5.6](#tomDieck87)).
 
-##Examples
+## Examples and applications
 
-* If time evolution on some [[Lorentzian manifold]] is given as an $\mathbb{R}^1$-action with [[timelike]] flow lines, then slices ("1-slices") for this action are known as [[Cauchy surfaces]].
+### General
+
+\begin{example}
+If time evolution on some [[Lorentzian manifold]] is given as an $\mathbb{R}^1$-action with [[timelike]] flow lines, then slices ("1-slices") for this action are known as *[[Cauchy surfaces]]*.
+\end{example}
+
+### Principal bundles
+ {#PrincipalBundles}
+
+\begin{proposition}\label{SlicesOfFreeActionsThroughEachPointImplyPrincipalQuotient}
+**([[slice theorem]] implies that [[free action|free]] [[quotient space|quotient]] is [[principal bundle]])**
+\linebreak
+Consider a [[topological G-space]] $P$ such that 
+
+1. the [[group action|action]] by $G$ is [[free action|free]],
+
+1. there exist slices *through* each $p \in P$ (Def. \ref{SlicesDef}).
+
+Then the [[quotient space]] [[coprojection]] $P \xrightarrow{\;q\;} P/G$ is a [[locally trivial fiber bundle]], in fact a $G$-[[principal bundle]].
+\end{proposition}
+([Palais 1961, p. 315, Sec. 4.1](#Palais61))
+\begin{proof}
+  We need to show that for each point $x \in P/G$ there exists an [[open neighbourhood]] $x \,\in\, U_x \,\subset\, P/G$ such that its [[preimage]] under the [[coprojection]] is [[equivariant function|equivariantly]] [[homeomorphism|homeomorphic]] to its [[product space]] with $G$:
+\[
+  \label{ConditionToBeShownInProofOfPrincipalityFromSliceTheorem} 
+  G \times U _x 
+    \;\simeq\; 
+  q^{-1}(U_x)
+  \;\;\;\;\;\;
+  \in
+  \;
+  G Act(TopSp)
+  \,.
+\]
+
+Now, picking any [[preimage]] $\hat x \,\in\, q^{-1}\big(\{x\}\big) \,\subset\, P$, 
+there exists, by assumption, a $G_{\hat x}$-slice $S_{\hat x} \,\subset\, P$ through an [[open neighbourhood]] $\hat x \in \widehat{U}_{\hat x} \,\subset\, P$. But since the $G$-action is assumed to be [[free action|free]], the [[stabilizer subgroup]] $G_{\hat x} \,\simeq\, 1$ is necessarily the [[trivial group]], so that the defining property (eq:IsomorphismDefiningASlice) of the slice is:
+\[
+  \label{LocalTrivializationInProofOfPrincipalityFromSliceTheorem}
+  \array{
+    G \times S_{\hat x} 
+    &
+    \xrightarrow{ \;\; \sim \;\; }
+    &
+    \widehat{U}_{\hat x}
+    & 
+    \underset{open}{\subset} 
+    \;
+    P
+    \\
+    (g, p)
+    &\mapsto&
+    g \cdot p
+    \mathrlap{\,.}
+  }
+\]
+
+Setting
+\[
+  \label{OpenChartInProofOfPrincipalityFromSliceTheorem}
+  U_x
+  \;\coloneqq\;
+  \widehat{U}_{\hat x}/G
+  \;\subset\;
+  P/G  
+  \,,
+\]
+observe that this implies:
+$$
+  q^{-1}(U_x)
+  \;\simeq\;
+  \widehat{U}_{\hat x}
+  \,.
+$$
+and this implies the claim:
+
+1. $U_x \,\subset\, P/G$ is an [[open subset]]
+
+   (since $\widehat U_{\hat x} \,\subset\, P$ is [[open subset|open]]  and using  the definition of the [quotient topology](quotient+space#QuotientTopologicalSpace));
+
+1. $U_x$ satisfies the required condition (eq:ConditionToBeShownInProofOfPrincipalityFromSliceTheorem)
+
+   (since this is now the slice condition (eq:LocalTrivializationInProofOfPrincipalityFromSliceTheorem)),
+
+
+(In fact, the slice $S_x$ we used in this argument gives the function
+$
+  U_x \xrightarrow{\;\sim\;} S_x \xhookrightarrow{\;} P
+$
+which is the [[local section]] that exhibits the [[local trivialization]].)
+\end{proof}
+
+As a corollary:
+
+\begin{prop}\label{FreeAndProperLieGroupActionsOnLCHSpacesArePrincipal}
+**([[free action|free]] and [[proper action|proper]] [[Lie group]] [[group action|actions]] on [[locally compact Hausdorff spaces]] are [[locally trivial bundle|locally trivial]])**
+\linebreak
+Consider a [[topological G-space]] $P$ such that 
+
+1. $G$ carries the structure of a [[Lie group]],
+
+1. $P$ is a [[locally compact Hausdorff space]],
+
+1. the [[group action|action]] by $G$ is [[free action|free]] and [[proper action|proper]].
+
+Then the [[quotient space]] [[coprojection]] $P \xrightarrow{q} P/G$ is a $G$-[[principal bundle]].
+\end{prop}
+\begin{proof}
+  By Prop. \ref{ExistenceOfSlicesInProperActionsOnLocallyCompactSpaces} the assumptions imply that through each point there exists a slice, so that the claim follows by Prop. \ref{SlicesOfFreeActionsThroughEachPointImplyPrincipalQuotient}.
+\end{proof}
+
+\begin{remark}
+  Due to Prop. \ref{FreeAndProperLieGroupActionsOnLCHSpacesArePrincipal}, some authors *define* a $G$-[[principal bundle]] to be a free and proper action on a locally compact Hausdorff space, without mentioning local trivializability (e.g. [Raeburn & Williams 1991, Def. 2.1](https://www.jstor.org/stable/24896249 )).
+\end{remark}
 
 ## Related concepts
 
@@ -214,8 +331,7 @@ For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to
 
 Original discussion:
 
-* [[Andrew Gleason]], _Spaces With a Compact Lie Group of Transformations_, Proceedings of the American Mathematical Society
-Proceeding, Vol. 1, No. 1 (Feb., 1950), pp. 35-43 ([jstor:2032430](https://www.jstor.org/stable/2032430), [doi:10.2307/2032430](https://doi.org/10.2307/2032430))
+* [[Andrew Gleason]], _Spaces With a Compact Lie Group of Transformations_, Proceedings of the American Mathematical Society Proceeding, Vol. 1, No. 1 (Feb., 1950), pp. 35-43 ([jstor:2032430](https://www.jstor.org/stable/2032430), [doi:10.2307/2032430](https://doi.org/10.2307/2032430))
 
 * [[Deane Montgomery]], [[Chung Tao Yang]], _The existence of a slice_, Ann. of Math. 65 (1957), 108-116 ([jstor:1969667](https://www.jstor.org/stable/1969667), [doi:10.2307/1969667](https://doi.org/10.2307/1969667))
 
