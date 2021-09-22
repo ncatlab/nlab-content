@@ -35,6 +35,10 @@ The _[[BMN matrix model]]_ ([BMN 02, Section 5 and Appendix B](#BerensteinMaldac
 
 * [[M-wave]]
 
+## Related concepts
+
+* [[flat space holography]]
+
 
 ## References
 
