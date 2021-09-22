@@ -24,9 +24,13 @@ On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactifi
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv. Theor. Math. Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
+On [[flat space holography]]:
+
+* [[Jan de Boer]], Sergey N. Solodukhin, *A holographic reduction of Minkowski space-time*, Nucl. Phys. B665 (2003) 545-593 ([arXiv:hep-th/0303006](https://arxiv.org/abs/hep-th/0303006))
+
 
 Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally of [[holographic entanglement entropy]] in [[3d quantum gravity]]/[[AdS3/CFT2]] via [[Wilson line observables]] in [[Chern-Simons theory]]:
 
 
-* [[Jan de Boer]], Juan I. Jottar, _Entanglement Entropy and Higher Spin Holography in $AdS_3$_, 	JHEP 1404:089, 2014 ([arXiv:1306.4347](https://arxiv.org/abs/1306.4347))
+* [[Jan de Boer]], Juan I. Jottar, _Entanglement Entropy and Higher Spin Holography in $AdS_3$_, JHEP 1404:089, 2014 ([arXiv:1306.4347](https://arxiv.org/abs/1306.4347))
 category: people
