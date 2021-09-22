@@ -33,7 +33,8 @@ A recent independent development is the work of [[Alexander Rosenberg]] listed b
 
 ## References
 
-* [[Francis Borceux]], [[Dominique Bourn]], [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]], Mathematics and Its Applications __566__, Kluwer 2004
+* [[Francis Borceux]], [[Dominique Bourn]], *[[Mal'cev, protomodular, homological and semi-abelian categories]]*, Mathematics and Its Applications __566__,  Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
+
 
 * [[George Janelidze|G. Z. Janelidze]], _On [[satellites]] in arbitrary categories_, Bull. Georgian Acad. Sci. __82__ (1976), no. 3, 529-532, in Russian, with a reprint translated in English at [arXiv:0809.1504](http://front.math.ucdavis.edu/0809.1504).
 
