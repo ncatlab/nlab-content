@@ -82,10 +82,12 @@ there is a closed neighbourhood of $x$ that is contained in $U$.
 In other words, the closed neighbourhoods of $x$
 form a local base (a base of the [[neighbourhood filter]]) at $x$.
 =--
-+-- {: .un_remark #regularOpenWarning}
-###### Warning
+
+\begin{remark}\label{regularOpenWarning}
+**(Warning)**
+\linebreak
 It is *not* sufficient that the regular open neighbourhoods themselves form a local base of each point; see Counterexample \ref{dppesFriendCounterexample}. It\'s the *closures* of the regular open neighbourhoods (which are arbitrary closed neighbourhoods) that form the basis. But compare semiregular spaces [below](#semiregular).
-=--
+\end{remark}
 
 In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}. Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
 
@@ -177,17 +179,13 @@ have the required properties.
 
 =--
 
-
-+-- {: .num_example #KtopCounterexample}
-###### Counter-Example
-
+\begin{example}\label{KtopCounterexample}
+**(counter example)**
+\linebreak
 The [[real numbers]] equipped with their [[K-topology]] $\mathbb{R}_K$ are a [[Hausdorff topological space]] which is not a [[regular Hausdorff space]] (hence in particular not a [[normal Hausdorff space]]).
+\end{example}
 
-=--
-
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 By construction the K-topology is [[finer topology|finer]] than the usual [[Euclidean space|euclidean]] [[metric topology]]. Since the latter is Hausdorff, so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that they do not have disjoint [[open neighbourhoods]].
 
 But this is the case essentially by construction: Observe that 
@@ -214,13 +212,11 @@ is a [[closed subset]] of $\mathbb{R}_K$.
 
 
 But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsilon) \backslash K$ for some positive real number $\epsilon$. There exists then $n \in \mathbb{N}_{\geq 0}$ with $1/n \lt \epsilon$ and $1/n \in K$. An open neighbourhood of $K$ needs to contain an open interval around $1/n$, and hence will have non-trivial intersection with $(-\epsilon, \epsilon)$. Therefore $\{0\}$ and $K$ may not be separated by disjoint open neighbourhoods, and so $\mathbb{R}_K$ is not normal.
+\end{proof}
 
-
-
-=-- 
-
-+-- {: .num_example #dppesFriendCounterexample}
-###### Counter-Example
+\begin{example}\label{dppesFriendCounterexample}
+**(counter example)**
+\linebreak
 Let $\bigl((0, 1)\times(0, 1)\bigr)\cup\{0\}$ be equipped with the Euclidean topology on $(0, 1)\times(0,1)$ and have the sets of the form $(0, 1/2)\times(0, \varepsilon)\cup\{0\}$ (for $\varepsilon \in (0, 1)$) as a basis of open neighbourhoods for the point $0$.
 
 * This space is not regular since we cannot separate $0$ from $[1/2, 1)\times(0,1)$
@@ -228,7 +224,17 @@ Let $\bigl((0, 1)\times(0, 1)\bigr)\cup\{0\}$ be equipped with the Euclidean top
 * The provided basis for the neighbourhoods of $0$ already is a system of regular open sets.
 
 Therefore, this space has the property that every point has a neighbourhood basis of regular open sets (and consequently, the space is semiregular, an even weaker property), but $0$ does not have a neighbourhood basis of closed sets (and consequently, the space is *not* regular).  The problem is that, while every basic neighbourhood of $0$ (and therefore every neighbourhood of $0$ whatsoever) contains a regular open neighbourhood of $0$, none of these basic neighbourhoods contains the closure of any of these regular open neighbourhoods (or any other closed neighbourhood of $0$).
-=--
+\end{example}
+
+
+
+\begin{example}\label{LocallyCompactHausdorffSpacesAreCompletelyRegular}
+  [[locally compact Hausdorff space|Locally compact Hausdorff spaces]] are completely regular.
+\end{example}
+(e.g. [Engelking 1989, Thm. 3.3.1](#Engelking89))
+\begin{remark}
+  Example \ref{LocallyCompactHausdorffSpacesAreCompletelyRegular} plays a key role in discussion of [[slice theorem|slice theorems]], see there for more.
+\end{remark}
 
 
 ## Properties
@@ -249,6 +255,12 @@ Every regular space comes with a naturally defined (point-point) [[apartness rel
 
 Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a weaker condition than regularity), then it has an apartness relation defined by $x \# y$ if there are disjoint open sets containing $x$ and $y$.  If $X$ is regular, then this coincides with the above-defined apartness.
 
+
+## References
+
+Textbook accounts:
+
+* {#Engelking89} Ryszard Engelking, *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
 
 [[!redirects completely regular]]
 [[!redirects completely regular space]]
