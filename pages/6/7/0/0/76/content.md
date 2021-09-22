@@ -190,7 +190,7 @@ But there are many other homotopy theories besides (the various incarnations of)
  
 The [[geometric homotopy theory]] of [[(∞,1)-toposes]] in particular serves as the foundation for [[higher geometry]]/[[derived geometry]]. This is relevant notably in the [[physics]] of [[gauge theory]], where [[gauge transformations]] are identified with [[homotopies]] in [[geometric homotopy theory]]. For more on this see at _[[geometry of physics -- homotopy types]]_.
 
-On the other hand, the incarnation of homotopy theory as _[[homotopy type theory]]_ exhibits the remarkably [[foundation|foundational]] nature of homotopy theory. Contrary to its original appearance as a fairly complicated-looking theory built on top of classical [[set theory]] and classcal [[topology]], homotopy theory turns out to be intrinsically simple: it arises from plain [[dependent type theory]] just by adopting a fully [[constructive mathematics|constructive]] attitude towards the concept of [[identity]]/[[equality]], see at _[[identity type]]_ for more on this. For exposition of this perspective see ([Shulman 17](#Shulman17)).
+On the other hand, the incarnation of homotopy theory as _[[homotopy type theory]]_ exhibits the remarkably [[foundation|foundational]] nature of homotopy theory. Contrary to its original appearance as a fairly complicated-looking theory built on top of classical [[set theory]] and classical [[topology]], homotopy theory turns out to be intrinsically simple: it arises from plain [[dependent type theory]] just by adopting a fully [[constructive mathematics|constructive]] attitude towards the concept of [[identity]]/[[equality]], see at _[[identity type]]_ for more on this. For exposition of this perspective see ([Shulman 17](#Shulman17)).
 
 \linebreak
 
