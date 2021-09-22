@@ -63,6 +63,8 @@ See at _[[moduli space of monopoles]]_ the section _[Scattering amplitudes of mo
 
 * [[amplituhedron]]
 
+* [[celestial amplitude]]
+
 * [[string theory results applied elsewhere]]
 
 * [[string scattering amplitude]]
