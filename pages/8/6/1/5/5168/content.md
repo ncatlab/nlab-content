@@ -34,7 +34,7 @@ On the [[Whitehead product]]:
 
 On [[homotopy theory]]:
 
-* [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953
+* {#Hilton53} [[Peter J. Hilton]], *An introduction to homotopy theory*, Cambridge University Press 1953 ([doi:10.1017/CBO9780511666278](https://doi.org/10.1017/CBO9780511666278))
 
 
 On [[internalization]], [[H-spaces]], [[monoid objects]], [[group objects]] in [[algebraic topology]]/[[homotopy theory]] and introducing the [[Eckmann-Hilton argument]]:
