@@ -834,6 +834,8 @@ In fact, the history of the development of the theory of principal bundles and [
 
 ## Related concepts
 
+* [[slice theorem]]
+
 * **([[formally principal bundle|formally]]) principal bundle** / ([[pseudo-torsor|pseudo]]-)[[torsor]] / [[groupoid principal bundle]] / [[associated bundle]]
   
   * [[universal principal bundle]]
