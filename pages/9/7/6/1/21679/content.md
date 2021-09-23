@@ -316,8 +316,6 @@ in that the following holds:
     ]
 \end{tikzcd}
 
-
-
 \end{proposition} 
 
 This is effectivley the statement of [Bousfield&Gugenheim 1976, Lem. 11.7](#BousfieldGugenheim76).
@@ -426,7 +424,21 @@ $$
 \begin{proof}
 Consider the following [[diagram]] of [[hom-sets]] (shown for $k = \mathbb{R}$, just for definiteness):
 
-<img src="https://ncatlab.org/nlab/files/RationalAndRealCharacterMap20210708.jpg" width="740">
+
+\begin{imagefromfile}
+    "file_name": "RationalAndRealCharacterMap20210708.jpg",
+    "width": 740,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(diagram from [FSS 20](#FSS20))"
+\end{imagefromfile}
+
+
 
 Here:
 
@@ -439,10 +451,13 @@ Here:
 Together this implies that the top rectangle commutes, which is the claim to be shown.
 \end{proof}
 
+
+
 ## Related concepts
 
 * [[fundamental theorem of equivariant dg-algebraic rational homotopy theory]]
 
+* [[real homotopy theory]]
 
 
 ## References
@@ -463,7 +478,7 @@ Re-derivation in a context of [[derived algebraic geometry]]:
 
 Review and interpretation in terms of [[non-abelian cohomology|non-abelian]] [[Chern-Dold character]]-theory:
 
-* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]*
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]* ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
 
 
 
