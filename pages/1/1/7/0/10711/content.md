@@ -24,9 +24,9 @@ On the [[integral cohomology]] of the [[classifying spaces]] of [[rotation group
 * {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:2044298](https://www.jstor.org/stable/2044298))
 
 
-On globally [[Kan complex|Kan fibrant]] [[simplicial topological spaces]]:
+On globally [[Kan complex|Kan fibrant]] [[simplicial topological spaces]] (such as [[simplicial topological groups]]) and [[real homotopy theory]]:
 
-* {#BrownSzczarba} [[Edgar H. Brown]], R. H. Szczarba, _Continuous cohomology and real homotopy type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
+* {#BrownSzczarba89} [[Edgar H. Brown]], [[Robert H. Szczarba]], *Continuous cohomology and real homotopy type* , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([doi:10.1090/S0002-9947-1989-0929667-6](https://doi.org/10.1090/S0002-9947-1989-0929667-6),  [pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 
 
 ## Related entries
