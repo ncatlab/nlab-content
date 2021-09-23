@@ -28,7 +28,7 @@ $$
 
 ## Properties
 
-For even cohomology theory $E$:
+For an even cohomology theory $E$:
 
 * There is an isomorphism of rings 
 
@@ -42,6 +42,8 @@ where $|x|=2$.
 
 $$E^{\ast}(\mathbb{C}P^{\infty}) \cong E^{\ast}(S^0)[[x]].$$
 
+([Mehrle 18, 1.1](#Mehrle18))
+
 
 
 ## Related entries
@@ -49,5 +51,10 @@ $$E^{\ast}(\mathbb{C}P^{\infty}) \cong E^{\ast}(S^0)[[x]].$$
 * [[even periodic ring spectrum]]
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
+
+## References
+
+* {#Mehrle18} David Mehrle, _Chromatic homotopy theory: Journey to the frontier_, Graduate workshop notes, Boulder 16-17 May 2018, ([pdf](http://pi.math.cornell.edu/~dmehrle/notes/conferences/cht/cht-notes.pdf))
+
 
 [[!redirects even cohomology theories]]
