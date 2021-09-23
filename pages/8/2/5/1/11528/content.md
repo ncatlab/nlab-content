@@ -1053,6 +1053,7 @@ $$
 
 * [[fine model structure on topological G-spaces]]
 
+* [[Borel-equivariant rational homotopy theory]]
 
 ## Literature
 
