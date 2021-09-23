@@ -24,7 +24,7 @@ In [[higher category theory]], there are several periodic tables, analogous to t
 
 ## History
 
-The first periodic table of [[n-categories]], due to [[John Baez]] and [[James Dolan]], was a slightly distorted version of the periodic table of $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories.
+The first periodic table of [[n-categories]], due to [[John Baez]] and [[James Dolan]], was a slightly distorted version of their periodic table of $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories.
 
 Fully filled out, the table looked like this:
 <table><tr><th markdown="1">$k$&#8595;\$n$&#8594;</th><th markdown="1">$-2$</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th>...</th></tr>
