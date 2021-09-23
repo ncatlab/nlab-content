@@ -44,3 +44,7 @@ The generalizations to [[Lie groupoids]] and [[Lie algebroids]] is considered in
 
 [[!redirects van Est map]]
 [[!redirects van Est maps]]
+
+
+[[!redirects van Est theorem]]
+[[!redirects van Est's theorem]]
