@@ -445,7 +445,7 @@ The ring $\mathbb{Q}$ of [[rational numbers]] is a [[solid ring]].
   The same argument shows that no other [[field]] of [[characteristic zero]] $k$ is a solid ring, since, being a proper [[superset]] $\mathbb{K} \supset \mathbb{Q}$, it contains elements $k \in \mathbb{K}$ for which there are *no* pairs of [[integers]] $q$, $p$ such that $p \cdot k \,=\, q$.
 In particular, the [[real numbers]] are not a [[solid ring]]. 
 
-This is, ultimately, the reason why the [[derived adjunction|derived]] [[PL de Rham complex|PL de Rham]]-[[Quillen adjunction]] is [[idempotent adjunction|idempotent]] only over $k = \mathbb{Q}$ (where it models [[rationalization]] of [[homotopy types]], see at *[[fundamental theorem of dg-algebraic rational homotopy theory]]*).
+This is, ultimately, the reason why the [[derived adjunction|derived]] [[PL de Rham complex|PL de Rham]]-[[Quillen adjunction between simplicial sets and connective dgc-algebras]] is [[idempotent adjunction|idempotent]] only over $k = \mathbb{Q}$ (where it models [[rationalization]] of [[homotopy types]], see at *[[fundamental theorem of dg-algebraic rational homotopy theory]]*); away from this case other tools are needed; see also at *[[real homotopy theory]]*.
 \end{remark}
 
 
