@@ -18,9 +18,18 @@
 
 The plain definition of _[[topological space]]_ happens to allow examples where distinct points or distinct subsets of the underlying set of a topological space appear as as more-or-less unseparable as seen by the topology on that set. In many applications one wants to exclude at least some of such degenerate examples from the discussion. The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _separation axioms_.
 
-These axioms are all of the form of saying that two subsets (of certain forms) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other.
+These axioms are all of the form of saying that two subsets (of certain forms) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense, and most can be expressed as [[separation axioms in terms of lifting properties|lifting properties with respect to maps of finite topological spaces or the real line]]. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other,
+i.e. the map determined by two distinct points is not continuous as a map from the indiscrete space.
 
-In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Often (but by far not always) this is considered by default.
+In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$), i.e. 
+any map from the space with one open point and one closed is necessarily trivial, or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$).  
+This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Often (but by far not always) this is considered by default.
+
+Rewriting the [[separation axioms in terms of lifting properties]] 
+with respect to maps of finite topological spaces, i.e. monotone maps of preorders, provides a combinatorial point of view on this hierachy,
+and simplifies certain universal constructions such as 
+[reflection](#Reflection) or  [Kolmogorov quotient](#KolmogorovQuotient). 
+
 
 The main separation axioms are these:
 
@@ -108,7 +117,7 @@ When both sets are closed:
 
 When the sets are arbitrary:
 <table markdown="1"><tr><th>Stronger condition &#8595;\Weaker condition &#8594;</th> <th>Separated</th></tr>
-<tr><th>Separated by neighbourhoods</th> <td>Completely normal</td></tr></table>
+<tr><th>Separated by neighbourhoods</th> <td>Completely normal ($T_5$)</td></tr></table>
 
 
 
