@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -40,12 +41,17 @@ Therefore, the *real homotopy theory* of [Brown & Szczarba 1995](#BrownSzczarba9
 
 > (from the [Zentralblatt review](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009) of ([Brown-Szczarba 95](#BrownSzczarba95)))
 
+{#RelationToSchematicHomotopyType} If one thinks of [[simplicial topological spaces]] as [[simplicial presheaves]] on (some [[small category|small]] version of) [[Top]], and [[local model structure on simplicial presheaves|hence]] as presentations for [[topological infinity-stack|topological $\infty$-stacks]], then localization of these at the topological real line coefficient is the topological analog of passing to *[[schematic homotopy types]]*, in the sense of [Toën 2006](schematic+homotopy+type#Toen06), which generalizes to [[D-topological infinity-groupoid|D-topological $\infty$-groupoids]] (and further to [[smooth infinity-groupoids|smooth $\infty$-groupoids]] etc.) along the lines of [Stel 2010](function+algebras+on+infinity-stacks#Stel).
+
+
 
 ## Related concepts
 
 * [[rational homotopy theory]]
 
 * [[p-adic homotopy theory]]
+
+* [[schematic homotopy type]]
 
 ## References
  {#References}
