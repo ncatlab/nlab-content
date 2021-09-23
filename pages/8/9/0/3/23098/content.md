@@ -16,7 +16,7 @@ On [[real homotopy theory]] ([[rational homotopy theory]] over the [[real number
 
 with emphasis on globally [[Kan complex|Kan fibrant]] [[simplicial topological spaces]] (such as [[simplicial topological groups]]);
 
-* {#BrownSzczarba89} [[Edgar H. Brown]], [[Robert H. Szczarba]], *Continuous cohomology and real homotopy type* , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([doi:10.1090/S0002-9947-1989-0929667-6](https://doi.org/10.1090/S0002-9947-1989-0929667-6),  [pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
+* {#BrownSzczarba89} [[Edgar H. Brown]], [[Robert H. Szczarba]], *Continuous cohomology and real homotopy type* , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([doi:10.1090/S0002-9947-1989-0929667-6](https://doi.org/10.1090/S0002-9947-1989-0929667-6), [jstor:2001017](https://www.jstor.org/stable/2001017))
 
 with arbitrary [[fundamental group]]:
 
