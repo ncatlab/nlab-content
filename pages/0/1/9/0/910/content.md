@@ -291,11 +291,20 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 
 (e.g. [Lewis 1978, Lem. 2.4](#Lewis78); [Piccinini 1992, Thm. B.6](#Piccinini92), [Strickland 2009, Prop. 2.6](compactly+generated+topological+space#Strickland09))
 
-\begin{proposition}
-  A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
+\begin{proposition}\label{kSpacesAreTheQuotientSpacesOfLocallyCompactHausdorffSpaces}
+**([[k-spaces]] are the [[quotient topological space|quotient spaces]] of [[locally compact Hausdorff spaces]])**
+\linebreak
+  A [[topological space]] is a [[k-space]] (Def. \ref{kSpace})
+iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
 \end{proposition}
-([Dugundji 1966, XI Thm. 9.4](#Dugundji66); [Piccinini 92, Thm. B.4](#Piccinini92))
-
+This is proven in [Dugundji 1966, XI Thm. 9.4](#Dugundji66) (also [Piccinini 92, Thm. B.4](#Piccinini92)) assuming Hausdorffness, and without that assumption in [Escardo, Lawson & Simpson 2004, Cor. 3.4 (iii)](#EscardoLawsonSimpson04). Moreover:
+\begin{proposition}\label{kSpacesAreTheColimitsInTopOfCompactHausdorffSpaces}
+**([[k-spaces]] are the [[Top#UniversalConstructions|colimits in Top]] of [[compact Hausdorff spaces]])**
+\linebreak
+  A [[topological space]] is a [[k-space]] (Def. \ref{kSpace})
+iff it is a [[colimit]] as formed in [[Top]] (according to [this Prop.](Top#DescriptionOfLimitsAndColimitsInTop)) of a [[diagram]] of [[compact Hausdorff spaces]].
+\end{proposition}
+([Escardo, Lawson & Simpson 2004, Lem. 3.2 (v)](#EscardoLawsonSimpson04))
 
 
 ### Regularity
