@@ -43,7 +43,7 @@ $$
   Sh_\infty(C) =: \mathbf{H}
 $$
 
-(due to [To&#235;n](#Toen)) where the [[(∞,1)-topos]] $\mathbf{H}$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
+(due to [To&#235;n 2006](#Toen06)) where the [[(∞,1)-topos]] $\mathbf{H}$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
 
 
 +-- {: .un_def}
@@ -69,7 +69,7 @@ A [[pointed object|pointed]] **schematic homtopy type** is the [[delooping]] $\m
 
 =--
 
-This appears as ([To&#235;n, def 3.1.2](#Toen))
+This appears as ([To&#235;n 2006, def 3.1.2](#Toen06))
 
 ## Properties
 
@@ -84,7 +84,7 @@ A schematic homotopy type is in particular a [[geometric ∞-stack]] over $C$.
 
 ### de Rham schematic homotopy type
 
-For a [[connected]] [[scheme]] $X$ let $X_{dR}$ be its [[de Rham space]]. According to [To&#235;n, sect. 3.5.1](#Toen) one finds that the functor
+For a [[connected]] [[scheme]] $X$ let $X_{dR}$ be its [[de Rham space]]. According to [To&#235;n 2006, sect. 3.5.1](#Toen06) one finds that the functor
 
 $$
  Ho(SchHoType/\mathbb{C}) \to Set
@@ -104,6 +104,10 @@ A similar construction exists in every [[cohesive (∞,1)-topos]]. See the discu
 
 =--
 
+## Related concepts
+
+* [[real homotopy theory]]
+
 ## References
 
 An introduction to the general theory
@@ -111,7 +115,7 @@ An introduction to the general theory
 * [[Ludmil Katzarkov]], [[Tony Pantev]], [[Bertrand Toën]], _Schematic homotopy types and non-abelian Hodge theory_, [math.AG/0107129](http://arxiv.org/abs/math/0107129)
 
 
-* {#Toen} [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
+* {#Toen06} [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
 
 
 The stack $Perf$ of [[perfect complexes]] is discussed for instance in section 21 of 
