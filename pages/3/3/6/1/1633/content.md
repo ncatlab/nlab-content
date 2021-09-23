@@ -244,15 +244,23 @@ These hypotheses are of course pretty severe; important examples of such restric
 
 In any event, the category of locally compact spaces does not admit general infinite products. If it did, then so would the category of locally compact Hausdorff spaces, and so would the category of locally compact Hausdorff abelian groups. However, there is no product of countably many copies of the real numbers in $LCHAb$, for if there were, then by utilizing the universal property of the product, it would become a Hausdorff TVS over the real numbers, in contradiction to the fact that the only locally compact Hausdorff TVS are finite-dimensional. 
 
-Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated topological spaces]]: they are precisely the colimits in $Top$ of diagrams of locally compact spaces:
+Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated topological spaces]]: they are precisely the colimits in $Top$ of diagrams of locally compact spaces (see also Prop. \ref{HausdorffkSpacesAreQuotientsOfLCHausSpaces} below).
+
+### Relation to compactly generated spaces
+ {#RelationToCompactlyGeneratedSpaces}
 
 \begin{prop}\label{LocallyCompactHausdorffSpacesAreCompactlyGeneratedWeaklyHausdorff}
   Every [[locally compact Hausdorff space]] is
   [[compactly generated topological space|compactly generated]]
   and [[weakly Hausdorff topological space|weakly Hausdorff]].
 \end{prop}
+(e.g. [Strickland 09, Prop. 1.7](compactly+generated+topological+space#Strickland09))
 
-([Strickland 09, Prop. 1.7](compactly+generated+topological+space#Strickland09))
+\begin{prop}
+  The [[product topological space]] of a [[locally compact Hausdorff space]] with a k-space is already a k-space (i.e. without need of k-ification).
+\end{prop}
+(e.g. [Piccinini 1992, Thm. B.6](#Piccinini92), [Strickland 2009, Prop. 2.6](compactly+generated+topological+space#Strickland09))
+
 
 \begin{proposition}\label{HausdorffkSpacesAreQuotientsOfLCHausSpaces}
   A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
