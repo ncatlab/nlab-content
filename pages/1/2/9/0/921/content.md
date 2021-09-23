@@ -227,6 +227,8 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * [[computable real number]]
 
+* [[real cohomology]], [[real homotopy theory]]
+
 * [[p-adic numbers]]
 
 * in [[constructive analysis]] one may use the [[completion monad]] for dealing with real numbers
