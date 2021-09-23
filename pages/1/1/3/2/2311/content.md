@@ -38,11 +38,13 @@ where $|x|=2$.
 
 * $E^{\ast}(\mathbb{C}P^{\infty} \times \ldots \times \mathbb{C}P^{\infty}) \cong E^{\ast}(S^0)[[x_1, \ldots, x_k]]$.
 
-* Any even cohomology theory is [[complex oriented cohomology theory|complex orientable]]; a choice of complex orientation gives an isomorphism
+
+\begin{remark}\label{ComplexOrientation}
+Any even cohomology theory is [[complex oriented cohomology theory|complex orientable]]; a choice of complex orientation gives an isomorphism
 
 $$E^{\ast}(\mathbb{C}P^{\infty}) \cong E^{\ast}(S^0)[[x]].$$
-
-([Mehrle 18, 1.1](#Mehrle18))
+\end{remark}
+See [here](complex+oriented+cohomology+theory#ComplexOrientationOfEvenCohomologyTheories) at *[[complex oriented cohomology theory]]* (review also in [Mehrle 18, 1.1](#Mehrle18)).
 
 
 
