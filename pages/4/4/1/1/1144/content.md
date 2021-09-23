@@ -813,7 +813,11 @@ Write
 
    1. [[rational topological space|rational]]: their [[homotopy groups]] are uniquely divisible;
 
-   1. [[nilpotent topological space|nilpotent]]: their [[fundamental group]] is a [[nilpotent group]];
+   1. [[nilpotent topological space|nilpotent]]: 
+
+      1. their [[fundamental group]] is a [[nilpotent group]];
+
+      1. the higher [[homotopy groups]] are [[nilpotent modules]] over this nilpotent group;
 
    1. [[finite type]]: the $\mathbb{Q}$-vector space $H_\bullet(X,\mathbb{Q})$ are of [[finite number|finite]] [[dimension]].
 
@@ -1201,7 +1205,13 @@ The original articles are
 
 * {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
 
+* {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*,  Elsevier, 1995 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
+
+  > (generalization to [[real homotopy theory]] and to [[Borel-equivariant rational homotopy theory]] for non-[[nilpotent spaces]]);
+
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+
+  > (emphasis on [[de Rham complexes]] of [[smooth manifolds]])
 
 
 Survey and review includes
@@ -1210,7 +1220,7 @@ Survey and review includes
 
 * {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
 
-  (this second volume generalizes to the case of non-[[simply connected topological spaces]])
+  > (this second volume generalizes to the case of non-[[nilpotent spaces]])
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
