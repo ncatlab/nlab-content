@@ -73,11 +73,11 @@ collecting survey articles on subjects in [[algebraic topology]]/[[homotopy theo
 
 1. Differential graded algebras in topology (Y. Felix et al.). 
 
-1. Real and rational homotopy theory ([[Edgar H. Brown]], [[Robert H. Szczarba]])
+1. {#BrownSzczarba} Real and rational homotopy theory ([[Edgar H. Brown]], [[Robert H. Szczarba]])
 
    on [[real homotopy theory]]
 
-   and [[Borel-equivariant rational homotopy theory]] applied to [[covering spaces]] of non-[[nilpotnet spaces]]
+   and [[Borel-equivariant rational homotopy theory]] applied to [[covering spaces]] of non-[[nilpotent spaces]]
 
    [doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3)
 
