@@ -179,6 +179,8 @@ See also:
 
 * Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
 
+* {#Mehrle18} [[David Mehrle]], _Chromatic homotopy theory: Journey to the frontier_, Graduate workshop notes, Boulder 16-17 May 2018, ([pdf](http://pi.math.cornell.edu/~dmehrle/notes/conferences/cht/cht-notes.pdf), [[Mehrle_ChromaticHomotopyTheory.pdf:file]])
+
 
 Discussion of generalization of [[elliptic cohomology]] to higher chromatic homotopy theory is discussed in
 
