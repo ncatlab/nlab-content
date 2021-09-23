@@ -24,6 +24,10 @@ The [[periodic cohomology theory|2-periodic]] version of [[complex cobordism coh
 
 ## Properties
 
+### As a Thom spectrum
+
+$MP$ may be realized as the [[Thom  spectrum]] of the [[universal vector bundle|universal]] [[virtual vector bundle|virtual]] [[complex vector bundle|complex bundle]] of arbitrary [rank](rank#rank_of_a_vector_bundle) over the space $B U \times \mathbb{Z}$ ([Lurie lecture 18, Example 5](#LurieLect18)).
+
 ### Landweber exact functor therem
 
 There is an analogue of the [[Landweber exact functor theorem]] for [[even cohomology theory|even]] 2-[[periodic cohomology theories]], with [[MU]] replaced by [[MP]] ([Lurie lecture 18, prop. 11](#LurieLect18)).
