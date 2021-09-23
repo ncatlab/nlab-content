@@ -254,7 +254,7 @@ Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not a
   [[compactly generated topological space|compactly generated]]
   and [[weakly Hausdorff topological space|weakly Hausdorff]].
 \end{prop}
-(e.g. [Strickland 09, Prop. 1.7](compactly+generated+topological+space#Strickland09))
+(e.g. [Dugundji 1966, XI Thm. 9.3](#Dugundji66); [Strickland 09, Prop. 1.7](compactly+generated+topological+space#Strickland09))
 
 \begin{prop}
   The [[product topological space]] of a [[locally compact Hausdorff space]] with a k-space is already a k-space (i.e. without need of k-ification).
@@ -265,7 +265,8 @@ Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not a
 \begin{proposition}\label{HausdorffkSpacesAreQuotientsOfLCHausSpaces}
   A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
 \end{proposition}
-(e.g. [Piccinini 92, Thm. B.4](#Piccinini92))
+(e.g. [Dugundji 1966, XI Thm. 9.4](#Dugundji66); [Piccinini 92, Thm. B.4](#Piccinini92))
+
 
 ### Gelfand duality
 
@@ -282,7 +283,7 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 \begin{example}\label{LocallyCompactHausdorffSpacesAreCompletelyRegular}
   Locally compact Hausdorff spaces are [[completely regular topological spaces]].
 \end{example}
-(e.g. [Engelking 1989, Thm. 3.3.1](#Engelking89))
+(e.g. [Dugundji 1966, XI Thm. 6.4](#Dugundji66); [Engelking 1989, Thm. 3.3.1](#Engelking89))
 \begin{remark}
   Example \ref{LocallyCompactHausdorffSpacesAreCompletelyRegular} plays a key role in discussion of [[slice theorem|slice theorems]], see there for more.
 \end{remark}
@@ -305,9 +306,13 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 
 Textbook accounts:
 
+* {#Dugundji66} [[James Dugundji]], Section XI.6 of: *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
+
 * {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
 
-* {#Piccinini92} [[Renzo A. Piccinini]], Appendix B in: *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
+* {#Piccinini92} [[Renzo A. Piccinini]], *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
+
+
 
 
 [[!redirects locally compact topological space]]
