@@ -18,8 +18,8 @@
 
 The plain definition of _[[topological space]]_ happens to allow examples where distinct points or distinct subsets of the underlying set of a topological space appear as as more-or-less unseparable as seen by the topology on that set. In many applications one wants to exclude at least some of such degenerate examples from the discussion. The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _separation axioms_.
 
-These axioms are all of the form of saying that two subsets (of certain forms) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense, and most can be expressed as [[separation axioms in terms of lifting properties|lifting properties with respect to maps of finite topological spaces or the real line]]. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other,
-i.e. the map determined by two distinct points is not continuous as a map from the indiscrete space.
+These axioms are all of the form of saying that two [[subsets]] (of certain forms) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. Most of these conditions can be expressed as [[separation axioms in terms of lifting properties|lifting properties with respect to maps of finite topological spaces or the real line]]. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the [[underlying]] set, then there exists at least one [[open subset]] that contains one but not the other,
+i.e. the function determined by two distinct points is not [[continuous function|continuous]] as a map from the [[indiscrete space]].
 
 In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$), i.e. 
 any map from the space with one open point and one closed is necessarily trivial, or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$).  
@@ -40,7 +40,7 @@ Originally in [Tietze 23](#Tietze23) the four separation axioms $T_2, T_3, T_4, 
 
 There are also axioms that do not follow the pattern of "if certain two subsets are separated in some weak sense, then they are also separated in some stronger sense", but that still axiomatize some kind of separatedness. For example the condition on a [[topological space]] being [[sober topological space|sober]] is of a different nature, but is implied by $T_2$ and implies $T_0$. Notice that via their [[full subcategory|full embedding]] into [[locales]], [[sober topological spaces]] may be understood without reference to their underlying set of points at all.
 
-All separation axioms are satisfied by [[metric spaces]], from whom the concept of topological space was originally abstracted. Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
+All separation axioms are satisfied by [[metric spaces]], from whom the concept of topological space was originally abstracted. Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces.
 
 Several separation axioms may also be interpreted in broader contexts that plain topological spaces, for instance for [[convergence space]] or for [[locales]]; or the may be considered under weaker assumptions, such as those of [[constructive mathematics]] and [[predicative mathematics]].
 
