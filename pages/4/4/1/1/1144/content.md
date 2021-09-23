@@ -1175,7 +1175,11 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 * from the [[nPOV]]: [[rational homotopy theory in an (infinity,1)-topos]].
 
-* [[rational equivariant homotopy theory]], [[rational equivariant stable homotopy theory]]
+* [[rational equivariant homotopy theory]]
+
+  [[Borel-equivariant rational homotopy theory]]
+
+  [[rational equivariant stable homotopy theory]]
 
 * [[p-adic homotopy theory]]
 
@@ -1220,7 +1224,7 @@ Survey and review includes
 
 * {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
 
-  > (this second volume generalizes to the case of non-[[nilpotent spaces]])
+  > (generalizing to [[Borel-equivariant rational homotopy theory]] for non-[[nilpotent spaces]])
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
