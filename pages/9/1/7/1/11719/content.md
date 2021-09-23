@@ -24,9 +24,9 @@
 ## Idea
  {#Idea}
 
-In analogy to [[rational homotopy theory]], the idea of *real homotopy theory* is to study those aspects of [[homotopy types]] that are visible when the [[ground ring]] is the [[real numbers]], such as their [[real cohomology]]-[[cohomology groups|groups]] and the [[tensor product of abelian groups|tensor product]] of their [[homotopy groups]] with the additive [[abelian group]] of [[real numbers]].
+In analogy to [[rational homotopy theory]], the idea of *real homotopy theory* is to study those aspects of [[homotopy types]] that are visible when the [[ground ring]] is the [[real numbers]], such as their [[real cohomology]]-[[cohomology groups|groups]] and the [[tensor product of abelian groups|tensor product]] of their [[homotopy groups]] with the additive [[abelian group]] of [[real numbers]]. This is of central relevance in relation to [[differential cohomology theory]], which needs real instead of rational [[coefficients]] in order to connect to [[de Rham complexes]] of [[differential forms]] on [[smooth manifolds]].
  
-A technical issue with generalizing the [[fundamental theorem of dg-algebraic rational homotopy theory]] to the case of real homotopy theory is that the 
+But a technical issue with generalizing the [[fundamental theorem of dg-algebraic rational homotopy theory]] to the case of real homotopy theory is that the 
 [[PL de Rham complex|PL de Rham]]-[[Quillen adjunction between simplicial sets and connective dgc-algebras]] -- which does exist over any [[ground field]] $k$ of [[characteristic zero]] and relates to the one over the [[rational numbers]] by [[derived functor|derived]] [[extension of scalars]] (all reviewed in [FSS 2020, Sec. 3.2](#FSS20)) -- models $k$-[[localization]] only for $k = \mathbb{Q}$ the [[rational numbers]] -- then: [[rationalization]]. 
 
 From the point of [[algebra]], the issue is (see [this Remark](core+of+a+ring#NoOtherCharZeroFieldIsSolid)) that other $k$ are not [[solid rings]], so that the iterations of the [[tensor product of abelian groups|tensor products]] $(-) \otimes_{\mathbb{Z}} k$ on [[homotopy groups]] are not, in general, [[isomorphism|isomorphic]] to each other, for $k \neq \mathbb{Q}$.
@@ -58,7 +58,7 @@ On [[real homotopy theory]] ([[rational homotopy theory]] over the [[real number
 
 with emphasis on globally [[Kan complex|Kan fibrant]] [[simplicial topological spaces]] (such as [[simplicial topological groups]]);
 
-* {#BrownSzczarba89} [[Edgar H. Brown]], [[Robert H. Szczarba]], *Continuous cohomology and real homotopy type* , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([doi:10.1090/S0002-9947-1989-0929667-6](https://doi.org/10.1090/S0002-9947-1989-0929667-6),  [pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
+* {#BrownSzczarba89} [[Edgar H. Brown]], [[Robert H. Szczarba]], *Continuous cohomology and real homotopy type*, Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([doi:10.1090/S0002-9947-1989-0929667-6](https://doi.org/10.1090/S0002-9947-1989-0929667-6),  [pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 
 with arbitrary [[fundamental group]]:
 
