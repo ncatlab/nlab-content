@@ -23,9 +23,10 @@
 
 ## Idea
 
-The [[equivariance|equivariant]] version of [[rational homotopy theory]].
+The [[equivariance|equivariant]] version of [[rational homotopy theory]], dealing with [[rationalization]] in ([[proper equivariant homotopy theory|proper]]) [[equivariant homotopy theory]], detected by [[Bredon cohomology|Bredon equivariant]] [[rational cohomology]].
 
 ## Related concepts
+
 
 * [[equivariant rationalization]]
 
