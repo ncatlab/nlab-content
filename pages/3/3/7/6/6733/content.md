@@ -682,7 +682,7 @@ The observation that the [[basic differential form|basic form]] component  $G_4^
 
 * {#BBMN19b} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomalies of QFTs from M-theory and Holography_, J. High Energ. Phys. 2020, 125 (2020) ([arXiv:1910.04166](https://arxiv.org/abs/1910.04166))
 
-* {#SS20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5-brane anomaly cancellation]]_ ([arXiv:2002.07737](https://arxiv.org/abs/2002.07737))
+* {#SS20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5-brane anomaly cancellation]]_, Letters in Mathematical Physics **111** 120 (2021) ([arXiv:2002.07737](https://arxiv.org/abs/2002.07737), [doi:10.1007/s11005-021-01452-8](https://doi.org/10.1007/s11005-021-01452-8))
 
 * {#BahBonettiMinasian20} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], _Discrete and higher-form symmetries in SCFTs from wrapped M5-branes_, J. High Energ. Phys. 2021, 196 (2021) ([arXiv:2007.15003](https://arxiv.org/abs/2007.15003))
 
