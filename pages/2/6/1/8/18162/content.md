@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 14](#MG)). 
+In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 2014](#\rightthreetimes)). 
 
 
 ## Background and notation
@@ -336,6 +336,6 @@ or what is the same, every [[regular monomorphism]] into $X$ in $Haus$ has the [
 * [[Misha Gavrilovich]], _The unreasonable power of the lifting property in
 elementary mathematics_ ([pdf](http://mishap.sdf.org/by:gavrilovich/expressive_power_of_the_lifting_property.pdf))
 
-* {#MG} [[Misha Gavrilovich]], *Point set topology as diagram chasing computations* ([arXiv:1408.6710](https://arxiv.org/abs/1408.6710), [pdf](http://mishap.sdf.org/mints-lifting-property-as-negation-DMG_5_no_4_2014.pdf))
+* {#Gavrolovich14} [[Misha Gavrilovich]], *Point set topology as diagram chasing computations* ([arXiv:1408.6710](https://arxiv.org/abs/1408.6710), [pdf](http://mishap.sdf.org/mints-lifting-property-as-negation-DMG_5_no_4_2014.pdf))
 
 
