@@ -73,6 +73,8 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 
 * [[Stone duality]]
 
+* [[separation axioms in terms of lifting properties]]
+
 * In [[synthetic topology]], an analogue of the Sierpinski space is called a [[dominance]].
 
 
