@@ -64,7 +64,7 @@ from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles c
 
 ## Examples
 
-* [[model category]]
+* [[weak factorization system]], [[model category]]
 
 * [covering space lifting properties](covering+space#LiftingProperties)
 
