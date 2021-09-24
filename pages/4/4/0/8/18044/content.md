@@ -34,9 +34,9 @@ Observe that
 
 1. {#EInfinityGeometryAlreadyZGraded} [[E-∞ geometry]] is _already in itself_ a [[higher geometry|higher geometric]] version of $\mathbb{Z}$-graded supergeometry (in the sense discussed at _[[geometry of physics -- superalgebra]]_). 
 
-   At the level of [[homotopy groups]] this is the following basic fact:
-
    $\,$
+
+   At the level of [[homotopy groups]] this is the following basic fact:
 
    For $E$ a [[homotopy commutative ring spectrum]], its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a $\mathbb{Z}$-graded [[super-commutative ring]]  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
 
@@ -64,9 +64,17 @@ Observe that
 
    (That grading over the [[sphere spectrum]] is closely related to [[superalgebra]] had been highlighted in [Kapranov 13](#Kapranov13), but the issue of the difference between homotopified $\mathbb{Z}$-grading compared to homotopified $\mathbb{Z}/2$-grading had been left open.)
 
+   $\,$
+
 1. {#SuperGeometryAsPeriodifiedZGradedGeometry} But ordinary $\mathbb{Z}/2$-graded [[supercommutative superalgebra]] is equivalently $\mathbb{Z}$-graded [[supercommutative superalgebra]] over the free even periodic $\mathbb{Z}$-graded supercommutative superalgebra ([this prop.](geometry+of+physics+--+superalgebra#ModulesOverRbeta)).
 
-1. {#PassageToAlgebraOverPeriodicRingSpectra} In view of the first point, the second point has an evident analog in [[E-∞ geometry]]: The higher/derived analog of an even periodic $\mathbb{Z}$-graded commutative algebra is an [[E-infinity algebra]] over an [[even cohomology theory|even]] [[periodic ring spectrum]].
+   $\,$
+
+1. {#PassageToAlgebraOverPeriodicRingSpectra} In view of the [first point](#EInfinityGeometryAlreadyZGraded), the [second point](#SuperGeometryAsPeriodifiedZGradedGeometry) has an evident analog in [[E-∞ geometry]]: 
+
+   The higher/derived analog of an even periodic $\mathbb{Z}$-graded commutative algebra is an [[E-infinity algebra]] over an [[even cohomology theory|even]] [[periodic ring spectrum]].
+
+   $\,$
 
    That [[E-infinity algebras]] over [[even cohomology theory|even]] [[periodic ring spectra]] are usefully regarded from the point of view of [[supercommutative superalgebra]] was highlighted in [Rezk 09, section 2](#Rezk09).
 
