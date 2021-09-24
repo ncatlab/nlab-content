@@ -241,7 +241,10 @@ we have a $V$-[[adjunction]]
 
 $$
   [D,C]
-  \stackrel{\overset{W \otimes_D (-)}{\longrightarrow}}{\underset{const(-)^{W}}{\longleftarrow}}
+  \underoverset
+    {\underset{const(-)^{W}}{\longleftarrow}}
+    {\overset{W \otimes_D (-)}{\longrightarrow}}
+    {\;\;\;\bot\;\;\;}
   D
   \,,
 $$
@@ -759,7 +762,13 @@ Every [[simplicial set]] is the [[homotopy colimit]] over its cells.
 Precisely: for $X \in $ [[sSet]] a [[simplicial set]], let 
 
 $$
-  \tilde X \coend \Delta^{op} \to Set \hookrightarrow sSet
+  \tilde X 
+  \;\colon\; 
+  \Delta^{op} 
+    \xrightarrow{\;} 
+   Set 
+    \xhookrightarrow{\;} 
+   sSet
 $$
 
 be the corresponding [[bisimplicial set]] which in degree $k$ is the the constant simplicial set on the set $X_k$ of $k$-simplices. 
@@ -799,7 +808,7 @@ $$
   \,.
 $$
 
-which is the expression of $X$ is an ordinat [[colimit]] of its elements ([this Prop.](simplicial+set#SimplicialSetIsColimitOfItsSimplices), the "[[co-Yoneda lemma]]").
+which is the expression of $X$ is an ordinary [[colimit]] of its elements ([this Prop.](simplicial+set#SimplicialSetIsColimitOfItsSimplices), the "[[co-Yoneda lemma]]").
 
 =--
 
@@ -814,18 +823,15 @@ More generally with this kind of argument it follows that generally the homotopy
 +-- {: .num_remark}
 ###### Remark
 
-This kind of argument has many immediate generalizations. For instance for $C = [K^{op}, sSet_{Quillen}]_{inj}$ the injective [[model structure on simplicial presheaves]] over any small category $K$, or any of its left [[Bousfield localization of model categories|Bousfield localizations]], we have that the cofibrations are objectwise those of simplicial sets, hence objectwise monomorphisms, hence it follows that every simplicial presheaf $X$ is the hocolim over its simplicial diagram of component presheaves.
+This kind of argument has many immediate generalizations. For instance for $C = [K^{op}, sSet_{Quillen}]_{inj}$ the injective [[model structure on simplicial presheaves]] over any small category $K$, or any of its left [[Bousfield localization of model categories|Bousfield localizations]], we have that the cofibrations are objectwise those of simplicial sets, hence objectwise monomorphisms, hence it follows that every [[simplicial presheaf]] $X$ is the hocolim over its simplicial diagram of component presheaves.
 
 =--
 
 For the following write $\mathbf{\Delta} : \Delta \to sSet$ for the [[fat simplex]].  
 
-+-- {: .num_prop}
-###### Observation
-
+\begin{lemma}
 The fat simplex is Reedy cofibrant.
-
-=--
+\end{lemma}
 
 
 +-- {: .proof}
