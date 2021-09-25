@@ -25,7 +25,7 @@ There is at least some similarity between DSELs and [[synthetic mathematics]], s
 ## Reference
 
 
-* {#Hudak98} Paul Hudak, _Modular Domain Specific Languages and Tools_, in _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  1998  ([pdf](http://cs.yale.edu/c2/images/uploads/dsl.pdf))
+* {#Hudak98} Paul Hudak, _Modular Domain Specific Languages and Tools_, in _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  1998  ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1088.8906&rep=rep1&type=pdf))
 
 Discussion for embedding in [[Haskell]] is in 
 
