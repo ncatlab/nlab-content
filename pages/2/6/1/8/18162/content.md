@@ -277,14 +277,19 @@ A [[topological space]] comes with a _[[specialisation preorder]]_ on its points
 points $x,y \in X$,  $x \leq y$ iff $y \in cl x$ ($y$ is in the [[topological closure]] of $x$), or equivalently. The resulting [[preordered set]] may be regarded as a [[category]] whose
 [[objects]] are the points of ${X}$ and where there is a unique [[morphism]] $x{\searrow}y$ iff $y \in cl x$.
 
-For a [[finite topological space]] $X$, the specialisation preorder or equivalently the corresponding category uniquely determines the space: a [[subset]] of ${X}$ is [[closed subset|closed]] iff it is
+For a [[finite topological space]] $X$, the [[specialisation preorder]] or equivalently the corresponding category uniquely determines the space: a [[subset]] of ${X}$ is [[closed subset|closed]] iff it is
 [[downward closed subset|downward closed]], or equivalently, there are no morphisms going outside the subset.
 
 
 The monotone maps (i.e. [[functors]]) are the [[continuous maps]] for this topology.
 
-We denote a finite topological space by a list of the arrows (morphisms) in
-the corresponding category; '$\leftrightarrow $' denotes an [[isomorphism]] and '$=$' denotes the [[identity morphism]].  An arrow between two such lists denotes a [[continuous map]] (a functor) which sends each point to the correspondingly labelled point, but possibly turning some morphisms into identity morphisms, thus gluing some points. 
+We denote a [[finite topological space]] by a list of the arrows (morphisms) in the corresponding [[specialization preorder]]; 
+
+* '$\leftrightarrow $' denotes an [[isomorphism]] 
+
+* '$=$' denotes the [[identity morphism]].  
+
+An arrow between two such lists denotes a [[functor]] between these [[preorders]] (corresponding to a [[continuous map]] between the corresponding [[finite topological spaces]]) which sends each point to the correspondingly labelled point, but possibly turning some morphisms into identity morphisms, thus gluing some points. 
 
 With this notation, we may display continuous functions for instance between the [[discrete space]] on two points, the [[Sierpinski space]], the [[antidiscrete space]] and the [[point space]] as follows (where each point is understood to be mapped to the point of the same name in the next space):
 
@@ -308,6 +313,9 @@ $$
   }
 $$
 
+Here, in $\{a{\searrow}b\}$ the point $a$ is [[open point|open]] and point ${b}$ is [[closed point|closed]].
+
+
 In $A \longrightarrow  B$, each object and each morphism in $A$ necessarily appears in {B} as well; we avoid listing 
 the same object or morphism twice. Thus 
 both 
@@ -316,19 +324,75 @@ $$
   \phantom{AAA} \text{ and } \phantom{AAA} 
 \{a\} \longrightarrow  \{b\}
 $$ 
-denote the same map from a single point to the discrete space with two points.
-Both
- $$\{a{\swarrow}U{\searrow}x{\swarrow}V{\searrow}b\}\longrightarrow \{a{\swarrow}U=x=V{\searrow}b\}\text{ and }\{a{\swarrow}U{\searrow}x{\swarrow}V{\searrow}b\}\longrightarrow \{U=x=V\}$$
-denote the morphism gluing points $U,x,V$.
+denote the same map from a single point to the [[discrete space]] with two points.
 
-In $\{a{\searrow}b\}$, the point $a$ is open and point ${b}$ is closed.
+
+
+{#ExampleMapIdentifyingThreePoints} Similarly, both
+
+$$
+  \left\{
+    \;\;
+    \array{   
+      & & U && && V
+      \\
+      & \swarrow && \searrow && \swarrow && \searrow
+      \\
+      a && && x && && b
+    }
+    \;\;
+  \right\}
+  \;\;\;\;\;\;\;\;
+  \xrightarrow{\phantom{------}}
+  \;\;\;\;\;\;\;\;
+  \left\{
+    \;\;
+     \array{
+       && U  &=& x &=& V
+       \\
+       & \swarrow & && && & \searrow
+       \\
+       a & & &&  &&  &&   b
+     }
+    \;\;
+  \right\}
+$$
+
+and
+
+$$
+  \left\{
+    \;\;
+    \array{   
+      & & U && && V
+      \\
+      & \swarrow && \searrow && \swarrow && \searrow
+      \\
+      a && && x && && b
+    }
+    \;\;
+  \right\}
+  \;\;\;\;\;\;\;\;
+  \xrightarrow{\phantom{------}}
+  \;\;\;\;\;\;\;\;
+  \left\{
+    \;\;
+     \array{
+       U  &=& x &=& V
+     }
+    \;\;
+  \right\}
+$$
+
+denote the morphism gluing points $U$, $x$, and $V$.
+
 
 
 
 ## Separation conditions in terms of arrows
 
 
-Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
+Fix two [[subsets]] $F, G \;\subset\; S$.
 
 *  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
 
@@ -337,7 +401,35 @@ Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
      \,.
    $$
  
-  In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow \bullet \}$ such that $S_{F,G}(x)=F$ for $x \in F$, $S_{F,G}(x)=G$ for $x \in G$, and $S_{F,G}(x)=\bullet$ for $x \notin F\cup G$.
+   In terms of arrows,  the following map is well-defined: 
+
+   $$ 
+     \array{
+       S_{F,G}
+       &\colon&
+       S 
+       &\longrightarrow&  
+       \big\{
+          F \leftrightarrow G \leftrightarrow \bullet 
+       \big\}
+     }
+   $$ 
+
+   such that
+
+   $$
+     S_{F,G}(x)
+     \;=\;
+     \left\{
+     \array{
+       F &\vert& x \in F
+       \\
+       G &\vert& x \in G
+       \\   
+       \bullet &\vert& otherwise 
+     }
+     \right.
+   $$
 
 *  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:  
 
@@ -678,6 +770,6 @@ Then pass to the infinite limit to construct a map  $ X \longrightarrow  \mathbb
 
 * [[Misha Gavrilovich]], *The unreasonable power of the lifting property in elementary mathematics*, 2017 ([arXiv:1707.06615](https://arxiv.org/abs/1707.06615),  [pdf](http://mishap.sdf.org/by:gavrilovich/expressive_power_of_the_lifting_property.pdf))
 
-* Misha Gavrilovich, Konstantin Pimenov. *A naive diagram chasing approach to formalisation of tame topology.*, 2018 ([pdf](http://mishap.sdf.org/mintsGE.pdf))
+* [[Misha Gavrilovich]], Konstantin Pimenov. *A naive diagram chasing approach to formalisation of tame topology.*, 2018 ([pdf](http://mishap.sdf.org/mintsGE.pdf))
 
 * [[Misha Gavrilovich]], *Extremally disconnected spaces as $\{\{u\to a,b\leftarrow v\}\to\{u\to a=b\leftarrow v\}\}^{lr}$, and being proper as $(\{\{o\}\to\{o\to c\}\}^r_{\le 4})^{lr}$*, 2021 ([pdf](http://mishap.sdf.org/yetanothernotanobfuscatedsyntax.pdf))
