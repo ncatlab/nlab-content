@@ -445,3 +445,9 @@ A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes a
 [[!redirects topos with an NNO]]
 [[!redirects topoi with NNOs]]
 [[!redirects toposes with NNOs]]
+
+\begin{tikzpicture}
+
+  \draw (0,0) node {Test};
+
+\end{tikzpicture}
