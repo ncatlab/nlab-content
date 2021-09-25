@@ -138,9 +138,9 @@ Given bicategories $C$ and $D$, for any pseudofunctor $F \colon C \to D$, there 
 
 +-- {: .proof} 
 ###### Proof  
-This is Proposition 5.1 of [Lack and Paoli](#LP).  Pseudofunctors that strictly preserve identity 1-morphisms are called
+This is Proposition 5.2 of [Lack and Paoli](#LP).  Pseudofunctors that strictly preserve identity 1-morphisms are called
 **normal**.  
-=---
+=--
 
 
 ## History
