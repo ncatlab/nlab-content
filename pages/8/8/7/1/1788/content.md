@@ -1,4 +1,3 @@
-
 |[[finite topological space]] |[[open subsets]] |[[specialization order]] | 
 |--|--|--|
 | [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrows 1 \;\Big\}$ |
@@ -277,3 +276,64 @@ Namely, the previous argument applies, but only to the point $0 \in Sierp$, whil
 
 
 
+
+\begin{tikzcd}
+[
+  column sep={between origins, 40pt}, 
+  row sep={between origins, 40pt}
+]
+  \mathrm{\boxed{\{\boxed{0}, \boxed{1}\}}}
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  X
+  \ar[dd]
+  \\
+  \\
+  \ast
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
+----
+
+
+
+\begin{tikzcd}
+[
+  column sep={between origins, 40pt}, 
+  row sep={between origins, 40pt}
+]
+  \boxed{\{0\leftrightarrow 1\}} 
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  \boxed{\overset{\boxed{\boxed{u},\boxed{v}}}{\searrow_c\swarrow}}  
+    \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
