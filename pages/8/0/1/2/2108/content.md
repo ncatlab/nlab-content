@@ -1029,7 +1029,7 @@ This is called the [[Schrödinger representation]] of the [[canonical commutatio
 If the [[symplectic manifold]] $(X, \omega)$ happens to be also 
 a [[Kähler manifold]] there are natural choices of prequantization:
 
-* the [[prequantum line bundle]] is a [[holomorphic line bundle]] since its [[curvature]] is $\omega in T^*_{(1,1)}X$;
+* the [[prequantum line bundle]] is a [[holomorphic line bundle]] since its [[curvature]] is $\omega \in T^*_{(1,1)}X$;
 
 * a [[polarization]] is given by the anti-holomorphic tangent bundle $T^{0,1}X$;
 
