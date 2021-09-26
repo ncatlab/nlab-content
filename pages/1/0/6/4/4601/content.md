@@ -32,7 +32,13 @@ Up to [[isomorphism of categories|isomorphism]], a thin category is the same thi
 
 ## Examples
 
-Since a poset is a thin category, in particular [[lattice|(semi)lattices]], [[Heyting algebra|Heyting algebras]], [[frame|frames]] are, too.
+A [[poset]] is a thin category. In particular so are [[lattice|(semi)lattices]], [[Heyting algebra|Heyting algebras]] and [[frame|frames]].
+
+## Related concepts
+
+* [[specializaton order]]
+
+* [[separation axioms in terms of lifting properties]]
 
 
 [[!redirects thin category]]
