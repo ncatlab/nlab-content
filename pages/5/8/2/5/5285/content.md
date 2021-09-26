@@ -654,6 +654,8 @@ Singular homology computes the [[generalized homology]] with coefficients in the
 
 Original references on [[chain homology]]/[[cochain cohomology]] and [[singular homology]]/[[singular cohomology]]:
 
+* [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123  (1895) (Orig.: [gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl.: [[John Stillwell]]: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
+
 * [[Andrei Kolmogoroff]], _Über die Dualität im Aufbau der kombinatorischen Topologie_, Recueil Mathématique 1(43) (1936), 97–102.  ([mathnet](http://mi.mathnet.ru/msb5361))
 
 * [[Andrei Kolmogoroff]], _Homologiering des Komplexes und des lokal-bicompakten Raumes_, Recueil Mathématique 1(43) (1936), 701–705.  [mathnet](http://mi.mathnet.ru/msb5475).
