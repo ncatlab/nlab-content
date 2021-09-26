@@ -603,7 +603,7 @@ The dual braid diagram for [[generalized homology]] is this:
 
 (graphics from [this Maths.SE comment](http://math.stackexchange.com/a/1180681/58526))
 
-=---
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -1029,9 +1029,9 @@ The concept of generalized homology obtained by discarding the dimension axiom a
 
 The proof that every generalized (co)homology theory arises this way ([[Brown representability theorem]]) is due to
 
-* {#Brown62} [[Edgar Brown]], _Cohomology theories_, Annals of Mathematics, Second Series 75: 467&#8211;484 (1962)
+* {#Brown62} [[Edgar Brown]], _Cohomology theories_, Annals of Mathematics, Second Series 75: 467&#8211;484 (1962) ([jstor:1970209](https://www.jstor.org/stable/1970209))
 
-* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965)
+* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) ([doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6))
 
 An early lecture note account is in
 
