@@ -112,7 +112,7 @@ to the [[point space]], one of the simplest non-injective maps:
 ]
   \mathrm{Dsc}
   \big( 
-    \{0,1\} 
+    \boxed{\{\boxed{0},\boxed{1}\}} 
   \big)
   \ar[
     rr,
@@ -182,7 +182,7 @@ to the [[point space]]:
 ]
   \mathrm{CoDsc}
   \big( 
-    \{0,1\} 
+    \boxed{\{0\leftrightarrow 1\}} 
   \big)
   \ar[
     rr,
@@ -252,7 +252,7 @@ to the [[point space]]:
   column sep={between origins, 40pt}, 
   row sep={between origins, 40pt}
 ]
-  \mathrm{Sierp}
+  \mathrm{\boxed{\{\boxed{0}\rightarrow 1\}}}
   \ar[
     rr,
     "{ \forall }"
@@ -277,7 +277,6 @@ to the [[point space]]:
 \end{tikzcd}
 
 Namely, the previous argument applies, but only to the point $0 \in Sierp$, while now $\{1\} \,\subset\, Sierp$ *is* [[open subset|open]]. Therefore the existence of lifts now means that any two points must *both* have an [[open neighbourhood]] not containing the other, which is the definition of a [[T1-space|$T_1$-space]].
-
 
 
 
