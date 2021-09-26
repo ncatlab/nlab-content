@@ -107,12 +107,16 @@ Further pointers:
 
 ### Abstract homotopy theory
 
-On [[calculus of fractions]]:
+On [[localization]] at [[weak equivalences]] to [[homotopy categories]]:
+
+* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) ([doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6))
+
+On [[localization]] via [[calculus of fractions]]:
 
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
 
 
-On [[model category]]-theory:
+On [[homotopy category of a model category|localization via]] [[model category]]-theory:
 
 * {#Quillen67} [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics 43, Berlin, New York, 1967
 
