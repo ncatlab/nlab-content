@@ -119,7 +119,7 @@ As such, the [[quantomorphism group]] naturally [[action|acts]] on the [[space o
 ### Quantization of field theory
 
 
-An interesting subclass of [[quantum field theory|quantum field theories]], especially of [[perturbative quantum field theories]], is thought to arise from [[prequantum field theory]] via a process of _quantization_.   This process reads in certain -- usually [[differential geometry|differential geometric]] -- data ([[Lagrangian field theoy]]), interprets this data as specifying the dynamics of some [[physical system]], and spits out the [[perturbative quantum field theory|perturbative]] [[quantum field theory]] that encodes the time evolution of this system.
+An interesting subclass of [[quantum field theory|quantum field theories]], especially of [[perturbative quantum field theories]], is thought to arise from [[prequantum field theory]] via a process of _quantization_.   This process reads in certain -- usually [[differential geometry|differential geometric]] -- data ([[Lagrangian field theory]]), interprets this data as specifying the dynamics of some [[physical system]], and spits out the [[perturbative quantum field theory|perturbative]] [[quantum field theory]] that encodes the time evolution of this system.
 
 For more on this see at _[[Wick algebra]]_ and _[[causal perturbation theory]]_.
 
