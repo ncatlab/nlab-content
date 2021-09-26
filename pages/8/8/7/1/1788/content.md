@@ -6,6 +6,9 @@
 | [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\},\, \{0,1\} \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  |
 
 
+$\overset{o}{}\searrow_c  \swarrow \overset{v\leftright a}{} $
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -306,7 +309,6 @@ Namely, the previous argument applies, but only to the point $0 \in Sierp$, whil
   \ast
 \end{tikzcd}
 ----
-
 
 
 \begin{tikzcd}
