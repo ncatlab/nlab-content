@@ -281,7 +281,8 @@ Namely, the previous argument applies, but only to the point $0 \in Sierp$, whil
 
 
 
-A space is Hausdorff (axiom $T_2$) iff every two distinct points have disjoint open neighbourhoods. To give two disjoint open subsets is to give a map to the space with two open points and one closed point. To give two distint points is to give an injective map. 
+A space is Hausdorff (axiom $T_2$) iff every two distinct points have disjoint open neighbourhoods. To give two disjoint open subsets is to give a map to the space with two open points and one closed point. To give two distinct points is to give an injective map. Hence, every two
+distinct points have disjoint open neighbourhoods iff any such injective map extends to a map to that space with three points.
 
 * *$X$ is a [[Hausdorff space|$T_2$-space]].
 
@@ -297,7 +298,7 @@ This is represented by the following lifting property diagram.
     rr,
     "{ \forall }"
   ]
-  \ar[dd]
+  \ar[dd,"{ (injective) }"]
   &&
   \boxed{\overset{\boxed{\boxed{u},\boxed{v}}}{\searrow_c\swarrow}}  
     \ar[dd]
