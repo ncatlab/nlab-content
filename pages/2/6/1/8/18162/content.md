@@ -280,6 +280,45 @@ Namely, the previous argument applies, but only to the point $0 \in Sierp$, whil
 
 
 
+
+A space is Hausdorff (axiom $T_2$) iff every two distinct points have disjoint open neighbourhoods. To give two disjoint open subsets is to give a map to the space with two open points and one closed point. To give two distint points is to give an injective map. 
+
+* *$X$ is a [[Hausdorff space|$T_2$-space]].
+
+This is represented by the following lifting property diagram. 
+
+  \begin{tikzcd}
+[
+  column sep={between origins, 40pt}, 
+  row sep={between origins, 40pt}
+]
+  \boxed{\{0\leftrightarrow 1\}} 
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  \boxed{\overset{\boxed{\boxed{u},\boxed{v}}}{\searrow_c\swarrow}}  
+    \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
+
+Axioms $T_3-T_5$ and others require finite topological spaces with 4 to 7 points, and we need to introduce appropriate notation. 
+
+
 ## Background and notation
  {#BackgroundAndNotation}
 
@@ -330,12 +369,12 @@ In doing so, often it will be convenient to show multiple copies of the *same* o
 
 For example:
 
-|[[finite topological space]] |[[open subsets]] |[[specialization order]] | 
-|--|--|--|
-| [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$ |
-| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \leftarrow 1 \;\Big\}$ |
-| [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrows 1 \;\Big\}$ |
-| [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\}  \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  |
+|[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture | 
+|--|--|--|--|
+| [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$| $\boxed{\{\boxed{0},\boxed{1}\}}$ |
+| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \leftarrow 1 \;\Big\}$ | $\boxed{\{\boxed{0}\rightarrow 1\}}$|
+| [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrows 1 \;\Big\}$ |  $\boxed{\{0\leftrightarrow 1\}}$ |
+| [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\}  \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  | $\boxed{*}$ |
 
 
 Notice here how in $\big\{\; 0 \leftarrow 1 \;\}$ the point $1$ is [[open point|open]] (as there do emanate arrows form it) while the point ${0}$ is [[closed point|closed]] (as no arrows emanate from it).
