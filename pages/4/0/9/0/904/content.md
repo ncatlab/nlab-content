@@ -338,24 +338,31 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 ## References
 
+Historical origins:
+
+* [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123  (1895) (Orig.: [gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl.: [[John Stillwell]]: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
+
+Textbook accounts: 
+
+
+* {#AGP02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Section 2.5 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+Lecture notes:
+
 * [[Jesper Møller]], _The fundamental group and covering spaces_ ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
 
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 2.5 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 Discussion from the point of view of [[Galois theory]] is in 
 
 * [[Luis Javier Hernández-Paricio]], _Fundamental pro-groupoids and covering projections_([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm156/fm15611.pdf))
 
-Isaksen's work is 
+See also:
 
-* [[D. C. Isaksen]], _A model structure on the category of pro-simplicial sets_, 
-Trans. Amer. Math. Soc., 353, (2001), 2805&#8211;2841
-
-whilst Quick's is in
+* [[D. C. Isaksen]], _A model structure on the category of pro-simplicial sets_,  Trans. Amer. Math. Soc., 353, (2001), 2805&#8211;2841
 
 * [[G. Quick]], _Profinite homotopy theory_, Documenta Mathematica, 13, (2008), 585&#8211;612. 
  
-Proof that the [[fundamental group of the circle is the integers]] in [[homotopy type theory]] is in
+Proof in [[homotopy type theory]] that the [[fundamental group of the circle is the integers]]:
  
 * [[Daniel Licata]], [[Michael Shulman]], _Calculating the Fundamental Group of the Circle in Homotopy Type Theory_,  ([arXiv:1301.3443](https://arxiv.org/abs/1301.3443))
 
