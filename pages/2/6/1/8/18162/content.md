@@ -271,64 +271,180 @@ Namely, the previous argument applies, but only to the point $0 \in Sierp$, whil
 
 
 ## Background and notation
+ {#BackgroundAndNotation}
 
+In order to economically define and denote the [[finite topological spaces]] which will appear in the [[lifting problems]] discussed below, we may encode them through their *[[specialization order]]*.
 
-A [[topological space]] comes with a _[[specialisation preorder]]_ on its points: for
-points $x,y \in X$,  $x \leq y$ iff $y \in cl x$ ($y$ is in the [[topological closure]] of $x$), or equivalently. The resulting [[preordered set]] may be regarded as a [[category]] whose
-[[objects]] are the points of ${X}$ and where there is a unique [[morphism]] $x{\searrow}y$ iff $y \in cl x$.
-
-For a [[finite topological space]] $X$, the [[specialisation preorder]] or equivalently the corresponding category uniquely determines the space: a [[subset]] of ${X}$ is [[closed subset|closed]] iff it is
-[[downward closed subset|downward closed]], or equivalently, there are no morphisms going outside the subset.
-
-
-The monotone maps (i.e. [[functors]]) are the [[continuous maps]] for this topology.
-
-We denote a [[finite topological space]] by a list of the arrows (morphisms) in the corresponding [[specialization preorder]]; 
-
-* '$\leftrightarrow $' denotes an [[isomorphism]] 
-
-* '$=$' denotes the [[identity morphism]].  
-
-An arrow between two such lists denotes a [[functor]] between these [[preorders]] (corresponding to a [[continuous map]] between the corresponding [[finite topological spaces]]) which sends each point to the correspondingly labelled point, but possibly turning some morphisms into identity morphisms, thus gluing some points. 
-
-With this notation, we may display continuous functions for instance between the [[discrete space]] on two points, the [[Sierpinski space]], the [[antidiscrete space]] and the [[point space]] as follows (where each point is understood to be mapped to the point of the same name in the next space):
+Recall that the [[specialisation preorder]] on the [[underlying]] [[set]] of points of a [[topological space]] $X$ is the [[preorder]] whose [[order relation]], for any $x, y \in X$, is
 
 $$
-  \array{
-  \{a,b\}
-     &\longrightarrow& 
-  \{a{\searrow}b\}
-     &\longrightarrow& 
-  \{a\leftrightarrow b\}
-    &\longrightarrow& 
-  \{a=b\}
-  \\
-  \text{(discrete space)}
-     &\longrightarrow& 
-  \text{(Sierpinski space)}
-    &\longrightarrow& 
-  \text{(antidiscrete space)}
-    &\longrightarrow& 
-  \text{(single point)}
-  }
-$$
-
-Here, in $\{a{\searrow}b\}$ the point $a$ is [[open point|open]] and point ${b}$ is [[closed point|closed]].
-
-
-In $A \longrightarrow  B$, each object and each morphism in $A$ necessarily appears in {B} as well; we avoid listing 
-the same object or morphism twice. Thus 
-both 
-$$
-\{a\} \longrightarrow  \{a,b\}
-  \phantom{AAA} \text{ and } \phantom{AAA} 
-\{a\} \longrightarrow  \{b\}
+  x \,\leq\, y 
+  \;\;\;\;\;\;\text{iff}\;\;\;\;\;\;  
+  y \,\in\, cl(x)
+  \,,
 $$ 
-denote the same map from a single point to the [[discrete space]] with two points.
+
+where the right hand side means that the following two equivalent conditions hold:
+
+1. $y$ is in the [[topological closure]] of $x$;
+
+1. every [[open subset]] which contains $x$ also contains $y$.
 
 
+We may regard these [[preordered sets]] equivalently as ([[thin category|thin]] and [[strict category|strict]]) [[categories]], whose
 
-{#ExampleMapIdentifyingThreePoints} Similarly, both
+* [[objects]] are the points of $X$,
+
+* [[morphisms]] reflect the order relation: 
+
+  for $x, y \,\in\, X$ there exists a unique morphism $;\x \,\leftarrow\, y\;$ iff $\;y \,\leq\, x\;$ in the [[specialization order]].
+
+For a [[finite topological space]] $X$, this [[specialisation preorder]] $Spec(X)$ -- or equivalently the corresponding category, which we shall conceptually conflate with the pre-ordering -- uniquely determines the topology:
+
+A [[subset]] $C \,\subset X\,$ is [[closed subset|closed]] iff the following equivalent conditions hold:
+
+1. $C$ [[downward closed subset|downward closed]] in the specialization order;
+
+1. there are no morphisms going out of $C$ in the corresponding category.
+
+Accordingly, we may and will denote [[finite topological spaces]] by showing the [[graph]] containing their points with a system of arrows indicating the generating [[morphisms]] in their corresponding [[specialization preorder]]-[[thin category|category]]. 
+
+In doing so, often it will be convenient to show multiple copies of the *same* object, i.e. the same point. Noticing that in the [[strict category]] corresponding to a [[preorder]], an [[isomorphism]] between two objects does *not imply* their [[equality]], we have and distinguish the following two notations:
+
+* '$=$' denotes an [[identity morphism]],
+
+* '$\leftrightarrow$' denotes an [[isomorphism]]
+
+  (hence, because the [[category]] is [[thin category|thin]], the existence of arrows back and forth $\leftrightarrows$).
+
+
+For example:
+
+|[[finite topological space]] |[[open subsets]] |[[specialization order]] | 
+|--|--|--|
+| [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$ |
+| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \leftarrow 1 \;\Big\}$ |
+| [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrows 1 \;\Big\}$ |
+| [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\}  \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  |
+
+
+Notice here how in $\big\{\; 0 \leftarrow 1 \;\}$ the point $1$ is [[open point|open]] (as there do emanate arrows form it) while the point ${0}$ is [[closed point|closed]] (as no arrows emanate from it).
+
+
+Under this identitification of [[finite topological spaces]] $X$ with  [[preordered sets]] regarded as [[thin categories]] $Spec(X)$, the [[continuous maps]] between topological spaces correspond to [[functors]] between their specialization preorders:
+
+$$
+  \overset{
+    \color{blue}
+    {
+      \text{continuous function betw.}
+      \atop
+      \text{finite topological spaces}
+    }
+    \mathclap{\phantom{\vert_{\vert_{\vert_{\vert_{\vert_{\vert}}}}}}}
+  }{
+    X \xrightarrow{f} Y
+  }
+  \;\;\;\;\;\;\;\;\;
+  \text{corresponds to}
+  \;\;\;\;\;\;\;\;\;
+  \overset{
+    \color{blue}
+    {
+      \text{functor between}
+      \atop
+      \text{ specialization orders }
+    }
+    \mathclap{\phantom{\vert_{\vert_{\vert_{\vert_{\vert_{\vert}}}}}}}
+  }{
+    Spec(X) \xrightarrow{Spec(f)} Spec(Y)
+  }
+  \mathrlap{\,.}
+$$
+
+With specialization orders denoted by their generating graphs as before, and using that there is at most one morphism for every ordered pair of objects, we may specify such functors $Spec(f)$ simply by labeling each object in their [[codomain]] by the same symbol as its [[preimage]].
+
+For example
+
+$$
+  \big\{\, 0 \,\big\}
+  \;\;\;
+  \xrightarrow{\phantom{---}}
+  \;\;\;
+  \big\{\, 0,\, 1  \,\big\}
+$$
+
+is to denote the [[functor]] between [[specialization orders]] of [[discrete spaces]] with a single and with two elements, respectively, which takes the point denoted "$0$" on the left to the point denoted by the same symbol "$0$" on the right.
+
+In this notation, the following shows the canonical functors between the four examples of specialization orders from the above list:
+
+$$
+  \overset{
+    \color{blue}
+    {
+      \text{discrete space}
+      \atop
+      \phantom{-}
+    }
+  }{
+    \Big\{\;
+      0 
+      \phantom{\leftarrow}
+      1
+    \;\Big\}
+  }
+  \;\;\xrightarrow{\phantom{---}}\;\;
+  \overset{
+    \color{blue}
+    {
+      \text{Sierpinski space}
+      \atop
+      \phantom{-}
+    }
+  }{
+    \Big\{\;
+      0 
+      \leftarrow
+      1
+    \;\Big\}
+  }
+  \;\;\xrightarrow{\phantom{---}}\;\;
+  \overset{
+    \color{blue}
+    {
+      \text{codiscrete space}
+      \atop
+      \phantom{-}
+    }
+  }{
+    \Big\{\;
+      0 
+      \leftrightarrows
+      1
+    \;\Big\}
+  }
+  \;\;\xrightarrow{\phantom{---}}\;\;
+  \overset{
+    \color{blue}
+    {
+      \text{point space}
+      \atop
+      \phantom{-}
+    }
+  }{
+    \Big\{\;
+      0 
+      =
+      1
+    \;\Big\}
+  }
+  \mathrlap{\,.}
+$$
+
+
+{#ExampleMapIdentifyingThreePoints} Notice here the role of the equality sign: In the denotation of a  functor as above, arrows may be sent to equality signs (but not the other way around): This corresponds to the corresponding [[continuous function]] "gluing" these points, in that it is (at least locally) the [[coprojection]] onto the [[quotient space|quotient]] by the subset of points that are being identified. 
+
+For example, the following denotes the functor corresponding to a map that "glues" three points to each other:
 
 $$
   \left\{
@@ -358,35 +474,8 @@ $$
   \right\}
 $$
 
-and
 
-$$
-  \left\{
-    \;\;
-    \array{   
-      & & U && && V
-      \\
-      & \swarrow && \searrow && \swarrow && \searrow
-      \\
-      a && && x && && b
-    }
-    \;\;
-  \right\}
-  \;\;\;\;\;\;\;\;
-  \xrightarrow{\phantom{------}}
-  \;\;\;\;\;\;\;\;
-  \left\{
-    \;\;
-     \array{
-       U  &=& x &=& V
-     }
-    \;\;
-  \right\}
-$$
-
-denote the morphism gluing points $U$, $x$, and $V$.
-
-
+\linebreak
 
 
 ## Separation conditions in terms of arrows
