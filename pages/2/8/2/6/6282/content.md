@@ -19,9 +19,9 @@ On [[rational homotopy theory]]:
 
 * {#FelixHalperin17} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
 
-On [[rational homotopy theory]] with general [[fundamental groups]]:
+On [[rational homotopy theory]] of non-[[nilpotent spaces]] via [[deck transformation|deck]]-[[Borel-equivariant rational homotopy theory]] of their [[universal cover|universal]] [[covering spaces]]:
 
-* Antonio Gómez-Tato, [[Stephen Halperin]], [[Daniel Tanré]], _Rational Homotopy Theory for Non-Simply Connected Spaces_, Transactions of the American Mathematical Society, Transactions of the American Mathematical Society Vol. 352, No. 4 (Apr., 2000), pp. 1493-1525 (33 pages) ([jstor:118074](https://www.jstor.org/stable/118074))
+* [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
 
 * {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
 
