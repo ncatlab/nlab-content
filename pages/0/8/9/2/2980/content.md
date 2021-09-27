@@ -21,7 +21,7 @@ A double bicategory can also be regarded as a special sort of [[intercategory]].
 
 * {#Verity92} [[Dominic Verity]], _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
 
-* {#Morton09} [[Jeffrey C. Morton]], _Double bicategories and double cospans_ Journal of Homotopy and Related Structures, Vol. 4(2009), No. 1, pp. 389-428,
+* {#Morton09} [[Jeffrey C. Morton]], _Double bicategories and double cospans_,  Journal of Homotopy and Related Structures, Vol. 4 (2009), No. 1, pp. 389-428,
 [journal abstract page](https://www.emis.de/journals/JHRS/volumes/2009/n1a19/abstract.htm), arXiv:[math/0611930](http://arxiv.org/abs/math/0611930), 
 
 * {#Morton07} [[Jeffrey C. Morton]], _Extended TQFT's and Quantum Gravity_, PhD thesis University of California, Riverside (2007), arXiv:[0710.0032](http://arxiv.org/abs/0710.0032).
