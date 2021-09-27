@@ -63,7 +63,7 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 * {#DwyerKan84} [[William Dwyer|W. G. Dwyer]] and [[Dan Kan|D. M. Kan]],  _Homotopy theory and simplicial groupoids_,  Nederl. Akad. Wetensch. Indag. Math., 46, (1984), 379 &#8211; 385,
 
 
-* Philip Ehlers, _Simplicial groupoids as models for homotopy type_ Master's thesis (1991) ([pdf](http://www.maths.bangor.ac.uk/research/ftp/theses/ehlers-msc.pdf))
+* Philip Ehlers, _Simplicial groupoids as models for homotopy type_ Master's thesis (1991) ([pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf))
 
 [[!redirects simplicial groupoids]]
 [[!redirects simplicially enriched groupoids]]
