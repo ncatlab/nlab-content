@@ -8,9 +8,9 @@ On [[rational homotopy theory]]:
 
 * [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic models in geometry_, Oxford University Press 2008 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tanre.pdf), [ISBN:9780199206520](https://global.oup.com/academic/product/algebraic-models-in-geometry-9780199206520))
 
-On [[rational homotopy theory]] with general [[fundamental groups]]:
+On [[rational homotopy theory]] of non-[[nilpotent spaces]] via [[deck transformation|deck]]-[[Borel-equivariant rational homotopy theory]] of their [[universal cover|universal]] [[covering spaces]]:
 
-* Antonio Gómez-Tato, [[Stephen Halperin]], [[Daniel Tanré]], _Rational Homotopy Theory for Non-Simply Connected Spaces_, Transactions of the American Mathematical Society, Transactions of the American Mathematical Society Vol. 352, No. 4 (Apr., 2000), pp. 1493-1525 (33 pages) ([jstor:118074](https://www.jstor.org/stable/118074))
+* [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
 
 * [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], _Homotopy theory of complete Lie algebras and Lie models of simplicial sets_, Journal of Topology (2018) 799-825 ([arXiv:1601.05331](https://arxiv.org/abs/1601.05331), [doi:10.1112/topo.12073](https://doi.org/10.1112/topo.12073))
 
