@@ -56,7 +56,7 @@ The basic constructions that higher geometric quantization is concerned with are
 | [[symplectomorphism group]] | $\mathbf{Aut}_{/\Omega^{n+1}(-,\mathbb{G})}(\omega) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\omega}}\searrow && \swarrow_{\mathrlap{\omega}} \\ && \Omega^{n+1}_{cl}(-,\mathbb{G})  } \right\}$ |   |
 | [[prequantum circle n-bundle]] | $\array{ && \mathbf{B}^n \mathbb{G}_{conn} \\ & {}^{\mathllap{\mathbf{c}_{conn}}}\nearrow & \downarrow^{\mathrlap{curv}} \\ X &\stackrel{\omega}{\to}& \Omega^{n+1}(-,\mathbb{G})}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[ordinary differential cohomology|differential cohomology]] |
 | [[Planck's constant]] $\hbar$ | $\tfrac{1}{\hbar}\mathbf{c}_{conn} : X \to \mathbf{B}^n \mathbb{G}_{conn}$ | divisibility of twisting class  |
-| [[quantomorphism group]] $\superset$ [[Heisenberg group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
+| [[quantomorphism group]] $\supset$ [[Heisenberg group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
 | [[Hamiltonian]] [[quantum operator (in geometric quantization)|quantum observables]] with [[Poisson bracket]] | $Lie(\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}))$  | [[infinitesimal cohesion|infinitesimal]] twist automorphisms |
 | [[Hamiltonian actions]] of a [[smooth ∞-group]] $G$ / dual [[moment maps]]| $ \mu : \mathbf{B}G \to \mathbf{B}\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn})$ | $G$-[[∞-action]] on the twisting |
 | [[gauge reduction]] | $\mathbf{c}_{conn}//G \,:\, X//G \to \mathbf{B}^n \mathbb{G}_{conn}$ | $G$-[[∞-quotient]] of the twisting  | 
@@ -92,7 +92,7 @@ The basic constructions that higher geometric quantization is concerned with are
 
 ### Of non-integral 2-forms
 
-While only integral [[presymplectic forms]] have a [[prequantization]] to a prequantum [[circle bundle with connection]], hence to a $(\mathbb{Z} \to \mathbb{R})$-[[principal 2-bundle]], a general 2-form has a higer prequantization given by a [[connection on a 2-bundle]] on a [[principal 2-bundle]] with structure-[[2-group]] that coming from the [[crossed module]] $(\Gamma \hookrightarrow \mathbb{R})$, where $\Gamma$ is the [[discrete group]] of [[periods]] of the 2-form.
+While only integral [[presymplectic forms]] have a [[prequantization]] to a prequantum [[circle bundle with connection]], hence to a $(\mathbb{Z} \to \mathbb{R})$-[[principal 2-bundle]], a general 2-form has a higher prequantization given by a [[connection on a 2-bundle]] on a [[principal 2-bundle]] with structure-[[2-group]] that coming from the [[crossed module]] $(\Gamma \hookrightarrow \mathbb{R})$, where $\Gamma$ is the [[discrete group]] of [[periods]] of the 2-form.
 
 This is discussed further at _[[prequantization of non-integral 2-forms]]_.
 
