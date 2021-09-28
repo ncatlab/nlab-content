@@ -212,6 +212,8 @@ The [[symplectic form]] $\nu_\lambda \in \Omega^2_{cl}(G/T)$ of prop. \ref{TheSy
 
 =--
 
+Integrality of the symplectic form is known as the [[[[geometric quantization|*Bohr--Sommerfeld condition*]], which is equivalent to the existence of a [[prequantum line bundle]].
+
 ### The Hamiltonian $G$-action / coadjoint moment map
 
 The group $G$ canonically [[action|acts]] on the [[coset space]] $G/G_{\lambda}$ (by multiplication from the left). We discuss a lift of this action to a [[Hamiltonian action]] with respect to the [[symplectic manifold]] structure $(G/T, \nu_\lambda)$ of prop. \ref{TheSymplecticFormOnTheCoset}, equivalently a [[momentum map]] exhibiting this Hamiltonian action.
