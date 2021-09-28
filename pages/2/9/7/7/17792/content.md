@@ -54,7 +54,7 @@ $$
 
 ## Related concepts
 
-* [[finite limit]]
+* [[finite limit]], [[sifted colimit]]
 
 * [[Lawvere theory]], [[essentially algebraic theory]]
 
