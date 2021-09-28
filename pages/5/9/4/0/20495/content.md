@@ -13,3 +13,5 @@
 * [[pyknotic set]]
 
 category: people
+
+[[!redirects Peter J. Haine]]
