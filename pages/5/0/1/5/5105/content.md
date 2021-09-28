@@ -16,19 +16,31 @@
 \tableofcontents
 
 
+## Idea
+
+The notion of **equivalence of $2$-categories** is the appropriate notion of [[equivalence]] between [[2-categories]], [[categorification|categorifying]] the notion of [[equivalence of categories]]: a [[pair]] of [[2-functors]] back and forth between 2-categories, which are [[inverse]] to each other, up to [[pseudonatural equivalence]].
 
 ## Definition
 
-An **equivalence of $2$-categories** is the appropriate notion of [[equivalence of categories|equivalence]] between [[2-categories]]. This consists of:
+\begin{definition}\label{EquivalenceOf2Categories}
+An *equivalence* between [[2-categories]] $C$ and $D$ consists of
 
-* [[2-functors]] ${}\;F\colon C\to D$ and $G\colon D\to C$, and
-* [[pseudonatural transformations]] ${}\;G \circ F \to Id_C$ and $F \circ G \to Id_D$ which are themselves [[equivalences]], i.e. there are pseudonatural transformations forming their inverses up to isomorphism.
+1. [[2-functors]]$\;$ $F \,\colon\, \mathcal{C} \to \mathcal{D}$ and $G \,\colon\, \mathcal{D} \to \mathcal{C}$, 
 
-The definition makes sense, and is used, both in the case that $F$ is strict, and in the case that it is weak. Note however that in this case $G$ should be allowed to be weak: see Example 3.1 in [Lack2002](#Lack2002).
+1. [[pseudonatural transformations]] ${}\;G \circ F \to Id_{\mathcal{C}}$ and $F \circ G \to Id_{\mathcal{D}}$ which are themselves [[equivalences]], 
 
-In the literature this sort of equivalence is often called a **biequivalence**, as it has traditionally been associated with [[bicategories]], the standard algebraic definition of weak $2$-category.  There is a stricter notion of equivalence for strict $2$-categories, which traditionally is called just a *$2$-equivalence* and which on the nLab is called a [[strict 2-equivalence]].
+\end{definition}
 
-A (weak or strict) 2-functor can be made into part of an equivalence iff it is essentially surjective on objects, essentially full on 1-cells (i.e. essentially surjective on Hom-categories), and fully faithful on 2-cells.
+\begin{remark}
+Def. \ref{EquivalenceOf2Categories} makes sense, and is used, both in the case that $F$ is [[strict 2-functor|strict]], and in the case that it is [[weak 2-functor|weak]]. Note however that in this case $G$ should be allowed to be weak: see  [Lack 2002, Ex, 3.1](#Lack2002).
+\end{remark}
+
+\begin{remark}
+In the literature this sort of equivalence in Def. \ref{EquivalenceOf2Categories} is often called a **biequivalence**, as it has traditionally been associated with [[bicategories]], the standard algebraic definition of weak $2$-category.  
+
+There is a stricter notion of equivalence for strict $2$-categories, which traditionally is called just a *$2$-equivalence* and which on the nLab is called a *[[strict 2-equivalence]]*.
+\end{remark}
+
 
 ## Properties
 
@@ -42,11 +54,11 @@ A (weak or strict) 2-functor can be made into part of an equivalence iff it is e
 
    [[surjection|surjective]] on [[equivalence in a 2-category|equivalence]] [[equivalence classes|classes]] of [[objects]]: $\pi_0(F) \;\colon\; \pi_0(\mathcal{C}) \twoheadrightarrow \pi_0(\mathcal{D})\;$,
 
-1. **fully faithful**:
+1. **fully faithful** (e.g. [Gabber & Ramero 2004, Def. 2.4.9 (ii)](#GabberRamero04)):
 
    for each [[pair]] of [[objects]] $X,\, Y \in \mathcal{C}$ the component functor is an [[equivalence of categories|equivalence of]] [[hom-categories]] $F_{X,Y} \,\colon\, \mathcal{C}(X,Y) \xrightarrow{\simeq} \mathcal{D}\big(F(X), F(Y)\big)$, 
 
-   which by the analogous theorem for 1-functors ([this Prop.](equivalence+of+categories#ViaEssentiallySurjectiveAndFullyFaithful)) means equivalently that $F$ is
+   which by the analogous theorem for 1-functors ([this Prop.](equivalence+of+categories#ViaEssentiallySurjectiveAndFullyFaithful)) means equivalently that $F$ is (e.g. [Johnson & Yau 2020, Def. 7.0.1](#JohnsonYau20))
 
    1. **essentially full on 1-cells**:
 
@@ -58,7 +70,7 @@ A (weak or strict) 2-functor can be made into part of an equivalence iff it is e
 
 \end{prop}
 
-This is classical. It may be found made explicit in [Johnson & Yau 2020, Thm. 7.4.1 with Def. 7.0.1](#JohnsonYau20). 
+This is classical [[folklore]]. It is made explicit in, e.g. [Gabber & Ramero 2004, Cor. 2.4.30](#GabberRamero04); [Johnson & Yau 2020, Thm. 7.4.1](#JohnsonYau20). 
 
 
 ## Internalization
@@ -94,7 +106,9 @@ In particular, an "internal (bi)equivalence" in $Gray$ consists of *strict* $2$-
 
 * {#Lack2002} [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory 26, No. 2, 171-205 (2002). [Zentralblatt review](https://zbmath.org/?q=an%3A1017.18005) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmc2cat.html) 
 
-* {#Zheng12} Weizhe Zheng, prop. 1.6 of _Gluing pseudofunctors via $n$-fold categories_ ([arXiv:1211.1877](http://arxiv.org/abs/1211.1877))
+* {#GabberRamero04} [[Ofer Gabber]], [[Lorenzo Ramero]], Def. 2.49 with Cor. 2.4.30 in: *Foundations for almost ring theory* ([arXiv:math/0409584](https://arxiv.org/abs/math/0409584))
+
+* {#Zheng12} [[Weizhe Zheng]], Def. 1.6 - Lem. 1.8 of: _Gluing pseudofunctors via $n$-fold categories_, J. Homotopy Relat. Struct. **12** 189–271 (2017) ([arXiv:1211.1877](http://arxiv.org/abs/1211.1877), [doi:10.1007/s40062-016-0126-2](https://doi.org/10.1007/s40062-016-0126-2))
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 7 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
