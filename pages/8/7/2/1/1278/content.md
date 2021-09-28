@@ -465,8 +465,9 @@ and the observation that indeed every [[stable homotopy type]] in a [[cohesive (
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_,  J. Homotopy Relat. Struct. 11, 1–66 (2016) ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
 
+A book-length overview is given in
 
-
+* {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), _Differential Cohomology: Categories, Characteristic Classes, and Connections_. Based on Fall 2019 talks at MIT's Juvitop seminar by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. ([arXiv:2109.12250](https://arxiv.org/abs/2109.12250))
 
 
 ### Lectures and talks 
