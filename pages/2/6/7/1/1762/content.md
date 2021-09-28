@@ -1,4 +1,4 @@
-Ross Street is a major category theorist of the [[Australian school of category theory]], a student and collaborator of the late [[Max Kelly|Gregory Maxwell Kelly]]. See his [list of publications](http://science.mq.edu.au/~street/Publications.html) and [homepage](http://www.maths.mq.edu.au/~street). His most important works include works in [[sheaf]], [[fibred category]], [[stack]] and [[descent]] theory, including the introduction of [[oriental]]s, a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], coherence for [[tricategories]], etc.
+Ross Street is a major category theorist of the [[Australian school of category theory]], a student and collaborator of the late [[Max Kelly|Gregory Maxwell Kelly]]. See his [list of publications](http://science.mq.edu.au/~street/Publications.html) and [homepage](http://www.maths.mq.edu.au/~street). His most important works include works in [[sheaf]], [[fibred category]], [[stack]] and [[descent]] theory, including the introduction of [[oriental]]s, a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
 
 ## Selected writings
 
@@ -20,6 +20,11 @@ Ross Street is a major category theorist of the [[Australian school of category 
 On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]]:
 
 * [[Brian Day]], [[Ross Street]], *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
+
+
+On [[coherence theorems]] for [[tricategories]]:
+
+* [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
 
 
 category: people
