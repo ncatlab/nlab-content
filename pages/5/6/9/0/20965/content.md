@@ -46,6 +46,7 @@ See also
 
 * Akash Goel, [[Herman Verlinde]], _Towards a String Dual of SYK_ ([arXiv:2103.03187](https://arxiv.org/abs/2103.03187))
 
+* Tarek Anous, Felix M. Haehl, *The quantum $p$-spin glass model: A user manual for holographers* ([arXiv:2106.03838](https://arxiv.org/abs/2106.03838))
 
 
 
