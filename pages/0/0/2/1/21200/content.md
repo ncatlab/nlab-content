@@ -91,7 +91,9 @@ The category of I-almost 0 modules is a Serre subcategory of Mod R. The "correct
 
 * [[Bhargav Bhatt]],  _Almost Ring Theory I_, 2014 ([[BhattAlmostRing.pdf:file]])
 
-* [[Ofer Gabber]], Lorenzo Ramero, _Almost ring theory_ ([arXiv:math/0002064](https://arxiv.org/abs/math/0002064))
+* [[Ofer Gabber]], [[Lorenzo Ramero]], _Almost ring theory_, Springer 2003 ([arXiv:math/0002064](https://arxiv.org/abs/math/0002064), [doi:10.1007/b10047](https://link.springer.com/book/10.1007/b10047))
+
+  [[Ofer Gabber]], [[Lorenzo Ramero]], *Foundations for almost ring theory* ([arXiv:math/0409584](https://arxiv.org/abs/math/0409584))
 
 * [[Gerd Faltings]], _Almost &#233;tale extensions_,  Cohomologies p-adiques et applications arithmétiques (II), Astérisque no. 279  (2002), p. 185-270 ([numdam:AST_2002__279__185_0](http://www.numdam.org/item/AST_2002__279__185_0))
 
@@ -104,6 +106,8 @@ See also
 
 [[!redirects almost ring]]
 [[!redirects almost rings]]
+
+[[!redirects almost ring theory]]
 
 [[!redirects almost mathematics]]
 
