@@ -15,7 +15,7 @@
 
 ## Idea
 
-The term [[convenient category of topological spaces]] is used (e.g. [Steenrod 67](#Steenrod)) for a [[category]] of [[topological spaces]] nice enough to address many of the needs of [[topology|working topologists]], notably including the condition of being a [[cartesian closed category]]. As such, they are examples of [[nice category of spaces|nice categories of spaces]].
+The term [[convenient category of topological spaces]] is used (e.g. [Steenrod 1967](#Steenrod67)) for a [[category]] of [[topological spaces]] nice enough to address many of the needs of [[topology|working topologists]], notably including the condition of being a [[cartesian closed category]]. As such, they are examples of [[nice category of spaces|nice categories of spaces]].
 
 A primary example is the category of [[compactly generated spaces]].
 
@@ -117,14 +117,17 @@ There are possible advantages in homotopy theory of using a "topological topos",
 
 
 ## Historical remarks 
+ {#HistoricalRemarks}
 
-The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, [[Ronnie Brown]] [1963](#Brown63) had written the following in the Introduction to his paper _Ten topologies for $X \times Y$_: 
+The phrase "convenient category of topological spaces" predates [Steenrod 1967](#Steenrod67) by a number of years;  [Brown 1963, Introduction](#Brown63) says:
 
-* "It may be that the category of Hausdorff $k$-spaces is adequate and convenient for all purposes of topology."
+> It may be that the category of Hausdorff $k$-spaces is adequate and convenient for all purposes of topology.
 
-The requirements for convenience were spelled out in [the sequel](#Brown64).
+The requirements for convenience were spelled out in [Brown 1964](#Brown64).
 
-In fact, Brown (not Steenrod, as has sometimes been assumed) was the first to prove that Hausdorff [[Kelley space|k-spaces]] (with the "kelleyfied" weakening of the [[compact-open topology|compact--open topology]] on function spaces) formed what is now called a [[cartesian closed category]] (see his [1961 thesis](#Brown61)); this work was influenced by the paper of Cohen listed below.  Note Brown's work predates the formal introduction of cartesian closed categories in [[Bill Lawvere]]'s thesis by a couple of years; in fact there is clear anticipation in Brown's thesis of the notions of [[closed monoidal category|monoidal closed]] and cartesian closed categories, which was to attract much attention throughout the sixties. Further,  Brown's results  on the topological case are more precise than Steenrod's, since the 1964 paper deals with functions continuous on compact subsets, and for these obtains a homeomorphism without kellyfication. An account of this may be found in the book [Topology and Groupoids](#Brown06).  
+In fact, Brown (not Steenrod, as has sometimes been assumed) was the first to prove that Hausdorff [[Kelley space|k-spaces]] (with the "kelleyfied" weakening of the [[compact-open topology|compact--open topology]] on function spaces) formed what is now called a [[cartesian closed category]] (see [Brown 1961](#Brown61)), influenced by [Cohen 1954](#Cohen54).  
+
+Note Brown's work predates the formal introduction of cartesian closed categories in [[Bill Lawvere]]'s thesis by a couple of years; in fact there is clear anticipation in Brown's thesis of the notions of [[closed monoidal category|monoidal closed]] and cartesian closed categories, which was to attract much attention throughout the sixties. Further,  Brown's results  on the topological case are more precise than Steenrod's, since the 1964 paper deals with functions continuous on compact subsets, and for these obtains a homeomorphism without kellyfication. An account of this may be found in the book [Topology and Groupoids](#Brown06).  
 
 Of course, as has often been emphasized by Lawvere, the need for and convenience of considering function spaces is a very old idea in [[geometry]] (going back to the roots of the [[calculus of variations]], for example). The constructions of exponentials of topological spaces via the compact--open topology had been known for a long time; see for example [[John Kelley]]'s _General Topology_ (1955). The relevance of what are today called [[Kelley space]]s (or k-spaces[^1]) had also been recognized; for example, Kelley's book indicates the [[complete space|completeness]] of function spaces (wrt the compact--open topology) when the base is a complete [[uniform space]] and the exponent is a k-space. However, the problem of obtaining a class of spaces _closed_ under function spaces wasn't solved prior to Brown's thesis. Brown also observed the relevance of k-spaces to studies of how products interact with [[quotient space]]s. The general appreciation of the connection between cartesian closure and preservation of quotients under products came with the appreciation of the conceptual simplicity of categorical [[adjunctions]], namely the point that the functor $- \times X$ preserves colimits if it has an exponential right adjoint $(-)^X$. The question also solved in Brown's 1964 paper was to give, in the Hausdorff case,  a left adjoint to  the functor $ (-)^Y $ when the function spaces have the compact-open topology, and so to give a monoidal closed structure on the category of Hausdorff spaces; the generalisation to the non-Hausdorff case is given in the paper of Booth and Tillotson listed below. 
 
@@ -144,23 +147,24 @@ Appreciation of the role of convenient categories was in full force by the early
 
 ## References
 
-The terminology ("convenient category of topological spaces") is due to
+The terminology ("convenient category of topological spaces") became widely adopted with
 
-* {#Steenrod} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
+* {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
 
-referring to the category of *[[compactly generated topological space]]* (see the references [there](compactly+generated+topological+space#Refererences) for more), whose convenient [[cartesian closed category|cartesian closure]] had previously been highlighted in:
+referring there to the category of *[[compactly generated topological space]]* (see the references [there](compactly+generated+topological+space#Refererences) for more), whose convenient [[cartesian closed category|cartesian closure]] had [previously](#HistoricalRemarks) been highlighted in:
 
 * {#Brown61} [[Ronnie Brown]], _Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes_, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
  
-* {#Brown63} [[Ronnie Brown]], _Ten topologies for $X\times Y$_, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://groupoids.org.uk/pdffiles/tentopologies.pdf)
+* {#Brown63} [[Ronnie Brown]], _Ten topologies for $X\times Y$_, Quart. J.Math. (2) 14 (1963), 303--319. ([doi:10.1093/qmath/14.1.303](https://doi.org/10.1093/qmath/14.1.303),  (pdf)](http://groupoids.org.uk/pdffiles/tentopologies.pdf))
 
 * {#Brown64} [[Ronnie Brown]], _Function spaces and product topologies_,  Quart. J. Math. (2) 15 (1964), 238--250. ([doi:10.1093/qmath/15.1.238](https://doi.org/10.1093/qmath/15.1.238))
 
+influenced, in turn, by:
+
+* {#Cohen54} D. E. Cohen,  _Spaces with weak topology_, Quart. J. Math., (2) 5 (1954) 77&#8211;-80 ([doi:10.1093/qmath/5.1.77](https://doi.org/10.1093/qmath/5.1.77))
+
 
 See also:
-
-
-* Cohen, D. E. _Spaces with weak topology_, Quart. J. Math., (2) 5 (1954) 77&#8211;-80. 
 
 * {#Spanier} [[Edwin Spanier]], _Quasi-topologies_, Duke Mathematical Journal 30 (1) (1963), 1--14.
 
