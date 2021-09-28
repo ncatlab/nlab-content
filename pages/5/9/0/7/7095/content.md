@@ -21,7 +21,7 @@
 
 In the context of [[geometric quantization]] of a [[symplectic manifold]] $(X, \omega)$, a _Bohr-Sommerfeld leaf_ is a [[Lagrangian submanifold]] of $X$ on which not only the [[symplectic form]] $\omega$ vanishes, but on which also a given [[prequantum bundle|prequantization]] $\nabla$ of $\omega$ is trivializable. 
 
-Therefore given a [[real polarization]] of $(X,\omega)$, hence a [[foliation]] by [[Lagrangian submanifolds]], the Bohr-Sommerfeld leaves form a discrete subset of the [[leaf space]]. The discreteness of this subset is essentially the formal incarnation of  "quantization" and this is what [[Bohr]] and [[Sommerfeld]] originally considered (in less abstract terms, the archetypical example was the harmonic oscillator as discussed [below](#HarmonicOscillator)).
+Therefore given a [[real polarization]] of $(X,\omega)$, hence a [[foliation]] by [[Lagrangian submanifolds]], the Bohr-Sommerfeld leaves form a discrete subset of the [[leaf space]]. The discreteness of this subset is essentially the formal incarnation of  "quantization" and this is what [[Niels Bohr|Bohr]] and [[Arnold Sommerfeld|Sommerfeld]] originally considered (in less abstract terms, the archetypical example was the harmonic oscillator as discussed [below](#HarmonicOscillator)).
 
 (There is a correction to this picture, given by the fact that a [[quantum states]]/[[semiclassical states]], involve not just Lagrangian submanifolds/Bohr-Sommerfeld leaves, but moreover [[half-densities]] over these. These are to satisfy an additional condition, encoded by the _[[metaplectic correction]]_.)
 
@@ -178,6 +178,14 @@ If the leaf space $B$ is [[Hausdorff space|Hausdorff]] and the projection $X \to
 
 ## References
 
+Named after [[Niels Bohr]] and [[Arnold Sommerfeld]].
+
+For historical background see also
+
+* Wikipedia, *[Old quantum theory](https://en.wikipedia.org/wiki/Old_quantum_theory)*.
+
+Discussion in the modern formalism of [[geometric quantization]]:
+
 * J. &#346;niatycki, _Wave functions relative to a real polarization_, Internat. J. Theoret. Phys., 14(4):277&#8211;288 (1975)
 
 * J. &#346;niatycki, _Geometric Quantization and Quantum Mechanics_, volume 30 of Applied Mathematical Sciences. Springer-Verlag, New York (1980)
@@ -195,4 +203,8 @@ If the leaf space $B$ is [[Hausdorff space|Hausdorff]] and the projection $X \to
 
 [[!redirects Bohr-Sommerfeld quantization]]
 
+[[!redirects Bohr-Sommerfeld condition]]
+[[!redirects Bohr--Sommerfeld condition]]
 
+[[!redirects Bohr–Sommerfeld condition]]
+[[!redirects Bohr–Sommerfeld conditions]]
