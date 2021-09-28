@@ -62,7 +62,9 @@ See at _[[distributivity of products and colimits]]_.
 
 ## See also
 
-* [[sifted (infinity,1)-colimit]]
+* [[sifted (infinity,1)-colimit|sifted $(\infty,1)$-colimit]]
+
+* [[finite product]]
 
 ## References
 
