@@ -460,14 +460,17 @@ The suggestion that differential cohomology is naturally the intrinsic [[cohomol
 
 * {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
-and the observation that indeed every [[stable homotopy type]] in a [[cohesive (∞,1)-topos]] canonically sits inside a [[differential cohomology diagram]] is due to 
+and the observation, working with [[sheaves of spectra]], that indeed every [[stable homotopy type]] in a [[cohesive (∞,1)-topos]] canonically sits inside a [[differential cohomology diagram]] is due to 
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_,  J. Homotopy Relat. Struct. 11, 1–66 (2016) ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
+Discussion in the generality of differential [[non-abelian cohomology]] is in
+
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4.3 in: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]_ ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
 
 A book-length overview is given in
 
-* {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), _Differential Cohomology: Categories, Characteristic Classes, and Connections_. Based on Fall 2019 talks at MIT's Juvitop seminar by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. ([arXiv:2109.12250](https://arxiv.org/abs/2109.12250))
+* {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), _Differential Cohomology: Categories, Characteristic Classes, and Connections_. Based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. ([arXiv:2109.12250](https://arxiv.org/abs/2109.12250))
 
 
 ### Lectures and talks 
