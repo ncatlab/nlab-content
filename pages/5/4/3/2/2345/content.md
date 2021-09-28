@@ -170,11 +170,11 @@ There is a notion of a 'weak 2-category', however it usually doesn\'t make sense
 
    [[surjection|surjective]] on [[equivalence in a 2-category|equivalence]] [[equivalence classes|classes]] of [[objects]]: $\pi_0(F) \;\colon\; \pi_0(\mathcal{C}) \twoheadrightarrow \pi_0(\mathcal{D})\;$,
 
-1. **fully faithful**:
+1. **fully faithful** (e.g. [Gabber & Ramero 2004, Def. 2.4.9 (ii)](#GabberRamero04)):
 
    for each [[pair]] of [[objects]] $X,\, Y \in \mathcal{C}$ the component functor is an [[equivalence of categories|equivalence of]] [[hom-categories]] $F_{X,Y} \,\colon\, \mathcal{C}(X,Y) \xrightarrow{\simeq} \mathcal{D}\big(F(X), F(Y)\big)$, 
 
-   which by the analogous theorem for 1-functors ([this Prop.](equivalence+of+categories#ViaEssentiallySurjectiveAndFullyFaithful)) means equivalently that $F$ is
+   which by the analogous theorem for 1-functors ([this Prop.](equivalence+of+categories#ViaEssentiallySurjectiveAndFullyFaithful)) means equivalently that $F$ is (e.g. [Johnson & Yau 2020, Def. 7.0.1](#JohnsonYau20))
 
    1. **essentially full on 1-cells**:
 
@@ -186,7 +186,8 @@ There is a notion of a 'weak 2-category', however it usually doesn\'t make sense
 
 \end{prop}
 
-This is classical. It may be found made explicit in [Johnson & Yau 2020, Thm. 7.4.1 with Def. 7.0.1](#JohnsonYau20). 
+This is classical [[folklore]]. It is made explicit in, e.g. [Gabber & Ramero 2004, Cor. 2.4.30](#GabberRamero04); [Johnson & Yau 2020, Thm. 7.4.1](#JohnsonYau20). 
+
 
 ## Related concepts
 
@@ -209,7 +210,10 @@ This is classical. It may be found made explicit in [Johnson & Yau 2020, Thm. 7.
 
 ## References
 
-Modernized review:
+Textbook accounts:
+
+* {#GabberRamero04} [[Ofer Gabber]], [[Lorenzo Ramero]], Def. 2.1.14 in: *Foundations for almost ring theory* ([arXiv:math/0409584](https://arxiv.org/abs/math/0409584))
+
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
