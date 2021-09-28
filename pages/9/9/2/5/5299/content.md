@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _framed little $n$disk operad_ is an [[operad]] in [[chain complex]]es that whose $n$-ary operations come from embedding $n$-dimensional disks in a larger one _and rotating_ them.  It is joint generalization of the [[little k-cubes operad]] and the [[framed little 2-disk operad]].
+The _framed little $n$-disk operad_ is an [[operad]] in [[chain complex]]es that whose $n$-ary operations come from embedding $n$-dimensional disks in a larger one _and rotating_ them.  It is joint generalization of the [[little k-cubes operad]] and the [[framed little 2-disk operad]].
 
 ## Properties
 
