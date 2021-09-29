@@ -32,7 +32,7 @@ In this context, a __strict category__ $C$ consists of
 
 * a set $Ob(C)$ (to be thought of as the set of [[objects]] of $C$),
 * a category $Wk(C)$ (to be thought of as the underlying weak category of $C$), and
-* an essentially surjective functor $cl(C)\colon Disc(Ob(C)) \to C$ (to be thought of as taking each object of $C$ to its [[clique]], more or less, in $C$).
+* an essentially surjective functor $cl(C)\colon Disc(Ob(C)) \to Wk(C)$ (to be thought of as taking each object of $C$ to its [[clique]], more or less, in $C$).
 
 A __strict functor__ $F$ from $C$ to $D$ (both strict categories) consists of
 
