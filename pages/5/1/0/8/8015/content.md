@@ -101,11 +101,15 @@ Discussion in terms of [[(∞,1)-category]]/[[(∞,1)-topos]]-theory is in
 ### Application to differential cohomology
  {#ReferencesApplicationToDifferentialCohomology}
 
-Discussion of sheaves of spectra on the site of [[SmoothManifolds]] as a model for [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[differential cohomology]] (including the [[differential cohomology hexagon]]):
+Discussion of sheaves of spectra on the [[infinity-cohesive site|$\infty$-cohesive site]] of [[SmoothManifolds]] (or, equivalently, its [[dense subsite]] of [[Cartesian spaces]]) as a model for [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[differential cohomology]] 
+
+* [[Urs Schreiber]], Section 4.1.2 in: *[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive $\infty$-topos]]* ([arXiv:1310.7930](https://arxiv.org/abs/1310.7930))
+
+and observing that the [[differential cohomology hexagon]] emerges in this context:
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_,  J. Homotopy Relat. Struct. 11, 1–66 (2016) ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-and withing the broader context of differential [[non-abelian cohomology]]:
+Discussion within the broader context of differential [[non-abelian cohomology]]:
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4.3 in: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]_ ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
 
