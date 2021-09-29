@@ -164,6 +164,13 @@ The [[model structure on Delta-generated topological spaces]] [[Quillen equivale
 
 *  {#Haraguchi13} [[Tadayuki Haraguchi]], _On model structure for coreflective subcategories of a model category_, Math. J. Okayama Univ.57(2015), 79–84 ([arXiv:1304.3622](http://arxiv.org/abs/1304.3622), MR3289294, Zbl 1311.55027)
 
+### Relation to compactly generated spaces
+
+Relation to [[compactly generated topological spaces]]:
+
+* [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+
+
 ### Relation to diffeological spaces
 
 Relation to [[diffeological spaces]]:
