@@ -48,7 +48,7 @@ Recall (from [here](compactly+generated+topological+space#SequencesOfCoReflectio
   Top
 \]
 
-exhibting the [[coreflective subcategory]] inside all of [[Top]] of [[compactly generated topological spaces]] and further the [[reflective subcategory]] of [[weak Hausdorff spaces]] among these.
+exhibiting the [[coreflective subcategory]] inside all of [[Top]] of [[compactly generated topological spaces]] and further the [[reflective subcategory]] of [[weak Hausdorff spaces]] among these.
 
 ### On k-Spaces
 
