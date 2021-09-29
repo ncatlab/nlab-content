@@ -547,7 +547,7 @@ See also
 ### Twist in higher degrees
  {#ReferencesTwistInHigherDegrees}
 
-Discussion of higher-degree twisted de Rham cohomology (often a the character image of [higher twisted K-theory](twisted+K-theory#ReferencesHigherTwists)):
+Discussion of higher-degree twisted de Rham cohomology (often as the [[Chern character]]-like image of [higher twisted K-theory](twisted+K-theory#ReferencesHigherTwists)):
 
 * [Teleman 04, Sec. 3](#Teleman04)
 
@@ -557,13 +557,16 @@ Discussion of higher-degree twisted de Rham cohomology (often a the character im
   
   > (relation to [[analytic torsion]])
 
+A [[spectral sequence]] for higher twisted de Rham cohomology (analgous to the [[Atiyah-Hirzebruch spectral sequence]] for [[twisted K-theory]] from [Atiyah & Segal 2005](Atiyah–Hirzebruch+spectral+sequence#AtiyahSegal05)):
+
+* {#LiLiuWang09} Weiping Li, Xiugui Liu, [[He Wang]], _On a spectral sequence for twisted cohomologies_,  Chin. Ann. Math. Ser. B 35, 633–658 (2014) ([arXiv:0911.1417](https://arxiv.org/abs/0911.1417), [doi:10.1007/s11401-014-0842-z](https://doi.org/10.1007/s11401-014-0842-z)).
+
+
+
 In the broader context of [[twisted cohomology theory]] and the [[Chern-Dold character map]]:
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3.3 of: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]_ ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
 
-A spectral sequence for twisted de Rham cohomology is discussed in
-
-* Weiping Li, Xiugui Liu, He Wang, _On a spectral sequence for twisted cohomologies_, [arXiv:0911.1417](https://arxiv.org/abs/0911.1417).
 
 
 
