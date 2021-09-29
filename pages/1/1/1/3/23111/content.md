@@ -1,0 +1,1 @@
+Regular axiom is stronger than hausdroff axiom with example? Pls
