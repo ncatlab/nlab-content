@@ -49,28 +49,35 @@ On the other hand, [[products]] of $C$-objects in $Top$ need not land in $C$, so
 
 ## Examples
 
-The original example of a convenient category of topological spaces is described at 
+The original example of a convenient category of topological spaces is that of 
 
-* [[compactly generated space]]
+* [[compactly generated topological space]]
 
-and there are closely related convenient categories, including for example the category of [[compactly+generated+space#weak_hausdorffification_11|compactly generated weakly Hausdorff spaces]]. The article by [[Neil Strickland]] ([ref](#NS)), written with the needs of algebraic topology in mind, covers the latter example in thorough detail. 
+an fairly immediate variant of which is that of 
 
-Another example is
+* [compactly generated weakly Hausdorff spaces](compactly+generated+topological+space#ReflectionIntoWeakHausdorffSpaces). 
+
+more references on which are given [there](compactly+generated+topological+space#ReferencesCGWeakHausdorffSpaces).
+
+Another example is the category
 
 * [[Delta-generated spaces]] ([[Euclidean-generated spaces]])
 
-see there for more.
+See there for more.
 
-A reasonably large class of examples, including the examples of compactly generated spaces and [[sequential space|sequential spaces]], is given in the article by Escard&#243;, Lawson, and Simpson ([ref](#ELS)). These may be outlined as follows. An [[exponential law for spaces|exponentiable space]] in $Top$ is a space $X$ such that $X \times -: Top \to Top$ has a right adjoint. These may be described concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a colimit in $Top$ of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
+A reasonably large class of examples, including the examples of [[compactly generated spaces]] and [[sequential space|sequential spaces]], is given in [Escardo, Lawson &Simpson 2004](#EscardoLawsonSimpson04). 
+
+This class may be outlined as follows: An [[exponential law for spaces|exponentiable space]] in [[Top]] is a space $X$ such that $X \times (-)  \;\colon\; Top \to Top$ has a [[right adjoint]]. These may be described more concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a [[colimit]] in [[Top]] of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
 
 +-- {: .num_theorem}
 ######Theorem 
 **(Escard&#243;, Lawson, Simpson)**
  
-If $\mathcal{C}$ is a productive class, then the full subcategory of $Top$ whose objects are $\mathcal{C}$-generated is a coreflective subcategory of $Top$ (hence complete and cocomplete) that is cartesian closed. 
+If $\mathcal{C}$ is a productive class, then the full subcategory of $Top$ whose objects are $\mathcal{C}$-generated is a [[coreflective subcategory]] of [[Top$]] (hence [[complete category|complete]] and [[cocomplete category|cocomplete]]) that is [[cartesian closed category|cartesian closed]]. 
 =-- 
 
-The other convenience conditions listed in this article (inclusion of CW-complexes, closure under closed subspaces) are in practice usually satisfied as well. For example, if closed subspaces of objects of $\mathcal{C}$ are $\mathcal{C}$-generated, then closed subspaces of $\mathcal{C}$-generated spaces are also $\mathcal{C}$-generated. If the unit interval $I$ is $\mathcal{C}$-generated, then so are all CW-complexes. 
+The other convenience conditions listed in this article (inclusion of [[CW-complexes]], closure under [[closed subspaces]]) are in practice usually satisfied as well. For example, if closed subspaces of objects of $\mathcal{C}$ are $\mathcal{C}$-generated, then closed subspaces of $\mathcal{C}$-generated spaces are also $\mathcal{C}$-generated. If the unit interval $I$ is $\mathcal{C}$-generated, then so are all CW-complexes. 
+
 
 ## Counterexamples
 
@@ -155,7 +162,7 @@ referring there to the category of *[[compactly generated topological space]]* (
 
 * {#Brown61} [[Ronnie Brown]], _Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes_, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
  
-* {#Brown63} [[Ronnie Brown]], _Ten topologies for $X\times Y$_, Quart. J.Math. (2) 14 (1963), 303--319. ([doi:10.1093/qmath/14.1.303](https://doi.org/10.1093/qmath/14.1.303),  ([pdf](http://groupoids.org.uk/pdffiles/tentopologies.pdf))
+* {#Brown63} [[Ronnie Brown]], _Ten topologies for $X\times Y$_, Quart. J.Math. (2) 14 (1963), 303--319. ([doi:10.1093/qmath/14.1.303](https://doi.org/10.1093/qmath/14.1.303), [pdf](http://groupoids.org.uk/pdffiles/tentopologies.pdf))
 
 * {#Brown64} [[Ronnie Brown]], _Function spaces and product topologies_,  Quart. J. Math. (2) 15 (1964), 238--250. ([doi:10.1093/qmath/15.1.238](https://doi.org/10.1093/qmath/15.1.238))
 
@@ -181,7 +188,7 @@ See also:
 * {#Preuss02} Gerhard Preu&#223;, _Foundations of topology: an approach to convenient topology_, Kluwer, Dordrecht/ Boston 2002, survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
 
 
-* {#ELS} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
 
 * {#Brown06} [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), available from amazon: Section 5.9: Spaces of functions and the compact-open topology. 
