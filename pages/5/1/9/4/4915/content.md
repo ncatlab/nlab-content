@@ -34,7 +34,7 @@ The tools of [[category theory]] and [[higher category theory]] serve to organiz
 
 ## Examples
 
-The following is a (incomplete) list of examples of topics for which higher category their has proven to be useful.
+The following is a (incomplete) list of examples of topics for which higher category theory has proven to be useful.
 
 
 ### In geometry
