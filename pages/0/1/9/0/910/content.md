@@ -363,6 +363,7 @@ A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparis
  {#References}
 
 ### CG Hausdorff spaces
+ {#ReferencesCGHausdorffSpaces}
 
 The idea of compactly generated Hausdorff spaces first appears in print in:
 
@@ -439,6 +440,7 @@ Further accounts:
 
 
 ### CG weak Hausdorff spaces
+ {#ReferencesCGWeakHausdorffSpaces}
 
 The idea of generalizing compact generation to weakly Hausdorff spaces appears in:
 
