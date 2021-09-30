@@ -20,18 +20,62 @@ A _regular space_ is a [[topological space]] (or variation, such as a [[locale]]
 
 ## Definitions
 
-Fix a [[topological space]] $X$.
+### Classical formulation
+ {#ClassicalFormulation}
 
-The classical definition is this: that if a point and a closed set are disjoint, then they are separated by neighbourhoods.  In detail, this means:
-+-- {: .num_defn #classical}
-###### Definition
-Given any point $a$ and closed set $F$, if $a \notin F$, then there exist a neighbourhood $V$ of $a$ and a neighbourhood $G$ of $F$ such that $V \cap G$ is empty.
-=--
+\begin{definition}\label{classical}
+**(regular topological spaces)**
+\linebreak
+A [[topological space]] $X$ is called *regular* (or $R_2$) if for 
+$C \,\subset\, X$ any [[closed subset]] 
+and
+$x \in X$ any point not contained in it, $x \,\notin\,C$,
+then there exist [[neighbourhoods]] $U_x ,\, U_C \,\subset X\,$ of $x$ and of $X$, respectively, 
+which are [[disjoint subsets|disjoint]]: $U_x \cap U_C \,=\, \varnothing$.
+\end{definition}
 
-In many contexts, it is more helpful to change perspective, from a closed set that $a$ does *not* belong to, to an open set that $a$ *does* belong to.  Then the definition reads:
+\begin{definition}\label{RegularHausdorffSpace}
+**(regular Hausdorff space)**
+\linebreak
+A [[topological space]] is called a *regular Hausdorff space* (or *$T_3$*) if 
+
+1. it is regular according to Def. \ref{classical} 
+
+1. it is a [[T0-space|$T_0$-space]] 
+
+   in that for any [[pair]] of distinct points, *at least one* point has a [[neighbourhood]] that does not contain the other point.
+
+\end{definition}
+\begin{proposition}\label{RegularT0SpacesAreHausdorff}
+  Regular Hausdorff spaces according to Def. \ref{RegularHausdorffSpace} are indeed [[Hausdorff spaces]] (or $T_2$), in that for any pair of distinct points, there is a pair of [[disjoint subsets|disjoint]] [[neighbourhoods]].
+\end{proposition}
+\begin{proof}
+  Let $x,y \,\in\,X$ be two distinct points in a regular $T_0$-space. By the [[T0-space|T0-condition]], one of them, say $x$, is not in the [[topological closure]] of the other: $x \,\notin\, cl(y)$ (using [this Prop.](closed+subspace#UnionOfOpensGivesClosure)). Therefore, by regularity, $\{x\}$ and $cl(y)$ have disjoint neighbourhoods, but these are then also disjoint neighbourhoods of $\{x\}$ and $\{y\}$.
+\end{proof}
+
+\begin{example}\label{RegularSpacesWhichAreNotHausdorff}
+**(regular spaces which is not Hausdorff)**
+\linebreak
+  There are regular spaces (Def. \ref{classical}) which are not regular Hausdorff (Def. \ref{RegularHausdorffSpace}).
+
+The simplest example is the [[codiscrete space]] $CoDisc\big(\{0,1\}\big)$ with two points, whose set of [[open subsets]] $\big\{ \varnothing, \, \{0,1\} \big\}$ consists of just the [[empty set]] $\varnothing$ and the total set. 
+This is not a [[T0-space|T0-space]], since the only open subset containing one of the two points is $\{0,1\}$, which hence also contains the other.
+However, $\varnothing$ and $\{0,1\}$ are also the only two [[closed subsets]], so that the regularity condition just asks for a pair of disjoint neighbourhoods around $\varnothing$ and any one of the two points. But this is provided by $\varnothing$ and $\{0,1\}$.
+\end{example}
+
+
+\begin{remark}
+  Beware that some authors use "$T_3$-space" to refer to all regular spaces according to Def. \ref{classical}, instead of just the regular Hausdorff spaces according to Def. \ref{RegularHausdorffSpace}.
+\end{remark}
+
+### Alternative formulations
+ {#AlternativeFormulations}
+
+In many contexts, such as in [[constructive mathematics]], it is more helpful to change perspective in the definition of regular spaces, from a closed set that $a$ does *not* belong to, to an open set that $a$ *does* belong to.  Then the definition reads, equivalently:
 +-- {: .num_defn #constructive}
 ###### Definition
-Given any point $a$ and neighbourhood $U$ of $a$, there exist a neighbourhood $V$ of $a$ and an open set $G$ such that $V \cap G = \empty$ but $U \cup G = X$.
+A [[topological space]] $X$ is *regular* if 
+given any point $a$ and neighbourhood $U$ of $a$, there exist a neighbourhood $V$ of $a$ and an open set $G$ such that $V \cap G = \empty$ but $U \cup G = X$.
 =--
 You can think of $V$ as being half the size of $U$, with $G$ the exterior of $V$.  (In a [[metric space]], or even in a [[uniform space]], this can be made into a proof.)
 
@@ -46,23 +90,7 @@ Find $V$ and $G$ as above.  Now apply the regularity axiom to $a$ and the interi
 =--
 In terms of the classical language of separation axioms, this says that $a$ and $F$ are separated by *closed* neighbourhoods.
 
-Sometimes one includes in the definition that a regular space must be $T_0$:
-+-- {: .un_defn #T0}
-###### Definition (of T&#x2080;)
-A space is $T_0$ if, given any two points, if each neighbourhood of either is a neighbourhood of the other, then they are equal.
-=--
-Other authors use the weaker definition above but call a regular $T_0$ space a __$T_3$ space__, but then that term is also used for a (merely) regular space.  An unambiguous term for the weaker condition is an __$R_2$ space__, but hardly anybody uses that.
 
-We have
-+-- {: .num_theorem #T3isHausdorff}
-###### Theorem
-Every $T_3$ space is [[Hausdorff space|Hausdorff]].
-=--
-+-- {: .proof}
-###### Proof
-Suppose every neighbourhood of $a$ meets every neighbourhood of $b$; by $T_0$ (and symmetry), it\'s enough to show that each neighbourhood $U$ of $a$ is a neighbourhood of $b$.  Use regularity to get $V$ and $G$.  Then $G$ cannot be a neighbourhood of $b$, so $U$ is.
-=--
-Since every Hausdorff space is $T_0$, a less ambiguous term for a $T_3$ space is a __regular Hausdorff space__.
 
 It is possible to describe the regularity condition fairly simply entirely in terms of the algebra of open sets.  First notice the relevance above of the condition that $Cl(V) \subset U$; we write $V \subset\!\!\!\!\subset U$ in that case and say that $V$ is __well inside__ $U$.  We now rewrite this condition in terms of open sets and regularity in terms of this condition.
 +-- {: .num_defn #locale}
@@ -261,6 +289,10 @@ Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a we
 Textbook accounts:
 
 * {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
+
+See also:
+
+* Wikipedia, *[Regular space](https://en.wikipedia.org/wiki/Regular_space)*
 
 [[!redirects completely regular]]
 [[!redirects completely regular space]]
