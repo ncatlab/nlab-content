@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -79,33 +80,6 @@ By Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces} below, t
 
 ## Properties
 
-### As a convenient category of topological spaces
-
-+-- {: .num_prop #EuclideanGeneratedSpacesAreConvenient}
-###### Proposition
-**([[Euclidean-generated spaces]] are [[convenient category of topological spaces|convenient]])**
-
-The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is 
-a [[convenient category of topological spaces]] in that:
-
-* it contains all [[CW-complexes]] ([SYH 10, Cor. 4.4](#SYH10)),
-
-* it is [[complete category|complete]] and [[cocomplete category]] ([SYH 10, Prop. 3.4](#SYH10)),
-
-* it is [[locally presentable category|locally presentable]] ([FR 08, Cor. 3.7](#FajstrupRosicky08))
-
-* it is [[cartesian closed]] ([SYH 10, Cor. 4.6](#SYH10)):
-
-  its [[mapping space]] [[internal homs]] $Maps(X,Y)$ are given by the [[D-topology]] of the [[internal homs]] in [[diffeological spaces]] (i.e. [[closed monoidal structure on presheaves|in presheaves]]) between [[continuous diffeologies]] ([SYH 10, Prop. 4.7](#SYH10)):
-
-  $$
-    Maps(X,Y) \;\coloneqq\; Dtplg\big( [ Cdfflg(X), Cdfflg(Y) ] \big) 
-  $$
-
-
-
-=--
-
 
 
 ### Coreflection into all topological spaces
@@ -155,6 +129,57 @@ $$
   D Top_{Qu}
   \,.
 $$
+
+
+### As a convenient category of topological spaces
+ {#AsAConvenientCategoryOfTopologicalSpaces}
+
++-- {: .num_prop #EuclideanGeneratedSpacesAreConvenient}
+###### Proposition
+**([[Euclidean-generated spaces]] are [[convenient category of topological spaces|convenient]])**
+
+The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is 
+a [[convenient category of topological spaces]] in that:
+
+* it contains all [[CW-complexes]] ([SYH 10, Cor. 4.4](#SYH10)),
+
+* it is [[complete category|complete]] and [[cocomplete category]] ([SYH 10, Prop. 3.4](#SYH10)),
+
+* it is [[locally presentable category|locally presentable]] ([FR 08, Cor. 3.7](#FajstrupRosicky08))
+
+* it is [[cartesian closed]] ([SYH 10, Cor. 4.6](#SYH10)):
+
+  its [[mapping space]] [[internal homs]] $Maps(X,Y)$ are given by the [[D-topology]] of the [[internal homs]] in [[diffeological spaces]] (i.e. [[closed monoidal structure on presheaves|in presheaves]]) between [[continuous diffeologies]] ([SYH 10, Prop. 4.7](#SYH10)):
+
+  $$
+    Maps(X,Y) \;\coloneqq\; Dtplg\big( [ Cdfflg(X), Cdfflg(Y) ] \big) 
+  $$
+
+=--
+
+Moreover, in summary of the discussion further above, this [[convenient category of topological spaces]] is
+
+1. a [[full subcategory]] of the [[quasi-topos]] of [[diffeological spaces]] (see [there](diffeological+space#RelationToTopologicalSpaces)), 
+
+1. which is in turn a [[full subcategory]] of the [[cohesive topos]] of [[smooth sets]] (see [there](geometry+of+physics+--+smooth+sets#DiffeologicalSpacesAreTheConcreteSmoothSets));
+
+1. which in turn is a [[full sub-(infinity,1)-category|full sub-$(\infty,1)$-category]] of the [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]
+
+such that the canonical [[shape modality]] (the [[shape via cohesive path ∞-groupoid|smooth path ∞-groupoid construction]]) still sees the correct underlying [[homotopy type]] of topological spaces ([[schreiber:Proper Orbifold Cohomology|SS20, Ex. 3.18]], see also at [[model structure on Delta-generated topological spaces]]):
+
+\begin{imagefromfile}
+    "file_name": "TopologicalConvenienceBySmoothGroupoids.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [SS21](https://ncatlab.org/schreiber/show/Equivariant+principal+infinity-bundles)"
+\end{imagefromfile}
+
 
 
 
