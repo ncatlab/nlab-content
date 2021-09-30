@@ -326,7 +326,7 @@ $$
   \,.
 $$
 
-Both of these [[adjoint functor|coreflections]] are [[Quillen equivalences]] with respect to the [[classical model structure on topological spaces]] and the induced [[model structure on compactly generated topological spaces]] and the [[model structure on Delta-generated topological spaces]] ([Gaucher 2009](#Gaucher09), [Haraguchi 2013](Delta-generated+topological+space#Haraguchi13)).
+Both of these [[adjoint functor|coreflections]] are [[Quillen equivalences]] with respect to the [[classical model structure on topological spaces]] and the induced [[model structure on compactly generated topological spaces]] and the [[model structure on Delta-generated topological spaces]] ([Gaucher 2009](#Gaucher07), [Haraguchi 2013](Delta-generated+topological+space#Haraguchi13)).
 
 
 
@@ -440,7 +440,7 @@ Discussion of k-spaces in the generality of subcatgeory-generated spaces, includ
 
 * {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
-* {#Gaucher09} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+* {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
 
 
 Proof that k-spaces form a [[regular category]]:
