@@ -51,6 +51,7 @@ Recall (from [here](compactly+generated+topological+space#SequencesOfCoReflectio
 exhibiting the [[coreflective subcategory]] inside all of [[Top]] of [[compactly generated topological spaces]] and further the [[reflective subcategory]] of [[weak Hausdorff spaces]] among these.
 
 ### On k-Spaces
+ {#OnkSpaces}
 
 \begin{proposition}\label{ClassicalModelStructureOnCompactlyGeneratedSpaces}
 **(classical model structure on compactly generated topological spaces)**
@@ -84,7 +85,7 @@ Similarly:
 \begin{proposition}\label{ClassicalModelStructureOnCompactlyGeneratedSpaces}
 **(classical model structure on compactly generated weak Hausdorff spaces)**
 \linebreak
-  The [[model structure on compactly generated topological spaces]] $k Top_{Qu}$ from Prop. \ref{ClassicalModelStructureOnCompactlyGeneratedSpaces} restricts along $h k top \xhookrightarrow{\;} k Top $ (eq:SequenceOfAdjunctions) to a [[model category]] structure on [[weak Huasdorff space|weakly Hausdorff]] k-spaces $h k Top_{Qu}$, and the [[reflective subcategory|reflection]] is a [[Quillen equivalence]]: 
+  The [[model structure on compactly generated topological spaces]] $k Top_{Qu}$ from Prop. \ref{ClassicalModelStructureOnCompactlyGeneratedSpaces} restricts along $h k top \xhookrightarrow{\;} k Top $ (eq:SequenceOfAdjunctions) to a [[model category]] structure on [[weak Hausdorff space|weakly Hausdorff]] k-spaces $h k Top_{Qu}$, and the [[reflective subcategory|reflection]] is a [[Quillen equivalence]]: 
 
 $$
   h k Top_{Qu}
@@ -99,6 +100,29 @@ $$
 (e.g. [Hovey 1999, Thm. 2.4.25](#Hovey99))
 
 Again, this is a [[Cartesian monoidal category|Cartesian]] [[monoidal model category]] (e.g. [Hovey 1999, Thm. 2.4.23](#Hovey99)).
+
+
+### On Delta-generated spaces
+ {#ModelStructureOnDeltaGeneratedTopologicalSpaces}
+
+In the same way as [above](#OnkSpaces) (e.g. [Gaucher 2007, p. 7](#Gaucher07), [Haraguchi 2013](Delta-generated+topological+space#Haraguchi13)):
+
+the model structure on [[compactly generated topological spaces]] restricts further along the inclusion of [[Delta-generated topological spaces]] $D Top \hookrightarrow k Top$, to give a [[Quillen equivalence|Quillen equivalent]] [[model structure on Delta-generated topological spaces]]:
+
+$$
+  Top_{Qu}
+  \underoverset
+    { \underset{ k }{\longrightarrow} }
+    { {\hookleftarrow} }
+    { \;\;\;\;\;\;\simeq_{\mathrlap{Qu}}\;\;\;\;\;\; }
+  k Top_{Qu}
+  \underoverset
+    { \underset{ D }{\longrightarrow} }
+    { {\hookleftarrow} }
+    { \;\;\;\;\;\;\simeq_{\mathrlap{Qu}}\;\;\;\;\;\; }
+  D Top_{Qu}
+  \,.
+$$
 
 
 ## Related concepts
@@ -123,10 +147,16 @@ Textbook accounts:
 
 * {#Hovey99}  [[Mark Hovey]], *[[Model Categories]]*, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
-
 Lecture notes:
 
 * [[J. F. Jardine]], *Serre fibrations and the model structure for CGWH* ([pdf](https://www.uwo.ca/math/faculty/jardine/courses/homth/homth-lecture002a.pdf))
+
+
+See also:
+
+* {#Gaucher07} [[Philippe Gaucher]], p. 7 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+
+
 
 
 [[!redirects model structure on compactly-generated topological spaces]]
@@ -134,4 +164,6 @@ Lecture notes:
 [[!redirects model structure on compactly generated weak Hausdorff spaces]]
 [[!redirects model structure on compactly-generated weak Hausdorff spaces]]
 
+[[!redirects model structure on Delta-generated topological spaces]]
+[[!redirects model structure on Delta generated topological spaces]]
 
