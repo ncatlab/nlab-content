@@ -51,6 +51,8 @@ Some of the above material is taken from [[joyalscatlab:Vogt, Rainer|Joyal's Cat
  
 category:people
 
+[[!redirects Rainer M. Vogt]]
+
 [[!redirects Vogt, Rainer ]]
 [[!redirects Vogt]]
 [[!redirects R. Vogt]]
