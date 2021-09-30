@@ -19,9 +19,9 @@
 
 A [[topological space]] is __connected__ if it can not be split up into two independent parts.
 
-Every topological space may be decomposed into disjoint maximal connected [[subspaces]], called its __[[connected components]]__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
+Every topological space may be decomposed into disjoint maximal connected [[subspaces]], called its __[[connected components]]__.  The [[underlying]] [[set]] of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the [[category]] [[Top]] of topological spaces.
 
-One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (such as for example _[[locally connected topological spaces]]_).
+One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological spaces]] that every space *is* a coproduct of connected components (such as for example _[[locally connected topological spaces]]_).
 
 
 ## Definitions
@@ -34,24 +34,37 @@ One often studies topological ideas first for connected spaces and then generali
 
 A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent conditions hold:
 
-1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] to their [[disjoint union space]]
+1. For all [[pairs]] of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] to their [[disjoint union space]]
 
    $$
-     (X,\tau) \simeq (X_1,\tau_1) \sqcup (X_2,\tau_2)
+     (X,\tau) 
+       \,\simeq\, 
+     (X_1,\tau_1) 
+       \sqcup 
+     (X_2,\tau_2)
+     \,,
    $$
 
-   then exactly one of the two spaces is the [[empty space]].
+   exactly one of the two spaces is the [[empty space]].
 
-1. For all pairs of [[open subsets]] $U_1, U_2 \subset X$ if
+1. For all [[pairs]] of [[open subsets]] $U_1, U_2 \subset X$, if
 
    $$
-     U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
+     U_1 
+       \cup 
+     U_2 
+       \,=\, 
+     X 
+     \phantom{A}\text{and} \phantom{A} 
+     U_1 \cap U_2 
+       \,=\, 
+     \emptyset
    $$
 
    then exactly one of the two subsets is the [[empty set]]. 
 
 
-1. if a [[subset]] $CO \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $ CO = X$ if and only if $CO$ is [[inhabited set|inhabited]].
+1. If a [[subset]] $CO \subseteq X$ is [[clopen set|clopen]] (both [[closed subset|closed]] and [[open subset|open]]), then $ CO = X$ if and only if $CO$ is [[inhabited set|inhabited]].
 
 =--
 
@@ -74,7 +87,7 @@ The conditions in def. \ref{ConnectedSpace} are indeed equivalent.
 
 First consider the equivalence of the first two statements:
 
-Suppose that in every disjoint union decomposition of $(X,\tau)$ then exactly one summand is empty. Now consider two disjoint open subsets $U_1, U_2 \subset X$ whose union is $X$ and whose intersection is empty. We need to show that exactly one of the two subsets is empty.
+Suppose that in every disjoint union decomposition of $(X,\tau)$ exactly one summand is empty. Now consider two disjoint open subsets $U_1, U_2 \subset X$ whose union is $X$ and whose intersection is empty. We need to show that exactly one of the two subsets is empty.
 
 Write $(U_1, \tau_{1})$ and $(U_2, \tau_2)$ for the corresponding [[topological subspaces]]. Then observe that from the definition of [[subspace topology]] and the [[disjoint union space]] we have a [[homeomorphism]]
 
@@ -98,7 +111,7 @@ Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ wit
 
 Now regarding the equivalence to the third statement:
 
-If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \backslash CO \subset X$ whose union is $X$ and whose intersection is empty. This way the third condition is equivalent to the second.
+If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \setminus CO \subset X$ whose [[union]] is $X$ and whose [[intersection]] is [[empty space|empty]]. This way the third condition is equivalent to the second.
 
 =--
 
@@ -107,27 +120,38 @@ If a subset $CO \subset X$ is both closed and open, this means equivalently that
 
 In the language of [[category theory]] def. \ref{ConnectedSpace} may be rephrased as follows:
 
-Write [[Top]] for the [[category]] of all [[topological space]].
+Let [[Top]] denote the [[category]] of all [[topological space]].
 
 Then a topological space $X$ is connected precisely if the [[representable functor]]
 
 $$
-  hom(X, -) \;\colon\; Top \longrightarrow Set
+  hom(X, -) 
+    \;\colon\; 
+  Top \longrightarrow Set
 $$
 
-preserves [[coproducts]].
+[[preserved limit|preserves]] all [[coproducts]].
 
 
-It is equivalent to just require that it preserves binary coproducts (a detailed proof in a more general setting is given at _[[connected object]]_ in [this proposition](connected+object#RespectForBinaryCoproductsIsSufficient). In that case, notice that we always have a map
-$$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
-so $X$ is connected if this is always a [[bijection]]. This definition generalises to the notion of [[connected object]] in an [[extensive category]].
+This, in turn, is equivalent to just requiring that the functor preserves binary coproducts (a detailed proof of this, in a more general setting, is given at _[[connected object]]_ in [this proposition](connected+object#RespectForBinaryCoproductsIsSufficient). In that case, notice that we always have a map
 
-The variant of the definition according to remark \ref{ConnectedEmptySpace}, which regards the empty space means in terms of category theoretic language that one
+$$ 
+  hom(X,Y) 
+    + 
+  hom(X,Z) 
+  \longrightarrow
+  hom(X,Y + Z) 
+  ,\,
+$$
+
+so $X$ is connected if this is always a [[bijection]]. This definition generalises to the notion of [[connected objects]] in an [[extensive category]].
+
+The variant of the definition according to remark \ref{ConnectedEmptySpace}, with regards to the empty space, means, in terms of category theoretic language, that one
 requires only that the maps
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) $$
 be [[surjections]].
 
-However, many results come out more cleanly by disqualifying the empty space (much as one disqualifies $1$ when one defines the notion of [[prime number]]).  See also the discussion at [[empty space]] and [[too simple to be simple]].
+However, many results come out more cleanly by disqualifying the empty space as connected (much as one disqualifies $1$ when one defines the notion of [[prime number]]).  See also the discussion at *[[empty space]]* and at *[[too simple to be simple]]*.
 
 
 ### Connected components
