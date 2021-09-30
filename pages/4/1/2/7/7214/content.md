@@ -83,6 +83,7 @@ By Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces} below, t
 
 
 ### Coreflection into all topological spaces
+ {#CoreflectionIntoAllTopologicalSpaces}
 
 
 [[!include adjunction between topological spaces and diffeological spaces]]
@@ -168,7 +169,7 @@ Moreover, in summary of the discussion further above, this [[convenient category
 such that the canonical [[shape modality]] (the [[shape via cohesive path ∞-groupoid|smooth path ∞-groupoid construction]]) still sees the correct underlying [[homotopy type]] of topological spaces ([[schreiber:Proper Orbifold Cohomology|SS20, Ex. 3.18]], see also at [[model structure on Delta-generated topological spaces]]):
 
 \begin{imagefromfile}
-    "file_name": "TopologicalConvenienceBySmoothGroupoids.jpg",
+    "file_name": "TopologicalConvenienceBySmoothGroupoids210930.jpg",
     "width": 800,
     "unit": "px",
     "margin": {
