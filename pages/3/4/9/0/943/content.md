@@ -50,20 +50,27 @@ On the other hand, [[products]] of $C$-objects in $Top$ need not land in $C$, so
 ## Examples
  {#Examples}
 
+
+### Categories of colimits of generating spaces
+ {#CategoriesOfColimitsOfGeneratingSpaces}
+
 The original example of a convenient category of topological spaces is that of 
 
 * [[compactly generated topological space]]
 
-another example is that of 
+and another example is that of 
 
 * [[Delta-generated spaces]] ([[Euclidean-generated spaces]]).
 
-Both of these examples arise as classes of topological spaces $X$ which agree with the [[colimits]] ([in TopSp](Top#UniversalConstructions)) of all continuous images inside them of *generating spaces* in a specified [[full subcategory]] $G \,\subset\, $ [[TopSp]]:
+Both of these are special cases of the general class of convenient *$GenSp$-generated topological spaces*:
 
-$$
+These are those topological spaces $X$ which agree with the [[colimit]] ([in TopSp](Top#UniversalConstructions)) of all continuous images inside them of *generating spaces* in a specified [[full subcategory]] $GenSp \,\subset\, $ [[TopSp]] ([Vogt 1971, Sec. 1](#Vogt71)):
+
+\[
+  \label{Gfication}
   G(X)
   \,\coloneqq\,
-  \left(
+  \Big(
   \underset{
     \underset{
       { T \in GenSp }
@@ -73,22 +80,49 @@ $$
   }{\lim}
   \,
   T
-  \right)
-  \xrightarrow{ \simeq }
+  \Big)
+  \xrightarrow{\;\;\; \simeq \;\;\;}
   X
+\]
+
+The [[full subcategories]] of such $GenSp$-generated spaces are [[coreflective subcategory|coreflective]] ([Vogt 1971, Cor. 1.4](#Vogt71))
+
+$$
+  TopSp
+    \underoverset
+      {\underset{G}{\longrightarrow}}
+      {\hookleftarrow}
+      {\;\;\;\;\bot\;\;\;\;}
+  G TopSp
+  \,.
 $$
 
-which 
+If one demands of the category $GenSp \,\hookrightarrow TopSp\,$ of generating spaces, for any pair $G_1, G_2 \,\in\, GenSp$ that ([Vogt 1971, Axiom 2](#Vogt71)):
 
-1. contains all [[topological simplices]] 
+1. their [[product topological space]] is again in $GenSp$;
 
-1. all whose objects are [[compact topological space|compact]]:
+1. the [[compact-open topology]] on the set of maps $G_1 \to G_2$ has a [[continuous function|continuous]] [[evaluation map]]
 
+then $G TopSp$ is a [[Cartesian closed category]] ([Vogt 1971, Thm. 3.6](#Vogt71)), with [[internal hom]] given by the image under $G$-fication (eq:Gfication) of the [[compact open topology]].
 
-Along these lines, a reasonably large class of examples, including the examples of [[compactly generated spaces]] and [[sequential space|sequential spaces]], is given in [Escardo, Lawson &Simpson 2004](#EscardoLawsonSimpson04). 
+If one in addition demands that $GenSp$ contains all [[Cartesian spaces]] $\mathbb{R}^n$, then $G(X) \to X$ is a [[weak homotopy equivalence]] (...).  
 
+As special cases of this general construction, the above examples of
 
-This class may be outlined as follows: An [[exponential law for spaces|exponentiable space]] in [[Top]] is a space $X$ such that $X \times (-)  \;\colon\; Top \to Top$ has a [[right adjoint]]. These may be described more concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a [[colimit]] in [[Top]] of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
+* [[compactly generated topological spaces]]  is obtained by 
+
+  taking $GenSp$ to be given by all [[compact Hausdorff spaces]]
+
+* [[Delta-generated topological spaces]] is obtained by 
+
+  taking $GenSp$ to be given by all [[Cartesian spaces]] (equivalently by all [[topological simplices]]).
+
+See also [Gaucher 2007, Sec. 2](#Gaucher07).
+
+Further developments along these lines are in[Escardo, Lawson &Simpson 2004](#EscardoLawsonSimpson04):
+
+The topological spaces $X$ for which there is an [[exponential law for spaces|exponentiable space]] in [[Top]] (i.e such that $X \times (-)  \;\colon\; Top \to Top$ has a [[right adjoint]])
+may be described more concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a [[colimit]] in [[Top]] of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
 
 +-- {: .num_theorem}
 ######Theorem 
@@ -98,6 +132,32 @@ If $\mathcal{C}$ is a productive class, then the full subcategory of $Top$ whose
 =-- 
 
 The other convenience conditions listed in this article (inclusion of [[CW-complexes]], closure under [[closed subspaces]]) are in practice usually satisfied as well. For example, if closed subspaces of objects of $\mathcal{C}$ are $\mathcal{C}$-generated, then closed subspaces of $\mathcal{C}$-generated spaces are also $\mathcal{C}$-generated. If the unit interval $I$ is $\mathcal{C}$-generated, then so are all CW-complexes. 
+
+### Subcategories of toposes
+ {#ExamplesSubcategoriesOfToposes}
+
+The [above](#CategoriesOfColimitsOfGeneratingSpaces) example of the category of [[Delta-generated topological spaces]] [above](#CategoriesOfColimitsOfGeneratingSpaces) has the remarkable property that it is 
+
+1. a [[full subcategory]] of the [[quasi-topos]] of [[diffeological spaces]] (see [there](diffeological+space#RelationToTopologicalSpaces)), 
+
+1. which is in turn a [[full subcategory]] of the [[cohesive topos]] of [[smooth sets]] (see [there](geometry+of+physics+--+smooth+sets#DiffeologicalSpacesAreTheConcreteSmoothSets));
+
+1. which in turn is a [[full sub-(infinity,1)-category|full sub-$(\infty,1)$-category]] of the [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]
+
+such that the canonical [[shape modality]] (the [[shape via cohesive path ∞-groupoid|smooth path ∞-groupoid construction]]) still sees the correct underlying [[homotopy type]] of topological spaces ([[schreiber:Proper Orbifold Cohomology|SS20, Ex. 3.18]], see also at [[model structure on Delta-generated topological spaces]]):
+
+\begin{imagefromfile}
+    "file_name": "TopologicalConvenienceBySmoothGroupoids.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [SS21](https://ncatlab.org/schreiber/show/Equivariant+principal+infinity-bundles)"
+\end{imagefromfile}
 
 
 ## Counterexamples
@@ -197,7 +257,7 @@ Discussion in the generality that subsumes [[compactly generated topological spa
 
 * {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
-* {#Gaucher09} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+* {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
 
 
 
