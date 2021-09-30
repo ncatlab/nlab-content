@@ -48,24 +48,45 @@ On the other hand, [[products]] of $C$-objects in $Top$ need not land in $C$, so
 
 
 ## Examples
+ {#Examples}
 
 The original example of a convenient category of topological spaces is that of 
 
 * [[compactly generated topological space]]
 
-an fairly immediate variant of which is that of 
+another example is that of 
 
-* [compactly generated weakly Hausdorff spaces](compactly+generated+topological+space#ReflectionIntoWeakHausdorffSpaces). 
+* [[Delta-generated spaces]] ([[Euclidean-generated spaces]]).
 
-more references on which are given [there](compactly+generated+topological+space#ReferencesCGWeakHausdorffSpaces).
+Both of these examples arise as classes of topological spaces $X$ which agree with the [[colimits]] ([in TopSp](Top#UniversalConstructions)) of all continuous images inside them of *generating spaces* in a specified [[full subcategory]] $G \,\subset\, $ [[TopSp]]:
 
-Another example is the category
+$$
+  G(X)
+  \,\coloneqq\,
+  \left(
+  \underset{
+    \underset{
+      { T \in GenSp }
+      \atop
+      {T \to X}
+    }{\longrightarrow}
+  }{\lim}
+  \,
+  T
+  \right)
+  \xrightarrow{ \simeq }
+  X
+$$
 
-* [[Delta-generated spaces]] ([[Euclidean-generated spaces]])
+which 
 
-See there for more.
+1. contains all [[topological simplices]] 
 
-A reasonably large class of examples, including the examples of [[compactly generated spaces]] and [[sequential space|sequential spaces]], is given in [Escardo, Lawson &Simpson 2004](#EscardoLawsonSimpson04). 
+1. all whose objects are [[compact topological space|compact]]:
+
+
+Along these lines, a reasonably large class of examples, including the examples of [[compactly generated spaces]] and [[sequential space|sequential spaces]], is given in [Escardo, Lawson &Simpson 2004](#EscardoLawsonSimpson04). 
+
 
 This class may be outlined as follows: An [[exponential law for spaces|exponentiable space]] in [[Top]] is a space $X$ such that $X \times (-)  \;\colon\; Top \to Top$ has a [[right adjoint]]. These may be described more concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a [[colimit]] in [[Top]] of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
 
@@ -73,7 +94,7 @@ This class may be outlined as follows: An [[exponential law for spaces|exponenti
 ######Theorem 
 **(Escard&#243;, Lawson, Simpson)**
  
-If $\mathcal{C}$ is a productive class, then the full subcategory of $Top$ whose objects are $\mathcal{C}$-generated is a [[coreflective subcategory]] of [[Top$]] (hence [[complete category|complete]] and [[cocomplete category|cocomplete]]) that is [[cartesian closed category|cartesian closed]]. 
+If $\mathcal{C}$ is a productive class, then the full subcategory of $Top$ whose objects are $\mathcal{C}$-generated is a [[coreflective subcategory]] of [[Top]] (hence [[complete category|complete]] and [[cocomplete category|cocomplete]]) that is [[cartesian closed category|cartesian closed]]. 
 =-- 
 
 The other convenience conditions listed in this article (inclusion of [[CW-complexes]], closure under [[closed subspaces]]) are in practice usually satisfied as well. For example, if closed subspaces of objects of $\mathcal{C}$ are $\mathcal{C}$-generated, then closed subspaces of $\mathcal{C}$-generated spaces are also $\mathcal{C}$-generated. If the unit interval $I$ is $\mathcal{C}$-generated, then so are all CW-complexes. 
