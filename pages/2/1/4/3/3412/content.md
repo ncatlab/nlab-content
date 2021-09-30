@@ -1,5 +1,5 @@
 
-**Rainer Vogt** (1942--2015) was  a mathematician specialised in [[homotopy theory]].
+**Rainer Vogt** (1942--2015) was  a mathematician who specialised in [[homotopy theory]].
 
 
 * [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=86037)
