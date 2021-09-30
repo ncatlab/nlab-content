@@ -307,6 +307,30 @@ iff it is a [[colimit]] as formed in [[Top]] (according to [this Prop.](Top#Desc
 ([Escardo, Lawson & Simpson 2004, Lem. 3.2 (v)](#EscardoLawsonSimpson04))
 
 
+### Relation to compactly generated topological space
+
+Insice $k$-spaces there is the further [[coreflective subcategory]] $D Top$ of [[Delta-generated topological spaces]]:
+
+$$
+  Top
+  \underoverset
+    { \underset{ k }{\longrightarrow} }
+    { {\hookleftarrow} }
+    { \;\;\;\;\;\;\bot\;\;\;\;\;\; }
+  k Top_{Qu}
+  \underoverset
+    { \underset{ D }{\longrightarrow} }
+    { {\hookleftarrow} }
+    { \;\;\;\;\;\;\bot\;\;\;\;\;\; }
+  D Top_{Qu}
+  \,.
+$$
+
+Both of these [[adjoint functor|coreflections]] are [[Quillen equivalences]] with respect to the [[classical model structure on topological spaces]] and the induced [[model structure on compactly generated topological spaces]] and the [[model structure on Delta-generated topological spaces]] ([Gaucher 2009](#Gaucher09), [Haraguchi 2013](Delta-generated+topological+space#Haraguchi13)).
+
+
+
+
 ### Regularity
  {#Regularity}
 
@@ -362,7 +386,7 @@ A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparis
 ## References 
  {#References}
 
-### CG Hausdorff spaces
+### k-Spaces and CG Hausdorff spaces
  {#ReferencesCGHausdorffSpaces}
 
 The idea of compactly generated Hausdorff spaces first appears in print in:
@@ -371,7 +395,7 @@ The idea of compactly generated Hausdorff spaces first appears in print in:
 
 where it is attributed to [[Witold Hurewicz]], who introduced the concept in a lecture series given in Princeton, 1948-49, which Gale attended.[^2]
 
-Early textbook accounts assuming the Hausdorff condition:
+Early textbook accounts, assuming the Hausdorff condition:
 
 * {#Kelley55} [[John Kelley]], p. 230 in: _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
@@ -410,6 +434,14 @@ The terminology "kaonic spaces", or rather the Russian version "каонные �
 
 * {#Postnikov82} [[M M Postnikov]], p. 34 of: *Лекции по алгебраической топологии. Основы теории гомотопий*, Наука 1982 ([web](http://libgen.is/book/index.php?md5=34A8C3C956EB80877F4E3CF5A297F514))
 
+Discussion of k-spaces in the generality of subcatgeory-generated spaces, including [[Delta-generated topological spaces]]:
+
+* {#Vogt71} [[Rainer M. Vogt]], *Convenient categories of topological spaces for homotopy theory*,  Arch. Math 22, 545–555 (1971) ([doi:10.1007/BF01222616](https://doi.org/10.1007/BF01222616))
+
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+
+* {#Gaucher09} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+
 
 Proof that k-spaces form a [[regular category]]:
 
@@ -433,13 +465,9 @@ Further accounts:
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, around note 4.3.22 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
 * Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
 
-Relation to [[Delta-generated topological spaces]]:
-
-* [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
 
 
 
