@@ -132,8 +132,135 @@ $$
 $$
 
 
+
 ### As a convenient category of topological spaces
  {#AsAConvenientCategoryOfTopologicalSpaces}
+
+\begin{prop}\label{CartesianClosure}
+  The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is a [[Cartesian closed category]]. 
+
+Explicitly, the [[internal hom]] $Maps_{DTop}$ is, equivalently:
+
+* the image under $Cdfflg$  (eq:AdjointFunctorsBetweenTopSpAndDifflgSp) of the [[mapping space]] $Maps_{Top}(X,Y)$ with the [[compact-open topology]]:
+
+  $$
+    Maps_{DTop}(X,Y)
+    \;\simeq\;   
+    Cdfflg
+    \big(
+      Maps_{Top}
+      (
+        X
+        ,\,
+        Y
+      )
+    \big)
+    \,,
+  $$
+
+* the image under [[D-topology|$Dtplg$]]  (eq:AdjointFunctorsBetweenTopSpAndDifflgSp) of the [[internal hom]] $Maps_{Dfflg}$ formed in [[diffeological spaces]]:
+
+  $$
+    Maps_{DTop}(X,Y) 
+      \;\simeq\; 
+    Dtplg
+    \big(  
+      Maps_{Dfflg}
+      (
+        X
+        ,\, 
+        Y
+      )
+    \big) 
+    \,.
+  $$
+
+
+\end{prop}
+The first statement is a special case of [Vogt 1971, Thm. 3.6](#Vogt71), as highlighted in [Gaucher 2007, Sec. 2](#Gaucher07).
+The second statement is the image of [SYH 10, Prop. 4.7](#SYH10) under $Dtplg$ (using that $\nu = T \circ D$, in their notation from p. 4).
+
+In fact, [SYH 10, Prop. 4.7](#SYH10) state something stronger, topologically characterizing $Maps_{Dfflg}(X,Y)$ even before applying $Dtplg$ to it. This stronger statement has a nice form when specialized to [[CW-complexes]]:
+
+
+\begin{proposition}\label{CWComplexesAreDTopologicalSpaces}
+  The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) contains all [[CW-complexes]].   
+\end{proposition}
+([SYH 10, Cor. 4.4](#SYH10))
+
+\begin{proposition}\label{DiffeologicalMapsOutOfCWComplexes}
+**([[diffeological space|diffeological]] [[internal hom]] out of [[CW-complexes]])**
+\linebreak
+
+If $X$ is a [[CW-complex]],
+regarded as an object in $DTopSp$ via Prop. \ref{CWComplexesAreDTopologicalSpaces},
+then for every $A \,\in\, DTopSp$
+their [[internal hom]] formed in [[diffeological spaces]]
+is [[isomorphism|isomorphic]] to the image under $Cdffl$
+(eq:AdjointFunctorsBetweenTopSpAndDifflgSp)
+of the [[mapping space]] $Maps_{Top}$ with its [[compact open topology]]: 
+$$
+  X \,\in\, CWComplex \hookrightarrow DTopSp
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+  \underset{
+    A \,\in\, DTopSp
+  }{\forall}
+  Maps_{Dfflg}
+  \big(
+    X
+    ,\,
+    A
+  \big)
+  \;\;
+  \simeq
+  Cdfflg
+  \,
+  Maps_{Top}
+  \left(
+    X
+    ,\,
+    A
+  \right)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+  This is the following combination of statements from [SYH 10](#SYH10):
+
+1. Prop. 4.7 there says that, in general:
+  
+   $$
+     Maps_{Dfflg}\big( X ,\, A\big)
+     \;\simeq\;
+     Cdfflgl
+     \big(
+       \mathbf{smap}(X,Y)
+     \big)
+   $$
+
+   (where "$\mathbf{smap}$" is defined on their p. 6),
+
+1. Prop. 4.3 there implies that, when $X$ is a CW-complex, as assumed here:
+
+   $$
+     Cdfflg 
+     \big(
+       \mathbf{smap}(X,Y)    
+     \big)
+     \;\simeq\;
+     Cdfflg 
+     \big(
+       Maps_{Top}(X,Y)        
+     \big) 
+     \,.
+   $$
+
+\end{proof}
+
+
+In summary:
 
 +-- {: .num_prop #EuclideanGeneratedSpacesAreConvenient}
 ###### Proposition
@@ -142,23 +269,21 @@ $$
 The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is 
 a [[convenient category of topological spaces]] in that:
 
-* it contains all [[CW-complexes]] ([SYH 10, Cor. 4.4](#SYH10)),
+* it is [[coreflective subcategory|coreflective]] in [[TopSp]] (by Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces})
 
-* it is [[complete category|complete]] and [[cocomplete category]] ([SYH 10, Prop. 3.4](#SYH10)),
+* it is [[complete category|complete]] and [[cocomplete category]]
 
-* it is [[locally presentable category|locally presentable]] ([FR 08, Cor. 3.7](#FajstrupRosicky08))
+(by [Vogt 1971](#Vogt71); [SYH 10, Prop. 3.4](#SYH10))
 
-* it is [[cartesian closed]] ([SYH 10, Cor. 4.6](#SYH10)):
+* it is [[locally presentable category|locally presentable]] ([FR 08, Cor. 3.7](#FajstrupRosicky08)),
 
-  its [[mapping space]] [[internal homs]] $Maps(X,Y)$ are given by the [[D-topology]] of the [[internal homs]] in [[diffeological spaces]] (i.e. [[closed monoidal structure on presheaves|in presheaves]]) between [[continuous diffeologies]] ([SYH 10, Prop. 4.7](#SYH10)):
+* it contains all [[CW-complexes]] (Prop. \ref{CWComplexesAreDTopologicalSpaces}),
 
-  $$
-    Maps(X,Y) \;\coloneqq\; Dtplg\big( [ Cdfflg(X), Cdfflg(Y) ] \big) 
-  $$
+* it is [[cartesian closed]], with [[internal hom]] expressible as in Prop. \ref{CartesianClosure}.
 
 =--
 
-Moreover, in summary of the discussion further above, this [[convenient category of topological spaces]] is
+Moreover, in further summary of the discussion further above, this [[convenient category of topological spaces]] is:
 
 1. a [[full subcategory]] of the [[quasi-topos]] of [[diffeological spaces]] (see [there](diffeological+space#RelationToTopologicalSpaces)), 
 
