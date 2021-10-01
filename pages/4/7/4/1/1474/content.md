@@ -497,6 +497,10 @@ Comments on the relation to [[topos theory]]:
 [[!redirects Hausdorff topological spaces]]
 [[!redirects Hausdorff convergence space]]
 [[!redirects Hausdorff convergence spaces]]
+
+[[!redirects T2-space]]
+[[!redirects T2-spaces]]
+
 [[!redirects Hausdorff locale]]
 [[!redirects Hausdorff locales]]
 
