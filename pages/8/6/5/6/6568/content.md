@@ -39,6 +39,8 @@ Therefore the theory of quantum angular momentum is that of the [[irreducible re
 
 * [[spin-orbit coupling]]
 
+* [[moment map]]
+
 ## References
 
 ### Classical angular momentum
