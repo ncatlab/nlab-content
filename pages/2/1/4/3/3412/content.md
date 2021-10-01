@@ -23,6 +23,10 @@ which gave a neat explicit construction/description of [[homotopy limit]]s.
 
 ## Selected writings
 
+On [[convenient categories of topological spaces]] in the generality subsuming [[compactly generated topological spaces]] and [[Delta-generated topological spaces]]:
+
+* {#Vogt71} [[Rainer M. Vogt]], *Convenient categories of topological spaces for homotopy theory*,  Arch. Math 22, 545–555 (1971) ([doi:10.1007/BF01222616](https://doi.org/10.1007/BF01222616))
+
 On a [[model structure on simplicial algebras]] for [[simplicial Lawvere theories]]:
 
 * {#Schw&#228;nzlVogt91} [[Roland Schwänzl]], [[Rainer Vogt]], _The categories of $A_\infty$- and $E_\infty$-monoids and ring spaces as closed simplicial and topological model categories_, Archives of Mathematics 56 (1991) 405-411 ([doi:10.1007/BF01198229](https://doi.org/10.1007/BF01198229))
