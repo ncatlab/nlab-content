@@ -30,8 +30,20 @@ Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(N,\nu)$, 
 
   * [[finitely presented module]]
 
+* [[coherent module]]
+
 * [[free module]]
 
 * [[Smith normal form]]
 
+
+## References
+
+See also:
+
+* Wikipedia, *[Finitely generated module](https://en.wikipedia.org/wiki/Finitely_generated_module)*
+
 [[!redirects finitely generated modules]]
+
+
+
