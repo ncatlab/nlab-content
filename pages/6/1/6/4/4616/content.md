@@ -157,6 +157,8 @@ Comments on the relation between properness and cofibrancy in the [[Reedy model 
 
 * [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537)).
 
+[[!redirects nice simplicial topological spaces]]
+
 [[!redirects good simplicial space]]
 [[!redirects proper simplicial space]]
 
