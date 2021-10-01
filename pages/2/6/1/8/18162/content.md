@@ -863,8 +863,8 @@ functional analysis.)
    $$
     \{x,y\} \hookrightarrow  {X} 
     \;\;\;\,\rightthreetimes\,\;\;\;
-     \{x{\searrow}x'{\swarrow}X{\searrow}y'{\swarrow}y\} 
-    \longrightarrow  \{x=x'=X=y'=y\}
+     \{\overset{x}{}{\searrow}\overset{}{x'}{\swarrow}\overset{X}{}{\searrow}\overset{}{y'}{\swarrow}\overset{\boxed{y}}{}\} 
+    \longrightarrow  \{\boxed{x=x'=X=y'=y}\}
    $$
 
    Every $T2\frac{1}{2}$ space is also Hausdorff.
