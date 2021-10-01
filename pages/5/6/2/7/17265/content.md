@@ -2465,7 +2465,9 @@ Let $i_1 \colon X_1 \to Y_1$ and $i_2 \colon X_2 \to Y_2$ be morphisms in $Top_{
 $$
   i_1\Box i_2
    \coloneqq
-  ((id, i_2), (i_1,id))
+  \big(
+    (id, i_2), (i_1,id)
+  \big)
 $$ 
 
 is the universal morphism in the following diagram
