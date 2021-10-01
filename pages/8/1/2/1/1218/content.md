@@ -129,7 +129,10 @@ Further discussion of the [[D-topology]] is in [CSW 13](#CSW13).
 
 
 \begin{proposition}\label{InternalHomOnDTopSpacesHasCorrectWeakType}
-  For $X, A \,\in\, DTopSp \hookrightarrow TopSp$ a [[pair]] of [[D-topological spaces]], their [[internal hom]] formed in diffeological spaces has diffeological [[singular simplicial complex]] [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary [[singular simplicial set]] of the ordinary [[mapping space]] $Maps_{Top}$ with its [[compact-open topology]]:
+**([[diffeological space|diffeological]] [[internal hom]] on [[D-topological spaces]] has correct [[shape via cohesive path ∞-groupoid|cohesive shape]])**
+\linebreak
+  For $X, A \,\in\, DTopSp \hookrightarrow TopSp$ a [[pair]] of [[D-topological spaces]], their [[internal hom]] formed in diffeological spaces has diffeological [[singular simplicial complex]] $Sing_{diff}(-)$ (eq:NerveAndRealizationForDiffeologicalSpaces)
+ [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary [[singular simplicial set]] $Sing(-)$ of the ordinary [[mapping space]] $Maps_{Top}$ with its [[compact-open topology]]:
 
 $$  
   Sing_{diff}
