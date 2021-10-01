@@ -1,7 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
+
 
 ## Idea
 
@@ -129,7 +140,7 @@ In this case,
 a category is locally $\lambda$-presentable
 if and only if it is locally $\lambda^+$-presentable.
 
-Reference: Proposition 5.6 in Rezk \cite{Rezk}.
+Reference: Proposition 5.6 in \cite{Rezk2021}.
 
 
 ## Related concepts
@@ -143,9 +154,9 @@ Reference: Proposition 5.6 in Rezk \cite{Rezk}.
 
 ## References
 
-* [[Peter Gabriel]], [[Friedrich Ulmer]], Lokal präsentierbare Kategorien, Lecture Notes in Mathematics 221, [doi](http://dx.doi.org/10.1007/bfb0059396).
+* [[Peter Gabriel]], [[Friedrich Ulmer]], *Lokal präsentierbare Kategorien*, Lecture Notes in Mathematics 221, Springer 1971 ([doi:10.1007/bfb0059396](http://dx.doi.org/10.1007/bfb0059396), [MR0327863](http://www.ams.org/mathscinet-getitem?mr=0327863)).
 
-* {#Rezk} [[Charles Rezk]], _Generalizing accessible ∞-categories_, [PDF](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf).
+* {#Rezk2021} [[Charles Rezk]], *Generalizing accessible ∞-categories*, 2021 ([pdf](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf)).
 
 [[!redirects regular cardinal]]
 [[!redirects regular cardinals]]
