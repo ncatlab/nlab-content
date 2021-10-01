@@ -1,7 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-coherent [[D-module]] (...)
+[[coherent module|coherent]] [[D-module]] (...)
 
 ## Related concepts
 
