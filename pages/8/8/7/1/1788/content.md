@@ -1,3 +1,49 @@
+${}^o\searrow_c \swarrow^v$
+$\overset{o}{}\searrow\overset{}{c} \swarrow^v$
+
+ $$
+    \{x,y\} \hookrightarrow  {X} 
+    \;\;\;\,\rightthreetimes\,\;\;\;
+     \{\overset{x}\underset{\searrow}\underset{x'}{\swarrow}\overset{X}{}{\searrow}\overset{}{y'}{\swarrow}\overset{\boxed{y}}{}\} 
+    \longrightarrow  \{\boxed{x=x'=X=y'=y}\}
+   $$
+
+
+$\boxed{ \overset{ \boxed{ \boxed{u} \;\; \, \,\,\,\, \;\; \boxed{v}} }{ \underset{ c_1 \,\,\, c_2 } { \searrow \;\,\,\,\, \swarrow } } }$
+
+$
+  \boxed{
+    \overset{
+              \boxed{u}\,}{
+        \underset{
+           \,c
+        }
+        {
+         \,\, \searrow \,\, 
+        }
+      }
+  }  
+$
+
+
+$  \boxed{
+    \overset{
+      \boxed{
+        \boxed{u}
+        \;\;
+        \,
+        
+           }
+      }{
+        \underset{
+           c
+        }
+        {
+          \searrow 
+        }
+      }
+  }  
+$
 
 $\box$
 
