@@ -847,16 +847,16 @@ functional analysis.)
    $$
     \{x,y\} \hookrightarrow  {X} 
     \;\;\;\,\rightthreetimes\,\;\;\;
-     \boxed{\{\overset{\boxed{x}}{}{\searrow}\underset{x'}{}{\swarrow}\overset{\boxed{X}}{}
-}\!\!\!\!\!\!
+     \boxed{\{\overset{\boxed{x}}{}{\searrow}\underset{U}{}{\swarrow}\overset{\boxed{X}}{}
+}\!\!\!\!\!\!\!
 \boxed{
-{\,\,\,\,\,\,\searrow}\underset{y'}{}{\swarrow}\overset{\boxed{y}}{}
+{\,\,\,\,\,\,\searrow}\underset{V}{}{\swarrow}\overset{\boxed{y}}{}
 }
-\} 
-
-    \longrightarrow  \{\boxed{x=x'=X=y'=y}\}
-
+\}     \longrightarrow  \{\boxed{x=x'=X=y'=y}\}
    $$
+Indeed, the closed neighbourhoods would be the preimages under the diagonal arrow of closed subsets
+$\big\{\overset{\boxed{x}}{}{\searrow}\underset{U}{}\big\} $
+and $\big\{\underset{V}{}{\swarrow}\overset{\boxed{y}}{}\big\}$.
 
    Every $T2\frac{1}{2}$ space is also Hausdorff.
 
@@ -876,10 +876,23 @@ functional analysis.)
    $$    
       \{x\} \longrightarrow  {X} 
       \;\;\;\,\rightthreetimes\,\;\;\;  
-      \{x{\searrow}X{\swarrow}U{\searrow}F\} 
+\{
+\boxed{
+ \boxed{
+\overset{\boxed{x}}{}
+\searrow
+\underset{X}{} \swarrow
+\overset{\boxed{U}}{}
+}\!\!\!\!\!\!\!
+{\,\,\,\,\,\,\searrow\underset{F}{} }
+}
+\}
         \longrightarrow  
-      \{x=X=U{\searrow}F\}
+      \{\overset{\boxed{x=X=U}}{}\searrow\underset{F}{}\}
    $$
+Indeed, the separating neighbourhoods would be 
+the preimage under the diagonal arrow of 
+$\{\boxed{x}\}$ and $\{\overset{\boxed{U}}{}\searrow\underset{F}{}\}$.
 
    (In fact, in a regular space, any such ${x}$ and ${F}$ will also be separated by closed neighbourhoods.) Every
 regular space is also R1.
@@ -902,13 +915,20 @@ regular Hausdorff space is also $T2\frac{1}{2}$.
 *  $X$ is [[Tychonoff space|Tychonoff]], or T3$\frac{1}{2}$, completely T3, or completely regular Hausdorff, if it is both T0 and completely regular.[2] Every Tychonoff space is both regular Hausdorff and completely Hausdorff.
 
 *  $X$ is [[normal topological space|normal]] if any two disjoint closed subsets of $X$ are separated by neighbourhoods, i.e.
-
    $$   
       \emptyset \longrightarrow {X} 
       \;\;\;\,\rightthreetimes\,\;\;\;      
-      \{x{\swarrow}x'{\searrow}X{\swarrow}y'{\searrow}y\} 
-      \longrightarrow  \{x{\swarrow}x'=X=y'{\searrow}y\}
+      \{\underset{x}{}{\swarrow}
+        \overset{U}{}{\searrow}
+      \underset{X}{}{\swarrow}\overset{V}{}{\searrow}\underset{y}{}\} 
+         \longrightarrow  
+      \{\underset{x}{}{\swarrow}\overset{\boxed{U=X=V}}{}{\searrow}
+       \underset{y}{}\}
    $$
+Indeed, the separating neighbourhoods are the preimages of 
+open subsets $\big\{\underset{x}{}{\swarrow}
+        \overset{U}{}\big\}$ 
+and $\big\{\overset{V}{}{\searrow}\underset{y}{}\big\}$.
 
    In fact, by [[Urysohn's lemma]] a space is normal if and only if any two disjoint closed sets can be separated by a continuous function, i.e.
 
@@ -925,14 +945,18 @@ regular Hausdorff space is also $T2\frac{1}{2}$.
 *  $X$ is normal Hausdorff, or T4, if it is both T1 and normal. Every normal
 Hausdorff space is both Tychonoff and normal regular.
 
-*  $X$ is completely normal if any two separated sets $A$ and $B$ are separated by neighbourhoods $U\supset A$ and $V\supset B$ such that $U$ and $V$ do not intersect, i.e.
-
+*  $X$ is _completely or heriditarily normal_ if any two separated sets $A$ and $B$ are separated by neighbourhoods $U\supset A$ and $V\supset B$ such that $U$ and $V$ do not intersect, i.e.
    $$
      \emptyset \longrightarrow  {X} 
      \;\;\;\,\rightthreetimes\,\;\;\;  
-     \{X{\swarrow}A\leftrightarrow 
-     U{\searrow}U'{\swarrow}W{\searrow}V'{\swarrow} 
-     V\leftrightarrow B{\searrow}X\} \longrightarrow  \{U=U',V'=V\}
+     \{
+      \underset{X}{}{\swarrow}
+     \overset{A\leftrightarrow U}{}
+     {\searrow} \underset{U'}{}{\swarrow}
+     \overset{W}{} {\searrow}
+     \underset{V'}{}{\swarrow} 
+     \overset{V\leftrightarrow B}{}{\searrow}
+     \underset{X}{} \} \longrightarrow  \{U=U',V'=V\}
    $$
       
    Every completely normal space is also normal.
@@ -976,9 +1000,16 @@ iterate the lifting property to prove
 $$ 
   \emptyset \longrightarrow X
   \;\;\;\;\rightthreetimes\;\;\;\; 
-  \{x \swarrow x_1 \searrow \cdots \swarrow x_n \searrow y \} 
+  \{
+\underset{x}{} \swarrow 
+\overset{x_1}{} \searrow \cdots \swarrow 
+\overset{x_n}{} \searrow 
+\underset{y}{} \} 
   \longrightarrow  
-  \{x \swarrow x_1 = \cdots = x_n \searrow y \}
+  \{
+\underset{x}{} \swarrow 
+\overset{x_1 = \cdots = x_n}{} \searrow 
+\underset{y}{} \}
 $$
 
 Then pass to the infinite limit to construct a map  $ X \longrightarrow  \mathbb{R}$.
