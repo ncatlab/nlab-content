@@ -594,10 +594,10 @@ For a discussion of how the $(\infty,1)$-topos theoretic shape of the [[(infinit
 
 ## References
 
-The definition of shape of $(\infty,1)$-toposes as $\Gamma \circ LConst$ is due to
+Essentially the definition of shape of $(\infty,1)$-toposes as $\Gamma \circ LConst$ is due to
 
-* [[Bertrand Toen]], [[Gabriele Vezzosi]],  _Segal topoi and stacks over Segal categories_ , in Proceedings of the
-Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv.org/abs/math/0212330)).
+* [[Bertrand Toen]], [[Gabriele Vezzosi]],  Def. 5.3.2 in: _Segal topoi and stacks over Segal categories_, in: Proceedings of the
+Program _Stacks, Intersection theory and Non-abelian Hodge Theory_, MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv.org/abs/math/0212330)).
 
 This and the relation to ([[strong shape|strong]]) [[shape theory]], of topological spaces is further discussed in  
 
