@@ -30,6 +30,8 @@ A geometric globalization of a notion of coherent module is a notion of a [[cohe
 
 * [[quasicoherent module]]
 
+* [[dualizable module]]
+
 * [[coherent D-module]]
 
 ## References
