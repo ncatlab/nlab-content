@@ -45,6 +45,7 @@ Using the [[(∞,1)-Grothendieck construction]] the notion of cograph of a funct
 ## Definition 
 
 ### In terms of hom-equivalences
+ {#CharacterizationInTermsOfHomEquivalences}
 
 +-- {: .num_defn #InTermsOfHomEquivalences}
 ###### Definition
@@ -705,3 +706,5 @@ and also in
 
 [[!redirects adjoint infinity-functor]]
 [[!redirects adjoint infinity-functors]]
+
+[[!redirects adjoint infinity1-functor]]
