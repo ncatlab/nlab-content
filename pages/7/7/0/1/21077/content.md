@@ -43,5 +43,10 @@ On the [[flavour anomalies]]
 
 * {#LIOS21} Davide Lancierini, [[Gino Isidori]], Patrick Owen, Nicola Serra, _On the significance of new physics in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2104.05631](https://arxiv.org/abs/2104.05631))
 
+On [[flavour anomalies]] via [[leptoquarks]] in [[Pati-Salam GUT]]$\,$[[intersecting D-brane model|on branes]]:
+
+* [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
+*Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
+
 
 category: people
