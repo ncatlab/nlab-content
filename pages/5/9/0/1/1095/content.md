@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -524,6 +523,10 @@ An overview is in
 [[!redirects ∞-stack (∞,1)-toposes]]
 [[!redirects ∞-stack (∞,1)-topoi]]
 
+[[!redirects infinity-stack (infinity,1)-topos]]
+[[!redirects infinity-stack (infinity,1)-toposes]]
+[[!redirects infinity-stack (infinity,1)-topoi]]
+
 
 [[!redirects (∞,1)-sheaf (∞,1)-category]]
 [[!redirects (∞,1)-sheaf (∞,1)-categories]]
@@ -538,3 +541,5 @@ An overview is in
 
 [[!redirects (∞,1)-sheaf ∞-topos]]
 [[!redirects (∞,1)-sheaf ∞-toposes]]
+
+
