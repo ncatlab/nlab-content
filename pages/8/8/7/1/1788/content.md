@@ -1,4 +1,4 @@
-
+$i \boxslash p$
 
 \begin{tikzcd}[column sep=large]
     \Gamma_X
