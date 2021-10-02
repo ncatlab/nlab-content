@@ -1017,6 +1017,13 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
+or similar [[intersecting D-brane models|brane models]]:
+
+
+* [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
+*Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
+
+
 
 [[leptoquarks]] particularly as fields in a [[grand unified theory]]:
 
