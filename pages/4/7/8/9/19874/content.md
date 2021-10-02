@@ -214,6 +214,11 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * We-Fu Chang, *One colorful resolution to the neutrino mass generation, three lepton flavor universality anomalies, and the Cabibbo angle anomaly* ([arXiv:2105.06917](https://arxiv.org/abs/2105.06917))
 
+and [[intersecting D-brane model|on branes]]:
+
+* [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
+*Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
+
 
 \linebreak
 
