@@ -19,7 +19,7 @@
 
 A [[functor]] $F:C\to D$ is **surjective on objects** if for each object $y\in D$ there is an object $x\in C$ such that $F(x)=y$.
 
-This is of course [[evil|not an invariant notion]]; the corresponding invariant notion is [[essentially surjective functor]].  However, surjective-on-objects functors are sometimes useful when doing [[strict 2-category]] theory.
+This is of course [[principle of equivalence|not an invariant notion]]; the corresponding invariant notion is [[essentially surjective functor]].  However, surjective-on-objects functors are sometimes useful when doing [[strict 2-category]] theory.
 
 ## Properties
 
