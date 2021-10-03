@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Algebraic categories
-* tic
+* table of contents
 {: toc}
 
 
@@ -9,7 +21,7 @@ An algebraic category is a [[concrete category]] which behaves very much like th
 
 There are several definitions of 'algebraic' in the literature.  Here, we will follow AHS (see references) in using a generous interpretation, but other authors follow Johnstone in using 'algebraic' to mean monadic (a stricter requirement), while some authors add finiteness conditions that remove examples such as $Comp Haus Top$.  However, all of these notions are related, and we will discuss them here.
 
-The definitions in AHS also include an [[evil]] requirement of unique strict lifts of isomorphisms, which serves to fix algebraic categories up to [[isomorphism of categories|isomorphism]] (instead of mere [[equivalence of categories|equivalence]]), which we omit.
+The definitions in AHS also includes requirement violating the [[principle of equivalence]], which we omit: that of unique strict lifts of isomorphisms, which serves to fix algebraic categories up to [[isomorphism of categories|isomorphism]] (instead of mere [[equivalence of categories|equivalence]]).
 
 
 ## Definitions
