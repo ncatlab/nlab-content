@@ -21,9 +21,14 @@ If an [[(∞,1)-topos]] $\mathbf{H}$ is that of [[(∞,1)-category of (∞,1)-sh
 It turns out that $Shp(X)$ may be extracted in a canonical fashion from just the [[(∞,1)-topos]] $Sh_{(\infty,1)}(X)$, and in a way that makes sense for any [[(∞,1)-topos]]. This then gives a definition of shape of general $(\infty,1)$-toposes.
 
 ## Definition
+ {#Definition}
+
+We state three somewhat different-looking definitions, and show that they are all equivalent to each other.
 
 
 \begin{definition}\label{ShapeOfAnInfinityTopos}
+**(shape of an $\infty$-topos -- [Toën-Vezzosi 2002, Def. 5.3.2](#ToenVezzosi02))**
+\linebreak
 The composite [[(∞,1)-functor]]
 
 $$
@@ -71,12 +76,9 @@ Here:
 
 * $Pro \infty Grpd$ is the [[pro-object in an (∞,1)-category|(∞,1)-category of pro-objects]] in $\infty Grpd$.
 
-That this does indeed land in accessible left exact functors is shown below.
+That this does indeed land in accessible left exact functors follows from the equivalence to the following definition, see Rem. \ref{ShapeIsLexAndAccessible} below.
 
-## Properties
-
-
-Notice that for every [[(∞,1)-topos]] $\mathbf{H}$ there is a unique [[geometric morphism]]
+Notice (see [here](https://ncatlab.org/nlab/show/infinity1-topos#GlobalSectionsGeometricMorphism)) that for every [[(∞,1)-topos]] $\mathbf{H}$ there is a unique [[geometric morphism]]
 
 $$
   (LConst \dashv \Gamma)   
@@ -99,11 +101,10 @@ where
 * $LConst$ is the [[constant ∞-stack]] functor.
 
 
-
-
-\begin{proposition}\label{ShapeIsGlobalSectionsOfLConst}
+\begin{definition}\label{LurieShapeOfAnInfinityTopos}
+**(shape of an $\infty$-topos -- [Lurie 2009, Def. 7.1.6.3](#Lurie09))**
 \linebreak
-The shape of an [[(infinity,1)-topos|$(\infty,1)$-topos]] $\mathbf{H}$, in the sense of Def. \ref{ShapeOfAnInfinityTopos}, is equivalently the composite functor
+The *shape* of an [[(infinity,1)-topos|$(\infty,1)$-topos]] $\mathbf{H}$ is the composite [[(infinity,1)-functor|$(\infty,1)$-functor]]
 
 $$
   Shp(\mathbf{H}) 
@@ -116,7 +117,7 @@ $$
   \infty Grpd
 $$
 
-regarded as a pro-$\infty$-groupoid:
+regarded as a [[pro-object in an (infinity,1)-category|pro-]][[infinity-groupoid|$\infty$-groupoid]]:
 
 $$
   Shp(\mathbf{H})
@@ -126,15 +127,22 @@ $$
   Lex(\infty Grpd, \infty Grpd)^{op}
   \,.
 $$
+\end{definition}
+
+\begin{proposition}\label{ShapeIsGlobalSectionsOfLConst}
+Def. \ref{ShapeOfAnInfinityTopos}
+and Def. \ref{LurieShapeOfAnInfinityTopos} are equivalent.
 \end{proposition}
 \begin{proof}
 For $X \in $ [[∞Grpd]] we have by the [[(∞,1)-Grothendieck construction]]-theorem and using that up to equivalence every morphism of $\infty$-groupoids is a [[Cartesian fibration]] (see there) that 
 
 $$
-  Func(X,\infty Grpd) \simeq \infty Grpd/X
+  Func(X,\infty Grpd) 
+  \;\simeq\; 
+  \infty Grpd_{/X}
 $$ 
 
-is the [[over-(∞,1)-category]].  Moreover, by the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#WithValInooGrpd">theorem about limits in ∞Grpd</a> we have that the terminal geometric morphism $Hom(*,-): [X, \infty Grpd] \to \infty Grpd$ is the canonical projection $\infty Grpd/ X \to \infty Grpd$. This means that it is an [[etale geometric morphism]]. So for any [[geometric morphism]] $f : \mathbf{H} \to [X, \infty Grpd]$  we have a system of [[adjoint (∞,1)-functor]]s
+is the [[slice (∞,1)-category]].  Moreover, by [this theorem](limit+in+a+quasi-category#WithValInooGrpd) about limits in ∞Grpd we have that the terminal geometric morphism $Hom(*,-): [X, \infty Grpd] \to \infty Grpd$ is the canonical projection $\infty Grpd/ X \to \infty Grpd$. This means that it is an [[etale geometric morphism]]. So for any [[geometric morphism]] $f : \mathbf{H} \to [X, \infty Grpd]$  we have a system of [[adjoint (∞,1)-functor]]s
 
 $$
   (LConst \dashv \Gamma)
@@ -158,13 +166,13 @@ $$
   \,.
 $$
 
-The image of this under $f^*$ is (using that this preserves the terminal object) a morphism
+The image of this under $f^*$ is (using that this preserves the terminal object) a morphism  in $\mathbf{H}$ of the form
 
 $$
   * \to f^* \pi^* X = LConst X
+  \,.
 $$
 
-in $\mathbf{H}$.
 
 Conversely, given a morphism of the form $* \to LConst X$ in $\mathbf{H}$ we obtain the [[base change geometric morphism]] of [[slice (infinity,1)-topos|slice $(\infty,1)$-toposes]]
 
@@ -194,7 +202,7 @@ $$
   \,.
 $$
 
-{#UsingThis} Using this, we see that 
+{#UsingThis} Using this, we find the following sequence of [[equivalence in an (infinity,1)-category|equiavlences]]:
 
 $$
   \begin{aligned}
@@ -218,16 +226,108 @@ $$
      \\
       & \simeq \infty Grpd(*, \Gamma LConst X)
     \\
-      & \simeq \Gamma LConst X
+      & \simeq \Gamma \circ LConst(X)
   \end{aligned}   
   \,.
 $$
 
+The [[composition|composite]] of these is the equivalence to be shown.
 \end{proof}
 
-\begin{remark}
-In particular this shows that $Shp(\mathbf{H}) \;\colon\; \infty Grpd \to \infty Grpd$ does preserve finite $(\infty,1)$-limits, since $\Gamma$ preserves all limits and $LConst$ is a left [[exact functor]].  It also shows that it is accessible, since $\Gamma$ and $LConst$ are both accessible.
+\begin{remark}\label{ShapeIsLexAndAccessible}
+Prop. \ref{ShapeIsGlobalSectionsOfLConst} immediately implies that $Shp(\mathbf{H}) \;\colon\; \infty Grpd \to \infty Grpd$ according to Def. \ref{ShapeOfAnInfinityTopos} does preserve finite $(\infty,1)$-limits, since in the equivalent Def. \ref{LurieShapeOfAnInfinityTopos} this is manifest:
+There $\Gamma$ clearly preserves all limits, [[right adjoints preserve limits|since]] it is a [[right adjoint]], and $LConst$ preserves of finite limits, since it is a [[left exact functor]] by definition.
+Similarly, this makes manifest that $Shp(\mathbf{H})$ is [[accessible (infinity,1)-functor|accessible]], since $\Gamma$ and $LConst$ are both accessible.
 \end{remark}
+
+
+
+\begin{definition}\label{ShapeOfToposAsImageOfItsPointUnderProLeftAdjointToLConst}
+**(shape of an $\infty$-topos -- [Hoyois 2013, p. 3](#Hoyois13))**
+\linebreak
+  For $(\Gamma \dashv LConst) \;\colon\; \mathbf{H} \to \infty Grpd$ an [[(infinity,1)-topos|$(\infty,1)$-topos]],
+  write (with convenient overloading of notation)
+  \[
+    \label{ProLeftAdjointToLConst}
+    \array{
+      Shp 
+      \;\colon\; 
+      &
+      \mathbf{H} 
+      &\longrightarrow&
+      Pro(\infty Grpd)
+      \\
+      &
+      X
+      &\mapsto&
+      \mathbf{H}  
+      \big(
+        X
+        ,\,
+        LConst(-)
+      \big)
+    }
+  \]
+  for the [[pro-left adjoint]] to $LConst \,\colon\, \infty Grpd \to \mathbf{H},$ and say that the *shape of $\mathbf{H}$* is the image under this pro-left adjoint of its [[terminal object]] $\ast_{\mathbf{H}}$:
+$$
+  Shp(\mathbf{H})
+  \;\coloneqq\;
+  Shp(\ast_{\mathbf{H}})
+  \,.
+$$
+\end{definition}
+
+\begin{prop}
+  Def. \ref{ShapeOfToposAsImageOfItsPointUnderProLeftAdjointToLConst}
+  is equivalent to Def. \ref{LurieShapeOfAnInfinityTopos}
+\end{prop}
+\begin{proof}
+Consider the following sequence of [[natural equivalence|natural]] [[equivalence in an (infinity,1)-category|equivalences]]:
+$$
+\begin{aligned}
+  Shp(\mathbf{H})
+  &
+  \;\simeq\;
+  \Gamma \circ LConst(-)
+  \\
+  &
+  \;\simeq\;
+  \infty Grpd
+  \big(
+    \ast
+    ,\,
+    \Gamma \circ LConst(-)
+  \big)
+  \\
+  & 
+  \;\simeq\;
+  \mathbf{H}
+  \big(
+    LConst(\ast)
+    ,\,
+    LConst(-)
+  \big)
+  \\
+  & \;\simeq\;
+  \mathbf{H}
+  \big(
+    \ast_{\mathbf{H}}
+    ,\,
+    LConst(-)
+  \big)
+  \\
+  & 
+  \;\simeq\;
+  Shp(\ast_{\mathbf{H}})
+\end{aligned}
+$$
+Here the line is just Def. \ref{LurieShapeOfAnInfinityTopos} (alternatively: is Prop. \ref{ShapeIsGlobalSectionsOfLConst}), and the second line is, if one wishes, the geometric discreteness of plain $\infty$-groupoids.
+The third line is the characteristic [hom-equivalences](adjoint+infinity1-functor#CharacterizationInTermsOfHomEquivalences) of the [[adjoint (infinity,1)-functor|adjunction]] $\Gamma \dashv LConst$ . In the second but last step we use that $LConst$, being a [[left exact functor]], [[preserved limit|preserves]] [[terminal object in an (infinity,1)-category|terminal objects]]. The last step is the definition (eq:ProLeftAdjointToLConst) of the [[pro-left adjoint]].
+\end{proof}
+
+
+
+\linebreak
 
 ## Examples
 
@@ -587,26 +687,31 @@ For a discussion of how the $(\infty,1)$-topos theoretic shape of the [[(infinit
 
 ## Related concepts
 
-* **shape of an $(\infty,1)$-topos**
+* [[étale homotopy]]
+
+* [[shape modality]]
 
 * [[coshape of an (∞,1)-topos]]
 
 
 ## References
 
-Essentially the definition of shape of $(\infty,1)$-toposes as $\Gamma \circ LConst$ is due to
+The notion of shape of an $\infty$-topos first appears, in essentially the form of the above Def. \ref{ShapeOfAnInfinityTopos}, in: 
 
-* [[Bertrand Toen]], [[Gabriele Vezzosi]],  Def. 5.3.2 in: _Segal topoi and stacks over Segal categories_, in: Proceedings of the Program _Stacks, Intersection theory and Non-abelian Hodge Theory_, MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv.org/abs/math/0212330)).
+* {#ToenVezzosi02} [[Bertrand Toën]], [[Gabriele Vezzosi]],  Def. 5.3.2 in: _Segal topoi and stacks over Segal categories_, in: Proceedings of the Program _Stacks, Intersection theory and Non-abelian Hodge Theory_, MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv.org/abs/math/0212330)).
 
-This and the relation to ([[strong shape|strong]]) [[shape theory]], of topological spaces is further discussed in  
+The concise formulation as $\Gamma \circ LConst(-)$, as in the above Def. \ref{LurieShapeOfAnInfinityTopos}, 
+and discussion of relation to classical ([[strong shape|strong]]) [[shape theory]], of [[topological spaces]], is due to
 
-* [[Jacob Lurie]], Section 7.1.6 of: _[[Higher Topos Theory]]_
+* {#Lurie09} [[Jacob Lurie]], Section 7.1.6 of: _[[Higher Topos Theory]]_, 2009
 
-See also:
+The further re-formulation as the image of the [[terminal object]] under the [[pro-left adjoint]] to $LConst$ is highlighted in
 
-* {#Hoyois13} [[Marc Hoyois]], _Higher Galois theory_, Algebraic & Geometric Topology __17__ 1 (2017) 567-643 ([arxiv/1506.07155](https://arxiv.org/abs/1506.07155), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
+* {#Hoyois13} [[Marc Hoyois]], Def. 2.3 _Higher Galois theory_, Algebraic & Geometric Topology __17__ 1 (2017) 567-643 ([arxiv/1506.07155](https://arxiv.org/abs/1506.07155), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
 
-* [[Ilan Barnea]], [[Yonatan Harpaz]], [[Geoffroy Horel]], _Pro-categories in homotopy theory_ ([arxiv:1507.01564](https://arxiv.org/abs/1507.01564))
+See also
+
+* [[Ilan Barnea]], [[Yonatan Harpaz]], [[Geoffroy Horel]], Section 6 of: _Pro-categories in homotopy theory_, Algebraic & Geometric Topology 17 (2017) 567–643 ([arxiv:1507.01564](https://arxiv.org/abs/1507.01564), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
 
 
 [[!redirects shape of an (∞,1)-topos]]
