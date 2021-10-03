@@ -67,7 +67,7 @@ Kleene's second algebra is an abstraction of [[function realizability]] introduc
 
 * [[Stephen Kleene]], _Introduction to Meta-Mathematics_ (1952)
 
-* {#Streicher07} [[Thomas Streicher]], example 3.4 of _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
+* {#Streicher07} [[Thomas Streicher]], example 3.4 of _Realizability_ (2017/18) ([pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
 
 * {#Bauer05} [[Andrej Bauer]], section 2 of _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
