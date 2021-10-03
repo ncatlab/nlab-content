@@ -523,6 +523,7 @@ Discussion in the context of [[equivariant complex oriented cohomology theory]]:
 
 * {#Greenlees01} [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
 
+
 ### Representing equivariant spectrum 
  {#ReferencesRepresentingSpectrum}
 
@@ -552,11 +553,32 @@ Review:
 * [Cantarero 09, Thm. 1.0.2 & Sec. 3.4](#Cantarero09)
 
 
+### Rational equivariant K-theory
+ {#ReferencesRationalEquivariantKTheory}
+
+
+Discussion of [[rational equivariant K-theory]] (see also the references at *[[equivariant Chern character]]*):
+
+
+* {#ConnesBaum89} [[Alain Connes]], [[Paul Baum]], _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
+
+* {#LueckOliver01} [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
+
+* {#MislinValette03} [[Guido Mislin]], [[Alain Valette]], Theorem 6.1 in: _Proper Group Actions and the Baum-Connes Conjecture_, Advanced Courses in Mathematics CRM Barcelona, Springer 2003 ([doi:10.1007/978-3-0348-8089-3](https://link.springer.com/book/10.1007/978-3-0348-8089-3))
+
+
+and with emphasis of [[commutative ring]]-structure:
+
+* [[Anna Marie Bohmann]], [[Christy Hazel]], [[Jocelyne Ishak]], [[Magdalena Kędziorek]], [[Clover May]], *Naive-commutative structure on rational equivariant K-theory for abelian groups* ([arXiv:2002.01556](https://arxiv.org/abs/2002.01556))
+
+* [[Anna Marie Bohmann]], [[Christy Hazel]], [[Jocelyne Ishak]], [[Magdalena Kędziorek]], [[Clover May]], *Genuine-commutative ring structure on rational equivariant K-theory for finite abelian groups* ([arXiv:2104.01079](https://arxiv.org/abs/2104.01079))
+
+
 
 
 ### For D-brane charge on orbifolds
 
-The proposal that [[D-brane charge]] on [[orbifolds]] is given by [[equivariant K-theory]] goes back to
+The proposal that [[D-brane charge]] on [[orbifolds]] is given by [[equivariant K-theory]] (see at *[[D-brane charge quantization in K-theory]]*) goes back to
 
 * {#Witten98} [[Edward Witten]], section 5.1 of _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
 
