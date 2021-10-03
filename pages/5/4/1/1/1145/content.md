@@ -9,7 +9,6 @@
   * [[logic]]
     * [[internal language]]
     * [[classical mathematics]]
-    * [[evil]]
     * [[constructive mathematics]]
     * [[predicative mathematics]]
     * [category:foundational axiom](http://ncatlab.org/nlab/list/foundational+axiom)
