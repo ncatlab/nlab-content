@@ -23,9 +23,10 @@ This page collects material related to the book
 
   [doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)
 
+  erratum: [[AdamekRosicky_LPAC_Erratum.pdf:file]]
+
 on [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  There is an erratum made available by the authors:
 
-[[LPAC-erratum.pdf:file]]
 
 
 ## Contents
