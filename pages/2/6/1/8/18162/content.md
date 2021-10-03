@@ -605,78 +605,225 @@ $$\{\{U\}, \{V\}, \{a,U\}, \{V,b\}, \{U,x,V\}\},\{a,U,x,V,b\}\}
 $$
 In codomain, points $a$ and $b$ are closed, and the only point left is open.
 
-\linebreak
 
 
-## Separation conditions in terms of arrows
+
+## Separation of subsets
+ {#SeparationOfSubsets}
+
+Here we describe how topological separation of *[[subsets]]* of a [[topological space]] may be expressed in terms of factorizations of their joint [[characteristic function]].
+
+In all of the following, $S$ denotes a [[topological space]] and 
+
+$$
+  F,\,G \;\subset\; S
+$$
+
+a [[pair]] of [[subsets]].
 
 
-Fix two [[subsets]] $F, G \;\subset\; S$.
+### Disjoint
 
-*  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
+We say that a pair of subsets is [[disjoint subset|disjoint]] if their [[intersection]] is [[empty set|empty]]:
 
-   $$ 
-     F \cap G = \empty 
+\[
+  \label{APairOfDisjointSubsets}
+  F,\, G \,\subset\, S
+  \,,
+  \;\;\;\;
+  F \cap G \,=\, \varnothing
+\] 
+
+
+This situation (eq:APairOfDisjointSubsets) may equivalently be expressed by a *[[characteristic function|characteristic]]* [[continuous function]] from $S$ to the [[codiscrete topological space]] of 3 elements. We will suggestively denote these three elements by $e_F$, $e_G$ and $e_\varnothing$,
+
+> just a suggestion, please feel free to re-adjust notation
+
+respectively, so that in the [above](#BackgroundAndNotation) notation the codiscrete topology on them reads like this:
+
+$$
+  CoDisc
+  \big( 
+    \{ e_F ,\, e_F ,\, e_{\varnothing} \}  
+  \big)
+  \;\;
+  =
+  \;\;
+  \big\{
+    e_F \leftrightarrows e_G \leftrightarrows e_\varnothing
+  \big\}
+  \,.
+$$
+
+Namely, any function to such a [[codiscrete space]] is continuous, and any function to the set with 3 elements partitions its [[domain]] into the [[disjoint]] [[preimages]] of these three elements, which we may regard as a pair $F, G$ of [[disjoint subsets]] and their [[complement]] $S \setminus \{F \cup G\}$:
+
+\[
+  \label{CharacteristicFunctionForPairOfDIsjointSubsets}
+  \array{
+    S_{F,G}
+    &\colon&
+    S 
+    &\longrightarrow&  
+    \big\{
+       e_F \leftrightarrow e_G \leftrightarrow e_{\varnothing}
+    \big\}
+    \\
+    &&
+    x
+    &\mapsto&
+    \left\{
+    \array{
+      e_F &\vert& x \in F
+      \\
+      e_G &\vert& x \in G
+      \\   
+      e_\varnothing &\vert& otherwise 
+    }
+    \right.
+  }
+\]
+
+We may now encode topological separation properties of the two subsets in terms of factorizations (hence liftings) of this their [[characteristic function]]:
+
+
+
+
+### Topologically disjoint
+
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is [[disjoint subset|disjoint]] from the other set:  
+
+\[
+  \label{PairOfTopologicallyDisjointSubsets}
+     F, G \;\text{are topologically disjoint}
+     \;\;\;\;\;\;\;\;\;
+     \Leftrightarrow
+     \;\;\;\;\;\;\;\;\;
+     \Big(
+       \underset
+         {
+           U \underset{\mathclap{nbhd}}{\supseteq} F      
+         }
+         {\exists}
+       ,\; 
+       U \cap G = \varnothing
+     \Big) 
+     \;\;or\;\; 
+     \Big(
+       \underset
+         {
+           V \underset{\mathclap{nbhd}}{\supseteq} G      
+         }
+         {\exists}
+       ,\; 
+       F \cap V = \varnothing
+     \Big) 
      \,.
-   $$
- 
-   In terms of arrows,  the following map is well-defined: 
+\]
 
-   $$ 
-     \array{
-       S_{F,G}
-       &\colon&
-       S 
-       &\longrightarrow&  
-       \big\{
-          F \leftrightarrow G \leftrightarrow \bullet 
-       \big\}
-     }
-   $$ 
+(Notice that topologically disjoint sets must be disjoint.)
 
-   such that
 
-   $$
-     S_{F,G}(x)
-     \;=\;
-     \left\{
-     \array{
-       F &\vert& x \in F
-       \\
-       G &\vert& x \in G
-       \\   
-       \bullet &\vert& otherwise 
-     }
-     \right.
-   $$
+The topological separation condition (eq:PairOfTopologicallyDisjointSubsets) on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfDIsjointSubsets) factors as
 
-*  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:  
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U 
+      \to
+    e_{\varnothing}
+      \leftrightarrows
+    e_G 
+  \big\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U 
+      =
+    e_{\varnothing}
+      \leftrightarrows
+    e_G 
+  \big\}  
+\end{tikzcd}
 
-   $$ 
-     (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) 
-     \;\vee\; 
-     (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) 
-     \,.
-   $$
 
-   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as 
+or as
 
-   $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U  \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U =\bullet \leftrightarrow G \}$$ 
 
-   or 
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_{\varnothing}
+      \leftarrow
+    e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_{\varnothing}
+      =
+    e_U 
+      \leftrightarrows
+    e_G 
+  \big\}  
+\end{tikzcd}
 
-   $$ 
-     S_{F,G}
-      \colon 
-     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V  \leftrightarrow G \} 
-       \longrightarrow
-     \{F \leftrightarrow \bullet = V  \leftrightarrow G \}   
-   $$ 
 
-   where $U$, $V$ maps to $\bullet$.
-   Notice that topologically disjoint sets must be disjoint.
 
-*  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
+
+
+
+
+### Topologically separated
+
+  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
  
    $$ 
      (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty)    
@@ -706,31 +853,60 @@ Fix two [[subsets]] $F, G \;\subset\; S$.
    where $ U $, $V $ maps to $\bullet$.
    Notice that separated sets must be topologically disjoint.
 
-*  {#SeparatedByNeighbourhoods} They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
+
+
+### Separated by neighbourhoods
+
+{#SeparatedByNeighbourhoods} They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
    $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap V = \empty .$$
    The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as 
    $S \longrightarrow \{F \leftrightarrow  U  \searrow \bullet \swarrow  V \leftrightarrow G\}\longrightarrow \{F \leftrightarrow  U  = \bullet =  V \leftrightarrow G\}$
    Notice that sets separated by neighbourhoods must be separated.
-*  They are __separated by closed neighbourhoods__ if they have disjoint closed neighbourhoods:
+
+
+
+### Separated by closed neighbourhoods
+
+
+They are __separated by closed neighbourhoods__ if they have disjoint closed neighbourhoods:
    $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; Cl(U) \cap Cl(V) = \empty .$$
    The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as
    $$ S \longrightarrow \{ F \leftrightarrow U \searrow U' \swarrow \bullet \searrow V' \searrow V \leftrightarrow G \}
    \longrightarrow \{ F \leftrightarrow U = U' = \bullet = V' = V \leftrightarrow G \} $$
    Notice that sets separated by closed neighbourhoods must be separated by neighbourhoods.
-*  They are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps $F$ to $0$ and $G$ to $1$:
-   $$ \exists\; f: S \to \mathbf{R},\; F \subseteq f^*(\{0\}) \;\wedge\; G \subseteq f^*(\{1\}) .$$
-    The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
-    $$ S \longrightarrow   \{0'\} \cup [0,1] \cup \{1'\}  \longrightarrow  \{ 0'=F \leftrightarrow \bullet \leftrightarrow  1'=G\}
-  $$
-  where points $0',0$ and $1,1'$ are topologically indistinguishable,
-  and $0'$ maps to $F$, and $1'$ maps to $G$, and $[0,1]$ maps to $\bullet$.
-  Notice that sets separated by a function must be separated by closed neighbourhoods (the preimages of $[-\epsilon, \epsilon]$ and $[1-\epsilon, 1+\epsilon]$).
-*  Finally, they are __precisely separated by a function__ if there exists a continuous real-valued function on the space that maps precisely $F$ to $0$ and $G$ to $1$:
-   $$ \exists\; f: S \to \mathbf{R},\; F = f^*(\{0\}) \;\wedge\; G = f^*(\{1\}) .$$
-    The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
-    $$ S \longrightarrow   [0,1]  \longrightarrow  \{ 0=F \leftrightarrow \bullet\leftrightarrow  1=G\}
-  $$
-  where
+
+
+
+### Separated by a function
+
+
+They are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps $F$ to $0$ and $G$ to $1$:
+
+$$ \exists\; f: S \to \mathbf{R},\; F \subseteq f^*(\{0\}) \;\wedge\; G \subseteq f^*(\{1\}) .$$
+
+The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
+
+$$ S \longrightarrow   \{0'\} \cup [0,1] \cup \{1'\}  \longrightarrow  \{ 0'=F \leftrightarrow \bullet \leftrightarrow  1'=G\} $$
+
+where points $0',0$ and $1,1'$ are topologically indistinguishable,
+and $0'$ maps to $F$, and $1'$ maps to $G$, and $[0,1]$ maps to $\bullet$.
+Notice that sets separated by a function must be separated by closed neighbourhoods (the preimages of $[-\epsilon, \epsilon]$ and $[1-\epsilon, 1+\epsilon]$).
+
+
+
+### Precisely separated by a function
+
+Finally, they are __precisely separated by a function__ if there exists a continuous real-valued function on the space that maps precisely $F$ to $0$ and $G$ to $1$:
+
+$$ \exists\; f: S \to \mathbf{R},\; F = f^*(\{0\}) \;\wedge\; G = f^*(\{1\}) .$$
+    
+The arrow  
+$S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
+    
+
+$$ S \longrightarrow   [0,1]  \longrightarrow  \{ 0=F \leftrightarrow \bullet\leftrightarrow  1=G\}$$
+
+where
   $0'$ maps to $F$, and $1'$ maps to $G$, and $(0,1)$ maps to $\bullet$.
   Notice that sets separated by a function must be separated by closed neighbourhoods (the preimages of $[-\epsilon, \epsilon]$ and $[1-\epsilon, 1+\epsilon]$).
    Notice that sets precisely separated by a function must be separated by a function.
@@ -739,6 +915,8 @@ Often $F$ and $G$ will be points (identified with their [[singleton]] subsets); 
 
 Often $F$ or $G$ will be closed sets; notice that disjoint closed sets are automatically separated, while a closed set and a point, if disjoint, are automatically topologically disjoint.
 
+
+\linebreak
 
 
 ## Separation axioms as lifting properties 
