@@ -1,5 +1,14 @@
 $i \boxslash p$
 
+Test
+
+$i \boxtimes p$
+
+Test
+
+
+i ⊕ p
+
 \begin{tikzcd}[column sep=large]
     \Gamma_X
     \;\;\;
