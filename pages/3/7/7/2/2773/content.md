@@ -24,14 +24,6 @@
 
 This is an instance of a general construction which, given a [[2-category]], or more generally an [[n-category]], produces a [[1-category]] with the same objects and whose morphisms are [[equivalence]] classes of 1-morphisms in the original $n$-category.  Sometimes this is called the 1-[[truncation]] and denoted $\tau_1$.
 
-+--{: .query}
-[[David Roberts]]: I would think that $\tau_1(C)$ for a strict 2-category is the underlying 1-category. What is described here could be called the Poincar&#233; category (I think that Benabou's monograph on bicategories has this term). Maybe terminology as developed in the meantime, though.
-
-[[Mike Shulman]]: Well, the uses of "truncation" I've seen always involves quotienting by equivalences, rather than discarding them.  Discarding them only even makes sense in the strict situation (a bicategory has no underlying 1-category) and is an [[evil]] (and not often very useful) thing to do, so it doesn't seem to me worth giving an important name to.  "Poincare category" may also be a name for the same thing, but I prefer "truncation" as more evocative.
-
-[[Beppe Metere]]: If I remember well, Benabou introduces two different constructions related to this discussion: the Poincar&#232; category of a bicategory, where the arrows are connected components of 1-cells, and the classifying category, where the arrows are iso classes of 1-cells. Of course, these two categories coincide when the bicategory is locally groupoidal.
-=--
-
 It can also be viewed as an instance of the homotopy category of a [[model category]] (or more generally a [[category with weak equivalences]]).  The category $Ho(Cat)$ as defined above is equivalent to the category obtained from $Cat$ by forcing all [[equivalences of categories]] to be isomorphisms (by [[localization|localizing]]).  This is for the same reason that the category $hTop$ of [[topological spaces]] and [[homotopy]] classes of [[continuous maps]] is equivalent to the category obtained from $Top$ by inverting the homotopy equivalences (namely, the existence of [[cylinder objects]] and/or [[path objects]]).  Indeed, a [[cylinder object]] for a category $C$ is the [[product category]] $C \times I$ where $I$ is the category with two objects 0 and 1 and an isomorphism $0 \to 1$.  It is not difficult to see that an isomorphism of functors is the same as a [[homotopy]] of functors with the respect to the [[canonical model structure]] on $Cat$.
 
 ## Subcategories of Ho(Cat)
