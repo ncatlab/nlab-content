@@ -150,7 +150,7 @@ A [[string diagram]] treatment of rig categories via _sheet diagrams_ is in
 
 * {#CDH} Cole Comfort, Antonin Delpeuch, [[Jules Hedges]], _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
 
-[[Biinitiality]] of the groupoid of finite sets is shown in 
+[[bi-initial|Biinitiality]] of the groupoid of finite sets is shown in 
 
 * {#Elg21} Josep Elgueta, _The groupoid of finite sets is biinitial in the 2-category of rig categories_, Journal of Pure and Applied Algebra
 **225** Issue 11 (2021) 106738, doi:[10.1016/j.jpaa.2021.106738](https://doi.org/10.1016/j.jpaa.2021.106738), [arXiv:2004.08684](https://arxiv.org/abs/2004.08684).
