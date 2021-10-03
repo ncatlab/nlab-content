@@ -21,36 +21,28 @@ The generalization of the notion of [[accessible functor]]  from [[category theo
 
 ## Definition
 
-+-- {: .un_def}
-###### Definition
-
-
-An [[(∞,1)-functor]] $F : C \to D$ is **accessible** if $C$ is an [[accessible (∞,1)-category]] and there is a [[regular cardinal]] $\kappa$ such that $F$ preserves $\kappa$-small [[filtered colimit]]s.
-
-=--
-
+\begin{definition}
+An [[(∞,1)-functor]] 
+$F \;\colon\; C \to D$ is **accessible** if $C$ is an [[accessible (∞,1)-category]] and there is a [[regular cardinal]] $\kappa$ such that $F$ preserves $\kappa$-small [[filtered (infinity,1)-category|filtered]]$\,$[[(infinity,1)-colimits|$(\infty,1)$-colimits]].
+\end{definition}
 This appears as [[Higher Topos Theory|HTT, def. 5.4.2.5]].
 
 
 ## Properties
 
 
-+-- {: .un_def}
-###### Definition
-
-If an $(\infty,1)$-functor between [[accessible (∞,1)-categories]] has a left or right [[adjoint (∞,1)-functor]], then it is itself accessible.
-
-=--
-
-
-This is [[Higher Topos Theory|HTT, prop. 5.4.7.7]].
+\begin{proposition}\label{AdjointFunctorsAreAccessible}
+**([[adjoint (infinity,1)-functors|adjoint $(\infty,1)$-functors]] are accessible)**
+\linebreak
+If an [[(infinity,1)-functor|$(\infty,1)$]]-functor between [[accessible (∞,1)-categories]] has a left or right [[adjoint (∞,1)-functor]], then it is itself accessible.
+\end{proposition}
+([[Higher Topos Theory|HTT, prop. 5.4.7.7]])
 
 
 ## References
 
-Section 5.4.2 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+* [[Jacob Lurie]], Section 5.4.2 of:  _[[Higher Topos Theory]]_ (2009)
 
 
 [[!redirects accessible (infinity,1)-functor]]
@@ -58,3 +50,6 @@ Section 5.4.2 of
 [[!redirects accessible (infinity,1)-functors]]
 [[!redirects accessible (∞,1)-functors]]
 [[!redirects accessible (∞,1)-functor]]
+
+[[!redirects accessible infinity1-functor]]
+
