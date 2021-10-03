@@ -815,6 +815,20 @@ or as
   \big\}  
 \end{tikzcd}
 
+The required neighbourhoods $U\supset F$ or $V\supset B$ are 
+the preimages under the diagonal arrow of the open neighbourhoods
+$ \big\{
+    e_F 
+      \leftrightarrows 
+        e_{\varnothing}
+  \big\}$ of point $e_F$, or 
+$ \big\{
+        e_{\varnothing}
+      \leftrightarrows
+    e_G 
+  \big\}
+$ of point $e_G$, respectively.
+
 
 
 
@@ -823,57 +837,340 @@ or as
 
 ### Topologically separated
 
-  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
- 
-   $$ 
-     (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty)    
-        \;\wedge\; 
-     (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty)
-         \;\;\equiv\;\;
-     \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap G = \empty \;\wedge\; F \cap V = \empty 
+
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is 
+__separated__ if each set has a [[neighbourhood]] that is [[disjoint subset|disjoint]] from the other set:  
+
+\[
+  \label{PairOfSeparatedSubsets}
+     F, G \;\text{are topologically disjoint}
+     \;\;\;\;\;\;\;\;\;
+     \Leftrightarrow
+     \;\;\;\;\;\;\;\;\;
+     \Big(
+       \underset
+         {
+           U \underset{\mathclap{nbhd}}{\supseteq} F      
+         }
+         {\exists}
+       ,\; 
+       U \cap G = \varnothing
+     \Big) 
+     \;\;and\;\; 
+     \Big(
+       \underset
+         {
+           V \underset{\mathclap{nbhd}}{\supseteq} G      
+         }
+         {\exists}
+       ,\; 
+       F \cap V = \varnothing
+     \Big) 
      \,.
-   $$
-   
-   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors both as 
+\]
 
-   $$ 
-     S_{F,G}
-       \colon 
-     S \longrightarrow  \{F \leftrightarrow U \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}
-   $$
+(Notice that separated sets must be topologically disjoint and disjoint.)
 
-   and as 
-  
-   $$ 
-     S_{F,G}
-       \colon 
-     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V  \leftrightarrow G \} \longrightarrow \{F \leftrightarrow \bullet = V  \leftrightarrow G \} 
-   $$ 
 
-   where $ U $, $V $ maps to $\bullet$.
-   Notice that separated sets must be topologically disjoint.
+The separation condition (eq:PairOfSeparatedSubsets) on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfDisjointSubsets) factors as
 
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U 
+      \to
+    e_{\varnothing}
+      \leftrightarrows
+    e_G 
+  \big\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U 
+      =
+    e_{\varnothing}
+      \leftrightarrows
+    e_G 
+  \big\}  
+\end{tikzcd}
+
+
+and as
+
+
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_{\varnothing}
+      \leftarrow
+    e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_{\varnothing}
+      =
+    e_V 
+      \leftrightarrows
+    e_G 
+  \big\}  
+\end{tikzcd}
+
+The two diagrams above can be equivalently combined into a single diagram;
+the separating neighbourhoods $U\supset F$ and $V\supset B$ are 
+the preimages under the diagonal arrow of the open subsets
+$ \big\{
+    e_F 
+      \leftrightarrows 
+    e_U \leftarrow
+        e_{\varnothing}
+  \big\}$ and 
+$ \big\{
+        e_{\varnothing}
+      \rightarrow
+    e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+$.  
+
+
+
+
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U \leftarrow
+        e_{\varnothing}
+      \rightarrow
+    e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U=
+    e_{\varnothing}
+      =
+    e_V 
+      \leftrightarrows
+    e_G 
+  \big\}  
+\end{tikzcd}
 
 
 ### Separated by neighbourhoods
 
-{#SeparatedByNeighbourhoods} They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
-   $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap V = \empty .$$
-   The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as 
-   $S \longrightarrow \{F \leftrightarrow  U  \searrow \bullet \swarrow  V \leftrightarrow G\}\longrightarrow \{F \leftrightarrow  U  = \bullet =  V \leftrightarrow G\}$
-   Notice that sets separated by neighbourhoods must be separated.
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is 
+__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] [[neighbourhoods]] $U\subseteq V$ and $V\subseteq G$, 
+$U\cap V=\emptyset$.
 
+The separation condition (eq:PairOfSeparatedNeighbourhoods) on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfDIsjointSubsets) factors as
+
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U \rightarrow
+        e_{\varnothing}
+      \leftarrow
+    e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U=e_{\bar U}
+    e_{\varnothing}
+      =
+    e_{\bar V}=e_V 
+      \leftrightarrows
+    e_G 
+  \big\}  
+\end{tikzcd}
+The separating neighbourhoods $U\supset F$ and $V\supset B$ are 
+the preimages under the diagonal arrow of the open subsets
+$ \big\{
+    e_F 
+      \leftrightarrows 
+    e_U 
+  \big\}$ and 
+$ \big\{e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+$.  
 
 
 ### Separated by closed neighbourhoods
 
 
-They are __separated by closed neighbourhoods__ if they have disjoint closed neighbourhoods:
-   $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; Cl(U) \cap Cl(V) = \empty .$$
-   The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as
-   $$ S \longrightarrow \{ F \leftrightarrow U \searrow U' \swarrow \bullet \searrow V' \searrow V \leftrightarrow G \}
-   \longrightarrow \{ F \leftrightarrow U = U' = \bullet = V' = V \leftrightarrow G \} $$
-   Notice that sets separated by closed neighbourhoods must be separated by neighbourhoods.
+{#eq:PairOfSeparatedClosedNeighbourhoods}
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is 
+__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] closed [[neighbourhoods]], i.e. there exist 
+$U\subseteq V$ and $V\subseteq G$ such that their closures 
+$\bar U$ and $ \bar V$ do not intersect
+$\bar U\cap \bar V=\emptyset$.
+
+The separation condition (eq:PairOfSeparatedClosedNeighbourhoods) on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfSeparatedClosedNeighbourhoods) factors as
+
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U \rightarrow
+    e_{\bar U} \leftarrow
+        e_{\varnothing} \rightarrow 
+    e_{\bar V}
+      \leftarrow
+    e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F 
+      \leftrightarrows 
+    e_U=
+    e_{\varnothing}
+      =
+    e_U 
+      \leftrightarrows
+    e_G 
+  \big\}  
+\end{tikzcd}
+
+The separating closed neighbourhoods $\bar U\supset F$ and $\bar V\supset B$ are 
+the preimages under the diagonal arrow of the closed neighbourhoods
+$ \big\{
+    e_F 
+      \leftrightarrows 
+   e_U \rightarrow
+   e_{\bar U} \big\}$ of point $e_F$, and 
+$ \big\{
+  e_{\bar V}
+      \leftarrow
+  e_V
+      \leftrightarrows
+    e_G 
+  \big\}
+$ of point $e_G$.  
 
 
 
