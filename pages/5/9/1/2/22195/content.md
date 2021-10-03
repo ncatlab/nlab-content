@@ -20,7 +20,7 @@
 
 Just as one could define an [[internal logic]], such as [[first order logic]], [[higher order logic]], or [[geometric logic]] in a [[(1,1)-category]] with sufficient structure, in a [[(2,1)-category]], one should be able to define an _internal set theory_. 
 
-Defining a [[set theory]] internal to a (1,1)-category is not possible, unless one is talking about [[material set theories]] such as [[ZFC]], because any groupoid or category internal to an ambient (1,1)-category is necessarily a [[strict category|strict]] groupoid or category, which violates the [[principle of equivalence]] and is thus [[evil]]. Instead, in order to construct an internal set theory, an internal notion of [[weak category]] is needed. 
+Defining a [[set theory]] internal to a (1,1)-category is not possible, unless one is talking about [[material set theories]] such as [[ZFC]], because any groupoid or category internal to an ambient (1,1)-category is necessarily a [[strict category|strict]] groupoid or category, which violates the [[principle of equivalence]]. Instead, in order to construct an internal set theory, an internal notion of [[weak category]] is needed. 
 
 The basic ideas of the internal set theory induced by a given category C are:
 
