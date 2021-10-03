@@ -10,4 +10,6 @@ On the category of (Hausdorff) [[compactly generated topological spaces]] being 
 
 
 category: people
+
+[[!redirects Enrico M. Vitale]]
 [[!redirects E. M. Vitale]]
