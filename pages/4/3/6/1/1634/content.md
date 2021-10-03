@@ -32,9 +32,9 @@ Let $(X,\tau)$ be a [[topological space]] and $x \in X$ a point. Then:
 
 1. A [[subset]] $U \subset X$ is a __neighbourhood__ of $x$ if there exists an [[open subset]] $O \subset X$ such that $x \in O$ and $O \subset U$.
 
-1. A [[subset]] $U \subset X$ is an __open neighbourhood__ of $x$ if it is both an [[open subset]] and a neighbouhood of $x$;
+1. A [[subset]] $U \subset X$ is an __open neighbourhood__ of $x$ if it is both an [[open subset]] and a neighbourhood of $x$;
 
-Beware, some authors use "neighbourhood" as a synonym for "open neighbouhood".
+Beware, some authors use "neighbourhood" as a synonym for "open neighbourhood".
 
 Similarly one says that a _closed neighbourhood_ or _compact neighbourhood_ etc. is a neighbourhood that is also a [[closed subset]] or [[compact subspace]], respectively.
 
