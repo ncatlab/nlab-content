@@ -15,10 +15,13 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-If an [[(∞,1)-topos]] $\mathbf{H}$ is that of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on (the [[site]] of [[category of open subsets|open subsets]] of) a [[paracompact space|paracompact]] [[topological space]] -- $\mathbf{H} = Sh_{(\infty,1)}(X)$ --  then its **shape** is the _strong shape_ of $X$ in the sense of [[shape theory]]: a [[pro-object]] $Shp(X)$ in the [[category]] of [[CW-complexes]].
+To the extent that an [[(∞,1)-topos]] may be thought of as representing a *[[space]]*, the *shape* of the $\infty$-topos is the underlying [[pro-homotopy theory|pro-]][[homotopy type]] of this space (Def. \ref{ShapeOfAnInfinityTopos} below). Equivalently, the shape of an $\infty$-topos is the generalized [[étale homotopy]]-type of its [[terminal object]] (Def. \ref{ShapeOfToposAsImageOfItsPointUnderProLeftAdjointToLConst}, Prop. \ref{ShapeOfToposIsShapeOfItsTerminalObject} below).
 
-It turns out that $Shp(X)$ may be extracted in a canonical fashion from just the [[(∞,1)-topos]] $Sh_{(\infty,1)}(X)$, and in a way that makes sense for any [[(∞,1)-topos]]. This then gives a definition of shape of general $(\infty,1)$-toposes.
+In the special case that the [[(∞,1)-topos]] $\mathbf{H}$ is that of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on (the [[site]] of [[category of open subsets|open subsets]] of) a [[paracompact space|paracompact]] [[topological space]] -- $\mathbf{H} \,\simeq\, Sh_{(\infty,1)}(X)$ --  then its shape coincides with the [[strong shape]] of $X$ in the classical sense of [[shape theory]]: a [[pro-object]] $Shp(X)$ in the [[category]] of [[CW-complexes]].
+
+In the special case that the $\infty$-topos is a [[slice (infinity,1)-topos|slice]] $\mathbf{H}_{/X}$ of a [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] $\mathbf{H}$ over an object $X \,\in\, \mathbf{H}$, then the shape of $\mathbf{H}_{/X}$ is the [[shape modality|cohesive shape]] of $X$ (Prop. \ref{ShapeOfSliceOfCohesiveInfinityTopos} below).
 
 ## Definition
  {#Definition}
@@ -277,7 +280,7 @@ $$
 $$
 \end{definition}
 
-\begin{prop}
+\begin{prop}\label{ShapeOfToposIsShapeOfItsTerminalObject}
   Def. \ref{ShapeOfToposAsImageOfItsPointUnderProLeftAdjointToLConst}
   is equivalent to Def. \ref{LurieShapeOfAnInfinityTopos}
 \end{prop}
@@ -639,14 +642,14 @@ $$
     \\
     & \;\simeq\;
     \mathrm{Grp}_\infty
-    \big(
+    \Big(
       \mathrm{Shp}
       \big(
         X \times \mathrm{Disc}(S_1)
       \big)
       ,\,
       S_2
-    \big)
+    \Big)
     \\
     & \;\simeq\;
     \mathrm{Grp}_\infty
