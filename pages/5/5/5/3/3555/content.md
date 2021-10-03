@@ -239,7 +239,7 @@ The [[composition|composite]] of these is the equivalence to be shown.
 
 \begin{remark}\label{ShapeIsLexAndAccessible}
 Prop. \ref{ShapeIsGlobalSectionsOfLConst} immediately implies that $Shp(\mathbf{H}) \;\colon\; \infty Grpd \to \infty Grpd$ according to Def. \ref{ShapeOfAnInfinityTopos} does preserve finite $(\infty,1)$-limits, since in the equivalent Def. \ref{LurieShapeOfAnInfinityTopos} this is manifest:
-There $\Gamma$ clearly preserves all limits, [[right adjoints preserve limits|since]] it is a [[right adjoint]], and $LConst$ preserves of finite limits, since it is a [[left exact functor]] by definition.
+There $\Gamma$ clearly preserves all limits, [[right adjoints preserve limits|since]] it is a [[right adjoint]], and $LConst$ preserves finite limits, since it is a [[left exact functor]] by definition.
 Similarly, this makes manifest that $Shp(\mathbf{H})$ is [[accessible (infinity,1)-functor|accessible]], since $\Gamma$ and $LConst$ are both accessible.
 \end{remark}
 
@@ -710,7 +710,7 @@ and discussion of relation to classical ([[strong shape|strong]]) [[shape theory
 
 The further re-formulation as the image of the [[terminal object]] under the [[pro-left adjoint]] to $LConst$ is highlighted in
 
-* {#Hoyois13} [[Marc Hoyois]], Def. 2.3 _Higher Galois theory_, Algebraic & Geometric Topology __17__ 1 (2017) 567-643 ([arxiv/1506.07155](https://arxiv.org/abs/1506.07155), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
+* {#Hoyois13} [[Marc Hoyois]], Def. 2.3 in: _Higher Galois theory_, Algebraic & Geometric Topology __17__ 1 (2017) 567-643 ([arxiv/1506.07155](https://arxiv.org/abs/1506.07155), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
 
 See also
 
