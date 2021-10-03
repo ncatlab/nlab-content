@@ -130,15 +130,16 @@ Some examples of terminal objects in notable categories follow:
 
 ## Related concepts
 
+* [[strict terminal object]]
+
 * [[initial object]]
 
 * [[unit type]]
 
-* [[terminal object in a quasi-category]].
+* [[terminal object in a 2-category]]
 
-* [[strict terminal object]]
+* [[terminal object in an (infinity,1)-category|terminal object in an $(\infty,1)$-category]]
 
-* [[bi-terminal object]]
 
 ## References
 
