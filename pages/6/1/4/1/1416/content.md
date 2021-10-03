@@ -205,7 +205,7 @@ When $C$ and $E$ are [[small category|small]], a functor $F \colon C \to E$ is r
 +-- {: .proof}
 ###### Proof
 Since [[presheaf topos]]es have all [[colimit]]s, $F_! = Lan_F$ is computed on any object $e \in E$ (as discussed at [[Kan extension]]) by the [[colimit]]
-$$ (F_! X(e) = \lim_{\to} \left( (e/F)^{op} \to C^{op} \stackrel{F}{\to} Set \right) $$
+$$ (F_! X(e) = \lim_{\to} \left( (e/F)^{op} \to C^{op} \stackrel{X}{\to} Set \right) $$
 where $(e/F)$ is the corresponding [[comma category]] and $(e/F)^{op} \to C^{op}$ is the canonical projection.
 
 Now, by definition $F$ being representably-flat means that $(e/F)^{op}$ is a [[filtered category]]. So this is a [[filtered colimit]]. By the discussion there, it is precisely the filtered colimits that commute with finite limits.
