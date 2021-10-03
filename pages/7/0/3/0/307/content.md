@@ -138,6 +138,8 @@ Some examples of terminal objects in notable categories follow:
 
 * [[strict terminal object]]
 
+* [[bi-terminal object]]
+
 ## References
 
 Textbook account:
