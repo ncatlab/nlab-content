@@ -150,11 +150,6 @@ Some philosophical aspects of the role of category theory are touched upon in so
 
 * [[Jean-Pierre Marquis]], _What is category theory?_, pdf can be found at [academia.edu](https://www.academia.edu/16339607/What_is_category_theory)
 
-### Blog and forum discussions, conferences
-
-* $n$Caf&#233; on Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
-* [[GavinWraith|Gavin]] wrote about "The dangers of category theory", see $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2472&Focus=21255#Comment_21255)
-* [Simplicity](http://s-i-m-p-l-i-c-i-t-y.org/index.html] conference: Ideals of Practice in Mathematics & the Arts; videos online at youtube [channel](http://s-i-m-p-l-i-c-i-t-y.org/videos.html)
 
 ### Talks
 
