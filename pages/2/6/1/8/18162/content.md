@@ -883,7 +883,11 @@ __separated__ if each set has a [[neighbourhood]] that is [[disjoint subset|disj
 (Notice that separated sets must be topologically disjoint and disjoint.)
 
 
-The separation condition (eq:PairOfSeparatedSubsets) on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfDisjointSubsets) factors as
+The separation condition (eq:PairOfSeparatedSubsets) on a pair of disjoint subsets means equivalently that 
+their characteristic function
+(eq:CharacteristicFunctionForPairOfDIsjointSubsets)
+factors as
+
 
 \begin{tikzcd}
 [
@@ -975,7 +979,7 @@ and as
   \big\}  
 \end{tikzcd}
 
-The two diagrams above can be equivalently combined into a single diagram;
+The two diagrams above can equivalently be combined into a single diagram;
 the separating neighbourhoods $U\supset F$ and $V\supset B$ are 
 the preimages under the diagonal arrow of the open subsets
 $ \big\{
@@ -1042,13 +1046,27 @@ $.
 \end{tikzcd}
 
 
+
 ### Separated by neighbourhoods
+ {#SeparatedByNeighbourhoods}
 
 We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is 
-__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] [[neighbourhoods]] $U\subseteq V$ and $V\subseteq G$, 
-$U\cap V=\emptyset$.
+__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] [[neighbourhoods]] 
 
-The separation condition (eq:PairOfSeparatedNeighbourhoods) on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfDIsjointSubsets) factors as
+\[
+  \label{PairOfSeparatedNeighbourhoods}
+  U \subseteq V
+  \;\text{and}\;
+  V \subseteq G 
+  \;\;\;\text{such that}\;\;\;
+  U \cap V = \varnothing
+  \,.
+\]
+
+The separation condition (eq:PairOfSeparatedNeighbourhoods) on a pair of disjoint subsets means equivalently that 
+their characteristic function
+(eq:CharacteristicFunctionForPairOfDIsjointSubsets)
+factors as
 
 \begin{tikzcd}
 [
@@ -1116,9 +1134,25 @@ We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is
 __separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] closed [[neighbourhoods]], i.e. there exist 
 $U\subseteq V$ and $V\subseteq G$ such that their closures 
 $\bar U$ and $ \bar V$ do not intersect
-$\bar U\cap \bar V=\emptyset$.
 
-The separation condition (eq:PairOfSeparatedClosedNeighbourhoods) on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfSeparatedClosedNeighbourhoods) factors as
+
+\[
+  \label{PairOfSeparatedClosedNeighbourhoods}
+  U \subseteq V  
+  \;\text{and}\;
+  V \subseteq G
+  \;\;\;\;\;\;
+  \text{such that}
+  \;\;\;\;\;\;
+  \bar U \cap \bar V 
+  \;=\;
+  \varnothing
+\]
+
+The separation condition (eq:PairOfSeparatedClosedNeighbourhoods) on a pair of disjoint subsets means equivalently that 
+their characteristic function
+(eq:CharacteristicFunctionForPairOfDIsjointSubsets)
+factors as
 
 \begin{tikzcd}
 [
@@ -1190,12 +1224,25 @@ $ of point $e_G$.
 
 We say that two disjoint subsets $F$ and $G$ are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps $F$ to $0$ and $G$ to $1$:
 
-$$ \exists\; f: S \to \mathbb{R},\; F \subseteq f^{-1}(\{0\}) \;\wedge\; G \subseteq f^{-1}(\{1\}) .$$
+\[
+  \label{ConditionForSeparationByAFunction}
+  \underset
+    {f \,\colon\, S \to \mathbb{R}}
+    {\exists}  
+  \left(
+    F \subseteq f^{-1}(\{0\}) 
+    \;\wedge\; 
+    G \subseteq f^{-1}(\{1\}) 
+  \right)
+\]
 
 Equivalently, we may assume that $f$ takes values in $[0,1]\subseteq \mathbb{R}$.
 
 
-This separation condition  on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfSeparatedClosedNeighbourhoods) factors as
+This separation condition (eq:ConditionForSeparationByAFunction) on a pair of disjoint subsets means equivalently that 
+their characteristic function
+(eq:CharacteristicFunctionForPairOfDIsjointSubsets)
+factors as
 
 \begin{tikzcd}
 [
@@ -1258,12 +1305,25 @@ If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal ar
 
 Finally, we say that two disjoint subsets $F$ and $G$ are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps precisely $F$ to $0$ and $G$ to $1$:
 
-$$ \exists\; f: S \to \mathbf{R},\; F = f^{-1}(\{0\}) \;\wedge\; G = f^{-1}(\{1\}) .$$
+\[
+  \label{ConditionForPreciseSeparationByAFunction}
+  \underset
+    {f \,\colon\, S \to \mathbf{R}} 
+    {\exists}
+  \left(
+    F \,=\, f^{-1}(\{0\}) 
+    \;\;\wedge\;\; 
+    G \,=\, f^{-1}(\{1\}) 
+  \right)
+\]
 
 Equivalently, we may assume that $f$ takes values in $[0,1]\subseteq \mathbb{R}$.
 
 
-This separation condition  on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfSeparatedClosedNeighbourhoods) factors as
+This separation condition (eq:ConditionForPreciseSeparationByAFunction) on a pair of disjoint subsets means equivalently that 
+their characteristic function
+(eq:CharacteristicFunctionForPairOfDIsjointSubsets)
+factors as
 
 \begin{tikzcd}
 [
