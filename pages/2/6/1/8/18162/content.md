@@ -21,11 +21,11 @@
 ## Idea
  {#Idea}
 
-In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 2014](#\rightthreetimes)) with respect to simple or archetypal counterexamples represented by finite preorders, and closely following standard definitions. It is convenient to refer 
-as __the left/right Quillen negation of a morphism__ 
-to the class of morphism having the left/right lifting property 
-with respect to the morphism, and say that the separation axioms 
-are defined by the Quillen negation of archetypal counterexamples.   
+In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 2014](#&solb;)) with respect to simple or archetypal counterexamples represented by finite preorders, and closely following standard definitions. It is convenient to refer
+as __the left/right Quillen negation of a morphism__
+to the class of morphism having the left/right lifting property
+with respect to the morphism, and say that the separation axioms
+are defined by the Quillen negation of archetypal counterexamples.
 
 To see this, first notice/recall  the following two simple examples of [[lifting properties]] in [[diagrams]] in [[TopSp]].
 
@@ -34,15 +34,15 @@ The property
 * *$X \xrightarrow{f} Y$ is a [[surjective function]]*.
 
 means equivalently that $f$ has the [[right lifting property]]
-against the unique map from the [[empty space]] to the [[point space]], 
+against the unique map from the [[empty space]] to the [[point space]],
 the simplest map which is not surjective:
 
 \begin{tikzcd}
 [
-  column sep={between origins, 40pt}, 
+  column sep={between origins, 40pt},
   row sep={between origins, 40pt}
 ]
-  \varnothing 
+  \varnothing
   \ar[rr]
   \ar[dd]
   &&
@@ -69,11 +69,11 @@ the simplest map which is not surjective:
 
 Namely, a [[commuting diagram]] of the outer form is equivalently just the choice of a single point in $Y$ (this being the [[image]] of the bottom map), and the existence of the dashed lift means that any such point has a [[preimage]] through $f$. This is the very definition of [[surjective function|surjectivity]].
 
-Note that we have defined surjectivity with help of a simplest counterexample: the map on the left is perhaps the simplest example 
-of a non-surjective map. We shall see that this pattern holds 
+Note that we have defined surjectivity with help of a simplest counterexample: the map on the left is perhaps the simplest example
+of a non-surjective map. We shall see that this pattern holds
 in other examples as well. Part of the reason that a map never has the left lifting property with respect to itself unless it is an isomorphism,
-and thus taking the lifting prperty is a simplest way to define a class of morphism not containing a given counterexample or without a given property 
-in a matter useful in a diagram chasing computation. 
+and thus taking the lifting prperty is a simplest way to define a class of morphism not containing a given counterexample or without a given property
+in a matter useful in a diagram chasing computation.
 
 \linebreak
 
@@ -90,7 +90,7 @@ $$
   Opens
   \Big(
     Dsc
-    \big( 
+    \big(
       \{0,1\}
     \big)
   \Big)
@@ -98,7 +98,7 @@ $$
   \coloneqq
   \;\;
   \Big\{
-    \varnothing 
+    \varnothing
     ,\,
     \{0\}
     ,\,
@@ -112,12 +112,12 @@ to the [[point space]], one of the simplest non-injective maps:
 
 \begin{tikzcd}
 [
-  column sep={between origins, 40pt}, 
+  column sep={between origins, 40pt},
   row sep={between origins, 40pt}
 ]
   \mathrm{Dsc}
-  \big( 
-    \boxed{\{\boxed{0},\boxed{1}\}} 
+  \big(
+    \boxed{\{\boxed{0},\boxed{1}\}}
   \big)
   \ar[
     rr,
@@ -159,8 +159,8 @@ Now consider the variant of the previous example where the 2-element set is equi
   Opens
   \Big(
     CoDsc
-   \big(    
-      \{0,1\} 
+   \big(
+      \{0,1\}
    \big)
   \Big)
   \;\coloneqq\;
@@ -177,17 +177,17 @@ In terms of this, the property
 * *$X$ is a [[T0-space|$T_0$-space]].
 
 means equivalently that its unique map $X \to \ast$ to the [[point space]] has the [[right lifting property]]
-against the unique map from the [[codiscrete space]] with two [[elements]] 
+against the unique map from the [[codiscrete space]] with two [[elements]]
 to the [[point space]]:
 
 \begin{tikzcd}
 [
-  column sep={between origins, 40pt}, 
+  column sep={between origins, 40pt},
   row sep={between origins, 40pt}
 ]
   \mathrm{CoDsc}
-  \big( 
-    \boxed{\{0\leftrightarrow 1\}} 
+  \big(
+    \boxed{\{0\leftrightarrow 1\}}
   \big)
   \ar[
     rr,
@@ -225,7 +225,7 @@ Proceeding in this manner, one sees that the property
 
 means equivalently that its unique map $X \to \ast$ to the [[point space]] has the [[right lifting property]]
 against the unique map from the [[Sierpinski space]] $Sierp$,
-again the simplest not a $T_1$-space.  
+again the simplest not a $T_1$-space.
 
 $$
   Set
@@ -235,14 +235,14 @@ $$
   \;\coloneqq\;
   \{0,1\}
   \,,
-  \;\;\;\;\;\; 
+  \;\;\;\;\;\;
   Opens
   \big(
     Sierp
   \big)
   \;\coloneqq\;
-  \big\{  
-    \varnothing 
+  \big\{
+    \varnothing
     ,\,
     \{0\}
     ,\,
@@ -254,7 +254,7 @@ to the [[point space]]:
 
 \begin{tikzcd}
 [
-  column sep={between origins, 40pt}, 
+  column sep={between origins, 40pt},
   row sep={between origins, 40pt}
 ]
   \mathrm{\boxed{\{\boxed{0}\rightarrow 1\}}}
@@ -291,14 +291,14 @@ distinct points have disjoint open neighbourhoods iff any such injective map ext
 
 * *$X$ is a [[Hausdorff space|$T_2$-space]].
 
-{#IllustrationOfLiftingForT2} This is represented by the following lifting property diagram. 
+{#IllustrationOfLiftingForT2} This is represented by the following lifting property diagram.
 
 \begin{tikzcd}
 [
-  column sep={between origins, 50pt}, 
+  column sep={between origins, 50pt},
   row sep={between origins, 40pt}
 ]
-  \boxed{\{0\leftrightarrow 1\}} 
+  \boxed{\{0\leftrightarrow 1\}}
   \ar[
     rr,
     "{ }"
@@ -321,7 +321,7 @@ distinct points have disjoint open neighbourhoods iff any such injective map ext
           \searrow \;\, \swarrow
         }
       }
-  }  
+  }
   \ar[dd]
   \\
   \\
@@ -340,7 +340,7 @@ distinct points have disjoint open neighbourhoods iff any such injective map ext
 
 \linebreak
 
-Axioms $T_3-T_5$ and others require finite topological spaces with 4 to 7 points, and we need to introduce appropriate notation. 
+Axioms $T_3-T_5$ and others require finite topological spaces with 4 to 7 points, and we need to introduce appropriate notation.
 
 
 
@@ -349,11 +349,11 @@ A space is [[extremally disconnected]] iff the closure of an open subset is open
 
 * *$X$ is [[extremally disconnected]].
 
-{#IllustrationOfLiftingForExtremallyDisconnected} This is represented by the following lifting property diagram. 
+{#IllustrationOfLiftingForExtremallyDisconnected} This is represented by the following lifting property diagram.
 
 \begin{tikzcd}
 [
-  column sep={between origins, 50pt}, 
+  column sep={between origins, 50pt},
   row sep={between origins, 40pt}
 ]
  \emptyset
@@ -409,11 +409,11 @@ In order to economically define and denote the [[finite topological spaces]] whi
 Recall that the [[specialisation preorder]] on the [[underlying]] [[set]] of points of a [[topological space]] $X$ is the [[preorder]] whose [[order relation]], for any $x, y \in X$, is
 
 $$
-  x \,\leq\, y 
-  \;\;\;\;\;\;\text{iff}\;\;\;\;\;\;  
+  x \,\leq\, y
+  \;\;\;\;\;\;\text{iff}\;\;\;\;\;\;
   y \,\in\, cl(x)
   \,,
-$$ 
+$$
 
 where the right hand side means that the following two equivalent conditions hold:
 
@@ -426,7 +426,7 @@ We may regard these [[preordered sets]] equivalently as ([[thin category|thin]] 
 
 * [[objects]] are the points of $X$,
 
-* [[morphisms]] reflect the order relation: 
+* [[morphisms]] reflect the order relation:
 
   for $x, y \,\in\, X$ there exists a unique morphism $;\x \,\leftarrow\, y\;$ iff $\;y \,\leq\, x\;$ in the [[specialization order]].
 
@@ -438,7 +438,7 @@ A [[subset]] $C \,\subset X\,$ is [[closed subset|closed]] iff the following equ
 
 1. there are no morphisms going out of $C$ in the corresponding category.
 
-Accordingly, we may and will denote [[finite topological spaces]] by showing the [[graph]] containing their points with a system of arrows indicating the generating [[morphisms]] in their corresponding [[specialization preorder]]-[[thin category|category]]. 
+Accordingly, we may and will denote [[finite topological spaces]] by showing the [[graph]] containing their points with a system of arrows indicating the generating [[morphisms]] in their corresponding [[specialization preorder]]-[[thin category|category]].
 
 In doing so, often it will be convenient to show multiple copies of the *same* object, i.e. the same point. Noticing that in the [[strict category]] corresponding to a [[preorder]], an [[isomorphism]] between two objects does *not imply* their [[equality]], we have and distinguish the following two notations:
 
@@ -451,7 +451,7 @@ In doing so, often it will be convenient to show multiple copies of the *same* o
 
 For example:
 
-|[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture | 
+|[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture |
 |--|--|--|--|
 | [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$| $\boxed{\{\boxed{0},\boxed{1}\}}$ |
 | [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{0\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \rightarrow 1 \;\Big\}$ | $\boxed{\{\boxed{0}\rightarrow 1\}}$|
@@ -519,7 +519,7 @@ $$
     }
   }{
     \Big\{\;
-      0 
+      0
       \phantom{\leftarrow}
       1
     \;\Big\}
@@ -534,7 +534,7 @@ $$
     }
   }{
     \Big\{\;
-      0 
+      0
       \rightarrow
       1
     \;\Big\}
@@ -549,7 +549,7 @@ $$
     }
   }{
     \Big\{\;
-      0 
+      0
       \leftrightarrow
       1
     \;\Big\}
@@ -564,7 +564,7 @@ $$
     }
   }{
     \Big\{\;
-      0 
+      0
       =
       1
     \;\Big\}
@@ -573,14 +573,14 @@ $$
 $$
 
 
-{#ExampleMapIdentifyingThreePoints} Notice here the role of the equality sign: In the denotation of a  functor as above, arrows may be sent to equality signs (but not the other way around): This corresponds to the corresponding [[continuous function]] "gluing" these points, in that it is (at least locally) the [[coprojection]] onto the [[quotient space|quotient]] by the subset of points that are being identified. 
+{#ExampleMapIdentifyingThreePoints} Notice here the role of the equality sign: In the denotation of a  functor as above, arrows may be sent to equality signs (but not the other way around): This corresponds to the corresponding [[continuous function]] "gluing" these points, in that it is (at least locally) the [[coprojection]] onto the [[quotient space|quotient]] by the subset of points that are being identified.
 
 For example, the following denotes the functor corresponding to a map that "glues" three points to each other:
 
 $$
   \left\{
     \;\;
-    \array{   
+    \array{
       & & U && && V
       \\
       & \swarrow && \searrow && \swarrow && \searrow
@@ -604,7 +604,7 @@ $$
     \;\;
   \right\}
 $$
-In this notation, the open subsets of the domain are 
+In this notation, the open subsets of the domain are
 $$\{\{U\}, \{V\}, \{a,U\}, \{V,b\}, \{U,x,V\}\},\{a,U,x,V,b\}\}
 $$
 In the codomain, points $a$ and $b$ are closed, and the only point left is open.
@@ -617,7 +617,7 @@ In the codomain, points $a$ and $b$ are closed, and the only point left is open.
 
 Here we describe how topological separation of *[[subsets]]* of a [[topological space]] may be expressed in terms of factorizations of their joint [[characteristic function]].
 
-In all of the following, $S$ denotes a [[topological space]] and 
+In all of the following, $S$ denotes a [[topological space]] and
 
 $$
   F,\,G \;\subset\; S
@@ -636,7 +636,7 @@ We say that a pair of subsets is [[disjoint subset|disjoint]] if their [[interse
   \,,
   \;\;\;\;
   F \cap G \,=\, \varnothing
-\] 
+\]
 
 
 This situation (eq:APairOfDisjointSubsets) may equivalently be expressed by a *[[characteristic function|characteristic]]* [[continuous function]] from $S$ to the [[codiscrete topological space]] of 3 elements. We will suggestively denote these three elements by $e_F$, $e_G$ and $e_\varnothing$,
@@ -647,14 +647,14 @@ respectively, so that in the [above](#BackgroundAndNotation) notation the codisc
 
 $$
   CoDisc
-  \big( 
-    \{ e_F ,\, e_F ,\, e_{\varnothing} \}  
+  \big(
+    \{ e_F ,\, e_F ,\, e_{\varnothing} \}
   \big)
   \;\;
   =
   \;\;
   \big\{
-    e_F \leftrightarrows e_G \leftrightarrows e_\varnothing
+    e_F \leftrightarrow e_G \leftrightarrow e_\varnothing
   \big\}
   \,.
 $$
@@ -666,8 +666,8 @@ Namely, any function to such a [[codiscrete space]] is continuous, and any funct
   \array{
     S_{F,G}
     &\colon&
-    S 
-    &\longrightarrow&  
+    S
+    &\longrightarrow&
     \big\{
        e_F \leftrightarrow e_G \leftrightarrow e_{\varnothing}
     \big\}
@@ -680,8 +680,8 @@ Namely, any function to such a [[codiscrete space]] is continuous, and any funct
       e_F &\vert& x \in F
       \\
       e_G &\vert& x \in G
-      \\   
-      e_\varnothing &\vert& otherwise 
+      \\
+      e_\varnothing &\vert& otherwise
     }
     \right.
   }
@@ -694,14 +694,14 @@ Often $F$ and $G$ will be points (identified with their [[singleton]] subsets); 
 
 Often $F$ or $G$ will be closed sets; notice that disjoint closed sets are automatically separated, while a closed set and a point, if disjoint, are automatically topologically disjoint.
 
-To express the assumption that $F$ or $G$ is closed, we may modify the topology on $\{e_F,e_{\varnothing}, e_G$ and make the points $e_F$ and/or $e_G$ closed as appropriate. 
+To express the assumption that $F$ or $G$ is closed, we may modify the topology on $\{e_F,e_{\varnothing}, e_G$ and make the points $e_F$ and/or $e_G$ closed as appropriate.
 
 
 
 
 ### Topologically disjoint
 
-We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is [[disjoint subset|disjoint]] from the other set:  
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is [[disjoint subset|disjoint]] from the other set:
 
 \[
   \label{PairOfTopologicallyDisjointSubsets}
@@ -712,22 +712,22 @@ We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is __topologi
      \Big(
        \underset
          {
-           U \underset{\mathclap{nbhd}}{\supseteq} F      
+           U \underset{\mathclap{nbhd}}{\supseteq} F
          }
          {\exists}
-       ,\; 
+       ,\;
        U \cap G = \varnothing
-     \Big) 
-     \;\;or\;\; 
+     \Big)
+     \;\;or\;\;
      \Big(
        \underset
          {
-           V \underset{\mathclap{nbhd}}{\supseteq} G      
+           V \underset{\mathclap{nbhd}}{\supseteq} G
          }
          {\exists}
-       ,\; 
+       ,\;
        F \cap V = \varnothing
-     \Big) 
+     \Big)
      \,.
 \]
 
@@ -738,7 +738,7 @@ The topological separation condition (eq:PairOfTopologicallyDisjointSubsets) on 
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -746,13 +746,13 @@ The topological separation condition (eq:PairOfTopologicallyDisjointSubsets) on 
   \ar[rr]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
-    e_U 
+    e_F
+      \leftrightarrow
+    e_U
       \to
     e_{\varnothing}
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
   \ar[dd]
   \\
@@ -769,14 +769,14 @@ The topological separation condition (eq:PairOfTopologicallyDisjointSubsets) on 
   ]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
-    e_U 
+    e_F
+      \leftrightarrow
+    e_U
       =
     e_{\varnothing}
-      \leftrightarrows
-    e_G 
-  \big\}  
+      \leftrightarrow
+    e_G
+  \big\}
 \end{tikzcd}
 
 
@@ -785,7 +785,7 @@ or as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -793,13 +793,13 @@ or as
   \ar[rr]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_{\varnothing}
       \leftarrow
     e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
   \ar[dd]
   \\
@@ -816,27 +816,27 @@ or as
   ]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_{\varnothing}
       =
-    e_U 
-      \leftrightarrows
-    e_G 
-  \big\}  
+    e_U
+      \leftrightarrow
+    e_G
+  \big\}
 \end{tikzcd}
 
-The required neighbourhoods $U\supset F$ or $V\supset B$ are 
+The required neighbourhoods $U\supset F$ or $V\supset B$ are
 the preimages under the diagonal arrow of the open neighbourhoods
 $ \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
         e_{\varnothing}
-  \big\}$ of point $e_F$, or 
+  \big\}$ of point $e_F$, or
 $ \big\{
         e_{\varnothing}
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
 $ of point $e_G$, respectively.
 
@@ -849,8 +849,8 @@ $ of point $e_G$, respectively.
 ### Topologically separated
 
 
-We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is 
-__separated__ if each set has a [[neighbourhood]] that is [[disjoint subset|disjoint]] from the other set:  
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is
+__separated__ if each set has a [[neighbourhood]] that is [[disjoint subset|disjoint]] from the other set:
 
 \[
   \label{PairOfSeparatedSubsets}
@@ -861,29 +861,29 @@ __separated__ if each set has a [[neighbourhood]] that is [[disjoint subset|disj
      \Big(
        \underset
          {
-           U \underset{\mathclap{nbhd}}{\supseteq} F      
+           U \underset{\mathclap{nbhd}}{\supseteq} F
          }
          {\exists}
-       ,\; 
+       ,\;
        U \cap G = \varnothing
-     \Big) 
-     \;\;and\;\; 
+     \Big)
+     \;\;and\;\;
      \Big(
        \underset
          {
-           V \underset{\mathclap{nbhd}}{\supseteq} G      
+           V \underset{\mathclap{nbhd}}{\supseteq} G
          }
          {\exists}
-       ,\; 
+       ,\;
        F \cap V = \varnothing
-     \Big) 
+     \Big)
      \,.
 \]
 
 (Notice that separated sets must be topologically disjoint and disjoint.)
 
 
-The separation condition (eq:PairOfSeparatedSubsets) on a pair of disjoint subsets means equivalently that 
+The separation condition (eq:PairOfSeparatedSubsets) on a pair of disjoint subsets means equivalently that
 their characteristic function
 (eq:CharacteristicFunctionForPairOfDIsjointSubsets)
 factors as
@@ -891,7 +891,7 @@ factors as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -899,13 +899,13 @@ factors as
   \ar[rr]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
-    e_U 
+    e_F
+      \leftrightarrow
+    e_U
       \to
     e_{\varnothing}
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
   \ar[dd]
   \\
@@ -922,14 +922,14 @@ factors as
   ]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
-    e_U 
+    e_F
+      \leftrightarrow
+    e_U
       =
     e_{\varnothing}
-      \leftrightarrows
-    e_G 
-  \big\}  
+      \leftrightarrow
+    e_G
+  \big\}
 \end{tikzcd}
 
 
@@ -938,7 +938,7 @@ and as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -946,13 +946,13 @@ and as
   \ar[rr]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_{\varnothing}
       \leftarrow
     e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
   \ar[dd]
   \\
@@ -969,40 +969,40 @@ and as
   ]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_{\varnothing}
       =
-    e_V 
-      \leftrightarrows
-    e_G 
-  \big\}  
+    e_V
+      \leftrightarrow
+    e_G
+  \big\}
 \end{tikzcd}
 
 The two diagrams above can equivalently be combined into a single diagram;
-the separating neighbourhoods $U\supset F$ and $V\supset B$ are 
+the separating neighbourhoods $U\supset F$ and $V\supset B$ are
 the preimages under the diagonal arrow of the open subsets
 $ \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_U \leftarrow
         e_{\varnothing}
-  \big\}$ and 
+  \big\}$ and
 $ \big\{
         e_{\varnothing}
       \rightarrow
     e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
-$.  
+$.
 
 
 
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -1010,14 +1010,14 @@ $.
   \ar[rr]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_U \leftarrow
         e_{\varnothing}
       \rightarrow
     e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
   \ar[dd]
   \\
@@ -1034,15 +1034,15 @@ $.
   ]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_U=
     e_{\varnothing}
       =
-    e_V 
-      \leftrightarrows
-    e_G 
-  \big\}  
+    e_V
+      \leftrightarrow
+    e_G
+  \big\}
 \end{tikzcd}
 
 
@@ -1050,27 +1050,27 @@ $.
 ### Separated by neighbourhoods
  {#SeparatedByNeighbourhoods}
 
-We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is 
-__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] [[neighbourhoods]] 
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is
+__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] [[neighbourhoods]]
 
 \[
   \label{PairOfSeparatedNeighbourhoods}
   U \subseteq V
   \;\text{and}\;
-  V \subseteq G 
+  V \subseteq G
   \;\;\;\text{such that}\;\;\;
   U \cap V = \varnothing
   \,.
 \]
 
-The separation condition (eq:PairOfSeparatedNeighbourhoods) on a pair of disjoint subsets means equivalently that 
+The separation condition (eq:PairOfSeparatedNeighbourhoods) on a pair of disjoint subsets means equivalently that
 their characteristic function
 (eq:CharacteristicFunctionForPairOfDIsjointSubsets)
 factors as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -1078,14 +1078,14 @@ factors as
   \ar[rr]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_U \rightarrow
         e_{\varnothing}
       \leftarrow
     e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
   \ar[dd]
   \\
@@ -1102,61 +1102,61 @@ factors as
   ]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_U=
     e_{\varnothing}
       =
-    e_U 
-      \leftrightarrows
-    e_G 
-  \big\}  
+    e_U
+      \leftrightarrow
+    e_G
+  \big\}
 \end{tikzcd}
-The separating neighbourhoods $U\supset F$ and $V\supset B$ are 
+The separating neighbourhoods $U\supset F$ and $V\supset B$ are
 the preimages under the diagonal arrow of the open subsets
 $ \big\{
-    e_F 
-      \leftrightarrows 
-    e_U 
-  \big\}$ and 
+    e_F
+      \leftrightarrow
+    e_U
+  \big\}$ and
 $ \big\{e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
-$.  
+$.
 
 
 ### Separated by closed neighbourhoods
 
 
 {#eq:PairOfSeparatedClosedNeighbourhoods}
-We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is 
-__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] closed [[neighbourhoods]], i.e. there exist 
-$U\subseteq V$ and $V\subseteq G$ such that their closures 
+We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is
+__separated by neighbourhoods__ if the sets have [[disjoint subset|disjoint]] closed [[neighbourhoods]], i.e. there exist
+$U\subseteq V$ and $V\subseteq G$ such that their closures
 $\bar U$ and $ \bar V$ do not intersect
 
 
 \[
   \label{PairOfSeparatedClosedNeighbourhoods}
-  U \subseteq V  
+  U \subseteq V
   \;\text{and}\;
   V \subseteq G
   \;\;\;\;\;\;
   \text{such that}
   \;\;\;\;\;\;
-  \bar U \cap \bar V 
+  \bar U \cap \bar V
   \;=\;
   \varnothing
 \]
 
-The separation condition (eq:PairOfSeparatedClosedNeighbourhoods) on a pair of disjoint subsets means equivalently that 
+The separation condition (eq:PairOfSeparatedClosedNeighbourhoods) on a pair of disjoint subsets means equivalently that
 their characteristic function
 (eq:CharacteristicFunctionForPairOfDIsjointSubsets)
 factors as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 75pt}, 
+  column sep={between origins, 75pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -1164,16 +1164,16 @@ factors as
   \ar[rr]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_U \rightarrow
     e_{\bar U} \leftarrow
-        e_{\varnothing} \rightarrow 
+        e_{\varnothing} \rightarrow
     e_{\bar V}
       \leftarrow
     e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
   \ar[dd]
   \\
@@ -1190,32 +1190,32 @@ factors as
   ]
   &&
   \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
     e_U=e_{\bar U}=
     e_{\varnothing}
       =
-    e_{\bar V}=e_V 
-      \leftrightarrows
-    e_G 
-  \big\}  
+    e_{\bar V}=e_V
+      \leftrightarrow
+    e_G
+  \big\}
 \end{tikzcd}
 
-The separating closed neighbourhoods $\bar U\supset F$ and $\bar V\supset B$ are 
+The separating closed neighbourhoods $\bar U\supset F$ and $\bar V\supset B$ are
 the preimages under the diagonal arrow of the closed neighbourhoods
 $ \big\{
-    e_F 
-      \leftrightarrows 
+    e_F
+      \leftrightarrow
    e_U \rightarrow
-   e_{\bar U} \big\}$ of point $e_F$, and 
+   e_{\bar U} \big\}$ of point $e_F$, and
 $ \big\{
   e_{\bar V}
       \leftarrow
   e_V
-      \leftrightarrows
-    e_G 
+      \leftrightarrow
+    e_G
   \big\}
-$ of point $e_G$.  
+$ of point $e_G$.
 
 
 
@@ -1228,31 +1228,31 @@ We say that two disjoint subsets $F$ and $G$ are __separated by a function__ if 
   \label{ConditionForSeparationByAFunction}
   \underset
     {f \,\colon\, S \to \mathbb{R}}
-    {\exists}  
+    {\exists}
   \left(
-    F \subseteq f^{-1}(\{0\}) 
-    \;\wedge\; 
-    G \subseteq f^{-1}(\{1\}) 
+    F \subseteq f^{-1}(\{0\})
+    \;\wedge\;
+    G \subseteq f^{-1}(\{1\})
   \right)
 \]
 
 Equivalently, we may assume that $f$ takes values in $[0,1]\subseteq \mathbb{R}$.
 
 
-This separation condition (eq:ConditionForSeparationByAFunction) on a pair of disjoint subsets means equivalently that 
+This separation condition (eq:ConditionForSeparationByAFunction) on a pair of disjoint subsets means equivalently that
 their characteristic function
 (eq:CharacteristicFunctionForPairOfDIsjointSubsets)
 factors as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
   \ar[dd]
   \ar[rr]
-  && 
+  &&
   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}
   \ar[dd]
   \\
@@ -1270,19 +1270,19 @@ factors as
   &&
   \big\{
     e_F
-      \leftrightarrow 
+      \leftrightarrow
     e_{[0,1]}
       \leftrightarrow
-    e_G 
-  \big\}  
+    e_G
+  \big\}
 \end{tikzcd}
-If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal arrow defined as 
+If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal arrow defined as
 \[
   \label{CharacteristicFunctiontoR01ForPairOfDIsjointSubsets}
   \array{
     f'
     &\colon&
-    S 
+    S
     &\longrightarrow& [0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1\}
     \\
     &&
@@ -1293,8 +1293,8 @@ If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal ar
       e_F &\vert& x \in F
       \\
       e_G &\vert& x \in G
-      \\   
-      f(x) &\vert& otherwise 
+      \\
+      f(x) &\vert& otherwise
     }
     \right.
   }
@@ -1308,26 +1308,26 @@ Finally, we say that two disjoint subsets $F$ and $G$ are __separated by a funct
 \[
   \label{ConditionForPreciseSeparationByAFunction}
   \underset
-    {f \,\colon\, S \to \mathbf{R}} 
+    {f \,\colon\, S \to \mathbf{R}}
     {\exists}
   \left(
-    F \,=\, f^{-1}(\{0\}) 
-    \;\;\wedge\;\; 
-    G \,=\, f^{-1}(\{1\}) 
+    F \,=\, f^{-1}(\{0\})
+    \;\;\wedge\;\;
+    G \,=\, f^{-1}(\{1\})
   \right)
 \]
 
 Equivalently, we may assume that $f$ takes values in $[0,1]\subseteq \mathbb{R}$.
 
 
-This separation condition (eq:ConditionForPreciseSeparationByAFunction) on a pair of disjoint subsets means equivalently that 
+This separation condition (eq:ConditionForPreciseSeparationByAFunction) on a pair of disjoint subsets means equivalently that
 their characteristic function
 (eq:CharacteristicFunctionForPairOfDIsjointSubsets)
 factors as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 60pt},
   row sep={between origins, 40pt}
 ]
   \varnothing
@@ -1349,21 +1349,21 @@ factors as
   ]
   &&
   \big\{
-    0 
-      \leftrightarrow 
+    0
+      \leftrightarrow
     e_{(0,1)}
       \leftrightarrow
-    1 
-  \big\}  
+    1
+  \big\}
 \end{tikzcd}
-If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal arrow defined as 
+If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal arrow defined as
 \[
   \label{CharacteristicFunctiontoRForPairOfDIsjointSubsets}
   \array{
     f'
     &\colon&
-    S 
-    &\longrightarrow&  
+    S
+    &\longrightarrow&
   {[0,1]}
     \\
     &&
@@ -1374,8 +1374,8 @@ If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal ar
       0 &\vert& x \in F
       \\
       1 &\vert& x \in G
-      \\   
-      f(x) &\vert& otherwise 
+      \\
+      f(x) &\vert& otherwise
     }
     \right.
   }
@@ -1389,26 +1389,26 @@ If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal ar
 \linebreak
 
 
-## Separation axioms as lifting properties 
+## Separation axioms as lifting properties
  {#SeparationAxiomsAsLiftingProperties}
 
 In all of the following definitions, ${X}$ is  a topological space.
 
-We shall use the symbol "$\rightthreetimes$" to denote the [[lifting property]] of one map against another (compare *[[Joyal-Tierney calculus]]*):
+We shall use the symbol "$&solb;$" to denote the [[lifting property]] of one map against another (compare *[[Joyal-Tierney calculus]]*):
 
 So for $S \xrightarrow{\phi} T $ and $X \xrightarrow{f} Y$ a [[pair]] of [[continuous functions]] between topological spaces, we write
 
 $$
-  \phi \;\rightthreetimes\; f
+  \phi \;&solb;\; f
   \;\;\;\;\;\;
   \Leftrightarrow
   \;\;\;\;\;\;
   \phi \;\text{has the left lifting property against}\; f
-$$ 
+$$
 
 \begin{tikzcd}
 [
-  column sep={between origins, 40pt}, 
+  column sep={between origins, 40pt},
   row sep={between origins, 40pt}
 ]
   S
@@ -1449,27 +1449,27 @@ With this notation, we have the following dictionary between [[lifting propertie
 distinguishable. (It will be a common theme among the separation axioms to have
 one version of an axiom that requires T0 and one version that doesn't.)
 As a formula, this is expressed as
-   $$ 
-     \{x\leftrightarrow y\} \longrightarrow  \{x=y\} 
-     \;\;\,\rightthreetimes\,\;\;  
+   $$
+     \{x\leftrightarrow y\} \longrightarrow  \{x=y\}
+     \;\;\,&solb;\,\;\;
      {X} \longrightarrow  \{*\}
    $$
 
 *  ${X}$ is R0, or symmetric, if any two topologically distinguishable points in $X$
 are separated, i.e.
-   $$ 
-     \{x{\searrow}y\} \longrightarrow  \{x\leftrightarrow y\}     
-     \;\;\;\,\rightthreetimes\,\;\;\;  
-     {X} \longrightarrow  \{*\} 
+   $$
+     \{x{\searrow}y\} \longrightarrow  \{x\leftrightarrow y\}
+     \;\;\;\,&solb;\,\;\;\;
+     {X} \longrightarrow  \{*\}
    $$
 
 *  $X$ is T1, or accessible or Frechet, if any two distinct points in $X$ are separated, i.e.
-   $$     
-     \{x{\searrow}y\} \longrightarrow  \{x=y\} 
-     \;\;\;\,\rightthreetimes\,\;\;\;  
-     {X} \longrightarrow  \{*\}  
    $$
-   
+     \{x{\searrow}y\} \longrightarrow  \{x=y\}
+     \;\;\;\,&solb;\,\;\;\;
+     {X} \longrightarrow  \{*\}
+   $$
+
    Thus, $X$ is T1 if and only if it is both T0 and R0. (Although you may
 say such things as "T1 space", "Frechet topology", and "Suppose that the
 topological space $X$ is Frechet", avoid saying "Frechet space" in this
@@ -1482,10 +1482,10 @@ functional analysis.)
 
 *  $X$ is [[Hausdorff space|Hausdorff]], or T2 or separated, if any two distinct points in $X$ are separated by neighbourhoods, i.e.
 
-   $$    
-     \{x,y\} \hookrightarrow  {X} 
-     \;\;\;\,\rightthreetimes\,\;\;\;  
-     \{x{\searrow}X{\swarrow}y\} \longrightarrow  \{x=X=y\} 
+   $$
+     \{x,y\} \hookrightarrow  {X}
+     \;\;\;\,&solb;\,\;\;\;
+     \{x{\searrow}X{\swarrow}y\} \longrightarrow  \{x=X=y\}
    $$
 
 
@@ -1493,8 +1493,8 @@ functional analysis.)
 
 *  $X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separated by closed neighbourhoods. As a lifting property this is
    $$
-    \{x,y\} \hookrightarrow  {X} 
-    \;\;\;\,\rightthreetimes\,\;\;\;
+    \{x,y\} \hookrightarrow  {X}
+    \;\;\;\,&solb;\,\;\;\;
      \boxed{\{\overset{\boxed{x}}{}{\searrow}\underset{U}{}{\swarrow}\overset{\boxed{X}}{}
 }\!\!\!\!\!\!\!
 \boxed{
@@ -1508,22 +1508,22 @@ and $\big\{\underset{V}{}{\swarrow}\overset{\boxed{y}}{}\big\}$.
 
    Every $T2\frac{1}{2}$ space is also Hausdorff.
 
-*  $X$ is completely Hausdorff, or completely T2, if any two distinct points in X are separated by a continuous function, i.e. 
+*  $X$ is completely Hausdorff, or completely T2, if any two distinct points in X are separated by a continuous function, i.e.
 
-   $$ 
-     \{x,y\} \hookrightarrow  {X} 
-     \;\;\;\,\rightthreetimes\,\;\;\;   
+   $$
+     \{x,y\} \hookrightarrow  {X}
+     \;\;\;\,&solb;\,\;\;\;
      [0,1]\longrightarrow \{*\}
    $$
- 
+
    where  $\{x,y\} \hookrightarrow  X$  runs through all injective maps from the discrete two point space $\{x,y\}$.
 
    Every completely Hausdorff space is also $ T2\frac{1}{2} $.
 
 *  $X$ is [[regular topological space|regular]] if, given any point ${x}$ and closed subset $F$ in $X$ such that ${x}$ does not belong to $F$, they are separated by neighbourhoods, i.e.
-   $$    
-      \{x\} \longrightarrow  {X} 
-      \;\;\;\,\rightthreetimes\,\;\;\;  
+   $$
+      \{x\} \longrightarrow  {X}
+      \;\;\;\,&solb;\,\;\;\;
 \{
 \boxed{
  \boxed{
@@ -1535,11 +1535,11 @@ and $\big\{\underset{V}{}{\swarrow}\overset{\boxed{y}}{}\big\}$.
 {\,\,\,\,\,\,\searrow\underset{F}{} }
 }
 \}
-        \longrightarrow  
+        \longrightarrow
       \{\overset{\boxed{x=X=U}}{}\searrow\underset{F}{}\}
    $$
-Indeed, the separating neighbourhoods would be 
-the preimage under the diagonal arrow of 
+Indeed, the separating neighbourhoods would be
+the preimage under the diagonal arrow of
 $\{\boxed{x}\}$ and $\{\overset{\boxed{U}}{}\searrow\underset{F}{}\}$.
 
    (In fact, in a regular space, any such ${x}$ and ${F}$ will also be separated by closed neighbourhoods.) Every
@@ -1548,15 +1548,15 @@ regular space is also R1.
 *  $X$ is regular Hausdorff, or T3, if it is both T0 and regular.[1] Every
 regular Hausdorff space is also $T2\frac{1}{2}$.
 
-*  $X$ is completely regular if, given any point ${x}$ and closed set $F$ in $X$ such that ${x}$ does not belong to $F$, they are separated by a continuous function, i.e. 
+*  $X$ is completely regular if, given any point ${x}$ and closed set $F$ in $X$ such that ${x}$ does not belong to $F$, they are separated by a continuous function, i.e.
 
    $$
-     \{x\} \longrightarrow  {X} 
-     \;\;\;\,\rightthreetimes\,\;\;\;  
-     [0,1] \vee_{\{1\}} {\{1\leftrightarrow F\}} 
+     \{x\} \longrightarrow  {X}
+     \;\;\;\,&solb;\,\;\;\;
+     [0,1] \vee_{\{1\}} {\{1\leftrightarrow F\}}
         \longrightarrow  \{ \overset{e_{[0,1]}}{}  \searrow F\}
-   $$ 
-Here in $[0,1] \vee_{\{1\}} {\{1\leftrightarrow F\}}$ 
+   $$
+Here in $[0,1] \vee_{\{1\}} {\{1\leftrightarrow F\}}$
 the points $F$ and $1$ are topologically indistinguishable, $[0,1]$ goes to $x$, and $F$ goes to $F$.
 
    Every completely regular space is also regular.
@@ -1564,28 +1564,28 @@ the points $F$ and $1$ are topologically indistinguishable, $[0,1]$ goes to $x$,
 *  $X$ is [[Tychonoff space|Tychonoff]], or T3$\frac{1}{2}$, completely T3, or completely regular Hausdorff, if it is both T0 and completely regular.[2] Every Tychonoff space is both regular Hausdorff and completely Hausdorff.
 
 *  $X$ is [[normal topological space|normal]] if any two disjoint closed subsets of $X$ are separated by neighbourhoods, i.e.
-   $$   
-      \emptyset \longrightarrow {X} 
-      \;\;\;\,\rightthreetimes\,\;\;\;      
+   $$
+      \emptyset \longrightarrow {X}
+      \;\;\;\,&solb;\,\;\;\;
       \{\underset{x}{}{\swarrow}
         \overset{U}{}{\searrow}
-      \underset{X}{}{\swarrow}\overset{V}{}{\searrow}\underset{y}{}\} 
-         \longrightarrow  
+      \underset{X}{}{\swarrow}\overset{V}{}{\searrow}\underset{y}{}\}
+         \longrightarrow
       \{\underset{x}{}{\swarrow}\overset{\boxed{U=X=V}}{}{\searrow}
        \underset{y}{}\}
    $$
-Indeed, the separating neighbourhoods are the preimages of 
+Indeed, the separating neighbourhoods are the preimages of
 open subsets $\big\{\underset{x}{}{\swarrow}
-        \overset{U}{}\big\}$ 
+        \overset{U}{}\big\}$
 and $\big\{\overset{V}{}{\searrow}\underset{y}{}\big\}$.
 
    In fact, by [[Urysohn's lemma]] a space is normal if and only if any two disjoint closed sets can be separated by a continuous function, i.e.
 
-   $$   
-      \emptyset \longrightarrow  {X} 
-      \;\;\;\,\rightthreetimes\,\;\;\;  
-       [0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1'\} 
-      \longrightarrow  \{0=0'{\searrow}e_{[0,1]}{\swarrow}1=1'\} 
+   $$
+      \emptyset \longrightarrow  {X}
+      \;\;\;\,&solb;\,\;\;\;
+       [0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1'\}
+      \longrightarrow  \{0=0'{\searrow}e_{[0,1]}{\swarrow}1=1'\}
    $$
 Here in $[0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1'\}$
    the points $0',0$ and $1,1'$ are topologically indistinguishable, $[0,1]$ goes to $e_{[0,1]}$, and both $0,0'$ map to point $0=0'$,  and both $1,1'$ map to point $1=1'$.
@@ -1596,28 +1596,28 @@ Hausdorff space is both Tychonoff and normal regular.
 
 *  $X$ is _completely or heriditarily normal_ if any two separated sets $A$ and $B$ are separated by neighbourhoods $U\supset A$ and $V\supset B$ such that $U$ and $V$ do not intersect, i.e.
    $$
-     \emptyset \longrightarrow  {X} 
-     \;\;\;\,\rightthreetimes\,\;\;\;  
+     \emptyset \longrightarrow  {X}
+     \;\;\;\,&solb;\,\;\;\;
      \{
       \underset{X}{}{\swarrow}
      \overset{A\leftrightarrow U}{}
      {\searrow} \underset{U'}{}{\swarrow}
      \overset{W}{} {\searrow}
-     \underset{V'}{}{\swarrow} 
+     \underset{V'}{}{\swarrow}
      \overset{V\leftrightarrow B}{}{\searrow}
      \underset{X}{} \} \longrightarrow  \{U=U',V'=V\}
    $$
-      
+
    Every completely normal space is also normal.
 
 
-*  $X$ is [[perfectly normal topological space|perfectly normal]] if any two disjoint closed sets are precisely separated by a continuous function, i.e. 
+*  $X$ is [[perfectly normal topological space|perfectly normal]] if any two disjoint closed sets are precisely separated by a continuous function, i.e.
 
    $$
-    \emptyset\longrightarrow {X} 
-      \;\;\;\,\rightthreetimes\,\;\;\;  
+    \emptyset\longrightarrow {X}
+      \;\;\;\,&solb;\,\;\;\;
     [0,1]\longrightarrow \{0{\swarrow}X{\searrow}1\}
-   $$   
+   $$
 
    where $(0,1)$ goes to the open point $X$, and $0$ goes to $0$, and $1$ goes to $1$.
 
@@ -1626,7 +1626,7 @@ Hausdorff space is both Tychonoff and normal regular.
 
 *  The [[Tietze extension theorem]] applies to [[normal spaces]].
 
-   Accordingly, a (Hausdorff) space $X$ is normal if and only if every function $f \colon A \to \mathbb{R}$ from a [[closed subspace]] $A \subset X$ admits an [[extension]] $\tilde{f}: X \to \mathbb{R}$, 
+   Accordingly, a (Hausdorff) space $X$ is normal if and only if every function $f \colon A \to \mathbb{R}$ from a [[closed subspace]] $A \subset X$ admits an [[extension]] $\tilde{f}: X \to \mathbb{R}$,
 
    $$
      \array{
@@ -1638,26 +1638,26 @@ Hausdorff space is both Tychonoff and normal regular.
      }
    $$
 
-   or what is the same, every [[regular monomorphism]] into $X$ in $Haus$ has the [[left lifting property]] with respect to the map $\mathbb{R} \to 1$. 
+   or what is the same, every [[regular monomorphism]] into $X$ in $Haus$ has the [[left lifting property]] with respect to the map $\mathbb{R} \to 1$.
 
 
 
 \begin{remark}
-A standard proof of [[Urysohn's lemma]] may be represented as follows: 
-iterate the lifting property to prove 
+A standard proof of [[Urysohn's lemma]] may be represented as follows:
+iterate the lifting property to prove
 
-$$ 
+$$
   \emptyset \longrightarrow X
-  \;\;\;\;\rightthreetimes\;\;\;\; 
+  \;\;\;\;&solb;\;\;\;\;
   \{
-\underset{x}{} \swarrow 
-\overset{x_1}{} \searrow \cdots \swarrow 
-\overset{x_n}{} \searrow 
-\underset{y}{} \} 
-  \longrightarrow  
+\underset{x}{} \swarrow
+\overset{x_1}{} \searrow \cdots \swarrow
+\overset{x_n}{} \searrow
+\underset{y}{} \}
+  \longrightarrow
   \{
-\underset{x}{} \swarrow 
-\overset{x_1 = \cdots = x_n}{} \searrow 
+\underset{x}{} \swarrow
+\overset{x_1 = \cdots = x_n}{} \searrow
 \underset{y}{} \}
 $$
 
