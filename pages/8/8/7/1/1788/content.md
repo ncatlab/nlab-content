@@ -7,8 +7,6 @@ $$
   &solb;
 $$
 
-$\esh$
-
 \begin{tikzpicture}
   \draw (0,0) node {A};
 \end{tikzpicture}
