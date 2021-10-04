@@ -61,7 +61,7 @@ It also follows that $U$ is a [[Grothendieck fibration]] and opfibration.
 
 Since initial lifts have a universal property, they are unique up to unique isomorphism.  However, it is traditional in some literature to ask that they be literally unique (this is done for instance in [ACC][acc]). This is tantamount to deciding that $U$ should be an [[amnestic functor]].  A drawback (from an [[nPOV]]) is that this condition violates the [[principle of equivalence]], and arguably doesn't add anything mathematically important.
 
-Thus, although it occurs in the literature, here we will consider it purely optional. (It is possible that some results recorded here about topological categories will depend on this assumption, but only 'evil' results could be affected.)
+Thus, although it occurs in the literature, here we will consider it purely optional. (It is possible that some results recorded here about topological categories will depend on this assumption, but only results not respecting the [[principle of equivalence]] could be affected.)
 
 
 ### Weak version
