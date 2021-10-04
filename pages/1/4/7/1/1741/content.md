@@ -51,7 +51,7 @@ If you start from $F^*$, construct $C$ and $F$, and then construct a new $F^*$, 
 
 ## Invariance under equivalence
 
-Note that the definition of fibration refers to [[equality]] of morphisms without previously assuming that the sources match, while the construction of $F^*$ from $F$ refers to equality of objects.  This is also why we get equality of functors and isomorphism of categories in the immediately preceding paragraph.  So the only non-[[evil]] thing on this page is the idea of a functor to [[Set]].  That is the fundamental invariant notion; a discrete fibration is just a convenient way of talking about it.
+Note that the definition of fibration refers to [[equality]] of morphisms without previously assuming that the sources match, while the construction of $F^*$ from $F$ refers to equality of objects.  This is also why we get [[equality]] of [[functors]] and [[isomorphism]] of [[categories]] in the immediately preceding paragraph.  So the only thing on this page which respects the [[principle of equivalence]] is the idea of a functor to [[Set]].  That is the fundamental invariant notion; a discrete fibration is just a convenient way of talking about it.
 
 ## Further properties
 
