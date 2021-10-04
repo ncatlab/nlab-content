@@ -43,7 +43,7 @@ For $\mathcal{C}$ a [[category]], a [[class]] $D \subset Mor(\mathcal{C})$ of [[
 * All [[pullbacks]] of elements of $D$ exist and belong to $D$.
 =--
 
-It follows automatically that the [[full subcategory]] on $D$ of the [[arrow category]] $\Arr(\mathcal{C})$ is [[replete subcategory|replete]]; in other words, the [[property]] of $\mathcal{C}$-morphisms given by membership in $D$ is not [[evil]].
+It follows automatically that the [[full subcategory]] on $D$ of the [[arrow category]] $\Arr(\mathcal{C})$ is [[replete subcategory|replete]]; in other words, the [[property]] of $\mathcal{C}$-morphisms given by membership in $D$ respects the [[principle of equivalence]].
 
 
 +-- {: .num_defn #well-rooted}
