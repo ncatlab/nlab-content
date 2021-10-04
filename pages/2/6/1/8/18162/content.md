@@ -1664,6 +1664,84 @@ $$
 Then pass to the infinite limit to construct a map  $ X \longrightarrow  \mathbb{R}$.
 \end{remark}
 
+## Applications.
+
+### Urysohn lemma and Tietze extension theorem. 
+
+Let $\Lambda_n=\big\{
+\underset{c_0}{} \swarrow 
+\overset{o_1}{} \searrow \cdots \swarrow 
+\overset{o_n}{} \searrow 
+\underset{c_n}{} \big\} $ for $n\geq 1$. Pick a sequence of  "subdivision" maps, e.g. 
+$$\Lambda_{2({n+1})}\to \Lambda_{2n}$$
+$$c_{2i}\mapsto c_i,\,\,\, o_{2i+1},c_{2i+1},o_{2i+2}\mapsto o_i,\,\,\, 0\leq i\leq n-1,\,\,\,c_{2n}\mapsto c_n,$$ 
+and let $\Lambda_\infty=\lim_{n\to\infty} \Lambda_{2^n},$ be the limit in the category of topological spaces.
+
+In this notation normality (T4) is defined by $\varnothing \to X \rtt \Lambda_2\to \Lambda_1$.
+Iterating the lifting property shows that $f \rtt \Lambda_2\to \Lambda_1$ implies
+that $f \rtt \Lambda_{2n}\to \Lambda_n$ and, passing to the limit, 
+$f \rtt \Lambda_\infty\to \Lambda_1$. 
+
+Iterating the lifting property $T_4$ implies that 
+$$\Lambda_\infty\to  \Lambda_1 \in \{ \Lambda_2 \to \Lambda_1\}^{lr}.$$
+
+The standard arguments from the proof of Urysohn lemma give the following
+relation between $\Lambda_\infty$ and $\mathbf{R}$. 
+
+1. $[0,1]$  and  
+${[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}$ are retracts of $\Lambda_\infty$. 
+
+
+
+2. The map $\Lambda_\infty\to \Lambda_1$ factors as 
+$$\Lambda_\infty\to   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \Lambda_2 \to \Lambda_1$$
+
+Item (1) implies that 
+$A \to X \rtt \Lambda_\infty\to \{o\}$ implies $A \to X \rtt [0,1]\to \{o\}$ 
+(and  $A \to X \rtt [0,1]\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \{o\}$).
+This reminds the Tietze extension theorem but is different: 
+[it is not true that any closed inclusion
+in a normal space lifts wrt to $\Lambda_2 \to \Lambda_1$](https://mathoverflow.net/questions/394187/extending-disjoint-open-subsets-of-a-normal-hausdorff-space/394193), although it is true for closed inclusions
+into a heriditarily normal space.
+
+
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt},
+  row sep={between origins, 40pt}
+]
+  A
+  \ar[dd]
+  \ar[r]
+  & \Lambda_\infty & {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\ar[l]\ar[dd] \ar[r] 
+  &  \Lambda_2 
+  \ar[ddlll]
+  \\
+  \\
+  B
+  \ar[
+    r
+  ]
+  \ar[
+    uur,
+    dashed,
+    "{ \exists }"
+  ]
+  &\Lambda_1 & {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\ar[l] 
+\end{tikzcd}
+
+
+
+Item (2) (see the diagram above) shows that  $A\to B \rtt \Lambda_\infty\to \Lambda_1$ implies that 
+$A\to B \rtt {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \Lambda_1$.
+Finally, for $A=\varnothing$ the latter implies that $\varnothing \to B \rtt   \Lambda_2 \to \Lambda_1$.
+This implies the Urysohn lemma that 
+$$\varnothing \to B \rtt   \Lambda_2 \to \Lambda_1\text{ iff }\varnothing \to B \rtt   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1$$
+
+
+
+
+
 
 ## Related concepts
 
