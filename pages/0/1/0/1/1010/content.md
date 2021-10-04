@@ -13,7 +13,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -26,27 +26,6 @@ One formalization of this idea is that of a _Grothendieck universe_. This is def
 
 Although developed for application to [[category theory]], the definition is usually given in a form that only makes sense in a membership-based [[set theory]]. On this page, we consider only that version; for a form that makes sense in structural set theory, please see [[universe in a topos]].
 
-+-- {: .query}
-I don't really like how this page looks now, since it focuses once more on the 'evil' set theory. I think that I'll rewrite it to talk about strongly inaccessible cardinal numbers first, which is a reasonable approach from any perspective, and then look at how you can say this more directly in both material and structural set theory. That means that I'll restore some text that was removed (not much of that was moved to [[universe in a topos]]), but this time I'll verify the correctness of the structural material (using [[universe in a topos]] as a guide) as I go.  --- Toby
-
-[[Mike Shulman|Mike]]: I'm not sure I agree. Firstly, I actually think it is better to define what you really want &#8212; in this case, a collection of sets closed under the operations we need &#8212; and only later observe that it may be equivalent to something in terms of inaccessible cardinals. I also expect that the equivalence between universes and inaccessibles requires the [[axiom of choice]], so wouldn't it be better to separate them? Finally, this page is called 'Grothendieck universe,' not [[inaccessible cardinal]], so I think that here we should take the universes as primary, not their cardinals.
-
-_Toby_: I disagree that this is is 'what [we] really want'; the definition below is only what we want if we're using material set theory, which for the most part we aren't in the nLab. So it's really out of place to focus on that.
-
-But I'm not sure that you understand my intention, either. In explaining the point of universe to Urs, or more generally in explaining the point in a structural way, I find the cardinal number the easiest way to get at what matters. It is, as I said before, the bottom line for any proposed (re)definition. So I intend to define Grothendieck universes, certainly, although I intend to define them in terms of cardinal numbers. (Or rather, in terms of isomorphism classes of sets, but using cardinal arithmetic, so I'll call those cardinal numbers.) The discussion of inaccessible cardinals would be only lemmatic (if that's a word); if I get around to doing it, then you'll see what I mean.
-
-But here's another possibility: Maybe we should reserve this page for the strict notion in material set theory and make another page, say [[universe]], for the non-evil concept. Then most (if not all) links here would really want to go there. I'm not sure that I like this, since 'universe' has other meanings, but maybe there's another term that we could use that doesn't conflict with this term? In any case, if you want something like that, then I can go along with it. What I really don't want is a bunch of links on the lab implying that category theorists deal with size issues using something that's fundamentally part of material set theory.
-
-[[Mike Shulman|Mike]]: I can definitely get behind that last sentence. 'Grothendieck universe' seems to be used pretty much everywhere with the material version in mind, but this is probably just because people don't understand or trust structural set theory, and of course the structural version would be just as good for the _purposes_ people use them for. So I think it would be okay if we include both the material and structural versions on this page. (I definitely don't think we should include _only_ the structural version.)
-
-Of course the definition below is only correct in material set theory, but there is also a straightforward structural version that you wrote down, in terms of families, that makes no reference to cardinality. What I don't see is _why_ the cardinal number is "what matters" or "the bottom line for any proposed (re)definition." It seems to me that what's important for category theory is that we have a collection of sets, called 'small,' which are closed under various constructions (power sets, indexed unions, etc.), so that the resulting category $ Set $ of small sets behaves the way we want it to. It's completely irrelevant whether "small" is defined to mean 'of cardinality less than $ \kappa $' for some $ \kappa $, or defined in some other way. If you assume the axiom of choice, then any collection of small sets closed under enough constructions _will_ consist precisely of the sets of cardinality $ \lt \kappa $ for some $ \kappa $, but in the absence of choice, I see no reason for that to be true. All of this is equally true materially and structurally.
-
-(As an aside, I'm not so sure that on the nLab we 'aren't' using material set theory; rather, I think that practically everything we do is completely agnostic as to whether the foundation is material or structural. In fact, if you assume the axioms of choice and foundation, then the two are completely equivalent &#8212; a model of ZFC can be reconstructed, up to isomorphism, from its category of sets, and that category of sets is determined, up to equivalence, by its well-founded-set-objects.)
-
-[[Mike Shulman|Mike]]: In fact, you yourself wrote at [[foundations]]:
-
-> I understand all these large cardinals much better in terms of their categories of small sets.
-=--
 
 
 ## Definition
