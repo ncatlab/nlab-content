@@ -24,7 +24,7 @@
 
 ## Idea
 
-While the [[rationalization]] of [[complex topological K-theory]] has lost most interesting information (being just a [[direct sum]] of [[ordinary cohomology]] [[rational cohomology]] in every even degree) the [[rationalization]] of its enhancement to [[equivariant cohomology]] -- [[equivariant K-theory]] -- is still a comparatively rich object, controlled by the rational [[representation theory]] of the given equivariance group.
+While the [[rationalization]] of [[complex topological K-theory]] has lost most interesting information (being just a [[direct sum]] of [[ordinary cohomology|ordinary]] [[rational cohomology]] in every even degree) the [[rationalization]] of its enhancement to [[equivariant cohomology]] -- [[equivariant K-theory]] -- is still a comparatively rich object, controlled by the rational [[representation theory]] of the given equivariance group.
 
 Rational equivariant K-theory appears in a variety of different but equivalent concrete incarnations, such as [[Bredon cohomology]] with [[coefficients]] in the [[representation ring]]/[[class functions]] or as [[Chen-Ruan cohomology]] (here shown over the [[complex numbers]], see [Lück-Oliver 01](#LueckOliver01) for discussion over the [[rational numbers]]):
 
