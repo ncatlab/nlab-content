@@ -1156,7 +1156,7 @@ factors as
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt}, 
+  column sep={between origins, 75pt}, 
   row sep={between origins, 40pt}
 ]
   \varnothing
