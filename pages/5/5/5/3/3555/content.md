@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -335,29 +334,44 @@ The third line is the characteristic [hom-equivalences](adjoint+infinity1-functo
 
 ## Examples
 
-### Shape of a locally $\infty$-connected topos
+### Shape of locally $\infty$-connected toposes
 
-Suppose that $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], meaning that $\LConst$ has a [[left adjoint|left]] [[adjoint (infinity,1)-functor|$(\infty,1)$-functor]] $Shp$ (see at *[[shape modality]]*) which constructs the [[geometric homotopy groups in an (∞,1)-topos|homotopy ∞-groupoids]] of objects of $\mathbf{H}$.  Then $\Shape(\mathbf{H})$ is [[representable functor|represented]] by $Shp(*)\in \infty Grpd$, for we have the following sequence of [[natural equivalence|natural]] [[equivalences of ∞-groupoids]]:
+\begin{prop}
+If $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], in that $\LConst$ has an actual [[left adjoint|left]] [[adjoint (infinity,1)-functor|$(\infty,1)$-functor]] $Shp$ (see at *[[shape modality]]*, in constrast to just a [[pro-left adjoint]] (eq:ProLeftAdjointToLConst))
+then the shape of $\mathbf{H}$ is $Shp(*) \in \infty Grpd \xhookrightarrow Prop \infty Grpd$ (under the embedding [here](pro-object+in+an+infinity1-category#PlainObjectsAmongProObjects)):
+
+$$
+  Shp(\mathbf{H})
+  \;\;
+    \simeq
+  \;\;
+  Shp(\ast)
+$$
+\end{prop}
+\begin{proof}
+This follows immediately from Prop. \ref{ShapeOfToposIsShapeOfItsTerminalObject} and the observation that an actual left adjoint, when it exists, of coincides with the [[pro-left adjoint]] under the embedding $\infty Grpd \hookrightarrow Pro(\infty Grpd)$ ([here](pro-object+in+an+infinity1-category#PlainObjectsAmongProObjects))
+
+But we may also see explicitly that we have the following sequence of [[natural equivalence|natural]] [[equivalences of ∞-groupoids]], starting with Def. \ref{LurieShapeOfAnInfinityTopos} (alternatively: Prop. \ref{ShapeIsGlobalSectionsOfLConst}(.
 
 $$
 \begin{aligned}
-Shape(\mathbf{H})(A) &\simeq \Gamma(LConst(A))\\
-&\simeq Hom_{\infty Grpd}(*, \Gamma(LConst(A)))\\
-&\simeq Hom_{\mathbf{H}}(LConst(*), LConst(A)) \\
-&\simeq Hom_{\mathbf{H}}(*, LConst(A)) \\
-&\simeq Hom_{\infty Grpd}(Shp(*),A).
+  Shape(\mathbf{H})(A) 
+    &\simeq \Gamma(LConst(A))
+    \\
+  &\simeq Hom_{\infty Grpd}(*, \Gamma(LConst(A)))\\
+  &\simeq Hom_{\mathbf{H}}(LConst(*), LConst(A)) \\
+  &\simeq Hom_{\mathbf{H}}(*, LConst(A)) \\
+  &\simeq Hom_{\infty Grpd}(Shp(*),A).
 \end{aligned}
 $$
+
+\end{proof}
 
 Thus, if we regard $Shp(*)$ as "the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of $\mathbf{H}$" --- which is reasonable since when $\mathbf{H}=Sh(X)$ consists of sheaves on a locally contractible [[topological space]] $X$, $Shp_{\mathbf{H}}(*)$ is equivalent to the usual [[fundamental ∞-groupoid]] of $X$ --- then we can regard the shape of an $(\infty,1)$-topos as a generalized version of the "homotopy $\infty$-groupoid" which nevertheless makes sense even for non-locally-contractible toposes, by taking values in the larger category of "pro-$\infty$-groupoids."
 
 It follows also that $\mathbf{H}$ is not only locally ∞-connected but also [[∞-connected (∞,1)-topos|∞-connected]], then it has the shape of a point.
 
-
-### Shape of an essential retract
- {#Retract}
-
-The following is trivial to observe, but useful to note.
+More generally:
 
 \begin{remark}
 Let $(f_! \dashv f^* \dashv f_*) : \mathbf{H} \xrightarrow{\;\;} \mathbf{B}$ be an [[essential geometric morphism]] of $(\infty,1)$-toposes that exhibits $\mathbf{B}$ as an essential [[retract]] of $\mathbf{H}$ in that 
