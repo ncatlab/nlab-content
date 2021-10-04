@@ -73,7 +73,7 @@ $$
 $$
 (which commutes due to the functoriality axioms of $f$) is an [[epimorphism]].
 
-If you interpret $C_k$ and $P_k$ as sets and take 'epimorphism' in a strict sense (the sense in [[Set]], a [[surjection]]), then you have a __strictly $k$-surjective functor__.  But if you interpret $C_k$ and $P_k$ as $\infty$-categories or $\infty$-groupoids and take 'epimorphism' in a weak sense (the [[homotopy limit|homotopy]] sense from $\infty$-[[infinity-Grpd|Grpd]]), then you have an __essentially $k$-surjective functor__; equivalently, project $C_k$ and $P_k$ to $\omega$-[[equivalence]]-classes before testing surjectivity.  A functor is essentially $k$-surjective if and only if it is equivalent to some strictly $k$-surjective functor, so essential $k$-surjectivity is the non-[[evil]] notion.
+If you interpret $C_k$ and $P_k$ as sets and take 'epimorphism' in a strict sense (the sense in [[Set]], a [[surjection]]), then you have a __strictly $k$-surjective functor__.  But if you interpret $C_k$ and $P_k$ as $\infty$-categories or $\infty$-groupoids and take 'epimorphism' in a weak sense (the [[homotopy limit|homotopy]] sense from $\infty$-[[infinity-Grpd|Grpd]]), then you have an __essentially $k$-surjective functor__; equivalently, project $C_k$ and $P_k$ to $\omega$-[[equivalence]]-classes before testing surjectivity.  A functor is essentially $k$-surjective if and only if it is equivalent to some strictly $k$-surjective functor, so essential $k$-surjectivity is the notion that respects the [[principle of equivalence]].
 
 
 +-- {: .un_prop}
