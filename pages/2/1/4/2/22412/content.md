@@ -110,6 +110,8 @@ A categorical analysis of (non-interleaved) forward and reverse AD is given by
 
 * [[Matthijs Vákár]], CHAD: Combinatory Homomorphic Automatic Differentiation. 2021. [arXiv preprint 2103.15776](https://arxiv.org/abs/2103.15776) [Haskell implementation](https://github.com/VMatthijs/CHAD)
 
+* [[Fernando Lucatelli Nunes]], [[Matthijs Vákár]], CHAD for Expressive Total Languages. 2021. [arXiv preprint 2110.00446] (https://arxiv.org/abs/2110.00446)
+
 A categorical analysis of (interleaved) forward mode AD for calculating higher order derivatives is given by 
 
 * [[Mathieu Huot]], [[Sam Staton]], [[Matthijs Vákár]], Higher Order AD of Higher Order Functions. 2021. [arXiv preprint 2101.06757](https://arxiv.org/abs/2101.06757)
