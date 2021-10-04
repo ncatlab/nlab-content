@@ -213,6 +213,7 @@ and is further developed in the following articles:
 
 * [[John Ellis]], Marcos A. G. Garcia, Natsumi Nagata, [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _Building Models of Inflation in No-Scale Supergravity_ ([arXiv:2009.01709](https://arxiv.org/abs/2009.01709))
 
+* N. E. Martínez-Pérez, C. Ramírez, V. Vázquez-Báez, *FRW supersymmetric model of Starobinsky* ([arXiv:2110.00556](https://arxiv.org/abs/2110.00556))
 
 
 ### Embedding into 11d supergravity
