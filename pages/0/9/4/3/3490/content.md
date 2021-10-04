@@ -106,7 +106,7 @@ This pullback manifestly produces the simplicially enriched category whose
 
 Therefore the inclusion functor $D \to C$ is on each hom-complex a [[full and faithful (∞,1)-functor]]. Hence this identifies $D$ as a 2-subcategory of $C$.
 
-If $h D \to h C$ is an inclusion on objects (which is a bit [[evil]] to say) then this is the definition of subcategory of an $(\infty,1)$-category that appears in [[Higher Topos Theory|HTT, section 1.2.11]].
+If $h D \to h C$ is an inclusion on equivalence classes of objects then this is the definition of subcategory of an $(\infty,1)$-category that appears in [[Higher Topos Theory|HTT, section 1.2.11]].
 
 
 #### As 2-subobjects {#2Subobjects}
