@@ -40,7 +40,7 @@ Taking this definition literally in material [[set theory]], each ordinal is the
 
 These pure sets are the __von Neumann ordinals__.  In the presence of the [[axiom of foundation]], $\in$ is automatically a [[well-founded relation]], so it suffices to require that $\in$ be a [[transitive relation]] on $X^+ = X \cup \{X\}$.
 
-From the perspective of structural [[set theory]], it is [[evil]] to care about distinctions between isomorphic objects, and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
+From the perspective of structural [[set theory]], it breaks the [[principle of equivalence]] to care about distinctions between [[isomorphism|isomorphic]] [[objects]], and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
 
 * An __ordinal__ is a [[well-ordered set]].
 
