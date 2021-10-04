@@ -35,7 +35,7 @@ The essential fiber can be identified with the [[pseudopullback]] of $p$ along t
 
 If $p$ is an [[isofibration]], then any of its essential fibers is equivalent to the corresponding strict fiber.  This includes the case when $p$ is a [[Grothendieck fibration]].
 
-On the other hand, when $p$ is a [[Street fibration]] (the non-evil version of a Grothendieck fibration), then essential fibers do *not* coincide with strict fibers, and essential fibers are the more useful notion.  In particular, the correspondence between fibrations and [[pseudofunctors]] only goes through for Street fibrations if one defines the pseudofunctor using essential fibers.
+On the other hand, when $p$ is a [[Street fibration]] (the version of [[Grothendieck fibration]] which respects the [[principle of equivalence]]), then essential fibers do *not* coincide with strict fibers, and essential fibers are the more useful notion.  In particular, the correspondence between fibrations and [[pseudofunctors]] only goes through for Street fibrations if one defines the pseudofunctor using essential fibers.
 
 [[!redirects essential fibre]]
 [[!redirects essential fibers]]
