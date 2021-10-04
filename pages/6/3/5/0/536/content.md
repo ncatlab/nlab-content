@@ -156,7 +156,7 @@ $$\Pi: (Set/S)^{op} \to C$$
 is essentially surjective. An **operation of arity** $x_1, \ldots, x_n \to y$ in $C$ is a morphism of the form $\Pi(n, x) \to \Phi(y)$ in $C$. If $D$ has small products, a **model** of $C$ in $D$ is a product-preserving functor $M: C \to D$. A **homomorphism of models** is simply a natural transformation between product-preserving functors. 
 =-- 
 
-It is [[evil]], but nevertheless harmless and sometimes convenient, to suppose $\Pi$ is an isomorphism on objects, since we can define $C'$ to have the same objects as $Set/S$ and define hom-sets by $C'(x, y) = C(\Pi(x), \Pi(y)$. Then, the functor $(Set/S)^{op} \to C$ evidently factors as 
+It violates the [[principle of equivalence]], but is nevertheless harmless and sometimes convenient, to suppose $\Pi$ is an isomorphism on objects, since we can define $C'$ to have the same objects as $Set/S$ and define hom-sets by $C'(x, y) = C(\Pi(x), \Pi(y)$. Then, the functor $(Set/S)^{op} \to C$ evidently factors as 
 
 $$(Set/S)^{op} \stackrel{\Pi}{\to} C' \to C$$
 
