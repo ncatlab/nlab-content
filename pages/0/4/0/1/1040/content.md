@@ -352,18 +352,21 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 ## References
  {#References}
 
-General discussion includes
+* [[Harry Applegate]], [[Myles Tierney]], Section 6 in: *Categories with models*, p. 156-244 In: [[Beno Eckmann]] (ed.) *Seminar on Triples and Categorical Homology Theory* Lecture Notes in Mathematics, **80**, Springer  1969  ([doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086))
+
+Textbook accounts:
 
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
- 
-
-* [[Pierre Gabriel]], [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, A.4.3.11, p.194, B1.1.9, p.249
 
+See also:
+ 
+* [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_
+
 The idempotent monad which exhibits the [[localization]] at the $T$-equivalences for a given monad $T$ is discussed in 
 
-* {#ApplegateTierney70} H. Applegate, [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. 137 (1970), 56-99
+* {#ApplegateTierney70} [[Harry Applegate]], [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. **137** (1970) 56-99 ([doi:10.1007/BFb0060440](https://doi.org/10.1007/BFb0060440))
 
 * {#Fakir70} S. Fakir, _Monade idempotente associ&#233;e &#224; une monade_, C. R. Acad. Sci. Paris Ser. A-B 270 (1970), A99-A101. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f103.image))
 
@@ -379,7 +382,7 @@ Extension of idempotent monads along subcategory inclusions is discussed in
 
 * [[Carles Casacuberta]], Armin Frei, Tan Geok Choo, _Extending localization functors_ ,  Journal of Pure and Applied Algebra 103 (1995), 149-165 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cft.pdf))
 
-* A. Deleanu, A. Frei, [[Peter Hilton|P. Hilton]], _Idempotent triples and completion_ , Math. Z. **143** (1975) pp.91-104. ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN266833020_0143&divID=LOG_0014&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN266833020_0143%7C&targetFileName=PPN266833020_0143_LOG_0014.pdf&))
+* A. Deleanu, A. Frei, [[Peter Hilton|P. Hilton]], _Idempotent triples and completion_, Math. Z. **143** (1975) pp.91-104. ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN266833020_0143&divID=LOG_0014&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN266833020_0143%7C&targetFileName=PPN266833020_0143_LOG_0014.pdf&))
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
