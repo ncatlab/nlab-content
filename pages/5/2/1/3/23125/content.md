@@ -1,4 +1,4 @@
-
+> Not to be confused with [[Arthur Harold Stone]], a general topologist.
 
 * [Mathematics Genealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=12504)
 
