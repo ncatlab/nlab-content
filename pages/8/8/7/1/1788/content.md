@@ -1,4 +1,58 @@
 
+
+*  $\{\bullet\}\lra A$ is in $(\emptyset\longrightarrow \{o\})^{rll}$ iff $A$ is connected
+
+* $Y$ is totally disconnected iff $\{\bullet\}\xra y Y$ is in $(\emptyset\longrightarrow \{o\})^{rllr}$ for each map  $\{\bullet\}\xra y Y$ (or, 
+in other words, each point $y\in Y$).
+
+
+
+*   a Hausdorff space $K$ is compact iff $K\longrightarrow \{o\}$ is in  $((\{o\}\longrightarrow \{o{ \searrow}c\})^r_{\le5})^{lr}$
+*   a  Hausdorff space $K$ is compact iff $K\longrightarrow \{o\}$ is in  $$
+     \{\, \{a\leftrightarrow b\}\longrightarrow \{a=b\},\, \{o{ \searrow}c\}\longrightarrow \{o=c\},\,
+     \{c\}\longrightarrow \{o{ \searrow}c\},\,\{a{ \swarrow}o{ \searrow}b\}\longrightarrow \{a=o=b\}\,\,\}^{lr}$$
+
+*   a space $D$ is discrete iff $ \emptyset \longrightarrow  D$ is in $   (\emptyset\longrightarrow \{o\})^{rl}      $
+
+*   a space $D$ is antidiscrete iff $  {D} \longrightarrow  \{o\} $ is in  
+$(\{a,b\}\longrightarrow \{a=b\})^{rr}= (\{a\leftrightarrow b\}\longrightarrow \{a=b\})^{lr} $ 
+
+*   a space $K$ is connected or empty iff $K\longrightarrow \{o\}$ is in  $(\{a,b\}\longrightarrow \{a=b\})^l $
+*   a space $K$ is totally disconnected and non-empty iff $K\longrightarrow \{o\}$ is in  $(\{a,b\}\longrightarrow \{a=b\})^{lr} $
+
+*   a space $K$ is connected and non-empty
+ iff
+ for some arrow $\{o\}\longrightarrow K$
+$\text{ \ \ \ \ \     } \{o\}\longrightarrow K$ is in
+            $   (\emptyset\longrightarrow \{o\})^{rll} = (\{a\}\longrightarrow \{a,b\})^l$
+
+*   a space $K$ is non-empty iff $K\longrightarrow \{o\}$ is in $   (\emptyset\longrightarrow \{o\})^l$
+*   a space $K$ is empty iff $K \longrightarrow \{o\}$ is in $   (\emptyset\longrightarrow \{o\})^{ll}$
+*   a space $K$ is $T_0$ iff $K  \longrightarrow \{o\}$ is in $   (\{a\leftrightarrow b\}\longrightarrow \{a=b\})^r$
+*    a space $K$ is $T_1$ iff $K  \longrightarrow \{o\}$ is in $   (\{a{ \searrow}b\}\longrightarrow \{a=b\})^r$
+*   a space $X$ is Hausdorff iff for each injective map $\{x,y\} \hookrightarrow  X$
+it holds $\{x,y\} \hookrightarrow   {X} \,\rightthreetimes\,  \{  {x} { \searrow}  {o} { \swarrow}  {y} \} \longrightarrow  \{ x=o=y \}$
+
+*   a non-empty space $X$ is regular (T3) iff for each arrow $    \{x\} \longrightarrow  X$ it holds
+    $    \{x\} \longrightarrow   {X} \,\rightthreetimes\,  \{x{ \searrow}X{ \swarrow}U{ \searrow}F\} \longrightarrow  \{x=X=U{ \searrow}F\}$
+*   a space $X$ is normal (T4) iff $\emptyset \longrightarrow  {X} \,\rightthreetimes\,   \{a{ \swarrow}U{ \searrow}x{ \swarrow}V{ \searrow}b\}\longrightarrow \{a{ \swarrow}U=x=V{ \searrow}b\}$
+
+*   a space $X$ is completely normal iff $\emptyset\longrightarrow  {X} \,\rightthreetimes\,  [0,1]\longrightarrow \{0{ \swarrow}x{ \searrow}1\}$
+ where the map $[0,1]\longrightarrow \{0{ \swarrow}x{ \searrow}1\}$ sends $0$ to $0$, $1$ to $1$, and the rest $(0,1)$ to $x$
+
+*  a space $X$ is hereditary normal iff 
+$ \emptyset \to X \rightthreetimes 
+\{ x \la au \leftrightarrow u' \la u \la uv \ra v \ra v'\leftrightarrow bv \ra x \} 
+\longrightarrow
+\{ x \la au \leftrightarrow u' = u \la uv \ra v = v'\leftrightarrow bv \ra x \} $
+
+
+*   a space $X$ is path-connected iff $\{0,1\} \longrightarrow  [0,1] \,\rightthreetimes\,   {X} \longrightarrow  \{o\}$
+*   a space $X$ is path-connected iff for each Hausdorff compact space $K$ and each injective map $\{x,y\} \hookrightarrow  K$ it holds
+   $\{x,y\} \hookrightarrow   {K} \,\rightthreetimes\,   {X} \longrightarrow  \{o\}$
+
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -30,225 +84,177 @@ The dual problem is the [[extension]] of a morphism $f: A\to Y$ along a monomorp
 
 The '''lifting property''' is a property of a pair of [[morphism (category theory)|morphism]]s in a [[category (mathematics)|category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples.
 
-==Formal definition==
-A morphism ''i'' in a category has the ''left lifting property'' with respect to a morphism ''p'', and ''p'' also has the ''right lifting property'' with respect to ''i'', sometimes denoted <math>i\perp p</math> or <math>i\downarrow p</math>, iff the following implication holds for each morphism ''f'' and ''g'' in the category:
+\begin{definition}
+A morphism ''i'' in a category has the ''left lifting property'' with respect to a morphism ''p'', and ''p'' also has the ''right lifting property'' with respect to ''i'', sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, iff the following implication holds for each morphism ''f'' and ''g'' in the category:
 
-* if the outer square of the following diagram commutes, then there exists ''h'' completing the diagram, i.e. for each <math>f:A\to X</math> and <math>g:B\to Y</math> such that <math>p\circ f = g \circ i</math> there exists <math>h:B\to X</math> such that <math>h\circ i = f</math> and <math>p\circ h = g</math>.
-
-
-$$
-  \array{
-    a &\stackrel{u}{\to}& c
-    \\
-    \downarrow^f
-    &{}^{\exists \gamma}\nearrow&
-    \downarrow^g
-    \\
-   b &\stackrel{v}{\to}& d    
-  }
-$$
+* if the outer square of the following diagram commutes, then there exists ''h'' completing the diagram, i.e. for each $f:A\to X$ and $g:B\to Y$ such that $p\circ f = g \circ i$ there exists $h:B\to X$ such that $h\circ i = f$ and $p\circ h = g$.
 
 
-
-
+\begin{tikzcd}
+[
+  column sep={between origins, 160pt},
+  row sep={between origins, 40pt}
+]
+  A
+  \ar[dd, "i"]
+  \ar[rr, "f"]
+  && X\ar[dd,"p"]
+  \\
+  \\
+  B
+  \ar[
+    rr,"g"
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&Y
+\end{tikzcd}
+\end{definition}
 
 This is sometimes also known as the morphism ''i'' being ''weakly orthogonal to'' the morphism ''p''; however, this can also refer to
 the stronger property that whenever ''f'' and ''g'' are as above, the diagonal morphism ''h'' exists and is also required to be unique.
 
 For a class ''C'' of morphisms in a category, its ''left weak orthogonal'' or its ''left Quillen negation''
- <math>C^{\perp \ell}</math> or <math>C^\perp</math> with respect to the lifting property, respectively its ''right weak orthogonal'' and its ''right Quillen negation'' 
-<math>C^{\perp r}</math> or <math>{}^\perp C</math>, is the class of all morphisms which have the left, respectively right, lifting property with respect to each morphism in the class ''C''. In notation,
+ $C^{&solb; \ell}$ with respect to the lifting property, respectively its ''right weak orthogonal'' and its ''right Quillen negation'' 
+$C^{&solb;r}$  is the class of all morphisms which have the left, respectively right, lifting property 
+with respect to each morphism in the class ''C''. In notation,
 
-:<math>\begin{align}
-C^{\perp\ell} &:= \{ i \mid \forall p\in C, i\perp p\} \\
-C^{\perp r} &:= \{ p \mid \forall i\in C, i\perp p\}
-\end{align}</math>
+$$
+C^{&solb; \ell} := \{ i \mid \forall p\in C, i\,\,&solb;\,\, p\} \,\,\,
+C^{&solb; r} := \{ p \mid \forall i\in C, i\,\,&solb;\,\, p\}, \,\,\,
+C^{&solb; lr} := (C^{&solb; r})^{&solb; r}  
+$$ 
 
-Taking the orthogonal of a class ''C'' is a simple way to define a class of morphisms excluding [[Isomorphism#Category_theoretic_view|non-isomorphisms]] from ''C'', in a way which is useful in a [[diagram chasing]] computation.
+Taking the orthogonal of a class ''C'' is a simple way to define a class of morphisms excluding [[isomorphisms]] from ''C'', in a way which is useful in a [[diagram chasing]] computation.
 
-Thus, in the category '''Set''' of [[Set (mathematics)|sets]], the right orthogonal <math>\{\emptyset \to \{*\}\}^{\perp r}</math> of the simplest [[Surjective|non-surjection]] <math>\emptyset\to \{*\},</math> is the class of surjections. The left and right orthogonals of <math>\{x_1,x_2\}\to \{*\},</math> the simplest [[Injective|non-injection]], are both precisely the class of injections, 
+Thus, in the category '''Set''' of [[Set (mathematics)|sets]], the right orthogonal $\{\emptyset \to \{*\}\}^{&solb;  r}$ of the simplest [[surjective|non-surjection]] $\emptyset\to \{*\},$ is the class of surjections. The left and right orthogonals of $\{x_1,x_2\}\to \{*\},$ the simplest [[Injective|non-injection]], are both precisely the class of injections, 
 
-:<math>\{\{x_1,x_2\}\to \{*\}\}^{\perp\ell} = \{\{x_1,x_2\}\to \{*\}\}^{\perp r} = \{ f \mid f \text{ is an injection } \}.</math>
+:$\{\{x_1,x_2\}\to \{*\}\}^{&solb; \ell} = \{\{x_1,x_2\}\to \{*\}\}^{&solb;  r} = \{ f \mid f \text{ is an injection } \}.$
 
-It is clear that <math>C^{\perp\ell r} \supset C</math> and <math>C^{\perp r\ell} \supset C</math>. The class <math>C^{\perp r}</math> is always closed under retracts, [[Pullback (category theory)|pullbacks]], (small) [[Product (category theory)|products]] (whenever they exist in the category) and composition of morphisms, and contains all isomorphisms of C. Meanwhile, <math>C^{\perp \ell}</math> is closed under retracts, [[Pushout (category theory)|pushouts]], (small) [[Coproduct (category theory)|coproducts]] and transfinite composition ([[filtered colimit]]s) of morphisms (whenever they exist in the category), and also contains all isomorphisms.
+It is clear that $C^{&solb;\ell r} \supset C$ and $C^{&solb; r\ell} \supset C$. The class $C^{&solb;  r}$ is always closed under retracts, [[Pullback (category theory)|pullbacks]], (small) [[Product (category theory)|products]] (whenever they exist in the category) and composition of morphisms, and contains all isomorphisms of C. Meanwhile, $C^{&solb;  \ell}$ is closed under retracts, [[Pushout (category theory)|pushouts]], (small) [[Coproduct (category theory)|coproducts]] and transfinite composition ([[filtered colimit]]s) of morphisms (whenever they exist in the category), and also contains all isomorphisms.
 
 ==Examples==
-A number of notions can be defined by passing to the left or right orthogonal several times starting from a list of explicit examples, i.e. as <math>C^{\perp\ell}, C^{\perp r}, C^{\perp\ell r}, C^{\perp\ell\ell}</math>, where <math>C</math> is a class consisting of several explicitly given morphisms. A useful intuition is to think that the property of left-lifting against a class ''C'' is a kind of negation
-of the property of being in ''C'', and that right-lifting is also a kind of negation. Hence the classes obtained from ''C'' by taking orthogonals an odd number of times, such as <math>C^{\perp\ell}, C^{\perp r}, C^{\perp\ell r\ell}, C^{\perp\ell\ell\ell}</math> etc., represent various kinds of negation of ''C'', so <math>C^{\perp\ell}, C^{\perp r}, C^{\perp\ell r\ell}, C^{\perp\ell\ell\ell}</math> each consists of morphisms which are far from having property <math>C</math>.
+A number of notions can be defined by passing to the left or right orthogonal several times starting from a list of explicit examples, i.e. as $C^{&solb; \ell}, C^{&solb;  r}, C^{&solb; \ell r}, C^{&solb; \ell\ell}$, where $C$ is a class consisting of several explicitly given morphisms. A useful intuition is to think that the property of left-lifting against a class ''C'' is a kind of negation
+of the property of being in ''C'', and that right-lifting is also a kind of negation. Hence the classes obtained from ''C'' by taking orthogonals an odd number of times, such as $C^{&solb; \ell}, C^{&solb;  r}, C^{&solb; \ell r\ell}, C^{&solb; \ell\ell\ell}$ etc., represent various kinds of negation of ''C'', so $C^{&solb; \ell}, C^{&solb;  r}, C^{&solb; \ell r\ell}, C^{&solb; \ell\ell\ell}$ each consists of morphisms which are far from having property $C$.
 
-===Examples of lifting properties in algebraic topology===
-A map <math>f:U\to B</math> has the ''path lifting property'' iff <math>\{0\}\to [0,1] \perp f</math> where <math>\{0\} \to [0,1]</math> is the inclusion of one end point of the closed interval into the interval <math>[0,1]</math>.
+## Examples of lifting properties in algebraic topology
+A map $f:U\to B$ has the ''path lifting property'' iff $\{0\}\to [0,1] \,\,&solb;\,\, f$ where $\{0\} \to [0,1]$ is the inclusion of one end point of the closed interval into the interval $[0,1]$.
 
-A map <math>f:U\to B</math> has the [[homotopy lifting property]] iff <math>X \to X\times [0,1] \perp f</math> where <math>X\to X\times [0,1]</math> is the map <math>x \mapsto (x,0)</math>.
+A map $f:U\to B$ has the [[homotopy lifting property]] iff $X \to X\times [0,1] \,\,&solb;\,\, f$ where $X\to X\times [0,1]$ is the map $x \mapsto (x,0)$.
 
-===Examples of lifting properties coming from model categories===
-Fibrations and cofibrations.
+##Examples of lifting properties coming from model categories
 
-* Let '''Top''' be the category of [[topological space]]s, and let <math>C_0</math> be the class of maps <math>S^n\to D^{n+1}</math>, [[embedding]]s of the boundary <math>S^n=\partial D^{n+1}</math> of a ball into the ball <math>D^{n+1}</math>. Let <math>WC_0</math> be the class of maps embedding the upper semi-sphere into the disk. <math>WC_0^{\perp\ell}, WC_0^{\perp\ell r}, C_0^{\perp\ell}, C_0^{\perp\ell r}</math> are the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations.<ref>{{cite book | last = Hovey | first = Mark |title = Model Categories | url = https://archive.org/details/arxiv-math9803002 }} Def. 2.4.3, Th.2.4.9</ref>
+###Fibrations and cofibrations.
 
-* Let '''sSet''' be the category of [[simplicial set]]s. Let <math>C_0</math> be the class of boundary inclusions <math>\partial \Delta[n] \to \Delta[n]</math>, and let <math>WC_0</math> be the class of horn inclusions <math>\Lambda^i[n] \to \Delta[n]</math>. Then the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations are, respectively, <math>WC_0^{\perp\ell}, WC_0^{\perp\ell r}, C_0^{\perp\ell}, C_0^{\perp\ell r}</math>.<ref>{{cite book | last = Hovey | first = Mark |title = Model Categories | url = https://archive.org/details/arxiv-math9803002 }} Def. 3.2.1, Th.3.6.5</ref>
+* Let '''Top''' be the category of [[topological space]]s, and let $C_0$ be the class of maps $S^n\to D^{n+1}$, [[embedding]]s of the boundary $S^n=\partial D^{n+1}$ of a ball into the ball $D^{n+1}$. Let $WC_0$ be the class of maps embedding the upper semi-sphere into the disk. $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$ are the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations.[Hovey, Model Categories, Def. 2.4.3, Th.2.4.9](https://archive.org/details/arxiv-math9803002)
 
-* Let '''Ch'''(''R'') be the category of [[chain complex]]es over a [[commutative ring]] ''R''. Let <math>C_0</math> be the class of maps of form
-:: <math>\cdots\to 0\to R \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots,</math>
-: and <math>WC_0</math> be
-:: <math>\cdots \to 0\to 0 \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots.</math>
-:Then <math>WC_0^{\perp\ell}, WC_0^{\perp\ell r}, C_0^{\perp\ell}, C_0^{\perp\ell r}</math> are the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations.<ref>{{cite book | last = Hovey | first = Mark |title = Model Categories | url = https://archive.org/details/arxiv-math9803002 }} Def. 2.3.3, Th.2.3.11</ref>
+* Let '''sSet''' be the category of [[simplicial set]]s. Let $C_0$ be the class of boundary inclusions $\partial \Delta[n] \to \Delta[n]$, and let $WC_0$ be the class of horn inclusions $\Lambda^i[n] \to \Delta[n]$. Then the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations are, respectively, $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$.
+[Model Categories, Def. 3.2.1, Th.3.6.5](https://archive.org/details/arxiv-math9803002)
 
-===Elementary examples in various categories===
+* Let '''Ch'''(''R'') be the category of [[chain complex]]es over a [[commutative ring]] ''R''. Let $C_0$ be the class of maps of form
+:: $\cdots\to 0\to R \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots,$
+: and $WC_0$ be
+:: $\cdots \to 0\to 0 \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots.$
+:Then $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$ are the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations.
+[Model Categories, Def. 2.3.3, Th.2.3.11](https://archive.org/details/arxiv-math9803002)
+
+# Elementary examples in various categories
+
+## Sets
 In '''Set''', 
 
-* <math>\{\emptyset\to \{*\}\}^{\perp r}</math> is the class of surjections,
+* $\{\emptyset\to \{*\}\}^{&solb;  r}$ is the class of surjections,
 
-* <math>(\{a,b\}\to \{*\})^{\perp r}=(\{a,b\}\to \{*\})^{\perp\ell}</math> is the class of injections.
+* $(\{a,b\}\to \{*\})^{&solb;  r}=(\{a,b\}\to \{*\})^{&solb; \ell}$ is the class of injections.
 
+## Modules
 In the category ''R''-'''Mod''' of [[Module (mathematics)|modules]] over a commutative ring ''R'',
 
-* <math>\{0\to R\}^{\perp r}, \{R\to 0\}^{\perp r}</math> is the class of surjections, resp. injections,
+* $\{0\to R\}^{&solb;  r}, \{R\to 0\}^{&solb;  r}$ is the class of surjections, resp. injections,
 
-* A module ''M'' is [[Projective module|projective]], resp. [[Injective module|injective]], iff <math>0\to M</math> is in <math>\{0\to R\}^{\perp\ell r}</math>, resp. <math>M\to 0</math> is in <math>\{R\to 0\}^{\perp rr}</math>.
+* A module ''M'' is [[Projective module|projective]], resp. [[Injective module|injective]], iff $0\to M$ is in $\{0\to R\}^{&solb; \ell r}$, resp. $M\to 0$ is in $\{R\to 0\}^{&solb;  rr}$.
 
-In the category '''Grp''' of [[Group (mathematics)|groups]], 
+## Groups
+In the category '''Grp''' of [[Group|groups]], 
 
-* <math>\{\Z \to 0\}^{\perp r}</math>, resp. <math>\{0\to \Z\}^{\perp r}</math>, is the class of injections, resp. surjections (where <math>\Z</math> denotes the infinite [[cyclic group]]),
+* $\{\mathbb{Z} \to 0\}^{&solb;  r}$, resp. $\{0\to \mathbb{Z}\}^{&solb;  r}$, is the class of injections, resp. surjections (where $\mathbb{Z}$ denotes the infinite [[cyclic group]]),
 
-* A group ''F'' is a [[free group]] iff <math>0\to F</math> is in <math>\{0\to \Z \}^{\perp r\ell},</math>
+* A group ''F'' is a [[free group]] iff $0\to F$ is in $\{0\to \mathbb{Z} \}^{&solb;  r\ell},$
 
-* A group ''A'' is [[Torsion (algebra)|torsion-free]] iff <math>0\to A</math> is in <math>\{ n \Z\to \Z : n>0 \}^{\perp r},</math>
+* A group ''A'' is [[Torsion (algebra)|torsion-free]] iff $0\to A$ is in $\{ n \mathbb{Z} \to \mathbb{Z} : n\ge0 \}^{&solb;  r},$
 
-* A [[subgroup]] ''A'' of ''B'' is [[Pure subgroup|pure]] iff <math>A \to B</math> is in <math>\{ n\Z\to \Z : n>0 \}^{\perp r}.</math>
+* A [[subgroup]] ''A'' of ''B'' is [[Pure subgroup|pure]] iff $A \to B$ is in $\{ n\mathbb{Z}\to \mathbb{Z} : n\ge0 \}^{&solb;  r}.$
 
 For a [[finite group]] ''G'', 
 
-* <math>\{0\to {\Z}/p{\Z}\} \perp G\to 1</math> iff the [[Order (group theory)|order]] of ''G'' is prime to ''p'',
+* $\{0\to {\mathbb{Z}}/p{\mathbb{Z}}\} \,\,&solb;\,\, G\to 1$ iff the [[Order (group theory)|order]] of ''G'' is prime to ''p'',
 
-* <math>G\to 1 \in (0\to {\Z}/p{\Z})^{\perp rr}</math> iff ''G'' is a [[p-group|''p''-group]],
+* $G\to 1 \in (0\to {\mathbb{Z}}/p{\mathbb{Z}})^{&solb;  rr}$ iff ''G'' is a [[p-group|''p''-group]],
 
-* ''H'' is nilpotent iff the diagonal map <math>H\to H\times H</math> is in <math>(1\to *)^{\perp\ell r}</math> where <math>(1\to *)</math> denotes the class of maps <math>\{ 1\to G : G \text{ arbitrary}\},</math>
+* ''H'' is nilpotent iff the diagonal map $H\to H\times H$ is in $(1\to *)^{&solb; \ell r}$ where $(1\to *)$ denotes the class of maps $\{ 1\to G : G \text{ arbitrary}\},$
 
-* a finite group ''H'' is [[Soluble group|soluble]] iff <math>1\to H</math> is in <math>\{0\to A : A\text{ abelian}\}^{\perp\ell r}=\{[G,G]\to G : G\text{ arbitrary } \}^{\perp\ell r}.</math>
+* a finite group ''H'' is [[Soluble group|soluble]] iff $1\to H$ is in $\{0\to A : A\text{ abelian}\}^{&solb; \ell r}=\{[G,G]\to G : G\text{ arbitrary } \}^{&solb; \ell r}.$
 
-In the category '''Top''' of topological spaces, let <math>\{0,1\}</math>, resp. <math>\{0\leftrightarrow 1\}</math> denote the [[Discrete space|discrete]], resp. [[Trivial topology|antidiscrete]] space with two points 0 and 1. Let <math>\{0\to 1\}</math> denote the [[Sierpinski space]] of two points where the point 0 is open and the point 1 is closed, and let <math>\{0\}\to \{0\to 1\}, \{1\} \to \{0\to 1\}</math> etc. denote the obvious embeddings.
 
-* a space ''X'' satisfies the separation axiom [[Kolmogorov space|T<sub>0</sub>]] iff <math>X\to \{*\}</math> is in <math>(\{0\leftrightarrow 1\} \to \{*\})^{\perp r},</math>
+## [[Uniform spaces]] 
 
-* a space ''X'' satisfies the separation axiom [[T1 space|T<sub>1</sub>]] iff <math>\emptyset\to X</math> is in <math>( \{0\to 1\}\to \{*\})^{\perp r},</math>
+In the category of [[uniform  space]]s or [[metric space]]s with [[uniformly continuous]] maps.
 
-* <math>(\{1\}\to \{0\to 1\})^{\perp\ell}</math> is the class of maps with [[Dense set|dense]] [[Image (mathematics)|image]], 
+* A space ''X'' is [[Complete metric space|complete]] iff $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}} \,\,&solb;\,\, X\to \{0\}$ where $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}}$ is the obvious inclusion between the two subspaces of the real line with induced metric, and $\{0\}$ is the metric space consisting of a single point,
 
-* <math>(\{0\to 1\}\to \{*\})^{\perp\ell}</math> is the class of maps <math>f:X\to Y</math> such that the [[Topological_space#Definitions|topology]] on ''A'' is the pullback of topology on ''B'', i.e. the topology on ''A'' is the topology with least number of open sets such that the map is [[Continuous_function#Continuous_functions_between_topological_spaces|continuous]],
-
-* <math>(\emptyset\to \{*\})^{\perp r}</math> is the class of surjective maps, 
-
-* <math>(\emptyset\to \{*\})^{\perp r\ell}</math> is the class of maps of form <math>A\to A\cup D</math> where ''D'' is discrete,
-
-* <math>(\emptyset\to \{*\})^{\perp r\ell\ell} = (\{a\}\to \{a,b\})^{\perp\ell}</math> is the class of maps <math>A\to B</math> such that each [[Connected component (topology)|connected component]] of ''B'' intersects <math>\operatorname{Im} A</math>,
-
-* <math>(\{0,1\}\to \{*\})^{\perp r}</math> is the class of injective maps,
-
-* <math>(\{0,1\}\to \{*\})^{\perp\ell}</math> is the class of maps <math>f:X\to Y</math> such that the [[preimage]] of a [[Connected space|connected]] closed open subset of ''Y'' is a connected closed open [[subset]] of ''X'', e.g. ''X'' is connected iff <math>X\to \{*\}</math> is in <math>(\{0,1\} \to \{*\})^{\perp\ell}</math>,
-
-* for a connected space X, each continuous function on ''X'' is bounded iff <math>\emptyset\to X \perp \cup_n (-n,n) \to \R</math> where <math>\cup_n (-n,n) \to \R</math> is the map from the [[disjoint union]] of open intervals <math>(-n,n)</math> into the [[real line]] <math>\mathbb{R},</math>
-
-* a space ''X'' is [[Hausdorff space|Hausdorff]] iff for any injective map <math>\{a,b\}\hookrightarrow X</math>, it holds <math>\{a,b\}\hookrightarrow X \perp \{a\to x \leftarrow b \}\to\{*\}</math> where <math>\{a\leftarrow x\to b \}</math> denotes the three-point space with two open points ''a'' and ''b'', and a closed point ''x'',
-
-* a space ''X'' is [[normal space|perfectly normal]] iff <math>\emptyset\to X \perp [0,1] \to \{0\leftarrow x\to 1\}</math> where the open interval <math>(0,1)</math> goes to&nbsp;''x'', and <math>0</math> maps to the point <math>0</math>, and <math>1</math> maps to the point <math>1</math>, and <math>\{0\leftarrow x\to 1\}</math> denotes the three-point space with two closed points <math>0, 1</math> and one open point ''x''.
-
-In the category of [[metric space]]s with [[uniformly continuous]] maps.
-
-* A space ''X'' is [[Complete metric space|complete]] iff <math>\{1/n\}_{n \in \N} \to \{0\}\cup \{1/n\}_{n \in \N} \perp X\to \{0\}</math> where <math>\{1/n\}_{n \in \N} \to \{0\}\cup \{1/n\}_{n \in \N}</math> is the obvious inclusion between the two subspaces of the real line with induced metric, and <math>\{0\}</math> is the metric space consisting of a single point,
-
-* A subspace <math>i:A\to X</math> is closed iff <math>\{1/n\}_{n \in \N} \to \{0\}\cup \{1/n\}_{n \in \N} \perp A\to X.</math>
-
-==Notes==
-{{Reflist}}
-
-==References==
-* {{cite book | last = Hovey | first = Mark |title = Model Categories | url = https://archive.org/details/arxiv-math9803002 |date=1999}}
+* A subspace $i:A\to X$ is closed iff $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}} \,\,&solb;\,\, A\to X.$
 
 
 
+# Topological spaces 
+
+Many elementary properties in general topology, such as compactness, being dense or open, 
+can be expressed as iterated Quillen negation of morphisms of finite topological spaces
+in the category '''Top''' of topological spaces. This leads to a concise, if useless, notation 
+for a number of properties. This items uses notation for morphisms of finite topological spaces 
+defined in the page on [[separation axioms in terms of lifting properties]].
+
+## Examples of interated Quillen negations defining natural properties
+
+*         $(\emptyset\longrightarrow \{o\})^r$   is the class of surjections
+*         $(\emptyset\longrightarrow \{o\})^r$   is the class of maps $A\lra B$ where $A\mathbb{N}eq \emptyset$ or $A=B$
+*         $(\emptyset\longrightarrow \{o\})^{rr}$ is the class of subsets, i.e. injective maps $A\hookrightarrow B$ where the topology on $A$ is induced from $B$
+
+*  $(\emptyset\longrightarrow \{o\})^{lr}$ is the class of maps $\emptyset\longrightarrow B$, $B$ arbitrary
+*         $(\emptyset\longrightarrow \{o\})^{lrr}$ is the class of maps $A\longrightarrow B$ which admit a section 
+
+
+*   $(\emptyset\longrightarrow \{o\})^l$ consists of maps $f:A\longrightarrow B$ such that either  $A\mathbb{N}eq \emptyset$ or  $A=B=\emptyset$  
 
 
 
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,oooooooooooooo
+*  $(\emptyset\longrightarrow \{o\})^{rl}$ is the class of maps of form $A\longrightarrow A\sqcup D$ where $D$ is discrete
+
+*  $\{ \{z\llrra x\llrra y\ra c\}\lra\{z=x\llrra y=c\} \}^\lrl  = \{\{c\}\lra \{o\ra c\}\}^\lr$ is the class of closed inclusions $A\subset B$ where $A$ is closed
+
+*  $\{ \{z\llrra x\llrra y\la c\}\lra\{z=x\llrra y=c\} \}^\lrl$ is the class of open inclusions
+$A\subset B$ where $A$ is open
+
+*  $\{ \{x\llrra y\ra c\}\lra\{x\llrra y=c\} \}^\lrl $ is the class of closed maps $A\lra B$ 
+where the topology on $A$ is pulled back from $B$
+*  $\{ \{x\llrra y\la c\}\lra\{x\llrra y=c\} \}^\lrl$ is the class of open maps $A\lra B$ 
+where the topology on $A$ is pulled back from $B$
 
 
+*         $(\{b\}\longrightarrow \{a{\small\searrow}b\})^l$ is the class of maps with dense image
+*         $(\{b\}\longrightarrow \{a{\small\searrow}b\})^{lr}$ is the class of closed subsets $A \subset  X$, $A$ a closed subset of $X$
+*         $(\{a\}\longrightarrow \{a{\small\searrow}b\})^{lr}$ is the class of subsets $A \subset  X$ such that $A$ is the intersection of open subsets containing $A$
+%+       $(\emptyset\longrightarrow \{o\})^l$ is the class of maps $A\longrightarrow B$ such that $A=B=\emptyset$ or $A\mathbb{N}eq\emptyset$, $B$ arbitrary
+	%+       $(\emptyset\longrightarrow \{o\})^l$ is the class of maps $A\longrightarrow B$ such that $A=B=\emptyset$ or $A\mathbb{N}eq\emptyset$, $B$ arbitrary
+
+*  $( \{a{\small\searrow}b\}\lra\{a=b\})^l$ is the class of injections
+%*  $( \{a{\small\searrow}b\}\lra\{a=b\}$)^{ll}$
+
+*         $((\{a\}\longrightarrow \{a{\small\searrow}b\})^r_{\le5})^{lr}$ is roughly the class of proper maps
 
 
-Let $K$ be a [[category]] and write $arr(K)$ for the [[arrow category]] of $K$: the category with arrows (= [[morphisms]]) $a \stackrel{f}{\to} b$ of $K$ as objects and commutative squares $g u=v f$ 
-
-$$
-  \array{
-    a &\stackrel{u}{\to}& c
-    \\
-    \downarrow^{\mathrlap{f}}
-    &&
-    \downarrow^{\mathrlap{g}}
-    \\
-   b &\stackrel{v}{\to}& d    
-  }
-$$
-
-as morphisms $(u,v) : f \rightarrow g$. We may also refer to a commutative square $g u=v f$ as a **lifting problem** between $f$ and $g$.
-
-We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$ or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$ as above,  there is an arrow $\gamma$ 
-
-$$
-  \array{
-    a &\stackrel{u}{\to}& c
-    \\
-    \downarrow^f
-    &{}^{\exists \gamma}\nearrow&
-    \downarrow^g
-    \\
-   b &\stackrel{v}{\to}& d    
-  }
-$$
-
-
-from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **lift** or a **solution** to the lifting problem $(u,v)$.
-
-(If this lift is unique, we say that $f$ is **[[orthogonal]]** $f \perp g$ to $g$.)
-
-## Examples
-
-* [[weak factorization system]], [[model category]]
-
-* [covering space lifting properties](covering+space#LiftingProperties)
-
-* [[separation axioms in terms of lifting properties]]
-
-* [Tychonoff theorem -- Proof via lifting properties](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties)
-
-
-## Related concepts
-
-* [[factorization system]]
-
-* [[homotopy lifting property]]
-
-* [[Kan lift]]
-
-* [[Joyal-Tierney calculus]]
-
-* [[lifts and extensions]]
-
-
-[[!redirects lifts]]
-
-[[!redirects lifting]]
-[[!redirects liftings]]
-
-[[!redirects lifting property]]
-[[!redirects lifting properties]]
-
-[[!redirects right lifting property]]
-[[!redirects left lifting property]]
-[[!redirects right lifting properties]]
-[[!redirects left lifting properties]]
-
-
-[[!redirects lifting problem]]
-[[!redirects lifting problems]]
 
 
