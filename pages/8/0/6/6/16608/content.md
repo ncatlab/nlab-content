@@ -29,7 +29,7 @@ Some other examples are related to [[Witt-Burnside functors]], Witt rings in the
 
 * [[Neil Strickland]], _Tambara Functors_, [arXiv:1205.2516](http://arxiv.org/abs/1205.2516)
 * [[Morten Brun]], _Witt vectors and Tambara functors_, [arXiv:math/0304495](http://arxiv.org/abs/math/0304495)
-* {#Tam93} Daisuke Tambara, _On multiplicative transfer_, Comm. Algebra 21 (1993), no. 4, 1393&#8211;1420 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/tambara.pdf)).
+* {#Tam93} [[Daisuke Tambara]], _On multiplicative transfer_, Comm. Algebra 21 (1993), no. 4, 1393&#8211;1420 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/tambara.pdf)).
 * {#AB15} [[Vigleik Angeltveit]] and [[Anna Marie Bohmann]], _Graded Tambara Functors_, ([arXiv:1504.00668](http://arxiv.org/abs/1504.00668))
 [[!redirects Tambara functors]]
 * {#Ull13} [[John Ullman]], _Tambara Functors and Commutative Ring Spectra_, ([arXiv:1304.4912](http://arxiv.org/abs/1304.4912))
