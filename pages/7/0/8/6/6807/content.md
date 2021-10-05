@@ -255,6 +255,8 @@ Relation to [[lattice gauge theory]] and numerical tests of [[AdS/CFT]]:
 
 * {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
 
+* Georg Bergner, Norbert Bodendorfer, Masanori Hanada, Stratos Pateloudis, Enrico Rinaldi, Andreas Schäfer, Pavlos Vranas, Hiromasa Watanabe, *Confinement/deconfinement transition in the D0-brane matrix model -- A signature of M-theory?* ([arXiv:2110.01312](https://arxiv.org/abs/2110.01312))
+
 ### Holography
 
 On [[AdS/CFT]] in the form of [[AdS2/CFT1]] with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
