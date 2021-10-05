@@ -48,14 +48,24 @@ The structure of the [[strong shape theory]] of compact spaces is related to cer
 
 As shape theory is a [[Čech methods|Čech homotopy theory]], its corresponding homology is Čech homology, but what is the corresponding construction for strong shape? The answer is Steenrod--Sitnikov homology. This is discussed in Marde&#353;i&#263;'s book, _Strong Shape and Homology_, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.  This seems to be emerging with interpretations of work by Toen and Vezzosi, and by Lurie, and perhaps suggests a review of Batanin's work from that new viewpoint.
 
-##Borsuk's shape theory (K. Borsuk, (1968))##
+## Borsuk's shape theory 
+
 This was the original form and applies to compact metric spaces.  It uses the fact that any compact metric space can be embedded in the [[Hilbert Cube]]. For any such embedded compact metric spaces, $X$ and $Y$, one considers **shape maps** from the collection of open neighbourhoods of $X$ to those of $Y$.  These shape maps are families of continuous maps satisfying a compatibility relationship ' up to homotopy'.  These compose nicely and form the Borsuk shape category.  Two spaces have the same shape if they are isomorphic in this category. Full details of the definition of such shape morphisms are given in the separate entry, [[Borsuk shape theory]]. 
 
 A remarkable and beautiful theorem of Chapman (the Chapman complement theorem) shows that the shape of two compact metric spaces, $X$ and $Y$ embedded in the [[Hilbert cube|pseudo-interior]] of the Hilbert cube, $Q$, have the same shape if and only if their complements $Q\setminus X$ and $Q\setminus Y$ are homeomorphic.
 
-##ANR-systems approach (Marde&#353;i&#263; and Segal (1970))##
 
-Absolute neighborhood retract (ANR)
+## Strong shape via $\infty$-topos theory
+ {#StrongShapeViaInfinityToposTheory}
+
+To any topological space $X$ is associated the 
+its [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-sheaves]] (with respect its [[site]] of [[open subsets]]), which is an [[(infinity,1)-topos|$\infty$-topos]]. Many properties of "[[spaces]]" are shared or may be modeled by [[(infinity,1)-topos|$\infty$-toposes]], in particular there is a general and canonical notion of [[shape of an (infinity,1)-topos|shape of an $\infty$-topos]] (see there fore more).
+
+At least when $X$ is a [[compact Hausdorff space]], then its strong shape in the classical sense of [Mardešić & Segal 1971](#MardesicSegal71) does agree with the [[shape of an (infinity,1)-topos|$\infty$-topos theoretic shape]] of its [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-sheaves]].
+
+This fact must have motivated the terminology in [Toën-Vezzosi 2002](shape+of+an+infinity1-topos#ToenVezzosi02) and in [Lurie 2009, Sec. 7.1.6](#Lurie09); it is made explicit in [Hoyois 2013, Rem. 2.13](#Hoyois13).
+
+
 
 ## Abstract shape category
 
@@ -106,97 +116,13 @@ This aspect is explored reasonably fully in the book by Cordier and Porter (see 
 A different terminology and slightly different emphasis is often used within the shape theoretic literature as it corresponds more to the geometric intuition needed there, deriving originally from the important classical motivation of Borsuk, [[Sibe Mardesic|Mardešić]], and [[J. Segal|Segal]].
 
 
-## Shape theory for topological spaces {#ForTopSpaces}
 
-### Definition
-
-...
+  
 
 
-### Strong shape via $\infty$-topos theory
- {#StrongShapeViaInfinityToposTheory}
+## Applications of Shape Theory
 
-There is a way to study the [[strong shape theory]] of a [[topological space]] $X$ in terms of [[∞-stack]]s on $X$, i.e. in terms of the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ on the [[category of open subsets]] of $X$. This is described in
-
-* [[Bertrand Toen]] and [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ in Proceedings of the
-Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv.org/abs/math/0212330)) 
-
-and in section 7.1.6 of
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
-
-For more details see [[shape of an (infinity,1)-topos]].
-
-This theory fits into the general picture above of a subcategory $D\subset C$, where now $C$ is the $(\infty,1)$-category of $(\infty,1)$-toposes, while $D$ is the category of $\infty$-groupoids, regarded as their presheaf $(\infty,1)$-toposes.  Thus, the "shape" of an $(\infty,1)$-topos $X$ is the functor $Hom(X,-)\colon \infty Gpd \to \infty Gpd$.
-
-Alternately, since a [[geometric morphism]] from an $(\infty,1)$-topos $X$ into presheaves on an $\infty$-groupoid $K$ is the same as a [[global section]] of the [[constant ∞-stack]] $L Const(K)$ over $X$, we can also describe this functor as the composite
-$$
-  \infty Grpd \xrightarrow{LConst}
-  Sh_{(\infty,1)}(X)
-  \xrightarrow{\Gamma}
-  \infty Grpd
-  \,.
-$$
-Thus, we can equivalently describe the shape of $X$ by mapping out of it into topological spaces _over_ $X$ that are at least fiberwise nice topological spaces: in other words, to look at $\infty$-[[covering space]]s over $X$.
-
-Now, for a [[small category|small]] [[(∞,1)-category]] $C$, a functor $C \to \infty Grpd$ that preserves finite limits may be thought of as a [[pro-object]] in $C$.  Now $\infty Gpd$ is not small, but one may hope that the functors $Shape(X)\colon \infty Gpd \to \infty Gpd$ arising in this way are determined by a small amount of data, and thus give honest pro-$\infty$-groupoids.
-
-We can, if we wish, define for the nonce
-$$
-  Pro(\infty Grpd) \subset Func(\infty Grpd, \infty Grpd)^{op}
-$$
-to be the fully subcategory of [[(∞,1)-functor]]s that preserve finite limits, although as discussed above this is not quite correct.  We call the objects in $Pro(\infty Grpd)$ **pro-spaces** or **shapes**.  Notice that by the [[homotopy hypothesis]]-theorem, we can think here of $\infty Grpd \simeq Top_{cg,wH}$ as the category of [[nice topological space]]s, considered up to [[homotopy equivalence]].
-
-The first description of shapes makes it obviously functorial in [[geometric morphisms]] of $(\infty,1)$-toposes.  This can be seen from the second definition as well: given $(f^* \dashv f_*) \colon \mathbf{H} \to \mathbf{K}$, the [[unit of an adjunction|unit]] $Id_{\mathbf{K}} \to f_* \circ f^*$ induces a transformation
-
-$$
-  \Gamma_{\mathbf{K}}\circ LConst_{\mathbf{K}}
-
-  \to 
-  \Gamma_{\mathbf{K}}
-   \circ 
-    f_*
-    \circ   
-    f^* 
-   \circ  LConst_{\mathbf{K}}
-  \simeq
-  \Gamma_{\mathbf{H}}\circ LConst_{\mathbf{H}}
-$$
-
-that may be regarded as a morphism of shapes
-
-$$
-  Shape(f) : Shape(\mathbf{K}) \to Shape(\mathbf{H})
-  \,.
-$$
-
-We say the geometric morphism $f$ is a **shape invariance** if $Shape(f)$ is an equivalence of pro-spaces.
-
-+-- {: .un_prop }
-###### Proposition
-
-For $f : X \to Y$ a continuous map of [[paracompact space]]s, the induced geometric morphism $(f^* \dashv f*) : Sh_{(\infty,1)}(X) \to Sh_{(\infty,1)}(Y)$ is a shape equivalence, precisely if for each [[CW-complex]] $K$ the map 
-
-$$
-  Top(Y,K) \to Top(X,K)
-$$
-
-is an equivalence.
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is [[Higher Topos Theory|HTT, prop. 7.1.6.8]].
-
-=--
-
-
-##Applications of Shape Theory
-
-###Geometric Topology
+### Geometric Topology
 
 ### Dynamical Systems
 
@@ -219,7 +145,7 @@ In a [[dynamical system]], the [[attractor]]s are rarely polyhedra and their hom
 
 ## References
 
-The original references for the shape theory of metric compacta are:
+The original references:
 
 * [[Karol Borsuk]], _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
 
@@ -227,27 +153,30 @@ The original references for the shape theory of metric compacta are:
 
 * [[Karol Borsuk]], [[Jerzy Dydak]], _What is the theory of shape?_, Bulletin of the Australian Mathematical Society, 1980, 22(2), 161-198, ([doi:10.1017/S000497270000647X](https://doi.org/10.1017/S000497270000647X))
 
+* {#MardesicSegal71} [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59 ([dml:214361](https://eudml.org/doc/214361), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm72/fm7214.pdf))
+
+* [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shape theory. The inverse system approach_, North-Holland Mathematical Library, 26. North-Holland, Amsterdam - New York, 1982.
+
 Textbook accounts:
 
 * {#DydakSegal78} [[Jerzy Dydak]], [[Jack Segal]], _Shape Theory_, Lecture Notes in Mathematics, Springer 1978 ([doi:10.1007/BFb0067572](https://link.springer.com/book/10.1007/BFb0067572))
 
-Relation of shape to ordinary [[homotopy type]]:
+Relation of this classical shape theory to ordinary [[homotopy type]] and to the notion of [[shape of an (infinity,1)-topos|shape of an$\infty$-topos]]:
 
-* [[Jacob Lurie]], Section 7.1.6 in: _[[Higher Topos Theory]]_
+* {#Lurie09} [[Jacob Lurie]], Section 7.1.6 in: _[[Higher Topos Theory]]_
+
+* {#Hoyois13} [[Marc Hoyois]], Def. 2.3 in: _Higher Galois theory_, Algebraic & Geometric Topology __17__ 1 (2017) 567-643 ([arxiv/1506.07155](https://arxiv.org/abs/1506.07155), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
+
+See also:
 
 * {#Wang17} Jintao Wang, Theorem 4.6 of: _Theory of Compact Hausdorff Shape_ ([arXiv:1708.07346](https://arxiv.org/abs/1708.07346))
+
+\linebreak
 
 A general [[category theory|category theoretic]]-approach is given in
 
 * W. Holszty&#324;ski, _An extension and axiomatic characterization of Borsuk's theory of shape_, Fund. Math. 70 (1971) no. 2, 157&#8211;168 [pdf](https://www.impan.pl/shop/en/publication/transaction/download/product/79189)
 
-The 'ANR-systems' approach of Marde&#353;i&#263; and Segal appeared a bit later in
-
-* [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
-
-and is fully developed in 
-
-* [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shape theory. The inverse system approach_, North-Holland Mathematical Library, 26. North-Holland, Amsterdam - New York, 1982.
 
 The more or less equivalent pro-object approach was independently developed by Porter in 
 
