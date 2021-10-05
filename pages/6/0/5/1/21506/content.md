@@ -43,7 +43,7 @@ The relation to [[Delta-generated topological spaces]] is due to
 
 Discussion of the D-topology for [[mapping spaces]]:
 
-* {#CSW13} [[J. Daniel Christensen]], Gord Sinnamon, [[Enxin Wu]], _The $D$-topology for diffeological spaces_, Pacific Journal of Mathematics 272 (1), 87-110, 2014 ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935), [doi:10.2140/pjm.2014.272.87](https://msp.org/pjm/2014/272-1/p04.xhtml))
+* {#CSW13} [[J. Daniel Christensen]], [[Gord Sinnamon]], [[Enxin Wu]], _The $D$-topology for diffeological spaces_, Pacific Journal of Mathematics 272 (1), 87-110, 2014 ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935), [doi:10.2140/pjm.2014.272.87](https://msp.org/pjm/2014/272-1/p04.xhtml))
 
 [[!redirects D-topologies]]
 
