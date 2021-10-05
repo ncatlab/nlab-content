@@ -700,6 +700,7 @@ To express the assumption that $F$ or $G$ is closed, we may modify the topology 
 
 
 ### Topologically disjoint
+ {#TopologicallyDisjoint}
 
 We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is [[disjoint subset|disjoint]] from the other set:
 
@@ -715,7 +716,7 @@ We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is __topologi
            U \underset{\mathclap{nbhd}}{\supseteq} F
          }
          {\exists}
-       ,\;
+         \;\;
        U \cap G = \varnothing
      \Big)
      \;\;or\;\;
@@ -725,7 +726,7 @@ We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is __topologi
            V \underset{\mathclap{nbhd}}{\supseteq} G
          }
          {\exists}
-       ,\;
+       \;\;
        F \cap V = \varnothing
      \Big)
      \,.
@@ -847,6 +848,7 @@ $ of point $e_G$, respectively.
 
 
 ### Topologically separated
+ {#TopologicallySeparated}
 
 
 We say that a disjoint pair of subsets (eq:APairOfDisjointSubsets) is
@@ -1443,27 +1445,87 @@ $$
 \end{tikzcd}
 
 
-With this notation, we have the following dictionary between [[lifting properties]] and [[separation axioms]]:
+With this notation, we have the following dictionary between [[lifting properties]] and [[separation axioms]].
 
-*  $ {X}$  is [[T0-space|$T_0$]], (or [[Kolmogorov topological space|Kolmogorov]]), if any two distinct points in ${X}$ are topologically
-distinguishable. (It will be a common theme among the separation axioms to have
-one version of an axiom that requires T0 and one version that doesn't.)
-As a formula, this is expressed as
-   $$
-     \{x\leftrightarrow y\} \longrightarrow  \{x=y\}
-     \;\;\,&solb;\,\;\;
-     {X} \longrightarrow  \{*\}
-   $$
 
-*  ${X}$ is R0, or symmetric, if any two topologically distinguishable points in $X$
-are separated, i.e.
-   $$
-     \{x{\searrow}y\} \longrightarrow  \{x\leftrightarrow y\}
-     \;\;\;\,&solb;\,\;\;\;
-     {X} \longrightarrow  \{*\}
-   $$
+### Kolmogorov spaces ($T_0$)
+ {#KolmogorovSpaces}
 
-*  $X$ is T1, or accessible or Frechet, if any two distinct points in $X$ are separated, i.e.
+A topological space ${X}$  is [[T0-space|$T_0$]] (or [[Kolmogorov topological space|Kolmogorov]]) if any two distinct points in ${X}$ are [topologically disjoint](#TopologicallyDisjoint).
+
+(It will be a common theme among the following separation axioms to have
+one version of an axiom that requires $T_0$ and one version that doesn't.)
+
+This condition is equivalent to the [[lifting property]]
+
+$$
+  \big(
+    \{x\leftrightarrow y\} \longrightarrow  \{x=y\}
+  \big)
+  \;\;\,&solb;\,\;\;
+  \big(
+    {X} \longrightarrow  \{*\}
+  \big)
+$$
+
+hence:
+
+\begin{tikzcd}
+[
+  column sep={between origins, 40pt},
+  row sep={between origins, 40pt}
+]
+  \mathrm{CoDsc}
+  \big(
+    \boxed{\{0\leftrightarrow 1\}}
+  \big)
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  X
+  \ar[dd]
+  \\
+  \\
+  \ast
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
+
+
+### Symmetric spaces ($R_0$)
+ {#SymmetricSpaces}
+
+A topological space ${X}$ is an [[R0-space|$R_0$-space]] (also: *symmetric space*), if any two [topologically distinguishable](#TopologicallyDisjoint) points in $X$ are [topologically separated](#TopologicallySeparated).
+
+This condition is equivalent to the following [[lifting property]]:
+
+$$
+  \big(
+    \{x{\searrow}y\} \longrightarrow  \{x\leftrightarrow y\}
+  \big)
+  \;\;\;\,&solb;\,\;\;\;
+  \big(
+    {X} \longrightarrow  \{*\}
+  \big)
+  \,.
+$$
+
+
+### Accessible spaces ($T_1$)
+
+$X$ is [[T1-space|$T_1$]] (or *accessible* or *Fréchet*) if any two distinct points in $X$ are separated, i.e.
+
    $$
      \{x{\searrow}y\} \longrightarrow  \{x=y\}
      \;\;\;\,&solb;\,\;\;\;
@@ -1476,11 +1538,22 @@ topological space $X$ is Frechet", avoid saying "Frechet space" in this
 context, since there is another entirely different notion of Frechet space in
 functional analysis.)
 
-*  $X$ is R1, or preregular, if any two topologically distinguishable points in X are separated by neighbourhoods. Every R1 space is also R0.
 
-*  $X$ is [[weakly Hausdorff topological space|weakly Hausdorff]], if the image of every continuous map from a [[compact Hausdorff space]] into $X$ is closed. All weak Hausdorff spaces are T1, and all Hausdorff spaces are weak Hausdorff.
+### Reregular spaces ($R_1$)
 
-*  $X$ is [[Hausdorff space|Hausdorff]], or T2 or separated, if any two distinct points in $X$ are separated by neighbourhoods, i.e.
+$X$ is R1, or preregular, if any two topologically distinguishable points in X are separated by neighbourhoods. Every R1 space is also R0.
+
+
+
+### Weakly Hausdorff spaces
+
+
+$X$ is [[weakly Hausdorff topological space|weakly Hausdorff]], if the image of every continuous map from a [[compact Hausdorff space]] into $X$ is closed. All weak Hausdorff spaces are T1, and all Hausdorff spaces are weak Hausdorff.
+
+
+### Hausdorff spaces ($T_2$)
+
+$X$ is [[Hausdorff space|Hausdorff]], or T2 or separated, if any two distinct points in $X$ are separated by neighbourhoods, i.e.
 
    $$
      \{x,y\} \hookrightarrow  {X}
@@ -1491,7 +1564,11 @@ functional analysis.)
 
    Thus, $X$ is Hausdorff if and only if it is both T0 and R1. Every Hausdorff space is also T1.
 
-*  $X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separated by closed neighbourhoods. As a lifting property this is
+
+
+### Urysohn spaces ($T_{2 \tfrac{1}{2}}$)
+
+$X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separated by closed neighbourhoods. As a lifting property this is
    $$
     \{x,y\} \hookrightarrow  {X}
     \;\;\;\,&solb;\,\;\;\;
@@ -1508,7 +1585,11 @@ and $\big\{\underset{V}{}{\swarrow}\overset{\boxed{y}}{}\big\}$.
 
    Every $T2\frac{1}{2}$ space is also Hausdorff.
 
-*  $X$ is completely Hausdorff, or completely T2, if any two distinct points in X are separated by a continuous function, i.e.
+
+
+### Completely Hausdorff spaces
+
+$X$ is completely Hausdorff, or completely T2, if any two distinct points in X are separated by a continuous function, i.e.
 
    $$
      \{x,y\} \hookrightarrow  {X}
@@ -1520,7 +1601,11 @@ and $\big\{\underset{V}{}{\swarrow}\overset{\boxed{y}}{}\big\}$.
 
    Every completely Hausdorff space is also $ T2\frac{1}{2} $.
 
-*  $X$ is [[regular topological space|regular]] if, given any point ${x}$ and closed subset $F$ in $X$ such that ${x}$ does not belong to $F$, they are separated by neighbourhoods, i.e.
+
+
+### Regular spaces
+
+$X$ is [[regular topological space|regular]] if, given any point ${x}$ and closed subset $F$ in $X$ such that ${x}$ does not belong to $F$, they are separated by neighbourhoods, i.e.
    $$
       \{x\} \longrightarrow  {X}
       \;\;\;\,&solb;\,\;\;\;
@@ -1545,10 +1630,17 @@ $\{\boxed{x}\}$ and $\{\overset{\boxed{U}}{}\searrow\underset{F}{}\}$.
    (In fact, in a regular space, any such ${x}$ and ${F}$ will also be separated by closed neighbourhoods.) Every
 regular space is also R1.
 
-*  $X$ is regular Hausdorff, or T3, if it is both T0 and regular.[1] Every
+
+### Regular Hausdorff space ($T_3$)
+
+$X$ is a [[regular Hausdorff space]], or T3, if it is both T0 and regular.[1] Every
 regular Hausdorff space is also $T2\frac{1}{2}$.
 
-*  $X$ is completely regular if, given any point ${x}$ and closed set $F$ in $X$ such that ${x}$ does not belong to $F$, they are separated by a continuous function, i.e.
+
+
+### Completely regular spaces
+
+$X$ is completely regular if, given any point ${x}$ and closed set $F$ in $X$ such that ${x}$ does not belong to $F$, they are separated by a continuous function, i.e.
 
    $$
      \{x\} \longrightarrow  {X}
@@ -1561,9 +1653,18 @@ the points $F$ and $1$ are topologically indistinguishable, $[0,1]$ goes to $x$,
 
    Every completely regular space is also regular.
 
-*  $X$ is [[Tychonoff space|Tychonoff]], or T3$\frac{1}{2}$, completely T3, or completely regular Hausdorff, if it is both T0 and completely regular.[2] Every Tychonoff space is both regular Hausdorff and completely Hausdorff.
 
-*  $X$ is [[normal topological space|normal]] if any two disjoint closed subsets of $X$ are separated by neighbourhoods, i.e.
+
+### Tychonoff spaces ($T_{3 \tfrac{1}{2}}$)
+
+
+$X$ is [[Tychonoff space|Tychonoff]], or T3$\frac{1}{2}$, completely T3, or completely regular Hausdorff, if it is both T0 and completely regular.[2] Every Tychonoff space is both regular Hausdorff and completely Hausdorff.
+
+
+
+### Normal spaces
+
+$X$ is [[normal topological space|normal]] if any two disjoint closed subsets of $X$ are separated by neighbourhoods, i.e.
    $$
       \emptyset \longrightarrow {X}
       \;\;\;\,&solb;\,\;\;\;
@@ -1591,10 +1692,16 @@ Here in $[0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1'\}$
    the points $0',0$ and $1,1'$ are topologically indistinguishable, $[0,1]$ goes to $e_{[0,1]}$, and both $0,0'$ map to point $0=0'$,  and both $1,1'$ map to point $1=1'$.
 
 
-*  $X$ is normal Hausdorff, or T4, if it is both T1 and normal. Every normal
+### Normal Hausdorff spaces ($T_4$)
+
+$X$ is normal Hausdorff, or T4, if it is both T1 and normal. Every normal
 Hausdorff space is both Tychonoff and normal regular.
 
-*  $X$ is _completely or heriditarily normal_ if any two separated sets $A$ and $B$ are separated by neighbourhoods $U\supset A$ and $V\supset B$ such that $U$ and $V$ do not intersect, i.e.
+
+
+### Completely normal spaces
+
+$X$ is _completely or heriditarily normal_ if any two separated sets $A$ and $B$ are separated by neighbourhoods $U\supset A$ and $V\supset B$ such that $U$ and $V$ do not intersect, i.e.
    $$
      \emptyset \longrightarrow  {X}
      \;\;\;\,&solb;\,\;\;\;
@@ -1611,7 +1718,11 @@ Hausdorff space is both Tychonoff and normal regular.
    Every completely normal space is also normal.
 
 
-*  $X$ is [[perfectly normal topological space|perfectly normal]] if any two disjoint closed sets are precisely separated by a continuous function, i.e.
+
+### Perfectly normal spaces
+
+
+$X$ is [[perfectly normal topological space|perfectly normal]] if any two disjoint closed sets are precisely separated by a continuous function, i.e.
 
    $$
     \emptyset\longrightarrow {X}
@@ -1624,51 +1735,13 @@ Hausdorff space is both Tychonoff and normal regular.
    Every perfectly normal space is also completely normal.
 
 
-*  The [[Tietze extension theorem]] applies to [[normal spaces]].
 
-   Accordingly, a (Hausdorff) space $X$ is normal if and only if every function $f \colon A \to \mathbb{R}$ from a [[closed subspace]] $A \subset X$ admits an [[extension]] $\tilde{f}: X \to \mathbb{R}$,
-
-   $$
-     \array{
-       A &\overset{f}{\longrightarrow}& \mathbb{R}
-       \\
-       \downarrow & \nearrow_{\mathrlap{\tilde f}}
-       \\
-       X
-     }
-   $$
-
-   or what is the same, every [[regular monomorphism]] into $X$ in $Haus$ has the [[left lifting property]] with respect to the map $\mathbb{R} \to 1$.
-
-
-
-\begin{remark}
-A standard proof of [[Urysohn's lemma]] may be represented as follows:
-iterate the lifting property to prove
-
-$$
-  \emptyset \longrightarrow X
-  \;\;\;\;&solb;\;\;\;\;
-  \{
-\underset{x}{} \swarrow
-\overset{x_1}{} \searrow \cdots \swarrow
-\overset{x_n}{} \searrow
-\underset{y}{} \}
-  \longrightarrow
-  \{
-\underset{x}{} \swarrow
-\overset{x_1 = \cdots = x_n}{} \searrow
-\underset{y}{} \}
-$$
-
-Then pass to the infinite limit to construct a map  $ X \longrightarrow  \mathbb{R}$.
-\end{remark}
 
 ## Applications.
 
 ### Urysohn lemma and Tietze extension theorem. 
 
-We now explain how to view the standard proof of the Urysohn lemma in terms of lifting properties.
+We now explain how to view the standard proof of the [[Urysohn lemma]] in terms of lifting properties.
 
 Let $\Lambda_n=\big\{
 \underset{c_0}{} \swarrow 
@@ -1700,7 +1773,8 @@ $$\Lambda_\infty\to   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrighta
 Item (1) implies that 
 $A \to X \;\;\;\,&solb;\,\;\;\; \Lambda_\infty\to \{o\}$ implies $A \to X \;\;\;\,&solb;\,\;\;\; [0,1]\to \{o\}$ 
 (and  $A \to X \;\;\;\,&solb;\,\;\;\; [0,1]\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \{o\}$).
-This reminds the Tietze extension theorem but is different: [it is not true that any closed inclusion
+
+This reminds one of the [[Tietze extension theorem]] but is different: [it is not true that any closed inclusion
 in a normal space lifts wrt to $\Lambda_2 \to \Lambda_1$](https://mathoverflow.net/questions/394187/extending-disjoint-open-subsets-of-a-normal-hausdorff-space/394193), although it is true for closed inclusions
 into a heriditarily normal space.
 
@@ -1713,10 +1787,14 @@ into a heriditarily normal space.
   A
   \ar[dd]
   \ar[rr]
-  && \Lambda_\infty \ar[rdd]\ar[dd]
+  &[-60pt]
+  & \Lambda_\infty \ar[rdd]\ar[dd]
   & { {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} }\ar[l]\ar[dd] \ar[r] 
   &  \Lambda_2 
-  \ar[ddll]
+  \ar[
+    ddll,
+    crossing over
+  ]
   \\
   \\
   B
