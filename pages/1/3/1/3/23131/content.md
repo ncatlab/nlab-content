@@ -74,3 +74,9 @@ $$
 * {#Rom20} [[Mario Román]], _Profunctor optics and traversals_, 2020 ([arXiv](https://arxiv.org/abs/2001.08045))
 
 * {#PS07} [[Craig Pastro]], [[Ross Street]], _Doubles for monoidal categories_, 2007 ([arXiv](https://arxiv.org/abs/0711.1859))
+
+[[!redirects Tambara modules]]
+[[!redirects Tambara bimodule]]
+[[!redirects Tambara bimodules]]
+[[!redirects strong profunctor]]
+[[!redirects strong profunctors]]
