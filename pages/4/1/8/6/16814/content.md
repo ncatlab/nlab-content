@@ -122,9 +122,11 @@ The second claim is [[formal duality|formally dual]].
 
 * [[nucleus of a profunctor]]
 
+* [[idempotent adjunction]]
+
 ## References
 
-* {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
+* {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], Section 2 of: _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
 
 [[!redirects fixed points of an equivalence]]
