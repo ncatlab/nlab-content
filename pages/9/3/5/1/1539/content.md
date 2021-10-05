@@ -228,7 +228,7 @@ Original articles include
 
 Textbook accounts:
 
-* {#Wyler} Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991.
+* {#Wyler} [[Oswald Wyler]], _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991 ([doi:10.1142/1047](https://doi.org/10.1142/1047))
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
 {#Elephant} (section A2.6)
