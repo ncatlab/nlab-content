@@ -1532,7 +1532,9 @@ $X$ is [[T1-space|$T_1$]] (or *accessible* or *Fréchet*) if any two distinct po
      {X} \longrightarrow  \{*\}
    $$
 
-   Thus, $X$ is T1 if and only if it is both T0 and R0. (Although you may
+ Thus, $X$ is T1 if and only if it is both T0 and R0: indeed, a morphism lifts wrt the composition 
+$ \{x{\searrow}y\} \longrightarrow  \{x\leftrightarrow y\} \longrightarrow  \{x=y\}$
+iff it lifts wrt either one of the two morphisms. (Although you may
 say such things as "T1 space", "Frechet topology", and "Suppose that the
 topological space $X$ is Frechet", avoid saying "Frechet space" in this
 context, since there is another entirely different notion of Frechet space in
@@ -1556,13 +1558,65 @@ $X$ is [[weakly Hausdorff topological space|weakly Hausdorff]], if the image of 
 $X$ is [[Hausdorff space|Hausdorff]], or T2 or separated, if any two distinct points in $X$ are separated by neighbourhoods, i.e.
 
    $$
-     \{x,y\} \hookrightarrow  {X}
+     \{x,y\} \hookrightarrow  \underset{X}{}
      \;\;\;\,&solb;\,\;\;\;
-     \{x{\searrow}X{\swarrow}y\} \longrightarrow  \{x=X=y\}
+       \{x{\searrow}\underset{X}{}{\swarrow}y\} \longrightarrow  \{x=X=y\}
    $$
+As a lifting diagram this is 
+\begin{tikzcd}
+[
+  column sep={between origins, 80pt},
+  row sep={between origins, 40pt}
+]
+  \boxed{\{0\leftrightarrow 1\}}
+  \ar[
+    rr,
+    "{ }"
+  ]
+  \ar[dd, hook, "{ \forall  }"{left} ]
+  &&
+  \boxed{
+    \overset{
+      \boxed{
+        \boxed{x}
+        \;\;
+        \,
+        \;\;
+        \boxed{y}}
+      }{
+        \underset{
+           X
+        }
+        {
+          \searrow \;\, \swarrow
+        }
+      }
+  }
+  \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+   \{x=X=y\}
+\end{tikzcd}
+The interesting case is when the top horizontal arrow 
+$     \{x,y\} \to
+       \{x{\searrow}\underset{X}{}{\swarrow}y\} $
+maps $x$ and $y$ to the open points $x$ and $y$;
+in that case the separating neighbourhoods are the preimages of the open points $x$ and $y$ under the diagonal arrow. 
+In the other cases both points map to a copy of $\{0\to 1\}$,
+and the lifting property reduces to $T_1$. In particular, 
+we see that every  Hausdorff space is also T1.
 
-
-   Thus, $X$ is Hausdorff if and only if it is both T0 and R1. Every Hausdorff space is also T1.
+   Also, $X$ is Hausdorff if and only if it is both T0 and R1. 
 
 
 
@@ -1579,11 +1633,50 @@ $X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separa
 }
 \}     \longrightarrow  \{\boxed{x=x'=X=y'=y}\}
    $$
-Indeed, the closed neighbourhoods would be the preimages under the diagonal arrow of closed subsets
-$\big\{\overset{\boxed{x}}{}{\searrow}\underset{U}{}\big\} $
-and $\big\{\underset{V}{}{\swarrow}\overset{\boxed{y}}{}\big\}$.
 
-   Every $T2\frac{1}{2}$ space is also Hausdorff.
+As a lifting diagram this is 
+\begin{tikzcd}
+[
+  column sep={between origins, 50pt},
+  row sep={between origins, 40pt}
+]
+  \boxed{\{0\leftrightarrow 1\}}
+  \ar[
+    rr,
+    "{ }"
+  ]
+  \ar[dd, hook, "{ \forall  }"{left} ]
+  &&
+ \{\boxed{\overset{\boxed{x}}{}{\searrow}\underset{U}{}{\swarrow}\overset{\boxed{X}}{}
+}\!\!\!\!\!\!\!
+\boxed{
+{\,\,\,\,\,\,\searrow}\underset{V}{}{\swarrow}\overset{\boxed{y}}{}
+}
+\}     
+  \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+\{\boxed{x=x'=X=y'=y}\}
+\end{tikzcd}
+The interesting case is when the top horizontal arrow 
+maps $x$ and $y$ to the open points $x$ and $y$;
+in that case the separating closed neighbourhoods are 
+of closed subsets
+$\big\{\overset{\boxed{x}}{}{\searrow}\underset{U}{}\big\} $
+and $\big\{\underset{V}{}{\swarrow}\overset{\boxed{y}}{}\big\}$
+under the diagonal arrow. The other cases are similar but easier. 
+
+Note the 5-point space here contains a copy of the 3-point space used in $T_2$. Hence,    every $T2\frac{1}{2}$ space is also Hausdorff.
 
 
 
@@ -1598,9 +1691,51 @@ $X$ is completely Hausdorff, or completely T2, if any two distinct points in X a
    $$
 
    where  $\{x,y\} \hookrightarrow  X$  runs through all injective maps from the discrete two point space $\{x,y\}$.
+As a lifting diagram this is 
 
-   Every completely Hausdorff space is also $ T2\frac{1}{2} $.
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt},
+  row sep={between origins, 40pt}
+]
+  \{x,y\}
+  \ar[dd]
+  \ar[rr]
+  &&
+  {[0,1]}\vee_{\{0,1\}} \{x\leftrightarrow 0, 1\leftrightarrow x\}
+  \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    x
+      \leftrightarrow
+    e_{[0,1]}
+      \leftrightarrow
+    y
+  \big\}
+\end{tikzcd}
 
+Every completely Hausdorff space is also $ T2\frac{1}{2} $
+because there is a surjection 
+${[0,1]}\vee_{\{0,1\}} \{x\leftrightarrow 0, 1\leftrightarrow y\}
+  \to
+ \{\boxed{\overset{\boxed{x}}{}{\searrow}\underset{U}{}{\swarrow}\overset{\boxed{X}}{}
+}\!\!\!\!\!\!\!
+\boxed{
+{\,\,\,\,\,\,\searrow}\underset{V}{}{\swarrow}\overset{\boxed{y}}{}
+}
+\}     
+$.
 
 
 ### Regular spaces
@@ -1623,7 +1758,9 @@ $X$ is [[regular topological space|regular]] if, given any point ${x}$ and close
         \longrightarrow
       \{\overset{\boxed{x=X=U}}{}\searrow\underset{F}{}\}
    $$
-Indeed, the separating neighbourhoods would be
+Indeed, in the interesting  case that $x$ maps to $x$
+by the top horizontal arrow, 
+the separating neighbourhoods would be
 the preimage under the diagonal arrow of
 $\{\boxed{x}\}$ and $\{\overset{\boxed{U}}{}\searrow\underset{F}{}\}$.
 
@@ -1675,7 +1812,9 @@ $X$ is [[normal topological space|normal]] if any two disjoint closed subsets of
       \{\underset{x}{}{\swarrow}\overset{\boxed{U=X=V}}{}{\searrow}
        \underset{y}{}\}
    $$
-Indeed, the separating neighbourhoods are the preimages of
+Indeed, the disjoint closed subsets are the preimges of the closed points 
+$x$ and $y$ under the bottom horizontl arrow, and 
+their separating neighbourhoods are the preimages of
 open subsets $\big\{\underset{x}{}{\swarrow}
         \overset{U}{}\big\}$
 and $\big\{\overset{V}{}{\searrow}\underset{y}{}\big\}$.
@@ -1743,11 +1882,11 @@ The following notation and terminology helps to discuss applications.
 
 ### Quillen negation 
 
-For a class $P$ of morphisms in a category, its {\em left Quillen negation} $P^{\;\;\;\,&solb;\,\;\;\; l}$ with respect to the lifting property, respectively its {\em right Quillen negation} $P^{\;\;\;\,&solb;\,\;\;\; r}$, 
+For a class $P$ of morphisms in a category, its _left Quillen negation_ $P^{&solb; l}$ with respect to the lifting property, respectively its _right Quillen negation_ $P^{&solb; r}$, 
 is the class of all morphisms which have the left, respectively right, lifting property with respect to each morphism in the class $P$. In notation,
 $$
-P^{\;\;\;\,&solb;\,\;\;\; l} := \{ i \,\,:\,\, \forall p\in P\,\, i\;\;\;\,&solb;\,\;\;\; p\},
-P^{\;\;\;\,&solb;\,\;\;\; r} := \{ p \,\,:\,\, \forall i\in P\,\, i\;\;\;\,&solb;\,\;\;\; p\}, P^\lr:=(P^\lrl)^\rlr,..$$
+P^{&solb; l} := \{ i \,\,:\,\, \forall p\in P\,\, i\;\;\;\,&solb;\,\;\;\; p\},
+P^{&solb;r} := \{ p \,\,:\,\, \forall i\in P\,\, i\;\;\;\,&solb;\,\;\;\; p\}, P^\lr:=(P^\lrl)^\rlr,..$$
 
 As the terminology might suggest, 
 taking the Quillen negation of a class/property $P$ is a simple way to define a class of morphisms excluding non-isomorphisms 
@@ -1878,7 +2017,7 @@ $f_{e.d.}:= \boxed{
 $
 is surjective, proper, and has the right lifting property $T_1$. 
 
-Both being and being proper are the right lifting properties. 
+Both being surjective and [being proper](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties) are the right lifting properties. 
 This means that each morphism  $S\xrightarrow { (f_{e.d.})^{lr} } X$ is surjective and proper, 
 and if $X$ has $T_1$, so does $S$. In particular, if $X$ is compact Hausdorff, so is $S$. 
 
