@@ -133,4 +133,11 @@ Other references
 * [[Martin Escardo]], _On Lawvere's Fixed Point Theorem_, [agda development](https://www.cs.bham.ac.uk/~mhe/agda-new/LawvereFPT.html), 2018
  {#Escardo18}
 
+
+The background assumptions for Lawvere's account are reduced in 
+
+* {#Roberts} [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) arXiv:[2110.00239](https://arxiv.org/abs/2110.00239)
+
+as well as versions available in different settings.
+
 [[!redirects Lawvere fixed point theorem]]
