@@ -293,6 +293,8 @@ Introductions to [[topos theory]] include
 
 * [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
 
+* {#Wyler} [[Oswald Wyler]], _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991 ([doi:10.1142/1047](https://doi.org/10.1142/1047))
+
 * [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010)
 
 * [[Francis Borceux]], _Some glances at topos theory_, [pdf](https://tcsc.lakecomoschool.org/files/2018/01/Borceux.pdf).
@@ -329,9 +331,6 @@ Modern textbooks include the following two.
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]], Volume 3_.
 
-Other sources include
-
-* [[Oswald Wyler]], _[[Lecture Notes on Topoi and Quasitopoi]]_, World Scientific 1991.
 
 ### Monographs
 
@@ -349,14 +348,13 @@ Other sources include the following.
 
 ### Classifying toposes
 
-* [[Ieke Moerdijk]], _[[Classifying Spaces and Classifying Topoi]]_, Lecture Notes in Mathematics 1616 (1995), Springer.
-ISBN: 978-3-540-60319-1.
-[doi](https://doi.org/10.1007/BFb0094441)
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_, Lecture Notes in Mathematics 1616, Springer 1995 (ISBN: 978-3-540-60319-1, [doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441))
 
 * [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford University Press, 2017.
 [doi](https://doi.org/10.1007/BFb0094441)
 
 ### Categorical logic and elementary toposes
+ {#CategoricalLogicAndElementaryToposes}
 
 * [[Colin McLarty]], _[[Elementary Categories, Elementary Toposes]]_, Oxford University Press 1992 (reprinted in 2005)
 
@@ -366,8 +364,7 @@ ISBN: 978-3-540-60319-1.
 
 * [[Robert Goldblatt]], _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983). 
 
-* [[Joachim Lambek]], [[Philip J. Scott]], _[[Introduction to higher order categorical logic]]_. Cambridge Studies in Advanced Mathematics 7 (1986).
-ISBN: 0-521-24665-2.
+* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], _Introduction to higher order categorical logic_, Cambridge Studies in Advanced Mathematics 7 (1986) ([ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534))
 
 * [[Bart Jacobs]], _[[Categorical logic and type theory]]_, Studies in Logic and the Foundations of Mathematics 141 (1999).  North-Holland Publishing Co.
 ISBN: 0-444-50170-3
@@ -446,8 +443,3 @@ A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes a
 [[!redirects topoi with NNOs]]
 [[!redirects toposes with NNOs]]
 
-\begin{tikzpicture}
-
-  \draw (0,0) node {Test};
-
-\end{tikzpicture}
