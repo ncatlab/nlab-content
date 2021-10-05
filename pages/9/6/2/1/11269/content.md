@@ -54,11 +54,11 @@ A nice overview is
 * {#Yan}  [[Noson Yanofsky]], _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, 2003  ([arXiv:0305282](http://arxiv.org/abs/math/0305282)) 
  
 
-The background assumptions for Lawvere's account are reduced in 
+The necessary assumptions for Lawvere's account are reduced in various ways in
 
 * [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) ([arXiv:2110.00239](https://arxiv.org/abs/2110.00239))
 
-as well as versions available in different settings.
+
 
 
 [[!redirects diagonal arguments]] 
