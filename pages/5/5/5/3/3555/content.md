@@ -700,7 +700,13 @@ By the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]], this implies the
 ### Shape of a topological space
  {#ShapeOfATopologicalSpace}
 
-For a discussion of how the $(\infty,1)$-topos theoretic shape of the [[(infinity,1)-category of (infinity,1)-sheaves|$(\infty,1)$-category of $(\infty,1)$-sheaves]] $Sh_{(\infty,1)}(X)$ on a [[topological space]]  $X$ relates to the ordinary shape-theoretic _strong shape_ of the topological space $X$ see [this section](shape+theory#StrongShapeViaInfinityToposTheory) at *[[shape theory]]*.
+
+To any topological space $X$ is associated the 
+its [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-sheaves]] (with respect its [[site]] of [[open subsets]]), which is an [[(infinity,1)-topos|$\infty$-topos]]. 
+
+At least when $X$ is a [[compact Hausdorff space]], then its strong shape in the classical sense of [Mardešić & Segal 1971](shape+theory#MardesicSegal71) does agree with the [[shape of an (infinity,1)-topos|$\infty$-topos theoretic shape]] of its [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-sheaves]].
+
+This fact must have motivated the terminology in [Toën-Vezzosi 2002](#ToenVezzosi02) and in [Lurie 2009, Sec. 7.1.6](#Lurie09); it is made explicit in [Hoyois 2013, Rem. 2.13](#Hoyois13).
 
 
 ## Related concepts
