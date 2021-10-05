@@ -44,7 +44,7 @@ At times one might hope that $C$ is closed under [[open subspaces]] as well, but
 
 It may be well to note that [[colimits]] and [[limits]] in $C$ need not agree with the corresponding colimits and limits in $Top$, except under certain conditions.  Some convenient categories are [[reflective subcategory|reflective]] or [[coreflective subcategory|coreflective]] in $Top$, in which case they are closed under limits or colimits respectively.  Moreover, because $C$ is a full subcategory of $Top$ which contains all CW complexes, the usual sorts of colimits used to present CW complexes are the same whether interpreted in $Top$ or in $C$.  Also, if $C$ is closed under closed subspaces, then an [[equalizer]] of a pair of maps between [[Hausdorff spaces]] in $C$ (being a closed subspace) is the same whether computed in $Top$ or in $C$.
 
-On the other hand, [[products]] of $C$-objects in $Top$ need not land in $C$, so in that situation the product in $Top$ and the product in $C$ do not agree.  This is in particular the case for compactly generated spaces.  In fact, the "[[compactly generated product]]" is sometimes preferable to the $Top$-product for more explicit reasons: for instance, if $X$ and $Y$ are CW complexes, then $X \times Y$ need not be a CW complex in the usual product topology, but it is in the compactly generated topology.
+On the other hand, [[products]] of $C$-objects in $Top$ need not land in $C$, so in that situation the product in $Top$ and the product in $C$ do not agree.  This is in particular the case for compactly generated spaces.  In fact, the "compactly generated product" is sometimes preferable to the $Top$-product for more explicit reasons: for instance, if $X$ and $Y$ are CW complexes, then $X \times Y$ need not be a CW complex in the usual product topology, but it is in the compactly generated topology.
 
 
 ## Examples
@@ -254,7 +254,12 @@ Discussion in the generality that subsumes [[compactly generated topological spa
 
 * {#Vogt71} [[Rainer M. Vogt]], *Convenient categories of topological spaces for homotopy theory*,  Arch. Math 22, 545–555 (1971) ([doi:10.1007/BF01222616](https://doi.org/10.1007/BF01222616))
 
+* {#Wyler73} [[Oswald Wyler]], *Convenient categories for topology*, General Topology and its Applications **3** 3 (1973) 225-242 (<a href="https://doi.org/10.1016/0016-660X(72)90014-1">doi:10.1016/0016-660X(72)90014-1</a>)
+
 * {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+
+* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], Section 3 of: _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
+
 
 * {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
 
