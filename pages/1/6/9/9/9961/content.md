@@ -207,9 +207,11 @@ The [[BFSS matrix model]]:
 
 * [[Masanori Hanada]], Paul Romatschke, _Lattice Simulations of 10d Yang-Mills toroidally compactified to 1d, 2d and 4d_ ([arXiv:1612.06395](https://arxiv.org/abs/1612.06395))
 
-The [[BMN matrix model]]:
+Including the [[BMN matrix model]]:
 
 * Hrant Gharibyan, [[Masanori Hanada]], Masazumi Honda, Junyu Liu, _Toward simulating Superstring/M-theory on a quantum computer_ ([arXiv:2011.06573](https://arxiv.org/abs/2011.06573))
+
+* Georg Bergner, Norbert Bodendorfer, Masanori Hanada, Stratos Pateloudis, Enrico Rinaldi, Andreas Schäfer, Pavlos Vranas, Hiromasa Watanabe, *Confinement/deconfinement transition in the D0-brane matrix model -- A signature of M-theory?* ([arXiv:2110.01312](https://arxiv.org/abs/2110.01312))
 
 
 
