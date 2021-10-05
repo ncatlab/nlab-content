@@ -103,12 +103,15 @@ In general there is a duality (an [[dual equivalence|antiequivalence of categori
 ### Fully faithful adjoint triples
  {#FullyFaithFulAdjointTriples}
 
+
 +-- {: .num_prop #FullyFaithful}
 ###### Proposition
 
-For an adjoint triple $F\dashv G\dashv H$ we have that $F$ is [[full and faithful functor|fully faithful]] precisely if $H$ is fully faithful. 
+For an adjoint triple $F\dashv G\dashv H$ we have that $F$ is [[full and faithful functor|fully faithful]] if and only if $H$ is fully faithful. 
 
 =--
+
+(In this case either [[adjoint pair]] is an [[idempotent adjunction]], see Prop. \ref{Idempotent} below.)
 
 +-- {: .proof}
 ###### Proof
@@ -166,6 +169,8 @@ For an adjoint triple $F\dashv G\dashv H$, the adjunction $F\dashv G$ is an [[id
 The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps being [[mates]].  Therefore, by a standard fact, the category of $G F$-algebras and the category of $H G$-coalgebras are isomorphic over their common base.  However, $F\dashv G$ is idempotent precisely when $G F$ is an [[idempotent monad]], hence precisely when the forgetful functor of the category of $G F$-algebras is fully faithful, and dually for $G\dashv H$.  Since the categories of algebras are isomorphic respecting their forgetful functors, one forgetful functor is fully faithful if and only if the other is.
 =--
 
+
+A special case of this situation is Prop. \ref{FullyFaithful} above.
 
 ## Examples
 
