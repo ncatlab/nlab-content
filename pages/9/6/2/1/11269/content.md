@@ -49,6 +49,11 @@ For a leisurely account see the discussion in
 
 * [[F. William Lawvere]], [[Stephen Schanuel]], *Conceptual Mathematics*, Cambridge University Press 1997.
 
+A discussion of logic and rigor using Lawvere's ideas about the diagonal argument and Godel theorem 
+
+* Misha Gromov. [*Ergostuctures, Ergologic and the Universal Learning Problem: Chapters 1, 2.*, p.14-18.](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/ergologic31.pdf#17)
+2013.
+
 A nice overview is
 
 * {#Yan}  [[Noson Yanofsky]], _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, 2003  ([arXiv:0305282](http://arxiv.org/abs/math/0305282)) 
