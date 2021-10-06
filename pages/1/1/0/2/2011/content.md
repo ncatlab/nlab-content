@@ -65,14 +65,12 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
 Though some of the basic results, methods and conjectures of differential topology go back to [Poincar&#233;](http://en.wikipedia.org/wiki/Henri_Poincar%C3%A9), Whitney, Morse and Pontrjagin, it became an independent field only in the late 1950s and early 1960s with the seminal works of Smale, Thom, Milnor and Hirsch. Soon after the initial effort on foundations, mainly in the American school, a strong activity started in Soviet Union (Albert Schwarz, A. S. Mishchenko, S. Novikov, V. A. Rokhlin, M. Gromov...). 
 
+
 Introductions and monographs:
 
-* {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([web](https://archive.org/details/LecturesOnModernMathematicsIi), [pdf](https://ia801700.us.archive.org/6/items/LecturesOnModernMathematicsIi/Saaty-LecturesOnModernMathematicsIi.pdf)) 
-
-
+* {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([[Milnor_DifferentialTopology.pdf:file]])
 
 * [[John Milnor]], _Lectures on the h-cobordism theorem_, 1965 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/hcobord.pdf)) 
-
 
 * [[James R. Munkres]], _Elementary Differential Topology_, Annals of Mathematics Studies 54 (1966), Princeton University Press ([doi:10.1515/9781400882656](http://dx.doi.org/10.1515/9781400882656)).
 
@@ -98,7 +96,7 @@ Introductions and monographs:
 
 * [[Joel W. Robbin]], [[Dietmar Salamon]], _Introduction to differential topology_, 294 pp, webdraft 2018 [pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)
 
-* {#Benedetti19} Riccardo Benedetti, _Lectures on Differential Topology_ ([arXiv:1907.10297](https://arxiv.org/abs/1907.10297))
+* {#Benedetti19} [[Riccardo Benedetti]], _Lectures on Differential Topology_, Graduate Studies in Mathematics **218**, AMS 2021  ([arXiv:1907.10297](https://arxiv.org/abs/1907.10297), [ISBN: 978-1-4704-6674-9](https://bookstore.ams.org/cdn-1631100821985/gsm-218/))
 
 Survey with connections to [[algebraic topology]]:
 
