@@ -37,3 +37,5 @@ Establishing the [[Bousfield-Friedlander model structure]], in particular the [[
 category: people
 
 [[!redirects A. K. Bousfield]]
+[[!redirects Aldridge K. Bousfield]]
+[[!redirects Bousfield]]
