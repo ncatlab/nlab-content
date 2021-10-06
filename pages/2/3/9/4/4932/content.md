@@ -5,6 +5,13 @@
 
 ## Selected writings
 
+On [[differential topology]]:
+
+* {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([[Milnor_DifferentialTopology.pdf:file]])
+
+* [[John Milnor]], _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+
+
 On [[exotic 7-spheres]]:
 
 * {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399&#8211;405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
@@ -26,12 +33,7 @@ On [[invariant Riemannian metrics]] on ([[compact Lie group|compact]]) [[Lie gro
 
 * {#Milnor76} [[John Milnor]], _Curvatures of left invariant metrics on Lie groups_, Advances in Mathematics, Volume 21, Issue 3, September 1976, Pages 293-329 (<a href="https://doi.org/10.1016/S0001-8708(76)80002-3">doi:10.1016/S0001-8708(76)80002-3</a>)
 
-Review:
 
-
-On [[differential topology]]:
-
-* [[John Milnor]], _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
 
 
 [[!redirects J. Milnor]]
