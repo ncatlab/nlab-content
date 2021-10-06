@@ -157,6 +157,10 @@ See also
 
 * Wes Caldwell, Alejandro Diaz, Isaac Friend, [[Jim Gates]], Jr., Siddhartha Harmalkar, Tamar Lambert-Brown, Daniel Lay, Karina Martirosova, Victor Meszaros, Mayowa Omokanwaye, Shaina Rudman, Daniel Shin, Anthony Vershov, _On the Four Dimensional Holoraumy of the $4D$, $\mathcal{N} = 1$ Complex Linear Supermultiplet_ ([arXiv:1702.05453](https://arxiv.org/abs/1702.05453))
 
+* Kevin Iga, *Adinkras: Graphs of Clifford Algebra Representations, Supersymmetry, and Codes* ([arXiv:2110.01665](https://arxiv.org/abs/2110.01665))
+
+
+
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Adinkra_symbols_(physics)">Adinkra symbols (physics)</a>_
 
 
