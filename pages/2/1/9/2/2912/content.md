@@ -22,6 +22,11 @@
 
 ## Selected writings
 
+On [[homotopy limits]], [[completion of a space|completions]] and [[localization of a space|localizations]]:
+
+* [[Daniel M. Kan]] and [[Aldridge K. Bousfield]], *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
+
+
 On the [[core of a ring]]:
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81 (<a href="https://doi.org/10.1016/0022-4049(72)90023-0">doi:10.1016/0022-4049(72)90023-0</a>)
