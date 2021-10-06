@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Complete spaces
 * table of contents
 {: toc}
@@ -80,6 +81,8 @@ When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spa
 
 * a complete [[normed vector space]] is a _[[Banach space]]_
 
+* [[completion of a space]]
+
 ## References
 
 *  {#Ark1977} A.V. Arkhangel&#8242;skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space). 
@@ -97,9 +100,7 @@ When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spa
 [[!redirects Cauchy-complete space]]
 [[!redirects Cauchy-complete spaces]]
 
-[[!redirects completion of a space]]
-[[!redirects completion of spaces]]
-[[!redirects completions of spaces]]
+
 [[!redirects Cauchy completion]]
 [[!redirects Cauchy completions]]
 [[!redirects Cauchy-completion]]
