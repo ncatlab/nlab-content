@@ -19,7 +19,7 @@
 
 ## Definition
 
-For $\Gamma : \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _has [[codiscrete object]]s_ if it has a  [[full and faithful functor|full and faithful]] [[right adjoint]] $coDisc : \mathcal{B} \hookrightarrow \mathcal{E}$. 
+For $\Gamma \;\colon\; \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _has [[codiscrete object]]s_ if it has a  [[full and faithful functor|full and faithful]] [[right adjoint]] $coDisc \,\colon\, \mathcal{B} \hookrightarrow \mathcal{E}$. 
 
 This is for instance the case for the [[global section]] [[geometric morphism]] of a [[local topos]] $ (Disc \dashv \Gamma \dashv coDisc) \;\colon\; \mathcal{E} \to \mathcal{B}$. 
 
@@ -111,6 +111,8 @@ First we need to show that $conc X$, thus defined, is indeed concrete, hence tha
 \[
   \label{ConcNatur}
   \array{
+    {\phantom{A}}
+    \\
     Hom_{Set}( \Gamma im(\eta^\sharp_X), \Gamma im(\eta^\sharp_X) )
     &\simeq&
     Hom_{\mathbf{H}}( im(\eta^\sharp_X), \sharp im(\eta^\sharp_X) )
@@ -127,6 +129,8 @@ First we need to show that $conc X$, thus defined, is indeed concrete, hence tha
   }
   \phantom{AAAA}
   \array{
+    {\phantom{A}}
+    \\
     \left\{ id_{\Gamma im(\eta^\sharp_X)} \right\}
       &\longrightarrow&
     \phantom{\sharp(\eta^{conc}_X) \circ \eta^\sharp_{ X }}
@@ -237,6 +241,56 @@ It remains to see that the lift is unique with just the property of making the t
 
 =--
 
+### Further properties
+ {#FurtherProperties} 
+
+
+\begin{proposition}\label{CohesiveMapsToConcreteObjectsGlue}
+**(cohesive maps to concrete objects glue)**
+\linebreak
+  Let $\mathbf{H}$ be a [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]], and consider $Y \,\in\, \mathbf{H}_{\sharp_1} \xhookrightarrow{\;} \mathbf{H}$ a [[concrete object]], in that its [[sharp modality]] [[unit of a monad|unit]] is [[n-truncated object of an (infinity,1)-category|(-1)-truncated]]/[[monomorphism in an (infinity,1)-category|monomorphic]]: $Y \xhookrightarrow{ \;\;\eta^\sharp_Y\;\; } \sharp Y$.  Then *cohesive maps to $X$ glue* (satisfy the respective sheaf property): 
+
+For any $Y \,\in\, \mathbf{H}$ and any open cover, namely any [[n-connected object of an (infinity,1)-topos|(-1)-connected]]/[[effective epimorphism in an (infinity,1)-category|effective epi-morphism]] $U \twoheadrightarrow X$, cohesive maps $U \xrightarrow{\;} X$ whose maps of [[underlying]] $\infty$-groupoids descend/extend to $Y$, then they also descend/extend to $Y$ as cohesive maps, in an essentially unique way, in that all solid [[homotopy]]-[[commutative square]] as follows have essentially unique dashed lifts:
+
+\begin{tikzcd}[row sep=22pt, column sep=22pt]
+  U
+  \ar[
+    rr,
+    "{ \forall }"{above}
+  ]
+  \ar[
+    dd,
+    ->>
+  ]
+  &&
+  X
+  \ar[
+    dd,
+    hook,
+    "{ \eta^\sharp_X }"
+  ]
+  \\
+  \\
+  Y
+  \ar[
+    rr,
+    "{ \forall }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists ! }"{description}
+  ]
+  &&
+  \sharp X
+\end{tikzcd}
+
+\end{proposition}
+The point here is the given interpretation of this [[lifting problem]], but the proof of the latter is immediate:
+\begin{proof}
+Under the given assumptions, the essentially unique existence of the lift is an instance of the [[(n-connected, n-truncated) factorization system]] for $n = (-1)$.
+\end{proof}
+
 
 
 ## Related concepts
@@ -248,9 +302,9 @@ It remains to see that the lift is unique with just the property of making the t
 
 ## References
 
-See also
-
 * {#Shulman} [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
+
+* [[Urs Schreiber]], Section 3.7.2 in *[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive $\infty$-topos]]* ([arXiv:1310.7930](https://arxiv.org/abs/1310.7930))
  
 
 [[!redirects concrete objects]]
