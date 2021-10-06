@@ -1996,7 +1996,7 @@ First notice it holds
 $k(X) \xrightarrow{(CHaus)^{&solb;r}}X$.
 
 Now consider a decomposition of a map $\varnothing\to X$  as
-$$\varnothing \xrightarrow{(CHaus)^{&solb;lr}} X_{c.g.}\xrightarrow{(CHaus)^{&solb;r}}X$$
+$$\varnothing \xrightarrow{(CHaus)^{&solb;rl}} X_{c.g.}\xrightarrow{(CHaus)^{&solb;r}}X$$
 such that the latter arrow is injective.
 
 It is easy to see that
@@ -2010,7 +2010,7 @@ hence all the same open sets and possibly more.
 
 
 On the other hand, 
-$$\varnothing \xrightarrow{(CHaus)^{&solb;lr}} X_{c.g.}
+$$\varnothing \xrightarrow{(CHaus)^{&solb;rl}} X_{c.g.}
 \,\,\,&solb;\,\,\,\, 
 k(X)
 \xrightarrow{(CHaus)^{&solb;r}}X$$
@@ -2020,6 +2020,30 @@ hence the obvious map $X_{c.g.}\to k(X)$ is continuous.
 Hence, $X_{c.g.}$ is isomorphic to $k(X)$. 
 
 
+
+Compare our proof of the following lemmas with the one given in [[subspace topology#pushout]].
+
+
++-- {: .num_lemma #pushout} 
+###### Lemma 
+The [[pushout]] in [[Top]] of any (closed/open) subspace $i \colon A \hookrightarrow B$ along any [[continuous function]] $f \colon A \to C$, 
+is a (closed/open) subspace $j: C \hookrightarrow D$. 
+=-- 
++-- {: .num_lemma #transfinite} 
+###### Lemma 
+Let $\kappa$ be an [[ordinal]], viewed as a [[preorder]] category, and let $F: \kappa \to Top$ be a functor that preserves [[directed colimits]]. Then if $F(i \leq j)$ is a (closed/open) subspace inclusion for each morphism $i \leq j$ of $\kappa$, then the canonical map $F(0) \to colim_{i \in \kappa} F(i)$ is also a (closed/open) inclusion. 
+=-- 
+\begin{proof} This follows from the fact that being a (closed/open) inclusion is a left lifting property:
+
+
+*         $(\emptyset\longrightarrow \{o\})^{rr}=\{\{x\leftrightarrow y\rightarrow c\}\longrightarrow\{x=y=c\}\}^l=\{\{x\leftrightarrow y\leftarrow c\}\longrightarrow\{x=y=c\}\}^l$ is the class of subsets, i.e. injective maps $A\hookrightarrow B$ where the topology on $A$ is induced from $B$
+
+*  $\{ \{z\leftrightarrow  x\leftrightarrow  y\rightarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^\lrl  = \{\{c\}\longrightarrow \{o\rightarrow c\}\}^\lr$ is the class of closed inclusions $A\subset B$ where $A$ is closed
+
+*  $\{ \{z\leftrightarrow  x\leftrightarrow  y\leftarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^\lrl$ is the class of open inclusions
+$A\subset B$ where $A$ is open
+
+\end{proof}
 
 
 
@@ -2178,7 +2202,7 @@ is a class of proper maps containing (necessarily proper) maps of compact Hausdo
 
 * [Tychonoff theorem -- Proof via lifting properties](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties)
 
-* [[Colimits of normal spaces]]
+* [[colimits of normal spaces]]
 
 
 ## References
