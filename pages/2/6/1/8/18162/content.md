@@ -1568,7 +1568,7 @@ As a lifting diagram this is
   column sep={between origins, 80pt},
   row sep={between origins, 40pt}
 ]
-  \boxed{\{0\leftrightarrow 1\}}
+  \boxed{\{x\leftrightarrow y\}}
   \ar[
     rr,
     "{ }"
@@ -1637,7 +1637,7 @@ $X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separa
 As a lifting diagram this is 
 \begin{tikzcd}
 [
-  column sep={between origins, 50pt},
+  column sep={between origins, 70pt},
   row sep={between origins, 40pt}
 ]
   \boxed{\{0\leftrightarrow 1\}}
@@ -1648,9 +1648,9 @@ As a lifting diagram this is
   \ar[dd, hook, "{ \forall  }"{left} ]
   &&
  \{\boxed{\overset{\boxed{x}}{}{\searrow}\underset{U}{}{\swarrow}\overset{\boxed{X}}{}
-}\!\!\!\!\!\!\!
+}\!\!\!\!\!\!\!\!\!\!\!
 \boxed{
-{\,\,\,\,\,\,\searrow}\underset{V}{}{\swarrow}\overset{\boxed{y}}{}
+{\,\,\,\,\,\,\,\,\,\,\searrow}\underset{V}{}{\swarrow}\overset{\boxed{y}}{}
 }
 \}     
   \ar[dd]
@@ -1758,13 +1758,50 @@ $X$ is [[regular topological space|regular]] if, given any point ${x}$ and close
         \longrightarrow
       \{\overset{\boxed{x=X=U}}{}\searrow\underset{F}{}\}
    $$
+As a lifting diagram
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt},
+  row sep={between origins, 40pt}
+]
+  \{x\}
+  \ar[dd]
+  \ar[rr]
+  &&
+\{
+\boxed{
+ \boxed{
+\overset{\boxed{x}}{}
+\searrow
+\underset{X}{} \swarrow
+\overset{\boxed{U}}{}
+}\!\!\!\!\!\!\!
+{\,\,\,\,\,\,\searrow\underset{F}{} }
+}
+\}
+  \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+      \{\overset{\boxed{x=X=U}}{}\searrow\underset{F}{}\}
+\end{tikzcd}
+
 Indeed, in the interesting  case that $x$ maps to $x$
 by the top horizontal arrow, 
 the separating neighbourhoods would be
 the preimage under the diagonal arrow of
 $\{\boxed{x}\}$ and $\{\overset{\boxed{U}}{}\searrow\underset{F}{}\}$.
 
-   (In fact, in a regular space, any such ${x}$ and ${F}$ will also be separated by closed neighbourhoods.) Every
+   In fact, in a regular space, any such ${x}$ and ${F}$ will also be separated by closed neighbourhoods obtained by "applying" the lifting property again to $\{\overset{\boxed{x}}{}\searrow\underset{X=U=F}{}\}$. Every
 regular space is also R1.
 
 
@@ -1812,6 +1849,37 @@ $X$ is [[normal topological space|normal]] if any two disjoint closed subsets of
       \{\underset{x}{}{\swarrow}\overset{\boxed{U=X=V}}{}{\searrow}
        \underset{y}{}\}
    $$
+As a lifting diagram
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt},
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  &&
+\{\underset{x}{}{\swarrow}
+        \overset{U}{}{\searrow}
+      \underset{X}{}{\swarrow}\overset{V}{}{\searrow}\underset{y}{}\}
+  \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&    \{\underset{x}{}{\swarrow}\overset{\boxed{U=X=V}}{}{\searrow}
+       \underset{y}{}\}
+  \end{tikzcd}
+
+
+
 Indeed, the disjoint closed subsets are the preimges of the closed points 
 $x$ and $y$ under the bottom horizontl arrow, and 
 their separating neighbourhoods are the preimages of
@@ -1856,7 +1924,9 @@ $X$ is _completely or heriditarily normal_ if any two separated sets $A$ and $B$
 
    Every completely normal space is also normal.
 
-
+It is easy to check that a closed inclusion into a heridarily normal space has the same lifting property. As left lifting property is stable under colimits, this implies that a filtered colimit (transfinite composition) 
+of heriditarily normal spaces is heriditarily normal. 
+Compare this argument to [[colimits of normal spaces]].
 
 ### Perfectly normal spaces
 
@@ -1894,6 +1964,21 @@ from $P$, in a way which is useful in a diagram chasing computation, and is ofte
 define properties of morphisms starting from an explicitly given class of (counter)examples. 
 A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples. 
 
+### Good behaviour under (co)limits
+
+Reformulations in terms of lifting properties clarify behaviour 
+with respect to (co)limits, as notions defined by lifting properties are closed under (co)limits. 
+
+For example, as remarked above, it is easy to check that 
+a closed inclusion into a heridarily normal space has the same lifting property; this is not true for the lifting property defining normality. 
+Hence, 
+filtered colimit (transfinite composition) 
+of closed inclusions of heriditarily normal spaces is heriditarily normal. 
+Compare this argument to what is given in [[colimits of normal spaces]].
+
+The same argument proves the 
+[Tychonoff theorem that a product of compact spaces is compact](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties).
+ 
 
 
 ### Urysohn lemma and Tietze extension theorem. 
