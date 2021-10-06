@@ -42,10 +42,8 @@ A simple and very useful incarnation of $\infty$-groupoids is available using a 
 See [[Kan complex]] for a detailed discussion of how these incarnate $\infty$-groupoids. 
 
 The [[(∞,1)-category]] of all $\infty$-groupoids is [[presentable (∞,1)-category|presented]] along these lines by the Quillen [[model structure on simplicial sets]], whose fibrant-cofibrant objects are precisely the Kan complexes:
-
 $$
-  \infty Grpd \simeq (sSet_{Quillen})^\circ
-  \,.
+  \infty Grpd \simeq (sSet_{Quillen})^\circ.
 $$
 
 One may turn this geometric definition into an [[algebraic definition of higher category|algebraic definition of ∞-groupoids]] by _choosing [[horn]]-fillers_ . The resulting notion is that of an [[algebraic Kan complex]] that has been shown by [[Thomas Nikolaus]] to yield an equivalent [[(∞,1)-category]] of $\infty$-groupoids.
@@ -91,6 +89,13 @@ The term ∞-groupoid is sometimes considered to be too unwieldy,
 and some alternatives have been suggested or used, but none has gained wide acceptance.
 
 Historically, the word “space” is often (ab)used to mean ∞-groupoid, due to the traditional presentation of $\infty Gpd$ by the [[model structure on topological spaces]].  Some have [condemned](https://nforum.ncatlab.org/discussion/4781/against-spaces-in-homotopy-theory/) this usage, but others argue that a "homotopy space" is a valid notion of "space".
+
+The term “space” is also often used to refer to [[simplicial sets]].
+In particular, [[Bousfield]] and [[Kan]] in their book “[[Homotopy Limits,  Completions and Localizations]]” write:
+
+> “These notes are written _simplicially_, i.e. whenever we say _space_ we mean _simplicial set_.
+
+More recently, [[Jacob Lurie]]'s work continues this usage.
 
 The term “homotopy type” is also quite close in meaning to “∞-groupoid”.  Historically, it differed in that morphisms of homotopy types were mere homotopy classes of maps of ∞-groupoids, but more recently (especially with the advent of [[homotopy type theory]] some have used "homotopy type" synonymously with "$\infty$-groupoid".
 
