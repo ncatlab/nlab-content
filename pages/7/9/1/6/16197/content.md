@@ -29,9 +29,13 @@ $$
 
 where $N$ is the number of $e$-foldings during inflation (see e.g. [Kehagias-Dizgah-Riotto 13 (2.6)](#KehagiasDizgahRiotto13)).
 
-Models of this type are favored by [[experiment|experimental]] results ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP2-Keck-Planck 15](#BICEPKeckPlanck15), [PlanckCollaboration 15](#PlanckCollaboration15)) which give a low upper bound on $r$ around $0.1$ (whereas other models like [[chaotic inflation]] are disfavored by these values), see ([PlanckCollaboration 13, page 12](#PlanckCollaboration13)).
 
-{#Dat} With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
+## Observational support
+ {#ObservationalSupport}
+
+Models of Starobinsky-type are favored by [[experiment|experimental]] results ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP2-Keck-Planck 15](#BICEPKeckPlanck15), [PlanckCollaboration 15](#PlanckCollaboration15), [BICEP3-Keck 18](#BICEPKeck21)) which give a low upper bound on $r$, well below $0.1$ (whereas other models like [[chaotic inflation]] are disfavored by these values), see ([PlanckCollaboration 13, page 12](#PlanckCollaboration13)).
+
+{#Dat} With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak, shown in dark blue in the following plots ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
 
 {#Figure1} <img src="https://ncatlab.org/nlab/files/PlanckData.jpg" width="800">
 
@@ -43,7 +47,16 @@ This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboratio
 > $R^2$ inflation has the strongest evidence among the models considered here. However, care must be taken not to overinterpret small differences in likelihood lacking statistical significance. The models closest to $R^2$ in terms of evidence are brane inflation and exponential inflation, which have one more parameter
 than $R^2$ ([PlanckCollaboration 15XX, p. 18](#PlanckCollaboration15XX))
 
-See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13), [Efstathiou 2019, 50:49](#Efstathiou2019)) for brief survey and see ([Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13)) for more details. There it is argued that the other types of models which also fit the data are actually equivalent to the Starobinsky model during inflation.
+{#KECKBICEPFurtherConfirmed} This picture is further confirmed by observations of the BICEP/Keck collaboration reported in [BICEP-Keck 2021](#BICEPKeck21), whose additional data singles out the dark blue area in the following (<a href="https://arxiv.org/pdf/2110.00483.pdf#page=8">Fig. 5</a>):
+
+<center>
+<a href="https://arxiv.org/pdf/2110.00483.pdf#page=8">
+<img src="https://ncatlab.org/nlab/files/BICEPKeck-nr-plot-211006.jpg" width="430">
+</a>
+</center>
+
+See also [Ellis 13](#Ellis13), [Ketov 13](#Ketov13), [Efstathiou 2019, 50:49](#Efstathiou2019) for brief survey of Starobinsky inflation in relation to observation, and see [Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13) for more details. There it is argued that the other types of inflationary models which also reasonably fit the data are actually equivalent to the Starobinsky model during inflation.
+
 
 ## Embedding into supergravity
  {#EmbeddingIntoSupergravity}
@@ -97,6 +110,8 @@ The experimental data supporting the model is due to
 * {#PlanckCollaboration15XX} [[Planck Collaboration]], _Planck 2015 results. XX. Constraints on inflation_ ([arXiv:1502.02114](http://arxiv.org/abs/1502.02114))
 
 * {#PlanckCollaboration18X} [[Planck Collaboration]], _Planck 2018 results. X. Constraints on inflation_ ([arXiv:1807.06211](https://arxiv.org/abs/1807.06211))
+
+* {#BICEPKeck21} BICEP/Keck Collaboration: *BICEP / Keck XIII: Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season* ([arXiv:2110.00483](https://arxiv.org/abs/2110.00483))
 
 See also
 
