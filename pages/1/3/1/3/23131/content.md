@@ -17,7 +17,7 @@
 
 ## Idea
 
-A **Tambara module** is a [[profunctor]] endowed with additional [[mathematical structure|structure]] that makes it interplay nicely with a [[monoidal category|monoidal]] [[action]]. Tambara modules are used in the theory of [[optics (in computer science)]].
+A **Tambara module** is a [[profunctor]] endowed with additional [[mathematical structure|structure]] that makes it interact nicely with the [[action]] of a [[monoidal category]].   In other words, Tambara modules generalize profunctors from [[categories]] to [[actegories]].   Tambara modules are used in the theory of [[optics (in computer science)]].
 
 
 ## Definition
