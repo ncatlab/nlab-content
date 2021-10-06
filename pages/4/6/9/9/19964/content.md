@@ -377,6 +377,10 @@ For the [[electroweak field]]:
 
 * Juan Carlos Criado, Valentin V. Khoze, Michael Spannowsky, *Electroweak Skyrmions in the HEFT* ([arXiv:2109.01596](https://arxiv.org/abs/2109.01596))
 
+More in relation to [[hidden local symmetry]]:
+
+* [[Mannque Rho]], *Skyrmions and Fractional Quantum Hall Droplets Unified by Hidden Symmetries in Dense Matter* ([arXiv:2109.10059](https://arxiv.org/abs/2109.10059))
+
 
 
 
