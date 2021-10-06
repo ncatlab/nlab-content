@@ -98,6 +98,4 @@ See also
 [[!redirects p-complete homotopy type]]
 [[!redirects p-complete homotopy types]]
 
-[[!redirects completion of a space]]
-
 [[!redirects adic completion]]
