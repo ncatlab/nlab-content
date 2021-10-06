@@ -1979,6 +1979,48 @@ Compare this argument to what is given in [[colimits of normal spaces]].
 The same argument proves the 
 [Tychonoff theorem that a product of compact spaces is compact](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties).
  
+### Reflection and weak factorisation systems
+
+Lifting properties give rise to reflection and weak factorisation systems. 
+For example, each map $X\to\{o\}$ decomposes as 
+$$X \xrightarrow{(T_i)^{&solb;rl}} X'\xrightarrow{(T_i)^{&solb;l}}\{o\}$$
+where $(T_i)$ denotes the morphism appearing in the definition of axiom $T_i$, for $i0,1$. This gives a statement about reflection 
+close to [[separation axioms#Reflection]].
+
+
+In terms of Quillen negation we can understand the [[compactly generated topological space#kSpacesAreTheColimitsInTopOfCompactHausdorffSpaces|$k$-coreflection $kTop\to Top$ from the category of compactly generated spaces]] as follows.
+
+Let $(CHaus)=\{\varnothing\to K\,\,:\,\,K\,\,\text{is compact Hausdorff}\,\}$.
+
+First notice it holds 
+$k(X) \xrightarrow{(CHaus)^{&solb;r}}X$.
+
+Now consider a decomposition of a map $\varnothing\to X$  as
+$$\varnothing \xrightarrow{(CHaus)^{&solb;lr}} X_{c.g.}\xrightarrow{(CHaus)^{&solb;r}}X$$
+such that the latter arrow is injective.
+
+It is easy to see that
+$X_{c.g.}\xrightarrow{(CHaus)^{&solb;r}}X$
+means that a subspace of $X_{c.g}$ 
+is closed 
+whenever it is closed in $X$ and 
+its intersection with every compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). 
+Then $X_{c.g.}$ has all the same closed sets and possibly more, 
+hence all the same open sets and possibly more.
+
+
+On the other hand, 
+$$\varnothing \xrightarrow{(CHaus)^{&solb;lr}} X_{c.g.}
+\,\,\,&solb;\,\,\,\, 
+k(X)
+\xrightarrow{(CHaus)^{&solb;r}}X$$
+hence the obvious map $X_{c.g.}\to k(X)$ is continuous. 
+
+
+Hence, $X_{c.g.}$ is isomorphic to $k(X)$. 
+
+
+
 
 
 ### Urysohn lemma and Tietze extension theorem. 
@@ -2135,6 +2177,9 @@ is a class of proper maps containing (necessarily proper) maps of compact Hausdo
 ## Related concepts
 
 * [Tychonoff theorem -- Proof via lifting properties](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties)
+
+* [[Colimits of normal spaces]]
+
 
 ## References
 
