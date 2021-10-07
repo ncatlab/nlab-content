@@ -363,14 +363,15 @@ A space is [[extremally disconnected]] iff the closure of an open subset is open
   ]
   \ar[dd]
   && \boxed{
-\boxed{{}^{\boxed{u}}\!\! \searrow_{\,c_1}} \,\,\, \boxed{{}_{c_2}\swarrow^{\boxed{v}}}
+\boxed{{}^{\boxed{u}}\!\! \searrow_{\,{}_{c_1}}} \,\,\, \boxed{{}_{{}_{c_2}}\swarrow^{\boxed{v}}}
 }
    \ar[dd]
   \\
   \\
   X
   \ar[
-    rr
+    rr,
+    "{ \forall  }"{below}
   ]
   \ar[
     uurr,
