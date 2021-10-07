@@ -16,6 +16,10 @@ On the first [[algebraic K-theory]] $K(ku)$ of [[topological K-theory]] ([[itera
 
 * [[Christian Ausoni]], _On the algebraic K-theory of the complex K-theory spectrum_, Inventiones mathematicae volume 180, pages 611–668 (2010) ([arXiv:0902.2334](http://arxiv.org/abs/0902.2334), [doi:10.1007/s00222-010-0239-x](https://doi.org/10.1007/s00222-010-0239-x))
 
+Divisibility of a [[gerbe]] on the [[3-sphere]] seen as a [[BDR 2-vector bundle]] is in
+
+* [[Christian Ausoni]], [[Bjørn Ian Dundas]] and [[John Rognes]],  _Divisibility of the Dirac magnetic monopole as a two-vector bundle over the three-sphere_, Doc. Math. 13, 795-801 (2008). ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/ADR08.pdf))
+
 ## Related entries
 
 * [[iterated algebraic K-theory]]
