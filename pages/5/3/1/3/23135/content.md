@@ -29,4 +29,4 @@ Pages that I need to write from scratch based on my own research:
 * [[Metaverse theory]], my pipe dream where literary analysis is categorified
 * [[Perfectoid dramatic analysis]], the number-theoretic version of metaverse theory
 * [[Compositional tool-assisted speedrunning]], a categorified approach to TAS
-* [[Cammy]], my own take on Curien and Hagino, might not be a fit for nLab since it's already got [an esowiki page](https://esolangs.org/wiki/Cammy).
+* [[Cammy]], my own take on [[Pierre-Louis Curien|Curien]] and [[Tatsuya Hagino|Hagino]], might not be a fit for nLab since it's already got [an esowiki page](https://esolangs.org/wiki/Cammy).
