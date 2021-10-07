@@ -637,11 +637,7 @@ We say that a pair of subsets is [[disjoint subset|disjoint]] if their [[interse
 \]
 
 
-This situation (eq:APairOfDisjointSubsets) may equivalently be expressed by a *[[characteristic function|characteristic]]* [[continuous function]] from $S$ to the [[codiscrete topological space]] of 3 elements. We will suggestively denote these three elements by $e_F$, $e_G$ and $e_\varnothing$,
-
-> just a suggestion, please feel free to re-adjust notation
-
-respectively, so that in the [above](#BackgroundAndNotation) notation the codiscrete topology on them reads like this:
+This situation (eq:APairOfDisjointSubsets) may equivalently be expressed by a *[[characteristic function|characteristic]]* [[continuous function]] from $S$ to the [[codiscrete topological space]] of 3 elements. We will suggestively denote these three elements by $e_F$, $e_G$ and $e_\varnothing$, respectively, so that in the [above](#BackgroundAndNotation) notation the codiscrete topology on them reads like this:
 
 $$
   CoDisc
