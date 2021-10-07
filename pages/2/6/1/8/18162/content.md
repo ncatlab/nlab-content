@@ -2141,8 +2141,10 @@ A noted above, item (3) is the usual statement of Urysohn lemma, and item (2) is
 
 
 
-
 ### Extremally disconnected spaces being projective
+ {#ExtremallyDisconnectedSpacesBeingProjective}
+
+
 The morphism {#DiscussionOfLiftingForExtremallyDisconnected}
 $f_{e.d.}:= \boxed{
 \boxed{{}^{\boxed{u}}\!\! \searrow_{\,c_1}} \,\,\, \boxed{{}_{c_2}\swarrow^{\boxed{v}}}
@@ -2179,8 +2181,9 @@ $$
 
 This means there is a surjective proper map onto each space from an extremally disconnected space,
 and that in this both spaces can be assumed compact Hausdorff. 
-The Gleason theorem that extremally disconnected spaces are projective in the category 
-of topological spaces and proper maps, can be expressed by saying that 
+
+Gleasons theorem ([here](extremally+disconnected+topological+space#GleasonTheorem)) which says that extremally disconnected spaces are [[projective objects|projective]] in the category 
+of topological spaces and [[proper maps]], can be expressed by saying that 
 $\varnothing \to  S \in (proper)^{l}$ whenever $\varnothing \xrightarrow{ (f_{e.d.})^l } S$.
 
 In fact there is a proper morphism $f_{proper}$ of finite spaces such that 
