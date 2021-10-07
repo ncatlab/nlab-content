@@ -19,7 +19,7 @@ The following pages need to be created and stubbed:
 Big changes needed:
 
 * [[Haskell]] really should be clarified when it comes to category theory. At least [Fast & Loose](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/fast+loose.pdf) and [Hask](https://wiki.haskell.org/Hask) should be linked.
-* [[Separation axiom]] and [[topological vector space]] could have zaha-style diagrams, see [this conversation](https://nforum.ncatlab.org/discussion/13419/catabase-a-database-of-categories/) for details.
+* [[separation axiom|Separation axiom]] and [[topological vector space]] could have zaha-style diagrams, see [this conversation](https://nforum.ncatlab.org/discussion/13419/catabase-a-database-of-categories/) for details.
 
 ### Original research
 
