@@ -36,14 +36,10 @@ taking the class of morphisms having the lifting property with respect to each m
 is a simple way to define a class of morphisms excluding non-isomorphisms from $P$,
 in a way which is useful in a diagram chasing computation. 
 
-It is convenient to refer to this class as _Quillen negation_ of property $C$.
-The lifting property is not symmetric so in fact we should talk about 
-_left_ or _right_ _Quillen negation_ of property $C$.
-
-Thus, in the category _Set_ of sets, being surjective is the right Quillen negation of (the property of being) 
- the simplest [[surjective|non-surjection]] $\emptyset\to \{*\}$.
- The left and right Quillen negatins of $\{x_1,x_2\}\to \{*\}$, the simplest non-injection, 
- are both precisely the class of injections.
+Thus, in the category _Set_ of sets, a map is  surjective iff it has the right lifting  property with respect to 
+ the simplest [[surjective|non-surjection]] $\emptyset\to \{*\}$,
+ and injective iff it has either left or right lifting property with respect to 
+ The left and right Quillen negatins of $\{x_1,x_2\}\to \{*\}$, the simplest non-injection.
 
 
 \begin{definition}
@@ -166,13 +162,13 @@ iff
 
 
 * subgroup $H$ of $G$ is the normal span of substitutions in words $w_1,..,w_i$ of the free group $\mathbb{F}_n$ iff 
-$G \to G/H$ is in $( \mathbb{F}_n \to \mathbb{F}_n/\le\!w_1,...,w_i\!\ge)^{\rl}$$
+$G \to G/H$ is in $( \mathbb{F}_n \to \mathbb{F}_n/\le\!w_1,...,w_i\!\ge)^{\rl}$
 
 
 * $\{0\to A : A\,\,\text{ abelian}\}^{&solb; \ell l}$ is the class 
 of homomorphisms whose kernel is perfect
 
-For a [[finite group]] $G$, in the category of finite groups, 
+For a finite group $G$, in the category of finite groups, 
 
 * $\{0\to {\mathbb{Z}}/p{\mathbb{Z}}\} \,\,&solb;\,\, G\to 1$ iff the [[order]] of $G$ is prime to $p$,
 
@@ -264,8 +260,6 @@ Here follows a list of examples of well-known properties defined by
 iterated Quillen negation starting from maps between finite topological spaces, often with less than 5 elements. 
 
 
-
-
 *   a space $K$ is non-empty iff $K\longrightarrow \{o\}$ is in $   (\emptyset\longrightarrow \{o\})^l$
 *   a space $K$ is empty iff $K \longrightarrow \{o\}$ is in $   (\emptyset\longrightarrow \{o\})^{ll}$
 *   a space $K$ is $T_0$ iff $K  \longrightarrow \{o\}$ is in $   (\{a\leftrightarrow b\}\longrightarrow \{a=b\})^r$
@@ -297,4 +291,34 @@ $X\to Y \,\,&solb;\,\,  \{x\leftarrow o\rightarrow y\}\longrightarrow \{x=o=y\}$
 
 * A topological space $X$ is extremally disconnected iff 
 $X\to Y \,\,&solb;\,\, \{u\rightarrow a,b\leftarrow v\}\longrightarrow \{u\rightarrow a=b\leftarrow v\}$
+
+
+*  $\{\bullet\}\longrightarrow A$ is in $(\emptyset\longrightarrow \{o\})^{rll}$ iff $A$ is connected
+
+*  $Y$ is totally disconnected iff $\{\bullet\}\xrightarrow y Y$ is in $(\emptyset\longrightarrow \{o\})^{rllr}$ for each map  $\{\bullet\}\xrightarrow y Y$ (or, 
+in other words, each point $y\in Y$).
+
+
+
+*   a Hausdorff space $K$ is compact iff $K\longrightarrow \{o\}$ is in  $((\{o\}\longrightarrow \{o{ \searrow}c\})^r_{\le5})^{lr}$
+*   a  Hausdorff space $K$ is compact iff $K\longrightarrow \{o\}$ is in  $$
+     \{\, \{a\leftrightarrow b\}\longrightarrow \{a=b\},\, \{o{ \searrow}c\}\longrightarrow \{o=c\},\,
+     \{c\}\longrightarrow \{o{ \searrow}c\},\,\{a{ \swarrow}o{ \searrow}b\}\longrightarrow \{a=o=b\}\,\,\}^{lr}$$
+
+* a topological space $X$ is compactly generated iff 
+$\varnothing\longrightarrow X$ is in  $\{\varnothing \to K \,\,:\,\, K\,\, \text{ compact}\}^{rl}$
+
+*   a space $D$ is discrete iff $ \emptyset \longrightarrow  D$ is in $   (\emptyset\longrightarrow \{o\})^{rl}      $
+
+*   a space $D$ is codiscrete iff $  {D} \longrightarrow  \{o\} $ is in  
+$(\{a,b\}\longrightarrow \{a=b\})^{rr}= (\{a\leftrightarrow b\}\longrightarrow \{a=b\})^{lr} $ 
+
+*   a space $K$ is connected or empty iff $K\longrightarrow \{o\}$ is in  $(\{a,b\}\longrightarrow \{a=b\})^l $
+*   a space $K$ is totally disconnected and non-empty iff $K\longrightarrow \{o\}$ is in  $(\{a,b\}\longrightarrow \{a=b\})^{lr} $
+
+*   a space $K$ is connected and non-empty
+ iff
+ for some arrow $\{o\}\longrightarrow K$
+it holds that $\{o\}\longrightarrow K$ is in
+            $   (\emptyset\longrightarrow \{o\})^{rll} = (\{a\}\longrightarrow \{a,b\})^l$
 
