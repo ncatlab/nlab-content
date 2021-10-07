@@ -21,13 +21,10 @@
 ## Idea
  {#Idea}
 
-In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 2014](#&solb;)) with respect to simple or archetypal counterexamples represented by finite preorders, and closely following standard definitions. It is convenient to refer
-as _the left/right [[Quillen negation]] of a morphism_
-to the class of morphism having the left/right lifting property
-with respect to the morphism, and say that the separation axioms
-are defined by the Quillen negation of archetypal counterexamples.
+In [[point-set topology]], most of the [[separation axioms]] that are traditionally considered on [[topological spaces]] turn out  ([Gavrilovich 2014](#Gavrolovich14)) to have an equivalent reformulation in terms of [[lifting properties]], namely of the given space against, typically, a map of [[finite topological spaces]] which reflects the "opposite property" or the "archetypical counterexample" to the given separation condition, in a sense ("[[Quillen negation]]").
 
-To see this, first notice/recall  the following two simple examples of [[lifting properties]] in [[diagrams]] in [[TopSp]].
+
+To see this, first notice/recall the following two basic examples of [[lifting properties]] in [[diagrams]] in [[TopSp]].
 
 The property
 
