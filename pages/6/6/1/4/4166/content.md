@@ -391,7 +391,7 @@ Classifying Spaces_ (2008) ([arXiv:math/0612549](http://arxiv.org/abs/math/06125
 
 Divisibility of the gerbe on the 3-sphere, seen as a 2-vector bundle is in
 
-* Christian Ausoni, Bjorn Ian Dundas and John Rognes,  _Divisibility of the Dirac magnetic monopole as a two-vector bundle over the three-sphere_, Doc. Math. 13, 795-801 (2008). ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/ADR08.pdf))
+* [[Christian Ausoni]], [[Bjørn Ian Dundas]] and [[John Rognes]],  _Divisibility of the Dirac magnetic monopole as a two-vector bundle over the three-sphere_, Doc. Math. 13, 795-801 (2008). ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/ADR08.pdf))
 
 Orientation of BDR 2-vector bundles is discussed in 
 
