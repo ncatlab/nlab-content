@@ -170,7 +170,13 @@ The following is a collection of quotes from authors that highlight the open pro
  {#OpenProblemGeneral}
 
 
-[Duff 96, totality of Section 6](#Duff96):
+{#Witten1988Quote} [Witten 1988](Edward+Witten#DavisBrown88) (before the notion of M-theory was formulated):
+
+> String theory at its finest is, or should be, a new branch of geometry. $[\ldots]$ I would consider trying to elucidate this proper generalization of geometry as the central problem of physics, certainly the central problem of string theory. $[\ldots]$ What should have happened, by rights, is that the  correct mathematical structures should have been developed in the twenty-first or twenty-second century, and then finally physicists should have invented string theory as a physical theory that is made possible by these structures. $[\ldots]$ we are paying the price for the fact that we didn't come by this thing in the usual way. 
+
+\linebreak
+
+[Duff 1996, totality of Section 6](#Duff96) (right after the idea of M-theory was formulated):
 
 > The overriding problem in superunification in the coming years will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes.
 
@@ -262,6 +268,7 @@ The following is a collection of quotes from authors that highlight the open pro
 
 > (16:44) We don't understand the theory sufficiently well yet to do so.
 
+\linebreak
 
 ### Non-abelian DBI-action
  {#OpenProblemNonabelianDBI}
@@ -512,7 +519,7 @@ Review:
 
   **Proceedings of the LMS/EPSRC Durham Symposium on 
 
-  [[Higher Structures in M‐Theory 2018]]
+  *[[Higher Structures in M-Theory 2018]]*
 
   Fortschritte der Physik Special Issue
 
