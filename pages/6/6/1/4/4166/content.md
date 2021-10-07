@@ -1,7 +1,7 @@
 
 > under construction
 
-> for the moment this here are nothing but rough notes taken in a talk long ago
+> for the time being this here are nothing but [references](#References) and rough notes taken in a talk long ago...
 
 
 _BDR 2-vector bundles_ are a notion of [[categorified]] [[vector bundle]] motivated by the concept of [Kapranov-Voevodsy's 2-vector spaces](http://ncatlab.org/nlab/show/2-vector+space#KV2VectorSpace).
@@ -391,7 +391,7 @@ Classifying Spaces_ (2008) ([arXiv:math/0612549](http://arxiv.org/abs/math/06125
 
 Divisibility of the gerbe on the 3-sphere, seen as a 2-vector bundle is in
 
-* [[Christian Ausoni]], [[Bjørn Ian Dundas]] and [[John Rognes]],  _Divisibility of the Dirac magnetic monopole as a two-vector bundle over the three-sphere_, Doc. Math. 13, 795-801 (2008). ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/ADR08.pdf))
+* [[Christian Ausoni]], [[Bjørn Ian Dundas]] and [[John Rognes]],  _Divisibility of the Dirac magnetic monopole as a two-vector bundle over the three-sphere_, Doc. Math. 13, 795-801 (2008). ([dml:45387](https://eudml.org/doc/45387), [pdf](http://www.math.univ-paris13.fr/~ausoni/papers/ADR08.pdf))
 
 Orientation of BDR 2-vector bundles is discussed in 
 
