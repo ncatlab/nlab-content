@@ -10,6 +10,7 @@ Edward Witten is a theoretical physicist at the Institute for Advanced Study.
 
 * _Adventures in Physics and Math_, [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf), [[WittenKyotoPrizeLecture.pdf:file]])
 
+
 Witten's work originates in theoretical [[quantum field theory]] and stands out as making numerous and deep connections between that and mathematical [[geometry]] and [[cohomology]]. In the course of the 1980s Witten became the central and leading figure in [[string theory]].
 
 Insight gained from the study of quantum field theories and specifically those relevant in [[string theory]] led Witten to mathematical results deep enough to gain him a [[Fields medal]], see [below](#FieldMedalWork). Indeed, a whole list of sub-fields in mathematics originate in aspects of Witten's work in QFT/string theory and carry his name, such as [[Chern-Simons theory]] which many people call "Chern-Simons-Witten theory", [[Wess-Zumino-Witten theory]], the [[Witten genus]], [[Gromov-Witten theory]], [[Seiberg-Witten theory]], [[Rozansky-Witten invariant]], the [[Witten conjecture]].  Other parts are still waiting to be absorbed into the mathematical literature such as [[Horava-Witten theory]], [[Diaconescu-Moore-Witten anomaly]] etc..
@@ -23,8 +24,10 @@ Since about the turn of the millennium Witten has tended to more esoteric mathem
 * table of contents
 {:toc}
 
-## Quotes
+## Quotes 
  {#Quotes}
+
+On the (lack of) understanding of [[string theory]] and [[M-theory]]:
 
 In [Witten 87, very last sentence](#Witten87EllipticGenera):
 
@@ -84,7 +87,13 @@ In [Witten 87, very last sentence](#Witten87EllipticGenera):
 
 \linebreak
 
-In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf):
+\linebreak
+
+[This point](#FurtherInDavisBrown88) appears again in
+
+* {#Witten02AstronomyIssue} [[Edward Witten]], *Can scientists' "theory of everything" really explain all the  weirdness the universe displays?*, American Scientist Astronomy Issue 2002 (<a href="https://www.ias.edu/sites/default/files/sns/string(3).pdf">pdf</a>, [[Witten_AstronomyIssue2002.pdf:file]])
+
+and also in [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html):
 
 > {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. 
 
@@ -92,9 +101,9 @@ In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html),
 
 \linebreak
 
-[[Edward Witten]] in interview with Graham Farmelo, ["The Universe Speaks in Numbers", interview 5](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-5), 2019 (quote from 21:15 - 21:46):
+In an interview with Graham Farmelo, ["The Universe Speaks in Numbers", interview 5](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-5), 2019 (quote from 21:15 - 21:46):
 
-> {#WhatIsMissing} I actually believe that string/M-theory is on the right track toward a deeper explanation.  But at a very fundamental level it’s not well understood. And I’m not even confident that we have a good concept of what sort of thing is  missing or where to find it. The reason I am not is that in hindsight it is clear the view given in the 1980s of what is missing was too narrow. Instead of discovering what we thought was missing, we broadened the picture in the 90s, in unexpected directions.
+> {#WhatIsMissing} I actually believe that [[string theory|string]]/[[M-theory]] is on the right track toward a deeper explanation.  But at a very fundamental level it’s not well understood. And I’m not even confident that we have a good concept of what sort of thing is  missing or where to find it. The reason I am not is that in hindsight it is clear the view given in the 1980s of what is missing was too narrow. Instead of discovering what we thought was missing, we broadened the picture in the 90s, in unexpected directions.
 
 \linebreak
 
