@@ -29,6 +29,29 @@ In [Witten 87, very last sentence](#Witten87EllipticGenera):
 > A properly developed theory of [[elliptic cohomology]] is likely to shed some light on what [[string theory]] really means.
 
 
+
+\begin{imagefromfile}
+    "file_name": "WittenInDavisBrown_StringMathematicsGeometry.jpg",
+    "float": "right",
+    "width": 350,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\linebreak 
+
+{#StringTheoryAtItsFinestQuote} On p. 95 of
+
+* PCW Davis & J Brown (eds.), *Superstrings: A theory of everything?*, Cambridge University Press 1988, 1991, Canto 1992:
+
+> String theory at its finest is, or should be, a new branch of [[geometry]].
+
+
 \linebreak
 
 In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf):
