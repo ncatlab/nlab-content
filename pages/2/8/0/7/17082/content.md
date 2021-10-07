@@ -17,53 +17,82 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
-### Lift of morphisms
 
-A **lift** of a morphism $f: Y\to B$ along an [[epimorphism]] (or more general map) $p:X\to B$ is a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
+Intuitively, the lifting property is a negation in category theory:
+Taking the class of morphisms having the lifting property with respect to each morphism in a class $P$
+is a simple, and unexpectedly common, way to define a class of morphisms excluding non-isomorphisms from $P$,
+in a way which is useful in a diagram chasing computation.
+A number of elementary notions may be expressed by iteratively
+using the lifting property starting from a list of simple or archetypal (counter)examples.
 
-The dual problem is the [[extension]] of a morphism $f: A\to Y$ along a monomorphism $i: A\hookrightarrow X$, which is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes extends along more general morphisms than monomorphisms. 
 
-### Lifting properties
+The _lifting property_ is a property of a pair of [[morphism]]s in a [[category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. 
+A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples.
 
-Let $K$ be a [[category]] and write $arr(K)$ for the [[arrow category]] of $K$: the category with arrows (= [[morphisms]]) $a \stackrel{f}{\to} b$ of $K$ as objects and commutative squares $g u=v f$ 
+A useful intuition is to think that the lifting property as a kind of negation:
+taking the class of morphisms having the lifting property with respect to each morphism in a class $P$ 
+is a simple way to define a class of morphisms excluding non-isomorphisms from $P$,
+in a way which is useful in a diagram chasing computation. 
+
+Thus, in the category _Set_ of sets, a map is  surjective iff it has the right lifting  property with respect to 
+ the simplest [[surjective|non-surjection]] $\emptyset\to \{*\}$,
+ and injective iff it has either left or right lifting property with respect to 
+$\{x_1,x_2\}\to \{*\}$, the simplest non-injection.
+
+
+\begin{definition}
+A morphism $i$ in a category has the ''left lifting property'' with respect to a morphism $p$, and $p$ also has the ''right lifting property'' with respect to $i$, sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, iff the following implication holds for each morphism $f$ and $g$ in the category:
+
+* if the outer square of the following diagram commutes, then there exists $h$ completing the diagram, i.e. for each $f:A\to X$ and $g:B\to Y$ such that $p\circ f = g \circ i$ there exists $h:B\to X$ such that $h\circ i = f$ and $p\circ h = g$.
+
+
+\begin{tikzcd}
+[
+  column sep={between origins, 160pt},
+  row sep={between origins, 40pt}
+]
+  A
+  \ar[dd, "i"]
+  \ar[rr, "f"]
+  && X\ar[dd,"p"]
+  \\
+  \\
+  B
+  \ar[
+    rr,"g"
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&Y
+\end{tikzcd}
+\end{definition}
+
+This is sometimes also known as the morphism $i$ being ''weakly orthogonal to'' the morphism $p$; however, ''orthogonal to'' will refer to
+the stronger property that whenever $f$ and $g$ are as above, the diagonal morphism $h$ exists and is also required to be unique.
+
+For a class $C$ of morphisms in a category, its ''left weak orthogonal'' or its ''left Quillen negation''
+ $C^{&solb; \ell}$ with respect to the lifting property, respectively its ''right weak orthogonal'' and its ''right Quillen negation'' 
+$C^{&solb;r}$  is the class of all morphisms which have the left, respectively right, lifting property 
+with respect to each morphism in the class $C$. In notation,
 
 $$
-  \array{
-    a &\stackrel{u}{\to}& c
-    \\
-    \downarrow^{\mathrlap{f}}
-    &&
-    \downarrow^{\mathrlap{g}}
-    \\
-   b &\stackrel{v}{\to}& d    
-  }
-$$
+C^{&solb; \ell} := \{ i \mid \forall p\in C, i\,\,&solb;\,\, p\} \,\,\,
+C^{&solb; r} := \{ p \mid \forall i\in C, i\,\,&solb;\,\, p\}, \,\,\,
+C^{&solb; lr} := (C^{&solb; l})^{&solb; r}  
+$$ 
 
-as morphisms $(u,v) : f \rightarrow g$. We may also refer to a commutative square $g u=v f$ as a **lifting problem** between $f$ and $g$.
+Taking the Quillen negation of a class $C$ is a simple way to define a class of morphisms excluding [[isomorphisms]] from $C$, in a way which is useful in a [[diagram chasing]] computation.
 
-We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$ or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$ as above,  there is an arrow $\gamma$ 
+Thus, in the category _Set_ of [[Set|sets]], the right Quillen negation $\{\emptyset \to \{*\}\}^{&solb;  r}$ of the simplest [[surjective|non-surjection]] $\emptyset\to \{*\},$ is the class of surjections. The left and right Quillen negation of $\{x_1,x_2\}\to \{*\},$ the simplest non-injection, are both precisely the class of injections, 
+$\{\{x_1,x_2\}\to \{*\}\}^{&solb; \ell} = \{\{x_1,x_2\}\to \{*\}\}^{&solb;  r} = \{ f \mid f \text{ is an injection } \}.$
 
-$$
-  \array{
-    a &\stackrel{u}{\to}& c
-    \\
-    \downarrow^f
-    &{}^{\exists \gamma}\nearrow&
-    \downarrow^g
-    \\
-   b &\stackrel{v}{\to}& d    
-  }
-$$
-
-
-from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **lift** or a **solution** to the lifting problem $(u,v)$.
-
-(If this lift is unique, we say that $f$ is **[[orthogonal]]** $f \perp g$ to $g$.)
-
-
-
+It is clear that $C^{&solb;\ell r} \supset C$ and $C^{&solb; r\ell} \supset C$. The class $C^{&solb;  r}$ is always closed under retracts, [[pullback|pullbacks]], (small) [[product|products]] (whenever they exist in the category) and composition of morphisms, and contains all isomorphisms of C. Meanwhile, $C^{&solb;  \ell}$ is closed under retracts, [[pushout]]s, (small) [[coproduct]]s and transfinite composition ([[filtered colimit]]s) of morphisms (whenever they exist in the category), and also contains all isomorphisms.
 
 
 
