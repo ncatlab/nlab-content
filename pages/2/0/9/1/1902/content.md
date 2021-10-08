@@ -2,7 +2,7 @@ Dominic Verity is a British category theorist, based in Australia. He is an Emer
 
 He has worked on the theory of [[complicial sets]] and their [[weak complicial sets|weak analogues]], which followed up on ideas of [[John Roberts]] on cohomology and, effectively, [[omega-category]] theory.
 
-More recently he has worked with [[Emily Riehl]] on foundations of [[(infinity,1)-category theory|$\infty$-category theory]] seen through their [[homotopy 2-category]], and using the concept of [[∞-cosmoi]] to capture common structure of different presentations of $\infty$-categories.
+More recently he has worked with [[Emily Riehl]] on foundations of [[(infinity,1)-category theory|$(\infty, 1)$-category theory]] seen through their [[homotopy 2-category]], and using the concept of [[∞-cosmoi]] to capture common structure of different presentations of $(\infty, 1)$-categories.
 
 * [Departmental webpage](https://researchers.mq.edu.au/en/persons/dominic-verity)
 
