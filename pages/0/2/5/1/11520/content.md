@@ -75,7 +75,7 @@ for the non-full [[sub-(∞,1)-category]] of the global indexing category, def. 
 
 ### Relation to the local orbit category
 
-The [[slice (∞,1)-category]] of the global orbit category over $\mathbf{B}G$ is the local [[orbit category]] of $G$
+The [[slice (∞,1)-category]] of the global orbit category $Orb$ (the version with [[faithful functors]] as morphisms) over $\mathbf{B}G$ is the local [[orbit category]] of $G$
 
 $$
   Orb_{/\mathbf{B}G}  \simeq Orb_G
@@ -114,6 +114,8 @@ $$
 ## Related concepts
 
 * [[orbifold cohomology]]
+
+* [[cohesive relation between global- and G-equivariant homotopy theory]]
 
 [[!include equivariant homotopy theory -- table]]
 
