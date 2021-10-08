@@ -1,5 +1,8 @@
+Dominic Verity is a British category theorist, based in Australia. He is an Emeritus Professor at Macquarie University.
 
-Emeritus Professor at Macquarie University.
+He has worked on the theory of [[complicial set]]s and their [[weak complicial sets|weak analogues]], which followed up on ideas of [[John Roberts]] on cohomology and, effectively, infinity category theory.
+
+He has worked on the theory of [[∞-cosmoi]]  in a series of articles jointly with [[Emily Riehl]].
 
 * [Departmental webpage](https://researchers.mq.edu.au/en/persons/dominic-verity)
 
