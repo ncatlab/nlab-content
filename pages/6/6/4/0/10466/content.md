@@ -288,11 +288,15 @@ The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definiti
 
 ## Related concepts
 
+* [[cohesion of global- over G-equivariant homotopy theory]]
+
 * [[orbifold cohomology]]
 
 * [[global equivariant stable homotopy theory]]
 
 * [[proper equivariant homotopy theory]]
+
+
 
 [[!include equivariant homotopy theory -- table]]
 
