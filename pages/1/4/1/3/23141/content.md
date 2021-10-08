@@ -119,7 +119,8 @@ The [[slice (infinity,1)-topos|slice]] of [[global equivariant homotopy theory]]
 \end{tikzcd}
 
 
-This observation is due to [Rezk 2014](#Rezk14), where this is proven by direct construction of the respective [[adjoint quadruple]] of [[(infinity,1)-functors|$\infty$-functors]]. Below we mean to discuss how the evident [[reflective sub-(infinity,1)-category|reflection]] (Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}) of the $G$-[[orbit category]] inside the $\prec\!\! G$-[[slice (infinity,1)-category|slice]] of the "[[global orbit category]]" (see Rem. \ref{TerminologySingularities} below) immediately implies (Prop. \ref{SliceOfGlobalHOverGOrbiSingularityIsCohesiveOverGH}) this cohesive relation, by [[(infinity,1)-Kan extension|$\infty$-Kan extension]].
+This observation is due to [Rezk 2014](#Rezk14). Below we amplify how this is a formal consequence (as in [Rezk 14, Sec. 7.1-7.2](#Rezk14))
+of the evident [[reflective sub-(infinity,1)-category|reflection]] (Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}) of the $G$-[[orbit category]] inside the $\prec\!\! G$-[[slice (infinity,1)-category|slice]] of the "[[global orbit category]]" (see Rem. \ref{TerminologySingularities} below), which immediately implies (Prop. \ref{SliceOfGlobalHOverGOrbiSingularityIsCohesiveOverGH}) the cohesive relation, by [[(infinity,1)-Kan extension|$\infty$-Kan extension]].
 
 
 ## Preliminaries
@@ -463,15 +464,17 @@ where those going to the left are [[fully faithful (infinity,1)-functors|fully f
 
 ## References
 
-The observation and original proof of the relation is due to:
+The observation is due to:
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_, 2014  ([pdf](http://www.math.uiuc.edu/~rezk/global-cohesion.pdf), [[Rezk14.pdf:file]])
 
-Some of the above notation (e.g. for $\prec\!\! G$) follows:
+where further properties of this cohesive situation are proven, revolving around further characterization of the full inclusion of $G$-[[orbispaces]].
+
+Some of the above notation (e.g. for "$\prec\!\! G$") follows:
 
 * {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
-which otherwise expands on meaning and applications of the above cohesion in the case $G = 1$.
+which expands on application of the above singular cohesion -- in the special case $G = 1$ but combined with [[smooth infinity-groupoid|smooth cohesion]] --  to differential-geometric [[orbifolds]]  and [[orbifold cohomology]].
 
 Diagrams and discussion as presented above are taken from:
 
