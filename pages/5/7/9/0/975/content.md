@@ -23,9 +23,13 @@ This entry provides a hyperlinked index for the book
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], 
  
-  _Categories and Sheaves_, 
+  **Categories and Sheaves** 
   
-  Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+  Grundlehren der Mathematischen Wissenschaften __332__ 
+
+  Springer (2006)
+
+  [doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4)
 
   [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)
 
