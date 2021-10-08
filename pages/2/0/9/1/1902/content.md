@@ -3,6 +3,8 @@ Emeritus Professor at Macquarie University.
 
 * [Departmental webpage](https://researchers.mq.edu.au/en/persons/dominic-verity)
 
+* [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=61019)
+
 ## Selected writings
 
 On [[enriched category theory]] and [[internal categories]]:
