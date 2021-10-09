@@ -164,7 +164,7 @@ For the analogous statement in [[(∞,1)-category theory]]  see at
 ### Limits and colimits
  {#LimitsAndColimits}
 
-+-- {: .num_prop}
++-- {: .num_prop #ColimitInSliceAreReflectedByColimitsInPlainCategory}
 ###### Proposition
 
 A  [[colimit]] in an [[over category]] is computed as a colimit in the underlying category.
