@@ -215,11 +215,18 @@ $\,$
 
 ## Examples
 
+### Via Kan extension of adjoint pairs
+ {#ViaKanExtensionOfAdjointPairs}
 
-+-- {: .num_example #KanExtensionOfAdjointPairIsAdjointQuadruple}
-###### Example
+A rich source of adjoint quadruples arises form [[adjoint pairs]] between [[small categoires]] by left/right [[Kan extension]] to their [[categories of presheaves]]. 
+
+More interesting examples of adjoint quadruples tend to arise from these presheaf constructions when the quadruple (co)restricts to sub-[[categories of sheaves]].
+
+We spell out two proofs of this fact, the first using [[coend]]-calculus in the generality of [[enriched category theory]], the second using more elementary [[colimit]]-notation.
+
+\begin{prop}\label{KanExtensionOfAdjointPairIsAdjointQuadruple}
 **([[Kan extension]] of [[adjoint pair]] is [[adjoint quadruple]])**
-
+\linebreak
 For $\mathcal{V}$ a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with all [[limits]] and [[colimits]], let $\mathcal{C}$, $\mathcal{D}$ be two [[small category|small]] $\mathcal{V}$-[[enriched categories]]and let
 
 $$
@@ -252,7 +259,7 @@ $$
 
 between the precomposition on [[enriched presheaves]] with one functor and the left/right [[Kan extension]] of the other.
 
-By essential uniqueness of [[adjoint functors]], this means that the two [[Kan extension]] [[adjoint triples]] of $q$ and $p$ 
+By essential uniqueness of [[adjoint functors]] ([this Prop.](adjoint+functor#UniquenessOfAdjoints)), this means that the two [[Kan extension]] [[adjoint triples]] of $q$ and $p$ 
 
 $$
   \array{
@@ -274,11 +281,8 @@ $$
   [\mathcal{D}^{op}, \mathcal{V}]
 $$
 
-=--
-
-+-- {: .proof}
-###### Proof
-
+\end{prop}
+\begin{proof}
 For every [[enriched presheaf]] $F \;\colon\; \mathcal{C}^{op} \to \mathcal{V}$ we have a sequence of $\mathcal{V}$-[[enriched natural isomorphism]] as follows
 
 $$
@@ -300,14 +304,384 @@ $$
 
 Here the first step is the [[coend]]-formula for [[left Kan extension]] ([here](Kan+extension#PointwiseByCoEnds)), the second step is the [[enriched adjunction]]-isomorphism for $q \dashv p$ and the third step is the [[co-Yoneda lemma]].
 
-This shows the first statement. By essential uniqueness of adjoints, the other statements follow.
+This shows the first statement. By essential uniqueness of adjoints ([this Prop.](adjoint+functor#UniquenessOfAdjoints)), the other statements follow.
+\end{proof}
 
 
-=--
+The following is the same argument without using coend-calculus. This argument applies verbatim also, for instance, in [[(infinity,1)-category theory|$\infty$-category theory]] using results from standard sources:
 
-\begin{example}
-For a [[cohesive topos]], by definition, the terminal [[geometric morphism]] extends to an adjoint quadruple.
-\end{example}
+\begin{prop}\label{AdjointPairInducesAdjointQuadrupleUnderKanExtension}
+Given a pair of [[adjoint functors]] between [[small categories]]
+\begin{tikzcd}
+    \mathcal{S}_1
+    \ar[
+      rr,
+      shift left=7pt,
+      "{ \ell }"{above}
+    ]
+    &&
+    \mathcal{S}_2
+    \ar[
+      ll,
+      shift left=7pt,
+      "{ r }"{below}
+    ]
+    \ar[
+      ll,
+      phantom,
+      "{ \scalebox{.6}{$\bot$} }"
+    ]
+\end{tikzcd}
+the induced operations of pre-composition on [[categories of presheaves]] are adjoint to each other, $\ell^\ast \,\dashv\, r^\ast$, and their [[adjoint triples]] of [[Kan extensions]] overlap:
+
+\begin{tikzcd}[column sep=large]
+      \mathrm{PSh}(\mathcal{S}_1)
+      \;\;
+      \ar[
+        rr,
+        shift left=-7pt,
+        "{ \ell_\ast \,\simeq\, r^\ast    }"{description}
+      ]
+      \ar[
+        rr,
+        shift left=32pt-7pt,
+        "{ \ell_! }"{description, pos=.4}
+      ]
+      &&
+      \;\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \ar[
+        ll,
+        shift right=16pt-7pt,
+        "{ \ell^\ast \,\simeq\, r_! }"{description}
+      ]
+      \ar[
+        ll,
+        shift right=-16pt-7pt,
+        "{ r_\ast }"{description, pos=.4}
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=8pt-7pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=24pt-7pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=-8pt-7pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+\end{tikzcd}
+\end{prop}
+\begin{proof}
+The [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) which is characteristic of the adjunction $\ell^\ast \dashv r^\ast$ is the following sequence of [[natural bijections]]:
+
+$$
+  \begin{aligned}
+      &
+      \mathrm{PSh}(\mathcal{S}_1)
+      \big(
+        X_1
+        ,\,
+        r^\ast(X_2)
+      \big)
+      \\
+      &
+      \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_1)
+      \Big(
+         \underset{
+           \underset{
+             s_1 \to X_1
+           }{\longrightarrow}
+         }{\lim}
+         \,
+        y(s_1)
+        \,
+        ,\,
+        r^\ast
+        \big(
+         \underset{
+           \underset{
+             s_2 \to X_2
+           }{\longrightarrow}
+         }{\lim}
+         \,
+        y(s_2)
+        \big)
+      \Big)
+      \\
+      &
+      \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \mathrm{PSh}(\mathcal{S}_1)
+      \Big(
+        y(s_1)
+        ,\,
+         \underset{
+           \underset{
+             s_2 \to X_2
+           }{\longrightarrow}
+         }{\lim}
+         \,
+        r^\ast
+        \big(
+          y(s_2)
+        \big)
+      \Big)
+      \\
+      &
+      \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \,
+         \underset{
+           \underset{
+             s_2 \to X_2
+           }{\longrightarrow}
+         }{\lim}
+      \mathrm{PSh}(\mathcal{S}_1)
+      \Big(
+        y(s_1)
+        ,\,
+        r^\ast
+        \big(
+          y(s_2)
+        \big)
+      \Big)
+      \\
+      & \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \;
+      \underset{
+        \underset{
+          s_2 \to X_2
+        }{\longrightarrow}
+      }{\lim}
+      \Site_2
+      \big(
+        r(s_1)
+        ,\,
+        s_2
+      \big)
+      \\
+      & \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \;
+      \underset{
+        \underset{
+          s_2 \to X_2
+        }{\longrightarrow}
+      }{\lim}
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        y\big(r(s_1)\big)
+        ,\,
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        y\big(r(s_1)\big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        y\big(r(s_1)\big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        \Site_2
+        \big(
+          (-)
+          ,\,
+          r(s_1)
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        \Site_2
+        \big(
+          \ell(-)
+          ,\,
+          s_1
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        \ell^\ast
+        \big(
+          y(s_1)
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \ell^\ast
+        \big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        y(s_1)
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \ell^\ast
+        (
+          X_1
+        )
+        ,\,
+        X_2
+      \Big)
+  \end{aligned}
+$$
+Here we used repeatedly
+
+* the [[co-Yoneda lemma]] in the form
+
+  $$
+    X
+    \;\simeq\;
+    \underset{
+      \underset{y(s) \to X}{\longrightarrow}
+    }{\lim}
+    \,y(s)
+    \,,
+  $$
+
+  expressing a [[presheaf]] $X \,\in\, PSh(S)$ as a [[colimit]] of [[representable functors]] $y(s)$ (the colimit is over the [[comma category]] $y \downarrow X$, but that does not even matter in the proof above),
+
+* the fact that any [[hom-functor preserves limits|hom-functor sends colimits in its first argument to limits]],
+
+* the strong [[Yoneda lemma]] which says that $PSh(\mathcal{S})\big(y(s), X\big) \,\simeq\, X(s)$,
+
+* the fact that [[colimits of presheaves are computed objectwise]].
+
+As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjoint triples by essential uniqueness of [[adjoint functors]] ([this Prop.](adjoint+functor#UniquenessOfAdjoints)).
+\end{proof}
+
+
+### Cohesive toposes
+
+For a [[cohesive topos]], by definition, the terminal [[geometric morphism]]  to the given [[base topos]] extends to an adjoint quadruple.
+
+For example, if the cohesive topos has a [[cohesive site]] $\mathcal{S}$, which in particular means that $\mathcal{S}$ has a [[terminal object]] and hence participates with the [[terminal category]] in an [[adjunction]] of the form
+
+$$
+  \mathcal{S}
+  \underoverset
+    {\underset{}{\hookleftarrow}}
+    {\overset{}{\longrightarrow}}
+    {\;\;\;\bot\;\;\;}
+   \ast
+  \,.
+$$
+
+then the cohesive adjoint quadruple is the [[corestriction|(co-)]][[restriction]] to [[sheaves]] of the adjoint quadruple on presheaves as [above](#ViaKanExtensionOfAdjointPairs).
+
 
 ## Related concepts
 
