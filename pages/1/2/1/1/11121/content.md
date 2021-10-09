@@ -26,7 +26,7 @@ This page is to collect some links related to the text
 
 on the [[global equivariant homotopy theory]] as a [[cohesive (∞,1)-topos]]. 
 
-See at _[global equivariant homotopy theory -- cohesion](global+equivariant+homotopy+theory#cohesion)_.
+See at *[[cohesion of global- over G-equivariant homotopy theory]]*.
 
 ## Related $n$Lab entries
 
