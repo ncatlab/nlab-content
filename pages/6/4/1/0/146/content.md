@@ -78,6 +78,9 @@ Presheaves of this form, or isomorphic to those of this form, are called [[repre
 
 Any [[category of presheaves]] is [[complete category|complete]] and [[cocomplete category|cocomplete]], with both [[limit|limits]] and [[colimit|colimits]] being computed _pointwise_.  That is, to compute the limit or colimit of a diagram $F:\: D \to Set^{C^op}$, we think of it as a functor $F:\: D \times C^{op} \to Set$ and take the limit or colimit in the $D$ variable.
 
+### Presheaves are colimits of representables
+ {#PresheavesAreColimitsOfRepresentables}
+
 \begin{proposition}\label{EveryPresheafIsColimitOfRepresentables}
 Every presheaf is a [[colimit]] of [[representable functor|representable presheaves]].
 \end{proposition}
