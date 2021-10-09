@@ -298,15 +298,16 @@ $$
   \end{aligned}
 $$
 
-Here the first step is the [[coend]]-formula for [[left Kan extension]] ([here](Kan+extension#PointwiseByCoEnds)), the second step if the [[enriched adjunction]]-isomorphism for $q \dashv p$ and the third step is the [[co-Yoneda lemma]].
+Here the first step is the [[coend]]-formula for [[left Kan extension]] ([here](Kan+extension#PointwiseByCoEnds)), the second step is the [[enriched adjunction]]-isomorphism for $q \dashv p$ and the third step is the [[co-Yoneda lemma]].
 
-This shows the first statement, which, by essential uniqueness of adjoints, implies the following statements.
+This shows the first statement. By essential uniqueness of adjoints, the other statements follow.
 
 
 =--
 
-
-* For [[cohesive topos]] by definition the terminal [[geometric morphism]] extends to an adjoint quadruple.
+\begin{example}
+For a [[cohesive topos]], by definition, the terminal [[geometric morphism]] extends to an adjoint quadruple.
+\end{example}
 
 ## Related concepts
 
