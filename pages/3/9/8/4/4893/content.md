@@ -234,7 +234,7 @@ $$
 
 encode _boundary conditions_ on cobordisms with boundary for the theory $Z$. Conversely, this means that one discovers on the boundary of the $n$-dimensional QFT $Z$ the $(n-1)$-dimensional QFT $B$. Or rather, this is the case if instead of [[natural transformation]]s $\eta$ one uses [[canonical transformation]]s: those component maps $\eta : C_{n-1} \to D^{I}$ that are required to be natural only with respect to the invertible $(n-1)$-morphisms in $C$.
 
-For the case of $n=2$ and 2-dimensional cobordisms without any extra structure, a detailed version of these statements are given in ([Schommer-Pries](#SchommerPries)). For $n=3$ and the holographic relation between [[Reshetikhin?Turaev model]] and rational 2d [[CFT]] in [[FFRS-formalism]] some remarks are in ([Schreiber](#Schreiber)).
+For the case of $n=2$ and 2-dimensional cobordisms without any extra structure, a detailed version of these statements are given in ([Schommer-Pries](#SchommerPries)). For $n=3$ and the holographic relation between [[Reshetikhin-Turaev model]] and rational 2d [[CFT]] in [[FFRS-formalism]] some remarks are in ([Schreiber](#Schreiber)).
 
 In the study of [[quantum field theory]] and [[string theory]] such kinds of relations between $n$-dimensional QFTs and $(n-1)$-dimensional QFTs on their boundary have been called the _[[holographic principle]]_ . The degree to which this principle has been formalized and the degree to which this formalization has been verified varies greatly. Examples include
 
@@ -264,7 +264,7 @@ The discussion of transformations between 2d FQFTs and how these encode boundary
 
 from slide 65 on.
 
-A formally  comparatively well understood case of QFT holography is the relation between 3-dimensional [[Chern-Simons theory]] and the 2-dimensional [[WZW-model]]. This is formalized by the [[Reshetikhin?Turaev model]] on the 3-dimensional side and the [[Fuchs-Runkel-Schweigert construction]] on the 2-dimensional side.
+A formally  comparatively well understood case of QFT holography is the relation between 3-dimensional [[Chern-Simons theory]] and the 2-dimensional [[WZW-model]]. This is formalized by the [[Reshetikhin-Turaev model]] on the 3-dimensional side and the [[Fuchs-Runkel-Schweigert construction]] on the 2-dimensional side.
 
 Remarks on how the relation between Reshitikhin-Turaev and FSR seem to have an interpretation in terms transformations between 3-functors are at
 
