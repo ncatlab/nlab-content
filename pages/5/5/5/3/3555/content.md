@@ -137,7 +137,7 @@ Def. \ref{ShapeOfAnInfinityTopos}
 and Def. \ref{LurieShapeOfAnInfinityTopos} are equivalent.
 \end{proposition}
 \begin{proof}
-For $X \in $ [[∞Grpd]] we have by the [[(∞,1)-Grothendieck construction]]-theorem and using that up to equivalence every morphism of $\infty$-groupoids is a [[Cartesian fibration]] (see there) that 
+For $X \in $ [[∞Grpd]] we have by the [[(∞,1)-Grothendieck construction]]-theorem and using that up to equivalence every morphism of $\infty$-groupoids is a [[Cartesian fibration]] (see [there](infinity1-Grothendieck+construction#GrpdFibsOverGrpds)) that 
 
 $$
   Func(X,\infty Grpd) 
