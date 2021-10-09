@@ -19,7 +19,7 @@
 
 ## Idea
 
-A weak inverse is like an inverse, but weakened to work in situations where being an inverse on the nose would be [[evil]].
+A weak inverse or quasi-inverse is like an inverse, but weakened to work in situations where being an inverse on the nose would be [[evil]].
 
 
 ## Definitions
