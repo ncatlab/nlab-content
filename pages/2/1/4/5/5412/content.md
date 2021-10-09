@@ -227,6 +227,7 @@ $$
 
 =--
 
+([SGA4 I, Ex. 1 Prop. 5.11](#SGA41), [p. 27](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf#page=27); [Kashiwara-Schapira 2006, Lemma 1.4.12](#KS06), [p. 26](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf#page=26))
 
 +-- {: .proof}
 ###### Proof
@@ -269,7 +270,7 @@ $$
   }
 $$
 
-One readily checks that a weak inverse of $e$ is given by the functor 
+One readily checks (for more details see [[slice of presheaves is presheaves on slice|here]]) that a weak inverse of $e$ is given by the functor 
 $$
   \bar e \;\colon\; PSh(C)/Y(c) \to PSh(C/c)
 $$
@@ -338,7 +339,8 @@ $$i(F)(A \in C) = \{ (p,a) | p \in P(A), a \in F(A,p) \} = \Sigma_{p \in P(A)} F
 with obvious projection to $P$. The inverse takes $f : Q \to P$ to
 $$i^{-1}(f)(A, p \in P(A)) = f_A^{-1}(p)\;.$$
 
-For a proof see [Kashiwara-Schapira (2006, Lemma 1.4.12, p. 26)](#KS06). For a more general statement involving slices of Grothendieck toposes see [Mac Lane-Moerdijk (1994, p.157)](#MacLaneMoerdijk).
+[Kashiwara-Schapira (2006, Lemma 1.4.12, p. 26)](#KS06).
+For a more general statement involving slices of Grothendieck toposes see [Mac Lane-Moerdijk (1994, p.157)](#MacLaneMoerdijk).
 
 In particular, this equivalence shows that _slices of presheaf toposes are presheaf toposes_.
 
@@ -446,7 +448,7 @@ Let $\mathcal{E}$ be a [[topos]] and $X$ an [[object]] in $\mathcal{E}$. Then th
 
 =--
 
-This is [SGA4 (1972, Exposé IV, Proposition 5.12, p. 382)](#SGA4), in the special case where $E' = Set$. In the statement of the proposition, we used the (now standard) convention that a morphism of points (or [[geometric transformation]]) $e \to e'$ is a natural transformation $e^* \to (e')^*$. Note however that SGA4 uses the opposite convention, see [SGA4 (1972, Exposé IV, 3.2, p. 328)](#SGA4).
+This is [SGA4 (1972, Exposé IV, Proposition 5.12, p. 382)](#SGA41), in the special case where $E' = Set$. In the statement of the proposition, we used the (now standard) convention that a morphism of points (or [[geometric transformation]]) $e \to e'$ is a natural transformation $e^* \to (e')^*$. Note however that SGA4 uses the opposite convention, see [SGA4 (1972, Exposé IV, 3.2, p. 328)](#SGA41).
 
 The point corresponding the pair $(e,x)$ is the one constructed in Observation \ref{points-from-pairs}.
 
@@ -471,9 +473,11 @@ The point corresponding the pair $(e,x)$ is the one constructed in Observation \
 
 ## References
 
-* {#SGA4}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas ([[SGA4]])_, Springer **LNM** vol.269 (1972). (In particular, exposé III.5 and exposé IV.5 on the "induced topos" - _topos induit_ = slice topos)
+* {#SGA41}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas_ ([[SGA4]]) Tome 1: *Théorie des Topos* Springer **LNM** **269** (1972) ([doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf))
 
-* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer 2006.
+  (In particular, exposé III.5 and exposé IV.5 on the "induced topos" - _topos induit_ = slice topos)
+
+* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer 2006 (  [doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf))
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (Especially section IV.7)
 
