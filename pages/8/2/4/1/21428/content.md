@@ -16,11 +16,11 @@
 
 ## Idea
 
-What is called *flat space holography* is a, somewhat more hypothetical, generalization of the "holographic principle" in the form of the [[AdS-CFT correspondence]], that should be applicable not to [[bulks]] that are [[asymptotic boundary|atympotically]] [[anti de Sitter spacetime|anti de Sitter]] but to [[bulks]] that are [[asymptotic boundary|atympotically]] [[Minkowski spacetime|Minkowskian]].
+What is called *flat space holography* is a, somewhat more hypothetical, generalization of the "holographic principle" in the form of the [[AdS-CFT correspondence]], that should be applicable not to [[bulks]] that are [[asymptotic boundary|asymptotically]] [[anti de Sitter spacetime|anti de Sitter]] but to [[bulks]] that are [[asymptotic boundary|asymptotically]] [[Minkowski spacetime|Minkowskian]].
 
 Notice here that the  *[[far horizon geometry]]* of all [[BPS state|BPS]] branes is a [[flat orbifold]] spacetime (see [here](near-horizon+geometry#FarHorizonGeometry)) and that "far" is [[Planck length|Planck scale]] for single branes ("[[cone branes]]"), hence in the [[large 1/N limit]] (opposite to the [[large N limit]] in which the [[AdS-CFT correspondence]] applies). 
 
-In one more well-developed version of flat space holography, [[scattering amplitudes]] in [[asymptotic boundary|asymptically]] flat [[spacetimes]] are related to [[conformal field theories]] on [[celestial spheres]] in two dimensions lower -- "celestial amplitudes". This goes back to an observation in [de Boer & Solodukhin 2003](#deBoerSolodukhin03).
+In one more well-developed version of flat space holography, [[scattering amplitudes]] in [[asymptotic boundary|asymptotically]] flat [[spacetimes]] are related to [[conformal field theories]] on [[celestial spheres]] in two dimensions lower -- "celestial amplitudes". This goes back to an observation in [de Boer & Solodukhin 2003](#deBoerSolodukhin03).
 
 ## Related concepts
 
