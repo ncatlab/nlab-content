@@ -88,6 +88,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 * [[philosophy of science]], [[philosophy of physics]]
 * [[Judea Pearl]]
 * [[Gravity and Grace]]
+* [[Michael Friedman]]
+
 
 ### General
 
@@ -153,7 +155,7 @@ Some philosophical aspects of the role of category theory are touched upon in so
 
 ### Talks
 
-* {#Corfield19} [[David Corfield]], _The Dynamics of Mathematical Reason_, [slides](https://ncatlab.org/davidcorfield/show/Vienna#DynamicsOfMathematicalReason)
+* {#Corfield19} [[David Corfield]], _The Dynamics of Mathematical Reason_, [slides 1](https://ncatlab.org/davidcorfield/files/WIP2.pdf), [slides 2](https://ncatlab.org/davidcorfield/show/Vienna#DynamicsOfMathematicalReason)
 
 category: philosophy
 
