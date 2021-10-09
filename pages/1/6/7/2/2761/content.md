@@ -28,19 +28,18 @@ The statement of the [[Yoneda lemma]] generalizes from [[categories]] to [[(∞,
 ## Yoneda embedding 
  {#YonedaEmbedding}
 
-+-- {: .num_defn }
-###### Definition
-
+\begin{definition}
 For $C$ an [[(∞,1)-category]] and $PSh(C)$ its [[(∞,1)-category of (∞,1)-presheaves]], the **$(\infty,1)$-Yoneda embedding** is the [[(∞,1)-functor]]
 
 $$
-  y : C \to PSh(C)
+  y \colon C \to PSh(C)
 $$
 
 
-given by $y(X) : U \mapsto C(U,X)$.
+given by $y(X) \colon U \mapsto C(U,X)$.
+\end{definition}
 
-=--
+See under the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]] this is [Riehl & Verity 2018, Def. 6.2.3](#RiehlVerity18)
 
 
 
@@ -49,8 +48,7 @@ given by $y(X) : U \mapsto C(U,X)$.
 ### Yoneda lemma
  {#YonedaLemma}
 
-+-- {: .num_prop }
-###### Proposition
+\begin{prop}
 **$(\infty,1)$-Yoneda embedding**
 
 Let $C$ be an [[(∞,1)-category]] and $PSh(C) \coloneqq Func(C^\op, \infty Grpd)$ be the corresponding [[(∞,1)-category of (∞,1)-presheaves]]. Then the canonical [[(∞,1)-functor]]
@@ -60,10 +58,9 @@ $$
 $$
 
 is a [[full and faithful (∞,1)-functor]].
+\end{prop}
 
-=--
-
-([[Higher Topos Theory|HTT, prop. 5.1.3.1]])
+For small $\infty$-categories this is [[Higher Topos Theory|HTT, prop. 5.1.3.1]]. For large $\infty$-categories see [Riehl & Verity 2018, Thm. 7.2.22](#RiehlVerity18) (which considers $\infty$-presheaves regarded under the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]]).
 
 
 
@@ -163,7 +160,10 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 ## References
 
-* {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_
+* {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_, 2009
+
+* {#RiehlVerity18} [[Emily Riehl]], [[Dominic Verity]], Def. 6.2.3 and Thm. 7.2.22 in: *The comprehension construction*, Higher Sttructures **2** 1 (2018)  ([arXiv:1706.10023](https://arxiv.org/abs/1706.10023), [hs:39](http://137.111.162.45/index.php/higher_structures/article/view/39))
+
 
 * MathOverflow, _The Yoneda Lemma for $(\infty,1)$-categories?_ ([MO:9737/381](https://mathoverflow.net/q/9737/381))
 
