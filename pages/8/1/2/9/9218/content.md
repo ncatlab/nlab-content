@@ -35,6 +35,7 @@ In a [[finitely complete category|finitely complete]] [[site]] $(S,J)$ the assig
 
 * [[partial section]]
 
+* [[slice of presheaves is presheaves on slice]]
 
 [[!redirects local section]]
 [[!redirects local sections]]
