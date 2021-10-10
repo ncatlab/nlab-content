@@ -19,7 +19,7 @@
 
 ## Idea
 
-The third [[stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 24:
+The third [[stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] [[24]]:
 
 \[
   \label{QuaternionicHopfFibrationGeneratingpi3}
