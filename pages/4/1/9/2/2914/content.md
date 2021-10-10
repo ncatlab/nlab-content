@@ -220,7 +220,7 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
 
 \begin{proposition}\label{LeftBaseChangeQuillenAdjunction}
 **(left base change Quillen adjunction)** \linebreak
-  For $\mathcal{C}$ a [[model category]] and $c_1 \xrightarrow{f} c_2$ any [[morphism]] in $\mathcal{C}$, the left [[base change]] adjunction $(f_1 \dashv f^\ast)$ along $f$ (where $f_!$ is [[postcomposition]] with and $f^\ast$ is [[pullback]] along $f$) is a [[Quillen adjunction]]:
+  For $\mathcal{C}$ a [[model category]] and $c_1 \xrightarrow{f} c_2$ any [[morphism]] in $\mathcal{C}$, the left [[base change]] adjunction $(f_1 \dashv f^\ast)$ along $f$ (where $f_!$ is [[postcomposition]] with and $f^\ast$ is [[pullback]] along $f$) is a [[Quillen adjunction]] between the slice model structures (from Prop. \ref{SliceModelStructure}):
   $$
     \mathcal{C}_{/c_1}
       \underoverset
