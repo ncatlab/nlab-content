@@ -476,7 +476,7 @@ $$
           s_2 \to X_2
         }{\longrightarrow}
       }{\lim}
-      \Site_2
+      \mathcal{S}_2
       \big(
         r(s_1)
         ,\,
@@ -546,7 +546,7 @@ $$
             s_1 \to X_1
           }{\longrightarrow}
         }{\lim}
-        \Site_2
+        \mathcal{S}_2
         \big(
           (-)
           ,\,
@@ -569,7 +569,7 @@ $$
             s_1 \to X_1
           }{\longrightarrow}
         }{\lim}
-        \Site_2
+        \mathcal{S}_2
         \big(
           \ell(-)
           ,\,
@@ -585,7 +585,7 @@ $$
       \Big)
       \\
       & \;\simeq\;
-      \mathrm{PSh}(\mathcal{S}_2)
+    PSh(\mathcal{S}_2)
       \Big(
         \underset{
           \underset{
@@ -606,7 +606,7 @@ $$
       \Big)
       \\
       & \;\simeq\;
-      \mathrm{PSh}(\mathcal{S}_2)
+    PSh(\mathcal{S}_2)
       \Big(
         \ell^\ast
         \big(
@@ -627,7 +627,7 @@ $$
       \Big)
       \\
       & \;\simeq\;
-      \mathrm{PSh}(\mathcal{S}_2)
+    PSh(\mathcal{S}_2)
       \Big(
         \ell^\ast
         (
@@ -926,6 +926,228 @@ In conclusion:
 \begin{proof}
   We need to show that $f_!$ preserves (1) the [[terminal object]] and (2) [[binary products]]. With the given assumption on $f$, the first follows with Lem. \ref{LeftKanExtensionIsOriginalFunctorOnRepresentables} while the second follows with Lem. \ref{LeftKanExtensionOfBinProductPreservingIsBinProductPres}.
 \end{proof}
+
+\begin{proposition}\label{LeftKanExtensionOfFullyFaithfulIsFullyFaithful}
+The left Kan extension $f_!$ of a [[fully faithful functor]] $f$ between [[small categories]] is itself fully faithful:
+\begin{tikzcd}
+    \mathcal{S}_1
+    &
+    \mathcal{S}_2
+    \ar[
+      l,
+      hook',
+      "{i}"{above}
+    ]
+  &
+  \;\;\;\;  
+  \Rightarrow
+  \;\;\;\;
+  &
+    \mathrm{PSh}(\mathcal{S}_1)
+    &
+    \mathrm{PSh}(\mathcal{S}_2)
+    \ar[
+      l,
+      hook',
+      "{i_!}"{above}
+    ]
+\end{tikzcd}
+\end{proposition}
+\begin{proof}
+  We need to show for $X, X' \,\in\, PSh(\mathcal{S}_2)$ the morphism
+$$
+  PSh(\mathcal{S}_2)
+  (X,\, X')
+  \xrightarrow{ \; (i_!)_{X, X'} \; }
+  PSh(\mathcal{S}_`)
+  \big(
+    i_!(X)
+    ,\, 
+   i_!( X')
+  \big)
+$$
+is an equivalence. But since $i_!$ is a left adjoint and since $X$ and $X'$ are colimits of representables, this morphism is the unique one which reduces to 
+\[
+  \label{ComponentIsomorphismOfAFullyFaithfulFunctor}
+  \mathcal{S}_2
+  (s,\, s')
+  \xrightarrow{ \; i_{s, s'} \; }
+  \mathcal{S}_1
+  \big(
+    i(s)
+    ,\, 
+   i( s')
+  \big)
+\]
+on representables, which is an isomorphism by the assumption that $i$ is fully faithful. If follows that $(i_!)_{X, X'}$, is the compostite of the following isomorphisms, and hence an isomorphism:
+$$
+  \begin{aligned}
+    &
+    PSh(\mathcal{S}_1)
+    \big(
+      i_!(X_1)
+      ,\,
+      i_!(X_2)
+    \big)
+    \\
+    &
+    \;\simeq\;
+    PSh(\mathcal{S}_1)
+    \Big(
+      i_!
+      \big(
+      \underset{
+        \underset{s \to X}{\longrightarrow}
+      }{\lim}
+        y(s)
+      \big)
+      ,\,
+      i_!
+      \big(
+        \underset{
+          \underset{s' \to X'}{\longrightarrow}
+        }{\lim}
+        y(s')
+      \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    PSh(\mathcal{S}_1)
+    \Big(
+      \underset{
+        \underset{s \to X}{\longrightarrow}
+      }{\lim}
+        i_!
+        \big(
+          y(s)
+        \big)
+      ,\,
+      \underset{
+        \underset{s' \to X'}{\longrightarrow}
+      }{\lim}
+        i_!
+        \big(
+          y(s')
+        \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    PSh(\mathcal{S}_1)
+    \Big(
+      \underset{
+        \underset{s \to X}{\longrightarrow}
+      }{\lim}
+        y
+        \big(
+          i
+          (s)
+        \big)
+      ,\,
+      \underset{
+        \underset{s' \to X'}{\longrightarrow}
+      }{\lim}
+        y
+        \big(
+          i(s')
+        \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    \underset{
+    }{\lim}
+      \underset{
+        \underset{s' \to X'}{\longrightarrow}
+      }{\lim}
+    PSh(\mathcal{S}_1)
+    \Big(
+        y
+        \big(
+          i
+          (s)
+        \big)
+      ,\,
+        y
+        \big(
+          i(s')
+        \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    \underset{
+      \underset{s \to X}{\longleftarrow}
+    }{\lim}
+      \underset{
+        \underset{s' \to X'}{\longrightarrow}
+      }{\lim}
+    \mathcal{S}_1
+    \big(
+      i(s)
+      ,\,
+      i(s')
+    \big)
+    \\
+    &
+    \;\simeq\;
+    \underset{
+      \underset{s \to X}{\longleftarrow}
+    }{\lim}
+      \underset{
+        \underset{s' \to X'}{\longrightarrow}
+      }{\lim}
+    \mathcal{S}_2
+    \big(
+      s
+      ,\,
+      s'
+    \big)
+    \\
+    &
+    \;\simeq\;
+    \underset{
+      \underset{s \to X}{\longleftarrow}
+    }{\lim}
+      \underset{
+        \underset{s' \to X'}{\longrightarrow}
+      }{\lim}
+    PSh(\mathcal{S}_2)
+    \big(
+      y(s)
+      ,\,
+      y(s')
+    \big)
+    \\
+    &
+    \;\simeq\;
+    PSh(\mathcal{S}_2)
+    \Big(
+      \underset{
+        \underset{s \to X}{\longrightarrow}
+      }{\lim}
+      y(s)
+      ,\,
+      \underset{
+        \underset{s' \to X'}{\longrightarrow}
+      }{\lim}
+      y(s')
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    PSh(\mathcal{S}_2)
+    \big(
+      X
+      ,\,
+      X'
+    \big)
+  \end{aligned}
+$$
+Here the first and last steps are the [[co-Yoneda lemma]] and the preservation of its colimits as in the proofs before. In the middle steps we are using Lem. \ref{LeftKanExtensionIsOriginalFunctorOnRepresentables} to evaluate $i_!$ on representables and then (eq:ComponentIsomorphismOfAFullyFaithfulFunctor) inside the (co)limits.
+\end{proof}
+
 
 ## Related concepts
 
