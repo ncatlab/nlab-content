@@ -55,7 +55,7 @@ Enriched categories and [[enriched functors]] between them form themselves a cat
 
 ### Enrichment in a monoidal category {#InMonoidCat}
 
-Let $V$ be a [[monoidal category]] with
+Let $V$ be a [[monoidal category]] (possibly, but not necessarily, a [[Bénabou cosmos]]) with
 
 * tensor product $\otimes : V \times V \to V$;
 
@@ -265,6 +265,10 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 * [[Lawvere theories]] can be represented as enriched categories as well; see [Garner 2013](#Garner2014) and [Garner and Power 2017](#GarnerPower2017) for details. 
 
 ## Related concepts
+
+* [[Bénabou cosmos]]
+
+* [[enriched presheaf]]
 
 * [[enriched monad]]
 
