@@ -73,7 +73,7 @@ The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(x,y) = x \vee y = x 
 
 ## Abstract convex sets
 
-There is a nice abstract converse to the example of a [[convex subset]] of an affine space.  A convex space is __cancellative__ if $y = z$ whenever $c_p(x,y) = c_p(x,z)$ for some $c$ and $p \ne 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
+There is a nice abstract converse to the example of a [[convex subset]] of an affine space.  A convex space is __cancellative__ if $y = z$ whenever $c_p(x,y) = c_p(x,z)$ for some $x$ and $p \ne 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
 
 +-- {: .un_theorem}
 **Theorem** (Thm. 2 in the paper by Stone)
