@@ -264,6 +264,45 @@ Here
        \big\}
    \]
 
+
+\begin{tikzcd}[column sep=20pt]
+     \mathrm{PSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
+     \big(
+       (y_{\mathcal{C}})_{/X}(U \xrightarrow{\phi} X)
+       ,\,
+       (E \xrightarrow{p} y_{\mathcal{C}}(X) )
+     \big)
+     \ar[
+       rr
+     ]
+     \ar[d]
+     \ar[
+        drr,
+        phantom,
+        "\mbox{\tiny\textrm(pb)}"
+     ]
+     &&
+     \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        E
+     \big)
+     \ar[d]
+     \\
+     \big\{
+        y_{\mathcal{C}}(\phi)
+     \big\}
+     \ar[rr]
+     &&
+     \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        y_{\mathcal{C}}(X)
+     \big)              
+\end{tikzcd}
+
 \begin{proof}
 First to see that the functors are [[adjoint functor|adjoint]], we check the required [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) by observing the following sequence of [[natural bijections]]:
 
