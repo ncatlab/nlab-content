@@ -73,7 +73,7 @@ When $C$ and $D$ are [[pretopos|pretoposes]], a pretopos morphism $F : C \to D$ 
 +-- {: .num_example #MonadicFunctorIsConservative}
 ###### Example
 
-Every [[monadic functor]] is a conservative functor: given a $T$-algebra homomorphism $f : A \to B$, the inverse $f^{-1} : B \to A$ is easily seen to also be a $T$-algebra homomorphism.
+Every [[monadic functor]] is a conservative functor: for a $T$-algebra homomorphism given by an invertible morphism $f : A \to B$, the inverse $f^{-1} : B \to A$ is easily seen to also be a $T$-algebra homomorphism.
 
 =--
 
