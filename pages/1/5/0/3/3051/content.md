@@ -15,7 +15,7 @@ Jean B&#233;nabou is a French mathematician working in [[category theory]]. He s
 
 * [[bicategory]]
 
-* [[Benabou-Roubaud theorem]]
+* [[Bénabou-Roubaud theorem]]
 
 * [[internal language]] of a [[topos]] 
   ([[Mitchell-Bénabou language]])
@@ -24,7 +24,7 @@ Jean B&#233;nabou is a French mathematician working in [[category theory]]. He s
 
 * [[Grothendieck fibration]]
 
-* [[cosmos]]
+* [[Bénabou cosmos]]
 
 category: people
 
