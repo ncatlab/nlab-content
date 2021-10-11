@@ -27,13 +27,17 @@ The word is chosen by analogy with [[topos]] which can be regarded as "a good pl
 
 There are a number of different, inequivalent, definitions of "cosmos" in the literature.
 
-## B&#233;nabou's definition
+## Bénabou cosmoi
 
-[[Jean Bénabou]]'s original definition (see [Street 74, p. 1](#Street74)) was that a **cosmos** $V$ is a [[complete category|complete]] and [[cocomplete category|cocomplete]] [[closed monoidal category|closed]] [[symmetric monoidal category]].  This is an ideal situation for studying categories [[enriched category|enriched]] over $V$.
+A [[Bénabou cosmos]] (see [Street 74, p. 1](#Street74)) is a [[complete category|complete]] and [[cocomplete category|cocomplete]] (hence [[bicomplete category|bicomplete]]) [[closed monoidal category|closed]] [[symmetric monoidal category]].  
 
-## Indexed B&eacute;nabou cosmoi
+This is the ideal situation for for $V$-[[enriched category theory]].
 
-[Shulman 2013](#Shulman13) introduced an [[indexed category|indexed]] version of B&eacute;nabou's kind of cosmos, appropriate for studying enriched indexed categories over a base.  Notably, while B&eacute;nabou's definition is not "elementary" (it involves infinitary limits and colimits), the indexed version is elementary; the infinitary structure is folded into the indexing base category.  B&eacute;nabou's cosmoi are in particular indexed cosmoi over [[Set]].
+
+## Indexed Bénabou cosmoi
+
+[Shulman 2013](#Shulman13) introduced an [[indexed category|indexed]] generalization of [[Bénabou cosmoi]], appropriate for studying enriched [[indexed categories]] over a base category.  Notably, while the definition of [[Bénabou cosmoi]] is not "[[elementary topos|elementary]]" (it involves infinitary (non-[[finite limit|finite]]) [[limits]] and [[colimits]]), the indexed version is elementary; the infinitary structure is folded into the indexing base category.  The notion of [[Bénabou cosmoi]] is recovered as particular cosmoi indexed over [[Set]].
+
 
 ## Street's "fibrational cosmoi"
 
@@ -64,7 +68,7 @@ Defined in this way, cosmoi are closed under [[opposite category|dualization]], 
 
 ## Related notions
 
-An [[infinity-cosmos]] is a "good place in which to do higher category theory" as axiomatized by Riehl and Verity in their work on the foundations of $(\infty,1)$- and $(\infty,n)$-category theory.
+* An [[infinity-cosmos]] is a "good place in which to do higher category theory" as axiomatized by Riehl and Verity in their work on the foundations of $(\infty,1)$- and $(\infty,n)$-category theory.
 
 ## Bibliography
 
@@ -72,22 +76,16 @@ Apparently there is no written account by [[Jean Bénabou]] of his definition of
 
 > to J. Benabou the word means "bicomplete symmetric monoidal category", such categories $\mathcal{V}$ being rich enough so that the theory of categories enriched in  $\mathcal{V}$ develops to a large extent just as the theory of ordinary categories.
 
-* {#Street74} [[Ross Street]],  _Elementary cosmoi I.  *Category Seminar*. Springer, Berlin, Heidelberg, 1974. ([publisher](https://link.springer.com/chapter/10.1007%2FBFb0063103))
+* {#Street74} [[Ross Street]],  _Elementary cosmoi I.  *Category Seminar*. Springer, Berlin, Heidelberg, 1974. ([doi:10.1007%2FBFb0063103](https://link.springer.com/chapter/10.1007%2FBFb0063103))
 
 * [[Ross Street]],  _Cosmoi of internal categories_, Transactions of the American Mathematical Society 258.2 (1980): 271-318.
 
 * [[Ross Street]], _Cauchy characterization of enriched categories_, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233. ([pdf](http://emis.ams.org/journals/TAC/reprints/articles/4/tr4.pdf))
 
-* {#Shulman13} [[Mike Shulman]], *Enriched indexed categories*, [TAC](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html) 2013
+* {#Shulman13} [[Mike Shulman]], *Enriched indexed categories*, Theory and Applications of Categories, **28** 21 (2013) 616-695 ([tac:28-21](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html)) 
  
 
 
 [[!redirects cosmoi]]
-[[!redirects Benabou cosmos]]
-[[!redirects Bénabou cosmos]]
-[[!redirects Benabou cosmoi]]
-[[!redirects Bénabou cosmoi]]
 
-[[!redirects cosmos for enriched category theory]]
-[[!redirects cosmoi for enriched category theory]]
 
