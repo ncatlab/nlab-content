@@ -10,6 +10,7 @@
 =--
 
 
+
 # Enriched slice categories
 * table of contents
 {: toc}
@@ -67,6 +68,8 @@ The [[formal duality|dual]] concept is the
 * Any morphism $f \,\colon\, x\to y$ in $C$ induces a $V$-[[enriched functor]] $f_! \,\colon\, C/x \to C/y$.  If $C$ has $V$-enriched pullbacks, then $f_!$ has a [[right adjoint|right]] $V$-[[enriched adjoint]] $f^*$.  If $C$ is a [[locally cartesian closed enriched category]], then $f^*$ has a further right $V$-adjoint $f_*$.
 
 ## Related concepts
+
+* [enriched slice model structure](slice+model+structure#ModelStructureInheritsEnriched)
 
 * [[slice of presheaves is presheaves on slice]]
 
