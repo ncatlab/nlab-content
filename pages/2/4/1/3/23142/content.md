@@ -175,7 +175,7 @@ but that it is also the [[source]] of the slicing of the plain  Yoneda embedding
 
 ## Statement
 
-### In 1-category theory
+### In plain category theory
 
 \begin{proposition}\label{TheAdjointEquivalenceInOrdinaryCategoryTheory}
 The following anti-parallel functors constitute an [[adjoint equivalence]]
@@ -546,15 +546,18 @@ Here:
 
 ### In enriched category theory
 
-For $\mathcal{V}$ any [[Bénabou cosmos]] for [[enriched category theory]], the statement and proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} holds and applies verbatim also in $\mathcal{V}$-[[enriched category theory]] (with [[colimit]]-expression for [[enriched presheaves]] now being the corresponding [[coend]], as discussed at *[[co-Yoneda lemma]]*).
+For $\mathcal{V}$ any [[Bénabou cosmos]] for [[enriched category theory]], the statement and proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} holds and applies verbatim also in $\mathcal{V}$-[[enriched category theory]] for [[enriched presheaves]] and [[enriched slice categories]] 
+(with the [[colimit]]-of-[[representable functor|representables]]-expression for [[enriched presheaves]] now being the corresponding [[coend]], as discussed at *[[co-Yoneda lemma]]*).
 
-\begin{example}
+\begin{example}\label{ForSimplicialPresheaves}
+**(for [[simplicial presheaves]])**
+\linebreak
 With [[Bénabou cosmos]] $\mathcal{V} \,=\,$ [[sSet]] being the category of [[simplicial sets]] with its [[cartesian monoidal category]]-structure (see at *[[products of simplicial sets]]*), the [[enriched presheaves]] are [[simplicial presheaves]] over [[simplicial sites]] $\mathcal{C}$.  With [[categories of simplicial presheaves]] denoted $sPSh(-)$, Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} reads:
 
 \begin{tikzcd}
-    \mathrm{sPSh}(\mathcal{C})_{y_{\mathcal{C}}(X)}
+    \mathrm{sPSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
     \ar[
-      rr,
+      rrr,
       "{ 
         \mathrm{PSh}(\mathcal{C})_{/y(X)}
         \big(
@@ -565,7 +568,7 @@ With [[Bénabou cosmos]] $\mathcal{V} \,=\,$ [[sSet]] being the category of [[si
       }"{above},
       "{ \sim }"{below}
     ]
-    &&
+    &&&
     \mathrm{sPSh}
     \big(
       \mathcal{C}_{/X}
@@ -575,19 +578,72 @@ With [[Bénabou cosmos]] $\mathcal{V} \,=\,$ [[sSet]] being the category of [[si
 
 ### In simplicial model category theory
 
-The above argument applies verbatim also [[enriched presheaves]] such as [[simplicial presheaves]] for the case of enrichment over [[sSet]].
+For 
 
-Equipping simplicial presheaves with the [[projective model structure on simplicial presheaves]] and their slice with the respective [[slice model structure]], the above right adjoint functor (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a [[right Quillen functor]]:
+* $\mathcal{C}$ an [[sSet-enriched category]], 
 
-Since representables are [[cofibrant objects|cofibrant]], the unsliced simplicial hom out of a representable is a right Quillen functor by the [pullback-power axiom](enriched+model+category#PullbackPowerAxiom). Moreover, [[base change]] by pullback is a right Quillen functor (by [this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction)). Together this implies that their composite (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a right Quillen functor.
+* $X \,\in\, \mathcal{C}$ an object,
 
-(...)
+* $\mathcal{C}_{/X}$ the [[sSet]]-[[enriched slice category]]
 
+write:
+
+
+* $sPSh\big(\mathcal{C}_{/X}\big)_{proj}$ for the projective [[model structure on sSet-enriched presheaves]] (relative to the [[classical model structure on simplicial sets]] $sSet_{Qu}$) on the [[enriched slice category]],
+  
+  notice that this is an [[classical model structure on simplicial sets|$sSet_{Qu}$]]-[[enriched model category]], hence a [[simplicial model category]];
+
+* $\big(sPSh(\mathcal{C})_{/y_{\mathcal{C}(X)}}\big)_{proj}$ for the [[slice model structure]] over the [[representable functor|representable]] $y_{\mathcal{C}}(X)$ of the projective [[model structure on sSet-enriched presheaves]] on $\mathcal{C}$ itself.
+
+
+\begin{proposition}\label{SimplicialLocalSectionsIsRightQuillen}
+  Relative to these projective (slice) model structures, the comparison functor from Exp. \ref{ForSimplicialPresheaves} is a [[right Quillen functor]], hence the [[right adjoint]] in a [[simplicial Quillen adjunction]]:
+
+\begin{tikzcd}
+   \big(
+    \mathrm{sPSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
+  \big)_{\mathrm{proj}}
+    \ar[
+      rrr,
+      shift right=8pt,
+      "{ 
+        \mathrm{PSh}(\mathcal{C})_{/y(X)}
+        \big(
+          (y_{\mathcal{C}})_{/X}(-)
+          ,\,
+          -  
+        \big)
+      }"{below}
+    ]
+    &&&
+    \mathrm{sPSh}
+    \big(
+      \mathcal{C}_{/X}
+    \big)_{\mathrm{proj}}
+    \ar[
+       lll,
+       shift right=8pt
+    ]
+    \ar[
+      lll,
+      phantom,
+      "{ \scalebox{.6}{$\bot_{\mathrlap{\mathrm{Qu}}}$} }"
+    ]
+\end{tikzcd}
+
+\end{proposition}
+\begin{proof}
+Since representables are [[cofibrant objects|cofibrant]] (evidently so in the projective model structure, since [[acyclic Kan fibrations]]  [are surjective](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective)), the unsliced simplicial hom out of a representable is a right Quillen functor by the [pullback-power axiom](enriched+model+category#PullbackPowerAxiom) in the $sSet_{Qu}$-[[enriched model category]] $sSh(\mathcal{C})$. 
+
+Moreover, [[base change]] by [[pullback]] is a right Quillen functor on [[slice model categories]] of $sSet_{Qu}$  (by [this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction)). 
+
+Together this implies that their composite (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a right Quillen functor.
+\end{proof}
 
 
 ## References
 
-Textbook accounts:
+Textbook accounts for the statement in plain category theory:
 
 
 
