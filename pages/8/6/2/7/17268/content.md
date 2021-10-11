@@ -617,7 +617,7 @@ e.g. ([Goerss-Jardine 99, theorem 7.2](#GoerssJardine99))
 
 The first homotopy group, $\pi_1(X,x)$, is also called the _[[fundamental group]]_ of $X$. 
 
-=---
+=--
 
 
 +-- {: .num_defn #WeakHomotopyEquivalence}
@@ -1273,10 +1273,10 @@ In model structure $sSet_{Quillen}$, def. \ref{ClassesOfMorphismsOnsSetQuillen},
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #AcyclicKanFibrationsAsRLPAgainstBoundaryInclusions}
 ###### Proposition
 
-The **acyclic fibrations** in $sSet_{Quillen}$(i.e. the maps that are both fibrations as well as weak equivalences) between [[Kan complexes]] are precisely the morphisms $f : X \to Y$ that have the [[right lifting property]] with respect to all inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ of boundaries of $n$-simplices into their $n$-simplices
+The **[[acyclic fibrations]]** in $sSet_{Quillen}$, namely the *[[acyclic Kan fibrations]]* (i.e. the maps that are both [[fibrations]] as well as [[weak equivalences]])  are precisely the morphisms $f \,\colon\, X \to Y$ that have the [[right lifting property]] with respect to all inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ of boundaries of $n$-simplices into their $n$-simplices
   $$
     \array{
       \partial \Delta[n] &\to& X
@@ -1295,7 +1295,7 @@ This appears spelled out for instance as ([Goerss-Jardine 99, theorem 11.2](#Goe
 
 In fact:
 
-+-- {: .num_prop}
++-- {: .num_prop #AsACofibrantlyGeneratedModelCategory}
 ###### Proposition
 
 $sSet_{Quillen}$ is a [[cofibrantly generated model category]] with
