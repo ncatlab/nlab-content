@@ -336,7 +336,8 @@ the [[slice (infinity,1)-category|slice]] of $Snglrt$ (Def. \ref{CategoryOfOrbiS
   \ar[
     rr,
     shift left=7pt,
-    "\tau"
+    "\tau"{above},
+    "{ \mathclap{\times} }"{description, pos=0}
   ]
   &&
   G \mathrm{Orbt}
@@ -435,7 +436,7 @@ For $\mathbf{H}$ any [[(infinity,1)-topos|$\infty$-topos]] and $G \,\in\, Grp(Fi
 where those going to the left are [[fully faithful (infinity,1)-functors|fully faithful]] and the top one [[preserved limit|preserves]] [[finite product|finite]] [[homotopy products]].
 \end{prop}
 \begin{proof}\label{ProofOfTheCohesiveAdjointQuadruple}
-  Notice that 
+The general fact that [[slice of presheaves is presheaves on slice|$\infty$-slices of $\infty$-presheaves are $\infty$-presheaves on the $\infty$-slice]] (by  [this Prop.](slice+of+presheaves+is+presheaves+on+slice#EquivalenceOfInfinityCategories) or [this Prop.](slice+infinity1-topos#SheavesOnBigSite)) means in the present case that the operation of extracting systems of [[fixed loci]] is an [[equivalence of (infinity,1)-categories]] as follows:
   $$
     (Glo \mathbf{H})_{/\prec G}
     \;\coloneqq\;
@@ -454,9 +455,8 @@ where those going to the left are [[fully faithful (infinity,1)-functors|fully f
       ,\,
       \mathbf{H}
     \big)
-    \,,
+    \,.
   $$
-  by [this Prop.](slice+infinity1-topos#SheavesOnBigSite).
   With this, the statement follows -- via [this Prop.](adjoint+quadruple#KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple) --
 by  [[(infinity,1)-Kan extension|$\infty$-Kan extension]]
  of the adjoint pair from Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}.
