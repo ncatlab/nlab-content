@@ -107,7 +107,7 @@ Recall (from [there](presheaf#PresheavesAreColimitsOfRepresentables)) that every
 
 ### Slices
 
-For any $X \,\in\, \mathcal{C}$ we denote the generic [[object]] of the [[slice category]] $\mathcal{C}_{/X}$ by
+For any $X \,\in\, \mathcal{C}$ we denote the generic \[[[object]] of the [[slice category]] $\mathcal{C}_{/X}$ by
 
 $$
   c_X
@@ -597,7 +597,7 @@ write:
 
 
 \begin{proposition}\label{SimplicialLocalSectionsIsRightQuillen}
-  Relative to these projective (slice) model structures, the comparison functor from Exp. \ref{ForSimplicialPresheaves} is a [[right Quillen functor]], hence the [[right adjoint]] in a [[simplicial Quillen adjunction]]:
+  Relative to these projective (slice) model structures, the comparison functor from Exp. \ref{ForSimplicialPresheaves} is a [[right Quillen functor]], hence the [[right adjoint]] in a [[simplicial Quillen adjunction]], which is a [[Quillen equivalence]]:
 
 \begin{tikzcd}
    \big(
@@ -627,19 +627,87 @@ write:
     \ar[
       lll,
       phantom,
-      "{ \scalebox{.6}{$\bot_{\mathrlap{\mathrm{Qu}}}$} }"
+      "{ \scalebox{.6}{$\simeq_{\mathrlap{\mathrm{Qu}}}$} }"
     ]
 \end{tikzcd}
 
 \end{proposition}
 \begin{proof}
-Observe that
+Observe that:
 
 1. Since representables are [[cofibrant objects|cofibrant]] (evidently so in the projective model structure, since [[acyclic Kan fibrations]]  [are surjective](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective)), the unsliced simplicial hom out of a representable is a right Quillen functor by the [pullback-power axiom](enriched+model+category#PullbackPowerAxiom) in the $sSet_{Qu}$-[[enriched model category]] $sSh(\mathcal{C})$. 
 
 1. The [[base change]]-functor by [[pullback]] is a right Quillen functor on [[slice model categories]] of $sSet_{Qu}$  (by [this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction)). 
 
 Together this implies that their composite (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a [[right Quillen functor]].
+
+By [[Ken Brown's lemma]] ([here](factorization+lemma#KenBrownLemma)) it follows that the right adjoint preserves weak equivalences between [[fibrant objects]]. We claim that it also *reflects* weak equivalences between fibrant objects, in that a morphism between fibrant objects on the left is a weak equivalence if and only if its image under the right adjoint functor is a weak equivalences. 
+Since the functor is also an [[equivalence of categories]], by Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory}, this immediately implies that the [[derived adjunction]] is an [[equivalence of categories|equivalence]] of [[homotopy category of a model category|homotopy categories]], and hence that we have a [[Quillen adjunction]].
+
+To see this remaining claim that the right adjoint reflects weak equivalences between fibrant objects, consider a morphism $f \,\in\, sPsh(\mathcal{C})_{/y_{\mathcal{C}}(X)}$ between fibrations such that for all $U \xrightarrow{\phi} X$ in $\mathcal{C}_{/X}$ the [[base change]] (eq:SliceHomOfPresheavesAsFiberOfPlainHom) of its values on $U \,\in\, \mathcal{C}$ is a weak equivalence:
+
+\begin{tikzcd}[column sep=20pt]
+   &[30pt]
+   \mathllap{
+      \mathrm{W}
+      \,\ni\,
+   }
+   \big(y_{\mathcal{C}}(\phi)\big)^\ast
+   \Big(
+     \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        f
+     \big)   
+   \Big)
+     \ar[
+       rr
+     ]
+     \ar[d]
+     \ar[
+        drr,
+        phantom,
+        "\mbox{\tiny\textrm(pb)}"
+     ]
+     &&
+     \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        f
+     \big)
+     \ar[
+       d
+     ]
+     \\
+     &
+     \big\{
+        y_{\mathcal{C}}(\phi)
+     \big\}
+     \ar[rr]
+     &&
+     \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        y_{\mathcal{C}}(X)
+     \big)              
+\end{tikzcd}
+
+Here the right vertical morphisms are [[Kan fibrations]] by the fact that $sPSh(\mathcal{C})\big( y_{\mathcal{C}}(U),\, - \big)$ is a [[right Quillen functor]] as in the first item above.
+Therefore -- since this holds for all $\phi$, by assumption -- [this Prop.](slice+model+structure#SimplicialWeakEquivalencesInSliceDetectedFiberwise) implies that 
+$ 
+  f(U)
+  \,\simeq\,    
+  \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        f
+     \big)
+$
+is a weak equivalence.  And since this holds for all $U \,\in\, \mathcal{C}$, this means that $f$ is a weak equivalence in the slice of the projective model structure.
 \end{proof}
 
 
