@@ -422,6 +422,8 @@ $$
 
 ## Examples
 
+### Pointed objects
+
 \begin{example}\label{ModelCategoriesOfPointedObjects}
 **([[model categories of pointed objects]])**
 \linebreak
@@ -546,8 +548,167 @@ with $R^{op}$ acting directly as $R$ on underlying diagrams, and with $L^{op}$ a
 \end{proof}
 
 
+### Slices over simplicial sets
+ {#SlicesOverSimplicialSets}
+
+\begin{example}\label{BorelModelStructure}
+**([[Borel model structure]])**
+\linebreak
+  For $G \,\in\, Grp(sSet) $ a [[simplicial group]] and $\overline{W}G \,\in\, sSet$ its [[simplicial classifying space]], the slice model structure (Prop. \ref{SliceModelStructure}) over $\overline{W}G$ of the [[classical model structure on simplicial sets]] is [[Quillen equivalence|Quillen equivalent]] to the [[Borel model structure]] of $G$-[[actions]] (see [this Prop.](Borel+model+structure#{QuillenEquivalenceToSliceOverSimplicialClassifyingSpace)):
+$$
+    G Act\big(sSet_{Qu}\big)_{proj}
+      \underoverset
+        {\underset{ \big((-) \times W G\big)/G }{\longrightarrow}}
+        {\overset{ (-) \times_{\overline{W}G} W G  }{\longleftarrow}}
+        {\bot}
+    \big(sSet_{Qu}\big)_{/\overline{W}G}
+$$
+For more on this see also at *[[infinity-action|$\infty$-action]]*.
+\end{example}
+
+
+\begin{lemma}\label{SimplicialWeakEquivalencesInSliceDetectedFiberwise}
+  For any [[simplicial set]] $B \,\in$ [[sSet]] and any [[pair]] of [[Kan fibrations]] $X \underoverset{\in Fib}{p}{\longrightarrow} B$ and $X' \underoverset{\in Fib}{p'}{\longrightarrow} B$, a morphism
+$$
+  \array{
+    X 
+    && 
+    \xrightarrow{\;\; f \;\;}
+    && 
+    X
+    \\
+    & 
+    {}_{\mathllap{p}}\searrow 
+    && 
+    \swarrow{}_{\mathrlap{p'}}
+    \\
+    && B
+  }
+  \;\;\;\;\;\;
+  \in
+  (sSet_{Qu})_{/B}
+$$
+is a [[simplicial weak homotopy equivalence]] (hence a [[weak equivalence]] in the slice model structure, from Prop. \ref{SliceModelStructure}, over $B$ of the [[classical model structure on simplicial sets]]) if and only if so are all its restrictions (all its [[base changes]] by [[pullback]])
+to all ([[homotopy fiber|homotopy]]) [[fibers]] $X_b$
+
+$$
+  b^\ast(f) 
+  \;\colon\;
+  X_b \xrightarrow{\;\; f_b\;\;} X'_b
+  \,,
+$$
+
+for all points $b \,\in\, B_0$.
+\end{lemma}
+\begin{proof}
+  In one direction, assume that $f$ is a weak equivalence. 
+By Prop. \ref{LeftBaseChangeQuillenEquivalence} the pullback operation $b^\ast$ is a [[right Quillen functor]]. Therefore [[Ken Brown's lemma]] ([here](factorization+lemma#KenBrownLemma)) implies that it preserves weak equivalences between [[fibrant objects]]. Since $p$ and $p'$ are fibrant by assumption, this means that $b^\ast(f)$ is a weak equivalence.
+
+In the other direction, 
+assume that $b^\ast(f)$ is a weak equivalence for all $b \,\in\, B_0$.
+Then for any $x \,\in\, X_0$ let $b \,\coloneqq\, p(x) \,\in\, B_0$ and consider the resulting [[morphism]] of [[homotopy fiber]]-[[diagrams]]:
+
+\begin{tikzcd}
+  X_b
+  \ar[
+    r,
+    "{ \mathrm{fib}_b(p) }"    
+  ]
+  \ar[
+    d,
+    "{ f_b }"{left},
+    "{\in \mathrm{W}}"{right}
+  ]
+  &
+  X
+  \ar[
+    r,
+    "{p}"{above}.
+    "\in \mathrm{Fib}"{below}
+  ]
+  \ar[
+    d,
+    "{ f }"
+  ]
+  & 
+  B
+  \ar[
+    d,-,
+    shift left=1pt
+  ]
+  \ar[
+    d,-,
+    shift right=1pt
+  ]
+  \\
+  X'_b
+  \ar[
+    r,
+    "{ \mathrm{fib}_b(p') }"    
+  ]
+  &
+  X'
+  \ar[
+    r,
+    "{p'}"{above}.
+    "\in \mathrm{Fib}"{below}
+  ]
+  &
+  B
+\end{tikzcd}
+
+and, in turn, the induced morphim of [[long exact sequences of homotopy groups]], which has the following segments, for all $n \,\in\, \mathbb{N}_+$ (where $x' \,\coloneqq\, f(x)$):
+
+\begin{tikzcd}
+  \pi_{n+1}(B,b)
+  \ar[r]
+  \ar[d,-,shift left=1pt]
+  \ar[d,-,shift right=1pt]
+  &
+  \pi_n(X_b, x)
+  \ar[d, "{\sim}"{xshift=-6pt, yshift=-3.7pt, sloped}]
+  \ar[r]
+  &
+  \pi_n(X,x)
+  \ar[
+    d,
+    "{  \pi_n(f,x)  }"
+  ]
+  \ar[r]
+  &
+  \pi_n(B,b)
+  \ar[r]
+  \ar[d,-,shift left=1pt]
+  \ar[d,-,shift right=1pt]
+  &
+  \pi_{n-1}(X_b, x)
+  \ar[d, "{\sim}"{xshift=-6pt, yshift=-3.7pt, sloped}]
+  \\
+  \pi_{n+1}(B,b)
+  \ar[r]
+  &
+  \pi_n(X'_b, x')
+  \ar[r]
+  &
+  \pi_n(X',x')
+  \ar[r]
+  &
+  \pi_n(B,b)
+  \ar[r]
+  &
+  \pi_{n-1}(X_b, x)
+\end{tikzcd}
+
+Now the ([non-abelian](five+lemma#InHomologicalCategories)) [[five lemma]] implies that $\pi_n(f,x)$ is an [[isomorphism]], for all $n \in \mathbb{N}_+$ and all $x \in X$.
+
+It only remains to see that $\pi_0(f)$ is an isomorphism.
+This follows by the same argument after replacing $B$ by the [[connected components]] $\tilde B \xhookrightarrow{\;} B = B \sqcup (B \setminus \tilde B)$ which are, under $\pi_0$, in the image of $p$. This yields a morphism of exact sequences of the above form by replacing the rightmost item by the [[singleton]]; and the conclusion follows.
+\end{proof}
+
+
 ## Related concepts
 
+* [[parametrized homotopy theory]]
 
 * [[over-category]] 
 
