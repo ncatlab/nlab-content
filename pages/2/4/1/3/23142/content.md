@@ -24,7 +24,7 @@ For $\mathcal{C}$ any [[small category]] and $X \,\in\, \mathcal{C}$ an [[object
 
 The former [[presheaf topos]] is manifestly a [[Grothendieck topos]], whence this equivalence shows that also the slice $PSh(\mathcal{C})_{/X}$ is a Grothendieck topos. This is the archetypical special case of the *[[fundamental theorem of topos theory]]* which says that all [[slice category|slices]] of toposes are themselves toposes: *[[slice toposes]]*.
 
-As shown below, this equivalence is canonically an [[adjoint equivalence]], where the [[right adjoint]] $R$ forms the [[hom-set]] in the [[slice category|slice]] over $y(X)$, hence the functor which takes a [[bundle]] (in the broad sense) [[internalization|internal]] to [[presheaves]] to its system of sets $\Gamma_{(-)}(E)$ of [[local sections]]:
+As shown in Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} below, this equivalence is canonically an [[adjoint equivalence]], where the [[right adjoint]] $R$ forms the [[hom-set]] in the [[slice category|slice]] over $y(X)$, hence is the functor which takes a [[bundle]] (in the broad sense) [[internalization|internal]] to [[presheaves]] to its system of sets $\Gamma_{(-)}(E)$ of [[local sections]]:
 
 $$
   \array{
@@ -56,10 +56,11 @@ $$
   }
 $$
 
-If instead of presheaves of sets one considers [[simplicial presheaves]] then this adjoint equivalence becomes a [[Quillen adjunction]] with respect to the the [[projective model structure on simplicial presheaves]] and its [[slice model structure]]. This ought to be a [[Quillen equivalence]].
+If instead of presheaves of sets one considers [[simplicial presheaves]] then this adjoint equivalence becomes a [[Quillen equivalence]] with respect to the the [[projective model structure on simplicial presheaves]] and its [[slice model structure]] (Prop. \ref{SimplicialLocalSectionsIsRightQuillen} below).
 
-As such this Quillen equivalence models the analogous statement for [[slice (infinity,1)-category|slice $\infty$-categories]] of [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]], which thus also are [[slice (infinity,1)-topos|slice $\infty$-toposes]]. See [there](slice+infinity1-topos#SheavesOnBigSite) for more.
+As such this Quillen equivalence [[Ho(CombModCat)|models]] the analogous statement (Prop. \ref{EquivalenceOfInfinityCategories} below) for [[slice (infinity,1)-category|slice $\infty$-categories]] of [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]], which thus also are [[slice (infinity,1)-topos|slice $\infty$-toposes]]. This is the archetypical case of the *fundamental theorem of $\infty$-topos theory*, see [there](slice+infinity1-topos#SheavesOnBigSite) for more.
 
+\linebreak
 
 ## Preliminaries
 
@@ -107,7 +108,7 @@ Recall (from [there](presheaf#PresheavesAreColimitsOfRepresentables)) that every
 
 ### Slices
 
-For any $X \,\in\, \mathcal{C}$ we denote the generic \[[[object]] of the [[slice category]] $\mathcal{C}_{/X}$ by
+For any $X \,\in\, \mathcal{C}$ we denote the generic [[object]] of the [[slice category]] $\mathcal{C}_{/X}$ by
 
 $$
   c_X
@@ -228,7 +229,7 @@ The following anti-parallel functors constitute an [[adjoint equivalence]]
     ]
 \end{tikzcd}
 \end{proposition}
-Here 
+Here:
 
 1. the top functor $L$ is the [[cocontinuous functor|colimit-preserving functor]] that makes the top [[commuting diagram|triangle commute]], hence which takes representables over the slice site to the slicing of the underlying representables on the plain site. These two conditions fix the functor completely, by the fact (eq:PresheafAsColimitOfRepresentables) that every presheaf is a colimit of representables.
 
@@ -577,6 +578,7 @@ With [[Bénabou cosmos]] $\mathcal{V} \,=\,$ [[sSet]] being the category of [[si
 \end{example}
 
 ### In simplicial model category theory
+ {#InSimplicialModelCategoryTheory}
 
 For 
 
@@ -710,16 +712,59 @@ $
 is a weak equivalence.  And since this holds for all $U \,\in\, \mathcal{C}$, this means that $f$ is a weak equivalence in the slice of the projective model structure.
 \end{proof}
 
+### In $\infty$-category theory
+ {#InInfinityCategoryTheory}
+
+Since [[simplicial localization]] at the [[Quillen equivalences]] [[Ho(CombModCat)|identifies]]  the [[homotopy theory]] ([[(infinity,1)-category|$\infty$-category]]) of [[combinatorial model categories]] (such as [[model categories of simplicial presheaves]] and their [[slice model structures]]) with that of [[presentable (infinity,1)-categories|presentable $\infty$-categories]], Prop. \ref{SimplicialLocalSectionsIsRightQuillen} immediately [[Ho(CombModCat)|implies]]:
+
+\begin{prop}\label{EquivalenceOfInfinityCategories}
+  For $\mathbf{C}$ a [[small (infinity,1)-category|small $\infty$-category]] and $X \,\in\, \mathbf{S}$ an [[object]], the operation of forming systems of [[local sections]] of [[bundles]] of [[(infinity,1)-presheaves|$\infty$-presheaves]] over $y(X)$ is an [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]]:
+
+
+\begin{tikzcd}
+    \mathrm{PSh}_\infty(\mathbf{C})_{/y_{\mathbf{C}}(X)}
+    \ar[
+      rrr,
+      "{ 
+        \mathrm{PSh}_\infty(\mathbf{C})_{/y_{\mathbf{C}}(X)}
+        \big(
+          (y_{\mathbf{C}})_{/X}(-)
+          ,\,
+          (-)
+        \big)
+     }"
+    ]
+    &&&
+    \mathrm{PSh}_\infty
+    \big(
+      \mathbf{C}_{/X}
+    \big)
+\end{tikzcd}
+
+from the [[slice (infinity,1)-category|slice $\infty$-category]] of the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-category of $\infty$-presheaves]] over $\mathbf{C}$ to the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-category of $\infty$-presheaves]] over the [[slice (infinity,1)-category|slice $\infty$-category]] of $\mathbf{C}$.
+\end{prop}
+
+An alternative proof of this statement in terms of [[quasi-categories]] is in [Lurie 2009, Prop. 5.1.6.12](#Lurie09). (See also [here](slice+infinity1-topos#SheavesOnBigSite) at *[[slice (infinity,1)-topos|slice $\infty$-topos]]*.)
+
+\begin{example}\label{CohesionOfGlobalOverGEquivariantHomotopyTheory}
+**([[cohesion of global- over G-equivariant homotopy theory]])**
+\linebreak
+
+In the case that $\mathbf{C} \,=\, Snglrt \,\coloneqq\, Grpd^{fin}_{1,\geq 1}$ is the [[global orbit category]] (a [[(2,1)-category]]) the equivalence of Prop. \ref{EquivalenceOfInfinityCategories} extracts the system of [[fixed loci]] of an object in [[global equivariant homotopy theory]] sliced over the archetypical $G$-[[orbi-singularity]], for some [[equivariance group]] $G$.
+Together with the [[adjoint quadruple]] that is induced (see [here](adjoint+quadruple#ViaKanExtensionOfAdjointPairs)) via [[(infinity,1)-Kan extension|$\infty$-Kan extension]] from the [[reflective sub-(infinity,1)-category|reflection]] onto the $G$-[[orbit category]],  this implies the [[cohesion of global- over G-equivariant homotopy theory]]. See there for more.
+\end{example}
 
 ## References
 
-Textbook accounts for the statement in plain category theory:
-
-
+Textbook accounts for the statement in plain [[category theory]]:
 
 * {#SGA41}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], Ex. 1 Prop. 5.11, p. [27](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf#page=27) in:  _Théorie des Topos et Cohomologie Etale des Schémas_ ([[SGA4]]) Tome 1: *Théorie des Topos* Springer **LNM** **269** (1972) ([doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf))
 
 
 * {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], Lemma 1.4.12 in: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften __332__, Springer 2006 ([doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf))
+
+Discussion in [[(infinity,1)-category theory|$\infty$-category theory]] via [[quasi-categories]]:
+
+* {#Lurie09} [[Jacob Lurie]], Prop. 5.1.6.12 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press, 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
 
