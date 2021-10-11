@@ -91,6 +91,8 @@ For more references see at _[[enriched category]]_.
 
 * [[Day convolution]]
 
+* [[Bénabou cosmos]]
+
 ### Enriched functors
 
 * [[enriched functor]]
