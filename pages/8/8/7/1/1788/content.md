@@ -1,4 +1,27 @@
 
+$$
+\{
+\boxed{
+\boxed{\underset{x}{}\swarrow
+\,\,\,\,\,\,\,}
+\!\!\!\!\!\!\!\!
+\,\,\,\,\,\,\,\,
+\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,
+}\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+\!\!\!\!\!\!\!\!
+\boxed{
+ \boxed{
+\overset{\boxed{U}}{}
+\searrow
+\underset{X}{} \swarrow
+\overset{\boxed{V}}{}
+}\!\!\!\!\!\!\!
+{\,\,\,\,\,\,\searrow\underset{y}{} }
+}
+\}
+$$
+
+
 \begin{tikzcd}[column sep=20pt]
      \mathrm{PSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
      \big(
