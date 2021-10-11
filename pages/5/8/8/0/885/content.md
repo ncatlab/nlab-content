@@ -79,6 +79,14 @@ On the other hand, there can be no *strictly* decreasing sequence of natural num
 
 This is relevant to [[constructive algebra]], as this shows that formulating chain conditions needs some care.  (It is easier to say 'weakly' than 'strictly' in the hypothesis, but then it\'s unclear how to state the conclusion.)
 
+## Examples
+ {#Examples}
+
+* [[0]]
+
+* [[1]]
+
+* [[24]]
 
 ## Related concepts
 
