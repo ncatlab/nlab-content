@@ -1,4 +1,17 @@
 
+
+\begin{example}\label{GActionsAndGOrbits}
+**([[G-sets]] and [[orbits]])**
+\linebreak
+  Let $G \,\in\, Grp(Set)$ be a [[discrete group]]. Write
+
+* [[G-set|$G Set$]] for its category of [[group actions]] on [[sets]], 
+
+* $G Orbt \xhookrightarrow{\;} G Set$ for its [[orbit category]], the [[full subcategory]] on the [[transitive actions]], hence the [[coset space|sets of cosets]] $G/H$, for [[subgroups]] $H \subset G$.
+
+Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive actions]], namely of [[orbits]] of [[elements]] of $X$, this inclusion exhibits $G Set$ as the [[free coproduct completion]] of [[orbit category|G Orbt]].
+\end{example}
+
 $$
   B H \to B G
 $$
