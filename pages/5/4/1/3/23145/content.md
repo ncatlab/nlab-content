@@ -57,7 +57,7 @@ has zero norm under that metric.
 
 ### Mathieu groups
 
-The largest [[Mathieu group]], $M_{24}$, is the [[automorphism group]] of a [[Steiner system]] containing 24 blocks.
+The largest [[Mathieu group]], $M_{24}$, is the [[automorphism group]] of a [[Steiner system]] containing 24 blocks. $M_{24}$ is also the automorphism group of the [[binary Golay code]], an [[abelian group]] which is a 12-dimensional subspace of the [[vector space]] $\mathbb{F}_2^{24}$.
 
 ### 24-cell and the binary tetrahedral group
 
