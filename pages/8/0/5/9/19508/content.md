@@ -203,7 +203,7 @@ The equivalence of the [[homotopy 2-category]] of [[combinatorial model categori
 
 The equivalence of the full homotopy theory (in particular the [[homotopy 2-category]]) of [[combinatorial model categories]] with [[presentable (infinity,1)-categories|presentable $\infty$-categories]] is due to
 
-* {#Pavlov21} [[Dmitri Pavlov]], *Combinatorial model categories are equivalent to presentable quasicategories* (draft) 2021 ([pdf](https://dmitripavlov.org/comb.pdf))
+* {#Pavlov21} [[Dmitri Pavlov]], *Combinatorial model categories are equivalent to presentable quasicategories* ([arXiv:2110.04679](https://arxiv.org/abs/2110.04679))
 
 [^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories may be taken to pass through only left proper ones.
 
