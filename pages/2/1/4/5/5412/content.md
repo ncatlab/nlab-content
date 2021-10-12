@@ -21,7 +21,7 @@
 
 ## Idea
 
-For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ -- the **slice topos** or **over-topos** -- is itself a topos: the "big [[little topos]]" incarnation of $X$.  This fact is sometimes called the "Fundamental Theorem of Topos Theory".
+For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ -- the **slice topos** or **over-topos** -- is itself a topos: the "big [[little topos]]" incarnation of $X$.  This fact is has been called the *[[fundamental theorem of topos theory]]* ([McLarty 1992, Thm. 17.4](#McLarty92)).
 
 More generally, given a functor $u : E \to F$ between [[toposes]] that preserves [[pullbacks]], the [[comma category]] $(id_F/u)$ is again a [[topos]], called the [[Artin gluing]]. 
 
@@ -471,11 +471,14 @@ The point corresponding the pair $(e,x)$ is the one constructed in Observation \
 
   * [[over-(∞,1)-topos]]
 
+
 ## References
 
 * {#SGA41}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas_ ([[SGA4]]) Tome 1: *Théorie des Topos* Springer **LNM** **269** (1972) ([doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf))
 
   (In particular, exposé III.5 and exposé IV.5 on the "induced topos" - _topos induit_ = slice topos)
+
+* {#McLarty92} [[Colin McLarty]], *[[Elementary Categories, Elementary Toposes]]*, Oxford University Press 1992 ([ISBN:9780198514732](https://global.oup.com/academic/product/elementary-categories-elementary-toposes-9780198514732?cc=ae&lang=en&))
 
 * {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer 2006 (  [doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf))
 
@@ -490,6 +493,5 @@ The point corresponding the pair $(e,x)$ is the one constructed in Observation \
 [[!redirects slice toposes]]
 [[!redirects slice topoi]]
 
-[[!redirects fundamental theorem of topos theory]]
 
 
