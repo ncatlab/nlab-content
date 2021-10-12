@@ -327,8 +327,6 @@ This and much more history is recalled in
 
 * [[Steve Awodey]], _Category theory_. 
 
-* [[Colin McLarty]], _Elementary categories, elementary toposes_. 
-
 * [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York.
  
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_  
@@ -377,18 +375,27 @@ This and much more history is recalled in
   > (emphasis on [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]])
 
 #### Topos theory
+ {#ReferencesToposTheory}
 
-Monographs on [[topos theory]]:
+Monographs with focus on [[topos theory]]:
 
-* [[Ieke Moerdijk]], [[Saunders Mac Lane]], _[[Sheaves in Geometry and Logic]]_ (for which the $n$Lab currently provides detailed linked indexes)
 * [[Peter Johnstone]], _Topos theory_, 1977.
-* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_, vol 1--2 (3 forthcoming).
-* [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
-[free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
 
-* [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
+* [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Grundlehren der math. Wissenschaften 278 Springer 1983 ([TAC reprints](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
+  > (Here "triple" means" [[monad]]").
 
-  (Here "triple" means" [[monad]]").
+* [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_, 1984 ([gbnooks](https://books.google.us/books/about/Topoi.html?id=AwLc-12-7LMC))
+
+* [[Colin McLarty]], *[[Elementary Categories, Elementary Toposes]]*, Oxford University Press 1992 ([ISBN:9780198514732](https://global.oup.com/academic/product/elementary-categories-elementary-toposes-9780198514732?cc=ae&lang=en&))
+
+* [[Ieke Moerdijk]], [[Saunders Mac Lane]], _[[Sheaves in Geometry and Logic]]_ Springer 1992
+
+
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_, vol 1-2, Oxford University Press 2002
+
+
+
+
 
 
 
