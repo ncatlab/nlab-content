@@ -24,7 +24,9 @@ $A$ is a contravariant functor $\text{FinGrp} \xrightarrow{A} \text{AbRing}$.
 
 ## Definition 
 
-For *any* group $G$, the *Burnside [[rig]]* of $G$ is the set of isomorphism classes of the [[topos]] $FinSet^G$, the category of [[permutation representations]] of $G$ on finite sets, equipped with the addition operation descended from [[coproducts]] in $FinSet^G$ and the multiplication operation descended from [[products]] in $FinSet^G$. In fact the Burnside rig $B(G)$ is an [[exponential rig]], where exponentiation is derived from the [[cartesian closed category|cartesian closed structure]] of the topos. 
+For *any* group $G$, the *Burnside [[rig]]* of $G$ is the set of [[isomorphism classes]] of the [[topos]] $FinSet^G$ of finite [[G-sets]], the [[category]] of [[permutation representations]] of $G$ on [[finite sets]], equipped with the addition operation descended from [[coproducts]] in $FinSet^G$ and the multiplication operation descended from [[products]] in $FinSet^G$. 
+
+(In fact the Burnside rig $B(G)$ is an [[exponential ring]] [[rig]], where exponentiation is derived from the [[cartesian closed category|cartesian closed structure]] of the topos. )
 
 The *Burnside ring* $A(G)$ is then the (additive) [[group completion]] of the Burnside rig, $A(G) = \mathbb{Z} \otimes_{\mathbb{N}} B(G)$. (This tensor product in [[commutative monoids]] is the coproduct of $\mathbb{Z}$ and $B(G)$ in the category of commutative rigs, and $\mathbb{Z} \otimes_{\mathbb{N}} -$ is [[left adjoint]] to the forgetful functor from [[commutative rings]] to commutative rigs.) 
 
