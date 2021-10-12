@@ -64,7 +64,11 @@ Classically, examples of free constructions were characterized by a [[universal 
 
 * the [[unitisation]] functor [[Rng]] $\to$ [[Ring]].
 
-One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [[monad]] on the [[category]] $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes all of the examples above and many others.
+Free constructions *on* [[categories]]:
+
+* [[free cocompletion]], [[free coproduct completion]], [[idempotent completion]], [[Cauchy completion]]
+
+One formal sort of free functor is the [[left adjoint]] $C\to C^T$, where $T$ is a [[monad]] on the [[category]] $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes all of the examples above and many others.
 
 A general way to construct free functors is with a [[transfinite construction of free algebras]] (in [[set theory|set-theoretic]] foundations), or with an [[inductive type]] or [[higher inductive type]] (in [[type theory|type-theoretic]] foundations).
 
