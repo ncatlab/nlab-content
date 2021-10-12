@@ -630,6 +630,8 @@ If two categories can be Morita equivalent, should this be reflected in the page
 
 * [[Karoubi envelope]]
 
+* [[free cocompletion]], [[free coproduct completion]]
+
 * [[idempotent complete (infinity,1)-category]]
 
 ## References
