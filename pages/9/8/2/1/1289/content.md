@@ -32,8 +32,43 @@ $$
 $$
 
 
-
 The dual concept is that of a [[reflective subcategory]]. See there for more details.
+
+## Characterizations
+
+
++-- {: .num_prop #CharacterizationByLocalization}
+###### Proposition
+**(equivalent characterizations)**
+
+Given any pair of [[adjoint functors]]
+
+$$
+  (L \dashv R)
+  \;:\; 
+  B
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}} 
+      {\bot}
+  A
+$$ 
+
+the following are equivalent:
+
+1. The [[left adjoint]] $L$ is [[full and faithful functor|fully faithful]]. (In this case $A$ is equivalent to its [[essential image]] in $B$ under $L$, a full [[coreflective subcategory]] of $B$.) 
+
+2. The [[unit of an adjunction|unit]] $\eta : 1_A \to R L$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
+
+3. The [[comonad]] $(L R, L\eta R,\epsilon)$ associated with the adjunction is [[idempotent comonad|idempotent]], the left adjoint $L$ is [[conservative functor|conservative]], and the right adjoint $R$ is [[essentially surjective functor|essentially surjective on objects]].
+
+4. If $S$ is the set of morphisms $s$ in $B$ such that $R(s)$ is an [[isomorphism]] in $A$, then $R \colon B \to A$ realizes $B$ as the (nonstrict) [[colocalization]] of $B$ with respect to the class $S$. 
+
+5. The [[right adjoint]] $R$ is [[codense functor|codense]].
+
+=--
+
+For proofs, see the corresponding characterisations for [[reflective subcategories]].
 
 ## Properties
 
