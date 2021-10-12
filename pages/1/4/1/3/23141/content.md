@@ -240,8 +240,6 @@ $$
 \end{lemma}
 \begin{proof}
   That 0-truncated morphisms between 1-groupoids are equivalently the [[faithful functors]] is [this Prop.](n-truncated+object+of+an+infinity1-category#TruncatedMorphismsBetweenGroupoids). With this in hand, it is immediate to check the [hom-equivalence](adjoint+infinity1-functor#CharacterizationInTermsOfHomEquivalences) (here just a [[natural bijection]] of [[hom-sets]]) which characterizes the adjunction.
-
-Finally, since the 0-truncation is the restriction of that on the ambient [[(infinity,1)-topos|$\infty$-topos]] $\infty Grpd_{/B G}$ it preserves [[finite products]], by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts). 
 \end{proof}
 
 \begin{lemma}\label{GOrbitsAs0TruncatedObjectsInSliceOverGOrbiSingularity}
@@ -325,6 +323,11 @@ $$
 $$
 \end{proof}
 
+\begin{lemma}
+  Neither site has all [[products]], but their [[free coproduct completion]] has all products, and $\tau_!$ preserves these.
+(...)
+\end{lemma}
+
 In conclusion:
 
 \begin{proposition}\label{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}
@@ -339,7 +342,7 @@ the [[slice (infinity,1)-category|slice]] of $Snglrt$ (Def. \ref{CategoryOfOrbiS
     rr,
     shift left=7pt,
     "\tau"{above},
-    "{ \mathclap{\times} }"{description, pos=0}
+    "{ \mathclap{\widehat{\times}} }"{description, pos=0}
   ]
   &&
   G \mathrm{Orbt}
