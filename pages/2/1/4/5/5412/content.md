@@ -455,15 +455,12 @@ The point corresponding the pair $(e,x)$ is the one constructed in Observation \
 
 ## Related concepts
 
-* [[over-category]] 
 
-  * [[slice category]] 
+* [[over category]], [[under category]] 
 
-  * [[under category]] 
+* [[Artin gluing]]
 
-  * **over-topos**
-
-  * [[Artin gluing]]
+* [[fundamental theorem of topos theory]]
 
 * [[over (∞,1)-category]],
 
