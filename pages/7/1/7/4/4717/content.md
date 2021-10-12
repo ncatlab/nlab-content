@@ -39,7 +39,7 @@ Unit and counit of an adjunction satisfy the [[triangle identities]].
 
 An [[adjunct]] is given by precomposition with a unit or postcomposition with a counit.
 
-The left adjoint $L : X \to Y$ is [[fully faithful]] if and only if the unit $\eta : id_X \to R \circ L$ is a natural isomorphism.
+The left adjoint $L : X \to Y$ is [[fully faithful]] (i.e. a [[coreflection]]) if and only if the unit $\eta : id_X \to R \circ L$ is a natural isomorphism. Dually, the right adjoint $R : Y \to X$ is fully faithful (i.e. a [[reflective subcategory|reflection]]) if and only if the counit $\epsilon : L \circ R \to id_Y$ is a natural isomorphism.
 
 If the unit is a natural isomorphism, $L$ is sometimes termed __lari__ ("left adjoint right inverse"); whilst $R$ is termed __rali__ ("right adjoint left inverse"). Dually, if the counit is a natural isomorphism, $L$ is sometimes termed __lali__ ("left adjoint left inverse"); whilst $R$ is termed __rari__ ("right adjoint right inverse"). All four classes of functor are closed under composition, and contain the equivalences.
 
