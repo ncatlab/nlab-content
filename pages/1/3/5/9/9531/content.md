@@ -30,9 +30,20 @@ The $G$-sets form a [[category]], where the morphisms are the $G$-invariant maps
 
 ## Properties
 
+### Relation to $G$-orbits
+
+\begin{remark}\label{GActionsAndGOrbits}
+**([[G-set|$G$-sets]] are the [[free coproduct completion]] of [[orbit category|$G$-orbits]])**
+\linebreak
+  Let $G \,\in\, Grp(Set)$ be a [[discrete group]]. 
+Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive actions]], namely of [[orbits]] of [[elements]] of $X$, the defining inclusion of the [[orbit category]] into [[G-set|$G Set$]] exhibits the latter as the [[free coproduct completion]] of the [[orbit category]] (see also [this Prop.](free+coproduct+completion#CategoriesOfCoproductsOfConnectedObjects)). 
+\end{remark}
+
+### For topological groups
+
 +-- {: .num_prop}
 ###### Proposition {#ContinuousCharacterization}
-Let $G$ be a topological group, and $X$ be a set with a $G$ action $\mu: G \times X \to X$. Then the action is continuous if and only if the stabilizer of each element is open.
+Let $G$ be a [[topological group]], and $X$ be a set with a $G$ action $\mu: G \times X \to X$. Then the action is continuous if and only if the stabilizer of each element is open.
 =--
 
 +-- {: .proof}
