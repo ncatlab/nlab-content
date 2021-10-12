@@ -249,9 +249,11 @@ For various applications one uses toposes that have [[stuff, structure, property
 ## Related concepts
 
  
-*  [[category of sheaves]]
+*  [[category of sheaves]], [[Girausd's theorem]]
 
 * [[base topos]], [[indexed topos]] 
+
+* [[slice topos]], [[fundamental theorem of topos theory]]
 
 * [[predicative topos]]
 
