@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Indexed families
 * table of contents
 {: toc}
@@ -32,6 +42,8 @@ A formal [[structural set theory]] with a formal definition/notion of family is 
 In [[foundations]] without [[proper classes]] or higher categories, it may be tricky to specify exactly what a [[family of sets]] is, if one cannot literally speak of a functor from a discrete category to the [[large category]] [[Set]]; see the article. On the other hand, there is no difficulty in speaking of a [[family of subsets]] of a given set; even in [[predicative mathematics]] (where one cannot speak of the [[power set]]), a __family of subsets__ of $S$ is simply a [[binary relation]] between $S$ and some index set $I$, writing $a \in x_k$ to denote that the $S$-element $a$ is related to the index $k$.
 
 ## Related concepts
+
+* [[free coproduct completion]]
 
 * [[dependent type]]
 
