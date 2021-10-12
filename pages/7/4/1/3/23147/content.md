@@ -12,4 +12,6 @@ This page hosts material related to the textbook:
 
 on [[category theory]] and ([[elementary topos|elementary]]) [[topos]] [[sheaf and topos theory|theory]].
 
+The terminology "[[fundamental theorem of topos theory]]" may originate here, where it is proven in the generality of [[elementary toposes]].
+
 category: reference
