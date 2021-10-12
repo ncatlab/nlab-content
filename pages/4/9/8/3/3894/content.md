@@ -465,7 +465,9 @@ and specifically so for [[M-theory on 8-manifolds]]:
 
 * [[Robin Terrisse]], [[Dimitrios Tsimpis]], _$SU(3)$ structures on $S^2$ bundles over four-manifolds_, JHEP09 (2017) 133 ([arXiv:1707.04636](https://arxiv.org/abs/1707.04636))
 
+* Vikas Yadav, Aalok Misra, *On M-Theory Dual of Large-$N$ Thermal QCD-Like Theories up to $\mathcal{O}(R^4)$ and $G$-Structure Classification of Underlying Non-Supersymmetric Geometries* ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
 
+  > (relation to [[AdS/QCD duality]])
 
 See also
 
