@@ -323,30 +323,29 @@ A gentle basic introduction is
 
 * MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
 
-### Textbooks
 
-Modern textbooks include the following two.
-
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_.
-
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]], Volume 3_.
 
 
 ### Monographs
+ {#ReferencesMonographs}
 
-A early monograph is
 
 * [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Dover reprint 2014)
 
-This later grew into the more detailed
+* [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Springer Heidelberg 1985. ([TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf))
 
-* [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
+* [[Colin McLarty]], *[[Elementary Categories, Elementary Toposes]]*, Oxford University Press 1992 ([ISBN:9780198514732](https://global.oup.com/academic/product/elementary-categories-elementary-toposes-9780198514732?cc=ae&lang=en&))
 
-Other sources include the following.
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, 1992
 
-* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples, and Theories_ , Springer Heidelberg 1985. ([TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf))
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3 - Categories of Sheaves_, Cambridge UP 1994 ([ISBN:9780521061247](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/handbook-categorical-algebra-volume-3?format=PB))
+
+* [[Peter Johnstone]], *[[Elephant|Sketches of an elephant: a topos theory compendium]]*  Oxford University Press 2002, Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)), Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
+
 
 ### Classifying toposes
+
+Specifically on [[classifying toposes]]:
 
 * [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_, Lecture Notes in Mathematics 1616, Springer 1995 (ISBN: 978-3-540-60319-1, [doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441))
 
