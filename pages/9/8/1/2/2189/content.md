@@ -96,7 +96,7 @@ See also the references at _[[calculus]]_.
 ### Constructive analysis
  {#ReferencesConstructiveAnalysis}
 
-The formulation of [[analysis]] in [[constructive mathematics]], hence [[constructive analysis]], was maybe inititated in 
+The formulation of [[analysis]] in [[constructive mathematics]], hence [[constructive analysis]], was maybe initiated in 
 
 * {#Bishop} [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
  
