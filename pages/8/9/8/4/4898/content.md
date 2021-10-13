@@ -19,6 +19,7 @@ We keep these lists:
 * [[math resources by individuals]] -- links to math resource webpages of individuals in areas of importance to the $n$lab
 * [[list of mathematics software]]
 * [[lists of journals]]
+* [[funding]]
 
 Some other lists are:
 
