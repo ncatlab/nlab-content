@@ -71,7 +71,7 @@ Fairly immediate from the explicit definition above is:
 
    i.e. $X \,\in\, \mathcal{C} \hookrightarrow \mathcal{B}$ means that the [[hom-functor]] $\mathcal{B}(X,-) \,\colon\, \mathcal{B} \to Set$ [[preserved colimit|preserves]] [[coproducts]]
 
-   (which when $\mathcal{C}$ is [[extensive category|extensive]] means equivalentlt that if $X$ is a coproduct, then one of the summands is [[initial object|initial]]);
+   (which when $\mathcal{C}$ is [[extensive category|extensive]] means equivalently that if $X$ is a coproduct, then one of the summands is [[initial object|initial]], by [this Prop.](InExtensiveCategoryCOnnectedObjectsArePrimitiveUnderCoproduct));
 
 1. each object of $\mathcal{B}$ is a [[coproduct]] of objects in $\mathcal{C} \hookrightarrow \mathcal{B}$.
 
@@ -87,7 +87,7 @@ Fairly immediate from the explicit definition above is:
 ## Examples
  {#Examples}
 
-The following examples follow as special cases of Prop. \ref{CategoriesOfCoproductsOfConnectedObjects}
+The following examples follow as special cases of Prop. \ref{CategoriesOfCoproductsOfConnectedObjects}.
 
 \begin{example}
 The category [[Set]] is the [[free coproduct completion]] of the [[terminal category]].
