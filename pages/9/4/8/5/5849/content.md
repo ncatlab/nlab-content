@@ -938,10 +938,10 @@ then the $n$-truncation reflection restricts
 
 and it preserves finite products (by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts)). 
 
-Moreover, this adjunction [[corestriction|(co)]][[restricts]] to [[connected objects]] $X \,\in\, \mathcal{S}_{cn} \xhookrightarrow{\;} \mathcal{S}$ (i.e. those for which $\mathcal{S}(X,-)$ preserves coproducts):
+Moreover, this adjunction [[corestriction|(co)]][[restriction|restricts]] to [[connected objects]] $X \,\in\, \mathcal{S}_{cn} \xhookrightarrow{\;} \mathcal{S}$ (i.e. those for which $\mathcal{S}(X,-)$ preserves coproducts):
 
 \begin{tikzcd}
-  \mathcal{S}_{cn}
+  \mathcal{S}_{\mathrm{cn}}
   \ar[
     r,
     shift left=7pt,
@@ -949,7 +949,7 @@ Moreover, this adjunction [[corestriction|(co)]][[restricts]] to [[connected obj
     "{ \mathclap{\widehat{\times}} }"{description, pos=.0}
   ]
   &
-  \mathcal{S}_{cn,\tau_n}
+  \mathcal{S}_{\mathrm{cn},\tau_n}
   \ar[
     l,
     shift left=7pt,
@@ -1587,7 +1587,7 @@ Here the first and last steps are the [[co-Yoneda lemma]] and the preservation o
 
 ## References
 
-Prop. \ref{TheCanonicalMorphisms} is from:
+The above prop. \ref{TheCanonicalMorphisms} is from:
 
 * {#Johnstone11} [[Peter Johnstone]], _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63.  ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
