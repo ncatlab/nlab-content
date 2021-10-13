@@ -673,7 +673,7 @@ As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjo
 \begin{prop}\label{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple}
 **(Kan extension of finite product preserving reflection is cohesive adjoint quadruple)**
 \linebreak
-  Let 
+Let 
 
 \begin{tikzcd}
   \mathcal{S}_1
@@ -681,7 +681,7 @@ As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjo
     r,
     shift left=7pt,
     "{ p }"{above},
-    "{ \mathclap{\times} }"{description, pos=.0}
+    "{ \mathclap{\widehat{\times}} }"{description, pos=.0}
   ]
   &
   \mathcal{S}_2
@@ -698,11 +698,13 @@ As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjo
   ]
 \end{tikzcd}
 
-be a pair of [[adjoint functors]] between [[small categories]] with [[finite products]], such that 
+be a pair of [[adjoint functors]] between [[small categories]] that have [[finite products]] (or at least after passing to their [[free coproduct completion]]), such that 
 
 1. the [[right adjoint]] $i$ is [[fully faithful functor|fully faithful]],
 
-1. the [[left adjoint]] $p$ [[preserves limits|preserves]] [[finite products]].
+1. the [[left adjoint]] $p$ [[preserves limits|preserves]] [[finite products]] (or at least its coproduct-preserving extension to [[free coproduct completions]] does).
+
+
 
 Then the induced adjoint quadruple of Kan extensions from Prop. \ref{AdjointPairInducesAdjointQuadrupleUnderKanExtension} is [[cohesive topos|cohesive]] in that
 
@@ -794,7 +796,7 @@ The proof of Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiv
     r,
     shift left=7pt,
     "{ \tau_0 }"{above},
-    "{ \mathclap{\times} }"{description, pos=.0}
+    "{ \mathclap{\widehat{\times}} }"{description, pos=.0}
   ]
   &
   G \mathrm{Orbt}
@@ -934,7 +936,40 @@ then the $n$-truncation reflection restricts
   ]
 \end{tikzcd}
 
-and its preserves finite products (by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts)). Hence its Kan extensions according to Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple} exhibit the [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-presheaves]] $PSh_\infty(\mathcal{S})$ as being [[cohesive (infinity,1)-topos|cohesive]] over $PSh_\infty(\mathcal{S}_{\tau_n})$.
+and it preserves finite products (by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts)). 
+
+Moreover, this adjunction [[corestriction|(co)]][[restricts]] to [[connected objects]] $X \,\in\, \mathcal{S}_{cn} \xhookrightarrow{\;} \mathcal{S}$ (i.e. those for which $\mathcal{S}(X,-)$ preserves coproducts):
+
+\begin{tikzcd}
+  \mathcal{S}_{cn}
+  \ar[
+    r,
+    shift left=7pt,
+    "{ \tau_n }"{above},
+    "{ \mathclap{\widehat{\times}} }"{description, pos=.0}
+  ]
+  &
+  \mathcal{S}_{cn,\tau_n}
+  \ar[
+    l,
+    shift left=7pt,
+    hook',
+    "{ i }"{below}
+  ]
+  \ar[
+    l,
+    phantom,
+    "{\scalebox{.6}{$\bot$}}"{description}
+  ]
+\end{tikzcd}
+
+If all objects of $\mathcal{S}$ are coproducts of connected ones then coroduct-preserving extension of the (co)restriced left adjoint is the original left adjoint and hence preserves finite products.
+
+Hence the Kan extensions according to Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple} exhibit the [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-presheaves]] $PSh_\infty(\mathcal{S})$ as being [[cohesive (infinity,1)-topos|cohesive]] over $PSh_\infty(\mathcal{S}_{\tau_n})$.
+
+
+
+
 \end{example}
 
 \linebreak
@@ -1174,12 +1209,151 @@ Here
 
 \end{proof}
 
-In conclusion:
+The following 
+Lem. \ref{LeftKanExtensionOfBinProductPreservingOnCoprodComplIsBinProductPres}
+is an immediate variant of 
+Lem. \ref{LeftKanExtensionOfBinProductPreservingIsBinProductPres}
+obtained by relaxing the assumptions slightly to a form that is often still readily checked:
+\begin{lemma}
+\label{LeftKanExtensionOfBinProductPreservingOnCoprodComplIsBinProductPres}
+  Let 
+  \begin{tikzcd}
+    \mathcal{S}_1
+    \ar[
+      rr,
+      "{f}"{above},
+      "{\mathclap{\widehat{\times}}}"{description, pos=0}
+    ]
+    &&
+    \mathcal{S}_2
+  \end{tikzcd}
+  be a [[functor]] between [[small categories]] such that 
+
+1. their [[free coproduct completions]] $PSh_{\sqcup}(-)$ have [[binary products]],
+
+1. the unique coproduct-[[preserved colimit|preserving]] extension $f_!$ of $f$ to these completions [[preserved limit|preserves]] [[binary products]], in that for $s, s' \,\in, \mathcal{S}_1$ there is a [[natural isomorphism]]:
+
+   $$
+     f_!\big( y(s) \times y(s') \big) 
+       \,\simeq\, 
+     f_!\big(y(s)\big) \times f_!\big( y(s') \big)
+   $$
+
+Then also the left [[Kan extension]] $f_! \,\colon\, PSh(\mathcal{S}_1) \xrightarrow{\;} PSh(\mathcal{S}_2)$ to the full [[categories of presheaves]] preserves products. 
+\end{lemma}
+\begin{proof}
+  The proof starts and ends as the proof of Prop. \ref{LeftKanExtensionOfBinProductPreservingIsBinProductPres},
+but the main step in between is now more immediate, as it just needs to invoke the assumption:
+$$
+  \begin{aligned}
+    f_!(X \times X')
+       & \;\simeq\;
+    f_!
+    \Big(\!
+      \big(
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \,
+        y(s)
+      \big)
+      \times
+      \big(
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+        \,
+        y(s')
+      \big)
+    \!\Big)
+    \\
+    & \;\simeq\;
+    f_!
+    \Big(
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+        \,
+      \left(
+        y(s)
+        \times
+        y(s')
+      \right)
+    \!\!\Big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \big(
+        y(s)
+        \times
+        y(s')
+      \big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \left(
+        y(s)
+      \right)
+   \times
+    f_!
+      \left(
+        y(s')
+      \right)
+    \\
+    & \;\simeq\;
+    \Big(\,
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \left(
+        y(s)
+      \right)
+   \!\!\Big)
+   \times
+   \Big(\,
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \left(
+        y(s')
+      \right)
+  \!\!\Big).
+  \end{aligned}
+$$
+\end{proof}
+
+In conclusion so far:
 \begin{prop}\label{LeftKanExtensionOfFinProdPreservingIsFinProdPreserving}
-  If a [[functor]] $\mathcal{S}_1 \xrightarrow{\;f\;} \mathcal{S}_2$ between [[small categories]] with [[finite products]] [[preserved limit|preserves]] these, then so does its [[left Kan extension]] $f_! \,\colon\, PSh(\mathcal{S}_1) \xrightarrow{\;} PSh(\mathcal{S}_2)$.
+  If a pair of [[small categories]] $\mathcal{S}_1$, $\mathcal{S}_2$ has [[finite products]] and a [[functor]] $\mathcal{S}_1 \xrightarrow{\;f\;} \mathcal{S}_2$ [[preserved limit|preserves]] these, then so does its [[left Kan extension]] $f_! \,\colon\, PSh(\mathcal{S}_1) \xrightarrow{\;} PSh(\mathcal{S}_2)$.
+
+More generally this is the case if the [[free coproduct completions]] $PSh_{\sqcup}(\mathcal{S}_i)$ have [[finite products]] and the unique coproduct-preserving extension preserves these.
 \end{prop}
 \begin{proof}
-  We need to show that $f_!$ preserves (1) the [[terminal object]] and (2) [[binary products]]. With the given assumption on $f$, the first follows with Lem. \ref{LeftKanExtensionIsOriginalFunctorOnRepresentables} while the second follows with Lem. \ref{LeftKanExtensionOfBinProductPreservingIsBinProductPres}.
+  We need to show that $f_!$ preserves (1) the [[terminal object]] and (2) [[binary products]]. With the given assumption on $f$, the first follows with Lem. \ref{LeftKanExtensionIsOriginalFunctorOnRepresentables} while the second follows with Lem. \ref{LeftKanExtensionOfBinProductPreservingIsBinProductPres} or Lem. \ref{LeftKanExtensionOfBinProductPreservingOnCoprodComplIsBinProductPres}, respectively.
 \end{proof}
 
 \begin{proposition}\label{LeftKanExtensionOfFullyFaithfulIsFullyFaithful}
