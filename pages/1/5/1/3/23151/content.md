@@ -58,7 +58,7 @@ $$
   PSh(\mathcal{C})
 $$
 
-Notice that the first inclusion here does *not* [[preserved colimit|preserve]] [[coproducts]] (coproducts are freely adjoined irrespective of whether $\mathcal{C}$ already had some coproducts), but the second does.
+Notice that the first inclusion here does *not* [[preserved colimit|preserve]] [[coproducts]] (coproducts are freely adjoined irrespective of whether $\mathcal{C}$ already had some coproducts), but the second does. Both inclusions [[preserved limit|preserve]] those [[limits]] that exist.
 
 ## Properties
 
