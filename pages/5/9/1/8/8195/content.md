@@ -57,7 +57,7 @@ On the [[Toda bracket]] understood as [[homotopy coherent diagram|homotopy-coher
 
 
 
-In the context of the [[homotopy 2-category of (∞,1)-categories]]:
+In the context of the [[homotopy 2-category of (∞,1)-categories]] and [[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]:
 
 * {#Riehl14} [[Emily Riehl]], Chapter 18 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
