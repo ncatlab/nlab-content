@@ -241,7 +241,7 @@ is a weak equivalence. But this is immediate, since the two factors are weak equ
 
 ## Related concepts
 
-* [[Ho(CombModCat)]]
+* [[2Ho(CombModCat)]]
 
 ## References
 
