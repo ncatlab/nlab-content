@@ -120,6 +120,7 @@ For literature on [[internal categories]] in [[1-toposes]] see at _[[2-sheaf]]_.
 
 * [[elementary theory of the 2-category of categories]] ([[ETCC]])
 
+* [[formal category theory]]
 
 [[!include flavors of higher toposes -- list]]
 
