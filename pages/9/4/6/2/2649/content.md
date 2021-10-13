@@ -61,15 +61,13 @@ If $C$ is a [[infinitary extensive category]] then for $X \in Ob(C)$ to be conne
 
 Let $C$ be an infinitary [[extensive category]], then
 
-+-- {: .num_theorem #RespectForBinaryCoproductsIsSufficient}
-###### Theorem 
 
- An [[object]] $X$ of $C$ is connected, def. \ref{ConnectedObject}, if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
+\begin{prop}
+\label{RespectForBinaryCoproductsIsSufficient}
+ An [[object]] $X$ of $C$ is connected, def. \ref{ConnectedObject}, if and only if the [[hom-functor]] $\hom(X, -) \colon C \to Set$ [[preserved limit|preserves]] binary [[coproducts]]. 
+\end{prop}
 
-=-- 
-
-+-- {: .proof}
-###### Proof 
+\begin{proof}
 The "only if" is clear, so we just prove the "if". 
 
 We first show that $\hom(X, -)$ preserves the [[initial object]] $0$. Indeed, if $\hom(X, -)$ preserves the binary product $X + 0 = X$, then the canonical map 
@@ -91,31 +89,31 @@ Indeed, for each $\alpha$, the identity map factors through one of the two summa
 $$ id\colon X \to U_\alpha + \sum_{\beta \neq \alpha} U_\beta $$ 
 
 because $\hom(X, -)$ preserves binary coproducts. In others words, either $X = U_\alpha$ or $X = \sum_{\beta \neq \alpha} U_\beta$ (and the other is $0$). We cannot have $U_\alpha = 0$ for every $\alpha$, for then $X = \sum_\alpha U_\alpha$ would be $0$, contradicting the fact that $\hom(X, 0) = 0$. So $X = U_\alpha$ for at least one $\alpha$. And no more than one $\alpha$, since we have $U_\alpha \cap U_\beta = 0$ whenever $\alpha \neq \beta$. 
+\end{proof}
 
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-This proof is not [[constructive mathematics|constructive]], as we have no way to construct a particular $\alpha$ such that $X = U_\alpha$.  (It is constructive if [[Markov's principle]] applies to $A$.)
-
-=--
+\begin{remark}
+This above proof of Prop. \ref{RespectForBinaryCoproductsIsSufficient} is not [[constructive mathematics|constructive]], as we have no way to construct a particular $\alpha$ such that $X = U_\alpha$.  (It is constructive if [[Markov's principle]] applies to $A$.)
+\end{remark}
 
 From the proof above, we extract a result useful in its own right, giving an alternative definition of connected object. 
 
-+-- {: .num_theorem #Scholium}
-###### Theorem 
-
+\begin{proposition}
+\label{InExtensiveCategoryCOnnectedObjectsArePrimitiveUnderCoproduct}
+**(in extensive categories connected objects are primitive under coproduct)**
+\linebreak
 An object $X$ in an [[extensive category]] is connected, def. \ref{ConnectedObject}, if and only if in any [[coproduct]] decomposition $X \simeq U + V$, exactly one of $U$, $V$ is not the [[initial object]]. 
+\end{proposition}
 
-=-- 
+\begin{proof}
+\label{ProofThatInExtensiveCategoryCOnnectedObjectsArePrimitiveUnderCoproduct}
+In one direction, assume that $X$ is connected. If now $X \,\simeq\, U + V$ is a coproduct decomposition, then, by connectedness, the [[isomorphism]] $X \xrightarrow{\sim} U + V$ factor through one of the coproduct inclusions of $i_U, i_V \colon U, V \hookrightarrow U + V$. If it factors through say $U$, then the [[subobject]] $i_U$ is all of $X$, and $V$ is forced to be initial: by [[disjoint coproducts|disjointness of coproducts]], which holds in any extensive category, see [here](extensive+category#DisjointAndPullbackStableCoproducts). 
 
-+-- {: .proof}
-######Proof 
-If $X$ is connected and $X = U + V$ is a coproduct decomposition, then the arrow $id \colon X \to U + V$, factors through one of the coproduct inclusions of $i_U, i_V \colon U, V \hookrightarrow U + V$. If it factors through say $U$, then the subobject $i_U$ is all of $X$, and $V$ is forced to be initial by disjointness of coproducts. 
-
-Turning now to the if direction, suppose $f \colon X \to Y + Z$ is a map, and put $U = f^\ast(i_Y)$, $V = f^\ast(i_Z)$. By extensivity, we have a coproduct decomposition $X = U + V$. One of $U$, $V$ is initial, say $V$, and then we have $X = U$, meaning that $f$ factors through $Y$, and uniquely so since $i_Y$ is monic. Hence $f$ belongs to (exactly) one of the two subsets $\hom(X, Y) \hookrightarrow \hom(X, Y + Z)$, $\hom(X, Z) \hookrightarrow \hom(X, Y + Z)$. 
-=--  
+In the other direction, assume that $X$ has non non-trivial coproduct decomposition and consider any [[morphism]] $f \colon X \to Y + Z$ into a coproduct. By [[extensive category|extensivity]], 
+this implies (see [here](extensive+category#eq:HomIntoCoproductIsPullbackIfDomainIsCoproduct))
+a coproduct decomposition $X = U + V$ 
+with $U \coloneqq f^\ast(i_Y)$ and $V \coloneqq f^\ast(i_Z)$. 
+But, by assumption, either $U$ or $V$ is initial, meaning that $X$ is [[isomorphism|isomorphic]] to either $V$ or $U$, respectively, so that $f$ factors through either $Y$ or $X$, respectively. In other words, $f$ belongs to exactly one of the two subsets $\hom(X, Y) \hookrightarrow \hom(X, Y + Z)$ or $\hom(X, Z) \hookrightarrow \hom(X, Y + Z)$. 
+\end{proof}
 
 ### General properties 
 
@@ -143,7 +141,7 @@ If $X \in Ob(C)$ is connected and $X \to Y$ is an [[epimorphism]], then $Y$ is c
 +-- {: .proof} 
 ###### Proof 
 
-Certainly $Y$ is not [[initial object|initial]], because initial objects in extensive categories are [[strict initial object|strict]]. Suppose $Y = U + V$ (see theorem \ref{Scholium} above), so that we have an epimorphism $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $i_U: U \hookrightarrow U + V$ is epic, in fact an epic equalizer of two maps $U + i_1, U + i_2: U + V \rightrightarrows U + V + V$. This means $i_U$ is an isomorphism; by disjointness of coproducts, this forces $V$ to be initial. Of course $U$ is not initial; otherwise $Y$ would be initial. 
+Certainly $Y$ is not [[initial object|initial]], because initial objects in extensive categories are [[strict initial object|strict]]. Suppose $Y = U + V$ (see prop. \ref{InExtensiveCategoryCOnnectedObjectsArePrimitiveUnderCoproduct} above), so that we have an epimorphism $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $i_U: U \hookrightarrow U + V$ is epic, in fact an epic equalizer of two maps $U + i_1, U + i_2: U + V \rightrightarrows U + V + V$. This means $i_U$ is an isomorphism; by disjointness of coproducts, this forces $V$ to be initial. Of course $U$ is not initial; otherwise $Y$ would be initial. 
 
 =--
 
