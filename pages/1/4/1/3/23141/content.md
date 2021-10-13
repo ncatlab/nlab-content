@@ -211,7 +211,8 @@ for the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-topos of $\i
 
 1. is [[reflective sub-(infinity,1)-category|reflective]], with reflector being the [[image]]-factorization of [[group homomorphisms]]:
 
-$$
+\[
+  \label{TheAbstractAdjunctionOfSites}
       Sngrlt_{/\prec G}
       \underoverset
         {\underset{}{\hookleftarrow}}
@@ -235,7 +236,7 @@ $$
         && \prec\!\!G
       }
      \right\}
-$$
+\]
 
 \end{lemma}
 \begin{proof}
@@ -278,7 +279,7 @@ $$
 $$
 \end{lemma}
 \begin{proof}
-  It is straightforward, if a little laborious, to check this directly. But it also follows abstractly by [this Prop.](Borel+model+structure#RelationToSliceOverSimplicialClassifyingSpace) about the general relation between slicing over $B G$ and [[infinity-action|$\infty$-actions]] of $G$: 
+  It is straightforward, to check this directly. But it also follows abstractly by [this Prop.](Borel+model+structure#RelationToSliceOverSimplicialClassifyingSpace) about the general relation between slicing over $B G$ and [[infinity-action|$\infty$-actions]] of $G$: 
 
 The functor which assigns to $B H \xrightarrow{\;\; B i_H\;\;} B G$ its [[homotopy fiber]] is a [[fully faithful functor]] into the [[G-sets]] among all $G$-[[infinity-action|$\infty$-actions]] (by the [[n-truncated object in an (infinity,1)-category|0-truncation condition]]). But the [[homotopy fiber]] of $B i_H$ is the [[coset space|coset set]] (by [this Example](...)):
 $$
@@ -324,9 +325,14 @@ $$
 \end{proof}
 
 \begin{lemma}
-  Neither site has all [[products]], but their [[free coproduct completion]] has all products, and $\tau_!$ preserves these.
-(...)
+\label{ReflectorPreservesFiniteProductsOnFreeCoproductCompletion}
+  The [[free coproduct completions]] of the $(2,1)$-categories (eq:TheAbstractAdjunctionOfSites) have [[finite products]] and the unique coproduct-preserving extension of $\tau0_0$ to these preserves finite products.
 \end{lemma}
+\begin{proof}
+ The category on the right is equivalently the $G$-[[orbit category]] (by Lem. \ref{GOrbitsAs0TruncatedObjectsInSliceOverGOrbiSingularity}) whose [[free coproduct completion]] is (using here our assumption that $G$ is a [[discrete group]]) the category of all [[G-set|$G$-sets]] (as in  [this remark](orbit+category#GActionsAndGOrbits)). 
+
+Similarly, the free coproduct completion of the category on the left is readily seen to be that of all 1-truncated in $\infty Grpd_{/B G}$. Hence the coproduct-preserving extension of $\tau_0$ to these is just the 0-truncation functor in this slice [[(infinity,1)-topos|$\infty$-topos]] and as such preserves finite products (by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts), see [this Exp.](adjoint+quadruple#nTruncationsOfFullSubcategoriesOfInfinityToposes)).
+\end{proof}
 
 In conclusion:
 
@@ -334,14 +340,14 @@ In conclusion:
 **($G$-orbits are reflective in slice over $G$-orbi-singularity)**
 \linebreak
 For $G \,\in\, Grp(FinSet)$ the $G$-[[orbit category]] is canonically a [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of 
-the [[slice (infinity,1)-category|slice]] of $Snglrt$ (Def. \ref{CategoryOfOrbiSingularities}) over $\prec\!\! G$ (eq:TheCategoryOfOrbiSingularities):
+the [[slice (infinity,1)-category|slice]] of $Snglrt$ (Def. \ref{CategoryOfOrbiSingularities}) over $\prec\!\! G$ (eq:TheCategoryOfOrbiSingularities) whose reflector $\tau_0$ preserves finite products when extended to the [[free coproduct completions]], where all finite products exist:
 
 \begin{tikzcd}[row sep=0pt]
   \mathrm{Sngrlt}_{/\prec G}
   \ar[
     rr,
     shift left=7pt,
-    "\tau"{above},
+    "\tau_0"{above},
     "{ \mathclap{\widehat{\times}} }"{description, pos=0}
   ]
   &&
@@ -381,7 +387,9 @@ the [[slice (infinity,1)-category|slice]] of $Snglrt$ (Def. \ref{CategoryOfOrbiS
   By the immediate combination of
   Lem. \ref{TruncatedObjectsInSliceOverGOrbiSingularity}
   with
-  Lem. \ref{GOrbitsAs0TruncatedObjectsInSliceOverGOrbiSingularity}.
+  Lem. \ref{GOrbitsAs0TruncatedObjectsInSliceOverGOrbiSingularity}
+  and 
+  Lem. \ref{ReflectorPreservesFiniteProductsOnFreeCoproductCompletion}.
 \end{proof}
 
 
@@ -467,7 +475,6 @@ by  [[(infinity,1)-Kan extension|$\infty$-Kan extension]]
  of the adjoint pair from Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}.
 \end{proof}
 
-> {#Gap} Gap: The above sites don't actually have all finite products, while the proof above refers to a lemma which assumes they do. Am patching this...
 
 ## References
 
