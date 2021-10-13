@@ -1,12 +1,21 @@
 
-# Augmented virtual double categories
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
 
+# Augmented virtual double categories
 * table of contents
 {: toc}
 
 ## Idea
 
-An **augmented virtual double category** is a [[virtual double category]] enhanced with additional 2-cells whose vertical target has length 0 (i.e. is a single object rather than a horizontal arrow).
+An **augmented virtual double category** is a [[virtual double category]] enhanced with additional [[2-cells]] whose vertical [[target]] has length 0 (i.e. is a single object rather than a horizontal arrow).
 
 In particular, there is always a "vertical 2-category" consisting of the objects, vertical arrows, and 2-cells whose vertical source and target are both length 0.  A virtual double category, by contrast, does not have a vertical 2-category unless it has all units.
 
@@ -16,7 +25,7 @@ In particular, there is always a "vertical 2-category" consisting of the objects
 
 ## Applications
 
-Augmented Virtual double categories are a natural context in which to compare [[proarrow equipments]] and [[Yoneda structures]], which are two different approaches to [[formal category theory]].  In both cases there is a notion of "profunctor" which are generally considered to be small-set-valued, but Yoneda structures require non-locally-small categories (the presheaf categories of non-small categories).  In this context the Yoneda embedding can be given a universal property relative to the horizontal arrows.  See [(Koudenburg)](#Koudenburg19).
+Augmented Virtual double categories are a natural context in which to compare [[proarrow equipments]] and [[Yoneda structures]], which are two different approaches to [[formal category theory]].  In both cases there is a notion of "[[profunctor]]" which are generally considered to be small-set-valued, but [[Yoneda structures]] require non-locally-small categories (the presheaf categories of non-small categories).  In this context the Yoneda embedding can be given a universal property relative to the horizontal arrows.  See [(Koudenburg)](#Koudenburg19).
 
 ## Related pages
 
@@ -26,9 +35,15 @@ Augmented Virtual double categories are a natural context in which to compare [[
 
 ## Reference
 
-* {#Koudenburg15} Seerp Roald Koudenburg, *A double-dimensional approach to formal category theory*, [arXiv](http://arxiv.org/abs/1511.04070), 2015.  In this paper augmented virtual categories are called "hypervirtual double categories".
+* {#Koudenburg15} [[Seerp Roald Koudenburg]], *A double-dimensional approach to formal category theory* ([arXiv:1511.04070](http://arxiv.org/abs/1511.04070)) 2015. 
 
-* {#Koudenburg19} Seerp Roald Koudenburg, *Augmented virtual double categories*, [arXiv](https://arxiv.org/abs/1910.11189), 2019.  This is a streamlined and expanded version of Sections 1, 2 and 3 of the previous paper, published in [TAC](http://www.tac.mta.ca/tac/volumes/35/10/35-10abs.html)
+  > (motivated by [[formal category theory]]) 
+
+* {#Koudenburg19} [[Seerp Roald Koudenburg]], *Augmented virtual double categories*, Theory and Applications of Categories, Vol. 35, 2020, No. 10, pp 261-325 ([arXiv:1910.11189](https://arxiv.org/abs/1910.11189), [tac:35-10](http://www.tac.mta.ca/tac/volumes/35/10/35-10abs.html))
+
+  > (streamlined and expanded version of Sec. 1-3 of [Koudenburg 15](#Koudenburg15) )
+
+
 
 [[!redirects hypervirtual double category]]
 [[!redirects hypervirtual double categories]]
