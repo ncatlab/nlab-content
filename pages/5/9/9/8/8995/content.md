@@ -4,6 +4,11 @@ Aurelio Carboni was an Italian category theorist, who was based in Como. He died
 
 ## Selected writings
 
+On [[extensive categories]] and [[distributive categories]]:
+
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+
+
 On [[reflective factorization systems]]:
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
