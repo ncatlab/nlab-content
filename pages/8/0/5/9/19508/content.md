@@ -186,11 +186,11 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 ## Related concepts
 
-* one might expect that $Ho_2(CombModCat)$ is similarly equivalent to the full full sub-2-category of the [[homotopy 2-category of (∞,1)-categories]] on the [[presentable (∞,1)-categories]], but this seems to remain open
-
 * [[Ho(Cat)]]
 
 * [[double category of model categories]]
+
+* [[Quillen adjoint triple]]
 
 * [[PrCat]], [[Pr(∞,1)Cat]]
 
@@ -216,3 +216,5 @@ The equivalence of the full homotopy theory (in particular the [[homotopy 2-cate
 
 
 [[!redirects HoCombModCat]]
+
+[[!redirects 2Ho(CombModCat)]]
