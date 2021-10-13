@@ -62,7 +62,7 @@ Yet from an **n-categorical perspective**, the categories they axiomatize differ
 
 Now what comes closest to such a vision at the moment is probably [[homotopy type theory]] but truncating such a tower of 'foundations' might be still relevant for applications where concepts of [[2-topos|2-toposes]] are considered. It would also provide an axiomatisation for the 'familiar' meta 2-category CAT suggestive for the generalization to n-CAT.
 
-At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulman|M. Shulman]] gave a rough sketch of how such an **elementary theory of the 2-category of categories** (ET2CC) should look like:
+At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulman|M. Shulman]] gave a rough sketch of what such an **elementary theory of the 2-category of categories** (ET2CC) should look like (see at at *[[formal category theory]]*):
 
 > Firstly, some exactness axioms amounting to its being a "2-pretopos" in the sense I described here:[[michaelshulman:2-categorical logic]] . This gives you an "internal logic" like that of an ordinary (pre)topos.
   
@@ -83,14 +83,20 @@ Note that already B. Walters and R. Street conceived of their work on [[Yoneda s
 ## Related entries
 
 * [[ETCS]]
+
 * [[Yoneda structure]]
+
 * [[Functorial Semantics of Algebraic Theories]]
+
 * [[foundations of mathematics]]
+
 * [[theory of categories]]
+
+* [[formal category theory]]
 
 ## References
 
-* F. W. Lawvere, *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
+* [[William Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
 
 A revised version of the axioms appears as
 
@@ -163,5 +169,8 @@ See also
 
 * {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December 1971. ([manuscript](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
 
+[[!redirects elementary theory of the category of categories]]
 
 [[!redirects elementary theory of the 2-category of categories]]
+
+
