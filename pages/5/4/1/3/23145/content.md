@@ -92,6 +92,8 @@ Families of two-dimensional [[conformal field theory|conformal field theories]],
 
 * [[Dwyer-Wilkerson H-space]], which would be the automorphism group of a [[normed division algebra]] if one could exist in 24 dimensions
 
+* [[Dedekind eta function]]
+
 ## References
 
 * [More Mysteries of the Number 24](https://golem.ph.utexas.edu/category/2007/06/more_mysteries_of_the_number_2.html) at the $n$-Category Café
