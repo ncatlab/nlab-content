@@ -22,7 +22,7 @@
 
 ### On an abelian group
 
-For $(A,+)$ an [[abelian group]], then a _norm_ on the group is a [[function]]
+For $(G,+)$ an [[abelian group]], then a _norm_ on the group is a [[function]]
 
 $$
   {\vert-\vert} \;\colon\; G \longrightarrow \mathbb{R}
