@@ -67,12 +67,21 @@ Fairly immediate from the explicit definition above is:
 \begin{proposition}\label{CategoriesOfCoproductsOfConnectedObjects}
   A [[category]] $\mathcal{B}$ is [[equivalence of categories|equivalent]] to a [[free coproduct completion]] $PSh_{\sqcup}(\mathcal{C})$ for a [[small category]] $\mathcal{C}$ if 
 
-1. $\mathcal{C} \xhookrightarrow{\;} \mathcal{B}$ is a [[full subcategory]] of [[connected objects]], i.e. $X \,\in\, \mathcal{C} \hookrightarrow \mathcal{B}$ means that the [[hom-functor]] $\mathcal{B}(X,-) \,\colon\, \mathcal{B} \to Set$ [[preserved colimit|preseves]] [[coproducts]];
+1. $\mathcal{C} \xhookrightarrow{\;} \mathcal{B}$ is a [[full subcategory]] of [[connected objects]], 
+
+   i.e. $X \,\in\, \mathcal{C} \hookrightarrow \mathcal{B}$ means that the [[hom-functor]] $\mathcal{B}(X,-) \,\colon\, \mathcal{B} \to Set$ [[preserved colimit|preserves]] [[coproducts]]
+
+   (which when $\mathcal{C}$ is [[extensive category|extensive]] means equivalentlt that if $X$ is a coproduct, then one of the summands is [[initial object|initial]]);
 
 1. each object of $\mathcal{B}$ is a [[coproduct]] of objects in $\mathcal{C} \hookrightarrow \mathcal{B}$.
 
 \end{proposition}
 ([Carboni & Vitale 1998, Lem. 42](#CarboniVitale98))
+
+\begin{prop}
+  Any free coproduct completion is an [[extensive category]].
+\end{prop}
+(e.g. [Carboni, Lack & Walters 1993](#CarboniLackWalters93))
 
 
 ## Examples
@@ -106,6 +115,7 @@ Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive act
 
 ## References
 
+
 On [[limits]] in free coproduct completions:
 
 * {#HuTholen95} Hongde Hu, [[Walter Tholen]], *Limits in  free  coproduct completions*, Journal of  Pure  and  Applied  Algebra 105 (1995) 277-291 (<a href="https://doi.org/10.1016/0022-4049(94)00153-7">doi:10.1016/0022-4049(94)00153-7</a>, [pdf](https://core.ac.uk/download/pdf/82604415.pdf))
@@ -113,6 +123,10 @@ On [[limits]] in free coproduct completions:
 In the context of [[regular and exact completions]]:
 
 * {#CarboniVitale98} [[Aurelio Carboni]], [[Enrico Vitale]], *Regular and exact completions*, Journal of Pure and Applied Algebra **125** 1–3  (1998) 79-116 (<a href="https://doi.org/10.1016/S0022-4049(96)00115-6">doi:10.1016/S0022-4049(96)00115-6</a>)
+
+In the general context of [[extensive categories]]:
+
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
 
 
 [[!redirects free coproduct completions]]
