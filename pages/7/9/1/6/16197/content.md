@@ -111,7 +111,7 @@ The experimental data supporting the model is due to
 
 * {#PlanckCollaboration18X} [[Planck Collaboration]], _Planck 2018 results. X. Constraints on inflation_ ([arXiv:1807.06211](https://arxiv.org/abs/1807.06211))
 
-* {#BICEPKeck21} BICEP/Keck Collaboration: *BICEP / Keck XIII: Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season* ([arXiv:2110.00483](https://arxiv.org/abs/2110.00483))
+* {#BICEPKeck21} BICEP/Keck Collaboration: *BICEP / Keck XIII: Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season*, Phys. Rev. Lett. 127, 151301 ([arXiv:2110.00483](https://arxiv.org/abs/2110.00483), [doi:10.1103/PhysRevLett.127.151301](https://doi.org/10.1103/PhysRevLett.127.151301))
 
 See also
 
