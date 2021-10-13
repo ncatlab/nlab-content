@@ -5,6 +5,15 @@
 
 ## Selected writings
 
+On [[transferred model structures]] and [[model structures on functors]]:
+
+* Marzieh Bayeh, [[Kathryn Hess]], [[Varvara Karpova]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
+
+* {#GKR18} [[Richard Garner]], [[Magdalena Kedziorek]], [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
+
+
+
+
 On [[rational equivariant stable homotopy theory]]:
 
 * [[David Barnes]], [[Magdalena Kedziorek]], _An introduction to algebraic models for rational G-spectra_ ([arXiv:2004.01566](https://arxiv.org/abs/2004.01566))
