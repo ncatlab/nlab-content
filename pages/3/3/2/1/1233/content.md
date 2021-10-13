@@ -31,7 +31,7 @@ This is one of the most influential and comprehensive historical books in low-di
 
 * {#Law66} [[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
 
-More recently, this approach is echoed in [Riehl & Verity 13](homotopy+2-category+of+infinity-categories#RiehlVerity13), where [[Cat]] is enhanced to the [[homotopy 2-category of (∞,1)-categories]] in order to provide [[2-category theory|2-category theoretic]] foundations for [[(∞,1)-category theory]].
+More recently, this approach is echoed in [Riehl & Verity 13](homotopy+2-category+of+infinity-categories#RiehlVerity13), where [[Cat]] is enhanced to the [[homotopy 2-category of (∞,1)-categories]] in order to provide [[2-category theory|2-category theoretic]] foundations for [[(∞,1)-category theory]]. At least for [[presentable (infinity,1)-categories|presentable $\infty$-categories]], this is also obtained as the [[2-localization]] of the 2-category of [[combinatorial model categories]] and [[left Quillen functors]] at the [[Quillen equivalences]]: see at *[[2Ho(CombModCat)]]]*.
 
 The book was supposed to be the first part of a four volume work, but unfortunately later volumes/chapters never appeared. It has some parts of 2- and 3-category theory; including the treatment of the famous [[Gray tensor product]] on 2-Cat. See also [[Gray-category]].
 
