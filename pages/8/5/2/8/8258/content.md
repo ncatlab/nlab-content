@@ -12,6 +12,11 @@ Bob Walters, often called R F C Walters, taught at the University of Sydney and 
 
 ## Selected writings
 
+On [[extensive categories]] and [[distributive categories]]:
+
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+
+
 On [[Cartesian bicategories]]:
 
 * [[Aurelio Carboni]], [[Bob Walters]], _Cartesian Bicategories, I_, Journal of Pure and Applied Algebra, Volume 49, Issues 1–2, November 1987,  (<a href="https://doi.org/10.1016/0022-4049(87)90121-6">doi:10.1016/0022-4049(87)90121-6</a>)
