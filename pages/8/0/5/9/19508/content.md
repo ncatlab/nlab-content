@@ -38,31 +38,37 @@ $$
 
 is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category|homotopy category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. 
 
-A proof for this statement, not just for [[homotopy categories]] but for the full homotopy theories, is now claimed in [Pavlov 2021](#Pavlov21).
+A proof for this statement, not just for [[homotopy categories]] but for the full homotopy theories ([[(infinity,1)-categories|$(\infty,1)$-categories]]), is now claimed in [Pavlov 2021](#Pavlov21).
 
 An anlogous equivalence, but with presentable [[derivators]] and just at the level of [[homotopy 2-categories]], is due to  [Renaudin 06](#Renaudin06), see Corollary \ref{EquivalenceToHoPrDer} below.
 
 
-## Details
+## Definition and 2-localization
  {#Details}
 
-+-- {: .num_example #2CategoryOfModelCategories}
-###### Definition
-**(the [[2-category]] of [[combinatorial model category|combinatorial]] [[model categories]])**
+\begin{definition}
+\label{2CategoryOfModelCategories}
+**([[2-category]] of [[combinatorial model category|combinatorial]] [[model categories]])**
 
 Write 
 
 1. $ModCat$ for the [[2-category]] whose [[objects]] are [[model categories]], whose [[1-morphisms]] are [[left Quillen functors]] and [[2-morphisms]] are [[natural transformations]].
 
-1. $CombModCat \subset ModCat$ for the [[full sub-2-category]] on the [[left proper model categories|left proper]] [^1] [[combinatorial model categories]].
+1. $\Delta ModCat$ for the [[2-category]] whose [[objects]] are [[simplicial model categories]] ([[classical model structure on simplicial sets|$sSet_{Qh}$]]-[[enriched model categories]]), whose [[1-morphisms]] are [[simplicial Quillen adjunction|simplicial]] [[left Quillen functors]] and [[2-morphisms]] are [[natural transformations]].
 
-=--
 
-+-- {: .num_remark #LocalPresentationOfCombinatorialModelCategories}
-###### Remark
+1. $CombModCat \subset ModCat$ and $\Delta CombModCa \subset \Delta ModCa$ for the [[full sub-2-categories]] on the [[left proper model categories|left proper]] [[combinatorial model categories]],
+
+1. $LPropCombModCat \subset CombModCat$ and $LPropCombModCat \subset CombModCat$ for the further [[full sub-2-categories]] on the [[left proper model categories|left proper]] [[combinatorial model categories]].
+
+\end{definition}
+
+
+\begin{remark}
+\label{LocalPresentationOfCombinatorialModelCategories}
 **(local presentation of combinatorial model categories)**
-
-By [[Dugger's theorem]], we may choose for every $\mathcal{C} \in CombModCat$ an [[sSet-category]] $\mathcal{S}$ and a [[Quillen equivalence]]
+\linebreak
+By [[Dugger's theorem]], we may choose for every $\mathcal{C} \in CombModCat$ (Def. \ref{2CategoryOfModelCategories}) an [[sSet-category]] $\mathcal{S}$ and a [[Quillen equivalence]]
 
 $$
   \mathcal{C}^p
@@ -72,35 +78,36 @@ $$
   \mathcal{C}
 $$ 
 
-from the local projective [[model structure on sSet-enriched presheaves]] over $\mathcal{S}$.
+from the local projective [[model structure on sSet-enriched presheaves]] over $\mathcal{S}$. The latter is still a [[combinatorial model category]] but is also a [[left proper model category|left proper]] [[simplicial model category]].
+\end{remark}
 
-=--
 
-+-- {: .num_prop #Homotopy2CategoryOf2CatOfCombinatorialModelCategories}
-###### Proposition
+
+\begin{prop}
+\label{Homotopy2CategoryOf2CatOfCombinatorialModelCategories}
 **(the [[homotopy 2-category]] of [[combinatorial model categories]])**
 
 The [[2-localization of a 2-category]] 
 
 $$
-  CombModCat\big[QuillenEquivs^{-1}\big]
+  LPropCombModCat\big[QuillenEquivs^{-1}\big]
 $$ 
 
-of the [[2-category]] of [[combinatorial model categories]] (Def. \ref{2CategoryOfModelCategories}) at the [[Quillen equivalences]] exists. Up to [[equivalence of 2-categories]], it has the same [[objects]] as $CombModCat$ and for any $\mathcal{C}, \mathcal{D} \in CombModCat$ its [[hom-category]] is the [[localization of categories]] 
+of the [[2-category]] of [[left proper model category|left proper] [[combinatorial model categories]] (Def. \ref{2CategoryOfModelCategories}) at the [[Quillen equivalences]] exists. Up to [[equivalence of 2-categories]], it has the same [[objects]] as $CombModCat$ and for any $\mathcal{C}, \mathcal{D} \in CombModCat$ its [[hom-category]] is the [[localization of categories]] 
 
 $$
-  CombModCat\big[QuillenEquivs^{-1}\big](\mathcal{C}, \mathcal{D})
+  LPropCombModCat\big[QuillenEquivs^{-1}\big](\mathcal{C}, \mathcal{D})
   \;\simeq\;
   ModCat( \mathcal{C}^p, \mathcal{D}^p )\big[\{QuillenHomotopies\}^{-1}\big]
 $$
 
 of the category of [[left Quillen functors]] and [[natural transformations]] between local presentations $\mathcal{C}^p$ and $\mathcal{D}^p$ (Remark \ref{LocalPresentationOfCombinatorialModelCategories}) at those [[natural transformation]] that on [[cofibrant objects]] have components that are [[weak equivalences]] ("Quillen homotopies").
+\end{prop}
 
-=--
-
-This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).
+This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).[^1]
 
 
+## Relation to derivators
 
 +-- {: .num_prop #}
 ###### Proposition
@@ -108,7 +115,7 @@ This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).
 There is an [[equivalence of 2-categories]]
 
 $$
-  CombModCat\big[ QuillenEquivs^{-1} \big]
+  LPropCombModCat\big[ QuillenEquivs^{-1} \big]
   \;\simeq\;
   PresentableDerivators
 $$
@@ -117,7 +124,7 @@ between the [[homotopy 2-category]] of [[combinatorial model categories]] (Prop.
 
 =--
 
-This is the statement of [Renaudin 06, theorem 3.4.4](#Renaudin06).
+This is the statement of [Renaudin 06, theorem 3.4.4](#Renaudin06).[^1]
 
 
 For $\mathcal{C}$ a [[2-category]] write
@@ -135,7 +142,7 @@ For $\mathcal{C}$ a [[2-category]] write
 The composite 1-functor
 
 $$
-  CombModCat_1
+  LPropCombModCat_1
    \longrightarrow
   \pi_0^{iso}(CombModCat)
     \overset{\pi_0^{iso}(\gamma)}{\longrightarrow}
@@ -205,7 +212,7 @@ The equivalence of the full homotopy theory (in particular the [[homotopy 2-cate
 
 * {#Pavlov21} [[Dmitri Pavlov]], *Combinatorial model categories are equivalent to presentable quasicategories* ([arXiv:2110.04679](https://arxiv.org/abs/2110.04679))
 
-[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories may be taken to pass through only left proper ones.
+[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. While  [[Dugger's theorem]] (Rem. \ref{LocalPresentationOfCombinatorialModelCategories}) ensures that every combinatorial model category is Quillen equivalent to a left proper one, it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories may be taken to pass through only left proper ones.
 
 
 [[!redirects HoCombModCat]]
