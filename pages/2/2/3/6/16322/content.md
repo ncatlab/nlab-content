@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,19 +19,24 @@ A _reflexive object_ is a model of the pure (untyped) [[lambda calculus]] valida
 
 ## Definition
 
-A **reflexive object** in a [[cartesian closed category]] is an object $U$ equipped with a pair of maps
+A **reflexive object** in a [[cartesian closed category]] is an [[object]] $U$ equipped with a pair of [[morphisms]]
 
 $$
 \array{U & \overset{app}{\underset{lam}{\rightleftarrows}} & U^U} 
 $$
 
-such that $app \circ lam = 1$.  In other words, a reflexive object is an object $U$ together with data $U^U \lhd U$ exhibiting $U^U$ as a [[retract]] of $U$.  A reflexive object is said to be **extensional** (or "strict") when also $lam \circ app = 1$, so that there is an isomorphism $U^U \cong U$.
+(where $(-)^{(-)}$ denotes the [[exponential object]])
+such that $app \circ lam = 1$.  
+
+In other words, a reflexive object is an object $U$ together with data $U^U \lhd U$ exhibiting $U^U$ as a [[retract]] of $U$.  
+
+A reflexive object is said to be **extensional** (or "strict") when also $lam \circ app = 1$, so that there is an isomorphism $U^U \cong U$.
 
 Viewed as a model of lambda calculus, the equation $app \circ lam = 1$ of a reflexive object represents $\beta$-equality $(\lambda x.t)(u) = t[u/x]$, while the equation $lam \circ app = 1$ of an extensional reflexive object represents $\eta$-equality $\lambda x.t(x) = t$.
 
 ### In a closed (symmetric) monoidal category
 
-The definition has a straightforward generalization to any [[symmetric monoidal closed category]] (i.e., not necessarily [[cartesian monoidal category|cartesian monoidal]]), where we just replace the exponential object $U^U$ by the [[internal hom]] $[U,U]$.  Indeed, the definition also makes sense in any left-closed or right-closed monoidal category.
+The definition has a straightforward generalization to any [[symmetric monoidal closed category]] (i.e., not necessarily [[cartesian monoidal category|cartesian monoidal]]), where we just replace the [[exponential object]] $U^U$ by the [[internal hom]] $[U,U]$.  Indeed, the definition also makes sense in any left-closed or right-closed monoidal category.
 
 A reflexive object in a symmetric monoidal closed category provides a model of [[linear lambda calculus]].
 
@@ -94,14 +110,14 @@ For a modern analysis of Scott's representation theorem, see:
 
 * {#Hyland14} [[Martin Hyland]], _Towards a Notion of Lambda Monoid_ , Electronic Notes in Theoretical Computer Science **303** (2014) pp.59-77, doi:[10.1016/j.entcs.2014.02.004](https://doi.org/10.1016/j.entcs.2014.02.004)
 
-Bicategorical and monoidal generalizations of the notion of reflexive object are discussed in:
+[[2-category|Bicategorical]] and [[monoidal category|monoidal]] generalizations of the notion of reflexive object are discussed in:
 
 * [[R. A. G. Seely]]. _Modelling Computations : a 2-categorical Framework_. LICS 1987. ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
 
-* [[Bart Jacobs]]. Semantics of lambda-I and of other substructure lambda calculi.  M. Bezem and J.F. Groote (eds.) _Typed Lambda Calculi and Applications_, Springer
-LNCS 664, 1993, p. 195-208, doi:[10.1007/BFb0037107](https://doi.org/10.1007/BFb0037107)
+* [[Bart Jacobs]]. *Semantics of lambda-I and of other substructure lambda calculi*, in:  M. Bezem and J.F. Groote (eds.) _Typed Lambda Calculi and Applications_, Springer
+LNCS 664, 1993, p. 195-208 ([doi:10.1007/BFb0037107](https://doi.org/10.1007/BFb0037107))
 
-* [[Noam Zeilberger]]. Linear lambda terms as invariants of rooted trivalent maps, Journal of Functional Programming, 26, e21, 20 pages, 2016, doi:[10.1017/S095679681600023X](https://doi.org/10.1017/S095679681600023X), [arXiv:1512.06751](http://arxiv.org/abs/1512.06751)
+* [[Noam Zeilberger]], *Linear lambda terms as invariants of rooted trivalent maps*, Journal of Functional Programming, 26, e21  2016 ([doi:10.1017/S095679681600023X](https://doi.org/10.1017/S095679681600023X), [arXiv:1512.06751](http://arxiv.org/abs/1512.06751))
 
 ## Related concepts
 
