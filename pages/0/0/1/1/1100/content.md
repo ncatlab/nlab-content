@@ -467,28 +467,38 @@ should be.
 ## References
 
 ### General
+ {#ReferencesGeneral}
 
-In retrospect it turns out that the [[homotopy category of an (∞,1)-category|homotopy categories]] of [[(∞,1)-topos]]es have been known since
+In retrospect, at least the [[homotopy category of an (∞,1)-category|homotopy categories]] of [[(∞,1)-toposes]] have been known since
 
-* [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ .
+* [[Kenneth Brown]], *[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]*,  Transactions of the American Mathematical Society,  Vol. 186 (1973), 419-458  ([jstor:1996573](http://www.jstor.org/stable/1996573)). 
 
-And the [[model category]] theory models have been known since [[Andre Joyal]] proposed the [[model structure on simplicial sheaves]] in his letter to [[Alexander  Grothendieck]].
+presented there via [[categories of fibrant objects]] among [[simplicial presheaves]]. The enhancement of this to [[model categories]] [[model structure on simplicial presheaves|of simplicial presheaves]] originates wit:h
 
-This work used 1-categorical [[site]]s. The generalization to [[(∞,1)-category|(∞,1)categorical sites]] -- modeled by [[model sites]] -- was discussed in
+* [[André Joyal]], Letter to [[Alexander Grothendieck]], 11. 4. 1984, ([pdf scan](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf)).
+
+* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_, Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](https://core.ac.uk/download/pdf/82485559.pdf))
+
+A more intrinsic characterization of these "[[model toposes]]" ([Rezk 2010](#Rezk10)) as $\infty$-toposes (the term seems to first appear here in [Simpson 1999](#Simpson99)) is due to:
+
+* {#Simpson99} [[Carlos Simpson]],  *A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi* ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+
+The generalization of these [[model toposes]] from 1-sites to [[simplicial site|simplicial]] [[model sites]] is due to
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics 193.2 (2005): 257-372. ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
 
-and "model topos"-theory was also developed in
+The term *[[model topos]]* was later coined in:
 
-* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
 
-The intrinsic [[higher category theory|category-theoretic]] definition of an [[(∞,1)-topos]] was given in section 6.1 of
+A comprehensive conceptualization and discussion of [[(∞,1)-toposes]] is then due to 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], section 6.1 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
-building on ideas by [[Charles Rezk]]. There is is also proven that the Brown-Joyal-Jardine-To&#235;n-Vezzosi models indeed precisely model $\infty$-stack $(\infty,1)$-toposes. Details on this relation are at [[models for ∞-stack (∞,1)-toposes]].
+building on [Rezk 2010](#Rezk10). There is is also proven that the Brown-Joyal-Jardine-To&#235;n-Vezzosi models indeed precisely model $\infty$-stack $(\infty,1)$-toposes. Details on this relation are at [[models for ∞-stack (∞,1)-toposes]].
 
-Overview
+
+Overview:
 
 * [[Denis-Charles Cisinski]], _Cat&#233;gories sup&#233;rieures et th&#233;orie des topos_, S&#233;minaire Bourbaki, 21.3.2015, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/1097.pdf).
 
