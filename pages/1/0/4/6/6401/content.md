@@ -55,6 +55,10 @@ Further review includes the following:
 
 * [[Albert Schwarz]], _On the definition of superspace_ Teoret. Mat. Fiz., 1984,  Volume 60,  Number 1, Pages 37&#8211;42   (Mi tmf5111), ([russian original](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
 
+For a philosophical treatment of the use of superspaces in physics see
+
+* Tushar Menon, _Taking up superspace -- the spacetime structure of supersymmetric field theory_, ([preprint](https://core.ac.uk/download/pdf/157868366.pdf))
+
 * _[[geometry of physics -- supergeometry]]_
 
 [[!redirects superspaces]]
