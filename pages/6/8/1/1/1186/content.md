@@ -366,7 +366,7 @@ For $C$ an $(\infty,1)$-category with finite [[products]], the $(\infty,1)$-cate
 
 The theory of locally presentable $(\infty,1)$-categories was first implicitly conceived in terms of [[model category]] presentations in
 
-* {#Simpson99} [[Carlos Simpson]],  _A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+* {#Simpson99} [[Carlos Simpson]],  *A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi* ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
  
 
 The full intrinsic $(\infty,1)$-categorical theory appears in  
