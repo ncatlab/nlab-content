@@ -136,7 +136,7 @@ onto the full [[sub-(∞,1)-category]] of those functors, that preserves colimit
 
 This is  ([Lurie, NA, theorem 4.1.4](#LurieNoncommutative)).
 
-This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even closed, since the hom-objects $Func^L$ supply adjoints to the tensor product.
+This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even [[closed monoidal (infinity,1)-category|closed]], since the [[hom-objects]] $Func^L$ supply [[right adjoints]] to the tensor product.
 
 The definition of the tensor product is easy: $C \otimes D = Cts(C^{op},D)$, where $Cts$ denotes the category of continuous (small-limit-preserving) functors.  Equivalently, this is $Cocts(C,D^{op})^{op}$, where $Cocts$ denotes the category of cocontinuous (small-colimit-preserving) functors; it is tempting to write this as $Func^L(C,D^{op})^{op}$, but note that $D^{op}$ is not itself locally presentable.  However, $D^{op}$ is nevertheless cocomplete, so any cocontinuous functor $C \to D^{op}$ has a right adjoint.
 
@@ -188,7 +188,7 @@ The [[copower]] of $C\in Pr(\infty,1)Cat$ by a small $(\infty,1)$-category $A$ i
 =--
 +--{: .proof}
 ###### Proof
-Let $P A$ denote the [[presheaf (∞,1)-category]] on $A$.  This is its free cocompletion, so we have $Func^L(P A,C) \simeq C^A$.  Dually, $(P A)^{op}$ is the free completion of $A^{op}$, so we have $Cts((P A)^{op},C) \simeq C^{A^op}$.  Now we have:
+Let $P A$ denote the [[(∞,1)-presheaf (∞,1)-category]] on $A$.  This is its free cocompletion, so we have $Func^L(P A,C) \simeq C^A$.  Dually, $(P A)^{op}$ is the free completion of $A^{op}$, so we have $Cts((P A)^{op},C) \simeq C^{A^op}$.  Now we have:
 $$
 \begin{aligned}
 Func^L(C,D)^A
