@@ -86,12 +86,25 @@ This is just the usual notion of an [[enriched model category]] specialized to e
 
 * [[homotopy 2-category]]
 
-## References
+* [[model (infinity,1)-category|model $(\infty,1)$-category]]
 
-The original reference, which constructs the natural model structure and its lifting to 2-monads, is:
+## References
+ {#References}
+
+The idea that the [[2-category]] of [[model categories]] should itself be a "2-model category" in some sense has long been an item on [[Mark Hovey]]'s  *[Algebraic Topology Problem List](https://www-users.cse.umn.edu/~tlawson/hovey/index.html)* (now item 8 [here](https://www-users.cse.umn.edu/~tlawson/hovey/model.html)). See also at [[Ho(CombModCat)]].
+
+The original definition of model 2-categories in the above form is due to 
 
 * [[Steve Lack]], _Homotopy theoretic aspects of 2-monads_, Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 229-260 ([math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646))
+
+which constructs the natural model structure and its lifting to 2-monads.
 
 The projective and injective model structures on diagrams, and the relation between pseudo-limits and homotopy limits, are discussed in the following (especially section 6).
 
 * [[Nicola Gambino]], _Homotopy limits for 2-categories_, Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63 ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/homotopy.pdf))
+
+[[!redirects model 2-categories]]
+
+[[!redirects 2-model category]]
+[[!redirects 2-model categories]]
+
