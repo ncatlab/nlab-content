@@ -2,7 +2,7 @@
 
 * [website](http://math.unice.fr/~carlos/)
 
-[MR94d:32027](http://www.ams.org/mathscinet-getitem?mr=94d:32027)
+
 
 #Contents#
 * table of contents
@@ -14,7 +14,12 @@
 
 On [[nonabelian Hodge theory]]
 
-* _[[Higgs bundles]] and [[local systems]]_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95, [numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), 
+* _[[Higgs bundles]] and [[local systems]]_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95 ([numdam:PMIHES_1992__75__5_0](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), [MR94d:32027](http://www.ams.org/mathscinet-getitem?mr=94d:32027))
+
+An early conception of [[presentable (infinity,1)-categories|presentable $\infty$-categorues]] and  [[(infinity,1)-toposes|$\infty$-toposes]] (the term seems to originate here) via (what later were called) [[model toposes]]:
+
+* {#Simpson99} [[Carlos Simpson]],  *A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi* ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+
 
 On [[secondary characteristic classes]]:
 
@@ -22,10 +27,10 @@ On [[secondary characteristic classes]]:
 
 On [[homotopy theory]] and [[higher category theory]]:
 
-* [[Homotopy Theory of Higher Categories]]
+* [[Carlos Simpson]], *[[Homotopy Theory of Higher Categories]]*, Cambridge University Press 2011 ([ISBN:9780521516952](https://www.cambridge.org/in/academic/subjects  /mathematics/geometry-and-topology/homotopy-theory-higher-categories-segal-categories-ini-categories-and-beyond?format=HB)), [hal:00449826](https://hal.archives-ouvertes.fr/hal-00449826/document), [http://arxiv.org/abs/1001.4071](http://arxiv.org/abs/1001.4071) )
 
 
-On [[descent]]
+On [[descent]]:
 
 In January 2009 Carlos Simpson wrote the following short note
 
