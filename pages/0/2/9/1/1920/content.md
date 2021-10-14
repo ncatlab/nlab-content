@@ -76,7 +76,7 @@ If $C_0$ is the [[terminal object]], then we speak instead of a $T$**-operad**.
 Note that when $T$ is a cartesian monad on a finitely complete category $V$, then it extends to a (pseudo) [[2-monad]] on the bicategory $Span(V)$.  The functor part of this 2-monad is given simply by applying $T$; this is a (pseudo) [[2-functor]] since $T$ preserves pullbacks.  The unit of this 2-monad is given by the spans
 $$ X \overset{id}{\leftarrow} X \overset{\eta X}{\to} T X$$
 and its multiplication by
-$$ T T X \overset{id}{\leftarrow} T T \overset{\mu X}{\to} T X;$$
+$$ T T X \overset{id}{\leftarrow} T T X \overset{\mu X}{\to} T X;$$
 these are [[pseudonatural transformations]] since $\eta$ and $\mu$ are cartesian natural transformations.
 
 Moreover, the bicategory $Span(V,T)$ defined above is easily seen to be precisely the [[Kleisli category|Kleisli bicategory]] of this extended 2-monad $T$ on $Span(V)$.  Thus, a more general notion of "generalized multicategory" would be a monad (monoid) in some Kleisli bicategory.
