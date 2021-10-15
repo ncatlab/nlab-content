@@ -123,12 +123,15 @@ Say that a 2-categorical pair of [[adjoint (∞,1)-functors]] is an [[adjunction
 This is [Riehl-Verity 15, Def. 4.0.1](#RiehlVerity15).
 For more see also at *[[formal (infinity,1)-category theory|formal $\infty$-category theory]]*.
 
-\begin{remark}
-Such a 2-categorical adjunctions (Def. \ref{InTermsOfTheHomotopy2Category}) determines an adjoint pair of $\infty$-functors in the sense of [Lurie 2009](#Lurie).
-\end{remark}
-([Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15)).
 
+Such a 2-categorical adjunctions (Def. \ref{InTermsOfTheHomotopy2Category}) determines an adjoint pair of $\infty$-functors in the sense of [Lurie 2009](#Lurie) ([Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15)):
 
+\begin{prop}\label{InfinityCollageTypeAdjunctionsAreAdjunctionsIn2Ho}
+  An anti-parallal pair of morphisms in [[(∞,1)Cat|$Cat_\infty$]] is a pair of adjoint $\infty$-functors in the sense of [Lurie 2009, Sec. 5.2](#Lurie) if and only its image in the [[homotopy 2-category]] [[homotopy 2-category of (infinity,1)-categories|$Ho_2\big(Cat_\infty\big)$]] forms an [[adjunction]] in the classical sense of [[2-category theory]] (Def. \ref{InTermsOfTheHomotopy2Category}).
+\end{prop}
+([Riehl & Verity 2022, Sec. F.5, Prop. F.5.6](#RVElements))
+
+The conceptual content of Prop. \ref{InfinityCollageTypeAdjunctionsAreAdjunctionsIn2Ho} may be made manifest as follows:
 \begin{proposition}
   Every 2-categorical pair of adjoint $(\infty,1)$-functors in the sense of Def. \ref{InTermsOfTheHomotopy2Category} extends to a "homotopy coherent adjunction" in an essentially unique way.
 \end{proposition}
@@ -686,7 +689,7 @@ Review in:
 
 * {#RiehlVerity20} [[Emily Riehl]], [[Dominic Verity]], Def. 1.1.2 in: _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
-* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-category theory_, ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-category theory_, Cambridge University Press 2022 ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
 
 The proof that a [[Quillen adjunction]] of [[model categories]] induces an adjunction of [[(∞,1)-categories]] is recorded in
 
