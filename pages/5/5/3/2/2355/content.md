@@ -120,8 +120,9 @@ Say that a 2-categorical pair of [[adjoint (∞,1)-functors]] is an [[adjunction
 
 =--
 
-This is [Riehl-Verity 15, Def. 4.0.1](#RiehlVerity15).
-For more see also at *[[formal (infinity,1)-category theory|formal $\infty$-category theory]]*.
+This concept, in the spirit of [[formal (infinity,1)-category theory|formal $\infty$-category theory]], was mentioned, briefly, in
+[Joyal 2008, p. 159 (11 of 348)](#Joyal08) and then expanded on in 
+[Riehl-Verity 15, Def. 4.0.1](#RiehlVerity15).
 
 
 Such a 2-categorical adjunctions (Def. \ref{InTermsOfTheHomotopy2Category}) determines an adjoint pair of $\infty$-functors in the sense of [Lurie 2009](#Lurie) ([Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15)):
@@ -673,31 +674,34 @@ A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{
 
 ## References
 
+The suggestion that a pair of adjoint $\infty$-functors should just be an [[adjunction]] in the [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category of $\infty$-categories]] was originally stated, briefly, in:
 
-* {#Lurie} [[Jacob Lurie]], Section 5.2 in: _[[Higher Topos Theory]]_, 2009 
- 
+* {#Joyal08} [[André Joyal]], p. 159 (11 of 348) in: _The theory of quasicategories and its applications_, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona 2008 ([[JoyalTheoryOfQuasiCategories.pdf:file]])
 
-Discussion of adjoint $(\infty,1)$-functors as [[adjunctions]] in the [[homotopy 2-category of (∞,1)-categories]] (and modeled via [[∞-cosmoi]]):
+The definition as an isofibration of [[quasicategories]] over $\Delta[1]$ is due to:
+
+* {#Lurie} [[Jacob Lurie]], Section 5.2 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+The original suggestion of [Joyal 2008](#Joyal08) was then much expanded on (and generalized to [[∞-cosmoi]]), in the spirit of [[formal (infinity,1)-category theory|formal $\infty$-category theory]]: 
 
 * {#RiehlVerity15} [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
 
-and further discussion including also that of [[(∞,1)-monads]]:
-
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
-
-Review in:
 
 * {#RiehlVerity20} [[Emily Riehl]], [[Dominic Verity]], Def. 1.1.2 in: _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
-* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-category theory_, Cambridge University Press 2022 ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+That the two definitions (of [Joyal 2008](#Joyal08) and [Lurie 2009](#Lurie)) are in fact equivalent is first indicated in [Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15) and then made fully explicit in:
 
-The proof that a [[Quillen adjunction]] of [[model categories]] induces an adjunction of [[(∞,1)-categories]] is recorded in
+* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], Section F.5 of: _Elements of $\infty$-category theory_, Cambridge University Press 2022 ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+
+A proof that a [[Quillen adjunction]] of [[model categories]] induces an adjunction between [[(∞,1)-categories]] (in the sense of [Lurie 2009](#Lurie)) is recorded in:
 
 * {#Hinich14} [[Vladimir Hinich]], *Dwyer-Kan Localization Revisited*, Homology, Homotopy and Applications Volume 18 (2016) Number 1 ([arXiv:1311.4128](https://arxiv.org/abs/1311.4128), [doi:10.4310/HHA.2016.v18.n1.a3](https://dx.doi.org/10.4310/HHA.2016.v18.n1.a3))
 
 and also in
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, New York Journal of Mathematics Volume 22 (2016) 57-93 ([arXiv:1501.03146](https://arxiv.org/abs/1501.03146), [publisher](http://nyjm.albany.edu/j/2016/22-4.html))
+
 
 [[!redirects adjoint (infinity,1)-functors]]
 
