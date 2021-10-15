@@ -76,14 +76,13 @@ Review:
 
 On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]:
 
-* {#ADO20a} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_, Fortsch. Phys. 2021 ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455), [doi:10.1002/prop.202100052](https://doi.org/10.1002/prop.202100052))
+* {#ADO20a} [[Anthony Ashmore]], [[Sebastian Dumitru]], [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_, Fortsch. Phys. 2021 ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455), [doi:10.1002/prop.202100052](https://doi.org/10.1002/prop.202100052))
 
-* {#ADO20b} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 2.2 of: _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_, J. High Energ. Phys. 2021, 33 (2021). ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029), <a href="https://doi.org/10.1007/JHEP08(2021)033">doi:10.1007/JHEP08(2021)033</a>)
+* {#ADO20b} [[Anthony Ashmore]], [[Sebastian Dumitru]], [[Burt Ovrut]], Section 2.2 of: _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_, J. High Energ. Phys. 2021, 33 (2021). ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029), <a href="https://doi.org/10.1007/JHEP08(2021)033">doi:10.1007/JHEP08(2021)033</a>)
 
-* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], *Hidden Sectors from Multiple Line Bundles for the B−L MSSM* ([arXiv:2106.09087](https://arxiv.org/abs/2106.09087))
+* Anthony Ashmore, [[Sebastian Dumitru]], [[Burt Ovrut]], *Hidden Sectors from Multiple Line Bundles for the B−L MSSM* ([arXiv:2106.09087](https://arxiv.org/abs/2106.09087))
 
-
-
+* [[Sebastian Dumitru]], [[Burt A. Ovrut]], *Heterotic M-Theory Hidden Sectors with an Anomalous $U(1)$ Gauge Symmetry* ([arXiv:2109.13781](https://arxiv.org/abs/2109.13781))
 
 
 On [[heterotic line bundles]] seen in [[F-theory]] under [[duality between M/F-theory and heterotic string theory]]:
