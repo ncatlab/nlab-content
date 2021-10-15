@@ -314,7 +314,7 @@ This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem 
 
 For several years [[Andre Joyal]] -- who was one of the first to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
 
-* {#Joyal08} [[André Joyal]], _The theory of quasicategories and its applications_ lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
+* {#Joyal08} [[André Joyal]], _The theory of quasicategories and its applications_, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona 2008 ( [[JoyalTheoryOfQuasiCategories.pdf:file]])
 
 Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]) are in
 
