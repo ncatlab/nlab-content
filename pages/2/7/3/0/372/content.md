@@ -19,14 +19,39 @@
 
 ## Definition
 
-An **initial object** in a [[category]] $C$ is an [[object]] $\emptyset$ such that for any object $x$ of $C$, there is a unique [[morphism]] $!:\emptyset\to x$.  An initial object, if it exists, is unique up to unique [[isomorphism]], so we speak of [[the]] initial object.
+\begin{definition}
+An **initial object** in a [[category]] $\mathcal{C}$ is an [[object]] $\emptyset$ such that for all objects $x \,\in\, \mathcal{C}$, there is a unique [[morphism]] 
+$\varnothing \xrightarrow{\exists !} x$ 
+with 
+[[source]] $\varnothing$.
+and 
+[[target]] $x$.
+\end{definition}
 
-An initial object may also be called _coterminal_, _coterminator_, _universal initial_, _co-universal_, or simply _universal_.
+\begin{remark}
+An initial object, if it exists, is unique up to unique [[isomorphism]], so that we may speak of [[the]] initial object.
+\end{remark}
 
-Initial objects are the [[duality|dual]] concept to [[terminal object]]s: an initial object in $C$ is the same as a terminal object in $C^{op}$.  An object that is both initial and terminal is called a [[zero object]].
+\begin{remark}
+When it exists, the initial object is the [[colimit]] over the [[empty diagram]].
+\end{remark}
 
+\begin{remark}
+Initial objects are also called _coterminal_, and (rarely, though): _coterminators_, _universal initial_, _co-universal_, or simply _universal_.
+\end{remark}
 
-Hence the initial object may also be viewed as the [[colimit]] over the [[empty diagram]].
+\begin{definition}
+An initial object $\varnothing$ is called a **[[strict initial object]]** if all morphisms $x \xrightarrow{\;} \varnothing$ into it are [[isomorphisms]].  
+\end{definition}
+
+\begin{remark}
+Initial objects are the [[duality|dual]] concept to [[terminal objects]]: an initial object in $C$ is the same as a terminal object in the [[opposite category]] $C^{op}$.  
+\end{remark}
+
+\begin{remark}
+An object that is both initial and [[terminal object|terminal]] is called a [[zero object]].
+\end{remark}
+
 
 ## Examples
 
@@ -43,10 +68,6 @@ Hence the initial object may also be viewed as the [[colimit]] over the [[empty 
 * An initial object in a category of [[central extensions]] of a given algebraic object is called a _[[universal central extension]]_.
 
 
-## Strict initial objects
-   {#Strict}
-
-An initial object $\emptyset$ is called a **[[strict initial object]]** if any morphism $x\to \emptyset$ must be an [[isomorphism]].  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]], or any [[distributive category]]) are strict.  At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
 
 ## Properties
 
