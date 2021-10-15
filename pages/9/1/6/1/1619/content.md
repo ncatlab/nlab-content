@@ -420,6 +420,9 @@ More discussion of relation to spin structures on loop spaces is in
 
 * Alessandra Capotosti, _[[From String structures to Spin structures on loop spaces]]_, Ph.D. thesis, Universit&#224; degli Studi Roma Tre, Rome, April 2016
 
+A study of (flat) string structures encoded in the bicategory of flat 2-group bundles on an oriented surface via weak representations of the fundamental group is in
+
+* [[Daniel Berwick-Evans]], Emily Cliff, Laura Murray, Apurva Nakade, Emma Phillips, _String structures, 2-group bundles, and a categorification of the Freed-Quinn line bundle_ ([arXiv:2110.07571](https://arxiv.org/abs/2110.07571))
 
 
 
