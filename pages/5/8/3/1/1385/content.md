@@ -182,13 +182,12 @@ $$
 
 To be precise, the next result requires an enhancement of $Pr(\infty,1)Cat$ to an $(\infty,2)$-category so that we can talk about [[powers]] and [[copowers]] by small $(\infty,1)$-categories.  However, the proof gives an explicit universal property that makes sense without having to define that whole $(\infty,2)$-category.
 
-+--{: .num_prop}
-###### Proposition
-The [[copower]] of $C\in Pr(\infty,1)Cat$ by a small $(\infty,1)$-category $A$ is $C^{A^{op}}$.
-=--
-+--{: .proof}
-###### Proof
-Let $P A$ denote the [[(∞,1)-presheaf (∞,1)-category]] on $A$.  This is its free cocompletion, so we have $Func^L(P A,C) \simeq C^A$.  Dually, $(P A)^{op}$ is the free completion of $A^{op}$, so we have $Cts((P A)^{op},C) \simeq C^{A^op}$.  Now we have:
+\begin{proposition}
+The [[copower]] of $C\in Pr(\infty,1)Cat$ by a small $(\infty,1)$-category $A$ is the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-category of $\infty$-presheaves]] $C^{A^{op}}$.
+\end{proposition}
+
+\begin{proof}
+Let $P A$ denote the [[(∞,1)-presheaf (∞,1)-category]] on $A$.  This is its [[free cocompletion]], so we have $Func^L(P A,C) \simeq C^A$.  Dually, $(P A)^{op}$ is the [[free completion]] of $A^{op}$, so we have $Cts((P A)^{op},C) \simeq C^{A^op}$.  Now we have:
 $$
 \begin{aligned}
 Func^L(C,D)^A
@@ -199,12 +198,36 @@ Func^L(C,D)^A
 &\simeq Func^L(C^{A^op},D)
 \end{aligned}
 $$
-=--
+\end{proof}
 
 In general, this sort of argument should work for all lax colimits of lax functors; for instance, [[Kleisli objects]] should also coincide with [[Eilenberg-Moore objects]] (though this also requires enhancing $Pr(\infty,1)Cat$ to an $(\infty,2)$-category).  The corresponding 1-categorical fact is that in any [[bicategory]] with [[local colimits]] (colimits in each hom-category distributed over by composition), lax colimits of lax functors are also lax limits.
 
 
-## As $\infty$-vector spaces
+
+### Relation to $\infty$-profunctors
+ {#RelationToInfinityProfunctors}
+
+In analogy to the situation for [[profunctors]] between [[1-categories]] (see [there](profunctor#FuncsOnPresheaves)), [[(infinity,1)-profunctors|$\infty$-profunctors]]
+
+$$
+  \mathcal{C} &#8696; \mathcal{D}
+$$ 
+
+are equivalently plain but [[(infinity,1)-colimit|$\infty$-colimit]]-[[preserved limit|preserving]] [[(infinity,1)-functors|$\infty$-functors]] 
+
+$$
+  PSh_\infty(\mathcal{C})
+  \xrightarrow{\;}
+  PSh_\infty(\mathcal{D})
+$$
+
+between the corresponding [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]].
+
+In this way [[small (infinity,1)-categories|small $\infty$-categories]] with [[(infinity,1)-profunctors|$\infty$-profunctors]] between them form a [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of of the $\infty$-category [[Pr(∞,1)Cat]] that of [[presentable (infinity,1)-categories|presentable $\infty$-categories]] with [[cocontinuous functor|cocontinuous]] [[(infinity,1)-functor|$\infty$-functors]] between them.
+
+
+
+### As $\infty$-vector spaces
 
 In some context it makes good sense to think of $Pr(\infty,1)Cat$ as a model for an $(\infty,1)$-category of "$\infty$-vector spaces", or at least "$\infty$-abelian groups".  For instance, the fact that the $(\infty,2)$-category $Pr(\infty,1)Cat$ has local colimits, making certain limits and colimits coincide, is a sort of categorification of the fact that of [[Vect]] and [[Ab]] are [[additive categories]] in which finite products and coproducts coincide.
 
@@ -214,11 +237,13 @@ The monoidal product $\otimes : Pr(\infty,1)Cat \times Pr(\infty,1)Cat \to Pr(\i
 
 (A related decategorification of $Pr(\infty,1)Cat$ is the category [[Sup]] of [[suplattices]], which can also be thought of as analogous to abelian groups or vector spaces.)
 
-### Applications
-
+\begin{remark}
+**(Application)**
+\linebreak
 Combined with the fact that the embedding $Pr(\infty,1)Cat \hookrightarrow (\infty,1)Cat$ preserves limits (prop. \ref{LimitsAndColimits}), this yields some useful statements.
 
 For instance with $Pr(\infty,1)Cat$ regarded as $\infty Vect$, for any [[∞-group]] $G$ with [[delooping]] [[∞-groupoid]] $\mathbf{B}G$, we may think of an [[(∞,1)-functor]] $\rho : \mathbf{B}G \to Pr(\infty,1)Cat$ as a linear [[representation]] of $G$: the single object of $\mathbf{B}G$ is sent to a presentable $(\infty,1)$-category $V$ and the morphisms in $\mathbf{B}G$ then define an [[action]] of $G$ on that.
+\end{remark}
 
 
 ## Related concepts
