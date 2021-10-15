@@ -36,7 +36,7 @@ Reported detections include: [LIGO 16](#LIGO16), [LIGO-Virgo 17](#LIGOVirgo17).
 
 * Wikipedia, _[LIGO](https://en.wikipedia.org/wiki/LIGO)_, _[Virgo](https://en.wikipedia.org/wiki/Virgo_interferometer)_ ,
 
-Signa from two [[black holes]] merging: 
+Signal from two [[black holes]] merging: 
 
 * {#LIGO16} B.&#8201;P. Abbott et al. (LIGO Scientific Collaboration and Virgo Collaboration), _Observation of Gravitational Waves from a Binary Black Hole Merger_, Phys. Rev. Lett. 116, 061102, 11 February 2016, doi:[10.1103/PhysRevLett.116.061102](http://dx.doi.org/10.1103/PhysRevLett.116.061102)
 
