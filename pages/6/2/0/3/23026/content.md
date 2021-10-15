@@ -11,5 +11,8 @@ On the [[anomalous magnetic moment]] of the [[muon]] via [[holographic QCD]]:
 
 * [[Josef Leutgeb]], [[Anton Rebhan]], *Hadronic light-by-light contribution to the muon $g-2$ from holographic QCD with massive pions* ([arXiv:2108.12345](https://arxiv.org/abs/2108.12345))
 
+* [[Josef Leutgeb]], Jonas Mager, [[Anton Rebhan]], *Holographic QCD and the muon anomalous magnetic moment* ([arXiv:2110.07458](https://arxiv.org/abs/2110.07458))
+
+
 
 category: people
