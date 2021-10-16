@@ -337,6 +337,14 @@ Review includes
 
 * Koszul, J.-L., Introduction to Symplectic Geometry, SPRINGER, 2019
 
+* Barbaresco F. (2021) Archetypal Model of Entropy by Poisson Cohomology as Invariant Casimir Function in Coadjoint Representation and Geometric Fourier Heat Equation. In: Nielsen F., Barbaresco F. (eds) Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science, vol 12829. Springer
+
+* Barbaresco, F. Koszul lecture related to geometric and analytic mechanics, Souriau’s Lie group thermodynamics and information geometry. Info. Geo. 4, 245–262 (2021)
+
+* Barbaresco F. (2021) Jean-Marie Souriau’s Symplectic Model of Statistical Physics: Seminal Papers on Lie Groups Thermodynamics - Quod Erat Demonstrandum. In: Barbaresco F., Nielsen F. (eds) Geometric Structures of Statistical Physics, Information Geometry, and Learning. SPIGL 2020. Springer Proceedings in Mathematics & Statistics, vol 361. Springer
+
+* Marle CM. (2021) Gibbs States on Symplectic Manifolds with Symmetries. In: Nielsen F., Barbaresco F. (eds) Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science, vol 12829. Springer
+
 
 [[!redirects moment maps]]
 
