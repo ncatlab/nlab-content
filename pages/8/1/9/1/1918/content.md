@@ -39,6 +39,8 @@ The main separation axioms are these:
 
 {#TableOfMainSeparationAxioms}
 [[!include main separation axioms -- table]]
+[[!include main separation axioms -- as lifting properties]]
+
 
 Originally in [Tietze 23](#Tietze23) the four separation axioms $T_2, T_3, T_4, T_5$ were considered (see at _[History](#History)_ below for more); nowadays one considers various more. Besides the extrapolation of the original sequence from $T_0$ through $T_6$ (with $T_{2\frac{1}{2}}$ and $T_{3\frac{1}{2}}$ interpolated), there is a similar sequence of axioms called $R_0, R_1, R_2, R_3$ (with their extrapolations and interpolations) of the same form, except that they do not start with mentioning two set-theoretically distinct points, but two points satisfying the conclusion of $T_0$. This and more is spelled out [below](#TheClassicalTheory).
 
