@@ -87,10 +87,10 @@ When these conditions hold, we say that $C$ is **$\kappa$-ary exact**, or altern
 
 1. $C$ is [[regular category|regular]] iff it is unary regular.
 2. $C$ is [[coherent category|coherent]] iff it is finitary regular.
-3. $C$ is [[coherent category|infinitary-coherent]] iff it is [[well-powered category|well-powered]] and infinitary regular.
+3. $C$ is [[coherent category|infinitary-coherent]] iff it is infinitary regular.
 4. $C$ is [[exact category|exact]] iff it is unary exact.
 5. $C$ is a [[pretopos]] iff it is finitary exact.
-6. $C$ is an [[pretopos|infinitary pretopos]] iff it is [[well-powered category|well-powered]] and infinitary exact.
+6. $C$ is an [[pretopos|infinitary pretopos]] iff it is infinitary exact.
 
 Some other sorts of [[exactness properties]] (especially [[lex-colimits]]) can also be characterized in terms of congruences, kernels, and quotients.  For instance:
 
@@ -122,7 +122,7 @@ The resulting 2-category $EX_\kappa$ is a full [[reflective subcategory|reflecti
 
 ## References
 
-*  [[Ross Street]], "The family approach to total cocompleteness and toposes."  Transactions of the AMS 284 no. 1, 1984
+*  [[Ross Street]], "The family approach to total cocompleteness and toposes."  Transactions of the AMS **284** no. 1, 1984. [doi:10.1090/S0002-9947-1984-0742429-3](https://doi.org/10.1090/S0002-9947-1984-0742429-3)
 {#Street}
 
 * [[Michael Shulman]], "Exact completions and small sheaves".  *Theory and Applications of Categories*, Vol. 27, 2012, No. 7, pp 97-173.  [Free online](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)
