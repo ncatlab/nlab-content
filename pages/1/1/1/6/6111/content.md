@@ -7,6 +7,8 @@ On [[Borel equivariant cohomology]]:
 
 * {#Tu11} [[Loring Tu]], _What is... Equivariant Cohomology?_, Notices of the AMS, Volume 85, Number 3, March 2011 ([pdf](https://www.ams.org/notices/201103/rtx110300423p.pdf), [[TuEquivariantCohomology.pdf:file]])
 
+* [[Loring Tu]], *Introductory Lectures on Equivariant Cohomology*, Annals of Mathematics Studies **204**, AMS 2020 ([ISBN:9780691191744](https://press.princeton.edu/books/hardcover/9780691191744/introductory-lectures-on-equivariant-cohomology))
+
 
 
 
