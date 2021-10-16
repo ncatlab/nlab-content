@@ -37,7 +37,7 @@ The basic idea is that we define the values of $f$ one by one, starting with $f_
 
 In [[classical mathematics]], any [[inhabited set|inhabited]] subset of the natural numbers possesses a minimal element. In [[constructive mathematics]], one cannot show this:
 
-+-- {: .num_prop}
++-- {: .num_prop #BrouwerianCounterexample}
 ###### Proposition 
 **(a Brouwerian counterexample)**
 
