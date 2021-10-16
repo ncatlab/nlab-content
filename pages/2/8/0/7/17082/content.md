@@ -227,9 +227,7 @@ Then $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \
 
 
 
-
-
-### In topological spaces 
+### Topology
 
 Many elementary properties in [[general topology]], such as compactness, being dense or open, 
 can be expressed as iterated Quillen negation of morphisms of finite topological spaces
@@ -247,6 +245,11 @@ In the category of [[uniform  spaces]] or [[metric spaces]] with [[uniformly con
 
 * A subspace $i:A\to X$ is closed iff $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}} \,\,&solb;\,\, A\to X.$
 
+
+
+#### In topological spaces 
+
+The following lifting properties are calculated in the category of (all) topological spaces. 
 
 #### Iterated lifting properties
 
@@ -358,7 +361,17 @@ $(\{a,b\}\longrightarrow \{a=b\})^{&solb;rr}= (\{a\leftrightarrow b\}\longrighta
 it holds that $\{o\}\longrightarrow K$ is in
             $   (\emptyset\longrightarrow \{o\})^{&solb;rll} = (\{a\}\longrightarrow \{a,b\})^{&solb;l}$
 
+### Model theory 
 
+In model theory, 
+a number of the Shelah's divining lines,
+namely  $NOP, NSOP, NSOP_i, NTP, NTP_i$, and $NATP$
+are [[situs|expressed as Quillen lifting properties of form]] 
+$$A_\bullet \to B_\bullet \rightthreetimes M_\bullet\to\top$$  
+where $\top$ is the terminal object, and 
+$M$ is a situs associated with a model and a formula,
+and $A$ and $B$ are objects of combinatorial nature,
+in the category of simplicial objects in the [[category of filters]]. 
 
 
 
