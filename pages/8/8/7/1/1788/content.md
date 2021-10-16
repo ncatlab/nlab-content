@@ -1,5 +1,7 @@
 [[main separation axioms]]
 [[main separation axioms -- table]]
+[[main separation axioms -- as lifting properties]]
+
 
 \begin{proof}
 Suppose given functors $L \,\colon\, C \to D$, $R: D \to C$ and the structure of a pair of [[adjoint functors]] in the form of a natural isomorphism of [[hom-sets]] ([here](adjoint+functor#InTermsOfHomIsomorphism))
@@ -174,7 +176,9 @@ boxes are put around open subsets, and
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have [[disjoint subset|disjoint]] [[open neighbourhoods]] | the [[diagonal]] is a [[closed map]]  |
 | $T_{\gt 2}$ |  |  $T_1$ and... | all points are [[closed point|closed]] and... |
 | $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given a point and a [[closed subset]] not containing it, they have [[disjoint subset|disjoint]] [[open neighbourhoods]]  | ...every [[neighbourhood]] of a point contains the [[topological closure|closure]] of an [[open neighbourhood]] |
-| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two [[disjoint subset|disjoint]] [[closed subsets]], they have [[disjoint subset|disjoint]] [[open neighbourhoods]] | ...every [[neighbourhood]] of a [[closed set]] also contains the [[topological closure|closure]] of an [[open neighbourhood]] <br/> ... every pair of [[disjoint subset|disjoint]] [[closed subsets]] is separated by an [[Urysohn function]] ooo\begin{tikzcd}
+| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two [[disjoint subset|disjoint]] [[closed subsets]], they have [[disjoint subset|disjoint]] [[open neighbourhoods]] | ...every [[neighbourhood]] of a [[closed set]] also contains the [[topological closure|closure]] of an [[open neighbourhood]] <br/> ... every pair of [[disjoint subset|disjoint]] [[closed subsets]] is separated by an [[Urysohn function]] ooo
+
+\begin{tikzcd}
 [
   column sep={between origins, 40pt},
   row sep={between origins, 40pt}
