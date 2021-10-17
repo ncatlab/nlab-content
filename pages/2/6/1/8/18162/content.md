@@ -1496,6 +1496,40 @@ hence:
   \ast
 \end{tikzcd}
 
+The same property is also defined by the following diagram:
+
+\begin{tikzcd}
+[
+  column sep={between origins, 40pt},
+  row sep={between origins, 40pt}
+]
+    \{\boxed{0}\}
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  X
+  \ar[dd]
+  \\
+  \\
+  \mathrm{CoDsc}
+  \big(
+    \boxed{\{0\leftrightarrow 1\}}
+  \big)
+  \ar[
+    rr]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
+
+
 
 ### Symmetric spaces ($R_0$)
  {#SymmetricSpaces}
@@ -1534,6 +1568,94 @@ topological space $X$ is Frechet", avoid saying "Frechet space" in this
 context, since there is another entirely different notion of Frechet space in
 functional analysis.)
 
+
+
+\begin{tikzcd}
+[
+  column sep={between origins, 40pt},
+  row sep={between origins, 40pt}
+]
+ \{\boxed{\boxed{0}\rightarrow 1}\}
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  X
+  \ar[dd]
+  \\
+  \\
+  \ast
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
+
+The same property is also defined by the following diagrams:
+
+\begin{tikzcd}
+[
+  column sep={between origins, 40pt},
+  row sep={between origins, 40pt}
+]
+    \{\boxed{0}\}
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  X
+  \ar[dd]
+  \\
+  \\
+ \{\boxed{\boxed{0}\rightarrow 1}\}
+  \ar[
+    rr]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
+
+\begin{tikzcd}
+[
+  column sep={between origins, 40pt},
+  row sep={between origins, 40pt}
+]
+    \{\boxed{1}\}
+  \ar[
+    rr,
+    "{ \forall }"
+  ]
+  \ar[dd]
+  &&
+  X
+  \ar[dd]
+  \\
+  \\
+ \{\boxed{\boxed{0}\rightarrow 1}\}
+  \ar[
+    rr]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \ast
+\end{tikzcd}
 
 ### Reregular spaces ($R_1$)
 
