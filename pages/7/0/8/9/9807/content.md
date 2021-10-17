@@ -920,6 +920,11 @@ Review:
 
 * Oliver Goertsches, Leopold Zoller, _Equivariant de Rham Cohomology: Theory and Applications_, São Paulo J. Math. Sci. (2019) ([arXiv:1812.09511](https://arxiv.org/abs/1812.09511), [doi:10.1007/s40863-019-00129-4](https://doi.org/10.1007/s40863-019-00129-4))
 
+Comprehensive textbook account:
+
+* {#Tu20} [[Loring Tu]], *Introductory Lectures on Equivariant Cohomology*, Annals of Mathematics Studies **204**, AMS 2020 ([ISBN:9780691191744](https://press.princeton.edu/books/hardcover/9780691191744/introductory-lectures-on-equivariant-cohomology))
+
+
 See also 
 
 * Camilo Arias Abad, [[Marius Crainic]], Sec. 1 of: _The Weil algebra and the Van Est isomorphism_ ([arXiv:0901.0322](https://arxiv.org/abs/0901.0322))
