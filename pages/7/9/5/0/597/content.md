@@ -19,21 +19,26 @@
 
 ## Idea
 
-The notions of [[regular category]], [[exact category]], [[coherent category]], [[extensive category]], [[pretopos]], and [[Grothendieck topos]] can be nicely unified in a theory of "familial regularity and exactness."  This was apparently first noticed by [[Ross Street]], and expanded by [[Mike Shulman]] with a generalized theory of [[exact completion]].
+The notions of [[regular category]], [[exact category]], [[coherent category]], [[extensive category]], [[pretopos]], and [[Grothendieck topos]] can be nicely unified in a theory of "familial regularity and exactness."  This was apparently first noticed in [Street 1984](#Street), and expanded on by [Shulman 2012](#Shulman) with a generalized theory of [[exact completion]].
 
 
 ## Sinks and relations
 
-Let $C$ be a [[finitely complete category]].  By a [[sink]] in $C$ we mean a family $\{f_i\colon A_i \to B\}_{i\in I}$ of [[morphism]]s with common [[target]].  A sink $\{f_i\colon A_i \to B\}$ is **[[extremal epimorphism|extremal epic]]** if it doesn't factor through any proper [[subobject]] of $B$.  The _[[pullback]]_ of a sink along a morphism $B' \to B$ is defined in the evident way.
+### Definition
+
+Let $C$ be a [[finitely complete category]].  By a *[[sink]]* in $C$ we mean a [[family]] $\{f_i\colon A_i \to B\}_{i\in I}$ of [[morphisms]] with common [[target]].  A sink $\{f_i\colon A_i \to B\}$ is **[[extremal epimorphism|extremal epic]]** if it doesn't factor through any proper [[subobject]] of $B$.  The _[[pullback]]_ of a sink along a morphism $B' \to B$ is defined in the evident way.
 
 By a (many-object) **[[relation]]** in $C$ we will mean a family of objects $\{A_i\}_{i\in I}$ together with, for every $i,j\in I$, a monic span $A_i \leftarrow R_{i j} \to A_j$ (that is, a [[subobject]] $R_{i j}$ of $A_i \times A_j$.  We say such a relation is:
 
-* [[reflexive relation|reflexive]] if $R_{i i}$ contains the diagonal $A_i \to A_i \times A_i$, for all $i$,
-* [[transitive relation|transitive]] if the pullback $R_{i j} \times_{A_j} R_{j k}$ factors through $R_{i k}$, for all $i,j,k$,
-* [[symmetric relation|symmetric]] if $R_{i j}$ contains, hence is equal to, the transpose of $R_{j i}$ for all $i,j$, and
-* a [[congruence]] if it is reflexive, transitive, and symmetric; this is an internal notion of (many-object) [[equivalence relation]].
+* *[[reflexive relation|reflexive]]* if $R_{i i}$ contains the [[diagonal morphism|diagonal]] $A_i \to A_i \times A_i$, for all $i$,
 
-Abstractly, reflexive and transitive relations can be identified with categories [[enriched category|enriched]] in a suitable [[bicategory]]; see (Street 1984).  Congruences can be identified with enriched $\dagger$-[[dagger-categories|categories]].
+* *[[transitive relation|transitive]]* if the pullback $R_{i j} \times_{A_j} R_{j k}$ factors through $R_{i k}$, for all $i,j,k$,
+
+* *[[symmetric relation|symmetric]]* if $R_{i j}$ contains, hence is equal to, the transpose of $R_{j i}$ for all $i,j$, and
+
+* a *[[congruence]]* if it is reflexive, transitive, and symmetric; this is an internal notion of (many-object) [[equivalence relation]].
+
+Abstractly, reflexive and transitive relations can be identified with categories [[enriched category|enriched]] in a suitable [[bicategory]]; see [Street 1984](#Street).  Congruences can be identified with enriched $\dagger$-[[dagger-categories|categories]].
 
 A __quotient__ for a relation is a [[colimit]] for the diagram consisting of all the $A_i$ and all the spans $A_i \leftarrow R_{i j} \to A_j$.  And the __kernel__ of a sink $\{f_i\colon A_i\to B\}$ is the relation on $\{A_i\}$ with $R_{i j} = A_i \times_B A_j$.  It is evidently a congruence.
 
@@ -51,6 +56,8 @@ Finally, a sink is called **[[effective epimorphism|effective-epic]]** if it is 
 
 ## $\kappa$-ary regularity and exactness
 
+### Definition
+
 Let $\kappa$ be an [[arity class]].  We call a sink or relation **$\kappa$-ary** if the cardinality ${|I|}$ is $\kappa$-small.  As usual for arity classes, the cases of most interest have special names:
 
 * When $\kappa = \{1\}$ we say **unary**.
@@ -61,29 +68,47 @@ Let $\kappa$ be an [[arity class]].  We call a sink or relation **$\kappa$-ary**
 ###### Theorem
 For a category $C$, the following are equivalent:
 
-1. $C$ has finite limits, every $\kappa$-ary sink in $C$ factors as an extremal epic sink followed by a monomorphism, and the pullback of any extremal epic $\kappa$-ary sink is extremal epic.
+1. $C$ has [[finite limits]], every $\kappa$-ary sink in $C$ factors as an extremal epic sink followed by a monomorphism, and the pullback of any extremal epic $\kappa$-ary sink is extremal epic.
 
 1. $C$ has finite limits, and the kernel of any $\kappa$-ary sink in $C$ is also the kernel of some universally effective-epic sink.
 
-1. $C$ is a [[regular category]] and has pullback-stable [[joins]] of $\kappa$-small families of [[subobjects]].
+1. $C$ is a [[regular category]] and has [[pullback-stable colimit|pullback-stable]] [[joins]] of $\kappa$-small families of [[subobjects]].
 =--
 
-When these conditions hold, we say $C$ is **$\kappa$-ary regular**, or alternatively **$\kappa$-ary coherent**.  There are also some other more technical characterizations; see [Shulman](#Shulman).
+When these conditions hold, we say $C$ is **$\kappa$-ary regular**, or alternatively **$\kappa$-ary coherent**.  There are also some other more technical characterizations; see [Shulman 2012](#Shulman).
 
 +-- {: .num_theorem #KExact}
 ###### Theorem
 For a category $C$, the following are equivalent:
 
-1. $C$ has finite limits, and every $\kappa$-ary congruence is the kernel of some universally effective-epic sink.
+1. $C$ has [[finite limits]], and every $\kappa$-ary congruence is the [[kernel]] of some universally effective-epic sink.
 
 1. $C$ is $\kappa$-ary regular, and every $\kappa$-ary congruence is the kernel of some sink.
 
 1. $C$ is both [[exact category|exact]] and $\kappa$-ary [[extensive category|extensive]].
 =--
 
-When these conditions hold, we say that $C$ is **$\kappa$-ary exact**, or alternatively a **$\kappa$-ary pretopos**.
+\begin{definition}\label{KappaAryExactCategory}
+When these conditions hold, we say that $C$ is called a **$\kappa$-ary exact category**, or alternatively a **$\kappa$-ary pretopos**.
+\end{definition}
+\begin{definition}\label{KappaAryExactFunctor}
+A [[functor]] $F \,\colon\, C\to D$ between $\kappa$-ary exact categories (Def. \ref{KappaAryExactCategory}) is called a **$\kappa$-ary exact functor** if it [[preserved limit|preserves]] [[finite limits]] and $\kappa$-small effective-epic (or equivalently extremal-epic) families.
+\end{definition}
 
-## Examples
+\begin{definition}\label{2CategoryOfKappaAryExactCategories}
+**(The 2-category of $\kappa$-ary exact categories)**
+\linebreak
+The [[2-category]] 
+$EX_\kappa$ 
+of $\kappa$-ary exact categories (Def. \ref{KappaAryExactCategory}),
+$\kappa$-ary exact functors (Def. \ref{KappaAryExactFunctor})
+and [[natural transformations]]
+is a [[reflective subcategory|reflective]] [[full sub-2-category]] of the 2-category $SITE_\kappa$ of [[∞-ary sites]].  The reflector is called *[[exact completion]]*.
+\end{definition}
+
+
+
+### Examples
 
 1. $C$ is [[regular category|regular]] iff it is unary regular.
 2. $C$ is [[coherent category|coherent]] iff it is finitary regular.
@@ -99,7 +124,7 @@ Some other sorts of [[exactness properties]] (especially [[lex-colimits]]) can a
 In [Street](#Street), there is also a version of regularity and exactness that applies even to some _large_ sinks and congruences, and implies some small-generation properties of the category as well.
 
 
-## Properties
+### Properties
 
 In a $\kappa$-ary regular category,
 
@@ -113,20 +138,15 @@ Thus, in a $\kappa$-ary exact category,
 In a $\kappa$-ary regular category, the class of all $\kappa$-small and effective-epic families generates a [[topology]], called its $\kappa$-canonical topology.  This topology makes it a [[∞-ary site]].
 
 
-## The 2-category of $\kappa$-ary exact categories
-
-A functor $F:C\to D$ between $\kappa$-ary exact categories is called **$\kappa$-ary exact** if it preserves finite limits and $\kappa$-small effective-epic (or equivalently extremal-epic) families.
-
-The resulting 2-category $EX_\kappa$ is a full [[reflective subcategory|reflective]] sub-2-category of the 2-category $SITE_\kappa$ of [[∞-ary sites]].  The reflector is called [[exact completion]].
 
 
 ## References
 
-*  [[Ross Street]], "The family approach to total cocompleteness and toposes."  Transactions of the AMS **284** no. 1, 1984. [doi:10.1090/S0002-9947-1984-0742429-3](https://doi.org/10.1090/S0002-9947-1984-0742429-3)
-{#Street}
+* {#Street} [[Ross Street]], *The family approach to total cocompleteness and toposes*,  Transactions of the AMS **284** no. 1, 1984. ([doi:10.1090/S0002-9947-1984-0742429-3](https://doi.org/10.1090/S0002-9947-1984-0742429-3))
 
-* [[Michael Shulman]], "Exact completions and small sheaves".  *Theory and Applications of Categories*, Vol. 27, 2012, No. 7, pp 97-173.  [Free online](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)
-{#Shulman}
+
+* {#Shulman} [[Michael Shulman]], *Exact completions and small sheaves*,  *Theory and Applications of Categories*, Vol. 27, 2012, No. 7, pp 97-173.  ([tac:27-07](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html))
+
 
 [[!redirects familial regularity and exactness]]
 [[!redirects familial regularity]]
