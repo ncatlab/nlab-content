@@ -869,6 +869,7 @@ In fact, the history of the development of the theory of principal bundles and [
 
 * [[equivariant de Rham cohomology]]
 
+
 ## References
  {#References}
 
@@ -882,7 +883,7 @@ some of which is recollected in ([Palais 61](#Palais61)).
 
 See also the references at *[[classifying space]]*.
 
-Further textbooks include
+Textbook accounts:
 
 * {#Steenrod51} [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
 
@@ -891,6 +892,8 @@ Further textbooks include
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 * [[Ralph Cohen]], _The topology of fiber bundles_, Stanford University (2017) ([pdf](http://math.stanford.edu/~ralph/fiber.pdf), [OMN:201707.110706](https://www.ams.org/open-math-notes/omn-view-listing?listingId=110706))
+
+* [[Loring Tu]], Parts I-II in: *Introductory Lectures on Equivariant Cohomology*, Annals of Mathematics Studies **204**, AMS 2020 ([ISBN:9780691191744](https://press.princeton.edu/books/hardcover/9780691191744/introductory-lectures-on-equivariant-cohomology))
 
 
 With an eye towards application in [[mathematical physics]]:
