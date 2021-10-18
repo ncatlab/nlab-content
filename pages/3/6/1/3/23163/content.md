@@ -36,13 +36,15 @@ is contravariantly equivalent to the category of finitely generated EFC-algebras
 The equivalence functor sends a [[Stein space]] to its EFC-algebra of global sections.
 
 
-These statements can thus be rightfully known as __Stein duality__.
+These statements can thus be rightfully known as [[Stein duality]].
 
 ## Related concepts
 
 * [[C^∞-ring]]
 
 * [[Stein space]]
+
+* [[Stein duality]]
 
 * [[duality between geometry and algebra]]
 
@@ -52,3 +54,6 @@ These statements can thus be rightfully known as __Stein duality__.
 
 * [[J. P. Pridham]], *A differential graded model for derived analytic geometry*,  Advances in Mathematics 360 (2020), 106922.  arXiv:1805.08538v1, doi:10.1016/j.aim.2019.106922.
 
+[[!redirects EFC-algebras]]
+[[!redirects entire functional calculus algebra]]
+[[!redirects entire functional calculus algebras]]
