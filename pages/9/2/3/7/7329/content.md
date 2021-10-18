@@ -218,6 +218,10 @@ the future.
 
 ## References
 
+A recent seminar with a list of resources is 
+
+* [GRT learning seminar winter 2020: Symplectic Duality](http://www.math.toronto.edu/dbutson/ls20.html)
+
 A survey is in
 
 * [[Nick Proudfoot]], _[research statement](http://pages.uoregon.edu/njp/research.pdf)_
