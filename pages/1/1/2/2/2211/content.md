@@ -15,7 +15,7 @@
 
 #Idea#
 
-We give a description of the [[Chevalley?Eilenberg algebra]] of the [[Lie algebra]] of a [[Lie group]] as the [[∞-quantity]] of functions $C^\infty(\mathbf{B}G_e^{(1)})$ on the [[simplicial object|simplicial space]] of infinitesimal neighbourhoods of the identity in the sense of [[synthetic differential geometry]] in the simplicial smooth space $\mathbf{B}G$ that is the [[Lie ∞-groupoid]] incarnation of the [[delooping]] of the [[Lie group]].
+We give a description of the [[Chevalley-Eilenberg algebra]] of the [[Lie algebra]] of a [[Lie group]] as the [[∞-quantity]] of functions $C^\infty(\mathbf{B}G_e^{(1)})$ on the [[simplicial object|simplicial space]] of infinitesimal neighbourhoods of the identity in the sense of [[synthetic differential geometry]] in the simplicial smooth space $\mathbf{B}G$ that is the [[Lie ∞-groupoid]] incarnation of the [[delooping]] of the [[Lie group]].
 
 The derivation is analogous to and usefully compared with how the deRham algebra of differential forms on a [[manifold]] $X$ is the [[∞-quantity]] of functions on the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{diff}} \hookrightarrow \Pi(X)$ of $X$, as described at [[differential forms in synthetic differential geometry]].
 
@@ -23,7 +23,7 @@ We proceed entirely by using theorems and propositions from the book
 
 * [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-in particular section 6.8 combined with section 4.3. We effectively show that these statements are precisely the ones needed to unwrap what the normalized [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(\mathbf{B} G_e^{(1)})$ in the [[monoidal Dold?Kan correspondence]] is like.
+in particular section 6.8 combined with section 4.3. We effectively show that these statements are precisely the ones needed to unwrap what the normalized [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(\mathbf{B} G_e^{(1)})$ in the [[monoidal Dold-Kan correspondence]] is like.
 
 # Definitions and setup #
 
@@ -43,7 +43,7 @@ for $n$ the dimension of $D$. By the [[log-exp bijection in synthetic differenti
 
 Moreover, by the [[Kock-Lawvere axiom]] morphisms $f : D(n) \simeq G_e^{(1)} \to R$ are necessarily linear $f : d \mapsto f_0 \to f_1 \cdot d$, hence under the $log$--$exp$ bijection are nothing but elements in the dual vector space $g^*$.
 
-Recall that the ordinary [[Chevalley?Eilenberg algebra]] of $g$ is the [[differential graded algebra]] whose underlying graded-commutative algebra is the [[Grassmann algebra]] $\wedge^\bullet g^* = \mathbb{R} \oplus g^* \oplus g^* \wedge g^* \oplus \cdots$. 
+Recall that the ordinary [[Chevalley-Eilenberg algebra]] of $g$ is the [[differential graded algebra]] whose underlying graded-commutative algebra is the [[Grassmann algebra]] $\wedge^\bullet g^* = \mathbb{R} \oplus g^* \oplus g^* \wedge g^* \oplus \cdots$. 
 
 So the subset of $C^\infty(G_e^{(1)})$ that vanishes at 0 is naturally isomorphic to the degree-$1$ part of the Chevalley--Eilenberg algebra.
 
@@ -121,7 +121,7 @@ $$
   \,.
 $$
 
-Recall that the differential of the [[Chevalley?Eilenberg algebra]] is on $g^*$ just the dual $[-,-]^* : g^* \to g^* \wedge g^*$ of the Lie bracket $[-,-] : g \otimes g \to g$. 
+Recall that the differential of the [[Chevalley-Eilenberg algebra]] is on $g^*$ just the dual $[-,-]^* : g^* \to g^* \wedge g^*$ of the Lie bracket $[-,-] : g \otimes g \to g$. 
 
 We need to check that this is reproduced by the differential  of the Moore cochain complex, which is the alternating sum of the face maps $d = \sum_i (-1)^i d_i$. Let $f \in g^*$. Then we find for all $(x,y) \in (G \times G)_e^{(1)}$ that
 
@@ -159,7 +159,7 @@ $$
   \,.
 $$
 
-This is indeed the differential of the [[Chevalley?Eilenberg algebra]].
+This is indeed the differential of the [[Chevalley-Eilenberg algebra]].
 
 (discussion needs to be completed: situation in higher degree and cup-product mapping to wedge product needs to be discussed...)
 
