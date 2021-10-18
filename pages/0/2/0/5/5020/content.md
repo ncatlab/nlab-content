@@ -52,3 +52,4 @@ is a [[monomorphism in an (∞,1)-category]] in [[∞Grpd]].
 [[!redirects epimorphism in an (∞,1)-category]]
 [[!redirects epimorphisms in an (∞,1)-category]]
 
+[[!redirects epimorphism in an infinity1-category]]
