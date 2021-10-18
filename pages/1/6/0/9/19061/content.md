@@ -114,6 +114,9 @@ Discussion of $\alpha'$-corrections:
 
 * {#BorsatoWulff20} Riccardo Borsato, Linus Wulff, _Quantum correction to Poisson-Lie and non-abelian T-duality_ ([arXiv:2007.07902](https://arxiv.org/abs/2007.07902))
 
+See also:
+
+* Alex S. Arvanitakis, Chris D. A. Blair, Daniel C. Thompson, *A QP perspective on topology change in Poisson-Lie T-duality* ([arXiv:2110.08179](https://arxiv.org/abs/2110.08179))
 
 
 
