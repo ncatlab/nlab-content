@@ -109,7 +109,8 @@ Let $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]]
 * with terminal [[(infinity,1)-geometric morphism|geometric morphism]] denoted
 
 
-  $$
+  \[
+    \label{TerminalGeometricMorphismAdjunction}
     \mathbf{H}
     \underoverset
       {\underset{\Gamma}{\longrightarrow}}
@@ -117,20 +118,21 @@ Let $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]]
       {\;\;\;\;\bot\;\;\;\;}
     Grp_\infty
     \,,
-  $$
+  \]
 
   where the [[inverse image]] construcs [[locally constant infinity-stacks|locally constant $\infty$-stacks]],
 
 * and with its [[internal hom]] ([[mapping stack]]) [[adjoint (infinity,1)-functor|adjunction]] denoted
 
-  $$
+  \[
+    \label{MappingStackAdjunction}
     \mathbf{H}
       \underoverset
         {\underset{Maps(X,-)}{\longrightarrow}}  
         { \overset{ (-) \times X }{\longleftarrow} }
         {\;\;\;\; \bot \;\;\;\;}
     \mathbf{H}
-  $$
+  \]
 
   for $X \,\in\, \mathbf{H}$. 
 
@@ -207,7 +209,7 @@ in that this operation has the following properties
 
 1. For all $X,\,A \,\in\, \mathbf{H}$ and $S \,\in\, Grpd_\infty$ we have a [[natural equivalence]]
 
-   $$
+   \[
      \mathbf{H}
      \Big(
        X
@@ -233,7 +235,7 @@ in that this operation has the following properties
          A
        \big)
      \Big)
-   $$
+   \]
 
 1. In its first argument the operation 
 
@@ -284,126 +286,9 @@ in that this operation has the following properties
 
 \end{proposition}
 
-\begin{lemma}
-The [[direct image]] of the terminal geometric morphism on an  [[(infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$ is given by the [[(infinity,1)-categorical hom-space|hom-space]] out of the [[terminal object]] in that 
-for $X \,\in\, \mathbf{H}$ there is a [[natural equivalence]]
-$$
-  \Gamma \, X
-  \;\simeq\;
-  \mathbf{H}(\ast ,\, X)
-  \,,
-$$
-where $\ast \,\in\, \mathbf{H}$ denotes the [[terminal object in an (infinity,1)-category|terminal object]].
-\end{lemma}
-\begin{proof}
-For all $S \,\in\, Grpd_\infty$ we have the following sequence of [[natural equivalences]]:
-$$
-  \begin{array}{lll}
-    Grpd_\infty
-    \big(
-      S
-      ,\,
-      \mathbf{H}(\ast ,\, X)
-    \big)
-    & 
-    \;\simeq\;
-    Grpd_\infty
-    \big(
-      \underset{\underset{S}{\longrightarrow}}{\lim} \ast
-      ,\,
-      \mathbf{H}(\ast ,\, X)
-    \big)
-    \\
-    & 
-    \;\simeq\;
-    \underset{\underset{S}{\longleftarrow}}{\lim}
-    Grpd_\infty
-    \big(
-      \ast
-      ,\,
-      \mathbf{H}(\ast ,\, X)
-    \big)
-    \\
-    & 
-    \;\simeq\;
-    \underset{\underset{S}{\longleftarrow}}{\lim}
-    \mathbf{H}(\ast ,\, X)
-    \\
-    & 
-    \;\simeq\;
-    \mathbf{H}
-    \big(
-      \underset{\underset{S}{\longleftarrow}}{\lim}
-      \ast 
-       ,\, 
-       X
-    \big)
-    \\
-    & 
-    \;\simeq\;
-    \mathbf{H}
-    \big(
-      \underset{\underset{S}{\longleftarrow}}{\lim}
-      LConst(\ast) 
-       ,\, 
-       X
-    \big)
-    \\
-    & 
-    \;\simeq\;
-    \mathbf{H}
-    \Big(
-      LConst
-      \big(
-        \underset{\underset{S}{\longleftarrow}}{\lim}
-        \ast
-      \big)
-      ,\, 
-      X
-    \Big)
-    \\
-    & 
-    \;\simeq\;
-    \mathbf{H}
-    \big(
-      LConst(S)
-      ,\, 
-      X
-    \big)
-  \end{array}
-$$
-This means equivalently that $\mathbf{H}(\ast,-)$ is a right [[adjoint (infinity,1)-functor]] to $LConst$, and hence it implies the claim by essential uniqueness of adjoints.
-\end{proof}
 
 
 \begin{proof}
-
-
-Notice that the adjunction with the [[(infinity,1)-Yoneda lemma|$\infty$-Yoneda lemma]] implies that for $\mathbf{S}$ any 
-
-$$
-  \begin{array}{lll}
-    \Gamma
-     \,
-     Maps(X,\,A)
-     &
-     \;\simeq\;
-     \mathbf{H}
-     \big(
-       \ast
-       ,\,
-       Maps(X,\,A)
-     \big)
-     \\
-     & \;\simeq\;
-     \mathbf{H}
-     (X \times \ast ,\, A)
-     \\
-     & \;\simeq\;
-     \mathbf{H}
-     (X ,\, A)
-  \end{array}  
-$$
 
 For the first statement:
 $$
@@ -428,7 +313,9 @@ $$
        LConst(S)
        ,\,
        A
-     big)
+     \big)
+     &
+     \text{(eq:MappingStackAdjunction)}
      \\
      & \;\simeq\;
      \mathbf{H}
@@ -442,9 +329,11 @@ $$
          A
        \big)
      \Big)
+     &
+     \text{(eq:MappingStackAdjunction)}
      \\
      & \;\simeq\;
-     Grpd_\infy
+     Grpd_\infty
      \Big(
        S
        ,\,
@@ -457,9 +346,48 @@ $$
          A
        \big)
      \Big)
+     \text{ (eq:TerminalGeometricMorphismAdjunction) }
      \\
      & \;\simeq\;
-     Grpd_\infy
+     Grpd_\infty
+     \bigg(
+       S
+       ,\,
+       \mathbf{H}
+       \Big(
+         \ast_{\mathbf{H}}
+         ,\,
+         Maps
+         \big(
+           X
+           ,\,
+           A
+         \big)
+       \Big)
+     \bigg)
+     &
+     \text{by 
+    <a href="https://ncatlab.org/nlab/show/terminal+geometric+morphism#DirectImageOfTerminalGeometricMoprhismIsHomOutOfTerminalObject">this Prop.</a>}
+     \\
+     & \;\simeq\;
+     Grpd_\infty
+     \Big(
+       S
+       ,\,
+       \mathbf{H}
+       \big(
+         \ast_{\mathbf{H}}
+         \times
+         X
+         ,\,
+         A
+       \big)
+     \Big)
+     &
+     \text{(eq:MappingStackAdjunction)}
+     \\
+     & \;\simeq\;
+     Grpd_\infty
      \Big(
        S
        ,\,
@@ -480,16 +408,6 @@ $$
 
 
 
-
-
-
-
-
-
-
-
-
-(...)
 
 ## Related concepts
 
