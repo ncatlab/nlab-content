@@ -35,7 +35,7 @@ $$
   PSh(\mathcal{C})
 $$
 
-such that the reflector $L \colon PSh(\mathcal{C})  \to Sh(\mathcal{C})$ preserves [[finite limits]] (the reflector being [[sheafification]]).
+such that the reflector $L \colon PSh(\mathcal{C})  \to Sh(\mathcal{C})$ [[preserved limit|preserves]] [[finite limits]] (the reflector being [[sheafification]]).
 
 Moreover, up to [[equivalence of categories|equivalence]], every [[Grothendieck topos]] arises this way: Given a [[small category]] $\mathcal{C}$ there is a [[bijection]] between 
 
@@ -86,3 +86,4 @@ For [[(∞,1)-toposes]] the accessibility of the reflection is no longer implied
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
+[[!redirects sheafification preserves finite limits]]
