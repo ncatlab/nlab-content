@@ -16,3 +16,6 @@ Discussion of [[heavy flavor]] in [[holographic QCD]]:
 * Daisuke Fujii, [[Atsushi Hosaka]], _Heavy baryons in holographic QCD with higher dimensional degrees of freedom_ ([arXiv:2003.13415](https://arxiv.org/abs/2003.13415))
 
   (via higher [[KK-compactification|KK-modes]])
+
+* {#ChenHuang21} Yidian Chen, Mei Huang, *Holographic QCD model for $N_f = 4$* ([arXiv:2110.08215](https://arxiv.org/abs/2110.08215))
+
