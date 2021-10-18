@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Opetopic type theory_ ([Finster 12](#Finster12)) is a higher dimensional [[directed homotopy type theory|directed]] [[homotopy type theory|homotopy]] [[type theory]] for [[omega-categories]], i.e. of [[infinity-categories]] in the full sense of [[(infinity,infinity)-categories]].  Specifically it realizes the higher-dimensional [[horn]]-filler conditions in the definition of [[opetopic omega-categories]] [due to Palm](opetopic+omega-category#DefinitionByPalm) as [[inference rules]] of [[term introduction]] for a higher-dimensional kind of [[formal logic]] (but it presently ignores the saturation condition on the thin cells).
+_Opetopic type theory_ ([Finster 12](#Finster12)) is a higher dimensional [[directed homotopy type theory|directed]] [[homotopy type theory|homotopy]] [[type theory]] for [[omega-categories]], i.e. of [[infinity-categories]] in the full sense of [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]].  Specifically, it realizes the higher-dimensional [[horn]]-filler conditions in the definition of [[opetopic omega-categories]] [due to Palm](opetopic+omega-category#DefinitionByPalm) as [[inference rules]] of [[term introduction]] for a higher-dimensional kind of [[formal logic]] (but it presently ignores the saturation condition on the thin cells).
 
 Where in [[homotopy type theory]] there is an [[identity type]] of any type axiomatizing the [[infinity-groupoid]] structure of that type in, effectively, the style of a [[globular omega-groupoid]], in opetopic type theory there is axiomatized instead a type of [[k-morphisms]] for all $k$ in the [[geometric shape for higher structures|shape]] of [[opetopes]].
 
@@ -48,8 +48,7 @@ This is the structure to which the [[cobordism hypothesis]] applies. Of course t
 
 Opetopic type theory is due to
 
-* {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html) 
-([[FinsterTypesAndOpetopes2012.pdf:file]])
+* {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html) ([[FinsterTypesAndOpetopes2012.pdf:file]])
 
 
 It [[syntax|syntactically]] implements the definition of [[opetopic omega-category]] due to 
