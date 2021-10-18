@@ -93,7 +93,7 @@ $$
   \Gamma_X(A) = Hom_{Sh(X)}(*,A)
 $$
 
-One notices that $\Gamma_X(-) : Sh(X) \to Set$ defined this way is the [[direct image]] functor on [[Grothendieck topos]]es that is induced from the canonical morphism $X \to *$ of [[topological space]]s (now "$*$" really denotes the [[point]] topological space!) and hence from the corresponding morphism of [[site]]s.
+One notices that $\Gamma_X(-) : Sh(X) \to Set$ defined this way is the [[direct image]] functor on [[Grothendieck toposes]] that is induced from the canonical morphism $X \to *$ of [[topological space]]s (now "$*$" really denotes the [[point]] topological space!) and hence from the corresponding morphism of [[site]]s.
 
 Again, this expression for global sections induces a relative version, 
 e.g. for sheaves on $S$-[[relative scheme|schemes]], the direct image functor goes into the base scheme $S$). 
@@ -101,12 +101,12 @@ e.g. for sheaves on $S$-[[relative scheme|schemes]], the direct image functor go
 
 ### Of objects in a general Grothendieck topos {#GeneralTopos}
 
-The definition of global sections of sheaves on topological spaces in terms of the [[direct image]] of the canonical morphism to the terminal [[site]] generalizes to [[Grothendieck topos|sheaf topos]]es over arbitrary [[site]]s.
+The definition of global sections of sheaves on topological spaces in terms of the [[direct image]] of the canonical morphism to the terminal [[site]] generalizes to [[Grothendieck topos|sheaf toposes]] over arbitrary [[sites]].
 
-For every [[Grothendieck topos]] $\mathcal{T}$, there is a [[geometric morphism]]
+For every [[Grothendieck topos]] $\mathcal{T}$, there is a [[geometric morphism]] (the *[[terminal geometric morphism]]*)
 
 $$
-  \Gamma : \mathcal{T}  \stackrel{\leftarrow}{\to} Set : LConst
+  \Gamma \;\colon\; \mathcal{T}  \stackrel{\leftarrow}{\to} Set : LConst
 $$
 
 called the **global sections** functor. It is given by the [[hom-set]] out of the [[terminal object]]
@@ -152,13 +152,16 @@ The previous abstract definition generalizes straightforwardly to every context 
 Notably in [[(∞,1)-category]] theory the global section functor on an [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$ is the [[hom-functor]]
 
 $$
-  \Gamma(-) := \mathbf{H}(*,-) : \;
+  \Gamma(-) 
+  \;\coloneqq\; 
+  \mathbf{H}(*,-) \colon 
+  \;
   \mathbf{H} = Sh_{(\infty,1)}(C) \to Sh_{(\infty,1)}(*) = \infty Grpd
 $$
 
 of morphisms out of the terminal object.
 
-This is indeed again the terminal geometric morphism
+This is indeed again the [[terminal geometric morphism]].
 
 +-- {: .num_prop }
 ###### Proposition
