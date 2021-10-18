@@ -1,4 +1,20 @@
 
+\[
+  \label{MappingStackAdjunction}
+\]
+
+$$
+  \begin{array}{lll}
+    & (eq:MappingStackAdjunction)
+    \\
+    & \text{(eq:MappingStackAdjunction)}
+    \\
+    & 
+    \text{
+    <a href="https://ncatlab.org/nlab/show/terminal+geometric+morphism#DirectImageOfTerminalGeometricMoprhismIsHomOutOfTerminalObject">here</a>}
+  \end{array}
+$$
+
 For the first statement:
 $$
   \begin{array}{lll}
