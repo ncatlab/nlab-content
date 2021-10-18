@@ -50,7 +50,8 @@ These statements can thus be rightfully known as [[Stein duality]].
 
 ## References
 
-* [[Alexei Pirkovskii]], *Holomorphically finitely generated algebras*,  Journal of Noncommutative Geometry 9 (2015), 215–264.  arXiv:1304.1991, doi:10.4171/JNCG/192.
+* [[Alexei Pirkovskii]], *Holomorphically finitely generated algebras*,  Journal of Noncommutative Geometry 9 (2015), 215–264 ([arXiv:1304.1991](https://arxiv.org/abs/1304.1991), [doi:10.4171/JNCG/192](https://www.ems-ph.org/journals/show_abstract.php?issn=1661-6952&vol=9&iss=1&rank=8)).
+
 
 * [[J. P. Pridham]], *A differential graded model for derived analytic geometry*,  Advances in Mathematics 360 (2020), 106922.  arXiv:1805.08538v1, doi:10.1016/j.aim.2019.106922.
 
