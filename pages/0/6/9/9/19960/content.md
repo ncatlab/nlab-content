@@ -526,6 +526,20 @@ for [[phi-mesons]]:
 \end{imagefromfile}
 
 
+{#PredictionsIncludingFirstHeavyQuarks} Including the first [[heavy quarks]]:
+
+\begin{imagefromfile}
+    "file_name": "ChenHuang_HolographicQCD_2021_TableII.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [Chen & Huang 2021](#ChenHuang21)"
+\end{imagefromfile}
 
 
 \linebreak
@@ -1286,7 +1300,6 @@ Application to [[thermal field theory|thermal]] [[QCD]]:
 * Vikas Yadav, Aalok Misra, _Towards Thermal QCD from M theory at Intermediate 't Hooft Coupling and G-Structure Classification of Non-supersymmetric Underlying Geometries_ ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
 
 * Alfonso Ballon-Bayona, Luis A. H. Mamani, Alex S. Miranda, Vilson T. Zanchin, _Effective holographic models for QCD: Thermodynamics and viscosity coefficients_ ([arXiv:2103.14188](https://arxiv.org/abs/2103.14188))
-
 
 
 
