@@ -58,24 +58,22 @@ It makes sense for the following to adopt the convention that $A$ is called
 
 To generalize this, let now $C$ be an arbitrary [[(∞,1)-category]]. For $X,A$ objects in $C$ write $C(X,A) \in $ [[∞Grpd]] for the [[(∞,1)-categorical hom-space]] (if $C$ is given as a [[simplicially enriched category]] then this is just the [[SSet]]-[[hom-object]] which is guaranteed to be a [[Kan complex]]).
 
-Using this, it shall be useful to slightly reformulate the above as follows:
+Using this, it is useful to slightly reformulate the above as follows:
 
-+-- {: .num_lemma}
-###### Observation
+\begin{lemma}
+An [[∞-groupoid]] $A$ is $n$-truncated precisely when for all [[∞-groupoids]] $X$ the [[(infinity,1)-categorical hom-space|hom-$\infty$-groupoid]] $\infty Grpd(X,A)$ is $n$-truncated.
+\end{lemma}
 
-An [[∞-groupoid]] $A$ is $n$-truncated precisely when for all other [[∞-groupoid]]s $X$ the hom-$\infty$-groupoid $\infty Grpd(X,A)$ is $n$-truncated.
+In other category-theoretic terms this says that [[(n,k)-transformation|(∞,k)-transformation]] between $X$ and $A$, whose components are [[k-morphisms]] in $A$, cannot be nontrivial for $k \gt n$ if there are no nontrivial [[k-morphisms]] with $k \gt n$ in $A$.
 
-=--
-
-In categorical terms this just says that [[(n,k)-transformation|(∞,k)-transformation]] between $X$ and $A$ whose components a [[k-morphism]]s in $A$ cannot be nontrivial for $k \gt n$ if there are no nontrivial [[k-morphism]]s with $k \gt n$ in $A$.
-
-Using this fact we can transport the notion of $n$-truncation to any [[(∞,1)-category]] by testing it on hom-[[∞-groupoid]]s:
+Using this fact we can transport the notion of $n$-truncation to any [[(∞,1)-category]] by testing it on [[hom-infinity-groupoid|hom-$\infty$-groupoids]]:
 
 +-- {: .num_defn #nTruncatedObject}
 ###### Definition
 **($n$-truncated object in an $(\infty,1)$-category)**
 
-An [[object]] $A \in C$ of an [[(∞,1)-category]] $C$ is **$n$-truncated**, for $n \in \mathbb{N}$, if for all $X \in C$ the [[hom-∞-groupoid]] $C(X,A)$ is $n$-truncated according to Def. \ref{nTruncatedInfinityGroupoid}.
+Given an [[(∞,1)-category]] $\mathcal{C}$,
+an [[object]] $A \in \mathcal{C}$ is called **$n$-truncated**, for $n \in \mathbb{N}$, if for all objects $X \in \mathcal{C}$ the [[hom-∞-groupoid]] $C\mathca;{C}(X,A)$ is $n$-truncated according to Def. \ref{nTruncatedInfinityGroupoid}.
 
 =--
 
@@ -237,7 +235,7 @@ If $X$ is not connected, we can easily reduce to the case that it is.
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-category]] $\tau_{\leq k} C$ is stable under all [[limit in a quasi-category|limits]] in $C$.
+For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-category]] $\tau_{\leq k} C$ is stable under all [[limit in a quasi-category|$\infty$-limits]] in $C$.
 
 =--
 
