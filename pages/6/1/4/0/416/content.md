@@ -100,37 +100,41 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
 ### In $\infty$-topos theory
 
-We discuss how the powering of [[(infinity,1)-toposes]] is given by forming [[mapping stacks]] out of [[locally constant (infinity,1)-stacks|locally constant $\infty$-stacks]]. All of the following formulas and their proos hold verbatim also for [[Grothendieck toposes]], as they just use general abstract properties.
+We discuss how the [[powering]] of [[(infinity,1)-toposes|$\infty$-toposes]] over [[Infinity-Grpd|$Grpd_\infty$]] is given by forming [[mapping stacks]] out of [[locally constant infinity-stacks|locally constant $\infty$-stacks]]. All of the following formulas and their proos hold verbatim also for [[Grothendieck toposes]], as they just use general abstract properties.
 
 \linebreak
 
-Let $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]] with terminal [[(infinity,1)-geometric morphism|geometric morphism]] denoted
+Let $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]] 
+
+* with terminal [[(infinity,1)-geometric morphism|geometric morphism]] denoted
 
 
-$$
-  \mathbf{H}
-  \underoverset
-    {\underset{\Gamma}{\longrightarrow}}
-    {\overset{LConst}{\longleftarrow}}
-    {\;\;\;\;\bot\;\;\;\;}
-  Grp_\infty
-  \,,
-$$
-
-where the [[inverse image]] construcs [[locally constant infinity-stacks|locally constant $\infty$-stacks]],
-
-and with its [[internal hom]] ([[mapping stack]]) [[adjoint (infinity,1)-functor|adjunction]] denoted
-
-$$
-  \mathbf{H}
+  $$
+    \mathbf{H}
     \underoverset
-      {\underset{Maps(X,-)}{\longrightarrow}}  
-      { \overset{ (-) \times X }{\longleftarrow} }
-      {\;\;\;\; \bot \;\;\;\;}
-  \mathbf{H}
-$$
+      {\underset{\Gamma}{\longrightarrow}}
+      {\overset{LConst}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+    Grp_\infty
+    \,,
+  $$
 
-for $X \,\in\, \mathbf{H}$. Notice that this construction is also [[(infinity,1)-functor|$\infty$-functorial]] in the first argument: 
+  where the [[inverse image]] construcs [[locally constant infinity-stacks|locally constant $\infty$-stacks]],
+
+* and with its [[internal hom]] ([[mapping stack]]) [[adjoint (infinity,1)-functor|adjunction]] denoted
+
+  $$
+    \mathbf{H}
+      \underoverset
+        {\underset{Maps(X,-)}{\longrightarrow}}  
+        { \overset{ (-) \times X }{\longleftarrow} }
+        {\;\;\;\; \bot \;\;\;\;}
+    \mathbf{H}
+  $$
+
+  for $X \,\in\, \mathbf{H}$. 
+
+  Notice that this construction is also [[(infinity,1)-functor|$\infty$-functorial]] in the first argument: 
 $Maps\big( X \xrightarrow{f} Y ,\, A \big)$ is the morphism which under the [[(infinity,1)-Yoneda lemma|$\infty$-Yoneda lemma]] over $\mathbf{H}$ (which is large but locally small, so that the lemma does apply)  corresponds to
 
 $$
@@ -170,6 +174,14 @@ $$
   \big)
   \,.
 $$
+
+
+
+
+
+
+
+
 
 \begin{proposition}
 The *powering* of $\mathbf{H}$ over [[Infinity-Grpd|$Grpd_\infty$]] is given by the [[mapping stack]] out of the [[locally constant infinity-stack|locally constant $\infty$-stacks]]:
@@ -240,7 +252,7 @@ in that this operation has the following properties
          X
       $$
 
-   1. sends [[(infinity,1)-colimits|$\infty$-colimits]] to [[(infinity,1)-limits]]:
+   1. sends [[(infinity,1)-colimits|$\infty$-colimits]] to [[(infinity,1)-limits|$\infty$-limits]]:
 
       $$
         Maps
@@ -268,7 +280,214 @@ in that this operation has the following properties
         \Big)
       $$
 
+   where all [[equivalence in an (infinity,1)-category|equivalences]] are [[natural equivalence|natural]].
+
 \end{proposition}
+
+\begin{lemma}
+The [[direct image]] of the terminal geometric morphism on an  [[(infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$ is given by the [[(infinity,1)-categorical hom-space|hom-space]] out of the [[terminal object]] in that 
+for $X \,\in\, \mathbf{H}$ there is a [[natural equivalence]]
+$$
+  \Gamma \, X
+  \;\simeq\;
+  \mathbf{H}(\ast ,\, X)
+  \,,
+$$
+where $\ast \,\in\, \mathbf{H}$ denotes the [[terminal object in an (infinity,1)-category|terminal object]].
+\end{lemma}
+\begin{proof}
+For all $S \,\in\, Grpd_\infty$ we have the following sequence of [[natural equivalences]]:
+$$
+  \begin{array}{lll}
+    Grpd_\infty
+    \big(
+      S
+      ,\,
+      \mathbf{H}(\ast ,\, X)
+    \big)
+    & 
+    \;\simeq\;
+    Grpd_\infty
+    \big(
+      \underset{\underset{S}{\longrightarrow}}{\lim} \ast
+      ,\,
+      \mathbf{H}(\ast ,\, X)
+    \big)
+    \\
+    & 
+    \;\simeq\;
+    \underset{\underset{S}{\longleftarrow}}{\lim}
+    Grpd_\infty
+    \big(
+      \ast
+      ,\,
+      \mathbf{H}(\ast ,\, X)
+    \big)
+    \\
+    & 
+    \;\simeq\;
+    \underset{\underset{S}{\longleftarrow}}{\lim}
+    \mathbf{H}(\ast ,\, X)
+    \\
+    & 
+    \;\simeq\;
+    \mathbf{H}
+    \big(
+      \underset{\underset{S}{\longleftarrow}}{\lim}
+      \ast 
+       ,\, 
+       X
+    \big)
+    \\
+    & 
+    \;\simeq\;
+    \mathbf{H}
+    \big(
+      \underset{\underset{S}{\longleftarrow}}{\lim}
+      LConst(\ast) 
+       ,\, 
+       X
+    \big)
+    \\
+    & 
+    \;\simeq\;
+    \mathbf{H}
+    \Big(
+      LConst
+      \big(
+        \underset{\underset{S}{\longleftarrow}}{\lim}
+        \ast
+      \big)
+      ,\, 
+      X
+    \Big)
+    \\
+    & 
+    \;\simeq\;
+    \mathbf{H}
+    \big(
+      LConst(S)
+      ,\, 
+      X
+    \big)
+  \end{array}
+$$
+This means equivalently that $\mathbf{H}(\ast,-)$ is a right [[adjoint (infinity,1)-functor]] to $LConst$, and hence it implies the claim by essential uniqueness of adjoints.
+\end{proof}
+
+
+\begin{proof}
+
+
+Notice that the adjunction with the [[(infinity,1)-Yoneda lemma|$\infty$-Yoneda lemma]] implies that for $\mathbf{S}$ any 
+
+$$
+  \begin{array}{lll}
+    \Gamma
+     \,
+     Maps(X,\,A)
+     &
+     \;\simeq\;
+     \mathbf{H}
+     \big(
+       \ast
+       ,\,
+       Maps(X,\,A)
+     \big)
+     \\
+     & \;\simeq\;
+     \mathbf{H}
+     (X \times \ast ,\, A)
+     \\
+     & \;\simeq\;
+     \mathbf{H}
+     (X ,\, A)
+  \end{array}  
+$$
+
+For the first statement:
+$$
+  \begin{array}{lll}
+     \mathbf{H}
+     \Big(
+       X
+       ,\,
+       Maps
+       \big(
+         LConst(S)
+         ,\,
+         A
+       \big)
+     \Big)
+     &
+     \;\simeq\;   
+     \mathbf{H}
+     \big(
+       X 
+       \times
+       LConst(S)
+       ,\,
+       A
+     big)
+     \\
+     & \;\simeq\;
+     \mathbf{H}
+     \Big(
+       LConst(S)
+       ,\,
+       Maps
+       \big(
+         X
+         ,\,
+         A
+       \big)
+     \Big)
+     \\
+     & \;\simeq\;
+     Grpd_\infy
+     \Big(
+       S
+       ,\,
+       \Gamma
+       \,
+       Maps
+       \big(
+         X
+         ,\,
+         A
+       \big)
+     \Big)
+     \\
+     & \;\simeq\;
+     Grpd_\infy
+     \Big(
+       S
+       ,\,
+       \mathbf{H}
+       \big(
+         X
+         ,\,
+         A
+       \big)
+     \Big)
+  \end{array}
+$$
+
+
+
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
 
 (...)
 
