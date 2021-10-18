@@ -19,11 +19,13 @@ together with a [[vector subspace]] $M$
 of the [[product]] $P$ of [[vector spaces]] $\prod_{x\in X} H_x$.
 The elements of $M$ are known as __measurable sections__.
 The pair $(\{H_x\}_{x\in X},M)$ must satisfy the following conditions.
+
 * For any $m\in M$ the function $X\to\mathbf{R}$ ($x\mapsto \|m(x)\|$)
 is a measurable function on $(X,\Sigma)$.
 * If for some $p\in P$, the function $X\to\mathbf{C}$ ($x\mapsto\langle p(x),m(x)\rangle$) is a measurable function on $(X,\Sigma)$ for any $m\in M$,
 then $p\in M$.
 * There is a countable subset $M'\subset M$ such that for any $x\in X$, the closure of the span of vectors $m(x)$ ($m\in M'$) coincides with $H_x$.
+
 \end{definition}
 
 The last condition restrict us to bundles of separable Hilbert spaces.
