@@ -309,6 +309,8 @@ See also at _[[reflective sub-(∞,1)-category]]_.
 
 ## Properties
 
+
+
 ### Dependence on the site
 
 +-- {: .num_prop}
@@ -395,6 +397,33 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
 * Similaryl for $C = $ [[Diff]] the category of [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site.
 
 =--
+
+
+### Limits and colimits
+
+Beware that, in general, [[constant functor|constant presheaves]] need not be [[sheaves]]. But the presheaf constant on the [[singleton]] set is always a sheaf:
+
+\begin{example}\label{TerminalSheaf}
+**(terminal sheaf)**
+\linebreak
+For every [[site]] $\mathcal{S}$, the [[terminal object]] in its [[category of sheaves]] $Sh(\mathcal{S})$ is, as a [[presheaf]], the [[constant functor]] with value the [[singleton set]].
+\end{example}
+\begin{proof}
+  Recalling the defining [[geometric embedding]] of any [[Grothendieck topos]] into the corresponding [[category of presheaves]]
+  $$
+    Sh(\mathcal{S})
+    \underoverset
+      {\underset{i}{\hookrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\; \bot \;\;\;}
+    PSh(\mathcal{S})
+    \,,
+  $$
+  both functors [[preserved limit|preserve]] the [[terminal object]] (this being the [[limit]] over the [[empty diagram]]): The [[direct image]]  because it is a [[right adjoint]] and [[right adjoints preserve limits]], and the [[inverse image]] because [[sheafification preserves finite limits]].
+
+But the terminal presheaf is clearly the functor $\const_\ast \,\in\, PSh(\mathcal{S})$ which is [[constant functor|constant]] on the singleton set. Therefore $L(const_\ast)$ is the terminal sheaf. But then its [[underlying]] presheaf $i\big(L(const_\ast)\big)$ must again be the terminal presheaf, hence still the functor constant on the singleton set.
+\end{proof}
+
 
 
 ### Epi- mono- and isomorphisms
