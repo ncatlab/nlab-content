@@ -81,13 +81,9 @@ An object $X$ is $n$-connected, def. \ref{Connectedness}, precisely if its [[n-t
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]].
 
-
-+-- {: .num_lemma}
-###### Observation
-
+\begin{lemma}
 Every [[equivalence in a quasi-category|equivalence]] is $\infty$-connected.
-
-=--
+\end{lemma}
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 2]].
 
