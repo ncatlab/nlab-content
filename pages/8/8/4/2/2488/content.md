@@ -751,22 +751,22 @@ hence (-1)-truncated, precisely if $X$ is $0$-truncated (an [[h-set]]).
 
 ## References
 
-The discussion of truncated objects in an $(\infty,1)$-category is in section 5.5.6 of
+Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category]]:
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], Section 5.5.6 of: _[[Higher Topos Theory]]_
 
-The discussion of categorical [[homotopy groups in an (∞,1)-topos]] is in 
-section 6.5.1.
+Discussion of [[categorical homotopy groups in an (∞,1)-topos]] is in 
+section 6.5.1 there.
 
-A discussion in terms of [[model category]] [[presentable (∞,1)-category|presentations]] is in section 7 of
+Discussion in terms of [[model category]] [[presentable (∞,1)-category|presentations]]:
 
-* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* {#Rezk} [[Charles Rezk]], Section 7 of: _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
  
-A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleta]]:
+A classical article that amplifies the expression of [[Postnikov towers]] in [[sSet]] (hence in [[Infinity-Grp|$Grpd_{\infty}$]]) in terms of [[coskeleta]]:
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
-Discussion in the context of [[modal type theory|modal]] [[homotopy type theory]] is in 
+Discussion in the context of [[modal type theory|modal]] [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
