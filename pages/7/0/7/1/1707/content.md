@@ -267,7 +267,7 @@ be the corresponding [[cochain complex]]. Then the degree-$n$ group cohomology o
 $$
   H^n_{Grp}(G,A)
   \simeq
-  H^n(Hom_{\mathbb{Z}[G]Mod}(F_0, A))
+  H^n(Hom_{\mathbb{Z}[G]Mod}(F_\bullet, A))
   \coloneqq
   ker(d^n)/im(d^{n-1})
   \,.
