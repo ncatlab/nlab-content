@@ -48,7 +48,6 @@ Let $(\Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Delta}{\leftarrow}
 
 Without further assumption on $\mathcal{E}$ we have the following definition.
 
-
 +-- {: .num_defn}
 ###### Definition
 
@@ -72,7 +71,7 @@ If $\mathcal{E}$ is a [[locally connected topos]] there is another characterizat
 +-- {: .num_defn}
 ###### Definition
 
-For $C$ and $C$ [[cartesian closed categories]], a [[functor]] $F : C \to D$ that preserves [[product]]s is called a **[[cartesian closed functor]]** if the canonical [[natural transformation]]
+For $C$ and $C$ [[cartesian closed categories]], a [[functor]] $F \,\colon\, C \to D$ that preserves [[products]] is called a **[[cartesian closed functor]]** if the canonical [[natural transformation]]
 
 $$
   F(B^A) \to (F(B))^{F(A)}
@@ -87,7 +86,7 @@ From the discussion at [[locally connected topos]] we have that
 +-- {: .num_prop}
 ###### Proposition
 
-The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[cartesian closed functor]] precisely if $\mathcal{E}$ is a [[locally connected topos]].
+The [[constant sheaf]]-functor $\Delta \,\colon\, \mathcal{S} \to \mathcal{E}$ is a [[cartesian closed functor]] precisely if $\mathcal{E}$ is a [[locally connected topos]].
 
 =--
 
@@ -96,7 +95,7 @@ In this case the above definition is equivalent to the following one.
 +-- {: .num_defn}
 ###### Definition
 
-Let $\mathcal{E} = Sh(C)$ be a [[locally connected topos]]. Let $p : core(Set^\kappa_*) \to core(Set^\kappa)$ be the [[core]] of the [[generalized universal bundle]] for sets of [[cardinality]] less than some $\kappa$.
+Let $\mathcal{E} = Sh(C)$ be a [[locally connected topos]]. Let $p \,\colon\, core(Set^\kappa_*) \to core(Set^\kappa)$ be the [[core]] of the [[generalized universal bundle]] for sets of [[cardinality]] less than some $\kappa$.
 
 A **locally constant $\kappa$-bounded object** in $\mathcal{E}$ is the [[pullback]] of $\Delta(p)$ along a morphism $* \to core(Set^\kappa)$ in the [[2-topos|(2,1)-topos]] $Sh_{(2,1)}(C)$.
 
