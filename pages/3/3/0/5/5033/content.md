@@ -100,7 +100,7 @@ The [[terminal object in an (infinity,1)-category|terminal object]] in
 
 =--
 
-This is [[Higher Topos Theory|HTT, Prop. 6.3.4.1]].
+This is [[Higher Topos Theory|HTT, Prop. 6.3.4.1]], for details see at *[[terminal geometric morphism]]*.
 
 
 ### Computation of limits and colimits
