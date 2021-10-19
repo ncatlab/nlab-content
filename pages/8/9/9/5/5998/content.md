@@ -122,13 +122,13 @@ The idea that untyped lambda calculus can be modeled internally to a cartesian c
 
 This followed his earlier work constructing an explicit such model in the category of domains:
 
-* Dana Scott. Outline of a Mathematical Theory of Computation. _Proc. 4th Princeton Conf. on Information Sciences and Systems_, 169--176, 1970. [pdf](http://ropas.snu.ac.kr/~kwang/520/readings/sco70.pdf)
+* {#Scott70} Dana Scott. Outline of a Mathematical Theory of Computation. _Proc. 4th Princeton Conf. on Information Sciences and Systems_, 169--176, 1970. [pdf](http://ropas.snu.ac.kr/~kwang/520/readings/sco70.pdf)
 
-* Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976.
+* {#Scott76} Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976. doi:[10.1137/0205037](https://doi.org/10.1137/0205037) ([pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf))
 
 Another, more recent take on pure lambda calculus as a certain kind of [[algebraic theory]] (called a "[[lambda theory]]") can be found in
 
-* [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
+* {#Hyland13} [[Martin Hyland]]. _Classical lambda calculus in modern dress_ Mathematical Structures in Computer Science, 27(5) (2017) 762-781. doi:[10.1017/S0960129515000377](https://doi.org/10.1017/S0960129515000377). [arxiv:1211.5762](http://arxiv.org/abs/1211.5762)
 
 [[!redirects lambda calculus]]
 [[!redirects lambda calculi]]
