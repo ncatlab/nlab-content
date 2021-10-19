@@ -21,6 +21,11 @@ A [[topological space]] $(X,\tau)$ is called a _Kolmogorov space_ if it satisfie
 [[!include main separation axioms -- table]]
 
 ## Properties
+ {#Properties}
+
+
+[[!include main separation axioms -- as lifting properties]]
+
 
 ### Reflection
 
