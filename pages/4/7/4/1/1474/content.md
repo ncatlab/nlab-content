@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -79,6 +80,12 @@ That is, convergence in a Hausdorff space is unique.
 
 
 ## Properties
+ {#Properties}
+
+
+[[!include main separation axioms -- as lifting properties]]
+
+
 
 ### Hausdorff reflection
  {#HausdorffReflections}
@@ -498,6 +505,8 @@ Comments on the relation to [[topos theory]]:
 [[!redirects Hausdorff convergence space]]
 [[!redirects Hausdorff convergence spaces]]
 
+[[!redirects T2]]
+
 [[!redirects T2-space]]
 [[!redirects T2-spaces]]
 
@@ -529,4 +538,5 @@ Comments on the relation to [[topos theory]]:
 
 [[!redirects Hausdorffzation]]
 [[!redirects Hausdorffizations]]
+
 
