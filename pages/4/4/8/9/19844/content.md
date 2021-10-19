@@ -569,7 +569,12 @@ Brief review from the point of view of [[non-perturbative effect|non-perturbativ
 
 * {#LHCb2012} [[LHCb collaboration]], _Angular analysis of the $B^+ \to K^{\ast + } \mu^+ \mu^-$ decay_ ([arXiv:2012.13241](https://arxiv.org/abs/2012.13241))
 
+* [[LHCb collaboration]] *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
+
+
+
 ### Review and outlook
+ {#ReferencesReviewAndOutlook}
 
 * Elena Graverini, _Flavour anomalies: a review_, in _Proceedings of the [13th International Conference on Beauty, Charm and Hyperon hadrons (BEACH 2018)](http://inspirehep.net/record/1621649)_ ([arXiv:1807.11373](https://arxiv.org/abs/1807.11373))
 
