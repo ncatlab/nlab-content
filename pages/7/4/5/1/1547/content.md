@@ -134,6 +134,8 @@ Much else to be discussed...
 
   * [[super vector bundle]]
 
+* [[measurable field of Hilbert spaces]]
+
 * [[2-vector bundle]]
 
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
