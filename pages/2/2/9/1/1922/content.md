@@ -266,6 +266,15 @@ Therefore, this space has the property that every point has a neighbourhood basi
 
 
 ## Properties
+ {#Properties}
+
+
+[[!include main separation axioms -- as lifting properties]]
+
+
+
+
+### Further properties
 
 * [[second-countable regular spaces are paracompact]]
 
@@ -303,6 +312,8 @@ See also:
 [[!redirects R2 spaces]]
 [[!redirects T3 space]]
 [[!redirects T3 spaces]]
+
+[[!redirects T3]]
 
 [[!redirects regular Hausdorff space]]
 [[!redirects regular Hausdorff spaces]]
