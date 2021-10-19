@@ -39,6 +39,7 @@ The main separation axioms are these:
 
 {#TableOfMainSeparationAxioms}
 [[!include main separation axioms -- table]]
+{#TableOfMainSeparationAxiomsAsLiftingProperties}
 [[!include main separation axioms -- as lifting properties]]
 
 
