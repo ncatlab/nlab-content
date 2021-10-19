@@ -1,6 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A __measurable field of Hilbert spaces__ is the exact analogue of a vector bundle over a topological spaces in the setting of bundles of infinite-dimensional Hilbert spaces over [[measurable spaces]].
+A __measurable field of Hilbert spaces__ is the exact analogue of a [[vector bundle]] over a [[topological space]] in the setting of [[fiber bundles]] of infinite-dimensional [[Hilbert spaces]] over [[measurable spaces]].
 
 ## Definition
 
