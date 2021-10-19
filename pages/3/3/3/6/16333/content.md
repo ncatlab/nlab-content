@@ -39,4 +39,5 @@ Any lambda theory is isomorphic to the endomorphism lambda theory of a [[reflexi
 
 ## References
 
-* {#Hyland13} [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
+
+* {#Hyland13} [[Martin Hyland]]. _Classical lambda calculus in modern dress_ Mathematical Structures in Computer Science, 27(5) (2017) 762-781. doi:[10.1017/S0960129515000377](https://doi.org/10.1017/S0960129515000377). [arxiv:1211.5762](http://arxiv.org/abs/1211.5762)
