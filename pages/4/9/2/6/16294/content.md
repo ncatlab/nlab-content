@@ -45,9 +45,11 @@ Take care to note that lax colimits correspond to _oplax_ cones, just as in the 
 
 ## Examples
 
+* Let $f : C \to (\infty,1)Cat$ be the terminal functor. Then $laxcolim(f) \simeq C^{op}$ and $oplaxcolim(f) \simeq C$, 
+
 * If $J : [1] \to (\infty,1)Cat$ is the diagram depicting a functor $f : A \to B$, then the lax limits are the comma categories $laxlim(J) \simeq (f \downarrow B)$ and $oplaxlim(J) \simeq (B \downarrow f)$. Dually, the lax colimits are mapping cylinders: $laxcolim(J) \simeq ([1] \times A) \amalg_{\{0\} \times A} B$ and $oplaxcolim(J) \simeq ([1] \times A ) \amalg_{\{1\} \times A} B$.
 
-* The covariant [[(∞,1)-Grothendieck construction]] sends any $F : C \to (\infty,1)Cat$ to $oplaxcolim(F)$, and the contravariant version sends $F : C^{op} \to (\infty,1)Cat$ to $laxcolim(F)$.
+* The covariant [[(∞,1)-Grothendieck construction]] sends any $F : C \to (\infty,1)Cat$ to the cocartesian fibration $oplaxcolim(F)$ with structure map to $C \simeq \oplaxcolim(1)$ induced by $F \to 1$. Dually, the contravariant version sends $F : C^{op} \to (\infty,1)Cat$ to $laxcolim(F)$.
 
 ## Related concepts
 
