@@ -133,7 +133,7 @@ By including functions as well, instead of a 2-category we obtain a [[double cat
 
 ### The 1-category of spans
 
-Let $C$ be a category with [[pullback]]s and let $Span_1(C) := (Span(C))_{\sim 1}$ be the 1-category of objects of $C$ and isomorphism class of spans between them as morphisms.
+Let $C$ be a category with [[pullback]]s and let $Span_1(C) := (Span(C))_{\sim 1}$ be the 1-category of objects of $C$ and isomorphism classes of spans between them as morphisms.
 
 Then
 
@@ -145,7 +145,30 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
 ### Universal property of the 2-category of spans
 
-([Dawson-Par&#233;-Pronk 04](#DawsonParePronk04)) (...)
+Let $C$ be a [[category]] with [[pullback]]s, let $Span_2(C) := (Span(C))_{\sim2}$ be the [[weak 2-category]] of objects of $C$, spans as morphisms, and maps between spans as 2-morphisms, and let $\eta_C: C \rightarrow Span_2(C)$ be the functor given by:
+
+\begin{centre}
+\begin{tikzcd}
+& & & & x \arrow[ld, "1_x"] \arrow[rd, "f"] & \\
+x \arrow[r, "f"] & y & \mapsto & x & & y
+\end{tikzcd}
+\end{centre}
+
+Let $K$ be a [[bicategory]], $F, G: C \rightarrow K$ be [[functor]]s such that every map in $C$ is sent to a map in $K$ possessing a [[right adjoint]] and satisfying the [[Beck-Chevalley Condition]] for any [[commutative square]] in $K$, and $\alpha: F \rightarrow G$ be a [[natural transformation]].
+
+Then the following hold:
+
+
+* $\eta_C$ is [[universal]] among functors $F$, i.e. $F$ factors as $F = \hat{F} \circ \eta_C$ for a functor $\hat{F}: Span_2(C) \rightarrow K$ which is unique up to isomorphism.
+
+* There exists a unique [[lax natural transformation]]: $\hat{\alpha}: \hat{F} \rightarrow \hat{G}$ such that $\hat{\alpha} \eta_C = \alpha$. 
+
+* Let $x, y$ be objects in $C$ and $f: x \rightarrow y$ be a morphism in $C$. If $(\alpha_x, \alpha_y)$ induce a pseudo-map of adjoints $F(f) \dashv (Ff)^* \rightarrow G(f) \dashv (Gf)^*$, then $\hat{\alpha}$ is a [[pseudonatural transformation]]
+
+Furthermore, if we denote $Pbk$ as the [[2-category]] of categories with pullbacks, [[pullback]]-preserving [[functor]]s, and [[equifibered natural transformation]]s and $BiCat$ as the [[tricategory]] of [[bicategories]], $Span(-): Pbk \rightarrow BiCat$ is well-defined as a functor. 
+
+
+([Hermida99](#Hermida99)) 
 
 
 ### Limits and colimits
@@ -222,13 +245,14 @@ The relation to [[van Kampen colimits]] is discussed in
 * {#SobocinskiHeindel11} [[Pawel Sobocinski]], Tobias Heindel, _Being Van Kampen is a universal property_, ([arXiv:1101.4594](http://arxiv.org/abs/1101.4594))
  
 
-The [[universal property]] of categories of spans is discussed in 
+The [[universal property]] of categories of spans is described in  
 
 * {#DawsonParePronk04} R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _Universal properties of Span_, Theory and Appl. of Categories __13__, 2004, No. 4, 61-85, [TAC](http://www.tac.mta.ca/tac/volumes/13/4/13-04abs.html), [MR2005m:18002](http://www.ams.org/mathscinet-getitem?mr=2116323)
   
 
-
 *  {#DawsonParePronk10} R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _The span construction_, Theory Appl. Categ. __24__ (2010), No. 13, 302&#8211;377, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html) [MR2720187](http://www.ams.org/mathscinet-getitem?mr=2720187)
+
+* {#Hermida99} C. Hermida, _Representable Multicategories_, Advances in Mathematics __151__ (2000), No. 2, 164-225, (https://www.sciencedirect.com/science/article/pii/S0001870899918777)
  
 
 The structure of a [[k-tuply monoidal (n,r)-category|monoidal]] [[tricategory]] on spans in [[2-categories]] is discussed in  
