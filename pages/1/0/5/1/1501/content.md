@@ -44,9 +44,22 @@ The statement of [[Tannaka duality]] for associative algebras says that rigid mo
 [[!include structure on algebras and their module categories - table]]
 
 
+### Free rigid monoidal categories
+
+The inclusion of the 2-category of monoidal categories into the 2-category
+of rigid monoidal categories admits a left [[2-adjoint functor]] $L$.
+
+Furthermore, the unit of the adjunction is a strong monoidal [[fully faithful functor]], i.e., any monoidal category $C$ admits
+a fully faithful strong monoidal functor $C\to L(C)$,
+where $L(C)$ is a rigid monoidal category.
+
+See Theorems 1 and 2 in Delpeuch \cite{Delpeuch}.
+
 ## References
 
 * N. Saavedra Rivano, "Cat&#233;gories Tannakiennes." _Bulletin de la Soci&#233;t&#233; Math&#233;matique de France_ 100 (1972): 417-430. [EuDML](https://eudml.org/doc/87193)
+
+* {#Delpeuch} [[Antonin Delpeuch]], _Autonomization of monoidal categories_, [arXiv](https://arxiv.org/abs/1411.3827), [doi](https://dx.doi.org/10.4204/EPTCS.323.3).
 
 ## Related concepts
 
