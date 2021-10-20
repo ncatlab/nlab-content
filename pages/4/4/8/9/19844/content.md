@@ -404,7 +404,7 @@ Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the 
  {#Leptoquarks}
 
 One promising [[model (in theoretical physics)|model]] that could potentially explain the apparently observed flavour anomalies are
-[[leptoquarks]], which naturally arise in, and hence potentially point to, [[grand unified theory]] [[model (in theoretical physics)|models]], such as notably the [[Pati-Salam model]] ([Heek-Teresi 18](#HeekTeresi18), [Heek-Teresi 19](#HeekTeresi19))
+[[leptoquarks]], which naturally arise in, and hence potentially point to, [[grand unified theory]] (GUT) [[model (in theoretical physics)|models]], such as notably the [[Pati-Salam model]] ([Heek-Teresi 18](#HeekTeresi18), [Heek-Teresi 19](#HeekTeresi19))
 
 (see [Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19), [AMM 19](#AMM19), [MVK 19](#MVK19), [Cata-Mannel 19](#CataMannel19))
 
@@ -426,11 +426,7 @@ In [CFFPV20](#CFFPV20):
 
 > In the Standard Model Effective Theory (SMEFT) [41, 42], the significance of NewPhysics from the global $b \to s \ell^+ \ell^-$ analysis increases with the inclusion of new data, reaching a maximum of almost 6σ for the simple hypothesis of a non-vanishing $[$[[leptoquark]] contribution$]$.
 
-
-
-* [[leptoquarks]] in a [[Randall-Sundrum model]]:
-
-  ([Blanke Crivellin 18](#BlankeCrivellin18), [Crivellin 18](#Crivellin18))
+If it is a [[GUT]]-model containing the [[leptoquarks]], then this seems to prefer embedding into a [[Randall-Sundrum model]] ([Blanke Crivellin 18](#BlankeCrivellin18), [Crivellin 18](#Crivellin18)) or similar ([FMIPS21](#FMIPS21)), hence a setup broadly as in [[intersecting D-brane models]].
 
 ### Other
  {#PossibleModelsOther}
@@ -1045,8 +1041,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 or similar [[intersecting D-brane models|brane models]]:
 
 
-* [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
-*Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
+* {#FMIPS21} [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek, *Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
 
 
 
