@@ -114,6 +114,9 @@ Basic discussion:
 
 * [[Friedrich Jegerlehner]], _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
 
+* Song Li, Yang Xiao, Jin Min Yang, *A pedagogical review on muon $g-2$, Modern Physics 4 (2021) 40-47 ([arXiv:2110.04673](https://arxiv.org/abs/2110.04673))
+
+
 Discussion of detection-threshold for the [[statistical significance]] of anomalies:
 
 
