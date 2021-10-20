@@ -16,7 +16,7 @@
 
 ## Injective-on-objects functors
 
-A [[functor]] is called **injective-on-objects** if its object-function is injective. Injective-on-objects functors are exactly the [[isocofibrations]] in $Cat$.
+A [[functor]] between [[strict categories]] is called **injective-on-objects** if its object-[[function]] is [[injective function|injective]]. Injective-on-objects functors are exactly the [[isocofibrations]] in $Cat$.
 
 ## Related pages
 
