@@ -18,6 +18,11 @@ On the [[flavour problem]]:
 
 On [[flavour physics]] and [[flavour anomalies]]:
 
+* {#BordoneIsidoriPattori16} Marzia Bordone, [[Gino Isidori]], Andrea Pattori, *On the Standard Model predictions for $R_K$ and $R_{K^\ast}$*, Eur. Phys. J. C 76, 440 (2016). ([arXiv:1605.07633](https://arxiv.org/abs/1605.07633), [doi:10.1140/epjc/s10052-016-4274-7](https://doi.org/10.1140/epjc/s10052-016-4274-7))
+
+  > (argument that [[QED]]-[[radiative corrections]] are negligible for the relevant branching ratios)
+
+
 * [[Gino Isidori]], *Hints of New Physics from flavor-changing processes*, talk at SPS Annual Meeting, Lausanne, Aug. 2018 ([pdf](https://indico.cern.ch/event/716246/contributions/3097683/attachments/1709141/2754825/SPS_Lausanne.pdf))
 
 
@@ -42,6 +47,9 @@ On the [[flavour anomalies]]
 > $[\ldots]$  A more structural way of addressing the flavor structure of the model is the idea of implementing [[GUT|Pati-Salam unification]]
 
 * {#LIOS21} Davide Lancierini, [[Gino Isidori]], Patrick Owen, Nicola Serra, _On the significance of new physics in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2104.05631](https://arxiv.org/abs/2104.05631))
+
+* {#IsidoriEtAl21} [[Gino Isidori]], Davide Lancierini, Abhijit Mathad, Patrick Owen, Nicola Serra, Rafael Silva Coutinho, *A general effective field theory description of $b \to s l^+ l^-$ lepton universality ratios* ([arXiv:2110.09882](https://arxiv.org/abs/2110.09882))
+
 
 On [[flavour anomalies]] via [[leptoquarks]] in [[Pati-Salam GUT]]$\,$[[intersecting D-brane model|on branes]]:
 
