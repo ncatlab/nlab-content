@@ -24,7 +24,7 @@ An __absorption monoid__ or __annihilation monoid__ is a [[monoid]] $(M,1,\cdot)
 
 ### Zero divisors
 
-A non-zero element $a \in M$ is a __[[zero divisor]]__ if thete exists a non-zero element $b \in M$ such that $a \cdot b = 0$. 
+A non-zero element $a \in M$ is a __[[zero divisor]]__ if there exists a non-zero element $b \in M$ such that $a \cdot b = 0$. 
 
 ### Localization and group completion
 
