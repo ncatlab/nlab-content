@@ -41,6 +41,11 @@ Specifically for [[Lamb shift]]-like corrections:
 
 * {#EidesGrotchShelyuto00} Michael Eides, Howard Grotch, Valery A. Shelyuto, _Theory of Light Hydrogenlike Atoms_, Phys. Rept. 342:63-261, 2001 ([arXiv:hep-ph/0002158](https://arxiv.org/abs/hep-ph/0002158))
 
+On radiative corrections (ir)relevant for branching ratios in which [[flavour anomalies]] seem to be detected:
+
+* {#BordoneIsidoriPattori16} Marzia Bordone, [[Gino Isidori]], Andrea Pattori, *On the Standard Model predictions for $R_K$ and $R_{K^\ast}$*, Eur. Phys. J. C 76, 440 (2016). ([arXiv:1605.07633](https://arxiv.org/abs/1605.07633), [doi:10.1140/epjc/s10052-016-4274-7](https://doi.org/10.1140/epjc/s10052-016-4274-7))
+
+
 
 [[!redirects radiative corrections]]
 
