@@ -18,7 +18,7 @@ On the [[flavour problem]]:
 
 On [[flavour physics]] and [[flavour anomalies]]:
 
-* {#BordoneIsidoriPattori16} Marzia Bordone, [[Gino Isidori]], Andrea Pattori, *On the Standard Model predictions for $R_K$ and $R_{K^\ast}$*, Eur. Phys. J. C 76, 440 (2016). ([arXiv:1605.07633](https://arxiv.org/abs/1605.07633), [doi:10.1140/epjc/s10052-016-4274-7](https://doi.org/10.1140/epjc/s10052-016-4274-7))
+* {#BordoneIsidoriPattori16} [[Marzia Bordone]], [[Gino Isidori]], Andrea Pattori, *On the Standard Model predictions for $R_K$ and $R_{K^\ast}$*, Eur. Phys. J. C 76, 440 (2016). ([arXiv:1605.07633](https://arxiv.org/abs/1605.07633), [doi:10.1140/epjc/s10052-016-4274-7](https://doi.org/10.1140/epjc/s10052-016-4274-7))
 
   > (argument that [[QED]]-[[radiative corrections]] are negligible for the relevant branching ratios)
 
