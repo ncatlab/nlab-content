@@ -59,7 +59,7 @@ $$
 \linebreak
   For $X \,\in\, TopSp$ a [[topological space]] 
   and $G \,\in\, Grp(TopSp)$ a [[topological group]], 
-  if there is a [[concordance]] between a [[pair]] of 
+  consider a [[concordance]] between a [[pair]] of 
   $G$-[[principal bundles]] over $X$, 
 \begin{tikzcd}
   P_0 
@@ -83,10 +83,21 @@ $$
   X \times \{1\}
   \ar[l, hook']
 \end{tikzcd}
-then there is already an [[isomorphism]] between them
+
+If 
+
+* {#FirstConditionForConcordanceOfTopologicalPrincipalBundlesToInduceIso} $X$ is a [[CW-complex]], or, more generally, a [[retract]] of a [[cell complex]]
+
+or
+
+* {#SecondConditionForConcordanceOfTopologicalPrincipalBundlesToInduceIso} $P$ is [[numerable bundle|numerable]], e.g. in that $X$ is a [[paracompact topological space]]
+
+(e.g. if $X$ admits the structure of a [[smooth manifold]])
+
+then there exists already an [[isomorphism]] of [[principal bundles]]
 \begin{tikzcd}
   P_0
-  \ar[dr, "{p_0}"{below}]
+  \ar[dr, "{p_0}"{below, xshift=-2pt}]
   \ar[rr, "{\sim}"]
   &&
   P_1
@@ -121,13 +132,26 @@ In the given situation, this means that we have a canonical local section $\sigm
   X \times [0,1]
 \end{tikzcd}
 
-Here, with respect to the [[Quillen-Serre model structure on topological spaces]]:
+Now
 
-1. the left vertical [[continuous function|map]] is manifestly an [[relative cell complex]] inclusion and a [[weak homotopy equivalence]], hence an [[acyclic cofibration]],
+* assuming the [first condition](#FirstConditionForConcordanceOfTopologicalPrincipalBundlesToInduceIso):
 
-1. the right vertical [[map]] is a [[Serre fibration]], as a special case of the general fact that all [[locally trivial bundle|locally trivial]] [[fiber bundles]] are [[Serre fibrations]] (by [this Prop.](fiber+bundle#RelationToFibrations)).
+  1. the right vertical [[map]] is a [[Serre fibration]], as all [[locally trivial bundle|locally trivial]] [[fiber bundles]] are [[Serre fibrations]] (by [this Prop.](fiber+bundle#RelationToFibrations));
 
-Therefore a dashed [[lifting]] exists, as shown. But by the resulting [[commuting diagram|commutativity]] of the bottom right triangle, this is a [[global section]] which hence exhibits an [[isomorphism]] of principal bundles (over $X \times [0,1]$) of this form:
+  1. the left vertical [[continuous function|map]] is a [[Serre-Quillen model structure on topological spaces|Serre-Quillen]]-[[acyclic cofibration]] -- since (see [this Prop.](classical+model+structure+on+topological+spaces#HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen)) it is the [[product]]  $id_X \times (D^0 \hookrightarrow D^0 \times [0,1] )$ of the [[cofibrant object]] $X$ with a generating [[acyclic cofibration]] (see [this Def.](classical+model+structure+on+topological+spaces#TopologicalGeneratingAcyclicCofibrations)) --, hence is a [[Serre-Quillen model structure on topological spaces|Serre-Quillen]]-[[acyclic cofibration]] and as such has the [[left lifting property]] against the right map;
+
+or 
+
+* assuming the [second condition](#SecondConditionForConcordanceOfTopologicalPrincipalBundlesToInduceIso):
+
+  1. the right vertical map is a [[Hurewicz fibration]], by [this Prop.](Hurewicz+fibration#NumerableFiberBundlesAreSerreFibrations),
+
+  1. hence it has the [[right lifting property]] against the left map, by definition of [[Hurewicz fibrations]].
+
+
+In either case, this implies that a [[lift]] exists, as shown by the dashed arrow above. 
+
+The resulting [[commuting diagram|commutativity]] of the bottom right triangle says that this lift is a [[global section]] which hence exhibits an [[isomorphism]] of principal bundles (over $X \times [0,1]$) of this form:
 
 $$
   P
@@ -138,7 +162,7 @@ $$
   \,.
 $$
 
-The [[restriction]] of this isomorphism to $\{1\} \subset [0,1]$ is hence an isomorphism $P_1 \,\simeq_X\, P_0$, as claimed.
+The [[restriction]] of this isomorphism to $\{1\} \subset [0,1]$ is hence an isomorphism of the form $P_1 \,\simeq_X\, P_0$, as required.
 \end{proof}
 
 
