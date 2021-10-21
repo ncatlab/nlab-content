@@ -28,17 +28,19 @@ A [[continuous map]] $p \;\colon\; E\longrightarrow B$ of [[topological space]] 
 $$ 
   \sigma_0 
   \;\colon\; 
-  X \cong X \times\{0\} \hookrightarrow X \times I
+  X \cong X \times\{0\} 
+    \xhookrightarrow{\;\;} 
+  X \times I
 $$ 
 
-including any [[topological space]] $X$ as one end of the [[cyclinder]] over it (where $I = [0,1]$ denotes the [[topological interval]]).
+including any [[topological space]] $X$ as one end of the [[cylinder]] over it (where $I \coloneqq [0,1]$ denotes the [[topological interval]]).
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-In this context this right lifting property is called the *[[homotopy lifting property]]*, because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $f:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $f =\tilde{F}
+In this context, the defining [[right lifting property]] is called the *[[homotopy lifting property]]*, because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $f:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $f =\tilde{F}
 \circ\sigma_0 :=\tilde{F}_0$ and $F=p\circ\tilde{F}$: 
 
 $$
