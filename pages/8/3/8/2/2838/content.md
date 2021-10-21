@@ -152,4 +152,6 @@ Ionads have been introduced and studied in
 Some basic aspects of the theory are developed there, and applications to [[topology]], [[logic]] and [[geometry]] are discussed. 
 
 
+[[!redirects ionads]]
+
 [[!redirects ionaid]]
