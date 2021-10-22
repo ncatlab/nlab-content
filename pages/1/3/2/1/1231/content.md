@@ -111,6 +111,7 @@ A form of Koszul duality with dg algebras replaced by dg categories has been dev
 
 * [[holography as Koszul duality]]
 
+* [[symplectic duality]]
 
 ## References
 
