@@ -267,7 +267,7 @@ This is called the _[[fundamental product theorem in topological K-theory]]_. It
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
 
 [[!redirects basic line bundles on the 2-sphere]]
