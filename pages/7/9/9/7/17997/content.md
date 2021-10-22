@@ -332,7 +332,7 @@ $$
 
 Review:
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], section 6 (from p. 19 on) in: _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 6 (from p. 19 on) in: _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
 * {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in: _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
