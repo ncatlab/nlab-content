@@ -1377,7 +1377,7 @@ $$
 
 =--
 
-(e.g. [Wirthmuller 12, p. 32 (34 of 67)](#Wirthmuller12), [Hatcher, prop. 2.9](#Hatcher))
+(e.g. [Wirthmüller, 12, p. 32 (34 of 67)](#Wirthmuller12), [Hatcher, prop. 2.9](#Hatcher))
 
 +-- {: .proof}
 ###### Proof
