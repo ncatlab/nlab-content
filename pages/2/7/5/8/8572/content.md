@@ -105,7 +105,7 @@ $$
 Observe that we have a (degreewise) [[short exact sequence]] of chain complexes
 
 $$
-  0 \to C_\bullet(A)/C_\bullet(B) \to C_\bullet(X)/C_\bullet/B) \to C_\bullet(X)/C_\bullet(A) \to 0
+  0 \to C_\bullet(A)/C_\bullet(B) \to C_\bullet(X)/C_\bullet(B) \to C_\bullet(X)/C_\bullet(A) \to 0
   \,.
 $$
 
