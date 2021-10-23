@@ -28,7 +28,7 @@ There are various different notions of $n$-vector spaces.
 
 One notion is: an $n$-vector space is a [[chain complex]] of [[vector space]]s in degrees 0 to $n$. For $n=2$ this is a [[Baez-Crans 2-vector space]]. This is useful for lots of things, but tends to be too restrictive in other contexts.
 
-Another is, recursively: an $(n-1)$-algebra object (or its $(n-1)$-category of modules) in the $n$-category of $(n-1)$-bimodules. For higher $n$ this is envisioned in ([FHLT, section 7](FHLT)), details are in spring. It includes the previous concept as a special case.
+Another is, recursively: an $(n-1)$-algebra object (or its $(n-1)$-category of modules) in the $n$-category of $(n-1)$-bimodules. For higher $n$ this is envisioned in ([FHLT, section 7](#FHLT)), details are in spring. It includes the previous concept as a special case.
 
 For $n=2$ this subsumes various other definitions of [[2-vector space]] that are in the literature, such as notably the notion of [[Kapranov-Voevodsky 2-vector space]].
 
