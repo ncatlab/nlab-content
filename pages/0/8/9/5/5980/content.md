@@ -24,7 +24,7 @@ $$
   \,.
 $$
 
-Generally here also the type $Z$ itself may depend on the variable $x$ (hence the term $z$ may be of different type dependending on its free variables) in which case one says that $z$ is a term of $X$-[[dependent type]].
+Generally here also the type $Z$ itself may depend on the variable $x$ (hence the term $z$ may be of different type depending on its free variables) in which case one says that $z$ is a term of $X$-[[dependent type]].
 
 ## Definition
 
