@@ -112,6 +112,7 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 [[!redirects right-biased oplax monoidal categories]]
 [[!redirects left-biased oplax monoidal categories]]
 
+[[!redirects skew monoidal]]
 [[!redirects skew monoidal categories]]
 [[!redirects right-skew monoidal categories]]
 [[!redirects left-skew monoidal categories]]
