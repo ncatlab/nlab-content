@@ -32,7 +32,7 @@ For example: take $Y$ to be the ground field $K$ and $X$ to be $c_0$ with the us
 
 **Unit and counit.**
 The unit of this adjunction is the canonical map $\kappa_X: X\to (X^*)^*$ from a Banach space $X$ to its second dual $X^{**}$. In the presence of
-[[axiom of choice|Choice]], the [[Hahn–Banach theorem]]) ensures that $\kappa_X$ is an isometry.
+[[axiom of choice|Choice]], the [[Hahn–Banach theorem]] ensures that $\kappa_X$ is an isometry.
 
 To get things to run smoothly, we seem to need more than $\kappa_X$ being monic in $Bant$; but I (YC) am not sure which of the usual variants -- extreme, regular, strong, strict -- is the key one.
 
