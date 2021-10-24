@@ -45,7 +45,9 @@ The [[properly discontinuous action|properly discontinuous]] [[free action|free]
 ## References
 
 
-* {#Killing1891} [[Wilhelm Killing]], _Ueber die Clifford-Klein’schen Raumformen_, Math. Ann. 39 (1891), 257–278
+* {#Killing1891} [[Wilhelm Killing]], _Ueber die Clifford-Klein’schen Raumformen_, Math. Ann. 39 (1891), 257–278 ([doi:10.1007/BF01206655](https://doi.org/10.1007/BF01206655))
+
+* [[Heinz Hopf]], *Zum Clifford-Kleinschen Raumproblem*,  Math. Ann. 95, 313–339 (1926).  ([doi:10.1007/BF01206614](https://doi.org/10.1007/BF01206614), [pdf](https://link.springer.com/content/pdf/10.1007/BF01206614.pdf))
 
 * Toshiyki Koyabashi, _Discontinuous Groups and Clifford&#8212;Klein Forms of Pseudo-Riemannian Homogeneous Manifolds_, ([pdf](http://www.ms.u-tokyo.ac.jp/~toshi/texpdf/33-sum94lec-preprint.pdf))
 
