@@ -181,7 +181,46 @@ for
 
 1. the [[delooping groupoid]] of $\Gamma$, regarded as a [[topological groupoid]] $\Gamma \rightrightarrows \ast$, 
 
-1. its associated [[D-topological space|D-]][[topological stack]] $\mathbf{B}\Gamma$.
+1. its associated [[D-topological space|D-]][[topological stack]] $\mathbf{B}\Gamma$ regarded as an object in [[smooth infinity-groupoid|$SmthGrpd_\infty$]].
+
+Consider the following two [[infinity-groupoid|$\infty$-groupoids]]:
+
+The [[shape modality|coehsive shape]] of the [[mapping stack]] from $\mathbf{B}G$ to $\mathbf{B}\Gamma$:
+
+and the [[shape modality|coehsive shape]] of the [[mapping stack]] from the [[spherical space form]] $S^{n+2}/G$ to $\mathbf{B}\Gamma$:
+
+
+In both cases we are showing on the right the canonical [[simplicial sets]] which present these $\infty$-groupoids, obtained by first using the expression of [[shape via cohesive path ∞-groupoid|snooth shape via the smooth path $\infty$-groupoid]] and then fact that the [[simplex category|simplicial]] [[homotopy colimit]] of $\infty$-groupoids presented by [[simplicial sets]] is given by the [[diagonal of a bisimplicial set|diagonal]] of the corresponding [[bisimplicial set]] (by [this Prop.](bisimplicial+set#DiagonalAsSimplicialHomotopyColimit)).
+
+
+There is a canonical comparison morphisms between these $\infty$-groupoids, given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n+2} \xrightarrow{\; p\;} \ast$:
+
+$$
+  Map
+  \Big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)
+    \xrightarrow
+    {\;\;\;
+       p^\ast
+    \;\;\;}
+  \esh
+  \,
+  Map
+  \Big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)  
+  \,
+  \,.
+$$
+
+We now discuss what this morphism does on [[homotopy groups]].. 
+
+\medskip
 
 \begin{lemma}
   Under the truncation assumption (eq:GammaIsNTruncated),
@@ -587,7 +626,7 @@ $$
   \,.
 $$
 
-(...)
+
 
 
 
@@ -607,7 +646,7 @@ Review:
 * Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXivL:1412.8187](https://arxiv.org/abs/1412.8187))
 
 
-Discussion for the [[7-sphere]] with application to [[near horizon geometries]] of [[M2-brane]]:
+Discussion for the [[7-sphere]] with application to [[near horizon geometries]] of [[M2-brane]] ([[AdS/CFT duality|AdS/CFT dual]] to the [[ABJM model]]):
 
 * {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
