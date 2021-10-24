@@ -100,7 +100,7 @@ $$
    \,.
 $$
 
-=---
+=--
 
 Notice that 
 
@@ -359,6 +359,9 @@ The _Tychonoff topology_ is named after [[A. N. Tychonoff]].
 
 [[!redirects product topological spaces]]
 
+[[!redirects topological product space]]
+[[!redirects topological product spaces]]
+
 [[!redirects product space]]
 [[!redirects product spaces]]
 
@@ -406,4 +409,6 @@ The _Tychonoff topology_ is named after [[A. N. Tychonoff]].
 
 [[!redirects product topology]]
 [[!redirects product topologies]]
+
+
 
