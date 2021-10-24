@@ -110,14 +110,15 @@ for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical s
 
 Moreover, let $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] is a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]].
 
-$$
+\[
+  \label{GammaIsNTruncated}
   \tau_n Shp(\Gamma) \,\simeq\, Shp(\Gamma)
   \;\;\;
   \in
   \;
   Grp_\infty
   \,.
-$$
+\]
 
 This implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
 
@@ -182,7 +183,19 @@ for
 
 1. its associated [[D-topological space|D-]][[topological stack]] $\mathbf{B}\Gamma$.
 
-
+\begin{lemma}
+  Under the truncation assumption (eq:GammaIsNTruncated),
+  the canonical [[function]]
+  $$
+    Hom(G,\Gamma)_{/\sim_{conj}}
+    \overset{\phantom{----}}{\twoheadrightarrow}
+    \big(
+      \Gamma PrnBdl(TopSp)_{S^{n + 2}/G}
+    \big)_{/\sim_{iso}}
+  $$
+is a [[surjection]].
+\end{lemma}
+\begin{proof}
 According to (eq:UniqueGerbesOnNSphere), every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/G$ trivializes when [[pullback bundle|pulled back]] along the coprojection $q$ (eq:CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms). The corresponding [[Cech cohomology|Cech cocycle]] is a [[topological functor]]
 
 $$
@@ -197,7 +210,7 @@ $$
   \big)
 $$
 
-out of the [[action groupoid]] $S^{n+2} \times G \rightrightarros X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
+out of the [[action groupoid]] $S^{n+2} \times G \rightrightarrows X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
 
 \begin{tikzcd}
     {}
@@ -252,7 +265,331 @@ out of the [[action groupoid]] $S^{n+2} \times G \rightrightarros X$ of $G$ acti
     ]
 \end{tikzcd}
 
+Hence the operation of assigning [[Cech cohomology|Cech cocycles]] relative to the [[covering space]] by $S^{n+2}$ is an  
+[[equivalence of groupoids]] between the [[groupoid]] of $\Gamma$-principal bundles on $S^{n+2}/G$ and that of [[topological functors]] and [[continuous map|continuous]] [[natural transformations]] between the [[action groupoid]] and the [[delooping groupoid]]. But the [[homotopy class]] of the [[classifying space|classifying map]] of a principal bundle is represented by the [[topological realization]] of any of its [[Cech cohomology|Cech cocycles]], so that in the following [[commuting diagram]] the left and the composite function are [[bijections]]:
+
+\begin{tikzcd}[column sep=small]
+  \Gamma \mathrm{PrnBdl}(\mathrm{TopSp})_{ S^{n+2}/G }
+  \ar[r, "{\sim}"{yshift=-1pt}]
+  \ar[
+    rr,
+    rounded corners,
+    to path={
+      -- ([yshift=-11pt]\tikztostart.south)
+      -- node[below, yshift=1pt]{ \scalebox{.7}{$\sim$} }
+         ([yshift=-08pt]\tikztotarget.south)
+      -- (\tikztotarget.south)
+    }
+  ]
+  &
+  \tau_0
+  \,
+  \mathrm{TopFunc}
+  \Big(
+    \big(
+      S^{n+2} \times G \rightrightarrows S^{n+2}
+    \big)
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)
+  \ar[
+    r,
+    "\color{blue}\sim"{above, yshift=-1pt}
+  ]
+  &
+  \tau_0
+  \,
+  \mathrm{Maps}
+  \Big(
+    \mathrm{Shp}
+    \big(
+      S^{n+2} /\!/ G
+    \big)
+    ,\,
+    B \Gamma
+  \Big)
+\end{tikzcd}
+
+It follows by [[2-out-of-3]] that also the function on the right is a bijection: 
+\[
+  \label{CocyclesToClassifyingMapsIsBijection}
+  \tau_0
+  \,
+  \mathrm{TopFunc}
+  \Big(
+    \big(
+      S^{n+2} \times G \rightrightarrows S^{n+2}
+    \big)
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)
+  \xrightarrow{\;\; \sim \;\;}
+  \tau_0
+  \,
+  \mathrm{Maps}
+  \Big(
+    \mathrm{Shp}
+    \big(
+      S^{n+2} /\!/ G
+    \big)
+    ,\,
+    B \Gamma
+  \Big)
+\]
+
+Moreover, notice the following sequence of [[natural equivalences]] [[equivalence in an (infinity,1)-category|in]] [[Infinity-Grpd|$Grpd_\infty$]]:
+
+\[
+  \label{MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace}
+  \begin{array}{lll}
+    Maps
+    \big(
+      Shp(S^{n+2}/G)
+      ,\,
+      B \Gamma
+    \big)
+    & 
+    \;\simeq\;
+    Maps
+    \big(
+      Shp(S^{n+2} \sslash G)
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    &
+    \;\simeq\;
+    Maps
+    \big(
+      Shp(S^{n+2}) \sslash G
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    &
+    \;\simeq\;
+    Maps
+    \big(
+      \underset{\longrightarrow}{\lim}
+      \,
+      Shp(S^{n+2}) \times G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    & \;\simeq\;
+    \underset{\longleftarrow}{\lim}
+    \,
+    Maps
+    \big(
+      Shp(S^{n+2}) \times G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    & \;\simeq\;
+    \underset{\longleftarrow}{\lim}
+    \,
+    Maps
+    \big(
+      G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    &
+    \text{ by (eq:GammaIsNTruncated) }
+    \\
+    & \;\simeq\;
+    Maps
+    \big(
+      \underset{\longrightarrow}{\lim}
+      \,
+      G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    & \;\simeq\;
+    Maps
+    \big(
+      B G
+      ,\,
+      B \Gamma
+    \big)
+  \end{array}
+\]
+
+The composite of these bijections (eq:MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace) is that induced by pre-composition with 
+
+$$
+  S^{n+2} \xrightarrow{\; p \;} \ast
+  \;\;\;\;
+  \text{or}
+  \;\;\;\;
+  \ast \xrightarrow{\; i \;} S^{n+2}
+  \,.
+$$ 
+
+Now, by [[functor|functoriality]] of the [[nerve]]-operation followed by [[topological realization of simplicial topological spaces|topological realization]], the following [[commuting diagram|diagram commutes]]:
+
+\begin{tikzcd}[column sep=small]
+  {}
+  &[60pt]
+  \tau_0
+  \,
+  \mathrm{TopFunc}
+  \Big(
+    \big(
+      S^{n+2} \times G \rightrightarrows S^{n+2}
+    \big)
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)
+  \ar[
+    r,
+    "\sim"{above}
+  ]
+  \ar[d, hook, "{ i^\ast }"{left}]
+  &
+  \tau_0
+  \,
+  \mathrm{Maps}
+  \Big(
+    \mathrm{Shp}
+    \big(
+      S^{n+2} / G
+    \big)
+    ,\,
+    B \Gamma
+  \Big)
+  \ar[d, , "{ i^\ast }"{left}, "\sim"{sloped, xshift=-6pt, yshift=+4pt}]
+  &[150pt]
+  {}
+  \\
+  {}
+  &
+  \mathllap{
+    \mathrm{Hom}(G,\Gamma)_{/\sim_{\mathrm{conj}}}
+    \;\simeq\;\;
+  }
+  \tau_0
+  \,
+  \mathrm{TopFunc}
+  \Big(
+    \big(
+      G \rightrightarrows \ast
+    \big)
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)
+  \ar[d, ->>, "{ p^\ast }"{left}]
+  \ar[r, ->>]
+  &
+  \tau_0
+  \,
+  \mathrm{Maps}
+  \Big(
+    \ast /\!/ G
+    ,\,
+    B \Gamma
+  \Big)
+  \mathrlap{
+    \;\;\simeq\;
+    \tau_0
+    \,
+    \mathrm{Maps}
+    \Big(
+      B G
+      ,\,
+      B \Gamma
+    \Big)
+  }
+  \ar[
+    d, "{ p^\ast }"{left}, "\sim"{sloped, xshift=-6pt, yshift=+4pt}
+  ]
+  &
+  {}
+  \\
+  {}
+  &
+  \tau_0
+  \,
+  \mathrm{TopFunc}
+  \Big(
+    \big(
+      S^{n+2} \times G \rightrightarrows S^{n+2}
+    \big)
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)
+  \ar[
+    r,
+    "\sim"{above}
+  ]
+  &
+  \tau_0
+  \,
+  \mathrm{Maps}
+  \Big(
+    \mathrm{Shp}
+    \big(
+      S^{n+2} / G
+    \big)
+    ,\,
+    B \Gamma
+  \Big)
+  \mathrlap{
+     \;\;\simeq\;
+     \big(
+       \Gamma \mathrm{PrnBld}(\mathrm{TopSp})_{S^{n+2}/G}
+     \big)_{/\sim_{\mathrm{iso}}}
+  }
+  &
+  {}
+\end{tikzcd}
+
+Here
+
+* the top and bottm horizontal functions are bijections by (eq:CocyclesToClassifyingMapsIsBijection),
+
+* the right vertical functions are bijections by (eq:MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace).
+
+By commutativity of the total rectangle, 
+this implies that the left vertical functions exhibit a [[retraction]], as shown. With this, the commutativity of the two squares separately each implies that the middle horizontal function is a surjection, as shown.
+\end{proof}
+
+
+More generally, the analogous conclusion evidently still holds for $\Gamma$-principal bundles on the [[topological product space]] $S^{n+2}/G \times \Delta^k$ with the [[topological k-simplex]]
+
+$$
+  \Gamma PrnBdl(TopSp)_{S^{n+2}/G \times \Delta^k}
+  \;\;
+   \simeq
+  \;\;
+  TopFunc
+  \big(
+    S^{n+2} \times G \times \Delta^k
+    \rightrightarrows
+    S^{n+2} \times \Delta^k
+    ,\,
+    \Gamma \rightrightarrows \ast
+  \big)
+  \,.
+$$
+
 (...)
+
+
 
 
 ## Literature
