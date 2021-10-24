@@ -97,9 +97,9 @@ Let $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$ be a [[finite group]
 
 \[
   \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
-  S^n
+  S^{n+2}
   \overset{\; q \;}{\twoheadrightarrow}
-  S^n/G
+  S^{n+2}/G
   \;\;\;
   \in
   \;
@@ -176,12 +176,81 @@ $$
   }
 $$
 
-for the [[delooping groupoid]] of $\Gamma$, regarded as a [[topological groupoid]], and for its associated [[D-topological space|D-]][[topological stack]].
+for 
+
+1. the [[delooping groupoid]] of $\Gamma$, regarded as a [[topological groupoid]] $\Gamma \rightrightarrows \ast$, 
+
+1. its associated [[D-topological space|D-]][[topological stack]] $\mathbf{B}\Gamma$.
 
 
 According to (eq:UniqueGerbesOnNSphere), every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/G$ trivializes when [[pullback bundle|pulled back]] along the coprojection $q$ (eq:CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms). The corresponding [[Cech cohomology|Cech cocycle]] is a [[topological functor]]
 
-out of the [[action groupoid]] $S^n \times G \rightrightarros X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
+$$
+  \big(
+    S^{n+2} \times G \rightrightarrows S^{n+2}
+  \big)
+  \xrightarrow{\;\; 
+    c_1 \rightrightarrows \ast 
+  \;\;}
+  \big(
+    \Gamma \rightrightarrows \ast
+  \big)
+$$
+
+out of the [[action groupoid]] $S^{n+2} \times G \rightrightarros X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
+
+\begin{tikzcd}
+    {}
+    \ar[d,-, dotted]
+    &&
+    {}
+    \ar[d,-, dotted]
+    \\
+    S^{n+2} \times  G \times G 
+    \ar[rr, "{c_2}"{above}]
+    \ar[d, shift left=12pt]
+    \ar[d]
+    \ar[d, shift right=12pt]
+    &&
+    \Gamma \times \Gamma
+    \ar[d, shift left=12pt]
+    \ar[d]
+    \ar[d, shift right=12pt]
+    \\
+    S^{n+2} \times G 
+    \ar[rr, "c_1"{above}]
+    \ar[d, shift left=6pt]
+    \ar[d, shift right=6pt]
+    \ar[u, shift right=6pt]
+    \ar[u, shift left=6pt]
+    &&
+    \Gamma
+    \ar[d, shift left=6pt]
+    \ar[d, shift right=6pt]
+    \ar[u, shift right=6pt]
+    \ar[u, shift left=6pt]
+    \\
+    S^{n+2}
+    \ar[rr, "{ }"{below, name=s, pos=.4}]
+    \ar[d, ->>, "{ }"{right, name=t, pos=.7 }]
+    \ar[u]
+    &&
+    \ast
+    \ar[u]
+    \ar[d, ->>]
+    \\
+    S^{n+2}/G
+    \ar[rr, "c"{below}]
+    &&
+    \mathbf{B}\Gamma
+    %
+    \ar[
+      from=s,
+      to=t,
+      Rightarrow,
+      "\sim"{sloped, below}
+    ]
+\end{tikzcd}
 
 (...)
 
