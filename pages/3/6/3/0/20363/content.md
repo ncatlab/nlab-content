@@ -22,6 +22,11 @@
 Condensed sets are basic objects in [[condensed mathematics]], whose aim is to provide a convenient setting
 in the framework for working with [[algebra|algebraic]] objects that are equipped with sort of a [[topological space|topology]]. A related alternative is provided by [[pyknotic sets]].
 
+> Topological spaces formalize the idea of spaces with a notion of "nearness" of points. However, they fail to handle the idea of "points that are infinitely near, but distinct" in a useful way. Condensed sets handle this idea in a useful way. ([Scholze 21](#Scholze21))
+
+For instance, $\mathbb{R}/\mathbb{Q}$ and $\ell^2(\mathbb{N})/\ell^1(\mathbb{N})$ are indiscrete as topological spaces but retain structure as condensed sets.
+
+
 ## Definition
 
 
@@ -108,6 +113,7 @@ structures, but in this case, the underlying set is not $T(*)$.
 * {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
 * {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
+* {#Scholze21} [[Peter Scholze]], Math Stack Exchange [answer](https://math.stackexchange.com/a/4199337/368788).
 
 
 [[!redirects condensed sets]]
