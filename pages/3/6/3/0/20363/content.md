@@ -26,6 +26,8 @@ in the framework for working with [[algebra|algebraic]] objects that are equippe
 
 For instance, $\mathbb{R}/\mathbb{Q}$ and $\ell^2(\mathbb{N})/\ell^1(\mathbb{N})$ are indiscrete as topological spaces but retain structure as condensed sets.
 
+Condensed sets contain information about limits of images of any set, $A$, along the [[ultrafilters]] of $A$.
+
 
 ## Definition
 
