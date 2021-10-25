@@ -123,12 +123,14 @@ A particularly illuminating instance of Example \ref{CopoweringOfSmallCategories
     $$
         (x\otimes a)(y\otimes b)
         =
-        (x,y)\otimes(a b),
+        (x,y)\otimes(a,b),
     $$
     for each $x,y\in X$ and each $a,b\in A$;
   - The unit given by
     $$1_{X\otimes A}=x\otimes 1_A,$$
     which is independent of $x$, as $x\otimes 1_A=y\otimes 1_A$.
+
+  Explicitly, $\coprod_{x\in X}A$ is isomorphic to the above monoid via the isomorphism sending $(x_{1},\ldots,x_{n})\otimes(a_{1},\ldots,a_{n})$ to the element of $\coprod_{x\in X}A$ given by the word $a^{(x_{1})}_{1}\cdots a^{(x_{n})}_{n}$, where $a^{(x_{i})}_{i}$ is the element $a_{i}$ in the $x_{i}$-th copy of $A$ in the expression $\coprod_{x\in X}A$.
 
   The [[universal property]] of the copower $X\otimes A$ states that a morphism of monoids from $X\otimes A$ to a monoid $B$ is the same data as a "left-bilinear" map of sets $f\colon A\times X\to B$, satisfying
   $$
