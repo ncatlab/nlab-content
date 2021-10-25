@@ -634,11 +634,137 @@ $$
   \,.
 $$
 
-If we denote the principal bundle concretely associated with a cocycle $c$ by $P_c$, then
+In these terms we may denote these 1-morphisms like this:
 
-(...)
+\begin{tikzcd}[row sep=8pt, column sep=30pt]
+    {c(0)}
+    \ar[r, "{\gamma(0)}"{description}]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma(0)}c(0)}
+    \ar[d,-, dotted]
+    \\
+    {c(t)}
+    \ar[r, "{\gamma(t)}"{description}]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma(t)}c(t)}
+    \ar[d,-, dotted]
+    \\
+    {c(1)}
+    \ar[r, "{\gamma(1)}"{description}]
+    &
+    {\mathrm{Ad}_{\gamma(1)}c(1)}
+\end{tikzcd}
 
+Then a pair of composable 1-morphisms looks like this:
 
+\begin{tikzcd}[row sep=8pt, column sep=30pt]
+    {c(0)}
+    \ar[r, "{\gamma(0)}"{description}]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma(0)}c(0)}
+    \ar[d,-, dotted]
+    \\
+    {c(t)}
+    \ar[r, "{\gamma(t)}"{description}]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma(t)}c(t)}
+    \ar[d,-, dotted]
+    \\
+    {c(1)}
+    \ar[r, "{\gamma(1)}"{description}]
+    &
+    {\mathrm{Ad}_{\gamma(1)}c(1)}
+    \ar[r,-, shift left=1pt]
+    \ar[r,-, shift right=1pt]
+    &[-24pt]
+    {c'(0)}
+    \ar[r, "{\gamma'(0)}"{description}]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma'(0)}c'(0)}
+    \ar[d,-, dotted]
+    \\
+    &&
+    {c'(t')}
+    \ar[r, "{\gamma'(t')}"{description}]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma'(t')}c'(t')}
+    \ar[d,-, dotted]
+    \\
+    &&
+    {c'(1)}
+    \ar[r, "{\gamma'(1)}"{description}]
+    &
+    {\mathrm{Ad}_{\gamma'(1)}c'(1)}    
+\end{tikzcd}
+
+For any such we may form the following composable pair of morphisms of cocycles over $S^{n+2}/G \times ( [0,1] \underset{\ast}{\sqcup} [0,1]  )$
+
+\begin{tikzcd}
+    {c(0)}
+    \ar[r, "{\gamma(0)}"]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma(0)}c(0)}
+    \ar[d,-, dotted]
+    \ar[rr, "\gamma'(0)"]
+    &[-20pt]
+    &
+    {\mathrm{Ad}_{\gamma(0)\gamma'(0)}c(0)}
+    \ar[d, -, dotted]
+    \\
+    {c(t)}
+    \ar[r, "{\gamma(t)}"]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma(t)}c(t)}
+    \ar[d,-, dotted]
+    \ar[rr, "\gamma'(0)"]
+    &&
+    {\mathrm{Ad}_{\gamma(t) \cdot \gamma'(0)}c(t)}    
+    \ar[d,-,dotted]
+    \\
+    {c(1)}
+    \ar[r, "{\gamma(1)}"]
+    \ar[d, -, dotted]
+    &
+    {\mathrm{Ad}_{\gamma(1)}c(1)}
+    \ar[r,-, shift left=1pt]
+    \ar[r,-, shift right=1pt]
+    &
+    {c'(0)}
+    \ar[r, "{\gamma'(0)}"]
+    \ar[d, -, dotted]
+    &
+    {\mathrm{Ad}_{\gamma'(0)}c'(0)}
+    \ar[d, -, dotted]
+    \\
+    {\mathrm{Ad}_{\gamma(1)^{-1}}c'(t') }
+    \ar[rr, "{\gamma(1)}"]
+    \ar[d,-, dotted]
+    &&
+    {c'(t)}
+    \ar[r, "{\gamma'(t')}"]
+    \ar[d,-, dotted]
+    &
+    {\mathrm{Ad}_{\gamma'(t')}c'(t')}
+    \ar[d,-, dotted]
+    \\
+    {\mathrm{Ad}_{\gamma(1)^{-1}}c'(1) }
+    \ar[rr, "{\gamma(1)}"]
+    &&
+    {c'(1)}
+    \ar[r, "{\gamma'(1)}"]
+    &
+    {\mathrm{Ad}_{\gamma'(1)}c'(0)}
+\end{tikzcd}
+
+which when pulled back along the canonical topological horn filler retraction $\Delta^2 \to \Lambda^2_{1}$ yields a composite 2-cell.
 \end{example}
 
 \begin{definition}
