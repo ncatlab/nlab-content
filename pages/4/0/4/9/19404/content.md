@@ -1511,6 +1511,217 @@ $$
 Hence the 2-morphism (eq:A2MorphismInShapeOfMappingStackWithDegeenrateTwoFace) exhibits the claimed homotopy relative endpoints.
 \end{proof}
 
+\begin{lemma}\label{ComparisonMorphismIsInjectiveOnConnectedComponents}
+The comparison morphism (Def. \ref{ComparisonMorphismBetweenShapesOfMappingStacks}) is [[injective]] on [[connected components]].
+\end{lemma}
+\begin{proof}
+Given a 1-morphism
+$$
+  c(-)
+    \xrightarrow{\;\gamma(-)\;}
+  c'(-)
+$$
+such that both $c(0)$ and $c'(1)$ are constant along $S^{n+2}$
+$$
+  \underset{x \in S^{n+2}}{\forall}
+  \big(
+    c(0)(x,g) \;=\; c(0)(\ast,g)
+    \,,
+    \;\;\;\;
+    c'(1)(x,g) \;=\; c'(1)(\ast,g)   
+  \big)
+$$
+we need to show that there is a 1-morphism between $c(0)$ and $c'(1)$ all whose components are constant along $S^{n+2}$.
+
+Now by Lemma \ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivalentlyHaveConstantUnderlyingBundle} we know that there is a 1-morphism $c(-) \xrightarrow{\gamma(-)} c'(-)$ such that $c$ is constant along $[0,1] \times S^{n+2}$, i.e. such that
+$$  
+  \underset{
+    (t,x) \,\in\, [0,1] \times S^{n+2}
+  }{\forall}
+  \;\;
+  c(t)(x,g) \,=\, c(0)(\ast,g)
+  \,.
+$$
+
+But the remaining data is then all in $\gamma(-)$. Hence restricting $\gamma$ to $\ast \,\in\, S^{n+2}$ (and then re-extending it as a constant function on this value) yields a 1-morphism of the desired form.
+\end{proof}
+
+\begin{lemma}\label{ComparisonMorphismIsSurjectiveOnConnectedComponents}
+The comparison morphism (Def. \ref{ComparisonMorphismBetweenShapesOfMappingStacks}) is [[surjective]] on [[connected components]].
+\end{lemma}
+\begin{proof}
+  We need to show that every cocycle $c(0)$ there exists a cocycle $c'(1)$ which is constant along $S^{n+2}$ and a 1-morphism $c(-) \xrightarrow{\gamma(-)} c'(-)$. But by Lemma \ref{ConjugacyClassesOfGroupHomomorphismsSurjectOnPrincipalBundlesOverSphericalSpaceForm} there is even a Cech coboundary $\gamma(0)$ with $c'(1) = c(0)^{\gamma(0)}$. Hence taking $c(t) \coloneqq c(0)$ and $\gamma(t) \coloneqq \gamma(1)$ gives the required morphism.
+\end{proof}
+
+\begin{proposition}\label{ComparisonMorphismBijectiveOnConnectedComponents}
+The comparison morphism (Def. \ref{ComparisonMorphismBetweenShapesOfMappingStacks}) is [[bijective]] on [[connected components]]:
+$$
+  \pi_0
+  \big(
+    \esh \, Map(p/\!\!/G,\,\mathbf{B}\Gamma)
+  \big)
+  \;\;
+  \colon
+  \;\;
+  \pi_0
+  \bigg(
+  \esh
+  \,
+  Map
+  \Big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)
+  \bigg)
+  \xrightarrow
+  {\;\;\;
+     \sim
+  \;\;\;}
+  \pi_0
+  \bigg(
+  \esh
+  \,
+  Map
+  \Big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)  
+  \bigg)
+$$
+\end{proposition}
+\begin{proof}
+  By Lemma \ref{ComparisonMorphismIsInjectiveOnConnectedComponents} it is injective, and by Lemma \ref{ComparisonMorphismIsSurjectiveOnConnectedComponents} it is surjective.
+\end{proof}
+
+\begin{lemma}
+\label{ComparisonMorphisnInjectiveOnFundamentalGroups}
+The comparison morphism (Def. \ref{ComparisonMorphismBetweenShapesOfMappingStacks}) is [[injective]] on [[fundamental groups]].
+\end{lemma}
+\begin{proof}
+  Since both simplicial sets have all 2-horn fillers, by Lem. \ref{ThePresentationsForShapesOfMappingStacksAreKanComplexes}, it is sufficient to show for $c(-) \xrightarrow{\gamma(-)} c(-)$ a 1-morphism with $c(0) = c(1)$ and all data constant along $S^{n+2}$ that if this is homotopic relative boundary to the identity on $c(0)$ by any 2-cell, then it is so by a 2-cell all whose data is constant along $S^{n+2}$.
+
+Idea: As in Lem. \ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivalentlyHaveConstantUnderlyingBundle} we find that the given homotopy is itself equivalent to one whose underlying cocycle is constant along $S^{n+2}$. The remaining data is all in $\gamma(-)$, so that restricting that to $\ast \in S^{n+2}$ (and then re-extending as a constant function) yields the desired homotopy.
+\end{proof}
+
+\begin{lemma}\label{DeformationOfCechCoboundaryGivesConcordanceOfCocycles}
+  Let $c(-) \xrightarrow{\gamma(-)} c(-)^{\gamma(-)}$ be a 1-morphism such that the cocycle $c(1)$ is constant along $S^{n+2}$. Then for every continuous function
+
+$$
+  \widehat{\gamma} \,\colon\,
+  [0,1] \times [0,1] \times S^{n+2} \xrightarrow{\;\;} \Gamma
+$$
+
+with 
+
+$$
+  \widehat{\gamma}(0) \,=\, \gamma
+  \,,
+  \;\;\;
+  \widehat{\gamma}(s)(1,\ast) \,=\, \gamma(1,\ast)
+$$
+
+this 1-morphism is homotopic relative boundary to 
+
+$$
+  c(-)
+  \xrightarrow{ \widehat{\gamma}(1)(-) }
+  c(-)^{ \widehat{\gamma}(1)(-) }
+  \,.
+$$
+\end{lemma}
+\begn{proof}
+  There is the obvious (...) way to turn $\widehat \gamma$ into 
+a 2-morphism of the shape of of the simplicial square whose two vertical 1-faces are degenerate.
+\end{proof}
+
+\begin{lemma}
+\label{ComparisonMorphismSurjectiveOnFundamentalGroups}
+The comparison morphism (Def. \ref{ComparisonMorphismBetweenShapesOfMappingStacks}) is [[surjective]] on [[fundamental groups]].
+\end{lemma}
+\begin{proof}
+  Since both simplicial sets have all 2-horn fillers, by Lem. \ref{ThePresentationsForShapesOfMappingStacksAreKanComplexes}, it is sufficient to show for $c(-) \xrightarrow{\gamma(-)} c(-)$ any 1-morphism with $c(0) = c(1)$ that it is homotopic relative boundary to one all whose data is constant along $S^{n+2}$, and by Lem. \ref{ComparisonMorphismIsSurjectiveOnConnectedComponents} it is sufficient to assume that the cocycle $c(0)$ is already constant along $S^{n+2}$.
+
+Hence considering this case, Prop. \ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivalentlyHaveConstantUnderlyingBundle} give a homotopy relative boundary to a 1-morphism whose underlying cocycle $c(-)$ is constant along $S^{n+2}$. The remaining data is
+
+$$
+  \gamma(-)
+  \;\colon\;
+  [0,1] \times S^{n+2} \xrightarrow \Gamma
+  \,.
+$$
+
+or equivalently
+
+$$
+  \tilde{\gamma}(-)
+  \;\colon\;
+  S^{n+2} \xrightarrow Maps\big([0,1],  \Gamma\big)
+  \,.
+$$
+
+We need to show that any such map is pointed-homotopic to the map constant on the basepoint $t \mapsto \gamma(t)(\ast)$. By Lemma \ref{DeformationOfCechCoboundaryGivesConcordanceOfCocycles} this is the case if
+
+$$
+  \pi_{n+2} 
+  \Big(
+     Maps\big([0,1],  \Gamma\big)
+  \Big)
+  \;\simeq\;
+  \pi_{n+2} 
+  (
+     \Gamma
+  )
+  \;\overset{!}{=}\;
+  \ast
+$$
+
+and this holds by the truncation assumption (eq:GammaIsNTruncated).
+\end{proof}
+
+\begin{proposition}\label{ComparisonMorphismIsoOnFundamentalGroups}
+The comparison morphism (Def. \ref{ComparisonMorphismBetweenShapesOfMappingStacks}) is an [[isomorphism]] on [[fundamental groups]] (for any basepoint):
+$$
+  \pi_1
+  \big(
+    \esh \, Map(p/\!\!/G,\,\mathbf{B}\Gamma)
+  \big)
+  \;\;
+  \colon
+  \;\;
+  \pi_1
+  \bigg(
+  \esh
+  \,
+  Map
+  \Big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)
+  \bigg)
+  \xrightarrow
+  {\;\;\;
+     \sim
+  \;\;\;}
+  \pi_1
+  \bigg(
+  \esh
+  \,
+  Map
+  \Big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)  
+  \bigg)
+$$
+\end{proposition}
+\begin{proof}
+  By Lemma \ref{ComparisonMorphisnInjectiveOnFundamentalGroups} it is injective, and by Lemma \ref{ComparisonMorphismSurjectiveOnFundamentalGroups} it is surjective.
+\end{proof}
+
 
 (...)
 
