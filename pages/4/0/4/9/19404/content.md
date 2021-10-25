@@ -98,38 +98,59 @@ We discuss the [[concordance]] [[infinity-groupoid|$\infty$-groupoid]] of $\Gamm
 
 In more detail:
 
-Let $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] is a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]] for some $n \in \mathbb{N}$:
+\begin{definition}
+\label{AssumptionForHigherGerbesOnSphericalSpaceForms}
+**Assumption.** 
+\linebreak
+In the following, let
 
-\[
-  \label{GammaIsNTruncated}
-  \tau_n Shp(\Gamma) \,\simeq\, Shp(\Gamma)
-  \;\;\;
-  \in
-  \;
-  Grp_\infty
-  \,.
-\]
+1. $n \in \mathbb{N}$ be a [[natural number]],
 
-(For example, $\Gamma = $ [[U(1)]] for any $n \geq 1$, or $\Gamma \,=\,$ [[PU(ℋ)]] for any $n \geq 2$.)
+1. $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] is a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]] for some $n \in \mathbb{N}$:
 
-Moreover, let  $S^{n+2}/G$ be a [[spherical space form]] of [[dimension of a manifold|dimension]] $n+2$, hence the [[topological quotient space|quotient space]] of the [[n-sphere|$(n+2)$-sphere]] $S^{n+2}$ 
+   \[
+     \label{GammaIsNTruncated}
+     \tau_n Shp(\Gamma) \,\simeq\, Shp(\Gamma)
+     \;\;\;
+     \in
+     \;
+     Grp_\infty
+     \,.
+   \]
+
+1. $S^{n+2}/G$ be a [[spherical space form]] of [[dimension of a manifold|dimension]] $n+2$, hence the [[topological quotient space|quotient space]] of the [[n-sphere|$(n+2)$-sphere]] $S^{n+2}$ 
 by a [[free action]] of a [[finite group]]
-$G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$. We write
+$G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$. 
 
-\[
-  \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
-  S^{n+2}
-  \overset{\phantom{--} q \phantom{--}}{\twoheadrightarrow}
-  S^{n+2}/G
-  \;\;\;
-  \in
-  \;
-  TopSp
-\]
+   We write
 
-for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical space form]].
+   \[
+     \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
+     S^{n+2}
+     \overset{\phantom{--} q \phantom{--}}{\twoheadrightarrow}
+     S^{n+2}/G
+     \;\;\;
+     \in
+     \;
+     TopSp
+   \]
 
+   for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical space form]].
 
+\end{definition}
+
+\begin{example}
+
+* The [[circle group]], $\Gamma = $ [[U(1)]], is [[homotopy n-type|n-truncated]] for $n \geq 1$, 
+
+* The [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], is [[homotopy n-type|n-truncated]] for $n \geq 2$.)
+
+Hence for both of these [[structure groups]], the 7-dimensional spherical space forms discussed [above](#7DSphericalSpaceFormsWithSpinStructure) satisfy the conditions of Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}.
+\end{example}
+
+\begin{definition}
+**([[topological groupoids]] and their underlying [[D-topological space|D-]][[topological stacks]])**
+\linebreak
 We will write:
 
 \[
@@ -154,33 +175,12 @@ We will write:
     &\mapsto&
     &&
     \mathbf{B}\Gamma
-  }
-\]
-
-for 
-
-1. the [[delooping groupoid]] of $\Gamma$, regarded as a [[topological groupoid]] $\Gamma \rightrightarrows \ast$, 
-
-1. its associated [[D-topological space|D-]][[topological stack]] $\mathbf{B}\Gamma$ regarded as an object in [[smooth infinity-groupoid|$SmthGrpd_\infty$]].
-
-Similarly we denote the [[topological groupoid|topological]] [[action groupoid]] of the given $G$-action on $S^{n+2}$, whose incarnation as a [[smooth stack]] is [[equivalence in an (infinity,1)-category|equivalent]] to the [[smooth manifold]] $S^{n+2}/G$, due to the condiiton that the $G$-action is [[free action|free]]:
-
-\[
-  \label{TheTopologicalActionGroupoid}
-  \array{
-    Grp(TopSp)
-    &
-    \xrightarrow{\; Dtoplg \;}
-    &
-    Grp(DiffSp)  
-    &
-    \xrightarrow{\;}
-    &
-    Grpd(SmthGrp_{\infty})
-    &
-    \xrightarrow{\;}
-    &
-    SmthGrp_\infty
+    \\
+    G \rightrightarrows \ast
+    &&
+    &\mapsto&
+    &&
+    \mathbf{B}G
     \\
     S^{n+2} \times G \rightrightarrows S^{n+2}
     &&
@@ -190,17 +190,32 @@ Similarly we denote the [[topological groupoid|topological]] [[action groupoid]]
   }
 \]
 
+for
+
+1. the [[topological groupoids]] which are
+
+   1. the [[delooping groupoids]] of $G$ and of $\Gamma$, respectively,
+
+   1. the [[action groupoid]] $S^{n+2} \times G \rightrightarrows S^{n+2}$ of the given $G$-[[group action|action]] on $S^{n+2}$
+
+1. their associated [[D-topological space|D-]][[topological stacks]], regarded as objects in [[smooth infinity-groupoid|$SmthGrpd_\infty$]].
+
+\end{definition}
+Notice, as indicated in the last row of (eq:TheTopologicalDeloopingGroupoidOfGamma), that the [[smooth stack]] correspinding to the [[action groupoid]] of $G$ acting on $S^{n+2}$ is [[equivalence in an (infinity,1)-category|equivalent]] to the quotient [[smooth manifold]] $S^{n+2}/G$ itself, due to the condiiton that the $G$-action is [[free action|free]].
+
+
 
 \begin{lemma}
 \label{CanonicalCechGroupoidOfGammaPrincipalBundlesOnSphericalSpaceForm}
 **(canonical [[Cech groupoid]] of $\Gamma$-[[principal bundles]] on [[spherical space form]])**
 \linebreak
   Under the truncation condition (eq:GammaIsNTruncated), 
-  the [[groupoid]] of $\Gamma$-[[principal bundles]]  over $S^{n+2}/G$ ([[internalization|internal to]] [[TopSp]]) is [[equivalence of groupoids]] to the groupoid of [[topological functors]] out of the [[action groupoid]] (eq:TheTopologicalActionGroupoid) into the [[delooping groupoid]] (eq:TheTopologicalDeloopingGroupoidOfGamma), with [[continuous functions|continuous]] [[natural transformations]] between them:
+  the [[groupoid]] of $\Gamma$-[[principal bundles]]  over $S^{n+2}/G$ ([[internalization|internal to]] [[TopSp]]) is [[equivalence of groupoids|equivalent]] to the groupoid of [[topological functors]] out of the [[action groupoid]] (eq:TheTopologicalActionGroupoid) into the [[delooping groupoid]] (eq:TheTopologicalDeloopingGroupoidOfGamma), with [[continuous functions|continuous]] [[natural transformations]] between them:
 $$
   \Gamma PrnBdl(TopSp)_{S^{n+2}/G}
   \;\;
-  \timeq
+  \simeq
+  \;\;
   TopFunc
   \big(
     ( S^{n+2} \times G \rightrightarrows S^{n+2} )
@@ -213,7 +228,8 @@ Moreover, the analogous statement holds for bundles over the [[product topologic
 $$
   \Gamma PrnBdl(TopSp)_{S^{n+2}/G \times \Delta^k}
   \;\;
-  \timeq
+  \simeq
+  \;\;
   TopFunc
   \big(
     ( S^{n+2} \times G \rightrightarrows S^{n+2} )
@@ -228,21 +244,26 @@ $$
 The $n$-truncation condition (eq:GammaIsNTruncated) on $\Gamma$ implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
 
 $$
-  \tau_{n+1} Shp(\Gamma) \,\simeq\, Shp(\Gamma)
+  \tau_{n+1} B \Gamma \,\simeq\, B \Gamma
   \;\;\;
   \in
   \;
   Grp_\infty
 $$
 
-and hence that every $\Gamma$-principal bundle on $S^{n+2}$ is [[isomorphism|isomorphic]] to the [[trivial bundle]]:
+and hence, by [[classifying space|classifying theory]], that every $\Gamma$-principal bundle on $S^{n+2}$ is [[isomorphism|isomorphic]] to the [[trivial bundle]]:
 
 \[
   \label{UniqueGerbesOnNSphere}
-  \tau_0 \Gamma PrnBdl(TopSp)_{S^{n+2}}
+  \tau_0 
+  \big(
+     \Gamma PrnBdl(TopSp)_{S^{n+2}}
+  \big)
   \;\;
   \simeq
   \;\;
+  \tau_0
+  \,
   Maps
   \big(
     Shp(S^{n+2}) 
@@ -260,17 +281,21 @@ Therefore, every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/
 
 $$
   \big(
-    S^{n+2} \times G \rightrightarrows S^{n+2}
+    S^{n+2} \times G^{op} \rightrightarrows S^{n+2}
   \big)
   \xrightarrow{\;\; 
-    c_1 \rightrightarrows \ast 
+    (c_1 \rightrightarrows \ast) 
   \;\;}
+  \big(
+    \ast \times \Gamma^{op} \rightrightarrows \ast
+  \big)
+  =
   \big(
     \Gamma \rightrightarrows \ast
   \big)
 $$
 
-out of the [[action groupoid]] $S^{n+2} \times G \rightrightarrows X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
+out of the [[action groupoid]] $S^{n+2} \times G^{op} \rightrightarrows X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
 
 \begin{tikzcd}
     {}
@@ -324,6 +349,7 @@ out of the [[action groupoid]] $S^{n+2} \times G \rightrightarrows X$ of $G$ act
       "\sim"{sloped, below}
     ]
 \end{tikzcd}
+With every $\Gamma$-principal bundle trivialized over the covering by $S^{n+2}$ this way, morphisms between principal bundles correspond to Cech [[coboundaries]] between these Cech cocycles, which are canonically identified with continuous [[natural transformations]] between these functors $(c_1 \rightrightarrows \ast)$.
 \end{proof}
 
 \begin{definition}
@@ -543,9 +569,11 @@ and the [[shape modality|cohesive shape]] of the [[mapping stack]] from the [[sp
   \right)
 \]
 
-In both cases we are showing on the right the canonical [[simplicial sets]] which present these $\infty$-groupoids, obtained by 
+In both cases we are showing on the right the canonical [[simplicial sets]] which present these $\infty$-groupoids, obtained by using
 
-1. using the expression of [[shape via cohesive path ∞-groupoid|snooth shape via the smooth path $\infty$-groupoid]] (by [this Prop.](shape+via+cohesive+path+∞-groupoid#SmoothShapeModelityGivenBySmoothPathInfinityGroupoid)),
+1. the expression of [[shape via cohesive path ∞-groupoid|snooth shape via the smooth path $\infty$-groupoid]] (by [this Prop.](shape+via+cohesive+path+∞-groupoid#SmoothShapeModelityGivenBySmoothPathInfinityGroupoid)),
+
+1. the canonical [[Cech groupoid]]-presentation of groupoids of principal bundles, from Lem. \ref{CanonicalCechGroupoidOfGammaPrincipalBundlesOnSphericalSpaceForm},
 
 1. the fact that the [[simplex category|simplicial]] [[homotopy colimit]] of $\infty$-groupoids presented by [[simplicial sets]] is given by the [[diagonal of a bisimplicial set|diagonal]] of the corresponding [[bisimplicial set]] (by [this Prop.](bisimplicial+set#DiagonalAsSimplicialHomotopyColimit)).
 
@@ -587,7 +615,29 @@ from a bundle $P_0\vert_0$ to a bundle $P_1\vert_1$ over $S^{n+2}/G$ is a diagra
     \ar[l, hook']
 \end{tikzcd}
 
-More specifically, all bundles here are identified with their [[Cech cohomology|Cech cocyles]]
+More specifically, by the use of Lem. \ref{CanonicalCechGroupoidOfGammaPrincipalBundlesOnSphericalSpaceForm} all bundles here are identified with their [[Cech cohomology|Cech cocyles]] $\big(  (S^{n+2} \times G \rightrightarrows S^{n+2}) \xrightarrow{\;c_1\;} (\Gamma \rightrightarrows \ast)\big)$ and all bundle morphisms with [[Cech cohomology|Cech]] [[coboundaries]], which are [[continuous functions]]
+
+$$
+  c_1 \xrightarrow{\; \gamma \;} c'_1
+  \;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;
+  \gamma \colon S^{n+2} \xrightarrow{cts} \Gamma
+  \,,
+  \underset{x \in S^{n+2}}{\forall}
+  \,
+  c'_1( x,\, g ) 
+    \;=\; 
+  Ad_{\gamma(x)} c_1(x,g)
+  \,\coloneqq\,
+  \gamma(x)^{-1} \cdot c_1( x, \, g ) \cdot \gamma(x)
+  \,.
+$$
+
+If we denote the principal bundle concretely associated with a cocycle $c$ by $P_c$, then
+
+(...)
+
 
 \end{example}
 
