@@ -52,6 +52,11 @@ On [[spectral algebraic geometry]]:
 * [[Charles Rezk]], *Spectral algebraic geometry* ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf))
 
 
+On [[operad]] and [[algebra over an operad]]:
+
+* [[Michael Mandell]], *Operads and Operadic Algebras in Homotopy Theory  ([arxiv.1912.13047](https://arxiv.org/abs/1912.13047))
+
+
 
 (...)
 
