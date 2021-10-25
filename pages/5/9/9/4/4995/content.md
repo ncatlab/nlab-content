@@ -101,7 +101,7 @@ An [[(∞,1)-topos]] $\mathbf{H}$ is **cohesive** if
 
 As always in [[topos theory]] and [[higher topos theory]], such definitions can be made sense of over any _base_ . Here: over any [[base (∞,1)-topos]]. For instance, it has been proposed that [[condensed mathematics]] be viewed with respect to cohesion over the base, $Sh_\infty(ProFinSet)$, $\infty$-sheaves over the [[pro-étale site]] of a point. Similarly [[differential algebraic K-theory]] may be understood via cohesion over a base of ∞-stacks over a site of arithmetic schemes (see there).
 
-Over the canonical base [[∞Grpd]] of [[∞-groupoid]]s, the definition of a cohesive $(\infty,1)$-topos is equivalently the following:
+Over the canonical base [[∞Grpd]] of [[∞-groupoids]], the definition of a cohesive $(\infty,1)$-topos is equivalently the following:
 
 the [[global section]] [[(∞,1)-geometric morphism]] $\Gamma : \mathbf{H} \to \infty Grpd$ lifts to an [[adjoint quadruple]] of [[adjoint (∞,1)-functor]]s
    
@@ -1292,6 +1292,12 @@ see _[[differential cohesion and idelic structure]]_
 The above examples relativize to [arbitrary bases](#OverArbitraryBases).
 
 For instance [[smooth infinity-groupoid|smooth cohesion]] over an [[(∞,1)-topos]] over a suitable [[site]] of [[schemes]] is the natural context for [[differential algebraic K-theory]]. See there for more.
+
+### Condensed cohesion
+
+See at *[[condensed cohesion]]*.
+
+
 
 ## Applications
 
