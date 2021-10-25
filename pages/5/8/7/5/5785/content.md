@@ -107,10 +107,11 @@ The general notion of base toposes is the topic of section B3 of
 
 An internal description of base toposes in the context of [[modal logic]] appears in
 
-* [[Steve Awodey]], Kohei Kishida, _Topology and modality: the topological interpretation of first-order modal logic_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/FoS4.phil.pdf))
-  {#AwodeyKishida}
+* {#AwodeyKishida} [[Steve Awodey]], Kohei Kishida, _Topology and modality: the topological interpretation of first-order modal logic_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/FoS4.phil.pdf))
+  
 
-[[!redirects bases toposes]]
+[[!redirects base toposes]]
 
 [[!redirects topos over a base]]
 [[!redirects toposes over a base]]
+
