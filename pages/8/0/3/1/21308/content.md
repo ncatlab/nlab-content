@@ -33,8 +33,12 @@
 ## Related entries
 
 * [[condensed set]]
+
 * [[bornological topos]]
+
 * [[pyknotic set]]
+
+* [[condensed cohesion]]
 
 ## References
 
