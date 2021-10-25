@@ -110,6 +110,8 @@ structures, but in this case, the underlying set is not $T(*)$.
 
 * [[condensed mathematics]]
 
+* [[condensed cohesion]]
+
 ## References
 
 * {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
