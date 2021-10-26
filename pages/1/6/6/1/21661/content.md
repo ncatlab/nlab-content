@@ -101,6 +101,10 @@ Similar discussion in [[SemiSpin(32)]]-[[heterotic string theory]]:
 
 * Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, JHEP 05 (2018) 045 ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
 
+Discussion via [[machine learning]] of [[connection on a bundle|connections]] on heterotic line bundles over [[Calabi-Yau manifold|Calabi-Yau 3-folds]]:
+
+* [[Anthony Ashmore]], Rehan Deen, [[Yang-Hui He]], [[Burt Ovrut]], *Machine Learning Line Bundle Connections* ([arXiv:2110.12483](https://arxiv.org/abs/2110.12483))
+
 
 
 [[!redirects heterotic line bundle]]
