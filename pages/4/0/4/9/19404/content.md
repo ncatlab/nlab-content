@@ -106,7 +106,17 @@ In the following, let
 
 1. $n \in \mathbb{N}$ be a [[natural number]],
 
-1. $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] is a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]] for some $n \in \mathbb{N}$:
+1. $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] [[infinity-group|$\infty$-group]] $Shp(\Gamma) \,\in\, Grp\big( Grpd_\infty \big)$ is 
+
+   1. a [[braided infinity-group|braided]] in that its [[delooping]] still has [[infinity-group|$\infty$-group]]-structure itself
+
+      \[
+        \label{DeloopingOfShapeIsInfinityGroup}
+        B Shp(\Gamma) \,\in\, Grp\big( Grpd_\infty \big)
+        \,.
+      \]
+
+   1. a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]] for some $n \in \mathbb{N}$:
 
    \[
      \label{GammaIsNTruncated}
@@ -140,10 +150,11 @@ $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$.
 \end{definition}
 
 \begin{example}
+The archetypical examples of [[topological groups]] which satisfy Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms} are: 
 
-* The [[circle group]], $\Gamma = $ [[U(1)]], is [[homotopy n-type|n-truncated]] for $n \geq 1$, 
+1. The [[circle group]], $\Gamma = $ [[U(1)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},1)$, which is [[homotopy n-type|n-truncated]] for $n \geq 1$ and whose [[delooping]] is $K(\mathbb{Z},2)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]);
 
-* The [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], is [[homotopy n-type|n-truncated]] for $n \geq 2$.)
+1. the [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$,  which is [[homotopy n-type|n-truncated]] for $n \geq 2$ and whose [[delooping]] is $K(\mathbb{Z},3)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]).
 
 Hence for both of these [[structure groups]], the 7-dimensional spherical space forms discussed [above](#7DSphericalSpaceFormsWithSpinStructure) satisfy Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}.
 \end{example}
