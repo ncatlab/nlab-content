@@ -50,7 +50,7 @@ Consider the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of [[
   }
 \]
 
-(sometimes called the "[[global orbit category]]"), hence the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] of [[groupoids]] on the [[delooping groupoids]] of [[finite groups]] $G$, 
+(sometimes called the "[[global orbit category]]"), hence the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] of [[groupoids]] on the [[delooping groupoids]] of [[finite groups]] $G$.
 
 
 Then for $\mathbf{H}_{\subset}$ any [[base (infinity,1)-topos|base $\infty$-topos]] 
@@ -173,7 +173,7 @@ Now if $\mathbf{H}_{\subset}$ is itself [[cohesive (infinity,1)-topos|cohesive]]
 
 ### Singular cohesion
 
-From this is obtained, in particular, a pair of [[adjoint triples]] of [[adjoint modalities]] on $\mathbf{H} \,\coloneqq\, Glo(\mathbf{H}_{\smooth})$ which jointly reflect that its objects are [[geometric homotopy types]] whose geometric nature is "cohesive with [[orbi-singularities]]":
+From this is obtained, in particular, a pair of [[adjoint triples]] of [[adjoint modalities]] on $\mathbf{H} \,\coloneqq\, Glo(\mathbf{H}_{\subset})$ which jointly reflect that its objects are [[geometric homotopy types]] whose geometric nature is "cohesive with [[orbi-singularities]]":
 
 
 \begin{imagefromfile}
@@ -260,9 +260,7 @@ The above combination with smooth cohesion to singular cohesion was considered i
 
 * {#SaSc20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
-in discussion of [[orbifold cohomology]], where the above notation is taken from,
-
-and in 
+in discussion of [[orbifold cohomology]], where the above notation is taken from, and in 
 
 * {#SaSc20} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]*
 
