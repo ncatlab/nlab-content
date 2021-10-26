@@ -67,7 +67,7 @@ The idea is that `factcps x k` calculates the factorial of `x` but does not retu
 
 If this is the whole program, then there are only two [[lambda abstractions]] we need to deal with, both of type `Integer -> Integer`. The first one `\y -> k (x * y)` has free variables `x` and `k`; we'll call it `Multiply`. The second `\x -> x` has no free variables; we'll call it `Identity`.
 
-To defunctionalize this we define consider a type `DefunIntInt`, which is $Defun(Integer,Integer)$ above:
+To defunctionalize this we define a type `DefunIntInt`, which is $Defun(Integer,Integer)$ above:
 
     data DefunIntInt = Multiply Integer DefunIntInt | Identity
     eval :: DefunIntInt -> Integer -> Integer 
