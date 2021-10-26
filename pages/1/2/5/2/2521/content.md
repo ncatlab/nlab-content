@@ -171,6 +171,11 @@ Discussion on the context of [[superstring|super-]] [[string theory]] (especiall
 
 * {#DHokerPhong05} [[Eric D'Hoker]], [[Duong Phong]], _Complex geometry and supergeometry_, Current Developments in Mathematics 2005 (2007): 1-40 ([euclid:1223654523](https://projecteuclid.org/euclid.cdm/1223654523))
 
+Generalization of [[Artin's representability theorem]] to supergeometry:
+
+* Nadia Ott, *Artin's theorems in supergeometry* ([arXiv:2110.12816](https://arxiv.org/abs/2110.12816))
+
+
 [[!redirects supergeometries]]
 
 [[!redirects super-geometry]]
