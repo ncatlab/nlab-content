@@ -53,6 +53,10 @@ On [[moduli stabilization]]:
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Burt Ovrut]], _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
 
 
+Discussion via [[machine learning]] of [[connection on a bundle|connections]] on [[heterotic line bundles]] over [[Calabi-Yau manifold|Calabi-Yau 3-folds]]:
+
+* [[Anthony Ashmore]], Rehan Deen, [[Yang-Hui He]], [[Burt Ovrut]], *Machine Learning Line Bundle Connections* ([arXiv:2110.12483](https://arxiv.org/abs/2110.12483))
+
 
 ## Related $n$Lab pages
 
