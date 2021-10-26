@@ -352,7 +352,7 @@ This section is at
 
   * [[discrete ∞-groupoid]]
 
-  * [[Euclidean topological ∞-groupoid]]
+  * [[D-topological ∞-groupoid]]
 
   * **smooth $\infty$-groupoid**
 
@@ -361,6 +361,8 @@ This section is at
     * [[Kan-fibrant simplicial manifold]]
 
     * [[smooth spectrum]]
+
+  * [[singular-smooth ∞-groupoid]]
 
 
 [[!include geometries of physics -- table]]
