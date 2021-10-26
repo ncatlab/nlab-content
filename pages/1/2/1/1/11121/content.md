@@ -32,6 +32,8 @@ See at *[[cohesion of global- over G-equivariant homotopy theory]]*.
 
 * [[Stefan Schwede]], _[[Global homotopy theory]]_
 
+* [[singular cohesion]]
+
 * [[Elmendorf's theorem]]
 
 * [[orbispace]], 
