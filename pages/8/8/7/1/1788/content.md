@@ -1,4 +1,7 @@
 
+$$
+  \boxed{\lt}
+$$
 
 
 \begin{lemma}
