@@ -177,9 +177,12 @@ $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$.
 \begin{example}
 The archetypical examples of [[topological groups]] which satisfy Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms} are: 
 
-1. The [[circle group]], $\Gamma = $ [[U(1)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},1)$, which is [[homotopy n-type|n-truncated]] for $n \geq 1$ and whose [[delooping]]  $K(\mathbb{Z},2)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]);
+1. The [[circle group]], $\Gamma = $ [[U(1)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},1)$, which is [[homotopy n-type|n-truncated]] for $n \geq 1$ 
+and which is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]);
+with [[delooping]] $K(\mathbb{Z},2)$;
 
-1. the [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$,  which is [[homotopy n-type|n-truncated]] for $n \geq 2$ and whose [[delooping]]  $K(\mathbb{Z},3)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]).
+1. the [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$,  which is [[homotopy n-type|n-truncated]] for $n \geq 2$, 
+which is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]) with [[delooping]]  $K(\mathbb{Z},3)$.
 
 Hence for both of these [[structure groups]], the 7-dimensional spherical space forms discussed [above](#7DSphericalSpaceFormsWithSpinStructure) satisfy Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}.
 \end{example}
