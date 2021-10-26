@@ -189,7 +189,7 @@ More in detail, the [[shape modality]], [[flat modality]] and [[sharp modality]]
 
 ### Relation between global and local equivariant homotopy theory
 
-
+Some aspects of the [[cohesion of global- over G-equivariant homotopy theory]]:
 
 +-- {: .num_defn #InclusionOfGSpacesInTheGlobalTheory}
 ###### Definition
@@ -270,6 +270,7 @@ The inclusion $\Delta_G$ is that of def. \ref{InclusionOfGSpacesInTheGlobalTheor
 =--
 
 ([Rezk 14, 5.3](#Rezk14))
+
 
 ### Relation to topological stacks and orbispaces
 
