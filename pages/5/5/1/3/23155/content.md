@@ -17,6 +17,10 @@ On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]
 
 * [[Sebastian Dumitru]], [[Burt A. Ovrut]], *Heterotic M-Theory Hidden Sectors with an Anomalous $U(1)$ Gauge Symmetry* ([arXiv:2109.13781](https://arxiv.org/abs/2109.13781))
 
+Discussion via [[machine learning]] of [[connection on a bundle|connections]] on [[heterotic line bundles]] over [[Calabi-Yau manifold|Calabi-Yau 3-folds]]:
+
+* [[Anthony Ashmore]], Rehan Deen, [[Yang-Hui He]], [[Burt Ovrut]], *Machine Learning Line Bundle Connections* ([arXiv:2110.12483](https://arxiv.org/abs/2110.12483))
+
 
 
 category: people
