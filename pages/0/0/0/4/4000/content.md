@@ -766,15 +766,27 @@ For the case of [[reductive algebraic groups]]:
 
 * [MO discussion](http://mathoverflow.net/a/24862/381)
 
+
 [[!redirects Chern-Simons bundle 2-gerbe]]
+[[!redirects Chern-Simons bundle 2-gerbes]]
+
+[[!redirects Chern-Simons 2-gerbe]]
+[[!redirects Chern-Simons 2-gerbes]]
+
 
 [[!redirects Chern-Simons circle 3-bundle with connection]]
+[[!redirects Chern-Simons circle 3-bundles with connection]]
 
 [[!redirects universal Chern-Simons circle 3-connection]]
+[[!redirects universal Chern-Simons circle 3-connections]]
 
 [[!redirects universal Chern-Simons 3-connection]]
+[[!redirects universal Chern-Simons 3-connections]]
 
 [[!redirects universal Chern-Simons circle 3-bundle with connection]]
+[[!redirects universal Chern-Simons circle 3-bundles with connection]]
 
 [[!redirects Chern-Simons line 3-bundle]]
 [[!redirects Chern-Simons line 3-bundles]]
+
+
