@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is called *singular cohesion* in [SaSc 2020](#SaSc20), following observations in [Rezk 2014](#Rezk14), is a form of [[cohesion]] [[cohesive (infinity,1)-toposes|on $\infty$-toposes]] which enhances any [[base (infinity,1)-topos|base]] notion of "smooth" cohesive geometry to a "singular-smooth" cohesive geometry which reflects the possible presence [[orbi-singularities]].
+What is called *singular cohesion* in [SaSc 2020](#SaSc20), following observations in [Rezk 2014](#Rezk14), is a form of [[cohesion]] [[cohesive (infinity,1)-toposes|on $\infty$-toposes]] which enhances any [[base (infinity,1)-topos|base]] notion of "smooth" cohesive geometry to a "singular-smooth" cohesive geometry which reflects the possible presence of [[orbi-singularities]].
 
 For example, where [[smooth manifolds]] are faithfully embedded among the [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]] of [[smooth infinity-groupoids]], so their [[orbifolds]] are faithfully embedded among [[singular-smooth infinity-groupoid|singular-smooth $\infty$-groupoids]].
 
@@ -31,12 +31,12 @@ In fact, every [[slice (infinity,1)-topos|slice]] of a singular-cohesive $\infty
 
 ### Globally equivariant geometric homotopy theory
 
-Consider the [[full sub-(infinity,1)-category|sub sub-$\infty$-category]] of [[Infinity-Grpd|$Grp_\infty$]] on the [[connected object in an (infinity,1)-topos|connected]], [[truncated object in an (infinity,1)-category|1-truncated]] [[pi-finite homotopy types|$\pi$-finite homotopy types]] 
+Consider the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of [[Infinity-Grpd|$Grp_\infty$]] on the [[connected object in an (infinity,1)-topos|connected]], [[truncated object in an (infinity,1)-category|1-truncated]] [[pi-finite homotopy types|$\pi$-finite homotopy types]] 
 
 \[
   \label{CategoryOfSingularities}
   \array{
-    Singuarlities
+    Singularities
     &\coloneqq&
     Grpd^{fin}_{1, \geq 1}
     &\xhookrightarrow{\;}&
@@ -53,7 +53,7 @@ Consider the [[full sub-(infinity,1)-category|sub sub-$\infty$-category]] of [[I
 (sometimes called the "[[global orbit category]]"), hence the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] of [[groupoids]] on the [[delooping groupoids]] of [[finite groups]] $G$, 
 
 
-For then $\mathbf{H}_{\subset}$ any [[base (infinity,1)-topos|base $\infty$-topos]] 
+Then for $\mathbf{H}_{\subset}$ any [[base (infinity,1)-topos|base $\infty$-topos]] 
 the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-category of $\infty$-presheaves]] over $Singularities$ (eq:CategoryOfSingularities)
 
 $$
@@ -142,8 +142,9 @@ This follows formally from the [[full sub-(infinity,1)-category|full sub]] [[(2,
 $$
   \Singularities_{/\boxed{\prec}\mathbf{B}G}
   \underoverset
-    {\overset{\tau_0}{\longleftarrow}}
-    {\hookleftarrow}
+{\hookleftarrow}
+    {\overset{\tau_0}{\longrightarrow}}
+    
     {\;\;\; \bot \;\;\;}
   G Orbits
   \,,
@@ -176,7 +177,7 @@ From this is obtained a pair of [[adjoint triples]] of [[adjoint modalities]] on
 
 (...)
 
-For example, when $\mathbf{H}_{\subset} \,=\,$ [[smooth infinity-groupoids|$SmthGrpd_\infty$]] containing [[diffeological spaces]] as the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of [[n-truncated object of an (infinity,1)-category|0-trunctaed]] [[concrete objects]]
+For example, when $\mathbf{H}_{\subset} \,=\,$ [[smooth infinity-groupoids|$SmthGrpd_\infty$]] containing [[diffeological spaces]] as the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of [[n-truncated object of an (infinity,1)-category|0-truncated]] [[concrete objects]]
 
 $$
   DiffSpc
