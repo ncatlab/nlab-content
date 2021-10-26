@@ -1,5 +1,3 @@
-[[!redirects Euclidean-generated infinity-groupoid]]
-[[!redirects Euclidean-generated infinity-groupoid]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -1028,22 +1026,31 @@ Section 3.2 in
 
 Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the category of manifolds and its restriction to open balls and a discussion of its homotopy localization is in:
 
-* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
-{#Dugger}
+* {#Dugger} [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+
 
 Discussion of [[geometric realization of simplicial topological spaces|geometric realization of simplicial topological]] principal bundles and of their [[classifying spaces]] is in 
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
- {#RobertsStevenson}
+* {#RobertsStevenson} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
+ 
 
-* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
- {#Stevenson}
+* {#Stevenson} [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
+ 
 
+
+
+
+[[!redirects D-topological infinity-groupoids]]
+
+[[!redirects D-topological ∞-groupoid]]
+[[!redirects D-topological ∞-groupoids]]
 
 [[!redirects DTopological∞Groupoid]]
 [[!redirects DTopological∞Groupoids]]
 
 
+[[!redirects Euclidean-generated infinity-groupoid]]
+[[!redirects Euclidean-generated infinity-groupoid]]
 [[!redirects Euclidean-generated infinity-groupoids]]
 [[!redirects Euclidean-generated infnity-groupoid]]
 [[!redirects Euclidean-generated ∞-groupoid]]
