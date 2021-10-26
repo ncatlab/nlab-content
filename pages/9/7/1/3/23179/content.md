@@ -31,7 +31,7 @@ Write
 
 * $Singularities \xhookrightarrow{\;} Grpd_\infty$ for the [[(2,1)-category]] of [[groupoids]] which are [[deloopings]] of [[finite groups]], regarded as an [[(infinity,1)-site|$\infty$-site]] via the trivial topology.
 
-Then singular-smooth $\infty$-groupoids are the [[objects]] in the [[hypercomplete (infinity,1)-topos|hypercomplete]] [[(\infinity,1)-sheaf (infinity,1)-topos]] over the [[product category|product]] of these sites:
+Then singular-smooth $\infty$-groupoids are the [[objects]] in the [[hypercomplete (infinity,1)-topos|hypercomplete]] [[(infinity,1)-sheaf|$\infty$-sheaf]] [[(infinity,1)-topos|$\infty$-topos]] over the [[product category|product]] of these sites:
 
 $$
   SingSmoothGrpd_\infty
