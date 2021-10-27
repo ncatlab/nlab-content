@@ -129,22 +129,59 @@ Concretely, we consider the following situation:
 \linebreak
 In the following, let
 
-1. $n \in \mathbb{N}$ be a [[natural number]],
+1. $G$ be a [[finite group]] satisfying the following equivalent conditions (equivalent by the [Madsen-Thomas-Wall theorem](group+actions+on+spheres#MadsenThomasWallTheorem)):
+
+   1. for all [[prime numbers]] $p$, if $H \subset G$ is a [[subgroup]] of [[order of a group|order]] $2 p$ or $p^2$, then $H$ is [[isomorphism|isomorphic]] to a [[cyclic group]];
+
+   1. $G$ has a [[G-space|continuous]] [[free action]] on the topological [[d-sphere]] for some $d \in \mathbb{N}$;
+
+   1. $G$ has a [[G-manifold|smooth]] [[free action]] on the [[d-sphere]] for some $d \in \mathbb{N}$ and for some [[smooth structure]] (possibly [[exotic smooth structure|exotic]]);
+
+   1. for each $n \in \mathbb{N}$ there exists $d \geq  n + 2$ such that $G$ has a [[G-manifold|smooth]] [[free action]] on the [[n-sphere]] for some [[smooth structure]] (possibly [[exotic smooth structure|exotic]]):
+
+      \[
+        \label{ExistenceOfHighDimensionalSmoothFreeGActionsOnSpheres}
+        \underset{n \in \mathbb{N}}{\forall}
+        \;\;\;\;
+       \underset{ d \geq n+2 }{\exists}
+        \;\;\;\;
+        \underset{ 
+           {diff \in \mathclap{\phantom{\vert^{\vert}}}} 
+           \atop 
+           {SmthStruc(S^d)} 
+        }{\exists}
+        \;\;\;\;
+        \underset{ 
+          {
+            \rho \curvearrowright S^{d}_{diff} 
+            \mathclap{\phantom{\vert^{\vert}}}          
+          } 
+          \atop 
+          { 
+            \in G Act(SmthMfd) 
+          }
+        }{\exists}
+        \;\;\;\;
+        \rho\;\text{is free}
+        \,;
+      \] 
 
 1. $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] [[infinity-group|$\infty$-group]] $Shp(\Gamma) \,\in\, Grp\big( Grpd_\infty \big)$ is 
 
-   1. a [[braided infinity-group|braided]] in that its [[delooping]] still has [[infinity-group|$\infty$-group]]-structure itself
+   1. [[braided infinity-group|braided]], in that its [[delooping]] still has [[infinity-group|$\infty$-group]]-structure itself
 
       \[
         \label{DeloopingOfShapeIsInfinityGroup}
         B Shp(\Gamma) \,\in\, Grp\big( Grpd_\infty \big)
-        \,.
+        \,,
       \]
 
-   1. a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]] for some $n \in \mathbb{N}$:
+   1. [[n-truncated object of an (infinity,1)-category|truncated]], hence a [[homotopy n-type]] for some $n \in \mathbb{N}$:
 
    \[
      \label{GammaIsNTruncated}
+     \underset{ n \in \mathbb{N} }{\exists}
+     \;\;\;\;\;\;
      \tau_n Shp(\Gamma) \,\simeq\, Shp(\Gamma)
      \;\;\;
      \in
@@ -153,25 +190,20 @@ In the following, let
      \,.
    \]
 
-1. $S^{n+2}/G$ be a [[spherical space form]] of [[dimension of a manifold|dimension]] $n+2$, hence the [[topological quotient space|quotient space]] of the [[n-sphere|$(n+2)$-sphere]] $S^{n+2}$ 
-by a [[free action]] of a [[finite group]]
-$G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$. 
 
-   We write
+Given $n$ as in (eq:GammaIsNTruncated), possibly increased a little if necessary, we have by (eq:ExistenceOfHighDimensionalSmoothFreeGActionsOnSpheres), a smooth [[free action|free]] [[group action on n-spheres|group action on $S^{n+2}$]], whose [[topological quotient space|quotient space]] is a [[smooth manifold]]:
 
-   \[
-     \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
-     S^{n+2}
-     \overset{\phantom{--} q \phantom{--}}{\twoheadrightarrow}
-     S^{n+2}/G
-     \;\;\;
-     \in
-     \;
-     TopSp
-   \]
-
-   for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical space form]].
-
+\[
+  \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
+  S^{n+2}
+  \overset{\phantom{-} q \phantom{-}}{\twoheadrightarrow}
+  S^{n+2}/G
+  \;\;\;
+  \in
+  \;
+  SmthMfd
+  \,.
+\]
 \end{definition}
 
 \begin{example}
