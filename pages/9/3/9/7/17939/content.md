@@ -18,6 +18,9 @@
 
 [[Brouwer]]'s fixed point theorem says that every [[continuous function]] from a [[compact topological space|compact]] [[convex set]] to itself has at least one [[fixed point]].
 
+This is also a special case of the [[Lefschetz fixed point theorem]], see [there](Lefschetz+trace+formula#ForContractibleCompactPolyhedra).
+
+
 ## Related theorems
 
 * [[topological invariance of dimension]]
