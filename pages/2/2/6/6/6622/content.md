@@ -688,17 +688,15 @@ This should still be filled.
 
 * [[Saunders Mac Lane]], _Categories for the Working Mathematician_, 2nd edition, Springer GTM, 1998. {#CWM}
 
-* [[Tom Leinster]] _Monoidal Categories_, Lecture 8
-of _An ABC of Category Theory_, Autumn 2004.  [available online](http://www.maths.gla.ac.uk/~tl/ct/)
+* [[Tom Leinster]], _Monoidal Categories_, Lecture 8 of [_An ABC of Category Theory_](https://www.maths.ed.ac.uk/~tl/ct/), Autumn 2004, [course notes available online](https://www.maths.ed.ac.uk/~tl/ct/eight.pdf)
 
-* [[Max Kelly]] _On MacLane's conditions for coherence of natural associators, commutativities, etc._, _Journal of Algebra_, 1, pp. 397--402, 1964. 
+* [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._, _Journal of Algebra_, 1, pp. 397--402, 1964. 
 
-* I. Beylin and P. Dybjer, _Extracting a proof of coherence for monoidal categories from a formal proof of normalization of monoids_, 
-[available online](http://www.cse.chalmers.se/~peterd/papers/Hol_alf.pdf)
+* Ilya Beylin and [[Peter Dybjer]], _Extracting a Proof of Coherence for Monoidal Categories from a Proof of Normalization for Monoids_, 
+[paper available online](http://www.cse.chalmers.se/~peterd/papers/Hol_alf.pdf)
 
-* [[P. Etingof]], S. Galeki, D. Nikshych, and [[V. Ostrik]],
-_Tensor Categories_, [course notes available online](http://www-math.mit.edu/~etingof/tenscat.pdf)
+* [[P. Etingof]], S. Galeki, D. Nikshych, and [[V. Ostrik]], _Tensor Categories_, [course notes available online](http://www-math.mit.edu/~etingof/tenscat.pdf)
 
-* J. Armstrong, [Mac Lane's coherence theorem](http://unapologetic.wordpress.com/2007/06/29/mac-lanes-coherence-theorem/)
+* J. Armstrong, [Mac Lane's Coherence Theorem](https://unapologetic.wordpress.com/2007/06/29/mac-lanes-coherence-theorem/)
 
 * Luke Trujillo, [A Coherent Proof of Mac Lane's Coherence Theorem](https://scholarship.claremont.edu/hmc_theses/243/)
