@@ -450,6 +450,8 @@ _[[Zuckerman induction]]_. See there for more details.
 
 * The [[character]] of an induced representation is an [[induced character]].
 
+* [[Artin-Lam induction exponent]]
+
 [[!include homotopy type representation theory -- table]]
 
 
