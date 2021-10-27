@@ -51,7 +51,7 @@ The [[properly discontinuous action|properly discontinuous]] [[free action|free]
 
 * Toshiyki Koyabashi, _Discontinuous Groups and Clifford&#8212;Klein Forms of Pseudo-Riemannian Homogeneous Manifolds_, ([pdf](http://www.ms.u-tokyo.ac.jp/~toshi/texpdf/33-sum94lec-preprint.pdf))
 
-* {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Publish or Perish, Boston, Third ed., 1974
+* {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Third ed.: Publish or Perish, Boston, 1974, Sixth edition: AMS Chelsea Publishing 2011 ([doi:10.1090/chel/372](https://doi.org/10.1090/chel/372))
 
 
 * {#Carmo92} M. P. do Carmo, _Riemannian geometry_, Mathematics: Theory & Applications, Birkhaeuser Boston Inc., Boston, MA, 1992, Translated from the second Portuguese edition by Francis Flaherty.
