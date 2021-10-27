@@ -83,7 +83,7 @@ The early version of the model is due to
 
 The modern version of the model that produces the correct fermionic content (and finds the [[KO-dimension]] of the compactification space to be 6 mod 8) is due to
 
-* {#Barrett07} [[John Barrett]], _A Lorentzian version of the non-commutative geometry of the standard model of particle physics_, J.Math.Phys.48:012303,2007 ([arXiv:hep-th/0608221](http://arxiv.org/abs/hep-th/0608221))
+* {#Barrett07} [[John Barrett]], _A Lorentzian version of the non-commutative geometry of the standard model of particle physics_, J.Math.Phys.48:012303,2007 ([arXiv:hep-th/0608221](http://arxiv.org/abs/hep-th/0608221), [doi:10.1063/1.2408400](https://doi.org/10.1063/1.2408400))
 
 * {#Connes06} [[Alain Connes]], _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](https://arxiv.org/abs/hep-th/0608226))
 
