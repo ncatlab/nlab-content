@@ -32,6 +32,8 @@ Given an [[n-sphere]] $S^n$, regarded under its standard [[embedding]] into [[Ca
 
 ## Related concepts
 
+* [[hemisphere]], [[antipode]]
+
 * [[stereographic projection]]
 
 * [[clutching construction]]
