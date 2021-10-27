@@ -160,5 +160,6 @@ The following groups are **not** divisible:
 
 ## References
 
-* Tsit-Yuen Lam, _Lectures on modules and rings_, Graduate Texts in Mathematics No. 189, Berlin, New York (1999)
-  {#Tsit-YuenMoRi} 
+* {#Tsit-YuenMoRi}  [[Tsit-Yuen Lam]], _Lectures on modules and rings_, Graduate Texts in Mathematics No. 189, Berlin, New York (1999) ([doi:10.1007/978-1-4612-0525-8](https://link.springer.com/book/10.1007/978-1-4612-0525-8))
+  
+
