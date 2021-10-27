@@ -30,7 +30,13 @@ This entry is meant to eventually list and discuss some of these. For the moment
 ### Free actions by finite groups and spherical space forms
  {#FreeActionsByFiniteGroupsAndSphericalSpaceForms}
 
-We discuss some aspects of ([[G-space|continuous]]) [[free actions]] of [[finite groups]] on [[n-spheres]]. The [[topological quotient spaces]] of such actions are known as *[[spherical space forms]]*.
+We discuss some aspects of ([[G-space|continuous]]) [[free actions]] of [[finite groups]] on [[n-spheres]]. 
+
+If the action is by [[isometries]] then the [[topological quotient spaces]] of such actions are known as *[[spherical space forms]]*.
+
+
+#### Basic examples
+
 
 \begin{example}
 \label{ActionOfZModTwoByAntipodalInversion}
@@ -152,13 +158,7 @@ Moreover, since quaternion-multiplication is clearly [[continuous function|conti
 Finally, since $\mathbb{H} \,\ni\, q \,\mapsto\, \bar q \cdot q \,\in\, \mathbb{R}$ is positive definite ($\bar q \cdot q = 0 \,\;\Leftrightarrow\;\, q = 0$ ), at least one of the components $v_i$ of $\vec v$ needs to be non-zero in order for  (eq:UnitNormConditionOnQuaternionicVectors) to hold. But on this component the left action $v_i \,\mapsto\, q \cdot v_i$ is left-multiplication in the [[group of units]] $\mathbb{H}^{\times} \,=\, \mathbb{H} \setminus \{0\}$ and hence is free, as the multiplication action of any group on itself is free.
 \end{proof}
 
-Notice that, while an analogous argument shows that with $G \subset Sp(1)$ also the [[direct product group]] $G^{n+1}$ canonically acts on $S^{4n+3}$ by componentwise left multiplication, for $n \geq 2$ this action is no longer free, as the $k$th factor subgroup now fixes the elements whose $k$th component vanishes. In fact, higher direct product powers of cyclic groups in general have *no* free action on spheres of any dimension:
-
-\begin{proposition}
-  For $p$ a [[prime number]],
-  the [[direct product group]] $\mathbb{Z}/p \times \mathbb{Z}/p$ and more generally the higher powers $(\mathbb{Z}/p)^{\geq 2}$ of the prime [[cyclic group]] do *not* have any continuous [[free action]] on any [[n-sphere]].
-\end{proposition}
-([Smith 1944, p. 107 (4 of 5)](#Smith44))
+Notice that, while an analogous argument shows that with $G \subset Sp(1)$ also the [[direct product group]] $G^{n+1}$ canonically acts on $S^{4n+3}$ by componentwise left multiplication, for $n \geq 2$ this action is no longer free, as the $k$th factor subgroup now fixes the elements whose $k$th component vanishes. In fact, higher direct product powers of cyclic groups in general have *no* free action on spheres of any dimension, see Smith's $p^2$-condition (Prop. \ref{SmithPSquareCondition} below).
 
 
 The above examples of free actions are all on odd-dimensional spheres, except when the group is [[cyclic group of order 2|$\mathbb{Z}/2$]]. Indeed, this must be so in general:
@@ -199,6 +199,48 @@ The only solutions for this algebraic equation (over the [[integers]]) have $ord
 Moreover, the [[Lefschetz fixed point theorem]] implies (see [this example](https://ncatlab.org/nlab/show/Lefschetz+trace+formula#FixedPointTheoremForHomeomorphismsOfnSpheres)) that the only free action on an even dimensional sphere, necessarily by $\mathbb{Z}/2$ according to Prop. \ref{OnlyZModTwoCanActFreelyOnEvenDimensionalSpheres}, is orientation reversing, as in Ex. \ref{ActionOfZModTwoByAntipodalInversion}.
 \end{remark}
 
+#### Obstructions and existence
+
+\begin{proposition}
+\label{SmithPSquareCondition}
+**(Smith's $p^2$-condition)**
+\linebreak
+  For $p$ a [[prime number]],
+  the [[direct product group]] $\mathbb{Z}/p \times \mathbb{Z}/p$ and more generally the higher powers $(\mathbb{Z}/p)^{\geq 2}$ of the prime [[cyclic group]] do *not* have any continuous [[free action]] on any [[n-sphere]].
+\end{proposition}
+([Smith 1944, p. 107 (4 of 5)](#Smith44))
+
+
+\begin{definition}\label{pqCondition}
+**($p q$ condition)**
+For $p, q$ a [[pair]] of [[prime numbers]], not necessarily distinct, 
+a [[finite group]] $G$ is said to satisfy the *$p q$-condition* if all [[subgroups]] of [[order of a group|order]] $p \cdot q$ are [[cyclic groups]]:
+$$
+  H \,\subset\, G
+  \;
+  \text{with}
+  \;
+  ord(H) \,=\, p q
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  H \,\simeq\, \mathbb{Z}/(p q)
+  \,.
+$$ 
+\end{definition}
+
+\begin{proposition}\label{MadsenThomasWallTheorem}
+**(Madsen-Thomas-Wall theorem)**
+\linebreak
+  A [[finite group]] $G$ has a [[G-space|continuous]] [[free action]] on some [[n-sphere]] if and only if it satisfies the $p^2$-condition and the $2 p$-condition (Def. \ref{pqCondition}) for all [[prime numbers]] $p$.
+
+In this case there exists also a [[smooth structure]] on some [[n-sphere]] (possibly an [[exotic smooth structure]]) such that $G$ has a [[smooth function|smooth]] [[free action]] on it.
+
+Specifically, such free smooth actions exist in particular on all $S^n$ for which $n+1$ is any multiple of the [[Artin-Lam induction exponent]], hence exist on spheres of arbitrarily large dimension.
+\end{proposition}
+
+([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed as [Hambleton 2014, Thm. 6.1](#Hambleton14))
+
 
 ### Fixed loci of the circle group acting on spheres
 
@@ -220,7 +262,7 @@ Given an continuous [[action]] of the [[circle group]] on the [[topological spac
 
 ## References
 
-The non-existence of free actions of $(\mathbb{Z}/p)^{\geq 2}$ on any $n$-sphere:
+The non-existence of free actions of $(\mathbb{Z}/p)^{\geq 2}$ on any [[n-sphere]]:
 
 * {#Smith44} P. A. Smith, *Permutable Periodic Transformations*, Proceedings of the National Academy of Sciences of the United States of America Vol. 30, No. 5 (May 15, 1944), pp. 105-108 ([jstor:87918](https://www.jstor.org/stable/87918))
 
@@ -228,23 +270,37 @@ Discussion of [[free actions|free]] [[group actions on spheres]] by [[finite gro
 
 * {#Wall78} [[C. T. C. Wall]], _Free actions of finite groups on spheres_, Proceedings of Symposia in Pure Mathematics, Volume 32, 1978 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/wall7.pdf))
 
-* [[Alejandro Adem]], _Constructing and deconstructing group actions_ ([arXiv:0212280](http://arxiv.org/abs/math/0212280))
+* {#MadsenThomasWall76} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *The topological spherical space form problem II: existence of free actions*, Topology Volume 15, Issue 4, 1976, Pages 375-382 (<a href="https://doi.org/10.1016/0040-9383(76)90031-8">doi:10.1016/0040-9383(76)90031-8</a>)
+
+* {#MadsenThomasWall83} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *Topological spherical space form problem III: Dimensional bounds and smoothing*,  Pacific J. Math. 106(1): 135-143 (1983) ([pjm:1102721110](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-106/issue-1/Topological-spherical-space-form-problem-III-Dimensional-bounds-and-smoothing/pjm/1102721110.full))
+
+Discussion of free actions on [[product topological space|products]] of spheres:
+
+* [[Alejandro Adem]], _Constructing and deconstructing group actions_, in [[Paul Goerss]], [[Stewart Priddy]], *Homotopy Theory: Relations with Algebraic Geometry, Group Cohomology, and Algebraic K-Theory*, Contemporary Mathematics **346** AMS 2004 ([arXiv:0212280](http://arxiv.org/abs/math/0212280), [doi:10.1090/conm/346](http://dx.doi.org/10.1090/conm/346))
 
 Discussion of the fixed point-sets of finite group actions on even-dimensional spheres:
 
 * {#Craciun13} Gheorghe Craciun, *Most homeomorphisms with a fixed point have a Cantor set of fixed points*, Archiv der Mathematik volume 100, pages 95–99 (2013) ([doi:10.1007/s00013-012-0466-z](https://doi.org/10.1007/s00013-012-0466-z))
 
+Classification of free finite group actions by [[isometries]], hence with [[quotient spaces]] being [[spherical space forms]]:
 
-Discussion of [[circle group]]-actions on spheres includes
+* {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Third ed.: Publish or Perish, Boston, 1974, Sixth edition: AMS Chelsea Publishing 2011 ([doi:10.1090/chel/372](https://doi.org/10.1090/chel/372))
+
+review:
+
+* {#Hambleton14} Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187))
+
+streamlined re-proof:
+
+* {#Allock15} [[Daniel Allcock]], _Spherical space forms revisited_, Trans. Amer. Math. Soc. 370 (2018), 5561-5582  ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906), [doi:10.1090/tran/7167](https://doi.org/10.1090/tran/7167))
+
+
+Discussion of [[circle group]]-actions on spheres:
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
 
 
-The subgroups of [[special orthogonal group|SO(8)]] which act freely on $S^7$ have been classified in 
-
-* {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Publish or Perish, Boston, Third ed., 1974
-
-and lifted to actions of [[Spin group|Spin(8)]] in 
+The subgroups of [[special orthogonal group|SO(8)]] which act freely on $S^7$ have been classified in [Wolf 1974](#Wolf74) and lifted to actions of [[Spin group|Spin(8)]] in 
 
 * {#Gadhia07} [[Sunil Gadhia]], _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007 ([spire:1393845](http://inspirehep.net/record/1393845/))
 
@@ -260,6 +316,9 @@ where they are related to the [[black brane|black]] [[M2-brane]] [[BPS state|BPS
 
 [[!redirects group action on spheres]]
 
+[[!redirects free group actions on spheres]]
+[[!redirects free group action on spheres]]
+
 [[!redirects group action on an n-sphere]]
 [[!redirects group actions on an n-sphere]]
 
@@ -268,3 +327,8 @@ where they are related to the [[black brane|black]] [[M2-brane]] [[BPS state|BPS
 
 [[!redirects group action on n-spheres]]
 [[!redirects group actions on n-spheres]]
+
+[[!redirects free group actions on n-spheres]]
+[[!redirects free group action on n-spheres]]
+
+
