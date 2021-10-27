@@ -2169,11 +2169,6 @@ See at _[[infinitesimal cohesion]]_ for more on this.
 
 =--
 
-### Almost-examples
-
-#### Condensed cohesion
-
-See at *[[condensed cohesion]]*.
 
 ### Counter-examples {#CounterExamples}
 
