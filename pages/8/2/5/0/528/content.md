@@ -23,7 +23,7 @@ The notion of _Hopf algebra_ is an abstraction of the properties of
 
 * the [[universal enveloping algebra]] of a [[Lie algebra]],
 
-where not only the [[associative algebra]] structure is remembered, but also the natural [[coalgebra]] structure, making it a [[bialgebra]], as well as the algebraic structure induced by the [[inverse]]-operation in the group, called the _antipode_.
+where not only the [[associative algebra]] structure is remembered, but also the natural [[coalgebra]] structure, making it a [[bialgebra]], as well as the algebraic structure induced by the [[inverse]]-operation in the group, called the _[[antipode]]_.
 
 More intrinsically, a Hopf algebra structure on an [[associative algebra]] is precisely the structure such as to make its [[category of modules]] into a [[rigid monoidal category]] equipped with a [[fiber functor]] -- this is the statement of _[[Tannaka duality]]_ for Hopf algebras.
 
@@ -36,16 +36,16 @@ There is a wide variety of variations of the notion of Hopf algebra, relaxing [[
 
 +-- {: .num_defn #Antipode}
 ###### Definition
-**(antipode)**
+**([[antipode]])**
 
-A $k$-[[bialgebra]] $(A,m,\eta,\Delta,\epsilon)$ with multiplication $m$, comultiplication $\Delta$, unit $\eta: k\to A$ and counit $\epsilon \colon A\to k$ is called a **Hopf algebra** if there exists a $k$-[[linear function]]
+A $k$-[[bialgebra]] $(A,m,\eta,\Delta,\epsilon)$ with multiplication $m$, comultiplication $\Delta$, unit $\eta \colon k\to A$ and counit $\epsilon \colon A\to k$ is called a **Hopf algebra** if there exists a $k$-[[linear function]]
 
 $$
   S \colon A \longrightarrow A
   \,,
 $$
 
-then called the **antipode** or **coinverse**, such that 
+then called the **[[antipode]]** or **coinverse**, such that 
 
 $$
   m\circ(\mathrm{id}\otimes S)\circ \Delta 
@@ -285,8 +285,6 @@ Discussion in [[algebraic topology]] with an eye towards [[stable homotopy theor
 [[!redirects Hopf ring]]
 [[!redirects Hopf rings]]
 
-[[!redirects antipode]]
-[[!redirects antipodes]]
 
 [[!redirects skew-antipode]]
 [[!redirects skew-antipodes]]
