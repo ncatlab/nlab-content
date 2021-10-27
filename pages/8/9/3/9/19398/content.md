@@ -25,13 +25,30 @@ The possible [[actions]] of well-behaved [[topological groups]] (such as [[compa
 
 This entry is meant to eventually list and discuss some of these. For the moment it mainly just collects some references.
 
-## Spherical space forms
+## Properties
+
+### Free actions by finite groups on spheres
+
+\begin{example}
+  For all $n \in \mathbb{N}$, the group [[cyclic group of order 2|$\mathbb{Z}/2$]] has a [[continuous function|continuous]] [[free action]]  on the [[n-sphere]], given by [[antipode|antipodal]] reflection (hence reversing the [[orientation]]).
+
+The [[topological quotient space]] of this action is the [[real projective space]] $S^{n+1}/(\mathbb{Z}/2) \,\simeq\, \mathbb{R}P^n$.
+\end{example}
+
+\begin{proposition}
+  If $S^{2n}$ is a [[sphere]] of [[even number|even]] [[dimension of a manifold|dimension]], then every [[orientation]]-preserving [[homeomorphism]] $S^{2n} \to S^{2n}$ must have a [[fixed point]].
+\end{proposition}
+\begin{proof}
+  By [[Brouwer's fixed point theorem]].
+  (...)
+\end{proof}
+
+### Spherical space forms
 
 Let $G$ be a [[discrete group]] and $\rho$ an [[action]] of $G$ on the [[n-sphere]] by [[isometries]], which is [[free action|free]] and [[properly discontinuous action|properly discontinuous]].
 
 The induced [[quotient spaces]] $S^n/G$ in this case are also called _[[spherical space forms]]_.
 
-(...)
 
 ## Properties
 
