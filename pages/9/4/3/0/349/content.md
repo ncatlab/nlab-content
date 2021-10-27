@@ -29,8 +29,7 @@ In the original definition ([[Michael Artin]]'s seminar notes “Grothendieck to
 More precisely (to cite from Artin's notes):
 
 \begin{definition}
-A __Grothendieck topology__ on a [[category]] $C$ is
-is a set $T$ of families of maps $\{\phi_i\colon U_i\to U\}_{i\in I}$
+A __Grothendieck topology__ on a [[category]] $C$ is a set $T$ of families of maps $\{\phi_i\colon U_i\to U\}_{i\in I}$
 (known as __coverings__)
 such that
 
