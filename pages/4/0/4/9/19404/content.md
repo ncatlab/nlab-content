@@ -29,8 +29,8 @@ The spherical space forms are one of three classical examples of _[[Clifford-Kle
 
 Their classification was raised as an open problem by [Killing 1891](#Killing1891) and a complete solution was finally compiled by ([Wolf 74](#Wolf74)) (reviewed in [Gadhia 07, section 2.2](#Gadhia07)). A re-proof of the classification is claimed in ([Allock 15](#Allock15)). 
 
+Notice that free group actions by [[isometries]] of [[n-spheres]] are a special case of more general free actions by any [[homeomorphisms]], see at *[[group actions on n-spheres]]* for more.
 
-For more on this see at _[[group actions on n-spheres]]_.
 
 
 ## Examples
@@ -2099,7 +2099,9 @@ Review:
 
 * Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187))
 
-* {#Allock15} Daniel Allcock, _Spherical space forms revisited_ ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906))
+Streamlined re-proof:
+
+* {#Allcock15} [[Daniel Allcock]], _Spherical space forms revisited_, Trans. Amer. Math. Soc. 370 (2018), 5561-5582  ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906), [doi:10.1090/tran/7167](https://doi.org/10.1090/tran/7167))
 
 
 Discussion for the [[7-sphere]] with application to [[near horizon geometries]] of [[M2-brane]] ([[AdS/CFT duality|AdS/CFT dual]] to the [[ABJM model]]):
