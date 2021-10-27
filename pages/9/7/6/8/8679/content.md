@@ -41,7 +41,7 @@ Related but different is the construction of fully extended [[3d TQFT]] from [[f
 
 ## References
 
-The original article
+The original articles
 
 * [[Vladimir Turaev]] and O. Ya. Viro, _State sum invariants of 3-manifolds and quantum 6jsymbols_, Topology 31 (1992), no. 4, 865&#8211;902, DOI 10.1016/0040-9383(92)90015-A. MR1191386 
 
@@ -53,13 +53,16 @@ constructed 3-manifold invariants from quantum [[6j symbols]]. See also
 
 In
 
-* [[John Barrett]], [[Bruce Westbury]], _Invariants of piecewise-linear 3-manifolds_, Trans. Amer. Math. Soc. 348 (1996), no. 10, 3997&#8211;4022, DOI 10.1090/S0002-9947-96-01660-1. MR1357878 (97f:57017)
+* [[John Barrett]], [[Bruce Westbury]], _Invariants of piecewise-linear 3-manifolds_, Trans. Amer. Math. Soc. 348 (1996), no. 10, 3997&#8211;4022, ([doi:10.1090/S0002-9947-96-01660-1](https://doi.org/10.1090/S0002-9947-96-01660-1), MR1357878)
 
-* [[John Barrett]], [[Bruce Westbury]], _Spherical Categories_ ([arXiv:hep-th/9310164](http://arxiv.org/abs/hep-th/9310164))
+* [[John Barrett]], [[Bruce Westbury]], _Spherical Categories_, Adv. Math. 143:357-375, 1999 ([arXiv:hep-th/9310164](http://arxiv.org/abs/hep-th/9310164), [doi:10.1006/aima.1998.1800](https://doi.org/10.1006/aima.1998.1800))
 
 it was shown that this construction proceeds from any [[spherical category|spherical]] [[fusion category]].
 
+Relation to the [[Crane-Yetter model]]:
 
+* {#BarrettGarciIslasMartins04} [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
+  
 
 Refinement of the construction to an [[extended TQFT]] is in 
 
