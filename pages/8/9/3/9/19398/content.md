@@ -288,7 +288,7 @@ Classification of free finite group actions by [[isometries]], hence with [[quot
 
 review:
 
-* {#Hambleton14} Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187))
+* {#Hambleton14} [[Ian Hambleton]], _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187))
 
 streamlined re-proof:
 
