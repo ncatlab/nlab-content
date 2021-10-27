@@ -211,6 +211,8 @@ Discussion of [[higher curvature corrections]]:
 
 * Eric Lescano, Carmen Núñez, Jesús A. Rodríguez, *Supersymmetry, T-duality and Heterotic $\alpha'$-corrections* ([arXiv:2104.09545](https://arxiv.org/abs/2104.09545))
 
+* Hao-Yuan Chang, [[Ergin Sezgin]], Yoshiaki Tanii, *Dimensional reduction of higher derivative heterotic supergravity* ([arXiv:2110.13163](https://arxiv.org/abs/2110.13163))
+
 
 
 
