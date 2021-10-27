@@ -59,18 +59,44 @@ Definition \ref{EulerCharOfChainComplex} shows that the Euler characteristic of 
 +-- {: .num_defn #EulerCharOfTopSpace}
 ###### Definition
 
-For $X$ a [[topological space]] and $R$ some [[ring]], its Euler characteristic over $R$ is the Euler characteristic, according to Def. \ref{EulerCharOfChainComplex}, of its [[homology]] [[chain complex]] (for instance [[singular homology]]), if this is finite: the alternating sum of its [[Betti number]]s
+For $X$ a [[topological space]] and $R$ some [[ring]], its Euler characteristic over $R$ is the Euler characteristic, according to Def. \ref{EulerCharOfChainComplex}, of its [[homology]] [[chain complex]] (for instance [[singular homology]]), if this is finite: the alternating sum of its [[Betti numbers]]
 
-$$
-  \chi(X) = \sum_{n \in \mathbb{N}} (-1)^n rk_{\mathbb{Z}} H_n(X, R)
+\[
+  \label{FormulaForTopologicalSpaceAsAltSumOfBettiNumbers}
+  \begin{aligned}
+    \chi(X) 
+    &
+    \;\coloneqq\; 
+    \sum_{n \in \mathbb{N}} 
+    \n
+    (-1)^n 
+    \cdot
+    rk_{\mathbb{Z}} H_n(X, \mathbb{Z})
+    \\
+    &
+    \;=\;
+    \sum_{n \in \mathbb{N}} 
+    \,
+    (-1)^n 
+    \dot
+    dim_{\mathbb{Q}} H_n(X, \mathbb{Q})
+  \end{aligned}
   \,.
-$$
+\]
 
 =--
 
-By default one takes $R = \mathbb{Z}$ to be the [[integer]]s, but it is equivalent to take $R = \mathbb{Q}$ to be the rational numbers.  (Choosing a ring with torsion, however, might result in a different "Euler characteristic".)
+This is shown for $R = \mathbb{Z}$ the [[integers]] ([[integral cohomology]]), and equivalently for $R = \mathbb{Q}$ [[rational numbers]] ([[rational cohomology]]).  
+(Choosing a ring with torsion, however, might result in a different "Euler characteristic".)
 
-This definition is usually known as the **Euler-Poincar&#233; formula**. Historically earlier was
+This definition is usually known as the **Euler-Poincar&#233; formula**. 
+
+\begin{remark}
+This is the special case of the formula for the [[Lefschetz number]]: The Euler characteristic (eq:FormulaForTopologicalSpaceAsAltSumOfBettiNumbers) is the Lefschetz number of the [[identity map]], see 
+[there](Lefschetz+trace+formula#LefschetzNumber).
+\end{remark}
+
+Historically earlier was:
 
 +-- {: .num_defn #EulerCharOfCWComplex}
 ###### Definition/Proposition
@@ -78,7 +104,9 @@ This definition is usually known as the **Euler-Poincar&#233; formula**. Histori
 Let $X$ be a finite [[CW-complex]]. Write $cell(X)_k$ for the set of its $k$-cells. Then the Euler characteristic of $X$ is
 
 $$
-  \chi(X) = \sum_{k \in \mathbb{N}} (-1)^k \vert cell(X)_k \vert
+  \chi(X) 
+  \;=\; 
+  \sum_{k \in \mathbb{N}} (-1)^k \vert cell(X)_k \vert
   \,.
 $$
 
@@ -173,7 +201,8 @@ The [above](OfATopologicalSpace) Euler characteristic of a topological space is 
 For $X$ a [[topological space]] / [[homotopy type]] / [[∞-groupoid]], its **[[homotopy cardinality]]** or **[[∞-groupoid cardinality]]** is -- if it exists -- the [[rational number]] given by the alternating product of [[cardinality|cardinalities]] of [[homotopy group]]s
 
 $$
-  \chi_{homotop}(X) :=
+  \chi_{homotop}(X) 
+  \;\coloneqq\;
   \sum_{[x] \in \pi_0(X)}
     \prod_{k =1}^\infty (|\pi_k(X,x)|)^{(-1)^k}
   \,.
