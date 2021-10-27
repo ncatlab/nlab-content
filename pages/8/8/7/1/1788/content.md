@@ -1,5 +1,22 @@
 
-\begin{remark}
-This is the special case of the formula for the [[Lefschetz number]]: The Euler characteristic (eq:FormulaForTopologicalSpaceAsAltSumOfBettiNumbers) is the Lefschetz number of the [[identity map]], see 
-[there](Lefschetz+trace+formula#LefschetzNumber).
-\end{remark}
+
+$$
+  \underset{n \in \mathbb{N}}{\forall}
+  \;\;\;\;
+ \underset{ d \geq n+2 }{\exists}
+  \;\;\;\;
+  \underset{ 
+     {diff \in} 
+     \atop 
+     {SmoothStruc(S^d)} 
+  }{\exists}
+  \;\;\;\;
+  \underset{ 
+    {\rho \curvearrowright S^{d}_{diff}} 
+    \atop 
+    {\in G Act(SmthMfd) 
+  }}{\exists}
+  \;\;\;\;
+  \rho\;\text{is free}
+$$
+
