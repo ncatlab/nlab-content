@@ -29,7 +29,7 @@ Every [[n-sphere]] may be [[covering|covered]] by two [[disks]] which each cover
 
 ## Related concepts
 
-* [[equator]]
+* [[equator]], [[antipode]]
 
 * [[stereographic projection]]
 
