@@ -20,7 +20,7 @@
 ## Definition
 
 \begin{definition}
-A [[topological space]] $X$ is a **polyhedron** if it is [[homeomorphic]] to the [[geometric realization]] of a [[simplicial complex]] and hence has a [[triangulation]].
+A [[topological space]] $X$ is a **polyhedron** if it is [[homeomorphic]] to the [[geometric realization]] of a [[finite set|finite]] [[simplicial complex]] and hence has a [[triangulation]].
 \end{definition}
 
 ## Properties
@@ -42,7 +42,7 @@ The study of polyhedra has been one of the sources for methods and applications 
 
   * [[pentagon]]
 
-* [[Lefschetz fixed point theor]]
+* [[Lefschetz fixed point theorem]]
 
 
 ## Literature
