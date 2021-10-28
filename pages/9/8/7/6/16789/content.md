@@ -692,8 +692,9 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 
 
+### Diffeomorphism group
 
-
+Counterexamples (via [[graph complexes]]) to the analogue of the [[Smale conjecture]] for the 4-sphere are claimed in [Watanabe 18](diffeomorphism+group#Watanabe18), reviewed in [Watanabe 21](diffeomorphism+group#Watanabe21).
 
 
 ## Related entries
