@@ -275,8 +275,9 @@ Here all spheres are equipped with their standard smooth structure (?), it is ju
 
 
 #### General obstructions and existence
+ {#GeneralObstructionToAndExistenceOfFreeActions}
 
-Not all [[finite groups]] have any free continuous action on any $n$-sphere: One [[obstruction]] is Smith's "$p^2$-condition" (Prop. \ref{SmithPSquareCondition}) below, another is Milnor's "$2 p$-condition". But these are the only two obstructions, and a finite group that evades these is guaranteed to act not just continuously on a sphere of a single dimension, but smoothly on spheres of any dimension which is a multiple of its [[Artin-Lam induction exponent]] (Prop. \ref{MadsenThomasWallTheorem} below).
+Not all [[finite groups]] have any free continuous action on any $n$-sphere: One [[obstruction]] is Smith's "$p^2$-condition" (Prop. \ref{SmithPSquareCondition} below), another is Milnor's "$2 p$-condition". But these are the only two obstructions, and a finite group that evades these is guaranteed to act not just continuously on a sphere of a single dimension, but smoothly on spheres of any dimension which is a multiple of its [[Artin-Lam induction exponent]] (Prop. \ref{MadsenThomasWallTheorem} below).
 
 \begin{proposition}
 \label{SmithPSquareCondition}
@@ -295,36 +296,68 @@ This condition has come to be called the "$p^2$-condition" (Def. \ref{pqConditio
 \end{remark}
 
 
-
 \begin{definition}\label{pqCondition}
 **($p q$ condition)**
 For $p, q$ a [[pair]] of [[prime numbers]], not necessarily distinct, 
 a [[finite group]] $G$ is said to satisfy the *$p q$-condition* if all [[subgroups]] of [[order of a group|order]] $p \cdot q$ are [[cyclic groups]]:
 $$
   H \,\subset\, G
-  \;
+  \;\;\;
   \text{with}
-  \;
+  \;\;\;
   ord(H) \,=\, p q
-  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
   \Rightarrow
-  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
   H \,\simeq\, \mathbb{Z}/(p q)
   \,.
 $$ 
 \end{definition}
 
+\begin{proposition}\label{EquivalentVersionsOfPSquareCondition}
+**(equivalent statements of the $p^2$-condition)
+\linebreak
+  For a [[finite group]] $G$, the following are equivalent: 
+
+  1. For all [[prime numbers]] $p$, $G$ satisfies the $p^2$-condition (Def. \ref{pqCondition}).
+
+  1. For all [[prime number|primes]] $p$,  the $p$-[[Sylow subgroup]] of $G$ is either cyclic or (if $p = 2$) [[generalized quaternion group|generalized quaternion]].
+
+  1. $G$ has "periodic cohomology" in that there exists $k \in \mathbb{N}$ such that its [[integral cohomology|integral]] [[group cohomology]] [[cohomology groups|group]] in degree $k$ is [[cyclic group|cyclic]]:
+
+     $$
+       \underset{k \in \mathbb{N}}{\exists}
+       \;
+       \underset{N_k \in \mathbb{N}}{\exists}
+       \;\;
+       H^k_{grp}(G;\, \mathbb{Z}) \,\simeq\, \mathbb{Z}/_{n_k}
+     $$ 
+
+     In this case the possible "periods" $k$ form a [[subgroup]] of $\mathbb{Z}$ ([Cartan & Eilenberg 1956, p. 261 (283 of 421)](homological+algebra#CartanEilenberg), with $H^{-k}(G;\, \mathbb{Z}) \coloneqq H_k(G;\, \mathbb{Z})$ by [p. 232 (254 of 421)](homological+algebra#CartanEilenberg)) 
+
+1. Every [[abelian group|abelian]] [[subgroup]] of $G$ is [[cyclic group|cyclic]].
+
+\end{proposition}
+([Cartan & Eilenberg 1956, Thm. IV 11.6, p. 262 (284 of 421)](homological+algebra#CartanEilenberg))
+
+
 \begin{proposition}\label{MadsenThomasWallTheorem}
 **(Madsen-Thomas-Wall theorem)**
 \linebreak
-  A [[finite group]] $G$ has a [[G-space|continuous]] [[free action]] on some [[n-sphere]] if and only if it satisfies the $p^2$-condition and the $2 p$-condition (Def. \ref{pqCondition}) for all [[prime numbers]] $p$.
+  A [[finite group]] $G$ has a [[G-space|continuous]] [[free action]] on some [[n-sphere]] if and only if it satisfies 
+
+1. the $p^2$-condition (see Prop. \ref{EquivalentVersionsOfPSquareCondition})
+
+1. the $2 p$-condition 
+
+for all [[prime numbers]] $p$ (Def. \ref{pqCondition}).
 
 In this case there exists also a [[smooth structure]] on some [[n-sphere]] (possibly an [[exotic smooth structure]]) such that $G$ has a [[smooth function|smooth]] [[free action]] on it.
 
 Specifically, such free smooth actions exist in particular on all $S^n$ for which $n+1$ is any multiple of the [[Artin-Lam induction exponent]], hence exist on spheres of arbitrarily large dimension.
 \end{proposition}
 
-([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed as [Hambleton 2014, Thm. 6.1](#Hambleton14))
+([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed in [Hambleton 2014, Thm. 6.1](#Hambleton14))
 
 \linebreak
 
