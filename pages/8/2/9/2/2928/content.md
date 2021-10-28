@@ -16,6 +16,7 @@
 ## Definition
  {#Definition}
 
+\begin{definition}
 An **involution** is an [[endomorphism]] $\sigma$ whose [[composition]] with itself is the [[identity morphism]]:
 
 \[
@@ -23,15 +24,39 @@ An **involution** is an [[endomorphism]] $\sigma$ whose [[composition]] with its
   \sigma \circ \sigma \;=\; id
   \,.
 \]
-
+\end{definition}
 Such an endomorphism is necessarily an [[automorphism]], being its own [[inverse morphism|inverse]].
 
-On [[algebras]] and other [[mathematical structures]] where this makes sense, an __anti-involution__ is an [[anti-homomorphism]] satisfying (eq:InvolutiveProperty), instead of a [[homomorphism]] (hence an anti-[[endomorphism]] and necessarily an anti-[[automorphism]]). 
+\begin{remark}
+\label{InvolutionsAreZModTwoActions}
+**(involutions are equivalently $\mathbb{Z}/2$-actions)**
+\linebreak
+Involutions are equivalently the value on the single non-trivial element $\sigma$ in [[cyclic group of order 2|$\mathbb{Z}/2$]] of a [[group action]] by $\mathbb{Z}/2$.
 
+In this guise, involutions appear throughout [[representation theory]], [[transformation groups]], [[equivariant homotopy theory]], [[equivariant cohomology]], etc.
+
+In particular, involutions, are the defining ingredients of *Real* (with capital "R"!) [[Whitehead-generalized cohomology theories]] such as [[KR-theory]], [[MR-theory]], [[BPR-theory]] and [[ER-theory]].
+\end{remark}
+
+\begin{remark}
+**(terminology in algebra)**
+\linebreak
 An [[associative algebra]] equipped with an anti-involution is called a *[[star-algebra]]*.
+
+On [[algebras]] and other [[mathematical structures]] where this makes sense, an __anti-involution__ is an [[anti-homomorphism]] satisfying (eq:InvolutiveProperty), instead of a [[homomorphism]] (hence an anti-[[endomorphism]] and necessarily an anti-[[automorphism]]). 
+\end{remark}
+
+\begin{remark}
+**(terminology in topology)**
+\linebreak
+A [[topological space]] equipped with an involutive [[homeomorphism]] is sometimes called a *[[real space]]* (at least in the context of [[KR-theory]]).
+
+In view of Rem. \ref{InvolutionsAreZModTwoActions}, involutions on topological spaces are equivalently known as *[[topological G-spaces]] for $G = $ [[cyclic group of order 2|\mathbb{Z}/2$]]*. The case of [[n-spheres]] with involution is discussed [here](group+actions+on+spheres#Involutions).
+\end{remark}
 
 
 ## Properties
+
 
 ### Commuting involutions
 
@@ -119,7 +144,13 @@ and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ
 
 ## References
 
+Discussion in [[combinatorics]]:
+
 * Philippe Flajolet and Robert Sedgewick, _Analytic Combinatorics_, CUP, 2009. ([author pdf](http://algo.inria.fr/flajolet/Publications/book.pdf))
+
+Discussion in [[differential topology]]:
+
+* [[Santiago López de Medrano]], *Involutions on Manifolds*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **59**, Springer 1971 ([doi:10.1007/978-3-642-65012-3](https://link.springer.com/book/10.1007/978-3-642-65012-3))
 
 [[!redirects involution]]
 [[!redirects involutions]]
