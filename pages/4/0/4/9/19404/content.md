@@ -862,6 +862,17 @@ given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n
   \;\;
   Map
   \big(
+    \esh
+    \,
+    \mathbf{B}G
+    ,\,
+    \esh
+    \,
+    \mathbf{B}\Gamma
+  \big)
+  \;=\;
+  Map
+  \big(
     B G
     ,\,
     B \Gamma
