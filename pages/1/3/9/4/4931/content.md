@@ -296,9 +296,10 @@ That an open subset $U \subseteq \mathbb{R}^4$ homeomorphic to $\mathbb{R}^4$ eq
 ### Star-shaped regions diffeomorphic to open ball
  {#ReferencesStarShapedReasonDiffeomorphicToOpenBall}
 
-The proof that open star-shaped regions are diffeomorphic to a ball appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in
+The proof that open star-shaped regions are diffeomorphic to a ball appears as 
 
-* {#Ferus07} [[Dirk Ferus]], _Analysis III_ (2007) ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
+* {#Ferus07} [[Dirk Ferus]], [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in: _Analysis III_ (2007) ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf), [[Ferus_AnalysisIII.pdf:file]]) 
+
 
 It is a lengthy proof, due to Stefan Born. 
 
