@@ -16,7 +16,7 @@ The intended meaning is that the head of the stream is available now while the t
 
 * Robert Atkey, Conor McBride, _Productive Coprogramming with Guarded Recursion_, ([Productive Coprogramming with Guarded Recursion](https://bentnib.org/productive.pdf))
 
-* Aleš Bizjak, _On Semantics and Applications of Guarded Recursion_, ([PhD thesis](http://www.cs.au.dk/~abizjak/documents/thesis/semantics-applications-gr.pdf))
+* Aleš Bizjak, _On Semantics and Applications of Guarded Recursion_, ([PhD thesis](https://abizjak.github.io/documents/thesis/semantics-applications-gr.pdf))
 
 * Ranald Clouston, Aleš Bizjak, Hans Bugge Grathwohl, Lars Birkedal, _The Guarded Lambda-Calculus: Programming and Reasoning with Guarded Recursion for Coinductive Types_, ([arXiv:1606.09455](https://arxiv.org/abs/1606.09455))
 
