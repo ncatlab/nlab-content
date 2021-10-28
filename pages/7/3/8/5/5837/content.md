@@ -141,13 +141,20 @@ $$
 ([Hatcher 81](#Hatcher81))
 
 
-+-- {: .num_theorem #SmaleConjecture}
-###### Theorem **(Smale conjecture)**
-
-The bare homotopy type of the diffeomorphism group of the 3-sphere is that of the [[orthogonal group]] $O(4)$
+\begin{theorem}
+\label{SmaleConjecture}
+**(Smale conjecture)**
+\linebreak
+The bare [[homotopy type]] of the [[diffeomorphism group]] of the [[3-sphere]] is that of the [[orthogonal group]] $O(4)$
 
 $$
-  \Pi(Diff(S^3)) \simeq \Pi(O(4))
+  \esh\big(
+    Diff(S^3)
+  \big) 
+  \;\simeq\; 
+  \esh 
+  \,
+   O(4))
   \,,
 $$
 
@@ -161,11 +168,16 @@ $$
 Also
 
 $$
-  \Pi(Diff(D^3)) \simeq \Pi(O(3))
-  \,.
+  \esh
+   \,
+   Diff(D^3)
+   \;\simeq\; 
+   \esh
+   \, 
+   O(3)
+   \,.
 $$
-
-=--
+\end{theorem}
 
 After being conjectured by Smale, this was proven in ([Hatcher 1983](#Hatcher)).
 
@@ -238,6 +250,17 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 * {#Waldhausen68} [[Friedhelm Waldhausen]], _On Irreducible 3-Manifolds Which are Sufficiently Large_, Annals of Mathematics
 Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.org/stable/1970594))
+
+
+### For 4-manifolds
+
+For 4-manifolds the analougue of the Smale conjecture fails:
+
+* {#Watanabe18} [[Tadayuki Watanabe]], *Some exotic nontrivial elements of the rational homotopy groups of $Diff(S^4)$* ([arXiv:1812.02448](https://arxiv.org/abs/1812.02448))
+
+* {#Watanabe21} [[Tadayuki Watanabe]], *Addendum to: Some exotic nontrivial elements of the rational homotopy groups of $Diff(S^4)$ (homological interpretation)* ([arXiv:2109.01609](https://arxiv.org/abs/2109.01609))
+
+  > (via  [[graph complexes]])
 
 
 ### General
