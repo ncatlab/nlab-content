@@ -163,13 +163,13 @@ Finally, since $\mathbb{H} \,\ni\, q \,\mapsto\, \bar q \cdot q \,\in\, \mathbb{
 Notice that, while an analogous argument shows that with $G \subset Sp(1)$ also the [[direct product group]] $G^{n+1}$ canonically acts on $S^{4n+3}$ by componentwise left multiplication, for $n \geq 2$ this action is no longer free, as the $k$th factor subgroup now fixes the elements whose $k$th component vanishes. In fact, higher direct product powers of cyclic groups in general have *no* free action on spheres of any dimension, see Smith's $p^2$-condition (Prop. \ref{SmithPSquareCondition} below).
 
 
-#### Involutions
+#### Free involutions
  {#Involutions}
 
 The [above examples](#BasicExamplesOfFreeActionsOnSpheres) of free actions on spheres are all on odd-dimensional spheres, except when the group is [[cyclic group of order 2|$\mathbb{Z}/2$]], hence when the action is by [[involutions]] (Rem. \ref{ZTwoActionsAreInvolutions} below), where the antipodal free action (Ex. \ref{ActionOfZModTwoByAntipodalInversion}) exists in all dimensions. Indeed, it holds in general that the only free actions of finite groups on even-dimensional spheres are [[involutions]] (Prop. \ref{OnlyZModTwoCanActFreelyOnEvenDimensionalSpheres} below), and, as in the canonical example, all free involutions on even-dimensional spheres are [[orientation]]-reversing, and those on odd-dimensional spheres are orientation-preserving (Prop. \ref{FreeZModTwoActionOnEvenDimSphereMustBeOrientationReversing} below).
 
 
-Besides the canonical example of the antipodal involution, there are -- at least in the [[categories]] of [[piecewise-linear structure|piecewise-linear]] and of [[smooth structure|smooth]] actions --  families of exotic involutions on $n$-spheres (Ex. ... below).
+While, therefore, all free involutions on a given $n$-sphere are [[homotopy|homotopic]] to the antipodal involution (Rem. \ref{FreeInvolutionsOnNSphereAllHaveTheSameHomotopyClass} below), at least in the [[categories]] of [[piecewise-linear structure|piecewise-linear]] and of [[smooth structure|smooth]] actions there are families of distinct exotic involutions on $n$-spheres (Ex. \ref{NonStandardFreeInvolutions} below).
 
 
 \begin{proposition}
@@ -227,17 +227,73 @@ By the [[Lefschetz fixed point theorem]],
 see [this example](Lefschetz+trace+formula#FixedPointTheoremForHomeomorphismsOfnSpheres) for details.
 \end{proof}
 
+\begin{remark}
+\label{FreeInvolutionsOnNSphereAllHaveTheSameHomotopyClass}
+  Prop. \ref{FreeZModTwoActionOnEvenDimSphereMustBeOrientationReversing} implies that the [[homotopy class]] of any fixed-point free [[involution]] $\sigma \,\colon\, S^{n} \to S^n$ is, as an element in the [[homotopy groups of spheres]],
 
-#### Obstructions and existence
+* on an [[even number|even]]-dimensional $n$-sphere, $n = 2k$, equal to 
+
+  $$  
+    [\sigma] \,=\, - 1 \,\in\, \mathbb{Z} \,\simeq\, \pi_{2k}(S^{2k})
+  $$
+
+* on an [[odd number|odd]]-dimensional $n$-sphere, $n = 2k+1$, equal to 
+
+  $$  
+    [\sigma] \,=\, + 1 \,\in\, \mathbb{Z} \,\simeq\, \pi_{2k+1}(S^{2k+1}) 
+    \,.
+  $$
+
+which means that every free involution on any $n$-sphere is [[homotopy|homotopic]] to the antipodal involution (Ex.\ref{ActionOfZModTwoByAntipodalInversion}).
+\end{remark}
+Nevertheless, there are in general several involutions on any given $n$-sphere which are *not* [[isomorphism|isomorphic]] to the antipodal involution as $\mathbb{Z}/2$-actions, certainly if regarded in the category of smooth (or just piecewise-linear) actions:
+
+\begin{example}
+\label{NonStandardFreeInvolutions}
+**(non-standard free smooth involutions on $n$-spheres)**
+\linebreak
+There are, in the [[category]] [[smooth function|smooth]] $\mathbb{Z}/2$-[[group action|actions]], up to [[isomorphism]]:
+
+* a single free involution on the [[3-sphere]] $S^3$ (hence the antipodal Ex. \ref{ActionOfZModTwoByAntipodalInversion})
+
+  ([Livesay 1960](#Livesay60))
+
+* at least 2 distinct free involutions on the [[4-sphere]] $S^4$
+
+  ([Fintushel & Stern 1981](#FintushelStern81))
+
+* 4 distinct free involutions on the [[5-sphere]] [[5-sphere|$S^5$]]
+
+* 4 distinct free involutions on the [[6-sphere]] [[6-sphere|$S^6$]]
+
+* $card(\mathbb{Z}/2 \oplus \mathbb{Z}/28 \oplus \mathbb{Z})$ distinct free involutions on the [[7-sphere]] [[7-sphere|$S^7$]]
+
+  ([López de Medrano, Sec. V.6.1](#LopezdeMedrano71))
+
+\end{example}
+Here all spheres are equipped with their standard smooth structure (?), it is just the extra involutions which are non-standard.
+
+
+#### General obstructions and existence
+
+Not all [[finite groups]] have any free continuous action on any $n$-sphere: One [[obstruction]] is Smith's "$p^2$-condition" (Prop. \ref{SmithPSquareCondition}) below, another is Milnor's "$2 p$-condition". But these are the only two obstructions, and a finite group that evades these is guaranteed to act not just continuously on a sphere of a single dimension, but smoothly on spheres of any dimension which is a multiple of its [[Artin-Lam induction exponent]] (Prop. \ref{MadsenThomasWallTheorem} below).
 
 \begin{proposition}
 \label{SmithPSquareCondition}
 **(Smith's $p^2$-condition)**
 \linebreak
   For $p$ a [[prime number]],
-  the [[direct product group]] $\mathbb{Z}/p \times \mathbb{Z}/p$ and more generally the higher powers $(\mathbb{Z}/p)^{\geq 2}$ of the prime [[cyclic group]] do *not* have any continuous [[free action]] on any [[n-sphere]].
+  the [[direct product group]] $\mathbb{Z}/p \times \mathbb{Z}/p$ and more generally the higher powers $(\mathbb{Z}/p)^{\geq 2}$ of the prime [[cyclic group]] do *not* have any [[G-space|continuous]] [[free action]] on any [[n-sphere]].
 \end{proposition}
 ([Smith 1944, p. 107 (4 of 5)](#Smith44))
+
+\begin{remark}
+By the [[fundamental theorem of finitely generated abelian groups]], 
+Prop. \ref{SmithPSquareCondition} immediately implies that if a [[finite group]] has any [[G-space|continuous]] [[free action]] on any [[n-sphere]], then it must satisfy the condition that all its [[subgroups]] of [[order of a group|order]] $p^2$ are [[cyclic group|cyclic]], i.e. [[isomorphism|isomorphic]] to $\mathbb{Z}/p^2$. 
+
+This condition has come to be called the "$p^2$-condition" (Def. \ref{pqCondition} below).
+\end{remark}
+
 
 
 \begin{definition}\label{pqCondition}
@@ -269,6 +325,8 @@ Specifically, such free smooth actions exist in particular on all $S^n$ for whic
 \end{proposition}
 
 ([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed as [Hambleton 2014, Thm. 6.1](#Hambleton14))
+
+\linebreak
 
 
 ### Fixed loci of the circle group acting on spheres
@@ -312,6 +370,14 @@ Discussion of free actions on [[product topological space|products]] of spheres:
 Discussion of the fixed point-sets of finite group actions on even-dimensional spheres:
 
 * {#Craciun13} Gheorghe Craciun, *Most homeomorphisms with a fixed point have a Cantor set of fixed points*, Archiv der Mathematik volume 100, pages 95–99 (2013) ([doi:10.1007/s00013-012-0466-z](https://doi.org/10.1007/s00013-012-0466-z))
+
+### Classification of free involutions:
+
+* {#Livesay60} [[G. R. Livesay]]  *Fixed Point Free Involutions on the 3-Sphere*, Annals of Mathematics Second Series, Vol. 72, No. 3 (Nov., 1960), pp. 603-611 ([jstor:1970232](https://www.jstor.org/stable/1970232))
+
+* {#LopezdeMedrano71} [[Santiago López de Medrano]], *Involutions on Manifolds*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **59**, Springer 1971 ([doi:10.1007/978-3-642-65012-3](https://link.springer.com/book/10.1007/978-3-642-65012-3))
+
+* {#FintushelStern81} [[Ronald Fintushel]], [[Ronald J. Stern]], *An Exotic Free Involution on $S^4$*, Annals of Mathematics Second Series, Vol. 113, No. 2 (Mar., 1981), pp. 357-365 ([jstor:2006987](https://www.jstor.org/stable/2006987))
 
 ### Classification of finite free actions by isometries
 
