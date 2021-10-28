@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -49,6 +60,7 @@ where we embed the permutation group via permutation matrices into the group $G$
 
 * [class equation](class+equation#sylow_theorems)
 
+* [[group actions on n-spheres]]
 
 ##References
 
