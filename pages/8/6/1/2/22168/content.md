@@ -27,10 +27,66 @@ The typical [[gros topos|gros]] -[[toposes]] and -[[(∞,1)-toposes|$\infty$-top
 
 But [[cohesion]] may usefully be considered over non-trivial [[base toposes]] or [[base (infinity,1)-topos|base $\infty$-toposes]]. For example, the [[slice (infinity,1)-topos|slice $\infty$-topos]] of [[global equivariant homotopy theory]] over the archetypical $G$-[[orbi-singularity]] is cohesive over proper $G$-[[equivariant homotopy theory]] (see at *[[cohesion of global- over G-equivariant homotopy theory]]*).
 
-{#AlmostCohesionInIntroduction} Analogously, the [[gros topos]] of [[pro-étale topos|pro-étale]] [[arithmetic geometry|arithmetic]]/[[algebraic geometry]], while not cohesive over [[sets]], has at least an extra left adjoint over some base topos related to condensed or pyknotic sets.
+{#AlmostCohesionInIntroduction} Analogously, the [[gros topos]] of [[pro-étale topos|pro-étale]] [[arithmetic geometry|arithmetic]]/[[algebraic geometry]], while not cohesive over [[sets]], has at least an extra [[left adjoint]] over the base topos of [[condensed sets]].
 This and the analogous statement for the respective [[hypercomplete (infinity,1)-topos|hypercomplete $\infty$-toposes]] is claimed in [Scholze 2020](#Scholze2020), see also [Scholze a](#Scholzea). 
 
-In view of the terminology of "[[condensed mathematics]]" one might call this local contractibility of pro-étale arithmetic geometry relative to something like pyknotic sets: _condensed local contractibility_. 
+In view of the terminology of "[[condensed mathematics]]" one might call this local contractibility of pro-étale arithmetic geometry relative to condensed sets: _condensed local contractibility_. 
+
+## Statement
+ {#Statement}
+
+> under construction
+
+\begin{definition}
+Given 
+
+* $k$ a separably closed field,
+
+* $\kappa$ an uncountable [[strong limit cardinal]]
+
+write
+
+* $Sch^{\leq \kappa}_{/Spec(k)}$ for the category of $\kappa$-small [[schemes]] over $Spec(k)$, 
+
+* $Sch^{\leq \kappa}_{/_{pet} Spec(k)}$ for its [[full subcategory]] of those that are [[pro-étale morphism of schemes|pro-étale]] over $Spec(k)$, 
+
+  [[equivalence of categories|equivalently]] this is the category of $\kappa$-small [[profinite sets]],
+
+both regarded as [[sites]] via the [[pro-étale site|pro-étale topology]], and write
+
+\[
+  \label{TheGeometricMorphism}
+  Sh\big( Sch^{\leq \kappa}_{/Spec(k)}\big) 
+  \underoverset
+    {\underset{\Gamma}{\longrightarrow}}
+    {\overset{LConst}{\longleftarrow}}
+    {\;\; \bot \;\;} 
+  Sh\big( Sch^{\leq \kappa}_{/_{pet}Spec(k)}\big) 
+\]
+
+for the canonical [[geometric morphism]] between their [[sheaf toposes]].
+\end{definition}
+
+\begin{remark}
+\label{TerminologyOfCondensedSets}
+  The [[base topos]] in (eq:TheGeometricMorphism) is equivalently called the category of $\kappa$-*[[condensed sets]]*.
+\end{remark}
+
+The following seems to be claimed:
+\begin{prop}
+  The geometric morphism (eq:TheGeometricMorphism) has the following properties:
+
+* $LConst$ is [[fully faithful functor|fully faithful]];
+
+* $\Gamma$ is a [[left adjoint]]
+
+and
+
+* $LConst$ is a [[right adjoint]].
+
+\end{prop}
+The first two claims are fairly standard, the last one would make the topos of pro-étale schemes be [[locally connected topos|locally connected]] and hence *almost* [[cohesive topos|cohesive]] [[base topos|over]] $\kappa$-[[condensed sets]] (by Rem. \ref{TerminologyOfCondensedSets}).
+
 
 
 ## Structures in condensed local contractibility
@@ -39,9 +95,6 @@ In view of the terminology of "[[condensed mathematics]]" one might call this lo
 The point of axiomatic [[cohesion]] is that it formally implies the presence of structures of the form of key phenomena known in traditional [[differential topology]], but now [[internalization|internal]] into any given [[cohesive topos]]/[[cohesive (infinity,1)-topos|$\infty$-topos]]. Hence to the extent that [[pro-étale topos|pro-étale]] [[arithmetic geometry]] is cohesive over the [[pro-étale topos|pro-étale]] [[base topos]] it inherits these structures.
 
 There would be much to be discussed here. The following lists some first observations with links to further commentary.
-
-
-## Possible construction
 
 ### Differential cohomology diagram
 
