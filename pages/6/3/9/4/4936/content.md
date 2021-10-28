@@ -1,4 +1,7 @@
-[[!redirects star-shaped neighborhood]]
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -18,6 +21,13 @@ A useful special case pertains to a [[simplicial complex]] $K$, where if $v$ is 
 
 A [[convex set]] is the same as a set that is a star domain about each of its points. 
 
+## Related entries
+
+* [[open ball]]
+
+* [[good open cover]]
+
+
 [[!redirects star-shaped]]
 [[!redirects star shaped]]
 
@@ -25,9 +35,13 @@ A [[convex set]] is the same as a set that is a star domain about each of its po
 [[!redirects star shaped region]]
 
 [[!redirects star-shaped neighborhood]]
+[[!redirects star-shaped neighborhood]]
 [[!redirects star shaped neighborhood]]
 [[!redirects star-shaped neighbourhood]]
 [[!redirects star shaped neighbourhood]]
+
+[[!redirects star-shaped subset]]
+[[!redirects star-shaped subsets]]
 
 [[!redirects star domains]] 
 [[!redirects star-shaped domain]] 
