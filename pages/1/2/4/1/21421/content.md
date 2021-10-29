@@ -13,6 +13,11 @@ with a [[hyperbolic space]]-variant in:
 
 * [[Michael Atiyah]], [[Paul Sutcliffe]], _Skyrmions, instantons, mass and curvature_,  	Phys. Lett. B605 (2005) 106-114 ([arXiv:hep-th/0411052](https://arxiv.org/abs/hep-th/0411052))
 
+Further discussion of this approximation:
+
+* [[Josh Cork]], [[Chris Halcrow]], *ADHM skyrmions* ([arXiv:2110.15190](https://arxiv.org/abs/2110.15190))
+ 
+
 The observation that the result of [Atiyah-Manton 89](#AtiyahManton89) becomes an exact [[Kaluza-Klein theory|Kaluza-Klein construction]] of [[Skyrmions]]/[[baryons]] from [[D=5 Yang-Mills theory|D=5]] [[instantons]] when the full [[Kaluza-Klein theory|KK-tower]] of [[vector mesons]] as in [Son-Stephanov 03](#SonStephanov03) is included into the Skyrmion model (see also [there](skyrmion#ReferencesSkyrmeHadrodynamicsWithVectorMesons)) is due to:
 
 * {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
