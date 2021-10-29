@@ -28,7 +28,7 @@ Given a [[category]] $C$, a _restriction structure_ consists of the assignment t
 * $\overline{g\circ \overline{f}} = \overline{g}\circ \overline{f}$ whenever $s(f)=s(g)$, and
 * $\overline{g}\circ f = f\circ \overline{g\circ f}$ whenever $s(g) = t(f)$
 
-and a _restriction category_ is a category with a restriction structure. 
+where $s(f) = \text{dom}(f)$ is the domain of $f$. A _restriction category_ is a category with a restriction structure. 
 
 Note that a restriction structure is a [[structure]] in the technical sense of the word, not a [[property]]. Note that it follows from the above definition that $\overline{f}$ is idempotent for composition: $\overline{f}\circ \overline{f} = \overline{f}$, and that the operation $f \mapsto \overline{f}$ is also idempotent: $\overline{\overline{f}} = \overline{f}$ (among other properties).
 
