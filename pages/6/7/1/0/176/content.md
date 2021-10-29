@@ -431,8 +431,10 @@ Introduction and surveys include
 Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Springer 2015 
 ([arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4))
 
+* [[Jörg Teschner]], _A guide to two-dimensional conformal field theory_ ([arXiv:1708.00680](http://arxiv.org/abs/1708.00680))
 
-* Jeorg Teschner, _A guide to two-dimensional conformal field theory_, [arXiv:1708.00680](http://arxiv.org/abs/1708.00680)
+* Joaquin Liniado, *Two Dimensional Conformal Field Theory and a Primer to Chiral Algebras* ([arXiv:2110.15164](https://arxiv.org/abs/2110.15164))
+
 
 For a discussion of mathematical formalization ([[vertex operator algebras]], [[conformal nets]], [[functorial QFT]]) see
 
