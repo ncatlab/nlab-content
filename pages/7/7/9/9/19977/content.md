@@ -17,6 +17,10 @@ Gauged skyrmions with more realistic binding energies:
 
 * [[Josh Cork]], [[Derek Harland]], [[Thomas Winyard]], *A model for gauged skyrmions with low binding energies* ([arXiv:2109.06886](https://arxiv.org/abs/2109.06886))
 
+On [[Skyrmions]] via [[Yang-Mills instantons]]:
+
+* [[Josh Cork]], [[Chris Halcrow]], *ADHM skyrmions* ([arXiv:2110.15190](https://arxiv.org/abs/2110.15190))
+
 
 ## Related $n$Lab entries
 
