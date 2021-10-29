@@ -374,6 +374,9 @@ Textbook accounts:
 * {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
 
+* {#Lee09}  [[Jeffrey Lee]], _Manifolds and differential geometry_, Graduate Studies in Mathematics **107**  (2009) ([ISBN: 978-0-8218-4815-9](https://bookstore.ams.org/gsm-107), [doi:10.1090/gsm/107](https://doi.org/10.1090/gsm/107))
+
+
 * {#Lee12} [[John Lee]], _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
 
 * [[Theodore Frankel]], chapter 1 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
