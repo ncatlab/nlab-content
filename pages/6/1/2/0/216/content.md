@@ -706,7 +706,7 @@ Functoriality of the construction of $C^\ast$-convolution algebras (its extensio
 * [[Paul Muhly]], [[Jean Renault]], D. Williams, _Equivalence and isomorphism for groupoid $C^\ast$-algebras_, J. Operator Theory 17 (1987), no. 1, 3&#8211;22.
  {#MuhleReaultWilliams87}
 
-* [[Janez Mr?un]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
+* [[Janez Mrčun]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
  {#Mrcun99}
 
 * [[Klaas Landsman]], _The Muhly-Renault-Williams theorem for Lie groupoids and its classical counterpart_, Lett. Math. Phys. 54 (2000), no. 1, 43&#8211;59. ([arXiv:math-ph/0008005](http://arxiv.org/abs/math-ph/0008005))
@@ -720,9 +720,9 @@ Functoriality of the construction of $C^\ast$-convolution algebras (its extensio
 
 A characterization of the convolution algebras of [[étale groupoids]] with their [[Hopf algebroid]] structure is in
 
-* [[Janez Mr?un]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
+* [[Janez Mrčun]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
 
-* [[Jure Kali?nik]], [[Janez Mr?un]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
+* [[Jure Kališnik]], [[Janez Mrčun]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
  {#KalisnikMrcun}
 
 #### Modules over Lie groupoid convolution algebras and K-theory
@@ -738,7 +738,7 @@ In ([Bos, chapter 7](#Bos)) is discussion refining this to continuous representa
 
 Representation of convolution algebras of [[étale groupoids]] is in
 
-* [[Jure Kali?nik]], _Groupoid representations and modules over the convolution algebras_ ([arXiv:0806.1832](http://arxiv.org/abs/0806.1832))
+* [[Jure Kališnik]], _Groupoid representations and modules over the convolution algebras_ ([arXiv:0806.1832](http://arxiv.org/abs/0806.1832))
 
 The [[operator K-theory]] of groupoid convolution algebras (the [[topological K-theory]] of the corresponding [[differentiable stacks]]) is discussed in
 
