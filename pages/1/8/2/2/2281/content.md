@@ -28,7 +28,7 @@ Introducing [[Eilenberg-MacLane spaces]]:
 
 On [[homological algebra]]:
 
-* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
+* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
 
 
 On [[homology of loop spaces]]:
