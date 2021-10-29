@@ -337,6 +337,8 @@ reviewed in
 
 * {#Harlow20} [[Daniel Harlow]], *Computation and Holography*, talk at [Snowmass Computational Frontier Workshop 2020](https://indico.fnal.gov/event/43829/) ([pdf](https://indico.fnal.gov/event/43829/contributions/193566/attachments/132763/163346/snowmasscomp.pdf), [[HarlowComputationHolography.pdf:file]])
 
+* Tanay Kibe, Prabha Mandayam, Ayan Mukhopadhyay, *Holographic spacetime, black holes and quantum error correcting codes: A review* ([arXiv:2110.14669](https://arxiv.org/abs/2110.14669))
+
 
 See also
 
