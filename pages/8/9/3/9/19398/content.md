@@ -383,6 +383,28 @@ Specifically, such free smooth actions exist in particular on all $S^{2 k \cdot 
 ([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed in [Hambleton 2014, Thm. 6.1](#Hambleton14))
 
 
+\begin{example}
+\label{FiniteSubgroupsOfSUTwoSatisfyTheSmithAndTheMilnorCondition}
+**(Finite subgroups of $SU(2)$ satisfy the $p^2$ and $2p$ conditions)**
+\linebreak
+  Every non-[[trivial group|trivial]] [[finite subgroup of SU(2)]] $G \,\subset\, SU(2) \,\simeq\, Sp(1)$ 
+has a free smooth action on $S^{4k+3}$, for all $k \in \mathbb{N}$, by Ex. \ref{FiniteADEGroupsActFreelyOnFourNPlusThreeSpheres}. By Prop. \ref{MadsenThomasWallTheorem} this implies that all subgroups of $G$ of order $p^2$ or $2 p$ must be cyclic.
+
+Indeed, by the [[ADE-classification]] of [[finite subgroups of SU(2)]], the only possible non-cyclic subgroups are: 
+
+1. the [[binary dihedral groups]] $2 D_{2(r+3)}$ of order $2^2 \cdot (r + 3)$,
+
+1. the [[binary tetrahedral group]] of order $24 \,=\, 2^3 \cdot 3$,
+
+1. the [[binary octahedral group]] of order $48 \,=\, 2^4 \cdot 3$,
+
+1. the [[binary icosahedral group]] of order $120 \,=\, 2^3 \cdot 3 \cdot 5$.
+
+None of these orders is of the form $p^2$ or $2 p$, in accord with Prop. \ref{MadsenThomasWallTheorem}. 
+
+On the other hand, the plain [[dihedral groups]] $D_{2(r+3)} \,\subset\, SO(3)$ have order $2 \cdot (r + 3)$ and hence [[finite subgroups of SO(3)]] may violate Milnor's $2 p$-condition (Prop. \ref{Milnor2PCopndition}). Certainly their canonical actions on [[2-sphere|$S^2$]] are not free (as each element must act by a rotation which necessarily fixes an [[antipode|antipodal]] pair of points).
+\end{example}
+
 
 \linebreak
 
