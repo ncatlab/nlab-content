@@ -80,7 +80,18 @@ Concerning well-pointedness:
 
 * {#HebestreitSagave19} [[Fabian Hebestreit]], [[Steffen Sagave]], p. 23 of: *Homotopical and operator algebraic twisted K-theory*, Mathematische Annalen **378** (2020) 1021-1059 ([arXiv:1904.01872](https://arxiv.org/abs/1904.01872), [doi:10.1007/s00208-020-02066-6](https://doi.org/10.1007/s00208-020-02066-6))
 
+The $\mathbb{Z}/2$-graded projective unitary group, (reflecting the twists of [[twisted K-theory]] not just in degree 3 but also in degree 1):
+
+* [[Ellen Maycock Parker]], *The Brauer Group of Graded Continuous Trace $C^\ast$-Algebras*, Transactions of the American Mathematical Society **308** 1 (1988) ([jstor:2000953](https://www.jstor.org/stable/2000953))
+
+
+
+
+
+
 
 [[!redirects PU(H)]]
 
 [[!redirects projective unitary group on a Hilbert space]]
+
+[[!redirects graded PU(H)]]
