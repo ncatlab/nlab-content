@@ -14,6 +14,13 @@
 =--
 
 
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+
 +-- {: .num_theorem}
 ###### Theorem
 **(Poincar&#233; conjecture)**
@@ -40,6 +47,8 @@ See at _[[Ricci flow]]_ for more.
 
 ## References
 
+### In dimension 3
+
 * {#Perelman02} [[Grigori Perelman]], _The entropy formula for the Ricci flow and its geometric applications_ ([arXiv:math/0211159](http://arxiv.org/abs/math/0211159))
 
 * {#BessiersEtAl} Laurent Bessieres, Gerard Besson, Michel Boileau, Sylvain Maillot, Joan Porti, _Geometrisation of 3-manifolds_ ([pdf](http://www-fourier.ujf-grenoble.fr/~besson/book.pdf))
@@ -54,7 +63,10 @@ See also
 
 * {#Martelli16} Bruno Martelli, _An Introduction to Geometric Topology_ ([arXiv:1610.02592](https://arxiv.org/abs/1610.02592))
 
+### In higher dimesnions
 
+The analog of the Poincaré conjecture in higher dimensions:
 
+* {#Newman66} M. H. A. Newman, Theorem 7 in: *The Engulfing Theorem for Topological Manifolds*, Annals of Mathematics Second Series, *84** 3 (1966) 555-571  ([jstor:1970460](https://www.jstor.org/stable/1970460))
 
 [[!redirects Poincare conjecture]]
