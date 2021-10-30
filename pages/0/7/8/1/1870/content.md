@@ -458,9 +458,9 @@ Via [[C-star algebras|$C^\ast$-algebras]]:
 
 * {#DardalatPennig15} [[Marius Dadarlat]], [[Ulrich Pennig]], *Unit spectra of K-theory from strongly self-absorbing $C^\ast$-algebras*, Algebr. Geom. Topol. 15 (2015) 137-168 ([arXiv:1306.2583](https://arxiv.org/abs/1306.2583))
 
-* [[David Brook]], *Computations in higher twisted K-theory*,  ([arXiv:2007.08964A](https://arxiv.org/abs/2007.08964A))
+* [[David Brook]], *Computations in higher twisted K-theory*  ([arXiv:2007.08964A](https://arxiv.org/abs/2007.08964A))
 
-* [[David Brook]], *Higher twisted K-theory*, ([dspace:2440/125740)](https://digital.library.adelaide.edu.au/dspace/handle/2440/125740))
+* [[David Brook]], *Higher twisted K-theory* ([dspace:2440/125740](https://digital.library.adelaide.edu.au/dspace/handle/2440/125740))
 
 Discussion of the [[twisted Chern character]] for higher twisted K-theory:
 
