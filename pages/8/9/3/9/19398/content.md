@@ -275,6 +275,19 @@ There are, in the [[category]] [[smooth function|smooth]] $\mathbb{Z}/2$-[[group
 \end{example}
 Here all spheres are equipped with their standard smooth structure (?), it is just the extra involutions which are non-standard.
 
+Similarly, there are non-standard involutions on $n$-spheres in the category of [[piecewise-linear structures]] ([López de Medrano, p. 2 (11 of 114)](#LopezdeMedrano71)) following a similar pattern.
+
+
+\begin{example}
+\label{NonStandardFreeTopologicalInvolutions}
+**(non-standard free continuous involutions on $n$-spheres)**
+There are also plenty of non-standard involutions on $n$-spheres in the topological category (both for even and for odd $n$): 
+
+By the analog of the [[Poincaré conjecture]]-theorem in higher dimensions (e.g. [Newman 1966, Thm. 7](#Newman66)), every [[topological manifold]] of the [[homotopy type]] of a [[real projective space]] has a double [[covering space]] which is a manifold of the homotopy type of an $n$-sphere, and hence is actually [[homeomorphism|homeomorphic]] to an $n$-sphere. 
+
+Therefore, topological involutions on $n$-spheres should have the same classification up to homeomorphism as homoemorphism types of topological manifolds which are homotopy equivalent to $\mathbb{R}P^n$s, and large classes of non-trivial examples  of these are known ([Belegradek, MO:407390](https://mathoverflow.net/a/407390/381)).
+\end{example}
+
 
 #### General obstructions and existence
  {#GeneralObstructionToAndExistenceOfFreeActions}
