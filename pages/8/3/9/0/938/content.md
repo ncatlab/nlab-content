@@ -283,7 +283,9 @@ This is the simplest in a class of counter-examples discussed in ([McCord](#McCo
 
   * [[n-equivalence]]
 
-  [[stable weak homotopy equivalence]]
+  * [[equivariant weak homotopy equivalence]]
+
+  * [[stable weak homotopy equivalence]]
 
 * [[Bousfield equivalence]]
 
@@ -297,30 +299,33 @@ This is the simplest in a class of counter-examples discussed in ([McCord](#McCo
 
 A general account is for instance in section 9.6 of 
 
-* [[Peter May]], _[[A Concise Course in Algebraic Topology]]_
- {#May}
+* {#May} [[Peter May]], _[[A Concise Course in Algebraic Topology]]_
+ 
 
 The characterization of weak homotopy equivalences by lifts up to homotopy seems is in
 
-* [[J. F. Jardine]], _Simplicial Presheaves_, Journal of Pure and Applied Algebra 47, 1987, no.1, 35-87.
- {#Jardine}
+* {#Jardine} [[J. F. Jardine]], _Simplicial Presheaves_, Journal of Pure and Applied Algebra 47, 1987, no.1, 35-87.
+ 
 
-* [[Rainer Vogt]], _The HELP-Lemma and its converse in Quillen model categories_ ([arXiv:1004.5249](http://arxiv.org/abs/1004.5249))
- {#Vogt}
+* {#Vogt} [[Rainer Vogt]], _The HELP-Lemma and its converse in Quillen model categories_ ([arXiv:1004.5249](http://arxiv.org/abs/1004.5249))
+ 
 
 For related and general discussion see also section 6.5 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
 
 Examples for the non-symmetry of the weak homotopy equivalence relation are in 
 
-* Michael McCord, _Singular homology groups and homotopy groups of finite topological spaces_, Duke Math. J. Volume 33, Number 3 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525))
- {#McCord}
-
-See also
+* {#McCord} [[Michael McCord]], _Singular homology groups and homotopy groups of finite topological spaces_, Duke Math. J. Volume 33, Number 3 (1966), 465-474. ([euclid.dmj/1077376525](http://projecteuclid.org/euclid.dmj/1077376525))
+ 
+See also:
 
 * Topospaces-Wiki, _[Weak homotopy equivalence of topological spaces](http://topospaces.subwiki.org/wiki/Weak_homotopy_equivalence_of_topological_spaces)_
+
+Detection in terms of free homotopy sets:
+
+* [[Takao Matumoto]], [[Norihiko Minami]], [[Masahiro Sugawara]], *On the set of free homotopy classes and Brown's construction*, Hiroshima Math. J. 14(2): 359-369 (1984) ([doi:10.32917/hmj/1206133043](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-14/issue-2/On-the-set-of-free-homotopy-classes-and-Browns-construction/10.32917/hmj/1206133043.full))
 
 
 [[!redirects weak homotopy equivalences]]
