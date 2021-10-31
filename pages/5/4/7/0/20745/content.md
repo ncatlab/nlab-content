@@ -26,7 +26,7 @@ As a variant or special sector of the [[AdS/CFT correspondence]], the _fluid/gra
 
 ### To the quark-gluon plasma
 
-For example some properties of the [[quark gluon plasma]] in [[quantum chromodynamics]] are captured well by [[fluid dynamics]], and after realizing [[QCD]] on [[D4-D8-brane bound states]] (the [[AdS/QCD correspondence]]) [[AdS/CFT]] provides a handle on this [[fluid dynamics]] in terms of the ([[quantum gravity|quantum]]) [[gravity]] ([[string theory]]) on an ambnient [[bulk]] $\sim$ [[anti de Sitter spacetime]].
+For example some properties of the [[quark gluon plasma]] in [[quantum chromodynamics]] are captured well by [[fluid dynamics]], and after realizing [[QCD]] on [[D4-D8-brane bound states]] (the [[AdS/QCD correspondence]]) [[AdS/CFT]] provides a handle on this [[fluid dynamics]] in terms of the ([[quantum gravity|quantum]]) [[gravity]] ([[string theory]]) on an ambient [[bulk]] $\sim$ [[anti de Sitter spacetime]].
 
 ### To the relativistic Navier-Stokes equation
 
