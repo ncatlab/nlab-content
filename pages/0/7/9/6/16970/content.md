@@ -199,15 +199,17 @@ $$
 
 (...)
 
-### Equivariant stable Whitehead theorem
+### Equivariant Whitehead theorem
 
-The equivariant version of the stable [[Whitehead theorem]] holds:
+See at *[[equivariant Whitehead theorem]]*.
 
-a mpa of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e.g. an $RO(G)$-degree-wise [[weak homotopy equivalence]] of [[topological G-spaces]] in the [model via indexing on all representations](#IndexedOnAllRepresentations)) precisely it if induces [[isomorphisms]] $\pi_\bullet(f) \colon \pi_\bullet(E) \longrightarrow \pi_{\bullet}(F)$ on all [[equivariant homotopy group]] [[Mackey functors]].
- 
-([Greenlees-May, theorem 2.3](#GreenleesMay))
+
 
 ## Related concepts
+
+* [[equivariant weak homotopy equivalence]]
+
+* [[equivariant Whitehead theorem]]
 
 * [[homotopy group]]
 
@@ -228,3 +230,5 @@ a mpa of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e
 
 [[!redirects equivariant stable homotopy group]]
 [[!redirects equivariant stable homotopy groups]]
+
+
