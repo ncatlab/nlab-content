@@ -725,7 +725,7 @@ $$
   \,.
 $$
 
-=---
+=--
 
 +-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
 ###### Proposition
@@ -2922,7 +2922,7 @@ A key point of what this entails is the following:
 +-- {: .num_prop #HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}
 ###### Proposition
 
-For $X \in (Top_{cg})_{Quillen}$ cofibrant (a [[retract]] of a [[cell complex]]) then the product-hom-adjunction for $Y$ (prop. \ref{CartesianClosureOfTopcg}) is a [[Quillen adjunction]]
+For $X \in (Top_{cg})_{Quillen}$ cofibrant (a [[retract]] of a [[cell complex]], e.g. a [[CW complex]]) then the product-hom-adjunction for $Y$ (prop. \ref{CartesianClosureOfTopcg}) is a [[Quillen adjunction]]
 
 $$
   (Top_{cg})_{Quillen}
@@ -3049,7 +3049,7 @@ $$
 
 It is in this sense that $\mathcal{C}$ is a category with [[extra structure]], and hence "[[enriched category|enriched]]".
  
-=---
+=--
 
 The archetypical example is the following:
 
