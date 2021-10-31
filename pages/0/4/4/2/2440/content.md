@@ -255,7 +255,7 @@ Such an algebra is called of _classical type_ if the [[action]] of its even-degr
 
       1. $F(4)$
 
-      1. $G(3)$
+      1. [[G(3)]]
 
    1. a family $D(2,1;\alpha)$ of deformations of $D(2,1)$
 
