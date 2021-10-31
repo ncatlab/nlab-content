@@ -24,7 +24,7 @@ The _equivariant Whitehead theorem_ is the generalization of the [[Whitehead the
 
 Assume that the [[equivariance group]] be a [[compact Lie group]] ([Matumoto 71](#Matumoto71), [Illman 72](#Illman72), [James-Segal 78](#JamesSegal78), [Waner 80](#Waner80)). (This assumption is used, e.g. in [Waner 80, Rem. 7.4](#Waner80), to guarantee that [[Cartesian products]] of [[coset spaces]] $G/H$ are themselves [[G-CW-complexes]], which follows for [[compact Lie groups]], e.g. by the [[equivariant triangulation theorem]].)
 
-Then: *$G$-[[homotopy equivalences]] $f \colon X \longrightarrow Y$ between [[G-CW complexes]] are equivalent to maps that induce [[weak homotopy equivalences]] $f^H \colon X^H \longrightarrow Y^H$ on all [[fixed point]] spaces for all [[closed topological space|closed]] [[subgroups|subgroups]] $H \hookrightarrow G$*. 
+Then: *$G$-[[homotopy equivalences]] $f \colon X \longrightarrow Y$ between [[G-CW complexes]] are equivalent to [[equivariant weak homotopy equivalences]], hence to [[maps]] that induce [[weak homotopy equivalences]] $f^H \colon X^H \longrightarrow Y^H$ on all [[fixed point spaces]] for all [[closed topological space|closed]] [[subgroups|subgroups]] $H \hookrightarrow G$*. 
 
 This is due to [Matumoto 71, Thm. 5.3](#Matumoto71), [Illman 72, Prop. 2.5](#Illman72), [Waner 80, Theorem 3.4](#Waner80), see also [James-Segal 78, Thm. 1.1](#JamesSegal78) with [Kwasik 81](#Kwasik81), 
 review in [Shah 10](#Shah10), [Blumberg 17, Cor. 1.2.14](#Blumberg17).
@@ -62,6 +62,9 @@ See also:
 
 * {#Waner80} [[Stefan Waner]], Theorem 3.4 in: _Equivariant Homotopy Theory and Milnor's Theorem_, Transactions of the American Mathematical Society Vol. 258, No. 2 (Apr., 1980), pp. 351-368 ([jstor:1998061](http://www.jstor.org/stable/1998061))
 
+Discussion in [[equivariant stable homotopy theory]]:
+
+* {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 Review and Lecture notes:
 
