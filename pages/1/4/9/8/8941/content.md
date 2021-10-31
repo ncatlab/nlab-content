@@ -110,7 +110,7 @@ Journal of Algebra __169__:3 (1994) 874--890 [doi](http://dx.doi.org/10.1006/jab
 * David N. Yetter, _Quantum groups and representations of monoidal categories_, 
 Math. Proc. Cambridge Philos. Soc. 108 (1990), no. 2, 261--290 [MR91k:16028](http://www.ams.org/mathscinet-getitem?mr=1074714) [doi](http://dx.doi.org/10.1017/S0305004100069139)
 
-* Gabriella B&#246;hm, Dragos Stefan, _(Co)cyclic (co)homology of bialgebroids: An approach via (co)monads_, Comm. Math. Phys. 282 (2008), no.1, 239--286, [arxiv/0705.3190](http://arxiv.org/abs/0705.3190); _A categorical approach to cyclic duality_, J. Noncommutative Geometry __6__ (2012), no. 3, 481--538, [arxiv/0910.4622](http://arxiv.org/abs/0910.4622) 
+* [[Gabriella Bohm|Gabriella B&#246;hm]], Dragos Stefan, _(Co)cyclic (co)homology of bialgebroids: An approach via (co)monads_, Comm. Math. Phys. 282 (2008), no.1, 239--286, [arxiv/0705.3190](http://arxiv.org/abs/0705.3190); _A categorical approach to cyclic duality_, J. Noncommutative Geometry __6__ (2012), no. 3, 481--538, [arxiv/0910.4622](http://arxiv.org/abs/0910.4622) 
 
 * Atabey Kaygun, Masoud Khalkhali, _Hopf modules and noncommutative differential geometry_, Lett. in Math. Physics __76:1__, pp 77--91 (2006) [arxiv/math.QA/0512031](http://arxiv.org/abs/math/0512031), [doi](http://dx.doi.org/10.1007/s11005-006-0062-x)
 
