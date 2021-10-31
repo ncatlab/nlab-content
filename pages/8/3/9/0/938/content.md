@@ -278,22 +278,20 @@ for the *free homotopy set* of maps from $K$ to $X$, hence the set of [[homotopy
 **(weak homotopy equivalences detected on free homotopy sets)**
 \label{WeakHomotopyEquivalencesDetectedOnTermsOfFreeHomotopySet}
 \linebreak
-  For $f \,\colon\, X \to Y$, a [[continuous function]], the following are equivalent:
+  For $f \,\colon\, X \to Y$, a [[continuous function]] between [[connected topological spaces]], the following are equivalent:
 
 1. $f$ is a [[weak homotopy equivalence]]
   
    $$
      \underset{n \in \mathbb{N}}{\forall}
      \;
-     \underset{x \in X}{\forall}
-     \;
      \;\;
-     p_n(X,x)
+     p_n(X)
      \underoverset
        {\simeq}
        {f_\ast}
        {\longrightarrow}
-     \pi_n\big(Y,f(y)\big)
+     \pi_n(Y)
      \,;
    $$
 
@@ -313,34 +311,40 @@ for the *free homotopy set* of maps from $K$ to $X$, hence the set of [[homotopy
    $$
 
 
-* $f$ induces an [[isomorphism]] on all free homotopy sets (eq:FreeHomotopySets) out of $K = $
+* $f$ induces 
 
-   1. the [[point space]],
+  1. an [[isomorphism]] on all free homotopy sets (eq:FreeHomotopySets) out of $K = $any [[n-sphere]] of [[positive number|positive]] [[dimension]],
 
-   1. any [[n-sphere]] of [[positive number|positive]] [[dimension]],
+     $$
+       \underset{ 
+         n \in \mathbb{N}_+
+       }{\forall}
+       \;\;
+       [S^n, X]
+       \underoverset
+         {\simeq}
+         {f_\ast}
+         {\longrightarrow}
+       [S^n, Y]
+       \,.
+     $$
 
-   1. the [[wedge sum]] of [[circles]] with [[index set]] of [[cardinality]] that of the [[fundamental group]] of $Y$:
 
-   $$
-     \underset{ 
-       K \,\in\,
-         \big\{
-           \ast, 
-           \,
-           S^{n \geq 1}, 
-           \,
-           \underset{ \pi_1(Y) }{\vee} S^1
-         \big\}
-     }{\forall}
-     \;\;
-     [K, X]
-     \underoverset
-       {\simeq}
-       {f_\ast}
-       {\longrightarrow}
-     [K, Y]
-     \,.
-   $$
+  1. a [[surjection]] on the free homotopy set out of the [[wedge sum]] of [[circles]] [[index set|indexed]] by (the set [[underlying]]) the [[fundamental group]] of $Y$:
+
+     $$
+        \big[
+          \underset{\pi_1(Y)}{\vee} S^1
+          ,\,
+          X
+        \big]
+        \overset{\; f_\ast \;}{\twoheadrightarrow}
+        \big[
+          \underset{\pi_1(Y)}{\vee} S^1
+          ,\,
+          Y
+        \big]
+     $$
 
 \end{proposition}
 ([Matumoto, Minami and Sugawara 1984, Thm. 2](#MatumotoMinamiSugawara84))
