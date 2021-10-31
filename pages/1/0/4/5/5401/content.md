@@ -29,6 +29,7 @@ In [[physics]] and [[chemistry]] ([[solid state physics]]), _cohesion_ refers to
 In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ there is discussion of the cohesion of some substance. 
 
 ### In categorical logic / topos theory
+ {#InToposTheory}
 
 [[William Lawvere]] argued that the "[[objective logic]]" of this discussion is to be formalized via [[categorical logic]] by the axiomatics of [[cohesive toposes]], i.e. by [[modal type theory]] equipped with [[shape modality]] and [[flat modality]].
 
