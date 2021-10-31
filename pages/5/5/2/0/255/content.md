@@ -82,7 +82,7 @@ The axioms then appear as:
 
 [[monad-axioms-unlabeled.png:pic]]
 
-Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$), following Eilenberg and Moore.  In even older literature, they are also referred to as **standard constructions**, the original term used by Godement when he introduced the idea. For terminological remarks by Ross Street see category-list [here](http://article.gmane.org/gmane.science.mathematics.categories/225/match=).
+Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$), following Eilenberg and Moore.  In even older literature, they are also referred to as **standard constructions**, the original term used by Godement when he introduced the idea, or **fundamental constructions**. For terminological remarks by Ross Street see category-list [here](http://article.gmane.org/gmane.science.mathematics.categories/225/match=).
 
 
 ### The bicategory of monads
