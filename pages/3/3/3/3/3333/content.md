@@ -340,9 +340,7 @@ This equivalent way of modelling the circle not as a single point with an automo
 
 =--
 
-+-- {: .num_lemma}
-###### Observation
-
+\begin{lemma}
 
 Every [[(∞,1)-topos]] is a [[cartesian closed (∞,1)-category]]: we have for every object $X \in \mathbf{H}$ an [[internal hom]]-[[(∞,1)-functor]]
 
@@ -351,7 +349,7 @@ $$
   \,.
 $$
 
-=--
+\end{lemma}
 
 +-- {: .proof}
 ###### Proof
