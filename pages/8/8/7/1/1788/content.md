@@ -1,121 +1,132 @@
 
+\begin{proposition}
+Let 
 
+* $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]];
 
-$$
-  \begin{array}{lll}
+* $G \,\in\, Groups(\mathbf{H})$ a [[group object in an (infinity,1)-category|group object]] ([[infinity-group|$\infty$-group]]);
+
+* $G \curvearrowright X \,\in\, A Act(\mathbf{H})$ an [[infinity-action|$\infty$-action]] of $G$ on $X$.
+
+If this is an $\infty$-[[free action]] in the sense that all its higher [[shear maps]] are [[n-truncated object in an (infinity,1)-category|(-1)-truncated]]
+
+\begin{tikzcd}
+  X \times G^n
+  \ar[r, hook]
+  &
+  X^{\times_{n+1}}
+\end{tikzcd}
+
+then the [[homotopy quotient]] is punctually 0-truncated in that every morphism out of a pointed connected object $\mathbf{B}K$ with $K$ [[inhabited]] factors through the point:
+
+\begin{tikzcd}
+  \mathbf{B}K
+  \ar[rr]
+  \ar[d]
+  &&
+  X /\!\!/ G
+  \\
+  \ast
+  \ar[urr, dashed]
+\end{tikzcd}
+\end{proposition}
+\begin{proof}
+Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the [[terminal object]] $\ast$ and then form the following diagram of [[atlas|atlases]] and their [[Cech nerves]] over it:
+  \begin{tikzcd}
+    K \times K
+    \ar[dd, shift left=12pt]
+    \ar[from=dd, shift left=6pt]
+    \ar[dd]
+    \ar[from=dd, shift right=6pt]
+    \ar[dd, shift right=12pt]
+    \ar[rr]
+    \ar[dr, ->>]
+    &&
+    X \times G \times G
+    \ar[dd, shift left=12pt]
+    \ar[from=dd, shift left=6pt]
+    \ar[dd]
+    \ar[from=dd, shift right=6pt]
+    \ar[dd, shift right=12pt]
+    \ar[dr, hook]
+    \\
+    & 
+    \ast
+    \ar[rr, crossing over]
+    \ar[ur, dashed]
+    &&
+    X \times X \times X
+    \ar[dd, shift left=12pt]
+    \ar[from=dd, shift left=6pt]
+    \ar[dd]
+    \ar[from=dd, shift right=6pt]
+    \ar[dd, shift right=12pt]
+    \\
+    K
+    \ar[rr]
+    \ar[dr, ->>]
+    \ar[dd, shift left=6pt]
+    \ar[from=dd]
+    \ar[dd, shift right=6pt]
+    &&
+    X \times G
+    \ar[dr, hook]
+    \ar[dd, shift left=6pt]
+    \ar[from=dd]
+    \ar[dd, shift right=6pt]
+    \\
+    & 
+    \ast
+    \ar[rr, crossing over]
+    \ar[from=uu, shift left=12pt, crossing over, end anchor={[yshift=7pt]}]
+    \ar[uu, shift left=6pt, crossing over, start anchor={[yshift=3pt]}]
+    \ar[from=uu, crossing over]
+    \ar[uu, shift right=6pt, crossing over, start anchor={[yshift=3pt]}]
+    \ar[from=uu, shift right=12pt, crossing over, end anchor={[yshift=7pt]}]
+    \ar[ur, dashed]
+    &&
+    X \times X
+    \ar[dd, shift left=6pt]
+    \ar[from=dd]
+    \ar[dd, shift right=6pt]
+    \\
+    \ast
+    \ar[rr]
+    \ar[dd, ->>]
+    \ar[dr, -, shift left=1pt]
+    \ar[dr, -, shift right=1pt]
+    &&
+    X
+    \ar[dd, ->>]
+    \ar[dr, -, shift left=1pt]
+    \ar[dr, -, shift right=1pt]
+    \\
     &
-    \tau_0
-      \Map
-      \big( 
-        &#643; K
-        ,\,
-        &#643; Map(  X \!\sslash\! G ,\, \mathbf{B}\Gamma )
-      \big)
+    \ast 
+    \ar[rr, crossing over]
+    \ar[from=uu, shift left=6pt, crossing over]
+    \ar[uu, crossing over]
+    \ar[from=uu, shift right=6pt, crossing over]
+    \ar[ur, dashed]
+    &&
+    X
+    \ar[dd, ->>]
+    \\
+    \mathbf{B}K
+    \ar[rr]
+    \ar[dr]
+    &&
+    X /\!\!/ G
+    \ar[dr]
     \\
     & 
-    \;\simeq\;
-    \tau_0
-      &#643; 
-      \Map
-      \big( 
-        K
-        ,\,
-        Map(  X \!\sslash\! G ,\, \mathbf{B}\Gamma )
-      \big)
-    & 
-    \text{by smooth Oka}
-    \\
-    & 
-    \;\simeq\;
-    \tau_0
-      &#643; 
-      Map( 
-        K \times  X \!\sslash\! G 
-        ,\, 
-        \mathbf{B}\Gamma 
-      )
-    \\
-    & 
-    \;\simeq\;
-    \tau_0
-      Map
-      \big( 
-        &#643; ( K \times  X \!\sslash\! G )
-        ,\, 
-        &#643; \mathbf{B}\Gamma 
-      \big)
-    &
-    \text{by equivariant smooth Oka as above}
-    \\
-    & 
-    \;\simeq\;
-    \tau_0
-      Map
-      \big( 
-        ( &#643; K ) \times  ( &#643; X \!\sslash\! G )
-        ,\, 
-        &#643; \mathbf{B}\Gamma 
-      \big)
-    &
-    \\
-    & 
-    \;\simeq\;
-    \tau_0
-      Map
-      \big(
-        &#643; K
-        ,\,
-        Map
-        ( 
-          &#643; X \!\sslash\! G
-          ,\, 
-          &#643; \mathbf{B}\Gamma 
-        )
-      \big)
-    &
-  \end{array}
-$$
-
-**Proper Orbifold Cohomotopy for M-Theory**
-
-M-theory folklore has it
-that all quasi-realistic QCD-like physics is realized 
-(and thereby non-perturbatively completed) 
-at or inside super-spacetime orbi-singularities 
-of intersecting black M5/M2-branes
-whose magnetic flux threads an 
-ambient smooth G-structured bulk spacetime
-subject to a long list of subtle
-differential- and algebro-topological 
-constraints.
-
-Despite an intriguing web of 
-plausibility arguments and consistency checks 
-that have been amassed since 
-this picture emerged in the "second superstring revolution",
-it has remained unclear, and largely unexplored, 
-what any of this really means mathematically 
--- notably what putative M-theory on fluxed and G-structured super-orbifold spacetimes actually predicts, with any certainty, for observable physics -- 
-be it in its application to 
-confined hadronic matter (holographic QCD), or 
-to quantum-supreme solid states (holographic CMT), 
-not to speak of the more traditional but less 
-tangible application to quantum gravity.
-
-The issue with the mathematical foundations of M-theory (formerly known as string theory) had been prophesized early on: "String theory at its finest should be a new branch of geometry $[\ldots]$ developed in the twenty-first or twenty-second century $[\ldots]$ that fell by chance into the twentieth century" -- [E. Witten 1988](https://ncatlab.org/nlab/show/Edward%20Witten#StringTheoryAtItsFinestQuote) (in [Davis & Brown, CUP 1988](https://books.google.us/books/about/Superstrings.html?id=SrSyTS4kzP8C), p. 95, 102).
-
-Since the 21st centrury is now well on its way,
-this talk surveys a new branch of mathematical geometry 
-which has emerged over the last years, in joint work with Hisham Sati, 
-and which *provably* exhibits a fair number of the subtle phenomena expected in M-theory on fluxed orbifold spacetimes: This
-"*differential cohomotopy in a singular-cohesive $\infty$-topos*" ([[schreiber:Proper Orbifold Cohomology|arXiv:2008.01101]]) operates close to novel homotopy-theoretic foundations for mathematics itself ([[nLab:modal homotopy type theory]]) and provides a rigorous but charmingly intuitive axiomatics of geometric qualities that transparently controls construction and classification of elaborate geometric entities such as the twisted equivariant differential generalized cohomology of G-structured super-orbifolds in which gives mathematical meaning to quantized M-brane charges and C-field fluxes.
-
-Evidence for the "[[schreiber:Hypothesis H|Hypothesis H]]" that this new geometry *is* part of the missing mathematical foundations of M-theory is further discussed in the lecture by Hisham Sati in the school the week before this conference.
-
-
-
-
-
-
-
+    \ast
+    \ar[rr]
+    \ar[from=uu, ->>, crossing over]
+    \ar[ur, dashed]
+    &&
+    \ast
+  \end{tikzcd}  
+By the assumptions on $K$ and on $G \curvearrowright X$ all the upper horizontal squares have a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism on the right. Since connected/truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves]] are detected objectwise,  this means that the entire square diagram of [[Cech nerve]] [[simplicial objects]] has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right. Therefore, the [[(n-connected, n-truncated) factorization system]] there exist compatible dashed [[lifts]] filling all the upper squares. But then passaged back to the [[(infinity,1)-colimits]] and using that [[groupoid objects in an (infinity,1)-topos are effective|groupoid objects in an $\infty$-topos are effective]], shows that there is a dashed [[lift]] in the bottom square. This is the claimed factorization through the point.
+\end{proof}
 
