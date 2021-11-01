@@ -111,6 +111,11 @@ J. Phys. Conf. Ser. 173:012013, 2009 ([arXiv:0903.0899](https://arxiv.org/abs/09
 
 * Guido Fantini, Andrea Gallo Rosso, Francesco Vissani, Vanessa Zema, _The formalism of neutrino oscillations: an introduction_ ([arXiv:1802.05781](https://arxiv.org/abs/1802.05781))
 
+What it would mean if neutrinos were [[Dirac spinors]]:
+
+* Salvador Centelles Chuliá, *Theory and phenomenology of Dirac neutrinos* ([arXiv:2110.15755](https://arxiv.org/abs/2110.15755))
+
+
 With further emphasis on the [[flavor problem]]:
 
 * {#Xing19} Zhi-zhong Xing, _Flavor structures of charged fermions and massive neutrinos_, Physics Reports Volume 854, 20 April 2020, Pages 1-147 ([arXiv:1909.09610](https://arxiv.org/abs/1909.09610), [doi:10.1016/j.physrep.2020.02.001](https://doi.org/10.1016/j.physrep.2020.02.001))
