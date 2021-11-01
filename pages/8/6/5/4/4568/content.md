@@ -35,9 +35,9 @@ A __bounded infinitary Lawvere theory__ is an infinitary Lawvere theory which is
 A __finitary Lawvere theory__ is a locally small pointed category $(\mathcal{D},R)$ with all finitary products such that every object is isomorphic to $R^n$ for some [[natural number]] $n$.  A __[[Lawvere theory]]__ is by default a finitary Lawvere theory, invoking the [[red herring principle]].  Note that a finitary Lawvere theory is the same thing as an $\aleph_0$-ary Lawvere theory.
 
 
-## Size issues
+## Size matters
 
-[Freyd and Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html) have shown that a category $\mathcal{D}$ is [[small category|small]] if and only if both $\mathcal{D}$ and the [[functor category]] $[\mathcal{D},Set]$ are locally small.  Analogously, it seems that a category $\mathcal{D}$ with products may be given the structure of a many-sorted infinitary Lawvere theory if and only if both $\mathcal{D}$ and $Prod[\mathcal{D},Set]$ (the category of [[product-preserving functor]]s from $\mathcal{D}$ to $Set$, a [[full subcategory]] of $[\mathcal{D},Set]$) are locally small.  In both cases, the 'only if' part is straightfoward, but we haven't yet proved the 'if' part.
+Given a category $\mathcal{D}$ with small products, we may be interested in knowing whether it is equivalent to a many-sorted infinitary Lawvere theory (with a set of sorts). [Freyd and Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html) have shown that a category $\mathcal{D}$ is [[small category|small]] if and only if both $\mathcal{D}$ and the [[functor category]] $[\mathcal{D},Set]$ are locally small.  Analogously, it seems that a category $\mathcal{D}$ with products may be given the structure of a many-sorted infinitary Lawvere theory (with a set of sorts) if and only if both $\mathcal{D}$ and $Prod[\mathcal{D},Set]$ (the category of [[product-preserving functor]]s from $\mathcal{D}$ to $Set$, a [[full subcategory]] of $[\mathcal{D},Set]$) are locally small.  In both cases, the 'only if' part is straightfoward, but we haven't yet proved the 'if' part.
 
 See [the n-Forum](https://nforum.ncatlab.org/comments.php?DiscussionID=1673) for more preliminary results.
 
