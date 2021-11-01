@@ -34,6 +34,10 @@ On [[nucleon]] [[form factors]] via [[holographic QCD]]:
 
 * Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
 
+On [[quantum hadrodynamics]] via [[light-front QCD]]:
+
+* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front I.\ Instanton effects and quark-antiquark effective potentials* ([arXiv:2110.15927](https://arxiv.org/abs/2110.15927))
+
 
 
 
