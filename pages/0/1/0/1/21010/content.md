@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -33,7 +34,15 @@ The [[semiclassical approximation]] to [[bottom-up model building|bottom-up]] [[
 
 ### General
 
-Original articles:
+Background on [[light-front QCD]] for [[quantum hadrodynamics]]:
+
+* International Light Cone Advisory Committee, *Light-Front Quantum Chromodynamics: A framework for the analysis of hadron physics*,  Nuclear Physics B - Proceedings Supplements
+Volumes 251–252, June–July 2014, Pages 165-174 ([arXiv:1309.6333](https://arxiv.org/abs/1309.6333), [doi:10.1016/j.nuclphysbps.2014.05.004](https://doi.org/10.1016/j.nuclphysbps.2014.05.004))
+
+* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front I.\ Instanton effects and quark-antiquark effective potentials* ([arXiv:2110.15927](https://arxiv.org/abs/2110.15927))
+
+
+Original articles on holographic LFQCD:
 
 * [[Stanley Brodsky]], [[Guy de Teramond]], _Light-Front Hadron Dynamics and AdS/CFT Correspondence_, Phys. Lett. B582:211-221, 2004 ([arXiv:hep-th/0310227](https://arxiv.org/abs/hep-th/0310227))
 
@@ -114,6 +123,8 @@ Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[sup
 In view of [[tetraquarks]]:
 
 * [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
+
+[[!redirects light-front QCD]]
 
 
 
