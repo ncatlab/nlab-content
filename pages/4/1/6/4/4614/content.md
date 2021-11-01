@@ -213,7 +213,7 @@ However, ${|Sing(-)|}$ has the advantage that its geometric realization can be c
 If $S_{\bullet,\bullet} \colon  \Delta^{op} \times \Delta^{op} \to Set$ is a [[bisimplicial set]], we write $d S$ for its [[diagonal]], which is the composite
 $$\Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\longrightarrow} Set.$$
 On the other hand, we can also consider a bisimplicial set as a simplicial object in $sSet$ and take its "geometric realization":
-$$ {|S_{\bullet,\bullet}|} \coloneqq \int^{n\in\Delta^{op}} S_{n,\bullet} \times \Delta^n_{sSet} $$
+$$ {|S_{\bullet,\bullet}|} \coloneqq \int^{[n]\in\Delta^{op}} S_{n,\bullet} \times \Delta^n_{sSet} $$
 where $\Delta^n_{sSet}$ denotes the $n$-simplex as a simplicial set, i.e. the representable functor $\Delta(-,[n])\colon \Delta^{op}\to Set$.
 
 +-- {: .num_lemma #DiagonalIsRealization}
@@ -232,9 +232,9 @@ where $\underline{Map}(-,-)$ denotes the simplicial mapping space between two si
 In particular, the lemma implies that for the two different ways of considering a bisimplicial set as a simplicial simplicial set ("vertically" or "horizontally"), the resulting "geometric realizations" as simplicial sets are isomorphic (since both are isomorphic to the diagonal, which is symmetrically defined).
 
 Note that Lemma \ref{DiagonalIsRealization} can be interpreted as an isomorphism between two [[profunctors]] $\Delta &#8696; \Delta\times\Delta$, of which the first is [[representable functor|representable]] by the diagonal functor $\Delta \to \Delta\times\Delta$.  It follows that if $S_{\bullet,\bullet}$ is a bisimplicial object in any [[cocomplete category]], we also have
-$$d S_{\bullet,\bullet} \cong \int^{n\in\Delta} S_{n,\bullet}\,\times \,(\Delta^n_{sSet})_{\bullet}$$
+$$d S_{\bullet,\bullet} \cong \int^{[n]\in\Delta} S_{n,\bullet}\,\times \,(\Delta^n_{sSet})_{\bullet}$$
 where the right-hand side is a "realization" functor from bisimplicial objects to simplicial objects in any cocomplete category.  On the other hand, if $S$ is a bisimplicial *space*, then we also have the *levelwise* realization
-$$ \int^{n\in\Delta} S_{n,\bullet} \,\times\, \Delta^n_{Top} $$
+$$ \int^{[n]\in\Delta} S_{n,\bullet} \,\times\, \Delta^n_{Top} $$
 which will not, in general, agree with the diagonal and the abstract realization considered above.  It does agree, however, after we pass to a further geometric realization as a single topological space.
 
 +-- {: .num_prop #RealizationOfDiagonalIsRealizationOfRealization}
@@ -244,12 +244,12 @@ For $S_{\bullet,\bullet}$ any bisimplicial space, there is a [[homeomorphism]] b
 +-- {: .proof}
 ###### Proof
 Applying Lemma \ref{DiagonalIsRealization} as above, we have
-$$ d S_{\bullet,\bullet} \cong \int^{n\in \Delta} S_{n,\bullet} \times \Delta^n_{sSet}$$
+$$ d S_{\bullet,\bullet} \cong \int^{[n]\in \Delta} S_{n,\bullet} \times \Delta^n_{sSet}$$
 If we then take the realization of these simplicial spaces, we find
 $$
 {| d S_{\bullet,\bullet} |}
-\cong \left| \int^{n\in\Delta} S_{n,\bullet} \times \Delta^n_{sSet} \right|
-\cong \int^{n\in\Delta} {|S_{\bullet,\bullet}|} \times \Delta^n_{Top}
+\cong \left| \int^{[n]\in\Delta} S_{n,\bullet} \times \Delta^n_{sSet} \right|
+\cong \int^{[n]\in\Delta} {|S_{\bullet,\bullet}|} \times \Delta^n_{Top}
 \cong {\vert({\vert S_{\bullet,\bullet} \vert})\vert}
 $$
 using the fact that geometric realization of simplicial sets preserves colimits and products, and ${|\Delta^n_{sSet}|} = \Delta^n_{Top}$.
