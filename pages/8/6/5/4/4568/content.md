@@ -601,3 +601,7 @@ $$
 $$
 The projection selects the $(s_0,v)$th term of the element in question, and this element is, by definition, $v$.  Hence the induced function on $V(D_{s_0})$ is the identity and the adjunction is shown.
 =--
+
+## References
+
+* [[Martin Brandenburg]], _Large limit sketches and topological space objects_ ([arXiv:2106.11115](https://arxiv.org/abs/2106.11115))
