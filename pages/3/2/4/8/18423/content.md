@@ -672,7 +672,7 @@ The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGro
 
 with a precursor observation in:
 
-* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures **11** 1 (2016) ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188), [doi:10.1007/s40062-014-0092-5](https://doi.org/10.1007/s40062-014-0092-5))
 
 The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also claimed in:
 
