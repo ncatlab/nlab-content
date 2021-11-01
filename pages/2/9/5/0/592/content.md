@@ -47,31 +47,13 @@ Note that there are maps $i_A : A \to X$, $i_B : B \to X$ such that $i_A(a) = [a
 
 In fact, the pushout is the [[universal property|universal]] solution to finding a [[commutative square]] like this.  In other words, given _any_ commutative square 
 
-$$
-  \array{
- &&&&
-     C
-     &&&&
-      \\
-      & 
-      && f \swarrow
-       &
-       & \searrow g
-      && 
-     \\
-&& A &&&& B
-\\
-      & 
-      && {}_{j_A}\searrow
-       &
-       & \swarrow_{j_B}
-      && 
-     \\
-&&&&
-     Y
-     &&&&
-  }
-$$
+\begin{center}
+    \begin{tikzcd}
+                             & C \arrow[ld, "f"'] \arrow[rd, "g"] &                     \\
+        A \arrow[rd, "j_A"'] &                                    & B \arrow[ld, "j_B"] \\
+                             & Y                                  &                    
+    \end{tikzcd}
+\end{center}
 
 there is a unique function $h: X \to Y$ such that 
 $$ h i_A = j_A $$
@@ -84,49 +66,22 @@ Since this universal property expresses the concept of pushout purely arrow-theo
 
 A **pushout** is a [[colimit]] of a [[diagram]] like this:
 
-$$
-  \array{
- &&&&
-     c
-     &&&&
-      \\
-      & 
-      && f \swarrow
-       &
-       & \searrow g
-      && 
-     \\
-&& a &&&& b
-  }
-$$
+\begin{center}
+    \begin{tikzcd}
+          & c \arrow[ld, "f"'] \arrow[rd, "g"] &   \\
+        a &                                    & b
+    \end{tikzcd}
+\end{center}
 
 Such a diagram is called a [[span]].  If the colimit exists, we obtain a [[commutative square]]
 
-$$
-  \array{
- &&&&
-     c
-     &&&&
-      \\
-      & 
-      && f \swarrow
-       &
-       & \searrow g
-      && 
-     \\
-&& a &&&& b
-\\
-      & 
-      && {}_{i_a}\searrow
-       &
-       & \swarrow_{i_b}
-      && 
-     \\
-&&&&
-     x
-     &&&&
-  }
-$$
+\begin{center}
+    \begin{tikzcd}
+                             & c \arrow[ld, "f"'] \arrow[rd, "g"] &                     \\
+        a \arrow[rd, "i_a"'] &                                    & b \arrow[ld, "i_b"] \\
+                             & \chi                               &                    
+    \end{tikzcd}
+\end{center}
 
 and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$.
 
@@ -148,21 +103,20 @@ See [[pullback]] for more details.
 
 If [[coproduct]]s exist in some category, then the pushout
 
-$$
-  \array{
-     a &\stackrel{f}{\to} & b
-     \\
-     ^{\mathrlap{g}}\downarrow && \downarrow
-     \\
-     c & {\to}& b +_a c
-  }
-$$
+\begin{center}
+    \begin{tikzcd}
+        a \arrow[r, "f"] \arrow[d, "g"'] & b \arrow[d] \\
+        c \arrow[r]                      & b +_a c    
+    \end{tikzcd}
+\end{center}
 
 is equivalently the [[coequalizer]]
 
-$$
-  a \stackrel{\overset{i_1 f}{\longrightarrow}}{\underset{i_2 g}{\longrightarrow}} b + c \to b +_a c
-$$
+\begin{center}
+    \begin{tikzcd}
+        a \arrow[r, "i_1f", shift left] \arrow[r, "i_2g"', shift right] & b+c \arrow[r] & b+_ac
+    \end{tikzcd}
+\end{center}
 
 of the two morphisms induced by $f$ and $g$ into the [[coproduct]] of $b$ with $c$.
 
@@ -176,17 +130,12 @@ Pushouts preserve [[epimorphisms]] and [[isomorphisms]]:
 
 If 
 
-$$
-  \array{
-    a &\overset{f}{\longrightarrow}& b
-    \\
-    {}^{\mathllap{g}}\downarrow 
-      & & 
-    \downarrow^{\mathrlap{f_\ast g}}
-    \\
-    c &\underset{}{\longrightarrow}& d
-  }
-$$
+\begin{center}
+    \begin{tikzcd}
+        a \arrow[r, "f"] \arrow[d, "g"'] & b \arrow[d, "f_\ast g"] \\
+        c \arrow[r]                      & d                      
+    \end{tikzcd}
+\end{center}
 
 is a pushout square in some category then:
 
@@ -204,15 +153,12 @@ is a pushout square in some category then:
 Consider a [[commuting diagram]] of the following shape in any category:
 
 
-$$
-  \array{
-    x & \longrightarrow & y & \longrightarrow & z
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    u & \longrightarrow & v & \longrightarrow & w
-  }
-$$
+\begin{center}
+    \begin{tikzcd}
+        x \arrow[r] \arrow[d] & y \arrow[r] \arrow[d] & z \arrow[d] \\
+        u \arrow[r]           & v \arrow[r]           & w          
+    \end{tikzcd}
+\end{center}
 
 If the left square is a [[pushout]], then the total rectangle is a pushout if and only if the right square is a pushout.
 
@@ -250,11 +196,14 @@ Suppose that $(\mathrm{T},\mathcal{C})$ is either
 * ([[strong monomorphism]],[[quasitopos]])
 
 Suppose that 
-$$\array{
-O_{0,1} & \to & O_{1,1} \\
-m \downarrow  &&\downarrow h  \\
-O_{0,0} & \to & O_{1,0}
-}$$
+
+\begin{center}
+    \begin{tikzcd}
+        {O_{0,1}} \arrow[r] \arrow[d, "m"'] & {O_{1,1}} \arrow[d, "h"] \\
+        {O_{0,0}} \arrow[r]                 & {O_{1,0}}               
+    \end{tikzcd}
+\end{center}
+
 is a [[commutative diagram]] in $\mathcal{C}$ such that 
 
 * $m$ is $\mathrm{T}$ in $\mathcal{C}$
@@ -270,11 +219,12 @@ Then
 
 See at _[[quasitopos]]_ [this lemma](quasitopos#PushoutOfStrongMonos). Note that the result for quasitoposes immediately implies the result for toposes, since all monomorphisms $i: A \to B$ in a topos are [[regular monomorphism|regular]] ($i$ being the equalizer of the arrows $\chi_i, t \circ !: B \to \Omega$ in 
 
-$$\array{
- & & 1 \\ 
- & \mathllap{!} \nearrow & \downarrow \mathrlap{t} \\ 
-B & \underset{\chi_i}{\to} & \Omega
-}$$ 
+\begin{center}
+    \begin{tikzcd}
+                                               & 1 \arrow[d, "t"] \\
+        B \arrow[ru, "!"] \arrow[r, "\chi_i"'] & \Omega          
+    \end{tikzcd}
+\end{center}
 
 where $\chi_i$ is the classifying map of $i$) and therefore strong. 
 
