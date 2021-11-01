@@ -56,7 +56,7 @@ Beware the similarity to and difference of free actions with [[effective group a
 \end{remark}
 
 \begin{remark}
-A free action that is also [[transitive action|transitive]] is called _[[regular action|regular]]_.
+A free action that is also [[transitive action|transitive]] is called _[[regular action|regular]]_ (at least after passing to its [[linear representation|linear]] [[permutation representation]]).
 \end{remark}
 
 ## Examples
