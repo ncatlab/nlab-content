@@ -57,19 +57,22 @@ If the above localization is a [[topological localization]] then $\mathbf{H}$ is
 
 Equivalently: 
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
+**(Giraud-Rezk-Lurie axioms)**
+\linebreak
 An $(\infty,1)$-topos $\mathbf{H}$ is
 
-an [[(∞,1)-category]] that satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
+an [[(∞,1)-category]] that satisfies the $(\infty,1)$-category-theoretic analogs of [[Giraud's axioms]]:
 
 * $\mathbf{H}$ is [[presentable (infinity,1)-category|presentable]];
-* [[limit in quasi-categories|(∞,1)-colimits]] in $\mathbf{H}$ [[universal colimits|are universal]];
-* [[coproduct]]s in $\mathbf{H}$ are [[disjoint coproduct|disjoint]];
-* every [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathbf{H}$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
 
-=--
+* [[limit in quasi-categories|(∞,1)-colimits]] in $\mathbf{H}$ [[universal colimits|are universal]];
+
+* [[coproducts]] in $\mathbf{H}$ are [[disjoint coproduct|disjoint]];
+
+* every [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathbf{H}$ is [[groupoid objects in an (∞,1)-topos are effective|effective]] (i.e. has a [[delooping]]). 
+
+\end{proposition}
 
 This is  part of the statement of [[Higher Topos Theory|HTT, theorem 6.1.0.6]].
 
