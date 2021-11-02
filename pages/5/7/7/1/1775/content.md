@@ -55,7 +55,7 @@ $$
  \cdots C_2 \stackrel{\to}{\stackrel{\to}{\to}} C_1 \stackrel{\to}{\to} C_0
 $$
 
-being **effective** means that it is the [[?ech nerve]] 
+being **effective** means that it is the [[Cech nerve]] 
 
 $$
  \cdots 
@@ -65,7 +65,7 @@ $$
  \stackrel{\to}{\to} C_0
 $$
 
-of its [[action groupoid]] $C_0//C_1$ (the  [[(∞,1)-colimit]] over its diagram)
+of its [[quotient stack]] $C_0 \sslash C_1$ (the  [[(∞,1)-colimit]] over its diagram)
 
 $$
  \cdots C_2 \stackrel{\to}{\stackrel{\to}{\to}} C_1 \stackrel{\to}{\to} C_0
@@ -76,7 +76,7 @@ $$
 
 Accordingly, groupoid objects in an $(\infty,1)$-category play a central role in the theory of [[principal ∞-bundles]].
 
-Notice that one of the four characterizing properties of an [[(∞,1)-topos]] by the higher analog of the [[Giraud theorem]] is that every groupoid object is effective. 
+Notice that one of the four characterizing properties of an [[(∞,1)-topos]] by the higher analog of the [[Giraud theorem]] is that all [[groupoid objects in an (infinity,1)-topos are effective]].
 
 
 ## Definition (complete Segal-space style)
