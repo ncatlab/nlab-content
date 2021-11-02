@@ -94,13 +94,13 @@ Let
 
 * $G \curvearrowright X \,\in\, A Act(\mathbf{H})$ an [[infinity-action|$\infty$-action]] of $G$ on $X$.
 
-If this is an $\infty$-[[free action]] in that all its higher [[shear maps]] are [[n-truncated object in an (infinity,1)-category|(-1)-truncated]]
+If this is an $\infty$-[[free action]] in that all its higher [[shear map]] are [[n-truncated object in an (infinity,1)-category|(-1)-truncated]]
 
 \[
   \label{HigherShearMapsOfInfinityFreeAction}
   \underset{n \in \mathbb{N}}{\forall}
-  \;\;\;
-  X \times G^n
+  \;\;
+  X \times G^{\times_n}
   \xhookrightarrow{ \phantom{---}  }
   X^{\times_{n+1}}
 \]
@@ -222,7 +222,7 @@ So consider extending the above square diagram to a square of [[augmented simpli
     \ar[from=dd, shift left=6pt]
     \ar[dd]
     \ar[from=dd, shift right=6pt]
-    \ar[dd, shift right=12pt]
+    \ar[dd, shift right=12pt, start anchor={[yshift=-6pt]}]
     \ar[dr, hook]
     \\
     & 
@@ -302,7 +302,12 @@ So consider extending the above square diagram to a square of [[augmented simpli
     &&
     \ast
 \end{tikzcd}
-By the [[inhabited object|inhabitation]] of $K$ and the assumption (eq:HigherShearMapsOfInfinityFreeAction) on $G \curvearrowright X$ all the upper horizontal squares have a [[(-1)-connected]] morphism $\twoheadrightarrow$ on the left and a [[(-1)-truncated]] morphism $\hookrightarrow$ on the right. Since $n$-connected/$n$-truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] (here: of [[simplicial objects]] in $\mathbf{H}$) are detected objectwise,  this means that the entire square diagram of [[simplicial objects]] (i.e. disregarding the bottom square) has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right.  Therefore, the [[(n-connected, n-truncated) factorization system]] implies that there exist compatible dashed [[lifts]] filling all the upper squares, as shoown. 
+{#ObservingTheConnectedTruncatedLiftingPropblems}
+By the [[inhabited object|inhabitation]] of $K$ 
+all the upper horizontal squares have a [[(-1)-connected]] morphisms $\twoheadrightarrow$ on the left.
+Moreover, by the assumption (eq:HigherShearMapsOfInfinityFreeAction) the their right morphisms are [[(-1)-truncated]] $\hookrightarrow$.
+
+Since $n$-connected/$n$-truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] (here: of [[simplicial objects]] in $\mathbf{H}$) are detected objectwise,  this means that the entire square diagram of [[simplicial objects]] (i.e. disregarding the bottom square) has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right.  Therefore, the [[(n-connected, n-truncated) factorization system]] implies that there exist compatible dashed [[lifts]] filling all the upper squares, as shoown. 
 
 But then taking the [[(infinity,1)-colimits|$\infty$-colimit]] over [[simplicial objects]] and using that [[groupoid objects in an (infinity,1)-topos are effective|groupoid objects in an $\infty$-topos are effective]], recovers the bottom square, but now also equipped with a dashed [[lift]]. This is the claimed factorization which shows that $X \!\sslash\! G$ is [[0-truncated]];
 
