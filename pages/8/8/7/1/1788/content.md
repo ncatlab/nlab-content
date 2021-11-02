@@ -1,5 +1,8 @@
 
 \begin{proposition}
+\label{HomotopyQuotientsOfFreeActionsAreQuotientsOfZeroTruncatedAction}
+**([[homotopy quotients]] of [[free actions|free]] [[infinity-action|$\infty$-action]] are plain [[quotients]] of [[0-truncated]] [[group actions]])**
+\linebreak
 Let 
 
 * $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]];
@@ -10,16 +13,17 @@ Let
 
 If this is an $\infty$-[[free action]] in that all its higher [[shear maps]] are [[n-truncated object in an (infinity,1)-category|(-1)-truncated]]
 
-\begin{tikzcd}
+\[
+  \label{HigherShearMapsOfInfinityFreeAction}
   X \times G^n
-  \ar[r, hook]
-  &
+  \xhookrightarrow{ \phantom{---}  }
   X^{\times_{n+1}}
-\end{tikzcd}
+\]
 
 then the [[homotopy quotient]] 
 
-$$
+\[
+  \label{HomotopyQuotientAsInfinityColimit}
   X 
     \!\sslash\! G 
    \,=\, \underset{\underset{[n] \in \Delta^{op}}{\longrightarrow}}{\lim} X \times G^{\times_n}
@@ -27,7 +31,7 @@ $$
   \in
   \;
   \mathbf{H}
-$$
+\]
 
 is equivalent to the plain [[quotient]], namely the [[coequalizer]]
 
@@ -51,18 +55,26 @@ $$
 
 of [[0-truncated]] objects 
 
-$$
-  \mathbf{H}_{0} 
-    \underoverset
-      {\underset{i_0}{\hookrightarrow}}
-      {\overset{\tau_0}{\leftarrow}}
-      {\;\; \bot \;\;}
+\[
+  \label{ZeroTruncationReflectionInProofOfFreeHomotopyQuotients}
+\]
+\begin{tikzcd}
+  \mathbf{H}_0
+  \ar[rr, hook, shift right=7pt, "i_0"{below}]
+  &&
   \mathbf{H}
-$$
+  \ar[
+    ll, 
+    shift right=7pt, 
+    "\mathclap{\times}"{pos=0}, 
+    "{\tau_0}{above}"
+  ]
+\end{tikzcd}
 
 in that
 
-$$
+\[
+  \label{EquivalenceOfHomotopyQuotientOfFreeActionToPlainQuotient}
   X \!\sslash\! G
   \;\;
   \simeq
@@ -75,7 +87,7 @@ $$
   \xhookrightarrow{i_0}
   \mathbf{H}
   \,.
-$$
+\]
 
 In particular, if both $X$ and $G$ are already [[0-truncated]], then the action of $G$ on $X$ is $\infty$-free iff it is free in the ordinary sense, and then the homotopy quotient coincides with their ordinary quotient.
 \end{proposition}
@@ -88,7 +100,7 @@ every morphism into it out of $U \times \mathbf{B}K$  factors through the [[proj
 \begin{tikzcd}
   U \times \mathbf{B}K
   \ar[rr, "\forall"]
-  \ar[d, ->>, "\mathrm{pr}_1"]
+  \ar[d, ->>, "\mathrm{pr}_1"{left}]
   &&
   X /\!\!/ G
   \ar[d]
@@ -103,12 +115,12 @@ every morphism into it out of $U \times \mathbf{B}K$  factors through the [[proj
 
 Here $\ast$ denotes the [[terminal object]], which we adjoin, without changing the situation, to bring out the form of the [[lifting problem]].
 
-The left morphism above is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] as shown, hence is [[(-1)-connected]], since the [[underlying]] [[infinity-groupoid|$\infty$-groupoid]] $K \in Grpd_\infty$ of every $\infty$-group is [[inhabited object|inhabited]] and since $LConst$, being an [[inverse image]]-functor, is a [[lex functor|lex]] [[left adjoint]] and hence preserves [[Cech nerves]] and [[(infinity,1)-colimits|$\infty$-colimits]] and hence [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]].
+The left morphism above is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] as shown, hence is [[(-1)-connected]], since the [[underlying]] [[infinity-groupoid|$\infty$-groupoid]] $K \in Grpd_\infty$ of every $\infty$-group is [[inhabited object|inhabited]] and since $LConst$, being an [[inverse image]]-functor, is a [[lex functor|lex]] [[left adjoint]] and hence [[preserved limit|preserves]] [[Cech nerves]] and [[(infinity,1)-colimits|$\infty$-colimits]] and hence [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]].
 
 Notice, therefore, that *if* the right vertical morphism $X \!\sslash\! G \xrightarrow{\;\;} \ast$ were [[(-1)-truncated]] (hence if $X \!\sslash\! G$ were [[subterminal object|subterminal]]), then the [[(n-connected, n-truncated) factorization system]] would imply the required [[lift]]. While this would-be argument fails, as, $X \!\sslash\! G$ is in general far from being subterminal, the following argument observes that with a suitable choice of [[atlases]] for all four [[infinity-stack|$\infty$-stacks]], their [[groupoid object in an (infinity,1)-category|groupoid objects]] do form a [[lifting problem]] to which the [[(n-connected, n-truncated) factorization system]] does apply:
 
 So consider extending the above square diagram to a square of [[augmented simplicial object|augmented]] [[simplicial objects]] by considering  [[atlas|atlases]] and their [[Cech nerves]], as shown by the following solid arrows:
-\begin{tikzcd}
+\begin{tikzcd}[row sep=30pt]
     U \times K \times K
     \ar[dd, shift left=12pt, start anchor={[yshift=-4pt]}]
     \ar[from=dd, shift left=6pt]
@@ -188,7 +200,7 @@ So consider extending the above square diagram to a square of [[augmented simpli
     X
     \ar[dd, ->>]
     \\
-    \mathbf{B}K \times U
+    U \times \mathbf{B}K
     \ar[rr]
     \ar[dr]
        &&
@@ -203,10 +215,85 @@ So consider extending the above square diagram to a square of [[augmented simpli
     &&
     \ast
 \end{tikzcd}
-By the assumptions on $K$ and on $G \curvearrowright X$ all the upper horizontal squares have a [[(-1)-connected]] morphism $\twoheadrightarrow$ on the left and a [[(-1)-truncated]] morphism $\hookrightarrow$ on the right. Since $n$-connected/$n$-truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] (here: of [[simplicial objects]] in $\mathbf{H}$) are detected objectwise,  this means that the entire square diagram of [[Cech nerve]] [[simplicial objects]] has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right. 
+By the [[inhabited object|inhabitation]] of $K$ and the assumption (eq:HigherShearMapsOfInfinityFreeAction) on $G \curvearrowright X$ all the upper horizontal squares have a [[(-1)-connected]] morphism $\twoheadrightarrow$ on the left and a [[(-1)-truncated]] morphism $\hookrightarrow$ on the right. Since $n$-connected/$n$-truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] (here: of [[simplicial objects]] in $\mathbf{H}$) are detected objectwise,  this means that the entire square diagram of [[simplicial objects]] (i.e. disregarding the bottom square) has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right.  Therefore, the [[(n-connected, n-truncated) factorization system]] implies that there exist compatible dashed [[lifts]] filling all the upper squares, as shoown. 
 
-Therefore, the [[(n-connected, n-truncated) factorization system]] there exist compatible dashed [[lifts]] filling all the upper squares. But then passag back to the [[(infinity,1)-colimits]] and using that [[groupoid objects in an (infinity,1)-topos are effective|groupoid objects in an $\infty$-topos are effective]], shows that there is a dashed [[lift]] in the bottom square. This is the claimed factorization which shows that $X \!\sslash\! G$ is [[0-truncated]].
+But then taking the [[(infinity,1)-colimits|$\infty$-colimit]] over [[simplicial objects]] and using that [[groupoid objects in an (infinity,1)-topos are effective|groupoid objects in an $\infty$-topos are effective]], recovers the bottom square, but now also equipped with a dashed [[lift]]. This is the claimed factorization which shows that $X \!\sslash\! G$ is [[0-truncated]];
 
-(...)
+\[
+  \label{ZeroTruncationOfHomotopyQuotientOfFreeAction}
+  \tau_0
+  \big(
+    X \!\sslash\! G
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  X \!\sslash\! G 
+  \,.
+\]
+
+To conclude the proof of (eq:EquivalenceOfHomotopyQuotientOfFreeActionToPlainQuotient), use that $\tau_0$ is a [[left adjoint]] (eq:ZeroTruncationReflectionInProofOfFreeHomotopyQuotients), [[left adjoints preserve colimits|hence preserves $\infty$-colimits]], and also [[preserved limit|preserves]] [[products]], i.e. [[homotopy products]] (by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts)). Here this implies that:
+
+$$
+  \begin{array}{lll}
+    X \!\sslash\! G
+    & 
+    \;\simeq\;
+    \tau_0
+    \big( 
+      X \!\sslash\! G
+    \big)
+    & 
+    \text{ (eq:ZeroTruncationOfHomotopyQuotientOfFreeAction) }
+    \\
+    & 
+    \;\simeq\;
+    \tau_0
+    \big( 
+      \underset{\underset{ [n] \in \Delta^{op} }{\longrightarrow}}{\lim}
+      \,
+      X \times G^{\times_n}
+    \big)    
+    &
+    \text{ (eq:HomotopyQuotientAsInfinityColimit) }
+    \\
+    & \;\simeq\;
+    \underset{\underset{ [n] \in \Delta^{op} }{\longrightarrow}}{\lim}
+    \,
+    \tau_0(X) \times \big(\tau_0(G)\big)^{\times_n}
+    &
+    \text{ (eq:ZeroTruncationReflectionInProofOfFreeHomotopyQuotients) }
+    \\
+    & \;\simeq\;
+    coeq
+    \big(
+      \tau_0(X) \times \tau_0(G)
+      \overset{\phantom{---}}{\rightrightarrows}
+      X
+    \big)
+    &
+    \text{ (eq:InclusionOfParallelPairIntoOppositeSimplexCategoryIsFinal) }
+  \end{array}  
+$$
+
+In in the last line we used (from [this Example](final+functor#FirstPairOfFaceMapsFinalInOppositeSimplexCategory)) that the inclusion of the [[diagram]] consisting of a [[pair]] of [[parallel morphisms]] into the [[opposite category|opposite]] of the [[simplex category]] is [[final functor]]
+\[
+  \label{InclusionOfParallelPairIntoOppositeSimplexCategoryIsFinal}
+    \big(
+      [1]
+      \underoverset
+        {d_0}
+        {d_1}
+        {\rightrightarrows}          
+      [0]
+    \big)
+    \;\xhookrightarrow{\phantom{---}}\;
+    \Delta^{op}
+    \;\;\;\;\;\;\;\;\;
+    \text{is final}
+    \,,
+\]
+meaning that the [[colimit]] over a [[simplicial object]] is equivalently the [[coequalizer]] of the first two [[face maps]].
 \end{proof}
+
 
