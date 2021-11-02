@@ -87,8 +87,10 @@ Notice that one of the four characterizing properties of an [[(∞,1)-topos]] by
 The following definition follows in style the definition of a [[complete Segal space]] object.
 
 
-+-- {: .num_defn}
++-- {: .num_defn #GroupoidObjectsViaGroupoidalSegalCondition}
 ###### Definition
+**(groupoidal [[Segal conditions]])**
+\linebreak
 
 For $C$ an [[(∞,1)-category]], a **groupoid object** in $C$ is a [[simplicial object in an (∞,1)-category]]
 
@@ -603,3 +605,5 @@ Discussion from the point of view of [[category objects in an (∞,1)-category]]
 [[!redirects group object in an (∞,1)-category]]
 [[!redirects group objects in an (infinity,1)-category]]
 [[!redirects group objects in an (∞,1)-category]]
+
+[[!redirects groupoid object in an infinity1-category]]
