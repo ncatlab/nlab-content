@@ -77,6 +77,8 @@ Other references are:
 * Karsten Dietrich, _Representation Theory of EI-categories_, ([pdf](https://d-nb.info/1007029781/34))
 
 [[!redirects EI-categories]]
+[[!redirects EI category]]
+[[!redirects EI categories]]
 
 [[!redirects EI (∞,1)-categories]]
 [[!redirects EI (∞,1)-category]]
