@@ -8,7 +8,7 @@ Let
 
 * $G \curvearrowright X \,\in\, A Act(\mathbf{H})$ an [[infinity-action|$\infty$-action]] of $G$ on $X$.
 
-If this is an $\infty$-[[free action]] in the sense that all its higher [[shear maps]] are [[n-truncated object in an (infinity,1)-category|(-1)-truncated]]
+If this is an $\infty$-[[free action]] in that all its higher [[shear maps]] are [[n-truncated object in an (infinity,1)-category|(-1)-truncated]]
 
 \begin{tikzcd}
   X \times G^n
@@ -17,7 +17,8 @@ If this is an $\infty$-[[free action]] in the sense that all its higher [[shear 
   X^{\times_{n+1}}
 \end{tikzcd}
 
-then the [[homotopy quotient]] is punctually 0-truncated in that every morphism out of a pointed connected object $\mathbf{B}K$ with $K$ [[inhabited]] factors through the point:
+then the [[homotopy quotient]] is [[0-truncated]], in that for every $U \,\in\, \mathbf{H}$ and every $\infty$-group $K$ (sufficient to consider those in the image of $Grpd_\infty \xrightarrow{ LConst } \mathbf{H}$)
+factors through the [[projection]] $U \times \mathbf{B}K \xrightarrow{ pr_2 } U$:
 
 \begin{tikzcd}
   \mathbf{B}K
