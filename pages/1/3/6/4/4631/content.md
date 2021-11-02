@@ -152,3 +152,9 @@ $$
 
 [[!redirects augmented simplicial set]]
 [[!redirects augmented simplicial sets]]
+
+
+[[!redirects augmented simplicial object]]
+[[!redirects augmented simplicial objects]]
+
+
