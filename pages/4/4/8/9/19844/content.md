@@ -673,6 +673,8 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * David London, Joaquim Matias, *$B$ Flavour Anomalies: 2021 Theoretical Status Report* ([arXiv:2110.13270](https://arxiv.org/abs/2110.13270))
 
+* Valerio Gherardi, *New Physics Hints from Flavour* ([arXiv:2111.00285](https://arxiv.org/abs/2111.00285))
+
 
 Outlook:
 
