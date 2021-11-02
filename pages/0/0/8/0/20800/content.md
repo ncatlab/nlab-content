@@ -15,29 +15,31 @@
 
 ## Definition
 
-A Turing category is a certain [[categorification]] of [[partial combinatory algebras]] based on [[restriction categories]].
+A Turing category is a certain [[categorification]] of [[partial combinatory algebras]] (PCAs) based on [[restriction categories]].
 
 +-- {: .num_defn #TuringCategory}
 ###### Definition
 **(Turing category)**
 
 A _Turing category_ is a cartesian restriction category $(\mathcal{C}, \bar{} )$ with a fixed object A and morphism $\bullet : A \times A \rightarrow A$ having the following universal property: for each $\mathcal{C}$-morphism $f : X \rightarrow Y$ there is a section $s: Y \rightarrow A$ and retract $r : A \rightarrow X$, along with a total map $h : \mathbf{1} \rightarrow A$ satisfying the diagram:
-    
-    \begin{center} 
-    \begin{tikzcd} \arrow[r, "\bullet"] A \times A & A \arrow[r, "r"] & X \arrow[ddll, "f"] \\
+
+\begin{centre} 
+    \begin{tikzcd}
+    \arrow[r, "\bullet"] A \times A & A \arrow[r, "r"] & X \arrow[ddll, "f"] \\
     \arrow[u, "\mathsf{id_A} \times h"] A \times 1 \simeq A \arrow[ur, swap,  "sfr"] & & \\
-    Y \arrow[u, "s"] & & 
+    Y \arrow[u, "s"] & &
     \end{tikzcd}
-    \end{center}
+\end{centre}
 
 =--
 
 While restriction structure captures the function partiality one finds in [[computability theory]], the universal property stated above captures the universal coding of $\mathcal{C}$-morphisms into operations on the _Turing object_ $A$, via the application $\bullet$. Indeed one recovers, as an example, the category $\mathbf{Rec}$, of natural numbers $n, m \in \mathbf{N}$ and partial recursive functions $ \mathbf{N}^n \rightarrow \mathbf{N}^m$. This has universal applicative structure:
     
-\begin{center}
-     \begin{tikzcd} \arrow[d, swap, dashed, "\exists \hspace{0.1cm} \text{total} \hspace{0.1cm} h \hspace{0.1cm} : \hspace{0.1cm} 1 \times h"] \mathbf{N} \times 1 \simeq \mathbf{N} \arrow[rd, "f_i"] \\ \mathbf{N} \times \mathbf{N} \arrow[r, swap, "\langle -- \rangle"] & \mathbf{N}
-\end{tikzcd}
-\end{center}
+\begin{centre}
+     \begin{tikzcd}
+    \arrow[d, swap, dashed, "\exists \hspace{0.1cm} \text{total} \hspace{0.1cm} h \hspace{0.1cm} : \hspace{0.1cm} 1 \times h"] \mathbf{N} \times 1 \simeq \mathbf{N} \arrow[rd, "f_i"] \\ \mathbf{N} \times \mathbf{N} \arrow[r, swap, "\langle -- \rangle"] & \mathbf{N}
+    \end{tikzcd}
+\end{centre}
 
 and universal representation $\langle i, n \rangle = f_i(n)$ of the $i$th computable function. In this case the PCA is [[Kleene's first algebra]]. More generally, the computable map category of any PCA forms a Turing category, with Turing object the PCA and its Turing morphism being the applicative structure.
 
@@ -67,12 +69,22 @@ As can be nearly read off the definition above, these properties hold with respe
 
 (...)
 
+
 ## Weak Limits and Exact Completions 
 
 (...)
 
 
-## References 
+## Related concepts
+
+* [[timed set]]
+
+
+## References
+
+Turing categories were isolated categorically and named in:
+
+* [[Robin Cockett]], [[Pieter Hofstra]], _Introduction to Turing categories_, Annals of Pure and Applied Logic, 156, 2008 ([pdf](https://www.di.ens.fr/users/longo/files/Cockett-TuringCateg.pdf))
 
 
 [[!redirects turing category]]
