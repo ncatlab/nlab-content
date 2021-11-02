@@ -786,17 +786,33 @@ The formalization and proof is described in
 * {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
 
-This is almost complete, except for one step that is not discussed in detail. But a new (unpublished) result by [[Søren Galatius]] bridges that step in particular and drastically simplifies the whole proof in general. 
+This is almost complete, except for one step that is not discussed in detail. But a new (unpublished) result by [[Søren Galatius]] should bridge that step in particular and drastically simplifies the whole proof in general. 
 
-The comparatively simple case of $n = 1$ is spelled out in detail in 
+Higher cobordisms with geometric structure (for non-topological [[extended quantum field theory]]) are discussed in
+
+* {#Ayala} [[David Ayala]], _Geometric cobordism categories_ ([arXiv:0811.2280](https://arxiv.org/abs/0811.2280))
+
+* {#GradyPavlov20} [[Daniel Grady]], [[Dmitri Pavlov]], *Extended field theories are local and have classifying spaces* ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208))
+
+and full proof of the cobordism hypothesis in this geometric generality (hence for non-topological [[extended quantum field theory|extended]] [[FQFT]] such as [[conformal field theory]]) is claimed in:
+
+* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
+
+based on [Grady & Pavlov 2020](#GradyPavlov20).
+
+
+
+
+
+In the topological case, the comparatively simple case of $n = 1$ is spelled out in detail in 
 
 * [[Yonatan Harpaz]], _The Cobordism Hypothesis in Dimension 1_ ([arXiv:1210.0229](http://arxiv.org/abs/1210.0229))
 
-and aspects of the case $n = 2$ (see also at _[[2d TQFT]]_) are discussed in 
+and aspects of the case $n = 2$ (see also at _[[2d TQFT]]_) are further discussed in 
 
 * {#SchommerPries11} [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_ ([arXiv:1112.1000](http://arxiv.org/abs/1112.1000))
 
-Lecture notes and reviews on the topic of the cobordisms hypothesis include
+Lecture notes and reviews on the topic of the cobordisms hypothesis:
 
 * [[Jacob Lurie]], _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 
@@ -821,10 +837,7 @@ Discussion of the canonical $O(n)$-action on [[n-fold loop spaces]] (which may b
 * {#GaudensMenichi07} Gerald Gaudens, [[Luc Menichi]],  section 5 of _Batalin-Vilkovisky algebras and the $J$-homomorphism_, Topology and its Applications Volume 156, Issue 2, 1 December 2008, Pages 365&#8211;374 ([arXiv:0707.3103](http://arxiv.org/abs/0707.3103))
 
 
-Cobordisms with geometric structure are discussed in
 
-* [[David Ayala]], _Geometric cobordism categories_ ([arXiv:0811.2280](https://arxiv.org/abs/0811.2280))
-{#Ayala}
 
 
 
