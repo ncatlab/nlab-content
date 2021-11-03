@@ -10,6 +10,7 @@
 =--
 
 
+
 # Restriction category
 * table of contents
 {: toc}
@@ -57,3 +58,7 @@ The category $PF$ of [[sets]] and [[partial functions]] is the prototypical exam
 * [[Robin Cockett]], [[Steve Lack]], _Restriction categories III: colimits, partial limits, and extensivity_ ([arXiv:math/0610500](http://arxiv.org/abs/math/0610500))
 
 [[!redirects restriction categories]]
+
+[[!redirects cartesian restriction category]]
+[[!redirects cartesian restriction categories]]
+
