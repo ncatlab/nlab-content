@@ -1,4 +1,4 @@
 
-* [website](http://www.itu.dk/people/birkedal/)
+* [website](https://cs.au.dk/~birke/)
 
 category: people
