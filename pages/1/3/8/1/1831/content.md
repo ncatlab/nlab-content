@@ -272,6 +272,13 @@ is the ordinary pullback over a fibrant replacement of the original diagram henc
 
 =--
 
+### Straightening and unstraightening
+
+There is a [[Quillen equivalence]]
+between the [[model category]] of cartesian fibrations
+and the [[model category]] of [[presheaves]] valued in [[quasicategories]].
+See the article [[straightening functor]] for more information.
+
 
 ### Relation to other kinds of fibrations
 
@@ -547,6 +554,7 @@ for the moment see
 
 * [[coCartesian fibration of (∞,1)-operads]]
 
+* [[straightening functor]]
 
 ## References 
  
