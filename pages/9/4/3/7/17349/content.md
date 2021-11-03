@@ -23,7 +23,7 @@ This is of course [[principle of equivalence|not an invariant notion]]; the corr
 
 ## Properties
 
-Surjective-on-objects functors are the left class in an [[orthogonal factorization system]] on [[Cat]] whose right class consists of the injective-on-objects and [[fully faithful functors]].
+Surjective-on-objects functors are the left class in an [[orthogonal factorization system]] on [[Cat]] whose right class consists of the [[injective-on-objects functor|injective-on-objects]] and [[fully faithful functors]].
 
 ## Related pages
 
