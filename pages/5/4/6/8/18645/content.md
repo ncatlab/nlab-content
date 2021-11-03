@@ -3,7 +3,7 @@
 
 <img src="https://ncatlab.org/schreiber/files/HamburgAnnouncement.jpg" width="850" >
 
-These notes mean to give an expository but rigorous introduction to the basic concepts of [[relativistic quantum field theory|relativistic]] [[perturbative quantum field theories]], specifically those that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of _[[Lagrangian field theories]]_ -- such as [[quantum electrodynamics]], [[quantum chromodynamics]], and [[perturbative quantum gravity]] appearing in the [[standard model of particle physics]].
+These notes ([[Schreiber_pQFT20211103.pdf:file]], 323 pages) mean to give an expository but rigorous introduction to the basic concepts of [[relativistic quantum field theory|relativistic]] [[perturbative quantum field theories]], specifically those that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of _[[Lagrangian field theories]]_ -- such as [[quantum electrodynamics]], [[quantum chromodynamics]], and [[perturbative quantum gravity]] appearing in the [[standard model of particle physics]].
 
 $\,$
 
