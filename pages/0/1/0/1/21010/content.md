@@ -39,7 +39,9 @@ Background on [[light-front QCD]] for [[quantum hadrodynamics]]:
 * International Light Cone Advisory Committee, *Light-Front Quantum Chromodynamics: A framework for the analysis of hadron physics*,  Nuclear Physics B - Proceedings Supplements
 Volumes 251–252, June–July 2014, Pages 165-174 ([arXiv:1309.6333](https://arxiv.org/abs/1309.6333), [doi:10.1016/j.nuclphysbps.2014.05.004](https://doi.org/10.1016/j.nuclphysbps.2014.05.004))
 
-* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front I.\ Instanton effects and quark-antiquark effective potentials* ([arXiv:2110.15927](https://arxiv.org/abs/2110.15927))
+* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front I: Instanton effects and quark-antiquark effective potentials* ([arXiv:2110.15927](https://arxiv.org/abs/2110.15927))
+
+* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front II: QCD strings, Wilson lines and potentials* ([arXiv:2111.01775](https://arxiv.org/abs/2111.01775))
 
 
 Original articles on holographic LFQCD:
