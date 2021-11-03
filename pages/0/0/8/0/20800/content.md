@@ -1,3 +1,4 @@
+[[!redirects Turing Category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,7 +22,9 @@ A Turing category is a certain [[categorification]] of [[partial combinatory alg
 ###### Definition
 **(Turing category)**
 
-A _Turing category_ is a cartesian restriction category $(\mathcal{C}, \bar{} )$ with a fixed object A and morphism $\bullet : A \times A \rightarrow A$ having the following universal property: for each $\mathcal{C}$-morphism $f : X \rightarrow Y$ there is a section $s: Y \rightarrow A$ and retract $r : A \rightarrow X$, along with a total map $h : \mathbf{1} \rightarrow A$ satisfying the diagram:
+A _Turing category_ is a [[cartesian  restriction category]] $(\mathcal{C}, \bar{} )$ with a fixed [[object]] A and [[morphism]] $\bullet \colon A \times A \rightarrow A$ having the following [[universal property]]: 
+
+For each $\mathcal{C}$-morphism $f \colon X \rightarrow Y$ there is a [[section]] $s \colon Y \rightarrow A$ and [[retract]] $r \colon A \rightarrow X$, along with a total map $h \colon \mathbf{1} \rightarrow A$ making the following [[commuting diagram|diagram commute]]:
 
 \begin{centre} 
     \begin{tikzcd}
