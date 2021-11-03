@@ -179,7 +179,7 @@ Acad. Press 1985.
 
 * Diener-Diener (eds.), _Nonstandard analysis in practice_
 
-* Leob-Wolff (eds.), _Nonstandard analysis for the working mathematician_
+* Loeb-Wolff (eds.), _Nonstandard analysis for the working mathematician_
 
 * [[Terry Tao]], _Ultraproducts as a bridge between discrete and continuous analysis_ ([web](http://terrytao.wordpress.com/2013/12/07/ultraproducts-as-a-bridge-between-discrete-and-continuous-analysis/))
 
