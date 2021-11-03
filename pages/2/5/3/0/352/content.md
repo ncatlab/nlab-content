@@ -90,7 +90,7 @@ For a slightly more formal but still fairly gentle introduction, try:
 
 For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
 
-* [[Eugenia Cheng]], [[Aaron Lauda]], [Higher-Dimensional Categories: An Illustrated Guidebook](http://cheng.staff.shef.ac.uk/guidebook/index.html).
+* [[Eugenia Cheng]], [[Aaron Lauda]], [Higher-Dimensional Categories: An Illustrated Guidebook](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-lauda-guidebook.pdf).
 
 [[Tom Leinster]] has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
 
