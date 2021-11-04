@@ -112,6 +112,10 @@ Discussion of the [[cosmology]] in the context of AQFT on curved spacetimes incl
 
 * {#Hack15} [[Thomas-Paul Hack]], _Cosmological Applications of Algebraic Quantum Field Theory in Curved Spacetimes_, Springer 2016 ([arXiv:1506.01869](https://arxiv.org/abs/1506.01869), [doi:10.1007/978-3-319-21894-6](https://doi.org/10.1007/978-3-319-21894-6))
 
+Relation to [[2d CFT]]:
+
+* [[Marco Benini]], [[Luca Giorgetti]], [[Alexander Schenkel]], *A skeletal model for 2d conformal AQFTs* ([arXiv:2111.01837](https://arxiv.org/abs/2111.01837))
+
 
 [[!redirects AQFT on curved spacetime]]
 
