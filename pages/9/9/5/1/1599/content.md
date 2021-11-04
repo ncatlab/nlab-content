@@ -41,6 +41,7 @@ The [[cardinality]] of $W(G)$ for a compact [[connected topological space|connec
 See also at _[[relation between compact Lie groups and reductive algebraic groups]]_
 
 ### Abelian compact Lie groups
+ {#AbelianCompactLieGroups}
 
 \begin{proposition}
 \label{MaximalToriOfConnectedCompactLieGroupsAreMaximalAbelianSubgroups}
@@ -50,24 +51,70 @@ See also at _[[relation between compact Lie groups and reductive algebraic group
 
 In particular:
 \begin{proposition}
+\label{ConnectedCompactLieGroupsAreTori}
 All connected compact abelian Lie groups are [[tori]], up to [[isomorphism]].
 \end{proposition}
 ([Adams 1982, Thm. 2.19, Cor. 2.20](#Adams82))
 
 \begin{proposition}
-  Every [[abelian group|abelian]] [[compact Lie group]] is [[isomorphism|isomorphic]] to the [[direct product group]] of an [[n-torus]] with a [[finite group|finite]] [[abelian group]].
+**(Classification of compact abelian Lie groups)**
+\linebreak
+Assuming the [[axiom of choice]],
+every [[abelian group|abelian]] [[compact Lie group]] is [[isomorphism|isomorphic]] to the [[direct product group]] of an [[n-torus]] with a [[finite group|finite]] [[abelian group]].
 \end{proposition}
-  The [[quotient]] of the Lie group $G$ by the [[subgroup]] $G_e$ which is the [[connected component]] of the [[neutral element]] is a [[finite group]] $G/G_0$ and by the assumption that $G$ is compact, this is a finite group. Hence the resulting [[group extension]]
+\begin{proof}
+Write
 $$
-  G_0
+  G_{\mathrm{e}}
   \xhookrightarrow{\;\;}
   G
-  \twoheadrightarrow
-  G/G_0
 $$
-is classified by ...
-\begin{proof}
-  
+for the [[subgroup]] which is the [[connected component]] of the [[neutral element]] in the given compact abelian Lie group $G$. By Prop. \ref{ConnectedCompactLieGroupsAreTori} this is a [[torus]]
+$$
+  G_{\mathrm{e}}
+  \,\simeq\,
+  T^n
+$$
+hence its [[underlying]] [[abelian group]] is a [[divisible group]] and therefore, by [this Prop.](injective+object#InjectiveAbelianGroupIsDivisibleGroup), an [[injective object]] in the [[category]] [[Ab]] of [[abelian group]]. This implies that the dashed [[extension]] in the following [[diagram]] in [[Ab]] exists:
+
+\begin{tikzcd}
+  G_{\mathrm{e}}
+  \ar[r, -, shift left=1pt]
+  \ar[r, -, shift right=1pt]
+  \ar[d, hook, "i"{left}]
+  &
+  G_{\mathrm{e}}
+  \\
+  G
+  \mathrlap{\,,}
+  \ar[ur, dashed, "p"]
+\end{tikzcd}
+hence that $G$ [[retraction|retracts]] onto $G_0$. 
+
+While this is, a priori, a diagram in abelian [[discrete groups]] not it abelian Lie group, the fact that the dashed morphism $p \colon G \to G_{\mathrm{e}}$ [[restriction|restricts]] to the [[identity morphism]] on $G_{\mathrm{e}}$, together with the assumption that $G$ is a [[disjoint union]] of copies of this connected component and using the [[homomorphism]] property implies that $p$ is a [[continuous function|continuous]] homomorphism. But [[continuous homomorphisms of Lie groups are smooth]], so that $p$ is in fact smooth.
+
+Therefore we have a [[split exact sequence]] of Lie groups
+\begin{tikzcd}
+  G_{\mathrm{e}}
+  \ar[r, hook, "i"{below}]
+  &
+  G
+  \ar[r, ->>]
+  \ar[l, bend right=30, "p"{above}]
+  &
+  G/G_{\mathrm{e}}
+  \,,
+\end{tikzcd}
+and hence an isomorphism
+$$
+  G 
+    \;\simeq\;
+  G_{\mathrm{e}} \times G/G_{\mathrm{e}}
+    \;\simeq\;
+  T^n \times A
+  \,.
+$$
+By the assumption that $G$ was compact abelian, $A \,\coloneqq\, G/G_{\mathrm{e}}$ is finite abelian.
 \end{proof}
 
 ### Invariant metric
