@@ -56,6 +56,10 @@ In view of [[flavour anomalies]]:
 
 * J. L. Hewett et al. *Planning the Future of U.S. Particle Physics (Snowmass 2013): Chapter 2: Intensity Frontier* ([arXiv:1401.6077](https://arxiv.org/abs/1401.6077))
 
+With emphasis on precision [[QCD]]-predictions:
+
+* Thomas Gehrmann, Bogdan Malaescu, *Precision QCD Physics at the LHC* ([arXiv:2111.02319](https://arxiv.org/abs/2111.02319))
+
 
 [[!redirects precision experiments]]
 
