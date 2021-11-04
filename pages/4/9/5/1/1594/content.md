@@ -92,7 +92,7 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Related concepts
 
-* [[good orbifold]]
+* [[presentable orbifold]], [[good orbifold]], [[very good orbifold]]
 
 * [[étale groupoid]], [[differentiable stack]]
 
