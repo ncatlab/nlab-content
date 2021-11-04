@@ -1,4 +1,29 @@
 
+\begin{tikzcd}
+  G_{\mathrm{e}}
+  \ar[r, -, shift left=1pt]
+  \ar[r, -, shift right=1pt]
+  \ar[d, hook]
+  &
+  G_{\mathrm{e}}
+  \\
+  G
+  \ar[ur, dashed]
+\end{tikzcd}
+
+\begin{tikzcd}
+  G_{\mathrm{e}}
+  \ar[r, hook, "i"{below}]
+  &
+  G
+  \ar[r, ->>]
+  \ar[l, bend right=30, "p"{below}]
+  &
+  G/G_{\mathrm{e}}
+\end{tikzcd}
+
+
+
 $$
   \delta_i^\ast F
   \;=\;
