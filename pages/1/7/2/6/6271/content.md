@@ -139,7 +139,7 @@ The original reference is
 * [[Émile Borel]], _Sur quelques points de la th&#233;orie des fonctions_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 12 (1895), 
 p. 9--55 [numdam](http://www.numdam.org/item?id=ASENS_1895_3_12__9_0)
 
-It had been actually proved by [[Guiseppe Peano]] before Borel
+It had been actually proved by [[Giuseppe Peano]] before Borel
 
 * &#193;d&#225;m Besenyei, _Peano's unnoticed proof of Borel's theorem_ ([pdf](http://www.cs.elte.hu/~badam/publications/borel.pdf))
 
