@@ -467,7 +467,7 @@ Discussion of full field algebra includes
 
 For chiral part see
 
-* Edward Frenkel, David Ben-Zvi: _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS 2001,
+* [[Edward Frenkel], [[David Ben-Zvi]], _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS 2001,
 xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
@@ -479,6 +479,11 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 For further references see [[conformal net]].
 
 
+### Formulation in full AQFT
+
+Formulation in full [[AQFT on curved spacetimes]]:
+
+* [[Marco Benini]], [[Luca Giorgetti]], [[Alexander Schenkel]], *A skeletal model for 2d conformal AQFTs* ([arXiv:2111.01837](https://arxiv.org/abs/2111.01837))
 
 
 
