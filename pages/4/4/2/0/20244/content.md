@@ -21,7 +21,7 @@
 
 ## Idea
 
-A [[group action]] is _effective_ if no group element other than the [[neutral element]] acts [[trivial action|trivially]] on _all_ elements of the space.
+A [[group action]] is _effective_ if no group element other than the [[neutral element]] acts [[trivial action|trivially]] on _all_ elements of the space, hence if no other element acts the way the neutral element does.
 
 ## Definition
 
