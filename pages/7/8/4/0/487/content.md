@@ -16,7 +16,7 @@
 
 ## Definition 
 
-A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] morphism is an [[isomorphism]].  Monic epics are  sometimes called [[bimorphism]]s.
+A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] morphism is an [[isomorphism]].  
 
 
 ## Remarks 
