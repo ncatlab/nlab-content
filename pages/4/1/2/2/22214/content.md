@@ -20,6 +20,10 @@ _Machine learning_ is a branch of [[computer science]] which devises algorithms 
 
 ### Classical machine learning
 
+For a treatment in terms of [[category theory]] see
+
+* Dan Shiebler, [[Bruno Gavranović]], Paul Wilson, _Category Theory in Machine Learning_ ([arXiv:2106.07032](https://arxiv.org/abs/2106.07032))
+
 See also:
 
 * Wikipedia, *[Machine learning](https://en.wikipedia.org/wiki/Machine_learning)*
