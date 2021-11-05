@@ -50,7 +50,7 @@ By the above remarks, it follows that filtered colimits commute with finite limi
 ### Sifted colimits commute with finite products
   {#SiftedColimitsCommuteWithFiniteProducts}
 
-Again in [[Set]] (and hence also in any [[topos]]), [[sifted category|sifted colimits]] commute with [[finite products]]. In fact, this is usually taken to be the definition of a [[sifted category]], and then a theorem of [Gabriel-Ulmer 71](sifted+colimit#GabrielUlmer71) characterizes sifted categories as those for which the [[diagonal functor]] $C \to C \times C$ is a [[final functor]].
+Again in [[Set]] (and hence also in any [[Grothendieck topos]]), [[sifted category|sifted colimits]] commute with [[finite products]]. In fact, this is usually taken to be the definition of a [[sifted category]], and then a theorem of [Gabriel-Ulmer 71](sifted+colimit#GabrielUlmer71) characterizes sifted categories as those for which the [[diagonal functor]] $C \to C \times C$ is a [[final functor]].
 
 As a special case, [[categories with finite products are cosifted]].
 
