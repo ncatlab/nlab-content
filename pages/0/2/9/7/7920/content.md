@@ -65,6 +65,8 @@ These names have been chosen due to the fact that objects in the left hand categ
 
 * [[Grothendieck fibration]]
 
+* [[(∞,1)-Grothendieck construction ]]
+
 * [[cleavage]]
 
 ## References
