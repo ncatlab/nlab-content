@@ -75,7 +75,7 @@ for some $A_V$, whose [[image]] is $V$, and such that every other morphism of $k
 +-- {: .num_defn}
 ###### Definition
 
-A **$k$-analytic space** is a [[locally Hausdorff topological space|locally Hausforf]] [[topological space]] $X$ equipped with an [[atlas]] by $k$-[[affinoid domains]] and [[affinoid domain embeddings]], such that their underlying [[analytic spectra]] [[topological spaces]] form a [[quasinet|net]] of [[compact subsets]] on $X$. 
+A **$k$-analytic space** is a [[locally Hausdorff topological space|locally Hausdorff]] [[topological space]] $X$ equipped with an [[atlas]] by $k$-[[affinoid domains]] and [[affinoid domain embeddings]], such that their underlying [[analytic spectra]] [[topological spaces]] form a [[quasinet|net]] of [[compact subsets]] on $X$. 
 
 =--
 
