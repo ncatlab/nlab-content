@@ -201,3 +201,5 @@ See the references at *[[simplicial homotopy theory]]*.
 
 
 [[!redirects horns]]
+[[!redirects inner horn]]
+[[!redirects inner horns]]
