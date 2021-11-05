@@ -1432,7 +1432,10 @@ In a context of [[equivariant differential topology]]:
 
 * {#Wasserman69} [[Arthur Wasserman]], section 2 of: _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 (<a href="https://doi.org/10.1016/0040-9383(69)90005-6">doi:10.1016/0040-9383(69)90005-6</a>[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
+In the context of [[orientation in generalized cohomology]] generalized to [[equivariant complex oriented cohomology theory]]:
 
+* [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
+Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
 
 
 ### As twists for twisted equivariant K-theory
