@@ -49,7 +49,7 @@ It is immediate that isomorphisms satisfy the [[two-out-of-three]] property. But
 
 Note that the [[inverse morphism]] of an isomorphism is an isomorphism, as is any [[identity morphism]] or [[composite]] of isomorphisms.  Thus, being isomorphic is an [[equivalence relation]] on objects.  The equivalence classes form the [[fundamental 0-groupoid]] of the category in question.
 
-Every isomorphism is both a [[split monomorphism]] (and thus about any other kind of [[monomorphism]]) and a [[split epimorphism]] (and thus about any other kind of [[epimorphism]]).  In a [[balanced category]], every morphism that is both monic and epic (called a [[bimorphism]]) is invertible, but this does not hold in general.  However, any monic [[regular epimorphism]] (or dually, any epic [[regular monomorphism]]) must be an isomorphism.
+Every isomorphism is both a [[split monomorphism]] (and thus about any other kind of [[monomorphism]]) and a [[split epimorphism]] (and thus about any other kind of [[epimorphism]]).  In a [[balanced category]], every morphism that is both a [[monomorphism]] and an [[epimorphism]] is invertible, but this does not hold in general.  However, any monic [[regular epimorphism]] (or dually, any epic [[regular monomorphism]]) must be an isomorphism.
 
 A [[groupoid]] is precisely a [[category]] in which every morphism is an isomorphism.  More generally, the [[core]] of any category $C$ is the [[subcategory]] consisting of all objects but only the isomorphisms; it is a kind of underlying groupoid of $C$.  In a similar way, the automorphisms of any given object $x$ form a [[group]], the [[automorphism group]] of $x$.
 
