@@ -44,7 +44,7 @@ Generalizing in a different direction, absolute colimits in $Set$-enriched categ
 For a given $V$, a [[weighted colimit|weight]] $\Phi\colon D^{op} \to V$ for colimits is an **absolute weight**, or a **weight for absolute colimits**, if $\Phi$-weighted colimits in *all* $V$-categories are preserved by all $V$-functors.
 =--
 
-Absolute colimits of this sort are also called **Cauchy colimits**.  A $V$-[[category]] which admits all absolute colimits --- that is, all $V$-weighted colimits whose weights are absolute -- is called [[Cauchy complete category|Cauchy complete]].  By the characterization below, it is equivalent to admit *limits* weighted by all weights <a href="http://streamingmilf.net/" style="text-decoration:none;color:#333333;">mature</a> for absolute limits.
+Absolute colimits of this sort are also called **Cauchy colimits**.  A $V$-[[category]] which admits all absolute colimits --- that is, all $V$-weighted colimits whose weights are absolute -- is called [[Cauchy complete category|Cauchy complete]].  By the characterization below, it is equivalent to admit *limits* weighted by all weights for absolute limits.
 
 
 ## Characterizations
