@@ -78,6 +78,8 @@ from the [[homotopy coherent nerve]]
 
 ## Related concepts
 
+* [[straightening and unstraightening]]
+
 * [[simplicial category]]
 
   * [[simplicially enriched category]]
