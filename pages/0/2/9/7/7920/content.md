@@ -25,23 +25,39 @@ between
 a [[model structure on sSet-enriched presheaves]]
 and a [[slice model structure]] of [[simplicial sets]] which has been introduced under the name *straightening and unstraightening* in [Lurie 2009, Sec. 3.2](#Lurie09):
 
-In [[model category]]-theory, in particular in the presentation of the [[(infinity,1)-Grothendieck construction|(∞,0)-Grothendieck construction]], for a [[simplicial set]] $S$, [[simplicially enriched category]] $C$, and simplicial functor $\mathfrak{C}[S] \to C$, there is a [[pair]] of [[adjoint functors]]
+Concretely, in the notation recalled at *[[relation between quasi-categories and simplicial categories]]*:
+
+For a [[simplicial set]] $S$, [[simplicially enriched category]] $C$, and [[sSet]]-[[enriched functor]] $\mathfrak{C}[S] \to C$, there is a [[pair]] of [[adjoint functors]]
 $$
   (St_\phi\dashv Un_\phi) 
   \;\colon\; 
-  sSet/S \stackrel{St}{\to} [C^{op}, sSet]
+  sSet/S \xrightarrow{\;\; St \;\;} [C^{op}, sSet]
 $$
-which (under an assumption on the parameter $\phi$) can be shown to be a [[Quillen equivalence]] between the [[slice model structure]] of simplicial sets equipped with the [[model structure for right fibrations]] (also called contravariant model structure in [[Higher Topos Theory|HTT]]) and the category of [[simplicial presheaves]] equipped with [[model structure on simplicial presheaves|global projective model structure]].
+which (under an assumption on the parameter $\phi$) can be shown to be a [[Quillen equivalence]] between 
 
-There is also a Quillen equivalence
+1. the [[slice category]] of [[sSet]] equipped with the [[model structure for right fibrations]] (also called contravariant model structure in [[Higher Topos Theory|HTT]]) 
+
+1. the category of [[simplicial presheaves]] equipped with [[model structure on simplicial presheaves|global projective model structure]].
+
+There is also a [[Quillen equivalence]]
 $$
-  (St_\phi\dashv Un_\phi) 
+  (St_\phi \dashv Un_\phi) 
   \;\colon\; 
-  sSet^+/S \stackrel{St}{\to} [C^{op}, sSet^+]
+  sSet^+/S \stackrel{St}{\;\; \longrightarrow \;\;} [C^{op}, sSet^+]
 $$
-between the [[model structure for Cartesian fibrations]] and the global projective model structure on functors with values  in the [[model structure on marked simplicial sets]].
+between 
 
-Here (in both cases) $St_\phi$ is called *straightening functor* and $Un_\phi$ is called *unstraightening functor*. These names have been chosen due to the fact that objects in the left hand category are defined by existential assertions and choices where on the right side these properties become [[coherence laws]] being part of the structure.
+1. the [[model structure for Cartesian fibrations]] 
+
+1. the global projective [[model structure on functors]] with values in the [[model structure on marked simplicial sets]].
+
+In both cases, 
+
+* $St_\phi$ is called the *straightening functor* 
+
+* $Un_\phi$ is called the *unstraightening functor*. 
+
+These names have been chosen due to the fact that objects in the left hand category are defined by existential assertions and choices where on the right side these properties become [[coherence laws]] being part of the structure.
 
 ## Related concepts
 
