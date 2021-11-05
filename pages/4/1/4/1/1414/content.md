@@ -202,7 +202,7 @@ $$
   =
   \left\{
     \array{
-       \{0,1,23\}&\rightarrow & \{0,1,3\}
+       \{0,1,2,3\}&\rightarrow & \{0,1,3\}
        \\  
        \downarrow & \searrow &\downarrow\\
        \{0,2,3\}&\rightarrow &\{0,3\}
@@ -322,6 +322,26 @@ is to be a simplicial map.
 
 
 A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' in $S[5](0,5)$, and so on.
+
+### For other simplicial sets
+
+The description of $S[n]$ works more generally for the [[nerve]] of a [[poset]]. Explicitly, if $P$ is a poset, $S(NP)$ is isomorphic to the simplicially enriched category with the structure
+
+   * The objects of $S(NP)$ are the elements of $P$
+   * The [[hom-object]] $S(NP)(x,y)$ is the nerve of the poset of [[chains]] $S \subseteq P$ with $\min(S) = x$ and $\max(S) = y$, ordered by reverse inclusion
+   * Composition is given by taking unions
+
+
+The simplicially enriched categories constructed from spheres and [[inner horns]] also have simple descriptions.
+
+For $(i,j) \neq (0,n)$, the hom-objects are the same as the ambient simplex: $S(\Lambda^n_k)(i,j) = S(\partial \Delta^n)(i,j) = S(\Delta^n)(i,j)$.
+
+For the remaining hom-object, while $S(\Delta^n)(0,n) \cong \square^{n-1}$ is the $(n-1)$-cube, $S(\partial \Delta^n)(0,n) = \partial \square^{n-1}$ is the boundary, and $S(\Lambda^n_k)(0,n)$ further omits the corresponding face.
+
+To see this, observe that the nondegenerate simplices of $S(\Delta^n)(0,n)$ are either decomposable (i.e. the product of two or more simplices from other hom-sets) or are the image of a top simplex of $S(\Delta^m)(0,m) \to S(\Delta^n)(0,n)$ for some monomorphism $\Delta^m \to \Delta^n$ preserving top and bottom elements, depending on whether the simplex contains the top vertex $(0,n)$.
+
+Thus, the decomposable faces of $S(\Delta^n)(0,n)$ are the ones omitting the top vertex $(0,n)$, and the remaining faces come from inner faces $\Delta^{n-1} \to \Delta^n$.
+
 
 ### For the homotopy coherent nerve
 
