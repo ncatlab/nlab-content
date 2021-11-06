@@ -9,6 +9,15 @@ __Mikhail Gromov__ (&#1052;&#1080;&#1093;&#1072;&#1080;&#1083; &#1051;&#1077;&#1
 
 ## Selected writings
 
+On the [[h-principle]] and [[microflexible sheaves]]:
+
+* [[Mikhail Gromov]], _Partial differential relations_, Ergebn. Math. Grenzgeb. (3), 9, Springer (1986) ([doi:10.1007/978-3-662-02267-2](https://link.springer.com/book/10.1007/978-3-662-02267-2))
+
+* [[Mikhail Gromov]], _A topological technique for the construction of solutions of differential equations and inequalities_, Proc. Int. Congress Math. Nice 1970, vol. 2, 221-225 ([djvu w OCR](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.djvu), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.pdf))
+
+* [[Mikhail Gromov]], Papers on h-principle: geometric methods for solving partial differential equations/inequalities and the homotopy structure in the spaces of their solutions, [list](http://www.ihes.fr/~gromov/topics/topic2.html) (with some links)
+
+
 On the [[Oka principle]]:
 
 * [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
@@ -17,11 +26,10 @@ See also:
 
 * _Pseudo holomorphic curves in symplectic manifolds_, Inventiones Mathematicae __82__, n. 2 (1985) 307&#8211;347.
 
-* _Partial differential relations_, Ergebnisse der Mathematik und ihrer Grenzgebiete (3) [Results in Mathematics and Related Areas (3)], 9. Springer-Verlag, Berlin, 1986. x+363 pp.
 
 
 
-Gromov also researches connections between mathematics, [[biology]], and sees [[n-categories]] as the structures in mathematics closest to what is going on in the mind. see:
+Gromov also researches connections between [[mathematics]], [[biology]], and sees [[n-categories]] as the structures in mathematics closest to what is going on in the mind. see:
 
 * [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
 * [Structures, Learning and Ergosystems: Chapters 1-4, 6](http://www.ihes.fr/~gromov/PDF/ergobrain.pdf)
