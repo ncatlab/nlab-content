@@ -42,6 +42,11 @@ on the [[slice site]] site $Emb_n/M$ is an [[equivalence of (∞,1)-categories]]
 
 ## Literature
 
+The canonical reference is Section 2.2.1 of
+
+* [[Mikhael Gromov]], _Partial differential relations_, 1986, [doi](http://dx.doi.org/10.1007/978-3-662-02267-2).
+
+See also
 
 * [[John Francis]], *The H-principle for microflexible sheaves*, 2010 ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/20microflexible.pdf))
 
