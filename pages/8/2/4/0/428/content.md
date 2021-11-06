@@ -374,7 +374,17 @@ See [[bar and cobar construction]].
 
 See ([Fresse](#Fresse)).
 
-## References
+##Related entries
+
+* [[simplicial resolution]]; this is essentially the same concept but from a slightly different perspective.
+
+* [[homotopy coherent nerve]]
+
+* [[canonical resolution]]
+
+* [[monadic cohomology]] 
+
+## References and Literature
 
 A general discussion of bar construction for monads is at
 
