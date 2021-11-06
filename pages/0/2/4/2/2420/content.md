@@ -1,5 +1,5 @@
 
-> This entry is about *partition *functions in the sense of [[statistical mechanics]] and [[quantum field theory]]. For the function in [[number theory]]/[[combinatorics]] that assigns to a [[natural number]] the number of its [[partitions]] see at *[[partition function (number theory)]]*.
+> This entry is about *partition functions* in the sense of [[statistical mechanics]] and [[quantum field theory]]. For the function in [[number theory]]/[[combinatorics]] that assigns to a [[natural number]] the number of its [[partitions]] see at *[[partition function (number theory)]]*.
 
 ***
 
