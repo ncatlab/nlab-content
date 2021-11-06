@@ -40,9 +40,35 @@ There is a monad on [[Set]], the category of sets, comprising the [[free abelian
 
 Thus we may produce the cosimplicial canonical resolution of any set $X$. If $X$ supports (at least one) abelian group structure, then we can add a codegeneracy to the canonical resolution which defines the usual [[bar construction]] on $X$ with that particular abelian group structure.  
 
+## Related concepts
+
+* [[homological resolution]]
+
+* [[monadic cohomology]]
+
+* [[simplicial resolution]]
 
 
-##References 
+
+
+##References and Literature 
+
+The original source is
+
+* [[Roger Godement]], _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
+
+
+The theory is explained in many sources including 
+
+* [[M. Barr]] and [[J. Beck]], 1969, _Homology and Standard Constructions_, in _Seminar on triples and categorical homology_, number 80 in Lecture Notes in Maths., Springer-Verlag, Berlin,
+
+and in Jack Duskin's  monograph:
+
+
+*  [[J. Duskin]], 1975, Simplicial methods and the interpretation of "triple" cohomology , number 163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc.
+
+
+A textbook account is in
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
