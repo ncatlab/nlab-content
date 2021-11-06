@@ -27,7 +27,7 @@ Persistent homology is a [[homology theory]] adapted to a [[computation|computat
 
 We suppose given a 'data cloud of samples', $P\subset \mathbb{R}^m$, from some space $X$, yielding a [[simplicial complex]] $S_\rho(X)$ for each $\rho \gt 0$ via one of the family of simplicial complex approximation methods that are listed below (TO BE ADDED).  For these, the important idea to retain is that if $\rho \lt \rho^\prime$, then 
 
-$$S_\rho(X) \hookrightarrow S_{\rho^\prime}(X),$$
+$$S_\rho(X) \hookrightarrow S_{\rho'}(X),$$
 
 so we get a 'filtration structure' on the complex.
 
