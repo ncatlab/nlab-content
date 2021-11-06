@@ -21,6 +21,10 @@ Gromov introduced many techniques of proving the h-principle including the metho
 
 ## Related concepts
 
+* [[microflexible sheaf]]
+
+* [[c-principle]]
+
 * [[Oka principle]]  
 
 * [[formal immersion of smooth manifolds]]
