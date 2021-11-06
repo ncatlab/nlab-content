@@ -68,7 +68,7 @@ By the definition its  [[simplicial resolution]] gives an augmented simplicial e
 
 ####Remark
 
-Some *words of caution*, as always with simplicial resolutions, there are two conventions which differ by being the opposite simplicial object of each other.  In the original paper, Cordier uses a different one of these conventions from some of the other sources mentioned here. A similar problem occurs in the following combinatorial description as some sources use 'reverse inclusion' where others just use 'inclusion'reverse inclusion' for the partial order on the poset. This corresponds more or less exactly to the distinction between 'op-lax' and 'lax' functors in the theory oe 2-categories. 
+Some *words of caution*, as always with simplicial resolutions, there are two conventions which differ by being the opposite simplicial object of each other.  In the original paper, Cordier uses a different one of these conventions from some of the other sources mentioned here. A similar problem occurs in the following combinatorial description as some sources use 'reverse inclusion' where others just use 'inclusion' for the partial order on the poset. This corresponds more or less exactly to the distinction between 'op-lax' and 'lax' functors in the theory oe 2-categories. 
 
 Because of this, it is always important to test the definition being used on a simple example, $[2]$ will do, before commiting to the use of any specific formulae. We will see this again in another Remark later on in this entry.
 
