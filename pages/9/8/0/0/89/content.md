@@ -102,7 +102,7 @@ By the 'reverse category' of a monoidal category $\mathcal{C}$ we mean the monoi
 * [[Cauchy completion]]
 
 
-## References
+## References and Literature
 
 The concept is named after [[Kiiti Morita]].
 
@@ -125,7 +125,7 @@ The generalizations to graded rings, Hopf algebras and corings are studied in re
 * A. Marcus, _Equivalences induced by graded bimodules_, Comm. Algebra 26 (1998) 713–731; _Homology of fully graded algebras, Morita and derived equivalences_, J. Pure Appl. Alg. __133__:1–2 (1998) 209-218 <a href="https://doi.org/10.1016/S0022-4049(97)00196-5">doi</a>
 * S. Caenepeel, J.Vercruysse, Shuanhong Wang, _Morita theory for corings and cleft entwining structures_, J. Algebra __276__1 (2004) 210-235 [doi](https://doi.org/10.1016/j.jalgebra.2004.02.002)
 * [[Stefaan Caenepeel]], Septimiu Crivei, Andrei Marcus, [[Mitsuhiro Takeuchi]], _Morita equivalences induced by bimodules over Hopf–Galois extensions_, J. Algebra __314__ (2007) 267–302 [pdf](https://core.ac.uk/download/pdf/81180359.pdf)
-* Gabriella Böhm, Joost Vercruysse, _Morita theory for comodules over corings_,  3207-3247 (2009)  Commun. Alg. __37__:9 (2009) [doi](https://doi.org/10.1080/00927870902747993 )
+* [[Gabriella Böhm]], [[Joost Vercruysse]], _Morita theory for comodules over corings_,  3207-3247 (2009)  Commun. Alg. __37__:9 (2009) [doi](https://doi.org/10.1080/00927870902747993 )
 
 
 The case of algebraic theories is covered in
@@ -142,7 +142,7 @@ Other references include
 
 * [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ . ([[MeyerMoritaEquivalence.pdf:file]])
 
-* I. Dell'Ambrogio, [[Goncalo Tabuada]], _A Quillen model structure for classical Morita theory and a tensor categorification of the Brauer group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
+* [[I. Dell'Ambrogio]], [[Goncalo Tabuada]], _A Quillen model structure for classical Morita theory and a tensor categorification of the Brauer group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
 
 * [[Hans Porst]], _Generalized Morita Theories: The power of categorical algebra_, ([pdf](http://www.math.uni-bremen.de/~porst/dvis/SAMSnoticesCorr.pdf))
 
