@@ -2,6 +2,13 @@
 
 * [web](http://math.mit.edu/~tabuada/)
 
+##Selected publications and preprints
+
+* (with [[Ivo Dell'Ambrogio]]), _A Quillen model structure for classical Morita theory and a tensor categorification of the Brauer group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
+
+
+* (with [[Ivo Dell'Ambrogio]]), Morita homotopy theory of $C^*$-categories, Journal of Algebra, 398 (2014), 162-199
+
 category: people
 
 [[!redirects Gonçalo Tabuada]]
