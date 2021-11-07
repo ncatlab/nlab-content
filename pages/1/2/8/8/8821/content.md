@@ -95,4 +95,10 @@ At the other extreme, a [[zero object]] is a strict initial object only if the c
 
 * [[formal dual]] concept: [[strict terminal object]]
 
+
+## References
+
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], Def. 2.7 in: _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+
+
 [[!redirects strict initial objects]]
