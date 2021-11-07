@@ -144,9 +144,9 @@ This means that if $A \in \mathcal{C}$ itself is indecomposable in that it is no
 
 ## References
 
-For instance page 34 in section A1.4.4 in 
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], around Def. 2.5 in: _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], Sec. A1.4.4, p. 34 in: _[[Sketches of an Elephant]]_
 
 
 [[!redirects disjoint coproduct]]
