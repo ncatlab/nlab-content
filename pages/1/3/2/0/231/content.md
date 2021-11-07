@@ -767,7 +767,7 @@ Exposition of basics of monoidal categories and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
 
-Monoidal categories were introduced independently by B&#233;nabou and Mac Lane under the name 'category with multiplication'. The current name is due to Eilenberg.
+Monoidal categories were introduced independently by B&#233;nabou under the name 'category with multiplication' and Mac Lane under the name 'bicategory' (not to be confused with [[bicategory]]). The current name is due to Eilenberg.
 
 * [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) pp.1887-1890. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image))
 
