@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -28,23 +27,51 @@ In a category with [[pullbacks]], regular epimorphisms are the same as [[effecti
 
 ## Definition 
 
+\begin{definition}
+\label{RegularEpimorphism}
 A **regular epimorphism** is a [[morphism]] $f \colon c \to d$ (in a given [[category]]) that is the [[coequalizer]] of _some_ [[parallel pair]] of morphisms, i.e. if there exists _some_ [[colimit]] diagram of the form
+$$ 
+  a 
+    \;\rightrightarrows\; 
+  c 
+    \xrightarrow{\;f\;} 
+  d. 
+$$
+\end{definition}
 
-$$ a \;\rightrightarrows\; c \overset{f}{\to} d. $$
-
-The [[duality|dual]] concept is that of [[regular monomorphism]].
+\begin{remark}
+The [[formal duality|dual]] concept to Def. \ref{RegularEpimorphism} is that of *[[regular monomorphism]]*.
+\end{remark}
 
 ## Properties
 
 ### Relation to other kinds of epimorpisms
 
-The definition refers only to *some* parallel pair, but often there is a canonical choice: the [[kernel pair]] of the morphism in question.  A morphism having a kernel pair (such as any morphism in a category with [[pullback]]s) is a regular epimorphism if and only if it is the coequalizer of its kernel pair.  See, for instance Lemma 5.6.6 in _[[Practical Foundations]]_; this also follows from the theory of [[generalized kernels]]).  A regular epimorphism with a kernel pair, or equivalently a morphism that is the coequalizer of its kernel pair, is here called an __[[effective epimorphism]]__.
+Def. \ref{RegularEpimorphism} refers only to *some* parallel pair, but often there is a canonical choice: the [[kernel pair]] of the morphism in question:
 
-Although the definition doesn\'t state so explicitly, it is true (and easy to prove) that any regular epimorphism is an [[epimorphism]].  In fact, every regular epimorphism is a [[strong epimorphism]], hence an [[extremal epimorphism]].  In particular, this implies that a regular epimorphism which is also a [[monomorphism]] must in fact be an [[isomorphism]].
+\begin{prop}
+\label{MorphismsWithKernelPairsAreRegularIffEffective}
+A morphism having a [[kernel pair]] (such as any morphism in a category with [[pullbacks]]) is a regular epimorphism if and only if it is the [[coequalizer]] of its kernel pair.  
+\end{prop}
+E.g. [Borceux 1994, Prop. 2.5.7](#Borceux94), [Taylor 1999, Lemma 5.6.6](#Taylor99).
+This also follows from the theory of [[generalized kernels]].  
+
+\begin{definition}
+A regular epimorphism with a [[kernel pair]], or equivalently (by Prop. \ref{MorphismsWithKernelPairsAreRegularIffEffective}) a morphism that is the coequalizer of its kernel pair, is called an _[[effective epimorphism]]_.
+\end{definition}
+
+Although the definition doesn't state so explicitly, it is true (and easy to prove) that:
+
+\begin{proposition}
+Every regular epimorphism (Def. \ref{RegularEpimorphism}) is an [[epimorphism]].  
+\end{proposition}
+
+In fact, every regular epimorphism is a [[strong epimorphism]], hence an [[extremal epimorphism]].  In particular, this implies that a regular epimorphism which is also a [[monomorphism]] must in fact be an [[isomorphism]].
 
 Frequently (such as in a [[regular category]]), every strong or extremal epimorphism is regular.  Moreover, in a regular category, every regular epimorphism is [[pullback-stability|pullback-stable]], and therefore a [[descent morphism]].  If the category is moreover [[exact category|exact]], or has stable [[reflexive coequalizers]], then every regular epimorphism is an [[effective descent morphism]].
 
 On the other hand, every [[split epimorphism]] is regular, but the converse holds only rarely (it is an [[internalization|internal]] form of the [[axiom of choice]]).
+
 
 ### Pullbacks and pushouts
 
@@ -54,6 +81,52 @@ On the other hand, every [[split epimorphism]] is regular, but the converse hold
 In a [[regular category]], [[regular epimorphisms]] are [[preserved limit|preserved]] by [[pullback]].
 
 =--
+
+(This is usually by definition of "[[regular category]]".)
+
+\begin{proposition}
+  In a [[regular category]], given a [[commuting diagram]] of the form
+
+\begin{tikzcd}
+  R'
+  \ar[d, shift left=4pt]
+  \ar[d, shift right=4pt]
+  \ar[r]
+  \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+  &
+  R
+  \ar[d, shift left=4pt]
+  \ar[d, shift right=4pt]
+  \\
+  X'
+  \ar[d, ->>]
+  \ar[r]
+  \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+  &
+  X
+  \ar[d, ->>]
+  \\
+  Y'
+  \ar[r]
+  &
+  Y
+\end{tikzcd}
+
+where 
+
+* the right vertical column is both a [[kernel pair]] and a [[coequalizer]], hence the kernel pair of a regular epimorphism,
+
+* all parallel squares are [[pullbacks]]
+
+then also the left vertical column is both a kernel pair and a coequalizer, hence the kernel pair of a regular epimorphism.
+\end{proposition}
+\begin{proof}
+  The left column is again a kernel pair since [[limits commute with limits]] and the left bottom vertical morphism is again a regular epimorphism, by definition of regular categories.
+
+Therefore the left vertical column is a coequalizer by Prop. \ref{MorphismsWithKernelPairsAreRegularIffEffective}.
+\end{proof}
+
+
 
 +-- {: .num_prop #PullbackSquareOfRegularEpisIsPushout}
 ###### Proposition
@@ -83,7 +156,7 @@ In a regular category $C$, regular epimorphisms and [[strong epimorphisms]] (= [
 
 +-- {: .num_remark} 
 ###### Remark 
-Regular epimorphisms are not generally closed under composition. Paul Taylor in [Practical Foundations of Mathematics, p. 289](#Taylor) gives the following example in $Cat$. Let $\mathbb{2}$ be the [[interval category]]; then the coequalizer of the two object inclusions $1 \rightrightarrows \mathbb{2}$ is a regular epi $\mathbb{2} \to B\mathbb{N}$ (the codomain is the additive monoid $\mathbb{N}$ made into a 1-object category; the epi sends the non-identity arrow of $\mathbb{2}$ to $1 \in \mathbb{N}$). There is an evident regular epi $e: \mathbb{N} \to \mathbb{Z}/3$ of monoids. But the composite 
+Regular epimorphisms are not generally closed under composition. [Taylor 1999 p. 289](#Taylor99) gives the following example in [[Cat]]. Let $\mathbb{2}$ be the [[interval category]]; then the coequalizer of the two object inclusions $1 \rightrightarrows \mathbb{2}$ is a regular epi $\mathbb{2} \to B\mathbb{N}$ (the codomain is the additive monoid $\mathbb{N}$ made into a 1-object category; the epi sends the non-identity arrow of $\mathbb{2}$ to $1 \in \mathbb{N}$). There is an evident regular epi $e: \mathbb{N} \to \mathbb{Z}/3$ of monoids. But the composite 
 
 $$\mathbb{2} \to B\mathbb{N} \stackrel{B e}{\to} B\mathbb{Z}/3$$ 
 
@@ -120,7 +193,7 @@ Textbook accounts:
 
 * [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], Def. 7.71 in: *[[Abstract and Concrete Categories -- The Joy of Cats]]* John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
-* [[Francis Borceux]], Def. 4.3.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+* {#Borceux94} [[Francis Borceux]], Def. 4.3.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
 Exposition and examples:
 
@@ -132,7 +205,7 @@ See also:
 
 * {#Bed} Marek A. Bednarczyk, Andrzej M. Borzyszkowski, and Wieslaw Pawlowski, *Generalized congruences &#8211; epimorphisms in $\mathcal{C}a t$*, Theory and Applications of Categories [electronic only] 5 (1999), 266-280 ([dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5))
 
-* {#Taylor} [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge Studies in Advanced Mathematics 59, Cambridge University Press 1999. 
+* {#Taylor99} [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge Studies in Advanced Mathematics 59, Cambridge University Press 1999 ([webpage](http://www.paultaylor.eu/~pt/prafm/index.html))
 
 
 
