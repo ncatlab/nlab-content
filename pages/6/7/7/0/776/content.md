@@ -27,6 +27,7 @@ In this form this may be phrased generally in any [[category]].
 
 ## Definition
 
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -73,12 +74,15 @@ $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
 By [[formal duality]], a coequalizer in $\mathcal{C}$ is equivalently an [[equalizer]] in the [[opposite category]] $\mathcal{C}^{op}$.
+\end{remark}
 
-=--
+
+\begin{remark}
+  Morphisms that coequalize some pair of [[parallel morphisms]] are called *[[regular epimorphisms]]*.
+\end{remark}
+
 
 ## Properties
 
@@ -146,6 +150,12 @@ For $\mathcal{C} =$ [[Set]], the coequalizer of two [[functions]] $f$, $g$ is th
 For $\mathcal{C} =$ [[Top]], the coequalizer of two [[continuous functions]] $f$, $g$ is the [[topological space]] whose underlying set is the [[quotient set]] from example \ref{QuotientSet}, and whose topology is the corresponding [[quotient topology]].
 
 =--
+
+## Related concepts
+
+* [[equalizer]]
+
+* [[regular epimorphism]]
 
 ## References
 
