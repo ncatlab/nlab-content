@@ -520,6 +520,9 @@ Review  with focus on compactly generated [[topological G-spaces]] in [[equivari
 [[!redirects compactly generated space]]
 [[!redirects compactly generated spaces]]
 
+[[!redirects compactly generated Hausdorff space]]
+[[!redirects compactly generated Hausdorff spaces]]
+
 [[!redirects compactly generated weakly Hausdorff topological space]]
 [[!redirects compactly generated weakly Hausdorff topological spaces]]
 [[!redirects compactly generated weakly Hausdorff space]]
