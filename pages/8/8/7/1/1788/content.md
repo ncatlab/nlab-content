@@ -1,4 +1,64 @@
 
+\begin{tikzcd}[column sep={between origins, 50pt}]
+    &[-10pt]
+    &[-10pt]
+    &&[+30pt]
+    P \times \Gamma
+    \ar[d, shift right=2.5pt, "\mathrm{pr}_1"{swap}]
+    \ar[d, shift left=2.5pt, "\rho"]
+    \ar[rr]
+    &&
+    \big(
+      P \times_X P'
+    \big) \times \Gamma
+    \ar[d, shift right=2.5pt, "\mathrm{pr}_1"{swap}]
+    \ar[d, shift left=2.5pt, "\rho"]
+    \\
+    &&&&
+    P 
+    \ar[d]
+    \ar[rr, "{ (\mathrm{id},f) }"{description}]
+    &&
+    P \times_X P'
+    \ar[d]
+    \\
+    P
+      \ar[out=180-66, in=66, looseness=3.5, "\scalebox{.77}{$\,\mathclap{
+        G
+      }\,$}"{description},shift right=1]
+    \ar[rr, "f"]
+    \ar[dr]
+    &
+    &
+    P'
+      \ar[out=180-66, in=66, looseness=3.5, "\scalebox{.77}{$\,\mathclap{
+        G
+      }\,$}"{description},shift right=1]
+    \ar[dl]
+    &\leftrightarrow&
+    P/G
+    \ar[rr, dashed]
+    \ar[dr, -, shift left=1pt]
+    \ar[dr, -, shift right=1pt]
+    &&
+    \big(
+      P
+        \times_{X}
+      P'
+    \big) / G
+    \ar[dl]
+    \\
+    &
+    X
+    &
+    &&
+    &
+    X
+\end{tikzcd}
+
+
+
+
 \begin{tikzcd}
   G_{\mathrm{e}}
   \ar[r, -, shift left=1pt]
