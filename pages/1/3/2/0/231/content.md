@@ -165,7 +165,9 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 
 More succinctly, a monoidal category is a [pseudomonoid](https://ncatlab.org/nlab/show/pseudomonoid) in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]].
 
-Note that, in accordance with the [[microcosm principle]], just as defining a [[monoid]] in a 1-category requires that the 1-category carry its own [[monoidal category]] structure, defining a monoidal category in the [[Cat|2-category of categories]] requires that the 2-category carry a monoidal structure as well. In this case we are implicitly employing the [cartesian monoidal structure](cartesian+monoidal+category) on Cat, so that if $\alpha\colon (Cat\times Cat)\times Cat\overset{\simeq}{\longrightarrow} Cat\times (Cat\times Cat)$ is the cartesian [[associator]], then the associator in $\mathcal{C}$ is actually an arrow 
+Notice how the very definition of monoidal categories above invokes the Cartesian product *of* categories, namely in the definition of the tensor product *in* categories. But the operation of forming product categories is itself a (Cartesian) monoidal structure one level higher up in the higher category theory ladder, namely on the ambient 2-category of categories. This state of affairs, where the definition of (higher) algebraic structures uses and requires analogous  algebraic structure present on the ambient higher category is a simple instance of the general [[microcosm principle]].
+
+In this case we are implicitly employing the [cartesian monoidal structure](cartesian+monoidal+category) on Cat, so that if $\alpha\colon (Cat\times Cat)\times Cat\overset{\simeq}{\longrightarrow} Cat\times (Cat\times Cat)$ is the cartesian [[associator]], then the associator in $\mathcal{C}$ is actually an arrow 
 
    $$
      a 
