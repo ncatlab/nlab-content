@@ -67,7 +67,7 @@ In particular, strong extensionality implies Scott extensionality, and the conve
 
 ## Examples
 
-*  The [[axiom of extensionality]] in material [[set theory]] states membership is an extensional relation on the class of [[pure sets]].  (Note that the [[axiom of foundation]] states that membership is a well-founded relation, so one usually doesn\'t worry about the different notions of extensionality for ill-founded relations.)  More generally, the membership relation on the [[transitive closure]] or reflexive-transtive closure of a pure set is an extensional relation on a set.
+*  The [[axiom of extensionality]] in material [[set theory]] states membership is an extensional relation on the class of [[pure sets]].  (Note that the [[axiom of foundation]] states that membership is a well-founded relation, so one usually doesn\'t worry about the different notions of extensionality for ill-founded relations.)  More generally, the membership relation on the [[transitive closure]] or reflexive-transitive closure of a pure set is an extensional relation on a set.
 
 *  Conversely, one can *define* [[pure set]]s in *structural* [[set theory]] in part as sets equipped with an extensional (and optionally well-founded) relation.
 
