@@ -41,8 +41,8 @@ In [[physics]] one typically considers this for $G$ a [[gauge group]], in which 
 
 There is the following [[general abstract]] definition of slices via [[adjunctions]] (which however seems not to be made explicit in existing literature):
 
-\begin{defn}
-**(HSlice)**
+\begin{defn}\label{HSlice}
+**($H$-slice)**
 \linebreak
 Let $H \subset G$ be a [[subgroup]] inclusion such that restricting given [[actions]] ([[internalization|internal]] to a given ambient [[category]]) of $G$ to $H$ has a [[left adjoint]] $G \times_{H} (-)$ (e.g. for [[topological G-spaces]] the [topological induced action](topological+G-space#induced_action)).
 
@@ -155,21 +155,6 @@ a [[topological subspace]] $S \subset X$ is called:
 
 ([Palais 61, Def. 2.1.1](#Palais61), recalled as [Karppinen 16, Def. 6.1.1](#Karppinen16))
 
-\begin{example}
-  For $n \in \mathbb{N}$ consider the defining [[action]] of the [[orthogonal group]] $G = O(n+1)$ on the [[Cartesian space]] $\mathbb{R}^{n+1}$. Then for every point $0 \neq x \in \mathbb{R}^{n+1}$ we have $G_x = O(n)$ and $G/G_x = S^n$ the [[n-sphere]]. 
-
-The ray $ \{c \cdot x \vert c \in \mathbb{R}_{\gt 0}\} \subset$ has [[orbit]] the [[complement]] of the origin and is thus a slice through $x$ as exhibited by the radial quotient map 
-$$
-  \mathbb{R}^{n+1} 
-    \setminus 
-  \{0\}
-    \longrightarrow
-  S^n
-   =
-  O(n+1)/O(n)
-  \,.
-$$
-\end{example}
 
 
 ## Properties
@@ -221,6 +206,46 @@ For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to
 ## Examples and applications
 
 ### General
+
+\begin{example}\label{GSliceThroughGFixedPoint}
+**($G$-slice through $G$-fixed point)**
+\linebreak
+  If a point $x \in X$ in a [[topological G-space]] $X$ is [[fixed point|fixed]] by all of $G$, so that $Stab_G(x) \,=\, G$, then $X$ itself is a $G$-slice through $x$ (Def. \ref{SlicesDef}), since we trivially have
+$G \times_G X \,\simeq\, X$ and $X \underset{open}{\subset} X$.
+\end{example}
+
+\begin{example}\label{SlicesThroughPointsInPuncturedOrthogonalRepresentation}
+**(slices through points in orthogonal representation)**
+\linebreak
+  For $n \in \mathbb{N}$ consider the defining [[group action]] of the [[orthogonal group]] $G \coloneqq O(n+1)$ on the [[Cartesian space]] $\mathbb{R}^{n+1}$.
+
+Then two cases of [[stabilizer groups]] appear:
+
+1. the origin $0 \,\in\, \mathbb{R}^{n+1}$ is [[fixed point|fixed]] by all of $O(n+1)$, and a $Stab_G(0) = O(n+1)$-slice through origin is given by all of $\mathbb{R}^{n+1}$ (by Ex. \ref{GSliceThroughGFixedPoint}) or by any [[open ball]] around it;
+
+1. for every other point $x \in \mathbb{R}^{n+1} \setminus \{0\}$ the [[stabilizer subgroup]] is $G_x = O(n)$ and the [[coset space]] $G/G_x = S^n$ is the [[n-sphere]] (see [there](sphere#LabelCosetSpaceStructure)). 
+
+The ray $ R_X \,\coloneqq\, \{c \cdot x \vert c \in \mathbb{R}_{\gt 0}\} \subset \mathbb{R}^{n+1} \setminus \{0\} $ has [[orbit]] the [[complement]] $\mathbb{R}^{n+1} \setminus \{0\}$ and is thus an $O(n)$-slice through $x$ (Def. \ref{SlicesDef}) as exhibited by the radial quotient map 
+$$
+  \mathbb{R}^{n+1} 
+    \setminus 
+  \{0\}
+    \longrightarrow
+  S^n
+   =
+  O(n+1)/O(n)
+  \,.
+$$
+
+$$
+  R_x \times_{O(n)} O(n+1)
+  \;\simeq\;
+  \mathbb{R}^{n+1} \setminus \{0\}
+  \,.
+$$
+\end{example}
+(also  [Karppinen 2016, Ex. 6.1.10](#Karppinen16))
+
 
 \begin{example}
 If time evolution on some [[Lorentzian manifold]] is given as an $\mathbb{R}^1$-action with [[timelike]] flow lines, then slices ("1-slices") for this action are known as *[[Cauchy surfaces]]*.
