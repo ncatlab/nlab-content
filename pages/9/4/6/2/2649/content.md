@@ -20,14 +20,17 @@ A connected object is a generalisation of the concept of [[connected space]] fro
 
 ## Definitions
 
-Let $C$ be an [[extensive category]], then:
+Let $\mathcal{C}$ be an [[extensive category]].
 
 +-- {: .num_defn #ConnectedObject}
 ###### Definition
 
-An [[object]] $X$ of $C$ is **connected** if the [[representable functor]] 
+An [[object]] $X$ of a [[category]] $\mathcal{C}$ is called *connected* if the [[hom-functor]] out of $X$
 
-$$ hom(X, -) \colon C \to Set $$
+$$ 
+  \mathcal{C}(X, -) \,\colon\, \mathcal{C} \to Set 
+  \,.
+$$
 
 [[preserved limit|preserves]] all [[coproducts]]. 
 
@@ -36,8 +39,7 @@ $$ hom(X, -) \colon C \to Set $$
 +-- {: .num_remark}
 ###### Remark
 
-By definition, $hom(X,-)$ preserves binary coproducts if the canonically defined morphism $hom(X,Y) + hom(X,Z) \to hom(X,Y + Z)$
-is always a [[bijection]].
+By definition, $\mathcal{C}(X,-)$ preserves binary coproducts if the canonically defined morphism $\mathcal{C}(X,Y) + \mathcal{C}(X,Z) \to \mathcal{C}(X,Y + Z)$ is a [[natural bijection]].
 
 =--
 
@@ -45,14 +47,44 @@ is always a [[bijection]].
 \label{InitialObjectIsNotConnected}
 **(initial object is not connected)**
 \linebreak
-By this definition, the [[initial object]] of $C$ is *not* in general connected (except for degenerate cases of $C$); it is [[too simple to be simple]].  This matches the notion that the [[empty space]] should not be considered connected, discussed at [[connected space]].
+By Def. \ref{ConnectedObject}, the [[initial object]] $\varnothing$ of a category $\mathcal{C}$ is *not* connected: 
+
+Because, $\mathcal{C}(\varnothing, -) \,\colon\, \mathcal{C} \to Set$ is, by definition of [[initial objects]], the [[constant functor]] with value the [[singleton]] $\ast \,\in\, Set$, so that for $X , Y \,\in\, \mathcal{C}$ we have
+
+$$
+  \mathcal{C}
+  \big( 
+    \varnothing
+    ,\,
+    X \sqcup Y
+  \big)
+  \;\simeq\;
+  \ast
+  \;\;
+  \neq
+  \;\;
+  \ast \sqcup \ast
+  \;\simeq\;
+  \mathcal{C}
+  (\varnothing,\, X)
+  \sqcup
+  \mathcal{C}
+  (\varnothing,\, Y)
+  \;\;\;
+  \in
+  \;
+  Set
+  \,.
+$$
+
+One may understand this as part of the pattern by which degenerate objects may be "[[too simple to be simple]]".  For example, also the [[empty space]] should not be considered connected, see [this remark](connected+space#ConnectedEmptySpace) at *[[connected space]]* .
 
 \end{remark}
 
 +-- {: .num_remark}
 ###### Remark
 
-If $C$ is a [[infinitary extensive category]] then for $X \in Ob(C)$ to be connected it is enough to require that $hom(X,-)$ preserves *binary* coproducts. This is theorem \ref{RespectForBinaryCoproductsIsSufficient} below.
+If $C$ is a [[infinitary extensive category]] then for $X \in Ob(\mathcal{C})$ to be connected it is enough to require that $\mathcal{C}(X,-)$ preserves *binary* coproducts. This is theorem \ref{RespectForBinaryCoproductsIsSufficient} below.
 
 =--
 
