@@ -27,8 +27,10 @@ Regular categories also provide a natural [[semantics|semantic]] environment to 
 
 ## Definition
 
-+-- {: .num_defn}
-###### Definition
+
+\begin{definition}\label{RegularCategory}
+**(regular category)**
+\linebreak
 
 A [[category]] $C$ is called **regular** if 
 
@@ -50,30 +52,31 @@ A [[category]] $C$ is called **regular** if
 
 1. the [[pullback]] of a [[regular epimorphism]] along any morphism is again a regular epimorphism.
 
-=--
+\end{definition}
 
-We make the following remarks:
+\begin{remark}
+The kernel pair is always a [[congruence]] on $d$ in $C$; informally, $\ker(f) = d\times_c d$ is the [[subobject]] of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the "kernel" of a function in [[Set]]). The coequalizer above is supposed to be the "object of equivalence classes" of $\ker(f)$ as an internal [[equivalence relation]].
+\end{remark}
 
-* The kernel pair is always a [[congruence]] on $d$ in $C$; informally, $\ker(f) = d\times_c d$ is the [[subobject]] of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the "kernel" of a function in [[Set]]). The coequalizer above is supposed to be the "object of equivalence classes" of $\ker(f)$ as an internal [[equivalence relation]].
+\begin{remark}
+A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions in Def. \ref{RegularCategory}, every regular epimorphism is the coequalizer of its kernel pair. (See for instance Lemma 5.6.6 in _[[Practical Foundations]]_.)
+\end{remark}
 
-* A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every regular epimorphism is the coequalizer of its kernel pair. (See for instance Lemma 5.6.6 in _[[Practical Foundations]]_.)
-
-* The last condition may equivalently be stated in the form "coequalizers of kernel pairs are stable under pullback". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
+\begin{remark}
+The last condition in Def. \ref{RegularCategory} may equivalently be stated in the form "coequalizers of kernel pairs are stable under pullback". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
 
   $$e \;\rightrightarrows\; d \to c$$ 
 
   along a morphism $c' \to c$ is again a coequalizer diagram (nor need a regular category have coequalizers of all parallel pairs).
+\end{remark}
 
-In fact, an equivalent definition is:
+In fact, a definition equivalent to Def. \ref{RegularCategory} is:
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}
+A **regular category** is a [[finitely complete category]] with [[pullback]]-stable [[image]] factorizations.
+\end{definition}
 
-A **regular category** is a finitely complete category with pullback-stable [[image]] factorizations.
-
-=--
-
-Here we are using "image" in the sense of "the smallest monic through which a morphism factors."  See [[familial regularity and exactness]] for a generalization of this approach to include [[coherent category|coherent]] categories as well.
+Here we are using "image" in the sense of "the smallest [[monomorphism]] through which a morphism factors."  See *[[familial regularity and exactness]]* for a generalization of this approach to include [[coherent category|coherent]] categories as well.
 
 
 ## Examples
@@ -126,25 +129,51 @@ If $Q$ is a quasitopos, then $Q^{op}$ is regular. Source: A2.6.3(i) in the [[Ele
 \end{example}
 
 \begin{example}
-[[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [here](/nlab/show/subspace+topology#pushout). 
+The [[opposite category]] [[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [there](subspace+topology#pushout). 
 \end{example}
 
 \begin{example}
 The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (but is not, however, locally cartesian closed, nor is it [[exact category|exact]]) ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)) 
 \end{example}
 
-
+\begin{example}
+**(counter-examples)**
 Examples of categories which are **not regular** include 
 
 * [[Cat]], [[Pos]], and [[Top]]. 
 
-The following example proves failure of regularity in all three cases: let $A$ be the poset $\{a, b\} \times (0 \to 1)$; let $B$ be the poset $(0 \to 1 \to 2)$, and let $C$ be the poset $(0 \to 2)$. There is a regular epi $p: A \to B$ obtained by identifying $(a, 1)$ with $(b, 0)$, and there is the evident inclusion $i: C \to B$. The pullback of $p$ along $i$ is the inclusion $\{0, 2\} \to (0 \to 2)$, which is certainly an epi but not a regular epi. Hence regular epis in $Pos$ are not stable under pullback. 
+The following example proves failure of regularity in all three cases: l
 
-Interpreting the posets as categories, the same example works for $Cat$, and also for preorders. On the other hand, the category of finite preorders is equivalent to the category of finite topological spaces, so this example serves to show also that $Top$ is not regular. 
+Let $A$ be the poset $\{a, b\} \times (0 \to 1)$; let $B$ be the poset $(0 \to 1 \to 2)$, and let $C$ be the poset $(0 \to 2)$. There is a regular epi $p: A \to B$ obtained by identifying $(a, 1)$ with $(b, 0)$, and there is the evident inclusion $i: C \to B$. The pullback of $p$ along $i$ is the inclusion $\{0, 2\} \to (0 \to 2)$, which is certainly an epi but not a regular epi. Hence regular epis in $Pos$ are not stable under pullback. 
+
+Interpreting the posets as categories, the same example works for $Cat$, and also for preorders. On the other hand, the category of finite preorders is equivalent to the category of [[finite topological spaces]], so this example serves to show also that the category [[Top]] of *all* topological spaces is not regular. 
+\end{example}
 
 However: 
 
-* If $T$ is a [[Mal'cev theory]] (e.g., the theory of groups), then the category $Top^T$ of $T$-models in [[Top]] is regular. This is because for $T$ Mal'cev, coequalizer maps in $Top^T$ are necessarily open surjections, and open surjections are stable under pullback. 
+\begin{example}
+\label{CompactlyGeneratedHausdorffSpacesAreRegular}
+**(compactly generated Hausdorff spaces form a regular category)**
+\linebreak
+  The [[convenient category of topological spaces|convenient]] [[full subcategories]]
+$$
+  kwHaus 
+    \xhookrightarrow{\;} 
+  kHas
+    \xhookrightarrow{\;}
+  Top
+$$
+of 
+[[compactly generated Hausdorff spaces]]
+and of
+[[compactly generated weakly Hausdorff spaces]] 
+are regular 
+([Cagliari, Matovani & Vitale 1995, p. 3](#CagliariMatovaniVitale95)).
+\end{example}
+
+\begin{example}
+If $T$ is a [[Mal'cev theory]] (e.g., the theory of groups), then the category $Top^T$ of $T$-models in [[Top]] is regular. This is because for $T$ Mal'cev, coequalizer maps in $Top^T$ are necessarily open surjections, and open surjections are stable under pullback. 
+\end{example}
 
 ## Properties
 
