@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -109,7 +110,67 @@ then there exists already an [[isomorphism]] of [[principal bundles]]
 \end{proposition}
 (e.g. [Roberts & Stevenson 2016, Cor. 15](#RobertsStevenson16))
 \begin{proof}
-Recall that isomorphisms between principal bundles $P$ and $P'$ over $X$ are equivalently [[global sections]] of the fiber bundle $(P \times_X P')/G$. In particular, for every $P$ the [[identity morphism]] on it corresponds to a canonical section of $(P \times_X P)/G$. 
+
+{#PrincipalBundleIsosAsSections}
+Observe that isomorphisms $f \,\colon\, P \xrightarrow{\;} P'$ between principal bundles over $X$ are equivalently [[global sections]] of the fiber bundle $(P \times_X P')/G$:
+\begin{tikzcd}[column sep={between origins, 50pt}]
+    &[-10pt]
+    &[-10pt]
+    &&[+30pt]
+    P \times G
+    \ar[d, shift right=3pt, "\mathrm{pr}_1"{swap}]
+    \ar[d, shift left=3pt, "\rho"]
+    \ar[rr]
+    &&
+    \big(
+      P \times_X P'
+    \big) \times G
+    \ar[d, shift right=3pt, "\mathrm{pr}_1"{swap}]
+    \ar[d, shift left=3pt, "\rho"]
+    \\
+    &&&&
+    P 
+    \ar[d]
+    \ar[rr, "{ (\mathrm{id},f) }"{description}]
+    &&
+    P \times_X P'
+    \ar[d]
+    \\
+    P
+      \ar[out=180-66, in=66, looseness=3.5, "\scalebox{.77}{$\,\mathclap{
+        G
+      }\,$}"{description},shift right=1]
+    \ar[rr, "f"]
+    \ar[dr]
+    &
+    &
+    P'
+      \ar[out=180-66, in=66, looseness=3.5, "\scalebox{.77}{$\,\mathclap{
+        G
+      }\,$}"{description},shift right=1]
+    \ar[dl]
+    &\leftrightarrow&
+    P/G
+    \ar[rr, dashed]
+    \ar[dr, -, shift left=1pt]
+    \ar[dr, -, shift right=1pt]
+    &&
+    \big(
+      P
+        \times_{X}
+      P'
+    \big) / G
+    \ar[dl]
+    \\
+    &
+    X
+    &
+    &&
+    &
+    X
+\end{tikzcd}
+
+In particular, for every $P$ the [[identity morphism]] on it corresponds to a canonical section of $(P \times_X P)/G$.
 
 In the given situation, this means that we have a canonical local section $\sigma_0$ making the following solid diagram [[commuting square|commute]], exhibiting that the restriction of the bundle $P_0 \times [0,1]$ to $\{0\} \subset [0,1]$ is isomorphic to $P_0$, by construction:
 
