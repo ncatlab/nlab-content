@@ -1,4 +1,4 @@
-Pierre Grillet is an Eleritus Proefssor at Tulane university. He has worked  mostly on semigroup theory, but also made important contributions to both cohomology theory and category theory.
+Pierre Grillet is an Eleritus Professor at Tulane university. He has worked  mostly on semigroup theory, but also made important contributions to both cohomology theory and [[category theory]].
 
 
 
@@ -14,16 +14,16 @@ Introducing [[Barr-exact categories]] and [[regular categories]]:
 
 
 
-On [[semigroups]],
+On [[semigroups]]:
 
-* [[Pierre Grillet]], _Semigroups: An Introduction to the Structure Theory - Chapman & Hall/CRC Pure and Applied Mathematics 193 
-
-
+* [[Pierre Grillet]], _Semigroups: An Introduction to the Structure Theory_ - Chapman & Hall/CRC Pure and Applied Mathematics 193 
 
 
-Showing that 'triple' (Beck) cohomology for commutative semigroups can be  described in concrete terms and related to commutative group coextensions. 
 
-* [[Pierre Grillet]], _Commutative semigroup cohomology,_ Communications in Algebra, Vol. 23, Volume 23, 1995 - Issue 10.
+
+Showing that 'triple' (Beck) cohomology for commutative semigroups can be  described in concrete terms and related to commutative group coextensions: 
+
+* [[Pierre Grillet]], _Commutative semigroup cohomology_, Communications in Algebra, Vol. 23, Volume 23, 1995 - Issue 10.
 
 category: people
 
