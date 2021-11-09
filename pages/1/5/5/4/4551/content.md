@@ -1,6 +1,6 @@
 Dominique Bourn is a [[category theory|category theorist]] who is Professeur at the  Universit&#233; du Littoral, Laboratoire LMPA, BP 699, 62228 Calais CEDEX, FRANCE.
 
-His web page is at  [link](http://www-lmpa.univ-littoral.fr/~bourn/).
+* [personal webpage](http://www-lmpa.univ-littoral.fr/~bourn/)
 
 
 ## Selected writings
@@ -8,6 +8,12 @@ His web page is at  [link](http://www-lmpa.univ-littoral.fr/~bourn/).
 On [[profunctors]] with application to [[shape theory]]:
 
 * [[Dominique Bourn]], [[Jean-Marc Cordier]], _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([numdam:CTGDC_1980__21_2_161_0](http://www.numdam.org/item/CTGDC_1980__21_2_161_0), [pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
+
+
+On [[regular categories]] and [[protomodular categories]]:
+
+* [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_ , Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
+
 
 
 On [[nonabelian homological algebra]], such as its [[diagram chasing lemmas]], in [[Mal'cev categories]], [[protomodular categories]], [[semi-abelian categories]] and [[homological categories]]:
