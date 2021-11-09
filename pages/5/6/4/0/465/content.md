@@ -45,27 +45,13 @@ The [[formal duality|dual]] concept to Def. \ref{RegularEpimorphism} is that of 
 
 ## Properties
 
-### Relation to other kinds of epimorpisms
+### Epimorphy
 
-Def. \ref{RegularEpimorphism} refers only to *some* parallel pair, but often there is a canonical choice: the [[kernel pair]] of the morphism in question:
-
-\begin{prop}
-\label{MorphismsWithKernelPairsAreRegularIffEffective}
-A morphism having a [[kernel pair]] (such as any morphism in a category with [[pullbacks]]) is a regular epimorphism if and only if it is the [[coequalizer]] of its kernel pair.  
-\end{prop}
-E.g. [Borceux 1994, Prop. 2.5.7](#Borceux94), [Taylor 1999, Lemma 5.6.6](#Taylor99).
-This also follows from the theory of [[generalized kernels]].  
-
-\begin{definition}
-A regular epimorphism with a [[kernel pair]], or equivalently (by Prop. \ref{MorphismsWithKernelPairsAreRegularIffEffective}) a morphism that is the coequalizer of its kernel pair, is called an _[[effective epimorphism]]_.
-\end{definition}
-
-Although the definition doesn't state so explicitly, it is true (and easy to prove) that:
+Although Def. \ref{RegularEpimorphism} does not state it explicitly, it is true (and easy to prove) that:
 
 \begin{proposition}
 Every regular epimorphism (Def. \ref{RegularEpimorphism}) is an [[epimorphism]].  
 \end{proposition}
-
 In fact, every regular epimorphism is a [[strong epimorphism]], hence an [[extremal epimorphism]].  In particular, this implies that a regular epimorphism which is also a [[monomorphism]] must in fact be an [[isomorphism]].
 
 Frequently (such as in a [[regular category]]), every strong or extremal epimorphism is regular.  Moreover, in a regular category, every regular epimorphism is [[pullback-stability|pullback-stable]], and therefore a [[descent morphism]].  If the category is moreover [[exact category|exact]], or has stable [[reflexive coequalizers]], then every regular epimorphism is an [[effective descent morphism]].
@@ -73,19 +59,46 @@ Frequently (such as in a [[regular category]]), every strong or extremal epimorp
 On the other hand, every [[split epimorphism]] is regular, but the converse holds only rarely (it is an [[internalization|internal]] form of the [[axiom of choice]]).
 
 
+### Effective epimorphisms
+
+Def. \ref{RegularEpimorphism} refers only to *some* parallel pair, but often there is a canonical choice: the [[kernel pair]] of the morphism in question:
+
+\begin{prop}
+\label{MorphismsWithKernelPairsAreRegularIffEffective}
+A morphism having a [[kernel pair]] (such as any morphism in a category with [[pullbacks]]) is a regular epimorphism (Def. \ref{RegularEpimorphism}) if and only if it is the [[coequalizer]] of its kernel pair.  
+\end{prop}
+E.g. [Borceux 1994, Prop. 2.5.7](#Borceux94), [Taylor 1999, Lemma 5.6.6](#Taylor99).
+This also follows from the theory of [[generalized kernels]].  
+
+\begin{definition}
+\label{EffectiveEpimorphism}
+A regular epimorphism 
+that satisfies the following two conditions (which are equivalent, by Prop. \ref{MorphismsWithKernelPairsAreRegularIffEffective}) 
+
+1. it has a [[kernel pair]], 
+
+1. it is the [[coequalizer]] of its kernel pair
+
+is called an _[[effective epimorphism]]_.
+\end{definition}
+
+
 ### Pullbacks and pushouts
 
-+-- {: .num_prop #StableUnderPullback}
-###### Proposition
-
-In a [[regular category]], [[regular epimorphisms]] are [[preserved limit|preserved]] by [[pullback]].
-
-=--
-
-(This is usually by definition of "[[regular category]]".)
 
 \begin{proposition}
-  In a [[regular category]], given a [[commuting diagram]] of the form
+\label{InRegularCategoryRegularEpisAreStableUnderPullback}
+In a [[regular category]], [[regular epimorphisms]] are [[preserved limit|preserved]] by [[pullback]].
+\end{proposition}
+This is by definition of "[[regular category]]".
+
+\begin{proposition}
+\label{InRegularCategoryEffectiveEpisAreStableUnderPullback}
+**(in regular category pullback preserves effective epimorphisms)**
+\linebreak
+  In a [[regular category]], [[effective epimorphisms]] (Def. \ref{EffectiveEpimorphism}) are preserved by [[pullback]]:
+
+Given a [[commuting diagram]] of the form
 
 \begin{tikzcd}
   R'
@@ -121,9 +134,9 @@ where
 then also the left vertical column is both a kernel pair and a coequalizer, hence the kernel pair of a regular epimorphism.
 \end{proposition}
 \begin{proof}
-  The left column is again a kernel pair since [[limits commute with limits]] and the left bottom vertical morphism is again a regular epimorphism, by definition of regular categories.
+  The left column is again a kernel pair since [[limits commute with limits]] and the left bottom vertical morphism is again a regular epimorphism, by Prop. \ref{InRegularCategoryRegularEpisAreStableUnderPullback}.
 
-Therefore the left vertical column is a coequalizer by Prop. \ref{MorphismsWithKernelPairsAreRegularIffEffective}.
+Therefore the left vertical column is also a coequalizer by Prop. \ref{MorphismsWithKernelPairsAreRegularIffEffective} and hence an effective epimorphism by Def. \ref{EffectiveEpimorphism}.
 \end{proof}
 
 
@@ -141,7 +154,7 @@ $$
   }
 $$
 
-the two bottom morphisms are regular epis (hence by prop. \ref{StableUnderPullback} all four morphisms are), then the diagram is also a [[pushout]].
+the two bottom morphisms are regular epis (hence by prop. \ref{InRegularCategoryRegularEpisAreStableUnderPullback} all four morphisms are), then the diagram is also a [[pushout]].
 
 =--
 
