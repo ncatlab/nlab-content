@@ -12,6 +12,10 @@ On [[enriched (∞,1)-categories]]:
 
 * [[John D. Berman]], *Enriched infinity categories I: enriched presheaves* ([arXiv:2008.11323](https://arxiv.org/abs/2008.11323))
 
+On [[algebraic (∞,1)-theories]]:
+
+* [[John D. Berman]], _Higher Lawvere theories_ ([arXiv:1903.02991](https://arxiv.org/abs/1903.02991))
+
 category: people
 
 [[!redirects John Berman]]
