@@ -67,7 +67,7 @@ Def. \ref{RegularEpimorphism} refers only to *some* parallel pair, but often the
 \label{MorphismsWithKernelPairsAreRegularIffEffective}
 A morphism having a [[kernel pair]] (such as any morphism in a category with [[pullbacks]]) is a regular epimorphism (Def. \ref{RegularEpimorphism}) if and only if it is the [[coequalizer]] of its kernel pair.  
 \end{prop}
-E.g. [Borceux 1994, Prop. 2.5.7](#Borceux94), [Taylor 1999, Lemma 5.6.6](#Taylor99).
+E.g. [Borceux 1994 I, Prop. 2.5.7](#Borceux94I), [Taylor 1999, Lemma 5.6.6](#Taylor99).
 This also follows from the theory of [[generalized kernels]].  
 
 \begin{definition}
@@ -133,6 +133,7 @@ where
 
 then also the left vertical column is both a kernel pair and a coequalizer, hence the kernel pair of a regular epimorphism.
 \end{proposition}
+([Borceux 1994 II, Prop. 2.3.3](#Borceux94II))
 \begin{proof}
   The left column is again a kernel pair since [[limits commute with limits]] and the left bottom vertical morphism is again a regular epimorphism, by Prop. \ref{InRegularCategoryRegularEpisAreStableUnderPullback}.
 
@@ -206,7 +207,10 @@ Textbook accounts:
 
 * [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], Def. 7.71 in: *[[Abstract and Concrete Categories -- The Joy of Cats]]* John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
-* {#Borceux94} [[Francis Borceux]], Def. 4.3.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+* {#Borceux94I} [[Francis Borceux]], Def. 4.3.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+* {#Borceux94II} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
 
 Exposition and examples:
 
