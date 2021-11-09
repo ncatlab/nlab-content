@@ -334,7 +334,21 @@ Both of these [[adjoint functor|coreflections]] are [[Quillen equivalences]] wit
 ### Regularity
  {#Regularity}
 
-The category of compactly generated [[Hausdorff spaces]] is a [[regular category]]. ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)).
+\begin{proposition}
+\label{kHausIsRegular}
+The categories of 
+
+* [[compactly generated  Hausdorff spaces]] 
+
+* [[compactly generated weakly Hausdorff spaces]]
+
+are both [[regular category|regular]]. 
+\end{proposition}
+([Cagliari-Matovani-Vitale 95, p. 3](#CagliariMatovaniVitale95)).
+
+In particular this implies that in these categories [[pullback]] preserves [[effective epimorphisms]] (see [there](regular+epimorphism#InRegularCategoryRegularEpisAreStableUnderPullback)).
+
+
 
 ### Homotopy
  {#Homotopy}
@@ -537,6 +551,8 @@ Review  with focus on compactly generated [[topological G-spaces]] in [[equivari
 [[!redirects weakly Hausdorff compactly generated topological space]]
 [[!redirects weakly Hausdorff compactly generated topological spaces]]
 
+[[!redirects k-topological space]]
+[[!redirects k-topological spaces]]
 
 [[!redirects k-space]]
 [[!redirects k-spaces]]
