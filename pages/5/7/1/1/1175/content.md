@@ -36,8 +36,7 @@ Since terminology varies in the literature, we will say something about this fir
 
 (Of course, _$W^*$-algebras_ should not be confused with _[[W-algebras]]_ in (logarithmic) [[conformal field theory]].)
 
-[[John von Neumann]] originally studied certain [[operator algebras]] (back then they were called _[[rings]] of [[linear operator|operators]]_), defined as unital $*$-subalgebras of the algebra $B(H)$ of [[bounded operators]] on some [[Hilbert space]] $H$ that are [[closed subspace|closed]] in any of the several [[operator topology|operator topologies]] on $B(H)$ (except for the norm topology, which
-gives $C^*$-[[C-star-algebra|algebras]]); the ultraweak topology is most convenient for our purposes.
+[[John von Neumann]] originally studied certain [[operator algebras]] (back then they were called _[[rings]] of [[linear operator|operators]]_), defined as unital $*$-subalgebras of the algebra $B(H)$ of [[bounded operators]] on some [[Hilbert space]] $H$ that are [[closed subspace|closed]] in any of the several [[operator topology|operator topologies]] on $B(H)$ (except for the norm topology, which gives $C^*$-[[C-star-algebra|algebras]]); the ultraweak topology is most convenient for our purposes.
 
 One disadvantage of such a definition is that it makes it difficult to separate properties of von Neumann algebras from properties of their [[representations]] on Hilbert spaces.  For example, all faithful representations induce the same ultraweak topology on a von Neumann algebra, but different representations induce different weak topologies.  Furthermore, not all von Neumann algebras come automatically
 equipped with a representation on a Hilbert space, such as the [[coproduct]] of two von Neumann algebras (although such a representation can always be constructed).  Finally, this definition unnecessarily confuses two very distinct notions: algebras and [[modules]] (or representations).
