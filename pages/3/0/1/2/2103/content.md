@@ -4,6 +4,8 @@ Michael Barr is the Peter Redpath Emeritus Professor of Pure Mathematics at McGi
 He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal Homology, Homotopy and Applications, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student Jon Beck, involving [[monads]], especially monadicity criteria and [[monadic cohomology]].
 
 
+*  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
+
 
 ## Selected writings
 
@@ -18,6 +20,11 @@ as well as for the development of [[star-autonomous category|star-autonomous cat
 *  _$*$-autonomous categories_,
 
 *  _Acyclic Models_, CRM monographs, 2002,
+
+Introducing [[Barr-exact categories]] and [[regular categories]]:
+
+* {#BarrGrilletvonOsdool} [[Michael Barr]],  [[Pierre Grillet]], [[Donovan van Osdol]], *Exact Categories and Categories of Sheaves*,  Lec. Notes in Math. __236__, Springer 1971, ([doi:10.1007/BFb0058579](https://link.springer.com/book/10.1007/BFb0058579)) 
+ 
 
 On [[toposes]], [[monads]] ("triples") and [[algebraic theories]]:
 
@@ -39,11 +46,6 @@ On an improved context for [[Pontrjagin duality]]:
 
 *  [[Barr embedding theorem]]
 
-## References
-
-The above material is based on
-
-*  [the English Wikipedia entry on Michael Barr](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
 
 category: people
