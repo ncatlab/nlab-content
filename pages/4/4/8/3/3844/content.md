@@ -250,6 +250,10 @@ See also
 
 * [MO discussion](http://mathoverflow.net/questions/118500/what-is-a-simplicial-commutative-ring-from-the-point-of-view-of-homotopy-theory)
 
+Expressed as a higher form of [[Lawvere theory]] see 
+
+* [[John D. Berman]], _Higher Lawvere theories_ ([arXiv:1903.02991](https://arxiv.org/abs/1903.02991))
+
 [[!redirects (infinity,1)-algebraic theory]]
 [[!redirects (infinity,1)-algebraic theories]]
 [[!redirects (∞,1)-algebraic theories]]
