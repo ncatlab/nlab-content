@@ -316,23 +316,23 @@ Some of the historical context is provided in the introduction of
 
 * [[Peter Johnstone]], _Topos Theory_ (1977)
 
-A nice textbook treatment can be found in 
+Introduction:
+
+* [[Carsten Butz]], _Regular Categories and Regular Logic_ , BRICS LS-98-2 Aarhus 1998. ([brics](http://www.brics.dk/LS/98/2/))
+
+* {#Gran20} [[Marino Gran]], *An introduction to regular categories*, in: New Perspectives in Algebra, Topology and Categories,  Coimbra Mathematical Texts ([arXiv:2004.08964](https://arxiv.org/abs/2004.08964), [ISBN:978-3-030-84319-9](https://www.springerprofessional.de/en/new-perspectives-in-algebra-topology-and-categories/19764096))
+
+Textbook accounts:
+
+* [[Peter Freyd]], [[Andre Scedrov]], Chapter 1.5 of: _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990. (chap. 1.5. pp.68ff)
 
 * {#Borceux94} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2:: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
+* [[Peter Johnstone]], Section A1.3. pp.18ff of _[[Sketches of an Elephant]] I_ , Oxford UP 2002. 
+
+* [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_, Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
 
 
-More streamlined are
-
-* [[Peter Freyd]], Andre Scedrov, _Categories, Allegories_ , North-Holland Amsterdam 1990. (chap. 1.5. pp.68ff)
-
-* [[Peter Johnstone]], _Sketches of an Elephant I_ , Oxford UP 2002. (section A1.3. pp.18ff)
-
-* [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_ , chap. IV pp.165-211 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Cambridge UP 2004.
-
-A concise introductory monograph is
-
-* [[Carsten Butz]], _Regular Categories and Regular Logic_ , BRICS LS-98-2 Aarhus 1998. ([brics](http://www.brics.dk/LS/98/2/))
 
 The following set of course notes has a section on regular categories 
 
