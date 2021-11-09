@@ -120,8 +120,10 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Rong-Gen Cai, Li Li, Li-Fang Li, Run-Qiu Yang, _Introduction to Holographic Superconductor Models_, Sci China-Phys Mech Astron, 2015, 58(6):060401 ([arXiv:1502.00437](https://arxiv.org/abs/1502.00437))
 
-
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], Section 6.3 of: _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+
+* Yiqian Chen, Xiaobo Guo, Peng Wang, *Holographic Superconductors in a Non-minimally Coupled Einstein-Maxwell-scalar Model* ([arXiv:2111.03810](https://arxiv.org/abs/2111.03810))
+
 
 ### High $T_c$-superconductivity
 
