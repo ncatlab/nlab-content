@@ -52,20 +52,36 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 ## Related concepts
 
 * [[exact 2-category]]
+
 * [[Puppe exact category]]
+
 * [[Barr embedding theorem]]
+
 * [[regular category]]
 
 ## References ##
 
-* Carboni, A. and Vitale, E. M.  _Regular and exact completions_, _JPAA_ 125, 1998.
-* M. Barr, _Exact categories_, in: Exact categories and categories of sheaves, Springer Lec. Notes in Math. __236__ (1971) 1-120, [doi](http://dx.doi.org/10.1007/BFb0058580) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.732.4603&rep=rep1&type=pdf)) 
- {#Barr} 
+* {#Barr}  [[Michael Barr]], _Exact categories_, in: Exact categories and categories of sheaves, Springer Lec. Notes in Math. __236__ (1971) 1-120, ([doi:10.1007/BFb0058580](http://dx.doi.org/10.1007/BFb0058580), ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.732.4603&rep=rep1&type=pdf)) 
+ 
+
+* [[Aurelio Carboni]], [[Enrico Vitale]], _Regular and exact completions_, _JPAA_ 125, 1998.
+
+
+
+
 * [[Francis Borceux]], [[Dominique Bourn]], [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]
 
 [[!redirects exact categories]]
+
 [[!redirects Barr-exact category]]
+[[!redirects Barr-exact categories]]
+
 [[!redirects Barr exact category]]
 [[!redirects Barr exact categories]]
+
 [[!redirects effective regular category]]
+[[!redirects effective regular categories]]
+
 [[!redirects Barr-exact]]
+
+
