@@ -14,7 +14,7 @@ Here one should write about [[quantum groups]] (Drinfeld, Manin, Woronowicz, Jim
 
 * B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
 
-* Z. &#352;koda, _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
+* Z. &#352;koda, _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 [arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770)
 
 * Yu. Manin, _Quantum groups and noncommutative geometry_, CRM, Montreal (1988)
 
