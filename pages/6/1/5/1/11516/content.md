@@ -589,7 +589,23 @@ is the passage to the $H$-[[fixed locus]] $(-)^H$ equipped with its residual [[W
 
 \end{example}
 
-### Further limits and colimits
+### Limits and colimits
+ {#LimitsAndColimits}
+
+
+\begin{proposition}
+  \label{ForgetfulFunctorCreatesLimitsAndColimits}
+**(forgetful functor to spaces creates all limits and colimits)**
+\linebreak
+ The [[forgetful functor]] from $G$-spaces to underlying spaces [[created limit|creates]] all [[limits]] and [[colimits]].
+\end{proposition}
+(e.g. [Schwede 2018, p. 736-737](#Schwede18))
+\begin{proof}
+  Topological $G$-spaces are equivalently the [[algebra over a monad|algebras]] over the [[monad]] $G \times (-)$, which is the composite of the two [[left adjoints]] in the change-of-group [[adjoint triple]] [above](#ChangeOfGroupsAndFixedLoci) along $1 \to G$.  Since [[left adjoints preserve colimits]], so does this monad.
+
+Now the [[forgetful functor]] in question is the respective [[monadic functor]]
+and a general theorem ([this Prop.](created+limit#MonadicFunctorsCreateLimits))  says that monadic functors create all limits that exist in their codomain and those colimits which exist there and are preserved by the monad.
+\end{proof}
 
 \begin{lemma}\label{RecognitionOfCartesianQuotientProjection}
 **(recognition of cartesian quotient projections)**
@@ -791,6 +807,8 @@ Textbook accounts:
 * {#May96} [[Peter May]] et al., Section I.1 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 
 * [[Alejandro Adem]], [[James Davis]], *Topics in Transformation Groups*, Chapter 1 in: *Handbook of Geometric Topology*, 2001, Pages 1-54 ([doi:10.1016/B978-044482432-5/50002-0](https://doi.org/10.1016/B978-044482432-5/50002-0), [pdf](https://personal.math.ubc.ca/~adem/topics.pdf))
+
+* {#Schwede18} [[Stefan Schwede]], Appendix B of: *Global homotopy theory*, New Mathematical Monographs, 34, Cambridge University Press, 2018 ([doi:10.1017/9781108349161](https://doi.org/10.1017/9781108349161), [arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
 More discussion in the context of [[equivariant homotopy theory]]:
 
