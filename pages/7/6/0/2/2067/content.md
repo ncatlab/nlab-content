@@ -347,10 +347,10 @@ The definition of being $p$-cartesian can be described as a pullback square of h
 
   \begin{centre}
     \begin{tikzcd}
-      X_{/x} \arrow[r, "{f_!}"] \arrow[d, "p"]
-      & X_{/x'} \arrow[d, "p"]
+      X_{/x} \arrow[r, "{f_!}"] \arrow[d]
+      & X_{/x'} \arrow[d]
       \\ (p \downarrow p(x)) \arrow[r] \arrow[d]
-      & (p \downarrow p(x') \arrow[r] \arrow[d]
+      & (p \downarrow p(x')) \arrow[r] \arrow[d]
       & X \arrow[d, "p"]
       \\ Y_{/p(x)} \arrow[r, "{p(f)_!}"]
       & Y_{/p(x')} \arrow[r] & Y
