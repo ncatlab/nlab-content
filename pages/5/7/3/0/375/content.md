@@ -243,3 +243,6 @@ See also the references at *[[exponential object]]*.
 [[!redirects cartesian-closed categories]]
 [[!redirects Cartesian-closed category]]
 [[!redirects Cartesian-closed categories]]
+
+[[!redirects cartesian closed monoidal category]]
+[[!redirects cartesian closed monoidal categories]]
