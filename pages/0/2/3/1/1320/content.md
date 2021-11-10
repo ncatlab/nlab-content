@@ -26,7 +26,7 @@
 
 A [[functor]] $U:D\to C$ is _monadic_ iff it has a left adjoint $F:C\to D$ and the adjunction $F\dashv U$ 'comes from' the induced [[monad]] on $C$ -- that is, $U$ _monadic_ iff $F\dashv U$ is a [[monadic adjunction]].
 
-In this situation $U$ in some sense 'looks like' the forgetful functor from the [[Eilenberg-Moore category]] of the monad $(U\circ F,\eta,U\epsilon_F)$ on $C$, and has 'nice properties' similar to these forgetful functors.
+In this situation $U$ in some sense 'looks like' the [[forgetful functor]] from the [[Eilenberg-Moore category]] of the monad $(U\circ F,\eta,U\epsilon_F)$ on $C$, and has 'nice properties' similar to these forgetful functors.
 
 The [[monadicity theorem]] characterizes monadic functors and makes these 'nice properties' precise.
 
