@@ -25,7 +25,7 @@ One may think of this as making explicit the [[edges]] in a [[Feynman diagram]] 
 
 Mathematically the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which realizes the [[Feynman propagator]] $\Delta_F(x,y)$ as a [[path integral]] for a [[relativistic particle]] travelling from $y$ to $x$.
 
-This worldline formalism is equivalent to the traditional formulation. It has the conceptual advantage that it expresses the [[Feynman perturbation series]] of [[perturbative  quantum field theory]] manifestly as a [[second quantization]] of its particle content given explicitly as the [[superposition]] of all 1-particle processes.
+This worldline formalism is equivalent to the traditional formulation. It has the conceptual advantage that it expresses the [[Feynman perturbation series]] of [[perturbative  quantum field theory]] manifestly as a [[second quantization]] of its particle content given explicitly as the [[superposition]] of all 1-particle processes and the calculational advantage of automatically summing over subsets of Feynman diagrams related by exchange of external legs, thus maintaining permutation symmetry and explicit gauge invariance of on-shell amplitudes. 
 
 The worldline formulation of QFT has an evident generalization to higher dimensional [[worldvolumes]]: in direct analogy one can consider summing the [[correlators]]/[[n-point functions]] over [[worldvolume]] [[theory (physics)|theories]] of "higher dimensional particles" ("[[branes]]") over all possible worldvolume geometries. Indeed, for 2-[[dimensional]] branes this is precisely the way in which [[perturbative string theory]] is defined: the [[string scattering amplitudes]] are given by the analogous "worldsheet formalism" known as the [[string perturbation series]] as the sum over all surfaces of the [[correlators]]/[[n-point functions]] of of a 2d [[SCFT]] of central charge 15.
 
@@ -64,6 +64,8 @@ The first calculuation along these lines was actually done earlier in ([Metsaev-
 
 Precursor observations include
 
+* [[Richard Feynman]], Appendix of _Mathematical formulation of the quantum theory of electromagnetic interaction_, Physics Review Volume 80 (1950) 440.
+
 * {#Nepomechie83} R.I. Nepomechie, _Remarks on quantized Yang-Mills theory in 26 dimensions_, Physics Letters B Volume 128, Issues 3–4, 25 August 1983, Pages 177-178 Phys. Lett. B128 (1983) 177 (<a href="https://doi.org/10.1016/0370-2693(83)90385-4">doi:10.1016/0370-2693(83)90385-4</a>)
 
 * {#MetsaevTseytlin88} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _On loop corrections to string theory effective actions_, Nuclear Physics B Volume 298, Issue 1, 29 February 1988, Pages 109-132 (<a href="https://doi.org/10.1016/0550-3213(88)90306-9">doi:10.1016/0550-3213(88)90306-9</a>)
@@ -92,7 +94,8 @@ Reviews include
 
 * James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration*, SIGMA 17 (2021), 065, 19 pages ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
 
-New techniques for worldline integration
+* James P. Edwards, [[Christian Schubert]],
+*Quantum mechanical path integrals in the first quantised approach to quantum field theory*, ([arXiv:1912.10004](https://arxiv.org/abs/1912.10004))
 
 Exposition with an eye towards [[quantum gravity]] is in
 
@@ -106,6 +109,8 @@ See also:
 
 
 Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
+
+* I.K. Affleck, O. Alvarez and N.S. Manton, _Pair Production At Strong Coupling In Weak External Fields_, Nuclear Physics B Volume 197 (1982) 509.
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
 
@@ -134,9 +139,13 @@ Further development includes
 
 * Olindo Corradini, Maurizio Muratori, _String-inspired Methods and the Worldline Formalism in Curved Space_ ([arXiv:1808.05401](https://arxiv.org/abs/1808.05401))
 
+* James P. Edwards, Urs Gerber, [[Christian Schubert]], Maria Anabel Trejo, Thomai Tsiftsi, Axel Weber, _Applications of the worldline Monte Carlo formalism in quantum mechanics_,  ([arXiv:1903.00536](https://arxiv.org/abs/1903.00536))
+
 * Olindo Corradini, Maurizio Muratori, _A Monte Carlo Approach to the Worldline Formalism in Curved Space_ ([arXiv:2006.02911](https://arxiv.org/abs/2006.02911))
 
+* Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, James P. Edwards, [[Christian Schubert]], _Worldline master formulas for the dressed electron propagator, part 1: Off-shell amplitudes_ ([arXiv:2004.01391](https://arxiv.org/abs/2004.01391)) 
 
+* Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, James P. Edwards, [[Christian Schubert]], _Worldline master formulas for the dressed electron propagator, part 2: On-shell amplitudes_ ([arXiv:2107.00199](https://arxiv.org/abs/2107.00199)) 
 
 As a means of constructing [[UV-completions]]:
 
