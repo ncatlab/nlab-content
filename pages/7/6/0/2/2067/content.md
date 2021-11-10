@@ -342,7 +342,7 @@ is a pullback square.
 +-- {: .proof}
 ###### Proof
 
-The definition of being $p$-cartesian can be described as a pullback square of hom-functors. By the contravariant [[(∞,1)-Grothendieck construction]], $X(-, x)$ is classified by the [[right fibration]], $X_{/x} \to X$, and $Y(p-, p(x))$ is classified by the pullback of $Y_{/p(x)} \to Y$ along $p$; that is by the [[comma category]] $(p \downarrow p(x)) \to Y$. There is a commutative diagram
+The definition of being $p$-cartesian can be described as a pullback square of hom-functors. By the contravariant [[(∞,1)-Grothendieck construction]], $X(-, x)$ classifies the [[right fibration]], $X_{/x} \to X$, and $Y(p-, p(x))$ classifies the pullback of $Y_{/p(x)} \to Y$ along $p$; that is by the [[comma category]] $(p \downarrow p(x)) \to Y$. There is a commutative diagram
 
 
   \begin{centre}
