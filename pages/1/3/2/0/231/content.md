@@ -178,7 +178,7 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 \linebreak
 Notice how the very definition of monoidal categories (Def. \ref{MonoidalCategory}) invokes the Cartesian product *of* categories, namely in the definition of the tensor product (eq:TheTensorProductFunctor) *in* a category. But the operation of forming [[product categories]] is itself a (Cartesian) monoidal structure one level higher up in the [[higher category theory]] ladder, namely on the ambient [[2-category]] [[Cat]] of categories, which thereby becomes a [[monoidal 2-category]]. 
 
-This state of affairs, where the definition of ([[higher structure|higher]]) algebraic [[mathematical structure|structures]] uses and requires analogous  algebraic structure present on the ambient higher category is an instance of the general [[microcosm principle]].
+The ability to define pseudomonoids in any monoidal 2-category is an [example](microcosm+principle#examples) of the so-called [[microcosm principle]], where the definition of ([[higher structure|higher]]) algebraic [[mathematical structure|structures]] uses and requires analogous  algebraic structure present on the ambient higher category.  
 \end{remark}
 
 With this understood, there is a succinct abstract definition of monoidal categories:
