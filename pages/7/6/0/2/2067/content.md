@@ -295,8 +295,6 @@ in $X/{x_2}$ and evidently is the identity there if and only if $h$ is the ident
 =--
 
 
-
-
 ### In $(\infty,1)$-categories
 
 The notion of cartesian morphism generalizes from [[category theory]] to [[(∞,1)-category theory]]. We can give an abstract definition
@@ -360,6 +358,14 @@ The definition of being $p$-cartesian can be described as a pullback square of h
 The bottom-right square and wide rectangle are pullbacks by construction. By the [[pasting law]], the bottom-left square is a pullback, and thus the top-left square is a pullback if and only if the tall rectangle is.
 
 By the [[(∞,1)-Grothendieck construction]], the top-left square is a pullback iff $f$ is $p$-cartesian, so the proposition follows.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+If $f : x \to y$, then $X_{/f} \to X_{/x}$ is an [[equivalence of (∞,1)-categories]], and composing its inverse with $X_{/f} \to X_{/x}$ is the [[dependent sum]] $f_! : X_{/x} \to X_{/y}$.
 
 =--
 
