@@ -937,13 +937,13 @@ The idea is that we obtain $K$ from first forming the cylinder $D \times \Delta[
 Formally this means that we form the [[pushout]]
 
 $$
-  N := (D^\sharp \times \Delta[1]^#) \coprod_{D^\sharp \times \{0\}^#} C^\sharp
+  N := (D^\natural \times \Delta[1]^#) \coprod_{D^\natural \times \{0\}^#} C^\natural 
 $$
 
-in $sSet^+$, where $C^\sharp$ and $D^\sharp$ are $C$ and $D$ with precisely the [[equivalence in a quasi-category|equivalences]] marked. This comes canonically with a morphism 
+in $sSet^+$, where $C^\natural$ and $D^\natural$ are $C$ and $D$ with precisely the [[equivalence in a quasi-category|equivalences]] marked. This comes canonically with a morphism 
 
 $$
-  N \to \Delta[1]
+  N \to \Delta[1]^{\sharp}
 $$
 
 and does have the property that $N_0 = C$, $N_1 = D$ and that $f$ is associated to it in that the restriction of the canonical morphism $D \times \Delta[1] \to K$ to the 0-fiber is $f$.  But it may fail to be a Cartesian fibration.
