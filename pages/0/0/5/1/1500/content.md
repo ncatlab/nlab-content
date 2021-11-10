@@ -130,7 +130,7 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 Original articles:
 
-* [[P. Etingof]], D. Nikshych and [[Victor Ostrik]], [On fusion categories](http://arxiv.org/abs/math/0203060).
+* {#EtingofNikshychOstrik05} [[Pavel Etingof]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On fusion categories*, Annals of Mathematics Second Series, Vol. 162, No. 2 (Sep., 2005), pp. 581-642 ([arXiv:math/0203060](http://arxiv.org/abs/math/0203060), [jstor:20159926](https://www.jstor.org/stable/20159926))
 
 * [[Pavel Etingof]] and [[Damien Calaque]], [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
 
