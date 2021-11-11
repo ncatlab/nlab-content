@@ -60,7 +60,7 @@ and
 
 > In the Lie garden, one also finds five rare flowers, the [[exceptional Lie algebras|exceptional algebras]]: [[G2]], [[F4]], [[E6]], [[E7]] and [[E8]], their rank indicated by the subscripts. In view of Nature's fascination with unique structures, they merit further study.
 
-[Boya 03](#Boya03) writes in view of the various occurences of the [[octonions]] in [[M-theory]]:
+[Boya 03](#Boya03) writes in view of the various occurrences of the [[octonions]] in [[M-theory]]:
 
 > If the current [[M-theory]] is a _unique theory_, one should expect it to make use of singular, non-generic mathematical structures. Now it is known that many of the special objects in mathematics are related to [[octonions]], and therefore it is not surprising that this putative _theory-of-everything_ should display geometric and algebraic structures derived from this unique non-associative [[normed division algebra|division algebra]].
 
