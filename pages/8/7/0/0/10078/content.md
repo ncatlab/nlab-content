@@ -17,15 +17,15 @@
 
 ## Idea
 
-Traditionally the [[Feynman perturbation series]]/[[scattering amplitudes]] in [[perturbative quantum field theory]] are defined, given a [[free field theory|free field]] [[vacuum]] and an [[local observable|local]] [[interaction]] [[action functional]], by applying the _[[Feynman rules]]_ ([this prop.](A+first+idea+of+quantum+field+theory#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) to the monomial terms in the [[interaction]] [[Lagrangian density]] and deriving from that a rule for how to weight each [[Feynman diagram]] by a [[probability amplitude]], its _[[Feynman amplitude]]_, subject to [[renormalization]] choices.
+Traditionally, the [[Feynman perturbation series]]/[[scattering amplitudes]] in [[perturbative quantum field theory]] are defined -- given a [[free field theory|free field]] [[vacuum]] and a [[local observable|local]] [[interaction]] [[action functional]] -- by applying the _[[Feynman rules]]_ ([this prop.](A+first+idea+of+quantum+field+theory#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) to the monomial terms in the [[interaction]] [[Lagrangian density]] and deriving from that *[[Feynman rules]]* for how to weigh each [[Feynman diagram]] by a [[probability amplitude]] -- its _[[Feynman amplitude]]_ -- subject to [[renormalization]] choices.
 
-In contrast, in what is called the _worldline formalism_ of [[perturbative quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives _on_ the Feynman graphs, namely the [[worldline]] theory (usually a [[sigma-model]] in the given [[target|target]] [[spacetime]]) of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
+In contrast, in what is called the _worldline formalism_ of [[perturbative quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives _on_ the Feynman graphs, namely the [[worldline]] theory (usually a [[sigma-model]] into the given [[target|target]] [[spacetime]]), which may be thought of as being the ([[relativistic particle|relativistic]]) [[quantum mechanics]] of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
 
-One may think of this as making explicit the [[edges]] in a [[Feynman diagram]] as corresponding to [[virtual particles]]].
+One may think of this as realizing the intuition that the [[edges]] in a [[Feynman diagram]] correspond to worldlines of [[virtual particles]].
 
-Mathematically the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which realizes the [[Feynman propagator]] $\Delta_F(x,y)$ as a [[path integral]] for a [[relativistic particle]] travelling from $y$ to $x$.
+Mathematically, the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which realizes the [[Feynman propagator]] $\Delta_F(x,y)$ as a [[path integral]] for a [[relativistic particle]] travelling from $y$ to $x$.
 
-This worldline formalism is equivalent to the traditional formulation. It has the conceptual advantage that it expresses the [[Feynman perturbation series]] of [[perturbative  quantum field theory]] manifestly as a [[second quantization]] of its particle content given explicitly as the [[superposition]] of all 1-particle processes and the calculational advantage of automatically summing over subsets of Feynman diagrams related by exchange of external legs, thus maintaining permutation symmetry and explicit gauge invariance of on-shell amplitudes. 
+This worldline formalism is equivalent to the traditional formulation. It has the conceptual advantage that it expresses the [[Feynman perturbation series]] of [[perturbative  quantum field theory]] manifestly as a [[second quantization]] of its particle content given explicitly as the [[superposition]] of all 1-particle processes, and the calculational advantage of automatically summing over subsets of Feynman diagrams related by exchange of external legs, thus maintaining [[permutation]] [[symmetry]] and explicit [[gauge invariance]] of [[on-shell]] [[scattering amplitudes]]. 
 
 The worldline formulation of QFT has an evident generalization to higher dimensional [[worldvolumes]]: in direct analogy one can consider summing the [[correlators]]/[[n-point functions]] over [[worldvolume]] [[theory (physics)|theories]] of "higher dimensional particles" ("[[branes]]") over all possible worldvolume geometries. Indeed, for 2-[[dimensional]] branes this is precisely the way in which [[perturbative string theory]] is defined: the [[string scattering amplitudes]] are given by the analogous "worldsheet formalism" known as the [[string perturbation series]] as the sum over all surfaces of the [[correlators]]/[[n-point functions]] of of a 2d [[SCFT]] of central charge 15.
 
@@ -110,14 +110,13 @@ See also:
 
 Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
 
-* I.K. Affleck, O. Alvarez and N.S. Manton, _Pair Production At Strong Coupling In Weak External Fields_, Nuclear Physics B Volume 197 (1982) 509.
+* [[Ian Affleck]], [[Orlando Alvarez]], [[Nicholas S. Manton]], _Pair Production At Strong Coupling In Weak External Fields_, Nuclear Physics B Volume 197 (1982) 509 (<a href="https://doi.org/10.1016/0550-3213(82)90455-2">doi:10.1016/0550-3213(82)90455-2</a>)
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
 
 Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
 
-* Adi Armoni, Oded Mintakevich, _Comments on Mesonic Correlators in the Worldline Formalism_, 
- Nuclear Physics B, Volume 852, Issue 1, 1 November 2011, Pages 61-70 ([arxiv:1102.5318](https://arxiv.org/abs/1102.5318))
+* Adi Armoni, Oded Mintakevich, _Comments on Mesonic Correlators in the Worldline Formalism_,  Nuclear Physics B, Volume 852, Issue 1, 1 November 2011, Pages 61-70 ([arxiv:1102.5318](https://arxiv.org/abs/1102.5318))
 
 
 
