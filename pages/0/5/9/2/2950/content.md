@@ -35,7 +35,7 @@ On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge q
 
 * [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_, Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
-On relating the [[Monster vertex operator algebra]] abs its cousins to [[quantum error correction]]:
+On relating the [[Monster vertex operator algebra]] and its cousins to [[quantum error correction]]:
 
 
 * [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
