@@ -40,13 +40,15 @@ On [[holographic QCD]] including [[h1-mesons]] and [[b1-mesons]]:
 
 
 
-On relating the [[Monster vertex operator algebra]] abs its cousins to [[quantum error correction]]:
+On relating the [[Monster vertex operator algebra]] and its cousins to [[quantum error correction]]:
 
 
-* [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
+* [[Jeffrey A. Harvey]], [[Gregory W. Moore]], *Moonshine, Superconformal Symmetry, and Quantum Error Correction*,  J. High Energ. Phys. **2020**, 146 (2020). ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
 
 
 
 category: people
 
 [[!redirects Jeff Harvey]]
+
+[[!redirects Jeffrey A. Harvey]]
