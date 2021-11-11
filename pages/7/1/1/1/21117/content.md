@@ -557,6 +557,10 @@ Discussion of [[gauge symmetry]] of [[holographic tensor networks]] and their [[
 * Kfir Dolev, Vladimir Calvera, Sam Cree, Dominic J. Williamson, 
 *Gauging the bulk: generalized gauging maps and holographic codes* ([arXiv:2108.11402](https://arxiv.org/abs/2108.11402))
 
+Relation of quantum error correcting codes to the [[Monster vertex operator algebra]] and more generally to [[2d SCFT]] and [[string theory]]:
+
+* [[Jeffrey A. Harvey]], [[Gregory W. Moore]], *Moonshine, Superconformal Symmetry, and Quantum Error Correction*,  J. High Energ. Phys. **2020**, 146 (2020). ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
+
 
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
@@ -571,7 +575,6 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 * [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
 
     
-
 
 [[!redirects quantum error correction code]]
 [[!redirects quantum error correction codes]]
