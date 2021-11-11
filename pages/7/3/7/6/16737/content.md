@@ -119,5 +119,7 @@ to have evidence to the contrary.
 
 * {#Penrose15} [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
 
-* {#HarveyMoore20} [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
+* [[Jeffrey A. Harvey]], [[Gregory W. Moore]], *Moonshine, Superconformal Symmetry, and Quantum Error Correction*,  J. High Energ. Phys. **2020**, 146 (2020). ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
+
+  > (in relation to the [[Monster vertex operator algebra]] and [[quantum error correction]])
 
