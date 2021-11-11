@@ -80,6 +80,10 @@ to have evidence to the contrary.
 
 [Penrose 15](#Penrose15), thinking of _[[twistor space]]_, voices the idea that nature realizes very special mathematical spaces (in the first few minutes of the [video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg)).
 
+[Harvey and Moore 20](#HarveyMoore20) write
+
+> Physicists who wonder about the ultimate structure of our universe can be divided into two classes. The first class believes that our universe is chosen at random from a huge ensemble of possible universes. The second class believes that our universe and the fundamental laws that govern it are based on some beautiful and exceptional mathematical structure. String theory provides evidence for both points of view... The authors of the present paper are philosophically inclined towards the point of view of the second class of physicists and are thus interested in studying special points in the landscape of string compactifications that involve beautiful and exceptional mathematical structures. Certainly among these special points the ones associated to moonshine are amongst the most beautiful.
+
 ## Related entries
 
 * [[exceptional geometry]] 
@@ -114,4 +118,6 @@ to have evidence to the contrary.
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
 
 * {#Penrose15} [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
+
+* {#HarveyMoore20} [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
 
