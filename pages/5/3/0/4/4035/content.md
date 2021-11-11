@@ -30,11 +30,19 @@ If an open cover has the property that all the $U_i$ and all of their finite non
 
 * [[compact space]] 
 
-* [[finite open cover]], [[countable open cover]], [[numerable open cover]]
+* [[finite open cover]]
+
+  [[locally finite open cover]]
+  
+  [[countable open cover]]
+  
+  [[numerable open cover]]
+
+  [[good open cover]]
+
+* [[equivariant open cover]]
 
 * [[closed cover]]
-
-* [[locally finite open cover]]
 
 * [[schedule]]
 
