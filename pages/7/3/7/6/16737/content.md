@@ -36,6 +36,14 @@ This may be contrasted with [[empiricism]].
 
 Sources where a sentiment of universal exceptionalism has been expressed include the following:
 
+[[David Olive]] in [Olive and Landsberg 89](#OliveLand89) writes
+
+> The results...add the stunning new question as to why nature has an apparent predilection for exceptional structures such as the E groups.
+
+and
+
+> I sense that the trail of exceptional structures is growing even warmer.
+
 [Baez 95](#Baez95), in a context of the role of the [[monster group]] in [[physics]], writes:
 
 > one may argue that the theory of our universe must be incredibly special, since out of all the theories we can write down, just this one describes the universe that actually exists. All sorts of simpler universes apparently don't exist. So maybe the theory of the universe needs to use special, "exceptional" mathematics for some reason, even though it's complicated
@@ -97,6 +105,7 @@ to have evidence to the contrary.
 
 ## References
 
+* {#OliveLands89} [[David Olive]] and Peter Landsberg, _Introduction to String Theory: Its Structure and its Uses [and Discussion]_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences, Vol. 329, No. 1605, Physics and Mathematics of Strings (Nov. 17, 1989), pp. 319-328, ([JSTOR](https://www.jstor.org/stable/38267))
 
 * {#Baez95} [[John Baez]], _[This Week's Finds in Mathematical Physics (Week 66)](http://math.ucr.edu/home/baez/week66.html)_, October 10, 1995
 
