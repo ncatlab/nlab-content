@@ -97,7 +97,7 @@ There is also the structure of an [[sSet]]-[[enriched category]] on $cAlg_k^\Del
 +-- {: .num_defn #cAlgDelta}
 ###### Definition
 
-For $X$ a [[simplicial set]] and $A \in Alg_k$ let $A^X  \in Alg_k^\Delta$ be the corresponding $A$-valued [[cochains on simplicial sets]]
+For $X$ a [[simplicial set]] and $A \in Alg_k^{\Delta}$ let $A^X  \in Alg_k^\Delta$ be the corresponding $A$-valued [[cochains on simplicial sets]]
 
 $$
   A^X \;\colon\; [n]  \mapsto (A_n)^{X_n} = \underset{X_n}{\prod} A_n
