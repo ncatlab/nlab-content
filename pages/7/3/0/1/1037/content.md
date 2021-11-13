@@ -27,7 +27,11 @@ This entry collects links related to the book
 
   ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
-which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack]]s) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos]]es -- in particular.
+which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack]]s) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos]]es -- in particular;
+
+following an earlier sketch in
+
+* {#Lurie03} [[Jacob Lurie]], *On $\infty$-Topoi* ([arXiv:math/0306109](https://arxiv.org/abs/math/0306109))
 
 The book is available online from the arXiv and also from Lurie's web site:
 
