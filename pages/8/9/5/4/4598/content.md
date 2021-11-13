@@ -134,7 +134,13 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 ### General
 
-Original accounts:
+The original definition is in
+
+* [[Л. С. Понтрягин]], _Характеристические циклы многообразий_, ДАН, XXXV, № 2 (1942). 
+
+* [[Л. С. Понтрягин]], _Характеристические циклы дифференцируемых многообразий_, Матем. сб., 21(63):2 (1947), 233–284.  [MathNet.Ru PDF](http://mi.mathnet.ru/msb6237 ).  English translation: [[Lev Pontrjagin]], _Characteristic cycles on differentiable manifolds_, Mat. Sbornik N. S. 21(63) (1947), 233-284; A.M.S. Translation 32 (1950).
+
+Early accounts:
 
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
 
