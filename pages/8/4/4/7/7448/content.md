@@ -76,7 +76,11 @@ Textbook accounts:
 
 * {#Lurie09} [[Jacob Lurie]], *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
-Lecture notes: 
+following:
+
+* {#Lurie03} [[Jacob Lurie]], Section 2.2 of: *On $\infty$-Topoi* ([arXiv:math/0306109](https://arxiv.org/abs/math/0306109))
+
+Lecture notes:
 
 * [[Jacob Lurie]], *Giraud's theorem*, Lecture 10 in: *[Categorical Logic](https://www.math.ias.edu/~lurie/278x.html)*, 2018 ([pdf](https://www.math.ias.edu/~lurie/278xnotes/Lecture10-Giraud.pdf))
 
