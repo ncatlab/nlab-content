@@ -20,7 +20,7 @@
 
 ## Idea 
 
-A classical theorem of [[Jean Giraud|Giraud]] characterizes [[sheaf toposes]] abstractly as [[categories]] with certain [[properties]] known as *Giraud's axioms*
+A classical theorem of [[Jean Giraud|Giraud]] characterizes [[sheaf toposes]] abstractly as [[categories]] with certain [[properties]] known as *Giraud's axioms*.
 
 In [[higher topos theory]] there are corresponding [[higher category theory|higher]] analogs .
 
@@ -60,11 +60,7 @@ An [[(infinity,1)-category|$(\infty,1)$-category]] is an [[(infinity,1)-category
 \end{proposition}
 (e.g. [Lurie 2009, Prop. 6.1.0.6](#Lurie09))
 
-\linebreak
-
-Similarly, [[2-category theory]] there is the analogous *[[2-Giraud theorem]]* for [[2-toposes]].
-
-\linebreak
+Similarly, in [[2-category theory]] there is the analogous *[[2-Giraud theorem]]* for Grothendieck [[2-toposes]].
 
 ## Related concepts
 
