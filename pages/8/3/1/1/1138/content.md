@@ -36,7 +36,7 @@ In the case that $X$ and $Y$ are (the [[site]]s corresponding to) [[topological 
 
 ## Definition
 
-Given a [[site|morphisms of sites]] $f : X \to Y$ coming from a [[functor]] $f^t : S_Y \to S_X$ of the underlying [[category|categories]].
+Given a [[topos|morphism of topos]] $f : X \to Y$ coming from a [[functor]] $f^t : S_Y \to S_X$ of the underlying [[category|categories]].
 
 
 ### on presheaves
