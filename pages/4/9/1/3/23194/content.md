@@ -44,23 +44,101 @@ for the [[functor]] from the [[category]] of (cgwh-)[[topological G-spaces]] whi
 \label{ProperlyEquivariantOpenCover}
 **(properly equivariant open covers)**
 \linebreak
-  For $G \,\in\, Grp(SmthMfd) \xhookrightarrow{\;} Grp(kTopSp)$ a [[topological group]] [[underlying]] a [[Lie group]], and $G \curvearrowright X \,\in\, G Act(kTopSp)$ a [[topological G-space]], say that a [[morphism]]
+  For $G \,\in\, Grp(SmthMfd) \xhookrightarrow{\;} Grp(kTopSp)$ a [[topological group]] [[underlying]] a [[Lie group]], and $G \curvearrowright X \,\in\, G Act(kTopSp)$ a [[topological G-space]], say that an [[open cover]]
 
 $$
-  G \curvearrowright \widehat{X}
+  \widehat{X}
+  \;\coloneqq\;
+    \underset{i \in I}{\sqcup}
+    U_i
   \;\;
   \xrightarrow{\;\; p \;\;}
   \;\;
-  G \curvearrowright \widehat{X}
-  \;\;\;
-  \in
-  \;
-  G Act(kTopSp)
+  X  
 $$
 
 is
 
-1. a *properly equivariant open cover* if for all [[compact subgroups]] $H \,\subset\, G$ its restriction (eq:HFixedLocusFunctor) to $H$-[[fixed loci]]  is a plain [[open cover]] of [[topological spaces]]:
+1. *equivariant* (often: "invariant") if the $G$-action on $X$ pulls back to a $G$-action on $\widehat{X}$
+
+   $$
+     G \curvearrowright \widehat{X}
+     \;\coloneqq\;
+     G \curvearrowright
+     \big(
+       \underset{i \in I}{\sqcup}
+       U_i
+     \big)
+     \;\;
+     \xrightarrow{\;\; p \;\;}
+     \;\;
+     G \curvearrowright X  
+     \,;
+   $$
+
+1. *regular* if it satisfies ([Yang 2014, Def. 2.7](#Yang14))
+
+   \[
+     \label{RegularityCondition}
+     \begin{array}{ll}
+       (a)
+       &
+       \underset{i,j \in I}{\forall}
+       \left(
+         U_i \,=\, U_j
+         \;\;\;\;
+         \Rightarrow
+         \;\;\;\;
+         i \,=\, j
+       \right)
+       \\
+       (b)
+       &
+       \underset{i \in I}{\forall} 
+       \,\, 
+       \underset{g \in G}{\forall} 
+       \; 
+       \Big( 
+         U_i 
+          \,\cap\, 
+         g \cdot U_j 
+         \;\neq\; 
+         \varnothing
+         \;\;\Rightarrow\;\; 
+         U_i \,=\, g \cdot U_i  
+       \Big)
+       \\
+       (c)
+       &
+       \underset{n \in \mathbb{N}}{\forall} 
+       \; 
+       \underset{ 
+          { i_0, \cdots, i_n \in I } 
+          \atop 
+          { g_0, \cdots, g_n \,\in\, G }  
+       }{\forall} 
+       \left( 
+         \begin{array}{rcl} 
+           U_{i_0} \cap \cdots \cap U_{i_n} 
+           & \neq 
+           & \varnothing
+           \mathrlap{,} 
+           \\ 
+           g_0 \cdot U_{i_0} \cap \cdots g_n \cdot U_{i_n} 
+           & \neq 
+           & \varnothing   
+         \end{array} 
+         \;\;\Rightarrow\;\; 
+         \underset{g \in G}{\exists} 
+         \;
+         \underset{0 \leq k \leq n}{\forall}
+         \; 
+         g \cdot U_{i_k} \,=\, g_k \cdot U_{i_k} 
+       \right)
+     \end{array}
+   \]
+
+1. *properly equivariant* if for all [[compact subgroups]] $H \,\subset\, G$ its restriction (eq:HFixedLocusFunctor) to $H$-[[fixed loci]]  is a plain [[open cover]] of [[topological spaces]]:
 
    \[
      \label{OpenCoverOnAllFixedLoci}
@@ -76,16 +154,30 @@ is
      X^H
    \]
 
-1. a *properly equivariant good open cover* if the restrictions (eq:OpenCoverOnAllFixedLoci) are all [[good open covers]].
+1. *properly equivariant good* if it is regular and proper equivariant and the restrictions (eq:OpenCoverOnAllFixedLoci) are all [[good open covers]] ([Yang 2014, Def. 2.10](#Yang14)).
 
 \end{definition}
+
+\begin{remark}
+  If an equivariant open cover 
+  is regular (eq:RegularityCondition)
+  then the index set $I$ inherits a unique $G$-action $i \mapsto g \cdot i$ such that 
+$$
+  g \cdot U_i \,\subset\, U_{g_i}
+$$
+and such that the [[stabilizer subgroup]] $G_x \subset G$ of any $x \in U_i \subset X$ also stabilizes $i$:
+$$
+  G_x \cdot U_i \,=\, U_i
+  \,.
+$$
+\end{remark}
 
 ## Properties
 
 ### Existence
 
 \begin{proposition}
-  For $G \,\in\, Grp(FinSet) \xhookrightarrow{Grp(Dsc)} Grp(kTopSp)$ a [[finite group]], the [[topological G-space]] [[underlying]] a [[smooth manifold|smooth]] [[G-manifold]] admits a properly equivariant good open cover (Def. \ref{ProperlyEquivariantOpenCover}).
+  For $G \,\in\, Grp(FinSet) \xhookrightarrow{Grp(Dsc)} Grp(kTopSp)$ a [[finite group]], the [[topological G-space]] [[underlying]] a [[smooth manifold|smooth]] [[G-manifold]] admits a regular properly equivariant good open cover (Def. \ref{ProperlyEquivariantOpenCover}).
 \end{proposition}
 
 ([Yang 2014, Thm. 2.11](#Yang14), using the [[equivariant triangulation theorem]])
