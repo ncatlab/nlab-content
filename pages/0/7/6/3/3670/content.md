@@ -56,6 +56,13 @@ Introducing the [[Pontrjagin product]]:
 
 * [[Lev Pontrjagin]], _Homologies in compact Lie groups_, Rec. Math. [Mat. Sbornik] N.S., 1939 Volume 6(48), Number 3, Pages 389–422 ([mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng))
 
+{#IntroducingPontrjaginClasses} Introducing [[Pontrjagin classes]]:
+
+* [[Л. С. Понтрягин]], _Характеристические циклы многообразий_, ДАН, XXXV, № 2 (1942). 
+
+* [[Л. С. Понтрягин]], _Характеристические циклы дифференцируемых многообразий_, Матем. сб., 21(63):2 (1947), 233–284.  [MathNet.Ru PDF](http://mi.mathnet.ru/msb6237 ).  English translation: [[Lev Pontrjagin]], _Characteristic cycles on differentiable manifolds_, Mat. Sbornik N. S. 21(63) (1947), 233-284; A.M.S. Translation 32 (1950).
+
+
 Selected articles:
 
 * {#Gamkrelidze86} [[Revaz Gamkrelidze]] (ed.), _L. S. Pontryagin -- Selected Works_, Volume 1: _Selected Research Papers_,  [Classics of Soviet Mathematics](https://www.routledge.com/Classics-of-Soviet-Mathematics/book-series/CRCCLASOVMTH), Gordon and Breach 1986, CRC Press 2019 ([ISBN:9782881241055](https://www.routledge.com/Selected-Research-Papers/Pontryagn/p/book/9782881241055))
