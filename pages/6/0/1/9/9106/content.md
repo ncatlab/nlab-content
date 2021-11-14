@@ -20,6 +20,10 @@ What is called the _hierarchy problem_ is an issue in [[phenomenology]] and [[mo
 
 ## Proposed solutions
 
+### Just an artifact
+
+In 2021, Mooij and Shaposhnikov suggested that the hierarchy problem might not have any physical meaning, rather being a mere artifact of a certain formulation of the quantum field theory and/or model of the Standard model, and that if a different formulation was chosen the hierarchy problem can be avoided entirely. See [Mooij and Shaposhnikov](#Mooij-Shaposhnikov) for more details. 
+
 ### In M-theory on $G_2$-manifolds
   {#InMTheoryOnG2Manifols}
 
@@ -40,6 +44,7 @@ In the context of [[M-theory on G2-manifolds]] (the [[G2-MSSM]]) a generic solut
 
 * Seth Koren, _The Hierarchy Problem: From the Fundamentals to the Frontiers_ ([arXiv:2009.11870](https://arxiv.org/abs/2009.11870))
 
+* {#Mooij-Shaposhnikov} Sander Mooij, Mikhail Shaposhnikov, _QFT without infinities and hierarchy problem_ ([arXiv:2110.05175](https://arxiv.org/abs/2110.05175))
 
 In the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]] a solution is proposed in 
 
