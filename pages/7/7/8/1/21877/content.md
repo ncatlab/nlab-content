@@ -559,6 +559,16 @@ The case of [[octonionic projective space]]:
 
 [[!redirects cell structure of projective space]]
 
+[[!redirects cell structures of projective spaces]]
+[[!redirects cell structures of projective spaces]]
+
+[[!redirects cell structure on projective space]]
+[[!redirects cell structure on projective spaces]]
+[[!redirects cell structures on projective space]]
+[[!redirects cell structures on projective spaces]]
+
 [[!redirects cell structure of K-projective spaces]]
 [[!redirects cell structure of K-projective space]]
+[[!redirects cell structures of K-projective spaces]]
+[[!redirects cell structures of K-projective space]]
 
