@@ -184,7 +184,7 @@ Here, from left to right, the dashed section follows by the [[universal property
 In particular, for every $P$ the [[identity morphism]] on it corresponds to the canonical section of $(P \times_X P)/G$.
 
 
-In the given situation, this means that we have a canonical local section $\sigma_0$ making the following solid diagram [[commuting square|commute]], exhibiting that the restriction of the bundle $P_0 \times [0,1]$ to $\{0\} \subset [0,1]$ is isomorphic to $P_0$, by construction:
+{#TheLiftingDiagram} In the given situation, this means that we have a canonical local section $\sigma_0$ making the following solid diagram [[commuting square|commute]], exhibiting that the restriction of the bundle $P_0 \times [0,1]$ to $\{0\} \subset [0,1]$ is isomorphic to $P_0$, by construction:
 
 \begin{tikzcd}
   X \times \{0\}
