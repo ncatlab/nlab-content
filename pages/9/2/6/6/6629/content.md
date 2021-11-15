@@ -69,9 +69,9 @@ See ([Jardine11, page 14](#Jardine)), ([Marty, def 1.7](#Marty)).
 
 Page 88 (14) of 
 
-* [[Rick Jardine]], _Representability theorems for presheaves of spectra_ J. Pure Appl. Algebra
+* {#Jardine} [[J. F. Jardine]], _Representability theorems for presheaves of spectra_ J. Pure Appl. Algebra
 215 (2011) ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/rep-2010.pdf))
-  {#Jardine}
+  
 
 Def. 1.7 of 
 
@@ -79,4 +79,9 @@ Def. 1.7 of
 
 A different meaning of "compactly generated model category" is used in Definition 5.9 of 
 
-* [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Model categories of diagram spectra_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], *[[Model categories of diagram spectra]]*, Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [doi:10.1112/S0024611501012692]( https://doi.org/10.1112/S0024611501012692))
+
+
+[[!redirects compactly generated model categories]]
+
+
