@@ -951,7 +951,7 @@ A more general notion of a _tangent structure on an $(\infty, 1)$-category_ is d
 
 * {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819))
 
-Two further examples of tangent structures on an $(infty,1)$-category, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]], are given in:
+Two further examples of tangent structures on an $(\infty,1)$-category, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]], are given in:
 
 * [[Michael Ching]], _Dual tangent structures for infinity-toposes_, ([arXiv:2101.08805](https://arxiv.org/abs/2101.08805))
 
