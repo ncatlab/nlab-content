@@ -562,7 +562,7 @@ The Reedy model structure on towers is discussed for instance in chapter 6 of
 
 The Reedy model structure on categories of simplicial objects is discussed in more detail for instance in 
 
-* {#Dugger} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
+* {#Dugger} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7/S0002-9947-01-02661-7.pdf)) 
   
 Monoidal Reedy model structures are discussed in
 
