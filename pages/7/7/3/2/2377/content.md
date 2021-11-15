@@ -149,7 +149,7 @@ Informally speaking, we have two [[categories]] whose objects are the sets: in [
 
 In both of these (meta-)categories, the [[isomorphisms]] are the bijections.  We have also already observed that $\emptyset$ and $1$ are an [[initial object]] and a [[terminal object]] in $Set$, respectively, and that $\emptyset$ is both initial and terminal in $Rel$.
 
-For sets $A$ and $B$, let $\top:A\looparrowright B$ denote the relation such that $\top(x,y)$ holds always.  A tabulation of $\top$ is denoted $A\times B$; it is a set equipped with functions $p:A\times B \to A$ and $q:A\times B\to B$ such that for any $x\in A$ and $y\in B$, there exists a unique $z\in A\times B$ with $p(z)=x$ and $q(z)=y$.  It is called the **cartesian product** of $A$ and $B$.
+For sets $A$ and $B$, let $\top:A\looparrowright B$ denote the relation such that $\top(x,y)$ holds always.  A tabulation of $\top$ is denoted $A\times B$; it is a set equipped with functions $p:A\times B \to A$ and $q:A\times B\to B$ such that for any $x\in A$ and $y\in B$, there exists a unique $z\in A\times B$ with $p(z)=x$ and $q(z)=y$.  It is called the **[[cartesian product]]** of $A$ and $B$.
 
 +-- {: .num_theorem #product}
 ###### Theorem
