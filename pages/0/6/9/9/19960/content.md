@@ -622,6 +622,8 @@ With emphasis on application to the [QCD phase diagram](QCD#PhaseDiagram) and to
 
 * [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
 
+* Niko Jokela, *NICER view on holographic QCD* ([arXiv:2111.07940](https://arxiv.org/abs/2111.07940))
+
 
 
 
