@@ -92,6 +92,8 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 * [[Goran Senjanovic]], _LHC and the neutrino paradigm_, talk at CERN EP seminar 2011 ([cern:148714](https://indico.cern.ch/event/148714), [recording](https://youtu.be/VVoMUHokn2U))
 
+* Athar et al. *Status and Perspectives of Neutrino Physics*, [IUPAP Neutrino Panel](https://www.iupapneutrinopanel.org/) Report ([arXiv:2111.07586](https://arxiv.org/abs/2111.07586))
+
 See also
 
 * Wikipedia, _[Neutrino](http://en.wikipedia.org/wiki/Neutrino)_
