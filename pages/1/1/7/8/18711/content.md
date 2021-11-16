@@ -80,6 +80,7 @@ Discussion via [[holographic QCD]] (see also at [[quark-gluon plasma]]):
 
 * [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
 
+* Niko Jokela, *NICER view on holographic QCD* ([arXiv:2111.07940](https://arxiv.org/abs/2111.07940))
 
 
 
