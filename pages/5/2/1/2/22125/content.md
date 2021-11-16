@@ -18,7 +18,8 @@ On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
 * {#Zaanen21} [[Jan Zaanen]], *Lectures on quantum supreme matter* ([arXiv:2110.00961](https://arxiv.org/abs/2110.00961))
 
-* {#Zaanen21} [[Jan Zaanen]], *Lectures on quantum supreme matter* ([arXiv:2110.00961](https://arxiv.org/abs/2110.00961))
+* Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]],
+*Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
 
 
 
