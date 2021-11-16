@@ -17,7 +17,7 @@
 
 Recall that it is possible to define an [[internalization]] of the set of [[natural numbers]], called a [[natural numbers object]] (NNO), in any [[cartesian monoidal category]] (a category with finite [[product|products]]). In particular, the notion makes sense in a [[topos]]. But a topos supports [[intuitionistic logic|intuitionistic]] [[higher-order logic]], so once we have an NNO, it is also possible to repeat the usual construction of the [[integer|integers]], the [[rational number|rationals]], and then finally the [[real number|real numbers]]; we thus obtain an internalization of $\mathbb{R}$ in any topos with an NNO.
 
-More generally, we can define a real numbers object (RNO) in any category with sufficient structure (somewhere between a cartesian monoidal category and a topos).  Then we can prove that an RNO exists in any topos with an NNO (and in some other situations).
+More generally, we can define a real numbers object (RNO) in any category with sufficient structure; RNOs can be defined for many flavors of category, from cartesian monoidal categories up to topoi. Then we can prove that an RNO exists in any topos with an NNO, as well as in some other situations.
 
 
 ## Definition
@@ -32,7 +32,7 @@ A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object
 
 In detail:
 
-A _commutative ring object_ in $\mathcal{E}$ is an object $R$ equipped with morphisms $0\colon \mathbf{1} \to R$, ${-}\colon R \to R$, ${+}\colon R \times R \to R$, $1\colon \mathbf{1} \to R$, and ${\cdot}\colon R \times R \to R$ (where $\mathbf{1}$ is the [[terminal object]] of $\mathcal{E}$ and $\times$ is the [[product]] operation in $\mathcal{E}$) that make certain diagrams commute.  (These diagrams may be found at [[ring object]], in principle, although right now they\'re not there.)
+A _commutative ring object_ in $\mathcal{E}$ is an object $R$ equipped with morphisms $0\colon \mathbf{1} \to R$, ${-}\colon R \to R$, ${+}\colon R \times R \to R$, $1\colon \mathbf{1} \to R$, and ${\cdot}\colon R \times R \to R$ (where $\mathbf{1}$ is the [[terminal object]] of $\mathcal{E}$ and $\times$ is the [[product]] operation in $\mathcal{E}$) that make the [[ring object]] diagrams commute.
 
 Given a commutative ring object $R$ in $\mathcal{E}$, we define a [[binary relation]] $\#$ on $R$ (that is a [[subobject]] of $R \times R$) as
 $$ \{ (x,y)\colon R \times R \;|\; \exists z\colon R.\, x \cdot z = y \cdot z + 1 \} ,$$
