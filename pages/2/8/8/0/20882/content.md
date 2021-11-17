@@ -168,6 +168,8 @@ Examples of types of [[Lie algebra objects]]:
 ### Examples
  {#ReferencesExamples}
 
+For references on [[super Lie algebras]] see there.
+
 On [[Leibniz algebras]] as Lie algebra objects in suitable [[tensor categories]] of [[linear maps]]:
 
 * {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://doi.org/10.1023/B:GEOR.0000008125.26487.f3))
@@ -175,7 +177,6 @@ On [[Leibniz algebras]] as Lie algebra objects in suitable [[tensor categories]]
 On [[Rozansky-Witten weight systems]] as [[Lie algebra weight systems]] for [[Lie algebra objects]] in the [[derived category of quasi-coherent sheaves]], and unified [[Wheels theorem]]:
 
 * {#RobertsWillerton10} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
-
 
 
 
