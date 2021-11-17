@@ -262,6 +262,9 @@ Leptoquarks as candidates for [[dark matter]]:
 
 * Francesco D'Eramo, Nejc Košnik, Federico Pobbe, Aleks Smolkovič, Olcyr Sumensari, _Leptoquarks and Real Singlets: A Richer Scalar Sector Behind the Origin of Dark Matter_ ([arXiv:2012.05743](https://arxiv.org/abs/2012.05743))
 
+* Genevieve Bélanger et al. *Leptoquark Manoeuvres in the Dark: a simultaneous solution of the dark matter problem and the RD anomalies* ([arXiv:2111.08027](https://arxiv.org/abs/2111.08027))
+
+
 
 ### Appearance in GUTs
 
