@@ -32,7 +32,7 @@ This entry is meant to eventually list and discuss some of these. For the moment
 
 We discuss some aspects of ([[G-space|continuous]]) [[free actions]] of [[finite groups]] on [[n-spheres]]. 
 
-If the action is by [[isometries]] then the [[topological quotient spaces]] of such actions are known as *[[spherical space forms]]*.
+If the action is by [[isometries]] (with respect to the [[round sphere|round metric]]) then the [[topological quotient spaces]] of such free actions are traditionally known as *[[spherical space forms]]* (going back to [Killing 1891](spherical+space+form#Killing1891)). Later (maybe starting with [Madsen, Thomas & Wall 1976](#MadsenThomasWall76)) authors also speak of *topological spherical space forms* for quotients by actions which are continuous but not necessarily by isometries. 
 
 
 #### Basic examples
