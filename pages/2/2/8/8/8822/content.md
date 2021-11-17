@@ -59,7 +59,8 @@ Since repetition is irrelevant in a separating family, we may also speak of a _s
 A __separating set__ is a [[size issues|small]] separating class.
 =--
 
-### In fibered categories {#fibered}
+### In fibered categories 
+  {#fibered}
 
 The notion of separating family can be generalized from categories to [[fibered categories]] in such a way that the [[family fibration]] of a category $\mathbf{C}$ 
 has a separating family if and only if $\mathbf{C}$ has a small separating family.
