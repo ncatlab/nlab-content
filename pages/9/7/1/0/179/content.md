@@ -1035,7 +1035,7 @@ $$
   \left(
     \cdots
     U \times \tilde D(dim U, 2)
-    \stackrel{\to}{\stackrel{\to}{\to}}U \tilde \tilde D(dim U, 1)\stackrel{\to}{\to} U
+    \stackrel{\to}{\stackrel{\to}{\to}}U \times \tilde D(dim U, 1)\stackrel{\to}{\to} U
   \right)
   \,,
 $$
