@@ -38,7 +38,7 @@ A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or *
 
 It is a **right fibration** or **right Kan fibration** if its extends against all horns except possibly the left outer ones: $0 \lt k \leq n$.
 
-So $X \to S$ is a right fibration precisely if for all commuting squares
+So $X \to S$ is a left fibration precisely if for all commuting squares
 
 $$
   \array{
