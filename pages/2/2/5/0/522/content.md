@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -60,16 +60,18 @@ which is the total composite vertical morphism of the [[pullback]] diagram
 $$
   \array{
     \mathbf{E}_{\mathrm{pt}}B
-    &\to&
+    &\longrightarrow&
     pt
     \\
-    \downarrow && \downarrow^{pt_B}
+    \big\downarrow 
+      && 
+    \big\downarrow{}^{\mathrlap{pt_B}}
     \\
     [I,B]
-    &\stackrel{d_1}{\to}&
+    &\stackrel{d_1}{\longrightarrow}&
     B
     \\
-    \downarrow^{d_0}
+    \big\downarrow{}^{\mathrlap{d_0}}
     \\
     B
   }
@@ -83,11 +85,11 @@ Then a (generalized) "$B$-bundle" on some object $X$ is a morphism $P \to X$ whi
 
 $$
   \array{
-    P &\to& \mathbf{E}_{pt}
+    P &\longrightarrow& \mathbf{E}_{pt}
     \\
-    \downarrow && \downarrow
+    \big\downarrow && \big\downarrow
     \\
-    X &\stackrel{g}{\to}& B
+    X &\stackrel{g}{\longrightarrow}& B
   }
 $$
 
@@ -99,9 +101,9 @@ $$
   \array{
     P &\to& *
     \\
-    \downarrow &\Downarrow& \downarrow^{pt_B}
+    \big\downarrow &\swArrow& \big\downarrow{}^{\mathrlap{pt_B}}
     \\
-    X &\stackrel{g}{\to}& B
+    X &\stackrel{g}{\longrightarrow}& B
   }
   \,.
 $$
@@ -110,11 +112,13 @@ The generalized universal bundle can be constructed in this way if we take $X = 
 
 $$
   \array{
-    \mathbf{E}_{pt} &\to& *
+    \mathbf{E}_{pt} &\longrightarrow& *
     \\
-    \downarrow^{p} &\Downarrow& \downarrow^{pt_B}
+    \big\downarrow{}^{\mathrlap{p}} 
+    &\swArrow& 
+    \big\downarrow{}^{\mathrlap{pt_B}}
     \\
-    B &\stackrel{id}{\to}& B
+    B &\stackrel{id}{\longrightarrow}& B
   }
   \,.
 $$
@@ -124,11 +128,17 @@ The [[fiber]] of the generalized universal bundle is the [[loop space object|loo
 
 $$
   \array{
-    \Omega_{pt} B &\to& \mathbf{E}_{pt} &\to& *
+    \Omega_{pt} B &\longrightarrow& \mathbf{E}_{pt} &\longrightarrow& *
     \\
-    \downarrow & & \downarrow^{p} &\Downarrow& \downarrow^{pt_B}
+    \big\downarrow & & \big\downarrow^{p} 
+    &\swArrow& \big\downarrow{}^{\mathrlap{pt_B}}
     \\
-    * &\stackrel{pt_B}{\to} & B &\stackrel{id}{\to}& B
+    * 
+    &\stackrel{pt_B}{\longrightarrow} 
+    & 
+    B 
+      &\stackrel{id}{\longrightarrow}& 
+    B
   }
   \,.
 $$
@@ -151,7 +161,7 @@ In (higher) categorical contexts, take the interval object to the the interval c
 
 For $C =$ [[Cat]], $B := \mathbf{B}G$ a one-object groupoid corresponding to a group $G$ with the unique point, $\mathbf{E}_{pt} \mathbf{B}G = \mathbf{E}G = G//G$ is the [[action groupoid]] of $G$ acting on itself. The sequence of groupoids is
 $$
-  G \to G//G \to \mathbf{B}G
+  G \to G \sslash G \to \mathbf{B}G
   \,.
 $$
 
@@ -161,9 +171,9 @@ the $G$-bundle $P \to X$ is classified by a nonabelian $G$-valued 1-cocycle (the
 
 $$
   \array{
-    \hat X &\stackrel{g}{\to}& \mathbf{B}G
+    \hat X &\stackrel{g}{\longrightarrow}& \mathbf{B}G
     \\
-    \downarrow^\pi
+    \big\downarrow{}^{\mathrlap{\pi}}
     \\
     X
   }
@@ -176,13 +186,13 @@ The universal groupoid bundle $\mathbf{E}G \to \mathbf{B}G$ may now be pulled ba
 
 $$
   \array{
-    g^* \mathbf{E}G &\to& \mathbf{E}G
+    g^* \mathbf{E}G &\longrightarrow& \mathbf{E}G
     \\
-    \downarrow && \downarrow
+    \big\downarrow && \big\downarrow
     \\
-    \hat X &\stackrel{g}{\to}& \mathbf{B}G
+    \hat X &\stackrel{g}{\longrightarrow}& \mathbf{B}G
     \\
-    \downarrow^\pi
+    \big\downarrow{}^{\mathrlap{\pi}}
     \\
     X
   }
@@ -193,11 +203,12 @@ This bundle of groupoids is weakly equivalent to the $G$-principal bundle we sta
 
 $$
   \array{
-     g^* \mathbf{E}G &&\stackrel{\simeq}{\to}&& P
+     g^* \mathbf{E}G &&\stackrel{\simeq}{\longrightarrow}&& P
      \\
      & \searrow && \swarrow
      \\  
-     &&X
+     &&
+     X
   }
   \,.
 $$
@@ -233,6 +244,7 @@ The way this works is indicated briefly in the last section of Roberts-Schreiber
 
 
 ### Universal $n$-category bundles: $n$-subobject classifiers 
+ {#UniversanNCategoryBundles}
 
 One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n Cat$ yields the [[subobject classifiers]] of higher [[topos|toposes]]:
 
@@ -274,7 +286,7 @@ For instance for $B = \mathbf{B}G$ and $F = Vect$
 with $\rho : \mathbf{B}G \to Vect$ a [[representation]] of the group $G$ on a vector space $V$, the $\rho$-associated $\mathrm{Vect}$-bundle on $\mathbf{B}G$ is
 
 $$
-  V \to V//G \to \mathbf{B}G
+  V \to V \sslash G \to \mathbf{B}G
   \,.
 $$
 
@@ -283,15 +295,17 @@ Pulling that further back along the cocycle $g : \hat X \to \mathbf{B}G$ classif
 $$
   \array{
      g^* \rho^*\mathbf{E}_{pt}F 
-    &&\stackrel{\simeq}{\to}&& P\times_G V
+     &&\stackrel{\simeq}{\longrightarrow}&& P\times_G V
      \\
      & \searrow && \swarrow
      \\  
-     &&X
+     &&
+     X
   }
   \,.
 $$
 
+For more on this see at *[[infinity-action|$\infty$-action]]*
 
 
 [[!redirects generalized universal bundles]]
