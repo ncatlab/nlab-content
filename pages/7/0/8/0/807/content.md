@@ -213,7 +213,7 @@ $$
 ### Of posets, groupoids and categories
 
 The process of sending a [[category]] $C$ to its 
-[[geometric realization of categories]] ${\vert C \vert} \in $ [[Top]] $\simeq$ [[Grpd]] is a way to _present_ [[topological space]]s, and hence [[∞-groupoid]]s, by a category: we can think of $\vert C \vert$ as the [[Kan fibrant replacement]] of $C$: the [[universal property|universal solution]] to [[weak inverse|weakly inverting]] all [[morphism]]s of $C$.
+[[geometric realization of categories]] ${\vert C \vert} \in $ [[Top]] $\simeq$ [[∞Grpd]] is a way to _present_ [[topological space]]s, and hence [[∞-groupoid]]s, by a category: we can think of $\vert C \vert$ as the [[Kan fibrant replacement]] of $C$: the [[universal property|universal solution]] to [[weak inverse|weakly inverting]] all [[morphism]]s of $C$.
 
 Up to the relevant notion of [[equivalence in an (infinity,1)-category]] (which is [[weak homotopy equivalence]]), _every_ [[∞-groupoid]] arises as the [[nerve]]/[[geometric realization of categories|geometric realization]] of a category. In fact one can assume the category to be a [[poset]]. (This follows from the existence of the [[Thomason model structure]], as discussed in more detail there.)
 
@@ -378,7 +378,7 @@ This is due to ... (?)
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Can the Euler characteristic of a category be recovered as the trace for a dualizable object in some symmetric monoidal category?
-=---
+=--
 
 ### Relation between Euler characteristic and $\infty$-groupoid cardinality
 
