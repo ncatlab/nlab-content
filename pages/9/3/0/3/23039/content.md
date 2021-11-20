@@ -228,6 +228,11 @@ $$
 
 * {#Rezk14} [[Charles Rezk]], Rem. 2.2.1 in: *[[Global Homotopy Theory and Cohesion]]*, 2014 ([pdf](http://www.math.uiuc.edu/~rezk/global-cohesion.pdf), [[Rezk14.pdf:file]])
 
+See also:
+
+* [[Charles Rezk]], *Classifying spaces for 1-truncated compact Lie groups*, Algebr. Geom. Topol. 18 (2018) 525-546 ([arXiv:1608.02999](https://arxiv.org/abs/1608.02999), [doi:10.2140/agt.2018.18.525](https://doi.org/10.2140/agt.2018.18.525))
+
+
 
 [[!redirects nearby homomorphisms are conjugate]]
 
