@@ -68,13 +68,24 @@ Usually the [[(∞,1)-category]] in question is [[presentable (infinity,1)-categ
 Notably it may be expressed using [[path objects]] which may come from [[interval objects]]. Even if the context is not (or not manifestly) that of a [[homotopical category]], an [[interval object]] may still exist and may be used as indicated in the following to construct loop space objects.
 
 ### Free loop space objects
+ {#FreeLoopSpaceObject}
 
-In a category with [[interval object]] $ * \xrightarrow{0} T \xleftarrow{1} * $ the 
-**free loop space object** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
+In a category with [[interval object]] $ * \xrightarrow{0} T \xleftarrow{1} * $ the  **[[free loop space object]]** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
+
 \begin{tikzcd}
-  \Lambda B \ar[r]\ar[d]           & {}[I,B]  \ar[d, "d_0 \times d_1"] \\
-  B         \ar[r, "\mathrm{Id} \times \mathrm{Id}"] & B \times B
+  \Lambda B 
+  \ar[r]
+  \ar[d]           
+  & 
+  {}[I,B]  
+  \ar[d, "d_0 \times d_1"] 
+  \\
+  B         
+    \ar[r, "\mathrm{Id} \times \mathrm{Id}"] 
+  & 
+  B \times B
 \end{tikzcd}
+
 where $ d_0 $ ($d_1$ resp.) is the composition of $ [0,B] $ ($[1,B]$ resp.) with the canonical identification of $[*, B]$ and $B$.
 
 This is the same as the image of the [[co-span co-trace]] $cotr(I)$  of the interval object (which is the interval object closed to a loop!,  see the examples at [[co-span co-trace]]) in $B$:
