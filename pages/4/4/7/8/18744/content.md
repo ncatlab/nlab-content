@@ -24,7 +24,7 @@ The generalization of the [[convolution product]] on [[smooth function]] to [[di
 ###### Definition
 **(convolution of a [[distribution]] with a [[smooth function]])**
 
-Let $u \in \mathcal{D}'(\mathbb{R}^n)$ be a [[distribution]], and $f \in C^\infty(\mathbb{R}^n)$ a [[smooth function]]. Then the convolution of the two is the smooth function
+Let $u \in \mathcal{D}'(\mathbb{R}^n)$ be a [[distribution]], and $f \in C^\infty_0(\mathbb{R}^n)$ a [[compactly supported smooth function]]. Then the convolution of the two is the smooth function
 
 $$
   u \star f \in C^\infty(\mathbb{R}^n)
