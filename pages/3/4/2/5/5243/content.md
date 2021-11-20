@@ -18,6 +18,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -76,6 +77,8 @@ $$
   \big)  
   \,.
 $$
+
+(review in [Forstnerič & Lárusson 2011, Cor. 3.5](#ForstnericLarusson11), [Forstnerič 2013, (1.1)](#Forstneric13))
 
 More generally, an analogous statement applies to suitable [[fiber bundles]] of [[Oka manifolds]] over [[Stein manifolds]] and their [[spaces of sections]] ([Forstnerič 2009b](#Forstneric09b)).
 
@@ -202,7 +205,7 @@ Original articles:
  
 * {#Gromov89} [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
 
-*[[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874 ([arxiv/0705.0591](http://arxiv.org/abs/0705.0591), [doi:10.4310/PAMQ.2010.v6.n3.a11](https://dx.doi.org/10.4310/PAMQ.2010.v6.n3.a11))
+* [[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874 ([arxiv/0705.0591](http://arxiv.org/abs/0705.0591), [doi:10.4310/PAMQ.2010.v6.n3.a11](https://dx.doi.org/10.4310/PAMQ.2010.v6.n3.a11))
 
 Proof of the [[homotopy theory|homotopy-theoretic]] Oka principle:
 
