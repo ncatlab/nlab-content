@@ -18,10 +18,11 @@
 =--
 #### Analytic geometry
 +--{: .hide}
-[[!include analytic geometry - contents]]
+[[!include analytic geometry -- contents]]
 =--
 =--
 =--
+
 
 
 
@@ -262,7 +263,7 @@ The [[delooping]] $\mathbf{B}\mathbb{G}_m$ is the universal [[moduli stack]] for
 
 * [[Jacob Lurie]], sections 11 and 12 of _[[Closed Immersions]]_
 
-* {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
+* {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_, Journal of Topology, **8** 1 (2015) ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173), [doi:10.1112/jtopol/jtu021](https://doi.org/10.1112/jtopol/jtu021))
  
 [[!redirects complex analytic ∞-groupoids]]
 
