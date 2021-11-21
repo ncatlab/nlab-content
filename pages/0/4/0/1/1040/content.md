@@ -188,7 +188,7 @@ In [[modal type theory]] one thinks of a (idempotent) (co-)monad as a (co-)[[mod
 ### The associated idempotent monad of a monad
  {#AssociatedIdemopotentMonad}
 
-We discuss here how under suitable conditions, for every [[monad]] $T$ there is a "completion" to an idempotent monad $\tilde T$ in that the completion construction is [[right adjoint]] to the inclusion of idempotent monads into the category of all monads on a given category, exhibiting the subcategory of idempotent monads as a [[coreflective subcategory]]. Here $\tilde T$ inverts the same morphisms that $T$ does and hence exhibits the [[localization]]([[reflective subcategory]]) at the $T$-equivalences, and in fact the factorization of any [[adjunction]] inducing $T$ through that localization ([Fakir 70](#Fakir70), [Applegate-Tierney 70](#ApplegateTierney70), [Day 74](#Day74) [Casacuberta-Frei 99](#CasacubertaFrei99). [Lucyshyn-Wright 14](#Lucyshyn-Wright14)).
+We discuss here how under suitable conditions, for every [[monad]] $T$ there is a "completion" to an idempotent monad $\tilde T$ in that the completion construction is [[right adjoint]] to the inclusion of idempotent monads into the category of all monads on a given category, exhibiting the subcategory of idempotent monads as a [[coreflective subcategory]]. Here $\tilde T$ inverts the same morphisms that $T$ does and hence exhibits the [[localization]] ([[reflective subcategory]]) at the $T$-equivalences, and in fact the factorization of any [[adjunction]] inducing $T$ through that localization ([Fakir 70](#Fakir70), [Applegate-Tierney 70](#ApplegateTierney70), [Day 74](#Day74) [Casacuberta-Frei 99](#CasacubertaFrei99). [Lucyshyn-Wright 14](#Lucyshyn-Wright14)).
 
 
 +-- {: .num_theorem #ExistenceOfIdempotentCore}
