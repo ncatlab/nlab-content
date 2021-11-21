@@ -20,14 +20,15 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 Given a [[topological group]] $G$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[topological G-spaces]], hence of [[topological spaces]] [[group object|equipped with]] [[continuous function|continuous]] [[group actions]].
 
 Analogously, given a [[simplicial group]] $G_\bullet$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[simplicial group actions]], hence of [[simplicial sets]] equipped with $G$-[[action]] 
 
-Both of these presents the [[(∞,1)-category]] of [[∞-actions]] of the [[∞-group]] (see there) presented by $G$.
+Both of these present the [[(∞,1)-category]] of [[∞-actions]] of the [[∞-group]] (see there) presented by $G$.
 
-In the context of [[equivariant homotopy theory]] this is also called the "coarse model structure" (e.g. [Guillou 2006, section 5](#Guillou06)), since it is in general not equivalent to the "fine" homotopy theory on [[topological G-spaces]] that enters [[Elmendorf's theorem]].
+In the context of [[equivariant homotopy theory]] this is also called the "coarse model structure" (e.g. [Guillou 2006, section 5](#Guillou06)), since in general it has more weak equivalences than the [[fine model structure on topological G-spaces]] that enters [[Elmendorf's theorem]].
 
 
 ## Definition
