@@ -582,6 +582,16 @@ and section 3.6.2 of
 [[!redirects hom (∞,0)-category]]
 [[!redirects hom (infinity,0)-category]]
 
+[[!redirects hom-∞-groupoids]]
+[[!redirects hom-infinity-groupoids]]
+[[!redirects hom-(∞,0)-categories]]
+[[!redirects hom-(infinity,0)-categories]]
+[[!redirects hom ∞-groupoids]]
+[[!redirects hom infinity-groupoids]]
+[[!redirects hom (∞,0)-categories]]
+[[!redirects hom (infinity,0)-categories]]
+
+
 [[!redirects homotopy function complex]]
 [[!redirects homotopy function complexes]]
 
