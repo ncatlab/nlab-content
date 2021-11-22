@@ -26,12 +26,12 @@ There are also a notions of (homotopy) monomorphism in [[model categories]] and 
 
 ## Definition
 
-For $C$ an [[(∞,1)-category]], a [[morphism]] $f : Y \to Z$ is a **monomorphism** if regarded as an object in the [[over quasi-category|(∞,1)-overcategory]] $C_{/Z}$ it is a [[n-truncated object in an (∞,1)-category|(-1)-truncated object]].
+For $\mathcal{C}$ an [[(∞,1)-category]], a [[morphism]] $f \colon Y \to Z$ is a **monomorphism** if regarded as an object in the [[over quasi-category|(∞,1)-overcategory]] $\mathcal{C}_{/Z}$ it is a [[n-truncated object in an (∞,1)-category|(-1)-truncated object]].
 
 Equivalently this means that the projection
 
 $$
-  C_{/f} \to C_{/Z}
+  \mathcal{C}_{/f} \longrightarrow \mathcal{C}_{/Z}
 $$
 
 is a [[full and faithful (∞,1)-functor]]. This is in [Higher Topos Theory](#ref) after Example 5.5.6.13.
@@ -39,32 +39,38 @@ is a [[full and faithful (∞,1)-functor]]. This is in [Higher Topos Theory](#re
 Equivalently this means that for every object $X \in C$ the induced morphism
 
 $$
-  C(X,f) : C(X,Y) \to C(X,Z)
+  \mathcal{C}(X,f) \colon \mathcal{C}(X,Y) \to \mathcal{C}(X,Z)
 $$
 
-of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $C(X,Y)$ as a direct summand in a  [[coproduct]] decomposition of $C(X,Z)$.
+of [[∞-groupoids]] is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $\mathcal{C}(X,Y)$ as a direct summand in a  [[coproduct]] decomposition of $\mathcal{C}(X,Z)$.
 
-So if $C(X,Y) = \coprod_i C(X,Y)_{i \in \pi_0(C(X,Y))}$ and $C(X,Z) = \coprod_{j \in \pi_0((C(X,Z))} C(X,Z)_j$ is the decomposition into connected components, then there is an injective function
+So if $\mathcal{C}(X,Y) = \underset{i \in \pi_0\mathcal{C}(X,Y)}{\coprod} \mathcal{C}(X,Y)_{i }$ and $\mathcal{C}(X,Z) = \underset{j \in \pi_0(\mathcal{C}(X,Z)}{\coprod} \mathcal{C}(X,Z)_j$ is the decomposition into connected components, then there is an [[injective function]]
 
 $$
-  j : \pi_0(C(X,Y)) \to \pi_0(C(X,Z))
+  j 
+    \,\colon\, 
+  \pi_0 \mathcal{C}(X,Y) 
+  \longrightarrow 
+  \pi_0 \mathcal{C}(X,Z)
 $$
 
-such that $C(X,f)$ is given by component maps $C(X,Y)_i \to C(X,Z)_{j(i)}$ which are each an equivalence.
+such that $\mathcal{C}(X,f)$ is given by component maps $\mathcal{C}(X,Y)_i \to \mathcal{C}(X,Z)_{j(i)}$ which are each an equivalence.
 
 ## Properties
 
 +-- {: .un_defn}
 ###### Definition
 
-For $Z$ an [[object]] of $C$, write $Sub(Z)$ 
+For $Z$ an [[object]] of $\mathcal{C}$, write $Sub(Z)$ 
 
 $$
-  Sub(Z) \simeq \tau_{\leq -1} C_{/Z}
+  Sub(Z) 
+    \;\coloneqq\;
+  \tau_{\leq -1}\big(  C_{/Z} \big)
   \,.
 $$
 
-for the category of [[subobjects in an (∞,1)-category|subobjects]] of $C$.
+for the category of [[subobjects in an (∞,1)-category|subobjects]] of $\mathcal{C}$.
 
 =--
 
@@ -74,7 +80,7 @@ This is [[poset|partially ordered]] under inclusion.
 ###### Proposition
 
 
-If $C$ is a [[presentable (∞,1)-category]], then $Sub(Z)$ is a [[small category]].
+If $\mathcal{C}$ is a [[presentable (∞,1)-category]], then $Sub(Z)$ is a [[small category]].
 
 =--
 
@@ -111,7 +117,9 @@ $$
   \array{
     A &\to& B
     \\
-    {}^{\mathllap{f}}\big\downarrow && \big\downarrow^{\mathrlap{f'}}
+    {}^{\mathllap{f}}\big\downarrow 
+    && 
+    \big\downarrow{}^{\mathrlap{f'}}
     \\
     C &\to& D
   }
