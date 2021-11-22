@@ -101,6 +101,9 @@ By
 ## References
  {#References}
 
+(For more see also the references at _[[infinity-action]]_.)
+
+
 A standard textbook reference on $\infty$-groups in the [[classical model structure on simplicial sets]] is 
 
 * {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], chapter V of _[[Simplicial homotopy theory]]_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
@@ -120,24 +123,29 @@ Model category presentations of group(oid) objects in $\infty Grpd$ by groupoida
   _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, Vol. 10 (2008), No. 2, pp.175-193. ([web](http://www.intlpress.com/hha/v10/n2/a9/), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254))
 
 
-
 Discussion from the point of view of [[category objects in an (∞,1)-category]] is in 
 
 * {#Lurie2} [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  
 
-The [[homotopy theory]] of $\infty$-groups that are [[n-connected]] and [[n-truncated|r-truncated]] for $r \leq n$ is discussed in 
+The [[homotopy theory]] of $\infty$-groups that are [[n-connected]] and [[n-truncated|r-truncated]] for $n \leq r$ is discussed in 
 
-* [[A.R. Garzón]], J.G. Miranda, _Serre homotopy theory in subcategories of simplicial groups_, Journal of Pure and Applied Algebra Volume 147, Issue 2, 24 March 2000, Pages 107-123 
+* [[A.R. Garzón]], J.G. Miranda, _Serre homotopy theory in subcategories of simplicial groups_, Journal of Pure and Applied Algebra Volume 147, Issue 2, 24 March 2000, Pages 107-123 (<a href="https://doi.org/10.1016
+/S0022-4049(98)00143-1">doi:10.1016/S0022-4049(98)00143-1</a>)
 
-Discussion in [[homotopy type theory]]:
+Discussion of aspects of ordinary [[group theory]] in relation to $\infty$-group theory:
+
+* [[Roman Mikhailov]], *Homotopy patterns in group theory*,  Proceedings of the [ICM 2022](https://icm2022.org) ([arXiv:2111.00737](https://arxiv.org/abs/2111.00737))
+
+
+
+Discussion of $\infty$-groups in [[homotopy type theory]]:
 
 * {#BuchholtzDoornRijke18} [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher Groups in Homotopy Type Theory_, LICS '18: Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science  ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315), [doi:10.1145/3209108.3209150](https://doi.org/10.1145/3209108.3209150))
 
 * [[Ulrik Buchholtz]], *Notes on higher groups and projective spaces*, 2016 ([pdf](https://www2.mathematik.tu-darmstadt.de/~buchholtz/higher-groups.pdf))
 
 
-For more see the references at _[[infinity-action]]_.
 
 [[!redirects ∞-group]]
 [[!redirects ∞-groups]]
