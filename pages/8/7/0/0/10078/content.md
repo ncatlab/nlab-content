@@ -84,13 +84,18 @@ Then it was related to actual worldline quantum field theory in
 
 * {#Strassler93} [[Matthew Strassler]], _The Bern-Kosower Rules and Their Relation to Quantum Field Theory_, PhD thesis, Stanford 1993 ([spires](http://inspirehep.net/record/364079?ln=de))
  
-Reviews include
+Review:
 
 * {#SchmidtSchubert94} M. G. Schmidt, [[Christian Schubert]], _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
 
 * {#Schubert96} [[Christian Schubert]], _An Introduction to the Worldline Technique for Quantum Field Theory Calculations_, Acta Phys. Polon.B27:3965-4001, 1996 ([arXiv:hep-th/9610108](https://arxiv.org/abs/hep-th/9610108))
 
 * [[Christian Schubert]], _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
+
+* Olindo Corradini, [[Christian Schubert]], James P. Edwards, Naser Ahmadiniaz, *Spinning Particles in Quantum Mechanics and Quantum Field Theory* ([arXiv:1512.08694](https://arxiv.org/abs/1512.08694))
+
+  > (with emphasis on [[spinning particles]])
+
 
 * James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration*, SIGMA 17 (2021), 065, 19 pages ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
 
