@@ -23,7 +23,7 @@ After this work in [[algebraic geometry]], [[cohomology]] and [[homotopy theory]
 
 * An interview is [here](http://www.youtube.com/watch?v=vcDaQTPH-Rc).
 
-* The transcript of another interview (in Russian) is available at: [(part 1)](http://baaltii1.livejournal.com/198675.html) and [(part 2)](http://baaltii1.livejournal.com/200269.html)
+* {#InterviewWithVoevodskyByMikhailov} [[Roman Mikhailov]], *Интервью Владимира Воеводского*, Princeton 2012 ([Part 1](https://baaltii1.livejournal.com/198675.html), [Part 2](https://baaltii1.livejournal.com/200269.html))
 
 * _Le bifurcation de Vladimir Voevodsky_, interview conducted by Fondation Sciences Math&#233;matiques de Paris, 2014, [video](https://vimeo.com/99586217), [transcript in French](http://smf4.emath.fr/Publications/Gazette/2014/142/smf_gazette_142_87-94.pdf).
 
