@@ -21,7 +21,7 @@ The _homotopy coherent nerve_ (also called _simplicial nerve_) of a [[simplicial
 The homotopy coherent nerve operation
 
 $$
-  N : SSet\text{-}Cat \to SSet
+  N : sSet\text{-}Cat \to sSet
   \,.
 $$
 
@@ -29,12 +29,12 @@ is induced, by the general machinery of [[nerve and realization]], by a
 [[simplicial object|cosimplicial]] [[simplicially enriched category]], namely a [[functor]]
 
 $$
-  \Delta \to SSet\text{-}Cat
+  \Delta \to sSet\text{-}Cat
 $$
 
 from the [[simplex category]] to the category of 
 [[simplicially enriched categories]] which regards each
-$n$-[[simplex]] as a [[SSet]]-[[enriched category]]
+$n$-[[simplex]] as a [[sSet]]-[[enriched category]]
 with $n$ objects analogous to how the [[oriental]]s
 regard the $n$-simplex as an [[strict omega-category|n-category]].
 
@@ -48,7 +48,7 @@ regard the $n$-simplex as an [[strict omega-category|n-category]].
 We here describe the cosimplicial [[sSet]]-[[enriched category]] 
 
 $$
-  S : \Delta \to sSet Cat
+  S : \Delta \to sSet\text{-}Cat
 $$
 
 that induces the homotopy coherent nerve.
