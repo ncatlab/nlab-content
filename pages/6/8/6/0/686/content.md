@@ -27,7 +27,7 @@ Since strict 2-categories are equivalently categories [[enriched category|enrich
 
 Because [[enriched category theory]] doesn't know anything about the [[2-category theory|2-category theoretic]] nature of [[Cat]], the resulting *strict 2-limits* can have [[cones]] that [[commuting diagram|commute]] strictly and have [[universal properties]] expressed by [[isomorphisms]] of categories (instead of [[equivalences of categories]]); thus they can violate the [[2-category theory|2-category theoretic]] [[principle of equivalence]].  
 
-However, strict 2-limits often turn out to be technically useful even if one is ultimately interested only in weak 2-limits, since in many situations strict 2-limits may serve as stepping stones for the constrction of weak [[2-limits]].  This is reminiscent of the use of strict structures in [[homotopy theory]] as a tool to get at weak ones, and in fact a precise comparison can be made (see below).
+However, strict 2-limits often turn out to be technically useful even if one is ultimately interested only in weak 2-limits, since in many situations strict 2-limits may serve as stepping stones for the construction of weak [[2-limits]].  This is reminiscent of the use of strict structures in [[homotopy theory]] as a tool to get at weak ones, and in fact a precise comparison can be made (see below).
 
 
 ## Classification 
@@ -35,7 +35,7 @@ However, strict 2-limits often turn out to be technically useful even if one is 
 By a **limit** we will mean the fully 2-categorical notion described at [[2-limit]], in which cones [[commuting diagram|commute]] up to invertible [[2-morphisms]] and the [[universal property]] is expressed by an [[equivalence of categories]].
 
 +-- {: .query}
-It just occured to me that 'strict initial object' conflicts with this.  But unlike 'weak limit', that doesn't generalise very far.
+It just occurred to me that 'strict initial object' conflicts with this.  But unlike 'weak limit', that doesn't generalise very far.
 
 Heh, you're right.  I suppose we could try calling strict initial objects _stable initial objects_, which would make more sense anyway since they are really the 0-ary version of a stable coproduct.  But there's probably not likely to be any real confusion created by the two uses of strict.
 =--
@@ -46,7 +46,7 @@ Heh, you're right.  I suppose we could try calling strict initial objects _stabl
 
 * A **strict lax limit** is a limit whose cones commute only up to a coherent transformation in one direction, but again whose universal property is expressed by an isomorphism.  Likewise we have **strict oplax limits** where the transformation goes in the other direction.  Strict lax and oplax limits can also be rephrased as strict (non-lax) limits for a different weight.  As in the pseudo case, any strict (op)lax limit is also an (op)lax limit.
 
-More generally, any strict limit respects the [[principle of equivalence]] (one which doesn't demand equality of objects) will also be a limit.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also a limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits (strict) PIE-limits also admits all limits, even if it fails to admit some equivalence-violatiing strict limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
+More generally, any strict limit that respects the [[principle of equivalence]] (one which doesn't demand equality of objects) will also be a limit.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also a limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits (strict) PIE-limits also admits all limits, even if it fails to admit some equivalence-violating strict limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
 
 
 ## Pseudo limits and homotopy limits 
