@@ -55,31 +55,23 @@ It follows in particular that for all $n \in \mathbb{N}$ the canonical morphism 
 
 Given such $U$ we have an evident [[commuting diagram]] of pairs of [[topological spaces]]
 
-$$
-  \array{
-    (X,A) &\stackrel{(id,j)}{\to}& (X,U) &\leftarrow& (X-A, U - A)
-    \\
-    \downarrow && \downarrow && \downarrow^{\mathrlap{\simeq}}
-    \\
-    (X/A, A/A) &\stackrel{(id,j/A)}{\to}& (X/A, U/A) &\leftarrow& (X/A - A/A, U/A - A/A)
-  }
-  \,.
-$$
+\begin{center}
+    \begin{tikzcd}
+        {(X,A)} \arrow[r, "{(\mathrm{id}, j)}"] \arrow[d] & {(X,U)} \arrow[d] & {(X - A, U - A)} \arrow[l] \arrow[d, "\simeq"] \\
+        {(X/A, A/A)} \arrow[r, "{(\mathrm{id}, j/A)}"]    & {(X/A, U/A)}      &{(X/A-A/A, U/A- A/A)} \arrow[l]     
+        \end{tikzcd}
+\end{center}
 
 Here the right vertical morphism is in fact a [[homeomorphism]].
 
 Applying relative singular homology to this diagram yields for each $n \in \mathbb{N}$ the [[commuting diagram]] of abelian groups
 
-$$
-  \array{
-    H_n(X,A) &\underoverset{\simeq}{H_n(id,j)}{\to}& H_n(X,U) &\stackrel{\simeq}{\leftarrow}& H_n(X-A, U - A)
-    \\
-    \downarrow && \downarrow && \downarrow^{\mathrlap{\simeq}}
-    \\
-    H_n(X/A, A/A) &\underoverset{\simeq}{H_n(id,j/A)}{\to}& H_n(X/A, U/A) &\stackrel{\simeq}{\leftarrow}& H_n(X/A - A/A, U/A - A/A)
-  }
-  \,.
-$$
+\begin{center}
+    \begin{tikzcd}
+        {H_n(X,A)} \arrow[r, "{H_n(\mathrm{id}, j)}", "\simeq"'] \arrow[d] & {H_n(X,U)} \arrow[d] & {H_n(X - A, U - A)} \arrow[l, "\simeq"'] \arrow[d, "\simeq"] \\
+        {H_n(X/A, A/A)} \arrow[r, "{H_n(\mathrm{id}, j/A)}", "\simeq"']    & {H_n(X/A, U/A)}      &{H_n(X/A-A/A, U/A- A/A)} \arrow[l, "\simeq"']     
+        \end{tikzcd}
+\end{center}
 
 Here the left horizontal morphisms are the above isomorphims induced from the deformation retract. The right horizontal morphisms are isomorphisms by [excision](relative%20homology#Excision) and the right vertical morphism is an isomorphism since it is induced by a homeomorphism. Hence the left vertical morphism is an isomorphism ([[2-out-of-3]] for isomorphisms).
 
@@ -90,7 +82,7 @@ Here the left horizontal morphisms are the above isomorphims induced from the de
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002
   
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 5.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc 
-pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+pdf](http://pi.math.cornell.edu/~hatcher/AT/AT.pdf))
 
 [[!redirects CW-pairs]]
 
