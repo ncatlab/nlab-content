@@ -1140,7 +1140,7 @@ and if $X_k$ is obtained from $X_{k-1}$ by attaching cells precisely only of [[d
 
 Strictly speaking a relative cell complex, def. \ref{TopologicalCellComplex}, is a function $f\colon X \to Y$, _together_ with its cell structure, hence together with the information of the pushout diagrams and the transfinite composition of the pushout maps that exhibit it.
 
-In many applications, however,  all that matters is that there is _some_ (relative) cell decomosition, and then one tends to speak loosely and mean by a (relative) cell complex only a (relative) topological space that admits some cell decomposition.
+In many applications, however,  all that matters is that there is _some_ (relative) cell decomposition, and then one tends to speak loosely and mean by a (relative) cell complex only a (relative) topological space that admits some cell decomposition.
 
 =--
 
@@ -1223,7 +1223,7 @@ It is immediate and useful to generalize the concept of topological cell complex
 +-- {: .num_defn #TopologicalCCellComplex}
 ###### Definition
 
-For $\mathcal{C}$ any category and for $K \subset Mor(\mathcal{C})$ any sub-[[class]] of its morphisms, a **relative $K$-cell complex** is a morphism in $\mathcal{C}$ which is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] of [[coproducts]] of morphsims in $K$.
+For $\mathcal{C}$ any category and for $K \subset Mor(\mathcal{C})$ any sub-[[class]] of its morphisms, a **relative $K$-cell complex** is a morphism in $\mathcal{C}$ which is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] of [[coproducts]] of morphisms in $K$.
 
 =--
 
