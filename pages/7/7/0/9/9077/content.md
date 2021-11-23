@@ -30,7 +30,7 @@ A **[[torus]]** in $G$ is an [[abelian group|abelian]] [[subgroup]] $T \hookrigh
 
 A **maximal torus** is a subgroup which is maximal with these properties.
 
-The [[Lie algebra]] of a maximal torus of $G$ is called a [[Cartan subalgebra]] of the Lie algebra of $G$.
+The [[Lie algebra]] of a maximal torus of $G$ is a [[Cartan subalgebra]] of the Lie algebra of $G$.
 
 ## Properties
  {#Properties}
