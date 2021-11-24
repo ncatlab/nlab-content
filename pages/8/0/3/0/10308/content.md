@@ -172,13 +172,13 @@ The [[geometric quantization]] of 3d CS theory in codimension 1 is due to
 
 * {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
 
-* {#Hitchin90} [[Nigel Hitchin]], _Flat connections and geometric quantization_, : Comm. Math. Phys. Volume 131, Number 2 (1990), 347-380. ([Euclid](http://projecteuclid.org/euclid.cmp/1104200841))
+* {#Hitchin90} [[Nigel Hitchin]], _Flat connections and geometric quantization_, Comm. Math. Phys. Volume 131, Number 2 (1990), 347-380. ([Euclid](http://projecteuclid.org/euclid.cmp/1104200841))
 
 (see also at _[[Hitchin connection]]_).
 
 The [[3d TQFT]] candidate for quantum CS theory in the form of the [[Reshetikhin-Turaev construction]] and the corresponding [[modular tensor category]] data is discussed in
 
-* {#ReshetikhinTuraev91} Reshetikhin; Turaev, _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
+* {#ReshetikhinTuraev91} [[Nicolai Reshetikhin]], [[Vladimir Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
 
 * {#BakalovKirillov} B. Bakalov & [[Alexandre Kirillov]], _Lectures on tensor categories and modular functors_ AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)). 
 
@@ -188,7 +188,7 @@ The [[3d TQFT]] candidate for quantum CS theory in the form of the [[Reshetikhin
 
 The relation between the [[modular functor]] obtained from the [[conformal blocks]] of the [[WZW model]] and from geometric quantization of CS theory is discussed in
 
-* {#Laszlo98} [[Yves Laszlo]] _Hitchin's and WZW connection are the same_, J. Differential Geom. 49 (1998), no. 3, 547&#8211;576 ([pdf](http://www.emis.de/journals/NYJM/JDG/archive/vol.49/3_5.pdf))
+* {#Laszlo98} [[Yves Laszlo]], _Hitchin's and WZW connection are the same_, J. Differential Geom. 49 (1998), no. 3, 547&#8211;576 ([pdf](http://www.emis.de/journals/NYJM/JDG/archive/vol.49/3_5.pdf))
 
 
 * {#TsuchiyaUenoYamada} Tsuchiya; K Ueno; Yamada, _Conformal field theory on universal family of stable curves with gauge symmetries_, Integrable systems in quantum field theory and statistical mechanics, 459&#8211;566. 
