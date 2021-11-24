@@ -223,7 +223,11 @@ The 2-categorical version of $T Mod$ is useful in generalization of the [[spectr
 
 ## References
 
-Standard references are 
+Review:
+
+* [[Steven Vickers]], *Continuity and geometric logic*, Journal of Applied Logic Volume 12, Issue 1, March 2014, Pages 14-27 ([doi:10.1016/j.jal.2013.07.004](https://doi.org/10.1016/j.jal.2013.07.004))
+
+Textbook accounts:
 
 * [[Peter Johnstone]], sections B4.2, D1.1 of _[[Sketches of an Elephant]]_
 
