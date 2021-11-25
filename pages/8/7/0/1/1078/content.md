@@ -116,27 +116,21 @@ In [[Ab]], where finite products are also finite [[coproducts]], the direct sum 
 
 So in [[Ab]] the direct sum is the object equipped with a collection of morphisms
 
-$$
-  \array{
-    A_j &&\cdots && A_k
-    \\
-    & {}_{\mathllap{\iota_j} }\searrow &\cdots& \swarrow_{\mathrlap{\iota_{k}}}
-    \\
-    && \bigoplus_{i \in I} A_i
-  }
-$$
+\begin{center}
+\begin{tikzcd}
+A_j \arrow[rd, "\iota_j"'] & \dots                   & A_k \arrow[ld, "\iota_k"] \\
+                           & \bigoplus_{i \in I} A_i &                          
+\end{tikzcd}
+\end{center}
 
 which is characterized up to unique [[isomorphism]] by the following [[universal property]]: for every other abelian group $K$ equipped with maps 
 
-$$
-  \array{
-    A_j &&\cdots && A_k
-    \\
-    & {}_{\mathllap{f_j} }\searrow &\cdots& \swarrow_{\mathrlap{f_{k}}}
-    \\
-    && K
-  }
-$$
+\begin{center}
+\begin{tikzcd}
+A_j \arrow[rd, "f_j"'] & \dots & A_k \arrow[ld, "f_k"] \\
+                       & K     &                      
+\end{tikzcd}
+\end{center}
 
 there is a unique homomorphism $\phi : \bigoplus_{i \in I} A_i \to K$ such that 
 $ f_i = \phi \circ \iota_i$ for all $i \in I$.
