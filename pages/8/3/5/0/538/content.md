@@ -26,41 +26,30 @@ The notion of _coproduct_ is a generalization to arbitrary [[categories]] of the
 
 For $C$ a [[category]] and $x, y \in Obj(C)$ two [[object]]s, their **coproduct** is an object $x \coprod y$ in $C$ equipped with two [[morphism]]s
 
-$$
-  \array{
-    x &&&& y
-    \\
-    & {}_{\mathllap{i_x}}\searrow && \swarrow_{\mathrlap{i_y}}
-    \\
-    && x \coprod y
-  }
-$$
+\begin{center}
+\begin{tikzcd}
+x \arrow[rd, "i_y"'] &            & y \arrow[ld, "i_y"] \\
+                     & x \amalg y &                    
+\end{tikzcd}
+\end{center}
 
 such that this is [[universal property|universal]] with this property, meaning such that for any other object with maps like this
 
-$$
-  \array{
-    x &&&& y
-    \\
-    & {}_{\mathllap{f}}\searrow && \swarrow_{\mathrlap{g}}
-    \\
-    && Q
-  }
-$$
+\begin{center}
+\begin{tikzcd}
+x \arrow[rd, "f"'] &   & y \arrow[ld, "g"] \\
+                   & Q &                  
+\end{tikzcd}
+\end{center}
 
-there exists a _unique_ morphism $(f,g) :  x \coprod y \to Q$ such that we have a [[commuting diagram]]
+there exists a _unique_ morphism $(f,g) :  x \coprod y \to Q$ such that we have the following [[commuting diagram]]:
 
-$$
-  \array{
-    x &\stackrel{i_x}{\to}& x \coprod y &\stackrel{i_y}{\leftarrow}&
-    y
-    \\
-    & {}_{\mathrlap{f}}\searrow & \downarrow^{\mathrlap{(f,g)}} & \swarrow_{\mathrlap{g}}
-    \\
-    && Q
-  }
-  \,.
-$$
+\begin{center}
+\begin{tikzcd}
+x \arrow[rd, "f"'] \arrow[r, "i_x"] & x \amalg y \arrow[d, "{(f, g)}"] & y \arrow[ld, "g"] \arrow[l, "i_y"'] \\
+                                    & Q                                &                                    
+\end{tikzcd}
+\end{center}
 
 This morphism $(f,g)$ is called the __[[copairing]]__  of $f$ and $g$.  The morphisms $x\to x\coprod y$ and $y\to x\coprod y$ are called [[coprojections]] or sometimes "injections" or "inclusions", although in general they may not be [[monomorphisms]].
 
