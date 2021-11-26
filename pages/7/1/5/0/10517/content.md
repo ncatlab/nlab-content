@@ -60,7 +60,7 @@ Note that neither of these constructions is [[predicative mathematics|predicativ
 
 In an [[constructive mathematics|intuitionistic context]], $B + 1$ still classifies something: namely partial maps $A \rightharpoonup B$ whose domain of definition is a [[decidable subset|decidable subobject]] of $A$.
 
-In [[type theory]] one uses the partiality [monad](monad+%28in+computer+science) to treat general recursion as an algebraic effect. In this we we obtain a classifier for recursively enumerable subsets. Is [this](http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/22/slides/tarmo.pdf) the first appearance?
+In [[type theory]] one uses the partiality [monad](monad+%28in+computer+science%29) to treat general recursion as an algebraic effect. In this we we obtain a classifier for recursively enumerable subsets. Is [this](http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/22/slides/tarmo.pdf) the first appearance?
 It is clear that this idea can be generalized to other classes of propositions.
 =--
 
