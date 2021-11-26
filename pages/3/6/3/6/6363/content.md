@@ -87,7 +87,7 @@ for the functor which sends a [[compact topological space]] $X$ to the algebra o
 
 Write
 $$
-  C_0 \;\colon\; */Top_{cpt} \to C^\ast Alg_{com,nu}
+  C_0 \;\colon\; */Top_{cpt} \to C^\ast Alg_{com,nu}^{op}
 $$
 for the functor that sends a [[pointed topological space|pointed topological]] [[compact Hausdorff space]] $(X,x_0)$ to the algebra of [[continuous function]]s $f : X \to \mathbb{C}$ for which $f(x_0) = 0$.
 
