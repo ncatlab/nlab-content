@@ -30,7 +30,11 @@ $$
   \array{
       M-Theory(?) &\stackrel{low\;energy\;limit}{\to}& 11d Supergravity
       \\
-      {}^{\mathllap{ \array{ small \\ coupling \\ limit}}}\downarrow && \downarrow^{\mathrlap{ \array{KK\;reduction \\ on S^1 }}}
+      {}^{\mathllap{ \array{ small \\ coupling \\ limit}}}
+      \Bigg\downarrow 
+      && 
+      \Bigg\downarrow
+      {}^{\mathrlap{ \array{KK\;reduction \\ on S^1 }}}
       \\
       type IIA string theory 
         &\stackrel{low\;energy\;effective\;QFT}{\to}&  
