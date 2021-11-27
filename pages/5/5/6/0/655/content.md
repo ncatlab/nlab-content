@@ -151,7 +151,7 @@ The full result and an explanation of what is going on here is given in
 * [[H. J. Baues]]: _Combinatorial homotopy and $4$-dimensional complexes._ With a preface by Ronald Brown. de Gruyter Expositions in Mathematics, 2. Walter de Gruyter \& Co., Berlin, 1991. 
 
 
-* [[Julia  G. Cabello]], [[Antonio R. Garzón]]: _Quillen's theory for algebraic models of $n$-types_.  Extracta Math.  9  (1994),  no. 1, 42--47. ((EuDML](https://eudml.org/doc/38395))
+* Julia  G. Cabello, [[Antonio R. Garzón]]: _Quillen's theory for algebraic models of $n$-types_.  Extracta Math.  9  (1994),  no. 1, 42--47. ((EuDML](https://eudml.org/doc/38395))
 
 
 * [[P. Carrasco]] and [[T. Porter]], _Coproduct of 2-crossed modules. Applications to a definition of a tensor product for 2-crossed complexes_, Collectanea Mathematica, (DOI) 10.1007/s13348-015-0156-9.
