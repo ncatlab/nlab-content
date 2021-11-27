@@ -59,14 +59,14 @@ $$
 where $p_i$ is the $i$th [[Pontryagin class]].
 
 $$
-  \lambda := \frac{1}{2}p_1
+  \lambda \coloneqq \frac{1}{2}p_1
   \,.
 $$
 
-Concerning the integrality of
+Concerning the integrality of the [[I8]]-term
 
 $$
-  I_8 := \frac{1}{48}(p_2 + (\lambda)^2)
+  I_8 \coloneqq \frac{1}{48}(p_2 + (\lambda)^2)
 $$
 
 on a [[spin structure|spin manifold]] $X$.
@@ -306,7 +306,6 @@ See also
 
 
 
-
 [[!include higher curvature corrections to D=11 supergravity -- references]]
 
 
@@ -350,7 +349,7 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
 
-* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+* {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
  
 * [[Daniel Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
 
