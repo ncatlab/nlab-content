@@ -12,7 +12,7 @@ In analogy with the [[complex cobordism]] spectrum $MU$, [Voevodsky](#Voevodsky9
 
 $$ MGL_S = colim_{n\to\infty} \Omega^n_{\mathbf{P}^1} Th(V_n), $$
 
-where $S$ is the base scheme, $Th(V_n)$ is the (infinite suspension of) the [[Tho space]] of the tautological vector bundle $V_n$ over the infinite Grassmannian of $n$-planes $Gr(n)$. More precisely, $Gr(n)$ is defined as the colimit of the smooth $S$-schemes $Gr(n,k)$ as $k\to\infty$, and $V_n$ is similarly the colimit of the tautological vector bundles over $Gr(n,k)$.
+where $S$ is the base scheme, $Th(V_n)$ is the (infinite suspension of) the [[Thom space]] of the tautological vector bundle $V_n$ over the infinite Grassmannian of $n$-planes $Gr(n)$. More precisely, $Gr(n)$ is defined as the colimit of the smooth $S$-schemes $Gr(n,k)$ as $k\to\infty$, and $V_n$ is similarly the colimit of the tautological vector bundles over $Gr(n,k)$.
 The notation $\Omega^n_{\mathbf{P}^1}$ denotes the $n$th $\mathbf{P}^1$-loop space.
 
 ## Properties
