@@ -34,6 +34,8 @@ On the other hand, there is a stronger notion that may be used in [[constructive
 $$ \forall (x, y: A),\; x \# y \;\Rightarrow\; x \sim y \;\vee\; y \sim x .$$
 Since $\#$ is connected itself, every strongly connected relation is connected; the converse holds with [[excluded middle]] (through which every set has a unique tight apartness).
 
+We can do a similar thing if $A$ is equipped with any [[inequality]] $\#$, except that in the general case, this is not necessarily stronger than being connected, and so we should call it __$\#$-connected__.
+
 
 [[!redirects connected relation]]
 [[!redirects connected relations]]
