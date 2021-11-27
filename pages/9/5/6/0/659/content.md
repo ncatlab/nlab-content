@@ -116,6 +116,10 @@ This equivalence between crossed squares and $cat^2$-groups confirms the complet
 
 This theme of using two equivalent categories, one for conjecture and proof, the other for calculation and application to traditional invariants, runs through the story of [[higher homotopy van Kampen theorems]].
 
+### Relation fo 2-crossed modules
+
+In his work on homotopy $n$-types, [[Loday]] gave a construction of what he called a 'mapping cone' for a [[crossed square]]. Conduch\'{e} later noticed that this naturally had the structure of a [[2-crossed module]],
+
 
 ## Related concepts
 
@@ -134,5 +138,9 @@ This theme of using two equivalent categories, one for conjecture and proof, the
 *  [[G.J. Ellis]], Crossed squares and combinatorial homotopy, Math. Z., 461 (1993) 93&#8211;110,
 
 *  [[T. Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5 &#8211; 24,
+
+* [[D. Conduché]], Simplicial Crossed Modules and Mapping Cones, Georgian Math. J., 10, (2003), 623–636.
+
+
 
 [[!redirects crossed squares]]
