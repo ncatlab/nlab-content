@@ -42,7 +42,7 @@ Another motivation of the concept comes from the fact that a [[functor]] such as
 +-- {: .num_defn}
 ###### Definition
 
-If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functors]] $(f^*,f_*)$
+If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of a pair of [[adjoint functors]] $(f^*,f_*)$
 
 $$
   f_* : E \to F
