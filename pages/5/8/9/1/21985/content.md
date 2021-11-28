@@ -1,7 +1,9 @@
 
 ### Pontrjagin-Thom construction
+ {#ReferencesPontrjaginThomConstruction}
 
 #### Pontrjagin's construction
+ {#ReferencesPontrjaginConstruction}
 
 ##### General
 
