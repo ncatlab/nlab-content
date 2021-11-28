@@ -310,7 +310,7 @@ The concept of double dimensional reduction was introduced, for the case of the 
 
 * {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire:245249](http://inspirehep.net/record/245249))
 
-The above "brane scan" table showing the double dimensional reduciton pattern of the super-$p$-branes given by the [[Green-Schwarz action functional]] (see there for more references on this) is taken from 
+The above "brane scan" table showing the double dimensional reduction pattern of the super-$p$-branes given by the [[Green-Schwarz action functional]] (see there for more references on this) is taken from 
 
 * {#Duff} [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
  
