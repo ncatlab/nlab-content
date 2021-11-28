@@ -118,8 +118,20 @@ In fact, by the discussion at _[[adjoint (∞,1)-functor]]_  it follow that the 
 
 In [[cubical type theory]] one uses more structured notions of cubical set (symmetric, cartesian, De Morgan, etc.)  In most cases such categories have both a test model structure, which is equivalent to spaces, and a [[cubical-type model structure]] that corresponds to the interpretation of type theory.  In many cases these are *not* equivalent, and the cubical-type model structure does not model classical homotopy types.  See [[cubical-type model structure]] for more discussion.
 
+## Related concepts
+
+* [[cubical set]]
+
+* [[cubical set with connections]]
+
+* [[test category]], [[strict test category]]
+
+* [[Cisinski model structure]]
+
 
 ## References
+
+### Cubical sets without connections
 
 Using that the [[cube category]] is a [[test category]] a model structure on cubical sets follows as a special case of the [[model structure on presheaves over a test category]], due to 
 
@@ -130,13 +142,20 @@ Cisinski also derives explicit generating cofibrations and generating acyclic co
 
 The model structure on cubical sets as above is given in detail in
 
-* [[Rick Jardine]], _Model structure on cubical sets_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
+* [[J. F. Jardine]], _Cubical homotopy theory: a beginning_ (2002) ([pdf](https://web.archive.org/web/20210507014113/http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
 {#Jardine}
 
-There is also the old work
+### Cubical sets with max-connections
 
-* Victor Gugenheim, _On supercomplexes_ Trans. Amer. Math. Soc. 85 (1957), 35&#8211;51 [PDF](http://www.ams.org/journals/tran/1957-085-01/S0002-9947-1957-0086299-1/S0002-9947-1957-0086299-1.pdf)
+The following paper proves that [[cubical sets with connections]] (more specifically, max-connections) form a [[strict test category]] and therefore admit a [[cartesian model structure]] that is Quillen equivalent to the [[Kan–Quillen model structure]] on [[simplicial sets]]:
 
-in which "supercomplexes" are discussed, that combine [[simplicial sets]] and cubical sets (def 5). There are functors from simplicial sets to supercomplexes (after Defn 5) and, implicitly, from supercomplexes to cubical sets (in Appendix II). This was written in 1956, long before people were thinking as formally as nowadays and long before Quillen model theory, but a comparison of the homotopy categories might be in there.
+* [[Georges Maltsiniotis]], _La catégorie cubique avec connexions est une catégorie test stricte_, Homology, Homotopy and Applications 11:2 (2009), 309-326.  [doi](http://dx.doi.org/10.4310/hha.2009.v11.n2.a15).
+
+### Cubical sets with max-connections and min-connections
+
+The case of cubical sets with both max-connections and min-connections largely follows the case of cubical sets with max-connections, the corresponding category of cubes again being a [[strict test category]].
+The relevant results are stated explicitly as Corollary 3 and Theorem 3 of
+
+* Ulrik Buchholtz, Edward Morehouse, _Varieties of Cubical Sets_, [arXiv](https://arxiv.org/abs/1701.08189).
 
 [[!redirects model structures on cubical sets]]
