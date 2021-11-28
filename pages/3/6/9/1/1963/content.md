@@ -181,7 +181,7 @@ turns out to be useful for the [[vertical categorification]] of the concept:
 for $N$ an $R$-module, there is the **nilpotent extension** ring $G(N) := N \oplus R$, equipped with the product operation
 
 $$
-  (r_1, n_1) \cdot (n_2, r_2) := (r_1, r_2, n_1 r_2 + n_2 r_1)
+  (r_1, n_1) \cdot (r_2, n_2) := (r_1 r_2, n_1 r_2 + n_2 r_1)
   \,.
 $$ 
 
