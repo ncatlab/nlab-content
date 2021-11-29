@@ -342,7 +342,7 @@ there appears the "classically controlled quantum computational tetralogy":
 * with classically controlled quantum computation seen as dependent linear type theory, as stated fully explicitly in [Fu, Kishida & Selinger 20](quantum+programming+language#FKS20), [Fu, Kishida, Ross & Selinger 20](quantum+programming+language#FKS20) and more tentatively before in [Vakar 14](dependent+linear+type+theory#Vakar14), [Vakar 15](dependent+linear+type+theory#Vakar15), [Vakar 17](dependent+linear+type+theory#Vakar17), following [[schreiber:Quantization via Linear homotopy types|Schreiber 14]])
 
 
-\linebreak
+{#ComputationalTrilogyTopologizedQuantized}$\,$
 
 
 \begin{imagefromfile}
