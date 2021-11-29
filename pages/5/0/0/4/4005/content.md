@@ -79,7 +79,7 @@ The name _Hawaiian earring_ seems to be due to:
 
 See also:
 
-* Wikipedia, *[Hawaiian earring](https://en.m.wikipedia.org/wiki/Hawaiian_earring)*
+* Wikipedia, *[Hawaiian earring](https://en.wikipedia.org/wiki/Hawaiian_earring)*
 
 The following discusses the combinatorial structure of the fundamental group of the earring space.
 
