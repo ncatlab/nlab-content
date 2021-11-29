@@ -914,14 +914,14 @@ from a group extension as above starts with choosing a set-theoretic section of 
 **Note.** The exposition which follows in this long "traditional" section of this entry is mainly from personal notes of Zoran &#352;koda from 1997. 
 
 Each element $g$ of $G$ defines an inner automorphism $\phi(g)$ of $K$
-by $\phi(g)(k) = gkg^{-1}$. 
+by $\phi(g)(k) = g k g^{-1}$. 
 The restriction $\phi|_K$ takes
 (by definition) values in the subgroup $Int(K)$ of inner automorphisms
 of $K$. In fact $\phi:G\to Inn(G)\subset Aut(K)$ is a homomorphism of groups.
 
 If $g_1$ and $g_2$ are in the same left coset, that is $g_1K = g_2K$,
 then there is $k \in K$, $g_1 = g_2k$, so that $\forall k' \in K$ we have
-$\phi(g_1k') = \phi(g_2kk') = \phi(g_2)\phi(kk')$ and therefore
+$\phi(g_1k') = \phi(g_2k k') = \phi(g_2)\phi(k k')$ and therefore
 $\phi(g_1K) \subset \phi(g_2)Int(K)$. Thus we obtain a well-defined map
 $\phi_* : G/K \rightarrow Aut(K)/Int(K)$.
 Choose a set-theoretic section of the projection $p : G \rightarrow B$
