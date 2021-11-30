@@ -110,7 +110,7 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
     X_s \to M_s(X) \prod_{M_s(Y)} Y_s
   $$
 
-  is a fibration in $[S, \mathcal{C}]_{proj/inj}$;
+  is a fibration in $[B Aut(s), \mathcal{C}]_{proj/inj}$;
 
 * a **Reedy weak equivalence** if for each $s \in S$ the morphism
 
