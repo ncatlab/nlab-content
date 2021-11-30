@@ -28,7 +28,7 @@ If $I$ is an interval in a topos $\mathcal{E}$, then it corresponds to a [[geome
 > The classifying topos point of view is helpful, because it is the choice of an algebraic structure, of the kind classified, in a [[topological topos]] that gives rise to an exact singular/realization pair.  (Lawvere 2013, [link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
 ##Remark##
-The generic interval and the results of Wraith (1993) play a role in Lawvere's attempt to view classical combinatorial topology as part of greater landscape situated in the [[presheaf topos]] on the category of nonempty finite sets, which is the classifying topos for nontrivial [[Boolean algebras]] and contains $sSet$ and the category of [[groupoids]] $Grpd$ as reflective subcategories  (cf. Lawvere 1989, pp.273-275).
+The generic interval and the results of Wraith (1993) play a role in Lawvere's attempt to view classical combinatorial topology as part of greater landscape situated in the [[presheaf topos]] on the category of nonempty finite sets, which is the classifying topos for nontrivial [[Boolean algebras]] and contains simplicial complexes and the category of [[groupoids]] $Grpd$ as reflective subcategories  (cf. Lawvere 1989, pp.273-275).
 
 ##Related Concepts
 * [[topological topos]]
