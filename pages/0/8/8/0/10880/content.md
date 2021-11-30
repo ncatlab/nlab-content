@@ -232,21 +232,22 @@ Also write
 $$
   \overline{\gamma}
     \;\colon\;
-  [f_! A,B]
+  [f_! A ,\, B]
    \longrightarrow
-  f_\ast [A, f^\ast B]
+  f_\ast [A ,\, f^\ast B]
 $$
 
 for the $(f^\ast \dashv f_\ast)$ [[adjunct]] of the [[natural transformation]] given as the composite
 
-$$
-  f^\ast [A,f_! B]
+\[
+  \label{MayProp211AdjunctMorphism}
+  f^\ast [f_! A ,\, B]
    \stackrel{\simeq}{\longrightarrow}
-  [f^\ast A, \, f^\ast f_! B]
+  [f^\ast f_! A ,\, f^\ast B]
    \longrightarrow
-  [A, f^\ast B]  
+  [A ,\, f^\ast B]  
   \,,
-$$
+\]
 
 where the first map exhibits $f^\ast$ as a [[closed monoidal functor]] and where the second is the $(f_! \dashv f^\ast)$-[[unit of an adjunction|unit]] (under the [[internal hom]]).
 
