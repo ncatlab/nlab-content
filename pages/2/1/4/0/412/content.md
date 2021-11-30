@@ -247,3 +247,8 @@ The generalization to the [[model structure on topological operads]] is due to
 [[!redirects model structures on topological spaces]]
 [[!redirects model structures on Top]]
 
+[[!redirects q-model structure]]
+[[!redirects q-model structures]]
+
+[[!redirects m-model structure]]
+[[!redirects m-model structures]]
