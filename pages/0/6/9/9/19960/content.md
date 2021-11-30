@@ -679,7 +679,7 @@ reviewed in:
 
 See also:
 
-* Vikas Yadav, *String/$\mathcal{M}$-theory Dual of Large-$N$ Thermal QCD-Like Theories at Intermediate Gauge/'t Hooft Coupling and Holographic Phenomenology ([arXiv:2111.12655](https://arxiv.org/abs/2111.12655))
+* Vikas Yadav, *String/$\mathcal{M}$-theory Dual of Large-$N$ Thermal QCD-Like Theories at Intermediate Gauge/'t Hooft Coupling and Holographic Phenomenology* ([arXiv:2111.12655](https://arxiv.org/abs/2111.12655))
 
 
 More on [[D4-D8 brane bound states]]:
