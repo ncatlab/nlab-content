@@ -13,6 +13,7 @@ On [[mysterious duality]]/[[U-duality]] understood via [[schreiber:Hypothesis H]
 
 * [[Alexander Voronov]] (joint with [[Hisham Sati]]), *Mysterious Duality*, talk at Texas Tech 2021 ([abstract pdf](https://www.math.ttu.edu/~lhoang/PureMath/abstract-2021-03-15-Voronov.pdf) [[Voronov_MysteriousAbstract.pdf:file]], [slides pdf](https://www.math.ttu.edu/~lhoang/PureMath/Slides-2021-03-15-Voronov.pdf), [[Voronov_MysteriousSlides.pdf:file]])
 
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious triality* ([arXiv:2111.14810](https://arxiv.org/abs/2111.14810))
 
 
 category: people
