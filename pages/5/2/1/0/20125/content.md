@@ -148,6 +148,7 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 [[!include states and observables -- content]]
 
+
 ## References
 
 ### General
@@ -200,6 +201,8 @@ General:
 
 
 * [[Thorsten B. Wahl]], _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
+
+* Kouichi Okunishi, Tomotoshi Nishino, Hiroshi Ueda, *Developments in the Tensor Network -- from Statistical Mechanics to Quantum Entanglement* ([arXiv:2111.12223](https://arxiv.org/abs/2111.12223))
 
 
 Concrete materials:
