@@ -3,9 +3,14 @@
 
 ## Selected writings
 
-On [[delta-generated topological spaces]] and [[compactly generated topological spaces]]:
+On [[Delta-generated topological spaces|$\Delta$-generated]] and [[compactly generated topological spaces]]:
 
-* [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+* {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+
+On [[model structures on topological spaces]] and the notion of $\Delta$-Hausdorff $\Delta$-generated space (a natural [[separation condition]] for [[Delta-generated topological spaces|$\Delta$-generated spaces]]):
+
+* {#Gaucher21} [[Philippe Gaucher]], Section 2 and Appendix B of: *Left properness of flows*, Theory and Applications of Categories, **37** 19 (2021) 562-612 ([arXiv:1907.01454](https://arxiv.org/abs/1907.01454), [TAC:37-19](http://www.tac.mta.ca/tac/volumes/37/19/37-19abs.html))
+
 
 On [[directed homotopy theory]] and [[higher dimensional transition systems]]:
 
