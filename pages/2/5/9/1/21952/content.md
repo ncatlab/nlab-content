@@ -12,6 +12,11 @@ On [[Lie algebra cohomology]] of [[super Lie algebras]] (see also the [[Green-Sc
 
 * [[Roberto Catenacci]], [[C. A. Cremonini]], [[Pietro Antonio Grassi]], [[Simone Noja]], _Cohomology of Lie Superalgebras: Forms, Integral Forms and Coset Superspaces_ ([arXiv:2012.05246](https://arxiv.org/abs/2012.05246))
 
+On [[differential forms on supermanifolds]]:
+
+* [[Simone Noja]], *On the Geometry of Forms on Supermanifolds* ([arXiv:2111.12841](https://arxiv.org/abs/2111.12841))
+
+
 
 
 category: people
