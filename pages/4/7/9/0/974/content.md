@@ -405,6 +405,8 @@ See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/
 
 * [[class-locally presentable category]]
 
+* [[locally strongly finitely presentable category]]
+
 [[!include locally presentable categories - table]]
 
 
