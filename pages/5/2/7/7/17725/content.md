@@ -46,7 +46,7 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 
 ## References
 
-*  G. Rosolini. *Continuity  and  Effectiveness  in  Topoi*.  PhD thesis, University of Oxford, 1986.
+*  G. Rosolini. *Continuity  and  Effectiveness  in  Topoi*.  PhD thesis, University of Oxford, 1986. [pdf](https://www.researchgate.net/publication/35103849_Continuity_and_effectiveness_in_topoi)
 
 * [[Martin Escardo]], *Topology via higher-order intuitionistic logic.*, unfinished paper, [pdf](http://www.cs.bham.ac.uk/~mhe/papers/pittsburgh.pdf)
 
