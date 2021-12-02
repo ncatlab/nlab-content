@@ -77,6 +77,9 @@ Solving the bootstrap constraints via [[machine learning]]:
 
 * Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving Conformal Field Theories with Artificial Intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
 
+Relation to [[reflection positivity]]:
+
+* Leandro Lanosa, Mauricio Leston, Mario Passaglia, *Interplay between reflection positivity and crossing symmetry in the bootstrap approach to CFT* ([arXiv:2112.00232](https://arxiv.org/abs/2112.00232))
 
 
 ### Superconformal bootstrap
