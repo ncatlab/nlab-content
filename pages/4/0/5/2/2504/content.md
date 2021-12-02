@@ -229,6 +229,7 @@ See [[D'Auria-Fre formulation of supergravity]].
 
 * [[M-theory supersymmetry algebra]]
 
+
 ## References
 
 The [[Chevalley-Eilenberg algebra]] of $\mathfrak{sugra}(10,1)$ first appears in (3.15) of
@@ -262,6 +263,10 @@ Further discussion of its "hidden" super Lie algebra includes
 * [[Igor Bandos]], [[Jose de Azcarraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. 317 (2005) 238-279 ([arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100))
 
 * {#AndrianopoliDAuriaRavera16} L. Andrianopoli, [[Riccardo D'Auria]], L. Ravera, _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_ ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
+
+Further review:
+
+* [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* ([arXiv:2112.00445](https://arxiv.org/abs/2112.00445))
 
 
 The computation of the automorphism Lie algebra of $\mathfrak{sugra}(10,1)$ is in 
