@@ -21,7 +21,7 @@ There are various hints (originally observed in [Witten 95](#Witten95)) that all
 
 The "reasons to doubt" that interpretation is that the [[M2-brane]] does not support a [[perturbation theory]] the way that the [[superstring]] does. This is part of the reason why the actual nature of "M-theory" remains mysterious. On the other hand, later it was argued that there is a regularization of the M2-brane worldvolume theory, which makes it becomes the [[BFSS matrix model]] ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). In reaction to these developments it was suggested that "M-theory" could be read as "matrix theory".
 
-> Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 14, last paragraph](#Witten14))
+> {#MagicMysteryQuote} Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 2014, last paragraph](#Witten14))
 
 The defining characteristic of M-theory is that it exhibits [[duality between M-theory and type IIA string theory|duality with type IIA string theory]] in the following way:
 
