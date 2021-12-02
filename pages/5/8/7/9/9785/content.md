@@ -112,6 +112,12 @@ All this is reviewed in
 
 * {#Azcarraga05} [[José de Azcárraga]], section 5 of _Superbranes, D=11 CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf. Proc. 767:243-267, 2005 ([arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198))
 
+also
+
+* [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* ([arXiv:2112.00445](https://arxiv.org/abs/2112.00445))
+
+
+
 Another, alternative "weak [[decomposable differential form|decomposition]]" of the M2-brane [[extended super-Minkowski spacetime]] was found in 
 
 * {#Ravera18a} [[Lucrezia Ravera]], section 3 of _Hidden Role of Maxwell Superalgebras in the Free Differential Algebras of D=4 and D=11 Supergravity_ ([arXiv:1801.08860](https://arxiv.org/abs/1801.08860))
