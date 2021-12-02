@@ -746,4 +746,7 @@ From the [[M5-brane]]
 [[!redirects DBI theory]]
 [[!redirects DBI theories]]
 
+[[!redirects DBI-theory]]
+[[!redirects DBI-theories]]
+
 
