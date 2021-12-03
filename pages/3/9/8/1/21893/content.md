@@ -32,3 +32,6 @@ between the [[octonionic projective line]] and the [[8-sphere]].
 
 =--
 
+### Exotic 8-sphere
+
+There is a unique [exotic smooth structure on the 8-sphere](https://ncatlab.org/nlab/show/exotic+smooth+structure#Exotic8Sphere).
