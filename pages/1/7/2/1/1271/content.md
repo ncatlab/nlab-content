@@ -27,7 +27,7 @@ This is closely related to embedding the abelian category fully-faithfully and e
 
 One definition goes likes this ([MacLane, VIII.4](#MacLane) and also for instance [Gelfand-Manin, II.5](#Gelfand-Manin)):
 
-An __element__ of an [[object]] $W$ in a given [[abelian category]] $\mathcal{A}$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to W$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to W$. 
+An __element__ of an [[object]] $W$ in a given [[abelian category]] $\mathcal{A}$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $\mathcal{A}$ and $h:X\to W$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $\mathcal{A}$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to W$. 
 
 However, beware that the passage to equivalence classes does not respect the abelian group structure and hence generalized elements in this sense cannot be added or subtracted. A more natural approach is discussed in ([Bergman](#Bergman)) where the actual generalized elements are remembered but a refinement of their domain is allowed, much as familiar from [[topos theory]]. 
 
