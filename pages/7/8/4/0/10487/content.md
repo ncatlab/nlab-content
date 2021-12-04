@@ -39,6 +39,8 @@ Nucl. Phys. B419, 455 (1994), [pdf](http://dao.mit.edu/~wen/pub/nabdw.pdf)
 
 * Juven Wang, Zheng-Cheng Gu, [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, [arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [Phys. Rev. Lett. 114, 031601 (2015)](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)
 
+* [[Liang Kong]], Tian Lan, [[Xiao-Gang Wen]], Zhi-Hao Zhang, Hao Zheng, _Algebraic higher symmetry and categorical symmetry -- a holographic and entanglement view of symmetry_ ([arXiv:2005.14178](https://arxiv.org/abs/2005.14178))
+
 ## Related entries
 
 * [[topological order]]
