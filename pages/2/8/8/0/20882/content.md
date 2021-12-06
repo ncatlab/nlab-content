@@ -22,7 +22,10 @@
 
 The notion of _[[Lie algebra]]_ may be formulated [[internalization|internal to]] general [[linear category|linear]] [[monoidal categories]] ([[tensor categories]]). This general definition of _Lie algebra objects internal to tensor categories_ subsumes variants of Lie algebras such as [[super Lie algebras]]. 
 
+
+
 ## Definition
+ {#Definition}
 
 ### As internal Lie algebras
  {#AsInternalLieAlgebras}
