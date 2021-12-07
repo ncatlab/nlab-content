@@ -1,5 +1,5 @@
 
-* [webpage](http://strings.ph.qmul.ac.uk/directory/c.papageorgakis)
+* [webpage](https://www.qmul.ac.uk/spcs/staff/academics/profiles/cpapageorgakis.html)
 
 ## Selected writings
 
