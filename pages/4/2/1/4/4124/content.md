@@ -10,3 +10,5 @@
 * [[Whitehead tower]]
 
 category: people
+
+[[!redirects Alan Hatcher]]
