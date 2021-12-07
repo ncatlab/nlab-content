@@ -378,7 +378,7 @@ More generally, one obtains [[Sullivan chord diagrams]] with $p$ disjoint embedd
 
 ## References
 
-Original articles
+Original articles:
 
 * {#BarNatan96} [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
