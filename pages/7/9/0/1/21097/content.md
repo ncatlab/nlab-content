@@ -110,7 +110,7 @@ Moreover, since the [[complexification]] of [[su(2)]] is the [[sl(2)|complex spe
 
 This is what many authors state, but it is not yet the full picture: 
 
-Also the worldvolume [[Chan-Paton gauge field]] component $A$ along $y$ participates in the brane intersection
+{#ParallelCPField} Also the worldvolume [[Chan-Paton gauge field]] component $A$ along $y$ participates in the brane intersection
 
 $$
   A \in C^\infty\big( (0,\infty], \mathfrak{u}(N) \big)
