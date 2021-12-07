@@ -53,7 +53,7 @@ Review includes ([Kreck 10, chapter 19](#Kreck10), [McEnroe
 
 From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$ with (exotic) [[7-sphere]] [[boundaries]] in [Milnor's construction](#Construction) correspond to [[near horizon limits]] of [[black brane|black]] [[M2 brane]] spacetimes $\mathbb{R}^{2,1} \times X$, where the [[M2-branes]] themselves would be sitting at the center of the [[7-spheres]] (if that were included in the spacetime, see also [[Dirac charge quantization]]).
 
-([Morrison-Plesser 99, section 3.2](#MorrisonPlesser99), [[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS 19, 4.6]]))
+([Morrison-Plesser 99, section 3.2](#MorrisonPlesser99), [[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS 19, 3.8]]))
 
 
 
