@@ -147,7 +147,7 @@ and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravit
         "right": 0, 
         "left": 14
     },
-    "caption": "from [Sati & Schreiber 19c](#SatiSchreiber19c)"
+    "caption": "from [Sati and Schreiber 19c](#SatiSchreiber19c)"
 \end{imagefromfile}
 
 
@@ -199,7 +199,7 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
         "right": 0, 
         "left": 10
     },
-    "caption": "From [JGPE 19](#JGPE19)"
+    "caption": "From [Jahn and Eisert 21](holographic+entanglement+entropy#JahnEisert21)"
 \end{imagefromfile}
 
 
