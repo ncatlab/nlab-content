@@ -60,4 +60,8 @@ In view of [[tetraquarks]]:
 
 category: people
 
+
+
+[[!redirects Guy F. de Téramond]]
+
 [[!redirects Guy de Teramond]]
