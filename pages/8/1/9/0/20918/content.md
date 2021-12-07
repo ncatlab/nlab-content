@@ -260,10 +260,10 @@ for the linear extension of this function (eq:MapAssigningPartitionedLieWeightSy
 ###### Proposition
 ([[all horizontal weight systems are partitioned Lie algebra weight systems]])
 
-For $N \geq 2$ consider the [[special linear Lie algebra]] $\mathfrak{sl}(N)$, canonically regarded as a [[metric Lie algebra]] via its  [[Killing form]]. 
+For $N \geq 2$ consider the [[general linear Lie algebra]] $\mathfrak{gl}(N)$, regarded as a [[metric Lie algebra]] not via its [[Killing form]], but via the fundamental trace $g(x,y) \,\coloneqq\, tr(x \circ y)$. 
 
-Then the space $\mathcal{W}_{pb} \coloneqq (\mathcal{A}^{pb})^\ast$ (eq:SpaceOfHorizontalWeightSystems) of [[weight systems]] on [[horizontal chord diagrams]] is [[linear span|spanned]] by partitioned $\mathfrak{sl}(N)$-[[Lie algebra weight systems]], 
-in that the linear extension (eq:LinearExtensionOfMapAssigningPartitionedLieWeightSystemsToModules) of the function (eq:MapAssigningPartitionedLieWeightSystemsToModules) assigning $\mathfrak{sl}(N)$-[[Lie algebra weight systems]] composed with partitioning (eq:Delta) is an [[epimorphism]]:
+Then the space $\mathcal{W}_{pb} \coloneqq (\mathcal{A}^{pb})^\ast$ (eq:SpaceOfHorizontalWeightSystems) of [[weight systems]] on [[horizontal chord diagrams]] is [[linear span|spanned]] by partitioned $\mathfrak{gl}(N)$-[[Lie algebra weight systems]], 
+in that the linear extension (eq:LinearExtensionOfMapAssigningPartitionedLieWeightSystemsToModules) of the function (eq:MapAssigningPartitionedLieWeightSystemsToModules) assigning $\mathfrak{gl}(N)$-[[Lie algebra weight systems]] composed with partitioning (eq:Delta) is an [[epimorphism]]:
 
 $$
   \array{
@@ -278,7 +278,7 @@ $$
     }{
       \underbrace{
         \mathclap{\phantom{\vert \atop \vert}}
-        \mathfrak{sl}(N) \, Mod_{/\sim}
+        \mathfrak{gl}(N) \, Mod_{/\sim}
       }
     }
     \big)
