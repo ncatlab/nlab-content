@@ -153,10 +153,18 @@ Using the [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] to the 
 * Masazumi Honda, Goro Ishiki, Sang-Woo Kim, Jun Nishimura, Asato Tsuchiya, _Direct test of the AdS/CFT correspondence by Monte Carlo studies of N=4 super Yang-Mills theory_, JHEP 1311 (2013) 200 ([arXiv:1308.3525](https://arxiv.org/abs/1308.3525))
 
 
+
 [[!include M5-branes in the BMN matrix model -- references]]
 
 
 
 
 [[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
+
+
+
+
+
+[[!redirects BMN matrix models]]
+
 
