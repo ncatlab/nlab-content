@@ -20,17 +20,18 @@
 
 There are several theorems by [[Serre]] which deserve to be called "finiteness theorems".
 
-## In stable homotopy theory
+## In homotopy theory
+ {#InHomotopyTheory}
 
-On the [[homotopy groups of spheres]]
+On the [[homotopy groups of spheres]]:
 
 +-- {: .num_theorem }
 ###### Theorem
 **(Serre finiteness theorem)**
 
-The [[homotopy groups of spheres]] $\pi_{n+k}(S^k)$, for $k \geq 1$, are [[finite groups]] except
+The [[homotopy groups of spheres]] $\pi_{n+k}(S^k)$, for $k \geq 1$, are [[finite groups]] (in fact [[finite abelian groups]]), hence pure [[torsion subgroup|torsion]], *except*
 
-1. for $n = 0$ in which case $\pi_k(S^k) = \mathbb{Z}$;
+1. for $n = 0$ in which case $\pi_k(S^k) = \mathbb{Z}$ is the [[integers]];
 
 1. $k = 2m$ and $n = 2m -1$ in which case
 
@@ -38,7 +39,7 @@ The [[homotopy groups of spheres]] $\pi_{n+k}(S^k)$, for $k \geq 1$, are [[finit
      \pi_{4m - 1}(S^{2m}) \simeq \mathbb{Z} \oplus F_m
    $$
 
-   for $F_m$ a [[finite group]].
+   for $F_m$ some [[finite group]].
 
 =--
 
