@@ -70,7 +70,7 @@ Let us describe this a bit differently. The cocycle $H^0(X,KU)$ may be represent
 
 
 $$
- ch(\nabla) \coloeqq \sum_{j \in \mathbb{N}}
+ ch(\nabla) \coloneqq \sum_{j \in \mathbb{N}}
    k_j
    tr( F_\nabla \wedge \cdots \wedge F_\nabla)
   \;\;
