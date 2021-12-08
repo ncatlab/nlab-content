@@ -26,6 +26,8 @@ agrees with the intension of its extension._
 
 ## Related concepts
 
+* [[Chu spaces, simple examples|Chu space]]
+
 * [[Galois connection]]
 
 ##References
