@@ -16,13 +16,13 @@
 
 ## Idea
 
-**Kripke--Joyal semantics** is a higher order generalization of the [[semantics|semantic]] interpretation proposed initially by Beth, Grzegorczyk, and Kripke for [[intuitionistic logic|intuitionistic predicate logic]]. It provides a notion of _'local truth'_ or _'validity at a stage'_ in a [[topos]].
+**Kripke--Joyal semantics** is a higher order generalization of the [[semantics|semantic]] interpretation proposed initially by Beth, Grzegorczyk, and Kripke for [[intuitionistic logic|intuitionistic predicate logic]] (IPL). It provides a notion of _'local truth'_ or _'validity at a stage'_ in a [[topos]].
 
 Since it is closely related to [[Paul Cohen|Paul Cohen's]] [[forcing]] technique in [[set theory]], a connection that was already observed by Grzegorczyk and Kripke, it is sometimes called _forcing_ semantics. Other terms in use for it are _external_ semantics, _cover_ semantics or _Beth--Kripke--Joyal_ semantics.
 
 By giving a semantics to formulas written in the [[higher-order logic|higher-order]] [[type theory]] used to express [[ordinary mathematics]] in a topos, the Kripke--Joyal semantics serves as [[semantics|semantic]] interface between the [[internalisation|internal (syntactic) description]] of mathematical objects using the [[Mitchell–Bénabou language]] and the external description.  
 
-Kripke--Joyal semantics provide rules and prescriptions for semantic interpretation for general toposes but these prescriptions may simplify for special classes of toposes e.g. the rules resulting for [[presheaf toposes]] over posets (when restricted to first-order formulas) correspond to the original notion of model for IPL considered by [[Saul Kripke|Kripke]] et al.
+Kripke--Joyal semantics provides rules and prescriptions for semantic interpretation for general toposes but these prescriptions may simplify for special classes of toposes e.g. the rules resulting for [[presheaf toposes]] over posets (when restricted to first-order formulas) correspond to the original notion of model for IPL considered by [[Saul Kripke|Kripke]] et al.
 
 There should be a version of Kripke--Joyal semantics for [[homotopy type theory]], as claimed [here](n-types+cover#InModels). 
 
@@ -72,7 +72,7 @@ Whereas $\{x|\varphi(x)\}$ represents the set of elements satisfying $\varphi$ i
 
 One can now unwind the [[forcing]] relation $U\models \varphi (\alpha)$ recursively over the syntactic composition of $\varphi$. This results in a collection of semantic rules that is commonly referred to as the _Kripke--Joyal semantics_ and permits to make contact with the original rules proposed by Kripke for intuitionistic logic in 1965.
 
-These rules are often useful for translating step by step an object defined by a formula of the Mitchell–Bénabou into a concrete mathematical object in the topos.
+These rules are often useful for translating step by step an object defined by a formula of the Mitchell–Bénabou language into a concrete mathematical object in the topos.
 
 First of all, the [[forcing]] relation is _monotone_ and _local_ :
 
