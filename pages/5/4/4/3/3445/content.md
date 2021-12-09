@@ -36,7 +36,7 @@ are represented by
 
 * over each $U_i$ a choice $F_i \in C$ of object in $C$, hence a finite set in $C$;
 
-* over each double overlap $U_{i j} = U_i \cap U_j$ an morphism $g_{i j} : F_i|_{I_{i j}} \stackrel{\simeq}{\to} F_j|_{U_{i j}}$, hence a bijection of finite sets;
+* over each double overlap $U_{i j} = U_i \cap U_j$ an morphism $g_{i j} : F_i|_{U_{i j}} \stackrel{\simeq}{\to} F_j|_{U_{i j}}$, hence a bijection of finite sets;
 
 * such that on triple overlaps we have $g_{i k}|_{U_{i j k}}= g_{j k}|_{U_{i j k}}\circ g_{i j}|_{U_{i j k}}$.
 
