@@ -6,7 +6,7 @@
 ## Idea
 
 The simplest cases of [[Chu spaces]] can be thought of simply  as matrices over a set $\Sigma$, that is, a rectangular array whose 
-entries are drawn from $\Sigma$. The case most usually considered is $\Sigma = \mathbf{2}:=\{0,1\}$, and special cases of this then correspond to many relational structures. In fact, such a 'dyadic' Chu space is just another way of representing a relation from the set of labels for the rows, to that of the labels of columns of the matrix. The role of $\mathbf{2}$ can be replaced by an arbitrary set with suitable modifications of the resulting theory.
+entries are drawn from $\Sigma$. The case most usually considered is $\Sigma = \mathbf{2} \coloneqq \{0,1\}$, and special cases of this then correspond to many relational structures. In fact, such a 'dyadic' Chu space is just another way of representing a relation from the set of labels for the rows, to that of the labels of columns of the matrix. The role of $\mathbf{2}$ can be replaced by an arbitrary set with suitable modifications of the resulting theory.
 
 
 ## Definitions
