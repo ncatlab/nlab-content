@@ -97,6 +97,17 @@ On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge q
 
 * [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_, Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
+On [[Wick rotation]] in terms of complex metrics:
+
+* [[Maxim Kontsevich]], [[Graeme Segal]], *Wick rotation and the positivity of energy in quantum field theory* ([arXiv:2105.10161](https://arxiv.org/abs/2105.10161))
+
+review talks:
+
+* [[Graeme Segal]], _Wick rotation and the positivity of energy in quantum field theory_, talk at Institut des Hautes Études Scientifiques (IHÉS), June 2014 ([video recording](https://www.youtube.com/watch?feature=player_embedded&v=vTvXHL6ZJik))
+
+* [[Graeme Segal]], *Wick Rotation and the Positivity of Energy in Quantum Field Theory*, talk at IAS Physics Group Meeting, December 2021 ([video recording](https://www.ias.edu/video/wick-rotation-and-positivity-energy-quantum-field-theory))
+
+
 
 [[!redirects G. Segal]]
 
