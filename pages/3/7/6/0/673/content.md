@@ -28,7 +28,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 ### Papers
 
 
-* _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]]. Accepted to appear, Annales de l'Institut Fourier, 3 August 2020.
+* _Extending Whitney's extension theorem: nonlinear function spaces_, Annales de l'Institut Fourier, Online first, doi:[10.5802/aif.3424](https://doi.org/10.5802/aif.3424), [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
 * _Many finite-dimensional lifting bundle gerbes are torsion_ (2021), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936). Bulletin of the Australian Mathematical Society, published online doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X).
 
