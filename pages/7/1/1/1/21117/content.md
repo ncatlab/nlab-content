@@ -569,7 +569,9 @@ In relation to the [[large N limit]]:
 
 * Alexey Milekhin, *Quantum error correction and large $N$* ([arXiv:2008.12869](https://arxiv.org/abs/2008.12869))
 
+In relation to [[renormalization group flow]]:
 
+* Keiichiro Furuya, Nima Lashkari, Mudassir Moosa, *Renormalization group and approximate error correction* ([arXiv:2112.05099](https://arxiv.org/abs/2112.05099))
 
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
