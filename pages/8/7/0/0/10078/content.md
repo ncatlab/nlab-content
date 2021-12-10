@@ -125,7 +125,7 @@ Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
 
 
 
-Further development includes
+Further development:
 
 * M. G. Schmidt, [[Christian Schubert]], _Worldline Green Functions for Multiloop Diagrams_, Phys.Lett. B331 (1994) 69-76 ([arXiv:hep-th/9403158](https://arxiv.org/abs/hep-th/9403158))
 
@@ -159,6 +159,9 @@ For [[black hole]] [[scattering]]:
 
 * Gustav Mogull, [[Jan Plefka]], Jan Steinhoff, _Classical black hole scattering from a worldline quantum field theory_ ([arXiv:2010.02865](https://arxiv.org/abs/2010.02865))
 
+and for photon-graviton scattering:
+
+* Fiorenzo Bastianelli, Francesco Comberiati, Leonardo de la Cruz, *Light bending from eikonal in worldline quantum field theory* ([arXiv:2112.05013](https://arxiv.org/abs/2112.05013))
 
 A list of more literature is at
 
