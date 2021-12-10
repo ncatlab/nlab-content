@@ -73,7 +73,7 @@ $$
 
 1. [[∞-groups]] (i.e. [[groupoid object in an (infinity,1)-category|group objects]]) in $\mathbf{H}$ with [[En-algebra]]-[[mathematical structure|structure]],
 
-1. [[pointed object|pointed]] [[n-connected object of an (infinity,1)-topos|n-connected objects]] in $\mathbf{H}$.
+1. [[pointed object|pointed]] [[n-connected object of an (infinity,1)-topos| $(n-1)$-connected objects]] in $\mathbf{H}$.
 
 
 =--
