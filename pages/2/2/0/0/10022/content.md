@@ -413,6 +413,17 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 
 * {#Georgescu19} Iulia Georgescu, *Strings and qubits*, Nature Reviews Physics volume 1, page 477 (2019) ([doi:s42254-019-0087-6](https://www.nature.com/articles/s42254-019-0087-6))
 
+* IAS Workshops on Quantum Information and Spacetime:
+
+  * [Workshop on Quantum Information and Black Holes, December 5-6, 2017](https://www.ias.edu/sns/quantum-information-workshop-2017)
+
+  * [Workshop on Quantum Information and the Structure of Spacetime, December 4-5, 2018](https://www.ias.edu/sns/quantum-information-workshop-2018)
+
+  * [Workshop on Qubits and Spacetime, December 3 - 4, 2019](https://www.ias.edu/sns/quantum-information-workshop-2019)
+
+  * [Online Workshop on Qubits and Black Holes, December 7-9, 2020](https://www.ias.edu/sns/quantum-information-workshop-2020)
+
+  * [IAS Workshop on Quantum Information and Spacetime, December 6-8, 2021](https://www.ias.edu/sns/quantum-information-workshop-2021)
 
 
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
