@@ -118,7 +118,7 @@ Apart from the archetypical example of the [[simplex category]] we have the foll
 
 * The [[cube category]] is a test category ([Grothendieck](#Grothendieck), [Cisinski](#Cisinski)), however not a strict one ([Kan](#Kan)). (The corresponding [[model category]] is discussed at [[model structure on cubical sets]].)
 
-  The category of [[cubes]] equipped with [[connection on a cubical set]] is even a strict test category ([Maltsiniotis, 2008](#Maltsiniotis)).
+  The category of [[cubes]] equipped with [[connection on a cubical set | connections]] is even a strict test category ([Maltsiniotis, 2008](#Maltsiniotis)).
 
 * The [[Theta category]] and its [[groupoid]]-analog $\tilde \Theta$ are strict test categories ([Cisinski, Maltsiniotis](#CisMal11) and [Ara](#Ara)).
 
