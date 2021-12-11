@@ -177,7 +177,7 @@ $H=G_0 \vartriangleleft G_1  \vartriangleleft \ldots  \vartriangleleft G_n =G$ s
 * $\{1 \to S\}^{&solb; \ell r}$ is the class of subgroups $H\leq G$ such that there is a chain of subnormal subgroups
 $H=G_0 \vartriangleleft G_1  \vartriangleleft \ldots  \vartriangleleft G_n =G$ such that $G_{i+1}/G_{i}$ embeds into $S$, for $i=0,...,n-1$. 
 
-*  $(\mathbb{Z}/p\mathbb{Z}\longrightarrow 0)^{&solb;rlr}$ is the class of homomorphisms whose kernel has no elements of order $p$
+*  $(\mathbb{Z}/p\mathbb{Z}\longrightarrow 0)^{&solb;r}$ is the class of homomorphisms whose kernel has no elements of order $p$
 *  $(\mathbb{Z}/p\mathbb{Z}\longrightarrow 0)^{&solb;rr}$ is the class of surjective homomorphisms whose kernel is a $p$-group 
 
 
@@ -267,14 +267,14 @@ The following lifting properties are calculated in the category of (all) topolog
 
 *  $(\emptyset\longrightarrow \{o\})^{&solb;rl}$ is the class of maps of form $A\longrightarrow A\sqcup D$ where $D$ is discrete
 
-*  $\{ \{z\leftrightarrow  x\leftrightarrow  y\rightarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^{&solb;lrl}  = \{\{c\}\longrightarrow \{o\rightarrow c\}\}^{&solb;lr}$ is the class of closed inclusions $A\subset B$ where $A$ is closed
+*  $\{ \{z\leftrightarrow  x\leftrightarrow  y\rightarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^{&solb;l}  = \{\{c\}\longrightarrow \{o\rightarrow c\}\}^{&solb;lr}$ is the class of closed inclusions $A\subset B$ where $A$ is closed
 
-*  $\{ \{z\leftrightarrow  x\leftrightarrow  y\leftarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^{&solb;lrl}$ is the class of open inclusions
+*  $\{ \{z\leftrightarrow  x\leftrightarrow  y\leftarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^{&solb;l}$ is the class of open inclusions
 $A\subset B$ where $A$ is open
 
-*  $\{ \{x\leftrightarrow  y\rightarrow c\}\longrightarrow\{x\leftrightarrow  y=c\} \}^{&solb;lrl} $ is the class of closed maps $A\longrightarrow B$ 
+*  $\{ \{x\leftrightarrow  y\rightarrow c\}\longrightarrow\{x\leftrightarrow  y=c\} \}^{&solb;l} $ is the class of closed maps $A\longrightarrow B$ 
 where the topology on $A$ is pulled back from $B$
-*  $\{ \{x\leftrightarrow  y\leftarrow c\}\longrightarrow\{x\leftrightarrow  y=c\} \}^{&solb;lrl}$ is the class of open maps $A\longrightarrow B$ 
+*  $\{ \{x\leftrightarrow  y\leftarrow c\}\longrightarrow\{x\leftrightarrow  y=c\} \}^{&solb;l}$ is the class of open maps $A\longrightarrow B$ 
 where the topology on $A$ is pulled back from $B$
 
 
@@ -326,11 +326,13 @@ $ \emptyset \to X &solb;
 $X\to Y \,\,&solb;\,\,  \{x\leftarrow o\rightarrow y\}\longrightarrow \{x=o=y\}$
 
 * A topological space $X$ is extremally disconnected iff 
-$X\to Y \,\,&solb;\,\, \{u\rightarrow a,b\leftarrow v\}\longrightarrow \{u\rightarrow a=b\leftarrow v\}$
+$\emptyset\to X \,\,&solb;\,\, \{u\rightarrow a,b\leftarrow v\}\longrightarrow \{u\rightarrow a=b\leftarrow v\}$
 
+* A topological space $X$ is zero-dimensional iff 
+$\emptyset\to X \,\,&solb;\,\, \{a\leftarrow u,v\rightarrow b\}\longrightarrow \{a\leftarrow u=v\rightarrow b\}$
 
 * A topological space $X$ is ultranormal iff 
-$X\to Y \,\,&solb;\,\, \{u\rightarrow a,b\leftarrow v\}\longrightarrow \{a\leftarrow u=v\rightarrow v\}$
+$\emptyset\to X \,\,&solb;\,\, \{u\rightarrow a,b\leftarrow v\}\longrightarrow \{a\leftarrow u=v\rightarrow v\}$
 
 *  $\{\bullet\}\longrightarrow A$ is in $(\emptyset\longrightarrow \{o\})^{&solb;rll}$ iff $A$ is connected
 
@@ -360,6 +362,23 @@ $(\{a,b\}\longrightarrow \{a=b\})^{&solb;rr}= (\{a\leftrightarrow b\}\longrighta
  for some arrow $\{o\}\longrightarrow K$
 it holds that $\{o\}\longrightarrow K$ is in
             $   (\emptyset\longrightarrow \{o\})^{&solb;rll} = (\{a\}\longrightarrow \{a,b\})^{&solb;l}$
+
+
+* A topological space $X$ has Lebesgue dimension at most $n$  iff 
+for each finite set $I$
+$\emptyset\to X \,\,&solb;\,\, 
+\{ (F,J): 1\leq |F|\leq n+1, F\subset J\subset I\}\longrightarrow
+\{ J: 1\leq |J|, J\subset I\} 
+$
+where the order on the domain 
+$\{ (F,J): 1\leq |F|\leq n+1, F\subset J\subset I\}$ is given by
+$(F,J)\to (F',J')$ iff $F\subset F'$ and $J\subset J'$.
+
+* A topological space $X$ has Lebesgue dimension at most $n$  iff 
+for each closed subset $A$ of $X$ $
+A\to X \,\,&solb;\,\, \mathbb{S}^n\to \{o\}$
+where $\mathbb{S}^n$ denotes the $n$-sphere.
+
 
 ### Model theory 
 
