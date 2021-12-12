@@ -82,7 +82,7 @@ The nonzero elements of $K$ may be partially ordered as follows: write $x \leq y
 
 * $y/x$ is a non-unit of $O$. 
 
-We call this the _trichotomy law_. Thus, if we write $O^*$ for the units of $R$, it follows from trichotomy that the partial order on $K^*$ descends to a [[total order]] on the quotient group $G = K^*/O^*$. This totally ordered group is called the **value group** of the valuation ring $O$. When the value group is isomorphic to $\mathbb{Z}$, the ring $O$ is called a **discrete valuation ring**. Many local rings which arise in practice, for example localizations of rings of [[algebraic integer]]s $O$ with respect to a prime ideal $\mathcal{p}$, or their completions as rings of $\mathcal{p}$-adic integers $O_{(\mathcal{p})}$, are discrete valuation rings. 
+We call this the _trichotomy law_. Thus, if we write $O^*$ for the units of $O$, it follows from trichotomy that the partial order on $K^*$ descends to a [[total order]] on the quotient group $G = K^*/O^*$. This totally ordered group is called the **value group** of the valuation ring $O$. When the value group is isomorphic to $\mathbb{Z}$, the ring $O$ is called a **discrete valuation ring**. Many local rings which arise in practice, for example localizations of rings of [[algebraic integer]]s $O$ with respect to a prime ideal $\mathcal{p}$, or their completions as rings of $\mathcal{p}$-adic integers $O_{(\mathcal{p})}$, are discrete valuation rings. 
 
 We may then define a **valuation** function 
 
