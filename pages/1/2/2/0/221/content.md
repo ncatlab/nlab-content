@@ -32,7 +32,7 @@ But let's see --- where were we?  Since it's been a while, I was tempted to revi
  
 As we said, a chief difference between ZFC and ETCS resides in how ETCS treats the issue of membership.  In ZFC, membership is a global binary relation:  we can take any two "sets" $A, B$ and ask whether $A \in B$.  Whereas in ETCS, membership is a relation between entities of different sorts:  we have "sets" on one side and "elements" on another, and the two are not mixed ( _e.g._, elements are not themselves considered sets).
  
-Further, and far more radical:  in ETCS the membership relation $x \in A$ is a _function_, that is, an element $x$ "belongs" to only one set $A$ at a time.  We can think of this as "declaring" how we are thinking of an element, that is, declaring which set (or which type) an element is being considered as belonging to.  (In the jargon, ETCS is a _typed theory_.)  This reflects a general and useful philosophic principle:  that elements in isolation are considered inessential, that what counts are the aggregates or contexts in which elements are organized and interrelated.  For instance, the numeral "2" in isolation has no meaning;  what counts is the context in which we think of it (_qua_ rational number or _qua_ complex number, _etc._).  Similarly the set of real numbers has no real sense in isolation;  what counts is which category we view it in.
+Further, and far more radical:  in ETCS the membership relation $x \in A$ is a _function_, that is, an element $x$ "belongs" to only one set $A$ at a time.  We can think of this as "declaring" how we are thinking of an element, that is, declaring which set (or which type) an element is being considered as belonging to.  (In the jargon, ETCS is a _typed theory_.)  This reflects a general and useful philosophic principle:  that elements in isolation are considered inessential, that what counts are the aggregates or contexts in which elements are organized and interrelated.  For instance, the numeral "2" in isolation has no meaning;  what counts is the context in which we think of it ( _qua_ rational number or _qua_ complex number, _etc._).  Similarly the set of real numbers has no real sense in isolation;  what counts is which category we view it in.
  
 I believe it is reasonable to grant this principle a foundational status, but: rigorous adherence to this principle completely changes the face of what set theory looks like.  If elements "belong" only to one set at a time, how then do we even _define_ such basic concepts as subsets and intersections?  These are some of the issues we discussed last time.
  
@@ -109,7 +109,7 @@ $$\displaystyle \bigcap : P P X \to P X,$$
 
 to the element $1 \to P P X$ that represents the set of all subsets of $X$ containing $A$ and $B$;  the resulting element $1 \to P X$ represents $A \cup B$.  The element $1 \to P P X$ corresponds to the intersection of two subsets $\{ C \in P X : A \subseteq C \} \:\cap\: \{ C \in P X : B \subseteq C \} \subseteq P X$.
 
-: __Remark.__  Remember that in ETCS we are using _generalized_ elements:  $C \in P X$ really means a function $C : U \to P X$ over some domain $U$, which in turn classifies a subset $\left[C\right] \subseteq U \times X$.  On the other hand, the $A$ here is a subset $A \subseteq X$.  How then do we interpret the condition "$A \subseteq C$"?  We first pull back $\chi_A : 1 \to P X$ over to the domain $U$;  that is, we form the composite $\displaystyle U \stackrel{!}{\to} 1 \stackrel{\chi_A}{\to} P X$ and consider the condition that this is bounded above by $C : U \to P X$.  (We will write $\chi_A \leq C$, thinking of the left side as constant over $U$.)  Externally, in terms of subsets, this corresponds to the condition $U \times A \subseteq \left[C\right]$.
+: __Remark.__  Remember that in ETCS we are using _generalized_ elements:  $C \in P X$ really means a function $C : U \to P X$ over some domain $U$, which in turn classifies a subset $\left[C\right] \subseteq U \times X$.  On the other hand, the $A$ here is a subset $A \subseteq X$.  How then do we interpret the condition "$A \subseteq C$"?  We first pull back $\chi_A : 1 \to P X$ over to the domain $U$ (that is, we form the composite $\displaystyle U \stackrel{!}{\to} 1 \stackrel{\chi_A}{\to} P X$) and consider the condition that this is bounded above by $C : U \to P X$.  (We will write $\chi_A \leq C$, thinking of the left side as constant over $U$.)  Externally, in terms of subsets, this corresponds to the condition $U \times A \subseteq \left[C\right]$.
 
 We need to construct the subsets $\{ C \in P X : A \subseteq C \}, \{ C \in P X : B \subseteq C \}$.  In ZFC, we could construct those subsets by applying the comprehension axiom scheme, but the axioms of ETCS have no such blanket axiom scheme.  (In fact, as we said earlier, much of the work on "internalizing logic" goes to show that in ETCS, we instead _derive_ a comprehension scheme!)  However, one way of defining subsets in ETCS is by taking loci of equations;  here, we express the condition $A \subseteq C$, more pedantically $A \subseteq \left[C\right]$ or $\chi_A \leq C$, as the equation
 
@@ -144,7 +144,7 @@ to define $\Rightarrow_X : P X \times P X \to P X$.  This map classifies a certa
  
 $$\{ (x, T, S) \in X \times P X \times P X : x \in_X T \Rightarrow x \in_X S \}$$
 
-: __Remark.__  Similarly we can define a meet operator $\wedge_X : P X \times P X \to P X$ by exponentiating the internal meet $P1 \times P 1 \to P 1$.  It is important to know that the general Heyting algebra identities which we established last time for $P1$ lift to the corresponding identities for the operators $\wedge_X, \Rightarrow_X$ on $P X$.  Ultimately this rests on the fact that the functor $(-)^X$, being a right adjoint, preserves products, and therefore preserves any algebraic identity which can be expressed as a commutative diagram of operations between such products.
+__Remark.__  Similarly we can define a meet operator $\wedge_X : P X \times P X \to P X$ by exponentiating the internal meet $P1 \times P 1 \to P 1$.  It is important to know that the general Heyting algebra identities which we established last time for $P1$ lift to the corresponding identities for the operators $\wedge_X, \Rightarrow_X$ on $P X$.  Ultimately this rests on the fact that the functor $(-)^X$, being a right adjoint, preserves products, and therefore preserves any algebraic identity which can be expressed as a commutative diagram of operations between such products.
 
 Hence, for the fixed subset $A \subseteq X$ (classified by $\chi_A : 1 \to P X$), the operator
 
@@ -247,7 +247,7 @@ Now apply Lemma 2 to complete the proof.  $\Box$
  
 $$x \wedge (y \Rightarrow b) \leq y \wedge (y \Rightarrow b) \leq b \qquad (*)$$
  
-: where the first inequality follows from the hypothesis $x \leq y$, and the second follows from $y \Rightarrow b \leq y \Rightarrow b$.  By the adjunction, the inequality (*) implies $(y \Rightarrow b) \leq (x \Rightarrow b)$.  $\Box$
+where the first inequality follows from the hypothesis $x \leq y$, and the second follows from $y \Rightarrow b \leq y \Rightarrow b$.  By the adjunction, the inequality $(*)$ implies $(y \Rightarrow b) \leq (x \Rightarrow b)$.  $\Box$
 
 __Theorem 1.__  For subsets $A, B$ of $X$, the subset $A \cup B$ is an upper bound of $A$ and $B$, _i.e._, $A, B \subseteq A \cup B$.
  
@@ -382,7 +382,7 @@ $$(1_X \times h)^{-1}(\delta) \hookrightarrow X \times A.$$
 
 An elementary calculation shows this to be the equalizer of the pair of maps
 
-$$\pi_1, h\pi_2 : X \times A \stackrel{\to}{\to} X$$
+$$\pi_1, h\pi_2 : X \times A \stackrel{\to}{\to} X.$$
 
 So this equalizer $E$ is empty.  But notice that $\langle h, 1 \rangle : A \to X \times A$ equalizes this pair of maps.  Therefore we have a map $A \to E \cong 0$.  By Corollary 2 above, we infer $A \cong 0$.  This applies to the case where $A$ is the pullback, so the pullback is empty, as was to be shown. 
 =-- 
@@ -412,7 +412,7 @@ Putting all this together, we conclude that $\phi i = i_X : X \to P X \times P Y
  
 Next, we show that $\phi$ is monic.  If not, then by strong extensionality, there exist distinct elements $c, d : 1 \to Z$ for which $\phi(c) = \phi(d)$;  therefore, $\phi_1 c = \phi_1 d : 1 \to P X$ and $\phi_2 c = \phi_2 d : 1 \to PY$.  By the pullback principle, these equations say (respectively)
 
-$$ c^{-1}(i) = d^{-1}(i) \hookrightarrow 1 \qquad c^{-1}(j) = d^{-1}(j) \hookrightarrow 1$$
+$$ c^{-1}(i) = d^{-1}(i) \hookrightarrow 1 \qquad c^{-1}(j) = d^{-1}(j) \hookrightarrow 1.$$
 
 If $c^{-1}(i) = 1$, then both $c, d : 1 \to Z$ factor through the mono $i : X \to Z$.  However, since $\phi i = i_X$ is monic, this would imply that $\phi (c) \neq \phi (d)$, contradiction.  Therefore $c^{-1}(i) = c \cap i = 0$.  By similar reasoning, $c \cap j = 0$.  Therefore
 
