@@ -20,7 +20,7 @@ A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothe
 
 ## Definition
 
-Let $p\colon E\to B$ be a [[functor]].  The notion of when a morphism of $E$ is [[cartesian morphism|cartesian]] is unchanged from the version for [[Grothendieck fibrations]].  However, now we say that $p$ is a **Street fibration** if for any $f:a\to b$ and $e\in E_b$ there exists a cartesian $\phi:e'\to e$ and an _isomorphism_ $h:p(e') \cong a$ such that $f\circ h = p(\phi)$.
+Let $p\colon E\to B$ be a [[functor]].  The notion of when a morphism of $E$ is [[cartesian morphism|cartesian]] is unchanged from the version for [[Grothendieck fibrations]].  However, now we say that $p$ is a **Street fibration** if for any $f:a\to b$ in $B$ and $e\in E_b$ there exists a cartesian $\phi:e'\to e$ and an _isomorphism_ $h:p(e') \cong a$ such that $f\circ h = p(\phi)$.
 
 An [[internalization|internalized]] version of this definition can be given in any [[2-category]]; see [[fibration in a 2-category]].  The above definition corresponds to the special case of the 2-category [[Cat]].
 
