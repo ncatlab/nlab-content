@@ -112,9 +112,12 @@ See also
 
 Placing Bayesian inference in a category theoretic setting occurs in
 
-* [[Kirk Sturtz]], _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, ([ arXiv:1601.02593](https://arxiv.org/abs/1601.02593))
+* Kirk Sturtz, _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, ([ arXiv:1601.02593](https://arxiv.org/abs/1601.02593))
 
-* [[Jared Culbertson]], [[Kirk Sturtz]] _Bayesian machine learning via category theory_, ([arXiv:1312.1445](https://arxiv.org/abs/1312.1445))
+* Jared Culbertson, Kirk Sturtz, _Bayesian machine learning via category theory_, ([arXiv:1312.1445](https://arxiv.org/abs/1312.1445))
+
+* Kotaro Kamiya, John Welliaveetil, _A category theory framework for Bayesian learning_ ([arXiv:2111.14293](https://arxiv.org/abs/2111.14293))
+
 
 ### Exchangeability
 
