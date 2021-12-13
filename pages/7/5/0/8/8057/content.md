@@ -93,17 +93,17 @@ so that $Y n$ is a fixed point of $n$. Compare [[Lawvere fixed point theorem|Law
 
 Another construction is due to ([Klop 07](#Klop07)):
 
-$$Y_K = LLLLLLLLLLLLLLLLLLLLLLLLLL$$
+$$Y_K = L L L L L L L L L L L L L L L L L L L L L L L L L L$$
 
 where 
 
-$$L = \lambda abcdefghijklmnopqstuvwxyzr. r (thisisafixedpointcombinator)$$
+$$L = \lambda a b c d e f g h i j k l m n o p q s t u v w x y z r. r (t  h i s i s a f i x e d p o i n t c o m b i n a t o r)$$
 
 Note that $Y_K$ is $L$ repeated 26 times, and the string
 $thisisafixedpointcombinator$ contains 27 characters. Thus 
 
 $$\array { 
-Y_K n & = & (\lambda r. r(LLLLLLLLLLLLLLLLLLLLLLLLLLr)) n \\
+Y_K n & = & (\lambda r. r(L L L L L L L L L L L L L L L L L L L L L L L L L L r)) n \\
       & = & (\lambda r. r(Y_K r)) n \\ 
       & = & n (Y_K n)
 }$$
@@ -113,9 +113,14 @@ Y_K n & = & (\lambda r. r(LLLLLLLLLLLLLLLLLLLLLLLLLLr)) n \\
 In [[combinatory logic]] (based on the combinators $S$, $K$, and $I$), one construction is  
 
 
-$$S(K(SII)) \big(S(S(KS)K)(K(SII))\big) $$ 
+$$
+  S(K(S I I)) 
+  \big(
+    S(S(K S)K)(K(S I I))
+  \big) 
+$$ 
 
-following the standard formulas $S x y z = (x z)(y z)$, $K x y = x$ and $I x = x$, and where bracketings left unspecified are by convention to the left. For a derivation of this, see the article on [combinatory algebra](http://ncatlab.org/nlab/show/partial+combinatory+algebra#examples_of_combinators_8). 
+following the standard formulas $S x y z = (x z)(y z)$, $K x y = x$ and $I x = x$, and where bracketings left unspecified are by convention to the left. For a derivation of this, see the article on [combinatory algebra](http://ncatlab.org/nlab/show/partial+combinatory+algebra#ExamplesOfCombinators). 
 
 ### Typed $\lambda$-calculus
 
