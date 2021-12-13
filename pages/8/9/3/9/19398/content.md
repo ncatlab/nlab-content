@@ -362,7 +362,7 @@ $$
 
 1. every element of [[order of an element|order]] 2 is in its [[center of a group|center]]
 
-1. $G$ satisfies the $2p$-condition (Def.\ref{pqCondition}) for all $p$.
+1. $G$ satisfies the $2p$-condition (Def. \ref{pqCondition}) for all $p$.
 
 \end{proposition}
 ([Milnor 1957, Cor 1 & p. 627](#Milnor57))
