@@ -261,6 +261,10 @@ The following lifting properties are calculated in the category of (all) topolog
 *  $(\emptyset\longrightarrow \{o\})^{&solb;rll}$ is the class of maps 
 $A\to B$ such that each connected subset of $B$ intersects the image of $A$; for "nice" spaces it means that the map $\pi_0(A)\to \pi_0(B)$ is surjective, where "nice" means that connected componets are both open and closed. 
 
+*  $(\emptyset\longrightarrow \{o\})^{&solb;rllr}$ is the class of maps 
+of form $A\to A\sqcup B$ where $A\sqcup B$ denotes the disjoint union of $A$ and $B$. 
+
+
 *  $\{ \{z\leftrightarrow  x\leftrightarrow  y\rightarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^{&solb;l}  = \{\{c\}\longrightarrow \{o\rightarrow c\}\}^{&solb;lr}$ is the class of closed inclusions $A\subset B$ where $A$ is closed
 
 *  $\{ \{z\leftrightarrow  x\leftrightarrow  y\leftarrow c\}\longrightarrow\{z=x\leftrightarrow  y=c\} \}^{&solb;l}$ is the class of open inclusions
