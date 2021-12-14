@@ -318,7 +318,7 @@ Global unstable equivariant homotopy theory is discussed as a [[localization]] o
 
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
-* {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+* {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_, New Mathematical Monographs **34**, Cambridge University Press, 2018 ([doi:10.1017/9781108349161](https://doi.org/10.1017/9781108349161), [arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
 see also 
 
