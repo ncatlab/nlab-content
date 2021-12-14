@@ -39,16 +39,21 @@ Detailed review:
 * Keitaro Nagata, *Finite-density lattice QCD and sign problem: current status and open problems* ([arXiv:2108.12423](https://arxiv.org/abs/2108.12423))
 
 
-Original articles
+Original articles:
+
+* E. Y. Loh, Jr., J. E. Gubernatis, R. T. Scalettar, S. R. White, D. J. Scalapino, and R. L. Sugar, *Sign problem in the numerical simulation of many-electron systems* Phys. Rev. B **41** 9301 (1990) ([doi:10.1103/PhysRevB.41.9301](https://doi.org/10.1103/PhysRevB.41.9301))
 
 * {#HsuReeb08} Stephen D.H. Hsu, David Reeb, *On the sign problem in dense QCD*, Int. J. Mod. Phys. A 25, pp. 53-67 (2010) ([arXiv:0808.2987](https://arxiv.org/abs/0808.2987))
 
 * V. A. Goy, V. Bornyakov, D. Boyda, A. Molochkov, A. Nakamura, A. Nikolaev, V. Zakharov, *Sign problem in finite density lattice QCD*, Prog Theor Exp Phys (2017) 2017 (3): 031D01 ([arXiv:1611.08093](https://arxiv.org/abs/1611.08093))
 
-
 See also:
 
 * Wikipedia, _[Numerical sign problem](https://en.wikipedia.org/wiki/Numerical_sign_problem)_
+
+* Xu Zhang, Gaopei Pan, Xiao Yan Xu, Zi Yang Meng, *Sign Problem Finds Its Bounds* ([arXiv:2112.06139](https://arxiv.org/abs/2112.06139))
+
+
 
 [[!redirects sign problems in lattice QCD]]
 
