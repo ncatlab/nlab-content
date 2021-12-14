@@ -344,7 +344,7 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
 
 A notion of spectrum of units of an $E_\infty$-ring was originally described in 
 
-* [[Peter May]], _$E_\infty$ ring spaces and $E_\infty$ ring spectra_  Lecture Notes in Mathematics, Vol. 577. Springer-Verlag, Berlin, 1977. With contributions by [[Frank Quinn]], Nigel Ray, and J&#248;rgen Tornehave ([pdf](https://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf))
+* [[Peter May]], p. 54 of: _$E_\infty$ ring spaces and $E_\infty$ ring spectra_,  Lecture Notes in Mathematics, Vol. 577. Springer-Verlag, Berlin, 1977. With contributions by [[Frank Quinn]], Nigel Ray, and J&#248;rgen Tornehave ([pdf](https://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf))
 
 One explicit model was given in
 
