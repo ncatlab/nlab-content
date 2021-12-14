@@ -23,16 +23,10 @@
 The _lifting property_ is a property of a pair of [[morphism]]s in a [[category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. 
 A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples.
 
-A useful intuition is to think that the lifting property as a kind of negation:
-taking the class of morphisms having the lifting property with respect to each morphism in a class $P$ 
-is a simple way to define a class of morphisms excluding non-isomorphisms from $P$,
-in a way which is useful in a diagram chasing computation. 
+{#AsQualitativeNegation} Often it is useful to think of lifting properties as a expressing a kind of qualitative negation ("[[Quillen negation]]"): The morphisms with the left/right lifting property against those in a class $P$ tend to be characterized by properties opposite of those in $P$.
+For example, a morphism in [[Sets]] is [[surjective]] iff it has the right lifting property against the archetypical non-surjective map $\varnothing \to \{*\}$, and [[injective]] iff it has either left or right lifting property against the archetypical non-injective map  $\{x_1,x_2\}\to \{*\}$. (For more such examples see at *[[separation axioms in terms of lifting properties]]*.) 
 
-Thus, in the category _Set_ of sets, a map is  surjective iff it has the right lifting  property with respect to 
- the simplest [[surjective|non-surjection]] $\emptyset\to \{*\}$,
- and injective iff it has either left or right lifting property with respect to 
-$\{x_1,x_2\}\to \{*\}$, the simplest non-injection.
-
+## Definition
 
 \begin{definition}
 A morphism $i$ in a category has the ''left lifting property'' with respect to a morphism $p$, and $p$ also has the ''right lifting property'' with respect to $i$, sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, iff the following implication holds for each morphism $f$ and $g$ in the category:
