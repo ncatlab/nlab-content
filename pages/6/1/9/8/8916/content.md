@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -18,7 +19,9 @@
 
 In a [[finite group]] $G$, and for a [[prime number|prime]] $p$, a maximal [[p-torsion|$p$-torsion]] [[torsion subgroup|subgroup]] of $G$ is also known as a **Sylow $p$-subgroup**.
 
-## Facts
+## Properties
+
+The following statements are known as [[Sylow's theorems]], a partial converse to [[Lagrange's theorem]].
 
 Let the [[order of a group|order]] of $G$ be $ r p^k $, where $ r $ is [[coprime integer|coprime]] to $p$.
 
@@ -77,9 +80,12 @@ where we embed the [[permutation group]] via permutation [[matrices]] into the g
 
 ## Related pages
 
-* [class equation](class+equation#sylow_theorems)
+
+* [[Sylow's theorem]]
 
 * [[group actions on n-spheres]]
+
+
 
 ## References
 
@@ -89,7 +95,8 @@ See also
 
 For a generalisation of Sylow theory to [[homotopy type with finite homotopy groups|$\pi$-finite]] [[∞-groups]], that is, ∞-groups with finitely many non-trivial [[homotopy groups]] which are all [[finite group|finite]], see
 
-* [[Matan Prasma]], [[Tomer Schlank]], _Sylow theorems for ∞-groups_, ([arXiv:1602.04494](https://arxiv.org/abs/1602.04494))
+* [[Matan Prasma]], [[Tomer Schlank]], _Sylow theorems for ∞-groups_ ([arXiv:1602.04494](https://arxiv.org/abs/1602.04494))
+
 
 [[!redirects Sylow p-subgroups]]
 
