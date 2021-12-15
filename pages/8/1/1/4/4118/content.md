@@ -18,21 +18,24 @@
 
 ## Definition
 
-A group $G$ is **perfect** if it equals its own commutator subgroup $[G, G]$, i.e., if every element of $G$ is a product of commutators (elements of the form $[g, h] = g h g^{-1} h^{-1}$). 
+A ([[discrete group|discrete]]) [[group]] $G$ is **perfect** if it is [[isomorphism|isomorphic]] its own [[commutator subgroup]] $[G, G]$, i.e., if every [[element]] of $G$ is a product of [[commutators]] (elements of the form $[g, h] = g h g^{-1} h^{-1}$). 
 
-Equivalently: let $G^{ab}$ denote the [[abelianization]] of $G$ (the target of the homomorphism $G \to G^{ab}$ that is universal among homomorphisms from $G$ to [[abelian groups]], or the largest abelian quotient of $G$). Then $G$ is perfect precisely when $G^{ab}$ is a [[trivial group]], since 
+Equivalently: let $G^{ab}$ denote the [[abelianization]] of $G$ (the target of the [[homomorphism]] $G \to G^{ab}$ that is [[universal property|universal]] among homomorphisms from $G$ to [[abelian groups]], or the largest abelian quotient of $G$). Then $G$ is perfect precisely when $G^{ab}$ is a [[trivial group]], since 
 $G^{ab} \cong G/[G, G]$:
 
 $$
   G \;\; \text{perfect}
   \;\;\;\Leftrightarrow\;\;\;
   G^{ab} \;\; \text{is trivial}
+  \,.
 $$
 
 
 ## Examples
 
+\begin{example}
 The [[trivial group]] is perfect, trivially.
+\end{example}
 
 +-- {: .num_prop }
 ###### Proposition
@@ -84,6 +87,10 @@ An arbitrary colimit of perfect groups (as calculated in [[Grp]], the category o
 ###### Proof 
 The abelianization functor, being a [[left adjoint]], preserves a [[colimit]] of perfect groups $colim_i G_i$, taking it to $colim_i (G_i)^{ab} \cong \colim_i 1 \cong 1$ (since an arbitrary colimit of [[initial object]]s is again initial). 
 =-- 
+
+\begin{example}\label{TerminalEpimorphismsInInfinityGroupoids}
+  If the [[terminal object in an (infinity,1)-category|terminal map]] $\mathbf{B}G \to \ast$ out of the [[delooping groupoid]] $\mathbf{B}G$ of a [[discrete group]] $G$ is an [[epimorphism in an (infinity,1)-category|epimorphism in the $\infty$-category]] [[Infinity-Grpd|$Grpd_\infty$]] of [[infinity-groupoid|$\infty$-groupoids]], then $G$ must be perfect (see the discussion [there](epimorphism+in+an+infinity1-category#TerminalEpimorphismsInInfinityGroupoids)).
+\end{example}
 
 ## References
 
