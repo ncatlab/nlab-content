@@ -113,8 +113,9 @@ In the context of [[complex oriented cohomology theory]]
 
 ## Related concepts
 
-
 * [[fixed point space]]
+
+* [[crossed homomorphism]]
 
 * [[Sullivan conjecture]]
 
@@ -129,13 +130,20 @@ In the context of [[complex oriented cohomology theory]]
 
 [[!include homotopy type representation theory -- table]]
 
+
 ## References
+
+The original article:
 
 * {#Thomason83} [[Robert Thomason]], *The homotopy limit problem*, pages 407-419 in: [[Haynes Miller]], [[Stewart Priddy]] (eds.) *Proceedings of the Northwestern Homotopy Theory Conference*, Contemporary Mathematics **19**, AMS 1983 ([doi:10.1090/conm/019](http://dx.doi.org/10.1090/conm/019), [[ThomasonHomotopyLimit.pdf:file]])
 
-See also:
+Further discussion, for [[groupoids]] and [[stacks]]:
 
-* {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+* R. Virk, *On fixed point stacks* ([arXiv:2112.06871](https://arxiv.org/abs/2112.06871))
+
+In the context of [[complex oriented cohomology theory]]:
+
+* {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], Theorem 8.4 in: _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
 
 [[!redirects homotopy fixed points]]
