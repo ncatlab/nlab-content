@@ -87,7 +87,7 @@ $$
 of degree $0$ satisfying
 $$
 \sum_{0\leq i+j\leq n} f_{i+j+1}\circ(1^{\otimes i}\otimes D_{n-i-j}\otimes 1^{\otimes j})
-= \sum_{i_1+\ldots+i_r=n} D_r\circ (f_{i_1}\otimes\ldots f_{i_r}).
+= \sum_{i_1+\ldots+i_r=n} D_r\circ (f_{i_1}\otimes\ldots \otimes f_{i_r}).
 $$
 For example, $f_1\circ D_1 = D_1\circ f_1$.
 
