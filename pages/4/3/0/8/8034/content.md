@@ -135,6 +135,7 @@ satisfying (1)(2)(3).
 ## Related concepts
 
 * [[torsion approximation]]
+* [[torsion points of an elliptic curve]]
 
 ## References
 
