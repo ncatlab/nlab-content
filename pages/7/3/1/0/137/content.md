@@ -43,7 +43,7 @@ Stated more abstractly, this says that $f$ is an epimorphism precisely if for ev
 
 $$
   Hom(Y,Z) 
-   \stackrel{f^*}{\hookrightarrow} 
+   \xhookrightarrow{\;\; f^* \;\;}
   Hom(X,Z)
 $$
 
@@ -192,7 +192,7 @@ is a [[pushout]] diagram, then also $g$ is an epimorphism.
 
 Let $h_1,h_2 : b \to c$ be two morphisms such that $\stackrel{g}{\to} \stackrel{h_1}{\to} = \stackrel{g}{\to} \stackrel{h_2}{\to} $. Then by the commutativity of the diagram also $x \to y \to b \stackrel{h_1}{\to} c$ equals $x \to y \to b \stackrel{h_2}{\to} c$. Since $x \to y$ is assumed to be epi, it follows that $y \to b \stackrel{h_1}{\to} c$ equals $y \to b \stackrel{h_2}{\to} c$. But this means that $h_1$ and $h_2$ define the same [[cocone]]. By the universality of the pushout $b$ there is a unique map of cocones from $b$ to $c$. Hence $h_1$ must equal $h_2$. Therefore $g$ is epi. 
 
-=---
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -327,7 +327,11 @@ subject to the equations $f h = f k$ and $g h = g k$, both $f$ and $g$ are stron
 
 * [[image]], [[coimage]]
 
+* [[epimorphism in an (infinity,1)-category|epimorphism in an $(\infty,1)$-category]]
+
 * [[n-epimorphism]]
+
+
 
 [[!redirects epimorphisms]]
 [[!redirects epic]]
