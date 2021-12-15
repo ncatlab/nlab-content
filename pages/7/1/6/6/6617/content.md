@@ -53,9 +53,16 @@ Consider the problem of maximizing the function $f(x) = \langle x \vert A \vert 
 
 ## References
 
+Named after [[Joseph-Louis Lagrange]].
+
 * wikipedia [Lagrange multiplier](http://en.wikipedia.org/wiki/Lagrange_multiplier)
+
 * Springer eom: [Lagrange multipliers](http://eom.springer.de/L/l057190.htm), [Pontrjagin maximum principle](http://eom.springer.de/p/p073780.htm)
-* Lynn H. Loomis, [[S. Sternberg]], _Advanced calculus_, section 3.12 "Submanifolds and Lagrange multipliers" [[LoomisSternberg13s2.djvu:file]]
+
+* Lynn H. Loomis, [[S. Sternberg]], _Advanced calculus_, section 3.12 
+
+"Submanifolds and Lagrange multipliers" [[LoomisSternberg13s2.djvu:file]]
+
 * Robert Hermann, _Some differential-geometric aspects of the Lagrange variational problem_, Illinois J. Math. __6__, 1962, 634&#8211;673, [MR145457](http://www.ams.org/mathscinet-getitem?mr=145457),[euclid](http://projecteuclid.org/euclid.ijm/1255632711)
 * Juan Carlos Marrero, David Mart&#237;n de Diego, Ari Stern, _Lagrangian submanifolds and discrete constrained mechanics_, slides, [pdf](http://ccom.ucsd.edu/~astern/pdfs/dspde20100601.pdf)
 * Manuel de Le&#243;n, David Mart&#237;n Diego, _Solving non-holonomic Lagrangian dynamics in terms of almost product structures_, Extracta Math. 11 (1996), no. 2, 325&#8211;347, [pdf](http://digital.csic.es/bitstream/10261/2232/1/solving.pdf) [MR97m:58079](http://www.ams.org/mathscinet-getitem?mr=1437457)
