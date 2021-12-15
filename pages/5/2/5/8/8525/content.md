@@ -8,6 +8,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -66,7 +67,7 @@ $$
 
 The concept of index is meaningful especially for finite groups, i.e. groups internal to [[FinSet]]. See, for example, its role in the [[classification of finite simple groups]]. 
 
-Multiplicativity of the index has the following corollary, which is known as **Lagrange's theorem**: If $G$ is a [[finite group]], then the index of any subgroup is the quotient
+Multiplicativity of the index has the following corollary, which is known as **[[Lagrange's theorem]]**: If $G$ is a [[finite group]], then the index of any subgroup is the quotient
 
 $$
   {\vert G : H\vert} = \frac{{\vert G\vert}}{\vert H\vert}
@@ -92,5 +93,3 @@ of the [[order of a group|order]] ([[cardinality]] = number of elements) of $G$ 
 [[!redirects indexes of subgroups]]
 [[!redirects indices of subgroups]]
 
-[[!redirects Lagrange's theorem]]
-[[!redirects Lagrange's theorem]]
