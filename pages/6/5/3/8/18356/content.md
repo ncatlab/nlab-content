@@ -73,7 +73,7 @@ Every  [[Grothendieck topos]] like $Sh(\mathcal{C}, \tau)$ and $PSh(\mathcal{C})
 ###### Remark
 **(generalization to [[(∞,1)-toposes]])**
 
-For [[(∞,1)-toposes]] the accessibility of the reflection is no longer implied in general, contrary to prop. \ref{AccessibleReflection} above, but needs to be required. It is however still implied for [[topological localizations]] ([Lurie, prop. 6.2.1.5](#Lurie)). 
+For [[(∞,1)-toposes]] the accessibility of the reflection is no longer implied in general, contrary to prop. \ref{AccessibleReflection} above, but needs to be required. It is however still implied for [[topological localizations]] ([Lurie, Cor. 6.2.1.6](#Lurie)). 
 
 =--
 
