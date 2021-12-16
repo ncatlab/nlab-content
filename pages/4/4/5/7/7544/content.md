@@ -35,8 +35,11 @@ There are at least two ambiguities in the above sketch of a definition based on 
 An **elementary $(\infty,1)$-topos** is an $(\infty,1)$-category $\mathbf{E}$ such that
 
 * $\mathbf{E}$ has finite [[(∞,1)-limit|limits and colimits]]
+
 * $\mathbf{E}$ is [[locally cartesian closed (∞,1)-category|locally cartesian closed]]
+
 * There exists a [[subobject classifier]] (an [[object classifier]] that classifies the collection of all [[monomorphisms in an (∞,1)-category]])
+
 * For any morphism $f:Y\to X$ in $\mathbf{E}$, there exists an [[object classifier]] in $\mathbf{E}$ classifying a class of morphisms that (1) includes $f$ and (2) is closed under fiberwise finite limits and colimits, composition (i.e. dependent sums), and dependent products.
 =--
 
@@ -178,7 +181,7 @@ See also
 
 For an alternative definition proven (in Theorem 3.16) to be equivalent to the one given above, see
 
-* [[Nima Rasekh]], _A Theory of Elementary Higher Toposes_, ([arXiv:1805.03805](https://arxiv.org/abs/1805.03805))
+* [[Nima Rasekh]], _A Theory of Elementary Higher Toposes_, ([arXiv:1805.03805](https://arxiv.org/abs/1805.03805), [ideals:2142/101508](https://www.ideals.illinois.edu/handle/2142/101508))
 
 
 The construction of $n$-truncations without recursive HITs is in
@@ -197,7 +200,7 @@ Results holding for elementary (∞,1)-toposes:
 
 * [[Nima Rasekh]], _Yoneda Lemma for Elementary Higher Toposes_, ([arXiv:1809.01736](https://arxiv.org/abs/1809.01736))
 
-* [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734))
+* [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, Theory and Applications of Categories **37** 13 (2021) 337-377.  ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734), [tac:37-13](http://www.tac.mta.ca/tac/volumes/37/13/37-13abs.html))
 
 * [[Nima Rasekh]], _Truncations and Blakers-Massey in an Elementary Higher Topos_, ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
 
