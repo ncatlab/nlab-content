@@ -18,7 +18,7 @@
 
 ## Definition
 
-A ([[discrete group|discrete]]) [[group]] $G$ is **perfect** if it is [[isomorphism|isomorphic]] its own [[commutator subgroup]] $[G, G]$, i.e., if every [[element]] of $G$ is a product of [[commutators]] (elements of the form $[g, h] = g h g^{-1} h^{-1}$). 
+A ([[discrete group|discrete]]) [[group]] $G$ is **perfect** if it is [[isomorphism|isomorphic]] to its own [[commutator subgroup]] $[G, G]$, i.e., if every [[element]] of $G$ is a product of [[commutators]] (elements of the form $[g, h] = g h g^{-1} h^{-1}$). 
 
 Equivalently: let $G^{ab}$ denote the [[abelianization]] of $G$ (the target of the [[homomorphism]] $G \to G^{ab}$ that is [[universal property|universal]] among homomorphisms from $G$ to [[abelian groups]], or the largest abelian quotient of $G$). Then $G$ is perfect precisely when $G^{ab}$ is a [[trivial group]], since 
 $G^{ab} \cong G/[G, G]$:
@@ -58,7 +58,7 @@ Since $2I \simeq SL_2(\mathbb{F}_5)$ ([this prop.](icosahedral+group#Isomorphism
 +-- {: .num_prop} 
 ###### Proposition 
 
-The [[special linear group]] $SL_n(\mathbb{F})$ is perfect for any [[field]] $\mathbb{F}$ and any $n \geq 1$, except for the cases $SL_2(\mathbb{Z}/(2))$ and $SL_2(\mathbb{Z}/(3))$. 
+The [[special linear group]] $SL_n(\mathbb{F})$ is perfect for any [[field]] $\mathbb{F}$ and any $n \geq 1$, except for the cases $SL_2(\mathbb{F}_2)$ and $SL_2(\mathbb{F}_3)$. 
 
 =-- 
 
