@@ -16,6 +16,10 @@ The plus construction doesn't change the [[homology]] of the space but 'kills' a
 
 * [[group completion theorem]]
 
+* [[perfect group]]
+
+* [[algebraic K-theory]]
+
 ## References
 
 * [[Michel Kervaire]], *Smooth homology spheres and their fundamental groups*, Trans. Amer. Math. Soc., 144 (1969) pp. 67&#8211;72
