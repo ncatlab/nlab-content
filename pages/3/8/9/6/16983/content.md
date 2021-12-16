@@ -51,7 +51,7 @@ These taboos are unprovable in constructive homotopy type theory, but they may b
 ## References
  {#References}
 
-* [[Peter Aczel]], slide 8 of: *Constructive Set Theory*, 2008 ([pdf](http://www.cs.man.ac.uk/~petera/mathlogaps-slides.pdf))
+* {#Aczel08Slides} [[Peter Aczel]], slide 8 of: *Constructive Set Theory*, 2008 ([pdf](http://www.cs.man.ac.uk/~petera/mathlogaps-slides.pdf))
 
 > A mathematical taboo is a statement that we may not want
 to assume false, but we definitely do not want to be able to prove.
