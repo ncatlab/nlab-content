@@ -196,7 +196,7 @@ Discussion of [[equivariant K-theory|equivariant]] and [[twisted K-theory|twiste
 
 * {#Freed12} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([[FreedESI2012.pdf:file]])
 
-* [[Daniel Freed]], [[Gregory Moore]], Section 7 of: _Twisted equivariant matter_,  Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+* [[Daniel Freed]], [[Gregory Moore]], Section 7 of: _Twisted equivariant matter_,  Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007%2Fs00023-013-0236-x](https://link.springer.com/article/10.1007%2Fs00023-013-0236-x))
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
 
@@ -237,7 +237,7 @@ which is reviewed and amplified further in
 
 Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] in degree 3 via [[bundle gerbes]] ([[Jandl gerbes]]) suitable for classifying [[D-brane charge]] on [[orientifolds]]:
 
-* [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_, Adv. Theor. Math. Phys. 23 (2019) 2093-2159, DOI:[10.4310/ATMP.2019.v23.n8.a5](https://doi.org/10.4310/ATMP.2019.v23.n8.a5) ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
+* [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_, Adv. Theor. Math. Phys. 23 (2019) 2093-2159, [doi:10.4310/ATMP.2019.v23.n8.a5](https://doi.org/10.4310/ATMP.2019.v23.n8.a5) ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
 
 * {#HMSV19} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_, Commun. Math. Phys. 378, 1843–1873 (2020) ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041))
 
