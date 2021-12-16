@@ -513,7 +513,7 @@ The simplicial set $W G$ is that whose
       \,
       \cdots,
       \,
-      g_{n-1},
+      g_{n-i},
       \,
       e,
       \,
