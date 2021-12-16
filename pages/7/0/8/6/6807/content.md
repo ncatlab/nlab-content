@@ -46,27 +46,26 @@ See also at _[[membrane matrix model]]_.
  {#OpenProblems}
 
 ### General
+ {#OpenProblemsGeneral}
 
-In the 90s there was much excitement about the BFSS model, as people hoped it might provide a definition of [[M-theory]]. It is from these times that [[Edward Witten]] changed the original suggestion that "M" is for "magic, mystery and membrane" to the suggestion that it is for "magic, mystery and matrix". (See [Witten's 2014 Kyoto prize speech](M-theory#Witten14), last paragraph.) 
+In the 1990s there was much excitement about the BFSS model (and then its cousin, the [[IKKT matrix model]]), as people hoped it might provide a definition of [[M-theory]], whose formulation remains [elusive](M-theory#TheOpenProblem). It is from these times that [[Edward Witten]] changed the original suggestion that "M" is for "magic, mystery and membrane" to the suggestion that it is for "magic, mystery and matrix". (See [Witten's 2014 Kyoto prize speech](M-theory#Witten14), last paragraph.) 
 
-However, while the BFSS matrix model clearly sees something M-theoretic, just as clearly it is not the full answer. Notably it needs for its definition an ambient asympototic Minkowski background, a light cone limit and a peculiar scaling of [[string coupling]] over [[string length]], all of which means that it pertains to a particular corner of a full theory. 
+However, while the BFSS matrix model clearly sees something M-theoretic, just as clearly it is not the full answer. Notably it needs for its definition an ambient [[asymptotic boundary|asymptotic]] [[Minkowski spacetime]] [[background field|background]], a light cone limit and a peculiar scaling of [[string coupling]] over [[string length]], all of which means that it pertains to a particular corner of a full theory. 
 
-From [Nicolai-Helling 98, p. 2](#NicolaiHelling98):
+From [Nicolai-Helling 1998, p. 2](#NicolaiHelling98):
 
 > Despite the recent excitement, however, we do not think that M(atrix) theory and the $d= 11$ supermembrane in their present incarnation are already the final answer in the search for M-Theory, even though they probably are important pieces of the puzzle. There are still too many ingredients missing that we would expect the final theory to possess. For one thing, we would expect a true theory of quantum gravity to exhibit certain pregeometrical features corresponding to a “dissolution” of space-time and the emergence of some kind of non-commutative geometry at short distances; although the matrix model does achieve that to some extent by replacing commuting coordinates by non-commuting matrices, it seems to us that a still more radical departure from conventional ideas about space and time may be required in order to arrive at a truly background independent formulation (the matrix model “lives” in nine _flat_ transverse dimensions only). Furthermore, there should exist some huge and so far completely hidden symmetries generalizing not only the duality symmetries of extended supergravity and string theory, but also the principles underlying general relativity.
 
-From [Mohammed-Murugan-Nastase 10, p. 6](#MohammedMuruganNastase10):
+From [Mohammed-Murugan-Nastase 2010, p. 6](#MohammedMuruganNastase10):
 
->  If Matrix theory is to correctly describe M-theory (and its dimensional reduction to type IIA string theory) then it should
-be able to describe all D−branes in the theory and not just D2−branes. For example, a D4−brane wrapping an $S^4$ was found in [9], following the earlier works of [10, 11], but the solution is not without several unresolved subtleties. In general, finding the complete spectrum of D−branes from Matrix
+>  If Matrix theory is to correctly describe M-theory (and its dimensional reduction to type IIA string theory) then it should be able to describe all D−branes in the theory and not just D2−branes. For example, a D4−brane wrapping an $S^4$ was found in [9], following the earlier works of [10, 11], but the solution is not without several unresolved subtleties. In general, finding the complete spectrum of D−branes from Matrix
 theory remains a very difficult problem. The D2− and D4−branes already found are reductions to
 ten dimensions of M2− and M5−branes, and while they are a minimum necessary for the spectrum of M-theory, they are by no means sufficient. Indeed, we would also need to find a D6−brane, coming from an eleven dimensional KK monopole, and a D8−brane.
 
 Then, even assuming that all the crucial [[generalized (Eilenberg-Steenrod) cohomology|cohomological]] aspects of [[D-brane]] and [[M-brane]] charges (in [[twisted differential K-theory]], [[twisted cohomotopy]] etc.) are secretly encoded in the matrix model, somehow, none of this is manifest, making the matrix model spit out numbers about a conceptually elusive theory in close analogy to how [[lattice QCD]] produces numbers without informing us about the actual conceptual nature of [[confinement|confined]] [[hadron]] physics.
 
 
-
-A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _[[Physical Mathematics and the Future]]_ ([here](Physical+Mathematics+and+the+Future#AGoodStartWasGivenByTheMatrixTheory)):
+A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _[[Physical Mathematics and the Future]]_ (2014, [here](Physical+Mathematics+and+the+Future#AGoodStartWasGivenByTheMatrixTheory)):
 
 > A good start $[$with defining M-theory$]$ was given by the Matrix theory approach of Banks, Fischler, Shenker and Susskind. We have every reason to expect that this theory produces the correct scattering amplitudes of modes in the 11-dimensional supergravity multiplet in 11-dimensional Minkowski space - even at energies sufficiently large that black holes should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of M-theory. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[$...$]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics.
 
