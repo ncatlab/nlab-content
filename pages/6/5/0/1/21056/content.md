@@ -9,6 +9,9 @@ A [[fuzzy 2-sphere]]-[[rotation]] [[invariant]] [[multi-trace observable]] on th
 <img src="https://ncatlab.org/nlab/files/InvariantMultiTraceObservableOnBMNModelStates.jpg" width="600">
 </center>
 
+> (from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
+
+
 Here we are showing the corresponding [[string diagram]]/[[Penrose notation]] for [[metric Lie representations]], which makes manifest that 
 
 1. these multi-trace observables are encoded by [[Sullivan chord diagrams]] $D$ 
@@ -21,7 +24,9 @@ Or equivalently, if $\widehat D$ is a [[horizontal chord diagram]] whose $\sigma
 <img src="https://ncatlab.org/nlab/files/MultiTraceObservableFromSullivanChordDiagramII.jpg" width="800">
 </center>
 
+> (from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
+
+
 But since [[all horizontal weight systems are partitioned Lie algebra weight systems]] this way, this identifies supersymmetric states of the BMN matrix model as seen by invariant multi-trace observables as [[horizontal chord diagrams]] evaluated in [[Lie algebra weight systems]].
 
 
-> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
