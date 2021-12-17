@@ -60,9 +60,7 @@ If follows that every [[object]] in a locally presentable category is a [[small 
 +-- {: .num_remark}
 ###### Remark
 
-The _locally_ in _locally presentable category_ refers to the fact that it is the _objects_  that are presentable, not the category as such (which is itself an object [[Cat]]).
-
-For instance, consider the notion of "locally finitely presentable category", def. \ref{LocallyFinitelyPresentable} below, in which the generating set $S$ consists of [[finitely presentable objects]], i.e. $\omega$-small ones. If one dropped the word "locally" then one would get the notion "[[finitely presentable category]]" which means something completely different, namely a [[finitely presentable object|finitely presentable]] ($\omega$-small) object of [[Cat]].
+The _locally_ in _locally presentable category_ refers to the fact that it is the _objects_  that are presentable, not the category as such (which is itself an object of [[Cat]]). This permits the distinction between, for instance, between locally presentable categories, and [[finitely presentable objects]] of [[Cat]], which could be called "finitely presentable category". In practice, however, it is common to drop "locally" from "locally presentable category" without modifying the meaning.
 
 =--
 
@@ -187,7 +185,7 @@ Locally presentable categories are [[complete category|complete]].
 
 A reflective subcategory of a complete category is complete, since [[monadic functor|monadic functors]] reflect limits, and the above proposition shows that any locally presentable category is a reflective subcategory of a presheaf category, which is complete. 
 
-=---
+=--
 
 
 ### Finite presentability and Gabriel--Ulmer duality 
