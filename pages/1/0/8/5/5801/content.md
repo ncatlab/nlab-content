@@ -26,7 +26,7 @@ In that paper,
 
 page 324, "Characteristik" (number) seems to appear for the first time:
 
-> Die Zahl a heisst due Characteristik des $m$-Feldes $\mathfrak{F}$ auf der Sphaere $S^r = S^{n-m}$.
+> Die Zahl a heisst die Charakteristik des $m$-Feldes $\mathfrak{F}$ auf der Sphäre $S^r = S^{n-m}$.
 
 * E. Stiefel at German [wikipedia](http://de.wikipedia.org/wiki/Eduard_Stiefel)
 * Eduard Stiefel, _&#220;ber Richtungsfelder in den projektiven R&#228;umen und einen Satz aus der reellen Algebra_, Comm. Math. Helv. _13_, 201-218 (1940-1941) [perm URL](http://resolver.sub.uni-goettingen.de/purl?GDZPPN002053217)
