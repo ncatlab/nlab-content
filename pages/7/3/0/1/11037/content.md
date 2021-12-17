@@ -95,7 +95,7 @@ $$A \wedge B \vdash A \wedge B
 
 reconstructs the identity on $A \wedge B$ from identities on $A$ and on $B$, by first applying the ${\wedge}R$ rule followed by the two ${\wedge}L$ rules (reading the derivation on the right bottom-up).
 
-(Compare these two conversions arising from cut- and identity-elimination to the lambda calculus conversions $(\lambda x.t_1) t_2 \to t_2[t_1/x]$ and $t \to \langle\pi_1t,\pi_2 t\rangle$, i.e., a $\beta$ reduction and an $\eta$ expansion respectively.)
+(Compare these two conversions arising from cut- and identity-elimination to the lambda calculus conversions $(\lambda x.t_1) t_2 \to t_1[t_2/x]$ and $t \to \langle\pi_1t,\pi_2 t\rangle$, i.e., a $\beta$ reduction and an $\eta$ expansion respectively.)
 
 
 ## Alternative forms of the cut rule  
