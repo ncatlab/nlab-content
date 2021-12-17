@@ -264,7 +264,7 @@ $$
   \,.
 $$
 
-Under this identification, the adjunction is the canonical left [[base change]] on slices composed with the [[n-truncated object of an (infinity,1)-category|0-truncation]] reflection ([here](n-truncated+object+of+an+infinity1-category#nTruncationReflection)):
+Under this identification, the adjunction is the canonical left [[base change]] on [[slice (infinity,1)-category|slices]] composed with the [[n-truncated object of an (infinity,1)-category|0-truncation]] reflection ([here](n-truncated+object+of+an+infinity1-category#nTruncationReflection)):
 
 \begin{tikzcd}
   (\mathrm{Grpd}_1^{\mathrm{cn}})_{/ B \widehat{G}}
