@@ -1319,8 +1319,10 @@ In the form of the resulting composite bijection, this statement appears as [May
 
 
 ## References
+ {#References}
 
 ### Equivariant fiber bundles
+ {#ReferencesEquivariantFiberBundles}
 
 On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 
@@ -1404,6 +1406,12 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
 * {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]], _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565))
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
+
+
+* {#Rezk16} [[Charles Rezk]], *Classifying spaces for 1-truncated compact Lie groups*, Algebr. Geom. Topol. **18** (2018) 525-546 ([arXiv:1608.02999](https://arxiv.org/abs/1608.02999))
+
+  > (for [[structure group]] a [[1-truncated]] [[compact Lie group]] commuting with the [[equivariance group]])
+
 
 Review and examples over the [[2-sphere]]:
 
