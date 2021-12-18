@@ -64,8 +64,6 @@ If $F$ is the [[formal completion]] of a [[number field]] $K$, then the ring of 
 
 * For $K$ the [[Gaussian numbers]] then $\mathcal{O}_K$ is the ring of [[Gaussian integers]].
 
-* The ring of integers of the field $\mathbb{F}_q((t))$ of [[Laurent series]] with [[coefficients]] in a [[finite field]] is the ring of [[formal power series]] $\mathbb{F}_q[ [t] ]$.
-
 * The ring of integers of a [[cyclotomic field]] $\mathbb{Q}(\zeta_n)$ is $\mathbb{Z}[\zeta_n]$, called the ring of [[cyclotomic integers]].
 
 ## Properties
@@ -80,6 +78,12 @@ A ring of integers is a [[Dedekind domain]].
 
 
 ## References
+
+Lecture notes:
+
+* [[James Milne]], Chapter 2 of: *Algebraic number theory*, 2020 ([pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf))
+
+See also:
 
 * Wikipedia, _[Ring of integers](http://en.wikipedia.org/wiki/Ring_of_integers)_
 
