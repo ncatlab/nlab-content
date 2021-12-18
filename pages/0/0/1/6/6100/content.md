@@ -36,17 +36,13 @@ The existence of the [[Thomason model structure]] ([below](#ThomasonModelStructu
 ## Definition
 
 Write
-
 $$
   N \colon Cat \to sSet
 $$
-
 for the [nerve functor](nerve#NerveOfACategory) from [[Cat]] to [[sSet]]. Write
-
 $$
   {\vert - \vert} : sSet \to Top
 $$
-
 for the [[geometric realization]] of [[simplicial sets]] from [[sSet]] to [[Top]].
 
 The _geometric realization of categories_ is the [[composition|composite]] of these two operations:
