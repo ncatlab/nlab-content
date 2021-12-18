@@ -5,7 +5,7 @@ See [www.jmilne.org](http://www.jmilne.org)
 ## Selected writings:
  {#SelectedWritings}
 
-On [[etale cohomology]]:
+On [[étale cohomology]]:
 
 * _[[Étale Cohomology]]_, Princeton Mathematical Series __33__, 1980. xiii+323 pp. ([jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1))
 
@@ -19,6 +19,13 @@ On [[Shimura varieties]]:
 On [[algebraic groups]]:
 
 * {#Milne17} [[James Milne]], *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+
+
+On [[algebraic number theory]]:
+
+* [[James Milne]], *Algebraic number theory*, 2020 ([pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf))
+
+
 
 ## Related entries
 
