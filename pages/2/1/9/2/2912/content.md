@@ -49,9 +49,13 @@ On [[homotopy commutative diagrams]]:
 
 On [[homotopy limits]]:
 
-* _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_
+* *[[Homotopy Limits, Completions and Localizations]]*
 
-* [[Homotopy Limits, Completions and Localizations]]
+
+On [[derived functors]] such as [[homotopy limit]]-functors on [[model categories]] and more general [[homotopical categories]]:
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+
 
 ## Related $n$Lab entries 
 
