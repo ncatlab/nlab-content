@@ -47,15 +47,18 @@ On [[homotopy theory]] and [[model categories]]:
 
   in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
+On [[derived functors]] such as [[homotopy limit]]-functors on [[model categories]] and more general [[homotopical categories]]:
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+
 
 On [[homotopy theory]] and [[classifying spaces]]:
 
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes, Copenhagen 2008, ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf), [[Dwyer_HomotopyTheoryOfClassifyingSpaces.pdf:file]])
 
 
-## Books
 
-* [[Homotopy Limit Functors on Model Categories and Homotopical Categories]]
+See also:
 
 * [[Homotopy theoretic methods in group cohomology]]
 
