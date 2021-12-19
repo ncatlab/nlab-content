@@ -17,7 +17,7 @@
 #Contents#
 * table of contents
 {:toc}
-
+C
 ## Idea
 
 [Wikipedia](https://en.wikipedia.org/wiki/Valuation_%28algebra%29) says very succinctly
@@ -92,9 +92,12 @@ The field $\mathbb{Q}$ admits a $p$-adic valuation, whose completion is the fiel
 * {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
 
 
-* wikipedia [valuation (algebra)](http://en.wikipedia.org/wiki/Valuation_%28algebra%29)
-* A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965. (Especially chapters 1,2)
-* Serge Lang, _Algebraic number theory_, GTM __110__, Springer 1970, 2000
+* Wikipedia, *[valuation (algebra)](http://en.wikipedia.org/wiki/Valuation_%28algebra%29)*
+
+* {#FroehlichCassels67} [[Albrecht Fröhlich]], [[J. W. S. Cassels]] (eds.), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fröhlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965 (ISBN:9780950273426, [pdf](https://www.math.arizona.edu/~cais/scans/Cassels-Frohlich-Algebraic_Number_Theory.pdf), [errata pdf](https://www.ma.imperial.ac.uk/~buzzard/errata.pdf) by [[Kevin Buzzard]])
+
+* [[Serge Lang]], _Algebraic number theory_, GTM __110__, Springer 1970, 2000
+
 * [[Ehud Hrushovski]], [[David Kazhdan]], _The value ring of geometric motivic integration and the Iwahori Hecke algebra of $SL 2$_, [math.LO/0609115](http://arxiv.org/abs/math/0609115); _Integration in valued fields_, in Algebraic geometry and number theory, 261&#8211;405, Progress. Math. __253__, Birkh&#228;user Boston, [pdf](http://math.huji.ac.il/~ehud/papers/intv-060428.pdf)
 * A H Lightstone, Abraham Robinson, _Nonarchimedean fields and asymptotic expansions_, North-Holland Publ. 1976
 
