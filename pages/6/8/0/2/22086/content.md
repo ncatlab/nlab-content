@@ -19,18 +19,23 @@ See also:
 * [[Richard Blute]], [[Prakash Panangaden]], [[Dorette Pronk]], _Conformal field theory as a nuclear functor_, Electronic Notes in Theoretical Computer Science Volume 172, 1 April 2007, Pages 101-132 GDP Festschrift ([pdf](http://aix1.uottawa.ca/~rblute/conf.pdf), [doi:10.1016/j.entcs.2007.02.005](https://doi.org/10.1016/j.entcs.2007.02.005))
 
 
+A different but closely analogous development for chiral 2d CFT ([[vertex operator algebras]], see [there](vertex+operator+algebra#AsOperadAlgebras) for more):
+
+* {#Huang91} [[Yi-Zhi Huang]], _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA __88__ (1991) pp. 9964-9968 ([doi:10.1073/pnas.88.22.9964](https://doi.org/10.1073/pnas.88.22.9964))
 
 
 
-
-Suggestions for how to refine this to an [[extended TQFT|extended]] [[2-functor|2-functorial]] construction:
+Early suggestions to refine this to an [[extended TQFT|extended]] [[2-functor|2-functorial]] construction:
 
 * [[Stefan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
-
-* [[André Henriques]], *The complex cobordism 2-category*, 2021 ([video](http://andreghenriques.com/ComplexCob2CatandCentralExt.mp4))
 
 A step towards generalization to [[2d super-conformal field theory]]:
 
 * [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in: [[Hisham Sati|H. Sati]], [[Urs Schreiber|U. Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics 83 (2011), 279--340 ([arXiv:1108.0189](https://arxiv.org/abs/1108.0189), [doi:10.1090/pspum/083/2742432](https://doi.org/10.1090/pspum/083))
+
+Discussion of 2-functorial chiral 2d CFT:
+
+* [[André Henriques]], *The complex cobordism 2-category*, 2021 ([video](http://andreghenriques.com/ComplexCob2CatandCentralExt.mp4))
+
 
 [[!redirects D=2 CFT a functorial field theory -- references]]
