@@ -1,5 +1,5 @@
 
-* [website](http://matematicas.uniandes.edu.co/~buribe/)
+* [website](https://sites.google.com/site/bernardouribejongbloed/)
 
 ## Selected writings
 
