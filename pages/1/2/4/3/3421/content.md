@@ -77,6 +77,6 @@ The [[universal construction]]s of [[category theory]] generalize, with unique e
 
 ## References
 
-See the references at _[[(infinity,1)-category]]_.
+See the references at _[[(infinity,1)-category|$(\infty,1)$-category]]_.
 
 [[!redirects (∞,1)-category theory]]
