@@ -17,19 +17,22 @@
 
 This entry is about the book
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
-  [[Jeff Smith]],
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]],
 
-  _Homotopy Limit Functors on Model Categories
-and Homotopical Categories_
+  **Homotopy Limit Functors on Model Categories
+and Homotopical Categories**
 
-  volume 113 of Mathematical Surveys and Monographs.
+  Mathematical Surveys and Monographs **113**
 
-  ([pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+  AMS 2004
 
-on the theory of [[homotopical categories]] and [[model categories]] -- a presentation of [[(∞,1)-categories]] -- their  [[simplicial localization]]/[[homotopy categories]] and [[derived functors]] such as [[homotopy limit]] functors.
+  [ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s)
 
-Compare also
+  [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf)
+
+on the theory of [[homotopical categories]] and [[model categories]] -- a presentation of [[(∞,1)-categories]] --, their  [[simplicial localization]]/[[homotopy categories]] and [[derived functors]] such as [[homotopy limit]] functors.
+
+Compare also:
 
 * [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
 
