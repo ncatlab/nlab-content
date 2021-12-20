@@ -45,6 +45,18 @@ is finitely generated over $\mathbb{Z}[\alpha]$ and therefore, since $\alpha$ is
 
 * [[ring of integers]]
 
+## References
+
+Textbook account:
+
+* {#Cassels86} [[J. W. S. Cassels]], Section 10.3 of: *Local Fields*, Cambridge University Press, 1986 (ISBN:9781139171885, [doi:10.1017/CBO9781139171885](https://doi.org/10.1017/CBO9781139171885)) 
+
+Lecture notes:
+
+* [[James Milne]], Chapter 2 of: *Algebraic number theory*, 2020 ([pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf))
+
+
+
 [[!redirects algebraic integer]]
 [[!redirects algebraic integers]]
 
