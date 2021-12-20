@@ -473,9 +473,35 @@ With emphasis on [[surface holonomy]]:
 
 * [[Jürgen Fuchs]], [[Thomas Nikolaus]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Bundle Gerbes and Surface Holonomy_ ([arXiv:0901.2085](https://arxiv.org/abs/0901.2085))
 
-Review with emphasis on bundle gerbes over [[Lie groups]]:
+Bundle gerbes over [[Lie groups]]:
+
+* {#Brylinski00} [[Jean-Luc Brylinski]], *Gerbes on complex reductive Lie groups* ([arXiv:math/0002158](https://arxiv.org/abs/math/0002158))
+
+* {#Meinrenken02} [[Eckhard Meinrenken]], *The basic gerbe over a compact simple Lie group*, Enseign. Math. **49** 3-4 (2003) 307--333 ([arXiv:math/0209194](https://arxiv.org/abs/math/0209194), [doi:10.5169/seals-66691](https://dx.doi.org/10.5169/seals-66691)) 
 
 * [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, In: KH. Neeb, A. Pianzola  (eds) _Developments and Trends in Infinite-Dimensional Lie Theory_, Progress in Mathematics, vol 288. Birkhäuser Boston 2011 ([arXiv:0710.5467](https://arxiv.org/abs/0710.5467), [doi:10.1007/978-0-8176-4741-4_10](https://doi.org/10.1007/978-0-8176-4741-4_10))
 
+* {#Krepski17} [[Derek Krepski]], *Basic equivariant gerbes on non-simply connected compact simple Lie groups*, Journal of Geometry and Physics **133** (2018) 30-41 ([arXiv:1712.08294](https://arxiv.org/abs/1712.08294), [doi:10.1016/j.geomphys.2018.06.016](https://doi.org/10.1016/j.geomphys.2018.06.016))
+
+
+{#ReferencesEquivariant} On [[equivariant infinity-bundle|equivariant bundle gerbes]]:
+
+with a restrictive notion of equivariance ("strong" equivariance):
+
+* [Brylinski 2000, from p. 28](#Brylinski00)
+
+* [[Varghese Mathai]], [[Danny Stevenson]], *Chern character in twisted K-theory: equivariant and holomorphic cases*, Commun. Math. Phys. **236** 161-186, 2003 ([arXiv:hep-th/0201010](https://arxiv.org/abs/hep-th/0201010), [doi:10.1007/s00220-003-0807-7](https://doi.org/10.1007/s00220-003-0807-7))
+
+* [Meinrenken 2002, Sec. 2.4](#Meinrenken02)
+
+* [[Kiyonori Gomi]], *Reduction of strongly equivariant bundle gerbes with connection and curving* ([arXiv:math/0406144](https://arxiv.org/abs/math/0406144))
+
+with a general notion of higher equivariance:
+
+* [[Thomas Nikolaus]], [[Christoph Schweigert]], *Equivariance In Higher Geometry*, Adv. Math., 226(4): 3367-3408, 2011 ([arXiv:1004.4558](https://arxiv.org/abs/1004.4558), [doi:10.1016/j.aim.2010.10.016](https://doi.org/10.1016/j.aim.2010.10.016))
+
+* [[Michael Murray]], [[David Michael Roberts]], [[Danny Stevenson]], [[Raymond Vozzo]],  *Equivariant bundle gerbes*, Advances in Theoretical and Mathematical Physics 21 (2017) no. 4 pp 921-975 ([arXiv:1506.07931](https://arxiv.org/abs/1506.07931), [doi:10.4310/ATMP.2017.v21.n4.a3](https://dx.doi.org/10.4310/ATMP.2017.v21.n4.a3))
+
+* [Krepski 2017](#Krepski17)
 
 [[!redirects bundle gerbes]]
