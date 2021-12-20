@@ -17,10 +17,10 @@
 ## Idea
 
 Numbers like $\sqrt{3}$ and ${}^5\sqrt{3}$ look tied to the usual integers: indeed they are obtained from an integer number by doing operation of 2nd or 5th root. 
-More generally, we can start with the usual integer numbers and do similar algebraic operations, namely form monic polynomials with such integer coefficients
-and search for roots in a larger ring, obtaining 
-generalized integers as solutions of a monic polynomial equation, which makes sense in an arbitrary commutative ring. 
-If we look for solutions of monic equations within $\mathbb{Q}$, the field of rationals, we get nothing new, just the usual integers. 
+More generally, we can start with the usual integer numbers and do similar algebraic operations, namely form monic polynomials with such integer coefficients and search for roots in a larger ring, obtaining 
+generalized integers -- called *[[algebraic integers]]* -- as solutions of a monic polynomial equation, which makes sense in an arbitrary commutative ring. 
+
+If we look for solutions of monic equations within $\mathbb{Q}$, the field of rationals, we get nothing new, just the usual [[integers]]. 
 Thus the __integral elements in a ring__ generalize integers in 
 wide context and form a "ring of integers" within a larger ring.
 This generalizes the standard [[integers]] inside the [[field]] of [[rational numbers]] to various situations like [[number fields]] and [[local field|local]] [[non-archimedean fields]]. 
@@ -29,14 +29,13 @@ This generalizes the standard [[integers]] inside the [[field]] of [[rational nu
 
 ### General definition
 
-In any unital ring $R$ one can identify the ring $\mathbb{Z}$ with the subring
-$\{ n 1_R | n\in\mathbb{Z}\}\subseteq R$ of all multiples $\pm 1_R, \pm (1_R+1_R), \pm(1_R+1_R+1_R),\ldots$ of the unit element $1_R$. The ring $R$ is then a left and right module over $\mathbb{Z}$ via the multiplication with
-the corresponding multiple of unit, that is $n.m = (n 1_R)\cdot m$. 
+In any [[unital ring]] $R$ one can identify the ring $\mathbb{Z}$ with the subring $\{ n 1_R | n\in\mathbb{Z}\}\subseteq R$ of all multiples $\pm 1_R, \pm (1_R+1_R), \pm(1_R+1_R+1_R),\ldots$ of the unit element $1_R$. The ring $R$ is then a left and right [[module]] over $\mathbb{Z}$ via the multiplication with the corresponding multiple of unit, that is $n.m = (n 1_R)\cdot m$. 
 
-An __integer__ in a commutative ring $R$ is any element
-$r\in R$ which satisfies equation $P(r) = 0$ 
-where $P$ is a nontrivial [[polynomial]] whose coefficients are multiplies of $1_R$ and the top degree coefficient is $1_R$ (in other words, a [[root]] of a monic polynomial in $R$ with the coefficients in $\mathbb{Z}$). 
-It can be checked that the set of integers
+An __[[algebraic integer]]__ in a commutative ring $R$ is any element
+$r \in R$ which satisfies [[equation]] $P(r) = 0$ 
+where $P$ is a nontrivial [[polynomial]] whose [[coefficients]] are multiplies of $1_R$ and the top degree coefficient is $1_R$ (in other words, a [[root]] of a monic polynomial in $R$ with the coefficients in $\mathbb{Z}$). 
+
+It can be checked that the set of [[algebraic integers]]
 (also said to be integral elements) in $R$ (also said the _ring of integers of_ $R$) is closed with respect to addition, multiplication and taking the negative of an element, hence a subring of $R$, which is moreover containing the usual integers $\mathbb{Z} 1_R$ as unique solutions for $x\in R$ of equations $1_R \cdot x - n 1_R = 0$.
 
 ### Notation in number theory
@@ -79,6 +78,12 @@ A ring of integers is a [[Dedekind domain]].
 
 ## References
 
+
+Textbook account:
+
+* {#Cassels86} [[J. W. S. Cassels]], Section 10.3 of: *Local Fields*, Cambridge University Press, 1986 (ISBN:9781139171885, [doi:10.1017/CBO9781139171885](https://doi.org/10.1017/CBO9781139171885)) 
+
+
 Lecture notes:
 
 * [[James Milne]], Chapter 2 of: *Algebraic number theory*, 2020 ([pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf))
@@ -97,3 +102,4 @@ The following paper shows that the subset of integers is definable in $\mathbb{Q
 [[!redirects ring of algebraic integers]]
 [[!redirects rings of algebraic integers]]
 [[!redirects integral element in a ring]]
+
