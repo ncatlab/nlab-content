@@ -36,13 +36,17 @@ We call it the **2-trivial model structure**, as it is a 2-categorical analogue 
 
 * Every object is fibrant and cofibrant.
 
-* In [[Cat]], this produces the [[canonical model structure]].
-
-* In the 2-category of spaces, continuous functions and homotopy classes of homotopies, this produces the [[model structure on topological spaces#Hurewicz (or Strøm) Model Structure|Hurewicz model structure]].
-
 * By duality, any such category has another model structure, with the same weak equivalences but where the cofibrations are the iso-cofibrations and the fibrations are determined.  In $Cat$, the two model structures are the same.
 
+## Examples
+
+* In [[Cat]], this produces the [[canonical model structure]].
+
 * If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable]] [[strict 2-category]] $K$.  Then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a [[transferred model structure]] from the 2-trivial model structure on $K$.  The cofibrant objects therein are the [[flexible algebra]]s.
+
+## Related pages
+
+* In model categories built from various kinds of [[topological spaces]], there are often analogous [[model structure on topological spaces#Hurewicz (or Strøm) Model Structure|Hurewicz model structures]].  These are not actually examples of a 2-trivial model structure (for instance, the 2-category of spaces, continuous functions and homotopy classes of homotopies does not have finite limits as a 2-category, or even as a 1-category), but they share a common intuition and can sometimes be obtained as two instances of a more general construction.
 
 ## References
 
