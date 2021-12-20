@@ -77,6 +77,12 @@ In any case, the second meaning certainly occurs in the literature, as in the fa
 
 ## References
 
+
+* {#Cassels86} [[J. W. S. Cassels]], *Local Fields*, Cambridge University Press, 1986 (ISBN:9781139171885, [doi:10.1017/CBO9781139171885](https://doi.org/10.1017/CBO9781139171885)) 
+
+
+See also:
+
 * Wikipedia, _[Local field](http://en.wikipedia.org/wiki/Local_field)_
 
 [[!redirects local field]]
