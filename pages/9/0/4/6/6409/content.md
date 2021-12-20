@@ -96,6 +96,9 @@ The field $\mathbb{Q}$ admits a $p$-adic valuation, whose completion is the fiel
 
 * {#FroehlichCassels67} [[Albrecht Fröhlich]], [[J. W. S. Cassels]] (eds.), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fröhlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965 (ISBN:9780950273426, [pdf](https://www.math.arizona.edu/~cais/scans/Cassels-Frohlich-Algebraic_Number_Theory.pdf), [errata pdf](https://www.ma.imperial.ac.uk/~buzzard/errata.pdf) by [[Kevin Buzzard]])
 
+* {#Cassels86} [[J. W. S. Cassels]], Chapter 2 in: *Local Fields*, Cambridge University Press, 1986 (ISBN:9781139171885, [doi:10.1017/CBO9781139171885](https://doi.org/10.1017/CBO9781139171885)) 
+
+
 * [[Serge Lang]], _Algebraic number theory_, GTM __110__, Springer 1970, 2000
 
 * [[Ehud Hrushovski]], [[David Kazhdan]], _The value ring of geometric motivic integration and the Iwahori Hecke algebra of $SL 2$_, [math.LO/0609115](http://arxiv.org/abs/math/0609115); _Integration in valued fields_, in Algebraic geometry and number theory, 261&#8211;405, Progress. Math. __253__, Birkh&#228;user Boston, [pdf](http://math.huji.ac.il/~ehud/papers/intv-060428.pdf)
@@ -103,6 +106,8 @@ The field $\mathbb{Q}$ admits a $p$-adic valuation, whose completion is the fiel
 
 check out ([Scholze 11, def. 22, remark 2.3](perfectoid%20space#Scholze11))
 
+
 [[!redirects valuations]]
 [[!redirects valued field]]
 [[!redirects valued fields]]
+
