@@ -48,7 +48,7 @@ its [[preimage]] $\phi^{-1}(U) \subset \mathbb{R}^n$ is open in the [[Euclidean 
 
 The concept originates with:
 
-* {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], Def. 1.2.3 in: _Fibrations diff&#233;ologiques et Homotopie_,  Dissertation (1985) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/D9DD15EE-6993-4CA3-8B9B-4FC1DEF4A418.html), [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf), [[IglesiasZemmourFibrationsDiffeologiques1985.pdf:file]])
+* {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], Def. 1.2.3 in: _Fibrations diff&#233;ologiques et Homotopie_,  Doctoral thesis (1985) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/D9DD15EE-6993-4CA3-8B9B-4FC1DEF4A418.html), [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf), [[IglesiasZemmourFibrationsDiffeologiques1985.pdf:file]])
 
 * {#IglesiasZemmour13} [[Patrick Iglesias-Zemmour]], Section 2.8 of: _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
 
