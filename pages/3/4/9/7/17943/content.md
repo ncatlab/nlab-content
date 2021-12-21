@@ -30,6 +30,8 @@ This is a basic instance of the general principle of [[Galois theory]].
 
 It follows in particular that for [[connected topological space|connected]] $X$ then the [[automorphism group]] of the [[universal covering space]] of $X$ coincides with the [[fundamental group]] $\pi_1(X,x)$ itself (for any basepoint $x$). This often yields a convenient means to determine the [[fundamental group]] of $X$ in the first place.
 
+This is closely related to the [[(∞,1)-Grothendieck construction]]; the equivalence $\infty Grpd_{/X} \simeq \infty Grpd^X$ restricts to an equivalence between the subcategories of bundles $Y \to X$ with discrete fibers and of set-valued functors on $X$. Observe in particular that $Set^{\Pi_1(X)} \simeq Set^X$.
+
 
 ## Statement
 
