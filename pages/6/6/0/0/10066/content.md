@@ -462,6 +462,8 @@ Textbook accounts:
 
 See also
 
+* {#BrunerGreenlees10} [[Robert Bruner]], [[John Greenlees]], *Connective Real K-Theory of Finite Groups*, Mathematical Surveys and Monographs **169** AMS 2010 ([ISBN:978-0-8218-5189-0](https://bookstore.ams.org/surv-169))
+
 * {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Thesis 2009 ([ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]])
 
 * {#Cantarero12} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Journal of K-Theory, Volume 9, Issue 3  June 2012, pp. 475 - 501  ([arXiv:0803.3244](https://arxiv.org/abs/0803.3244), [doi:10.1017/is011011005jkt173](https://doi.org/10.1017/is011011005jkt173))
