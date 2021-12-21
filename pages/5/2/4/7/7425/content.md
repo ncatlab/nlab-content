@@ -310,6 +310,10 @@ Discussion in relation to the [[Arnold conjecture]] in [[symplectic topology]]:
 
 * [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
  
+On the Morava K-theory of [[iterated loop spaces]] of [[n-spheres]]:
+
+* [[Douglas Ravenel]], *What we still don't know about loop spaces of spheres*, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.), *Homotopy Theory via Algebraic Geometry and Group Representations*, Contemporary Mathematics **220**, AMS 1998  ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]], [doi:10.1090/conm/220](http://dx.doi.org/10.1090/conm/220))
+
 
 
 The [[orientation in generalized cohomology|orientation]] of [[integral Morava K-theory]] is discussed in
