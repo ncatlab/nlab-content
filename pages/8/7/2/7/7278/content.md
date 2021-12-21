@@ -321,6 +321,11 @@ $$
 
 * {#Lurie} [[Jacob Lurie]], Section 5.1.3 of _[[Higher Algebra]]_ 
 
+On the [[Morava K-theory]] of iterated loop spaces of [[n-spheres]]:
+
+* [[Douglas Ravenel]], *What we still don't know about loop spaces of spheres*, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.), *Homotopy Theory via Algebraic Geometry and Group Representations*, Contemporary Mathematics **220**, AMS 1998  ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]], [doi:10.1090/conm/220](http://dx.doi.org/10.1090/conm/220))
+
+
 ### Relation to configuration spaces of points
 
 In relation to [[configuration spaces of points]]:
