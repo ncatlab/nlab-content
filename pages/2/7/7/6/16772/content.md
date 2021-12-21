@@ -83,7 +83,7 @@ $$
   SO(2) \simeq S\big( \mathbb{C}\big) \hookrightarrow \mathbb{H}
 $$
 
-with the [[unit circle]] in $\mathbb{C} \hookrightarrow \mathbb{H}$ this way, with group structure given by [[multiplication]] of [[quaternions]]. Then the [[Pin group]] [[Pin(2)]] is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[group of units]] $\mathbb{H}^\times$ of the [[quaternions]] which consists of this copy of [[SO(2)]] together with the multiples of the imaginary quaternion $\mathrm{j}$ with this copy of $SO(2)$:
+with the [[unit circle]] in $\mathbb{C} \hookrightarrow \mathbb{H}$ this way, with group structure given by [[multiplication]] of [[quaternions]]. Then the [[Pin group]] [[Pin(2)]] is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[group of units]] $\mathbb{H}^\times$ of the [[quaternions]] which consists of this copy of [[SO(2)]] together with the multiples of the imaginary quaternion $\mathrm{j}$ with this copy:
 
 $$
   Pin_-(2)
