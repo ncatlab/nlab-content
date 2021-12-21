@@ -161,6 +161,11 @@ Discussion in [[equivariant homotopy theory]]:
 
 * Paolo Masulli, _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf), [[MasulliKRTheory2011.pdf:file]])
 
+On [[equivariant K-theory]] and [[KR-theory]] for [[finite group|finite]] [[equivariance groups]]:
+
+* {#BrunerGreenlees10} [[Robert Bruner]], [[John Greenlees]], *Connective Real K-Theory of Finite Groups*, Mathematical Surveys and Monographs **169** AMS 2010 ([ISBN:978-0-8218-5189-0](https://bookstore.ams.org/surv-169))
+
+
 
 Computations over [[compact Lie groups]] in the context of [[twisted ad-equivariant K-theory]]:
 
