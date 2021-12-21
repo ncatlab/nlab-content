@@ -22,11 +22,31 @@ The dihedral group, $D_{2n}$, is a [[finite group]] of [[order of a group|order]
 
 For instance $D_6$ is the symmetry group of the equilateral triangle and is [[isomorphism|isomorphic]] to the [[symmetric group]], $S_3$.
 
-For $n \in \mathbb{N}$, $n \geq 1$, the dihedral group $D_{2n}$ is thus the [[subgroup]] of the [[orthogonal group]] $O(2)$ which is generated from the finite [[cyclic group|cyclic]] [[subgroup]] $C_n$ of $SO(2)$ and the [[reflection]] at the $x$-axis (say).  It is a semi-direct product of $C_n$ and a $C_2$ corresponding to that reflection.
+For $n \in \mathbb{N}$, $n \geq 1$, the dihedral group $D_{2n}$ is thus the [[subgroup]] of the [[orthogonal group]] [[O(2)|$O(2)$]] which is [[generators and relations|generated]] from the [[finite group|finite]] [[cyclic group|cyclic]] [[subgroup]] $C_n \,\coloneqq\, \mathbb{Z}/n$ of [[SO(2)|$SO(2)$]] and the [[reflection]] at the $x$-axis (say).  It is a [[semidirect product group|semi-direct product]] of $C_n$ and a [[finite group of order 2|$C_2 \,\coloneqq\, \mathbb{Z}/2$]] corresponding to that reflection, hence fitting into a {#ShortExactSequence} [[short exact sequence]] as follows:
 
-Under the further embedding $O(2)\hookrightarrow SO(3)$ the (cyclic and) dihedral groups are precisely those [[finite subgroups of SO(3)]] that, among their [[ADE classification]], are not in the exceptional series. 
+\begin{tikzcd}
+  \mathbb{Z}/n
+  \ar[r, hook]
+  \ar[d, hook]
+  &
+  \mathrm{SO}(2)
+  \ar[d, hook]
+  \\
+  D_{2n}
+  \ar[d, ->>]
+  \ar[r, hook]
+  &
+  \mathrm{O}(2)
+  \ar[d, ->>]
+  \\
+  \mathbb{Z}/2
+  \ar[r,-,shift left=1pt]
+  \ar[r,-,shift right=1pt]
+  &
+  \mathbb{Z}/2
+\end{tikzcd}
 
-(see e.g. [Greenless 01, section 2](#Greenless01))
+Under the further embedding $O(2)\hookrightarrow SO(3)$ the cyclic and dihedral groups are precisely those [[finite subgroups of SO(3)]] that, among their [[ADE classification]], are not in the exceptional series. 
 
 
 +-- {: .num_remark #NotationConvention}
@@ -182,9 +202,6 @@ Discussion in the context of the [[classification of finite rotation groups]] go
 
 * {#Klein1884} [[Felix Klein]], chapter I.4 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
 
-Discussion in the context of [[equivariant cohomology theory]]: 
-
-* {#Greenless01} [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. 271, Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
 
 See also
 
@@ -201,6 +218,16 @@ See also
 * {#Groupprops} [[Groupprops]], _[Group cohomology of dihedral group:D8](http://groupprops.subwiki.org/wiki/Group_cohomology_of_dihedral_group:D8)_
 
 * [[GroupNames]], _[Dicyclic groups $Dic_n$](https://people.maths.bris.ac.uk/~matyd/GroupNames/dicyclic.html)_
+
+
+
+Discussion as the [[equivariance group]] in [[equivariant cohomology theory]]: 
+
+* {#Greenless01} [[John Greenlees]], Section 2 of: _Rational $SO(3)$-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. **271**,  Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444), [GBooks](https://books.google.de/books?id=X2YbCAAAQBAJ&lpg=PR7&ots=tdiPe0oWYn&dq=%22Homotopy%20methods%20in%20algebraic%20topology%22&lr&pg=PR7#v=onepage&q=%22Homotopy%20methods%20in%20algebraic%20topology%22&f=false))
+
+and specifically in [[equivariant K-theory]] and [[KR-theory]]:
+
+* {#BrunerGreenlees10} [[Robert Bruner]], [[John Greenlees]], Chapter 8 of: *Connective Real K-Theory of Finite Groups*, Mathematical Surveys and Monographs **169** AMS 2010 ([ISBN:978-0-8218-5189-0](https://bookstore.ams.org/surv-169))
 
 [[!redirects dihedral groups]]
 
