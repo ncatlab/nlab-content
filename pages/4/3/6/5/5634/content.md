@@ -43,7 +43,7 @@ and more specifically for [[orbifolds]] in [[string theory]] in
 
 The identification of discrete torsion in [[type II string theory]] as a choice of [[orbifold]] [[equivariant cohomology|equivariance]] on a [[principal 2-bundle]]/[[bundle gerbe]] is due to
 
-* [[Eric Sharpe]], _Discrete torsion_, Phys. Rev. D68 (2003) 126003 ([arXiv:hep-th/0008154](https://arxiv.org/abs/hep-th/0008154))
+* [[Eric Sharpe]], _Discrete torsion_, Phys. Rev. D68 (2003) 126003 ([arXiv:hep-th/0008154](https://arxiv.org/abs/hep-th/0008154), [doi:10.1103/PhysRevD.68.126003](https://doi.org/10.1103/PhysRevD.68.126003))
 
 based on
 
