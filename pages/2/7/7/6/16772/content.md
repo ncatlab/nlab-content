@@ -233,7 +233,9 @@ Discussion of [[equivariant ordinary cohomology]] ([[Bredon cohomology]]) over t
 
 * [[Igor Kriz]], [[Yunze Lu]], *On the $RO(G)$-graded coefficients of dihedral equivariant cohomology*, Mathematical Research Letters **27** 4 (2020) ([arXiv:2005.01225](https://arxiv.org/abs/2005.01225), [doi:10.4310/MRL.2020.v27.n4.a7](https://dx.doi.org/10.4310/MRL.2020.v27.n4.a7))
 
+see also
 
+* Yajit Jain, *Bredon Equivariant Homology of Representation Spheres*, 2014 ([pdf](https://math.mit.edu/research/undergraduate/urop-plus/documents/Jain.pdf), [[JainBredonEquivariant.pdf:file]])
 
 
 [[!redirects dihedral groups]]
