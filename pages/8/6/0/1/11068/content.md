@@ -32,6 +32,8 @@ Under the identification of [[local systems]] --  in the sense of [[locally cons
 
 * [[twisted de Rham cohomology]]
 
+* [[Knizhnik-Zamolodchikov equation]]
+
 ## References
 
 Textbook accounts:
