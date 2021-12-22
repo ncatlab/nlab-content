@@ -145,7 +145,7 @@ The original article is
 
 As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] and the plain [[topological K-theory]] of its [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram), the McKay correspondence is proven in:
 
-* {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
+* {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup. **16** 3 (1983) 409–449 ([numdam:ASENS_1983_4_16_3_409_0](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
 
 An analogous discussion for [[derived categories]] of coherent sheaves is in
 
