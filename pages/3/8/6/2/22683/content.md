@@ -19,6 +19,11 @@ A *braid representation* is a [[linear representation]] of a [[braid group]].
 
 In [[topological quantum computation]] on [[anyons]], braid representations serve as [[quantum gates]].
 
+## Related concepts
+
+* [[Knizhnik-Zamolodchikov equation]]
+
+
 ## References
 
 [[!include braid group representations -- references]]
