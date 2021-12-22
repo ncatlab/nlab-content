@@ -111,10 +111,9 @@ General:
 
 
 
-For $G = O(2)$ or $SO(2)$ and so also for $G = $ [[dihedral group]] and [[cyclic group]]:
+For $G = O(2)$ or [[SO(2)|$SO(2)$]] and so also for $G = $ [[dihedral group]] and [[cyclic group]]:
 
-* {#Greenlees96} [[John Greenlees]], _Rational $O(2)$-equivariant cohomology theories_. In _Stable and unstable homotopy_ (Toronto, ON, 1996), volume 19 of Fields
-Inst. Commun., pages 103&#8211;110. Amer. Math. Soc., Providence, RI, 1998. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.6588))
+* {#Greenlees96} [[John Greenlees]], _Rational $O(2)$-equivariant cohomology theories_. In _Stable and unstable homotopy_ (Toronto, ON, 1996), volume 19 of Fields Inst. Commun., pages 103&#8211;110. Amer. Math. Soc., Providence, RI, 1998. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.6588))
 
 * {#Greenlees99} [[John Greenlees]], _Rational $S^1$-equivariant stable homotopy theory_, Memoirs of the AMS, 1999
 
@@ -138,7 +137,10 @@ For $G = SO(3)$ and hence also for the [[finite groups]] of [[ADE classification
 
 * [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. **271**,  Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444), [GBooks](https://books.google.de/books?id=X2YbCAAAQBAJ&lpg=PR7&ots=tdiPe0oWYn&dq=%22Homotopy%20methods%20in%20algebraic%20topology%22&lr&pg=PR7#v=onepage&q=%22Homotopy%20methods%20in%20algebraic%20topology%22&f=false))
 
-* [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
+* [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, thesis 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
+
+* [[Magdalena Kedziorek]], _An algebraic model for rational $SO(3)$–spectra_, Algebraic & Geometric Topology 17 (2017) 3095–3136 ([arXiv:1611.08415](https://arxiv.org/abs/1611.08415), [doi:10.2140/agt.2017.17.3095](https://doi.org/10.2140/agt.2017.17.3095))
+
 
 Discussion of [[commutative ring]]-structures with an eye towards [[rational equivariant K-theory]]:
 
