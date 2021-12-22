@@ -12,7 +12,8 @@ Stanley's survey focuses instead more on combinatorics of the intersection poset
 * Richard P. Stanley, _An introduction to hyperplane arrangements_, in: Geometric combinatorics, 389&#8211;496, IAS/Park City Math. Ser., 13, Amer. Math. Soc. 2007, [pdf](http://www.math.umn.edu/~ezra/PCMI2004/stanley.jcp.pdf), [errata](http://www-math.mit.edu/~rstan/arrangements/errata.pdf)
 
 * Richard Randell, _Morse theory, Milnor fibers and minimality of hyperplane arrangements_, [math.AG/0011101](http://arxiv.org/abs/math/0011101)
-* Daniel C. Cohen, Michael Falk, Richard Randell, _Discriminantal bundles, arrangement groups, and subdirect products of free groups_, [arxiv/1008.0417](http://arxiv.org/abs/1008.0417)
+
+* [[Daniel C. Cohen]], Michael Falk, Richard Randell, _Discriminantal bundles, arrangement groups, and subdirect products of free groups_, [arxiv/1008.0417](http://arxiv.org/abs/1008.0417)
 
 [[!redirects arrangements of hyperplanes]]
 [[!redirects hyperplane arrangement]]
