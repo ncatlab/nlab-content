@@ -1597,7 +1597,7 @@ frankfurt.de/64271720/TopNotes_Spring10.pdf))
 
 Basic topology set up in [[intuitionistic mathematics]] is discussed in
 
-* {#Waaldijk96} [[Frank Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
+* {#Waaldijk96} [[Franka Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
 
 See also:
 
