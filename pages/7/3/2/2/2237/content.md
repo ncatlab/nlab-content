@@ -241,10 +241,13 @@ Introduction to [[Bredon equivariant cohomology]]:
 
 * {#Blumberg17} [[Andrew Blumberg]], section 1.4 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
-
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 3 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-Textbooks and lecture notes include
+
+* {#Guillou06} [[Bert Guillou]], *Equivariant Homotopy and Cohomology*, lecture notes, 2020 ([pdf](http://www.ms.uky.edu/~guillou/F20/751Notes.pdf), [[GuillouEquivariantHomotopyAndCohomology.pdf:file]])
+
+
+Textbooks and lecture notes:
 
 * {#tomDieck79} [[Tammo tom Dieck]], section 7 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979
 
