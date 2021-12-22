@@ -121,6 +121,8 @@ A strong claim is due to [Heinesen-Buchert 20](#HeinesenBuchert20), who present 
 
 If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artefact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]) and some theoretically attractive models could become phenomenologically viable again, such as "[[Witten's Dark Fantasy]]".
 
+In this context, notice that even a negative cosmological constant has been argued to still be compatible with observation if suitable [[scalar fields]] are present ([Sen, Adil & Sen 2021](anti+de+Sitter+spacetime#SenAdilSen21))
+
 ## Numerical simulation
  {#NumericalSimulation}
 
