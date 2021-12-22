@@ -230,6 +230,9 @@ $$
 
 See also:
 
+* [[Alejandro Adem]], [[Frederick R. Cohen]], Lemma 2.5 in: *Commuting Elements and Spaces of Homomorphisms*, Math. Ann. **338** (2007) 587–626 ([arXiv:math/0603197](https://arxiv.org/abs/math/0603197), [doi:10.1007/s00208-007-0089-z](https://doi.org/10.1007/s00208-007-0089-z))
+
+
 * [[Charles Rezk]], *Classifying spaces for 1-truncated compact Lie groups*, Algebr. Geom. Topol. 18 (2018) 525-546 ([arXiv:1608.02999](https://arxiv.org/abs/1608.02999), [doi:10.2140/agt.2018.18.525](https://doi.org/10.2140/agt.2018.18.525))
 
 
