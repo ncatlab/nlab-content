@@ -16,7 +16,15 @@ On [[transferred model structures]] and [[model structures on functors]]:
 
 On [[rational equivariant stable homotopy theory]]:
 
+
+* [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, thesis 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
+
 * [[David Barnes]], [[Magdalena Kedziorek]], _An introduction to algebraic models for rational G-spectra_ ([arXiv:2004.01566](https://arxiv.org/abs/2004.01566))
+
+and specifically for [[equivariance group]] (a [[subgroup]] of) [[SO(3)]]:
+
+* [[Magdalena Kedziorek]], _An algebraic model for rational $SO(3)$–spectra_, Algebraic & Geometric Topology 17 (2017) 3095–3136 ([arXiv:1611.08415](https://arxiv.org/abs/1611.08415), [doi:10.2140/agt.2017.17.3095](https://doi.org/10.2140/agt.2017.17.3095))
+
 
 On [[commutative ring]]-structure ([[E-infinity ring|$E_\infty$-ring]]-structure) in [[rational equivariant stable homotopy theory]] in general and in [[rational equivariant K-theory]] in particular:
 
