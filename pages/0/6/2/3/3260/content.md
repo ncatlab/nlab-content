@@ -214,7 +214,7 @@ See at *[[cohesion of global- over G-equivariant homotopy theory]]*.
 
 ## In more general model categories
 
-Let $G$ be a finite [[group]] as above. We describe the generalizaton of the above story as [[Top]] is replaced by a more general [[model category]] $C$ ([Guillou](#Guillou)).
+Let $G$ be a finite [[group]] as above. We describe the generalizaton of the above story as [[Top]] is replaced by a more general [[model category]] $C$ ([Guillou 2006](#Guillou06)).
 
 +-- {: .num_defn}
 ###### Definition and proposition
@@ -285,12 +285,7 @@ $$
 =--
 
 
-+-- {: .proof}
-###### Proof
-
-This is proposition 3.1.5 in [Guillou](http://www.math.uiuc.edu/~bertg/EquivModels.pdf#page=6).
-
-=--
+This is  [Guillou 2006, Prop. 3.1.5](#Guillou06).
 
 
 ### In $\infty$-stack $(\infty,1)$-toposes
@@ -303,7 +298,8 @@ $$
 $$ 
 
 of the global projective [[model structure on simplicial presheaves]] onany [[small category]] $C$ at any [[set]] $A$ of morphisms, i.e. for every [[combinatorial model category]] $C$.
-This is example 4.4 in [Guillou](http://www.math.uiuc.edu/~bertg/EquivModels.pdf#page=7).
+
+This is [Guillou 2006, Ex. 4.4](#Guillou06).
 
 For $A = \{C(\{U_i\}) \to X\}$ the collection of [[Cech cover]]s for all [[sieve|covering families]] of a [[Grothendieck topology]] on $D$, this are the standard [[models for ∞-stack (∞,1)-toposes]] $\mathbf{H}$.
 
@@ -312,9 +308,9 @@ This way the above theorem provides a model for $G$-equivariant refinements of [
 
 * For instance, in [[motivic homotopy theory]] one considers cohomology in a [[homotopy localization]] of the [[∞-stack]] [[(∞,1)-topos]] on the [[Nisnevich site]], presented by $C := L_{Cech} SPSh(Nis)$ . Its $G$-equivariant version as above should be the right context for the [[Bredon cohomology|Bredon]] $G$-[[equivariant cohomology]] refinement of such cohomology theories, such as [[motivic cohomology]].
 
-  This is example 4.5 in [Guillou](http://www.math.uiuc.edu/~bertg/EquivModels.pdf#page=8).
+  This is [Guillou 06, Ex. 4.5](#Guillou06).
 
-  (Actually here one localizes moreover at [[hypercovers]] and at [[A1-homotopy theory|A1-homotopies]].)
+  (Actually here one localizes moreover at [[hypercovers]] and at [[A1-homotopy theory|$\mathbb{A}^1$-homotopies]].)
 
 
 ## Properties
@@ -324,7 +320,7 @@ This way the above theorem provides a model for $G$-equivariant refinements of [
 
 * [[G-CW approximation]]
 
-* [[eqivariant Whitehead theorem]]
+* [[equivariant Whitehead theorem]]
 
 ### Elmendorf's theorem 
 
@@ -396,11 +392,11 @@ Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[ho
 
 ## References
 
-
 Lecture notes:
 
 * {#Blumberg17} [[Andrew Blumberg]], _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
+* {#Guillou06} [[Bert Guillou]], *Equivariant Homotopy and Cohomology*, lecture notes, 2020 ([pdf](http://www.ms.uky.edu/~guillou/F20/751Notes.pdf), [[GuillouEquivariantHomotopyAndCohomology.pdf:file]])
 
 Textbooks and other accounts
 
@@ -421,7 +417,7 @@ Textbooks and other accounts
 
 The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theorem to that of $G$-objects in more general [[model category|model categories]] is in 
 
-* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](https://faculty.math.illinois.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
+* {#Guillou06} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](https://faculty.math.illinois.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
 
 and further discussed in
