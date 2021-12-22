@@ -180,6 +180,11 @@ Relation to [[Teichmüller theory]]:
 
 * Francesco Bonsante, Andrea Seppi, _Anti-de Sitter geometry and Teichmüller theory_ ([arXiv:2004.14414](https://arxiv.org/abs/2004.14414))
 
+### Phenomenology
+
+* {#SenAdilSen21} Anjan A. Sen, Shahnawaz A. Adil, Somasri Sen, *Do cosmological observations allow a negative $\Lambda$?* ([arXiv:2112.10641](https://arxiv.org/abs/2112.10641))
+
+
 
 ### As string vacua
 
