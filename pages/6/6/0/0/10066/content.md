@@ -525,6 +525,11 @@ Discussion in the context of [[equivariant complex oriented cohomology theory]]:
 
 * {#Greenlees01} [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
 
+For formulation and proof of the [[McKay correspondence]]:
+
+* {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup. **16** 3 (1983) 409–449 ([numdam:ASENS_1983_4_16_3_409_0](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
+
+
 
 ### Representing equivariant spectrum 
  {#ReferencesRepresentingSpectrum}
