@@ -76,7 +76,7 @@ due to the [[Fierz identity]] in [Castellani-D'Auria-Fré 91 (III.5.50a)](#Caste
   "width": 600
 \end{imagefromfile}
 
-(the other Fierz identity (III.5.50a) gives the [[membrane]] cocycle $\mu_{membrane,5d} \coloneqq \frac{i}{2}\overline{\psi}_A \Gamma_{a b}  \psi \wedge e^a \wedge e^b$, $d \mu_{membrane,5d} = 0$, that appears already in the old [[brane scan]]. )
+(the other Fierz identity (III.5.50a) gives the  cocycle for the [[membrane]] ([[super 2-brane in 5d]]) $\mu_{membrane,5d} \coloneqq \frac{i}{2}\overline{\psi}_A \Gamma_{a b}  \psi \wedge e^a \wedge e^b$, $d \mu_{membrane,5d} = 0$, that appears already in the old [[brane scan]]. )
 
 This is a lower dimensional analogue to the situation for the [[C-field]] $G_4$ (locally $G_4 = d C$) in [[11-dimensional supergravity]], which has a Chern-Simons term locally of the form $\propto \int G_4 \wedge G_4 \wedge C$ and hence the equation of motion
 
@@ -104,7 +104,7 @@ asymptotically flat.)
 ### Via Calabi-Yau compactification of 11d supergravity
  {#ViaCYCompactificationOf11dSupergravity}
 
-Discussion of 5d supegravity as a [[KK-compactification]] of [[11-dimensional supergravity]] on a [[Calabi-Yau manifold]] of complex dimension 3 ([[M-theory on Calabi-Yau manifolds]]) is discussed in
+Discussion of 5d supergravity as a [[KK-compactification]] of [[11-dimensional supergravity]] on a [[Calabi-Yau manifold]] of complex dimension 3 ([[M-theory on Calabi-Yau manifolds]]) is discussed in
 
 ([Hull-Townsend 95, p.30-31](#HullTownsend95), [Cadavid-Ceresole-D'Auria-Ferrara 95](#CadavidCeresoleDAuriaFerrara95) [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96), [Ferrara-Minasian-Sagnotti 96](#FerraraMinasianSagnotti96)). See also ([Mizoguchi-Ohta 98](#MizoguchiOhta98)).
 
@@ -176,6 +176,8 @@ $$
 * [[7-dimensional supergravity]]
 
 * **5-dimensional supergravity**
+
+  * [[super 2-brane in 5d]]
 
 * [[4-dimensional supergravity]]
 
