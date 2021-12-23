@@ -15,6 +15,8 @@ On [[braid group representations]] and their application to [[topological quantu
 
 On [[topological quantum computation]] with [[anyons]] in [[Chern-Simons theory]]:
 
+* [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. 698 (2016) 012012 ([doi:10.1088/1742-6596/698/1/012012](https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012))
+
 * [[Eric Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
 
