@@ -15,6 +15,11 @@ On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Zheng Yin, _Mirror Symmetry in Three-Dimensional Gauge Theories, $SL(2,\mathbb{Z})$ and D-Brane Moduli Spaces_, Nucl. Phys. B493:148-176, 1997 ([arXiv:hep-th/9612131](https://arxiv.org/abs/hep-th/9612131))
 
 
+On a [[matrix model]] for the [[3-brane in 6d]] arising as the [[brane intersection|intersection]] of two [[M5-branes]]:
+
+* {#KachruOzYin98} [[Shamit Kachru]], [[Yaron Oz]], [[Zheng Yin]], *Matrix Description of Intersecting M5 Branes* JHEP 9811:004, (1998) ([arXiv:hep-th/9803050](https://arxiv.org/abs/hep-th/9803050))
+
+
 On [[geometric engineering of QFT]] on [[D4-D6 brane intersections]] subject to the [[s-rule]]:
 
 * [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Section 3 of: _Strong Coupling Dynamics of Four-Dimensional N=1 Gauge Theories from M Theory Fivebrane_, Adv. Theor. Math. Phys.1:1-52, 1998 ([arXiv:hep-th/9706082](https://arxiv.org/abs/hep-th/9706082))
