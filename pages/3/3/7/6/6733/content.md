@@ -398,6 +398,8 @@ The observation that the remaing anomaly  (eq:RemainingAnomaly) vanishes if one 
 
 * [[M5-brane instanton]]
 
+* [[M5-brane intersection]]
+
 * [[small instanton]]
 
 * [[half M5-brane]]
