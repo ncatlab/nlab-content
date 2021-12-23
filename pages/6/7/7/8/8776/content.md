@@ -293,12 +293,20 @@ Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and 
 
 * Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
 
-* Minkyu Park, Masaki Shigemori, _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
-
-Review includes
+Review:
 
 * [[Per Kraus]], _Lectures on black holes and the $AdS_3$/$CFT_2$ correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
 
   _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
+
+Further [[defect branes]]:
+
+* Eun Kyung Park, Pyung Seong Kwon, *NS-branes in 5d brane world models*, Phys. Rev. D82:046001, 2010 ([arXiv:1007.1290](https://arxiv.org/abs/1007.1290), [doi:10.1103/PhysRevD.82.046001](https://doi.org/10.1103/PhysRevD.82.046001))
+
+
+* Minkyu Park, Masaki Shigemori, _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
+
+* Masaki Shigemori, *Interpolating between multi-center microstate geometries*, JHEP 09 (2021) 010 ([arXiv:2105.11639](https://arxiv.org/abs/2105.11639))
+
 
 [[!redirects 5d supergravity]]
