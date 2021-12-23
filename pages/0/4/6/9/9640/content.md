@@ -16,7 +16,7 @@ On [[topological quantum computation]]:
 
 Approximating all [[topological quantum computation|topological quantum gates]] by just the "weaves" among all [[braids]]:
 
-* [[Steven H. Simon]], N. E. Bonesteel, [[Michael H. Freedman]], N. Petrovic, L. Hormozi, *Topological Quantum Computing with Only One Mobile Quasiparticle*, Phys. Rev. Lett. 96 (2006) 070503 ([arXiv:quant-ph/0509175](https://arxiv.org/abs/quant-ph/0509175), [doi:10.1103/PhysRevLett.96.070503](https://doi.org/10.1103/PhysRevLett.96.070503))
+* [[Steven H. Simon]], [[Nick E. Bonesteel]], [[Michael H. Freedman]], N. Petrovic, [[Layla Hormozi]], *Topological Quantum Computing with Only One Mobile Quasiparticle*, Phys. Rev. Lett. 96 (2006) 070503 ([arXiv:quant-ph/0509175](https://arxiv.org/abs/quant-ph/0509175), [doi:10.1103/PhysRevLett.96.070503](https://doi.org/10.1103/PhysRevLett.96.070503))
 
 
 On [[topological quantum computation]] with [[anyons]]/[[quantum Hall effect]]:
