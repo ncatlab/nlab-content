@@ -28,6 +28,8 @@ Matrix models that have been argued to capture [[D-brane]] dynamics and [[nonper
 
 * [[K-matrix model]]
 
+* [matrix model for the 3-brane in 6d](3-brane+in+6d#KachruOzYin98)
+
 ## References
 
 First inkling of matrix models from the [[large N limit]] of [[QCD]]:
