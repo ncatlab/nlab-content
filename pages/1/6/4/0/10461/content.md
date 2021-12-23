@@ -28,6 +28,10 @@ Introducing the [[4d TQFT]] [[Walker-Wang model]]:
 
 * [[Kevin Walker]], [[Zhenghan Wang]], _(3+1)-TQFTs and Topological Insulators_, Frontiers of Physics volume 7, pages 150–159 (2012) ([arXiv:1104.2632](http://arxiv.org/abs/1104.2632), [doi:10.1007/s11467-011-0194-z](https://doi.org/10.1007/s11467-011-0194-z))
 
+On [[braid group representations]] and their application to [[topological quantum computation]]:
+
+* [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
+
 
 
 ## Related entries
