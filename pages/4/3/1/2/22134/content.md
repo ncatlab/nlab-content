@@ -19,15 +19,19 @@ Textbook accounts:
 
 * [[Tudor D. Stanescu]], Part IV of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
+* {#Simon21} [[Steven H. Simon]], *Topological Quantum*, 2021 ([pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep1-2021.pdf))
+
 Review:
 
-* Chetan Nayak, Steven H. Simon, [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
+* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
 
-* [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science 08 Mar 2013: Vol. 339, Issue 6124, pp. 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
+* [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
+
+* [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. 698 (2016) 012012 ([doi:10.1088/1742-6596/698/1/012012](https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012))
     
 * {#LahtinenPachos17} Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
 
-* {#RowellWang18} [[Eric Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
+* {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
 * Bernard Field, Tapio Simula, _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology 2018 ([arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2))
 
@@ -41,10 +45,18 @@ Realization in [[experiment]]:
 
   > (for [[quantum error correction]])
 
-See also:
 
-* {#Rouabah20} Mohamed Taha Rouabah, *Compiling single-qubit braiding gate for Fibonacci anyons topological quantum computation* ([arXiv:2008.03542](https://arxiv.org/abs/2008.03542))
 
 [[!include braid group representations -- references]]
 
+
+Approximating all topological quantum gates by just the **weaves** among all [[braids]]:
+
+* [[Steven H. Simon]], [[Nick E. Bonesteel]], [[Michael H. Freedman]], N. Petrovic, [[Layla Hormozi]], *Topological Quantum Computing with Only One Mobile Quasiparticle*, Phys. Rev. Lett. 96 (2006) 070503 ([arXiv:quant-ph/0509175](https://arxiv.org/abs/quant-ph/0509175), [doi:10.1103/PhysRevLett.96.070503](https://doi.org/10.1103/PhysRevLett.96.070503))
+
+* [[Layla Hormozi]], [[Georgios Zikos]], [[Nick E. Bonesteel]], [[Steven H. Simon]], *Topological quantum compiling*, Phys. Rev. B 75, 165310 ([doi:10.1103/PhysRevB.75.165310](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.75.165310), [arXiv:quant-ph/0610111](https://arxiv.org/abs/quant-ph/0610111))
+
+* {#Rouabah20} Mohamed Taha Rouabah, *Compiling single-qubit braiding gate for Fibonacci anyons topological quantum computation* ([arXiv:2008.03542](https://arxiv.org/abs/2008.03542))
+
+* [Simon 2021, Sec. 11.4.1](#Simon21)
 
