@@ -23,7 +23,6 @@ Braid representations seen inside the [[topological K-theory]] of the [[braid gr
 * [[Frederick R. Cohen]], Section 3 of: *On braid groups, homotopy groups, and modular forms*, in: J.M. Bryden (ed.), *Advances in Topological Quantum Field Theory*, Kluwer 2004,  275–288 ([pdf](https://link.springer.com/content/pdf/10.1007/978-1-4020-2772-7_11.pdf))
 
 
-
 See also:
 
 * R. B. Zhang, *Braid group representations arising from quantum supergroups with arbitrary $q$ and link polynomials*, Journal of Mathematical Physics 33, 3918 (1992) ([doi:10.1063/1.529840](https://doi.org/10.1063/1.529840))
@@ -36,7 +35,7 @@ As [[quantum gates]] for [[topological quantum computation]] with [[anyons]]:
 
   > (braid group representation serving as a [[topological quantum computer|topological]] [[quantum gate]] to compute the [[Jones polynomial]])
 
-* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Topological quantum computing and $SU(2)$ braid group representations*, Proceedings Volume 6976, Quantum Information and Computation VI; 69760M (2008) ([doi:10.1117/12.778068](https://doi.org/10.1117/12.778068))
+* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Topological quantum computing and $SU(2)$ braid group representations*, Proceedings Volume 6976, Quantum Information and Computation VI; 69760M (2008) ([doi:10.1117/12.778068](https://doi.org/10.1117/12.778068), [rg:228451452](https://www.researchgate.net/publication/228451452))
 
 * C.-L. Ho, A.I. Solomon, C.-H.Oh, *Quantum entanglement, unitary braid representation and Temperley-Lieb algebra*, EPL 92 (2010) 30002 ([arXiv:1011.6229](https://arxiv.org/abs/1011.6229))
 
