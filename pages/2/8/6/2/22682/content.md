@@ -41,3 +41,7 @@ As [[quantum gates]] for [[topological quantum computation]] with [[anyons]]:
 
 * [[Louis H. Kauffman]], *Majorana Fermions and Representations of the Braid Group*, International Journal of Modern Physics AVol. 33, No. 23, 1830023 (2018) ([arXiv:1710.04650](https://arxiv.org/abs/1710.04650), [doi:10.1142/S0217751X18300235](https://doi.org/10.1142/S0217751X18300235))
 
+Introduction and review:
+
+* [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
+
