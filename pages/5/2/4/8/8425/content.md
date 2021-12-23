@@ -29,6 +29,8 @@ On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]
 
   > ([[topological quantum computation]] of the [[Jones polynomial]])
 
+* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Topological quantum computing and $SU(2)$ braid group representations*, Proceedings Volume 6976, Quantum Information and Computation VI; 69760M (2008) ([doi:10.1117/12.778068](https://doi.org/10.1117/12.778068), [rg:228451452](https://www.researchgate.net/publication/228451452))
+
 * [[Louis H. Kauffman]], *Majorana Fermions and Representations of the Braid Group*, International Journal of Modern Physics AVol. 33, No. 23, 1830023 (2018) ([arXiv:1710.04650](https://arxiv.org/abs/1710.04650), [doi:10.1142/S0217751X18300235](https://doi.org/10.1142/S0217751X18300235))
 
 
