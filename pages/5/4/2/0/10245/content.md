@@ -67,6 +67,9 @@ For more on this see
 
 * [[Joaquim Gomis]], [[David Mateos]], [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_, Phys. Lett. B430 (1998) 231-236 ([arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040))
 
+See also
+
+* S. Bellucci1, N. Kozyrev, S. Krivonos, A Sutulin, *Component on-shell actions of supersymmetric 3-branes: I. 3-brane in $D = 6$,  Class. Quantum Grav. **32** (2015) 035025 ([doi:10.1088/0264-9381/32/3/035025](https://iopscience.iop.org/article/10.1088/0264-9381/32/3/035025))
 
 The relation to [[D=4 N=2 super Yang-Mills theory]] is discussed in
 
