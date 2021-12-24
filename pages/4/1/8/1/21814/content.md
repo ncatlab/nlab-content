@@ -16,16 +16,30 @@
 
 ## Idea
 
-A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a [[brane]] of [[codimension]] 2; such  as a [[cosmic strings]] in 4-dimensional [[spacetime]] or a [[D7-brane]] in [[type IIB string theory]] or the [[3-brane in 6d]].
+A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a [[brane]] of [[codimension]] 2; such as, for example
+
+* a [[cosmic string]] in 4-dimensional [[Yang-Mills theory]],
+
+* a [[super 1-brane in 4d]],
+
+* a [[super 2-brane in 5d]],
+
+* a [[super 3-brane in 6d]],
+
+* a [[D7-brane]] in 10d [[type IIB string theory]].
+
+
+In [[string theory]], defect branes with [[U-duality]]-[[group]] [[monodromy]] have been argued to be identified with "[[exotic branes]]" [deBoer & Shigemori 2012, p. 12](#deBoerShigemori12).
 
 ## Properties
 
 ### Relation to anyons
  {#RelationToAnyons}
 
-An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensional spacetime, hence as a codimension-2 "0-brane". This suggests that general codimension-2 defect branes may serve as string-theoretic models for anyons. 
+An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensional spacetime, hence as a codimension-2 "0-brane". This suggests that general codimension-2 defect branes may serve as string-theoretic models for anyons. This general observation is briefly mentioned in [deBoer & Shigemori 2012, p. 65](#deBoerShigemori12). 
 
-This general observation is briefly mentioned in [deBoer & Shigemori 2012, p. 65](#deBoerShigemori12). Concrete implementation of anyonic defect strings in [[4d TQFT]] is discussed in [Kong, Tian & Zhang 2020, Sec. 2.2](#KongTianZhang20).
+Concrete implementation of anyonic defect [[strings]] in [[4d TQFT]] is discussed in [Baez, Wise & Crans 2006](#BaezWiseCrans06), [Bullivant, Martins & Martin 2018](#BullivantMartinsMartin18) [Kong, Tian & Zhang 2020, Sec. 2.2](#KongTianZhang20).
+More generally, circle-shaped defect strings are going to satisfy *[[loop braid group]]-statistics*, which subsumes [[braid group]]-statistics but is richer still.
 
 
 ## Related concepts
@@ -79,6 +93,14 @@ and in [[D=5 supergravity]]:
 * Minkyu Park, [[Masaki Shigemori]], _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
 
 * [[Masaki Shigemori]], *Interpolating between multi-center microstate geometries*, JHEP 09 (2021) 010 ([arXiv:2105.11639](https://arxiv.org/abs/2105.11639))
+
+On defect strings in 4d [[TQFT]] satisfying [[braid group]]- and more generally [[loop braid group]]-statistics:
+
+in 4d [[BF theory]]:
+
+* {#BaezWiseCrans06} [[John Baez]], [[Derek Wise]], [[Alissa Crans]], *Exotic Statistics for Strings in 4d BF Theory*, Adv. Theor. Math. Phys. 11:707-749, 2007 ([arXiv:gr-qc/0603085](https://arxiv.org/abs/gr-qc/0603085))
+
+* {#BullivantMartinsMartin18} Alex Bullivant, [[João Faria Martins]], Paul Martin, *Representations of the Loop Braid Group and Aharonov-Bohm like effects in discrete (3+1)-dimensional higher gauge theory*, Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 7 ([arXiv:1807.09551](https://arxiv.org/abs/1807.09551))
 
 and in the [[3d toric code]]-[[4d TQFT]]:
 
