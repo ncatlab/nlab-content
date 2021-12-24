@@ -32,6 +32,8 @@ $$
 
 (e.g. [Ravera 18, (A.17)](#Ravera18))
 
+Being of [[codimension]]=2, this is a [[defect brane]].
+
 [[!include brane scan]]
 
 ## Related concepts
