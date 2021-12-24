@@ -6,10 +6,16 @@ Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physi
 
 ## Selected writings
 
-
 Introducing the [[Levin-Wen model]]:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 ([arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617))
+
+
+Introducing the [[3d toric code]]:
+
+* Alioscia Hamma, Paolo Zanardi, [[Xiao-Gang Wen]], *String and Membrane condensation on 3D lattices*,  Phys. Rev. B72:035307, 2005 ([arXiv:cond-mat/0411752](https://arxiv.org/abs/cond-mat/0411752), [doi:10.1103/PhysRevB.72.035307](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.72.035307))
+
+
 
 Introducing [[topological entanglement entropy]]:
 
