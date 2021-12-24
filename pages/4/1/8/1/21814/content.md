@@ -18,6 +18,16 @@
 
 A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a [[brane]] of [[codimension]] 2; such  as a [[cosmic strings]] in 4-dimensional [[spacetime]] or a [[D7-brane]] in [[type IIB string theory]] or the [[3-brane in 6d]].
 
+## Properties
+
+### Relation to anyons
+ {#RelationToAnyons}
+
+An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensional spacetime, hence as a codimension-2 "0-brane". This suggests that general codimension-2 defect branes may serve as string-theoretic models for anyons. 
+
+(This observation is briefly mentioned in [deBoer & Shigemori 2012, p. 65](#deBoerShigemori12)).
+
+
 ## Related concepts
 
 * [[vortex string]]
@@ -36,6 +46,12 @@ A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a
 The term "defect brane" was introduced in:
 
 * {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], F. Riccioni, _Defect Branes_, Nuclear Physics B Volume 856, Issue 2, 11 March 2012, Pages 210-227 ([arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037))
+
+Identification of codimension-2 defect branes with [[U-duality]]-group [[monodromy]] as [[exotic branes]]:
+
+* {#deBoerShigemori12} [[Jan de Boer]], [[Masaki Shigemori]], _Exotic Branes in String Theory_, Physics Reports **532** (2013) 65-118 ([arXiv:1209.6056](https://arxiv.org/abs/1209.6056), [doi:j.physrep.2013.07.003](https://doi.org/10.1016/j.physrep.2013.07.003))
+
+
 
 See also:
 
@@ -56,6 +72,14 @@ Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence d
 * Hironori Mori, _M-theory Perspectives on Codimension-2 Defects_ ([spire:1519095](https://inspirehep.net/literature/1519095), [pdf](http://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/shuron/DoctoralThesis_Mori.pdf))
 
 * Nathan Haouzi, Christian Schmid, _Little String Origin of Surface Defects_,  J. High Energ. Phys. 2017, 82 (2017) ([arXiv:1608.07279](https://arxiv.org/abs/1608.07279), <a href="https://doi.org/10.1007/JHEP05(2017)082">doi:10.1007/JHEP05(2017)082</a>)
+
+and in [[D=5 supergravity]]:
+
+
+* Minkyu Park, [[Masaki Shigemori]], _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
+
+* [[Masaki Shigemori]], *Interpolating between multi-center microstate geometries*, JHEP 09 (2021) 010 ([arXiv:2105.11639](https://arxiv.org/abs/2105.11639))
+
 
 [[!redirects defect branes]]
 
