@@ -252,6 +252,12 @@ $$
 
 ## Related concepts
 
+* [[defect brane]]
+
+* [[anyon]], [[braid group statistics]], [[loop braid group]]
+
+\linebreak
+
 [[!include field theory with boundaries and defects - table]]
 
 
