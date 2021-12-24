@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,7 +33,9 @@ According to [deBoer & Shigemori 2012, p. 12](#deBoerShigemori12) these may be i
         "unit": "px",
         "alt": "exotic branes"
 \end{imagefromfile}
->Figure grabbed from ([BMO19](#BMO19)). <<A comparison of the objects covered by the geometric solutions (backed by orange hashing) and [[non-geometric solutions]] (backed by green hashing) out of all the [[branes]] down to codimension-$2$ and $0\leq\alpha\leq -2$, as well as their [[M-theory]] lifts. Red lines denote [[T-duality]], blue lines denote lifts/reductions and black lines denote [[S-dualities]].>>
+>Figure 1 from ([BMO19](#BMO19)). <<A comparison of the objects covered by the geometric solutions (backed by orange hashing) and [[non-geometric solutions]] (backed by green hashing) out of all the [[branes]] down to codimension-$2$ and[^1] $0\leq\alpha\leq -2$, as well as their [[M-theory]] lifts. Red lines denote [[T-duality]], blue lines denote lifts/[[double dimensional reduction|reductions]] and black lines denote [[S-dualities]].>>
+
+[^1]: Here $\alpha$ denotes the [[exponent]] with which the brane's [[tension]] $T$ scales with the [[string coupling constant]] $g_s$ as $T \propto (g_s)^\alpha$, according to [BMO 2019](#BMO19), [p. 2](https://arxiv.org/pdf/1903.10247.pdf#page=2).
 
 ## Related concepts
 
@@ -48,7 +51,7 @@ According to [deBoer & Shigemori 2012, p. 12](#deBoerShigemori12) these may be i
 
 * [[David Berman]], Felix J. Rudolph, _Branes are Waves and Monopoles_ ([arXiv:1409.6314](https://arxiv.org/abs/1409.6314))
 
-* {#BMO19} [[David Berman]], Edvard Musaev, Ray Otsuki, _Exotic Branes in M-Theory_ ([arXiv:1903.10247](https://arxiv.org/abs/1903.10247))
+* {#BMO19} [[David Berman]], Edvard Musaev, Ray Otsuki, _Exotic Branes in M-Theory_, contribution to: *[Dualities and Generalized Geometries, Corfu Summer Institute 2018](http://www.physics.ntua.gr/corfu2018/dg.html)* ([arXiv:1903.10247](https://arxiv.org/abs/1903.10247))
 
 [[!redirects exotic branes]]
 [[!redirects Exotic branes]]
