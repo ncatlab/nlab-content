@@ -36,6 +36,8 @@ In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebr
 
 * [[Walker-Wang model]]
 
+* [[3d toric code]]
+
 ## Related concepts
 
 * [[loop braid group]]
