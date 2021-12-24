@@ -22,7 +22,7 @@
 
 Where the [[braid group]] is the [[group]] of [[continuous function|continuous]] motions of sets of distinct [[points]] in the [[Euclidean plane]], the *loop braid group* ([Dahm 62](#Dahm62), [Goldsmith 81](#Goldsmith81)) is the group of continuous motions  of disjoint [[unknot|unknotted]] [[loop (topology)|loops]] in 3d [[Euclidean space]].
 
-Accordingly, the role that the braid group plays in [[3d TQFTs]] such as [[Chern-Simons theory]]/[[Reshetikhin-Turaev theory]] with point-like defects ([[anyons]]), the loop braid group plays in [[4d TQFT]] with line [[defect QFT|defects]].
+Accordingly, the role that the [[braid group]] plays in [[3d TQFTs]] such as [[Chern-Simons theory]]/[[Reshetikhin-Turaev theory]] with point-like defects ([[anyons]]), the loop braid group plays in [[4d TQFT]] with [[defect QFT|line defects]] (codimension-2 [[defect branes]]).
 
 \begin{imagefromfile}
     "file_name": "LoopBraid.jpg",
@@ -37,6 +37,12 @@ Accordingly, the role that the braid group plays in [[3d TQFTs]] such as [[Chern
     "caption": "graphics from [Baez, Wise, Crans 06](#BaezWiseCrans06)"
 \end{imagefromfile}
 
+
+## Related concepts
+
+* [[braid group]]
+
+* [[defect brane]]
 
 
 ## References
@@ -60,9 +66,15 @@ See also:
 
 Discussion via [[4d TQFT]] and [[higher gauge theory]]/[[higher parallel transport]]:
 
+in 4d [[BF-theory]]:
+
 * {#BaezWiseCrans06} [[John Baez]], [[Derek Wise]], [[Alissa Crans]], *Exotic Statistics for Strings in 4d BF Theory*, Adv. Theor. Math. Phys. 11:707-749, 2007 ([arXiv:gr-qc/0603085](https://arxiv.org/abs/gr-qc/0603085))
 
 * Alex Bullivant, [[João Faria Martins]], Paul Martin, *Representations of the Loop Braid Group and Aharonov-Bohm like effects in discrete (3+1)-dimensional higher gauge theory*, Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 7 ([arXiv:1807.09551](https://arxiv.org/abs/1807.09551))
+
+and in the [[3d toric code]]-[[4d TQFT]]:
+
+* {#KongTianZhang20} [[Liang Kong]], Yin Tian, Zhi-Hao Zhang, Section 2.2 of: *Defects in the 3-dimensional toric code model form a braided fusion 2-category*, J. High Energ. Phys. 2020, 78 (2020) ([arXiv:2009.06564](https://arxiv.org/abs/2009.06564), <a href="https://doi.org/10.1007/JHEP12(2020)078">doi:10.1007/JHEP12(2020)078</a>)
 
 
 Relation to [[braided monoidal category|braided]] [[tensor categories]]:
