@@ -13,7 +13,7 @@ About the formulation of [[strings]] and [[black branes]] of [[supergravity]] (c
 
 * [[David Berman]], Felix J. Rudolph, _Branes are Waves and Monopoles_ ([arXiv:1409.6314](https://arxiv.org/abs/1409.6314))
 
-* {#BMO19} [[David Berman]], Edvard Musaev, Ray Otsuki, _Exotic Branes in M-Theory_ ([arXiv:1903.10247](https://arxiv.org/abs/1903.10247))
+* {#BMO19} [[David Berman]], Edvard Musaev, Ray Otsuki, _Exotic Branes in M-Theory_, contribution to: *[Dualities and Generalized Geometries, Corfu Summer Institute 2018](http://www.physics.ntua.gr/corfu2018/dg.html)* ([arXiv:1903.10247](https://arxiv.org/abs/1903.10247))
 
 About the formulation [[string theory]]/[[M-theory]] in terms of [[generalized geometry]]:
 
