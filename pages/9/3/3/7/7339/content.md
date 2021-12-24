@@ -20,6 +20,7 @@ On [[topological M-theory]] and [[D=7 Chern-Simons theory]]:
 * [[Jan de Boer]], [[Paul de Medeiros]], Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
 
 
+
 On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactification|compactified]] on [[orbifolds]] and [[orientifolds]]:
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv. Theor. Math. Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
@@ -27,6 +28,11 @@ On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactifi
 On [[flat space holography]]:
 
 * [[Jan de Boer]], Sergey N. Solodukhin, *A holographic reduction of Minkowski space-time*, Nucl. Phys. B665 (2003) 545-593 ([arXiv:hep-th/0303006](https://arxiv.org/abs/hep-th/0303006))
+
+
+On [[exotic branes]] (in [[string theory]]) as [[defect branes]] with [[U-duality]]-group [[monodromy]]:
+
+* [[Jan de Boer]], [[Masaki Shigemori]], _Exotic Branes in String Theory_, Physics Reports **532** (2013) 65-118 ([arXiv:1209.6056](https://arxiv.org/abs/1209.6056), [doi:j.physrep.2013.07.003](https://doi.org/10.1016/j.physrep.2013.07.003))
 
 
 Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally of [[holographic entanglement entropy]] in [[3d quantum gravity]]/[[AdS3/CFT2]] via [[Wilson line observables]] in [[Chern-Simons theory]]:
