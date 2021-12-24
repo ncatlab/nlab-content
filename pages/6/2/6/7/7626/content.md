@@ -19,6 +19,13 @@
 
 In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species or other object when referring to the [[irreducible representation]] of the [[group]] which exchanges identical such particles that it belongs to. Typically this is the [[symmetric group]] and accordingly one speaks of [[boson]] and [[fermion]] statistics. But in special cases, namely whenever the codimension in space of the objects in question is 1 (e.g. point particles in 2-dimensional [[quantum field theories]]), accordingly in this situation these may have what is then called _braid group statistics_ and one speaks of _[[anyons]]_.
 
+## Properties
+
+### Realization as codimension-2 defect branes
+ {#RealizationAsCodimensionTwoDefectBranes}
+ 
+An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensional spacetime, hence as a codimension-2 "0-brane". This suggests that general codimension-2 [[defect branes]] may serve as [[string theory|string-theoretic]] models for anyons ([deBoer & Shigemori 2012, p. 65](defect+brane#deBoerShigemori12)). See [there](defect+brane#RelationToAnyons) for more.
+
 ## Related concepts
 
 * [[boson]], [[fermion]], **anyon**
