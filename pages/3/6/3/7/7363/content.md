@@ -25,6 +25,8 @@ A [[black brane]] of one spatial [[dimension]].
 
 * [[black ring]]
 
+* [[black holes in string theory]]
+
 ## References
 
 ### General
