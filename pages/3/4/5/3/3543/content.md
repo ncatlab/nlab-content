@@ -453,11 +453,15 @@ For more see at _[[rational stable homotopy theory]]_.
 
 * [[p-localization]], [[p-completion]]
 
+* [[equivariant rationalization]]
+
 * [[fracture square]]
 
 * [[rational homotopy theory]]
 
-* [[equivariant rationalization]]
+  * [[Borel-equivariant rational homotopy theory]]
+
+* [[fundamental theorem of dg-algebraic rational homotopy theory]]
 
 * [[rational equivariant homotopy theory]]
 
