@@ -29,12 +29,21 @@ Review:
 
 * [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. 698 (2016) 012012 ([doi:10.1088/1742-6596/698/1/012012](https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012))
     
-* {#LahtinenPachos17} Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
+* {#LahtinenPachos17} Ville Lahtinen, [[Jiannis K. Pachos]], _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. **3** 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
 * Bernard Field, Tapio Simula, _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology 2018 ([arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2))
 
+Focus on **[[abelian anyons]]**:
+
+* [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 ([arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273))
+
+* [[James Robin Wootton]], *Dissecting Topological Quantum Computation*, 2010 ([pdf](https://etheses.whiterose.ac.uk/1163/1/main.pdf), [[WoottonDissectingTQC.pdf:file]])
+
+  > "non-Abelian anyons are usually assumed to be better suited to the task. Here we challenge this view, demonstrating that Abelian anyon models have as much potential as some simple non-Abelian models."
+
+* [[Seth Lloyd]], *Quantum computation with abelian anyons*, Quantum Information Processing **1** 1/2 (2002) ([arXiv:quant-ph/0004010](https://arxiv.org/abs/quant-ph/0004010), [doi:10.1023/A:1019649101654](https://doi.org/10.1023/A:1019649101654))
 
 
 Realization in [[experiment]]:
