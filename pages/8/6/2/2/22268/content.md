@@ -64,6 +64,8 @@ See also:
 
    * [[orbit category]]
 
+   * equivairant [[universal covering space]]
+
 11. Elementary algebra of transformation groups
 
 
