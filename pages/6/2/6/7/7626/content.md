@@ -54,7 +54,11 @@ Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantu
 
 * [[Jürg Fröhlich]], F. Gabbiani, _Braid statistics in local quantum theory_, Reviews in Mathematical Physics, Volume 2, Issue 03, pp. 251-353 (1990) ([doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107))_
 
+Discussion in terms of [[modular tensor categories]] 
 
+for abelian anyons:
+
+* Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) ([doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0))
 
 
 
@@ -107,6 +111,9 @@ The claimed observation of abelian anyons is apparently more securely establishe
 
 
 [[!redirects anyon statistics]]
+
+[[!redirects abelian anyon]]
+[[!redirects abelian anyons]]
 
 [[!redirects non-abelian anyon]]
 [[!redirects non-abelian anyons]]
