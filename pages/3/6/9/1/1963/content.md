@@ -37,25 +37,29 @@ $$
 
 This identity is called the __[[Leibniz rule]]__; compare it to the product rule in ordinary calculus (first written down by [[Gottfried Leibniz]]). 
 
+#### In a cancellative algebra
+
+For $A$ a cancellative algebra, where for all $c \neq 0$, $c a = c b$ implies $a = b$ and $a c = b c$ implies $a = b$, the derivation satisfies the following identity: for any scalar $c$ in $k$, $d(c) = 0$. This follows from $k$-linearity, which says that for any scalar $c$ in $k$ and for any non-zero element $f$ in $A$, $d(c f) = c d(f)$ and $d(f c) = d(f) c$. The Leibniz rule states that $d(c f) = c d(f) + d(c) f$ and $d(f c) = d(f) c + f d(c)$. It follows that $d(c) f = 0$ and $f d(c) = 0$, and due to the cancellative property and the fact that $f$ is non-zero, it follows that $d(c) = 0$. 
+
 #### In a division algebra
 
-For $A$ a [[division algebra]], with left division $\backslash$ and right division $/$ the derivation satisfies the left and right quotient identities for $f, g, h \in A$: 
+For $A$ a [[division algebra]], with left division $\backslash$ and right division $/$ the derivation satisfies the left and right quotient identities for $f$ in $A$ and non-zero $g$ in $A$: 
 
 $$
-  D(f\backslash h) = f\backslash D(h) - f\backslash (D(f) (f\backslash h))
+  D(g\backslash f) = g\backslash D(f) - g\backslash (D(g) (g\backslash f))
   \,,
 $$
 
 and 
 
 $$
-  D(h/g) = D(h)/g - ((h/g) D(f))/g
+  D(f/g) = D(f)/g - ((f/g) D(g))/g
   \,,
 $$
 which reduces to the regular __[[quotient rule]]__ if the division algebra is associative and commutative: 
 
 $$
-  D\left(\frac{h}{g}\right) = \frac{D(h)}{g} - \frac{D(g) h}{g^2}
+  D\left(\frac{f}{g}\right) = \frac{D(f)}{g} - \frac{D(g) f}{g^2}
 $$
 
 ### Derivations with values in a bimodule
