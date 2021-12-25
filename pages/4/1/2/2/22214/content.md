@@ -43,7 +43,7 @@ In view of [[quantum computation]] (ie. quantum machine learning):
  
   *Demonstration of quantum advantage in machine learning*, npj Quantum Information volume 3, Article number: 16 (2017) ([doi:10.1038/s41534-017-0017-3](https://doi.org/10.1038/s41534-017-0017-3))
 
-* [[Jacob Biamonte]], Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan Wiebe, Seth Lloyd, *Quantum Machine Learning*, Nature volume 549, pages 195–202 (2017) ([doi:10.1038/nature23474](https://doi.org/10.1038/nature23474))
+* [[Jacob Biamonte]], Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan Wiebe, [[Seth Lloyd]], *Quantum Machine Learning*, Nature **549**  (2017) 195–202 ([doi:10.1038/nature23474](https://doi.org/10.1038/nature23474))
 
   EurekaAlert, *Quanutum Machine Learning* [14-Sep-2017](https://www.eurekalert.org/pub_releases/2017-09/iiop-qml091417.php)
 
