@@ -32,6 +32,9 @@ On [[braid group representations]] and their application to [[topological quantu
 
 * [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
 
+On [[abelian anyons]] in terms of [[modular tensor categories]]:
+
+* Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) ([doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0))
 
 
 ## Related entries
