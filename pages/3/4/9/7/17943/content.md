@@ -226,14 +226,23 @@ $$
 
 where $\flat Sets$ is the actual classifier for covering spaces in the generality of cohesive (e.g. topological) homotopy types. This reflects the fundamental theorem of covering spaces as traditionally understood in [[topology]].
 
-(This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcct, sec. 3.8.6]], [p. 358](https://arxiv.org/pdf/1310.7930v1.pdf#page=358))
+This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcct, sec. 3.8.6]], [p. 358](https://arxiv.org/pdf/1310.7930v1.pdf#page=358), see also [Cherubini & Rijke 2020, Thm. 8.7](#CherubiniRijke20).
 
 ## References
 
-Lecture notes include
+Lecture notes on the classical theory:
 
 * {#Waldhausen} [[Friedhelm Waldhausen]], around p. 122 of  _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
 * {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
+
+Discussion in [[cohesive homotopy theory]]:
+
+* [[Urs Schreiber]], [[schreiber:differential cohomology in a cohesive topos|dcct, sec. 3.8.6]], [p. 358](https://arxiv.org/pdf/1310.7930v1.pdf#page=358)
+
+Discussion in [[cohesive homotopy type theory]]:
+
+* {#CherubiniRijke20} [[Felix Cherubini]], [[Egbert Rijke]], Thm. 8.7 in: *Modal Descent*, Mathematical Structures in Computer Science (2020)  ([arXiv:2003.09713](https://arxiv.org/abs/2003.09713), [doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201))
+
 
 
