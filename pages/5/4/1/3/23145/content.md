@@ -100,6 +100,8 @@ Families of two-dimensional [[conformal field theory|conformal field theories]],
 
 * [More Mysteries of the Number 24](https://golem.ph.utexas.edu/category/2007/06/more_mysteries_of_the_number_2.html) at the $n$-Category Café
 
+* [The Binary Octahedral Group](https://golem.ph.utexas.edu/category/2021/12/the_binary_octahedral_group.html) at the $n$-Category Café
+
 * [John Baez on the Number 24](https://math.ucr.edu/home/baez/numbers/#24)
 
 * H. Cohn, A. Kumar, S. D. Miller, D. Radchenko and M. Viazovska, *Universal optimality of the $E_8$ and Leech lattices and interpolation formulas*, 
