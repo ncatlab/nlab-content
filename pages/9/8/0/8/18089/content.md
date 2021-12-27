@@ -69,14 +69,21 @@ The [[category of modules]] over the [[category algebra]] $k C$ is equivalent to
 
 Maybe the earliest explicit observation that in an [[orbit category]], and its relatives, *endomorphisms are automorphisms* is in:
 
-
 * {#tomDieck1987} [[Tammo tom Dieck]], p. 73 of: *[[Transformation Groups]]*, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
-Other references are:
+Discussion in the context of [[algebraic K-theory]]:
 
-* {#Webb08} [[Peter Webb]], _Standard stratifications of EI categories and Alperin's weight conjecture_, ([doi](https://doi.org/10.1016/j.jalgebra.2006.03.052))
+* {#Lueck89} [[Wolfgang Lück]], _Transformation Groups and Algebraic K-Theory_, Lecture Notes in Mathematics **1408** (Springer 1989) ([doi:10.1007/BFb0083681](https://doi.org/10.1007/BFb0083681))
 
-* Karsten Dietrich, _Representation Theory of EI-categories_, ([pdf](https://d-nb.info/1007029781/34))
+On the [[representation theory]] of EI-categories:
+
+* {#Webb08} [[Peter Webb]], _Standard stratifications of EI categories and Alperin's weight conjecture_, Journal of Algebra
+**320** 12 (2008) 4073-4091 ([doi:10.1016/j.jalgebra.2006.03.052](https://doi.org/10.1016/j.jalgebra.2006.03.052))
+
+* Karsten Dietrich, _Representation Theory of EI-categories_, 2010 ([urn:nbn:de:hbz:466-20100701014](https://digital.ub.uni-paderborn.de/hsmig/content/titleinfo/1708), [pdf](https://d-nb.info/1007029781/34), [[Dietrich_EICategories.pdf:file]])
+
+* Ergün Yalçın, *Projective resolutions over EI-categories*, 2012 ([hdl:11693/15472](http://hdl.handle.net/11693/15472))
+
 
 [[!redirects EI-categories]]
 [[!redirects EI category]]
