@@ -1,4 +1,6 @@
 
+$\curvearrowright$
+
 ...
 
 Let $\widehat{G} \overset{p}{\twoheadrightarrow} G $ be a surjective homomorphism of discrete groups. For $H \subset G$ a subgroup, write $\widehat{H} \subset \widehat{G}$ for its pullback
