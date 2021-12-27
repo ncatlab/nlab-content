@@ -76,7 +76,57 @@ More generally, given a family $F$ of subgroups of $G$ which is closed under con
 
 ## Variants
 
-Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\operatorname{Orb}_G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will still hold.
+### Families of subgroups
+
+Sometimes a family, $\mathcal{W} \subset Sub_{Grp}(G)$, of [[subgroups]] is specified, and then a subcategory of $Orb_G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will still hold.
+
+
+
+### Equivariant fundamental groupoid
+ {#FundamentalCategoryOfAGSpace}
+
+
+\begin{definition}\label{EquivariantFundamentalGroupoid}
+For $G \curvearrowright X \,\in\, G Act(TopSp)$ a [[topological G-space]], its *fundamental category* ([tom Dieck 1987 (10.7)](#tomDieck87), [Lück 1989, 8.15](#Lueck89)) or *equivariant fundamental groupoid* ([Pronk & Scull 2021, Def. 3.1](#PronkScull21))
+
+is the [[small category]] whose
+
+- [[objects]] are [[pairs]] consisting of a [[subgroup]] $H \subset G$ and a  $G$-[[equivariant functions]] $x_X \,\colon\, G/H \to X$, hence, equivalently a points in the [[fixed locus]] $X^H$;
+
+- [[morphisms]] $x_H \xrightarrow{ (\phi,[\gamma]) } x'_{H'}$  are [[pairs]] consisting of a $G$-[[equivariant function]] $G/H \xrightarrow{ \phi } G/H'$ and a relative $G$-homotopy class $[\gamma]$ of a continuous path $\gamma \,\colon\,  G/H \times [0,1] \xrightarrow{\;} X$ from $\gamma(0) = x_H$ to $\gamma_1 = \phi^\ast x'_X'$.
+
+\end{definition}
+
+\begin{example}
+  For $G \curvearrowright X \,=\, G \curvearrowright \ast$ the point, its fundamental category (equivariant fundamental groupoid) according to Def. \ref{EquivariantFundamentalGroupoid} is the plain [[orbit category]] $G Orbts$ (Def. \ref{TheOrbitCategory}).
+\end{example}
+
+\begin{proposition}
+If we write 
+$$
+  \tau_1 \esh \big( X^{(-)}\big)
+  \;\in\;
+  PSh\big( G Orbt \big)
+$$
+for the [[fundamental groupoid]] of $X$ in its incarnation as a [[presheaf]] of [[fixed loci]] over the [[orbit category]], hence for the [[(2,1)-functor]]
+
+\[
+  \label{FundamentalGroupoidOfAPresheafOfFixedLoci}
+  \array{
+    G Orbt^{op}
+    &\xrightarrow{ \tau_1 \esh \big( X^{(-)}\big) }&
+    Grpd_1
+    \\
+    G/H
+    &\mapsto&
+    \tau_1 \esh (X^H)
+  }
+\]
+which sends $G/H$ to the ordinary [[fundamental groupoid]] of the [[fixed locus]] $X^H$, then the equivariant fundamental groupoid of $G \curvearrowright X$ (Def. \ref{EquivariantFundamentalGroupoid}) is equivalently the [[Grothendieck construction]] on (eq:FundamentalGroupoidOfAPresheafOfFixedLoci).
+\end{proposition}
+
+This follows by direct unwinding of the definitions; see also [Pronk & Scull 2021, below Def. 3.1](#PronkScull21).
+
 
 ## Examples
  {#Examples}
@@ -176,6 +226,10 @@ $$
 \end{imagefromfile}
 
 ## Properties
+
+### General properties
+
+* Orbit categories as well as fundamental categories of $G$-spaces are [[EI-categories]].
 
 ### Relation to $G$-spaces and Elmendorf's theorem
 
@@ -327,14 +381,31 @@ Textbook accounts:
 
 * {#tomDieck87} [[Tammo tom Dieck]], Section I.10 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
+* {#Lueck89} [[Wolfgang Lück]], (8.16) in _Transformation Groups and Algebraic K-Theory_, Lecture Notes in Mathematics **1408** (Springer 1989) ([doi:10.1007/BFb0083681](https://doi.org/10.1007/BFb0083681))
+
 * {#May96} [[Peter May]], Section I.4 of: _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
 
 Lecture notes:
 
 * {#tomDieck09} [[Tammo tom Dieck]], Section 1.3 of: _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
-For more on the relation to [[global equivariant homotopy theory]] see 
+For more in relation to [[global equivariant homotopy theory]] see 
 
 * [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_
 
+The notion of fundamental category of a $G$-space is due to 
+
+* [tom Dieck 1987](#tomDieck87)
+
+* [Lück 1989, 8.15](#Lueck89)
+
+with further discussion in
+
+* {#PronkScull21} [[Dorette Pronk]], [[Laura Scull]], *The Equivariant Fundamental Groupoid as an Orbifold Invariant*, Homology, Homotopy and Applications **23** 1 (2021) ([arXiv:1908.01201](https://arxiv.org/abs/1908.01201), [doi:10.4310/HHA.2021.v23.n1.a3](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a3))
+
+
 [[!redirects orbit categories]]
+
+[[!redirects equivariant fundamental groupoid]]
+[[!redirects equivariant fundamental groupoids]]
+
