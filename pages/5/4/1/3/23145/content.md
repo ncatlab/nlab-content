@@ -98,17 +98,26 @@ Families of two-dimensional [[conformal field theory|conformal field theories]],
 
 ## References
 
+Blog discussion:
+
 * [More Mysteries of the Number 24](https://golem.ph.utexas.edu/category/2007/06/more_mysteries_of_the_number_2.html) at the $n$-Category Café
 
 * [The Binary Octahedral Group](https://golem.ph.utexas.edu/category/2021/12/the_binary_octahedral_group.html) at the $n$-Category Café
 
 * [John Baez on the Number 24](https://math.ucr.edu/home/baez/numbers/#24)
 
-* H. Cohn, A. Kumar, S. D. Miller, D. Radchenko and M. Viazovska, *Universal optimality of the $E_8$ and Leech lattices and interpolation formulas*, 
-([arXiv:1902.05438](https://arxiv.org/abs/1902.05438)).
+Discussion in relation to the [[Leech lattice]]:
 
-* [[Terry Gannon]], section 2.5.1 of: *Moonshine Beyond the Monster* Cambridge University Press, 2006  ([doi:10.1017/CBO9780511535116](https://doi.org/10.1017/CBO9780511535116))
+* {#Sloane80} N. J. Sloane, *A note on the Leech lattice as a code for the Gaussian channel*. Information and Control, **46&** 3 (1980). 270--272 ([pdf](http://neilsloane.com/doc/Me75.pdf))
+
+* {#Gannon06} [[Terry Gannon]], section 2.5.1 of: *Moonshine Beyond the Monster*, Cambridge University Press, 2006  ([doi:10.1017/CBO9780511535116](https://doi.org/10.1017/CBO9780511535116))
+
+* {#CohnKumarMIllerRadschenkoViazovska19} H. Cohn, A. Kumar, S. D. Miller, D. Radchenko and M. Viazovska, *Universal optimality of the $E_8$ and Leech lattices and interpolation formulas*,  ([arXiv:1902.05438](https://arxiv.org/abs/1902.05438)).
+
+
+
+Discussion in relation to the [[J-homomorphism]]:
 
 * [Bernoulli Numbers and the J-homomorphism](https://golem.ph.utexas.edu/category/2020/12/bernoulli_numbers_and_the_jhom.html) at the $n$-Category Café
 
-* Sloane, N. J. (1980). A note on the Leech lattice as a code for the Gaussian channel. Information and Control, 46(3), 270--272.
+
