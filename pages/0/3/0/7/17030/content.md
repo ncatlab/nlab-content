@@ -82,7 +82,7 @@ Further discussion in:
 
 The [[model structure on equivariant dgc-algebras]], generalizing the [[projective model structure on dgc-algebras]], in which equivariant [[minimal Sullivan models]] are [[cofibrant objects]]:
 
-* [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
+* {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
 See also 
 
