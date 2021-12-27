@@ -82,6 +82,8 @@ On the [[representation theory]] of EI-categories:
 
 * Karsten Dietrich, _Representation Theory of EI-categories_, 2010 ([urn:nbn:de:hbz:466-20100701014](https://digital.ub.uni-paderborn.de/hsmig/content/titleinfo/1708), [pdf](https://d-nb.info/1007029781/34), [[Dietrich_EICategories.pdf:file]])
 
+* Liping Li, *A generalized Koszul theory and its application*, Transactions of the American Mathematical Society **366** 2 (2014) 931-977 ([arXiv:1109.5760](https://arxiv.org/abs/1109.5760), [jstor:23812975](https://www.jstor.org/stable/23812975))
+
 * Ergün Yalçın, *Projective resolutions over EI-categories*, 2012 ([hdl:11693/15472](http://hdl.handle.net/11693/15472))
 
 
