@@ -827,7 +827,7 @@ After [[diffeomorphism]] [[gauge fixing]] one finds that the resulting field the
 
 This is effectively the [[AdS-CFT correspondence]].
 
-Detailed discussion of the above steps is in ([AFFFTT 98](#AFFFTT98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99)). See also the review in [Duff 2021](#Duff21).
+Detailed discussion of the above steps is in ([AFFFTT 98](#AFFFTT98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99)). The resulting "[[superconformal algebra|super-conformal]] brane scan" is discussed in [Blencowe & Duff 1988](#BlencoweDuff88) with further developments in [Duff 2009](#Duff09), [Duff 2021](#Duff21).
 
 ### Quantization
 
@@ -1056,8 +1056,8 @@ A corresponding refinement of the brane scan to a "brane bouquet" of [[super L-â
 
 These cohomological arguments also appear in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in
 
-* G. Bossard, [[Paul Howe]], K.S. Stelle, _A note on the UV behaviour of maximally supersymmetric Yang-Mills theories_, Phys. Lett. B682:137-142 (2009) ([arXiv:0908.3883](http://arxiv.org/abs/0908.3883))
- {#BossardHoweStelle09}
+* {#BossardHoweStelle09} G. Bossard, [[Paul Howe]], K.S. Stelle, _A note on the UV behaviour of maximally supersymmetric Yang-Mills theories_, Phys. Lett. B682:137-142 (2009) ([arXiv:0908.3883](http://arxiv.org/abs/0908.3883))
+ 
 
 * [[Paul Howe]], T. G. Pugh, K. S. Stelle, C. Strickland-Constable, _Ectoplasm with an Edge_, JHEP 1108:081,2011 ([arXiv:1104.4387](http://arxiv.org/abs/1104.4387))
 
@@ -1068,13 +1068,15 @@ The connection is made in
 * [[Paul Howe]], O. Raetzel, [[Ergin Sezgin]], _On Brane Actions and Superembeddings_, JHEP 9808 (1998) 011 ([arXiv:hep-th/9804051](http://arxiv.org/abs/hep-th/9804051))
 
 
-The other brane scan, listing consistent asymptotic AdS geometries is due to
+The other brane scan, listing consistent asymptotic [[AdS/CFT]] [[spacetimes]]/[[superconformal algebras]] is due to:
 
-* M.P. Blencowea, [[Mike Duff]], _Supersingletons_, Physics letters B, Volume 203, Issue 3, 31 March 1988, Pages 229&#8211;236 .
+* {#BlencoweDuff88} [[Miles P. Blencowe]], [[Mike Duff]], _Supersingletons_, Physics letters B, **203** 3(1988) 229-236 ([cds:184143](http://cds.cern.ch/record/184143), <a href="http://dx.doi.org/10.1016/0370-2693(88)90544-8">doi:10.1016/0370-2693(88)90544-8</a>)
 
 with further developments discussed in
 
-* [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
+* {#Duff09} [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
+
+* {#Duff21} [[Michael Duff]], *The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
 
 
 ### Anti de Sitter backgrounds
@@ -1223,10 +1225,8 @@ predating the modern formulation of the [[AdS-CFT correspondence]]. The relation
 
 * {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int. J. Mod. Phys. A14:815-844, 1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
 
-with more recent developments summarized in
+with more recent developments summarized in [Duff 2021](#Duff21).
 
-* {#Duff21} [[Michael Duff]], 
-*The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
 
 Further discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce -- after restricting to small fluctuations about a background solution and after [[diffeomorphism]] [[gauge fixing]] -- superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
 
