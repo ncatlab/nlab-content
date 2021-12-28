@@ -64,7 +64,11 @@ See also:
 
    * [[orbit category]]
 
-   * equivairant [[universal covering space]]
+     * [[equivariant set of connected components]]
+
+     * [[equivariant fundamental groupoid]]
+
+     * equivariant [[universal covering space]]
 
 11. Elementary algebra of transformation groups
 
