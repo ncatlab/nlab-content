@@ -565,12 +565,17 @@ and explicitly so in [[cohesive homotopy type theory]]:
 * {#CherubiniRijke20} [[Felix Cherubini]], [[Egbert Rijke]], Def. 8.5: *Modal Descent*, Mathematical Structures in Computer Science (2020)  ([arXiv:2003.09713](https://arxiv.org/abs/2003.09713), [doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201))
 
 
-Discussion in the generality of [[equivariant homotopy theory]]:
+Discussion of [[equivariant universal covers]] in the generality of [[equivariant homotopy theory]]:
 
 * [[Tammo tom Dieck]], Section I (10.13) of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 [[!redirects universal cover]]
 [[!redirects universal covers]]
+
+[[!redirects universal covering]]
+[[!redirects universal coverings]]
+
+
 [[!redirects universal covering spaces]]
 [[!redirects universal cover of a topos]]
 [[!redirects universal cover of a (2,1)-topos]]
@@ -581,3 +586,6 @@ Discussion in the generality of [[equivariant homotopy theory]]:
 [[!redirects universal covering (∞,1)-topos]]
 [[!redirects universal covering (infinity,1)-topos]]
 [[!redirects universal covering groupoid]]
+
+
+
