@@ -202,7 +202,7 @@ The [[extra structure]] required on the ambient category $\mathcal{C}$ is someti
 
   * A [[ring]] is a [[monoid object]] in [[Ab]] with its usual tensor product.
 
-  * An [[algebra]] is a monoid internal to [[Vect]], with its usual tensor product.
+  * An [[algebra]] is a [[monoid object]] internal to [[Vect]], with its usual tensor product.
 
   * A strict monoidal category is a monoid internal to [[Cat]], with its cartesian product.
 
@@ -246,6 +246,8 @@ A very different sort of general result has to do with the [[internal logic]] of
 * [[group object]]
 
 * [[action object]]
+
+* [[pseudo-torsor|pseudo-torsor object]] ($\sim$ [[principal bundle]]-object)
 
 * [[ring object]] 
 
