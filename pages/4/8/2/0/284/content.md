@@ -302,6 +302,8 @@ This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem 
 
   * [[disjunctive (∞,1)-category]]
 
+  * [[model (∞,1)-category]]
+
 * [[(∞,2)-category]]
 
 * [[(∞,n)-category]]
