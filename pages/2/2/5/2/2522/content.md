@@ -830,7 +830,8 @@ There exists no [[superconformal]] extension of the [[super Poincaré Lie algebr
 
 =--
 
-This is due to ([Shnider 88](#Shnider88)), see also ([Nahm 78](#Nahm78)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)). See also the references at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
+This is due to ([Shnider 88](#Shnider88), [Nahm 78](#Nahm78)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)). 
+For discussion in the context of the [[AdS/CFT correspondence]] see also [Blencowe & Duff 1988](#BlencoweDuff88), [Duff 2009](#Duff09), [Duff 2021](#Duff21) and see the references at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
 
 
@@ -1140,6 +1141,14 @@ Review include:
 
 * {#Duff08} [[Michael Duff]], section A of _Near-horizon brane scan revived_, Nucl. Phys. B810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
+Discussion in the context of the [[Green-Schwarz sigma-model|brane scan]] for conformal branes in (what came to be called) [[AdS/CFT duality]]:
+
+* {#BlencoweDuff88} [[Miles P. Blencowe]], [[Mike Duff]], _Supersingletons_, Physics letters B, **203** 3(1988) 229-236 ([cds:184143](http://cds.cern.ch/record/184143), <a href="http://dx.doi.org/10.1016/0370-2693(88)90544-8">doi:10.1016/0370-2693(88)90544-8</a>)
+
+* {#Duff09} [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
+
+* {#Duff21} [[Michael Duff]], *The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
+
 
 For more on this see at _[[super Poincaré Lie algebra]]_.
 
@@ -1211,6 +1220,8 @@ Remembering that there is a considerable difference between global low energy su
 
 [[!redirects superconformal algebra]]
 [[!redirects superconformal algebras]]
+[[!redirects super-conformal algebra]]
+[[!redirects super-conformal algebras]]
 
 
 [[!redirects local supersymmetry]]
