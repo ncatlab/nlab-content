@@ -399,6 +399,9 @@ Review is in
 
 * {#Duff99} [[Mike Duff]], _TASI Lectures on Branes, Black Holes and Anti-de Sitter Space_ ([arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164))
 
+* [[Michael Duff]], 
+*The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
+
 See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
 Sketch of a derivation of AdS/CFT:
