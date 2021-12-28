@@ -425,6 +425,9 @@ See at _[[universal Kan fibration]]_.
 
 * [[simplicial homotopy theory]]
 
+* [[homotopy Kan fibration]]
+
+
 ## References
 
 A standard textbook account is
