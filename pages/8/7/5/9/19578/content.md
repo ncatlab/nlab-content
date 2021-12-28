@@ -85,6 +85,10 @@ Possible relation to [[flavour anomalies]] via potential [[leptoquarks]]:
 
 * {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
+Discussion of [[standard model of particle physics|standard model]]-building in [[heterotic M-theory|Horava-Witten]]-type compactifications:
+
+* Y. H. Ahn, Sin Kyu Kang, Hyun Min Lee, *Towards a Model of Quarks and Leptons* ([arXiv:2112.13392](https://arxiv.org/abs/2112.13392))
+
 
 ### As intersecting brane models in string theory 
 
