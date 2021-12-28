@@ -54,7 +54,9 @@ Examples of references using this terminology: [StacksProject](#StacksProject), 
 
 ## Examples
 
-* Even if a $G$-[[equivariant principal bundle]] is an actual [[torsor]] ([[internalization|in]] [[topological G-spaces]] [[slice category|sliced]] over a given base) its [[fixed loci]] will generally only be (similarly internal) pseudo-torsors.
+* *[[equivariant principal bundles]]* 
+
+  Even if a $G$-[[equivariant principal bundle]] is an actual [[torsor]] ([[internalization|in]] [[topological G-spaces]] [[slice category|sliced]] over a given base, [SS 2021, Def. 2.1.3](equivariant+bundle#SatiSchreiber21)) its [[fixed loci]] will generally only be (similarly internal) pseudo-torsors. (For more see [SS 2021, Rem. 2.18](equivariant+bundle#SatiSchreiber21)).
 
 ## Properties
 
