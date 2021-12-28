@@ -399,8 +399,14 @@ Review is in
 
 * {#Duff99} [[Mike Duff]], _TASI Lectures on Branes, Black Holes and Anti-de Sitter Space_ ([arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164))
 
-* [[Michael Duff]], 
-*The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
+
+The resulting [[superconformal algebra|super-conformal]] [[Green-Schwarz sigma-model|brane scan]]:
+
+* {#BlencoweDuff88} [[Miles P. Blencowe]], [[Mike Duff]], _Supersingletons_, Physics letters B, **203** 3(1988) 229-236 ([cds:184143](http://cds.cern.ch/record/184143), <a href="http://dx.doi.org/10.1016/0370-2693(88)90544-8">doi:10.1016/0370-2693(88)90544-8</a>)
+
+* {#Duff09} [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
+
+* [[Michael Duff]],  *The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
 
 See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
