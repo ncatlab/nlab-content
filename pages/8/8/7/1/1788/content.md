@@ -1,85 +1,256 @@
 
-$\curvearrowright$
 
-...
-
-Let $\widehat{G} \overset{p}{\twoheadrightarrow} G $ be a surjective homomorphism of discrete groups. For $H \subset G$ a subgroup, write $\widehat{H} \subset \widehat{G}$ for its pullback
-
-\begin{tikzcd}
-  \widehat{H}
-  \ar[r, hook]
-  \ar[d,->>]
-  \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-  &
-  \widehat{G}
-  \ar[d,->>]
-  \\
-  H
-  \ar[r, hook]
-  &
-  G
-\end{tikzcd}
-
-
-Then
-
-\begin{tikzcd}
-  \widehat{G}\mathrm{Orbt}
-  \ar[from=r, hook', shift left=7pt, "R"]
-  \ar[r, shift left=7pt, "L"]
-  \ar[r, phantom, "\scalebox{.7}{$\bot$}"]
-  &
-  G\mathrm{Orbt}
-\end{tikzcd}
-
-where
-
-* $R(G/H) \,=\, \widehat{G}/\widehat{H}$
-
-* $L(\widehat{G}/K) \,=\, G/p(K)$.
-
-A transparent way to see this is to identify $G$-orbits with the [[n-truncated object of an (infinity,1)-category|0-truncated objects]] in the $B G$-slice of $Singlrt \,\coloneqq\, Grpd_1^{cn} $: 
+For 
 
 $$
-  G Orbt \;\simeq\; \left( (Grpd_1^{cn})_{/ B G} \right)_0
-  \,.
+  \mathcal{X}
+  \;\colon\;
+  \mathcal{C}^{op}
+  \xrightarrow{\;}
+  Grpd_\infty
 $$
 
-Under this identification, the adjunction is the canonical left [[base change]] on slices composed with the [[n-truncated object of an (infinity,1)-category|0-truncation]] reflection ([here](n-truncated+object+of+an+infinity1-category#nTruncationReflection)):
-
-\begin{tikzcd}
-  (\mathrm{Grpd}_1^{\mathrm{cn}})_{/ B \widehat{G}}
-  \ar[from=r, shift left=7pt, "(B p)^\ast"]
-  \ar[r, shift left=7pt, "(B p)_!"]
-  \ar[r, phantom, "\scalebox{.7}{$\bot$}"]
-  &
-  (\mathrm{Grpd}_1^{\mathrm{cn}})_{/ B G}
-  \ar[from=r, hook', shift left=7pt]
-  \ar[r, shift left=7pt, "\tau_0"]
-  \ar[r, phantom, "\scalebox{.7}{$\bot$}"]
-  &
-  \left( (\mathrm{Grpd}_1^{\mathrm{cn}})_{/ B G} \right)_0
-\end{tikzcd}
-
-That the right adjoint $R$ is fully faithful is most readily seen by direct inspection: A function of $\widehat{G}$-sets on which $\widehat{G}$ acts only through $G$ is evidently $\widehat{G}$-equivariant if and only if it is $G$-equivariant.
-
-
+an $\infty$-presheaf and
 
 $$
-  Hom
+  \overset{
+    c \in \mathcal{C}
+  }{\int}
+  \mathcal{X}(c)
+  \;\;
+  \in
+  \;\;
+  Grpd_\infty
+$$
+its $\infty$-Grothendieck construction, it ought to be the case that its projection onto the $\infty$-Grothendieck construction of its $n$-truncation is the $\infty$-Grothendieck construction on the system 
+
+$$
   \big(
-    \mathcal{X}
-    ,\,
-    \mathcal{Y}
+    c,
+    \,
+    x \in \mathcal{X}(c)
   \big)
-  \xrightarrow{\;\;\;}
-  Hom
+  \;\mapsto\;
+  cn_n
   \big(
-    \mathcal{X} \times B N
-    ,\,
-    \mathcal{Y}
+    \mathcal{X}(c), x
   \big)
 $$
+
+of $n$-connected covers:
+
+\begin{tikzcd}
+    \overset
+      { \mathclap{ c \in \mathcal{C} } }
+      { \scalebox{1.6}{$\int$} }    
+    \mathcal{X}(c)
+    \ar[rr]
+    \ar[d, "P_n", start anchor={[yshift=2pt]}, end anchor={[yshift=-10pt]}]
+    \ar[drr, phantom, "{\mbox{\tiny(pb)}}"]
+    &&
+    \widehat{\mathrm{Grpd}_{\infty}}
+    \ar[d]
+    \\
+    \overset
+      { \mathclap{ c \in \mathcal{C} } }
+      { \scalebox{1.6}{$\int$} }
+    \tau_n \mathcal{X}(c)
+    \ar[
+      rr,
+      "{
+        (c,x)
+        \,\mapsto\,
+        \mathrm{cn}_n
+        \big(
+          \mathcal{X}(c), x
+        \big)
+      }"{swap}
+    ]
+    &&
+    \mathrm{Grpd}_\infty
+\end{tikzcd}
+
+
+Is this discussed anywhere?
+
+
+\linebreak
+
+Here some more elaboration:
+
+For $n \in \mathbb{N} \sqcup \{\infty\}$, we write
+
+\begin{tikzcd}
+    \widehat{\mathrm{Grpd}_n}
+    \mathrlap{
+      =: \mathrm{Grpd}_n^{\ast/}
+    }
+    \ar[d]
+    &
+    \\
+    \mathrm{Grpd}_n
+\end{tikzcd}
+
+for the universal fibration of $n$-groupoids.
+
+
+Via the naturality squares
+
+\begin{tikzcd}
+    \widehat{\mathrm{Grpd}_\infty}
+    \ar[d]
+    \ar[r, "\tau_n"]
+    &
+    \widehat{\mathrm{Grpd}_n}
+    \ar[d]
+    \\
+    \mathrm{Grpd}_\infty
+    \ar[r, "\tau_n"]
+    &
+    \mathrm{Grpd}_n
+\end{tikzcd}
+
+we may canonically regard any pointed $\infty$-groupoid 
+$(\mathcal{X}, x) \,\in\, \widehat{\mathrm{Grpd}_\infty}$
+as an element in the homotopy pullback of the $n$th universal fibration along
+$\tau_n$.
+
+The resulting further homotopy pullback along its classifying map should be the $n$-connected cover 
+$\mathrm{cn}_n(\mathcal{X},s)$
+of 
+$(\mathcal{X},x)$:
+
+\begin{tikzcd}
+    \mathrm{cn}_n(\mathcal{X},x)
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &
+    \widehat{\mathrm{Grpd}_\infty}
+    \ar[d]
+    \\
+    \ast
+    \ar[
+      r,
+      "{
+        \vdash (\mathcal{X},x)
+      }"{swap}
+    ]
+    &
+    {}
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &
+    \widehat{\mathrm{Grpd}_n}
+    \ar[d]
+    \\
+    &
+    \mathrm{Grpd}_\infty
+    \ar[r, "\tau_n"]
+    &
+    \mathrm{Grpd}_n
+\end{tikzcd}
+
+
+Then consider the following tower of $\infty$-Grothendieck constructions on the $n$-truncations of an $\infty$-presheaf $\mathcal{X}(-)$, here shown in the first few stages:
+
+\begin{tikzcd}
+    \mathrm{cn}_1
+    \big(
+      \mathcal{X}(c),
+      x
+    \big)
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &[+5pt]
+    \overset
+      { \mathclap{ c \in \mathcal{C} } }
+      { \scalebox{1.6}{$\int$} }
+    \mathcal{X}(c)
+    \ar[r]
+    \ar[d, "P_1", start anchor={[yshift=2pt]}, end anchor={[yshift=-10pt]}]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &
+    \widehat{\mathrm{Grpd}_\infty}
+    \ar[d]
+    \\
+    \ast
+    \ar[
+      r, 
+      "{
+        \vdash 
+        \big(
+          \mathcal{X}(c),x
+        \big)
+      }"{swap}
+    ]
+    &
+    \overset
+      { \mathclap{ c \in \mathcal{C} } }
+      { \scalebox{1.6}{$\int$} }
+    \tau_1 \mathcal{X}(c)
+    \ar[d, start anchor={[yshift=+2pt]}, end anchor={[yshift=-12pt]}]
+    \ar[r]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &
+    {}
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &
+    \widehat{\mathrm{Grpd}_1}
+    \ar[d]
+    \\
+    &
+    \overset
+      { \mathclap{ c \in \mathcal{C} } }
+      { \scalebox{1.6}{$\int$} }
+      \tau_0 \mathcal{X}(c)
+    \ar[d, start anchor={[yshift=2pt]}, end anchor={[yshift=-6pt]}]
+    \ar[r]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    & 
+    {}
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    & 
+    {}
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    & 
+    \widehat{\mathrm{Set}}
+    \ar[d]
+    \\
+    &
+    \mathclap{\phantom{\scalebox{1.6}{$\int$}}}
+    \mathcal{C}^{\mathrm{op}}
+    \ar[
+      r,
+      "{
+        \mathcal{X}  
+      }"{swap}
+    ]
+    &
+    \mathrm{Grpd}_\infty
+    \ar[
+      r, 
+      "{\tau_1}"{swap}
+    ]
+    &
+    \mathrm{Grpd}_1
+    \ar[
+      r, 
+      "{\tau_0}"{swap}
+    ]
+    &
+    \mathrm{Set}
+\end{tikzcd}
+
+By the pasting law, and the previous diagram, the top left square ought to be as shown, exhibiting the homotopy fibers of $P_1$ as the 1-connected covers as claimed. The same argument would apply to any $P_n$.
 
 
 
