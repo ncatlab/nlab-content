@@ -87,11 +87,11 @@ Sometimes a family, $\mathcal{W} \subset Sub_{Grp}(G)$, of [[subgroups]] is spec
 
 
 \begin{definition}\label{EquivariantFundamentalGroupoid}
-For $G \curvearrowright X \,\in\, G Act(TopSp)$ a [[topological G-space]], its *fundamental category* ([tom Dieck 1987 (10.7)](#tomDieck87), [Lück 1989, 8.15](#Lueck89)) or *equivariant fundamental groupoid* ([Pronk & Scull 2021, Def. 3.1](#PronkScull21))
+For $G \,\in\, Grp(Set)$ a [[discrete group]] and $G \curvearrowright X \,\in\, G Act(TopSp)$ a [[topological G-space|topological $G$-space]], its *fundamental category* ([tom Dieck 1987 (10.7)](#tomDieck87), [Lück 1989, 8.15](#Lueck89)) or *equivariant fundamental groupoid* ([Pronk & Scull 2021, Def. 3.1](#PronkScull21))
 
 is the [[small category]] whose
 
-- [[objects]] are [[pairs]] consisting of a [[subgroup]] $H \subset G$ and a  $G$-[[equivariant functions]] $x_X \,\colon\, G/H \to X$, hence, equivalently a points in the [[fixed locus]] $X^H$;
+- [[objects]] are [[pairs]] consisting of a [[subgroup]] $H \subset G$ and a  $G$-[[equivariant function]] $\; x_X \,\colon\, G/H \to X$, hence, equivalently, a point in the [[fixed locus]] $X^H$;
 
 - [[morphisms]] $x_H \xrightarrow{ (\phi,[\gamma]) } x'_{H'}$  are [[pairs]] consisting of a $G$-[[equivariant function]] $G/H \xrightarrow{ \phi } G/H'$ and a relative $G$-homotopy class $[\gamma]$ of a continuous path $\gamma \,\colon\,  G/H \times [0,1] \xrightarrow{\;} X$ from $\gamma(0) = x_H$ to $\gamma_1 = \phi^\ast x'_X'$.
 
@@ -102,11 +102,14 @@ is the [[small category]] whose
 \end{example}
 
 \begin{proposition}
+\label{EquivariantFundamentalGroupoidUnderGrothendieckConstruction}
+**([[equivariant fundamental groupoid]] under [[Grothendieck construction]])**
+\linebreak
 If we write 
 $$
   \tau_1 \esh \big( X^{(-)}\big)
   \;\in\;
-  PSh\big( G Orbt \big)
+  Sh\big( G Orbt, Grpd_1 \big)
 $$
 for the [[fundamental groupoid]] of $X$ in its incarnation as a [[presheaf]] of [[fixed loci]] over the [[orbit category]], hence for the [[(2,1)-functor]]
 
@@ -120,13 +123,130 @@ for the [[fundamental groupoid]] of $X$ in its incarnation as a [[presheaf]] of 
     G/H
     &\mapsto&
     \tau_1 \esh (X^H)
+    \mathrlap{\,,}
   }
 \]
-which sends $G/H$ to the ordinary [[fundamental groupoid]] of the [[fixed locus]] $X^H$, then the equivariant fundamental groupoid of $G \curvearrowright X$ (Def. \ref{EquivariantFundamentalGroupoid}) is equivalently the [[Grothendieck construction]] on (eq:FundamentalGroupoidOfAPresheafOfFixedLoci).
+which sends $G/H$ to the ordinary [[fundamental groupoid]] of the [[fixed locus]] $X^H$, then the equivariant fundamental groupoid of $G \curvearrowright X$ (Def. \ref{EquivariantFundamentalGroupoid}) is equivalently the [[Grothendieck construction]] 
+
+\[
+  \label{EquivariantFundamentalGroupoidAsGrothendieckConstruction}
+  \underset
+    {G/H \in G Orbt}
+    {\int}
+  \,
+  \tau_1
+  \,
+  \esh
+  (X^{H})
+  \;\;\;
+  \in
+  \;
+  Grpd_1
+\]
+
+on (eq:FundamentalGroupoidOfAPresheafOfFixedLoci).
 \end{proposition}
 
 This follows by direct unwinding of the definitions; see also [Pronk & Scull 2021, below Def. 3.1](#PronkScull21).
 
+### Equivariant universal cover
+ {#EquivariantUniversalCover}
+
+\begin{definition}
+\label{EquivariantUniversalCovering}
+**(equivariant universal covering)**
+\linebreak
+  For $G \in Grp(Set)$ a [[discrete group]] and $G \curvearrowright X \,\in\, G Act(TopSp)$ a well-behaved [[topological G-space|topological $G$-space]], its *equivariant [[universal cover]]* ([tom Dieck 1987 (10.13)](#tomDieck87)) "is" the [[functor]] from the fundamental equivariant groupoid (eq:EquivariantFundamentalGroupoidAsGrothendieckConstruction) of $G \curvearrowright X$ to [[TopSp]]
+
+$$
+  \array{
+    \underset
+      {G/H \in G Orbt}
+      {\int}
+    \,
+    \tau_1
+    \,
+    \esh
+    (X^{H})
+    &\xrightarrow{\;}&
+    TopSp
+    &\xrightarrow{\esh}&
+    Grpd_{\infty}
+    \\
+    x_H
+    &\mapsto&
+    \widehat{X^H_x}
+  }  
+$$
+
+which sends $x_H \,\in\, X^H$ to the [[universal covering]] $\widehat{X_x}$ of the connected component of $x_H \,\in\, X$ given by relative-homotopy-equivalences classes of [[paths]] based at $x_H$.
+\end{definition}
+
+Write 
+
+\[
+  \label{GEquivariantHomotopyTheory}
+  G Grpd_\infty \;\coloneqq\; Sh\big( G Orbt, \, Grpd_\infty \big)
+\]
+
+for the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-category of $\infty$-presheaves]] on the $G$-[[orbit category]], hence for the proper $G$-[[equivariant homotopy theory]].
+
+For $G \curvearrowright X \,\in\, G Act(TopSp)$ a [[topological G-space|topological $G$-space]], its equivariant homotopy type is
+
+$$
+  \esh \big(X^{(-)}\big)
+  \;\;
+  \in
+  \;
+  G Grpd_\infty
+  \,.
+$$
+
+\begin{proposition}
+For $G \curvearrowright X \,\in\, G Act(TopSp)$ a [[topological G-space|topological $G$-space]], its equivariant universal covering according to Def. \ref{EquivariantUniversalCovering} is, under Prop. \ref{EquivariantFundamentalGroupoidUnderGrothendieckConstruction} and the [[(infinity,1)-Grothendieck construction]] equivalent to the [[n-truncated object in an (infinity,1)-category|1-truncation unit]]
+
+$$
+  \array{
+    \esh \big( X^{(-)}\big)
+    \\
+    \big\downarrow {}^{\mathrlap{ \eta^{\tau_1} }}
+    \\
+    \tau_1 \, \esh \big( X^{(-)}\big)    
+  }
+  \;\;\;
+  \in
+  \;
+  \big( G Grpd_\infty\big)_{/ \tau_1 \, \esh \big( X^{(-)}\big)}
+  \,,
+$$
+
+in that 
+
+$$
+  \array{
+    \underset{G/H \in G Orbt}{\int}
+    \esh \big( X^{H}\big)
+    &\xrightarrow{\;}&
+    \widehat{Grpd}_\infty
+    \\
+    \big\downarrow 
+    &\swArrow&
+    \big\downarrow
+    \\
+    \underset{G/H \in G Orbt}{\int}
+    \tau_1 \, \esh \big( X^{H}\big)    
+    &
+    \xrightarrow{ \widehat{ X^{(-)}_{(-)} } }
+    &
+    Grpd_\infty
+    \,.
+  }
+$$
+
+\end{proposition}
+
+
+\linebreak
 
 ## Examples
  {#Examples}
@@ -408,4 +528,14 @@ with further discussion in
 
 [[!redirects equivariant fundamental groupoid]]
 [[!redirects equivariant fundamental groupoids]]
+
+[[!redirects equivariant universal cover]]
+[[!redirects equivariant universal covers]]
+
+[[!redirects equivariant universal covering]]
+[[!redirects equivariant universal coverings]]
+
+
+
+
 
