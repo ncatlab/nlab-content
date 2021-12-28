@@ -446,7 +446,10 @@ $$
   (i \dashv core)
   \colon
   Grpd(\mathbf{H})
-  \stackrel{\hookrightarrow}{\underset{Core}{\leftarrow}}
+  \underoverset
+    {\underset{Core}{\longleftarrow}}
+    {\hookrightarrow}
+    {\bot}
   PreCat(\mathbf{H})
   \,.
 $$
