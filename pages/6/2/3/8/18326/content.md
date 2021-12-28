@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,7 +21,7 @@ It abstracts the structure of the [[Kleisli category]] of a [[monad in computer 
 
 Freyd categories thus provide a [[categorical semantics]] for typed [[programming languages]] with [[side effects]] such as memory access or printing. This is in the spirit of the discussion at [[relation between type theory and category theory]], except that page is for non-side-effecting languages. The types of the programming language are interpreted as objects of the categories. A [[type|typed]] term (i.e., program expression) $\Gamma\vdash t \colon X$ is interpreted as a morphism $\Gamma \to X$ in $\mathbb{C}$. Among the terms, it is often very important to identify those that are "values", which in particular have no side effects, and these are interpreted as morphisms in $\mathbb{V}$. Freyd categories are based around premonoidal categories, which captures the fact that reordering the execution of side effects is often subtle. 
 
-Freyd categories resolve the following complaint about using [[monad]]s and [[Kleisli category|Kleisli categories]] to model impure effects in programming languages. The Kleisli category for a monad presumes the existence of some slightly higher-order types, since if $X$ is an object then so is $T(X)$, and yet it is surely possible to understand the nature of effectful computation without also assuming the existence of certain types. Freyd categories make sense even for purely first order programming languages, and the object $T(X)$, if it exists, has a universal property, thus decoupling this relationship. 
+Freyd categories resolve the following complaint about using [[monads]] and [[Kleisli category|Kleisli categories]] to model impure effects in programming languages. The Kleisli category for a monad presumes the existence of some slightly higher-order types, since if $X$ is an object then so is $T(X)$, and yet it is surely possible to understand the nature of effectful computation without also assuming the existence of certain types. Freyd categories make sense even for purely first order programming languages, and the object $T(X)$, if it exists, has a universal property, thus decoupling this relationship. 
 
 ## Definition
 
