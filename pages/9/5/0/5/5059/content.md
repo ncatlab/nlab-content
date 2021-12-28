@@ -827,7 +827,7 @@ After [[diffeomorphism]] [[gauge fixing]] one finds that the resulting field the
 
 This is effectively the [[AdS-CFT correspondence]].
 
-Detailed discussion of the above steps is in ([AFFFTT 98](#AFFFTT98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99)).
+Detailed discussion of the above steps is in ([AFFFTT 98](#AFFFTT98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99)). See also the review in [Duff 2021](#Duff21).
 
 ### Quantization
 
@@ -1222,6 +1222,11 @@ The emergence of [[conformal field theory]] in the perturbations of the [[super-
 predating the modern formulation of the [[AdS-CFT correspondence]]. The relation was amplified in 
 
 * {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int. J. Mod. Phys. A14:815-844, 1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+
+with more recent developments summarized in
+
+* {#Duff21} [[Michael Duff]], 
+*The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
 
 Further discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce -- after restricting to small fluctuations about a background solution and after [[diffeomorphism]] [[gauge fixing]] -- superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
 
