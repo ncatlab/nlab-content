@@ -64,7 +64,7 @@ The [[A-hat genus]] for the $Spin^c$-operator is the [[Todd genus]] (e.g. [Kitad
 
 * [[spin^c quantization]]
 
-* [[Dolbeault-Dirac operator]]
+* [[Dolbeault-Dirac operator]], [[Dirac operator]]
 
 ## References
 
@@ -74,7 +74,7 @@ Original articles include
 
 A quick statement of the definition is in 
 
-* Ulrich Kr&#228;mer, _$Spin^{\mathbb{C}}$-Dirac structures and Dirac operators_ (2009) ([pdf](http://www.maths.gla.ac.uk/~ukraehmer/Tehran0409c.pdf))
+* Ulrich Kr&#228;mer, _$Spin^{\mathbb{C}}$-Dirac structures and Dirac operators_ (2009) ([pdf](https://web.archive.org/web/20150909233527/http://www.maths.gla.ac.uk/~ukraehmer/Tehran0409c.pdf))
 
 Detailed accounts include
 
