@@ -289,6 +289,9 @@ $$
 
 * [[simplicial homotopy theory]]
 
+* [[homotopy Kan fibration]]
+
+
 ## Reference
 
 Simplicial objects in general [[(∞,1)-categories]] are discussed in 
