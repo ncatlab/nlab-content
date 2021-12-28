@@ -14,6 +14,11 @@ He made foundational contributions to [[string theory]] and [[M-theory]]. $\;\;$
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Duff)
 
+Autobiographical notes around encountering [[Chris Isham]]:
+
+* [[Michael Duff]], *Chris Isham: mentor, colleague, friend* ([arXiv:2112.13722](https://arxiv.org/abs/2112.13722))
+
+
 \linebreak
 
 ## Students
@@ -95,6 +100,8 @@ Interview with [[Mike Duff]] by Graham Fermelo, _The universe speaks in numbers 
 
 ## Selected writing
 
+
+
 On [[KK-compactification]] of [[11-dimensional supergravity]] on a [[squashed sphere|squashed]] [[7-sphere]] with [[G2-holonomy]] ([[M-theory on G2-manifolds]]):
 
 * {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 (1983) ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
@@ -106,6 +113,23 @@ On [[KK-compactification]] of [[11-dimensional supergravity]] on a [[squashed sp
 On [[double dimensional reduction]] of the [[super-membrane]] (the [[M2-brane]]) to the [[Green-Schwarz superstring]]:
 
 * {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
+
+On the emergence of [[conformal field theory]] in the perturbations of the [[super-membrane]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]
+
+* {#DuffSutton88} [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire:268230](http://inspirehep.net/record/268230?ln=en))
+
+predating the modern formulation of the [[AdS-CFT correspondence]], amplified in
+
+* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int. J. Mod. Phys. A14:815-844, 1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+
+On the corresponding [[Green-Schwarz sigma-model|brane scan]] of [[super-conformal algebra|super-conformal]] branes:
+
+* [[Miles P. Blencowe]], [[Mike Duff]], _Supersingletons_, Physics letters B, **203** 3(1988) 229-236 ([cds:184143](http://cds.cern.ch/record/184143), <a href="http://dx.doi.org/10.1016/0370-2693(88)90544-8">doi:10.1016/0370-2693(88)90544-8</a>)
+
+* [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
+
+* {#Duff21} [[Michael Duff]], *The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
+
 
 On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]]:
 
