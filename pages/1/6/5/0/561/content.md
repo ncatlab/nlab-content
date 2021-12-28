@@ -92,6 +92,8 @@ A __[[discrete fibration]]__ is one in which we use [[Set]] instead of [[Cat]] a
 
   * [[minimal Joyal fibration]]
 
+* [[homotopy Kan fibration]]
+
 ## Fibrations in type theory
 
 Fibrations are employed in [[type theory]] as the [[categorical models of dependent types]].
