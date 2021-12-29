@@ -65,20 +65,22 @@ The generalization of a [[category fibered in groupoids]] to [[quasi-category]] 
 \begin{prop}\label{Infinity0GrothendieckConstruction}
 **($(\infty,0)$-Grothendieck construction)**
 
-Let $C$ be an [[(∞,1)-category]]. There is an equivalence of [[(∞,1)-categories]]
+Let $\mathcal{C}$ be a small [[(∞,1)-category]]. The operation of [[homotopy pullback]] of the [[universal fibration of infinity-groupoids|universal fibration of $\infty$-groupoids]] constitutes an [[equivalence of (∞,1)-categories]]
 
 $$
-  RFib(C) \simeq Func(C^{op}, \infty Grpd)
+  Func\big(\mathcal{C}^{op}, \infty Grpd\big)
+    \;\simeq\; 
+  RFib(C) 
 $$
 
-where 
+* from the [[(∞,1)-category of (∞,1)-functors]] from the [[opposite category]] $\mathcal{C}^{op}$ to [[∞Grpd]], i.e. the [[(∞,1)-category of (∞,1)-presheaves]] on $C$;
 
-* on the left we have the [[right fibration|(∞,1)-category of right fibrations]] $RFib(C)$ -- incarnated as the full [[SSet]]-[[subcategory]] of the [[overcategory]] $SSet/C$ on [[right fibration]]s;
 
-* and on the right the [[(∞,1)-category of (∞,1)-functors]] from the [[opposite category]] $C^{op}$ to [[∞Grpd]], i.e. the [[(∞,1)-category of (∞,1)-presheaves]] on $C$.
+* to the [[right fibration|(∞,1)-category of right fibrations]] $RFib(C)$ -- incarnated as the full [[SSet]]-[[subcategory]] of the [[overcategory]] $SSet/C$ on [[right fibrations]];
 
 \end{prop}
 
+Cisinski19
 
 In the next section we discuss how this statement is presented in terms of [[model categories]].
 
@@ -171,7 +173,7 @@ The straightening functor effectively computes the fibers of a [[Cartesian fibra
 
 * $X = \left\{ a \to b \;\;\; c\right\}$ is a category with three objects, two of them connected by a morphism
 
-* $p : X\to C$ is the only possible functor, sending everything to the point.
+* $p \colon X \to C$ is the only possible functor, sending everything to the point.
 
 Then 
 
@@ -1001,11 +1003,17 @@ for the moment see
 
 * [[Grothendieck construction for model categories]]
 
+
 ## References
 
-The construction for $\infty$-groupoid fibrations i.e. left/right fibrations is the content of section 2.2.1, that of quasi-category fibrations i.e. Cartesian fibrations that 
+Textbook accounts:
 
-* [[Jacob Lurie]], section 3.2 _[[Higher Topos Theory]]_
+* {#Lurie09} [[Jacob Lurie]], Section 3.2 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+* {#Cisinski19} [[Denis-Charles Cisinski]], Section 5.2 of: _[[Higher Categories and Homotopical Algebra]]_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+
+  > (for $\infty$-groupoids)
+
 
 More on model-category theoretic construction of the $\infty$-Grothendieck construction with values in $\infty$-groupoids is in 
 
