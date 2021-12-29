@@ -122,6 +122,14 @@ This is [[Higher Topos Theory|HTT, cor. 4.1.2.6]].
 =--
 
 
++-- {: .num_remark}
+###### Remark
+
+Suppose $F : C \to D$ is a functor between ordinary categories. If the induced morphism $N(F) : N(C) \to N(D)$ is a final (∞,1)-functor, then $F$ is a [[final functor]] in the sense of ordinary category theory.
+
+However, the converse need not be true. For example, while the inclusion of the parallel pair $[1] \rightrightarrows [0]$ in $\Delta^{op}$ is final in the sense of ordinary category theory, it is not a final (∞,1)-functor.
+
+=--
 
 ## Properties {#Properties}
 
