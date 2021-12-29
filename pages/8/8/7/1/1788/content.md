@@ -115,6 +115,8 @@ $(\mathcal{X}, x) \,\in\, \widehat{\mathrm{Grpd}_\infty}$
 as an element in the homotopy pullback of the $n$th universal fibration along
 $\tau_n$.
 
+\begin{lemma}
+
 The resulting further homotopy pullback along its classifying map is the $n$-connected cover 
 $\mathrm{cn}_n(\mathcal{X},s)$
 of 
@@ -152,8 +154,21 @@ $(\mathcal{X},x)$:
     \mathrm{Grpd}_n
 \end{tikzcd}
 
+\end{lemma}
 
-Since $Grpd_\infty$ is [[extensive category|extensive]], we may compute these pullbacks on the respective connected components. Here we have:
+\begin{proof}
+
+Since 
+
+1. left fibrations are preserved by pullback
+
+1. a left Fibrations over the $\infty$-groupoid $\ast$ are Kan fibrations
+
+the pullback in question is guaranteed to be an $\infty$-groupoid. Therefore, since passage to the [[core]] is a right adjoint, we may equivalently compute the $\infty$-pullback of cores.
+
+Finally, since $Grpd_\infty$ is [[extensive category|extensive]], we may compute these pullbacks on the respective connected components of the cores. 
+
+In conclusion, this means that our $\infty$-pullback is equivalently the following:
 
 \begin{tikzcd}
     \mathrm{fib}(\tau_n)
@@ -197,6 +212,7 @@ That the top right square is a homotopy pullback follows, for instance by the pa
 
 That the top left square is homotopy pullback as shown is seen by observing that it is the homotopy colimit of an evident homotopy pullback square of simplicial $\infty$-groupoids, whose right morphism is, evidently, a [[homotopy Kan fibration]]. This implies the claim by [this Prop.](geometric+realization+of+simplicial+topological+spaces#PreservationOfHomotopyLimits). (The same kind of argument also applies to the bottom right square.)
 
+\end{proof}
 
 Now consider the following tower of $\infty$-Grothendieck constructions on the $n$-truncations of an $\infty$-presheaf $\mathcal{X}(-)$, here shown in the first few stages:
 
