@@ -9,3 +9,5 @@
 * [Publication list](https://www.math.purdue.edu/~rkaufman/pubs.html)
 
 category: people
+
+[[!redirects Ralph M. Kaufmann]]
