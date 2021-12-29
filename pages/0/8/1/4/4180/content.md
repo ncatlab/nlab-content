@@ -196,7 +196,7 @@ x e x^\ast x e & = & x e e x^\ast x e & \\
 as was to be shown. 
 =-- 
 
-### "Cayley's Theorem" for inverse semigroups
+### [Wagner-Preston Theorem](https://en.wikipedia.org/wiki/Inverse_semigroup#Homomorphisms_and_representations_of_inverse_semigroups): "Cayley's Theorem" for inverse semigroups
 
 +-- {: .num_theorem}
 ###### Theorem 
