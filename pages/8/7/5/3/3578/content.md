@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -317,30 +317,35 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.3.3]].
 
 =--
 
-As an important special case of this we have
+As an important special case:
 
-+-- {: .num_corollary}
-###### Corollary
+\begin{corollary}
 
 For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
 
-=--
+\end{corollary}
 
-+-- {: .proof}
-###### Proof
+\begin{proof}
 
 This is originally due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT, prop. 1.2.5.1]].
 
-=--
+\end{proof}
 
 
-+-- {: .num_prop #PreservationByPullback}
-###### Proposition
-
+\begin{proposition}
+ \label{LeftFibrationsArePreservedByPullback}
 Right (left) fibrations are preserved by [[pullback]] in [[sSet]]. 
+\end{proposition}
+\begin{proof}
+  This follows on general grounds, since they are defined by a right [[lifting property]] (see, e.g. [here](Introduction+to+Homotopy +Theory#ClosurePropertiesOfInjectiveAndProjectiveMorphisms))
+\end{proof}
 
-=--
+\begin{proposition}
+  \label{PullbackOfLeftFibrationsIsHomotopyPullback}
+  The pullback (in [[SimplicialSets]]) of a left or right fibration is a [[homotopy pullback]] in the [[Joyal model structure for quasi-categories]]
+\end{proposition}
 
+([Cisinski 2019, Cor. 5.3.6](#Cisinski19))
 
 +-- {: .num_corollary}
 ###### Corollary
@@ -533,9 +538,11 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 
 ## References
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Lurie09} [[Jacob Lurie]], Section 2.1 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
 * {#AyalaFrancis17} [[David Ayala]], [[John Francis]], _Fibrations of $\infty$-Categories_ ([arXiv:1702.02681](https://arxiv.org/abs/1702.02681))
+
+* {#Cisinski19} [[Denis-Charles Cisinski]], Section 3.4 and 5.3 of: _[[Higher Categories and Homotopical Algebra]]_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 
 [[!redirects left/right Kan fibrations]]
