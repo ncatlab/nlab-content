@@ -220,3 +220,8 @@ A model structure for [[(infinity,2)-sheaves]] with values in quasicategories is
 [[!redirects model structure on quasicategories]]
 [[!redirects model structure on quasi-categories]]
 [[!redirects model structure for quasicategories]]
+
+[[!redirects Joyal model structure for quasi-categories]]
+
+
+
