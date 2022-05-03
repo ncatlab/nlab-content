@@ -15,7 +15,9 @@
 
 ## Idea
 
-Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appearing as a single-layer honeycomb lattice. This may be planar or tubular, etc.
+Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appearing as a single-layer honeycomb lattice. This may be planar or tubular, etc. 
+
+Graphene is a prime example (and among the first to be discovered) of a [[topological phase of matter]], specifically of a [[topological semi-metal]] (if its tiny [[spin-orbit coupling]] is ignored or remains unresolved, hence for all practical purposes) or a [[topological insulator]] (theoretically, due to the tiny spin-orbit coupling that does open the gap in the [[electronic band structure]] at the would-be nodal point).
 
 ## Related concepts
 
@@ -34,7 +36,7 @@ The synthesis/detection of graphene is due to
 
 Review:
 
-* {#WZLLJHD12} Nathan O Weiss, Hailong Zhou, Lei Liao, Yuan Liu, Shan Jiang, Yu Huang, Xiangfeng Duan, *Graphene: an emerging electronic material*,  Adv Mater. **24** (43) (2012) 5782-825 ([doi:10.1002/adma.201201482](https://doi.org/10.1002/adma.201201482))
+* {#WZLLJHD12} Nathan Weiss, Hailong Zhou, Lei Liao, Yuan Liu, Shan Jiang, Yu Huang, Xiangfeng Duan, *Graphene: an emerging electronic material*,  Adv Mater. **24** (43) (2012) 5782-825 ([doi:10.1002/adma.201201482](https://doi.org/10.1002/adma.201201482))
 
 * Wikipedia, _[Graphene](https://en.wikipedia.org/wiki/Graphene)_
 
