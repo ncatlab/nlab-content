@@ -166,6 +166,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[distance (graph theory)]]
 
+* [[premetric space]]
 
 [[!include generalized uniform structures - table]]
 
