@@ -83,6 +83,7 @@ Discussion of implementation in the [[proof assistant]] [[Cubical Agda]]:
 On [[normal form|normalization]] for cubical type theory:
 
 * [[Jonathan Sterling]], Carlo Angiuli, _Normalization for Cubical Type Theory_, ([arXiv:2101.11479](https://arxiv.org/abs/2101.11479))
+* [[Jonathan Sterling]], _First Steps in Synthetic Tait Computability: The Objective Metatheory of Cubical Type Theory_, ([pdf](https://www.jonmsterling.com/papers/sterling:2021:thesis.pdf))
 
 
 [[!redirects cubical type theories]]
