@@ -19,7 +19,7 @@
 
 For ordinary [[categories]] there is the notion of 
 
-1. [[Grothendieck fibration]] between two categories. 
+1. [[Grothendieck fibration]] between two categories,
 
 2. and the special case of a [[fibration fibered in groupoids]].
 
