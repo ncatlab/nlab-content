@@ -146,6 +146,9 @@ Note we may be rounding up or down, regardless of which is nearer.  For example,
 
 Even for Dedekind reals without $WCC$, we can always approximate a real number in this way up to any given $i$.  Choice is needed only to make infinitely many approximations at once.  Trying to avoid this can motivate multivalued Cauchy real numbers.
 
+## See also ##
+
+* [[HoTT book real number]]
 
 ## References
 
