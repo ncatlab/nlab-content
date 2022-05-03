@@ -291,6 +291,8 @@ and we are back to where we started.  In the fourth-last step we used the fact t
 
 ## Related entries
 
+* [[dagger 2-poset]]
+
 Other attempted axiomatizations of the same idea "something that acts like the category of relations in a regular category" include:
 
 * [[bicategory of relations]] (a special sort of [[cartesian bicategory]])
