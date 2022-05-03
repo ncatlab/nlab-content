@@ -326,6 +326,7 @@ For more on this see
 ## Related concepts
 
 * [[star-category]], [[C-star-category]]
+* [[dagger 2-poset]]
 
 ## References
 
