@@ -1,6 +1,8 @@
 
 * [[rigid body dynamics]]
 
+* [[electronic band structure]]
+
 * [[AdS-CFT in condensed matter physics]]
 
   * [[tensor network state]]
