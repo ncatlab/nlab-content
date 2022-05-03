@@ -39,7 +39,6 @@ Exactly how to define or characterise real numbers is still important in [[const
 
 There are two basic approaches possible: to define what a __real number__ is as a mathematical object, or to define the __real line__ as a specific object in some previously known [[category]].
 
-
 ### Dedekind cuts {#Dedekind}
 
 Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of a [[countable set|countable]] unbounded [[dense linear order]], such as $\mathbb{Q}$ (the set of [[rational numbers]]) or  $\mathbb{Z}[1/10]$ (the set of [[decimal fractions]]), such that:
@@ -72,9 +71,9 @@ This construction is equivalent to the construction by Dedekind cuts, at least a
 
 See [[Cauchy real number]] for more.
 
-### The complete ordered field
+### The Dedekind complete ordered field
 
-There is a well-known algebraic (more or less) characterisation of the real line as the 'complete ordered field', or sometimes the 'complete archimedean field'.  This can be interpreted as follows:
+There is a well-known algebraic (more or less) characterisation of the real line as the 'Dedekind complete ordered field', or sometimes the 'Dedekind complete archimedean field'.  This can be interpreted as follows:
 
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
@@ -97,6 +96,18 @@ Construct $\mathbb{R}$ using, say, Dedekind cuts of rational numbers.  Then it i
 =--
 
 However, we note that the proof is valid in weak [[foundations]], in particular internal to any [[topos]] with a [[natural numbers object]].  One can actually work in even weaker foundations than that; see the constructions at [[real numbers object]].  Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]].
+
+### The initial sequentially Cauchy complete archimedean field
+
+There is a well-known algebraic (more or less) characterisation of the real line as the 'initial sequentially Cauchy complete archimedean field'.  This can be interpreted as follows:
+
+*  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
+*  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
+*  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
+*  An archimedean field is __sequentially Cauchy complete__ if all [[Cauchy sequences]] in the field [[converge]].
+*  An sequentially Cauchy complete archimedean field is __initial__ if it is an [[initial object]] in the category of sequentially Cauchy complete archimedean fields.
+
+The initial sequentially Cauchy complete ordered field results in the [[HoTT book real numbers]]. 
 
 ### As an archimedean group
 
