@@ -114,13 +114,13 @@ For a more sophisticated analysis of computation, $Set_\bot$ can be replaced wit
 
 The functions of high-school mathematics, consisting of real (or complex)-valued functions of one (or two or three) real (or complex) variables, are by default partial functions.  As they take values in a [[field]], one may consider adding or multiplying them.  The usual rule is that $\dom(f + g) = \dom f \cap \dom g$, etc, but this leads to an unusual algebra: a commutative [[semiring]] in which addition has an identity element (the always-defined constant [[zero function]]) and multiplication has an absorbing element (the never-defined [[empty function]]), but it fails to be a [[rig]] because these two elements are not the same.  It has many other interesting properties, such as simultaneous additive and multiplicative [[idempotent element|idempotents]] (the zero functions with arbitrary domains).
 
-An axiomatic treatment of such semirings may be found at the end of [Richman 2010](#Richman2010).
-
+An axiomatic treatment of such semirings may be found at the end of [Richman 2010](#Richman2010), as well as in the article [[category of partial endofunctions]].
 
 ## Related concepts
 
 * [[total function]]
 * [[restriction category]]
+* [[category of partial endofunctions]]
 
 ## References 
  {#References}
