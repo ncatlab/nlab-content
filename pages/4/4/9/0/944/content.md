@@ -15,6 +15,8 @@
 
 ## Definition
 
+### In impredicative mathematics 
+
 +-- {: .num_defn }
 ###### Definition
 
@@ -38,6 +40,14 @@ In [[constructive mathematics]], it is important that $\{\top\}$ be open (and $\
 
 =--
 
+### In predicative constructive mathematics 
+
++-- {: .num_defn }
+###### Definition
+
+The __Sierpi&#324;ski space__ $\Sigma$ is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. 
+
+=--
 
 ## Properties
 
@@ -77,6 +87,8 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 
 * In [[synthetic topology]], an analogue of the Sierpinski space is called a [[dominance]].
 
+* [[sigma-frame|$\sigma$-frame]]
+
 
 ## References
 
@@ -84,6 +96,7 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 
 * [[Paul Taylor]],  _Foundations for computable topology -- 7 The Sierpinski space_ ([html](http://www.paultaylor.eu/ASD/foufct/sierpinski.html))
 
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 [[!redirects Sierpinski space]]
 [[!redirects Sierpi?ski space]]
