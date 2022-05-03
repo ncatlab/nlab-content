@@ -1,3 +1,16 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
 
 # Quotient sets
 * table of contents
@@ -14,11 +27,22 @@ If you don\'t have (extensional) power sets either, then you\'ll have to use [[s
 
 In any case, the element of $S/{\equiv}$ that comes from the element $x$ of $S$ may be denoted $[x]_{\equiv}$, or simply $[x]$ if ${\equiv}$ is understood, or simply $x$ if there will be no confusion as to which set it is an element of.  This $[x]$ is called the __[[equivalence class]]__ of $x$ with respect to $\equiv$; the term 'class' here is an old word for 'set' (in the sense of 'subset') and refers to the definition (eq:setdef) above, where $[x]$ is literally the set $A$.
 
+### As initial objects in a category
+
+Let $S$ be a [[set]] and let $\equiv$ be an [[equivalence relation]] on $S$. Let us define a *quotient set algebra of $S$ and $\equiv$* to be a set $A$ with a function $\iota S \to A$ such that for all $a \in S$ and $b \in S$, $(a \equiv b)$ implies $(\iota(a) = \iota(b))$. 
+
+A *quotient set algebra homomorphism of $S$ and $\equiv$* is a function $f: A \to B$ between two quotient set algebras $A$ and $B$ such that for all $a \in S$, $f(\iota_A(a)) = \iota_B(a)$.
+
+The *category of quotient set algebras of $S$ and $\equiv$* is the category $QSA(S, \equiv)$ whose objects $Ob(QSA(S, \equiv))$ are quotient set algebras of $S$ and $\equiv$ and whose morphisms $Mor(A, B)$ for $A \in Ob(QSA(S, \equiv))$ and $B \in Ob(QSA(S, \equiv))$ are quotient set algebra homomorphisms of $S$ and $\equiv$. The **quotient set** of $S$ and $\equiv$, denoted $S/\equiv$, is defined as the initial object in the category of quotient set algebras of $S$ and $\equiv$. 
 
 ## Generalisations
 
 Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories.  In particular, an [[exact category]] is a [[regular category]] in which every [[congruence]] on every object has an effective quotient object.
 
+## See also 
+
+* [[equivalence relation]]
+* [[setoid]]
 
 category: foundational axiom
 
