@@ -21,6 +21,9 @@ For more details, see the entry [[†-category]].
 
   In particular the unitary [[automorphism]]s of an object in $Hilb$ form the [[unitary group]]. 
 
+* The unitary morphisms in $C = $ [[Rel]] are the ordinary [[bijections]]s between [[set]]s 
+
+  In particular the unitary [[automorphism]]s of an object in $Rel$ form the [[permutation group]]. 
 
 ## Related concepts
 
