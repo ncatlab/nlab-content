@@ -25,6 +25,10 @@ be the set of positive rational numbers.
 
 A __premetric space__ is a [[set]] $S$ with a ternary [[relation]] $\sim$ on the [[Cartesian product]] $\mathbb{Q}_{+} \times S \times S$.
 
+## Properties ##
+
+* Every premetric space is a [[uniform space]]. 
+
 ## Examples ##
 
 * A premetric on $\mathbb{R}_H$ is used to define the [[HoTT book real number]]. 
