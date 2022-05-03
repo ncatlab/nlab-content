@@ -28,7 +28,10 @@ The modern discovery of graphene (Geim and Novoselov obtained a Nobel price for 
 
 Review:
 
+* Nathan O Weiss, Hailong Zhou, Lei Liao, Yuan Liu, Shan Jiang, Yu Huang, Xiangfeng Duan, *Graphene: an emerging electronic material*,  Adv Mater. **24** (43) (2012) 5782-825 ([doi:10.1002/adma.201201482](https://doi.org/10.1002/adma.201201482))
+
 * Wikipedia, _[Graphene](https://en.wikipedia.org/wiki/Graphene)_
+
 
 The 2+1 dim [[Dirac equation]] is used in modeling graphene:
 
