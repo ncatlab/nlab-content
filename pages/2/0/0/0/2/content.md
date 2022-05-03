@@ -11,9 +11,9 @@
 
 * $n$-[[Community]]
 
-  * [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)
+  * [nForum](http://nforum.ncatlab.org/)
 
-    * [Latest Changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
+    * [Latest Changes](https://nforum.ncatlab.org/5/)
   * [[HowTo|HowTo]]
   * [[FAQ|FAQ]]
   * [[Contributors]]
