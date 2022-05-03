@@ -56,7 +56,6 @@ We may approximate a Dedekind cut $x$ as closely as we like by applying (\*) as 
 
 See [[Dedekind completion]] for more.
 
-
 ### Cauchy sequences
 
 Classically, a real number can be given by an [[infinite sequence|infinite]] [[Cauchy sequence]] of [[decimal fractions]] $\mathbb{Z}[1/10]$, each of which is a decimal fraction that approximates the real number to a given number of decimal places. However, many real numbers have several representations, i.e. 
@@ -197,6 +196,11 @@ $$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$
 and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is again a poset isomorphism if we endow the right-hand side with the lexicographic order.
 
 There are more and similar characterizations along these lines. 
+
+### Other definitions
+
+* [[Eudoxus real number]]
+* [[prealgebra real number]]
 
 ## Topologies
 {#Topologies}
