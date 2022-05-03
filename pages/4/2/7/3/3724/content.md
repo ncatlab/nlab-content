@@ -140,13 +140,24 @@ Whereas a located Dedekind cut can be approximated as closely as we wish, an int
 
 An article on [[interval arithmetic]] is probably the right place to talk about these systems (although there are many varieties of interval arithmetic).
 
+### Predicative cuts
+
+In predicative mathematics, subsets are large and therefore are proper classes. Instead, in the manner of [[formal topology]], they typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __predicative cuts__, where $\Sigma$ is a [[sigma-frame|$\sigma$-frame]]. The definitions then become
+
+1.  There is a rational number $a$ such that $L(a) = \top$.
+2.  There is a rational number $b$ such that $U(b) = \top$.
+3.  If $a \lt b$ are rational numbers with $L(b) = \top$, then $L(a) = \top$.
+4.  If $a \lt b$ are rational numbers with $U(a) = \top$, then $U(b) = \top$.
+5.  If $L(a) = \top$, then there is a rational number $a \lt b$ such that $L(b) = \top$.
+6.  If $U(b) = \top$, then there is a rational number $a \lt b$ for some $U(a) = \top$.
+7.  If $a \lt b$ are rational numbers, then $L(a) = \top$ or $U(b) = \top$.
+8.  If $L(a) = \top$ and $U(b) = \top$, then $a \lt b$.
 
 ### Cuts of other numbers
 
 Instead of starting with rational numbers, we could use any [[dense suborder|dense]] subset of $\mathbb{Q}$; the result would be equivalent.  For example, we could start with the [[dyadic number]]s to show more explicitly how real numbers are represented by rational numbers written in binary notation.  Alternatively, we could start with something larger than (or incomparable with) $\mathbb{Q}$ that is still a dense subset of $\mathbb{R}$ (although you have to know what $\mathbb{R}$ is to state this).  For example, we could start with the real [[algebraic number]]s or the [[computable number]]s.
 
 The basic theory also generalises immediately to any unbounded, [[dense linear order]] $S$; again, the result is equivalent as long as $S$ is a [[countably infinite set]].  The theory may be generalised further even to orders which may not be unbounded, dense, or even linear, but this requires modifications; see [[Dedekind completion]] for unbounded dense [[quasiorders]] or unbounded dense [[irreflexive comparisons]] or Sections 4.31--39 of _[[HAF]]_ for even more generality.
-
 
 ## References
 
@@ -157,6 +168,10 @@ The basic theory also generalises immediately to any unbounded, [[dense linear o
 
 *  [[Paul Taylor]]; 2007--2009(?); [Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
 *  _[[HAF]]_, 4.31--4.39
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+* Auke B. Booij, Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
 
 [[!redirects Dedekind cut]]
