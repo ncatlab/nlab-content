@@ -130,15 +130,6 @@ When you do this, the new kind of set is usually called a '[[setoid]]', and then
 [[!redirects pre-function]]
 [[!redirects pre-functions]]
 
-[[!redirects extensional function]]
-[[!redirects extensional functions]]
-[[!redirects extensional operation]]
-[[!redirects extensional operations]]
-[[!redirects extensional prefunction]]
-[[!redirects extensional prefunctions]]
-[[!redirects extensional pre-function]]
-[[!redirects extensional pre-functions]]
-
 [[!redirects prerelation]]
 [[!redirects prerelations]]
 [[!redirects pre-relation]]
