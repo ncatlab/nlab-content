@@ -131,6 +131,7 @@ category: analysis
 [[!redirects convergences]]
 [[!redirects convergencies]]
 
+[[!redirects converge]]
 [[!redirects converges]]
 
 [[!redirects convergence of a sequence]]
