@@ -65,6 +65,11 @@ More generally:
 
 * [[measure coalgebra]]
 
+### Other
+
+* [[dyadic interval coalgebra]]
+* [[decimal interval coalgebra]]
+* [[rational interval coalgebra]]
 
 ## Differential graded coalgebras
 
