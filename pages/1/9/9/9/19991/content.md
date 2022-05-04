@@ -135,6 +135,10 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 
 =--
 
+## Related concepts
+
+* [[Brillouin torus]]
+
 ## References
 
 * _The Crystallographic Groups_, Pure and Applied Mathematics
