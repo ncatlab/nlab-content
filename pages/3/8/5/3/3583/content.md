@@ -1,4 +1,9 @@
 
+> This entry is currently about the notion of "crystal" in [[algebraic geometry]]. For the notion in [[condensed matter theory]] see elsewhere.
+
+***
+
+
 # Contents
 * differential crystals
 {:toc}
