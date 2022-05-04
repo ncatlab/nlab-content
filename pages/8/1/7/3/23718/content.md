@@ -23,7 +23,7 @@ A [[field]] with a notion of a [[limit of a sequence|limit]] of a [[function]] t
 
 ## Definition ##
 
-Let $F$ be a [[Heyting field]] and a [[function limit space]], where $x^{-1}$ is another notation for the [[reciprocal function]] $\frac{1}{x}$. $F$ is a __algebraic limit field__ if the __algebraic limit theorems__ are satisfied, i.e. if the limit preserves the field operations:
+Let $F$ be a [[Heyting field]] and a [[Hausdorff function limit space]], where $x^{-1}$ is another notation for the [[reciprocal function]] $\frac{1}{x}$. $F$ is a __algebraic limit field__ if the __algebraic limit theorems__ are satisfied, i.e. if the limit preserves the field operations:
 
 * for all elements $c \in S$, 
 $$\lim_{x \to c} 0(x) = 0$$
