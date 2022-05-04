@@ -47,7 +47,7 @@ Note that the convention that a profunctor is a functor $D^{op}\times C \to Set$
 Profunctors are composed by using a [[coend]] to "trace out" the middle variable.  Specifically, for profunctors $F : C $&#8696;$ D$ and $G : D $&#8696;$ E$, their composite $G \circ F: C $&#8696;$ E$ is defined to be
 
 $$
-  G \circ F := \int^{d \in D} F(d,-)\otimes G(-,d)
+  (G \circ F)(e,c) := \int^{d \in D} F(d,c)\otimes G(e,d)
   \,.
 $$
 
