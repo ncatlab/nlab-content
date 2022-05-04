@@ -26,6 +26,7 @@ This is called simply an interval coalgebra by Peter Freyd, however there exist 
 
 ## See also ##
 
+* [[dyadic rational number]]
 * [[rational interval coalgebra]]
 * [[decimal interval coalgebra]]
 * [[unit interval]]
