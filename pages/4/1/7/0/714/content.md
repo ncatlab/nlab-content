@@ -346,6 +346,18 @@ For more on this see
 
 * [[dagger functor]]
 
+* [[monoidal dagger category]]
+
+* [[braided monoidal dagger category]]
+
+* [[symmetric monoidal dagger category]]
+
+* [[compact closed dagger category]]
+
+* [[cartesian monoidal dagger category]]
+
+* [[cocartesian monoidal dagger category]]
+
 ## References
 
 The concept of $\dagger$-category is discussed here:
