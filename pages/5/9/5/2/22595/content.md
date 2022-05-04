@@ -32,17 +32,44 @@ The [[commutative ring]] of decimal rational numbers $\mathbb{Z}[1/10]$ is the [
 
 ### As an initial object of a category
 
-For lack of a better name, let us define a *decimal fraction algebra* to be a set $A$ with a function $\iota \in \mathbb{Z} \times \mathbb{N} \to A$ with domain the Cartesian product $\mathbb{Z} \times \mathbb{N}$ and codomain $A$, such that 
+For lack of a better name, let us define a *set with decimal fractions* to be a set $A$ with a function $\iota \in \mathbb{Z} \times \mathbb{N} \to A$, such that 
 
 $$\forall a \in \mathbb{Z}. \forall b \in \mathbb{N}. \forall c \in \mathbb{Z}. \forall d \in \mathbb{N}. (a \cdot 10^d = c \cdot 10^b) \implies (\iota(a, b) = \iota(c, d))$$
 
-A *decimal fraction algebra homomorphism* between two decimal fraction algebras $A$ and $B$ is a function $f \in B^A$ such that 
+The integer $a:\mathbb{Z}$ represents the integer if one ignores the decimal separator in the [[decimal number|decimal numeral representation]] of the decimal fraction, and the natural number $b:\mathbb{N}$ represents the number of digits to the left of the final digit where the decimal separator ought to be placed after in the decimal numeral representation of the decimal fraction.  The axiom above is used to state that equivalent decimals are equal: i.e. 1.00 = 1.000 with decimal numeral representations. 
+
+A *homomorphism of sets with decimal fractions* between two decimal fraction algebras $A$ and $B$ is a function $f:A \to B$ such that 
 
 $$\forall a \in \mathbb{Z}. \forall b \in \mathbb{N}. f(\iota_A(a, b)) = \iota_B(a, b)$$
 
-The *category of decimal fraction algebras* is the category $DFA$ whose objects $Ob(DFA)$ are decimal fraction algebras and whose morphisms $Mor(DFA)$ are decimal fraction algebra homomorphisms. The set of **decimal fractions**, denoted $\mathbb{Z}[1/10]$, is defined as the initial object in the category of decimal fraction algebras. 
+The *category of sets with decimal fractions* is the category $SwDF$ whose objects $Ob(SwDF)$ are sets with decimal fractions and whose morphisms $Mor(A,B)$ for sets with decimal fractions $A \in Ob(SwDF)$, $B \in Ob(SwDF)$ are homomorphisms of sets with decimal fractions. The set of **decimal fractions**, denoted $\mathbb{Z}[1/10]$, is defined as the initial object in the category of sets with decimal fractions. 
 
 ## Properties ##
+
+### Decidability ###
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of equality)
+
+For every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, $p = q$ or $\neg(p = q)$. 
+=--
+
++-- {: .num_defn}
+###### Definition
+**(Inequality)
+
+For every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, there is a proposition $p \neq q$ called **inequality** and defined as 
+
+$$p \neq q \coloneqq \neg(p = q)$$ 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Tight apartness relation)
+
+Inequality $\neq$ is a [[tight apartness relation]]: For every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, if $\neg(p \neq q)$, then $p = q$. 
+=--
 
 ### Commutative ring structure ###
 
@@ -581,16 +608,306 @@ Thus, $p \cdot 1 = p$.
 ###### Proposition
 **(Commutative ring)
 
-The decimal fractions $(\mathbb{Z}[1/10], 0, +, -)$ form a [[commutative ring]]. 
+The decimal fractions $(\mathbb{Z}[1/10], 0, +, -, 1, \cdot)$ form a [[commutative ring]]. 
 =--
 
-### Sign 
++-- {: .num_defn}
+###### Definition
+**(Exponentiation)
 
-...
+There exists a binary operation $(-)^{(-)}:\mathbb{Z}[1/10] \times \mathbb{N} \to \mathbb{Z}[1/10]$ called **exponentiation** defined as 
+
+$$(a/10^b)^n \coloneqq (a^n)/10^{(b \cdot n)}$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{N}$, $n \in \mathbb{N}$. 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(10 is a unit)
+
+There is an element $1/10 \in \mathbb{Z}[1/10]$ such that $1/10 \cdot 10 = 1$ and $10 \cdot 1/10 = 1$
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Powers of 10 are isomorphic to the integers)
+
+There is an injection $10^{(-)}: \mathbb{Z} \hookrightarrows \mathbb{Z}[1/10]$.
+=--
+
+### Order
+
++-- {: .num_prop} 
+###### Definition
+**(Positive numbers)
+
+Given $a \in \mathbb{Z}$ and $b \in \mathbb{N}$, a decimal fraction $a/10^b \in \mathbb{Z}[1/10]$ **is positive** if $a \gt 0$: i.e. the predicate $\mathrm{isPositive}(a/10^b)$ is defined as 
+
+$$\mathrm{isPositive}(a/10^b) \coloneqq a \gt 0$$
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of positive numbers)
+
+Given $a \in \mathbb{Z}$, $b \in \mathbb{N}$, the predicate $\mathrm{isPositive}(a/10^b)$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+By definition, $\mathrm{isPositive}(a/10^b)$ is the same as $a \gt 0$. Because the relation $a \gt 0$ is decidable for every integer $a \in \mathbb{Z}$, $\mathrm{isPositive}(a/10^b)$ is decidable for every integer $a \in \mathbb{Z}$ and natural number $b \in \mathbb{N}$. 
+
+=-- 
+
++-- {: .num_defn}
+###### Definition
+**(Less than)
+
+For every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, there is a proposition $p \lt q$ called **less than** and defined as 
+
+$$p \lt q \coloneqq \mathrm{isPositive}(q - p)$$ 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of less than)
+
+Given $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, the predicate $p \lt q$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+By definition, $p \lt q$ is the same as $\mathrm{isPositive}(q - p)$. Because the relation $\mathrm{isPositive}(p)$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$, $\mathrm{isPositive}(q - p)$ and $p \lt q$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$. 
+
+=-- 
+
++-- {: .num_prop} 
+###### Definition
+**(Negative numbers)
+
+Given $a \in \mathbb{Z}$ and $b \in \mathbb{N}$, a decimal fraction $a/10^b \in \mathbb{Z}[1/10]$ **is negative** if $a \lt 0$; i.e. the predicate $\mathrm{isNegative}(a/10^b)$ is defined as 
+
+$$\mathrm{isNegative}(a/10^b) \coloneqq a \lt 0$$
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of negative numbers)
+
+Given $a \in \mathbb{Z}$, $b \in \mathbb{N}$, the predicate $\mathrm{isNegative}(a/10^b)$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+By definition, $\mathrm{isNegative}(a/10^b)$ is the same as $a \lt 0$. Because the relation $a \lt 0$ is decidable for every integer $a \in \mathbb{Z}$, $\mathrm{isNegative}(a/10^b)$ is decidable for every integer $a \in \mathbb{Z}$ and natural number $b \in \mathbb{N}$
+
+=-- 
+
++-- {: .num_defn}
+###### Definition
+**(Greater than)
+
+For every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, there is a proposition $p \gt q$ called **greater than** and defined as 
+
+$$p \lt q \coloneqq \mathrm{isNegative}(q - p)$$ 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of greater than)
+
+Given $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, the predicate $p \gt q$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+By definition, $p \gt q$ is the same as $\mathrm{isNegative}(q - p)$. Because the relation $\mathrm{isNegative}(p)$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$, $\mathrm{isNegative}(q - p)$ and $p \gt q$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$. 
+=--
+
++-- {: .num_prop} 
+###### Definition
+**(Non-negative numbers)
+
+Given $a \in \mathbb{Z}$ and $b \in \mathbb{N}$, a decimal fraction $a/10^b \in \mathbb{Z}[1/10]$ **is non-negative** if $a \geq 0$; i.e. the predicate $\mathrm{isNonNegative}(a/10^b)$ is defined as 
+
+$$\mathrm{isNonNegative}(a/10^b) \coloneqq a \geq 0$$
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of non-negative numbers)
+
+Given $a \in \mathbb{Z}$, $b \in \mathbb{N}$, the predicate $\mathrm{isNonNegative}(a/10^b)$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+
+By definition, $\mathrm{isNonNegative}(a/10^b)$ is the same as $a \geq 0$. Because the relation $a \geq 0$ is decidable for every integer $a \in \mathbb{Z}$, $\mathrm{isNonNegative}(a/10^b)$ is decidable for every integer $a \in \mathbb{Z}$ and natural number $b \in \mathbb{N}$
+=-- 
+
++-- {: .num_defn}
+###### Definition
+**(Less than or equal to)
+
+For every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, there is a proposition $p \leq q$ called **less than or equal to** and defined as 
+
+$$p \leq q \coloneqq \mathrm{isNonNegative}(q - p)$$ 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of less than or equal to)
+
+Given $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, the predicate $p \leq q$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+By definition, $p \leq q$ is the same as $\mathrm{isNonNegative}(q - p)$. Because the relation $\mathrm{isNonNegative}(p)$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$, $\mathrm{isNonNegative}(q - p)$ and $p \leq q$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$. 
+=--
+
++-- {: .num_prop} 
+###### Definition
+**(Non-positive numbers)
+
+Given $a \in \mathbb{Z}$ and $b \in \mathbb{N}$, a decimal fraction $a/10^b \in \mathbb{Z}[1/10]$ **is non-positive** if $a \leq 0$; i.e. the predicate $\mathrm{isNonPositive}(a/10^b)$ is defined as 
+
+$$\mathrm{isNonPositive}(a/10^b) \coloneqq a \leq 0$$
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of non-positive numbers)
+
+Given $a \in \mathbb{Z}$, $b \in \mathbb{N}$, the predicate $\mathrm{isNonPositive}(a/10^b)$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+
+By definition, $\mathrm{isNonNegative}(a/10^b)$ is the same as $a \leq 0$. Because the relation $a \leq 0$ is decidable for every integer $a \in \mathbb{Z}$, $\mathrm{isNonPositive}(a/10^b)$ is decidable for every integer $a \in \mathbb{Z}$ and natural number $b \in \mathbb{N}$
+=-- 
+
++-- {: .num_defn}
+###### Definition
+**(Greater than or equal to)
+
+For every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, there is a proposition $p \geq q$ called **greater than or equal to** and defined as 
+
+$$p \leq q \coloneqq \mathrm{isNonPositive}(q - p)$$ 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(Decidability of greater than or equal to)
+
+Given $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$, the predicate $p \geq q$ is a [[decidable proposition]].
+=--
+
++-- {: .proof} 
+###### Proof 
+By definition, $p \geq q$ is the same as $\mathrm{isNonPositive}(q - p)$. Because the relation $\mathrm{isNonPositive}(p)$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$, $\mathrm{isNonPositive}(q - p)$ and $p \geq q$ is decidable for every decimal fraction $p \in \mathbb{Z}[1/10]$ and $q \in \mathbb{Z}[1/10]$. 
+=--
+
++-- {: .num_prop} 
+###### Definition
+**(Non-zero numbers)
+
+Given $a \in \mathbb{Z}$ and $b \in \mathbb{N}$, a decimal fraction $a/10^b \in \mathbb{Z}[1/10]$ **is non-zero** if $a \neq 0$; i.e. the predicate $\mathrm{isNonZero}(a/10^b)$ is defined as 
+
+$$\mathrm{isNonZero}(a/10^b) \coloneqq a \neq 0$$
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(ordered integral domain)
+
+The decimal fractions $(\mathbb{Z}[1/10], 0, +, -, 1, \cdot, \lt)$ form an [[ordered integral domain]]. 
+=--
+
++-- {: .num_defn}
+###### Definition
+**(Ramp)
+
+There exists a function $\mathrm{ramp}:\mathbb{Z}[1/10] \to \mathbb{Z}[1/10]$ called **ramp** and defined as 
+
+$$\mathrm{ramp}(a/10^b) \coloneqq \mathrm{ramp}(a)/10^b$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{N}$. 
+=--
+
++-- {: .num_defn}
+###### Definition
+**(Minimum)
+
+There exists a binary operation $\min:\mathbb{Z}[1/10] \times \mathbb{Z}[1/10] \to \mathbb{Z}[1/10]$ called **minimum** defined as 
+
+$$\min(p,q) \coloneqq p - \mathrm{ramp}(p - q)$$
+
+for $p \in \mathbb{Z}[1/10]$, $q \in \mathbb{Z}[1/10]$. 
+=--
+
++-- {: .num_defn}
+###### Definition
+**(Maximum)
+
+There exists a binary operation $\max:\mathbb{Z}[1/10] \times \mathbb{Z}[1/10] \to \mathbb{Z}[1/10]$ called **maximum** defined as 
+
+$$max(p, q) \coloneqq p + \mathrm{ramp}(q - p)$$
+
+for $p \in \mathbb{Z}[1/10]$, $q \in \mathbb{Z}[1/10]$. 
+=--
+
++-- {: .num_defn}
+###### Definition
+**(Absolute value)
+
+There exists a function $\vert(-)\vert:\mathbb{Z}[1/10] \to \mathbb{Z}[1/10]$ called **absolute value** and defined as 
+
+$$\vert p \vert \coloneqq max(p, -p)$$
+
+for $p \in \mathbb{Z}[1/10]$. 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+**(total order)
+
+The decimal fractions $(\mathbb{Z}[1/10], 0, +, -, 1, \cdot, \lt, \gt, \leq, \geq, \min, \max, \mathrm{ramp})$ are a [[totally ordered ring]]. 
+=--
+
+### Scientific notation 
+
++-- {: .num_prop} 
+###### Proposition
+**(scientific notation)
+
+For all decimal fractions $p \in \mathbb{Z}[1/10]$, if $(0 \lt p)$, then there exists an [[integer]] $b \in \mathbb{Z}$ such that $1 \leq a \cdot 10^b$ and $a \cdot 10^b \lt 10$. 
+=--
+
+### Algebraic closure
+
+The [[algebraic closure]] $\overline{\mathbb{Z}[1/10]}$ of the rational numbers is called the [[field]] of _[[algebraic numbers]]_, and is thus isomorphic to \overline{\mathbb{Q}}, the algebraic closure of the [[rational numbers]]. 
+
+### Topologies
+
+There are several interesting [[topological space|topologies]] on $\mathbb{Z}[1/10]$ that make $\mathbb{Z}[1/10]$ into a [[topological group]] under addition, allowing us to define interesting fields by taking the [[complete space|completion]] with respect to this topology:
+
+1.  The _[[discrete topology]]_ is the most obvious, which is already complete.
+
+2.  The _absolute-value topology_ is defined by the [[metric space|metric]] $d(x,y) \coloneqq {|x - y|}$; the completion is the field of [[real numbers]]. 
+
+    (This topology is [[totally disconnected space|totally disconnected]].)
+
+3.  For [[prime numbers]] $2$ and $5$, the _$2$-adic topology_ and _$5$-adic topology_ are defined by the [[ultrametric]] $d(x,y) \coloneqq 1/n$ where $n$ is the highest exponent on $2$ and $5$ respectively in the [[prime factorization]] of ${|x - y|}$; the completions of each metric are the fields of $2$-[[adic number|adic numbers]] and $5$-[[adic number|adic numbers]] respectively.
 
 ## Related entries
 
 * [[dyadic rational number]]
+
+* [[decimal interval coalgebra]]
 
 ## References
 
