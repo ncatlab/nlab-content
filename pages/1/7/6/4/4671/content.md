@@ -1,6 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A __cocartesian monoidal category__ is a [[monoidal category]] whose monoidal product is a [[coproduct]] (and so whose unit is an [[initial object]]).  It is the [[opposite category|dual]] of a [[cartesian monoidal category]].
 
 Sometime we refer to a category as __cocartesian monoidal__ just to indicate that it *has* all finitary coproducts.
+
+## Related concepts
+
+* [[cartesian monoidal category]]
+
+* [[cocartesian monoidal dagger category]]
 
 
 [[!redirects cocartesian monoidal category]]
