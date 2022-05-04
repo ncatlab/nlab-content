@@ -26,12 +26,23 @@ Of course, there are also various theorems about general classes of numbers that
 
 ## Definition
 
+### In the real numbers
 An __irrational (real) number__ is a [[real number]] $x$ such that, given any [[rational number]] $a$ (thought of as a real number), the [[absolute value]] ${|x - a|}$ is [[positive number|positive]].  (This precise definition is used in [[constructive mathematics]]; [[classical mathematics|classically]] this is equivalent to saying that $x \ne a$.)  We may define an irrational [[complex number]] similarly.
 
 The [[set]] of irrational real numbers (a [[subset]] of the set of real numbers) is variously denoted $\mathbb{I}$, $\mathbb{J}$, or $\mathbb{B}$ (in various fonts).  The $\mathbb{I}$ and $\mathbb{J}$ stand for 'irrational', while the $\mathbb{B}$ stands for 'Baire' (see the next paragraph).  Here we will use $\mathbb{J}$.
 
 We may give $\mathbb{J}$ a [[topological structure|topology]] as a [[subspace]] of the [[real line]] $\mathbb{R}$.  With this topology, $\mathbb{J}$ is sometimes called __[[Baire space of irrational numbers|Baire space]]__; however, one uses a different [[uniform structure]].  (This should be distinguished from the sense of [[Baire space]] as a space to which the [[Baire category theorem]] applies; however, $\mathbb{J}$ is an example of such a space.)
 
+### Abstract definition
+
+Let $R$ be an [[Archimedean integral domain]] with the [[integers]] $\mathbb{Z} \subseteq R$ being a integral subdomain of $R$, with injection $f:\mathbb{Z} \hookrightarrow R$. The [[tight apartness relation]] $r # s$ in $R$ is defined as 
+$$r # s \coloneqq (r \lt s) \vee (s \lt r)$$
+
+An element $r \in R$ is irrational if 
+$$isIrrational(r) \coloneqq \forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}. (f(a) # 0) \wedge (f(a) \cdot r # f(b))$$
+
+The set of __irrational numbers__ in $R$ is defined as
+$$\mathbb{J}_R \coloneqq \{r \in R \vert isIrrational(r) \}$$
 
 ## History
 
