@@ -157,6 +157,9 @@ or equivalently $(f \circ g)(c^\pm) \risingdotseq f(g(c^\pm)^\pm)$, where $A \ri
 $$ \lim_{x \to c} f(g(x)) = f\Big(\lim_{x \to c} g(x)\Big) $$
 if $f$ is continuous at $\lim_c g$.
 
+## See also ##
+
+* [[function limit space]]
 
 [[!redirects limit of a function]]
 [[!redirects limits of a function]]
