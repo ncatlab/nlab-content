@@ -3,9 +3,11 @@ Joe Moeller is an NRC postdoc at NIST. He did his PhD at UCR under [[John Baez]]
 
 * [website](https://joemathjoe.wordpress.com/)
 
-## Selected Writings
+## Writings
 
-* [[John Baez]], [[Joe Moeller]], [[Todd Trimble]], Schur functors and categorified plethysm, [arXiv:2106.00190](https://arxiv.org/abs/2106.00190)
+* [[John Baez]], [[Owen Lynch]], [[Joe Moeller]], _Compositional thermostatics_, [arXiv:2111.10315](https://arxiv.org/abs/2111.10315)
+
+* [[John Baez]], [[Joe Moeller]], [[Todd Trimble]], _Schur functors and categorified plethysm_, [arXiv:2106.00190](https://arxiv.org/abs/2106.00190)
 
 * [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, Vol. 35, 2020, No. 31, pp 1159-1207. arXiv:[1809.00727](https://arxiv.org/abs/1809.00727)
 
