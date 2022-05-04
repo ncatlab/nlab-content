@@ -33,14 +33,19 @@ such that
 
 ## Examples ##
 
-* The dagger category [[Hilb]] of [[Hilbert spaces]] and [[continuous map|continuous]] [[linear maps]] is a compact closed dagger category. 
+* The [[dagger category]] [[Hilb]] of [[Hilbert spaces]] and [[continuous map|continuous]] [[linear maps]] is a compact closed dagger category. 
 
 ## See also ##
 
 * [[dagger category]]
+
 * [[monoidal dagger category]]
+
 * [[symmetric monoidal dagger category]]
+
+* [[compact closed category]]
 
 ## References ##
 
-* Chris Heunen, Andre Kornell. Axioms for the category of Hilbert spaces ([arXiv:2109.07418](https://arxiv.org/abs/2109.07418))
+* [[Chris Heunen]], [[Andre Kornell]], *Axioms for the category of Hilbert spaces* ([arXiv:2109.07418](https://arxiv.org/abs/2109.07418))
+
