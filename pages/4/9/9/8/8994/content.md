@@ -184,7 +184,7 @@ Linearly distributive categories have now been used as the substrate for a numbe
 
 * {#dePaiva91} [[Valeria de Paiva]], _The Dialectica categories_, University of Cambridge Technical Report UCAM-CL-TR-213, 1991. ([pdf](http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf))
 
-* {#CockettSeely92} ￼￼￼[[Robin Cockett]], [[Robert Seely]],  _Weakly Distributive Categories_, in M.P. Fourman, P.T. Johnstone, A.M. Pitts, eds., _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series 177 (1992), pp. 45&#8211;65. ([book website](https://www.cambridge.org/au/academic/subjects/mathematics/logic-categories-and-sets/applications-categories-computer-science-proceedings-london-mathematical-society-symposium-durham-1991))
+* {#CockettSeely92} [[Robin Cockett]], [[Robert Seely]],  _Weakly Distributive Categories_, in M.P. Fourman, P.T. Johnstone, A.M. Pitts, eds., _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series 177 (1992), pp. 45&#8211;65. ([book website](https://www.cambridge.org/au/academic/subjects/mathematics/logic-categories-and-sets/applications-categories-computer-science-proceedings-london-mathematical-society-symposium-durham-1991))
 
 * {#Lambek93} [[Joachim Lambek]], _From categorial grammar to bilinear logic_, in Kosta Dosen and Peter Schroder-Heister, eds., _Substructural Logics_, Clarendon Press, 1993, pp. 207&#8211;237. ([book website](https://global.oup.com/academic/product/substructural-logics-9780198537779))
 
