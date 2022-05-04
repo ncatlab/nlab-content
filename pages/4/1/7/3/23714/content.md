@@ -22,6 +22,8 @@ $$q(x, y) := \frac{1}{x - y} (f(x) - f(y))$$
 
 ## See also ##
 
+* [[limit of a binary function approaching a diagonal]]
+
 * [[differentiable function]]
 
 * [[Newton-Leibniz operator]]
