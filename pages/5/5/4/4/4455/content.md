@@ -46,6 +46,23 @@ The set of Dedekind cuts of [[rational numbers]] --the set of [[real numbers]]--
 
 The operation of forming the set of Dedekind cuts is idempotent, so the Dedekind completion can be constructed as the set of Dedekind cuts.  More precisely, the Dedekind-complete linear orders form a [[reflective subcategory]] of the category of dense unbounded linear orders, so that Dedekind completion is a kind of [[completion]] in the abstract categorial sense.
 
+### Using open intervals ###
+
+A set $F$ with a [[linear order]] is **Dedekind complete** if 
+
+* For all elements $a \in F$ and $b \in F$, the open interval $(a,b)$ is inhabited. 
+
+* For all elements $a \in F$, the upper unbounded open interval $(a,\infty)$ is inhabited. 
+
+* For all elements $a \in F$, the lower unbounded open interval $(-\infty,a)$ is inhabited.
+
+* For all elements $a \in F$ and $b \in F$, $a \lt b$ if and only if $(b,\infty)$ is a subinterval of $(a,\infty)$
+
+* For all elements $a \in F$ and $b \in F$, $b \lt a$ if and only if $(-\infty,b)$ is a subinterval of $(-\infty,a)$
+
+* For all elements $a \in F$ and $b \in F$, if $a \lt b$, then $F$ is a subinterval of the union of $(a, \infty)$ and $(-\infty, b)$
+
+* For all elements $a \in F$ and $b \in F$, the intersection of $(a,\infty)$ and $(-\infty,b)$ is a subinterval of the [[open interval]] $(a,b)$
 
 ## Generalisations
 
@@ -131,6 +148,7 @@ For example, let $X$ be a [[compactum]] and let $S$ be the quasiordered set of [
 
 * Auke B. Booij, Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
+* Steve Vickers, “Localic Completion Of Generalized Metric Spaces I”, [TAC](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
 
 [[!redirects Dedekind completion]]
 [[!redirects Dedekind completions]]
