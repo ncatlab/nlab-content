@@ -86,7 +86,7 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 
 ### Analysis 
 
-One could analytically define the concepts of [[limit of a function]] and [[continuous function]] with respect to the absolute-value topology. Since the [[reciprocal function]] on the rational numbers is well defined for non-zero rational numbers $\mathbb{Q}_{\neq 0}$, given a continuous function $f:I \to \mathbb{Q}$ for open interval $I \subseteq \mathbb{Q}$ the [[difference quotient]] function exists and thus the [[derivative]] is well-defined for continuous functions. One could thus define [[smooth functions]] on the rational numbers, and because the rational numbers are a Hausdorff space, [[analytic functions]] on the rational numbers, despite the fact that the rational numbers are a totally disconnected space. 
+One could analytically define the concepts of [[limit of a function]] and [[continuous function]] with respect to the absolute-value topology, and prove that the limit of a function satisfy the [[algebraic limit theorem]]. Since the [[reciprocal function]] on the rational numbers is well defined for non-zero rational numbers $\mathbb{Q}_{\neq 0}$, given a continuous function $f:I \to \mathbb{Q}$ for open interval $I \subseteq \mathbb{Q}$ the [[difference quotient]] function exists and thus the [[derivative]] is well-defined for continuous functions. One could thus define [[smooth functions]] on the rational numbers, and because the rational numbers are a Hausdorff space, [[analytic functions]] on the rational numbers, despite the fact that the rational numbers are a totally disconnected space. 
 
 ## Related concepts
 
