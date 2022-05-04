@@ -77,6 +77,17 @@ When $\omega$ is an exterior $1$-form on a subspace of $\mathbb{R}^n$ and $P$ is
 
 On a more general manifold, we need a definition of semidefinite integral that exists much less often, but the value is that we no longer have to assume that $\omega$ is closed for half of the FTC; so this is probably the better definition.  So, if $\omega$ is a $1$-form on any differentiable manifold and $P$ is a point in its domain, then the semidefinite integral of $\omega$ with initial point $P$ is defined at another point $Q$ iff the integral of $\omega$ is the same along any path from $P$ to $Q$ (and then that integral is the value).  Then we can define an indefinite integral by adding a constant initial value.  It\'s still true that every antiderivative is an indefinite integral (at least on a [[path-connected space|path-connected]] domain, or more generally when the domain is a manifold in which we can [[axiom of choice|choose]] an initial point in each [[connected component]]), and now it\'s also true that every indefinite integral is an antiderivative.  By definition, $\omega$ is exact iff an antiderivative exists, and therefore iff an indefinite integral exists.  Similarly, $\omega$ is closed iff it has an indefinite integral on a neighbourhood of each point; if the domain of $\omega$ is simply connected, then the indefinite integral can be extended to the entire domain.
 
+## More general ##
+
+In an [[algebraic limit field]] $F$, the notion of a derivative is well defined and is represented by the [[Newton-Leibniz operator]] $\tilde{D}$. Given a [[subset]] $S \subseteq F$, and a function $f:S \to F$, the set of antiderivatives of $f$ is the [[fiber]] of the [[Newton-Leibniz operator]] at $f$:
+
+$$\{g \in D^1(S, F) \vert \tilde{D}(g) = f\}$$
+
+An __antiderivative__ is an element of the above subset. 
+
+## See also ##
+
+* [[differentiable function]]
 
 [[!redirects indefinite integral]]
 [[!redirects indefinite integrals]]
