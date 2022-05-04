@@ -32,7 +32,9 @@ A **J&#243;nsson-Tarski algebra**, also called a [[Georg Cantor|Cantor]] algebra
 
 More generally, an object $A$ in a [[symmetric monoidal category]] $\mathcal{M}$ together with an isomorphism $\alpha:A\otimes A\rightarrow A$ is called a **J&#243;nsson-Tarski object**, or an _idempotent_ object (Fiore&Leinster 2010).
 
-In another possible direction for generalization, one defines a **J&#243;nsson-Tarski n-algebra** as a set $X$ together with an [[isomorphism]] $X\overset{\simeq}{\to}X^n$ (cf. Smirnov 1971, Higman 1974).
+In another possible direction for generalization, one defines a **J&#243;nsson-Tarski n-algebra** as a set $X$ together with an [[isomorphism]] $X\overset{\simeq}{\to}X^n$ (cf. Smirnov 1971, Higman 1974).[^fine]
+
+[^fine]: A profunctorial variation on this theme has been proposed by Leinster (2007). See at [[Jónsson-Tarski topos]] for some details. 
 
 ## Properties
 
@@ -67,7 +69,7 @@ In another possible direction for generalization, one defines a **J&#243;nsson-T
 ##References
 
 
-* K. S. Brown, _Finiteness Properties of Groups_ , JPAA **44** 1987 pp.45-75.
+* K. S. Brown, _Finiteness Properties of Groups_ , JPAA **44** (1987) pp.45-75.
 
 * J. Dubeau, _J&#243;nsson J&#243;nsson-Tarski algebras_ , arXiv:2202.02460 (2022).  ([abstract](https://arxiv.org/abs/2202.02460v1))
 
@@ -100,7 +102,7 @@ Logic **10** (1971) pp.40-49.
 * D. M. Smirnov, _Cantor algebras with a single generator II_ , Algebra and
 Logic **12** (1973) pp.399-404.
 
-* D. M. Smirnov , _Bases and automorphisms of free Cantor algebras of finite rank_ , Algebra and Logic **13** (1974) pp.17-33.
+* D. M. Smirnov, _Bases and automorphisms of free Cantor algebras of finite rank_ , Algebra and Logic **13** (1974) pp.17-33.
 
 * S. Swierczkowski, _On isomorphic free algebras_ , Fund. Math. **50**  (1961) pp.35–44.
 
