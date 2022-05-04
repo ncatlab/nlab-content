@@ -75,6 +75,8 @@ Cartesian categories may be [[freely generated]] from sets, categories, signatur
 
 * [[relevance monoidal category]]
 
+* [[cartesian monoidal dagger category]]
+
 * [[cartesian monoidal (∞,1)-category]]
 
 
