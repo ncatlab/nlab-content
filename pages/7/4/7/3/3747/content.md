@@ -148,6 +148,7 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 
 ## See also ##
 
+* [[generalized Cauchy real number]]
 * [[HoTT book real number]]
 * [[prealgebra real number]]
 
