@@ -59,7 +59,7 @@ The [[diagonal]] embedding $S \to S \times S$ is a [[proper map]] (or equivalent
 This way of stating the definition generalizes to [[topos theory]] and thus to many other contexts; but it is not always a faithful generalization of the classical notion for topological spaces.  See _[Beyond topological spaces](#BeyondTopologicalSpaces)_ below for more.
 
 
-Here is an equivalent definition (constructively equivalent to Definition \ref{constructive}) that makes sense for arbitrary [[convergence spaces]]:
+Here is an equivalent definition (constructively equivalent to Definition \ref{constructive}) that makes sense for arbitrary [[convergence spaces]] or [[preconvergence spaces]]:
 
 +-- {: .num_defn #convergence}
 ###### Definition
