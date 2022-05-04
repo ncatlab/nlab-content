@@ -62,6 +62,7 @@ A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bou
 ## See also 
 
 * [[Cauchy structure]]
+* [[sequentially Cauchy complete space]]
 
 ## References
 
