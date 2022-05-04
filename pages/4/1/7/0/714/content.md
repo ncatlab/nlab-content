@@ -249,6 +249,21 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 ## Variants
 
+### Monoidal &#8224;-categories
+
+* [[monoidal dagger category]]
+
+  * [[braided monoidal dagger category]]
+
+  * [[symmetric monoidal dagger category]]
+
+  * [[compact closed dagger category]]
+
+  * [[cartesian monoidal dagger category]]
+
+  * [[cocartesian monoidal dagger category]]
+
+  * [[semiadditive dagger category]]
 
 ### Model structure on &#8224;-categories {#ModelStructure}
 
@@ -317,10 +332,6 @@ There should be a notion of &#8224;-[[quasi-category]] based on $\dagger$-simpli
 
 (...)
 
-### Other 
-
-* [[monoidal dagger category]]
-
 ## Properties
 
 ### Relation to star-algebras
@@ -345,18 +356,6 @@ For more on this see
 * [[star-category]], [[C-star-category]]
 
 * [[dagger functor]]
-
-* [[monoidal dagger category]]
-
-* [[braided monoidal dagger category]]
-
-* [[symmetric monoidal dagger category]]
-
-* [[compact closed dagger category]]
-
-* [[cartesian monoidal dagger category]]
-
-* [[cocartesian monoidal dagger category]]
 
 ## References
 
