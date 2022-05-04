@@ -42,6 +42,10 @@ is the [[abelian group]] of all these [[group characters]] of $A$, equipped with
 The Pontrjagin dual of the additive group of [[integers]] $\mathbb{Z}$ is the [[circle group]] $S^1$, and conversely, $\mathbb{Z}$ is the Pontrjagin dual of $S^1$. This pairing of dual topological groups, given by $(n,z) \mapsto z^n$, is related to the subject of [[Fourier transforms]]. 
 \end{example}
 
+\begin{example}
+  More generally, the Pontrjagin dual of $\mathbb{Z}^n$ is the [[n-torus]] $(S^1)^n$. In [[solid state physics]] this example appears in the guise of the *[[Brillouin torus]]*.
+\end{example}
+
 In general, the dual of a [[discrete space|discrete]] group is a [[compact space|compact]] group and conversely. In particular, therefore, the dual of a [[finite group]] is again finite.
 
 \begin{example}
@@ -385,10 +389,17 @@ Discussion of [[categorification|categorified]] Pontrjagin duality for [[2-group
 
 * [[Calder Daenzer]], _A groupoid approach to noncommutative T-duality_, PhD, 2007 ([pdf](http://www.math.upenn.edu/grad/dissertations/DaenzerThesis.pdf))
 
+
 [[!redirects Pontrjagin duals]]
 
 [[!redirects Pontryagin dual]]
 [[!redirects Pontryagin duals]]
+
+[[!redirects Pontrjagin dual group]]
+[[!redirects Pontrjagin dual groups]]
+
+[[!redirects Pontryagin dual group]]
+[[!redirects Pontryagin dual groups]]
 
 [[!redirects Pontrjagin duality]]
 [[!redirects Pontrjagin dualities]]
