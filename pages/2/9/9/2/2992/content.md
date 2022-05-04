@@ -22,22 +22,6 @@
 
 A _rational number_ is a [[fraction]] of two [[integer]] [[numbers]].
 
-### As an initial object in a category
-
-Let $\mathbb{Z}$ be the [[integers]] and let 
-$$\mathbb{Z}_{#0} \coloneqq \{a \in \mathbb{Z} \vert a \lt 0 \vee 0 \lt a \}$$
-be the set of integers apart from zero. 
-
-For lack of a better name, let us define a *rational number algebra* to be a set $A$ with a function $\iota \in \mathbb{Z} \times \mathbb{Z}_{#0} \to A$ with domain the Cartesian product $\mathbb{Z} \times \mathbb{Z}_{#0}$ and codomain $A$, such that 
-
-$$\forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}_{#0}. \forall c \in \mathbb{Z}. \forall d \in \mathbb{Z}_{#0}. (a \cdot d = c \cdot b) \implies (\iota(a, b) = \iota(c, d))$$
-
-A *rational number algebra homomorphism* between two rational number algebras $A$ and $B$ is a function $f \in B^A$ such that 
-
-$$\forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}_{#0}. f(\iota_A(a, b)) = \iota_B(a, b)$$
-
-The *category of rational number algebras* is the category $RNA$ whose objects $Ob(RNA)$ are decimal fraction algebras and whose morphisms $Mor(RNA)$ are rational number algebra homomorphisms. The set of **rational numbers**, denoted $\mathbb{Q}$, is defined as the initial object in the category of rational number algebras. 
-
 ### As a field
 
 The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions]] of the [[commutative ring]] of [[integers]], $\mathbb{Z}$, hence the field consisting of formal [[fractions]] ("[[ratios]]") of [[integers]].
@@ -62,6 +46,22 @@ Let $A$ be an [[abelian group]] containing $\mathbb{Z}$ as an abelian subgroup. 
 
 Suppose $A$ has an injection $inv:\mathbb{N}^+\to (A \to A)$ such that for all $n:\mathbb{N}^+$, $inj(n) \circ inv(n) = id_A$ and $inv(n) \circ inj(n) = id_A$. Then the abelian group of __rational numbers__ $\mathbb{Q}$ is the [[initial object|initial]] such abelian group. 
 
+### As an initial object in a category
+
+Let $\mathbb{Z}$ be the [[integers]] and let 
+$$\mathbb{Z}_{#0} \coloneqq \{a \in \mathbb{Z} \vert a \lt 0 \vee 0 \lt a \}$$
+be the set of integers apart from zero. 
+
+For lack of a better name, let us define a *set with rational numbers* to be a set $A$ with a function $\iota \in \mathbb{Z} \times \mathbb{Z}_{#0} \to A$ with domain the Cartesian product $\mathbb{Z} \times \mathbb{Z}_{#0}$ and codomain $A$, such that 
+
+$$\forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}_{#0}. \forall c \in \mathbb{Z}. \forall d \in \mathbb{Z}_{#0}. (a \cdot d = c \cdot b) \implies (\iota(a, b) = \iota(c, d))$$
+
+A *homomorphism of sets with rational numbers* between two sets with rational numbers $A$ and $B$ is a function $f \in B^A$ such that 
+
+$$\forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}_{#0}. f(\iota_A(a, b)) = \iota_B(a, b)$$
+
+The *category of sets with rational numbers* is the category $SwRN$ whose objects $Ob(SwRN)$ are sets with rational numbers and whose morphisms $Mor(A,B)$ for sets with rational numbers $A \in Ob(SwDF)$, $B \in Ob(SwRN)$ are homomorphisms of sets with rational numbers. The set of **rational numbers**, denoted $\mathbb{Q}$, is defined as the initial object in the category of sets with rational numbers. 
+
 ## Properties
 
 ### Algebraic closure
@@ -74,7 +74,7 @@ There are several interesting [[topological space|topologies]] on $\mathbb{Q}$ t
 
 1.  The _[[discrete topology]]_ is the most obvious, which is already complete.
 
-2.  The _absolute-value topology_ is defined by the [[metric space|metric]] $d(x,y) \coloneqq {|x - y|}$; the completion is the field of [[real numbers]]. 
+2.  The _absolute-value topology_ is defined by the [[metric space|metric]] $d(x,y) \coloneqq {|x - y|}$; the completion is the field of [[real numbers]]. The rational numbers are thus a [[Hausdorff space]].
 
     (This topology is [[totally disconnected space|totally disconnected]] ([this exmpl.](totally+disconnected+space#RationalNumbersAreTotallyDisconnected)))
 
@@ -84,6 +84,9 @@ According to [[Ostrowski's theorem]] this are the only possibilities.
 
 Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although the completion $\mathbb{R}$ can.  (Probably the same holds for (3); I need to check.)
 
+### Analysis 
+
+One could analytically define the concepts of [[limit of a function]] and [[continuous function]] with respect to the absolute-value topology. Since the [[reciprocal function]] on the rational numbers is well defined for non-zero rational numbers $\mathbb{Q}_{\neq 0}$, given a continuous function $f:I \to \mathbb{Q}$ for open interval $I \subseteq \mathbb{Q}$ the [[difference quotient]] function exists and thus the [[derivative]] is well-defined for continuous functions. One could thus define [[smooth functions]] on the rational numbers, and because the rational numbers are a Hausdorff space, [[analytic functions]] on the rational numbers, despite the fact that the rational numbers are a totally disconnected space. 
 
 ## Related concepts
 
@@ -114,6 +117,8 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 * [[p-adic number]]
 
 * [[rational numbers object]]
+
+* [[rational interval coalgebra]]
 
 [[!redirects rational number]]
 [[!redirects rational numbers]]
