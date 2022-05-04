@@ -59,3 +59,5 @@ The reciprocal in complex analysis should be the [[analytic continuation]] of th
 * [[power series]]
 
 * [[reciprocal algebra]]
+
+* [[reciprocal function]]
