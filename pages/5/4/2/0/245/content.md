@@ -161,6 +161,7 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 
 [[!include structure on algebras and their module categories - table]]
 
+
 ## Related concepts
 
 * [[k-tuply monoidal (n,r)-category]]
@@ -168,6 +169,8 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
 * **braided monoidal category**, [[braided monoidal (∞,1)-category]]
+
+  * [[braided monoidal dagger category]]
 
   * [[braided 2-group]], [[braided ∞-group]]
  
