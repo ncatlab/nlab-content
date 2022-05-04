@@ -39,6 +39,8 @@ This is often considered in the special case of [[twisted ad-equivariant K-theor
 
 * [[twisted differential K-theory]]
 
+* [[topological phases of matter]]
+
 ## References
 
 In a context of [[orbifold K-theory]] and for [[torsion subgroup|torsion]] class twists ("[[discrete torsion]]"):
