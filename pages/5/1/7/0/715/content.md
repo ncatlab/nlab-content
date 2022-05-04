@@ -51,7 +51,7 @@ A pedagogical description of the [[monoidal category]] structure on $Hilb$ with 
 
 An [[axiom|axiomatic]] characterization of the [[dagger-category]] of Hilbert spaces, with [[linear maps]] between them:
 
-* {#HeunenKornell21} [[Chris Heunen]], Andre Kornell, *Axioms for the category of Hilbert spaces* ([arXiv:2109.07418](https://arxiv.org/abs/2109.07418))
+* {#HeunenKornell21} [[Chris Heunen]], [[Andre Kornell]], *Axioms for the category of Hilbert spaces* ([arXiv:2109.07418](https://arxiv.org/abs/2109.07418))
 
 
 category: category
