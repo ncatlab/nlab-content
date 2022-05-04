@@ -20,7 +20,7 @@
 
 ## Idea ##
 
-A notion of real numbers that is sequentially [[Cauchy complete]], because the [[Cauchy real numbers]] are not sequentially Cauchy complete in [[constructive mathematics]]
+A notion of real numbers that is [[sequentially Cauchy complete]], because the [[Cauchy real numbers]] are not sequentially Cauchy complete in [[constructive mathematics]]
 
 ## Definition ##
 
@@ -35,6 +35,7 @@ The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the initial object in th
 ## See also ##
 
 * [[Cauchy real numbers]]
+* [[generalized Cauchy real numbers]]
 * [[premetric space]]
 
 ## References ##
