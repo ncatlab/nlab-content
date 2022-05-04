@@ -22,6 +22,22 @@
 
 A _rational number_ is a [[fraction]] of two [[integer]] [[numbers]].
 
+### As an initial object in a category
+
+Let $\mathbb{Z}$ be the [[integers]] and let 
+$$\mathbb{Z}_{#0} \coloneqq \{a \in \mathbb{Z} \vert a \lt 0 \vee 0 \lt a \}$$
+be the set of integers apart from zero. 
+
+For lack of a better name, let us define a *rational number algebra* to be a set $A$ with a function $\iota \in \mathbb{Z} \times \mathbb{Z}_{#0} \to A$ with domain the Cartesian product $\mathbb{Z} \times \mathbb{Z}_{#0}$ and codomain $A$, such that 
+
+$$\forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}_{#0}. \forall c \in \mathbb{Z}. \forall d \in \mathbb{Z}_{#0}. (a \cdot d = c \cdot b) \implies (\iota(a, b) = \iota(c, d))$$
+
+A *rational number algebra homomorphism* between two rational number algebras $A$ and $B$ is a function $f \in B^A$ such that 
+
+$$\forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}_{#0}. f(\iota_A(a, b)) = \iota_B(a, b)$$
+
+The *category of rational number algebras* is the category $RNA$ whose objects $Ob(RNA)$ are decimal fraction algebras and whose morphisms $Mor(RNA)$ are rational number algebra homomorphisms. The set of **rational numbers**, denoted $\mathbb{Q}$, is defined as the initial object in the category of rational number algebras. 
+
 ### As a field
 
 The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions]] of the [[commutative ring]] of [[integers]], $\mathbb{Z}$, hence the field consisting of formal [[fractions]] ("[[ratios]]") of [[integers]].
