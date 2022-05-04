@@ -11,7 +11,7 @@ A __decimal rational number__ or __decimal fraction__ is a [[rational number]] $
 
 ### As a subset of the rational numbers
 
-A __decimal rational number__ or __decimal fraction__ is a [[rational number]] $r \in \mathbb{Q}$ such that there exists $n,a \in \mathbb{N}$ such that $r = \frac{a}{2^n}$.
+A __decimal rational number__ or __decimal fraction__ is a [[rational number]] $r \in \mathbb{Q}$ such that there exists $n \in \mathbb{N}$ and $a \in \mathbb{Z}$ such that $r = \frac{a}{2^n}$.
 
 ### As the localisation of the integers at 2
 
