@@ -43,7 +43,7 @@ For more, see Urs Schreiber's thoughts at [[schreiber:What is... the nLab|What i
 ## nForum, discussion, comments, and questions
  {#Discussion}
 
-Most nLab pages have a corresponding discussion thread at the [nForum](http://nforum.ncatlab.org), linked to in the menus at the top and bottom of the page. For all but the most trivial edits (correcting spelling or punctuation, etc), we ask that you announce your changes at the nForum using the box at the bottom of the edit page. Typically this would be a short note summarising what you have done, but it can also include what you plan to do, or what you would like others to do! See [[nlabmeta:Welcome to the nForum]] for more on the nForum.
+Most nLab pages have a corresponding discussion thread at the [nForum](https://nforum.ncatlab.org), linked to in the menus at the top and bottom of the page. For all but the most trivial edits (correcting spelling or punctuation, etc), we ask that you announce your changes at the nForum using the box at the bottom of the edit page. Typically this would be a short note summarising what you have done, but it can also include what you plan to do, or what you would like others to do! See [[nlabmeta:Welcome to the nForum]] for more on the nForum.
 
 If you have any questions about an nLab page, or would like to discuss or make a comment upon something in it, whether because you feel that something is wrong or missing or for any other reason, you are encouraged and very welcome to use the nForum discussion thread for the page for this purpose too. If the discussion thread does not yet exist, feel free to create it manually: use the 'nLab - Latest changes' category, and give it the same title (case-sensitive!) as the nLab page.
 
