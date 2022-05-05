@@ -84,7 +84,7 @@ $\,$
 
 
 <center>
-<img src="https://nlab.preschema.com/nlab/files/HomotopyTypeOfPuncturedTorus-20220504.jpg" width="820">
+<img src="https://ncatlab.org/nlab/files/HomotopyTypeOfPuncturedTorus-20220504.jpg" width="820">
 (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22]])
 </center>
 
