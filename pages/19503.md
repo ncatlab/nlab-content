@@ -131,7 +131,7 @@ Every combinatorial model category is [[Quillen equivalence|Quillen equivalent]]
 
 Dugger's theorem is due to
 
-* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_ Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
+* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_, Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
 
 based on results in
 
