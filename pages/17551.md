@@ -400,7 +400,7 @@ But Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} 
   }
 \]
 
-Since we know that the map $(-)^N$ on the left is surjection, the [[commutative diagram|commutativity]] of this diagram implies that also the component projection $p_V$ is surjective. (Every element $c \in A(G/N)$ has a lift to $\widehat c \in A(G)$, but then the commutativity of the triangle means that $\widehat c \wedge \chi_V$ is a pre-image of $c$ under $p_V$.)
+Since we know, as just argued, that the map $(-)^N$ on the left is a surjection, the [[commutative diagram|commutativity]] of this diagram implies that also the component projection $p_V$ is surjective. (Every element $c \in A(G/N)$ has a lift to $\widehat c \in A(G)$, but then the commutativity of the triangle means that $\widehat c \wedge \chi_V$ is a pre-image of $c$ under $p_V$.)
 
 This we may use to deduce the statement for the general case, where the codomain of (eq:ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside) is in degree $V$: 
 
