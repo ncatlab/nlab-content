@@ -54,7 +54,7 @@ A [[no-go theorem]] for [[KK-compactifications]] down to de Sitter spacetime cla
 
 Discussion of de Sitter spacetime in [[quantum gravity]] includes
 
-* {#Witten01} [[Edward Witten]], _Quantum Gravity In De Sitter Space_, talk at [Strings 2001](http://theory.tifr.res.in/strings/),  ([arXiv:hep-th/0106109](http://lanl.arxiv.org/abs/hep-th/0106109))
+* {#Witten01} [[Edward Witten]], _Quantum Gravity In De Sitter Space_, talk at [Strings 2001](http://theory.tifr.res.in/strings/),  ([arXiv:hep-th/0106109](https://arxiv.org/abs/hep-th/0106109))
 
 * Dietmar Klemm, Luciano Vanzo, _Aspects of Quantum Gravity in de Sitter Spaces_, Journal of Cosmology and Astroparticle Physics, Volume 2004, November 2004 ([arXiv:hep-th/0407255](https://arxiv.org/abs/hep-th/0407255))
 
