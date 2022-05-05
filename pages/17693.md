@@ -6,6 +6,8 @@ __Statistical mechanics__ is the theoretical study of systems with a large numbe
 
 * [[Brownian motion]]
 
+* [[Liouville's equation]]
+
 * [[Langevin equation]]
 
 * [[stochastic process]]
