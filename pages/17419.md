@@ -68,7 +68,7 @@ Also the converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsO
 
 ## References
 
-* {#Kowalski13} E. Kowalski, around p. 41 of _Representation theory_, 2013 ([pdf]([[KowalskiReptheory2013.pdf:file]])
+* {#Kowalski13} E. Kowalski, around p. 41 of _Representation theory_, 2013 ([[KowalskiReptheory2013.pdf:file]])
 
 * {#Fein67} Burton Fein, _Representations of direct products of finite groups_, Pacific J. Math. Volume 20, Number 1 (1967), 45-58 ([Euclid:1102992967](https://projecteuclid.org/euclid.pjm/1102992967))
 See also
