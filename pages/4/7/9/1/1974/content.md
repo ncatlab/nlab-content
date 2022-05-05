@@ -299,3 +299,7 @@ See also
 
 
 [[!redirects Grothendieck groups]]
+
+
+[[!redirects Grothendieck group completion]]
+[[!redirects Grothendieck group completions]]
