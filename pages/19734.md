@@ -4,7 +4,7 @@
 
 _Bertrand's postulate_, first proven by analytic methods by Chebyshev in 1852,  is one of the few simple facts providing precise bounds on the occurrence of primes. 
 
-\section{Bertrands postulate}
+\section{Bertrand's postulate}
 
 Given an integer $i \geq 1$, let $p_{i}$ denote the $i^{th}$ prime. _Bertrand's postulate_ is the following. 
 
@@ -12,7 +12,7 @@ Given an integer $i \geq 1$, let $p_{i}$ denote the $i^{th}$ prime. _Bertrand's 
 
 \begin{rmk} \label{RemarkAlternativeFormulations} There are a number of equivalent formulations of Theorem \ref{TheoremBertrandsPostulate}. One is that, for any integer $n \gt 3$, there is a prime $p$ such that $n \lt p \lt 2n$. \end{rmk}
 
-\section{Proof given Goldbachs conjecture}
+\section{Proof given Goldbach's conjecture}
 
 Around 2005, it was noticed by Henry J. Ricardo and Yoshihiro Tanaka that Bertrand's postulate follows from the Goldbach conjecture. We record the proof (of the formulation in Remark \ref{RemarkAlternativeFormulations}).
 
