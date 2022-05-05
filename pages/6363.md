@@ -225,7 +225,9 @@ Gelfand duality can be extended by [[horizontal categorification]] to define the
 
     * [[Serre-Swan theorem]]
 
-* [[noncommutative topology]]
+    * [[noncommutative topology]]
+
+* [[Stone duality]]
 
 The analogous statement in [[differential geometry]]:
 
@@ -233,6 +235,14 @@ The analogous statement in [[differential geometry]]:
 
 
 ## References
+
+Formulation of Gelfand duality in terms of [[category theory]] ([[adjoint functors]], [[monads]] ("triples") and [[adjoint equivalences]]) originates with
+
+* {#Negropontis71} Joan W. Negrepontis, _Duality in analysis from the point of view of triples_, Journal of Algebra, 19 (2): 228–253, (1971) ([doi:10.1016/0021-8693(71)90105-0](https://doi.org/10.1016/0021-8693(71)90105-0), ISSN 0021-8693, MR 0280571)
+
+Quick exposition is in
+
+* Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.uni-bielefeld.de/~ambrogio/exercise_C_algebras.pdf))
 
 Textbook accounts include
 
@@ -242,9 +252,6 @@ Textbook accounts include
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
 
-An exposition that explicitly gives Gelfand duality as an [[equivalence of categories]] and introduces all the notions of [[category theory]] necessary for this statement is in
-
-* Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.uni-bielefeld.de/~ambrogio/exercise_C_algebras.pdf))
 
 Careful discussion of the duality for the more general case of [[locally compact topological spaces]] includes
 
@@ -257,6 +264,8 @@ Some other generalized contexts for Gelfand duality:
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], Sander Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra_, J. Aust. Math. Soc. __90__ (2011), 39&#8211;52 [doi](http://dx.doi.org/10.1017/S1446788711001157) [pdf](http://www.math.ru.nl/~landsman/LandsmanCarey60.pdf)
 
 *  [[Christopher J. Mulvey]], _A generalisation of Gelfand duality_, J. Algebra 56, n. 2, (1979) 499&#8211;505 <a href="http://dx.doi.org/10.1016/0021-8693(79)90352-1">doi</a>
+
+* {#Parzygnat17} [[Arthur Parzygnat]], _Discrete probabilistic and algebraic dynamics: a stochastic commutative Gelfand-Naimark Theorem_ ([arXiv:1708.00091](https://arxiv.org/abs/1708.00091))
 
 category: analysis, geometry, noncommutative geometry
 
