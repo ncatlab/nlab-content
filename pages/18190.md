@@ -3,7 +3,7 @@
 
   _Metaphysics_
 
-  ~ 2nd-1st century BC
+  ~ 4th century BC
 
 on [[metaphysics]].
 
@@ -15,6 +15,6 @@ on [[metaphysics]].
 
 ## References
 
-* Wikiedia, _[Metaphysics (Aristotle)](https://en.wikipedia.org/wiki/Metaphysics_(Aristotle))_
+* Wikipedia, _[Metaphysics (Aristotle)](https://en.wikipedia.org/wiki/Metaphysics_%28Aristotle%29)_
 
 category: reference
