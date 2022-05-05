@@ -22,6 +22,17 @@ free group on the generators, $F(X)$, was introduced and, of course, in $F(\{a\}
 identities. 
 
 
+##Example
+
+Suppose $r\in R$, but it is a power of some element $s\in F$, i.e., $r = s^m$.
+Of course, $ rs = sr$ and 
+
+$${}^sr r^{-1} = 1$$
+
+so ${}^sr. r^{-1}$ is an identity.  In fact, there will be a unique $z\in F$
+with $r = z^q$, $q$ maximal with this property.  This $z$ is called the
+_root of_$r$ and if $q > 1$, $r$ is called a _proper power.
+
 ##References:
 
 * [[R. Brown]] and [[J. Huebschmann]],  _Identities among relations_, in R.Brown and T.L.Thickstun, eds., Low Dimensional Topology, London Math. Soc Lecture Notes, Cambridge University Press, (1982).
