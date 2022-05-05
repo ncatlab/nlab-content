@@ -732,6 +732,9 @@ $$
 [[!redirects Cartesian superspace]]
 [[!redirects Cartesian superspaces]]
 
+[[!redirects super cartesian space]]
+[[!redirects super cartesian spaces]]
+
 [[!redirects super-Cartesian space]]
 
 [[!redirects super Euclidean space]]
@@ -742,5 +745,7 @@ $$
 [[!redirects super formal Cartesian space]]
 [[!redirects super formal Cartesian spaces]]
 
+[[!redirects SuperCartSp]]
+[
 [[!redirects SuperFormalCartSp]]
 [[!redirects SuperFormalCartSpace]]
