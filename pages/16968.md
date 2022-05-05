@@ -98,6 +98,9 @@ The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivaria
 
 ## References
 
+* {#Blumberg17} [[Andrew Blumberg]], Ezample 2.5.9 in _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
+
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 
