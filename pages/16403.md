@@ -2204,7 +2204,7 @@ Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{
      F \;\colon\; \mathcal{C}_f \longrightarrow \mathcal{D}
    $$
 
-   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic fibrations to weak equivalences.
+   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends [[acyclic fibrations]] to [[weak equivalences]].
 
 1. A [[functor]] out of the [[category of cofibrant objects]]
 
@@ -2212,7 +2212,7 @@ Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{
      F \;\colon\; \mathcal{C}_c \longrightarrow \mathcal{D}
    $$
 
-   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic cofibrations to weak equivalences.
+   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends [[acylic cofibrations]] to [[weak equivalences]].
 
 =--
 
@@ -2507,7 +2507,7 @@ and $L$, $R$ are called left/right _Quillen functors_, respectively, if the foll
 
 1. $L$ preserves [[acyclic cofibrations]] and $R$ preserves [[acyclic fibrations]];
 
-1. $L$ preserves [[cofibrations]] and [[acylic cofibrations]];
+1. $L$ preserves [[cofibrations]] and [[acyclic cofibrations]];
 
 1. $R$ preserves [[fibrations]] and [[acyclic fibrations]].
 
@@ -2600,7 +2600,7 @@ Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since 
 ###### Proposition
 **([[Quillen adjunction]] descends to [[homotopy categories]])**
 
-For $\mathcal{C} \underoverset{\underoverset{R}{\bot}{\longrightarrow}}{\overset{L}{\longleftarrow}}{} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
+For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{{}_{\phantom{Qu}}\bot_{Qu}}\mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
 
 $$
   Ho(\mathcal{C})
@@ -2621,12 +2621,13 @@ $$
 
 By def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} and lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory} it is sufficient to see that for $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, then there is a [[natural bijection]]
 
-$$
+\[
+  \label{HomIsomorphismForDerivedQuillenAdjunctionOnHomotopyCategory}
   Hom_{\mathcal{C}}(L X , Y)/_\sim
    \simeq
   Hom_{\mathcal{C}}(X, R Y)/_\sim
   \,.
-$$
+\]
 
 Since by the [[adjoint functor|adjunction isomorphism]] for $(L \dashv R)$ such a natural bijection exists before passing to homotopy classes $(-)/_\sim$, it is sufficient to see that this respects homotopy classes. To that end, use from lemma \ref{LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects} that with $Cyl(Y)$ a [[cylinder object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then $L(Cyl(Y))$ is a cylinder object for $L(Y)$. This implies that left homotopies
 
@@ -14452,7 +14453,11 @@ $$
 
 such that 
 
-1. $Disc$ and $coDisc$ are [[homotopically fully faithful]] in that the [[derived adjunction units]] (Def. \ref{DerivedAdjunctionUnit}) of $(\Pi \dashv Disc)$ and of $(\Gamma \dashv coDisc)$ are [[weak equivalences]];
+1. $Disc$ and $coDisc$ are [[homotopically fully faithful]] in that 
+
+   1. the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}) of $(Disc \dashv \Gamma)$ is a [[weak equivalence]];
+
+   1. the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) of  $(\Gamma \dashv coDisc)$ is a [[weak equivalence]];
 
 1. $\Pi$ preserves [[finite products]].
 
@@ -14539,7 +14544,18 @@ Hence the [[category of simplicial presheaves]] over a [[small category]] with [
 +-- {: .proof}
 ###### Proof
 
-The [[adjoint quadruple]] of ordinary [[functors]] exists as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}, and by Prop. \ref{ModelCategoriesOfSimplicialPresheaves} we have the injective and projective [[model structure on simplicial presheaves]] related by a  [[Quillen equivalence]] of the form
+The [[adjoint quadruple]] of ordinary [[functors]] exists as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}. Notice that this is such that 
+
+$$
+  \Gamma(\mathbf{X})
+  =
+  \mathbf{X}(\ast)
+$$
+
+is given by evaluation on the [[terminal object]] of the site.
+
+Moreover, by Prop. \ref{ModelCategoriesOfSimplicialPresheaves} we
+have the injective and projective [[model structure on simplicial presheaves]] related by a  [[Quillen equivalence]] of the form
 
 $$
   [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
@@ -14550,11 +14566,35 @@ $$
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}  
 $$
 
-Therefore it remains only to see that each consecutive [[pair]] of [[functors]] constitutes a [[Quillen adjunction]] alternatively for the injective and the projective [[model structure on simplicial presheaves]].
+Hence we need to see that each consecutive [[pair]] of [[functors]] constitutes a [[Quillen adjunction]] alternatively for the injective and the projective [[model structure on simplicial presheaves]].
 
-That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}.
+That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}. Moreover, $\Gamma$ is given by point evaluation, it is immediate that this is not just a [[left Quillen functor]] but also a [[right Quillen functor]] with respect to the injective model structure. 
 
-Finally, since $\Gamma$ is given by point evaluation, it is immediate that this is not just a [[left Quillen functor]] but also a [[right Quillen functor]] with respect to the injective model structure. 
+It only remains to see that $Disc$ and $coDisc$ are homotopy fully faithful.
+
+The [[derived adjunction unit]] for $(Disc \dashv \Gamma)$ has components
+
+$$
+  S 
+    \overset{\eta_S}{\longrightarrow} 
+  \Gamma Disc S
+    \overset{\Gamma ( j_{Disc(S)} )}{\longrightarrow}
+  \Gamma (P Disc S)
+$$
+
+Here the [[adjunction unit]] itself is an [[isomorphism]], since $Disc$ is a [[fully faithful functor]]. Moreover, since $\Gamma$ is given by evaluation on the terminal object, and since weak equivalences of simplicial presheaves are objectwise weak equialences, also $\Gamma(j_{Disc(S)})$ is a weak equivalence, and hence so is the composite derived adjunction unit.
+
+Similarly, the [[derived adjunction counit]] for $(\Gamma \dashv coDisc)$ has components
+
+$$
+  \Gamma ( Q coDisc S )
+    \overset{ \Gamma( p_{Q coDisc S} ) }{\longrightarrow}
+  \Gamma coDisc S
+    \overset{\epsilon_{S}}{\longrightarrow}
+  S
+$$
+
+where now the ordinary [[adjunction counit]] is an isomorphism, since $coDisc$ is a [[fully faithful functor]], and by the same argument as before, $\Gamma( p_{Q coDisc S} )$ is a weak equivalence.
 
 =--
 
