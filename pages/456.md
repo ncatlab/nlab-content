@@ -278,6 +278,8 @@ There are various special cases and types of classes of geometric morphisms. For
 
 * [[atomic geometric morphism]]
 
+* [[dominant geometric morphism]]
+
 The following subsections describe some of these in more detail.
 
 
