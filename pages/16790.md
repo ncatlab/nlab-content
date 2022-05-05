@@ -19,6 +19,25 @@ The [[spacetime]] geometry of a [[black hole]] or [[black brane]] close to the [
 
 ## Properties
 
+In the following "small" and "large" [[radius]] is in [[units]] of [[Planck length]] $\ell_P$ times a root of the integer charge ("number" $N$) of the branes, i.e. being "near" to the horizon means that 
+
+$$ 
+  r/\ell_P N^{1/k} \ll 1 
+$$
+
+while "far" from the horizon means that 
+
+$$ 
+  r/\ell_P N^{1/k} \gg 1 
+$$
+
+(e.g. [AFFHS 98, (2), (7) and below (11)](#AFFHS98)).
+
+This means that the near/far horizon limit may also be thought of as corresponding to large/small $N$, respectively.
+
+Since the [[Planck length]] "is tiny" and due to the higher roots of $N$ appearing here, this means that $N$ must be "huge" for the near horizon limit to be visible at macroscopic scale, while, conversely, any "moderate" value of $N$ means implies that every macroscopic radius is "far" from the horizon. 
+
+
 ### Near-horizon geometry
 
 For [[black brane|black]] [[M-branes]] ([[black branes]] in [[11-dimensional supergravity]]) of [[dimension]] $p+1$ that preserve some [[supersymmetry]], the near horizon geometry is always a [[Cartesian product]] of an [[anti-de Sitter spacetime]] $AdS_{p+2}$ with a [[compact topological space|compact]] [[Einstein manifold]] $X_{11-(p+2)}$; 
@@ -92,7 +111,9 @@ Examples and applications of cone branes in the context of [[M-theory on G2-mani
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
+Conical [[D-branes]] are discussed in 
 
+* [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, _Conic D-branes_, Progress of Theoretical and Experimental Physics, Volume 2015, Issue 8,  August 2015 ([arXiv:1505.04506](https://arxiv.org/abs/1505.04506), [slides pdf](http://www2.yukawa.kyoto-u.ac.jp/~qft.web/2015/slides/kinoshita.pdf))
 
 See also
 
