@@ -341,3 +341,10 @@ The [[sheaf topos]] of [[super formal smooth sets]] is solid over that of [[form
 See [this Prop](geometry+of+physics+--+supergeometry#SuperSmoothSetsSystemOfAdjunctions) at _[[geometry of physics -- supergeometry]]_.
 
 [[!redirects super-differentially cohesive topos]]
+
+[[!redirects solid model topos]]
+[[!redirects solid model toposes]]
+
+[[!redirects ∞-solid site]]
+[[!redirects ∞-solid sites]]
+
