@@ -375,9 +375,11 @@ And is being developed in a book in progress, regularly being updated:
 
 * [[Emily Riehl]] and [[Dominic Verity]], _$\infty$-Categories for the Working Mathematician_, (2018) ([pdf](http://www.math.jhu.edu/~eriehl/ICWM.pdf))
 
-Discussion in [[homotopy type theory]] is in
+For discussion in [[homotopy type theory]] see _[[internal category in homotopy type theory]]_ and see
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], _A type theory for synthetic $\infty$-categories_ ([arXiv:1705.07442](https://arxiv.org/abs/1705.07442))
+
+* {#Riehl18} [[Emily Riehl]], _The synthetic theory of ∞-categories vs the synthetic theory of ∞-categories_, talk at [Vladimir Voevodsky Memorial Conference 2018](http://www.math.ias.edu/vvmc2018) ([pdf](http://www.math.jhu.edu/~eriehl/Voevodsky.pdf))
 
 ### Surveys and lecture notes 
  {#LectureNotes}
