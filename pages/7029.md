@@ -41,8 +41,12 @@ A free action that is also [[transitive action|transitive]] is called _[[regular
 ## Related concepts
 
 * [[homogeneous space]]
+
 * [[transitive action]]
+
 * [[torsor]]
 * [[universal principal bundle]]
+
+* [[semi-free action]]
 
 [[!redirects free actions]]
