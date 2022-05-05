@@ -24,7 +24,7 @@
 
 ## Idea
 
-In [[string phenomenology]] for [[type IIA string theory]], quasi-realistic [[model (physics)|models]] (i.e. close to the [[standard model of particle physics]], or an [[MSSM]]) may be obtained by [[KK-compactifications]] from the 10-[[dimension|dimensios]]  down to 4d with configurations of [[D6-branes]] which fill all of 4d spacetime and [[brane intersection|intersect]] in a certain way in the 6-dimensional [[fiber]] space. 
+In [[string phenomenology]] for [[type IIA string theory]], quasi-realistic [[model (physics)|models]] (i.e. close to the [[standard model of particle physics]], or an [[MSSM]]) may be obtained by [[KK-compactifications]] from the 10-[[dimensions]]  down to 4d with configurations of [[D6-branes]] which fill all of 4d spacetime and [[brane intersection|intersect]] in a certain way in the 6-dimensional [[fiber]] space. 
 
 <img src="https://ncatlab.org/nlab/files/Intersecting6branes.png" width="650"/>
 
