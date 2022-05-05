@@ -32,7 +32,7 @@ A **bisection** of is a [[smooth function]] $\sigma : X_0 \to X_1$ such that
 Bisections naturally form a [[group]] under pointwise composition in $X$, the **group of bisections** of the Lie groupoid.
 =--
 
-One can prove that the bisection group is a locally convex Lie group (under some mild assumptions on the underlying Lie groupoid). 
+One can prove that the bisection group is a [[infinite-dimensional Lie group]] in the sense of Milnor (see Neeb's survey) (under some mild assumptions on the underlying Lie groupoid). 
 The infinite-dimensional Lie group of bisections is closely connected to the underlying Lie groupoid (see references below), e.g.
 
 1. From the knowledge of the smooth structure of the bisection group and the manifold of units, one can even reconstruct the underlying Lie groupoid (again under some assumptions).
