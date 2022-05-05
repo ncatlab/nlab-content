@@ -24,6 +24,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Andre Joyal]]
 * [[Benedikt Ahrens]]
 * [[Jasper Hugunin]]
+* [[Dan Licata]]
 
 ## Plans
 
