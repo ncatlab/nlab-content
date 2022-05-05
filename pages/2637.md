@@ -86,10 +86,13 @@ Under passing to [[exponentials]] the canomical commutation relations are also c
 
 * [[Wick algebra]]
 
+* [[singleton representation]]
 
 [[!redirects canonical commutation relations]]
 
 [[!redirects canonical anti-commutation relation]]
 [[!redirects canonical anti-commutation relations]]
+
+[[!redirects creation and annihilation operators]]
 
 [[!redirects CCR]]
