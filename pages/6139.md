@@ -34,7 +34,7 @@ What all these terms ("loops" $\Omega$, "delooping" $B$ etc.) mean in detail and
 
 Write 
 
-* [[Grpd]] for the [[(2,1)-category]] of [[groupoids]] ([[objects]] are [[groupoids]], [[1-morphisms]] are [[functors]] between these and [[2-morphisms]] are [[natural transformations]] between those, which are nessecarily [[natural isomorphisms]]), 
+* [[Grpd]] for the [[(2,1)-category]] of [[groupoids]] ([[objects]] are [[groupoids]], [[1-morphisms]] are [[functors]] between these and [[2-morphisms]] are [[natural transformations]] between those, which are necessarily [[natural isomorphisms]]), 
 
 * [[Grp]] for the [[1-category]] of [[groups]] ([[discrete groups]]), also regarded as a [[(2,1)-category]]; 
 
