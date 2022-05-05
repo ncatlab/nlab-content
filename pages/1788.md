@@ -31,5 +31,3 @@ $$
 (eq:XXX)
 
 Testing
-
-[[!redirect central extension]]
