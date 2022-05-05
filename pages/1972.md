@@ -47,7 +47,7 @@ $$
 
 The first [[isomorphism]] here follows immediately from the elementary definition of equivariant [[topological K-theory]], since a $G$-[[equivariant vector bundle]] over the point is manifestly just a [[linear representation]] of $G$ on a [[complex vector space]].
 
-(e.g. [Wilson 16, example 1.6 p. 3](#Wilson16))
+(e.g. [Greenlees 05, section 3](#Greenlees05), [Wilson 16, example 1.6 p. 3](#Wilson16))
 
 Therefore a similar isomorphism identifies the $G$-representation ring over the [[real numbers]] with the equivariant orthogonal $K$-theory of the point in degree 0:
 
@@ -194,6 +194,9 @@ Lecture notes include
 Exposition in relation to [[equivariant K-theory]] includes
 
 * [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
+
+* {#Greenlees05} [[John Greenlees]], _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. Volume 7, Number 3 (2005), 63-82. ([Euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291))
+
 
 * {#Wilson16} [[Dylan Wilson]], _Equivariant K-theory_, 2016 ([pdf](https://www.math.uchicago.edu/~dwilson/notes/equivariant-k-theory-talk.pdf), [[WilsonKTheory16.pdf:file]])
 
