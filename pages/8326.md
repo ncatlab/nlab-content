@@ -7349,6 +7349,7 @@ The explicit statement "a type is a concept"  appears for instance (referring bo
 
 * {#Sale77} [[Arthur Sale]], _Primitive data types_, The Australian Computer Journal, Vol. 9, No. 2, July 1977 ([pdf](http://eprints.utas.edu.au/139/1/PrimitiveData.pdf))
 
+
 The explicit statement "a type is a 'mathematical' concept" appears on p. 6 of
 
 * {#Sergeraert94} [[Francis Sergeraert]], _The computability problem in algebraic topology_, Advances in mathematics 104, 1-29, 1994 [pdf](http://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Advances.pdf)
