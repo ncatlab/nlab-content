@@ -28,7 +28,7 @@ This is contrary to the [[univalence]] axiom, which makes sense only in the abse
 +-- {: .num_defn}
 ###### Definition
 
-The _UIP axiom_ posits that the type 
+The _UIP axiom_ (for types in a [[type of types|universe]] "$Type$") posits that the type 
 
 $$
 \underset{A \colon Type}{\prod} 
@@ -41,7 +41,7 @@ has a term. In other words, we add to our type theory the rule
 
 $$
 \frac{}{
-  uip
+  \vdash uip
   \colon
   \underset{A \colon Type}{\prod} 
   \underset{x,y \colon A}{\prod}
@@ -49,13 +49,11 @@ $$
   Id_{Id_A(x,y)}(p,q)}
 $$
 
-or a variant of it, such as the following.
+We can modify this by making the hypotheses of the axiom into premises of the rule, if we wish.  In particular, this can be used to give a version of the rule that applies to all types not necessarily belonging to some fixed universe, using the [[judgment]] "$A\;type$" for "$A$ is a type" (as distinguished from "$A:Type$" for "$A$ belongs to the universe type $Type$").
 
 $$
-\frac{A \colon Type, x, y \colon A \vdash p, q \colon Id_A(x,y)}{
-  uip
-  \colon
-  Id_{Id_A(x,y)}(p,q)}
+\frac{\Gamma\vdash A\; type \quad \Gamma\vdash x : A \quad \Gamma \vdash y:A \quad \Gamma \vdash p : Id_A(x,y) \quad \Gamma \vdash q:Id_A(x,y)}{
+  \Gamma\vdash uip : Id_{Id_A(x,y)}(p,q)}
 $$
 
 =--
