@@ -10,11 +10,30 @@ $\,$
 
 $\,$
 
-[[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]] and are ubiquituous in and indispensible for organizing concpetual mathematical frameworks.
+[[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]]. They are ubiquituous in and indispensible for organizing concpetual mathematical frameworks.
 
 We give here an introduction to the basic concepts and results of _[[category theory]]_ and of _[[topos theory]]_, aimed at providing background for the [[synthetic differential geometry|synthetic]] and [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_.
 
-This means that we emphasize the interpretation of _[[presheaves]]_ (Example \ref{CategoryOfPresheaves} and Example \ref{EnrichedPresheaf} below) on some _[[site]]_ (Def. \ref{Coverage} below) as **[[generalized spaces]]** modeled on the objects in the site ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)). Accordingly, we highlight (Remark \ref{PresaheavesAsGeneralizedSpaces} below) that, from this perspective, the notorious core result of [[category theory]] called the _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below), or the _[[Yoneda embedding]]_ (Prop. \ref{YonedaEmbedding} below), as well as the core concept of [[topos theory]], namely the [[sheaf|sheaf condition]] (Def. \ref{Sheaf} below) express nothing but the consistency of the concept of [[generalized spaces]]. This is the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.)
+This means that we emphasize the interpretation of _[[presheaves]]_ on some _[[site]]_ as **[[generalized spaces]]** modeled on the objects in the site ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)):
+
+| $\phantom{A}$[[category theory]] |   | $\phantom{A}$[[geometry]] of [[generalized spaces]] |
+|-------|--|---------|
+| $\phantom{A}$[[representable presheaf]]$\phantom{A}$ | Expl. \ref{CategoryOfPresheaves}$\phantom{A}$ |  $\phantom{A}$model [[space]] regarded as [[generalized space]] |
+| $\phantom{A}$[[Yoneda lemma]] | Prop. \ref{YonedaLemma}$\phantom{A}$  |  $\phantom{A}$sets of probes of [[generalized spaces]] really are <br/> $\phantom{A}$sets of maps from model [[spaces]] $\phantom{A}$ |
+| $\phantom{A}$[[Yoneda embedding]] $\phantom{A}$ | Prop. \ref{YonedaEmbedding}$\phantom{A}$ |  $\phantom{A}$nature of model [[spaces]] is preserved when <br/> $\phantom{A}$regarding them as [[generalized spaces]] $\phantom{A}$ |
+|  |  | |
+| $\phantom{A}$**[[topos theory]]** |  |   |
+| $\phantom{A}$[[coverage]] | Def. \ref{Coverage} | $\phantom{A}$notion of locality |
+| $\phantom{A}$[[sheaf|sheaf condition]] | Def. \ref{Sheaf}$\phantom{A}$ <br/> Prop. \ref{CechGroupoidCoRepresents} | $\phantom{A}$plots of [[generalized spaces]] <br/> $\phantom{A}$satisfy [[local-to-global principle]] $\phantom{A}$ |
+| $\phantom{A}$[[comparison lemma]] | Prop. \ref{ComparisonLemma} |  $\phantom{A}$notion of [[generalized spaces]] <br/> $\phantom{A}$independent under change of model [[space]] | 
+| $\phantom{A}$[[cohesion]] | Def. \ref{CohesiveTopos}  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential topology]] |
+| $\phantom{A}$[[differential cohesion]] |  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential geometry]] |
+| $\phantom{A}$super differential cohesion$\phantom{A}$ |  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[supergeometry]] |
+{: style='margin:auto}
+ 
+
+
+This is the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.)
 
 Hence one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[higher differential geometry|higher]] [[supergeometry]] of relevance in [[physics]]. Similar comments apply to a wealth of other topics of mathematics.
 
@@ -73,7 +92,37 @@ $\,$
 
 ## Basic notions of Category theory
 
+We introduce here the basic notions of [[category theory]], along with examples and motivation from [[geometry]]:
+
+
+1. _[Categories and functors](#CategoriesAndFunctors)_
+
+1. _[Natural transformations and presheaves](#NaturalTransformationsAndPresheaves)_
+
+1. _[Adjunctions](#Adjunctions)_
+
+1. _[Equivalences](#Equivalences)_
+
+1. _[Modalities](#Modalities)_
+
+
+This constitutes what is sometimes called the _language of categories_. While we state and prove some basic facts here, notably the notorious _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below), what makes [[category theory]] be a _mathematical theory_ in the sense of a coherent collection of non-trivial [[theorems]] is all concerned with the topic of _[[universal constructions]]_, which may be formulated (only) in this language. This we turn to further [below](#UniversalConstructions).
+
+$\,$
+
 ### Categories and Functors
+ {#CategoriesAndFunctors}
+
+The notion of a _[[category]]_ (Def. \ref{Categories} below) embodies the idea of [[structuralism]] applied to concepts in [[mathematics]]: it collects, on top of the [[set]] (or generally: [[class]]) of mathematical [[objects]] that belong to it, also all the _[[structure]]-preserving maps_ between them, hence the [[homomorphisms]] in the case of [[Bourbaki]]-style [[mathematical structures]]. 
+
+The first achievement of the notion of a [[category]] is to abstract away from such manifestly _[[concrete categories]]_ (Examples \ref{ExamplesOfConcreteCategories}, \ref{StructuredSetsAndFaithfulFunctors} below) to more indirectly defined mathematical objects whose "structure" is only defined, after the fact, by which maps, now just called _[[morphisms]]_, there are between them.
+
+This [[structuralism]]-principle bootstraps itself to life by considering [[morphisms]] between [[categories]] themselves to be those "maps" that respect their [[structuralism]], namely the connectivity and [[composition]] of the [[morphisms]] between their objects: These are the _[[functors]]_ (Def. \ref{Functors} below).
+
+For the purpose of [[geometry]], a key class of examples of [[functors]] are the assignments of _[[algebras of functions]] to [[spaces]]_, this is Example \ref{SpacesViaAlgebrasOfFunctions} below.
+
+$\,$
+
 
 +-- {: .num_defn #Categories}
 ###### Definition
@@ -192,17 +241,18 @@ Basic examples of [[concrete categories]] include the following:
 
 | $\phantom{A}$[[concrete category]]$\phantom{A}$ | $\phantom{A}$[[objects]]$\phantom{A}$ | $\phantom{A}$[[morphisms]]$\phantom{A}$ |
 |-----------------------|-------------|---------------|
-| $\phantom{A}$[[Grp]]   | $\phantom{A}$[[groups]]$\phantom{A}$ | $\phantom{A}$[[group homomorphisms]]$\phantom{A}$ |
-| $\phantom{A}$[[Vect]]  | $\phantom{A}$[[vector spaces]]$\phantom{A}$ | $\phantom{A}$[[linear maps]]$\phantom{A}$ |
-| $\phantom{A}$[[Alg]]   | $\phantom{A}$[[algebras]]$\phantom{A}$ | $\phantom{A}$[[algebra homomorphism]]$\phantom{A}$ |
+| $\phantom{A}$[[Set]] | $\phantom{A}$[[sets]] | $\phantom{A}$[[functions]]  |
 | $\phantom{A}$[[Top]]  | $\phantom{A}$[[topological spaces]]$\phantom{A}$ |  $\phantom{A}$[[continuous functions]]$\phantom{A}$ |
 | $\phantom{A}$[[Mfd]]${}_{k}$  | $\phantom{A}$[[differentiable manifolds]]$\phantom{A}$ | $\phantom{A}$[[differentiable functions]]$\phantom{A}$ |
+| $\phantom{A}$[[Vect]]  | $\phantom{A}$[[vector spaces]]$\phantom{A}$ | $\phantom{A}$[[linear functions]]$\phantom{A}$ |
+| $\phantom{A}$[[Grp]]   | $\phantom{A}$[[groups]]$\phantom{A}$ | $\phantom{A}$[[group homomorphisms]]$\phantom{A}$ |
+| $\phantom{A}$[[Alg]]   | $\phantom{A}$[[algebras]]$\phantom{A}$ | $\phantom{A}$[[algebra homomorphism]]$\phantom{A}$ |
 
 =--
 
 This is the motivation for the terminology "categories", as the examples in Example \ref{ExamplesOfConcreteCategories} are literally _categories of mathematical structures_. But not all categories are "[[concrete category|concrete]]" in this way.
 
-Some terminology
+Some terminology:
 
 +-- {: .num_defn #SmallCategory}
 ###### Definition
@@ -551,11 +601,13 @@ $$
     \left\{
       \text{geometric spaces}
     \right\}
+    &
     \overset{
       \text{algebra of functions}
     }{
       \longrightarrow
     }
+    &
     \left\{
       \text{algebras}
     \right\}^{op}
@@ -570,6 +622,8 @@ $$
 $$
 
 Since the precomposition operation reverses the direction of [[morphisms]], as shown, these are functors from the given [[category]] of [[spaces]] to the _[[opposite category|opposite]]_ (Example \ref{OppositeCategory}) of the relevant category of [[algebras]].
+
+In broad generality, there is a [[duality]] ("[[Isbell duality]]") between [[geometry]]/[[spaces]] and [[algebra]]/[[algebras of functions]]) ("[[space and quantity]]", [Lawvere 86](space+and+quantity#Lawvere86)).
 
 We now mention some concrete examples of this general pattern:
 
@@ -678,24 +732,75 @@ Since a [[fully faithful functor]]/[[full subcategory]]-embedding $\mathcal{C} \
 
 $\,$
 
-**[[super Cartesian spaces]]**
+**[[super points]] and [[super Cartesian spaces]]**
 
-The [[category]] of **[[super Cartesian spaces]]** is _by definition_, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects})
+The [[category]] of **[[super points]]** is _by definition_, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) 
+of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[associative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
 
 $$
-  SuperCartSp
-  \overset{\phantom{AAAA}}{\hookrightarrow}
-  Alg_{\mathbb{R}}^{op}
+  \array{
+    SuperPoint
+     &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    Alg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^{0\vert q}
+    &\mapsto&
+    \Lambda_q
+  }
 $$
 
-spring
+on the [[Grassmann algebras]]:
+
+$$
+  \Lambda_q \;\coloneqq\; \mathbb{R}[ \theta_1, \cdots, \theta_q ]/( \theta_i \theta_j = - \theta_j \theta_i )
+ \phantom{AAAAA}
+  q \in \mathbb{N}
+  \,.
+$$
+
+More generally, the [[category]] of **[[super Cartesian spaces]]** is _by definition_, the [[full subcategory]] 
+$$
+  \array{
+    SuperCartSp
+    &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    Alg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^{n\vert q} 
+    &\maspto&
+    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} \Lambda_q
+  }
+$$
+
+on the [[tensor product of algebras]], over $\mathbb{R}$ of the [[algebra of functions|algebra of]] [[smooth functions]] on a [[Cartesian space]], and a [[Grassmann algebra]], as above.
+
+Notice that the [[super Cartesian spaces]] $\mathbb{R}^{n\vert q}$ are fully _defined_ by this assignment.
+
+$\,$
+
+**[[affine schemes]] and [[commutative algebras]]**
+
+The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
+
+\[
+  \label{FormalDualsOfCommutativeRings}
+  Aff_{\mathbb{K}} 
+   \overset{\phantom{AAAA}}{\hookrightarrow}
+  CAlg_{\mathbb{K}}
+  \,.
+\]
+
+(The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] in (eq:FormalDualsOfCommutativeRings). As early as 1973 [[Alexander Grothendieck]] had urged to abandon the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
+
+$\,$ spring
 
 =--
 
 
 
+$\,$
 
-### Natural transformations
+### Natural transformations and presheaves
+ {#NaturalTransformationsAndPresheaves}
 
 
 
@@ -767,7 +872,7 @@ $$
   \mathcal{D}
 $$
 
-two natural transformations as shown, their _composition_ is the natural transformation
+two [[natural transformations]] as shown, their _[[composition]]_ is the natural transformation
 
 $$
   \mathcal{C}
@@ -785,6 +890,20 @@ whose components (eq:NaturalTransformationComponent) are the [[compositions]] of
   (\rho \circ \eta)_X
   \;\coloneqq\;
   \rho_{X} \circ \eta_X
+  \phantom{AAAAA}  
+  \array{
+     F(X) &\overset{\eta_X}{\longrightarrow}& G(X) 
+      &\overset{\rho_X}{\longrightarrow}& H(X) 
+     \\
+     {}^{\mathllap{F(f)}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{G(f)}}
+       && 
+     \downarrow^{\mathrlap{H(f)}}
+     \\
+     F(Y) &\underset{\eta_Y}{\longrightarrow}& G(Y)
+       &\underset{\rho_Y}{\longrightarrow}& H(Y)
+  }
 \]
 
 =--
@@ -820,20 +939,44 @@ $$
 
 is hence called the _[[category of presheaves]]_ over $\mathcal{C}$.
 
-Essentially by Example \ref{HomFunctor}, there is the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]]:
+The [[hom-functor]] (Example \ref{HomFunctor}) gives the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]]:
 
 \[
   \label{YonedaFunctor}
-  y
-  \;\;\colon\;\;
   \array{
+    y & \colon &
     \mathcal{C}
       &\longrightarrow&
     [\mathcal{C}^{op}, Set]
     \\
+    \\
+    && && && c_1 &\overset{g}{\longrightarrow}& c_2
+    \\
+    &&
     X
     &\mapsto&
-    Hom_{\mathcal{C}}(-,X)
+    Hom_{\mathcal{C}}(-,X) 
+     &\phantom{AA}\colon\phantom{AA}& 
+    Hom_{\mathcal{C}}(c_1,X) 
+      &\overset{Hom_{\mathcal{C}}( g, X ) }{\longleftarrow}& 
+    Hom_{\mathcal{C}}(c_2, X)
+    \\
+    &&
+    {}^{\mathllap{ f }}\big\downarrow
+    &&
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(-,f) } } 
+    &&
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}( c_2, f )  } } 
+    && 
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(c_1,f) } }
+    \\
+    &&
+    Y &\mapsto& 
+    Hom_{\mathcal{C}}(-,Y) 
+      &\phantom{AA}\colon\phantom{AA}& 
+    Hom_{\mathcal{C}}(c_1,Y) 
+      &\overset{Hom_{\mathcal{C}}( g, Y ) }{\longleftarrow}& 
+    Hom_{\mathcal{C}}(c_2, Y)
   } 
 \]
 
@@ -849,7 +992,7 @@ This functor is called the _[[Yoneda embedding]]_, due to Prop. \ref{YonedaEmbed
 
 If a given [[category]] $\mathcal{C}$ (Def. \ref{Categories}) is thought of as a category of _[[spaces]]_ of sorts, as those in Example \ref{SpacesViaAlgebrasOfFunctions}, then it will be most useful to think of the corresponding [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ (Def. \ref{CategoryOfPresheaves}) as a category of _[[generalized spaces]] probe-able by_ the test spaces in $\mathcal{C}$ ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)).
 
-Namely, imagine a [[generalized space]] $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathcal{X}$". Here the quotation marks are to warn us that, at this point, $\mathbf{X}$ is not defined yet, and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not defined. But we may anyway consider some set
+Namely, imagine a [[generalized space]] $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathbf{X}$". Here the quotation marks are to warn us that, _at this point_, $\mathbf{X}$ is not defined yet; and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not definable. But we may anyway consider some _abstract set_
 
 
 \[
@@ -857,9 +1000,9 @@ Namely, imagine a [[generalized space]] $\mathbf{X}$ which is at least probe-abl
   \mathbf{X}(c)  \; \text{"=}  Hom(c,\mathbf{X})" 
 \]
 
-whose elements we do want to think of maps (homomorphisms of spaces) from $c$ to $X$. 
+whose elements we do want to think of maps (homomorphisms of spaces) from $c$ to $\mathbf{X}$. 
 
-That this is indeed correct, in that we may remove the quotation remarks on the right, is the statement of the _[[Yoneda lemma]]_, which we discuss as Prop. \ref{YonedaLemma} below.
+That this is indeed consistent, in that we may actually remove the quotation remarks on the right of (eq:WouldBeMapsIntoGeneralizedSpace), is the statement of the _[[Yoneda lemma]]_, which we discuss as Prop. \ref{YonedaLemma} below.
 
 
 A minimum consistency condition for this to make sense (we will consider further conditions later on when we discuss _[[sheaves]]_) is that we may consistently pre-compose the would-be maps from $c$ to $\mathbf{X}$ with actual morphisms $d \overset{f}{\to} c$ in $\mathcal{C}$. This means that for every such morphism there should be a function between these sets of would-be maps
@@ -883,15 +1026,15 @@ $$
   \,.
 $$
 
-For this to make sense, it ought to be true that every "ordinary space", hence every [[object]] $X \in \mathcal{C}$ is also an example of a "generalized space probe-able by" object of $\mathcal{C}$, since, after all, these are the space which may manifestly be probed by objects $c \in \mathcal{C}$, in that morphisms $c \to X$ are already defined.
+For consistency of regarding this presheaf as a _presheaf of sets of plots of a generalized space_, it ought to be true that every "ordinary space", hence every [[object]] $X \in \mathcal{C}$, is also an example of a "generalized space probe-able by" object of $\mathcal{C}$, since, after all, these are the spaces which may manifestly be probed by objects $c \in \mathcal{C}$, in that morphisms $c \to X$ are already defined.
 
 Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able by objects of $\mathcal{C}$ should be the presheaf $Hom_{\mathcal{C}}(-,X)$, hence the [[representable presheaf|presheaf represented]] by $X$, via the Yoneda functor (eq:YonedaFunctor).
 
-At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories, on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces, and we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$. 
+At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories: on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces. Hence we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$. 
 
 That this, too, holds true, is the statement of the _[[Yoneda embedding]]_, which we discuss as Prop. \ref{YonedaEmbedding} below.
 
-Eventually one will want to impose one more consistency condition, namely a _[[sheaf|sheaf condition]]_ (Def. \ref{Sheaf} below). This is what leads over from [[category]] theory to [[topos theory]] [below](#BasicNotionsOfToposTheory).
+Eventually one will want to impose one more consistency condition, namely that plots are determined by their _local behaviour_. This is the _[[sheaf|sheaf condition]]_ (Def. \ref{Sheaf} below) and is what leads over from [[category theory]]  to [[topos theory]] [below](#BasicNotionsOfToposTheory).
 
 =--
 
@@ -1124,6 +1267,7 @@ and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunc
 
 
 ### Adjunctions
+  {#Adjunctions}
   
 
 We discuss four equivalent definitions of [[adjunctions]]:
@@ -1918,10 +2062,11 @@ The proof of the other statements proceeds analogously.
 =--
 
 
-
+$\,$
 
 
 ### Equivalences
+ {#Equivalences}
 
 
 +-- {: .num_defn #AdjointEquivalenceOfCategories}
@@ -3904,6 +4049,7 @@ $$
 
 
 ## Universal constructions
+ {#UniversalConstructions}
 
 What makes [[category theory]] be _theory_, as opposed to just a language, is the concept of _[[universal constructions]]_. This refers to the idea of [[objects]] with a prescribed [[property]] which are _universal_ with this property, in that they "know about" or "subsume" every other object with that same kind of property. Category theory allows to make precise what this means, and then to discover and prove theorems about it.
 
