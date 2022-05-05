@@ -40,6 +40,8 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
 ## Related concepts
 
+* [[picture number]], [[picture changing operator]]
+
 * [[sigma model]], [[brane]]
 
   * [[relativistic particle]], [[spinning particle]], [[superparticle]]
@@ -64,6 +66,9 @@ The original articles that formulated the NSR model are
 * [[André Neveu]], [[John Schwarz]], Nucl. Phys. B31, 86 (1971)
 
 * [[Pierre Ramond]], Phys Rev. D3  2415 (1971)
+
+* {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory, Nucl. Phys., B271 (1986) 93
+
 
 Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string include
 
