@@ -78,7 +78,7 @@ Notice that a [[locale]] is itself a (Grothendieck) [[(0,1)-topos]]. Hence a loc
 
 * [[localic geometric morphism]]
 
-* [[spatial topos]]
+* [[spatial topos]], [[category of sheaves on a topological space]]
 
 * [[étendue]]
 
