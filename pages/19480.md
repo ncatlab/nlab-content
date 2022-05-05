@@ -1046,13 +1046,13 @@ $$
   }
 $$
 
-This is indeed functorial due to the fact that any algebra [[homomorphism]] $f^\ast$ needs to send nilpotent elements to nilpoten elements, so that the following identity holds:
+This is indeed functorial due to the fact that any algebra [[homomorphism]] $f^\ast$ needs to send nilpotent elements to nilpotent elements, so that the following identity holds:
 
 \[
   \label{ProjectingOutNilpotentsLater}
   i^\ast \circ f^\ast
   \;=\;
-  i^\ast \circ f^\ast \circ i^\ast \circ r^\ast
+  i^\ast \circ f^\ast \circ r^\ast \circ i^\ast 
   \,.
 \]
 
@@ -1661,7 +1661,7 @@ $$
   \mathbb{R}_{\leq}
 $$
 
-of the [[integers]] into the [[real numbers]], both regarded as [[preorders]] in the standard way ("lower or equal"). Regarded as [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) of the corresponding [[thin categories]], via Example \ref{PartiallyOrderedSetsAsSmallCategories}, this inclusion functor has both a left and right [[adjoint functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets]):
+of the [[integers]] into the [[real numbers]], both regarded as [[preorders]] in the standard way ("lower or equal"). Regarded as [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) of the corresponding [[thin categories]], via Example \ref{PartiallyOrderedSetsAsSmallCategories}, this inclusion functor has both a left and right [[adjoint functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}):
 
 * the [[left adjoint]] to $\iota$ is the [[ceiling function]];
 
