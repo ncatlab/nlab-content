@@ -1,5 +1,13 @@
-[[!redirects shuffles]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
