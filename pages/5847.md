@@ -1,4 +1,3 @@
-[[!redirects formally etale morphism]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,7 +9,6 @@
 #### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
-=--
 =--
 =--
 =--
@@ -332,6 +330,9 @@ Formalization and discussion in the context of [[cohesive (∞,1)-toposes]] is i
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+
+[[!redirects formally etale morphism]]
+
 [[!redirects formally etale]]
 
 [[!redirects formally étale morphism]]
@@ -344,3 +345,4 @@ Formalization and discussion in the context of [[cohesive (∞,1)-toposes]] is i
 
 [[!redirects formally etale map]]
 [[!redirects formally etale maps]]
+
