@@ -475,7 +475,7 @@ $$
 
 +-- {: .num_example #OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}
 ###### Example
-**([[open subsets]] of differentiable manifolds are again differentiable manifolds)**
+**([[open subsets]] of differentiable manifolds are differentiable manifolds)**
 
 Let $X$ be a $k$-fold differentiable manifold and let $S \subset X$
 be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
