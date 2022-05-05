@@ -179,7 +179,7 @@ The [[McKay correspondence]] as an [[integral transform]] ([[Fourier-Mukai trans
 
 * {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], Construction g&eacute;om&eacute;trique de la correspondance de McKay, Ann. Sci. ́&Eacute;cole Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
 
-Detailed mathematical discussion of fractional D-branes in their incarnation as charges in $K(\tilde X)$ is  in
+Detailed mathematical discussion of fractional D-branes in their incarnation as [[Ext]]-groups of [[coherent sheaves]] is in
 
 * S. Katz, [[Tony Pantev]], [[Eric Sharpe]], _D-branes, orbifolds, and Ext groups_, Nucl.Phys. B673 (2003) 263-300 ([arXiv:hep-th/0212218](https://arxiv.org/abs/hep-th/0212218))
 
@@ -191,16 +191,19 @@ See also
 
 Discussion in terms of [[twisted sector]] [[boundary states]] in [[worldsheet]] [[boundary conformal field theory]] includes
 
-
-* {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambirdge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
-
 * {#DiaconescuGomis99} Diaconescu, [[Jaume Gomis]], _Fractional Branes and Boundary States in Orbifold Theories_, JHEP 0010 (2000) 001 ([arXiv:hep-th/9906242](https://arxiv.org/abs/hep-th/9906242))
+
+* M. R. Gaberdiel, B. Stefanski Jr, _Dirichlet Branes on Orbifolds_, Nucl.Phys.B578:58-84, 2000 ([arXiv:hep-th/9910109](https://arxiv.org/abs/hep-th/9910109))
 
 * M. Billo', B. Craps, F. Roose, _Orbifold boundary states from Cardy's condition_, JHEP 0101:038, 2001 ([arXiv:hep-th/0011060](https://arxiv.org/abs/hep-th/0011060))
 
 * {#QuirozStefanski01} N. Quiroz, B. Stefanski Jr, _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
 
 * {#MMR06} Jaydeep Majumder, Subir Mukhopadhyay, Koushik Ray, _Fractional Branes in Non-compact Type IIA Orientifolds_, JHEP0611:008, 2006 ([arXiv:hep-th/0602135](https://arxiv.org/abs/hep-th/0602135))
+
+* {#KrizZayasQuiroz08} [[Igor Kriz]], Leopoldo A. Pando Zayas, Norma Quiroz, _Comments on D-branes on Orbifolds and K-theory_, Int.J.Mod.Phys.A23:933-974, 2008 ([arXiv:hep-th/0703122](https://arxiv.org/abs/hep-th/0703122))
+
+* {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambirdge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
 
 
 ### Relation to permutation branes
