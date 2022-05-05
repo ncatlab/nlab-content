@@ -3,6 +3,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 A 2-[[cell]] in a [[cell complex]] or [[simplicial complex]] etc., such as a [[polyhedron]], is often called a _face_ (also _facet_ or _plaquette_, for instance in [[lattice gauge theory]]).
@@ -14,6 +15,7 @@ More generally one calls cells in the [[boundary]] of a [[cell complex]] faces, 
 * [[edge]], [[vertex]]
 
 * [[Euler characteristic of planar graphs]]
+
 
 ## References
 
