@@ -293,9 +293,9 @@ Discussion of [[boundary conditions]] for the AKSZ sigma model includes
 
 * {#IkedaXu13} [[Noriaki Ikeda]], Xiaomeng Xu, _Canonical functions and differential graded symplectic pairs in supergeometry and AKSZ sigma models with boundary_ ([arXiv:1301.4805](http://arxiv.org/abs/1301.4805))
 
-AKSZ model is extended to coisotropic boundary conditions in
+The AKSZ model is extended to coisotropic boundary conditions in
 
-* Theo Johnson-Freyd, _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
+* [[Theo Johnson-Freyd]], _Exact triangles, Koszul duality, and coisotropic boundary conditions_ ([arxiv/1608.08598](https://arxiv.org/abs/1608.08598))
 
 An example in [[higher spin gauge theory]] is discussed in
 
