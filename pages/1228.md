@@ -353,7 +353,7 @@ This yields the co-Yoneda lemma in the sense of MacLane's exercise.
 
 ## References
 
-For enrichment over $V = Top^{\ast/}_{cg}$  ([[pointed topological spaces|pointd]] [[compactly generated topological spaces]]) the co-Yoneda lemma in the sense of [every presheaf is a colimit of representables](#EveryPresheafIsAColimitOfRepresentables) appears for instance as
+For enrichment over $V = Top^{\ast/}_{cg}$  ([[pointed topological spaces|pointed]] [[compactly generated topological spaces]]) the co-Yoneda lemma in the sense of [every presheaf is a colimit of representables](#EveryPresheafIsAColimitOfRepresentables) appears for instance as
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], lemma 1.6 of _[[Model categories of diagram spectra]]_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
