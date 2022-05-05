@@ -575,7 +575,7 @@ More specifically, traditionally this is thought of as applying to the case wher
 ### Tensor product of functors
 
 If $S : C^\op \to D$ and $T : C \to D$ are functors, their [[tensor product of functors|tensor product]] is the coend
-$$ S \otimes_C T = \int^c S(c) \otimes D(c), $$
+$$ S \otimes_C T = \int^c S(c) \otimes T(c), $$
 where the tensor product on the right hand side refers to some [[monoidal structure]] on $D$.
 
 ## (Co)end calculus
