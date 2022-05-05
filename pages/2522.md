@@ -824,13 +824,7 @@ Discussion of classification of [[2d SCFT]] algebras includes ([Kac 03, section 
 
 There exist [[superconformal]] extensions of the [[super Poincaré Lie algebra]], (besides dimension $\leq 2$) in [[dimensions]] 3,4,5,6 as follows (with notation as at _[super Lie algebra -- classification](super%20Lie%20algebra#Classification)_):
 
-| $d$ | $N$ | [[superconformal super Lie algebra]] | [[R-symmetry]] | [[brane]] [[worldvolume]] theory |
-|-----|-----|--|---|--|
-| 3   |  $2k+1$ | $B(k,2) \simeq $ [[osp]]$(2k+1/4)$ | $SO(2k+1)$ | |
-| 3   | $2k$ | $D(k,2)\simeq $ [[osp]]$(2k/4)$ | $SO(2k)$ | [[M2-brane]] |
-| 4   | $k+1$  | $A(3,k)\simeq \mathfrak{sl}(4/k+1)$ | $U(k+1)$ | [[D3-brane]] |
-| 5   |  1  | $F(4)$ | $SO(3)$  |  |
-| 6   | $k$ | $D(4,k) \simeq$ [[osp]]$(8/2k)$ | $Sp(k)$  | [[M5-brane]] |
+[[!include superconformal symmetry -- table]]
 
 There exists no [[superconformal]] extension of the [[super Poincaré Lie algebra]] in [[dimension]] $d \gt 6$.
 
