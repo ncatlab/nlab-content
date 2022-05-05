@@ -40,5 +40,15 @@ But $i^{*}(\mathcal{O}_{Spec A} | D_{A}(a))$ is isomorphic to $\mathcal{O}_{U} |
 
 =--
 
+
+## Examples
+
++-- {: .num_remark}
+###### Example
+
+Let $x$ be a point of the underlying topological space $X$ of a scheme $(X, \mathcal{O}_{X})$. The set $\{ x \}$ need not be a closed subset of $X$, but if it is, then, by Proposition \ref{PropositionOpenSubsetAsOpenSubscheme}, $(X \setminus \{ x \}, \mathcal{O}_{X} | X \setminus \{ x \})$ defines an open subscheme of $(X, \mathcal{O}_{X})$.     
+
+=--
+
 category: algebraic geometry
 [[!redirects open subschemes]]
