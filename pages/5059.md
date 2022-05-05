@@ -1065,9 +1065,18 @@ General:
 #### $AdS_5$
  {#ReferencesAdS5Background}
 
-For the [[superstring]]:
 
-* {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkaday Tseytlin]], _Type IIB superstring action in $AdS_5 \times S^5$ background_, Nucl.Phys.B533:109-126, 1998 ([arXiv:hep-th/9805028](http://arxiv.org/abs/hep-th/9805028))
+The super 3-cocycle for the Green-Schwarz  [[superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ (i.e. on $\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}$) is originally due to 
+
+* {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _Type IIB superstring action in $AdS_5 \times S^5$ background_, Nucl. Phys.B533:109-126, 1998 ([arXiv:hep-th/9805028](https://arxiv.org/abs/hep-th/9805028))
+
+However, a supersymmetric trivialization of this cocycle seems to have been obtained in 
+
+* {#RoibanSiegel00} Radu Roiban, [[Warren Siegel]], _Superstrings on $AdS_5 \times S^5$ supertwistor space_, JHEP 0011:024, 2000 ([arXiv:hep-th/0010104](https://arxiv.org/abs/hep-th/0010104))
+
+(according to [arxiv:1808.04470, p. 5 and equation (5.5)](https://arxiv.org/abs/1808.04470), but check).
+
+See also
 
 * [[Gleb Arutyunov]], [[Sergey Frolov]], _Foundations of the $AdS_5 x S^5$ Superstring. Part I_, J. Phys. A 42 (2009) ([arXiv:0901.4937](http://arxiv.org/abs/0901.4937))
 
