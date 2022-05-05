@@ -385,11 +385,13 @@ For more discussion of this see [[synthetic differential ∞-groupoid]]
 
 The topos of smooth spaces has an evident generalization from [[geometry]] to [[higher geometry]], hence from [[differential geometry]] to [[higher differential geometry]]: to an [[(∞,1)-topos]] of _[[smooth ∞-groupoids]]_. See there for more details. 
 
+$\,$
+
 ## Related concepts
 
-* [[smooth groupoid]]
+[[!include geometries of physics -- table]]
 
-* [[smooth infinity-groupoid]]
+$\,$
 
 ## References
 
