@@ -13,6 +13,10 @@
 
 * [[M-theory super Lie algebra]]
 
+* [[11-dimensional supergravity]]
+
+* [[12-dimensional supergravity]]
+
 category: people
 
 [[!redirects Pietro Fre]]
