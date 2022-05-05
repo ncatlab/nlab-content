@@ -14,6 +14,7 @@ We introduce here the basic notions of [[category theory]], along with examples 
 1. _[Modalities](#Modalities)_
 
 
+
 This constitutes what is sometimes called the _language of categories_. While we state and prove some basic facts here, notably the notorious _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below), what makes [[category theory]] be a _mathematical theory_ in the sense of a coherent collection of non-trivial [[theorems]] is all concerned with the topic of _[[universal constructions]]_, which may be formulated (only) in this language. This we turn to further [below](#UniversalConstructions).
 
 $\,$
