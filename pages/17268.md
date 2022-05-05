@@ -1421,7 +1421,7 @@ A proof (in fact two variants of it) using the [[Kan fibrant replacement]] $Ex^\
 which discusses the topic as a special case of a _[[Cisinski model structure]]_.
 
 
-The fun part is not that much about the existence of model structure, but to prove that the fibrations are precisely the [[Kan fibrations]] (and also to prove all the good properties of $Ex^\infty$ without using topological spaces); for two different proofs of this fact using $Ex^\infty$, see Prop. 2.1.41 as well as Scholium 2.3.21 for an alternative). For the rest, everything was already in the book of Gabriel and Zisman, for instance.
+The fun part is not that much about the existence of model structure, but to prove that the fibrations are precisely the [[Kan fibrations]] (and also to prove all the good properties of $Ex^\infty$ without using topological spaces); for two different proofs of this fact using $Ex^\infty$, see Prop. 2.1.41 as well as Scholium 2.3.21 for an alternative). For the rest, everything was already in the book of [[Gabriel and Zisman]], for instance.
 
 Another approach also using $Ex^\infty$ is in
 
@@ -1431,7 +1431,7 @@ A standard textbook references for the classical model structure is
 
 * {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], chapter  1 of _[[Simplicial homotopy theory]]_, Birkh&#228;user 1999, 2009 ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
 
-A proof of the model structure no relying on the [[classical model structure on topological spaces]] nor on explicit models for [[Kan fibrant replacement]] is givn in 
+A proof of the model structure not relying on the [[classical model structure on topological spaces]] nor on explicit models for [[Kan fibrant replacement]] is givn in 
 
 * [[Christian Sattler]], _The Equivalence Extension Property and Model Structures_ ([arXiv:1704.06911](https://arxiv.org/abs/1704.06911))
 
