@@ -40,6 +40,10 @@ Divided into two parts:
 
 * [References](#References)
 
+**Preliminaries**
+
+1. [Categories and Toposes](#CategoriesAndToposes)
+
 **Part I) [Geometry](#GEOMETRY)**
 
 1. [Coordinate systems](#CoordinateSystems)
@@ -492,6 +496,7 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 =--
 
 ## **Categories and Toposes**
+ {#CategoriesAndToposes}
 
 This chapter is as _[[geometry of physics -- Categories and Toposes]]_
 
