@@ -162,6 +162,27 @@ More recent developments include
 
 * Alejandra Castro, Joshua M. Lapan, Alexander Maloney, Maria J. Rodriguez, _Black Hole Monodromy and Conformal Field Theory_ ([arXiv:1303.0759](http://arxiv.org/abs/1303.0759))
 
+### Discussion in BFSS matrix theory
+
+Discussion of black holes via the [[BFSS matrix model]] includes the following:
+
+
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys.Rev.Lett.80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
+
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008,1998 ([arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005))  
+
+* [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes in Various Dimensions from Matrix Theory_, Phys.Lett.B416:62-66,1998 ([arXiv:hep-th/9709108](https://arxiv.org/abs/hep-th/9709108))
+
+* Edi Halyo, _Six Dimensional Schwarzschild Black Holes in M(atrix) Theory_ ([arXiv:hep-th/9709225](https://arxiv.org/abs/hep-th/9709225))
+
+* [[Gary Horowitz]], [[Emil Martinec]], _Comments on Black Holes in Matrix Theory_, Phys. Rev. D 57, 4935 (1998) ([arXiv:hep-th/9710217](https://arxiv.org/abs/hep-th/9710217))
+
+* {#KabatTaylor97} Daniel Kabat, [[Washington Taylor]], _Spherical membranes in Matrix theory_, Adv.Theor.Math.Phys.2:181-206,1998 ([arXiv:hep-th/9711078](https://arxiv.org/abs/hep-th/9711078)) 
+
+* Yoshifumi Hyakutake, _Black Hole and Fuzzy Objects in BFSS Matrix Model_ 
+([arXiv:1801.07869](https://arxiv.org/abs/1801.07869))
+
+
 ### Relation to topological string amplitudes
 
 Discussion of black hole microstates via the [[topological string]]'s [[Gopakumar-Vafa invariants]]:
