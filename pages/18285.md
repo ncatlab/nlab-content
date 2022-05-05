@@ -1,12 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-An $\infty$-**cosmos** is a "good place in which to do higher category theory," 
-for $(\infty,1)$-categories, 1-categories, $(\infty,n)$-categories, or fibered versions of any of the above.
+An $\infty$-**cosmos** is a "good place in which to do [[higher category theory]],"  for [[(infinity,1)-categories]], [[1-categories]], [[(infinity,n)-categories]], or [[fibered category]] versions of any of the above.
 
 The word is chosen by analogy with [[cosmos]] which can be regarded as "a good place to do (ordinary) category theory." The notion is more similar to Street's "fibrational cosmoi" than to B&#233;nabou's cosmoi.
 
@@ -39,16 +53,17 @@ The category of quasi-categories and isofibrations, inner fibrations that lift a
 
 For an overview:
 
-* [[Emily Riehl]] and [[Dominic Verity]], [$\infty$-category theory from scratch](https://arxiv.org/abs/1608.05314)
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _$\infty$-Category theory from scratch_, ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314))
 
 For the most general notion of $\infty$-cosmos and constructions of many examples:
 
-* [[Emily Riehl]] and [[Dominic Verity]], [Fibrations and Yoneda's lemma in an $\infty$-comos](https://arxiv.org/abs/1506.05500)
+* {#RiehlVerity15} [[Emily Riehl]], [[Dominic Verity]], _Fibrations and Yoneda's lemma in an $\infty$-comos_ ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500))
 
-For a simplified notion with ``all objects cofibrant''
+For a simplified notion with "all objects cofibrant"
 
-* [[Emily Riehl]] and [[Dominic Verity]], [Kan extensions and the calculus of modules for $\infty$-categories](https://arxiv.org/abs/1507.01460)
+* [[Emily Riehl]], [[Dominic Verity]], _Kan extensions and the calculus of modules for $\infty$-categories_ ([arXiv:1507.01460](https://arxiv.org/abs/1507.01460))
 
 A book in progress, regularly being updated
 
 * [[Emily Riehl]] and [[Dominic Verity]], _$\infty$-Categories for the Working Mathematician_, (2018) ([pdf](http://www.math.jhu.edu/~eriehl/ICWM.pdf))
+
