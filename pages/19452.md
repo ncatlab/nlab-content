@@ -111,7 +111,7 @@ The pivotal role of [[adjunctions]] in [[category theory]] ([Lawvere 08](adjoint
 of early 19th century [[philosophy]]: [[Hegel]]'s _[[Science of Logic]]_.
 
 [^LawvereOnAdjointFunctors]: "the universality of the concept
-of adjointness, which was first isolated and named in the conceptual sphere of category theory" ([Lawvere 69](#Lawvere69)) "In all those areas where category theory is actively used the categorical concept of adjoint functor has come to play a key role." (first line from _[An interview with William Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#Interview07)_, paraphrasing the first paragraph of _[Taking categories seriously](William+Lawvere#TakingCategoriesSeriously)_)
+of adjointness, which was first isolated and named in the conceptual sphere of category theory" ([Lawvere 69](adjoint+functor#Lawvere69#Lawvere69)) "In all those areas where category theory is actively used the categorical concept of adjoint functor has come to play a key role." (first line from _[An interview with William Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#Interview07)_, paraphrasing the first paragraph of _[Taking categories seriously](William+Lawvere#TakingCategoriesSeriously)_)
 
 
 These days, of course, _[[theories of everything]]_, such as [[string theory]], are understood less ambitiously than Hegel's ontological process,
