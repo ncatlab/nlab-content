@@ -233,6 +233,8 @@ $$
 
 Here the inclusion sign $\subset$ is to mean that the [[modal types]] of the modality on the left are included in the modal types of the modality on the right.
 
+For more details on this, see at _[[geometry of physics -- categories and toposes]]_ the section _[Elastic toposes](geometry+of+physics+--+categories+and+toposes#ElasticToposes)_.
+
 Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ be fixed.
 
 +-- {: .num_remark #SequenceOfOrdersOfInfinitesimals}
@@ -2557,3 +2559,7 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale o
 [[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]] 
 
 [[!redirects differentially cohesive topos]]
+
+[[!redirects elastic topos]]
+[[!redirects elastic toposes]]
+[[!redirects elastic topoi]]
