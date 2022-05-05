@@ -31,4 +31,8 @@ See also
 
 * [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
+## Related $n$Lab entries
+
+* [[orbifold cohomology]]
+
 category: reference
