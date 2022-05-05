@@ -654,7 +654,7 @@ $$
 
 =--
 
-Also the key [[hom-functor preserves limit|respect]] of the [[hom-functor]] for [[limits]] is inherited by [[internal hom]]-functors
+Also the key [[hom-functor preserves limits|respect]] of the [[hom-functor]] for [[limits]] is inherited by [[internal hom]]-functors
 
 +-- {: .num_prop #InternalHomPreservesLimits}
 ###### Proposition
