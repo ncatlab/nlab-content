@@ -484,7 +484,7 @@ $$
     \frac{1}{(k+l-1)!}
     \sum_{\sigma \in Unsh(l,k-1)}
     (-1)^{sgn(\sigma)}
-    [[t_{a_1}, \cdots, t_{a_l}], t_{a_{l+1}}, \cdots, t_{a_{k+l-1}}]
+    \left[\left[t_{a_1}, \cdots, t_{a_l}\right], t_{a_{l+1}}, \cdots, t_{a_{k+l-1}}\right]
     \,
     t^{a_1} \wedge \cdots \wedge t^{a_{k+l-1}}
   \,.
@@ -496,7 +496,7 @@ $$
     \sum_{k+l = n-1}
     \sum_{\sigma \in Unsh(l,k-1)}
     (-1)^{sgn(\sigma)}
-    [[t_{a_1}, \cdots, t_{a_l}], t_{a_{l+1}}, \cdots, t_{a_{k+l-1}}]
+    \left[\left[t_{a_1}, \cdots, t_{a_l}\right], t_{a_{l+1}}, \cdots, t_{a_{k+l-1}}\right]
   = 0
 $$
 
