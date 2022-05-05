@@ -36,7 +36,11 @@ $,$
 
 But the collection of all algebraic numbers forms itself already an [[algebraically closed field|algebraically closed]] [[field]], typically denoted $\overline{\mathbb{Q}}$, as this is the [[algebraic closure]] of the field $\mathbb{Q}$ of [[rational numbers]]. This also follows easily from the equivalent definition of algebraic numbers in terms of finite degree extensions. The [[absolute Galois group]] $Gal(\overline{\mathbb{Q}}, \mathbb{Q})$ is peculiar, see [there](absolute+Galois+group#OfTheRationalNumbers).
 
-A number (especially a [[complex number]]) which is *not* algebraic is called __transcendental__; famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the natural [[logarithm]].
+A number $\alpha$ (especially a [[complex number]]) is called __transcendental__ if the [[metric|distance]] from that number to every algebraic number is positive:
+
+$$\mathrm{isTranscendental}(\alpha) \coloneqq \forall \beta \in \overline{\mathbb{Q}}.\vert \alpha - \beta \vert \gt 0$$ 
+
+Famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the natural [[logarithm]].
 
 Given a [[field]] $k$, an algebraic __[[number field]]__ $K$ over $k$ is a finite-degree extension of $k$. By default, the term "algebraic number field" means an algebraic number field over the rational numbers. If $\alpha$ is an algebraic number over $\mathbb{Q}$ then $\mathbb{Q}[\alpha]$ is a number field, however the field of all algebraic numbers is *not* a number field.
 
