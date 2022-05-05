@@ -1,4 +1,21 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 The operation $V \mapsto V^*$ of forming [[dual vector spaces]] extends to a [[contravariant functor]].
 
 +-- {: .num_defn}
@@ -21,6 +38,12 @@ This functor is, of course, the [[representable functor]] represented by $K$ as 
 This construction is the notion of [[dual morphism]] applied in the [[monoidal category]] [[Vect]] with its [[tensor product]] monoidal structure.
 
 =--
+
+## Related concepts
+
+* [[Chevalley-Eilenberg algebra]]
+
+* [[duality]]
 
 [[!redirects dual linear maps]]
 
