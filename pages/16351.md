@@ -66,6 +66,10 @@ If one drops standard regularity assumptions on manifolds then theorem \ref{Embe
 
 * [[derivations of smooth functions are vector fields]]
 
+The analogous statement in [[topology]] is:
+
+* [[Gelfand duality]]
+
 
 
 ## References
@@ -81,4 +85,6 @@ Discussion that takes the dual algebraic formulation as the very definition of [
 The analog of the statement for real algebras refined to [[smooth algebras]] is theorem 2.8 in
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
+
+[[!redirects Milnor's exercise]]
 
