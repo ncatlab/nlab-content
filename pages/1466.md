@@ -202,6 +202,15 @@ The idea that a uniformity is an "approximate equivalence relation" can be made 
 
 In all these cases, in order to recover the correct notion of morphism abstractly, we must consider monoids in a [[double category]] or [[equipment]] rather than merely a bicategory.
 
+With a uniform structure on a set $X$ associate a contravariant functor from the
+ category of finite sets to a category of filters of subsets as follows.
+Call a subset $P$ of $X^S$ _big_ iff there is an entourage $U$ such that $x\in X
+^S$ provided $(x(s'),x(s''))\in U$ for each $s',s''\in S$. For a metric space, this is the filter of $\epsilon$-neighbourhoods of the diagonal. 
+This defines a contravariant functor $F_X$ from the category of finite sets to the category of filters of subsets. Axiom 1 says that there is a unique big subset in $F_X(\{\bullet\})$. Axiom 2 says that the filter on $F_X(\{1,2,3\})$ is the pullback of the obvious maps $F_X(\{1,2,3\})\rightarrow F_X(\{1,2\})\rightarrow F_X(\{2\})\leftarrow F_X(\{2,3\})\leftarrow F_X(\{1,2,3\})$. To give a uniformly continuous map (morphism) $f:X\rightarrow Y$ of uniform structures is the same as to give a natural transformation $F_X \Rightarrow F_Y$. Indeed, such a natural transformation is determined by the function $f_{\{\bullet\}}:F_X(\{\bullet\})\rightarrow F_Y(\{\bullet\})$, and continuity of $F_X(\{1,2\})\rightarrow F_Y(\{1,2\})$ mean uniform continuity.     
+
+With a filter $F$ on $X$ associate the functor $E_F$ as follows: $E_F(S)$ is $F^S$. 
+A filter $F$ on $X$ is Cauchy iff the obvious map $E_F\rightarrow F_X$ is well-defined. 
+
 
 ## Related concepts
 
