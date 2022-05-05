@@ -53,7 +53,8 @@ where $\Sigma^\infty$ is the plain [[suspension spectrum]] construction.
 
 (e.g. [Guillou-May 12, theorem 5.3](#GuillouMay12), [Schwede 15, example 7.7](#Schwede15))
 
-In particular, since $W_G G = 1$ and $W_G 1 = G$, the extremal summands for $H = G$ and $H = 1$ are just the [[suspension spectrum]] $\Sigma^\infty (X^G)$ of the naive fixed points and of the [[Borel construction]] of the full space, respectively
+In particular, since $W_G G = 1$ and $W_G 1 = G$, the extremal summands for $H = G$ and $H = 1$ are just the [[suspension spectrum]] of the plain [[fixed point space]] $X^G$ and of the [[homotopy quotient]] $X\sslash G$ (equivalently the  [[Borel construction]] $X \sslash G \simeq E G_+ \times_G X$ ) of the full space, respectively:
+
 
 $$
   F^G(\Sigma^\infty_G X)
@@ -97,8 +98,10 @@ $$
     &\simeq
     \pi_\bullet(\Sigma^\infty X^G)
     \oplus
-    \underset{{[H \subset G]} \atop {H \neq G}}{\bigoplus}
+    \underset{{[H \subset G]} \atop {1 \neq H \neq G}}{\bigoplus}
     \pi_\bullet^{W_G H}(\Sigma^\infty (E (W_G H)_+ \wedge X^H))
+    \oplus
+    \pi_\bullet^{G}(\Sigma^\infty (E G_+ \wedge X))
   \end{aligned}
 $$
 
