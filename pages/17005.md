@@ -106,3 +106,9 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-equivaria
 
 * Christian Okonek, Andrei Teleman, _Cohomotopy Invariants and the Universal Cohomotopy Invariant Jump Formula_, J. Math. Sci. Univ. Tokyo 15 (2008), 325-409 ([pdf](http://www.matmor.unam.mx/~barcenas/nonlinearity.pdf))
 
+Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy theory|rational]] equivariant [[cohomotopy]] is in 
+
+* [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+[[!redirects equivariant stable cohomotopy theory]]
+[[!redirects equivariant stable cohomotopy theories]]
