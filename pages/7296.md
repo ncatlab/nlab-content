@@ -1,6 +1,8 @@
 [[!redirects Matan Prezma]]
 NB. He used to write his name Matan Prezma.
 
+[Homepage](https://sites.google.com/site/matanprasma/)
+
 ##Publications and preprints
 
 * _Homotopy Normal Maps_ (2010) ([arXiv:1011.4708](http://arxiv.org/abs/1011.4708))
@@ -14,4 +16,3 @@ category:people
 
 [[!redirects MatanP]]
 
-Homepage: https://sites.google.com/site/matanprasma/
