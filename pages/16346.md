@@ -2322,6 +2322,8 @@ This means that for applications to [[supergravity]] the inclusion of [[supergro
 
 ## Related entries
 
+* [[super Klein geometry]]
+
 * [[geometry of physics -- supergeometry]]
 
 ## References
