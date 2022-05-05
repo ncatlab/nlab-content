@@ -3767,7 +3767,15 @@ $$
     \\
     \vee && \vee
     \\
-    \bigcirc_1 &\dashv& \bicirc_1
+    \bigcirc_1 &\dashv& \Box_1
+  }
+  \phantom{AAAA} \text{or} \phantom{AAAA}
+  \array{
+    \Box_2 &\dashv& \bigcirc_2
+    \\
+    \vee && \vee
+    \\
+    \Box_1 &\dashv& \bigcirc_1
   }
 $$
 
@@ -3844,7 +3852,7 @@ $$
     \\
     \vee && \vee
     \\
-    \bigcirc &\dashv& \Box
+    \Box &\dashv& \bigcirc
     \\
     \vee && \vee
     \\
@@ -3864,27 +3872,102 @@ On some [[category]] $\mathcal{C}$, consider an inclusion of [[adjoint modalitie
 
 $$
   \array{
-    \bigcirc_1 &\dashv& \Box_2
+    \Box_1 &\dashv& \bigcirc_2
     \\
     \vee && \vee
     \\
-    \bigcirc_1 &\dashv& \Box_1
+    \Box_1 &\dashv& \bigcirc_1
   }
 $$
 
-We say that this inclusion provides _[[Aufhebung]] of the opposition_ exhibited by $\bigcirc_1 \dashv \Box_1$ if there is also the diagonal inclusion
+We say:
 
-$$
-  \bigcirc_1 \lt \Box_2
-  \phantom{AAA}
-  equivalently
-  \phantom{AAA}
-  \mathcal{C}_{\bigcirc_1}
-  \subset
-  \mathcal{C}_{\Box_2}
-$$
+1. This provides _right [[Aufhebung]] of the opposition_ exhibited by $\box_1 \dashv \bigcirc_1$ if there is also the diagonal inclusion
+
+   $$
+     \box_1 \lt \bigcirc_2
+     \phantom{AAA}
+     equivalently
+     \phantom{AAA}
+     \mathcal{C}_{\Box_1}
+     \subset
+     \mathcal{C}_{\bigcirc_2}
+   $$
+
+   We indicate this situation by
+ 
+   $$
+     \array{
+       \Box_2 &\dashv& \bigcirc_2
+       \\
+       \vee &/& \vee
+       \\
+       \Box_1 &\dashv& \bigcirc_1
+     }
+   $$
+
+
+1. This provides _left [[Aufhebung]] of the opposition_ exhibited by $\box_1 \dashv \bigcirc_1$ if there is also the diagonal inclusion
+
+   $$
+     \bigcirc_1 \lt \Box_2
+     \phantom{AAA}
+     equivalently
+     \phantom{AAA}
+     \mathcal{C}_{\bigcirc_1}
+     \subset
+     \mathcal{C}_{\Box_2}
+   $$
+
+   We indicate this situation by
+ 
+   $$
+     \array{
+       \Box_2 &\dashv& \bigcirc_2
+       \\
+       \vee &\backslash& \vee
+       \\
+       \Box_1 &\dashv& \bigcirc_1
+     }
+   $$
+
 
 =--
+
++-- {: .num_remark #TrivialAufhebung}
+###### Remark
+
+For a progression of [[adjoint modalities]] of the form
+
+$$
+   \array{
+     \bigcirc_2 &\dashv& \Box_2
+     \\
+     \vee && \vee
+     \\
+     \bigcirc_1 &\dashv& \Box_1
+   }
+$$
+
+the analog of [[Aufhebung]] (Def. \ref{Aufhebung}) is automatic, since, by Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, in this situation the [[full subcategories]] [[modal objects]] at each stage coincide already.
+
+For emphasis we may denote this situation by
+
+$$
+   \array{
+     \bigcirc_2 &\dashv& \Box_2
+     \\
+     \vee &\vert& \vee
+     \\
+     \bigcirc_1 &\dashv& \Box_1
+   }
+  \,.
+$$
+
+
+=--
+
+
 
 +-- {: .num_example}
 ###### Example
@@ -4139,7 +4222,6 @@ Finally, since $L$ is [[essentially surjective functor]], by [[idempotent monad|
 **([[local object]])**
 
 
-
 Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) and let $S \subset Mor_{\mathcal{C}}$ be a set of [[morphisms]]. Then an [[object]] $X \in \mathcal{C}$ is called an _$S$-[[local object]]_ if for all $A \overset{s}{\to} B \; \in S$ the [[hom-functor]] (Def. \ref{HomFunctor}) from $s$ into $X$ yields a [[bijection]]
 
 $$
@@ -4192,6 +4274,22 @@ $$
   \mathcal{C}
   \,.
 $$
+
+Of particular interest is the situation where an [[object]] $\mathbb{A}$ is fixed and $S$ is the [[class]] of [[morphisms]] of the form
+
+$$
+  X \times \mathbb{A} 
+    \overset{p_1}{\longrightarrow}
+  X
+$$
+
+for all objects $X \in \mathcal{C}$. If the corresponding [[reflective subcategory|reflection]] onto the [[full subcategory]] of [[local objects]] exists, we say this is _[[localization at an object|localization at the object]]_ and denote the reflector by 
+
+$$
+  \bigcirc\!\!\!\!\!\!\!\!\mathbb{A}
+  \,.
+$$
+
 
 =--
 
