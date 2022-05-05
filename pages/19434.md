@@ -22,9 +22,9 @@ The concept of a **Yoneda structure** provides in a general 2-categorical settin
 
 The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "amissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the "admissible" 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
 
-In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained in a [[Grothendieck universe]] $U_0$ whereas general 0-cells of $\mathcal{K}$ live in a larger universe $U_1\supset U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, in this situation one can show ([Freyd-Street 1995](FS95)) that _a category $\mathcal{C}\in CAT$ is small i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ are locally small_.
+In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained in a [[Grothendieck universe]] $U_0$ whereas general 0-cells of $\mathcal{K}$ live in a larger universe $U_1\supset U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, one can show ([Freyd-Street 1995](FS95)) that _a category $\mathcal{C}\in CAT$ is small i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ are locally small_.
 
-Admissible functors $f$ in this sense in $CAT$ are closed under precomposition not only among themselves but with respect to arbitrary (composable) $g$ since the relative Hom-sets $\mathcal{B}(fg(x),b)$ are simply a subclass of $\mathcal{B}(f(a),b)$ namely those for which $a\in im(g)$. Whence these "relatively small" functors form a [[right ideal]]. Given the close connection between [[KZ doctrines]] and Yoneda structures it will nevertheless be useful to consider the more general case of closure in itself under composition as well, a situation which we acknowledge terminologically with the prefix "proto".
+Admissible functors $f$ in this sense in $CAT$ are closed under precomposition not only among themselves but with respect to arbitrary (composable) $g$ since the relative Hom-sets $\mathcal{B}(f{}g(x),b)$ are simply a subclass of $\mathcal{B}(f(a),b)$ namely those for which $a\in im(g)$. Whence these "relatively small" functors form a [[right ideal]]. Given the close connection between [[KZ doctrines]] and Yoneda structures it will nevertheless be useful to consider the more general case of closure in itself under composition as well, a situation which we acknowledge terminologically with the prefix "proto".
 
 +-- {: .num_defn #admissible_1cell}
 ###### Definition 
@@ -36,13 +36,13 @@ Let $\mathcal{K}$ be a [[2-category]] and $A$ be a class of 1-cells. The 1-cells
 Let $\mathcal{K}$ be a [[2-category]] and $A$ be an admissible (resp. proto-admissible) class of 1-cells. A 0-cell $C\in |\mathcal{K}|$ is called _admissible_ (resp. _proto-admissible_) if $id_C$ is admissible (resp. proto-admissible).
 =--
 
-Note that the closure properties of $A$ imply that all 1-cells into a(n) (proto-)admissible 0-cell are (proto-)admissible.
+Note that the closure properties of $A$ imply that all 1-cells into an admissible (resp. a proto-admissible) 0-cell are admissible (resp. proto-admissible).
 
 Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly concise axiomatic description of the presheaf construction.
 
 +-- {: .num_defn #left_extension}
 ###### Definition 
-Let $\mathcal{K}$ be a [[2-category]] and $\eta:f\to e\circ g$ be a 2-cell:
+Let $\mathcal{K}$ be a [[2-category]] and $\eta:f\Rightarrow e\circ g$ be a 2-cell:
 $$
   \array{
      A& & \overset{f}{\longrightarrow} & &B
@@ -53,11 +53,15 @@ $$
   }
 $$
 We say that $\eta$ exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ iff for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
-We say that a 1-cell $h:B\to D$ _preserves_ this left extension if the following diagram exhibits $h\circ e$ as a left extension of $h\circ f$ along $g$
+
+We say that a 1-cell $h:B\to D$ _preserves_ this left extension if the following diagram exhibits $h\circ e$ as a left extension of $h\circ f$ along $g$ :
 
 $$
-  \array{
-      &\overset{hf}{\nearrow}&\Downarrow _{id_{hf}}&\uparrow h\\
+  \array{ &     &D    & &
+     \\
+
+      &\overset{hf}{\nearrow}&\Downarrow _{id} &\overset{h}{\nwarrow}&
+     \\
      A& & \overset{f}{\longrightarrow} & &B
      \\
      &{}_g\searrow & \Downarrow _\eta& \nearrow _e&
@@ -65,7 +69,7 @@ $$
       & & C & &
   }
 $$
-
+The left extension is called _absolute_ if it is preserved by all 1-cells with domain $B$.
 
 =--
 
@@ -158,7 +162,7 @@ The following two investigate the connections with KZ doctrines:
 
 * {#Walker18} C. Walker, _Distributive Laws via Admissibility_ , arXiv:1706.09575 (2018). ([abstract](https://arxiv.org/abs/1706.09575))
 
-Yoneda structures and KZ doctrines are combined in a general account of [[accessible category|accessibility]] and [[locally presentable category|local presentability]] in
+Yoneda structures and KZ doctrines are combined in a general account of [[accessible category|accessibility]] and [[locally presentable category|presentability]] in
 
 * {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
 
