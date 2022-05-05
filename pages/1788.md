@@ -1,3 +1,1 @@
-This is a simple #test.
-
-[[axiom K]]
+This is a sandbox.
