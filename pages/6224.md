@@ -85,7 +85,7 @@ A group $G$ is nilpotent in the original sense if and only if it is an $Ab$-nilp
 
 Every nilpotent group is an example of a [[solvable group]] (indeed, the groups in the [[lower central series]] of any group can be term-wise included into its [[derived series]]).
 
-Every finite nilpotent group, $G$, is the [[direct product]] of its [[Sylow p-subgroups]], each of which is a [[normal subgroup]] of $G$.
+The [[Sylow p-subgroups]] of any nilpotent group are [[normal subgroup|normal]]. The direct product of these subgroups in such a group is its [[torsion subgroup]].
 
 ## Examples
 
