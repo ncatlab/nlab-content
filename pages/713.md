@@ -66,9 +66,92 @@ This "free cocompletion" property generalizes to [[enriched category]] theory. I
 If $C$ is not small, then its free cocompletion still exists, but it is not the category of all presheaves on $C$.  Rather, it is the category of [[small presheaves]] on $C$, i.e. presheaves that are small colimits of representables.
 
 
+
 ### Proofs 
 
-To be inserted. 
+
++-- {: .num_prop #FreeCocompletion}
+###### Proposition
+
+For $\mathcal{C}$ a [[small category]], its [[Yoneda embedding]] $\mathcal{C} \overset{y}{\hookrightarrow} [\mathcal{C}^{op}, Set]$ exhibits the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ as the _free co-completion_ of $\mathcal{C}$, in that it is a [[universal morphism]] (as in [this Def.](adjoint+functor#UniversalArrow)  but "up to natural isomorphism") into a [[cocomplete category]], in that:
+
+1. for $\mathcal{D}$ any [[cocomplete category]] [[category]];
+
+1. for $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ any [[functor]];
+
+there is a [[functor]] $\widetilde F \;\colon\; [\mathcal{C}^{op}, Set] \longrightarrow \mathcal{D}$, unique up to [[natural isomorphism]], such that
+
+1. $\widetilde F$ [[preserved limit|preserves]] all [[colimits]],
+
+1. $\widetilde F$ [[extension|extends]] $F$ through the [[Yoneda embedding]], in that the following [[commuting diagram|diagram commutes]], up to [[natural isomorphism]]:
+
+$$
+  \array{
+    && \mathcal{C}
+    \\
+    & {}^{y}\swarrow &\swArrow& \searrow^{\mathrlap{F}}
+    \\
+    \mathrlap{ \!\!\!\!\!\!\!\!\!\!\!\!\! [\mathcal{C}^{op}, Set] }
+      && \underset{ \widetilde F }{\longrightarrow} &&
+    \mathcal{D}
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The last condition says that $\widetilde F$ is fixed on [[representable presheaves]], up to isomorphism, by
+
+\[
+  \label{YonedaRestriction}
+  \widetilde F( y(c) ) \simeq F(c)
+\]
+
+and in fact [[natural isomorphism|naturally]] so:
+
+\[
+  \label{FunctorialYonedaRestriction}
+  \array{
+    c_1&&
+    \widetilde F( y(c_1) ) &\simeq& F(c_1)
+    \\
+    {}^{\mathllap{f}}\big\downarrow
+     && {}^{\mathllap{ F(y(f)) }}\big\downarrow && \big\downarrow^{\mathrlap{ F(f) }}
+    \\
+    c_2 && \widetilde F (y(c_2)) &\simeq& F(c_2)
+  }
+\]
+
+
+But the [[co-Yoneda lemma]] expresses every [[presheaf]] $\mathbf{X} \in [\mathcal{C}^{op}, Set]$ as a [[colimit]] of [[representable presheaves]]
+
+$$
+  \mathbf{X} \;\simeq\; \int^{c \in \mathcal{C}} y(c) \cdot \mathbf{X}(c)
+  \,.
+$$
+
+Since $\tilde F$ is required to preserve any colimit and hence these particular colimits, (eq:YonedaRestriction) implies that $\widetilde F$ is fixed to act, up to isomorphism, as
+
+$$
+  \begin{aligned}
+    \widetilde F(\mathbf{X})
+    & =
+    \widetilde F
+    \left(
+      \int^{c \in \mathcal{C}} y(c) \cdot \mathbf{X}(c)
+    \right)
+    & \coloneqq
+    \int^{c \in \mathcal{C}} F(c) \cdot \mathbf{X}(c)
+    \;\;\;\;\in \mathcal{D}
+  \end{aligned}
+$$
+
+(where the colimit (a [[coend]]) on the right is computed in $\mathcal{D}$!).
+
+=--
+
 
 ## Free cocompletion as a pseudomonad
 
