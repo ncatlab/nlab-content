@@ -561,12 +561,7 @@ Much of this relation of [[string theory]] to [[higher category theory]] was unc
 
 For the moment, see at **[[higher category theory and physics]]** and _[[schreiber:Higher Prequantum Geometry]]_ for more.
 
-also
-
-* [[Christian Saemann]], _Principal String 2-Group Bundles and M-Branes_, CQSYMP16 ([[SaemannCQSYMP16.pdf:file]])
-
-(...)
-
+* _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_
 
 ## Further expositions, introductions and lectures
 
