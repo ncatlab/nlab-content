@@ -71,7 +71,7 @@ $$
 
 of the [[multiplicative group]] acting on the odd-shifted [[additive group]] via the given [[super Poincare Lie algebra]]. 
 
-We notice that this group is the [automorphism group of the odd line](odd+line#TheAutomorphismSuperGroup)
+We notice that this group is the [automorphism group of the odd line](odd%20line#TheAutomorphismSuperGroup)
 
 $$
   \mathbf{Aut}(\mathbb{R}^{0|1}) \simeq \mathbb{G}_m \ltimes \Pi \mathbb{G}_{ad}
