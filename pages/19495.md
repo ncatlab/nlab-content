@@ -8,6 +8,10 @@ An **inverse EI (∞,1)-category** is an EI (∞,1)-category which is also an [[
 
 * For a compact Lie group $G$ the opposite of the [[orbit category]].
 
+##Related concepts
+
+* [[poset-stratified space]]
+
 ##References
 
 * [[Mike Shulman]], _Univalence for inverse EI diagrams_, ([arXiv:1508.02410](https://arxiv.org/abs/1508.02410)) 
