@@ -4686,15 +4686,18 @@ $$
 
 We write
 
-$$
+\[
+  \label{SetOfMatching}
   Match\big( 
     \{U_i\}_{i \in I}
     \,,\,
     \mathbf{Y}
   \big)
+  \subset
+  \underset{i}{\prod} \mathbf{Y}(U_i)
   \;\in\;
   Set
-$$
+\]
 
 for the set of [[matching families]] for the given presheaf and covering. 
 
@@ -5013,6 +5016,79 @@ $$
 $$
 
 In conclusion, this means that the [[presheaf]] $\mathbf{Y}$ is a [[sheaf]] (Def. \ref{Sheaf}) precisely if homming Cech groupoid projections into it produces an isomorphism.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By (eq:HomObjectOfEnrichedFunctorCategoryViaEnd) the hom-groupoid is computed as the [[end]]
+
+$$
+  [\mathcal{C}^{op},Grpd]
+  \left(
+    C\left(\{U_i\}_i\right), \, \mathbf{Y}
+  \right)
+  \;=\;
+  \int_{V \in \mathcal{C}}
+  \left[
+    C\left(\{U_i\}_i\right)(V), \, \mathbf{Y}(V)
+  \right]
+  \,,
+$$ 
+
+where, by Example \ref{ExamplesOfCosmoi}, the "integrand" is the [[functor category]] (here: a [[groupoid]]) from the [[Cech groupoid]] at a given $V$ to the set (regarded as a groupoid) assigned by $\mathbf{Y}$ to $V$.
+
+Since $\mathbf{Y}(V)$ is just a set, that functor groupoid, too, is just a set, regarded as a groupoid. Its elements are the [[functors]] $C\left(\{U_i\}_i\right)(V) \longrightarrow \mathbf{Y}(V)$, which are equivalently those  [[functions]] on sets of objects
+
+$$
+  \underset{i}{\coprod} y(U_i)(V)
+  =
+  Obj_{C\left(\{U_i\}_i\right)(V)} 
+    \longrightarrow 
+  Obj_{\mathbf{Y}(V)}
+  =
+  \mathbf{Y}(V)
+$$
+
+which respect the [[equivalence relation]] induced by the morphisms in the Cech groupoid at $V$. 
+
+Hence the hom-groupoid is a subset of the [[end]] of these [[function sets]]
+
+$$
+  \begin{aligned}
+    \int_{V \in \mathcal{C}}
+    \left[
+      C\left(\{U_i\}_i\right)(V), \, \mathbf{Y}(V)
+    \right]
+    & \hookrightarrow
+    \int_{V \in \mathcal{C}}
+    \left[
+      \underset{i}{\coprod} y(U_i)(V), \, \mathbf{Y}(V)
+    \right]
+    \\
+    & \simeq
+    \int_{V \in \mathcal{C}}
+    \underset{i}{\prod}
+    \left[
+       y(U_i)(V), \, \mathbf{Y}(V)
+    \right]
+    \\
+    & \simeq
+    \underset{i}{\prod}
+    \int_{V \in \mathcal{C}}
+    \left[
+       y(U_i)(V), \, \mathbf{Y}(V)
+    \right]
+    \\
+    & \simeq
+    \underset{i}{\prod}
+    \mathbf{Y}(U_i)
+  \end{aligned}
+$$
+
+
+spring
 
 =--
 
