@@ -2754,7 +2754,7 @@ The following is the analog of [[adjoint equivalence of categories]] (Def. \ref{
 ###### Definition
 **([[Quillen equivalence]])**
 
-For $\mathcal{C}, \mathcal{D}$ two [[model categories]],  a [[Quillen adjunction]] (def.\ref{QuillenAdjunction})
+For $\mathcal{C}, \mathcal{D}$ two [[model categories]] (Def. \ref{ModelCategory}),  a [[Quillen adjunction]] (def. \ref{QuillenAdjunction})
 
 $$
   (L \dashv R)
@@ -2774,12 +2774,12 @@ $$
     \underoverset
       {\underset{R}{\longrightarrow}}
       {\overset{L}{\longleftarrow}}
-      {\simeq_{\mathrlap{Q}}}
+      {\phantom{{}_{Q}} \simeq_{\mathrlap{Q}}}
   \mathcal{D}
   \,,
 $$
 
-if the following equivalent conditions hold.
+if the following equivalent conditions hold:
 
 1. The [[right derived functor]] of $R$ (via prop. \ref{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}, corollary \ref{LeftAndRightDerivedFunctors}) is an [[equivalence of categories]]
 
