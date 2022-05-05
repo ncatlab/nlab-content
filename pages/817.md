@@ -144,3 +144,6 @@ Review includes
 * [[Max Kelly]], [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 [[!redirects enriched functor categories]]
+
+[[!redirects enriched presheaf category]]
+[[!redirects enriched presheaf categories]]
