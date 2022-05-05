@@ -89,6 +89,10 @@ Another big source of examples is deformation quantization and related topics in
 
 ## Related concepts
 
+[[!include Isbell duality - table]]
+
+$\,$
+
 [[!include noncommutative motives - table]]
 
 ## References 
