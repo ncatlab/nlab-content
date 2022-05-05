@@ -124,7 +124,7 @@ Let $\mathcal{E}$ be a topos. Then all injective objects are connected iff all i
 
 +-- {: .num_prop #exponential_injective}
 ###### Lemma
-Let $I$ be an injective object in a topos $\mathcal{E}$. Then $I^X$ is injective for any object $X$.
+Let $I$ be an injective object in a topos $\mathcal{E}$. Then $I^X$ is injective for any object $X$ , or in other words exponentials $(_-)^X$ preserve injective objects.
 =--
 
 **Proof**. We have to show that for every mono $m:S\rightarrowtail B$ the induced function $m^\ast:Hom(B,I^X)\to Hom(S,I^X)$ is onto. From the exponential adjunction one has the following commutative diagram
@@ -133,8 +133,8 @@ $$
 \array{
 Hom(B,I^X) &\overset{m^\ast}{\rightarrow} & Hom(S,I^X) 
 \\
-\simeq \parallel& &\parallel_
-\simeq
+\simeq \parallel& &\parallel
+ \simeq
 \\
 Hom(X\times B,I) &\underset{(m\times id_X)^\ast}{\rightarrow} &Hom(X\times S,I)
 }
@@ -149,7 +149,7 @@ $$
 \langle m\circ f_1, f_2\rangle &=\langle m\circ g_1,g_2\rangle
 \end{aligned}
 $$
-iff $\m\circ f_1=m\circ g_1$ and $f_2=g_2$. $\qed$
+which is equivalent to $\m\circ f_1=m\circ g_1$ and $f_2=g_2$. $\qed$
 
 Summing up we get:
 
@@ -276,7 +276,7 @@ Let $\mathcal{E}$ be a weakly cohesive topos whose subobject classifier is a con
 =--
 
 **Proof**.
-We have to show that $\wedge\circ\langle id_\Omega, \mathsf{true}\circ !_\Omega\rangle=id_\Omega$ and $\wedge\circ\langle id_\Omega, \mathsf{false}\circ !_\Omega\rangle=\mathsf{false}\circ !_\Omega$. This is more or less clear from the propositional structure of $\Omega$ but let us spell out the details diagrammtically:
+We have to show that $\wedge\circ\langle id_\Omega, \mathsf{true}\circ !_\Omega\rangle=id_\Omega$ and $\wedge\circ\langle id_\Omega, \mathsf{false}\circ !_\Omega\rangle=\mathsf{false}\circ !_\Omega$. This is more or less clear from the propositional structure of $\Omega$ but let us spell out the details diagrammatically:
 
 For the first equation, consider the commutative diagram:
 $$
@@ -339,7 +339,7 @@ $$
 The corresponding terms in the [[internal language]] are
 $$
 \array{
-\lambda (x,t).m(x,t)
+m=\lambda (x,t).m(x,t)
 \\
 \lambda x\lambda t.m(x,t)
 \\
@@ -347,10 +347,10 @@ $$
 \\
 \lambda f\lambda t \lambda y. m(f(y),t)
 \\
-\lambda (f,t)\lambda y. m(f(y),t)
+\mu =\lambda (f,t)\lambda y. m(f(y),t)
 }
 $$
-respectively. The last term evaluates to $\lambda f\lambda y.f(y)$ i.e. to $id_{X^Y}$ at $t_0$ and evaluates to $\lambda f\lambda y.c$, i.e. $c^Y$ the function constantly $c$ on $Y$, at $t_1$ whence $\mu$ is a T-homotopy from $id_{X^Y}$ to the constant map $c^Y$. $\qed$
+respectively. The last term evaluates to $\lambda f\lambda y.f(y)$ i.e. to $id_{X^Y}$ at $t_0$ and at $t_1$ evaluates to $\lambda f\lambda y.c$ , i.e. the function mapping f to $c^Y$ , the function constantly $c$ on $Y$,  whence $\mu$ is a $T$-homotopy from $id_{X^Y}$ to the constantly  $c^Y$ map. $\qed$
 
 By prop. \ref{omega_homotopy} and the preceding the next is immediate:
 
@@ -377,9 +377,9 @@ Let $\mathcal{E}$ be a weakly cohesive topos. Then the subobject classifier $\Om
 
 For convenience and summary let us collect all the equivalent formulations of sufficient cohesion in one place:
 
-+-- {: .num_prop #sufficient_cohesion}
++-- {: .num_prop #sufficient_cohesion_equivalences}
 ###### Theorem
-A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff satisfies the following equivalent conditions:
+A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$ satisfies the following equivalent conditions:
 
 * The [[subobject classifier]] $\Omega\in\mathcal{E}$ is contractible i.e. $p_!(\Omega^X)=1$ for every object $X\in\mathcal{E}$. 'power objects are connected' or '_truth is contractible_'
 
@@ -389,9 +389,9 @@ A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff satisfies the
 
 * Every object $X\in\mathcal{E}$ embeds into a connected object. '$\mathcal{E}$ _has enough connected objects_'
 
-* All injective objects are connected. '$\mathcal{E}$ _has enough injective connected objects_'
+* All injective objects are connected. 
 
-* All injective objects are contractible. '$\mathcal{E}$ _has enough injective contractible objects_'
+* All injective objects are contractible. 
 
 * $\mathcal{E}$ has a connector. $\qed$
 =--
@@ -407,10 +407,6 @@ A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff satisfies the
 * [[connected object]]
 
 * [[injective object]]
-
-## Link
-
-* [nForum discussion thread](https://nforum.ncatlab.org/discussion/7562/sufficiently-cohesive-topos/#Item_0)
 
 ## References
 
