@@ -179,6 +179,7 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[ring]], [[ring object]]
 
+* [[categorical algebra]]
 
 [[!redirects monoid]]
 [[!redirects monoids]]
