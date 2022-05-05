@@ -28,7 +28,7 @@ It is generally assumed that all societies explicitly impose some restrictions o
 
 The latter prescriptive systems have been called _elementary structures_ by L&#233;vi-Strauss and further divided into systems of _restricted exchange_ where two groups $A,B$ directly exchange spouses, or systems of _generalized exchange_ with longer cycles of exchange e.g. group $A$ gives spouses to $B$ that gives spouses to $C$ that gives spouses to $A$.
 
-Since marriages become deterministic on the classes, elementary kinship systems are amenable to analysis via permutations on the set of marriage classes. This group-theoretic modeling of elementary structures has been pioneered by [[André Weil]] ([1949](#Weil49)). Here is L&#233;vi-Strauss on Weil's contribution:
+Since marriages become deterministic on the classes, elementary kinship systems are amenable to analysis via [[permutations]] on the set of marriage classes. This group-theoretic modeling of elementary structures has been pioneered by [[André Weil]] ([1949](#Weil49)). Here is L&#233;vi-Strauss on Weil's contribution:
 
 > Historiquement parlant, ces pages ont une grande importance. Toute la math&#233;matique de la parent&#233; qui s'est beaucoup d&#233;velopp&#233;e depuis en est sortie. Et cela continue.[^LS]
 
@@ -39,7 +39,7 @@ Weil's ideas have later been systematized by Philippe Courr&#232;ge and others.
 +-- {: .num_defn #kinship}
 ###### Definition 
 
-An _(elementary) kinship system_ is a triple $(S,\omega,\mu)$ where $S$ is a finite set, and $\omega,\mu$ are permutations of $S$.
+An _(elementary) kinship system_ is a triple $(S,\omega,\mu)$ where $S$ is a finite set, and $\omega,\mu$ are [[permutations]] of $S$.
 
 A _morphism of kinship systems_ $(S_1,\omega_1,\mu_1)\to (S_2,\omega_2,\mu_2)$ is a function $f:S_1\to S_2$ that is equivariant with respect to $\omega$ and $\mu$ i.e. $f\circ\omega_1 =\omega_2\circ f$ and $f\circ\mu_1 =\mu_2\circ f$.
 
