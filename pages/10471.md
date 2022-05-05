@@ -353,7 +353,7 @@ Lecture notes include
 
 * {#Schwede14} [[Stefan Schwede]], section 1 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2014 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
-and ([Schwede 15](#Schwede15)) (take throught $\mathcal{F} = \{1\}$ there to be the trivial family to restrict to the non-equivariant case).
+and ([Schwede 15](#Schwede15)) (take throughout $\mathcal{F} = \{1\}$ there to be the trivial family to restrict to the non-equivariant case).
 
 Orthogonal spectra were introduced around
 
