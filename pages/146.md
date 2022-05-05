@@ -15,24 +15,26 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
-A **presheaf** on a [[category]] $C$ is a [[functor]]
+A **presheaf** on a [[small category]] $C$ is a [[functor]]
 
 $$
- F : C^{op} \to Set
+ F \;\colon\; C^{op} \to Set
 $$
 
-from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s. Equivalently this may be thought of as a [[contravariant functor]] $F : C \to Set$.
+from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s. Equivalently this may be thought of as a [[contravariant functor]] $F \;\colon\; C \to Set$.
 
 More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
 
 $$
-  F : C^{op} \to S.
+  F \;\colon\; C^{op} \to S.
 $$
+
+While, hence, presheaves are just [[functors]] (on [[small categories]]), one says "presheaf" to indicate a specific perspective or interest, namely interest in the _[[sheafification]]_ of the functor/presheaf, or at least interest in the [[functor category]] as a [[topos]] (the [[presheaf topos]]). Hence "presheaf" is a [[concept with an attitude]].
 
 Historically, the initial applications of presheaves and sheaves involved cases like $S = CRing$ (the category of [[commutative ring|commutative rings]]), $S = $[[Ab]], $S = R$-$Mod$, etc. Later, especially with the development of topos theory, the primary importance of the [[sheaf topos|category of set-valued (pre)sheaves]] as topos was recognized; these other cases could be considered algebraic objects which live in the topos. This article and the one on [[sheaf topos]] recognize these later developments by making the set-valued case the default (in other words, presheaf or sheaf without further qualification is understood to refer to the set-valued case). 
 
