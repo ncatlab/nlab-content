@@ -112,7 +112,7 @@ See also _[[StreetCBS]]_.
 
 More discussion is in 
 
-* [[Michael Shulman]], _[[michaelshulamn:2-site]]_
+* [[Michael Shulman]], _[[michaelshulman:2-site]]_
 
 
 [[!redirects 2-sites]]
