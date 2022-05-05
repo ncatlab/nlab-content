@@ -56,16 +56,20 @@ If we speak about [[generalized element|generalized points]] of the $U_i$ (which
 Let $\mathcal{C}$ be a [[site]], and $X \in \mathcal{C}$ an [[object]] of that site. For each [[covering]] family $\{ U_i \overset{\iota_i}{\to} X\}$ of $X$ in the given [[coverage]], the _[[Cech groupoid]]_ is the [[presheaf of groupoids]]
 
 $$
-  C(\{U_i\}) \;\in\; [\mathcal{C}^{op}, Grpd]
+  C(\{U_i\}) 
+    \;\in\; 
+  [\mathcal{C}^{op}, Grpd]
+  \;\simeq\;
+  Grpd\left( [\mathcal{C}^{op}, Set]  \right)
 $$
 
-whose [[presheaf]] of [[objects]] is the [[coproduct]]
+which, regarded as an [[internal category]] in the [[category of presheaves]] over $\mathcal{C}$, has as [[presheaf]] of [[objects]] the [[coproduct]]
 
 $$
   Obj_{C(\{U_i\})} \;\coloneqq\; \underset{i}{\coprod}  y(U_i)
 $$
 
-of the [[representable presheaf|presheaves represented]] (under the [[Yoneda embedding]] by the [[covering]] objects $U_i$, and whose [[presheaf]] of [[morphisms]] is the [[coproduct]] over all [[fiber products]] of these:
+of the [[representable presheaf|presheaves represented]] (under the [[Yoneda embedding]]) by the [[covering]] objects $U_i$, and as [[presheaf]] of [[morphisms]] the [[coproduct]] over all [[fiber products]] of these:
 
 $$
   Mor_{C(\{U_i\})} 
@@ -357,6 +361,12 @@ are also called [[anafunctor]]s from $X$ to $\mathbf{B}G$. They correspond to sm
 ## Related concepts
 
 * [[Cech nerve]]
+
+## References
+
+For instance 
+
+* {#Jardine06} [[J. F. Jardine]], Example 5 in: _Homotopy classification of gerbes_ ([arXiv:math/0605200](https://arxiv.org/abs/math/0605200))
 
 [[!redirects Cech groupoid]]
 [[!redirects Cech groupoids]]
