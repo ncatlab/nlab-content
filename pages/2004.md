@@ -248,7 +248,7 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
  {#RiehlVerity13}
 
 [[!redirects Eilenberg-Moore categories]]
-
+[[!redirects Eilenberg–Moore category]]
 [[!redirects Eilenberg-Moore category]]
 [[!redirects Eilenberg--Moore category]]
 [[!redirects Eilenberg-Moore object]]
