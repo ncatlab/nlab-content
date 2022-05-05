@@ -34,15 +34,31 @@ In [[physics]] these coefficients are also known as _[[Clebsch-Gordan coefficien
 
 Notice that $R(G)$ is commutative thanks to the [[symmetric monoidal category|symmetry]] of the tensor product.
 
+
 ### As equivariant K-theory of the point
  {#AsEquivariantKTheoryOfThePoint}
 
-Equivalently the representation ring of $G$ is the $G$-[[equivariant K-theory]] of the point, or equivalently by the [[Green-Julg theorem]], if $G$ is a [[compact Lie group]], the [[operator K-theory]] of the [[group algebra]] (the [[groupoid convolution algebra]] of the [[delooping]] groupoid of $G$):
+Equivalently the representation ring of $G$ over the [[complex numbers]] is the $G$-[[equivariant K-theory]] of the point, or equivalently by the [[Green-Julg theorem]], if $G$ is a [[compact Lie group]], the [[operator K-theory]] of the [[group algebra]] (the [[groupoid convolution algebra]] of the [[delooping]] groupoid of $G$):
 
 $$
-  R(G) \simeq K_G(\ast) \simeq KK(\mathbb{C}, C(\mathbf{B}G))
+  R_{\mathbb{C}}(G) \simeq KU^0_G(\ast) \simeq KK(\mathbb{C}, C(\mathbf{B}G))
   \,.
 $$
+
+The first [[isomorphism]] here follows immediately from the elementary definition of equivariant [[topological K-theory]], since a $G$-[[equivariant vector bundle]] over the point is manifestly just a [[linear representation]] of $G$ on a [[complex vector space]].
+
+(e.g. [Wilson 16, example 1.6 p. 3](#Wilson16))
+
+Therefore a similar isomorphism identifies the $G$-representation ring over the [[real numbers]] with the equivariant orthogonal $K$-theory of the point in degree 0:
+
+$$
+  R_{\mathbb{R}}(G)
+  \;\simeq\;
+  KO_G^0(\ast)
+  \,.
+$$
+
+But beware that equivariant [[KO]], even of the point, is much richer in higher degree ([Wilson 16, remark 3.34](#Wilson16))
 
 [[!include Segal completion -- table]]
 
@@ -175,10 +191,11 @@ Lecture notes include
 
 * {#tomDieck09} [[Tammo tom Dieck]], section 4.4. in _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
-
-Exposition in relation to [[equivariant K-theory]]:
+Exposition in relation to [[equivariant K-theory]] includes
 
 * [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
+
+* {#Wilson16} [[Dylan Wilson]], _Equivariant K-theory_, 2016 ([pdf](https://www.math.uchicago.edu/~dwilson/notes/equivariant-k-theory-talk.pdf), [[WilsonKTheory16.pdf:file]])
 
 Classical results for [[compact Lie groups]]:
 
