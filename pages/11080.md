@@ -34,19 +34,21 @@ In fact smooth sets are an early stage in a long sequence of generalized smooth 
 
 $\,$
 <br/>$\;\;\;\;$ $\{$[[coordinate systems]]$\}$
-<br/>$\hookrightarrow$ $\{$[[smooth manifolds]]$\}$
+<br/>$\hookrightarrow$ $\{$[[smooth manifolds]]$\}$ $\phantom{AA}$ (Prop. \ref{InclusionOfSmoothManifoldsIntoSmoothSets} below)
 <br/>$\hookrightarrow$ $\{$[[Hilbert manifolds]]$\}$
 <br/>$\hookrightarrow$ $\{$[[Banach manifolds]]$\}$
-<br/>$\hookrightarrow$ $\{$[[Fréchet manifolds]]$\}$
-<br/>$\hookrightarrow$ $\{$[[diffeological spaces]]$\}$
-<br/>$\hookrightarrow$ $\{$[[smooth sets]]$\}$ $\hookrightarrow$ $\{$[[formal smooth sets]]$\}$ $\hookrightarrow$ $\{$[[super formal smooth sets]]$\}$
+<br/>$\hookrightarrow$ $\{$[[Fréchet manifolds]]$\}$ $\phantom{AA}$ (Prop. \ref{FrechetManifoldsFullyFaithfulInSmoothSets} below)
+<br/>$\hookrightarrow$ $\{$[[diffeological spaces]]$\}$ $\phantom{AA}$ (Prop. \ref{ReflectiveInclusionOfDiffeologicalSpacesinSmoothSets} below)
+<br/>$\hookrightarrow$ $\{$[[smooth sets]]$\}$ $\hookrightarrow$ $\{$[[formal smooth sets]]$\}$ $\hookrightarrow$ $\{$[[super formal smooth sets]]$\}$ $\phantom{AA}$ (chapter [[geometry of physics -- supergeometry|on supergeometry]])
+<br/>
 <br/>$\hookrightarrow$ $\{$[[orbifold|smooth orbifolds]]$\}$
 <br/>$\hookrightarrow$ $\{$[[smooth groupoids]]$\}$
 <br/>$\hookrightarrow $ $\{$[[smooth 2-groupoids]]$\}$
 <br/>$\hookrightarrow $ $\cdots$
-<br/>$\hookrightarrow $ $\{$[[smooth ∞-groupoids]]$\}$
+<br/>$\hookrightarrow $ $\{$[[smooth ∞-groupoids]]$\}$ $\phantom{AA}$ (chapter [[geometry of physics -- smooth homotopy types|on smooth ∞-groupoids]])
 <br/>$\hookrightarrow $ $\{$[[formal smooth ∞-groupoids]]$\}$
 <br/>$\hookrightarrow $ $\{$[[super formal smooth ∞-groupoids]]$\}$
+
 
 
 [^terminology]: In view of the _[[smooth homotopy types]]_ to be discussed in _[[geometry of physics -- smooth homotopy types]]_, the structures discussed now are properly called _smooth [[0-types]]_ or maybe _smooth [[h-sets]]_ or just _smooth sets_. While this subsumes [[smooth manifolds]] which are indeed sets equipped with (particularly nice) [[smooth structure]], it is common in practice to speak of manifolds as "spaces" (indeed as [[topological spaces]] equipped with smooth structure). Historically the _[[Cartesian space]]_ and _[[Euclidean space]]_ of [[Newtonian physics]] are the archetypical examples of smooth manifolds and modern [[differential geometry]] developed very much via motivation by the study of the _spaces_ in [[general relativity]], namely _[[spacetimes]]_. Unfortunately, in a parallel development the word "space" has evolved in [[homotopy theory]] to mean (just) the [[homotopy types]] _represented_ by an actual [[topological space]] (their [[fundamental infinity-groupoids]]). Ironically, with this meaning of the word "space" the original [[Euclidean spaces]] become equivalent to the point, signifying that the modern meaning of "space" in [[homotopy theory]] is quite orthogonal to the original meaning, and that in homotopy theory therefore one should better stick to "[[homotopy types]]". Since historically grown terminology will never be fully logically consistent, and since often the less well motivated terminology is more widely understood, we will follow tradition here and take the liberty to use "smooth sets" and "smooth spaces" synonymously, the former when we feel more formalistic, the latter when we feel more relaxed.
@@ -1887,6 +1889,49 @@ $$
 $$
 
 where on the left we have a [[reflective subcategory]] with reflector being _[[concretification]]_ ([this prop.](geometry+of+physics+--+categories+and+toposes#QuasitoposOfConcreteObjects)), and on the right we have the [[corestriction|co]][[restriction]] of the [[adjoint quadruple]] of [[cohesion]] from (eq:SheafToposAdjointQuadruple).
+
+=--
+
+
++-- {: .num_prop #FrechetManifoldsFullyFaithfulInSmoothSets}
+###### Proposition
+**([[Fréchet manifolds]] [[fully faithful functor|fully faithful]] among [[smooth sets]])**
+
+
+Write $FrechetMfd$ for the [[category]] of [[Fréchet manifolds]] and [[smooth functions]] between these, which generalizes smooth manifolds to possibly [[infinite-dimensional manifold|infinite-dimensional]] smooth manifolds
+
+$$
+  CartSp 
+   \overset{\phantom{AAAA}}{\hookrightarrow} 
+  SmoothMfd 
+    \overset{\phantom{AAAA}}{\hookrightarrow} 
+  FrechetMfd
+  \,.
+$$
+
+For $X,Y$ two [[Fréchet manifolds]], write again $C^\infty(X,Y)$ for the set of [[smooth functions]] between them. Then the same kind of construction as for [[smooth manifolds]], sending a Fr&#233;chet manifold to the [[presheaf]]
+
+$$
+  \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n, X)
+$$
+
+defines a [[fully faithful functor]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor))
+
+$$
+  FrechetMfd \overset{\phantom{AAAA}}{\hookrightarrow} SmoothSet
+  \,,
+$$
+
+hence a [[full subcategory]] inclusion.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The construction clearly factors through [[diffeological spaces]] (Def. \ref{DiffeologicalSpace}), identified as a [[full subcategory]] of [[smooth sets]] via Prop. \ref{ReflectiveInclusionOfDiffeologicalSpacesinSmoothSets}.
+
+With this it is now sufficient to see that [[Fréchet manifolds]] are fully faithful among [[diffeological spaces]]. This is due to ([Losik 94, theorem 3.1.1](diffeological+space#Losik)),
 
 =--
 
