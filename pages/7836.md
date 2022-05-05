@@ -32,6 +32,7 @@ $$
   \,.
 $$
 
+The _[[exponent of a group]]_ is the [[least common multiple]] of the order of all elements of the group.
 
 ### Order of a group scheme
 
@@ -82,6 +83,8 @@ $$
 
 ## Related concepts
 
+* [[exponent of a group]]
+
 * [[p-group]]
 
 ## References
@@ -92,3 +95,4 @@ See also
 
 [[!redirects order of an element]]
 
+[[!redirects order of a group element]]
