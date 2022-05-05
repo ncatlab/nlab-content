@@ -11,7 +11,7 @@ Matrix models are studied mainly in the context of [[statistical mechanics]] (se
 
 ## Related entries
 
-* [[Fredholm determinant]], [[random matrix theory]], [[determinantal process]], [[Kontsevich matrix model]], [[large N limit]]
+* [[Fredholm determinant]], [[random matrix theory]], [[determinental process]], [[Kontsevich matrix model]], [[large N limit]]
 
 * [[integrable system]], [[topological recursion]]
 
