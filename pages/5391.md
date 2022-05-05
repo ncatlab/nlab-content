@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about extension of morphisms, [[formal dual|dual]] to [[lift]]. For extensions in the sense of "added structure" see at _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc. In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
+> This entry is about extension of morphisms, [[formal dual|dual]] to [[lift]]. For extensions in the sense of "added structure", such as _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc., see at _[[algebra extension]]_.  In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
 
 #Contents#
 * table of contents
