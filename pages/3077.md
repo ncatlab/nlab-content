@@ -48,7 +48,7 @@ Let $L$ denote the long line, and $R$ the long ray.
 $$S = \{t \in I: \im H(t, -)\;  \text{is bounded}\}$$ 
 is both closed and open. It also contains $0$, hence is all of $I$. But $S$ can't contain $t = 1$, contradiction. 
 
-Let us flesh out this sketched proof. First we show $S$ is closed. If $t_n$ is a sequence in $S$ with limit point $t \in I$, then $H(\{t_n\} \times L) \subseteq [0, b_n]$ for some sequence of bounds $b_n \in L$; this sequence has an upper bound $b \in L$. Then $H(\{t_n\} \times L) \subseteq [0, b]$, which is the same as saying $\bigcup_n \{t_n\} \times L \subseteq H^{-1}([0, b])$. Now $\{t\} \times L$ is included within the closure of the union, which is included within the closed set $H^{-1}([0, b])$. But $\{t\} \times L \subseteq H^{-1}([0, b])$ means $H(\{t\} \times L) \subseteq [0, b]$; hence $t \in S$. 
+Let us flesh out this sketched proof. First we show $S$ is closed. If $t_n$ is a sequence in $S$ with limit point $t \in I$, then $H(\{t_n\} \times L) \subseteq [0, b_n]$ for some sequence of bounds $b_n \in L$; this sequence has an upper bound $b \in L$. Then $H(\{t_n\} \times L) \subseteq [0, b]$ for all $n \in \mathbb{N}$, which is the same as saying $\bigcup_n \{t_n\} \times L \subseteq H^{-1}([0, b])$. Now $\{t\} \times L$ is included within the closure of the union, which is included within the closed set $H^{-1}([0, b])$. But $\{t\} \times L \subseteq H^{-1}([0, b])$ means $H(\{t\} \times L) \subseteq [0, b]$; hence $t \in S$. 
 
 Now we show $S$ is open. This uses a [[countably compact space|countably compact]] version of the [[tube lemma]]. If $t \in S$, then we can find $b \in L$ such that $\{t\} \times L \subseteq H^{-1}([0, b))$, where the right side is open in $I \times L$. Let $B_r(t) \subseteq I$ denote the [[ball]] of radius $r$ about $t$, and for $c \lt d$ in $L$ let $(c, d)$ denote the open interval between $c$ and $d$. Consider the collection $T$ of all triples $(n, c, d) \in \mathbb{N} \times L \times L$ such that 
 
@@ -56,7 +56,7 @@ $$U_{n, c, d} \coloneqq B_{1/n}(t) \times (c, d) \subseteq H^{-1}([0, b)).$$
 
 For each fixed $n \in \mathbb{N}$, put $U_n = \bigcup_{(n, c, d) \in T} (c, d)$. The $U_n$ form a countable [[open cover]] of $L$, since for every $x \in L$ there is a $U_{n, c, d}$ containing the pair $(t, x)$. Since $L$ is countably compact, there is a finite subcover $U_{n_1}, \ldots, U_{n_k}$. Putting $n = \max \{n_1, \ldots, n_k\}$, we see 
 
-$$B_{1/n}(t) \times L \subseteq H^{-1}([0, b))$$ 
+$$B_{1/n}(t) \times L = B_{1/n}(t) \times \bigcup_{i=1}^k U_{n_i} = \bigcup_{i=1}^k B_{1/n}(t) \times U_{n_i} \subseteq \bigcup_{i=1}^k B_{1/n_i}(t) \times U_{n_i} \subseteq H^{-1}([0, b))$$ 
 
 from which it immediately follows that $B_{1/n}(t) \subseteq S$. 
 
