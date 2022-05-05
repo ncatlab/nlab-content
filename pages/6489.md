@@ -22,7 +22,7 @@
 
 ## Idea
 
-Bridgeland stability conditions on a [[triangulated category]] are certain data which give a derived analogue of the Mumford's stability.
+Bridgeland stability conditions on a [[triangulated category]] are certain data which give a derived analogue of [[David Mumford]]'s concept of [[GIT-stable point|stability]] in [[geometric invariant theory]].
 
 The concept originally arose as a formalization of reaction processes of [[D-branes]] for the [[B-model]] [[topological string]]. These are (hypothetical) physical objects that appear in different species labeled by [[objects]] in a [[triangulated category|triangulated]] [[derived category]] (of [[quasicoherent sheaves]] on some [[Calabi-Yau variety]]). Whenever there is a process 
 
