@@ -40,6 +40,8 @@ For $G$ a [[discrete group]] which is [[perfect group|perfect]], the _universal 
 
 * [[maximal central extension]]
 
+* [[universal higher central extension]]
+
 ## References
 
 ### General
