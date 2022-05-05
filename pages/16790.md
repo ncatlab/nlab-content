@@ -38,6 +38,7 @@ This means that the near/far horizon limit may also be thought of as correspondi
 Since the [[Planck length]] "is tiny" and due to the higher roots of $N$ appearing here, this means that $N$ must be "huge" for the near horizon limit to be visible at macroscopic scale, while, conversely, any "moderate" value of $N$ means implies that every macroscopic radius is "far" from the horizon. 
 
 
+
 ### Near-horizon geometry
 
 For [[black brane|black]] [[M-branes]] ([[black branes]] in [[11-dimensional supergravity]]) of [[dimension]] $p+1$ that preserve some [[supersymmetry]], the near horizon geometry is always a [[Cartesian product]] of an [[anti-de Sitter spacetime]] $AdS_{p+2}$ with a [[compact topological space|compact]] [[Einstein manifold]] $X_{11-(p+2)}$; 
@@ -281,6 +282,65 @@ $$
 
 which is the metric on a [[Cartesian product]] of flat [[Minkowski spacetime]] [[worldvolume]] of an M5-brane with the [[metric cone]] on $X_4$.
 
+### The MK6-brane
+
+The [[metric tensor]] of $N$ coincident [[KK-monopoles]] in [[11-dimensional supergravity]] in the limit that $\ell_{th} \coloneqq N \ell_P \to 0$ is
+
+\[
+  \label{SmallNMK6}
+  g_{MK6} 
+    \;=\;
+  g_{\mathbb{R}^{6,1}}
+  +
+  (d y)^2
+  + 
+  y^2
+  \big(
+    (d \theta)^2
+    + 
+    (\sin \theta)^2 (d \varphi)^2
+    + 
+    (\cos \theta)^2 (d \phi)^2
+  \big)
+\] 
+
+subject to the identification
+
+\[
+  \label{OrbifoldIdentificationForKKMonopole}
+  (\varphi, \phi)
+  \;\sim\;
+  (\varphi, \phi) + (2\pi/N ,2\pi/N)
+  \,.
+\]
+
+This is equation (47) in [IMSY 98](#IMSY98), where we used the condition $U/(\frac{N}{g^{2/3}_{YM}}) = U/(\frac{N}{(2\pi)^{4/3} \ell_P}) \gg 1$ from a few lines above, in the equation $y^2 = 2 N \ell^3_P U $ right above (47) to find $y^2 = 2(2\pi)^{-4/3} N^2 \ell_P^2 (U/(\frac{N}{ (2 \pi)^{4/3} \ell_P}))$, hence that $y$ is large in units of
+
+$$
+  \ell_{th} \;=\; \sqrt{2} (2\pi)^{-2/3} N \ell_P
+  \,.
+$$
+The identification (eq:OrbifoldIdentificationForKKMonopole) means that this is the [[orbifold]] [[metric cone]] $\mathbb{R}^{6,1} \times \left( \mathbb{R}^4/(\mathbb{Z}_N)\right)$, hence an A-type [[ADE-singularity]]. To make this more explicit, introduce the complex coordinates
+
+$$
+  v \;\coloneqq\; y \, e^{i \varphi} \sin \theta
+  \;\;\;
+  w \;\coloneqq\; y \, e^{i \phi} \cos \theta
+$$
+
+on $\mathbb{R}^4 \simeq \mathbb{C}^2$, in terms of which (eq:SmallNMK6) becomes
+
+$$
+  g_{MK6} 
+  \;\coloneqq\;
+  d v d \overline v
+  + 
+  d w d \overline w
+$$
+
+and which exhibit the identification (eq:OrbifoldIdentificationForKKMonopole) as indeed that of the A-type $\mathbb{Z}_N$-action ([Asano 00, around (18)](#Asano00)).
+
+
 
 ## Related concepts
 
@@ -327,6 +387,9 @@ reviewed in
 * {#FigOFar98} [[Jose Figueroa-O'Farrill]], _Near-horizon geometries of supersymmetric branes_, talk at [SUSY 98](http://inspirehep.net/record/971430/) ([arXiv:hep-th/9807149](https://arxiv.org/abs/hep-th/9807149), [talk slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/SUSY98.pdf))
 
 The near horizon geometry of coincident [[KK-monopoles]] in [[11-dimensional supergravity]] is discussed in 
+
+* {#IMSY98} Nissan Itzhaki, [[Juan Maldacena]], Jacob Sonnenschein, Shimon Yankielowicz, section 9 of _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 1998 ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
+
 
 * {#Asano00} Masako Asano, section 3 of _Compactification and Identification of Branes in the Kaluza-Klein monopole backgrounds_ ([arXiv:hep-th/0003241](https://arxiv.org/abs/hep-th/0003241))
 
