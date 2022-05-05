@@ -1,6 +1,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 #### Knot theory
 +--{: .hide}
 [[!include knot theory - contents]]
