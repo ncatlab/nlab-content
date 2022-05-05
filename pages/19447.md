@@ -18,7 +18,9 @@
 {:toc}
 
 ## Idea
-The notion of a **regular semicategory** generalizes the notion of a _regular algebra_ from ring theory to (semi-)category theory. Just like regular algebras are (in general) non-unital algebras that nevertheless "behave" in many respects like unital ones, regular semicategories are semicategories on the verge of turning into categories.
+The notion of a **regular semicategory** generalizes the notion of a _regular algebra_ from ring theory to (semi-)category theory. Just like regular algebras are (in general) non-unital algebras that nevertheless "behave" in many respects like unital ones, regular semicategories are semicategories on the verge of being categories.
+
+>Note that regular semicategories that are categories **are not** (necessarily) [[regular category|regular categories]] in the usual sense. In this case there is a **clash of terminology** between category theory and algebra.
 
 ## Preliminaries
 
@@ -64,7 +66,20 @@ Given $\mathcal{G}$ there is also a **Yoneda morphism** $Y_\mathcal{G}:\mathcal{
 
 ## Properties
 
-...
+The most striking result is that although for a general regular semicategory $\mathcal{G}$ regular presheaves will not be Yoneda presheaves and vice versa nevertheless the subcategories $RegPsh(\mathcal{G})$ and $YonPsh(\mathcal{G})$ are _identical_ in an [[adjoint cylinder|identity-and-unity of opposites]] in the sense of [[William Lawvere|Lawvere]] i.e. both are equivalent and occur in an [[level|essential localization]] of $Prsh(\mathcal{G})$.
+
++-- {: .num_prop #unity_of_opposites}
+###### Theorem 
+Let $\mathcal{G}$ be a regular semicategory. The functor $k:RegPsh(\mathcal{G})\to Prsh(\mathcal{G})$ defined on objects by $F\mapsto Nat(Y_\mathcal{G}({}_-),F)$ is fully-faithful and part of an adjoint string
+
+$$
+i\dashv j\dashv k:RegPsh(\mathcal{G})\hookrightarrow Prsh(\mathcal{G})
+$$
+
+with $k$ identifying the regular presheaves with the Yondea presheaves and $j$ identifying them with the presheaves that are colimits of representables.
+=--
+
+For the proof see Moens et al. ([2002](#MBB02), p.179).
 
 ## Related entries
 
