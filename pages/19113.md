@@ -17,7 +17,7 @@
 
 ## Idea
 
-By a _finite rotation group_ one means a [[finite]] [[subgroup]] of a rotaiton group, hence of a [[special orthogonal group]] $SO(n)$ or [[spin group]] $Spin(n)$ or similar. 
+By a _finite rotation group_ one means a [[finite]] [[subgroup]] of a rotation group, hence of a [[special orthogonal group]] $SO(n)$ or [[spin group]] $Spin(n)$ or similar. 
 
 The finite subgroups of $SO(3)$ and $SU(2)$ follow an [[ADE classification]] (theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} below).
 
