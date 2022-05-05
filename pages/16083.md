@@ -178,7 +178,7 @@ This perspective on the torsion constraints in supergravity is adopted in ([Lott
 
 The [[supergravity]] [[equations of motion]] typically imply the torsion constraints. See at [super p-brane -- On curved spacetimes](Green-Schwarz+action+functional#OnCurvedSpacetime) for more.
 
-With enough [[supersymmetry]], the torsion constraints (always together with the [[Bianchi identities]] on the superfields, see at _[[D'Auria-Fre formulation of supergravity]]_) may even become equivalent to the supergravity equations of motion. This is so for [[11-dimensional supergravity]] ([Candiello-Lechner 93](#CandielloLechner93), [Howe 97](#Howe97)) and maybe its maximally supersymmetric [[KK-compactifications]]. See at _[Examples -- 11d SuGra](#Examples11dSuGra)_.
+With enough [[supersymmetry]], the torsion constraints (always together with the [[Bianchi identities]] on the superfields, see at _[[D'Auria-Fre formulation of supergravity]]_) may even become equivalent to the supergravity equations of motion. This is so for [[11-dimensional supergravity]] ([Candiello-Lechner 93](#CandielloLechner93), [Howe 97](#Howe97), see [Cederwall-Gran-Nilsson-Tsimpis 04, section 2.4](#CederwallGranNilssonTsimpis04)) and maybe its maximally supersymmetric [[KK-compactifications]]. See at _[Examples -- 11d SuGra](#Examples11dSuGra)_.
 
 
 
@@ -199,7 +199,7 @@ The torsion constraint for [[11-dimensional supergravity]] is discussed for inst
 
 Here something special happens:
 
-The articles ([Candiello-Lechner 93 (5.6)](#CandielloLechner93), [Howe 97](#Howe97)) show that imposing the torsion constraint (on some chart) $\mathbf{d} E^a + \omega^{a}{}_b \wedge E^b - \bar \psi \Gamma^a \psi  = 0$ as well as $(\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi)_{\theta \theta} = 0$ implies the equations of motion of [[11d supergravity]]. 
+The articles ([Candiello-Lechner 93 (5.6)](#CandielloLechner93), [Howe 97](#Howe97), see [Cederwall-Gran-Nilsson-Tsimpis 04, section 2.4](#CederwallGranNilssonTsimpis04)) show that imposing the torsion constraint (on some chart) $\mathbf{d} E^a + \omega^{a}{}_b \wedge E^b - \bar \psi \Gamma^a \psi  = 0$ as well as $(\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi)_{\theta \theta} = 0$ implies the equations of motion of [[11d supergravity]]. 
 
 Moreover, setting $\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi = 0$ generally (not just the component proportional to the wedge product of two fermionic 1-forms, hence requiring the full supertorsion tensor to be that of super-Minkowski spacetime)) then ([Candiello-Lechner 93, (5.8) with (6.5)](#CandielloLechner93))  this in addition puts the [[field strength]] of the [[supergravity C-field]] to 0. Hence this implies solutions to the ordinary vacuum [[Einstein equations]] in 11d. Such solutions are considered notably in the context of [[M-theory on G2-manifolds]] (e.g. [Acharya 02, p. 9](M-theory+on+G2-manifolds#Acharya02)). See also at _[M-theory on G2-manifolds -- Details -- Vacuum solution and torsion constraints](M-theory+on+G2-manifolds#VacuumSolutionsAndTorsion)_.
 
@@ -320,6 +320,9 @@ The claim that this torsion constraint in  [[11-dimensional supergravity]] is al
 * {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B
 Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
+concisely reviewed in 
+
+* {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP 0505:052 ,2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
 
 For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
 
