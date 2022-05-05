@@ -25,8 +25,16 @@ The corresponding [[super Lie algebras]] are called the _orthosymplectic Lie alg
 They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Lledo-Varadarajan 00](#DAuriaFerrareLledoVaradarajan00)), see at _[supersymmetry -- Classification -- Superconformal symmetry](supersymmetry#ClassificationSuperconformal)_.
 
 ## Examples
+ {#Examples}
 
-* $\mathfrak{osp}(1\vert 32)$ is a limiting case of the [[M-theory super Lie algebra]] ([Fernandez-Izquierdo-Olmo 15](#FernandezIzquierdoOlmo15)). Further relation also to the [[type II supersymmetry algebra]] had been discussed in ([Bergshoess-Proeyen 00](#BergshoessProeyen00)).
+* $\mathfrak{osp}(1\vert 32)$ is a limiting case of the [[M-theory super Lie algebra]] ([Fernandez-Izquierdo-Olmo 15](#FernandezIzquierdoOlmo15)). 
+
+  Further relation also to the [[type II supersymmetry algebra]] had been discussed in ([Bergshoess-Proeyen 00](#BergshoessProeyen00)).
+
+* The [[M-theory super Lie algebra]] is actually a sub-super Lie algebra of $\mathfrak{osp}(1\vert 64)$ ([vanHolten-VanProeyen 82](#vanHoltenVanProeyen82), [Bars-Deliduma-nMinic 99, (11)-(15)](#BarsDelidumanMinic99), [West 00, section 7](#West00)) 
+
+  In fact $OSp(1\vert 64)$ is the smallest simple supergroup that contains the [[M-theory super Lie algebra]]. Moreover, it is generated from its M-theory sub-algebra and the [[special conformal transformations]]  ([Bars-Deliduman-Minic 99, p. 5](#BarsDelidumanMinic99))
+
 
 * The [[super anti de Sitter spacetimes]] are quotients of orthosymplictic super Lie groups:
 
@@ -76,9 +84,17 @@ They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Ll
 
 * {#FernandezIzquierdoOlmo15} J.J. Fernandez, J.M. Izquierdo, M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B Volume 897, August 2015, Pages 87&#8211;97 ([arXiv:1504.05946](http://arxiv.org/abs/1504.05946))
 
+* {#vanHoltenVanProeyen82} [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ Supersymmetry Algebras in $D=2$, $D=3$, $D=4$ $MOD-8$_, J.Phys. A15 (1982) 3763 ([spire:177060](http://inspirehep.net/record/177060))
+
+* {#BarsDelidumanMinic99} [[Itzhak Bars]], C. Deliduman, D. Minic, _Lifting M-theory to Two-Time Physics_, Phys.Lett. B457 (1999) 275-284 ([arXiv:hep-th/9904063](https://arxiv.org/abs/hep-th/9904063))
+
+* {#Bars00} [[Itzhak Bars]], _2T Physics Formulation of Superconformal Dynamics Relating to Twistors and Supertwistors_, Phys.Lett. B483 (2000) 248-256 ([arXiv:hep-th/0004090](https://arxiv.org/abs/hep-th/0004090))
+
+* {#West00} [[Peter West]], _Hidden Superconformal Symmetry in M Theory_, JHEP 0008:007, 2000 ([arXiv:hep-th/0005270](https://arxiv.org/abs/hep-th/0005270))
+
 ### Representation theory
 
-The [[representation theory]] of the orthosymplectic group is discussed in
+The [[representation theory]] ([[singleton representations]]) of the orthosymplectic group is discussed in
 
 * {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, Volume 143, Issues 4&#8211;6, 16 August 1984, Pages 389-395
 
