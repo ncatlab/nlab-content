@@ -288,6 +288,10 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 * [[equivariant elliptic cohomology]]
 
 
+## Examples
+
+[[!include Segal completion -- table]]
+
 ## Related concepts
 
 * [[equivariance]], [[equivariant structure]]
