@@ -188,6 +188,8 @@ The composite [[(âˆž,1)-functor]] $\Gamma \circ LConst$ is the [[shape of an (âˆ
 
 * [[ex-space]]
 
+* [[global element]]
+
 [[!redirects global sections]]
 
 [[!redirects global sections functor]]
