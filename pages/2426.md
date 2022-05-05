@@ -29,6 +29,12 @@ A _Riemannian manifold_ is a [[smooth manifold]] equipped with a [[Riemannian me
 
 See also [[pseudo-Riemannian manifold]]
 
+## Examples
+
+* [[Euclidean space]]
+
+* [[round sphere]], [[Riemann sphere]]
+
 ## Related concepts
 
 * To be distinguished from [[Riemann surface]]. In particular, the concepts of 2-dimensional Riemannian manifolds and Riemann surfaces are, while closely related, crucially different.
@@ -38,6 +44,8 @@ See also [[pseudo-Riemannian manifold]]
 * See also the [[Myers–Steenrod theorem]].
 
 * For [[infinite-dimensional manifold]]s see also [[orthogonal structure]].
+
+* [[geodesic completeness]]
 
 * The analog in [[complex geometry]] is the notion of [[Kähler manifold]].
 
