@@ -1777,7 +1777,7 @@ such that for every open subset $U$ as above the following conditions hold:
 1. the set of plots $\mathbf{X}(U)$ contains all the [[constant functions]]
 
    $$
-     X \overset{const}{\hookrightarrow} \mathbf{X}(U) \hookrightarrow Hom_{Set}(U,X)
+     X \overset{const_U}{\hookrightarrow} \mathbf{X}(U) \hookrightarrow Hom_{Set}(U,X)
    $$
 
 1. for every [[function]] $\phi \;\colon\; U \to X$ and for every [[open cover]] $\{U_i \overset{\iota_i}{\to} U\}$, if each [[restriction]] is a plot, $\phi\vert_{U_i} \in \mathbf{X}(U_i)$, then $\phi$ itself is a plot: $\phi \in \mathbf{X}(U)$;
@@ -1887,7 +1887,7 @@ $$
   \,,
 $$ 
 
-which the [[adjunction unit]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)) of the $(\Gamma \dashv coDisc)$-adjunction
+which is the [[adjunction unit]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)) of the $(\Gamma \dashv coDisc)$-adjunction
 
 $$
   \mathbf{X}  
@@ -1905,7 +1905,7 @@ Now a morphism of sheaves is a monomorphism, precisely if for each object $U \in
   (coDisc \Gamma \mathbf{X})(U)
 \] 
 
-is an [[injective function]] (...). The [[codomain]] of this function may be identified as
+is an [[injective function]] (...). The [[codomain]] of this function may be re-identified as follows:
 
 $$
   \begin{aligned}
@@ -1913,7 +1913,7 @@ $$
     & \simeq
     Hom_{SmoothSet}( y(U), coDisc \Gamma \mathbf{X} )
     \\
-    * \simeq
+    & \simeq
     Hom_{Set}( \Gamma y(U), \Gamma \mathbf{X} )
     \\
     & \simeq
@@ -1922,8 +1922,7 @@ $$
   \end{aligned}
 $$
 
-where we first used the [[Yoneda lemma]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)), then the adjunction isomorphism ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) of $(\Gamma \dash coDisc)$. 
-
+where we first used the [[Yoneda lemma]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)), then the adjunction isomorphism ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) of $(\Gamma \dashv coDisc)$. 
 In the final step we used that the cohesive structure on $SmoothSet$ comes from $CartSp$ being a [[cohesive site]] (Prop. \ref{SmoothSetsFormACohesiveTopos}) and that in this case $\Gamma$ is given by evaluation on the point ([here](geometry+of+physics+--+categories+and+toposes#CohesiveGlobalSectionsGivenByPointEvaluation)), and we wrote
 
 \[
@@ -1943,7 +1942,7 @@ This shows that (eq:DecohesAsGammacoDiscUnit) being an injection, says equivalen
   \,.
 \] 
 
-This is precisely the form of the second item in Def. \ref{DiffeologicalSpace}.
+Hence that $\mathbf{X}(U)$ is always a subset of the [[function set]] from $U$ to the set $X$, as in the second clause in Def. \ref{DiffeologicalSpace}.
 
 This shows that every concrete smooth set is a diffeological space. For the converse, it remains to check that if we start with a diffeological space $\mathbf{X}$ with prescribed inclusion function
 
@@ -1951,30 +1950,66 @@ $$
   \mathbf{X}(U) \hookrightarrow Hom_{Set}(U,X)
 $$
 
-then (eq:RearrangedDecohesAsGammacoDiscUnit) reproduces this inclusion.
+then (eq:RearrangedDecohesAsGammacoDiscUnit) indeed reproduces this inclusion.
 
-spring
+To see this, first notice that, by the [[Yoneda lemma]] and the definition of smooth maps between diffeological spaces, this inclusion function equals the function
 
+$$
+  \Gamma_{y(U),\mathbf{X}}
+  \;\colon\;
+  \array{
+    Hom_{SmoothSet}( y(U), \mathbf{X} )
+    &\hookrightarrow&
+    Hom_{Set}( \Gamma y(U), \Gamma \mathbf{X} )
+    \\
+    f &\mapsto& \Gamma(f)
+  }
+$$
 
-By the [[Yoneda lemma]] and adjunction hom-isomorphism, this equals the function
+which is the component function of the [[functor]] $\Gamma \;\colon\; SmoothSet \to Set$, which acts by point evaluation.
+
+Hence we need to show that this function is equal to that given by postcomposition with the $(\Gamma \dashv coDisc)$-[[adjunction unit]], followed by forming the $(\Gamma \dashv coDisc)$-[[adjunct]]
+
+\[
+  \label{PostcompositionWithEtaAsGamma}
+  \Gamma_{y(U), \mathbf{X}} \;=\;  \widetilde{\eta_{\mathbf{X}} \circ (-)}
+  \,.
+\]
+
+For this, let $f \in Hom_{SmoothSet}( y(U), \mathbf{X} )$ be any element, and consider the following [[naturality square]] for the adjunction hom-isomorphism ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)):
 
 $$
   \array{
-    Hom_{SmoothSet}(y(U),\mathbf{X})
+    Hom_{Set}( \Gamma \mathbf{X} , \Gamma \mathbf{X} )
+    &\overset{\widetilde (-)}{\longrightarrow}&
+    Hom_{SmoothSet}( \mathbf{X}, coDisc \Gamma \mathbf{X} )
     \\
-    \downarrow
+    {}^{\mathllap{ Hom_{SmoothSet}(\Gamma(f), \mathbf{X}) }}
+    \big\downarrow
+    &&
+    \big\downarrow^{\mathrlap{ Hom_{SmoothSet}( f, coDisc \Gamma \mathbf{X} ) }}
     \\
+    Hom_{Set}( \Gamma y(U), \Gamma \mathbf{X} )
+    &\overset{\widetilde{ (-) }}{\longleftarrow}&
     Hom_{SmoothSet}( y(U), coDisc \Gamma \mathbf{X} )
-    \\ 
-    \downarrow 
-    \\
-    Hom_{SmoothSet}( \Gamma(y (U)) )
   }
-$$ 
+  \phantom{AAAA}
+  \array{
+    \{ \Gamma \mathbf{X} \overset{id}{\to} \Gamma \mathbf{X}\}
+    &\longrightarrow&
+    \{ \mathbf{X} \overset{\eta_{\mathbf{X}}}{\to} coDisc \Gamma \mathbf{X} \}
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    \{ \Gamma y(U) \overset{\Gamma(f)}{\to} \Gamma \mathbf{X} \}
+    &\longleftarrow&
+    \{ y(U) \overset{\eta_{\mathbf{X}} \circ f}{\longrightarrow} \}    
+  }
+$$
 
-This being an injection, hence a subset inclusion, is precisely the condition for $\mathbf{X}(U)$ to be the set of plots of a diffeological space,
-with $X \coloneqq \Gamma \mathbf{X}$ its underlying set.
-
+and chase the [[identity morphism]] in the top left set through this diagram, as shown on the right. This gives rise to the [[adjunction unit]] as shown in the top right (by [this def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)), and hence to the composite $\eta_{\mathbf{X}}\circ f $ in the bottom right. The image of that in the bottom left is, by definition, the [[adjunct]], and hence the [[commuting saquare|commutativity]] of this square yields (eq:PostcompositionWithEtaAsGamma).
 
 =--
 
