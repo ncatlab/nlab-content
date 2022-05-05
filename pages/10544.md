@@ -1,6 +1,6 @@
 I am an italian PhD; it's difficult to summarize my interests, but since I discovered the nlab three years ago I lurk it almost everyday, so they are basically modeled on the topics encountered here: Category Theory to understand Mathematics, Physics and Philosophy.
 
-I'm a former student of [[people:Domenico Fiorenza]]. I owe him my mathematical everything.
+I'm a former student of [[Domenico Fiorenza]]. I owe him my mathematical everything.
 
 I am currently a postdoc at Masaryk University (Brno)
 
