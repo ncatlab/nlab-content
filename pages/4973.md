@@ -42,7 +42,7 @@ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \i
 * The exists a $B\in\mathcal{E}$ such that for every $A\in\mathcal{E}$ the 
 composite
 $$
-f^*(f_*\tilde A^B)\times B\to \tilde A\times B\to \tilde A
+f^*f_*(\tilde A^B)\times B\to \tilde A^B\times B\to \tilde A
 $$
 is epic, where $\tilde A$ is the [[partial map classifier]] of $A$.
 
