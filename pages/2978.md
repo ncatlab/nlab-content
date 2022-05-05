@@ -75,7 +75,7 @@ The category of totally bounded uniform spaces and uniformly continuous function
 
 All of these results hold constructively unless otherwise noted.
 
-Every [[compact space]] is totally bounded; this is immediate from Definition \ref{slick}, since every uniform cover is an open cover.  Conversely, if one assumes the [[ultrafilter principle]], then every [[complete space]] and totally bounded space is compact.
+Every [[compact space]] is totally bounded; this is immediate from Definition \ref{slick}, since every uniform cover is an open cover.  Conversely, if one assumes the [[ultrafilter principle]], then every [[complete space|complete]] and totally bounded space is compact.  In [[constructive mathematics]], "complete and totally bounded" is sometimes taken as a definition of "compact" -- see [[Bishop-compact space]].
 
 Any [[product]] of totally bounded spaces is totally bounded.  The totally bounded subspaces of a given space $X$ form an [[ideal]] in the [[power set]] of $X$.
 
