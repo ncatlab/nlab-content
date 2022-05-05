@@ -36,7 +36,7 @@ The original formulation in _[[Pursuing Stacks]]_ (page 30 in the pagination of 
 
 > Now this maybe isnt [sic] so silly after all, in view of the following Assumption:
 
-followed by a blacked out (leaving the original illegible) statement of the assumption. Then comes the following:
+followed by a blacked out (in most copies, but see _[[page 30.pdf|here:file]]_ about mid-page) statement of the assumption. Then comes the following:
 
 >   This means 1) any equivalence $\approx: (Hot) \rightarrow (Hot)$ is isomorphic to the identity functor, and 2) any automorphism of the identity functor (possibly even any endomorphism ?) is the identity.
 >
