@@ -54,7 +54,13 @@ There are many different notations used in the literature for the bidirectional 
 
 * Andrea Asperti, Wilmer Ricciotti, Claudio Sacerdoti Coen, and Enrico Tassi. *A bi-directional refinement algorithm for the calculus of (co)inductive constructions*, 2012, [arxiv](https://arxiv.org/abs/1202.4905)
 
+* Kevin Watkins, Iliano Cervesato, Frank Pfenning, and David Walker. *A concurrent logical framework I: Judgments and properties*. Technical Report CMU-CS-02-101, Department of Computer Science, Carnegie Mellon University, 2002. Revised May 2003, [pdf](http://www.cs.cmu.edu/~fp/papers/CMU-CS-02-101.pdf)
+
 ### Other type theories
+
+* Rowan Davies and Frank Pfenning. *Intersection types and computational effects*. In P. Wadler, editor, Proceedings of the Fifth International Conference on Functional Programming (ICFP'00), pages 198-208, Montreal, Canada, September 2000. ACM Press. [pdf](http://www.cs.cmu.edu/~fp/papers/icfp00.pdf)
+
+* Joshua Dunfield and Frank Pfenning. *Tridirectional typechecking*. In X.Leroy, editor, Conference Record of the 31st Annual Symposium on Principles of Programming Languages (POPL'04), pages 281-292, Venice, Italy, January 2004. ACM Press. Extended version available as Technical Report CMU-CS-04-117, March 2004. [pdf](http://www.cs.cmu.edu/~fp/papers/popl04.pdf)
 
 * Joshua Dunfield, Neelakantan R. Krishnaswami, *Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism*, 2013, [arxiv](https://arxiv.org/abs/1306.6032)
 
