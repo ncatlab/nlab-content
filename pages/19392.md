@@ -95,6 +95,6 @@ However, this is equivalent to our above presentation because for any $a:v$, we 
 
 * [[Paul-Blain Levy]], [Adjunction Models for Call-by-push-value with Stacks_, CTCS 2003](https://www.cs.bham.ac.uk/~pbl/papers/ctcs02journal.pdf)
 
-* {#EEC} Jeff Egger, Rasmus Ejlers Møgelberg and Alex Simpson, [The Enriched Effect Calculus: Syntax and Semantics]](http://homepages.inf.ed.ac.uk/als/Research/Sources/eec.pdf) Journal of Logic and Computation, Volume 24.
+* {#EEC} Jeff Egger, Rasmus Ejlers Møgelberg and Alex Simpson, [The Enriched Effect Calculus: Syntax and Semantics](http://homepages.inf.ed.ac.uk/als/Research/Sources/eec.pdf) Journal of Logic and Computation, Volume 24.
 
 * {#LSR} [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
