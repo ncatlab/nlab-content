@@ -137,7 +137,7 @@ We now generalize the 1-category $InfPoint$ of [[infinitesimally thickened point
 +-- {: .num_prop}
 ###### Proposition
 
-FormalSmooth \infty Grpd$ is a [[cohesive (∞,1)-topos]].
+$FormalSmooth \infty Grpd$ is a [[cohesive (∞,1)-topos]].
 
 =--
 
@@ -902,7 +902,7 @@ $$
   \,.
 $$
 
-By inspection one see that this morphis is
+By inspection one see that this morphism is
 
 * in degree 0 the target-map $t : Mor(\mathcal{G}) \to \mathcal{G}_0$;
 
