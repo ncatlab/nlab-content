@@ -402,6 +402,26 @@ This is a _[[gros topos]]_, in a sense made precise by Def. \ref{CohesiveTopos} 
 
 =--
 
++-- {: .num_remark #OrdinarySpacesAreGeneratorsAndRelationsForGeneralizedSpaces}
+###### Remark
+**(ordinary [[spaces]] and their [[coverings]] are [[generators and relations]] for [[generalized spaces]])**
+
+Given a [[site]] $\mathcal{C}$ (Def. \ref{Coverage}), then its [[presheaf topos]] $[\mathcal{C}^{op}, Set]$ (Example \ref{TrivialCoverage}) is the [[free cocompletion]] of the [[category]] $\mathcal{C}$ (Prop. \ref{FreeCocompletion}), hence the category obtained by [[free construction|freely]] forming [[colimits]] ("gluing") of objects of $\mathcal{C}$.
+
+In contrast, the [[full subcategory]] inclusion $Sh(\mathcal{C}) \hookrightarrow [\mathcal{C}^{op}, Set]$ enforces _relations_ between these free colimits.
+
+Therefore in total we may think of a [[sheaf topos]] $Sh(\mathcal{C})$ as obtained by [[generators and relations]] from the [[objects]] of its [[site]] $\mathcal{C}$:
+
+* the objects of $\mathcal{C}$ are the generators;
+
+* the [[coverings]] of $\mathcal{C}$ are the relations.
+
+
+
+=--
+
+
+
 +-- {: .num_prop #Sheafification}
 ###### Proposition
 **([[sheafification]] and [[plus construction]])**
@@ -453,6 +473,8 @@ under the [[equivalence relation]] which identifies two such [[pairs]] if the tw
 
 
 =--
+
+
 
 
 $\,$
@@ -654,23 +676,6 @@ Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its
 
 
 (...)
-
-
-+-- {: .num_remark #OrdinarySpacesAreGeneratorsAndRelationsForGeneralizedSpaces}
-###### Remark
-**(ordinary [[spaces]] are [[generators and relations]] for [[generalized spaces]])**
-
-The [[presheaf topos]] $PSh(C)$ is the [[free cocompletion]] of the [[category]] $C$, hence the category obtained from $C$ by [[free construction|freely]] forming [[colimits]] of its objects.
-
-In contrast, the [[localization]] $Sh(C) \hookrightarrow PSh(C)$ enforces _relations_ between these free colimits.
-
-Therefore in total we may think of $Sh(C)$ as obtained by [[generators and relations]] from the [[site]] $C$:
-
-* the objects of $C$ are the generators;
-
-* the [[coverings]] of $C$ are the relations.
-
-=--
 
 +-- {: .num_theorem}
 ###### Theorem
