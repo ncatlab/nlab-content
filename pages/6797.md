@@ -21,7 +21,7 @@
 
 Higher spin gauge theory ([Vasiliev 96](#Vasiliev96)) is a kind of [[higher gauge theory]] whose [[field (physics)|field content]] is an infinite tower of massless fields of ever higher [[spin]].
 
-One way that higher spin gauge theories are thought to naturally arise is as the limiting case of [[string field theory]] when the string's tension is sent to zero ([Henneaux-Teitelboim 87, section 2](#HenneauxTeitelboim87),[Gross 88](#Gross88), [Sagnotti-Tsulaia 03](#SagnottiTsulaia03), [Bonelli 03](#Bonelli03)): The excitation spectrum of the [[string]] [[sigma-model]] contains beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale -- the _tensionless limit_ -- this is notably so for compactifications on [[anti de Sitter spaces]] of small radius. In this limit the string spectrum looks like a an infinite collection of massless [[spinning particles]] for ever higher spin. Due to their common orgin in the string, these share intricate relations among each other, which are argued to be described by higher spin gauge theory. (Notice that at least closed bosonic [[string field theory]] is itself already a [[higher gauge theory]], even without sending the tension to zero, see at _[closed string field theory -- As an ∞-Chern-Simons theory](string+field+theory#AsAnInfinityCSTheory)_).
+One way that higher spin gauge theories are thought to naturally arise is as the limiting case of [[string field theory]] when the string's tension is sent to zero ([Henneaux-Teitelboim 87, section 2](#HenneauxTeitelboim87),[Gross 88](#Gross88), [Sagnotti-Tsulaia 03](#SagnottiTsulaia03), [Bonelli 03](#Bonelli03)): The excitation spectrum of the [[string]] [[sigma-model]] contains beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale -- the _tensionless limit_ -- this is notably so for compactifications on [[anti de Sitter spaces]] of small radius. In this limit the string spectrum looks like an infinite collection of massless [[spinning particles]] for ever higher spin. Due to their common origin in the string, these share intricate relations among each other, which are argued to be described by higher spin gauge theory. (Notice that at least closed bosonic [[string field theory]] is itself already a [[higher gauge theory]], even without sending the tension to zero, see at _[closed string field theory -- As an ∞-Chern-Simons theory](string+field+theory#AsAnInfinityCSTheory)_.)
 
 
 ## References
@@ -34,10 +34,10 @@ Original articles include
 
 Reviews and lecture notes include
 
-* {#Vasiliev03} [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_ 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([pdf](http://www.pha.jhu.edu/events/jhworkshop/goteborg03/vasiliev.pdf))
+* {#Vasiliev03} [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_, 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([arXiv:hep-th/0401177](https://arxiv.org/abs/hep-th/0401177))
  
 
-* [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_ talk at String2004 in Moscow ([pdf](http://strings04.lpthe.jussieu.fr/talks/Vasiliev.pdf))
+* [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_ talk at String2004 in Moscow ([arXiv:hep-th/0409260](https://arxiv.org/abs/hep-th/0409260))
 
 * R. Argurio, [[Glenn Barnich]], G. Bonelli, M. Grigoriev (eds.) _Higher spin gauge theories_ Solvay Workshops and Symposia  (2004) ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Solvay1proc.pdf))
 
