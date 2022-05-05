@@ -19,7 +19,7 @@
 
 ## Definition
 
-A **coherent category** (also called a **pre-logos**) is a [[regular category]] in which the [[subobject posets]] $Sub(X)$ all have finite [[unions]] which are preserved by the [[base change]] functors $f^*:Sub(Y)\to Sub(X)$.
+A **coherent category** (also called a **pre-[[logos]]**) is a [[regular category]] in which the [[subobject posets]] $Sub(X)$ all have finite [[unions]] which are preserved by the [[base change]] functors $f^*:Sub(Y)\to Sub(X)$.
 
 A [[coherent functor]] serves as a morphism between coherent categories.
 
@@ -28,6 +28,22 @@ The [[internal logic]] of a coherent category is [[coherent logic]].
 An **infinitary coherent category** is a [[regular category]] in which the subobject posets $Sub(X)$ have all _[[small set|small]]_ unions which are [[pullback stability|stable under pullback]].  Infinitary coherent categories are also called __[[geometric category|geometric categories]]__.  (These are sometimes also required to be [[well-powered category|well-powered]]; see their page for details.)
 
 See [[familial regularity and exactness]] for a general description of the spectrum from regular categories through finitary and infinitary coherent categories.
+
+## Examples
+
+* [[Set]] is a coherent category.
+
+* More generally, any [[topos]] is coherent.
+
+* Even more generally, any [[locally cartesian closed category]] with finite [[colimits]] is coherent, and thus any [[quasitopos]] is coherent.
+
+* If $C$ is coherent, so is the [[functor category]] $C^D$ for any $D$.
+
+* A [[slice category]] of a coherent category is coherent.
+
+* Any [[distributive lattice]], regarded as a [[thin category]], is coherent.
+
+* The [[category of PERs]] over a [[PCA]] is coherent.
 
 
 ## Properties
