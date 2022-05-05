@@ -42,7 +42,7 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 The original article is
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In $N=2$ Supersymmetric Yang-Mills Theory_. Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](arxiv.org/abs/hep-th/9407087))
+* [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In $N=2$ Supersymmetric Yang-Mills Theory_. Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
 
 Reviews include
 
