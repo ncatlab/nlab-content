@@ -17,7 +17,11 @@
 
 ## Idea
 
-The concept of [[adjoint triples]] generalized form [[adjoint functors]] to [[Quillen adjunctions]].
+Just as a [[Quillen adjunction]] is a [[model category|model-categorical]] version of an [[adjunction]], a *Quillen adjoint triple* should be a model-categorical version of an [[adjoint triple]].
+
+However, there are various levels of generality at which this could be defined.  The simplest would be an adjoint triple between model categories in which both adjunctions are Quillen adjunctions.  However, this would require the middle functor to be both Quillen left adjoint and Quillen right adjoint for the same model structures, which (though not impossible) is a strong restriction.  A more general notion is obtained by allowing the model structures on one or both of the categories to vary between the two Quillen adjunctions, but keeping the same [[Quillen equivalence]] type so that when we pass to [[homotopy categories]] or derived [[(infinity,1)-categories]] we still get an adjoint triple.
+
+Currently, this page is primarily about a very restrictive case where only one of the model structures is allowed to vary, and the Quillen equivalence between the two model structures on that side must be an [[identity functor]].  However, more general versions could certainly also be defined.
 
 ## Definition
 
@@ -277,6 +281,8 @@ $$
 This follows immediately from the fact that passing to [[homotopy categories of model categories]] is a [[double pseudofunctor]] from the [[double category of model categories]] to the [[double category of squares]] in [[Cat]] ([this Prop.](double+category+of+model+categories#HomotopyDoublePseudofunctor)).
 
 =--
+
+A similar argument should show that we get an adjoint triple between the [[(infinity,1)-categories]]presented by the model categories.  We can therefore apply all $(\infty,1)$-category theoretic arguments.  But in what follows, we prove some basic facts about $(\infty,1)$-adjoint triples instead using model-categorical arguments.
 
 
 ### Derived adjoint modality
