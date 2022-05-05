@@ -85,7 +85,6 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 [[!include homotopy n-types - table]]
 
-[[!include notions of type]]
 
 
 ## References
