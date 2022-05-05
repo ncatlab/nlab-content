@@ -2864,7 +2864,12 @@ This means that, while any object may not fully enjoy the property that defines 
 
 One finds that (co-)modalities are a fully equivalent perspective on  the (co-)reflective subcategories of their fully _([[comodal object|co-]])[[modal objects]]_ (Def. \ref{ModalObjects} below), this is the statement of Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} below.
 
-Another alternative perspective on this situation is given by the concept of _[[localization of categories]]_ (Def. \ref{LocalizationOfACategory} below), which is about [[universal property|universally]] forcing a given collection of [[morphisms]] ("[[weak equivalences]]", Def. \ref{CategoryWithWeakEquivalences} below) to become [[inverse morphism|invertible]]. A _[[reflective localization]]_ is equivalently a [[reflective subcategory]]-inclusion (Prop. \ref{ReflectiveSubcategoriesAreLocalizations} below), and this perspective exhibits the [[modal objects]] (Def. \ref{ModalObjects} below) as equivalently forming the [[full subcategory]] of _[[local objects]]_ (Def. \ref{LocalObjects} below):
+Another alternative perspective on this situation is given by the concept of _[[localization of categories]]_ (Def. \ref{LocalizationOfACategory} below), which is about [[universal property|universally]] forcing a given collection of [[morphisms]] ("[[weak equivalences]]", Def. \ref{CategoryWithWeakEquivalences} below) to become [[inverse morphism|invertible]]. A _[[reflective localization]]_ is equivalently a [[reflective subcategory]]-inclusion (Prop. \ref{ReflectiveSubcategoriesAreLocalizations} below), and this exhibits the [[modal objects]] (Def. \ref{ModalObjects} below) as equivalently forming the [[full subcategory]] of _[[local objects]]_ (Def. \ref{LocalObjects} below). 
+
+Conversely, every [[reflective subcategory|reflection]] onto [[full subcategories]] of $S$-[[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms} below) satisfies the [[universal property]] of a [[localization]] at $S$ with respect to [[left adjoint]] [[functors]] (Prop. \ref{ReflectionOntoLocalObjectsIsLocalizationWithRespectToLeftAdjoints} below). 
+
+In conclusion, we have the following three equivalent perspectives on [[modalities]].
+
 
 | $\phantom{A}$[[reflective subcategory]]$\phantom{A}$ | $\phantom{A}$[[modal operator]]$\phantom{A}$ | $\phantom{A}$[[reflective localization]]$\phantom{A}$ | 
 |-------------|------------|-------------|
@@ -4377,4 +4382,52 @@ Conversely, if there is an [[isomorphism]] from $Y$ to a morphism in the image o
 
 =--
 
+
++-- {: .num_prop #ReflectionOntoLocalObjectsIsLocalizationWithRespectToLeftAdjoints}
+###### Proposition
+**([[reflective subcategory|reflection]] onto [[local objects]] in [[localization]] with respect to [[left adjoints]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) and let $S \subset Mor_{\mathcal{C}}$ be a [[class]] of [[morphisms]] in $\mathcal{C}$. Then the [[reflective subcategory|reflection]] onto the $S$-[[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms}) 
+satisfies, if it exists, the [[universal property]] of a [[localization of categories]] (Def. \ref{LocalizationOfACategory}) with respect to _[[left adjoint]]_ functors inverting $S$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write
+
+$$
+  \mathcal{C}_S 
+    \underoverset
+      {\underset{ \phantom{AA}\iota\phantom{AA} }{\hookrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+for the [[reflective subcategory]]-inclusion of the $S$-[[local objects]].
+
+Say that a [[morphism]] $f$ in $\mathcal{C}$ is an _$S$-[[local morphism]]_ if for every $S$-[[local object]] $A \in \mathcal{C}$ the [[hom-functor]] (Example \ref{HomFunctor}) from $f$ to $A$ yields a [[bijection]] $Hom_{\mathcal{C}}(f,A)$.
+Notice that, by the [[Yoneda embedding]] for $\mathcal{C}_S$ (Prop. \ref{YonedaEmbedding}), the $S$-[[local morphisms]] are precisely the morphisms that are taken to isomorphisms by the reflector $L$ (via Example \ref{YonedaCharacterizationOfIsomorphism}).
+
+Now let 
+
+$$
+  (F \dashv G)
+  \;\colon\;
+  \mathcal{C} 
+    \underoverset
+      {\underset{G}{\longleftarrow}}
+      {\overset{ \phantom{AA} F \phantom{AA} }{\longrightarrow}}
+      {\bot}
+   \mathcal{D}
+$$
+
+be a pair of [[adjoint functors]], such that the [[left adjoint]] $F$ inverts the morphisms in $S$. By the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) it follows that $G$ takes values in $S$-[[local objects]]. This in turn implies, now via the [[Yoneda embedding]] for $\mathcal{D}$, that $F$ inverts all $S$-[[local morphisms]], and hence all morphisms that are inverted by $L$. 
+
+Thus the essentially unique factorization of $F$ through $L$ now follows by Prop. \ref{ReflectiveSubcategoriesAreLocalizations}.
+
+
+=--
 
