@@ -207,16 +207,31 @@ $$
 
 ## References
 
+### General
+
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 11 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 * {#Hatcher} [[Allen Hatcher]], section 2.3 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-
 * Wikipedia, _[Adams operation](http://en.wikipedia.org/wiki/Adams_operation)_
-
 
 * [[Jacob Lurie]], remark 2 in: _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 35 _The image of $J$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
  
+### In representation theory
+ {#ReferencesInRepresentationTheory}
+
+Adams operations on the [[representation ring]] (the [[equivariant K-theory]] of the point) are discussed in
+
+* {#tomDieck79} [[Tammo tom Dieck]], section 3.5 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
+
+* Robert Boltje, _A characterization of Adams operations on representation rings_, 2001 ([pdf](https://boltje.math.ucsc.edu/publications/p01v.pdf))
+
+* {#tomDieck09} [[Tammo tom Dieck]], section 6.2 of  _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+* [[Michael Boardman]], _Adams operations on Group representations_, 2007 ([pdf](http://www.math.jhu.edu/~jmb/note/adamrept.pdf))
+
+
+* Ehud Meir, Markus Szymik, _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
 
 
 [[!redirects Adams operations]]
