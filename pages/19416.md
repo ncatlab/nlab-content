@@ -1,14 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _hypothèse inspiratrice_ or _inspiring assumption_  is an assumption formulated by Grothendieck in Pursuing Stacks, that the category of auto-equivalences of the [[homotopy category]] is equivalent to the [[final category]]. See below for Grothendieck's own formulation of it. It has not been proven in its original form.
+The _hypothèse inspiratrice_ or _inspiring assumption_  is an assumption formulated by [[Grothendieck]] in _[[Pursuing Stacks]]_, that the [[category]] of auto-[[equivalence of categories|equivalences]] of the [[classical homotopy category]] is [[equivalence of categories|equivalent]] to the [[final category]]. See below for Grothendieck's own formulation of it. It has not been proven in its original form.
 
 ## Proofs of lifts of the assumption
 
-The _hypothèse inspiratrice_ can be proven relatively easily if one re-formulates the question for a lift of the homotopy category to derivators, $(\infty,1)$-categories, or some other such setting for homotopy theory. One such proof is given in the article of [[Denis-Charles Cisinski]] referenced below. A different proof is given in the paper of [[Bertrand Toën]] and [[Gabriele Vezzosi]] referenced below, as the case $X=1$ of Corollary 5.2.2. 
+The _hypothèse inspiratrice_ can be proven relatively easily if one re-formulates the question for a lift of the homotopy category to derivators, [[(∞,1)-category]], or some other such setting for [[homotopy theory]]. One such [[proof]] is given in [Cisinski 08](#Cisinski08). A different proof is given in [Toën-Vezzosi 02](#ToenVezzoi02), as the case $X=1$ of Corollary 5.2.2. 
 
 ## Independence from ZFC?
 
@@ -16,7 +32,7 @@ At least one of the authors of this page (Richard) conjectures that the hypothè
 
 ## Grothendieck's formulation
 
-The original formulation in Pursuing Stacks (page 30 in the pagination of the original document, section 28, 8th of March 1983) is preceded by
+The original formulation in _[[Pursuing Stacks]]_ (page 30 in the pagination of the original document, section 28, 8th of March 1983) is preceded by
 
 > Now this maybe isnt [sic] so silly after all, in view of the following Assumption:
 
@@ -58,8 +74,8 @@ The final reference is on pg.273, section 83, probably the 27th or 28th of June 
 
 ## References
 
-[[Denis-Charles Cisinski]], _Propriétés universelles et extensions de Kan dérivées_, Theory Appl. Categ. 20, 605-649 (2008). [Link to article](http://www.tac.mta.ca/tac/volumes/20/17/20-17abs.html)
+* {#Cisinski08} [[Denis-Charles Cisinski]], _Propriétés universelles et extensions de Kan dérivées_, Theory Appl. Categ. 20, 605-649 (2008). [Link to article](http://www.tac.mta.ca/tac/volumes/20/17/20-17abs.html)
 
-[[Bertrand Toën]] and [[Gabriele Vezzosi]], _Segal topoi and Segal stacks over them_, [arXiv:math/0212330](https://arxiv.org/abs/math/0212330).
+* {#ToenVezzoi02} [[Bertrand Toën]] and [[Gabriele Vezzosi]], _Segal topoi and Segal stacks over them_, [arXiv:math/0212330](https://arxiv.org/abs/math/0212330).
 
 [[!redirects inspiring assumption]]
