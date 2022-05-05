@@ -2094,7 +2094,7 @@ $$
 $$
 
 be a [[submanifold]] of [[spacetime]] of dimension $r \in \mathbb{N}$. Recall the [[space of field histories]]
-restricted to its [[infinitesimal neighbourhood]], denoted $\Gamma_{\Sigma_r}(E)$ (def. \ref{FieldsAndFieldBundles}).
+restricted to its [[infinitesimal neighbourhood]], denoted $\Gamma_{\Sigma_r}(E)$ (def. \ref{FieldHistoriesOnInfinitesimalNeighbourhoodOfSubmanifoldOfSpacetime}).
 
 
 Then the operation of _[[transgression of variational differential forms]]_ to $\Sigma_r$ is the [[linear map]]
