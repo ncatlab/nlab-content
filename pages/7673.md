@@ -420,6 +420,10 @@ and shown to be equivalent to categories with attributes in
 
 * [[Martin Hofmann]], *Syntax and semantics of dependent types*, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985).
 
+The formulation in terms of representable natural transformations is in
+
+* [[Steve Awodey]]. (2018). *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, 28(2), 241-286. [PDF](https://arxiv.org/pdf/1406.3219.pdf)
+
 A proof of initiality for dependent type theory is claimed in
 
 * Simon Castellan, _Dependent type theory as the initial category with families_, 2014 ([pdf](http://iso.mor.phis.me/archives/2011-2012/stage-2012-goteburg/report.pdf))
@@ -467,6 +471,8 @@ Strictification is discussed in
 * {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013 
 
 * [[Vladimir Voevodsky]], [Notes on type systems](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/expressions_current.pdf)
+
+* [[Steve Awodey]]. (2018). *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, 28(2), 241-286. [PDF](https://arxiv.org/pdf/1406.3219.pdf)
 
 A comparison of various models, internally in type theory, is in
 
