@@ -455,7 +455,7 @@ While the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiS
 reflecting the fact that there are arbitrarily high orders of spacetime derivatives of a field histories,
 it turns out that it is only very "mildly [[infinite dimensional manifold|infinite dimensional]]"
 in that
-[[smooth  functions]] on jet bundles turn out to _locally_ depend on only finitely many of the jet coordinates
+[[smooth functions]] on jet bundles turn out to _locally_ depend on only finitely many of the jet coordinates
 (i.e. only on a finite order of spacetime derivatives). This is the content
 of the following prop. \ref{JetBundleIsLocallyProManifold}.
 
