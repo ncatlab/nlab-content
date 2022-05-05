@@ -27,11 +27,15 @@ The following provides more details. For technical help with special features of
 ## Software required to use the $n$Lab
 {#software}
 
-The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML).   Presently the only browser with _native_ MathML support is [Firefox](http://www.mozilla.com/firefox/), which works especially well if you install the [STIX fonts](http://www.mozilla.org/projects/mathml/fonts/). 
+The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML). Presently the only browser with _native_ MathML support is [Firefox](http://www.mozilla.com/firefox/).
 
 Essentially all other browsers fall back to rendering MathML, and hence $n$Lab pages, using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming%29). This works well for small pages, but takes up to many minutes for rendering on larger pages.
  
-Some versions of Opera also apparently support MathML, but as a blog post on [Jacques Distler's Musings](http://golem.ph.utexas.edu/~distler/blog/archives/001588.html) points out, this may not work properly.  For InternetExplorer, one used to need to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  Other browsers such as Safari and Chrome seemingly do not support MathML at present.
+> The following paragraph is outdated.
+
+Some versions of Opera also apparently support MathML, but as a blog post on [Jacques Distler's Musings](http://golem.ph.utexas.edu/~distler/blog/archives/001588.html) points out, this may not work properly. For InternetExplorer, one used to need to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  Other browsers such as Safari and Chrome seemingly do not support MathML at present.
+
+
 
 ## How to search the nLab & nForum from firefox ##
 
