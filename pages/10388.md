@@ -21,10 +21,22 @@ Given a [[structure]] on some [[space]] $X$ which is equipped with the [[action]
 
 * [[equivariant bundle]], [[equivariant connection]]
 
-* [[equivariant cohomology]]
 
 ## Related concepts
 
 * [[equivariance]]
+
+* [[general covariance]], [[gauge invariance]], [[principle of equivalence]]
+
+* [[equivariant cohomology]]
+
+* [[equivariant homotopy theory]]
+
+* [[equivariant stable homotopy theory]]
+
+* [[global equivariant stable homotopy theory]]
+
+* [[rational equivariant stable homotopy theory]]
+
 
 [[!redirects equivariant structures]]
