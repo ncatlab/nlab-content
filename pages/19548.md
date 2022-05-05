@@ -17,6 +17,7 @@ Thus, a subset $A$ has no limit point iff every point of $\bar{A}$ is isolated, 
 Another characterization focuses in on [[countable set|countability]]: if there are no infinite closed discrete spaces, then obviously there are no countably infinite closed discrete spaces. Conversely, if there is an infinite closed discrete subspace $A$ of $X$, then because any countably infinite subset of $A$ is also closed and discrete in $X$, we can say that $X$ is *not* limit point compact iff there exists an infinite closed discrete subspace iff there exists a countably infinite closed discrete subspace. It follows that another characterization of limit point compactness is 
 
 * Every countably infinite set has a limit point, or
+
 * Every countable closed discrete subspace is finite. 
 
 Limit point compactness is closely related to [[countably compact space|countable compactness]]. Indeed, every countably compact space is limit point compact; in the converse direction, every limit point compact space satisfying the $T_1$ [[separation axiom]] (namely, that points are closed) is also countably compact. For this reason, limit point compact spaces are also known as "weakly countably compact spaces". See [[countably compact space]] for further details. 
