@@ -184,7 +184,7 @@ We list in the following theorems in homotopy theory together with such proofs o
 
 see at _[[Blakers-Massey theorem]]_
 
-### Essential uniquenes of group units
+### Essential uniqueness of group units
 
 (...)
 
