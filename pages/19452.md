@@ -4479,7 +4479,7 @@ To see that these coverings satisfy the condition (eq:ConditionOnCoverage): The 
 Example \ref{DifferentiablyGoodOpenCoversOfSmoothManifolds} is further developed in the chapter _[[geometry of physics -- smooth homotopy types|on smooth homotopy types]]_.
 
 
-+-- {: .num_prop #CompatibleElements}
++-- {: .num_defn #CompatibleElements}
 ###### Definition
 **([[matching family]])**
 
@@ -4600,6 +4600,94 @@ $$
 $$
 
 =--
+
+(...)
+
++-- {: .num_defn #SheafToposAsSubtopos}
+###### Definition
+
+A [[sheaf topos]] is [[subtopos]] of [[presheaf topos]]
+
+$$
+  Sh(C)
+    \stackrel{\overset{\overline{(-)}}{\leftarrow}}{\hookrightarrow}
+  PSh(C)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Here the [[left adjoint]] $\overline{(-)}$, which is equivalently
+
+* the [[inverse image]] of the [[geometric embedding]] [[geometric morphism]]
+
+* the [[sheafification]] functor
+
+is precisely such that for every [[covering]] $\{U_i \to U\}_{i \in I}$ in the [[site]] $C$ the [[sieve]] inclusion
+
+$$
+  S(\{U_i\}) \hookrightarrow U \;\;\;\; \in PSh(C)
+$$
+
+(a [[dense monomorphism]]) is sent to an [[isomorphism]].
+
+Hence the sheaf topos is the left exact [[localization]] at the covering sieve inclusions.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[presheaf topos]] $PSh(C)$ is the [[free cocompletion]] of the [[category]] $C$, hence the category obtained from $C$ by [[free construction|freely]] forming [[colimits]] of its objects.
+
+In contrast, the [[localization]] $Sh(C) \hookrightarrow PSh(C)$ enforces _relations_ between these free colimits.
+
+Therefore in total we may think of $Sh(C)$ as obtained by [[generators and relations]] from the [[site]] $C$:
+
+* the objects of $C$ are the generators;
+
+* the [[coverings]] of $C$ are the relations.
+
+=--
+
+Def. \ref{SheafToposAsSubtopos} is the "external" characterization of sheaf toposes.
+
+More intrinsically we have _[[Giraud's theorem]]_:
+
++-- {: .num_theorem}
+###### Theorem
+
+A [[sheaf topos]] is equivalently a [[presentable category]] with
+
+1. [[universal colimits]]
+
+1. [[effective quotients]]
+
+1. [[disjoint coproducts]]
+
+=--
+
+This characterization, or rather its refinement to [[(infinity,1)-categories of (infinity,1)-sheaves]], is crucial, below, for the discussion of [[principal bundles]] and their [[associated bundle|associated]] [[fiber bundles]].
+
+For other general considerations we need rather that every [[sheaf topos]] is in particular an _[[elementary topos]]_
+
++-- {: .num_defn}
+###### Definition
+
+An [[elementary topos]] is
+
+* a [[locally cartesian closed category]]
+
+* with a [[subobject classifier]].
+
+=--
+
+The first of these says that the [[internal language]] is [[dependent type theory]] with [[dependent sum types]] and [[dependent product types]], the second says that it has a [[type of propositions]]. 
+
+(...)
 
 
 ### Simplicial presheaves
