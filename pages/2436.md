@@ -43,9 +43,9 @@ Super vector spaces form the basis of [[superalgebra]] (over [[ground rings]] wh
 
 For $k$ a [[field]], we write $Vect_k$ for the [[category]] whose
 
-* [[objects]] are $k$-[[vector spaces]];
+* [[object|objects]] are $k$-[[vector spaces]];
 
-* [[morphisms]] are $k$-[[linear functions]] between these.
+* [[morphism|morphisms]] are $k$-[[linear functions]] between these.
 
 When the [[ground field]] $k$ is understood or when its precise nature is irrelevant, we will often notationally suppress it and speak of just the category [[Vect]] of vector spaces.
 
@@ -797,7 +797,12 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 * [[super vector bundle]]
 
-* [[superalgebra]], [[supercommutative superalgebra]], [[differential graded-commutative superalgebra]]
+* [[model structure on chain complexes of super vector spaces]]
+
+* [[superalgebra]], [[supercommutative superalgebra]], [[differential graded-commutative superalgebra]], 
+
+  [[model structure on differential graded-commutative superalgebras]]
+
 
 * [[geometry of physics -- supergeometry]]
 
