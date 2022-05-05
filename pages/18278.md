@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 #### Category theory
 +-- {: .hide}
 [[!include category theory - contents]]
@@ -15,8 +19,13 @@
 * table of contents
 {:toc}
 
+## Idea
+
+One of the basic facts of [[category theory]] is that the [[hom-functor]] on a [[category]] $\mathcal{C}$ preserve [[limits]] in both [[variables]] (remembering that a limit in the first variable, due to contravariance, is actually a [[colimit]] in $\mathcal{C}$).
+
 ## Statement
 
+### Ordinary hom-functor
 
 +-- {: .num_prop #HomFunctorPreservesLimits}
 ###### Proposition
@@ -128,6 +137,85 @@ set $  Cones\left( Y, X_\bullet\} \right)$.
 
 =--
 
+### Internal hom-functor
+
+
++-- {: .num_prop #InternalHomPreservesLimits}
+###### Proposition
+**(internal hom-functor preserves limits)**
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$. Then this bifunctor preserves [[limits]] in the second variable, and sends colimits in the first variable to limits:
+
+$$
+  [X, \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j)]
+  \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} [X, Y(j)]
+$$
+
+and
+
+$$
+  [\underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j),X]
+  \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j),X]  
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+For $X \in \mathcal{C}$ any object, $[X,-]$ is a [[right adjoint]] by definition, and hence preserves limits by _[[adjoints preserve (co-)limits]]_.
+
+For the other case, let $Y \;\colon\; \mathcal{L} \to \mathcal{C}$ be a [[diagram]] in $\mathcal{C}$, and let $C \in \mathcal{C}$ be any object. Then there are isomorphisms
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(C, [ \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X ] )
+    & \simeq
+    Hom_{\mathcal{C}}( C \otimes \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X )
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}( \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} (C \otimes Y(j)), X )   
+    \\
+    & \simeq
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim}
+    Hom_{\mathcal{C}}( (C \otimes Y(j)), X )    
+    \\
+    & \simeq
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim}
+    Hom_{\mathcal{C}}( C, [Y(j), X] )    
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}( C, \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j), X] )    
+  \end{aligned}
+$$
+
+which are [[natural isomorphism|natural]] in $C \in \mathcal{C}$, where we used that the ordinary [[hom-functor]] respects (co)limits as shown (see at _[[hom-functor preserves limits]]_), and that the [[left adjoint]] $C \otimes (-)$ preserves colimits (see at _[[adjoints preserve (co-)limits]]_).
+
+Hence by the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]], there is an isomorphism
+
+$$
+  \left[ \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X \right]  
+  \overset{\simeq}{\longrightarrow}
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j), X] 
+  \,.
+$$
+
+
+=--
+
+
+
+
 ## Related statements
 
 * [[adjoints preserve (co-)limits]]
+
+* [[limits commute with limits]]
+
+
+[[!redirects internal hom-functor preserves limits]]
+
