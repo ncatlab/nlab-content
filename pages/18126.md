@@ -1220,7 +1220,7 @@ for some topology $\tau \subset P(X)$ (def. \ref{TopologyBase}) precisely if
 
    1. every point of $X$ is contained in at least one element of $\beta$;
 
-   1. for every two subsets $B_1, B_2 \in \beta$ and for every point $x \in B_1 \cap B_2$ in their intersection, then there exists
+   1. for every two subsets $B_1, B_2 \in \beta$ and for every point $x \in B_1 \cap B_2$ in their intersection, there exists
    a $B \in \beta$ that contains $x$ and is contained in the intersection: $x \in B \subset B_1 \cap B_2$.
 
 1. A subset $B \subset \tau$ of open subsets is a sub-basis for a topology $\tau$ on $X$ precisely if $\tau$ is the coarsest topology (def. \ref{TopologyFinerCoarser}) which contains $B$.
