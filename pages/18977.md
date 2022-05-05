@@ -9,3 +9,7 @@ From [1](https://simons.berkeley.edu/workshops/logic2016-3):
 
 ## References ##
 1. _Compositionality_ is the name of a [workshop](https://simons.berkeley.edu/workshops/logic2016-3) hosted at UC Berkeley in 2016. Accessed online at [https://simons.berkeley.edu/workshops/logic2016-3](https://simons.berkeley.edu/workshops/logic2016-3).
+
+2. _Compositionality_  is also the name of a [journal](http://www.compositionality-journal.org/) whose aim is to publish papers in this area.
+
+[[!redirects Compositionality]]
