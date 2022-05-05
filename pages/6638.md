@@ -16,7 +16,7 @@
 
 ## Idea
 
-The generalization of the notion of [[center]] from [[group]]s to [[∞-group]]s.
+The generalization of the notion of [[center]] from [[group]]s to [[∞-groups]].
 
 ## Definition
 
@@ -44,6 +44,8 @@ For $\mathcal{X} = $ [[∞Grpd]] and $G$ [[truncated|0-truncated]], it is an ord
 $AUT(G) \to Out(G)$ is a [[fibration]] hence its [[homotopy fiber]] is, up to equivalence, the ordinary fiber, which is the crossed module $(G \stackrel{Ad}{\to} Inn(G))$, where $Inn(G) \subset Aut(G)$ is the group of [[inner automorphism]]s. This is equivalent to $(Z(G) \to 1)$, where $Z(G)$ is the ordinary [[center]] of $G$, and this is the crossed module corresponding to $\mathbf{B}Z(G)$. 
 
 ## Related concepts
+
+* [[higher central extension]]
 
 * [[group]], [[2-group]], [[∞-group]],
 
