@@ -63,6 +63,16 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 
 > graphics grabbed from [Dalianis 16, p. 8](#Dalianis16)
 
+{#HCCIn11dSugra} More concretely, in [Hiraga-Hyakutake 18](#HiragaHyakutake18) a simple model of [[11-dimensional supergravity]] with its $R^4$ [[higher curvature correction]] (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)) is considered and claimed to yield inflation with "graceful exit" and dynamical [[KK-compactification]]:
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/W4Inflation.jpg" width="600">
+</center>
+
+> graphics from [Hiraga-Hyakutake 18, p. 8](#HiragaHyakutake18)
+
+
 ## References
 
 ### General
@@ -176,10 +186,19 @@ and is further developed in the following articles:
 
 * Hiroyuki Abe, Yermek Aldabergenov, Shuntaro Aoki, [[Sergei Ketov]], _Massive vector multiplet with Dirac-Born-Infeld and new Fayet-Iliopoulos terms in supergravity_ ([arXiv:1808.00669](https://arxiv.org/abs/1808.00669))
 
+### Embedding into 11d supergravity
+
+Discussion of Starobinsky inflation in [[11-dimensional supergravity]] with its [[higher curvature corrections]] included (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)) is in
+
+* [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
+
+* {#HiragaHyakutake18} Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
+
+
 ### Embedding into superstring theory
  {#ReferencesEmbeddingIntoStringTheory}
 
-Embedding into [[superstring theory]] is discussed in
+Embedding of Starobinsky inflation into [[superstring theory]] is discussed in
 
 * [[Costas Kounnas]], [[Dieter Luest]], Nicolaos Toumbas, _$\mathcal{R}^2$ inflation from scale invariant supergravity and anomaly free superstrings with fluxes_ ([arXiv:1409.7076](http://arxiv.org/abs/1409.7076))
 
