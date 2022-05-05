@@ -21,18 +21,18 @@
 
 ## Idea
 
-Power operations are [[cohomology operations]] in [[multiplicative cohomology theory]] which are higher-degree analogs of [[cup products]]-squares [[symmetric algebra|symmetrized]] in the right [[homotopy theory|homotopy-theoretic sense]].
+Power operations are [[cohomology operations]] in [[multiplicative cohomology theory]] which are higher-degree analogs of [[cup product]]-squares [[symmetric algebra|symmetrized]] in the right [[homotopy theory|homotopy-theoretic sense]].
 
 +-- {: .num_remark #AsPDerivations}
 ###### Remark
 
-At least to some extent, power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]] 
+At least to some extent, power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]].
 
 See for instance [Lurie, from remark 2.2.7 on](#Lurie)) for relation to the [[Frobenius homomorphism]] and see the example [below](#OnK1LocalKUAlgebras). See ([Guillot 06](#Guillot06), [Morava-Santhanam 12](#MoravaSanthanam)) for further discussion and speculation in this direction.
 
 =--
 
-For $E$ an [[E-∞ ring]] and $X$ a [[topological space]] ([[∞-groupoid]], [[homotopy type]]), then a map $a\;\colon\;X \to E$ is a [[cocycle]] in the [[cohomology]] of $X$ with [[coefficients]] in $E$. 
+For $E$ an [[E-∞ ring]] and $X$ a [[topological space]] ([[∞-groupoid]], [[homotopy type]]), a map $a\;\colon\;X \to E$ is a [[cocycle]] in the [[cohomology]] of $X$ with [[coefficients]] in $E$. 
 
 The $n$-th [[cup product]] power of this $a$ is the composite
 
