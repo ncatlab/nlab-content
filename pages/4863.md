@@ -260,7 +260,7 @@ Theories_, Addison-Wesley Publ. Comp., (1987)
 
 A survey of the history of the role of the KK-mechanism in theoretical physics is
 
-* [[Michael Duff]], _Kaluza-Klein Theory in Perspective_ ([arXiv](http://arxiv.org/abs/hep-th/9410046))
+* {#Duff94} [[Michael Duff]], _Kaluza-Klein Theory in Perspective_, Proc. of the Symposium: _The Oskar Klein Centenary_, World Scientific, Singapore. 1994. ([arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046))
 
 The seminal analysis of the semi-realistic KK-reductions is in 
 
