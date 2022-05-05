@@ -13,8 +13,8 @@ $$
     \;\colon\;
   sSet_0 
     \underoverset
-      {\underset{\overline{W}}{\longrightarrow}}
-      {\overset{G}{\longleftarrow}}
+      {\underset{\overline{W}}{\longleftarrow}}
+      {\overset{G}{\longrightarrow}}
       {\bot}
   sGrp
 $$
