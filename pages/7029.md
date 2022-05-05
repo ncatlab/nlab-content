@@ -23,7 +23,7 @@ $$
   * \;\colon\; G \times X \to X
 $$
 
-of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$ and every $g\in G$,  the [[equation]] $g x = x$ [[implication|implies]] $g=1_G$.
+of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$,  the [[equation]] $g \ast x = x$ [[implication|implies]] $g= e_G$ (the [[neutral element]]).
 
 Equivalently, an action is free when for any pair of elements $x,y \in X$, there is _at most one_ group element $g \in G$ such that $g * x = y$.
 
