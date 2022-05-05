@@ -2750,6 +2750,231 @@ But the main preservation property of [[adjoint functors]] is that _[[adjoints p
 
 $\,$
 
+Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} says that [[adjoint functors]] are equivalenty "[[adjunctions]] in [[Cat]]", as defined there. This is a special case of a general more abstract concept of [[adjunction]], that is useful:
+
+
++-- {: .num_defn #Strict2Categories}
+###### Definition
+**([[strict 2-category]])**
+
+A _[[strict category]]_ $\mathcal{C}$ is
+
+1. a [[class]] $Obj_{\mathcal{C}}$, called the _class of [[objects]]_;
+
+1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of [[objects]], a [[small category]] $Hom_{\mathcal{C}}(X,Y) \in Cat$ (Def. \ref{SmallCategory}), called the _[[hom-category]] from $X$ to $Y$_.
+
+   We denote the [[objects]] of this [[hom-category]] by arrows like this:
+
+   $$
+     X \overset{f}{\longrightarrow} Y \;\;\in Obj_{Hom_{\mathcal{C}}(X,Y)}
+   $$
+
+   and call them the _[[1-morphisms]]_ of $\mathcal{C}$,
+
+   and we denote the [[morphisms]] in the [[hom-category]] by double arrows, like this:
+
+   $$
+     X
+       \underoverset
+         {\underset{g}{\longrightarrow}}
+         {\overset{f}{\longrightarrow}}
+         {\Downarrow{}^{\mathrlap{\phi}}}
+     Y
+   $$
+
+   and call these the _[[2-morphisms]]_ of $\mathcal{C}$;
+
+1. for each [[object]] $X \in Obj_{\mathcal{C}}$ a [[1-morphism]]
+
+   $$
+      X \overset{id_X}{\to} X \;\; \in Hom_{\mathcal{C}}(X,X)
+   $$
+
+   called the _[[identity morphism]]_ on $X$;
+
+1. for each [[triple]] $X_1, X_2, X_3 \in Obj$ of [[objects]], a [[functor]] (Def. \ref{Functors})
+
+   $$
+     \array{
+       Hom_{\mathcal{C}}(X_1, X_2)
+       &\times&
+       Hom_{\mathcal{C}}(X_2, X_3)
+       &\overset{\circ_{X_1,X_2,X_3}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(X_1, X_3)
+       \\
+       X_1 \overset{f}{\to} X_2
+       &,&
+       X_2 \overset{f}{\to} X_3
+       &\mapsto&
+       X_1 \overset{ g \circ f }{\longrightarrow} X_3
+     }
+   $$
+
+   from the [[product category]] (Example \ref{ProductCategory}) of [[hom-categories]], called _[[composition]]_;
+
+such that:
+
+1. for all [[pairs]] of [[objects]] $X,Y \in Obj_{\mathcal{C}}$ [[unitality]] holds:
+
+   the [[functors]] of [[composition]] with [[identity morphisms]] are [[identity functors]]
+
+   $$
+     (-) \circ id_X
+     \;=\;
+     id_{ Hom_{\mathcal{C}}(X,Y) }
+     \phantom{AAAA}
+     id_Y \circ (-)      
+     \;=\;
+     id_{ Hom_{\mathcal{C}}(X,Y) }
+   $$
+
+1. for all [[quadruples]] of [[objects]] $X_1, X_2, X_3, X_4 \in Obj_{\mathcal{C}}$ [[composition]] satifies _[[associativity]]_, in that the following two composite [[functors]] are [[equality|equal]]:
+
+   $$
+     \array{
+       Hom_{\mathcal{C}}(X_1, X_2) 
+        \times 
+       Hom_{\mathcal{C}}(X_2, X_3) 
+        \times 
+       Hom_{\mathcal{C}}(X_3, X_4) 
+       &\overset{((-)\circ (-))\circ (-)}{\longrightarrow}&
+       Hom_{\mathcal{C}}(X_1, X_3) \times Hom_{\mathcal{C}}(X_3, X_4)
+       \\
+       {}^{ \mathllap{ (-) \circ ( (-) \circ (-) ) } }\Big\downarrow 
+       && 
+       \Big\downarrow{}^{ (-) \circ (-) }
+       \\
+       Hom_{\mathcal{C}}(X_1, X_2) \times Hom_{\mathcal{C}}(X_2, X_4)
+       &\underset{(-)\circ (-)}{\longrightarrow}&
+       Hom_{\mathcal{C}}(X_1, X)4)
+     }
+   $$
+
+
+=--
+ 
+
+The archetypical example of a [[strict 2-category]] is the [[category of categories]]:
+
++-- {: .num_example #2CategoryOfCategories}
+###### Example
+**([[2-category of categories]])**
+
+There is a [[strict 2-category]] (Def. \ref{Strict2Categories}) [[Cat]] whose
+
+* [[objects]] are [[small categories]] (Def. \ref{SmallCategory});
+
+* [[1-morphisms]] are [[functors]] (Def. \ref{Functors});
+
+* [[2-morphisms]] are [[natural transformations]] (Def. \ref{NaturalTransformations})
+
+with the evident [[composition]] operations.
+
+=--
+
+With a concept of [[2-category]] in hand, we may phrase Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} more abstractly:
+
++-- {: .num_defn #AdjunctionInA2Category}
+###### Definition
+**([[adjunction]] in a [[2-category]])**
+
+Let $\mathcal{C}$ be a [[strict 2-category]] (Def. \ref{Strict2Categories}). Then an _[[adjunction]]_ in $\mathcal{C}$ is
+
+1. a [[pair]] of [[objects]] $\mathcal{C}, \mathcal{D} \in Obj_{\mathcal{C}}$;
+
+1. [[1-morphisms]] 
+
+   $$
+     \mathcal{D}
+       \underoverset
+         {\underset{\phantom{AA}R\phantom{AA}}{\longrightarrow}}
+         {\overset{L}{\longleftarrow}}
+         {}
+     \mathcal{C}
+   $$
+
+   called the _[[left adjoint]]_ $L$ and _[[right adjoint]]_ $R$;
+
+1. [[2-morphisms]]
+
+   $id_{\mathcal{C}} \overset{\eta}{\Rightarrow} R \circ L$, called the [[adjunction unit]]
+
+   $L \circ R \overset{\epsilon}{\Rightarrow} id_{\mathcal{D}}$, called the [[adjunction counit]]
+
+
+such that the following _[[triangle identities]]_ hold:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/Adjointness.jpg" width="380">
+</center>
+
+We denote this situation by 
+
+   $$
+     \mathcal{D}
+       \underoverset
+         {\underset{\phantom{AA}R\phantom{AA}}{\longrightarrow}}
+         {\overset{L}{\longleftarrow}}
+         {\bot}
+     \mathcal{C}
+   $$
+   
+=--
+
+Hence via Example \ref{2CategoryOfCategories}, Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} says that an [[adjoint pair]] of [[functors]] is equivalente an [[adjunction]] in the general sense of Def. \ref{AdjunctionInA2Category}, realized in the [[very large category|very large]] [[strict 2-category]] [[Cat]] of [[categories]]. 
+
+This more abstract perspecive on [[adjunctions]] allow us now to understand "duality of dualities" as [[adjunction]] in a [[2-category]] of [[adjunctions]]:
+
++-- {: .num_example #2CategoryOfCategoriesWithAdjointFunctorsBetweenThem}
+###### Example
+**([[strict 2-category]] of [[categories]] with [[adjoint functors]] between them)**
+
+Let $Cat_{Adj}$ be the [[strict 2-category]] which is defined just as [[Cat]] (Def. \ref{2CategoryOfCategories}) but with the [[1-morphisms]] being [[functors]] that are required to be [[left adjoints]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). 
+
+Since adjoints are unique up to natural isomorphism (Prop. \ref{UniquenessOfAdjoints}), this may be thought of as a 2-category whose [[1-morphisms]] are [[adjoint pairs]] of [[functors]].
+
+=--
+
++-- {: .num_example #AdjunctionofAdjunction}
+###### Example
+**([[adjunctions]] of [[adjoint pairs]] are [[adjoint triples]])**
+
+An [[adjunction]] (Def. \ref{AdjunctionInA2Category}) in the [[2-category]] $Cat_{Adj}$ of [[categories]] with [[adjoint functors]] between them (Example \ref{2CategoryOfCategoriesWithAdjointFunctorsBetweenThem}) is equivalently an [[adjoint triple]] of functors (Remark \ref{AdjointTriples}):
+
+The adjunction says that two [[left adjoint functors]] $L_1$ and $L_2$, which, hence each participate in an [[adjoint pair]] 
+
+$$
+  L_1 \dashv R_1
+  \phantom{AAAA}
+  L_2 \dashv R_2
+$$
+
+form themselves an [[adjoint pair]] 
+
+$$
+  L_1 \dashv L_2
+  \,.
+$$
+
+By essentiall uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints}) this implies a [[natural isomorphism]] $R_1 \simeq L_2$ and hence an [[adjoint triple]]:
+
+$$
+  \mathcal{D}
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a}}{ L_1 \phantom{\simeq A_a} }{\longleftarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq}\bot}{R_1 \simeq L_2}{\longrightarrow}
+      \\
+      \overset{ \phantom{A_a \simeq} R_2 }{\longleftarrow}
+    }
+  \mathcal{C}
+$$
+
+
+
+=--
+
+$\,$
 
 ### Equivalences
  {#Equivalences}
