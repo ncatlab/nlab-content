@@ -73,3 +73,10 @@ Discussion in [[string theory]] includes
 
 * [[Robbert Dijkgraaf]], Hiroyuki Fuji, _The Volume Conjecture and Topological Strings_ ([arXiv:0903.2084](http://arxiv.org/abs/0903.2084))
 
+A conceptual explanation of the volume conjecture was proposed in
+
+* [[Edward Witten]], _Analytic Continuation Of Chern-Simons Theory_, AMS/IP Stud. Adv. Math 50 (2011): 347 ([arXiv:1001.2933](https://arxiv.org/abs/1001.2933))
+
+(but it seems that as a sketch or strategy for a rigorous proof, it didn't catch on).
+
+[[!redirects volume conjectures]]
