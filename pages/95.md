@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-This corresponds to what is referred to as the *total homotopy order of a space*, introduced by Quinn in notes in 1995 on TQFTs (see reference list).
+This corresponds to what is referred to as the *total homotopy order of a space*, which occurs  notably  in notes [[Frank Quinn]] in 1995 on TQFTs (see reference list), although similar ideas were explored by several researchers at that time.
 
 
 
