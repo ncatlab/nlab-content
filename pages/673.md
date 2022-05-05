@@ -1,4 +1,6 @@
 
+[[!redirects David Roberts]]
+
 <div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="225" src="https://ncatlab.org/nlab/files/DavidRoberts2014.jpg" alt="David Roberts speaking at Herriot-Watt, June 2014" title="Speaking at Herriot-Watt, June 2014"/></div>
 
 I am currently a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
