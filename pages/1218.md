@@ -145,6 +145,25 @@ While the site $CartSp_{dim \leq 1}$ is more convenient for some purposes, it is
 
 =--
 
+### Embedding of smooth manifolds with boundary into diffeological spaces
+
++-- {: .num_prop #SmoothManifoldsWithBoundaryEmbedIntoDiffeologicalSpaces}
+###### Proposition
+**([[manifolds with boundary]] form [[full subcategory]] of [[diffeological spaces]])**
+
+The evident [[functor]]
+
+$$
+  SmthMfdWBdr \overset{\phantom{AAAA}}{\hookrightarrow} DiffeologicalSpaces
+$$
+
+from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundary]] to that of [[diffeological spaces]] is [[fully faithful functor|fully faithful]], hence is a [[full subcategory]]-embedding.
+
+=--
+
+([Igresias-Zemmour 13, 4.16](#PIZ))
+
+
 ### Embedding of Banach manifolds into diffeological spaces
  {#EmbeddingOfBanachManifoldsIntoDiffeologicalSpaces}
 
