@@ -60,7 +60,7 @@ Thus, we might have the following hierarchy of "universes", which we summarize t
 
 Once we have set up the logical framework as a language, there are then two approaches to describing a given logic inside of it.  See ([Harper](#Harper)), and the other [references](#References), for more details.
 
-### Synthetic presentations
+### Synthetic presentations {#Synthetic}
 
 In a synthetic presentation, we use LF-types to represent the syntactic objects and judgments of the [[object theory]].  Thus, if the object theory is a type theory, then in LF we have things like:
 
@@ -76,7 +76,7 @@ Note that the adequacy theorem is a correspondence at the level of *syntax*; it 
 
 However, synthetic presentations do not make maximal use of the framework in the case when the object-theory is also a type theory whose judgments are "analytic".  Here "synthetic" means roughly "requires evidence" whereas "analytic" means roughly "obvious".
 
-### Analytic presentation
+### Analytic presentation {#Analytic}
 
 An analytic presentation is only possible for certain kinds of object-theories, generally those which are type theories similar to LF itself.  In this case, we represent object-theory types by LF-types themselves.  Thus we still have the LF-type $tp$ of object-theory types, but instead of the LF-type $tm$ of terms and the dependent LF-type $of$ representing the object-theory typing judgment, we have
 
