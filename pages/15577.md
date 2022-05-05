@@ -28,7 +28,7 @@ Apparently first introduced in
 
 Textbook accounts include
 
-* [[Jacob Lurie]], section 5.5.1 of _[[Higher Aklgebra]]_
+* [[Jacob Lurie]], section 5.5.1 of _[[Higher Algebra]]_
 
 Rational functions as functions on the Ran space in the sense of functions on the complement of finitely many points as these range over all points, is discussed in
 
