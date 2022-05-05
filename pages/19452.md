@@ -1,9 +1,8 @@
 
-> This page is going to be one chapter in _[[geometry of physics]]_.
+> This entry is one chapter of _[[geometry of physics]]_.
 
 > next chapters: _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- homotopy types|homotopy types]]_
 
-> under construction
 
 $\,$
 
