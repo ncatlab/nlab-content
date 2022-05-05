@@ -158,7 +158,7 @@ The dual concept of KR-homology was defined in
 
 Discussion in the general context of [[real oriented cohomology theory]] is in 
 
-* {#Kriz01} [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
+* {#Kriz01} Po Hu, [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
 
 
 Further discussion includes
