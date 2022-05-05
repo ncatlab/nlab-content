@@ -152,7 +152,7 @@ $\quad\quad\quad\quad$
 
 ## References
 
-Textbook accounts incluce
+Textbook accounts include
 
 * {#Borceux94} [[Francis Borceux]], Theorem 3.1.5 and Diagram 3.3 in: _Basic Category Theory_, Vol. 1 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
