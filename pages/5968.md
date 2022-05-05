@@ -384,6 +384,8 @@ Lecture notes include
 
 * M&#225;ximo Ba&#241;ados, Ignacio A. Reyes, _A short review on Noether's theorems, gauge symmetries and boundary terms, for students_ ([arXiv:1601.03616](http://arxiv.org/abs/1601.03616)) 
 
+* _[A first idea of quantum field theory -- Symmetries](geometry+of+physics+--+perturbative+quantum+field+theory#Symmetries)_ ([PF Insights version](https://www.physicsforums.com/insights/newideaofquantumfieldtheory-symmetries/))
+
 A comprehensive exposition of both the Lagrangian and the Hamiltonian version of the theorem is in 
 
 * {#Butterfield06} [[Jeremy Butterfield]], _On symmetry and conserved quantities in classical mechanics_, in _Physical Theory and its Interpretation_,
