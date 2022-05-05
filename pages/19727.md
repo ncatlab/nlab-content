@@ -48,6 +48,9 @@ Here the [[coefficient]] of the $g$-twisted sector in the total boundary state i
 
 > But maybe this has not yet been actually proven? 
 
+## Results
+
+There are some mistakes in the literature. A clean account is in [Fuchs-Schweigert-Walcher 00](#FuchsSchweigertWalcher00), [Fuchs-Kaste-Lerche-Lutken-Schweigert 00](#FuchsKasteLercheLutkenSchweigert00)
 
 ## Related concepts
 
@@ -104,16 +107,21 @@ A mismatch was claimed in
 
 ### For rational CFT, WZW models and Gepner models
 
-For [[rational CFT]]
+For [[rational CFT]], specifically [[Gepner models]] and [[WZW models]]
+
+* Ilka Brunner, [[Michael Douglas]], Albion Lawrence, Christian Romelsberger, _D-branes on the Quintic_, JHEP 0008 (2000) 015 ([arXiv:hep-th/9906200](https://arxiv.org/abs/hep-th/9906200))
+
+* {#FuchsSchweigertWalcher00} [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
+
+  (with emphasis on [[GSO projections]])
+
+* {#FuchsKasteLercheLutkenSchweigert00} [[Jürgen Fuchs]], P. Kaste, [[Wolfgang Lerche]], C. Lutken, [[Christoph Schweigert]], J. Walcher, _Boundary Fixed Points, Enhanced Gauge Symmetry and Singular Bundles on K3_, Nucl.Phys.B598:57-72, 2001 ([arXiv:hep-th/0007145](https://arxiv.org/abs/hep-th/0007145))
 
 * Sergei E. Parkhomenko, _Free Field Construction of D-Branes in Rational Models of CFT and Gepner Models_ ([arXiv:0802.3445](https://arxiv.org/abs/0802.3445))
 
-Specifically for [[WZW models]]:
 
 * [[Giovanni Felder]], [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Christoph Schweigert]], _The geometry of WZW branes_ ([arXiv:hep-th/9909030](https://arxiv.org/abs/hep-th/9909030))
 
-
-For [[Gepner models]]:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
 
