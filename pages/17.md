@@ -407,8 +407,11 @@ and then refer to it later in the text by typing
 
 Insert the symbols
 
+```
      * table of contents 
      {: toc}
+
+```
 
 (including the line break!) at the position where the table of contents is to appear. You may want to label the table of contents by writing
 
