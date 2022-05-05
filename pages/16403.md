@@ -13726,6 +13726,34 @@ such that these two structures are compatible in the following way:
 
 =--
 
++-- {: .num_prop #RecognitionOfSimplicialQuillenAdjunction}
+###### Proposition
+**(recognition of [[simplicial Quillen adjunctions]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[simplicial model categories]] (Def. \ref{SimplicialModelCategory}) such that $\mathcal{D}$ is also a [[left proper model category]] (Def. \ref{RightProperModelCategory}). Then for an [[sSet]]-[[enriched adjunction]] (Def. \ref{EnrichedAdjunction}) of the form
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+to be [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}, hence a _[[simplicial Quillen adjunction]]_) it is sufficient that the following two conditions hold:
+
+1. $L$ preserves [[cofibrations]],
+
+1. $R$ preserves [[fibrant objects]]
+
+(i.e. this already implies that $R$ preserves all [[fibrations]]).
+
+=--
+
+([[Higher Topos Theory|Lurie HTT, cor. A.3.7.2]])
+
+
 +-- {: .num_prop #SimplicialPresheavesIsProperCombinatorialSimplicial}
 ###### Proposition
 **([[model structure on simplicial presheaves]] is [[left proper model category|left proper]] [[combinatorial model category|combinatorial]] [[simplicial model category]])**
@@ -13823,13 +13851,44 @@ Then the [[left Bousfield localization]] (Def. \ref{BousfieldLocalizationOfModel
 
 =--
 
-+-- {: .num_example #HomotopyLocalizationOfCombinatorialModelCategories}
-###### Example
+The following class of examples of [[left Bousfield localizations]] generalizes those of Def. \ref{HomotopyLocalizationOn1Categories} from [[1-categories]] to [[locally presentable (∞,1)-categories]]:
+
++-- {: .num_defn #HomotopyLocalizationOfCombinatorialModelCategories}
+###### Definition
 **([[homotopy localization]] of [[combinatorial model categories]])**
 
-Let $\mathcal{C}$ be a [[combinatorial model category]] which, by [[Dugger's theorem]] (Prop. \ref{DuggerTheorem}) is [[Quillen equivalence|Quillen equivalent]] to a [[left Bousfield localization]] of a [[model category of simplicial presheaves]] over some [[small category|small]] [[simplicial category]] $\mathcal{S}$. 
+Let $\mathcal{C}$ be a [[combinatorial model category]] (Def. \ref{CombinatorialModelCategory}) which, by [[Dugger's theorem]] (Prop. \ref{DuggerTheorem}) is [[Quillen equivalence|Quillen equivalent]] to a [[left Bousfield localization]] of a [[model category of simplicial presheaves]] over some [[small category|small]] [[simplicial category]] $\mathcal{S}$
 
-Let moreover $\mathcal{A}$ be any [[object]]. Then the [[homotopy localization]] of $\mathcal{C}$ at $\mathbb{A}$ is the further [[left Bousfield localization]] at the morphisms of the form
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}id\phantom{AA}}{\longleftarrow}}
+      {\bot_{Qu}}
+  [\mathcal{S}^{op}, sSet_{Qu}]_{proj}
+  \;
+  \in CombModCat
+  \;\text{i.e.}\;
+  \mathcal{C}
+    \underoverset
+      {\underset{}{\hookrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+   PSh_\infty(\mathcal{S})
+  \;
+   \in Ho(CombModCat)
+$$
+
+Let moreover 
+
+$$
+  \mathbb{A}
+    \in 
+  [\mathcal{S}^{op}, sSet_{Qu}]
+$$ 
+
+be any [[object]]. Then the _[[homotopy localization]]_ of $\mathcal{C}$ at $\mathbb{A}$ is the further [[left Bousfield localization]] (Def. \ref{ExistenceOfLeftBousfieldLocalization}) 
+at the morphisms of the form
 
 $$
   X \times \mathbb{A}
@@ -13837,38 +13896,44 @@ $$
   X
 $$
 
-for all $X \in \mathcal{S}$.
-
-
-=--
-
-
-+-- {: .num_prop #RecognitionOfSimplicialQuillenAdjunction}
-###### Proposition
-**(recognition of [[simplicial Quillen adjunctions]])**
-
-Let $\mathcal{C}$ and $\mathcal{D}$ be two [[simplicial model categories]] (Def. \ref{SimplicialModelCategory}) such that $\mathcal{D}$ is also a [[left proper model category]] (Def. \ref{RightProperModelCategory}). Then for an [[sSet]]-[[enriched adjunction]] (Def. \ref{EnrichedAdjunction}) of the form
+for all $X \in \mathcal{S}$:
 
 $$
-  \mathcal{C}
+  [\mathcal{S}^{op}, sSet_{Qu}]_{proj, \mathbb{A}}
     \underoverset
-      {\underset{R}{\longrightarrow}}
-      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
-      {\bot}
-  \mathcal{D}
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}id\phantom{AA}}{\longleftarrow}}
+      {\bot_{Qu}}  
+  [\mathcal{S}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\simeq_{Qu}}
+  \mathcal{C}
+  \;\;\;\;
+  \in
+  CombModCat
+  \,.
 $$
 
-to be [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}, hence a _[[simplicial Quillen adjunction]]_) it is sufficient that the following two conditions hold:
+The image of this [[homotopy localization]] in [[Ho(CombModCat)]] (Def. \ref{HoCombModCat}) we denote by
 
-1. $L$ preserves [[cofibrations]],
+$$
+  \mathcal{C}_{\mathbb{A}}
+  \underoverset
+    {\underset{\iota}{\hookrightarrow}}
+    {\overset{L_{\mathbb{A}}}{\longleftarrow}}
+    {\bot}
+  \mathcal{C}
+  \;\;\;
+  \in Ho(CombModCat)
+  \,.
+$$
 
-1. $R$ preserves [[fibrant objects]]
-
-(i.e. this already implies that $R$ preserves all [[fibrations]]).
 
 =--
 
-([[Higher Topos Theory|Lurie HTT, cor. A.3.7.2]])
+
 
 
 (...)
@@ -14020,8 +14085,186 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_exmple #HomotopyLocalizationOverSiteOfAns}
+###### Example
+**([[homotopy localization]] at $\mathbb{A}^1$ over the [[site]] of $\mathbb{A}^n$s)**
+
+Let $\mathcal{C}$ be any [[site]] (Def. \ref{Coverage}), and write $[\mathcal{C}^{op}, sSet_{Qu}]_{proj, loc}$ for its local projective [[model category of simplicial presheaves]] (Prop. \ref{TopologicalLocalization}).
+
+Assume that $\mathcal{C}$ contains an [[object]] $\mathbb{A} \in \mathcal{C}$, such that every other object is a [[finite product]] $\mathbb{A}^n \coloneqq \underset{n \; \text{factors}}{\underbrace{\mathbb{A} \times \cdots \times \mathbb{A}}}$, for some $n \in \mathbb{N}$. (In other words, assume that $\mathcal{C}$ is also the [[syntactic category]] of _[[Lawvere theory]]_.)
+
+Consider the  $\mathbb{A}^1$-[[homotopy localization]] (Def. \ref{HomotopyLocalizationOfCombinatorialModelCategories}) of the [[(∞,1)-sheaf (∞,1)-topos]] over $\mathcal{C}$ (Prop. \ref{TopologicalLocalization})
+
+$$
+  Sh_\infty(\mathcal{C})_{\mathbb{A}}
+    \underoverset
+      {\underset{\phantom{AA}\iota\phantom{AA}}{\hookrightarrow}}
+      {\overset{L_{\mathbb{A}}}{\longleftarrow}}
+      {\bot}
+  Sh_\infty(\mathcal{C})
+  \;\;
+  \in
+  Ho(CombModCat)
+$$
+
+hence the [[left Bousfield localization]] of [[model categories]]
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj,loc,\mathbb{A}}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj,loc}
+  \;\;
+  \in 
+  CombModCat
+$$
+
+at the set of morphisms
+
+$$
+  S
+    \;\coloneqq\;
+  \big\{
+    \mathbb{A}^n \times \mathbb{A}
+      \overset{p_1}{\longrightarrow}
+    \mathbb{A}^n
+  \big\}
+$$
+
+(according to Prop. \ref{ExistenceOfLeftBousfieldLocalization}).
+
+Then this is [[equivalence of (∞,1)-categories|equivalent]] (Def. \ref{HoCombModCat}) to [[∞Grpd]] (Def. \ref{InfinityGroupoid}),
+
+
+$$
+  \infty Grpd
+  \;\simeq\;
+  Sh_\infty(\mathcal{C})_{\mathbb{A}}
+    \underoverset
+      {\underset{\phantom{AA}\iota\phantom{AA}}{\hookrightarrow}}
+      {\overset{L_{\mathbb{A}}}{\longleftarrow}}
+      {\bot}
+  Sh_\infty(\mathcal{C})
+  \;\;
+  \in
+  Ho(CombModCat)
+$$
+
+in that the ([[constant functor]] $\dashv$ [[limit]])-[[adjunction]] (Def. \ref{Limits})
+
+\[
+  \label{QuillenEquivalenceInABousfLocalization}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj, loc, \mathbb{A}}
+    \underoverset
+      {\underset{ \underset{\longleftarrow}{\lim} }{\longrightarrow}}
+      {\overset{ \phantom{AA}const\phantom{AA} }{\longleftarrow}}
+      {\bot}
+  sSet_{Qu}    
+  \;\;\;\;
+  \in 
+  CombModCat
+\]
+
+is a [[Quillen equivalence]] (Def. \ref{QuillenEquivalence}).
 
 =--
+
++-- {: .proof}
+###### Proof
+
+First to see that (eq:QuillenEquivalenceInABousfLocalization) is a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}): Since we have a [[simplicial Quillen adjunction]] before localization
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{ \underset{\longleftarrow}{\lim} }{\longrightarrow}}
+      {\overset{ \phantom{AA}const\phantom{AA} }{\longleftarrow}}
+      {\bot}
+  sSet_{Qu}    
+$$
+
+(by Example \ref{HomotopyLimitOfSimplicialSets}) and since both [[model categories]] here are [[left proper model category|left proper]] [[simplicial model categories]] (by Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial} and Prop. \ref{ExistenceOfLeftBousfieldLocalization}), and since [[left Bousfield localization]] does not change the class of [[cofibrations]] (by Def. \ref{BousfieldLocalizationOfModelCategories}) it is sufficient to show that $\underset{\longleftarrow}{\lim}$ preserves [[fibrant objects]] (by Prop. \ref{RecognitionOfSimplicialQuillenAdjunction}).
+
+But by assumption $\mathcal{C}$ has a [[terminal object]] $\ast = \mathbb{A}^0$ (Def. \ref{InitialObject}), which is hence the [[initial object]] of $\mathcal{C}^{op}$, so that the [[limit]] operation is given just by evaluation on that object:
+
+$$
+  \underset{\longleftarrow}{\lim}
+  \mathbf{X}
+  \;=\;
+  \mathbf{X}(\mathbb{A}^0)
+  \,.
+$$
+
+Hence it is sufficient to see that an injectively fibrant simplicial presheaf $\mathbf{X}$ is objectwise a [[Kan complex]]. This is indeed the case, by Prop. \ref{ModelCategoriesOfSimplicialPresheaves}.
+
+To check that (eq:QuillenEquivalenceInABousfLocalization) is actually a [[Quillen equivalence]] (Def. \ref{QuillenEquivalence}), we check that the derived adjunction unit and counit are equivalences:
+
+For $X \in sSet$ any simplicial set (necessarily cofibrant), the derived [[adjunction unit]] is 
+
+$$
+  X 
+    \overset{id_X}{\longrightarrow} 
+  const(X)(\mathbb{A}^0)
+    \overset{ const(j_X)(\mathbb{A}^0) }{\longrightarrow}
+  const(P X)(\mathbb{A}^0)
+$$
+
+where $X \overset{j_X}{\longrightarrow} P X$ is a [[fibrant replacement]] (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}). But $const(-)(\mathbb{A}^0)$ is clearly the [[identity functor]] and the plain adjunction unit is the [[identity morphism]], so that this composite is just $j_X$ itself, which is indeed a weak equivalence.
+
+For the other case, let $\mathbf{X} \in [\mathcal{C}^{op}, sSet_{Qu}]_{inj, loc, \mathbb{A}^1}$ be fibrant. This means (by Prop. \ref{ExistenceOfLeftBousfieldLocalization}) that $\mathbf{X}$ is fibrant in the injective [[model structure on simplicial presheaves]] as well as in the local model structure, and is a derived-$\mathbb{A}^1$-[[local object]] (Def. \ref{DerivedLocalObjects}), in that the [[derived hom-functor]] out of any $\mathbb{A}^n \times \mathbb{A}^1 \overset{p_1}{\longrightarrow} \mathbb{A}^n$  into $\mathbf{X}$ is a [[weak homotopy equivalence]]:
+
+$$
+  \mathbb{R}Hom( p_1 )
+  \;\colon\;
+  \mathbb{R}Hom( \mathbb{A}^n , \mathbf{X})
+  \overset{\in W}{\longrightarrow}
+  \mathbb{R}Hom( \mathbb{A}^n \times \mathbb{A}^1 , \mathbf{X})
+$$
+
+But since $\mathbf{X}$ is fibrant, this derived hom is equivalent to the ordinary [[hom-functor]] (Lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}), and hence with the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) we have that
+
+$$
+  \mathbf{X}(p_1)
+  \;\colon\;
+  \mathbf{X}(\mathbb{A}^n)
+  \overset{\in W}{\longrightarrow}
+  \mathbf{X}(\mathbb{A}^{n+1})
+$$
+
+is a weak equivalence, for all $n \in \mathbb{N}$. By [[induction]] on $n$ this means that in fact 
+
+$$
+  \mathbf{X}(\mathbb{A}^0)
+   \overset{\in W}{\longrightarrow} 
+  \mathbf{X}(\mathbb{A}^n) 
+$$
+
+is a weak equivalence for all $n \in \mathbb{N}$. But these are just the components of the [[adjunction counit]]
+
+$$
+  const (\mathbf{X}(\mathbb{A}^0))
+   \underoverset{\in W}{\epsilon}{\longrightarrow}
+  \mathbf{X}
+$$
+
+which is hence also a weak equivalence. Hence for the derived adjunction counit
+
+$$
+  const (Q \mathbf{X})(\mathbb{A}^0)
+    \overset{const(p_{\mathbf{X}}(\mathbb{A}^0))}{\longrightarrow}
+  const (\mathbf{X}(\mathbb{A}^0))
+   \underoverset{\in W}{\epsilon}{\longrightarrow}
+  \mathbf{X}
+$$
+
+to be a weak equivalence, it is now sufficient to see that the value of a [[cofibrant replacement]] $p_{\mathbf{X}}$ on $\mathbb{A}^0$ is a weak equivalence. But by definition of the weak equivalences of simplicial presheaves these are objectwise weak equivalences.
+
+=--
+
 
 (...)
 
