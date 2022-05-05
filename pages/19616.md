@@ -12,10 +12,13 @@
 * [[binary linear code]]
 * [[chord diagram]]
 * [[combinatorial design]]
-* [[matroid]]
-* [[permutation]]
 * [[Latin square]]
+* [[graph]]
+* [[matroid]]
+* [[partition]]
+* [[permutation]]
 * [[shuffle]]
+* [[tree]]
 * [[Young diagram]]
 
 ### Generating functions
