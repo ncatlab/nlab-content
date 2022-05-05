@@ -106,7 +106,7 @@ $$
 
 * [[George Whitehead]],  _Elements of homotopy theory_ 
 
-(This uses the terminology *mapping path space*.)
+Peter May's books use the terminology *mapping path space*.
 
 [[!redirects cocylinder]]
 [[!redirects cocylinders]]
