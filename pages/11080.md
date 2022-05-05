@@ -878,7 +878,7 @@ Then there is an [[adjoint quadruple]] of [[functors]] between the [[category of
 
 such that:
 
-1. the functor $\Gamma$ sends a [[presheaf]] $\mathbf{Y}$ to its set of [[global sections]], which here is its value on the terminal object:
+1. the functor $\Gamma$ sends a [[presheaf]] $\mathbf{Y}$ to its set of [[global sections]], which here is its value on the [[terminal object]]:
    
    $$
      \begin{aligned}
@@ -937,7 +937,7 @@ Equivalently, $Disc \simeq p^\ast$ is the [[constant functor|constant]] [[diagra
 $$
   \Pi_0(\mathbf{Y})
   \;=\;
-  \underset{\underset{\mathcal{C}}{\longrightarrow]}{\lim} \mathbf{Y}
+  \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} \mathbf{Y}
   \,.
 $$
 
@@ -945,22 +945,23 @@ The fact that this indeed preserves products follows from the assumption that $\
 
 =--
 
+Lemma \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject] suggests to asks for [[coverages]] on categoies with [[finite products]] which are such that the [[adjoint quadruple]]  (eq:PreaheafAdjointQuadruple) on the  [[category of preasheaves]] ([[corestriction|co-]])[[restriction|restricts]] to the corresponding [[category of sheaves]]. The following Definition \ref{OneCohesiveSite} states a useful sufficient condition for this to be the case:
 
 +-- {: .num_defn #OneCohesiveSite}
 ###### Definition
 **([[cohesive site]])**
 
-We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+and+toposes#Coverage)) _[[cohesive site|cohesive]] over [[Grpd]]_ if the following conditions are satisfied:
+We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+and+toposes#Coverage)) _[[cohesive site|cohesive]]_ if the following conditions are satisfied:
 
 1. The [[category]] $\mathcal{C}$ has [[finite products]] (as in Lemma \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}).
  
-1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on  $\mathcal{C}$ the induced [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ ([this def.](geometry+of+physics+--+categories+and+toposes#CechGroupoid)) has,  as an [[internal groupoid]] in [[presheaves]] (...) not only the object of objects but also that of morphsims a [[coproduct]] of [[representable functors]], such that
+1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on  $\mathcal{C}$ the induced [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ ([this def.](geometry+of+physics+--+categories+and+toposes#CechGroupoid)) has,  as an [[internal groupoid]] in [[presheaves]] ([this remark](geometry+of+physics+--+categories+and+toposes#PresheavesOfGroupoidsAsInternalGroupoidsInPresheaves)) not only the object of objects but also that of morphsims a [[coproduct]] of [[representable functors]];
 
-   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is [[contractible]] ([[equivalence of categories|equivalent]] to the [[point]] is connected
+   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is connected
 
       $$
         \pi_0
-        \underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim} 
+        \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} 
          C(\{U_i\}) 
          \;\simeq\;
          \ast
@@ -969,7 +970,7 @@ We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+
    1. the [[groupoid]] of sets of points ([[global elements]]) in $C(\{U_i\})$ is [[equivalence of categories|equivalent]] the set of points of $X$:
 
       $$
-        \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim} C(\{U_i\})
+        \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{\lim} C(\{U_i\})
           \simeq
         Hom_{\mathcal{C}}(\ast,X)
         \,.
