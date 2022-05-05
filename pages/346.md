@@ -84,11 +84,11 @@ sends $1_X$ to $j_X$.  (This is then essentially a definition of $j_X$, so that 
 
 The two are essentially equivalent, and the one given here is perhaps a little simpler, as well as obeying the [[principle of equivalence]].  To be precise, every closed category in the sense of Eilenberg-Kelly is also one in the above sense, and conversely every closed category in the above sense is *isomorphic* to one in the sense of Eilenberg-Kelly.  The latter has the same objects and internal-homs, but new hom-sets $\hat{C}(X,Y) \coloneqq C(I,[X,Y])$, and underlying-set functor $U(X) \coloneqq C(I,X)$ (note that this is different from $\hat{C}(I,X) = C(I,[I,X])$).  See [Manzyuk](#Manzyuk09) for the proof.
 
-### Omitting units: semi-closed categories
+### Omitting units: prounital closed categories
 
 The fact (discussed below) that closed categories, in the above sense, are equivalent to closed [[multicategories]] with unit, suggests that there ought to be a version of closed categories that *don't* necessarily have a unit object $I$.  In fact in this case the definition becomes simpler because we can omit all the $i$'s and $j$'s, but there is an additional wrinkle that we have to include "left evaluation" as a new operation.  Furthermore, it seems that we have to use the Eilenberg-Kelly version of the definition, not the LaPlaza one; the "underlying set" functor $U:C\to Set$ corresponds to the nullary homsets $C(;-)$ of a multicategory.
 
-A **semi-closed category** is a [[category]] $C$ together with the following data:
+A **prounital closed category** is a [[category]] $C$ together with the following data:
 
 * A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
 
@@ -244,3 +244,5 @@ The generalization to a bicategory-like notion ("extension systems") appears in
 [[!redirects semiclosed categories]]
 [[!redirects semi-closed category]]
 [[!redirects semi-closed categories]]
+[[!redirects prounital closed category]]
+[[!redirects prounital closed categories]]
