@@ -24,7 +24,8 @@ Prime fields have [[positive characteristic]].
 
 ### Analogy with knots/prime geodesics
 
-The [[spectrum of a commutative ring|spectra]] of prime fields inside [[Spec(Z)]] are [[analogy|analogous]] to [[knots]]/[[prime geodesics]] inside a ([[hyperbolic manifold|hyperbolic]]) 3-dimensional space, see at _[Spec(Z) -- As a 3-dimensional space containing knots](http://ncatlab.org/nlab/show/Spec%28Z%29#As3dSpaceContainingKnots)_
+The [[spectrum of a commutative ring|spectra]] of prime fields inside [[Spec(Z)]] are [[analogy|analogous]] to [[knots]]/[[prime geodesics]] inside a ([[hyperbolic manifold|hyperbolic]]) 3-dimensional space, see at 
+_[Spec(Z) -- As a 3-dimensional space containing knots](http://ncatlab.org/nlab/show/Spec+Z#As3dSpaceContainingKnots)_
 
 ### Function field analogy
 
@@ -33,6 +34,8 @@ The [[spectrum of a commutative ring|spectra]] of prime fields inside [[Spec(Z)]
 ## Related concepts
 
 * [[cyclic ring]]
+
+* [[field with one element]]
 
 [[!redirects prime fields]]
 
