@@ -135,4 +135,4 @@ Furthermore, this functor is fully faithful, making the category of duploids a [
 
 Duploids were introduced in chapter II of
 
-* {#Mthesis} Guillaume Munch-Maccagoni, _Syntax and Models of a Non-Associative Composition of Programs and Proofs_, PhD thesis University of Paris Diderot, 2013 [pdf link](http://guillaume.munch.name/files/SMAC-screen.pdf)
+* {#Mthesis} Guillaume Munch-Maccagoni, _Syntax and Models of a Non-Associative Composition of Programs and Proofs_, PhD thesis University of Paris Diderot, 2013 [link](https://hal.inria.fr/tel-00918642)
