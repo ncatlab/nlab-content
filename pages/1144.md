@@ -832,17 +832,17 @@ $$
   Ho( (dgcAlg_{\mathbb{Q}, \geq 0})^{op} )
 $$
 
-induced (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) from the [[Quillen adjunction]] from theorem \ref{SullivanRationalizationAdjunction}.
+induced on [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) from the [[Quillen adjunction]] from theorem \ref{SullivanRationalizationAdjunction}.
 
-On the full subcategories of nilpotent objects of finite type, def. \ref{NilpotentObjects}, this adjunction restricts to an [[equivalence of categories]]
+On the [[full subcategories]] of [[nilpotent homotopy types]] of [[finite type]], def. \ref{NilpotentObjects}, this adjunction restricts to an [[equivalence of categories]]
 
 $$
-  Ho(Top_{\mathbb{Q}, nil}^{fin})
+  Ho(Top)_{\mathbb{Q}, nil}^{fin}
    \underoverset
      {\underset{\mathbb{R} \Omega^\bullet_{poly}}{\longrightarrow}}
      {\overset{\mathbb{L} K_{poly} }{\longleftarrow}}
      {\simeq}
-  Ho( (dgcAlg_{\mathbb{Q}, nil}^{fin})^{op} )
+  Ho( (dgcAlg^{op}_\mathbb{Q})_{conn}^{fin}
   \,.
 $$
 
