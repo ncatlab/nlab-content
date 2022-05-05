@@ -505,8 +505,10 @@ with values in the category of [[nLab:presheaf|presheaves]] on a [[nLab:small ca
 
 +-- {: .num_prop #LimitsOfPresheaves}
 ###### Proposition
+**([[limits of presheaves are computed objectwise]])**
 
 Limits of presheaves are computed objectwise:
+
 $$
   lim F : c \mapsto lim F(-)(c)
 $$ 
