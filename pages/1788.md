@@ -1,4 +1,8 @@
 
+[[SimplicialSetsIdea.jpg:file]]
+
+<img src="https://ncatlab.org/nlab/files/SimplicialSetsIdea.jpg" width="600">
+
 | $\phantom{AA}$[[nLab:left homotopy]]$\phantom{AA}$ | $\phantom{AA}$[[nLab:right homotopy]]$\phantom{AA}$ |
 |------------------------|-------------------------|
 | $ \phantom{AAAA} \array{ X \\ {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}} \\ X \times I &\stackrel{\eta}{\longrightarrow}& Y \\ {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}} \\ X } \phantom{AA}$ | $ \phantom{AA}  \array{ && X \\ & {}^{\mathllap{f}}\nearrow & \Big\uparrow{}^{\mathrlap{ \Maps(\delta_0,X) }} \\ X &\overset{\widetilde \eta}{\rightarrow}& Maps(I,X) \\ &{}_{\mathllap{g}}\searrow& \Big\downarrow{}^{ \mathrlap{Maps( \delta_1, X ) } } \\ && X } \phantom{AAAA}$ | 
