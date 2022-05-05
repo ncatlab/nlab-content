@@ -24,7 +24,7 @@
 
 ## Idea
 
-A [[supergeometry|supergeometric]] analog of [[anti-de Sitter spacetime]]. By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]]:
+A [[supergeometry|supergeometric]] analog of [[anti-de Sitter spacetime]]. By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]] ([[super Klein geometries]]):
 
 | $d$ | [[super anti de Sitter spacetime]] |
 |-----|---|
