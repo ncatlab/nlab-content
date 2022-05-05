@@ -118,7 +118,7 @@ Review of the [[James construction]] includes
 
 Discussion of the [[James construction]] via [[homotopy type theory]] includes the following
 
-* {#Brunerie13} [[Guillaume Brunerie]] _The James Construction and $\pi_4(S^3)$_, talk at the Institute of Advanced Studies on March 27, 2013 ([recording](https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie))
+* {#Brunerie13} [[Guillaume Brunerie]], _The James Construction and $\pi_4(S^3)$_, talk at the Institute of Advanced Studies on March 27, 2013 ([recording](https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie))
 
 * {#Brunerie17} [[Guillaume Brunerie]], _The James construction and $\pi_4(S^3)$ in homotopy type theory_ ([arXiv:1710.10307](https://arxiv.org/abs/1710.10307))
 
