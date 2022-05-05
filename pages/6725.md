@@ -31,7 +31,9 @@ There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;a
 
 > from [Kashima 00](#Kashima00)
 
-In the above the circle factor is taken to be the [[circle]] [[fiber]] over the 10d [[type IIA string theory|type IIA]] [[spacetime]]. If instead one considers another of the spatial dimensions to be compactified on $S^1\sslash \mathbb{Z}_2$, then, after [[T-duality]] ([[F-theory]]) result is supposed to be [[type I string theory]].
+In the above the circle factor is taken to be the [[circle]] [[fiber]] over the 10d [[type IIA string theory|type IIA]] [[spacetime]]. 
+
+If instead one considers another of the spatial dimensions to be compactified on $S^1\sslash \mathbb{Z}_2$, then, after [[T-duality]] ([[F-theory]]) result is supposed to be [[type I string theory]]. In this case the intersection of the [[M2-brane]] with the [[M9-brane]] (the latter now wrapping the M-theory circle fiber) is called the _[[E-string]]_.
 
 More in detail:
 
