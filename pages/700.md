@@ -45,11 +45,62 @@ Accordingly, a **[[split monomorphism]]** is a morphism that *has* a retraction;
 
 ## Properties
 
++-- {: .num_lemma #LeftInverseWithLeftInverseIsLeftInverse}
+###### Lemma
+**([[left inverse]] with [[left inverse]] is [[inverse]])**
+
+Let $\mathcal{C}$ be a [[category]], and let $f$ and $g$ be [[morphisms]] in $\mathcal{C}$, such that $g$ is a [[left inverse]] to $f$:
+
+$$
+  g \circ f = id
+  \,.
+$$
+
+If $g$ itself has a left inverse $h$
+
+$$
+  h \circ g = id
+$$
+
+then $h = f$ and $g = f^{-1}$ is an actual (two-sided) [[inverse morphism]] to $f$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since [[inverse morphisms]] are unique if they exists, it is sufficient to show that
+
+$$
+  f \circ g = id
+  \,.
+$$
+
+Compute as follows:
+
+$$
+  \begin{aligned}
+    f \circ g
+    & =  \underset{ = id}{\underbrace{h \circ g}} \circ f \circ g
+    \\
+    & =
+    h \circ \underset{= id}{\underbrace{g \circ f}} \circ g
+    \\
+    & = h \circ g
+    \\
+    & = id
+  \end{aligned}
+$$
+
+
+=--
+
 
 +-- {: .num_remark #RetractsPreservedByFunctor}
 ###### Remark
 
-Retracts are clearly preserved by any functor. 
+Retracts are clearly preserved by any [[functor]]. 
 
 =--
 
