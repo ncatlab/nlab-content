@@ -37,12 +37,11 @@ One candidate for full [[omega-categories]] i.e. [[(∞,∞)-categories]] is _[[
 
 * [[Michael Warren]], _Directed Type Theory_ ([video lecture](https://video.ias.edu/univalent/1213/0410-MichaelWarren))
 
-Also chapters 7 and 8 of
-
-* [[Dan Licata]], _Dependently Typed Programming
-with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
+* [[Dan Licata]], Chapters 7 and 8 of _Dependently Typed Programming with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
 
 * [[Andreas Nuyts]], _Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance_, [PDF](http://people.cs.kuleuven.be/~dominique.devriese/ThesisAndreasNuyts.pdf)
+
+* [[Emily Riehl]] and [[Mike Shulman]], _A type theory for synthetic ∞-categories_, Higher Structures, 2017, [arxiv](https://arxiv.org/abs/1705.07442)
 
 * [[Paige North]], _Towards a directed homotopy type theory_, ([arXiv:1807.10566](https://arxiv.org/abs/1807.10566))
 
