@@ -25,7 +25,7 @@ If  $\delta : G \to M$ is a derivation, then
 ###### Proof
 As was said, these are easy to prove.
 
-$\delta(g) = \delta(1g) + 1\delta(g)$, so $\delta(1)= 0$, and hence (1); then 
+$\delta(g) = \delta(1) + 1\delta(g)$, so $\delta(1)= 0$, and hence (1); then 
 
 $$\delta(1) = \delta(g^{-1}g) = \delta(g^{-1}) + g^{-1}\delta(g)$$ 
 
@@ -34,7 +34,7 @@ to get (2), and finally induction to get (3).
 
 ##Remarks and examples:
 
-* There is a mapping from $G$ to its [[augmentation ideal]], $I(G)$, defined by $d_G(g)= g-e_G$.  This is the [[universal derivation]] towards $G$-modules.  
+* There is a mapping from $G$ to its [[augmentation ideal]], $I(G)$, defined by $d_G(g)= g-e_G$.  This is the [[derived module|universal derivation]] towards $G$-modules.  
 
 * The [[Fox derivatives]] are examples of derivations.  It is worth noting that this lemma allows a simplification of the conditions given there (as noted there).
 
@@ -66,11 +66,13 @@ for all  $h_1$, $h_2  \in  H$.
 
 There is a universal such $\varphi$-derivation, $d_\varphi:H\to D_\varphi$.  The codomain of this is variously called the [[derived module]] of $\varphi$ (e.g. by [[Crowell]]) or the $\varphi$-differential module by [[Masanori Morishita|Morishita]].
 
+The set of  $\varphi$-derivations is often written $Der_\varphi(H,M)$, or simply $Der_\varphi(M)$. 
+
 ##References
 
 For the original version of derived module, see
 
-* R. H. Crowell, _The derived module of a homomorphism_, Advances 
+* [[R. H. Crowell]], _The derived module of a homomorphism_, Advances 
 in Math., 5, (1971), 210&#8211;238. 
 
 For applications in [[arithmetic topology]]
