@@ -12,6 +12,7 @@
 =--
 =--
 
+
 # Contents #
 * table of contents
 {:toc}
@@ -36,9 +37,10 @@ On the other hand, by de-emphasizing the geometric interpretation of their objec
 
 For this reason toposes are often studied as abstract contexts "in which one can do mathematics", independently of their interpretation as categories of spaces. These two points of views on toposes, as being about geometry and about logic at the same time, is part of the richness of topos theory.
 
-On a third hand, however, we can de-emphasize the role of the objects of the topos and instead treat the topos itself as a "generalized space" (and in particular, a [[categorification|categorified]] space).  We then consider the topos $Sh(X)$ as a representative of $X$ itself, while toposes not of this form are "honestly generalized" spaces.  This point of view is supported by the fact that the assignment $X\mapsto Sh(X)$ is a full embedding of (sufficiently nice) topological spaces into toposes, and that many topological properties of a space $X$ can be detected at the level of $Sh(X)$.  (This is even more true once we pass to [[(∞,1)-toposes]].)
+On a third hand, however, we can de-emphasize the role of the objects of the topos and instead treat the topos itself as a "generalized space" (and in particular, a [[vertical categorification|categorified]] space).  We then consider the topos $Sh(X)$ as a representative of $X$ itself, while toposes not of this form are "honestly generalized" spaces.  This point of view is supported by the fact that the assignment $X\mapsto Sh(X)$ is a full embedding of (sufficiently nice) topological spaces into toposes, and that many topological properties of a space $X$ can be detected at the level of $Sh(X)$.  (This is even more true once we pass to [[(∞,1)-toposes]].)
 
 From this point of view, the objects of a topos (regarded as a category) should be thought of instead as *sheaves on* that topos (regarded as a generalized space).  And just as sheaves on a topological space can be identified with local homeomorphisms over it, such "sheaves on a topos" (i.e. objects of the topos *qua* category) can be identified with other *toposes* that sit over the given topos via a [[étale geometric morphism|local homeomorphism of toposes]].
+
 
 Finally, mixing this point of view with the second one, we can regard toposes over a given topos $E$ instead as "toposes in the $E$-world of mathematics."  For this reason, the theory of toposes over a given base is formally quite similar to that of arbitrary toposes.  And coming full circle, this fact allows the use of "base change arguments" as a very useful technical tool, even if our interest is only in one or two particular toposes *qua* categories.
 
