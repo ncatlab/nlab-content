@@ -179,7 +179,7 @@ In one respect, a locally convex TVS is a [[nice topological space]] in that the
 
 * {#Tao09} [[Terence Tao]], _[Duality and the Hahn-Banach theorem](http://terrytao.wordpress.com/2009/01/26/245b-notes-6-duality-and-the-hahn-banach-theorem/)_, 2009
 
-* {#Infusino17} Maria Infusino, _[Topological vector spaces](www.math.uni-konstanz.de/~infusino/TVS-SS17/teachingSS2017.html)_ 2017
+* {#Infusino17} Maria Infusino, _[Topological vector spaces](http://www.math.uni-konstanz.de/~infusino/TVS-SS17/teachingSS2017.html)_ 2017
 
 category: analysis
 
