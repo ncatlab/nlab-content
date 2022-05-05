@@ -100,7 +100,7 @@ The conjugation action of $D^\times$ on itself yields a decomposition
 
 $$D^\times \cong F^\times \; + \sum_{nontrivial\; orbits x} \frac{{|D^\times|}}{{|Stab(a_x)|}}$$ 
 
-where again the elements of the center $F^\times = Z(D^\times)$ correspond to the trivial orbits. The stabilizer of any $a_x$, together with $0$, forms a division ring (strictly) intermediate between $F$ and $D$; usually this is called the [[centralizer]] $C(a_x)$ of $a_x$. Putting $d_x = dim_F(C(a_x)$, the division ring $C(a_x)$ has $q^{d_x}$ elements, and notice $d_x$ divides $n$ because $n/d_x$ is just the dimension of $D$ seen as a vector space (module) over $C(a_x)$. Thus ${|Stab(a_x)|} = q^{d_x} - 1$, and we have a class equation 
+where again the elements of the center $F^\times = Z(D^\times)$ correspond to the trivial orbits. The stabilizer of any $a_x$, together with $0$, forms a division ring (strictly) intermediate between $F$ and $D$; usually this is called the [[centralizer]] $C(a_x)$ of $a_x$. Putting $d_x = dim_F(C(a_x))$, the division ring $C(a_x)$ has $q^{d_x}$ elements, and notice $d_x$ divides $n$ because $n/d_x$ is just the dimension of $D$ seen as a vector space (module) over $C(a_x)$. Thus ${|Stab(a_x)|} = q^{d_x} - 1$, and we have a class equation 
 
 $$q^n - 1 = q - 1 + \sum_x \frac{q^n - 1}{q^{d_x} - 1}.$$ 
 
@@ -111,7 +111,9 @@ Now let $\zeta \in \mathbb{C}$ be any primitive $n^{th}$ [[root of unity]]. Sinc
 
 Let $G$ be a finite group of order $n$, and suppose that $p$ is a prime that divides $n$; say $n = p^f u$ where $p$ does not divide $u$. Recall that a [[Sylow p-subgroup]] is a $p$-subgroup of maximal order $p^f$. 
 
-A fundamental fact of group theory is that Sylow $p$-subgroups exist and they are all conjugate to one another; also the number of Sylow $p$-subgroups is $\equiv 1 \; mod p$. Existence of Sylow $p$-subgroups can be proven by exploiting the same type of argument as in the proof of Proposition \ref{pgroup}; here we prove a stronger statement: 
+A fundamental fact of group theory is that Sylow $p$-subgroups exist and they are all conjugate to one another; also the number of Sylow $p$-subgroups is $\equiv 1 \; mod p$. 
+
+Existence of Sylow $p$-subgroups can be proven by exploiting the same type of argument as in the proof of Proposition \ref{pgroup}: 
 
 +-- {: .num_theorem #ppower} 
 ###### Theorem 
@@ -120,26 +122,25 @@ If $G$ has order $n$ and $p^k$ is a prime power dividing $n$, then there is a su
 
 +-- {: .proof} 
 ###### Proof 
-(We adapt the proof from [Wikipedia](https://en.wikipedia.org/wiki/Sylow_theorems#Proof_of_the_Sylow_theorems).) Let $P_k = \binom{G}{p^k}$ be the collection of subsets $S$ of $G$ of cardinality $p^k$, and let $G$ act on $P_k$ by taking images of left translations, $S \mapsto g S$. For $S \in P_k$, any $h \in S$ yields a monomorphism 
+First we show that Sylow subgroups exist. We start by observing that if a group $H$ has a $p$-Sylow subgroup $P$, then so does each of its subgroups $G$. For we let $G$ act on $H/P$ by left translation, and then note that since $H/P$ has cardinality prime to $p$, so must one of its [[connected object|connected components]] $G/Stab(a_x)$ in its $G$-set decomposition 
 
-$$Stab(S) \hookrightarrow G \stackrel{g \mapsto g h}{\to} G$$ 
+$$H/P \cong \sum_{orbits\; x} G/Stab(a_x),$$ 
 
-that (by definition of $Stab(S)$) factors through $S \hookrightarrow G$; this gives a monomorphism $Stab(S) \to S$, and so ${|Stab(S)|} \leq p^k$. 
+making $Stab(a_x)$ a $p$-Sylow subgroup of $G$. 
 
-Now we establish the reverse inequality for a suitable $S$. Writing $n = p^k m$, we have 
+Then, if $G$ is any group, apply this observation to the embedding 
 
-$${|P_k|} = \binom{p^k m}{p^k} = m \prod_{j = 1}^{p^k - 1} \frac{p^k m - j}{p^k - j}$$ 
+$$G \stackrel{Cayley}{\hookrightarrow} Perm({|G|}) \hookrightarrow GL_{{|G|}}(\mathbb{Z}/(p))$$ 
 
-where the product after $m$ on the right is easily seen to be prime to $p$ (any power of $p$ that divides one of the numerators $p^k m - j$ also divides the denominator $p^k - j$, so that powers of $p$ in the product are canceled). Therefore $ord_p({|P_k|}) = ord_p(m)$; let $r$ be this number. Writing out the class equation 
+where we embed the permutation group via permutation matrices into the group $H$ consisting of matrices ${|G|} \times {|G|} \to \mathbb{Z}/(p)$. Letting $n$ be the cardinality of $G$, the order of $H$ is $(p^n - 1)(p^n - p)\ldots (p^n - p^{n-1})$, with maximal $p$-factor $p^{n(n-1)/2}$. This $H$ has a $p$-Sylow subgroup given by unitriangular matrices, i.e., upper-triangular matrices with all $1$\'s on the diagonal. Therefore $p$-Sylow subgroups $P$ exist for any $G$. 
 
-$${|P_k|} = \sum_{orbits x} \frac{{|G|}}{{|Stab(S_x)|}},$$ 
+Finally, note that by Proposition \ref{pgroup}, $P$ is solvable and therefore has a [[composition series]] 
 
-not every term on the right can have $p$-order greater than $r$, so there is at least one orbit $x$ where 
+$$\{1\} = P_0 \subset P_1 \subset \ldots \subset P$$ 
 
-$$ord_p(\frac{{|G|}}{{|Stab(S_x)|}}) = ord_p({|G|}) - ord_p({|Stab(S_x)|}) \leq r = ord_p(m).$$ 
-
-We may rearrange this inequality to say $ord_p({|G|}/m) \leq ord_p({|Stab(S_x)|})$; in other words $p^k = {|G|}/m$ divides ${|Stab(S_x)|}$. Therefore $Stab(S_x)$ has order $p^k$, which is what we wanted. 
+where each $P_k$ has order $p^k$. 
 =-- 
+
 
 +-- {: .num_theorem} 
 ###### Theorem 
