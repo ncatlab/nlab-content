@@ -1596,6 +1596,104 @@ Finally to see that _[[pieces have points]]_ and _[[discrete objects are concret
 
 =--
 
+The following statement is a [[0-truncated object|0-truncated]] shadow of the [[differential geometry|differential geometric]] analog of the concept of _[[A1-homotopy theory|A1-localization]]_:
+
++-- {: .num_prop #ShapeModalityOnSmoothSetsIsR1Localization}
+###### Proposition
+**([[shape modality]] on [[smooth sets]] is $\mathbb{R}^1$-[[reflective localization|localization]])**
+
+The [[reflective subcategory]]-inclusion from Prop. \ref{SmoothSetsFormACohesiveTopos}
+
+$$
+  Set 
+    \underoverset
+      {\underset{ \phantom{A}Disc\phantom{A} }{\hookrightarrow}}
+      {\overset{\Pi}{\longleftarrow}}
+      {\bot}
+  SmoothSet
+$$
+
+of [[sets]] as the [[discrete objects|discrete]] [[smooth sets]], exhibits the _[[reflective subcategory|reflection]] on $\mathbb{R}^1$-[[local objects]]_ ([this Def.](geometry+of+physics+--+categories+and+toposes#LocalizationAtACollectionOfMorphisms)) for $\mathbb{R}^1$ the [[real line]], in the sense of [[localization at an object]]:
+
+$$
+  \Pi \;\simeq\; L_{\mathbb{R}^1}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since we already know that the [[left adjoint]] $\Pi$ exists, we need to show that the [[full subcategory]] of [[discrete object|discrete]] [[smooth sets]] $Set \overset{Disc}{\hookrightarrow} SmoothSet$ is equivalently that of [[local objects]] ([this Def.](geometry+of+physics+–+basic+notions+of+category+theory#LocalObjects)) with respect to the class of morphisms of the form
+
+$$
+  X \times \mathbb{R}^1 \overset{ p_1 }{\longrightarrow} X
+$$
+
+for $X$ any [[object]] of $SmoothSet$.
+
+We claim that a [[smooth set]] $A$ is a [[local object]] with respect to this class, already if it is a local object with respect to just the [[small set]]
+
+\[
+  \label{RnTimesR1Projections}
+  \left\{
+     \mathbb{R}^n \times \mathbb{R}^1 
+     \overset{p_1}{\longrightarrow}
+     \mathbb{R}^1
+  \right\}_{n \in \mathbb{N}}
+\]
+
+for $X = \mathbb{R}^n$ a [[Cartesian space]].
+
+To see this, we identify $SmoothSet \simeq Sh(CartSp)$ via Prop. \ref{EquivalentSitesForCartSp}, and then use the [[co-Yoneda lemma]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#TopologicalCoYonedaLemma)) to express any $X \in SmoothSet$ as a [[colimit]] of [[Cartesian spaces]]: $X \simeq \int^{\mathbb{R}^n \in Cartsp} \mathbb{R}^n \cdot X(\mathbb{R}^n)$. 
+
+Assuming then that $A$ is local with respect to the [[small set]] (eq:RnTimesR1Projections) we obtain
+
+$$
+  \begin{aligned}
+    Hom_{SmoothSet}\big(
+      X \times \mathbb{R}^1 \overset{p_1}{\to} X
+      \;\,,\;
+      A
+    \big)
+    & \simeq
+    \int_{\mathbb{R}^n \in CartSp}
+    Hom_{Set}\left( X(\mathbb{R}^n),
+    \,
+    \underset{\text{bijection}}{
+    \underbrace{
+    Hom_{SmoothSet}\big(
+      \mathbb{R}^n \times \mathbb{R}^1 \overset{p_1}{\to} \mathbb{R}^n
+      \;\,,\;
+      A
+    \big)
+    }}
+    \right)
+  \end{aligned}
+$$
+
+where we used that
+
+1. the [[Cartesian product]] $(-) \times \mathbb{R}^1$ preserves [[colimits]], since it is a [[left adjoint]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#PropertiesOfSheafToposes)) and since [[left adjoints preserve colimits]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#AdjointsPreserveCoLimits)),
+
+1. the [[hom-functor preserves limits]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#HomFunctorPreservesLimits)), hence sends colimits in the first argument to limits.
+
+But on the right this is now a morphisms of [[limits]] induced by morphism of [[diagrams]] which is objectwise an [[bijection]], as shown, and hence is a [[bijection]]) itself.
+
+Hence we are reduced to showing that the [[local objects]] with respect to (eq:RnTimesR1Projections) are the discrete smooth sets. But by [[induction]] over $n \in \mathbb{N}$, locality with respect to (eq:(eq:RnTimesR1Projections)) means equivalently locality with respect to 
+
+$$
+  \left\{ 
+    \mathbb{R}^n \overset{\exists !}{\to} \mathbb{R}^0 = \ast
+  \right\}
+$$
+
+The [[local objects]] with respect to this set are manifestly exactly the [[constant presheaves]]. But by the proof of Prop. \ref{SmoothSetsFormACohesiveTopos} (proceeding via the proof of [this Prop.](geometry+of+physics+--+categories+and+toposes#CategoriesOfSheavesOnCohesiveSiteIsCohesive)) these are indeed exactly the objects in the image of $Set \overset{Disc}{\hookrightarrow} SmoothSet$.
+
+=--
+
+
 
 $\,$
 
