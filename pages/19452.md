@@ -22,6 +22,7 @@ This makes use of the following curious dictionary between [[category theory]]/[
 | $\phantom{A}$[[representable presheaf]]$\phantom{A}$ | Expl. \ref{RepresentablePresheaves}$\phantom{A}$ |  $\phantom{A}$model [[space]] <br/> $\phantom{A}$regarded as [[generalized space]] |
 | $\phantom{A}$[[Yoneda lemma]] | Prop. \ref{YonedaLemma}$\phantom{A}$  |  $\phantom{A}$sets of probes of [[generalized spaces]] <br/> $\phantom{A}$are indeed <br/> $\phantom{A}$sets of maps from model [[spaces]] $\phantom{A}$ |
 | $\phantom{A}$[[Yoneda embedding]] $\phantom{A}$ | Prop. \ref{YonedaEmbedding}$\phantom{A}$ |  $\phantom{A}$nature of model [[spaces]] is preserved when <br/> $\phantom{A}$regarding them as [[generalized spaces]] $\phantom{A}$ |
+| $\phantom{A}$[[Yoneda embedding]] is$\phantom{A}$ <br/> $\phantom{A}$[[free co-completion]]$\phantom{A}$ |  ... | $\phantom{A}$[[generalized spaces]] really are$\phantom{A}$ <br/> $\phantom{A}$glued from ordinary [[spaces]]$\phantom{A}$  |
 |  |  | |
 | $\phantom{A}$**[[topos theory]]** | **Rmk. \ref{SheafConditionAsLocality}** |  $\phantom{A}$**[[local-global principle]] for [[generalized spaces]]**$\phantom{A}$  |
 | $\phantom{A}$[[coverage]] | Defn. \ref{Coverage} | $\phantom{A}$notion of locality |
@@ -7598,7 +7599,7 @@ The matching families in the image of this function are hence those [[tuples]] o
 
 +-- {: .num_defn #Sheaf}
 ###### Definition
-**([[sheaf]])**
+**([[sheaves]] and [[sheaf toposes]])**
 
 Let $\mathcal{C}$ be a [[small category]] equipped with a [[coverage]], hence a [[site]] (Def. \ref{Coverage}) and consider a [[presheaf]] $\mathbf{Y} \in [\mathcal{C}^{op}, Set]$ (Example \ref{CategoryOfPresheaves}) over $\mathcal{C}$.
 
@@ -7627,6 +7628,24 @@ The [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of the 
 \]
 
 A [[category]] which is [[equivalence of categories|equivalent]] (Def. \ref{EquivalenceOfCategories}) to a [[category of sheaves]] is called a _[[sheaf topos]]_, or often just _[[topos]]_, for short.
+
+For $\mathbf{H}_1$ and $\mathbf{H}_2$ two such sheaf toposes, a [[homomorphism]] $f \;\colon\; \mathbf{H}_1 \to \mathbf{H}_2$ between them, called a _[[geometric morhism]]_ is an [[adjoint pair]] of [[functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) 
+
+\[
+  \label{GeometricMorphism}
+  \mathbf{H}_1
+    \underoverset
+      {\underset{ \phantom{AA} f_\ast \phantom{AA} }{\longrightarrow}}
+      \overset{ \phantom{AA} f^\ast \phantom{AA} }{\;longleftarrow}
+      {}
+  \mathbf{H}_2
+\]
+
+such that 
+
+* the [[left adjoint]] $f^\ast$, called the _[[inverse image]]_, [[preserved limit|preserves]] [[finite products]].
+
+Hence there is a [[category]] _[[Topos]]_, whose [[objects]] are [[sheaf toposes]] and whose [[morphisms]] are [[geometric morphisms]].
 
 =--
 
@@ -7664,9 +7683,9 @@ Hence the [[category of sets]] is a [[sheaf topos]].
 
 +-- {: .num_example #SheafOnATopologicalSpace}
 ###### Example
-**([[sheaves on a topological space]])**
+**([[sheaves on a topological space]] -- [[spatial topos|spatial]] [[petit toposes]])**
 
-In the literature, the concept of (pre-)sheaf (Def. \ref{Sheaf}) is sometimes not define relative to a [[site]], but relative to a [[topological space]]. But the latter is a special case: For $X$ a [[topological space]], consider its [[category of open subsets]] $Op(X)$ from Example \ref{CanonicalCoverageOnTopologicalSpaces}, with [[coverage]] given by the usual [[open covers]]. Then a "[[sheaf on a topological space|sheaf on this topological space]]" is a sheaf, in the sense of Def. \ref{Sheaf}, on this site of opens. One writes
+In the literature, the concept of (pre-)sheaf (Def. \ref{Sheaf}) is sometimes not defined relative to a [[site]], but relative to a [[topological space]]. But the latter is a special case: For $X$ a [[topological space]], consider its [[category of open subsets]] $Op(X)$ from Example \ref{CanonicalCoverageOnTopologicalSpaces}, with [[coverage]] given by the usual [[open covers]]. Then a "[[sheaf on a topological space|sheaf on this topological space]]" is a sheaf, in the sense of Def. \ref{Sheaf}, on this site of opens. One writes
 
 $$
   Sh(X)
@@ -7677,9 +7696,47 @@ $$
   \,,
 $$
 
-for short.  The [[sheaf toposes]] arising this way are also called _[[spatial toposes]]_. These are _[[petit toposes]]_.
+for short.  The [[sheaf toposes]] arising this way are also called _[[spatial toposes]]_. 
 
 =--
+
++-- {: .num_prop #LocalicReflection}
+###### Proposition
+**([[localic reflection]])**
+
+The construction of [[categories of sheaves on a topological space]] (Example \ref{SheafOnATopologicalSpace}) extends to a [[functor]] from the [[category]] _[[Top]]_ of [[topological spaces]] and [[continuous functions]] between them (Example \ref{ExamplesOfConcreteCategories}) to the [[category]] _[[Topos]]_ of [[sheaf toposes]] and [[geometric morphisms]] between them (Example \ref{SheafOnATopologicalSpace}).
+
+$$
+  Sh(-)
+  \;\colon\;
+  Top \longrightarrow Topos
+  \,.
+$$
+
+Moreover, when restricted to [[super topological spaces]], this becomes a [[fully faithful functor]], hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor})
+
+$$
+  Sh(-)
+  \;\colon\;
+  SoberTop \overset{\phantom{AAA}}{\hookrightarrow} Topos
+  \,.
+$$
+
+More generally, this holds for _[[locales]]_ (i.e. for "[[sober topological spaces]] not necessarily supported on points"), in which case it becomes a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory})
+
+$$
+  Locale
+    \underoverset
+      {\underset{\phantom{AA} Sh(-) \phantom{AA} }{\hookrightarrow}}
+      {\overset{\phantom{AAAA}}{\longlefarrow}}
+      {\bot}
+  Topos
+$$
+
+This says that [[categories of sheaves on topological spaces]] are but a reflection of soper topological spaces (generally: locales) and nothing more, whence they are also called _[[petit toposes]]_.
+
+=--
+
 
 +-- {: .num_example #AbelianSheaves}
 ###### Example
@@ -7959,43 +8016,10 @@ Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its
 
 (...)
 
-+-- {: .num_defn #SheafToposAsSubtopos}
-###### Definition
 
-A [[sheaf topos]] is [[subtopos]] of [[presheaf topos]]
-
-$$
-  Sh(C)
-    \stackrel{\overset{\overline{(-)}}{\leftarrow}}{\hookrightarrow}
-  PSh(C)
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
++-- {: .num_remark #OrdinarySpacesAreGeneratorsAndRelationsForGeneralizedSpaces}
 ###### Remark
-
-Here the [[left adjoint]] $\overline{(-)}$, which is equivalently
-
-* the [[inverse image]] of the [[geometric embedding]] [[geometric morphism]]
-
-* the [[sheafification]] functor
-
-is precisely such that for every [[covering]] $\{U_i \to U\}_{i \in I}$ in the [[site]] $C$ the [[sieve]] inclusion
-
-$$
-  S(\{U_i\}) \hookrightarrow U \;\;\;\; \in PSh(C)
-$$
-
-(a [[dense monomorphism]]) is sent to an [[isomorphism]].
-
-Hence the sheaf topos is the left exact [[localization]] at the covering sieve inclusions.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
+**(ordinary [[spaces]] are [[generators and relations]] for [[generalized spaces]])**
 
 The [[presheaf topos]] $PSh(C)$ is the [[free cocompletion]] of the [[category]] $C$, hence the category obtained from $C$ by [[free construction|freely]] forming [[colimits]] of its objects.
 
@@ -8009,41 +8033,21 @@ Therefore in total we may think of $Sh(C)$ as obtained by [[generators and relat
 
 =--
 
-Def. \ref{SheafToposAsSubtopos} is the "external" characterization of sheaf toposes.
-
-More intrinsically we have _[[Giraud's theorem]]_:
-
 +-- {: .num_theorem}
 ###### Theorem
+**([[Giraud's theorem]])**
 
 A [[sheaf topos]] is equivalently a [[presentable category]] with
 
-1. [[universal colimits]]
+1. [[universal colimits]],
 
-1. [[effective quotients]]
+1. [[effective quotients]],
 
-1. [[disjoint coproducts]]
-
-=--
-
-This characterization, or rather its refinement to [[(infinity,1)-categories of (infinity,1)-sheaves]], is crucial, below, for the discussion of [[principal bundles]] and their [[associated bundle|associated]] [[fiber bundles]].
-
-For other general considerations we need rather that every [[sheaf topos]] is in particular an _[[elementary topos]]_
-
-+-- {: .num_defn}
-###### Definition
-
-An [[elementary topos]] is
-
-* a [[locally cartesian closed category]]
-
-* with a [[subobject classifier]].
+1. [[disjoint coproducts]].
 
 =--
 
-The first of these says that the [[internal language]] is [[dependent type theory]] with [[dependent sum types]] and [[dependent product types]], the second says that it has a [[type of propositions]]. 
-
-(...)
+$\,$
 
 
 ### Codescent
@@ -8424,21 +8428,31 @@ $\,$
 ## Cohesive toposes
   {#Cohesive}
 
-Here we discuss basic concepts of _[[cohesive toposes|cohesive topos theory]]_.
+We have seen roughly two different kinds of [[sheaf toposes]]:
+
+* [[categories of sheaves on a topological space|categories of sheaves on a given space]] $X$ (Example \ref{SheafOnATopologicalSpace}), which, by [[localic reflection]] (Prop. \ref{LocalicReflection}), really are just a reflection of the space $X$ in the [[category]] of [[toposes]],
+
+  these are called _[[petit toposes]]_;
+
+* [[categories of sheaves]] whose [[objects]] are [[generalized spaces]] (Example \ref{SmoothSetAnnounced})
+
+  these are called _[[gros toposes]]_.
 
 +-- {: .num_remark #CohesiveGeneralizedSpacesAsFoundations}
 ###### Remark
 **([[cohesion|cohesive]] [[generalized spaces]] as [[foundations|foundations]] of [[geometry]])**
 
-We have seen that [[presheaves]] model [[generalized spaces]] (Remark \ref{PresaheavesAsGeneralizedSpaces}) and that the [[sheaves]] among them adhere to a [[local-to-global principle]] (Remark \ref{SheafConditionAsLocality}).  However, the classical example of [[sheaves on a topological space]] shows that the [[generalized spaces]] which are the objects of some [[categories of sheaves]] may depend on, or be parameterized over, an ordinary [[topological space]]. If we aim to lay [[foundations]] for [[geometry]], then we are interested in isolating those kinds of [[generalized spaces]] which have foundational _a priori_ meaning independent of an otherwise pre-configured notion of space.
+If we aim to lay [[foundations]] for [[geometry]], then we are interested in isolating those kinds of [[generalized spaces]] which have foundational _a priori_ meaning independent of an otherwise pre-configured notion of space.
+Hence we would like to first characterize suitable [[gros toposes]], extract concepts of [[space]] from these, and only then, possibly, consider the [[localic reflection|petit topos-reflections]] of these (Prop. \ref{LocalicReflection} below).
 
-In particular, [[categories]] of such foundational [[generalized spaces]] ought to  have an _[[internal logic]]_ that knows about [[modalities]] of [[geometry]] such as _[[discrete object|discreteness]]_ or _[[concrete object|concreteness]]_. Via the mathematical formalization of [[modalities]] (Def. \ref{ModalOperator}) this leads to the definiton of [[cohesive toposes]] (Def. \ref{CohesiveTopos} below, [[Some Thoughts on the Future of Category Theory|Lawvere 91]], [Lawvere 07](#cohesive+topos#LawvereAxiomatic)).
-
-(...)
+The [[gros toposes]] of such foundational [[generalized spaces]] ought to  have an _[[internal logic]]_ that knows about _[[modalities]] of [[geometry]]_ such as _[[discrete object|discreteness]]_ or _[[concrete object|concreteness]]_. Via the formalization of [[modalities]] in Def. \ref{ModalOperator} this leads to the definiton of [[cohesive toposes]] (Def. \ref{CohesiveTopos}, Prop. \ref{PiecesHavePoints} below, due to [[Some Thoughts on the Future of Category Theory|Lawvere 91]], [Lawvere 07](#cohesive+topos#LawvereAxiomatic)).
 
 =--
 
+There is a further progression of [[adjoint modalities]] (Def. \ref{AdjointModality]) of [[geometry]], including the _infinitesimal_ and the _&eacute;tale_, which are formalized by _[[differential cohesion]]_ (Def. \ref{DifferentialCohesion} below).
+
 $\,$
+
 
 
 +-- {: .num_defn #CohesiveTopos}
