@@ -114,7 +114,9 @@ Now
 
 Original articles include
  
-* {#Spanier49} [[Edwin Spanier]], _Borsuk's Cohomotopy Groups_, Annals of Mathematics Second Series, Vol. 50, No. 1 (Jan., 1949), pp. 203-245 ([jstor](http://www.jstor.org/stable/1969362))
+* {#Spanier49} [[Edwin Spanier]], _Borsuk's Cohomotopy Groups_, Annals of Mathematics Second Series, Vol. 50, No. 1 (Jan., 1949), pp. 203-245 ([jstor:1969362](http://www.jstor.org/stable/1969362))
+
+* Franklin P. Peterson, _Some Results on Cohomotopy Groups_, American Journal of Mathematics Vol. 78, No. 2 (Apr., 1956), pp. 243-258 ([jstor:2372514](https://www.jstor.org/stable/2372514))
 
 The relation between cohomotopy classes of manifolds to the [[cobordism group]] is discussed for instance in 
 
