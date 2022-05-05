@@ -412,6 +412,17 @@ Consider a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) of the f
 $$
   \mathcal{C}_{1/2}
     \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  \mathcal{D}
+  \phantom{AA}\text{or}\phantom{AA}
+  \mathcal{C}_{1/2}
+    \array{
       \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
       \\
       \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
@@ -422,16 +433,48 @@ $$
   \mathcal{D}
 $$ 
 
-i.e. assume that $C$ is both left and right Quillen for both model structures. 
+and assume that $C$ is both left and right Quillen for both model structures. 
 
-Then 
+Then, in the case on the left
 
 1. on [[cofibrant objects]] the composite [[derived functor]] 
 
    $$
      \Box 
      \;\coloneqq\;
-     \mathbb{L}_2 L \circ \mathbb{R}_2 C (c)
+     \mathbb{L}_1 L \circ \mathbb{R}_1 C
+     \;\colon\;
+     Ho(\mathcal{D})
+       \longrightarrow
+     Ho(\mathcal{D})
+   $$ 
+   
+   is equivalent to $\mathbb{R}_1(L \circ C)$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[cofibrant objects]]; 
+
+1. on [[fibrant objects]] the composite [[derived functor]] 
+
+   $$
+     \bigcirc
+       \;\coloneqq\; 
+     \mathbb{R}_2 R \circ \mathbb{L}_2 C
+     \;\colon\;
+     Ho(\mathcal{D})
+       \longrightarrow
+     Ho(\mathcal{D})
+     \;\;
+   $$ 
+   
+   is equivalent to $\mathbb{L}_2( R \circ C )$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[fibrant objects]].
+
+
+In the case on the right
+
+1. on [[cofibrant objects]] the composite [[derived functor]] 
+
+   $$
+     \Box 
+     \;\coloneqq\;
+     \mathbb{L}_2 L \circ \mathbb{R}_2 C
      \;\colon\;
      Ho(\mathcal{C})
        \longrightarrow
@@ -445,7 +488,7 @@ Then
    $$
      \bigcirc
        \;\coloneqq\; 
-     \mathbb{R}_1 R \circ \mathbb{L}_1 C(c)
+     \mathbb{R}_1 R \circ \mathbb{L}_1 C
      \;\colon\;
      Ho(\mathcal{C})
        \longrightarrow
@@ -460,6 +503,53 @@ Then
 +-- {: .proof}
 ###### Proof
 
+Consider first the case on the left:
+
+For the first claim:
+
+A priori, the full derived functor is given by
+
+$$
+  \mathbb{L}_1 L \circ \mathbb{R}_1 C (d)
+  \;\simeq\;
+  L Q_1 C P (d)
+$$
+
+The comparison morphism is
+
+$$
+  L Q_1 C P (d)
+    \overset{ L\left(  p_{C P(d)} \right) }{\longrightarrow}
+  L C P (d)
+  \,,
+$$
+
+But since $d$ and hence $P(d)$ is cofibrant and since $C$ is assumed to be left Quillen also for $\mathcal{C}_1$, it follows that $C P(d)$ is already cofibrant in $\mathcal{C}_1$ so that we may take the comparison morphism to be the [[identity morphism]].
+
+For the second claim:
+
+A priori, the full derived functor is given by
+
+$$
+  \mathbb{R}_2 R \circ \mathbb{L}_2 C (d)
+  \;\simeq\;
+  R P_2 C  Q (d)
+  \,.
+$$
+
+The comparison morphism is
+
+$$
+  R C  Q (d)
+    \overset{ R\left( j_{C Q d} \right) }{\longrightarrow}
+  R P_2 C  Q (d)
+  \,.
+$$
+
+But since $d$ is assumed fibrant, and since $C$ is assumed to be right Quillen for $\mathcal{C}_2$, we may take the comparison morphism to be the [[identity morphism]].
+
+
+Consider now the case on the right.
 
 For the first claim:
 
@@ -763,7 +853,7 @@ $$
     & \simeq_W
     \mathcal{C}( C L X, Y )
     \\
-    & \simeq
+    & \simeq_{\phantom{W}}
     \mathcal{C}( X, C R Y )
     \\
     & \simeq_W
