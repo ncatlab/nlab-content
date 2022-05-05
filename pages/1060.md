@@ -193,6 +193,8 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * The [[unit interval]] $[0,1]$ is a [[semicartesian monoidal category|semicartesian]] $\ast$-autonomous poset with the monoidal structure $x \otimes y = \max(x+y-1,0)$ and dualizing object $0$.  The involution is $x^\ast = 1-x$ and the dual [[multiplicative disjunction]] is $x\parr y = \min(x+y,1)$.  This is known as [[Lukasiewicz logic]] and is used in [[fuzzy logic]]; it is also a special case of a [[t-norm]].
 
+* A summary of many different ways to construct examples is in [Hyland-Schalk](#HylandSchalk01).
+
 ## References ##
 
 The notion is originally due to
@@ -226,6 +228,11 @@ Relation to linearly distributive categories:
 
 * [[Robin Cockett]] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049(98)00110-8)
  {#CockettSeely99}
+
+A wide-ranging summary of different model constructions:
+
+* [[Martin Hyland]] and [[Andreas Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+ {#HylandSchalk01}
 
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
