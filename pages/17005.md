@@ -98,6 +98,11 @@ Relation to [[Segal-Carlsson completion theorem]]:
 
 * Noe Barcenas, _Nonlinearity, Proper Actions and Equivariant Stable Cohomotopy_ ([arXiv:1302.1712](https://arxiv.org/abs/1302.1712))
 
+Discussion of unstable equivariant [[cohomotopy]] is in 
+
+* {#Cruickshank03} James Cruickshank, _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
+
+
 A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-equivariant stable cohomotopy is discussed in
 
 * Stefan Bauer, Mikio Furuta _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ ([arXiv:math/0204340](http://arxiv.org/abs/math/0204340))
