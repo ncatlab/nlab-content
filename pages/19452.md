@@ -1,3 +1,4 @@
+[[!redirects geometry of physics -- Categories and Toposes]]
 
 > This page is going to be one chapter in _[[geometry of physics]]_.
 
@@ -2307,12 +2308,12 @@ Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[intern
 ###### Proposition
 **([[internal hom]] preserves [[limits]])**
 
-Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the second variable, and sends colimits in the first variable to limits:
+Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the second variable, and sends [[colimits]] in the first variable to limits:
 
 $$
-  [X, \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j)]
+  [X, \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} Y(j)]
   \;\simeq\;
-  \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} [X, Y(j)]
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [X, Y(j)]
 $$
 
 and
@@ -4644,6 +4645,14 @@ Most (if not all) introductions to [[sheaf theory]] insist on motivating the con
 
 =--
 
+$\,$
+
+We now first introduce the [[sheaf]]-condition (Def. \ref{Sheaf}) below in its traditional form via "[[matching families]]" (Def. \ref{CompatibleElements} below). Then we show (Prop. \ref{CechGroupoidCoRepresents} below) how this is equivalently expressed in terms of _[[Cech groupoids]]_ (Example \ref{CechGroupoid} below). This second formulation is convenient for understanding and handling various constructions in ordinary [[topos theory]] (for instance the definition of [[cohesive sites]]) and it makes immediate the generalization to [[higher topos theory]].
+
+$\,$
+
+### Descent
+
 
 +-- {: .num_defn #Coverage}
 ###### Definition
@@ -4700,13 +4709,12 @@ To see that these coverings satisfy the condition (eq:ConditionOnCoverage): The 
 
 =--
 
-Example \ref{DifferentiablyGoodOpenCoversOfSmoothManifolds} is further developed in the chapter _[[geometry of physics -- smooth homotopy types|on smooth homotopy types]]_.
+Example \ref{DifferentiablyGoodOpenCoversOfSmoothManifolds} is further developed in the chapters _[[geometry of physics -- smooth sets|smooth sets]]_ and _[[geometry of physics -- smooth homotopy types|on smooth homotopy types]]_.
 
-### Descent
 
 +-- {: .num_defn #CompatibleElements}
 ###### Definition
-**([[matching family]])**
+**([[matching family]] -- [[descent object]])**
 
 Let $\mathcal{C}$ be a [[small category]] equipped with a [[coverage]], hence a [[site]] (Def. \ref{Coverage}) and consider a [[presheaf]] $\mathbf{Y} \in [\mathcal{C}^{op}, Set]$ (Example \ref{CategoryOfPresheaves}) over $\mathcal{C}$.
 
@@ -4924,7 +4932,7 @@ The first of these says that the [[internal language]] is [[dependent type theor
 
 ### Codescent
 
-In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to consider [[Cech groupoids]].
+In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to consider [[Cech groupoids]] (Def. \ref{CechGroupoid}) below. These are really _[[presheaves of groupoids]]_, and so we first make explicit this special case of the general concept of [[enriched presheaves]]:
 
 
 +-- {: .num_defn #PresheafOfGroupoids}
@@ -5021,9 +5029,9 @@ precisely if
 
 Condition (eq:CechMatchingCondition) for [[morphisms]] in the [[Cech groupoid]] to be well-defined is verbatim the condition (eq:MatchingCondition) in the definition of [[matching families]]. Indeed, [[Cech groupoids]] serve to conveniently summarize (and then generalize) the [[sheaf|sheaf condition]]  (Def. \ref{Sheaf})
 
-+-- {: .num_example }
++-- {: .num_example #CechGroupoidCoRepresents}
 ###### Proposition
-**([[Cech groupoid]] co-represents [[matching families]])**
+**([[Cech groupoid]] co-represents [[matching families]] -- [[codescent]])**
 
 For [[Grpd]] regarded as a [[cosmos]] (Example \ref{ExamplesOfCosmoi}), and $\mathcal{C}$ a [[site]] (Def. \ref{Coverage}), let
 
