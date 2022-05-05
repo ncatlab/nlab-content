@@ -102,6 +102,8 @@ More generally there is $RO(G)$-graded [[equivariant cohomology]] with [[coeffic
 
 * [[global equivariant stable homotopy theory]]
 
+* [[orbifold cohomology]]
+
 [[!include equivariant cohomology -- table]]
 
 ## References
