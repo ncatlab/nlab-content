@@ -5620,9 +5620,9 @@ $$
   \mathcal{C}
 $$
 
-such that the the coverings of $\mathcal{D}$ refine the [[induced coverage]] (Def. \ref{InducedCoverage}).
+and regard $\mathcal{D}$ as equipped with the [[induced coverage]] (Def. \ref{InducedCoverage}).
 
-This is called a _[[dense subsite]]_ if every [[object]] $X \in \mathcal{C}$ has a [[covering]] $\{U_i \overset{\iota_i}{\to} X\}_i$ such that for all $i$ the patches are in the subcategory:
+This is called a _[[dense subsite]]-inclusion_ if every [[object]] $X \in \mathcal{C}$ has a [[covering]] $\{U_i \overset{\iota_i}{\to} X\}_i$ such that for all $i$ the patches are in the subcategory:
 
 $$
   U_i \;\in\; \mathcal{D} \hookrightarrow \mathcal{C}
