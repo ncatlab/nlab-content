@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,7 +12,6 @@
 =--
 =--
 =--
-
 
 # The Bayesian interpretation of quantum physics
 * table of contents
@@ -29,7 +27,7 @@ The Bayesian interpretation is founded on these principles:
 
 2. Time evolution of pure quantum states by the time-dependent [[Schroedinger equation|Schrödinger's equation]] is analogous to evolution of classical statistical systems by [[Liouville's equation]] (and von Neumann has an equation for the evolution of [[density matrices]] that generalizes both).
 
-3. [[wave function collapse|Collapse of the wave function]] (see also [[propositions as projections]]) is analogous to (indeed a generalization of) updating a probability distribution; [[Born rule|Born's Rule]] and [[Bayes' Rule]] are analogues.
+3. [[wave function collapse|Collapse of the wave function]] (see also [[propositions as projections]]) is analogous to (indeed a generalization of) updating a probability distribution; [[Born rule|Born's Rule]] and [[Bayes rule|Bayes' Rule]] are analogues.
 
 One should perhaps speak of *a* Bayesian interpretation of quantum mechanics, since there are different forms of Bayesianism.  (This article has been written by an objective Bayesian who naturally thinks of Bayesian probabilities as reflecting knowledge rather than belief, betting commitments, etc.  For other flavours of Bayesianism, substitute 'knowledge' below with a more appropriate term.)
 
