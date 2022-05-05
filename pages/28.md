@@ -87,7 +87,7 @@ Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[categ
 
 However, for groupoids more than for groups one is typically interested in "[[conjugation actions]]" on homomorphisms. These are richer for groupoids than for groups, because one may conjugate with a different morphism at each object. If we think of groupoids as special cases of [[categories]], then these "conjugation actions on homomorphisms" are _[[natural transformations]]_ between [[functors]].
 
-For examples if $f,g \;\colon\; X \longrightarrow Y$ are two [[continuous functions]] between [[topological spaces]], and if $\eta \;\colon\; f \Rightarrow g$ is a [[homotopy]] from $f$ to $g$, then the [[homotopy relative boundary]] classes of the [[paths]] $\eta(x,-) \;\colon\; [0,1] \to Y$ constitute a natural transformation between $f_*, g_\ast \;\colon\; \Pi_1(X) \to \Pi_y(Y) $ in that for all paths $x_1 \overset{[\gamma]}{\longrightarrow} x_2$ in $X$ we have the "conjugation relation"
+For examples if $f,g \;\colon\; X \longrightarrow Y$ are two [[continuous functions]] between [[topological spaces]], and if $\eta \;\colon\; f \Rightarrow g$ is a [[homotopy]] from $f$ to $g$, then the [[homotopy relative boundary]] classes of the [[paths]] $\eta(x,-) \;\colon\; [0,1] \to Y$ constitute a natural transformation between $f_*, g_\ast \;\colon\; \Pi_1(X) \to \Pi_1(Y) $ in that for all paths $x_1 \overset{[\gamma]}{\longrightarrow} x_2$ in $X$ we have the "conjugation relation"
 
 $$
   [\eta(x_1,-)] \cdot [f\circ\gamma]
@@ -99,9 +99,9 @@ $$
   \array{
     f(x_1) &\overset{[\eta(x_1,-)]}{\longrightarrow}& g(x_1)
     \\
-    {}^{\mathllap{[f \circ \gamma]}}\downarrow && \downarrow^{\mathrlap{[f \circ \gamma]}}
+    {}^{\mathllap{[f \circ \gamma]}}\downarrow && \downarrow^{\mathrlap{[g \circ \gamma]}}
     \\
-    f(x_1) &\underset{[\eta(x_2,-)]}{\longrightarrow}& g(x_2)
+    f(x_2) &\underset{[\eta(x_2,-)]}{\longrightarrow}& g(x_2)
   }
   \,.
 $$
