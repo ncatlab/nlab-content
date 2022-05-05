@@ -70,12 +70,13 @@ Examples and applications of such cone branes, in the context of [[M-theory on G
 
 The [[black brane|black]] [[M2-brane]] is given by the [[Riemannian metric]]
 
-$$
+\[
+  \label{BlackM2BraneMetric}
   g_{M2} \;\coloneqq\;
   H^{- 2/3} g_{(\mathbb{R}^{2,1})}
   +
   H^{1/3} g_{C(X_7)}
-$$
+\]
 
 and the [[C-field]] [[field strength|strength]]
 
@@ -83,7 +84,7 @@ $$
   F_{M2} \;\coloneqq\; dvol_{\mathbb{R}^{2,1}} \wedge d H^{-1}
 $$
 
-where $C(X_7)$ denotes the [[metric cone]] on a [[closed manifold|closed]] 7-[[dimension|dimensional]] [[Einstein manifold]] $X_7$ for [[cosmological constant]] $\Lambda = 10$, whence 
+where $C(X_7)$ denotes the [[metric cone]] on a [[closed manifold|closed]] 7-[[dimension|dimensional]] [[Einstein manifold]] $X_7$ for [[cosmological constant]] $\Lambda = 5$, whence 
 
 $$
   g_{C(X)}
@@ -95,39 +96,189 @@ $$
 and
 
 $$
-  H \;\coloneqq\; 1 + \frac{a^6}{r^6}
+  H \;\coloneqq\; 1 + \frac{\ell_{th}^6}{r^6}
+  \:,
   \phantom{AAA}
-  a \;\coloneqq\; 2^{5/6} \pi^{2/6} N^{1/6} \ell_P
+  \ell_{th} \;\coloneqq\; 2^{5/6} \pi^{2/6} N^{1/6} \ell_P
 $$
 
-with $\ell_P$ the [[Planck length]] in 11 dimensions.
+with $N$ the number of [[M2-branes]] and with $\ell_P$ the [[Planck length]] in 11 dimensions.
 
-In the near-horizon/larger $N$-limit $a \to \infty$ this becomes
-
-
-$$
-  g_{M2} \;\overset{}{\longrightarrow}\;
-  H^{- 2/3} g_{(\mathbb{R}^{2,1})}
-  +
-  H^{1/3} g_{C(X_7)}
-$$
-
-
-In the far-horizon/small $N$-limit $a \to 0$ this becomes
+In the near-horizon/large $N$-limit $\ell_{th} \to \infty$ this becomes
 
 $$
-  g_{M2} \;\overset{a \to 0}{\longrightarrow}\;
+  \begin{aligned}
+    g_{M2} 
+    \overset{\ell_{th} \gg 1}{\longrightarrow}
+    \;\;\;
+    & 
+    \left(
+      r/\ell_{th}
+    \right)^{4}
+    g_{(\mathbb{R}^{2,1})}
+    +
+    \left( r/\ell_{th} \right)^{-2} g_{C(X_7)}
+    \\
+    = & 
+    \left(
+      r/\ell_{th}
+    \right)^{4}
+    g_{(\mathbb{R}^{2,1})}
+    +
+    \left( r/\ell_{th} \right)^{-2} (d r)^2 
+    +
+    \ell_{th}^{2}
+    g_{X_7}
+    \\
+    = & 
+    \underset{
+      = g_{AdS}
+    }{\underbrace{
+    \frac{1}{z^2}
+    \left(
+      2^4 g_{(\mathbb{R}^{2,1})}
+      +
+      (d z)^2
+    \right)
+    }}
+    +
+    \ell_{th}^{2}
+    g_{X_7}    
+  \end{aligned}
+  \,,
+$$
+
+where in the last step we set
+
+$$
+  r \;\coloneqq\; 2 \ell_{th} \frac{1}{\sqrt{z}}
+$$
+
+This reveals the first summand as being the [[metric tensor]] of [[anti-de Sitter spacetime]] of AdS radius $\ell_{th}$ in [[horospheric coordinates]], and the second summand as that of $X_{7}$ rescaled to radius $\ell_{th}$.
+
+In contrast, in the far-horizon/small $N$-limit $\ell_{th} \to 0$ (eq:BlackM2BraneMetric) becomes
+
+$$
+  g_{M2} \;\overset{\ell_{th} \to 0}{\longrightarrow}\;
   g_{\mathbb{R}^{2,1}}
   +
-  (d r)^2 + r^2 g_{X_7}
+  g_{C(X_7)}
 $$
 
 and 
 
 $$
-  F_{M2} \;\overset{a \to 0}{\longrightarrow}\; 0
-  \,.
+  F_{M2} \;\overset{\ell_{th} \to 0}{\longrightarrow}\; 0
 $$
+
+which is the metric on a [[Cartesian product]] of flat [[Minkowski spacetime]] [[worldvolume]] of an M2-brane with the [[metric cone]] on $X_7$.
+
+
+### The black M5-brane
+
+The [[black brane|black]] [[M5-brane]] is given by the [[Riemannian metric]]
+
+\[
+  \label{BlackM5BraneMetric}
+  g_{M5} \;\coloneqq\;
+  H^{- 1/3} g_{(\mathbb{R}^{5,1})}
+  +
+  H^{2/3} g_{C(X_4)}
+\]
+
+and the [[C-field]] [[field strength|strength]]
+
+$$
+  F_{M2} \;\coloneqq\; \pm 3 \star_5 \wedge d H
+$$
+
+where $C(X_4)$ denotes the [[metric cone]] on a [[closed manifold|closed]] 4-[[dimension|dimensional]] [[Einstein manifold]] $X_4$ for [[cosmological constant]] $\Lambda = 3$, whence 
+
+$$
+  g_{C(X)}
+  \;\coloneqq\;
+  (d r)^2 + r^2 g_{X_4}
+  \,,
+$$
+
+and
+
+$$
+  H \;\coloneqq\; 1 + \frac{\ell_{th}^3}{r^3}
+  \:,
+  \phantom{AAA}
+  \ell_{th} \;\coloneqq\; \pi^{1/3} N^{1/3} \ell_P
+$$
+
+with $N$ the number of [[M5-branes]] and with $\ell_P$ the [[Planck length]] in 11 dimensions.
+
+In the near-horizon/large $N$-limit $\ell_{th} \to \infty$ this becomes
+
+$$
+  \begin{aligned}
+    g_{M5} 
+    \overset{\ell_{th} \gg 1}{\longrightarrow}
+    \;\;\;
+    & 
+    \left(
+      r/\ell_{th}
+    \right)^{4}
+    g_{(\mathbb{R}^{2,1})}
+    +
+    \left( r/\ell_{th} \right)^{-2} g_{C(X_7)}
+    \\
+    = & 
+    r/\ell_{th}
+    g_{(\mathbb{R}^{2,1})}
+    +
+    \left( r/\ell_{th} \right)^{-2} (d r)^2 
+    +
+    \ell_{th}^{2}
+    g_{X_7}
+    \\
+    = & 
+    \underset{
+      = g_{AdS}
+    }{\underbrace{
+    \frac{1}{z^2}
+    \left(
+      2 g_{(\mathbb{R}^{2,1})}
+      +
+      (d z)^2
+    \right)
+    }}
+    +
+    \ell_{th}^{2}
+    g_{X_4}    
+  \end{aligned}
+  \,,
+$$
+
+where in the last step we set
+
+$$
+  r \;\coloneqq\; \ell_{th}\tfrac{1}{2} \frac{1}{z^2}
+$$
+
+This reveals the first summand as being the [[metric tensor]] of [[anti-de Sitter spacetime]] of AdS radius $\ell_{th}$ in [[horospheric coordinates]], and the second summand as that of $X_{4}$ rescaled to radius $\ell_{th}$.
+
+
+In contrast, in the far-horizon/small $N$-limit $\ell_{th} \to 0$ (eq:BlackM5BraneMetric) becomes
+
+$$
+  g_{M5} \;\overset{\ell_{th} \to 0}{\longrightarrow}\;
+  g_{\mathbb{R}^{5,1}}
+  +
+  g_{C(X_4)}
+$$
+
+and 
+
+$$
+  F_{M2} \;\overset{\ell_{th} \to 0}{\longrightarrow}\; 0
+$$
+
+which is the metric on a [[Cartesian product]] of flat [[Minkowski spacetime]] [[worldvolume]] of an M5-brane with the [[metric cone]] on $X_4$.
 
 
 ## Related concepts
