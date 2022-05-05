@@ -211,6 +211,8 @@ The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey 
 
 * [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
+* {#Nardin12} [[Denis Nardin]], section 2.6 of _Stability and distributivity over orbital ∞-categories_, 2012 ([pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
+
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727,  2017 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
 * {#Barwick15} [[Clark Barwick]], [[Saul Glasman]], Jay Shah, _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
