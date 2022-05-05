@@ -542,7 +542,7 @@ For $E$ any [[topos]] and $k : B \to A$ any morphism in $E$ there is the [[base 
 $$
   k^* : (E/A) \to (E/B)
 $$
-by [[pullback]]. As described at [[dependent product]] this functor has both a [[left adjoint]] $\coprod_k : E/B \to E/A$ as well as a [[right adjoint]] $\prod_k : E/A \to E/B$.  Therefore
+by [[pullback]]. As described at [[dependent product]] this functor has both a [[left adjoint]] $\coprod_k : E/B \to E/A$ as well as a [[right adjoint]] $\prod_k : E/B \to E/A$.  Therefore
 $$
   (\Pi_k, k^*) : E/B \leftrightarrow E/B
 $$
