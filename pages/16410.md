@@ -21,6 +21,8 @@ $$
   dS^d \simeq O(d,1)/O(d-1,1)
 $$
 
+This models a cosmology [[FRW model]] for positive [[cosmological constant]]/[[dark energy]].
+
 Similarly [[anti de Sitter spacetime]] is
 
 $$
