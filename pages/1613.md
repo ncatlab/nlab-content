@@ -22,7 +22,7 @@
 
 ## Idea
 
-What might be called the _FRS construction/theorem_ after [[Jürgen Fuchs|Fuchs]], [[Ingo Runkel|Runkel]] and [[Christoph Schweigert|Schweigert]], also [[Jürg Fröhlich|Fröhlich]] and [[Jens Fjelstad|Fjelstad]] ([FRS 02](#FuchsRunkelSchweigert02), [FRS 04a](#FuchsRunkelSchweigert04a), [FRS 04b](#FuchsRunkelSchweigert04b), [FRS 05](#FuchsRunkelSchweigert05), [FFRS 06](#FjeldstadFuchsRunkelSchweigert06), [FFRS 08](#FjeldstadFuchsRunkelSchweigert06)) is a rigorous construction and classification of all [[rational CFT|rational]] _full_ [[2-dimensional conformal field theories]], where "full" means that these theories are defined on all 2-dimensional [[cobordisms]] (instead of just on [[tori]], which is a simple special case that much of the other literature traditionally concentrates on).
+What might be called the _FRS construction/theorem_ after [[Jürgen Fuchs|Fuchs]], [[Ingo Runkel|Runkel]] and [[Christoph Schweigert|Schweigert]], also [[Jürg Fröhlich|Fröhlich]] and [[Jens Fjelstad|Fjelstad]] ([FRS 02](#FuchsRunkelSchweigert02), [FRS 04a](#FuchsRunkelSchweigert04a), [FRS 04b](#FuchsRunkelSchweigert04b), [FRS 05](#FuchsRunkelSchweigert05), [FFRS 06](#FjeldstadFuchsRunkelSchweigert06), [FFRS 08](#FjeldstadFuchsRunkelSchweigert06)) is a rigorous construction and classification of all [[rational CFT|rational]] _full_ [[2-dimensional conformal field theories]], where "full" means that these theories are defined "at all [[genus of a surface|genera]]", namely on all 2-dimensional [[cobordisms]] (instead of just on [[tori]], which is a simple special case that much of the other literature traditionally concentrates on ("modular invariance")).
 
 It is (was earlier) well known that the construction of [[2d CFTs]] may be decomposed into 
 
