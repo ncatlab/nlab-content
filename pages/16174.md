@@ -142,6 +142,9 @@ Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carl
 
 * {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
 
+See also
+
+* {#GayMorrisMorris} C. D. Gay, G. C. Morris, and I. Morris, _Computing Adams operations on the Burnside ring of a finite group_, J. Reine Angew. Math., 341 (1983), pp. 87–97.
 
 [[!redirects burnside ring]] 
 [[!redirects Burnside rig]] 
