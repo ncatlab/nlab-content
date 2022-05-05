@@ -13420,6 +13420,24 @@ Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSe
 
    has as [[weak equivalences]] and [[cofibrations]] those [[natural transformations]] $\eta$ whose component on every [[object]] $c \in \mathcal{C}$ is a weak equivalences or cofibration, respectively, in the [[classical model structure on simplicial sets]] (Def. \ref{ClassesOfMorphismsOnsSetQuillen});
 
+Moreover, the [[identity functors]] constitute a [[Quillen equivalence]] (Def. \ref{QuillenEquivalence}) between these two model structures
+
+\[
+  \label{QuillenEquivalenceBetweenInjectiveAndProjective}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}id\phantom{AA}}{\longleftarrow}}
+      {\simeq_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+\]
+
+In particular this means that 
+
+1. every projective cofibration is in particular an objectwise cofibration;
+
+1. every injective fibration is in particular an objectwise fibration.
+
 =--
 
 +-- {: .num_prop #SomeProjectivelyCofibrantSimplicialPresheaves}
