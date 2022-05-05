@@ -18,7 +18,12 @@
 
 In [[condensed matter physics]], a *semi-metal* is a [[crystal|crystalline]] material whose [[electronic band structure]] is such that there is a sizeable gap between the [[valence band]] and the [[conduction band]] (as for an [[insulator]]) *except* over a [[submanifold]] of "nodal loci" inside the [[Brillouin torus]] which is of [[positive number|positive]] [[codimension]] $\geq 2$. 
 
-(This terminology, which was established in the early 2000s, is meant to follow the  older terminology *[[semiconductor]]*, which refers to the case where there is globally a gap between valence and conduction band, but just a small one. Notice that a global and large gap corresponds to an [[insulator]], while the absence of a gap, hence the broad overlap of valence and conductions band, corresponds to a [[metal]]. Therefore a semi-metal behaves like an [[insulator]] for the bulk of its excitation modes, like a [[semiconductor]] for excitations close to the nodal loci, and almost like a [[meta]] for excitations right at the nodal loci.)
+This terminology, which was established in the early 2000s, is meant to follow the  older terminology *[[semiconductor]]*, which refers to the case where there is globally a gap between valence and conduction band, but just a small one. Notice that a global and large gap corresponds to an [[insulator]], while the absence of a gap, hence the broad overlap of valence and conductions band, corresponds to a [[metal]]. Therefore a semi-metal behaves like an [[insulator]] for the bulk of its excitation modes, like a [[semiconductor]] for excitations close to the nodal loci, and almost like a [[metal]] for excitations right at the nodal loci; whence the terminology.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SemiMetalBandStructure-20220405.jpg" width="400">
+(graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22]])
+</center>
 
 If the gap closure happens over an isolated point, one speaks of a *nodal point* proper, or more specifically of a *Dirac point* or *Weyl point*, indicating the "degeneracy" (multiplicity) of the [[energy]] [[eigenstates]] at the point (2 for Weyl, 4 for Dirac). If the gap closes over a 1-dimensional manifold (a [[curve]] or a [[circle]]) one speaks of a *nodal line*. 
 
@@ -45,14 +50,28 @@ Discussion focusing on 3-dimensional semi-metals:
 
 * Bohm-Jung Yang, Naoto Nagaosa, *Classification of stable three-dimensional Dirac semimetals with nontrivial topology*, Nature Communications **5** (2014) 4898  ([doi:10.1038/ncomms5898](https://doi.org/10.1038/ncomms5898))
 
-* {#FWDF16} Chen Fang, Hongming Weng, Xi Dai, Zhong Fang, *Topological nodal line semimetals*, Chinese Phys. B **25** (2016) 117106 ([arXiv:1609.05414](https://arxiv.org/abs/1609.05414), [doi:10.1088/1674-1056/25/11/117106](https://doi.org/10.1088/1674-1056/25/11/117106))
-
 * Jiaheng Li, Zetao Zhang, Chong Wang, Huaqing Huang, Bing-Lin Gu, Wenhui Duan,  *Topological semimetals from the perspective of first-principles calculations*, 
 Journal of Applied Physics 128, 191101 (2020) ([doi:10.1063/5.0025396]( https://doi.org/10.1063/5.0025396))
 
-Thoughts towards a mathematical formulation:
+Discussion of the $\mathbb{Z}/2$-valued [[Berry phases]] around [[codimension]]=2 nodal loci in $P I$-symmetric (time-reversal +  inversion invariant)  semi-metals:
+
+* Dan-Wei Zhang, Y. X. Zhao, Rui-Bin Liu, Zheng-Yuan Xue, Shi-Liang Zhu, Z. D. Wang, *Quantum simulation of exotic PT-invariant topological nodal loop bands with ultracold atoms in an optical lattice*, Phys. Rev. A **93** (2016) 043617  ([arXiv:1601.00371](https://arxiv.org/abs/1601.00371), [doi:10.1103/PhysRevA.93.043617](https://doi.org/10.1103/PhysRevA.93.043617))
+
+  > (see sec II.A, these authors stand out as mentioning the relevant [[KO-theory]])
+
+* {#FWDF16} Chen Fang, Hongming Weng, Xi Dai, Zhong Fang, *Topological nodal line semimetals*, Chinese Phys. B **25** (2016) 117106 ([arXiv:1609.05414](https://arxiv.org/abs/1609.05414), [doi:10.1088/1674-1056/25/11/117106](https://doi.org/10.1088/1674-1056/25/11/117106))
+
+  > (see sec II.B)
+
+* [Vanderbilt 18, 5.5.2](#Vanderbilt18)
+
+
+Thoughts towards a mathematical formulation (but using [[ordinary cohomology]] instead of [[topological K-theory]]):
 
 * [[Varghese Mathai]], [[Guo Chuan Thiang]], *Global topology of Weyl semimetals and Fermi arcs*, J. Phys. A: Math. Theor. **50** (2017) 11LT01 ([arXiv:1607.02242](https://arxiv.org/abs/1607.02242),  [doi:10.1088/1751-8121/aa59b2](https://doi.org/10.1088/1751-8121/aa59b2))
+
+* [[Varghese Mathai]], [[Guo Chuan Thiang]], *Differential Topology of Semimetals*,
+Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.org/abs/1611.08961), [doi:10.1007/s00220-017-2965-z](https://doi.org/10.1007/s00220-017-2965-z))
 
 
 [[!redirects semi-metals]]
