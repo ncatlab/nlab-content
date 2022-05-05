@@ -228,7 +228,7 @@ See also at _[derived functor -- As functors on infinity-categories](derived%20f
 
 ## Related concepts
 
-* **Quillen adjunction**
+* [[Quillen reflection]]
 
 * [[simplicial Quillen adjunction]]
 
