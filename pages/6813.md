@@ -74,7 +74,9 @@ See also
 
 Original articles include
 
-* [[Michael Duff]], J. X. Lu, _Black and super $p$-branes in diverse dimensions_ ([arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)) 
+* [[Michael Duff]], J. X. Lu, _Black and super $p$-branes in diverse dimensions_, Nucl.Phys. B416 (1994) 301-334 ([arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)) 
+
+* {#DuffKhuriLu94} [[Mike Duff]], Ramzi R. Khuri, J. X. Lu, _String Solitons_, Phys.Rept. 259:213-326, 1995 ([arXiv:hep-th/9412184](https://arxiv.org/abs/hep-th/9412184))
 
 * [[Michael Duff]], H. Lu, [[Christopher Pope]], _The Black Branes of M-theory_, Phys.Lett.B382:73-80,1996 ([arXiv:hep-th/9604052](http://arxiv.org/abs/hep-th/9604052)) 
 
