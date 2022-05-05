@@ -22,7 +22,7 @@ Let $C$ be a [[groupoid]].
 
 A _permutation representation_ of $C$ is a [[representation]] of $C$ on [[Set]], i.e. a [[functor]] $C \to \Set$, also called a [[G-set]]. 
 
-A _linear permutation representation_ is a functor $C \to $ [[Vect]] that factors through a permutation representation via the [[free functor]] $k^{|-|}\colon  Set \to Vect$ which sends a set to the vector space for which this set is a basis.
+A _linear permutation representation_ is a functor $C \to $ [[Vect]] that factors through a permutation representation via the [[free functor]] $k[-]\colon  Set \to Vect$ which sends a set to the vector space for which this set is a [[linear basis]].
 
 +-- {: .un_remark}
 ###### Warning
@@ -101,13 +101,13 @@ Let $G$ be a [[finite group]]. Consider
 Then then map that sends a G-set to the corresponding linear permutation representation is a [[strong monoidal functor]]
 
 $$
-  G Set \longrightarrow G Rep
+  G Set \overset{\mathbb{C}[-]}{\longrightarrow} G Rep
 $$
 
 and hence induces a [[ring homomorphism]]
 
 $$
-  A(G) \longrightarrow R(G)
+  A(G) \overset{\mathbb{C}[-]}{\longrightarrow} R(G)
 $$
 
 Under the identitification
@@ -136,6 +136,8 @@ $$
 
 from the [[sphere spectrum]] to [[KU]].
 
+For the example that $G = S_n$ is a [[symmetric group]], this construction is analyzed in detail at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_.
+
 ## Related entries
 
 * [[representation theory]], [[linear representation]],
@@ -148,6 +150,8 @@ from the [[sphere spectrum]] to [[KU]].
 * [[groupoidification]]
 
 ## Related concepts
+
+* [[regular representation]]
 
 * [[∞-permutation representation]]
 
