@@ -16,99 +16,153 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
-Let $C$ be a [[groupoid]].
-
-A _permutation representation_ of $C$ is a [[representation]] of $C$ on [[Set]], i.e. a [[functor]] $C \to \Set$, also called a [[G-set]]. 
-
-A _linear permutation representation_ is a functor $C \to $ [[Vect]] that factors through a permutation representation via the [[free functor]] $k[-]\colon  Set \to Vect$ which sends a set to the vector space for which this set is a [[linear basis]].
-
-+-- {: .un_remark}
-###### Warning
-In the usual literature of [[representation theory]], "linear permutation representations" are just called "permutation representations".
-=--
-
-
-## Examples
-
-Notably for $C = \mathbf{B}G$ the [[delooping]] [[groupoid]] of a [[group]] $G$, a permutation representation $\mathbf{B}G \to Set$ is a set equipped with a $G$-[[action]].
-
-The category 
+For $G$ a [[group]] (tyically a [[finite group]]), consider a [[G-set]] $(S, \rho)$, hence a [[set]] $S$ (typically a [[finite set]]), equipped with an [[action]] of $G$
 
 $$
-  Rep(G, Set) \simeq PSh(\mathbf{B} G)
-$$
-
-is the [[classifying topos]] for the group $G$.
-
-For other general perspectives on this see also at _[[infinity-action]]_ the section _[Examples -- Discrete group actions on sets](infinity-action#ExamplesPermutationRepresentations)_.
-
-+-- {: .num_example #AutomorphismsOfGAsGTorsor}
-###### Example
-
-Let $G$ be a [[group]]. The [[automorphism group]] of $G$ regarded as a permutation representation of itself via left multiplication, is [[isomorphism|isomorphic]] to $G$:
-
-$$
-  G 
-   \;\simeq\;
-  Aut_{G Set}(G,G)
-$$
-
-=--
-
-(See also at _[[torsor]]_.)
-
-+-- {: .proof}
-###### Proof
-
-Consider an function
-
-$$ 
-  f \;\colon\; G \longrightarrow G
+  \rho \;\colon\; G \times S \longrightarrow S
   \,.
 $$
 
-By $G$-equivariance, its value on any $g \in G$ is fixed by its value on the [[neutral element]] $1$
+Equivalently this is a [[group homomorphism]]
 
 $$
-  f(g) = f(g \cdot 1) = g \cdot f(1)
-  \,.
+  \rho \;\colon\; G \longrightarrow Aut_{Set}(S)
 $$
 
-Moreover, if $f_1$ is a $G$-invariant function given by $f_1(1) = g_1$ and $f_2$ is given by $f_2(1) = g_2$, then their composite is given by
+from $G$ to the group of [[permutations]] of elements of $S$. As such it is a representation of $G$ "by permutations".
+
+Specifically, if $S$ is a [[finite set]] and an [[isomorphism]] $S \simeq \{1, 2, 3, \cdots, n\}$ is understood, it is equivalently a [[group homomorphism]]
 
 $$
-  f_2 \circ f_1(1)
-  = 
-  f_2( g_1 ) = g_1 \cdot f_2(1) = g_1 \cdot g_2
-  \,.
+  \rho \;\colon\; G \longrightarrow S_n
 $$
+
+to the [[symmetric group]] $S_n$ on $n$ elements.
+
+
+For $k$ any [[field]] (or, more generally, any [[commutative ring]], but one mostly considers fields) this $G$-[[action]] may be _linearized_ to a $k$-[[linear representation]] of $G$ in an evident way: 
+
++-- {: .num_defn #LinearPermutationRepresentation}
+###### Definition
+**(linear permutation representation)**
+
+The _linear permutation representation_ of a [[G-set]] $(S,\rho)$ is the following $k$-[[linear representation]] of $G$:
+
+1. The underlying $k$-[[vector space]] is the [[free module|freely]] [[linear span|spanned]] vector space $k[S]$, whose elements ([[vectors]]) are the [[formal linear combinations]] 
+
+   $$
+     k[S]
+     \;=\;
+     \left\{
+       v =\underset{ s \in S_{fin} \subset S }{\sum} v_s \, s
+       \;\vert\;
+       S_{fin} \, \text{finite subset}
+       ,\;
+       v_s \in k
+     \right\}
+   $$
+
+   of elements of $S$ with [[coefficients]] in $k$, hence is the $k$-vector space for which $S$ is a canonical [[linear basis]].
+
+1. The linear $G$-[[action]]
+
+   $$
+     k[\rho] \;\colon\; G \times k[\mathbb{C}] \longrightarrow k[\mathbb{C}]
+   $$
+
+   is given on [[linear basis]]-elements $s \in S \hookrightarrow k[S]$ by $\rho$, which uniquely defines it by linearity to act on a general vector as
+
+   $$
+     k[\rho]\left(g\right)
+     \;\colon\;
+     v 
+     \;\mapsto\;
+     \underset{ s \in S_{fin} \subset S }{\sum} v_s \, \rho(g)(s)
+     \,.
+   $$
 
 =--
+
+This concept immediately generalized to [[groupoid representations]] and so forth, see also at _[[infinity-action]]_ the section _[Examples -- Discrete group actions on sets](infinity-action#ExamplesPermutationRepresentations)_.
+
+
 
 ## Properties
 
-### Comparison map from Burnside ring to representation ring
+### Functoriality
+
++-- {: .num_prop #FunctorialityOfLinearPermutationRepresentations}
+###### Proposition
+**(functoriality of linear permutation representations)**
+
+The construction of linear permutation representations (Def. \ref{LinearPermutationRepresentation}) evidently extends to a [[functor]] from the [[category of G-sets]] $G Set$ to the [[category of representations|category of linear representations]] $G Rep$
+
+$$
+  G Set
+    \overset{ k[-] }{\longrightarrow}
+  G Rep
+  \,.
+$$
+
+Both of these categories are [[rig categories]] with respect to [[disjoint union]] and [[Cartesian product]] on the left, and [[direct sum]] and [[tensor product of representations]] on the right.
+
+The functor $k[-]$ is canonically a homomorphism of rig-categories in that it preserves the [[direct sums]] and is canonically a [[strong monoidal functor]]
+
+$$
+  \big(G Set, \sqcup, \times\big)
+    \overset{ k[-] }{\longrightarrow}
+  \big(G Rep, \oplus, \otimes \big)
+  \,.
+$$
+
+
+
+=--
+
+### Comparison from Burnside- to representation ring
  {#ComparisonMapFromBurnsideRingToRepresentationRing}
 
-Let $G$ be a [[finite group]]. Consider
 
-1. the [[Burnside ring]] $A(G)$, which is the [[Grothendieck group]] of the [[monoidal category]] $G Set$ of [[finite set|finite]] [[G-sets]];
+Let $G$ be a [[finite group]] and let all [[G-sets]] in the following be on [[finite set]] and all [[linear representations]] on [[finite-dimensional vector spaces]].
 
-1. the [[representation ring]] $R(G)$, which is the [[Grothendieck group]] of the monoidal category $G Rep$ of [[finite dimensional vector space|finite dimensional]] $G$-[[linear representations]].
+Consider
 
-Then then map that sends a G-set to the corresponding linear permutation representation is a [[strong monoidal functor]]
+1. the [[Burnside ring]] $A(G)$, which is the [[Grothendieck ring]] of the [[rig-category]] $(G Set, \sqcup, \times)$ [[category of G-sets|of finite G-sets]];
+
+1. the [[representation ring]] $R(G)$, which is the [[Grothendieck ring]] of the [[rig category]] $(G Rep, \oplus, \otimees)$ [[representation category|of finite-dimensional linear G-representations]].
+
++-- {: .num_defn #ComparisonMapBurnsideRingRepresentationRing}
+###### Definition
+**([[permutation representations]] make [[ring homomorphism]] from [[Burnside ring]] to [[representation ring]])**
+
+Since forming $k$-linear permutation representations (Def. \ref{LinearPermutationRepresentation}) is a rig-functor $G Set\overset{k[-]}{\longrightarrow} G Rep$ (Prop. \ref{FunctorialityOfLinearPermutationRepresentations}), under passing to [[Grothendieck rings]] it induces a [[ring homomorphism]]
 
 $$
-  G Set \overset{\mathbb{C}[-]}{\longrightarrow} G Rep
+  K(k[-])
+  \;\colon\;
+    K( G Set, \sqcup, \times )
+    =
+    \;
+    A(G)
+    \longrightarrow
+    R(R)
+    \;
+    =
+    K( G Rep, \oplus, \otimes)
 $$
 
-and hence induces a [[ring homomorphism]]
+from the [[Burnside ring]] of $G$ to its [[representation ring]].
 
-$$
-  A(G) \overset{\mathbb{C}[-]}{\longrightarrow} R(G)
-$$
+The [[image]] of $K(k[-])$ may be called the _virtual_ linear permutation representations.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(virtual permutation representations from [[equivariant stable cohomotopy]] into [[equivariant K-theory]])**
 
 Under the identitification
 
@@ -128,7 +182,7 @@ Under the identitification
 
    (see [there](representation+ring#AsEquivariantKTheoryOfThePoint))
 
-this should be image of the initial morphism of [[E-infinity ring spectra]]
+the [[ring homomorphism]] of Def. \ref{ComparisonMapBurnsideRingRepresentationRing} should be image under forming [[equivariant cohomology]] of the [[point]] of the [[initial object in an (infinity,1)-category|initial]] morphism of [[E-infinity ring spectra]]
 
 $$
   \mathbb{S} \longrightarrow KU
@@ -136,7 +190,37 @@ $$
 
 from the [[sphere spectrum]] to [[KU]].
 
+=--
+
+## Examples
+
+### Permutation representations
+
++-- {: .num_example #RegularRepresentation}
+###### Example
+**([[regular representation]])
+
+For $G$ a [[group]], write, for emphasis, $G_s$ for its underlying [[set]]. Let 
+
+$$
+  \array{
+    G \times G_s
+     &\overset{ \rho_\ell }{\longrightarrow}&
+    G_s
+    \\
+    (g,s) &\mapsto& g \cdot s
+  }
+$$
+
+be the canonical [[action]] of $G$ on itself, by left multiplication in the group. The corresponding linear permutation representation $(k[G_s], k(\rho_\ell))$ (Def. \ref{LinearPermutationRepresentation}) is called the _[[regular representation]]_ of $G$.
+
+=--
+
+### Virtual permutation representations
+
 For the example that $G = S_n$ is a [[symmetric group]], this construction is analyzed in detail at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_.
+
+(...)
 
 ## Related entries
 
