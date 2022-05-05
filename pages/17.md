@@ -542,16 +542,20 @@ To include an [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) figur
   * You need to include the resulting _source code_ . Uploading the SVG as a file to the $n$Lab won't work. So
 
     1. Go to the page where you want to include the SVG, say titled "SomePage", and at the point where the figure is to appear insert the code
-                  
-      <nowiki>
-      +--{: style="text-align:center"}
-      [[!include SomePage > figureN]]
-      =--
-      </nowiki>
+
+       <nowiki> 
+       ```
+       +--{: style="text-align:center"}
+       [!include SomePage > figureN]]
+       =--
+       ```
+       </nowiki>
 
     1. Then type
 
-             http://ncatlab.org/nlab/show/SomePage > figureN
+       ```
+       http://ncatlab.org/nlab/show/SomePage > figureN
+       ```
 
        into your browser's address line. The software will ask you to create a page with the title "SomePage > figureN". Paste the source code of your SVG into this page and hit _Submit_ .
 
@@ -566,7 +570,7 @@ See [[redirects]].
 
 ## How to put parentheses in external links ##
 
-Since the mechanism for inserting links uses parentheses to delimit the link, it's not obvious how to put parentheses actually in the link itself.  Since Wikipedia uses them a fair bit, it's worth knowing how to put them in.  The trick is to use the URL codes rather than the actual characters.  URL codes are generally used to send "unsafe" characters in URLs (safe characters are `a`-`zA`-`Z0`-`9$-_.+!\*'(),`).  Although parentheses are actually "safe", due to their special meaning for the markdown filter, to put them in URLs here they need to be treated as "unsafe".  URL codes have the syntax `%hex` where `hex` is the index of the character in the ASCII character set represented as a 2-digit hexadecimal.  Wikipedia (among other places) has a [table](http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters) of the character set from which one can read off the required hexadecimal.  In particular, we see that `(` is `%28` and `)` is `%29`.  Thus
+Since the mechanism for inserting links uses parentheses to delimit the link, it's not obvious how to put parentheses actually in the link itself.  Since Wikipedia uses them a fair bit, it's worth knowing how to put them in.  The trick is to use the URL codes rather than the actual characters.  URL codes are generally used to send "unsafe" characters in URLs (safe characters are <nowiki>`a`-`zA`-`Z0`-`9$-_.+!\*'(),`</nowiki>).  Although parentheses are actually "safe", due to their special meaning for the markdown filter, to put them in URLs here they need to be treated as "unsafe".  URL codes have the syntax `%hex` where `hex` is the index of the character in the ASCII character set represented as a 2-digit hexadecimal.  Wikipedia (among other places) has a [table](http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters) of the character set from which one can read off the required hexadecimal.  In particular, we see that `(` is `%28` and `)` is `%29`.  Thus
 
     [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
 
