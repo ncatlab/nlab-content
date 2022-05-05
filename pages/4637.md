@@ -562,6 +562,8 @@ The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[
 
 * [[function algebras on ∞-stacks]]
 
+* [[nucleus of a profunctor]]
+
 [[!include Isbell duality - table]]
 
 
