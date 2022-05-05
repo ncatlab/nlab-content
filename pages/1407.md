@@ -157,6 +157,8 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[world sheets for world sheets]]
 
+* [[Goddard-Thorn no-ghost theorem]], [[GSO projection]]
+
 * [[perturbation theory]]
 
   * [[string scattering amplitude]], [[S-matrix]]
