@@ -1,3 +1,4 @@
+[[!redirects finite rotation groups]]
 
 
 +-- {: .rightHandSide}
@@ -10,10 +11,15 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+By a _finite rotation group_ one means a [[finite]] [[subgroup]] of a rotaiton group, hence of a [[special orthogonal group]] $SO(n)$ or [[spin group]] $Spin(n)$ or similar. 
+
+The finite subgroups of $SO(3)$ and $SU(2)$ follow an [[ADE classification]] (theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} below).
 
 
 ## Statement
@@ -38,6 +44,80 @@ all the finite subgroups of $SU(2)$ except the odd-order [[cyclic groups]] are t
 
 This goes back to ([Klein 1884, chapter I](#Klein1884)). 
 Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Rees05), [De Visscher 11](#DeVisscher11)). The proof for the case of $SL(2,\mathbb{C})$ is spelled out in ([Miller-Blichfeldt-Dickson 16](#MillerBlichfeldtDickson16)) reviewed in ([Serrano 14, section 2](#Serrano14)). The proof of the case for $SU(2)$ given the result for $SO(3)$ is spelled out in [Keenan 03, theorem 4](#Keenan03).
+
+## Properties
+
+### Group cohomology
+ {#GroupCohomology}
+
++-- {: .num_prop #GroupCohomologyOfFiniteSubgroupsOfSU2}
+###### Proposition
+**([[group cohomology]] of [[finite subgroups of SU(2)]])
+
+Let $G_{ADE}$ be a [[finite subgroup of SU(2)]]. Then its [[group cohomology]] with [[integer]] [[coefficients]] is as follows:
+
+$$
+  H^n_{grp}(G_{ADE}, \mathbb{Z})
+  \;\simeq\;
+  \left\{
+  \array{
+    \mathbb{Z} &\vert& n = 0
+    \\
+    G_{ADE}^{ab} &\vert&  n = 2 \, mod \, 4
+    \\
+    \mathbb{Z}/{\vert G_{ADE}\vert} &\vert& n \, \text{positive multiple of} \, 4
+    \\
+    0 &\vert& \text{otherwise} 
+  }
+  \right.
+$$
+
+Here $G_{ADE}^{ab}$ denotes the [[abelianization]]  of $G_{ADE}$ and $\vert G_{ADE}\vert$ its [[cardinality]], hence $\mathbb{Z}/{\vert G_{ADE}\vert}$ the [[cyclic group]] whose [[order of a group]] is the cardinality of $G_{ADE}$.
+
+The [[group homology]] with [[integer]] [[coefficients]] is
+
+$$
+  H_n^{grp}(G_{ADE}, \mathbb{Z})
+  \;\simeq\;
+  \left\{
+  \array{
+    \mathbb{Z} &\vert& n = 0
+    \\
+    G^{ab} &\vert&  n = 1 \, mod \, 4
+    \\
+    \mathbb{Z}/{\vert G_{ADE}\vert} &\vert& n= 3 \,mod\, 4
+    \\
+    0 &\vert& \text{otherwise} 
+  }
+  \right.
+$$
+
+
+=--
+
+For pointers to proofs see for instance [Epa-Ganter 16, section 4](#EpaGanter16).
+
++-- {: .num_remark}
+###### Remark
+
+In discussion of [[11-dimensional supergravity]] on [[spacetimes]] with [[ADE-singularities]], the special case 
+
+$$
+  \underset{
+    \simeq H^3( \mathbb{C}^4 \sslash G_{ADE}, U(1))
+  }{
+  \underbrace{
+    H^4_{grp}(G_{ADE}, \mathbb{Z}) 
+  }}
+   \;\simeq\;
+  \mathbb{Z}/{\vert G_{ADE} \vert }
+$$
+
+of Prop. \ref{GroupCohomologyOfFiniteSubgroupsOfSU2}, regarded as expressing [[orbifold cohomology]] of an [[ADE singularity]], as shown under the brace, witnesses the possible [[torsion subgroup|torsion]] [[supergravity C-field]] [[flux]] of [[M5-branes]] [[wrapped brane|wrapped]] on torsion homology 3-cycles ("[[discrete torsion]]", see [Aharony-Bergman-Jafferis 08, p. 8](discrete+torsion#AharonyBergmanJafferis08) and [BDHKMMS 01, section 4.6.2](discrete+torsion#BDHKMMS01)).
+
+
+=--
+
 
 ## Related concepts
 
@@ -76,10 +156,14 @@ Based on the classification of the finite subgroups of $SO(3)$, full proof of th
 
 * {#Keenan03} Adam Keenan, _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
 
-
 See also
 
 * GroupProps _<a href="https://groupprops.subwiki.org/wiki/Classification_of_finite_subgroups_of_SO(3,R)">Classification of finite subgroups of SO(3,R)</a>
+
+The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Platonic 2-groups]]") are discussed in
+
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
+
 
 [[!redirects classification of the finite rotation groups]]
 
@@ -90,4 +174,6 @@ See also
 [[!redirects finite subgroups of SU(2)]]
 
 
+[[!redirects classification of finite rotation groups]]
+[[!redirects classifications of finite rotation groups]]
 
