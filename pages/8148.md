@@ -61,3 +61,8 @@ for some finite $J' \subset J$. But a product of injectives is injective, hence 
 =-- 
 
 Conversely, a result of Bass and Papp is that $R$ is Noetherian if direct sums of injective $R$-modules are injective. See [Lam](#Lam), Theorem 3.46. 
+
+## References 
+
+* {#Lam} T.-Y. Lam, _Lectures on modules and rings_, Graduate Texts in Mathematics 189, Springer Verlag (1999). 
+
