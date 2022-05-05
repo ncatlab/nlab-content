@@ -34,9 +34,9 @@ There are two other forms of this condition which are useful under different cir
 
 1. A [[CW-complex]] $X$ with its filtration by [[simplicial skeleton|skeleta]] $X^n$.
 
-2. The free topological monoid $F X$ on a space $X$ filtered by the length of words. Given a based space $(X,x)$, there is also a reduced version by taking $F X$ and identifying $x$ with the identity of $F X$. This latter filtered space is known as the **James construction** $J(X,x)$, after [[Ioan James]]. 
+2. The [[free construction|free]] [[topological monoid]] $F X$ on a [[topological space]] $X$ filtered by the length of words. Given a [[pointed topological space]] $(X,x)$, there is also a reduced version by taking $F X$ and identifying $x$ with the identity of $F X$. This latter filtered space is known as the _[[James construction]]_ $J(X,x)$ ([James 55](#James55)). 
 
-   The James construction $J(X,x)$ can be constructed homotopy-theoretically, following ideas of Brunerie. Recall that, for $K$ a finite [[simplicial complex]], for $(X,A)$ a pair of spaces, its _polyhedral product_ $(X,A)^K$ is defined as the union $\bigcup_{\sigma\in S(K)}(X,A)^\sigma$ as a subspace of the Cartesian product $X^{V(K)}$. Here, for $\sigma\in S(K)$ a simplex of $K$, the subspace $(X,A)^\sigma$ consist of those $x\in X^{V(K)}$ such that, for each vertex $v$ in the complement of $\sigma$, the coordinate projection $\proj_v x$ lies in $A$. Equivalently, the polyhedral product $(X,A)^K$ can be considered as a homotopy colimit of these $(X,A)^\sigma$ over the poset $S(K)$ of simplexes $\sigma$ of $K$, where the maps are the respective inclusions.
+   The [[James construction]] $J(X,x)$ may be constructed [[homotopy theory|homotopy-theoretically]] ([Brunerie 13](#Brunerie13), [Brunerie 17](#Brunerie17)). Recall that, for $K$ a finite [[simplicial complex]], for $(X,A)$ a pair of spaces, its _polyhedral product_ $(X,A)^K$ is defined as the union $\bigcup_{\sigma\in S(K)}(X,A)^\sigma$ as a subspace of the Cartesian product $X^{V(K)}$. Here, for $\sigma\in S(K)$ a simplex of $K$, the subspace $(X,A)^\sigma$ consist of those $x\in X^{V(K)}$ such that, for each vertex $v$ in the complement of $\sigma$, the coordinate projection $\proj_v x$ lies in $A$. Equivalently, the polyhedral product $(X,A)^K$ can be considered as a homotopy colimit of these $(X,A)^\sigma$ over the poset $S(K)$ of simplexes $\sigma$ of $K$, where the maps are the respective inclusions.
 
    +-- {: .num_defn}
    ###### Definition
@@ -106,10 +106,21 @@ Note also that it is standard to be able to replace, using mapping cylinders, a 
 
 ## References
 
-[[Guillaume Brunerie]] gave a talk entitled "The James Construction and $\pi_4(S^3)$" at the Institute of Advanced Studies on March 27, 2013. In this talk, he described James construction in [[homotopy type theory]]. 
+The [[James construction]] is due to 
 
-* [https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie](https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie)
+* {#James55} [[Ioan James]], _Reduced product spaces_, Annals of Mathematics, Second Series, 62: 170–197 (1955)
 
+Review of the [[James construction]] includes
+
+* [[Dylan Wilson]], _James construction_, 2017 ([pdf](http://www.math.uchicago.edu/~dwilson/pretalbot2017/james-construction.pdf))
+
+* Wikipedia, _[James reduced product](https://en.wikipedia.org/wiki/James_reduced_product)_
+
+Discussion of the [[James construction]] via [[homotopy type theory]] includes the following
+
+* {#Brunerie13} [[Guillaume Brunerie]] _The James Construction and $\pi_4(S^3)$_, talk at the Institute of Advanced Studies on March 27, 2013 ([recording](https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie))
+
+* {#Brunerie17} [[Guillaume Brunerie]], _The James construction and $\pi_4(S^3)$ in homotopy type theory_ ([arXiv:1710.10307](https://arxiv.org/abs/1710.10307))
 
 [[!redirects filtered topological space]]
 [[!redirects filtered topological spaces]]
