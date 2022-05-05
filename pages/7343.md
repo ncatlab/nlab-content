@@ -20,6 +20,9 @@
 
 The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimension]] 4 and with $N = 2$ [[supersymmetry]].
 
+[[!include superconformal symmetry -- table]]
+
+
 ## Properties
 
 ### Moduli space of vacua
