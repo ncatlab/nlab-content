@@ -22,7 +22,7 @@
 
 ## Idea 
 
-For $C$ is a [[locally small category]], a [[presheaf]] on $C$ or equivalently a [[functor]] 
+For a [[locally small category]] $C$, a [[presheaf]] on $C$ or equivalently a [[functor]] 
 
 $$F: C^{op} \to Set$$ 
 
