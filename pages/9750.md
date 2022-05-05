@@ -295,9 +295,6 @@ The above "brane scan" table showing the double dimensional reduciton pattern of
  
 
 
-### Reduction of membrane to string
-
-(...)
 
 ### Reduction of 5-brane to 4-brane
 
