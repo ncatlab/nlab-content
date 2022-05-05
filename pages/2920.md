@@ -1393,6 +1393,8 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 * [[right Bousfield delocalization]]
 
+* [[localization at an object]]
+
 
 
 ## References
