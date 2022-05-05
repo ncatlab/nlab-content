@@ -216,6 +216,8 @@ Lecture notes include
 
 * [[Timo Weigand]], _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
 
+* {#Weigand18} [[Timo Weigand]], _TASI Lectures on F-theory_ ([arXiv:1806.01854](https://arxiv.org/abs/1806.01854))
+
 
 
 
