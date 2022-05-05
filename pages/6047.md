@@ -22,11 +22,15 @@
 The _Nambu-Goto action_ is an [[action functional]] for [[sigma-models]] with [[target space]] a ([[pseudo-Riemannian manifold|pseudo]]) [[Riemannian manifold]] $(X,g)$: it is the induced volume functional
 
 $$
-  S_{NG} : (\Sigma \stackrel{\gamma}{\to} X) \mapsto \int_\Sigma dvol(\gamma^* g)
+  S_{NG} 
+  \;\colon\; 
+  (\Sigma \stackrel{\gamma}{\to} X) 
+    \mapsto 
+  T \int_\Sigma dvol(\gamma^* g)
   \,,
 $$
 
-where $dvol(\gamma^* g)$ is the [[volume form]] of the pullback $\gamma^* g$ of the metric tensor from $X$ to $\Sigma$.
+where $dvol(\gamma^* g)$ is the [[volume form]] of the pullback $\gamma^* g$ of the metric tensor from $X$ to $\Sigma$, and where $T$ (the [[brane]]-"tension", e.g. the [[string tension]] for $dim(\Sigma) = 2$) is an inverse [[unit]] of [[length]] to the power the [[dimension]] $dim(\Sigma)$.
 
 ## Definition
 
