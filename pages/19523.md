@@ -86,6 +86,10 @@ A seminal theoretical argument that it _is_ consistent to neglect cosmic inhomog
 
 > This, in principle, ends the debate about whether backreaction has been excluded as a dark energy candidate: the Green and Wald formalism does not apply to the main body of backreaction research; backreaction remains a viable dark energy candidate.
 
+For more see [Coley 18, section 3.5](#Coley18):
+
+> An important open question in cosmology is whether averaging of inhomogeneities can lead to significant backreaction effects on very large scales. (p. 28)
+
 ## Lemaitre-Tolman-Bondi models
  {#LemaitreTolmanBondi}
 
@@ -138,6 +142,8 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 
 * {#MontanariRasanen17} Francesco Montanari, Syksy Räsänen, _Evaluating backreaction with the ellipsoidal collapse model_, JCAP12(2017)008 ([arXiv:1710.02451](https://arxiv.org/abs/1710.02451))
+
+* {#Coley18} [[Alan Coley]], section 3.5 of _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
 
 
 
@@ -197,6 +203,7 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * {#Scharf13} [[Günter Scharf]], _Inhomogeneous cosmology in the cosmic rest frame without dark stuff_, chapter 6 in the latest edition of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001 ([arXiv:1312.2695](https://arxiv.org/abs/1312.2695))
 
 * {#Moffat16} [[John Moffat]], _Inhomogeneous Cosmology Redux_ ([arXiv:1608.00534](https://arxiv.org/abs/1608.00534))
+
 
 See also 
 
