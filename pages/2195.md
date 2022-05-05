@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -131,7 +130,7 @@ This is also called the _[[Schwartz space]]_.
 ###### Example
 **([[compactly supported function|compactly supported]] [[smooth function]] are [[functions with rapidly decreasing partial derivatives]])**
 
-Every [[compactly supported function|compactly supported]] [[smooth function]] ([[bump function]]) $b \in C^\infty_{cp}(\mathbb{R}^n)$ rapidly decreasing partial derivatives (def. \ref{SchwartzSpace):
+Every [[compactly supported function|compactly supported]] [[smooth function]] ([[bump function]]) $b \in C^\infty_{cp}(\mathbb{R}^n)$ rapidly decreasing partial derivatives (def. \ref{SchwartzSpace}):
 
 $$
   C^\infty(\mathbb{R}^n)
