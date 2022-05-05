@@ -119,6 +119,10 @@ With labels left implicit, this notation becomes very economical:
 
 * [[adjunct]]
 
+## References
+
+* {#Borceux94} [[Francis Borceux]], Theorem 3.1.5 and Diagram 3.3 in: _Basic Category Theory_, Vol. 1 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+
 
 [[!redirects zigzag identities]]
 [[!redirects zigzag identity]]
