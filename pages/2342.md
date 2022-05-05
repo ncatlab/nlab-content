@@ -418,7 +418,7 @@ and for the general case
 
 * {#QuickIntro} _A quick introduction to elliptic curves_ ([pdf](http://people.reed.edu/~jerry/311/ecintro.pdf))
 
-* R. Sujahta, _Elliptic Curves & Number Theory_ ([[SujahtaElliptic.pdf:file]])
+* R. Sujatha, _Elliptic Curves & Number Theory_ ([[SujahtaElliptic.pdf:file]])
 
 * {#Sutherland13} [[Andrew Sutherland]], _Elliptic curves and abelian varieties_, lecture 23 in _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/), [lecture 23 pdf](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/MIT18_782F13_lec23.pdf))
 
