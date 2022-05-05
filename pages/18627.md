@@ -25,6 +25,7 @@ For [[Lagrangian field theories]] this space of trajectories carries a canonical
 
 For the moment see at _[[field theory]]_ for more details.
 
+
 ## Related concepts
 
 * [[configuration space (physics)]]
