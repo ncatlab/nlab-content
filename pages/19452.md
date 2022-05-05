@@ -2,7 +2,7 @@
 
 > This page is going to be one chapter in _[[geometry of physics]]_.
 
-> next chapter: _[[geometry of physics -- coordinate systems|coordinate systems]]_
+> next chapter: _[[geometry of physics -- smooth sets|smooth sets]]_
 
 > under construction
 
@@ -5403,6 +5403,8 @@ $$
   \,.
 $$
 
+A [[category]] which is [[equivalence of categories|equivalent]] (Def. \ref{EquivalenceOfCategories}) to a [[category of sheaves]] is called a _[[sheaf topos]]_, or often just _[[topos]]_, for short.
+
 =--
 
 +-- {: .num_example #TrivialCoverage}
@@ -5883,6 +5885,349 @@ $$
 $$
 
 which is exactly the condition (eq:GluingCondition) that makes $(\phi_i)_i$ a matching family.
+
+=--
+
+$\,$
+
+
+## Cohesive toposes
+  {#Cohesive}
+
++-- {: .num_defn #CohesiveTopos}
+###### Definition
+**([[cohesive topos]])**
+
+A [[sheaf topos]] $\mathbf{H}$ (Def. \ref{Sheaf}) is called a _[[cohesive topos]]_ if there is a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) to the [[category of sets]] (Example \ref{CategoryOfSets})
+
+\[
+  \label{CohesopmAdjointQuadruple}
+  \Pi_0 \dashv Disc \dashv \Gamma \dashv coDisc
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  Set
+\]
+
+such that:
+
+1. $Disc$ and $coDisc$ are [[full and faithful functors]] (Def. \ref{FullyFaithfulFunctor})
+
+1. $\Pi_0$ [[preserved limit|preserves]] [[finite products]].
+
+=--
+
+
++-- {: .num_example #PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
+###### Example
+**([[adjoint quadruple]] of [[presheaves]] over [[site]] with [[terminal objects]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) with [[finite products]] (hence with a [[terminal object]] $\ast \in \mathcal{C}$ and for any two [[objects]] $X,Y \in \mathcal{C}$ their [[Cartesian product]] $X \times Y \in \mathcal{C}$).
+
+Then there is an [[adjoint quadruple]] of [[functors]] between the [[category of presheaves]] over $\mathcal{C}$ (Example \ref{CategoryOfPresheaves}), and the [[category of sets]] (Example \ref{CategoryOfSets})
+
+\[
+  \label{PreaheafAdjointQuadruple}
+  [\mathcal{C}, Set]
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  Set
+\]
+
+such that:
+
+1. the functor $\Gamma$ sends a [[presheaf]] $\mathbf{Y}$ to its set of [[global sections]], which here is its value on the [[terminal object]]:
+   
+   \[
+     \label{CohesiveGlobalSectionsGivenByPointEvaluation}
+     \begin{aligned}
+       \Gamma \mathbf{Y}
+       & =
+       \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim}
+       \mathbf{Y}
+       \\
+       & \simeq 
+       \mathbf{Y}(\ast)
+     \end{aligned}
+   \]
+
+1. $Disc$ and $coDisc$ are [[full and faithful functors]] (Def. \ref{FullyFaithfulFunctor}).
+
+1. $\Pi_0$ preserves [[finite products]]: 
+
+   for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, we have a [[natural bijection]]
+  
+   $$
+     \Pi_0(\mathbf{X} \times \mathbf{Y}) 
+     \;\simeq\; 
+     \Pi_0(\mathbf{X}) \times \Pi_0(\mathbf{Y})
+     \,.
+   $$
+
+Hence the [[category of presheaves]] over a [[small category]] with [[finite products]], hence the [[category of sheaves]] for the [[trivial coverage]] (Example \ref{TrivialCoverage}) is a [[cohesive topos]] (Def. \ref{CohesiveTopos}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The existence of the [[terminal object]] in $\mathcal{C}$ means equivalently (by Example \ref{InitialCategoryAndTerminalCategory}) that there is an [[adjoint pair]] of [[functors]] between $\mathcal{C}$ and the [[terminal category]] (Example \ref{InitialCategoryAndTerminalCategory}):
+
+$$
+  \ast
+    \underoverset
+    {\underset{}{\hookrightarrow}}
+    {\overset{p}{\longleftarrow}}
+    {\bot}
+   \mathcal{C}
+$$
+
+whose [[right adjoint]] takes the unique object of the terminal category to that terminal object.
+
+From this it follows, by Example \ref{KanExtensionOfAdjointPairIsAdjointQuadruple}, that [[Kan extension]] produces an [[adjoint quadruple]] of functors between the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ and $[\ast, Set] \simeq Set$, as shown, where 
+
+1. $\Gamma$ is the operation of pre-composition with the terminal object inclusion $\ast \hookrightarrow \mathcal{C}$
+
+1. $Disc$ is the [[left Kan extension]] along the inclusion $\ast \hookrightarrow \mathcal{C}$ of the terminal object. 
+
+The former is manifestly the operation of evaluating on the terminal object.
+Moreover, since the terminal object inclusion is manifestly a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}), it follows that also its [[left Kan extension]] $Disc$ is fully faithful  (Prop. \ref{LeftKanExtensionAlongFullyFaithfulFunctor}). This implies that also $coDisc$ is fully faithful, by (Prop. \ref{FullyFaithfulAdjointTriple}).
+
+Equivalently, $Disc \simeq p^\ast$ is the [[constant functor|constant]] [[diagram]]-assigning functor. By uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints}) implies that $\Pi_0$ is the functor that sends a presheaf, regarded as a [[functor]] $\mathbf{Y} \;\colon\; \mathcal{C}^{op} \to Set$, to its [[colimit]] 
+
+\[
+  \label{Pi0IsColimit}
+  \Pi_0(\mathbf{Y})
+  \;=\;
+  \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} \mathbf{Y}
+  \,.
+\]
+
+The fact that this indeed preserves products follows from the assumption that $\mathcal{C}$ has [[finite products]], since [[categories with finite products are cosifted]] (Prop. \ref{CategoriesWithFiniteProductsAreCosifted})
+
+=--
+
+
+Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject} suggests to  ask for [[coverages]] on categories with [[finite products]] which are such that the [[adjoint quadruple]]  (eq:PreaheafAdjointQuadruple) on the  [[category of presheaves]] ([[corestriction|co-]])[[restriction|restricts]] to the corresponding [[category of sheaves]]. The following Definition \ref{OneCohesiveSite} states a sufficient condition for this to be the case:
+
++-- {: .num_defn #OneCohesiveSite}
+###### Definition
+**([[cohesive site]])**
+
+We call a [[site]] $\mathcal{C}$ (Def. \ref{Coverage}) _[[cohesive site|cohesive]]_ if the following conditions are satisfied:
+
+1. The [[category]] $\mathcal{C}$ has [[finite products]] (as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}).
+ 
+1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on  $\mathcal{C}$ the induced [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ (Def. \ref{CechGroupoid}) satisfies the following two conditions:
+
+   1. the set of [[connected components]] of the [[groupoid]] obtained as the [[colimit]] over the [[Cech groupoid]] is the [[singleton]]: 
+ 
+      $$
+        \pi_0
+        \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} 
+         C(\{U_i\}) 
+         \;\simeq\;
+         \ast
+      $$
+
+   1. the set of [[connected components]] of the [[groupoid]] obtained as the [[limit]] of the [[Cech groupoid]] is [[equivalence of categories|equivalent]] to the set of points of $X$, regarded as a groupoid:
+
+      $$
+        \pi_0
+        \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{\lim} C(\{U_i\})
+          \simeq
+        Hom_{\mathcal{C}}(\ast,X)
+        \,.
+      $$
+ 
+=--
+
+This definition is designed to make the following true:
+
++-- {: .num_prop #CategoriesOfSheavesOnCohesiveSiteIsCohesive}
+###### Proposition
+**([[category of sheaves]] on a [[cohesive site]] is a [[cohesive topos]])**
+
+Let $\mathcal{C}$ be a [[cohesive site]] (Def. \ref{OneCohesiveSite}). Then the [[adjoint quadruple]] on the [[category of presheaves]] over $\mathcal{C}$, from Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject} (given that a [[cohesive site]] by definition has [[finite products]]) ([[corestriction|co-]])[[restriction|restricts]] from the [[category of presheaves]] over $\mathcal{C}$, to the [[category of sheaves]] (Def. \ref{Sheaf}) and hence exhibits $Sh(\mathcal{C})$ as a [[cohesive topos]] (Def. \ref{CohesiveTopos}):
+
+\[
+  \label{SheafToposAdjointQuadruple}
+  Sh(\mathcal{C})
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  Set
+\]
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+With Example \ref{SmoothFunctionOnSmoothSpace} it only remains to be shown that for each [[set]] $S$ the [[presheaves]] $Disc(S)$ and $coDisc(S)$ are indeed [[sheaves]].
+
+By the formulaton of the [[sheaf|sheaf condition]] via the [[Cech groupoid]] (Prop. \ref{CechGroupoidCoRepresents}), and using the [[adjunction]] hom-isomorphisms ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) this is readily seen to be equivalent to the two further conditions on a cohesive site (Def. \ref{OneCohesiveSite}):
+
+Let $\{U_i \to X\}$ be a [[covering]] family. 
+
+The sheaf condition (eq:SheafIsLocalObjectWithRespectToCechCovers) for $Disc(S)$ says that 
+
+$$
+  \left[
+    C(\{U_i\}) \overset{p_{\{U_i\}_i}}{\to} y(X)
+    \,,\,
+    Disc(S)
+  \right]
+$$
+
+is an [[isomorphism]] of [[groupoids]], which by adjunction and using (eq:Pi0IsColimit) means equivalently that 
+
+$$
+  \left[
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \left( C(\{U_i\}) \right) \to 
+    \ast
+    \,,\,
+    S
+  \right]
+$$
+
+is an isomorphism of groupoids, where we used that colimits of representables are [[singletons]] (Lemma \ref{ColimitOfRepresentableIsSingleton}) to replace $\underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} y(X) \simeq \ast$.
+
+But now in this [[internal hom]] of [[groupoids]], the set $S$ is really a groupoid in the image of the [[reflective subcategory|reflective embedding]] of sets into groupoids, whose [[left adjoint]] is the [[connected components]]-functor $\pi_0$ (Example \ref{ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}). Hence  by another adjunction isomoprhism this is equivalent to 
+
+$$
+  \left[
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \left( C(\{U_i\}) \right) \to 
+    \ast
+    \,,\,
+    S
+  \right]
+$$
+
+being an isomorphism (a [[bijection]] of [[sets]], now). This is true for all $S \in Set$ precisely if (by the [[Yoneda lemma]], if you wish) the morphism
+
+$$
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \left( C(\{U_i\}) \right) \to 
+    \ast
+$$
+
+is already an isomorphism (here: [[bijection]]) itself.
+
+Similarly,  the sheaf condition (eq:SheafIsLocalObjectWithRespectToCechCovers) for $coDisc(S)$ says that 
+
+$$
+  \left[
+    C(\{U_i\}) \overset{p_{\{U_i\}_i}}{\to} y(X)
+    \,,\,
+    coDisc(S)
+  \right]
+$$
+
+is an [[isomorphism]], and hence by [[adjunction]] and using (eq:CohesiveGlobalSectionsGivenByPointEvaluation), this is equivalent to
+
+$$
+  \left[
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{\lim}
+    C(\{U_i\}) 
+    \overset{p_{\{U_i\}_i}}{\to} 
+    Hom_{\mathcal{C}}(\ast, X)
+    \,,\,
+    S
+  \right]
+$$
+
+being an isomorphism. This holds for all $S \in Set$ if (by the [[Yoneda lemma]], if you wish)
+
+$$
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{\lim}
+    C(\{U_i\}) 
+    \overset{p_{\{U_i\}_i}}{\to} 
+    Hom_{\mathcal{C}}(\ast, X)
+$$
+
+is an isomorphism.
+
+=--
+
+
++-- {: .num_defn #CohesiveModalities}
+###### Definition
+**([[adjoint triple]] of [[modal operators]] on [[cohesive topos]])**
+
+Given a [[cohesive topos]] (Def. \ref{CohesiveTopos}), its [[adjoint quadruple]] of functors to and from [[Set]]
+
+$$
+  \label{CohesopmAdjointQuadruple}
+  \Pi_0 \dashv Disc \dashv \Gamma \dashv coDisc
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  Set
+$$
+
+induce, by [[composition]] of functors, an [[adjoint triple]] of [[endofunctors]]
+
+$$
+  &#643; \dashv \flat \dashv \sharp
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{ &#643; \;\coloneqq\; Disc \circ \Pi_0  }{\hookleftarrow}
+      \\
+      \overset{\flat \;\coloneqq\; Disc \circ \Gamma  }{\longrightarrow}
+      \\
+      \overset{ \sharp \;\coloneqq\; coDisc\circ \Gamma }{\hookleftarrow}
+    }
+  \mathbf{H}
+  \,.
+$$
+
+Since $Disc$ and $coDisc$ are [[fully faithful functors]] by assumption, 
+these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}). 
+
+We pronounce these as follows:
+
+| $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+
 
 =--
 
