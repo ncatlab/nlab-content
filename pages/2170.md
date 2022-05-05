@@ -51,7 +51,7 @@ This relation, $r$, is the typical [[braid group]] relation, here in $Br_3$.
 
 ##Relative derivations
 
-These are a useful relative form of derivation. The notion is often avoided as it can easily be reduced to the more standard form above.
+These are a useful relative form of derivation. The notion is often avoided as it can easily be reduced to the more standard form above by restricting the module structure along $\varphi$.
 
 Let  $\varphi  : H \rightarrow  G$  be a   homomorphism of  groups. 
  A  _$\varphi $-derivation_ from a group to a module,
