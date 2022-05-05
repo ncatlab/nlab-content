@@ -22,7 +22,9 @@ There are two types of [[black brane]] solutions in [[11-dimensional supergravit
 
 * [[M5-brane]]
 
-* [[O9-plane]]
+* [[MK6-brane]]
+
+* [[MO9-brane]]
 
 * [[M-wave]]
 
