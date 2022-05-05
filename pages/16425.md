@@ -32,6 +32,8 @@ The alternating group $A_n$ is to the [[symmetric group]] $S_n$ as the [[special
 
 * [[finite group]]
 
+* [[alternating representation]]
+
 ## References
 
 * Wikipedia, _[Alternating group](https://en.wikipedia.org/wiki/Alternating_group)_
