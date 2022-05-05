@@ -30,7 +30,7 @@ The term _double field theory_ has come to be used for [[field theory]] ([[prequ
 ### Para-hermitian geometry
 The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([I.Vaisman 2012](#Vaisman)), then by David Svoboda.
 
-\begin{defn} An _almost para-complex manifold_ is a [[manifold]] $M$ equipped with a vector bundle endomorphism $F\in\mathrm{End}(TM)$ such that $F^2=1$ and its $\pm 1$ eigenbundles $T^\pm M$ have same rank. \end{defn}
+\begin{defn} An _almost para-complex manifold_ is a [[manifold]] $M$ equipped with a vector bundle endomorphism $F\in\mathrm{End}(T M)$ such that $F^2=1$ and its $\pm 1$ eigenbundles $T^\pm M$ have same rank. \end{defn}
 
 \begin{defn} The _para-complex projectors_ are the canonical projectors onto $T^\pm M$ defined by $P_\pm = \frac{1}{2}(1\pm F)$ \end{defn} 
 
@@ -78,21 +78,25 @@ $$
 for any vector $X_\pm\in\Gamma(T^\pm M)$ and $\xi\in\Omega^{r,s}(M)$.
 \end{rmk}
 
-\begin{defn} An _almost para-hermitian manifold_ is an almost para-complex manifold $M$ equipped with a compatible metric, i.e a symmetric tensor $\eta\in\mathrm{Sym}^2(TM)$ such that $\eta(F\cdot\,,F\cdot\,)=-\eta(\,\cdot\,,\,\cdot\,)$. \end{defn}
+\begin{defn} An _almost para-hermitian manifold_ is an almost para-complex manifold $M$ equipped with a compatible metric, i.e a symmetric tensor $\eta\in\mathrm{Sym}^2(T M)$ such that $\eta(F\cdot\,,F\cdot\,)=-\eta(\,\cdot\,,\,\cdot\,)$. \end{defn}
 
 \begin{rmk} The contraction with the metric $\eta$ defines two isomorphisms 
-    $$\phi^\pm : T^\pm M \rightarrow (T^\mp M)^\ast$$
+
+$$
+  \phi^\pm : T^\pm M \rightarrow (T^\mp M)^\ast
+$$
+
 by 
 
 * $\phi^\pm(X_\pm) =  X_\pm^\flat$ and
 
 * $(\phi^\pm)^{-1}(\xi_\pm)=\xi^\sharp$
 
-that map a vector in $T^\pm M$ to a $1$-form in $(T^\mp M)^\ast$ and vice-versa. We used the notation $\flat,\sharp$ for the musical isomorphisms induced by the metric $\eta$ between $TM$ and $T^\ast M$.
+that map a vector in $T^\pm M$ to a $1$-form in $(T^\mp M)^\ast$ and vice-versa. We used the notation $\flat,\sharp$ for the musical isomorphisms induced by the metric $\eta$ between $T M$ and $T^\ast M$.
 
 This can be used to define a new couple of isomorphisms
 $$
-    \Phi^\pm : TM \longrightarrow T^\pm M\oplus(T^\pm M)^\ast 
+    \Phi^\pm : T M \longrightarrow T^\pm M\oplus(T^\pm M)^\ast 
 $$
 that maps a vector a vector $X=X_++X_-$ with $X_\pm\in T^\pm M$ into $X_+ + X_-^\flat$. \end{rmk}
 
@@ -104,8 +108,8 @@ Given a $+$-para-hermitian manifold $(M,\eta,F)$, consider the triple $\big(T^+ 
 
 * the skew-symmetric bracket $[\,\cdot\,,\,\cdot\,]_+:=[\,\cdot\,,\,\cdot\,]|_{T^+ M}$
 
-* the anchor $1_{T^\pm M}:=1_{TM}|_{T^\pm M}$
-are the restrictions of Lie bracket and identity of $TM$.
+* the anchor $1_{T^\pm M}:=1_{T M}|_{T^\pm M}$
+are the restrictions of Lie bracket and identity of $T M$.
 
 Since $M$ is $+$-para-hermitian we have that $T^+M$ is integrable and therefore it is the tangent bundle $T^+M = T\mathcal{F}_\pm$ of a foliation $\mathcal{F}_+$. This means that this triple is just the tangent Lie algebroid of the foliation $\mathcal{F}_+$:
 $$
@@ -120,13 +124,13 @@ $$
     \langle X+\alpha,Y+\beta\rangle_+ = \iota_X\beta + \iota_Y\alpha.
 $$
 
-The isomorphism $\Phi^+:T^+ M\oplus (T^+ M)^\ast\rightarrow T^+ M\oplus T^- M = TM$ previously defined induces a Courant algebroid isomorphism and hence a Courant algebroid structure on $TM$. This induces a metric $\eta$ on $M$ and a skew-symmetric pairing on $TM$ by
+The isomorphism $\Phi^+:T^+ M\oplus (T^+ M)^\ast\rightarrow T^+ M\oplus T^- M = T M$ previously defined induces a Courant algebroid isomorphism and hence a Courant algebroid structure on $T M$. This induces a metric $\eta$ on $M$ and a skew-symmetric pairing on $T M$ by
 $$
    [[X_++X_-,Y_++Y_-]]_+ := [X_+,Y_+] + \Big[\mathcal{L}_{X_+}^+ Y_-^\flat -\mathcal{L}_{Y_+}^+ X_-^\flat +\mathrm{d}_+\big(\eta(X_-,Y_+)\big)\Big]^\sharp,
 $$
-where $X\in TM$ is split in $X_\pm=P_\pm X$. 
+where $X\in T M$ is split in $X_\pm=P_\pm X$. 
 
-\begin{rmk} Since $M$ is assumed $+$-para-hermitian, $T^+ M\oplus (T^+ M)^\ast$ can be written as $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$. Therefore we constructed an isomorphism between the Courant algebroid on the whole $TM$ and the generalized tangent bundle $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$ of the foliation. In other terms para-hermitian geometry of the doubled manifold $M$ reduces to Generalized Geometry of physical spacetime. \end{rmk}
+\begin{rmk} Since $M$ is assumed $+$-para-hermitian, $T^+ M\oplus (T^+ M)^\ast$ can be written as $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$. Therefore we constructed an isomorphism between the Courant algebroid on the whole $T M$ and the generalized tangent bundle $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$ of the foliation. In other terms para-hermitian geometry of the doubled manifold $M$ reduces to Generalized Geometry of physical spacetime. \end{rmk}
 
 \begin{rmk} The same argument can be clearly applied to $T^-M$ too. \end{rmk}
 
