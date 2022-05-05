@@ -10,7 +10,7 @@ $\,$
 
 $\,$
 
-[[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]]. They are ubiquituous in and indispensible for organizing concpetual mathematical frameworks.
+[[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]]. They are ubiquituous in and indispensible for organizing conceptual mathematical frameworks.
 
 We give here an introduction to the basic concepts and results, aimed at providing background for the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_.
 
