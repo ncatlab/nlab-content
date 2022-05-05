@@ -1,6 +1,22 @@
+
+
+
 [[some_picture.png:pic]]
 
 [[some_picture.png|alt_text:pic]]
+
+
+$$
+  \array{
+    \Omega X &\overset{\Omega c}{\longrightarrow}& \Omega A
+    &\overset{ \text{connecting} \atop \text{homomorphism} }{\longrightarrow}& \widehat X
+    \\
+    && && {}^{\mathllap{hofib(c)}}\Big\downarrow
+    \\
+    && && X &\underset{c}{\longrightarrow}& A
+  }
+$$
+
 
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
 
