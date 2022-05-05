@@ -1,3 +1,5 @@
+> *Note: This page is about an alternative presentation of [[monads]].  There is a different notion of "extension system" that is to a [[bicategory]] what a [[closed category]] is to a [[monoidal category]]; for this, see [[closed category]].
+
 # Extension systems
 
 * table of contents
