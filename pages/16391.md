@@ -17,6 +17,10 @@
 
 The joint generalization of [[conformal geometry]] and [[supergeometry]].
 
+## Classification
+
+See at _[Supersymmetry -- Classification of superconformal algebras](supersymmetry#ClassificationSuperconformal)_
+
 ## Related concepts
 
 * [[supersymmetry]]
