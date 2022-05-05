@@ -15,7 +15,7 @@
 
 ## Overview
 
-A **paraconsistent logic** is a [[logic]] it which it can happen that a [[contradiction]] is true, in the sense that both $A$ and $\neg A$ hold for some [[proposition]] $A$, without the logic becoming *trivial* in the sense that *all* propositions are true.  Put differently, a paraconsistent logic is one in which the schema _ex contradictione quodlibet_:
+A **paraconsistent logic** is a [[logic]] in which it can happen that a [[contradiction]] is true, in the sense that both $A$ and $\neg A$ hold for some [[proposition]] $A$, without the logic becoming *trivial* in the sense that *all* propositions are true.  Put differently, a paraconsistent logic is one in which the schema _ex contradictione quodlibet_:
 $$A,\, \neg{A} \;\vdash\; B $$
 (for all formulas $A$ and $B$) does not hold.  Logics which are not paraconsistent are sometimes said to be **explosive**: a single contradiction explodes the entire system into triviality.
 
