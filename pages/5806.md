@@ -318,9 +318,11 @@ An inductive definition of the [[symmetric monoidal (∞,n)-category]] $Span_n(\
 
 there denoted $Fam_n(C)$. Notice the heuristic discussion on page 59.
 
-A detailed version of this definition is given in 
+More detailed discussion is given in
 
 * {#Haugseng14} [[Rune Haugseng]], _Iterated spans and "classical" topological field theories_ ([arXiv:1409.0837](http://arxiv.org/abs/1409.0837))
+
+* [[Yonatan Harpaz]], _Ambidexterity and the universality of finite spans_ ([arXiv:1703.09764](https://arxiv.org/abs/1703.09764))
 
 Both articles comment on the relation to [[schreiber:Local prequantum field theory]].
 
