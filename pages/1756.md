@@ -246,7 +246,8 @@ See the references at _[[model category]]_. For instance
 
 The proof that a Quillen adjunction of [[model categories]] induces an [[adjunction of (infinity,1)-categories]] is recorded in
 
-* {#MazelGee16} [[Aaron Mazel-Gee]], [_Quillen adjunctions induce adjunctions of quasicategories_](http://nyjm.albany.edu/j/2016/22-4.html).
+* {#MazelGee16} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, New York Journal of Mathematics
+Volume 22 (2016) 57-93 ([arXiv:1501.03146](https://arxiv.org/abs/1501.03146), [publisher](http://nyjm.albany.edu/j/2016/22-4.html))
 
 and this question is also partially addressed in
 
