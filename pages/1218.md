@@ -51,11 +51,10 @@ For $(X,\mathcal{D})$ a diffeological space, and for any $U \in \mathcal{Op}$, t
 
 For some comments on the reasoning behind this kind of definition of generalized [[space]]s see [[motivation for sheaves, cohomology and higher stacks]].
 
-A sheaf on the site $\mathcal{Op}$ of open subsets of Euclidean spaces is completely specified by its restriction to [[CartSp]], the full subcategory of Euclidean spaces.  Therefore in the sequel we shall often restrict our attention to [[CartSp]].
+A sheaf on the site $\mathcal{Op}$ of open subsets of Euclidean spaces is completely specified by its restriction to [[CartSp]], the full subcategory of [[Cartesian space]]: The [[fully faithful functor]] $CartSp \hookrightarrow \mathcal{Op}$ is a [[dense subsite]]-inclusion.  Therefore in the sequel we shall often restrict our attention to [[CartSp]].
 
-One may define a "very general smooth space" to be _any_ sheaf of [[CartSp]] and identify the [[sheaf topos]] $Sh(CartSp)$ as the category of very general smooth spaces.
-
-A diffeological space precisely a [[concrete sheaf]] on the [[concrete site]] [[CartSp]]. The [[full subcategory]]
+One may define a _[[smooth sets]]_ to be _any_ sheaf of [[CartSp]].
+A diffeological space is equivalently a [[concrete sheaf]] on the [[concrete site]] [[CartSp]]. The [[full subcategory]]
 
 $$
   DiffeologicalSpace \hookrightarrow Sh(CartSp)
@@ -63,6 +62,7 @@ $$
 
 on all concrete sheaves is not a [[topos]], but is a [[quasitopos]].
 
+This is Prop. \ref{DiffeologicalSpacesAreTheConcreteSmoothSets} below.
 
 The concreteness condition on the sheaf is a reiteration of the fact that a diffeological space is a subsheaf of the sheaf $U \mapsto X^{|U|}$.  In this way, one does not have to explicitly mention the underlying set $X$ as it is determined by the sheaf on the one-point open subset of $\mathbb{R}^0$.
 
@@ -199,179 +199,21 @@ $$
 
 This appears as ([Waldorf 09, lemma A.1.7](#Waldorf09)).
 
+$\,$
 
-
-### Embedding of diffeological spaces into the topos of smooth spaces
+### Embedding of diffeological spaces into smooth sets
  {#EmbeddingOfDiffeologicalSpacesIntoTheSheafTopos}
 
-We discuss aspects of the full [[sheaf topos]] $Sh(CartSp)$ on the [[site]] [[CartSp]] -- the topos of _[[smooth spaces]]_ -- and of how diffeological spaces are embedded into this. In summary, we have that $Sh(CartSp)$ is a [[cohesive topos]] and that $DiffeologicalSpace \hookrightarrow Sh(CartSp)$ is the canonical sub-[[quasitopos]] of [[concrete sheaves]] inside it.
-
-#### Connectedness {#Connectedness}
-
-The full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]:
-
-$$
-  Sh(CartSp)
-  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{L Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
-  Set
-$$
-
-The extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
+We discuss how diffeological spaces are equivalently the [[concrete objects]] in the [[cohesive topos]] of [[smooth sets]] (see [there](smooth+set#Cohesion)).
 
 
-+-- {: .num_prop}
++-- {: .num_prop #DiffeologicalSpacesAreTheConcreteSmoothSets}
 ###### Proposition
+**(diffeological spaces are the concrete smooth sets)**
 
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The following argument works for every [[site]] $C$ which is such that constant presheaves on $C$ are already sheaves.
-
-Notice that this is the case for $C = CartSp$ because every Cartesian space is connected: for $S \in Set$ a compatible family of elements of $Const S$ on a cover $\{U_i \to \mathbb{R}^n\}$ of some $\mathbb{R}^n$ is an element of $S$ on each patch, such that their restriction maps to intersections of patches coincide. But the restriction maps are all identities, so this says that all these elements coincide. Therefore the set of compatible families is just the set $S$ itself, hence the presheaf $Const S$ is a sheaf.
-
-So with $L : PSh(C) \to Sh(C)$ the [[sheafification]] functor we have that $L Const S \simeq Const S$.
-
-Whenever this is the case the [[left adjoint]] to the constant presheaf functor, which always exists for presheaves and is given by the [[colimit]] functor, is also left adjoint on the level of sheaves, because for each $X \in Sh(C)$ and $S \in Set$ we have natural bijections
-
-$$
-  \begin{aligned}
-    Hom_{Sh(C)}(X, L Const S)
-    & =
-    Hom_{PSh(C)}(X, L Const S)
-    \\
-    & \simeq
-    Hom_{PSh(C)}(X, Const S)
-    \\
-    & \simeq
-    Hom_{Set}(\lim_\to X, S)
-  \end{aligned}
-  \,.
-$$
+The [[full subcategory]] on the [[concrete objects]] in the [[topos]] $SmoothSet \coloneqq Sh(Cart)$ of [[smooth sets]] is [[equivalence of categories|equivalent]] to the category of diffeological spaces
 
 =--
-
-+-- {: .num_defn}
-###### Definition
-
-Write $\Pi_0 := \lim_\to : Sh(CartSp) \to Set$
-for the [[left adjoint]] to $LConst : Set \stackrel{Const}{\to} PSh(C) \stackrel{L}{\to} Sh(C)$.
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-For $X \in Sh(C)$ a diffeological space, $\Pi_0(X)$ is the set of path-connected components of the topological space underlying $X$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the [[co-Yoneda lemma]] we may write 
-
-$$
-  X = {\lim_\to}_{(U \to X) \in y/X} U
-$$
-
-and since $\Pi_0$ commutes with colimits we have
-
-$$
-  \Pi_0(X) \simeq 
-  \Pi_0 {\lim_\to}_{(U \to X)} U
-  \simeq
-  {\lim_\to}_{(U \to X)} \Pi_0(U)
-  \,.
-$$
-
-But also by the co-Yoneda lemma we have that the [[colimit]] over any [[representable functor|representable]] is the singleton set, hence our expression
-
-$$
-  \cdots \simeq 
-  {\lim_\to}_{(U \to X)} *
-$$
-
-is the colimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
-
-The connected components of the category of plots $y/X$ are the path-connected (or "plot-connected") components of the underlying topological space of $X$.
-
-
-
-=--
-
-
-+-- {: .num_prop}
-###### Proposition
-
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is actually a [[connected topos]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since $CartSp$ is a [[connected category]] it is immediate that $Const \colon Set \to PSh(CartSp)$ is a [[full and faithful functor]]. By the above this equals $L Const$, which is hence also full and faithful.
-
-By the discussion at [[connected topos]] we could equivalently convince ourselves that $\Pi_0$ preserves the terminal object. The terminal object of $Sh(CartSp)$ is $y(\mathbb{R}^0)$, hence representable. By the above, $\Pi_0$ sends all representable objects to the singleton set, which is the terminal object of $Set$. 
-
-=--
-
-
-#### Locality {#Locality}
-
-+-- {: .num_prop}
-###### Proposition
-
-
-The [[sheaf topos]] $Sh(CartSp)$ is also a [[local topos]]
-
-$$
-  (L Const \dashv \Gamma \dashv CoDisc)
-  :
-  Sh(CartSp) \stackrel{\overset{L Const}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoDisc}{\leftarrow}}} 
-  Set
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-The [[site]] [[CartSp]] is a [[local site]]: it has a [[terminal object]] and the only [[covering]] [[sieve]] of this object is the trivial one. This implies the claim, by the discussion at [[local site]].
-
-Concretely, the extra [[right adjoint]] $CoDisc$ takes a [[set]] $S$ to the presheaf given by the assigmnent
-
-$$
-  CoDisc(S) : U \mapsto Hom_{Set}(CartSp(*,U), S)
-  \,,
-$$
-
-that takes a Cartesian space $U$ to the set of [[function]]s from its underlying set of points to $S$. This is clearly a sheaf (a function of sets from $U$ to $S$ is clearly fixed by all its restrictions to a collections of  subsets of $U$ whose unition is $U$.)
-
-=--
-
-Geometrically, the object $CoDisc S \in Sh(CartSp)$ is the diffeological space [[codiscrete space|codiscrete]] (indiscrte) smooth structure.
-
-+-- {: .num_prop}
-###### Proposition
-
-Every [[local topos]] comes with its notion of [[concrete sheaves]] that form a sub-[[quasitopos]]. For the local topos $Sh(CartSp)$ these are precisely the diffeological spaces.
-
-$$
-  Set \stackrel{\leftarrow}{\underset{CoDisc}{\hookrightarrow}}
-  DiffologicalSp \stackrel{\leftarrow}{\hookrightarrow}
-  Sh(CartSp)
-$$
-
-
-=--
-
-
 
 +-- {: .proof}
 ###### Proof
@@ -395,36 +237,6 @@ is a monomorphism. This is precisely the condition on a sheaf to be a diffeologi
 
 =--
 
-#### Cohesiveness
- {#Cohesiveness}
-
-+-- {: .num_prop}
-###### Proposition
-
-The [[sheaf topos]] $Sh(CartSp)$ is even a [[cohesive topos]] in which the axiom _pieces have points_ holds.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The [[site]] [[CartSp]] is a [[cohesive site]] (see there for detail). This implies the statement.
-
-=--
-
-This implies that $Sh(CartSp)$ is a [[locally connected topos]], [[connected topos]], [[local topos]]. It means in addition that it is also a [[strongly connected topos]].
-
-This means that there is a _homotopy category_ or _concordance category_ of [[smooth spaces]], with the same objects as $Sh(CartSp)$, but with hom-sets given by
-
-$$
-  Conc(X,Y) := \Pi_0 [X,Y]_{Sh(CartSp)}
- \,,
-$$
-
-where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed category]] $Sh(CartSp)$.
-
-
-#### The sub-quasitopos of diffeological spaces
 
 +-- {: .num_cor}
 ###### Corollary
@@ -456,14 +268,14 @@ The category of diffeological spaces is
 ### Embedding of diffeological spaces into higher differential geometry
  {#EmbeddingOfDiffeologicalSpacesIntoHigherDifferentialGeometry}
 
-In the last section we saw the embedding of diffeological spaces as precisely the [[concrete objects]] is the [[sheaf topos]] $Sh(CartSp) \simeq Sh(SmthMfd)$ of [[smooth spaces]]. This is a general context for [[differential geometry]]. From there one can pass further to [[higher differential geometry]]: the topos of smooth spaces in turn embeds
+In the last section we saw the embedding of diffeological spaces as precisely the [[concrete objects]] is the [[sheaf topos]] $Sh(CartSp) \simeq Sh(SmthMfd)$ of [[smooth sets]]. This is a general context for [[differential geometry]]. From there one can pass further to [[higher differential geometry]]: the topos of smooth sets in turn embeds
 
 $$
   Sh(CartSp) \hookrightarrow
   Smooth \infty Grpd \coloneqq Sh_\infty(CartSp) 
 $$
 
-into the [[(∞,1)-topos]] [[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[smooth ∞-groupoids]] -- as precisely the [[truncated object in an (∞,1)-category|0-truncated objects]].
+into the [[(∞,1)-topos]] [[Smooth∞Grpd]] of "higher [[smooth sets]]" --[[smooth ∞-groupoids]] -- as precisely the [[truncated object in an (∞,1)-category|0-truncated objects]].
 
 ### Distribution theory
 
@@ -471,7 +283,7 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 
 ## Related concepts
 
-* [[smooth space]]
+* [[smooth set]]
 
 * [[diffeological groupoid]], [[diffeological ∞-groupoid]]
 
