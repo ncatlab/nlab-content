@@ -245,7 +245,7 @@ be an [[adjoint triple]], with $Disc$ a [[fully faithful functor]].  Denoting th
 | $\phantom{A}$ $(Disc \dashv \Gamma)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\flat$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\flat$ $\phantom{A}$ |
 {: style='margin:auto}
 
-then the following [[composition|composites]] of unit/counit components are equal:
+we have that the following [[composition|composites]] of unit/counit components are equal:
 
 \[
   \label{CoincidenceOfNaturalTransformationsForAdjointTriple}
@@ -329,11 +329,11 @@ This commutes, because:
 
 1. the bottom commuting triangle is the image under $\Pi$ of the [[zig-zag identity]] for $(Disc \dashv \Gamma)$ on $\Pi X$.
 
-Finally, notice that 
+Moreover, notice that 
 
 1. the total bottom composite is the [[identity morphism]] $id_{\Pi X}$, due to the [[zig-zag identity]] for $(Disc \dashv \Gamma)$;
 
-1. also the other two morphism in the bottom triangle are [[isomorphisms]], as shown, due to the [[idempotent monad|idempoency]] of the $(Disc-\Gamma)$-adjunction
+1. also the other two morphisms in the bottom triangle are [[isomorphisms]], as shown, due to the [[idempotent monad|idempoency]] of the $(Disc-\Gamma)$-adjunction
 
 Therefore the total composite from $\Pi Disc \Gamma X \to \Gamma Disc \Pi X$ along the bottom part of the diagram equals the left hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple), while the composite along the top part of the diagram clearly equals the right hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple).
 
@@ -345,10 +345,10 @@ Therefore the total composite from $\Pi Disc \Gamma X \to \Gamma Disc \Pi X$ alo
 ###### Proposition
 **([[points-to-pieces transform]])**
 
-Consider an [[adjoint quadruple]] of the form 
+Consider an [[adjoint triple]] of the form 
 
 $$
-  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
+  \Pi \dashv Disc \dashv \Gamma
   \;\;\colon\;\;
   \mathbf{H}
     \array{
@@ -357,8 +357,6 @@ $$
       \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
       \\
       \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
-      \\
-      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
     }
   \mathbf{B}
 $$
@@ -506,7 +504,7 @@ $$
 
 Here:
 
-1. on the left we identified $\widetilde {\widetilde {ptp_{\mathbf{H}}}} \;=\;  ptp_{\mathbf{\mathbf{H}}}$ by applying the formula for $(Disc \dashv \Gamma)$-[[adjuncts]] to $\widetilde {ptp_{\mathbf{H}}} = \Gamma \eta^{&#643;}_X$ (eq:AdjunctOfptpH);
+1. on the left we identified $\widetilde {\widetilde {ptp_{\mathbf{H}}}} \;=\;  ptp_{\mathbf{H}}$ by applying the formula for $(Disc \dashv \Gamma)$-[[adjuncts]] to $\widetilde {ptp_{\mathbf{H}}} = \Gamma \eta^{&#643;}_X$ (eq:AdjunctOfptpH);
 
 1. on the right we used the [[zig-zag identity]] for $(Disc \dashv \Gamma)$.
 
@@ -534,7 +532,7 @@ $$
   \mathbf{B}
 $$
 
-Then application of the [[functor]] $\Gamma$ on any [[morphism]] $\mathbf{X} \overset{f}{\to} \mathbf{Y} \;\;\in \mathbf{H}$ is equal to the operations of
+Then application of the [[functor]] $\Gamma$ on any [[morphism]] $\mathbf{X} \overset{f}{\to} \mathbf{Y} \;\;\in \mathbf{H}$ is equal both to the operations of 
 
 1. [[composition|pre-composition]] with the $(Disc \dashv \Gamma)$-[[adjunction counit]] $\epsilon^\flat_{\mathbf{X}}$, followed by passing to the  $(Disc \dashv \Gamma)$-[[adjunct]];
 
@@ -542,7 +540,9 @@ Then application of the [[functor]] $\Gamma$ on any [[morphism]] $\mathbf{X} \ov
 
 \[
   \label{PostcompositionWithEtaAsGamma}
-  \Gamma_{\mathbf{X}, \mathbf{Y}} \;=\;  \widetilde{\eta^\sharp_{\mathbf{Y}} \circ (-)}
+  \widetilde{\eta^\sharp_{\mathbf{Y}} \circ (-)}
+  \;=\;
+  \Gamma_{\mathbf{X}, \mathbf{Y}} 
   \;=\;
   \widetilde{ (-) \circ \epsilon^\flat_{\mathbf{X}} }
   \,.
