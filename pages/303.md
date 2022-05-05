@@ -71,6 +71,8 @@ where $C(x, y)$ denotes the hom-object in $V$,
 
 * [[enriched functor category]]
 
+* [[enriched (∞,1)-functor]]
+
 ## References
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ ([web](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html))
