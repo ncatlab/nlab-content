@@ -109,11 +109,17 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 * [[equivariant motivic homotopy theory]]
 
-* [[equivariant spectrum]], [[equivariant sphere spectrum]], [[equivariant suspension spectrum]], [[equivariant homotopy group]], [[equivariant stable homotopy category]], [[tom Dieck splitting]], [[slice spectral sequence]]
+* [[equivariant spectrum]], 
+
+  [[equivariant sphere spectrum]], [[equivariant suspension spectrum]], [[equivariant homotopy group]], [[equivariant stable homotopy category]], [[tom Dieck splitting]], [[slice spectral sequence]]
 
 * [[G-spectra]], [[naive G-spectra]], [[spectra with G-action]]
 
-* [[G-spaces]]
+  [[G-spaces]]
+
+* [[Burnside category]], [[Burnside ring]]
+
+  [[Mackey functor]]
 
 ## References
 
@@ -121,8 +127,12 @@ Original articles include
 
 * [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971. ([pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0059.0064.ocr.pdf))
 
+Lecture notes are in
 
-Introductions and surveys include
+* {#Blumberg17} [[Andrew Blumberg]], _The Burnside category_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
+
+Further introductions and surveys include the following
 
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
@@ -176,4 +186,4 @@ A comprehensive construction of equivariant stable homotopy theory in terms of [
 
 A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation is i 
 
-* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
