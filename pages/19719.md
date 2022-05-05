@@ -22,6 +22,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Ali Caglayan]]
 * [[Steve Awodey]]
 * [[Andre Joyal]]
+* [[Benedikt Ahrens]]
 
 ## Plans
 
