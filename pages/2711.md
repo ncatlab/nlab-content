@@ -37,6 +37,10 @@ If sets (or [[setoids]]) are regarded as the [[semantics]] of some [[type theory
 *  An [[object]] in a [[category]];
 *  in general, $k$-[[k-morphism|morphisms]] or $k$-cells in an $\infty$-[[infinity-category|category]];
 
+## Related concepts
+
+[[!include logic symbols -- table]]
+
 
 [[!redirects member]]
 [[!redirects elements]]
