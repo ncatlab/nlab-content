@@ -20,7 +20,7 @@ The [[standard model of particle physics]] has the curious property that its con
 
 The first generation contains the
 
-| type of [[fundamental particle]] | First [[genration of fundamental particles|generation]] | Second [[generation of fundamental particles|generation]] | Third [[generation of fundamental particles|generation]] |
+| type of [[fundamental particle]] | First [[generation of fundamental particles|generation]] | Second [[generation of fundamental particles|generation]] | Third [[generation of fundamental particles|generation]] |
 |------|------------------|-------------------|------------------|
 | up-type [[quark]] | [[up quark]] | [[charm quark]] | [[top quark]] |
 | down-type [[quark]] | [[down quark]] | [[strange quark]] | [[bottom quark]] |
