@@ -40,7 +40,7 @@ $$
 In [[equivariant homotopy theory]] one uses the term _Weyl group_ more general for the [[quotient group]] 
 
 $$
-  W_G H = N_G H / H
+  W_G H = (N_G H) / H
 $$ 
 
 of the [[normalizer]] of any [[subgroup]] $H \hookrightarrow G$ by that subgroup (e.g. [May 96, p. 13](#May96)). 
@@ -48,6 +48,14 @@ of the [[normalizer]] of any [[subgroup]] $H \hookrightarrow G$ by that subgroup
 The relevance of the Weyl group in this sense is that it is the maximal group which canonically [[action|acts]] on $H$-[[fixed points]] of a [[topological G-space]]. (See for instance at _[[tom Dieck splitting]]_.) 
 
 Notice that $W_G G = 1$ and $W_G 1 = G$.
+
+{#WeylGroupOfNormalSubgroup} On the other hand, if $H  = N \subset G$ is a [[normal subgroup]], then its [[normalizer]] is $G$ itself, in which case the Weyl group is just the plain [[quotient group]]
+
+$$
+  W_G N \;\simeq\; G/N
+  \,.
+$$
+
 
 ## Definition
 
