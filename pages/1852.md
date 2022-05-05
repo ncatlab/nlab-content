@@ -139,7 +139,7 @@ Every [[paracompact Hausdorff space]], in particular every [[compact Hausdorff s
 
 =--
 
-See at _[[paracompact Hausdorff spaces are normal]]_ for details
+See _[[paracompact Hausdorff spaces are normal]]_ for details.
 
 
 +-- {: .num_example }
@@ -329,7 +329,7 @@ Although normal (Hausdorff) spaces are "[[nice topological spaces]]" (being for 
 
 +-- {: .num_remark #retracts} 
 ###### Remark 
-A small saving grace is that the category of normal spaces is [[Cauchy complete category|Cauchy complete]], in fact is closed under retracts in $Top$. This is the case whether or not the Hausdorff condition is included. (If $r: Y \to X$ retracts $i: X \to Y$, then $r$ is a quotient map and $i$ is a subspace inclusion. If $A, B$ are closed and disjoint in $X$, then $r^{-1}(A), r^{-1}(B)$ are closed and disjoint in $Y$. Separate them by disjoint open sets $U \supseteq r^{-1}(A), V \supseteq r^{-1}(B)$ in $Y$; then $i^{-1}(U), i^{-1}(V)$ are disjoint open sets separating $i^{-1} r^{-1}(A) = A, i^{-1} r^{-1}(B) = B$ in $X$.) 
+A small saving grace is that the category of normal spaces is [[Cauchy complete category|Cauchy complete]], in fact is closed under retracts in $Top$. This is so whether or not the Hausdorff condition is included. (If $r: Y \to X$ retracts $i: X \to Y$, then $r$ is a quotient map and $i$ is a subspace inclusion. If $A, B$ are closed and disjoint in $X$, then $r^{-1}(A), r^{-1}(B)$ are closed and disjoint in $Y$. Separate them by disjoint open sets $U \supseteq r^{-1}(A), V \supseteq r^{-1}(B)$ in $Y$; then $i^{-1}(U), i^{-1}(V)$ are disjoint open sets separating $i^{-1} r^{-1}(A) = A, i^{-1} r^{-1}(B) = B$ in $X$.) 
 =--
 
 More at the page _[[colimits of normal spaces]]_. 
