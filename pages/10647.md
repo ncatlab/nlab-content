@@ -26,7 +26,7 @@ A [[spacetime]] with vanishing Ricci curvature is also called _Ricci flat_.
 
 By a trick of DeTurck and Kazan (or already Lanczos?) in harmonic coordinates the Ricci tensor can be expressed as
 $$
-Ric_{}lm = -\frac{1}{2} \sum_{j,k} \partial_j g^{jk}(x) \partial_k g_{lm} + Q_{lm}(g, \nabla g)
+Ric_{lm} = -\frac{1}{2} \sum_{j,k} \partial_j g^{jk}(x) \partial_k g_{lm} + Q_{lm}(g, \nabla g)
 $$
 where $g^{jk}$ denotes the inverse of the metric tensor and $Q_{lm}$ is a quadratic form in $\nabla g$ with coefficients that are polynomials in the coefficients of $g$. Note that this formula involves only first derivatives of the metric tensor. This representation is especially useful in two ways: First, there are theorems that give bounds on the regularity of the metric tensor in harmonic coordinates under geometric assumptions (Anderson, Anderson and Cheeger, Naber). Second, by theory of partial differential equations one can conclude on regularity bounds for the metric tensor from regularity estimates for the Ricci tensor.
 
