@@ -145,7 +145,7 @@ A similar way to use Isbell's result applies to show that a really vast number o
 
 * {#Freyd70} [[Peter Freyd]], _Homotopy is not concrete_, in _The Steenrod Algebra and its Applications_, Springer Lecture Notes in Mathematics Vol. 168, Springer-Verlag, 1970, Republished in: Reprints in Theory and Applications of Categories, No. 6 (2004) pp 1-10 ([web](http://www.tac.mta.ca/tac/reprints/articles/6/tr6abs.html))
 
-* {#DiliLore} [[Ivan di Liberti]], [[Fosco Loregian]] _Homotopical algebra is not concrete_, [arXiv preprint](https://arxiv.org/abs/1704.00303).
+* {#DiliLore} [[Ivan di Liberti]], [[Fosco Loregian]] "Homotopical algebra is not concrete." Journal of Homotopy and Related Structures (2017): 1-15.
 
 
 [[!redirects concrete category]]
