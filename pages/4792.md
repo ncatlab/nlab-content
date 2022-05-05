@@ -52,14 +52,12 @@ This becomes a [[star-algebra]] with star [[involution]]
   \overline{(-)} \;\colon\; \mathbb{O} \longrightarrow \mathbb{O}
 \]
 
-which is the [[antihomomorphism]] $\overline{a b} = \overline{b} \overline{a}$ which is 
-
-given on the above generators by
+which is the [[antihomomorphism]] $\overline{a b} = \overline{b} \overline{a}$ that is  given on the above generators by
 
 $$
-  \overline{e_i} = - e_i 
+  \overline{e_i} \coloneqq - e_i 
   \phantom{AAAA}
-  i \in \{1, \cdot, 7\}
+  i \in \{1, \cdots, 7\}
  \,.
 $$
 
@@ -68,12 +66,12 @@ $$
 +-- {: .num_example #ProductOfImaginaryOctonions}
 ###### Example
 
-The product of all the generators with each other, bracketed to the left, is
+The product of all the generators with each other, bracketed to the right, is
 
 $$
-  (((((e_1 e_2) e_3) e_4) e_5) e_6) e_7
+  e_7 (e_6 (e_5 (e_4 (e_3 ( e_2 (e_1 1 ))))))
   \;=\;
-  -1
+  + 1
 $$
 
 =--
@@ -81,23 +79,30 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By iteratively using the multiplication table in def. \ref{ComponentDefinition} we obtain:
+By iteratively using the multiplication table in def. \ref{ComponentDefinition} we compute as follows:
+
 
 $$
   \begin{aligned}
-    & \underset{e_4}{\underbrace{e_1 e_2}} e_3 e_4 e_5 e_6 e_7
-    \\
-    & = \underset{- e_6}{\underbrace{e_4 e_3}} e_4 e_5 e_6 e_7
-    \\
-    & = - \underset{-e_3}{\underbrace{ e_6 e_4 }} e_5 e_6 e_7
-    \\
-    & = + \underset{e_2}{\underbrace{ e_3 e_5 }} e_6 e_7
-    \\
-    & = + \underset{ e_7 }{\underbrace{ e_2 e_6 }} e_7
-    \\
-    & = - e_7 e_7 
-    \\
-    & = - 1
+   & e_7 (e_6 (e_5 (e_4 (e_3 (\underset{-e_4}{\underbrace{e_2 e_1}})))))
+   \\
+   & =
+   - e_7 (e_6 (e_5 (e_4 (\underset{e_6}{\underbrace{e_3 e_4}}))))
+   \\
+   & =
+   - e_7 (e_6 (e_5 (\underset{e_3}{\underbrace{e_4 e_6}})))
+   \\
+   & =
+   - e_7 (e_6 (\underset{-e_2}{\underbrace{e_5 e_3}}))
+   \\
+   & =
+   + e_7 (\underset{-e_7}{\underbrace{e_6 e_2}})
+   \\
+   & =
+   - \underset{= -1}{\underbrace{e_7 e_7}}
+   \\
+   & =
+   + 1
   \end{aligned}
 $$
 
@@ -272,12 +277,12 @@ $$
 ###### Proposition
 **(consecutive left action by imaginary generators is unity)**
 
-The consecutive left multiplication action (Def. \ref{LeftMultiplicationAction}) by all the imaginary octonion generators $e_i$ (Def. \ref{ComponentDefinition}) is $\pm$ the [[identity function]] on the octonions:
+The consecutive left multiplication action (Def. \ref{LeftMultiplicationAction}) by all the imaginary octonion generators $e_i$ (Def. \ref{ComponentDefinition}) is $\pm$ the [[identity function]] on the octonions. Specifically, if one acts in increasing order of the labels in Def. \ref{ComponentDefinition}, then it is +1:
 
 $$
-  L_{e_1} L_{e_2} L_{e_3} L_{e_4} L_{e_5} L_{e_6} L_{e_7}
+  L_{e_7} L_{e_6} L_{e_5} L_{e_4} L_{e_3} L_{e_2} L_{e_1}
   \;=\;
-  \pm Id_{\mathbb{O}}
+  + Id_{\mathbb{O}}
 $$ 
 
 =--
@@ -287,11 +292,22 @@ $$
 
 All the generators $e_i$ are imaginary octonions (Def. \ref{RealAndImaginary}). By Prop. \ref{CliffordActionOfImaginaryOctonions} their left action on $\mathbb{O}$ [[representation|represents]] a [[Clifford algebra]]-action of $Cl(Im(\mathbb{O}), -{\vert-\vert}^2) \simeq Cl_{0,7}$ on $\mathbb{R}^{8} \simeq_{\mathbb{R}} \mathbb{O}$.
 
-By the [classification of real Clifford algebras](Clifford+algebra#ClassificationOverTheRealNumbers), $Cl_{0,7}$ has, up to [[isomorphism]], two different [[irreducible representation|irreducible]] [[modules]]. Their underlying vector space is $\mathbb{R}^8$ in both cases, and so the left action of imaginary octonions we have must be one of the two. The two irreps may be distinguished by the action of the "volume element" $\Gamma_1 \Gamma_2 \cdots \Gamma_7$: On one of the two it acts as the identity, on the other as minus the identity.
+By the [classification of real Clifford algebras](Clifford+algebra#ClassificationOverTheRealNumbers), $Cl_{0,7}$ has, up to [[isomorphism]], two different [[irreducible representation|irreducible]] [[modules]]. Their underlying vector space is $\mathbb{R}^8$ in both cases, and so the left action of imaginary octonions we have must be one of the two. The two irreps may be distinguished by the action of the "volume element" $\Gamma_7 \Gamma_6 \cdots \Gamma_1$: On one of the two it acts as the identity, on the other as minus the identity.
 
-Which of these two cases it is in the present case follows with the computation in Example \ref{ProductOfImaginaryOctonions}. 
+Hence we may check the remaining sign by acting on any one octonion, for instance on the unit $1 \in \mathbb{O}$. Then the claim follows with the computation in Example \ref{ProductOfImaginaryOctonions}:
 
-> (Only that at the moment this is written for opposite and right multiplication, instead of direct left multiplication. Need to harmonize.)
+$$
+  \begin{aligned}
+    L_{e_7} L_{e_6} L_{e_5} L_{e_4} L_{e_3} L_{e_2} L_{e_1} (1)
+    & =
+    e_7 (e_6 (e_5 (e_4 (e_3 ( e_2 (e_1 1 ))))))
+    \\
+    & =
+    + 1
+    \,.
+  \end{aligned}
+$$
+
 
 
 =--
