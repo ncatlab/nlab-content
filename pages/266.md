@@ -388,7 +388,7 @@ $$
   \,.
 $$
 
-In this form one sees that what the coend does is to produce the set whose elements are [[equivalence classes]] of pairs of morphisms
+In this form one sees that the coend produces the set whose elements are [[equivalence classes]] of pairs of morphisms
 
 $$
    (c' \to p(c), c \to F)
