@@ -1824,7 +1824,7 @@ up to [[natural isomorphism]].
 
 =--
 
-In general, the localization $\mathcal{C}[W^{-1}]$ of a [[category with weak equivalences]] $(\mathcal{C},W)$ (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}) may invert _more_ morphisms than just those in $W$. However, if the category admits the structure of a [[model category]] $(\mathcal{C},W,Cof,Fib)$, then its localiztion precisely only inverts the weak equivalences.
+In general, the localization $\mathcal{C}[W^{-1}]$ of a [[category with weak equivalences]] $(\mathcal{C},W)$ (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}) may invert _more_ morphisms than just those in $W$. However, if the category admits the structure of a [[model category]] $(\mathcal{C},W,Cof,Fib)$, then its localization precisely only inverts the weak equivalences.
 
 +-- {: .num_prop #MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen}
 ###### Proposition
@@ -4559,8 +4559,15 @@ The concept of [[homotopy fibers]] of def. \ref{HomotopyFiber} is a special case
 
 +-- {: .num_defn #RightProperModelCategory}
 ###### Definition
+**([[proper model category]])**
 
-A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called a **[[right proper model category]]** if [[pullback]] along fibrations preserves weak equivalences.
+A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called 
+
+* a _[[right proper model category]]_ if [[pullback]] along [[fibrations]] preserves [[weak equivalences]];
+
+* a _[[left proper model category]]_ if [[pushout]] along [[cofibrations]] preserves [[weak equivalences]];
+
+* a _[[proper model category]]_ if it is both left and right proper.
 
 =--
 
@@ -11000,6 +11007,7 @@ The first homotopy group, $\pi_1(X,x)$, is also called the _[[fundamental group]
 
 +-- {: .num_defn #WeakHomotopyEquivalence}
 ###### Definition
+**([[weak homotopy equivalence]] of [[simplicial sets]])**
 
 For $X,Y \in KanCplx \hookrightarrow sSet$ two [[Kan complexes]], then a morphism
 
@@ -11238,6 +11246,7 @@ More generally:
 
 +-- {: .num_defn #KanFibration}
 ###### Definition
+**([[Kan fibration]])**
 
 A morphism $\phi \colon S \longrightarrow T$ in [[sSet]] is called a _[[Kan fibration]]_ if it has the [[right lifting property]] again all [[horn]] inclusions, def. \ref{Horn}, hence if for every [[commuting diagram]] of the form
 
@@ -13242,7 +13251,7 @@ is a bijection for all _Kan complexes_ $K$.
 +-- {: .proof}
 ###### Proof
 
-One direction is easy: if $K$ is a Kan complex, then axiom SM7 for [[simplicial model categories]] implies  the functor $K^{(-)} : sSet^{op} \to sSet$ is a right [[Quillen functor]], so Ken Brown's lemma implies it preserves all weak homotopy equivalences; in particular, $\pi_0 K^{(-)} : sSet^{op} \to Set$ sends weak homotopy equivalences to bijections.
+One direction is easy: if $K$ is a [[Kan complex]], then axiomS FOR [[simplicial model categories]] (Def. \ref{SimplicialModelCategory}) implies  the functor $K^{(-)} : sSet^{op} \to sSet$ is a [[right Quillen functor]], so [[Ken Brown's lemma]] (Prop. \ref{KenBrownLemma})  implies that it preserves all weak homotopy equivalences; in particular, $\pi_0 K^{(-)} : sSet^{op} \to Set$ sends weak homotopy equivalences to bijections.
 
 Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi_0 K^X$ and the hom-set $Ho (sSet) (X, K)$, and thus by the [[Yoneda lemma]], a morphism $f : Z \to W$ such that the induced morphism $\pi_0 K^W \to \pi_0 K^Z$ is a bijection for all Kan complexes $K$ is precisely a morphism that becomes an isomorphism in $Ho (sSet)$, i.e. a weak homotopy equivalence.
 
@@ -13367,18 +13376,13 @@ A _[[combinatorial model category]]_ is a [[model category]] (Def. \ref{ModelCat
 ###### Example
 **([[category of simplicial presheaves]])**
 
-
-Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) and consider the [[functor category]] (Example \ref{FunctorCategory})
+Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} with Example \ref{ExamplesOfCosmoi}) and consider the [[enriched presheaf category]] (Example \ref{EnrichedPresheaf})
 
 $$
   sPSh(\mathcal{C})
   \;\coloneqq\;
   [\mathcal{C}^{op}, sSet]
-  \;\simeq\;
-  [\mathcal{C}^{op} \times \Delta^{op}, Set]
 $$  
-
-from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[sSet]] of [[simplicial sets]] (Def. \ref{sSet}), hence equivalently (by Prop. \ref{SimplicialSetsAsPresheavesOnTheSimplexCategory}) the [[category of presheaves]] (Example \ref{CategoryOfPresheaves}) on the [[product category]] (Example \ref{ProductCategory}) of the [[opposite categories]] of $\mathcal{C}$ and the [[simplex category]] (Def. \ref{SimplexCategory}).
 
 This is called the _[[category of simplicial presheaves]]_ on $\mathcal{C}$.
 
@@ -13388,7 +13392,7 @@ This is called the _[[category of simplicial presheaves]]_ on $\mathcal{C}$.
 ###### Proposition
 **([[model categories of simplicial presheaves]])**
 
-Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}). Then the [[category of simplicial presheaves]] $[\mathcal{C}^{op}, sSet]$ (Example \ref{CategoriesOfSimplicialPresheaves}) carries the following two [[structures]] of a [[model category]] (Def. \ref{ModelCategory})
+Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} with Example \ref{ExamplesOfCosmoi}). Then the [[category of simplicial presheaves]] $[\mathcal{C}^{op}, sSet]$ (Example \ref{CategoriesOfSimplicialPresheaves}) carries the following two [[structures]] of a [[model category]] (Def. \ref{ModelCategory})
 
 1. the _[[projective model structure on simplicial presheaves]]_
 
@@ -13561,7 +13565,7 @@ An [[object]] in [[Ho(CombModCat)]] we also refer to as a _[[locally presentable
 
 =--
 
-In order to get good control over [[left Bousfield localization]] (Def. \ref{BousfieldLocalizationOfModelCategories}) and hence over [[presentable (∞,1)-categories]] (Def. \ref{HoCombModCat}) we need the analog of Prop. \ref{ReflectiveLocalizationGivenByLocalObjects}, saying that [[reflective localiztion]] are reflections onto their [[full subcategories]] of [[local objects]]. For this, in turn, we need a good handle on the [[(infinity,1)-categorical hom-space|hom-infinity-groupoids]]:
+In order to get good control over [[left Bousfield localization]] (Def. \ref{BousfieldLocalizationOfModelCategories}) and hence over [[presentable (∞,1)-categories]] (Def. \ref{HoCombModCat}) we need the analog of Prop. \ref{ReflectiveLocalizationGivenByLocalObjects}, saying that [[reflective localization]] are reflections onto their [[full subcategories]] of [[local objects]]. For this, in turn, we need a good handle on the [[(infinity,1)-categorical hom-space|hom-infinity-groupoids]]:
 
 +-- {: .num_defn #SimplicialModelCategory}
 ###### Definition
@@ -13575,7 +13579,7 @@ An _[[classical model structure on simplicial sets|sSet]]${}_{Quillen}$-[[enrich
 
 such that these two structures are compatible in the following way:
 
-* for every [[cofibration]] $X \to Y$ and every [[fibration]] $A \to B$ in $\mathcal{C}$, the induced [[pullback powering]]-morphism
+* for every [[cofibration]] $X \to Y$ and every [[fibration]] $A \to B$ in $\mathcal{C}$, the induced [[pullback powering]]-morphism of [[hom-objects|hom]]-[[simplicial sets]]
 
   $$
     \mathcal{C}(Y,A)
@@ -13585,9 +13589,24 @@ such that these two structures are compatible in the following way:
      \mathcal{C}(Y,B)
   $$
 
-  is a [[Kan fibration]], and is a [[weak homotopy equivalence]] as soon as one of the two morphisms is a [[weak equivalence]] in $\mathcal{C}$.
+  is a [[Kan fibration]] (Def. \ref{KanFibration}), and is a [[weak homotopy equivalence]] (Def. \ref{WeakHomotopyEquivalence}) as soon as one of the two morphisms is a [[weak equivalence]] in $\mathcal{C}$.
 
 =--
+
++-- {: .num_example #SimplicialPresheavesIsProperCombinatorialSimplicial}
+###### Example
+**([[model structure on simplicial presheaves]] is [[left proper model category|left proper]] [[combinatorial model category|combinatorial]] [[simplicial model category]])**
+
+Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} with Example \ref{ExamplesOfCosmoi}). Then the injective and projective [[model structure on simplicial presheaves]] over $\mathcal{C}$ (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}) are
+
+1. [[proper model categories]] (Def. \ref{RightProperModelCategory}),
+
+1. [[simplicial model categories]] (Def. \ref{SimplicialModelCategory}),
+
+1. [[combinatorial model categories]] (Def. \ref{CombinatorialModelCategory}).
+
+=--
+
 
 (...)
 
@@ -13599,7 +13618,7 @@ The characterization of [[sheaf toposes are equivalently the left exact reflecti
 
 $\,$
 
-+-- {: .num_prop #ModelTopos}
++-- {: .num_defn #ModelTopos}
 ###### Definition
 **([[model topos]] and [[(∞,1)-topos]])**
 
