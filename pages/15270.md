@@ -23,9 +23,17 @@ A long list of mathematical structures happens to have a classification that is 
 
 * [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ and of the [[special unitary group]] $SU(2)$ (see at [[classification of finite rotation groups]]) ([Milnor 57](#Milnor57), see e.g. [Keenan 03, theorem 4](#Keenan03))
 
+* 7d [[spherical space forms]] with [[spin structure]] carrying $N \geq 4$ [[Killing vectors]] (see at [spherical space form -- 7d with spin structure](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)) 
+
+  equivalently: [[near horizon geometries]] of smooth (i.e. non-[[orbifold]]) $\geq \tfrac{1}{2}$ [[BPS state|BPS]] [[black brane|black]] [[M2-brane]]-solutions of the [[equations of motion]] of [[11-dimensional supergravity]]
+
+  This is due to [MFFGME 09](#MFFGME09).
+
+* [[du Val singularities]] (see [[ADE singularity]])
+
+
 * [[quiver representations]]
 
-* [[simple singularities]] (see [[ADE singularity]])
 
 * [[singularities]] of [[elliptic fibrations]] (see there are _[classification of singular fibers](elliptic+fibration#ClassificationOfSingularFibers)_)
 
@@ -37,15 +45,13 @@ A long list of mathematical structures happens to have a classification that is 
 
 * intersection diagrams of vanishing 2-cycles in [[K3]]s (e.g. [BBS 07, p.423](#BBS07))
 
-* [[finite group|finite]] [[subgroups]] of $SO(8)$ [[free action|acting freely]] on the [[7-sphere]], such that the [[quotient]] has [[spin structure]] and more than 3 linearly independent [[Killing spinors]] ([MFFGME 09](#MFFGME09))
-
 and many more. 
 
 [[!include ADE -- table]]
 
 The obvious question for what might be the conceptual origin of this joint classification is attributed to ([Arnold 76](#Arnold76)). 
 
-Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many of these structures are naturally aspects of the description of [[string theory]] [[KK-compactification|KK-compactified]] on _[[orbifolds]] with [[ADE singularities]]_ of the form $\mathbb{C}^n //\Gamma$ for $\Gamma$ a [[finite group|finite]] [[subgroup]] of $SL_2(\mathbb{C})$.
+Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many of these structures are naturally aspects of the description of [[string theory]] [[KK-compactification|KK-compactified]] on _[[orbifolds]] with [[ADE singularities]]_ of the form $\mathbb{C}^n \sslash \Gamma$ for $\Gamma$ a [[finite group|finite]] [[subgroup]] of $SL_2(\mathbb{C})$.
 
 ## Via $N=2 $ super Yang-Mills theory
  {#ViaSuperYangMillsTheory}
