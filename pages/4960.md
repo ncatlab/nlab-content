@@ -193,59 +193,393 @@ the
 
 =--
 
-### The transformation from points to pieces
+### Pieces-have-points and discrete-objects-are-concrete
  {#CanonicalComparison}
 
-Notice the existence of the following canonical [[natural transformations]] induced from the structure of a cohesive topos (a special case of the construction at _[[unity of opposites]]_).
 
-+-- {: .num_defn #TransformationFromPointsToPieces}
-###### Definition
++-- {: .num_prop #PointsToPiecesTransform}
+###### Proposition
+**([[points-to-pieces transform]])**
 
-Given a cohesive topos $\mathcal{E}$ with ($&#643; \dashv \flat$) its ([[shape modality]] $\dashv$ [[flat modality]])-[[adjunction]] of def. \ref{AdjointTriple}, then the [[natural transformation]]
+Consider an [[adjoint quadruple]] of the form 
 
 $$
-  \flat X \longrightarrow X \longrightarrow &#643; X 
+  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AA} \Pi \phantom{AA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  \mathbf{B}
 $$
 
-(given by the [[composition]] of the $\flat$-[[counit of a comonad|counit]] followed by the $&#643;$-[[unit of a monad|unit]]) may be called the transformation **from points to their pieces** or the **[[points-to-pieces transformation]]**, for short.
+(for instance a [[cohesive topos]] over some [[base topos]] $\mathbf{B}$).
+
+Then for all $X \in \mathbf{X}$ the following two [[natural transformations]], constructed from the [[adjunction units]]/[[adjunction counit|counits]] and their [[inverse morphisms]] (using [[idempotent monad|idempotency]]), are equal:
+
+\[
+  \label{PointsToPiecesInTheBase}
+  ptp_{\mathbf{B}}
+  \;\;\coloneqq\;\;
+  \left(
+    \Pi \epsilon^\flat_X
+  \right)
+  \circ
+  \left(
+    \eta^{&#643;}_{\Gamma X}
+  \right)^{-1}
+  \;\;=\;\;
+  \left(
+    \eta^\flat_{\Pi X}
+  \right)^{-1}
+  \circ
+  \left(
+    \Gamma \eta^{&#643;}_X
+  \right)
+  \phantom{AAAAAAA}
+  \array{
+    \Gamma X 
+    & \overset{
+       \Gamma \eta^{&#643;}_X
+   }{\longrightarrow} & 
+   \Gamma Disc \Pi X
+   \\
+   {}^{ \mathllap{
+      \left(
+       \eta^{&#643;}_{\Gamma X}
+     \right)^{-1}    
+   } }\big\downarrow 
+     & \searrow^{ \mathrlap{ ptp_{\mathbf{B}} }  } & 
+   \big\downarrow^{ \mathrlap{  
+     \left(
+       \eta^\flat_{\Pi X}
+     \right)^{-1}
+   } }
+   \\ 
+   \Pi Disc \Gamma X
+   &\underset{ 
+    \Pi \epsilon^\flat_X
+    }{\longrightarrow}&
+   \Pi X
+  }
+\]
+
+Moreover, the image of these morphisms under $Disc$ equals the following composite:
+
+\[
+  \label{PointsToPieces}
+  ptp_{\mathbf{H}}
+  \;\colon\;
+  \flat X 
+    \overset{ \phantom{A} \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
+  X
+    \overset{ \phantom{A} \eta^{&#643;}_X \phantom{A} }{\longrightarrow}
+  &#643; X
+  \,,
+\]
+
+hence
+
+\[
+  \label{PiecesToPointsFromBase}
+  ptp_{\mathbf{H}} \;=\; Disc(ptp_{\mathbf{B}})
+  \,.
+\]
+
+Either of these morphisms we call the _[[points-to-pieces transform]]_.
 
 =--
 
-+-- {: .num_remark }
-###### Remark
++-- {: .proof}
+###### Proof
 
-The $(f^\ast \dashv f_\ast)$-[[adjunct]] of the transformation from pieces to points, def. \ref{TransformationFromPointsToPieces},
+The first statement is ([Johnstone, lemma 2.1](#Johnstone)).
 
-$$
-  \flat X \longrightarrow X \longrightarrow &#643; X
-$$
-
-is (by the rule of forming right [[adjuncts]] by first applying the [[right adjoint]] functor and then precomposing with the [[unit of an adjunction|unit]] and by the fact that the [[adjunct]] of a [[unit of an adjunction|unit]] is the [[identity]]) the map
+For the second statement, notice that the $(Disc \dashv \Gamma)$-[[adjunct]] of
 
 $$
-  (f_\ast X \longrightarrow f_! X)
-  \coloneqq
-  \left(
-  f_\ast X \longrightarrow f_\ast f^\ast f_! X \stackrel{\simeq}{\longrightarrow} f_!X
-  \right)
+  ptp_{\mathbf{H}}
+  \;\colon\;
+  Disc \Gamma X 
+    \overset{ \phantom{A} \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
+  X
+    \overset{ \phantom{A} \eta^{&#643;}_X \phantom{A} }{\longrightarrow}
+  Disc \Pi X
+$$
+
+is
+
+\[
+  \label{AdjunctOfptpH}
+  \widetilde{ ptp_{\mathbf{H}} }
+  \;\;=\;\;
+  \underset{
+    = id_{\Gamma X}
+  }{
+  \underbrace{
+    \Gamma X
+      \underoverset{iso}{ \phantom{A} \eta^{\flat}_{\Gamma X} \phantom{A} }{ \longrightarrow }
+    \Gamma Disc \Gamma X 
+      \underoverset{iso}{ \phantom{A} \Gamma \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
+    \Gamma X
+  }}
+      \overset{ \phantom{A} \Gamma \eta^{&#643;}_X \phantom{A}  }{\longrightarrow}
+    \Gamma Disc \Pi X
+  \,,
+\]
+
+where under the braces we uses the [[zig-zag identity]]. 
+
+(As a side remark, for later usage, we observe that the morphisms on the left in (eq:AdjunctOfptpH) are [[isomorphisms]], as shown, by [[idempotent monad|idempotency]] of the adjunctions.)  
+
+From this we obtain the following [[commuting diagram]]:
+
+$$
+  \array{
+    Disc \Gamma X
+      &\overset{ \phantom{A} Disc \Gamma \eta^{&#643;}_X \phantom{A} }{\longrightarrow}&
+    Disc \Gamma Disc \Pi X
+      &\underoverset{iso}{ \phantom{A} Disc \left(\eta^{ \flat }_{\Pi X}\right)^{-1} \phantom{A} }{ \longrightarrow }&
+    Disc \Pi X
+    \\
+    &{}_{\mathllap{ ptp_{\mathbf{H}} }}\searrow&
+    {}^{ \mathllap{ \epsilon^{\flat}_{Disc \Pi X} } }
+    \big\downarrow^{\mathrlap{\simeq}}
+     & 
+    \nearrow_{\mathrlap{id_{\Pi X}}}
+    \\
+    && Disc \Pi X
+  }
+$$
+
+Here:
+
+1. on the left we identified $\widetilde {\widetilde {ptp_{\mathbf{H}}}} \;=\;  ptp_{\mathbf{\mathbf{H}}}$ by applying the formula for $(Disc \dashv \Gamma)$-[[adjuncts]] to $\widetilde {ptp_{\mathbf{H}}} = \Gamma \eta^{&#643;}_X$ (eq:AdjunctOfptpH);
+
+1. on the right we used the [[zig-zag identity]] for $(Disc \dashv \Gamma)$.
+
+This proves the second statement.
+
+=--
+
+
++-- {: .num_lemma #ReExpressingMiddleFunctorInAdjointTriple}
+###### Lemma
+
+Consider an [[adjoint triple]]
+
+$$
+  Disc \dashv \Gamma \dashv coDisc
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
+    }
+  \mathbf{B}
+$$
+
+Then application of the [[functor]] $\Gamma$ on any [[morphism]] $\mathbf{X} \overset{f}{\to} \mathbf{Y} \;\;\in \mathbf{H}$ is equal to the operations of
+
+1. [[composition|pre-composition]] with the $(Disc \dashv \Gamma)$-[[adjunction counit]] $\epsilon^\flat_{\mathbf{X}}$, followed by passing to the  $(Disc \dashv \Gamma)$-[[adjunct]];
+
+1. [[composition|post-composition]] with the $(\Gamma \dashv coDisc)$-[[adjunction unit]] $\eta^{ \sharp }_{\mathbf{Y}}$, followed by passing to the $(\Gamma \dashv coDisc)$-[[adjunct]]:
+
+\[
+  \label{PostcompositionWithEtaAsGamma}
+  \Gamma_{\mathbf{X}, \mathbf{Y}} \;=\;  \widetilde{\eta^\sharp_{\mathbf{Y}} \circ (-)}
+  \;=\;
+  \widetilde{ (-) \circ \epsilon^\flat_{\mathbf{X}} }
+  \,.
+\]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first equality, consider the following [[naturality square]] for the adjunction hom-isomorphism ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)):
+
+$$
+  \array{
+    Hom_{\mathbf{B}}( \Gamma \mathbf{Y} , \Gamma \mathbf{Y} )
+    &\overset{\widetilde {(-)}}{\longrightarrow}&
+    Hom_{\mathbf{H}}( \mathbf{Y}, coDisc \Gamma \mathbf{Y} )
+    \\
+    {}^{\mathllap{ Hom_{\mathbf{B}}(\Gamma(f), \Gamma \mathbf{Y}) }}
+    \big\downarrow
+    &&
+    \!\!\!\!\!
+    \big\downarrow^{\mathrlap{ Hom_{\mathbf{H}}( f, coDisc \Gamma \mathbf{Y} ) }}
+    \\
+    Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma \mathbf{Y} )
+    &\overset{\widetilde{ (-) }}{\longleftarrow}&
+    Hom_{\mathbf{H}}( \mathbf{X}, coDisc \Gamma \mathbf{Y} )
+  }
+  \phantom{AAAAA}
+  \array{
+    \{ \Gamma \mathbf{Y} \overset{id_{\Gamma \mathbf{Y}}}{\to} \Gamma \mathbf{Y}\}
+    &\longrightarrow&
+    \{ \mathbf{Y} \overset{\eta^\sharp_{\mathbf{Y}}}{\to} coDisc \Gamma \mathbf{Y} \}
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    \{ \Gamma \mathbf{X} \overset{\Gamma(f)}{\to} \Gamma \mathbf{Y} \}
+    &\longleftarrow&
+    \{ \mathbf{X} \overset{\eta^\sharp_{\mathbf{Y}} \circ f}{\longrightarrow} coDisc \Gamma \mathbf{Y} \}    
+  }
+$$
+
+Chasing the [[identity morphism]] $id_{\Gamma \mathbf{Y}}$ through this diagram, yields the claimed equality, as shown on the right. Here we use that the right [[adjunct]] of the [[identity morphism]] is the [[adjunction unit]], as shown.
+
+The second equality is [[formal duality|fomally dual]]:
+
+$$
+  \array{
+    Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma \mathbf{X})
+    &\overset{\widetilde { (-) }}{\longrightarrow}&
+    Hom_{\mathbf{H}}( Disc \Gamma \mathbf{X}  , \mathbf{X})
+    \\
+    {}^{\mathllap{ Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma(f) )  }}
+    \big\downarrow
+    &&
+    \big\downarrow^{ \mathrlap{ Hom_{\mathbf{X}}( Disc \Gamma \mathbf{X}, f ) 
+} }
+    \\
+    Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma \mathbf{Y} )
+    &\overset{ \widetilde{ (-) } }{\longleftarrow}&
+    Hom_{\mathbf{H}}( Disc \Gamma \mathbf{X}, \mathbf{Y} )
+  }
+  \phantom{AAAAA}
+  \array{
+     \{ \Gamma \mathbf{X} \overset{id_{\Gamma \mathbf{X}}}{\to} \Gamma \mathbf{X} \}
+     &\longrightarrow&
+     \{ Disc \Gamma \mathbf{X} \overset{\epsilon^{\flat}_X}{\to} \mathbf{X} \}
+     \\
+     \big\downarrow 
+       &&
+     \big\downarrow
+     \\
+     \{ \Gamma \mathbf{X} \overset{\Gamma(f)}{\to} \Gamma(\mathbf{Y}) \}
+     &\longleftarrow& \{ Disc \Gamma \mathbf{X} \overset{f\circ \epsilon^\flat_{\mathbf{X}}  }{\longrightarrow} \mathbf{Y}\}
+  }
+$$
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**([[pieces have points]] $\simeq$ [[discrete objects are concrete]])**
+
+Consider an [[adjoint quadruple]] of the form 
+
+$$
+  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AA} \Pi \phantom{AA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  \mathbf{B}
+$$
+
+(for instance a [[cohesive topos]] over some [[base topos]] $\mathbf{B}$).
+
+Then the following are equivalent:
+
+1. [[pieces have points]]: 
+
+   1. as seen in $\mathbf{B}$: For every [[object]] $X \in \mathbf{X}$ the [[points-to-pieces transform]] (Prop. \ref{PointsToPiecesTransform}) in $\mathbf{B}$ (eq:PointsToPiecesInTheBase) is an [[epimorphism]]:
+
+   $$
+     ptp_{\mathbf{B}}
+     \;\colon\;
+     \Gamma X \overset{ epi }{\longrightarrow} \Pi X
+   $$
+
+   1. equivalently, as seen in $\mathbf{H}$: For every [[object]] $X \in \mathbf{X}$ the [[points-to-pieces transform]] (Prop. \ref{PointsToPiecesTransform}) in $\mathbf{H}$ (eq:PointsToPieces) is an [[epimorphism]]:
+
+   $$
+     ptp_{\mathbf{H}}
+     \;\colon\;
+     \flat X \overset{ epi }{\longrightarrow} &#643; X
+   $$
+
+1. [[discrete objects are concrete]]: For every [[object]] $S \in \mathbf{B}$ the [[discrete object]] $Disc(S)$ is a [[concrete object]], in that the [[sharp modality|sharp]] [[adjunction counit]] on $Disc(S)$ is a [[monomorphism]]:
+
+   $$
+     \eta^\sharp_{Disc(S)}
+     \;\colon\;
+     Disc S
+       \overset{ mono }{\longrightarrow}
+     \sharp Disc S
+   $$
+   
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe the equivalence of the first two statements:
+
+$$
+  ptp_{\mathbf{H}} \;\; \text{is epi}
+  \phantom{AAA}
+  \text{iff}
+  \phantom{AAA}
+  ptp_{\mathbf{B}} \;\; \text{is epi}
   \,.
 $$
 
-Observe that going backwards by applying $f^\ast$ to this and postcomposing with the $(f^\ast \dashv f_\ast)$-[[counit of an adjunction|counit]] is equivalent to just applying $f^\ast$, since by [[idempotent monad|idempotency]] of $\flat$ the counit is an [[isomorphism]] on the [[discrete object]] $f^\ast f_! X$. Therefore the points-to-pieces transformation and its adjunct are related by
+In one direction, assume that $ptp_{\mathbf{B}}$ is an epimorphism. By (eq:PiecesToPointsFromBase) we have $ptp_{\mathbf{H}} = Disc(ptp_{\mathbf{B}})$, but $Disc$ is a [[left adjoint]] and left adjoints preserve monomorphisms.
+
+In the other direction, assume that $ptp_{\mathbf{H}}$ is an epimorphism. By (eq:PointsToPiecesInTheBase) and (eq:AdjunctOfptpH) we see that $ptp_{\mathbf{B}}$ is re-obtained from this by applying $\Gamma$ and then composition with isomorphisms. But $\Gamma$ is again a left adjoint, and hence preserves epimorphism, as does composition with isomorphisms.
+
+By applying (eq:PointsToPiecesInTheBase) again, we find in particular that _[[pieces have points]]_ is also equivalent to $\Pi \epsilon^\flat_{Disc S}$ being an epimorphism, for all $S \in \mathbf{B}$. But this is equivalent to
 
 $$
-  \left(
-    \flat X \longrightarrow X \longrightarrow &#643; X
-  \right)
-  = 
-  f^\ast \left(
-    f_\ast X \longrightarrow f_! X
-  \right).
+  Hom_{\mathbf{B}}(\Pi \epsilon^\flat_{\mathbf{X}}, S)
+  =
+  Hom_{\mathbf{\mathbf{H}}}(\epsilon^\flat_{\mathbf{X}}, Disc(S))  
 $$
 
-Observe then finally that since $f^\ast$ is a [[full and faithful functor|full and faithful]] [[left adjoint|left]] and [[right adjoint]], the points-to-pieces transform is an [[epimorphism]]/[[isomorphism]]/[[monomorphism]] precisely if its [[adjunct]] $f_\ast X \longrightarrow f_! X$ is, respectively.
+being a [[monomorphism]] for all $S$ (by adjunction isomorphism and definition of [[epimorphism]]).
+
+Now by Lemma \ref{ReExpressingMiddleFunctorInAdjointTriple}, this is equivalent to
+
+$$
+  Hom_{\mathbf{H}}( \mathbf{X}, \eta^\sharp_{Disc(S)} )
+$$
+
+being a monomorphism, which is equivalent to $\eta^\sharp_{Disc(S)}$ being a monomorphism, hence to _[[discrete objects are concrete]]_.
+
 
 =--
+
+
+
+
+$\,$
+
+$\,$
 
 
 Below in [Further axioms](#FurtherAxioms) we discuss further axioms that one may want to impose on the points-to-pieces transform.
@@ -2036,15 +2370,16 @@ And further relations of cohesion to [[Birkhoff's theorem]] in [[universal algeb
 
 A good deal of the structure of cohesive toposes is also considered in 
 
-* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
- {#KontsevichRosenbergSpaces}
+* {#KontsevichRosenbergSpaces} [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+ 
 
 under the name _[[Q-categories]]_ .
 
 The [[internal logic]] of [[local toposes]] is discussed in 
 
-* [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ , Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
-  {#AwodeyBirkedal}
+* {#AwodeyBirkedal} [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ , Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
+  
+
 
 
 [[!redirects cohesive topos]]
