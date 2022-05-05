@@ -138,6 +138,7 @@ $$
 
 * The category of [[modules]] over any [[Hopf monoid]] in a closed monoidal category, or more generally algebras for any [[Hopf monad]], is again a closed monoidal category.  In particular, the category of modules over any [[group object]] in a [[cartesian closed category]] is (cartesian) closed monoidal. For more on this phenomenon see at _[[Tannaka duality]]_.
 
+* The category of [[locally convex topological vector spaces]] with the [[inductive tensor product]] and internal hom the space of continuous linear maps with the topology of pointwise convergence is symmetric closed monoidal.
 
 ### Functor categories
 
