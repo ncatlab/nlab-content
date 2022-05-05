@@ -341,6 +341,7 @@ Here the [[axioms]] for [[preordered sets]] and for [[categories]] match as foll
 |----|-----|------|
 | $\phantom{A}$[[partially ordered sets]]$\phantom{A}$ | $\phantom{A}$ $x \leq x$ $\phantom{A}$ | $\phantom{A}$ $(x \leq y \leq z) \Rightarrow (x \leq z)$ $\phantom{A}$ |
 | $\phantom{A}$[[thin categories]]$\phantom{A}$ | $\phantom{A}$[[identity morphisms]]$\phantom{A}$ | $\phantom{A}$[[composition]]$\phantom{A}$ |
+{: style='margin:auto}
 
 =--
 
@@ -1661,6 +1662,99 @@ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, one s
 
 =--
 
+
++-- {: .num_example #FloorAndCeilingAsAdjointFunctors}
+###### Example
+**([[floor]] and [[ceiling]] as [[adjoint functors]])**
+
+Consider the canonical inclusion
+
+$$
+  \mathbb{Z}_{\leq} 
+    \overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow} 
+  \mathbb{R}_{\leq}
+$$
+
+of the [[integers]] into the [[real numbers]], both regarded as [[preorders]] in the standard way ("lower or equal"). Regarded as [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) of the corresponding [[thin categories]], via Example \ref{PartiallyOrderedSetsAsSmallCategories}, this inclusion functor has both a left and right [[adjoint functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets]):
+
+* the [[left adjoint]] to $\iota$ is the [[ceiling function]];
+
+* the [[right adjoint]] to $\iota$ is the [[floor function]];
+
+\[
+  \label{AdjointTriple}
+  \lceil(-)\rceil \;\;\dashv\;\; \iota \;\;\dashv\;\; \lfloor (-) \rfloor
+  \,.
+\]
+
+The [[adjunction unit]] and [[adjunction counit]] express that each real number is in between its floor and ceiling
+
+$$
+  \iota \lfloor x \rfloor \;\overset{\epsilon_X}{\leq}\; x \;\overset{\eta_x}{\leq}\; \iota \lceil x \rceil
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, observe that we indeed have [[functors]] (Def. \ref{Functors})
+
+$$
+  \lfloor(-)\rfloor \;,\;
+  \lceil(-)\rceil
+  \;\;\colon\;
+  \mathbb{R}
+    \longrightarrow
+  \mathbb{Z}
+$$
+
+since floor and ceiling preserve the ordering relation.
+
+Now in view of the identification of [[preorders]] with [[thin categories]] in Example \ref{PartiallyOrderedSetsAsSmallCategories}, the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) defining [[adjoint functors]] of the form $\iota \dashv \lfloor(-)\rfloor$ says for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, that we have
+
+$$
+  \underset{ \in \mathbb{Z}}{\underbrace{n \leq \lfloor x \rfloor}}
+  \;\Leftrightarrow\;
+  \underset{ \in \mathbb{R}}{\underbrace{n \leq x }}
+  \,.
+$$
+
+This is clearly already the defining condition on the [[floor]] function $\lfloor x \rfloor$. 
+
+Similarly, the  hom-isomorphism defining [[adjoint functors]] of the form $\lceil(-)\rceil \dashv \iota$ says that for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, we have
+
+$$
+  \underset{ \in \mathbb{Z}}{\underbrace{\lceil x \rceil \leq n}}
+  \;\Leftrightarrow\;
+  \underset{ \in \mathbb{R}}{\underbrace{x \leq n }}
+  \,.
+$$
+
+This is evidently already the defining condition on the [[floor]] function $\lfloor x \rfloor$. 
+
+
+Notice that in both cases the condition of a _[[natural isomorphism]]_ in both variables, as required for an [[adjunction]], is automatically satisfied: For let $x \leq x'$ and $n' \leq n$, then naturality as in (eq:NaturalitySquareForAdjointnessOfFunctors) means, again in view of the identifications in Example \ref{PartiallyOrderedSetsAsSmallCategories}, that
+
+$$
+  \array{ 
+    (n \leq \lfloor x \rfloor) &\Leftrightarrow& (n \leq x)
+    \\
+    \Downarrow && \Downarrow
+    \\
+    (n' \leq \lfloor x' \rfloor) &\Leftrightarrow& (n' \leq x')
+    \\
+    \\
+    \in \mathbb{Z} && \in \mathbb{R}
+  }
+$$ 
+
+Here the logical implications are equivalently functions between [[sets]] that are either [[empty set|empty]] or [[singletons]]. But Functions between such sets are unique, when they exist.
+
+=--
+
+
+
 +-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
 ###### Proposition
 **(general [[adjuncts]] in terms of [[adjunction unit|unit/counit]])**
@@ -2947,6 +3041,42 @@ For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), w
 1. a _$\Box$-[[comodal object|supcomodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that 
 
    * its $\Box$-counit is an [[epimorphism]] (Def. \ref{Monomorphism}): $\epsilon_X \;\colon\; \Box X \overset{epi}{\longrightarrow} X$.
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider the [[adjoint triple]] of inclusion of the [[integers]] into the [[real numbers]] with [[floor]] and [[ceiling]] function, from Example \ref{FloorAndCeilingAsAdjointFunctors}:
+
+
+$$
+  \lceil(-)\rceil \;\;\dashv\;\; \iota \;\;\dashv\;\; \lfloor (-) \rfloor
+  \,.
+$$
+
+By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} this defines a [[modality]]
+
+$$
+  \iota \lceil(-)\rceil \;\colon\; \mathbb{R}_{\leq} \to \mathbb{R}_{\leq}
+$$
+
+and a [[comodality]]
+
+$$
+  \iota \lfloor(-)\rfloor \;\colon\; \mathbb{R}_{\leq} \to \mathbb{R}_{\leq}
+  \,.
+$$
+
+The ([[comodal object|co-]])[[modal objects]] in both cases are the [[integers]] among the [[real  numbers]], while every real number is ceiling-submodal and floor-supmodal 
+
+$$
+  \iota \lfloor x \rfloor \;\overset{\epsilon_X}{\leq}\; x \;\overset{\eta_x}{\leq}\; \iota \lceil x \rceil
+$$
+
+
+
 
 
 =--
