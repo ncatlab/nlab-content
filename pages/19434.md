@@ -20,7 +20,7 @@ The concept of a **Yoneda structure** provides in a general 2-categorical settin
 
 ## Preliminaries
 
-The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "amissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the "admissible" 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
+The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "amissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the admissible 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
 
 In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained as object in a larger [[Grothendieck universe]] $U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, one can show ([Freyd-Street 1995](FS95)) that _a category_ $\mathcal{C}\in CAT$ _is small_ i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ _are locally small_.
 
@@ -233,7 +233,7 @@ exhibits $e_{{y_B}i}\circ e_j$ as the left extension of $y_A$ along $j\circ i$.
 The pair $(\mathbb{A},\mathcal{P})$ is called a **Yoneda structure** on the 2-category $\mathcal{K}$.
 =--
 
-We desisted from tracking the prefix 'proto' through the foregoing but it should clear that a _proto-Yoneda structure_ results from replacing 'admissible' by 'proto-admissible' throughout the definition. Indeed, in (YS3) the assumption that $i\in\mathbb{A}$ was made in proviso for the case of proto-admissible 1-cells (cf. [Walker 2017](#Walker17)) since in presence of the right ideal property this follows from the admissibility of $id_B$.
+We desisted from tracking the prefix 'proto' through the foregoing but it should clear that a _proto-Yoneda structure_ results from replacing 'admissible' by 'proto-admissible' throughout the definition. Indeed, in (YS3) the assumption that $i\in\mathbb{A}$ was made in proviso for the case of proto-admissible 1-cells (cf. [Walker 2017](#Walker17)) since in presence of the right ideal property this already follows from the admissibility of $id_B$.
 
 In cases where we need to keep track of from which (proto-)Yoneda structure the various structural 1- and 2-cells come from we will use the presheaf construction as a superscript for disambiguation: for (proto-)Yoneda structure $(\mathbb{A},\mathcal{P})$ we write $y_A^\mathcal{P}$ and $\chi_f^{\mathcal{P}}$ etc.
 
@@ -295,7 +295,7 @@ Clearly, with $(P,y)$ the presheaf construction of a Yoneda structure comes into
 
 But before we do this we will introduce the concept that corresponds to the familiar notion of a pseudoalgebra for a lax-idempotent 2-monad thereby hopefully making it plausible that $(P,y)$ indeed is equivalent to the usual algebraic concept.
 
-The main idea of the following definition is that the "pseudoalgebras" $X\in|\mathcal{K}|$ mimic the extension properties of the $P(A)$, in particular, all $P(A)$ satisfy the condition trvivially and should be thought of as free algebras.
+The main idea of the following definition is that the "pseudoalgebras" $X\in|\mathcal{K}|$ mimic the extension properties of the $P(A)$, in particular, all $P(A)$ satisfy the condition trivially and should be thought of as free algebras.
 
 +-- {: .num_defn #P-complete}
 ###### Definition
