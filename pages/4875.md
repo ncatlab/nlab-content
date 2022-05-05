@@ -36,7 +36,7 @@ $$
   \,,
 $$
 
-hence it is is an [[anti-reduced object]].
+hence it is an [[anti-reduced object]].
 
 ### In the standard type of model
 
