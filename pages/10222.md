@@ -119,6 +119,8 @@ Dually, viewing partitions as surjections from $S$, the lattice structure may be
 
 * {#Birkhoff} [[Garrett Birkhoff]], _Lattice Theory_, AMS, third edition, 1973.
 
+* [[Marcelo Aguiar]] and [[Swapneel Mahajan]]. [[Monoidal Functors, Species and Hopf Algebras]], 2010.
+
 [[!redirects partition]]
 [[!redirects partitions]]
 
