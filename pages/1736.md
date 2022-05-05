@@ -172,6 +172,34 @@ Since [[equivalence of categories|equivalences of categories]] enjoy the [[categ
 
 [[sSet]]-[[enriched functor|enriched]] Quillen equivalences between [[combinatorial model categories]] present equivalences between the corresponding [[locally presentable (infinity,1)-categories]]. And every equivalence between these is presented by a Zig-Zag of Quillen equivalences. See there for more details.
 
+## Examples
+
+
++-- {: .num_example #TrivialQuillenEquivalence}
+###### Example
+**(trivial [[Quillen equivalence]])**
+
+Let $\mathcal{C}$ be a [[model category]]. Then the [[identity functor]] on $\mathcal{C}$ constitutes a [[Quillen equivalence]] from $\mathcal{C}$ to itself:
+
+$$
+  \mathcal{C}  
+    \underoverset
+      {\underset{id}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu}}
+  \mathcal{C}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+From [this prop.](geometry+of+physics+--+categories+and+toposes#ComputationOfLeftRightDerivedFunctorsViaResolutions) it is clear that in this case the [[derived functors]] $\mathbb{L}id$ and $\mathbb{R}id$ both are themselves the [[identity functor]] on the [[homotopy category of a model category]], hence in particular are an [[equivalence of categories]].
+
+=--
+
+
 
 ## Related concepts
 
