@@ -237,6 +237,8 @@ is a monomorphism. This is precisely the condition on a sheaf to be a diffeologi
 
 =--
 
+For a fully detailed proof see [this Prop.](geometry+of+physics+--+smooth+sets#DiffeologicalSpacesAreTheConcreteSmoothSets) at _[[geometry of physics -- smooth sets]]_.
+
 
 +-- {: .num_cor}
 ###### Corollary
