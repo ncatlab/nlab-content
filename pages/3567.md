@@ -52,12 +52,17 @@ By the [[homotopy hypothesis]]-theorem $Ho(CW)$ is equivalent for instance to th
 The category $Ho(Top)_{he}$ can be studied by testing its objects with objects from $Ho(CW)$. This is the topic of [[shape theory]].
 
 ## Related concepts
+ {#RelatedConcepts}
+
+* [[hypothèse inspiratrice]]
 
 * [[Ho(sSet)]]
 
 * [[Ho(∞Grpd)]]
 
 * [[stable homotopy category]]
+
+
 
 category: category
 
