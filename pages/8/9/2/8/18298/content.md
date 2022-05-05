@@ -198,6 +198,8 @@ according to def. \ref{TopologicalVectorBundle}. This category usually denoted [
 
 We write $Vect(X)_{/\sim}$ for the [[set]] of [[isomorphism classes]] of this category.
 
+Constructions in $Vect(X)$ can be acheived by means of [[smooth functors]], which represent the constructions on vector spaces that can be applied fiberwise to vector bundles.
+
 =--
 
 
