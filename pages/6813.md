@@ -53,6 +53,8 @@ This duality of the brane picture is at the heart of the [[AdS/CFT correspondenc
 
 * [[black fivebrane]]
 
+* [[string triple junction]]
+
 * [[membrane triple junction]]
 
 ## Related concepts
