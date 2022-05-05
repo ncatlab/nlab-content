@@ -337,7 +337,7 @@ The most obvious definition for a [[locale]] $X$ to be **Hausdorff** is that its
 
 ### Separated toposes and schemes
 
-This notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also includes notions such as a _[[separated scheme]]_ etc.  The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
+This notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also is formally similar to notions such as a _[[separated scheme]]_ etc.  The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
 
 
 ## In constructive mathematics
