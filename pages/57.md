@@ -688,7 +688,7 @@ For general [[∞-Lie algebroids]] the general idea of the integration process b
 
 Lie integration of [[dg-modules]] to [[smooth spectrum|smooth]] [[parameterized spectra]] ([[twisted cohomology|twisted]] [[differential cohomology theories]]);
 
-* [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich 2018 ([pdf](https://ncatlab.org/schreiber/show/thesis+Braunack-Mayer#pdf))
+* [[Vincent Braunack-Mayer]], section 3.1 of _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich 2018 ([pdf](https://ncatlab.org/schreiber/show/thesis+Braunack-Mayer#pdf))
 
 Discussion of Lie integration of [[Lie algebroids]] by the path method is due to 
 
