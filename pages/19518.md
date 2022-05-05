@@ -47,14 +47,44 @@ be a [[Quillen adjunction]] between them. Then this may be called
 
 =--
 
-+-- {: .num_defn #Bousfield}
++-- {: .num_example #BousfieldLocalizationIsQuillenReflection}
 ###### Example
+**([[left Bousfield localization]] is [[Quillen reflection]])**
 
 1. A [[left Bousfield localization]] is a Quillen reflection.
 
 1. A [[right Bousfield localization]] is a Quillen coreflection.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+We consider the case of [[left Bousfield localizations]], the other case is [[formal duality|formally dual]].
+
+A left Bousfield localization is a [[Quillen adjunction]] by [[identity functors]] ([this Remark](Bousfield+localization+of+model+categories#ImmediateImpiciationsOfLeftBousfieldLocalization))
+
+$$
+  \mathcal{D}_{loc}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {{}_{\phantom{Qu}} \bot_{Qu}}
+  \mathcal{D}
+$$
+
+This means that the ordinary [[adjunction counit]] is the [[identity morphism]] and hence that the [[derived adjunction counit]] on a [[fibrant object]] $c$ is just a [[cofibrant resolution]]-morphism 
+
+$$
+  Q(c) \underoverset{ \in W_{\mathcal{D}} \cap Fib_{\mathcal{D}} }{p_c}{\longrightarrow} c
+$$
+
+but regarded in the model structure $\mathcal{D}_{loc}$. Hence it is sufficient to see that [[acyclic fibrations]] in $\mathcal{D}$ remain weak equivalences in the left Bousfield localized model structure. In fact they even remain acyclic fibrations, by [this Remark](Bousfield+localization+of+model+categories#ImmediateImpiciationsOfLeftBousfieldLocalization).
+
+=--
+
+
+
 
 ## Properties
 
