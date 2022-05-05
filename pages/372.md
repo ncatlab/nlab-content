@@ -36,9 +36,11 @@ Hence the initial object may also be viewed as the [[colimit]] over the [[empty 
 
 * Likewise, the [[empty category]] is an initial object in [[Cat]], the [[empty space]] is an initial object in [[Top]], and so on.
 
-* The [[trivial group]] is the initial object (in fact, the zero object) of [[Grp]] and [[Ab]].
+* The [[trivial group]] is the initial object (in fact, the [[zero object]]) of [[Grp]] and [[Ab]].
 
 * The [[integers]] comprise the initial object of [[Ring]].
+
+* An initial object in a category of [[central extensions]] of a given algebraic object is called a _[[universal central extension]]_.
 
 
 ## Strict initial objects
