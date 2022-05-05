@@ -233,7 +233,7 @@ and
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
 
-[[!redirects subobject]]
 [[!redirects subobjects]]
+
 [[!redirects sub-object]]
 [[!redirects sub-objects]]
