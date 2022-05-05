@@ -2652,7 +2652,7 @@ be a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}). Then
 
    1. $c \underoverset{\in W_{\mathcal{C}} \cap Cof_{\mathcal{C}}}{j_c}{\longrightarrow} P c \underoverset{\in Fib_{\mathcal{C}}}{q_c}{\longrightarrow} \ast$ is a [[fibrant resolution]] in $\mathcal{C}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory});
 
-   1. $\emptyset \underoverset{\in Cof_{\mathcal{D}}}{i_{R(P(c))}}{\longrightarrow} Q(R(P(c))) \underoverset{\in W_{\mathcal{D}} \cap Fib_{\mathcal{D}}}{p_X}{\longrightarrow} R(P(c))$ is a [[cofibrant resolution]] in $\mathcal{D}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}).
+   1. $\emptyset \underoverset{\in Cof_{\mathcal{D}}}{i_{R(P(c))}}{\longrightarrow} Q(R(P(c))) \underoverset{\in W_{\mathcal{D}} \cap Fib_{\mathcal{D}}}{p_{R(P(c))}}{\longrightarrow} R(P(c))$ is a [[cofibrant resolution]] in $\mathcal{D}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}).
 
 =--
 
