@@ -39,7 +39,7 @@ $\,$
 <br/>$\hookrightarrow$ $\{$[[Banach manifolds]]$\}$
 <br/>$\hookrightarrow$ $\{$[[Fréchet manifolds]]$\}$
 <br/>$\hookrightarrow$ $\{$[[diffeological spaces]]$\}$
-<br/>$\hookrightarrow$ $\{$[[smooth sets]]$\}$
+<br/>$\hookrightarrow$ $\{$[[smooth sets]]$\}$ $\hookrightarrow$ $\{$[[formal smooth sets]]$\}$ $\hookrightarrow$ $\{$[[super formal smooth sets]]$\}$
 <br/>$\hookrightarrow$ $\{$[[orbifold|smooth orbifolds]]$\}$
 <br/>$\hookrightarrow$ $\{$[[smooth groupoids]]$\}$
 <br/>$\hookrightarrow $ $\{$[[smooth 2-groupoids]]$\}$
