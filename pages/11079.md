@@ -334,18 +334,19 @@ Abstract coordinate systems according to prop. \ref{CartesianSpacesAndSmoothFunc
 
 Composition of morphisms is given by [[composition]] of [[functions]].
 
-We have that
+Under this identification
 
-1. The [[identity]] morphisms are precisely the identity functions.
+1. The [[identity morphisms]] are precisely the [[identity functions]].
 
 1. The [[isomorphisms]] are precisely the [[diffeomorphisms]].
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #OppositeCategoryOfCartSp}
 ###### Definition
+**([[opposite category]] of [[CartSp]])**
 
-Write [[CartSp]]${}^{op}$ for the [[opposite category]] of [[CartSp]].
+Write [[CartSp]]${}^{op}$ for the [[opposite category]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#OppositeCategory)) of [[CartSp]] (Prop. \ref{CartSpCategory}).
 
 This is the category with the same objects as $CartSp$, but where a morphism $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ in $CartSp^{op}$ is given by a morphism $\mathbb{R}^{n_1} \leftarrow \mathbb{R}^{n_2}$ in $CartSp$.
 
@@ -367,6 +368,76 @@ such that
 1. [[identity]] is respected $X(id_{\mathbb{R}^n}) = id_{X(\mathbb{R}^n)}$;
 
 1. [[composition]] is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
+
+=--
+
++-- {: .num_example #SmoothSetOfDifferentialPForms}
+###### Example
+
+Let $\mathcal{C}$ be a [[category]].
+
+1. The following are equivalent:
+
+   1. $\mathcal{C}$ has a [[terminal object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[right adjoint]]
+
+      $$
+        \ast 
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \mathcal{C}
+      $$
+
+    Under this equivalence, the [[terminal object]] is identified with the image under the right adjoint of the unique object of the [[terminal category]].
+
+1. Dually, the following are equivalent:
+
+   1. $\mathcal{C}$ has an [[initial object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[left adjoint]]
+
+      $$
+        \mathcal{C}
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \ast
+      $$
+
+    Under this equivalence, the [[initial object]] is identified with the image under the left adjoint of the unique object of the [[terminal category]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since the unique [[hom-set]] in the [[terminal category]] is [[generalized the|the]] [[singleton]], the hom-isomorphism characterizing the [[adjoint functors]] is directly the [[universal property]] of an [[initial object]] in $\mathcal{C}$
+ 
+$$
+  Hom_{\mathcal{C}}( L(\ast) , X )
+  \;\simeq\;
+  Hom_{\ast}( \ast, R(X) ) 
+  =
+  \ast 
+$$
+
+or of a [[terminal object]]
+
+$$
+  Hom_{\mathcal{C}}( X , R(\ast) )
+  \;\simeq\;
+  Hom_{\ast}( L(X), \ast ) = \ast
+  \,,
+$$
+
+respectively.
+
+
 
 =--
 
