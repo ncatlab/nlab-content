@@ -139,6 +139,8 @@ Since the [[near horizon geometry]] of [[black branes]] is the [[Cartesian produ
 
 ## References
 
+### General
+
 
 The [[bottom-up model building|bottom-up approach]] to intersecting D-brane model building was initiated in
 
@@ -211,11 +213,19 @@ Intersection with [[O8-planes]]/[[D8-branes]] is discussed in
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
-Discussion of [[cosmology]] includes
+### Cosmology
+ {#ReferencesCosmology}
+
+Discussion of the [[cosmology]] of intersecting brane models includes (see also at _[[Randall-Sundrum model]]_)
+
+* {#Uranga02} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_ ([arXiv:hep-th/0201209](https://arxiv.org/abs/hep-th/0201209))
 
 * {#Kaloper04} Nemanja Kaloper, _Origami World_, JHEP 0405 (2004) 061 ([arXiv:hep-th/0403208](https://arxiv.org/abs/hep-th/0403208))
 
 * {#FlachiMinamitsuji09} Antonino Flachi, Masato Minamitsuji, _Field localization on a brane intersection in anti-de Sitter spacetime_, Phys.Rev.D79:104021, 2009 ([arXiv:0903.0133](https://arxiv.org/abs/0903.0133))
+
+* {#Teraguchi07} Shunsuke Teraguchi, around slide 21 _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf))
+
 
 [[!redirects intersecting D-brane models]]
 
