@@ -265,6 +265,9 @@ Discussion of [[GUT]] [[model (physics)|models]] via [[F-theory]] is in
 
 * [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
+A direct [[geometric engineering]] of the [[MSSM]] within [[F-theory]] is claimed in 
+
+* {#CLLO18} [[Mirjam Cvetič]], Ling Lin, Muyang Liu, Paul-Konstantin Oehlmann, _An F-theory Realization of the Chiral MSSM with $\mathbb{Z}_2$-Parity_ ([arXiv:1807.01320](https://arxiv.org/abs/1807.01320))
 
 #### M-theory models
  {#ReferencesMTheoryModels}
