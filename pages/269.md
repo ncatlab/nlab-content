@@ -1,6 +1,6 @@
 \tableofcontents
 
-## Definition
+\section{Definition}
 
 \begin{notn} We make use of the notation of [[category of cubes]]. \end{notn}
 
@@ -23,7 +23,7 @@ A _morphism_ of cubical sets is an arrow of $\mathsf{Set}^{\square^{op}}$.
 
 ## Monoidal structure
 
-The strict monoidal structure of $\square$ gives rise to a (non-strict) monoidal structure on $\mathsf{Set}^{\square^{op}}$, by [[Day convolution]]. The unit of the monoidal structure is $\square^{0}$, in the notation of Notation \ref{NotationFreeStandingNCube}. Whenever we use the symbol $\otimes$ when working with cubical sets or morphisms of cubical sets, we shalll always refer to the functor $- \otimes -$ of this monoidal structure.
+The strict monoidal structure of $\square$ gives rise to a (non-strict) monoidal structure on $\mathsf{Set}^{\square^{op}}$, by [[Day convolution]]. The unit of the monoidal structure is $\square^{0}$, in the notation of Notation \ref{NotationFreeStandingNCube}. Whenever we use the symbol $\otimes$ when working with cubical sets or morphisms of cubical sets, we shall always refer to the functor $- \otimes -$ of this monoidal structure.
 
 ## Notation
 
