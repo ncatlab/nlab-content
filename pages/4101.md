@@ -9,6 +9,9 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition
 
@@ -25,6 +28,9 @@ is [[faithful functor|faithful]].  In [[Cat]], this is equivalent to $f$ being f
 * Of course, any [[fully faithful morphism]] is also faithful, and in particular any [[inverter]] or [[equifier]] is faithful.  Moreover, any [[inserter]] is also faithful, though not generally fully-faithful.
 
 ## Related pages
+
+* the analogous concept in [[(∞,1)-categories]] is that of _[[0-truncated morphism of an (∞,1)-category|0-truncated morphisms]]_ (see <a href="n-truncated+object+of+an+(infinity,1)-category#TruncatedMorphismsBetweenGroupoids">there</a>).
+
 
 * [[subcategory]]
 * [[fully faithful morphism]]
