@@ -162,6 +162,7 @@ See also
 
 * {#Schanuel91} [[Stephen Schanuel]], 1991, _Negative sets have Euler characteristic and dimension_, in: Proc. Como 1990. Lecture Notes in Mathematics, vol. 1488. Springer-Verlag, Berlin, pp. 379&#8211;385.
 
+
 Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carlsson completion theorem]] is in
 
 * {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, In Actes du Congr&egrave;s International des Math &eacute;maticiens (Nice, 1970), Tome 2 , pages 59–63. Gauthier-Villars, Paris, 1971
@@ -172,11 +173,13 @@ Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carl
 
 * [[Gunnar Carlsson]], _Equivariant Stable Homotopy and Segal's Burnside Ring Conjecture_,  Annals of Mathematics Second Series, Vol. 120, No. 2 (Sep., 1984), pp. 189-224 ([jstor:2006940](https://www.jstor.org/stable/2006940), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/carlsson.pdf))
 
+* {#GayMorrisMorris} C. D. Gay, G. C. Morris, and I. Morris, _Computing Adams operations on the Burnside ring of a finite group_, J. Reine Angew. Math., 341 (1983), pp. 87–97.
+
 * {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
 
-See also
+Computational aspects are discussed in 
 
-* {#GayMorrisMorris} C. D. Gay, G. C. Morris, and I. Morris, _Computing Adams operations on the Burnside ring of a finite group_, J. Reine Angew. Math., 341 (1983), pp. 87–97.
+* Martin Kreuzer, _Computational aspects of Burnside rings, part I: the ring structure_, D.P. Beitr Algebra Geom (2017) 58: 427 ([doi:10.1007/s13366-016-0324-4](https://doi.org/10.1007/s13366-016-0324-4))
 
 [[!redirects Burnside rings]]
 
