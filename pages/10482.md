@@ -61,6 +61,15 @@ This we discuss below in _[The super odd sign rule](#SuperOddConvention)_.
 
 In [Deligne-Morgan 99](#DeligneMorgan99), the two sign rules are referred to as _Deligne's convention_ (for the internalization rule) and _Bernstein's convention_ (for the super odd sign rule).
 
+
+|   | $\phantom{A}$[Deligne's convention](#TheSignRuleFromInternalization)$\phantom{A}$ | $\phantom{A}$[Bernstein's convention](#SuperOddConvention)$\phantom{A}$ |
+|---|------------------------------------|----------------|
+| $\phantom{A}$$ \alpha_i \cdot  \alpha_j = $$\phantom{A}$ | $\phantom{A}$$(-1)^{ (n_i \cdot n_j + \sigma_i \cdot \sigma_j) }  \alpha_j \cdot \alpha_i$$\phantom{A}$ | $\phantom{A}$$ (-1)^{ (n_i + \sigma_i) \cdot (n_j + \sigma_j) } \alpha_j \cdot \alpha_i$$\phantom{A}$ | 
+| $\phantom{A}$common in$\phantom{A}$ <br/> $\phantom{A}$discussion of$\phantom{A}$ | $\phantom{A}$[[nLab:supergravity]]$\phantom{A}$ | $\phantom{A}$[[nLab:AKSZ sigma-models]]$\phantom{A}$ | 
+| $\phantom{A}$representative$\phantom{A}$ <br/> $\phantom{A}$references$\phantom{A}$ | [Bonora et. al 87](signs+in+supergeometry#BonoraBregolaLechnerPastiTonin87),  <br/>[Castellani-D'Auria-Fré 91](signs+in+supergeometry#CastellaniDAuriaFre91),<br/> [Deligne-Freed 99](signs+in+supergeometry#DeligneFreed99) | [Carchedi-Roytenberg 12](signs+in+supergeometry#CarchediRoytenberg12) |
+
+
+
 ## The sign rule from internalization
  {#TheSignRuleFromInternalization}
 
@@ -122,20 +131,20 @@ for elements in this grading group.
 
 In this notation the grading of the elements in $\Omega^\bullet(\mathbb{R}^{p|q})$ is all induced by the fact that the de Rham differential $\mathbf{d}$ itself is a [[derivation]] of degree $(1,even)$.
 
-| generator | bi-degree |
+| $\phantom{A}$generator$\phantom{A}$ | $\phantom{A}$bi-degree$\phantom{A}$ |
 |--|--|
-| $x^a$ | (0,even) |
-| $\theta^\alpha$ | (0,odd) |
-| $\mathbf{d}$ | (1,even) |
+| $\phantom{A}$$x^a$$\phantom{A}$ | $\phantom{A}$(0,even)$\phantom{A}$ |
+| $\phantom{A}$$\theta^\alpha$$\phantom{A}$ | $\phantom{A}$(0,odd)$\phantom{A}$ |
+| $\phantom{A}$$\mathbf{d}$$\phantom{A}$ | $\phantom{A}$(1,even)$\phantom{A}$ |
 
 Here the last line means that we have
 
-| generator | bi-degree |
+| $\phantom{A}$generator$\phantom{A}$ | $\phantom{A}$bi-degree$\phantom{A}$ |
 |--|--|
-| $x^a$ | (0,even) |
-| $\theta^\alpha$ | (0,odd) |
-| $\mathbf{d}x^a$ | (1,even) |
-| $\mathbf{d}\theta^\alpha$ | (1,odd) |
+| $\phantom{A}$$x^a$$\phantom{A}$ | $\phantom{A}$(0,even)$\phantom{A}$ |
+| $\phantom{A}$$\theta^\alpha$$\phantom{A}$ | $\phantom{A}$(0,odd)$\phantom{A}$ |
+| $\phantom{A}$$\mathbf{d}x^a$$\phantom{A}$ | $\phantom{A}$(1,even)$\phantom{A}$ |
+| $\phantom{A}$$\mathbf{d}\theta^\alpha$$\phantom{A}$ | $\phantom{A}$(1,odd)$\phantom{A}$ |
 
 
 The formula for the "cohomologically- and super-graded commutativity" in $\Omega^\bullet(\mathbb{R}^{p|q})$ is 
@@ -517,6 +526,57 @@ $$
   \mathbf{d} \theta^{\alpha_1}
 $$
 
+
+## Relation between the two sign rules
+
+### Strong symmetric monoidal equivalence
+
+The two sign rules correspond to two different [[symmetric monoidal category|symmetric braiding]]-[[structures]] on the [[monoidal category]] $Ch(SuperVect)$ of [[chain complexes]] of [[super vector spaces]]. The corresponding two kinds of [[differential graded-commutative superalgebras]] are the [[commutative monoid objects]] with respect to these two choises.
+
+Write $\tau_{Deligne}$ and $\tau_{Bern}$ for the two [[braidings]]:
+
+$$
+  \tau_{Deligne}
+  \;\colon\;
+  \alpha_i \otimes \alpha_j
+  \;\mapsto\;
+  (-1)^{ (n_i n_j + \sigma_i \sigma_j) }
+  \,
+  \alpha_j \otimes \alpha_i
+$$
+
+$$
+  \tau_{Bern}
+  \;\colon\;
+  \alpha_i \otimes \alpha_j
+  \;\mapsto\;
+  (-1)^{ (n_i + \sigma_i) (n_j + \sigma_j) }
+  \,
+  \alpha_j \otimes \alpha_i
+$$
+
+
+There is a [[nLab:strong monoidal functor|strong]] [[symmetric monoidal functor|symmetric monoidal]] [[equivalence of categories]]
+
+$$
+  (Ch(SuperVect), \otimes, \tau_{Deligne})
+  \overset{F}{\longrightarrow}
+  (Ch(SuperVect), \otimes, \tau_{Bern})
+$$
+
+whose underlying [[functor]] is the [[identity functor]], and 
+with monoidal structure map given by
+
+$$
+  \mu
+  \;\colon\;
+  \alpha_i \otimes \alpha_j
+  \;\mapsto\;
+  (-1)^{ n_i \sigma_j  } \alpha_i \otimes \alpha_j
+$$
+
+(...)
+
 ### Equivalence of super Lie algebra cohomology in both conventions
  {#EquivalenceOfSuperLieAlgebraCohomology}
 
@@ -619,7 +679,8 @@ And with explicit acknowledgement that there is also the alternative super odd s
 
 ### Super odd sign rule
 
-* [Deligne-Morgan 99](#DeligneMorgan99), remark 1.2.8 in [[NotesOnNotesOnSupersymmetry.pdf:file]]
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]],  theorem 1, theorem 6.5 of _Homological Algebra for Superalgebras of Differentiable Functions_ ([arXiv:1212.3745](https://arxiv.org/abs/1212.3745))
 
 ...
+
 
