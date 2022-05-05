@@ -14,7 +14,7 @@ We call $f \in K[X]- \{0\}$ **separable** if it has no multiple zero in $\bar K$
 
 We call $\alpha \in \bar K$ **separable over $K$** if the [[irreducible polynomial]] $f^\alpha_K$ of $\alpha$ over $K$ is separable.
 
-A subfield $L \subset K$ is called **separable over $K$** if each $\alpha \in L$ is separable over $K$. 
+A subfield $K \subset L \subset \bar K$ is called **separable over $K$** if each $\alpha \in L$ is separable over $K$. 
 
 =--
 
