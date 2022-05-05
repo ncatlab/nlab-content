@@ -63,7 +63,8 @@ $$
 
 is a [[pair]] of [[Quillen adjunctions]], as shown, together with a [[2-morphism]] in the [[double category of model categories]]
 
-$$
+\[
+  \label{Comparison2MorphismForQuillenAdjointTriple}
   \array{
     \mathcal{D}
      &\overset{\phantom{A}C\phantom{A}}{\longrightarrow}&
@@ -78,7 +79,7 @@ $$
     &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
     \mathcal{C}_2
   }
-$$
+\]
 
 whose [[derived natural transformation]] $Ho(id)$ ([here](double+category+of+model+categories#DerivedNaturalTransformation)) is invertible (a [[natural isomorphism]]).
    
@@ -115,6 +116,84 @@ we speak of a _Quillen [[adjoint quadruple]]_, and so forth.
 
 
 ## Examples 
+
+### General
+
++-- {: .num_example #QuillenAdjointTripleFromLeftAndRightQuillenFunctor}
+###### Example
+**([[Quillen adjoint triple]] from left and right [[Quillen functor]])**
+
+Given an [[adjoint triple]]
+
+$$
+  \mathcal{C}
+    \array{
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{L}{\longrightarrow}
+      \\
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{C}{\longleftarrow}
+      \\
+      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{R}{\longrightarrow}
+    }
+  \mathcal{D}
+$$
+
+such that $C$ is both a [[left Quillen functor]] as well as a [[right Quillen functor]] for given [[model category]]-[[structures]] on the [[categories]] $\mathcal{C}$ and $\mathcal{D}$. Then this is a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) of the form
+
+$$
+  \mathcal{C}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L}{\longrightarrow}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
+  \mathcal{D}
+$$
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{C}{\longleftarrow}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
+  \mathcal{D}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The condition of a [[Quillen equivalence]] (eq:EquivForQuillenAdjointTriple) is trivially satisfied ([this Prop.](Quillen+equivalence#TrivialQuillenEquivalence)). Similarly the required [[2-morphism]] (eq:Comparison2MorphismForQuillenAdjointTriple)
+
+$$
+  \array{
+    \mathcal{C}
+     &\overset{\phantom{A}C\phantom{A}}{\longrightarrow}&
+    \mathcal{D}
+    \\
+    {}^{\mathllap{C}}
+    \Big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \Big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    \mathcal{D}
+    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
+    \mathcal{D}
+  }
+$$
+
+exists trivially. To check that its [[derived natural transformation]] ([here](double+category+of+model+categories#DerivedNaturalTransformation)) is a [[natural isomorphism]] we need to check (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)) that for every [[fibrant and cofibrant object]] $d \in \mathcal{D}$ the composite
+
+$$
+  Q C(d)
+    \overset{ p_{C(d)} }{\longrightarrow}
+  C(d)
+    \overset{ j_{C(d)} }{\longrightarrow}
+  P C(C)  
+$$ 
+
+is a [[weak equivalence]]. But this is trivially the case, by definition of [[fibrant resolution]]/[[cofibrant resolution]] (in fact, since $C$ is assumed to be both left and right Quillen, also $C(d)$ is a [[fibrant and cofibrant objects]] and hence we may even take both $p_{C(d)}$ as well as $j_{C(d)}$ to be the [[identity morphism]]).
+
+
+=--
 
 ### Homotopy (co-)limits
 
@@ -373,7 +452,7 @@ $$
 ###### Example
 **([[Quillen adjoint quadruple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
 
-Now let 
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[small categories]], and let 
 
 $$
   \mathcal{C}
@@ -400,7 +479,7 @@ $$
   [\mathcal{D}^{op}, sSet]
 $$
 
-By the previous example the top three as well as the bottom three of these form [[Quillen adjoint triples]] in two ways (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves). If for the two three we choose the first version, and for the bottom three the second version from (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves), then these combine to a Quillen [[adjoint quadruple]]
+By Example \ref{QuillenAdjointTripleHomotopyKanExtension} the top three as well as the bottom three of these form [[Quillen adjoint triples]] (Def. \ref{QuillenAdjointTriple}) in two ways (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves). If for the top three we choose the first version, and for the bottom three the second version from (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves), then these combine to a Quillen [[adjoint quadruple]] of the form
 
 $$
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
@@ -430,7 +509,134 @@ $$
 
 =--
 
++-- {: .num_example #QuillenAdjointQuintupleOfHomotopyKanExtensionAlongAdjointTriple}
+###### Example
+**([[Quillen adjoint quintuple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint triple]])**
 
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[small categories]] and let
+
+$$
+  \mathcal{C}
+    \array{
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{L}{\longrightarrow}
+      \\
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{C}{\longleftarrow}
+      \\
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{C}{\longleftarrow}
+    }
+  \mathcal{D}
+$$
+
+be a [[adjoint triple|triple]] of [[adjoint functors]]. By [[Kan extension]] this induces an [[adjoint quintuple]] between [[categories of simplicial presheaves]]
+
+\[
+ \label{AdjointQuintupleFromKanExtensionInDiscussionOfQuillenAdjointQuintuple}
+  [\mathcal{C}^{op}, sSet]
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a \simeq A_a}}{ L_! \phantom{\simeq A_a \simeq A_a} }{\longrightarrow}
+      \\
+      \underoverset{\bot \phantom{\simeq} \bot \phantom{\simeq A_a} }{ L^\ast \simeq C_! \phantom{\simeq A_a} }{\longleftarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq}\bot \phantom{\simeq} \bot}{ L_\ast \simeq C^\ast \simeq R_! }{\longrightarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq A_a } \bot}{ \phantom{A_a \simeq } C_\ast \simeq R^\ast }{\longrightarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq A_a } \phantom{\bot}}{ \phantom{A_a \simeq C_\ast \simeq}  R_\ast }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+\]
+
+By Example \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair} the top four functors in (eq:AdjointQuintupleFromKanExtensionInDiscussionOfQuillenAdjointQuintuple) form a [[Quillen adjoint quadruple]] ending in a [[right Quillen functor]]
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+   \overset{C_\ast \simeq R^\ast}{\longrightarrow}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  \,.
+$$
+
+But $R^\ast$ here is also a [[left Quillen functor]] (as in Example \ref{QuillenAdjointTripleHomotopyKanExtension}), and hence this continues by one more Quillen adjoint triple via Example \ref{QuillenAdjointTripleFromLeftAndRightQuillenFunctor} to a [[Quillen adjoint quintuple]] of the form
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L_! \phantom{\simeq A_a \simeq A_a}}{\longrightarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{L^\ast \simeq C_! \phantom{\simeq A_a}}{\longleftarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{}{\longleftarrow}}
+      {\overset{L_\ast \simeq C^\ast \simeq R_!}{\longrightarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{ \phantom{ A_a \simeq A_a \simeq} R_\ast }{\longrightarrow}}
+      {\overset{ \phantom{A_a \simeq} C_\ast \simeq R^\ast  }{\longleftarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
+$$
+
+Alternatively, we may regard the bottom four functors in (eq:AdjointQuintupleFromKanExtensionInDiscussionOfQuillenAdjointQuintuple) as a [[Quillen adjoint quadruple]] via example \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}, whose top functor is then the left Quillen functor
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \overset{ L^\ast }{\longleftarrow}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+  \,.
+$$
+
+But this is also a [[right Quillen functor]] (as in Example \ref{QuillenAdjointTripleHomotopyKanExtension}) and hence we may continue by one more [[Quillen adjoint triple]] upwards (via Example \ref{QuillenAdjointTripleFromLeftAndRightQuillenFunctor}) to obtain a [[Quillen adjoint quintuple]], now of the form
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L_! \phantom{\simeq A_a \simeq A_a}}{\longrightarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{L^\ast \simeq C_! \phantom{\simeq A_a}}{\longleftarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{}{\longleftarrow}}
+      {\overset{L_\ast \simeq C^\ast \simeq R_!}{\longrightarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{ \phantom{ A_a \simeq A_a \simeq} R_\ast }{\longrightarrow}}
+      {\overset{ \phantom{A_a \simeq} C_\ast \simeq R^\ast  }{\longleftarrow}}
+      {\phantom{\phantom{A}{}_{Qu}}\bot_{Qu}\phantom{A}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
+$$
+
+
+=--
 
 ## Properties
 
@@ -589,6 +795,7 @@ By Lemma \ref{DerivedAdjunctionUnitOfQuillenAdjointTriple} the [[derived adjunct
 
 =--
 
+
 +-- {: .num_prop #DerivedAdjointModalityFromQuillenAdjointQuadruple}
 ###### Lemma
 **([[fully faithful functors]] in [[Quillen adjoint quadruple]])**
@@ -634,8 +841,9 @@ Observing that each of the four functors is either the leftmost or the rightmost
 
 In summary
 
-+-- {: .num_prop}
++-- {: .num_prop #DerivedAdjointModalitiesFromFullyFaithfulQuillenAdjointQuadruples}
 ###### Proposition
+**([[derived functor|derived]] [[adjoint modalities]] from [[fully faithful functor|fully faithful]] [[Quillen adjoint quadruples]])**
 
 Given a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
 
@@ -725,4 +933,7 @@ The statement about fully faithful functors is Lemma \ref{DerivedAdjointModality
 
 [[!redirects Quillen adjoint quadruple]]
 [[!redirects Quillen adjoint quadruples]]
+
+[[!redirects Quillen adjoint quintuple]]
+[[!redirects Quillen adjoint quintuples]]
 
