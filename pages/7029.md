@@ -43,11 +43,13 @@ A free action that is also [[transitive action|transitive]] is called _[[regular
 
 * [[homogeneous space]]
 
-* [[transitive action]]
-
 * [[torsor]]
+
 * [[universal principal bundle]]
 
-* [[semi-free action]]
+* [[transitive action]], [[free action]], [[semi-free action]], [[regular action]],
+
+* [[proper action]], [[properly discontinuous action]]
+
 
 [[!redirects free actions]]
