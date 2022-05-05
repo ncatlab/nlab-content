@@ -140,7 +140,7 @@ But cototal categories do occur:
 
 * {#Garner13} [[Richard Garner]], _Topological=Total_  ([arXiv:1310.0903](https://arxiv.org/abs/1310.0903))
 
-* [[Ross Street]], _The family approach to total cocompleteness and toposes_ , Trans. A. M. S. **284** (1978) pp.355-369.
+* [[Ross Street]], _The family approach to total cocompleteness and toposes_ , Trans. A. M. S. **284** (1984) pp.355-369, (<a href="https://www.ams.org/journals/tran/1984-284-01/S0002-9947-1984-0742429-3/S0002-9947-1984-0742429-3.pdf">AMS</a>)
 
 * {#Wood82} [[Richard J. Wood]], _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
 
