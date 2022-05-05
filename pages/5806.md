@@ -363,7 +363,7 @@ See also
 [[!redirects (infinity,n)-categories of spans]]
 
 [[!redirects (∞,n)-category of correspondences]]
-[[!redirects (∞,n)-categories of corespondences]]
+[[!redirects (∞,n)-categories of correspondences]]
 
 [[!redirects (infinity,n)-category of correspondences]]
 [[!redirects (infinity,n)-categories of correspondences]]
@@ -373,6 +373,9 @@ See also
 
 [[!redirects (infinity,1)-category of correspondences]]
 [[!redirects (infinity,1)-categories of correspondences]]
+
+[[!redirects (2,1)-category of correspondences]]
+[[!redirects (2,1)-categories of correspondences]]
 
 [[!redirects higher correspondence]]
 [[!redirects higher correspondences]]
