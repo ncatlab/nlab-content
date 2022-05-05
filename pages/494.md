@@ -14,7 +14,7 @@
 
 ## Definition 
 
-The concept of [[adjoint functors]] is a key concept in [[category theory]], if not _the_ key concept. It embodies the concept of [[representable functors]] and has as special cases [[universal constructions]] such as [[Kan extensions]] and hence of [[limits]]/[[colimits]]. 
+The concept of [[adjoint ffasn unctors]] is a key concept in [[category theory]], if not _the_ key concept. It embodies the concept of [[representable functors]] and has as special cases [[universal constructions]] such as [[Kan extensions]] and hence of [[limits]]/[[colimits]]. 
 
 More abstractly, the concept of adjoint functors is itself just the special case of the general concept of an _[[adjunction]]_ in a [[2-category]], here for the 2-category [[Cat]] of all categories. But often "[[adjunction]]" is understood by default in this special case.
 
@@ -1255,7 +1255,7 @@ Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Gr
 
 and its fundamental relevance for [[category theory]] was realized due to 
 
-* {#Freyd66} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf)).
+* {#Freyd64} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, Harper's  Series  in  Modern  Mathematics, Harper  &  Row,   New  York, 1964 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf)).
 
 * {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
