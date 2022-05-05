@@ -22,6 +22,8 @@
 
 The [[generalized cohomology theory]] which is [[Brown representability theorem|represented]] by the [[sphere spectrum]] is also called _stable cohomotopy_, as it is the [[stable homotopy theory]] version of [[cohomotopy]].
 
+Equivalenty, it is the cohomolgical [[duality|dual]] concept to [[stable homotopy homology theory]].
+
 
 ## Properties
 
@@ -135,3 +137,5 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivar
 
 * _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ ([arXiv:math/0204267](http://arxiv.org/abs/math/0204267))
 
+
+[[!redirects stable cohomotopy theory]]
