@@ -19,11 +19,13 @@
 
 ## Idea
 
-The **inductive tensor product** $E\otimes_i F$ of a pair of topological vector spaces $E$, and $F$ is the target of the universal separately continuous bilinear map $E\times F \to E\otimes_i F$.
+In [[functional analysis]], the _inductive tensor product_ is a kind of [[tensor product]] suitable for [[topological vector spaces]].
+
+Specifically, the **inductive tensor product** $E\otimes_i F$ of a pair of [[topological vector spaces]] $E$, and $F$ is the target of the [[universal construction|universal]] separately [[continuous function|continuous]] [[bilinear map]] $E\times F \to E\otimes_i F$.
 
 ## Definition
 
-Given a pair of [[locally convex topological vector spaces]] (lctvs) $E$ and $F$, the inductive tensor product is the locally convex tvs $E\otimes_i F$ with underlying vector space the algebraic tensor product, and equipped with the finest locally convex linear topology such that $E\times F \to E\otimes_i F$ is separately continuous, where $E\times F$ has the product topology.
+Given a pair of [[locally convex topological vector spaces]] (lctvs) $E$ and $F$, the inductive tensor product is the locally convex [[topological vector space|tvs]] $E\otimes_i F$ with underlying plain [[vector space]] the algebraic [[tensor product of vector spaces]], and equipped with the finest locally convex linear [[topological space|topology]] such that $E\times F \to E\otimes_i F$ is separately [[continuous function|continuous]], where $E\times F$ has the [[product topology]].
 
 Compare this to the (pre-completed) projective tensor product $\otimes_p$, which is equipped with the finest locally convex linear topology such that the canonical map from $E\times F$ is _jointly_ continuous.
 
@@ -57,7 +59,7 @@ Let $E$ and $F$ be metrizable lctvs, and assume one of the conditions in Proposi
 +-- {: .un_prop}
 ###### Corollary
 
-If $E$ and $F$ are Fréchet spaces, then $E\overline{\otimes} F \stackrel{\sim}{\to} E \widehat{\otimes} F$.
+If $E$ and $F$ are [[Fréchet spaces]], then $E\overline{\otimes} F \stackrel{\sim}{\to} E \widehat{\otimes} F$.
 
 =--
 
