@@ -49,10 +49,11 @@ More generally, one can consider objects that satisfy some basic [[universal pro
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
+**(internal hom)**
 
-Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. An **internal hom** in $\mathcal{C}$ is a [[functor]]
+Let $(\mathcal{C}, \otimes)$ be a [[symmetric monoidal category|symmetric]] [[monoidal category]]. An **internal hom** in $\mathcal{C}$ is a [[functor]]
 
 $$
   [-,-] : \mathcal{C}^{op} \times \mathcal{C} \to \mathcal{C}
@@ -65,16 +66,21 @@ $$
   \,.
 $$
 
-=--
-
 If this exists, $(\mathcal{C}, \otimes)$ is called a _[[closed monoidal category]]_.
 
-## Properties
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If the monoidal category $\mathcal{C}$ in Def. \ref{ClosedMonoidalCategory} is not [[symmetric monoidal category|symmetric]], there is instead a concept of left- and right-internal hom.
+
+=--
 
 ### Evaluation map
  {#EvaluationMap}
 
-Let $(\mathcal{C}, \otimes)$ be a [[closed monoidal category]].
+Let $(\mathcal{C}, \otimes)$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}).
 
 +-- {: .num_defn #EvalMap}
 ###### Definition
@@ -110,7 +116,7 @@ with _[[function application]]_ on the right.
 ### Composition map
  {#CompositionMap}
 
-Let $(\mathcal{C}, \times)$ be a [[closed monoidal category]].
+Let $(\mathcal{C}, \times)$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory})
 
 +-- {: .num_defn #CompositionMorphism}
 ###### Definition
@@ -139,6 +145,167 @@ $$
 $$
 
 =--
+
+## Properties
+
+
+### Basic properties
+ {#BasicProperties}
+
+The internal homs in a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}) happen to share all the key abstract properties of ordinary ("external") [[hom-functors]], even though this is not completely manifest from Def. \ref{ClosedMonoidalCategory}:
+
+
++-- {: .num_prop #InternalHomBifunctor}
+###### Proposition
+**([[internal hom]] [[bifunctor]])**
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that for each object $X \in \mathcal{C}$ the  functor $X \otimes (-)$ has a [[right adjoint]] $[X,-]$. Then this is already equivalent to Def. \ref{ClosedMonoidalCategory}, in that there is a unique functor out of the [[product category]]of $\mathcal{C}$ with its [[opposite category]]
+
+$$
+  [-,-]
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+    \longrightarrow
+  \mathcal{C}
+$$
+
+such that for each $X \in \mathcal{C}$ it coincides with the [[internal hom]] $[X,-]$ as a functor in the second variable, and such that there is a [[natural isomorphism]]
+
+$$
+  Hom(X, [Y,Z])
+  \;\simeq\;
+  Hom(X \otimes Y, Z)
+$$
+
+which is natural not only in $X$ and $Z$, but also in $Y$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have a natural isomorphism for each fixed $Y$, and hence in particular for fixed $Y$ and fixed $Z$. With this the statement follows directly by [this prop.](https://ncatlab.org/nlab/show/adjoint%20functor#AdjointFunctorFromObjectwiseRepresentingObject) at _[[adjoint functor]]_.
+
+=--
+
+
+In fact the 3-variable adjunction from Prop. \ref{InternalHomBifunctor} even holds internally:
+
+
++-- {: .num_prop #TensorHomAdjunctionIsoInternally}
+###### Proposition
+**(internal tensor/hom-adjunction)**
+
+In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
+
+$$
+  [X \otimes Y, Z]
+   \;\simeq\;
+  [X, [Y,Z]]
+$$
+
+whose image under $Hom_{\mathcal{C}}(1,-)$  are the defining [[natural bijections]] of Prop. \ref{InternalHomBifunctor}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A \in \mathcal{C}$ be any object. By applying the natural bijections from Prop. \ref{InternalHomBifunctor}, there are composite [[natural bijections]]
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(A , [X \otimes Y, Z])
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}((A \otimes X)\otimes Y, Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes X, [Y,Z])
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A, [X, [Y,Z]])
+  \end{aligned}
+$$
+
+Since this holds for all $A$, the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]] says that there is an isomorphism $[ X\otimes Y, Z ] \simeq [X, [Y,Z]]$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(1, [X\otimes Y, Z ))
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(1, [X, [Y,Z]])
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    Hom_{\mathcal{C}}(X \otimes Y, Z)
+     &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(X, [Y,Z])
+  }
+  \,.
+$$
+
+=--
+
+Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[internal hom]]-functors
+
++-- {: .num_prop #InternalHomPreservesLimits}
+###### Proposition
+**([[internal hom]] preserves [[limits]])**
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the first variable, and sends colimits in the second variable to limits.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+For $X \in \mathcal{C}$ any object, $[X,-]$ is a [[right adjoint]] by definition, and hence preserves limits by _[[adjoints preserve (co-)limits]]_.
+
+For the other case, let $Y \;\colon\; \mathcal{L} \to \mathcal{C}$ be a [[diagram]] in $\mathcal{C}$, and let $C \in \mathcal{C}$ be any object. Then there are isomorphisms
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(C, [ \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X ] )
+    & \simeq
+    Hom_{\mathcal{C}}( C \otimes \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X )
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}( \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} (C \otimes Y(j)), X )   
+    \\
+    & \simeq
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim}
+    Hom_{\mathcal{C}}( (C \otimes Y(j)), X )    
+    \\
+    & \simeq
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim}
+    Hom_{\mathcal{C}}( C, [Y(j), X] )    
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}( C, \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j), X] )    
+  \end{aligned}
+$$
+
+which are [[natural isomorphism|natural]] in $C \in \mathcal{C}$, where we used that the ordinary [[hom-functor]] respects (co)limits as shown (see at _[[hom-functor preserves limits]]_), and that the [[left adjoint]] $C \otimes (-)$ preserves colimits (see at _[[adjoints preserve (co-)limits]]_).
+
+Hence by the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]], there is an isomorphism
+
+$$
+  \left[ \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X \right]  
+  \overset{\simeq}{\longrightarrow}
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j), X] 
+  \,.
+$$
+
+
+=--
+
+
 
 ### Relation to function types
 
