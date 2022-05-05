@@ -89,7 +89,7 @@ Here we follow Joyal and say [[quasi-category]] when we mean concretely the simp
 
 With [[quasi-category|quasi-categories]] being just [[simplicial sets]] with extra property, there are evident and simple definitions of 
 
-* the [[(infinity,1)-category of (infinity,1)-functors|quasi-category of (∞,1)-functors|]] between two [[quasi-categories]] $C$ and $D$;
+* the [[(infinity,1)-category of (infinity,1)-functors|quasi-category of (∞,1)-functors]] between two [[quasi-categories]] $C$ and $D$;
 
 * the quasi-category of all [[∞-groupoids]];
 
