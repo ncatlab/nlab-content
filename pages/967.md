@@ -138,7 +138,7 @@ But cototal categories do occur:
 * [[Brian Day]], _Further criteria for totality_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 28 no. 1 (1987), p. 77-78, [numdam](http://www.numdam.org/item?id=CTGDC_1987__28_1_77_0)
  {#Day}
 
-* [[Richard Garner]], _Topological=Total_ , arXiv:1310.0903 (2013). ([abstract](https://arxiv.org/abs/1310.0903))
+* {#Garner13} [[Richard Garner]], _Topological=Total_  ([arXiv:1310.0903](https://arxiv.org/abs/1310.0903))
 
 * [[Ross Street]], _The family approach to total cocompleteness and toposes_ , Trans. A. M. S. **284** (1978) pp.355-369.
 
