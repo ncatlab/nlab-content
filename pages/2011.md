@@ -61,3 +61,9 @@ Though some of the basic results, methods and conjectures of differential topolo
 * [[M. M. Postnikov]], _Introduction to Morse theory_ (in Russian)
 
 * J. Milnor, _Lectures on h-cobordism_ 
+
+* Andrew H. Wallace, _Differential topology: first steps_, Benjamin 1968.
+
+* [[Joel W. Robbin]], [[Dietmar Salamon]], _Introduction to differential topology_, 294 pp, webdraft 2018 [pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)
+
+* [[C. T. C. Wall]], _Differential topology_, Cambridge Studies in Advanced Matyhematics 154, 2016
