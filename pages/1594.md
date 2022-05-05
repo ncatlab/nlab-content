@@ -138,6 +138,11 @@ A reference dealing with the [[string topology]] of orbifolds is
 
 * {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
+The relation of orbifolds to [[global equivariant homotopy theory]] is discussed in
+
+* [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
+
+
 See also
 
 * Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
