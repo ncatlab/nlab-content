@@ -60,6 +60,64 @@ This is the _K-theory spectrum of $C$_.
 
 ([Elmendorf-Mandell, def. 4.3](#ElmendorfMandell06))
 
+## Properties
+
+### Monoidal functoriality
+
++-- {: .num_prop #MonoidalFunctoriality}
+###### Proposition
+
+The construction of K-theory spectra of permutative categories constitutes a [[multifunctor]]
+
+$$
+  \mathbb{K}
+  \;\colon\;
+  PermCat
+    \longrightarrow
+  Spectra
+$$
+
+between [[multicategories]] of [[permutative categories]] (under [[Deligne tensor product]]) and [[spectra]] (under [[smash product of spectra]]). 
+
+Hence for a multilinear functor of permutative categories
+
+$$
+  F 
+    \;\colon\;
+  \mathcal{A}_1 \times \cdots \times \mathcal{A}_n
+  \longrightarrow
+  \mathcal{B}
+$$
+
+there is a compatibly induced morphism of K-[[spectra]] out of the [[smash product of spectra|smash product]]
+
+$$
+  \mathbb{K}(\mathcal{A}_1) 
+    \wedge
+    \cdots
+    \wedge
+  \mathbb{K}(\mathcal{A}_n)
+  \longrightarrow
+  \mathbb{K}(\mathcal{B})
+  \,.
+$$
+
+
+This implies that the construction further extends to a [[2-functor]] from the [[2-category]] $PermCat Cat$ of [[enriched categories]] over the [[multicategory]] of [[permutative categories]] to that of [[enriched categories]] of [[spectra]]:
+
+$$
+  \mathbb{K}_\bullet
+  \;\colon\;
+  PermCat Cat \longrightarrow Spectra Cat
+$$
+
+which applies $\mathbb{K}$ to each [[hom-object]].
+
+=--
+
+([May 80, theorem 1.6, Theorem 2.1](#May80), [Elmendorf-Mandell 04, theorem 1.1](#ElmendorfMandell04), [Guillou 10, Theorem 1.1](#Guillou10)
+
+
 ## Examples
  {#Examples}
 
@@ -139,6 +197,7 @@ This perspective is highlighted for instance in ([Deitmar 06, p. 2](#Deitmar06),
 
 * {#May} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
 
+* {#May80} [[Peter May]], _Pairings of categories and spectra_, J. Pure Appl. Algebra, 19:299–346, 1980
 
 * {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], _Simplicial localization of categories_, Journal of pure and applied algebra 17 (1980) 267-284
 
@@ -147,6 +206,8 @@ This perspective is highlighted for instance in ([Deitmar 06, p. 2](#Deitmar06),
 * {#ElmendorfMandell04} [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, Adv. in Math. 205 (2006), no. 1, 163-228 ([arXiv:math/0403403](https://arxiv.org/abs/math/0403403))
  
 * {#ElmendorfMandell09} [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082), [euclid:1513797088](https://projecteuclid.org/euclid.agt/1513797088))
+
+* {#Guillou10} [[Bertrand Guillou]], _Strictification of categories weakly enriched in symmetric monoidal categories_, Theory Appl. Categ., 24:No. 20, 564–579, 2010.
 
 The interpretation of [[stable cohomotopy]] as the algebraic K-theory over the [[field with one element]] is adopted in
 
@@ -160,3 +221,6 @@ The generalization of K-theory of permutative categories to [[Mackey functors]] 
 
 
 [[!redirects K-theory of permutative categories]]
+
+[[!redirects K-theory spectrum of a permutative category]]
+[[!redirects K-theory spectra of permutative categories]]
