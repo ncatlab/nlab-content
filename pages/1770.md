@@ -137,7 +137,7 @@ $$
 ###### Proposition
 **([[smooth sets]] form a [[cohesive topos]])**
 
-The [[category]] $SmoothSet$ of [[smooth sets]] ([this Def.](geometry+of+physics+--+smooth+sets#CategoryOfSmoothSets)) is a [[cohesive topos]] (Def. \ref{CohesiveTopos})
+The [[category]] $SmoothSet$ of [[smooth sets]] is a [[cohesive topos]] 
 
 \[
   \label{SheafToposAdjointQuadruple}
