@@ -27,6 +27,76 @@ The terminal category is a [[discrete category]] that, as a [[set]], may be call
 
 So far we have interpreted "terminal" as referring to the 1-category $Cat$.  If instead we interpret "terminal" in the [[2-limit|2-categorical]] sense, then any category [[equivalence of categories|equivalent]] to the one-object-one-morphism category described above is also terminal.  A category is terminal in this sense precisely when it is [[inhabited set|inhabited]] and [[indiscrete category|indiscrete]].  For such a category $1$, the functor category $[1,C]$ is equivalent, but not isomorphic, to $C$.
 
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]].
+
+1. The following are equivalent:
+
+   1. $\mathcal{C}$ has a [[terminal object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[right adjoint]]
+
+      $$
+        \ast 
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \mathcal{C}
+      $$
+
+    Under this equivalence, the [[terminal object]] is identified with the image under the right adjoint of the unique object of the [[terminal category]].
+
+1. Dually, the following are equivalent:
+
+   1. $\mathcal{C}$ has an [[initial object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[left adjoint]]
+
+      $$
+        \mathcal{C}
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \ast
+      $$
+
+    Under this equivalence, the [[initial object]] is identified with the image under the left adjoint of the unique object of the [[terminal category]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since the unique [[hom-set]] in the [[terminal category]] is [[generalized the|the]] [[singleton]], the hom-isomorphism characterizing the [[adjoint functors]] is directly the [[universal property]] of an [[initial object]] in $\mathcal{C}$
+ 
+$$
+  Hom_{\mathcal{C}}( L(\ast) , X )
+  \;\simeq\;
+  Hom_{\ast}( \ast, R(X) ) 
+  =
+  \ast 
+$$
+
+or of a [[terminal object]]
+
+$$
+  Hom_{\mathcal{C}}( X , R(\ast) )
+  \;\simeq\;
+  Hom_{\ast}( L(X), \ast ) = \ast
+  \,,
+$$
+
+respectively.
+
+=--
+
+
 ## Related concepts
 
 * [[initial category]]
