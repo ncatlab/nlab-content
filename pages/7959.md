@@ -298,6 +298,11 @@ Original articles include
 
 * [[Bobby Acharya]], Konstantin Bobkov, _K&#228;hler Independence of the $G_2$-MSSM_, JHEP ([arXiv:0810.3285](http://arxiv.org/abs/0810.3285))
 
+See also
+
+* {#Anderson08} [[Lara Anderson]], _Heterotic and M-theory Compactifications for String Phenomenology_ ([arXiv:0808.3621](https://arxiv.org/abs/0808.3621))
+
+
 #### Non-supersymmetric models
 
 A survey of string model buidling without low energy susy is in 
