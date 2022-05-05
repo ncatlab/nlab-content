@@ -113,6 +113,64 @@ Until then, abstract homotopy theory has to be formulated on top of the traditio
 
 A very convenient and powerful such emulator for homotopy theory within set theory is _[[model categories|model category theory]]_, originally due to [Quillen 67](#Quillen67) and highly developed since. This we introduce here. 
 
+The idea is to consider ordinary [[categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Categories)) but with the understanding that some of its [[morphisms]] 
+
+$$
+  X 
+    \overset{f}{\longrightarrow}
+  Y
+$$
+
+should be, or would be, _[[homotopy equivalences]]_ (Def. \ref{HomotopyEquivalence}), namely similar to [[isomorphisms]] (Def. \ref{geometry+of+physics+--+categories+and+toposes#Isomorphism}), but satisfying the two [[equations]] defining an actual isomorphism 
+
+$$
+  f^{-1} \circ f \;=\; id_{X}
+  \phantom{AAAA}
+  f \circ f^{-1} \;=\; id_Y
+$$ 
+
+only with [[equality]] relaxed to [[gauge transformation]]/[[homotopy]]
+
+$$
+  f^{-1} \circ f \;\overset{gauge}{\Rightarrow}\; id_{X}
+  \phantom{AAAA}
+  f \circ f^{-1} \;\overset{gauge}{\Rightarrow}\; id_Y
+  \,.
+$$ 
+
+Such _would-be homotopy equivalences_ are called _[[weak equivalences]]_ (Def. \ref{CategoryWithWeakEquivalences} below). 
+
+In principle, this information already defines a [[homotopy theory]] by a construction called _[[simplicial localization]]_, which turns [[weak equivalences]] into actual [[homotopy equivalences]] in a suitable way (Remark \ref{SimplicialLocalizationOutlook} below). 
+
+However, without further tools this construction is very unwieldy. The extra structure of a _[[model category]]_ (Def. \ref{ModelCategory} below) on top of a [[category with weak equivalences]] provides the missing tools in an elegant way.
+
+The idea here is to abstract (in Def. \ref{LeftAndRightHomotopyInAModelCategory} below) from the evident concepts in [[topological homotopy theory]] of _[[left homotopy]]_ (Def. \ref{LeftHomotopy}) and _[[right homotopy]]_ (Def. \ref{RightHomotopy}) between [[continuous functions]]: These are provided by continuous functions out of a [[cylinder|cylinder space]] $Cyl(X)  = X \times [0,1]$ or into a [[path path]] $Path(X) = X^{[0,1]}$, respectively, where in both cases the [[interval|interval space]] $[0,1]$ serves to parameterize the relevant [[gauge transformation]]/[[homotopy]].
+
+Now a little reflection shows that what really matters in this construction of [[homotopies]] in [[topological homotopy theory]] is that the [[path space]] factors the [[diagonal morphism]] from a space $X$ to its [[Cartesian product]] as
+
+$$
+  diag_X 
+    \;\colon\; 
+  X 
+    \underoverset{\text{weak equiv.}}{\text{ cofibration }}{\longrightarrow}
+  Path(X)
+     \overset{\text{ fibration }}{\longrightarrow}
+  X \times X  
+$$
+
+while the cylinder serves to factor the [[codiagonal morphism]] as 
+
+$$
+  codiag_X
+  \;\colon\;
+  X \sqcup X
+    \overset{ \text{cofibration} }{\longrightarrow}
+  Cyl(X)
+    \underoverset{ \text{weak equiv} }{ \text{fibration} }{\longrightarrow}
+  X
+$$
+
+
 
 **Literature** ([Dwyer-Spalinski 95](#DwyerSpalinski95))
 
@@ -121,6 +179,7 @@ $\,$
 
 +-- {: .num_defn #CategoryWithWeakEquivalences}
 ###### Definition
+**([[category with weak equivalences]])**
 
 A **[[category with weak equivalences]]** is
 
@@ -152,8 +211,9 @@ such that
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #SimplicialLocalizationOutlook}
 ###### Remark
+**([[simplicial localization]])**
 
 It turns out that a [[category with weak equivalences]], def. \ref{CategoryWithWeakEquivalences}, already determines a [[homotopy theory]]: the one given given by universally forcing weak equivalences to become actual [[homotopy equivalences]]. This may be made precise and is called the _[[simplicial localization]]_ of a category with weak equivalences ([Dwyer-Kan 80a](simplicial+localization#DwyerKanLocalizations), [Dwyer-Kan 80b](simplicial+localization#DwyerKanCalculating), [Dwyer-Kan 80c](simplicial+localization#DwyerKanFunctionComplexes)). However, without further auxiliary structure, these simplicial localizations are in general intractable. The further axioms of a [[model category]] serve the sole purpose of making the universal homotopy theory induced by a [[category with weak equivalences]] be tractable:
 
@@ -161,6 +221,7 @@ It turns out that a [[category with weak equivalences]], def. \ref{CategoryWithW
 
 +-- {: .num_defn #ModelCategory}
 ###### Definition
+**([[model category]])**
 
 A **[[model category]]** is
 
@@ -1294,6 +1355,7 @@ For the case of the canonical topological path space objects of def \ref{Topolog
 
 +-- {: .num_defn #LeftAndRightHomotopyInAModelCategory}
 ###### Definition
+**(abstract [[left homotopy]] and abstract [[right homotopy]]
 
 Let $f,g \colon X \longrightarrow Y$ be two [[parallel morphisms]] in a [[model category]].
 
@@ -1868,8 +1930,9 @@ all regarded a [[categories with weak equivalences]] (def. \ref{CategoryWithWeak
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #CategoriesOfFibrantObjects}
 ###### Remark
+**([[categories of fibrant objects]] and [[cofibration categories]])**
 
 Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} inherit more structure than just that of [[categories with weak equivalences]] from $\mathcal{C}$. $\mathcal{C}_f$ and $\mathcal{C}_c$ each inherit "half" of the factorization axioms. One says that $\mathcal{C}_f$ has the structure of a "[[fibration category]]" called a "Brown-[[category of fibrant objects]]", while $\mathcal{C}_c$ has the structure of a "[[cofibration category]]".
 
@@ -6048,6 +6111,7 @@ $$
 
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
+**([[left homotopy]])**
 
 For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]**
 
@@ -6202,6 +6266,7 @@ At this point we don't go further into the abstract reason why def. \ref{Homotop
 
 +-- {: .num_defn #HomotopyEquivalence}
 ###### Definition
+**([[homotopy equivalence]])**
 
 A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
 is called a **[[homotopy equivalence]]** if there exists a
@@ -6398,8 +6463,9 @@ So while in general the [[diagonal]] $\Delta_X$ is far from being an [[epimorphi
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #RightHomotopy}
 ###### Definition
+**([[right homotopy]])**
 
 For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[right homotopy]]** $f \Rightarrow_R g$ is a [[continuous function]]
 
