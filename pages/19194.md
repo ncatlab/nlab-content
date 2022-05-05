@@ -31,7 +31,7 @@ $$
 
 This way binary cyclic groups are related to cyclic groups as the [[binary dihedral groups]] are related to the [[dihedral groups]]. Note that if $n+1$ is odd, then the extension is (necessarily) the trivial extension, and if $n+1$ is even, then this extension is the (unique) nontrivial extension. 
 
-From the point of view of the [[classification of finite rotation groups]], the cyclic groups, dihedral groups etc. are the [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$, while their binary versions are the corresponding subgroups of the [[special unitary group]] $SU(2)$, under the [[double cover]]-projection $SU(2) \simeq Spin(3) \to SO(3)$.
+From the point of view of the [[classification of finite rotation groups]], the cyclic groups, dihedral groups etc. are the [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$, while their binary versions are those subgroups of the [[special unitary group]] $SU(2)$ that arise from the former by taking [[preimages]] under the [[double cover]]-projection $SU(2) \simeq Spin(3) \to SO(3)$.
 
 [[!include ADE -- table]]
 
