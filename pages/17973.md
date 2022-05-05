@@ -138,7 +138,7 @@ Lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): see references [below](
 ### Cosmology
  {#Cosmology}
 
-Since the [[near horizon geometry]] of [[black branes]] is the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of these intersecting D-brane models realizes the [[observable universe]] on the asymptotic boundary of an [[anti de Sitter spacetime]]. Models roughly of this kind are known as [[Randall-Sundrum models]] (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)).
+Since the [[near horizon geometry]] of [[BPS state|BPS]] [[black branes]] is the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of intersecting D-brane models realizes the [[observable universe]] on the [[asymptotic boundary]] of an [[anti de Sitter spacetime]], or similar. Models roughly of this kind are known as [[Randall-Sundrum models]] (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)).
 
 
 ## References
