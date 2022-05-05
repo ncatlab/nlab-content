@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the context of [[homological algebra]] the [[right derived functor]] of the [[hom-functor]] is called the _$Ext$-functor_ . It derives its name from the fact that the derived hom between [[abelian groups]] classifies abelian [[group extensions]] of $A$ by $K$. (This is a special case of the general classification of [[principal ∞-bundles]]/[[∞-group extensions]] by general [[cohomology]]/[[group cohomology]].)
+In the context of [[homological algebra]] the [[right derived functor]] of the [[hom-functor]] is called the _$Ext$-functor_ . It derives its name from the fact that the [[derived hom-functor]] between [[abelian groups]] classifies abelian [[group extensions]] of $A$ by $K$. (This is a special case of the general classification of [[principal ∞-bundles]]/[[∞-group extensions]] by general [[cohomology]]/[[group cohomology]].)
 
 Together with the [[Tor]]-functor it is one of the central objects of interest in homological algebra.
 
@@ -453,7 +453,7 @@ $$
 
 ## Applications in cohomology
 
-[[derived hom-space|Derived hom-functors]]such as the $Ext$ on chain compelxes compute general notions of _[[cohomology]]_ (see the discussion there). Here we list some specific incarnations of the $Ext$-construction in the context of cohomology.
+A [[derived hom-functor]] such as the $Ext$ on chain complexes compute general notions of _[[cohomology]]_ (see the discussion there). Here we list some specific incarnations of the $Ext$-construction in the context of cohomology.
 
 ### Universal coefficient theorem
 
