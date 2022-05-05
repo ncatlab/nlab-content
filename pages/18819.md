@@ -949,7 +949,7 @@ defined as follows:
    $$
 
 1. for $f \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[smooth function]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
-   the operation of fullback of plots along $f$ is just the [[pullback of differential forms]] $f^\ast$ from prop. \ref{PullbackOfDifferentialForms}
+   the operation of pullback of plots along $f$ is just the [[pullback of differential forms]] $f^\ast$ from prop. \ref{PullbackOfDifferentialForms}
    $$
      \array{
        \mathbb{R}^{n_1} && \Omega^k(\mathbb{R}^{n_1})
