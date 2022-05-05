@@ -21,7 +21,7 @@
 =--
 =--
 
-A set of lecture notes on [[differential geometry]] and theoretical fundamental [[physics]], combining an introduction to traditional notions with an exposition of their formulation and refinement by [[higher geometry]] and [[extended prequantum field theory]]. With an eye towards [[Hilbert's sixth problem]] approached via [[cohesion]] ("[[schreiber:Synthetic Quantum Field Theory]]").
+A set of lecture notes on [[differential geometry]] and theoretical fundamental [[physics]], combining an introduction to traditional notions with an exposition of their formulation and refinement by [[higher geometry]] and [[extended prequantum field theory]]. With an eye towards [[Hilbert's sixth problem]] approached via [[cohesion]].
 
 Divided into two parts:
 
@@ -30,6 +30,106 @@ Divided into two parts:
 * **Part II) [Physics](#PHYSICS)**
 
 ***
+
+$\,$
+
+
+The [[nLab:geometry of physics|geometry of fundamental physics]] is _[[nLab:higher differential geometry|higher differential]] [[nLab:supergeometry]]_.
+
+| $\phantom{AA}$ [[nLab:physics]] $\phantom{AA}$ | $\phantom{AA}$ [[nLab:mathematics]] $\phantom{AA}$ |
+|---------|--------------|
+| $\phantom{AA}$ [[nLab:gauge principle]] $\phantom{AA}$ | $\phantom{AA}$ [[nLab:higher geometry]] $\phantom{AA}$<br/> $\phantom{AA}$ ([[nLab:(infinity,1)-topos theory|geometric homotopy theory]]) $\phantom{AA}$ |
+| $\phantom{AA}$ [[nLab:Pauli exclusion principle]] $\phantom{AA}$ | $\phantom{AA}$ [[nLab:supergeometry]] $\phantom{AA}$ |
+{: style='margin:auto}
+
+
+Here:
+
+
+1. **[[nLab:supergeometry|Supergeometry]]** is [[nLab:geometry]] whose [[nLab:spaces]] may have [[nLab:algebras of functions]] that are $\mathbb{Z}_2$-[[nLab:graded-commutative algebras]]. This is the mathematical reflection of the [[nLab:Pauli exclusion principle]], which says that a [[nLab:fermionic]] [[nLab:wave function]] $\Psi$ on a [[nLab:phase space]] of a [[nLab:physical system]] with [[nLab:fermions]] has to have vanishing square. By linearity this implies that
+
+   $$
+     \begin{aligned}
+       0 & = (\Psi_1 + \Psi_2)^2 
+       \\
+       & =
+       \underset{ = 0}{\underbrace{ (\Psi_1)^2 }}  
+       +
+       \underset{ = 0}{\underbrace{ \Psi_1 \Psi_2 + \Psi_2 \Psi_1 }}
+       +
+       \underset{ = 0}{\underbrace{ (\Psi_2)^2 }}
+     \end{aligned}
+   $$
+
+   and hence that fermionic [[nLab:wave functions]] _[[nLab:graded commutative algebra|anti-commute]]_, and hence are the odd-graded elements in a _[[nLab:commutative superalgebra]]_ (a _slightly_ [[nLab:noncommutative algebra]]!)
+
+   Ever since the existence of [[nLab:fermions|fermionic]] [[nLab:particles]] was [[nLab:experiment|experimentally]] established, around the time of the [[nLab:Stern-Gerlach experiment]] in the 1920s, it is thus an [[nlab:experiment|experimental]] fact that fundamental physics is described by _[[nLab:supergeometry]]_. (This is _not_ necessarily [[nLab:supersymmetry|super]]-<em>[[nLab:supersymmetry|symmetric]]</em>, though of course there is a [close relation](geometry+of+physics+--+supersymmetry#SupersymmetryFromTheSuperpoint).)
+
+
+1. **[Higher structures](https://ncatlab.org/schreiber/show/Higher+Structures)** is short for _higher [[nLab:homotopy theory|homotopy theoretic]]_ [[nLab:structures]] and reflects the [[nLab:gauge principle]] of [[nLab:physics]]: This says that, generally, it does not make invariant sense to ask if any two things $x$, $y$ (e.g. [[nLab:field histories]]) are [[nLab:equality|equal]], instead one must ask for a _[[nLab:gauge transformation]]_ between them, mathematically a _[[nLab:homotopy]]_:
+
+   $$
+     x \stackrel{\gamma}{\longrightarrow} y
+   $$
+   
+   This principle applies also to [[nLab:gauge transformations]] themselves, and thus leads to [[nLab:gauge-of-gauge transformations]] 
+
+   <center><img src="https://ncatlab.org/nlab/files/2Cell.jpg" width = "200"></center>
+
+   and so on to ever [[nLab:higher gauge transformations]]:
+
+   <center><img src="https://ncatlab.org/nlab/files/3Cell.jpg" width = "200"></center>
+
+   mathematically reflected by [[nLab:higher homotopies]] in _[[nLab:homotopy types|higher homotopy types]]_.
+
+   Ever since the existence of [[nLab:gauge fields]] was understood in the 1920s, it is thus an [[nlab:experiment|experimental]] fact that fundamental physics is described by _[[nLab:higher geometry]]_. 
+
+
+A striking consequence is that, both in [[nLab:higher geometry]] as well as in [[nLab:supergeometry]] and therefore in the [[nLab:geometry of physics|geometry of fundamental physics]], [[nLab:spaces]] generally are _not_ [[nLab:sets]] of [[nLab:points]] (as in the traditional definition of [[nLab:topological spaces]] or [[nLab:differentiable manifolds]]).
+
+What, then, _is_ the [[nLab:geometry of physics|geometry of fundamental physics]]?
+
+The right framework to answer questions like this has been _urged_ by [[nLab:Alexander Grothendieck]] already in [Grothendieck 73](functorial+geometry#Grothendieck73) (see [Lawvere 16](https://ncatlab.org/nlab/show/functorial+geometry#Lawvere16Quote)) and has been much expanded on by [[nLab:William Lawvere]] (e.g. [[nLab:Toposes of laws of motion|Lawvere 97]], [[nLab:Some Thoughts on the Future of Category Theory|Lawvere 91]]) and has an evident lift to [[nLab:higher geometry]] ([[nLab:Structured Spaces|Lurie 09]], [S. 13](https://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos)), but has remained somewhat of a "public secret": 
+
+The answer is known, alternatively, as ([[nLab:higher geometry|higher]]) _[[nLab:functorial geometry]]_ (Grothendieck) or _[[nLab:synthetic differential geometry]] in [[nLab:gros toposes]]_ (Lawvere), or variants thereof.
+
+In this lecture series we try to give a self-contained introduction to [[nLab:higher differential geometry|higher differential]] [[nLab:supergeometry]] this way, following [[schreiber:differential cohomology in a cohesive topos|Schreiber 13]]. We begin at the beginning, with introducing relevant basics of [[nLab:category theory]] and [[nLab:topos theory]] and will provide brief indication of real-world applications to [[nLab:perturbative quantum field theory]] and [[nLab:fundamental super p-branes]].
+
+The [[nLab:higher differential geometry]] which we lay out subsumes various special cases that are discussed separately in the literature. Notably [[diffeological spaces]] find home and company here:  We explain how these are equivalently the _[[nLab:concrete objects]]_ among the the [[nLab:bosonic]] [[nLab:smooth set|smooth]] [[nLab:h-sets]]:
+
+$$
+  \array{
+    \big\{  
+      \text{diffeological spaces}  
+    \big\}
+    \\
+    \;\simeq\;
+    \\
+    \big\{
+      \text{concrete bosonic smooth h-sets}  
+    \big\}
+  }
+  \,.
+$$
+
+and we discuss how, even if one is initially interested only in ordinary [[nLab:smooth manifolds]] or only in [[nLab:diffeological spaces]], it is useful to work with more general [[nLab:super differential homotopy types]].
+
+<center>
+<img src="https://www.ncatlab.org/schreiber/files/GeometriesWithDiffeological.jpg" width="760">
+</center>
+
+> graphics taken from _[Higher Prequantum Geometry](https://ncatlab.org/schreiber/show/Higher+Prequantum+Geometry)_
+
+$\,$
+
+
+
+$\,$
+
+
+
+***
+
 
 
 +-- {: bluebox}
@@ -45,8 +145,6 @@ Divided into two parts:
 1. [Categories and Toposes](#CategoriesAndToposes)
 
 **Part I) [Geometry](#GEOMETRY)**
-
-1. [Coordinate systems](#CoordinateSystems)
 
 1. [Smooth sets](#SmoothSpaces)
 
@@ -452,9 +550,6 @@ We now end this introduction and overview and turn to the in-depth account of _g
 We begin by laying the foundations of [[differential geometry]]. Doing this in the natural abstract way seamlessly leads over to the foundations of [[higher differential geometry]] (see also _[[motivation for higher differential geometry]]_). Once this is set up, we discuss the fundamental constructions: [[groups]], [[actions]]/[[representations]], [[fiber bundles]], [[connection on a bundle|connections]], [[Chern-Weil theory]].
 
 
-
-1. [Coordinate systems](#CoordinateSystems)
-
 1. [Smooth spaces](#SmoothSpaces)
 
 1. [Differential forms](#DifferentialForms)
@@ -499,12 +594,6 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
  {#CategoriesAndToposes}
 
 This chapter is as _[[geometry of physics -- Categories and Toposes]]_
-
-
-## **Coordinate systems**
- {#CoordinateSystems}
-
-This chapter is at _[[geometry of physics -- coordinate systems]]_
 
 
 ## **Smooth spaces**
