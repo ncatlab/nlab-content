@@ -1,7 +1,7 @@
 
 **Bastiaan Cornelis van Fraassen** is a distinguished philosopher of science.
 
-* [homepage](http://www.princeton.edu/~fraassen/)
+* [homepage](http://www.basvanfraassen.org/)
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Bas_van_Fraassen)
 
