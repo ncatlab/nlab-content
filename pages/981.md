@@ -12,7 +12,7 @@ The cycle category is used for the description of the cyclic structure on [[Hoch
 
 ## Definitions 
 
-Multiple descriptions of the cycle category $\Lambda$ are possible, but a convenient starting point is to consider first a category $L$ whose morphisms are natural numbers $n \geq 0$, and where the hom-set $L(m, n)$ consists of increasing functions $f: \mathbb{Z} \to \mathbb{Z}$ satisfying the "spiraling property", that $f(i + m + 1) = f(i) + n + 1$, with composition given by functional composition. Then, define $\Lambda$ to be a quotient category of $L$ having the same objects, with $\Lambda(m, n) = L(m, n)/\sim$ where $\sim$ is the equivalence relation for which $f \sim g$ means $f - g$ is a constant multiple of $n+1$. Let $q: L \to \Lambda$ be the quotient. 
+Multiple descriptions of the cycle category $\Lambda$ are possible, but a convenient starting point is to consider first a category $L$ whose objects are natural numbers $n \geq 0$, and where the hom-set $L(m, n)$ consists of increasing functions $f: \mathbb{Z} \to \mathbb{Z}$ satisfying the "spiraling property", that $f(i + m + 1) = f(i) + n + 1$, with composition given by functional composition. Then, define $\Lambda$ to be a quotient category of $L$ having the same objects, with $\Lambda(m, n) = L(m, n)/\sim$ where $\sim$ is the equivalence relation for which $f \sim g$ means $f - g$ is a constant multiple of $n+1$. Let $q: L \to \Lambda$ be the quotient. 
 
 +-- {: .num_remark #simplex} 
 ###### Remark 
