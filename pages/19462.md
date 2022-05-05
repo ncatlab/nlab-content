@@ -85,13 +85,15 @@ For the use of generalized quantifiers in natural language semantics see
 
 * J. Barwise, R. Cooper, _Generalized Quantifiers and Natural Language_ , Linguistics and Philosophy **4** no.2 (1981) pp.159-219.
 
-* H. Ben-Yami, _Generalized Quantifiers, and Beyond_ , Logique Et Analyse no.208 (2009) pp.309-326.
-
-* M. Hackl, _On the Grammar and Processing of Proportional Quantifiers: Most Versus More Than Half_ , Natural Language Semantics **17** no.1 (2009) pp.63-98.
-
 * E. Keenan, J. Stavi, _A semantic characterization of natural language determiners_ , Linguistics & Philosophy **9** (1986) pp.253–326.
 
 * D. Westerståhl, _Generalized quantifiers: linguistics meets model theory_ , in Aloni, Dekker (eds.), _The Cambridge Handbook of Semantics_ , Cambridge UP 2014. ([draft](https://www.philosophy.su.se/polopoly_fs/1.165898.1391710202!/menu/standard/file/2013%20CambridgeHandbookGQ.pdf))
+
+Some problems with the standard approach in linguistics are discussed in
+
+* H. Ben-Yami, _Generalized Quantifiers, and Beyond_ , Logique Et Analyse no.208 (2009) pp.309-326.
+
+* M. Hackl, _On the Grammar and Processing of Proportional Quantifiers: Most Versus More Than Half_ , Natural Language Semantics **17** no.1 (2009) pp.63-98.
 
 A dependent type theoretic analysis of natural language generalized quantifiers is in
 
