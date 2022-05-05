@@ -84,11 +84,11 @@ sends $1_X$ to $j_X$.  (This is then essentially a definition of $j_X$, so that 
 
 The two are essentially equivalent, and the one given here is perhaps a little simpler, as well as obeying the [[principle of equivalence]].  To be precise, every closed category in the sense of Eilenberg-Kelly is also one in the above sense, and conversely every closed category in the above sense is *isomorphic* to one in the sense of Eilenberg-Kelly.  The latter has the same objects and internal-homs, but new hom-sets $\hat{C}(X,Y) \coloneqq C(I,[X,Y])$, and underlying-set functor $U(X) \coloneqq C(I,X)$ (note that this is different from $\hat{C}(I,X) = C(I,[I,X])$).  See [Manzyuk](#Manzyuk09) for the proof.
 
-### A non-unital version
+### Omitting units: semi-closed categories
 
 The fact (discussed below) that closed categories, in the above sense, are equivalent to closed [[multicategories]] with unit, suggests that there ought to be a version of closed categories that *don't* necessarily have a unit object $I$.  In fact in this case the definition becomes simpler because we can omit all the $i$'s and $j$'s, but there is an additional wrinkle that we have to include "left evaluation" as a new operation.  Furthermore, it seems that we have to use the Eilenberg-Kelly version of the definition, not the LaPlaza one; the "underlying set" functor $U:C\to Set$ corresponds to the nullary homsets $C(;-)$ of a multicategory.
 
-A **non-unital closed category** is a [[category]] $C$ together with the following data:
+A **semi-closed category** is a [[category]] $C$ together with the following data:
 
 * A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
 
@@ -139,7 +139,17 @@ I don't know of anywhere that the details are worked out for the cartesian case.
 
 ## Examples
 
-* Any [[closed monoidal category]] gives a closed category, by simply forgetting the tensor product and remembering only the internal-hom.  Most examples seem to be of this sort, although as remarked above it is often the case that the closed structure is "primary" and the tensor product is defined as a [[left adjoint]] to it (see below).  Notice also, as discussed [below](#EmbedIntoCloseMon) that every closed category arises as the full [[subcategory]] of a closed monoidal category.
+* Any [[closed monoidal category]] gives a closed category, by simply forgetting the tensor product and remembering only the internal-hom.  Most examples seem to be of this sort (in fact, as discussed [below](#EmbedIntoCloseMon), *every* closed category arises as the full [[subcategory]] of a closed monoidal category).  However, as remarked above it, is often the case that the closed structure is "primary" and the tensor product is defined as a [[left adjoint]] to it (see below).  For instance:
+
+  * In the category [[Ab]] of [[abelian groups]] the internal-hom $[X,Y]$ is the set of group homomorphisms $X\to Y$ with the pointwise addition, giving a closed category.
+
+  * More generally, for any [[commutative theory]] $T$, the category of $T$-algebras has an internal-hom $[X,Y]$ that is the set of $T$-algebra maps with the pointwise operations (this is again a $T$-algebra by commutativity).
+
+  * In the category [[2Cat]] of [[strict 2-categories]], the internal-hom $[X,Y]$ can be taken to be the category of strict 2-functors $X\to Y$ and [[lax natural transformation|pseudo, lax, or oplax natural transformations]] between them, giving three closed categories.
+
+  * In the category $Unif$ of [[uniform spaces]] the internal-hom $[X,Y]$ can be taken to be the set of uniformly continuous functions $X\to Y$ with either the uniformity of uniform convergence or of pointwise convergence, giving two closed categories.
+
+  In all these examples there is a corresponding tensor product, but its construction is much less intuitive, being essentially defined by a sort of [[adjoint functor theorem]] or [[initial lift]] that gives little information about what it actually looks like.
 
 * Any [[multicategory]] which has a unit, i.e. an object $I$ such that $C(;Y) \cong C(I;Y)$ naturally, and is closed in the sense that for any $Y,Z$ there is an object $[Y,Z]$ with natural isomorphisms $C(X_1,\dots,X_n,Y;Z) \cong C(X_1,\dots,X_n; [Y,Z])$, gives rise to a closed category.  Conversely, from any closed category we can construct a multicategory of this sort, by defining the multimaps as $C(X_1,\dots,X_n; Z) = C(I, [X_1,\dots,[X_n,Z]])$.  Thus closed categories are essentially equivalent to closed unital multicategories.
 
