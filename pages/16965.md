@@ -45,7 +45,7 @@ The [[fixed point spectrum]] of an [[equivariant suspension spectrum]] is given 
 $$
   F^G(\Sigma^\infty_G X)
   \simeq
-  \underset{[H\subset G]}{\vee}
+  \underset{[H\subset G]}{\bigvee}
   \Sigma^\infty( E (W_G H)_+ \wedge_{W_G H} X^H )
 $$
 
@@ -61,7 +61,7 @@ $$
   \Sigma^\infty( X^G )
     \vee
   \left(
-    \underset{{[H\subset G]} \atop {1 \neq H \neq G}}{\vee}
+    \underset{{[H\subset G]} \atop {1 \neq H \neq G}}{\bigvee}
     \Sigma^\infty( E (W_G H)_+ \wedge_{W_G H} X^H )
   \right)
     \vee
@@ -84,23 +84,22 @@ $$
 
 ### For equivariant homotopy groups
 
-It follows that for $X$ a pointed [[topological G-space]] then its [[equivariant homotopy groups]] are  
+It follows that for $X$ a pointed [[topological G-space]], its [[equivariant homotopy groups]] are  
 
 $$
   \begin{aligned}
     \pi_\bullet^G(\Sigma^\infty X)
     & 
     \simeq
-    \underset{[H \subset G]}{\oplus}
+    \underset{[H \subset G]}{\bigoplus}
     \pi_\bullet^{W_G H}(\Sigma^\infty (E (W_G H)_+ \wedge X^H))
     \\
     &\simeq
     \pi_\bullet(\Sigma^\infty X^G)
     \oplus
-    \underset{{[H \subset G]} \atop {H \neq G}}{\oplus}
-    \pi_\bullet^{W_G H}(\Sigma^\infty (E (W_G H)_+ \wedge_{W_G H} X^H))
+    \underset{{[H \subset G]} \atop {H \neq G}}{\bigoplus}
+    \pi_\bullet^{W_G H}(\Sigma^\infty (E (W_G H)_+ \wedge X^H))
   \end{aligned}
-  \,,
 $$
 
 where the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$.
