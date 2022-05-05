@@ -756,6 +756,22 @@ Discussion of the dual 6-form field to the 3-form C-field (required notably in t
 
 * [[Eric Bergshoeff]], Mees de Roo, [[Olaf Hohm]], _Can dual gravity be reconciled with E11?_, 	Phys.Lett.B675:371-376,2009 ([arXiv:0903.4384](http://arxiv.org/abs/0903.4384))
 
+Discussion of [[discrete torsion]] ([[orbifold]] [[equivariant cohomology|equivariance]] for the C-field) is  in
+
+
+Discussion of [[discrete torsion]] ([[orbifold]] [[equivariant cohomology|equivariance]]) for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]] is discussed in
+
+* [[Eric Sharpe]], _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys.Rev. D68 (2003) 126004 ([arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170))
+
+* Shigenori Seki, _Discrete Torsion and Branes in M-theory from Mathematical Viewpoint_, Nucl.Phys. B606 (2001) 689-698 ([arXiv:hep-th/0103117](https://arxiv.org/abs/hep-th/0103117))
+
+and applied to discussion of [[black brane|black]] [[M2-brane]] [[worldvolume]] [[field theory]] ([[ABJM model]]) in
+
+* [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+
+* [[Mauricio Romo]], _Aspects of ABJM orbifolds with discrete torsion_, J. High Energ. Phys. (2011) 2011 ([arXiv:1011.4733](https://arxiv.org/abs/1011.4733))
+
+
 [[!redirects C3-field]]
 [[!redirects C-field]]
 
