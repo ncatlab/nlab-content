@@ -59,6 +59,12 @@ Discussion of plenty of [[cohomology|cohomological]] structures involved in M-br
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, 2010
 
+Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy theory|rational equivariant]] [[cohomotopy]] is in 
+
+* [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+
+
 The [[brane intersection]] laws of M-branes are discussed in
 
 * [[Eric Bergshoeff]], M. Roo, E. Eyras, [[Bert Janssen]], J. P. Schaar, _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. 14 2757 ([publisher](http://iopscience.iop.org/0264-9381/14/10/005/))
