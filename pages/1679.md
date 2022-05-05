@@ -44,11 +44,15 @@ When you get tired of thinking individually about $n$-categories, functors, tran
 
 (Some discussion from here has also been moved to there.)
 
+## Related concepts
+
+* [[2-functor 2-category]]
+
 
 ## References
 
-[[Tom Leinster]], _Basic bicategories_,
-[arXiv](http://arxiv.org/abs/math/9810017).
+* [[Tom Leinster]], _Basic bicategories_,
+([arXiv:math/9810017](http://arxiv.org/abs/math/9810017))
 
 
 [[!redirects modification]]
