@@ -1,4 +1,119 @@
 
++-- {: .num_lemma}
+###### Lemma
+
+Let 
+
+$$
+  \mathcal{C}
+    \array{
+      \overset{ \phantom{A} \Pi \phantom{A} }{\longrightarrow}
+      \\
+      \overset{ \phantom{A} Disc \phantom{A} }{\hookleftarrow}
+      \\
+      \overset{ \phantom{A} \Gamma \phantom{A} }{ \longrightarrow }
+    }
+  \mathcal{D}
+$$
+
+be an [[adjoint triple]], with $Disc$ a [[fully faithful functor]].  Denoting the [[adjunction units]]/[[adjunction counit|counits]] as
+
+| $\phantom{A}$ [[adjunction]] $\phantom{A}$ | $\phantom{A}$ [[adjunction unit|unit]] $\phantom{A}$ | $\phantom{A}$ [[adjunction counit|counit]] $\phantom{A}$ |
+|----------|-----------|----------|
+| $\phantom{A}$ $(\Pi \dashv Disc)$ $\phantom{A}$ | $\phantom{A}$  $\eta^{&#643;}$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^{&#643;}$ $\phantom{A}$ |
+| $\phantom{A}$ $(Disc \dashv \Gamma)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\flat$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\flat$ $\phantom{A}$ |
+{: style='margin:auto}
+
+then the following [[composition|composites]] of unit/counit components are equal:
+
+\[
+  \label{CoincidenceOfNaturalTransformationsForAdjointTriple}
+  \left( 
+    \eta^{\flat}_{\Pi X}
+  \right)
+  \circ
+  \left( 
+    \Pi \epsilon^\flat_X 
+  \right)
+  \;\;=\;\;
+  \left(
+    \Gamma \eta^{&#643;}_{X}
+  \right)
+  \circ
+  \left(
+    \epsilon^{&#643;}_{\Gamma X}
+  \right)
+  \phantom{AAAAAA}
+  \array{
+    \Pi Disc \Gamma X 
+    &\overset{\epsilon^{&#643;}_{\Gamma X}}{\longrightarrow}& 
+    \Gamma X
+    \\
+    {}^{ \mathllap{ \Pi \epsilon^\flat_X } }\big\downarrow
+    && 
+       \big\downarrow^{\mathrlap { \Gamma \eta^{&#643;}_{X} } }
+    \\
+    \Pi X
+    &\underset{ \eta^\flat_{\Pi X} }{\longrightarrow}&
+    \Gamma Disc \Pi X
+  }
+\]
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+We claim that the following [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    && && \Gamma X
+    \\
+    && & {}^{ \epsilon^&#643;_{\Gamma X} }\nearrow 
+    && \searrow^{\mathrlap{ \Gamma \eta^{&#643;}_X }}
+    \\
+    && \Pi Disc \Gamma X
+    && && \Gamma Disc \Pi X
+    \\
+    & {}^{ \Pi \epsilon^\flat_X }\swarrow
+    && \searrow^{ \mathrlap{ \Pi Disc \Gamma \eta^{&#643;}_X } }
+    && {}^{\mathllap{ \eta^{&#643;}_{\Gamma Disc \Pi X} }}\nearrow 
+    && \nwarrow^{ \mathrlap{ \eta^{\flat}_{\Pi X} } }
+    \\
+    \Pi X
+    && && \Pi Disc \Gamma Disc \Pi X
+    && && \Pi X
+    \\
+    & {}_{\mathllap{ \Pi \eta^{&#643;}_X }}\searrow
+    && \swarrow_{\mathrlap{ \Pi \epsilon^{\flat}_{Disc \Pi X} }}
+    && {}_{\mathllap{ \Pi Disc \eta^\flat_{\Pi X} }}\nwarrow
+    && \nearrow_{\mathrlap{ \epsilon^{&#643;}_{\Pi X} }}
+    \\
+    && \Pi Disc \Pi X
+    && \underset{id_{\Pi Disc \Pi X}}{\longleftarrow}  && 
+    \Pi Disc \Pi X
+  }
+$$
+
+This commutes, because:
+
+1. the left square is the image under $\Pi$ of [[naturality square|naturality]] for $\epsilon^\flat$ on $\eta^{&#643;}_X$;
+
+1. the top square is [[naturality square|naturality]] for $\epsilon^{&#643;}$ on $\Gamma \eta^{&#643;}_X$;
+
+1. the right square is [[naturality square|naturality]] for $\epsilon^{&#643;}$ on $\eta^{\flat}_{\Pi X}$;
+
+1. the bottom commuting triangle is the image under $\Pi$ of the [[zig-zag identity]] for $(Disc \dashv \Gamma)$ on $\Pi X$.
+
+Finally, also the total bottom composite is the [[identity morphism]] $id_{\Pi X}$, due to the [[zig-zag identity]] for $(&#643; \dashv Disc)$.
+
+Therefore the total composite from $\Pi Disc \Gamma X \to \Gamma Disc \Pi X$ along the bottom part of the diagram equals the left hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple), while the composite along the top part of the diagram clearly equals the right hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple).
+
+
+=--
+
 +-- {: .num_prop #PointsToPiecesTransform}
 ###### Proposition
 **([[points-to-pieces transform]])**
