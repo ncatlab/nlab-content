@@ -1536,32 +1536,312 @@ But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepr
 
 ## Categorical algebra
 
-### Enriched categories
 
-+-- {: .num_defn #CartesianClosedCategory}
+
+### Monoidal categories
+
+
++-- {: .num_defn #MonoidalCategory}
 ###### Definition
-**([[cartesian closed category]])**
+**([[monoidal category]])**
 
-A [[category]] $\mathcal{V}$ is called 
+An_[[monoidal category]]_ is a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) equipped with
 
-1. a _[[cartesian monoidal category]]_ if 
-
-   1. it has a [[terminal object]] $\ast$;
-
-   1. for all [[objects]] $X,Y \in \mathcal{V}$ their [[Cartesian product]] $X \times Y$ exists;
-
-1. a _[[cartesian closed category]]_ if, in addition, for each [[object]] $X \in \mathcal{V}$ the [[functor]] of taking the [[Cartesian product]] with $X$ has a [[right adjoint functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), to be denoted $[X,-]$
+1. a [[functor]] (Def. \ref{Functors})
 
    $$
-     \mathcal{V}
-       \underoverset
-         {\underset{[X,-]}{\longrightarrow}}
-         {\overset{X \times (-)}{\longleftarrow}}
-         {\bot}
-     \mathcal{V}
+      \otimes
+        \;\colon\;
+      \mathcal{C} \times \mathcal{C}
+       \longrightarrow
+      \mathcal{C}
    $$
 
-   In this case $[X,Y] \in \mathcal{V}$ is called the _[[internal hom]]_ from $X$ to $Y$.
+   out of the [[product category]] of $\mathcal{C}$ with itself (Example \ref{ProductCategory}), called the **[[tensor product]]**,
+
+1. an [[object]]
+
+   $$
+     1 \in Obj_{\mathcal{C}}
+   $$
+
+   called the **[[unit object]]** or **[[tensor unit]]**,
+
+1. a [[natural isomorphism]] (Def. \ref{NaturalTransformations})
+
+   $$
+     a
+       \;\colon\;
+     ((-)\otimes (-)) \otimes (-)
+       \overset{\simeq}{\longrightarrow}
+     (-) \otimes ((-)\otimes(-))
+   $$
+
+   called the **[[associator]]**,
+
+1. {#MonoidalCategoryUnitors} a [[natural isomorphism]]
+
+   $$
+     \ell
+       \;\colon\;
+     (1 \otimes (-))
+       \overset{\simeq}{\longrightarrow}
+     (-)
+   $$
+
+   called the **[[left unitor]]**, and a natural isomorphism
+
+   $$
+     r \;\colon\; (-) \otimes 1 \overset{\simeq}{\longrightarrow} (-)
+   $$
+
+   called the **[[right unitor]]**,
+
+such that the following two kinds of [[commuting diagram|diagrams commute]], for all objects involved:
+
+1. **triangle identity**:
+
+   $$
+     \array{
+        & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
+         \\
+         & {}_{\rho_x \otimes 1_y}\searrow
+         && \swarrow_{1_x \otimes \lambda_y}
+         &
+        \\
+        &&
+        x \otimes y
+        &&
+     }
+   $$
+
+
+1. the **[[pentagon identity]]**:
+
+   $$
+     \array{
+       && (w \otimes x) \otimes (y \otimes z)
+       \\
+       & {}^{\mathllap{\alpha_{w \otimes x, y, z}}}\nearrow
+        &&
+       \searrow^{\mathrlap{\alpha_{w,x,y \otimes z}}}
+       \\
+       ((w \otimes x ) \otimes y) \otimes z
+        && &&
+       (w \otimes (x \otimes (y \otimes z)))
+       \\
+       {}^{\mathllap{\alpha_{w,x,y}} \otimes id_z }\downarrow
+        && &&
+       \uparrow^{\mathrlap{ id_w \otimes \alpha_{x,y,z} }}
+       \\
+       (w \otimes (x \otimes y)) \otimes z
+         && \underset{\alpha_{w,x \otimes y, z}}{\longrightarrow} &&
+       w \otimes ( (x \otimes y) \otimes z )
+     }
+   $$
+
+
+=--
+
+
++-- {: .num_example #CartesianMonoidalCategory}
+###### Example
+**([[cartesian monoidal category]])**
+
+Let $\mathcal{C}$ be a [[category]] in which all [[finite products]] exist.
+Then $\mathcal{C}$ becomes a [[monoidal category]] (Def. \ref{MonoidalCategory}) by
+
+1. taking the [[tensor product]] to be the [[Cartesian product]]
+
+   $$
+     X \otimes Y \;\coloneqq\; X \times Y
+   $$
+
+1. taking the [[unit object]] to be the [[terminal object]]
+
+   $$
+     I \;\coloneqq\; \ast
+   $$
+
+Monoidal categories of this form are called _[[cartesian monoidal categories]]_.
+
+=--
+
+
++-- {: .num_lemma #kel1}
+###### Lemma
+**([Kelly 64](monoidal+category#Kelly))**
+
+Let $(\mathcal{C}, \otimes, 1)$ be a [[monoidal category]], def. \ref{MonoidalCategory}. Then the left and right [[unitors]] $\ell$ and $r$ satisfy the following conditions:
+
+1. $\ell_1 = r_1 \;\colon\; 1 \otimes 1 \overset{\simeq}{\longrightarrow} 1$;
+
+1. for all objects $x,y \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]:
+
+   $$
+     \array{
+       (1 \otimes x) \otimes y  & &
+       \\
+       {}^\mathllap{\alpha_{1, x, y}} \downarrow
+       & \searrow^\mathrlap{\ell_x \otimes id_y} &
+       \\
+       1 \otimes (x \otimes y)
+       & \underset{\ell_{x \otimes y}}{\longrightarrow} & x \otimes y
+     }
+     \,;
+   $$
+
+   and
+
+   $$
+     \array{
+       x \otimes (y \otimes 1) & &
+       \\
+       {}^\mathllap{\alpha^{-1}_{1, x, y}} \downarrow
+       & \searrow^\mathrlap{id_x \otimes r_y} &
+       \\
+       (x \otimes y) \otimes 1
+         &
+           \underset{r_{x \otimes y}}{\longrightarrow}
+         &
+       x \otimes y
+     }
+     \,;
+   $$
+
+=--
+
+For **proof** see at _[[monoidal category]]_ [this lemma](monoidal+category#kel1) and [this lemma](monoidal+category#kel2).
+
++-- {: .num_remark #CoherenceForMonoidalCategories}
+###### Remark
+
+Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and $a 1 = a$ and $(a b) c = a (b c)$ in order to have that expressions of arbitrary length may be re-bracketed at will, so there is a _[[coherence theorem for monoidal categories]]_ which states that all ways of freely composing the [[unitors]] and [[associators]] in a [[monoidal category]] (def. \ref{MonoidalCategory}) to go from one expression to another will coincide. Accordingly, much as one may drop the notation for the bracketing in an [[associative algebra]] altogether, so one may, with due care, reason about monoidal categories without always making all unitors and associators explicit.
+
+(Here the qualifier "freely" means informally that we must not use any non-formal identification between objects, and formally it means that the diagram in question must be in the image of a [[strong monoidal functor]] from a _free_ monoidal category. For example if in a particular monoidal category it so happens that the object $X \otimes (Y \otimes Z)$ is actually _equal_ to $(X \otimes Y)\otimes Z$, then the various ways of going from one expression to another using only associators _and_ this equality no longer need to coincide.)
+
+=--
+
++-- {: .num_defn #BraidedMonoidalCategory}
+###### Definition
+
+A **[[braided monoidal category]]**, is a [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]] (Def. \ref{NaturalTransformations})
+
+$$
+  \tau_{x,y} \colon x \otimes y \to y \otimes x
+$$
+
+called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved ("hexagon identities"):
+
+$$
+  \array{
+   (x \otimes y) \otimes z
+   &\stackrel{a_{x,y,z}}{\to}&
+   x \otimes (y \otimes z)
+   &\stackrel{\tau_{x,y \otimes z}}{\to}&
+   (y \otimes z) \otimes x
+   \\
+   \downarrow^{\tau_{x,y}\otimes Id}
+   &&&&
+   \downarrow^{a_{y,z,x}}
+   \\
+   (y \otimes x) \otimes z
+   &\stackrel{a_{y,x,z}}{\to}&
+   y \otimes (x \otimes z)
+   &\stackrel{Id \otimes \tau_{x,z}}{\to}&
+   y \otimes (z \otimes x)
+  }
+$$
+
+and
+
+$$
+  \array{
+   x \otimes (y \otimes z)
+   &\stackrel{a^{-1}_{x,y,z}}{\to}&
+   (x \otimes y) \otimes z
+   &\stackrel{\tau_{x \otimes y, z}}{\to}&
+   z \otimes (x \otimes y)
+   \\
+   \downarrow^{Id \otimes \tau_{y,z}}
+   &&&&
+   \downarrow^{a^{-1}_{z,x,y}}
+   \\
+   x \otimes (z \otimes y)
+   &\stackrel{a^{-1}_{x,z,y}}{\to}&
+   (x \otimes z) \otimes y
+   &\stackrel{\tau_{x,z} \otimes Id}{\to}&
+   (z \otimes x) \otimes y
+  }
+  \,,
+$$
+
+where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ denotes the components of the [[associator]] of $\mathcal{C}^\otimes$.
+
+=--
+
++-- {: .num_defn #SymmetricMonoidalCategory}
+###### Definition
+
+A **[[symmetric monoidal category]]** is a [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]]
+
+$$
+   \tau_{x,y} \colon x \otimes y \to y \otimes x
+$$
+
+satisfies the condition:
+
+$$
+  \tau_{y,x} \circ \tau_{x,y} = 1_{x \otimes y}
+$$
+
+for all objects $x, y$
+
+=--
+
++-- {: .num_remark #SymmetricMonoidalCategoriesCoherenceTheorem}
+###### Remark
+
+In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}) there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that every diagram built freely (see remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) from [[associators]], [[unitors]] and [[braidings]] such that both sides of the diagram correspond to the same [[permutation]] of objects, coincide.
+
+=--
+
+
++-- {: .num_defn #ClosedMonoidalCategory}
+###### Definition
+**([[closed monoidal category]])**
+
+Given a [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the [[functor]] $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{hom(Y,-)}{\longrightarrow}}
+      {\overset{(-) \otimes Y}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+  \,,
+$$
+
+hence if there are [[natural bijections]]
+
+$$
+  Hom_{\mathcal{C}}(X \otimes Y, Z)
+   \;\simeq\;
+  Hom_{\mathcal{C}}{C}(X, hom(Y,Z))
+$$
+
+for all objects $X,Z \in \mathcal{C}$.
+
+Since for the case that $X = 1$ is the [[tensor unit]] of $\mathcal{C}$ this means that
+
+$$
+  Hom_{\mathcal{C}}(1,hom(Y,Z)) \simeq Hom_{\mathcal{C}}(Y,Z)
+  \,,
+$$
+
+the object $hom(Y,Z) \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
+Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 
 =--
 
@@ -1569,29 +1849,125 @@ A [[category]] $\mathcal{V}$ is called
 ###### Example
 **([[Set]] is a [[cartesian closed category]])**
 
-The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfAllSets}) is a [[cartesian closed category]] (Def. \ref{CartesianClosedCategory}). The [[Cartesian product]] is the original Cartesian product of sets, and the [[internal hom]] is the [[function set]] $[X,Y]$ of functions from $X$ to $Y$
+The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfAllSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) is a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a _[[cartesian closed category]_. The [[Cartesian product]] is the original [[Cartesian product]] of sets, and the [[internal hom]] is the [[function set]] $[X,Y]$ of functions from $X$ to $Y$
+
+=--
+
+
+In a [[closed monoidal category]], the adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) between [[tensor product]] and [[internal hom]] even holds internally:
+
++-- {: .num_prop #TensorHomAdjunctionIsoInternally}
+###### Proposition
+
+In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
+
+$$
+  hom(X \otimes Y, Z)
+   \;\simeq\;
+  hom(X, hom(Y,Z))
+$$
+
+whose image under $Hom_{\mathcal{C}}(1,-)$ are the defining [[natural bijections]] of def. \ref{ClosedMonoidalCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A \in \mathcal{C}$ be any object. By applying the defining natural bijections twice, there are composite natural bijections
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(A , hom(X \otimes Y, Z))
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}((A \otimes X)\otimes Y, Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes X, hom(Y,Z))
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A, hom(X,hom(Y,Z)))
+  \end{aligned}
+  \,.
+$$
+
+Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) says that there is an isomorphism $hom(X\otimes Y, Z) \simeq hom(X,hom(Y,Z))$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(1,hom(X\otimes Y, ))
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(1,hom(X,hom(Y,Z)))
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    Hom_{\mathcal{C}}(X \otimes Y, Z)
+     &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(X, hom(Y,Z))
+  }
+  \,.
+$$
 
 =--
 
 
 
++-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
+###### Example
+
+The category [[Ab]] of [[abelian groups]] (as in Example \ref{ExamplesOfConcreteCategories}) becomes a [[symmetric monoidal category]] (Def. \ref{SymmetricMonoidalCategory}) with [[tensor product]] the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
+
+This is a [[closed monoidal category]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
+
+This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]:
+
+=--
+
+
+### Enriched categories
+ {#EnrichedCategories}
+
+
++-- {: .num_defn #Cosmos}
+###### Definition
+**([[cosmos]])**
+
+A _[[cosmos]] (for [[enriched category theory]])_ is a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] $\mathcal{V}$ (Def. \ref{SymmetricMonoidalCategory}) which has all [[limits]] and [[colimits]].
+
+=--
+
++-- {: .num_example #ExamplesOfCosmoi}
+###### Example
+**(examples of [[cosmoi]] for [[enriched category theory]])**
+
+The following are examples of [[cosmoi]] (Def. \ref{Cosmos})
+
+1. [[Set]] (Def. \ref{CategoryOfAllSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{SetIsCartesianClosed})
+
+1. [[sSet]] ...
+
+=--
+
 +-- {: .num_defn #TopEnrichedCategory}
 ###### Definition
 
-Let $\mathcal{V}$ be a [[cartesian closed category]] (Def. \ref{CartesianClosedCategory}).
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), a  **$\mathcal{V}$-[[enriched category]]** $\mathcal{C}$ is:
 
-A **$\mathcal{V}$-[[enriched category]]** $\mathcal{C}$ is:
+1. a [[class]] $Obj_{\mathcal{C}}$, called the **class of [[objects]]**;
 
-1. a [[class]] $Obj(\mathcal{C})$, called the **class of [[objects]]**;
-
-1. for each $a, b\in Obj(\mathcal{C})$ a an [[object]]
+1. for each $a, b\in Obj_{\mathcal{C}}$ a an [[object]]
 
    $$
      \mathcal{C}(a,b)\in \mathcal{V}
      \,,
    $$
 
-   called the **$\mathcal{V}$-object of [[morphisms]]** between $a$ and $b$;
+   called the **$\mathcal{V}$-[[object of morphisms]]** between $a$ and $b$;
 
 1. for each $a,b,c\in Obj(\mathcal{C})$ a [[morphism]] in $\mathcal{V}$
 
@@ -1611,99 +1987,147 @@ such that the composition is [[associativity|associative]] and [[unitality|unita
 
 =--
 
-+-- {: .num_remark #UnderlyingCategoryOfTopEnrichedCategory}
-###### Remark
++-- {: .num_example #SetEnrichedCategoriesArePlainCategories}
+###### Example
+**([[Set]]-[[enriched categories]] are plain [[categories]])**
 
-Given a (pointed) [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_{cg} \to Set$) yields an ordinary [[locally small category]] with
+An [[enriched category]] (Def. \ref{TopEnrichedCategory}) over the [[cosmos]] $\mathcal{V} = $ [[Set]] as in Example \ref{ExamplesOfCosmoi} is the same as a plain [[category]] (Def. \ref{Categories}).
+
+=--
+
++-- {: .num_prop #UnderlyingCategoryOfTopEnrichedCategory}
+###### Proposition
+**(underlying [[category]] of an [[enriched category]])**
+
+Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). 
+
+Under the [[hom functor]] (Def. \ref{HomFunctor})
 
 $$
-  Hom_{\mathcal{C}}(a,b) = U(\mathcal{C}(a,b))
-  \,.
+  Hom_{\mathcal{V}}(I,-)
+  \;\colon\;
+  \mathcal{V} \longrightarrow Set
 $$
 
-It is in this sense that $\mathcal{C}$ is a category with [[extra structure]], and hence "[[enriched category|enriched]]".
+out of the [[tensor unit]] $I \in \mathcal{C}$ this induces a [[Set]]-[[enriched category]], hence an ordinary [[category]] (Example \ref{SetEnrichedCategoriesArePlainCategories}).
 
 =---
 
-The archetypical example is $Top_{cg}$ itself:
+It is in this sense that $\mathcal{C}$ is a [[category]] with [[extra structure]], and hence "[[enriched category|enriched]]".
+
+
+The archetypical example is $\mathcal{V}$ itself:
 
 +-- {: .num_example #TopkAsATopologicallyEnrichedCategory}
 ###### Example
 
-The category $Top_{cg}$ (def. \ref{kTop}) canonically obtains the structure of a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, with [[hom-spaces]] given by the compactly generated [[mapping spaces]] (def. \ref{CompactlyGeneratedMappingSpaces})
+Evert [[cosmos]] $\mathcal{C}$ (Def. \ref{Cosmos})  canonically obtains the structure of a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnrichedCategory}:
+
+the [[hom-objects]] are the [[internal homs]]
 
 $$
-  Top_{cg}(X,Y)
+  \mathcal{v}(X,Y)
     \coloneqq
-  Y^X
+  [X,Y]
 $$
 
 and with [[composition]]
 
 $$
-  Y^X \times Z^Y
+  [X,Y] \times [Y,Z]
     \longrightarrow
-  Z^X
+  [X,Z]
 $$
 
-given by the [[adjunct]] under the (product$\dashv$ mapping-space)-[[adjunction]] from prop. \ref{CartesianClosureOfTopcg} of the [[evaluation morphisms]]
+given by the [[adjunct]] under the ([[Cartesian product]]$\dashv$ [[internal hom]])-[[adjunction]] of the [[evaluation morphisms]]
 
 $$
-  X \times Y^X \times Z^Y
+  X \otimes  [XmY] \otimes [Y,Z]
     \overset{(ev, id)}{\longrightarrow}
-  Y \times Z^Y
+  Y \otimes [Y,Z]
     \overset{ev}{\longrightarrow}
   Z
   \,.
 $$
 
-Similarly, [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] $Top_k^{\ast/}$ form a pointed topologically enriched category, using the [[pointed mapping spaces]] from example \ref{PointedMappingSpace}:
-
-$$
-  Top^{\ast/}_{cg}(X,Y)
-   \coloneqq
-  Maps(X,Y)_\ast
-  \,.
-$$
 
 =--
 
 +-- {: .num_defn #TopologicallyEnrichedFunctor}
 ###### Definition
+**([[enriched functor]])**
 
-A [[topologically enriched functor]] between two [[topologically enriched categories]]
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ and $\mathcal{D}$ be two $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}).
+
+A _$\mathcal{V}$-[[enriched functor]]_ from $\mathcal{C}$ to $\mathcal{D}$
 
 $$
   F \;\colon\;  \mathcal{C}  \longrightarrow \mathcal{D}
 $$
 
-is a $Top_{cg}$-[[enriched functor]], hence:
+is
 
 1. a [[function]]
 
    $$
-     F_0 \;\colon\; Obj(\mathcal{C}) \longrightarrow Obj(\mathcal{D})
+     F_{Obj} \;\colon\; Obj_{\mathcal{C}} \longrightarrow Obj_{\mathcal{D}}
    $$
 
    of [[objects]];
 
-1. for each $a,b \in Obj(\mathcal{C})$ a [[continuous function]]
+1. for each $a,b \in Obj_{\mathcal{C}}$ a [[morphism]] in $\mathcal{V}$
 
    $$
-     F_{a,b} \;\colon\; \mathcal{C}(a,b) \longrightarrow \mathcal{D}(F_0(a), F_0(b))
+     F_{a,b} 
+       \;\colon\; 
+     \mathcal{C}(a,b) 
+       \longrightarrow 
+     \mathcal{D}(F_0(a), F_0(b))
    $$
 
-   of [[hom-spaces]],
+   between [[hom-objects]]
 
 such that this preserves [[composition]] and [[identity]] morphisms in the evident sense.
 
-A [[homomorphism]] of topologically enriched functors
+=--
+
++-- {: .num_defn #EnrichedNaturalTransformation}
+###### Definition
+**([[enriched natural transformation]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ and $\mathcal{D}$ be two $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}) and let
 
 $$
-  \eta \;\colon\; F \Rightarrow G
+  \mathcal{C}
+    \underoverset
+      {\underset{G}{\longrightarrow}}
+      {\overset{F}{\longrightarrow}}
+      {}
+  \mathcal{D}
 $$
 
-is a $Top_{cg}$-[[enriched natural transformation]]: for each $c \in Obj(\mathcal{C})$ a choice of morphism $\eta_c \in \mathcal{D}(F(c),G(c))$ such that for each pair of objects $c,d \in \mathcal{C}$ the two continuous functions
+be two $\mathcal{V}$-[[enriched functors]] (Def. \ref{TopologicallyEnrichedFunctor}) from $\mathcal{C}$ to $\mathcal{D}$.
+
+Then a $\mathcal{V}$-[[enriched natural transformation]]
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{G}{\longrightarrow}}
+      {\overset{F}{\longrightarrow}}
+      {\phantom{AA}\Downarrow{\mathrlap{\eta}}\phantom{AA}}
+  \mathcal{D}
+$$
+
+is 
+
+* for each $c \in Obj_{\mathcal{C}}$ a choice of [[morphism]] 
+
+  $$
+    \eta_c \in \mathcal{D}(F(c),G(c))
+  $$ 
+
+  such that for each [[pair]] of [[objects]] $c,d \in \mathcal{C}$ the two [[morphisms]] (in $\mathcal{V}$)
 
 $$
   \eta_d \circ F(-) \;\colon\; \mathcal{C}(c,d) \longrightarrow \mathcal{D}(F(c), G(d))
@@ -1716,8 +2140,6 @@ $$
 $$
 
 agree.
-
-We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologically enriched functors.
 
 =--
 
@@ -2054,395 +2476,7 @@ Running the above analysis backwards shows that this determines a transformation
 =--
 
 
-
-### Monoidal enriched categories
-
-
-+-- {: .num_defn #MonoidalCategory}
-###### Definition
-
-An **[[enriched category|enriched]] [[monoidal category]]** is a  [[enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with
-
-1. a (pointed) [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
-
-   $$
-      \otimes
-        \;\colon\;
-      \mathcal{C} \times \mathcal{C}
-       \longrightarrow
-      \mathcal{C}
-   $$
-
-   out of the (pointed) topologival [[product category]] of $\mathcal{C}$ with itself (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), called the **[[tensor product]]**,
-
-1. an object
-
-   $$
-     1 \in \mathcal{C}
-   $$
-
-   called the **[[unit object]]** or **[[tensor unit]]**,
-
-1. a [[natural isomorphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
-
-   $$
-     a
-       \;\colon\;
-     ((-)\otimes (-)) \otimes (-)
-       \overset{\simeq}{\longrightarrow}
-     (-) \otimes ((-)\otimes(-))
-   $$
-
-   called the **[[associator]]**,
-
-1. {#MonoidalCategoryUnitors} a [[natural isomorphism]]
-
-   $$
-     \ell
-       \;\colon\;
-     (1 \otimes (-))
-       \overset{\simeq}{\longrightarrow}
-     (-)
-   $$
-
-   called the **[[left unitor]]**, and a natural isomorphism
-
-   $$
-     r \;\colon\; (-) \otimes 1 \overset{\simeq}{\longrightarrow} (-)
-   $$
-
-   called the **[[right unitor]]**,
-
-such that the following two kinds of [[commuting diagram|diagrams commute]], for all objects involved:
-
-1. **triangle identity**:
-
-   $$
-     \array{
-        & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
-         \\
-         & {}_{\rho_x \otimes 1_y}\searrow
-         && \swarrow_{1_x \otimes \lambda_y}
-         &
-        \\
-        &&
-        x \otimes y
-        &&
-     }
-   $$
-
-
-1. the **[[pentagon identity]]**:
-
-   $$
-     \array{
-       && (w \otimes x) \otimes (y \otimes z)
-       \\
-       & {}^{\mathllap{\alpha_{w \otimes x, y, z}}}\nearrow
-        &&
-       \searrow^{\mathrlap{\alpha_{w,x,y \otimes z}}}
-       \\
-       ((w \otimes x ) \otimes y) \otimes z
-        && &&
-       (w \otimes (x \otimes (y \otimes z)))
-       \\
-       {}^{\mathllap{\alpha_{w,x,y}} \otimes id_z }\downarrow
-        && &&
-       \uparrow^{\mathrlap{ id_w \otimes \alpha_{x,y,z} }}
-       \\
-       (w \otimes (x \otimes y)) \otimes z
-         && \underset{\alpha_{w,x \otimes y, z}}{\longrightarrow} &&
-       w \otimes ( (x \otimes y) \otimes z )
-     }
-   $$
-
-
-=--
-
-
-+-- {: .num_lemma #kel1}
-###### Lemma
-**([Kelly 64](monoidal+category#Kelly))**
-
-Let $(\mathcal{C}, \otimes, 1)$ be a [[monoidal category]], def. \ref{MonoidalCategory}. Then the left and right [[unitors]] $\ell$ and $r$ satisfy the following conditions:
-
-1. $\ell_1 = r_1 \;\colon\; 1 \otimes 1 \overset{\simeq}{\longrightarrow} 1$;
-
-1. for all objects $x,y \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]:
-
-   $$
-     \array{
-       (1 \otimes x) \otimes y  & &
-       \\
-       {}^\mathllap{\alpha_{1, x, y}} \downarrow
-       & \searrow^\mathrlap{\ell_x \otimes id_y} &
-       \\
-       1 \otimes (x \otimes y)
-       & \underset{\ell_{x \otimes y}}{\longrightarrow} & x \otimes y
-     }
-     \,;
-   $$
-
-   and
-
-   $$
-     \array{
-       x \otimes (y \otimes 1) & &
-       \\
-       {}^\mathllap{\alpha^{-1}_{1, x, y}} \downarrow
-       & \searrow^\mathrlap{id_x \otimes r_y} &
-       \\
-       (x \otimes y) \otimes 1
-         &
-           \underset{r_{x \otimes y}}{\longrightarrow}
-         &
-       x \otimes y
-     }
-     \,;
-   $$
-
-=--
-
-For **proof** see at _[[monoidal category]]_ [this lemma](monoidal+category#kel1) and [this lemma](monoidal+category#kel2).
-
-+-- {: .num_remark #CoherenceForMonoidalCategories}
-###### Remark
-
-Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and $a 1 = a$ and $(a b) c = a (b c)$ in order to have that expressions of arbitrary length may be re-bracketed at will, so there is a _[[coherence theorem for monoidal categories]]_ which states that all ways of freely composing the [[unitors]] and [[associators]] in a [[monoidal category]] (def. \ref{MonoidalCategory}) to go from one expression to another will coincide. Accordingly, much as one may drop the notation for the bracketing in an [[associative algebra]] altogether, so one may, with due care, reason about monoidal categories without always making all unitors and associators explicit.
-
-(Here the qualifier "freely" means informally that we must not use any non-formal identification between objects, and formally it means that the diagram in question must be in the image of a [[strong monoidal functor]] from a _free_ monoidal category. For example if in a particular monoidal category it so happens that the object $X \otimes (Y \otimes Z)$ is actually _equal_ to $(X \otimes Y)\otimes Z$, then the various ways of going from one expression to another using only associators _and_ this equality no longer need to coincide.)
-
-=--
-
-+-- {: .num_defn #BraidedMonoidalCategory}
-###### Definition
-
-A **(pointed) [[topologically enriched category|topological]] [[braided monoidal category]]**, is a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
-
-$$
-  \tau_{x,y} \colon x \otimes y \to y \otimes x
-$$
-
-called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved ("hexagon identities"):
-
-$$
-  \array{
-   (x \otimes y) \otimes z
-   &\stackrel{a_{x,y,z}}{\to}&
-   x \otimes (y \otimes z)
-   &\stackrel{\tau_{x,y \otimes z}}{\to}&
-   (y \otimes z) \otimes x
-   \\
-   \downarrow^{\tau_{x,y}\otimes Id}
-   &&&&
-   \downarrow^{a_{y,z,x}}
-   \\
-   (y \otimes x) \otimes z
-   &\stackrel{a_{y,x,z}}{\to}&
-   y \otimes (x \otimes z)
-   &\stackrel{Id \otimes \tau_{x,z}}{\to}&
-   y \otimes (z \otimes x)
-  }
-$$
-
-and
-
-$$
-  \array{
-   x \otimes (y \otimes z)
-   &\stackrel{a^{-1}_{x,y,z}}{\to}&
-   (x \otimes y) \otimes z
-   &\stackrel{\tau_{x \otimes y, z}}{\to}&
-   z \otimes (x \otimes y)
-   \\
-   \downarrow^{Id \otimes \tau_{y,z}}
-   &&&&
-   \downarrow^{a^{-1}_{z,x,y}}
-   \\
-   x \otimes (z \otimes y)
-   &\stackrel{a^{-1}_{x,z,y}}{\to}&
-   (x \otimes z) \otimes y
-   &\stackrel{\tau_{x,z} \otimes Id}{\to}&
-   (z \otimes x) \otimes y
-  }
-  \,,
-$$
-
-where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ denotes the components of the [[associator]] of $\mathcal{C}^\otimes$.
-
-=--
-
-+-- {: .num_defn #SymmetricMonoidalCategory}
-###### Definition
-
-A **(pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]]
-
-$$
-   \tau_{x,y} \colon x \otimes y \to y \otimes x
-$$
-
-satisfies the condition:
-
-$$
-  \tau_{y,x} \circ \tau_{x,y} = 1_{x \otimes y}
-$$
-
-for all objects $x, y$
-
-=--
-
-+-- {: .num_remark #SymmetricMonoidalCategoriesCoherenceTheorem}
-###### Remark
-
-In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}) there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that every diagram built freely (see remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) from [[associators]], [[unitors]] and [[braidings]] such that both sides of the diagram correspond to the same [[permutation]] of objects, coincide.
-
-=--
-
-
-+-- {: .num_defn #ClosedMonoidalCategory}
-###### Definition
-
-Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the functor $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
-
-$$
-  \mathcal{C}
-    \underoverset
-      {\underset{hom(Y,-)}{\longrightarrow}}
-      {\overset{(-) \otimes Y}{\longleftarrow}}
-      {\bot}
-  \mathcal{C}
-  \,,
-$$
-
-hence if there are [[natural bijections]]
-
-$$
-  Hom_{\mathcal{C}}(X \otimes Y, Z)
-   \;\simeq\;
-  Hom_{\mathcal{C}}{C}(X, hom(Y,Z))
-$$
-
-for all objects $X,Z \in \mathcal{C}$.
-
-Since for the case that $X = 1$ is the [[tensor unit]] of $\mathcal{C}$ this means that
-
-$$
-  Hom_{\mathcal{C}}(1,hom(Y,Z)) \simeq Hom_{\mathcal{C}}(Y,Z)
-  \,,
-$$
-
-the object $hom(Y,Z) \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
-Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
-
-=--
-
-
-In a [[closed monoidal category]], the adjunction isomorphism between [[tensor product]] and [[internal hom]] even holds internally:
-
-+-- {: .num_prop #TensorHomAdjunctionIsoInternally}
-###### Proposition
-
-In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
-
-$$
-  hom(X \otimes Y, Z)
-   \;\simeq\;
-  hom(X, hom(Y,Z))
-$$
-
-whose image under $Hom_{\mathcal{C}}(1,-)$ are the defining [[natural bijections]] of def. \ref{ClosedMonoidalCategory}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $A \in \mathcal{C}$ be any object. By applying the defining natural bijections twice, there are composite natural bijections
-
-$$
-  \begin{aligned}
-    Hom_{\mathcal{C}}(A , hom(X \otimes Y, Z))
-    & \simeq
-    Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
-    \\
-    & \simeq
-    Hom_{\mathcal{C}}((A \otimes X)\otimes Y, Z)
-    \\
-    & \simeq
-    Hom_{\mathcal{C}}(A \otimes X, hom(Y,Z))
-    \\
-    & \simeq
-    Hom_{\mathcal{C}}(A, hom(X,hom(Y,Z)))
-  \end{aligned}
-  \,.
-$$
-
-Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) says that there is an isomorphism $hom(X\otimes Y, Z) \simeq hom(X,hom(Y,Z))$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
-
-$$
-  \array{
-    Hom_{\mathcal{C}}(1,hom(X\otimes Y, ))
-      &\overset{\simeq}{\longrightarrow}&
-    Hom_{\mathcal{C}}(1,hom(X,hom(Y,Z)))
-    \\
-    {}^{\mathllap{\simeq}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    Hom_{\mathcal{C}}(X \otimes Y, Z)
-     &\overset{\simeq}{\longrightarrow}&
-    Hom_{\mathcal{C}}(X, hom(Y,Z))
-  }
-  \,.
-$$
-
-=--
-
-
-
-+-- {: .num_example #TopAsASymmetricMonoidalCategory}
-###### Example
-
-The category [[Set]] of [[sets]] and [[functions]] between them, regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] according to def. \ref{SymmetricMonoidalCategory} with [[tensor product]] the [[Cartesian product]] $\times$ of sets. The [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident (almost unnoticable but nevertheless nontrivial) canonical identifications.
-
-Similarly the category $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) becomes a [[symmetric monoidal category]] with [[tensor product]] the corresponding [[Cartesian products]], hence the operation of forming k-ified ([cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) [[product topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#ProductTopologicalSpace)). The underlying functions of the [[associator]], [[unitor]] and [[braiding]] isomorphisms are just those of the underlying sets, as above.
-
-Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
-
-Both examples are [[closed monoidal categories]] (def. \ref{ClosedMonoidalCategory}), with [[internal hom]] the [[mapping spaces]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#MappingTopologicalSpaceIsExponentialObject)).
-
-=--
-
-+-- {: .num_example #PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}
-###### Example
-
-The category $Top_{cg}^{\ast/}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]] with [[tensor product]] the  [[smash product]] $\wedge$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects))
-
-$$
-  X \wedge Y \coloneqq \frac{X\times Y}{X\vee Y}
-$$
-
-is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) with [[unit object]] the pointed [[0-sphere]] $S^0$.
-
-The components of the [[associator]], the [[unitors]] and the [[braiding]] are those of [[Top]] as in example \ref{TopAsASymmetricMonoidalCategory}, descended to the [[quotient topological spaces]] which appear in the definition of the [[smash product]]. This works for pointed [[compactly generated spaces]] (but not for general pointed topological spaces) by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductInTopcgIsAssociative).
-
-The category $Top^{\ast/}_{cg}$ is also a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}), with [[internal hom]] the pointed [[mapping space]] $Maps(-,-)_\ast$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace))
-
-=--
-
-
-+-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
-###### Example
-
-The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
-
-This is a [[closed monoidal category]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
-
-This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]:
-
-=--
-
-### Enriched ends and coends
+### Enriched (co)ends
  {#TopologicalEndsAndCoends}
 
 For working with pointed [[topologically enriched functors]], a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called (pointed topological enriched) _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for topological [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). Further below it is via left Kan extension along the ordinary smash product of pointed topological spaces ("[[Day convolution]]") that the [[symmetric monoidal smash product of spectra]] is induced.
