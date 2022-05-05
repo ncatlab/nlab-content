@@ -445,6 +445,8 @@ Contextual categories as models for [[homotopy type theory]] are discussed in
 
 * {#Joyal17} [[André Joyal]], _Notes on Clans and Tribes_ ([arXiv:1710.10238](https://arxiv.org/abs/1710.10238))
 
+* See also [[clan]].
+
 Further discussion of contextual categories is in
 
 * {#Voevodsky15a} [[Vladimir Voevodsky]], _A C-system defined by a universe category_, Theory Appl. Categ. 30 (2015), No. 37, 1181&#8211;1215, arXiv:1409.7925 ([arXiv:1409.7925](https://arxiv.org/abs/1409.7925))
