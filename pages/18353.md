@@ -22,7 +22,7 @@ The Kahn-Priddy theorem characterizes a comparison map between [[cohomology]] wi
 
 ## Statement
 
-Write $\mathbb{R}P^\infty \in Ho(Top)$ for the [[homotopy type]] of [[complex projective space]] (an object in the [[classical homotopy category]]), and write $\Sigma^\infty \mathbb{R}P^\infty_+ \in Ho(Spectra)$ for its [[H-group ring spectrum]] in the [[stable homotopy category]]. 
+Write $\mathbb{R}P^\infty \in Ho(Top)$ for the [[homotopy type]] of [[real projective space]] (an object in the [[classical homotopy category]]), and write $\Sigma^\infty \mathbb{R}P^\infty_+ \in Ho(Spectra)$ for its [[suspension spectrum]] regarded as an [[H-group ring spectrum]] in the [[stable homotopy category]]. 
 
 For each $n$ there is a canonical inclusion (see [Whitehead 83, p. 20](#Whitehead83)).
 
