@@ -157,6 +157,7 @@ Frequently one also considers $\mathbb{N}$-graded (or _nonnegatively graded_) ch
 Note that in particular, a chain complex is a [[graded object]] with extra structure.  This extra structure can be codified as a map of graded objects $\partial:V\to T V$, where $T$ is the 'shift' endofunctor of the category $Gr(V)$ of graded objects in $C$, such that $T(\partial) \circ \partial = 0$.  More generally, in any pre-additive category $G$ [[category with translation|with translation]] $T : G \to G$, we can define a **chain complex** to be a [[differential object]] $\partial_V : V \to T V$ such that $V \stackrel{\partial_V}{\to} T V \stackrel{T(\partial_V)}{\to} T T V$ is the [[zero morphism]].  When $G= Gr(C)$ this recovers the original definition.
 
 ## Examples
+ {#Examples}
 
 Common choices for the ambient [[abelian category]] $\mathcal{C}$ include [[Ab]], $k$[[Vect]] (for $k$ a [[field]]) and generally $R$[[Mod]] (for $R$ a [[ring]]), in which case we obtain the familiar definition of an (unbounded) chain complex of [[abelian groups]], [[vector spaces]] and, generally, of  [[modules]].
 
@@ -165,9 +166,16 @@ Common choices for the ambient [[abelian category]] $\mathcal{C}$ include [[Ab]]
 
 In $C =$ [[Vect]]$_k$ a chain complex is also called a [[differential graded vector space]], consistent with other terminology such as [[differential graded algebra]] over $k$.  This is also a special case in other ways: every chain complex over a field is [[formal dg-algebra|formal]]: [[quasi-isomorphism|quasi-isomorphic]] to its [[homology]] (the latter considered as a chain complex with zero differentials).  Nothing of the sort is true for chain complexes in more general categories.
 
+The [[category of chain complexes]] of vector spaces carries the [[tensor product of chain complexes]] and a [[braiding]] which makes it a [[symmetric monoidal category]]. The corresponding [[commutative monoids]] are the [[differential graded-commutative algebras]].
+
+### In super vector spaces 
+
+A chain complex in [[super vector spaces]] is a [[chain complex in super vector spaces]]. The category of these carries a [[symmetric monoidal category]]-[[structure]] and the corresponging [[commutative monoids]] are the [[differential graded-commutative superalgebras]].
+
 ### In chain complexes
 
 A chain complex in a category of chain complexes is a [[double complex]].
+
 
 ### Singular and cellular chain complex
 
