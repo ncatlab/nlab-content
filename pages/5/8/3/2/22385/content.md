@@ -44,5 +44,7 @@ A setoid is a type $T$ equipped with an [[equivalence relation]] $\equiv$. Setoi
 * [[thin category]]
 * [[equivalence relation]]
 * [[extensional function]]
+* [[univalent setoid]]
+* [[stable setoid]]
 
 [[!redirects setoids]]
