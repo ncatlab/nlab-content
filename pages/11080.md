@@ -918,6 +918,44 @@ This finally implies that also $coDisc$ is fully faithful, by [this prop.](geome
 
 =--
 
+(...)
+
+This motivates to ask for [[coverages]] on $\mathcal{C}$ such that these [[adjoint quadruples]] descend to [[categories of presheaves]] to the [[categories of sheaves]]:
+
++-- {: .num_defn #OneCohesiveSite}
+###### Definition
+**([[1-cohesive site]])**
+
+We call a [[site]] $\mathcal{C}$ _[[1-cohesive site|1-cohesive]] over [[Grpd]]_ if the following conditions are satisfied:
+ 
+1. $\mathcal{C}$ has [[finite products]];
+  
+1. for every [[covering]] family $\{U_i \to X\}_i$ in $\mathcal{C}$ the [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ has, as a [[presheaf of groupoids]], as [[objects]] and [[morphisms]] [[coproducts]] of [[representable functor]], such that:
+
+   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is [[contractible]] ([[equivalence of categories]] to the [[point]], i.e. to the [[terminal groupoid]]:
+
+      $$
+        \underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim} 
+         C(\{U_i\}) 
+         \;\simeq\;
+         \ast
+      $$
+
+   1. the [[groupoid]] of sets of points in $C(\{U_i\})$ is [[equivalence of categories|equivalent]] the set of points of $X$:
+
+      $$
+        \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim} C(\{U_i\})
+          \simeq
+        Hom_{\mathcal{C}}(\ast,X)
+        \,.
+      $$
+  
+=--
+
+(...)
+
+
+
 ### Connectedness
  {#ConnectedSmooth0Type}
 
