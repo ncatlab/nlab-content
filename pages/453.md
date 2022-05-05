@@ -84,7 +84,7 @@ Examples of regular categories include the following:
 
 * More generally, any [[topos]] is regular. 
 
-* Even more generally, a locally [[cartesian closed category]] with coequalizers is regular, and so any [[quasitopos]] is regular. 
+* Even more generally, a [[locally cartesian closed category]] with [[coequalizers]] is regular, and so any [[quasitopos]] is regular. 
 
 * The category of [[algebra over a Lawvere theory|models]] of any finitary [[algebraic theory]] (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of [[abelian group]]s. 
 
