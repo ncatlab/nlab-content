@@ -15,7 +15,7 @@
 
 ## Idea
 
-Often [[site]]s are required to be [[small category|small categories]].  If not, if one has a _large site_,  there are complications.
+Often [[sites]] are required to be [[small category|small categories]] ([[small sites]]).  If not, if one has a _large site_,  there are complications.
 
 
 Many of the good properties of [[sheaf|sheaves]] depend on such smallness.  To begin with, even the category of sheaves may have to be [[very large category|extra-large]], but there are other issues, such as:
