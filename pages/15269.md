@@ -19,10 +19,14 @@ The classical McKay correspondence, named after John McKay, is a one-to-one corr
 
 ### Construction
 
-Take $G\subset \text{SL}_2(\mathbb{C})$ finite. Then, let $\rho_0, ..., \rho_n$ denote the irreducible representations of $G$, with $\rho_0$ being the trivial representation. Then, set $\langle \rho_i \otimes \mathbb{C}^2, \rho_j \rangle = m_{ij}$. Since $\mathbb{C}^2$ is self-dual, as it admits an invariant non-degenerate skew-symmetric bilinear form, $m_{ij} = m_{ji}$. Finally, consider the vertices $v_0, ..., v_n$ with $m_{ij}$ vertices between each $v_i$ and $v_j$. Furthermore, for $m_{ij} = 1$, we do not need to write the weight of the corresponding arrow. The resulting graph is the [[McKay graph]] of $G$.
+Take $G\subset \text{SL}_2(\mathbb{C})$ finite. Then, let $\rho_0, ..., \rho_n$ denote the irreducible representations of $G$, with $\rho_0$ being the trivial representation. Then, set $\langle \rho_i \otimes \mathbb{C}^2, \rho_j \rangle = m_{i j}$. Since $\mathbb{C}^2$ is self-dual, as it admits an invariant non-degenerate skew-symmetric bilinear form, $m_{i j} = m_{j i}$. Finally, consider the vertices $v_0, ..., v_n$ with $m_{i j}$ vertices between each $v_i$ and $v_j$. Furthermore, for $m_{i j} = 1$, we do not need to write the weight of the corresponding arrow. The resulting graph is the [[McKay graph]] of $G$.
 
 
 (...)
+
+### Interpretation in K-theory
+
+In ([GSZ](#GSZ)) the McKay correspondence is interpreted as an isomorphism on [[K-theory]], based on the observation that the [[representation ring]] of $G$ is equal to the $G$-[[equivariant K-theory]] of $\mathbb{C}^2$. This is isomorphic to the ordinary K-theory of the minimal resolution of the Kleinian singularity.
 
 ## Derived McKay correspondence
 
@@ -50,7 +54,11 @@ Literature collection
 
 * [[Miles Reid]], _[Links to papers on McKay correspondence](homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
 
+For a K-theoretic interpretation, see:
+
+* {#GSZ} G. Gonzalez-Sprinberg and J.-L. Verdier, Construction g&eacute;om&eacute;trique de la correspondance de McKay, Ann. Sci. ́&Eacute;cole Norm. Sup.16 (1983) 409–449.
+
 For the 2001 publication on the derived McKay correspondence, see:
 
-* _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
+* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
