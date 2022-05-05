@@ -457,21 +457,33 @@ For more structure available with a few more axioms see at
 
 * [[tangent cohesion]].
 
+$\,$
+
 ### Adjoint quadruples and points-to-pieces
   {#AdjointQuadruples}
 
-Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup, in particular concerning the induced [[points-to-pieces transforms]], def. \ref{TransformationFromPointsToPieces}.
+Let 
+
+$$
+  (p_! \dashv p^* \dashv p_*\dashv p^!) 
+    \;\colon\; 
+  \mathcal{E} 
+    \longrightarrow 
+  \mathcal{S}
+$$
+
+be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup, in particular concerning the induced [[points-to-pieces transforms]], def. \ref{TransformationFromPointsToPieces}.
 
 We write 
 
 $$
-  \iota : id \to p^* p_!
+  \eta \;\colon\; id \to p^* p_!
 $$
 
 etc. for [[unit of an adjunction|units]] and
 
 $$
-  \eta : p_! p^* \to id
+  \epsilon \;\colon\; p_! p^* \to id
 $$
 
 etc. for counits.
@@ -483,13 +495,13 @@ We have [[commuting diagrams]], [[natural transformation|natural]] in $X \in \ma
 
 $$
   \array{
-    p_*X  &\underoverset{\simeq}{\eta_{p^* X}^{-1}}{\longrightarrow}& p_! p^* p_*X
+    p_*X  &\underoverset{\simeq}{\epsilon_{p^* X}^{-1}}{\longrightarrow}& p_! p^* p_*X
     \\
-    {}^{\mathllap{p_*(i_X)}}\downarrow 
+    {}^{\mathllap{p_*(\eta_X)}}\downarrow 
     &\searrow^{\mathrlap{\theta_X}}& 
-    \downarrow^{\mathrlap{p_!(\eta_X)}}
+    \downarrow^{\mathrlap{p_!(\epsilon_X)}}
     \\
-    p_* p^* p_! X &\stackrel{\iota_{p_!X}^{-1}}{\longrightarrow}& p_! X
+    p_* p^* p_! X &\stackrel{\eta_{p_!X}^{-1}}{\longrightarrow}& p_! X
   }
 $$
 
@@ -497,10 +509,10 @@ and
 
 $$
   \array{
-    p^* S &\stackrel{\iota_{p^* S}}{\longrightarrow}& p^! p_* p^* S
+    p^* S &\stackrel{\eta_{p^* S}}{\longrightarrow}& p^! p_* p^* S
     \\
     {}^{\mathllap{p^* \epsilon_S^{-1}}}\downarrow 
-    &\searrow^{\mathrlap{\phi_X}}& \downarrow^{\mathrlap{p^!(\iota_S^{-1})}}
+    &\searrow^{\mathrlap{\phi_X}}& \downarrow^{\mathrlap{p^!(\eta_S^{-1})}}
     \\
     p^* p_* p^!S  &\stackrel{{\epsilon}_{p_!S }}{\longrightarrow}& p^!S
   }
@@ -547,11 +559,11 @@ This appears as ([Johnstone, lemma 2.3](#Johnstone)).
 +-- {: .proof}
 ###### Proof
 
-By the above definition, $\phi_S$ is a [[monomorphism]] precisely if $\iota_{p^* S} : p^* S \to p^! p_* p^* S$ is. This in turn is so (see [[monomorphism]]) precisely if the first [[function]] in
+By the above definition, $\phi_S$ is a [[monomorphism]] precisely if $\eta_{p^* S} : p^* S \to p^! p_* p^* S$ is. This in turn is so (see [[monomorphism]]) precisely if the first [[function]] in
 
 $$  
     \mathcal{E}(A,p^* X) 
-     \stackrel{(\iota_{p^* X}) \circ (-)}{\longrightarrow} 
+     \stackrel{(\eta_{p^* X}) \circ (-)}{\longrightarrow} 
     \mathcal{E}(A, p^! p_* p^* S)
      \stackrel{\simeq}{\longrightarrow}
     \mathcal{S}(p_* A, p_* p^* S)
@@ -562,17 +574,17 @@ and hence the composite is a monomorphism in [[Set]].
 By definition of [[adjunct]] and using the $(p_* \dashv p^!)$-[[zig-zag identity]], this is equal to the action of $p_*$ on morphisms
 
 $$
-  (\iota_{p^* X}) \circ (-)  : 
+  (\eta_{p^* X}) \circ (-)  : 
   (A \to p^* S) \mapsto p_*(A \to p^* S)  
   \,.
 $$
 
-Similarly, by the above definition the morphism $\theta_X$ is an epimorphism precisely if $p_!(\eta_X) : p_! p^* p_* X \to p_! X$ is so, which is the case precisely if the top morphism in
+Similarly, by the above definition the morphism $\theta_X$ is an epimorphism precisely if $p_!(\epsilon_X) : p_! p^* p_* X \to p_! X$ is so, which is the case precisely if the top morphism in
 
 $$
   \array{
     \mathcal{S}(p_! X, S) 
-      &\stackrel{(-) \circ p_!(\eta_X)}{\longrightarrow} &
+      &\stackrel{(-) \circ p_!(\epsilon_X)}{\longrightarrow} &
     \mathcal{S}(p_! p^* p_* X, S)
     \\
     {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
@@ -591,6 +603,8 @@ definition of [[adjunct]] and the
 $(p_! \dashv p^*)$-[[zig-zag identity]].
 
 =--
+
+$\,$
 
 ### Relations between the axioms
   {#RelationsBetweenTheAxioms}
@@ -750,7 +764,7 @@ $$
   \mathcal{E}(X, coDisc \Gamma Y)
 $$
 
-is given (see [[adjunct]]) by postcomposition with the $(\Gamma \dashv coDisc)$-[[unit of an adjunction|unit]] $\iota_Y : Y \to coDisc \Gamma Y$
+is given (see [[adjunct]]) by postcomposition with the $(\Gamma \dashv coDisc)$-[[unit of an adjunction|unit]] $\eta_Y : Y \to coDisc \Gamma Y$
 
 $$
   \array{
