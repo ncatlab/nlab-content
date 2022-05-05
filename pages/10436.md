@@ -231,6 +231,6 @@ Further developments along these lines are in
 
 ### In shape theory
 
-* &#352;ime Ungar, $n$-Connectedness of inverse systems and applications to shape theory, Glasnik Matemati&#269;ki 13 (1978), 371-396
+* &#352;ime Ungar, $n$-Connectedness of inverse systems and applications to shape theory, Glasnik Matemati&#269;ki 13 (1978), 371-396 [pdf](http://www.irb.hr/korisnici/zskoda/ungarConnwoabsh.pdf)
 
 > Let (X, A, x) be an n-connected inverse system of CW-pairs such that the restriction (A, x) is m-connected. We prove that there exists an isomorphic inverse system (Y, B, y) having n-connected terms such that the terms of the restriction (B, y) are m-connected. This result is then applied in proving analogues of Hurewicz and Blakers-Massey theorems for homotopy pro-groups and shape groups.
