@@ -4,10 +4,11 @@
 ###Context###
 #### Enriched category theory
 +--{: .hide}
-[[!include enriched category theory - contents]]
+[[!include enriched category theory contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
