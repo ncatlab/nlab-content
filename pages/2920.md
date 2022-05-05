@@ -954,7 +954,7 @@ The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, wh
 
 We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available.
 
-By the corollary to [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
+By the corollary to [[Dugger's theorem]] on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
 
 Therefore there is little loss in assuming this extra structure, which the following statement of the theorem does.
 
