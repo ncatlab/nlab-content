@@ -30,7 +30,7 @@ In [[string phenomenology]] for [[type IIA string theory]], quasi-realistic [[mo
 
 > graphics grabbed from [Uranga 12a, p. 12](#Uranga12a)
 
-The [[Chan-Paton gauge field]] on the [[D6-branes]] yields the [[gauge fields]] in 4d, and the precise intersection pattern determines the effective [[fundamental particle]] content in 4d. 
+The [[Chan-Paton gauge field]] on the [[D6-branes]] yields the [[gauge fields]] in 4d, and the precise [[brane intersection|intersection]] pattern determines the effective [[fundamental particle]] content in 4d. 
 
 See also at [[string phenomenology]] the section _[Models in type II with intersecting branes](string+phenomenology#ModelsInTypeIIWithIntersectingBranes)_.
 
