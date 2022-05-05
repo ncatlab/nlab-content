@@ -48,7 +48,9 @@ from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundary]] 
 
 
 
+## Related concepts
 
+* [[manifold with corners]]
 
 
 ## References
@@ -59,7 +61,9 @@ The [[full subcategory]]-embedding of manifolds with boundary into that of [[dif
 
 * {#IgresiasZemmour13} [[Patrick Iglesias-Zemmour]], section 4.16 of _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
 
+Related discussion to the case of [[manifolds with corners]] is in 
 
+* {#GurerIglesiasZemmour17} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on corners_, 2017  ([pdf](http://math.huji.ac.il/~piz/documents/DBlog-Rmk-DFOC.pdf))
 
 [[!redirects manifolds with boundary]]
 
