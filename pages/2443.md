@@ -34,6 +34,10 @@
 
   * [[super Poincare Lie algebra]]
 
+* [[chain complex of super vector spaces]] ([[model structure on chain complexes of super vector spaces|model structure]])
+
+* [[differential graded-commutative superalgebra]] ([[model structure on differential graded-commutative superalgebras|model structure]])
+
 * [[super L-infinity algebra]]
 
 
