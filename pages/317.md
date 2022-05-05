@@ -103,5 +103,15 @@ respectively.
 
 * [[point]]
 
+[[!redirects terminal categories]]
+
 [[!redirects trivial category]]
+[[!redirects trivial categories]]
+
 [[!redirects final category]]
+[[!redirects final categories]]
+
+[[!redirects terminal groupoid]]
+[[!redirects terminal groupoids]]
+
+
