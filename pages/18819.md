@@ -2942,7 +2942,7 @@ construction (example \ref{TangentBundleSynthetic}) to supergeometry we have
 **([[odd tangent bundle]])**
 
 Let $X$ be a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
-and $\mathbb{R}^{0\vert 1}$ the [[superpoint]] (eq:StandardSuperpoints) then the [[supergeometry|supergeometry]]-[[mapping space]]
+and $\mathbb{R}^{0 \vert 1}$ the [[superpoint]] (eq:StandardSuperpoints) then the [[supergeometry|supergeometry]]-[[mapping space]]
 
 $$
   \array{
