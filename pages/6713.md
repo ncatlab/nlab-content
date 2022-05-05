@@ -404,6 +404,8 @@ Discussion of [[equivariant K-theory]] for D-branes on [[orbifolds]] includes th
 
 * Hugo García-Compeán, _D-branes in orbifold singularities and equivariant K-theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
 
+* M. R. Gaberdiel, B. Stefanski Jr, _Dirichlet Branes on Orbifolds_, Nucl.Phys.B578:58-84, 2000 ([arXiv:hep-th/9910109](https://arxiv.org/abs/hep-th/9910109))
+
 * [[Igor Kriz]], Leopoldo A. Pando Zayas, Norma Quiroz, _Comments on D-branes on Orbifolds and K-theory_, Int.J.Mod.Phys.A23:933-974, 2008 ([arXiv:hep-th/0703122](https://arxiv.org/abs/hep-th/0703122))
 
 * [[Richard Szabo]], [[Alessandro Valentino]], _Ramond-Ramond Fields, Fractional Branes and Orbifold Differential K-Theory_, Commun.Math.Phys.294:647-702, 2010 ([arXiv:0710.2773](https://arxiv.org/abs/0710.2773))
