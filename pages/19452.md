@@ -304,7 +304,7 @@ If a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) happens to have as [[cla
 
 =--
 
-As usual, there are some trivial examples, that are however useful to make explicit for the development of the theory:
+As usual, there are some trivial examples, that are however usefully made explicit for the development of the theory:
 
 +-- {: .num_example #InitialCategoryAndTerminalCategory}
 ###### Example
@@ -317,6 +317,33 @@ As usual, there are some trivial examples, that are however useful to make expli
 Clearly, these are [[small categories]] (Def. \ref{SmallCategory}).
 
 =--
+
++-- {: .num_example #PartiallyOrderedSetsAsSmallCategories}
+###### Example
+**([[preordered sets]] as [[thin categories]])**
+
+Let $(S, \leq)$ be a [[preordered set]]. Then this induces a [[small category]] whose [[set]] of [[objects]] is $S$, and which has precisely one morphism $x \to y$ whenever $x \leq y$, and no such morphism otherwise:
+
+\[
+  \label{RelationsAsMorphismInPartiallyOrderedSet}
+  x \overset{\exists !}{\to} y
+  \phantom{AAA}
+  \text{precisely if}
+  \phantom{AAA}
+  x \leq y
+\]
+
+Conversely, every [[small category]] with at most one morphism from any object to any other, called a _[[thin category]]_, induces on its set of objects the [[structure]] of a  [[partially ordered set]] via (eq:RelationsAsMorphismInPartiallyOrderedSet).
+
+Here the [[axioms]] for [[preordered sets]] and for [[categories]] match as follows:
+
+| |  $\phantom{A}$[[reflexive relation|reflexivity]]$\phantom{A}$ | $\phantom{A}$[[transitive relation|transitivity]]$\phantom{A}$ |
+|----|-----|------|
+| $\phantom{A}$[[partially ordered sets]]$\phantom{A}$ | $\phantom{A}$ $x \leq x$ $\phantom{A}$ | $\phantom{A}$ $(x \leq y \leq z) \Rightarrow (x \leq z)$ $\phantom{A}$ |
+| $\phantom{A}$[[thin categories]]$\phantom{A}$ | $\phantom{A}$[[identity morphisms]]$\phantom{A}$ | $\phantom{A}$[[composition]]$\phantom{A}$ |
+
+=--
+
 
 +-- {: .num_defn #Isomorphism}
 ###### Definition
@@ -4388,6 +4415,20 @@ $\,$
 ### Limits and colimits
  {#LimitsAndColimits}
   
+Maybe the most hands-on version of [[universal constructions]] are _[[limits]]_ (Def. \ref{Limits} below), which is short for _limiting [[cones]]_ (Remark \ref{LimitingCones} below). The [[formal duality|formally dual]] concept is called _[[colimits]]_ (which are hence [[limits]] in an [[opposite category]]). Other terminology is in use, too:
+
+| $\phantom{A}$ [[limit]] $\phantom{A}$ | $\phantom{A}$ [[colimit]] $\phantom{A}$ |
+|-----------|---------------|
+| $\phantom{A}$ [[inverse limit]] $\phantom{A}$ | $\phantom{A}$ [[direct limit]]$\phantom{A}$  |
+
+There is a variety of different kinds of [[limits]]/[[colimits]], depending on the [[diagram]] shape that they are limiting (co-)cones over. This includes [[universal constructions]] known as _[[equalizers]]_, _[[products]]_, _[[fiber products]]/[[pullbacks]]_, _[[filtered limits]]_ and various others, all of which are basic tools frequently used whenever [[category theory]] applies.
+
+A key fact of [[category theory]] is the [[right adjoints preserve limits]] and [[left adjoints preserve colimits]] (Prop. \ref{AdjointsPreserveCoLimits} below).
+
+A partial converse to this statement is that if a [[functor]] preserves [[limits]]\[[colimits]], then its [[adjoint functor]] is, if it exists, objectwise given by a [[limit]]/[[colimit]] over a [[comma category]] under/over the given functor (Prop. \ref{PointwiseExpressionOfLeftAdjoints} below). Since these [[comma categories]] are in general not [[small categories|small]], this involves set-theoretic size subtleties that are dealt with by the _[[adjoint functor theorem]]_ (Remark \ref{AdjointFunctorTheorem} below). We discuss in detail a very special but also very useful special case of this in Prop. \ref{TopologicalLeftKanExtensionBCoend}, further below.
+
+$\,$ 
+
 
 +-- {: .num_defn #Limits}
 ###### Definition
@@ -4432,6 +4473,7 @@ Now:
    $$
 
 $$
+  \label{LimitAndColimitAdj}
   [\mathcal{C}, \mathcal{D}]
     \array{
        \overset{ \phantom{AA}\underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim} \phantom{AA} }{\longrightarrow}
@@ -4444,8 +4486,271 @@ $$
   \,. 
 $$
 
+=--
+
++-- {: .num_remark #LimitingCones}
+###### Remark
+**([[limits]] in terms of limiting [[cones]])
+
+Unwinding Definition \ref{Limits} of [[limits]] and [[colimits]], it says the following.
+
+First of all, for $d \in \mathcal{D}$ any [[object]] and $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ any [[functor]], a [[natural transformation]] (Def. \ref{NaturalTransformations}) of the form
+
+\[
+  \label{ConeAsNaturalTransformation}
+  const_d \overset{i}{\longrightarrow} F
+\]
+
+has component morphisms
+
+$$
+  \array{
+     d
+     \\
+     \big\downarrow^{\mathrlap{i_c}}
+     \\
+     F(c)
+  }
+$$
+
+in $\mathcal{D}$, for each $c \in \mathcal{C}$, and the naturality condition (eq:Naturality) says that these form a [[commuting diagram]] (Def. \ref{CommutingDiagram}) of the form
+
+\[
+  \label{ConeInComponents}
+  \array{ 
+    && d
+    \\
+    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow} &&
+    F(c_2)
+  }
+\]
+
+for each morphism $c_1 \overset{f}{\to} c_2$ in $\mathcal{C}$. Due to the look of this [[diagram]], one also calls such a natural transformation a _[[cone]]_ over the functor $F$.
+
+Now the [[counit of an adjunction|counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) of the $(const \dashv \underset{\longleftarrow}{\lim})$-[[adjunction]] (eq:LimitAndColimitAdj) is a [[natural transformation]] of the form
+
+\[
+  const_{\underset{\longleftarrow}{\lim} F}
+  \overset{ \phantom{AA} \epsilon_{F} \phantom{AA} }{\longrightarrow}
+  F
+\]
+
+and hence is, in components, a [[cone]] (eq:ConeInComponents) over $F$:
+
+\[
+  \label{LimitCone}
+  \array{ 
+    && \underset{\longleftarrow}{\lim} F
+    \\
+    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow} &&
+    F(c_2)
+  }
+\]
+
+to be called the _limiting cone_ over $F$
+
+But the [[universal property]] of [[adjunctions]] says that this is a very special cone: By Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} the defining property of the limit is equivalently that for every natural transformation of the form (eq:ConeAsNaturalTransformation), hence for every [[cone]] of the form (eq:ConeInComponents), there is a _unique_ natural transformation
+
+$$
+  \array{
+    const_d
+    &\overset{\widetilde i}{\Rightarrow}&
+    const_{ \underset{ \longleftarrow }{\lim} }
+  }
+$$
+
+which, due to constancy of the two functors applied in the naturality condition (eq:Naturality), has a constant component morphism
+
+\[
+  \label{UniversalMorphismForLimit}
+  d 
+    \overset{ \widetilde i }{\longrightarrow}
+  \underset{\longleftarrow}{\lim} F
+\]
+
+such that
+
+$$
+  \array{
+    const_d
+    && \overset{\widetilde i}{\longrightarrow} && 
+    const_{ \underset{\longleftarrow}{\lim} F }
+    \\
+    & {}_{\mathllap{ \epsilon_F }} \searrow && \swarrow_{ \mathrlap{i} }
+    \\
+    && F
+  }
+$$
+
+hence such that (eq:UniversalMorphismForLimit) factors the given [[cone]] (eq:ConeInComponents) through the special cone (eq:LimitCone):
+
+$$
+  \array{ 
+    && d
+    \\
+    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+  \phantom{AAA} = \phantom{AAA}
+  \array{ 
+    && d
+    \\
+    && \big\downarrow^{ \mathrlap{ \widetilde i } }
+    \\
+    && \underset{longleftarrow}{\lim} F
+    \\
+    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+$$
+
+Hence a _limit cone_ is a cone over $F$, such that every other cone factors through it in a unique way.
+
 
 =--
+
+
++-- {: .num_remark #LimitingCones}
+###### Remark
+**([[limit|limiting]] [[cones]])
+
+Unwinding Definition \ref{Limits} of [[limits]] and [[colimits]], it says the following.
+
+First of all, for $d \in \mathcal{D}$ any [[object]] and $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ any [[functor]], a [[natural transformation]] (Def. \ref{NaturalTransformations}) of the form
+
+\[
+  \label{ConeAsNaturalTransformation}
+  const_d \overset{i}{\longrightarrow} F
+\]
+
+has component morphisms
+
+$$
+  \array{
+     d
+     \\
+     \big\downarrow^{\mathrlap{i_c}}
+     \\
+     F(c)
+  }
+$$
+
+in $\mathcal{D}$, for each $c \in \mathcal{C}$, and the naturality condition (eq:Naturality) says that these form a [[commuting diagram]] (Def. \ref{CommutingDiagram}) of the form
+
+\[
+  \label{ConeInComponents}
+  \array{ 
+    && d
+    \\
+    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+\]
+
+for each morphism $c_1 \overset{f}{\to} c_2$ in $\mathcal{C}$. Due to the look of this [[diagram]], one also calls such a natural transformation a _[[cone]]_ over the functor $F$.
+
+Now the [[counit of an adjunction|counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) of the $(const \dashv \underset{\longleftarrow}{\lim})$-[[adjunction]] (eq:LimitAndColimitAdj) is a [[natural transformation]] of the form
+
+\[
+  const_{\underset{\longleftarrow}{\lim} F}
+  \overset{ \phantom{AA} \epsilon_{F} \phantom{AA} }{\longrightarrow}
+  F
+\]
+
+and hence is, in components, a [[cone]] (eq:ConeInComponents) over $F$:
+
+\[
+  \label{LimitCone}
+  \array{ 
+    && \underset{longleftarrow}{\lim} F
+    \\
+    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+\]
+
+But the [[universal property]] of [[adjunctions]] says that this is a very special cone: By Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} the defining property of the limit is equivalently that for every natural transformation of the form (eq:ConeAsNaturalTransformation), hence for every [[cone]] of the form (eq:ConeInComponents), there is a _unique_ natural transformation
+
+$$
+  \array{
+    const_d
+    &\overset{\widetilde i}{\Rightarrow}&
+    const_{ \underset{ \longleftarrow }{\lim} }
+  }
+$$
+
+which, due to constancy of the two functors applied in the naturality condition (eq:Naturality), has a constant component morphism
+
+$$
+  d \overset{ \widetilde i }{\longrightarrow}
+$$
+
+such that
+
+$$
+  \array{
+    const_d
+    && \overset{\widetilde i}{\longrightarrow} && 
+    const_{ \underset{\longleftarrow}{\lim} F }
+    \\
+    & {}_{\mathllap{ \epsilon_F }} \searrow && \swarrow_{ \mathrlap{i} }
+    \\
+    && F
+  }
+$$
+
+hence such that this factors the given [[cone]] (eq:ConeInComponents) through the special cone (eq:LimitCone):
+
+$$
+  \array{ 
+    && d
+    \\
+    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+  \phantom{AAA} = \phantom{AAA}
+  \array{ 
+    && d
+    \\
+    && \big\downarrow^{ \mathrlap{ \widetilde i } }
+    \\
+    && \underset{longleftarrow}{\lim} F
+    \\
+    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+  
+$$
+
+
+
+=--
+
+
 
 +-- {: .num_prop #HomFunctorPreservesLimits}
 ###### Proposition
@@ -4803,6 +5108,18 @@ $$
 $$
 
 By Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, this is equivalent to $(L(d), \eta_d)$ being the [[initial object]] in the [[comma category]] $c/R$, which in turn is equivalent to it being the [[limit]] of the [[identity functor]] on $c/R$. But this follows directly from the limit formulas (eq:FormulaForLeftAdjointByPointwiseLimit) and (eq:RAppliedtoFormulaForLeftAdjointByPointwiseLimit).
+
+=--
+
++-- {: .num_remark #AdjointFunctorTheorem}
+###### Remark
+**([[adjoint functor theorem)**
+
+Beware the subtle point in Prop. \ref{PointwiseExpressionOfLeftAdjoints}, that the [[comma category]] $c/F$ is in general not a [[small category]] (Def. \ref{SmallCategory}): It has typically "as many" objects as $\mathcal{C}$ has, and $\mathcal{C}$ is not assumed to be small (while of course it may happen to be). But typical categories, such as notably the [[catgegory of sets]] (Example \ref{CategoryOfSets}) are generally guaranteed only to admit limits over [[small categories]]. For this reason, Prop. \ref{PointwiseExpressionOfLeftAdjoints} is rarely useful for _finding_ an [[adjoint functor]] which is not already established to exist by other means.
+
+But there are good sufficient conditions known, on top of the condition that $R$ preserves limits, which guarantee the existence of an adjoint functor, after all. This is the topic of the _[[adjoint functor theorem]]_ (one of the rare instances of useful and non-trivial theorems in mathematics for which issues of [[set theory|set theoretic]] size play a crucial role for their statement and proof).
+
+A very special but also very useful case of the [[adjoint functor theorem]] is the existence of adjoints of [[base change]] functors between categories of ([[enriched presheaf|enriched]]) [[presheaves]] via [[Kan extension]]. This we discuss as Prop. \ref{TopologicalLeftKanExtensionBCoend} below. Since this is most conveniently phrased in terms of special [[limits]]/[[colimits]] called [[ends]]/[[coends]] (Def. \ref{EndAndCoendInTopcgSmash} below) we first discuss these.
 
 =--
 
