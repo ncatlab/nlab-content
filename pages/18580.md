@@ -175,6 +175,7 @@ The following text uses the floor and ceiling functions to relate [[integrals]] 
 * Toby Bartels. One-variable Calculus for Calculus 2. [Web](http://tobybartels.name/MATH-1700/2017WN/calcbook/) (the first set of notes at that link).
 
 
+
 [[!redirects floor]]
 [[!redirects floors]]
 [[!redirects floor operation]]
