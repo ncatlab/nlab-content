@@ -92,6 +92,9 @@ Discussion of the [[Higgs mechanism]] in this model includes
 
 (a useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525))
 
-More recent predictions are in
+More discussion of experimental signatures is in
 
 * {#EllisKaneZheng014} Sebastian A.R. Ellis, [[Gordon Kane]], Bob Zheng, _Superpartners at LHC and Future Colliders: Predictions from Constrained Compactified M-Theory_ ([arXiv:1408.1961](http://arxiv.org/abs/1408.1961))
+
+* {#BuschmannGonzalesKane18} Malte Buschmann, Eric Gonzalez, [[Gordon Kane]], _Revisiting Gluinos at LHC_ ([arXiv:1803.04394](https://arxiv.org/abs/1803.04394))
+
