@@ -447,6 +447,14 @@ For the ADMX experiment:
 * {#Avignone18} Frank T. Avignone III, _[Homing in on Axions?](https://physics.aps.org/articles/v11/34)_, APS Physics 11, 34, 2018
 
 
+#### In astrophysics
+
+Axion signatures in [[gravitational waves]] potentially visible by [[LIGO]]-type [[experiments]] are discussed in 
+
+* {#HJSSZ18} Junwu Huang, Matthew C. Johnson, Laura Sagunski, Mairi Sakellariadou, Jun Zhang, _Prospects for axion searches with Advanced LIGO through binary mergers_ ([arXiv:1807.02133](https://arxiv.org/abs/1807.02133))
+
+
+
 #### In cosmology
 
 Discussion of [[experiment|experimental]] signatures of and constraints on axion physics in [[cosmology]], where the axion is a ([[fuzzy dark matter|fuzzy]]) [[dark matter]]-candidate:
