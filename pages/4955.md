@@ -96,6 +96,7 @@ $$
 
 This is the form in which the chain rule is usually introduced in elementary calculus.
 
+
 #### Remarks
 
 While the chain rule is of great theoretical importance, it is completely unnecessary for the working out of derivatives of elementary functions in ordinary calculus (including the multivariable case).  Every result giving the derivative of an elementary function corresponds to a rule (along the lines of the [[product rule]]) for the operation of that function to any expression.  For example, instead of learning that
@@ -107,9 +108,9 @@ $$ \mathrm{d}(\sin u) = \cos u \,\mathrm{d}u ;$$
 then it applies without further modification to multivariable calculus (as well as implicit differentiation, related rates, integration by substitution, and other stock features of one-variable calculus).
 
 The chain rule could still be used in the *proof* of this 'sine rule'.  Even so, it is quite possible to prove the sine rule directly (much as one proves the product rule directly rather than using the two-variable chain rule and the partial derivatives of the function $x, y \mapsto x y$).  In any case, the chain rule is not directly needed when working out specific derivatives.  As a *rule* of differentiation, the chain rule is needed only when an unspecified [[differentiable function]] $f$ appears, and then may be given in the form
-$$ \frac{\mathrm{d}}{\mathrm{d}x} f(u) = f'(u) \,\frac{\mathrm{d}u}{\mathrm{d}x} $$
+$$ \frac{\mathrm{d}}{\mathrm{d}x} \bigl(f(u)\bigr) = f'(u) \,\frac{\mathrm{d}u}{\mathrm{d}x} $$
 or
-$$ \mathrm{d}f(u) = f'(u) \,\mathrm{d}u $$
+$$ \mathrm{d}\bigl(f(u)\bigr) = f'(u) \,\mathrm{d}u $$
 to match other rules.
 
 Although the chain rule is often written as
@@ -120,15 +121,17 @@ Although the chain rule is often written as
   \frac{\mathrm{d}u}{\mathrm{d}x} ,\label{trivial} 
 \]
 
-this is an oversimplification.  Upon choosing an independent variable, it is possible (and easy) to give a rigorous definition of the [[derivative|differential]] $\mathrm{d}u$, and then (eq:trivial) is a triviality.  However, with such a definition of differential, (eq:trivial) is *not* the chain rule!  The reason is that, when (eq:trivial) is used as a mnemonic for the chain rule, ${\mathrm{d}u}/{\mathrm{d}x}$ uses $x$ as the independent variable, but ${\mathrm{d}y}/{\mathrm{d}u}$ uses $u$.  Either may be chosen to define differentials[^invertibility], but one must (a priori) be consistent.  Now, it so happens that the choice of independent variable is entirely irrelevant; differentials have the same meaning no matter which independent variable is used.  But *this* fact requires proof; *it* is the chain rule (or at least a prerequisite for using (eq:trivial) as the chain rule), and it is *not* a triviality.  In this form, the chain rule is also known as **Cauchy's invariant rule**.
+this is an oversimplification.  Upon choosing an independent variable, it is possible (and easy) to give a rigorous definition of the [[derivative|differential]] $\mathrm{d}u$, and then (eq:trivial) is a triviality (assuming no division by zero).  However, with such a definition of differential, (eq:trivial) is *not* the chain rule!  The reason is that, when (eq:trivial) is used as a mnemonic for the chain rule, ${\mathrm{d}u}/{\mathrm{d}x}$ uses $x$ as the independent variable, but ${\mathrm{d}y}/{\mathrm{d}u}$ uses $u$.  Either may be chosen to define differentials[^invertibility], but one must (a priori) be consistent.  Now, it so happens that the choice of independent variable is entirely irrelevant; differentials have the same meaning no matter which independent variable is used.  But *this* fact requires proof; *it* is the chain rule (or at least a prerequisite for using (eq:trivial) as the chain rule), and it is *not* a triviality.  In this form, the chain rule is also known as **Cauchy's invariant rule**.
 
 [^invertibility]:  Well, either may be chosen as long as their differentials are nowhere zero, which is exactly what must be true for (1) to make sense.  More precisely, given that $x$ works as an independent variable, the Chain Rule tells us that $u$ works just as well so long as $\mathrm{d}u$ (as defined using $x$) is nowhere zero.  This may be related to the easy but wrong proof of the Chain Rule that founders on a division by zero in exactly the same place (where $\mathrm{d}u$ would be), although I don't see a direct connection.
+
 
 ## Related concepts
 
 * [[natural bundle]]
 
 * [[total derivative]]
+
 
 ## References
 
