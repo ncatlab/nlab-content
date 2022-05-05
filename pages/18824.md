@@ -236,13 +236,13 @@ are smooth functions on the [[jet bundle]].
 
 Under these identifications the value of the [[presymplectic form]] $\omega_{\Sigma_p}$ (eq:TransgressionOfPresymplecticCurrentToCauchySurface)
 on two [[tangent vectors]] $\vec \Phi_1, \vec \Phi_2 \in \Gamma_{\Sigma,scp}(E)$
-at a point $\Phi_1, \Phi_2 \in \Gamma_{\Sigma,scp}(E)$ is
+at a point $\Phi \in \Gamma_{\Sigma,scp}(E)$ is
 
 $$
   \omega_{\Sigma_p}(\vec \Phi_1, \vec \Phi_2)
   \;=\;
   \underset{\Sigma_p}{\int}
-  \left(\Omega_{BFV}\right)^{\mu_1, \cdots, \mu_{k_1}, \nu_1, \cdots, \nu_{k_2}, \kappa}_{a_1 a_2}(\Phi_1(x), \Phi_2(x))
+  \left(\Omega_{BFV}\right)^{\mu_1, \cdots, \mu_{k_1}, \nu_1, \cdots, \nu_{k_2}, \kappa}_{a_1 a_2}(\Phi(x))
   \left(
   \frac{\partial}{\partial x^{\mu_1}}
   \cdots
