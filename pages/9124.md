@@ -31,7 +31,7 @@ $$
 $$
 
 
-where $Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
+where $\Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
 Here $\Im$ is called the _[[infinitesimal shape modality]]_. 
 
 An [[object]]/[[type]] $X$ is called **formally smooth** if the [[unit of an adjunction|unit]]
