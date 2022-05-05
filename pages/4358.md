@@ -23,6 +23,10 @@ Prime numbers do *not* quite match the [[prime elements]] of $\mathbb{N}$, since
 
 see at _[[Riemann hypothesis]]_
 
+### Goldbach conjecture
+
+see at _[[Goldbach conjecture]]_
+
 ### Asymptotic distribution
 
 see at _[[prime number theorem]]_
@@ -42,6 +46,8 @@ see at _[[prime number theorem]]_
 * [[p-localization]]
 
 * [[prime geodesic]]
+
+* [[Bertrand's postulate]]
 
 [[!redirects prime number]]
 [[!redirects prime numbers]]
