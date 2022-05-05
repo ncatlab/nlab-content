@@ -48,7 +48,7 @@ The object $\Omega$ above is sometimes called a **strong-subobject classifier**,
 +-- {: .un_remark}
 ###### Remark
 
-Equivalently, in addition to finite limits and colimits and local cartesian closure, one may ask only that there exists a classifier $t\colon 1\to\Omega$ as above for *some* class $\mathcal{M}$ of [[monomorphisms]] which contains the [[regular monomorphisms]] and is closed under composition and pullback.  It then follows that $\mathcal{M}$ is precisely the class of strong monics, and also equal to the class of regular monics.
+Equivalently, in addition to finite limits and colimits and local cartesian closure, one may ask only that there exists a classifier $t\colon 1\to\Omega$ as above for *some* class $\mathcal{M}$ of [[monomorphisms]] which contains the [[regular monomorphisms]] and is closed under composition and pullback.  From this one can show that every morphism factors as an epimorphism followed by a regular monomorphism (see [Wyler, proposition 12.5](#Wyler)).  It then follows that every strong monomorphism is regular, and therefore $\mathcal{M}$ is precisely the class of strong monomorphisms.
 
 =--
 
@@ -228,7 +228,8 @@ Original articles include
 
 Standard textbook references are
 
-*  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991. 
+*  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991.
+{#Wyler}
 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
