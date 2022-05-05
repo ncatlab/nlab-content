@@ -35,10 +35,12 @@ In particular, therefore, any symmetric monoidal poset with countable meets admi
 
 ## Related pages
 
-* [[implicit computational complexity]]
+* [[computational complexity]]
+  * [[implicit computational complexity]]
+  * [[polynomial time]]
 * [[light linear logic]]
 * [[naive set theory]]
-* [[polynomial time]]
+* [[ultrafinitism]]
 
 ## References
 
