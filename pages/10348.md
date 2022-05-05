@@ -11,4 +11,6 @@
 
 * [[quantum field theory]]
 
+* [[GUT]], [[gauge coupling unification]]
+
 category: people
