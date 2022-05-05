@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _quaternion group_ of [[order of a group|order]] 8, $Q_8$, is the [[finite group|finite]] [[subgroup]] of the group [[SU(2)]] $\simeq S^3 \subset \mathbb{H}^4$ of unit [[quaternions]] which consists of the canonical four [[linear basis|basis]]-quaternions and their negatives:
+The _quaternion group_ of [[order of a group|order]] 8, $Q_8$, is the [[finite subgroup of SU(2)]] $Q_8 \subset SU(2) \simeq S^3 \subset \mathbb{H}$ of unit [[quaternions]] which consists of the canonical four [[linear basis|basis]]-quaternions and their negatives:
 
 $$
   Q_8
@@ -34,7 +34,13 @@ $$
   \,.
 $$
 
-This is [[isomorphic|isomorphic]] to the [[binary dihedral group]] of the same [[order of a group|order]].
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png" width="100"/>
+</div>
+
+This is [[isomorphic|isomorphic]] to the [[binary dihedral group]] of the same [[order of a group|order]] $Q_8 \simeq 2 D_4$. As such, the [[Dynkin diagram]] that corresponds to $Q_8$ under the [[ADE-classification]] of [[finite subgroups of SU(2)]] is [[D4]], the [[triality]]-invariant one.
+
+> graphics grabbed from Wikipedia [here](https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png)
 
 This order-8 quaternion group $Q_8$ is the first in a row of _generalized quaternion groups_ $Q_{4n}$ , also called **dicyclic groups** which in turn are part of an even larger family.
 
