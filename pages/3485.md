@@ -419,7 +419,13 @@ The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Mo
 
 ## References
 
+Textbook accounts include
+
+* Charles Curtis, Irving Reiner, from p. 43 on in _Representation theory of finite groups and associative algebras_, AMS 1962
+
 * {#Feit67} [[Walter Feit]], _Characters of Finite Groups_, W. A. Benjamin New York, 1967
+
+Original articles include
 
 * D. L. Johnson, _Minimal Permutation Representations of Finite Groups_, 
 American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor:2373739](https://www.jstor.org/stable/2373739))
