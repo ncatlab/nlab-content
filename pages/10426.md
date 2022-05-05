@@ -23,7 +23,7 @@
 
 ## Idea
 
-As the [[type theory]] of [[sheaf toposes]] (under the [[relation between category theory and type theory]]) is _[[geometric type theory]]_, so the [[homotopy type theory]] of [[(∞,1)-sheaf]] [[(∞,1)-toposes]] maybe deserves to be called _geometric homotopy type theory_. 
+As [[geometric type theory]] refers to a conjectural extension of [[geometric logic]] to an [[extensional type theory|extensional]] dependent [[type theory]] that corresponds to [[sheaf toposes]] (under the [[relation between category theory and type theory]]) with [[geometric morphisms]] between them, a similar conjectural extension to a [[homotopy type theory]] corresponding to [[(∞,1)-sheaf]] [[(∞,1)-toposes]] (and geometric morphisms) maybe deserves to be called _geometric homotopy type theory_.
 
 Traditionally the [[types]] in geometric homotopy type theory, hence the _geometric homotopy types_, are known as _[[∞-stacks]]_ and maybe better as _[[(∞,1)-sheaves]]_, notably as _[[moduli ∞-stacks]]_.
 
