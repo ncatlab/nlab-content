@@ -77,6 +77,38 @@ There is an exceptional [[isomorphism]] $I \simeq PSL_2(\mathbb{F}_5)$, with $2I
 
 ($PSL_2$ the [[projective special linear group]], $SL_2$ the [[special linear group]], $\mathbb{F}_5$ the [[prime field]] for $p = 5$)
 
+
+### Subgroups
+
++-- {: .num_prop #QuaternionSubgroup}
+###### Proposition
+**([[quaternion group]] inside [[binary icosahedral group]])**
+
+The [[binary icosahedral group]] contains the [[quaternion group]] of [[order]] 8, hence the [[binary dihedral group]] of [[order of a group|order]] 8, as a [[subgroup]] (not [[normal subgroup|normal]]):
+
+$$
+  2 D_4 =Q_8 \subset 2 I
+  \,.
+$$
+
+In fact the only [[finite subgroups of SU(2)]] which contain $2 D_4 =Q_8$ as a proper subgroup are the exceptional ones, hence the [[binary tetrahedral group]], the [[binary octahedral group]] and the [[binary icosahedral group]].
+
+=--
+
+See [this Prop](quaternion+group#InclusionInLargerFininteSubgroupsOfSU2) at _[[quaternion group]]_.
+
++-- {: .num_prop #NormalSubgroupsOf2I}
+###### Proposition
+**([[normal subgroups]] of [[binary icosahedral group]]
+
+The only proper [[normal subgroup]] of the [[binary icosahedral group]] is its [[center]] $Z(2I) \simeq \mathbb{Z}/2$.
+
+
+=--
+
+
+
+
 ### Quotient spaces
 
 The [[coset space]] $SU(2)/2I$ is the [[Poincaré homology sphere]].
