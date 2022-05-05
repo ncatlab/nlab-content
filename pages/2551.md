@@ -165,9 +165,9 @@ $$
 
 Hence it is sufficient to see that an injectively fibrant simplicial presheaf $\mathbf{X}$ is objectwise a [[Kan complex]]. This is indeed the case, by [this Prop.](geometry+of+physics+--+categories+and+toposes#ModelCategoriesOfSimplicialPresheaves).
 
-To check that (eq:QuillenEquivalenceInABousfLocalization) is actually a [[Quillen equivalence]], we check that the derived adjunction unit and counit are equivalences:
+To check that (eq:QuillenEquivalenceInABousfLocalization) is actually a [[Quillen equivalence]], we check that the [[derived adjunction unit]] and [[derived adjunction counit]] are [[weak equivalences]]:
 
-For $X \in sSet$ any simplicial set (necessarily cofibrant), the derived [[adjunction unit]] is 
+For $X \in sSet$ any simplicial set (necessarily cofibrant), the [[derived adjunction unit]] is 
 
 $$
   X 
@@ -215,7 +215,7 @@ $$
   \mathbf{X}
 $$
 
-which is hence also a weak equivalence. Hence for the derived adjunction counit
+which is hence also a weak equivalence. Hence for the [[derived adjunction counit]]
 
 $$
   const (Q \mathbf{X})(\mathbb{A}^0)
