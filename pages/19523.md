@@ -32,9 +32,9 @@ Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due 
 
 The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] or [[dark matter]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]] (e.g. [Célérier 99](#Celerier00), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Rasanen 11](#BucherRasanen11), [Scharf 13](#Scharf13), [Moffat 16](#Moffat16), [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17)).
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] or [[dark matter]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]] (e.g. [Célérier 99](#Celerier00), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Rasanen 11](#BucherRasanen11), [Scharf 13](#Scharf13), [Moffat 16](#Moffat16)).
 
-Inhomogeneity effects seen in numerical simulations are discussed in [ACDDK 17](#ACDDK17).
+Inhomogeneity effects seen in numerical simulations are discussed in [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17).
 
 Review of attitudes in the community towards this issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16). 
 
@@ -56,8 +56,9 @@ A seminal argument that it _is_ consistent to neglect cosmic inhomogeneity was g
 > This, in principle, ends the debate about whether backreaction has been excluded as a dark energy candidate: the Green and Wald formalism does not apply to the main body of backreaction research; backreaction remains a viable dark energy candidate.
 
 ## Lemaitre-Tolman-Bondi models
+ {#LemaitreTolmanBondi}
 
-A particular class of examples of inhomogeneous cosmological models are Lemaitre-Tolman-Bondi models, which however require assuming that we inhabit a position close to a singled-out "center" of the universe, usually the center of an assumed cosmic "void", of low matter density. See e.g. [Enkvist 07](#Enkvist07), [Moffat 16](#Moffat16). 
+A particular class of examples of inhomogeneous cosmological models are Lemaitre-Tolman-Bondi models, which however require assuming that we inhabit a position close to a singled-out "center" of the universe, usually the center of an assumed cosmic "void", of low matter density. See e.g. [Moffat 05](#Moffat05), [Enkvist 07](#Enkvist07), [Moffat 16](#Moffat16). 
 
 It has been argued (e.g. [Moffat 16, p. 2](#Moffat16)) that the apparent unlikeliness of such a "spatial coincidence" is relativized on the backdrop of the established "temporal coincidence" that cosmic acceleration seems to start roughly with the onset of [[structure formation]], and the perceived fine-tunig of the [[cosmological constant]] required in the [[standard model of cosmology]].
 
@@ -123,13 +124,16 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#BelejkoKorzynski16} Krzysztof Bolejko, Mikołaj Korzyński, _Inhomogeneous cosmology and backreaction: Current status and future prospects_, Int. J. Mod. Phys. D 26, 1730011 (2017) ([arXiv:1612.08222](https://arxiv.org/abs/1612.08222))
 
-* {#ACDDK17} Julian Adamek, Chris Clarkson, David Daverio, Ruth Durrer, Martin Kunz, _Safely smoothing spacetime: backreaction in relativistic cosmological simulations_ ([arXiv:1706.09309](https://arxiv.org/abs/1706.09309))
 
 * {#ClesseRoisinFufza17} Sebastien Clesse, Arnaud Roisin, André Füzfa, _Mimicking Dark Energy with the backreactions of gigaparsec inhomogeneities_ ([arXiv:1702.06643](https://arxiv.org/abs/1702.06643))
+
+* {#ACDDK17} Julian Adamek, Chris Clarkson, David Daverio, Ruth Durrer, Martin Kunz, _Safely smoothing spacetime: backreaction in relativistic cosmological simulations_ ([arXiv:1706.09309](https://arxiv.org/abs/1706.09309))
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
 
 ### Lemaitre-Tolman-Bondi models
+
+* {#Moffat05} [[John Moffat]], _Late-time Inhomogeneity and Acceleration Without Dark Energy_, JCAP 0605 (2006) 001 ([arXiv:astro-ph/0505326](https://arxiv.org/abs/astro-ph/0505326))
 
 * {#Enkvist07} Kari Enqvist, _Lemaitre-Tolman-Bondi model and accelerating expansion_, Gen. Rel. Grav.40:451-466, 2008 ([arXiv:0709.2044](https://arxiv.org/abs/0709.2044))
 
