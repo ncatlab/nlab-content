@@ -68,7 +68,11 @@ They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Ll
 
 ### In superstring theory
 
+* [[Igor Bandos]], Jerzy Lukierski, Christian Preitschopf, [[Dmitri Sorokin]], _OSp supergroup manifolds, superparticles and supertwistors_, Phys.Rev.D61:065009, 2000 ([arXiv:hep-th/9907113](https://arxiv.org/abs/hep-th/9907113))
+
 * {#BergshoessProeyen00} [[Eric Bergshoeff]], [[Antoine Van Proeyen]], _The many faces of $OSp(1|32)$_, Class. Quantum Grav. 17 (2000) 3277&#8211;3303 ([arXiv:hep-th/0003261](http://arxiv.org/abs/hep-th/0003261))
+
+* [[Horatiu Nastase]], _Towards a Chern-Simons M theory of $OSp(1\vert 32) \times OSp(1\vert 32)$_ ([arXiv:hep-th/0306269](https://arxiv.org/abs/hep-th/0306269))
 
 * {#FernandezIzquierdoOlmo15} J.J. Fernandez, J.M. Izquierdo, M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B Volume 897, August 2015, Pages 87&#8211;97 ([arXiv:1504.05946](http://arxiv.org/abs/1504.05946))
 
