@@ -4085,6 +4085,7 @@ Therefore one considers the following generalization of def. \ref{DerivedFunctor
 
 +-- {: .num_defn #LeftAndRightDerivedFunctorsOnModelCategories}
 ###### Definition
+**(left and right [[derived functors]])**
 
 Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) into a [[category with weak equivalences]] $\mathcal{D}$ (def. \ref{CategoryWithWeakEquivalences}).
 
