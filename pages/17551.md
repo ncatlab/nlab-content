@@ -121,6 +121,147 @@ $$
 ([Lewis-May-Steinberger 86, II.9, cor. 9.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
 
 
+### As inversion of Euler classes
+ {#AsInversionOfEulerClasses}
+
+Let 
+
+$$
+  N \overset{\epsilon}{\hookrightarrow} G
+$$ 
+
+be a [[normal subgroup]]-inclusion
+
+
+Let 
+
+$$
+  E
+  \;\in\;
+  G Spectra
+$$ 
+
+be a [[G-spectrum]] with partial geometric fixed point spectrum
+
+$$
+  \Phi^N E \;\in\; G/N Spectra
+  \,.
+$$
+
+
++-- {: .num_prop #GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses}
+###### Proposition
+
+
+
+For
+
+$$
+  X
+  \;\in\;
+  G/N Spectra^{fin}
+  \overset{\epsilon^\sharp}{\longrightarrow}
+  G Specta
+$$
+
+a [[finite spectrum|finite]] $G$-[[CW-spectrum]], the $G/N$-equivariant  $\Phi^N E$-cohomology of $X$ is equivalently the [[colimit]] over the $G$-equivariant $E$-cohomology groups of $E$ in [[RO(G)-degrees]] shifted by all those [[representations]] $V$ that have trivial $N$-[[fixed point spaces]]: $V^N = 0$:
+
+$$
+  (\Phi^N E)^\bullet_{G/N}(X)
+  \;\simeq\;
+  \underset{\underset{\{V \vert V^N = 0\}}{\longrightarrow}}{\lim}
+  E^{\epsilon^\ast \bullet + V}(\epsilon^\sharp X)  
+$$
+
+Here the [[colimit]] is over the [[diagram]] that has precisely one morphism for every inclusion $V_1 \subset V_2$ (with $(V_1)^N = 0$ and $(V_2)^N = 0$)
+
+$$
+  E^{\epsilon^\ast \bullet + V_1}(\epsilon^\sharp X)   
+  \overset{ (-) \wedge \chi_{V_2 - V_1} }{\longrightarrow}
+  E^{\epsilon^\ast \bullet + V_2}(\epsilon^\sharp X)   
+$$
+
+given by [[smash product]] with the [[Euler class]] 
+
+$$
+  \chi_{V}
+  \;\coloneqq\;
+  1 
+  \in
+  E_G^V(S^V)
+  \overset{ (S^0 \to S^V)^\ast }{\longrightarrow}
+  E_G^V(S^0)
+$$
+
+of $V = V_2 - V_1$.
+
+=--
+
+([Lewis-May-Steinberger 86, chapter II, prop. 9.13](#LewisMaySteinberger86))
+
+
+Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} gives, in particular, a canonical comparison map
+
+\[
+  \label{ComparisonMap}
+  E_G^{\epsilon^\ast \bullet}(X)
+  \longrightarrow
+  (\Phi^N E)^\bullet_{G/N}(\epsilon^\sharp X)
+\]
+
+Corollary:
+
+Consider the $G$-[[equivariant stable cohomotopy]] of the point in some [[RO(G)-degree]] for with $V^N = 0$.
+
+Then the comparison map (eq:ComparisonMap) 
+
+\[
+  \label{ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside}
+  (\Sigma^\infty_G S^V)^0_{G}(\ast)
+  \overset{\phantom{AA} p_V \phantom{AA} }{\longrightarrow}
+  (\Phi^N \Sigma^\infty_G S^V)^0_{G/N}(\ast)
+  =
+  (\Sigma^\infty_{G/N} S^0)^0_{G/N}(\ast)  
+  =
+  A(G/N)
+\]
+
+from the $G$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree]] $V$ to the $G/N$-[[equivariant stable cohomotopy]] in degree 0 (which is the [[Burnside ring]] $A(G/n)$) is surjective.
+
+Proof idea (check):
+
+Observe that [[equivariant stable cohomotopy]] of the point in degree 0 is given by the [[Burnside ring]] $A(G)$ of the equivariant group.
+
+This implies that the map in question is a surjection for $V = 0$. Because, in this case, the map is 
+
+$$
+  A(G) \overset{ (-)^N }{\longrightarrow} A(G/N)
+$$
+
+The irreducible elements on the right are the isomorphism classes of the  [[transitive action|transitive]] $G/N$-[[actions]]  $(G/N)/H$ for $H \subset G/H$, which are canonically also $N$-invariant transitive [[G-sets]], hence have a pre-image on the left.
+
+Now in general, due to the assumption that $V^N = 0$, the map (eq:ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside) in question is also one of the component maps of the colimit that expresses the case for $V = 0$ according to Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses}, hence we have a [[commuting diagram]]
+
+$$
+  \array{
+    A(G) 
+    &=& 
+   (\Sigma^\infty_G S^0)^0_{G}(\ast)
+   &\overset{ (-) \wedge \chi_V }{\longrightarrow}&
+   (\Sigma^\infty_G S^V)^0_{G}(\ast)  
+   &\to& \cdots
+   \\
+   {}^{(-)^N}\big\downarrow && {}^{\mathllap{epi}}\big\downarrow{}^{p_0} & 
+   \swarrow_{\mathrlap{p_V}}
+   \\
+   A(G/N) 
+   &=&
+   (\Sigma^\infty_G S^0)^0_{G/N}(\ast) 
+  }
+$$
+
+which is part of a colimiting [[cocone]], _both_ as shown, as well as if we remove the vertex shown in the top left. Now, due to the epimorphism on the left, every element $c \in A(G/N)$ has a lift to $\widehat c \in A(G)$, but then the commutativity of the triangle means that also $\widehat c \wedge \chi_V$ maps to $c$, hence that $p_V$ is surjective.
+
 ## Related concepts
 
 * [[fixed point space]]
