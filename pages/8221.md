@@ -60,6 +60,8 @@ For more see at [[cosmological constant]] [here](cosmological+constant#InPerturb
 
 * [[standard model of particle physics]]
 
+* [[Randall-Sundrum model]]
+
 * [[theory of everything]]
 
 * [string theory FAQ -- Does string theory tell us anything about cosmology, such as the Big bang or cosmic inflation?](string+theory+FAQ#InsightsIntoCosmology)
