@@ -34,9 +34,13 @@ _Adjoint logic_ or _adjoint type theory_ is [[formal logic]] or [[type theory]] 
 
 * [[Nick Benton]], [[Philip Wadler]], _Linear logic, monads and the lambda calculus_, In IEEE Symposium on Logic in Computer Science. IEEE Computer Society Press, 1996.
 
-* J. Reed, _A judgemental deconstruction of modal logic_, 2009,  ([pdf](http://www.cs.cmu.edu/~jcreed/papers/jdml2.pdf))
+* Jason Reed, _A judgemental deconstruction of modal logic_, 2009, ([pdf](http://www.cs.cmu.edu/~jcreed/papers/jdml2.pdf))
 
-A framework for ([[homotopy type theory|homotopy]]-)[[type theory|type theoretic]] adjoint lgic ([[modal type theory]]) is discussed, in various stages of generality, in
+
+* Klaas Pruiksma, William Chargin, Frank Pfenning, and Jason Reed, _Adjoint Logic_, 2018, ([pdf](https://www.cs.cmu.edu/~fp/papers/adjoint18b.pdf))
+ 
+
+A framework for ([[homotopy type theory|homotopy]]-)[[type theory|type theoretic]] adjoint logic ([[modal type theory]]) is discussed, in various stages of generality, in
 
 * [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](http://arxiv.org/abs/1509.07584))
 
