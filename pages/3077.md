@@ -44,7 +44,7 @@ All the assertions below apply to both the long line and the long ray. We write 
 
 4. $L$ is [[sequentially compact space|sequentially compact]] but not [[compact space|compact]]. (Being sequentially compact, they are also [[countably compact spaces]].) Thus, the image $f(L)$ under a continuous map $f: L \to \mathbb{R}$, being sequentially compact, is a compact subspace of $\mathbb{R}$. 
 
-5. The long ray/line is not [[contractible space|contractible]]. Proof sketch for the long ray, with bottom lement denoted $\bot$: Suppose $H \colon I \times L \to L$ is a homotopy such that $H(0, -)$ is constant and $H(1, -)$ is the identity. For each $t \in [0, 1]$ the image $\im H(t, -)$ is an interval (either bounded or unbounded), since $L$ is [[connected space|connected]]. One may show the set 
+5. The long ray/line is not [[contractible space|contractible]]. Proof sketch for the long ray, with bottom element denoted $\bot$: Suppose $H \colon I \times L \to L$ is a homotopy such that $H(0, -)$ is constant and $H(1, -)$ is the identity. For each $t \in [0, 1]$ the image $\im H(t, -)$ is an interval (either bounded or unbounded), since $L$ is [[connected space|connected]]. One may show the set 
 $$S = \{t \in I: \im H(t, -)\;  \text{is bounded}\}$$ 
 is both closed and open. It also contains $0$, hence is all of $I$. But $S$ can't contain $t = 1$, contradiction. 
 
