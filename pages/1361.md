@@ -31,7 +31,7 @@ A **$V$-enriched model category** is
 
 * an V-[[enriched category]] $C$
 
-  * which is [[powering|powered]] and [[tensoring|copowered]] over $V$;
+  * which is [[powered and copowered category|powered and copowered]] over $V$;
 
 * with the structure of a [[model category]] on the [underlying category](enriched+category#BaseChange) $C_0$
 
