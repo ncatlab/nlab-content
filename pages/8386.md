@@ -69,13 +69,15 @@ However, parametric polymorphism makes sense and is very useful even in language
 
 The distinction between ad hoc and parametric polymorphism is originally due to [[Christopher Strachey]]:
 
-* Christopher Strachey, _Fundamental concepts in programming languages_, Lecture Notes from August 1967 (International Summer School in Computer Programming, Copenhagen), later published in Higher-Order and Symbolic Computation, 13, 11-49, 2000. ([pdf](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf))
+* [[Christopher Strachey]], _Fundamental concepts in programming languages_, Lecture Notes from August 1967 (International Summer School in Computer Programming, Copenhagen), later published in Higher-Order and Symbolic Computation, 13, 11-49, 2000. ([pdf](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf))
 
-[[John C. Reynolds]] wrote several classic papers on the subject:
+Other classic papers include:
 
-* John C. Reynolds, _Towards a Theory of Type Structure_, Lecture Notes in Computer Science 19, 408-425, 1974. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2289&context=compsci))
+* [[John C. Reynolds]], _Towards a Theory of Type Structure_, Lecture Notes in Computer Science 19, 408-425, 1974. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2289&context=compsci))
 
-* John C. Reynolds, _Types, Abstraction, and Parametric Polymorphism_, Information Processing 83, 1983. ([pdf](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf))
+* [[Robin Milner]], _A Theory of Type Polymorphism in Programming_, Journal of Computer and System Sciences 17, 348-375, 1978. ([pdf](https://courses.engr.illinois.edu/cs421/sp2013/project/milner-polymorphism.pdf))
+
+* [[John C. Reynolds]], _Types, Abstraction, and Parametric Polymorphism_, Information Processing 83, 1983. ([pdf](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf))
 
 A recent paper extending Reynolds' notion of relational parametricity to dependent types:
 
