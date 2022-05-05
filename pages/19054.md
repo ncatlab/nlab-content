@@ -21,38 +21,43 @@
 
 ## Idea
 
-Additive analytic geometry over the [[complex number]] is an analog of classical (called here multiplicative) [[complex analytic geometry]] obtained by replacing the convolution algebra $\ell^1(\N,\C)$ of converging power series of radius $1$ (discrete [[Mellin transforms]]) by the algebra $L^1(\R_+,\C)$ of integrable functions (continuous Mellin transforms).
+Additive analytic geometry over the [[complex number]] is an analog of classical (called here multiplicative) [[complex analytic geometry]] obtained by replacing the convolution algebra $\ell^1(\mathbb{N},\mathbb{C})$ of converging power series of radius $1$ (discrete [[Mellin transforms]]) by the algebra $L^1(\mathbb{R}_+,\mathbb{C})$ of integrable functions (continuous Mellin transforms).
 The analog of the complex unit disc $D_m(0,1)=D(0,1)$ is the hyperbolic/additive unit disc
 $$D_a(-\infty,0)=\{s,Re(s)\leq 0\}\cup \{-\infty\},$$
-and the analog of the affine line $A^1_m=\mathbb{C}$ is the additive affine line
-$$A^1_a=\{-\infty\}\cup \mathbb{C}.$$
-The main interest of this new geometry is that it has a built in flow (action of the additive monoid $\R_+$ on itself) and its functions are locally given by continuous Mellin transforms.
+and the analog of the affine line $\mathbb{A}^1_m=\mathbb{C}$ is the additive affine line
+$$\mathbb{A}^1_a=\{-\infty\}\cup \mathbb{C}.$$
+The main interest of this new geometry is that it has a built in flow (action of the additive monoid $\mathbb{R}_+$ on itself) and its functions are locally given by continuous Mellin transforms.
 
-One may work, if needed with other kinds of functions/distributions on $\R_+$, for example if one wants to study distributional trace formulas.
+One may work, if needed with other kinds of functions/distributions on $\mathbb{R}_+$, for example if one wants to study distributional trace formulas.
 In any case, one needs to use [[Dirac distribution|Dirac measures/distributions]] to relate directly the above two types of analytic geometries, by the relation on coordinates given by $z=e^s$ in an [[archimedean]] context, and $z=p^{-s}$ in a [[non-archimedean]] context.
 
 Higher dimensional spaces may also be considered, but the lack of a unit element in $L^1$ makes the extension of the semi and sub-analytic topologies to this geometry a bit tricky.
-It forces the user of this formalism to do whatever may be done in classical (multiplicative geometry) using the unit to be introduced by replacing it by a not completely arbitrary $L^1$ function $h$ (one needs to be able to simplify by it in the definition of the rational domain). If one respects this inherent constraint of the situation, things work well with rational domains, that may be defined using convolution ideals using ``generalized projections'' associated to such almost arbitrary $L^1$ functions, for example $\pi_h:D^2_a\to D^1_a$ given on functions by sending $f$ to $f\otimes h$ (here, the variable $h$ replaces the unit $1$ of classical geometry, but one may of course give a link between the two approaches using distributions, or using approximate convolution units).
+It forces the user of this formalism to do whatever may be done in classical (multiplicative geometry) using the unit to be introduced by replacing it by a not completely arbitrary $L^1$ function $h$ (one needs to be able to simplify by it in the definition of the rational domain). If one respects this inherent constraint of the situation, things work well with rational domains, that may be defined using convolution ideals using "generalized projections'' associated to such almost arbitrary $L^1$ functions, for example $\pi_h:D^2_a\to D^1_a$ given on functions by sending $f$ to $f\otimes h$ (here, the variable $h$ replaces the unit $1$ of classical geometry, but one may of course give a link between the two approaches using distributions, or using approximate convolution units).
  
-A full complex geometry with various Grothendieck topologies seems to emerge from the consideration of the simple analogy/ling with classical complex analysis given by the complex exponential map, but it is not so easy to find the right class of functions/distributions to be used here, but one may simply try out with $L^1$ functions, and see where one arrives.
+A full complex geometry with various Grothendieck topologies seems to emerge from the consideration of the simple analogy/link with classical complex analysis given by the complex exponential map, but it is not so easy to find the right class of functions/distributions to be used here. One may simply try out with $L^1$ functions, and see where one arrives, but a regularity condition on an additive disk may also be imposed by asking that $(\log x)^n f(x)x^\delta$ is $L^1$ for every $n$, in order to obtain smoothness of functions on the boundary; using schwartz functions or overconvergent ones may also be a solution to the problem of having a nice notion of differential calculus on rational domains, that one must also solve in classical (multiplicative) analytic geometry.
 
 Additive analytic geometry also has a non-commutative and automorphic extension
 (formulated in spectral terms), that may be useful to study and formulate some problems of automorphic representation theory in a geometric context. For example, the results of Godement and Jacquet looks like a kind of pasting of two "Mellin automorphic spectra" along the usual automorphic spectrum, in this context.
 
 ## A simple example
 
-One may paste two additive unit discs along their boundary $\R$,
-that is the spectrum of $L^1(\R)$ by $s\mapsto -s$ on $\C$,
+One may paste two additive unit discs along their boundary $\mathbb{R}$,
+that is the spectrum of $L^1(\mathbb{R})$ by $s\mapsto -s$ on $\mathbb{C}$,
 to get the additive version of the projective space
-$P^1_a(\mathbb{C})=\{-\infty\}\cup \mathbb{C}\cup \{+\infty\}$ and
-the exponential map sends $P^1_a(\mathbb{C})$ to the usual (multiplicative) projective space $P^1(\mathbb{C})$. One may also paste two different discs along an annulus.
+$\mathbb{P}^1_a(\mathbb{C})=\{-\infty\}\cup \mathbb{C}\cup \{+\infty\}$ and
+the exponential map sends $\mathbb{P}^1_a(\mathbb{C})$ to the usual (multiplicative) projective space $\mathbb{P}^1(\mathbb{C})$. One may also paste two different discs along an annulus.
 Remark that there is also a way to use other pastings, such as
 $s\mapsto 1-s$. In any case, there is an analog of the homogeneous coordinates on projective space that correspond to the projection from
-$$[(\{-\infty\}\cup \mathbb{C})\times (\{+\infty\}\cup \mathbb{C})]$$
-to its quotient by the relation given by $(s_1,s_2)\sim (\lambda+s_1,\lambda+s_2)$ for $\lambda\in \G_m^a(\mathbb{C}):=\mathbb{C}$.
+$$\mathbb{A}^1_a\times \mathbb{A}^1_a-\{(-\infty,-\infty)\}$$
+to its quotient by the relation given by $(s_1,s_2)\sim (\lambda+s_1,\lambda+s_2)$ for $\lambda\in \mathbb{G}_m^a(\mathbb{C}):=\mathbb{C}$.
+
+## Remarks
 
 To be able to work with $L$-functions, seen as additive functions, it seems one needs to pass to the setting of distributions of a certain kind, that may be analytic on a half space and distributional on the boundary. The study of the spectrum of distribution convolution algebras probably requires further work.
-If such a distribution may be extended to a type of additive projective space using a functional equation, then the complement of its set $S$ of zeroes gives an open subspace $U$ of an additive projective space. In good situations, this gives an additive subspace that is equipped with the given flow, and its embedding into projective space induces an identification between the associated additive de Rham cohomology spaces in degree $0$ and $2$. The Poincaré group of this space is generated by looping around each of the given points in the set $S$, that may be infinite.
+
+If such a function may be extended to a type of additive projective space using a functional equation, then the complement of its set $S$ of zeroes gives an open subspace $U$ of an additive projective space. In good situations, this gives an additive subspace that is equipped with the given flow, and its embedding into projective space induces an identification between the associated additive de Rham cohomology spaces in degree $0$ and $2$. The Poincaré group of this space is generated by looping around each of the given points in the set $S$, that may be infinite.
+
+It seems that the L-function has to be automorphic so that one may study it using additive geometry. Indeed, even if higher dimensional complex varieties allow one to define various types of generalized multiplicative spaces (using Mellin transforms of $\delta$ distributions, for example), there is yet no clear additive versions of global arithmetic schemes, because there is no convolution operation on $L^1(\mathbb{R}_+,\mathbb{Z})$.
 
 ## Additive Hodge theory
 
