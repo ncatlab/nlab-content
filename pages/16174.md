@@ -48,10 +48,11 @@ $$
 
 =--
 
-This is due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78).
+This is originally due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78).
+
+More generally, this staement is a special case of [[tom Dieck splitting]] of [[equivariant suspension spectra]], see [there](tom+Dieck+splitting#OfFixedPointSpectraOfEquivariantSuspensionSpectra).
 
 [[!include Segal completion -- table]]
-
 
 More explicitly, this means that the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
 
