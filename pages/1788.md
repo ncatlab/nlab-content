@@ -323,6 +323,35 @@ $$
 
 
 
+### Elastic $\infty$-Toposes
+
+(...)
+
+Let $\mathcal{H}_{red}$ be a [[cohesive model topos]]. Then an _[[elastic model topos]]_ or _[[differentially cohesive model topos]]_ over $\mathcal{H}_{red}$ is a [[model topos]] $\mathcal{H}$ (Def. \ref{ModelTopos}) which is 
+
+1. a [[cohesive model topos]] over $sSet_{Qu}$;
+
+1. equipped with a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple}) to $\mathcal{H}_{red}$ of the form
+
+$$
+  \mathcal{H}_{proj/inf,red}
+  \;\;
+    \array{
+      \phantom{\underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{inf} }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{\phantom{{}_{Qu}}\bot_{Qu}} }{ \Gamma_{inf} }{\longleftarrow}
+      \\
+      \phantom{\overset{ coDisc }{\longrightarrow}}
+    }
+  \;\;
+  \mathcal{H}
+$$
 
 
 
