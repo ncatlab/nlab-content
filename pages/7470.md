@@ -58,6 +58,8 @@ A [[closed monoidal (∞,1)-category]] is naturally enriched over itself.
 
 ## Related concepts
 
+* [[enriched (∞,1)-functor]]
+
 * [[Segal category]], [[Segal n-category]]
 
 * [[enriched homotopical category]], [[weak enrichment]]
