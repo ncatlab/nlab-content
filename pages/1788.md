@@ -37,3 +37,5 @@ $
 [[some_picture.png:pic]]
 
 [[some_picture.png|alt_text:pic]]
+
+Test
