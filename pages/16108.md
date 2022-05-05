@@ -74,7 +74,7 @@ of $r$, $s$ and $t$. (An explicit identity constructed like this is given in the
 ##Example (Free Abelian group $\mathbb{Z}^3$)
 
 
-n a presentation of the free Abelian group on 3 generators, one would expect
+In a presentation of the free Abelian group on 3 generators, one would expect
 the commutators,  $[x,y]$, $ [x,z]$ and $[y,z]$.  There is a well-known identity,
 that expands out to give an identity among these
 relations (again see Brown-Huebschman (below), p.154, or Loday, (again below) for a complete treatment.)
@@ -97,7 +97,25 @@ Note the [[Cayley quiver]] of this presentation is infinite.
 
 ##Definition
 
-(to be added)
+We can now formally define the module of identities of a presentation, $\mathcal{P} = (X : R)$. 
+
+We first form the [[free crossed module]] on the mapping $R\to F(X)$, which 
+we will denote by $\partial : C(\mathcal{P}) \to F(X)$.  
+
++-- {: .num_defn #module of identities}
+###### Definition
+The _module of identities_ , $\kappa(\mathcal{P})$,
+of $\mathcal{P}$ is $Ker\, \partial$.  
+=--
+
+An _identity among the relations_ of $\mathcal{P}$ is then an element of $\kappa(\mathcal{P})$.
+
+
+By construction, the group presented by $\mathcal{P}$ is $G
+\cong F(X)/Im\, \partial$, where $Im \,\partial$ is just the normal closure of
+the set, $R$, of relations and we know  that $Ker\, \partial$ is a $G$-module.  In fact we have an exact sequence:
+
+$$0\to \kappa(\mathcal{P}) \to C(\mathcal{P}) \xrightarrow{\partial} F(X)\to G\to 1.$$
 
 ##Related entries
 
