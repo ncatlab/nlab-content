@@ -380,7 +380,6 @@ which provides an alternative expression of the functoriality condition as simpl
 * [[(∞,n)-functor]]
 
 
-
 [[!redirects functors]]
 [[!redirects covariant functor]]
 [[!redirects covariant functors]]
