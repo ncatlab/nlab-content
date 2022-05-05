@@ -5156,7 +5156,7 @@ Hence we may speak of _[[presheaves of groupoids]]_.
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #PresheavesOfGroupoidsAsInternalGroupoidsInPresheaves}
 ###### Remark
 **([[presheaves of groupoids]] as [[internal groupoids]] in [[presheaves]])**
 
@@ -5193,6 +5193,7 @@ In more abstract language this assignment constitutes an [[equivalence of catego
     \mathbf{Y}
       &\mapsto&
     \left(
+      \phantom{AAA}
       \array{
        \underset{  
           Mor_{\mathbf{Y}(-)}
@@ -5202,13 +5203,22 @@ In more abstract language this assignment constitutes an [[equivalence of catego
           Hom_{{\mathbf{Y}(-)}}
         }}
         \\
-        {}^{\mathllap{ (x \overset{f}{\to}y) \mapsto x }}\big\downarrow
+        {}^{\mathllap{ 
+          \array{(x \overset{f}{\to}y) \\ \mapsto\\  x} 
+         }
+        }\Big\downarrow
         \;\;\;\;
-        \uparrow^{\marhral{ x \mapsto x \overset{id_x}{\to} x }}
-        \;\;\; \big\downarrow^{ \mathrlap{ (x \overset{f}{\to} y) \mapsto y } }
+        \Big\uparrow^{\mathrlap{ 
+          \array{ x \\ \mapsto \\ x \overset{id_x}{\to} x } 
+        }}
+        \phantom{x \overset{id_x}{\to} }
+        \Big\downarrow^{ \mathrlap{ 
+          \array{ (x \overset{f}{\to} y) \\ \mapsto \\ y }
+        } }
         \\
         Obj_{\mathbf{Y}(-)}
       }
+      \phantom{AAA}
     \right)
   }
   \,.
