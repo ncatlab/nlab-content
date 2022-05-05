@@ -328,11 +328,7 @@ which is [[generators and relations|generated]] by the [[pair]] of [[diagonal ma
 
 ([Yokota 09, theorem 2.12.2](#Yokota09))
 
-
-+-- {: .num_prop #StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra}
-###### Proposition
-
-The further [[subgroup]] of
+\begin{prpn} \label{StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra} The further [[subgroup]] of
 $
   F_4^w 
   \simeq
@@ -385,14 +381,11 @@ where the [[quotient group|quotient]] is by the [[cyclic group|cyclic]] [[subgro
 
 (Hence this group happens to coincide with the _exact_ [[gauge group]] of the [[standard model of particle physics]], see [there](standard+model+of+particle+physics#GaugeGroup)).
 
-=--
+\end{prpn}
 
 This was claimed without proof in [Dubois-Violette & Todorov 18](#DuboisVioletteTodorov18).
 
-+-- {: .proof}
-###### Proof
-
-By (eq:MatrixMultiplicationRepresentationOfiFixingJordanAutomorphism) it is clear that the subgroup in question is that represented by those [[pairs]] $(A,B) \in SU(3) \times SU(3)$ for which $A$ is $(1 + 2)$-block diagonal. Such matrices $A$ form the [[subgroup]] of $SU(3)$ of [[matrices]] that may be written in the form
+\begin{proof} By (eq:MatrixMultiplicationRepresentationOfiFixingJordanAutomorphism) it is clear that the subgroup in question is that represented by those [[pairs]] $(A,B) \in SU(3) \times SU(3)$ for which $A$ is $(1 + 2)$-block diagonal. Such matrices $A$ form the [[subgroup]] of $SU(3)$ of [[matrices]] that may be written in the form
 
 $$
   diag\left(
@@ -511,9 +504,7 @@ $$
 
 under the lift through (eq:IdentifyingU1SU2inSU3).
 
-=--
-
-
+\end{proof}
 
 
 ## References
