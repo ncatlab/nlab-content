@@ -178,7 +178,7 @@ $$
 $$ 
 
 with induced [[projection]] $\epsilon$ to the [[quotient group]] $G/N$
-this induces various [[base change]] comparison maps, such as on [[topological G-spaces]], to be denoted
+this induces various [[base change]] [[adjunctions]] (on [[homotopy categories]], say), such as on [[topological G-spaces]], to be denoted
 
 \[
   \label{PullbackGSpace}
@@ -191,13 +191,30 @@ and on $G$-[[representations]], to be denoted
 
 \[
   \label{PullbackRepresentation}
-  G/N Rep \overset{ \epsilon^\ast }{\longrightarrow} G Rep
+  G/N Rep 
+      { \overset{ \epsilon^\ast }{\longrightarrow} }
+  G Rep
 \]
+
+and on [[G-spectra]], to be denoted
+
+
+\[
+  \label{PullbackSpectrum}
+  G/N Spectra
+    \underoverset
+      { \underset{(-)^N}{\longleftarrow} }
+      { \overset{ \epsilon^\sharp }{\longrightarrow} }
+      {\phantom{AA}\bot\phantom{AA}}
+  G Spectra
+\]
+
+
+where the [[right adjoint]] $(-)^N$ is the partial [[fixed point spectrum]]-functor (in contrast to the _geometric_ fixed point functor).
 
 =--
 
-
-
+(e.g. [Lewis-May-Steinberger 86, above theorem 9.5](#LewisMaySteinberger86))
 
 
 +-- {: .num_prop #GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses}
