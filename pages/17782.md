@@ -20,6 +20,10 @@ A _pp-wave spacetime_ is a [[spacetime]], i.e. an exact solution to [[Einstein's
 
 The [[Ricci flat]] pp-wave spacetimes are examples of [[universal spacetimes]].
 
+## Examples
+
+* [[M-wave]]
+
 ## References
 
 * Wikipedia, _[pp-wave spacetime](https://en.wikipedia.org/wiki/Pp-wave_spacetime)_
