@@ -180,6 +180,7 @@ Other references include:
 
 * wikipedia [M&#246;bius function](http://en.wikipedia.org/wiki/M%C3%B6bius_function), [necklace polynomial](http://en.wikipedia.org/wiki/Moreau%27s_necklace-counting_function)
 
+category: combinatorics
 
 [[!redirects Mobius inversion]]
 [[!redirects Möbius function]]
