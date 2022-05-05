@@ -34,7 +34,16 @@ $$
   f^\ast \colon Y^\ast \to X^\ast
 $$
 
-is the one obtained by $f$ by composing the duality [[unit of an adjunction|unit]] of $X$ (the [[coevaluation map]]), the duality [[counit of an adjunction|counit]] of $Y$ (the [[evaluation map]])...
+is the one obtained by $f$ by using the duality [[unit of an adjunction|unit]] of $X$ (the [[coevaluation map]]) and the duality [[counit of an adjunction|counit]] of $Y$ (the [[evaluation map]]) as follows:
+
+$$
+  Y^*
+  \to Y^*\otimes I
+  \to Y^*\otimes X\otimes X^*
+  \to Y^*\otimes Y\otimes X^*
+  \to I\otimes X^*
+  \to X^*
+$$
 
 =--
 
