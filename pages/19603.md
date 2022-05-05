@@ -33,6 +33,7 @@ Work conducted in homotopy type theory:
 * Free Higher Groups in Homotopy Type Theory, arXiv:1805.02069
 * Localization in Homotopy Type Theory, arXiv:1807.04155 
 * The James construction and $\pi_4(S^3)$ in homotopy type theory, arXiv: 1610.01134
+* [[Dan Licata]] and [[Guillaume Brunerie]], _$\pi_n(S^n)$ in Homotopy Type Theory_, , Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf)
 * The Cayley-Dickson Construction in Homotopy Type Theory, arXiv:1610.01134
 * Cellular Cohomology in Homotopy Type Theory, arXiv:1802.02191 
 * The real projective spaces in homotopy type theory, arXiv:1704.05770
@@ -40,6 +41,7 @@ Work conducted in homotopy type theory:
 * On the homotopy groups of spheres in homotopy type theory, arXiv:1606.05916
 * A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory, arXiv:1605.03227
 * [[Favonia|Kuen-Bang Hou (Favonia)]] and [[Michael Shulman]], _The Seifert–van Kampen Theorem in Homotopy Type Theory_, 2016, ([pdf](https://favonia.org/files/vankampen-csl2016.pdf)), ([doi](10.4230/LIPIcs.CSL.2016.22))
+* [[Dan Licata]] and [[Eric Finster]], _Eilenberg-MacLane Spaces in Homotopy Type Theory_, LICS 2014, [PDF](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf)
 
 ### Modal homotopy type theory
 
