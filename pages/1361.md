@@ -64,13 +64,15 @@ is a [[Quillen bifunctor]].
 
 ## Examples
 
-* The most familiar examples of enriched model categories are [[simplicial model category|simplicial model categories]].
+* The most familiar examples of enriched model categories are [[simplicial model categories]].
 
 * For a [[pointed category|pointed]] model category or even [[stable model category]] there is enrichment in [[pointed]] simplicial sets with the [[smash product]] as tensor product.
 
 ## Related concepts
 
-* The concept can be generalized to [[enriched homotopical category]].
+* [[derived hom-functor]]
+
+* [[enriched homotopical category]].
 
 ## References
 
