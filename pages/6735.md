@@ -100,9 +100,13 @@ and concerning the "3-algebra"-structure also
 
 * [[Andreas Gustavsson]], Nucl. Phys. B811, 66-76 (2009). [arXiv:0709.1260].
 
-A comprehensive review and survey is in 
+A comprehensive review is in 
 
 * {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+
+and a review talk is
+
+* {#Lambert18} [[Neil Lambert]], _M-Branes: Lessons from M2’s and Hopes for M5’s_,  talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
 
 Discussion of [[boundary conditions]] leading to [[brane intersection]] with [[M-wave]], [[M5-brane]] and [[MO9-brane]] is in
 
