@@ -1,4 +1,8 @@
 
+[[GeometryOfGeneralizedSpaces.jpg:file]]
+
+<img src="https://ncatlab.org/nlab/files/GeometryOfGeneralizedSpaces.jpg" width="700"/>
+
 
 | $\phantom{A}$[[nLab:geometry]]$\phantom{A}$  | $\phantom{A}$[[nLab:category]]$\phantom{A}$ | $\phantom{A}$[[nLab:dual category]]$\phantom{A}$ |  $\phantom{A}$[[nLab:algebra]]$\phantom{A}$ |
 |--------------------|--|------------------|---|
