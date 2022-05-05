@@ -1049,6 +1049,10 @@ Textbook accounts include
 
 * [[Stefan Schwede]], chapter II, section 6 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
+Discussion in the further generality of [[equivariant cohomology]] is in
+
+* {#tomDieck79} [[Tammo tom Dieck]], section 7 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979
+
 
 A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
 
