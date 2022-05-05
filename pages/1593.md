@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -34,11 +35,13 @@ The quadratic pairing entering the [[11d Chern-Simons theory]] that governs the 
 
 ## Properties
 
-### Lift to M-therory F-theory
+### Lifts to M-therory F-theory
 
 Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](Sen96), [Sen 97a](#Sen97a)).
 
-Lifts to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] goes back to ([Sen 97b](#Sen97b)).
+Lifts of type IIA orientifolds of [[D6-branes]] to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] (through the [[duality between M-theory and type IIA string theory]]) goes back to ([Sen 97b](#Sen97b)). 
+
+A more general scan of possible lifts of type IIA orientifolds to M-theory is indicated in ([Hanany-Kol 00, around (3.2)](#HananyKol00)), see ([Huerta-Sati-Schreiber 18, Prop. 4.7](#HuertaSatiSchreiber18)) for details.
 
 ## Related concepts
 
@@ -61,10 +64,29 @@ Lifts to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] goes bac
 ## References
  {#References}
 
+Traditional lecture notes include
+
+* Atish Dabholkar, _Lectures on Orientifolds and Duality_ ([arXiv:hep-th/9804208](https://arxiv.org/abs/hep-th/9804208))
+
+* Carlo Angelantonj, Augusto Sagnotti, _Open Strings_, Phys.Rept.371:1-150,2002; Erratum-ibid.376:339-405, 2003 ([arXiv:hep-th/0204089](https://arxiv.org/abs/hep-th/0204089))
+
 Textbook discussion in the context of [[intersecting D-brane models]] with an eye towards [[string phenomenology]] is in
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], sections 5.3.4 and 10.1.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
+
+* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
+
+* {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
+* {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
+* {#HananyKol00} [[Amihay Hanany]], Barak Kol, section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+
+The classification in [Hanany-Kol 00 (3.2)](#HananyKol00) also appears, with more details, in Prop. 4.7 of
+
+* {#HuertaSatiSchreiber18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
 The original observation that [[D-brane charge]] for orientifolds should be in [[KR-theory]] is due to
 
@@ -132,15 +154,6 @@ The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bun
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
-Lifts of type II orientifolds to [[F-theory]] were first discussed in
-
-* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
-
-* {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
-
-and to [[M-theory]] in
-
-* {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
 
 [[!redirects orientifolds]]
