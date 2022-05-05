@@ -36,9 +36,10 @@ and this of course is natural in each of the separate arguments $x, y$. String d
 
 \[ \label{naturality} 1_{x, y} x^g = x^g 1_{x, y'}: x^{y'} \to x^y \]
 
-+--{: style="text-align:center"}
-[[!include extranatural transformation > natural.svg]]
-=--
+<center>
+<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/naturality.svg" title="Xy-Pic code available by replacing /svg/img.svg by /img.md in the image URL" width="250"/>
+</center>
+
 
 Now, the [[adjunction]] between [[tensor product]] and internal hom allow us to "bend" the transformation into another: 
 
@@ -47,6 +48,10 @@ $$eval_{x, y}: x^y \otimes y \to x$$
 in which the two instances of $y$ are linked by a U-shape. This gives a transformation which is natural in $x$ but not of course in $y$; rather, in $y$ we have an equation which is companion to (eq:naturality): 
 
 \[ \label{extranaturality} eval_{x, y} (x^g \otimes y) = eval_{x, y'} (x^{y'} \otimes g): x^{y'} \otimes y \to x \]
+
+<center>
+<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/extranaturality.svg" title="Xy-Pic code available by replacing /svg/img.svg by /img.md in the image URL" width="350"/>
+</center>
 
 and we say in this case that $eval_{x, y}$ is **extranatural** in $y$. Notice how the extranatural variable $y$ in $eval_{x, y}$ appears once covariantly [in the tensor factor] and once contravariantly [in the exponent], but together on the same side of the arrow [here the domain]. (There is a nice string diagram picture for (eq:extranaturality) which the reader might like to draw at this point.) 
 
