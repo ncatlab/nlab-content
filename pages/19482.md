@@ -1998,7 +1998,7 @@ induces, via [[Kan extension]], an [[adjoint triple]] (Remark \ref{AdjointTriple
 +-- {: .proof}
 ###### Proof
 
-Use the expression of [[enriched natural transformations]] in terms of [[coends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $[-,-]$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the [[internal-hom]] [[adjunction]] (eq:InternalHomAdjunction), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
+Use the expression of [[enriched natural transformations]] in terms of [[coends]] (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $[-,-]$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the [[internal-hom]] [[adjunction]] (eq:InternalHomAdjunction), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
 
 $$
   \begin{aligned}
