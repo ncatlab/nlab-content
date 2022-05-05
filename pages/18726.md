@@ -2,6 +2,7 @@ __Richard P. Stanley__ is a mathematician specializing in [[combinatorics]].
 
 ## related $n$Lab entries
 
+* [[Catalan number]]
 * [[incidence algebra]]
 * [[order polynomial]]
 * [[zeta polynomial]]
