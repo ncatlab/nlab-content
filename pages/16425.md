@@ -24,7 +24,7 @@ The alternating group $A_n$ is to the [[symmetric group]] $S_n$ as the [[special
 
 * The alternating group $A_4$ on four elements is [[isomorphism|isomorphic]] to the orientation-preserving [[tetrahedral group]].
 
-* The alternating group $A_5$ on five elements, of order $60$, is the smallest nonabelian [[simple group]]. Geometrically, it may be realized as a subgroup of $SO(3)$ which carries a regular [[icosahedron]] into itself. 
+* The alternating group $A_5$ on five elements, of order $60$, is the smallest [[nonabelian group|nonabelian]] [[simple group]]. Geometrically, it may be realized as [[finite subgroup of SO(3)]] which carries a regular [[icosahedron]] into itself: the [[icosahedral group]].
 
 * For all $n \geq 5$, the alternating group $A_n$ is simple. This is true even if $n$ is infinite: define $Alt(X)$ for any set $X$ to consist of all permutations of $X$ each of which fixes all but finitely elements, and which is an even permutation on that finite subset.  
 
