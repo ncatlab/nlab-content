@@ -56,3 +56,6 @@ Therefore, in this case a functor $F:C\to D$ is essentially constant if and only
 [[!redirects constant functors]]
 [[!redirects essentially constant functor]]
 [[!redirects essentially constant functors]]
+
+[[!redirects constant diagram]]
+[[!redirects constant diagrams]]
