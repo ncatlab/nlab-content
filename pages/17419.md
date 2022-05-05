@@ -48,7 +48,9 @@ $$
 ###### Proof
 
 
-By [[Schur's lemma]] see e.g. [here](https://math.stackexchange.com/a/2503141/58526).
+Over an [[algebraically closed field]] this follows by [[Schur's lemma]] see e.g. [here](https://math.stackexchange.com/a/2503141/58526).
+
+For the general statement see for instance [Kowalski 11, Prop. 2.3.17](#Kowalski11).
 
 =--
 
@@ -66,7 +68,9 @@ The converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsOfIrre
 
 ## References
 
-* {#Fein67} Burton Fein, _Representations of direct products of finite groups_,     Pacific J. Math. Volume 20, Number 1 (1967), 45-58 ([Euclid:1102992967](https://projecteuclid.org/euclid.pjm/1102992967))
+* {#Kowalski11} E. Kowalski, around p. 41 of _Representation theory_, 2011 ([pdf](https://people.math.ethz.ch/~kowalski/representation-theory-notes.pdf))
+
+* {#Fein67} Burton Fein, _Representations of direct products of finite groups_, Pacific J. Math. Volume 20, Number 1 (1967), 45-58 ([Euclid:1102992967](https://projecteuclid.org/euclid.pjm/1102992967))
 See also
 
 * Wikipedia, _[Direct product of groups](https://en.wikipedia.org/wiki/Direct_product_of_groups)_
