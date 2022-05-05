@@ -28,17 +28,17 @@
 
 The concept of _[[model categories]]_ is one way of formulating the concept of certain classes of _[[homotopy theories]]_ or _[[(∞,1)-categories]]_. One way to make this precise while staying strictly within the context of [[1-category|1-]][[category theory]] is to consider the [[homotopy category]] of the ([[very large category|very large]]) category of [[model categories]] of (left) [[Quillen functors]] between them, hence its [[localization of a category]] at the [[Quillen equivalences]].
 
-This should be particularly well-behaved for the sub-category $CombModCat$ of [[combinatorial model categories]]. It should be true that 
+This should be particularly well-behaved for the sub-category $CombModCat$ of [[combinatorial model categories]]. Due to [[Dugger's theorem]], it should be true that 
 
 $$
   Ho(CombModCat)
   \;\coloneqq\;
-  CombModCat\big[QuillenEquivs\big]
+  CombModCat\big[QuillenEquivs^{-1}\big]
   \;\simeq\;
   Ho(Pr(\infty,1)Cat)
 $$
 
-is [[equivalence of categories|equivalence]] to the [[homotopy category of an (infinity,1)-category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. At least when the latter is formalized in terms of [[derivators]], then this is proven in [Renaudin 06](#Renaudin06), see Corollary \ref{EquivalenceToHoPrDer} below.
+is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. At least when the latter is formalized in terms of [[derivators]], then this is proven in [Renaudin 06](#Renaudin06), see Corollary \ref{EquivalenceToHoPrDer} below.
 
 ## Details
 
