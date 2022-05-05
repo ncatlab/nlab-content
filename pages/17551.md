@@ -105,7 +105,11 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 
 ## Related concepts
 
+* [[fixed point space]]
+
 * [[fixed point spectrum]]
+
+* [[categorical fixed point spectrum]]
 
 * [[homotopy fixed points]]
 
@@ -122,7 +126,7 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 
 
 
-[[!redirects geometrix fixed point spectra]]
+[[!redirects geometric fixed point spectra]]
 
 [[!redirects geometric fixed point]]
 [[!redirects geometric fixed points]]
