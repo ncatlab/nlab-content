@@ -127,7 +127,7 @@ Let $\mathcal{E}$ be a topos. Then all injective objects are connected iff all i
 Let $I$ be an injective object in a topos $\mathcal{E}$. Then $I^X$ is injective for any object $X$ , or in other words, exponentials $(_-)^X$ preserve injective objects.
 =--
 
-**Proof**. (cf. at [[injective object]](#Adjuncts_Injectives)) We have to show that for every mono $m:S\rightarrowtail B$ the induced function $m^\ast:Hom(B,I^X)\to Hom(S,I^X)$ is onto. From the exponential adjunction one has the following commutative diagram
+**Proof**. (cf. at [[injective object#Adjuncts_Injectives|injective object]]) We have to show that for every mono $m:S\rightarrowtail B$ the induced function $m^\ast:Hom(B,I^X)\to Hom(S,I^X)$ is onto. From the exponential adjunction one has the following commutative diagram
 
 $$
 \array{
@@ -378,14 +378,14 @@ Let $\mathcal{E}$ be a weakly cohesive topos. Then the subobject classifier $\Om
 For convenience and summary let us collect all the equivalent formulations of sufficient cohesion in one place:
 
 +-- {: .num_prop #sufficient_cohesion_equivalences}
-###### Theorem
-(**Lawvere**) A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$ satisfies the following equivalent conditions:
+###### Theorem (Lawvere)
+A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$ satisfies the following equivalent conditions:
 
 * The [[subobject classifier]] $\Omega\in\mathcal{E}$ is contractible i.e. $p_!(\Omega^X)=1$ for every object $X\in\mathcal{E}$. 'power objects are connected' or '_truth is contractible_'
 
 * The [[subobject classifier]] $\Omega\in\mathcal{E}$ is connected i.e. $p_!(\Omega)=1$. '_truth is connected_'
 
-* $\Omega$ is a connector. '_truth is a connector_'
+* The [[subobject classifier]] $\Omega\in\mathcal{E}$ is a connector. '_truth is a connector_'
 
 * $\mathcal{E}$ has a connector.
 
