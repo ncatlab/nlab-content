@@ -533,30 +533,168 @@ $$
 
 The two sign rules correspond to two different [[symmetric monoidal category|symmetric braiding]]-[[structures]] on the [[monoidal category]] $Ch(SuperVect)$ of [[chain complexes]] of [[super vector spaces]]. The corresponding two kinds of [[differential graded-commutative superalgebras]] are the [[commutative monoid objects]] with respect to these two choises.
 
-Write $\tau_{Deligne}$ and $\tau_{Bern}$ for the two [[braidings]]:
++-- {: .num_defn #ChainComplexesOfSuperVectorSpaces}
+###### Definition
+**([[chain complexes]] of [[super vector spaces]])**
+
+Write $Ch(SuperVect)$ for the [[category of chain complexes]] inside the category of [[super vector spaces]].
+
+Hence for $V_\bullet \in Ch(SuperVect)$ an [[object]], for each $n \in \mathbb{Z}$ there is a [[super vector space]] 
+
+$$
+  V_n = (V_n)_{even} \oplus (V_n)_{odd} \;\in SuperVect
+$$
+
+and may regard $V_\bullet$ equivalently as a $\mathbb{Z} \times (\mathbb{Z}/2)$-[[graded object|graded]] [[vector space]] equipped with a [[differential]] of degree $(1,even)$. For $v \in V$ an element in definite ("homogeneous") degree, we denote this degree by
+
+\[
+  \label{BidegreeOnChainComplexOfSuperVectorSpaces}
+  deg(v) \coloneqq (n_v, \sigma_v) \;\in\; \mathbb{Z} \times (\mathbb{Z}/2) 
+  \,.
+\]
+
+The category $Ch(SuperVect)$ becomes a [[monoidal category]] under the [[tensor product of chain complexes]] applied to the tensor product of [[super vector spaces]]. This means that for $V, W \in Ch(SuperVect)$, the [[differential]] on a homogeneously graded element $v \otimes w \in V \otimes W$ is
+
+$$
+  \partial(v \otimes w)
+  \;=\;
+  (\partial v) \otimes w 
+  +
+  (-1)^{ n_v } v \otimes \partial w
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces}
+###### Proposition
+**([[symmetric monoidal category|symmetric monoidal]] [[structure]] on [[category of chain complexes of super vector spaces]])**
+
+The [[monoidal category|monoidal]] [[category of chain complexes of super vector spaces]] $(Ch(SuperVect), \otimes)$ from Def. \ref{ChainComplexesOfSuperVectorSpaces} becomes a [[symmetric monoidal category|symmetric monoidal]] with each of the following two [[braiding]] [[isomorphisms]], defined on tensor products of elements in homogenous bi-degree (eq:(eq:BidegreeOnChainComplexOfSuperVectorSpaces)) as follows:
+
+1. $\tau_{Deligne} \;\colon\; v \otimes w \mapsto (-1)^{ (n_v n_w + \sigma_v \sigma_w) } w \otimes v$;
+
+1. $\tau_{Bern} \;\colon\; v \otimes w \mapsto (-1)^{ (n_v + \sigma_v) (n_w + \sigma_w) } w \otimes v$.
+
+Here in the exponents we are using the canonical [[ring]]-[[structure]] on the [[integers]] $\mathbb{Z}$ and on the [[prime field]] $\mathbb{Z}/2 = \mathbb{F}_2$, the implicit [[ring homomorphism]] $\mathbb{Z} \to \mathbb{Z}/2$ and we understand that $(-1)^{even} = 1$ and $(-1)^{odd} = -1$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the expressions for both sign factors are symmetric in $v$ and $w$ in both cases, it is clear that $\tau_{w,v} \circ \tau_{v,w} = id_{v \otimes w}$ in both cases. Hence if $\tau$ is indeed a [[braiding]], then it is [[symmetric monoidal category|symmetruc]].
+
+To see that $\tau$ is indeed a [[braiding]] in each case, we need to check the [[hexagon identities]]
+
+$$
+  \array{
+   (x \otimes y) \otimes z 
+   &\stackrel{a_{x,y,z}}{\to}&
+   x \otimes (y \otimes z)
+   &\stackrel{\tau_{x,y \otimes z}}{\to}&
+   (y \otimes z) \otimes x
+   \\
+   \downarrow^{tau_{x,y}\otimes Id}
+   &&&&
+   \downarrow^{a_{y,z,x}}
+   \\
+   (y \otimes x) \otimes z
+   &\stackrel{a_{y,x,z}}{\to}&
+   y \otimes (x \otimes z)
+   &\stackrel{Id \otimes \tau_{x,z}}{\to}&
+   y \otimes (z \otimes x)
+  }
+$$
+
+and
+
+$$
+  \array{
+   x \otimes (y \otimes z) 
+   &\stackrel{a^{-1}_{x,y,z}}{\to}&
+   (x \otimes y) \otimes z
+   &\stackrel{\tau_{x \otimes y, z}}{\to}&
+   z \otimes (x \otimes y)
+   \\
+   \downarrow^{Id \otimes B_{y,z}}
+   &&&&
+   \downarrow^{a^{-1}_{z,x,y}}
+   \\
+   x \otimes (z \otimes y)
+   &\stackrel{a^{-1}_{x,z,y}}{\to}&
+   (x \otimes z) \otimes y
+   &\stackrel{\tau_{x,z} \otimes Id}{\to}&
+   (z \otimes x) \otimes y
+  }
+  \,,
+$$
+
+Since $\tau$ differs only by multiplication by a sign from the trivial braiding, we just need to check that the signs picked up in going both ways around these diagrams agree. 
+
+Hence for $\tau_{Deligne}$ the two hexagon identities are equivalent to the condition
+
+$$
+  (-1)^{ n_1 (n_2 + n_3) + \sigma_1( \sigma_2 + \sigma_3 )  }
+  \;=\;
+  (-1)^{ n_1 n_2 + \sigma_1 \sigma_2 + n_1 n_3 + \sigma_1 \sigma_3 }
+$$
+
+and
+
+$$
+  (-1)^{ (n_1 + n_2) n_3 + (\sigma_1 + \sigma_2) \sigma_3 }
+  \;=\;
+  (-1)^{ n_1 n_3 + \sigma_1 \sigma_3 + n_2 n_3 + \sigma_2 \sigma_3 }
+$$
+
+while for $\tau_{Bern}$ they are equivalent to the condition
+
+$$
+  (-1)^{ (n_1 + \sigma_1)( n_2 + \sigma_2 + n_3 + \sigma_3  ) }
+  \;=\;
+  (-1)^{ (n_1 + \sigma_1)(n_2 + \sigma_2) + (n_1 + \sigma_1)(n_3 + \sigma_3)  }
+$$
+
+and
+
+$$
+  (-1)^{ (n_1 + \sigma_1 + n_2 + \sigma_2)(n_3 + \sigma_3) }
+  \;=\;
+  (-1)^{ (n_1 + \sigma_1)(n_3 + \sigma_3) + (n_2 + \sigma_2)(n_3 + \sigma_3) }
+$$
+
+In both cases this holds because already the relevant [[exponents]] are equal in each case, by the [[distributive law]] for [[multiplication]] and [[addition]] in $\mathbb{Z}/2 = \mathbb{F}_2$.
+
+=--
+
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
+
+The two [[symmetric monoidal category]] [[structures]] $\tau_{Deligne}$ and $\tau_{Bern}$ on the [[monoidal category|monoidal]] [[category of chain complexes of super vector spaces]] $(Ch(SuperVect), \otimes)$ from Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} are equivalent
 
 $$
   \tau_{Deligne}
-  \;\colon\;
-  \alpha_i \otimes \alpha_j
-  \;\mapsto\;
-  (-1)^{ (n_i n_j + \sigma_i \sigma_j) }
-  \,
-  \alpha_j \otimes \alpha_i
-$$
-
-$$
+  \;\simeq\;
   \tau_{Bern}
+$$
+
+in that the [[identify functor]] on  $Ch(SuperVect)$ equipped with the monoidal [[natural isomorphism]] 
+
+$$
+  id
+$$
+
+$$
+  \mu
   \;\colon\;
   \alpha_i \otimes \alpha_j
   \;\mapsto\;
-  (-1)^{ (n_i + \sigma_i) (n_j + \sigma_j) }
-  \,
-  \alpha_j \otimes \alpha_i
+  (-1)^{ n_i \sigma_j  } \alpha_i \otimes \alpha_j
 $$
 
 
-There is a [[nLab:strong monoidal functor|strong]] [[symmetric monoidal functor|symmetric monoidal]] [[equivalence of categories]]
+structure of a [[nLab:strong monoidal functor|strong]] [[symmetric monoidal functor]] 
 
 $$
   (Ch(SuperVect), \otimes, \tau_{Deligne})
@@ -567,13 +705,7 @@ $$
 whose underlying [[functor]] is the [[identity functor]], and 
 with monoidal structure map given by
 
-$$
-  \mu
-  \;\colon\;
-  \alpha_i \otimes \alpha_j
-  \;\mapsto\;
-  (-1)^{ n_i \sigma_j  } \alpha_i \otimes \alpha_j
-$$
+=--
 
 (...)
 
@@ -679,7 +811,7 @@ And with explicit acknowledgement that there is also the alternative super odd s
 
 ### Super odd sign rule
 
-* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]],  theorem 1, theorem 6.5 of _Homological Algebra for Superalgebras of Differentiable Functions_ ([arXiv:1212.3745](https://arxiv.org/abs/1212.3745))
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]],  _Homological Algebra for Superalgebras of Differentiable Functions_ ([arXiv:1212.3745](https://arxiv.org/abs/1212.3745))
 
 ...
 
