@@ -60,6 +60,64 @@ This is the _K-theory spectrum of $C$_.
 
 ([Elmendorf-Mandell, def. 4.3](#ElmendorfMandell06))
 
+## Examples
+ {#Examples}
+
++-- {: .num_example #OrdinaryAlgebraicKTheoryFromPermutativeCategoryOfProjectiveModules}
+###### Example
+**(ordinary [[algebraic K-theory]])**
+
+For $R$ a [[commutative ring]], let $\mathcal{C} = R Mod_{pr}$ its [[category of modules|category of]] [[projective modules]] regared as a [[permutative category]]. Then 
+
+$$
+  K (R Mod_{pr}) \;\simeq\; K R
+$$ 
+
+is the ordinary [[algebraic K-theory]] spectrum of the ring $R$. 
+
+=--
+
+(e.g. [Elmendorf-Mandell 04, p. 10](#ElmendorfMandell04)).
+
+
++-- {: .num_example #StableCohomotopyIsKTheoryOfFinSet}
+###### Example
+**([[stable cohomotopy]] is K-theory of [[FinSet]])**
+
+Let $\mathcal{C} = $ [[FinSet]] be a [[skeleton]] of the category of [[finite sets]], regarded as a [[permutative category]]. Then 
+
+$$
+  K(FinSet) \;\simeq\; \mathbb{S}
+$$
+
+is the [[sphere spectrum]], hence represents the [[cohomology theory]] called _[[stable cohomotopy]]_.
+
+=--
+
+(due to [Segal 74, Prop. 3.5](#Segal74), see also [Priddy 73](#Priddy73))
+
++-- {: .num_remark #StableCohomotopyIsAlgebraicKTheoryOverFieldWithOneElement}
+###### Remark
+**([[stable cohomotopy]] as [[algebraic K-theory]] over the [[field with one element]])**
+
+Since ([[pointed sets|pointed]]) [[finite sets]] may be regarded as the modules over the "[[field with one element]]" $\mathbb{F}_1$ (see [there](field+with+one+element#Modules)), 
+
+$$
+  \mathbb{F}_1 Mod
+  \;=\;
+  FinSet^{\ast/}
+$$
+
+one may read example \ref{StableCohomotopyIsKTheoryOfFinSet} in view of example \ref{OrdinaryAlgebraicKTheoryFromPermutativeCategoryOfProjectiveModules} as saying that [[stable cohomotopy]] is the algebraic K-theory of the [[field with one element]]:
+
+$$
+  K \mathbb{F}_1 \;=\; \mathbb{S}
+  \,.
+$$
+
+This perspective is highlighted for instance in ([Deitmar 06, p. 2](#Deitmar06), [Guillot 06](#Guillot06)).
+
+=--
 
 ## Related concepts
 
@@ -73,9 +131,10 @@ This is the _K-theory spectrum of $C$_.
 
 * {#Quillen} [[Daniel Quillen]], _On the group completion of a simplicial monoid_
 
-* {#Segal} [[Graeme Segal]], _Catgeories and cohomology theories_, Topology vol 13 (1974)  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
- 
+* {#Priddy73} [[Stewart Priddy]], _Transfer, symmetric groups, and stable homotopy theory_, in _Higher K-Theories_, Springer, Berlin, Heidelberg, 1973. 244-255 ([pdf](https://link.springer.com/content/pdf/10.1007/BFb0067060.pdf))
 
+* {#Segal74} [[Graeme Segal]], _Catgeories and cohomology theories_, Topology vol 13 (1974)  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
+ 
 * [[Peter May]], _The spectra associated to permutative categories_, Topology 17 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/23.pdf))
 
 * {#May} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
@@ -85,8 +144,12 @@ This is the _K-theory spectrum of $C$_.
 
 * [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories as a model of connective stable homotopy_, in: [[Birgit Richter]] (ed.) _Structured Ring spectra_, Cambridge University Press (2004)
 
-* {#ElmendorfMandell06} [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
+* {#ElmendorfMandell04} [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, Adv. in Math. 205 (2006), no. 1, 163-228 ([arXiv:math/0403403](https://arxiv.org/abs/math/0403403))
  
-* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082v2](http://arxiv.org/abs/0710.0082))
+* {#ElmendorfMandell09} [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082), [euclid:1513797088](https://projecteuclid.org/euclid.agt/1513797088))
 
+The interpretation of [[stable cohomotopy]] as the algebraic K-theory over the [[field with one element]] is adopted in
 
+* {#Deitmar06} [[Anton Deitmar]], _Remarks on zeta functions and K-theory over $\mathbb{F}_1$_ ([arXiv:math/0605429](https://arxiv.org/abs/math/0605429))
+
+* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](https://arxiv.org/abs/math/0612327))
