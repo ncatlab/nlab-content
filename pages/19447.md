@@ -22,7 +22,7 @@ The notion of a **regular semicategory** generalizes the notion of a _regular al
 
 ## Preliminaries
 
-Let us first recall a couple of concepts
+For convenience let us first recall a couple of concepts
 
 +-- {: .num_defn #semifunctor}
 ###### Definition 
@@ -44,8 +44,13 @@ $$
 
 +-- {: .num_defn #semipresheaf}
 ###### Definition 
-A _presheaf_ on a semicategory $\mathcal{G}$ is a morphism of semicategories $F:\mathcal{G}^{op}\to Set$. The category $Prsh(\mathcal{G})$ has objects presheaves on $\mathcal{G}$ and morphisms the natural transformations and is the called _the category of presheaves of the semicategory $\mathcal{G}$_.
+A [[semipresheaf|_presheaf_ on a semicategory]] $\mathcal{G}$ is a morphism of semicategories $F:\mathcal{G}^{op}\to Set$. The category $Prsh(\mathcal{G})$ has objects presheaves on $\mathcal{G}$ and morphisms the natural transformations and is the called _the category of presheaves of the semicategory $\mathcal{G}$_.
 =--
+
+$Prsh(\mathcal{G})$ is indeed a _category_! Denoting $\overline{\mathcal{G}}$ the category resulting from $\mathcal{G}$ by adding the missing identity morphisms, it is easy to check that $Prsh(\mathcal{G})\simeq PrSh(\overline{\mathcal{G}})$ and that the latter coincides with the usual [[presheaf category]] hence $Prsh(\mathcal{G})$ is even a [[Grothendieck topos]].
+
+Given $\mathcal{G}$ there is also a **Yoneda morphism** $Y_\mathcal{G}:\mathcal{G}\to Prsh(\mathcal{G})$ defined on objects as usual by $X\mapsto Hom_\mathcal{G}({}_-,X)$. Since semicategories embed into categories only iff they are categories themselves it follows that $Y_\mathcal{G}$ is fully-faithful iff $\mathcal{G}$ is a category!
+
 
 ## Definition
 
