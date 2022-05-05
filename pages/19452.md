@@ -2133,6 +2133,100 @@ $$
 
 =--
 
+The following equivalent formulation (Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}) of [[universal morphisms]] is often useful:
+
++-- {: .num_example #CommaCategoryWithOneSideConstant}
+###### Example
+**([[comma category]])**
+
+Let $\mathcal{C}$ be a [[category]], let $c \in \mathcal{C}$ be any [[object]], and let $F \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]].
+
+1. The _[[comma category]]_ $c/F$ is the [[category]] whose [[objects]] are [[pairs]] consisting of an object $d \in \mathcal{D}$ and [[morphisms]] $X \overset{f}{\to} F(d)$ in $\mathcal{C}$, and whose [[morphisms]] $(d_1,X_1,f_1) \to (d_2,X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ F(g)
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        X_1 && \overset{\phantom{AA} g \phantom{AA}}{\longrightarrow} && X_2
+        \\
+        F(X_1) 
+          && 
+          \overset{\phantom{AA} F(g) \phantom{AA}}{\longrightarrow} 
+          &&
+        F(X_2)
+        \\
+        & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
+        \\
+        && c
+     }
+   $$
+
+   There is a canonical [[functor]] 
+
+   $$
+     \array{
+       F/c
+       &\overset{}{\longrightarrow}& 
+       \mathcal{D}
+     }
+     \,.
+   $$
+
+
+1. The _[[comma category]]_ $F/c$ is the [[category]] whose [[objects]] are [[pairs]] consisting of an [[object]] $d \in \mathcal{D}$ and a [[morphism]] $F(d) \overset{f}{\to} X$ in $\mathcal{C}$, and whose [[morphisms]] $(d_1,X_1,f_1) \to (d_2,X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ F(g)
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        && c
+        \\
+        & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+        \\
+        F(X_1) 
+          && 
+          \underset{\phantom{AA} F(g) \phantom{AA}}{\longrightarrow} 
+          &&
+        F(X_2)
+        \\
+        X_1 && \underset{ \phantom{AA} g \phantom{AA} }{\longrightarrow} && X_2
+     }
+   $$
+
+   Again, there is a canonical [[functor]] 
+
+   \[
+     \label{CanonicalFunctorOutOfCommaCategoryOfcOverF}
+     \array{
+       c/F 
+       &\overset{}{\longrightarrow}& 
+       \mathcal{D}
+     }
+   ]
+
+=--
+
+With this definition, the following is evident:
+
++-- {: .num_prop #UniversalMorphismsAreInitialObjectsInCommaCategory}
+###### Proposition
+**([[universal morphisms]] are [[initial objects]] in the [[comma category]])**
+
+Let $\mathcal{C} \overset{R}{\longrightarrow} \mathcal{D}$ be a [[functor]] and $d \in \mathcal{D}$ an [[object]]. Then the following are equivalent:
+
+1. $d \overset{\eta_d}{\to} R(c)$ is a [[universal morphism]] into $R(c)$ (Def. \ref{UniversalArrow});
+
+1. $(d, \eta_d)$ is the [[initial object]] in the [[comma category]] $d/R$ (Example \ref{CommaCategoryWithOneSideConstant}).
+
+
+=--
+
+
+$\,$
 
 $\,$
 
@@ -3191,7 +3285,7 @@ In both cases this yields a [[closed monoidal category]] (Def. \ref{ClosedMonoid
 ###### Example
 **([[tensor product]] of [[abelian groups]] is [[closed monoidal category]] [[symmetric monoidal category|symmetric]] [[monoidal category]]-[[structure]])**
 
-The category [[Ab]] of [[abelian groups]] (as in Example \ref{ExamplesOfConcreteCategories}) becomes a [[symmetric monoidal category]] (Def. \ref{SymmetricMonoidalCategory}) with [[tensor product]] the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
+The category [[Ab]] of [[abelian groups]] (as in Example \ref{ExamplesOfConcreteCategories}) becomes a [[symmetric monoidal category]] (Def. \ref{SymmetricMonoidalCategory}) with [[tensor product]] the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets.
 
 This is a [[closed monoidal category]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
 
@@ -4290,6 +4384,7 @@ But these three kinds of constructions all turn out to be special cases of each 
 
 $\,$
 
+
 ### Limits and colimits
  {#LimitsAndColimits}
   
@@ -4629,168 +4724,88 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 $\,$
 
 
-+-- {: .num_example #SliceCategory}
-###### Example
-**([[slice category]])**
-
-Let $\mathcal{C}$ be a [[category]], and let $c \in \mathcal{C}$ be any [[object]]. Then 
-
-1. The _[[slice category]]_ (or "[[overcategory]]") $\mathcal{C}_{/c}$ is the [[category]] whose [[objects]] are the [[morphisms]] $X \overset{f}{\to} c$ in $\mathcal{C}$, into $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
-
-   $$
-     f_2\circ g
-     \;=\;
-     f_1
-     \phantom{AAAAAA}
-     \array{
-        X_1 
-          && 
-          \overset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
-          &&
-        X_2
-        \\
-        & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
-        \\
-        && c
-     }
-   $$
-
-   Hence there is a canonical [[functor]] 
-
-   $$
-     \array{
-       \mathcal{C}_{/c} 
-       &\overset{}{\longrightarrow}& 
-       \mathcal{C}
-     }
-   $$
-
-   given by forgetting the morphisms to $c$.
-
-
-1. The _[[coslice category]]_ (or "[[undercategory]]") $\mathcal{C}^{c/}$ is the [[category]] whose [[objects]] are the [[morphisms]] $c \overset{f}{\to} X$ in $\mathcal{C}$, out of $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
-
-   $$
-     f_2\circ g
-     \;=\;
-     f_1
-     \phantom{AAAAAA}
-     \array{
-        && c
-        \\
-        & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
-        \\
-        X_1 
-          && 
-          \underset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
-          &&
-        X_2
-     }
-   $$
-
-   Again, there is a canonical [[functor]] 
-
-   $$
-     \array{
-       \mathcal{C}_{c/} 
-       &\overset{}{\longrightarrow}& 
-       \mathcal{C}
-     }
-   $$
-
-   given by forgetting the morphisms to $c$.
-
-
-=--
-
-
-+-- {: .num_prop #LimitInCosliceCategory}
++-- {: .num_prop #PointwiseExpressionOfLeftAdjoints}
 ###### Proposition
-**([[limit]] in a [[coslice category]])**
+**(pointwise expression of [[left adjoints]] in terms of [[limits]] over [[comma categories]])**
 
-Let $\mathcal{C}$ be a [[category]], $c \in \mathcal{C}$ any [[object]], and consider the corresponding [[coslice category]] $\mathcal{C}^{c/}$ (Def. \ref{SliceCategory}). 
+A [[functor]] $R \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ (Def. \ref{Functors}) has a [[left adjoint]] $L \;\colon\; \mathcal{D} \longrightarrow \mathcal{C}$ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) precisely if 
 
-A  [[limit]] in an [[under category]] is computed as a limit in the underlying category.
+1. $R$ [[preserved limit|preserves]] all [[limits]] (Def. \ref{Limits}) that exist in $\mathcal{C}$; 
 
-Precisely: let $C$ be a [[category]], $t \in C$ an [[object]], and $t/C$ the corresponding [[under category]], and $p : t/C \to C$ the obvious projection.
+1. for each [[object]] $d \in \mathcal{D}$, the [[limit]] (Def. \ref{Limits}) of the canonical functor (eq:CanonicalFunctorOutOfCommaCategoryOfcOverF)
 
-Let $F : D \to t/C$ be any [[functor]]. Then, if it exists, the [[limit]] over $p \circ F$ in $C$ is the image under $p$ of the limit over $F$:
+   $$
+     d/R \longrightarrow \mathcal{C}
+   $$
 
-$$
-  p(\lim F)  \simeq \lim (p F)
-$$
+   out of the [[comma category]] (Example \ref{CommaCategoryWithOneSideConstant}) exists.
 
-and $\lim F$ is uniquely characterized by $\lim (p F)$.
+In this case the [[left adjoint]] on $d$ is given by that limit:
 
+\[
+  \label{FormulaForLeftAdjointByPointwiseLimit}
+  L(d)
+  \;\simeq\;
+  \underset{\underset{ \left( c,  \array{ d \\ \downarrow^{\mathrlap{f}} \\ R(c) } \right)  \in d/R }{\longleftarrow}}{\lim} c
+\]
 
 =--
- 
+
+
 +-- {: .proof}
 ###### Proof
 
-Over a morphism $\gamma : d \to d'$ in $D$ the limiting cone over $p F$  (which exists by assumption) looks like
+First assume that the left adjoint exist. Then 
+
+1. $R$ is a [[right adjoint]] and hence preserves limits since all [[right adjoints preserve limits]] (Prop. \ref{AdjointsPreserveCoLimits});
+
+1. by Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} the [[adjunction unit]] provides a [[universal morphism]] $\eta_d$ into $L(d)$, and hence, by Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, exhibits $(L(d), \eta_d)$ as the [[initial object]] of  the [[comma category]] $d/R$. The limit over any category with an initial object exists, as it is given by that initial object.
+
+Conversely, assume that the two conditions are satisfied and let $L(d)$ be given by (eq:FormulaForLeftAdjointByPointwiseLimit). We need to show that this yields a left adjoint.
+
+By the assumption that $R$ preserves all limits that exist, we have
+
+\[
+  \label{RAppliedtoFormulaForLeftAdjointByPointwiseLimit}
+  \array{
+    R(L(d))
+    & =
+    R\left(
+    \underset{\underset{ \left( c,  \array{ d \\ \downarrow^{\mathrlap{f}} \\ R(c) } \right)  \in d/R }{\longleftarrow}}{\lim} c
+  \right)
+   \\
+   & \simeq
+    \underset{\underset{ \left( c,  \array{ d \\ \downarrow^{\mathrlap{f}} \\ R(c) } \right)  \in d/R }{\longleftarrow}}{\lim} R(c)
+  }
+\]
+
+Since the $d \overset{f}{\to} R(d)$ constitute a [[cone]] over the [[diagram]] of the $R(d)$, there is universal morphism
+
+$$
+  d \overset{\phantom{AA} d \phantom{AA}}{\longrightarrow} R(L(d))
+  \,.
+$$
+
+By Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} it is now sufficient to show that $\eta_d$ is a [[universal morphism]] into $L(d)$, hence that for all $c \in \mathcal{C}$ and $d \overset{g}{\longrightarrow} R(c)$ there is a unique morphism $L(d) \overset{\widetilde f}{\longrightarrow} c$ such that
 
 $$
   \array{
-    && \lim p F
+    && d
     \\
-    & \swarrow && \searrow
+    & {}^{\mathllap{ \eta_d }}\swarrow && \searrow^{\mathrlap{f}}
     \\
-    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+    R(L(d)) && \underset{\phantom{AA}R(\widetilde f)\phantom{AA}}{\longrightarrow} && R(c)
+    \\
+    L(d) 
+      &&\underset{\phantom{AA}\widetilde f\phantom{AA}}{\longrightarrow}&&
+    c
   }
 $$
 
-
-By the universal property of the limit this has a unique
-lift to a cone in the [[under category]] $t/C$ over $F$:
-
-$$
-  \array{
-    && t 
-    \\
-    & \swarrow &\downarrow & \searrow
-    \\
-    && \lim p F
-    \\
-    \downarrow & \swarrow && \searrow & \downarrow
-    \\
-    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
-  }
-$$
-
-
-It therefore remains to show that this is indeed a limiting cone over $F$. Again, this is immediate from the universal property of the limit in $C$. For let $t \to Q$ be another cone over $F$ in $t/C$, then $Q$ is another cone over $p F$ in $C$ and we get in $C$ a universal morphism $Q \to \lim p F$
-
-$$
-  \array{
-    && t
-    \\
-    & \swarrow & \downarrow & \searrow
-    \\
-    && Q
-    \\
-    \downarrow & \swarrow &\downarrow & \searrow & \downarrow
-    \\
-    && \lim p F
-    \\
-    \downarrow & \swarrow && \searrow & \downarrow
-    \\
-    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
-  }
-$$
-
-
-A glance at the diagram above shows that
-the composite $t \to Q \to \lim p F$ constitutes a morphism
-of cones in $C$ into the limiting cone over $p F$. Hence it must equal our morphism $t \to \lim p F$, by the universal property of $\lim p F$, and hence the above diagram does commute as indicated.
-
-This shows that the morphism $Q \to \lim p F$
-which was the unique one giving a cone morphism on $C$ does lift to a
-cone morphism in $t/C$, which is then necessarily unique, too.  This demonstrates the required universal property of $t \to \lim p F$ and 
-thus identifies it with $\lim F$.
-
+By Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, this is equivalent to $(L(d), \eta_d)$ being the [[initial object]] in the [[comma category]] $c/R$, which in turn is equivalent to it being the [[limit]] of the [[identity functor]] on $c/R$. But this follows directly from the limit formulas (eq:FormulaForLeftAdjointByPointwiseLimit) and (eq:RAppliedtoFormulaForLeftAdjointByPointwiseLimit).
 
 =--
+
 
 
 
