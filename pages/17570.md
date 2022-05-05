@@ -36,7 +36,7 @@ A non-empty [[class]] of [[compact Lie groups]] is called a **global family** if
 
 =--
 
-(e.g. [Schwede 13, chapter I def. 5.1](#Schwede13))
+(e.g. [Schwede 18, def. 1.4.1](#Schwede18))
 
 ## Examples
 
@@ -75,6 +75,6 @@ The following are examples of global families (def. \ref{GlobalFamily}): the cla
 
 ## References
 
-* {#Schwede13} [[Stefan Schwede]], section I.5 of _[[Global homotopy theory]]_
+* {#Schwede18} [[Stefan Schwede]], section 1.4 of _[[Global homotopy theory]]_
 
  
