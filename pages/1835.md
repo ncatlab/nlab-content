@@ -30,7 +30,9 @@ Throughout this article, "ring" will mean "commutative ring with unit".
 
 ### As locally ringed spaces ##
 
-A __scheme__ is a [[locally ringed space]] $(X, \mathcal{O}_X)$ with an open cover (as locally ringed spaces), by [[affine scheme]]s: the [[ring spectrum|spectra]] $Spec A = (|Spec A|, \mathcal{O}_{Spec A})$ of unital commutative [[ring]]s.
+A __scheme__ is a [[locally ringed space]] $(X, \mathcal{O}_X)$ such that, for every point $x$ of $X$, there is an open subset $U$ of $X$ with $x \in U$ such that the locally ringed space $(U, \mathcal{O}_{X} | U)$ is isomorphic to an [[affine scheme]], that is to say, a commutative [[ring spectrum]] $Spec A = (|Spec A|, \mathcal{O}_{Spec A})$. 
+
+Here $\mathcal{O}_{X} | U$ denotes the restriction of $\mathcal{O}_{X}$ to $U$, that is to say, the sheaf $i^{*}(\mathcal{O}_{X})$, where $i: U \hookrightarrow X$ is the inclusion map, and $i^{*}$ is the corresponding [[inverse image]] functor from the category of sheaves on $X$ to the category of sheaves on $U$.
 
 A [[morphism of schemes]] $f : (X,\mathcal{O}_X) \to (Y,\mathcal{O}_Y)$ is a morphism of the underlying [[locally ringed space]]s. This means it is a morphism of [[ringed space|ringed spaces]] such that for each point $x \in X$ the induced map of [[local ring]]s
 
