@@ -54,6 +54,10 @@ The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume
 
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
 
+Derivation from [[open string field theory]] is discussed in
+
+* [[Taejin Lee]], _Covariant Open String Field Theory on Multiple D$p$-Branes_ ([arXiv:1703.06402](https://arxiv.org/abs/1703.06402))
+
 
 Further perspective includes
 
