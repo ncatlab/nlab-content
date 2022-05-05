@@ -96,46 +96,21 @@ In general neither of these two properties implies the other:
 ###### Example
 **(a compact space which is not sequentially compact)**
 
-Consider the [[product topological space]] (with its [[Tychonoff topology]])
+Consider the following uncountable power of the [[discrete space]] $2$, i.e., the [[product topological space]] (with its [[Tychonoff topology]])
 
 $$
-  X \coloneqq \underset{[0,1)}{\prod} Disc(\{0,1\})
+  X \coloneqq \underset{f: \mathbb{N} \to 2}{\prod} Disc(\{0,1\})
 $$
 
-of copies of the [[discrete space]] on two elements, indexed by the points in the [[half-open interval]]. Since $Disc(\{0,1\})$ is a [[finite topological space|finite]] [[discrete topological space]] it is clearly compact. Therefore the [[Tychonoff theorem]] says that also $X$ is compact.
+of copies of the discrete space on two elements, indexed by functions $f: \mathbb{N} \to \{0, 1\}$. Since $Disc(\{0,1\})$ is a [[finite topological space|finite]] [[discrete topological space]] it is clearly compact. Therefore the [[Tychonoff theorem]] says that also $X$ is compact.
 
-But here is an instance of a [[sequence]] $x_{(-)}$ in $X$ which does not have a convergent sub-sequence:
+Let $(x_n)_{n: \mathbb{N}}$ be the sequence in $X$ given by the [[duality|double-dual embedding]] 
 
-By the nature of the [[product]], an element $x \in X$ is a [[tuple]] of elements $\pi_r(x) \in \{0,1\}$ for $r \in [0,1)$. Now for $n \in \mathbb{N}$ define $x_n$ by
+$$\mathbb{N} \to 2^{2^\mathbb{N}},$$ 
 
-$$
-  \pi_r(x_n) \coloneqq n\text{th digit in the binary expansion of}\,r
-  \,.
-$$
+i.e., define $x_n$ to have coordinate at $f: \mathbb{N} \to 2$ given by $(x_n)_f = f(n)$. We claim this sequence has no subsequence that converges in $X$, so that $X$ is not sequentially compact. We will argue by contradiction (technically what follows is a [[proof of negation]] that on its own is constructively valid, although the part of the argument above that invokes the Tychonoff theorem is not constructive). 
 
-Suppose this sequence $(x_n)_{n \in \mathbb{N}}$ had a subsequence $(x_{(n_k)})_{k \in \mathbb{N}}$, converging to some $x_\infty \in X$, hence that for every open neighbourhood $\{x_\infty\} \subset U \subset X$ there were a $k_0 \in \mathbb{N}$ such that $x_{n_{k \geq k_0}} \in U$.
-
-Considering then for each $r \in [0,1)$ the Tychonoff-open subset
-
-$$
-  \{ \pi_r(x_\infty) \}
-  \times
-  \left(
-    \underset{r' \in [0,1) \backslash \{r\}}{\prod}
-    \{0,1\}
-  \right)
-$$
-
-this would imply that there were $n_0$ such that
-
-$$
-  \pi_r( x_{k_{n \geq n_0}} )
-  =
-  \pi_r(x_\infty)
-$$
-
-hence that the binary expansion of $r$ had the same digit in position $k_n$ for  all $n \geq n_0$. This is clearly not the case for all $r$ (if it is true for some $r$, just change one of these digits to obtain an $r'$ for which it is not), and hence we have a [[proof by contradiction]].
-
+Suppose instead some subsequence $(x_{(n_k)})_{k \in \mathbb{N}}$ converges to some $x \in X$. Choose any $f: \mathbb{N} \to 2$ that is not eventually constant on the subsequence $(n_k)_{k: \mathbb{N}}$; for example, define $f: \mathbb{N} \to 2$ by $f(n_k) = k\; mod\; 2$, else $f(n) = 0$ if $n$ does not appear in the subsequence. Consider the open set $U_f = \{x_f\} \times \prod_{g: g \neq f} \{0, 1\}$, which is an open neighborhood of $x$. In order to have $x_{n_k} \in U_f$ for all $k \geq k_0$, we'd have to have $f(n_k) = x_f$ for all $k \geq k_0$, in other words $f$ would be eventually constant on the subsequence $n_k$. Contradiction.
 
 =--
 
