@@ -179,6 +179,8 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 * [[Ho(Cat)]]
 
+* [[double category of model categories]]
+
 [[!include locally presentable categories - table]]
 
 
