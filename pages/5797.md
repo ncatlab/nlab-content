@@ -33,7 +33,7 @@ Abstractly, the definition is immediate:
 +-- {: .num_defn #SuperLInfinityAlgebra}
 ###### Definition
 
-A **super $L_\infty$-algebra** is an [[L-∞ algebra]] [[internalization|internal to]] the [[symmetric monoidal category]] of [[super vector spaces]].
+A **super $L_\infty$-algebra** is an [[L-∞ algebra]] [[internalization|internal to]] the [[symmetric monoidal category]] of [[super vector spaces]] (i.e. in [[chain complexes of super vector spaces]]).
 
 =-- 
 
@@ -145,7 +145,7 @@ In order to define the correct homomorphisms between super $L_\infty$-algebras (
 
 A super $L_\infty$ algebra $\mathfrak{g}$ is of _[[finite type]]_ if the underlying $\mathbb{Z} \times (\mathbb{Z}/2)$-[[graded vector space]] is degreewise of [[finite number|finite]] [[dimension]].
 
-If $\mathfrak{g}$ is of finite type, then its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ is the [[dg-algebra]] whose underlying [[graded algebra]] is the super-Grassmann algebra
+If $\mathfrak{g}$ is of finite type, then its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ is the [[differential graded-commutative superalgebra]] whose underlying [[graded algebra]] is the super-Grassmann algebra
 
 $$
   \wedge^\bullet \mathfrak{g}^{\ast}
@@ -205,10 +205,10 @@ $$
 (here $f^\ast$ is the primitive concept, and $f$ is defined as the [[formal duality|formal dual]] of $f$). Hence the [[category]] of super $L_\infty$-algebras of [[finite type]] is the [[full subcategory]]
 
 $$
-  s L_\infty Alg \hookrightarrow dgAlg^{op}
+  s L_\infty Alg \hookrightarrow dgcsAlg^{op}
 $$
 
-of the [[opposite category]] of [[dg-algebras]] on those that are CE-algebras as above.
+of the [[opposite category]] of [[differential graded-commutative superalgebras]] on those that are CE-algebras as above.
 
 Finally, the [[cochain cohomology]] of the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ of a super $L_\infty$ algebra of [[finite type]] is its _[[L-∞ algebra cohomology]]_ with [[coefficients]] in $\mathbb{R}$:
 
@@ -313,15 +313,17 @@ and its super-$L_\infty$-extensions to the
 
 * [[type II supergravity Lie 2-algebra]]
 
-play a central role. Their exceptional [[infinity-Lie algebra cohomology]] governs the consistent [[Green-Schwarz action functionals]] for super-$p$-[[branes]]. (See the discusson of the _[brane scan](Green-Schwarz+action+functional#BraneScan)_) there.
+play a central role. Their exceptional [[infinity-Lie algebra cohomology]] governs the consistent [[Green-Schwarz action functionals]] for super-$p$-[[brane|branes]]. (See the discusson of the _[brane scan](Green-Schwarz+action+functional#BraneScan)_) there.
 
-See at _[[geometry of physics -- fundamenal super p-branes]]_ for more on this.
+See at _[[geometry of physics -- fundamental super p-branes]]_ for more on this.
 
 $\,$
 
 The [[BRST complex]] of the [[superstring]] might form a super $L_\infty$-algebra whose brackets give the [[n-point function]] of the string, in analogy to what happens for the bosonic string in Zwiebach's [[string field theory]]. (...)
 
 ## Related concepts
+
+* [[model structure on chain complexes of super vector spaces]]
 
 * [[model structure on differential graded-commutative superalgebras]]
 
