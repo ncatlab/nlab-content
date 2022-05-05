@@ -96,6 +96,8 @@ of the category of [[left Quillen functors]] and [[natural transformations]] bet
 
 This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).
 
+
+
 +-- {: .num_prop #}
 ###### Proposition
 
@@ -124,6 +126,7 @@ For $\mathcal{C}$ a [[2-category]] write
 
 +-- {: .num_prop}
 ###### Proposition
+**([[localization]] of $CombModCat$ at the [[Quillen equivalences]])**
 
 The composite 1-functor
 
@@ -146,9 +149,13 @@ $$
   \,.
 $$
 
+Moreover, this localization inverts precisely (only) the [[Quillen equivalences]].
+
+
 =--
 
-This is the statement of [Renaudin 06, cor. 2.3.8](#Renaudin06).
+This is the statement of [Renaudin 06, cor. 2.3.8 with prop. 2.3.4](#Renaudin06).
+
 
 +-- {: .num_cor #EquivalenceToHoPrDer}
 ###### Corollary
