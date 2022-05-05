@@ -23,6 +23,10 @@
 
 If one allows [[pseudo-Riemannian manifolds]] with [[conical singularities]] then it makes sense to ask for [[spacetimes]] which are flat ([[isometry|isometric]] to pieces of [[Minkowski spacetime]]) away from [[stratified space|strata]] of [[positive number|positive]] [[codimension]], with all [[curvature]] concentrated in [[conical singularities]] on these lower-dimensional strata.
 
+<center>
+<img src="https://ncatlab.org/nlab/files/ConicalSingularity.jpg" width="300">
+</center>
+
 Such piecewise flat spacetimes have been considered as discretized models for smooth (non-singular and non-piecewise flat) [[spacetimes]] useful for [[computation]]. A [[combinatorics|combinatorial]] [[functional]] on piecewise flat spacetimes, depending on the [[edge]] [[lengths]] of a metric [[simplicial complex]], was introduced in [Regge 61](#Regge61) (see also [Barrett 87](#Barrett87)) with the idea that in an appropriate [[limit of a sequence|limit]] it approaches the [[Einstein-Hilbert action]] [[functional]] on non-singular [[spacetimes]]. This has become famous as _Regge calculus_. That this [[limit of a sequence|limit]] indeed works out has been proven (only) in [Cheeger-Mueller-Schrader 84](#CheegerMuellerSchrader84), see [Cheeger 16](#Cheeger16) for review.
 
 The conjecture that thus the [[spacetime]] of the [[observable universe]] might _fundamentally_ be piecewise flat on microscopic scales, with fundamental [[matter]] concentrated at [[string]]-shaped [[conical singularities]] has been put forward in ['t Hooft 08](#tHooft08) and worked out in some detail by [van de Meent 11](#vandeMeent11)
