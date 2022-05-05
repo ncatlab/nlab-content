@@ -32,7 +32,7 @@ $$
   1 \underset{A}{\sqcup} B
   \phantom{AAAAAA}
   \array{
-    A &\stackrel{f}{\longrightarrow}& B
+    A &\stackrel{\phantom{A}f\phantom{A}}{\longrightarrow}& B
     \\
     \big\downarrow &{}^{(po)}& \big\downarrow
     \\
