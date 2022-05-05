@@ -36,7 +36,7 @@ Similarly an _EI $(\infty,1)$-category_ is an [[(∞,1)-category]] in which ever
 
 * A group, $G$, understood as [delooped](group#delooping) to a pointed connected groupoid.
 
-Let $\mathcal{S}$ be a set of subgroups of a group $G$.
+Let $\mathcal{S}$ be a set of subgroups of a group $G$. The following are all EI_categories ([Webb08, p. 4078](#Webb08)):
 
 *  The *transporter category* $\mathcal{T}_{\mathcal{S}}$ has as its objects the members of $\mathcal{S}$, and morphisms $Hom(H,K) = N_G(H,K) = \{g \in G|{}^{g}H \subseteq K\}$.
 
@@ -56,7 +56,7 @@ The [[category of modules]] over the [[category algebra]] $k C$ is equivalent to
 
 ## References
 
-* [[Peter Webb]], _Standard stratifications of EI categories and Alperin's weight conjecture_, ([doi](https://doi.org/10.1016/j.jalgebra.2006.03.052))
+* {#Webb08} [[Peter Webb]], _Standard stratifications of EI categories and Alperin's weight conjecture_, ([doi](https://doi.org/10.1016/j.jalgebra.2006.03.052))
 
 * [[Karsten Dietrich]], _Representation Theory of EI-categories_, ([pdf](https://d-nb.info/1007029781/34))
 
