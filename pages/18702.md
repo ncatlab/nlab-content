@@ -60,6 +60,10 @@ reviewed in
 
 * {#Baraglia18} [[David Baraglia]], _Topological recursion and Bergman tau functions for the Hitchin system_, talk at _[Tau Functions of Integrable Systems and Their Applications](http://www.birs.ca/events/2018/5-day-workshops/18w5025)_, Banff 2018 ([recording](http://www.birs.ca/events/2018/5-day-workshops/18w5025/videos/watch/201809060845-Baraglia.html))
 
+See also 
+
+* {#Borot18} [[Gaëtan Borot]], _Quantum Airy structures and topological recursion_ talk at _[Geometry and Physics of Quantum Curves, Banff 2018](http://www.birs.ca/events/2018/5-day-workshops/18w5078)_ ([recording](http://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809100859-Borot.html))
+
 ### Relation to topological string and mirror symmetry
 
 The relation to the [[topological string]] [[B-model]], [[Gromov-Witten invariants]] and [[mirror symmetry]] is due to
