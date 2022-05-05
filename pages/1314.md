@@ -427,11 +427,11 @@ Applications include
 
 An original reference is
 
-* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, &#167;1 and &#167;2_On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
+* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, &#167;1 and &#167;2 of: _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
 
 A standard textbook is
 
-*  [[Stephen Halperin]], _Lecture Notes on Minimal Models_, Publications de l'U.E.R. Math&#233;matiques  Pures et Appliqu&#233;es, Universit&#233; des Sciences et techniques, Lille, Vol 3 (1981) Fasc.3. 
+* [[Stephen Halperin]], _Lecture Notes on Minimal Models_, Publications de l'U.E.R. Math&#233;matiques  Pures et Appliqu&#233;es, Universit&#233; des Sciences et techniques, Lille, Vol 3 (1981) Fasc.3. 
 
 This is based on
 
@@ -440,6 +440,8 @@ This is based on
 A useful survey is in 
 
 * {#Hess} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+
+
 
 
 [[!redirects polynomial differential form]]
